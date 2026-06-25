@@ -1,37 +1,119 @@
-# SAP CDS Knowledge Base (Offline RAG)
+# cds-kb-data
 
-Welcome to the **SAP CDS Knowledge Base**, a massive offline repository containing documentation for **7,355** SAP S/4HANA Cloud (Public Edition) Released CDS Views.
+Pure **data** repository for the SAP CDS Knowledge Base — consumed read-only by the
+[`cds-kb-mcp`](https://github.com/truongdva2/cds-kb-mcp) MCP server.
 
-This repository is heavily optimized for **Retrieval-Augmented Generation (RAG)** by AI Agents, ensuring lightning-fast search times without suffering from context overflow.
+No code, no build tooling here — just views and a pre-built search index.
 
-## 📂 Repository Structure
+## Contents
 
-The physical directory is intentionally flattened, moving away from deep tree hierarchies to a **Tag-based Routing System**.
+```
+views/                    7,355 SAP S/4HANA released CDS views, one .md each
+                          (YAML frontmatter + fields + associations + DDL source)
 
-*   `views/`: Contains 7,355 flattened `.md` files. Each file represents a single SAP Released CDS View (e.g., `I_SalesDocument.md`).
-*   `routers/`: Contains dynamically generated Markdown indexes (Routers).
-    *   `_MASTER_ROUTER.md`: **The central entry point.** This is where both AI Agents and Human Developers should begin their search.
-    *   `tag_*.md`: Individual tag indices grouping views by specific domains (e.g., `tag_sd_bil.md` groups all Billing-related views).
-*   `scripts/`: Contains the automation tools to manage the Knowledge Base.
-    *   `generate_tag_routers.js`: A Node.js script that scans the `views/` directory and regenerates all routers.
-    *   `tag_metadata.json`: The Heuristic Dictionary containing semantic keywords for 852 SAP Technical Components, Modules, and Business Objects.
+index/search_index.json   Pre-built MiniSearch (BM25) search index
+                          (~4.7 MB, self-describing, carries its own options)
+```
 
-## 🤖 AI Agent Guidelines
+### View file structure
 
-> [!IMPORTANT]
-> **CRITICAL RULE FOR AI AGENTS:**
-> 1. **DO NOT** run global `grep_search` or text searches across the `views/` directory. Scanning 7,300+ files will immediately cause Context Overflow.
-> 2. **ALWAYS** start your search by reading `routers/_MASTER_ROUTER.md`.
-> 3. Use the Semantic Keywords (e.g., *Financial Accounting, SD, Billing*) mapped in the Master Router to locate the correct tag.
-> 4. Navigate into the specific `tag_*.md` file to find the precise `views/*.md` file you need to read.
+Each `.md` file in `views/` follows this format:
 
-## ⚙️ How to Update
+```markdown
+---
+name: I_PURCHASEORDERAPI01
+description: Purchase Order
+app_component: MM-PUR-PO-2CL
+software_component: S4CORE
+release_state: released
+tags:
+  - MM
+  - purchase-order
+  - lob:Sourcing & Procurement
+  - bo:PurchaseOrder
+---
+# I_PURCHASEORDERAPI01
 
-If you manually add new CDS View `.md` files to the `views/` folder, you must rebuild the routing indices so AI Agents can discover them:
+**Purchase Order**
 
-1.  Open your terminal.
-2.  Navigate to the `scripts/` directory: `cd scripts`
-3.  Install dependencies (if not already installed): `npm install yaml`
-4.  Run the generator: `node generate_tag_routers.js`
+| Property | Value |
+|---|---|
+| App Component | `MM-PUR-PO-2CL` |
+| ...           | ...              |
 
-This script will automatically enrich the new views with semantic tags and rebuild the `_MASTER_ROUTER.md`.
+## Fields
+| Field | Data Source |
+|---|---|
+| `PurchaseOrder` | `PurchaseOrder` |
+| ...             | ...             |
+
+## Associations
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PurchaseOrderItem` | `I_PurchaseOrderItemAPI01` | [0..*] |
+| ...                  | ...                        | ...    |
+
+## Source Code
+(full ABAP DDL source with annotations)
+```
+
+### Index format
+
+`search_index.json` is a **self-describing wrapper**:
+
+```json
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-06-25T...",
+  "viewCount": 7355,
+  "enrichedCount": 7160,
+  "options": { "idField": "id", "fields": [...], "storeFields": [...] },
+  "minisearch": "<serialized MiniSearch index>"
+}
+```
+
+The MiniSearch `options` travel inside the file, so the MCP server shares **zero schema code**
+with this repo — they evolve independently as long as `schemaVersion` is honored.
+
+## How it connects to the MCP server
+
+The server reads **exactly two paths** at runtime:
+
+| Path | Purpose |
+|---|---|
+| `index/search_index.json` | Full-text search index (loaded once at startup) |
+| `views/<NAME>.md` | Individual view definitions (loaded on demand) |
+
+**Locally** via `--data <clone>`, or **remotely** via raw GitHub URL:
+
+```
+https://raw.githubusercontent.com/truongdva2/cds_knowledge_base/main
+```
+
+## Statistics
+
+| Metric | Value |
+|---|---|
+| Total CDS views | 7,355 |
+| Enriched (with `semanticDescription`) | 7,160 (97.3%) |
+| Unique SAP modules | 31 |
+| Views with business object tag | 889 |
+| Index file size | ~4.7 MB |
+| Views folder size | ~45 MB |
+| Top prefixes | `I_` (6594), `D_` (485), `C_` (179) |
+
+## Rebuilding the index
+
+`index/search_index.json` is a **pre-built artifact**. To rebuild or enrich it:
+
+```bash
+# In the cds-kb-mcp repo:
+node enrich_index.mjs /path/to/this/repo
+```
+
+This extracts `@EndUserText.label` from DDL source in each view file and rebuilds
+the MiniSearch index with human-readable `semanticDescription` and improved `description` fields.
+
+## License
+
+Internal use — SAP CDS view metadata extracted from public SAP documentation.
