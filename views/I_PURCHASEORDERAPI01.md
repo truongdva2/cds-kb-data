@@ -1,6 +1,13 @@
 ---
 name: I_PURCHASEORDERAPI01
 description: Purchase OrderAPI 01
+semantic_en: "Purchase order header — a formal order to a supplier for materials or services, with terms, quantities and approval status."
+semantic_vi: "Tiêu đề đơn mua hàng — đơn đặt chính thức gửi nhà cung cấp cho vật tư hoặc dịch vụ, gồm điều khoản, số lượng và trạng thái phê duyệt."
+keywords:
+  - đơn mua hàng
+  - đơn đặt hàng mua
+  - mua sắm
+  - PO
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

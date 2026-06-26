@@ -1,6 +1,13 @@
 ---
 name: I_GLACCOUNT
 description: GL Account
+semantic_en: "General ledger (G/L) account master — a chart-of-accounts account used to classify financial postings in accounting."
+semantic_vi: "Dữ liệu chủ tài khoản sổ cái (G/L) — tài khoản trong hệ thống tài khoản, dùng để phân loại các bút toán tài chính trong kế toán."
+keywords:
+  - tài khoản sổ cái
+  - tài khoản kế toán
+  - GL account
+  - hệ thống tài khoản
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

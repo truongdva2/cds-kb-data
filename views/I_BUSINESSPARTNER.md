@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNER
 description: Business Partner
+semantic_en: "Business partner master data — the central party (person, organization or group) used as customer, supplier or contact across S/4HANA."
+semantic_vi: "Dữ liệu chủ đối tác kinh doanh — thực thể trung tâm (cá nhân, tổ chức, nhóm) dùng làm khách hàng, nhà cung cấp hoặc người liên hệ trong S/4HANA."
+keywords:
+  - đối tác kinh doanh
+  - master data
+  - BP
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

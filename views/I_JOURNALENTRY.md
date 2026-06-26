@@ -1,6 +1,13 @@
 ---
 name: I_JOURNALENTRY
 description: Journal Entry
+semantic_en: "Journal entry header — an accounting document recording financial postings (debits and credits) in the universal journal (ACDOCA)."
+semantic_vi: "Tiêu đề bút toán — chứng từ kế toán ghi nhận các bút toán tài chính (Nợ và Có) trong sổ nhật ký tổng hợp (ACDOCA)."
+keywords:
+  - bút toán
+  - chứng từ kế toán
+  - hạch toán
+  - sổ cái
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

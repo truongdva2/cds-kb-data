@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIER
 description: Supplier
+semantic_en: "Supplier (vendor) master data — the business partner in the supplier role used for procurement and accounts payable."
+semantic_vi: "Dữ liệu chủ nhà cung cấp — đối tác kinh doanh ở vai trò nhà cung cấp, dùng cho mua sắm và công nợ phải trả."
+keywords:
+  - nhà cung cấp
+  - vendor
+  - công nợ phải trả
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_PRODUCT
 description: Product
+semantic_en: "Product (material) master data — goods or services that are procured, produced, stored or sold, with basic descriptive attributes."
+semantic_vi: "Dữ liệu chủ sản phẩm (vật tư) — hàng hóa hoặc dịch vụ được mua, sản xuất, lưu kho hoặc bán, kèm các thuộc tính mô tả cơ bản."
+keywords:
+  - sản phẩm
+  - vật tư
+  - material
+  - hàng hóa
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

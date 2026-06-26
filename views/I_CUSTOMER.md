@@ -1,6 +1,12 @@
 ---
 name: I_CUSTOMER
 description: Customer
+semantic_en: "Customer master data — the business partner in the customer role used for sales and accounts receivable."
+semantic_vi: "Dữ liệu chủ khách hàng — đối tác kinh doanh ở vai trò khách hàng, dùng cho bán hàng và công nợ phải thu."
+keywords:
+  - khách hàng
+  - customer
+  - công nợ phải thu
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

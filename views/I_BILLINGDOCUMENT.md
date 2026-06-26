@@ -1,6 +1,13 @@
 ---
 name: I_BILLINGDOCUMENT
 description: Billing DocumentUMENT
+semantic_en: "Billing document header — an invoice, credit memo or debit memo issued to a customer during sales billing."
+semantic_vi: "Tiêu đề chứng từ hóa đơn — hóa đơn, giấy báo có hoặc giấy báo nợ phát hành cho khách hàng trong khâu lập hóa đơn bán hàng."
+keywords:
+  - hóa đơn
+  - chứng từ hóa đơn
+  - billing
+  - xuất hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

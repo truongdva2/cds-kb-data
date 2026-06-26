@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDER
 description: Sales Order
+semantic_en: "Sales order header — a customer order for goods or services, with sold-to party, pricing, delivery and billing status."
+semantic_vi: "Tiêu đề đơn bán hàng — đơn đặt hàng của khách cho hàng hóa hoặc dịch vụ, gồm bên mua, định giá, trạng thái giao hàng và xuất hóa đơn."
+keywords:
+  - đơn bán hàng
+  - đơn hàng bán
+  - bán hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released
