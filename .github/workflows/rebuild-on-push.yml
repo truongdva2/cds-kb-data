@@ -1,0 +1,88 @@
+name: Rebuild search index on data change
+
+# Triggers whenever view markdown files or the taxonomy change.
+# Re-runs the enrich script (hosted in cds-kb-mcp) and commits the regenerated
+# search_index.json + version.json back to the data repo. MCP clients pick up
+# the new commit on their next startup via the version manifest probe.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'views/**'
+      - 'index/taxonomy.json'
+  workflow_dispatch:  # allow manual trigger
+
+# Avoid concurrent rebuilds racing each other to push to main.
+concurrency:
+  group: rebuild-index
+  cancel-in-progress: false
+
+# We need write access to push the rebuilt index back.
+permissions:
+  contents: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout cds-kb-data
+        uses: actions/checkout@v4
+        with:
+          # Ensure full history so rev-parse HEAD gives the right commit for version.json
+          fetch-depth: 0
+
+      - name: Checkout cds-kb-mcp (for enrich_index.mjs)
+        uses: actions/checkout@v4
+        with:
+          repository: truongdva2/cds-kb-mcp
+          path: .cds-kb-mcp
+          # Pin to main; bump this when you cut a tagged MCP release.
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install minisearch (the only dep enrich_index uses)
+        working-directory: .cds-kb-mcp
+        run: npm install --omit=dev --no-audit --no-fund
+
+      - name: Rebuild search_index.json + version.json
+        env:
+          # enrich_index.mjs prefers GITHUB_SHA over `git rev-parse` so the
+          # version manifest reflects the *new* commit this workflow is about
+          # to push, not the previous HEAD.
+          GITHUB_SHA: ${{ github.sha }}
+        run: |
+          node .cds-kb-mcp/enrich_index.mjs .
+          echo "--- new version.json ---"
+          cat index/version.json
+
+      - name: Show diff stats
+        run: |
+          git diff --stat index/search_index.json index/version.json || true
+
+      - name: Commit and push
+        run: |
+          # Clean up the embedded MCP checkout so it doesn't get committed
+          rm -rf .cds-kb-mcp
+          # Remove the .bak backup the enrich script always creates
+          rm -f index/search_index.json.bak
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add index/search_index.json index/version.json
+
+          if git diff --staged --quiet; then
+            echo "No index changes to commit — view edits didn't affect search output."
+            exit 0
+          fi
+
+          # Reference the trigger commit so reviewers can trace why the index changed.
+          git commit -m "chore(index): rebuild after ${{ github.sha }}" \
+                     -m "Triggered by: ${{ github.event.head_commit.message || 'manual dispatch' }}" \
+                     -m "Co-authored-by: ${{ github.event.head_commit.author.name || 'workflow_dispatch' }} <${{ github.event.head_commit.author.email || 'noreply@github.com' }}>"
+          git push
