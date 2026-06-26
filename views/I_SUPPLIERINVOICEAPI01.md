@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICEAPI01
 description: Supplier InvoiceAPI 01
+semantic_en: "Supplier invoice — an incoming invoice from a supplier, verified against the purchase order and goods receipt for accounts payable."
+semantic_vi: "Hóa đơn nhà cung cấp — hóa đơn đầu vào từ nhà cung cấp, đối chiếu với đơn mua và phiếu nhập cho công nợ phải trả."
+keywords:
+  - hóa đơn nhà cung cấp
+  - hóa đơn mua hàng
+  - công nợ phải trả
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

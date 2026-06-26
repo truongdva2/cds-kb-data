@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASEORDERITEMAPI01
 description: Purchase OrderITEMAPI 01
+semantic_en: "Purchase order item — a line in a purchase order: ordered material or service, quantity, price, plant and delivery date."
+semantic_vi: "Dòng đơn mua hàng — vật tư hoặc dịch vụ đặt, số lượng, giá, nhà máy và ngày giao."
+keywords:
+  - dòng đơn mua hàng
+  - chi tiết đơn mua
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

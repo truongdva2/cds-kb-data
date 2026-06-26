@@ -1,6 +1,12 @@
 ---
 name: I_RESERVATIONDOCUMENTHEADER
 description: Reservationdocumentheader
+semantic_en: "Reservation document header — a request to reserve stock of materials for a future goods movement (e.g. for production or a cost center)."
+semantic_vi: "Tiêu đề chứng từ đặt giữ — yêu cầu giữ tồn kho vật tư cho một nghiệp vụ xuất tương lai (vd cho sản xuất hoặc trung tâm chi phí)."
+keywords:
+  - đặt giữ hàng
+  - reservation
+  - giữ tồn kho
 app_component: MM-IM-VDM-RSV-2CL
 software_component: SAPSCORE
 release_state: released

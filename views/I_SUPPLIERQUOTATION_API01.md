@@ -1,6 +1,11 @@
 ---
 name: I_SUPPLIERQUOTATION_API01
 description: Supplierquotation Api 01
+semantic_en: "Supplier quotation — a supplier's quoted prices and conditions in response to a request for quotation (RFQ)."
+semantic_vi: "Báo giá nhà cung cấp — giá và điều kiện chào của nhà cung cấp đáp lại yêu cầu báo giá (RFQ)."
+keywords:
+  - báo giá nhà cung cấp
+  - RFQ
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

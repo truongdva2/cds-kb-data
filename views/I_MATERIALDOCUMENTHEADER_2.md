@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTHEADER_2
 description: Materialdocumentheader 2
+semantic_en: "Material document header — the document recording a goods movement (receipt, issue or transfer) in inventory management."
+semantic_vi: "Tiêu đề chứng từ vật tư — chứng từ ghi nhận luân chuyển hàng (nhập, xuất, chuyển kho) trong quản lý tồn kho."
+keywords:
+  - chứng từ vật tư
+  - luân chuyển hàng
+  - nhập xuất kho
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

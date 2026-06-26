@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGINFORECORDAPI01
 description: Purchasinginforecordapi 01
+semantic_en: "Purchasing info record — links a material and a supplier with purchasing conditions (price, lead time) used in procurement."
+semantic_vi: "Bản ghi thông tin mua hàng — liên kết một vật tư với một nhà cung cấp kèm điều kiện mua (giá, thời gian giao) dùng trong mua sắm."
+keywords:
+  - info record
+  - thông tin mua hàng
 app_component: MM-PUR-SQ-2CL
 software_component: SAPSCORE
 release_state: released

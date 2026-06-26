@@ -1,6 +1,10 @@
 ---
 name: I_SUPPLIERQUOTATIONITEM_API01
 description: Supplierquotationitem Api 01
+semantic_en: "Supplier quotation item — a quoted material or service line within a supplier quotation."
+semantic_vi: "Dòng báo giá nhà cung cấp — dòng vật tư hoặc dịch vụ được chào trong báo giá nhà cung cấp."
+keywords:
+  - dòng báo giá nhà cung cấp
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

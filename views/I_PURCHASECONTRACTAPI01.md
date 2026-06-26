@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASECONTRACTAPI01
 description: Purchase ContractAPI 01
+semantic_en: "Purchase contract header — an outline purchase agreement with a supplier for materials or services over a period at agreed conditions."
+semantic_vi: "Tiêu đề hợp đồng mua — thỏa thuận mua khung với nhà cung cấp cho vật tư hoặc dịch vụ trong một thời kỳ theo điều kiện đã thỏa thuận."
+keywords:
+  - hợp đồng mua
+  - hợp đồng khung mua
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

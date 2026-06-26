@@ -1,6 +1,11 @@
 ---
 name: I_MATERIALDOCUMENTITEM_2
 description: Materialdocumentitem 2
+semantic_en: "Material document item — a line of a goods movement: material, quantity, plant, storage location and movement type."
+semantic_vi: "Dòng chứng từ vật tư — vật tư, số lượng, nhà máy, vị trí kho và loại nghiệp vụ luân chuyển."
+keywords:
+  - dòng chứng từ vật tư
+  - dòng nhập xuất
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

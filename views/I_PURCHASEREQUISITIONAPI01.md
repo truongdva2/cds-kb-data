@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQUISITIONAPI01
 description: Purchase RequisitionUISITIONAPI 01
+semantic_en: "Purchase requisition header — an internal request to procure materials or services, used to trigger a purchase order."
+semantic_vi: "Tiêu đề đề nghị mua hàng — yêu cầu nội bộ để mua vật tư hoặc dịch vụ, làm cơ sở tạo đơn mua hàng."
+keywords:
+  - đề nghị mua hàng
+  - yêu cầu mua
+  - PR
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

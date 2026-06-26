@@ -1,6 +1,10 @@
 ---
 name: I_PURCHASECONTRACTITEMAPI01
 description: Purchase ContractITEMAPI 01
+semantic_en: "Purchase contract item — a line in a purchase contract: material or service, target quantity and price conditions."
+semantic_vi: "Dòng hợp đồng mua — vật tư hoặc dịch vụ, số lượng mục tiêu và điều kiện giá."
+keywords:
+  - dòng hợp đồng mua
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

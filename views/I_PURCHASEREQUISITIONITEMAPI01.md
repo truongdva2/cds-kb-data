@@ -1,6 +1,10 @@
 ---
 name: I_PURCHASEREQUISITIONITEMAPI01
 description: Purchase RequisitionUISITIONITEMAPI 01
+semantic_en: "Purchase requisition item — a line in a purchase requisition: requested material or service, quantity and delivery date."
+semantic_vi: "Dòng đề nghị mua hàng — vật tư hoặc dịch vụ yêu cầu, số lượng và ngày cần."
+keywords:
+  - dòng đề nghị mua
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,10 @@
 ---
 name: I_RESERVATIONDOCUMENTITEM
 description: Reservationdocumentitem
+semantic_en: "Reservation document item — a material line in a reservation: material, quantity, plant and requirement date."
+semantic_vi: "Dòng chứng từ đặt giữ — vật tư, số lượng, nhà máy và ngày cần."
+keywords:
+  - dòng đặt giữ
 app_component: MM-IM-VDM-RSV-2CL
 software_component: SAPSCORE
 release_state: released
