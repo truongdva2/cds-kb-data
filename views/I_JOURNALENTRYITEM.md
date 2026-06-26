@@ -1,6 +1,11 @@
 ---
 name: I_JOURNALENTRYITEM
 description: Journal EntryITEM
+semantic_en: "Journal entry item — a single posting line of an accounting document (G/L account, amount, debit/credit, cost assignment) in the universal journal."
+semantic_vi: "Dòng bút toán — một dòng hạch toán của chứng từ kế toán (tài khoản sổ cái, số tiền, Nợ/Có, đối tượng chi phí) trong sổ nhật ký tổng hợp."
+keywords:
+  - dòng bút toán
+  - chi tiết hạch toán
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

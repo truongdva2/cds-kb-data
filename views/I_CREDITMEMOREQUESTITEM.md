@@ -1,6 +1,11 @@
 ---
 name: I_CREDITMEMOREQUESTITEM
 description: Creditmemorequestitem
+semantic_en: "Credit memo request item — a line in a credit memo request: product, quantity and credit amount."
+semantic_vi: "Dòng (item) yêu cầu giấy báo có — sản phẩm, số lượng và số tiền ghi có."
+keywords:
+  - dòng báo có
+  - chi tiết báo có
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

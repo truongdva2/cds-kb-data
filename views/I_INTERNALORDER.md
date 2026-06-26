@@ -1,6 +1,11 @@
 ---
 name: I_INTERNALORDER
 description: Internalorder
+semantic_en: "Internal order — a cost object used to plan, collect and settle the costs of an internal task or event."
+semantic_vi: "Lệnh nội bộ — đối tượng chi phí dùng để lập kế hoạch, tập hợp và kết chuyển chi phí của một công việc/sự kiện nội bộ."
+keywords:
+  - lệnh nội bộ
+  - đối tượng chi phí
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

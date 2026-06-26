@@ -1,6 +1,11 @@
 ---
 name: I_CURRENCY
 description: Currency
+semantic_en: "Currency — ISO currency codes used for amounts in transactions and accounting."
+semantic_vi: "Tiền tệ — mã tiền tệ ISO dùng cho số tiền trong giao dịch và kế toán."
+keywords:
+  - tiền tệ
+  - loại tiền
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

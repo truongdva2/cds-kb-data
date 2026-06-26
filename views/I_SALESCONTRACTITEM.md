@@ -1,6 +1,11 @@
 ---
 name: I_SALESCONTRACTITEM
 description: Salescontractitem
+semantic_en: "Sales contract item — a line in a sales contract: product, target quantity and agreed conditions."
+semantic_vi: "Dòng (item) hợp đồng bán hàng — sản phẩm, số lượng mục tiêu và điều kiện đã thỏa thuận."
+keywords:
+  - dòng hợp đồng bán
+  - chi tiết hợp đồng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

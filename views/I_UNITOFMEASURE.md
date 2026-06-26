@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASURE
 description: Unit of Measure
+semantic_en: "Unit of measure — units used to quantify materials (e.g. each, kg, litre) in logistics and sales."
+semantic_vi: "Đơn vị đo — đơn vị định lượng vật tư (vd cái, kg, lít) trong logistics và bán hàng."
+keywords:
+  - đơn vị đo
+  - đơn vị tính
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

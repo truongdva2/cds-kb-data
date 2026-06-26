@@ -1,6 +1,11 @@
 ---
 name: I_DELIVERYDOCUMENT
 description: Delivery DocumentUMENT
+semantic_en: "Delivery document header — inbound or outbound delivery for goods movement in logistics execution."
+semantic_vi: "Tiêu đề chứng từ giao nhận — phiếu giao hàng đến hoặc đi cho luân chuyển hàng trong logistics."
+keywords:
+  - chứng từ giao nhận
+  - phiếu giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

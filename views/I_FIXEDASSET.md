@@ -1,6 +1,11 @@
 ---
 name: I_FIXEDASSET
 description: Fixed Asset
+semantic_en: "Fixed asset — a long-lived tangible or intangible asset managed in Asset Accounting, with depreciation and valuation."
+semantic_vi: "Tài sản cố định — tài sản hữu hình/vô hình dài hạn quản lý trong Kế toán Tài sản, kèm khấu hao và định giá."
+keywords:
+  - tài sản cố định
+  - khấu hao
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

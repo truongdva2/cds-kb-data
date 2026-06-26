@@ -1,6 +1,11 @@
 ---
 name: I_DELIVERYDOCUMENTITEM
 description: Delivery DocumentUMENTITEM
+semantic_en: "Delivery document item — a line in a delivery: product, delivery quantity, plant and storage location."
+semantic_vi: "Dòng (item) chứng từ giao nhận — sản phẩm, số lượng giao, nhà máy và vị trí kho."
+keywords:
+  - dòng phiếu giao hàng
+  - chi tiết giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

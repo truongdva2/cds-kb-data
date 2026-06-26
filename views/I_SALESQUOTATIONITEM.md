@@ -1,6 +1,11 @@
 ---
 name: I_SALESQUOTATIONITEM
 description: Salesquotationitem
+semantic_en: "Sales quotation item — a line in a sales quotation: offered product, quantity and price."
+semantic_vi: "Dòng (item) báo giá bán hàng — sản phẩm chào, số lượng và giá."
+keywords:
+  - dòng báo giá
+  - chi tiết báo giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_CONTROLLINGAREA
 description: Controllingarea
+semantic_en: "Controlling area — the organizational unit that structures internal cost accounting (CO), grouping company codes that share cost objects."
+semantic_vi: "Phạm vi kiểm soát (CO) — đơn vị tổ chức cho kế toán chi phí nội bộ, nhóm các mã công ty dùng chung đối tượng chi phí."
+keywords:
+  - phạm vi kiểm soát
+  - kế toán chi phí
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

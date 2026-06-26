@@ -1,6 +1,11 @@
 ---
 name: I_PROFITCENTER
 description: Profit Center
+semantic_en: "Profit center — an organizational unit for internal management accounting that measures revenue and cost to determine profitability."
+semantic_vi: "Trung tâm lợi nhuận — đơn vị tổ chức cho kế toán quản trị nội bộ, đo doanh thu và chi phí để xác định lợi nhuận."
+keywords:
+  - trung tâm lợi nhuận
+  - profit center
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEM
 description: Billing DocumentUMENTITEM
+semantic_en: "Billing document item — a line in a customer invoice/credit/debit memo: billed product, quantity, amount and tax."
+semantic_vi: "Dòng (item) của chứng từ hóa đơn — sản phẩm xuất hóa đơn, số lượng, số tiền và thuế."
+keywords:
+  - dòng hóa đơn
+  - chi tiết hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

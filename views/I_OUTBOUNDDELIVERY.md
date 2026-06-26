@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERY
 description: Outbound Delivery
+semantic_en: "Outbound delivery header — document for shipping goods to a customer, covering picking, packing and goods issue."
+semantic_vi: "Tiêu đề phiếu giao hàng đi — chứng từ xuất giao hàng cho khách, gồm soạn hàng, đóng gói và xuất kho."
+keywords:
+  - phiếu giao hàng
+  - giao hàng đi
+  - xuất kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

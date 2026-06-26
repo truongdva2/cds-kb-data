@@ -1,6 +1,11 @@
 ---
 name: I_SALESQUOTATION
 description: Salesquotation
+semantic_en: "Sales quotation header — a binding offer to a customer to deliver products or services at stated prices and conditions."
+semantic_vi: "Tiêu đề báo giá bán hàng — chào giá ràng buộc gửi khách hàng để cung cấp sản phẩm/dịch vụ với giá và điều kiện nêu rõ."
+keywords:
+  - báo giá
+  - chào giá bán hàng
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

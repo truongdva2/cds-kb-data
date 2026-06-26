@@ -1,6 +1,11 @@
 ---
 name: I_BATCH
 description: Batch
+semantic_en: "Batch — a quantity of a material produced together that shares the same characteristics, tracked for traceability (e.g. expiry, origin)."
+semantic_vi: "Lô (batch) — lượng vật tư sản xuất cùng nhau, chung đặc tính, được theo dõi để truy xuất nguồn gốc (vd hạn dùng, xuất xứ)."
+keywords:
+  - lô hàng
+  - truy xuất nguồn gốc
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

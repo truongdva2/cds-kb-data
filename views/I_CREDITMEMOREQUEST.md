@@ -1,6 +1,11 @@
 ---
 name: I_CREDITMEMOREQUEST
 description: Creditmemorequest
+semantic_en: "Credit memo request — a sales document requesting a credit to the customer, e.g. for returns, overcharges or complaints."
+semantic_vi: "Yêu cầu giấy báo có — chứng từ bán hàng đề nghị ghi có cho khách, vd do trả hàng, tính thừa hoặc khiếu nại."
+keywords:
+  - yêu cầu báo có
+  - giấy báo có
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

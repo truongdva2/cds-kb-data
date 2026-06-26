@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGORGANIZATION
 description: Purchasingorganization
+semantic_en: "Purchasing organization — the organizational unit that negotiates purchasing conditions with suppliers and is responsible for procurement."
+semantic_vi: "Tổ chức mua hàng — đơn vị tổ chức đàm phán điều kiện mua với nhà cung cấp và chịu trách nhiệm mua sắm."
+keywords:
+  - tổ chức mua hàng
+  - đơn vị mua sắm
 app_component: MM
 software_component: SAPSCORE
 release_state: released

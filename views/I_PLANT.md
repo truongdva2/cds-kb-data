@@ -1,6 +1,11 @@
 ---
 name: I_PLANT
 description: Plant
+semantic_en: "Plant — an operational unit (factory, warehouse or branch) where goods are produced, stored or distributed."
+semantic_vi: "Nhà máy/cơ sở — đơn vị vận hành (nhà máy, kho, chi nhánh) nơi sản xuất, lưu trữ hoặc phân phối hàng hóa."
+keywords:
+  - nhà máy
+  - cơ sở sản xuất
 app_component: LO-MD-PL-2CL
 software_component: SAPSCORE
 release_state: released

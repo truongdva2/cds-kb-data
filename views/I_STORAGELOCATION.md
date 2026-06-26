@@ -1,6 +1,11 @@
 ---
 name: I_STORAGELOCATION
 description: Storagelocation
+semantic_en: "Storage location — a subdivision of a plant where stock is physically kept."
+semantic_vi: "Vị trí kho — khu vực con trong một nhà máy nơi lưu giữ tồn kho thực tế."
+keywords:
+  - vị trí kho
+  - kho lưu trữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

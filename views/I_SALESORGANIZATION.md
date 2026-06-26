@@ -1,6 +1,11 @@
 ---
 name: I_SALESORGANIZATION
 description: Sales Organization
+semantic_en: "Sales organization — the organizational unit responsible for selling products and services and legally liable for them."
+semantic_vi: "Tổ chức bán hàng — đơn vị tổ chức chịu trách nhiệm bán sản phẩm/dịch vụ và chịu trách nhiệm pháp lý về chúng."
+keywords:
+  - tổ chức bán hàng
+  - đơn vị bán hàng
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

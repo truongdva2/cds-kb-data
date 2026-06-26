@@ -1,6 +1,11 @@
 ---
 name: I_COMPANYCODE
 description: Company Code
+semantic_en: "Company code — the smallest organizational unit for which a complete, self-contained set of accounts (a legal entity) can be drawn up."
+semantic_vi: "Mã công ty — đơn vị tổ chức nhỏ nhất lập được một bộ sổ kế toán hoàn chỉnh, độc lập (pháp nhân)."
+keywords:
+  - mã công ty
+  - pháp nhân
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

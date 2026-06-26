@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGGROUP
 description: Purchasinggroup
+semantic_en: "Purchasing group — the buyer or group of buyers responsible for procurement activities."
+semantic_vi: "Nhóm mua hàng — người mua hoặc nhóm người mua chịu trách nhiệm các hoạt động mua sắm."
+keywords:
+  - nhóm mua hàng
+  - người mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

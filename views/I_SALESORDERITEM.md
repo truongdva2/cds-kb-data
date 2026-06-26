@@ -1,6 +1,11 @@
 ---
 name: I_SALESORDERITEM
 description: Sales OrderITEM
+semantic_en: "Sales order item — a line in a sales order: ordered product, quantity, net value, plant and delivery/billing status."
+semantic_vi: "Dòng (item) của đơn bán hàng — sản phẩm đặt, số lượng, giá trị thuần, nhà máy và trạng thái giao hàng/lập hóa đơn."
+keywords:
+  - dòng đơn bán hàng
+  - chi tiết đơn bán
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

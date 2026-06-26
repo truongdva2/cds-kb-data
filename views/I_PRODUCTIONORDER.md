@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTIONORDER
 description: Production Order
+semantic_en: "Production order header — an order to manufacture a product: what, how much, when, and the routing and components used."
+semantic_vi: "Tiêu đề lệnh sản xuất — lệnh chế tạo sản phẩm: sản xuất gì, bao nhiêu, khi nào, và quy trình/cấu kiện sử dụng."
+keywords:
+  - lệnh sản xuất
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

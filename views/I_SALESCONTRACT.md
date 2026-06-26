@@ -1,6 +1,11 @@
 ---
 name: I_SALESCONTRACT
 description: Salescontract
+semantic_en: "Sales contract header — an outline agreement with a customer to supply goods or services over a period under agreed terms."
+semantic_vi: "Tiêu đề hợp đồng bán hàng — thỏa thuận khung với khách hàng để cung cấp hàng hóa/dịch vụ trong một thời kỳ theo điều khoản đã thỏa thuận."
+keywords:
+  - hợp đồng bán hàng
+  - hợp đồng khung bán
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

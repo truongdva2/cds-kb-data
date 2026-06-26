@@ -1,6 +1,11 @@
 ---
 name: I_DEBITMEMOREQUEST
 description: Debitmemorequest
+semantic_en: "Debit memo request — a sales document requesting an additional charge to the customer, e.g. for undercharges or extra fees."
+semantic_vi: "Yêu cầu giấy báo nợ — chứng từ bán hàng đề nghị ghi nợ thêm cho khách, vd do tính thiếu hoặc phí phát sinh."
+keywords:
+  - yêu cầu báo nợ
+  - giấy báo nợ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

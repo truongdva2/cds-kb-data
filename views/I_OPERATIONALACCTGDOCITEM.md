@@ -1,6 +1,11 @@
 ---
 name: I_OPERATIONALACCTGDOCITEM
 description: Operationalacctgdocitem
+semantic_en: "Operational accounting document item — a posting line of an operational financial document feeding the universal journal."
+semantic_vi: "Dòng chứng từ kế toán vận hành — dòng hạch toán của chứng từ tài chính vận hành đưa vào sổ nhật ký tổng hợp."
+keywords:
+  - dòng chứng từ kế toán
+  - hạch toán vận hành
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

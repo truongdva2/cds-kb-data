@@ -1,6 +1,11 @@
 ---
 name: I_CONDITIONTYPE
 description: Conditiontype
+semantic_en: "Condition type — defines a price, discount, surcharge, freight or tax element used in pricing procedures."
+semantic_vi: "Loại điều kiện (giá) — định nghĩa thành phần giá, chiết khấu, phụ phí, cước vận chuyển hoặc thuế dùng trong quy trình định giá."
+keywords:
+  - loại điều kiện giá
+  - điều kiện định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released
