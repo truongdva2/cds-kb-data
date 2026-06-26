@@ -14,6 +14,7 @@ tags:
   - analytical
   - component:CA-GTF-ANL
   - lob:Cross-Application Components
+  - cicd_test
 ---
 # HOME_TEST_V3_QUERY
 
