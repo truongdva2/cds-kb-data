@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:TM-MD-TN-LOC-2CL
   - lob:Other
+  - bo:LocationType
 ---
 # I_LOCATIONTYPE_2
 

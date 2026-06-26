@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentItem
 ---
 # C_SALESDOCUMENTITEMDEX_1
 

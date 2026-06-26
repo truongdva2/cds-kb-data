@@ -14,6 +14,7 @@ tags:
   - status
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevnAcctgPerfOblgnStatus
 ---
 # I_RAPERFOBLGNSTATUS
 

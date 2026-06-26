@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeDocumentType
 ---
 # I_BR_CTEDOCUMENTTYPETEXT
 

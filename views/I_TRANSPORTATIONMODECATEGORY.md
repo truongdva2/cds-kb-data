@@ -15,6 +15,7 @@ tags:
   - transport
   - component:TM-MD-TN-2CL
   - lob:Other
+  - bo:TransportationModeCategory
 ---
 # I_TRANSPORTATIONMODECATEGORY
 

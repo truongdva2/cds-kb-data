@@ -14,6 +14,7 @@ tags:
   - bom
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:BOMExplosionDateID
 ---
 # I_BOMEXPLOSIONDATE
 

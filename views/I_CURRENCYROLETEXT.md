@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:CurrencyRole
 ---
 # I_CURRENCYROLETEXT
 

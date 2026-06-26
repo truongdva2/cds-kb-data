@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_DUEType
 ---
 # I_BR_DUETYPE
 

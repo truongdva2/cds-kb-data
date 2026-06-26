@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:StstclKeyFigureHierarchyNode
 ---
 # I_STSTCLKEYFIGUREHIERNODE
 

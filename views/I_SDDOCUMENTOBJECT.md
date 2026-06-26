@@ -14,6 +14,7 @@ tags:
   - document
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentObject
 ---
 # I_SDDOCUMENTOBJECT
 

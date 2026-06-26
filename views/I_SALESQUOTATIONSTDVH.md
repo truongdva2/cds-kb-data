@@ -17,6 +17,7 @@ tags:
   - sales-quotation
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # I_SALESQUOTATIONSTDVH
 

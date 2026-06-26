@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleCondition
 ---
 # I_BR_VEHICLECONDITIONTEXT
 

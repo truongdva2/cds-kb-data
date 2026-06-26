@@ -15,6 +15,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:ResponsiblePersonName
 ---
 # I_DOCUMENTINFORECORDUSERVH
 

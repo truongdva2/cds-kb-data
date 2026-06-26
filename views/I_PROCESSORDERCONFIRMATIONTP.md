@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-SFC-EXE-CON-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderConfirmation
 ---
 # I_PROCESSORDERCONFIRMATIONTP
 

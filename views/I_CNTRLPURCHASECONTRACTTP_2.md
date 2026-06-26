@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-HUB-CTR-2CL
   - lob:Sourcing & Procurement
+  - bo:CentralPurchaseContract
 ---
 # I_CNTRLPURCHASECONTRACTTP_2
 

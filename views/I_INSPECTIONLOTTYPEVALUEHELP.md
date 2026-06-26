@@ -15,6 +15,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLotType
 ---
 # I_INSPECTIONLOTTYPEVALUEHELP
 

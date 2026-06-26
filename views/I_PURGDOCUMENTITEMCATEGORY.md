@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentItemCategory
 ---
 # I_PURGDOCUMENTITEMCATEGORY
 

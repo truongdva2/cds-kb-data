@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PrcgProcedItemSubtotal
 ---
 # I_PRCGPROCEDITEMSUBTOTALTEXT
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-CSC-EDO-CH
   - lob:Cross-Application Components
+  - bo:CH_ElectronicDocAcctgDocType
 ---
 # C_CH_ELECTRONICDOCTYPETEXTVH
 

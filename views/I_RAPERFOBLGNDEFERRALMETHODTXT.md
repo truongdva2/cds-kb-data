@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:PerfObligationDeferralMethod
 ---
 # I_RAPERFOBLGNDEFERRALMETHODTXT
 

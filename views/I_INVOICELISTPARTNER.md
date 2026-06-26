@@ -15,6 +15,7 @@ tags:
   - partner
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListPartner
 ---
 # I_INVOICELISTPARTNER
 

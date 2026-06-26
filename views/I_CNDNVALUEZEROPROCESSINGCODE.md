@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:CndnValueZeroProcgCode
 ---
 # I_CNDNVALUEZEROPROCESSINGCODE
 

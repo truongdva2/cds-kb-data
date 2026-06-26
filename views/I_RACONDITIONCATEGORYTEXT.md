@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevnAcctgConditionCategory
 ---
 # I_RACONDITIONCATEGORYTEXT
 

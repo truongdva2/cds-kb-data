@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:PriceListType
 ---
 # I_PRICELISTTYPETEXT
 

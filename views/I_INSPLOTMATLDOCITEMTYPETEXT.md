@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspLotMatlDocItemType
 ---
 # I_INSPLOTMATLDOCITEMTYPETEXT
 

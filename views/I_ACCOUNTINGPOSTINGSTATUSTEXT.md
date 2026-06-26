@@ -17,6 +17,7 @@ tags:
   - status
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:AccountingPostingStatus
 ---
 # I_ACCOUNTINGPOSTINGSTATUSTEXT
 

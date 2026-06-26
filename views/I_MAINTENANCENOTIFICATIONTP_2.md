@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceNotification
 ---
 # I_MAINTENANCENOTIFICATIONTP_2
 

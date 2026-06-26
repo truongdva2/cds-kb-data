@@ -14,6 +14,7 @@ tags:
   - document
   - component:SD-CRF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentCategory
 ---
 # I_SDDOCUMENTCATEGORY
 

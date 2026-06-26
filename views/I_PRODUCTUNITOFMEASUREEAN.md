@@ -16,6 +16,7 @@ tags:
   - unit-of-measure
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductUnitOfMeasureEAN
 ---
 # I_PRODUCTUNITOFMEASUREEAN
 

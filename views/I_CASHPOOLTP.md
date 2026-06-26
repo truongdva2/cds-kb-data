@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashPool
 ---
 # I_CASHPOOLTP
 

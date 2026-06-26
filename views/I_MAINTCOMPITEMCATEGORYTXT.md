@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintComponentItemCategory
 ---
 # I_MAINTCOMPITEMCATEGORYTXT
 

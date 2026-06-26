@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:BillingPlanCategory
 ---
 # I_BILLINGPLANCATEGORY
 

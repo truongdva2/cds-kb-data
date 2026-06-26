@@ -15,6 +15,7 @@ tags:
   - partner
   - component:SD-BF-PD-2CL
   - lob:Sales & Distribution
+  - bo:PartnerFunction
 ---
 # I_PARTNERFUNCTION
 

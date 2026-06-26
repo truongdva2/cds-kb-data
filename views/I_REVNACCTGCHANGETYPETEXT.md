@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RAPerfOblgnChangeType
 ---
 # I_REVNACCTGCHANGETYPETEXT
 

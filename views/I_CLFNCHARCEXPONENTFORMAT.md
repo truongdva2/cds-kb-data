@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharcExponentFormat
 ---
 # I_CLFNCHARCEXPONENTFORMAT
 

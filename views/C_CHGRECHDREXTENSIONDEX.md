@@ -15,6 +15,7 @@ tags:
   - header-level
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecord
 ---
 # C_CHGRECHDREXTENSIONDEX
 

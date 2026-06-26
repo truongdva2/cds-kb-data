@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasuringPoint
 ---
 # I_MEASURINGPOINTTP_2
 

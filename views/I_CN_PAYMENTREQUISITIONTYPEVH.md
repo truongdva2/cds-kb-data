@@ -16,6 +16,7 @@ tags:
   - payment
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_PaymentRequisitionType
 ---
 # I_CN_PAYMENTREQUISITIONTYPEVH
 

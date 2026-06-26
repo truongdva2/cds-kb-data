@@ -15,6 +15,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowScenarioResult
 ---
 # I_WORKFLOWSCENARIORESULT
 

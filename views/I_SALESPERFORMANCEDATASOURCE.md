@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-ANA-SP-2CL
   - lob:Sales & Distribution
+  - bo:SalesPerformanceDataSource
 ---
 # I_SALESPERFORMANCEDATASOURCE
 

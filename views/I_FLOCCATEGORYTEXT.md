@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocationCategory
 ---
 # I_FLOCCATEGORYTEXT
 

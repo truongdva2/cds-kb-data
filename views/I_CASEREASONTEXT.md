@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:CaseReason
 ---
 # I_CASEREASONTEXT
 

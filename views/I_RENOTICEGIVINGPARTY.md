@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:RE-FX-2CL
   - lob:Other
+  - bo:RENoticeGivingParty
 ---
 # I_RENOTICEGIVINGPARTY
 

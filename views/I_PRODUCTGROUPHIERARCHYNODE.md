@@ -15,6 +15,7 @@ tags:
   - product
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ProductGroupHierarchyNode
 ---
 # I_PRODUCTGROUPHIERARCHYNODE
 

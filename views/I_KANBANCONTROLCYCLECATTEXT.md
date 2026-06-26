@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanControlCycleCategory
 ---
 # I_KANBANCONTROLCYCLECATTEXT
 

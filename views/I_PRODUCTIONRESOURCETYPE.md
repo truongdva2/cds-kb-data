@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceType
 ---
 # I_PRODUCTIONRESOURCETYPE
 

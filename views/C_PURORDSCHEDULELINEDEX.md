@@ -16,6 +16,7 @@ tags:
   - schedule-line
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrder
 ---
 # C_PURORDSCHEDULELINEDEX
 

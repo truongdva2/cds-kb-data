@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-PH-2CL
   - lob:Sales & Distribution
+  - bo:ProductHierarchyAssignment
 ---
 # I_PRODHIERTODISTRCHNASSGMT
 

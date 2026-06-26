@@ -16,6 +16,7 @@ tags:
   - product
   - component:MM-PUR-MPS-2CL
   - lob:Sourcing & Procurement
+  - bo:ModelProductSpecification
 ---
 # I_MODELPRODUCTSPECIFICATIONTP
 

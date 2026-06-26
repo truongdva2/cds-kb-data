@@ -17,6 +17,7 @@ tags:
   - customs
   - component:FT-ITR-TRC
   - lob:Other
+  - bo:CustomsPreference
 ---
 # I_CUSTOMSPREFERENCETEXT
 

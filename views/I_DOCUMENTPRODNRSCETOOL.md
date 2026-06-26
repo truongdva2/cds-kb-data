@@ -15,6 +15,7 @@ tags:
   - document
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:DocumentPart
 ---
 # I_DOCUMENTPRODNRSCETOOL
 

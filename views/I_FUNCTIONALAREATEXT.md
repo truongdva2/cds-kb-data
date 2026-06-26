@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:FunctionalArea
 ---
 # I_FUNCTIONALAREATEXT
 

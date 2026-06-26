@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-LT-2CL
   - lob:Other
+  - bo:LegalTransactionSource
 ---
 # I_LGLTRANSSRCETXTAPI01
 

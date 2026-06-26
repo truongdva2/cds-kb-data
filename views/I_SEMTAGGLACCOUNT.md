@@ -13,6 +13,7 @@ tags:
   - gl-account
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:SemanticTagGeneralLedger
 ---
 # I_SEMTAGGLACCOUNT
 

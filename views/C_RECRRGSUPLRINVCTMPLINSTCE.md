@@ -12,6 +12,7 @@ tags:
   - consumption-view
   - component:FI-FIO-AP-2CL
   - lob:Finance
+  - bo:RecrrgSuplrInvcTmplInstce
 ---
 # C_RECRRGSUPLRINVCTMPLINSTCE
 

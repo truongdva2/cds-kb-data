@@ -15,6 +15,7 @@ tags:
   - warehouse
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:Warehouse
 ---
 # I_WAREHOUSE
 

@@ -13,6 +13,7 @@ tags:
   - LE-SHP-GF
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # D_OUTBDELIVDELIVBLOCKCHANGED
 

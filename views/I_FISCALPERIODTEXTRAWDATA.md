@@ -15,6 +15,7 @@ tags:
   - text
   - component:BC-SRV-ASF-FYV-2CL
   - lob:Basis Components
+  - bo:FiscalPeriod
 ---
 # I_FISCALPERIODTEXTRAWDATA
 

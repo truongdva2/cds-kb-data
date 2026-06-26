@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupervisor
 ---
 # I_MFGORDERPRODNSUPERVISORSTDVH
 

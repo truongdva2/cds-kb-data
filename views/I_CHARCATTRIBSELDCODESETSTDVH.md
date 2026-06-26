@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:SelectedCodeSet
 ---
 # I_CHARCATTRIBSELDCODESETSTDVH
 

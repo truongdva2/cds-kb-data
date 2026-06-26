@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:CM-LT-2CL
   - lob:Other
+  - bo:LegalTransaction
 ---
 # I_LEGALTRANSACTIONTP_2
 

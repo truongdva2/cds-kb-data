@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ProductGroupHierarchyNodeText
 ---
 # I_PRODUCTGROUPHIERNODETEXT
 

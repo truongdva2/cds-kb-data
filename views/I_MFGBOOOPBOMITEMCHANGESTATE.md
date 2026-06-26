@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRoutingCompAlloc
 ---
 # I_MFGBOOOPBOMITEMCHANGESTATE
 

@@ -17,6 +17,7 @@ tags:
   - document
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocument
 ---
 # I_SALESDOCUMENTSTDVH
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntDocBillStsTxt
 ---
 # I_PRJBLGELMENTRDOCBILLGSTSTXT
 

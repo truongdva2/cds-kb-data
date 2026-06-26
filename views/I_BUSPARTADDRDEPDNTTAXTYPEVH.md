@@ -17,6 +17,7 @@ tags:
   - tax
   - component:CA-GTF-CSC
   - lob:Cross-Application Components
+  - bo:BPTaxType
 ---
 # I_BUSPARTADDRDEPDNTTAXTYPEVH
 

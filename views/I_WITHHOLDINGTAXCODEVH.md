@@ -16,6 +16,7 @@ tags:
   - tax
   - component:FI-AP-AP-Q-2CL
   - lob:Finance
+  - bo:WithholdingTaxCode
 ---
 # I_WITHHOLDINGTAXCODEVH
 

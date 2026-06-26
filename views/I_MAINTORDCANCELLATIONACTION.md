@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PM-WOC-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrdCancellationAction
 ---
 # I_MAINTORDCANCELLATIONACTION
 

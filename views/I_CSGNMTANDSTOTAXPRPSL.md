@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-TXL-TGM
   - lob:Finance
+  - bo:ConsignmentAndSTOTaxProposal
 ---
 # I_CSGNMTANDSTOTAXPRPSL
 

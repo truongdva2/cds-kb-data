@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:BNS-CON-SE-S4-FIN
   - lob:Other
+  - bo:ConcurTrvlAndExpnMgmtDoc
 ---
 # C_CONCURACCTGDOCITMRLTNDEX
 

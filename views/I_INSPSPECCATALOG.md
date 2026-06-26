@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspSpecAddlCatalogFieldGroup
 ---
 # I_INSPSPECCATALOG
 

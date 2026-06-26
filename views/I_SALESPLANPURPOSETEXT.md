@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-ANA-SP-2CL
   - lob:Sales & Distribution
+  - bo:SalesPlanPurpose
 ---
 # I_SALESPLANPURPOSETEXT
 

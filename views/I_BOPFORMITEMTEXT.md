@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:FI-LOC-FI
   - lob:Finance
+  - bo:BOPFormItem
 ---
 # I_BOPFORMITEMTEXT
 

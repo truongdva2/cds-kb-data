@@ -13,6 +13,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStageType
 ---
 # I_TRANSPORDSTAGETYPETEXT_2
 

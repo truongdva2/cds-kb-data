@@ -18,6 +18,7 @@ tags:
   - status
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeNumberStatus
 ---
 # I_CHANGEMASTERSTATUSTEXT
 

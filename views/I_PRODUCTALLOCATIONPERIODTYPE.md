@@ -15,6 +15,7 @@ tags:
   - product
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProductAllocationPeriodType
 ---
 # I_PRODUCTALLOCATIONPERIODTYPE
 

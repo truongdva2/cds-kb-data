@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:CityNumber
 ---
 # I_POSTALCITYTEXT
 

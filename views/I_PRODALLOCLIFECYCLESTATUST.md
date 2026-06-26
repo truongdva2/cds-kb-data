@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocationLifecycleStatus
 ---
 # I_PRODALLOCLIFECYCLESTATUST
 

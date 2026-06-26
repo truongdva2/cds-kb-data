@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_BillOfExchangeIsBlocked
 ---
 # I_CN_BILLOFEXCHANGEBLOCKVH
 

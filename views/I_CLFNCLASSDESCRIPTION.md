@@ -14,6 +14,7 @@ tags:
   - text-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassInternalID
 ---
 # I_CLFNCLASSDESCRIPTION
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:IS-OIL-PRA
   - lob:Other
+  - bo:PRAAcctgDocSmmryAcctRbl
 ---
 # I_PRAACCTGDOCSMMRYACCTSRBL
 

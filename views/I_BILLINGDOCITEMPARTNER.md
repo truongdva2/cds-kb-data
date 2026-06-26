@@ -17,6 +17,7 @@ tags:
   - partner
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:PartnerFunction
 ---
 # I_BILLINGDOCITEMPARTNER
 

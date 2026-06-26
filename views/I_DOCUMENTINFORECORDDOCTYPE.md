@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocType
 ---
 # I_DOCUMENTINFORECORDDOCTYPE
 

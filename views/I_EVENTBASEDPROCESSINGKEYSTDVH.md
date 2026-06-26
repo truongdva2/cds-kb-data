@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:CO-PC-OBJ-ORD-2CL
   - lob:Controlling
+  - bo:EventBasedProcessingKey
 ---
 # I_EVENTBASEDPROCESSINGKEYSTDVH
 

@@ -16,6 +16,7 @@ tags:
   - contract
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContractFollowUpAction
 ---
 # I_SALESCONTRACTFOLLOWUPACTION
 

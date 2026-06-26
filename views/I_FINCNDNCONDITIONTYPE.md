@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransConditionType
 ---
 # I_FINCNDNCONDITIONTYPE
 

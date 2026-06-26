@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:SDDocItemBillingRelevanceCode
 ---
 # I_BILLINGRELEVANCECODE
 

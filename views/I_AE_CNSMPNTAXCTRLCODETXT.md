@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-LO-AE
   - lob:Finance
+  - bo:ConsumptionTaxCtrlCode
 ---
 # I_AE_CNSMPNTAXCTRLCODETXT
 

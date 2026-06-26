@@ -11,6 +11,7 @@ tags:
   - CRM
   - component:CRM-S4-SOL-SLO
   - lob:Other
+  - bo:BusinessSolutionOrderItem
 ---
 # D_BUSSOLNORDFUPTRANSCREATED
 

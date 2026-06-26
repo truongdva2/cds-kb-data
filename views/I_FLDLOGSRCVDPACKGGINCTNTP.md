@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsRcvdShipmentContainer
 ---
 # I_FLDLOGSRCVDPACKGGINCTNTP
 

@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:IncotermsClassification
 ---
 # I_INCOTERMSCLASSIFICATIONTEXT
 

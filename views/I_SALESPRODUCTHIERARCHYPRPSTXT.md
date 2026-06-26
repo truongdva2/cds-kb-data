@@ -15,6 +15,7 @@ tags:
   - product
   - component:SD-SLS-PH-2CL
   - lob:Sales & Distribution
+  - bo:SalesProductHierarchyPurpose
 ---
 # I_SALESPRODUCTHIERARCHYPRPSTXT
 

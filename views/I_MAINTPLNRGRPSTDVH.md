@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePlannerGroup
 ---
 # I_MAINTPLNRGRPSTDVH
 

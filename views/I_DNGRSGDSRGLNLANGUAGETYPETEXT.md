@@ -17,6 +17,7 @@ tags:
   - text
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:DngrsGdsRglnLanguageType
 ---
 # I_DNGRSGDSRGLNLANGUAGETYPETEXT
 

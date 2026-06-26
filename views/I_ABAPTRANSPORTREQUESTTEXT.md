@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-CTS-ORG
   - lob:Basis Components
+  - bo:TransportRequestID
 ---
 # I_ABAPTRANSPORTREQUESTTEXT
 

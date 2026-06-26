@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-BMT-WFP
   - lob:Basis Components
+  - bo:ExtensionWorkflow
 ---
 # I_CPWF_INST
 

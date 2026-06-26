@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocumentItem
 ---
 # I_ACCTGSRVCDOCUMENTITEMBASIC
 

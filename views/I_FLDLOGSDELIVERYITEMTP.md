@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FieldLogisticsShipmentItem
 ---
 # I_FLDLOGSDELIVERYITEMTP
 

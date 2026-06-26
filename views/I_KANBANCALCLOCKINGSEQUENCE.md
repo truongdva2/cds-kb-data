@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanCalcLockingSequence
 ---
 # I_KANBANCALCLOCKINGSEQUENCE
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-BUP
   - lob:Finance
+  - bo:BusinessPlace
 ---
 # I_BUSINESSPLACE
 

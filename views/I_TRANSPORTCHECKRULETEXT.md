@@ -17,6 +17,7 @@ tags:
   - text
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:TransportCheckRule
 ---
 # I_TRANSPORTCHECKRULETEXT
 

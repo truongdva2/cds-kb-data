@@ -17,6 +17,7 @@ tags:
   - approval
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:MilestoneApprovalStatus
 ---
 # I_PPM_MILESTONEAPPROVALSTSTEXT
 

@@ -14,6 +14,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:BusinessTransacDocItmTypeCode
 ---
 # I_BUSTRANSDOCITMTYPECODETEXT
 

@@ -13,6 +13,7 @@ tags:
   - item-level
   - component:TM-2CL
   - lob:Other
+  - bo:TranspBizTransacDocItmTypeCode
 ---
 # I_BUSTRANSDOCITEMTYPECODE
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-SF-WA-2CL
   - lob:Plant Maintenance
+  - bo:WarrantyType
 ---
 # I_WARRANTYTYPETEXT
 

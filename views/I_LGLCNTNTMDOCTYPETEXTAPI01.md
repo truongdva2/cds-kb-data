@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LglCntntMDocType
 ---
 # I_LGLCNTNTMDOCTYPETEXTAPI01
 

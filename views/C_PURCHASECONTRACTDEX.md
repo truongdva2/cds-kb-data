@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContract
 ---
 # C_PURCHASECONTRACTDEX
 

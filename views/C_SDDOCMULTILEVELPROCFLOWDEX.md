@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocument
 ---
 # C_SDDOCMULTILEVELPROCFLOWDEX
 

@@ -15,6 +15,7 @@ tags:
   - status
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EntProjectProcessingStatus
 ---
 # I_ENTPROJPROCESSINGSTATUS
 

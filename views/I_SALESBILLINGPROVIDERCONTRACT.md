@@ -15,6 +15,7 @@ tags:
   - contract
   - component:FI-CA-2CL
   - lob:Finance
+  - bo:SalesBillingProviderContract
 ---
 # I_SALESBILLINGPROVIDERCONTRACT
 

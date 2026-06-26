@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2ContractualInstrument
 ---
 # I_GHGSCP2CNTRCTLINSTRUMENT
 

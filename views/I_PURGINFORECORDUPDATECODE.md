@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-HUB-CTR-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecordUpdateCode
 ---
 # I_PURGINFORECORDUPDATECODE
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-SO-2CL
   - lob:Sales & Distribution
+  - bo:SalesOrderWithoutChargeType
 ---
 # I_SLSORDWITHOUTCHARGETYPETXT
 

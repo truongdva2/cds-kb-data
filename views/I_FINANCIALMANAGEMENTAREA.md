@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PSM
   - lob:Other
+  - bo:FinancialManagementArea
 ---
 # I_FINANCIALMANAGEMENTAREA
 

@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethodText
 ---
 # I_GHGSCP2CALCMETHODTEXT
 

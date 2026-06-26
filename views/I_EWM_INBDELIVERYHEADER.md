@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WarehouseInboundDelivery
 ---
 # I_EWM_INBDELIVERYHEADER
 

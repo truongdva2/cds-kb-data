@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-BP-CM-2CL
   - lob:Logistics General
+  - bo:SalesDistrict
 ---
 # I_SALESDISTRICTTEXT
 

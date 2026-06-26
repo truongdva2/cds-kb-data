@@ -16,6 +16,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentStatusText
 ---
 # I_PURCHASINGDOCUMENTSTATUSTEXT
 

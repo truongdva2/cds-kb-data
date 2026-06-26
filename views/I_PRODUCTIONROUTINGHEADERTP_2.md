@@ -18,6 +18,7 @@ tags:
   - header-level
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODUCTIONROUTINGHEADERTP_2
 

@@ -17,6 +17,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:InventoryValuationCategory
 ---
 # I_PRODUCTVALUATIONCATEGORYTEXT
 

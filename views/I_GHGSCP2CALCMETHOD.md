@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethod
 ---
 # I_GHGSCP2CALCMETHOD
 

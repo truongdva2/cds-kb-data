@@ -14,6 +14,7 @@ tags:
   - lease
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # D_PURSCHEDGAGRMTRELEASED
 

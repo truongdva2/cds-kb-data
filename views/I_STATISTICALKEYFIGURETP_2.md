@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-GTF-FXU-FI-CO
   - lob:Cross-Application Components
+  - bo:StatisticalKeyFigure
 ---
 # I_STATISTICALKEYFIGURETP_2
 

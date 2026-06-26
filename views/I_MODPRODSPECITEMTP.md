@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-MPS-2CL
   - lob:Sourcing & Procurement
+  - bo:ModProdSpecItemUUID
 ---
 # I_MODPRODSPECITEMTP
 

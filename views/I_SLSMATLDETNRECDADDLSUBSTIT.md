@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-MM-DET-2CL
   - lob:Sales & Distribution
+  - bo:SlsMatlDetnRecdAddlSubstit
 ---
 # I_SLSMATLDETNRECDADDLSUBSTIT
 

@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocSqncAssgmt
 ---
 # I_PRODALLOCSQNCASSGMTTP_2
 

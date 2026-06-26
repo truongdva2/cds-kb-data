@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-IV-LIV-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrInvcVerificatTolGroup
 ---
 # I_SUPLRINVCSUPLRTOLSTTGSAPI01
 

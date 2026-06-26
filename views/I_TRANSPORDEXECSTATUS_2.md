@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderExecutionStatus
 ---
 # I_TRANSPORDEXECSTATUS_2
 

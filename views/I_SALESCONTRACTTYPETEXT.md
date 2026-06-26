@@ -18,6 +18,7 @@ tags:
   - text
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContractType
 ---
 # I_SALESCONTRACTTYPETEXT
 

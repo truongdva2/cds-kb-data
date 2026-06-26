@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocItmReqdDelivConfSts
 ---
 # I_SLSDOCITMREQDDELIVCONFSTSTXT
 

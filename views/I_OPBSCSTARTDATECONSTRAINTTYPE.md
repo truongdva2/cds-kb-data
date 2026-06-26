@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:OpBscStartDateConstraintType
 ---
 # I_OPBSCSTARTDATECONSTRAINTTYPE
 

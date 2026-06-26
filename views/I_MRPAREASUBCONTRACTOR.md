@@ -14,6 +14,7 @@ tags:
   - contract
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPArea
 ---
 # I_MRPAREASUBCONTRACTOR
 

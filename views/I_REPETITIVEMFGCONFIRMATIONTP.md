@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-REM-ADE-2CL
   - lob:Manufacturing
+  - bo:RepetitiveMfgConfirmation
 ---
 # I_REPETITIVEMFGCONFIRMATIONTP
 

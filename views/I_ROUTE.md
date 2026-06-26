@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:LE-TRA
   - lob:Logistics Execution
+  - bo:Route
 ---
 # I_ROUTE
 

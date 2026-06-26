@@ -15,6 +15,7 @@ tags:
   - planned-order
   - component:PP-PLO-2CL
   - lob:Manufacturing
+  - bo:PlannedOrder
 ---
 # I_PLANNEDORDERTP
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MerchandiseCategory
 ---
 # I_MRCHDSCATTOHIERARCHYNODE
 

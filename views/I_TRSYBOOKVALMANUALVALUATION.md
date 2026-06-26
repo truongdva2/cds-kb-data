@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-AC-2CL
   - lob:Other
+  - bo:TrsyBookValuesManualValuation
 ---
 # I_TRSYBOOKVALMANUALVALUATION
 

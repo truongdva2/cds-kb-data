@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspLotMatlDocItmSerialNumber
 ---
 # I_INSPLOTMATLDOCITMSRLNMBRTP_2
 

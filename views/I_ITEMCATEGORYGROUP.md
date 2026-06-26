@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:ProductItemCategoryGroup
 ---
 # I_ITEMCATEGORYGROUP
 

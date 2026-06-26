@@ -16,6 +16,7 @@ tags:
   - work-center
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenter
 ---
 # I_WORKCENTERTP
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyRole
 ---
 # I_SLCPARTYROLE
 

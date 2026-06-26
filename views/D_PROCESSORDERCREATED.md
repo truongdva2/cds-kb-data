@@ -13,6 +13,7 @@ tags:
   - PP-PI-POR
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrder
 ---
 # D_PROCESSORDERCREATED
 

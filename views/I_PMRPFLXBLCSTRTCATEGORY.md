@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-PMR-ENG-2CL
   - lob:Manufacturing
+  - bo:PMRPFlexibleConstraintCategory
 ---
 # I_PMRPFLXBLCSTRTCATEGORY
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-LOC-FI-JP
   - lob:Finance
+  - bo:JP_InvoiceSummaryPayerInvoice
 ---
 # I_JP_INVCSMMRYITEM
 

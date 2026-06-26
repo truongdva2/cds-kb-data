@@ -16,6 +16,7 @@ tags:
   - collection
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentForm
 ---
 # I_BR_COLLECTIONPAYMENTFORM
 

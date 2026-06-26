@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProductAllocationObjectText
 ---
 # I_PRODALLOCATIONOBJECTTXTTP_2
 

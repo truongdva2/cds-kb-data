@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LglCntntMDocContentType
 ---
 # I_LGLCNTNTMCNTNTTYPETXTAPI01
 

@@ -15,6 +15,7 @@ tags:
   - header-level
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashPoolAssignment
 ---
 # I_CASHPOOLHEADERACCTASSGMT
 

@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:SDBillingPlanItem
 ---
 # I_SDBILLINGPLANITEM
 

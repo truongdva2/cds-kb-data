@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProdFcstRequirementsSplitCode
 ---
 # I_PRODUCTFORECASTRQMTSSPLITVH
 

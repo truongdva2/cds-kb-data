@@ -14,6 +14,7 @@ tags:
   - contract
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevenueAccountingContract
 ---
 # I_REVENUEACCOUNTINGCONTRACT
 

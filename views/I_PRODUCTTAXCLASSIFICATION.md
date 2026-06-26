@@ -17,6 +17,7 @@ tags:
   - classification
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductTaxClassification
 ---
 # I_PRODUCTTAXCLASSIFICATION
 

@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialDocumentItem
 ---
 # I_MFGORDERCONFMATLDOCITEM
 

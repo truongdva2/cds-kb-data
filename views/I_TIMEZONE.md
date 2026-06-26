@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-TIM-TZ
   - lob:Basis Components
+  - bo:TimeZoneID
 ---
 # I_TIMEZONE
 

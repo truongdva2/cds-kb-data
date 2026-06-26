@@ -15,6 +15,7 @@ tags:
   - text
   - component:TM-MD-TN-LOC-2CL
   - lob:Other
+  - bo:LocationType
 ---
 # I_LOCATIONTYPETEXT_2
 

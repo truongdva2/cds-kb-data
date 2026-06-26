@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentItemPredecessor
 ---
 # I_SERVICEDOCUMENTITEMPRDCSSR_2
 

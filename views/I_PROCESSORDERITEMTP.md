@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderItem
 ---
 # I_PROCESSORDERITEMTP
 

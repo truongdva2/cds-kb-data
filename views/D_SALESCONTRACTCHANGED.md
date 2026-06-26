@@ -15,6 +15,7 @@ tags:
   - contract
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContract
 ---
 # D_SALESCONTRACTCHANGED
 

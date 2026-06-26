@@ -14,6 +14,7 @@ tags:
   - classification
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergyClassification
 ---
 # I_GHGENERGYCLASSIFICATION
 

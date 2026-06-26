@@ -16,6 +16,7 @@ tags:
   - partner
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecordResponsible
 ---
 # C_CHANGERECORDPARTNERDEX
 

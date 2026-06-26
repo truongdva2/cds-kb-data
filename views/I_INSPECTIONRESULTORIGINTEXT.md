@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionResultOrigin
 ---
 # I_INSPECTIONRESULTORIGINTEXT
 

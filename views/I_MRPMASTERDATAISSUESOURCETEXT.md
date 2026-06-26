@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-MRP-2CL
   - lob:Manufacturing
+  - bo:MRPMasterDataIssueSource
 ---
 # I_MRPMASTERDATAISSUESOURCETEXT
 

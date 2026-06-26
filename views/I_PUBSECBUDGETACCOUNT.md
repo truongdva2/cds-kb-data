@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-FM-MD
   - lob:Other
+  - bo:PublicSectorBudgetAccount
 ---
 # I_PUBSECBUDGETACCOUNT
 

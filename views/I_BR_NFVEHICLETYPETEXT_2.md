@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:NFVehicleType
 ---
 # I_BR_NFVEHICLETYPETEXT_2
 

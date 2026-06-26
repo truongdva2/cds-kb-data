@@ -15,6 +15,7 @@ tags:
   - text
   - component:CM-CTX-2CL
   - lob:Other
+  - bo:LegalContext
 ---
 # I_LEGALCONTEXTTP
 

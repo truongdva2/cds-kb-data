@@ -15,6 +15,7 @@ tags:
   - analytical
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceOrder
 ---
 # I_MAINTORDERTECHOBJCUBE
 

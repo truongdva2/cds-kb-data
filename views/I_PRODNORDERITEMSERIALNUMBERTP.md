@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PP-SFC-2CL
   - lob:Manufacturing
+  - bo:ProductionOrderSerialNumber
 ---
 # I_PRODNORDERITEMSERIALNUMBERTP
 

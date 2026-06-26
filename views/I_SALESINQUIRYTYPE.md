@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesInquiryType
 ---
 # I_SALESINQUIRYTYPE
 

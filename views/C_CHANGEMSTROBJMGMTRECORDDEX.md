@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ObjectManagementRecord
 ---
 # C_CHANGEMSTROBJMGMTRECORDDEX
 

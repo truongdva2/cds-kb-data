@@ -16,6 +16,7 @@ tags:
   - tax
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductPlantPurchaseTax
 ---
 # I_PRODUCTPURCHASETAX
 

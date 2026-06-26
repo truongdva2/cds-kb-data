@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalRspLifecycleStatus
 ---
 # I_SUPLREVALRSPLIFECYCLESTS
 

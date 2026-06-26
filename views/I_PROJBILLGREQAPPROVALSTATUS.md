@@ -16,6 +16,7 @@ tags:
   - approval
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgReqApprovalStatus
 ---
 # I_PROJBILLGREQAPPROVALSTATUS
 

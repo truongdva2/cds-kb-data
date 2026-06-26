@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCodeGrp
 ---
 # I_CHARCATTRIBUTECODEGRPVH
 

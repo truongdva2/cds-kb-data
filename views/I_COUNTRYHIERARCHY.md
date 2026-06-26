@@ -15,6 +15,7 @@ tags:
   - country
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:CountryHierarchy
 ---
 # I_COUNTRYHIERARCHY
 

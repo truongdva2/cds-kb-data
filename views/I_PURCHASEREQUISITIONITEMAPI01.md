@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseRequisitionItem
 ---
 # I_PURCHASEREQUISITIONITEMAPI01
 

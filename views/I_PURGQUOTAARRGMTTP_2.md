@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-SQ-QTA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingQuotaArrangement
 ---
 # I_PURGQUOTAARRGMTTP_2
 

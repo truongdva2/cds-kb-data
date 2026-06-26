@@ -16,6 +16,7 @@ tags:
   - document
   - component:SD-BIL-IV-PC-2CL
   - lob:Sales & Distribution
+  - bo:PaymentCardType
 ---
 # I_SDDOCUMENTPAYMENTCARDTYPE
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SerialNumber
 ---
 # I_MFGORDERITEMSERIALNUMBER
 

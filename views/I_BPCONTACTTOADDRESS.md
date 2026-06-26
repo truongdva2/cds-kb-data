@@ -15,6 +15,7 @@ tags:
   - address
   - component:AP-MD-BP
   - lob:Other
+  - bo:BPRelationshipAddress
 ---
 # I_BPCONTACTTOADDRESS
 

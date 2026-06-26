@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-AP-IS-2CL
   - lob:Finance
+  - bo:PaymentMethod
 ---
 # I_PAYMENTMETHOD
 

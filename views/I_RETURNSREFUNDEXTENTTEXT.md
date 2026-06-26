@@ -15,6 +15,7 @@ tags:
   - text
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsRefundExtent
 ---
 # I_RETURNSREFUNDEXTENTTEXT
 

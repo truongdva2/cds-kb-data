@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceStrategy
 ---
 # I_MAINTENANCESTRATEGYT
 

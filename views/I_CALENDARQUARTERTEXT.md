@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-DF
   - lob:Cross-Application Components
+  - bo:CalendarQuarter
 ---
 # I_CALENDARQUARTERTEXT
 

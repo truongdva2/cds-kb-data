@@ -14,6 +14,7 @@ tags:
   - status
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPPlanningScenarioStatus
 ---
 # I_PLANNINGSCENARIOSTATUS
 

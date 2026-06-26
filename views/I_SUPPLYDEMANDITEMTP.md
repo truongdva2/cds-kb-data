@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-FIO-2CL
   - lob:Manufacturing
+  - bo:MaterialSupplyAndDemandView
 ---
 # I_SUPPLYDEMANDITEMTP
 

@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurSchedgAgrmtItmScheduleLine
 ---
 # C_SCHEDAGRMTSCHEDLINEDEX
 

@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderLifecycleStatus
 ---
 # I_TRANSPORDLIFECYCLESTATUS_2
 

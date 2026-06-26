@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:DateFunction
 ---
 # I_FISCALDATEFUNCTIONTEXT
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingProcedureItemPrintType
 ---
 # I_PRCGPROCEDITEMPRNTTYPE
 

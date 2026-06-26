@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingProcedureMltplSamples
 ---
 # I_SMPLGPROCEDMLTPLSAMPLESTEXT
 

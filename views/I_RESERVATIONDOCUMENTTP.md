@@ -16,6 +16,7 @@ tags:
   - document
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ReservationDocument
 ---
 # I_RESERVATIONDOCUMENTTP
 

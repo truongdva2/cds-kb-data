@@ -15,6 +15,7 @@ tags:
   - approval
   - component:SD-SLS-SO-2CL
   - lob:Sales & Distribution
+  - bo:SalesOrderApprovalReason
 ---
 # I_SALESORDAPPROVALREASONTXT
 

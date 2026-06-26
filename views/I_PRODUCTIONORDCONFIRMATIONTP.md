@@ -16,6 +16,7 @@ tags:
   - product
   - component:PP-SFC-EXE-CON-2CL
   - lob:Manufacturing
+  - bo:ProductionOrderConfirmation
 ---
 # I_PRODUCTIONORDCONFIRMATIONTP
 

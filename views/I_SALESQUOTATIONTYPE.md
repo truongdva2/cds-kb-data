@@ -15,6 +15,7 @@ tags:
   - sales-quotation
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotationType
 ---
 # I_SALESQUOTATIONTYPE
 

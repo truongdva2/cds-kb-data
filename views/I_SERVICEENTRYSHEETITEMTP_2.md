@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:MM-PUR-SVC-SES-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheetItem
 ---
 # I_SERVICEENTRYSHEETITEMTP_2
 

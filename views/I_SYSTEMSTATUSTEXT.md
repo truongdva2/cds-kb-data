@@ -17,6 +17,7 @@ tags:
   - status
   - component:CA-GTF-VDM
   - lob:Cross-Application Components
+  - bo:SystemStatus
 ---
 # I_SYSTEMSTATUSTEXT
 

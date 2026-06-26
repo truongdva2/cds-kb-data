@@ -15,6 +15,7 @@ tags:
   - pricing
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:SalesPricingProcedure
 ---
 # I_SLSPRICINGPROCEDURE
 

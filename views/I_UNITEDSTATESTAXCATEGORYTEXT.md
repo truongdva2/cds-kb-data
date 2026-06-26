@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:UnitedStatesTaxCategory
 ---
 # I_UNITEDSTATESTAXCATEGORYTEXT
 

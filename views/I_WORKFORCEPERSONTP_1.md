@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-WFD-INT
   - lob:Cross-Application Components
+  - bo:WorkforcePerson
 ---
 # I_WORKFORCEPERSONTP_1
 

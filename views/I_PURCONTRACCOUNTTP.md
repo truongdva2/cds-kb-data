@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-OA-2CL
   - lob:Sourcing & Procurement
+  - bo:AccountAssignmentNumber
 ---
 # I_PURCONTRACCOUNTTP
 

@@ -15,6 +15,7 @@ tags:
   - bom
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocBOMExplsnStrucScp
 ---
 # I_SLSDOCBOMEXPLSNSTRUCSCP
 

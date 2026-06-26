@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:PaymentGuaranteeForm
 ---
 # I_PAYMENTGUARANTEEFORMTEXT
 

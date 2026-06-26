@@ -15,6 +15,7 @@ tags:
   - text
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:StatisticalKeyFigure
 ---
 # I_STATISTICALKEYFIGURETEXT
 

@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_PaymentRequisitionPriority
 ---
 # I_CN_PAYTREQUISITIONPRIORITYVH
 

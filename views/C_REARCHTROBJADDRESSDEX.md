@@ -16,6 +16,7 @@ tags:
   - address
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjectUUID
 ---
 # C_REARCHTROBJADDRESSDEX
 

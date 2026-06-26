@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethod
 ---
 # I_GHGSCP2CALCMETHODVH
 

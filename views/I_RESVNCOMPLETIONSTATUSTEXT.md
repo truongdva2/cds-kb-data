@@ -17,6 +17,7 @@ tags:
   - status
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ReservationCompletionStatusTxt
 ---
 # I_RESVNCOMPLETIONSTATUSTEXT
 

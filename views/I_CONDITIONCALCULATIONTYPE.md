@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceConditionCalculationType
 ---
 # I_CONDITIONCALCULATIONTYPE
 

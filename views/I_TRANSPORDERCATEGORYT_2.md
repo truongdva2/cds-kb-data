@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderCategory
 ---
 # I_TRANSPORDERCATEGORYT_2
 

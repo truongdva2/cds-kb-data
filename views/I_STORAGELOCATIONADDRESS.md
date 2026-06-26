@@ -13,6 +13,7 @@ tags:
   - address
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:StorLocAddressSequenceNumber
 ---
 # I_STORAGELOCATIONADDRESS
 

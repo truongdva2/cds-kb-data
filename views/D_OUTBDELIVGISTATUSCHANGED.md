@@ -14,6 +14,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # D_OUTBDELIVGISTATUSCHANGED
 

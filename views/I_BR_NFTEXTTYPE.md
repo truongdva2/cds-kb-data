@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFTextType
 ---
 # I_BR_NFTEXTTYPE
 

@@ -13,6 +13,7 @@ tags:
   - SD-SLS-QUT
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotationItem
 ---
 # D_SLSQTANITMRJCNSTSCHGD
 

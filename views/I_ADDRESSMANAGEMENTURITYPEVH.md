@@ -16,6 +16,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressManagementURIType
 ---
 # I_ADDRESSMANAGEMENTURITYPEVH
 

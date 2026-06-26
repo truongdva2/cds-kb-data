@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeDestination
 ---
 # I_BR_NFEDESTINATIONTEXT
 

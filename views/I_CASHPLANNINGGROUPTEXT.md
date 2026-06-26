@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-CLM-FQM-2CL
   - lob:Other
+  - bo:CashFlowPlanningGroupText
 ---
 # I_CASHPLANNINGGROUPTEXT
 

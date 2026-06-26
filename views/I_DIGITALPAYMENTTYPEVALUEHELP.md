@@ -16,6 +16,7 @@ tags:
   - payment
   - component:FIN-FSCM-DP-DP-2CL
   - lob:Other
+  - bo:DigitalPaymentType
 ---
 # I_DIGITALPAYMENTTYPEVALUEHELP
 

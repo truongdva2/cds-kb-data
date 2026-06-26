@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-CTS-ORG
   - lob:Basis Components
+  - bo:ABAPPackage
 ---
 # I_CUSTABAPPACKAGE
 

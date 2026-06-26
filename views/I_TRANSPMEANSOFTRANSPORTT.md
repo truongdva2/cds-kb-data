@@ -13,6 +13,7 @@ tags:
   - transport
   - component:TM-2CL
   - lob:Other
+  - bo:TranspMeansOfTransport
 ---
 # I_TRANSPMEANSOFTRANSPORTT
 

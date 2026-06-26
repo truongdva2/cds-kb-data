@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialTransaction
 ---
 # I_FINANCIALTRANSACTIONSTDVH
 

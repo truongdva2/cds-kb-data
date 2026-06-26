@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:StatisticalKeyFigure
 ---
 # I_STATISTICALKEYFIGURESTDVH
 

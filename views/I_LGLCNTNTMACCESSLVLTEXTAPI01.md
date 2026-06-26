@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-GF-2CL
   - lob:Other
+  - bo:LglCntntMAccessLvl
 ---
 # I_LGLCNTNTMACCESSLVLTEXTAPI01
 

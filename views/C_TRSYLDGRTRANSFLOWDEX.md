@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryLedgerTransactionFlow
 ---
 # C_TRSYLDGRTRANSFLOWDEX
 

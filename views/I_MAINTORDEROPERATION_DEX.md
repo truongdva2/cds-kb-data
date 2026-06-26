@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceOrderOperation
 ---
 # I_MAINTORDEROPERATION_DEX
 

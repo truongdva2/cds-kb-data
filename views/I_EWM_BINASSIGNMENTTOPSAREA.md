@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WhseProdnSupplyAreaBinAssgmt
 ---
 # I_EWM_BINASSIGNMENTTOPSAREA
 

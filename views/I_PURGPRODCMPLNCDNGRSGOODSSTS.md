@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgProdCmplncDngrsGoodsStatus
 ---
 # I_PURGPRODCMPLNCDNGRSGOODSSTS
 

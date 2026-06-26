@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetStatus
 ---
 # I_TIMESHEETSTATUSTEXT
 

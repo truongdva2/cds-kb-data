@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-KAB-CC-2CL
   - lob:Manufacturing
+  - bo:KanbanControlCycle
 ---
 # I_KANBANCONTROLCYCLETP
 

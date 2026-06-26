@@ -18,6 +18,7 @@ tags:
   - schedule-line
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:ScheduleLineConfirmationStatus
 ---
 # I_SCHEDULELINECONFSTATUSTEXT
 

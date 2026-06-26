@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CO-PC-ACT-2CL
   - lob:Controlling
+  - bo:CostingRunType
 ---
 # I_ACTCOSTINGRUNTYPEVH
 

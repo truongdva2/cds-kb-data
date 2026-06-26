@@ -15,6 +15,7 @@ tags:
   - schedule-line
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkBreakSchedule
 ---
 # I_WORKBREAKSCHEDULE
 

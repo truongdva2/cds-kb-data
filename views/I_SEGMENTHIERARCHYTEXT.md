@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:SegmentHierarchyText
 ---
 # I_SEGMENTHIERARCHYTEXT
 

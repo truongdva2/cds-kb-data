@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupplyArea
 ---
 # I_PRODUCTIONSUPPLYAREA
 

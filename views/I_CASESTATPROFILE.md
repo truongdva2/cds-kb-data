@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:DisputeCaseStatusProfile
 ---
 # I_CASESTATPROFILE
 

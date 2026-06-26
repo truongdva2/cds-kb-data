@@ -15,6 +15,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveTemplate
 ---
 # I_EWM_WAVETEMPLATETEXT_3
 

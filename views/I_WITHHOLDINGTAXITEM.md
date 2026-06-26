@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-AP-AP-Q-2CL
   - lob:Finance
+  - bo:WithholdingTaxItem
 ---
 # I_WITHHOLDINGTAXITEM
 

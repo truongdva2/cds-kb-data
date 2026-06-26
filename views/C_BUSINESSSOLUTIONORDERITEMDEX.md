@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:CRM-S4-ANA-BI-2CL
   - lob:Other
+  - bo:BusinessSolutionOrderItem
 ---
 # C_BUSINESSSOLUTIONORDERITEMDEX
 

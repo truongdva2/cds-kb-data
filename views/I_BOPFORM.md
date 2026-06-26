@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-FI
   - lob:Finance
+  - bo:BOPForm
 ---
 # I_BOPFORM
 

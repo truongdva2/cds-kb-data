@@ -15,6 +15,7 @@ tags:
   - transport
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:TransportationZone
 ---
 # I_TRANSPORTATIONZONE
 

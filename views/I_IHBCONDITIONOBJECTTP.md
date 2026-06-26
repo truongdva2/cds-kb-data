@@ -16,6 +16,7 @@ tags:
   - pricing-condition
   - component:FIN-FSCM-PF-IHB-2CL
   - lob:Other
+  - bo:InhouseBankMasterObject
 ---
 # I_IHBCONDITIONOBJECTTP
 

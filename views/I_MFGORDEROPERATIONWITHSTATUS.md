@@ -14,6 +14,7 @@ tags:
   - status
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionOrderOperation
 ---
 # I_MFGORDEROPERATIONWITHSTATUS
 

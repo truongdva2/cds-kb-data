@@ -16,6 +16,7 @@ tags:
   - partner
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:CrdtMgmtBusinessPartnerGroup
 ---
 # I_CRDTMBUSPARTNERGROUPNAME
 

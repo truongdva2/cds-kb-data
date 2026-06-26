@@ -13,6 +13,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingProcessingStatus
 ---
 # I_PURCHASINGPROCESSINGSTATUS
 

@@ -18,6 +18,7 @@ tags:
   - status
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Status
 ---
 # I_PRODUCTSTATUSTEXT
 

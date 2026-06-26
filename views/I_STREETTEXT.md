@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:Street
 ---
 # I_STREETTEXT
 

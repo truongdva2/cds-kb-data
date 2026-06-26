@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:FiscalQuarter
 ---
 # I_FISCALYEARQUARTER
 

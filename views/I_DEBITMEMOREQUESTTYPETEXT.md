@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:DebitMemoRequestType
 ---
 # I_DEBITMEMOREQUESTTYPETEXT
 

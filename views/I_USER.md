@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SEC-USR-ADM
   - lob:Basis Components
+  - bo:UserID
 ---
 # I_USER
 

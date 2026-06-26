@@ -15,6 +15,7 @@ tags:
   - serial-number
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseTaskSerialNumber
 ---
 # I_EWM_WHSETASKSERIALNUMBER
 

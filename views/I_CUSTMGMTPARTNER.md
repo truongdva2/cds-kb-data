@@ -13,6 +13,7 @@ tags:
   - partner
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentPartner
 ---
 # I_CUSTMGMTPARTNER
 

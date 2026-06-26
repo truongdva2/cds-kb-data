@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMStorageBin
 ---
 # I_EWM_STORAGEBIN_2
 

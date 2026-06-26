@@ -15,6 +15,7 @@ tags:
   - text
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:StockType
 ---
 # I_STOCKTYPETEXT_2
 

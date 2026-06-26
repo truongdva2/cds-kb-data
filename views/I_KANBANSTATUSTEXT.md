@@ -17,6 +17,7 @@ tags:
   - status
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanStatus
 ---
 # I_KANBANSTATUSTEXT
 

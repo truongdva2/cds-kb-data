@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:CostingOverheadGroup
 ---
 # I_COSTINGOVERHEADGROUPVH
 

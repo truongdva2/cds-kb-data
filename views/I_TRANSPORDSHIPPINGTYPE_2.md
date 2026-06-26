@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderShippingType
 ---
 # I_TRANSPORDSHIPPINGTYPE_2
 

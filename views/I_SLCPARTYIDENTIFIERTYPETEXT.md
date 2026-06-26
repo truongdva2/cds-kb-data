@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyIdentifierType
 ---
 # I_SLCPARTYIDENTIFIERTYPETEXT
 

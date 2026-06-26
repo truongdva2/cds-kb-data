@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:FinancialAccountType
 ---
 # I_FINANCIALACCOUNTTYPE
 

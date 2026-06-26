@@ -19,6 +19,7 @@ tags:
   - item-level
   - component:SD-BIL-PBD-2CL
   - lob:Sales & Distribution
+  - bo:PrelimBillingDocumentItem
 ---
 # I_PRELIMBILLINGDOCITEMSTDVH
 

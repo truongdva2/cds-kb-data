@@ -17,6 +17,7 @@ tags:
   - status
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevnAcctgContractStatus
 ---
 # I_RACONTRACTSTATUSTEXT
 

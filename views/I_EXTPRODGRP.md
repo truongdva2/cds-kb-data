@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ExternalProductGroup
 ---
 # I_EXTPRODGRP
 

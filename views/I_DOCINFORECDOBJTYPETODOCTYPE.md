@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:LinkedSAPObject
 ---
 # I_DOCINFORECDOBJTYPETODOCTYPE
 

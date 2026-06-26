@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:AP-MD-BP
   - lob:Other
+  - bo:BusinessPartnerContactPerson
 ---
 # I_BPCONTACTTOFUNCANDDEPT
 

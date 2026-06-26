@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashFlowCertaintyLevel
 ---
 # I_FINCOPITEMCUBE
 

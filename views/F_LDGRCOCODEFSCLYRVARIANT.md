@@ -14,6 +14,7 @@ tags:
   - fact-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:CompanyCode
 ---
 # F_LDGRCOCODEFSCLYRVARIANT
 

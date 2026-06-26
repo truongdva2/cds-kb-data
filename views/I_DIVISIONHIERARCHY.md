@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:DivisionHierarchy
 ---
 # I_DIVISIONHIERARCHY
 

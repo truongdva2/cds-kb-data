@@ -16,6 +16,7 @@ tags:
   - text
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RERentableObjectCategory
 ---
 # I_RERENTABLEOBJECTCATEGORYTEXT
 

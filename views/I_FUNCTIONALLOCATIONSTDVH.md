@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # I_FUNCTIONALLOCATIONSTDVH
 

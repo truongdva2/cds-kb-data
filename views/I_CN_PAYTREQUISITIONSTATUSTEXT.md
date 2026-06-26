@@ -17,6 +17,7 @@ tags:
   - status
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:PaymentRequisitionStatus
 ---
 # I_CN_PAYTREQUISITIONSTATUSTEXT
 

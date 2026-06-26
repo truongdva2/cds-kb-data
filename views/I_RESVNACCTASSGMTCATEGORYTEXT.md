@@ -16,6 +16,7 @@ tags:
   - text
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ResvnAcctAssignmentCategoryTxt
 ---
 # I_RESVNACCTASSGMTCATEGORYTEXT
 

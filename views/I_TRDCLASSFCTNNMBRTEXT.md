@@ -16,6 +16,7 @@ tags:
   - text
   - component:FT-ITR-CLS
   - lob:Other
+  - bo:TrdClassfctnNmbr
 ---
 # I_TRDCLASSFCTNNMBRTEXT
 

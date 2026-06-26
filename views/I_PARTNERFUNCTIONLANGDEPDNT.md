@@ -15,6 +15,7 @@ tags:
   - partner
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:PartnerFunction
 ---
 # I_PARTNERFUNCTIONLANGDEPDNT
 

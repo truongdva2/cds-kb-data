@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-KAB-2CL
   - lob:Manufacturing
+  - bo:ProductionSupplyAreaAddress
 ---
 # I_PRODUCTIONSUPPLYAREAADDRTP_2
 

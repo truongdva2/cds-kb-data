@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:DebitMemoRequest
 ---
 # I_DEBITMEMOREQUEST
 

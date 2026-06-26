@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:PrjBlgElmEntrCanclnSourceCode
 ---
 # I_PRJBLGELMENTRCANCLNSRCECODE
 

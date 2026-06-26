@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:TechnicalObjectType
 ---
 # I_TECHNICALOBJECTTYPETEXT
 

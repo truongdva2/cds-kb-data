@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalScoreOutputActionType
 ---
 # C_MM_SUPLREVALOUTPSCORETYPEVH
 

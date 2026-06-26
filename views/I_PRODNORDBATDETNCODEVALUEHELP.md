@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductionOrderBatchCode
 ---
 # I_PRODNORDBATDETNCODEVALUEHELP
 

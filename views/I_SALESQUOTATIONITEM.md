@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotationItem
 ---
 # I_SALESQUOTATIONITEM
 

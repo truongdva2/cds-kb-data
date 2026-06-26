@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalRspLifecycleStatus
 ---
 # I_SUPLREVALRSPLIFECYCLESTSTEXT
 

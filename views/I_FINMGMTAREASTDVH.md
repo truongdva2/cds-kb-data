@@ -14,6 +14,7 @@ tags:
   - standard-value-help
   - component:PSM
   - lob:Other
+  - bo:FinancialManagementArea
 ---
 # I_FINMGMTAREASTDVH
 

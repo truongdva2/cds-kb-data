@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:BillOfExchangeIsBlocked
 ---
 # I_CN_BILLOFEXCHANGEBLOCKTEXT
 

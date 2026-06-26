@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:NFVehicleType
 ---
 # I_BR_NFVEHICLETYPE_2
 

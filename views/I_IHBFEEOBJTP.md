@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FIN-FSCM-PF-IHB-2CL
   - lob:Other
+  - bo:InhouseBankMasterObject
 ---
 # I_IHBFEEOBJTP
 

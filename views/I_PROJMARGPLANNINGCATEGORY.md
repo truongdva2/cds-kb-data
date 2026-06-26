@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:CO-FIO-PA-2CL
   - lob:Controlling
+  - bo:PlanningCategory
 ---
 # I_PROJMARGPLANNINGCATEGORY
 

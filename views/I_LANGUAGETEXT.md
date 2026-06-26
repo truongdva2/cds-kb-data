@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-DOC-TTL
   - lob:Basis Components
+  - bo:LanguageCode
 ---
 # I_LANGUAGETEXT
 

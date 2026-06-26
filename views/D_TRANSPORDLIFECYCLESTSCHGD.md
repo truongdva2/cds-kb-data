@@ -12,6 +12,7 @@ tags:
   - TM-FRM
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TransportationOrder
 ---
 # D_TRANSPORDLIFECYCLESTSCHGD
 

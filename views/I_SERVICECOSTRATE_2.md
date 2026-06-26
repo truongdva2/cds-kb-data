@@ -14,6 +14,7 @@ tags:
   - service
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:AccountingCostRate
 ---
 # I_SERVICECOSTRATE_2
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-SQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecord
 ---
 # I_PURCHASINGINFORECORDAPI01
 

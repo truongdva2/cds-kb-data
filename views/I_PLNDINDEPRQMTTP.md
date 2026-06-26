@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-MP-DEM-2CL
   - lob:Manufacturing
+  - bo:PlannedIndependentRequirement
 ---
 # I_PLNDINDEPRQMTTP
 

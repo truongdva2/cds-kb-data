@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-FI-JP
   - lob:Finance
+  - bo:JP_InvoiceSummaryPayerInvoice
 ---
 # I_JP_INVCSMMRYMONTHLYINVOICE
 

@@ -14,6 +14,7 @@ tags:
   - service
   - component:CRM-S4-ANA-BI-2CL
   - lob:Other
+  - bo:ServiceQuotation
 ---
 # C_SERVICEQUOTATIONDEX
 

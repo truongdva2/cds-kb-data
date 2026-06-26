@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceTaskListType
 ---
 # I_MAINTENANCETASKLISTTYPE
 

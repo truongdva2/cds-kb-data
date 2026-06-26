@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentRequestType
 ---
 # I_BILLGDOCREQUESTTYPESTDVH
 

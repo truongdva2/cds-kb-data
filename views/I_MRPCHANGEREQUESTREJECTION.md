@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PP-FIO-2CL
   - lob:Manufacturing
+  - bo:MRPChangeRequestRejection
 ---
 # I_MRPCHANGEREQUESTREJECTION
 

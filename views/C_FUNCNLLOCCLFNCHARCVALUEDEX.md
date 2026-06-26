@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # C_FUNCNLLOCCLFNCHARCVALUEDEX
 

@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:PP-PLO-2CL
   - lob:Manufacturing
+  - bo:ProductionSupervisor
 ---
 # I_PLNDORDERPRODNSUPERVISORVH
 

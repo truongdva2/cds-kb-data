@@ -16,6 +16,7 @@ tags:
   - product
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FieldLogisticsReturns
 ---
 # I_FLDLOGSRETURNSPRODUCTTP
 

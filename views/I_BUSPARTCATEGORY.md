@@ -15,6 +15,7 @@ tags:
   - business-partner
   - component:AP-MD-BP-RAP
   - lob:Other
+  - bo:BusinessPartnerCategory
 ---
 # I_BUSPARTCATEGORY
 

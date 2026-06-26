@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergySourcingTypeText
 ---
 # I_GHGENERGYSOURCINGTYPETEXT
 

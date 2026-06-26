@@ -13,6 +13,7 @@ tags:
   - document
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentCategory
 ---
 # I_PURCHASINGDOCUMENTCATEGORY
 

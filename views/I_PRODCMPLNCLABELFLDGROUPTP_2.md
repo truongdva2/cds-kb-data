@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:EHS-SUS-SDS
   - lob:Other
+  - bo:ProdComplianceLabelFieldGroup
 ---
 # I_PRODCMPLNCLABELFLDGROUPTP_2
 

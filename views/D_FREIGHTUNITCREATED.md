@@ -13,6 +13,7 @@ tags:
   - freight
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:FreightUnit
 ---
 # D_FREIGHTUNITCREATED
 

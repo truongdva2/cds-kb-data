@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspLotSummaryControl
 ---
 # I_INSPLOTSUMMARYCONTROLTEXT
 

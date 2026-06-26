@@ -16,6 +16,7 @@ tags:
   - text
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:ServiceCostLevel
 ---
 # I_SERVICECOSTLEVELTEXT
 

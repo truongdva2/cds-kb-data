@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyIdentifierType
 ---
 # I_SLCPARTYIDENTIFIERTYPE
 

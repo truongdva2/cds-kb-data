@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceItem
 ---
 # I_MAINTENANCEITEMTP_2
 

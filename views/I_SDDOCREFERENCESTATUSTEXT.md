@@ -17,6 +17,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocReferenceStatus
 ---
 # I_SDDOCREFERENCESTATUSTEXT
 

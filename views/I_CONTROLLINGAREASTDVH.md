@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ControllingArea
 ---
 # I_CONTROLLINGAREASTDVH
 

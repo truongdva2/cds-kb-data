@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentSystemIntegrationType
 ---
 # I_BR_PAYTINTEGRATIONTYPETEXT
 

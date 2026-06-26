@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:CreditMemoRequestItem
 ---
 # I_CREDITMEMOREQUESTITEMTP
 

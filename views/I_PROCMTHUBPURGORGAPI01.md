@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-HUB-FND-2CL
   - lob:Sourcing & Procurement
+  - bo:ProcmtHubPurchasingOrg
 ---
 # I_PROCMTHUBPURGORGAPI01
 

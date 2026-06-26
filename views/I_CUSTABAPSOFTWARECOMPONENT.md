@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-APS-EXT-REL
   - lob:Basis Components
+  - bo:ABAPSoftwareComponent
 ---
 # I_CUSTABAPSOFTWARECOMPONENT
 

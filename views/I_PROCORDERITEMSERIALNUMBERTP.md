@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderSerialNumber
 ---
 # I_PROCORDERITEMSERIALNUMBERTP
 

@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:LedgerGLLineItem
 ---
 # I_GLACCOUNTLINEITEMSEMTAG
 

@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # I_SCHEDGAGRMTITMTP_2
 

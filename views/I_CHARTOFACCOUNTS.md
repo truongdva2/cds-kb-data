@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ChartOfAccounts
 ---
 # I_CHARTOFACCOUNTS
 

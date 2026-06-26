@@ -17,6 +17,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenterCategoryText
 ---
 # I_WORKCENTERCATEGORYTEXT
 

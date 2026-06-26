@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-SRV-ASF-UOM
   - lob:Basis Components
+  - bo:UnitOfMeasureISOCode
 ---
 # I_UNITOFMEASUREISOCODETEXT
 

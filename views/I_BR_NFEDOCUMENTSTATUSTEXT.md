@@ -18,6 +18,7 @@ tags:
   - status
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeDocumentStatus
 ---
 # I_BR_NFEDOCUMENTSTATUSTEXT
 

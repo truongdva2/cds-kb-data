@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductSafetyStockMethod
 ---
 # I_MRPSAFETYSTOCKMETHOD
 

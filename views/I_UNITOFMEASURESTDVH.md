@@ -17,6 +17,7 @@ tags:
   - unit-of-measure
   - component:BC-SRV-ASF-UOM
   - lob:Basis Components
+  - bo:UnitOfMeasure
 ---
 # I_UNITOFMEASURESTDVH
 

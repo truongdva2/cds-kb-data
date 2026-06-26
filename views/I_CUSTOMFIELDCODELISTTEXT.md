@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-APS-EXT-FLD
   - lob:Basis Components
+  - bo:Code
 ---
 # I_CUSTOMFIELDCODELISTTEXT
 

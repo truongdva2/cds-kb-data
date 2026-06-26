@@ -14,6 +14,7 @@ tags:
   - transport
   - component:SUS-INT
   - lob:Other
+  - bo:SustainabilityModeOfTransport
 ---
 # I_SUSTMODEOFTRANSPORT
 

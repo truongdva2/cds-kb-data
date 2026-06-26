@@ -14,6 +14,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:ManufacturerPartProfileText
 ---
 # I_MANUFACTURERPARTPROFILETEXT
 

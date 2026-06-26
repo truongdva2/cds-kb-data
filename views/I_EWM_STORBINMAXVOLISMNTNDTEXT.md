@@ -16,6 +16,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMStorageBinMaxVolumeIsMntnd
 ---
 # I_EWM_STORBINMAXVOLISMNTNDTEXT
 

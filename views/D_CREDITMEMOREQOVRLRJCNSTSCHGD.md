@@ -14,6 +14,7 @@ tags:
   - credit
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:CreditMemoRequest
 ---
 # D_CREDITMEMOREQOVRLRJCNSTSCHGD
 

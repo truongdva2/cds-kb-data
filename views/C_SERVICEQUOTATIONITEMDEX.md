@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:CRM-S4-ANA-BI-2CL
   - lob:Other
+  - bo:ServiceQuotationItem
 ---
 # C_SERVICEQUOTATIONITEMDEX
 

@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassificationObjectClass
 ---
 # I_CLFNOBJECTCLASSDEX
 

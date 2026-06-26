@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingProcessingStatusText
 ---
 # I_PURGPROCESSINGSTATUSTEXT
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-MM-LIS-2CL
   - lob:Sales & Distribution
+  - bo:SlsMatlLstgOrExclsnRecord
 ---
 # I_SLSMATLLSTGOREXCLSNRECORD
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JointVenture
 ---
 # I_JOINTVENTUREDETAILS
 

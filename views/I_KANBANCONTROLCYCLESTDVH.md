@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanControlCycle
 ---
 # I_KANBANCONTROLCYCLESTDVH
 

@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:BillingPriceSource
 ---
 # I_BILLINGPRICESOURCE
 

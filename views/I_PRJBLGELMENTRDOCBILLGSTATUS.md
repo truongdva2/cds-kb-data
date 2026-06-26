@@ -15,6 +15,7 @@ tags:
   - status
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntrDocBillgSts
 ---
 # I_PRJBLGELMENTRDOCBILLGSTATUS
 

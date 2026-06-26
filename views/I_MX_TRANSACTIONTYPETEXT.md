@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-FI-MX
   - lob:Finance
+  - bo:BusinessTransactionType
 ---
 # I_MX_TRANSACTIONTYPETEXT
 

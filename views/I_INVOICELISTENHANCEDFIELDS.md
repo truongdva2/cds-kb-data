@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceList
 ---
 # I_INVOICELISTENHANCEDFIELDS
 

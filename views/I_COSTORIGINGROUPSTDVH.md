@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:CO-PC-PCP-2CL
   - lob:Controlling
+  - bo:CostOriginGroup
 ---
 # I_COSTORIGINGROUPSTDVH
 

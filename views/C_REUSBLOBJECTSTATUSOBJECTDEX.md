@@ -16,6 +16,7 @@ tags:
   - status
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:StatusCode
 ---
 # C_REUSBLOBJECTSTATUSOBJECTDEX
 

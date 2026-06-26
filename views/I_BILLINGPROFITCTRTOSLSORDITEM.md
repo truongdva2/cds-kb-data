@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-GL-OC-2CL
   - lob:Finance
+  - bo:SalesDocumentItem
 ---
 # I_BILLINGPROFITCTRTOSLSORDITEM
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductPlanningStrategy
 ---
 # I_PRODUCTPLANNINGSTRATEGYTEXT
 

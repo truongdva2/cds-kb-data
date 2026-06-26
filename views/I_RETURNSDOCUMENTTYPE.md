@@ -14,6 +14,7 @@ tags:
   - document
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsDocumentType
 ---
 # I_RETURNSDOCUMENTTYPE
 

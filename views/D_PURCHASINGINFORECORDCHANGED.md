@@ -13,6 +13,7 @@ tags:
   - MM-PUR-VM
   - component:MM-PUR-VM-REC-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecord
 ---
 # D_PURCHASINGINFORECORDCHANGED
 

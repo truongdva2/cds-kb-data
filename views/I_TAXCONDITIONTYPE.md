@@ -16,6 +16,7 @@ tags:
   - tax
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:TaxConditionType
 ---
 # I_TAXCONDITIONTYPE
 

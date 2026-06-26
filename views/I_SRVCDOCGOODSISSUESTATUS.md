@@ -13,6 +13,7 @@ tags:
   - status
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:SrvcTransGoodsIssueStatus
 ---
 # I_SRVCDOCGOODSISSUESTATUS
 

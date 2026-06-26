@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:LO-HU-API-2CL
   - lob:Logistics General
+  - bo:HandlingUnit
 ---
 # I_HANDLINGUNITTP
 

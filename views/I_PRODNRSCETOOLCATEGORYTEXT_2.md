@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:PRTCategoryText
 ---
 # I_PRODNRSCETOOLCATEGORYTEXT_2
 

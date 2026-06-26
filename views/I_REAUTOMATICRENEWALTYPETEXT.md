@@ -15,6 +15,7 @@ tags:
   - text
   - component:RE-FX-2CL
   - lob:Other
+  - bo:REAutomaticRenewalType
 ---
 # I_REAUTOMATICRENEWALTYPETEXT
 

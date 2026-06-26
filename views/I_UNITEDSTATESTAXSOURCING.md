@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:US_TaxSourcing
 ---
 # I_UNITEDSTATESTAXSOURCING
 

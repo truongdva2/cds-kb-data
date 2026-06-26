@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-CSC-EDO-IT
   - lob:Cross-Application Components
+  - bo:IT_ElectronicDocRejectionCode
 ---
 # I_IT_ELECTRONICDOCREJECTCODE
 

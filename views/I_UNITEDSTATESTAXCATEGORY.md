@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:UnitedStatesTaxCategory
 ---
 # I_UNITEDSTATESTAXCATEGORY
 

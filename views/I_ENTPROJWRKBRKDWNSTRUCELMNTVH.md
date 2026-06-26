@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:ProjectElement
 ---
 # I_ENTPROJWRKBRKDWNSTRUCELMNTVH
 

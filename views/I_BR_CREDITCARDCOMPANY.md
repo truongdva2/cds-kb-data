@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:CreditCardBrand
 ---
 # I_BR_CREDITCARDCOMPANY
 

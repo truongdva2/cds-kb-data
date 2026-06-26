@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShipmentVoyageStage
 ---
 # I_FLDLOGSSHPTSTGEASSGMTCTNTP
 

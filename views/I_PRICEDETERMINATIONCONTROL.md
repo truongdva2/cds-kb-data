@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-ML-2CL
   - lob:Controlling
+  - bo:PriceDeterminationControl
 ---
 # I_PRICEDETERMINATIONCONTROL
 

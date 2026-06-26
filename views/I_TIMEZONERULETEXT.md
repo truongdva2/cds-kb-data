@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-TIM-TZ
   - lob:Basis Components
+  - bo:TimeZoneRule
 ---
 # I_TIMEZONERULETEXT
 

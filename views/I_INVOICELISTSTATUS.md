@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListStatus
 ---
 # I_INVOICELISTSTATUS
 

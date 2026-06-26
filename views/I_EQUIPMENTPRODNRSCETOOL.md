@@ -15,6 +15,7 @@ tags:
   - equipment
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:Equipment
 ---
 # I_EQUIPMENTPRODNRSCETOOL
 

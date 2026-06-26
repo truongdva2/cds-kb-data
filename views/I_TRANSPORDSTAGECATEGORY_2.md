@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderStageCategory
 ---
 # I_TRANSPORDSTAGECATEGORY_2
 

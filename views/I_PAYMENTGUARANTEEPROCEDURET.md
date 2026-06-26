@@ -15,6 +15,7 @@ tags:
   - payment
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:PaymentGuaranteeProcedure
 ---
 # I_PAYMENTGUARANTEEPROCEDURET
 

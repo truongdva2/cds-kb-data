@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:BusinessActivityCategory
 ---
 # I_BUSINESSACTIVITYCATEGORY
 

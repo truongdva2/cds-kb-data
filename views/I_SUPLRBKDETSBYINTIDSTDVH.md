@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:BPBankAccountInternalID
 ---
 # I_SUPLRBKDETSBYINTIDSTDVH
 

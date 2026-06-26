@@ -12,6 +12,7 @@ tags:
   - LO-AB
   - component:LO-AB
   - lob:Logistics General
+  - bo:FreightCostAllocationDocument
 ---
 # D_FRTCOSTALLOCDOCCREATED
 

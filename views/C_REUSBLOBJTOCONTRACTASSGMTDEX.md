@@ -16,6 +16,7 @@ tags:
   - contract
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RealEstateUsableObjectUUID
 ---
 # C_REUSBLOBJTOCONTRACTASSGMTDEX
 

@@ -15,6 +15,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:CentralCreditChkTechErrSts
 ---
 # I_CENTRALCREDITCHKTECHERRSTST
 

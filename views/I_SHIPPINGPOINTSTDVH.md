@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ShippingPoint
 ---
 # I_SHIPPINGPOINTSTDVH
 

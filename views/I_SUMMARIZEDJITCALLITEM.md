@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:JITCallItemNumber
 ---
 # I_SUMMARIZEDJITCALLITEM
 

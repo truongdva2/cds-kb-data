@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:CalendarDate
 ---
 # I_FISCALCALENDARDATEFORLEDGER
 

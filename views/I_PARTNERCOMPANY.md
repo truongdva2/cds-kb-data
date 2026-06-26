@@ -15,6 +15,7 @@ tags:
   - partner
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:PartnerCompany
 ---
 # I_PARTNERCOMPANY
 

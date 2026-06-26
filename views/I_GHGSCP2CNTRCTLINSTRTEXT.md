@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScp2CntrctlInstrumentText
 ---
 # I_GHGSCP2CNTRCTLINSTRTEXT
 

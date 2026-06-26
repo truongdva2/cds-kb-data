@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-BD-WKC-2CL
   - lob:Manufacturing
+  - bo:PooledCapacity
 ---
 # I_WORKCENTERPOOLEDCAPACITY
 

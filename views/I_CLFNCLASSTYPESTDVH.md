@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassType
 ---
 # I_CLFNCLASSTYPESTDVH
 

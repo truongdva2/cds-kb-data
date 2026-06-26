@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-WFD
   - lob:Cross-Application Components
+  - bo:WorkAssignmentDetails
 ---
 # I_PERSONWORKAGRMTORGLDETAILS
 

@@ -16,6 +16,7 @@ tags:
   - status
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:OverallBillingBlockStatus
 ---
 # I_OVERALLBILLINGBLOCKSTATUS
 

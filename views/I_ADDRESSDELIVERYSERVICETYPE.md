@@ -17,6 +17,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:DeliveryServiceTypeCode
 ---
 # I_ADDRESSDELIVERYSERVICETYPE
 

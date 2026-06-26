@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningArea
 ---
 # I_DUNNINGAREATEXT
 

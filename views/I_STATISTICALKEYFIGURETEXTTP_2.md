@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-FXU-FI-CO
   - lob:Cross-Application Components
+  - bo:StatisticalKeyFigure
 ---
 # I_STATISTICALKEYFIGURETEXTTP_2
 

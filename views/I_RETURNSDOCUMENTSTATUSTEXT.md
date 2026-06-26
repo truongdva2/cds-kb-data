@@ -17,6 +17,7 @@ tags:
   - status
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsDocumentStatus
 ---
 # I_RETURNSDOCUMENTSTATUSTEXT
 

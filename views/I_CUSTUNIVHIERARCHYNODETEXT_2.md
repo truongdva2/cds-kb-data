@@ -15,6 +15,7 @@ tags:
   - text
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerUnivHierarchyNodeText
 ---
 # I_CUSTUNIVHIERARCHYNODETEXT_2
 

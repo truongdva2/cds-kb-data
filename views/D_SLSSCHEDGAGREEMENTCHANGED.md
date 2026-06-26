@@ -13,6 +13,7 @@ tags:
   - SD-SLS-OA
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SalesSchedulingAgreement
 ---
 # D_SLSSCHEDGAGREEMENTCHANGED
 

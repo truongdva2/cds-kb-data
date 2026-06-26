@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:MeasuringPoint
 ---
 # I_MSRGPOINTPRODNRSCETOOL
 

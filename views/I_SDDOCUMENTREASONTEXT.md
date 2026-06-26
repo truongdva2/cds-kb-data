@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentReason
 ---
 # I_SDDOCUMENTREASONTEXT
 

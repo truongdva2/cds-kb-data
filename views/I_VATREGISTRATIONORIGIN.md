@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:VATRegistrationOrigin
 ---
 # I_VATREGISTRATIONORIGIN
 

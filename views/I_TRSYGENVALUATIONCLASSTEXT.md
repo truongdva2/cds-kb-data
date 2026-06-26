@@ -17,6 +17,7 @@ tags:
   - environment-health-safety
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryGeneralValuationClass
 ---
 # I_TRSYGENVALUATIONCLASSTEXT
 

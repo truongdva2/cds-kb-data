@@ -15,6 +15,7 @@ tags:
   - tax
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerSalesAreaTax
 ---
 # I_CUSTSALESAREATAX
 

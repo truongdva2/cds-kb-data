@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSTaxSituation
 ---
 # I_BR_ICMSTAXSITUATION
 

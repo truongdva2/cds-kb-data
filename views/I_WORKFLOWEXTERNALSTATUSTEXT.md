@@ -18,6 +18,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowExternalStatus
 ---
 # I_WORKFLOWEXTERNALSTATUSTEXT
 

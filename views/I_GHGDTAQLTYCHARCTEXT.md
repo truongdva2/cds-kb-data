@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGDtaQltyCharacteristicText
 ---
 # I_GHGDTAQLTYCHARCTEXT
 

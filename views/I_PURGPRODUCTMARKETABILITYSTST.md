@@ -13,6 +13,7 @@ tags:
   - product
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgProdMarketabilityStatusTxt
 ---
 # I_PURGPRODUCTMARKETABILITYSTST
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-ABA-SC
   - lob:Basis Components
+  - bo:SAPGraphicalUIIconText
 ---
 # I_SAPGUIICONTEXT
 

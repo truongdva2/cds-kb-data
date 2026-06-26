@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentMethod
 ---
 # I_BR_PAYMENTMETHODTEXT
 

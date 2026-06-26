@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Product
 ---
 # I_PRODUCTRETAIL
 

@@ -16,6 +16,7 @@ tags:
   - country
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:Country
 ---
 # I_COUNTRYVH
 

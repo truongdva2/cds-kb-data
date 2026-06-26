@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-ACT
   - lob:Other
+  - bo:SuplrActyTaskLifecycleStatus
 ---
 # I_SUPLRACTTASKLIFECYCLESTS
 

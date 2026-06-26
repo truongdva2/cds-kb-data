@@ -16,6 +16,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionVersion
 ---
 # I_PRODUCTIONVERSIONTP
 

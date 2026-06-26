@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_SIMPLESClassCode
 ---
 # I_BR_SIMPLESCLASSCODETEXT
 

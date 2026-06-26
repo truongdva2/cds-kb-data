@@ -16,6 +16,7 @@ tags:
   - serial-number
   - component:LO-MD-SN-2CL
   - lob:Logistics General
+  - bo:SerialNumberProfile
 ---
 # I_SERIALNUMBERPROFILEVH
 

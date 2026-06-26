@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentItem
 ---
 # I_BILLGDOCITMBSCSTDVH
 

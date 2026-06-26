@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:CountryHierarchyNodeText
 ---
 # I_COUNTRYHIERARCHYNODETEXT
 

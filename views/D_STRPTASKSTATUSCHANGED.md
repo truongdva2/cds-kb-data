@@ -14,6 +14,7 @@ tags:
   - status
   - component:FI-LOC-SRF-RUN
   - lob:Finance
+  - bo:StatutoryReportingTask
 ---
 # D_STRPTASKSTATUSCHANGED
 

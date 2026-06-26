@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-SRV-BSF-CUR-2CL
   - lob:Basis Components
+  - bo:ExchangeRateType
 ---
 # I_EXCHANGERATETYPETEXT
 

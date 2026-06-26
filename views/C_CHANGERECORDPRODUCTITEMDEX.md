@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecordReferenceProduct
 ---
 # C_CHANGERECORDPRODUCTITEMDEX
 

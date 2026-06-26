@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_DUEType
 ---
 # I_BR_DUETYPETEXT
 

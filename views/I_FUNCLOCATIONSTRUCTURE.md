@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FuncLocationStructureCode
 ---
 # I_FUNCLOCATIONSTRUCTURE
 

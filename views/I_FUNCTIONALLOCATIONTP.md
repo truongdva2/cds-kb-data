@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # I_FUNCTIONALLOCATIONTP
 

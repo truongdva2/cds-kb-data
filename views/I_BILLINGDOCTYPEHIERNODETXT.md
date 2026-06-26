@@ -16,6 +16,7 @@ tags:
   - billing
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:BillingDocHierarchyNodeText
 ---
 # I_BILLINGDOCTYPEHIERNODETXT
 

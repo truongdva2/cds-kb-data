@@ -16,6 +16,7 @@ tags:
   - phone
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:PhoneNumber
 ---
 # I_ADDRESSPHONENUMBER_2
 

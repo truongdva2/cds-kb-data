@@ -15,6 +15,7 @@ tags:
   - contract
   - component:CRM-S4-SRV-CTR-2CL
   - lob:Other
+  - bo:ServiceContract
 ---
 # I_SERVICECONTRACTTP
 

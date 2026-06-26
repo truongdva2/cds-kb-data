@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-EVL
   - lob:Other
+  - bo:SLCQnaireLifecycleStatus
 ---
 # I_SLCQNAIRELIFECYCLESTSTEXT
 

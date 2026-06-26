@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeServiceType
 ---
 # I_BR_CTESERVICETYPETEXT
 

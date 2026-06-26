@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrder
 ---
 # I_PROCESSORDERTP
 

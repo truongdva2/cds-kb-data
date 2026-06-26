@@ -15,6 +15,7 @@ tags:
   - status
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:CashFlowPostingStatus
 ---
 # I_RECASHFLOWPOSTINGSTATUS
 

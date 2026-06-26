@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-MR-2CL
   - lob:Other
+  - bo:FinancialTransactionNPVType
 ---
 # I_FINANCIALTRANSACTIONNPVTYPE
 

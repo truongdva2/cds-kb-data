@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JntOpgAgrmtEquityGrp
 ---
 # I_JNTVNTREQUITYGRPTEXT
 

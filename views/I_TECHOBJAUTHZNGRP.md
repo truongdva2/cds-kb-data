@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:TechObjAuthorizationGroup
 ---
 # I_TECHOBJAUTHZNGRP
 

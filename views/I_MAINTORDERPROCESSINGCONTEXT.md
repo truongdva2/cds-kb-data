@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrderProcessingContext
 ---
 # I_MAINTORDERPROCESSINGCONTEXT
 

@@ -16,6 +16,7 @@ tags:
   - shipment
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptContainer
 ---
 # I_FLDLOGSSHIPMENTCONTAINERTP
 

@@ -15,6 +15,7 @@ tags:
   - document
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LegalDocument
 ---
 # I_LEGALDOCUMENTTP
 

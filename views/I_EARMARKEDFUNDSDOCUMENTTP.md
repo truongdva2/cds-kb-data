@@ -14,6 +14,7 @@ tags:
   - document
   - component:PSM
   - lob:Other
+  - bo:EarmarkedFundsDocument
 ---
 # I_EARMARKEDFUNDSDOCUMENTTP
 

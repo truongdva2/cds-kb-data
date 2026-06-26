@@ -14,6 +14,7 @@ tags:
   - status
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:RetsMgmtProcStepExecStatus
 ---
 # I_RETSMGMTPROCSTEPEXECSTATUS
 

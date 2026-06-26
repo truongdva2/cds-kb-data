@@ -13,6 +13,7 @@ tags:
   - pricing
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PricingDateControlText
 ---
 # I_PRICINGDATECONTROLTXT
 

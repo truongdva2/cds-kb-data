@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-SQ-QTA-2CL
   - lob:Sourcing & Procurement
+  - bo:QuotaArrangement
 ---
 # I_PURGQUOTAARRGMTAPI01
 

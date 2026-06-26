@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-CA-2CL
   - lob:Quality Management
+  - bo:QualityCertificateType
 ---
 # I_QUALITYCERTIFICATETYPE
 

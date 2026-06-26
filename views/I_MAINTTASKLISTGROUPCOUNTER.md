@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:BillOfOperationsVariant
 ---
 # I_MAINTTASKLISTGROUPCOUNTER
 

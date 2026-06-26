@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:REConditionTypeByCndnGroup
 ---
 # I_RECONDITIONTYPEBYCNDNGROUP
 

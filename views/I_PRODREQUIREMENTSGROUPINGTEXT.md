@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProdRqmtsGroupingCodeText
 ---
 # I_PRODREQUIREMENTSGROUPINGTEXT
 

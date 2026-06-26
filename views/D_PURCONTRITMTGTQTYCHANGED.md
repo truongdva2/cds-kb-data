@@ -13,6 +13,7 @@ tags:
   - MM-PUR-OA
   - component:MM-PUR-OA-CON-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContractItem
 ---
 # D_PURCONTRITMTGTQTYCHANGED
 

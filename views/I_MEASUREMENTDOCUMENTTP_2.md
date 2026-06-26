@@ -16,6 +16,7 @@ tags:
   - document
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasurementDocument
 ---
 # I_MEASUREMENTDOCUMENTTP_2
 

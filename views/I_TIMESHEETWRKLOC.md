@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetWrkLocCode
 ---
 # I_TIMESHEETWRKLOC
 

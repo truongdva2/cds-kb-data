@@ -17,6 +17,7 @@ tags:
   - schedule-line
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # C_SCHEDULEAGREEMENTITEMDEX
 

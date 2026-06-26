@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanContainer
 ---
 # I_KANBANCTNDETAILEDQTY
 

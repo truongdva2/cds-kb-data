@@ -15,6 +15,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeFiscalDocumentPartner
 ---
 # I_BR_CTEFISCALDOCPARTNER
 

@@ -15,6 +15,7 @@ tags:
   - warehouse
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseTask
 ---
 # I_EWM_WAREHOUSETASK_2
 

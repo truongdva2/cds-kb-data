@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentItem
 ---
 # C_BILLINGDOCITEMBASICDEX_1
 

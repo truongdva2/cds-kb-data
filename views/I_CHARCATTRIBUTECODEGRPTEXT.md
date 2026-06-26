@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCodeGrp
 ---
 # I_CHARCATTRIBUTECODEGRPTEXT
 

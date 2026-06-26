@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-BUM
   - lob:Basis Components
+  - bo:BusinessPartnerRole
 ---
 # I_BPUSRROLE
 

@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:HeaderPickIncompletionStatus
 ---
 # I_HDRPICKGINCOMPLTNSTATUS
 

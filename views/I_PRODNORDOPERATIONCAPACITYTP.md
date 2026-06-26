@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:PP-SFC-2CL
   - lob:Manufacturing
+  - bo:ProdnOrderOperationCapacity
 ---
 # I_PRODNORDOPERATIONCAPACITYTP
 

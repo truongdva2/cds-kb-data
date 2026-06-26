@@ -18,6 +18,7 @@ tags:
   - status
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurReqnReleaseStatus
 ---
 # I_PURREQNRELEASESTATUSTEXT
 

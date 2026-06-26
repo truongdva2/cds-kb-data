@@ -15,6 +15,7 @@ tags:
   - equipment
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:EquipmentCategory
 ---
 # I_EQUIPMENTCATEGORY
 

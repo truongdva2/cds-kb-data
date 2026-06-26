@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-GM-GTE-MD
   - lob:Other
+  - bo:SponsoredClass
 ---
 # I_SPONSOREDCLASSCORE
 

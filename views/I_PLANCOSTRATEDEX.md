@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:PlanCostRate
 ---
 # I_PLANCOSTRATEDEX
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingDateIdentificationCode
 ---
 # I_PRCGDTEIDNCODETEXT
 

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderStopCategory
 ---
 # I_TRANSPORDSTOPCATEGORY_2
 

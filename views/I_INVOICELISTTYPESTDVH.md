@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListType
 ---
 # I_INVOICELISTTYPESTDVH
 

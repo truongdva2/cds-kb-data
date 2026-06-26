@@ -18,6 +18,7 @@ tags:
   - partner
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:US_TaxPartnerTaxDocumentItem
 ---
 # I_US_TAXPARTNERTAXDOCUMENTITEM
 

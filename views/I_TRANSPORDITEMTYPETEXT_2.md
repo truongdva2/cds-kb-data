@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdItemType
 ---
 # I_TRANSPORDITEMTYPETEXT_2
 

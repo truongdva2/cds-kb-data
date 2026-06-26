@@ -15,6 +15,7 @@ tags:
   - lease
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveReleaseMethod
 ---
 # I_EWM_WAVERELEASEMETHODT_2
 

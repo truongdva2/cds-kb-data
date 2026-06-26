@@ -16,6 +16,7 @@ tags:
   - payment
   - component:CA-GTF-CSC-EDO-PAP
   - lob:Cross-Application Components
+  - bo:EU_EDocPaymentmeans
 ---
 # I_EUELECTRONICDOCPAYMENTMEANVH
 

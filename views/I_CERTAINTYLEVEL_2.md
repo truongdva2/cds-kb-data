@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashFlowCertaintyLevel
 ---
 # I_CERTAINTYLEVEL_2
 

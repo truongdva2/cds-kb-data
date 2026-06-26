@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MerchandiseCategoryText
 ---
 # I_MERCHANDISECATEGORYTEXT
 

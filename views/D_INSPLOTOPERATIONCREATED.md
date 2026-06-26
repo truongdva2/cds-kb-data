@@ -12,6 +12,7 @@ tags:
   - QM-IM
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionOperation
 ---
 # D_INSPLOTOPERATIONCREATED
 

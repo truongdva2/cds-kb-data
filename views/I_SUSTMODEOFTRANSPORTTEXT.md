@@ -16,6 +16,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:SustModeOfTransportText
 ---
 # I_SUSTMODEOFTRANSPORTTEXT
 

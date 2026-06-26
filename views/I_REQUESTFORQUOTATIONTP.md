@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:RequestForQuotation
 ---
 # I_REQUESTFORQUOTATIONTP
 

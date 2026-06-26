@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductUniversalHierarchy
 ---
 # I_PRODUNIVERSALHIERARCHYTP
 

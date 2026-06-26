@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasuringPointCategory
 ---
 # I_MEASURINGPOINTCATTEXT
 

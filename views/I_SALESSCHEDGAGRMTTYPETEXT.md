@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SalesSchedgAgrmtType
 ---
 # I_SALESSCHEDGAGRMTTYPETEXT
 

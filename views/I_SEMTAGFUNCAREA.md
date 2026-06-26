@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:SemanticTagFunctionalArea
 ---
 # I_SEMTAGFUNCAREA
 

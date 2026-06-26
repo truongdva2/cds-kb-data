@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseRequisitionItem
 ---
 # C_PURCHASEREQUISITIONITEMDEX
 

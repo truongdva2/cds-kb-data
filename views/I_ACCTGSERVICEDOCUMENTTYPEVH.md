@@ -17,6 +17,7 @@ tags:
   - document
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocumentType
 ---
 # I_ACCTGSERVICEDOCUMENTTYPEVH
 

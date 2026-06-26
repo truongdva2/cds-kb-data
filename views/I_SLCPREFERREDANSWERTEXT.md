@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPreferredAnswer
 ---
 # I_SLCPREFERREDANSWERTEXT
 

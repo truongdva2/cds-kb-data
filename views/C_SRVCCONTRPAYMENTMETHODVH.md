@@ -14,6 +14,7 @@ tags:
   - payment
   - component:CRM-S4-SRV-MC-2CL
   - lob:Other
+  - bo:PaymentMethod
 ---
 # C_SRVCCONTRPAYMENTMETHODVH
 

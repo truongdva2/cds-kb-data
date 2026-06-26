@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-QN-2CL
   - lob:Quality Management
+  - bo:DefectCode
 ---
 # I_DEFECTCODESTDVH
 

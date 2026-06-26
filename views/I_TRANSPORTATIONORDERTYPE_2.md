@@ -13,6 +13,7 @@ tags:
   - transport
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderType
 ---
 # I_TRANSPORTATIONORDERTYPE_2
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgTransfCostQtyCode
 ---
 # I_PROJBILLGTRANSFCOSTQTYCODE
 

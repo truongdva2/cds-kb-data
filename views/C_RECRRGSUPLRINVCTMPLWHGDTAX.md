@@ -13,6 +13,7 @@ tags:
   - tax
   - component:FI-FIO-AP-2CL
   - lob:Finance
+  - bo:RecrrgSuplrInvcTmplWhgdTx
 ---
 # C_RECRRGSUPLRINVCTMPLWHGDTAX
 

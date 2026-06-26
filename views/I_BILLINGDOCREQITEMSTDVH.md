@@ -19,6 +19,7 @@ tags:
   - item-level
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentRequestItem
 ---
 # I_BILLINGDOCREQITEMSTDVH
 

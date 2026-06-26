@@ -16,6 +16,7 @@ tags:
   - partner
   - component:CA-GTF-CSC-EDO
   - lob:Cross-Application Components
+  - bo:ElectronicDocBPType
 ---
 # I_ELECTRONICDOCPARTNERTYPEVH
 

@@ -15,6 +15,7 @@ tags:
   - collection
   - component:FIN-FSCM-COL-2CL
   - lob:Other
+  - bo:CollectionsSegment
 ---
 # I_COLLECTIONSEGMENT
 

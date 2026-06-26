@@ -16,6 +16,7 @@ tags:
   - document
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:GeneralLedgerAccountLineItem
 ---
 # I_ACCOUNTINGDOCUMENTJOURNAL
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdCollectiveAllocationType
 ---
 # I_COLLECTIVEALLOCATIONTYPE
 

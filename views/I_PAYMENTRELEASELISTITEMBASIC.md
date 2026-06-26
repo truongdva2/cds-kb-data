@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:FI-LOC-EPI-CN
   - lob:Finance
+  - bo:PaymentReleaseList
 ---
 # I_PAYMENTRELEASELISTITEMBASIC
 

@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsReceivedShipmentItem
 ---
 # I_FLDLOGSPROCESSSHIPMENTITEMTP
 

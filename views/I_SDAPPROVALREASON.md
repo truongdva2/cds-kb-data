@@ -14,6 +14,7 @@ tags:
   - approval
   - component:SD-BF
   - lob:Sales & Distribution
+  - bo:SDDocApprovalReason
 ---
 # I_SDAPPROVALREASON
 

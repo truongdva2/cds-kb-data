@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WarehouseOutboundDeliveryOrder
 ---
 # I_EWM_OUTBDELIVORDERHEADERTP
 

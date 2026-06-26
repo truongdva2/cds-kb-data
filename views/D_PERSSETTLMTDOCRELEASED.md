@@ -13,6 +13,7 @@ tags:
   - lease
   - component:LO-AB
   - lob:Logistics General
+  - bo:PersonnelSettlementDocument
 ---
 # D_PERSSETTLMTDOCRELEASED
 

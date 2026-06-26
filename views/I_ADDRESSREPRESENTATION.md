@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressRepresentationCode
 ---
 # I_ADDRESSREPRESENTATION
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSSTBaseDetermination
 ---
 # I_BR_ICMSSTBASEDETNTEXT
 

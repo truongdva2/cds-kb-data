@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentItem
 ---
 # I_SALESDOCUMENTITEMSTDVH
 

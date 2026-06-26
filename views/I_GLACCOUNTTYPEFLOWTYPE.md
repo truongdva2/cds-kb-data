@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:GLAccountTypeFlowType
 ---
 # I_GLACCOUNTTYPEFLOWTYPE
 

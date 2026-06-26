@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:US_TxPartTxJurisdictionLevel
 ---
 # I_US_TXPARTTXJURISDICTIONLEVEL
 

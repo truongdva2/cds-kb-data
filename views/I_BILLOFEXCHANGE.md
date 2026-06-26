@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-BOE
   - lob:Finance
+  - bo:JournalEntryItemBillOfExchange
 ---
 # I_BILLOFEXCHANGE
 

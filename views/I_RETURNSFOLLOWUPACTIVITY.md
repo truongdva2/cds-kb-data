@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsFollowUpActivity
 ---
 # I_RETURNSFOLLOWUPACTIVITY
 

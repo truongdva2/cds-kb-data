@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CIT
   - lob:Finance
+  - bo:CorporateIncomeTaxHierarchy
 ---
 # I_CITCLASSFCTNCONFIGURATIONVH
 

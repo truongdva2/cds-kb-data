@@ -15,6 +15,7 @@ tags:
   - language
   - component:BC-DOC-TTL
   - lob:Basis Components
+  - bo:Language
 ---
 # I_LANGUAGE
 

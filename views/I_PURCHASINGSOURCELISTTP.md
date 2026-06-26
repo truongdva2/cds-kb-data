@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-SQ-SLI-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingSourceList
 ---
 # I_PURCHASINGSOURCELISTTP
 

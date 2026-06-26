@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsInspectionResult
 ---
 # I_RETURNSINSPECTIONCODE
 

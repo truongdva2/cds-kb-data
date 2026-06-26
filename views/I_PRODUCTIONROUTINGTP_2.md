@@ -17,6 +17,7 @@ tags:
   - routing
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODUCTIONROUTINGTP_2
 

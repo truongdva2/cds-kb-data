@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:SrvcDocItemBillingRequestItem
 ---
 # I_BILLINGREQUESTITEM
 

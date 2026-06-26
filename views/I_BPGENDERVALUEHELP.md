@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:AP-MD-BP
   - lob:Other
+  - bo:GenderCodeName
 ---
 # I_BPGENDERVALUEHELP
 

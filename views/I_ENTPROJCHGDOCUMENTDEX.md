@@ -16,6 +16,7 @@ tags:
   - document
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EnterpriseProject
 ---
 # I_ENTPROJCHGDOCUMENTDEX
 

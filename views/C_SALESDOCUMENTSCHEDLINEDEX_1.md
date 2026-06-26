@@ -16,6 +16,7 @@ tags:
   - document
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentScheduleLine
 ---
 # C_SALESDOCUMENTSCHEDLINEDEX_1
 

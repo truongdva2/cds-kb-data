@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REUsblObjToRntblAssgmtUUID
 ---
 # C_REUSBLOBJTORNTBLOBJASSGMTDEX
 

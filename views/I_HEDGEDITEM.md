@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:HedgedItemUUID
 ---
 # I_HEDGEDITEM
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-DF
   - lob:Cross-Application Components
+  - bo:CalendarQuarter
 ---
 # I_CALENDARQUARTER
 

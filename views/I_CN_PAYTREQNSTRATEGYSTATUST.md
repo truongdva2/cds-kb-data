@@ -15,6 +15,7 @@ tags:
   - status
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:PaymentReqnStrategyStatus
 ---
 # I_CN_PAYTREQNSTRATEGYSTATUST
 

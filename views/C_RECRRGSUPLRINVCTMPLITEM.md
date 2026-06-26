@@ -13,6 +13,7 @@ tags:
   - item-level
   - component:FI-FIO-AP-2CL
   - lob:Finance
+  - bo:RecrrgSuplrInvcTmplItm
 ---
 # C_RECRRGSUPLRINVCTMPLITEM
 

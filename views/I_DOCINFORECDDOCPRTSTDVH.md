@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocPart
 ---
 # I_DOCINFORECDDOCPRTSTDVH
 

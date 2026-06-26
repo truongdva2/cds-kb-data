@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePackage
 ---
 # I_MAINTENANCEPACKAGETEXT
 

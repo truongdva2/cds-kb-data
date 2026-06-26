@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreement
 ---
 # I_SCHEDGAGRMTHDRTP_2
 

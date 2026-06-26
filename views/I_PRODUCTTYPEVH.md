@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductType
 ---
 # I_PRODUCTTYPEVH
 

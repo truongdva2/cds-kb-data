@@ -14,6 +14,7 @@ tags:
   - document
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionOrderDocumentLink
 ---
 # I_MFGORDERDOCUMENTLINK
 

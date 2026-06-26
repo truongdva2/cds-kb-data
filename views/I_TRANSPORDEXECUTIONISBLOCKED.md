@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TranspOrderExecutionBlock
 ---
 # I_TRANSPORDEXECUTIONISBLOCKED
 

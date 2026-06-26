@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:BC-SRV-ASF-CAL
   - lob:Basis Components
+  - bo:FactoryCalendarID
 ---
 # I_FACTORYCALENDARVALUEHELP
 

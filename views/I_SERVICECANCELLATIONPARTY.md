@@ -13,6 +13,7 @@ tags:
   - service
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceContractCanclnType
 ---
 # I_SERVICECANCELLATIONPARTY
 

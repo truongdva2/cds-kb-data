@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFItemVINCondition
 ---
 # I_BR_NFITEMVINCONDITIONTEXT
 

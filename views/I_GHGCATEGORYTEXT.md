@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GreenhouseGasCategoryText
 ---
 # I_GHGCATEGORYTEXT
 

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:CapacityInternalID
 ---
 # I_CAPACITYSTDVH
 

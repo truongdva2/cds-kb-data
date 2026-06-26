@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningArea
 ---
 # I_DUNNINGAREA
 

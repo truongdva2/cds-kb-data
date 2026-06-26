@@ -13,6 +13,7 @@ tags:
   - item-level
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderItemType
 ---
 # I_TRANSPORDITEMTYPE_2
 

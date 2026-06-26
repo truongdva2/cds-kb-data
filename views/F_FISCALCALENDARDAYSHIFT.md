@@ -14,6 +14,7 @@ tags:
   - fact-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:ShiftedCalendarDate
 ---
 # F_FISCALCALENDARDAYSHIFT
 

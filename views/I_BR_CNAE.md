@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CNAE
 ---
 # I_BR_CNAE
 

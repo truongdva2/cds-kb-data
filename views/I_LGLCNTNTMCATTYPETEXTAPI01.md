@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-CAT-2CL
   - lob:Other
+  - bo:LglCntntMCatType
 ---
 # I_LGLCNTNTMCATTYPETEXTAPI01
 

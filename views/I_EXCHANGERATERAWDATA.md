@@ -15,6 +15,7 @@ tags:
   - exchange-rate
   - component:BC-SRV-BSF-CUR-2CL
   - lob:Basis Components
+  - bo:ValidityStartDate
 ---
 # I_EXCHANGERATERAWDATA
 

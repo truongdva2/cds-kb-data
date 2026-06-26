@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:DistributionChannel
 ---
 # I_DISTRIBUTIONCHANNELTEXT
 

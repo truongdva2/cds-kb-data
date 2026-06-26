@@ -15,6 +15,7 @@ tags:
   - currency
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:MultiCurrencyAccountingCode
 ---
 # I_MULTICURRENCYACCOUNTING
 

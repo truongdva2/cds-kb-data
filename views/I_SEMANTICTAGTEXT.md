@@ -14,6 +14,7 @@ tags:
   - text
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:SemanticTag
 ---
 # I_SEMANTICTAGTEXT
 

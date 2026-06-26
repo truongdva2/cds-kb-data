@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-PMR-ENG-2CL
   - lob:Manufacturing
+  - bo:PMRPConstraintCategory
 ---
 # I_PMRPFLXBLCSTRTCATEGORYTEXT
 

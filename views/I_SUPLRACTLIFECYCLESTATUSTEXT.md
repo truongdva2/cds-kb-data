@@ -16,6 +16,7 @@ tags:
   - status
   - component:SLC-ACT
   - lob:Other
+  - bo:SuplrActyLifecycleStatus
 ---
 # I_SUPLRACTLIFECYCLESTATUSTEXT
 

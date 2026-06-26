@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleFuelType
 ---
 # I_BR_VEHICLEFUELTYPETEXT_2
 

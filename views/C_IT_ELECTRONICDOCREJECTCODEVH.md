@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CA-GTF-CSC-EDO-IT
   - lob:Cross-Application Components
+  - bo:IT_ElectronicDocRejectionCode
 ---
 # C_IT_ELECTRONICDOCREJECTCODEVH
 

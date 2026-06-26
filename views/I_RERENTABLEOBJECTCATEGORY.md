@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RERentableObjectCategory
 ---
 # I_RERENTABLEOBJECTCATEGORY
 

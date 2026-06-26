@@ -16,6 +16,7 @@ tags:
   - document
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocument
 ---
 # I_ACCOUNTINGSERVICEDOCUMENT
 

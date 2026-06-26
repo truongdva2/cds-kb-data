@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-ART
   - lob:Logistics General
+  - bo:StrucdArticleExplsnRlvtAppl
 ---
 # I_STRUCDARTICLEEXPLSNRLVTAPPL
 

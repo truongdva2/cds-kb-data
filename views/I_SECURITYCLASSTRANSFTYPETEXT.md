@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClassTransferTypeText
 ---
 # I_SECURITYCLASSTRANSFTYPETEXT
 

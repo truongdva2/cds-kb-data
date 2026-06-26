@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CA-GTF-CSC-EDO-PAP
   - lob:Cross-Application Components
+  - bo:EU_EDocCommChannel
 ---
 # I_EUELECTRONICDOCCOMMCHANNELVH
 

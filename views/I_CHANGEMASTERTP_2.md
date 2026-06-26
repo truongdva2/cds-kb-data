@@ -16,6 +16,7 @@ tags:
   - change-master
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeMaster
 ---
 # I_CHANGEMASTERTP_2
 

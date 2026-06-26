@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODNRTGOPDOCPRTASSGMTTP_2
 

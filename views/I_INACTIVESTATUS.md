@@ -14,6 +14,7 @@ tags:
   - status
   - component:SLC-SUP
   - lob:Other
+  - bo:PurgCatIsInactive
 ---
 # I_INACTIVESTATUS
 

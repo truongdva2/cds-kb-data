@@ -16,6 +16,7 @@ tags:
   - text
   - component:TM-MD-TN-2CL
   - lob:Other
+  - bo:TransportationMode
 ---
 # I_TRANSPORTATIONMODETEXT_2
 

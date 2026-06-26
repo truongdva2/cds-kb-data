@@ -16,6 +16,7 @@ tags:
   - text
   - component:CO-PC-PCP-2CL
   - lob:Controlling
+  - bo:SlsOrdProjValnStrategy
 ---
 # I_SLSORDPROJVALNSTRATEGYTEXT
 

@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-LOC-FI-MX
   - lob:Finance
+  - bo:PaymentMethod
 ---
 # I_MX_EXTPAYMENTMETHODMAPPING
 

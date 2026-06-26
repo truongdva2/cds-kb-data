@@ -15,6 +15,7 @@ tags:
   - document
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrQtnFollowOnDocumentType
 ---
 # I_SUPLRQTNFOLLOWONDOCUMENT
 

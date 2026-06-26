@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:Division
 ---
 # I_DIVISION
 

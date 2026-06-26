@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsReceivedHandlingUnit
 ---
 # I_FLDLOGSRCVDHNDLGUNITITEMTP
 

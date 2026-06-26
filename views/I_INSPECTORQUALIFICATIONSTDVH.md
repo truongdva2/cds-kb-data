@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectorQualification
 ---
 # I_INSPECTORQUALIFICATIONSTDVH
 

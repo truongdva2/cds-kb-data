@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-ACT
   - lob:Other
+  - bo:SuplrActyTaskLifecycleStatus
 ---
 # I_SUPLRACTTASKLIFECYCLESTSTEXT
 

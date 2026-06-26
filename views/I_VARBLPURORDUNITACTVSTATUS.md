@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-GF-MAS-2CL
   - lob:Sourcing & Procurement
+  - bo:VarblPurOrdUnitStatus
 ---
 # I_VARBLPURORDUNITACTVSTATUS
 

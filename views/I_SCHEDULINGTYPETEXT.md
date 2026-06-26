@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SchedulingTypeText
 ---
 # I_SCHEDULINGTYPETEXT
 

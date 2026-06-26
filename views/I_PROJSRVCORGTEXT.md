@@ -16,6 +16,7 @@ tags:
   - text
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:ProjectServiceOrganizationText
 ---
 # I_PROJSRVCORGTEXT
 

@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:InboundDeliveryItem
 ---
 # I_INBOUNDDELIVERYITEM
 

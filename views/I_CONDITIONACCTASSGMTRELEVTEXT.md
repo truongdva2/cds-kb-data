@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:ConditionAcctAssgmtRelevance
 ---
 # I_CONDITIONACCTASSGMTRELEVTEXT
 

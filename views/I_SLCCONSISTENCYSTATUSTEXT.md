@@ -16,6 +16,7 @@ tags:
   - status
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCConsistencyStatus
 ---
 # I_SLCCONSISTENCYSTATUSTEXT
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:RECashFlowOrigin
 ---
 # I_RECASHFLOWORIGIN
 

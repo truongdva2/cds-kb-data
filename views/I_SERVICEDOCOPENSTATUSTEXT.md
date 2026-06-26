@@ -16,6 +16,7 @@ tags:
   - status
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentIsOpen
 ---
 # I_SERVICEDOCOPENSTATUSTEXT
 

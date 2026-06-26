@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_BillOfLadingType
 ---
 # I_BR_BILLOFLADINGTYPE
 

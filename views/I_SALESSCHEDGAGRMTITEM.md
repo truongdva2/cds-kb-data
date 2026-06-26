@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SalesSchedulingAgreementItem
 ---
 # I_SALESSCHEDGAGRMTITEM
 

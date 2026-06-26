@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassStatus
 ---
 # I_CLFNCLASSSTATUSSTDVH
 

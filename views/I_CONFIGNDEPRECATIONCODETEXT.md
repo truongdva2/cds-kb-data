@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-DWB-DIC
   - lob:Basis Components
+  - bo:ConfigurationDeprecationCode
 ---
 # I_CONFIGNDEPRECATIONCODETEXT
 

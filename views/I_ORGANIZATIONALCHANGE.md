@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-OC-2CL
   - lob:Finance
+  - bo:OrganizationalChange
 ---
 # I_ORGANIZATIONALCHANGE
 

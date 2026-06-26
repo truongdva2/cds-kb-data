@@ -16,6 +16,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransReleaseStatus
 ---
 # I_FINTRANSRELEASESTATUS
 

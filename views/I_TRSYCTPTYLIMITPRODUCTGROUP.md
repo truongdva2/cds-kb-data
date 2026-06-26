@@ -15,6 +15,7 @@ tags:
   - product
   - component:FIN-FSCM-TRM-CR-2CL
   - lob:Other
+  - bo:LimitProductGroup
 ---
 # I_TRSYCTPTYLIMITPRODUCTGROUP
 

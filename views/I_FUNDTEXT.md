@@ -14,6 +14,7 @@ tags:
   - text
   - component:PSM
   - lob:Other
+  - bo:Fund
 ---
 # I_FUNDTEXT
 

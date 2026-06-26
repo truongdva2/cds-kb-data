@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WhseProductionMaterialReqItem
 ---
 # I_EWM_PRODNMATLREQITEM
 

@@ -16,6 +16,7 @@ tags:
   - status
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveStatus
 ---
 # I_EWM_WAVESTATUSTEXT_2
 

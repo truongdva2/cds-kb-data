@@ -15,6 +15,7 @@ tags:
   - phone
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:PhoneNumberType
 ---
 # I_PHONENUMBERTYPE
 

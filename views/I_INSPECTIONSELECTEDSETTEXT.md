@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SelectedCodeSet
 ---
 # I_INSPECTIONSELECTEDSETTEXT
 

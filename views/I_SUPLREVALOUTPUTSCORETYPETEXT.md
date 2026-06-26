@@ -16,6 +16,7 @@ tags:
   - text
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalScoreOutputActionType
 ---
 # I_SUPLREVALOUTPUTSCORETYPETEXT
 

@@ -17,6 +17,7 @@ tags:
   - contract
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceContract
 ---
 # I_ACCTGSERVICECONTRACTVH
 

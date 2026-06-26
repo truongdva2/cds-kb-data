@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalScorecardQnaireUUID
 ---
 # I_SUPLRSCCRDROOTQNAIREAPI01
 

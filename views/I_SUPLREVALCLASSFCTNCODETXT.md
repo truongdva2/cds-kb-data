@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierClassification
 ---
 # I_SUPLREVALCLASSFCTNCODETXT
 

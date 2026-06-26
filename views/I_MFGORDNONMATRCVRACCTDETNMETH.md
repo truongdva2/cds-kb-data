@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-OBJ-ORD-2CL
   - lob:Controlling
+  - bo:MfgOrdNonMatlRcvrAcctDetnMeth
 ---
 # I_MFGORDNONMATRCVRACCTDETNMETH
 

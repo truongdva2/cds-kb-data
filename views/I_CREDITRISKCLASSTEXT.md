@@ -17,6 +17,7 @@ tags:
   - credit
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:CreditRiskClass
 ---
 # I_CREDITRISKCLASSTEXT
 

@@ -15,6 +15,7 @@ tags:
   - contract
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:InternalRealEstateNumber
 ---
 # I_RECONTRACTDATA
 

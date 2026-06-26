@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-MRP-2CL
   - lob:Manufacturing
+  - bo:MRPMasterDataIssueItemCount
 ---
 # I_MRPMASTERDATAISSUEBASIC
 

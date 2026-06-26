@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WhsePhysicalInventoryCountItem
 ---
 # I_EWM_PHYSINVTRYITEMROW
 

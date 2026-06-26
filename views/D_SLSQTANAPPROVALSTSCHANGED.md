@@ -14,6 +14,7 @@ tags:
   - approval
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # D_SLSQTANAPPROVALSTSCHANGED
 

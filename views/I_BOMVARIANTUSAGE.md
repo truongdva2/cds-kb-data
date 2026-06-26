@@ -15,6 +15,7 @@ tags:
   - bom
   - component:LO-MD-BOM-2CL
   - lob:Logistics General
+  - bo:BillOfMaterialVariantUsage
 ---
 # I_BOMVARIANTUSAGE
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:SequenceCategory
 ---
 # I_SEQUENCECATEGORYTEXT
 

@@ -18,6 +18,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:AccountingDocumentType
 ---
 # I_ACCOUNTINGDOCUMENTTYPETEXT
 

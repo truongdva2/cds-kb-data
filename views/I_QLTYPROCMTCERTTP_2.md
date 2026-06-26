@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-CA-2CL
   - lob:Quality Management
+  - bo:QltyProcurementCertificate
 ---
 # I_QLTYPROCMTCERTTP_2
 

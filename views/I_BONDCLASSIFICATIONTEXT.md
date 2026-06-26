@@ -17,6 +17,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:BondClassification
 ---
 # I_BONDCLASSIFICATIONTEXT
 

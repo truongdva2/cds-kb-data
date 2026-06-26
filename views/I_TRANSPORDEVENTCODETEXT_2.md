@@ -13,6 +13,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdEventCode
 ---
 # I_TRANSPORDEVENTCODETEXT_2
 

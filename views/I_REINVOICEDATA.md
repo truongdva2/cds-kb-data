@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-RA-2CL
   - lob:Other
+  - bo:REInvoiceNumber
 ---
 # I_REINVOICEDATA
 

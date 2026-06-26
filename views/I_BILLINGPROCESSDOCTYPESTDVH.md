@@ -17,6 +17,7 @@ tags:
   - billing
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:BillingProcessDocumentType
 ---
 # I_BILLINGPROCESSDOCTYPESTDVH
 

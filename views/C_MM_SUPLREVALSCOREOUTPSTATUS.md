@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalScoreOutputStatus
 ---
 # C_MM_SUPLREVALSCOREOUTPSTATUS
 

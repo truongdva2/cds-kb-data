@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFIsCreatedManually
 ---
 # I_BR_NFISCREATEDMANUALLYTEXT
 

@@ -16,6 +16,7 @@ tags:
   - payment
   - component:CA-WFD-INT
   - lob:Cross-Application Components
+  - bo:WorkforcePersonExternalID
 ---
 # I_WRKASSGMTPAYMENTTP_1
 

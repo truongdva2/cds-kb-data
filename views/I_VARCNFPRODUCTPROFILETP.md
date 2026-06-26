@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-VCH-API-2CL
   - lob:Logistics General
+  - bo:VariantConfigurationProfile
 ---
 # I_VARCNFPRODUCTPROFILETP
 

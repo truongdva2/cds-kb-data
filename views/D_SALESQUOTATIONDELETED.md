@@ -13,6 +13,7 @@ tags:
   - sales-quotation
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # D_SALESQUOTATIONDELETED
 

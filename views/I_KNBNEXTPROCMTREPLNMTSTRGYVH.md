@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:ExtProcurementReplnmtStrgy
 ---
 # I_KNBNEXTPROCMTREPLNMTSTRGYVH
 

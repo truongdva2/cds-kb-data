@@ -15,6 +15,7 @@ tags:
   - schedule-line
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrderScheduleLine
 ---
 # I_PURORDSCHEDULELINEAPI01
 

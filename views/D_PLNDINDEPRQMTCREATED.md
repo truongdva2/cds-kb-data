@@ -13,6 +13,7 @@ tags:
   - PP-MP-DEM
   - component:PP-MP-DEM-2CL
   - lob:Manufacturing
+  - bo:PlannedIndependentRequirement
 ---
 # D_PLNDINDEPRQMTCREATED
 

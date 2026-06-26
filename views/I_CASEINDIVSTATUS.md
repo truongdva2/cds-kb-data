@@ -15,6 +15,7 @@ tags:
   - status
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:DisputeCaseIndividualStatus
 ---
 # I_CASEINDIVSTATUS
 

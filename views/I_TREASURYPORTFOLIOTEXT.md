@@ -17,6 +17,7 @@ tags:
   - treasury
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryPortfolioText
 ---
 # I_TREASURYPORTFOLIOTEXT
 

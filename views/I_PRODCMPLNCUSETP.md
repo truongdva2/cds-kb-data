@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:EHS-SUS-FND-PC
   - lob:Other
+  - bo:ProductComplianceUse
 ---
 # I_PRODCMPLNCUSETP
 

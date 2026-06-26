@@ -14,6 +14,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharacteristicStatus
 ---
 # I_CLFNCHARCSTATUS
 

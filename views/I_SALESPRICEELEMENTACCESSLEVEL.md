@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:SalesPriceElementAccessLevel
 ---
 # I_SALESPRICEELEMENTACCESSLEVEL
 

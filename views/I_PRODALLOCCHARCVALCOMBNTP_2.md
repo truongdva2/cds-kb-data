@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocCharcValCombn
 ---
 # I_PRODALLOCCHARCVALCOMBNTP_2
 

@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2ContractualInstrument
 ---
 # I_GHGSCP2CNTRCTLINSTRUMENTVH
 

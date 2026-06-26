@@ -14,6 +14,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderExecSts
 ---
 # I_TRANSPORDEXECSTATUSTEXT_2
 

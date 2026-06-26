@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialProcurementProfile
 ---
 # I_MATLPROCUREMENTPROFILETEXT
 

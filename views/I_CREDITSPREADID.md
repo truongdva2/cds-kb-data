@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:CreditSpread
 ---
 # I_CREDITSPREADID
 

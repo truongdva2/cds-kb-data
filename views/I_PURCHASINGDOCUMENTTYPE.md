@@ -13,6 +13,7 @@ tags:
   - document
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentType
 ---
 # I_PURCHASINGDOCUMENTTYPE
 

@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:CRM-S4-SRV-CTR-2CL
   - lob:Other
+  - bo:ServiceContractItem
 ---
 # I_SERVICECONTRACTITEMTP
 

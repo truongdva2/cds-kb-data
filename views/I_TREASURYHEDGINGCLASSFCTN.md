@@ -15,6 +15,7 @@ tags:
   - treasury
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryHedgingClassification
 ---
 # I_TREASURYHEDGINGCLASSFCTN
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FT-ITR-TRC
   - lob:Other
+  - bo:TrdPrefStmntInternalOriginCode
 ---
 # I_TRDPREFSTMNTINTORIGINCODETXT
 

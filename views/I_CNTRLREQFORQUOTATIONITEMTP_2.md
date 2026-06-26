@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-HUB-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:CentralRequestForQuotationItem
 ---
 # I_CNTRLREQFORQUOTATIONITEMTP_2
 

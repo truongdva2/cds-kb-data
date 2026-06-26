@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:ConfigurableCodesCodeGroup
 ---
 # I_CONFIGBLCODESCODEGROUPTEXT
 

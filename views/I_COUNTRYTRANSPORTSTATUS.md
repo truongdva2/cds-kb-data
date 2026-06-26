@@ -17,6 +17,7 @@ tags:
   - status
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:CountryTransportStatus
 ---
 # I_COUNTRYTRANSPORTSTATUS
 

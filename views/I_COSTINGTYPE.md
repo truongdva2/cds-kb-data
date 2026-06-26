@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-PCP-2CL
   - lob:Controlling
+  - bo:CostingType
 ---
 # I_COSTINGTYPE
 

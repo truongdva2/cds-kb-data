@@ -15,6 +15,7 @@ tags:
   - address
   - component:AP-MD-BP-RAP
   - lob:Other
+  - bo:AddressID
 ---
 # I_BPADDRESSINDEPENDENTWEBSITE
 

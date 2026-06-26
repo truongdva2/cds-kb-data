@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-FM-IS
   - lob:Other
+  - bo:PlanningCategory
 ---
 # I_PUBSECPLANNINGCATEGORY
 

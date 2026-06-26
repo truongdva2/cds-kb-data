@@ -15,6 +15,7 @@ tags:
   - product
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialInstrumentProductType
 ---
 # I_FINANCIALINSTRPRODUCTTYPE
 

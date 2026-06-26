@@ -17,6 +17,7 @@ tags:
   - batch
   - component:LO-BM-MD-2CL
   - lob:Logistics General
+  - bo:Batch
 ---
 # I_BATCHSTDVH
 

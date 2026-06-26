@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-LOC-CIT
   - lob:Finance
+  - bo:CITClassfctnItemInconstcyCode
 ---
 # I_CITCLFNITEMINCONSTCYCODEVH
 

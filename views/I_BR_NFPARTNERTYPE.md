@@ -15,6 +15,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFPartnerType
 ---
 # I_BR_NFPARTNERTYPE
 

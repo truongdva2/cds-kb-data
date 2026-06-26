@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SLC-CAT-2CL
   - lob:Other
+  - bo:PurchasingCategory
 ---
 # I_PURCHASINGCATEGORYVALUEHELP
 

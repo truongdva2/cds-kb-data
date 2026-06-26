@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-ASF-CAL
   - lob:Basis Components
+  - bo:PublicHolidayCalendarID
 ---
 # I_PUBLHOLIDAYCALENDARBASICTEXT
 

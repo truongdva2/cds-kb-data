@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetTaskTypeRelevanceCode
 ---
 # I_TIMESHEETTASKTYPERLVNCETEXT
 

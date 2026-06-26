@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:GeneralLedgerAccountHierarchy
 ---
 # I_GLACCOUNTHIERARCHY
 

@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:LO-MD-BOM-2CL
   - lob:Logistics General
+  - bo:BillOfMaterialItemCategoryText
 ---
 # I_BOMITEMCATEGORYTEXT
 

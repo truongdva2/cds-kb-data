@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionResultOrigin
 ---
 # I_INSPECTIONRESULTORIGIN
 

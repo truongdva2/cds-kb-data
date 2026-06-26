@@ -15,6 +15,7 @@ tags:
   - maintenance-plan
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePlanCategory
 ---
 # I_MAINTENANCEPLANCATPARAM
 

@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-QN-2CL
   - lob:Quality Management
+  - bo:QualityNotification
 ---
 # I_QLTYNOTIFICATIONTP
 

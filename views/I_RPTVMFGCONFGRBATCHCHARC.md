@@ -14,6 +14,7 @@ tags:
   - batch
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RptvMfgConfBatchCharc
 ---
 # I_RPTVMFGCONFGRBATCHCHARC
 

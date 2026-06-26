@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentItem
 ---
 # I_PURCHASINGDOCUMENTITEMSTDVH
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:MM-PUR-SQ-QTA-2CL
   - lob:Sourcing & Procurement
+  - bo:QuotaArrangementItem
 ---
 # I_PURGQUOTAARRGMTITEMAPI01
 

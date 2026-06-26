@@ -17,6 +17,7 @@ tags:
   - status
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationStatusText
 ---
 # I_BILLOFOPERATIONSSTATUSTEXT
 

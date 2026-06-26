@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-GL-OC-2CL
   - lob:Finance
+  - bo:ProfitCenterDerivationSrceType
 ---
 # I_PRFTCTRDRVTNSRCETYPEVH
 

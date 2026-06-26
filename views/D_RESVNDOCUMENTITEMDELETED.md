@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ReservationDocumentItem
 ---
 # D_RESVNDOCUMENTITEMDELETED
 

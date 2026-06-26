@@ -16,6 +16,7 @@ tags:
   - address
   - component:AP-MD-BP
   - lob:Other
+  - bo:BusinessPartnerAddress
 ---
 # I_BUSPARTADDRESS
 

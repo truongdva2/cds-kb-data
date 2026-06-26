@@ -15,6 +15,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderActionControl
 ---
 # I_PLANNEDORDERACTIONCONTROLVH
 

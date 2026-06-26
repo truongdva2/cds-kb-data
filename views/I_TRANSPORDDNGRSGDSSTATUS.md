@@ -14,6 +14,7 @@ tags:
   - status
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TranspOrdDangerousGoodsStatus
 ---
 # I_TRANSPORDDNGRSGDSSTATUS
 

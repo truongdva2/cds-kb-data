@@ -15,6 +15,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentTypeText
 ---
 # I_PURCHASINGDOCUMENTTYPETEXT
 

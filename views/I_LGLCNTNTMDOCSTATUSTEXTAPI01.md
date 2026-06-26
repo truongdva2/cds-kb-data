@@ -15,6 +15,7 @@ tags:
   - status
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:InternalDocumentStatus
 ---
 # I_LGLCNTNTMDOCSTATUSTEXTAPI01
 

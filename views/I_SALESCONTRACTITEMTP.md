@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:SD-SLS-OA-2CL
   - lob:Sales & Distribution
+  - bo:SalesContractItem
 ---
 # I_SALESCONTRACTITEMTP
 

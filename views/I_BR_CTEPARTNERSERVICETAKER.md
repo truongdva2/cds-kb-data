@@ -16,6 +16,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTePartnerServiceTaker
 ---
 # I_BR_CTEPARTNERSERVICETAKER
 

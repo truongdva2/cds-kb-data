@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ControllingDebitCreditCode
 ---
 # I_CONTROLLINGDEBITCREDITCODET
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:StatisticalKeyFigure
 ---
 # I_STATISTICALKEYFIGURE
 

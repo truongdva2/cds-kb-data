@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FiscalPeriod
 ---
 # I_FINSTATISTICALKEYFIGUREITEM
 

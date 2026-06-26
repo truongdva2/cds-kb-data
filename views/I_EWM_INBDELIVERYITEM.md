@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WarehouseInboundDeliveryItem
 ---
 # I_EWM_INBDELIVERYITEM
 

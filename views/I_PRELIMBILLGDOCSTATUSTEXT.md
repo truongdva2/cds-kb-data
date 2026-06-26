@@ -17,6 +17,7 @@ tags:
   - status
   - component:SD-BIL-PBD-2CL
   - lob:Sales & Distribution
+  - bo:PrelimBillingDocumentStatus
 ---
 # I_PRELIMBILLGDOCSTATUSTEXT
 

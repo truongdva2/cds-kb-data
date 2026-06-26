@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-ASF-FYV-2CL
   - lob:Basis Components
+  - bo:FiscalPeriodEndDate
 ---
 # I_FISCALPERIODRAWDATA
 

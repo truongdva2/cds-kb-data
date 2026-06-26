@@ -16,6 +16,7 @@ tags:
   - status
   - component:FI-AR-AR-RF-2CL
   - lob:Finance
+  - bo:ReceivableFinancingStatus
 ---
 # I_RECEIVABLEFINANCINGSTATUSVH
 

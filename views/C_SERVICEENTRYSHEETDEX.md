@@ -16,6 +16,7 @@ tags:
   - service
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheet
 ---
 # C_SERVICEENTRYSHEETDEX
 

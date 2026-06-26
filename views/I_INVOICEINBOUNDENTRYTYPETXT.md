@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:InvoiceInboundEntryType
 ---
 # I_INVOICEINBOUNDENTRYTYPETXT
 

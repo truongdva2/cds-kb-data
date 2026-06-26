@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-DWB-DIC
   - lob:Basis Components
+  - bo:ConfigurationDeprecationCode
 ---
 # I_CONFIGNDEPRECATIONCODE
 

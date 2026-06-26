@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintPriorityType
 ---
 # I_PMNOTIFPRIORITYTYPETEXT
 

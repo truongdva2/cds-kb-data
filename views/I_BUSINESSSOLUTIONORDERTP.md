@@ -13,6 +13,7 @@ tags:
   - transactional-processing
   - component:CRM-S4-SOL-SLO
   - lob:Other
+  - bo:BusinessSolutionOrder
 ---
 # I_BUSINESSSOLUTIONORDERTP
 

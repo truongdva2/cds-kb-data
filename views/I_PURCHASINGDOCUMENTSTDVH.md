@@ -17,6 +17,7 @@ tags:
   - document
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocument
 ---
 # I_PURCHASINGDOCUMENTSTDVH
 

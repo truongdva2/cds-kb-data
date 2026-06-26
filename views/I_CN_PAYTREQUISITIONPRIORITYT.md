@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:PaymentRequisitionPriority
 ---
 # I_CN_PAYTREQUISITIONPRIORITYT
 

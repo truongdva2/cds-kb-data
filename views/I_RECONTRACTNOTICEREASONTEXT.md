@@ -17,6 +17,7 @@ tags:
   - text
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:REContractNoticeReason
 ---
 # I_RECONTRACTNOTICEREASONTEXT
 

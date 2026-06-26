@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-AR-IS-2CL
   - lob:Finance
+  - bo:PaymentBlockingReason
 ---
 # I_PAYMENTBLOCKINGREASONTEXT
 

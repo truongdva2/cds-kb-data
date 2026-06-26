@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleCondition
 ---
 # I_BR_VEHICLECONDITION
 

@@ -15,6 +15,7 @@ tags:
   - delivery
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # I_OUTBOUNDDELIVERY
 

@@ -15,6 +15,7 @@ tags:
   - status
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionResultStatus
 ---
 # I_INSPECTIONRESULTSTATUS
 

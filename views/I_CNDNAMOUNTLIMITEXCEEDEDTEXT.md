@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:ConditionAmountLimitExceeded
 ---
 # I_CNDNAMOUNTLIMITEXCEEDEDTEXT
 

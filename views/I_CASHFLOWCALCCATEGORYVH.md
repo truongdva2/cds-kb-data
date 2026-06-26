@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CA-FIM-FMA
   - lob:Cross-Application Components
+  - bo:CashFlowCalculationCategory
 ---
 # I_CASHFLOWCALCCATEGORYVH
 

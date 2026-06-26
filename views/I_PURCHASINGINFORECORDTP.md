@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-VM-REC-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecord
 ---
 # I_PURCHASINGINFORECORDTP
 

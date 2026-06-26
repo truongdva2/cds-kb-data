@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseReqnAcctAssgmtNumber
 ---
 # I_PURREQNACCTASSGMTAPI01
 

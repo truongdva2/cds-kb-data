@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStopHndlgExecStatus
 ---
 # I_TRANSPSTOPHNDLGEXECSTATUS
 

@@ -15,6 +15,7 @@ tags:
   - business-partner
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:BusinessPartnerIndustryCode
 ---
 # I_BUSPARTINDUSTRYCODE
 

@@ -16,6 +16,7 @@ tags:
   - serial-number
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:Material
 ---
 # C_SERMATITMLASTSERIALNUMBERVH
 

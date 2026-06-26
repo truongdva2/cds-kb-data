@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCQuestionType
 ---
 # I_SLCQUESTIONTYPE
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:WorkOrderCapacityRequirement
 ---
 # I_CAPACITYREQUIREMENT
 

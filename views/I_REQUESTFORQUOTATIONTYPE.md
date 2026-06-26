@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:RFQType
 ---
 # I_REQUESTFORQUOTATIONTYPE
 

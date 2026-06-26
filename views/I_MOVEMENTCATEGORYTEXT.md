@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:AssetAcctTransClassfctn
 ---
 # I_MOVEMENTCATEGORYTEXT
 

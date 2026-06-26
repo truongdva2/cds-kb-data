@@ -13,6 +13,7 @@ tags:
   - lease
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurReqnReleaseControlCode
 ---
 # I_PURREQNRELEASECONTROLCODE
 

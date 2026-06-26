@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-PF-IHB-2CL
   - lob:Other
+  - bo:IHBAccountUUID
 ---
 # I_IHBACCOUNTTEXTTP
 

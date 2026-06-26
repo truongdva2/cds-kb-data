@@ -15,6 +15,7 @@ tags:
   - status
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:RegionalStructureCheckStatus
 ---
 # I_REGIONALSTRUCTURECHECKSTATUS
 

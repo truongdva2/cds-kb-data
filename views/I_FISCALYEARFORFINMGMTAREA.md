@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PSM
   - lob:Other
+  - bo:FiscalYear
 ---
 # I_FISCALYEARFORFINMGMTAREA
 

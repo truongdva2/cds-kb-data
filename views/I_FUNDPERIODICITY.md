@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-FM-MD
   - lob:Other
+  - bo:FundPeriodicity
 ---
 # I_FUNDPERIODICITY
 

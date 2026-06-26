@@ -15,6 +15,7 @@ tags:
   - approval
   - component:SD-SLS-RE-2CL
   - lob:Sales & Distribution
+  - bo:CustomerReturnApprovalReason
 ---
 # I_CUSTRETAPPROVALREASONTXT
 

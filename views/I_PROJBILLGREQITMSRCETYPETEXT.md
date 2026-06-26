@@ -16,6 +16,7 @@ tags:
   - text
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgReqItmSourceType
 ---
 # I_PROJBILLGREQITMSRCETYPETEXT
 

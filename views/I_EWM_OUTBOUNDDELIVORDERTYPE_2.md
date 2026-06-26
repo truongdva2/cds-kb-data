@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:EWMDeliveryDocumentType
 ---
 # I_EWM_OUTBOUNDDELIVORDERTYPE_2
 

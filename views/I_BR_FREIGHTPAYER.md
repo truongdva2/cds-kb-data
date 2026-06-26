@@ -15,6 +15,7 @@ tags:
   - freight
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:FreightPayer
 ---
 # I_BR_FREIGHTPAYER
 

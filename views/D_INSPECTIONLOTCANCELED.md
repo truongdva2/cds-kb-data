@@ -13,6 +13,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLot
 ---
 # D_INSPECTIONLOTCANCELED
 

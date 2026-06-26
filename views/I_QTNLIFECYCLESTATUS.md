@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:QTNLifecycleStatus
 ---
 # I_QTNLIFECYCLESTATUS
 

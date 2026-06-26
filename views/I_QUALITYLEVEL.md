@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:QualityLevel
 ---
 # I_QUALITYLEVEL
 

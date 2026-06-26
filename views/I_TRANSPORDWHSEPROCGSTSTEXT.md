@@ -14,6 +14,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdWhseProcessingStatus
 ---
 # I_TRANSPORDWHSEPROCGSTSTEXT
 

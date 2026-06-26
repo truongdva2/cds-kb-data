@@ -13,6 +13,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgSafetyDataSheetStatusText
 ---
 # I_PURGSAFETYDATASHEETSTATUST
 

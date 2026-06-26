@@ -13,6 +13,7 @@ tags:
   - SD-SLS-CMR
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:CreditMemoRequestItem
 ---
 # D_CRDMMREQITMSDPROCSTSCHGD
 

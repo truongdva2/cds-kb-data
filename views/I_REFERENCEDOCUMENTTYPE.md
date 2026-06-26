@@ -15,6 +15,7 @@ tags:
   - document
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ReferenceDocumentType
 ---
 # I_REFERENCEDOCUMENTTYPE
 

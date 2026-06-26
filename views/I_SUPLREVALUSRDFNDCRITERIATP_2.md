@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalUserDefinedCriterion
 ---
 # I_SUPLREVALUSRDFNDCRITERIATP_2
 

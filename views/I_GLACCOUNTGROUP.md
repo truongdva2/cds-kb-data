@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:GLAccountGroup
 ---
 # I_GLACCOUNTGROUP
 

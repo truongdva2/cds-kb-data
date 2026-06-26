@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintNotifDetectionCatalog
 ---
 # I_MAINTNOTIFDETECTIONCATALOG
 

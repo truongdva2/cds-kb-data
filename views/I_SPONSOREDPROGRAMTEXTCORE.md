@@ -15,6 +15,7 @@ tags:
   - text
   - component:PSM-GM-GTE-MD
   - lob:Other
+  - bo:SponsoredProgramText
 ---
 # I_SPONSOREDPROGRAMTEXTCORE
 

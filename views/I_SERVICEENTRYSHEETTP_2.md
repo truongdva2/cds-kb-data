@@ -16,6 +16,7 @@ tags:
   - service
   - component:MM-PUR-SVC-SES-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheet
 ---
 # I_SERVICEENTRYSHEETTP_2
 

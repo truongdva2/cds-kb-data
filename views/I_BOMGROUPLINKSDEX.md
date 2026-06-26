@@ -16,6 +16,7 @@ tags:
   - bom
   - component:LO-MD-BOM-2CL
   - lob:Logistics General
+  - bo:BillOfMaterialGroup
 ---
 # I_BOMGROUPLINKSDEX
 

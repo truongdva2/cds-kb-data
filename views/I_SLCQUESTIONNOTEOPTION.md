@@ -14,6 +14,7 @@ tags:
   - note
   - component:SLC-SUP
   - lob:Other
+  - bo:IsQuestionCommentEnabled
 ---
 # I_SLCQUESTIONNOTEOPTION
 

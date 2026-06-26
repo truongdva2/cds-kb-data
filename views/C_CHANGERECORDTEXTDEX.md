@@ -16,6 +16,7 @@ tags:
   - text
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecord
 ---
 # C_CHANGERECORDTEXTDEX
 

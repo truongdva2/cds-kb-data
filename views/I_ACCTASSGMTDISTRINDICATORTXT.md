@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-GF-MAS-2CL
   - lob:Sourcing & Procurement
+  - bo:MultipleAcctAssgmtDistribution
 ---
 # I_ACCTASSGMTDISTRINDICATORTXT
 

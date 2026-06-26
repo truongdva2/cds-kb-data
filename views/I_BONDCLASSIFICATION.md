@@ -15,6 +15,7 @@ tags:
   - classification
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:BondClassification
 ---
 # I_BONDCLASSIFICATION
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashFlowCertaintyLevel
 ---
 # I_CERTAINTYLEVELTEXT
 

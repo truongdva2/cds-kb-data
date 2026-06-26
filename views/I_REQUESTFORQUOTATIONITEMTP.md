@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:RequestForQuotationItem
 ---
 # I_REQUESTFORQUOTATIONITEMTP
 

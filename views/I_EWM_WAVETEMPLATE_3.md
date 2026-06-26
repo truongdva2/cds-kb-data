@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveTemplate
 ---
 # I_EWM_WAVETEMPLATE_3
 

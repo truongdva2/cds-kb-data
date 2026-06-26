@@ -14,6 +14,7 @@ tags:
   - standard-value-help
   - component:PSM
   - lob:Other
+  - bo:FinMgmtAreaFiscalYear
 ---
 # I_FSCLYRFORFINMGMTAREASTDVH
 

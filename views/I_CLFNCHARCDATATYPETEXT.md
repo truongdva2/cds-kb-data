@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcDataType
 ---
 # I_CLFNCHARCDATATYPETEXT
 

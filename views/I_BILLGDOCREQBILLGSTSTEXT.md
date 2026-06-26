@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillgDocReqBillgSts
 ---
 # I_BILLGDOCREQBILLGSTSTEXT
 

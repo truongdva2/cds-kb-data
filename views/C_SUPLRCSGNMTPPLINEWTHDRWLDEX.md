@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrCsgnmtPplineSettlement
 ---
 # C_SUPLRCSGNMTPPLINEWTHDRWLDEX
 

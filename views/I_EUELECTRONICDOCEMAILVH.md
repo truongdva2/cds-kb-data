@@ -17,6 +17,7 @@ tags:
   - email
   - component:CA-GTF-CSC-EDO-PAP
   - lob:Cross-Application Components
+  - bo:EU_EDocEmail
 ---
 # I_EUELECTRONICDOCEMAILVH
 

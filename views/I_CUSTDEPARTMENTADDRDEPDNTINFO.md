@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:AddressID
 ---
 # I_CUSTDEPARTMENTADDRDEPDNTINFO
 

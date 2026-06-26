@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:MM-PUR-OA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContractItem
 ---
 # I_PURCHASECONTRACTITEMTP
 

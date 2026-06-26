@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-TIM-CN
   - lob:Finance
+  - bo:CN_ValueAddedTaxInvoiceType
 ---
 # I_CN_TAXINVCTYPE
 

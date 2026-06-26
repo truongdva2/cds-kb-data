@@ -17,6 +17,7 @@ tags:
   - email
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:EmailAddress
 ---
 # I_ADDRESSEMAILADDRESS_2
 
