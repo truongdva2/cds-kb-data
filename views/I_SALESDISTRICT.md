@@ -1,6 +1,10 @@
 ---
 name: I_SALESDISTRICT
 description: Salesdistrict
+semantic_en: "Sales district — a geographic sales territory used for reporting and customer assignment."
+semantic_vi: "Địa bàn bán hàng — vùng lãnh thổ bán hàng dùng cho báo cáo và gán khách hàng."
+keywords:
+  - địa bàn bán hàng
 app_component: LO-MD-BP-CM-2CL
 software_component: SAPSCORE
 release_state: released

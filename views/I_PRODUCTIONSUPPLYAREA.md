@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTIONSUPPLYAREA
 description: Productionsupplyarea
+semantic_en: "Production supply area — a shop-floor area where components are staged for production."
+semantic_vi: "Khu cấp liệu sản xuất — khu vực tại xưởng nơi tập kết cấu kiện để sản xuất."
+keywords:
+  - khu cấp liệu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

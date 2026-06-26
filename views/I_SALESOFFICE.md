@@ -1,6 +1,10 @@
 ---
 name: I_SALESOFFICE
 description: Salesoffice
+semantic_en: "Sales office — an organizational unit responsible for sales within a geographic area."
+semantic_vi: "Văn phòng bán hàng — đơn vị tổ chức phụ trách bán hàng theo khu vực địa lý."
+keywords:
+  - văn phòng bán hàng
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

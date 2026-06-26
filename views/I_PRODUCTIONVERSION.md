@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTIONVERSION
 description: Productionversion
+semantic_en: "Production version — a valid combination of bill of material and routing for manufacturing a product."
+semantic_vi: "Phiên bản sản xuất — tổ hợp hợp lệ giữa định mức vật tư (BOM) và quy trình để sản xuất một sản phẩm."
+keywords:
+  - phiên bản sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

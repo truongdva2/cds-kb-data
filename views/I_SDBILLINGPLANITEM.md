@@ -1,6 +1,10 @@
 ---
 name: I_SDBILLINGPLANITEM
 description: Sdbillingplanitem
+semantic_en: "Billing plan item — a single scheduled billing date and amount line within a billing plan."
+semantic_vi: "Dòng kế hoạch lập hóa đơn — một mốc thời điểm và số tiền lập hóa đơn trong kế hoạch."
+keywords:
+  - dòng kế hoạch hóa đơn
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

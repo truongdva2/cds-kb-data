@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTCONSUMPTION
 description: Productconsumption
+semantic_en: "Product consumption — aggregated consumption quantities of a product, used in planning and analytics."
+semantic_vi: "Tiêu thụ sản phẩm — số lượng tiêu thụ tổng hợp của một sản phẩm, dùng cho lập kế hoạch và phân tích."
+keywords:
+  - tiêu thụ sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCENOTIFICATION
 description: Maintenancenotification
+semantic_en: "Maintenance notification — a report of a malfunction or a maintenance request for a technical object."
+semantic_vi: "Thông báo bảo trì — báo cáo sự cố hoặc yêu cầu bảo trì cho đối tượng kỹ thuật."
+keywords:
+  - thông báo bảo trì
+  - sự cố
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

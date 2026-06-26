@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTPROCUREMENT
 description: Productprocurement
+semantic_en: "Product procurement — procurement attributes and data of a product (how it is sourced and purchased)."
+semantic_vi: "Mua sắm sản phẩm — thuộc tính và dữ liệu mua sắm của một sản phẩm (cách tìm nguồn và mua)."
+keywords:
+  - mua sắm sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

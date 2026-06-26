@@ -1,6 +1,11 @@
 ---
 name: I_INBOUNDDELIVERY
 description: Inbound Delivery
+semantic_en: "Inbound delivery header — a document for receiving goods from a supplier in logistics execution."
+semantic_vi: "Tiêu đề phiếu nhập hàng — chứng từ nhận hàng từ nhà cung cấp trong logistics."
+keywords:
+  - phiếu nhập hàng
+  - nhận hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

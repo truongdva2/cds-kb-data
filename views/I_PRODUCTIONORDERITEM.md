@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTIONORDERITEM
 description: Production OrderITEM
+semantic_en: "Production order item — the item (product to manufacture) of a production order."
+semantic_vi: "Dòng lệnh sản xuất — mục (sản phẩm cần chế tạo) của lệnh sản xuất."
+keywords:
+  - dòng lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

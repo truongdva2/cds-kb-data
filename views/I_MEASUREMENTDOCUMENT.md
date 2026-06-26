@@ -1,6 +1,11 @@
 ---
 name: I_MEASUREMENTDOCUMENT
 description: Measurementdocument
+semantic_en: "Measurement document — a recorded reading from a measuring point or counter on a technical object."
+semantic_vi: "Chứng từ đo — số liệu ghi nhận từ điểm đo hoặc bộ đếm trên đối tượng kỹ thuật."
+keywords:
+  - chứng từ đo
+  - số đo
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

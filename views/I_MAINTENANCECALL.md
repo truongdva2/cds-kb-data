@@ -1,6 +1,10 @@
 ---
 name: I_MAINTENANCECALL
 description: Maintenancecall
+semantic_en: "Maintenance call — a scheduled maintenance due date generated from a maintenance plan."
+semantic_vi: "Lượt bảo trì — mốc bảo trì đến hạn được sinh từ kế hoạch bảo trì."
+keywords:
+  - lượt bảo trì
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

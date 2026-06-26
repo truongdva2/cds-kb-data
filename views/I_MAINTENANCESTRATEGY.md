@@ -1,6 +1,10 @@
 ---
 name: I_MAINTENANCESTRATEGY
 description: Maintenancestrategy
+semantic_en: "Maintenance strategy — a scheduling rule grouping maintenance packages for preventive maintenance."
+semantic_vi: "Chiến lược bảo trì — quy tắc lập lịch nhóm các gói bảo trì cho bảo trì phòng ngừa."
+keywords:
+  - chiến lược bảo trì
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

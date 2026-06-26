@@ -1,6 +1,10 @@
 ---
 name: I_DELIVERYPRIORITY
 description: Deliverypriority
+semantic_en: "Delivery priority — a code ranking the urgency of deliveries."
+semantic_vi: "Mức ưu tiên giao hàng — mã xếp hạng độ ưu tiên của các đợt giao hàng."
+keywords:
+  - ưu tiên giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

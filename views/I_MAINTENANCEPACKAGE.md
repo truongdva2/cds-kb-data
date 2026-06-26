@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEPACKAGE
 description: Maintenancepackage
+semantic_en: "Maintenance package — a defined interval or cycle at which maintenance tasks are performed."
+semantic_vi: "Gói bảo trì — chu kỳ hoặc khoảng định sẵn để thực hiện công việc bảo trì."
+keywords:
+  - gói bảo trì
+  - chu kỳ bảo trì
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

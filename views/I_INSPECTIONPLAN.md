@@ -1,6 +1,10 @@
 ---
 name: I_INSPECTIONPLAN
 description: Inspectionplan
+semantic_en: "Inspection plan — the plan defining how a material is to be inspected (characteristics and operations)."
+semantic_vi: "Quy trình kiểm tra — kế hoạch xác định cách kiểm tra vật tư (chỉ tiêu và công đoạn)."
+keywords:
+  - quy trình kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

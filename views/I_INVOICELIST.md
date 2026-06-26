@@ -1,6 +1,11 @@
 ---
 name: I_INVOICELIST
 description: Invoicelist
+semantic_en: "Invoice list — a document combining several billing documents into one list sent to a payer."
+semantic_vi: "Danh sách hóa đơn — chứng từ gộp nhiều hóa đơn bán hàng thành một, gửi cho bên thanh toán."
+keywords:
+  - danh sách hóa đơn
+  - gộp hóa đơn
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

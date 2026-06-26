@@ -1,6 +1,11 @@
 ---
 name: I_INSPECTIONLOT
 description: Inspectionlot
+semantic_en: "Inspection lot — a request to inspect a quantity of material for quality, with results and a usage decision."
+semantic_vi: "Lô kiểm tra — yêu cầu kiểm tra chất lượng một lượng vật tư, kèm kết quả và quyết định sử dụng."
+keywords:
+  - lô kiểm tra
+  - kiểm tra chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

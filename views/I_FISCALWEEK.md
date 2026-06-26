@@ -1,6 +1,10 @@
 ---
 name: I_FISCALWEEK
 description: Fiscalweek
+semantic_en: "Fiscal week — a week within the fiscal calendar used for period-based reporting."
+semantic_vi: "Tuần tài chính — tuần trong lịch tài chính, dùng cho báo cáo theo kỳ."
+keywords:
+  - tuần tài chính
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

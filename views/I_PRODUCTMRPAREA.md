@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTMRPAREA
 description: Productmrparea
+semantic_en: "Product MRP area — MRP-area-specific planning data for a product."
+semantic_vi: "Khu MRP của sản phẩm — dữ liệu lập kế hoạch theo khu MRP của một sản phẩm."
+keywords:
+  - khu MRP
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

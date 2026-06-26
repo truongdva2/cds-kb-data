@@ -1,6 +1,11 @@
 ---
 name: I_SALESINQUIRY
 description: Salesinquiry
+semantic_en: "Sales inquiry — a customer's pre-sales request for information or a quotation about products or services."
+semantic_vi: "Yêu cầu chào hàng — đề nghị tiền bán hàng của khách về thông tin hoặc báo giá sản phẩm/dịch vụ."
+keywords:
+  - yêu cầu chào hàng
+  - inquiry
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

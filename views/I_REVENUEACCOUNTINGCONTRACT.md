@@ -1,6 +1,11 @@
 ---
 name: I_REVENUEACCOUNTINGCONTRACT
 description: Revenueaccountingcontract
+semantic_en: "Revenue accounting contract — a contract object in Revenue Accounting and Reporting (RAR) used for revenue recognition."
+semantic_vi: "Hợp đồng ghi nhận doanh thu — đối tượng hợp đồng trong Revenue Accounting (RAR) dùng để ghi nhận doanh thu."
+keywords:
+  - hợp đồng doanh thu
+  - ghi nhận doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

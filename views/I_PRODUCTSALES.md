@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTSALES
 description: Productsales
+semantic_en: "Product sales — sales-relevant attributes and figures of a product."
+semantic_vi: "Bán hàng sản phẩm — thuộc tính và số liệu liên quan bán hàng của một sản phẩm."
+keywords:
+  - bán hàng sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

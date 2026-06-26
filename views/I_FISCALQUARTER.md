@@ -1,6 +1,10 @@
 ---
 name: I_FISCALQUARTER
 description: Fiscalquarter
+semantic_en: "Fiscal quarter — a quarter within the fiscal year used for period-based reporting."
+semantic_vi: "Quý tài chính — quý trong năm tài chính, dùng cho báo cáo theo kỳ."
+keywords:
+  - quý tài chính
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

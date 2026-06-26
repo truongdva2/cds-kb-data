@@ -1,6 +1,11 @@
 ---
 name: I_EQUIPMENT
 description: Equipment
+semantic_en: "Equipment — an individual physical asset or object maintained in Plant Maintenance (e.g. a machine or vehicle)."
+semantic_vi: "Thiết bị — đối tượng/tài sản vật lý riêng lẻ được bảo trì trong Plant Maintenance (vd máy móc, xe)."
+keywords:
+  - thiết bị
+  - equipment
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_TREASURYLEDGERPOSITION
 description: Treasuryledgerposition
+semantic_en: "Treasury ledger position — a financial position held in the Treasury subledger for treasury and risk management."
+semantic_vi: "Vị thế sổ kho bạc — vị thế tài chính trong sổ phụ Treasury, dùng cho quản lý ngân quỹ và rủi ro."
+keywords:
+  - vị thế kho bạc
+  - treasury
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

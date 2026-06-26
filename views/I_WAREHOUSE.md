@@ -1,6 +1,11 @@
 ---
 name: I_WAREHOUSE
 description: Warehouse
+semantic_en: "Warehouse — a warehouse number in Warehouse Management grouping storage areas and bins."
+semantic_vi: "Kho (Warehouse) — số kho trong Quản lý Kho, nhóm các khu vực và ô kho."
+keywords:
+  - kho hàng
+  - warehouse
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

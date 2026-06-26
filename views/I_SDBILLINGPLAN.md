@@ -1,6 +1,11 @@
 ---
 name: I_SDBILLINGPLAN
 description: Sdbillingplan
+semantic_en: "Billing plan — a schedule defining when and how much to bill for SD documents (milestone or periodic billing)."
+semantic_vi: "Kế hoạch lập hóa đơn — lịch xác định thời điểm và số tiền lập hóa đơn cho chứng từ bán hàng (theo mốc hoặc định kỳ)."
+keywords:
+  - kế hoạch lập hóa đơn
+  - billing plan
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

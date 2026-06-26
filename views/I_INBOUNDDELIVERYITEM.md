@@ -1,6 +1,10 @@
 ---
 name: I_INBOUNDDELIVERYITEM
 description: Inbound DeliveryITEM
+semantic_en: "Inbound delivery item — a line in an inbound delivery: product and received quantity."
+semantic_vi: "Dòng phiếu nhập hàng — sản phẩm và số lượng nhận."
+keywords:
+  - dòng nhập hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

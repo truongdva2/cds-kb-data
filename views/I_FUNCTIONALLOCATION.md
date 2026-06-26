@@ -1,6 +1,10 @@
 ---
 name: I_FUNCTIONALLOCATION
 description: Functionallocation
+semantic_en: "Functional location — a hierarchical location in a technical system where equipment is installed and maintained."
+semantic_vi: "Vị trí chức năng — vị trí phân cấp trong hệ thống kỹ thuật nơi thiết bị được lắp đặt và bảo trì."
+keywords:
+  - vị trí chức năng
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

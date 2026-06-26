@@ -1,6 +1,10 @@
 ---
 name: I_SALESINQUIRYITEM
 description: Salesinquiryitem
+semantic_en: "Sales inquiry item — a product line within a sales inquiry."
+semantic_vi: "Dòng yêu cầu chào hàng — dòng sản phẩm trong một yêu cầu chào hàng."
+keywords:
+  - dòng inquiry
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

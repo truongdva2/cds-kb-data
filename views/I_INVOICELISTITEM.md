@@ -1,6 +1,10 @@
 ---
 name: I_INVOICELISTITEM
 description: Invoicelistitem
+semantic_en: "Invoice list item — a billing document line included in an invoice list."
+semantic_vi: "Dòng danh sách hóa đơn — một hóa đơn thành phần trong danh sách hóa đơn."
+keywords:
+  - dòng danh sách hóa đơn
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,10 @@
 ---
 name: I_DEBITMEMOREQUESTITEM
 description: Debitmemorequestitem
+semantic_en: "Debit memo request item — a line in a debit memo request: product, quantity and debit amount."
+semantic_vi: "Dòng yêu cầu giấy báo nợ — sản phẩm, số lượng và số tiền ghi nợ."
+keywords:
+  - dòng báo nợ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTIONSUPERVISOR
 description: Productionsupervisor
+semantic_en: "Production supervisor — the person or role responsible for supervising production activities."
+semantic_vi: "Giám sát sản xuất — người hoặc vai trò phụ trách giám sát hoạt động sản xuất."
+keywords:
+  - giám sát sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

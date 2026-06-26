@@ -1,6 +1,10 @@
 ---
 name: I_PLANNEDORDERCOMPONENT
 description: Planned OrderCOMPONENT
+semantic_en: "Planned order component — a component material required by a planned order."
+semantic_vi: "Cấu kiện lệnh kế hoạch — vật tư thành phần mà lệnh kế hoạch cần."
+keywords:
+  - cấu kiện lệnh kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

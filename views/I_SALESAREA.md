@@ -1,6 +1,11 @@
 ---
 name: I_SALESAREA
 description: Salesarea
+semantic_en: "Sales area — the combination of sales organization, distribution channel and division defining the scope of sales activities."
+semantic_vi: "Khu vực bán hàng — tổ hợp tổ chức bán hàng, kênh phân phối và ngành hàng, xác định phạm vi hoạt động bán."
+keywords:
+  - khu vực bán hàng
+  - sales area
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

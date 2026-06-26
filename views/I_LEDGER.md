@@ -1,6 +1,11 @@
 ---
 name: I_LEDGER
 description: Ledger
+semantic_en: "Ledger — an accounting ledger (leading or non-leading) in the universal journal, used to keep parallel sets of books."
+semantic_vi: "Sổ kế toán — sổ cái (dẫn dắt hoặc không dẫn dắt) trong sổ nhật ký tổng hợp, dùng giữ các bộ sổ song song."
+keywords:
+  - sổ kế toán
+  - ledger
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

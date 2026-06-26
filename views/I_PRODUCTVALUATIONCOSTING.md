@@ -1,6 +1,11 @@
 ---
 name: I_PRODUCTVALUATIONCOSTING
 description: Productvaluationcosting
+semantic_en: "Product valuation and costing — valuation and cost data of a product used in inventory valuation and product costing."
+semantic_vi: "Định giá và tính giá thành sản phẩm — dữ liệu định giá và chi phí của sản phẩm, dùng cho định giá tồn kho và tính giá thành."
+keywords:
+  - định giá sản phẩm
+  - giá thành
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

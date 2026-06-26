@@ -1,6 +1,10 @@
 ---
 name: I_OUTBOUNDDELIVERYITEM
 description: Outbound DeliveryITEM
+semantic_en: "Outbound delivery item — a line in an outbound delivery: product, quantity, plant and storage location."
+semantic_vi: "Dòng phiếu giao hàng đi — sản phẩm, số lượng, nhà máy và vị trí kho."
+keywords:
+  - dòng giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,10 @@
 ---
 name: I_TREASURYLEDGERTRANSACTION
 description: Treasuryledgertransaction
+semantic_en: "Treasury ledger transaction — a treasury transaction posting recorded in the Treasury subledger."
+semantic_vi: "Giao dịch sổ kho bạc — bút toán giao dịch ngân quỹ ghi trong sổ phụ Treasury."
+keywords:
+  - giao dịch kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

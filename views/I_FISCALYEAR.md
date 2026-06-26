@@ -1,6 +1,11 @@
 ---
 name: I_FISCALYEAR
 description: Fiscalyear
+semantic_en: "Fiscal year — the accounting year and its variant, with start/end and next-year reference."
+semantic_vi: "Năm tài chính — năm kế toán và biến thể, kèm mốc đầu/cuối và tham chiếu năm kế tiếp."
+keywords:
+  - năm tài chính
+  - fiscal year
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

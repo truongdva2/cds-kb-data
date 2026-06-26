@@ -1,6 +1,11 @@
 ---
 name: I_PLANNEDORDER
 description: Planned Order
+semantic_en: "Planned order — a procurement or production proposal created by MRP to cover a material requirement."
+semantic_vi: "Lệnh kế hoạch — đề xuất mua hoặc sản xuất do MRP tạo để đáp ứng nhu cầu vật tư."
+keywords:
+  - lệnh kế hoạch
+  - planned order
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,10 @@
 ---
 name: I_PRODUCTPLANNINGSTRATEGY
 description: Productplanningstrategy
+semantic_en: "Product planning strategy — the planning strategy (make-to-stock, make-to-order, etc.) of a product."
+semantic_vi: "Chiến lược hoạch định sản phẩm — chiến lược lập kế hoạch (sản xuất để tồn kho, theo đơn hàng...) của sản phẩm."
+keywords:
+  - chiến lược hoạch định
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released
