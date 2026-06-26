@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMWarehouse` | `EWMWarehouse` |
-| `key PhysicalInventoryDocNumber` | `PhysicalInventoryDocNumber` |
-| `key PhysicalInventoryDocYear` | `PhysicalInventoryDocYear` |
-| `key LineIndexOfPInvItem` | `LineIndexOfPInvItem` |
-| `key PhysicalInventoryItemNumber` | `PhysicalInventoryItemNumber` |
-| `key EWMPhysInvtrySrlNmbrSqnc` | `EWMPhysInvtrySrlNmbrSqnc` |
-| `key EWMPInvSrlNmbrProcgStatus` | `EWMPInvSrlNmbrProcgStatus` |
-| `_Status._Text[1:Language = $session.system_language].EWMPInvSrlNmbrProcgStatusText` | *Association* |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `PhysicalInventoryDocNumber` | `PhysicalInventoryDocNumber` |
+| `PhysicalInventoryDocYear` | `PhysicalInventoryDocYear` |
+| `LineIndexOfPInvItem` | `LineIndexOfPInvItem` |
+| `PhysicalInventoryItemNumber` | `PhysicalInventoryItemNumber` |
+| `EWMPhysInvtrySrlNmbrSqnc` | `EWMPhysInvtrySrlNmbrSqnc` |
+| `EWMPInvSrlNmbrProcgStatus` | `EWMPInvSrlNmbrProcgStatus` |
+| `EWMPInvSrlNmbrProcgStatusText` | `expr(…)` |
 | `EWMSerialNumber` | `EWMSerialNumber` |
 | `ActivityArea` | `ActivityArea` |
 | `PhysicalInventoryDocumentUUID` | `PhysicalInventoryDocumentUUID` |

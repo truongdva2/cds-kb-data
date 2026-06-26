@@ -29,13 +29,47 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'Currency'} }` | `currencyCode: 'Currency'} }` |
+| `CompanyCode` | `bukrs` |
+| `JointVenture` | `cast(vname as jv_name_cds preserving type )` |
+| `JointVenturePaymentTerms` | `payterms` |
+| `JointVentureBillingMethod` | `bmethod` |
+| `JointVentureType` | `vtype` |
+| `JointVentureOperator` | `operator` |
+| `JointVentureTaxCode` | `taxcode` |
+| `JVAVentureClass` | `vclass` |
+| `JntVntrInceptionToDateData` | `itd` |
+| `JointVentureCreatedByUser` | `cruser` |
+| `JntVntrTimeCreated` | `cast( crtime as jv_crtime_cds )` |
+| `JntVntrDateCreated` | `crdate` |
+| `JointVentureLastChangedByUser` | `chuser` |
+| `JntVntrTimeLastChanged` | `cast(…)` |
+| `JntVntrDateLastChanged` | `cast(…)` |
+| `JntVntrBillgFormat` | `bformat` |
+| `JntOpgAgrmt` | `joa` |
+| `JntVntrBillgCutbackIsBlk` | `vactive` |
+| `JntVntrTaxJurisdiction` | `txjcd` |
+| `JntVntrOutPaymentTerms` | `outpayterm` |
+| `JntVntrOutTaxCode` | `outtaxcode` |
+| `JntVntrOutTaxJurisdiction` | `txjcd2` |
+| `JntVntrNonBillgFormat` | `nbformat` |
+| `JntVntrBillgFrqcy` | `bfreq` |
+| `JntVntrDrillingPayRate` | `ovrdf` |
+| `JntVntrNonDrillingPayRate` | `ovrnd` |
+| `JntVntrParentCoOvhdExpnCostCtr` | `pcocostc` |
+| `JntVntrParentCoOvhdProject` | `cast ( pcoprojk as ps_s4_pspnr preserving type )` |
+| `JntVntrParentCoOvhdExpnOrder` | `pcoordnr` |
+| `JntVntrSubstituteCostCtr` | `kostl` |
+| `JntVntrFundingGroup` | `fundgroup` |
+| `JntVntrCrcyIsFundingCrcy` | `checkfc` |
+| `JntVntrProperty` | `property` |
+| `Currency` | `_CompanyCode.Currency` |
+| `JntVntrBillgThldDebit` | `billthres` |
 | `JntVntrBillgThldCredit` | `billthresc` |
 | `JntVntrBillgThldIsActive` | `billthresa` |
 | `JntVntrPaymentTermSchema` | `pschem` |
 | `JVAVentureIntrstCalcGrpID` | `ic_group` |
 | `_CompanyCode` | *Association* |
-| `_CompanyCode._Currency` | *Association* |
+| `_Currency` | *Association* |
 | `_JointVentureDesc` | *Association* |
 | `_JntOpgAgrmtText` | *Association* |
 

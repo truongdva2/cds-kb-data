@@ -32,33 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `farp_credit_segment preserving type )` | `cast( CreditSegment` |
-| `farp_risk_class preserving type )` | `cast( _Partner.CreditRiskClass` |
-| `farp_country preserving type)` | `cast( _BusinessPartner._CurrentDefaultAddress._StandardAddress.Country` |
-| `_BusinessPartner._CurrentDefaultAddress._StandardAddress.Region                                         as Region` | *Association* |
+| `BusinessPartner` | `BusinessPartner` |
+| `CreditSegment` | `cast( CreditSegment as farp_credit_segment preserving type )` |
+| `CreditRiskClass` | `cast( _Partner.CreditRiskClass as farp_risk_class preserving type )` |
+| `Country` | `cast(…)` |
+| `Region` | `_BusinessPartner._CurrentDefaultAddress._StandardAddress.Region` |
 | `DisplayCurrency` | `DisplayCurrency` |
-| `farp_credit_exposure preserving type )` | `cast( CustomerCreditExposureAmount` |
-| `farp_creditlimit_amt preserving type )` | `cast( CustomerCreditLimitAmount` |
-| `farp_credlimit_calculated_amt preserving type )` | `cast( CreditLimitCalculatedAmount` |
-| `farp_credlimit_requested_amt preserving type )` | `cast( CreditLimitRequestedAmount` |
-| `farp_number_of_bp )` | `cast( NumberOfBusinessPartners` |
-| `farp_crdtlmtisequalcrdtlmtcalc preserving type )` | `cast( CrdtLimitIsEqualCrdtLimitCalcd` |
-| `farp_crdtlmt_eq_rdtlmtreqd )` | `cast( CrdtLimitIsEqualCrdtLimitReqd` |
-| `farp_crdtacct_is_blocked preserving type )` | `cast( CreditAccountIsBlocked` |
-| `farp_crdtlmt_validity_enddate preserving type )` | `cast( CreditLimitValidityEndDate` |
-| `farp_crdt_lmt_last_change_date preserving type )` | `cast( CreditLimitLastChangeDate` |
-| `ukm_cred_group )` | `cast( _Partner.CreditAccountGroup` |
-| `ukm_cred_group preserving type)` | `cast(_Partner.CrdtMgmtBusinessPartnerGroup` |
-| `ukm_follow_up_dt preserving type )` | `cast( CreditAccountResubmissionDate` |
-| `farp_critical_account preserving type )` | `cast( BusinessPartnerIsCritical` |
-| `farp_crdtlmt_is_zero preserving type )` | `cast( CreditLimitIsZero` |
-| `farp_crdtacct_block_reason preserving type )` | `cast( CreditAccountBlockReason` |
-| `farp_crdtlmt_reqdfrm_automcalc preserving type )` | `cast( CrdtLmtIsReqdFrmAutomCalc` |
-| `farp_crdtlmt_reqd_enddate preserving type )` | `cast( CreditLimitReqdValidityEndDate` |
-| `farp_crdtlmt_reqd_date preserving type )` | `cast( CreditLimitRequestDate` |
-| `farp_crdtlmt_remaining_days preserving type )` | `cast( CrdtLimitValidityRemainingDays` |
-| `farp_crdtlmt_last_change_days preserving type )` | `cast( CreditLimitLastChangeDays` |
+| `CustomerCreditExposureAmount` | `cast( CustomerCreditExposureAmount as farp_credit_exposure preserving type )` |
+| `CustomerCreditLimitAmount` | `cast( CustomerCreditLimitAmount as farp_creditlimit_amt preserving type )` |
+| `CreditLimitCalculatedAmount` | `cast(…)` |
+| `CreditLimitRequestedAmount` | `cast(…)` |
+| `NumberOfBusinessPartners` | `cast( NumberOfBusinessPartners as farp_number_of_bp )` |
+| `CrdtLimitIsEqualCrdtLimitCalcd` | `cast(…)` |
+| `CrdtLimitIsEqualCrdtLimitReqd` | `cast( CrdtLimitIsEqualCrdtLimitReqd as farp_crdtlmt_eq_rdtlmtreqd )` |
+| `CreditAccountIsBlocked` | `cast( CreditAccountIsBlocked as farp_crdtacct_is_blocked preserving type )` |
+| `CreditLimitValidityEndDate` | `cast(…)` |
+| `CreditLimitLastChangeDate` | `cast(…)` |
+| `CreditAccountGroup` | `cast( _Partner.CreditAccountGroup as ukm_cred_group )` |
+| `CrdtMgmtBusinessPartnerGroup` | `cast(_Partner.CrdtMgmtBusinessPartnerGroup as ukm_cred_group preserving type)` |
+| `CreditAccountResubmissionDate` | `cast( CreditAccountResubmissionDate as ukm_follow_up_dt preserving type )` |
+| `BusinessPartnerIsCritical` | `cast( BusinessPartnerIsCritical as farp_critical_account preserving type )` |
+| `CreditLimitIsZero` | `cast( CreditLimitIsZero as farp_crdtlmt_is_zero preserving type )` |
+| `CreditAccountBlockReason` | `cast( CreditAccountBlockReason as farp_crdtacct_block_reason preserving type )` |
+| `CrdtLmtIsReqdFrmAutomCalc` | `cast(…)` |
+| `CreditLimitReqdValidityEndDate` | `cast(…)` |
+| `CreditLimitRequestDate` | `cast( CreditLimitRequestDate as farp_crdtlmt_reqd_date preserving type )` |
+| `CrdtLimitValidityRemainingDays` | `cast(…)` |
+| `CreditLimitLastChangeDays` | `cast(…)` |
 | `ExchangeRateType` | `:P_ExchangeRateType` |
 | `_DisplayCurrency` | *Association* |
 | `_CreditRiskClass` | *Association* |

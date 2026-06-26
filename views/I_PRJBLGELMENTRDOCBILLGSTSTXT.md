@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntDocBillStsTxt
 ---
 # I_PRJBLGELMENTRDOCBILLGSTSTXT
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `pbee_bdrstatus preserving type)` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `DocumentBillingStatus` | `cast( substring( domvalue_l, 1, 1 ) as pbee_bdrstatus preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `PrjBlgElmEntrDocBillgStsText` | `ddtext` |
 | `_PrjBlgElmEntrDocBillgStatus` | *Association* |
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PrjBlgElmEntrDocBillgStatus` | `I_PrjBlgElmEntrDocBillgStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

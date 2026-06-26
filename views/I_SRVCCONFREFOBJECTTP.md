@@ -29,14 +29,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ServiceConfirmation` | `ServiceConfirmation` |
-| `key  ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
 | `SerialNumber` | `SerialNumber` |
 | `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
 | `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
 | `SrvcRefObjIsMainObject` | `SrvcRefObjIsMainObject` |
-| `_ServiceConfirmationTP : redirected to parent I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

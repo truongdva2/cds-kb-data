@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:HeaderPickIncompletionStatus
 ---
 # I_HDRPICKGINCOMPLTNSTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `uvpik_uk preserving type )` | `cast( left(dd07l.domvalue_l, 1 )` |
+| `HeaderPickgIncompletionStatus` | `cast( left(dd07l.domvalue_l, 1 ) as uvpik_uk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

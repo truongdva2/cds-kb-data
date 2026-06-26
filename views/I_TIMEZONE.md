@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-TIM-TZ
   - lob:Basis Components
+  - bo:TimeZoneID
 ---
 # I_TIMEZONE
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
 | `TimeZoneID` | `ttzz.tzone` |
 | `TimeZoneRule` | `ttzz.zonerule` |
 | `DaylightSavingRule` | `ttzz.dstrule` |

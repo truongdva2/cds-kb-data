@@ -34,26 +34,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'PrelimBillingDocument'` | `localElement: 'PrelimBillingDocument'` |
-| `element: 'PrelimBillingDocument' }]` | `element: 'PrelimBillingDocument' }]` |
-| `}]` | `}]` |
-| `prelim_billing_document_item preserving type )` | `cast( Partner.BillingDocumentItem` |
-| `parvw_unv preserving type )` | `cast(Partner.PartnerFunction` |
-| `Partner.Customer` | `Partner.Customer` |
-| `Partner.Supplier` | `Partner.Supplier` |
-| `Partner.Personnel` | `Partner.Personnel` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.ContactPerson` | `Partner.ContactPerson` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
+| `PrelimBillingDocument` | `cast( Partner.BillingDocument as prelim_billing_document preserving type )` |
+| `PrelimBillingDocumentItem` | `cast(…)` |
+| `PartnerFunction` | `cast(Partner.PartnerFunction as parvw_unv preserving type )` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `AddressID` | `Partner.AddressID` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
 | `_PrelimBillingDocument` | *Association* |
 | `_Item` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
+| `_PartnerFunction` | *Association* |
+| `_Address` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrelimBillingDocument` | `I_PrelimBillingDocument` | [1..1] |
+| `_Item` | `I_PrelimBillingDocumentItem` | [1..1] |
 
 ## Source Code
 

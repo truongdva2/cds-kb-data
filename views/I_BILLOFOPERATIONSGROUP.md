@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsGroup
 ---
 # I_BILLOFOPERATIONSGROUP
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billofoperationstype preserving type)` | `cast(plnty` |
-| `billofoperationsgroup preserving type)` | `cast(plnnr` |
+| `BillOfOperationsType` | `cast(plnty as billofoperationstype preserving type)` |
+| `BillOfOperationsGroup` | `cast(plnnr as billofoperationsgroup preserving type)` |
 | `_BillOfOperationsType` | *Association* |
 
 ## Associations

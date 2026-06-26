@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrCsgnmtPplineSettlement
 ---
 # C_SUPLRCSGNMTPPLINEWTHDRWLDEX
 
@@ -32,7 +33,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `SuplrCsgnmtPplineWthdrwlStatus` | `SuplrCsgnmtPplineWthdrwlStatus` |
+| `DocumentDate` | `DocumentDate` |
+| `PostingDate` | `PostingDate` |
+| `CompanyCode` | `CompanyCode` |
+| `IssgOrRcvgStkIdfgSpclStkType` | `IssgOrRcvgStkIdfgSpclStkType` |
+| `ConsignmentPipelineSupplier` | `ConsignmentPipelineSupplier` |
+| `Plant` | `Plant` |
+| `Material` | `Material` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `BusinessArea` | `BusinessArea` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `SuplrCsgnmtPplineWthdrwlAmount` | `SuplrCsgnmtPplineWthdrwlAmount` |
+| `SupCsgnmtPplineWthdrwlQtyUnit` | `SupCsgnmtPplineWthdrwlQtyUnit` |
+| `SuplrCsgnmtPplineWthdrwlQty` | `SuplrCsgnmtPplineWthdrwlQty` |
+| `GLAccount` | `GLAccount` |
+| `TaxCode` | `TaxCode` |
 | `NonDeductibleInputTaxAmount` | `NonDeductibleInputTaxAmount` |
 | `ProfitCenter` | `ProfitCenter` |
 | `TaxCountry` | `TaxCountry` |

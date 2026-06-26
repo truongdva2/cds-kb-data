@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectorQualification
 ---
 # I_INSPECTORQUALIFICATIONSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `I_InspectorQualification._InspectorQualificationText[1:Language = $session.system_language].InspectorQualificationText` | `I_InspectorQualification._InspectorQualificationText[1:Language = $session.system_language].InspectorQualificationText` |
+| `InspectorQualification` | `InspectorQualification` |
+| `InspectorQualificationText` | `expr(…)` |
 
 ## Associations
 

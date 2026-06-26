@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionTask` | `LegalTransactionTask` |
-| `key LegalTransactionUUID` | `LegalTransactionUUID` |
+| `LegalTransactionTask` | `LegalTransactionTask` |
+| `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LegalTransaction` | `LegalTransaction` |
 | `LegalTransactionTitle` | `LegalTransactionTitle` |
 | `LglTransTskCrtnUTCDteTme` | `LglTransTskCrtnUTCDteTme` |
@@ -39,9 +39,9 @@ tags:
 | `LegalTransactionTaskStatus` | `LegalTransactionTaskStatus` |
 | `LegalTransactionTaskStatusName` | `LegalTransactionTaskStatusName` |
 | `LegalTransactionTaskCurUsr` | `LegalTransactionTaskCurUsr` |
-| `_User.UserDescription                                                               as LegalTransactionTaskCurUsrName` | *Association* |
+| `LegalTransactionTaskCurUsrName` | `_User.UserDescription` |
 | `WorkflowTaskResult` | `WorkflowTaskResult` |
-| `_WorkflowTaskStepResult[1:Language=$session.system_language].WorkflowStepResultText as WorkflowStepResultText` | *Association* |
+| `WorkflowStepResultText` | `expr(…)` |
 | `WorkflowTaskResultComment` | `WorkflowTaskResultComment` |
 | `_LegalTransaction` | *Association* |
 

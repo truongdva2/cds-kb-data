@@ -32,13 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `_DomainT.DomainValueText                                        as CnsldtnVersionTypeText` | *Association* |
-| `_DomainT.DomainValue` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast(_DomainT.Language as spras preserving type )` |
+| `CnsldtnVersionType` | `cast(left(_DomainT.DomainValue, 1) as fincs_cnsldtnversiontype)` |
+| `CnsldtnVersionTypeText` | `_DomainT.DomainValueText` |
+| `DomainValue` | `_DomainT.DomainValue` |
 | `_Language` | *Association* |
 | `_CnsldtnVersionType` | *Association* |
 

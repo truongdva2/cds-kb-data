@@ -29,18 +29,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SourceListRecord               : dzeord;` | `SourceListRecord               : dzeord;` |
-| `SourceListCreationDate         : erdat;` | `SourceListCreationDate         : erdat;` |
-| `SourceListCreatedByUser        : ernam;` | `SourceListCreatedByUser        : ernam;` |
-| `NewValueOfValidityStartDate    : bdatu;` | `NewValueOfValidityStartDate    : bdatu;` |
-| `NewValueOfValidityEndDate      : bdatu;` | `NewValueOfValidityEndDate      : bdatu;` |
-| `SupplierNewValue               : lifnr;` | `SupplierNewValue               : lifnr;` |
-| `PurchasingOrganizationNewValue : ekorg;` | `PurchasingOrganizationNewValue : ekorg;` |
-| `PurchaseOrderUnit              : meins;` | `PurchaseOrderUnit              : meins;` |
-| `OldValueOfValidityStartDate    : bdatu;` | `OldValueOfValidityStartDate    : bdatu;` |
-| `OldValueOfValidityEndDate      : bdatu;` | `OldValueOfValidityEndDate      : bdatu;` |
-| `SupplierOldValue               : lifnr;` | `SupplierOldValue               : lifnr;` |
-| `PurchasingOrganizationOldValue : ekorg;` | `PurchasingOrganizationOldValue : ekorg;` |
+| `SourceListRecord` | `dzeord` |
+| `SourceListCreationDate` | `erdat` |
+| `SourceListCreatedByUser` | `ernam` |
+| `NewValueOfValidityStartDate` | `bdatu` |
+| `NewValueOfValidityEndDate` | `bdatu` |
+| `SupplierNewValue` | `lifnr` |
+| `PurchasingOrganizationNewValue` | `ekorg` |
+| `PurchaseOrderUnit` | `meins` |
+| `OldValueOfValidityStartDate` | `bdatu` |
+| `OldValueOfValidityEndDate` | `bdatu` |
+| `SupplierOldValue` | `lifnr` |
+| `PurchasingOrganizationOldValue` | `ekorg` |
 
 ## Associations
 

@@ -13,6 +13,7 @@ tags:
   - PP-PI-POR
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrder
 ---
 # D_PROCESSORDERCHANGED
 
@@ -29,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ManufacturingOrder          : manufacturingorder;` | `ManufacturingOrder          : manufacturingorder;` |
-| `ProcessOrderType            : aufart;` | `ProcessOrderType            : aufart;` |
-| `ProductionPlant             : pwwrk;` | `ProductionPlant             : pwwrk;` |
+| `ManufacturingOrder` | `manufacturingorder` |
+| `ProcessOrderType` | `aufart` |
+| `ProductionPlant` | `pwwrk` |
 
 ## Associations
 

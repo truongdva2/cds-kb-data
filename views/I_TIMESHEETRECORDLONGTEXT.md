@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetRecord
 ---
 # I_TIMESHEETRECORDLONGTEXT
 
@@ -33,7 +34,7 @@ tags:
 |---|---|
 | `TimeSheetRecord` | `catsdb.counter` |
 | `Language` | `_TextObjectPlainLongText.Language` |
-| `_TextObjectPlainLongText.PlainLongText as PlainLongText` | *Association* |
+| `PlainLongText` | `_TextObjectPlainLongText.PlainLongText` |
 | `_TextObjectPlainLongText` | *Association* |
 | `_Language` | *Association* |
 

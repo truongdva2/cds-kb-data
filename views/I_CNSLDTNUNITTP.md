@@ -31,15 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_consolidationunit preserving type )` | `cast ( _Source.ConsolidationUnit` |
-| `_Source.Country` | *Association* |
-| `_Source.ConsolidationUnitLink` | *Association* |
-| `_Source.ConsolidationUnitLinkLabel` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text                                                                         as _Text                     : redirected to composition child I_CnsldtnUnitTextTP` | *Association* |
-| `_CnsldtnUnitByTime                                                            as _CnsldtnUnitByTime        : redirected to composition child I_CnsldtnUnitByTimeTP` | *Association* |
-| `_CnsldtnUnitByTimeVersion                                                     as _CnsldtnUnitByTimeVersion : redirected to composition child I_CnsldtnUnitByTimeVersionTP` | *Association* |
+| `ConsolidationUnit` | `cast ( _Source.ConsolidationUnit as fincs_consolidationunit preserving type )` |
+| `Country` | `_Source.Country` |
+| `ConsolidationUnitLink` | `_Source.ConsolidationUnitLink` |
+| `ConsolidationUnitLinkLabel` | `_Source.ConsolidationUnitLinkLabel` |
+| `_Text` | *Association* |
+| `_CnsldtnUnitByTime` | *Association* |
+| `_CnsldtnUnitByTimeVersion` | *Association* |
 
 ## Associations
 

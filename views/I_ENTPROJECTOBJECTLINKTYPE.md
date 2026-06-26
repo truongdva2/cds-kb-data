@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_object_link_type preserving type )` | `cast( ObjectLinkType.object_type` |
-| `/s4ppm/tv_object_link_type_cat preserving type )` | `cast( ObjectLinkType.category` |
+| `ObjectLinkType` | `cast( ObjectLinkType.object_type as /s4ppm/tv_object_link_type preserving type )` |
+| `ObjectLinkTypeCategory` | `cast(…)` |
 | `ObjectLinkTypeGrouping` | `ObjectLinkType.grouping` |
 | `_ObjectLinkTypeText` | *Association* |
 

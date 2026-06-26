@@ -15,6 +15,7 @@ tags:
   - address
   - component:AP-MD-BP
   - lob:Other
+  - bo:AddressID
 ---
 # I_BPADDRESSINDEPENDENTMOBILE
 
@@ -32,32 +33,26 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `_BusinessPartner.BusinessPartner` |
-| `key BPAddressIndependentMobile.AddressID` | `BPAddressIndependentMobile.AddressID` |
+| `AddressID` | `BPAddressIndependentMobile.AddressID` |
 | `Person` | `BPAddressIndependentMobile.AddressPersonID` |
 | `OrdinalNumber` | `BPAddressIndependentMobile.CommMediumSequenceNumber` |
 | `OrdinalNumberForEdit` | `BPAddressIndependentMobile.CommMediumSequenceNumber` |
 | `AddressIDForEdit` | `BPAddressIndependentMobile.AddressID` |
 | `MobilePhoneCountry` | `BPAddressIndependentMobile.PhoneNumberCountry` |
-| `ad_flnouse )` | `cast ( ''` |
+| `CommNumberIsNotUsed` | `cast ( '' as ad_flnouse )` |
 | `MobilePhoneNumber` | `BPAddressIndependentMobile.PhoneAreaCodeSubscriberNumber` |
 | `PhoneNumberExtension` | `BPAddressIndependentMobile.PhoneExtensionNumber` |
 | `CompleteTelephoneNumber` | `BPAddressIndependentMobile.InternationalPhoneNumber` |
-| `case` | `case` |
-| `when PhoneNumberType = '3'` | `when PhoneNumberType = '3'` |
-| `boole_d)` | `then cast('X'` |
-| `else` | `else` |
-| `boole_d)` | `cast(' '` |
-| `IsDefaultPhoneNumber` | `end` |
-| `ad_flgsms)` | `cast (''` |
-| `BPAddressIndependentMobile.PhoneNumberType` | `BPAddressIndependentMobile.PhoneNumberType` |
-| `ad_valfrom )` | `cast ( BPAddressIndependentMobile.ValidityStartDate` |
-| `ad_valto )` | `cast ( BPAddressIndependentMobile.ValidityEndDate` |
-| `BPAddressIndependentMobile.ValidityStartDate` | `BPAddressIndependentMobile.ValidityStartDate` |
-| `BPAddressIndependentMobile.ValidityEndDate` | `BPAddressIndependentMobile.ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
+| `IsDefaultPhoneNumber` | `case…end` |
+| `PhoneIsSMSEnabled` | `cast ('' as ad_flgsms)` |
+| `PhoneNumberType` | `BPAddressIndependentMobile.PhoneNumberType` |
+| `ValidityStartDateTime` | `cast ( BPAddressIndependentMobile.ValidityStartDate as ad_valfrom )` |
+| `ValidityEndDateTime` | `cast ( BPAddressIndependentMobile.ValidityEndDate as ad_valto )` |
+| `ValidityStartDate` | `BPAddressIndependentMobile.ValidityStartDate` |
+| `ValidityEndDate` | `BPAddressIndependentMobile.ValidityEndDate` |
 | `_BusinessPartner` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
-| `_AddressCommunicationRemark.CommunicationRemarkText  as AddressCommunicationRemarkText` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
+| `AddressCommunicationRemarkText` | `_AddressCommunicationRemark.CommunicationRemarkText` |
 
 ## Associations
 

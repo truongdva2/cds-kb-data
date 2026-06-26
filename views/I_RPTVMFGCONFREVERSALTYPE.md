@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RptvMfgConfReversalType
 ---
 # I_RPTVMFGCONFREVERSALTYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `RptvMfgConfReversalType` | `cast(substring(l.domvalue_l, 1, 1) as pph_storn preserving type)` |
 | `DomainValue` | `l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RptvMfgConfReversalTypeText` | [0..*] |
 
 ## Source Code
 

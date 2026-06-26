@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:RequestForQuotationItem
 ---
 # I_REQUESTFORQUOTATIONITEMTP
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RequestForQuotation` | `RequestForQuotation` |
-| `key RequestForQuotationItem` | `RequestForQuotationItem` |
+| `RequestForQuotation` | `RequestForQuotation` |
+| `RequestForQuotationItem` | `RequestForQuotationItem` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
 | `Material` | `Material` |
@@ -64,8 +65,6 @@ tags:
 | `PurchasingInfoRecordUpdateCode` | `PurchasingInfoRecordUpdateCode` |
 | `PurchasingDocumentItemCategory` | `PurchasingDocumentItemCategory` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_RequestForQuotation : redirected to parent I_RequestForQuotationTP` | *Association* |
 
 ## Associations
 

@@ -31,20 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QltyNotificationTaskLongText.QualityNotification` | `_QltyNotificationTaskLongText.QualityNotification` |
-| `key _QltyNotificationTaskLongText.NotificationTask` | `_QltyNotificationTaskLongText.NotificationTask` |
-| `key _QltyNotificationTaskLongText.Language` | `_QltyNotificationTaskLongText.Language` |
-| `key _QltyNotificationTaskLongText.LongTextInternalNumber` | `_QltyNotificationTaskLongText.LongTextInternalNumber` |
-| `_QltyNotificationTaskLongText.LongTextID` | *Association* |
-| `_QltyNotificationTaskLongText.QltyNotificationTaskLongText` | *Association* |
-| `_QltyNotificationTaskLongText.MimeType` | *Association* |
-| `_QltyNotificationTaskLongText.LongTextCreatedByUser` | *Association* |
-| `_QltyNotificationTaskLongText.LongTextCreatedAt` | *Association* |
-| `_QltyNotificationTaskLongText.LongTextLastChangedByUser` | *Association* |
-| `_QltyNotificationTaskLongText.LongTextLastChangedAt` | *Association* |
-| `_QltyNotificationTaskLongText._QltyNotificationTask : redirected to parent I_QltyNotificationTaskTP` | *Association* |
-| `_QltyNotificationTaskLongText._QltyNotification     : redirected to        I_QltyNotificationTP` | *Association* |
-| `_QltyNotificationTaskLongText._Language` | *Association* |
+| `QualityNotification` | `_QltyNotificationTaskLongText.QualityNotification` |
+| `NotificationTask` | `_QltyNotificationTaskLongText.NotificationTask` |
+| `Language` | `_QltyNotificationTaskLongText.Language` |
+| `LongTextInternalNumber` | `_QltyNotificationTaskLongText.LongTextInternalNumber` |
+| `LongTextID` | `_QltyNotificationTaskLongText.LongTextID` |
+| `QltyNotificationTaskLongText` | `_QltyNotificationTaskLongText.QltyNotificationTaskLongText` |
+| `MimeType` | `_QltyNotificationTaskLongText.MimeType` |
+| `LongTextCreatedByUser` | `_QltyNotificationTaskLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `_QltyNotificationTaskLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `_QltyNotificationTaskLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `_QltyNotificationTaskLongText.LongTextLastChangedAt` |
+| `_Language` | *Association* |
 
 ## Associations
 

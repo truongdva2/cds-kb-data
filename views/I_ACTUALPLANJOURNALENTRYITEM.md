@@ -33,8 +33,300 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'ReferenceQuantityUnit'} }` | `unitOfMeasure: 'ReferenceQuantityUnit'} }` |
-| `fis_ref_quan_actl_plan_diff)` | `cast(ActualPlanJournalEntryItem.ActualValuationQuantity - ActualPlanJournalEntryItem.PlanValuationQuantity` |
+| `SourceLedger` | `ActualPlanJournalEntryItem.SourceLedger` |
+| `Ledger` | `ActualPlanJournalEntryItem.Ledger` |
+| `CompanyCode` | `ActualPlanJournalEntryItem.CompanyCode` |
+| `FiscalYear` | `ActualPlanJournalEntryItem.FiscalYear` |
+| `AccountingDocument` | `ActualPlanJournalEntryItem.AccountingDocument` |
+| `FinancialPlanningReqTransSqnc` | `ActualPlanJournalEntryItem.FinancialPlanningReqTransSqnc` |
+| `FinancialPlanningDataPacket` | `ActualPlanJournalEntryItem.FinancialPlanningDataPacket` |
+| `ActualPlanJournalEntryItem` | `ActualPlanJournalEntryItem.ActualPlanJournalEntryItem` |
+| `LedgerGLLineItem` | `ActualPlanJournalEntryItem.LedgerGLLineItem` |
+| `FinancialPlanningEntryItem` | `ActualPlanJournalEntryItem.FinancialPlanningEntryItem` |
+| `LedgerFiscalYear` | `ActualPlanJournalEntryItem.LedgerFiscalYear` |
+| `ControllingArea` | `ActualPlanJournalEntryItem.ControllingArea` |
+| `GLAccount` | `ActualPlanJournalEntryItem.GLAccount` |
+| `ChartOfAccounts` | `ActualPlanJournalEntryItem.ChartOfAccounts` |
+| `ActualPlanCode` | `ActualPlanJournalEntryItem.ActualPlanCode` |
+| `BusinessArea` | `ActualPlanJournalEntryItem.BusinessArea` |
+| `ProfitCenter` | `ActualPlanJournalEntryItem.ProfitCenter` |
+| `CostCenter` | `ActualPlanJournalEntryItem.CostCenter` |
+| `Project` | `ActualPlanJournalEntryItem.Project` |
+| `ProjectInternalID` | `ActualPlanJournalEntryItem.ProjectInternalID` |
+| `ProjectExternalID` | `cast(…)` |
+| `PartnerProjectInternalID` | `ActualPlanJournalEntryItem.PartnerProjectInternalID` |
+| `PartnerProjectExternalID` | `cast(…)` |
+| `WBSElement` | `ActualPlanJournalEntryItem.WBSElement` |
+| `WBSElementInternalID` | `ActualPlanJournalEntryItem.WBSElementInternalID` |
+| `WBSElementExternalID` | `cast(…)` |
+| `PartnerWBSElementInternalID` | `ActualPlanJournalEntryItem.PartnerWBSElementInternalID` |
+| `PartnerWBSElementExternalID` | `cast(…)` |
+| `FunctionalArea` | `ActualPlanJournalEntryItem.FunctionalArea` |
+| `Segment` | `ActualPlanJournalEntryItem.Segment` |
+| `CostCtrActivityType` | `ActualPlanJournalEntryItem.CostCtrActivityType` |
+| `CostAnalysisResource` | `ActualPlanJournalEntryItem.CostAnalysisResource` |
+| `OrderID` | `ActualPlanJournalEntryItem.OrderID` |
+| `OrderCategory` | `ActualPlanJournalEntryItem.OrderCategory` |
+| `WorkPackage` | `ActualPlanJournalEntryItem.WorkPackage` |
+| `WorkItem` | `ActualPlanJournalEntryItem.WorkItem` |
+| `PartnerAccountAssignmentType` | `ActualPlanJournalEntryItem.PartnerAccountAssignmentType` |
+| `TimeSheetOvertimeCategory` | `ActualPlanJournalEntryItem.TimeSheetOvertimeCategory` |
+| `PartnerCompanyCode` | `ActualPlanJournalEntryItem.PartnerCompanyCode` |
+| `PartnerBusinessArea` | `ActualPlanJournalEntryItem.PartnerBusinessArea` |
+| `PartnerProfitCenter` | `ActualPlanJournalEntryItem.PartnerProfitCenter` |
+| `PartnerCostCenter` | `ActualPlanJournalEntryItem.PartnerCostCenter` |
+| `PartnerProject` | `ActualPlanJournalEntryItem.PartnerProject` |
+| `PartnerWBSElement` | `ActualPlanJournalEntryItem.PartnerWBSElement` |
+| `PartnerFunctionalArea` | `ActualPlanJournalEntryItem.PartnerFunctionalArea` |
+| `PartnerSegment` | `ActualPlanJournalEntryItem.PartnerSegment` |
+| `PartnerCostCtrActivityType` | `ActualPlanJournalEntryItem.PartnerCostCtrActivityType` |
+| `PartnerOrder` | `ActualPlanJournalEntryItem.PartnerOrder` |
+| `PartnerOrder_2` | `ActualPlanJournalEntryItem.PartnerOrder_2` |
+| `PartnerOrderCategory` | `ActualPlanJournalEntryItem.PartnerOrderCategory` |
+| `PartnerSalesDocument` | `ActualPlanJournalEntryItem.PartnerSalesDocument` |
+| `PartnerProjectNetwork` | `ActualPlanJournalEntryItem.PartnerProjectNetwork` |
+| `PartnerProjectNetworkActivity` | `ActualPlanJournalEntryItem.PartnerProjectNetworkActivity` |
+| `PartnerBusinessProcess` | `ActualPlanJournalEntryItem.PartnerBusinessProcess` |
+| `PartnerCostObject` | `ActualPlanJournalEntryItem.PartnerCostObject` |
+| `PartnerCompany` | `ActualPlanJournalEntryItem.PartnerCompany` |
+| `OriginProfitCenter` | `ActualPlanJournalEntryItem.OriginProfitCenter` |
+| `OriginCostCenter` | `ActualPlanJournalEntryItem.OriginCostCenter` |
+| `OriginCostCtrActivityType` | `ActualPlanJournalEntryItem.OriginCostCtrActivityType` |
+| `ReferenceDocumentType` | `ActualPlanJournalEntryItem.ReferenceDocumentType` |
+| `ReferenceDocumentContext` | `ActualPlanJournalEntryItem.ReferenceDocumentContext` |
+| `ReferenceDocument` | `ActualPlanJournalEntryItem.ReferenceDocument` |
+| `ReferenceDocumentItem` | `ActualPlanJournalEntryItem.ReferenceDocumentItem` |
+| `BusinessTransactionCategory` | `ActualPlanJournalEntryItem.BusinessTransactionCategory` |
+| `BusinessTransactionType` | `ActualPlanJournalEntryItem.BusinessTransactionType` |
+| `FinancialTransactionType` | `ActualPlanJournalEntryItem.FinancialTransactionType` |
+| `AccountingDocumentType` | `ActualPlanJournalEntryItem.AccountingDocumentType` |
+| `FinancialAccountType` | `ActualPlanJournalEntryItem.FinancialAccountType` |
+| `DebitCreditCode` | `ActualPlanJournalEntryItem.DebitCreditCode` |
+| `AssignmentReference` | `ActualPlanJournalEntryItem.AssignmentReference` |
+| `PostingDate` | `ActualPlanJournalEntryItem.PostingDate` |
+| `DocumentDate` | `ActualPlanJournalEntryItem.DocumentDate` |
+| `FiscalPeriod` | `ActualPlanJournalEntryItem.FiscalPeriod` |
+| `FiscalYearPeriod` | `ActualPlanJournalEntryItem.FiscalYearPeriod` |
+| `FiscalYearVariant` | `ActualPlanJournalEntryItem.FiscalYearVariant` |
+| `AccountingDocCreatedByUser` | `ActualPlanJournalEntryItem.AccountingDocCreatedByUser` |
+| `CreationDate` | `ActualPlanJournalEntryItem.CreationDate` |
+| `PlanningCategory` | `ActualPlanJournalEntryItem.PlanningCategory` |
+| `ServicesRenderedDate` | `ActualPlanJournalEntryItem.ServicesRenderedDate` |
+| `ControllingDebitCreditCode` | `ActualPlanJournalEntryItem.ControllingDebitCreditCode` |
+| `AccountAssignmentType` | `ActualPlanJournalEntryItem.AccountAssignmentType` |
+| `PersonnelNumber` | `ActualPlanJournalEntryItem.PersonnelNumber` |
+| `BillableControl` | `ActualPlanJournalEntryItem.BillableControl` |
+| `ValuationArea` | `ActualPlanJournalEntryItem.ValuationArea` |
+| `ControllingObject` | `ActualPlanJournalEntryItem.ControllingObject` |
+| `CostOriginGroup` | `ActualPlanJournalEntryItem.CostOriginGroup` |
+| `ControllingObjectClass` | `ActualPlanJournalEntryItem.ControllingObjectClass` |
+| `BusinessSolutionOrder` | `ActualPlanJournalEntryItem.BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `ActualPlanJournalEntryItem.BusinessSolutionOrderItem` |
+| `ProviderContract` | `ActualPlanJournalEntryItem.ProviderContract` |
+| `ProviderContractItem` | `ActualPlanJournalEntryItem.ProviderContractItem` |
+| `DocumentItemText` | `ActualPlanJournalEntryItem.DocumentItemText` |
+| `Plant` | `ActualPlanJournalEntryItem.Plant` |
+| `Material` | `ActualPlanJournalEntryItem.Material` |
+| `Product` | `ActualPlanJournalEntryItem.Product` |
+| `Customer` | `ActualPlanJournalEntryItem.Customer` |
+| `Supplier` | `ActualPlanJournalEntryItem.Supplier` |
+| `PurchasingDocument` | `ActualPlanJournalEntryItem.PurchasingDocument` |
+| `PurchasingDocumentItem` | `ActualPlanJournalEntryItem.PurchasingDocumentItem` |
+| `AccountAssignmentNumber` | `ActualPlanJournalEntryItem.AccountAssignmentNumber` |
+| `OffsettingAccount` | `ActualPlanJournalEntryItem.OffsettingAccount` |
+| `OffsettingAccountType` | `ActualPlanJournalEntryItem.OffsettingAccountType` |
+| `OffsettingChartOfAccounts` | `ActualPlanJournalEntryItem.OffsettingChartOfAccounts` |
+| `SalesOrder` | `ActualPlanJournalEntryItem.SalesOrder` |
+| `SalesOrderItem` | `ActualPlanJournalEntryItem.SalesOrderItem` |
+| `SalesDocument` | `ActualPlanJournalEntryItem.SalesDocument` |
+| `SalesDocumentItem` | `ActualPlanJournalEntryItem.SalesDocumentItem` |
+| `ServiceDocumentType` | `ActualPlanJournalEntryItem.ServiceDocumentType` |
+| `ServiceDocument` | `ActualPlanJournalEntryItem.ServiceDocument` |
+| `ServiceDocumentItem` | `ActualPlanJournalEntryItem.ServiceDocumentItem` |
+| `ServiceContractType` | `ActualPlanJournalEntryItem.ServiceContractType` |
+| `ServiceContract` | `ActualPlanJournalEntryItem.ServiceContract` |
+| `ServiceContractItem` | `ActualPlanJournalEntryItem.ServiceContractItem` |
+| `ProjectNetwork` | `ActualPlanJournalEntryItem.ProjectNetwork` |
+| `BillingDocumentType` | `ActualPlanJournalEntryItem.BillingDocumentType` |
+| `SalesOrganization` | `ActualPlanJournalEntryItem.SalesOrganization` |
+| `DistributionChannel` | `ActualPlanJournalEntryItem.DistributionChannel` |
+| `Division` | `ActualPlanJournalEntryItem.Division` |
+| `OrganizationDivision` | `ActualPlanJournalEntryItem.OrganizationDivision` |
+| `SoldMaterial` | `ActualPlanJournalEntryItem.SoldMaterial` |
+| `SoldProduct` | `ActualPlanJournalEntryItem.SoldProduct` |
+| `MaterialGroup` | `ActualPlanJournalEntryItem.MaterialGroup` |
+| `ProductGroup` | `ActualPlanJournalEntryItem.ProductGroup` |
+| `SoldProductGroup` | `ActualPlanJournalEntryItem.SoldProductGroup` |
+| `CustomerGroup` | `ActualPlanJournalEntryItem.CustomerGroup` |
+| `CustomerSupplierCountry` | `ActualPlanJournalEntryItem.CustomerSupplierCountry` |
+| `CustomerSupplierIndustry` | `ActualPlanJournalEntryItem.CustomerSupplierIndustry` |
+| `SalesDistrict` | `ActualPlanJournalEntryItem.SalesDistrict` |
+| `BillToParty` | `ActualPlanJournalEntryItem.BillToParty` |
+| `ShipToParty` | `ActualPlanJournalEntryItem.ShipToParty` |
+| `CustomerSupplierCorporateGroup` | `ActualPlanJournalEntryItem.CustomerSupplierCorporateGroup` |
+| `IsStatisticalOrder` | `ActualPlanJournalEntryItem.IsStatisticalOrder` |
+| `IsStatisticalCostCenter` | `ActualPlanJournalEntryItem.IsStatisticalCostCenter` |
+| `IsStatisticalSalesDocument` | `ActualPlanJournalEntryItem.IsStatisticalSalesDocument` |
+| `WBSIsStatisticalWBSElement` | `ActualPlanJournalEntryItem.WBSIsStatisticalWBSElement` |
+| `WorkCenterInternalID` | `ActualPlanJournalEntryItem.WorkCenterInternalID` |
+| `OrderOperation` | `ActualPlanJournalEntryItem.OrderOperation` |
+| `OrderItem` | `ActualPlanJournalEntryItem.OrderItem` |
+| `PartnerOrderItem` | `ActualPlanJournalEntryItem.PartnerOrderItem` |
+| `OrderSuboperation` | `ActualPlanJournalEntryItem.OrderSuboperation` |
+| `Equipment` | `ActualPlanJournalEntryItem.Equipment` |
+| `FunctionalLocation` | `ActualPlanJournalEntryItem.FunctionalLocation` |
+| `Assembly` | `ActualPlanJournalEntryItem.Assembly` |
+| `MaintenanceActivityType` | `ActualPlanJournalEntryItem.MaintenanceActivityType` |
+| `MaintenanceOrderPlanningCode` | `ActualPlanJournalEntryItem.MaintenanceOrderPlanningCode` |
+| `MaintPriorityType` | `ActualPlanJournalEntryItem.MaintPriorityType` |
+| `MaintPriority` | `ActualPlanJournalEntryItem.MaintPriority` |
+| `SuperiorOrder` | `ActualPlanJournalEntryItem.SuperiorOrder` |
+| `SourceReferenceDocumentType` | `ActualPlanJournalEntryItem.SourceReferenceDocumentType` |
+| `SourceLogicalSystem` | `ActualPlanJournalEntryItem.SourceLogicalSystem` |
+| `SourceReferenceDocumentCntxt` | `ActualPlanJournalEntryItem.SourceReferenceDocumentCntxt` |
+| `SourceReferenceDocument` | `ActualPlanJournalEntryItem.SourceReferenceDocument` |
+| `SourceReferenceDocumentItem` | `ActualPlanJournalEntryItem.SourceReferenceDocumentItem` |
+| `SourceReferenceDocSubitem` | `ActualPlanJournalEntryItem.SourceReferenceDocSubitem` |
+| `IsCommitment` | `ActualPlanJournalEntryItem.IsCommitment` |
+| `CashLedgerCompanyCode` | `ActualPlanJournalEntryItem.CashLedgerCompanyCode` |
+| `CashLedgerAccount` | `ActualPlanJournalEntryItem.CashLedgerAccount` |
+| `FinancialManagementArea` | `ActualPlanJournalEntryItem.FinancialManagementArea` |
+| `FundsCenter` | `ActualPlanJournalEntryItem.FundsCenter` |
+| `FundedProgram` | `ActualPlanJournalEntryItem.FundedProgram` |
+| `Fund` | `ActualPlanJournalEntryItem.Fund` |
+| `GrantID` | `ActualPlanJournalEntryItem.GrantID` |
+| `BudgetPeriod` | `ActualPlanJournalEntryItem.BudgetPeriod` |
+| `PartnerFund` | `ActualPlanJournalEntryItem.PartnerFund` |
+| `PartnerGrant` | `ActualPlanJournalEntryItem.PartnerGrant` |
+| `PartnerBudgetPeriod` | `ActualPlanJournalEntryItem.PartnerBudgetPeriod` |
+| `PubSecBudgetAccount` | `ActualPlanJournalEntryItem.PubSecBudgetAccount` |
+| `PubSecBudgetAccountCoCode` | `ActualPlanJournalEntryItem.PubSecBudgetAccountCoCode` |
+| `PubSecBudgetCnsmpnDate` | `ActualPlanJournalEntryItem.PubSecBudgetCnsmpnDate` |
+| `PubSecBudgetCnsmpnFsclPeriod` | `ActualPlanJournalEntryItem.PubSecBudgetCnsmpnFsclPeriod` |
+| `PubSecBudgetCnsmpnFsclYear` | `ActualPlanJournalEntryItem.PubSecBudgetCnsmpnFsclYear` |
+| `PubSecBudgetIsRelevant` | `ActualPlanJournalEntryItem.PubSecBudgetIsRelevant` |
+| `PubSecBudgetCnsmpnType` | `ActualPlanJournalEntryItem.PubSecBudgetCnsmpnType` |
+| `PubSecBudgetCnsmpnAmtType` | `ActualPlanJournalEntryItem.PubSecBudgetCnsmpnAmtType` |
+| `SponsoredProgram` | `ActualPlanJournalEntryItem.SponsoredProgram` |
+| `SponsoredClass` | `ActualPlanJournalEntryItem.SponsoredClass` |
+| `GteeMBudgetValidityNumber` | `ActualPlanJournalEntryItem.GteeMBudgetValidityNumber` |
+| `BudgetProcess` | `ActualPlanJournalEntryItem.BudgetProcess` |
+| `BudgetingType` | `ActualPlanJournalEntryItem.BudgetingType` |
+| `BudgetDocWorkFlowStatus` | `ActualPlanJournalEntryItem.BudgetDocWorkFlowStatus` |
+| `SubLedgerAcctLineItemType` | `ActualPlanJournalEntryItem.SubLedgerAcctLineItemType` |
+| `AssetDepreciationArea` | `ActualPlanJournalEntryItem.AssetDepreciationArea` |
+| `MasterFixedAsset` | `ActualPlanJournalEntryItem.MasterFixedAsset` |
+| `FixedAsset` | `ActualPlanJournalEntryItem.FixedAsset` |
+| `AssetAcctTransClassfctn` | `ActualPlanJournalEntryItem.AssetAcctTransClassfctn` |
+| `AssetClass` | `ActualPlanJournalEntryItem.AssetClass` |
+| `JointVenture` | `ActualPlanJournalEntryItem.JointVenture` |
+| `JointVentureEquityGroup` | `ActualPlanJournalEntryItem.JointVentureEquityGroup` |
+| `JointVentureCostRecoveryCode` | `ActualPlanJournalEntryItem.JointVentureCostRecoveryCode` |
+| `JointVentureProductionDate` | `ActualPlanJournalEntryItem.JointVentureProductionDate` |
+| `JointVentureAccountingActivity` | `ActualPlanJournalEntryItem.JointVentureAccountingActivity` |
+| `AccrualObjectType` | `ActualPlanJournalEntryItem.AccrualObjectType` |
+| `AccrualObjectLogicalSystem` | `ActualPlanJournalEntryItem.AccrualObjectLogicalSystem` |
+| `AccrualObject` | `ActualPlanJournalEntryItem.AccrualObject` |
+| `AccrualSubobject` | `ActualPlanJournalEntryItem.AccrualSubobject` |
+| `AccrualItemType` | `ActualPlanJournalEntryItem.AccrualItemType` |
+| `AccrualReferenceObject` | `ActualPlanJournalEntryItem.AccrualReferenceObject` |
+| `AccrualValueDate` | `ActualPlanJournalEntryItem.AccrualValueDate` |
+| `Reservation` | `ActualPlanJournalEntryItem.Reservation` |
+| `ReservationItem` | `ActualPlanJournalEntryItem.ReservationItem` |
+| `ReservationType` | `ActualPlanJournalEntryItem.ReservationType` |
+| `MMServicePackage` | `ActualPlanJournalEntryItem.MMServicePackage` |
+| `MMServicePackageLine` | `ActualPlanJournalEntryItem.MMServicePackageLine` |
+| `REBusinessEntity` | `ActualPlanJournalEntryItem.REBusinessEntity` |
+| `RealEstateBuilding` | `ActualPlanJournalEntryItem.RealEstateBuilding` |
+| `RealEstateProperty` | `ActualPlanJournalEntryItem.RealEstateProperty` |
+| `RERentalObject` | `ActualPlanJournalEntryItem.RERentalObject` |
+| `RealEstateContract` | `ActualPlanJournalEntryItem.RealEstateContract` |
+| `REServiceChargeKey` | `ActualPlanJournalEntryItem.REServiceChargeKey` |
+| `RESettlementUnitID` | `ActualPlanJournalEntryItem.RESettlementUnitID` |
+| `SettlementReferenceDate` | `ActualPlanJournalEntryItem.SettlementReferenceDate` |
+| `TransactionCurrency` | `ActualPlanJournalEntryItem.TransactionCurrency` |
+| `CompanyCodeCurrency` | `ActualPlanJournalEntryItem.CompanyCodeCurrency` |
+| `GlobalCurrency` | `ActualPlanJournalEntryItem.GlobalCurrency` |
+| `FunctionalCurrency` | `ActualPlanJournalEntryItem.FunctionalCurrency` |
+| `FreeDefinedCurrency1` | `ActualPlanJournalEntryItem.FreeDefinedCurrency1` |
+| `FreeDefinedCurrency2` | `ActualPlanJournalEntryItem.FreeDefinedCurrency2` |
+| `FreeDefinedCurrency3` | `ActualPlanJournalEntryItem.FreeDefinedCurrency3` |
+| `FreeDefinedCurrency4` | `ActualPlanJournalEntryItem.FreeDefinedCurrency4` |
+| `FreeDefinedCurrency5` | `ActualPlanJournalEntryItem.FreeDefinedCurrency5` |
+| `FreeDefinedCurrency6` | `ActualPlanJournalEntryItem.FreeDefinedCurrency6` |
+| `FreeDefinedCurrency7` | `ActualPlanJournalEntryItem.FreeDefinedCurrency7` |
+| `FreeDefinedCurrency8` | `ActualPlanJournalEntryItem.FreeDefinedCurrency8` |
+| `ControllingObjectCurrency` | `ActualPlanJournalEntryItem.ControllingObjectCurrency` |
+| `CostSourceUnit` | `ActualPlanJournalEntryItem.CostSourceUnit` |
+| `AmountInTransactionCurrency` | `ActualPlanJournalEntryItem.AmountInTransactionCurrency` |
+| `AmountInCompanyCodeCurrency` | `ActualPlanJournalEntryItem.AmountInCompanyCodeCurrency` |
+| `AmountInGlobalCurrency` | `ActualPlanJournalEntryItem.AmountInGlobalCurrency` |
+| `AmountInFunctionalCurrency` | `ActualPlanJournalEntryItem.AmountInFunctionalCurrency` |
+| `AmountInFreeDefinedCurrency1` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency1` |
+| `AmountInFreeDefinedCurrency2` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency2` |
+| `AmountInFreeDefinedCurrency3` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency3` |
+| `AmountInFreeDefinedCurrency4` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency4` |
+| `AmountInFreeDefinedCurrency5` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency5` |
+| `AmountInFreeDefinedCurrency6` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency6` |
+| `AmountInFreeDefinedCurrency7` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency7` |
+| `AmountInFreeDefinedCurrency8` | `ActualPlanJournalEntryItem.AmountInFreeDefinedCurrency8` |
+| `AmountInObjectCurrency` | `ActualPlanJournalEntryItem.AmountInObjectCurrency` |
+| `FixedAmountInGlobalCrcy` | `ActualPlanJournalEntryItem.FixedAmountInGlobalCrcy` |
+| `FixedAmountInCoCodeCrcy` | `ActualPlanJournalEntryItem.FixedAmountInCoCodeCrcy` |
+| `FixedAmountInTransCrcy` | `ActualPlanJournalEntryItem.FixedAmountInTransCrcy` |
+| `ValuationQuantity` | `ActualPlanJournalEntryItem.ValuationQuantity` |
+| `ValuationFixedQuantity` | `ActualPlanJournalEntryItem.ValuationFixedQuantity` |
+| `FixedQuantity` | `ActualPlanJournalEntryItem.FixedQuantity` |
+| `BaseUnit` | `ActualPlanJournalEntryItem.BaseUnit` |
+| `Quantity` | `ActualPlanJournalEntryItem.Quantity` |
+| `ReferenceQuantityUnit` | `ActualPlanJournalEntryItem.ReferenceQuantityUnit` |
+| `ReferenceQuantity` | `ActualPlanJournalEntryItem.ReferenceQuantity` |
+| `ActualAmountInTransactionCrcy` | `ActualPlanJournalEntryItem.ActualAmountInTransactionCrcy` |
+| `ActualAmountInCompanyCodeCrcy` | `ActualPlanJournalEntryItem.ActualAmountInCompanyCodeCrcy` |
+| `ActualAmountInGlobalCurrency` | `ActualPlanJournalEntryItem.ActualAmountInGlobalCurrency` |
+| `ActualAmountInFreeDfndCrcy1` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy1` |
+| `ActualAmountInFreeDfndCrcy2` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy2` |
+| `ActualAmountInFreeDfndCrcy3` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy3` |
+| `ActualAmountInFreeDfndCrcy4` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy4` |
+| `ActualAmountInFreeDfndCrcy5` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy5` |
+| `ActualAmountInFreeDfndCrcy6` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy6` |
+| `ActualAmountInFreeDfndCrcy7` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy7` |
+| `ActualAmountInFreeDfndCrcy8` | `ActualPlanJournalEntryItem.ActualAmountInFreeDfndCrcy8` |
+| `ActualAmountInObjectCurrency` | `ActualPlanJournalEntryItem.ActualAmountInObjectCurrency` |
+| `ActualValuationQuantity` | `ActualPlanJournalEntryItem.ActualValuationQuantity` |
+| `ActualReferenceQuantity` | `ActualPlanJournalEntryItem.ActualReferenceQuantity` |
+| `ActualQuantityInBaseUnit` | `ActualPlanJournalEntryItem.ActualQuantityInBaseUnit` |
+| `PlanAmountInTransactionCrcy` | `ActualPlanJournalEntryItem.PlanAmountInTransactionCrcy` |
+| `PlanAmountInCompanyCodeCrcy` | `ActualPlanJournalEntryItem.PlanAmountInCompanyCodeCrcy` |
+| `PlanAmountInGlobalCurrency` | `ActualPlanJournalEntryItem.PlanAmountInGlobalCurrency` |
+| `PlanAmountInFreeDefinedCrcy1` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy1` |
+| `PlanAmountInFreeDefinedCrcy2` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy2` |
+| `PlanAmountInFreeDefinedCrcy3` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy3` |
+| `PlanAmountInFreeDefinedCrcy4` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy4` |
+| `PlanAmountInFreeDefinedCrcy5` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy5` |
+| `PlanAmountInFreeDefinedCrcy6` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy6` |
+| `PlanAmountInFreeDefinedCrcy7` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy7` |
+| `PlanAmountInFreeDefinedCrcy8` | `ActualPlanJournalEntryItem.PlanAmountInFreeDefinedCrcy8` |
+| `PlanAmountInObjectCurrency` | `ActualPlanJournalEntryItem.PlanAmountInObjectCurrency` |
+| `PlanValuationQuantity` | `ActualPlanJournalEntryItem.PlanValuationQuantity` |
+| `PlanReferenceQuantity` | `ActualPlanJournalEntryItem.PlanReferenceQuantity` |
+| `PlanPriceInGlobalCurrency` | `ActualPlanJournalEntryItem.PlanPriceInGlobalCurrency` |
+| `PlanPriceInCompanyCodeCurrency` | `ActualPlanJournalEntryItem.PlanPriceInCompanyCodeCurrency` |
+| `PlanPriceInTransactionCurrency` | `ActualPlanJournalEntryItem.PlanPriceInTransactionCurrency` |
+| `ActlPlnDiffAmtInTransCrcy` | `cast(…)` |
+| `ActlPlnDiffAmtInCoCodeCrcy` | `cast(…)` |
+| `ActlPlnDiffAmtInGlobalCrcy` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy1` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy2` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy3` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy4` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy5` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy6` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy7` | `cast(…)` |
+| `ActlPlnDiffAmtInFreeDfndCrcy8` | `cast(…)` |
+| `ActlPlnDiffAmtInObjectCrcy` | `cast(…)` |
+| `ActlPanDiffValuationQuantity` | `cast(…)` |
+| `ActlPlanDiffReferenceQuantity` | `cast(…)` |
 | `_SourceLedger` | *Association* |
 | `_JournalEntry` | *Association* |
 | `_ControllingArea` | *Association* |
@@ -59,16 +351,16 @@ tags:
 | `_CurrentCostCenter` | *Association* |
 | `_AccountAssignmentType` | *Association* |
 | `_Project` | *Association* |
-| `ActualPlanJournalEntryItem._ProjectBasicData` | `ActualPlanJournalEntryItem._ProjectBasicData` |
+| `_ProjectBasicData` | *Association* |
 | `_ProjectExternalID` | *Association* |
 | `_ProjectExternalIDText` | *Association* |
-| `ActualPlanJournalEntryItem._PartnerProjectBasicData` | `ActualPlanJournalEntryItem._PartnerProjectBasicData` |
+| `_PartnerProjectBasicData` | *Association* |
 | `_PartnerProjectExternalID` | *Association* |
 | `_PartnerProjctExtrnalIDText` | *Association* |
 | `_WBSElement` | *Association* |
-| `ActualPlanJournalEntryItem._WBSElementBasicData` | `ActualPlanJournalEntryItem._WBSElementBasicData` |
+| `_WBSElementBasicData` | *Association* |
 | `_WBSElementExternalID` | *Association* |
-| `ActualPlanJournalEntryItem._PartnerWBSElementBasicData` | `ActualPlanJournalEntryItem._PartnerWBSElementBasicData` |
+| `_PartnerWBSElementBasicData` | *Association* |
 | `_PartnerWBSElementExternalID` | *Association* |
 | `_PartnerWBSElemntExtrnalIDText` | *Association* |
 | `_FunctionalArea` | *Association* |
@@ -101,7 +393,7 @@ tags:
 | `_PersonWorkAgreement_1` | *Association* |
 | `_BusinessTransactionCategory` | *Association* |
 | `_BusinessTransactionType` | *Association* |
-| `ActualPlanJournalEntryItem._FinancialTransactionType` | `ActualPlanJournalEntryItem._FinancialTransactionType` |
+| `_FinancialTransactionType` | *Association* |
 | `_AccountingDocumentType` | *Association* |
 | `_FinancialAccountType` | *Association* |
 | `_DebitCreditCode` | *Association* |
@@ -160,10 +452,10 @@ tags:
 | `_PlanningCategory` | *Association* |
 | `_BillableControl` | *Association* |
 | `_SemTagGLAccount` | *Association* |
-| `ActualPlanJournalEntryItem._FinancialManagementArea` | `ActualPlanJournalEntryItem._FinancialManagementArea` |
-| `ActualPlanJournalEntryItem._Fund` | `ActualPlanJournalEntryItem._Fund` |
-| `ActualPlanJournalEntryItem._Grant` | `ActualPlanJournalEntryItem._Grant` |
-| `ActualPlanJournalEntryItem._BudgetPeriod` | `ActualPlanJournalEntryItem._BudgetPeriod` |
+| `_FinancialManagementArea` | *Association* |
+| `_Fund` | *Association* |
+| `_Grant` | *Association* |
+| `_BudgetPeriod` | *Association* |
 | `_CashLedgerCompanyCode` | *Association* |
 | `_CashLedgerAccount` | *Association* |
 | `_FundsCenter` | *Association* |
@@ -185,41 +477,143 @@ tags:
 | `_MasterFixedAsset` | *Association* |
 | `_FixedAsset` | *Association* |
 | `_SubLedgerAccLineItemType` | *Association* |
-| `ActualPlanJournalEntryItem._Equipment` | `ActualPlanJournalEntryItem._Equipment` |
-| `ActualPlanJournalEntryItem._FunctionalLocation` | `ActualPlanJournalEntryItem._FunctionalLocation` |
-| `ActualPlanJournalEntryItem._MaintenanceActivityType` | `ActualPlanJournalEntryItem._MaintenanceActivityType` |
+| `_Equipment` | *Association* |
+| `_FunctionalLocation` | *Association* |
+| `_MaintenanceActivityType` | *Association* |
 | `_MaintOrdPlngDegreeCode` | *Association* |
 | `_PMNotificationPriorityType` | *Association* |
 | `_PMNotificationPriority` | *Association* |
 | `_MaintenanceOrder` | *Association* |
 | `_MaintenanceOrderOperation` | *Association* |
 | `_MaintenanceOrderSubOperation` | *Association* |
-| `ActualPlanJournalEntryItem._Assembly` | `ActualPlanJournalEntryItem._Assembly` |
+| `_Assembly` | *Association* |
 | `_SuperiorOrder` | *Association* |
-| `ActualPlanJournalEntryItem.GLAccountAuthorizationGroup` | `ActualPlanJournalEntryItem.GLAccountAuthorizationGroup` |
-| `ActualPlanJournalEntryItem.SupplierBasicAuthorizationGrp` | `ActualPlanJournalEntryItem.SupplierBasicAuthorizationGrp` |
-| `ActualPlanJournalEntryItem.CustomerBasicAuthorizationGrp` | `ActualPlanJournalEntryItem.CustomerBasicAuthorizationGrp` |
-| `ActualPlanJournalEntryItem.AcctgDocTypeAuthorizationGroup` | `ActualPlanJournalEntryItem.AcctgDocTypeAuthorizationGroup` |
-| `ActualPlanJournalEntryItem.OrderType` | `ActualPlanJournalEntryItem.OrderType` |
-| `ActualPlanJournalEntryItem.SalesOrderType` | `ActualPlanJournalEntryItem.SalesOrderType` |
+| `GLAccountAuthorizationGroup` | `ActualPlanJournalEntryItem.GLAccountAuthorizationGroup` |
+| `SupplierBasicAuthorizationGrp` | `ActualPlanJournalEntryItem.SupplierBasicAuthorizationGrp` |
+| `CustomerBasicAuthorizationGrp` | `ActualPlanJournalEntryItem.CustomerBasicAuthorizationGrp` |
+| `AcctgDocTypeAuthorizationGroup` | `ActualPlanJournalEntryItem.AcctgDocTypeAuthorizationGroup` |
+| `OrderType` | `ActualPlanJournalEntryItem.OrderType` |
+| `SalesOrderType` | `ActualPlanJournalEntryItem.SalesOrderType` |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SourceLedger` | `I_Ledger` | [0..1] |
+| `_JournalEntry` | `I_JournalEntry` | [0..1] |
+| `_ControllingArea` | `I_ControllingArea` | [0..1] |
+| `_Ledger` | `I_Ledger` | [0..1] |
+| `_CompanyCode` | `I_CompanyCode` | [1] |
+| `_GLAccountInCompanyCode` | `I_GLAccountInCompanyCode` | [0..1] |
+| `_GLAccountInChartOfAccounts` | `I_GLAccountInChartOfAccounts` | [0..1] |
+| `_ChartOfAccounts` | `I_ChartOfAccounts` | [1] |
+| `_FiscalYear` | `I_FiscalYearForCompanyCode` | [0..1] |
+| `_LedgerFiscalYear` | `I_FiscalYearForCompanyCode` | [0..1] |
+| `_FiscalPeriod` | `I_FiscalYearPeriodForCmpnyCode` | [0..1] |
+| `_FiscalYearPeriod` | `I_FiscalCalYearPeriodForCoCode` | [0..1] |
 | `_LedgerFiscalYearForVariant` | `I_FiscalYearForVariant` | [0..1] |
 | `_FiscalPeriodForVariant` | `I_FiscalPeriodForVariant` | [0..1] |
 | `_FiscalYearPeriodForVariant` | `I_FiscalYearPeriodForVariant` | [0..1] |
+| `_CalendarDate` | `I_CalendarDate` | [0..1] |
+| `_FiscalCalendarDate` | `I_FiscalCalendarDate` | [0..1] |
+| `_BusinessArea` | `I_BusinessArea` | [0..1] |
+| `_ProfitCenter` | `I_ProfitCenter` | [0..*] |
+| `_CurrentProfitCenter` | `I_ProfitCenter` | [0..1] |
+| `_CostCenter` | `I_CostCenter` | [0..*] |
+| `_CurrentCostCenter` | `I_CostCenter` | [0..1] |
+| `_Project` | `I_Project` | [0..1] |
 | `_ProjectExternalID` | `I_ProjectByExternalID` | [0..1] |
 | `_ProjectExternalIDText` | `I_ProjectByExternalID` | [0..1] |
 | `_PartnerProjectExternalID` | `I_ProjectByExternalID` | [0..1] |
 | `_PartnerProjctExtrnalIDText` | `I_ProjectByExternalID` | [0..1] |
+| `_WBSElement` | `I_WBSElement` | [0..1] |
+| `_WBSElementExternalID` | `I_WBSElementByExternalID` | [0..1] |
+| `_PartnerWBSElementExternalID` | `I_WBSElementByExternalID` | [0..1] |
+| `_PartnerWBSElemntExtrnalIDText` | `I_WBSElementByExternalID` | [0..1] |
+| `_FunctionalArea` | `I_FunctionalArea` | [0..1] |
+| `_Segment` | `I_Segment` | [0..1] |
+| `_CostCtrActivityType` | `I_CostCenterActivityType` | [0..*] |
+| `_CostAnalysisResource` | `I_CostAnalysisResource` | [0..*] |
+| `_InternalOrder` | `I_InternalOrder` | [0..1] |
+| `_Order` | `I_Order` | [0..1] |
+| `_WorkPackageWorkItem` | `I_WorkPackageWorkItem` | [0..1] |
+| `_WorkPackage` | `I_WorkPackage` | [0..1] |
+| `_PartnerCompanyCode` | `I_CompanyCode` | [0..1] |
+| `_PartnerBusinessArea` | `I_BusinessArea` | [0..1] |
+| `_PartnerProfitCenter` | `I_ProfitCenter` | [0..*] |
+| `_PartnerCostCenter` | `I_CostCenter` | [0..*] |
+| `_PartnerProject` | `I_Project` | [0..1] |
+| `_PartnerWBSElement` | `I_WBSElement` | [0..1] |
+| `_PartnerFunctionalArea` | `I_FunctionalArea` | [0..1] |
+| `_PartnerSegment` | `I_Segment` | [0..1] |
+| `_PartnerCostCtrActivityType` | `I_CostCenterActivityType` | [0..*] |
+| `_PartnerOrder` | `I_InternalOrder` | [0..1] |
+| `_PartnerOrder_2` | `I_Order` | [0..1] |
+| `_PartnerOrderCategory` | `I_OrderCategory` | [0..1] |
+| `_PartnerCompany` | `I_Partnercompany` | [0..1] |
+| `_FiscalYearVariant` | `I_FiscalYearVariant` | [1] |
+| `_ControllingDebitCreditCode` | `I_ControllingDebitCreditCode` | [0..1] |
+| `_Employment` | `I_Employment` | [0..1] |
+| `_PersonWorkAgreement_1` | `I_PersonWorkAgreement_1` | [0..1] |
+| `_BusinessTransactionCategory` | `I_BusinessTransactionCategory` | [0..1] |
+| `_BusinessTransactionType` | `I_BusinessTransactionType` | [0..1] |
+| `_AccountingDocumentType` | `I_AccountingDocumentType` | [0..1] |
+| `_FinancialAccountType` | `I_FinancialAccountType` | [0..1] |
+| `_DebitCreditCode` | `I_DebitCreditCode` | [0..1] |
+| `_Plant` | `I_Plant` | [0..1] |
+| `_Material` | `I_Material` | [0..1] |
+| `_Product` | `I_Product` | [0..1] |
+| `_Customer` | `I_Customer` | [0..1] |
+| `_CustomerCompany` | `I_CustomerCompany` | [0..1] |
+| `_SalesOrder` | `I_SalesOrder` | [0..1] |
+| `_SalesOrderItem` | `I_SalesOrderItem` | [0..1] |
+| `_SalesDocument` | `I_SalesDocument` | [0..1] |
+| `_SalesDocumentItem` | `I_SalesDocumentItem` | [0..1] |
 | `_ServiceDocumentType` | `I_ServiceDocumentType` | [0..1] |
 | `_ServiceDocument` | `I_SrvcDocByDocumentType` | [0..1] |
 | `_ServiceDocumentItem` | `I_SrvcDocItemByDocumentType` | [0..1] |
 | `_ServiceContractType` | `I_ServiceDocumentType` | [0..1] |
 | `_ServiceContract` | `I_SrvcDocByDocumentType` | [0..1] |
 | `_ServiceContractItem` | `I_SrvcDocItemByDocumentType` | [0..1] |
+| `_BillingDocumentType` | `I_BillingDocumentType` | [0..1] |
+| `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
+| `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
+| `_Division` | `I_Division` | [0..1] |
+| `_OrganizationDivision` | `I_Division` | [0..1] |
+| `_SoldMaterial` | `I_Material` | [0..1] |
+| `_SoldProduct` | `I_Product` | [0..1] |
+| `_MaterialGroup` | `I_MaterialGroup` | [0..1] |
+| `_ProductGroup` | `I_ProductGroup` | [0..1] |
+| `_ProductGroup_2` | `I_ProductGroup_2` | [0..1] |
+| `_SoldProductGroup` | `I_ProductGroup` | [0..1] |
+| `_SoldProductGroup_2` | `I_ProductGroup_2` | [0..1] |
+| `_CustomerGroup` | `I_CustomerGroup` | [0..1] |
+| `_CustomerSupplierCountry` | `I_Country` | [0..1] |
+| `_CustomerSupplierIndustryText` | `I_SupplierIndustryText` | [0..*] |
+| `_SalesDistrict` | `I_SalesDistrict` | [0..1] |
+| `_BillToParty` | `I_Customer` | [0..1] |
+| `_ShipToParty` | `I_Customer` | [0..1] |
+| `_TransactionCurrency` | `I_Currency` | [0..1] |
+| `_CompanyCodeCurrency` | `I_Currency` | [1] |
+| `_GlobalCurrency` | `I_Currency` | [0..1] |
+| `_FunctionalCurrency` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency1` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency2` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency3` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency4` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency5` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency6` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency7` | `I_Currency` | [0..1] |
+| `_FreeDefinedCurrency8` | `I_Currency` | [0..1] |
+| `_ControllingObjectCurrency` | `I_Currency` | [0..1] |
+| `_BaseUnit` | `I_UnitOfMeasure` | [0..1] |
+| `_CostSourceUnit` | `I_UnitOfMeasure` | [0..1] |
+| `_ReferenceQuantityUnit` | `I_UnitOfMeasure` | [0..1] |
+| `_PlanningCategory` | `I_PlanningCategory` | [0..1] |
+| `_OriginCostCenter` | `I_CostCenter` | [0..*] |
+| `_OriginProfitCenter` | `I_ProfitCenter` | [0..*] |
+| `_OriginCostCtrActivityType` | `I_CostCenterActivityType` | [0..*] |
+| `_WorkCenter` | `I_WorkCenter` | [0..1] |
 | `_BillableControl` | `I_BillableControl` | [0..1] |
 | `_Supplier` | `I_Supplier` | [0..1] |
 | `_SupplierCompany` | `I_SupplierCompany` | [0..1] |
@@ -252,7 +646,6 @@ tags:
 | `_PMNotificationPriorityType` | `I_PMNotificationPriorityType` | [0..1] |
 | `_PMNotificationPriority` | `I_PMNotificationPriority` | [0..1] |
 | `_SuperiorOrder` | `I_LogisticsOrder` | [0..1] |
-| `_PMSuperiorOrder` | `I_MaintenanceOrder` | [0..1] |
 | `_AccountAssignmentType` | `I_AccountAssignmentType` | [0..1] |
 
 ## Source Code

@@ -33,12 +33,12 @@ tags:
 |---|---|
 | `MfgOrderInternalID` | `oper.OrderInternalBillOfOperations` |
 | `OrderOperationInternalID` | `oper.OrderIntBillOfOperationsItem` |
-| `pph_longtextlang preserving type)` | `cast(oper.Language` |
-| `co_aufnr preserving type)` | `cast(oper.ManufacturingOrder` |
+| `LongTextLanguage` | `cast(oper.Language as pph_longtextlang preserving type)` |
+| `ManufacturingOrder` | `cast(oper.ManufacturingOrder as co_aufnr preserving type)` |
 | `ManufacturingOrderSequence` | `oper.ManufacturingOrderSequence` |
 | `ManufacturingOrderOperation` | `oper.ManufacturingOrderOperation_2` |
-| `oper.MfgOrderOperationText` | `oper.MfgOrderOperationText` |
-| `text.OrderOperationLongText` | `text.OrderOperationLongText` |
+| `MfgOrderOperationText` | `oper.MfgOrderOperationText` |
+| `OrderOperationLongText` | `text.OrderOperationLongText` |
 | `_MfgOrder` | *Association* |
 | `_MfgOrderOperation` | *Association* |
 | `_LongTextLanguage` | *Association* |

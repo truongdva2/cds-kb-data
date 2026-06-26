@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdvdmmonthfrom )` | `cast( dd07l.domvalue_l` |
+| `REFrequencyStart` | `cast( dd07l.domvalue_l as recdvdmmonthfrom )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REFrequencyStartText` | [0..*] |
 
 ## Source Code
 

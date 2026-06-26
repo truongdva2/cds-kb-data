@@ -29,13 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcDocAppointmentType', element: 'SrvcDocAppointmentType' }` | `name: 'I_SrvcDocAppointmentType', element: 'SrvcDocAppointmentType' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
-| `key SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
+| `ServiceContract` | `ServiceContract` |
+| `SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
 | `SrvcDocApptStartDateTime` | `SrvcDocApptStartDateTime` |
 | `SrvcDocApptEndDateTime` | `SrvcDocApptEndDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractTP : redirected to parent I_ServiceContractTP` | *Association* |
 | `_SrvcDocAppointmentTypeText` | *Association* |
 
 ## Associations

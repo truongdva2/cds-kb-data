@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:LE-TRA
   - lob:Logistics Execution
+  - bo:Route
 ---
 # I_ROUTE
 
@@ -30,9 +31,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Route` | `route` |
-| `vdm_letra_duration preserving type )` | `cast(traztd` |
-| `vdm_letra_duration preserving type )` | `cast(tdvztd` |
-| `vdm_letra_leadtime preserving type )` | `cast(tdvznd` |
+| `TransitDurationInCalendarDays` | `cast(traztd as vdm_letra_duration preserving type )` |
+| `TranspLeadTimeInCalDays` | `cast(tdvztd as vdm_letra_duration preserving type )` |
+| `TranspLeadTimeInHrsMin` | `cast(tdvznd as vdm_letra_leadtime preserving type )` |
 | `RouteFactoryCalendar` | `spfbk` |
 | `_Text` | *Association* |
 

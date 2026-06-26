@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:CapacityInternalID
 ---
 # I_CAPACITYTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `CapacityInternalID` | `kakt.kapid` |
+| `Language` | `kakt.spras` |
 | `CapacityText` | `kakt.ktext` |
 | `_Language` | *Association* |
 

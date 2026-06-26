@@ -14,6 +14,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentCategory
 ---
 # I_PURCHASINGOBJECTCATEGORYTEXT
 
@@ -30,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ebstyp )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `mmpur_object_category_name preserving type )` | `cast( ddtext` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `PurchasingDocumentCategory` | `cast ( substring( domvalue_l, 1, 1 ) as ebstyp )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `PurchasingDocumentCategoryName` | `cast( ddtext as mmpur_object_category_name preserving type )` |
 | `_PurchasingObjectCategory` | *Association* |
 | `_Language` | *Association* |
 

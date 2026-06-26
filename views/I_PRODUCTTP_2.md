@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Product
 ---
 # I_PRODUCTTP_2
 
@@ -32,8 +33,112 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
-| `_ProductType_1 as _ProductType` | *Association* |
+| `Product` | `Product` |
+| `ProductType` | `ProductType` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `CreationDateTime` | `CreationDateTime` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `CrossPlantStatus` | `CrossPlantStatus` |
+| `CrossPlantStatusValidityDate` | `CrossPlantStatusValidityDate` |
+| `ProductOldID` | `ProductOldID` |
+| `GrossWeight` | `GrossWeight` |
+| `WeightUnit` | `WeightUnit` |
+| `ProductGroup` | `ProductGroup` |
+| `BaseUnit` | `BaseUnit` |
+| `ItemCategoryGroup` | `ItemCategoryGroup` |
+| `NetWeight` | `NetWeight` |
+| `Division` | `Division` |
+| `VolumeUnit` | `VolumeUnit` |
+| `ProductVolume` | `ProductVolume` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
+| `ANPCode` | `ANPCode` |
+| `SizeOrDimensionText` | `SizeOrDimensionText` |
+| `IndustryStandardName` | `IndustryStandardName` |
+| `ProductStandardID` | `ProductStandardID` |
+| `InternationalArticleNumberCat` | `InternationalArticleNumberCat` |
+| `ProductIsConfigurable` | `ProductIsConfigurable` |
+| `IsBatchManagementRequired` | `IsBatchManagementRequired` |
+| `ExternalProductGroup` | `ExternalProductGroup` |
+| `CrossPlantConfigurableProduct` | `CrossPlantConfigurableProduct` |
+| `SerialNoExplicitnessLevel` | `SerialNoExplicitnessLevel` |
+| `IsApprovedBatchRecordReqd` | `IsApprovedBatchRecordReqd` |
+| `HandlingIndicator` | `HandlingIndicator` |
+| `WarehouseProductGroup` | `WarehouseProductGroup` |
+| `WarehouseStorageCondition` | `WarehouseStorageCondition` |
+| `StandardHandlingUnitType` | `StandardHandlingUnitType` |
+| `SerialNumberProfile` | `SerialNumberProfile` |
+| `IsPilferable` | `IsPilferable` |
+| `IsRelevantForHzdsSubstances` | `IsRelevantForHzdsSubstances` |
+| `QuarantinePeriod` | `QuarantinePeriod` |
+| `TimeUnitForQuarantinePeriod` | `TimeUnitForQuarantinePeriod` |
+| `QualityInspectionGroup` | `QualityInspectionGroup` |
+| `HandlingUnitType` | `HandlingUnitType` |
+| `HasVariableTareWeight` | `HasVariableTareWeight` |
+| `MaximumPackagingLength` | `MaximumPackagingLength` |
+| `MaximumPackagingWidth` | `MaximumPackagingWidth` |
+| `MaximumPackagingHeight` | `MaximumPackagingHeight` |
+| `MaximumCapacity` | `MaximumCapacity` |
+| `OvercapacityTolerance` | `OvercapacityTolerance` |
+| `UnitForMaxPackagingDimensions` | `UnitForMaxPackagingDimensions` |
+| `BaseUnitSpecificProductLength` | `BaseUnitSpecificProductLength` |
+| `BaseUnitSpecificProductWidth` | `BaseUnitSpecificProductWidth` |
+| `BaseUnitSpecificProductHeight` | `BaseUnitSpecificProductHeight` |
+| `ProductMeasurementUnit` | `ProductMeasurementUnit` |
+| `ArticleCategory` | `ArticleCategory` |
+| `IndustrySector` | `IndustrySector` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `LastChangeTime` | `LastChangeTime` |
+| `DangerousGoodsIndProfile` | `DangerousGoodsIndProfile` |
+| `ProductDocumentChangeNumber` | `ProductDocumentChangeNumber` |
+| `ProductDocumentPageCount` | `ProductDocumentPageCount` |
+| `ProductDocumentPageNumber` | `ProductDocumentPageNumber` |
+| `DocumentIsCreatedByCAD` | `DocumentIsCreatedByCAD` |
+| `ProductionOrInspectionMemoTxt` | `ProductionOrInspectionMemoTxt` |
+| `ProductionMemoPageFormat` | `ProductionMemoPageFormat` |
+| `ProductIsHighlyViscous` | `ProductIsHighlyViscous` |
+| `TransportIsInBulk` | `TransportIsInBulk` |
+| `ProdEffctyParamValsAreAssigned` | `ProdEffctyParamValsAreAssigned` |
+| `ProdIsEnvironmentallyRelevant` | `ProdIsEnvironmentallyRelevant` |
+| `LaboratoryOrDesignOffice` | `LaboratoryOrDesignOffice` |
+| `PackagingProductGroup` | `PackagingProductGroup` |
+| `PackingReferenceProduct` | `PackingReferenceProduct` |
+| `BasicProduct` | `BasicProduct` |
+| `ProductDocumentNumber` | `ProductDocumentNumber` |
+| `ProductDocumentVersion` | `ProductDocumentVersion` |
+| `ProductDocumentType` | `ProductDocumentType` |
+| `ProductDocumentPageFormat` | `ProductDocumentPageFormat` |
+| `ProdChmlCmplncRelevanceCode` | `ProdChmlCmplncRelevanceCode` |
+| `DiscountInKindEligibility` | `DiscountInKindEligibility` |
+| `ProdCompetitorCustomerNumber` | `ProdCompetitorCustomerNumber` |
+| `ProductHierarchy` | `ProductHierarchy` |
+| `ProdAllocDetnProcedure` | `ProdAllocDetnProcedure` |
+| `CountryOfOrigin` | `CountryOfOrigin` |
+| `RetailArticleBrand` | `RetailArticleBrand` |
+| `ProductValidStartDate` | `ProductValidStartDate` |
+| `ContentUnit` | `ContentUnit` |
+| `ProductNetContentQuantity` | `ProductNetContentQuantity` |
+| `ProductGrossContentQuantity` | `ProductGrossContentQuantity` |
+| `ProductValidEndDate` | `ProductValidEndDate` |
+| `AssortmentListType` | `AssortmentListType` |
+| `TextilePartsIsWithAnimalOrigin` | `TextilePartsIsWithAnimalOrigin` |
+| `ProductSeasonUsageCategory` | `ProductSeasonUsageCategory` |
+| `BillOfMaterialIsForEmpties` | `BillOfMaterialIsForEmpties` |
+| `ServiceAgreement` | `ServiceAgreement` |
+| `ConsumptionValueCategory` | `ConsumptionValueCategory` |
+| `GoodsIssueUnit` | `GoodsIssueUnit` |
+| `RegionOfOrigin` | `RegionOfOrigin` |
+| `ValuationClass` | `ValuationClass` |
+| `SalesUnit` | `SalesUnit` |
+| `ProductManufacturerNumber` | `ProductManufacturerNumber` |
+| `ManufacturerNumber` | `ManufacturerNumber` |
+| `ManufacturerPartProfile` | `ManufacturerPartProfile` |
+| `OwnInventoryManagedProduct` | `OwnInventoryManagedProduct` |
+| `_ProductGroup_2` | *Association* |
+| `_ProductType` | *Association* |
 | `_CountryOfOrigin` | *Association* |
 | `_ValuationClass` | *Association* |
 | `_Brand` | *Association* |

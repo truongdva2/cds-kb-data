@@ -32,13 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key VarCnfConstraintName` | `VarCnfConstraintName` |
-| `key LanguageCode` | `LanguageCode` |
-| `/* Associations */` | `/* Associations */` |
-| `_Constraint     : redirected to parent I_VarCnfConstraintTP` | *Association* |
-| `_ConstraintNet  : redirected to I_VarCnfConstraintNetTP` | *Association* |
-| `_HistoricalText : redirected to composition child I_VarCnfHistlCstrtTextTP` | *Association* |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintName` | `VarCnfConstraintName` |
+| `LanguageCode` | `LanguageCode` |
 
 ## Associations
 

@@ -32,36 +32,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _EDCRelation.EDCType` | `_EDCRelation.EDCType` |
-| `key _EDCRelation.CompanyCode` | `_EDCRelation.CompanyCode` |
-| `key _EDCRelation.EDCCommonKey` | `_EDCRelation.EDCCommonKey` |
-| `_EDCRelation.AccountingDocument` | *Association* |
-| `_EDCRelation.FiscalYear` | *Association* |
-| `_EDCRelation.EDCRecordUUID` | *Association* |
-| `_EDCRelation.EDCCreatedOnDateTime` | *Association* |
-| `_EDCRelation.EDCRepresentationType` | *Association* |
-| `_EDCRelation.EDCRepresentationKey` | *Association* |
-| `_JournalEntry.AccountingDocumentType` | *Association* |
-| `_JournalEntry.DocumentDate` | *Association* |
-| `_JournalEntry.PostingDate` | *Association* |
-| `_JournalEntry.AccountingDocumentCreationDate` | *Association* |
-| `_JournalEntry.TransactionCode` | *Association* |
-| `_JournalEntry.IntercompanyTransaction` | *Association* |
-| `_JournalEntry.DocumentReferenceID` | *Association* |
-| `_JournalEntry.TransactionCurrency` | *Association* |
-| `_JournalEntry.AccountingDocumentCategory` | *Association* |
-| `_JournalEntry.BusinessTransactionType` | *Association* |
-| `_JournalEntry.Branch` | *Association* |
-| `_JournalEntry.IsDiscountDocument` | *Association* |
-| `_JournalEntry.TaxReportingDate` | *Association* |
-| `_JournalEntry.TaxFulfillmentDate` | *Association* |
-| `_JournalEntry.AccountingDocumentClass` | *Association* |
-| `_JournalEntry.IsReversal` | *Association* |
-| `_JournalEntry.IsReversed` | *Association* |
-| `_JournalEntry.TaxCountry` | *Association* |
-| `_JournalEntry.WithholdingTaxReportingDate` | *Association* |
-| `_JournalEntry._AccountingDocumentCategory` | *Association* |
-| `_JournalEntry._AccountingDocumentType` | *Association* |
+| `EDCType` | `_EDCRelation.EDCType` |
+| `CompanyCode` | `_EDCRelation.CompanyCode` |
+| `EDCCommonKey` | `_EDCRelation.EDCCommonKey` |
+| `AccountingDocument` | `_EDCRelation.AccountingDocument` |
+| `FiscalYear` | `_EDCRelation.FiscalYear` |
+| `EDCRecordUUID` | `_EDCRelation.EDCRecordUUID` |
+| `EDCCreatedOnDateTime` | `_EDCRelation.EDCCreatedOnDateTime` |
+| `EDCRepresentationType` | `_EDCRelation.EDCRepresentationType` |
+| `EDCRepresentationKey` | `_EDCRelation.EDCRepresentationKey` |
+| `AccountingDocumentType` | `_JournalEntry.AccountingDocumentType` |
+| `DocumentDate` | `_JournalEntry.DocumentDate` |
+| `PostingDate` | `_JournalEntry.PostingDate` |
+| `AccountingDocumentCreationDate` | `_JournalEntry.AccountingDocumentCreationDate` |
+| `TransactionCode` | `_JournalEntry.TransactionCode` |
+| `IntercompanyTransaction` | `_JournalEntry.IntercompanyTransaction` |
+| `DocumentReferenceID` | `_JournalEntry.DocumentReferenceID` |
+| `TransactionCurrency` | `_JournalEntry.TransactionCurrency` |
+| `AccountingDocumentCategory` | `_JournalEntry.AccountingDocumentCategory` |
+| `BusinessTransactionType` | `_JournalEntry.BusinessTransactionType` |
+| `Branch` | `_JournalEntry.Branch` |
+| `IsDiscountDocument` | `_JournalEntry.IsDiscountDocument` |
+| `TaxReportingDate` | `_JournalEntry.TaxReportingDate` |
+| `TaxFulfillmentDate` | `_JournalEntry.TaxFulfillmentDate` |
+| `AccountingDocumentClass` | `_JournalEntry.AccountingDocumentClass` |
+| `IsReversal` | `_JournalEntry.IsReversal` |
+| `IsReversed` | `_JournalEntry.IsReversed` |
+| `TaxCountry` | `_JournalEntry.TaxCountry` |
+| `WithholdingTaxReportingDate` | `_JournalEntry.WithholdingTaxReportingDate` |
+| `_AccountingDocumentCategory` | *Association* |
+| `_AccountingDocumentType` | *Association* |
 
 ## Associations
 

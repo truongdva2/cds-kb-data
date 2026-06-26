@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SDDocument` | `SDDocument` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `SDDocument` | `SDDocument` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |

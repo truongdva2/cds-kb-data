@@ -30,7 +30,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH', element: 'Currency' }, useAsTemplate: true } ]` | `name: 'I_CurrencyStdVH', element: 'Currency' }, useAsTemplate: true } ]` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
+| `OrderID` | `OrderID` |
+| `OrderItem` | `OrderItem` |
+| `OrderType` | `OrderType` |
+| `OrderCategory` | `OrderCategory` |
+| `ResultAnalysisInternalID` | `ResultAnalysisInternalID` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccount` | `GLAccount` |
+| `Plant` | `Plant` |
+| `ProducedProduct` | `ProducedProduct` |
+| `OriginProduct` | `OriginProduct` |
+| `OriginCostCenter` | `OriginCostCenter` |
+| `OriginCostCtrActivityType` | `OriginCostCtrActivityType` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `WBSElementInternalID` | `cast(WBSElementInternalID as fco_ebpr_wbs_element_int_id preserving type )` |
+| `ControllingArea` | `_Order.ControllingArea` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `OrderDescription` | `_Order.OrderDescription` |
+| `PlantName` | `_Plant.PlantName` |
+| `SalesOrderItemText` | `_SalesOrderItem.SalesOrderItemText` |
+| `WBSDescription` | `_WBSElement.WBSDescription` |
 | `DisplayCurrency` | `DisplayCurrency` |
 | `InptPrVarcAmtInDspCrcy` | `InptPrVarcAmtInDspCrcy` |
 | `InptQtyVarcAmtInDspCrcy` | `InptQtyVarcAmtInDspCrcy` |

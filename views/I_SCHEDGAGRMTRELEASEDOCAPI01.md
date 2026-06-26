@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key SchedulingAgreementReleaseType` | `SchedulingAgreementReleaseType` |
-| `key ReleaseCode` | `ReleaseCode` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `SchedulingAgreementReleaseType` | `SchedulingAgreementReleaseType` |
+| `ReleaseCode` | `ReleaseCode` |
 | `SchedulingAgreementRelease` | `SchedulingAgreementRelease` |
 | `SchedgAgreementItemRelText` | `SchedgAgreementItemRelText` |
 | `SchedgAgreementItemRelStatus` | `SchedgAgreementItemRelStatus` |
@@ -52,7 +52,6 @@ tags:
 | `IsSchedgAgreementItemReld` | `IsSchedgAgreementItemReld` |
 | `InboundDeliveryNote` | `InboundDeliveryNote` |
 | `SchedgAgrmtCumltvRcvdQty` | `SchedgAgrmtCumltvRcvdQty` |
-| `/* Associations */` | `/* Associations */` |
 | `_SchedgAgrmtHdrAPI01` | *Association* |
 | `_SchedgAgrmtItmAPI01` | *Association* |
 | `_SchedgAgrmtRelDocScLiAPI01` | *Association* |

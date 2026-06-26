@@ -14,6 +14,7 @@ tags:
   - document
   - component:SD-CRF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentCategory
 ---
 # I_SDDOCUMENTCATEGORY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vbtypl preserving type)` | `cast(substring(dd07l.domvalue_l, 1, 4)` |
+| `SDDocumentCategory` | `cast(substring(dd07l.domvalue_l, 1, 4) as vbtypl preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

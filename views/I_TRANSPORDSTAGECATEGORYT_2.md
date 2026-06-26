@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStageCategory
 ---
 # I_TRANSPORDSTAGECATEGORYT_2
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_stage_category preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdStageCategory` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_stage_category preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_stage_cat_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdStageCategoryDesc` | `cast(ddtext as /scmtms/vdm_stage_cat_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdStageCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdStageCategory` | `I_TranspOrdStageCategory_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

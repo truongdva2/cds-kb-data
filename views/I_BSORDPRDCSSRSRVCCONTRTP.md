@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusSolnOrdPrdcssrSrvcContr` | `BusSolnOrdPrdcssrSrvcContr` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusSolnOrdPrdcssrSrvcContr` | `BusSolnOrdPrdcssrSrvcContr` |
 
 ## Associations
 

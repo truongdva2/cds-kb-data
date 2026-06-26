@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:DependentRequirementsType
 ---
 # I_DEPENDENTRQMTSTYPETEXT
 
@@ -31,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `DependentRequirementsType` | `cast(substring( domvalue_l, 1, 1) as vdm_sbdkz preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
 | `DependentRequirementsTypeName` | `t.ddtext` |
 | `_DependentRequirementsType` | *Association* |
 | `_Language` | *Association* |
@@ -40,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DependentRequirementsType` | `I_DependentRequirementsType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

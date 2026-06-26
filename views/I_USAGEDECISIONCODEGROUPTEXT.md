@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qktextgr preserving type )` | `cast( kurztext` |
+| `UsageDecisionCodeGroup` | `qpgt.codegruppe` |
+| `Language` | `sprache` |
+| `UsageDecisionCodeGroupText` | `cast( kurztext as vdm_qktextgr preserving type )` |
 | `_UsageDecisionCodeGroup` | *Association* |
 
 ## Associations

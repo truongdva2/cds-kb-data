@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSExemptionReason
 ---
 # I_BR_ICMSEXEMPTIONREASONTEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_icmsexemptionreason preserving type )` | `cast( substring(domvalue_l, 1, 2)` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_ICMSExemptionReason` | `cast( substring(domvalue_l, 1, 2) as logbr_icmsexemptionreason preserving type )` |
 | `BR_ICMSExemptionReasonDesc` | `ddtext` |
 | `_BR_ICMSExemptionReason` | *Association* |
 | `_Language` | *Association* |

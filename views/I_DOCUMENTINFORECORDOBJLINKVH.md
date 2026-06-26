@@ -15,6 +15,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:LinkedSAPObject
 ---
 # I_DOCUMENTINFORECORDOBJLINKVH
 
@@ -31,7 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `v9O0` | `v9O0` |
+| `DocumentInfoRecordDocType` | `ObjLink.dokar` |
+| `LinkedSAPObject` | `ObjLink.dokob` |
+| `ObjectTypeDatabaseTable` | `ObjLink.vobj` |
+| `_DocType` | *Association* |
+| `_Text` | *Association* |
 | `_DocTypeText` | *Association* |
 
 ## Associations

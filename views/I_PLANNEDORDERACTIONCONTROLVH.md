@@ -15,6 +15,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderActionControl
 ---
 # I_PLANNEDORDERACTIONCONTROLVH
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_mdacn preserving type)` | `cast(accto` |
+| `PlannedOrderActionControl` | `mdach` |
+| `PlannedOrderProcgAction` | `cast(accfm as vdm_mdacc preserving type)` |
+| `PlannedOrderProcgFllwUpAction` | `cast(accto as vdm_mdacn preserving type)` |
 | `_PlannedOrderActionControl` | *Association* |
 | `_PlannedOrderProcgAction` | *Association* |
 | `_PlannedOrderProcgFllwUpAction` | *Association* |

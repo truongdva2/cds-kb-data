@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:RE-FX-2CL
   - lob:Other
+  - bo:REAutomaticRenewalType
 ---
 # I_REAUTOMATICRENEWALTYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `retmrnauttype )` | `cast( dd07l.domvalue_l` |
+| `REAutomaticRenewalType` | `cast( dd07l.domvalue_l as retmrnauttype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REAutomaticRenewalTypeText` | [0..*] |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceStrategy
 ---
 # I_MAINTENANCESTRATEGY
 
@@ -30,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `MaintenanceStrategy` | `t351.strat` |
 | `MaintenanceTaskPerformanceUnit` | `t351.zeieh` |
 | `MaintenanceStrategyActyUnit` | `t351.leieh` |
 | `MaintenanceStrategyCycTotDurn` | `t351.zyk1g` |
-| `MaintenanceStrategyCycDurn, // same` | `t351.zyk2g` |
+| `MaintenanceStrategyCycDurn` | `t351.zyk2g` |
 | `MaintPackageMinimumStepValue` | `t351.zyk1k` |
 | `PerfBasedMaintPckgMinStepValue` | `t351.zyk2k` |
 | `NumberOfMaintenancePackages` | `t351.anzp1` |
@@ -46,7 +46,7 @@ tags:
 | `EarlyCompletionShiftInPercent` | `t351.vers2` |
 | `MaintStrategySchedulingCode` | `t351.termk` |
 | `MaintenanceCallHorizonPercent` | `t351.horiz` |
-| `eam_cc_callhorizon_calc_type preserving type)` | `cast(t351.horiz_qualifier` |
+| `MaintenanceCallHorizonCalcType` | `cast(t351.horiz_qualifier as eam_cc_callhorizon_calc_type preserving type)` |
 | `FactoryCalendar` | `t351.fabkl` |
 | `AuthorizationGroup` | `t351.authgr` |
 | `_MaintenanceStrategyText` | *Association* |

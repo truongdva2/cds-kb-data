@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:OvrlItmGeneralIncompletionSts
 ---
 # I_OVRLITMGENINCOMPLETIONSTST
 
@@ -32,13 +33,16 @@ tags:
 |---|---|
 | `OvrlItmGeneralIncompletionSts` | `statu` |
 | `Language` | `spras` |
-| `ovrlitmgenincompletionstsdesc )` | `cast(bezei` |
+| `OvrlItmGenIncompletionStsDesc` | `cast(bezei as ovrlitmgenincompletionstsdesc )` |
 | `_OvrlItmGeneralIncompletionSts` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OvrlItmGeneralIncompletionSts` | `I_OvrlItmGenIncompletionSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

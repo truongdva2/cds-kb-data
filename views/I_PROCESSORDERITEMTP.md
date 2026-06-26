@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderItem
 ---
 # I_PROCESSORDERITEMTP
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcessOrder` | `ProcessOrder` |
-| `key ProcessOrderItem` | `ProcessOrderItem` |
+| `ProcessOrder` | `ProcessOrder` |
+| `ProcessOrderItem` | `ProcessOrderItem` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProcessOrderType` | `ProcessOrderType` |
 | `OrderIsReleased` | `OrderIsReleased` |
@@ -112,10 +113,7 @@ tags:
 | `BillOfMaterialItemCategory` | `BillOfMaterialItemCategory` |
 | `ProcessOrderOperation` | `ProcessOrderOperation` |
 | `Plant` | `Plant` |
-| `_Order : redirected to parent I_ProcessOrderTP` | *Association* |
 | `_CoProductReservationItem` | *Association* |
-| `_SerialNumber : redirected to composition child I_ProcOrderItemSerialNumberTP` | *Association* |
-| `_PostingRule  : redirected to I_EventBasedOrderPostingRuleTP` | *Association* |
 
 ## Associations
 

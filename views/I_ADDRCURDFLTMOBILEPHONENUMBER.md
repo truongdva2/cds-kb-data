@@ -15,6 +15,7 @@ tags:
   - phone
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressID
 ---
 # I_ADDRCURDFLTMOBILEPHONENUMBER
 
@@ -31,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
 | `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `PhoneNumberCountry` | `PhoneNumberCountry` |
 | `PhoneAreaCodeSubscriberNumber` | `PhoneAreaCodeSubscriberNumber` |
-| `ad_curdfltmobilephonenmbr preserving type )` | `cast( InternationalPhoneNumber` |
+| `InternationalMobileNumber` | `cast( InternationalPhoneNumber as ad_curdfltmobilephonenmbr preserving type )` |
 | `InternationalPhoneNumber` | `InternationalPhoneNumber` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |

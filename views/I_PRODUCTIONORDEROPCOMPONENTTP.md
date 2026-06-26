@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Reservation` | `Reservation` |
-| `key ReservationItem` | `ReservationItem` |
-| `key ReservationRecordType` | `ReservationRecordType` |
+| `Reservation` | `Reservation` |
+| `ReservationItem` | `ReservationItem` |
+| `ReservationRecordType` | `ReservationRecordType` |
 | `MaterialGroup` | `MaterialGroup` |
 | `Material` | `Material` |
 | `Plant` | `Plant` |
@@ -157,9 +157,8 @@ tags:
 | `GoodsMovementEntryQty` | `GoodsMovementEntryQty` |
 | `Currency` | `Currency` |
 | `WithdrawnQuantityAmount` | `WithdrawnQuantityAmount` |
-| `_ProductionOrder : redirected to parent I_ProductionOrderTP` | *Association* |
-| `_Supplier,              // for DCLS` | *Association* |
-| `_SupplierCompanyByPlant // for DCLS` | *Association* |
+| `_Supplier` | *Association* |
+| `_SupplierCompanyByPlant` | *Association* |
 
 ## Associations
 

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qinteg_state preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `QltyMgmtIntegScenState` | `cast(substring(domvalue_l, 1, 1) as qinteg_state preserving type)` |
 | `Language` | `ddlanguage` |
-| `qinteg_state_text preserving type )` | `cast( dd07t.ddtext` |
+| `DefectArchivingStatusText` | `cast( dd07t.ddtext as qinteg_state_text preserving type )` |
 | `_Language` | *Association* |
 | `_QltyMgmtIntegScenState` | *Association* |
 

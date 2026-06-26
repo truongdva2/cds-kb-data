@@ -14,6 +14,7 @@ tags:
   - standard-value-help
   - component:PSM
   - lob:Other
+  - bo:FinMgmtAreaFiscalYear
 ---
 # I_FSCLYRFORFINMGMTAREASTDVH
 
@@ -30,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FinMgmtAreaStdVH'` | `name:    'I_FinMgmtAreaStdVH'` |
-| `element: 'FinancialManagementArea' } }]` | `element: 'FinancialManagementArea' } }]` |
-| `key FinancialManagementArea` | `FinancialManagementArea` |
-| `key FinMgmtAreaFiscalYear` | `FinMgmtAreaFiscalYear` |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `FinMgmtAreaFiscalYear` | `FinMgmtAreaFiscalYear` |
 | `FinMgmtAreaFiscalYearVariant` | `FinMgmtAreaFiscalYearVariant` |
 | `FinMgmtAreaFiscalYearStartDate` | `FinMgmtAreaFiscalYearStartDate` |
 | `FinMgmtAreaFiscalYearEndDate` | `FinMgmtAreaFiscalYearEndDate` |

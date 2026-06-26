@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `BusinessSolutionOrderUUID` | `BusinessSolutionOrderUUID` |
 | `ServiceDocumentType` | `ServiceDocumentType` |
@@ -136,14 +136,14 @@ tags:
 | `SettlementPeriodRuleUUID` | `SettlementPeriodRuleUUID` |
 | `SrvcDocItmPartReferenceItem` | `SrvcDocItmPartReferenceItem` |
 | `BillingPlanBillingDateRuleUUID` | `BillingPlanBillingDateRuleUUID` |
-| `vkbuk preserving type )` | `cast( _SalesOrganization.CompanyCode` |
-| `_PrecedingContractItem._ServiceDocItm.ServiceDocument           as ReferenceServiceContract` | *Association* |
-| `_PrecedingContractItem._ServiceDocItm.ServiceDocumentItem       as ReferenceServiceContractItem` | *Association* |
-| `_ExtRefHeader.CustMgmtExtRefID                                  as BusSolnOrdExtReference` | *Association* |
-| `_ExtRefItem.CustMgmtExtRefID                                    as BusSolnOrdItmExtReference` | *Association* |
-| `_BillPlanDateRule.CustMgmtDateRuleName                          as SrvcMgmtBillgPlanBillgDateRule` | *Association* |
-| `_SettlementDateRule.CustMgmtDateRuleName                        as SettlementPeriodRule` | *Association* |
-| `_EntProjBusSolutionOrderLink.ProjectUUID` | *Association* |
+| `CompanyCode` | `cast( _SalesOrganization.CompanyCode as vkbuk preserving type )` |
+| `ReferenceServiceContract` | `_PrecedingContractItem._ServiceDocItm.ServiceDocument` |
+| `ReferenceServiceContractItem` | `_PrecedingContractItem._ServiceDocItm.ServiceDocumentItem` |
+| `BusSolnOrdExtReference` | `_ExtRefHeader.CustMgmtExtRefID` |
+| `BusSolnOrdItmExtReference` | `_ExtRefItem.CustMgmtExtRefID` |
+| `SrvcMgmtBillgPlanBillgDateRule` | `_BillPlanDateRule.CustMgmtDateRuleName` |
+| `SettlementPeriodRule` | `_SettlementDateRule.CustMgmtDateRuleName` |
+| `ProjectUUID` | `_EntProjBusSolutionOrderLink.ProjectUUID` |
 | `_BillableControl` | *Association* |
 | `_BillingBlockReason` | *Association* |
 | `_BillToParty` | *Association* |
@@ -197,7 +197,7 @@ tags:
 | `_BusSolnOrdItemPriceElement` | *Association* |
 | `_BusinessSolutionOrder` | *Association* |
 | `_CustMgmtPartner` | *Association* |
-| `_EntProjBusSolutionOrderLink._EnterpriseProject` | *Association* |
+| `_EnterpriseProject` | *Association* |
 | `_BusSolutionOrderItemLongText` | *Association* |
 | `_SolutionOrdItemRefObj` | *Association* |
 

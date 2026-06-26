@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-HUB-FND-2CL
   - lob:Sourcing & Procurement
+  - bo:ProcmtHubPurchasingOrg
 ---
 # I_PROCMTHUBPURGORGAPI01
 
@@ -34,7 +35,7 @@ tags:
 | `ProcmtHubPurchasingOrg` | `be_purchorg` |
 | `ProcmtHubPurgOrgUniqueID` | `be_purchorg_unique_id` |
 | `ProcmtHubPurgOrgName` | `be_purchorg_name` |
-| `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName as ProcurementHubSourceSystemName` | *Association* |
+| `ProcurementHubSourceSystemName` | `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName` |
 | `_ProcmtHubBackendSourceSystem` | *Association* |
 
 ## Associations

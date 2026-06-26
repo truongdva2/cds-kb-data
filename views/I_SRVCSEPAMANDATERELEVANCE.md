@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crm_sepa_on )` | `cast(domvalue_l` |
+| `SrvcSEPAMandateRelevance` | `cast(domvalue_l as crm_sepa_on )` |
 | `_Text` | *Association* |
 
 ## Associations

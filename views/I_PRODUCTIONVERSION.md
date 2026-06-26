@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionVersion
 ---
 # I_PRODUCTIONVERSION
 
@@ -31,23 +32,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductionLineStdVH', element: 'ProductionLine' } } ]` | `name: 'I_ProductionLineStdVH', element: 'ProductionLine' } } ]` |
+| `Material` | `mkal.matnr` |
+| `Plant` | `mkal.werks` |
+| `ProductionVersion` | `mkal.verid` |
+| `ProductionVersionText` | `mkal.text1` |
+| `ChangeHistoryCount` | `mkal_aend.ChangeHistoryCount` |
+| `ChangeNumber` | `mkal_aend.ChangeNumber` |
+| `CreationDate` | `mkal_aend.CreationDate` |
+| `CreatedByUser` | `mkal_aend.CreatedByUser` |
+| `LastChangeDate` | `mkal_aend.LastChangeDate` |
+| `LastChangedByUser` | `mkal_aend.LastChangedByUser` |
+| `BillOfOperationsType` | `cast(mkal.plnty as billofoperationstype preserving type)` |
+| `BillOfOperationsGroup` | `cast(mkal.plnnr as billofoperationsgroup preserving type)` |
+| `BillOfOperationsVariant` | `cast(mkal.alnal as billofoperationsvariant preserving type)` |
+| `BillOfMaterialVariantUsage` | `mkal.stlan` |
+| `BillOfMaterialVariant` | `mkal.stlal` |
 | `ProductionLine` | `mkal.mdv01` |
-| `pph_prvbe  preserving type)` | `cast(mkal.prvbe` |
-| `pph_mdv   preserving type)` | `cast(mkal.mdv02` |
-| `pph_matko  preserving type)` | `cast(mkal.matko` |
+| `ProductionSupplyArea` | `cast(mkal.prvbe as pph_prvbe preserving type)` |
+| `ProductionVersionGroup` | `cast(mkal.mdv02 as pph_mdv preserving type)` |
+| `MainProduct` | `cast(mkal.matko as pph_matko preserving type)` |
 | `MaterialCostApportionmentStruc` | `mkal.csplt` |
 | `IssuingStorageLocation` | `mkal.elpro` |
 | `ReceivingStorageLocation` | `mkal.alort` |
-| `pph_rfmat  preserving type)` | `cast(mkal.ucmat` |
+| `OriginalBatchReferenceMaterial` | `cast(mkal.ucmat as pph_rfmat preserving type)` |
 | `QuantityDistributionKey` | `mkal.verto` |
 | `ProductionVersionStatus` | `mkal.prfg_f` |
-| `pph_mkprdat preserving type)` | `cast(mkal.prdat` |
-| `pph_prfgr  preserving type)` | `cast(mkal.prfg_r` |
-| `pph_prfgg  preserving type)` | `cast(mkal.prfg_g` |
-| `pph_prfgs  preserving type)` | `cast(mkal.prfg_s` |
-| `vdm_v_validity_start_date preserving type)` | `cast(mkal.adatu` |
-| `vdm_v_validity_end_date preserving type)` | `cast(mkal.bdatu` |
+| `ProductionVersionLastCheckDate` | `cast(mkal.prdat as pph_mkprdat preserving type)` |
+| `RateBasedPlanningStatus` | `cast(mkal.prfg_r as pph_prfgr preserving type)` |
+| `PreliminaryPlanningStatus` | `cast(mkal.prfg_g as pph_prfgg preserving type)` |
+| `BOMCheckStatus` | `cast(mkal.prfg_s as pph_prfgs preserving type)` |
+| `ValidityStartDate` | `cast(mkal.adatu as vdm_v_validity_start_date preserving type)` |
+| `ValidityEndDate` | `cast(mkal.bdatu as vdm_v_validity_end_date preserving type)` |
 | `ProductionVersionIsLocked` | `mkal.mksp` |
 | `ProdnVersIsAllowedForRptvMfg` | `mkal.serkz` |
 | `HasVersionCtrldBOMAndRouting` | `mkal.versind` |
@@ -62,12 +77,12 @@ tags:
 | `ProcurementType` | `mkal.beskz` |
 | `MaterialProcurementProfile` | `mkal.sobsl` |
 | `UsgeProbltyWthVersCtrlInPct` | `mkal.ewahr` |
-| `_Product.BaseUnit                                             as MaterialBaseUnit` | *Association* |
+| `MaterialBaseUnit` | `_Product.BaseUnit` |
 | `MaterialMinLotSizeQuantity` | `mkal.bstmi` |
 | `MaterialMaxLotSizeQuantity` | `mkal.bstma` |
 | `CostingLotSize` | `mkal.losgr` |
 | `DistributionKey` | `mkal.verto` |
-| `pph_prvbe  preserving type)` | `cast(mkal.tsa_prvbe` |
+| `TargetProductionSupplyArea` | `cast(mkal.tsa_prvbe as pph_prvbe preserving type)` |
 | `_Material` | *Association* |
 | `_MaterialText` | *Association* |
 | `_Product` | *Association* |
@@ -88,7 +103,7 @@ tags:
 | `_QuantityDistributionKey` | *Association* |
 | `_MaterialBaseUnit` | *Association* |
 | `_MatlProcurementProfile` | *Association* |
-| `mkal_aend._ChangeMaster` | `mkal_aend._ChangeMaster` |
+| `_ChangeMaster` | *Association* |
 
 ## Associations
 

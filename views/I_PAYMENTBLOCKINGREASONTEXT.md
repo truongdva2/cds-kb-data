@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-AR-IS-2CL
   - lob:Finance
+  - bo:PaymentBlockingReason
 ---
 # I_PAYMENTBLOCKINGREASONTEXT
 
@@ -34,8 +35,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `farp_dzlspr)` | `cast (zahls` |
-| `farp_payment_block_reason_name )` | `cast (textl` |
+| `PaymentBlockingReason` | `cast (zahls as farp_dzlspr)` |
+| `PaymentBlockingReasonName` | `cast (textl as farp_payment_block_reason_name )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:ConfigurableCodesCatalog
 ---
 # I_CONFIGURABLECODESCATALOG
 
@@ -30,8 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ConfigurableCodesCatalog` | `tq15.katalogart` |
-| `vdm_qhistkat preserving type )` | `cast( tq15.hist` |
-| `/* Associations */` | `/* Associations */` |
+| `ConfigblCodesCtlgHasLgclDeltn` | `cast( tq15.hist as vdm_qhistkat preserving type )` |
 | `_ConfigblCodesCatalogText` | *Association* |
 | `_ConfigurableCodesCodeGroup` | *Association* |
 

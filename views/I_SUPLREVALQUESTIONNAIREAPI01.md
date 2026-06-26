@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SLCQnaireUUID` | `SLCQnaireUUID` |
+| `SLCQnaireUUID` | `SLCQnaireUUID` |
 | `SLCQnaire` | `SLCQnaire` |
 | `Language` | `Language` |
 | `SLCQnaireName` | `SLCQnaireName` |
-| `/srmsmc/created_by )` | `cast(CreatedByUser` |
-| `/srmsmc/last_changed_by )` | `cast(LastChangedByUser` |
+| `CreatedByUser` | `cast(CreatedByUser as /srmsmc/created_by )` |
+| `LastChangedByUser` | `cast(LastChangedByUser as /srmsmc/last_changed_by )` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `SLCQnaireLifecycleStatus` | `SLCQnaireLifecycleStatus` |

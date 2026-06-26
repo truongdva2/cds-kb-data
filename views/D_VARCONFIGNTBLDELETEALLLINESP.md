@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ChangeNumber : aennr;` | `ChangeNumber : aennr;` |
+| `ChangeNumber` | `aennr` |
 
 ## Associations
 

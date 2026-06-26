@@ -15,6 +15,7 @@ tags:
   - serial-number
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseTaskSerialNumber
 ---
 # I_EWM_WHSETASKSERIALNUMBER
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMWarehouse` | `EWMWarehouse` |
-| `/scwm/tanum_noconv preserving type )` | `cast( WarehouseTask` |
-| `/scwm/tapos_noconv preserving type )` | `cast( WarehouseTaskItem` |
-| `char30 preserving type )` | `cast( EWMSerialNumber` |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `WarehouseTask` | `cast( WarehouseTask as /scwm/tanum_noconv preserving type )` |
+| `WarehouseTaskItem` | `cast( '0000' as /scwm/tapos_noconv preserving type )` |
+| `EWMSerialNumber` | `cast( EWMSerialNumber as char30 preserving type )` |
 
 ## Associations
 

@@ -32,14 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     MaintenanceOrder` | `MaintenanceOrder` |
-| `key     MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key     MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
-| `key     TextObjectType` | `TextObjectType` |
-| `key     Language` | `Language` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `OrderOperationLongText` | `OrderOperationLongText` |
-| `_MaintenanceOrder          : redirected to I_MaintenanceOrderTP` | *Association* |
-| `_MaintenanceOrderOperation : redirected to parent I_MaintenanceOrderOperationTP` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-FI
   - lob:Finance
+  - bo:BOPTriangularDealRelevancy
 ---
 # I_BOPTRIANGULARDEALRELEVANCYT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `boptriangulardealrelevancy )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `glo_bop_tri_deal_rel_name )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `BOPTriangularDealRelevancy` | `cast ( substring( domvalue_l, 1, 1 ) as boptriangulardealrelevancy )` |
+| `BOPTriangularDealRelevancyName` | `cast ( ddtext as glo_bop_tri_deal_rel_name )` |
 | `_BOPTriangularDealRelevancy` | *Association* |
 | `_Language` | *Association* |
 

@@ -15,6 +15,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFPartnerType
 ---
 # I_BR_NFPARTNERTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nfpartnertype  )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFPartnerType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_nfpartnertype )` |
 | `_Text` | *Association* |
 
 ## Associations

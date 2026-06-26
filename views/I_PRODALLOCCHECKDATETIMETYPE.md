@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocCheckDateTimeType
 ---
 # I_PRODALLOCCHECKDATETIMETYPE
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccheckdatetimetype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `, _Text` | `, _Text` |
+| `ProdAllocCheckDateTimeType` | `cast(…)` |
+| `_Text` | *Association* |
 
 ## Associations
 

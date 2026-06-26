@@ -34,14 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
 | `PlanningMaterial` | `PlanningMaterial` |
 | `PlanningPlant` | `PlanningPlant` |
 | `ProdPlntPlngMatlConversionFctr` | `ProdPlntPlngMatlConversionFctr` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `C1` | `name: 'I_StdLdgrWthoutShadowVH', element: 'Ledger' }, useAsTemplate: true } ] // TODO: VH not released` |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `CompanyCode` | `CompanyCode` |
+| `CostCenter` | `CostCenter` |
+| `ActivityType` | `ActivityType` |
+| `Currency` | `Currency` |
+| `ControllingArea` | `ControllingArea` |
+| `ReceivingCompanyCode` | `ReceivingCompanyCode` |
+| `IsIntercompanyRate` | `IsIntercompanyRate` |
+| `ValidityStartFiscalYear` | `ValidityStartFiscalYear` |
+| `ValidityStartFiscalPeriod` | `ValidityStartFiscalPeriod` |
+| `ValidityEndFiscalYear` | `ValidityEndFiscalYear` |
+| `ValidityEndFiscalPeriod` | `ValidityEndFiscalPeriod` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `TimeSheetOvertimeCategory` | `TimeSheetOvertimeCategory` |
+| `ServiceCostLevel` | `ServiceCostLevel` |
+| `PersonnelNumber` | `PersonnelNumber` |
+| `WorkItem` | `WorkItem` |
+| `WBSElementExternalID` | `WBSElementExternalID` |
+| `WBSElementDescription` | `WBSElementDescription` |
+| `CostRateVarblAmount` | `CostRateVarblAmount` |
+| `CostRateScaleFactor` | `CostRateScaleFactor` |
+| `CostCtrActivityTypeQtyUnit` | `CostCtrActivityTypeQtyUnit` |
 | `Ledger` | `Ledger` |
 | `CostRateIsOverwriteMode` | `CostRateIsOverwriteMode` |
 | `_CompanyCode` | *Association* |

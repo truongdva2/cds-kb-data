@@ -14,6 +14,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialProcurementExtType
 ---
 # I_MATLPROCUREMENTEXTERNALTYPE
 
@@ -30,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MaterialProcurementExtType` | `cast(typ.esobs as pph_esobs preserving type)` |
+| `Language` | `cast(typ.spras as spras preserving type)` |
+| `MaterialProcurementType` | `cast(typ.sobes as pph_sobes preserving type)` |
 | `MaterialProcurementExtTypeName` | `typ.sotxt` |
 | `_Language` | *Association* |
 | `_MaterialProcurementType` | *Association* |

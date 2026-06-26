@@ -14,6 +14,7 @@ tags:
   - warehouse
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseTask
 ---
 # D_WAREHOUSEORDERTASKACTIVATED
 
@@ -30,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* SONT Keys */` | `/* SONT Keys */` |
-| `WarehouseTask            : /scwm/tanum_conv_alpha;` | `WarehouseTask            : /scwm/tanum_conv_alpha;` |
-| `WarehouseTaskItem        : /scwm/tapos_noconv;` | `WarehouseTaskItem        : /scwm/tapos_noconv;` |
-| `/* Filter Properties */` | `/* Filter Properties */` |
-| `WarehouseProcessType         : /scwm/de_procty;` | `WarehouseProcessType         : /scwm/de_procty;` |
-| `IsHandlingUnitWarehouseTask  : /scwm/flghuto;` | `IsHandlingUnitWarehouseTask  : /scwm/flghuto;` |
-| `WarehouseOrderQueue          : /scwm/de_queue;` | `WarehouseOrderQueue          : /scwm/de_queue;` |
-| `EWMReferenceDocumentCategory : /scwm/de_doccat;` | `EWMReferenceDocumentCategory : /scwm/de_doccat;` |
+| `WarehouseTask` | `/scwm/tanum_conv_alpha` |
+| `WarehouseTaskItem` | `/scwm/tapos_noconv` |
+| `WarehouseProcessType` | `/scwm/de_procty` |
+| `IsHandlingUnitWarehouseTask` | `/scwm/flghuto` |
+| `WarehouseOrderQueue` | `/scwm/de_queue` |
+| `EWMReferenceDocumentCategory` | `/scwm/de_doccat` |
 
 ## Associations
 

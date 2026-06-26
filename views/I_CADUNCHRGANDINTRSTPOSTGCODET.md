@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `cpost_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `cpost_text_kk preserving type )` | `cast( ddtext` |
+| `CADunChrgAndIntrstPostgCode` | `cast( left( dd07t.domvalue_l, 1 ) as cpost_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADunChrgAndIntrstPostgCodeTxt` | `cast( ddtext as cpost_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

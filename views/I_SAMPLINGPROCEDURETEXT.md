@@ -34,7 +34,6 @@ tags:
 | `SamplingProcedure` | `qdsvt.stichprver` |
 | `Language` | `qdsvt.sprache` |
 | `SamplingProcedureText` | `qdsvt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
 | `_SamplingProcedure` | *Association* |
 | `_Language` | *Association* |
 

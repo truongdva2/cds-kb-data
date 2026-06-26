@@ -15,6 +15,7 @@ tags:
   - warehouse
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseOrder
 ---
 # I_EWM_WAREHOUSEORDER_2
 
@@ -32,47 +33,47 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `lgnum` |
-| `/scwm/de_who_conv_alpha preserving type )` | `cast ( who` |
+| `WarehouseOrder` | `cast ( who as /scwm/de_who_conv_alpha preserving type )` |
 | `WarehouseOrderCreationRule` | `wcr` |
 | `WhseOrderCreationRuleCategory` | `type` |
 | `WhseProcessTypeDocumentHdr` | `hdr_procty` |
-| `/scwm/de_wave_conv_alpha preserving type )` | `cast ( wave` |
-| `ewm_de_wave preserving type )` | `cast ( wave` |
+| `Wave` | `cast ( wave as /scwm/de_wave_conv_alpha preserving type )` |
+| `EWMWave` | `cast ( wave as ewm_de_wave preserving type )` |
 | `WarehouseOrderStatus` | `status` |
 | `ActivityArea` | `areawho` |
 | `EWMStorageType` | `lgtyp` |
 | `EWMStorageBin` | `lgpla` |
-| `/scwm/de_created_dt_noconv preserving type )` | `cast( created_at` |
+| `WrhsOrdCrtnUTCDateTime` | `cast( created_at as /scwm/de_created_dt_noconv preserving type )` |
 | `CreatedByUser` | `created_by` |
 | `Queue` | `queue` |
-| `/scwm/de_started_dt_noconv preserving type )` | `cast ( started_at` |
+| `WarehouseOrderStartDateTime` | `cast ( started_at as /scwm/de_started_dt_noconv preserving type )` |
 | `WarehouseOrderStartTimeIsFixed` | `start_fixed` |
-| `/scwm/de_confirmed_dt_noconv preserving type )` | `cast ( confirmed_at` |
+| `WhseOrderConfirmedDateTime` | `cast ( confirmed_at as /scwm/de_confirmed_dt_noconv preserving type )` |
 | `WarehouseOrderConfirmedBy` | `confirmed_by` |
-| `/scwm/de_processor_conv_alpha preserving type )` | `cast( processor` |
+| `Processor` | `cast( processor as /scwm/de_processor_conv_alpha preserving type )` |
 | `ExecutingResource` | `rsrc` |
 | `ProcessorIsManualAssigned` | `man_assign` |
 | `WarehouseOrderHasPhysInvtryDoc` | `flginv` |
-| `/scwm/de_splitwo_conv_alpha preserving type )` | `cast ( splitwhoid` |
+| `WhseOrderForSplitWhseOrder` | `cast ( splitwhoid as /scwm/de_splitwo_conv_alpha preserving type )` |
 | `WarehouseOrderIsSplit` | `flgsplit` |
 | `ResourceStartBin` | `start_bin` |
-| `/scwm/de_lsd_noconv preserving type )` | `cast( lsd` |
+| `WhseOrderLatestStartDateTime` | `cast( lsd as /scwm/de_lsd_noconv preserving type )` |
 | `WarehouseOrderPlannedDuration` | `plandura` |
 | `WhseOrderPlanDurationTimeUnit` | `unit_t` |
-| `/scwm/de_changed_dt_noconv preserving type )` | `cast( changed_at` |
+| `WhseOrderLastChgUTCDateTime` | `cast( changed_at as /scwm/de_changed_dt_noconv preserving type )` |
 | `LastChangedByUser` | `changed_by` |
-| `/scwm/de_topwho_conv_alpha preserving type )` | `cast ( topwhoid` |
-| `/scwm/de_refwho_conv_alpha preserving type )` | `cast ( refwhoid` |
+| `WhseOrderHigherLevelWhseOrder` | `cast ( topwhoid as /scwm/de_topwho_conv_alpha preserving type )` |
+| `WhseOrderSubsequentWhseOrder` | `cast ( refwhoid as /scwm/de_refwho_conv_alpha preserving type )` |
 | `WhseOrderHasSubsqntWhseOrder` | `flgwho` |
 | `WarehouseOrderHasWhseTask` | `flgto` |
 | `WarehouseOrderLogicalNumber` | `whologno` |
 | `HzdsSubstanceIsRlvtForStorage` | `hazmat` |
 | `WarehouseOrderUUID` | `whoid` |
-| `timestamp preserving type )` | `cast( created_at_wh` |
-| `timestamp preserving type )` | `cast( started_at_wh` |
-| `timestamp preserving type )` | `cast( lsd_wh` |
-| `timestamp preserving type )` | `cast( confirmed_at_wh` |
-| `timestamp preserving type )` | `cast( changed_at_wh` |
+| `WhseOrderCrtnWhseTmznDateTime` | `cast( created_at_wh as timestamp preserving type )` |
+| `WhseOrderStrtWhseTmznDateTime` | `cast( started_at_wh as timestamp preserving type )` |
+| `WhseOrdLtstStrtWhseTmznDteTme` | `cast( lsd_wh as timestamp preserving type )` |
+| `WhseOrderConfWhseTmznDateTime` | `cast( confirmed_at_wh as timestamp preserving type )` |
+| `WhseOrderChgdWhseTmznDateTime` | `cast( changed_at_wh as timestamp preserving type )` |
 
 ## Associations
 

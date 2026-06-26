@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:DefectClass
 ---
 # I_DEFECTCLASS
 
@@ -29,10 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
+| `DefectClass` | `fehlklasse` |
 | `InspectionLotQualityScore` | `kennzahl` |
 | `_Text` | *Association* |
 

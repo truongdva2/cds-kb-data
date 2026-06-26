@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGEngyClassfctnVH'` | `name: 'I_CnsldtnGHGEngyClassfctnVH'` |
-| `element: 'GHGEnergyClassification'` | `element: 'GHGEnergyClassification'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgenergyclassification preserving type )` | `cast( _Source.GHGEnergyClassification` |
-| `fincs_ghgenergyclassifctnname preserving type )` | `cast( _Source.GHGEnergyClassificationName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GHGEnergyClassification` | `cast(…)` |
+| `GHGEnergyClassificationName` | `cast(…)` |
 | `_Language` | *Association* |
 | `_GHGEnergyClassification` | *Association* |
 

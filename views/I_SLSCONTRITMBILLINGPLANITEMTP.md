@@ -33,31 +33,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsContrItemBillingPlanItem.SalesContract` | `SlsContrItemBillingPlanItem.SalesContract` |
-| `key SlsContrItemBillingPlanItem.SalesContractItem` | `SlsContrItemBillingPlanItem.SalesContractItem` |
-| `key SlsContrItemBillingPlanItem.BillingPlan` | `SlsContrItemBillingPlanItem.BillingPlan` |
-| `key SlsContrItemBillingPlanItem.BillingPlanItem` | `SlsContrItemBillingPlanItem.BillingPlanItem` |
-| `SlsContrItemBillingPlanItem.BillingPlanItemForEdit` | `SlsContrItemBillingPlanItem.BillingPlanItemForEdit` |
-| `SlsContrItemBillingPlanItem.BillingPlanBillingDate` | `SlsContrItemBillingPlanItem.BillingPlanBillingDate` |
-| `SlsContrItemBillingPlanItem.BillingPlanDateCategory` | `SlsContrItemBillingPlanItem.BillingPlanDateCategory` |
-| `SlsContrItemBillingPlanItem.BillingPlanDateDescriptionCode` | `SlsContrItemBillingPlanItem.BillingPlanDateDescriptionCode` |
-| `SlsContrItemBillingPlanItem.BillingPlanAmountPercent` | `SlsContrItemBillingPlanItem.BillingPlanAmountPercent` |
-| `SlsContrItemBillingPlanItem.BillingPlanAmount` | `SlsContrItemBillingPlanItem.BillingPlanAmount` |
-| `SlsContrItemBillingPlanItem.BillingBlockReason` | `SlsContrItemBillingPlanItem.BillingBlockReason` |
-| `SlsContrItemBillingPlanItem.BillingPlanRelatedBillgStatus` | `SlsContrItemBillingPlanItem.BillingPlanRelatedBillgStatus` |
-| `SlsContrItemBillingPlanItem.ProposedBillingDocumentType` | `SlsContrItemBillingPlanItem.ProposedBillingDocumentType` |
-| `SlsContrItemBillingPlanItem.BillingPlanType` | `SlsContrItemBillingPlanItem.BillingPlanType` |
-| `SlsContrItemBillingPlanItem.BillingPlanBillingRule` | `SlsContrItemBillingPlanItem.BillingPlanBillingRule` |
-| `SlsContrItemBillingPlanItem.TransactionCurrency` | `SlsContrItemBillingPlanItem.TransactionCurrency` |
-| `SlsContrItemBillingPlanItem.AdoptingBillingDateID` | `SlsContrItemBillingPlanItem.AdoptingBillingDateID` |
-| `SlsContrItemBillingPlanItem.CustomerPaymentTerms` | `SlsContrItemBillingPlanItem.CustomerPaymentTerms` |
-| `SlsContrItemBillingPlanItem.SalesContractType` | `SlsContrItemBillingPlanItem.SalesContractType` |
-| `SlsContrItemBillingPlanItem.SalesOrganization` | `SlsContrItemBillingPlanItem.SalesOrganization` |
-| `SlsContrItemBillingPlanItem.DistributionChannel` | `SlsContrItemBillingPlanItem.DistributionChannel` |
-| `SlsContrItemBillingPlanItem.OrganizationDivision` | `SlsContrItemBillingPlanItem.OrganizationDivision` |
-| `_Item            : redirected to I_SalesContractItemTP` | *Association* |
-| `_SalesContract   : redirected to I_SalesContractTP` | *Association* |
-| `_ItemBillingPlan : redirected to parent I_SlsContractItemBillingPlanTP` | *Association* |
+| `SalesContract` | `SlsContrItemBillingPlanItem.SalesContract` |
+| `SalesContractItem` | `SlsContrItemBillingPlanItem.SalesContractItem` |
+| `BillingPlan` | `SlsContrItemBillingPlanItem.BillingPlan` |
+| `BillingPlanItem` | `SlsContrItemBillingPlanItem.BillingPlanItem` |
+| `BillingPlanItemForEdit` | `SlsContrItemBillingPlanItem.BillingPlanItemForEdit` |
+| `BillingPlanBillingDate` | `SlsContrItemBillingPlanItem.BillingPlanBillingDate` |
+| `BillingPlanDateCategory` | `SlsContrItemBillingPlanItem.BillingPlanDateCategory` |
+| `BillingPlanDateDescriptionCode` | `SlsContrItemBillingPlanItem.BillingPlanDateDescriptionCode` |
+| `BillingPlanAmountPercent` | `SlsContrItemBillingPlanItem.BillingPlanAmountPercent` |
+| `BillingPlanAmount` | `SlsContrItemBillingPlanItem.BillingPlanAmount` |
+| `BillingBlockReason` | `SlsContrItemBillingPlanItem.BillingBlockReason` |
+| `BillingPlanRelatedBillgStatus` | `SlsContrItemBillingPlanItem.BillingPlanRelatedBillgStatus` |
+| `ProposedBillingDocumentType` | `SlsContrItemBillingPlanItem.ProposedBillingDocumentType` |
+| `BillingPlanType` | `SlsContrItemBillingPlanItem.BillingPlanType` |
+| `BillingPlanBillingRule` | `SlsContrItemBillingPlanItem.BillingPlanBillingRule` |
+| `TransactionCurrency` | `SlsContrItemBillingPlanItem.TransactionCurrency` |
+| `AdoptingBillingDateID` | `SlsContrItemBillingPlanItem.AdoptingBillingDateID` |
+| `CustomerPaymentTerms` | `SlsContrItemBillingPlanItem.CustomerPaymentTerms` |
+| `SalesContractType` | `SlsContrItemBillingPlanItem.SalesContractType` |
+| `SalesOrganization` | `SlsContrItemBillingPlanItem.SalesOrganization` |
+| `DistributionChannel` | `SlsContrItemBillingPlanItem.DistributionChannel` |
+| `OrganizationDivision` | `SlsContrItemBillingPlanItem.OrganizationDivision` |
 
 ## Associations
 

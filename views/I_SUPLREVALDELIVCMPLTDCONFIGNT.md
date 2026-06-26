@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalCritraDelivCompleted
 ---
 # I_SUPLREVALDELIVCMPLTDCONFIGNT
 
@@ -30,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `mm_pur_ana_de_del_compind_txt)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `SuplrEvalCritraDelivCompleted` | `cast( domvalue_l as mm_pur_ana_de_delivery_compind)` |
+| `SuplrEvalCritraDelivCmpltdTxt` | `cast(ddtext as mm_pur_ana_de_del_compind_txt)` |
 | `_SuplrEvalDelivCmpltdConfign` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SuplrEvalDelivCmpltdConfign` | `I_SuplrEvalDelivCmpltdConfign` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

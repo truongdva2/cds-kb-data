@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `sd_customer_return_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `CustomerReturnType` | `CustomerReturnType.CustomerReturnType` |
+| `Language` | `Text.Language` |
+| `CustomerReturnTypeName` | `cast(…)` |
 | `_CustomerReturnType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

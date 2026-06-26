@@ -17,6 +17,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:InventoryValuationCategory
 ---
 # I_PRODUCTVALUATIONCATEGORYTEXT
 
@@ -35,7 +36,7 @@ tags:
 |---|---|
 | `InventoryValuationCategory` | `bwtty` |
 | `Language` | `t149t.spras` |
-| `inventoryvaluationcategoryname )` | `cast( t149t.btbez` |
+| `InventoryValuationCategoryName` | `cast( t149t.btbez as inventoryvaluationcategoryname )` |
 
 ## Associations
 

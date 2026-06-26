@@ -30,9 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `fincs_congr_short_text preserving type )` | `cast ( _tf181.txtsh` |
-| `fincs_congr_medium_text preserving type )` | `cast ( _tf181.txtmi` |
+| `Language` | `_tf181.langu` |
+| `ConsolidationGroup` | `cast( _tf181.congr as fincs_md_congr preserving type )` |
+| `ConsolidationGroupText` | `cast ( _tf181.txtsh as fincs_congr_short_text preserving type )` |
+| `ConsolidationGroupMediumText` | `cast ( _tf181.txtmi as fincs_congr_medium_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

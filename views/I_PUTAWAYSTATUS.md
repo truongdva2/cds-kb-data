@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `le_putaway_status preserving type)` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `PutawayStatus` | `cast(left(dd07l.domvalue_l, 1 ) as le_putaway_status preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

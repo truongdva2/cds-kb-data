@@ -30,12 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGScp2CalcMethodVH'` | `name: 'I_CnsldtnGHGScp2CalcMethodVH'` |
-| `element: 'GHGScope2CalculationMethod'` | `element: 'GHGScope2CalculationMethod'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgscp2calculationmethod preserving type )` | `cast( _Source.GHGScope2CalculationMethod` |
-| `/* associations */` | `/* associations */` |
+| `GHGScope2CalculationMethod` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

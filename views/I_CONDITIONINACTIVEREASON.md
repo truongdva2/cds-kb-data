@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceConditionInactiveReason
 ---
 # I_CONDITIONINACTIVEREASON
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kinak )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionInactiveReason` | `cast ( substring( domvalue_l, 1, 1 ) as kinak )` |
 | `_Text` | *Association* |
 
 ## Associations

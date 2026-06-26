@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgAggrgdSftyDataSheetStatus
 ---
 # I_PURGAGGRGDSFTYDATASHEETSTS
 
@@ -28,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_pc_total_status_sds )` | `cast( dd07l.domvalue_l` |
+| `PurgAggrgdSftyDataSheetStatus` | `cast( dd07l.domvalue_l as mmpur_pc_total_status_sds )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgAggrgdSftyDataSheetStsT` | [0..*] |
 
 ## Source Code
 

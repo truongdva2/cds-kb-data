@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lvstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallWarehouseActivityStatus` | `cast(left(dd07l.domvalue_l, 1 ) as lvstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

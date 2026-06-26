@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `disreq_status_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CASrvcDisconncnReqStatus` | `cast( left( dd07l.domvalue_l, 1 ) as disreq_status_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

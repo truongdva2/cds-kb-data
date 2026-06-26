@@ -29,11 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qfegrp preserving type )` | `cast( qpgr.codegruppe` |
-| `case qpgr.inaktiv` | `case qpgr.inaktiv` |
-| `vdm_qm_codegroupisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codegroupisinactive preserving type )` | `else cast( 'X'` |
-| `CodeGroupIsInactive` | `end` |
+| `DefectCodeGroup` | `cast( qpgr.codegruppe as vdm_qfegrp preserving type )` |
+| `CodeGroupIsInactive` | `case…end` |
 | `CodeGroupStatus` | `qpgr.status` |
 | `_Text` | *Association* |
 | `_DefectCode` | *Association* |

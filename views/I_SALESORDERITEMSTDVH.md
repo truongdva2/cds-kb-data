@@ -35,10 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #MEDIUM` | `ranking: #MEDIUM` |
-| `}` | `}` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
 | `SalesOrderItemText` | `SalesOrderItemText` |
 | `_SalesOrder` | *Association* |
 

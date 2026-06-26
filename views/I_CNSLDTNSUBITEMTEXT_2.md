@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `fincs_subitemtext preserving type )` | `cast(_Source.txtsh` |
-| `fincs_subitemmediumtext preserving type )` | `cast(_Source.txtmi` |
+| `Language` | `cast(_Source.langu as spras preserving type )` |
+| `CnsldtnSubitemCategory` | `cast(_Source.sityp as fincs_subitemcategory preserving type )` |
+| `CnsldtnSubitem` | `cast(_Source.sitem as fincs_subitem preserving type )` |
+| `CnsldtnSubitemText` | `cast(_Source.txtsh as fincs_subitemtext preserving type )` |
+| `CnsldtnSubitemMediumText` | `cast(_Source.txtmi as fincs_subitemmediumtext preserving type )` |
 | `_SubitemCategory` | *Association* |
 | `_Language` | *Association* |
 | `_Subitem` | *Association* |

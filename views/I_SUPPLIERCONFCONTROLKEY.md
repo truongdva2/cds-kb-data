@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
 | `SupplierConfirmationControlKey` | `bstae` |
 | `_Text` | *Association* |
 

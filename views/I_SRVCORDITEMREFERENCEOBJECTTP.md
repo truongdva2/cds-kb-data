@@ -30,17 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `key ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
 | `SerialNumber` | `SerialNumber` |
 | `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
 | `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
 | `SrvcRefObjIsMainObject` | `SrvcRefObjIsMainObject` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderItemTP : redirected to parent I_ServiceOrderItemTP` | *Association* |
-| `_ServiceOrderTP     : redirected to I_ServiceOrderTP` | *Association* |
 
 ## Associations
 

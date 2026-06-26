@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocNumber
 ---
 # I_DOCINFORECDDOCNMBRSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
-| `key DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
 | `_DocType` | *Association* |
 
 ## Associations

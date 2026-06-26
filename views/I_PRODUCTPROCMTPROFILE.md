@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProcurementSubType
 ---
 # I_PRODUCTPROCMTPROFILE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sobsl preserving type )` | `cast ( MaterialProcurementProfile` |
+| `ProcurementSubType` | `cast ( MaterialProcurementProfile as sobsl preserving type )` |
 | `Plant` | `Plant` |
 | `_Text` | *Association* |
 | `_Plant` | *Association* |

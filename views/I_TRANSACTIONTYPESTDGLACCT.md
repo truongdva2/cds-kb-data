@@ -30,17 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_ktopl preserving type)` | `cast (ktopl` |
-| `fac_ktosl preserving type )` | `cast (ktosl` |
+| `ChartOfAccounts` | `cast (ktopl as fis_ktopl preserving type)` |
+| `TransactionTypeDetermination` | `cast (ktosl as fac_ktosl preserving type )` |
 | `ValuationAreaGroup` | `bwmod` |
 | `GLAcctDetnDifferentiation` | `komok` |
 | `ValuationClass` | `bklas` |
-| `ftr_gen_gl_account_debit preserving type)` | `cast (konts` |
-| `cast (case` | `cast (case` |
-| `when konth is null then konts` | `when konth is null then konts` |
-| `else konth` | `else konth` |
-| `ftr_gen_gl_account_credit preserving type )` | `end` |
-| `,_StandardGLAcctDetnRule` | `,_StandardGLAcctDetnRule` |
+| `DebitGLAccount` | `cast (konts as ftr_gen_gl_account_debit preserving type)` |
+| `CreditGLAccount` | `cast(…)` |
+| `_StandardGLAcctDetnRule` | *Association* |
 
 ## Associations
 

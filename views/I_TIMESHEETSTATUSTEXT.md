@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetStatus
 ---
 # I_TIMESHEETSTATUSTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `ddlanguage` |
 | `TimeSheetStatus` | `domvalue_l` |
-| `catsstatustext preserving type )` | `cast( ddtext` |
+| `TimeSheetStatusText` | `cast( ddtext as catsstatustext preserving type )` |
 
 ## Associations
 

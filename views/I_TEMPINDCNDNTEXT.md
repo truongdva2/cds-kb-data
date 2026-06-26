@@ -32,10 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
+| `TemperatureConditionInd` | `tempb` |
+| `Language` | `t143t.spras` |
 | `TemperatureConditionIndName` | `tbtxt` |
 | `_TemperatureConditionInd` | *Association* |
 

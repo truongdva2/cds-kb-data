@@ -15,6 +15,7 @@ tags:
   - pricing
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:SalesPricingAccessSequence
 ---
 # I_SALESPRICINGACCESSSEQUENCE
 

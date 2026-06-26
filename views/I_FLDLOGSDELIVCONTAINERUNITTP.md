@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptContainerUnit
 ---
 # I_FLDLOGSDELIVCONTAINERUNITTP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
+| `FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
 | `FldLogsContainerUUID` | `FldLogsContainerUUID` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
 | `FldLogsShipmentID` | `FldLogsShipmentID` |
@@ -92,10 +93,6 @@ tags:
 | `ReceivingPoint` | `ReceivingPoint` |
 | `_ShipgPtText` | *Association* |
 | `_RcvgPtText` | *Association* |
-| `_ShptItems        : redirected to composition child I_FldLogsDelivItemCtnTP` | *Association* |
-| `_ShptStgeAssgmt   : redirected to composition child I_FldLogsShptStgeAssgmtCtnTP` | *Association* |
-| `_TaggedItems      : redirected to composition child I_FldLogsItmsTaggedToCtnTP` | *Association* |
-| `_ShptPkgCtnAssgmt : redirected to composition child I_FldLogsShptPackggAssgmtCtnTP` | *Association* |
 | `_EquipmentTypeText` | *Association* |
 | `_CtnCategoryText` | *Association* |
 

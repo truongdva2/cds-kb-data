@@ -30,19 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkAssignmentKeymap.WorkAssignmentExternalID` | `WorkAssignmentKeymap.WorkAssignmentExternalID` |
-| `key WorkAssignmentKeymap.Country2DigitISOCode` | `WorkAssignmentKeymap.Country2DigitISOCode` |
-| `key WorkAssignmentDetails.WorkAssignmentStartDate` | `WorkAssignmentDetails.WorkAssignmentStartDate` |
-| `WorkAssignmentKeymap.WorkforcePersonExternalID` | `WorkAssignmentKeymap.WorkforcePersonExternalID` |
-| `WorkAssignmentDetails.WorkAssignmentEndDate` | `WorkAssignmentDetails.WorkAssignmentEndDate` |
-| `WorkAssignmentDetails.CompanyCode` | `WorkAssignmentDetails.CompanyCode` |
-| `WorkAssignmentDetails.CostCenter` | `WorkAssignmentDetails.CostCenter` |
-| `WorkAssignmentDetails.SupervisorWorkAssignmentExtID` | `WorkAssignmentDetails.SupervisorWorkAssignmentExtID` |
-| `WorkAssignmentDetails.WeeklyWorkingHours` | `WorkAssignmentDetails.WeeklyWorkingHours` |
-| `WorkAssignmentDetails.WeeklyWorkingDays` | `WorkAssignmentDetails.WeeklyWorkingDays` |
-| `WorkAssignmentDetails.WorkAssignmentStatus` | `WorkAssignmentDetails.WorkAssignmentStatus` |
-| `WorkAssignmentDetails.EmploymentPercent` | `WorkAssignmentDetails.EmploymentPercent` |
-| `WorkAssignmentKeymap.IsBlocked` | `WorkAssignmentKeymap.IsBlocked` |
+| `WorkAssignmentExternalID` | `WorkAssignmentKeymap.WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `WorkAssignmentKeymap.Country2DigitISOCode` |
+| `WorkAssignmentStartDate` | `WorkAssignmentDetails.WorkAssignmentStartDate` |
+| `WorkforcePersonExternalID` | `WorkAssignmentKeymap.WorkforcePersonExternalID` |
+| `WorkAssignmentEndDate` | `WorkAssignmentDetails.WorkAssignmentEndDate` |
+| `CompanyCode` | `WorkAssignmentDetails.CompanyCode` |
+| `CostCenter` | `WorkAssignmentDetails.CostCenter` |
+| `SupervisorWorkAssignmentExtID` | `WorkAssignmentDetails.SupervisorWorkAssignmentExtID` |
+| `WeeklyWorkingHours` | `WorkAssignmentDetails.WeeklyWorkingHours` |
+| `WeeklyWorkingDays` | `WorkAssignmentDetails.WeeklyWorkingDays` |
+| `WorkAssignmentStatus` | `WorkAssignmentDetails.WorkAssignmentStatus` |
+| `EmploymentPercent` | `WorkAssignmentDetails.EmploymentPercent` |
+| `IsBlocked` | `WorkAssignmentKeymap.IsBlocked` |
 | `_WorkAssignment` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

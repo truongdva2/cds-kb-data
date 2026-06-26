@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `_CnsldtnChartOfAccounts._Text[1: Language=$session.system_language].ConsolidationChartOfAcctsText` | *Association* |
+| `ConsolidationChartOfAccounts` | `_CnsldtnChartOfAccounts.ConsolidationChartOfAccounts` |
+| `ConsolidationChartOfAcctsText` | `expr(…)` |
 
 ## Associations
 

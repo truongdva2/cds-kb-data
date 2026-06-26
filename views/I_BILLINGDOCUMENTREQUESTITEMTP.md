@@ -36,8 +36,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
-| `key BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
+| `BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
 | `SalesDocumentItemCategory` | `SalesDocumentItemCategory` |
 | `SalesDocumentItemType` | `SalesDocumentItemType` |
 | `ReturnItemProcessingType` | `ReturnItemProcessingType` |
@@ -136,9 +136,6 @@ tags:
 | `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
 | `BillingDocumentRequestType` | `BillingDocumentRequestType` |
 | `SalesOrganization` | `SalesOrganization` |
-| `_BillingDocumentRequest : redirected to parent I_BillingDocumentRequestTP` | *Association* |
-| `_ItemPartner            : redirected to composition child  I_BillgDocRequestItemPartnerTP` | *Association* |
-| `_ItemText               : redirected to composition child  I_BillgDocRequestItemTextTP` | *Association* |
 
 ## Associations
 

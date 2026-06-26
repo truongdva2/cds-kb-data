@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
 | `ShipToParty` | `ShipToParty` |
 | `SoldToParty` | `SoldToParty` |
 | `Supplier` | `Supplier` |
@@ -135,9 +135,6 @@ tags:
 | `OvrlItmDelivIncompletionSts` | `OvrlItmDelivIncompletionSts` |
 | `OvrlItmGdsMvtIncompletionSts` | `OvrlItmGdsMvtIncompletionSts` |
 | `DeliveryIsInPlant` | `DeliveryIsInPlant` |
-| `_Item : redirected to composition child I_CustomerReturnsDelivItemTP` | *Association* |
-| `_Partner : redirected to composition child I_CustRetDelivPartnerTP` | *Association* |
-| `_Text : redirected to composition child I_CustRetDelivTextTP` | *Association* |
 
 ## Associations
 

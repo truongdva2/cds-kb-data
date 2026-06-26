@@ -15,6 +15,7 @@ tags:
   - document
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LegalDocument
 ---
 # I_LEGALDOCUMENTTP
 
@@ -31,50 +32,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalDocument.LglCntntMDocumentUUID` | `LegalDocument.LglCntntMDocumentUUID` |
-| `LegalDocument.LglCntntMDocument` | `LegalDocument.LglCntntMDocument` |
-| `LegalDocument.LglCntntMDocumentLinkedObject` | `LegalDocument.LglCntntMDocumentLinkedObject` |
-| `LegalDocument.LglCntntMDocumentLinkedObjKey` | `LegalDocument.LglCntntMDocumentLinkedObjKey` |
-| `LegalDocument.LegalTransaction` | `LegalDocument.LegalTransaction` |
-| `LegalDocument.LegalTransactionUUID` | `LegalDocument.LegalTransactionUUID` |
-| `LegalDocument.LglCntntMDocContentType` | `LegalDocument.LglCntntMDocContentType` |
-| `LegalDocument.LglCntntMLanguage` | `LegalDocument.LglCntntMLanguage` |
-| `LegalDocument.DocumentDescription` | `LegalDocument.DocumentDescription` |
-| `LegalDocument.LglCntntMDocAccessLvl` | `LegalDocument.LglCntntMDocAccessLvl` |
-| `LegalDocument.LglCntntMDocPaperType` | `LegalDocument.LglCntntMDocPaperType` |
-| `LegalDocument.LegalDocumentSource` | `LegalDocument.LegalDocumentSource` |
-| `LegalDocument.LglCntntMChangedUTCDateTime` | `LegalDocument.LglCntntMChangedUTCDateTime` |
-| `LegalDocument.LglCntntMChangedByUser` | `LegalDocument.LglCntntMChangedByUser` |
-| `LegalDocument.LglCntntMCreatedUTCDateTime` | `LegalDocument.LglCntntMCreatedUTCDateTime` |
-| `LegalDocument.LglCntntMCreatedByUser` | `LegalDocument.LglCntntMCreatedByUser` |
-| `LegalDocument.InternalDocumentStatus` | `LegalDocument.InternalDocumentStatus` |
-| `LegalDocument.LglCntntMDocumentIsTopVersion` | `LegalDocument.LglCntntMDocumentIsTopVersion` |
-| `LegalDocument.LglCntntMVirtualDocVersKey` | `LegalDocument.LglCntntMVirtualDocVersKey` |
-| `LegalDocument.LglCntntMDocAssemblyStatus` | `LegalDocument.LglCntntMDocAssemblyStatus` |
-| `LegalDocument.LglCntntMTmplID` | `LegalDocument.LglCntntMTmplID` |
-| `LegalDocument.LglCntntMDocType` | `LegalDocument.LglCntntMDocType` |
-| `LegalDocument.LglCntntMDocLowTouchLevel` | `LegalDocument.LglCntntMDocLowTouchLevel` |
-| `LegalDocument.LglCntntMIsMandatory` | `LegalDocument.LglCntntMIsMandatory` |
-| `LegalDocument.LegalDocumentVersion` | `LegalDocument.LegalDocumentVersion` |
-| `LegalDocument.LglCntntMParentDocument` | `LegalDocument.LglCntntMParentDocument` |
-| `LegalDocument.LglCntntMDocumentKind` | `LegalDocument.LglCntntMDocumentKind` |
+| `LglCntntMDocumentUUID` | `LegalDocument.LglCntntMDocumentUUID` |
+| `LglCntntMDocument` | `LegalDocument.LglCntntMDocument` |
+| `LglCntntMDocumentLinkedObject` | `LegalDocument.LglCntntMDocumentLinkedObject` |
+| `LglCntntMDocumentLinkedObjKey` | `LegalDocument.LglCntntMDocumentLinkedObjKey` |
+| `LegalTransaction` | `LegalDocument.LegalTransaction` |
+| `LegalTransactionUUID` | `LegalDocument.LegalTransactionUUID` |
+| `LglCntntMDocContentType` | `LegalDocument.LglCntntMDocContentType` |
+| `LglCntntMLanguage` | `LegalDocument.LglCntntMLanguage` |
+| `DocumentDescription` | `LegalDocument.DocumentDescription` |
+| `LglCntntMDocAccessLvl` | `LegalDocument.LglCntntMDocAccessLvl` |
+| `LglCntntMDocPaperType` | `LegalDocument.LglCntntMDocPaperType` |
+| `LegalDocumentSource` | `LegalDocument.LegalDocumentSource` |
+| `LglCntntMChangedUTCDateTime` | `LegalDocument.LglCntntMChangedUTCDateTime` |
+| `LglCntntMChangedByUser` | `LegalDocument.LglCntntMChangedByUser` |
+| `LglCntntMCreatedUTCDateTime` | `LegalDocument.LglCntntMCreatedUTCDateTime` |
+| `LglCntntMCreatedByUser` | `LegalDocument.LglCntntMCreatedByUser` |
+| `InternalDocumentStatus` | `LegalDocument.InternalDocumentStatus` |
+| `LglCntntMDocumentIsTopVersion` | `LegalDocument.LglCntntMDocumentIsTopVersion` |
+| `LglCntntMVirtualDocVersKey` | `LegalDocument.LglCntntMVirtualDocVersKey` |
+| `LglCntntMDocAssemblyStatus` | `LegalDocument.LglCntntMDocAssemblyStatus` |
+| `LglCntntMTmplID` | `LegalDocument.LglCntntMTmplID` |
+| `LglCntntMDocType` | `LegalDocument.LglCntntMDocType` |
+| `LglCntntMDocLowTouchLevel` | `LegalDocument.LglCntntMDocLowTouchLevel` |
+| `LglCntntMIsMandatory` | `LegalDocument.LglCntntMIsMandatory` |
+| `LegalDocumentVersion` | `LegalDocument.LegalDocumentVersion` |
+| `LglCntntMParentDocument` | `LegalDocument.LglCntntMParentDocument` |
+| `LglCntntMDocumentKind` | `LegalDocument.LglCntntMDocumentKind` |
 | `LglCntntMDocAmendmentType` | `LglCntntMDocAmendmentType` |
 | `LglCntntMDocEffectiveFromDate` | `LglCntntMDocEffectiveFromDate` |
 | `LglCntntMDocEffectiveToDate` | `LglCntntMDocEffectiveToDate` |
 | `LglCntntMSgntrPreference` | `LglCntntMSgntrPreference` |
-| `LegalDocument.LglCntntMMainLinkdObjType` | `LegalDocument.LglCntntMMainLinkdObjType` |
-| `LegalDocument.IsEndOfPurposeBlocked` | `LegalDocument.IsEndOfPurposeBlocked` |
-| `LegalDocument.LglCntntMProfile` | `LegalDocument.LglCntntMProfile` |
-| `LegalDocument.LglTransAccessLvl` | `LegalDocument.LglTransAccessLvl` |
-| `LegalDocument.LglCntntMMainOrgCoCode` | `LegalDocument.LglCntntMMainOrgCoCode` |
-| `LegalDocument.LglCntntMMainOrgPurOrg` | `LegalDocument.LglCntntMMainOrgPurOrg` |
-| `LegalDocument.LglCntntMMainOrgSalesOrg` | `LegalDocument.LglCntntMMainOrgSalesOrg` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalDocParCategory : redirected to composition child I_LegalDocParCategoryTP` | *Association* |
-| `_LegalDocStamp       : redirected to composition child I_LegalDocStampTP` | *Association* |
-| `_LegalDocObligation  : redirected to composition child I_LegalDocObligationTP` | *Association* |
-| `_LegalDocAgreement   : redirected to composition child I_LegalDocAgreementTP` | *Association* |
-| `_LegalDocTmplInfo    : redirected to composition child I_LegalDocTmplInfoTP` | *Association* |
+| `LglCntntMMainLinkdObjType` | `LegalDocument.LglCntntMMainLinkdObjType` |
+| `IsEndOfPurposeBlocked` | `LegalDocument.IsEndOfPurposeBlocked` |
+| `LglCntntMProfile` | `LegalDocument.LglCntntMProfile` |
+| `LglTransAccessLvl` | `LegalDocument.LglTransAccessLvl` |
+| `LglCntntMMainOrgCoCode` | `LegalDocument.LglCntntMMainOrgCoCode` |
+| `LglCntntMMainOrgPurOrg` | `LegalDocument.LglCntntMMainOrgPurOrg` |
+| `LglCntntMMainOrgSalesOrg` | `LegalDocument.LglCntntMMainOrgSalesOrg` |
 
 ## Associations
 

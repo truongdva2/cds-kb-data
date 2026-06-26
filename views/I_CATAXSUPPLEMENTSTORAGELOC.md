@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `utloc_ut_kk preserving type )` | `cast( left( domvalue_l,2 )` |
+| `CAStorageLocationOfTaxSuplmnt` | `cast( left( domvalue_l,2 ) as utloc_ut_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

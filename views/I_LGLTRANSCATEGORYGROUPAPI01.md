@@ -29,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionCatGroupUUID` | `LegalTransactionCatGroupUUID` |
+| `LegalTransactionCatGroupUUID` | `LegalTransactionCatGroupUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMCatGroupTitle` | `LglCntntMCatGroupTitle` |
 | `LglCntntMIndex` | `LglCntntMIndex` |
-| `/* Associations */` | `/* Associations */` |
 | `_LglTransParentCategory` | *Association* |
 | `_LegalTransaction` | *Association* |
 

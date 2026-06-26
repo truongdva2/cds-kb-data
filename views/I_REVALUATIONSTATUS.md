@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recestatusevaluation )` | `cast(domvalue_l` |
+| `REValuationStatus` | `cast(domvalue_l as recestatusevaluation )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REValuationStatusText` | [0..*] |
 
 ## Source Code
 

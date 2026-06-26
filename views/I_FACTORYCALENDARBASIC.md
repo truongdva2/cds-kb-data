@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-ASF-CAL
   - lob:Basis Components
+  - bo:FactoryCalendarID
 ---
 # I_FACTORYCALENDARBASIC
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FactoryCalendarID` | `FactoryCalendarID` |
+| `FactoryCalendarID` | `FactoryCalendarID` |
 | `FactoryCalendarLegacyID` | `FactoryCalendarLegacyID` |
 | `PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
 | `FctryCalMondayIsWorkingDay` | `FctryCalMondayIsWorkingDay` |

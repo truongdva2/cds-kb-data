@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialServicesProductGroup` | `_Source.FinancialServicesProductGroup` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnFinSrvcsProdGrpTextTP` | *Association* |
+| `FinancialServicesProductGroup` | `_Source.FinancialServicesProductGroup` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

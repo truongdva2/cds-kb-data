@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductCategory
 ---
 # I_PRODUCTCATEGORY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `articlecategory )` | `cast ( dd07l.domvalue_l` |
+| `ProductCategory` | `cast ( dd07l.domvalue_l as articlecategory )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

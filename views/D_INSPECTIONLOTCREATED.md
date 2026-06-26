@@ -13,6 +13,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLot
 ---
 # D_INSPECTIONLOTCREATED
 
@@ -29,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Plant : werks_d;` | `Plant : werks_d;` |
-| `BusinessObject : poc_bo_id;` | `BusinessObject : poc_bo_id;` |
-| `SAPBusinessObjectType : poc_bo_type;` | `SAPBusinessObjectType : poc_bo_type;` |
-| `BusinessObjectItem : poc_item_id;` | `BusinessObjectItem : poc_item_id;` |
+| `Plant` | `werks_d` |
+| `BusinessObject` | `poc_bo_id` |
+| `SAPBusinessObjectType` | `poc_bo_type` |
+| `BusinessObjectItem` | `poc_item_id` |
 
 ## Associations
 

@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tcm_calc_type preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationCalculationType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/tcm_calc_type preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspScaleCalcTypeText` | [0..*] |
 
 ## Source Code
 

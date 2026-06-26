@@ -31,22 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key response.SuplrEvalRspUUID` | `response.SuplrEvalRspUUID` |
-| `/srmsmc/evaluation_response_id)` | `cast(ltrim(response.SupplierEvalResponse,'0')` |
-| `response.SuplrEvalRspName` | `response.SuplrEvalRspName` |
-| `response.SuplrEvalStartDate` | `response.SuplrEvalStartDate` |
-| `response.SuplrEvalEndDate` | `response.SuplrEvalEndDate` |
-| `/srmsmc/created_by )` | `cast(response.CreatedByUser` |
-| `response.CreationDateTime` | `response.CreationDateTime` |
-| `/srmsmc/last_changed_by )` | `cast(response.LastChangedByUser` |
-| `response.LastChangeDateTime` | `response.LastChangeDateTime` |
-| `response.Language` | `response.Language` |
-| `/srmsmc/created_by_user_desc)` | `cast(response._CreatedByUser._BusinessPartner[IsBusinessPurposeCompleted = ''].BusinessPartnerFullName` |
-| `/srmsmc/last_changed_by_desc)` | `cast(response._LastChangedByUser._BusinessPartner[IsBusinessPurposeCompleted = ''].BusinessPartnerFullName` |
+| `SuplrEvalRspUUID` | `response.SuplrEvalRspUUID` |
+| `SupplierEvalResponse` | `cast(ltrim(response.SupplierEvalResponse,'0') as /srmsmc/evaluation_response_id)` |
+| `SuplrEvalRspName` | `response.SuplrEvalRspName` |
+| `SuplrEvalStartDate` | `response.SuplrEvalStartDate` |
+| `SuplrEvalEndDate` | `response.SuplrEvalEndDate` |
+| `CreatedByUser` | `cast(response.CreatedByUser as /srmsmc/created_by )` |
+| `CreationDateTime` | `response.CreationDateTime` |
+| `LastChangedByUser` | `cast(response.LastChangedByUser as /srmsmc/last_changed_by )` |
+| `LastChangeDateTime` | `response.LastChangeDateTime` |
+| `Language` | `response.Language` |
+| `CreatedByUserDescription` | `cast(…)` |
+| `LastChangedByUserName` | `cast(…)` |
 | `FormOfAddressName` | `formofaddressname.FormOfAddressName` |
-| `businessuser.FirstName` | `businessuser.FirstName` |
+| `FirstName` | `businessuser.FirstName` |
 | `FamilyName` | `businessuser.LastName` |
-| `/srmsmc/company_name )` | `cast(response._Supplier._BusinessPartner[IsBusinessPurposeCompleted = ''].BusinessPartnerFullName` |
+| `BusinessPartnerFullName` | `cast(…)` |
 
 ## Associations
 

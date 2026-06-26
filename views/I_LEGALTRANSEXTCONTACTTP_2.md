@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionExtCntctUUID` | `LegalTransactionExtCntctUUID` |
+| `LegalTransactionExtCntctUUID` | `LegalTransactionExtCntctUUID` |
 | `LglCntntMRank` | `LglCntntMRank` |
 | `LglCntntMExtCntctBP` | `LglCntntMExtCntctBP` |
 | `LglCntntMExtCntctType` | `LglCntntMExtCntctType` |
@@ -38,8 +38,6 @@ tags:
 | `LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
 | `LglCntntMIsAddedByIntegVarbl` | `LglCntntMIsAddedByIntegVarbl` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransaction : redirected to parent I_LegalTransactionTP_2` | *Association* |
 
 ## Associations
 

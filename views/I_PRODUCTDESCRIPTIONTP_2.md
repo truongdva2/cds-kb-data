@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LanguageVH', element : 'Language'} , useAsTemplate: true }]` | `name: 'I_LanguageVH', element : 'Language'} , useAsTemplate: true }]` |
-| `key Language` | `Language` |
+| `Product` | `Product` |
+| `Language` | `Language` |
 | `ProductDescription` | `ProductDescription` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

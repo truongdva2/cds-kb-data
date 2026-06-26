@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ps_s4_proj_pspnr preserving type)` | `cast (ps_prj_pnr` |
+| `ProjectInternalID` | `cast (ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
 | `ValidityStartDate` | `valid_from` |
 | `ValidityEndDate` | `valid_to` |
 | `ControllingArea` | `kokrs` |

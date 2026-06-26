@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionSupplyArea` | `ProductionSupplyArea` |
-| `key Plant` | `Plant` |
-| `key Language` | `Language` |
+| `ProductionSupplyArea` | `ProductionSupplyArea` |
+| `Plant` | `Plant` |
+| `Language` | `Language` |
 | `ProductionSupplyAreaName` | `ProductionSupplyAreaName` |
 | `ProdSupplyAreaUpperCaseName` | `ProdSupplyAreaUpperCaseName` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductionSupplyArea: redirected to parent I_ProductionSupplyAreaTP_2` | *Association* |
 
 ## Associations
 

@@ -36,8 +36,8 @@ tags:
 | `CAInvoicingDocument` | `invdocno` |
 | `CAInvcgIsDocumentPosted` | `invoiced` |
 | `CAInvcgIsDocumentSimulated` | `simulated` |
-| `inv_preliminary_gfn_kk preserving type)` | `cast(preliminary` |
-| `inv_refobjvalue2_gfn_kk preserving type)` | `cast(refobjvalue2` |
+| `CAInvcgIsDocumentPreliminary` | `cast(preliminary as inv_preliminary_gfn_kk preserving type)` |
+| `CAReferenceObjectAddlText` | `cast(refobjvalue2 as inv_refobjvalue2_gfn_kk preserving type)` |
 | `_CAInvcgReferenceObj` | *Association* |
 | `_CAInvcgDocHeader` | *Association* |
 

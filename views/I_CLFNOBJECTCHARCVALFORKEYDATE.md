@@ -29,33 +29,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Valuation.ClfnObjectID` | `Valuation.ClfnObjectID` |
-| `key Valuation.ClfnObjectTable` | `Valuation.ClfnObjectTable` |
-| `key Valuation.CharcInternalID` | `Valuation.CharcInternalID` |
-| `key Valuation.CharcValuePositionNumber` | `Valuation.CharcValuePositionNumber` |
-| `key Valuation.ClfnObjectType` | `Valuation.ClfnObjectType` |
-| `key Valuation.ClassType` | `Valuation.ClassType` |
-| `Valuation.ClfnObjectInternalID` | `Valuation.ClfnObjectInternalID` |
-| `CharcValueDependency,       // old name is kept for compatibility` | `Valuation.CharcValueIntervalType` |
-| `Valuation.CharcValue` | `Valuation.CharcValue` |
-| `Valuation.CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
-| `Valuation.CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
-| `Valuation.CharcToNumericValue` | `Valuation.CharcToNumericValue` |
-| `Valuation.CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
-| `Valuation.CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
-| `Valuation.CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
-| `Valuation.CharcFromAmount` | `Valuation.CharcFromAmount` |
-| `Valuation.CharcToAmount` | `Valuation.CharcToAmount` |
-| `Valuation.Currency` | `Valuation.Currency` |
-| `Valuation.CharcFromDate` | `Valuation.CharcFromDate` |
-| `Valuation.CharcToDate` | `Valuation.CharcToDate` |
-| `Valuation.CharcFromTime` | `Valuation.CharcFromTime` |
-| `Valuation.CharcToTime` | `Valuation.CharcToTime` |
-| `Valuation.CharacteristicAuthor` | `Valuation.CharacteristicAuthor` |
-| `Valuation.ChangeNumber` | `Valuation.ChangeNumber` |
-| `Valuation.ValidityStartDate` | `Valuation.ValidityStartDate` |
-| `Valuation.ValidityEndDate` | `Valuation.ValidityEndDate` |
-| `Valuation.LastChangeDateTime` | `Valuation.LastChangeDateTime` |
+| `ClfnObjectID` | `Valuation.ClfnObjectID` |
+| `ClfnObjectTable` | `Valuation.ClfnObjectTable` |
+| `CharcInternalID` | `Valuation.CharcInternalID` |
+| `CharcValuePositionNumber` | `Valuation.CharcValuePositionNumber` |
+| `ClfnObjectType` | `Valuation.ClfnObjectType` |
+| `ClassType` | `Valuation.ClassType` |
+| `ClfnObjectInternalID` | `Valuation.ClfnObjectInternalID` |
+| `CharcValueDependency` | `Valuation.CharcValueIntervalType` |
+| `CharcValue` | `Valuation.CharcValue` |
+| `CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
+| `CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
+| `CharcToNumericValue` | `Valuation.CharcToNumericValue` |
+| `CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
+| `CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
+| `CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
+| `CharcFromAmount` | `Valuation.CharcFromAmount` |
+| `CharcToAmount` | `Valuation.CharcToAmount` |
+| `Currency` | `Valuation.Currency` |
+| `CharcFromDate` | `Valuation.CharcFromDate` |
+| `CharcToDate` | `Valuation.CharcToDate` |
+| `CharcFromTime` | `Valuation.CharcFromTime` |
+| `CharcToTime` | `Valuation.CharcToTime` |
+| `CharacteristicAuthor` | `Valuation.CharacteristicAuthor` |
+| `ChangeNumber` | `Valuation.ChangeNumber` |
+| `ValidityStartDate` | `Valuation.ValidityStartDate` |
+| `ValidityEndDate` | `Valuation.ValidityEndDate` |
+| `LastChangeDateTime` | `Valuation.LastChangeDateTime` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicValue` | *Association* |
 

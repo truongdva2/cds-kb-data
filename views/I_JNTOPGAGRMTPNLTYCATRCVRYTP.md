@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JntOpgAgrmtPnltyCatRcvry.CompanyCode` | `JntOpgAgrmtPnltyCatRcvry.CompanyCode` |
-| `key JntOpgAgrmtPnltyCatRcvry.JntOpgAgrmt` | `JntOpgAgrmtPnltyCatRcvry.JntOpgAgrmt` |
-| `key JntOpgAgrmtPnltyCatRcvry.JntVntrPenaltyCategory` | `JntOpgAgrmtPnltyCatRcvry.JntVntrPenaltyCategory` |
-| `JntOpgAgrmtPnltyCatRcvry.JntVntrNonSignatoryRcvryPct` | `JntOpgAgrmtPnltyCatRcvry.JntVntrNonSignatoryRcvryPct` |
-| `JntOpgAgrmtPnltyCatRcvry.JntVntrNonConsentRcvryPnltyPct` | `JntOpgAgrmtPnltyCatRcvry.JntVntrNonConsentRcvryPnltyPct` |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
+| `CompanyCode` | `JntOpgAgrmtPnltyCatRcvry.CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmtPnltyCatRcvry.JntOpgAgrmt` |
+| `JntVntrPenaltyCategory` | `JntOpgAgrmtPnltyCatRcvry.JntVntrPenaltyCategory` |
+| `JntVntrNonSignatoryRcvryPct` | `JntOpgAgrmtPnltyCatRcvry.JntVntrNonSignatoryRcvryPct` |
+| `JntVntrNonConsentRcvryPnltyPct` | `JntOpgAgrmtPnltyCatRcvry.JntVntrNonConsentRcvryPnltyPct` |
 
 ## Associations
 

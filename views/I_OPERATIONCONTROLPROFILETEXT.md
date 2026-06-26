@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OperationControlProfile
 ---
 # I_OPERATIONCONTROLPROFILETEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_steutxt preserving type)` | `cast(txt.txt` |
+| `Language` | `txt.spras` |
+| `OperationControlProfile` | `cast(txt.steus as pph_steus preserving type)` |
+| `OperationControlProfileName` | `cast(txt.txt as pph_steutxt preserving type)` |
 | `_Profile` | *Association* |
 | `_Language` | *Association* |
 

@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceSDDocument      : vgbel;` | `ReferenceSDDocument      : vgbel;` |
-| `_ReferenceSDDocumentItems : association [0..*] to D_SalesDocCreateWithRefItemP on 1 = 0; //reuse` | *Association* |
+| `ReferenceSDDocument` | `vgbel` |
+| `_ReferenceSDDocumentItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReferenceSDDocumentItems` | `D_SalesDocCreateWithRefItemP` | [0..*] |
 
 ## Source Code
 

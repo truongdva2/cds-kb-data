@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bfwms)` | `cast(substring(domvalue_l, 1, 1)` |
+| `CtrlPostgForExtWhseMgmtSyst` | `cast(substring(domvalue_l, 1, 1) as bfwms)` |
 | `_Text` | *Association* |
 
 ## Associations

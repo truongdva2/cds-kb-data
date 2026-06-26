@@ -32,10 +32,10 @@ tags:
 |---|---|
 | `BR_NotaFiscal` | `docnum` |
 | `BR_NotaFiscalItem` | `itmnum` |
-| `logbr_anvisa_code preserving type)` | `cast(cprodanvisa` |
-| `logbr_consumermaxprice)` | `cast(vpmc` |
-| `logbr_exemp_reason preserving type)` | `cast(exemp_reason` |
-| `_BR_NFDocumentCurrency.SalesDocumentCurrency                     as SalesDocumentCurrency` | *Association* |
+| `BR_ANVISACode` | `cast(cprodanvisa as logbr_anvisa_code preserving type)` |
+| `MedicineConsumerMaxPrice` | `cast(vpmc as logbr_consumermaxprice)` |
+| `BR_ANVISAExemptionReasonText` | `cast(exemp_reason as logbr_exemp_reason preserving type)` |
+| `SalesDocumentCurrency` | `_BR_NFDocumentCurrency.SalesDocumentCurrency` |
 | `_SalesDocumentCurrency` | *Association* |
 | `_BR_NotaFiscal` | *Association* |
 

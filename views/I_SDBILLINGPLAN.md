@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:SDBillingPlan
 ---
 # I_SDBILLINGPLAN
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingPlan` | `BillingPlan` |
+| `BillingPlan` | `BillingPlan` |
 | `BillingPlanCategory` | `BillingPlanCategory` |
 | `BillingPlanUsageCategory` | `BillingPlanUsageCategory` |
 | `BillingPlanType` | `BillingPlanType` |

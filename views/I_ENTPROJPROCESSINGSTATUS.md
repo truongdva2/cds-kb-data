@@ -15,6 +15,7 @@ tags:
   - status
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EntProjectProcessingStatus
 ---
 # I_ENTPROJPROCESSINGSTATUS
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_proc_status )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProcessingStatus` | `cast ( substring( domvalue_l, 1, 2 ) as /s4ppm/tv_proc_status )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProcessingStatusText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProcessingStatusText` | `I_EntProjProcessingStatusText` | [0..*] |
 
 ## Source Code
 

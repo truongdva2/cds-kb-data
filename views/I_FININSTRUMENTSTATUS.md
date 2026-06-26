@@ -15,6 +15,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialInstrumentStatus
 ---
 # I_FININSTRUMENTSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_saktiv )` | `cast( dd07l.domvalue_l` |
+| `FinancialInstrumentStatus` | `cast( dd07l.domvalue_l as tb_saktiv )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

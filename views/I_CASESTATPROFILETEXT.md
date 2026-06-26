@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:CaseStatusProfile
 ---
 # I_CASESTATPROFILETEXT
 
@@ -42,7 +43,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
-| `_CaseProfile` | `I_CaseStatusProfile` | [0..1] |
 
 ## Source Code
 

@@ -42,7 +42,6 @@ tags:
 | `DunningRecipient` | `knb5.knrma` |
 | `LegDunningProcedureOn` | `knb5.gmvdt` |
 | `DunningClerk` | `knb5.busab` |
-| `/*associations*/` | `/*associations*/` |
 | `_CustomerCompany` | *Association* |
 | `_Customer` | *Association* |
 | `_DunningArea` | *Association* |

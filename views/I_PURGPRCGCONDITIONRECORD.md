@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
+| `ConditionRecord` | `ConditionRecord` |
 | `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionTable` | `ConditionTable` |
 | `ConditionApplication` | `ConditionApplication` |

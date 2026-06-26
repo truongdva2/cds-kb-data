@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentItem
 ---
 # I_SALESDOCUMENTITEMSTDVH
 
@@ -34,16 +35,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
-| `I_SalesDocumentItem.SalesDocumentItemText` | `I_SalesDocumentItem.SalesDocumentItemText` |
-| `I_SalesDocumentItem.SalesDocumentType` | `I_SalesDocumentItem.SalesDocumentType` |
-| `I_SalesDocumentItem.OrganizationDivision` | `I_SalesDocumentItem.OrganizationDivision` |
-| `I_SalesDocumentItem.SalesOrganization` | `I_SalesDocumentItem.SalesOrganization` |
-| `I_SalesDocumentItem.DistributionChannel` | `I_SalesDocumentItem.DistributionChannel` |
-| `I_SalesDocumentItem._SalesDocument` | `I_SalesDocumentItem._SalesDocument` |
+| `SalesDocument` | `I_SalesDocumentItem.SalesDocument` |
+| `SalesDocumentItem` | `I_SalesDocumentItem.SalesDocumentItem` |
+| `SalesDocumentItemText` | `I_SalesDocumentItem.SalesDocumentItemText` |
+| `SalesDocumentType` | `I_SalesDocumentItem.SalesDocumentType` |
+| `OrganizationDivision` | `I_SalesDocumentItem.OrganizationDivision` |
+| `SalesOrganization` | `I_SalesDocumentItem.SalesOrganization` |
+| `DistributionChannel` | `I_SalesDocumentItem.DistributionChannel` |
+| `_SalesDocument` | *Association* |
 
 ## Associations
 

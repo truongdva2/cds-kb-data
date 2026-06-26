@@ -31,11 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_fsitemmapping preserving type )` | `cast ( _Source.mapping_id` |
+| `CnsldtnFSItemMapping` | `cast ( _Source.mapping_id as fincs_fsitemmapping preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

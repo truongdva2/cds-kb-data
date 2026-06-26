@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecuritiesAccountCategoryText
 ---
 # I_SECURITYACCOUNTCATEGORYTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `ddlanguage` |
 | `SecurityAccountCategory` | `dd07t.domvalue_l` |
-| `ftr_gen_sec_acct_cat_name preserving type)` | `cast(dd07t.ddtext` |
+| `SecurityAccountCategoryName` | `cast(dd07t.ddtext as ftr_gen_sec_acct_cat_name preserving type)` |
 | `_SecurityAccountCategory` | *Association* |
 | `_Language` | *Association* |
 

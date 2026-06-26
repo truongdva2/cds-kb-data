@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:BillingIssueType
 ---
 # I_BILLINGISSUETYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vf_todo )` | `cast( dd07l.domvalue_l` |
+| `BillingIssueType` | `cast( dd07l.domvalue_l as vf_todo )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

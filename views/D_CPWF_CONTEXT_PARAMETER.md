@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key context : abap.string;` | `context : abap.string;` |
+| `context` | `abap.string` |
 
 ## Associations
 

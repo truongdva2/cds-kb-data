@@ -32,23 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `key _Source.ConsolidationVersion` | `_Source.ConsolidationVersion` |
-| `key _Source.FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
-| `_Source.ToFiscalYearPeriod` | *Association* |
-| `_Source.CnsldtnFSItemRole` | *Association* |
-| `_Source.CnsldtnFSItemDataCollection` | *Association* |
-| `_Source.CnsldtnFSItemCrcyTranslation` | *Association* |
-| `_Source.CnsldtnFSItemElimination` | *Association* |
-| `_Source.CnsldtnFSItemCashFlow` | *Association* |
-| `_Source.CnsldtnFSItemScope` | *Association* |
-| `_Source.CnsldtnFSItemCustomerSpecific` | *Association* |
-| `_Source.CnsldtnEliminationTargetFSItem` | *Association* |
-| `_Source.CnsldtnNCITargetFSItem` | *Association* |
-| `_Source.CnsldtnPlanningTargetFSItem` | *Association* |
-| `_Source.CnsldtnOffsettingTargetFSItem` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnFSItem : redirected to parent I_CnsldtnFSItemTP` | *Association* |
+| `ConsolidationChartOfAccounts` | `_Source.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `_Source.CnsldtnFinancialStatementItem` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `_Source.ToFiscalYearPeriod` |
+| `CnsldtnFSItemRole` | `_Source.CnsldtnFSItemRole` |
+| `CnsldtnFSItemDataCollection` | `_Source.CnsldtnFSItemDataCollection` |
+| `CnsldtnFSItemCrcyTranslation` | `_Source.CnsldtnFSItemCrcyTranslation` |
+| `CnsldtnFSItemElimination` | `_Source.CnsldtnFSItemElimination` |
+| `CnsldtnFSItemCashFlow` | `_Source.CnsldtnFSItemCashFlow` |
+| `CnsldtnFSItemScope` | `_Source.CnsldtnFSItemScope` |
+| `CnsldtnFSItemCustomerSpecific` | `_Source.CnsldtnFSItemCustomerSpecific` |
+| `CnsldtnEliminationTargetFSItem` | `_Source.CnsldtnEliminationTargetFSItem` |
+| `CnsldtnNCITargetFSItem` | `_Source.CnsldtnNCITargetFSItem` |
+| `CnsldtnPlanningTargetFSItem` | `_Source.CnsldtnPlanningTargetFSItem` |
+| `CnsldtnOffsettingTargetFSItem` | `_Source.CnsldtnOffsettingTargetFSItem` |
 
 ## Associations
 

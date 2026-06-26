@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentReason
 ---
 # I_SDDOCUMENTREASONTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SDDocumentReason` | `I_SDDocumentReason` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

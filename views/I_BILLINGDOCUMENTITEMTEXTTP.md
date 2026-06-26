@@ -36,13 +36,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocument` | `BillingDocument` |
-| `key BillingDocumentItem` | `BillingDocumentItem` |
-| `key Language` | `Language` |
-| `key LongTextID` | `LongTextID` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
+| `Language` | `Language` |
+| `LongTextID` | `LongTextID` |
 | `LongText` | `LongText` |
-| `_Item               : redirected to parent I_BillingDocumentItemTP` | *Association* |
-| `_BillingDocument    : redirected to I_BillingDocumentTP` | *Association* |
 
 ## Associations
 

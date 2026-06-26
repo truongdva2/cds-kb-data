@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BOOOpSetUpType
 ---
 # I_OPERATIONSETUPTYPE
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_rasch preserving type)` | `cast(rasch` |
+| `OperationSetupType` | `cast(rasch as pph_rasch preserving type)` |
 | `Plant` | `werks` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrder
 ---
 # C_PURORDACCOUNTASSIGNMENTDEX
 
@@ -31,7 +32,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `amount.currencyCode: 'DocumentCurrency' }` | `amount.currencyCode: 'DocumentCurrency' }` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `CostCenter` | `CostCenter` |
+| `MasterFixedAsset` | `MasterFixedAsset` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `Quantity` | `Quantity` |
+| `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
+| `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
+| `PurgDocNetAmount` | `PurgDocNetAmount` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `IsDeleted` | `IsDeleted` |
+| `GLAccount` | `GLAccount` |
+| `BusinessArea` | `BusinessArea` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
+| `FixedAsset` | `FixedAsset` |
+| `OrderID` | `OrderID` |
+| `UnloadingPointName` | `UnloadingPointName` |
+| `ControllingArea` | `ControllingArea` |
+| `CostObject` | `CostObject` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
+| `ProfitCenter` | `ProfitCenter` |
+| `WBSElementInternalID` | `cast ( WBSElementInternalID as ps_s4_pspnr preserving type)` |
+| `ProjectNetworkInternalID` | `ProjectNetworkInternalID` |
+| `CommitmentItem` | `cast(CommitmentItem as abap.char(24))` |
+| `CommitmentItemShortID` | `CommitmentItemShortID` |
+| `FundsCenter` | `FundsCenter` |
+| `Fund` | `Fund` |
+| `FunctionalArea` | `FunctionalArea` |
+| `GoodsRecipientName` | `GoodsRecipientName` |
+| `IsFinallyInvoiced` | `IsFinallyInvoiced` |
+| `RealEstateObject` | `cast ( RealEstateObject as farp_imkey preserving type)` |
+| `NetworkActivityInternalID` | `NetworkActivityInternalID` |
+| `PartnerAccountNumber` | `PartnerAccountNumber` |
+| `JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
+| `SettlementReferenceDate` | `SettlementReferenceDate` |
+| `OrderInternalID` | `OrderInternalID` |
+| `OrderIntBillOfOperationsItem` | `OrderIntBillOfOperationsItem` |
+| `TaxCode` | `TaxCode` |
+| `TaxJurisdiction` | `TaxJurisdiction` |
 | `NonDeductibleInputTaxAmount` | `NonDeductibleInputTaxAmount` |
 | `CostCtrActivityType` | `CostCtrActivityType` |
 | `BusinessProcess` | `BusinessProcess` |

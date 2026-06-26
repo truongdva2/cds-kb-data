@@ -16,6 +16,7 @@ tags:
   - text
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ShippingTypeText
 ---
 # I_SHIPPINGTYPETEXT
 

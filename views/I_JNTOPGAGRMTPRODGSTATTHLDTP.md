@@ -31,16 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JntOpgAgrmt` | `JntOpgAgrmt` |
-| `key JntVntrProducingStstclRatioID` | `JntVntrProducingStstclRatioID` |
-| `key JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
+| `CompanyCode` | `CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JntVntrProducingStstclRatioID` | `JntVntrProducingStstclRatioID` |
+| `JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
 | `JntVntrThresholdNumberOfWells` | `JntVntrThresholdNumberOfWells` |
 | `JointVentureRatePerProdgWell` | `JointVentureRatePerProdgWell` |
 | `Currency` | `Currency` |
 | `_CompanyCode` | *Association* |
 | `_Currency` | *Association* |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
 
 ## Associations
 

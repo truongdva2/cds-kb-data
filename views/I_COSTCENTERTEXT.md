@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
+| `CostCenter` | `cskt.kostl` |
 | `ControllingArea` | `cskt.kokrs` |
 | `Language` | `cskt.spras` |
 | `ValidityEndDate` | `cskt.datbi` |
-| `_md.datab                                      as ValidityStartDate` | *Association* |
-| `fis_kostl_name preserving type)` | `cast(cskt.ktext` |
-| `fis_kostl_ltext preserving type)` | `cast(cskt.ltext` |
+| `ValidityStartDate` | `_md.datab` |
+| `CostCenterName` | `cast(cskt.ktext as fis_kostl_name preserving type)` |
+| `CostCenterDescription` | `cast(cskt.ltext as fis_kostl_ltext preserving type)` |
 | `_ControllingArea` | *Association* |
 | `_Language` | *Association* |
 | `_ControllingAreaText` | *Association* |

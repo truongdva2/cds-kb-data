@@ -36,10 +36,10 @@ tags:
 | `CITStatisticalKeyFigureType` | `keyfiguretype` |
 | `UnitOfMeasure` | `unitofmeasure` |
 | `Currency` | `currency` |
-| `cruser preserving type)` | `cast(created_by` |
-| `creation_date_time preserving type)` | `cast(created_at` |
-| `last_changed_by_user preserving type)` | `cast(changed_by` |
-| `last_changed_date_time preserving type)` | `cast(changed_at` |
+| `CreatedByUserName` | `cast(created_by as cruser preserving type)` |
+| `CreationDateTime` | `cast(created_at as creation_date_time preserving type)` |
+| `LastChangedByUserName` | `cast(changed_by as last_changed_by_user preserving type)` |
+| `ChangedDateTime` | `cast(changed_at as last_changed_date_time preserving type)` |
 
 ## Associations
 

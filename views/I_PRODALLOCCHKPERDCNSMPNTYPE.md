@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocChkPerdCnsmpnType
 ---
 # I_PRODALLOCCHKPERDCNSMPNTYPE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocchkperiodcnsmpntype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocChkPeriodCnsmpnType` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProdAllocChkPerdCnsmpnTypeT` | [0..*] |
 
 ## Source Code
 

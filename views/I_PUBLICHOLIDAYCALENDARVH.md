@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:BC-SRV-ASF-CAL
   - lob:Basis Components
+  - bo:PublicHolidayCalendarID
 ---
 # I_PUBLICHOLIDAYCALENDARVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
+| `PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
 | `PublicHolidayCalendarLegacyID` | `PublicHolidayCalendarLegacyID` |
 | `PublHldayCalValidityStartDate` | `PublHldayCalValidityStartDate` |
 | `PublHldayCalValidityEndDate` | `PublHldayCalValidityEndDate` |

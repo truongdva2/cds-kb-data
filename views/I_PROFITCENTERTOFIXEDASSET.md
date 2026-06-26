@@ -46,10 +46,10 @@ tags:
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
 | `SourceCostCenter` | `srce_kostl` |
-| `ps_s4_pspnr preserving type)` | `cast( srce_ps_psp_pnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
+| `SourceWBSElementInternalID` | `cast( srce_ps_psp_pnr as ps_s4_pspnr preserving type)` |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
 | `SourceOrder` | `srce_aufnr` |
-| `_OrglChange.OrglChangeEffectiveDate                        as OrglChangeEffectiveDate` | *Association* |
+| `OrglChangeEffectiveDate` | `_OrglChange.OrglChangeEffectiveDate` |
 | `_OrglChgReassignmentStatus` | *Association* |
 | `_MasterFixedAsset` | *Association* |
 | `_FixedAsset` | *Association* |

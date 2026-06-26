@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key         OrganizationalChange` | `OrganizationalChange` |
-| `key         OrderID` | `OrderID` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `OrderID` | `OrderID` |
 | `OrderIDForEdit` | `OrderIDForEdit` |
 | `ControllingArea` | `ControllingArea` |
 | `ProfitCenter` | `ProfitCenter` |
 | `ProfitCenterByOrglChange` | `ProfitCenterByOrglChange` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Status : boolean;` | `Status : boolean;` |
+| `Status` | `boolean` |
 
 ## Associations
 

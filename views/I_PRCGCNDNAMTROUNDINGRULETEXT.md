@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PrcgCndnAmountRoundingRule
 ---
 # I_PRCGCNDNAMTROUNDINGRULETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `txprf )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PrcgCndnAmountRoundingRule` | `cast ( substring( domvalue_l, 1, 1 ) as txprf )` |
+| `PrcgCndnAmountRoundingRuleText` | `cast ( ddtext as val_text )` |
 | `_PrcgCndnAmountRoundingRule` | *Association* |
 | `_Language` | *Association* |
 

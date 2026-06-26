@@ -31,17 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key CharcInternalID` | `CharcInternalID` |
+| `ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
+| `ChangeNumber` | `ChangeNumber` |
+| `CharcInternalID` | `CharcInternalID` |
 | `SortingNumber` | `SortingNumber` |
 | `Characteristic` | `Characteristic` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Group : redirected to parent I_VarCnfCharcGroupTP` | *Association* |
 
 ## Associations
 

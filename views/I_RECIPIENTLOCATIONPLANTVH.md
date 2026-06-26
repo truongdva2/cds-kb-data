@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  RecipientLocationCode` | `RecipientLocationCode` |
-| `key  Plant` | `Plant` |
-| `_RecipientLocationCode._RecipientLocationText[1: Language = $session.system_language ].RecipientLocationText` | *Association* |
+| `RecipientLocationCode` | `RecipientLocationCode` |
+| `Plant` | `Plant` |
+| `RecipientLocationText` | `expr(…)` |
 | `RecipientLocationStatus` | `RecipientLocationStatus` |
 | `_RecipientLocationCode` | *Association* |
 

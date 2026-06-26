@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JointVentureEquityType
 ---
 # I_JNTVNTREQUITYTYPEMASTER
 
@@ -29,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JntVntrEquityTypeVH'` | `name:    'I_JntVntrEquityTypeVH'` |
-| `element: 'JointVentureEquityType' }` | `element: 'JointVentureEquityType' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
 | `JointVentureEquityType` | `etype` |
 | `_CompanyCode` | *Association* |
 | `_JntVntrEquityTypeDesc` | *Association* |

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderEventCode
 ---
 # I_TRANSPORDEVENTCODE_2
 
@@ -30,7 +31,6 @@ tags:
 |---|---|
 | `TranspOrdEventCode` | `tor_event` |
 | `TranspOrdStopCategory` | `stop_cat` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_TranspOrdStopCategory` | *Association* |
 
@@ -38,6 +38,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TranspOrdEventCodeText_2` | [0..*] |
 | `_TranspOrdStopCategory` | `I_TranspOrdStopCategory_2` | [0..1] |
 
 ## Source Code

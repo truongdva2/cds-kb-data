@@ -33,9 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
-| `InternationalTrade.CommoditiyCodeNumberUnit` | `InternationalTrade.CommoditiyCodeNumberUnit` |
-| `InternationalTrade.ProdIntlTradeClassification` | `InternationalTrade.ProdIntlTradeClassification` |
+| `Product` | `InternationalTrade.Product` |
+| `Plant` | `InternationalTrade.Plant` |
+| `CountryOfOrigin` | `InternationalTrade.CountryOfOrigin` |
+| `RegionOfOrigin` | `InternationalTrade.RegionOfOrigin` |
+| `ConsumptionTaxCtrlCode` | `InternationalTrade.ConsumptionTaxCtrlCode` |
+| `ExportAndImportProductGroup` | `InternationalTrade.ExportAndImportProductGroup` |
+| `ProductCASNumber` | `InternationalTrade.ProductCASNumber` |
+| `CommoditiyCodeNumberUnit` | `InternationalTrade.CommoditiyCodeNumberUnit` |
+| `ProdIntlTradeClassification` | `InternationalTrade.ProdIntlTradeClassification` |
 | `_CountryOfOrigin` | *Association* |
 | `_RegionOfOrigin` | *Association* |
 | `_Product` | *Association* |

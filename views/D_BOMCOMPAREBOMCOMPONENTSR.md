@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ComparisonFieldName     : fieldname;` | `ComparisonFieldName     : fieldname;` |
-| `ComparisonFieldNameText : as4text;` | `ComparisonFieldNameText : as4text;` |
-| `PrimaryBOMFieldValue    : bom_detail_field;` | `PrimaryBOMFieldValue    : bom_detail_field;` |
-| `SecondaryBOMFieldValue  : bom_detail_field;` | `SecondaryBOMFieldValue  : bom_detail_field;` |
-| `FieldIsRelevantFlag     : cs_comparison_type;` | `FieldIsRelevantFlag     : cs_comparison_type;` |
-| `FieldIsDifferentFlag    : cs_comparison_type;` | `FieldIsDifferentFlag    : cs_comparison_type;` |
+| `ComparisonFieldName` | `fieldname` |
+| `ComparisonFieldNameText` | `as4text` |
+| `PrimaryBOMFieldValue` | `bom_detail_field` |
+| `SecondaryBOMFieldValue` | `bom_detail_field` |
+| `FieldIsRelevantFlag` | `cs_comparison_type` |
+| `FieldIsDifferentFlag` | `cs_comparison_type` |
 
 ## Associations
 

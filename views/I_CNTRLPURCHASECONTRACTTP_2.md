@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-HUB-CTR-2CL
   - lob:Sourcing & Procurement
+  - bo:CentralPurchaseContract
 ---
 # I_CNTRLPURCHASECONTRACTTP_2
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -78,13 +79,6 @@ tags:
 | `PurchasingDocVersionReasonCode` | `PurchasingDocVersionReasonCode` |
 | `PurchasingDocumentSubtype` | `PurchasingDocumentSubtype` |
 | `ProcmtHubCompanyCodeGroupingID` | `ProcmtHubCompanyCodeGroupingID` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralPurchaseContractItem  : redirected to composition child I_CntrlPurchaseContractItmTP_2` | *Association* |
-| `_CentralPurchaseContrHdrDistr : redirected to composition child I_CntrlPurContrHdrDistrTP_2` | *Association* |
-| `_CntrlPurContractHdrNotes     : redirected to composition child I_CntrlPurContrHdrNotesTP_2` | *Association* |
-| `_CntrlPurContrHdrCndnValidity : redirected to composition child I_CePuCoHdrCndnValdtyTP_2` | *Association* |
-| `_CntrlPurContrVersionHistory  : redirected to composition child I_CntrlPurContrVersHistoryTP_2` | *Association* |
-| `_SubordCntrlPurContract       : redirected to composition child I_SubordinateCntrlContractTP_2` | *Association* |
 
 ## Associations
 

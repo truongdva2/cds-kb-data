@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergyMix
 ---
 # I_GHGENERGYMIXVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergyMix` | `GHGEnergyMix` |
+| `GHGEnergyMix` | `GHGEnergyMix` |
 | `_Text` | *Association* |
 
 ## Associations

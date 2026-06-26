@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `versn_kk preserving type )` | `cast( left( dd07l.domvalue_l, 3 )` |
+| `CADocumentVersion` | `cast( left( dd07l.domvalue_l, 3 ) as versn_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

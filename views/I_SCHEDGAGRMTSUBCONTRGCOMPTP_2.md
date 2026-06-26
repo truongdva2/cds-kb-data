@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ReservationItem` | `ReservationItem` |
-| `key RecordType` | `RecordType` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ReservationItem` | `ReservationItem` |
+| `RecordType` | `RecordType` |
 | `Reservation` | `Reservation` |
 | `Material` | `Material` |
 | `BaseUnit` | `BaseUnit` |
@@ -87,9 +87,6 @@ tags:
 | `BOMItemText2` | `BOMItemText2` |
 | `ChangeNumber` | `ChangeNumber` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_SchedgLine     : redirected to parent I_SchedgLineTP_2` | *Association* |
-| `_SchedgAgrmtItm : redirected to I_SchedgAgrmtItmTP_2` | *Association* |
-| `_PurSchedgAgrmt : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

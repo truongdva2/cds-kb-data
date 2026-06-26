@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/spe/carrier_cnf  preserving type )` | `cast (left(dd07l.domvalue_l, 1 )` |
+| `SuplrCarrierConfExpectation` | `cast (left(dd07l.domvalue_l, 1 ) as /spe/carrier_cnf preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SuplrCarrConfExpectationT` | [0..*] |
 
 ## Source Code
 

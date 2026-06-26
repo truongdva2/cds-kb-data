@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ShiftSequence
 ---
 # I_SHIFTSEQUENCE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `seq.schgrup` |
 | `ShiftSequence` | `seq.sprog` |
 | `_ShiftGrouping` | *Association* |
 | `_Text` | *Association* |

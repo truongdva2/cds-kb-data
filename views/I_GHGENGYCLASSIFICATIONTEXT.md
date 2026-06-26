@@ -16,6 +16,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergyClassificationText
 ---
 # I_GHGENGYCLASSIFICATIONTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `sufnd_vdm_ghgenergyclass )` | `cast( dd07t.domvalue_l` |
-| `sufnd_vdm_ghgenergyclassname preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `GHGEnergyClassification` | `cast( dd07t.domvalue_l as sufnd_vdm_ghgenergyclass )` |
+| `GHGEnergyClassificationName` | `cast( dd07t.ddtext as sufnd_vdm_ghgenergyclassname preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

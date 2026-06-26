@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassInternalID
 ---
 # I_CLFNCLASSDESCFORKEYDATE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassInternalID` | `ClassInternalID` |
-| `key Language` | `Language` |
+| `ClassInternalID` | `ClassInternalID` |
+| `Language` | `Language` |
 | `ClassDescription` | `ClassDescription` |
 | `_Class` | *Association* |
 

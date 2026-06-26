@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFTextType
 ---
 # I_BR_NFTEXTTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nf_texttype preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `BR_NFTextType` | `cast( substring(domvalue_l, 1, 1) as logbr_nf_texttype preserving type )` |
 | `_BR_NFTextTypeDesc` | *Association* |
 
 ## Associations

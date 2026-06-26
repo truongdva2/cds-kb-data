@@ -32,15 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
 | `AddressID` | `AddressID` |
 | `AddressPersonID` | `AddressPersonID` |
 | `ContactPerson` | `ContactPerson` |
-| `_Delivery : redirected to parent I_CustomerReturnsDeliveryTP` | *Association* |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - document
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentReason
 ---
 # I_SDDOCUMENTREASON
 
@@ -31,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
 | `SDDocumentReason` | `augru` |
 | `RetroBillingUsage` | `vauna` |
 | `SelfBillingValueItem` | `vaugv` |

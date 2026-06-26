@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:OpBscEndDateConstraintType
 ---
 # I_OPBSCENDDATECONSTRAINTTYPET
 
@@ -30,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `einschra )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `OpBscEndDateConstraintType` | `cast( dd07t.domvalue_l as einschra )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `FinishConstraintTypeText` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_OpBscEndDateConstraintType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_OpBscEndDateConstraintType` | `I_OpBscEndDateConstraintType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

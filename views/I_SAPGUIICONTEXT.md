@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-ABA-SC
   - lob:Basis Components
+  - bo:SAPGraphicalUIIconText
 ---
 # I_SAPGUIICONTEXT
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SAPGUIIcon` | `I_SAPGUIIcon` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.Division` | `_Text.Division` |
-| `_Text.DivisionName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Division as _Division : redirected to parent I_CnsldtnDivisionTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `Division` | `_Text.Division` |
+| `DivisionName` | `_Text.DivisionName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Division` | *Association* |
 
 ## Associations
 

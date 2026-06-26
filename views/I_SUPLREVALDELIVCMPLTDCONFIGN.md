@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierEvaluationScore
 ---
 # I_SUPLREVALDELIVCMPLTDCONFIGN
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mm_pur_ana_de_delivery_compind )` | `cast ( dd07l.domvalue_l` |
+| `SuplrEvalCritraDelivCompleted` | `cast ( dd07l.domvalue_l as mm_pur_ana_de_delivery_compind )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SuplrEvalDelivCmpltdConfignT` | [0..*] |
 
 ## Source Code
 

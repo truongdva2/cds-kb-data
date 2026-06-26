@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-ML-2CL
   - lob:Controlling
+  - bo:PriceDeterminationControl
 ---
 # I_PRICEDETERMINATIONCONTROLTXT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( dd07t.ddlanguage` |
-| `fml_abst )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras )` |
+| `PriceDeterminationControl` | `cast( dd07t.domvalue_l as fml_abst )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fml_abst_text_vh preserving type )` | `cast( dd07t.ddtext` |
+| `PriceDeterminationControlName` | `cast( dd07t.ddtext as fml_abst_text_vh preserving type )` |
 | `_PriceDeterminationControl` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PriceDeterminationControl` | `I_PriceDeterminationControl` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_rmvct preserving type )` | `cast( trtyp` |
-| `fis_rmvct_grp preserving type )` | `cast( ttgrp` |
+| `FinancialTransactionType` | `cast( trtyp as fis_rmvct preserving type )` |
+| `FinancialTransactionTypeGroup` | `cast( ttgrp as fis_rmvct_grp preserving type )` |
 | `CarryForwardTransactionType` | `ttcfo` |
 | `TransactionTypeIsDerived` | `toind` |
 | `TransacTypeTotalsFormulaText` | `sumru` |

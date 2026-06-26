@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PInvItmPrntIsSortedBySpclStk : mm_im_pi_sort_special_stock;` | `PInvItmPrntIsSortedBySpclStk : mm_im_pi_sort_special_stock;` |
-| `PInvPrntSerialNumberSortOrder: mm_im_pi_sort_order;` | `PInvPrntSerialNumberSortOrder: mm_im_pi_sort_order;` |
-| `PrintQueue: apoc_print_queue;` | `PrintQueue: apoc_print_queue;` |
-| `_Items       : composition [0..*] of D_PInvDocPrintItemKeysP;` | *Association* |
+| `PInvItmPrntIsSortedBySpclStk` | `mm_im_pi_sort_special_stock` |
+| `PInvPrntSerialNumberSortOrder` | `mm_im_pi_sort_order` |
+| `PrintQueue` | `apoc_print_queue` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_PInvDocPrintItemKeysP` | [0..*] |
 
 ## Source Code
 

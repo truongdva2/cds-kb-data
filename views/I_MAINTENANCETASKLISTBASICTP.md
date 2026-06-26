@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaskListType` | `TaskListType` |
-| `key TaskListGroup` | `TaskListGroup` |
-| `key TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key TaskListVersionCounter` | `TaskListVersionCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListVersionCounter` | `TaskListVersionCounter` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `TaskListStatus` | `TaskListStatus` |
 | `TaskListStatusDesc` | `TaskListStatusDesc` |
@@ -64,10 +64,6 @@ tags:
 | `ControllingArea` | `ControllingArea` |
 | `CostCenter` | `CostCenter` |
 | `MaintenancePlant` | `MaintenancePlant` |
-| `_Header       : redirected to parent I_MaintenanceTaskListTP_2` | *Association* |
-| `_Operation    : redirected to I_MaintTaskListOpBasicTP` | *Association* |
-| `_MaintPackage : redirected to I_MaintTskListStrgyPackageTP` | *Association* |
-| `_LongText     : redirected to I_TaskListLongTextTP` | *Association* |
 
 ## Associations
 

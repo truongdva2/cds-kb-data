@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurSchedgAgrmtItmScheduleLine
 ---
 # C_SCHDAGRSCHDLNENHCDDEX
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ScheduleLineUniqueID` | `ScheduleLineUniqueID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |

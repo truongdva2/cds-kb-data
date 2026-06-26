@@ -31,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_fsitemcrcytranslation preserving type )` | `cast( _FSItemAttribValue.CnsldtnFSItemAttributeValue` |
+| `CnsldtnFSItemCrcyTranslation` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

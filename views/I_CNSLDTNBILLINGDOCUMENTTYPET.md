@@ -34,11 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast ( _Source.AdditionalMasterDataSource` |
-| `fincs_billingdocumenttypename preserving type )` | `cast ( _Source.BillingDocumentTypeName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `BillingDocumentType` | `cast(…)` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `BillingDocumentTypeName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_BillingDocumentType` | *Association* |
 

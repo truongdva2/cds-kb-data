@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_PaymentRequisitionPriority
 ---
 # I_CN_PAYTREQUISITIONPRIORITYVH
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `payreqn_priority preserving type)` | `cast(substring( domvalue_l, 1, 1 )` |
+| `PaymentRequisitionPriority` | `cast(substring( domvalue_l, 1, 1 ) as payreqn_priority preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CN_PaytRequisitionPriorityT` | [0..*] |
 
 ## Source Code
 

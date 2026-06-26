@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Supplier` | `Supplier` |
+| `Supplier` | `Supplier` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
-| `P_TotalNumberOfSuppliers.Country` | `P_TotalNumberOfSuppliers.Country` |
+| `Country` | `P_TotalNumberOfSuppliers.Country` |
 | `Region` | `Region` |
 | `NmbrOfAvailableSuppliers` | `NmbrOfAvailableSuppliers` |
 | `NumberOfContracts` | `NumberOfContracts` |
@@ -44,7 +44,11 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Country` | `I_Country` | [1..1] |
+| `_Region` | `I_Region` | [1..1] |
+| `_Supplier` | `I_Supplier` | [1..1] |
 
 ## Source Code
 

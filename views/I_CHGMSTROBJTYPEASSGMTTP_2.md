@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key ChangeNumberObjectType` | `ChangeNumberObjectType` |
-| `key SAPObjectType` | `SAPObjectType` |
+| `ChangeNumber` | `ChangeNumber` |
+| `ChangeNumberObjectType` | `ChangeNumberObjectType` |
+| `SAPObjectType` | `SAPObjectType` |
 | `IsActiveForChangeNumber` | `IsActiveForChangeNumber` |
 | `IsLockedForChanges` | `IsLockedForChanges` |
 | `IsPartiallyDisplayed` | `IsPartiallyDisplayed` |
@@ -46,7 +46,6 @@ tags:
 | `ObjectTypeLastChangedDate` | `ObjectTypeLastChangedDate` |
 | `ObjectTypeLastChangedByUser` | `ObjectTypeLastChangedByUser` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `_ChangeMaster : redirected to parent I_ChangeMasterTP_2` | *Association* |
 
 ## Associations
 

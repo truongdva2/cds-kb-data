@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:IS-OIL-PRA
   - lob:Other
+  - bo:PRAAcctgDocSmmryAcctRbl
 ---
 # I_PRAACCTGDOCSMMRYACCTSRBL
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs preserving type )` | `cast ( bukrs` |
+| `CompanyCode` | `cast ( bukrs as fis_bukrs preserving type )` |
 | `Remitter` | `remt_no` |
 | `AccountsReceivableJointVenture` | `ar_vname` |
 | `AcctsRblDivisionOfInterest` | `ar_doi_no` |
@@ -38,12 +39,12 @@ tags:
 | `Product` | `pd_cd` |
 | `SalesDate` | `sale_dt` |
 | `BalAmtAgeCode` | `age` |
-| `_CompanyCode.Currency       as CompanyCodeCurrency` | *Association* |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
 | `AcctsRblStatus` | `status` |
 | `StatusLastChangedByUser` | `status_user` |
 | `WriteOffResponsibleUser` | `awo_user` |
-| `/pra/aging_acct_perd)` | `cast(aging_period` |
-| `oiuh_acctype)` | `cast( 'AR'` |
+| `AgingPeriod` | `cast(aging_period as /pra/aging_acct_perd)` |
+| `GLAccountType` | `cast( 'AR' as oiuh_acctype)` |
 | `BalAmtInCompanyCodeCrcy` | `cur_bal` |
 | `ReceivableAmtInCoCodeCrcy` | `tot_recvbl` |
 | `CashAmtInCoCodeCrcy` | `tot_cashbl` |

@@ -31,22 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RepetitiveMfgConfirmation` | `RepetitiveMfgConfirmation` |
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key HandlingUnitExternalID` | `HandlingUnitExternalID` |
-| `key HandlingUnitItem` | `HandlingUnitItem` |
+| `RepetitiveMfgConfirmation` | `RepetitiveMfgConfirmation` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `HandlingUnitItem` | `HandlingUnitItem` |
 | `ConfirmationPlant` | `ConfirmationPlant` |
 | `Plant` | `Plant` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
-| `/* Associations */` | `/* Associations */` |
 | `_Customer` | *Association* |
 | `_CustomerCompanyByPlant` | *Association* |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
-| `_RepetitiveMfgConfirmationTP : redirected to parent I_RepetitiveMfgConfirmationTP` | *Association* |
 
 ## Associations
 

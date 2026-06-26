@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CA-FIM-FMA
   - lob:Cross-Application Components
+  - bo:CashFlowCalculationCategory
 ---
 # I_CASHFLOWCALCCATEGORYVH
 
@@ -31,10 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `tfm_calculation_category preserving type )` | `cast( CashFlowCalcCategory.sberfima` |
+| `CashFlowCalculationCategory` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

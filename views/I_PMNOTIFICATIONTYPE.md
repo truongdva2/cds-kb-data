@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceNotificationType
 ---
 # I_PMNOTIFICATIONTYPE
 
@@ -33,16 +34,13 @@ tags:
 | `NotificationType` | `qmart` |
 | `NumberRange` | `tq80.qmnuk` |
 | `NotificationOrigin` | `herkz` |
-| `_NumberRangeIntervals.externind     as IsExternalNumberRange` | *Association* |
+| `IsExternalNumberRange` | `_NumberRangeIntervals.externind` |
 | `MaintPriorityType` | `artpr` |
 | `NotificationCategory` | `qmtyp` |
 | `LongTextIsNotChangeable` | `qmltxt02` |
-| `case when _PartnerRoles.parvw is not null then 'X'` | `case when _PartnerRoles.parvw is not null then 'X'` |
-| `UserCanBeNotified` | `else '' end` |
-| `case when  _PartnerRoles.papfl = 'X' then 'X'` | `case when  _PartnerRoles.papfl = 'X' then 'X'` |
-| `UserMustBeNotified` | `else '' end` |
-| `case when  _PartnerRoles.aendb = 'X' then ''` | `case when  _PartnerRoles.aendb = 'X' then ''` |
-| `NotifiedUserCanBeDeleted` | `else 'X' end` |
+| `UserCanBeNotified` | `case when _PartnerRoles.parvw is not null then 'X' else '' end` |
+| `UserMustBeNotified` | `case when _PartnerRoles.papfl = 'X' then 'X' else '' end` |
+| `NotifiedUserCanBeDeleted` | `case when _PartnerRoles.aendb = 'X' then '' else 'X' end` |
 | `IsNotificationCreationType` | `tq80.reqmaintapp_use` |
 | `CatalogProfile` | `tq80.rbnr` |
 | `MaintNotifObjPrtCodeCatalog` | `tq80.otkat` |

@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `vvgidtype_at )` | `cast ( dd07t.domvalue_l` |
+| `BPGroupAssignmentCategory` | `cast ( dd07t.domvalue_l as vvgidtype_at )` |
 | `BPGrpAssgmtCategoryDescription` | `dd07t.ddtext` |
 | `_BPGrpAssignmentCategory` | *Association* |
 | `_Language` | *Association* |

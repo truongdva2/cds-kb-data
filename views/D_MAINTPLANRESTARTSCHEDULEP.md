@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SchedulingStartDate            : stadt ;` | `SchedulingStartDate            : stadt ;` |
-| `SchedulingStartTime            : time_start ;` | `SchedulingStartTime            : time_start ;` |
-| `MaintPlanStartCntrReadingValue : szaehc ;` | `MaintPlanStartCntrReadingValue : szaehc ;` |
-| `MaintPlanSchedFutrCallsAreKept : boolean ;` | `MaintPlanSchedFutrCallsAreKept : boolean ;` |
+| `SchedulingStartDate` | `stadt` |
+| `SchedulingStartTime` | `time_start` |
+| `MaintPlanStartCntrReadingValue` | `szaehc` |
+| `MaintPlanSchedFutrCallsAreKept` | `boolean` |
 
 ## Associations
 

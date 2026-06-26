@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupervisor
 ---
 # I_MFGORDERPRODNSUPERVISORSTDVH
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `ProductionSupervisor.ProductionSupervisorName` | `ProductionSupervisor.ProductionSupervisorName` |
+| `Plant` | `ProductionSupervisor.Plant` |
+| `ProductionSupervisor` | `ProductionSupervisor.ProductionSupervisor` |
+| `ProductionSupervisorName` | `ProductionSupervisor.ProductionSupervisorName` |
 | `_Plant` | *Association* |
 
 ## Associations

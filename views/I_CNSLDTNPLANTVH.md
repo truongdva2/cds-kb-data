@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `_CnsldtnPlant._Text[1: Language=$session.system_language].PlantName` | *Association* |
+| `Plant` | `Plant` |
+| `PlantName` | `_CnsldtnPlant._Text[1: Language=$session.system_language].PlantName` |
 
 ## Associations
 

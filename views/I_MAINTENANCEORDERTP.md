@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
 | `MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
 | `MaintenanceOrderType` | `MaintenanceOrderType` |
 | `MaintenanceOrderDesc` | `MaintenanceOrderDesc` |
@@ -128,12 +128,6 @@ tags:
 | `TaskListGroupCounter` | `TaskListGroupCounter` |
 | `_Equipment` | *Association* |
 | `_LocationAccountAssignment` | *Association* |
-| `_MaintenanceOrderOperation    : redirected to composition child I_MaintenanceOrderOperationTP` | *Association* |
-| `_MaintenanceOrderLongText     : redirected to composition child I_MaintenanceOrderLongTextTP` | *Association* |
-| `_MaintenanceOrderPartner      : redirected to composition child I_MaintenanceOrderPartnerTP` | *Association* |
-| `_MaintenanceOrderPhaseControl : redirected to composition child I_MaintOrderPhaseControlTP` | *Association* |
-| `_MaintOrderSettlmtDistrRule_2 : redirected to composition child I_MaintOrderSettlmtDistrRuleTP` | *Association* |
-| `_MaintOrderObjectListItem     : redirected to composition child I_MaintOrderObjectListItemTP` | *Association* |
 
 ## Associations
 

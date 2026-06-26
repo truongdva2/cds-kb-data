@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CmplRqVersUUID` | `CmplRqVersUUID` |
+| `CmplRqVersUUID` | `CmplRqVersUUID` |
 | `CmplRqVers` | `CmplRqVers` |
 | `ComplianceRequirement` | `ComplianceRequirement` |
 | `CmplRqVersName` | `CmplRqVersName` |

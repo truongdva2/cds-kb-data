@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnBusinessArea.BusinessArea` | `_CnsldtnBusinessArea.BusinessArea` |
-| `_CnsldtnBusinessArea.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnBusinessAreaTextTP` | *Association* |
+| `BusinessArea` | `_CnsldtnBusinessArea.BusinessArea` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnBusinessArea.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

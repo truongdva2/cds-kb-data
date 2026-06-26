@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cast( cast ( substring( dd07t.domvalue_l, 1,  2)` | `cast( cast ( substring( dd07t.domvalue_l, 1,  2)` |
-| `psm_bdgt_cnsmpn_type_grp )` | `as abap.char( 2 ) )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `psm_bdgt_cnsmpn_type_grp_text preserving type )` | `cast ( dd07t.ddtext` |
+| `PubSecBudgetCnsmpnTypeGroup` | `cast(…)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PubSecBudgetCnsmpnTypeGrpText` | `cast ( dd07t.ddtext as psm_bdgt_cnsmpn_type_grp_text preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_PubSecBudgetCnsmpnTypeGroup` | *Association* |
 | `_Language` | *Association* |
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PubSecBudgetCnsmpnTypeGroup` | `I_PubSecBudgetCnsmpnTypeGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

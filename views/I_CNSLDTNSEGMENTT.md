@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'SegmentName' }` | `status: #DEPRECATED, successor: 'SegmentName' }` |
-| `fincs_description_text_50 preserving type )` | `cast( _Source.SegmentName` |
-| `fincs_segmentname preserving type )` | `cast( _Source.SegmentName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `Segment` | `cast( _Source.Segment as fincs_segment preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.SegmentName as fincs_description_text_50 preserving type )` |
+| `SegmentName` | `cast( _Source.SegmentName as fincs_segmentname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Segment` | *Association* |
 

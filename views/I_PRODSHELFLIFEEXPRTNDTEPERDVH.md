@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ShelfLifeExpirationDatePeriod
 ---
 # I_PRODSHELFLIFEEXPRTNDTEPERDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `shelflifeexpirationdateperiod )` | `cast( dd07l.domvalue_l` |
+| `ShelfLifeExpirationDatePeriod` | `cast( dd07l.domvalue_l as shelflifeexpirationdateperiod )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

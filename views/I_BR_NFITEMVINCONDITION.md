@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFItemVINCondition
 ---
 # I_BR_NFITEMVINCONDITION
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicleconditionvin preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFItemVINCondition` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

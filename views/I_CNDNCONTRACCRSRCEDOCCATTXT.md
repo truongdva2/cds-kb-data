@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wcb_accdoc_category )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `AccrSrceDocCategory` | `cast( dd07t.domvalue_l as wcb_accdoc_category )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wcb_accr_srce_doc_cat_descr preserving type )` | `cast( dd07t.ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `AccrSrceDocCategoryName` | `cast( dd07t.ddtext as wcb_accr_srce_doc_cat_descr preserving type )` |
 | `_CndnContrAccrSrceDocCat` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CndnContrAccrSrceDocCat` | `I_CndnContrAccrSrceDocCat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

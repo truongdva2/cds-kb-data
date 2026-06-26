@@ -18,6 +18,7 @@ tags:
   - status
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeMasterStatusText
 ---
 # C_CHANGEMASTERSTATUSTEXTDEX
 
@@ -34,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
-| `key Language` | `Language` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
+| `Language` | `Language` |
 | `ChangeNumberStatusText` | `ChangeNumberStatusText` |
 | `_Language` | *Association* |
 

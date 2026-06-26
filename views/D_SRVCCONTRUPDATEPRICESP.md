@@ -27,10 +27,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'C_SrvcContrPricingTypeVH'` | `name:    'C_SrvcContrPricingTypeVH'` |
-| `element: 'PricingType' }` | `element: 'PricingType' }` |
-| `}]` | `}]` |
-| `PricingType  : crms4_pricing_type;` | `PricingType  : crms4_pricing_type;` |
+| `PricingType` | `crms4_pricing_type` |
 
 ## Associations
 

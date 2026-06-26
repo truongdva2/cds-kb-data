@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:IncotermsClassification
 ---
 # I_INCOTERMSCLASSIFICATIONTEXT
 
@@ -35,7 +36,7 @@ tags:
 |---|---|
 | `IncotermsClassification` | `inco1` |
 | `Language` | `spras` |
-| `incoterms_classification_name preserving type )` | `cast(bezei` |
+| `IncotermsClassificationName` | `cast(bezei as incoterms_classification_name preserving type )` |
 | `_IncotermsClassification` | *Association* |
 | `_Language` | *Association* |
 

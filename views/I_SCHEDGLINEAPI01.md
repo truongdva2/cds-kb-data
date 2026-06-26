@@ -30,29 +30,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_Schedgline.SchedulingAgreement` | `I_Schedgline.SchedulingAgreement` |
-| `key I_Schedgline.SchedulingAgreementItem` | `I_Schedgline.SchedulingAgreementItem` |
-| `key I_Schedgline.ScheduleLine` | `I_Schedgline.ScheduleLine` |
-| `I_Schedgline.DelivDateCategory` | `I_Schedgline.DelivDateCategory` |
-| `I_Schedgline.ScheduleLineDeliveryDate` | `I_Schedgline.ScheduleLineDeliveryDate` |
-| `I_Schedgline.SchedLineStscDeliveryDate` | `I_Schedgline.SchedLineStscDeliveryDate` |
-| `I_Schedgline.ScheduleLineDeliveryTime` | `I_Schedgline.ScheduleLineDeliveryTime` |
-| `_SchedgAgrmtItm.OrderQuantityUnit` | *Association* |
-| `I_Schedgline.ScheduleLineOrderQuantity` | `I_Schedgline.ScheduleLineOrderQuantity` |
-| `I_Schedgline.PurchaseRequisition` | `I_Schedgline.PurchaseRequisition` |
-| `I_Schedgline.PurchaseRequisitionItem` | `I_Schedgline.PurchaseRequisitionItem` |
-| `I_Schedgline.RoughGoodsReceiptQty` | `I_Schedgline.RoughGoodsReceiptQty` |
-| `I_Schedgline.ScheduleLineIsFixed` | `I_Schedgline.ScheduleLineIsFixed` |
-| `I_Schedgline.NoOfRemindersOfScheduleLine` | `I_Schedgline.NoOfRemindersOfScheduleLine` |
-| `I_Schedgline.PrevDelivQtyOfScheduleLine` | `I_Schedgline.PrevDelivQtyOfScheduleLine` |
-| `I_Schedgline.SourceOfCreation` | `I_Schedgline.SourceOfCreation` |
-| `/* Associations */` | `/* Associations */` |
+| `SchedulingAgreement` | `I_Schedgline.SchedulingAgreement` |
+| `SchedulingAgreementItem` | `I_Schedgline.SchedulingAgreementItem` |
+| `ScheduleLine` | `I_Schedgline.ScheduleLine` |
+| `DelivDateCategory` | `I_Schedgline.DelivDateCategory` |
+| `ScheduleLineDeliveryDate` | `I_Schedgline.ScheduleLineDeliveryDate` |
+| `SchedLineStscDeliveryDate` | `I_Schedgline.SchedLineStscDeliveryDate` |
+| `ScheduleLineDeliveryTime` | `I_Schedgline.ScheduleLineDeliveryTime` |
+| `OrderQuantityUnit` | `_SchedgAgrmtItm.OrderQuantityUnit` |
+| `ScheduleLineOrderQuantity` | `I_Schedgline.ScheduleLineOrderQuantity` |
+| `PurchaseRequisition` | `I_Schedgline.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `I_Schedgline.PurchaseRequisitionItem` |
+| `RoughGoodsReceiptQty` | `I_Schedgline.RoughGoodsReceiptQty` |
+| `ScheduleLineIsFixed` | `I_Schedgline.ScheduleLineIsFixed` |
+| `NoOfRemindersOfScheduleLine` | `I_Schedgline.NoOfRemindersOfScheduleLine` |
+| `PrevDelivQtyOfScheduleLine` | `I_Schedgline.PrevDelivQtyOfScheduleLine` |
+| `SourceOfCreation` | `I_Schedgline.SourceOfCreation` |
 | `_SchedgagrmthdrApi01` | *Association* |
 | `_SchedgAgrmtItmApi01` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SchedgagrmthdrApi01` | `I_SchedgagrmthdrApi01` | [1..1] |
+| `_SchedgAgrmtItmApi01` | `I_SchedgAgrmtItmApi01` | [1..1] |
 
 ## Source Code
 

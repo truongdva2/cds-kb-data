@@ -34,8 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TranspOrdItemBatchUUID` | `TranspOrdItemBatchUUID` |
+| `TranspOrdItemBatchUUID` | `TranspOrdItemBatchUUID` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `Batch` | `Batch` |
@@ -43,9 +42,8 @@ tags:
 | `BatchBySupplier` | `BatchBySupplier` |
 | `ManufactureDate` | `ManufactureDate` |
 | `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBooking     : redirected to        I_FreightBookingTP` | `FreightBookingItemBatch._TransportationOrder` |
-| `_FreightBookingItem : redirected to parent I_FreightBookingItemTP` | `FreightBookingItemBatch._TransportationOrderItem` |
+| `_FreightBooking` | *Association* |
+| `_FreightBookingItem` | *Association* |
 
 ## Associations
 

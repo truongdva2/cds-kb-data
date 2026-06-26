@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-ABA-SC
   - lob:Basis Components
+  - bo:SAPGraphicalUserInterfaceIcon
 ---
 # I_SAPGUIICON
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SAPGUIIconText` | [0..*] |
 
 ## Source Code
 

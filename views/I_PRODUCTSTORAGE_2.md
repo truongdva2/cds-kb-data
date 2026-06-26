@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductStorage
 ---
 # I_PRODUCTSTORAGE_2
 
@@ -46,11 +47,11 @@ tags:
 | `StorageBinInstruction` | `mara.behvo` |
 | `_StorageBinInstruction` | *Association* |
 | `TotalShelfLifeStoragePercent` | `mara.mhdlp` |
-| `shelflifeexpirationdateperiod  preserving type )` | `cast(mara.iprkz` |
+| `ShelfLifeExpirationDatePeriod` | `cast(mara.iprkz as shelflifeexpirationdateperiod preserving type )` |
 | `ShelfLifeExprtnDateRndngRule` | `mara.rdmhd` |
 | `AuthorizationGroup` | `mara.begru` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `TotalShelfLife, //` | `mara.mhdhb` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `TotalShelfLife` | `mara.mhdhb` |
 | `BaseUnit` | `mara.meins` |
 | `_ShelfLifeExprtnDateRndngRule` | *Association* |
 | `_LabelForm` | *Association* |

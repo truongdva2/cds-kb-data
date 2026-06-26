@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_Text_2'}` | `releaseState: #DEPRECATED, successor: '_Text_2'}` |
+| `ConsolidationReportingLevel` | `cast(left(_Domain.DomainValue, 2) as fincs_reportinglevel preserving type )` |
+| `DomainValue` | `_Domain.DomainValue` |
 | `_Text` | *Association* |
 | `_Text_2` | *Association* |
 

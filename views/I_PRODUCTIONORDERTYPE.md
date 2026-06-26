@@ -32,26 +32,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_prodnordertype preserving type)` | `cast(type.OrderType` |
-| `type.OrderNumberRange` | `type.OrderNumberRange` |
-| `type.StatusProfile` | `type.StatusProfile` |
-| `type.OperationStatusProfile` | `type.OperationStatusProfile` |
-| `type.ControllingSettlementProfile` | `type.ControllingSettlementProfile` |
-| `type.PlanningProfile` | `type.PlanningProfile` |
-| `type.BudgetProfile` | `type.BudgetProfile` |
-| `type.ResidenceTime1` | `type.ResidenceTime1` |
-| `type.ResidenceTime2` | `type.ResidenceTime2` |
-| `type.OrderIsToBeClassified` | `type.OrderIsToBeClassified` |
-| `type.OrderIsReleasedUponCreation` | `type.OrderIsReleasedUponCreation` |
-| `type.OrderHasStatusChangeDocuments` | `type.OrderHasStatusChangeDocuments` |
-| `type.SettlementIsNotRequired` | `type.SettlementIsNotRequired` |
-| `type.CollectiveOrderHasAutoGoodsMvt` | `type.CollectiveOrderHasAutoGoodsMvt` |
+| `ProductionOrderType` | `cast(type.OrderType as vdm_prodnordertype preserving type)` |
+| `OrderNumberRange` | `type.OrderNumberRange` |
+| `StatusProfile` | `type.StatusProfile` |
+| `OperationStatusProfile` | `type.OperationStatusProfile` |
+| `ControllingSettlementProfile` | `type.ControllingSettlementProfile` |
+| `PlanningProfile` | `type.PlanningProfile` |
+| `BudgetProfile` | `type.BudgetProfile` |
+| `ResidenceTime1` | `type.ResidenceTime1` |
+| `ResidenceTime2` | `type.ResidenceTime2` |
+| `OrderIsToBeClassified` | `type.OrderIsToBeClassified` |
+| `OrderIsReleasedUponCreation` | `type.OrderIsReleasedUponCreation` |
+| `OrderHasStatusChangeDocuments` | `type.OrderHasStatusChangeDocuments` |
+| `SettlementIsNotRequired` | `type.SettlementIsNotRequired` |
+| `CollectiveOrderHasAutoGoodsMvt` | `type.CollectiveOrderHasAutoGoodsMvt` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProductionOrderTypeText` | [0..*] |
 
 ## Source Code
 

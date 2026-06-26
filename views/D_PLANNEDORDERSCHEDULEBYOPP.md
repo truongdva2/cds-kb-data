@@ -30,15 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PlannedOrder                 : plnum;` | `PlannedOrder                 : plnum;` |
-| `OperationLatestStartDate    : sstad;` | `OperationLatestStartDate    : sstad;` |
-| `OperationLatestStartTime    : sstau;` | `OperationLatestStartTime    : sstau;` |
-| `OperationLatestEndDate      : sendd;` | `OperationLatestEndDate      : sendd;` |
-| `OperationLatestEndTime      : sendu;` | `OperationLatestEndTime      : sendu;` |
-| `PlndOrdOpSchedulingDirection : pph_termkz;` | `PlndOrdOpSchedulingDirection : pph_termkz;` |
-| `PlndOrdOpSchedulingStatus    : pp_pldorder_schedstatus;` | `PlndOrdOpSchedulingStatus    : pp_pldorder_schedstatus;` |
-| `PlndOrdOpSchedulingStrategy  : pp_pldorder_schedulingstrategy;` | `PlndOrdOpSchedulingStrategy  : pp_pldorder_schedulingstrategy;` |
-| `WorkCenter : arbpl;` | `WorkCenter : arbpl;` |
+| `PlannedOrder` | `plnum` |
+| `OperationLatestStartDate` | `sstad` |
+| `OperationLatestStartTime` | `sstau` |
+| `OperationLatestEndDate` | `sendd` |
+| `OperationLatestEndTime` | `sendu` |
+| `PlndOrdOpSchedulingDirection` | `pph_termkz` |
+| `PlndOrdOpSchedulingStatus` | `pp_pldorder_schedstatus` |
+| `PlndOrdOpSchedulingStrategy` | `pp_pldorder_schedulingstrategy` |
+| `WorkCenter` | `arbpl` |
 
 ## Associations
 

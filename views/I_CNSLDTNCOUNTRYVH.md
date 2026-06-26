@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Country` | `Country` |
-| `_CnsldtnCountry._Text[1: Language=$session.system_language].CountryName` | *Association* |
+| `Country` | `Country` |
+| `CountryName` | `_CnsldtnCountry._Text[1: Language=$session.system_language].CountryName` |
 
 ## Associations
 

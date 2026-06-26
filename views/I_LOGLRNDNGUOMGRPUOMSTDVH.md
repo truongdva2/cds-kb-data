@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LogisticalRoundingUoMGroup` | `LogisticalRoundingUoMGroup` |
-| `key LogisticalRoundingUoMGroupUoM` | `LogisticalRoundingUoMGroupUoM` |
+| `LogisticalRoundingUoMGroup` | `LogisticalRoundingUoMGroup` |
+| `LogisticalRoundingUoMGroupUoM` | `LogisticalRoundingUoMGroupUoM` |
 | `_UnitOfMeasure` | *Association* |
 | `_LogisticalRoundingUoMGroup` | *Association* |
 

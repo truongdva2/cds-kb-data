@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:DistrChnlHierarchyNodeText
 ---
 # I_DISTRCHANNELHIERARCHYNODET
 
@@ -30,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_distrchnl preserving type )` | `cast ( hrrp_nodet_n.hryid` |
+| `DistributionChannelHierarchy` | `cast ( hrrp_nodet_n.hryid as fis_hryid_distrchnl preserving type )` |
 | `HierarchyNode` | `hrrp_nodet_n.hrynode` |
-| `fis_datbi preserving type )` | `cast (hrrp_nodet_n.hryvalto` |
+| `ValidityEndDate` | `cast (hrrp_nodet_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `hrrp_nodet_n.spras` |
 | `HierarchyNodeText` | `hrrp_nodet_n.nodetxt` |
-| `fis_datab preserving type )` | `cast (hrrp_nodet_n.hryvalfrom` |
+| `ValidityStartDate` | `cast (hrrp_nodet_n.hryvalfrom as fis_datab preserving type )` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

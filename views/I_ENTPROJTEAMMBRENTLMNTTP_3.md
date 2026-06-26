@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectEntitlementUUID` | `ProjectEntitlementUUID` |
+| `ProjectEntitlementUUID` | `ProjectEntitlementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `ProjectRoleUUID` | `ProjectRoleUUID` |
 | `TeamMemberUUID` | `TeamMemberUUID` |
@@ -40,9 +40,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_TeamMember: redirected to parent I_EntProjectTeamMemberTP_3` | *Association* |
-| `_Role : redirected to I_EnterpriseProjectRoleTP_3` | *Association* |
-| `_EnterpriseProject : redirected to I_EnterpriseProjectTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

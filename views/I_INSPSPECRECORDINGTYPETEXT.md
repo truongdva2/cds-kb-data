@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qestukz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspSpecRecordingType` | `cast ( substring( domvalue_l, 1, 1 ) as qestukz preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qestukz_text preserving type )` | `cast( ddtext` |
+| `InspSpecRecordingTypeText` | `cast( ddtext as vdm_qestukz_text preserving type )` |
 | `_InspSpecRecordingType` | *Association* |
 | `_Language` | *Association* |
 

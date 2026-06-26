@@ -33,7 +33,6 @@ tags:
 | `REGnrcRentalObjUsageCategory` | `usagecategory` |
 | `REGenericRentalObjectType` | `objtype` |
 | `REGnrcRntlObjUsgeCatHasPrtflo` | `hasportfolio` |
-| `/* Associations*/` | `/* Associations*/` |
 | `_Text` | *Association* |
 
 ## Associations

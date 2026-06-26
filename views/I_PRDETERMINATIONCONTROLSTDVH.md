@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:PriceDeterminationControl
 ---
 # I_PRDETERMINATIONCONTROLSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PriceDeterminationControl` | `PriceDeterminationControl` |
+| `PriceDeterminationControl` | `PriceDeterminationControl` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

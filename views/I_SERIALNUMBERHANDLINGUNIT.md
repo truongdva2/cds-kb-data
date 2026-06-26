@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListHandlingUnit.HandlingUnitInternalID` | `_MaintObjListHandlingUnit.HandlingUnitInternalID` |
-| `key _MaintObjListHandlingUnit.HandlingUnitItem` | `_MaintObjListHandlingUnit.HandlingUnitItem` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintObjListHandlingUnit.HandlingUnitExternalID` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListHandlingUnit._HandlingUnit` | *Association* |
-| `_MaintObjListHandlingUnit._HandlingUnitItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `HandlingUnitInternalID` | `_MaintObjListHandlingUnit.HandlingUnitInternalID` |
+| `HandlingUnitItem` | `_MaintObjListHandlingUnit.HandlingUnitItem` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `HandlingUnitExternalID` | `_MaintObjListHandlingUnit.HandlingUnitExternalID` |
+| `_Equipment` | *Association* |
+| `_HandlingUnit` | *Association* |
+| `_HandlingUnitItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

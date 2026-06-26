@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key PaymentTerms` | `PaymentTerms` |
-| `_CustomerPaymentTermsText.CustomerPaymentTermsName              as PaymentTermsName` | *Association* |
-| `farp_paytterms_desc preserving type )` | `cast( PaymentTermsDescription` |
+| `Language` | `Language` |
+| `PaymentTerms` | `PaymentTerms` |
+| `PaymentTermsName` | `_CustomerPaymentTermsText.CustomerPaymentTermsName` |
+| `PaymentTermsDescription` | `cast( PaymentTermsDescription as farp_paytterms_desc preserving type )` |
 | `_PaymentTerms` | *Association* |
 | `_CustomerPaymentTermsText` | *Association* |
 | `_Language` | *Association* |

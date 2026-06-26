@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdPlanningStatus
 ---
 # I_TRANSPORDPLANNINGSTATUST_2
 
@@ -29,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_pln_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdPlanningStatus` | `cast(substring(domvalue_l, 1, 2) as /scmtms/vdm_tor_pln_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_pln_stat_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdPlanningStatusDesc` | `cast(ddtext as /scmtms/vdm_tor_pln_stat_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdPlanningStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdPlanningStatus` | `I_TranspOrdPlanningStatus_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

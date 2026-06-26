@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' }` | `name: 'I_ProductStdVH', element: 'Product' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
+| `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
 | `_EquipmentText` | *Association* |
 | `_FunctionalLocationText` | *Association* |
 | `_ProductText` | *Association* |

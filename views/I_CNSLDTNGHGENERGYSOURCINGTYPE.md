@@ -30,12 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGEngySourcingTypeVH'` | `name: 'I_CnsldtnGHGEngySourcingTypeVH'` |
-| `element: 'GHGEnergySourcingType'` | `element: 'GHGEnergySourcingType'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgenergysourcingtype preserving type )` | `cast( _Source.GHGEnergySourcingType` |
-| `/* associations */` | `/* associations */` |
+| `GHGEnergySourcingType` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

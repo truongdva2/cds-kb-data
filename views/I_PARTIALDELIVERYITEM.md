@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:SDPartialDeliveryCode
 ---
 # I_PARTIALDELIVERYITEM
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `PartialDeliveryIsAllowed` | `cast ( cast ( substring( domvalue_l, 1, 1 ) as abap.char( 1 ) ) as kztlf )` |
 | `_Text` | *Association* |
 
 ## Associations

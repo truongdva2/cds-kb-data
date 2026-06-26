@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingProcedureMltplSamples
 ---
 # I_SMPLGPROCEDMLTPLSAMPLESTEXT
 
@@ -31,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qkzumfs preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SamplingProcedureMltplSamples` | `cast ( substring( domvalue_l, 1, 1 ) as qkzumfs preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qkzumfs_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `SmplgProcedureMltplSamplesText` | `cast( ddtext as vdm_qkzumfs_text preserving type )` |
 | `_SmplgProcedMltplSamples` | *Association* |
 | `_Language` | *Association* |
 

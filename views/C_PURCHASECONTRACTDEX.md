@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContract
 ---
 # C_PURCHASECONTRACTDEX
 
@@ -45,7 +46,7 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `DocumentCurrency` | `DocumentCurrency` |
-| `fis_exchange_rate preserving type)` | `cast ( ExchangeRate` |
+| `ExchangeRate` | `cast ( ExchangeRate as fis_exchange_rate preserving type)` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `CompanyCode` | `CompanyCode` |
 | `IncotermsClassification` | `IncotermsClassification` |

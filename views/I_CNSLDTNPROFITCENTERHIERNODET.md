@@ -32,18 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnControllingAreaVH'` | `name: 'I_CnsldtnControllingAreaVH'` |
-| `element: 'ControllingArea'` | `element: 'ControllingArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key ControllingArea` | `ControllingArea` |
-| `fincs_profitcenterhierarchy preserving type )` | `cast(_HierarchyNodeText.CnsldtnUniversalHierarchy` |
-| `key _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `ControllingArea` | `ControllingArea` |
+| `ConsolidationPrftCtrHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_Hierarchy` | *Association* |

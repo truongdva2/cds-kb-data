@@ -14,6 +14,7 @@ tags:
   - standard-value-help
   - component:PSM
   - lob:Other
+  - bo:FinancialManagementArea
 ---
 # I_FINMGMTAREASTDVH
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_Text[1:Language = $session.system_language].FinancialManagementAreaName` | *Association* |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `FinancialManagementAreaName` | `_Text[1:Language = $session.system_language].FinancialManagementAreaName` |
 | `FinancialManagementAreaCrcy` | `FinancialManagementAreaCrcy` |
 | `FinMgmtAreaFiscalYearVariant` | `FinMgmtAreaFiscalYearVariant` |
 | `CommitmentItemIsYearDependent` | `CommitmentItemIsYearDependent` |

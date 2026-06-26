@@ -1,6 +1,11 @@
 ---
 name: I_SALESCONTRACT
 description: Salescontract
+semantic_en: "Sales contract header — an outline agreement with a customer to supply goods or services over a period under agreed terms."
+semantic_vi: "Tiêu đề hợp đồng bán hàng — thỏa thuận khung với khách hàng để cung cấp hàng hóa/dịch vụ trong một thời kỳ theo điều khoản đã thỏa thuận."
+keywords:
+  - hợp đồng bán hàng
+  - hợp đồng khung bán
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released
@@ -16,6 +21,7 @@ tags:
   - contract
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContract
 ---
 # I_SALESCONTRACT
 
@@ -32,9 +38,92 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
+| `SalesContract` | `cast(SalesDocument as sales_contract preserving type)` |
+| `SalesContractType` | `cast(SalesDocumentType as sales_contract_type preserving type )` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `SoldToParty` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `CreditControlArea` | `CreditControlArea` |
+| `CustomerRebateAgreement` | `CustomerRebateAgreement` |
+| `SalesContractDate` | `SalesDocumentDate` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SalesDistrict` |
+| `ProductCatalog` | `ProductCatalog` |
+| `SalesDocumentDescription` | `cast(SalesDocumentDescription as tdd_sls_contr_desc preserving type)` |
+| `SalesContractSignedDate` | `SalesContractSignedDate` |
+| `ContractPartnerCanclnDocDate` | `ContractPartnerCanclnDocDate` |
+| `NmbrOfSalesContractValdtyPerd` | `NmbrOfSalesContractValdtyPerd` |
+| `SalesContractValidityPerdUnit` | `SalesContractValidityPerdUnit` |
+| `SalesContractValidityPerdCat` | `SalesContractValidityPerdCat` |
+| `SalesContractValidityStartDate` | `AgrmtValdtyStartDate` |
+| `SalesContractValidityEndDate` | `AgrmtValdtyEndDate` |
+| `SlsContractCanclnReqRcptDate` | `SlsContractCanclnReqRcptDate` |
+| `RequestedCancellationDate` | `RequestedCancellationDate` |
+| `SalesContractCanclnParty` | `SalesContractCanclnParty` |
+| `SalesContractCanclnReason` | `SalesContractCanclnReason` |
+| `SalesContractCanclnProcedure` | `SalesContractCanclnProcedure` |
+| `EquipmentInstallationDate` | `EquipmentInstallationDate` |
+| `EquipmentDeliveryAccptcDate` | `EquipmentDeliveryAccptcDate` |
+| `EquipmentDismantlingDate` | `EquipmentDismantlingDate` |
+| `SalesContractFollowUpAction` | `SalesContractFollowUpAction` |
+| `SlsContractFollowUpActionDate` | `SlsContractFollowUpActionDate` |
+| `CanclnDocByContrPartner` | `CanclnDocByContrPartner` |
+| `MasterSalesContract` | `MasterSalesContract` |
+| `SlsContrPrtnAuthznForRelOrd` | `SlsContrPrtnAuthznForRelOrd` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `RetailPromotion` | `RetailPromotion` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `SalesContractCondition` | `SalesDocumentCondition` |
+| `PriceListType` | `PriceListType` |
+| `TaxDepartureCountry` | `TaxDepartureCountry` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `ShippingCondition` | `ShippingCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `CompleteDeliveryIsDefined` | `CompleteDeliveryIsDefined` |
+| `ShippingType` | `ShippingType` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingCompanyCode` | `BillingCompanyCode` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FixedValueDate` | `FixedValueDate` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `BusinessArea` | `BusinessArea` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `CostCenterBusinessArea` | `CostCenterBusinessArea` |
+| `CostCenter` | `CostCenter` |
 | `ControllingArea` | `ControllingArea` |
 | `OrderID` | `OrderID` |
 | `AssignmentReference` | `AssignmentReference` |

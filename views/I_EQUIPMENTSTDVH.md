@@ -17,6 +17,7 @@ tags:
   - equipment
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:Equipment
 ---
 # I_EQUIPMENTSTDVH
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `_EquipmentText[1:Language=$session.system_language].EquipmentName` | *Association* |
+| `Equipment` | `Equipment` |
+| `EquipmentName` | `_EquipmentText[1:Language=$session.system_language].EquipmentName` |
 | `_EquipmentText` | *Association* |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |

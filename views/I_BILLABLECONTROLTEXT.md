@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bemot preserving type )` | `cast( bemot` |
+| `BillableControl` | `cast( bemot as fis_bemot preserving type )` |
 | `Language` | `spras` |
-| `fis_bemot_name preserving type )` | `cast( bemot_txt` |
+| `BillableControlName` | `cast( bemot_txt as fis_bemot_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

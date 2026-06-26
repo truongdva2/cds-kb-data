@@ -32,7 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }, useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
+| `SchedLineStscDeliveryDate` | `SchedLineStscDeliveryDate` |
+| `PerformancePeriodStartDate` | `PerformancePeriodStartDate` |
+| `PerformancePeriodEndDate` | `PerformancePeriodEndDate` |
+| `ScheduleLineDeliveryTime` | `ScheduleLineDeliveryTime` |
+| `Batch` | `Batch` |
+| `BatchBySupplier` | `BatchBySupplier` |
+| `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
+| `OpenPurchaseOrderQuantity` | `OpenPurchaseOrderQuantity` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `Currency` | `Currency` |
 | `OpenPurchaseOrderNetAmount` | `OpenPurchaseOrderNetAmount` |
@@ -49,11 +60,6 @@ tags:
 | `GoodsIssueTime` | `GoodsIssueTime` |
 | `RouteSchedule` | `RouteSchedule` |
 | `ProductAvailabilityTime` | `ProductAvailabilityTime` |
-| `/* Composition */` | `/* Composition */` |
-| `_PurchaseOrderItem       : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
-| `_PurchaseOrder           : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_SubcontractingComponent : redirected to composition child I_POSubcontractingCompTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_Currency` | *Association* |
 | `_PurchaseOrderQuantityUnit` | *Association* |
 | `_PurchaseRequisition` | *Association* |

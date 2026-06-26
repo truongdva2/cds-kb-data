@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCntxtParCategoryUUID` | `LglCntntMCntxtParCategoryUUID` |
+| `LglCntntMCntxtParCategoryUUID` | `LglCntntMCntxtParCategoryUUID` |
 | `LglCntntMCntxtCatGroupUUID` | `LglCntntMCntxtCatGroupUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMParentCategory` | `LglCntntMParentCategory` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
-| `_LCMContextTP              : redirected to I_LegalContextTP` | *Association* |
-| `_LCMContextCategoryGroupTP : redirected to parent I_LegalContextCategoryGroupTP` | *Association* |
-| `_LCMContextCategoryTP      : redirected to composition child I_LegalContextCategoryTP` | *Association* |
 
 ## Associations
 

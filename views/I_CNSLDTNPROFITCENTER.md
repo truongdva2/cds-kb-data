@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( max ( AdditionalMasterDataSource )` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( CnsldtnIsAdditionalMasterData )` |
-| `fincs_creationdatetime preserving type )` | `cast( min ( CreationDateTime )` |
-| `/* associations */` | `/* associations */` |
+| `ProfitCenter` | `cast( ProfitCenter as fincs_profitcenter preserving type )` |
+| `ControllingArea` | `cast( ControllingArea as fincs_controllingarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
+| `CreationDateTime` | `cast( min ( CreationDateTime ) as fincs_creationdatetime preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Text` | *Association* |
 | `_ProfitCenterHierNode` | *Association* |

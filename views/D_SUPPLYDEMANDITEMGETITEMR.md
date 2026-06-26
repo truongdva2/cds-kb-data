@@ -28,51 +28,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `RowIndex                       : abap.int4;` | `RowIndex                       : abap.int4;` |
-| `Material                       : matnr;` | `Material                       : matnr;` |
-| `MRPPlant                       : werks_d;` | `MRPPlant                       : werks_d;` |
-| `MRPArea                        : berid;` | `MRPArea                        : berid;` |
-| `MRPPlanningSegmentType         : plaab;` | `MRPPlanningSegmentType         : plaab;` |
-| `MRPPlanningSegment             : planr;` | `MRPPlanningSegment             : planr;` |
-| `MaterialExternalID             : matnr;` | `MaterialExternalID             : matnr;` |
-| `MRPElement                     : del12;` | `MRPElement                     : del12;` |
-| `MRPElementItem                 : delps;` | `MRPElementItem                 : delps;` |
-| `MRPElementScheduleLine         : delet;` | `MRPElementScheduleLine         : delet;` |
-| `MRPElementCategory             : delkz;` | `MRPElementCategory             : delkz;` |
-| `MRPElementCategoryShortName    : delb0;` | `MRPElementCategoryShortName    : delb0;` |
-| `MRPElementAvailyOrRqmtDate     : dat00;` | `MRPElementAvailyOrRqmtDate     : dat00;` |
-| `MRPAvailableQuantity           : lmeng;` | `MRPAvailableQuantity           : lmeng;` |
-| `MRPElementOpenQuantity         : lmeng;` | `MRPElementOpenQuantity         : lmeng;` |
-| `MRPElementQuantityIsFirm       : flag;` | `MRPElementQuantityIsFirm       : flag;` |
-| `MRPElementDocumentType         : char4;` | `MRPElementDocumentType         : char4;` |
-| `MRPElementDocumentTypeName     : char60;` | `MRPElementDocumentTypeName     : char60;` |
-| `ProductionPlant                : werks_d;` | `ProductionPlant                : werks_d;` |
-| `StorageLocation                : char4;` | `StorageLocation                : char4;` |
-| `Assembly                       : baugr;` | `Assembly                       : baugr;` |
-| `ProductionVersion              : verid;` | `ProductionVersion              : verid;` |
-| `SourceMRPElement               : del12;` | `SourceMRPElement               : del12;` |
-| `SourceMRPElementItem           : posvr;` | `SourceMRPElementItem           : posvr;` |
-| `SourceMRPElementCategory       : delkz;` | `SourceMRPElementCategory       : delkz;` |
-| `MRPElementBusinessPartner      : char10;` | `MRPElementBusinessPartner      : char10;` |
-| `MRPElementBusinessPartnerName  : bpname;` | `MRPElementBusinessPartnerName  : bpname;` |
-| `MRPElementBusinessPartnerType  : char1;` | `MRPElementBusinessPartnerType  : char1;` |
-| `MaterialBaseUnit               : meins;` | `MaterialBaseUnit               : meins;` |
-| `UnitOfMeasureCommercialName    : mseh3;` | `UnitOfMeasureCommercialName    : mseh3;` |
-| `TargetQuantityUnitDisplayDcmls : andec;` | `TargetQuantityUnitDisplayDcmls : andec;` |
-| `TargetQuantityUnitDcmls        : decan;` | `TargetQuantityUnitDcmls        : decan;` |
-| `MaterialBaseUnitDesc           : mseh6;` | `MaterialBaseUnitDesc           : mseh6;` |
-| `UnitOfMeasureName              : mseh3;` | `UnitOfMeasureName              : mseh3;` |
-| `MRPElementIsReleased           : char1;` | `MRPElementIsReleased           : char1;` |
-| `MRPElementIsPartiallyDelivered : char1;` | `MRPElementIsPartiallyDelivered : char1;` |
-| `MRPRequestStatus               : char2;` | `MRPRequestStatus               : char2;` |
-| `MRPRequestSupplierResponse     : char2;` | `MRPRequestSupplierResponse     : char2;` |
-| `MRPAvailability                : vrfkz;` | `MRPAvailability                : vrfkz;` |
-| `MaterialSafetyStockQty         : lmeng;` | `MaterialSafetyStockQty         : lmeng;` |
-| `_DummyAssociation              : association to parent D_SupDmndItmGetPggngWthItemsR;` | *Association* |
+| `RowIndex` | `abap.int4` |
+| `Material` | `matnr` |
+| `MRPPlant` | `werks_d` |
+| `MRPArea` | `berid` |
+| `MRPPlanningSegmentType` | `plaab` |
+| `MRPPlanningSegment` | `planr` |
+| `MaterialExternalID` | `matnr` |
+| `MRPElement` | `del12` |
+| `MRPElementItem` | `delps` |
+| `MRPElementScheduleLine` | `delet` |
+| `MRPElementCategory` | `delkz` |
+| `MRPElementCategoryShortName` | `delb0` |
+| `MRPElementAvailyOrRqmtDate` | `dat00` |
+| `MRPAvailableQuantity` | `lmeng` |
+| `MRPElementOpenQuantity` | `lmeng` |
+| `MRPElementQuantityIsFirm` | `flag` |
+| `MRPElementDocumentType` | `char4` |
+| `MRPElementDocumentTypeName` | `char60` |
+| `ProductionPlant` | `werks_d` |
+| `StorageLocation` | `char4` |
+| `Assembly` | `baugr` |
+| `ProductionVersion` | `verid` |
+| `SourceMRPElement` | `del12` |
+| `SourceMRPElementItem` | `posvr` |
+| `SourceMRPElementCategory` | `delkz` |
+| `MRPElementBusinessPartner` | `char10` |
+| `MRPElementBusinessPartnerName` | `bpname` |
+| `MRPElementBusinessPartnerType` | `char1` |
+| `MaterialBaseUnit` | `meins` |
+| `UnitOfMeasureCommercialName` | `mseh3` |
+| `TargetQuantityUnitDisplayDcmls` | `andec` |
+| `TargetQuantityUnitDcmls` | `decan` |
+| `MaterialBaseUnitDesc` | `mseh6` |
+| `UnitOfMeasureName` | `mseh3` |
+| `MRPElementIsReleased` | `char1` |
+| `MRPElementIsPartiallyDelivered` | `char1` |
+| `MRPRequestStatus` | `char2` |
+| `MRPRequestSupplierResponse` | `char2` |
+| `MRPAvailability` | `vrfkz` |
+| `MaterialSafetyStockQty` | `lmeng` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_SupDmndItmGetPggngWthItemsR` | — |
 
 ## Source Code
 

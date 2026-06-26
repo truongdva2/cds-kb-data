@@ -32,11 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ControllingArea'` | `localElement: 'ControllingArea'` |
-| `element: 'ControllingArea' }]` | `element: 'ControllingArea' }]` |
-| `}]` | `}]` |
-| `fis_kostl preserving type )` | `cast ( hrrp_node_n.kostl` |
-| `SequenceNumber, // do not use any longer, use HierarchyNodeSequence` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
+| `ControllingArea` | `cast( hrrp_node_n.kokrs as fis_kokrs preserving type )` |
+| `CostCenterHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_cctr preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ParentNode` | `hrrp_node_n.parnode` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
+| `CostCenter` | `cast ( hrrp_node_n.kostl as fis_kostl preserving type )` |
+| `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |
 | `NodeType` | `hrrp_node_n.nodetype` |

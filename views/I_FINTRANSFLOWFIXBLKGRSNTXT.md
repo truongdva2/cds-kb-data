@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransFlowFixingBlkgReason
 ---
 # I_FINTRANSFLOWFIXBLKGRSNTXT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_ssprgrd )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinTransFlowFixingBlkgReason` | `cast( dd07t.domvalue_l as tb_ssprgrd )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_ssprgrd_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinTransFlowFixingBlkgRsnName` | `cast( dd07t.ddtext as tb_ssprgrd_name preserving type )` |
 | `_FixingBlockingReason` | *Association* |
 | `_Language` | *Association* |
 

@@ -28,14 +28,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CaseAttachmentName      : bapidocid;` | `CaseAttachmentName      : bapidocid;` |
-| `MimeType                : w3conttype;` | `MimeType                : w3conttype;` |
-| `UploadFileContentBinary : dispute_attachment_content;` | `UploadFileContentBinary : dispute_attachment_content;` |
-| `_ChildToParent          : association to parent D_ARDisputeCaseChangeP;` | *Association* |
+| `CaseAttachmentName` | `bapidocid` |
+| `MimeType` | `w3conttype` |
+| `UploadFileContentBinary` | `dispute_attachment_content` |
+| `_ChildToParent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ChildToParent` | `D_ARDisputeCaseChangeP` | — |
 
 ## Source Code
 

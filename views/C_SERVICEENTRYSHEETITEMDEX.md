@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheetItem
 ---
 # C_SERVICEENTRYSHEETITEMDEX
 
@@ -61,7 +62,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
 | `_AccountAssignmentCategory` | *Association* |
 | `_UnitOfMeasure` | *Association* |
@@ -73,7 +73,6 @@ tags:
 | `_PurchasingOrganization` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_Plant` | *Association* |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_ServiceEntrySheetDEX` | *Association* |
 | `_ServiceEntrySheet` | *Association* |
 

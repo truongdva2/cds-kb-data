@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AcademicTitle
 ---
 # I_ACADEMICTITLE
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_AcademicTitleText` | [0..*] |
 
 ## Source Code
 

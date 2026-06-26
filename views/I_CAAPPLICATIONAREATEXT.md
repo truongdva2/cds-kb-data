@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CAApplicationArea` | `ApplArea.CAApplicationArea` |
-| `spras preserving type )` | `cast( DomainText.ddlanguage` |
-| `applk_text_kk preserving type )` | `cast( DomainText.ddtext` |
+| `Language` | `cast( DomainText.ddlanguage as spras preserving type )` |
+| `CAApplicationAreaText` | `cast( DomainText.ddtext as applk_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

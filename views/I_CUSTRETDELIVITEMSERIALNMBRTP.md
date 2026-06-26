@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
-| `key CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
-| `key SerialNumber` | `SerialNumber` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
+| `SerialNumber` | `SerialNumber` |
 | `Equipment` | `Equipment` |
 | `Material` | `Material` |
-| `_Delivery : redirected to I_CustomerReturnsDeliveryTP` | *Association* |
-| `_Item: redirected to parent I_CustomerReturnsDelivItemTP` | *Association* |
 
 ## Associations
 

@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierInvoiceItmAcctAssgmt.SupplierInvoice` | `I_SupplierInvoiceItmAcctAssgmt.SupplierInvoice` |
-| `key I_SupplierInvoiceItmAcctAssgmt.FiscalYear` | `I_SupplierInvoiceItmAcctAssgmt.FiscalYear` |
-| `key SupplierInvoiceItem` | `SupplierInvoiceItem` |
-| `key OrdinalNumber` | `OrdinalNumber` |
+| `SupplierInvoice` | `I_SupplierInvoiceItmAcctAssgmt.SupplierInvoice` |
+| `FiscalYear` | `I_SupplierInvoiceItmAcctAssgmt.FiscalYear` |
+| `SupplierInvoiceItem` | `SupplierInvoiceItem` |
+| `OrdinalNumber` | `OrdinalNumber` |
 | `CostCenter` | `CostCenter` |
 | `ControllingArea` | `ControllingArea` |
 | `BusinessArea` | `BusinessArea` |
@@ -47,7 +47,7 @@ tags:
 | `BusinessProcess` | `BusinessProcess` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementInternalID_2` | `WBSElementInternalID_2` |
-| `I_SupplierInvoiceItmAcctAssgmt.DocumentCurrency` | `I_SupplierInvoiceItmAcctAssgmt.DocumentCurrency` |
+| `DocumentCurrency` | `I_SupplierInvoiceItmAcctAssgmt.DocumentCurrency` |
 | `SupplierInvoiceItemAmount` | `SupplierInvoiceItemAmount` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `Quantity` | `Quantity` |
@@ -70,14 +70,13 @@ tags:
 | `Fund` | `Fund` |
 | `GrantID` | `GrantID` |
 | `PartnerBusinessArea` | `PartnerBusinessArea` |
-| `I_SupplierInvoiceItmAcctAssgmt.TaxCountry` | `I_SupplierInvoiceItmAcctAssgmt.TaxCountry` |
+| `TaxCountry` | `I_SupplierInvoiceItmAcctAssgmt.TaxCountry` |
 | `ServiceDocument` | `ServiceDocument` |
 | `ServiceDocumentItem` | `ServiceDocumentItem` |
 | `ServiceDocumentType` | `ServiceDocumentType` |
-| `/* Associations */` | `/* Associations */` |
 | `_SupplierInvoiceAPI01` | *Association* |
 | `_SuplrInvcItemPurOrdRefAPI01` | *Association* |
-| `I_SupplierInvoiceItmAcctAssgmt._Currency` | `I_SupplierInvoiceItmAcctAssgmt._Currency` |
+| `_Currency` | *Association* |
 | `_UnitOfMeasure` | *Association* |
 | `_WBSElementBasicData` | *Association* |
 

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMInboundDelivery` | `EWMInboundDelivery` |
-| `key EWMInboundDeliveryItem` | `EWMInboundDeliveryItem` |
+| `EWMInboundDelivery` | `EWMInboundDelivery` |
+| `EWMInboundDeliveryItem` | `EWMInboundDeliveryItem` |
 | `InboundDeliveryUUID` | `InboundDeliveryUUID` |
 | `InboundDeliveryItemUUID` | `InboundDeliveryItemUUID` |
 | `EWMWarehouse` | `EWMWarehouse` |
@@ -42,7 +42,6 @@ tags:
 | `EWMDeliveryDocumentCategory` | `EWMDeliveryDocumentCategory` |
 | `EWMInboundDeliveryItemCategory` | `EWMInboundDeliveryItemCategory` |
 | `EWMInboundDeliveryItemType` | `EWMInboundDeliveryItemType` |
-| `/* Product */` | `/* Product */` |
 | `Product` | `Product` |
 | `ProductExternalID` | `ProductExternalID` |
 | `Batch` | `Batch` |
@@ -59,11 +58,9 @@ tags:
 | `SerialNumberRequiredLevel` | `SerialNumberRequiredLevel` |
 | `EWMWhseReqItmBBDSLEDUTCDteTme` | `EWMWhseReqItmBBDSLEDUTCDteTme` |
 | `EWMWhseReqItmProdnDteTme` | `EWMWhseReqItmProdnDteTme` |
-| `/* Staging */` | `/* Staging */` |
 | `StagingAreaGroup` | `StagingAreaGroup` |
 | `StagingArea` | `StagingArea` |
 | `StagingBay` | `StagingBay` |
-| `/* Status */` | `/* Status */` |
 | `GoodsReceiptStatus` | `GoodsReceiptStatus` |
 | `EWMGoodsReceiptAndDistrStatus` | `EWMGoodsReceiptAndDistrStatus` |
 | `PlanningPutawayStatus` | `PlanningPutawayStatus` |
@@ -79,7 +76,6 @@ tags:
 | `EWMDelivLastChangeUTCDateTime` | `EWMDelivLastChangeUTCDateTime` |
 | `EntitledToDisposeParty` | `EntitledToDisposeParty` |
 | `EntitledToDisposePartyName` | `EntitledToDisposePartyName` |
-| `/* Stock */` | `/* Stock */` |
 | `EWMStockUsage` | `EWMStockUsage` |
 | `EWMStockType` | `EWMStockType` |
 | `EWMStockOwner` | `EWMStockOwner` |
@@ -87,14 +83,12 @@ tags:
 | `EWMGoodsRecipient` | `EWMGoodsRecipient` |
 | `EWMRecipientLocationName` | `EWMRecipientLocationName` |
 | `DeliveryItemStockTypeDetnCode` | `DeliveryItemStockTypeDetnCode` |
-| `/* Special Stock */` | `/* Special Stock */` |
 | `ExternalStockDocumentNumber` | `ExternalStockDocumentNumber` |
 | `StockDocumentCategory` | `StockDocumentCategory` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
 | `SpecialStockIdfgSalesOrder` | `SpecialStockIdfgSalesOrder` |
 | `SpecialStockIdfgSalesOrderItem` | `SpecialStockIdfgSalesOrderItem` |
-| `/* Reference Document*/` | `/* Reference Document*/` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `ManufacturingOrder` | `ManufacturingOrder` |
@@ -103,7 +97,6 @@ tags:
 | `MaintenanceOrder` | `MaintenanceOrder` |
 | `InboundDelivery` | `InboundDelivery` |
 | `InboundDeliveryItem` | `InboundDeliveryItem` |
-| `_WhseInbDeliveryHead : redirected to parent I_EWM_InbDeliveryHeaderTP` | *Association* |
 
 ## Associations
 

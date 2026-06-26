@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `calld_kk preserving type )` | `cast( left( dd07l.domvalue_l, 3 )` |
+| `CADisputeExternalCallerCode` | `cast( left( dd07l.domvalue_l, 3 ) as calld_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

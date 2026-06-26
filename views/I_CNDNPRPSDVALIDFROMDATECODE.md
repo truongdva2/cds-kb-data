@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PrcgCndnPrpsdValidFromDateCode
 ---
 # I_CNDNPRPSDVALIDFROMDATECODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dtvob )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgCndnPrpsdValidFromDateCode` | `cast ( substring( domvalue_l, 1, 1 ) as dtvob )` |
 | `_Text` | *Association* |
 
 ## Associations

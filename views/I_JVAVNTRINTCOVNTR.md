@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JointVenture
 ---
 # I_JVAVNTRINTCOVNTR
 
@@ -30,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CompanyCode` | `bukrs` |
-| `jv_name preserving type )` | `cast( vname` |
+| `JointVenture` | `cast( vname as jv_name preserving type )` |
 | `JointVentureEquityGroup` | `egrup` |
 | `JntVntrIntcoCode` | `intcocd` |
 | `JointVentureIntcoVenture` | `intcomvent` |

@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MsmtRdngDate` | `MsmtRdngDate` |
-| `key MsmtRdngTime` | `MsmtRdngTime` |
-| `key MsmtRdngSourceMeasurementDoc` | `MsmtRdngSourceMeasurementDoc` |
-| `key MeasuringPoint` | `MeasuringPoint` |
+| `MsmtRdngDate` | `MsmtRdngDate` |
+| `MsmtRdngTime` | `MsmtRdngTime` |
+| `MsmtRdngSourceMeasurementDoc` | `MsmtRdngSourceMeasurementDoc` |
+| `MeasuringPoint` | `MeasuringPoint` |
 | `MsmtRdngTransfFailedMsgNumber` | `MsmtRdngTransfFailedMsgNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `_MeasurementDocument : redirected to parent I_MeasurementDocumentTP_2` | *Association* |
 
 ## Associations
 

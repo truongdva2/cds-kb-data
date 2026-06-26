@@ -34,15 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ControllingArea` | `ControllingArea` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `Language` | `Language` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `LanguageForEdit` | `LanguageForEdit` |
 | `ProfitCenterName` | `ProfitCenterName` |
 | `ProfitCenterLongName` | `ProfitCenterLongName` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProfitCenterTP : redirected to parent I_ProfitCenterTP_2` | *Association* |
 
 ## Associations
 

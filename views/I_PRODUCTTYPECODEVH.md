@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductTypeCode
 ---
 # I_PRODUCTTYPECODEVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_ProductTypeCode.ProductTypeCode` | `I_ProductTypeCode.ProductTypeCode` |
-| `I_ProductTypeCode._Text` | `I_ProductTypeCode._Text` |
+| `ProductTypeCode` | `I_ProductTypeCode.ProductTypeCode` |
+| `_Text` | *Association* |
 
 ## Associations
 

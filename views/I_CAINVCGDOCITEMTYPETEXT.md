@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CAInvcgDocItemTypeCustText.CAInvcgDocumentItemType` | `_CAInvcgDocItemTypeCustText.CAInvcgDocumentItemType` |
-| `key _CAInvcgDocItemTypeCustText.Language` | `_CAInvcgDocItemTypeCustText.Language` |
-| `_CAInvcgDocItemTypeCustText.CAInvcgDocItemTypeText` | *Association* |
+| `CAInvcgDocumentItemType` | `_CAInvcgDocItemType0Text.CAInvcgDocumentItemType` |
+| `Language` | `_CAInvcgDocItemType0Text.Language` |
+| `CAInvcgDocItemTypeText` | `_CAInvcgDocItemType0Text.CAInvcgDocItemTypeText` |
 | `_CAInvcgDocItemType` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,7 +43,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_CAInvcgDocItemType` | `I_CAInvcgDocItemType` | [0..1] |
 | `_CAInvcgDocItemType` | `I_CAInvcgDocItemType` | [0..1] |
 
 ## Source Code

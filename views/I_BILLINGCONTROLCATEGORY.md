@@ -15,6 +15,7 @@ tags:
   - billing
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:BillingControlCategory
 ---
 # I_BILLINGCONTROLCATEGORY
 

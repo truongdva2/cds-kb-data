@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalRspLifecycleStatus
 ---
 # I_SUPLREVALRSPLIFECYCLESTSTEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/srs_lifecycle_stat_cd preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrEvalRspLifecycleStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type)` | `cast(ddtext` |
+| `SuplrEvalRspLifecycleStsName` | `cast(ddtext as /srmsmc/status_descr preserving type)` |
 | `_SuplrEvalRspLifecycleSts` | *Association* |
 | `_Language` | *Association* |
 

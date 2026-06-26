@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TR_EDocAccountNumberOfSupplier` | `TR_EDocAccountNumberOfSupplier` |
+| `TR_EDocAccountNumberOfSupplier` | `TR_EDocAccountNumberOfSupplier` |
 | `TR_ElectronicDocumentScenario` | `TR_ElectronicDocumentScenario` |
 
 ## Associations

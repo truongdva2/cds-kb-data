@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TranspOrderExecutionBlock
 ---
 # I_TRANSPORDEXECUTIONISBLOCKED
 
@@ -29,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_block_execution preserving type )` | `cast(substring(domvalue_l, 1, 1)` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdExecutionIsBlocked` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdExecutionBlockText` | [0..*] |
 
 ## Source Code
 

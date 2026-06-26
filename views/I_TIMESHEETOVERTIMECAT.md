@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetOvertimeCategory
 ---
 # I_TIMESHEETOVERTIMECAT
 
@@ -29,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
 | `TimeSheetOvertimeCategory` | `ovtmcat.overtimecat` |
 | `_TimeSheetOvertimeCatText` | *Association* |
 

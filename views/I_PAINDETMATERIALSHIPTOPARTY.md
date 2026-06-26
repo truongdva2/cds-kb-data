@@ -37,12 +37,11 @@ tags:
 | `ConditionValidityEndDate` | `PaInDetRec.datbi` |
 | `ConditionValidityStartDate` | `PaInDetRec.datab` |
 | `ConditionRecord` | `PaInDetRec.knumh` |
-| `pl_packinstnr preserving type )` | `cast( Conditions.packnr` |
-| `pl_altpacknr1 preserving type )` | `cast( Conditions.packnr1` |
-| `pl_altpacknr2 preserving type )` | `cast( Conditions.packnr2` |
-| `pl_altpacknr3 preserving type )` | `cast( Conditions.packnr3` |
-| `pl_altpacknr4 preserving type )` | `cast( Conditions.packnr4` |
-| `/* Associations */` | `/* Associations */` |
+| `PackingInstructionSystemUUID` | `cast( Conditions.packnr as pl_packinstnr preserving type )` |
+| `PackingInstructionAlt1SystUUID` | `cast( Conditions.packnr1 as pl_altpacknr1 preserving type )` |
+| `PackingInstructionAlt2SystUUID` | `cast( Conditions.packnr2 as pl_altpacknr2 preserving type )` |
+| `PackingInstructionAlt3SystUUID` | `cast( Conditions.packnr3 as pl_altpacknr3 preserving type )` |
+| `PackingInstructionAlt4SystUUID` | `cast( Conditions.packnr4 as pl_altpacknr4 preserving type )` |
 | `_ConditionType` | *Association* |
 | `_Material` | *Association* |
 | `_ShipToParty` | *Association* |

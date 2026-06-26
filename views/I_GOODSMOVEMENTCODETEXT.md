@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `gm_code)` | `cast(substring(domvalue_l, 1, 2)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `nsdm_gds_mvt_code_name preserving type)` | `cast(ddtext` |
+| `GoodsMovementCode` | `cast(substring(domvalue_l, 1, 2) as gm_code)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `GoodsMovementCodeName` | `cast(ddtext as nsdm_gds_mvt_code_name preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_GoodsMovementCode` | *Association* |
 | `_Language` | *Association* |

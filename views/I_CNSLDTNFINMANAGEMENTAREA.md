@@ -30,13 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinManagementAreaVH'` | `name: 'I_CnsldtnFinManagementAreaVH'` |
-| `element: 'FinancialManagementArea'` | `element: 'FinancialManagementArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialmanagementarea preserving type )` | `cast( _Source.FinancialManagementArea` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _Source.CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `FinancialManagementArea` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

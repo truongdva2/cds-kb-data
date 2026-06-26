@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-FQM-2CL
   - lob:Other
+  - bo:CashFlowPlanningLevel
 ---
 # I_PLANNINGLEVEL
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PlanningLevelText` | [0..*] |
 
 ## Source Code
 

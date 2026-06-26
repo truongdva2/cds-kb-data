@@ -51,10 +51,8 @@ tags:
 | `CASEPAMandateIsRequired` | `xsepa` |
 | `CASEPAPrenotificationIsCreated` | `pnopt` |
 | `CARealTimePaymentCategory` | `rtpty` |
-| `/* associations */` | `/* associations */` |
 | `_Text` | *Association* |
 | `_Country` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `CASuplmntForPaytMediumFormat` | `formz` |
 | `CAIBANAndOrSwiftCodeIsRequired` | `xiban` |
 

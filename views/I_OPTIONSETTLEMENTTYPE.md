@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransOptionSettlementType
 ---
 # I_OPTIONSETTLEMENTTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `option_settlement_type)` | `cast(DomainValue.domvalue_l` |
+| `OptionSettlementType` | `cast(DomainValue.domvalue_l as option_settlement_type)` |
 | `_Text` | *Association* |
 
 ## Associations

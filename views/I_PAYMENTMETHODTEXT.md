@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-AP-IS-2CL
   - lob:Finance
+  - bo:PaymentMethod
 ---
 # I_PAYMENTMETHODTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  P_PaymentMethodText.Country` | `P_PaymentMethodText.Country` |
-| `key  P_PaymentMethodText.PaymentMethod` | `P_PaymentMethodText.PaymentMethod` |
-| `key  P_PaymentMethodText.Language` | `P_PaymentMethodText.Language` |
-| `P_PaymentMethodText.PaymentMethodDescription` | `P_PaymentMethodText.PaymentMethodDescription` |
+| `Country` | `P_PaymentMethodText.Country` |
+| `PaymentMethod` | `P_PaymentMethodText.PaymentMethod` |
+| `Language` | `P_PaymentMethodText.Language` |
+| `PaymentMethodDescription` | `P_PaymentMethodText.PaymentMethodDescription` |
 | `_Country` | *Association* |
 | `_Language` | *Association* |
 

@@ -33,15 +33,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'ProjDmndOverallRevenueCurrency'} }` | `currencyCode: 'ProjDmndOverallRevenueCurrency'} }` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjectDemand` | `ProjectDemand` |
+| `ProjectDemandName` | `ProjectDemandName` |
+| `ProjectDemandDescription` | `ProjectDemandDescription` |
+| `ProjectDemandCategory` | `ProjectDemandCategory` |
+| `ProjectDemandType` | `ProjectDemandType` |
+| `ProjectUUID` | `ProjectUUID` |
+| `ReferencedObjectUUID` | `ReferencedObjectUUID` |
+| `ProjectDemandStatus` | `ProjectDemandStatus` |
+| `ProjectDemandDateMaintenance` | `ProjectDemandDateMaintenance` |
+| `ProjectDemandStartDate` | `ProjectDemandStartDate` |
+| `ProjectDemandEndDate` | `ProjectDemandEndDate` |
+| `ProjectDemandReleasedDateTime` | `ProjectDemandReleasedDateTime` |
+| `ProjDmndActualSupplyDate` | `ProjDmndActualSupplyDate` |
+| `ProjectDemandPerUnitAmount` | `ProjectDemandPerUnitAmount` |
+| `ProjectDemandRequestCurrency` | `ProjectDemandRequestCurrency` |
+| `ProjDmndRequestedQuantityUnit` | `ProjDmndRequestedQuantityUnit` |
+| `PriceUnitQty` | `PriceUnitQty` |
+| `ProjectDemandRequestNetAmount` | `ProjectDemandRequestNetAmount` |
+| `ProjDmndReqNetAmountCurrency` | `ProjDmndReqNetAmountCurrency` |
+| `ProjectDemandOverallAmount` | `ProjectDemandOverallAmount` |
+| `ProjDmndRequestedQuantity` | `ProjDmndRequestedQuantity` |
+| `Plant` | `Plant` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDateTime` | `CreationDateTime` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `ProjectDemandLastChangedByUser` | `ProjectDemandLastChangedByUser` |
+| `ProjDemandLastChangeDateTime` | `ProjDemandLastChangeDateTime` |
 | `ProjectDemandOverallRevenue` | `ProjectDemandOverallRevenue` |
 | `ProjDmndOverallRevenueCurrency` | `ProjDmndOverallRevenueCurrency` |
 | `ProjDmndDataModelVersion` | `ProjDmndDataModelVersion` |
-| `/* Associations */` | `/* Associations */` |
-| `_Material : redirected to composition child I_ProjectDemandMaterialTP_2` | *Association* |
-| `_Service  : redirected to composition child I_ProjectDemandServiceTP_2` | *Association* |
-| `_Work     : redirected to composition child I_ProjectDemandResourceTP` | *Association* |
-| `_Expense  : redirected to composition child I_ProjectDemandExpenseTP` | *Association* |
 | `_WorkPackage` | *Association* |
 | `_ProjectDemandCurrency` | *Association* |
 | `_ProjectDemandNetCurrency` | *Association* |

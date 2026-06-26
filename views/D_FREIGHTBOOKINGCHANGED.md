@@ -13,6 +13,7 @@ tags:
   - freight
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:FreightBooking
 ---
 # D_FREIGHTBOOKINGCHANGED
 
@@ -29,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrder        : /scmtms/tor_id;` | `TransportationOrder        : /scmtms/tor_id;` |
-| `TransportationOrderType    : /scmtms/tor_type;` | `TransportationOrderType    : /scmtms/tor_type;` |
-| `TransportationMode         : /scmtms/trmodcode;` | `TransportationMode         : /scmtms/trmodcode;` |
-| `TransportationShippingType : /scmtms/shipping_type;` | `TransportationShippingType : /scmtms/shipping_type;` |
-| `Carrier                    : /scmtms/pty_carrier;` | `Carrier                    : /scmtms/pty_carrier;` |
-| `TranspPurgOrgExtID         : /scmtms/vdm_pur_org_ext_id;` | `TranspPurgOrgExtID         : /scmtms/vdm_pur_org_ext_id;` |
+| `TransportationOrder` | `/scmtms/tor_id` |
+| `TransportationOrderType` | `/scmtms/tor_type` |
+| `TransportationMode` | `/scmtms/trmodcode` |
+| `TransportationShippingType` | `/scmtms/shipping_type` |
+| `Carrier` | `/scmtms/pty_carrier` |
+| `TranspPurgOrgExtID` | `/scmtms/vdm_pur_org_ext_id` |
 
 ## Associations
 

@@ -29,17 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key SubscriptionRateElementNumber` | `SubscriptionRateElementNumber` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SubscriptionRateElementNumber` | `SubscriptionRateElementNumber` |
 | `Currency` | `Currency` |
 | `SubscriptionRateElement` | `SubscriptionRateElement` |
 | `SubscriptionRateElementType` | `SubscriptionRateElementType` |
 | `SubscrpnRateElementNetAmount` | `SubscrpnRateElementNetAmount` |
 | `SubscrpnRateElementGrossAmount` | `SubscrpnRateElementGrossAmount` |
 | `SubscrpnRateElementTaxAmount` | `SubscrpnRateElementTaxAmount` |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
 | `_SubscriptionBilling` | *Association* |
 | `_SubscriptionBillingItem` | *Association* |
 | `_SubscrpnRateElementTypeText` | *Association* |

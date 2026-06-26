@@ -102,14 +102,12 @@ tags:
 | `_SupplyingPlant` | *Association* |
 | `_Language` | *Association* |
 
-
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_PurchaseOrderItem` | `C_PurchaseOrderItemDEX` | [0..*] |
 | `_HeaderExtension` | `E_PurchasingDocument` | [0..1] |
-
 
 ## Source Code
 

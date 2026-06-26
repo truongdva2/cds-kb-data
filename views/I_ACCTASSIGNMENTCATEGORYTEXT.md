@@ -14,6 +14,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:AccountAssignmentCategory
 ---
 # I_ACCTASSIGNMENTCATEGORYTEXT
 
@@ -40,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_AccountAssignmentCat` | `I_AccountAssignmentCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

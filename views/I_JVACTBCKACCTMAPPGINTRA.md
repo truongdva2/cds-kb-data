@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:FromGLAccount
 ---
 # I_JVACTBCKACCTMAPPGINTRA
 
@@ -29,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckAcctMappgIntraBsc.CompanyCode` | `JVACtbckAcctMappgIntraBsc.CompanyCode` |
-| `key JVACtbckAcctMappgIntraBsc.FromGLAccount` | `JVACtbckAcctMappgIntraBsc.FromGLAccount` |
-| `JVACtbckAcctMappgIntraBsc.ToGLAccount` | `JVACtbckAcctMappgIntraBsc.ToGLAccount` |
-| `JVACtbckAcctMappgIntraBsc.CutbackAccount` | `JVACtbckAcctMappgIntraBsc.CutbackAccount` |
-| `JVACtbckAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` | `JVACtbckAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` |
+| `CompanyCode` | `JVACtbckAcctMappgIntraBsc.CompanyCode` |
+| `FromGLAccount` | `JVACtbckAcctMappgIntraBsc.FromGLAccount` |
+| `ToGLAccount` | `JVACtbckAcctMappgIntraBsc.ToGLAccount` |
+| `CutbackAccount` | `JVACtbckAcctMappgIntraBsc.CutbackAccount` |
+| `JVAIsToKeepOriginalAccount` | `JVACtbckAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` |
 | `_CompanyCode` | *Association* |
 | `_FromGLAccount` | *Association* |
 | `_ToGLAccount` | *Association* |

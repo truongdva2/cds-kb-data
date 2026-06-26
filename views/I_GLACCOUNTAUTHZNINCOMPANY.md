@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_GLAccountInCompany.PartnerCompany` | `P_GLAccountInCompany.PartnerCompany` |
-| `key P_GLAccountInCompany.GLAccount` | `P_GLAccountInCompany.GLAccount` |
-| `P_GLAccountInCompany.AuthorizationGroup` | `P_GLAccountInCompany.AuthorizationGroup` |
+| `PartnerCompany` | `P_GLAccountInCompany.PartnerCompany` |
+| `GLAccount` | `P_GLAccountInCompany.GLAccount` |
+| `AuthorizationGroup` | `P_GLAccountInCompany.AuthorizationGroup` |
 
 ## Associations
 

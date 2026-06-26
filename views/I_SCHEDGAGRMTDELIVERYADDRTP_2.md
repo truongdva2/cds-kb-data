@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
 | `DeliveryAddressID` | `DeliveryAddressID` |
 | `AddressType` | `AddressType` |
 | `PurchasingDeliveryAddressType` | `PurchasingDeliveryAddressType` |
@@ -52,9 +52,6 @@ tags:
 | `FaxNumber` | `FaxNumber` |
 | `AddressFaxNumber` | `AddressFaxNumber` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm : redirected to parent I_SchedgAgrmtItmTP_2` | *Association* |
-| `_PurSchedgAgrmt : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

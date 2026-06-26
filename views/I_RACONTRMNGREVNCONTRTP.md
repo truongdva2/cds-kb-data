@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RevenueAccountingContract` | `RevenueAccountingContract` |
+| `RevenueAccountingContract` | `RevenueAccountingContract` |
 | `RevnAcctgContractDescription` | `RevnAcctgContractDescription` |
 | `CompanyCode` | `CompanyCode` |
 | `AccountingPrinciple` | `AccountingPrinciple` |
@@ -77,8 +77,6 @@ tags:
 | `FiscalPeriod` | `FiscalPeriod` |
 | `RevnAcctgContractCreatedByUser` | `RevnAcctgContractCreatedByUser` |
 | `RAContractLastChangedByUsr` | `RAContractLastChangedByUsr` |
-| `/* Associations */` | `/* Associations */` |
-| `_PerformanceObligation : redirected to composition child I_RAPerfOblgnMngRevnContrTP` | *Association* |
 | `_AccountingPrinciple` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_CompanyCode` | *Association* |

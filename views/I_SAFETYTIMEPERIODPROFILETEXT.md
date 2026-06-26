@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SafetyTimePeriodProfile
 ---
 # I_SAFETYTIMEPERIODPROFILETEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_shprotxt preserving type)` | `cast(txt.text40` |
+| `Plant` | `werks` |
+| `SafetyTimePeriodProfile` | `cast(shpro as pph_shpro preserving type)` |
+| `Language` | `txt.spras` |
+| `SafetyTimePeriodProfileName` | `cast(txt.text40 as pph_shprotxt preserving type)` |
 | `_Profile` | *Association* |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

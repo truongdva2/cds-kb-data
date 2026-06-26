@@ -32,12 +32,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ExchangeRateType` | `tcurv.kurst` |
-| `fis_bwaer_curv preserving type )` | `cast(tcurv.bwaer` |
-| `fis_gkuzu_cur preserving type )` | `cast(tcurv.gkuzu` |
-| `fis_xinvr_curv preserving type )` | `cast(tcurv.xinvr` |
-| `fis_bkuzu_cur preserving type )` | `cast(bkuzu` |
-| `fis_xfixd_curv preserving type )` | `cast(xfixd` |
-| `fis_xeuro_curv preserving type )` | `cast(xeuro` |
+| `ReferenceCurrency` | `cast(tcurv.bwaer as fis_bwaer_curv preserving type )` |
+| `BuyingRateAvgExchangeRateType` | `cast(tcurv.gkuzu as fis_gkuzu_cur preserving type )` |
+| `InvertedExchangeRateIsAllowed` | `cast(tcurv.xinvr as fis_xinvr_curv preserving type )` |
+| `SellingRateAvgExchangeRateType` | `cast(bkuzu as fis_bkuzu_cur preserving type )` |
+| `FixedExchangeRateIsUsed` | `cast(xfixd as fis_xfixd_curv preserving type )` |
+| `SpecialConversionIsUsed` | `cast(xeuro as fis_xeuro_curv preserving type )` |
 | `SourceCurrencyIsBaseCurrency` | `xbwrl` |
 | `_Text` | *Association* |
 

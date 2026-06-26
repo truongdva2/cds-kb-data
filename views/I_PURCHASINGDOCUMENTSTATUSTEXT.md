@@ -16,6 +16,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentStatusText
 ---
 # I_PURCHASINGDOCUMENTSTATUSTEXT
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_doc_status )` | `cast ( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `PurchasingDocumentStatus` | `cast ( dd07t.domvalue_l as mmpur_doc_status )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_doc_status_name preserving type )` | `cast ( ddtext` |
+| `PurchasingDocumentStatusName` | `cast ( ddtext as mmpur_doc_status_name preserving type )` |
 | `_PurchasingDocumentStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,7 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_PurchasingDocumentStatus` | `I_PurchasingDocumentStatus` | [0..1] |
+| `_PurchasingDocumentStatus` | `I_PurchasingDocumentStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

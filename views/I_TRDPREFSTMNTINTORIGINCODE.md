@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FT-ITR-TRC
   - lob:Other
+  - bo:TrdPrefStmntInternalOriginCode
 ---
 # I_TRDPREFSTMNTINTORIGINCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/sapsll/prene_r3)` | `cast(domvalue_l` |
+| `TrdPrefStmntInternalOriginCode` | `cast(domvalue_l as /sapsll/prene_r3)` |
 | `_Text` | *Association* |
 
 ## Associations

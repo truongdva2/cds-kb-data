@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tcm_calc_type preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationCalculationType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/tcm_calc_type preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tcm_calc_type_name preserving type)` | `cast(ddtext` |
+| `TranspCalculationTypeName` | `cast(ddtext as /scmtms/vdm_tcm_calc_type_name preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationCalculationType` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationCalculationType` | `I_TranspScaleCalcType` | — |
 | `_Language` | `I_Language` | [1..1] |
 
 ## Source Code

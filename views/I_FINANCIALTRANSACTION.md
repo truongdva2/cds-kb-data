@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialTransaction
 ---
 # I_FINANCIALTRANSACTION
 
@@ -30,45 +31,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CompanyCode` | `FinancialTransactionTable.bukrs` |
 | `FinancialTransaction` | `FinancialTransactionTable.rfha` |
 | `TreasuryFinancialObject` | `FinancialTransactionTable.objnr` |
 | `CreatedByUser` | `FinancialTransactionTable.cruser` |
-| `ftr_creation_date preserving type )` | `cast( FinancialTransactionTable.dcrdat` |
+| `FinTransCreationDate` | `cast( FinancialTransactionTable.dcrdat as ftr_creation_date preserving type )` |
 | `FinTransCreationTime` | `FinancialTransactionTable.tcrtim` |
-| `vdm_lastchangedbyuserid preserving type)` | `cast(FinancialTransactionTable.upuser` |
+| `LastChangedByUser` | `cast(…)` |
 | `LastChangeDate` | `FinancialTransactionTable.dupdat` |
 | `FinInstrumentLastChangedTime` | `FinancialTransactionTable.tuptim` |
 | `TreasuryContractType` | `FinancialTransactionTable.rantyp` |
-| `ftr_gen_fin_instr_prod_categ preserving type)` | `cast(FinancialTransactionTable.sanlf` |
+| `FinancialInstrProductCategory` | `cast(…)` |
 | `FinancialInstrumentProductType` | `FinancialTransactionTable.sgsart` |
 | `FinInstrTransactionCategory` | `FinancialTransactionTable.sfgtyp` |
-| `ftr_gen_transaction_type preserving type)` | `cast(FinancialTransactionTable.sfhaart` |
+| `FinancialInstrTransactionType` | `cast(…)` |
 | `FinTransProcessingCategory` | `FinancialTransactionTable.abwtyp` |
 | `TermStartDate` | `FinancialTransactionTable.dblfz` |
-| `abap_boolean preserving type )` | `cast(FinancialTransactionTable.sinclbe` |
+| `TermStartDateIsInclusive` | `cast(FinancialTransactionTable.sinclbe as abap_boolean preserving type )` |
 | `FinTransNoticePeriod` | `FinancialTransactionTable.akuend` |
 | `FinTransNoticePeriodUnit` | `FinancialTransactionTable.skuend` |
 | `FinTransFactoryCalendar1` | `FinancialTransactionTable.skalid` |
 | `FinTransFactoryCalendar2` | `FinancialTransactionTable.skalid2` |
-| `rkontrah_new preserving type)` | `cast(FinancialTransactionTable.kontrh` |
+| `Counterparty` | `cast(FinancialTransactionTable.kontrh as rkontrah_new preserving type)` |
 | `FinancialInstrumentGuarantor` | `FinancialTransactionTable.rgarant` |
 | `Portfolio` | `FinancialTransactionTable.rportb` |
 | `TreasuryFinanceProject` | `FinancialTransactionTable.zuonr` |
-| `ftr_gen_fin_instr_assignment preserving type)` | `cast(FinancialTransactionTable.zuond` |
-| `ftr_gen_fin_instr_internal_ref preserving type)` | `cast(FinancialTransactionTable.refer` |
-| `ftr_gen_fin_instr_char preserving type)` | `cast(FinancialTransactionTable.merkm` |
+| `FinancialInstrumentAssignment` | `cast(…)` |
+| `FinancialInstrumentReference` | `cast(…)` |
+| `FinancialInstrCharacteristic` | `cast(FinancialTransactionTable.merkm as ftr_gen_fin_instr_char preserving type)` |
 | `TreasuryValuationClass` | `FinancialTransactionTable.rcomvalcl` |
 | `BusinessArea` | `FinancialTransactionTable.rbusa` |
-| `_CompanyCode.ControllingArea                                                                   as ControllingArea` | *Association* |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
 | `CostCenter` | `FinancialTransactionTable.rcntr` |
 | `HedgingClassification` | `FinancialTransactionTable.hedge_class` |
-| `hedge_request_identifier preserving type )` | `cast( FinancialTransactionTable.hedge_request_id` |
+| `HedgeRequestIdentifier` | `cast(…)` |
 | `ProfitCenter` | `FinancialTransactionTable.prctr` |
-| `ps_s4_pspnr preserving type )` | `cast(FinancialTransactionTable.ps_posid` |
+| `WBSElementInternalID` | `cast(FinancialTransactionTable.ps_posid as ps_s4_pspnr preserving type )` |
 | `TreasuryFacilityCompanyCode` | `FinancialTransactionTable.facilitybukrs` |
 | `TreasuryFacility` | `FinancialTransactionTable.facilitynr` |
 | `FinancialInstrumentStatus` | `FinancialTransactionTable.saktiv` |
@@ -77,10 +75,10 @@ tags:
 | `FinInstrumentOutgoingCurrency` | `FinancialTransactionTable.wgschft1` |
 | `FinInstrumentIncomingCurrency` | `FinancialTransactionTable.wgschft2` |
 | `TradedCurrency` | `FinancialTransactionTable.traded_currency` |
-| `ftr_gen_security_class preserving type)` | `cast(FinancialTransactionTable.ranl` |
+| `SecurityClass` | `cast(FinancialTransactionTable.ranl as ftr_gen_security_class preserving type)` |
 | `SecurityClassIntlScrtyIdnNmbr` | `FinancialTransactionTable.isin` |
 | `ClassificationOfFinInstr` | `FinancialTransactionTable.cfi_code` |
-| `ftr_gen_security_account preserving type)` | `cast(FinancialTransactionTable.rldepo` |
+| `SecurityAccount` | `cast(…)` |
 | `FuturesAccount` | `FinancialTransactionTable.posacc` |
 | `FinTransCentralClearingOption` | `FinancialTransactionTable.clearing_option` |
 | `FinTransCentralClearingStatus` | `FinancialTransactionTable.clearing_status` |
@@ -88,12 +86,9 @@ tags:
 | `FinTransCntrlClrgActualDate` | `FinancialTransactionTable.clear_date_act` |
 | `CentralClearingAccount` | `FinancialTransactionTable.ext_account` |
 | `FinTransIsRiskMitigating` | `FinancialTransactionTable.risk_mitigating` |
-| `ftr_gen_fin_instr_last_act_act preserving type)` | `cast(FinancialTransactionTable.rfhazul` |
+| `FinInstrLastActiveActivity` | `cast(…)` |
 | `TermEndDate` | `FinancialTransactionTable.delfz` |
-| `case FinancialTransactionTable.amtinput` | `case FinancialTransactionTable.amtinput` |
-| `ttm_fx_buy_sell)` | `when '1' then cast ('S'` |
-| `ttm_fx_buy_sell)` | `when '2' then cast ('B'` |
-| `TrsyTradedAmountBuySellCode` | `end` |
+| `TrsyTradedAmountBuySellCode` | `case…end` |
 | `Segment` | `FinancialTransactionTable.fb_segment` |
 | `OnBehalfOfCompany` | `FinancialTransactionTable.behalf_of_company` |
 | `MarketIdentifierCode` | `FinancialTransactionTable.mic` |

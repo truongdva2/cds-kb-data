@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
 | `SrvcDocApptStartDateTime` | `SrvcDocApptStartDateTime` |
 | `SrvcDocApptEndDateTime` | `SrvcDocApptEndDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationTP : redirected to parent I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

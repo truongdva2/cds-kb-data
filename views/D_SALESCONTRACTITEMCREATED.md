@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContractItem
 ---
 # D_SALESCONTRACTITEMCREATED
 
@@ -32,14 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime       : vdm_lastchangedon;` | `EventRaisedDateTime       : vdm_lastchangedon;` |
-| `SalesContractType         : auart_unv;` | `SalesContractType         : auart_unv;` |
-| `SalesOrganization         : vkorg;` | `SalesOrganization         : vkorg;` |
-| `DistributionChannel       : vtweg;` | `DistributionChannel       : vtweg;` |
-| `OrganizationDivision      : spart;` | `OrganizationDivision      : spart;` |
-| `SoldToParty               : kunnr;` | `SoldToParty               : kunnr;` |
-| `SalesContractItemCategory : pstyv;` | `SalesContractItemCategory : pstyv;` |
-| `Product                   : matnr;` | `Product                   : matnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesContractType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `SalesContractItemCategory` | `pstyv` |
+| `Product` | `matnr` |
 
 ## Associations
 

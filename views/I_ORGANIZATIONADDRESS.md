@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:OrganizationAddress
 ---
 # I_ORGANIZATIONADDRESS
 
@@ -32,12 +33,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `AddressID` | `AddressID` |
-| `ad_persnum )` | `cast(''` |
+| `AddressPersonID` | `cast('' as ad_persnum )` |
 | `AddressRepresentationCode` | `AddressRepresentationCode` |
-| `ad_adrtype)` | `cast('1'` |
+| `AddressObjectType` | `cast('1' as ad_adrtype)` |
 | `CorrespondenceLanguage` | `CorrespondenceLanguage` |
 | `PrfrdCommMediumType` | `PrfrdCommMediumType` |
-| `ad_namtext )` | `cast(concat_with_space(AddresseeName1, AddresseeName2, 1)` |
+| `AddresseeFullName` | `cast(concat_with_space(AddresseeName1, AddresseeName2, 1) as ad_namtext )` |
 | `CityNumber` | `CityNumber` |
 | `CityName` | `CityName` |
 | `DistrictName` | `DistrictName` |

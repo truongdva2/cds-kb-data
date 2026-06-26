@@ -34,15 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingArea'` | `name:    'I_ControllingArea'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
+| `Language` | `cepct.spras` |
 | `ControllingArea` | `cepct.kokrs` |
 | `ProfitCenter` | `cepct.prctr` |
 | `ValidityEndDate` | `cepct.datbi` |
 | `ValidityStartDate` | `datab` |
-| `fis_prctr_shorttext preserving type)` | `cast (ktext` |
-| `fac_prctr_ltext preserving type )` | `cast (ltext` |
+| `ProfitCenterName` | `cast (ktext as fis_prctr_shorttext preserving type)` |
+| `ProfitCenterLongName` | `cast (ltext as fac_prctr_ltext preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Language` | *Association* |
 | `_ControllingAreaText` | *Association* |

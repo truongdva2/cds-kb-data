@@ -34,20 +34,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseOrder.PurchaseOrderType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_PurchaseOrder.DocumentCurrency` | *Association* |
-| `mm_pur_order_tot_net_amount )` | `cast((_PurchaseOrderNetAmount.PurchaseOrderNetAmount)` |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_PurchaseOrder.Supplier` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_User.UserDescription` |
-| `_Supplier.SupplierName` | *Association* |
-| `_PurchaseOrderPlainLongText.PlainLongText                                                                     as POHeaderTextPlainLongText` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `PurchaseOrder` | `cast(…)` |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_PurchaseOrder.DocumentCurrency` |
+| `PurchaseOrderNetAmount` | `cast(…)` |
+| `PurOrdWrkflwTskCreationUTCDate` | `cast(…)` |
+| `PurOrdWrkflwTskCreationUTCTime` | `cast(…)` |
+| `PurOrdWrkflwTaskDueUTCDate` | `cast(…)` |
+| `PurOrdWrkflwTaskDueUTCTime` | `cast(…)` |
+| `Supplier` | `_PurchaseOrder.Supplier` |
+| `CreatedByUser` | `cast(_User.UserDescription as mm_oa_user_fullname )` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `POHeaderTextPlainLongText` | `_PurchaseOrderPlainLongText.PlainLongText` |
 
 ## Associations
 

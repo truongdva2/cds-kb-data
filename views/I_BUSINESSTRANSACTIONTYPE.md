@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:BusinessTransactionType
 ---
 # I_BUSINESSTRANSACTIONTYPE
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_custbttype preserving type )` | `cast(cbttype` |
-| `fis_bttype preserving type )` | `cast(bttype` |
+| `BusinessTransactionType` | `cast(cbttype as fis_custbttype preserving type )` |
+| `BusinessTransactionCategory` | `cast(bttype as fis_bttype preserving type )` |
 | `BusTransIsSubjToPerdControl` | `xperiodcontrol` |
 | `PeriodControlIsLedgerSpecific` | `xperiodbyledger` |
 | `BusinessTransTypeIsInactive` | `inactive` |

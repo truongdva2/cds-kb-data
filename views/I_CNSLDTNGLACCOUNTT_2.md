@@ -31,12 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( _Source.AdditionalMasterDataSource` |
-| `fincs_glaccountname preserving type )` | `cast( _Source.GLAccountName` |
-| `fincs_long_description_50 preserving type )` | `cast( _Source.GLAccountLongName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `ChartOfAccounts` | `cast( _Source.ChartOfAccounts as fincs_chartofaccounts preserving type )` |
+| `GLAccount` | `cast( _Source.GLAccount as fincs_glaccount preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `GLAccountName` | `cast( _Source.GLAccountName as fincs_glaccountname preserving type )` |
+| `GLAccountLongName` | `cast( _Source.GLAccountLongName as fincs_long_description_50 preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_GLAccount` | *Association* |

@@ -16,6 +16,7 @@ tags:
   - service
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheet
 ---
 # C_SERVICEENTRYSHEETDEX
 
@@ -53,7 +54,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Supplier` | *Association* |
 | `_PurchaseOrder` | *Association* |
 | `_DocumentCurrency` | *Association* |

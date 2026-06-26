@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMDocPaperType : lcm_doc_paper_type;` | `LglCntntMDocPaperType : lcm_doc_paper_type;` |
+| `LglCntntMDocPaperType` | `lcm_doc_paper_type` |
 
 ## Associations
 

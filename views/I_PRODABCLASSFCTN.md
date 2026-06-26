@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProdConsumptionValueCategory
 ---
 # I_PRODABCLASSFCTN
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abcindicator preserving type )` | `cast(maabc` |
+| `MaterialABCClassification` | `cast(maabc as abcindicator preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -35,7 +35,7 @@ tags:
 | `CAInvcgProcess` | `_tfk2602t.inv_process` |
 | `CAApplicationArea` | `_tfk2602t.applk` |
 | `Language` | `_tfk2602t.langu` |
-| `_tfk2602t.text        as CAInvcgProcessText` | *Association* |
+| `CAInvcgProcessText` | `_tfk2602t.text` |
 | `_CAApplicationArea` | *Association* |
 | `_CAInvcgProcess` | *Association* |
 | `_Language` | *Association* |

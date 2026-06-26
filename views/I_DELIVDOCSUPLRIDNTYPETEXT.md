@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `/spe/de_lifex_type preserving type )` | `cast( left(dd07t.domvalue_l, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ExternalIdentificationType` | `cast( left(dd07t.domvalue_l, 1 ) as /spe/de_lifex_type preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `ExternalIdentificationTypeName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DelivDocSuplrIdnType` | `I_DelivDocSuplrIdnType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

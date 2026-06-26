@@ -32,18 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcc_exch_rate_uuid preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_transpcharge_uuid preserving type )` | `cast(root_key` |
-| `/scmtms/vdm_chrg_itm_db_key preserving type )` | `cast(parent_key` |
-| `fcurr_curr preserving type )` | `cast(unitcurncy` |
-| `tcurr_curr preserving type )` | `cast(quotedcurncy` |
+| `TranspChrgExchangeRateUUID` | `cast(db_key as /scmtms/vdm_tcc_exch_rate_uuid preserving type )` |
+| `TransportationChargeUUID` | `cast(root_key as /scmtms/vdm_transpcharge_uuid preserving type )` |
+| `TranspChargeItemUUID` | `cast(parent_key as /scmtms/vdm_chrg_itm_db_key preserving type )` |
+| `SourceCurrency` | `cast(unitcurncy as fcurr_curr preserving type )` |
+| `TargetCurrency` | `cast(quotedcurncy as tcurr_curr preserving type )` |
 | `TranspChrgExchangeRate` | `rate` |
-| `transpexchrateismanuallychgd preserving type )` | `cast(fixed` |
+| `TranspExchRateIsManuallyChgd` | `cast(fixed as transpexchrateismanuallychgd preserving type )` |
 | `TranspChrgExchangeRateType` | `exchgratetco05_i` |
-| `/scmtms/vdm_tcc_exch_rt_is_lcl preserving type )` | `cast(doc_to_lcl_curr` |
+| `TranspChrgIsLoclExchRate` | `cast(doc_to_lcl_curr as /scmtms/vdm_tcc_exch_rt_is_lcl preserving type )` |
 | `ExchangeRateDate` | `quotedate` |
 | `TranspExchRateDateIsMnllyChgd` | `fix_exchrate_date` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationCharge` | *Association* |
 | `_TranspChrgItem` | *Association* |
 | `_SourceCurrency` | *Association* |
@@ -54,6 +53,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChrgItem` | `I_TranspChargeItem` | — |
 | `_TransportationCharge` | `I_TransportationCharge` | [1..1] |
 | `_TranspChrgExchangeRateType` | `I_ExchangeRateType` | [1..1] |
 | `_SourceCurrency` | `I_Currency` | [1..1] |

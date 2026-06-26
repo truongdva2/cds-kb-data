@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingType
 ---
 # I_SAMPLINGTYPE
 
@@ -29,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `SamplingType` | `qdsa.stichprart` |
-| `/* Associtions */` | `/* Associtions */` |
 | `_Text` | *Association* |
 
 ## Associations

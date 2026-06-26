@@ -16,6 +16,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:PaymentTermCreditCheckStatus
 ---
 # I_PAYMENTTERMCREDITCHECKSTST
 
@@ -40,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PaymentTermCreditCheckStatus` | `I_PaymentTermCreditCheckSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

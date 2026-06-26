@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `recdvdmpaymentformrh )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REPaymentForm` | `cast( dd07t.domvalue_l as recdvdmpaymentformrh )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `REPaymentFormName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_REPaymentForm` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REPaymentForm` | `I_REPaymentForm` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

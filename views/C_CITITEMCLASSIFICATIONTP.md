@@ -33,7 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `element: 'CorporateIncomeTaxHierarchy', localElement: 'CorporateIncomeTaxHierarchy', usage: #FILTER_AND_RESULT }]}]` | `element: 'CorporateIncomeTaxHierarchy', localElement: 'CorporateIncomeTaxHierarchy', usage: #FILTER_AND_RESULT }]}]` |
+| `CITClassificationUUID` | `CITClassificationUUID` |
+| `Ledger` | `Ledger` |
+| `SourceLedger` | `SourceLedger` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `CITReportingDate` | `CITReportingDate` |
+| `PostingDate` | `PostingDate` |
+| `CorporateIncomeTaxHierarchy` | `CorporateIncomeTaxHierarchy` |
 | `CITClassificationCode` | `CITClassificationCode` |
 | `CITClassificationCodeDesc` | `CITClassificationCodeDesc` |
 | `CITItemAmountInDisplayCurrency` | `CITItemAmountInDisplayCurrency` |

@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:VarianceReasonCode
 ---
 # I_VARIANCEREASONTEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_grdtx preserving type)` | `cast(txt.grdtx` |
+| `VarianceReasonCode` | `cast(txt.grund as pph_agrnd preserving type)` |
+| `Plant` | `txt.werks` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `VarianceReasonName` | `cast(txt.grdtx as pph_grdtx preserving type)` |
 | `_VarianceReason` | *Association* |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

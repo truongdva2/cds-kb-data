@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:SuplrConfIntCatAssignment
 ---
 # I_SUPLRCONFCATINTERNALASSGMT
 
@@ -28,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
+| `SupplierConfInternalCategory` | `ibtyp` |
 | `SupplierConfirmationCategory` | `ebtyp` |
 | `DeliveryDocumentType` | `lfart` |
 

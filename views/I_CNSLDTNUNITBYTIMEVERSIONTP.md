@@ -31,25 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_consolidationversion preserving type )` | `cast ( _Source.ConsolidationVersion` |
-| `key _Source.FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
-| `_Source.ToFiscalYearPeriod` | *Association* |
-| `fincs_unitispartneronly preserving type )` | `cast ( _Source.ConsolidationUnitIsPartnerOnly` |
-| `_Source.CnsldtnCrcyTranslationMethod` | *Association* |
-| `fincs_taxrate preserving type )` | `cast ( _Source.TaxRate` |
-| `_Source.FiscalYearVariant` | *Association* |
-| `fincs_univjournalintegtype preserving type )` | `cast ( _Source.CnsldtnDataTransferMethod` |
-| `fincs_groupcrcyisleadingcrcy preserving type )` | `cast ( _Source.DocumentEntryIsInGroupCurrency` |
-| `fincs_unitlocalcrcysource preserving type )` | `cast ( _Source.CnsldtnUnitLocalCrcySource` |
-| `fincs_unitgroupcrcysource preserving type )` | `cast ( _Source.CnsldtnUnitGroupCrcySource` |
-| `_Source.CnsldtnUploadMethod` | *Association* |
-| `_Source.CnsldtnUnitDataCollection` | *Association* |
-| `_Source.ConsolidationUnitPartner` | *Association* |
-| `_Source.ConsolidationUnitPostingRule` | *Association* |
-| `_Source.ConsolidationUnitValidation` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnUnit                                                                                    as _CnsldtnUnit : redirected to parent I_CnsldtnUnitTP` | *Association* |
+| `ConsolidationUnit` | `cast ( _Source.ConsolidationUnit as fincs_consolidationunit preserving type )` |
+| `ConsolidationVersion` | `cast(…)` |
+| `FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `_Source.ToFiscalYearPeriod` |
+| `ConsolidationUnitIsPartnerOnly` | `cast(…)` |
+| `CnsldtnCrcyTranslationMethod` | `_Source.CnsldtnCrcyTranslationMethod` |
+| `CnsldtnTaxRate` | `cast ( _Source.TaxRate as fincs_taxrate preserving type )` |
+| `FiscalYearVariant` | `_Source.FiscalYearVariant` |
+| `CnsldtnUnivJournalIntegType` | `cast(…)` |
+| `CnsldtnGroupCrcyIsLeadingCrcy` | `cast(…)` |
+| `CnsldtnUnitLocalCrcySource` | `cast(…)` |
+| `CnsldtnUnitGroupCrcySource` | `cast(…)` |
+| `CnsldtnUploadMethod` | `_Source.CnsldtnUploadMethod` |
+| `CnsldtnUnitDataCollection` | `_Source.CnsldtnUnitDataCollection` |
+| `ConsolidationUnitPartner` | `_Source.ConsolidationUnitPartner` |
+| `ConsolidationUnitPostingRule` | `_Source.ConsolidationUnitPostingRule` |
+| `ConsolidationUnitValidation` | `_Source.ConsolidationUnitValidation` |
+| `_CnsldtnUnit` | *Association* |
 
 ## Associations
 

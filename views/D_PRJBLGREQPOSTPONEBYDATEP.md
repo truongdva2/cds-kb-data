@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ServicesRenderedDate      : fbuda;` | `ServicesRenderedDate      : fbuda;` |
-| `ProjectBillingRequestUUID : pbr_uuid;` | `ProjectBillingRequestUUID : pbr_uuid;` |
-| `BillingPlanUsageCategory  : sdbp_bpcat;` | `BillingPlanUsageCategory  : sdbp_bpcat;` |
+| `ServicesRenderedDate` | `fbuda` |
+| `ProjectBillingRequestUUID` | `pbr_uuid` |
+| `BillingPlanUsageCategory` | `sdbp_bpcat` |
 
 ## Associations
 

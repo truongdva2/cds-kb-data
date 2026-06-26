@@ -32,49 +32,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotation.SalesQuotation` | `SalesQuotation.SalesQuotation` |
-| `SalesQuotation.SalesQuotationType` | `SalesQuotation.SalesQuotationType` |
-| `SalesQuotation.SoldToParty` | `SalesQuotation.SoldToParty` |
-| `SalesQuotation.SalesOrganization` | `SalesQuotation.SalesOrganization` |
-| `SalesQuotation.DistributionChannel` | `SalesQuotation.DistributionChannel` |
-| `SalesQuotation.OrganizationDivision` | `SalesQuotation.OrganizationDivision` |
-| `SalesQuotation.SalesOffice` | `SalesQuotation.SalesOffice` |
-| `SalesQuotation.SalesGroup` | `SalesQuotation.SalesGroup` |
-| `SalesQuotation.SalesDistrict` | `SalesQuotation.SalesDistrict` |
-| `SalesQuotation.PurchaseOrderByCustomer` | `SalesQuotation.PurchaseOrderByCustomer` |
-| `SalesQuotation.SDDocumentReason` | `SalesQuotation.SDDocumentReason` |
-| `SalesQuotation.CustomerPurchaseOrderDate` | `SalesQuotation.CustomerPurchaseOrderDate` |
-| `SalesQuotation.PricingDate` | `SalesQuotation.PricingDate` |
-| `SalesQuotation.CustomerPriceGroup` | `SalesQuotation.CustomerPriceGroup` |
-| `SalesQuotation.RequestedDeliveryDate` | `SalesQuotation.RequestedDeliveryDate` |
-| `SalesQuotation.ShippingCondition` | `SalesQuotation.ShippingCondition` |
-| `SalesQuotation.ShippingType` | `SalesQuotation.ShippingType` |
-| `SalesQuotation.IncotermsClassification` | `SalesQuotation.IncotermsClassification` |
-| `SalesQuotation.IncotermsVersion` | `SalesQuotation.IncotermsVersion` |
-| `SalesQuotation.IncotermsLocation1` | `SalesQuotation.IncotermsLocation1` |
-| `SalesQuotation.IncotermsLocation2` | `SalesQuotation.IncotermsLocation2` |
-| `SalesQuotation.SalesQuotationApprovalReason` | `SalesQuotation.SalesQuotationApprovalReason` |
-| `SalesQuotation.TransactionCurrency` | `SalesQuotation.TransactionCurrency` |
-| `SalesQuotation.BindingPeriodValidityStartDate` | `SalesQuotation.BindingPeriodValidityStartDate` |
-| `SalesQuotation.BindingPeriodValidityEndDate` | `SalesQuotation.BindingPeriodValidityEndDate` |
-| `SalesQuotation.HdrOrderProbabilityInPercent` | `SalesQuotation.HdrOrderProbabilityInPercent` |
-| `SalesQuotation.TotalNetAmount` | `SalesQuotation.TotalNetAmount` |
-| `SalesQuotation.ReferenceSDDocument` | `SalesQuotation.ReferenceSDDocument` |
-| `SalesQuotation.ReferenceSDDocumentCategory` | `SalesQuotation.ReferenceSDDocumentCategory` |
-| `SalesQuotation.OverallSDProcessStatus` | `SalesQuotation.OverallSDProcessStatus` |
-| `SalesQuotation.HdrGeneralIncompletionStatus` | `SalesQuotation.HdrGeneralIncompletionStatus` |
-| `SalesQuotation.OvrlItmGeneralIncompletionSts` | `SalesQuotation.OvrlItmGeneralIncompletionSts` |
-| `SalesQuotation.OverallSDDocReferenceStatus` | `SalesQuotation.OverallSDDocReferenceStatus` |
-| `SalesQuotation.SalesDocApprovalStatus` | `SalesQuotation.SalesDocApprovalStatus` |
-| `SalesQuotation.TotalCreditCheckStatus` | `SalesQuotation.TotalCreditCheckStatus` |
-| `SalesQuotation.LastChangeDateTime` | `SalesQuotation.LastChangeDateTime` |
-| `SalesQuotation.CreatedByUser` | `SalesQuotation.CreatedByUser` |
-| `SalesQuotation.CreationDate` | `SalesQuotation.CreationDate` |
-| `SalesQuotation.LastChangedByUser` | `SalesQuotation.LastChangedByUser` |
-| `_Item : redirected to composition child I_SalesQuotationItemTP` | *Association* |
-| `_Partner : redirected to composition child I_SalesQuotationPartnerTP` | *Association* |
-| `_Text : redirected to composition child I_SalesQuotationTextTP` | *Association* |
-| `_PricingElement : redirected to composition child I_SlsQuotationPricingElementTP` | *Association* |
+| `SalesQuotation` | `SalesQuotation.SalesQuotation` |
+| `SalesQuotationType` | `SalesQuotation.SalesQuotationType` |
+| `SoldToParty` | `SalesQuotation.SoldToParty` |
+| `SalesOrganization` | `SalesQuotation.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotation.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotation.OrganizationDivision` |
+| `SalesOffice` | `SalesQuotation.SalesOffice` |
+| `SalesGroup` | `SalesQuotation.SalesGroup` |
+| `SalesDistrict` | `SalesQuotation.SalesDistrict` |
+| `PurchaseOrderByCustomer` | `SalesQuotation.PurchaseOrderByCustomer` |
+| `SDDocumentReason` | `SalesQuotation.SDDocumentReason` |
+| `CustomerPurchaseOrderDate` | `SalesQuotation.CustomerPurchaseOrderDate` |
+| `PricingDate` | `SalesQuotation.PricingDate` |
+| `CustomerPriceGroup` | `SalesQuotation.CustomerPriceGroup` |
+| `RequestedDeliveryDate` | `SalesQuotation.RequestedDeliveryDate` |
+| `ShippingCondition` | `SalesQuotation.ShippingCondition` |
+| `ShippingType` | `SalesQuotation.ShippingType` |
+| `IncotermsClassification` | `SalesQuotation.IncotermsClassification` |
+| `IncotermsVersion` | `SalesQuotation.IncotermsVersion` |
+| `IncotermsLocation1` | `SalesQuotation.IncotermsLocation1` |
+| `IncotermsLocation2` | `SalesQuotation.IncotermsLocation2` |
+| `SalesQuotationApprovalReason` | `SalesQuotation.SalesQuotationApprovalReason` |
+| `TransactionCurrency` | `SalesQuotation.TransactionCurrency` |
+| `BindingPeriodValidityStartDate` | `SalesQuotation.BindingPeriodValidityStartDate` |
+| `BindingPeriodValidityEndDate` | `SalesQuotation.BindingPeriodValidityEndDate` |
+| `HdrOrderProbabilityInPercent` | `SalesQuotation.HdrOrderProbabilityInPercent` |
+| `TotalNetAmount` | `SalesQuotation.TotalNetAmount` |
+| `ReferenceSDDocument` | `SalesQuotation.ReferenceSDDocument` |
+| `ReferenceSDDocumentCategory` | `SalesQuotation.ReferenceSDDocumentCategory` |
+| `OverallSDProcessStatus` | `SalesQuotation.OverallSDProcessStatus` |
+| `HdrGeneralIncompletionStatus` | `SalesQuotation.HdrGeneralIncompletionStatus` |
+| `OvrlItmGeneralIncompletionSts` | `SalesQuotation.OvrlItmGeneralIncompletionSts` |
+| `OverallSDDocReferenceStatus` | `SalesQuotation.OverallSDDocReferenceStatus` |
+| `SalesDocApprovalStatus` | `SalesQuotation.SalesDocApprovalStatus` |
+| `TotalCreditCheckStatus` | `SalesQuotation.TotalCreditCheckStatus` |
+| `LastChangeDateTime` | `SalesQuotation.LastChangeDateTime` |
+| `CreatedByUser` | `SalesQuotation.CreatedByUser` |
+| `CreationDate` | `SalesQuotation.CreationDate` |
+| `LastChangedByUser` | `SalesQuotation.LastChangedByUser` |
 
 ## Associations
 

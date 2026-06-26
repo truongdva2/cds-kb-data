@@ -31,12 +31,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SchedulingAgreement` | `History.SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
 | `PurchasingHistoryDocumentType` | `PurchaseOrderTransactionType` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
 | `PurchasingHistoryCategory` | `PurchaseOrderHistCategory` |
 | `GoodsMovementType` | `GoodsMovementType` |
 | `PostingDate` | `PostingDate` |
@@ -83,8 +83,8 @@ tags:
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
 | `BaseUnit` | `BaseUnit` |
-| `_SchedulingAgreementItem.OrderQuantityUnit` | *Association* |
-| `_SchedulingAgreementItem.OrderPriceUnit` | *Association* |
+| `OrderQuantityUnit` | `_SchedulingAgreementItem.OrderQuantityUnit` |
+| `OrderPriceUnit` | `_SchedulingAgreementItem.OrderPriceUnit` |
 | `_SchedulingAgreement` | *Association* |
 | `_SchedulingAgreementItem` | *Association* |
 | `_PurchaseOrderHistCategory` | *Association* |

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_quotation preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ServiceDocumentIsQuotation` | `cast ( substring( domvalue_l, 1, 1 ) as crms4_stat_quotation preserving type )` |
 | `_SrvcDocQuotationStatusText` | *Association* |
 
 ## Associations

@@ -31,30 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key consignment.SupplierInvoice` | `consignment.SupplierInvoice` |
-| `key consignment.FiscalYear` | `consignment.FiscalYear` |
-| `key consignment.SupplierInvoiceItem` | `consignment.SupplierInvoiceItem` |
-| `consignment.MaterialDocument` | `consignment.MaterialDocument` |
-| `consignment.MaterialDocumentYear` | `consignment.MaterialDocumentYear` |
-| `consignment.MaterialDocumentItem` | `consignment.MaterialDocumentItem` |
-| `consignment.Material` | `consignment.Material` |
-| `consignment.CompanyCode` | `consignment.CompanyCode` |
-| `consignment.Plant` | `consignment.Plant` |
-| `consignment.DocumentCurrency` | `consignment.DocumentCurrency` |
-| `consignment.SupplierInvoiceItemAmount` | `consignment.SupplierInvoiceItemAmount` |
-| `consignment.DebitCreditCode` | `consignment.DebitCreditCode` |
-| `consignment.TaxCode` | `consignment.TaxCode` |
-| `consignment.TaxJurisdiction` | `consignment.TaxJurisdiction` |
-| `consignment.QuantityUnit` | `consignment.QuantityUnit` |
-| `consignment.Quantity` | `consignment.Quantity` |
-| `consignment.BusinessArea` | `consignment.BusinessArea` |
-| `consignment.GLAccount` | `consignment.GLAccount` |
-| `consignment.ProfitCenter` | `consignment.ProfitCenter` |
-| `consignment.TaxCountry` | `consignment.TaxCountry` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `consignment.SupplierInvoice` |
+| `FiscalYear` | `consignment.FiscalYear` |
+| `SupplierInvoiceItem` | `consignment.SupplierInvoiceItem` |
+| `MaterialDocument` | `consignment.MaterialDocument` |
+| `MaterialDocumentYear` | `consignment.MaterialDocumentYear` |
+| `MaterialDocumentItem` | `consignment.MaterialDocumentItem` |
+| `Material` | `consignment.Material` |
+| `CompanyCode` | `consignment.CompanyCode` |
+| `Plant` | `consignment.Plant` |
+| `DocumentCurrency` | `consignment.DocumentCurrency` |
+| `SupplierInvoiceItemAmount` | `consignment.SupplierInvoiceItemAmount` |
+| `DebitCreditCode` | `consignment.DebitCreditCode` |
+| `TaxCode` | `consignment.TaxCode` |
+| `TaxJurisdiction` | `consignment.TaxJurisdiction` |
+| `QuantityUnit` | `consignment.QuantityUnit` |
+| `Quantity` | `consignment.Quantity` |
+| `BusinessArea` | `consignment.BusinessArea` |
+| `GLAccount` | `consignment.GLAccount` |
+| `ProfitCenter` | `consignment.ProfitCenter` |
+| `TaxCountry` | `consignment.TaxCountry` |
 | `_SupplierInvoiceAPI01` | *Association* |
-| `consignment._Currency` | `consignment._Currency` |
-| `consignment._UnitOfMeasure` | `consignment._UnitOfMeasure` |
+| `_Currency` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 
 ## Associations
 

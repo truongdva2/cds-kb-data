@@ -31,7 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `ProdUnivHierarchy` | `ProdUnivHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
+| `Product` | `Product` |
+| `ProdHierarchyValidityStartDate` | `ProdHierarchyValidityStartDate` |
+| `ParentNode` | `ParentNode` |
+| `HierarchyNodeSequence` | `HierarchyNodeSequence` |
+| `NodeType` | `NodeType` |
+| `Product_Text` | `Product_Text` |
 | `_Product` | *Association* |
 
 ## Associations

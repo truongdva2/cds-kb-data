@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPoolName` | `CashPoolName` |
-| `key Language` | `Language` |
+| `CashPoolName` | `CashPoolName` |
+| `Language` | `Language` |
 | `CashPoolDesc` | `CashPoolDesc` |
 | `CashPoolRefTxt` | `CashPoolRefTxt` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_GeneralInfo: redirected to parent I_CashPoolTP` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

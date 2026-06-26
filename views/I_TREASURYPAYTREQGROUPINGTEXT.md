@@ -17,6 +17,7 @@ tags:
   - treasury
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryPaymentRequestGrouping
 ---
 # I_TREASURYPAYTREQGROUPINGTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_sprgrd )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `TreasuryPaymentRequestGrouping` | `cast( dd07t.domvalue_l as tb_sprgrd )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_sprgrd_name preserving type )` | `cast( dd07t.ddtext` |
+| `TrsyPaytRequestGroupingName` | `cast( dd07t.ddtext as tb_sprgrd_name preserving type )` |
 | `_PaymentRequestGrouping` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `orig_credit_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `orig_credit_text_kk preserving type )` | `cast( ddtext` |
+| `OriginalSourceOfCredit` | `cast( left( dd07t.domvalue_l,1 ) as orig_credit_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `OriginalSourceOfCreditText` | `cast( ddtext as orig_credit_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

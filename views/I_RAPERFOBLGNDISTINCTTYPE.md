@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RAPerfOblgnDistinctType
 ---
 # I_RAPERFOBLGNDISTINCTTYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `RAPerfOblgnDistinctType` | `cast(dd07l.domvalue_l as farr_distinct)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RAPerfOblgnDistinctTypeText` | [0..*] |
 
 ## Source Code
 

@@ -35,10 +35,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BillOfMaterialCategory` | `stpu.stlty` |
-| `char8 preserving type )` | `cast( stpu.stlnr` |
+| `BillOfMaterial` | `cast( stpu.stlnr as char8 preserving type )` |
 | `BillOfMaterialItemNodeNumber` | `stpu.stlkn` |
 | `BOMItemInternalChangeCount` | `stpu.stpoz` |
-| `char4 preserving type)` | `cast(stpu.uposz` |
+| `BOMSubItemNumberValue` | `cast(stpu.uposz as char4 preserving type)` |
 | `BillOfMaterialSubItemQuantity` | `stpu.upmng` |
 | `BillOfMaterialItemUnit` | `Item.BillOfMaterialItemUnit` |
 | `BOMSubItemInstallationPoint` | `stpu.ebort` |

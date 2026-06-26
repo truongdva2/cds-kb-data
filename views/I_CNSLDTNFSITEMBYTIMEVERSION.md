@@ -31,23 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ConsolidationChartOfAccounts', element: 'ConsolidationChartOfAccounts', usage: #FILTER_AND_RESULT }]` | `localElement: 'ConsolidationChartOfAccounts', element: 'ConsolidationChartOfAccounts', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `_ByTimeVersion.CnsldtnOffsettingTargetFSItem` | *Association* |
-| `/* associations */` | `/* associations */` |
-| `_ByTimeVersion._CnsldtnChartOfAccounts` | *Association* |
-| `_ByTimeVersion._CnsldtnVersion` | *Association* |
+| `ConsolidationChartOfAccounts` | `_ByTimeVersion.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `_ByTimeVersion.CnsldtnFinancialStatementItem` |
+| `ConsolidationVersion` | `_ByTimeVersion.ConsolidationVersion` |
+| `FromFiscalYearPeriod` | `_ByTimeVersion.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `_ByTimeVersion.ToFiscalYearPeriod` |
+| `CnsldtnFSItemRole` | `_ByTimeVersion.CnsldtnFSItemRole` |
+| `CnsldtnFSItemDataCollection` | `_ByTimeVersion.CnsldtnFSItemDataCollection` |
+| `CnsldtnFSItemCrcyTranslation` | `_ByTimeVersion.CnsldtnFSItemCrcyTranslation` |
+| `CnsldtnFSItemElimination` | `_ByTimeVersion.CnsldtnFSItemElimination` |
+| `CnsldtnFSItemCashFlow` | `_ByTimeVersion.CnsldtnFSItemCashFlow` |
+| `CnsldtnFSItemScope` | `_ByTimeVersion.CnsldtnFSItemScope` |
+| `CnsldtnFSItemCustomerSpecific` | `_ByTimeVersion.CnsldtnFSItemCustomerSpecific` |
+| `CnsldtnEliminationTargetFSItem` | `_ByTimeVersion.CnsldtnEliminationTargetFSItem` |
+| `CnsldtnNCITargetFSItem` | `_ByTimeVersion.CnsldtnNCITargetFSItem` |
+| `CnsldtnPlanningTargetFSItem` | `_ByTimeVersion.CnsldtnPlanningTargetFSItem` |
+| `CnsldtnOffsettingTargetFSItem` | `_ByTimeVersion.CnsldtnOffsettingTargetFSItem` |
+| `_CnsldtnChartOfAccounts` | *Association* |
+| `_CnsldtnVersion` | *Association* |
 | `_CnsldtnElimTargetFSItem` | *Association* |
 | `_CnsldtnNCITargetFSItem` | *Association* |
 | `_CnsldtnPlanningTargetFSItem` | *Association* |
 | `_CnsldtnOffsettingTargetFSItem` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemRole` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemDataColl` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemCrcyTrnsltn` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemElimination` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemCashFlow` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemScope` | *Association* |
-| `_ByTimeVersion._CnsldtnFSItemCustSpcfc` | *Association* |
+| `_CnsldtnFSItemRole` | *Association* |
+| `_CnsldtnFSItemDataColl` | *Association* |
+| `_CnsldtnFSItemCrcyTrnsltn` | *Association* |
+| `_CnsldtnFSItemElimination` | *Association* |
+| `_CnsldtnFSItemCashFlow` | *Association* |
+| `_CnsldtnFSItemScope` | *Association* |
+| `_CnsldtnFSItemCustSpcfc` | *Association* |
 
 ## Associations
 

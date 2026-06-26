@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   CostEstimate` | `CostEstimate` |
-| `key   Ledger` | `Ledger` |
-| `key   CurrencyRole` | `CurrencyRole` |
+| `CostEstimate` | `CostEstimate` |
+| `Ledger` | `Ledger` |
+| `CurrencyRole` | `CurrencyRole` |
 | `FiscalPeriod` | `FiscalPeriod` |
 | `FiscalYear` | `FiscalYear` |
 | `FiscalYearPeriod` | `FiscalYearPeriod` |

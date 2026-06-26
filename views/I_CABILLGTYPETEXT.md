@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgType` | `_tfk8112t.bill_type` |
 | `Language` | `_tfk8112t.langu` |
-| `_tfk8112t.text      as CABillgTypeText` | *Association* |
+| `CABillgTypeText` | `_tfk8112t.text` |
 | `_CABillgType` | *Association* |
 | `_Language` | *Association* |
 

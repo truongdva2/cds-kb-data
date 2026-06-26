@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:PrjBlgElmEntrCanclnSourceCode
 ---
 # I_PRJBLGELMENTRCANCLNSRCECODE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbee_cancellingsrc preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `PrjBlgElmEntrCanclnSrceCode` | `cast( substring( domvalue_l, 1, 1 ) as pbee_cancellingsrc preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PrjBlgElmEntrCanclnSrcCdText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrjBlgElmEntrCanclnSrcCdText` | `I_PrjBlgElmEntrCanclnSrcCdText` | [0..*] |
 
 ## Source Code
 

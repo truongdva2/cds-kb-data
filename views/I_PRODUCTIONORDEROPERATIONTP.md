@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderInternalID` | `OrderInternalID` |
-| `key OrderOperationInternalID` | `OrderOperationInternalID` |
+| `OrderInternalID` | `OrderInternalID` |
+| `OrderOperationInternalID` | `OrderOperationInternalID` |
 | `ProductionOrder` | `ProductionOrder` |
 | `ProductionOrderSequence` | `ProductionOrderSequence` |
 | `ProductionOrderOperation` | `ProductionOrderOperation` |
@@ -171,7 +171,6 @@ tags:
 | `OpTotalConfirmedYieldQty` | `OpTotalConfirmedYieldQty` |
 | `OpTotalConfirmedScrapQty` | `OpTotalConfirmedScrapQty` |
 | `OperationConfirmedReworkQty` | `OperationConfirmedReworkQty` |
-| `OpWorkQuantityUnit1` | `OpWorkQuantityUnit1` |
 | `OpWorkQuantityUnit2` | `OpWorkQuantityUnit2` |
 | `OpWorkQuantityUnit3` | `OpWorkQuantityUnit3` |
 | `OpWorkQuantityUnit4` | `OpWorkQuantityUnit4` |
@@ -211,12 +210,8 @@ tags:
 | `BusinessProcessEntryUnit` | `BusinessProcessEntryUnit` |
 | `BusinessProcessConfirmedQty` | `BusinessProcessConfirmedQty` |
 | `NoFurtherBusinessProcQtyIsExpd` | `NoFurtherBusinessProcQtyIsExpd` |
-| `_OperationCapacity : redirected to composition child I_ProdnOrdOperationCapacityTP` | *Association* |
-| `_Sequence : redirected to parent I_ProductionOrderSequenceTP` | *Association* |
-| `_ProductionOrder : redirected to I_ProductionOrderTP` | *Association* |
-| `_OperationComponent : redirected to I_ProductionOrderOpComponentTP` | *Association* |
-| `_Supplier,              // for DCLS` | *Association* |
-| `_SupplierCompanyByPlant // for DCLS` | *Association* |
+| `_Supplier` | *Association* |
+| `_SupplierCompanyByPlant` | *Association* |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - status
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:OverallBillingDocumentStatus
 ---
 # I_OVERALLBILLINGSTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vf_status preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `OverallBillingStatus` | `cast(substring(domvalue_l, 1, 1) as vf_status preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

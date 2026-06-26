@@ -33,8 +33,64 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qualifier: 'QuarterComp', groupLabel: 'Quarter Comparison' }]` | `qualifier: 'QuarterComp', groupLabel: 'Quarter Comparison' }]` |
-| `DeltaCurPrevFYQuarterRatio` | `ratio_of( portion=>$projection.DeltaCurPrevFYQuarterValue, total=>$projection.PrevYearCurrentFYQuarterValue ) * 100` |
+| `Ledger` | `Ledger` |
+| `IsStatisticalCostCenter` | `IsStatisticalCostCenter` |
+| `CostCenter` | `CostCenter` |
+| `GLAccount` | `GLAccount` |
+| `CostCtrActivityType` | `CostCtrActivityType` |
+| `BusinessTransactionType` | `BusinessTransactionType` |
+| `CompanyCode` | `CompanyCode` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `ActualPlanCode` | `ActualPlanCode` |
+| `SourceLedger` | `SourceLedger` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FinancialPlanningReqTransSqnc` | `FinancialPlanningReqTransSqnc` |
+| `FinancialPlanningDataPacket` | `FinancialPlanningDataPacket` |
+| `ActualPlanJournalEntryItem` | `ActualPlanJournalEntryItem` |
+| `PlanningCategory` | `PlanningCategory` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `FiscalQuarter` | `FiscalQuarter` |
+| `FiscalYearPeriod` | `FiscalYearPeriod` |
+| `FiscalYearQuarter` | `FiscalYearQuarter` |
+| `LedgerFiscalYear` | `LedgerFiscalYear` |
+| `GlobalCurrency` | `GlobalCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `AccountAssignmentType` | `AccountAssignmentType` |
+| `PartnerAccountAssignmentType` | `PartnerAccountAssignmentType` |
+| `FunctionalArea` | `FunctionalArea` |
+| `PartnerCostCtrActivityType` | `PartnerCostCtrActivityType` |
+| `PartnerCostCenter` | `PartnerCostCenter` |
+| `PartnerProjectInternalID` | `PartnerProjectInternalID` |
+| `PartnerProjectExternalID` | `PartnerProjectExternalID` |
+| `PartnerWBSElementExternalID` | `PartnerWBSElementExternalID` |
+| `PartnerFunctionalArea` | `PartnerFunctionalArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `AmountInCompanyCodeCurrency` | `AmountInCompanyCodeCurrency` |
+| `AmountInGlobalCurrency` | `AmountInGlobalCurrency` |
+| `BaseUnit` | `BaseUnit` |
+| `Quantity` | `Quantity` |
+| `RatioUnit` | `cast( '%' as abap.unit )` |
+| `CurrentFiscalYearValue` | `cast(…)` |
+| `PrevFiscalYearValue` | `cast(…)` |
+| `CurrentFYPeriodValue` | `cast(…)` |
+| `PreviousFYPeriodValue` | `cast(…)` |
+| `DeltaCurPrevFYPeriodValue` | `cast(…)` |
+| `DeltaCurPrevFYPeriodRatio` | `ratio_of(…)` |
+| `PrevYearCurrentFYPeriodValue` | `cast(…)` |
+| `DeltaCurFYPerPreFYPerValue` | `cast(…)` |
+| `DeltaCurFYPerPreFYPerRatio` | `ratio_of(…)` |
+| `CurrentFYYearToDateValue` | `cast(…)` |
+| `PreviousFYYearToDateValue` | `cast(…)` |
+| `DeltaCurYTDPrevYTDValue` | `cast(…)` |
+| `DeltaCurYTDPrevYTDRatio` | `ratio_of(…)` |
+| `CurrentFiscalQuarterValue` | `cast(…)` |
+| `PrevFiscalQuarterValue` | `cast(…)` |
+| `DeltaCurPrevFiscalQtrValue` | `cast(…)` |
+| `DeltaCurPrevFiscalQtrRatio` | `ratio_of(…)` |
+| `PrevYearCurrentFYQuarterValue` | `cast(…)` |
+| `DeltaCurPrevFYQuarterValue` | `cast(…)` |
+| `DeltaCurPrevFYQuarterRatio` | `ratio_of(…)` |
 
 ## Associations
 

@@ -33,9 +33,9 @@ tags:
 |---|---|
 | `DSD_SettlementDocument` | `_Item.sld_doc_id` |
 | `DSD_TourNumber` | `_Item.tour_id` |
-| `_Item.obj_typ    as TourDocumentType` | *Association* |
-| `_Item.obj_id     as TourDocumentNumber` | *Association* |
-| `_Header.plant    as Plant` | *Association* |
+| `TourDocumentType` | `_Item.obj_typ` |
+| `TourDocumentNumber` | `_Item.obj_id` |
+| `Plant` | `_Header.plant` |
 | `_TourDocumentType` | *Association* |
 
 ## Associations

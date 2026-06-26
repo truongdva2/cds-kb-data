@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TranspOrdItemCommodityCodeUUID` | `TranspOrdItemCommodityCodeUUID` |
+| `TranspOrdItemCommodityCodeUUID` | `TranspOrdItemCommodityCodeUUID` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItemCommodityCode` | `TranspOrdItemCommodityCode` |
 | `TrOrdItmCmmdtyCodeNmbrngSchm` | `TrOrdItmCmmdtyCodeNmbrngSchm` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightOrder : redirected to  I_FreightOrderTP` | `FreightOrderItemCommodityCode._TransportationOrder` |
-| `_FreightOrderItem : redirected to parent I_FreightOrderItemTP` | `FreightOrderItemCommodityCode._TransportationOrderItem` |
+| `_FreightOrder` | *Association* |
+| `_FreightOrderItem` | *Association* |
 
 ## Associations
 

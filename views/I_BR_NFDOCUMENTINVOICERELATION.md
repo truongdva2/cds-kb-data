@@ -31,17 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _BR_NFItem.BR_NFSourceDocumentNumber` | `_BR_NFItem.BR_NFSourceDocumentNumber` |
-| `_BR_NFDocument.BR_NotaFiscal` | *Association* |
-| `_BR_NFDocument.BR_NFType` | *Association* |
-| `_BR_NFDocument.BR_NFSNumber` | *Association* |
-| `_BR_NFDocument.BR_NFSVerificationCode` | *Association* |
-| `_BR_NFDocument.BR_NFAuthznProtocolNumber` | *Association* |
-| `_BR_NFDocument.BR_NFAuthznProtocolNumber16` | *Association* |
-| `_BR_NFDocument.BR_NFAuthenticationDate` | *Association* |
-| `_BR_NFDocument.BR_NFAuthenticationTime` | *Association* |
-| `_BR_NFeActive.BR_NFeRandomNumber` | *Association* |
-| `_BR_NFeActive.IssuingType` | *Association* |
+| `BR_NFSourceDocumentNumber` | `_BR_NFItem.BR_NFSourceDocumentNumber` |
+| `BR_NotaFiscal` | `_BR_NFDocument.BR_NotaFiscal` |
+| `BR_NFType` | `_BR_NFDocument.BR_NFType` |
+| `BR_NFSNumber` | `_BR_NFDocument.BR_NFSNumber` |
+| `BR_NFSVerificationCode` | `_BR_NFDocument.BR_NFSVerificationCode` |
+| `BR_NFAuthznProtocolNumber` | `_BR_NFDocument.BR_NFAuthznProtocolNumber` |
+| `BR_NFAuthznProtocolNumber16` | `_BR_NFDocument.BR_NFAuthznProtocolNumber16` |
+| `BR_NFAuthenticationDate` | `_BR_NFDocument.BR_NFAuthenticationDate` |
+| `BR_NFAuthenticationTime` | `_BR_NFDocument.BR_NFAuthenticationTime` |
+| `BR_NFeRandomNumber` | `_BR_NFeActive.BR_NFeRandomNumber` |
+| `IssuingType` | `_BR_NFeActive.IssuingType` |
 
 ## Associations
 

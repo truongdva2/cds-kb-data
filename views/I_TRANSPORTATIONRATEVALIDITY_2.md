@@ -30,20 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transprate_val_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpratetable_uuid  preserving type)` | `cast(parent_key` |
-| `cast( case when currency = '%'` | `cast( case when currency = '%'` |
-| `/scmtms/vdm_rt_valdty_curr)` | `then cast(''` |
-| `else currency` | `else currency` |
-| `/scmtms/vdm_rt_valdty_curr)` | `end` |
-| `cast( case when currency = '%'` | `cast( case when currency = '%'` |
-| `abap.char( 3 ))` | `then cast( '%'` |
-| `else  ''` | `else  ''` |
-| `/scmtms/vdm_rt_valdty_pct_unit)` | `end` |
-| `/scmtms/vdm_rt_valdty_lfcycsts preserving type)` | `cast(lifecyclestatus` |
-| `/scmtms/vdm_rt_valdty_end_dt preserving type)` | `cast(valid_end_dt` |
-| `/scmtms/vdm_rt_valdty_strt_dt preserving type)` | `cast(valid_start_dt` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspRateValidityUUID` | `cast(db_key as /scmtms/transprate_val_uuid preserving type)` |
+| `TransportationRateUUID` | `cast(parent_key as /scmtms/transpratetable_uuid preserving type)` |
+| `TranspRateValidityCurrency` | `cast(…)` |
+| `TranspRateTblValidityPctUnit` | `cast(…)` |
+| `TranspRateValidityLfcycStatus` | `cast(lifecyclestatus as /scmtms/vdm_rt_valdty_lfcycsts preserving type)` |
+| `TranspRateValidityEndDate` | `cast(valid_end_dt as /scmtms/vdm_rt_valdty_end_dt preserving type)` |
+| `TranspRateValidityStartDate` | `cast(valid_start_dt as /scmtms/vdm_rt_valdty_strt_dt preserving type)` |
 | `_TransportationRate` | *Association* |
 | `_TranspRateCalculationRule` | *Association* |
 | `_TranspRateDimension01` | *Association* |
@@ -68,6 +61,22 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationRate` | `I_TransportationRate` | — |
+| `_TranspRateCalculationRule` | `I_TranspRateCalcRule` | [0..1] |
+| `_TranspRateDimension01` | `I_TranspRateDimension01` | [0..*] |
+| `_TranspRateDimension02` | `I_TranspRateDimension02` | [0..*] |
+| `_TranspRateDimension03` | `I_TranspRateDimension03` | [0..*] |
+| `_TranspRateDimension04` | `I_TranspRateDimension04` | [0..*] |
+| `_TranspRateDimension05` | `I_TranspRateDimension05` | [0..*] |
+| `_TranspRateDimension06` | `I_TranspRateDimension06` | [0..*] |
+| `_TranspRateDimension07` | `I_TranspRateDimension07` | [0..*] |
+| `_TranspRateDimension08` | `I_TranspRateDimension08` | [0..*] |
+| `_TranspRateDimension09` | `I_TranspRateDimension09` | [0..*] |
+| `_TranspRateDimension10` | `I_TranspRateDimension10` | [0..*] |
+| `_TranspRateDimension11` | `I_TranspRateDimension11` | [0..*] |
+| `_TranspRateDimension12` | `I_TranspRateDimension12` | [0..*] |
+| `_TranspRateDimension13` | `I_TranspRateDimension13` | [0..*] |
+| `_TranspRateDimension14` | `I_TranspRateDimension14` | [0..*] |
 | `_TranspRateValidityCurrency` | `I_Currency` | [1..1] |
 | `_TranspRateTableValdtySts` | `I_TranspRateTableValdtySts` | [0..1] |
 | `_TranspRateValidityPctUnit` | `I_UnitOfMeasure` | [0..1] |

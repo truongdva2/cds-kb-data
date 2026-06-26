@@ -32,16 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key LanguageCode` | `LanguageCode` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `LanguageCode` | `LanguageCode` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ObjectDependencyDescription` | `ObjectDependencyDescription` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_ObjectDependency : redirected to I_VarCnfObjectDependencyTP` | *Association* |
-| `_Text             : redirected to parent I_VarCnfObjDpndcyTextTP` | *Association* |
 
 ## Associations
 

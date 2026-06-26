@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalRspLifecycleStatus
 ---
 # I_SUPLREVALRSPLIFECYCLESTS
 
@@ -29,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/srs_lifecycle_stat_cd preserving type )as SuplrEvalRspLifecycleStatus` | `cast ( substring( domvalue_l, 1, 2 )` |
 | `_SuplrEvalRspLifecycleStsText` | *Association* |
 
 ## Associations

@@ -35,7 +35,7 @@ tags:
 | `CreationDate` | `erdat` |
 | `CreationTime` | `ertim` |
 | `CreatedByUser` | `ernam` |
-| `loevm preserving type)` | `cast(loevm` |
+| `IsMarkedForDeletion` | `cast(loevm as loevm preserving type)` |
 | `LastChangeDate` | `aedat` |
 | `LastChangeTime` | `aetim` |
 | `LastChangedByUser` | `aenam` |

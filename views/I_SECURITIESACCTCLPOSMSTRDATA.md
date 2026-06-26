@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecuritiesAcctClPosMstrData
 ---
 # I_SECURITIESACCTCLPOSMSTRDATA
 
@@ -36,7 +37,6 @@ tags:
 | `SecurityClass` | `SecurityClassPos.security_id` |
 | `Portfolio` | `SecurityClassPos.portfolio` |
 | `TreasuryFinancialObject` | `SecurityClassPos.objnr` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_SecurityAccount` | *Association* |
 | `_SecurityClass` | *Association* |

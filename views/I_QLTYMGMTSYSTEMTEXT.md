@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:QualityManagementSystem
 ---
 # I_QLTYMGMTSYSTEMTEXT
 
@@ -33,8 +34,7 @@ tags:
 |---|---|
 | `QualityManagementSystem` | `tq02u.qssysfam` |
 | `Language` | `tq02u.sprsl` |
-| `vdm_qmsystem_text preserving type  )` | `cast( tq02u.qstext` |
-| `/* Associations */` | `/* Associations */` |
+| `QualityManagementSystemText` | `cast( tq02u.qstext as vdm_qmsystem_text preserving type )` |
 | `_QualityManagementSystem` | *Association* |
 | `_Language` | *Association* |
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:MM-PUR-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierClassification
 ---
 # I_SUPLREVALCRITRNVARCSCORE
 

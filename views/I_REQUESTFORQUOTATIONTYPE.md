@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:RFQType
 ---
 # I_REQUESTFORQUOTATIONTYPE
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `RFQType` | `RFQType.PurchasingDocumentType` |
 | `_RFQTypeText` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - document
   - component:SD-BIL-IV-PC-2CL
   - lob:Sales & Distribution
+  - bo:PaymentCardType
 ---
 # I_SDDOCUMENTPAYMENTCARDTYPE
 
@@ -33,7 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PaymentCardType` | `ccins` |
-| `int4)` | `cast( tgval` |
+| `PaymentCardAuthznPeriodDays` | `cast( tgval as int4)` |
 | `_Text` | *Association* |
 
 ## Associations

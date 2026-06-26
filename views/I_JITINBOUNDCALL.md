@@ -42,7 +42,7 @@ tags:
 | `UnloadingPointName` | `ablad` |
 | `CustomerPartnerDescription` | `knref` |
 | `MatlUsageIndicator` | `abrvw` |
-| `abap.char( 10 ) )` | `cast( lifnr` |
+| `ActiveSupplier` | `cast( lifnr as abap.char( 10 ) )` |
 | `JITCallType` | `call_type` |
 | `JITLifecycleStatus` | `lifecycle_stat` |
 | `VehicleModel` | `vhcle_model` |
@@ -79,6 +79,10 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInbCallComponentGroup` | `I_JITInbCallComponentGroup` | [0..*] |
+| `_JITInbCallComponent` | `I_JITInbCallComponent` | [0..*] |
+| `_JITInbCallReferenceText` | `I_JITInbCallReferenceText` | [0..*] |
+| `_JITInbCallDocReference` | `I_JITInbCallDocReference` | [0..*] |
 | `_CustomerToBusinessPartner` | `I_Customer_to_BusinessPartner` | [1..1] |
 | `_JITLifecycleStatus` | `I_JITLifecycleStatus` | [0..1] |
 | `_JITCallType` | `I_JITCallType` | [0..1] |

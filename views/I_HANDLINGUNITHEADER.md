@@ -31,10 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `HandlingUnitInternalID` | `venum` |
-| `case` | `case` |
-| `when HandlingUnitHeader.uuid is not null then bintohex(HandlingUnitHeader.uuid)` | `when HandlingUnitHeader.uuid is not null then bintohex(HandlingUnitHeader.uuid)` |
-| `lo_hu_uuid_char32 )` | `else cast( HandlingUnitHeader.handle` |
-| `HandlingUnitCharUUID` | `end` |
+| `HandlingUnitCharUUID` | `case…end` |
 | `HandlingUnitExternalID` | `exidv` |
 | `HandlingUnitExternalIdType` | `exida` |
 | `ShippingPoint` | `vstel` |
@@ -85,14 +82,14 @@ tags:
 | `PackagingMaterialCategory` | `veltp` |
 | `HandlingUnitSecondExternalId` | `exidv2` |
 | `HandlingUnitCustomerPackMat` | `vhilm_ku` |
-| `_ERPHandlingUnitReferenceDoc.HandlingUnitRefDocType        as HandlingUnitPackingObjectType` | *Association* |
-| `_ERPHandlingUnitReferenceDoc.HandlingUnitReferenceDocument as HandlingUnitPackingObjectKey` | *Association* |
+| `HandlingUnitPackingObjectType` | `_ERPHandlingUnitReferenceDoc.HandlingUnitRefDocType` |
+| `HandlingUnitPackingObjectKey` | `_ERPHandlingUnitReferenceDoc.HandlingUnitReferenceDocument` |
 | `SourceHandlingUnitUUID` | `handle` |
 | `HandlingUnitIsClosed` | `kzgvh` |
 | `HazardousSubstanceIndicator` | `adge_dg` |
 | `HandlingUnitLowerLevelRefer` | `uevel` |
 | `HandlingUnitInternalStatus` | `status` |
-| `pl_packnr  preserving type )` | `cast( packvorschr` |
+| `PackingInstruction` | `cast( packvorschr as pl_packnr preserving type )` |
 | `PackingInstructionStatus` | `packvorschr_st` |
 | `PackInstructExtLabelNotPrinted` | `labeltyp` |
 | `PackingInstructMaxLoadQuantity` | `zul_aufl` |
@@ -131,7 +128,6 @@ tags:
 | `_PackagingMaterial` | `I_Material` | [0..1] |
 | `_Plant` | `I_Plant` | [0..1] |
 | `_StorageLocation` | `I_StorageLocation` | [0..1] |
-| `_Warehouse` | `I_Warehouse` | [0..1] |
 | `_ShippingPoint` | `I_ShippingPoint` | [0..1] |
 | `_LoadingPoint` | `I_LoadingPoint` | [0..1] |
 | `_PackagingMaterialType` | `I_MeansOfTransportType` | [0..1] |
@@ -141,8 +137,6 @@ tags:
 | `_PackagingMaterialCategory` | `I_HandlingUnitPackMatCategory` | [0..1] |
 | `_PackingObjectType` | `I_HandlingUnitPackObjectType` | [0..1] |
 | `_HandlingUnitHistory` | `I_HandlingUnitHistory` | [0..*] |
-| `_ToParenthandlingUnit` | `I_HandlingUnitHeader` | [0..1] |
-| `_AuthUser` | `I_PPM_AuthznByUsrH` | [0..*] |
 
 ## Source Code
 

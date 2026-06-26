@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FinancialStatementHierNodeText
 ---
 # I_FINANCIALSTATEMENTHIERNODET
 
@@ -37,7 +38,7 @@ tags:
 | `HierarchyNodeText` | `hrrp_nodet_n.nodetxt` |
 | `HierarchyNodeShortText` | `substring(hrrp_nodet_n.nodetxt, 1, 20)` |
 | `ValidityStartDate` | `hrrp_nodet_n.hryvalfrom` |
-| `_node.FinStmntNodeFormattedID` | *Association* |
+| `FinStmntNodeFormattedID` | `_node.FinStmntNodeFormattedID` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

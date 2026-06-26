@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransFlowCategory
 ---
 # I_FINTRANSFLOWCATEGORYTEXT
 
@@ -33,7 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `ftr_flow_category preserving type )` | `cast( sbktyp` |
+| `FinTransFlowCategory` | `cast( sbktyp as ftr_flow_category preserving type )` |
 | `FinTransFlowCategoryName` | `xbktyp` |
 | `_Language` | *Association* |
 | `_FlowCategory` | *Association* |

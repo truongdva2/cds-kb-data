@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_settlmt_doc_cat )` | `cast ( dd07l.domvalue_l` |
+| `SettlmtDocCat` | `cast ( dd07l.domvalue_l as wlf_settlmt_doc_cat )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SettlmtDocCatText` | [0..*] |
 
 ## Source Code
 

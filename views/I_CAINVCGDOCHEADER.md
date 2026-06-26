@@ -36,19 +36,19 @@ tags:
 | `CAInvcgProcess` | `inv_process` |
 | `CAInvcgType` | `inv_type` |
 | `CAInvcgCategory` | `inv_category` |
-| `techdoctype_gfn_kk preserving type)` | `cast(techdoctype` |
+| `CAInvcgTechnicalDocumentType` | `cast(techdoctype as techdoctype_gfn_kk preserving type)` |
 | `CAInvcgTargetProcess` | `targprocess` |
-| `bu_partner preserving type)` | `cast(gpart` |
+| `BusinessPartner` | `cast(gpart as bu_partner preserving type)` |
 | `ContractAccount` | `vkont` |
 | `CAInvcgMasterDataType` | `mdcat` |
 | `AltvContractAcctForCollvBills` | `abwvk` |
-| `abwbl_gfn_kk preserving type )` | `cast(abwbl` |
+| `CASubstituteDocumentNumber` | `cast(abwbl as abwbl_gfn_kk preserving type )` |
 | `CreatedByUser` | `crname` |
 | `CAInvcgCreationDate` | `crdate` |
 | `CAInvcgCreationTime` | `crtime` |
 | `CAInvcgDocCreationMode` | `crmode` |
 | `CAInvcgNmbrOfInvoicingDocItems` | `recnum` |
-| `bit_number_gfn_kk preserving type)` | `cast(bit_number` |
+| `CABllbleItmNumber` | `cast(bit_number as bit_number_gfn_kk preserving type)` |
 | `CAInvcgDocInternalNumber` | `invrunno` |
 | `CAReconciliationKey` | `fikey` |
 | `CAPostingDate` | `budat` |
@@ -60,24 +60,24 @@ tags:
 | `CAAmountInTransactionCurrency` | `total_amt` |
 | `CAInvcgIsDocumentPosted` | `invoiced` |
 | `CAInvcgIsDocumentSimulated` | `simulated` |
-| `inv_preliminary_gfn_kk preserving type)` | `cast(preliminary` |
-| `prlinv_cat_gfn_kk preserving type)` | `cast(prlinv_cat` |
+| `CAInvcgIsDocumentPreliminary` | `cast(preliminary as inv_preliminary_gfn_kk preserving type)` |
+| `CAInvcgPreliminaryCategory` | `cast(prlinv_cat as prlinv_cat_gfn_kk preserving type)` |
 | `CAPrelimInvcgDocValue` | `prlinv_cnt` |
-| `prlinv_status_gfn_kk preserving type)` | `cast(prlinv_status` |
+| `CAPreliminaryInvcgDocStatus` | `cast(prlinv_status as prlinv_status_gfn_kk preserving type)` |
 | `CAInvcgDocumentReversalReason` | `revreason` |
-| `inv_reversaldoc_gfn_kk preserving type)` | `cast(reversaldoc` |
-| `inv_reverseddoc_gfn_kk preserving type)` | `cast(reverseddoc` |
-| `corrcat_gfn_kk preserving type)` | `cast(corrcat` |
+| `CAInvcgReversalDocument` | `cast(reversaldoc as inv_reversaldoc_gfn_kk preserving type)` |
+| `CAInvcgReversedDocument` | `cast(reverseddoc as inv_reverseddoc_gfn_kk preserving type)` |
+| `CAInvcgCorrectionCategory` | `cast(corrcat as corrcat_gfn_kk preserving type)` |
 | `CAInvcgDocumentPrintDate` | `printdate` |
 | `CAInvcgDocIsLockedForPrinting` | `printlock` |
-| `CAPaymentMethod` | `pymet` |
+| `CAPaymentMethod` | `-- fkey in upper view (due to complexity) pymet` |
 | `CAPaymentFormNumber` | `nrzas` |
 | `CAInvcgDocFormID` | `form_id` |
 | `ApplicationForm` | `formkey` |
 | `FormIDForAttachedPaymentMedium` | `zlsch` |
 | `CAInvcgDocumentType` | `doctype` |
 | `CAKeyIdentification` | `exkid` |
-| `exbel_no_conv_kk)` | `cast(exbel` |
+| `CAOfficialDocumentNumber` | `cast(exbel as exbel_no_conv_kk)` |
 | `CAPartnerSettlementRule` | `ptsrl` |
 | `CompanyCode` | `bukrs` |
 | `BusinessPlace` | `bupla` |
@@ -88,16 +88,16 @@ tags:
 | `CAInvcgDocPeriodDate` | `invperiod` |
 | `CAInvcgDocPeriodStartDate` | `invperiod_from` |
 | `CADunningCounter` | `mazae` |
-| `chgdoc_ex_gfn_kk preserving type)` | `cast(chgdoc_ex` |
-| `inv_cfcsimulated_gfn_kk preserving type)` | `cast(cfcsimulated` |
+| `CAInvcgDocHasChargeOrDiscItems` | `cast(chgdoc_ex as chgdoc_ex_gfn_kk preserving type)` |
+| `CAInvcgDocHasControlDoc` | `cast(cfcsimulated as inv_cfcsimulated_gfn_kk preserving type)` |
 | `CAInvcgBolloTaxPostStatus` | `bollotax` |
 | `CAInvcgDocIsPartOfList` | `xsubinv` |
 | `CAInvcgDocHasObjectRelation` | `xinvdoc_x` |
 | `CAInvcgDocHasSEPAPreNotif` | `sepa_prenot` |
-| `ext_invdocno_gfn_kk preserving type)` | `cast(ext_invdocno` |
+| `CAInvcgDocExternal` | `cast(ext_invdocno as ext_invdocno_gfn_kk preserving type)` |
 | `CAInvcgAdjustmentDocument` | `adjustmentdoc` |
-| `adjustedinvdoc_gfn_kk preserving type)` | `cast(adjusteddoc` |
-| `nrobj)` | `cast('FKKINV'` |
+| `CAInvcgAdjustedDocument` | `cast(adjusteddoc as adjustedinvdoc_gfn_kk preserving type)` |
+| `NameNumberRangeObject` | `cast('FKKINV' as nrobj)` |
 | `CAClassificationKey` | `dfkkinvdoc_h.opord` |
 | `_BusinessPartner` | *Association* |
 | `_ContractAccountHeader` | *Association* |

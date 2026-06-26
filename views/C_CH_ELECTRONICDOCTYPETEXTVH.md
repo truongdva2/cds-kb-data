@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-CSC-EDO-CH
   - lob:Cross-Application Components
+  - bo:CH_ElectronicDocAcctgDocType
 ---
 # C_CH_ELECTRONICDOCTYPETEXTVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
-| `_Text[1:Language = $session.system_language].CH_ElectronicDocTypeText as CH_ElectronicDocTypeText` | *Association* |
+| `CH_ElectronicDocAcctgDocType` | `CH_ElectronicDocAcctgDocType` |
+| `CH_ElectronicDocTypeText` | `_Text[1:Language = $session.system_language].CH_ElectronicDocTypeText` |
 
 ## Associations
 

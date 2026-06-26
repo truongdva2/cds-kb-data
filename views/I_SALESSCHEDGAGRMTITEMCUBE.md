@@ -34,79 +34,79 @@ tags:
 | `SalesSchedulingAgreement` | `SalesSchedgAgrmtItem.SalesSchedulingAgreement` |
 | `SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItem.SalesSchedulingAgreementItem` |
 | `SchedulingAgreementReleaseType` | `SalesSchedgAgrmtDelivSched.SchedulingAgreementReleaseType` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt` |
-| `SalesSchedgAgrmtDelivSched._SalesSchedgAgrmtRelType` | `SalesSchedgAgrmtDelivSched._SalesSchedgAgrmtRelType` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesSchedgAgrmtType` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtItem.LastChangeDate` | `SalesSchedgAgrmtItem.LastChangeDate` |
-| `SalesSchedgAgrmtItem.CreatedByUser` | `SalesSchedgAgrmtItem.CreatedByUser` |
-| `SalesSchedgAgrmtItem.CreationDate` | `SalesSchedgAgrmtItem.CreationDate` |
-| `SalesSchedgAgrmtItem.CreationTime` | `SalesSchedgAgrmtItem.CreationTime` |
-| `creation_date_year)` | `cast(CalendarDate.CalendarYear` |
-| `creation_date_year_quarter)` | `cast(CalendarDate.YearQuarter` |
-| `creation_date_year_month)` | `cast(CalendarDate.YearMonth` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOrganization` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOrganization` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesOrganization` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesOrganization` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.DistributionChannel` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.DistributionChannel` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._DistributionChannel` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._DistributionChannel` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.OrganizationDivision` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.OrganizationDivision` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._OrganizationDivision` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._OrganizationDivision` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOffice` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOffice` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesOffice` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesOffice` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesGroup` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesGroup` |
+| `_SalesSchedgAgrmt` | *Association* |
+| `_SalesSchedgAgrmtRelType` | *Association* |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesSchedgAgrmtType` |
+| `LastChangeDate` | `SalesSchedgAgrmtItem.LastChangeDate` |
+| `CreatedByUser` | `SalesSchedgAgrmtItem.CreatedByUser` |
+| `CreationDate` | `SalesSchedgAgrmtItem.CreationDate` |
+| `CreationTime` | `SalesSchedgAgrmtItem.CreationTime` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `SalesOrganization` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.OrganizationDivision` |
+| `_OrganizationDivision` | *Association* |
+| `SalesOffice` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `SalesGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesGroup` |
+| `_SalesGroup` | *Association* |
 | `PartnerCompany` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SoldToParty.TradingPartner` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SoldToParty._GlobalCompany` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SoldToParty._GlobalCompany` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SoldToParty` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SoldToParty` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SoldToParty` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SoldToParty` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.CustomerGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.CustomerGroup` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._CustomerGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._CustomerGroup` |
-| `kunwe)` | `cast(coalesce(ItemPartner.ShipToParty, HeaderPartner.ShipToParty)` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SoldToParty` |
+| `_SoldToParty` | *Association* |
+| `CustomerGroup` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.CustomerGroup` |
+| `_CustomerGroup` | *Association* |
+| `ShipToParty` | `cast(coalesce(ItemPartner.ShipToParty, HeaderPartner.ShipToParty) as kunwe)` |
 | `_ShipToParty` | *Association* |
-| `kunre)` | `cast(coalesce(ItemPartner.BillToParty, HeaderPartner.BillToParty)` |
+| `BillToParty` | `cast(coalesce(ItemPartner.BillToParty, HeaderPartner.BillToParty) as kunre)` |
 | `_BillToParty` | *Association* |
-| `kunrg)` | `cast(coalesce(ItemPartner.PayerParty,  HeaderPartner.PayerParty)` |
+| `PayerParty` | `cast(coalesce(ItemPartner.PayerParty, HeaderPartner.PayerParty) as kunrg)` |
 | `_PayerParty` | *Association* |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup1` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup1` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup1` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup1` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup2` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup2` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup2` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup2` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup3` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup3` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup3` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup3` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup4` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup4` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup4` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup4` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup5` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup5` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup5` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._AdditionalCustomerGroup5` |
-| `SalesSchedgAgrmtItem.MaterialByCustomer` | `SalesSchedgAgrmtItem.MaterialByCustomer` |
-| `SalesSchedgAgrmtItem.Division` | `SalesSchedgAgrmtItem.Division` |
-| `SalesSchedgAgrmtItem._Division` | `SalesSchedgAgrmtItem._Division` |
-| `SalesSchedgAgrmtItem.Plant` | `SalesSchedgAgrmtItem.Plant` |
-| `SalesSchedgAgrmtItem._Plant` | `SalesSchedgAgrmtItem._Plant` |
-| `productnumber preserving type )` | `cast( SalesSchedgAgrmtItem.Material` |
+| `AdditionalCustomerGroup1` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup1` |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `AdditionalCustomerGroup2` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup2` |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `AdditionalCustomerGroup3` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup3` |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `AdditionalCustomerGroup4` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup4` |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `AdditionalCustomerGroup5` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.AdditionalCustomerGroup5` |
+| `_AdditionalCustomerGroup5` | *Association* |
+| `MaterialByCustomer` | `SalesSchedgAgrmtItem.MaterialByCustomer` |
+| `Division` | `SalesSchedgAgrmtItem.Division` |
+| `_Division` | *Association* |
+| `Plant` | `SalesSchedgAgrmtItem.Plant` |
+| `_Plant` | *Association* |
+| `Product` | `cast( SalesSchedgAgrmtItem.Material as productnumber preserving type )` |
 | `_Product` | *Association* |
-| `productgroup preserving type )` | `cast( SalesSchedgAgrmtItem.MaterialGroup` |
+| `ProductGroup` | `cast( SalesSchedgAgrmtItem.MaterialGroup as productgroup preserving type )` |
 | `_ProductGroup` | *Association* |
-| `SalesSchedgAgrmtItem.AdditionalMaterialGroup1` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup1` |
-| `SalesSchedgAgrmtItem._AdditionalMaterialGroup1` | `SalesSchedgAgrmtItem._AdditionalMaterialGroup1` |
-| `SalesSchedgAgrmtItem.AdditionalMaterialGroup2` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup2` |
-| `SalesSchedgAgrmtItem._AdditionalMaterialGroup2` | `SalesSchedgAgrmtItem._AdditionalMaterialGroup2` |
-| `SalesSchedgAgrmtItem.AdditionalMaterialGroup3` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup3` |
-| `SalesSchedgAgrmtItem._AdditionalMaterialGroup3` | `SalesSchedgAgrmtItem._AdditionalMaterialGroup3` |
-| `SalesSchedgAgrmtItem.AdditionalMaterialGroup4` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup4` |
-| `SalesSchedgAgrmtItem._AdditionalMaterialGroup4` | `SalesSchedgAgrmtItem._AdditionalMaterialGroup4` |
-| `SalesSchedgAgrmtItem.AdditionalMaterialGroup5` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup5` |
-| `SalesSchedgAgrmtItem._AdditionalMaterialGroup5` | `SalesSchedgAgrmtItem._AdditionalMaterialGroup5` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.BillingCompanyCode` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.BillingCompanyCode` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._BillingCompanyCode` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._BillingCompanyCode` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesDistrict` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesDistrict` |
-| `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesDistrict` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt._SalesDistrict` |
-| `SalesSchedgAgrmtDelivSched.CustomerFiscalYear` | `SalesSchedgAgrmtDelivSched.CustomerFiscalYear` |
-| `SalesSchedgAgrmtItem.OrderQuantityUnit` | `SalesSchedgAgrmtItem.OrderQuantityUnit` |
-| `SalesSchedgAgrmtItem._OrderQuantityUnit` | `SalesSchedgAgrmtItem._OrderQuantityUnit` |
-| `SalesSchedgAgrmtItem.BaseUnit` | `SalesSchedgAgrmtItem.BaseUnit` |
-| `SalesSchedgAgrmtItem._BaseUnit` | `SalesSchedgAgrmtItem._BaseUnit` |
-| `SalesSchedgAgrmtCumltvQty.CumulativeDeliveredQuantity` | `SalesSchedgAgrmtCumltvQty.CumulativeDeliveredQuantity` |
-| `SalesSchedgAgrmtCumltvQty.CumulativeIssuedQuantity` | `SalesSchedgAgrmtCumltvQty.CumulativeIssuedQuantity` |
-| `SalesSchedgAgrmtDelivSched.CumulativeReceiptQuantity` | `SalesSchedgAgrmtDelivSched.CumulativeReceiptQuantity` |
+| `AdditionalMaterialGroup1` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup1` |
+| `_AdditionalMaterialGroup1` | *Association* |
+| `AdditionalMaterialGroup2` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup2` |
+| `_AdditionalMaterialGroup2` | *Association* |
+| `AdditionalMaterialGroup3` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup3` |
+| `_AdditionalMaterialGroup3` | *Association* |
+| `AdditionalMaterialGroup4` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup4` |
+| `_AdditionalMaterialGroup4` | *Association* |
+| `AdditionalMaterialGroup5` | `SalesSchedgAgrmtItem.AdditionalMaterialGroup5` |
+| `_AdditionalMaterialGroup5` | *Association* |
+| `BillingCompanyCode` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.BillingCompanyCode` |
+| `_BillingCompanyCode` | *Association* |
+| `SalesDistrict` | `SalesSchedgAgrmtItem._SalesSchedgAgrmt.SalesDistrict` |
+| `_SalesDistrict` | *Association* |
+| `CustomerFiscalYear` | `SalesSchedgAgrmtDelivSched.CustomerFiscalYear` |
+| `OrderQuantityUnit` | `SalesSchedgAgrmtItem.OrderQuantityUnit` |
+| `_OrderQuantityUnit` | *Association* |
+| `BaseUnit` | `SalesSchedgAgrmtItem.BaseUnit` |
+| `_BaseUnit` | *Association* |
+| `CumulativeDeliveredQuantity` | `SalesSchedgAgrmtCumltvQty.CumulativeDeliveredQuantity` |
+| `CumulativeIssuedQuantity` | `SalesSchedgAgrmtCumltvQty.CumulativeIssuedQuantity` |
+| `CumulativeReceiptQuantity` | `SalesSchedgAgrmtDelivSched.CumulativeReceiptQuantity` |
 
 ## Associations
 

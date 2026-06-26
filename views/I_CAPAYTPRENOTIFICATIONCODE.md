@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xpyor_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAPaymentPreNotificationCode` | `cast( left( dd07l.domvalue_l, 1 ) as xpyor_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

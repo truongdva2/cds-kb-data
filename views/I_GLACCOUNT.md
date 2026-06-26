@@ -1,6 +1,13 @@
 ---
 name: I_GLACCOUNT
 description: GL Account
+semantic_en: "General ledger (G/L) account master — a chart-of-accounts account used to classify financial postings in accounting."
+semantic_vi: "Dữ liệu chủ tài khoản sổ cái (G/L) — tài khoản trong hệ thống tài khoản, dùng để phân loại các bút toán tài chính trong kế toán."
+keywords:
+  - tài khoản sổ cái
+  - tài khoản kế toán
+  - GL account
+  - hệ thống tài khoản
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released
@@ -31,7 +38,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
+| `GLAccount` | `P_Glacct_In_Cc.GLAccount` |
+| `CompanyCode` | `P_Glacct_In_Cc.CompanyCode` |
+| `ChartOfAccounts` | `P_Glacct_In_Cc.ChartOfAccounts` |
+| `GLAccountGroup` | `_GLAccountInChartOfAccounts.GLAccountGroup` |
+| `CorporateGroupAccount` | `_GLAccountInChartOfAccounts.CorporateGroupAccount` |
+| `AccountIsBlockedForPosting` | `P_Glacct_In_Cc.AccountIsBlockedForPosting` |
+| `AccountIsBlockedForPlanning` | `_GLAccountInChartOfAccounts.AccountIsBlockedForPlanning` |
+| `AccountIsBlockedForCreation` | `_GLAccountInChartOfAccounts.AccountIsBlockedForCreation` |
+| `IsBalanceSheetAccount` | `_GLAccountInChartOfAccounts.IsBalanceSheetAccount` |
+| `AccountIsMarkedForDeletion` | `P_Glacct_In_Cc.AccountIsMarkedForDeletion` |
+| `PartnerCompany` | `_GLAccountInChartOfAccounts.PartnerCompany` |
+| `FunctionalArea` | `_GLAccountInChartOfAccounts.FunctionalArea` |
+| `CreationDate` | `P_Glacct_In_Cc.CreationDate` |
+| `SampleGLAccount` | `_GLAccountInChartOfAccounts.SampleGLAccount` |
+| `IsProfitLossAccount` | `_GLAccountInChartOfAccounts.IsProfitLossAccount` |
+| `GLAccountType` | `_GLAccountInChartOfAccounts.GLAccountType` |
+| `CreatedByUser` | `P_Glacct_In_Cc.CreatedByUser` |
+| `ProfitLossAccountType` | `_GLAccountInChartOfAccounts.ProfitLossAccountType` |
+| `ReconciliationAccountType` | `P_Glacct_In_Cc.ReconciliationAccountType` |
+| `LineItemDisplayIsEnabled` | `P_Glacct_In_Cc.LineItemDisplayIsEnabled` |
+| `IsOpenItemManaged` | `P_Glacct_In_Cc.IsOpenItemManaged` |
+| `AlternativeGLAccount` | `P_Glacct_In_Cc.AlternativeGLAccount` |
+| `AcctgDocItmDisplaySequenceRule` | `P_Glacct_In_Cc.AcctgDocItmDisplaySequenceRule` |
+| `GLAccountExternal` | `cast(…)` |
+| `CountryChartOfAccounts` | `P_Glacct_In_Cc.CountryChartOfAccounts` |
+| `AuthorizationGroup` | `P_Glacct_In_Cc.AuthorizationGroup` |
+| `TaxCategory` | `P_Glacct_In_Cc.TaxCategory` |
+| `IsAutomaticallyPosted` | `P_Glacct_In_Cc.IsAutomaticallyPosted` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `_CompanyCode` | *Association* |
+| `_Text` | *Association* |
+| `_GLAccountHierarchyNode` | *Association* |
+| `_ChartOfAccounts` | *Association* |
+| `_FunctionalArea` | *Association* |
+| `_GLAccountInCompanyCode` | *Association* |
+| `_GLAccountInChartOfAccounts` | *Association* |
+| `_ChartOfAccountsText` | *Association* |
 
 ## Associations
 
@@ -45,13 +88,6 @@ tags:
 | `_CompanyCode` | `I_CompanyCode` | [0..1] |
 | `_FunctionalArea` | `I_FunctionalArea` | [0..1] |
 | `_GLAccountHierarchyNode` | `I_GLAccountHierarchyNode` | [0..*] |
-| `_ChartOfAccountsText` | `I_ChartOfAccountsText` | [0..*] |
-| `_GLAccountInCompanyCode` | `I_GLAccountInCompanyCode` | [0..1] |
-| `_GLAccountInChartOfAccounts` | `I_GLAccountInChartOfAccounts` | [1..1] |
-| `_ChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
-| `_Text` | `I_GlAccountTextInCompanycode` | [0..*] |
-| `_CompanyCode` | `I_CompanyCode` | [0..1] |
-| `_FunctionalArea` | `I_FunctionalArea` | [0..1] |
 
 ## Source Code
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductGroup` | `ProductGroup` |
-| `_CnsldtnProductGroup._Text[1: Language=$session.system_language].ProductGroupName` | *Association* |
+| `ProductGroup` | `ProductGroup` |
+| `ProductGroupName` | `expr(…)` |
 
 ## Associations
 

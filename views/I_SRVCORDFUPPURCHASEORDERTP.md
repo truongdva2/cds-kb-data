@@ -31,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTP : redirected to parent I_ServiceOrderTP` | *Association* |
+| `ServiceOrder` | `ServiceOrder` |
+| `PurchaseOrder` | `PurchaseOrder` |
 
 ## Associations
 

@@ -48,8 +48,8 @@ tags:
 | `PlndRevnAmt` | `EntPrjElmntDmndPlndCostRevn.PlndRevnAmt` |
 | `Currency` | `EnterpriseProjectElement._Project.Currency` |
 | `_EntProjElmntDlvbrlTypeText` | *Association* |
-| `_Project` | `EnterpriseProjectElement._Project` |
-| `_EnterpriseProjectForUser` | `EnterpriseProjectElement._EnterpriseProjectForUser` |
+| `_Project` | *Association* |
+| `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-CA-2CL
   - lob:Quality Management
+  - bo:QltyProcurementCertificate
 ---
 # I_QLTYPROCMTCERTTP_2
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QualityProcurementCertificate` | `QualityProcurementCertificate` |
+| `QualityProcurementCertificate` | `QualityProcurementCertificate` |
 | `QualityCertificateType` | `QualityCertificateType` |
 | `QltyProcmtCertStatus` | `QltyProcmtCertStatus` |
 | `PurchaseOrder` | `PurchaseOrder` |

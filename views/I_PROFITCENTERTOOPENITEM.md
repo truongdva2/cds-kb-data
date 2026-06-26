@@ -43,8 +43,8 @@ tags:
 | `OrganizationalChange` | `orgl_change` |
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
-| `farp_belnr_d preserving type )` | `cast( belnr` |
-| `fis_gjahr_no_conv preserving type )` | `cast( gjahr` |
+| `AccountingDocument` | `cast( belnr as farp_belnr_d preserving type )` |
+| `FiscalYear` | `cast( gjahr as fis_gjahr_no_conv preserving type )` |
 | `AccountingDocumentItem` | `buzei` |
 | `SplitInformationSequenceNumber` | `spl_no` |
 | `_OrglChgReassignmentStatus` | *Association* |

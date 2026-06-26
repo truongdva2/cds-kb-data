@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalReqValuationNameUUID` | `SuplrEvalReqValuationNameUUID` |
+| `SuplrEvalReqValuationNameUUID` | `SuplrEvalReqValuationNameUUID` |
 | `SuplrEvalReqUUID` | `SuplrEvalReqUUID` |
 | `SuplrEvalReqQuestionValueUUID` | `SuplrEvalReqQuestionValueUUID` |
 | `Language` | `Language` |

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TR_ElectronicDocumentCustomer` | `TR_ElectronicDocumentCustomer` |
+| `TR_ElectronicDocumentCustomer` | `TR_ElectronicDocumentCustomer` |
 | `TR_EDocMarkFreeZoneCustomer` | `TR_EDocMarkFreeZoneCustomer` |
 
 ## Associations

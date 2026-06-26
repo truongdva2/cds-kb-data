@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MatlStkRangeOfCoverageProfile
 ---
 # I_RANGEOFCOVERAGEPROFILE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_rwpro preserving type)` | `cast(rwpro` |
+| `Plant` | `werks` |
+| `RangeOfCoverageProfile` | `cast(rwpro as pph_rwpro preserving type)` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |
 

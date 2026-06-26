@@ -30,29 +30,47 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Currency'` | `name:    'I_Currency'` |
-| `element           : 'Currency' }` | `element           : 'Currency' }` |
-| `}]` | `}]` |
-| `PrimaryBOMItemPrice            : cprei;` | `PrimaryBOMItemPrice            : cprei;` |
-| `PrimaryBOMItemPriceUnits       : waers;` | `PrimaryBOMItemPriceUnits       : waers;` |
-| `NmbrVarblSizeItemPrimBOMQty    : roanz;` | `NmbrVarblSizeItemPrimBOMQty    : roanz;` |
-| `Size1PrimaryBOMQuantity        : roms1;` | `Size1PrimaryBOMQuantity        : roms1;` |
-| `Size2PrimaryBOMQuantity        : roms2;` | `Size2PrimaryBOMQuantity        : roms2;` |
-| `Size3PrimaryBOMQuantity        : roms3;` | `Size3PrimaryBOMQuantity        : roms3;` |
-| `PrimBOMVarblSizeItemQuantity   : romen;` | `PrimBOMVarblSizeItemQuantity   : romen;` |
-| `PrimaryBOMFormulaKeyValue      : rform;` | `PrimaryBOMFormulaKeyValue      : rform;` |
-| `GoodsReceiptDurationInPrimBOM  : webaz;` | `GoodsReceiptDurationInPrimBOM  : webaz;` |
-| `MaterialGroupPrimaryBOM        : matkl;` | `MaterialGroupPrimaryBOM        : matkl;` |
-| `PrimBOMSpecialProcurementType  : cs_sobsl;` | `PrimBOMSpecialProcurementType  : cs_sobsl;` |
-| `PrimBOMComponentLevelValue     : stufe;` | `PrimBOMComponentLevelValue     : stufe;` |
-| `CompDiffInBOMComparisonQty     : kmpmg;` | `CompDiffInBOMComparisonQty     : kmpmg;` |
-| `PrimBOMParentCompValue         : matnr;` | `PrimBOMParentCompValue         : matnr;` |
-| `BOMComparisonIsSummarized      : lkenz;` | `BOMComparisonIsSummarized      : lkenz;` |
-| `PrimaryBOMValue                : stnum;` | `PrimaryBOMValue                : stnum;` |
-| `BOMNmbrNextLevelPrimBOMValue   : stnum;` | `BOMNmbrNextLevelPrimBOMValue   : stnum;` |
-| `ComparisonResultValue          : cs_comparison_result;` | `ComparisonResultValue          : cs_comparison_result;` |
-| `BOMHdrMatlHierNode             : matnr;` | `BOMHdrMatlHierNode             : matnr;` |
-| `BOMItemCategoryPrimaryDesc     : pttxt;` | `BOMItemCategoryPrimaryDesc     : pttxt;` |
+| `BOMCompareUUID` | `guid` |
+| `BOMComponentPrimary` | `idnrk` |
+| `BOMComparisonResult` | `bom_comp_result` |
+| `MaterialTypePrimary` | `mtart` |
+| `PrimBOMItemQuantity` | `kmpmg` |
+| `BOMItemCategoryPrimary` | `postp` |
+| `BOMItemNumberPrimary` | `sposn` |
+| `CompleteMaintStatusPrimary` | `vpsta` |
+| `BOMItemDescriptionPrimary` | `maktx` |
+| `PrimBOMHdrBaseUoM` | `meins` |
+| `BOMItemUnitPrimary` | `kmpme` |
+| `IsProductionRelevantPrimary` | `sanfe` |
+| `PrimBOMItemIsCostingRelevant` | `cs_sanka` |
+| `PrimaryBOMHeaderIsDeleted` | `lkenz` |
+| `PrimBOMIsMaterialConfigurable` | `kzkfg` |
+| `PrimaryBOMIsMaterialProvision` | `beikz` |
+| `IsCADPrimary` | `cadpo` |
+| `LeadTimeOffsetPrimBOMValue` | `nlfzt` |
+| `PrimaryBOMPurchasingGroupValue` | `ekgrp` |
+| `DeliveryTimeInDaysPrimBOM` | `lifzt` |
+| `PrimaryBOMSupplier` | `lifnr` |
+| `PrimaryBOMItemPrice` | `cprei` |
+| `PrimaryBOMItemPriceUnits` | `waers` |
+| `NmbrVarblSizeItemPrimBOMQty` | `roanz` |
+| `Size1PrimaryBOMQuantity` | `roms1` |
+| `Size2PrimaryBOMQuantity` | `roms2` |
+| `Size3PrimaryBOMQuantity` | `roms3` |
+| `PrimBOMVarblSizeItemQuantity` | `romen` |
+| `PrimaryBOMFormulaKeyValue` | `rform` |
+| `GoodsReceiptDurationInPrimBOM` | `webaz` |
+| `MaterialGroupPrimaryBOM` | `matkl` |
+| `PrimBOMSpecialProcurementType` | `cs_sobsl` |
+| `PrimBOMComponentLevelValue` | `stufe` |
+| `CompDiffInBOMComparisonQty` | `kmpmg` |
+| `PrimBOMParentCompValue` | `matnr` |
+| `BOMComparisonIsSummarized` | `lkenz` |
+| `PrimaryBOMValue` | `stnum` |
+| `BOMNmbrNextLevelPrimBOMValue` | `stnum` |
+| `ComparisonResultValue` | `cs_comparison_result` |
+| `BOMHdrMatlHierNode` | `matnr` |
+| `BOMItemCategoryPrimaryDesc` | `pttxt` |
 
 ## Associations
 

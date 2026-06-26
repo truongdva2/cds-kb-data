@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialProcurementCategory
 ---
 # I_MATLPROCUREMENTCATEGORY
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MaterialProcurementCategory` | `cast(substring(cat.domvalue_l, 1, 1) as pph_beskz preserving type)` |
 | `DomainValue` | `cat.domvalue_l` |
 | `_Text` | *Association* |
 

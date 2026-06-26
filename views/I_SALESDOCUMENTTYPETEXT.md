@@ -18,6 +18,7 @@ tags:
   - text
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentType
 ---
 # I_SALESDOCUMENTTYPETEXT
 
@@ -34,16 +35,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `SalesDocumentTypeName,                                   --AT03.04.19` | `bezei` |
-| `_SalesDocumentType` | *Association* |
+| `SalesDocumentType` | `auart` |
+| `Language` | `spras` |
+| `SalesDocumentTypeName` | `--cast(bezei as salesdocumenttypename)` |
+| `SalesDocumentTypeName` | `--AT03.04.19 label Sales Document Type Description bezei` |
+| `it` | `--AT03.04.19` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesDocumentType` | `I_SalesDocumentType` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

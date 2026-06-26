@@ -34,19 +34,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner.BusinessPartner` | `BusinessPartner.BusinessPartner` |
-| `BusinessPartner.FormOfAddress` | `BusinessPartner.FormOfAddress` |
-| `_FormOfAddressText.FormOfAddressName` | *Association* |
-| `BusinessPartner.BusinessPartnerName` | `BusinessPartner.BusinessPartnerName` |
-| `BusinessPartner.BusinessPartnerCategory` | `BusinessPartner.BusinessPartnerCategory` |
-| `BusinessPartner.BusinessPartnerIDByExtSystem` | `BusinessPartner.BusinessPartnerIDByExtSystem` |
-| `BusinessPartner.FirstName` | `BusinessPartner.FirstName` |
-| `BusinessPartner.LastName` | `BusinessPartner.LastName` |
-| `BusinessPartner.OrganizationBPName1` | `BusinessPartner.OrganizationBPName1` |
-| `BusinessPartner.GroupBusinessPartnerName1` | `BusinessPartner.GroupBusinessPartnerName1` |
-| `BusinessPartner.BirthDate` | `BusinessPartner.BirthDate` |
-| `BusinessPartner.AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
-| `BusinessPartner.IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
+| `BusinessPartner` | `BusinessPartner.BusinessPartner` |
+| `FormOfAddress` | `BusinessPartner.FormOfAddress` |
+| `FormOfAddressName` | `_FormOfAddressText.FormOfAddressName` |
+| `BusinessPartnerName` | `BusinessPartner.BusinessPartnerName` |
+| `BusinessPartnerCategory` | `BusinessPartner.BusinessPartnerCategory` |
+| `BusinessPartnerIDByExtSystem` | `BusinessPartner.BusinessPartnerIDByExtSystem` |
+| `FirstName` | `BusinessPartner.FirstName` |
+| `LastName` | `BusinessPartner.LastName` |
+| `OrganizationBPName1` | `BusinessPartner.OrganizationBPName1` |
+| `GroupBusinessPartnerName1` | `BusinessPartner.GroupBusinessPartnerName1` |
+| `BirthDate` | `BusinessPartner.BirthDate` |
+| `AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
 | `DataControllerSet` | `BusinessPartner.DataControllerSet` |
 | `DataController1` | `BusinessPartner.DataController1` |
 | `DataController2` | `BusinessPartner.DataController2` |
@@ -62,7 +62,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FormOfAddressText` | `I_FormOfAddressText` | [1..1] |
 
 ## Source Code
 

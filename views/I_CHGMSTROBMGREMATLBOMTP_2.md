@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
+| `ChangeNumber` | `ChangeNumber` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
 | `ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
 | `SAPObjectTechnicalID` | `SAPObjectTechnicalID` |
 | `ObjMgmtRecdDescription` | `ObjMgmtRecdDescription` |
@@ -51,9 +51,6 @@ tags:
 | `ObjMgmtRecdObjIsPlanned` | `ObjMgmtRecdObjIsPlanned` |
 | `ChgNmbrAlternativeDateCounter` | `ChgNmbrAlternativeDateCounter` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ChangeMaster        : redirected to parent I_ChangeMasterTP_2` | *Association* |
-| `_ChangeMasterAltDate : redirected to I_ChangeMasterAltDateTP_2` | *Association* |
 
 ## Associations
 

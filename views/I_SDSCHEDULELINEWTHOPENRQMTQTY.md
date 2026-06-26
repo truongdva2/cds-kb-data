@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDocument` | `SalesDocument` |
-| `key SalesDocumentItem` | `SalesDocumentItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `SalesDocument` | `SalesDocument` |
+| `SalesDocumentItem` | `SalesDocumentItem` |
+| `ScheduleLine` | `ScheduleLine` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `ATPRelevantDocumentCategory` | `ATPRelevantDocumentCategory` |
 | `SalesDocumentType` | `SalesDocumentType` |

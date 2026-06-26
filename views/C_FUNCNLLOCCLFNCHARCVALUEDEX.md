@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # C_FUNCNLLOCCLFNCHARCVALUEDEX
 
@@ -31,37 +32,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_eam_tplnr )` | `cast(Valuation.ClfnObjectID` |
-| `key Valuation.ClassType` | `Valuation.ClassType` |
+| `FunctionalLocation` | `cast(Valuation.ClfnObjectID as vdm_eam_tplnr )` |
+| `ClassType` | `Valuation.ClassType` |
 | `ClfnCharcValuePositionNumber` | `Valuation.CharcValuePositionNumber` |
-| `key Valuation.CharcInternalID` | `Valuation.CharcInternalID` |
-| `Valuation.ClfnObjectID` | `Valuation.ClfnObjectID` |
-| `_FunctionalLocation._FunctionalLocationLabel.FunctionalLocationLabelName` | *Association* |
-| `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` | `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
-| `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` | `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` |
+| `CharcInternalID` | `Valuation.CharcInternalID` |
+| `ClfnObjectID` | `Valuation.ClfnObjectID` |
+| `FunctionalLocationLabelName` | `_FunctionalLocation._FunctionalLocationLabel.FunctionalLocationLabelName` |
+| `Characteristic` | `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
+| `CharcDataType` | `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` |
 | `KeyDate` | `$session.system_date` |
-| `Valuation.ChangeNumber` | `Valuation.ChangeNumber` |
+| `ChangeNumber` | `Valuation.ChangeNumber` |
 | `CharcValueIntervalType` | `Valuation.CharcValueDependency` |
-| `Valuation.CharcValue` | `Valuation.CharcValue` |
-| `Valuation.CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
-| `Valuation.CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
-| `Valuation.CharcToNumericValue` | `Valuation.CharcToNumericValue` |
-| `Valuation.CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
-| `Valuation.CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
-| `Valuation.CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
-| `Valuation.CharcFromAmount` | `Valuation.CharcFromAmount` |
-| `Valuation.CharcToAmount` | `Valuation.CharcToAmount` |
-| `Valuation.Currency` | `Valuation.Currency` |
-| `Valuation.CharcFromDate` | `Valuation.CharcFromDate` |
-| `Valuation.CharcToDate` | `Valuation.CharcToDate` |
-| `Valuation.CharcFromTime` | `Valuation.CharcFromTime` |
-| `Valuation.CharcToTime` | `Valuation.CharcToTime` |
-| `_FunctionalLocation.LastChangeDateTime` | *Association* |
-| `_FunctionalLocation.FunctionalLocationCategory` | *Association* |
-| `_FunctionalLocation.MaintenancePlanningPlant` | *Association* |
-| `_FunctionalLocation._LocationAccountAssignment.CompanyCode` | *Association* |
-| `_FunctionalLocation._LocationAccountAssignment.MaintenancePlant` | *Association* |
-| `Valuation._Characteristic` | `Valuation._Characteristic` |
+| `CharcValue` | `Valuation.CharcValue` |
+| `CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
+| `CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
+| `CharcToNumericValue` | `Valuation.CharcToNumericValue` |
+| `CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
+| `CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
+| `CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
+| `CharcFromAmount` | `Valuation.CharcFromAmount` |
+| `CharcToAmount` | `Valuation.CharcToAmount` |
+| `Currency` | `Valuation.Currency` |
+| `CharcFromDate` | `Valuation.CharcFromDate` |
+| `CharcToDate` | `Valuation.CharcToDate` |
+| `CharcFromTime` | `Valuation.CharcFromTime` |
+| `CharcToTime` | `Valuation.CharcToTime` |
+| `LastChangeDateTime` | `_FunctionalLocation.LastChangeDateTime` |
+| `FunctionalLocationCategory` | `_FunctionalLocation.FunctionalLocationCategory` |
+| `MaintenancePlanningPlant` | `_FunctionalLocation.MaintenancePlanningPlant` |
+| `CompanyCode` | `_FunctionalLocation._LocationAccountAssignment.CompanyCode` |
+| `MaintenancePlant` | `_FunctionalLocation._LocationAccountAssignment.MaintenancePlant` |
+| `_Characteristic` | *Association* |
 | `_FunctionalLocation` | *Association* |
 
 ## Associations

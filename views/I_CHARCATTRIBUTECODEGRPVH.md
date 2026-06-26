@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCodeGrp
 ---
 # I_CHARCATTRIBUTECODEGRPVH
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7 }` |
-| `_Text[1:Language = $parameters.P_Language].CharacteristicAttribCodeGrpTxt` | *Association* |
+| `CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
+| `CharacteristicAttribCodeGrpTxt` | `_Text[1:Language = $parameters.P_Language].CharacteristicAttribCodeGrpTxt` |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 
 ## Associations

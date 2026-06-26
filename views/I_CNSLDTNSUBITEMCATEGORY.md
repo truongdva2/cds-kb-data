@@ -31,11 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSubItemCategoryVH'` | `name: 'I_CnsldtnSubItemCategoryVH'` |
-| `element: 'SubItemCategory'` | `element: 'SubItemCategory'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_subitemcategory preserving type )` | `cast(sityp` |
+| `SubItemCategory` | `cast(sityp as fincs_subitemcategory preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

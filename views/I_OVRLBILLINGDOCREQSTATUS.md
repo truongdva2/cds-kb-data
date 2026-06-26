@@ -17,6 +17,7 @@ tags:
   - status
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:OverallBillingDocRequestStatus
 ---
 # I_OVRLBILLINGDOCREQSTATUS
 

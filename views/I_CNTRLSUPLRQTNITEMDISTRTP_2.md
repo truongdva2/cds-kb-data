@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-HUB-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:DistributionKey
 ---
 # I_CNTRLSUPLRQTNITEMDISTRTP_2
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralSupplierQuotation` | `CentralSupplierQuotation` |
-| `key CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
-| `key DistributionKey` | `DistributionKey` |
+| `CentralSupplierQuotation` | `CentralSupplierQuotation` |
+| `CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
+| `DistributionKey` | `DistributionKey` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -56,9 +57,6 @@ tags:
 | `ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
 | `PurReqnReleaseStatus` | `PurReqnReleaseStatus` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlSupplierQuotationItem : redirected to parent I_CntrlSuplrQuotationItemTP_2` | *Association* |
-| `_CntrlQtan                  : redirected to I_CentralSupplierQuotationTP_2` | *Association* |
 
 ## Associations
 

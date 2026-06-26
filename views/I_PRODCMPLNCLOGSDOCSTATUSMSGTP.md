@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocStatusMsgUUID` | `ProdCmplncLogsDocStatusMsgUUID` |
+| `ProdCmplncLogsDocStatusMsgUUID` | `ProdCmplncLogsDocStatusMsgUUID` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -49,10 +49,6 @@ tags:
 | `SystemMessageVariable2` | `SystemMessageVariable2` |
 | `SystemMessageVariable3` | `SystemMessageVariable3` |
 | `SystemMessageVariable4` | `SystemMessageVariable4` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to parent I_ProdCmplncLogsDocumentTP` | *Association* |
-| `_Item     : redirected to I_ProdCmplncLogsDocumentItemTP` | *Association* |
-| `_Stage    : redirected to I_ProdCmplncLogsDocStageTP` | *Association* |
 
 ## Associations
 

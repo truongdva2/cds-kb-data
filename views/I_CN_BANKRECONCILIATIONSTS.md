@@ -32,11 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CN_BankReconciliationStsText'` | `name:    'I_CN_BankReconciliationStsText'` |
-| `element: 'BankReconciliationStatus' }` | `element: 'BankReconciliationStatus' }` |
-| `useAsTemplate: true` | `useAsTemplate: true` |
-| `}]` | `}]` |
-| `epic_br_rcon_status preserving type )` | `cast(left(domvalue_l,1)` |
+| `BankReconciliationStatus` | `cast(left(domvalue_l,1) as epic_br_rcon_status preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -29,21 +29,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farr_cds_rai_srcco preserving type)` | `cast(srcdoc_comp` |
+| `RevnAcctgSenderComponent` | `cast(srcdoc_comp as farr_cds_rai_srcco preserving type)` |
 | `RASndgCompLogicalSystem` | `srcdoc_logsys` |
 | `RASndgCompDocumentItemType` | `srcdoc_type` |
 | `RASndgCompDocumentItem` | `srcdoc_id` |
-| `farr_cds_pob_id preserving type)` | `cast(pob_id` |
-| `farr_cds_contract_id preserving type)` | `cast(contract_id` |
+| `PerformanceObligation` | `cast(pob_id as farr_cds_pob_id preserving type)` |
+| `RevenueAccountingContract` | `cast(contract_id as farr_cds_contract_id preserving type)` |
 | `AccountingPrinciple` | `acct_principle` |
-| `farr_operational_doc preserving type)` | `cast(header_id` |
+| `RevnAcctgOperationalDocument` | `cast(header_id as farr_operational_doc preserving type)` |
 | `RAContractIsCreatedByContrMgr` | `rar_version` |
 | `PerfOblgnIsSoftDeleted` | `soft_deleted` |
 | `RevnAcctgContractArchivingDate` | `archiving_date` |
 | `RevnAcctgItemArchivingDate` | `archiving_date_rai` |
 | `RASenderComponentReferenceID` | `reference_id` |
 | `RASenderComponentReferenceType` | `reference_type` |
-| `_RAPerformanceObligation.CompanyCode` | *Association* |
+| `CompanyCode` | `_RAPerformanceObligation.CompanyCode` |
 | `_RevenueAccountingContract` | *Association* |
 | `_RAPerformanceObligation` | *Association* |
 

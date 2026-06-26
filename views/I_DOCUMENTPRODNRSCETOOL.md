@@ -15,6 +15,7 @@ tags:
   - document
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:DocumentPart
 ---
 # I_DOCUMENTPRODNRSCETOOL
 
@@ -31,7 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `DocumentType` | `PRT.DocumentType` |
+| `DocumentInfoRecord` | `PRT.DocumentInfoRecord` |
+| `DocumentVersion` | `PRT.DocumentVersion` |
+| `DocumentPart` | `-- representative key key PRT.DocumentPart` |
+| `ProductionResourceType` | `PRT.ProductionResourceType` |
+| `ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
+| `InternalDocumentStatus` | `InternalDocumentStatus` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |

@@ -17,6 +17,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:GLAccount
 ---
 # I_GLACCOUNTSTDVH
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GLAccount` | `GLAccount` |
-| `key CompanyCode` | `CompanyCode` |
-| `fac_sakan )` | `cast( GLAccountExternal` |
+| `GLAccount` | `GLAccount` |
+| `CompanyCode` | `CompanyCode` |
+| `GLAccountExternal` | `cast( GLAccountExternal as fac_sakan )` |
 | `AlternativeGLAccount` | `AlternativeGLAccount` |
 | `_Text` | *Association* |
 | `ChartOfAccounts` | `ChartOfAccounts` |

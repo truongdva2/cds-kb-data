@@ -30,14 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Assignment.WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
-| `key _Assignment.Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
+| `WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
 | `StartDate` | `_BPRelationship.ValidityStartDate` |
-| `_BPRelationship.ValidityEndDate   as EndDate` | *Association* |
-| `_AssignmentBP.WorkforcePersonExternalID` | *Association* |
-| `_BPRelationship.BusinessPartner1  as Supplier` | *Association* |
-| `_Assignment.IsBlocked` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `EndDate` | `_BPRelationship.ValidityEndDate` |
+| `WorkforcePersonExternalID` | `_AssignmentBP.WorkforcePersonExternalID` |
+| `Supplier` | `_BPRelationship.BusinessPartner1` |
+| `IsBlocked` | `_Assignment.IsBlocked` |
 | `_WorkAssignment` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

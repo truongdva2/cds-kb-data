@@ -17,6 +17,7 @@ tags:
   - collection
   - component:FIN-FSCM-COL-2CL
   - lob:Other
+  - bo:CollectionGroup
 ---
 # I_COLLECTIONGROUPTEXT
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `udm_coll_group preserving type)` | `cast(coll_group` |
+| `CollectionGroup` | `cast(coll_group as udm_coll_group preserving type)` |
 | `Language` | `lang` |
 | `CollectionGroupName` | `coll_group_text` |
 | `_Language` | *Association* |

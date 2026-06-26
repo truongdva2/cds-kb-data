@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
-| `_ElectronicDoc.ElectronicDocCompanyCode as ElectronicDocCompanyCode` | *Association* |
-| `_ElectronicDoc.ElectronicDocCountry as ElectronicDocCountry` | *Association* |
-| `_ElectronicDoc.ElectronicDocSourceType as ElectronicDocSourceType` | *Association* |
-| `_ElectronicDoc.ElectronicDocSourceKey as ElectronicDocSourceKey` | *Association* |
-| `_ElectronicDoc.ElectronicDocType as ElectronicDocType` | *Association* |
-| `_ElectronicDoc.ElectronicDocProcessStatus as ElectronicDocProcessStatus` | *Association* |
-| `_ElectronicDoc.ElectronicDocProcess as ElectronicDocProcess` | *Association* |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocCompanyCode` | `_ElectronicDoc.ElectronicDocCompanyCode` |
+| `ElectronicDocCountry` | `_ElectronicDoc.ElectronicDocCountry` |
+| `ElectronicDocSourceType` | `_ElectronicDoc.ElectronicDocSourceType` |
+| `ElectronicDocSourceKey` | `_ElectronicDoc.ElectronicDocSourceKey` |
+| `ElectronicDocType` | `_ElectronicDoc.ElectronicDocType` |
+| `ElectronicDocProcessStatus` | `_ElectronicDoc.ElectronicDocProcessStatus` |
+| `ElectronicDocProcess` | `_ElectronicDoc.ElectronicDocProcess` |
 | `IN_EDocEInvcExtNmbr` | `IN_EDocEInvcExtNmbr` |
 | `IN_EDocEInvcBusinessPlace` | `IN_EDocEInvcBusinessPlace` |
 | `IN_ElectronicDocInvcRefNmbr` | `IN_ElectronicDocInvcRefNmbr` |

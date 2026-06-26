@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_sls_propagate_paobjnr_bom preserving type )` | `cast (substring(dd07l.domvalue_l, 1, 1 )` |
+| `PropagatePrftbltySgmt2BOM` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

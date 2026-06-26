@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `nsdm_lbbsa)` | `cast(substring( domvalue_l, 1, 2 )` |
+| `InventoryStockType` | `cast(substring( domvalue_l, 1, 2 ) as nsdm_lbbsa)` |
 | `_Text` | *Association* |
 
 ## Associations

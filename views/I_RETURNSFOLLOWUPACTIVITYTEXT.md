@@ -15,6 +15,7 @@ tags:
   - text
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsFollowUpActivity
 ---
 # I_RETURNSFOLLOWUPACTIVITYTEXT
 
@@ -33,13 +34,16 @@ tags:
 |---|---|
 | `ReturnsFollowUpActivity` | `FollowUpDefault.fu_code` |
 | `Language` | `FollowUpDefault.spras` |
-| `ReturnsFollowUpActivityDesc` | `case when FollowUpCustomerSpecific.fu_code_text is null or FollowUpCustomerSpecific.fu_code_text = '' then FollowUpDefault.fu_code_text else FollowUpCustomerSpecific.fu_code_text end` |
+| `ReturnsFollowUpActivityDesc` | `case…end` |
 | `_FollowUpActivity` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FollowUpActivity` | `I_ReturnsFollowUpActivity` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

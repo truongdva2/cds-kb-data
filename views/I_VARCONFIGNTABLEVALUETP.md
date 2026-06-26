@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
-| `key VarConfignTblLineNumber` | `VarConfignTblLineNumber` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key Characteristic` | `Characteristic` |
-| `key VarConfignTblValueNumber` | `VarConfignTblValueNumber` |
+| `VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblLineNumber` | `VarConfignTblLineNumber` |
+| `ChangeNumber` | `ChangeNumber` |
+| `Characteristic` | `Characteristic` |
+| `VarConfignTblValueNumber` | `VarConfignTblValueNumber` |
 | `CharcValue` | `CharcValue` |
 | `CharcValueIntervalType` | `CharcValueIntervalType` |
 | `CharcFromNumericValue` | `CharcFromNumericValue` |
@@ -44,9 +44,6 @@ tags:
 | `CharcToNumericValueUnit` | `CharcToNumericValueUnit` |
 | `VarConfignTblAnyValueIsAllowed` | `VarConfignTblAnyValueIsAllowed` |
 | `CharcInternalID` | `CharcInternalID` |
-| `/* Associations */` | `/* Associations */` |
-| `_Table : redirected to I_VarConfignTableContentTP` | *Association* |
-| `_TableLine : redirected to parent I_VarConfignTableLineTP` | *Association* |
 
 ## Associations
 

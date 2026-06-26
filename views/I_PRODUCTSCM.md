@@ -32,15 +32,15 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Product` | `matnr` |
-| `cmd_prd_maturity_dur_n preserving type )` | `cast (ActiveDocument.scm_maturity_dur` |
-| `cmd_prd_shelf_life_req_min_n)` | `cast(0` |
-| `cmd_prd_shelf_life_req_max_n preserving type )` | `cast (ActiveDocument.scm_shlf_lfe_req_max` |
+| `MaturationDuration` | `cast(…)` |
+| `RequiredMinShelfLife` | `cast(0 as cmd_prd_shelf_life_req_min_n)` |
+| `RequiredMaxShelfLife` | `cast(…)` |
 | `PreferredAlternativeUnit` | `ActiveDocument.scm_puom` |
 | `_UnitOfMeasureValueHelp` | *Association* |
 | `_UnitOfMeasureText` | *Association* |
 | `TotalShelfLife` | `ActiveDocument.mhdhb` |
 | `AuthorizationGroup` | `ActiveDocument.begru` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `PckgBuildingReferenceProduct` | `ActiveDocument.rmatp_pb` |
 | `_Product` | *Association* |
 

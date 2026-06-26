@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key SequentialNmbrOfSuplrConf` | `SequentialNmbrOfSuplrConf` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `SequentialNmbrOfSuplrConf` | `SequentialNmbrOfSuplrConf` |
 | `SupplierConfirmationCategory` | `SupplierConfirmationCategory` |
 | `DeliveryDate` | `DeliveryDate` |
 | `DelivDateCategory` | `DelivDateCategory` |
@@ -63,10 +63,10 @@ tags:
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `SupplierConfirmation` | `SupplierConfirmation` |
 | `SupplierConfirmationItem` | `SupplierConfirmationItem` |
-| `_PurchaseOrder.PurchaseOrderType as PurchaseOrderType` | *Association* |
-| `_PurchaseOrder.PurchasingOrganization as PurchasingOrganization` | *Association* |
-| `_PurchaseOrder.PurchasingGroup as PurchasingGroup` | *Association* |
-| `_PurchaseOrderItem.Plant as Plant` | *Association* |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `PurchasingOrganization` | `_PurchaseOrder.PurchasingOrganization` |
+| `PurchasingGroup` | `_PurchaseOrder.PurchasingGroup` |
+| `Plant` | `_PurchaseOrderItem.Plant` |
 | `_PurchaseOrderDEX` | *Association* |
 | `_PurchaseOrderItemDEX` | *Association* |
 | `_SupplierConfirmationCategory` | *Association* |

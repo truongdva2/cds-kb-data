@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JntOpgAgrmt` | `JntOpgAgrmt` |
-| `key JntOpgAgrmtBurdenRateType` | `JntOpgAgrmtBurdenRateType` |
+| `CompanyCode` | `CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JntOpgAgrmtBurdenRateType` | `JntOpgAgrmtBurdenRateType` |
 | `JntOpgAgrmtOvhdBurdenRatePct` | `JntOpgAgrmtOvhdBurdenRatePct` |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
 
 ## Associations
 

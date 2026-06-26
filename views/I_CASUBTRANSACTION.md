@@ -38,22 +38,15 @@ tags:
 | `CAWithholdingTaxAmountType` | `tfktvo.qsvtp` |
 | `CARuleForAddlReceivables` | `tfktvo.rladdr` |
 | `CAIsPaymentTransaction` | `tfktvo.xpayt` |
-| `/*` | `/*` |
-| `hvorg_spl` | `hvorg_spl` |
-| `tvorg_spl` | `tvorg_spl` |
-| `xnega` | `xnega` |
-| `*/` | `*/` |
-| `/* Associations */` | `/* Associations */` |
 | `_CAApplicationArea` | *Association* |
 | `_CAMainTransaction` | *Association* |
 | `_CAReversalMainTransaction` | *Association* |
 | `_CAReversalSubTransaction` | *Association* |
 | `_Text` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea as _ApplArea` | *Association* |
-| `_CAMainTransaction as _MainTransaction` | *Association* |
-| `_CAReversalMainTransaction as _MainTransactionRev` | *Association* |
-| `_CAReversalSubTransaction as _SubTransactionRev` | *Association* |
+| `_ApplArea` | *Association* |
+| `_MainTransaction` | *Association* |
+| `_MainTransactionRev` | *Association* |
+| `_SubTransactionRev` | *Association* |
 
 ## Associations
 

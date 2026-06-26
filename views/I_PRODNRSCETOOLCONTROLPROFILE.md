@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:PRTControlProfile
 ---
 # I_PRODNRSCETOOLCONTROLPROFILE
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ProdnRsceToolControlProfile` | `prfl.steuf` |
 | `ProdnRsceToolSchedgIsActv` | `prfl.xterm` |
 | `ProdnRsceToolCostingIsActive` | `prfl.xkalk` |

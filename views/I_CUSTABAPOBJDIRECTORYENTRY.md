@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_ABAPObjectDirectoryEntry.ABAPObjectCategory` | `I_ABAPObjectDirectoryEntry.ABAPObjectCategory` |
-| `key I_ABAPObjectDirectoryEntry.ABAPObjectType` | `I_ABAPObjectDirectoryEntry.ABAPObjectType` |
-| `key I_ABAPObjectDirectoryEntry.ABAPObject` | `I_ABAPObjectDirectoryEntry.ABAPObject` |
-| `I_ABAPObjectDirectoryEntry.ABAPObjectResponsibleUser` | `I_ABAPObjectDirectoryEntry.ABAPObjectResponsibleUser` |
-| `I_ABAPObjectDirectoryEntry.ABAPObjectIsDeleted` | `I_ABAPObjectDirectoryEntry.ABAPObjectIsDeleted` |
-| `I_ABAPObjectDirectoryEntry.ABAPPackage` | `I_ABAPObjectDirectoryEntry.ABAPPackage` |
-| `I_CustABAPPackage.ABAPSoftwareComponent` | `I_CustABAPPackage.ABAPSoftwareComponent` |
+| `ABAPObjectCategory` | `I_ABAPObjectDirectoryEntry.ABAPObjectCategory` |
+| `ABAPObjectType` | `I_ABAPObjectDirectoryEntry.ABAPObjectType` |
+| `ABAPObject` | `I_ABAPObjectDirectoryEntry.ABAPObject` |
+| `ABAPObjectResponsibleUser` | `I_ABAPObjectDirectoryEntry.ABAPObjectResponsibleUser` |
+| `ABAPObjectIsDeleted` | `I_ABAPObjectDirectoryEntry.ABAPObjectIsDeleted` |
+| `ABAPPackage` | `I_ABAPObjectDirectoryEntry.ABAPPackage` |
+| `ABAPSoftwareComponent` | `I_CustABAPPackage.ABAPSoftwareComponent` |
 | `_CustABAPPackage` | *Association* |
 
 ## Associations

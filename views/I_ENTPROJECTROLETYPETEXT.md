@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Language` | `langu` |
+| `Language` | `-- identifies the language key langu` |
 | `ProjectRoleType` | `participant_role` |
-| `ProjectRoleTypeText` | `role_text` |
+| `ProjectRoleTypeText` | `-- identifies the first text field role_text` |
 | `_ProjectRoleType` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjectRoleType` | `I_EnterpriseProjectRoleType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

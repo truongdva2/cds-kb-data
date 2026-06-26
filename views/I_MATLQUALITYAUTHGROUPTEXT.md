@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qmatauth_text preserving type )` | `cast( kurztext` |
+| `Language` | `sprache` |
+| `MatlQualityAuthorizationGroup` | `cast( qmatauth as vdm_qmatauth preserving type )` |
+| `MatlQltyAuthorizationGrpText` | `cast( kurztext as vdm_qmatauth_text preserving type )` |
 | `_MatlQualityAuthGroup` | *Association* |
 | `_Language` | *Association* |
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RAPerfOblgnCategory
 ---
 # I_RAPERFOBLGNCATEGORY
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `RAPerfOblgnCategory` | `cast(dd07l.domvalue_l as farr_cds_pob_category)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RAPerfOblgnCategoryText` | [0..*] |
 
 ## Source Code
 

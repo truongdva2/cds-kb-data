@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionCategoryUUID` | `LegalTransactionCategoryUUID` |
+| `LegalTransactionCategoryUUID` | `LegalTransactionCategoryUUID` |
 | `LegalTransactionParCatUUID` | `LegalTransactionParCatUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMCategory` | `LglCntntMCategory` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransaction         : redirected to I_LegalTransactionTP_2` | *Association* |
-| `_LegalTransParentCategory : redirected to parent I_LegalTransParentCatTP_2` | *Association* |
 
 ## Associations
 

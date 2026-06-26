@@ -33,12 +33,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `AlternativeUnit` | `AlternativeUnit` |
+| `QuantityNumerator` | `QuantityNumerator` |
+| `QuantityDenominator` | `QuantityDenominator` |
+| `ProductVolume` | `ProductVolume` |
+| `VolumeUnit` | `VolumeUnit` |
+| `GrossWeight` | `GrossWeight` |
+| `WeightUnit` | `WeightUnit` |
+| `GlobalTradeItemNumber` | `GlobalTradeItemNumber` |
+| `GlobalTradeItemNumberCategory` | `GlobalTradeItemNumberCategory` |
+| `UnitSpecificProductLength` | `UnitSpecificProductLength` |
+| `UnitSpecificProductWidth` | `UnitSpecificProductWidth` |
+| `UnitSpecificProductHeight` | `UnitSpecificProductHeight` |
+| `ProductMeasurementUnit` | `ProductMeasurementUnit` |
+| `LowerLevelPackagingUnit` | `LowerLevelPackagingUnit` |
+| `MaximumStackingFactor` | `MaximumStackingFactor` |
+| `CapacityUsage` | `CapacityUsage` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductUnitOfMeasureEAN : redirected to composition child I_ProductUnitOfMeasureEANTP_2` | *Association* |
-| `_ProdUoMSuplrEAN         : redirected to composition child I_ProdUoMSuplrEANTP_2` | *Association* |
-| `_Product                 : redirected to parent I_ProductTP_2` | *Association* |
 | `_ProductDescription_2` | *Association* |
 | `_GlobalTradeItemNumberText` | *Association* |
 | `_UnitOfMeasureText` | *Association* |

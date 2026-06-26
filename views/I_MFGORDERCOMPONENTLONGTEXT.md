@@ -31,17 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key comp.Reservation` | `comp.Reservation` |
-| `key comp.ReservationItem` | `comp.ReservationItem` |
-| `key comp.RecordType` | `comp.RecordType` |
-| `pph_longtextlang preserving type)` | `cast(comp.LongTextLanguage` |
-| `co_aufnr preserving type)` | `cast(comp.OrderID` |
+| `Reservation` | `comp.Reservation` |
+| `ReservationItem` | `comp.ReservationItem` |
+| `RecordType` | `comp.RecordType` |
+| `LongTextLanguage` | `cast(comp.LongTextLanguage as pph_longtextlang preserving type)` |
+| `ManufacturingOrder` | `cast(comp.OrderID as co_aufnr preserving type)` |
 | `ManufacturingOrderSequence` | `comp.Sequence` |
 | `ManufacturingOrderOperation` | `comp.OrderOperation` |
-| `eam_order_component preserving type)` | `cast(comp.BillOfMaterialItemNumber` |
-| `comp.MaterialComponentText` | `comp.MaterialComponentText` |
-| `comp.MaterialComponentSecondText` | `comp.MaterialComponentSecondText` |
-| `text.OrderComponentLongText` | `text.OrderComponentLongText` |
+| `ManufacturingOrderComponent` | `cast(comp.BillOfMaterialItemNumber as eam_order_component preserving type)` |
+| `MaterialComponentText` | `comp.MaterialComponentText` |
+| `MaterialComponentSecondText` | `comp.MaterialComponentSecondText` |
+| `OrderComponentLongText` | `text.OrderComponentLongText` |
 | `_MfgOrder` | *Association* |
 | `_MfgOrderComponent` | *Association* |
 | `_LongTextLanguage` | *Association* |

@@ -31,13 +31,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceQuotationItem` | `ServiceQuotationItem` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceDocumentItemObjectType` | `ServiceDocumentItemObjectType` |
+| `ServiceQtanItemCategory` | `ServiceQtanItemCategory` |
+| `ServiceQuotationItemUUID` | `ServiceQuotationItemUUID` |
+| `ParentServiceQuotationItem` | `ParentServiceQuotationItem` |
+| `ServiceQtanItemDescription` | `ServiceQtanItemDescription` |
+| `Language` | `Language` |
+| `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
+| `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
+| `ServiceDocItemCreatedByUser` | `ServiceDocItemCreatedByUser` |
+| `ServiceDocItemChangedByUser` | `ServiceDocItemChangedByUser` |
+| `Product` | `Product` |
+| `Quantity` | `Quantity` |
+| `QuantityUnit` | `QuantityUnit` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `ServicePerformer` | `ServicePerformer` |
+| `RespyMgmtServiceTeam` | `RespyMgmtServiceTeam` |
+| `RespyMgmtGlobalTeamID` | `RespyMgmtGlobalTeamID` |
+| `ServiceQuotationItemIsNew` | `ServiceQuotationItemIsNew` |
+| `SrvcQtanItemIsInProcess` | `SrvcQtanItemIsInProcess` |
+| `ServiceQuotationItemIsReleased` | `ServiceQuotationItemIsReleased` |
+| `ServiceQtanItemIsCompleted` | `ServiceQtanItemIsCompleted` |
+| `SrvcQtanItemStatus` | `SrvcQtanItemStatus` |
+| `ServiceQuotationItemIsRejected` | `ServiceQuotationItemIsRejected` |
+| `ServiceQuotationItemIsAccepted` | `ServiceQuotationItemIsAccepted` |
+| `ServiceQuotationItemHasError` | `ServiceQuotationItemHasError` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocItemGrossAmount` | `ServiceDocItemGrossAmount` |
+| `ServiceDocumentItemNetAmount` | `ServiceDocumentItemNetAmount` |
 | `ServiceDocumentItemTaxAmount` | `ServiceDocumentItemTaxAmount` |
 | `ServiceQtanItemExtReference` | `ServiceQtanItemExtReference` |
 | `ServiceQtanExtReference` | `ServiceQtanExtReference` |
 | `ReferenceServiceContract` | `ReferenceServiceContract` |
 | `ReferenceServiceContractItem` | `ReferenceServiceContractItem` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceDocument` | *Association* |
 | `_ServicePerformer` | *Association* |
 | `_Product` | *Association* |
@@ -46,15 +78,6 @@ tags:
 | `_ServiceObjType` | *Association* |
 | `_SrvcQtanItmStatus` | *Association* |
 | `_TransactionCurrency` | *Association* |
-| `_ServiceQuotationTP         : redirected to parent I_ServiceQuotationTP` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_SrvcQtanItemRefObjectTP    : redirected to composition child I_SrvcQtanItemRefObjectTP` | *Association* |
-| `_SrvcQtanItemPriceElementTP : redirected to composition child I_SrvcQtanItemPriceElementTP` | *Association* |
-| `_SrvcQtanItemAppointmentTP  : redirected to composition child I_SrvcQtanItemAppointmentTP` | *Association* |
-| `_SrvcQtanItemDurationTP     : redirected to composition child I_SrvcQtanItemDurationTP` | *Association* |
-| `_SrvcQtanItmFUPSrvcOrdTP    : redirected to composition child I_SrvcQtanItmFUPSrvcOrdTP` | *Association* |
-| `_SrvcQtanItemLongTextTP     : redirected to composition child I_SrvcQtanItemLongTextTP` | *Association* |
-| `_SrvcQtanItemPartnerTP      : redirected to composition child I_SrvcQtanItemPartnerTP` | *Association* |
 
 ## Associations
 

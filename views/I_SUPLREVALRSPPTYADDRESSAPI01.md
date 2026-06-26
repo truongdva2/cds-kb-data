@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalRspPartyAddressUUID` | `SuplrEvalRspPartyAddressUUID` |
+| `SuplrEvalRspPartyAddressUUID` | `SuplrEvalRspPartyAddressUUID` |
 | `SuplrEvalRspUUID` | `SuplrEvalRspUUID` |
 | `SuplrEvalRspPartyUUID` | `SuplrEvalRspPartyUUID` |
 | `FullName` | `FullName` |

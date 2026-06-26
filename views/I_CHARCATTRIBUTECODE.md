@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCode
 ---
 # I_CHARCATTRIBUTECODE
 
@@ -29,9 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CharcAttributeCodeGrpStdVH'` | `name:    'I_CharcAttributeCodeGrpStdVH'` |
-| `element: 'CharacteristicAttributeCodeGrp' }` | `element: 'CharacteristicAttributeCodeGrp' }` |
-| `}]` | `}]` |
 | `CharacteristicAttributeCodeGrp` | `codegruppe` |
 | `CharacteristicAttributeCode` | `code` |
 | `CharcAttributeCodeStatus` | `inaktiv` |
@@ -39,7 +37,7 @@ tags:
 | `CharcAttribCodeCreatedOn` | `qpcd.e_datum` |
 | `CharcAttribCodeLastChgdBy` | `qpcd.aenderer` |
 | `CharcAttribCodeLastChangedOn` | `qpcd.a_datum` |
-| `_Text[1:Language = $session.system_language].CharacteristicAttributeCodeTxt` | *Association* |
+| `CharacteristicAttributeCodeTxt` | `_Text[1:Language = $session.system_language].CharacteristicAttributeCodeTxt` |
 | `_Text` | *Association* |
 | `_CharcAttributeCodeGrp` | *Association* |
 

@@ -17,6 +17,7 @@ tags:
   - status
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanContainerStatus
 ---
 # I_KANBANCONTAINERSTATUSTEXT
 
@@ -35,8 +36,8 @@ tags:
 |---|---|
 | `KanbanContainerStatus` | `pkbst` |
 | `Language` | `spras` |
-| `bhskt_6)` | `cast(bhskt` |
-| `pk_ctn_status_text)` | `cast(bhskt` |
+| `KnbnCtnStatusText` | `cast(bhskt as bhskt_6)` |
+| `KnbnCtnStatusText_2` | `cast(bhskt as pk_ctn_status_text)` |
 | `_KanbanContainerStatus` | *Association* |
 | `_Language` | *Association* |
 

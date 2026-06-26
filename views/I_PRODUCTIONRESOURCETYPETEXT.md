@@ -17,6 +17,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceTypeText
 ---
 # I_PRODUCTIONRESOURCETYPETEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productionresourcetype preserving type)` | `cast(substring(txt.domvalue_l, 1, 2)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `productionresourcetypename preserving type)` | `cast(txt.ddtext` |
+| `ProductionResourceType` | `cast(substring(txt.domvalue_l, 1, 2) as productionresourcetype preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `ProductionResourceTypeName` | `cast(txt.ddtext as productionresourcetypename preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

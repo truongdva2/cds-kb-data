@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenter
 ---
 # I_WRKCTRBYSEMANTICKEYSTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key WorkCenter` | `WorkCenter` |
+| `Plant` | `Plant` |
+| `WorkCenter` | `WorkCenter` |
 | `_WorkCenterTextBySemanticKey` | *Association* |
 | `WorkCenterCategoryCode` | `WorkCenterCategoryCode` |
 | `WorkCenterInternalID` | `WorkCenterInternalID` |

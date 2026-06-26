@@ -16,6 +16,7 @@ tags:
   - phone
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:PhoneNumber
 ---
 # I_ADDRESSPHONENUMBER_2
 
@@ -36,21 +37,15 @@ tags:
 | `AddressPersonID` | `persnumber` |
 | `CommMediumSequenceNumber` | `consnumber` |
 | `PhoneNumberCountry` | `country` |
-| `ad_phnmbrcurovrldflt preserving type)` | `cast (flgdefault` |
-| `ad_commlinenotforunslctdcntct preserving type)` | `cast (flg_nouse` |
+| `PhNmbrIsCurrentOverallDefault` | `cast (flgdefault as ad_phnmbrcurovrldflt preserving type)` |
+| `CommLineNotForUnsolicitedCntct` | `cast (flg_nouse as ad_commlinenotforunslctdcntct preserving type)` |
 | `PhoneAreaCodeSubscriberNumber` | `tel_number` |
 | `PhoneExtensionNumber` | `tel_extens` |
 | `InternationalPhoneNumber` | `telnr_long` |
 | `PhoneIsSMSEnabled` | `dft_receiv` |
-| `ad_phonenumbertype preserving type)` | `cast (r3_user` |
-| `case valid_from` | `case valid_from` |
-| `when '' then '00010101'` | `when '' then '00010101'` |
-| `abap.dats)` | `else cast( substring( valid_from,1,8)` |
-| `ValidityStartDate` | `end` |
-| `case valid_to` | `case valid_to` |
-| `when '' then '99991231'` | `when '' then '99991231'` |
-| `abap.dats)` | `else cast( substring( valid_to,1,8)` |
-| `ValidityEndDate` | `end` |
+| `PhoneNumberType` | `cast (r3_user as ad_phonenumbertype preserving type)` |
+| `ValidityStartDate` | `case…end` |
+| `ValidityEndDate` | `case…end` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
 | `_PhoneNumberCountry` | *Association* |

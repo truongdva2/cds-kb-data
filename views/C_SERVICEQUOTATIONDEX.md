@@ -14,6 +14,7 @@ tags:
   - service
   - component:CRM-S4-ANA-BI-2CL
   - lob:Other
+  - bo:ServiceQuotation
 ---
 # C_SERVICEQUOTATIONDEX
 
@@ -30,21 +31,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
-| `ServiceQuotation.ServiceDocTaxAmount` | `ServiceQuotation.ServiceDocTaxAmount` |
-| `ServiceQuotation.ReferenceInHouseRepair` | `ServiceQuotation.ReferenceInHouseRepair` |
-| `ServiceQuotation.ServiceDocumentType` | `ServiceQuotation.ServiceDocumentType` |
-| `/* Reference Object Details */` | `/* Reference Object Details */` |
-| `ServiceQtanRefObj.SerialNumber` | `ServiceQtanRefObj.SerialNumber` |
-| `ServiceQtanRefObj.Equipment` | `ServiceQtanRefObj.Equipment` |
-| `functionallocation preserving type )` | `cast ( ServiceQtanRefObj.FunctionalLocation` |
-| `ServiceQtanRefObj.ProductID` | `ServiceQtanRefObj.ProductID` |
-| `/* Keys */` | `/* Keys */` |
-| `ServiceQuotation._ServiceObjType` | `ServiceQuotation._ServiceObjType` |
-| `ServiceQuotation._ServiceDocumentType` | `ServiceQuotation._ServiceDocumentType` |
-| `ServiceQuotation._TransactionCurrency` | `ServiceQuotation._TransactionCurrency` |
-| `ServiceQuotation._SrvcDocLifecycleStatus` | `ServiceQuotation._SrvcDocLifecycleStatus` |
-| `ServiceQuotation._SrvcDocumentRejectionReason` | `ServiceQuotation._SrvcDocumentRejectionReason` |
+| `ServiceObjectType` | `ServiceQuotation.ServiceObjectType` |
+| `ServiceDocument` | `ServiceQuotation.ServiceDocument` |
+| `ServiceDocumentDescription` | `ServiceQuotation.ServiceDocumentDescription` |
+| `RequestedServiceStartDateTime` | `ServiceQuotation.RequestedServiceStartDateTime` |
+| `RequestedServiceEndDateTime` | `ServiceQuotation.RequestedServiceEndDateTime` |
+| `SrvcQtanValidityStartDateTime` | `ServiceQuotation.SrvcQtanValidityStartDateTime` |
+| `SrvcQtanValidityEndDateTime` | `ServiceQuotation.SrvcQtanValidityEndDateTime` |
+| `ServiceDocumentIsReleased` | `ServiceQuotation.ServiceDocumentIsReleased` |
+| `ServiceDocumentIsOpen` | `ServiceQuotation.ServiceDocumentIsOpen` |
+| `ServiceDocumentIsRejected` | `ServiceQuotation.ServiceDocumentIsRejected` |
+| `ServiceDocumentStatus` | `ServiceQuotation.ServiceDocumentStatus` |
+| `SalesOrganization` | `ServiceQuotation.SalesOrganization` |
+| `DistributionChannel` | `ServiceQuotation.DistributionChannel` |
+| `Division` | `ServiceQuotation.Division` |
+| `SalesOffice` | `ServiceQuotation.SalesOffice` |
+| `SalesGroup` | `ServiceQuotation.SalesGroup` |
+| `ContactPersonBusinessPartnerId` | `ServiceQuotation.ContactPerson` |
+| `RespyMgmtGlobalTeamID` | `ServiceQuotation._ServiceTeamHeader.RespyMgmtGlobalTeamID` |
+| `SoldToParty` | `ServiceQuotation.SoldToParty` |
+| `ShipToParty` | `ServiceQuotation.ShipToParty` |
+| `PaymentTerms` | `ServiceQuotation.PaymentTerms` |
+| `ServiceDocumentRejectionReason` | `ServiceQuotation.ServiceDocumentRejectionReason` |
+| `TransactionCurrency` | `ServiceQuotation.TransactionCurrency` |
+| `ServiceDocGrossAmount` | `ServiceQuotation.ServiceDocGrossAmount` |
+| `ServiceDocNetAmount` | `ServiceQuotation.ServiceDocNetAmount` |
+| `ServiceDocTaxAmount` | `ServiceQuotation.ServiceDocTaxAmount` |
+| `ReferenceInHouseRepair` | `ServiceQuotation.ReferenceInHouseRepair` |
+| `ServiceDocumentType` | `ServiceQuotation.ServiceDocumentType` |
+| `SerialNumber` | `ServiceQtanRefObj.SerialNumber` |
+| `Equipment` | `ServiceQtanRefObj.Equipment` |
+| `SrvcQtanFunctionalLocation` | `cast(…)` |
+| `ProductID` | `ServiceQtanRefObj.ProductID` |
+| `_ServiceObjType` | *Association* |
+| `_ServiceDocumentType` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `_SrvcDocLifecycleStatus` | *Association* |
+| `_SrvcDocumentRejectionReason` | *Association* |
 
 ## Associations
 

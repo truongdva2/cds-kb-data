@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseRequisition     : banfn;` | `PurchaseRequisition     : banfn;` |
-| `PurchaseRequisitionItem : bnfpo;` | `PurchaseRequisitionItem : bnfpo;` |
-| `_DummyAssociation  :  association to parent D_RFQCreateFromPurReqnP;` | *Association* |
+| `PurchaseRequisition` | `banfn` |
+| `PurchaseRequisitionItem` | `bnfpo` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_RFQCreateFromPurReqnP` | — |
 
 ## Source Code
 

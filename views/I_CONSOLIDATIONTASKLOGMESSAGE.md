@@ -36,20 +36,14 @@ tags:
 | `CnsldtnTaskLogItemUUID` | `message.cnsldtnlogitemnumber` |
 | `SystemMessageType` | `message.msgty` |
 | `SystemMessageIdentification` | `message.msgid` |
-| `msgnr)` | `cast(message.msgno` |
+| `SystemMessageNumber` | `cast(message.msgno as msgnr)` |
 | `SystemMessageVariable1` | `message.msgv1` |
 | `SystemMessageVariable2` | `message.msgv2` |
 | `SystemMessageVariable3` | `message.msgv3` |
 | `SystemMessageVariable4` | `message.msgv4` |
-| `eqfnr)` | `cast(3` |
-| `fincs_msg_id preserving type)` | `cast(concat_with_space(message.msgid, message.msgno, 2)` |
-| `case` | `case` |
-| `fincs_msg_severity preserving type)` | `when message.msgty = 'E' then cast(1` |
-| `fincs_msg_severity preserving type)` | `when message.msgty = 'W' then cast(2` |
-| `fincs_msg_severity preserving type)` | `when message.msgty = 'I' then cast(3` |
-| `fincs_msg_severity preserving type)` | `when message.msgty = 'S' then cast(4` |
-| `fincs_msg_severity preserving type)` | `else cast(5` |
-| `SystemMessageTypeSortOrder` | `end` |
+| `SortField` | `cast(3 as eqfnr)` |
+| `CnsldtnTskLgMsgID` | `cast(…)` |
+| `SystemMessageTypeSortOrder` | `case…end` |
 | `_ConsolidationTaskLog` | *Association* |
 | `_CnsldtnSystemMessageType` | *Association* |
 

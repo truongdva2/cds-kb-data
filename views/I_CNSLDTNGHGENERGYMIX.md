@@ -30,12 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGEnergyMixVH'` | `name: 'I_CnsldtnGHGEnergyMixVH'` |
-| `element: 'GHGEnergyMix'` | `element: 'GHGEnergyMix'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgenergymix preserving type )` | `cast( _Source.GHGEnergyMix` |
-| `/* associations */` | `/* associations */` |
+| `GHGEnergyMix` | `cast( _Source.GHGEnergyMix as fincs_ghgenergymix preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

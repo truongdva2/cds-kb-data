@@ -33,12 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `fincs_fsitemmappingtext preserving type )` | `cast ( _Source.mapping_text` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `_Source.langu` |
+| `CnsldtnFSItemMapping` | `cast ( _Source.mapping_id as fincs_fsitemmapping preserving type )` |
+| `CnsldtnFSItemMappingText` | `cast ( _Source.mapping_text as fincs_fsitemmappingtext preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `option_settlement_type)` | `cast(DomainText.domvalue_l` |
+| `OptionSettlementType` | `cast(DomainText.domvalue_l as option_settlement_type)` |
 | `Language` | `DomainText.ddlanguage` |
-| `option_settlement_type_name preserving type )` | `cast(DomainText.ddtext` |
+| `OptionSettlementTypeName` | `cast(DomainText.ddtext as option_settlement_type_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

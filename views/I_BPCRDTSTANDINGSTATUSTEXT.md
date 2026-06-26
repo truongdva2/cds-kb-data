@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_sol_inf )` | `cast ( dd07t.domvalue_l` |
+| `BPCreditStandingStatus` | `cast ( dd07t.domvalue_l as bp_sol_inf )` |
 | `BPCreditStandingStatusDesc` | `dd07t.ddtext` |
 | `_BPCreditStandingStatus` | *Association* |
 | `_Language` | *Association* |

@@ -33,19 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DebitMemoRequestItemText.DebitMemoRequest` | `DebitMemoRequestItemText.DebitMemoRequest` |
-| `key DebitMemoRequestItemText.DebitMemoRequestItem` | `DebitMemoRequestItemText.DebitMemoRequestItem` |
-| `key DebitMemoRequestItemText.Language` | `DebitMemoRequestItemText.Language` |
-| `key DebitMemoRequestItemText.LongTextID` | `DebitMemoRequestItemText.LongTextID` |
-| `DebitMemoRequestItemText.LongTextIDForEdit` | `DebitMemoRequestItemText.LongTextIDForEdit` |
-| `DebitMemoRequestItemText.LanguageForEdit` | `DebitMemoRequestItemText.LanguageForEdit` |
-| `DebitMemoRequestItemText.LongText` | `DebitMemoRequestItemText.LongText` |
-| `DebitMemoRequestItemText.DebitMemoRequestType` | `DebitMemoRequestItemText.DebitMemoRequestType` |
-| `DebitMemoRequestItemText.SalesOrganization` | `DebitMemoRequestItemText.SalesOrganization` |
-| `DebitMemoRequestItemText.DistributionChannel` | `DebitMemoRequestItemText.DistributionChannel` |
-| `DebitMemoRequestItemText.OrganizationDivision` | `DebitMemoRequestItemText.OrganizationDivision` |
-| `_Item       : redirected to parent I_DebitMemoRequestItemTP` | *Association* |
-| `_DebitMemoRequest : redirected to I_DebitMemoRequestTP` | *Association* |
+| `DebitMemoRequest` | `DebitMemoRequestItemText.DebitMemoRequest` |
+| `DebitMemoRequestItem` | `DebitMemoRequestItemText.DebitMemoRequestItem` |
+| `Language` | `DebitMemoRequestItemText.Language` |
+| `LongTextID` | `DebitMemoRequestItemText.LongTextID` |
+| `LongTextIDForEdit` | `DebitMemoRequestItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `DebitMemoRequestItemText.LanguageForEdit` |
+| `LongText` | `DebitMemoRequestItemText.LongText` |
+| `DebitMemoRequestType` | `DebitMemoRequestItemText.DebitMemoRequestType` |
+| `SalesOrganization` | `DebitMemoRequestItemText.SalesOrganization` |
+| `DistributionChannel` | `DebitMemoRequestItemText.DistributionChannel` |
+| `OrganizationDivision` | `DebitMemoRequestItemText.OrganizationDivision` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintComponentItemCategory
 ---
 # I_MAINTCOMPONENTITEMCATEGORY
 
@@ -43,7 +44,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_MaintCompItemCategoryTxt` | [0..*] |
 
 ## Source Code
 

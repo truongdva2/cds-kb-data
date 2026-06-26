@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetOvertimeCategory
 ---
 # I_TIMESHEETOVERTIMECATTEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `Language` | `langu` |
+| `TimeSheetOvertimeCategory` | `overtimecat` |
 | `TimeSheetOvertimeCategoryText` | `text` |
 
 ## Associations

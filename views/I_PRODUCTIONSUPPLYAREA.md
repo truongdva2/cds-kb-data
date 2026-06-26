@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupplyArea
 ---
 # I_PRODUCTIONSUPPLYAREA
 
@@ -31,18 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_prvbe preserving type)` | `cast(pvbe.prvbe` |
+| `ProductionSupplyArea` | `cast(pvbe.prvbe as vdm_prvbe preserving type)` |
 | `Plant` | `pvbe.werks` |
-| `pph_lgort preserving type)` | `cast(pvbe.lgort` |
+| `StorageLocation` | `cast(pvbe.lgort as pph_lgort preserving type)` |
 | `UnloadingPointName` | `pvbe.ablad` |
 | `AddressID` | `pvbe.pvadr` |
 | `ProductionSupplyAreaRespPerson` | `pvbe.rgver` |
-| `fabkl preserving type)` | `cast(pvbe.fabklv` |
+| `FactoryCalendar` | `cast(pvbe.fabklv as fabkl preserving type)` |
 | `ShiftGrouping` | `pvbe.schgrupv` |
 | `ShiftSequence` | `pvbe.sprogv` |
 | `PullIntervalInWorkdays` | `pvbe.pintvd` |
-| `pintv_hrs_min)` | `cast(pvbe.pintvm` |
+| `PullIntervalInHoursAndMinutes` | `cast(pvbe.pintvm as pintv_hrs_min)` |
 | `UnloadingWarehouseStagingArea` | `pvbe.lgbzo` |
 | `LastChangeDateTime` | `pvbe.lastchange_datetime` |
 | `AutomotiveLoadingPoint` | `pvbe.loadingpoint` |

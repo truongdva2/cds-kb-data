@@ -15,6 +15,7 @@ tags:
   - bom
   - component:LO-MD-BOM-2CL
   - lob:Logistics General
+  - bo:BillOfMaterialVariantUsage
 ---
 # I_BOMVARIANTUSAGE
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BillOfMaterialVariantUsage` | `t416.stlan` |
-| `_BillOfMaterialUsage.BillOfMaterialVariantUsageDesc` | *Association* |
+| `BillOfMaterialVariantUsageDesc` | `_BillOfMaterialUsage.BillOfMaterialVariantUsageDesc` |
 | `BOMIsProductionUsageRelevant` | `t416.pmpfe` |
 | `BOMIsEngineeringUsageRelevant` | `t416.pmpko` |
 | `BOMIsCostingUsageRelevant` | `t416.pmpka` |

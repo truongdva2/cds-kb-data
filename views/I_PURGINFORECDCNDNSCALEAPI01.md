@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
-| `key Plant` | `Plant` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
-| `key ConditionScaleLine` | `ConditionScaleLine` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
+| `Plant` | `Plant` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `ConditionScaleLine` | `ConditionScaleLine` |
 | `ConditionType` | `ConditionType` |
 | `ConditionScaleQuantity` | `ConditionScaleQuantity` |
 | `ConditionScaleQuantityUnit` | `ConditionScaleQuantityUnit` |
@@ -47,8 +47,8 @@ tags:
 | `ConditionRateValueUnit` | `ConditionRateValueUnit` |
 | `ConditionRateRatio` | `ConditionRateRatio` |
 | `ConditionRateRatioUnit` | `ConditionRateRatioUnit` |
-| `vfprc_rate_amount )` | `cast ( ConditionRateAmount` |
-| `waers )` | `cast ( ConditionCurrency` |
+| `ConditionRateAmount` | `cast ( ConditionRateAmount as vfprc_rate_amount )` |
+| `ConditionCurrency` | `cast ( ConditionCurrency as waers )` |
 
 ## Associations
 

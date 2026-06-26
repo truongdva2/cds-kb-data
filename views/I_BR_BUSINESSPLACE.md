@@ -33,16 +33,8 @@ tags:
 | `CompanyCode` | `NFBusinessPlace.bukrs` |
 | `Branch` | `NFBusinessPlace.branch` |
 | `AddressID` | `NFBusinessPlace.adrnr` |
-| `case` | `case` |
-| `when _NFBusinessPlaceText[language = $session.system_language].name is not null` | `when _NFBusinessPlaceText[language = $session.system_language].name is not null` |
-| `then _NFBusinessPlaceText[language = $session.system_language].name` | `then _NFBusinessPlaceText[language = $session.system_language].name` |
-| `else name` | `else name` |
-| `BusinessPlaceName` | `end` |
-| `cast(case` | `cast(case` |
-| `when NFBusinessPlace.cgc_branch > '9999'` | `when NFBusinessPlace.cgc_branch > '9999'` |
-| `then '0000'` | `then '0000'` |
-| `else NFBusinessPlace.cgc_branch` | `else NFBusinessPlace.cgc_branch` |
-| `logbr_cgcbra_numc )` | `end` |
+| `BusinessPlaceName` | `case…end` |
+| `BR_BusinessPlacePartOfCNPJ` | `cast(…)` |
 | `BR_BusinessPlacePartOfCNPJ_2` | `NFBusinessPlace.cgc_branch` |
 | `BusinessPlaceStateTaxNumber` | `NFBusinessPlace.state_insc` |
 | `BusPlaceMunicipalTaxNumber` | `NFBusinessPlace.munic_insc` |

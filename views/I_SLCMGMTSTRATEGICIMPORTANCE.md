@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sstn_strategic_importance preserving type )` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SLCSupplierStrategicImportance` | `cast(…)` |
 | `_SLCMgmtStrategicImprtncText` | *Association* |
 
 ## Associations

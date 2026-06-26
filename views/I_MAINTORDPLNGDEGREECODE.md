@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `auf_plknz)` | `cast(dd07l.domvalue_l` |
+| `MaintenanceOrderPlanningCode` | `cast(dd07l.domvalue_l as auf_plknz)` |
 | `_Text` | *Association* |
 
 ## Associations

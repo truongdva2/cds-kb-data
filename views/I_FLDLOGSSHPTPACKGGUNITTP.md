@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptContainerUnit
 ---
 # I_FLDLOGSSHPTPACKGGUNITTP
 
@@ -31,10 +32,64 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true,ranking: #HIGH}` | `defaultSearchElement: true,ranking: #HIGH}` |
-| `_ShptItems      : redirected to composition child I_FldLogsShptPackggItemTP` | *Association* |
-| `_ShptStgeAssgmt : redirected to composition child I_FldLogsShptStgeAssgPackggTP` | *Association* |
-| `_TaggedItems    : redirected to composition child I_FldLogsItmsTaggedToPackggTP` | *Association* |
+| `FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
+| `FldLogsContainerUUID` | `FldLogsContainerUUID` |
+| `FldLogsContainerID` | `FldLogsContainerID` |
+| `FldLogsShipmentID` | `FldLogsShipmentID` |
+| `FldLogsCtnPackgStsCode` | `FldLogsCtnPackgStsCode` |
+| `FldLogsCtnIntTranspStsCode` | `FldLogsCtnIntTranspStsCode` |
+| `FldLogsCtnExtTranspSts` | `FldLogsCtnExtTranspSts` |
+| `FldLogsSrceStorLocID` | `FldLogsSrceStorLocID` |
+| `FldLogsSrcePlnt` | `FldLogsSrcePlnt` |
+| `FldLogsDestStorLocID` | `FldLogsDestStorLocID` |
+| `FldLogsDestPlnt` | `FldLogsDestPlnt` |
+| `FldLogsCtnPackgChangeDateTime` | `FldLogsCtnPackgChangeDateTime` |
+| `FldLogsContainerCategory` | `FldLogsContainerCategory` |
+| `FldLogsCtnPackgStsText` | `FldLogsCtnPackgStsText` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `DeliveryDocument` | `DeliveryDocument` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `FldLogsShptCtnIntTranspStsText` | `FldLogsShptCtnIntTranspStsText` |
+| `FldLogsSealNumber1` | `FldLogsSealNumber1` |
+| `FldLogsSealNumber2` | `FldLogsSealNumber2` |
+| `FldLogsSealNumber3` | `FldLogsSealNumber3` |
+| `FldLogsSealNumber4` | `FldLogsSealNumber4` |
+| `FldLogsSealNumber5` | `FldLogsSealNumber5` |
+| `FldLogsShptItmIsAssgdToVoy` | `FldLogsShptItmIsAssgdToVoy` |
+| `EquipmentType` | `EquipmentType` |
+| `FldLogsGrossVolume` | `FldLogsGrossVolume` |
+| `FldLogsGrossVolumeUnit` | `FldLogsGrossVolumeUnit` |
+| `ProductGrossWeight` | `ProductGrossWeight` |
+| `ProductWeightUnit` | `ProductWeightUnit` |
+| `FldLogsCtnActualWeight` | `FldLogsCtnActualWeight` |
+| `FldLogsCtnActualWeightUnit` | `FldLogsCtnActualWeightUnit` |
+| `FldLogsVoyageAssignmentStatus` | `FldLogsVoyageAssignmentStatus` |
+| `FldLogsVoyAssgmtStatusText` | `FldLogsVoyAssgmtStatusText` |
+| `FldLogsVoyAssgmtStatusCritlty` | `FldLogsVoyAssgmtStatusCritlty` |
+| `FldLogsVoyageSrceStage` | `FldLogsVoyageSrceStage` |
+| `FldLogsVoyageDestStage` | `FldLogsVoyageDestStage` |
+| `FldLogsContainerText` | `FldLogsContainerText` |
+| `FldLogsContainerStatus` | `FldLogsContainerStatus` |
+| `FldLogsContainerSafeLoadQty` | `FldLogsContainerSafeLoadQty` |
+| `FldLogsContainerSafeLoadUnit` | `FldLogsContainerSafeLoadUnit` |
+| `FldLogsCtnCurrentLocation` | `FldLogsCtnCurrentLocation` |
+| `FldLogsCtnCurrentStorageLoc` | `FldLogsCtnCurrentStorageLoc` |
+| `FldLogsContainerOwner` | `FldLogsContainerOwner` |
+| `FldLogsCertEndDate` | `FldLogsCertEndDate` |
+| `ItemWeight` | `ItemWeight` |
+| `ItemVolume` | `ItemVolume` |
+| `FldLogsCtnUnitCurrentPlant` | `FldLogsCtnUnitCurrentPlant` |
+| `FldLogsCtnUnitCurShipgPoint` | `FldLogsCtnUnitCurShipgPoint` |
+| `FldLogsContainerUnitExternalID` | `FldLogsContainerUnitExternalID` |
+| `FieldLogisticsCtnIsOwned` | `FieldLogisticsCtnIsOwned` |
+| `FldLogsParentContainerUnitUUID` | `FldLogsParentContainerUnitUUID` |
+| `FldLogsParentContainerID` | `FldLogsParentContainerID` |
+| `FldLogsShptLocationID` | `FldLogsShptLocationID` |
+| `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
+| `SuplrCoIsBusPrpsCmpltd` | `SuplrCoIsBusPrpsCmpltd` |
+| `ShippingPointName` | `ShippingPointName` |
+| `ReceivingPoint` | `ReceivingPoint` |
+| `PlantName` | `PlantName` |
 
 ## Associations
 

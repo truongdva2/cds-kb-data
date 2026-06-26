@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
-| `fmis_efd_doctypetext preserving type )` | `cast ( batxt` |
+| `Language` | `spras` |
+| `EarmarkedFundsDocumentCategory` | `bltyp` |
+| `EarmarkedFundsDocumentType` | `cast ( blart as fmre_blart preserving type )` |
+| `EarmarkedFundsDocTypeText` | `cast ( batxt as fmis_efd_doctypetext preserving type )` |
 | `_EarmarkedFundsDocType` | *Association* |
 | `_EarmarkedFundsDocCategory` | *Association* |
 | `_Language` | *Association* |
@@ -42,6 +44,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_EarmarkedFundsDocCategory` | `I_EarmarkedFunds_DocCategory` | [1..1] |
+| `_EarmarkedFundsDocType` | `I_EarmarkedFunds_DocType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

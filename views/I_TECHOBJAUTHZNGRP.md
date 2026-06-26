@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:TechObjAuthorizationGroup
 ---
 # I_TECHOBJAUTHZNGRP
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
-| `eam_iautg)` | `cast(t370b.begru` |
+| `TechObjAuthorizationGroup` | `cast(t370b.begru as eam_iautg)` |
 | `_Text` | *Association* |
 
 ## Associations

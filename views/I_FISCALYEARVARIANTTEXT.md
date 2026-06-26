@@ -33,8 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `t009t.spras` |
-| `fis_periv preserving type )` | `cast( t009t.periv` |
-| `fis_periv_desc preserving type )` | `cast(t009t.ltext` |
+| `FiscalYearVariant` | `cast( t009t.periv as fis_periv preserving type )` |
+| `FiscalYearVariantDescription` | `cast(t009t.ltext as fis_periv_desc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

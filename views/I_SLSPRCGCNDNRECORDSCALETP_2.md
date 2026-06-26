@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionSequentialNumber` | `ConditionSequentialNumber` |
-| `key ConditionScaleLine` | `ConditionScaleLine` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `ConditionScaleLine` | `ConditionScaleLine` |
 | `ConditionScaleQuantity` | `ConditionScaleQuantity` |
 | `ConditionScaleQuantityUnit` | `ConditionScaleQuantityUnit` |
 | `ConditionScaleAmount` | `ConditionScaleAmount` |
@@ -44,7 +44,6 @@ tags:
 | `ConditionRateRatioUnit` | `ConditionRateRatioUnit` |
 | `ConditionRateAmount` | `ConditionRateAmount` |
 | `ConditionCurrency` | `ConditionCurrency` |
-| `_ConditionRecord : redirected to parent I_SlsPrcgConditionRecordTP_2` | *Association* |
 
 ## Associations
 

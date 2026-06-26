@@ -14,6 +14,7 @@ tags:
   - fact-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:ShiftedCalendarDate
 ---
 # F_FISCALCALENDARDAYSHIFT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ShiftedCalendarDate` | `dats_add_days($parameters.P_CalendarDate,$parameters.P_FsclTimePeriodOffsetDuration,'INITIAL')` |
+| `ShiftedCalendarDate` | `dats_add_days(…)` |
 
 ## Associations
 

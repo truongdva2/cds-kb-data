@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
+| `InspectionLot` | `InspectionLot` |
 | `Material` | `Material` |
 | `Batch` | `Batch` |
 | `Plant` | `Plant` |
@@ -166,11 +166,6 @@ tags:
 | `InspLotExternalNumber` | `InspLotExternalNumber` |
 | `InspectionLotPriorityPoints` | `InspectionLotPriorityPoints` |
 | `InspLotForFirstArticleInsp` | `InspLotForFirstArticleInsp` |
-| `_InspectionLotUsageDecision : redirected to composition child I_InspLotUsageDecisionTP_2` | *Association* |
-| `_InspectionLotStatus        : redirected to composition child I_InspectionLotStatusTP_2` | *Association* |
-| `_InspLotMatlDocItem         : redirected to composition child I_InspLotMatlDocItemTP_2` | *Association* |
-| `_InspectionOperation        : redirected to composition child I_InspectionOperationTP_2` | *Association* |
-| `_InspLotSerialNumber        : redirected to composition child I_InspLotSerialNumberTP_2` | *Association* |
 
 ## Associations
 

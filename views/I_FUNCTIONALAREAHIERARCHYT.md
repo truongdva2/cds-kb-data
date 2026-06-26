@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:FunctionalAreaHierarchyText
 ---
 # I_FUNCTIONALAREAHIERARCHYT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_functionalarea_42 preserving type )` | `cast ( hrrp_dirt_n.hryid_42` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `FunctionalAreaHierarchy` | `cast ( hrrp_dirt_n.hryid_42 as fis_hryid_functionalarea_42 preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `FunctionalAreaHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

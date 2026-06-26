@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `NewValidityStartDate : datab;` | `NewValidityStartDate : datab;` |
-| `NewValidityEndDate   : datbi;` | `NewValidityEndDate   : datbi;` |
+| `NewValidityStartDate` | `datab` |
+| `NewValidityEndDate` | `datbi` |
 
 ## Associations
 

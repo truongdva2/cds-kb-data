@@ -29,9 +29,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RuntimeHierarchy` | `hryid` |
-| `fis_datbi preserving type )` | `cast(hryvalto` |
+| `ValidityEndDate` | `cast(hryvalto as fis_datbi preserving type )` |
 | `HierarchyType` | `hrytyp` |
-| `fis_datab preserving type )` | `cast(hryvalfrom` |
+| `ValidityStartDate` | `cast(hryvalfrom as fis_datab preserving type )` |
 | `LastChangedByUser` | `upduser` |
 | `LastChangeDateTime` | `updtime` |
 | `HierarchyClass` | `hrycls` |

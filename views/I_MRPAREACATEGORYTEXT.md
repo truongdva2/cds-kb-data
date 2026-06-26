@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPAreaCategory
 ---
 # I_MRPAREACATEGORYTEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `mrpareacategoryname preserving type)` | `cast(t.ddtext` |
+| `MRPAreaCategory` | `cast(…)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `MRPAreaCategoryName` | `cast(t.ddtext as mrpareacategoryname preserving type)` |
 | `DomainValue` | `t.domvalue_l` |
 | `_Language` | *Association* |
 | `_MRPAreaCategory` | *Association* |

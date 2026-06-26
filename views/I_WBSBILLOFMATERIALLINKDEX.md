@@ -36,12 +36,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WBSElementInternalID` | `WBSElementInternalID` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `RecordCreationDate` | `RecordCreationDate` |
 | `CreatedByUser` | `CreatedByUser` |

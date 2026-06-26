@@ -36,8 +36,8 @@ tags:
 | `CAInvcgProcess` | `_tfk2603t.inv_process` |
 | `CAApplicationArea` | `_tfk2603t.applk` |
 | `Language` | `_tfk2603t.langu` |
-| `inv_type_proc_txt_gfn_kk preserving type )` | `cast( _tfk2603t.text` |
-| `_tfk2603t.inv_doc_title                                            as CAInvcgDocumentTitleText` | *Association* |
+| `CAInvcgTypeProcText` | `cast( _tfk2603t.text as inv_type_proc_txt_gfn_kk preserving type )` |
+| `CAInvcgDocumentTitleText` | `_tfk2603t.inv_doc_title` |
 | `_Language` | *Association* |
 | `_CAApplicationArea` | *Association* |
 | `_CAInvcgProcess` | *Association* |

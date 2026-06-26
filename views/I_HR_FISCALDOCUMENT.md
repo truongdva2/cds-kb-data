@@ -15,6 +15,7 @@ tags:
   - document
   - component:FI-LOC-LO-HR
   - lob:Finance
+  - bo:BillingDocument
 ---
 # I_HR_FISCALDOCUMENT
 

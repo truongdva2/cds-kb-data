@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SourceListRecord` | `SourceListRecord` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
+| `SourceListRecord` | `SourceListRecord` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
 | `MaterialForEdit` | `MaterialForEdit` |
 | `PlantForEdit` | `PlantForEdit` |
 | `SourceListRecordForEdit` | `SourceListRecordForEdit` |
@@ -80,7 +80,6 @@ tags:
 | `_Material` | *Association* |
 | `_Plant` | *Association* |
 | `_SupplyingPlant` | *Association* |
-| `_PurchasingSourceTP : redirected to parent I_PurchasingSourceListTP` | *Association* |
 
 ## Associations
 

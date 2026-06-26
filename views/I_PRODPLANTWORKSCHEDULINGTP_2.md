@@ -33,11 +33,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `ProductBaseQuantity` | `ProductBaseQuantity` |
+| `UnlimitedOverDelivIsAllowed` | `UnlimitedOverDelivIsAllowed` |
+| `OverDeliveryTolerancePercent` | `OverDeliveryTolerancePercent` |
+| `UnderDeliveryTolerancePercent` | `UnderDeliveryTolerancePercent` |
+| `ProductionInvtryManagedLoc` | `ProductionInvtryManagedLoc` |
+| `ProductionOrderBatchCode` | `ProductionOrderBatchCode` |
+| `ProdIsWithdrawnFrmProdnBin` | `ProdIsWithdrawnFrmProdnBin` |
+| `TransitionMatrixProductsGroup` | `TransitionMatrixProductsGroup` |
+| `OrderChangeManagementProfile` | `OrderChangeManagementProfile` |
+| `ProductComponentBackflushCode` | `ProductComponentBackflushCode` |
+| `SetupAndTeardownTime` | `SetupAndTeardownTime` |
+| `ProductionSchedulingProfile` | `ProductionSchedulingProfile` |
+| `TransitionTime` | `TransitionTime` |
+| `ProcessingTimeInDays` | `ProcessingTimeInDays` |
+| `ProductionSupervisor` | `ProductionSupervisor` |
+| `ProductProductionQuantityUnit` | `ProductProductionQuantityUnit` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_ProdnOrdBatDetnCodeText` | *Association* |
 | `_ProdComponentBackflushCodeT` | *Association* |
 | `_ProductProductionQuantityUnit` | *Association* |

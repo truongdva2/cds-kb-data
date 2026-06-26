@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsFollowUpActivity
 ---
 # I_RETURNSFOLLOWUPACTIVITY
 
@@ -35,7 +36,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ReturnsFollowUpActivityText` | [0..1] |
+| `_Text_2` | `I_ReturnsFollowUpActivityText` | [0..*] |
 
 ## Source Code
 

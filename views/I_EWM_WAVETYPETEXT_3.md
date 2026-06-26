@@ -15,6 +15,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveType
 ---
 # I_EWM_WAVETYPETEXT_3
 

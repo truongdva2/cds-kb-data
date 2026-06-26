@@ -29,12 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key TimeSheetRecord` | `TimeSheetRecord` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationItem : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP   : redirected to I_ServiceConfirmationTP` | *Association* |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `TimeSheetRecord` | `TimeSheetRecord` |
 
 ## Associations
 

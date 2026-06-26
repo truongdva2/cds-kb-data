@@ -31,13 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'GlobalCurrency'} }` | `currencyCode: 'GlobalCurrency'} }` |
+| `FiscalYear` | `FiscalYear` |
+| `ReferenceDocument` | `ReferenceDocument` |
+| `ControllingArea` | `ControllingArea` |
+| `ReferenceDocumentType` | `ReferenceDocumentType` |
+| `ReferenceDocumentContext` | `ReferenceDocumentContext` |
+| `FiscalYearForEdit` | `FiscalYearForEdit` |
+| `ReferenceDocumentForEdit` | `ReferenceDocumentForEdit` |
+| `ControllingAreaForEdit` | `ControllingAreaForEdit` |
+| `ReferenceDocumentTypeForEdit` | `ReferenceDocumentTypeForEdit` |
+| `ReferenceDocumentContextFoEd` | `ReferenceDocumentContextFoEd` |
+| `AccountingDocumentHeaderText` | `AccountingDocumentHeaderText` |
+| `DocumentDate` | `DocumentDate` |
+| `PostingDate` | `PostingDate` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `FiscalYearPeriod` | `FiscalYearPeriod` |
+| `AccountingDocumentCreationDate` | `AccountingDocumentCreationDate` |
+| `AccountingDocCreatedByUser` | `AccountingDocCreatedByUser` |
+| `IsReversal` | `IsReversal` |
+| `IsReversed` | `IsReversed` |
+| `ControllingDocumentStatus` | `ControllingDocumentStatus` |
+| `AllocationPostingType` | `AllocationPostingType` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ReversalReferenceDocument` | `ReversalReferenceDocument` |
+| `ReversedReferenceDocument` | `ReversedReferenceDocument` |
+| `GlobalCurrency` | `GlobalCurrency` |
 | `TotalAmountInGlobalCurrency` | `TotalAmountInGlobalCurrency` |
 | `AccountingDocumentType` | `AccountingDocumentType` |
 | `ControllingBusTransacType` | `ControllingBusTransacType` |
 | `CostRevenueReassignmentType` | `CostRevenueReassignmentType` |
-| `/*Associations*/` | `/*Associations*/` |
-| `_Item : redirected to composition child I_CostAndRevnReassgmtItemTP` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:PickingControl
 ---
 # I_PICKINGCONTROL
 

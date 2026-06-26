@@ -37,7 +37,7 @@ tags:
 | `ProcmtHubPlant` | `be_plant` |
 | `ProcmtHubPlantUniqueID` | `be_plant_unique_id` |
 | `ProcmtHubPlantName` | `be_plant_name` |
-| `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName` | *Association* |
+| `ProcurementHubSourceSystemName` | `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName` |
 | `_ProcmtHubBackendSourceSystem` | *Association* |
 | `_ProcmtHubCompanyCode` | *Association* |
 

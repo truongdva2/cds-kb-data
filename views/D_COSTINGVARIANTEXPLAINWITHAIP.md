@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CostingVariant : ck_klvar;` | `CostingVariant : ck_klvar;` |
-| `Plant          : werks_d;` | `Plant          : werks_d;` |
+| `CostingVariant` | `ck_klvar` |
+| `Plant` | `werks_d` |
 
 ## Associations
 

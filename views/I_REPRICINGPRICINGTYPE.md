@@ -15,6 +15,7 @@ tags:
   - pricing
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingType
 ---
 # I_REPRICINGPRICINGTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  PricingType.PricingType` | `PricingType.PricingType` |
+| `PricingType` | `PricingType.PricingType` |
 | `_Text` | *Association* |
 
 ## Associations

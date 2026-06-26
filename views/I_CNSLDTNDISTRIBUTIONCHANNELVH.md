@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DistributionChannel` | `DistributionChannel` |
-| `_Text[1: Language=$session.system_language].DistributionChannelName` | *Association* |
+| `DistributionChannel` | `DistributionChannel` |
+| `DistributionChannelName` | `_Text[1: Language=$session.system_language].DistributionChannelName` |
 
 ## Associations
 

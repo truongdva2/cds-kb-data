@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-AP-AP-Q-2CL
   - lob:Finance
+  - bo:WithholdingTaxItem
 ---
 # I_WITHHOLDINGTAXITEM
 
@@ -78,11 +79,11 @@ tags:
 | `_AccountingDocument` | *Association* |
 | `_GLAccount` | *Association* |
 | `_WithholdingTaxCode` | *Association* |
-| `_CompanyCode.Country                    as Country` | *Association* |
-| `_CompanyCode.Currency                   as CompanyCodeCurrency` | *Association* |
-| `_AccountingDocument.Currency            as DocumentCurrency` | *Association* |
-| `_AccountingDocument.AdditionalCurrency1 as AdditionalCurrency1` | *Association* |
-| `_AccountingDocument.AdditionalCurrency2 as AdditionalCurrency2` | *Association* |
+| `Country` | `_CompanyCode.Country` |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
+| `DocumentCurrency` | `_AccountingDocument.Currency` |
+| `AdditionalCurrency1` | `_AccountingDocument.AdditionalCurrency1` |
+| `AdditionalCurrency2` | `_AccountingDocument.AdditionalCurrency2` |
 | `RptgWhldgTxBaseAmtInCoCodeCrcy` | `j_1af_wt_repbs` |
 | `_CompanyCodeCurrency` | *Association* |
 | `_DocumentCurrency` | *Association* |

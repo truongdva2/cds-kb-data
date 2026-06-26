@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseOrderType : vdm_esart;` | `PurchaseOrderType : vdm_esart;` |
-| `PurchasingOrganization: ekorg;` | `PurchasingOrganization: ekorg;` |
-| `PurchasingGroup : ekgrp;` | `PurchasingGroup : ekgrp;` |
-| `Supplier : vdm_supplierref;` | `Supplier : vdm_supplierref;` |
+| `PurchaseOrderType` | `vdm_esart` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchasingGroup` | `ekgrp` |
+| `Supplier` | `vdm_supplierref` |
 
 ## Associations
 

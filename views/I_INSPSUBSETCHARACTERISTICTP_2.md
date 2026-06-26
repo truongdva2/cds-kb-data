@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
-| `key InspectionSubsetInternalID` | `InspectionSubsetInternalID` |
-| `key InspectionCharacteristic` | `InspectionCharacteristic` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionSubsetInternalID` | `InspectionSubsetInternalID` |
+| `InspectionCharacteristic` | `InspectionCharacteristic` |
 | `InspectionCharacteristicStatus` | `InspectionCharacteristicStatus` |
 | `QualityControlChart` | `QualityControlChart` |
 | `InspSampleAcceptanceNumber` | `InspSampleAcceptanceNumber` |
@@ -45,9 +45,6 @@ tags:
 | `InspLotDynRuleStage` | `InspLotDynRuleStage` |
 | `InspectionSeverity` | `InspectionSeverity` |
 | `InspSubsetCharcCreationDate` | `InspSubsetCharcCreationDate` |
-| `_InspectionSubset    : redirected to parent I_InspectionSubsetTP_21` | *Association* |
-| `_InspectionLot       : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspectionOperation : redirected to I_InspectionOperationTP_2` | *Association* |
 
 ## Associations
 

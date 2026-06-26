@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationChargesObjUUID` | `TransportationChargesObjUUID` |
+| `TransportationChargesObjUUID` | `TransportationChargesObjUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspChargePostingStatus` | `TranspChargePostingStatus` |
 | `TranspChargeCalcStatus` | `TranspChargeCalcStatus` |
@@ -42,9 +42,8 @@ tags:
 | `TranspChrgTotalAmtInLoclCrcy` | `TranspChrgTotalAmtInLoclCrcy` |
 | `TranspChargeCalculationDateTme` | `TranspChargeCalculationDateTme` |
 | `ExchangeRateDate` | `ExchangeRateDate` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TransportationOrder   as _FreightOrder           : redirected to parent I_FreightOrderTP` | *Association* |
-| `_TranspOrderChargeItem as _FreightOrderChargeItem : redirected to composition child I_FreightOrderChargeItemTP` | *Association* |
+| `_FreightOrder` | *Association* |
+| `_FreightOrderChargeItem` | *Association* |
 
 ## Associations
 

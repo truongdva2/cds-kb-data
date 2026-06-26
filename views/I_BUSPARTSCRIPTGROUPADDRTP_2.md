@@ -32,7 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'DistrictName' }` | `releaseState: #DEPRECATED, successor: 'DistrictName' }` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
+| `AddrRepCodeForEditValue` | `AddrRepCodeForEditValue` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `BusinessPartnerAddressUUID` | `BusinessPartnerAddressUUID` |
+| `CareOfName` | `CareOfName` |
+| `AdditionalStreetSuffixName` | `AdditionalStreetSuffixName` |
+| `CorrespondenceLanguage` | `CorrespondenceLanguage` |
+| `PrfrdCommMediumType` | `PrfrdCommMediumType` |
+| `POBoxLobbyName` | `POBoxLobbyName` |
+| `AddressTimeZone` | `AddressTimeZone` |
+| `FullName` | `FullName` |
+| `CityName` | `CityName` |
 | `District` | `District` |
 | `DistrictName` | `DistrictName` |
 | `HomeCityName` | `HomeCityName` |
@@ -48,8 +62,6 @@ tags:
 | `BusinessPartnerName2` | `BusinessPartnerName2` |
 | `SearchTerm1` | `SearchTerm1` |
 | `SearchTerm2` | `SearchTerm2` |
-| `_BusinessPartner : redirected to I_BusinessPartnerTP_3` | *Association* |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
 | `_BPProtectedAddress` | *Association* |
 | `_AddressRepresentation` | *Association* |
 | `AuthorizationGroup` | `AuthorizationGroup` |

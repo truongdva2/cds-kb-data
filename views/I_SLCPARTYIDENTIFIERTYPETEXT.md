@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyIdentifierType
 ---
 # I_SLCPARTYIDENTIFIERTYPETEXT
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/party_id_type preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SLCPartyIdentifierType` | `cast ( substring( domvalue_l, 1, 1 ) as /srmsmc/party_id_type preserving type )` |
 | `Language` | `ddlanguage` |
 | `SLCPartyIdentifierTypeName` | `ddtext` |
 | `_SLCPartyIdentifierType` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspCalcSheetItemUUID` | `TranspCalcSheetItemUUID` |
+| `TranspCalcSheetItemUUID` | `TranspCalcSheetItemUUID` |
 | `TranspCalculationSheetUUID` | `TranspCalculationSheetUUID` |
 | `TranspCalculationSheetItem` | `TranspCalculationSheetItem` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
@@ -39,9 +39,9 @@ tags:
 | `TranspCalcResolutionBase` | `TranspCalcResolutionBase` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TranspCalcSheetItemCurrency` | `TranspCalcSheetItemCurrency` |
-| `/scmtms/calcsheet_item_amount preserving type )` | `cast( TranspCalcSheetItemAmount` |
+| `TranspCalcSheetItemAmount` | `cast(…)` |
 | `TranspCalcSheetItemPctUnit` | `TranspCalcSheetItemPctUnit` |
-| `/scmtms/calcshtitem_amount_pct preserving type )` | `cast( TranspCalcSheetItemAmountPct` |
+| `TranspCalcSheetItemAmountPct` | `cast(…)` |
 | `TranspCalculationMethodCode` | `TranspCalculationMethodCode` |
 | `TranspCalculationDateType` | `TranspCalculationDateType` |
 | `TranspCalcSheetItemIsMandatory` | `TranspCalcSheetItemIsMandatory` |
@@ -58,10 +58,6 @@ tags:
 | `TranspCalcSheetRefToItem` | `TranspCalcSheetRefToItem` |
 | `TranspCalcSheetRefFromItem` | `TranspCalcSheetRefFromItem` |
 | `TranspIndexRateTable` | `TranspIndexRateTable` |
-| `FrtAgrmtCalcSheetItem._FreightAgreement           : redirected to I_FreightAgreementTP` | `FrtAgrmtCalcSheetItem._FreightAgreement           : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtCalcSheetItem._FreightAgrmtCalculationSheet      : redirected to parent I_FreightAgrmtCalcSheetTP` | `FrtAgrmtCalcSheetItem._FreightAgrmtCalculationSheet      : redirected to parent I_FreightAgrmtCalcSheetTP` |
-| `FrtAgrmtCalcSheetItem._FreightAgreementRateTable  : redirected to composition child I_FreightAgreementRateTableTP` | `FrtAgrmtCalcSheetItem._FreightAgreementRateTable  : redirected to composition child I_FreightAgreementRateTableTP` |
-| `FrtAgrmtCalcSheetItem._FrtAgrmtCalcShtItmCalcRule : redirected to composition child I_FrtAgrmtCalcShtItmCalcRuleTP` | `FrtAgrmtCalcSheetItem._FrtAgrmtCalcShtItmCalcRule : redirected to composition child I_FrtAgrmtCalcShtItmCalcRuleTP` |
 
 ## Associations
 

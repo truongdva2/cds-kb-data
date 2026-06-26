@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp` |
 | `JntOpgAgrmtEquityGrpText` | `JntOpgAgrmtEquityGrpText` |
 | `JntVntrOperatedShare` | `JntVntrOperatedShare` |
 | `JntVntrNonOperatedShare` | `JntVntrNonOperatedShare` |
@@ -44,11 +44,6 @@ tags:
 | `JntVntrGrpNotSuspendedPerd` | `JntVntrGrpNotSuspendedPerd` |
 | `JntVntrGrpNotSuspendedYr` | `JntVntrGrpNotSuspendedYr` |
 | `JntVntrNetProfitIntrstGrp` | `JntVntrNetProfitIntrstGrp` |
-| `_JointVenture               : redirected to parent I_JointVentureTP` | *Association* |
-| `_JntVntrPartOwnrEquityShr   : redirected to composition child I_JntVntrPartEquityShrTP` | *Association* |
-| `_JntVntrFundCrcyByEquityGrp : redirected to composition child I_JntVntrFundCrcyByEquityGrpTP` | *Association* |
-| `_JntVntrSubstitCostObject   : redirected to composition child I_JntVntrSubstitCostObjectTP` | *Association* |
-| `_JointVentureIntcoVenture   : redirected to composition child I_JointVentureIntcoVentureTP` | *Association* |
 
 ## Associations
 

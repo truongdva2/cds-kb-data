@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:ProductItemCategoryGroup
 ---
 # I_ITEMCATEGORYGROUP
 
@@ -32,12 +33,14 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ItemCategoryGroup` | `mtpos` |
-| `itemcategorygroup_oid )` | `cast( mtpos` |
+| `ItemCategoryGroupOID` | `cast( mtpos as itemcategorygroup_oid )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ItemCategoryGroupText` | [0..*] |
 
 ## Source Code
 

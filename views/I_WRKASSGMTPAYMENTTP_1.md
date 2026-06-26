@@ -16,6 +16,7 @@ tags:
   - payment
   - component:CA-WFD-INT
   - lob:Cross-Application Components
+  - bo:WorkforcePersonExternalID
 ---
 # I_WRKASSGMTPAYMENTTP_1
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
-| `key WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
-| `key Country2DigitISOCode` | `Country2DigitISOCode` |
-| `key BankIdentification` | `BankIdentification` |
+| `WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
+| `WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `Country2DigitISOCode` |
+| `BankIdentification` | `BankIdentification` |
 | `BankAccountHolderName` | `BankAccountHolderName` |
 | `BankAccountName` | `BankAccountName` |
 | `BankControlKey` | `BankControlKey` |
@@ -51,9 +52,6 @@ tags:
 | `WorkerPaymentMethod` | `WorkerPaymentMethod` |
 | `WrkFrcPaymentCurrency` | `WrkFrcPaymentCurrency` |
 | `IsBlocked` | `IsBlocked` |
-| `/* Associations */` | `/* Associations */` |
-| `_WorkAssignment  : redirected to parent I_WorkAssignmentTP_1` | *Association* |
-| `_WorkforcePerson : redirected to I_WorkforcePersonTP_1` | *Association* |
 
 ## Associations
 

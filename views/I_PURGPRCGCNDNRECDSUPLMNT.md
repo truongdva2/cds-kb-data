@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionTable` | `ConditionTable` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |

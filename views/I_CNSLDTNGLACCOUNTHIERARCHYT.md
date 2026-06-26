@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGLChartOfAccountsVH'` | `name: 'I_CnsldtnGLChartOfAccountsVH'` |
-| `element: 'ChartOfAccounts'` | `element: 'ChartOfAccounts'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key   _HierarchyText.ChartOfAccounts` | `_HierarchyText.ChartOfAccounts` |
-| `fincs_glaccounthierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_glaccounthierarchytext preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
+| `Language` | `_HierarchyText.Language` |
+| `ChartOfAccounts` | `_HierarchyText.ChartOfAccounts` |
+| `CnsldtnGLAccountHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `ConsolidationGLAccountHierText` | `cast(…)` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_Hierarchy` | *Association* |

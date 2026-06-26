@@ -34,19 +34,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditMemoRequestItemText.CreditMemoRequest` | `CreditMemoRequestItemText.CreditMemoRequest` |
-| `key CreditMemoRequestItemText.CreditMemoRequestItem` | `CreditMemoRequestItemText.CreditMemoRequestItem` |
-| `key CreditMemoRequestItemText.Language` | `CreditMemoRequestItemText.Language` |
-| `key CreditMemoRequestItemText.LongTextID` | `CreditMemoRequestItemText.LongTextID` |
-| `CreditMemoRequestItemText.LongTextIDForEdit` | `CreditMemoRequestItemText.LongTextIDForEdit` |
-| `CreditMemoRequestItemText.LanguageForEdit` | `CreditMemoRequestItemText.LanguageForEdit` |
-| `CreditMemoRequestItemText.LongText` | `CreditMemoRequestItemText.LongText` |
-| `CreditMemoRequestItemText.CreditMemoRequestType` | `CreditMemoRequestItemText.CreditMemoRequestType` |
-| `CreditMemoRequestItemText.SalesOrganization` | `CreditMemoRequestItemText.SalesOrganization` |
-| `CreditMemoRequestItemText.DistributionChannel` | `CreditMemoRequestItemText.DistributionChannel` |
-| `CreditMemoRequestItemText.OrganizationDivision` | `CreditMemoRequestItemText.OrganizationDivision` |
-| `_Item       : redirected to parent I_CreditMemoRequestItemTP` | *Association* |
-| `_CreditMemoRequest : redirected to I_CreditMemoRequestTP` | *Association* |
+| `CreditMemoRequest` | `CreditMemoRequestItemText.CreditMemoRequest` |
+| `CreditMemoRequestItem` | `CreditMemoRequestItemText.CreditMemoRequestItem` |
+| `Language` | `CreditMemoRequestItemText.Language` |
+| `LongTextID` | `CreditMemoRequestItemText.LongTextID` |
+| `LongTextIDForEdit` | `CreditMemoRequestItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `CreditMemoRequestItemText.LanguageForEdit` |
+| `LongText` | `CreditMemoRequestItemText.LongText` |
+| `CreditMemoRequestType` | `CreditMemoRequestItemText.CreditMemoRequestType` |
+| `SalesOrganization` | `CreditMemoRequestItemText.SalesOrganization` |
+| `DistributionChannel` | `CreditMemoRequestItemText.DistributionChannel` |
+| `OrganizationDivision` | `CreditMemoRequestItemText.OrganizationDivision` |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-CRF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentCategory
 ---
 # I_SDDOCUMENTCATEGORYTEXT
 
@@ -32,16 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vbtypl preserving type)` | `cast(substring(dd07t.domvalue_l, 1, 4)` |
+| `SDDocumentCategory` | `cast(substring(dd07t.domvalue_l, 1, 4) as vbtypl preserving type)` |
 | `Language` | `ddlanguage` |
-| `sddocumentcategoryname preserving type)` | `cast(ddtext` |
+| `SDDocumentCategoryName` | `cast(ddtext as sddocumentcategoryname preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_SDDocumentCategory` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SDDocumentCategory` | `I_SDDocumentCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -30,14 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGrantVH'` | `name: 'I_CnsldtnGrantVH'` |
-| `element: 'GrantID'` | `element: 'GrantID'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_grant preserving type )` | `cast( _Source.GrantID` |
-| `fincs_grantname preserving type )` | `cast( _Source.GrantName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GrantID` | `cast( _Source.GrantID as fincs_grant preserving type )` |
+| `GrantName` | `cast( _Source.GrantName as fincs_grantname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Grant` | *Association* |
 

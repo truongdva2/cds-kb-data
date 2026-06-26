@@ -32,26 +32,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMOutboundDeliveryOrder` | `EWMOutboundDeliveryOrder` |
-| `key EWMOutboundDeliveryOrderItem` | `EWMOutboundDeliveryOrderItem` |
+| `EWMOutboundDeliveryOrder` | `EWMOutboundDeliveryOrder` |
+| `EWMOutboundDeliveryOrderItem` | `EWMOutboundDeliveryOrderItem` |
 | `OutboundDeliveryOrderUUID` | `OutboundDeliveryOrderUUID` |
 | `OutboundDeliveryOrderItemUUID` | `OutboundDeliveryOrderItemUUID` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `EWMDeliveryDocumentCategory` | `EWMDeliveryDocumentCategory` |
 | `EWMOutbDelivOrderItemCategory` | `EWMOutbDelivOrderItemCategory` |
 | `EWMOutbDeliveryOrderItemType` | `EWMOutbDeliveryOrderItemType` |
-| `/* Product & Batch */` | `/* Product & Batch */` |
 | `Product` | `Product` |
 | `ProductExternalID` | `ProductExternalID` |
 | `Batch` | `Batch` |
 | `ProductQuantity` | `ProductQuantity` |
 | `QuantityUnit` | `QuantityUnit` |
 | `SerialNumberRequiredLevel` | `SerialNumberRequiredLevel` |
-| `/* Staging */` | `/* Staging */` |
 | `StagingArea` | `StagingArea` |
 | `StagingAreaGroup` | `StagingAreaGroup` |
 | `StagingBay` | `StagingBay` |
-| `/* Status */` | `/* Status */` |
 | `GoodsIssueStatus` | `GoodsIssueStatus` |
 | `PlannedPickingStatus` | `PlannedPickingStatus` |
 | `PickingStatus` | `PickingStatus` |
@@ -61,9 +58,7 @@ tags:
 | `EWMGoodsIssueAndDistrStatus` | `EWMGoodsIssueAndDistrStatus` |
 | `EWMPlndPickingAndDistrStatus` | `EWMPlndPickingAndDistrStatus` |
 | `PickingAndDistributionStatus` | `PickingAndDistributionStatus` |
-| `/*Batch Split Main Item*/` | `/*Batch Split Main Item*/` |
 | `EWMWhseReqItmBatSpltParentItem` | `EWMWhseReqItmBatSpltParentItem` |
-| `/* Addmeas */` | `/* Addmeas */` |
 | `EWMWhseReqGrossVolume` | `EWMWhseReqGrossVolume` |
 | `EWMWhseReqGrossVolumeUnit` | `EWMWhseReqGrossVolumeUnit` |
 | `EWMWhseReqGrossWeight` | `EWMWhseReqGrossWeight` |
@@ -82,12 +77,9 @@ tags:
 | `EWMLoadingPoint` | `EWMLoadingPoint` |
 | `EWMUnloadingPoint` | `EWMUnloadingPoint` |
 | `WarehouseDoor` | `WarehouseDoor` |
-| `/* Warehouse Task */` | `/* Warehouse Task */` |
 | `EWMWhseReqItmHasOpnWhseTsk` | `EWMWhseReqItmHasOpnWhseTsk` |
-| `/* Dates */` | `/* Dates */` |
 | `PlndGoodsIssueStartUTCDateTime` | `PlndGoodsIssueStartUTCDateTime` |
 | `ActlGoodsIssueStartUTCDateTime` | `ActlGoodsIssueStartUTCDateTime` |
-| `/* Product Attributes */` | `/* Product Attributes */` |
 | `EWMWhseReqItmBBDSLEDUTCDteTme` | `EWMWhseReqItmBBDSLEDUTCDteTme` |
 | `RouteSchedule` | `RouteSchedule` |
 | `EntitledToDisposeParty` | `EntitledToDisposeParty` |
@@ -97,14 +89,12 @@ tags:
 | `EWMStockOwner` | `EWMStockOwner` |
 | `EWMStockOwnerName` | `EWMStockOwnerName` |
 | `DeliveryItemStockTypeDetnCode` | `DeliveryItemStockTypeDetnCode` |
-| `/* Special Stock */` | `/* Special Stock */` |
 | `ExternalStockDocumentNumber` | `ExternalStockDocumentNumber` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
 | `SpecialStockIdfgSalesOrder` | `SpecialStockIdfgSalesOrder` |
 | `SpecialStockIdfgSalesOrderItem` | `SpecialStockIdfgSalesOrderItem` |
 | `CountryOfOrigin` | `CountryOfOrigin` |
-| `/* Reference Documents */` | `/* Reference Documents */` |
 | `SalesOrder` | `SalesOrder` |
 | `SalesOrderItem` | `SalesOrderItem` |
 | `ManufacturingOrder` | `ManufacturingOrder` |
@@ -116,7 +106,6 @@ tags:
 | `OutboundDeliveryItem` | `OutboundDeliveryItem` |
 | `StockDocumentCategory` | `StockDocumentCategory` |
 | `Plant` | `Plant` |
-| `_WhseOutbDeliveryOrderHead    : redirected to parent I_EWM_OutbDelivOrderHeaderTP` | *Association* |
 
 ## Associations
 

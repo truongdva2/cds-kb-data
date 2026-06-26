@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ShiftGroupText
 ---
 # I_SHIFTGROUPINGTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `txt.schgrup` |
+| `Language` | `txt.spras` |
 | `ShiftGroupingName` | `txt.ktext` |
 | `_Language` | *Association* |
 

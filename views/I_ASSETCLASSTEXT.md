@@ -33,9 +33,9 @@ tags:
 |---|---|
 | `AssetClass` | `asset_class` |
 | `Language` | `language` |
-| `faa_asset_class_name )` | `cast(description_short` |
+| `AssetClassName` | `cast(description_short as faa_asset_class_name )` |
 | `AssetClassDescription` | `description_long` |
-| `faa_authcntxt)` | `cast('NEW'` |
+| `AssetAuthorizationContext` | `cast('NEW' as faa_authcntxt)` |
 | `_Language` | *Association* |
 
 ## Associations

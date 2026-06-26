@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MrchdsCatHierNodeText
 ---
 # I_MRCHDSCATHIERNODETEXT
 
@@ -32,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdcathiernode preserving type )` | `cast(MrchdsCatHiernode.class` |
+| `MrchdsCategoryHierarchyNode` | `cast(MrchdsCatHiernode.class as rfm_mrchdcathiernode preserving type )` |
 | `Language` | `text.spras` |
 | `MrchdsCatHierNodeText` | `text.kschl` |
 | `ClassInternalID` | `MrchdsCatHiernode.clint` |
 | `ClassKeywordPositionNumber` | `text.klpos` |
-| `/* Associations */` | `/* Associations */` |
 | `_MrchdsCategoryHierarchyNode` | *Association* |
 | `_Language` | *Association* |
 

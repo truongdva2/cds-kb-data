@@ -31,21 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JntOpgAgrmtPartShr.CompanyCode` | `JntOpgAgrmtPartShr.CompanyCode` |
-| `key JntOpgAgrmtPartShr.JntOpgAgrmt` | `JntOpgAgrmtPartShr.JntOpgAgrmt` |
-| `key JntOpgAgrmtPartShr.JntOpgAgrmtEquityGrp` | `JntOpgAgrmtPartShr.JntOpgAgrmtEquityGrp` |
-| `key JntOpgAgrmtPartShr.JointVenturePartner` | `JntOpgAgrmtPartShr.JointVenturePartner` |
-| `JntOpgAgrmtPartShr.JntVntrEquityShare` | `JntOpgAgrmtPartShr.JntVntrEquityShare` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrIsSuspended` | `JntOpgAgrmtPartShr.JntVntrOwnrIsSuspended` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedPerd` | `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedPerd` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedYr` | `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedYr` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrIsNotSuspended` | `JntOpgAgrmtPartShr.JntVntrOwnrIsNotSuspended` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedPerd` | `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedPerd` |
-| `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedYr` | `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedYr` |
-| `JntOpgAgrmtPartShr.JntVntrPayIsStppd` | `JntOpgAgrmtPartShr.JntVntrPayIsStppd` |
-| `JntOpgAgrmtPartShr.JntVntrOperatorAddressArea` | `JntOpgAgrmtPartShr.JntVntrOperatorAddressArea` |
-| `_JntOpgAgrmtEquityGrp : redirected to parent I_JntOpgAgrmtEquityTypeGrpTP` | *Association* |
-| `_JntOpgAgrmt          : redirected to I_JntOpgAgrmtTP` | *Association* |
+| `CompanyCode` | `JntOpgAgrmtPartShr.CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmtPartShr.JntOpgAgrmt` |
+| `JntOpgAgrmtEquityGrp` | `JntOpgAgrmtPartShr.JntOpgAgrmtEquityGrp` |
+| `JointVenturePartner` | `JntOpgAgrmtPartShr.JointVenturePartner` |
+| `JntVntrEquityShare` | `JntOpgAgrmtPartShr.JntVntrEquityShare` |
+| `JntVntrOwnrIsSuspended` | `JntOpgAgrmtPartShr.JntVntrOwnrIsSuspended` |
+| `JntVntrOwnrSuspendedPerd` | `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedPerd` |
+| `JntVntrOwnrSuspendedYr` | `JntOpgAgrmtPartShr.JntVntrOwnrSuspendedYr` |
+| `JntVntrOwnrIsNotSuspended` | `JntOpgAgrmtPartShr.JntVntrOwnrIsNotSuspended` |
+| `JntVntrOwnrNotSuspendedPerd` | `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedPerd` |
+| `JntVntrOwnrNotSuspendedYr` | `JntOpgAgrmtPartShr.JntVntrOwnrNotSuspendedYr` |
+| `JntVntrPayIsStppd` | `JntOpgAgrmtPartShr.JntVntrPayIsStppd` |
+| `JntVntrOperatorAddressArea` | `JntOpgAgrmtPartShr.JntVntrOperatorAddressArea` |
 
 ## Associations
 

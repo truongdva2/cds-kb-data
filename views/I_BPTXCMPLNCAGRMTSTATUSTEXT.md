@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `fsbp_taxc_agree_status )` | `cast ( dd07t.domvalue_l` |
+| `BPTaxComplianceAgreementStatus` | `cast ( dd07t.domvalue_l as fsbp_taxc_agree_status )` |
 | `BPTxCmplncAgrmtStatusDesc` | `dd07t.ddtext` |
 | `_BPTxCmplncAgreementStatus` | *Association* |
 | `_Language` | *Association* |

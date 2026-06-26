@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     LglCntntMCntxtEntityUUID` | `LglCntntMCntxtEntityUUID` |
+| `LglCntntMCntxtEntityUUID` | `LglCntntMCntxtEntityUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMRank` | `LglCntntMRank` |
 | `LglCntntMEntityType` | `LglCntntMEntityType` |
@@ -39,7 +39,6 @@ tags:
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
 | `LglCntntMIsMainEntity` | `LglCntntMIsMainEntity` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
-| `_LCMContextTP : redirected to parent I_LegalContextTP` | *Association* |
 
 ## Associations
 

@@ -40,7 +40,6 @@ tags:
 | `CharcAttribSeldSetCodeCrtedOn` | `qpac.e_datum` |
 | `CharcAttribSeldSetCodeChgdBy` | `qpac.aenderer` |
 | `CharcAttribSeldSetCodeChgdOn` | `qpac.a_datum` |
-| `/* Associations */` | `/* Associations */` |
 | `_CharcAttributeCodeGrp` | *Association* |
 | `_CharcAttributeCode` | *Association* |
 | `_CodeIsInactive` | *Association* |

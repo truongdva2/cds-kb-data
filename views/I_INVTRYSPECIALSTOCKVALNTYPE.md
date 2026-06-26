@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:InventorySpecialStockValnType
 ---
 # I_INVTRYSPECIALSTOCKVALNTYPE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_inventoryspclstockvalntype )` | `cast( dd07l.domvalue_l` |
+| `InventorySpecialStockValnType` | `cast( dd07l.domvalue_l as fis_inventoryspclstockvalntype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_InvtrySpecialStockValnTypeT` | [0..*] |
 
 ## Source Code
 

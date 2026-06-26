@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-DOC-TTL
   - lob:Basis Components
+  - bo:LanguageCode
 ---
 # I_LANGUAGETEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
+| `_LanguageCode` | `I_Language` | [0..1] |
 
 ## Source Code
 

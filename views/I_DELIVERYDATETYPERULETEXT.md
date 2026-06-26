@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_delivery_date_type_rule preserving type )` | `cast(substring(domvalue_l, 1, 1)` |
+| `DeliveryDateTypeRule` | `cast(substring(domvalue_l, 1, 1) as sd_delivery_date_type_rule preserving type )` |
 | `Language` | `ddlanguage` |
 | `DeliveryDateTypeRuleDesc` | `ddtext` |
 | `_DeliveryDateTypeRule` | *Association* |

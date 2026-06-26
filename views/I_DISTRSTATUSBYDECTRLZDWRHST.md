@@ -15,6 +15,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:DistrStatusByDecentralizedWrhs
 ---
 # I_DISTRSTATUSBYDECTRLZDWRHST
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vlstk preserving type )` | `cast(left(dd07t.domvalue_l, 1)` |
+| `DistrStatusByDecentralizedWrhs` | `cast(left(dd07t.domvalue_l, 1) as vlstk preserving type )` |
 | `Language` | `ddlanguage` |
 | `DistrStatusByDectrlzdWrhsDesc` | `ddtext` |
 | `_DistrStatusByDectrlzdWrhs` | *Association* |

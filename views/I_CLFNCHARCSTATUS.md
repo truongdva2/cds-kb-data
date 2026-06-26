@@ -14,6 +14,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharacteristicStatus
 ---
 # I_CLFNCHARCSTATUS
 
@@ -37,7 +38,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CharacteristicStatusText` | `I_ClfnCharcStatusText` | [0..*] |
 
 ## Source Code
 

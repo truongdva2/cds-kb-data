@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlndIndepRqmtInternalID
 ---
 # I_ACTIVEPLNDINDEPRQMT
 
@@ -29,29 +30,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_WBSElementBasicDataStdVH', element: 'WBSElementInternalID' } } ]` | `name: 'I_WBSElementBasicDataStdVH', element: 'WBSElementInternalID' } } ]` |
-| `pbim.WBSElementInternalID_2,       // no conv. exit` | `pbim.WBSElementInternalID_2,       // no conv. exit` |
-| `pbim.InventorySpecialStockType` | `pbim.InventorySpecialStockType` |
-| `pbim.InventorySpecialStockValnType` | `pbim.InventorySpecialStockValnType` |
-| `pbim.ConsumptionPosting` | `pbim.ConsumptionPosting` |
-| `pbim.AccountAssignmentCategory` | `pbim.AccountAssignmentCategory` |
-| `pbim.PlndIndepRqmtLastChgdDateTime` | `pbim.PlndIndepRqmtLastChgdDateTime` |
+| `PlndIndepRqmtInternalID` | `pbim.PlndIndepRqmtInternalID` |
+| `PlndIndepRqmtVersion` | `pbim.PlndIndepRqmtVersion` |
+| `Product` | `pbim.Product` |
+| `Plant` | `pbim.Plant` |
+| `MRPArea` | `pbim.MRPArea` |
+| `PlndIndepRqmtType` | `pbim.PlndIndepRqmtType` |
+| `RequirementPlan` | `pbim.RequirementPlan` |
+| `ExternalRequirementPlan` | `pbim.ExternalRequirementPlan` |
+| `RequirementSegment` | `pbim.RequirementSegment` |
+| `SalesOrder` | `pbim.SalesOrder` |
+| `SalesOrderItem` | `pbim.SalesOrderItem` |
+| `WBSElementInternalID` | `pbim.WBSElementInternalID` |
+| `WBSElementInternalID_2` | `pbim.WBSElementInternalID_2` |
+| `InventorySpecialStockType` | `pbim.InventorySpecialStockType` |
+| `InventorySpecialStockValnType` | `pbim.InventorySpecialStockValnType` |
+| `ConsumptionPosting` | `pbim.ConsumptionPosting` |
+| `AccountAssignmentCategory` | `pbim.AccountAssignmentCategory` |
+| `PlndIndepRqmtLastChgdDateTime` | `pbim.PlndIndepRqmtLastChgdDateTime` |
 | `_ActivePlndIndepRqmtItem` | *Association* |
-| `pbim._Plant` | `pbim._Plant` |
-| `pbim._Product` | `pbim._Product` |
-| `pbim._ProductPlant` | `pbim._ProductPlant` |
-| `pbim._ProductPlant2` | `pbim._ProductPlant2` |
-| `pbim._ProductMRPArea` | `pbim._ProductMRPArea` |
-| `pbim._MRPArea` | `pbim._MRPArea` |
-| `pbim._PlndIndepRqmtType` | `pbim._PlndIndepRqmtType` |
-| `pbim._SalesOrder` | `pbim._SalesOrder` |
-| `pbim._SalesOrderItem` | `pbim._SalesOrderItem` |
-| `pbim._WBSElement` | `pbim._WBSElement` |
-| `pbim._WBSElementBasic` | `pbim._WBSElementBasic` |
-| `pbim._InventorySpecialStockType` | `pbim._InventorySpecialStockType` |
-| `pbim._InventorySpecialStockValnType` | `pbim._InventorySpecialStockValnType` |
-| `pbim._ConsumptionPosting` | `pbim._ConsumptionPosting` |
-| `pbim._AccountAssignmentCategory` | `pbim._AccountAssignmentCategory` |
+| `_Plant` | *Association* |
+| `_Product` | *Association* |
+| `_ProductPlant` | *Association* |
+| `_ProductPlant2` | *Association* |
+| `_ProductMRPArea` | *Association* |
+| `_MRPArea` | *Association* |
+| `_PlndIndepRqmtType` | *Association* |
+| `_SalesOrder` | *Association* |
+| `_SalesOrderItem` | *Association* |
+| `_WBSElement` | *Association* |
+| `_WBSElementBasic` | *Association* |
+| `_InventorySpecialStockType` | *Association* |
+| `_InventorySpecialStockValnType` | *Association* |
+| `_ConsumptionPosting` | *Association* |
+| `_AccountAssignmentCategory` | *Association* |
 
 ## Associations
 

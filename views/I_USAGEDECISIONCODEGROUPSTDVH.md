@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:UsageDecisionCodeGroup
 ---
 # I_USAGEDECISIONCODEGROUPSTDVH
 
@@ -31,12 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `key UsageDecisionCodeGroup` | `UsageDecisionCodeGroup` |
-| `_Text[1: Language = $session.system_language ].UsageDecisionCodeGroupText` | *Association* |
+| `UsageDecisionCodeGroup` | `UsageDecisionCodeGroup` |
+| `UsageDecisionCodeGroupText` | `_Text[1: Language = $session.system_language ].UsageDecisionCodeGroupText` |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 
 ## Associations

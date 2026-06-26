@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-FI-MX
   - lob:Finance
+  - bo:BusinessTransactionType
 ---
 # I_MX_TRANSACTIONTYPETEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `transaction_type)` | `cast(domvalue_l` |
-| `spras)` | `cast(ddlanguage` |
+| `BusinessTransactionType` | `cast(domvalue_l as transaction_type)` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `BusinessTransactionTypeName` | `ddtext` |
 | `_Language` | *Association* |
 

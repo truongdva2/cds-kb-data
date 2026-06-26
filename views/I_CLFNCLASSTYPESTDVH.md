@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassType
 ---
 # I_CLFNCLASSTYPESTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassType` | `ClassType` |
-| `_ClassTypeText as _Text` | *Association* |
+| `ClassType` | `ClassType` |
+| `_Text` | *Association* |
 
 ## Associations
 

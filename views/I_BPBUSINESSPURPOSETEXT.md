@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_business_purpose )` | `cast ( dd07t.domvalue_l` |
+| `BusinessPartnerBusinessPurpose` | `cast ( dd07t.domvalue_l as bp_business_purpose )` |
 | `BPBusinessPurposeDescription` | `dd07t.ddtext` |
 | `_BPBusinessPurpose` | *Association* |
 | `_Language` | *Association* |

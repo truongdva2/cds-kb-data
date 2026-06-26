@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProjectBillingRequestUUID : pbr_uuid;` | `ProjectBillingRequestUUID : pbr_uuid;` |
-| `ProjectBillingRequest     : pbr_extid;` | `ProjectBillingRequest     : pbr_extid;` |
+| `ProjectBillingRequestUUID` | `pbr_uuid` |
+| `ProjectBillingRequest` | `pbr_extid` |
 
 ## Associations
 

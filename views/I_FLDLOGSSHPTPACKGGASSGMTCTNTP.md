@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptContainer
 ---
 # I_FLDLOGSSHPTPACKGGASSGMTCTNTP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
+| `FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
 | `FldLogsContainerUUID` | `FldLogsContainerUUID` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
 | `FldLogsShipmentID` | `FldLogsShipmentID` |
@@ -84,7 +85,6 @@ tags:
 | `FldLogsShptLocationID` | `FldLogsShptLocationID` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `SuplrCoIsBusPrpsCmpltd` | `SuplrCoIsBusPrpsCmpltd` |
-| `_ShptCtnUnit : redirected to parent I_FldLogsDelivContainerUnitTP` | *Association* |
 
 ## Associations
 

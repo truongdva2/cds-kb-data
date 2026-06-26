@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_PartnerCompanySupplierAuthzn.PartnerCompany` | `I_PartnerCompanySupplierAuthzn.PartnerCompany` |
-| `fis_racct preserving type )` | `cast ( 'F_BKPF_BEK'` |
-| `key I_PartnerCompanySupplierAuthzn.AuthorizationGroup` | `I_PartnerCompanySupplierAuthzn.AuthorizationGroup` |
-| `AuthorizationObject` | `'F_BKPF_BEK'` |
+| `PartnerCompany` | `P_PartnerCompanyGLAcctAuthzn.PartnerCompany` |
+| `GLAccount` | `cast ( 'F_BKPF_BES' as fis_racct preserving type )` |
+| `AuthorizationGroup` | `P_PartnerCompanyGLAcctAuthzn.AuthorizationGroup` |
+| `AuthorizationObject` | `'F_BKPF_BES'` |
 
 ## Associations
 

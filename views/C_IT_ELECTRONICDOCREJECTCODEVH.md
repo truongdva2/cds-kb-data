@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:CA-GTF-CSC-EDO-IT
   - lob:Cross-Application Components
+  - bo:IT_ElectronicDocRejectionCode
 ---
 # C_IT_ELECTRONICDOCREJECTCODEVH
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `IT_ElectronicDocRejectionCode` | `IT_ElectronicDocRejectionCode` |
+| `Language` | `Language` |
 | `IT_ElectronicDocRejectCodeText` | `IT_ElectronicDocRejectCodeText` |
 
 ## Associations

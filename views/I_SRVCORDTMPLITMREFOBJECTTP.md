@@ -29,17 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
-| `key ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
 | `SerialNumber` | `SerialNumber` |
 | `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
 | `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
 | `SrvcRefObjIsMainObject` | `SrvcRefObjIsMainObject` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTemplateItemTP : redirected to parent I_ServiceOrderTemplateItemTP` | *Association* |
-| `_ServiceOrderTemplateTP     : redirected to I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

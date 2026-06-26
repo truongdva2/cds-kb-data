@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
-| `_ElectronicDocument.ElectronicDocCompanyCode as ElectronicDocCompanyCode` | *Association* |
-| `_ElectronicDocument.ElectronicDocCountry as ElectronicDocCountry` | *Association* |
-| `_ElectronicDocument.ElectronicDocSourceType as ElectronicDocSourceType` | *Association* |
-| `_ElectronicDocument.ElectronicDocSourceKey as ElectronicDocSourceKey` | *Association* |
-| `_ElectronicDocument.ElectronicDocType as ElectronicDocType` | *Association* |
-| `_ElectronicDocument.ElectronicDocProcessStatus as ElectronicDocProcessStatus` | *Association* |
-| `_ElectronicDocument.ElectronicDocProcess as ElectronicDocProcess` | *Association* |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocCompanyCode` | `_ElectronicDocument.ElectronicDocCompanyCode` |
+| `ElectronicDocCountry` | `_ElectronicDocument.ElectronicDocCountry` |
+| `ElectronicDocSourceType` | `_ElectronicDocument.ElectronicDocSourceType` |
+| `ElectronicDocSourceKey` | `_ElectronicDocument.ElectronicDocSourceKey` |
+| `ElectronicDocType` | `_ElectronicDocument.ElectronicDocType` |
+| `ElectronicDocProcessStatus` | `_ElectronicDocument.ElectronicDocProcessStatus` |
+| `ElectronicDocProcess` | `_ElectronicDocument.ElectronicDocProcess` |
 | `HU_ElectronicDocTransactionID` | `HU_ElectronicDocTransactionID` |
 | `HU_ElectronicDocIsSentToCust` | `HU_ElectronicDocIsSentToCust` |
 

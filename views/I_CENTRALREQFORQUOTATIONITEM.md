@@ -31,7 +31,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_OrderQuantityUnit' }` | `foreignKey.association: '_OrderQuantityUnit' }` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
+| `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
+| `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
+| `ProductType` | `ProductType` |
+| `ProductTypeCode` | `ProductTypeCode` |
+| `ManufacturerMaterial` | `ManufacturerMaterial` |
+| `ManufacturerPartNmbr` | `ManufacturerPartNmbr` |
+| `Manufacturer` | `Manufacturer` |
+| `MaterialGroup` | `MaterialGroup` |
+| `Plant` | `Plant` |
+| `ManualDeliveryAddressID` | `ManualDeliveryAddressID` |
+| `ReferenceDeliveryAddressID` | `ReferenceDeliveryAddressID` |
+| `AddressID` | `AddressID` |
+| `ItemDeliveryAddressID` | `ItemDeliveryAddressID` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `OrderItemQtyToBaseQtyNmrtr` | `OrderItemQtyToBaseQtyNmrtr` |
 | `OrderItemQtyToBaseQtyDnmntr` | `OrderItemQtyToBaseQtyDnmntr` |
@@ -46,7 +64,6 @@ tags:
 | `NetPriceAmount` | `NetPriceAmount` |
 | `_CentralRFQItemDistribution` | *Association* |
 | `DocumentCurrency` | `DocumentCurrency` |
-| `/*Associations*/` | `/*Associations*/` |
 | `_CentralRequestForQuotation` | *Association* |
 | `_IncotermsClassification` | *Association* |
 | `_PurchasingDocumentCategory` | *Association* |

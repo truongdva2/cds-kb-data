@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-BUM
   - lob:Basis Components
+  - bo:BusinessPartner
 ---
 # I_BUSINESSUSERBASIC
 
@@ -31,44 +32,44 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `_BusinessPartner.partner` |
-| `_BusinessPartner.partner_guid                     as BusinessPartnerUUID` | *Association* |
-| `_BusinessPartner.name_last                        as LastName` | *Association* |
-| `_BusinessPartner.name_first                       as FirstName` | *Association* |
-| `vdm_userdescription preserving type )` | `cast( usr21.techdesc` |
-| `_BusinessPartner.title                            as FormOfAddress` | *Association* |
-| `_BusinessPartner.title_aca1                       as AcademicTitle` | *Association* |
-| `_BusinessPartner.title_aca2                       as AcademicSecondTitle` | *Association* |
-| `_BusinessPartner.langu_corr                       as CorrespondenceLanguage` | *Association* |
-| `_BusinessPartner.namemiddle                       as MiddleName` | *Association* |
-| `_BusinessPartner.name_lst2                        as AdditionalLastName` | *Association* |
-| `_BusinessPartner.name_last2                       as BirthName` | *Association* |
-| `_BusinessPartner.nickname                         as NickName` | *Association* |
-| `_BusinessPartner.initials                         as Initials` | *Association* |
-| `_BusinessPartner.prefix1                          as LastNamePrefix` | *Association* |
-| `_BusinessPartner.prefix2                          as LastNameSecondPrefix` | *Association* |
-| `_BusinessPartner.title_royl                       as NameSupplement` | *Association* |
-| `vdm_userid preserving type )` | `cast( usr21.bname` |
-| `_BusinessPartner.xdele                            as IsMarkedForArchiving` | *Association* |
-| `_BusinessPartner.xblck                            as BusinessPartnerIsBlocked` | *Association* |
-| `_BusinessPartner.crusr                            as CreatedByUser` | *Association* |
-| `_BusinessPartner.crdat                            as CreationDate` | *Association* |
-| `_BusinessPartner.crtim                            as CreationTime` | *Association* |
-| `_BusinessPartner.chusr                            as LastChangedByUser` | *Association* |
-| `_BusinessPartner.chdat                            as LastChangeDate` | *Association* |
-| `_BusinessPartner.chtim                            as LastChangeTime` | *Association* |
-| `_BusinessPartner.xpcpt                            as IsBusinessPurposeCompleted` | *Association* |
-| `_BusinessPartner.augrp                            as AuthorizationGroup` | *Association* |
-| `_BusinessPartner.xdcset                           as DataControllerSet` | *Association* |
-| `_BusinessPartner.data_ctrlr1                      as DataController1` | *Association* |
-| `_BusinessPartner.data_ctrlr2                      as DataController2` | *Association* |
-| `_BusinessPartner.data_ctrlr3                      as DataController3` | *Association* |
-| `_BusinessPartner.data_ctrlr4                      as DataController4` | *Association* |
-| `_BusinessPartner.data_ctrlr5                      as DataController5` | *Association* |
-| `_BusinessPartner.data_ctrlr6                      as DataController6` | *Association* |
-| `_BusinessPartner.data_ctrlr7                      as DataController7` | *Association* |
-| `_BusinessPartner.data_ctrlr8                      as DataController8` | *Association* |
-| `_BusinessPartner.data_ctrlr9                      as DataController9` | *Association* |
-| `_BusinessPartner.data_ctrlr10                     as DataController10` | *Association* |
+| `BusinessPartnerUUID` | `_BusinessPartner.partner_guid` |
+| `LastName` | `_BusinessPartner.name_last` |
+| `FirstName` | `_BusinessPartner.name_first` |
+| `PersonFullName` | `cast( usr21.techdesc as vdm_userdescription preserving type )` |
+| `FormOfAddress` | `_BusinessPartner.title` |
+| `AcademicTitle` | `_BusinessPartner.title_aca1` |
+| `AcademicSecondTitle` | `_BusinessPartner.title_aca2` |
+| `CorrespondenceLanguage` | `_BusinessPartner.langu_corr` |
+| `MiddleName` | `_BusinessPartner.namemiddle` |
+| `AdditionalLastName` | `_BusinessPartner.name_lst2` |
+| `BirthName` | `_BusinessPartner.name_last2` |
+| `NickName` | `_BusinessPartner.nickname` |
+| `Initials` | `_BusinessPartner.initials` |
+| `LastNamePrefix` | `_BusinessPartner.prefix1` |
+| `LastNameSecondPrefix` | `_BusinessPartner.prefix2` |
+| `NameSupplement` | `_BusinessPartner.title_royl` |
+| `UserID` | `cast( usr21.bname as vdm_userid preserving type )` |
+| `IsMarkedForArchiving` | `_BusinessPartner.xdele` |
+| `BusinessPartnerIsBlocked` | `_BusinessPartner.xblck` |
+| `CreatedByUser` | `_BusinessPartner.crusr` |
+| `CreationDate` | `_BusinessPartner.crdat` |
+| `CreationTime` | `_BusinessPartner.crtim` |
+| `LastChangedByUser` | `_BusinessPartner.chusr` |
+| `LastChangeDate` | `_BusinessPartner.chdat` |
+| `LastChangeTime` | `_BusinessPartner.chtim` |
+| `IsBusinessPurposeCompleted` | `_BusinessPartner.xpcpt` |
+| `AuthorizationGroup` | `_BusinessPartner.augrp` |
+| `DataControllerSet` | `_BusinessPartner.xdcset` |
+| `DataController1` | `_BusinessPartner.data_ctrlr1` |
+| `DataController2` | `_BusinessPartner.data_ctrlr2` |
+| `DataController3` | `_BusinessPartner.data_ctrlr3` |
+| `DataController4` | `_BusinessPartner.data_ctrlr4` |
+| `DataController5` | `_BusinessPartner.data_ctrlr5` |
+| `DataController6` | `_BusinessPartner.data_ctrlr6` |
+| `DataController7` | `_BusinessPartner.data_ctrlr7` |
+| `DataController8` | `_BusinessPartner.data_ctrlr8` |
+| `DataController9` | `_BusinessPartner.data_ctrlr9` |
+| `DataController10` | `_BusinessPartner.data_ctrlr10` |
 | `_User` | *Association* |
 | `_WorkplaceAddress` | *Association* |
 | `_BusinessPartnerRole` | *Association* |

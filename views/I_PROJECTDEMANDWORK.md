@@ -44,7 +44,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_Root` | *Association* |
 | `_ResourceAssignment` | *Association* |
 | `_ProjDmndRsceReq` | *Association* |

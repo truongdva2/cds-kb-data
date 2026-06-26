@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrInvcSeldPurgDocument.SupplierInvoice` | `I_SuplrInvcSeldPurgDocument.SupplierInvoice` |
-| `key I_SuplrInvcSeldPurgDocument.FiscalYear` | `I_SuplrInvcSeldPurgDocument.FiscalYear` |
-| `key I_SuplrInvcSeldPurgDocument.PurchaseOrder` | `I_SuplrInvcSeldPurgDocument.PurchaseOrder` |
-| `key I_SuplrInvcSeldPurgDocument.PurchaseOrderItem` | `I_SuplrInvcSeldPurgDocument.PurchaseOrderItem` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `I_SuplrInvcSeldPurgDocument.SupplierInvoice` |
+| `FiscalYear` | `I_SuplrInvcSeldPurgDocument.FiscalYear` |
+| `PurchaseOrder` | `I_SuplrInvcSeldPurgDocument.PurchaseOrder` |
+| `PurchaseOrderItem` | `I_SuplrInvcSeldPurgDocument.PurchaseOrderItem` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

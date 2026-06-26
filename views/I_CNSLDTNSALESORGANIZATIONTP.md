@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnSalesOrganization.SalesOrganization` | `_CnsldtnSalesOrganization.SalesOrganization` |
-| `_CnsldtnSalesOrganization.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnSalesOrgTextTP` | *Association* |
+| `SalesOrganization` | `_CnsldtnSalesOrganization.SalesOrganization` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnSalesOrganization.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

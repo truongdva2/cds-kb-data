@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bltyp_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `bltyp_text_kk preserving type )` | `cast( ddtext` |
+| `CADocumentClass` | `cast( left( dd07t.domvalue_l, 1 ) as bltyp_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADocumentClassText` | `cast( ddtext as bltyp_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

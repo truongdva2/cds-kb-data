@@ -30,11 +30,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CompanyCodeCurrency'} }` | `currencyCode: 'CompanyCodeCurrency'} }` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `SemanticTag` | `SemanticTag` |
+| `BusSolnOrdType` | `BusSolnOrdType` |
+| `BusSolnOrdDescription` | `BusSolnOrdDescription` |
+| `BusSolnOrdItmDescription` | `BusSolnOrdItmDescription` |
+| `BusSolnOrdItmStatus` | `BusSolnOrdItmStatus` |
+| `BusSolnOrdStatus` | `BusSolnOrdStatus` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `DisplayCurrency` | `$parameters.P_DisplayCurrency` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SoldToParty` | `SoldToParty` |
+| `PostingDate` | `PostingDate` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `RevenueAmountInCompanyCodeCrcy` | `RevenueAmountInCompanyCodeCrcy` |
+| `CostAmountInCompanyCodeCrcy` | `CostAmountInCompanyCodeCrcy` |
+| `RecognizedMarginAmtInCCCrcy` | `RecognizedMarginAmtInCCCrcy` |
+| `SlsItmRevenueAmount` | `SlsItmRevenueAmount` |
+| `SrvcContrItmRevenueAmount` | `SrvcContrItmRevenueAmount` |
+| `ExpnItmRevenueAmount` | `ExpnItmRevenueAmount` |
+| `SbscrBilgItmRevenueAmount` | `SbscrBilgItmRevenueAmount` |
+| `SrvcPrtItmRevenueAmount` | `SrvcPrtItmRevenueAmount` |
+| `SrvcItmRevenueAmount` | `SrvcItmRevenueAmount` |
 | `EntProjItmRevenueAmount` | `EntProjItmRevenueAmount` |
-| `_CalendarPeriod.CalendarYear    as CalendarYear` | *Association* |
-| `_CalendarPeriod.CalendarQuarter as CalendarQuarter` | *Association* |
-| `_CalendarPeriod.CalendarMonth   as CalendarMonth` | *Association* |
+| `CalendarYear` | `_CalendarPeriod.CalendarYear` |
+| `CalendarQuarter` | `_CalendarPeriod.CalendarQuarter` |
+| `CalendarMonth` | `_CalendarPeriod.CalendarMonth` |
 | `FiscalYearVariant` | `FiscalYearVariant` |
 | `FiscalPeriod` | `FiscalPeriod` |
 | `FiscalQuarter` | `FiscalQuarter` |
@@ -56,9 +87,9 @@ tags:
 | `_SalesOffice` | *Association* |
 | `_SalesGroup` | *Association* |
 | `_SoldToParty` | *Association* |
-| `_CalendarPeriod._CalendarYear` | *Association* |
-| `_CalendarPeriod._CalendarQuarter` | *Association* |
-| `_CalendarPeriod._CalendarMonth` | *Association* |
+| `_CalendarYear` | *Association* |
+| `_CalendarQuarter` | *Association* |
+| `_CalendarMonth` | *Association* |
 | `_FiscalYearVariant` | *Association* |
 
 ## Associations

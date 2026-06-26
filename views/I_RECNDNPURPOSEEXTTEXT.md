@@ -16,6 +16,7 @@ tags:
   - text
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:REExtConditionPurpose
 ---
 # I_RECNDNPURPOSEEXTTEXT
 

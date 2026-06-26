@@ -30,60 +30,62 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConditionRecord              : knumh;` | `ConditionRecord              : knumh;` |
-| `ConditionSequentialNumber    : kopos;` | `ConditionSequentialNumber    : kopos;` |
-| `ConditionTable               : kotabnr_char;` | `ConditionTable               : kotabnr_char;` |
-| `ConditionApplication         : kappl;` | `ConditionApplication         : kappl;` |
-| `ConditionType                : kschl;` | `ConditionType                : kschl;` |
-| `ConditionValidityEndDate     : datbi;` | `ConditionValidityEndDate     : datbi;` |
-| `ConditionValidityStartDate   : datab;` | `ConditionValidityStartDate   : datab;` |
-| `CreatedByUser                : ernam;` | `CreatedByUser                : ernam;` |
-| `CreationDate                 : erdat;` | `CreationDate                 : erdat;` |
-| `ConditionTextID              : knumt;` | `ConditionTextID              : knumt;` |
-| `PricingScaleType             : stfkz;` | `PricingScaleType             : stfkz;` |
-| `PricingScaleBasis            : kzbzg;` | `PricingScaleBasis            : kzbzg;` |
-| `ConditionScaleQuantity       : kstbm;` | `ConditionScaleQuantity       : kstbm;` |
-| `ConditionScaleQuantityUnit   : konms;` | `ConditionScaleQuantityUnit   : konms;` |
-| `ConditionScaleAmount         : kstbw;` | `ConditionScaleAmount         : kstbw;` |
-| `ConditionScaleAmountCurrency : konws;` | `ConditionScaleAmountCurrency : konws;` |
-| `ConditionCalculationType     : krech;` | `ConditionCalculationType     : krech;` |
-| `ConditionRateValue           : kbetr_kond;` | `ConditionRateValue           : kbetr_kond;` |
-| `ConditionRateValueUnit       : konwa;` | `ConditionRateValueUnit       : konwa;` |
-| `ConditionRateRatio           : vfprc_element_ratio;` | `ConditionRateRatio           : vfprc_element_ratio;` |
-| `ConditionRateRatioUnit       : msehiunit;` | `ConditionRateRatioUnit       : msehiunit;` |
-| `ConditionRateAmount          : vfprc_element_amount;` | `ConditionRateAmount          : vfprc_element_amount;` |
-| `ConditionCurrency            : konwa;` | `ConditionCurrency            : konwa;` |
-| `ConditionQuantity            : kpein;` | `ConditionQuantity            : kpein;` |
-| `ConditionQuantityUnit        : kmein;` | `ConditionQuantityUnit        : kmein;` |
-| `ConditionToBaseQtyNmrtr      : kumza;` | `ConditionToBaseQtyNmrtr      : kumza;` |
-| `ConditionToBaseQtyDnmntr     : kumne;` | `ConditionToBaseQtyDnmntr     : kumne;` |
-| `BaseUnit                     : meins;` | `BaseUnit                     : meins;` |
-| `ConditionLowerLimit          : mxwrt;` | `ConditionLowerLimit          : mxwrt;` |
-| `ConditionUpperLimit          : gkwrt;` | `ConditionUpperLimit          : gkwrt;` |
-| `ConditionLowerLimitAmount    : vfprc_element_amount;` | `ConditionLowerLimitAmount    : vfprc_element_amount;` |
-| `ConditionLowerLimitRatio     : vfprc_element_ratio;` | `ConditionLowerLimitRatio     : vfprc_element_ratio;` |
-| `ConditionUpperLimitAmount    : vfprc_element_amount;` | `ConditionUpperLimitAmount    : vfprc_element_amount;` |
-| `ConditionUpperLimitRatio     : vfprc_element_ratio;` | `ConditionUpperLimitRatio     : vfprc_element_ratio;` |
-| `ConditionAlternativeCurrency : kwaeh;` | `ConditionAlternativeCurrency : kwaeh;` |
-| `ConditionExclusion           : kznep;` | `ConditionExclusion           : kznep;` |
-| `ConditionIsDeleted           : loevm_ko;` | `ConditionIsDeleted           : loevm_ko;` |
-| `AdditionalValueDays          : valtg;` | `AdditionalValueDays          : valtg;` |
-| `FixedValueDate               : valdt;` | `FixedValueDate               : valdt;` |
-| `PaymentTerms                 : dzterm;` | `PaymentTerms                 : dzterm;` |
-| `CndnMaxNumberOfSalesOrders   : anzauf;` | `CndnMaxNumberOfSalesOrders   : anzauf;` |
-| `MinimumConditionBasisValue   : mikbas;` | `MinimumConditionBasisValue   : mikbas;` |
-| `MaximumConditionBasisValue   : mxkbas;` | `MaximumConditionBasisValue   : mxkbas;` |
-| `MaximumConditionAmount       : komxwrt;` | `MaximumConditionAmount       : komxwrt;` |
-| `IncrementalScale             : klf_stg;` | `IncrementalScale             : klf_stg;` |
-| `PricingScaleLine             : klf_kal;` | `PricingScaleLine             : klf_kal;` |
-| `SalesPriceApprovalRequest    : priceapprovalrequest;` | `SalesPriceApprovalRequest    : priceapprovalrequest;` |
-| `PrevApprovedConditionRecord  : knumh_prev_aprvd;` | `PrevApprovedConditionRecord  : knumh_prev_aprvd;` |
-| `LastChangeDateTime           : timestampl;` | `LastChangeDateTime           : timestampl;` |
-| `_Validity   : composition [1..*] of D_SlsPrcgCndnRecordValidityR;` | *Association* |
+| `ConditionRecord` | `knumh` |
+| `ConditionSequentialNumber` | `kopos` |
+| `ConditionTable` | `kotabnr_char` |
+| `ConditionApplication` | `kappl` |
+| `ConditionType` | `kschl` |
+| `ConditionValidityEndDate` | `datbi` |
+| `ConditionValidityStartDate` | `datab` |
+| `CreatedByUser` | `ernam` |
+| `CreationDate` | `erdat` |
+| `ConditionTextID` | `knumt` |
+| `PricingScaleType` | `stfkz` |
+| `PricingScaleBasis` | `kzbzg` |
+| `ConditionScaleQuantity` | `kstbm` |
+| `ConditionScaleQuantityUnit` | `konms` |
+| `ConditionScaleAmount` | `kstbw` |
+| `ConditionScaleAmountCurrency` | `konws` |
+| `ConditionCalculationType` | `krech` |
+| `ConditionRateValue` | `kbetr_kond` |
+| `ConditionRateValueUnit` | `konwa` |
+| `ConditionRateRatio` | `vfprc_element_ratio` |
+| `ConditionRateRatioUnit` | `msehiunit` |
+| `ConditionRateAmount` | `vfprc_element_amount` |
+| `ConditionCurrency` | `konwa` |
+| `ConditionQuantity` | `kpein` |
+| `ConditionQuantityUnit` | `kmein` |
+| `ConditionToBaseQtyNmrtr` | `kumza` |
+| `ConditionToBaseQtyDnmntr` | `kumne` |
+| `BaseUnit` | `meins` |
+| `ConditionLowerLimit` | `mxwrt` |
+| `ConditionUpperLimit` | `gkwrt` |
+| `ConditionLowerLimitAmount` | `vfprc_element_amount` |
+| `ConditionLowerLimitRatio` | `vfprc_element_ratio` |
+| `ConditionUpperLimitAmount` | `vfprc_element_amount` |
+| `ConditionUpperLimitRatio` | `vfprc_element_ratio` |
+| `ConditionAlternativeCurrency` | `kwaeh` |
+| `ConditionExclusion` | `kznep` |
+| `ConditionIsDeleted` | `loevm_ko` |
+| `AdditionalValueDays` | `valtg` |
+| `FixedValueDate` | `valdt` |
+| `PaymentTerms` | `dzterm` |
+| `CndnMaxNumberOfSalesOrders` | `anzauf` |
+| `MinimumConditionBasisValue` | `mikbas` |
+| `MaximumConditionBasisValue` | `mxkbas` |
+| `MaximumConditionAmount` | `komxwrt` |
+| `IncrementalScale` | `klf_stg` |
+| `PricingScaleLine` | `klf_kal` |
+| `SalesPriceApprovalRequest` | `priceapprovalrequest` |
+| `PrevApprovedConditionRecord` | `knumh_prev_aprvd` |
+| `LastChangeDateTime` | `timestampl` |
+| `_Validity` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Validity` | `D_SlsPrcgCndnRecordValidityR` | [1..*] |
 
 ## Source Code
 

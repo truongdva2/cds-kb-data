@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyRole
 ---
 # I_SLCPARTYROLE
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/party_role_code preserving type )` | `cast ( substring( domvalue_l, 1, 3 )` |
+| `SLCPartyRole` | `cast(…)` |
 | `_SLCPartyRoleText` | *Association* |
 
 ## Associations

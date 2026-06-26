@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SDDocDelivIncompletionStatus
 ---
 # I_HDRDELIVINCOMPLETIONSTATUS
 

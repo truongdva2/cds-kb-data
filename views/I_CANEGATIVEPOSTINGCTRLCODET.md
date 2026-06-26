@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `negbu_kk )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `negbu_text_kk preserving type )` | `cast( ddtext` |
+| `CANegativePostingControlCode` | `cast( left( dd07t.domvalue_l, 1 ) as negbu_kk )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CANegativePostingCtrlCodeText` | `cast( ddtext as negbu_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

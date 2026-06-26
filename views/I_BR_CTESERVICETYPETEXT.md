@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeServiceType
 ---
 # I_BR_CTESERVICETYPETEXT
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `logbr_srv_typ_cte preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_CTeServiceType` | `cast( substring(domvalue_l, 1, 1) as logbr_srv_typ_cte preserving type )` |
 | `BR_CTeServiceTypeDesc` | `ddtext` |
 | `_BR_CTeServiceType` | *Association* |
 | `_Language` | *Association* |

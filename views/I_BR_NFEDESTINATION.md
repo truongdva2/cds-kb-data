@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeDestination
 ---
 # I_BR_NFEDESTINATION
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nfe_iddest preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFeDestination` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_nfe_iddest preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

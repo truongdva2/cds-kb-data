@@ -31,16 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JointVentureEquityGroup` | `JointVentureEquityGroup` |
-| `key JointVentureFundingCrcy` | `JointVentureFundingCrcy` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureEquityGroup` | `JointVentureEquityGroup` |
+| `JointVentureFundingCrcy` | `JointVentureFundingCrcy` |
 | `HouseBank` | `HouseBank` |
 | `HouseBankAccount` | `HouseBankAccount` |
 | `JntVntrFundingGroup` | `JntVntrFundingGroup` |
 | `JVAVentureIntrstCalcGrpID` | `JVAVentureIntrstCalcGrpID` |
-| `_JointVentureEquityGroup : redirected to parent I_JointVentureEquityGroupTP` | *Association* |
-| `_JointVenture            : redirected to I_JointVentureTP` | *Association* |
 
 ## Associations
 

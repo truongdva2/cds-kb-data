@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key UploadedSupplierInvoiceUUID` | `UploadedSupplierInvoiceUUID` |
+| `UploadedSupplierInvoiceUUID` | `UploadedSupplierInvoiceUUID` |
 | `SupplierInvoiceUploadUUID` | `SupplierInvoiceUploadUUID` |
 | `SupplierInvoice` | `SupplierInvoice` |
 | `FiscalYear` | `FiscalYear` |
-| `_SupplierInvoiceUploadAPI01.SuplrInvcUploadDescription` | *Association* |
+| `SuplrInvcUploadDescription` | `_SupplierInvoiceUploadAPI01.SuplrInvcUploadDescription` |
 | `_SupplierInvoiceAPI01` | *Association* |
 | `_SupplierInvoiceUploadAPI01` | *Association* |
 | `_SuplrInvcUploadHistoryAPI01` | *Association* |

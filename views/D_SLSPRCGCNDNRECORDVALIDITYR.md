@@ -29,130 +29,132 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConditionRecord                : knumh;` | `ConditionRecord                : knumh;` |
-| `ConditionValidityEndDate       : datbi;` | `ConditionValidityEndDate       : datbi;` |
-| `ConditionValidityStartDate     : datab;` | `ConditionValidityStartDate     : datab;` |
-| `ConditionApplication           : kappl;` | `ConditionApplication           : kappl;` |
-| `ConditionType                  : kschl;` | `ConditionType                  : kschl;` |
-| `ConditionReleaseStatus         : kfrst;` | `ConditionReleaseStatus         : kfrst;` |
-| `DepartureCountry               : aland;` | `DepartureCountry               : aland;` |
-| `SalesDocument                  : vbeln_va;` | `SalesDocument                  : vbeln_va;` |
-| `SalesDocumentItem              : posnr_va;` | `SalesDocumentItem              : posnr_va;` |
-| `BillableControl                : bemot;` | `BillableControl                : bemot;` |
-| `Industry                       : brsch;` | `Industry                       : brsch;` |
-| `CityCode                       : cityc;` | `CityCode                       : cityc;` |
-| `ConditionContract              : wcb_coco_num;` | `ConditionContract              : wcb_coco_num;` |
-| `County                         : counc;` | `County                         : counc;` |
-| `EngagementProject              : /cpd/mp_id;` | `EngagementProject              : /cpd/mp_id;` |
-| `ConfigurationNumber            : cuobj;` | `ConfigurationNumber            : cuobj;` |
-| `InternationalArticleNumber     : ean11;` | `InternationalArticleNumber     : ean11;` |
-| `TechnicalObjectType            : eqart;` | `TechnicalObjectType            : eqart;` |
-| `Equipment                      : equnr;` | `Equipment                      : equnr;` |
-| `CustomerHierarchy              : kunnr_kh;` | `CustomerHierarchy              : kunnr_kh;` |
-| `IncotermsClassification        : inco1;` | `IncotermsClassification        : inco1;` |
-| `IncotermsTransferLocation      : inco2;` | `IncotermsTransferLocation      : inco2;` |
-| `CustomerGroup                  : kdgrp;` | `CustomerGroup                  : kdgrp;` |
-| `CustomerPriceGroup             : konda_v;` | `CustomerPriceGroup             : konda_v;` |
-| `MaterialPricingGroup           : kondm_v;` | `MaterialPricingGroup           : kondm_v;` |
-| `SoldToParty                    : kunag;` | `SoldToParty                    : kunag;` |
-| `BPForSoldToParty               : bu_partner;` | `BPForSoldToParty               : bu_partner;` |
-| `Customer                       : kunnr_v;` | `Customer                       : kunnr_v;` |
-| `BPForCustomer                  : bu_partner;` | `BPForCustomer                  : bu_partner;` |
-| `PayerParty                     : kunrg;` | `PayerParty                     : kunrg;` |
-| `BPForPayerParty                : bu_partner;` | `BPForPayerParty                : bu_partner;` |
-| `ShipToParty                    : kunwe;` | `ShipToParty                    : kunwe;` |
-| `BPForShipToParty               : bu_partner;` | `BPForShipToParty               : bu_partner;` |
-| `Supplier                       : elifn;` | `Supplier                       : elifn;` |
-| `BPForSupplier                  : bu_partner;` | `BPForSupplier                  : bu_partner;` |
-| `DestinationCountry             : lland;` | `DestinationCountry             : lland;` |
-| `MaterialGroup                  : matkl;` | `MaterialGroup                  : matkl;` |
-| `Material                       : matnr;` | `Material                       : matnr;` |
-| `ReturnsRefundExtent            : msr_returns_refund_code;` | `ReturnsRefundExtent            : msr_returns_refund_code;` |
-| `AdditionalMaterialGroup1       : mvgr1;` | `AdditionalMaterialGroup1       : mvgr1;` |
-| `AdditionalMaterialGroup2       : mvgr2;` | `AdditionalMaterialGroup2       : mvgr2;` |
-| `AdditionalMaterialGroup3       : mvgr3;` | `AdditionalMaterialGroup3       : mvgr3;` |
-| `AdditionalMaterialGroup4       : mvgr4;` | `AdditionalMaterialGroup4       : mvgr4;` |
-| `AdditionalMaterialGroup5       : mvgr5;` | `AdditionalMaterialGroup5       : mvgr5;` |
-| `PersonWorkAgreement            : persno;` | `PersonWorkAgreement            : persno;` |
-| `PriceListType                  : pltyp;` | `PriceListType                  : pltyp;` |
-| `PostalCode                     : pstlz;` | `PostalCode                     : pstlz;` |
-| `Region                         : regio;` | `Region                         : regio;` |
-| `EngagementProjectServiceOrg    : /cpd/pws_ws_org_unit_id;` | `EngagementProjectServiceOrg    : /cpd/pws_ws_org_unit_id;` |
-| `RequirementSegment             : sgt_rcat;` | `RequirementSegment             : sgt_rcat;` |
-| `StockSegment                   : sgt_scat;` | `StockSegment                   : sgt_scat;` |
-| `Division                       : spart;` | `Division                       : spart;` |
-| `TradingContract                : tkonn;` | `TradingContract                : tkonn;` |
-| `TradingContractItem            : tposn;` | `TradingContractItem            : tposn;` |
-| `MainItemMaterialPricingGroup   : ukonm;` | `MainItemMaterialPricingGroup   : ukonm;` |
-| `MainItemPricingRefMaterial     : upmat;` | `MainItemPricingRefMaterial     : upmat;` |
-| `VariantCondition               : varcond;` | `VariantCondition               : varcond;` |
-| `ValueAddedServiceChargeCode    : fsh_vas_chrg_code;` | `ValueAddedServiceChargeCode    : fsh_vas_chrg_code;` |
-| `SDDocument                     : vbeln;` | `SDDocument                     : vbeln;` |
-| `ReferenceSDDocument            : vgbel;` | `ReferenceSDDocument            : vgbel;` |
-| `ReferenceSDDocumentItem        : vgpos;` | `ReferenceSDDocumentItem        : vgpos;` |
-| `SalesOffice                    : vkbur;` | `SalesOffice                    : vkbur;` |
-| `SalesGroup                     : vkgrp;` | `SalesGroup                     : vkgrp;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `SalesOrderSalesOrganization    : vkorg_auft;` | `SalesOrderSalesOrganization    : vkorg_auft;` |
-| `OrderQuantityUnit              : vrkme;` | `OrderQuantityUnit              : vrkme;` |
-| `DistributionChannel            : vtweg;` | `DistributionChannel            : vtweg;` |
-| `TransactionCurrency            : waerk;` | `TransactionCurrency            : waerk;` |
-| `WBSElementInternalID           : ps_s4_pspnr;` | `WBSElementInternalID           : ps_s4_pspnr;` |
-| `WorkPackageInternalID          : ps_s4_pspnr;` | `WorkPackageInternalID          : ps_s4_pspnr;` |
-| `Plant                          : werks_d;` | `Plant                          : werks_d;` |
-| `PlantRegion                    : wkreg;` | `PlantRegion                    : wkreg;` |
-| `WorkItem                       : /cpd/pfp_workitem_id;` | `WorkItem                       : /cpd/pfp_workitem_id;` |
-| `ConditionProcessingStatus      : kbstat;` | `ConditionProcessingStatus      : kbstat;` |
-| `PricingDate                    : kdatu;` | `PricingDate                    : kdatu;` |
-| `ConditionIsExclusive           : kexcl;` | `ConditionIsExclusive           : kexcl;` |
-| `ConditionScaleBasisValue       : kstaf;` | `ConditionScaleBasisValue       : kstaf;` |
-| `ServiceDocument                : crmt_object_id_db;` | `ServiceDocument                : crmt_object_id_db;` |
-| `ServiceDocumentItem            : crms4_number_int;` | `ServiceDocumentItem            : crms4_number_int;` |
-| `TimeSheetOvertimeCategory      : cats_overtime_category;` | `TimeSheetOvertimeCategory      : cats_overtime_category;` |
-| `SalesSDDocumentCategory        : vbtypl;` | `SalesSDDocumentCategory        : vbtypl;` |
-| `ReturnReason                   : msr_returns_reason;` | `ReturnReason                   : msr_returns_reason;` |
-| `ProdUnivHierarchyNode          : prod_hier_node_value;` | `ProdUnivHierarchyNode          : prod_hier_node_value;` |
-| `CustomerConditionGroup         : kdkgr;` | `CustomerConditionGroup         : kdkgr;` |
-| `ShippingType                   : versart;` | `ShippingType                   : versart;` |
-| `SubscriptionContractDuration   : crmt_prov_duration;` | `SubscriptionContractDuration   : crmt_prov_duration;` |
-| `SubscriptionContractLockReason : ist_lock_reason;` | `SubscriptionContractLockReason : ist_lock_reason;` |
-| `CrsCtlgMappgPriceVersionNumber : ist_price_vrs;` | `CrsCtlgMappgPriceVersionNumber : ist_price_vrs;` |
-| `OrderType                      : aufart;` | `OrderType                      : aufart;` |
-| `SalesDocumentType              : auart;` | `SalesDocumentType              : auart;` |
-| `SDDocumentReason               : augru;` | `SDDocumentReason               : augru;` |
-| `VolumeRebateGroup              : bonus;` | `VolumeRebateGroup              : bonus;` |
-| `ValuationType                  : bwtar_d;` | `ValuationType                  : bwtar_d;` |
-| `SalesDistrict                  : bzirk;` | `SalesDistrict                  : bzirk;` |
-| `Batch                          : charg_d;` | `Batch                          : charg_d;` |
-| `PurgDocSupplyingPlant          : reswk;` | `PurgDocSupplyingPlant          : reswk;` |
-| `MatUsageIndicator              : abrvw;` | `MatUsageIndicator              : abrvw;` |
-| `ShippingCondition              : vsbed;` | `ShippingCondition              : vsbed;` |
-| `PlantCounty                    : wkcou;` | `PlantCounty                    : wkcou;` |
-| `PlantCity                      : wkcty;` | `PlantCity                      : wkcty;` |
-| `MaterialExternalGroup          : extwg;` | `MaterialExternalGroup          : extwg;` |
-| `CustomerHierarchyRootNode      : sd_custh_hier_id;` | `CustomerHierarchyRootNode      : sd_custh_hier_id;` |
-| `CustomerHierarchyNodeID        : sd_custh_nodeid;` | `CustomerHierarchyNodeID        : sd_custh_nodeid;` |
-| `CustomerHierarchyNodeType      : sd_custh_nodetype;` | `CustomerHierarchyNodeType      : sd_custh_nodetype;` |
-| `AdditionalCustomerGroup1       : kvgr1;` | `AdditionalCustomerGroup1       : kvgr1;` |
-| `AdditionalCustomerGroup2       : kvgr2;` | `AdditionalCustomerGroup2       : kvgr2;` |
-| `AdditionalCustomerGroup3       : kvgr3;` | `AdditionalCustomerGroup3       : kvgr3;` |
-| `AdditionalCustomerGroup4       : kvgr4;` | `AdditionalCustomerGroup4       : kvgr4;` |
-| `AdditionalCustomerGroup5       : kvgr5;` | `AdditionalCustomerGroup5       : kvgr5;` |
-| `SDDocumentItem                 : posnr;` | `SDDocumentItem                 : posnr;` |
-| `Country                        : land1_gp;` | `Country                        : land1_gp;` |
-| `CustomerPurchaseOrderType      : bsark;` | `CustomerPurchaseOrderType      : bsark;` |
-| `CountryOfOrigin                : herkl;` | `CountryOfOrigin                : herkl;` |
-| `SalesDocumentItemCategory      : pstyv;` | `SalesDocumentItemCategory      : pstyv;` |
-| `BillToParty                    : kunre;` | `BillToParty                    : kunre;` |
-| `BusinessPartnerIndustryCode    : braco;` | `BusinessPartnerIndustryCode    : braco;` |
-| `BillingDocumentType            : fkart;` | `BillingDocumentType            : fkart;` |
-| `MatlAccountAssignmentGroup     : ktgrm;` | `MatlAccountAssignmentGroup     : ktgrm;` |
-| `Route                          : route;` | `Route                          : route;` |
-| `_ConditionRecord               : association to parent D_SlsPrcgGetConditionRecordR;` | *Association* |
+| `ConditionRecord` | `knumh` |
+| `ConditionValidityEndDate` | `datbi` |
+| `ConditionValidityStartDate` | `datab` |
+| `ConditionApplication` | `kappl` |
+| `ConditionType` | `kschl` |
+| `ConditionReleaseStatus` | `kfrst` |
+| `DepartureCountry` | `aland` |
+| `SalesDocument` | `vbeln_va` |
+| `SalesDocumentItem` | `posnr_va` |
+| `BillableControl` | `bemot` |
+| `Industry` | `brsch` |
+| `CityCode` | `cityc` |
+| `ConditionContract` | `wcb_coco_num` |
+| `County` | `counc` |
+| `EngagementProject` | `/cpd/mp_id` |
+| `ConfigurationNumber` | `cuobj` |
+| `InternationalArticleNumber` | `ean11` |
+| `TechnicalObjectType` | `eqart` |
+| `Equipment` | `equnr` |
+| `CustomerHierarchy` | `kunnr_kh` |
+| `IncotermsClassification` | `inco1` |
+| `IncotermsTransferLocation` | `inco2` |
+| `CustomerGroup` | `kdgrp` |
+| `CustomerPriceGroup` | `konda_v` |
+| `MaterialPricingGroup` | `kondm_v` |
+| `SoldToParty` | `kunag` |
+| `BPForSoldToParty` | `bu_partner` |
+| `Customer` | `kunnr_v` |
+| `BPForCustomer` | `bu_partner` |
+| `PayerParty` | `kunrg` |
+| `BPForPayerParty` | `bu_partner` |
+| `ShipToParty` | `kunwe` |
+| `BPForShipToParty` | `bu_partner` |
+| `Supplier` | `elifn` |
+| `BPForSupplier` | `bu_partner` |
+| `DestinationCountry` | `lland` |
+| `MaterialGroup` | `matkl` |
+| `Material` | `matnr` |
+| `ReturnsRefundExtent` | `msr_returns_refund_code` |
+| `AdditionalMaterialGroup1` | `mvgr1` |
+| `AdditionalMaterialGroup2` | `mvgr2` |
+| `AdditionalMaterialGroup3` | `mvgr3` |
+| `AdditionalMaterialGroup4` | `mvgr4` |
+| `AdditionalMaterialGroup5` | `mvgr5` |
+| `PersonWorkAgreement` | `persno` |
+| `PriceListType` | `pltyp` |
+| `PostalCode` | `pstlz` |
+| `Region` | `regio` |
+| `EngagementProjectServiceOrg` | `/cpd/pws_ws_org_unit_id` |
+| `RequirementSegment` | `sgt_rcat` |
+| `StockSegment` | `sgt_scat` |
+| `Division` | `spart` |
+| `TradingContract` | `tkonn` |
+| `TradingContractItem` | `tposn` |
+| `MainItemMaterialPricingGroup` | `ukonm` |
+| `MainItemPricingRefMaterial` | `upmat` |
+| `VariantCondition` | `varcond` |
+| `ValueAddedServiceChargeCode` | `fsh_vas_chrg_code` |
+| `SDDocument` | `vbeln` |
+| `ReferenceSDDocument` | `vgbel` |
+| `ReferenceSDDocumentItem` | `vgpos` |
+| `SalesOffice` | `vkbur` |
+| `SalesGroup` | `vkgrp` |
+| `SalesOrganization` | `vkorg` |
+| `SalesOrderSalesOrganization` | `vkorg_auft` |
+| `OrderQuantityUnit` | `vrkme` |
+| `DistributionChannel` | `vtweg` |
+| `TransactionCurrency` | `waerk` |
+| `WBSElementInternalID` | `ps_s4_pspnr` |
+| `WorkPackageInternalID` | `ps_s4_pspnr` |
+| `Plant` | `werks_d` |
+| `PlantRegion` | `wkreg` |
+| `WorkItem` | `/cpd/pfp_workitem_id` |
+| `ConditionProcessingStatus` | `kbstat` |
+| `PricingDate` | `kdatu` |
+| `ConditionIsExclusive` | `kexcl` |
+| `ConditionScaleBasisValue` | `kstaf` |
+| `ServiceDocument` | `crmt_object_id_db` |
+| `ServiceDocumentItem` | `crms4_number_int` |
+| `TimeSheetOvertimeCategory` | `cats_overtime_category` |
+| `SalesSDDocumentCategory` | `vbtypl` |
+| `ReturnReason` | `msr_returns_reason` |
+| `ProdUnivHierarchyNode` | `prod_hier_node_value` |
+| `CustomerConditionGroup` | `kdkgr` |
+| `ShippingType` | `versart` |
+| `SubscriptionContractDuration` | `crmt_prov_duration` |
+| `SubscriptionContractLockReason` | `ist_lock_reason` |
+| `CrsCtlgMappgPriceVersionNumber` | `ist_price_vrs` |
+| `OrderType` | `aufart` |
+| `SalesDocumentType` | `auart` |
+| `SDDocumentReason` | `augru` |
+| `VolumeRebateGroup` | `bonus` |
+| `ValuationType` | `bwtar_d` |
+| `SalesDistrict` | `bzirk` |
+| `Batch` | `charg_d` |
+| `PurgDocSupplyingPlant` | `reswk` |
+| `MatUsageIndicator` | `abrvw` |
+| `ShippingCondition` | `vsbed` |
+| `PlantCounty` | `wkcou` |
+| `PlantCity` | `wkcty` |
+| `MaterialExternalGroup` | `extwg` |
+| `CustomerHierarchyRootNode` | `sd_custh_hier_id` |
+| `CustomerHierarchyNodeID` | `sd_custh_nodeid` |
+| `CustomerHierarchyNodeType` | `sd_custh_nodetype` |
+| `AdditionalCustomerGroup1` | `kvgr1` |
+| `AdditionalCustomerGroup2` | `kvgr2` |
+| `AdditionalCustomerGroup3` | `kvgr3` |
+| `AdditionalCustomerGroup4` | `kvgr4` |
+| `AdditionalCustomerGroup5` | `kvgr5` |
+| `SDDocumentItem` | `posnr` |
+| `Country` | `land1_gp` |
+| `CustomerPurchaseOrderType` | `bsark` |
+| `CountryOfOrigin` | `herkl` |
+| `SalesDocumentItemCategory` | `pstyv` |
+| `BillToParty` | `kunre` |
+| `BusinessPartnerIndustryCode` | `braco` |
+| `BillingDocumentType` | `fkart` |
+| `MatlAccountAssignmentGroup` | `ktgrm` |
+| `Route` | `route` |
+| `_ConditionRecord` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConditionRecord` | `D_SlsPrcgGetConditionRecordR` | — |
 
 ## Source Code
 

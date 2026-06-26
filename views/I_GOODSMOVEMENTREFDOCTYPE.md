@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ) )` | `cast ( cast ( substring( domvalue_l, 1, 2 )` |
+| `GoodsMovementRefDocType` | `cast ( cast ( substring( domvalue_l, 1, 2 ) as abap.char( 2 ) ) as kzbew )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

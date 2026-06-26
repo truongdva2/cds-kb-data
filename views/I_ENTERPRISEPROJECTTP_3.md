@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectUUID` | `ProjectUUID` |
+| `ProjectUUID` | `ProjectUUID` |
 | `ProjectSummaryTaskUUID` | `ProjectSummaryTaskUUID` |
 | `ProjectInternalID` | `ProjectInternalID` |
 | `Project` | `Project` |
@@ -74,12 +74,6 @@ tags:
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `EntProjHasProjectStockEnabled` | `EntProjHasProjectStockEnabled` |
 | `InventorySpecialStockValnType` | `InventorySpecialStockValnType` |
-| `_EnterpriseProjectElement : redirected to composition child I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProjectJVA     : redirected to composition child I_EntProjJntVntrAcctgTP_3` | *Association* |
-| `_EntProjectPublicSector   : redirected to composition child I_EntProjectPublicSectorTP_3` | *Association* |
-| `_EntProjBlkFunc           : redirected to composition child I_EntProjectBlockFunctionTP_3` | *Association* |
-| `_EntProjRole              : redirected to composition child I_EnterpriseProjectRoleTP_3` | *Association* |
-| `_EntProjTeamMember        : redirected to composition child I_EntProjectTeamMemberTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

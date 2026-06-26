@@ -16,6 +16,7 @@ tags:
   - routing
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODNROUTINGSEQUENCETP_2
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingSqncIntVers` | `ProductionRoutingSqncIntVers` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingSqncIntVers` | `ProductionRoutingSqncIntVers` |
 | `IsDeleted` | `IsDeleted` |
 | `IsImplicitlyDeleted` | `IsImplicitlyDeleted` |
 | `ChangeNumber` | `ChangeNumber` |
@@ -54,11 +55,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqnc    : redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_ProdnRtgTP : redirected to I_ProductionRoutingTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_Operation  : redirected to I_ProdnRoutingOperationTP_2` | *Association* |
 
 ## Associations
 

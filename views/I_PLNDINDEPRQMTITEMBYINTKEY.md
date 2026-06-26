@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:WorkingDayDate
 ---
 # I_PLNDINDEPRQMTITEMBYINTKEY
 
@@ -31,12 +32,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PlndIndepRqmtInternalID` | `bdzei` |
-| `pph_working_day preserving type)` | `cast(pbed.pdatu` |
-| `periotype preserving type)` | `cast(pbed.entli` |
+| `WorkingDayDate` | `cast(pbed.pdatu as pph_working_day preserving type)` |
+| `ForecastPeriodType` | `cast(pbed.entli as periotype preserving type)` |
 | `LastChangedByUser` | `pbed.aenam` |
 | `LastChangeDate` | `pbed.laeda` |
 | `BaseUnit` | `pbed.meins` |
-| `pph_plan_qty preserving type)` | `cast(pbed.plnmg` |
+| `PlannedQuantity` | `cast(pbed.plnmg as pph_plan_qty preserving type)` |
 | `WithdrawalQuantity` | `pbed.entmg` |
 | `_PlndIndepRqmt` | *Association* |
 | `_UnitOfMeasure` | *Association* |

@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `fincs_description_text_60 preserving type)` | `cast(_AdhocItem._Text[1: Language=$session.system_language].CnsldtnAdhocItemText` |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `CnsldtnAdhocItem` | `CnsldtnAdhocItem` |
+| `CnsldtnAdhocItemText` | `cast(…)` |
 
 ## Associations
 

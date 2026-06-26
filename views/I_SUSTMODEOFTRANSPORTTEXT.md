@@ -16,6 +16,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:SustModeOfTransportText
 ---
 # I_SUSTMODEOFTRANSPORTTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `sufnd_vdm_susmodeoftransport )` | `cast( dd07t.domvalue_l` |
-| `sufnd_vdm_susmodeoftranspname preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `SustainabilityModeOfTransport` | `cast( dd07t.domvalue_l as sufnd_vdm_susmodeoftransport )` |
+| `SustModeOfTransportName` | `cast( dd07t.ddtext as sufnd_vdm_susmodeoftranspname preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

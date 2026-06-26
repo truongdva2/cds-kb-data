@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:PerfOblgnFulfillmentType
 ---
 # I_RAPERFOBLGNFLFMTTYPETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `PerfOblgnFulfillmentType` | `cast(dd07t.domvalue_l as farr_fulfill_type)` |
 | `PerfOblgnFulfillmentTypeName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAPerfOblgnFlfmtType` | *Association* |
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAPerfOblgnFlfmtType` | `I_RAPerfOblgnFlfmtType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

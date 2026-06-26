@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GLAccount` | `GLAccount` |
-| `key CompanyCode` | `CompanyCode` |
+| `GLAccount` | `GLAccount` |
+| `CompanyCode` | `CompanyCode` |
 | `_Text` | *Association* |
 | `_CompanyCode` | *Association* |
 

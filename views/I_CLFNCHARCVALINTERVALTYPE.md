@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharcValueIntervalType
 ---
 # I_CLFNCHARCVALINTERVALTYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atcod )` | `cast( dd07l.domvalue_l` |
+| `CharcValueIntervalType` | `cast( dd07l.domvalue_l as atcod )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ClfnCharcValIntervalTypeText` | [0..*] |
 
 ## Source Code
 

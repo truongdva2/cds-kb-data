@@ -18,6 +18,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransReleaseStatusText
 ---
 # I_FINTRANSRELEASESTATUSTEXT
 
@@ -34,10 +35,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_frgzust )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinTransReleaseStatus` | `cast( dd07t.domvalue_l as tb_frgzust )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_frgzust_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinTransReleaseStatusName` | `cast( dd07t.ddtext as tb_frgzust_name preserving type )` |
 | `_ReleaseStatus` | *Association* |
 | `_Language` | *Association* |
 

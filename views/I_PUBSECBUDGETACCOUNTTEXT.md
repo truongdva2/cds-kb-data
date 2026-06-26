@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MainText.PubSecBudgetAccount` | `MainText.PubSecBudgetAccount` |
-| `psm_bdgt_account_cocode preserving type )` | `cast( I_GLAccountInCompanyCode.CompanyCode` |
-| `key MainText.Language` | `MainText.Language` |
-| `MainText.ChartOfAccounts` | `MainText.ChartOfAccounts` |
-| `MainText.BudgetAccountName` | `MainText.BudgetAccountName` |
-| `MainText.BudgetAccountDescription` | `MainText.BudgetAccountDescription` |
+| `PubSecBudgetAccount` | `MainText.PubSecBudgetAccount` |
+| `PubSecBudgetAccountCoCode` | `cast(…)` |
+| `Language` | `MainText.Language` |
+| `ChartOfAccounts` | `MainText.ChartOfAccounts` |
+| `BudgetAccountName` | `MainText.BudgetAccountName` |
+| `BudgetAccountDescription` | `MainText.BudgetAccountDescription` |
 | `_Language` | *Association* |
 | `_PubSecBudgetAccountCoCode` | *Association* |
 | `_ChartOfAccounts` | *Association* |

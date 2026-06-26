@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-TXL-EXT
   - lob:Finance
+  - bo:UnitedStatesTaxCategory
 ---
 # I_UNITEDSTATESTAXCATEGORY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `txind_007a )` | `cast(domvalue_l` |
+| `UnitedStatesTaxCategory` | `cast(domvalue_l as txind_007a )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -17,6 +17,7 @@ tags:
   - status
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ReservationCompletionStatusTxt
 ---
 # I_RESVNCOMPLETIONSTATUSTEXT
 
@@ -33,11 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `imrs_resvn_compltn_status_code )` | `cast ( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ReservationCompletionStatus` | `cast ( dd07t.domvalue_l as imrs_resvn_compltn_status_code )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `imrs_resvn_compltn_status_text preserving type )` | `cast( dd07t.ddtext` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `ResvnCompletionStatusText` | `cast( dd07t.ddtext as imrs_resvn_compltn_status_text preserving type )` |
 | `_ResvnCompletionStatus` | *Association* |
 | `_Language` | *Association* |
 

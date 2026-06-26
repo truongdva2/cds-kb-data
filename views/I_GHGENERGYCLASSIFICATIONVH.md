@@ -15,6 +15,7 @@ tags:
   - classification
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergyClassification
 ---
 # I_GHGENERGYCLASSIFICATIONVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergyClassification` | `GHGEnergyClassification` |
+| `GHGEnergyClassification` | `GHGEnergyClassification` |
 | `_Text` | *Association* |
 
 ## Associations

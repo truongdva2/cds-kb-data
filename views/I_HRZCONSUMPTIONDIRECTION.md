@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocHorizontalCnsmpnDrctn
 ---
 # I_HRZCONSUMPTIONDIRECTION
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `horizontalconsumptiondirection preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `HorizontalConsumptionDirection` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

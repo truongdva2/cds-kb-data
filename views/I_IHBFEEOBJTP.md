@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FIN-FSCM-PF-IHB-2CL
   - lob:Other
+  - bo:InhouseBankMasterObject
 ---
 # I_IHBFEEOBJTP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBObjectUUID` | `IHBObjectUUID` |
+| `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBObjectReferenceUUID` | `IHBObjectReferenceUUID` |
 | `IHBObjectType` | `IHBObjectType` |
 | `IHBObjectCategory` | `IHBObjectCategory` |
@@ -49,8 +50,6 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `_IHBGroupAssignmentTP : redirected to composition child I_IHBFeeGroupAssgmtTP` | *Association* |
-| `_IHBFeeTP             : redirected to composition child I_IHBFeeTP` | *Association* |
 
 ## Associations
 

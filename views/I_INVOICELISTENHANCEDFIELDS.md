@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceList
 ---
 # I_INVOICELISTENHANCEDFIELDS
 
@@ -30,13 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` | `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` |
-| `key InvoiceList.InvoiceList` | `InvoiceList.InvoiceList` |
+| `InvoiceList` | `InvoiceList.InvoiceList` |
 | `TransactionCurrency` | `InvoiceList.TransactionCurrency` |
-| `cast(InvoiceList.TotalTaxAmount +` | `cast(InvoiceList.TotalTaxAmount +` |
-| `InvoiceList.TotalNetAmount +` | `InvoiceList.TotalNetAmount +` |
-| `_Remuneration.TotalRemunerationNetAmount +` | *Association* |
-| `_Remuneration.TotalRemunerationTaxAmount  as sum_rl) as TotalGrossAmount` | *Association* |
+| `TotalGrossAmount` | `cast(…)` |
 | `_Remuneration` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_InvoiceList` | *Association* |

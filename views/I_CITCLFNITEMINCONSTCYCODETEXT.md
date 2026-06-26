@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:FI-LOC-CIT
   - lob:Finance
+  - bo:CITClassfctnItemInconstcyCode
 ---
 # I_CITCLFNITEMINCONSTCYCODETEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `ficite_amnt_inconsistency )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CITClassfctnItemInconstcyCode` | `cast( dd07t.domvalue_l as ficite_amnt_inconsistency )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `ficite_amnt_inconsistency_desc )` | `cast( dd07t.ddtext` |
+| `CITClfnItemInconstcyCodeDesc` | `cast( dd07t.ddtext as ficite_amnt_inconsistency_desc )` |
 | `_Value` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Value` | `I_CITClfnItemInconstcyCodeVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

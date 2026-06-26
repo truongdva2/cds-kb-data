@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressObjectType
 ---
 # I_ADDRESSOBJECTTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ad_adrtype )` | `cast ( domvalue_l` |
+| `AddressObjectType` | `cast ( domvalue_l as ad_adrtype )` |
 | `_Text` | *Association* |
 
 ## Associations

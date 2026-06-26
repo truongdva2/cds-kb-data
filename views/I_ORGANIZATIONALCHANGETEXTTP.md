@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrganizationalChange` | `OrganizationalChange` |
-| `key Language` | `Language` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `Language` | `Language` |
 | `OrganizationalChangeName` | `OrganizationalChangeName` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

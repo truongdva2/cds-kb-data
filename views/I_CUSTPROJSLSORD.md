@@ -30,23 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Customer_VH'` | `name:    'I_Customer_VH'` |
-| `element: 'Customer' }` | `element: 'Customer' }` |
-| `}]` | `}]` |
-| `SalesOrder.SoldToParty` | `SalesOrder.SoldToParty` |
-| `SalesOrder.TotalNetAmount` | `SalesOrder.TotalNetAmount` |
-| `SalesOrder.TransactionCurrency` | `SalesOrder.TransactionCurrency` |
-| `SalesOrder.PurchaseOrderByCustomer` | `SalesOrder.PurchaseOrderByCustomer` |
-| `SalesOrder.CustomerPurchaseOrderDate` | `SalesOrder.CustomerPurchaseOrderDate` |
-| `SalesOrder.SalesOrganization` | `SalesOrder.SalesOrganization` |
-| `SalesOrder.DistributionChannel` | `SalesOrder.DistributionChannel` |
-| `SalesOrder.OrganizationDivision` | `SalesOrder.OrganizationDivision` |
-| `SalesOrder.SalesOffice` | `SalesOrder.SalesOffice` |
-| `SalesOrder.SalesGroup` | `SalesOrder.SalesGroup` |
-| `SalesOrder.CustomerPaymentTerms` | `SalesOrder.CustomerPaymentTerms` |
-| `SalesOrder.PaymentMethod` | `SalesOrder.PaymentMethod` |
-| `SalesOrder.CustomerAccountAssignmentGroup` | `SalesOrder.CustomerAccountAssignmentGroup` |
-| `SalesOrder.HeaderBillingBlockReason` | `SalesOrder.HeaderBillingBlockReason` |
+| `CustomerProject` | `Project.CustomerProject` |
+| `SalesOrder` | `SalesOrder.SalesOrder` |
+| `SalesOrderType` | `SalesOrder.SalesOrderType` |
+| `SoldToParty` | `SalesOrder.SoldToParty` |
+| `TotalNetAmount` | `SalesOrder.TotalNetAmount` |
+| `TransactionCurrency` | `SalesOrder.TransactionCurrency` |
+| `PurchaseOrderByCustomer` | `SalesOrder.PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderDate` | `SalesOrder.CustomerPurchaseOrderDate` |
+| `SalesOrganization` | `SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrder.OrganizationDivision` |
+| `SalesOffice` | `SalesOrder.SalesOffice` |
+| `SalesGroup` | `SalesOrder.SalesGroup` |
+| `CustomerPaymentTerms` | `SalesOrder.CustomerPaymentTerms` |
+| `PaymentMethod` | `SalesOrder.PaymentMethod` |
+| `CustomerAccountAssignmentGroup` | `SalesOrder.CustomerAccountAssignmentGroup` |
+| `HeaderBillingBlockReason` | `SalesOrder.HeaderBillingBlockReason` |
 | `_CustomerProject` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_CustProjSlsOrdItem` | *Association* |

@@ -33,13 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key SupplierSubrange` | `SupplierSubrange` |
-| `key Plant` | `Plant` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key PartnerCounter` | `PartnerCounter` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `Plant` | `Plant` |
+| `PartnerFunction` | `PartnerFunction` |
+| `PartnerCounter` | `PartnerCounter` |
 | `PartnerFunctionLanguageDepdnt` | `PartnerFunctionLanguageDepdnt` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchaseContractType` | `PurchaseContractType` |

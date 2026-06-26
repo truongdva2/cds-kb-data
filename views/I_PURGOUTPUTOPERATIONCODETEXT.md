@@ -14,6 +14,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgOutputOperationCode
 ---
 # I_PURGOUTPUTOPERATIONCODETEXT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `druvo )` | `cast ( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast ( dd07t.ddlanguage` |
+| `PurgOutputOperationCode` | `cast ( dd07t.domvalue_l as druvo )` |
+| `Language` | `cast ( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_output_operation_codname preserving type )` | `cast( dd07t.ddtext` |
+| `PurgOutputOperationCodeName` | `cast( dd07t.ddtext as mmpur_output_operation_codname preserving type )` |
 | `_PurgOutputOperationCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgOutputOperationCode` | `I_PurgOutputOperationCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

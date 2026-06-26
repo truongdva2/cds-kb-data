@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Key` | `I_EntProjStatusAreaStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

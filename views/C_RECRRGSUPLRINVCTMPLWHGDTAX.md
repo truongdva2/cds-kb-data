@@ -13,6 +13,7 @@ tags:
   - tax
   - component:FI-FIO-AP-2CL
   - lob:Finance
+  - bo:RecrrgSuplrInvcTmplWhgdTx
 ---
 # C_RECRRGSUPLRINVCTMPLWHGDTAX
 
@@ -30,12 +31,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RecrrgSuplrInvcTmplWhgdTaxUUID` | `_Withtax.RecrrgSuplrInvcTmplWhgdTaxUUID` |
-| `_Withtax.RecrrgSuplrInvcTmplUUID        as RecrrgSuplrInvcTmplUUID` | *Association* |
-| `_Withtax.WithholdingTaxAmount           as WithholdingTaxAmount` | *Association* |
-| `_Withtax.WithholdingTaxBaseAmount       as WithholdingTaxBaseAmount` | *Association* |
-| `_Withtax.WithholdingTaxCode             as WithholdingTaxCode` | *Association* |
-| `_Withtax.WithholdingTaxType             as WithholdingTaxType` | *Association* |
-| `_Withtax.TransactionCurrency            as TransactionCurrency` | *Association* |
+| `RecrrgSuplrInvcTmplUUID` | `_Withtax.RecrrgSuplrInvcTmplUUID` |
+| `WithholdingTaxAmount` | `_Withtax.WithholdingTaxAmount` |
+| `WithholdingTaxBaseAmount` | `_Withtax.WithholdingTaxBaseAmount` |
+| `WithholdingTaxCode` | `_Withtax.WithholdingTaxCode` |
+| `WithholdingTaxType` | `_Withtax.WithholdingTaxType` |
+| `TransactionCurrency` | `_Withtax.TransactionCurrency` |
 | `_Tmpl` | *Association* |
 
 ## Associations

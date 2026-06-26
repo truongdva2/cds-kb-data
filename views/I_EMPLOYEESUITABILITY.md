@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:EmployeeSuitability
 ---
 # I_EMPLOYEESUITABILITY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `werks` |
 | `EmployeeSuitability` | `qualf` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |

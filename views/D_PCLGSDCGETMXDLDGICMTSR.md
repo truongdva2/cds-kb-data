@@ -29,19 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Product                             : matnr; //  Material Number` | `Product                             : matnr; //  Material Number` |
-| `MxdLoadingIncompatibleProduct       : mxdloadingincompatibleproduct; // Incompatible Product` | `MxdLoadingIncompatibleProduct       : mxdloadingincompatibleproduct; // Incompatible Product` |
-| `PackingInstructionNumber            : ehfnd_pi_id; // Packing Instruction Number` | `PackingInstructionNumber            : ehfnd_pi_id; // Packing Instruction Number` |
-| `MxdLoadgIncompatiblePaInsnNmbr      : mxdloadingincompatibleppainstr; // Incompatible Packing Instruction Number` | `MxdLoadgIncompatiblePaInsnNmbr      : mxdloadingincompatibleppainstr; // Incompatible Packing Instruction Number` |
-| `SystemMessageType                   : msgty; // char(1)  ABAP System Field: Message Type` | `SystemMessageType                   : msgty; // char(1)  ABAP System Field: Message Type` |
-| `SystemMessageNumber                 : msgnr; // numc(3)  ABAP System Field: Message Number` | `SystemMessageNumber                 : msgnr; // numc(3)  ABAP System Field: Message Number` |
-| `SystemMessageIdentification         : msgid; //char(20)  ABAP System Field: Message ID` | `SystemMessageIdentification         : msgid; //char(20)  ABAP System Field: Message ID` |
-| `MixedLoadingMessageSeverity         : mixedloadingmessageseverity; //int1(3)  Severity of a Mixed Loading Message` | `MixedLoadingMessageSeverity         : mixedloadingmessageseverity; //int1(3)  Severity of a Mixed Loading Message` |
-| `SystemMessageVariable1              : ehfnd_vdm_msgv1; // char(50)  ABAP System Field: Message Variable` | `SystemMessageVariable1              : ehfnd_vdm_msgv1; // char(50)  ABAP System Field: Message Variable` |
-| `SystemMessageVariable2              : ehfnd_vdm_msgv2; // char(50)  ABAP System Field: Message Variable` | `SystemMessageVariable2              : ehfnd_vdm_msgv2; // char(50)  ABAP System Field: Message Variable` |
-| `SystemMessageVariable3              : ehfnd_vdm_msgv3; // char(50)  ABAP System Field: Message Variable` | `SystemMessageVariable3              : ehfnd_vdm_msgv3; // char(50)  ABAP System Field: Message Variable` |
-| `SystemMessageVariable4              : ehfnd_vdm_msgv4; //char(50)  ABAP System Field: Message Variable` | `SystemMessageVariable4              : ehfnd_vdm_msgv4; //char(50)  ABAP System Field: Message Variable` |
-| `Language                            : langu; //  lang(1)  Language Key` | `Language                            : langu; //  lang(1)  Language Key` |
+| `Product` | `matnr` |
+| `MxdLoadingIncompatibleProduct` | `mxdloadingincompatibleproduct` |
+| `PackingInstructionNumber` | `ehfnd_pi_id` |
+| `MxdLoadgIncompatiblePaInsnNmbr` | `mxdloadingincompatibleppainstr` |
+| `SystemMessageType` | `msgty` |
+| `SystemMessageNumber` | `msgnr` |
+| `SystemMessageIdentification` | `msgid` |
+| `MixedLoadingMessageSeverity` | `mixedloadingmessageseverity` |
+| `SystemMessageVariable1` | `ehfnd_vdm_msgv1` |
+| `SystemMessageVariable2` | `ehfnd_vdm_msgv2` |
+| `SystemMessageVariable3` | `ehfnd_vdm_msgv3` |
+| `SystemMessageVariable4` | `ehfnd_vdm_msgv4` |
+| `Language` | `langu` |
 
 ## Associations
 

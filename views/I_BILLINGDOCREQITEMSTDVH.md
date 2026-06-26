@@ -19,6 +19,7 @@ tags:
   - item-level
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentRequestItem
 ---
 # I_BILLINGDOCREQITEMSTDVH
 
@@ -35,8 +36,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
-| `key BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
+| `BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
 | `BillingDocumentRequestItemText` | `BillingDocumentRequestItemText` |
 | `BillingDocumentRequestType` | `BillingDocumentRequestType` |
 | `SalesOrganization` | `SalesOrganization` |

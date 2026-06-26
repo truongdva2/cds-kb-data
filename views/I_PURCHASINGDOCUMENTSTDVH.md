@@ -17,6 +17,7 @@ tags:
   - document
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocument
 ---
 # I_PURCHASINGDOCUMENTSTDVH
 
@@ -33,11 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 1.0` | `fuzzinessThreshold: 1.0` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `key PurchasingDocument` | `PurchasingDocument` |
+| `PurchasingDocument` | `PurchasingDocument` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentOrigin` | `PurchasingDocumentOrigin` |

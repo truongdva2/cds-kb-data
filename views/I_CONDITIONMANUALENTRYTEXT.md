@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:CndnManualEntries
 ---
 # I_CONDITIONMANUALENTRYTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kmanu )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `CndnManualEntries` | `cast ( substring( domvalue_l, 1, 1 ) as kmanu )` |
+| `ConditionManualEntryText` | `cast ( ddtext as val_text )` |
 | `_ConditionManualEntry` | *Association* |
 | `_Language` | *Association* |
 

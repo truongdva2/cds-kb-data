@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBAcctFeeUUID` | `IHBAcctFeeUUID` |
+| `IHBAcctFeeUUID` | `IHBAcctFeeUUID` |
 | `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBAcctFeeRefUUID` | `IHBAcctFeeRefUUID` |
 | `IHBAcctFeeType` | `IHBAcctFeeType` |
@@ -46,11 +46,8 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_IHBFeeDetailTP    : redirected to composition child I_IHBFeeDetailTP` | *Association* |
 | `_IHBFeeScaleType` | *Association* |
 | `_IHBFeeType` | *Association* |
-| `_IHBMasterDataObjectTP : redirected to parent I_IHBFeeObjTP` | *Association* |
 
 ## Associations
 

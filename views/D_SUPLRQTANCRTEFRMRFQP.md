@@ -29,19 +29,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `RequestForQuotation :   vdm_requestforquotation ;` | `RequestForQuotation :   vdm_requestforquotation ;` |
-| `Supplier    : md_supplier ;` | `Supplier    : md_supplier ;` |
-| `Language   : spras ;` | `Language   : spras ;` |
-| `BindingPeriodValidityEndDate  : ebndt ;` | `BindingPeriodValidityEndDate  : ebndt ;` |
-| `SupplierQuotationExternalID :   angnr;` | `SupplierQuotationExternalID :   angnr;` |
-| `QuotationSubmissionDate :   ihran ;` | `QuotationSubmissionDate :   ihran ;` |
-| `FollowOnDocumentCategory : followondoccat;` | `FollowOnDocumentCategory : followondoccat;` |
-| `PurgDocFollowOnDocumentType :   followondoctype;` | `PurgDocFollowOnDocumentType :   followondoctype;` |
-| `_Items                     : composition [0..*] of D_SuplrQtanCrteFrmRFQItemP;` | *Association* |
+| `RequestForQuotation` | `vdm_requestforquotation` |
+| `Supplier` | `md_supplier` |
+| `Language` | `spras` |
+| `BindingPeriodValidityEndDate` | `ebndt` |
+| `SupplierQuotationExternalID` | `angnr` |
+| `QuotationSubmissionDate` | `ihran` |
+| `FollowOnDocumentCategory` | `followondoccat` |
+| `PurgDocFollowOnDocumentType` | `followondoctype` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_SuplrQtanCrteFrmRFQItemP` | [0..*] |
 
 ## Source Code
 

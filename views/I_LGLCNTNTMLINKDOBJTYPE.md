@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMLinkdObjType` | `LglCntntMLinkdObjType` |
+| `LglCntntMLinkdObjType` | `LglCntntMLinkdObjType` |
 | `_LglCntntMLinkdObjTypeText` | *Association* |
 
 ## Associations

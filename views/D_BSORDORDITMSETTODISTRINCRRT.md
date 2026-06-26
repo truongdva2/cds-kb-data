@@ -11,6 +11,7 @@ tags:
   - CRM
   - component:CRM-S4-SOL-SLO
   - lob:Other
+  - bo:BusinessSolutionOrderItem
 ---
 # D_BSORDORDITMSETTODISTRINCRRT
 
@@ -27,10 +28,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ServiceDocumentItemObjectType : crmt_swo_objtyp_process_itm_db;` | `ServiceDocumentItemObjectType : crmt_swo_objtyp_process_itm_db;` |
-| `CustMgmtObjectType            : crmt_subobject_category_db;` | `CustMgmtObjectType            : crmt_subobject_category_db;` |
-| `BusinessSolutionOrderUUID     : crmt_object_guid;` | `BusinessSolutionOrderUUID     : crmt_object_guid;` |
-| `BusinessSolutionOrderItemUUID : crmt_object_guid;` | `BusinessSolutionOrderItemUUID : crmt_object_guid;` |
+| `ServiceDocumentItemObjectType` | `crmt_swo_objtyp_process_itm_db` |
+| `CustMgmtObjectType` | `crmt_subobject_category_db` |
+| `BusinessSolutionOrderUUID` | `crmt_object_guid` |
+| `BusinessSolutionOrderItemUUID` | `crmt_object_guid` |
 
 ## Associations
 

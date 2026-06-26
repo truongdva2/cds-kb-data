@@ -16,6 +16,7 @@ tags:
   - text
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:LoadingPointText
 ---
 # I_LOADINGPOINTTEXT
 

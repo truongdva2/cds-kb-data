@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:CurrencyRole
 ---
 # I_CURRENCYROLETEXT
 
@@ -35,7 +36,7 @@ tags:
 |---|---|
 | `CurrencyRole` | `curtype` |
 | `Language` | `langu` |
-| `fac_crcyrole_txt preserving type )` | `cast( name` |
+| `CurrencyRoleName` | `cast( name as fac_crcyrole_txt preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

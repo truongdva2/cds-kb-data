@@ -31,24 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_PFMProdPlntSuplrFootprint.Product` | `I_PFMProdPlntSuplrFootprint.Product` |
-| `key I_PFMProdPlntSuplrFootprint.Plant` | `I_PFMProdPlntSuplrFootprint.Plant` |
-| `key I_PFMProdPlntSuplrFootprint.Supplier` | `I_PFMProdPlntSuplrFootprint.Supplier` |
-| `key _PFMMasterDataFootprint.PFMFootprintValidFromDate` | `_PFMMasterDataFootprint.PFMFootprintValidFromDate` |
-| `key _PFMMasterDataFootprint.PFMFootprintValidToDate` | `_PFMMasterDataFootprint.PFMFootprintValidToDate` |
-| `_PFMMasterDataFootprintQty.PFMFootprintQuantity` | *Association* |
-| `pfmfootprintquantity_quan)` | `cast (_PFMMasterDataFootprintQty.PFMFootprintQuantity` |
-| `_PFMMasterDataFootprintQty.PFMFootprintUnit` | *Association* |
-| `_PFMMasterDataFootprint.PFMFootprintCalculatedBy` | *Association* |
-| `_PFMMasterDataFootprint.PFMFootprintPeriodStartDate` | *Association* |
-| `_PFMMasterDataFootprint.PFMFootprintPeriodEndDate` | *Association* |
-| `_PFMMasterDataFootprint.PFMMasterDataFootprintUUID` | *Association* |
-| `_PFMMasterDataFootprintQty.PFMMasterDataFootprintQtyUUID` | *Association* |
+| `Product` | `I_PFMProdPlntSuplrFootprint.Product` |
+| `Plant` | `I_PFMProdPlntSuplrFootprint.Plant` |
+| `Supplier` | `I_PFMProdPlntSuplrFootprint.Supplier` |
+| `PFMFootprintValidFromDate` | `_PFMMasterDataFootprint.PFMFootprintValidFromDate` |
+| `PFMFootprintValidToDate` | `_PFMMasterDataFootprint.PFMFootprintValidToDate` |
+| `PFMFootprintQuantity` | `_PFMMasterDataFootprintQty.PFMFootprintQuantity` |
+| `PFMFootprintFxdPtDcmlQuantity` | `cast(…)` |
+| `PFMFootprintUnit` | `_PFMMasterDataFootprintQty.PFMFootprintUnit` |
+| `PFMFootprintCalculatedBy` | `_PFMMasterDataFootprint.PFMFootprintCalculatedBy` |
+| `PFMFootprintPeriodStartDate` | `_PFMMasterDataFootprint.PFMFootprintPeriodStartDate` |
+| `PFMFootprintPeriodEndDate` | `_PFMMasterDataFootprint.PFMFootprintPeriodEndDate` |
+| `PFMMasterDataFootprintUUID` | `_PFMMasterDataFootprint.PFMMasterDataFootprintUUID` |
+| `PFMMasterDataFootprintQtyUUID` | `_PFMMasterDataFootprintQty.PFMMasterDataFootprintQtyUUID` |
 | `DataControllerSet` | `I_PFMProdPlntSuplrFootprint._Supplier.DataControllerSet` |
-| `I_PFMProdPlntSuplrFootprint._Product` | `I_PFMProdPlntSuplrFootprint._Product` |
-| `I_PFMProdPlntSuplrFootprint._Plant` | `I_PFMProdPlntSuplrFootprint._Plant` |
-| `I_PFMProdPlntSuplrFootprint._Supplier` | `I_PFMProdPlntSuplrFootprint._Supplier` |
-| `_PFMMasterDataFootprintQty._UnitOfMeasure` | *Association* |
+| `_Product` | *Association* |
+| `_Plant` | *Association* |
+| `_Supplier` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 | `_CO2eqFprntAvgGHGCat` | *Association* |
 
 ## Associations

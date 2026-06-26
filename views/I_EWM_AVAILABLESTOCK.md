@@ -33,7 +33,7 @@ tags:
 | `ParentHandlingUnitUUID` | `guid_parent` |
 | `StockItemUUID` | `guid_stock` |
 | `EWMWarehouse` | `lgnum` |
-| `raw16 preserving type)` | `cast(matid` |
+| `ProductUUID` | `cast(matid as raw16 preserving type)` |
 | `StockDocumentCategory` | `stock_doccat` |
 | `StockDocumentNumber` | `stock_docno` |
 | `StockItemNumber` | `stock_itmno` |
@@ -45,13 +45,13 @@ tags:
 | `EWMBatchIsInRestrictedUseStock` | `brestr` |
 | `CountryOfOrigin` | `coo` |
 | `EWMStockType` | `cat` |
-| `ewm_de_huident preserving type)` | `cast(huident` |
+| `HandlingUnitNumber` | `cast(huident as ewm_de_huident preserving type)` |
 | `HandlingUnitOpenTaskInd` | `flgmove` |
 | `HandlingUnitLogicalPosition` | `logpos` |
 | `EWMStorageType` | `lgtyp` |
 | `EWMStorageBin` | `lgpla` |
 | `EWMResource` | `rsrc` |
-| `ewm_de_stockowner preserving type )` | `cast( owner` |
+| `EWMStockOwner` | `cast( owner as ewm_de_stockowner preserving type )` |
 | `StockOwnerPartnerRole` | `owner_role` |
 | `EntitledToDisposeParty` | `entitled` |
 | `EntitledToDisposePartnerRole` | `entitled_role` |
@@ -59,7 +59,7 @@ tags:
 | `AvailableEWMStockQty` | `quan` |
 | `EWMStockQuantityBaseUnit` | `unit` |
 | `StockKeepingAlternativeUoM` | `altme` |
-| `/scwm/lvs_wdatu_noconv preserving type )` | `cast ( wdatu` |
+| `GoodsReceiptUTCDateTime` | `cast ( wdatu as /scwm/lvs_wdatu_noconv preserving type )` |
 | `ShelfLifeExpirationDate` | `vfdat` |
 | `EWMStockIsBlockedForInventory` | `skzsi` |
 | `TranspUnitInternalNumber` | `tu_num` |

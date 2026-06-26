@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:AddressID
 ---
 # I_CUSTSLSAREAADDRDEPDNTINFO
 
@@ -44,9 +45,9 @@ tags:
 | `ShippingCondition` | `knvv_addr.vsbed` |
 | `SupplyingPlant` | `knvv_addr.vwerk` |
 | `IncotermsVersion` | `knvv_addr.incov` |
-| `/sapapo/location_uuid )` | `cast( inco2_key` |
-| `/sapapo/location_uuid )` | `cast( inco3_key` |
-| `/sapapo/location_uuid )` | `cast( inco4_key` |
+| `IncotermsSupChnLoc1AddlUUID` | `cast( inco2_key as /sapapo/location_uuid )` |
+| `IncotermsSupChnLoc2AddlUUID` | `cast( inco3_key as /sapapo/location_uuid )` |
+| `IncotermsSupChnDvtgLocAddlUUID` | `cast( inco4_key as /sapapo/location_uuid )` |
 | `_CustomerSalesArea` | *Association* |
 | `_Customer` | *Association* |
 | `_AddressDefaultRepresentation` | *Association* |
@@ -68,7 +69,6 @@ tags:
 | `_Division` | `I_Division` | [1..1] |
 | `_DeliveryIsBlockedForCustomer` | `I_DeliveryBlockReason` | [0..1] |
 | `_AddressDefaultRepresentation` | `I_Address_2` | [1..1] |
-| `_Address` | `I_Address_2` | [1..1] |
 | `_CustomerSalesArea` | `I_CustomerSalesArea` | [1..1] |
 | `_CustSlsAreaAddrDepdntInfoExt` | `E_CustSlsAreaAddrDepdntInfo` | [0..1] |
 | `_IncotermsSupChnDvtgLoc` | `I_TransportationLocation` | [1..1] |

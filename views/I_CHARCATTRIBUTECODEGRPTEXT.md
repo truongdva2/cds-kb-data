@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCodeGrp
 ---
 # I_CHARCATTRIBUTECODEGRPTEXT
 
@@ -33,8 +34,7 @@ tags:
 |---|---|
 | `CharacteristicAttributeCodeGrp` | `qpgt.codegruppe` |
 | `Language` | `sprache` |
-| `vdm_qktextgr preserving type )` | `cast( kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `CharacteristicAttribCodeGrpTxt` | `cast( kurztext as vdm_qktextgr preserving type )` |
 | `_CharcAttributeCodeGrp` | *Association* |
 | `_Language` | *Association* |
 

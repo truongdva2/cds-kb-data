@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
 | `PurchasingDocumentItemCategory` | `PurchasingDocumentItemCategory` |
 | `FormattedPurchaseContractItem` | `FormattedPurchaseContractItem` |
 | `MaterialGroup` | `MaterialGroup` |
@@ -48,8 +48,8 @@ tags:
 | `ContractNetPriceAmount` | `ContractNetPriceAmount` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `PurgDocReleaseOrderQuantity` | `PurgDocReleaseOrderQuantity` |
-| `OrdPriceUnitToOrderUnitDnmntr, // price conversion from` | `OrdPriceUnitToOrderUnitDnmntr, // price conversion from` |
-| `OrderPriceUnitToOrderUnitNmrtr, // price conversion to` | `OrderPriceUnitToOrderUnitNmrtr, // price conversion to` |
+| `OrdPriceUnitToOrderUnitDnmntr` | `OrdPriceUnitToOrderUnitDnmntr` |
+| `OrderPriceUnitToOrderUnitNmrtr` | `OrderPriceUnitToOrderUnitNmrtr` |
 | `DocumentCurrency` | `DocumentCurrency` |
 | `NoDaysReminder1` | `NoDaysReminder1` |
 | `NoDaysReminder2` | `NoDaysReminder2` |
@@ -76,7 +76,7 @@ tags:
 | `PurgDocItmBlkRsnCode` | `PurgDocItmBlkRsnCode` |
 | `PurchasingParentItem` | `PurchasingParentItem` |
 | `IsOutline` | `IsStatisticalItem` |
-| `_CentralPurchaseContract, // Make association public` | *Association* |
+| `_CentralPurchaseContract` | *Association* |
 | `_CntrlPurConItmDistribution` | *Association* |
 
 ## Associations

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanContainerCalculationType
 ---
 # I_KANBANCTNCALCTYPETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kcart preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `vdm_knbncntncalctypename preserving type)` | `cast(txt.ddtext` |
+| `KanbanContainerCalculationType` | `cast(substring(txt.domvalue_l, 1, 1) as kcart preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `KanbanContainerCalcTypeName` | `cast(txt.ddtext as vdm_knbncntncalctypename preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Language` | *Association* |
 | `_KanbanCtnCalcType` | *Association* |

@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `HandlingUnitExternalID         : exidv;` | `HandlingUnitExternalID         : exidv;` |
-| `HandlingUnitGoodsMovementEvent      : huwbevent;` | `HandlingUnitGoodsMovementEvent      : huwbevent;` |
-| `ReceivingPlant            : umwrk;` | `ReceivingPlant            : umwrk;` |
-| `ReceivingStorageLocation  : umlgo;` | `ReceivingStorageLocation  : umlgo;` |
-| `ReceivingStorageBin       : /scwm/lgpla;` | `ReceivingStorageBin       : /scwm/lgpla;` |
+| `HandlingUnitExternalID` | `exidv` |
+| `HandlingUnitGoodsMovementEvent` | `huwbevent` |
+| `ReceivingPlant` | `umwrk` |
+| `ReceivingStorageLocation` | `umlgo` |
+| `ReceivingStorageBin` | `/scwm/lgpla` |
 
 ## Associations
 

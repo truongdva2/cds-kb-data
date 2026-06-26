@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalTmplExternalNameUUID` | `SuplrEvalTmplExternalNameUUID` |
+| `SuplrEvalTmplExternalNameUUID` | `SuplrEvalTmplExternalNameUUID` |
 | `SuplrEvalTemplateUUID` | `SuplrEvalTemplateUUID` |
 | `SuplrEvalTmplExternalName` | `SuplrEvalTmplExternalName` |
 | `Language` | `Language` |

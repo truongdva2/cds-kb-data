@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(1) )` | `cast (domvalue_l` |
+| `SrvcOrderConfirmationRelevance` | `cast (domvalue_l as abap.char(1) )` |
 | `Language` | `ddlanguage` |
 | `SrvcOrdConfRelevanceText` | `ddtext` |
 | `_SrvcOrdItmConfRelevance` | *Association* |

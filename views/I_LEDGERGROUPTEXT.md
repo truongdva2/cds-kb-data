@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:LedgerGroup
 ---
 # I_LEDGERGROUPTEXT
 
@@ -39,7 +40,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

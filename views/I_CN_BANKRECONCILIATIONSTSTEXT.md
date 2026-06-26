@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `epic_br_rcon_status preserving type )` | `cast(left(domvalue_l,1)` |
-| `spras preserving type )` | `cast(ddlanguage` |
-| `epic_br_rcon_status_txt preserving type )` | `cast(ddtext` |
+| `BankReconciliationStatus` | `cast(left(domvalue_l,1) as epic_br_rcon_status preserving type )` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `BankReconciliationStatusName` | `cast(ddtext as epic_br_rcon_status_txt preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

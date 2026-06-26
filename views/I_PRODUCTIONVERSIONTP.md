@@ -16,6 +16,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionVersion
 ---
 # I_PRODUCTIONVERSIONTP
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key ProductionVersion` | `ProductionVersion` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `ProductionVersion` | `ProductionVersion` |
 | `ProductionVersionText` | `ProductionVersionText` |
 | `ChangeHistoryCount` | `ChangeHistoryCount` |
 | `ChangeNumber` | `ChangeNumber` |

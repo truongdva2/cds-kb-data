@@ -18,6 +18,7 @@ tags:
   - schedule-line
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:ScheduleLineConfirmationStatus
 ---
 # I_SCHEDULELINECONFSTATUSTEXT
 
@@ -42,7 +43,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ScheduleLineConfStatus` | `I_ScheduleLineConfStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

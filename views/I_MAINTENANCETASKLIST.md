@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:TaskListGroupCounter
 ---
 # I_MAINTENANCETASKLIST
 
@@ -28,57 +29,59 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'TechObjIsEquipOrFuncnlLoc'` | `localElement: 'TechObjIsEquipOrFuncnlLoc'` |
-| `element: 'TechObjIsEquipOrFuncnlLoc' }]` | `element: 'TechObjIsEquipOrFuncnlLoc' }]` |
-| `}]` | `}]` |
-| `cast( case I_BillOfOperations.BillOfOperationsType` | `cast( case I_BillOfOperations.BillOfOperationsType` |
-| `when 'E' then _TaskListEquip.Equipment` | `when 'E' then _TaskListEquip.Equipment` |
-| `when 'T' then _TaskListFuncnlLoc.FunctionalLocation` | `when 'T' then _TaskListFuncnlLoc.FunctionalLocation` |
-| `else ''` | `else ''` |
-| `eams_tec_obj )` | `end` |
-| `/* Technical Fields */` | `/* Technical Fields */` |
-| `concat( concat( I_BillOfOperations.BillOfOperationsType` | `concat( concat( I_BillOfOperations.BillOfOperationsType` |
-| `I_BillOfOperations.BillOfOperationsGroup )` | `I_BillOfOperations.BillOfOperationsGroup )` |
-| `TaskListObjectKey` | `I_BillOfOperations.BillOfOperationsVariant )` |
-| `cast(` | `cast(` |
-| `concat( concat( concat( I_BillOfOperations.BillOfOperationsType` | `concat( concat( concat( I_BillOfOperations.BillOfOperationsType` |
-| `I_BillOfOperations.BillOfOperationsGroup )` | `I_BillOfOperations.BillOfOperationsGroup )` |
-| `I_BillOfOperations.BillOfOperationsVariant )` | `I_BillOfOperations.BillOfOperationsVariant )` |
-| `eamws_obj_id` | `'00000000' )` |
-| `SafetyRelevantObject` | `)` |
-| `I_BillOfOperationsChangeState.ControllingArea` | `I_BillOfOperationsChangeState.ControllingArea` |
-| `I_BillOfOperationsChangeState.BillOfOperationIsConfigurable` | `I_BillOfOperationsChangeState.BillOfOperationIsConfigurable` |
-| `/* fields needed for ESH on CDS */` | `/* fields needed for ESH on CDS */` |
-| `I_BillOfOperationsChangeState.IsDeleted` | `I_BillOfOperationsChangeState.IsDeleted` |
-| `I_BillOfOperationsChangeState.IsMarkedForDeletion` | `I_BillOfOperationsChangeState.IsMarkedForDeletion` |
-| `_TaskListEquip.Equipment` | *Association* |
-| `_TaskListFuncnlLoc.FunctionalLocation` | *Association* |
-| `_TaskListFuncnlLoc._FunctionalLocation._FunctionalLocationLabel.FunctionalLocationLabelName` | *Association* |
+| `TaskListType` | `I_BillOfOperations.BillOfOperationsType` |
+| `TaskListGroup` | `I_BillOfOperations.BillOfOperationsGroup` |
+| `TaskListGroupCounter` | `I_BillOfOperations.BillOfOperationsVariant` |
+| `TaskListDesc` | `I_BillOfOperationsChangeState.BillOfOperationsDesc` |
+| `MaintenanceStrategy` | `I_BillOfOperationsChangeState.MaintenanceStrategy` |
+| `Plant` | `I_BillOfOperationsChangeState.Plant` |
+| `ResponsiblePlannerGroup` | `I_BillOfOperationsChangeState.ResponsiblePlannerGroup` |
+| `WorkCenterTypeCode` | `I_BillOfOperationsChangeState.WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `I_BillOfOperationsChangeState.WorkCenterInternalID` |
+| `TaskListStatus` | `I_BillOfOperationsChangeState.BillOfOperationsStatus` |
+| `ValidityStartDate` | `I_BillOfOperationsChangeState.ValidityStartDate` |
+| `ValidityEndDate` | `I_BillOfOperationsChangeState.ValidityEndDate` |
+| `ChangeNumber` | `I_BillOfOperationsChangeState.ChangeNumber` |
+| `Assembly` | `I_BillOfOperationsChangeState.Assembly` |
+| `OperationSystemCondition` | `I_BillOfOperationsChangeState.OperationSystemCondition` |
+| `ReferenceElement` | `I_BillOfOperationsChangeState.ReferenceElement` |
+| `TaskListUsage` | `I_BillOfOperationsChangeState.BillOfOperationsUsage` |
+| `InspSubsetFieldCombination` | `I_BillOfOperationsChangeState.InspSubsetFieldCombination` |
+| `InspExternalNumberingOfValues` | `I_BillOfOperationsChangeState.InspExternalNumberingOfValues` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast(…)` |
+| `TechnicalObject` | `cast(…)` |
+| `TaskListObjectKey` | `concat(…)` |
+| `SafetyRelevantObject` | `cast(…)` |
+| `ControllingArea` | `I_BillOfOperationsChangeState.ControllingArea` |
+| `BillOfOperationIsConfigurable` | `I_BillOfOperationsChangeState.BillOfOperationIsConfigurable` |
+| `IsDeleted` | `I_BillOfOperationsChangeState.IsDeleted` |
+| `IsMarkedForDeletion` | `I_BillOfOperationsChangeState.IsMarkedForDeletion` |
+| `Equipment` | `_TaskListEquip.Equipment` |
+| `FunctionalLocation` | `_TaskListFuncnlLoc.FunctionalLocation` |
+| `FunctionalLocationLabelName` | `_TaskListFuncnlLoc._FunctionalLocation._FunctionalLocationLabel.FunctionalLocationLabelName` |
 | `TaskListVersionCounter` | `I_BillOfOperationsChangeState.BOOInternalVersionCounter` |
-| `I_BillOfOperations.LastChangeDate` | `I_BillOfOperations.LastChangeDate` |
-| `I_BillOfOperations.LastChangedByUser` | `I_BillOfOperations.LastChangedByUser` |
-| `I_BillOfOperationsChangeState.CreatedByUser` | `I_BillOfOperationsChangeState.CreatedByUser` |
-| `I_BillOfOperationsChangeState.CreationDate` | `I_BillOfOperationsChangeState.CreationDate` |
-| `I_BillOfOperationsChangeState.BillOfOperationsUsage` | `I_BillOfOperationsChangeState.BillOfOperationsUsage` |
-| `I_BillOfOperationsChangeState.MaintenancePlanningPlant` | `I_BillOfOperationsChangeState.MaintenancePlanningPlant` |
-| `I_BillOfOperationsChangeState.TaskListIsHierarchical` | `I_BillOfOperationsChangeState.TaskListIsHierarchical` |
+| `LastChangeDate` | `I_BillOfOperations.LastChangeDate` |
+| `LastChangedByUser` | `I_BillOfOperations.LastChangedByUser` |
+| `CreatedByUser` | `I_BillOfOperationsChangeState.CreatedByUser` |
+| `CreationDate` | `I_BillOfOperationsChangeState.CreationDate` |
+| `BillOfOperationsUsage` | `I_BillOfOperationsChangeState.BillOfOperationsUsage` |
+| `MaintenancePlanningPlant` | `I_BillOfOperationsChangeState.MaintenancePlanningPlant` |
+| `TaskListIsHierarchical` | `I_BillOfOperationsChangeState.TaskListIsHierarchical` |
 | `LastChangeDateTime` | `I_BillOfOperationsChangeState.BillOfOperationsDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `I_BillOfOperationsChangeState._MaintenanceStrategy` | `I_BillOfOperationsChangeState._MaintenanceStrategy` |
-| `I_BillOfOperationsChangeState._Plant` | `I_BillOfOperationsChangeState._Plant` |
-| `I_BillOfOperationsChangeState._ResponsiblePlannerGroup` | `I_BillOfOperationsChangeState._ResponsiblePlannerGroup` |
-| `_TaskListStatus` | `I_BillOfOperationsChangeState._BillOfOperationsStatus` |
-| `I_BillOfOperationsChangeState._WorkCenter` | `I_BillOfOperationsChangeState._WorkCenter` |
-| `I_BillOfOperationsChangeState._Assembly` | `I_BillOfOperationsChangeState._Assembly` |
-| `I_BillOfOperationsChangeState._OperationSystemCondition` | `I_BillOfOperationsChangeState._OperationSystemCondition` |
-| `_TaskListUsage` | `I_BillOfOperationsChangeState._BillOfOperationsUsage` |
-| `I_BillOfOperationsChangeState._InspSubsetFieldCombination` | `I_BillOfOperationsChangeState._InspSubsetFieldCombination` |
-| `I_BillOfOperationsChangeState._InspExtNumbering` | `I_BillOfOperationsChangeState._InspExtNumbering` |
-| `I_BillOfOperationsChangeState._MaintenancePlanningPlant` | `I_BillOfOperationsChangeState._MaintenancePlanningPlant` |
-| `I_BillOfOperationsChangeState._ControllingArea` | `I_BillOfOperationsChangeState._ControllingArea` |
-| `I_BillOfOperationsChangeState._ConfigurableIndicator` | `I_BillOfOperationsChangeState._ConfigurableIndicator` |
-| `I_BillOfOperationsChangeState.LongTextLanguageCode` | `I_BillOfOperationsChangeState.LongTextLanguageCode` |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
+| `_MaintenanceStrategy` | *Association* |
+| `_Plant` | *Association* |
+| `_ResponsiblePlannerGroup` | *Association* |
+| `_TaskListStatus` | *Association* |
+| `_WorkCenter` | *Association* |
+| `_Assembly` | *Association* |
+| `_OperationSystemCondition` | *Association* |
+| `_TaskListUsage` | *Association* |
+| `_InspSubsetFieldCombination` | *Association* |
+| `_InspExtNumbering` | *Association* |
+| `_MaintenancePlanningPlant` | *Association* |
+| `_ControllingArea` | *Association* |
+| `_ConfigurableIndicator` | *Association* |
+| `LongTextLanguageCode` | `I_BillOfOperationsChangeState.LongTextLanguageCode` |
 | `_TaskListType` | *Association* |
 | `_TaskListGroup` | *Association* |
 | `_TaskListGroupCounter` | *Association* |
@@ -87,8 +90,8 @@ tags:
 | `_TechnicalObject` | *Association* |
 | `_TechObjIsEquipOrFuncnlLoc` | *Association* |
 | `_MaintTaskListOperation` | *Association* |
-| `_TaskListEquip._Equipment` | *Association* |
-| `_TaskListFuncnlLoc._FunctionalLocation` | *Association* |
+| `_Equipment` | *Association* |
+| `_FunctionalLocation` | *Association* |
 
 ## Associations
 

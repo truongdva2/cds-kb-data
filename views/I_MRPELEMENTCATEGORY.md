@@ -29,13 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_delkz preserving type)` | `cast(MRPElementCategory` |
+| `MRPElementCategory` | `cast(MRPElementCategory as vdm_delkz preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_MRPElementCategoryText` | [0..*] |
 
 ## Source Code
 

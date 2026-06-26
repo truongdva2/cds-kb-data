@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoiceStatus` | `SupplierInvoiceStatus` |
+| `SupplierInvoiceStatus` | `SupplierInvoiceStatus` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

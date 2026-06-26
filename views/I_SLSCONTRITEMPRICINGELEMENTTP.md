@@ -33,32 +33,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractItemPrcgElmnt.SalesContract` | `SalesContractItemPrcgElmnt.SalesContract` |
-| `key SalesContractItemPrcgElmnt.SalesContractItem` | `SalesContractItemPrcgElmnt.SalesContractItem` |
-| `key SalesContractItemPrcgElmnt.PricingProcedureStep` | `SalesContractItemPrcgElmnt.PricingProcedureStep` |
-| `key SalesContractItemPrcgElmnt.PricingProcedureCounter` | `SalesContractItemPrcgElmnt.PricingProcedureCounter` |
-| `SalesContractItemPrcgElmnt.ConditionApplication` | `SalesContractItemPrcgElmnt.ConditionApplication` |
-| `SalesContractItemPrcgElmnt.ConditionType` | `SalesContractItemPrcgElmnt.ConditionType` |
-| `SalesContractItemPrcgElmnt.ConditionCalculationType` | `SalesContractItemPrcgElmnt.ConditionCalculationType` |
-| `SalesContractItemPrcgElmnt.ConditionRateAmount` | `SalesContractItemPrcgElmnt.ConditionRateAmount` |
-| `SalesContractItemPrcgElmnt.ConditionCurrency` | `SalesContractItemPrcgElmnt.ConditionCurrency` |
-| `SalesContractItemPrcgElmnt.ConditionRateRatio` | `SalesContractItemPrcgElmnt.ConditionRateRatio` |
-| `SalesContractItemPrcgElmnt.ConditionRateRatioUnit` | `SalesContractItemPrcgElmnt.ConditionRateRatioUnit` |
-| `SalesContractItemPrcgElmnt.ConditionBaseAmount` | `SalesContractItemPrcgElmnt.ConditionBaseAmount` |
-| `SalesContractItemPrcgElmnt.ConditionAmount` | `SalesContractItemPrcgElmnt.ConditionAmount` |
-| `SalesContractItemPrcgElmnt.TransactionCurrency` | `SalesContractItemPrcgElmnt.TransactionCurrency` |
-| `SalesContractItemPrcgElmnt.ConditionBaseQuantity` | `SalesContractItemPrcgElmnt.ConditionBaseQuantity` |
-| `SalesContractItemPrcgElmnt.ConditionQuantity` | `SalesContractItemPrcgElmnt.ConditionQuantity` |
-| `SalesContractItemPrcgElmnt.ConditionQuantityUnit` | `SalesContractItemPrcgElmnt.ConditionQuantityUnit` |
-| `SalesContractItemPrcgElmnt.ConditionIsForStatistics` | `SalesContractItemPrcgElmnt.ConditionIsForStatistics` |
-| `SalesContractItemPrcgElmnt.ConditionIsManuallyChanged` | `SalesContractItemPrcgElmnt.ConditionIsManuallyChanged` |
-| `SalesContractItemPrcgElmnt.ConditionInactiveReason` | `SalesContractItemPrcgElmnt.ConditionInactiveReason` |
-| `SalesContractItemPrcgElmnt.SalesContractType` | `SalesContractItemPrcgElmnt.SalesContractType` |
-| `SalesContractItemPrcgElmnt.SalesOrganization` | `SalesContractItemPrcgElmnt.SalesOrganization` |
-| `SalesContractItemPrcgElmnt.DistributionChannel` | `SalesContractItemPrcgElmnt.DistributionChannel` |
-| `SalesContractItemPrcgElmnt.OrganizationDivision` | `SalesContractItemPrcgElmnt.OrganizationDivision` |
-| `_Item          : redirected to parent I_SalesContractItemTP` | *Association* |
-| `_SalesContract : redirected to I_SalesContractTP` | *Association* |
+| `SalesContract` | `SalesContractItemPrcgElmnt.SalesContract` |
+| `SalesContractItem` | `SalesContractItemPrcgElmnt.SalesContractItem` |
+| `PricingProcedureStep` | `SalesContractItemPrcgElmnt.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SalesContractItemPrcgElmnt.PricingProcedureCounter` |
+| `ConditionApplication` | `SalesContractItemPrcgElmnt.ConditionApplication` |
+| `ConditionType` | `SalesContractItemPrcgElmnt.ConditionType` |
+| `ConditionCalculationType` | `SalesContractItemPrcgElmnt.ConditionCalculationType` |
+| `ConditionRateAmount` | `SalesContractItemPrcgElmnt.ConditionRateAmount` |
+| `ConditionCurrency` | `SalesContractItemPrcgElmnt.ConditionCurrency` |
+| `ConditionRateRatio` | `SalesContractItemPrcgElmnt.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SalesContractItemPrcgElmnt.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SalesContractItemPrcgElmnt.ConditionBaseAmount` |
+| `ConditionAmount` | `SalesContractItemPrcgElmnt.ConditionAmount` |
+| `TransactionCurrency` | `SalesContractItemPrcgElmnt.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SalesContractItemPrcgElmnt.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SalesContractItemPrcgElmnt.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SalesContractItemPrcgElmnt.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SalesContractItemPrcgElmnt.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SalesContractItemPrcgElmnt.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SalesContractItemPrcgElmnt.ConditionInactiveReason` |
+| `SalesContractType` | `SalesContractItemPrcgElmnt.SalesContractType` |
+| `SalesOrganization` | `SalesContractItemPrcgElmnt.SalesOrganization` |
+| `DistributionChannel` | `SalesContractItemPrcgElmnt.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractItemPrcgElmnt.OrganizationDivision` |
 
 ## Associations
 

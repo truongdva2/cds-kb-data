@@ -34,24 +34,23 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `_BusinessPartner.BusinessPartner` |
-| `key I_AddressEmailAddress_2.AddressID` | `I_AddressEmailAddress_2.AddressID` |
+| `AddressID` | `I_AddressEmailAddress_2.AddressID` |
 | `Person` | `I_AddressEmailAddress_2.AddressPersonID` |
 | `OrdinalNumber` | `I_AddressEmailAddress_2.CommMediumSequenceNumber` |
 | `AddressIDForEdit` | `I_AddressEmailAddress_2.AddressID` |
 | `OrdinalNumberForEdit` | `I_AddressEmailAddress_2.CommMediumSequenceNumber` |
 | `IsDefaultEmailAddress` | `I_AddressEmailAddress_2.EmailAddressIsCurrentDefault` |
-| `I_AddressEmailAddress_2.EmailAddress` | `I_AddressEmailAddress_2.EmailAddress` |
-| `ad_smtpad2)` | `cast(''` |
-| `ad_flghome)` | `cast(''` |
-| `ad_flnouse)` | `cast(''` |
-| `ad_valfrom )` | `cast ( I_AddressEmailAddress_2.ValidityStartDate` |
-| `ad_valto )` | `cast ( I_AddressEmailAddress_2.ValidityEndDate` |
-| `I_AddressEmailAddress_2.ValidityStartDate` | `I_AddressEmailAddress_2.ValidityStartDate` |
-| `I_AddressEmailAddress_2.ValidityEndDate` | `I_AddressEmailAddress_2.ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
+| `EmailAddress` | `I_AddressEmailAddress_2.EmailAddress` |
+| `SearchEmailAddress` | `cast('' as ad_smtpad2)` |
+| `IsHomeEmailAddress` | `cast('' as ad_flghome)` |
+| `CommNumberIsNotUsed` | `cast('' as ad_flnouse)` |
+| `ValidityStartDateTime` | `cast ( I_AddressEmailAddress_2.ValidityStartDate as ad_valfrom )` |
+| `ValidityEndDateTime` | `cast ( I_AddressEmailAddress_2.ValidityEndDate as ad_valto )` |
+| `ValidityStartDate` | `I_AddressEmailAddress_2.ValidityStartDate` |
+| `ValidityEndDate` | `I_AddressEmailAddress_2.ValidityEndDate` |
 | `_BusinessPartner` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
-| `_AddressCommunicationRemark.CommunicationRemarkText   as AddressCommunicationRemarkText` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
+| `AddressCommunicationRemarkText` | `_AddressCommunicationRemark.CommunicationRemarkText` |
 
 ## Associations
 

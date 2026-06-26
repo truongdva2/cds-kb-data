@@ -33,9 +33,8 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `FinancialServicesBranch` | `branch_id` |
-| `ffs_vdm_branch_tt preserving type )` | `cast(branch_tt` |
-| `_Language._Text[Language = $session.system_language].LanguageName` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `FinancialServicesBranchName` | `cast(branch_tt as ffs_vdm_branch_tt preserving type )` |
+| `LanguageName` | `_Language._Text[Language = $session.system_language].LanguageName` |
 | `_FinancialServicesBranch` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_FinancialServicesBranch` | `I_FinancialServicesBranch` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

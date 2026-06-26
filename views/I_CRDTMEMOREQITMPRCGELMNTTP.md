@@ -31,32 +31,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CrdtMemoReqItemPricingElement.CreditMemoRequest` | `CrdtMemoReqItemPricingElement.CreditMemoRequest` |
-| `key CrdtMemoReqItemPricingElement.CreditMemoRequestItem` | `CrdtMemoReqItemPricingElement.CreditMemoRequestItem` |
-| `key CrdtMemoReqItemPricingElement.PricingProcedureStep` | `CrdtMemoReqItemPricingElement.PricingProcedureStep` |
-| `key CrdtMemoReqItemPricingElement.PricingProcedureCounter` | `CrdtMemoReqItemPricingElement.PricingProcedureCounter` |
-| `CrdtMemoReqItemPricingElement.ConditionApplication` | `CrdtMemoReqItemPricingElement.ConditionApplication` |
-| `CrdtMemoReqItemPricingElement.ConditionType` | `CrdtMemoReqItemPricingElement.ConditionType` |
-| `CrdtMemoReqItemPricingElement.ConditionCalculationType` | `CrdtMemoReqItemPricingElement.ConditionCalculationType` |
-| `CrdtMemoReqItemPricingElement.ConditionRateAmount` | `CrdtMemoReqItemPricingElement.ConditionRateAmount` |
-| `CrdtMemoReqItemPricingElement.ConditionCurrency` | `CrdtMemoReqItemPricingElement.ConditionCurrency` |
-| `CrdtMemoReqItemPricingElement.ConditionRateRatio` | `CrdtMemoReqItemPricingElement.ConditionRateRatio` |
-| `CrdtMemoReqItemPricingElement.ConditionRateRatioUnit` | `CrdtMemoReqItemPricingElement.ConditionRateRatioUnit` |
-| `CrdtMemoReqItemPricingElement.ConditionBaseAmount` | `CrdtMemoReqItemPricingElement.ConditionBaseAmount` |
-| `CrdtMemoReqItemPricingElement.ConditionAmount` | `CrdtMemoReqItemPricingElement.ConditionAmount` |
-| `CrdtMemoReqItemPricingElement.TransactionCurrency` | `CrdtMemoReqItemPricingElement.TransactionCurrency` |
-| `CrdtMemoReqItemPricingElement.ConditionBaseQuantity` | `CrdtMemoReqItemPricingElement.ConditionBaseQuantity` |
-| `CrdtMemoReqItemPricingElement.ConditionQuantity` | `CrdtMemoReqItemPricingElement.ConditionQuantity` |
-| `CrdtMemoReqItemPricingElement.ConditionQuantityUnit` | `CrdtMemoReqItemPricingElement.ConditionQuantityUnit` |
-| `CrdtMemoReqItemPricingElement.ConditionIsForStatistics` | `CrdtMemoReqItemPricingElement.ConditionIsForStatistics` |
-| `CrdtMemoReqItemPricingElement.ConditionIsManuallyChanged` | `CrdtMemoReqItemPricingElement.ConditionIsManuallyChanged` |
-| `CrdtMemoReqItemPricingElement.ConditionInactiveReason` | `CrdtMemoReqItemPricingElement.ConditionInactiveReason` |
-| `CrdtMemoReqItemPricingElement.CreditMemoRequestType` | `CrdtMemoReqItemPricingElement.CreditMemoRequestType` |
-| `CrdtMemoReqItemPricingElement.SalesOrganization` | `CrdtMemoReqItemPricingElement.SalesOrganization` |
-| `CrdtMemoReqItemPricingElement.DistributionChannel` | `CrdtMemoReqItemPricingElement.DistributionChannel` |
-| `CrdtMemoReqItemPricingElement.OrganizationDivision` | `CrdtMemoReqItemPricingElement.OrganizationDivision` |
-| `_Item              : redirected to parent I_CreditMemoRequestItemTP` | *Association* |
-| `_CreditMemoRequest : redirected to I_CreditMemoRequestTP` | *Association* |
+| `CreditMemoRequest` | `CrdtMemoReqItemPricingElement.CreditMemoRequest` |
+| `CreditMemoRequestItem` | `CrdtMemoReqItemPricingElement.CreditMemoRequestItem` |
+| `PricingProcedureStep` | `CrdtMemoReqItemPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `CrdtMemoReqItemPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `CrdtMemoReqItemPricingElement.ConditionApplication` |
+| `ConditionType` | `CrdtMemoReqItemPricingElement.ConditionType` |
+| `ConditionCalculationType` | `CrdtMemoReqItemPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `CrdtMemoReqItemPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `CrdtMemoReqItemPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `CrdtMemoReqItemPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `CrdtMemoReqItemPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `CrdtMemoReqItemPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `CrdtMemoReqItemPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `CrdtMemoReqItemPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `CrdtMemoReqItemPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `CrdtMemoReqItemPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `CrdtMemoReqItemPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `CrdtMemoReqItemPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `CrdtMemoReqItemPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `CrdtMemoReqItemPricingElement.ConditionInactiveReason` |
+| `CreditMemoRequestType` | `CrdtMemoReqItemPricingElement.CreditMemoRequestType` |
+| `SalesOrganization` | `CrdtMemoReqItemPricingElement.SalesOrganization` |
+| `DistributionChannel` | `CrdtMemoReqItemPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `CrdtMemoReqItemPricingElement.OrganizationDivision` |
 
 ## Associations
 

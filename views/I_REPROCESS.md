@@ -31,11 +31,11 @@ tags:
 |---|---|
 | `REProcessUUID` | `processguid` |
 | `REProcessVersion` | `version` |
-| `recavdmprocessid preserving type )` | `cast(processid` |
-| `recavdmprocessextid preserving type )` | `cast(processextid` |
-| `recavdmprocess preserving type )` | `cast(process` |
+| `RealEstateProcess` | `cast(processid as recavdmprocessid preserving type )` |
+| `RealEstateProcessExternal` | `cast(processextid as recavdmprocessextid preserving type )` |
+| `REProcessType` | `cast(process as recavdmprocess preserving type )` |
 | `REProcessMode` | `processmode` |
-| `recavdmprocesscounter preserving type )` | `cast(counter` |
+| `REProcessNumberInFiscalYear` | `cast(counter as recavdmprocesscounter preserving type )` |
 | `FiscalYear` | `fisc_year` |
 | `REProcessDescription` | `title` |
 | `REProcessIsReversed` | `flg_reversal` |

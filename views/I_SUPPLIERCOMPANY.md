@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
+| `Supplier` | `lifnr` |
 | `CompanyCode` | `bukrs` |
 | `AuthorizationGroup` | `begru` |
-| `_CompanyCode.CompanyCodeName                    as CompanyCodeName` | *Association* |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
 | `PaymentBlockingReason` | `zahls` |
 | `SupplierIsBlockedForPosting` | `sperr` |
 | `IsBusinessPurposeCompleted` | `cvp_xblck_b` |
@@ -55,7 +53,7 @@ tags:
 | `PaymentIsToBeSentByEDI` | `xedip` |
 | `HouseBank` | `hbkid` |
 | `CheckPaidDurationInDays` | `kultg` |
-| `_CompanyCode.Currency                           as Currency` | *Association* |
+| `Currency` | `_CompanyCode.Currency` |
 | `BillOfExchLmtAmtInCoCodeCrcy` | `webtr` |
 | `SupplierClerkIDBySupplier` | `eikto` |
 | `IsDoubleInvoice` | `reprf` |
@@ -96,7 +94,7 @@ tags:
 | `PaymentClearingGroup` | `paymentclearinggrpid` |
 | `PaymentReason` | `paytrsn` |
 | `DeletionIsBlocked` | `nodel` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `BPPeriodicAccountStatement` | `xausz` |
 | `_PaymentBlockingReason` | *Association* |
 | `_PaymentBlockingReasonText` | *Association* |

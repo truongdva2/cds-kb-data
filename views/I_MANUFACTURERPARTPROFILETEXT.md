@@ -14,6 +14,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:ManufacturerPartProfileText
 ---
 # I_MANUFACTURERPARTPROFILETEXT
 
@@ -30,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
+| `Language` | `spras` |
+| `ManufacturerPartProfile` | `mprof` |
 | `ManufacturerPartProfileName` | `mpnpt` |
 | `_ManufacturerPartProfile` | *Association* |
 | `_Language` | *Association* |
@@ -39,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ManufacturerPartProfile` | `I_ManufacturerPartProfile` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

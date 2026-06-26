@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bnk_min_rsv )` | `cast ( dd07l.domvalue_l` |
+| `BPMinimumReserve` | `cast ( dd07l.domvalue_l as bnk_min_rsv )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -34,15 +34,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentType.BillingDocumentType` | `BillingDocumentType.BillingDocumentType` |
-| `key Text.Language` | `Text.Language` |
-| `billingdocumenttypename preserving type )` | `cast ( Text.BillingProcessDocumentTypeName` |
-| `Text._Language` | `Text._Language` |
+| `BillingDocumentType` | `BillingDocumentType.BillingDocumentType` |
+| `Language` | `Text.Language` |
+| `BillingDocumentTypeName` | `cast(…)` |
+| `_Language` | *Association* |
 | `_BillingDocumentType` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingDocumentType` | `I_BillingDocumentType_2` | — |
 
 ## Source Code
 

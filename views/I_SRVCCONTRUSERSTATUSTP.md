@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceContract` | `ServiceContract` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceContract` | `ServiceContract` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractTP : redirected to parent I_ServiceContractTP` | *Association* |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
 | `_UserStatusText` | *Association* |

@@ -30,10 +30,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CnsldtnSustModeOfTransport'` | `foreignKey.association: '_CnsldtnSustModeOfTransport'` |
-| `sapObjectNodeTypeReference: 'CnsldtnSustModeOfTransport' }` | `sapObjectNodeTypeReference: 'CnsldtnSustModeOfTransport' }` |
-| `item.SustainabilityModeOfTransport` | `item.SustainabilityModeOfTransport` |
-| `item.FinancialServicesProductGroup` | `item.FinancialServicesProductGroup` |
+| `CnsldtnTaskLogUUID` | `item.CnsldtnTaskLogUUID` |
+| `CnsldtnTaskLogItemUUID` | `item.CnsldtnTaskLogItemUUID` |
+| `CnsldtnTaskLogItemType` | `item.CnsldtnTaskLogItemType` |
+| `ConsolidationGroup` | `item.ConsolidationGroup` |
+| `ConsolidationUnit` | `item.ConsolidationUnit` |
+| `CnsldtnFinancialStatementItem` | `item.CnsldtnFinancialStatementItem` |
+| `SubItemCategory` | `item.SubItemCategory` |
+| `SubItem` | `item.SubItem` |
+| `CnsldtnJrnlEntryAmtLoclCrcy` | `item.CnsldtnJrnlEntryAmtLoclCrcy` |
+| `CnsldtnJrnlEntryAmtInLoclCrcy` | `case…end` |
+| `CnsldtnJrnlEntryAmtGrpCrcy` | `item.CnsldtnJrnlEntryAmtGrpCrcy` |
+| `CnsldtnJrnlEntryAmtInGrpCrcy` | `item.CnsldtnJrnlEntryAmtInGrpCrcy` |
+| `SequenceNumber` | `item.SequenceNumber` |
+| `CnsldtnCrcyTranslationMethod` | `item.ConsolidationMethod` |
+| `CnsldtnRefExchangeRateType` | `item.CnsldtnRefExchangeRateType` |
+| `CnsldtnRefExchangeRateValue` | `item.CnsldtnRefExchangeRateValue` |
+| `CnsldtnExchangeRateType` | `item.CnsldtnExchangeRateType` |
+| `CnsldtnExchangeRateValue` | `item.CnsldtnExchangeRateValue` |
+| `CnsldtnCrcyTranslationKey` | `item.CnsldtnCrcyTranslationKey` |
+| `CnsldtnCrcyTrnsltnDiffFSItem` | `item.CnsldtnCrcyTrnsltnDiffFSItem` |
+| `CnsldtnCrcyTrnsltnDiffSubitem` | `item.CnsldtnCrcyTrnsltnDiffSubitem` |
+| `CalculatedDiffAmount` | `case…end` |
+| `CalculatedRefAmount` | `case…end` |
+| `ConsolidationSelection` | `item.ConsolidationSelection` |
+| `FinancialServicesBranch` | `item.FinancialServicesBranch` |
+| `GHGScope2CalculationMethod` | `item.GHGScope2CalculationMethod` |
+| `CashLedgerAccount` | `item.CashLedgerAccount` |
+| `CnsldtnCashLedgerChartOfAccts` | `item.CnsldtnCashLedgerChartOfAccts` |
+| `GHGScope2ContractualInstrument` | `item.GHGScope2ContractualInstrument` |
+| `FinancialDataSource` | `item.FinancialDataSource` |
+| `FinancialManagementArea` | `item.FinancialManagementArea` |
+| `Fund` | `item.Fund` |
+| `GHGCategory` | `item.GHGCategory` |
+| `GHGScope` | `item.GHGScope` |
+| `GrantID` | `item.GrantID` |
+| `SustainabilityModeOfTransport` | `item.SustainabilityModeOfTransport` |
+| `FinancialServicesProductGroup` | `item.FinancialServicesProductGroup` |
 | `_ConsolidationTaskLog` | *Association* |
 | `_CnsldtnGroup` | *Association* |
 | `_CnsldtnUnit` | *Association* |

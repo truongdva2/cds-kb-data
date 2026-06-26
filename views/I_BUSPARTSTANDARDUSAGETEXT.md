@@ -17,6 +17,7 @@ tags:
   - text
   - component:AP-MD-BP
   - lob:Other
+  - bo:BusinessPartnerStandardUsage
 ---
 # I_BUSPARTSTANDARDUSAGETEXT
 

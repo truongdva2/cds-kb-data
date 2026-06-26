@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InboundDelivery` | `InboundDelivery` |
+| `InboundDelivery` | `InboundDelivery` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `DeliveryDocumentType` | `DeliveryDocumentType` |
 | `CreatedByUser` | `CreatedByUser` |
@@ -126,10 +126,6 @@ tags:
 | `OvrlItmPackingIncompletionSts` | `OvrlItmPackingIncompletionSts` |
 | `OvrlItmPutawayIncompletionSts` | `OvrlItmPutawayIncompletionSts` |
 | `TotalCreditCheckStatus` | `TotalCreditCheckStatus` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_Item : redirected to composition child I_InboundDeliveryItemTP` | *Association* |
-| `_Partner : redirected to composition child I_InbDeliveryPartnerTP` | *Association* |
-| `_Text : redirected to composition child I_InboundDeliveryTextTP` | *Association* |
 
 ## Associations
 

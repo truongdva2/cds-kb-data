@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCodeCurrency : waers;` | `CompanyCodeCurrency : waers;` |
-| `ControllingAreaCurrency : waers;` | `ControllingAreaCurrency : waers;` |
-| `_CostComponents : association [0..*] to D_CostEstCostComponentR on 1=1;` | *Association* |
+| `CompanyCodeCurrency` | `waers` |
+| `ControllingAreaCurrency` | `waers` |
+| `_CostComponents` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CostComponents` | `D_CostEstCostComponentR` | [0..*] |
 
 ## Source Code
 

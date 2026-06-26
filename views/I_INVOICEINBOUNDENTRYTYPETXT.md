@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:InvoiceInboundEntryType
 ---
 # I_INVOICEINBOUNDENTRYTYPETXT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `invoice_inbound_entry_type )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `InvoiceInboundEntryType` | `cast( dd07t.domvalue_l as invoice_inbound_entry_type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `abap.char(60) )` | `cast( dd07t.ddtext` |
+| `SourceTypeDesc` | `cast( dd07t.ddtext as abap.char(60) )` |
 | `_EntryType` | *Association* |
 | `_Language` | *Association* |
 

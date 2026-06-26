@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  MaintenanceItem` | `MaintenanceItem` |
-| `key  NmbrOfMaintComplianceItems` | `NmbrOfMaintComplianceItems` |
-| `key  Language` | `Language` |
+| `MaintenanceItem` | `MaintenanceItem` |
+| `NmbrOfMaintComplianceItems` | `NmbrOfMaintComplianceItems` |
+| `Language` | `Language` |
 | `TextObjectKey` | `TextObjectKey` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `TextObjectType` | `TextObjectType` |
 | `PlainLongText` | `PlainLongText` |
-| `_MaintenanceItem       : redirected to  I_MaintenanceItemTP_2` | *Association* |
-| `_MaintenanceItemReason : redirected to parent I_MaintenanceItemReasonTP` | *Association* |
 
 ## Associations
 

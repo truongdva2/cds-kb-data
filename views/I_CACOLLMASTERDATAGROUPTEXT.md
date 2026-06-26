@@ -34,7 +34,6 @@ tags:
 | `CACollectionsMasterDataGroup` | `cmgrp` |
 | `Language` | `spras` |
 | `CACollMasterDataGroupName` | `descr` |
-| `/* associations */` | `/* associations */` |
 | `_CACollMasterDataGroup` | *Association* |
 | `_Language` | *Association* |
 

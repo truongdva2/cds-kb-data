@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecord
 ---
 # C_PURGINFORECDPRICECNDNDEX
 
@@ -31,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
-| `key Plant` | `Plant` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
+| `Plant` | `Plant` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
 | `ConditionType` | `ConditionType` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionRateValue` | `ConditionRateValue` |

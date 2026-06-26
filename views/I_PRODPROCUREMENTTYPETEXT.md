@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProcurementType
 ---
 # I_PRODPROCUREMENTTYPETEXT
 
@@ -32,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `ProcurementType` | `cast ( domvalue_l as beskz )` |
+| `Name` | `cast ( ddtext as val_text )` |
 | `_Language` | *Association* |
 
 ## Associations

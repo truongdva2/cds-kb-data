@@ -30,14 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DisplayCurrency'} }` | `currencyCode: 'DisplayCurrency'} }` |
-| `currency_conversion(  amount =>  ServiceDocNetAmount` | `currency_conversion(  amount =>  ServiceDocNetAmount` |
-| `source_currency =>  TransactionCurrency` | `source_currency =>  TransactionCurrency` |
-| `target_currency => $parameters.P_DisplayCurrency` | `target_currency => $parameters.P_DisplayCurrency` |
-| `exchange_rate_type => 'M'` | `exchange_rate_type => 'M'` |
-| `abap.dats)` | `exchange_rate_date =>  cast( $session.system_date` |
-| `error_handling => 'KEEP_UNCONVERTED'` | `error_handling => 'KEEP_UNCONVERTED'` |
-| `ServiceDocNetAmount` | `)` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceContractType` | `ServiceContractType` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `ServiceDocumentStatus` | `ServiceDocumentStatus` |
+| `ServiceContractStatus` | `ServiceContractStatus` |
+| `ServiceDocumentIsOpen` | `ServiceDocumentIsOpen` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as currency)` |
+| `ServiceDocNetAmount` | `currency_conversion(…)` |
 | `SalesOrganization` | `SalesOrganization` |
 | `DistributionChannel` | `DistributionChannel` |
 | `Division` | `Division` |
@@ -53,8 +58,8 @@ tags:
 | `ServiceContractEndDateTime` | `ServiceContractEndDateTime` |
 | `FirstDayOfMonthDate` | `FirstDayOfMonthDate` |
 | `LastDayOfMonthDate` | `LastDayOfMonthDate` |
-| `abap.numc(15))` | `cast(cast(cast(concat(FirstDayOfMonthDate, '000000')` |
-| `abap.numc(15))` | `cast(cast(cast(concat(LastDayOfMonthDate, '000000')` |
+| `StartOfMonthDateTime` | `cast(…)` |
+| `EndOfMonthDateTime` | `cast(…)` |
 | `SoldToPartyCountry` | `SoldToPartyCountry` |
 | `SoldToPartyRegion` | `SoldToPartyRegion` |
 | `SoldToParty` | `SoldToParty` |

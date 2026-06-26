@@ -38,6 +38,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ClaimScopeOfLossTxt` | `I_InsuranceClaimScopeOfLossTxt` | [0..*] |
 | `_DamageCategory` | `I_InsuranceClaimDamageCategory` | [0..1] |
 
 ## Source Code

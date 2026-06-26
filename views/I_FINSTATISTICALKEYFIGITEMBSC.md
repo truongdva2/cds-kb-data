@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FinStatisticalKeyFigureItem
 ---
 # I_FINSTATISTICALKEYFIGITEMBSC
 
@@ -31,7 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'StatisticalKeyFigQtyUnit'} }` | `unitOfMeasure: 'StatisticalKeyFigQtyUnit'} }` |
+| `StatisticalKeyFigure` | `P_Finsskf.stagr` |
+| `StatisticalKeyFigureItem` | `P_Finsskf.recid` |
+| `ValidityStartDate` | `P_Finsskf.date_from` |
+| `StatisticalKeyFigureCategory` | `P_Finsskf.grtyp` |
+| `StatisticalKeyFigQtyUnit` | `P_Finsskf.runit` |
 | `StatisticalKeyFigureQuantity` | `P_Finsskf.msl` |
 | `LastChangeDateTime` | `P_Finsskf.timestamp` |
 | `CompanyCode` | `P_Finsskf.rbukrs` |
@@ -52,9 +57,9 @@ tags:
 | `OrderID` | `P_Finsskf.aufnr` |
 | `OrderCategory` | `P_Finsskf.autyp` |
 | `WBSElementInternalID` | `P_Finsskf.ps_psp_pnr` |
-| `WBSElement,                         // 3.4.24 without DOMA-EXIT ; without #DEPRECATED` | `P_Finsskf.ps_posid` |
+| `WBSElement` | `P_Finsskf.ps_posid` |
 | `ProjectInternalID` | `P_Finsskf.ps_prj_pnr` |
-| `Project,                            // 3.4.24 without DOMA-EXIT ; without #DEPRECATED` | `P_Finsskf.ps_pspid` |
+| `Project` | `P_Finsskf.ps_pspid` |
 | `CostObject` | `P_Finsskf.kstrg` |
 | `Fund` | `P_Finsskf.rfund` |
 | `GrantID` | `P_Finsskf.rgrant_nbr` |
@@ -90,7 +95,30 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FiscalCalYearPeriodForLedger` | `I_FiscalCalYearPeriodForLedger` | [0..*] |
+| `_ControllingArea` | `I_ControllingArea` | [1] |
+| `_CompanyCode` | `I_CompanyCode` | [0..1] |
+| `_CostCenter` | `I_CostCenter` | [0..*] |
+| `_ProfitCenter` | `I_ProfitCenter` | [0..*] |
+| `_StatisticalKeyFigure` | `I_StatisticalKeyFigure` | [1] |
+| `_StatisticalKeyFigureCat` | `I_StatisticalKeyFigureCat` | [1] |
+| `_UnitOfMeasure` | `I_UnitOfMeasure` | [1] |
+| `_Segment` | `I_Segment` | [0..1] |
+| `_FunctionalArea` | `I_FunctionalArea` | [0..1] |
+| `_BusinessArea` | `I_BusinessArea` | [0..1] |
+| `_Order` | `I_Order` | [0..1] |
+| `_SalesDocument` | `I_SalesDocument` | [0..1] |
+| `_SalesDocumentItem` | `I_SalesDocumentItem` | [0..1] |
+| `_ControllingObject` | `I_ControllingObject` | [0..1] |
+| `_BudgetPeriod` | `I_BudgetPeriod` | [0..1] |
+| `_PlanningCategory` | `I_PlanningCategory` | [0..1] |
+| `_ProjectBasicData` | `I_ProjectBasicData` | [0..1] |
+| `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
+| `_ServiceDocumentType` | `I_ServiceDocumentType` | [0..1] |
+| `_ServiceDocument` | `I_SrvcDocByDocumentType` | [0..1] |
+| `_ServiceDocumentItem` | `I_SrvcDocItemByDocumentType` | [0..1] |
 
 ## Source Code
 

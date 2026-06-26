@@ -14,6 +14,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:BusinessTransacDocItmTypeCode
 ---
 # I_BUSTRANSDOCITMTYPECODETEXT
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `njit_btd_item_type_code preserving type )` | `cast ( btditm_tco150` |
+| `BusinessTransacDocItmTypeCode` | `cast ( btditm_tco150 as njit_btd_item_type_code preserving type )` |
 | `BizTransacDocumentItemTypeName` | `description` |
 | `_BusTransDocItemTypeCode` | *Association* |
 | `_Language` | *Association* |
@@ -40,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_BusTransDocItemTypeCode` | `I_BusTransDocItemTypeCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASURE
 description: Unit of Measure
+semantic_en: "Unit of measure — units used to quantify materials (e.g. each, kg, litre) in logistics and sales."
+semantic_vi: "Đơn vị đo — đơn vị định lượng vật tư (vd cái, kg, lít) trong logistics và bán hàng."
+keywords:
+  - đơn vị đo
+  - đơn vị tính
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released
@@ -15,6 +20,7 @@ tags:
   - unit-of-measure
   - component:BC-SRV-ASF-UOM
   - lob:Basis Components
+  - bo:UnitOfMeasure
 ---
 # I_UNITOFMEASURE
 
@@ -31,14 +37,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msehiunit preserving type )` | `cast ( msehi` |
+| `UnitOfMeasure` | `cast ( msehi as msehiunit preserving type )` |
 | `_Text` | *Association* |
-| `meinsint )` | `cast ( msehi` |
+| `UnitOfMeasureSAPCode` | `cast ( msehi as meinsint )` |
 | `UnitOfMeasureISOCode` | `isocode` |
 | `_ISOCode` | *Association* |
 | `_ISOCodeText` | *Association* |
 | `IsPrimaryUnitForISOCode` | `primary` |
-| `UnitOfMeasureNumberOfDecimals, // for rounding` | `andec` |
+| `UnitOfMeasureNumberOfDecimals` | `andec` |
 | `UnitOfMeasureIsCommercial` | `kzkeh` |
 | `UnitOfMeasureDimension` | `dimid` |
 | `_Dimension` | *Association* |
@@ -48,12 +54,12 @@ tags:
 | `SIUnitCnvrsnRateExponent` | `exp10` |
 | `SIUnitCnvrsnAdditiveValue` | `addko` |
 | `UnitOfMeasureDspExponent` | `expon` |
-| `UnitOfMeasureDspNmbrOfDcmls,   // for number display` | `decan` |
+| `UnitOfMeasureDspNmbrOfDcmls` | `decan` |
 | `UnitOfMeasureTemperature` | `temp_value` |
 | `UnitOfMeasureTemperatureUnit` | `temp_unit` |
 | `UnitOfMeasurePressure` | `press_val` |
 | `UnitOfMeasurePressureUnit` | `press_unit` |
-| `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E as UnitOfMeasure_E` | *Association* |
+| `UnitOfMeasure_E` | `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E` |
 
 ## Associations
 

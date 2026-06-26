@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_delivery_date_type_rule preserving type )` | `cast(substring(dd07l.domvalue_l, 1, 1)` |
+| `DeliveryDateTypeRule` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

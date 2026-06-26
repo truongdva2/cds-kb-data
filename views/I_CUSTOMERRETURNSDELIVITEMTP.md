@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
-| `key CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
@@ -164,9 +164,6 @@ tags:
 | `IssgOrRcvgBatch` | `IssgOrRcvgBatch` |
 | `IssgOrRcvgValuationType` | `IssgOrRcvgValuationType` |
 | `IssgOrRcvgSpclStockCode` | `IssgOrRcvgSpclStockCode` |
-| `_SerialNumber : redirected to composition child I_CustRetDelivItemSerialNmbrTP` | *Association* |
-| `_ItemText     : redirected to composition child I_CustRetDelivItemTextTP` | *Association* |
-| `_Delivery : redirected to parent I_CustomerReturnsDeliveryTP` | *Association* |
 
 ## Associations
 

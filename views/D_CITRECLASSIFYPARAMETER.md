@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `IsChanged : abap.char( 1 );` | `IsChanged : abap.char( 1 );` |
+| `IsChanged` | `abap.char( 1 )` |
 
 ## Associations
 

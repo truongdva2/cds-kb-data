@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
-| `key TranspOrdBizPartnerFunction` | `TranspOrdBizPartnerFunction` |
+| `TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
+| `TranspOrdBizPartnerFunction` | `TranspOrdBizPartnerFunction` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `AddressID` | `AddressID` |
 | `AddresseeFullName` | `AddresseeFullName` |
@@ -47,10 +47,9 @@ tags:
 | `InternationalMobilePhoneNumber` | `InternationalMobilePhoneNumber` |
 | `InternationalFaxNumber` | `InternationalFaxNumber` |
 | `_PartnerFunction` | *Association* |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TransportationOrderStage  as _FreightBookingStage        : redirected to parent I_FreightBookingStageTP` | *Association* |
-| `_TransportationOrder       as _FreightBooking             : redirected to I_FreightBookingTP` | *Association* |
-| `_TrOrdStgeBPAddrAddlRprstn as _FrtBkgStageBPAddrAddlRprstn : redirected to composition child I_FrtBkgStgeBPAddrAddlRprstnTP` | *Association* |
+| `_FreightBookingStage` | *Association* |
+| `_FreightBooking` | *Association* |
+| `_FrtBkgStageBPAddrAddlRprstn` | *Association* |
 
 ## Associations
 

@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `ConditionUsage` | `t681.kvewe` |
 | `ConditionApplication` | `t681.kappl` |
-| `char03 )` | `cast ( t681.kotabnr` |
+| `ConditionTable` | `cast ( t681.kotabnr as char03 )` |
 | `PrcgCndnTableHasValidityPeriod` | `t681.ksdat` |
 | `PrcgCndnTableHasReleaseStatus` | `I_PrcgCndnTblWithReleaseStatus.PrcgCndnTableHasReleaseStatus` |
 | `_PricingConditionTableField` | *Association* |

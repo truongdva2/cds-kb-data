@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentItemCategory
 ---
 # I_SERVICEDOCITEMCATEGORY
 
@@ -30,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ServiceDocItemCategory` | `itm_type` |
 | `ServiceObjectType` | `object_type` |
-| `_ServiceDocItemTypeSlsSttg.ItemIsBillingRelevant` | *Association* |
+| `ItemIsBillingRelevant` | `_ServiceDocItemTypeSlsSttg.ItemIsBillingRelevant` |
 | `StatusProfile` | `user_stat_proc` |
 | `SrvcMgmtPrtnDetnProcedure` | `part_determ_proc` |
 | `_ServiceDocItemCategoryText` | *Association* |

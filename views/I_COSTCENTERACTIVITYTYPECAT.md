@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `latyp )` | `cast( domvalue_l` |
+| `CostCtrActivityTypeCategory` | `cast( domvalue_l as latyp )` |
 | `_Text` | *Association* |
 
 ## Associations

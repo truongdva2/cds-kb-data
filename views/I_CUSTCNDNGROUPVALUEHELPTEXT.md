@@ -17,6 +17,7 @@ tags:
   - text
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerConditionGroup
 ---
 # I_CUSTCNDNGROUPVALUEHELPTEXT
 

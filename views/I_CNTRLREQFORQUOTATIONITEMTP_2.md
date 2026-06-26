@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-HUB-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:CentralRequestForQuotationItem
 ---
 # I_CNTRLREQFORQUOTATIONITEMTP_2
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralRequestForQuotation` | `CentralRequestForQuotation` |
-| `key CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
 | `ProductTypeCode` | `ProductTypeCode` |
@@ -67,9 +68,6 @@ tags:
 | `PurchasingDocumentItemCategory` | `PurchasingDocumentItemCategory` |
 | `DocumentCurrency` | `DocumentCurrency` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralRequestForQuotation : redirected to parent I_CntrlRequestForQuotationTP_2` | *Association* |
-| `_CentralRFQItemDistribution : redirected to composition child I_CntrlRFQItemDistributionTP_2` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeVehicleDENATRANColor
 ---
 # I_BR_NFEVEHDENATRANCOLOR
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehiclecolorcode preserving type )` | `cast( substring(domvalue_l, 1 , 2 )` |
+| `BR_NFeVehicleDENATRANColor` | `cast( substring(domvalue_l, 1 , 2 ) as logbr_vehiclecolorcode preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

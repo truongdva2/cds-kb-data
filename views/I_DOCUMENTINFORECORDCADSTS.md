@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:IsDocInfoRecdCreatedFromCAD
 ---
 # I_DOCUMENTINFORECORDCADSTS
 
@@ -31,7 +32,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `IsDocInfoRecdCreatedFromCAD` | `substring( Domval.domvalue_l, 1, 1 )` |
-| `_Text` | *Association* |
 
 ## Associations
 

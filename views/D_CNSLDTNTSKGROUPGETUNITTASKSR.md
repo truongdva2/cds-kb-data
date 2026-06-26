@@ -29,14 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConsolidationTaskGroup                  : fincs_taskgroup;` | `ConsolidationTaskGroup                  : fincs_taskgroup;` |
-| `ConsolidationTask                       : fincs_tsk;` | `ConsolidationTask                       : fincs_tsk;` |
-| `ConsolidationTaskText                   : fincs_task_txt;` | `ConsolidationTaskText                   : fincs_task_txt;` |
-| `ConsolidationTaskCategory               : fincs_taskcategory;` | `ConsolidationTaskCategory               : fincs_taskcategory;` |
-| `ConsolidationTaskCategoryText           : fincs_description_text_60;` | `ConsolidationTaskCategoryText           : fincs_description_text_60;` |
-| `CnsldtnTskIsBlkdAutomatically           : fincs_task_blockauto;` | `CnsldtnTskIsBlkdAutomatically           : fincs_task_blockauto;` |
-| `ConsolidationTaskIsMilestone            : fincs_task_milestone;` | `ConsolidationTaskIsMilestone            : fincs_task_milestone;` |
-| `ConsolidationTaskSequenceValue          : fincs_task_sequence;` | `ConsolidationTaskSequenceValue          : fincs_task_sequence;` |
+| `ConsolidationTaskGroup` | `fincs_taskgroup` |
+| `ConsolidationTask` | `fincs_tsk` |
+| `ConsolidationTaskText` | `fincs_task_txt` |
+| `ConsolidationTaskCategory` | `fincs_taskcategory` |
+| `ConsolidationTaskCategoryText` | `fincs_description_text_60` |
+| `CnsldtnTskIsBlkdAutomatically` | `fincs_task_blockauto` |
+| `ConsolidationTaskIsMilestone` | `fincs_task_milestone` |
+| `ConsolidationTaskSequenceValue` | `fincs_task_sequence` |
 
 ## Associations
 

@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierQuotation` | `SupplierQuotation` |
-| `key SupplierQuotationItem` | `SupplierQuotationItem` |
-| `key PricingDocument` | `PricingDocument` |
-| `key PricingDocumentItem` | `PricingDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `SupplierQuotation` | `SupplierQuotation` |
+| `SupplierQuotationItem` | `SupplierQuotationItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `ConditionCalculationType` | `ConditionCalculationType` |
@@ -102,9 +102,6 @@ tags:
 | `ConfigblParametersAndFormulas` | `ConfigblParametersAndFormulas` |
 | `ConditionAdjustedQuantity` | `ConditionAdjustedQuantity` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SupplierQuotation     : redirected to I_SupplierQuotationTP` | *Association* |
-| `_SupplierQuotationItem : redirected to parent I_SupplierQuotationItemTP` | *Association* |
 
 ## Associations
 

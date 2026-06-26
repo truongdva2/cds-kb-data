@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceConditionCalculationType
 ---
 # I_CONDITIONCALCULATIONTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `krech_long )` | `cast ( substring( domvalue_l, 1, 3 )` |
+| `ConditionCalculationType` | `cast ( substring( domvalue_l, 1, 3 ) as krech_long )` |
 | `_Text` | *Association* |
 
 ## Associations

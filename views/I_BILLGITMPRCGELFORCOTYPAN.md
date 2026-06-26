@@ -29,76 +29,86 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  BDI.BillingDocument` | `BDI.BillingDocument` |
-| `billing_document_item)` | `cast(BDI.BillingDocumentItem` |
-| `key  PRCEL.PricingProcedureStep` | `PRCEL.PricingProcedureStep` |
-| `key  PRCEL.PricingProcedureCounter` | `PRCEL.PricingProcedureCounter` |
-| `PRCEL.ConditionApplication` | `PRCEL.ConditionApplication` |
-| `PRCEL.ConditionType` | `PRCEL.ConditionType` |
-| `PRCEL.ConditionCategory` | `PRCEL.ConditionCategory` |
-| `PRCEL.ConditionClass` | `PRCEL.ConditionClass` |
-| `PRCEL.ConditionIsForStatistics` | `PRCEL.ConditionIsForStatistics` |
-| `PRCEL.ConditionControl` | `PRCEL.ConditionControl` |
-| `PRCEL.ConditionInactiveReason` | `PRCEL.ConditionInactiveReason` |
-| `return_id_processing_type)` | `cast(BDI.ReturnItemProcessingType` |
-| `sales_document_item_category preserving type )` | `cast(BDI.SalesDocumentItemCategory` |
-| `sales_document_item_type preserving type )` | `cast(BDI.SalesDocumentItemType` |
-| `BDI.BillingDocumentCategory` | `BDI.BillingDocumentCategory` |
-| `BDI.SDDocumentCategory` | `BDI.SDDocumentCategory` |
-| `BDI.BillingDocumentType` | `BDI.BillingDocumentType` |
-| `PRCEL.PricingDateTime` | `PRCEL.PricingDateTime` |
-| `BDI.BillingDocumentDate` | `BDI.BillingDocumentDate` |
-| `BDI.SalesOrganization` | `BDI.SalesOrganization` |
-| `BDI.DistributionChannel` | `BDI.DistributionChannel` |
-| `organization_division preserving type)` | `cast(BDI.OrganizationDivision` |
-| `BDI.Division` | `BDI.Division` |
-| `BDI.SalesOffice` | `BDI.SalesOffice` |
-| `BDI.Product` | `BDI.Product` |
-| `BDI.ProductGroup` | `BDI.ProductGroup` |
-| `PRCEL.ConditionRecord` | `PRCEL.ConditionRecord` |
-| `PRCEL.ConditionSequentialNumber` | `PRCEL.ConditionSequentialNumber` |
-| `PRCEL.ConditionOrigin` | `PRCEL.ConditionOrigin` |
-| `PRCEL.ConditionIsManuallyChanged` | `PRCEL.ConditionIsManuallyChanged` |
-| `PRCEL.ConditionQuantity` | `PRCEL.ConditionQuantity` |
-| `PRCEL.ConditionBaseQuantity` | `PRCEL.ConditionBaseQuantity` |
-| `PRCEL.ConditionQuantityUnit` | `PRCEL.ConditionQuantityUnit` |
-| `PRCEL.ConditionCalculationType` | `PRCEL.ConditionCalculationType` |
-| `PRCEL.TransactionCurrency` | `PRCEL.TransactionCurrency` |
-| `cond_amount)` | `cast(PRCEL.ConditionAmount` |
-| `cast( case when     ( BDI.SDDocumentCategory = 'M'` | `cast( case when     ( BDI.SDDocumentCategory = 'M'` |
-| `or    BDI.SDDocumentCategory = 'P'` | `or    BDI.SDDocumentCategory = 'P'` |
-| `or    BDI.SDDocumentCategory = '5' )` | `or    BDI.SDDocumentCategory = '5' )` |
-| `then ConditionAmount` | `then ConditionAmount` |
-| `else` | `else` |
-| `case when    ( BDI.SDDocumentCategory = 'O'` | `case when    ( BDI.SDDocumentCategory = 'O'` |
-| `or   BDI.SDDocumentCategory = '6' )` | `or   BDI.SDDocumentCategory = '6' )` |
-| `then  -1 * PRCEL.ConditionAmount             -- sign correction, for credit items in debit documents and debit items in credit documents` | `then  -1 * PRCEL.ConditionAmount             -- sign correction, for credit items in debit documents and debit items in credit documents` |
-| `end` | `end` |
-| `nrmlzd_cond_amount )` | `end` |
-| `as NormalizedConditionAmount` | `as NormalizedConditionAmount` |
-| `BDI._BillingDocument` | `BDI._BillingDocument` |
-| `BDI._BillingDocumentCategory` | `BDI._BillingDocumentCategory` |
-| `BDI._SDDocumentCategory` | `BDI._SDDocumentCategory` |
-| `BDI._BillingDocumentType` | `BDI._BillingDocumentType` |
-| `BDI._SalesDocumentItemCategory` | `BDI._SalesDocumentItemCategory` |
-| `BDI._SalesDocumentItemType` | `BDI._SalesDocumentItemType` |
-| `BDI._SalesOrganization` | `BDI._SalesOrganization` |
-| `BDI._DistributionChannel` | `BDI._DistributionChannel` |
-| `BDI._OrganizationDivision` | `BDI._OrganizationDivision` |
-| `BDI._Division` | `BDI._Division` |
-| `BDI._SalesOffice` | `BDI._SalesOffice` |
-| `BDI._Product` | `BDI._Product` |
-| `BDI._ProductGroup` | `BDI._ProductGroup` |
-| `PRCEL._ConditionApplication` | `PRCEL._ConditionApplication` |
-| `PRCEL._PricingConditionType` | `PRCEL._PricingConditionType` |
-| `PRCEL._ConditionCategory` | `PRCEL._ConditionCategory` |
-| `PRCEL._ConditionClass` | `PRCEL._ConditionClass` |
-| `PRCEL._ConditionCalculationType` | `PRCEL._ConditionCalculationType` |
-| `PRCEL._ConditionOrigin` | `PRCEL._ConditionOrigin` |
-| `PRCEL._ConditionControl` | `PRCEL._ConditionControl` |
-| `PRCEL._ConditionInactiveReason` | `PRCEL._ConditionInactiveReason` |
-| `PRCEL._ConditionQuantityUnit` | `PRCEL._ConditionQuantityUnit` |
-| `PRCEL._Currency` | `PRCEL._Currency` |
+| `BillingDocument` | `BDI.BillingDocument` |
+| `BillingDocumentItem` | `cast(BDI.BillingDocumentItem as billing_document_item)` |
+| `PricingProcedureStep` | `PRCEL.PricingProcedureStep` |
+| `PricingProcedureCounter` | `PRCEL.PricingProcedureCounter` |
+| `ConditionApplication` | `PRCEL.ConditionApplication` |
+| `ConditionType` | `PRCEL.ConditionType` |
+| `ConditionCategory` | `PRCEL.ConditionCategory` |
+| `ConditionClass` | `PRCEL.ConditionClass` |
+| `ConditionIsForStatistics` | `PRCEL.ConditionIsForStatistics` |
+| `ConditionControl` | `PRCEL.ConditionControl` |
+| `ConditionInactiveReason` | `PRCEL.ConditionInactiveReason` |
+| `PricingScaleType` | `-- verified with Pricing Architect Ursula Becker -- !! PRCEL.PricingScaleType` |
+| `IsRelevantForAccrual` | `<-exclude! -- !! PRCEL.IsRelevantForAccrual` |
+| `CndnIsRelevantForInvoiceList` | `<-exclude! -- !! PRCEL.CndnIsRelevantForInvoiceList` |
+| `IsGroupCondition` | `<-exclude! -- !! PRCEL.IsGroupCondition` |
+| `TaxCode` | `<-exclude! -- !! PRCEL.TaxCode` |
+| `WithholdingTaxCode` | `<-exclude! -- !! PRCEL.WithholdingTaxCode` |
+| `CndnRoundingOffDiffAmount` | `<-exclude! -- !! -- !! -- !! PRCEL.CndnRoundingOffDiffAmount` |
+| `PrcgProcedureCounterForHeader` | `<-exclude! -- !! PRCEL.PrcgProcedureCounterForHeader` |
+| `FactorForConditionBasisValue` | `-- !! PRCEL.FactorForConditionBasisValue` |
+| `StructureCondition` | `-- !! -- !! PRCEL.StructureCondition` |
+| `PeriodFactorForCndnBasisValue` | `-- !! PRCEL.PeriodFactorForCndnBasisValue` |
+| `PricingScaleBasis` | `-- !! -- !! PRCEL.PricingScaleBasis` |
+| `ConditionScaleBasisValue` | `-- !! PRCEL.ConditionScaleBasisValue` |
+| `ConditionScaleBasisUnit` | `-- !! -- !! -- !! PRCEL.ConditionScaleBasisUnit` |
+| `ConditionScaleBasisCurrency` | `-- !! -- !! -- !! PRCEL.ConditionScaleBasisCurrency` |
+| `CndnIsRelevantForIntcoBilling` | `-- !! PRCEL.CndnIsRelevantForIntcoBilling` |
+| `ConditionIsForConfiguration` | `-- !! PRCEL.ConditionIsForConfiguration` |
+| `VariantCondition` | `-- !! PRCEL.VariantCondition` |
+| `ReturnItemProcessingType` | `cast(BDI.ReturnItemProcessingType as return_id_processing_type)` |
+| `SalesDocumentItemCategory` | `cast(…)` |
+| `SalesDocumentItemType` | `cast(BDI.SalesDocumentItemType as sales_document_item_type preserving type )` |
+| `BillingDocumentCategory` | `-- reporting relevant item dimensions of section BDI.BillingDocumentCategory` |
+| `SDDocumentCategory` | `BDI.SDDocumentCategory` |
+| `BillingDocumentType` | `BDI.BillingDocumentType` |
+| `PricingDateTime` | `-- reporting relevant header dimensions of section PRCEL.PricingDateTime` |
+| `BillingDocumentDate` | `BDI.BillingDocumentDate` |
+| `SalesOrganization` | `BDI.SalesOrganization` |
+| `DistributionChannel` | `BDI.DistributionChannel` |
+| `OrganizationDivision` | `cast(BDI.OrganizationDivision as organization_division preserving type)` |
+| `Division` | `BDI.Division` |
+| `SalesOffice` | `BDI.SalesOffice` |
+| `Product` | `BDI.Product` |
+| `ProductGroup` | `BDI.ProductGroup` |
+| `ConditionRecord` | `PRCEL.ConditionRecord` |
+| `ConditionSequentialNumber` | `PRCEL.ConditionSequentialNumber` |
+| `ConditionOrigin` | `PRCEL.ConditionOrigin` |
+| `ConditionIsManuallyChanged` | `PRCEL.ConditionIsManuallyChanged` |
+| `ConditionQuantity` | `PRCEL.ConditionQuantity` |
+| `ConditionRateValue` | `-- PRCEL.ConditionRateValue` |
+| `ConditionBaseValue` | `expr(…)` |
+| `ConditionBaseQuantity` | `expr(…)` |
+| `ConditionQuantityUnit` | `PRCEL.ConditionQuantityUnit` |
+| `ConditionCalculationType` | `PRCEL.ConditionCalculationType` |
+| `TransactionCurrency` | `PRCEL.TransactionCurrency` |
+| `ConditionAmount` | `cast(PRCEL.ConditionAmount as cond_amount)` |
+| `NormalizedConditionAmount` | `cast(…)` |
+| `_BillingDocument` | *Association* |
+| `_BillingDocumentCategory` | *Association* |
+| `_SDDocumentCategory` | *Association* |
+| `_BillingDocumentType` | *Association* |
+| `_SalesDocumentItemCategory` | *Association* |
+| `_SalesDocumentItemType` | *Association* |
+| `_SalesOrganization` | *Association* |
+| `_DistributionChannel` | *Association* |
+| `_OrganizationDivision` | *Association* |
+| `_Division` | *Association* |
+| `_SalesOffice` | *Association* |
+| `_Product` | *Association* |
+| `_ProductGroup` | *Association* |
+| `_ConditionApplication` | *Association* |
+| `_PricingConditionType` | *Association* |
+| `_ConditionCategory` | *Association* |
+| `_ConditionClass` | *Association* |
+| `_ConditionCalculationType` | *Association* |
+| `_ConditionOrigin` | *Association* |
+| `_ConditionControl` | *Association* |
+| `_ConditionInactiveReason` | *Association* |
+| `_ConditionQuantityUnit` | *Association* |
+| `_Currency` | *Association* |
 
 ## Associations
 

@@ -18,6 +18,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:DeliveryStatus
 ---
 # I_DELIVERYSTATUSTEXT
 
@@ -42,7 +43,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DeliveryStatus` | `I_DeliveryStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

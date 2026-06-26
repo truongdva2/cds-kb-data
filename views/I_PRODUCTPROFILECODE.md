@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `profilecode preserving type )` | `cast(t141.mmsta` |
+| `ProductProfileCode` | `cast(t141.mmsta as profilecode preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

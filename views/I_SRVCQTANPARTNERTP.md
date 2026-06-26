@@ -30,16 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_PartnerFunction` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationTP : redirected to parent I_ServiceQuotationTP` | *Association* |
-| `_SrvcQtanPartnerAddressTP : redirected to composition child I_SrvcQtanPartnerAddressTP` | *Association* |
 
 ## Associations
 

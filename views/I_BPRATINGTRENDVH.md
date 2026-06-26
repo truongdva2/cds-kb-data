@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartnerRatingTrend` | `BusinessPartnerRatingTrend` |
+| `BusinessPartnerRatingTrend` | `BusinessPartnerRatingTrend` |
 | `_Text` | *Association* |
-| `_Text[1:Language = $session.system_language ].BusinessPartnerRatingTrendDesc` | *Association* |
+| `BusinessPartnerRatingTrendDesc` | `_Text[1:Language = $session.system_language ].BusinessPartnerRatingTrendDesc` |
 
 ## Associations
 

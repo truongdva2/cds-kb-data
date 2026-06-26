@@ -14,6 +14,7 @@ tags:
   - credit
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:CreditMemoRequest
 ---
 # D_CREDITMEMOREQORDBILLGSTSCHGD
 
@@ -30,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime            : vdm_lastchangedon;` | `EventRaisedDateTime            : vdm_lastchangedon;` |
-| `CreditMemoRequestType          : auart_unv;` | `CreditMemoRequestType          : auart_unv;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `DistributionChannel            : vtweg;` | `DistributionChannel            : vtweg;` |
-| `OrganizationDivision           : spart;` | `OrganizationDivision           : spart;` |
-| `SoldToParty                    : kunnr;` | `SoldToParty                    : kunnr;` |
-| `OverallOrdReltdBillgStatus     : fksak;` | `OverallOrdReltdBillgStatus     : fksak;` |
-| `PrevOvrlOrdReltdBillgStatus    : fksak;` | `PrevOvrlOrdReltdBillgStatus    : fksak;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `CreditMemoRequestType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `OverallOrdReltdBillgStatus` | `fksak` |
+| `PrevOvrlOrdReltdBillgStatus` | `fksak` |
 
 ## Associations
 

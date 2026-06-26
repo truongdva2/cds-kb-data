@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdShippingType
 ---
 # I_TRANSPORDSHIPPINGTYPET_2
 
@@ -30,8 +31,7 @@ tags:
 |---|---|
 | `TranspOrdShippingType` | `shipping_type` |
 | `Language` | `spras` |
-| `/scmtms/vdm_tor_ship_type_desc preserving type )` | `cast(text` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdShippingTypeDesc` | `cast(text as /scmtms/vdm_tor_ship_type_desc preserving type )` |
 | `_TranspOrdShippingType` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdShippingType` | `I_TranspOrdShippingType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

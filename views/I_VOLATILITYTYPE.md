@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:MarketDataVolatilityType
 ---
 # I_VOLATILITYTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_volart)` | `cast(atvo1.volart` |
+| `VolatilityType` | `cast(atvo1.volart as tb_volart)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `DomainValue // required for search` | `DomainValue // required for search` |
+| `ConsolidationTaskCategory` | `ConsolidationTaskCategory` |
+| `ConsolidationTaskCategoryText` | `_Text[1: Language=$session.system_language].ConsolidationTaskCategoryText` |
+| `DomainValue` | `DomainValue` |
 
 ## Associations
 

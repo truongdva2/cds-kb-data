@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:AccountAssignmentCategory
 ---
 # I_ACCOUNTASSIGNMENTCATEGORY
 
@@ -35,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_AcctAssignmentCategoryText` | [0..*] |
 
 ## Source Code
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fsbp_taxc_agree_status )` | `cast ( dd07l.domvalue_l` |
+| `BPTaxComplianceAgreementStatus` | `cast ( dd07l.domvalue_l as fsbp_taxc_agree_status )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -32,11 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH', element : 'Currency'} , useAsTemplate: true }]` | `name: 'I_CurrencyStdVH', element : 'Currency'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `ValuationArea` | `ValuationArea` |
+| `ValuationType` | `ValuationType` |
+| `ProductIsCostedWithQtyStruc` | `ProductIsCostedWithQtyStruc` |
+| `IsMaterialRelatedOrigin` | `IsMaterialRelatedOrigin` |
+| `CostOriginGroup` | `CostOriginGroup` |
+| `CostingOverheadGroup` | `CostingOverheadGroup` |
+| `PlannedPrice1InCoCodeCrcy` | `PlannedPrice1InCoCodeCrcy` |
+| `PlannedPrice2InCoCodeCrcy` | `PlannedPrice2InCoCodeCrcy` |
+| `PlannedPrice3InCoCodeCrcy` | `PlannedPrice3InCoCodeCrcy` |
+| `FuturePlndPrice1ValdtyDate` | `FuturePlndPrice1ValdtyDate` |
+| `FuturePlndPrice2ValdtyDate` | `FuturePlndPrice2ValdtyDate` |
+| `FuturePlndPrice3ValdtyDate` | `FuturePlndPrice3ValdtyDate` |
 | `Currency` | `Currency` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product          : redirected to I_ProductTP_2` | *Association* |
-| `_ProductValuation : redirected to parent I_ProductValuationTP_2` | *Association* |
 | `_CostOriginGroupText` | *Association* |
 | `_Currency` | *Association* |
 | `_CurrencyText` | *Association* |

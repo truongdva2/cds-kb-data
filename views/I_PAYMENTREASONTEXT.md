@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-AP-AP-B-2CL
   - lob:Finance
+  - bo:PaymentReason
 ---
 # I_PAYMENTREASONTEXT
 

@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:CostingOverheadGroup
 ---
 # I_COSTINGOVERHEADGROUPVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostingOverheadGroup` | `CostingOverheadGroup` |
-| `key ValuationArea` | `ValuationArea` |
+| `CostingOverheadGroup` | `CostingOverheadGroup` |
+| `ValuationArea` | `ValuationArea` |
 | `CostingOverhead` | `OverheadCode` |
 | `_ValuationArea` | *Association* |
 

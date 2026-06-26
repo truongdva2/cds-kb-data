@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcGroup
 ---
 # I_CLFNCHARCGROUPSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcGroup` | `CharcGroup` |
-| `_CharacteristicGroupText as _Text` | *Association* |
+| `CharcGroup` | `CharcGroup` |
+| `_Text` | *Association* |
 
 ## Associations
 

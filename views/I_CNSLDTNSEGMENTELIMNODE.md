@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_elim_segment preserving type )` | `cast(left(_node.nodevalue, 25)` |
+| `Segment` | `cast(left(_node.nodevalue, 25) as fincs_elim_segment preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

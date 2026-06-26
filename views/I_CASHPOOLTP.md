@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashPool
 ---
 # I_CASHPOOLTP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPool` | `CashPool` |
+| `CashPool` | `CashPool` |
 | `CashPoolIsDeleted` | `CashPoolIsDeleted` |
 | `CashPoolType` | `CashPoolType` |
 | `CashPoolTransfDrctn` | `CashPoolTransfDrctn` |
@@ -48,9 +49,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `_HeaderAssignment: redirected to composition child I_CashPoolHeaderAcctAssgmtTP` | *Association* |
-| `_SubAssignment: redirected to composition child I_CashPoolSubAcctAssgmtTP` | *Association* |
-| `_Desc: redirected to composition child I_CashPoolMDDescTP` | *Association* |
 
 ## Associations
 

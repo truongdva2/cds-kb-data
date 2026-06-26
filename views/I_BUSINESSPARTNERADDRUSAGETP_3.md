@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressNumber` | `AddressNumber` |
-| `key AddressUsage` | `AddressUsage` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `AddressUsage` | `AddressUsage` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `AddressUsageForEditValue` | `AddressUsageForEditValue` |
 | `ValidityEndDateForEdit` | `ValidityEndDateForEdit` |
 | `ValidityStartDate` | `ValidityStartDate` |
@@ -54,8 +54,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
-| `_BusinessPartner        : redirected to I_BusinessPartnerTP_3` | *Association* |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `_AddressType` | *Association* |
 | `BPAddressIsProtected` | `BPAddressIsProtected` |

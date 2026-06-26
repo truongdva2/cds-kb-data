@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:WorkOrderCapacityRqmtCapacity
 ---
 # I_CAPACITYREQUIREMENTITEMCAP
 
@@ -30,21 +31,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` | `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` |
+| `CapacityRequirement` | `kbed.bedid` |
+| `CapacityRequirementItem` | `cast(kbed.bedzl as pph_bedzl preserving type)` |
+| `CapacityRqmtItemCapacity` | `-- representative key key cast(kbed.canum as pph_canum preserving type)` |
+| `CapacityRqmtConfirmation` | `kbed.bstkz` |
+| `WorkCenterInternalID` | `kbed.arbid` |
+| `WorkCenterTypeCode` | `cast('A' as pph_arbty preserving type)` |
+| `WorkCenterTypeCode_2` | `cast('A ' as vdm_arbty preserving type)` |
+| `CapacityInternalID` | `kbed.kapid` |
+| `PlannedOrder` | `kbed.plnum` |
+| `OrderInternalID` | `cast(kbed.aufpl as pph_aufpl preserving type)` |
 | `OrderID` | `afko.aufnr` |
-| `operationinternalid preserving type)` | `cast(kbed.aplzl` |
-| `Operation,                                                // with conv. exit NUMCV` | `kbed.vornr` |
-| `vdm_vornr preserving type)` | `cast(kbed.vornr` |
+| `OrderOperationInternalID` | `cast(kbed.aplzl as operationinternalid preserving type)` |
+| `Operation` | `kbed.vornr` |
+| `Operation_2` | `cast(kbed.vornr as vdm_vornr preserving type)` |
 | `SalesOperationsPlanningOrder` | `kbed.safnr` |
 | `PersonnelNumber` | `kbed.pernr` |
 | `CapacityRequirementDistrKey` | `kbed.kpver` |
 | `OperationIsPhase` | `kbed.phase_kz` |
 | `OperationPhaseCode` | `kbed.phase_kz` |
-| `pph_sumnr preserving type)` | `cast(kbed.bedzlf` |
-| `billofoperationstype    preserving type)` | `cast(kbed.plnty` |
-| `billofoperations        preserving type)` | `cast(kbed.plnnr` |
-| `billofoperationsvariant preserving type)` | `cast(kbed.plnal` |
-| `billofoperationschgstate preserving type)` | `cast(kbed.zaehl` |
+| `SuperiorOperationInternalID` | `cast(kbed.bedzlf as pph_sumnr preserving type)` |
+| `BillOfOperationsType` | `cast(kbed.plnty as billofoperationstype preserving type)` |
+| `BillOfOperationsGroup` | `cast(kbed.plnnr as billofoperations preserving type)` |
+| `BillOfOperations` | `cast(kbed.plnal as billofoperationsvariant preserving type)` |
+| `BillOfOperationsChangeStateID` | `cast(kbed.zaehl as billofoperationschgstate preserving type)` |
 | `BillOfOperationsSequence` | `kbed.plnfl` |
 | `BOOOperationInternalID` | `kbed.plnkn` |
 | `BOOOpInternalVersionCounter` | `kbed.zaehp` |
@@ -59,8 +69,8 @@ tags:
 | `RemainingCapReqOpSegTrdwnDurn` | `kbed.kabrrest` |
 | `OperationStandardDurationUnit` | `kbez.daune` |
 | `OperationStandardDuration` | `kbez.dauno` |
-| `pph_pdae preserving type)` | `cast(kbez.pdae` |
-| `pph_pdau preserving type)` | `cast(kbez.pdau` |
+| `ActualForecastDurationUnit` | `cast(kbez.pdae as pph_pdae preserving type)` |
+| `ActualForecastDuration` | `cast(kbez.pdau as pph_pdau preserving type)` |
 | `OperationEarliestStartDate` | `kbed.fstad` |
 | `OperationEarliestStartTime` | `kbed.fstau` |
 | `OperationEarliestEndDate` | `kbed.fendd` |
@@ -73,32 +83,32 @@ tags:
 | `ActualStartTime` | `kbed.istau` |
 | `ActualEndDate` | `kbed.iendd` |
 | `ActualEndTime` | `kbed.iendu` |
-| `pph_pedd preserving type)` | `cast(kbed.pendd` |
-| `pph_pedz preserving type)` | `cast(kbed.pendu` |
-| `pph_fssbd preserving type)` | `cast(kbed.fssbd` |
-| `pph_fssbz preserving type)` | `cast(kbed.fssbz` |
-| `pph_fssad preserving type)` | `cast(kbed.fssad` |
-| `pph_fssaz preserving type)` | `cast(kbed.fssaz` |
-| `pph_sssbd preserving type)` | `cast(kbed.sssbd` |
-| `pph_sssbz preserving type)` | `cast(kbed.sssbz` |
-| `pph_sssad preserving type)` | `cast(kbed.sssad` |
-| `pph_sssaz preserving type)` | `cast(kbed.sssaz` |
+| `ActualForecastEndDate` | `cast(kbed.pendd as pph_pedd preserving type)` |
+| `ActualForecastEndTime` | `cast(kbed.pendu as pph_pedz preserving type)` |
+| `ErlstSchedldProcStrtDte` | `cast(kbed.fssbd as pph_fssbd preserving type)` |
+| `ErlstSchedldProcStrtTime` | `cast(kbed.fssbz as pph_fssbz preserving type)` |
+| `ErlstSchedldTrdwnStrtDte` | `cast(kbed.fssad as pph_fssad preserving type)` |
+| `ErlstSchedldTrdwnStrtTime` | `cast(kbed.fssaz as pph_fssaz preserving type)` |
+| `LtstSchedldProcStrtDte` | `cast(kbed.sssbd as pph_sssbd preserving type)` |
+| `LtstSchedldProcStrtTime` | `cast(kbed.sssbz as pph_sssbz preserving type)` |
+| `LtstSchedldTrdwnStrtDte` | `cast(kbed.sssad as pph_sssad preserving type)` |
+| `LtstSchedldTrdwnStrtTime` | `cast(kbed.sssaz as pph_sssaz preserving type)` |
 | `ActualNumberOfSplits` | `kbed.ispli` |
-| `pph_split preserving type)` | `cast(kbed.split` |
+| `CapacityRequirementSplit` | `cast(kbed.split as pph_split preserving type)` |
 | `ObjectInternalID` | `kbed.kbsta` |
-| `pph_obsta preserving type)` | `cast(kbed.obsta` |
-| `pph_vge01 preserving type)` | `cast(kbez.vge01` |
-| `vdm_vgw01 preserving type)` | `cast(kbez.vgw01` |
-| `pph_vge02 preserving type)` | `cast(kbez.vge02` |
-| `vdm_vgw02 preserving type)` | `cast(kbez.vgw02` |
-| `pph_vge03 preserving type)` | `cast(kbez.vge03` |
-| `vdm_vgw03 preserving type)` | `cast(kbez.vgw03` |
-| `pph_vge04 preserving type)` | `cast(kbez.vge04` |
-| `vdm_vgw04 preserving type)` | `cast(kbez.vgw04` |
-| `pph_vge05 preserving type)` | `cast(kbez.vge05` |
-| `vdm_vgw05 preserving type)` | `cast(kbez.vgw05` |
-| `pph_vge06 preserving type)` | `cast(kbez.vge06` |
-| `vdm_vgw06 preserving type)` | `cast(kbez.vgw06` |
+| `OrderObjectInternalID` | `cast(kbed.obsta as pph_obsta preserving type)` |
+| `StandardWorkQuantityUnit1` | `cast(kbez.vge01 as pph_vge01 preserving type)` |
+| `StandardWorkQuantity1` | `cast(kbez.vgw01 as vdm_vgw01 preserving type)` |
+| `StandardWorkQuantityUnit2` | `cast(kbez.vge02 as pph_vge02 preserving type)` |
+| `StandardWorkQuantity2` | `cast(kbez.vgw02 as vdm_vgw02 preserving type)` |
+| `StandardWorkQuantityUnit3` | `cast(kbez.vge03 as pph_vge03 preserving type)` |
+| `StandardWorkQuantity3` | `cast(kbez.vgw03 as vdm_vgw03 preserving type)` |
+| `StandardWorkQuantityUnit4` | `cast(kbez.vge04 as pph_vge04 preserving type)` |
+| `StandardWorkQuantity4` | `cast(kbez.vgw04 as vdm_vgw04 preserving type)` |
+| `StandardWorkQuantityUnit5` | `cast(kbez.vge05 as pph_vge05 preserving type)` |
+| `StandardWorkQuantity5` | `cast(kbez.vgw05 as vdm_vgw05 preserving type)` |
+| `StandardWorkQuantityUnit6` | `cast(kbez.vge06 as pph_vge06 preserving type)` |
+| `StandardWorkQuantity6` | `cast(kbez.vgw06 as vdm_vgw06 preserving type)` |
 | `StandardWorkQuantityUnit` | `kbez.arbeh` |
 | `PlannedWorkQuantity` | `kbez.arbei` |
 | `ActualWorkQuantity` | `kbez.ismnw` |

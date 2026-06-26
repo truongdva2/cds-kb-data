@@ -31,8 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 50}]` | `position: 50}]` |
-| `sp_username preserving type )` | `cast( _CreatedByUser.UserDescription` |
+| `SalesPlanUUID` | `SalesPlanUUID` |
+| `SalesPlan` | `SalesPlan` |
+| `SalesPlanVersion` | `SalesPlanVersion` |
+| `SalesPlanVersionDescription` | `SalesPlanVersionDescription` |
+| `CreatedByUser` | `CreatedByUser` |
+| `UserDescription` | `cast( _CreatedByUser.UserDescription as sp_username preserving type )` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recreq_stat_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CASrvcReconncnReqStatus` | `cast( left( domvalue_l, 1 ) as recreq_stat_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

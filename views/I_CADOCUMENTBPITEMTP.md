@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CADocumentNumber` | `CADocumentNumber` |
-| `key CARepetitionItemNumber` | `CARepetitionItemNumber` |
-| `key CABPItemNumber` | `CABPItemNumber` |
-| `key CASubItemNumber` | `CASubItemNumber` |
+| `CADocumentNumber` | `CADocumentNumber` |
+| `CARepetitionItemNumber` | `CARepetitionItemNumber` |
+| `CABPItemNumber` | `CABPItemNumber` |
+| `CASubItemNumber` | `CASubItemNumber` |
 | `CompanyCode` | `CompanyCode` |
 | `BusinessArea` | `BusinessArea` |
 | `BusinessPlace` | `BusinessPlace` |
@@ -172,9 +172,6 @@ tags:
 | `CACurrentFactoringStatusOfRbl` | `CACurrentFactoringStatusOfRbl` |
 | `CAFactoringCheckStsForClrgInfo` | `CAFactoringCheckStsForClrgInfo` |
 | `SEPAMandateCAInternalID` | `SEPAMandateCAInternalID` |
-| `/* Associations */` | `/* Associations */` |
-| `_DocHeader     : redirected to parent I_CADocumentTP` | *Association* |
-| `_BPItemBusLock : redirected to composition child I_CADocumentBPItemBusLockTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_CAPartner` | *Association* |
 | `_ProviderContract` | *Association* |

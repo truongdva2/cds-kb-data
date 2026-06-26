@@ -49,7 +49,7 @@ tags:
 | `IsLatestBOMVersion` | `bom_header.IsLatestBOMVersion` |
 | `BOMIsConfigurable` | `bom_header.BOMIsConfigurable` |
 | `IsConfiguredMaterial` | `bom_header.IsConfiguredMaterial` |
-| `tetyp_d preserving type)` | `cast ( bom_header.BOMTechnicalType` |
+| `BOMTechnicalType` | `cast ( bom_header.BOMTechnicalType as tetyp_d preserving type)` |
 | `BOMGroup` | `bom_header.BOMGroup` |
 | `BOMHeaderText` | `bom_header.BOMHeaderText` |
 | `BOMAlternativeText` | `bom_header.BOMAlternativeText` |

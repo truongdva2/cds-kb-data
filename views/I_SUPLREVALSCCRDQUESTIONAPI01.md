@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalSccrdQuestionUUID
 ---
 # I_SUPLREVALSCCRDQUESTIONAPI01
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalSccrdQuestionUUID` | `SuplrEvalSccrdQuestionUUID` |
+| `SuplrEvalSccrdQuestionUUID` | `SuplrEvalSccrdQuestionUUID` |
 | `SuplrEvalSccrdUUID` | `SuplrEvalSccrdUUID` |
 | `SuplrEvalSccrdSectionUUID` | `SuplrEvalSccrdSectionUUID` |
 | `SuplrEvalReqQuestionUUID` | `SuplrEvalReqQuestionUUID` |

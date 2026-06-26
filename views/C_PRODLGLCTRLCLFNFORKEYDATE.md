@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key LegalRegulation` | `LegalRegulation` |
+| `Product` | `Product` |
+| `LegalRegulation` | `LegalRegulation` |
 | `ControlClass` | `ControlClass` |
 | `IsTrdCmplncControlRelevant` | `IsTrdCmplncControlRelevant` |
 | `ControlGrouping` | `ControlGrouping` |

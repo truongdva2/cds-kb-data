@@ -15,6 +15,7 @@ tags:
   - status
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionResultStatus
 ---
 # I_INSPECTIONRESULTSTATUS
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspectionResultStatus` | `tq76.status` |
-| `_Text[1:Language = $session.system_language].InspectionResultStatusText` | *Association* |
+| `InspectionResultStatusText` | `_Text[1:Language = $session.system_language].InspectionResultStatusText` |
 | `_Text` | *Association* |
 
 ## Associations

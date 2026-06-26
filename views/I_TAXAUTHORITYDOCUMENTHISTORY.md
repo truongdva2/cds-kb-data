@@ -48,7 +48,6 @@ tags:
 | `EDCCreatedOnDateTime` | `created_on` |
 | `EDCChangedByUser` | `changed_by` |
 | `EDCChangedOnDateTime` | `changed_on` |
-| `/* associations */` | `/* associations */` |
 | `_TaxAuthDoc` | *Association* |
 
 ## Associations

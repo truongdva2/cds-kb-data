@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:RE-FX-2CL
   - lob:Other
+  - bo:RENoticeRuleType
 ---
 # I_RENOTICERULETYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `retmntruletype )` | `cast( dd07l.domvalue_l` |
+| `RENoticeRuleType` | `cast( dd07l.domvalue_l as retmntruletype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RENoticeRuleTypeText` | [0..*] |
 
 ## Source Code
 

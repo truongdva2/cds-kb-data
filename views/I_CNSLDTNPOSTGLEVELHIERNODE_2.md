@@ -30,19 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `fincs_postinglevelhierarchy preserving type )` | `cast( _HierarchyNode.UniversalHierarchy` |
+| `ConsolidationPostgLevelHier` | `cast(…)` |
 | `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
-| `_HierarchyNode.ParentNode                                                                as ParentNode` | *Association* |
-| `_HierarchyNode.HierarchyVersion` | *Association* |
-| `cast(` | `cast(` |
-| `case` | `case` |
-| `when _HierarchyNode.ConsolidationPostingLevel =  '#' then ''` | `when _HierarchyNode.ConsolidationPostingLevel =  '#' then ''` |
-| `else _HierarchyNode.ConsolidationPostingLevel` | `else _HierarchyNode.ConsolidationPostingLevel` |
-| `fc_plevl preserving type )` | `end` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `ConsolidationPostingLevel` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Text_2` | *Association* |
 | `_PostingLevel` | *Association* |

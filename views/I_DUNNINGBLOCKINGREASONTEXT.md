@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningBlockingReason
 ---
 # I_DUNNINGBLOCKINGREASONTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_mansp preserving type )` | `cast( mansp` |
+| `DunningBlockingReason` | `cast( mansp as farp_mansp preserving type )` |
 | `Language` | `spras` |
-| `farp_text1_040t preserving type )` | `cast( text1` |
+| `DunningBlockingReasonDesc` | `cast( text1 as farp_text1_040t preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

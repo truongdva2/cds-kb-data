@@ -32,17 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsSchedgAgrmtText.SalesSchedulingAgreement` | `SlsSchedgAgrmtText.SalesSchedulingAgreement` |
-| `key SlsSchedgAgrmtText.Language` | `SlsSchedgAgrmtText.Language` |
-| `key SlsSchedgAgrmtText.LongTextID` | `SlsSchedgAgrmtText.LongTextID` |
-| `SlsSchedgAgrmtText.LongTextIDForEdit` | `SlsSchedgAgrmtText.LongTextIDForEdit` |
-| `SlsSchedgAgrmtText.LanguageForEdit` | `SlsSchedgAgrmtText.LanguageForEdit` |
-| `SlsSchedgAgrmtText.LongText` | `SlsSchedgAgrmtText.LongText` |
-| `SlsSchedgAgrmtText.SalesSchedgAgrmtType` | `SlsSchedgAgrmtText.SalesSchedgAgrmtType` |
-| `SlsSchedgAgrmtText.SalesOrganization` | `SlsSchedgAgrmtText.SalesOrganization` |
-| `SlsSchedgAgrmtText.DistributionChannel` | `SlsSchedgAgrmtText.DistributionChannel` |
-| `SlsSchedgAgrmtText.OrganizationDivision` | `SlsSchedgAgrmtText.OrganizationDivision` |
-| `_SalesSchedulingAgreement : redirected to parent I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SlsSchedgAgrmtText.SalesSchedulingAgreement` |
+| `Language` | `SlsSchedgAgrmtText.Language` |
+| `LongTextID` | `SlsSchedgAgrmtText.LongTextID` |
+| `LongTextIDForEdit` | `SlsSchedgAgrmtText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SlsSchedgAgrmtText.LanguageForEdit` |
+| `LongText` | `SlsSchedgAgrmtText.LongText` |
+| `SalesSchedgAgrmtType` | `SlsSchedgAgrmtText.SalesSchedgAgrmtType` |
+| `SalesOrganization` | `SlsSchedgAgrmtText.SalesOrganization` |
+| `DistributionChannel` | `SlsSchedgAgrmtText.DistributionChannel` |
+| `OrganizationDivision` | `SlsSchedgAgrmtText.OrganizationDivision` |
 
 ## Associations
 

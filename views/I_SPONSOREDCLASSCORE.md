@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-GM-GTE-MD
   - lob:Other
+  - bo:SponsoredClass
 ---
 # I_SPONSOREDCLASSCORE
 
@@ -32,7 +33,7 @@ tags:
 |---|---|
 | `SponsoredClass` | `sponsored_class` |
 | `SponsoredClassType` | `class_type` |
-| `gm_flg_billable_ce preserving type )` | `cast(flg_billable` |
+| `SponsoredClassIsBillable` | `cast(flg_billable as gm_flg_billable_ce preserving type )` |
 | `CreatedByUser` | `created_by` |
 | `CreationDate` | `created_on` |
 | `LastChangedByUser` | `modified_by` |

@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinSGLCompoundErrorCategory` | `_CompoundErrorCategory.cmp_err_cat` |
-| `_text.kbez                         as FinSGLCompndErrCatDesc` | *Association* |
+| `FinSGLCompndErrCatDesc` | `_text.kbez` |
 
 ## Associations
 

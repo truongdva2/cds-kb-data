@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key PricingProcedure` | `PricingProcedure` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `Language` | `Language` |
+| `PricingProcedure` | `PricingProcedure` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionUsage` | `ConditionUsage` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionTypeName` | `ConditionTypeName` |

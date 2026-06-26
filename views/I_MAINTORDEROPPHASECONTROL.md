@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrdOperationPhaseControl
 ---
 # I_MAINTORDEROPPHASECONTROL
 
@@ -31,41 +32,36 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MaintenanceOrder` | `MaintenanceOrderOperAndSubOper.MaintenanceOrder` |
-| `maintenanceorderoperation preserving type )` | `cast( MaintenanceOrderOperAndSubOper.MaintenanceOrderOperation` |
-| `maintenanceordersuboperation preserving type )` | `cast( MaintenanceOrderOperAndSubOper.MaintenanceOrderSubOperation` |
+| `MaintenanceOrderOperation` | `cast(…)` |
+| `MaintenanceOrderSubOperation` | `cast(…)` |
 | `MaintenancePhaseControl` | `MaintObjectPhaseControl.MaintenancePhaseControlName` |
-| `MaintObjectPhaseControl.MaintenancePhaseControlName, //for the future, it will be language-dependent` | `MaintObjectPhaseControl.MaintenancePhaseControlName, //for the future, it will be language-dependent` |
-| `StatusObjectStatus.StatusObject` | `StatusObjectStatus.StatusObject` |
-| `MaintObjectPhaseControl.MaintUserStatusProfileCode` | `MaintObjectPhaseControl.MaintUserStatusProfileCode` |
-| `MaintObjectPhaseControl.MaintenanceUserStatusCode` | `MaintObjectPhaseControl.MaintenanceUserStatusCode` |
-| `MaintObjectPhaseControl.MaintenancePhaseControlText, //for the future, it will be language-dependent` | `MaintObjectPhaseControl.MaintenancePhaseControlText, //for the future, it will be language-dependent` |
-| `MaintObjectPhaseControl.MaintPhseCtrlIsSetAutomly` | `MaintObjectPhaseControl.MaintPhseCtrlIsSetAutomly` |
-| `MaintObjectPhaseControl.EAMOverallStatusProfile` | `MaintObjectPhaseControl.EAMOverallStatusProfile` |
-| `MaintObjectPhaseControl.MaintPhaseControlAuthorityCode` | `MaintObjectPhaseControl.MaintPhaseControlAuthorityCode` |
-| `MaintPhseCtrlActvtnProcValue.MaintProcgPhseCtrlActvtnCode` | `MaintPhseCtrlActvtnProcValue.MaintProcgPhseCtrlActvtnCode` |
-| `MaintPhseCtrlActvtnProcValue.EAMProcessPhaseCode` | `MaintPhseCtrlActvtnProcValue.EAMProcessPhaseCode` |
-| `MaintPhseCtrlActvtnProcValue.EAMProcessSubPhaseCode` | `MaintPhseCtrlActvtnProcValue.EAMProcessSubPhaseCode` |
-| `vdm_j_statusisactive preserving type )` | `cast( StatusObjectStatus.StatusIsActive` |
-| `cast( case` | `cast( case` |
-| `when StatusObjectStatus.StatusIsActive   = 'X' then 'X'` | `when StatusObjectStatus.StatusIsActive   = 'X' then 'X'` |
-| `when StatusObjectStatus.StatusIsInactive = 'X' then 'Y'` | `when StatusObjectStatus.StatusIsInactive = 'X' then 'Y'` |
-| `else ''` | `else ''` |
-| `eam_bo_blkcd_status preserving type)` | `end` |
-| `MaintenanceOrder.MaintenanceOrderType` | `MaintenanceOrder.MaintenanceOrderType` |
-| `MaintenanceOrder.MaintenancePlanningPlant` | `MaintenanceOrder.MaintenancePlanningPlant` |
-| `MaintObjectPhaseControl.EAMBlockerCodeEntityType` | `MaintObjectPhaseControl.EAMBlockerCodeEntityType` |
-| `_MaintenanceOrderOperation.MaintOrdOpProcessPhaseCode` | *Association* |
-| `_MaintenanceOrderOperation.MaintOrdOpProcessSubPhaseCode` | *Association* |
-| `/* Propagated associations */` | `/* Propagated associations */` |
+| `MaintenancePhaseControlName` | `MaintObjectPhaseControl.MaintenancePhaseControlName` |
+| `StatusObject` | `StatusObjectStatus.StatusObject` |
+| `MaintUserStatusProfileCode` | `MaintObjectPhaseControl.MaintUserStatusProfileCode` |
+| `MaintenanceUserStatusCode` | `MaintObjectPhaseControl.MaintenanceUserStatusCode` |
+| `MaintenancePhaseControlText` | `MaintObjectPhaseControl.MaintenancePhaseControlText` |
+| `MaintPhseCtrlIsSetAutomly` | `MaintObjectPhaseControl.MaintPhseCtrlIsSetAutomly` |
+| `EAMOverallStatusProfile` | `MaintObjectPhaseControl.EAMOverallStatusProfile` |
+| `MaintPhaseControlAuthorityCode` | `MaintObjectPhaseControl.MaintPhaseControlAuthorityCode` |
+| `MaintProcgPhseCtrlActvtnCode` | `MaintPhseCtrlActvtnProcValue.MaintProcgPhseCtrlActvtnCode` |
+| `EAMProcessPhaseCode` | `MaintPhseCtrlActvtnProcValue.EAMProcessPhaseCode` |
+| `EAMProcessSubPhaseCode` | `MaintPhseCtrlActvtnProcValue.EAMProcessSubPhaseCode` |
+| `MaintObjPhseCtrlStatusIsActive` | `cast(…)` |
+| `MaintObjPhaseControlStateCode` | `cast(…)` |
+| `MaintenanceOrderType` | `MaintenanceOrder.MaintenanceOrderType` |
+| `MaintenancePlanningPlant` | `MaintenanceOrder.MaintenancePlanningPlant` |
+| `EAMBlockerCodeEntityType` | `MaintObjectPhaseControl.EAMBlockerCodeEntityType` |
+| `MaintOrdOpProcessPhaseCode` | `_MaintenanceOrderOperation.MaintOrdOpProcessPhaseCode` |
+| `MaintOrdOpProcessSubPhaseCode` | `_MaintenanceOrderOperation.MaintOrdOpProcessSubPhaseCode` |
 | `_MaintenanceOrderOperation` | *Association* |
 | `_MaintenanceOrder` | *Association* |
 | `_MaintObjPhseCtrlCodeChgSet` | *Association* |
 | `_MaintObjPhseCtrlCodeChgReset` | *Association* |
-| `MaintPhseCtrlActvtnProcValue._ProcessingPhase` | `MaintPhseCtrlActvtnProcValue._ProcessingPhase` |
-| `MaintPhseCtrlActvtnProcValue._ProcessingSubPhase` | `MaintPhseCtrlActvtnProcValue._ProcessingSubPhase` |
-| `StatusObjectStatus._StatusObject` | `StatusObjectStatus._StatusObject` |
-| `MaintObjectPhaseControl._StatusCode` | `MaintObjectPhaseControl._StatusCode` |
-| `MaintObjectPhaseControl._StatusProfile` | `MaintObjectPhaseControl._StatusProfile` |
+| `_ProcessingPhase` | *Association* |
+| `_ProcessingSubPhase` | *Association* |
+| `_StatusObject` | *Association* |
+| `_StatusCode` | *Association* |
+| `_StatusProfile` | *Association* |
 | `_MaintPhseCtrlActivationCode` | *Association* |
 
 ## Associations

@@ -17,6 +17,7 @@ tags:
   - status
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:CaseStatus
 ---
 # I_CASEINDIVSTATUSTEXT
 
@@ -46,7 +47,6 @@ tags:
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
 | `_CaseStatusProfile` | `I_CaseStatProfile` | [0..1] |
-| `_CaseIndividual` | `I_Caseindstatus` | [0..1] |
 
 ## Source Code
 

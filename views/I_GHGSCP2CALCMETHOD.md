@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethod
 ---
 # I_GHGSCP2CALCMETHOD
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sufnd_vdm_ghgscp2calcmeth )` | `cast( dd07l.domvalue_l` |
-| `DomainValue, //Needed for optimized access according VDM guideline` | `dd07l.domvalue_l` |
+| `GHGScope2CalculationMethod` | `cast( dd07l.domvalue_l as sufnd_vdm_ghgscp2calcmeth )` |
+| `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 | `_GHGScope` | *Association* |
 

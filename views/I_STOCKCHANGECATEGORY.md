@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ) )` | `cast ( cast ( substring( domvalue_l, 1, 2 )` |
+| `StockChangeCategory` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

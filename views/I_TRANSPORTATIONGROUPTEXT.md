@@ -17,6 +17,7 @@ tags:
   - text
   - component:TM-MD-PR-2CL
   - lob:Other
+  - bo:TransportationGroup
 ---
 # I_TRANSPORTATIONGROUPTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransportationGroup` | `I_TransportationGroup` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

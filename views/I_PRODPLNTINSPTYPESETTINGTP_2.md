@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
+| `InspectionLotType` | `InspectionLotType` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
 | `InspLotIsTaskListRequired` | `InspLotIsTaskListRequired` |
 | `InspLotHasMaterialSpec` | `InspLotHasMaterialSpec` |
 | `InspLotHasConfignSpecification` | `InspLotHasConfignSpecification` |
@@ -61,9 +61,6 @@ tags:
 | `InspLotHasHandlingUnit` | `InspLotHasHandlingUnit` |
 | `InspLotHasMultipleSpec` | `InspLotHasMultipleSpec` |
 | `InspLotOfEWMSummaryControl` | `InspLotOfEWMSummaryControl` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 
 ## Associations
 

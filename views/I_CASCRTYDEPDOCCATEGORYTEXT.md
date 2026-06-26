@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `secdep_doc_category_kk preserving type )` | `cast( left( dd07t.domvalue_l, 3 )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `secdep_doc_category_text_kk preserving type )` | `cast( ddtext` |
+| `CASecurityDepositDocCategory` | `cast( left( dd07t.domvalue_l, 3 ) as secdep_doc_category_kk preserving type )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CASecurityDepositDocCatText` | `cast( ddtext as secdep_doc_category_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

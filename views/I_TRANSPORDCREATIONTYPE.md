@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderCreationType
 ---
 # I_TRANSPORDCREATIONTYPE
 
@@ -28,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_creation_type preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderCrtnType` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_creation_type preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdCreationTypeText` | [0..*] |
 
 ## Source Code
 

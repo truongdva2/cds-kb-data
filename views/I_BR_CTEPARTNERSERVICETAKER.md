@@ -16,6 +16,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTePartnerServiceTaker
 ---
 # I_BR_CTEPARTNERSERVICETAKER
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_CTePartnerServiceTaker` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:ConditionRateRatioUnit
 ---
 # I_CONDITIONRATERATIOUNIT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRateRatioUnit.ConditionRateRatioUnit` | `ConditionRateRatioUnit.ConditionRateRatioUnit` |
-| `ConditionRateRatioUnit.UnitOfMeasureISOCode` | `ConditionRateRatioUnit.UnitOfMeasureISOCode` |
-| `ConditionRateRatioUnit._ISOCode` | `ConditionRateRatioUnit._ISOCode` |
+| `ConditionRateRatioUnit` | `ConditionRateRatioUnit.ConditionRateRatioUnit` |
+| `UnitOfMeasureISOCode` | `ConditionRateRatioUnit.UnitOfMeasureISOCode` |
+| `_ISOCode` | *Association* |
 
 ## Associations
 

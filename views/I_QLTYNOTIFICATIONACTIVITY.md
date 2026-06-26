@@ -30,36 +30,35 @@ tags:
 | Field | Data Source |
 |---|---|
 | `QualityNotification` | `I_NotificationActivity.Notification` |
-| `key                     I_NotificationActivity.NotificationActivity` | `I_NotificationActivity.NotificationActivity` |
-| `I_NotificationActivity.NotificationItem` | `I_NotificationActivity.NotificationItem` |
-| `I_NotificationActivity.NotificationActivitySortNumber` | `I_NotificationActivity.NotificationActivitySortNumber` |
-| `I_NotificationActivity.IsDeleted` | `I_NotificationActivity.IsDeleted` |
-| `I_NotificationActivity.MasterLanguage` | `I_NotificationActivity.MasterLanguage` |
-| `I_NotificationActivity.NotifActivityCatalog` | `I_NotificationActivity.NotifActivityCatalog` |
-| `I_NotificationActivity.NotifActivityCodeGroup` | `I_NotificationActivity.NotifActivityCodeGroup` |
-| `I_NotificationActivity.NotifActivityCode` | `I_NotificationActivity.NotifActivityCode` |
-| `I_NotificationActivity.NotifActivityText` | `I_NotificationActivity.NotifActivityText` |
-| `I_NotificationActivity.NotifActivityStartDate` | `I_NotificationActivity.NotifActivityStartDate` |
-| `I_NotificationActivity.NotifActivityStartTime` | `I_NotificationActivity.NotifActivityStartTime` |
-| `I_NotificationActivity.NotifActivityEndDate` | `I_NotificationActivity.NotifActivityEndDate` |
-| `I_NotificationActivity.NotifActivityEndTime` | `I_NotificationActivity.NotifActivityEndTime` |
-| `I_QltyNotification.NotifProcessingPhase` | `I_QltyNotification.NotifProcessingPhase` |
-| `I_NotificationActivity.ChangedDateTime` | `I_NotificationActivity.ChangedDateTime` |
-| `I_NotificationActivity.CreatedByUser` | `I_NotificationActivity.CreatedByUser` |
-| `I_NotificationActivity.CreationDate` | `I_NotificationActivity.CreationDate` |
-| `I_NotificationActivity.CreationTime` | `I_NotificationActivity.CreationTime` |
-| `I_NotificationActivity.LastChangedByUser` | `I_NotificationActivity.LastChangedByUser` |
-| `I_NotificationActivity.LastChangeDate` | `I_NotificationActivity.LastChangeDate` |
-| `I_NotificationActivity.LastChangeTime` | `I_NotificationActivity.LastChangeTime` |
-| `I_QltyNotification.IsBusinessPurposeCompleted` | `I_QltyNotification.IsBusinessPurposeCompleted` |
-| `/* Associations */` | `/* Associations */` |
+| `NotificationActivity` | `I_NotificationActivity.NotificationActivity` |
+| `NotificationItem` | `I_NotificationActivity.NotificationItem` |
+| `NotificationActivitySortNumber` | `I_NotificationActivity.NotificationActivitySortNumber` |
+| `IsDeleted` | `I_NotificationActivity.IsDeleted` |
+| `MasterLanguage` | `I_NotificationActivity.MasterLanguage` |
+| `NotifActivityCatalog` | `I_NotificationActivity.NotifActivityCatalog` |
+| `NotifActivityCodeGroup` | `I_NotificationActivity.NotifActivityCodeGroup` |
+| `NotifActivityCode` | `I_NotificationActivity.NotifActivityCode` |
+| `NotifActivityText` | `I_NotificationActivity.NotifActivityText` |
+| `NotifActivityStartDate` | `I_NotificationActivity.NotifActivityStartDate` |
+| `NotifActivityStartTime` | `I_NotificationActivity.NotifActivityStartTime` |
+| `NotifActivityEndDate` | `I_NotificationActivity.NotifActivityEndDate` |
+| `NotifActivityEndTime` | `I_NotificationActivity.NotifActivityEndTime` |
+| `NotifProcessingPhase` | `I_QltyNotification.NotifProcessingPhase` |
+| `ChangedDateTime` | `I_NotificationActivity.ChangedDateTime` |
+| `CreatedByUser` | `I_NotificationActivity.CreatedByUser` |
+| `CreationDate` | `I_NotificationActivity.CreationDate` |
+| `CreationTime` | `I_NotificationActivity.CreationTime` |
+| `LastChangedByUser` | `I_NotificationActivity.LastChangedByUser` |
+| `LastChangeDate` | `I_NotificationActivity.LastChangeDate` |
+| `LastChangeTime` | `I_NotificationActivity.LastChangeTime` |
+| `IsBusinessPurposeCompleted` | `I_QltyNotification.IsBusinessPurposeCompleted` |
 | `_Notification` | *Association* |
-| `I_NotificationActivity._CreatedByUserContactCard` | `I_NotificationActivity._CreatedByUserContactCard` |
-| `I_NotificationActivity._LastChangedByUserContactCard` | `I_NotificationActivity._LastChangedByUserContactCard` |
-| `I_NotificationActivity._Language` | `I_NotificationActivity._Language` |
-| `I_NotificationActivity._NotifActivityCatalog` | `I_NotificationActivity._NotifActivityCatalog` |
-| `I_NotificationActivity._NotifActivityCodeGroup` | `I_NotificationActivity._NotifActivityCodeGroup` |
-| `I_NotificationActivity._NotifActivityCode` | `I_NotificationActivity._NotifActivityCode` |
+| `_CreatedByUserContactCard` | *Association* |
+| `_LastChangedByUserContactCard` | *Association* |
+| `_Language` | *Association* |
+| `_NotifActivityCatalog` | *Association* |
+| `_NotifActivityCodeGroup` | *Association* |
+| `_NotifActivityCode` | *Association* |
 | `_QltyNotifActivityLongText` | *Association* |
 
 ## Associations

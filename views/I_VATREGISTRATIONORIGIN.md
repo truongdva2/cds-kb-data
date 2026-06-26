@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:VATRegistrationOrigin
 ---
 # I_VATREGISTRATIONORIGIN
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `stceg_h preserving type )` | `cast(substring(dd07l.domvalue_l, 1, 1)` |
+| `VATRegistrationOrigin` | `cast(substring(dd07l.domvalue_l, 1, 1) as stceg_h preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

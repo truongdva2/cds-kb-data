@@ -33,15 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CountryVH', element : 'Country'} , useAsTemplate: true }]` | `name: 'I_CountryVH', element : 'Country'} , useAsTemplate: true }]` |
-| `key Country` | `Country` |
-| `key ProductSalesTaxCategory` | `ProductSalesTaxCategory` |
-| `key ProductSalesOrg` | `ProductSalesOrg` |
-| `key ProductDistributionChnl` | `ProductDistributionChnl` |
+| `Product` | `Product` |
+| `Country` | `Country` |
+| `ProductSalesTaxCategory` | `ProductSalesTaxCategory` |
+| `ProductSalesOrg` | `ProductSalesOrg` |
+| `ProductDistributionChnl` | `ProductDistributionChnl` |
 | `ProductTaxClassification` | `ProductTaxClassification` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product              : redirected to I_ProductTP_2` | *Association* |
-| `_ProductSalesDelivery : redirected to parent I_ProductSalesDeliveryTP_2` | *Association* |
 | `_CountryName` | *Association* |
 
 ## Associations

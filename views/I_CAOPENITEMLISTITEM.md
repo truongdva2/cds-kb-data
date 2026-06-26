@@ -31,12 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CAOpenItemListUUID` | `guid` |
-| `/* business partner item identification */` | `/* business partner item identification */` |
 | `CADocumentNumber` | `opbel` |
 | `CARepetitionItemNumber` | `opupw` |
 | `CABPItemNumber` | `opupk` |
 | `CASubItemNumber` | `opupz` |
-| `/* organizational and master data */` | `/* organizational and master data */` |
 | `CompanyCode` | `bukrs` |
 | `BusinessArea` | `gsber` |
 | `BusinessPlace` | `bupla` |
@@ -53,7 +51,6 @@ tags:
 | `CASubApplication` | `subap` |
 | `AltvContractAcctForCollvBills` | `abwkt` |
 | `CAReconciliationAccount` | `hkont` |
-| `/* posting attributes */` | `/* posting attributes */` |
 | `CAApplicationArea` | `applk` |
 | `CAMainTransaction` | `hvorg` |
 | `CASubTransaction` | `tvorg` |
@@ -82,32 +79,26 @@ tags:
 | `CANegativePostingControlCode` | `negbu` |
 | `CAPartnerSettlementStatus` | `ptitm` |
 | `CAIsPartOfJointLiability` | `palix` |
-| `/* document references */` | `/* document references */` |
 | `CASubstituteDocumentNumber` | `abwbl` |
 | `CASubstituteDocumentCategory` | `abwtp` |
 | `CAStatisticalCodeOfOriginItem` | `astkz` |
 | `CADocumentNumberOfOriginItem` | `asblg` |
 | `CAReferenceDocument` | `xblnr` |
-| `/* dates and amounts */` | `/* dates and amounts */` |
 | `DocumentDate` | `bldat` |
 | `CAPostingDate` | `budat` |
 | `CANetDueDate` | `faedn` |
 | `CADeferralDate` | `studt` |
 | `TransactionCurrency` | `waers` |
-| `_CompCode.Currency                                                as CompanyCodeCurrency` | *Association* |
-| `fis_absolute_exchangerate preserving type )` | `cast( abs( kursf )` |
-| `cast( case when kursf < 0 then 'X'` | `cast( case when kursf < 0 then 'X'` |
-| `else ' '` | `else ' '` |
-| `fis_indirect_quotation preserving type )` | `end` |
+| `CompanyCodeCurrency` | `_CompCode.Currency` |
+| `CAExchangeRate` | `cast( abs( kursf ) as fis_absolute_exchangerate preserving type )` |
+| `ExchRateIsIndirectQuotation` | `cast(…)` |
 | `CAAmountInLocalCurrency` | `betrh` |
 | `CAAmountInTransactionCurrency` | `betrw` |
 | `CAAmountInSecondCurrency` | `betr2` |
 | `CAAmountInThirdCurrency` | `betr3` |
-| `/* cash discount */` | `/* cash discount */` |
 | `CACashDiscountDueDate` | `faeds` |
 | `CACashDiscountRate` | `sktpz` |
 | `CAEligibleAmountForCshDiscount` | `skfbt` |
-| `/* tax data */` | `/* tax data */` |
 | `TaxCode` | `mwskz` |
 | `CASupplementaryTaxCode` | `mwszkz` |
 | `CATaxAmountInLocalCurrency` | `sbeth` |
@@ -130,12 +121,10 @@ tags:
 | `CATaxPortionInLocalCurrency` | `sctax` |
 | `CATaxPortionInTransCurrency` | `sttax` |
 | `CATaxIsCalculatedExternally` | `xustpd` |
-| `/* payment data */` | `/* payment data */` |
 | `CAPaymentMethod` | `pymet` |
 | `CAPaymentCompanyCode` | `pybuk` |
 | `CAGroupingForPayment` | `pygrp` |
 | `CAPaymentSpecificationCategory` | `pdtyp` |
-| `/* clearing data */` | `/* clearing data */` |
 | `CAClearingStatus` | `augst` |
 | `CAClearingDate` | `augdt` |
 | `CAClearingDocumentNumber` | `augbl` |
@@ -149,48 +138,40 @@ tags:
 | `CAClearingRestrictionCode` | `augrs` |
 | `CAClearingPostingIsReset` | `xragl` |
 | `CAItemIsWithdrawn` | `augob` |
-| `/* dunning and collections */` | `/* dunning and collections */` |
 | `CAItemIsExcludedFromDunning` | `xmanl` |
 | `CADunningProcedure` | `mahnv` |
 | `CAGrpgCodeForTransfToCollAgcy` | `inkps` |
 | `CAIsIncludedInCollectionCase` | `xcolc` |
-| `/* cash management data */` | `/* cash management data */` |
 | `CashPlanningGroup` | `fdgrp` |
 | `PlanningLevel` | `fdlev` |
 | `CAAdditionalDaysForCashMgmt` | `fdztg` |
-| `abap.curr( 23, 2 ))` | `cast(cast(fdwbt` |
-| `/* alternative business partner for payment */` | `/* alternative business partner for payment */` |
+| `PlannedAmtInTransactionCrcy` | `cast(cast(fdwbt as abap.curr( 23, 2 )) as fis_fdwbt)` |
 | `CAAltvBPForPayment` | `emgpa` |
 | `CABankOfAltvBPForPayment` | `embvt` |
 | `CAAddressOfAltvBPForPayment` | `emadr` |
 | `CACardOfAltvBPForPayment` | `emcrd` |
-| `/* GL data */` | `/* GL data */` |
 | `CAGLPostingCurrency` | `pswsl` |
 | `CAGLPostingAmount` | `pswbt` |
 | `CAGLPostingTaxAmount` | `pswtx` |
 | `CAIsSeparateLineItemInGL` | `xeiph` |
-| `/* cash flow data */` | `/* cash flow data */` |
 | `CAIsCashFlowItem` | `xcsha` |
 | `CACashFlowAccount` | `reacc` |
 | `CACashFlowCompanyCode` | `rebuk` |
-| `/* pre notification data */` | `/* pre notification data */` |
 | `CAPaymentPreNotificationCode` | `xpyor` |
 | `CASEPAPreNotificationNumber` | `pnnum` |
 | `CASEPAPreNotifOriginCode` | `pnhkf` |
 | `CASEPAPreNotifExecutionDate` | `pnexd` |
 | `CASEPAPreNotificationRqmtCode` | `pnctr` |
-| `/* revenue distribution data */` | `/* revenue distribution data */` |
 | `CARevenueDistrFinalRecipient` | `finre` |
 | `CARevenueDistrCurrentStatus` | `rdsta` |
 | `CARevenueDistrLastStatus` | `rdstb` |
-| `/* Factoring */` | `/* Factoring */` |
 | `CACurrentFactoringStatusOfRbl` | `fasta` |
 | `CAFactoringCheckStsForClrgInfo` | `pasta` |
 | `SEPAMandateCAInternalID` | `emmnd` |
-| `_CompCode.ControllingArea` | *Association* |
-| `_CompCode.ChartOfAccounts` | *Association* |
-| `_CompCode._Country.Country` | *Association* |
-| `_CompCode._Country.TaxCalculationProcedure` | *Association* |
+| `ControllingArea` | `_CompCode.ControllingArea` |
+| `ChartOfAccounts` | `_CompCode.ChartOfAccounts` |
+| `Country` | `_CompCode._Country.Country` |
+| `TaxCalculationProcedure` | `_CompCode._Country.TaxCalculationProcedure` |
 | `_CompCode` | *Association* |
 | `_CompCodePayt` | *Association* |
 | `_CADocument` | *Association* |
@@ -237,7 +218,6 @@ tags:
 | `_ChartOfAccounts` | *Association* |
 | `_ClrgRstrcnCode` | *Association* |
 | `_CAOpenItemList` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `_DocHeader` | *Association* |
 | `_SubstitDocHeader` | *Association* |
 | `_ClearingDocHeader` | *Association* |

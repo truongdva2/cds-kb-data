@@ -34,13 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SerialNumber` | `SerialNumber` |
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `/* Associations */` | `/* Associations */` |
-| `_MaterialDocumentHeader : redirected to I_MaterialDocumentTP` | *Association* |
-| `_MaterialDocumentItem : redirected to parent I_MaterialDocumentItemTP` | *Association* |
+| `SerialNumber` | `SerialNumber` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
 
 ## Associations
 

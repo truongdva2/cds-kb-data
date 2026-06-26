@@ -33,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_posting_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspChargePostingStatus` | `cast(substring(domvalue_l, 1, 2) as /scmtms/vdm_posting_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_chrg_postg_st_desc preserving type )` | `cast(ddtext` |
+| `TranspChargePostingStatusDesc` | `cast(ddtext as /scmtms/vdm_chrg_postg_st_desc preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspChargePostingStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -45,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargePostingStatus` | `I_TranspChargePostingStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

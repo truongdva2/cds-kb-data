@@ -30,10 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnAnswerVH'` | `name: 'I_CnsldtnAnswerVH'` |
-| `element: 'ConsolidationAnswer'` | `element: 'ConsolidationAnswer'` |
-| `}` | `}` |
-| `}]` | `}]` |
 | `ConsolidationAnswer` | `answer` |
 | `_Text` | *Association* |
 

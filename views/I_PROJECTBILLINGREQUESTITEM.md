@@ -34,9 +34,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_UnitOfMeasureStdVH'` | `name:    'I_UnitOfMeasureStdVH'` |
-| `element: 'UnitOfMeasure' }` | `element: 'UnitOfMeasure' }` |
-| `}]` | `}]` |
+| `ProjectBillingRequestItemUUID` | `projectbillingrequestitemuuid` |
+| `ProjectBillingRequestUUID` | `projectbillingrequestuuid` |
+| `ProjBillgElmntEntrItmUUID` | `projbillgelmntentritmuuid` |
+| `ProjectBillingElementUUID` | `projectbillingelementuuid` |
+| `SalesDocumentItem` | `salesdocumentitem` |
+| `BillingPlan` | `billingplan` |
+| `BillingPlanItem` | `billingplanitem` |
+| `ToBePostponedQuantity` | `tobepostponedquantity` |
+| `ToBePostponedAmtInTransacCrcy` | `tobepostponedamtintransaccrcy` |
+| `ToBePostponedAmtInProjectCrcy` | `tobepostponedamtinprojectcrcy` |
+| `ToBePostponedAmtInGlobalCrcy` | `tobepostponedamtinglobalcrcy` |
+| `ToBeWrittenOffQuantity` | `tobewrittenoffquantity` |
+| `ToBeWrittenOffAmtInTransCrcy` | `tobewrittenoffamtintranscrcy` |
+| `ToBeWrittenOffAmtInProjectCrcy` | `tobewrittenoffamtinprojectcrcy` |
+| `ToBeWrittenOffAmtInGlobalCrcy` | `tobewrittenoffamtinglobalcrcy` |
+| `BillableRevenueAmtInDocCrcy` | `billablerevenueamtindoccrcy` |
+| `ProjBillgReqItmCrtedByUser` | `projbillgreqitmcrtedbyuser` |
+| `ProjBillgReqItmCrtedAtDteTme` | `projbillgreqitmcrtedatdtetme` |
+| `ProjBillgReqItmLastChgdBy` | `projbillgreqitmlastchgdby` |
+| `ProjBillgReqItmLastChgdDteTme` | `projbillgreqitmlastchgddtetme` |
+| `ServicesRenderedDate` | `servicesrendereddate` |
+| `ToBeBilledQuantity` | `tobebilledquantity` |
+| `ToBeBilledAmtInTransCrcy` | `tobebilledamtintranscrcy` |
+| `ToBeBilledAmtInProjCurrency` | `tobebilledamtinprojcurrency` |
+| `ToBeBilledAmtInGlobCurrency` | `tobebilledamtinglobcurrency` |
+| `OpenQuantity` | `openquantity` |
+| `OpenAmountInTransCrcy` | `openamountintranscrcy` |
+| `OpenAmountInProjectCurrency` | `openamountinprojectcurrency` |
+| `OpenAmountInGlobalCurrency` | `openamountinglobalcurrency` |
+| `OpenRevenueAmtInDocCrcy` | `openrevenueamtindoccrcy` |
+| `NetPriceAmountInDocCrcy` | `netpriceamountindoccrcy` |
+| `NetPriceQuantity` | `netpricequantity` |
+| `NetPriceQuantityUnit` | `netpricequantityunit` |
+| `Material` | `material` |
+| `ManualBillgSelForPrjBlgReqItem` | `manualbillgselforprjblgreqitem` |
+| `ProjBillingRequestItemLongText` | `projbillingrequestitemlongtext` |
+| `ProjectBillingRequestItemDesc` | `projectbillingrequestitemdesc` |
+| `ProjBillgReqItmSourceType` | `projbillgreqitmsourcetype` |
+| `ProjBillgTransfCostQtyCode` | `projbillgtransfcostqtycode` |
+| `ProjBillgItmValIsNotActualCost` | `projbillgitmvalisnotactualcost` |
+| `TransactionCurrency` | `transactioncurrency` |
+| `GlobalCurrency` | `globalcurrency` |
+| `ProjectCurrency` | `projectcurrency` |
+| `DocumentCurrency` | `documentcurrency` |
 | `QuantityUnit` | `quantityunit` |
 | `_ProjectBillingRequest` | *Association* |
 | `_ProjBillingDueDate` | *Association* |
@@ -78,8 +119,6 @@ tags:
 | `_QuantityUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_ProjBillgReqItmSrceType` | `I_ProjBillgReqItmSrceType` | [0..1] |
 | `_ProjBillgReqItmSrceTypeText` | `I_ProjBillgReqItmSrceTypeText` | [1..*] |
-| `_SDBillingPlan` | `I_SDBillingPlan` | [0..1] |
-| `_SDBillingPlanItem` | `I_SDBillingPlanItem` | [0..1] |
 
 ## Source Code
 

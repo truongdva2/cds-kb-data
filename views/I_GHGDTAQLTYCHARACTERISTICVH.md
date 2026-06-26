@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGDataQualityCharacteristic
 ---
 # I_GHGDTAQLTYCHARACTERISTICVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGDataQualityCharacteristic` | `GHGDataQualityCharacteristic` |
+| `GHGDataQualityCharacteristic` | `GHGDataQualityCharacteristic` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -38,9 +38,9 @@ tags:
 | `InspResultItemInternalID` | `qase.stuecknr` |
 | `InspectionSubsetInternalID` | `qase.probenr` |
 | `InspectionResultMeasuredValue` | `qase.messwert` |
-| `qmesswrtni preserving type )` | `cast(case qase.messwertni when '*' then 'X' else qase.messwertni end` |
+| `InspResultHasMeasuredValue` | `cast(…)` |
 | `InspectionResultOriginalValue` | `qase.original_input` |
-| `vdm_qinspectionvalueresultdesc preserving type )` | `cast( qase.pruefbemkt` |
+| `InspectionResultText` | `cast( qase.pruefbemkt as vdm_qinspectionvalueresultdesc preserving type )` |
 | `InspectionResultHasLongText` | `qase.prltextkz` |
 | `Language` | `qase.ltextspr` |
 | `InspLotSingleUnitNumber` | `qase.estuecknr` |

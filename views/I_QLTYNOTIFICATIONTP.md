@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-QN-2CL
   - lob:Quality Management
+  - bo:QualityNotification
 ---
 # I_QLTYNOTIFICATIONTP
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QualityNotification` | `QualityNotification` |
+| `QualityNotification` | `QualityNotification` |
 | `MasterLanguage` | `MasterLanguage` |
 | `NotificationOrigin` | `NotificationOrigin` |
 | `NotificationType` | `NotificationType` |
@@ -77,10 +78,6 @@ tags:
 | `MaterialDocument` | `MaterialDocument` |
 | `MaterialDocumentItem` | `MaterialDocumentItem` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `_QltyNotificationLongText : redirected to composition child I_QltyNotificationLongTextTP` | *Association* |
-| `_QltyNotificationPartner  : redirected to composition child I_QualityNotificationPartnerTP` | *Association* |
-| `_QualityNotificationItem  : redirected to composition child I_QualityNotificationItemTP` | *Association* |
-| `_QltyNotificationTask     : redirected to composition child I_QltyNotificationTaskTP` | *Association* |
 
 ## Associations
 

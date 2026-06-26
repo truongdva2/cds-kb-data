@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:GLRecordType
 ---
 # I_GLRECORDTYPETEXT
 
@@ -32,14 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `rrcty )` | `cast( substring(domvalue_l, 1, 1)` |
-| `fis_glrecordtypename preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `GLRecordType` | `cast( substring(domvalue_l, 1, 1) as rrcty )` |
+| `GLRecordTypeName` | `cast( ddtext as fis_glrecordtypename preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

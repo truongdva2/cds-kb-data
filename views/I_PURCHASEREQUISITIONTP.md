@@ -16,6 +16,7 @@ tags:
   - purchase-requisition
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseRequisition
 ---
 # I_PURCHASEREQUISITIONTP
 
@@ -32,14 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurchaseRequisitionType` | `PurchaseRequisitionType` |
 | `PurReqnDescription` | `PurReqnDescription` |
 | `SourceDetermination` | `SourceDetermination` |
 | `PurReqnDoOnlyValidation` | `PurReqnDoOnlyValidation` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseRequisitionItem : redirected to composition child I_PurchaseReqnItemTP` | *Association* |
 
 ## Associations
 

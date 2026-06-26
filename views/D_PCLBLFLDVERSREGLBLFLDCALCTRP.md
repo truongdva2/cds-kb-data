@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLabelFieldID        : ehlbl_id;` | `ProdCmplncLabelFieldID        : ehlbl_id;` |
-| `PCLblFieldCalculatorClassName   : classname;` | `PCLblFieldCalculatorClassName   : classname;` |
+| `ProdCmplncLabelFieldID` | `ehlbl_id` |
+| `PCLblFieldCalculatorClassName` | `classname` |
 
 ## Associations
 

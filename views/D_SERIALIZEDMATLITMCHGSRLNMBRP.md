@@ -29,8 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'C_MATERIALSERIALNUMBERVH'` | `name:    'C_MATERIALSERIALNUMBERVH'` |
-| `SerialNumber : gernr;` | `SerialNumber : gernr;` |
+| `SerialNumber` | `gernr` |
 
 ## Associations
 

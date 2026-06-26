@@ -40,12 +40,14 @@ tags:
 | `AddressNumber` | `but021_fs.addrnumber` |
 | `ValidityStartDate` | `but021_fs.valid_from` |
 | `StandardUsage` | `but021_fs.xdfadu` |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BusinessPartner` | `I_BusinessPartner` | [1..1] |
 
 ## Source Code
 

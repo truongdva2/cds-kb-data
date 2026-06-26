@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjectUsageUUID
 ---
 # C_RERNTBLOBJARCHTRUSAGEDEX
 
@@ -31,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
+| `REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
 | `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `RealEstateRentableObjectUUID` | `REGenericRentalObjectUUID` |
-| `_REArchitectureObject.REArchitectureObjectType` | *Association* |
-| `_REArchitectureObject.REArchitectureObjectNumber` | *Association* |
-| `_REArchitectureObject.REArchitectureObjectOID` | *Association* |
+| `REArchitectureObjectType` | `_REArchitectureObject.REArchitectureObjectType` |
+| `REArchitectureObjectNumber` | `_REArchitectureObject.REArchitectureObjectNumber` |
+| `REArchitectureObjectOID` | `_REArchitectureObject.REArchitectureObjectOID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `REArchtrObjUsageIsMsmtBased` | `REArchtrObjUsageIsMsmtBased` |
@@ -46,7 +47,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_RERentableObject` | `R_RERentableObjectTP` | — |
 
 ## Source Code
 

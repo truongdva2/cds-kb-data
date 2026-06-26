@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:AccountingDocumentItem
 ---
 # I_ADDLLEDGEROPLACCTGDOCITEM
 
@@ -31,7 +32,129 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'BaseUnit'} }` | `unitOfMeasure: 'BaseUnit'} }` |
+| `CompanyCode` | `P_Bseg_Add_Com.bukrs` |
+| `AccountingDocument` | `P_Bseg_Add_Com.belnr` |
+| `FiscalYear` | `P_Bseg_Add_Com.gjahr` |
+| `AccountingDocumentItem` | `P_Bseg_Add_Com.buzei` |
+| `ChartOfAccounts` | `P_Bseg_Add_Com.ktopl` |
+| `ClearingDate` | `P_Bseg_Add_Com.augdt` |
+| `ClearingCreationDate` | `P_Bseg_Add_Com.augcp` |
+| `ClearingJournalEntryFiscalYear` | `P_Bseg_Add_Com.auggj` |
+| `ClearingDocFiscalYear` | `cast( P_Bseg_Add_Com.auggj as fis_auggj_no_conv_depre preserving type )` |
+| `ClearingJournalEntry` | `P_Bseg_Add_Com.augbl` |
+| `ClearingAccountingDocument` | `cast( P_Bseg_Add_Com.augbl as fis_augbl_depre preserving type )` |
+| `PostingKey` | `P_Bseg_Add_Com.bschl` |
+| `FinancialAccountType` | `P_Bseg_Add_Com.koart` |
+| `DebitCreditCode` | `P_Bseg_Add_Com.shkzg` |
+| `BusinessArea` | `P_Bseg_Add_Com.gsber` |
+| `PartnerBusinessArea` | `P_Bseg_Add_Com.pargb` |
+| `TaxCode` | `P_Bseg_Add_Com.mwskz` |
+| `WithholdingTaxCode` | `P_Bseg_Add_Com.qsskz` |
+| `TransactionTypeDetermination` | `P_Bseg_Add_Com.ktosl` |
+| `ValueDate` | `P_Bseg_Add_Com.valut` |
+| `AssignmentReference` | `P_Bseg_Add_Com.zuonr` |
+| `DocumentItemText` | `P_Bseg_Add_Com.sgtxt` |
+| `PartnerCompany` | `P_Bseg_Add_Com.vbund` |
+| `FinancialTransactionType` | `P_Bseg_Add_Com.bewar` |
+| `CorporateGroupAccount` | `P_Bseg_Add_Com.altkt` |
+| `ControllingArea` | `P_Bseg_Add_Com.kokrs` |
+| `CostCenter` | `P_Bseg_Add_Com.kostl` |
+| `Project` | `P_Bseg_Add_Com.projn` |
+| `OrderID` | `P_Bseg_Add_Com.aufnr` |
+| `MasterFixedAsset` | `P_Bseg_Add_Com.anln1` |
+| `FixedAsset` | `P_Bseg_Add_Com.anln2` |
+| `AssetTransactionType` | `P_Bseg_Add_Com.anbwa` |
+| `IsOpenItemManaged` | `P_Bseg_Add_Com.xopvw` |
+| `IsAutomaticallyCreated` | `P_Bseg_Add_Com.xauto` |
+| `GLAccount` | `P_Bseg_Add_Com.hkont` |
+| `IsBalanceSheetAccount` | `P_Bseg_Add_Com.xbilk` |
+| `ProfitLossAccountType` | `P_Bseg_Add_Com.gvtyp` |
+| `DueCalculationBaseDate` | `P_Bseg_Add_Com.zfbdt` |
+| `InvoiceReference` | `P_Bseg_Add_Com.rebzg` |
+| `InvoiceReferenceFiscalYear` | `P_Bseg_Add_Com.rebzj` |
+| `InvoiceItemReference` | `P_Bseg_Add_Com.rebzz` |
+| `FollowOnDocumentType` | `P_Bseg_Add_Com.rebzt` |
+| `BillOfExchangeUsage` | `P_Bseg_Add_Com.wverw` |
+| `Material` | `P_Bseg_Add_Com.matnr` |
+| `Product` | `P_Bseg_Add_Com.matnr` |
+| `Plant` | `P_Bseg_Add_Com.werks` |
+| `ValuationArea` | `P_Bseg_Add_Com.bwkey` |
+| `InventoryValuationType` | `P_Bseg_Add_Com.bwtar` |
+| `ProfitCenter` | `P_Bseg_Add_Com.prctr` |
+| `JointVenture` | `P_Bseg_Add_Com.vname` |
+| `JointVentureCostRecoveryCode` | `P_Bseg_Add_Com.recid` |
+| `JointVentureEquityGroup` | `P_Bseg_Add_Com.egrup` |
+| `TreasuryContractType` | `P_Bseg_Add_Com.vertt` |
+| `AssetContract` | `P_Bseg_Add_Com.vertn` |
+| `CashFlowType` | `P_Bseg_Add_Com.vbewa` |
+| `REInternalFinNumber` | `cast( P_Bseg_Add_Com.imkey as recaimkeyfi preserving type )` |
+| `RealEstateObject` | `P_Bseg_Add_Com.imkey` |
+| `SettlementReferenceDate` | `P_Bseg_Add_Com.dabrz` |
+| `CommitmentItem` | `P_Bseg_Add_Com.fipos` |
+| `CommitmentItemShortID` | `cast( P_Bseg_Add_Com.fipos as fis_fipos_shortid preserving type )` |
+| `CostObject` | `P_Bseg_Add_Com.kstrg` |
+| `ProjectNetwork` | `P_Bseg_Add_Com.nplnr` |
+| `OrderInternalBillOfOperations` | `P_Bseg_Add_Com.aufpl` |
+| `OrderIntBillOfOperationsItem` | `P_Bseg_Add_Com.aplzl` |
+| `WBSElementInternalID` | `P_Bseg_Add_Com.projk` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `cast( P_Bseg_Add_Com.paobjnr as rkeobjnr_char )` |
+| `ClearingIsReversed` | `P_Bseg_Add_Com.xragl` |
+| `PaymentMethodSupplement` | `P_Bseg_Add_Com.uzawe` |
+| `AlternativeGLAccount` | `P_Bseg_Add_Com.lokkt` |
+| `FundsCenter` | `P_Bseg_Add_Com.fistl` |
+| `Fund` | `P_Bseg_Add_Com.geber` |
+| `PartnerProfitCenter` | `P_Bseg_Add_Com.pprct` |
+| `Reference1IDByBusinessPartner` | `P_Bseg_Add_Com.xref1` |
+| `Reference2IDByBusinessPartner` | `P_Bseg_Add_Com.xref2` |
+| `EarmarkedFundsDocument` | `P_Bseg_Add_Com.kblnr` |
+| `EarmarkedFundsDocumentItem` | `P_Bseg_Add_Com.kblpos` |
+| `FunctionalArea` | `P_Bseg_Add_Com.fkber` |
+| `PaymentCardItem` | `P_Bseg_Add_Com.rfzei` |
+| `PaymentCardPaymentSettlement` | `P_Bseg_Add_Com.ccbtc` |
+| `Reference3IDByBusinessPartner` | `P_Bseg_Add_Com.xref3` |
+| `ClearingItem` | `P_Bseg_Add_Com.agzei` |
+| `BusinessPlace` | `P_Bseg_Add_Com.bupla` |
+| `TaxSection` | `P_Bseg_Add_Com.secco` |
+| `CostCtrActivityType` | `P_Bseg_Add_Com.lstar` |
+| `BusinessProcess` | `P_Bseg_Add_Com.prznr` |
+| `GrantID` | `P_Bseg_Add_Com.grant_nbr` |
+| `FundedProgram` | `P_Bseg_Add_Com.measure` |
+| `Segment` | `P_Bseg_Add_Com.segment` |
+| `PartnerSegment` | `P_Bseg_Add_Com.psegment` |
+| `PartnerFunctionalArea` | `P_Bseg_Add_Com.pfkber` |
+| `CostElement` | `P_Bseg_Add_Com.kstar` |
+| `NetDueDate` | `P_Bseg_Add_Com.netdt` |
+| `OffsettingAccount` | `P_Bseg_Add_Com.gkont` |
+| `OffsettingAccountType` | `P_Bseg_Add_Com.gkart` |
+| `OffsettingChartOfAccounts` | `cast(…)` |
+| `PartnerFund` | `P_Bseg_Add_Com.pgeber` |
+| `PartnerGrant` | `P_Bseg_Add_Com.pgrant_nbr` |
+| `BudgetPeriod` | `P_Bseg_Add_Com.budget_pd` |
+| `PartnerBudgetPeriod` | `P_Bseg_Add_Com.pbudget_pd` |
+| `AccountingDocumentCategory` | `P_Bseg_Add_Com.bstat` |
+| `CashLedgerCompanyCode` | `P_Bseg_Add_Com.re_bukrs` |
+| `CashLedgerAccount` | `P_Bseg_Add_Com.re_account` |
+| `PubSecBudgetAccountCoCode` | `P_Bseg_Add_Com.bdgt_account_cocode` |
+| `PubSecBudgetAccount` | `P_Bseg_Add_Com.bdgt_account` |
+| `CompanyCodeCurrency` | `P_Bseg_Add_Com.h_hwaer` |
+| `AmountInCompanyCodeCurrency` | `P_Bseg_Add_Com.dmbtr_shl` |
+| `FunctionalCurrency` | `P_Bseg_Add_Com.rfccur` |
+| `AmountInFunctionalCurrency` | `P_Bseg_Add_Com.fcsl_shl` |
+| `TaxAmountInCoCodeCrcy` | `P_Bseg_Add_Com.mwsts_shl` |
+| `ValuationDiffAmtInCoCodeCrcy` | `P_Bseg_Add_Com.bdiff_shl` |
+| `TransactionCurrency` | `P_Bseg_Add_Com.h_waers` |
+| `AmountInTransactionCurrency` | `P_Bseg_Add_Com.wrbtr_shl` |
+| `TaxAmount` | `P_Bseg_Add_Com.wmwst_shl` |
+| `BalanceTransactionCurrency` | `P_Bseg_Add_Com.pswsl` |
+| `AmountInBalanceTransacCrcy` | `P_Bseg_Add_Com.pswbt_shl` |
+| `AdditionalCurrency1` | `P_Bseg_Add_Com.h_hwae2` |
+| `ValuationDiffAmtInAddlCrcy1` | `P_Bseg_Add_Com.bdif2_shl` |
+| `AmountInAdditionalCurrency1` | `P_Bseg_Add_Com.dmbe2_shl` |
+| `AdditionalCurrency2` | `P_Bseg_Add_Com.h_hwae3` |
+| `AmountInAdditionalCurrency2` | `P_Bseg_Add_Com.dmbe3_shl` |
+| `ValuationDiffAmtInAddlCrcy2` | `P_Bseg_Add_Com.bdif3_shl` |
+| `BaseUnit` | `P_Bseg_Add_Com.meins` |
 | `Quantity` | `P_Bseg_Add_Com.menge` |
 | `NumberOfItems` | `P_Bseg_Add_Com.nbritm` |
 | `EarmarkedFunds` | `P_Bseg_Add_Com.kblnr` |
@@ -159,7 +282,6 @@ tags:
 | `_OffsettingAccountWithBP` | `I_OffsettingAccount` | [0..1] |
 | `_OffsettingChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 | `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
-| `_REObjectByIntFinNumber` | `I_REObjectByIntFinNumber` | [0..1] |
 
 ## Source Code
 

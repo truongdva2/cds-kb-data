@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:PP-SFC-2CL
   - lob:Manufacturing
+  - bo:ProdnOrderOperationCapacity
 ---
 # I_PRODNORDOPERATIONCAPACITYTP
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityRequirement` | `CapacityRequirement` |
-| `key CapacityRequirementItem` | `CapacityRequirementItem` |
-| `key CapacityRqmtItemCapacity` | `CapacityRqmtItemCapacity` |
+| `CapacityRequirement` | `CapacityRequirement` |
+| `CapacityRequirementItem` | `CapacityRequirementItem` |
 | `ProductionOrder` | `ProductionOrder` |
 | `OrderInternalID` | `OrderInternalID` |
 | `OrderOperationInternalID` | `OrderOperationInternalID` |
@@ -87,8 +87,6 @@ tags:
 | `_CapacityRequirementConf` | *Association* |
 | `_Capacity` | *Association* |
 | `_UnitOfMeasure` | *Association* |
-| `_Operation : redirected to parent I_ProductionOrderOperationTP` | *Association* |
-| `_ProductionOrder : redirected to I_ProductionOrderTP` | *Association* |
 
 ## Associations
 

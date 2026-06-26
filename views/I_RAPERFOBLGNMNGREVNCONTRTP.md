@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PerformanceObligation` | `PerformanceObligation` |
-| `key RevenueAccountingContract` | `RevenueAccountingContract` |
+| `PerformanceObligation` | `PerformanceObligation` |
+| `RevenueAccountingContract` | `RevenueAccountingContract` |
 | `RAPerfOblgnDistinctType` | `RAPerfOblgnDistinctType` |
 | `PerformanceObligationClass` | `PerformanceObligationClass` |
 | `ContractualPrcInSlsDocCrcy` | `ContractualPrcInSlsDocCrcy` |
@@ -119,8 +119,6 @@ tags:
 | `RAFulfillmentIsValueBased` | `RAFulfillmentIsValueBased` |
 | `RevnAcctgSalesOrganization` | `RevnAcctgSalesOrganization` |
 | `PerUnitSSPriceInSlsDocCrcy` | `PerUnitSSPriceInSlsDocCrcy` |
-| `/* Associations */` | `/* Associations */` |
-| `_Contract : redirected to parent I_RAContrMngRevnContrTP` | *Association* |
 | `_PerfOblgnDistinctType` | *Association* |
 | `_RAPerfOblgnStatus` | *Association* |
 | `_FulfillmentType` | *Association* |

@@ -28,35 +28,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material                       : matnr;` | `Material                       : matnr;` |
-| `MRPPlant                       : werks_d;` | `MRPPlant                       : werks_d;` |
-| `MRPArea                        : berid;` | `MRPArea                        : berid;` |
-| `DemandMRPElementIndex          : abap.int4;` | `DemandMRPElementIndex          : abap.int4;` |
-| `DemandMRPElement               : del12;` | `DemandMRPElement               : del12;` |
-| `DemandMRPElementItem           : delps;` | `DemandMRPElementItem           : delps;` |
-| `DemandMRPElementScheduleLine   : delet;` | `DemandMRPElementScheduleLine   : delet;` |
-| `DemandMRPElementCategory       : delkz;` | `DemandMRPElementCategory       : delkz;` |
-| `DemandMRPElmntCategoryShrtName : delb0;` | `DemandMRPElmntCategoryShrtName : delb0;` |
-| `DemandMRPElementDate           : dat00;` | `DemandMRPElementDate           : dat00;` |
-| `DemandMRPElementStorageLoc     : lgort_d;` | `DemandMRPElementStorageLoc     : lgort_d;` |
-| `DemandMRPElementSegment        : sgt_rcat;` | `DemandMRPElementSegment        : sgt_rcat;` |
-| `SpecialStockAssignment         : sobkz;` | `SpecialStockAssignment         : sobkz;` |
-| `DynamicPeggingQuantity         : pph_pegging_qty;` | `DynamicPeggingQuantity         : pph_pegging_qty;` |
-| `MaterialBaseUnit               : meins;` | `MaterialBaseUnit               : meins;` |
-| `SupplyMRPElementIndex          : abap.int4;` | `SupplyMRPElementIndex          : abap.int4;` |
-| `SupplyMRPElement               : del12;` | `SupplyMRPElement               : del12;` |
-| `SupplyMRPElementItem           : delps;` | `SupplyMRPElementItem           : delps;` |
-| `SupplyMRPElementScheduleLine   : delet;` | `SupplyMRPElementScheduleLine   : delet;` |
-| `SupplyMRPElementCategory       : delkz;` | `SupplyMRPElementCategory       : delkz;` |
-| `SupplyMRPElmntCategoryShrtName : delb0;` | `SupplyMRPElmntCategoryShrtName : delb0;` |
-| `SupplyMRPElementDate           : dat00;` | `SupplyMRPElementDate           : dat00;` |
-| `SupplyMRPElementStorageLoc     : lgort_d;` | `SupplyMRPElementStorageLoc     : lgort_d;` |
-| `SupplyMRPElementSegment        : sgt_rcat;` | `SupplyMRPElementSegment        : sgt_rcat;` |
-| `_DummyAssociation              : association to parent D_SupDmndItmGetPggngWthItemsR;` | *Association* |
+| `Material` | `matnr` |
+| `MRPPlant` | `werks_d` |
+| `MRPArea` | `berid` |
+| `DemandMRPElementIndex` | `abap.int4` |
+| `DemandMRPElement` | `del12` |
+| `DemandMRPElementItem` | `delps` |
+| `DemandMRPElementScheduleLine` | `delet` |
+| `DemandMRPElementCategory` | `delkz` |
+| `DemandMRPElmntCategoryShrtName` | `delb0` |
+| `DemandMRPElementDate` | `dat00` |
+| `DemandMRPElementStorageLoc` | `lgort_d` |
+| `DemandMRPElementSegment` | `sgt_rcat` |
+| `SpecialStockAssignment` | `sobkz` |
+| `DynamicPeggingQuantity` | `pph_pegging_qty` |
+| `MaterialBaseUnit` | `meins` |
+| `SupplyMRPElementIndex` | `abap.int4` |
+| `SupplyMRPElement` | `del12` |
+| `SupplyMRPElementItem` | `delps` |
+| `SupplyMRPElementScheduleLine` | `delet` |
+| `SupplyMRPElementCategory` | `delkz` |
+| `SupplyMRPElmntCategoryShrtName` | `delb0` |
+| `SupplyMRPElementDate` | `dat00` |
+| `SupplyMRPElementStorageLoc` | `lgort_d` |
+| `SupplyMRPElementSegment` | `sgt_rcat` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_SupDmndItmGetPggngWthItemsR` | — |
 
 ## Source Code
 

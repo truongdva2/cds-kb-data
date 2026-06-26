@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenancePhaseControl` | `MaintenancePhaseControl` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenancePhaseControl` | `MaintenancePhaseControl` |
 | `MaintenancePhaseControlName` | `MaintenancePhaseControlName` |
 | `MaintenancePhaseControlText` | `MaintenancePhaseControlText` |
 | `MaintPhseCtrlIsSetAutomly` | `MaintPhseCtrlIsSetAutomly` |
@@ -42,7 +42,6 @@ tags:
 | `EAMProcessSubPhaseCode` | `EAMProcessSubPhaseCode` |
 | `MaintObjPhseCtrlStatusIsActive` | `MaintObjPhseCtrlStatusIsActive` |
 | `StatusObject` | `StatusObject` |
-| `_MaintenanceOrder : redirected to parent I_MaintenanceOrderTP` | *Association* |
 
 ## Associations
 

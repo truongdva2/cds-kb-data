@@ -36,7 +36,7 @@ tags:
 | `StorageLocation` | `lgort` |
 | `ProductionSupplyArea` | `prvbe` |
 | `_KanbanControlCycle` | *Association* |
-| `_KanbanControlCycle.Supplier` | *Association* |
+| `Supplier` | `_KanbanControlCycle.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 

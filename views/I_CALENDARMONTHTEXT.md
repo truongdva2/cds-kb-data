@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-DF
   - lob:Cross-Application Components
+  - bo:CalendarMonth
 ---
 # I_CALENDARMONTHTEXT
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `calendarmonth )` | `cast ( substring( dd07t.domvalue_l, 1, 2 )` |
+| `CalendarMonth` | `cast ( substring( dd07t.domvalue_l, 1, 2 ) as calendarmonth )` |
 | `Language` | `dd07t.ddlanguage` |
 | `CalendarMonthName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |

@@ -32,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FinancialManagementArea` | `_Text.FinancialManagementArea` |
-| `key _Text.Fund` | `_Text.Fund` |
-| `_Text.FundName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Fund as _Fund : redirected to parent I_CnsldtnFundTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FinancialManagementArea` | `_Text.FinancialManagementArea` |
+| `Fund` | `_Text.Fund` |
+| `FundName` | `_Text.FundName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Fund` | *Association* |
 
 ## Associations
 

@@ -31,18 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Ledger` | `Ledger` |
-| `key CompanyCode` | `CompanyCode` |
-| `key OrderID` | `OrderID` |
-| `key OrderType` | `OrderType` |
-| `key OrderCategory` | `OrderCategory` |
-| `key ChartOfAccounts` | `ChartOfAccounts` |
-| `key GLAccount` | `GLAccount` |
-| `key Plant` | `Plant` |
-| `key ProducedProduct` | `ProducedProduct` |
-| `key OriginProduct` | `OriginProduct` |
-| `key OriginCostCenter` | `OriginCostCenter` |
-| `key OriginCostCtrActivityType` | `OriginCostCtrActivityType` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
+| `OrderID` | `OrderID` |
+| `OrderType` | `OrderType` |
+| `OrderCategory` | `OrderCategory` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccount` | `GLAccount` |
+| `Plant` | `Plant` |
+| `ProducedProduct` | `ProducedProduct` |
+| `OriginProduct` | `OriginProduct` |
+| `OriginCostCenter` | `OriginCostCenter` |
+| `OriginCostCtrActivityType` | `OriginCostCtrActivityType` |
 | `DisplayCurrency` | `DisplayCurrency` |
 | `InptPrVarcAmtInDspCrcy` | `InptPrVarcAmtInDspCrcy` |
 | `InptQtyVarcAmtInDspCrcy` | `InptQtyVarcAmtInDspCrcy` |

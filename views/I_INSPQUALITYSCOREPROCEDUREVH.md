@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `_Text[1:Language=$session.system_language].InspQltyScoreProcedureTxt` | *Association* |
+| `InspQualityScoreProcedure` | `InspQualityScoreProcedure` |
+| `InspQltyScoreProcedureTxt` | `_Text[1:Language=$session.system_language].InspQltyScoreProcedureTxt` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartnerRatingProcedure` | `BusinessPartnerRatingProcedure` |
-| `key BusinessPartnerRatingGrade` | `BusinessPartnerRatingGrade` |
+| `BusinessPartnerRatingProcedure` | `BusinessPartnerRatingProcedure` |
+| `BusinessPartnerRatingGrade` | `BusinessPartnerRatingGrade` |
 | `BusinessPartnerRatingRanking` | `BusinessPartnerRatingRanking` |
 | `_RatingProcedure` | *Association* |
 | `_Text` | *Association* |
-| `_Text[1:Language = $session.system_language ].BusinessPartnerRatingGradeDesc` | *Association* |
+| `BusinessPartnerRatingGradeDesc` | `_Text[1:Language = $session.system_language ].BusinessPartnerRatingGradeDesc` |
 
 ## Associations
 

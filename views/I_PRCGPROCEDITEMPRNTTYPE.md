@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingProcedureItemPrintType
 ---
 # I_PRCGPROCEDITEMPRNTTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `drukz )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingProcedureItemPrintType` | `cast ( substring( domvalue_l, 1, 1 ) as drukz )` |
 | `_Text` | *Association* |
 
 ## Associations

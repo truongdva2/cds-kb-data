@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `subap_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type)` | `cast( ddlanguage` |
-| `subap_text_gfn_kk preserving type )` | `cast( ddtext` |
+| `CASubApplication` | `cast( left( dd07t.domvalue_l,1 ) as subap_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `CASubApplicationText` | `cast( ddtext as subap_text_gfn_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

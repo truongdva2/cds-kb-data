@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassType
 ---
 # I_CLFNCLASSTYPETEXT
 
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ClassTypeBasic` | `I_ClfnClassTypeBasic` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

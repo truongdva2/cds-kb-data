@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingScaleBasisShort
 ---
 # I_PRICINGSCALEBASISSHORTTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kzbzg )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PricingScaleBasisShort` | `cast ( substring( domvalue_l, 1, 1 ) as kzbzg )` |
+| `PricingScaleBasisName` | `cast ( ddtext as val_text )` |
 | `_PricingScaleBasisShort` | *Association* |
 | `_Language` | *Association* |
 

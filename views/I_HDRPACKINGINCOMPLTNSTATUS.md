@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `uvpak_uk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `HeaderPackingIncompletionSts` | `cast(left(dd07l.domvalue_l, 1 ) as uvpak_uk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

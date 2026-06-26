@@ -32,11 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `fincs_short_text_15 preserving type )` | `cast ( txtsh` |
-| `fincs_medium_text_50 preserving type )` | `cast ( txtmi` |
-| `fincs_long_text_250 preserving type )` | `cast ( txtlg` |
-| `_Language, // required for value help retrieval` | *Association* |
+| `Language` | `langu` |
+| `ConsolidationChartOfAccounts` | `cast( itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnFinancialStatementItem` | `cast ( item as fincs_consolidationfsitem preserving type )` |
+| `CnsldtnFSItemText` | `cast ( txtsh as fincs_short_text_15 preserving type )` |
+| `CnsldtnFSItemMediumText` | `cast ( txtmi as fincs_medium_text_50 preserving type )` |
+| `CnsldtnFSItemLongText` | `cast ( txtlg as fincs_long_text_250 preserving type )` |
+| `_Language` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_FSItem` | *Association* |
 

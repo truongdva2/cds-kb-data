@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `srctatype_gfn_kk )` | `cast( _tfk8103t.srctatype` |
+| `CABllbleItmSourceTransType` | `cast( _tfk8103t.srctatype as srctatype_gfn_kk )` |
 | `Language` | `_tfk8103t.langu` |
-| `srctatype_txt_gfn_kk preserving type )` | `cast( _tfk8103t.text` |
+| `CABllbleItmSrceTransTypeText` | `cast( _tfk8103t.text as srctatype_txt_gfn_kk preserving type )` |
 | `_CABllbleItmSrceTransType` | *Association* |
 | `_Language` | *Association* |
 

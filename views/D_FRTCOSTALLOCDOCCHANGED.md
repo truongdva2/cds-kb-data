@@ -12,6 +12,7 @@ tags:
   - LO-AB
   - component:LO-AB
   - lob:Logistics General
+  - bo:FreightCostAllocationDocument
 ---
 # D_FRTCOSTALLOCDOCCHANGED
 
@@ -28,15 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SettlmtProcessType     : wlf_settlmt_process_type;` | `SettlmtProcessType     : wlf_settlmt_process_type;` |
-| `SettlmtDocType         : wlf_settlmt_doc_type;` | `SettlmtDocType         : wlf_settlmt_doc_type;` |
-| `SettlmtDocCat          : wlf_settlmt_doc_cat;` | `SettlmtDocCat          : wlf_settlmt_doc_cat;` |
-| `CompanyCode            : bukrs;` | `CompanyCode            : bukrs;` |
-| `PurchasingOrganization : ekorg;` | `PurchasingOrganization : ekorg;` |
-| `PurchasingGroup        : ekgrp;` | `PurchasingGroup        : ekgrp;` |
-| `SalesOrganization      : vkorg;` | `SalesOrganization      : vkorg;` |
-| `DistributionChannel    : vtweg;` | `DistributionChannel    : vtweg;` |
-| `Division               : spart;` | `Division               : spart;` |
+| `SettlmtProcessType` | `wlf_settlmt_process_type` |
+| `SettlmtDocType` | `wlf_settlmt_doc_type` |
+| `SettlmtDocCat` | `wlf_settlmt_doc_cat` |
+| `CompanyCode` | `bukrs` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchasingGroup` | `ekgrp` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
 
 ## Associations
 

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Supplier` | `Supplier` |
-| `_Text[1: Language=$session.system_language].SupplierName` | *Association* |
+| `Supplier` | `Supplier` |
+| `SupplierName` | `_Text[1: Language=$session.system_language].SupplierName` |
 
 ## Associations
 

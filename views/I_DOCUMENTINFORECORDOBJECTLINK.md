@@ -30,16 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/*  Document Info Record key Details */` | `/*  Document Info Record key Details */` |
 | `DocumentInfoRecordDocType` | `ObjLink.DocumentInfoRecordDocType` |
 | `DocumentInfoRecordDocNumber` | `ObjLink.DocumentInfoRecordDocNumber` |
 | `DocumentInfoRecordDocVersion` | `ObjLink.DocumentInfoRecordDocVersion` |
 | `DocumentInfoRecordDocPart` | `ObjLink.DocumentInfoRecordDocPart` |
-| `/*  Object Type and Object Key Details */` | `/*  Object Type and Object Key Details */` |
 | `LinkedSAPObject` | `ObjLink.LinkedSAPObject` |
 | `LinkedSAPObjectKey` | `ObjLink.LinkedSAPObjectKey` |
 | `DocObjectLinkCounter` | `ObjLink.DocObjectLinkCounter` |
-| `/* DIR Administrative Data */` | `/* DIR Administrative Data */` |
 | `CreationDateTime` | `ObjLink.CreationDateTime` |
 | `CreatedByUser` | `ObjLink.CreatedByUser` |
 | `ChangedDateTime` | `ObjLink.ChangedDateTime` |

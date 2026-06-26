@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierEvaluationScore
 ---
 # I_SUPLREVALOUTPUTSCORETYPE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_ana_de_output_act_typ )` | `cast ( dd07l.domvalue_l` |
+| `SuplrEvalScoreOutputActionType` | `cast ( dd07l.domvalue_l as mmpur_ana_de_output_act_typ )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SuplrEvalOutputScoreTypeText` | [0..*] |
 
 ## Source Code
 

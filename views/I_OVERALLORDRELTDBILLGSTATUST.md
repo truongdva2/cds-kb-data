@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:OverallOrdReltdBillgStatus
 ---
 # I_OVERALLORDRELTDBILLGSTATUST
 

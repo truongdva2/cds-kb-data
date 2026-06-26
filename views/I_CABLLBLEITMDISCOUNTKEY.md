@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABllbleItmDiscountKey` | `_tfk8117.disckey` |
-| `_tfk8117.utilization as CABllbleItmDiscUtilzn` | *Association* |
+| `CABllbleItmDiscUtilzn` | `_tfk8117.utilization` |
 | `_CABllbleItmDiscountKeyText` | *Association* |
 
 ## Associations

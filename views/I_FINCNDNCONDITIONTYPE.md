@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransConditionType
 ---
 # I_FINCNDNCONDITIONTYPE
 
@@ -32,9 +33,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TreasuryContractType` | `rantyp` |
-| `ftr_cndn_condition_type preserving type )` | `cast( skoart` |
-| `ftr_cndn_field_selection preserving type )` | `cast( auswahl` |
-| `ftr_gen_sbewfima preserving type )` | `cast( sberfima` |
+| `FinConditionConditionType` | `cast( skoart as ftr_cndn_condition_type preserving type )` |
+| `FinCndnFieldSelectionString` | `cast( auswahl as ftr_cndn_field_selection preserving type )` |
+| `CashFlowCalculationCategory` | `cast( sberfima as ftr_gen_sbewfima preserving type )` |
 | `_ContractType` | *Association* |
 | `_ConditionTypeText` | *Association* |
 

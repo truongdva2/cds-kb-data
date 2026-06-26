@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TranspOrdItemSealUUID` | `TranspOrdItemSealUUID` |
+| `TranspOrdItemSealUUID` | `TranspOrdItemSealUUID` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItemSealNumber` | `TranspOrdItemSealNumber` |
 | `TranspOrdItemSealingDateTime` | `TranspOrdItemSealingDateTime` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBooking : redirected to  I_FreightBookingTP` | `FreightBookingItemSeal._TransportationOrder` |
-| `_FreightBookingItem : redirected to parent I_FreightBookingItemTP` | `FreightBookingItemSeal._TransportationOrderItem` |
+| `_FreightBooking` | *Association* |
+| `_FreightBookingItem` | *Association* |
 
 ## Associations
 

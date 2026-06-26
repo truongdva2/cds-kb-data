@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PrcgCndnAmountRoundingRule
 ---
 # I_PRCGCNDNAMOUNTROUNDINGRULE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `txprf )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgCndnAmountRoundingRule` | `cast ( substring( domvalue_l, 1, 1 ) as txprf )` |
 | `_Text` | *Association* |
 
 ## Associations

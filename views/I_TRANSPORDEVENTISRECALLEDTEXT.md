@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/event_revoked preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdEventIsRecalled` | `cast(substring(domvalue_l, 1, 1) as /scmtms/event_revoked preserving type)` |
 | `Language` | `ddlanguage` |
 | `TranspOrdEventIsRecalledDesc` | `ddtext` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdEventIsRecalled` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdEventIsRecalled` | `I_TranspOrdEventIsRecalled` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

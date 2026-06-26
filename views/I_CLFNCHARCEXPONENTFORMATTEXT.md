@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcExponentFormat
 ---
 # I_CLFNCHARCEXPONENTFORMATTEXT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `atdex)` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CharcExponentFormat` | `cast( dd07t.domvalue_l as atdex)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `charcexponentformatname preserving type )` | `cast( dd07t.ddtext` |
+| `CharcExponentFormatName` | `cast( dd07t.ddtext as charcexponentformatname preserving type )` |
 | `_CharcExponentFormat` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcExponentFormat` | `I_ClfnCharcExponentFormat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

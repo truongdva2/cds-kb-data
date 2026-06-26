@@ -31,15 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   ProjectElementUUID` | `ProjectElementUUID` |
+| `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `EntProjTimeRecgIsBlkd` | `EntProjTimeRecgIsBlkd` |
 | `EntProjStaffExpensePostgIsBlkd` | `EntProjStaffExpensePostgIsBlkd` |
 | `EntProjServicePostingIsBlkd` | `EntProjServicePostingIsBlkd` |
 | `EntProjOtherExpensePostgIsBlkd` | `EntProjOtherExpensePostgIsBlkd` |
 | `EntProjPurchasingIsBlkd` | `EntProjPurchasingIsBlkd` |
-| `_EnterpriseProjectElement : redirected to parent I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProject: redirected to I_EnterpriseProjectTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

@@ -30,13 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinancialDataSourceVH'` | `name: 'I_CnsldtnFinancialDataSourceVH'` |
-| `element: 'FinancialDataSource'` | `element: 'FinancialDataSource'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialdatasource preserving type )` | `cast( _Source.FinancialDataSource` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _Source.CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `FinancialDataSource` | `cast( _Source.FinancialDataSource as fincs_financialdatasource preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

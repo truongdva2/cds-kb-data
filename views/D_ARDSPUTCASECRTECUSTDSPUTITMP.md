@@ -27,16 +27,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode            : bukrs;` | `CompanyCode            : bukrs;` |
-| `AccountingDocument     : farp_belnr_d;` | `AccountingDocument     : farp_belnr_d;` |
-| `FiscalYear             : gjahr;` | `FiscalYear             : gjahr;` |
-| `AccountingDocumentItem : farp_buzei;` | `AccountingDocumentItem : farp_buzei;` |
-| `LogicalSystem          : logsys;` | `LogicalSystem          : logsys;` |
-| `_ChildToParent : association to parent D_ARDisputeCaseCreateP;` | *Association* |
+| `CompanyCode` | `bukrs` |
+| `AccountingDocument` | `farp_belnr_d` |
+| `FiscalYear` | `gjahr` |
+| `AccountingDocumentItem` | `farp_buzei` |
+| `LogicalSystem` | `logsys` |
+| `_ChildToParent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ChildToParent` | `D_ARDisputeCaseCreateP` | — |
 
 ## Source Code
 

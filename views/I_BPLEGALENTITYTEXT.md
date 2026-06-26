@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_entity_report )` | `cast ( dd07t.domvalue_l` |
+| `BusinessPartnerLegalEntity` | `cast ( dd07t.domvalue_l as bp_entity_report )` |
 | `BPLegalEntityDescription` | `dd07t.ddtext` |
 | `_BPLegalEntity` | *Association* |
 | `_Language` | *Association* |

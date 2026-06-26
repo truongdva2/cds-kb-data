@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ShiftDefinition
 ---
 # I_SHIFTDEFINITION
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ShiftDefinition` | `def.kaptprog` |
 | `ShiftGrouping` | `def.schgrup` |
 | `ShiftEndDate` | `def.endda` |
@@ -42,7 +42,7 @@ tags:
 | `DailyWorkSchedule` | `def.tprog` |
 | `DailyWorkScheduleGroup` | `def.motpr` |
 | `DailyWorkScheduleVariant` | `def.varia` |
-| `vdm_validityend preserving type)` | `cast(def.endda` |
+| `ValidityEndDate` | `cast(def.endda as vdm_validityend preserving type)` |
 | `_ShiftGrouping` | *Association* |
 | `_EndDate` | *Association* |
 | `_StartDate` | *Association* |

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusEvtLogBusinessActivity` | `BusEvtLogBusinessActivity` |
-| `key SAPObjectType` | `SAPObjectType` |
-| `key BusEvtLogCreationDate` | `BusEvtLogCreationDate` |
+| `BusEvtLogBusinessActivity` | `BusEvtLogBusinessActivity` |
+| `SAPObjectType` | `SAPObjectType` |
+| `BusEvtLogCreationDate` | `BusEvtLogCreationDate` |
 | `BusEvtLogReferenceEventUUID` | `BusEvtLogReferenceEventUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
 | `EventOperation` | `EventOperation` |

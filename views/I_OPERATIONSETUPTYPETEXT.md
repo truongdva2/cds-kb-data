@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BOOOpSetUpTypeText
 ---
 # I_OPERATIONSETUPTYPETEXT
 
@@ -32,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `txt.werks` |
+| `OperationSetupType` | `cast(txt.rasch as pph_rasch preserving type)` |
+| `Language` | `txt.spras` |
 | `OperationSetupTypeName` | `txt.txt` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-ANA-SP-2CL
   - lob:Sales & Distribution
+  - bo:SalesPlanPurpose
 ---
 # I_SALESPLANPURPOSE
 
@@ -30,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_plan_purpose )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `cast (case when domvalue_l = '0' or domvalue_l = '1'` | `cast (case when domvalue_l = '0' or domvalue_l = '1'` |
-| `then ''` | `then ''` |
-| `else 'X'` | `else 'X'` |
-| `sales_plan_type )` | `end` |
+| `SalesPlanPurpose` | `cast ( substring( domvalue_l, 1, 1 ) as sales_plan_purpose )` |
+| `SalesPlanType` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

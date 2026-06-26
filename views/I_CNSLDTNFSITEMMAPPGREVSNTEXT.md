@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `fincs_fsitemmappgrevisiontext preserving type )` | `cast ( _Source.revision_text` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `_Source.langu` |
+| `ConsolidationChartOfAccounts` | `cast( _Source.ritclg as fincs_conschartofaccounts preserving type )` |
+| `ChartOfAccounts` | `cast( _Source.ktopl as fincs_chartofaccounts preserving type )` |
+| `CnsldtnFSItemMapping` | `cast( _Source.mapping_id as fincs_fsitemmapping preserving type )` |
+| `CnsldtnFSItemMappingRevision` | `cast( _Source.revision as fincs_fsitemmappingrevision preserving type )` |
+| `CnsldtnFSItemMappgRevisionText` | `cast ( _Source.revision_text as fincs_fsitemmappgrevisiontext preserving type )` |
 | `_Language` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_ChartOfAccounts` | *Association* |

@@ -29,11 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `entity.name    : 'C_OpenCustomizingRequestVH'` | `entity.name    : 'C_OpenCustomizingRequestVH'` |
-| `entity.element : 'TransportRequestID'` | `entity.element : 'TransportRequestID'` |
-| `label          : 'Select Customizing Transport Request' }` | `label          : 'Select Customizing Transport Request' }` |
-| `]` | `]` |
-| `key TransportRequestID : trkorr;` | `TransportRequestID : trkorr;` |
+| `TransportRequestID` | `trkorr` |
 
 ## Associations
 

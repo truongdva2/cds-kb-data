@@ -57,7 +57,6 @@ tags:
 | `NrOfMonthsForContractRenewal` | `NrOfMonthsForContractRenewal` |
 | `NrOfDaysForContrNoticePeriod` | `NrOfDaysForContrNoticePeriod` |
 | `BudgetBillingPlanType` | `BudgetBillingPlanType` |
-| `/* association */` | `/* association */` |
 | `_BusinessPartner` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_LastChangedByUser` | *Association* |

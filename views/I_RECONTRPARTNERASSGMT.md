@@ -31,12 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association: '_BusinessPartnerRole'}]` | `association: '_BusinessPartnerRole'}]` |
+| `REPartnerRelationUUID` | `objrelguid` |
+| `InternalRealEstateNumber` | `intreno` |
+| `BusinessPartner` | `partner` |
 | `BusinessPartnerRole` | `role` |
 | `REPartnerRoleType` | `subrole` |
 | `AddressType` | `addrtype` |
-| `rebdvdmvalidfrom preserving type )` | `cast ( validfrom` |
-| `rebdvdmvalidto preserving type )` | `cast ( validto` |
+| `ValidityStartDate` | `cast ( validfrom as rebdvdmvalidfrom preserving type )` |
+| `ValidityEndDate` | `cast ( validto as rebdvdmvalidto preserving type )` |
 | `REPartnerApplicationCategory` | `appl` |
 | `REFractionalPrptyShrRatio` | `bruteil` |
 | `REOwnershipShrRatio` | `bmiteig` |

@@ -14,6 +14,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialProcurementExtType
 ---
 # I_MATLPROCMTEXTERNALTYPE
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key typ.MaterialProcurementExtType` | `typ.MaterialProcurementExtType` |
+| `MaterialProcurementExtType` | `typ.MaterialProcurementExtType` |
 | `_Text` | *Association* |
 
 ## Associations

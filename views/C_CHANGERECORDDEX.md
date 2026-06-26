@@ -15,6 +15,7 @@ tags:
   - change-record
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecord
 ---
 # C_CHANGERECORDDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 | `ChangeRecord` | `ChangeRecord` |
 | `ChangeRecordType` | `ChangeRecordType` |
 | `ParentChangeRecordUUID` | `ParentChangeRecordUUID` |

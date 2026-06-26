@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status_vt_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `status_vt_text_kk preserving type )` | `cast ( ddtext` |
+| `CAProviderContractStatus` | `cast( left( dd07t.domvalue_l,1 ) as status_vt_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAProviderContractStatusText` | `cast ( ddtext as status_vt_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

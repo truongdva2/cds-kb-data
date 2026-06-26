@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsOrdProjValnStrategy` | `SlsOrdProjValnStrategy` |
-| `_SlsOrdProjValnStrategyText.SlsOrdProjValnStrgyName` | *Association* |
+| `SlsOrdProjValnStrategy` | `SlsOrdProjValnStrategy` |
+| `SlsOrdProjValnStrgyName` | `_SlsOrdProjValnStrategyText.SlsOrdProjValnStrgyName` |
 | `_SlsOrdProjValnStrategyText` | *Association* |
 
 ## Associations

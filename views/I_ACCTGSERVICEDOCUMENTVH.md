@@ -17,6 +17,7 @@ tags:
   - document
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocument
 ---
 # I_ACCTGSERVICEDOCUMENTVH
 
@@ -33,7 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `ServiceDocumentTypeName` | `ServiceDocumentTypeName` |
+| `CompanyCode` | `CompanyCode` |
 | `ProfitCenter` | `ProfitCenter` |
 
 ## Associations

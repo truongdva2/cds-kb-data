@@ -1,6 +1,11 @@
 ---
 name: I_DISTRIBUTIONCHANNEL
 description: Distributionchannel
+semantic_en: "Distribution channel — the means through which products or services reach the customer (e.g. wholesale, retail, online)."
+semantic_vi: "Kênh phân phối — phương thức đưa sản phẩm/dịch vụ đến khách hàng (vd bán buôn, bán lẻ, trực tuyến)."
+keywords:
+  - kênh phân phối
+  - kênh bán hàng
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released
@@ -14,6 +19,7 @@ tags:
   - interface-view
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:DistributionChannel
 ---
 # I_DISTRIBUTIONCHANNEL
 
@@ -31,7 +37,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DistributionChannel` | `vtweg` |
-| `distributionchannel_oid )` | `cast( vtweg` |
+| `DistributionChannelOID` | `cast( vtweg as distributionchannel_oid )` |
 | `_DistrChannelHierarchyNode` | *Association* |
 | `_Text` | *Association* |
 

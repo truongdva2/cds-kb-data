@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-ANA-SP-2CL
   - lob:Sales & Distribution
+  - bo:SalesPerformanceDataSource
 ---
 # I_SLSPERFORMANCEDATASOURCETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_sp_data_source )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SalesPerformanceDataSource` | `cast ( substring( domvalue_l, 1, 1 ) as sd_sp_data_source )` |
 | `Language` | `ddlanguage` |
-| `sd_sp_data_source_text )` | `cast( ddtext` |
+| `SalesPerformanceDataSourceText` | `cast( ddtext as sd_sp_data_source_text )` |
 | `_DataSource` | *Association* |
 | `_Language` | *Association* |
 

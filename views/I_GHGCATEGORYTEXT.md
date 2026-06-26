@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GreenhouseGasCategoryText
 ---
 # I_GHGCATEGORYTEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( sufndd_ghg_catt.langu` |
+| `Language` | `cast( sufndd_ghg_catt.langu as spras preserving type )` |
 | `GHGCategory` | `sufndd_ghg_catt.id` |
-| `sufnd_vdm_ghgcategoryname preserving type )` | `cast( sufndd_ghg_catt.name` |
+| `GHGCategoryName` | `cast( sufndd_ghg_catt.name as sufnd_vdm_ghgcategoryname preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

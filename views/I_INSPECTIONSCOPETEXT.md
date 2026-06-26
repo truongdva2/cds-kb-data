@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qpumfkz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspectionScope` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qpumfkz preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qpumfkz_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspectionScope` | `,_InspectionScope` |
-| `,_Language` | `,_Language` |
+| `InspectionScopeText` | `cast( ddtext as vdm_qpumfkz_text preserving type )` |
+| `_InspectionScope` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

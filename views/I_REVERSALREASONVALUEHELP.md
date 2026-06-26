@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ReversalReason` | `ReversalReason` |
+| `ReversalReason` | `ReversalReason` |
 | `_Text` | *Association* |
 
 ## Associations

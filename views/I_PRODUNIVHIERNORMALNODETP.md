@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductUniversalHierarchy
 ---
 # I_PRODUNIVHIERNORMALNODETP
 
@@ -31,15 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdUnivHierarchy` | `ProdUnivHierarchy` |
-| `key HierarchyNode` | `HierarchyNode` |
-| `key ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
+| `ProdUnivHierarchy` | `ProdUnivHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
 | `ProdHierarchyValidityStartDate` | `ProdHierarchyValidityStartDate` |
 | `ParentNode` | `ParentNode` |
 | `NodeType` | `NodeType` |
 | `ProdUnivHierLastChangeDateTime` | `ProdUnivHierLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdUnivHierProdByHierNode: redirected to composition child I_ProdUnivHierProdsByNodeTP` | *Association* |
 
 ## Associations
 

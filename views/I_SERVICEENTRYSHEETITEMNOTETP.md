@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
-| `key NoteBasicUUID` | `NoteBasicUUID` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `NoteBasicUUID` | `NoteBasicUUID` |
 | `ServiceEntrySheetItemUniqueID` | `ServiceEntrySheetItemUniqueID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
@@ -46,9 +46,6 @@ tags:
 | `NoteBasicType` | `NoteBasicType` |
 | `NoteBasicLanguage` | `NoteBasicLanguage` |
 | `NoteBasicContent` | `NoteBasicContent` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheet     : redirected to I_ServiceEntrySheetTP_2` | *Association* |
-| `_ServiceEntrySheetItem : redirected to parent I_ServiceEntrySheetItemTP_2` | *Association* |
 
 ## Associations
 

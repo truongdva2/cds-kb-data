@@ -17,6 +17,7 @@ tags:
   - status
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanStatus
 ---
 # I_KANBANSTATUSTEXT
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pkbst preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
+| `KanbanStatus` | `cast(substring(txt.domvalue_l, 1, 1) as pkbst preserving type)` |
 | `Language` | `txt.ddlanguage` |
 | `KanbanStatusName` | `txt.ddtext` |
 | `_Language` | *Association* |

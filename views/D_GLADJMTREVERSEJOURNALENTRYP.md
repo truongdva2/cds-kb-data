@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AccountingDocument : belnr_d;` | `AccountingDocument : belnr_d;` |
-| `CompanyCode        : bukrs;` | `CompanyCode        : bukrs;` |
-| `FiscalYear         : fis_gjahr_no_conv;` | `FiscalYear         : fis_gjahr_no_conv;` |
-| `PostingDate        : budat;` | `PostingDate        : budat;` |
-| `CreatedByUser      : usnam; //not yet supported` | `CreatedByUser      : usnam; //not yet supported` |
+| `AccountingDocument` | `belnr_d` |
+| `CompanyCode` | `bukrs` |
+| `FiscalYear` | `fis_gjahr_no_conv` |
+| `PostingDate` | `budat` |
+| `CreatedByUser` | `usnam` |
 
 ## Associations
 

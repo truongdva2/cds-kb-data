@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductPlanningStrategy
 ---
 # I_PRODUCTPLANNINGSTRATEGYTEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `planningstrategyname preserving type)` | `cast(txt.text40` |
+| `ProductPlanningStrategy` | `txt.stra1` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `ProductPlanningStrategyName` | `cast(txt.text40 as planningstrategyname preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

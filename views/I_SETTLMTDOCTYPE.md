@@ -29,8 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtDocType` | `SettlmtDocType` |
-| `/* General Control */` | `/* General Control */` |
+| `SettlmtDocType` | `SettlmtDocType` |
 | `SAPObjectType` | `SAPObjectType` |
 | `SettlmtDocCat` | `SettlmtDocCat` |
 | `SettlmtCat` | `SettlmtCat` |
@@ -40,17 +39,12 @@ tags:
 | `SettlmtMgmtPrcgApplCat` | `SettlmtMgmtPrcgApplCat` |
 | `SettlmtTxCodeTxTypeChkCat` | `SettlmtTxCodeTxTypeChkCat` |
 | `SettlmtDataXtrctnCat` | `SettlmtDataXtrctnCat` |
-| `/* Text Determination Procedure */` | `/* Text Determination Procedure */` |
 | `SettlmtHdrTxtDetnProced` | `SettlmtHdrTxtDetnProced` |
 | `SettlmtItmTxtDetnProced` | `SettlmtItmTxtDetnProced` |
-| `/* Accounting */` | `/* Accounting */` |
 | `JournalEntryType` | `JournalEntryType` |
 | `AltvJournalEntryType` | `AltvJournalEntryType` |
-| `/* Collection Processing */` | `/* Collection Processing */` |
 | `SettlmtDocTypeOfCollection` | `SettlmtDocTypeOfCollection` |
-| `/* Special Processes */` | `/* Special Processes */` |
 | `SettlmtMgmtDocItemDistrCat` | `SettlmtMgmtDocItemDistrCat` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_SettlmtDocCat` | *Association* |
 | `_SettlmtCat` | *Association* |

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PP-FIO-2CL
   - lob:Manufacturing
+  - bo:MRPChangeRequestReason
 ---
 # I_MRPCHANGEREQUESTREASON
 
@@ -33,7 +34,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_MRPChangeRequestReasonTxt` | [0..*] |
 
 ## Source Code
 

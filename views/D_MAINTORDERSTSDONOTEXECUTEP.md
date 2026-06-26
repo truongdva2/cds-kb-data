@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_MaintOrdCancellationAction'` | `name : 'I_MaintOrdCancellationAction'` |
-| `element: 'MaintOrdCancellationAction'} }]` | `element: 'MaintOrdCancellationAction'} }]` |
-| `MaintOrdCancellationAction : maintordcancellationaction; //new common parameter, it is prioritized` | `MaintOrdCancellationAction : maintordcancellationaction; //new common parameter, it is prioritized` |
-| `AssignedMaintNotifIsToBeClosed : abap_boolean; //depricated due to MaintOrdCancellationAction, but still valid for public API` | `AssignedMaintNotifIsToBeClosed : abap_boolean; //depricated due to MaintOrdCancellationAction, but still valid for public API` |
-| `AssgdMaintNotifIsToBeRsetAlloc : abap_boolean; //depricated due to MaintOrdCancellationAction, but still valid for public API` | `AssgdMaintNotifIsToBeRsetAlloc : abap_boolean; //depricated due to MaintOrdCancellationAction, but still valid for public API` |
+| `MaintOrderReferenceDateTime` | `timestamp` |
+| `MaintOrdCancellationAction` | `maintordcancellationaction` |
+| `AssignedMaintNotifIsToBeClosed` | `abap_boolean` |
+| `AssgdMaintNotifIsToBeRsetAlloc` | `abap_boolean` |
 
 ## Associations
 

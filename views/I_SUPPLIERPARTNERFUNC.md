@@ -43,21 +43,10 @@ tags:
 | `CreationDate` | `wyt3.erdat` |
 | `CreatedByUser` | `wyt3.ernam` |
 | `PartnerFunctionType` | `tpar.nrart` |
-| `case` | `case` |
-| `when tpar.nrart = 'LI'` | `when tpar.nrart = 'LI'` |
-| `then wyt3.lifn2` | `then wyt3.lifn2` |
-| `when tpar.nrart = 'WK'` | `when tpar.nrart = 'WK'` |
-| `then wyt3.werks` | `then wyt3.werks` |
-| `when tpar.nrart = 'AP'` | `when tpar.nrart = 'AP'` |
-| `then wyt3.parnr` | `then wyt3.parnr` |
-| `when tpar.nrart = 'PE'` | `when tpar.nrart = 'PE'` |
-| `then wyt3.pernr` | `then wyt3.pernr` |
-| `else ''` | `else ''` |
-| `ReferenceSupplier` | `end` |
+| `ReferenceSupplier` | `case…end` |
 | `ContactPerson` | `parnr` |
 | `PersonnelNumber` | `pernr` |
-| `_SupplierPurchasing.AuthorizationGroup` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `AuthorizationGroup` | `_SupplierPurchasing.AuthorizationGroup` |
 | `_SupplierPurchasing` | *Association* |
 | `_Supplier` | *Association* |
 | `_PurchasingOrganization` | *Association* |
@@ -69,6 +58,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SupplierPurchasing` | `I_SupplierPurchasingOrg` | [1..1] |
 | `_Supplier` | `I_Supplier` | [1..1] |
 | `_PurchasingOrganization` | `I_PurchasingOrganization` | [0..1] |
 | `_SupplierSubrange` | `I_SupplierSubrange` | [0..1] |

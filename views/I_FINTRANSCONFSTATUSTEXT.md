@@ -17,6 +17,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransConfirmationStatus
 ---
 # I_FINTRANSCONFSTATUSTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_conf )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinTransConfirmationStatus` | `cast( dd07t.domvalue_l as tb_conf )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_conf_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinTransConfirmationStatusName` | `cast( dd07t.ddtext as tb_conf_name preserving type )` |
 | `_ConfirmationStatus` | *Association* |
 | `_Language` | *Association* |
 

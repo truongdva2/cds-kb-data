@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinConditionInterestCategory
 ---
 # I_FINCNDNINTERESTCATEGORYTEXT
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `ftr_intcat )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinConditionInterestCategory` | `cast( dd07t.domvalue_l as ftr_intcat )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `ftr_intcat_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinCndnInterestCategoryName` | `cast( dd07t.ddtext as ftr_intcat_name preserving type )` |
 | `_InterestCategory` | *Association* |
 | `_Language` | *Association* |
 

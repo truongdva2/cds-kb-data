@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `Supplier` | `Supplier` |
@@ -56,8 +56,8 @@ tags:
 | `IncotermsLocation1` | `IncotermsLocation1` |
 | `IncotermsLocation2` | `IncotermsLocation2` |
 | `PurchaseContractTargetAmount` | `PurchaseContractTargetAmount` |
-| `abap.char(12))` | `cast (ExchangeRate` |
-| `abap.char(12))` | `cast (ExchangeRate` |
+| `ExchangeRate` | `cast (ExchangeRate as abap.char(12))` |
+| `PurContractExchangeRateValue` | `cast (ExchangeRate as abap.char(12))` |
 | `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
 | `SupplyingSupplier` | `SupplyingSupplier` |
 | `QuotationSubmissionDate` | `QuotationSubmissionDate` |
@@ -70,12 +70,12 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `PurchasingDocumentDeletionCode` | `PurchasingDocumentDeletionCode` |
 | `PurchasingProcessingStatus` | `PurchasingProcessingStatus` |
-| `ActivePurchasingDocument,                             //3227601` | `ActivePurchasingDocument,                             //3227601` |
+| `ActivePurchasingDocument` | `ActivePurchasingDocument` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
-| `boolean)` | `cast (''` |
+| `PurgContractIsInPreparation` | `cast ('' as boolean)` |
 | `PurchasingDocumentName` | `PurchasingDocumentName` |
 | `PurchasingDocumentSubtype` | `PurchasingDocumentSubtype` |
-| `_CntrlPurContrAggrgnDistrSts.CntrlPurContrDistributionSts as CntrlPurContrDistributionSts` | *Association* |
+| `CntrlPurContrDistributionSts` | `_CntrlPurContrAggrgnDistrSts.CntrlPurContrDistributionSts` |
 | `CntrlPurContrFlxblDistrIsAllwd` | `CntrlPurContrFlxblDistrIsAllwd` |
 | `PurgDocIsChgVers` | `PurgDocIsChgVers` |
 | `_CentralPurchaseContractItem` | *Association* |

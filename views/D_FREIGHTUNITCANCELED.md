@@ -13,6 +13,7 @@ tags:
   - freight
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:FreightUnit
 ---
 # D_FREIGHTUNITCANCELED
 
@@ -29,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrder     : /scmtms/tor_id;` | `TransportationOrder     : /scmtms/tor_id;` |
-| `TransportationOrderType : /scmtms/tor_type;` | `TransportationOrderType : /scmtms/tor_type;` |
-| `TransportationMode      : /scmtms/trmodcode;` | `TransportationMode      : /scmtms/trmodcode;` |
+| `TransportationOrder` | `/scmtms/tor_id` |
+| `TransportationOrderType` | `/scmtms/tor_type` |
+| `TransportationMode` | `/scmtms/trmodcode` |
 
 ## Associations
 

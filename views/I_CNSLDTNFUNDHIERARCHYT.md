@@ -30,17 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinManagementAreaVH'` | `name: 'I_CnsldtnFinManagementAreaVH'` |
-| `element: 'FinancialManagementArea'` | `element: 'FinancialManagementArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialmanagementarea preserving type )` | `cast (left(_HierarchyText.HierarchyClass, 4 )` |
-| `fincs_fundhierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_fundhierarchytext preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyText._Language` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `FinancialManagementArea` | `cast(…)` |
+| `CnsldtnFundHierarchy` | `cast(_HierarchyText.UniversalHierarchy as fincs_fundhierarchy preserving type )` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnFundHierarchyText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_FinancialManagementArea` | *Association* |
 | `_Hierarchy` | *Association* |
 

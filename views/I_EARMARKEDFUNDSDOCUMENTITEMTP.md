@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
-| `key EarmarkedFundsDocumentItem` | `EarmarkedFundsDocumentItem` |
+| `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
+| `EarmarkedFundsDocumentItem` | `EarmarkedFundsDocumentItem` |
 | `EarmarkedFundsDocItemForEdit` | `EarmarkedFundsDocItemForEdit` |
 | `ControllingArea` | `ControllingArea` |
 | `CompanyCode` | `CompanyCode` |
@@ -108,11 +108,8 @@ tags:
 | `EmrkdFndsChgdAmtInCCCrcy` | `EmrkdFndsChgdAmtInCCCrcy` |
 | `EmrkdFndsCnsmdAmtInCCCrcy` | `EmrkdFndsCnsmdAmtInCCCrcy` |
 | `EmrkdFndsOriglAmtInCCCrcy` | `EmrkdFndsOriglAmtInCCCrcy` |
-| `/* Associations */` | `/* Associations */` |
 | `_Fund` | *Association* |
 | `_Grant` | *Association* |
-| `efitm._EarmarkedFundsDocument : redirected to parent I_EarmarkedFundsDocumentTP, // Make association public` | `efitm._EarmarkedFundsDocument : redirected to parent I_EarmarkedFundsDocumentTP, // Make association public` |
-| `efitm._EmrkdFndsDocItmMnlReducn : redirected to composition child I_EmrkdFndsDocItmMnlReducnTP` | `efitm._EmrkdFndsDocItmMnlReducn : redirected to composition child I_EmrkdFndsDocItmMnlReducnTP` |
 
 ## Associations
 

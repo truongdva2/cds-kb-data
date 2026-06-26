@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_sol_inf )` | `cast ( dd07l.domvalue_l` |
+| `BPCreditStandingStatus` | `cast ( dd07l.domvalue_l as bp_sol_inf )` |
 | `_Text` | *Association* |
 
 ## Associations

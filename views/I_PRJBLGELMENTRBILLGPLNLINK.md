@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntrBillgPlanLnk
 ---
 # I_PRJBLGELMENTRBILLGPLNLINK
 
@@ -44,7 +45,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_ProjectBillingElementEntry` | `I_ProjectBillingElementEntry` | [1..1] |
-| `_SalesOrderBillingPlanItem` | `I_SalesOrderBillingPlanItem` | [1..1] |
 
 ## Source Code
 

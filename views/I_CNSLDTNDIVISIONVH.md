@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Division` | `Division` |
-| `_Text[1: Language=$session.system_language].DivisionName` | *Association* |
+| `Division` | `Division` |
+| `DivisionName` | `_Text[1: Language=$session.system_language].DivisionName` |
 
 ## Associations
 

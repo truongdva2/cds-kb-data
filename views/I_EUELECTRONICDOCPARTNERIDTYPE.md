@@ -15,6 +15,7 @@ tags:
   - partner
   - component:CA-GTF-CSC-EDO-PAP
   - lob:Cross-Application Components
+  - bo:ElectronicDocPartyIdType
 ---
 # I_EUELECTRONICDOCPARTNERIDTYPE
 

@@ -47,7 +47,6 @@ tags:
 | `ProductionVersion` | `productionversion` |
 | `JITDelivConfControl` | `jitdelivconfcontrol` |
 | `JITSuperPckgGrpUUID` | `jitsuperpckggrpuuid` |
-| `/* Status */` | `/* Status */` |
 | `TransmittedExtStatusByMfr` | `ext_stat_trans` |
 | `TransmittedExtStsUpdtdDteTme` | `transmittedextstsupdtddtetme` |
 | `JITExtStatusAtSupplier` | `ext_stat` |
@@ -57,7 +56,6 @@ tags:
 | `SupplyControlID` | `supply_cntrl` |
 | `SupplyControlUUID` | `supplycontroluuid` |
 | `JITActionCtrl` | `action_cntrl` |
-| `/* Dates */` | `/* Dates */` |
 | `RequirementDateTime` | `requirement_dt` |
 | `PlannedShippingDateTime` | `planned_shipping_dt` |
 | `ActualShippingDateTime` | `actual_shipping_dt` |
@@ -71,7 +69,6 @@ tags:
 | `JITProductionStartTime` | `jitproductionstarttime` |
 | `ProductionEndDate` | `prodn_end_date` |
 | `DeliveryCreationTime` | `deliverycreationtime` |
-| `/* Sequence Numbers */` | `/* Sequence Numbers */` |
 | `JITIntSequenceNumber` | `int_sequence_num` |
 | `JITExtSequenceNumber` | `ext_sequence_num` |
 | `JITFormattedSequenceNumber` | `formatted_sequence_num` |
@@ -79,7 +76,6 @@ tags:
 | `JITFrmtdSqncNmbrIntervalRange` | `interval_range` |
 | `JITDelivSqncGrpID` | `jitdelivsqncgrpid` |
 | `JITDelivSqncGrpUUID` | `jitdelivsqncgrpuuid` |
-| `/* Document Status Indicator */` | `/* Document Status Indicator */` |
 | `DeliveryStatus` | `deli_crea_stat` |
 | `PickingStatus` | `pick_stat` |
 | `GoodsMovementStatus` | `goods_mvmt_stat` |
@@ -134,6 +130,10 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInbCallActionLog` | `I_JITInbCallActionLog` | [0..*] |
+| `_JITInbCallCompGrpRefText` | `I_JITInbCallCompGrpRefText` | [0..*] |
+| `_JITInbCallCompGrpDocRef` | `I_JITInbCallCompGrpDocRef` | [0..*] |
+| `_JITInboundCall` | `I_JITInboundCall` | — |
 | `_JITInbCallComponent` | `I_JITInbCallComponent` | [0..*] |
 | `_ProductCompGrp` | `I_Product` | [1..1] |
 | `_SupplierExtStatus` | `I_SupplierExtStatus` | [0..1] |

@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasuringPoint
 ---
 # I_MEASURINGPOINTTP_2
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MeasuringPoint` | `MeasuringPoint` |
+| `MeasuringPoint` | `MeasuringPoint` |
 | `MeasuringPointDescription` | `MeasuringPointDescription` |
 | `MeasuringPointObjectIdentifier` | `MeasuringPointObjectIdentifier` |
 | `TechnicalObjectType` | `TechnicalObjectType` |
@@ -62,7 +63,6 @@ tags:
 | `FunctionalLocation` | `FunctionalLocation` |
 | `Equipment` | `Equipment` |
 | `MsmtRdngTransferMode` | `MsmtRdngTransferMode` |
-| `_LongText : redirected to composition child I_MeasuringPointLongTextTP` | *Association* |
 
 ## Associations
 

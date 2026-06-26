@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsTypeText
 ---
 # I_BILLOFOPERATIONSTYPETEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Language` | `spras` |
+| `BillOfOperationsType` | `cast(plnty as billofoperationstype preserving type)` |
 | `BillOfOperationsTypeName` | `txt` |
 | `_Language` | *Association* |
 | `_BillOfOperationsType` | *Association* |

@@ -31,22 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _REUsableObjectData.RealEstateUsableObjectUUID` | `_REUsableObjectData.RealEstateUsableObjectUUID` |
-| `key _REMeasurement.InternalRealEstateNumber` | `_REMeasurement.InternalRealEstateNumber` |
-| `key _REMeasurement.REMeasurementType` | `_REMeasurement.REMeasurementType` |
+| `RealEstateUsableObjectUUID` | `_REUsableObjectData.RealEstateUsableObjectUUID` |
+| `InternalRealEstateNumber` | `_REMeasurement.InternalRealEstateNumber` |
+| `REMeasurementType` | `_REMeasurement.REMeasurementType` |
 | `ValidityEndDate` | `_REMeasurement.ValidityEndDate` |
-| `_REMeasurement.ValidityStartDate` | *Association* |
-| `_REMeasurement._REMeasurementType.REMeasurementIsTotal` | *Association* |
-| `_REMeasurement.REMeasurementUnit` | *Association* |
-| `_REMeasurement.REMeasurementQuantity` | *Association* |
-| `_REMeasurement.REMaximumMeasurementQuantity` | *Association* |
+| `ValidityStartDate` | `_REMeasurement.ValidityStartDate` |
+| `REMeasurementIsTotal` | `_REMeasurement._REMeasurementType.REMeasurementIsTotal` |
+| `REMeasurementUnit` | `_REMeasurement.REMeasurementUnit` |
+| `REMeasurementQuantity` | `_REMeasurement.REMeasurementQuantity` |
+| `REMaximumMeasurementQuantity` | `_REMeasurement.REMaximumMeasurementQuantity` |
 | `_REUsableObject` | *Association* |
-| `_REMeasurement._REMeasurementType                      as _REMeasurementType` | *Association* |
-| `_REMeasurement._UnitOfMeasure                          as _UnitOfMeasure` | *Association* |
+| `_REMeasurementType` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_REUsableObject` | `I_REUsableObject` | — |
 
 ## Source Code
 

@@ -34,9 +34,6 @@ tags:
 | `LglCntntMDocOblgnUUID` | `LglCntntMDocOblgnUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMDocOblgnRcpnt` | `LglCntntMDocOblgnRcpnt` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document           : redirected to I_LegalDocumentTP` | *Association* |
-| `_LegalDocObligation : redirected to parent I_LegalDocObligationTP` | *Association* |
 
 ## Associations
 

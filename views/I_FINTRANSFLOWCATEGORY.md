@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransactionFlowCategory
 ---
 # I_FINTRANSFLOWCATEGORY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_flow_category preserving type )` | `cast( sbktyp` |
+| `FinTransFlowCategory` | `cast( sbktyp as ftr_flow_category preserving type )` |
 | `_FlowCategoryText` | *Association* |
 
 ## Associations

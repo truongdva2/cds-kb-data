@@ -15,6 +15,7 @@ tags:
   - schedule-line
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkBreakSchedule
 ---
 # I_WORKBREAKSCHEDULE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `sched.schgrup` |
 | `WorkBreakSchedule` | `sched.paplan` |
 | `_ShiftGrouping` | *Association* |
 | `_WorkBreak` | *Association* |

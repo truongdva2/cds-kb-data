@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-SQ-QTA-2CL
   - lob:Sourcing & Procurement
+  - bo:QuotaArrangementItem
 ---
 # I_PURGQUOTAARRGMTITEMTP_2
 
@@ -32,9 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association : '_PurgQuotaArrgmt' }` | `association : '_PurgQuotaArrgmt' }` |
-| `key QuotaArrangement` | `QuotaArrangement` |
-| `key QuotaArrangementItem` | `QuotaArrangementItem` |
+| `QuotaArrangement` | `QuotaArrangement` |
+| `QuotaArrangementItem` | `QuotaArrangementItem` |
 | `MaterialProcurementCategory` | `MaterialProcurementCategory` |
 | `MaterialProcurementType` | `MaterialProcurementType` |
 | `Supplier` | `Supplier` |
@@ -58,11 +58,9 @@ tags:
 | `MaterialMinLotSizeQuantity` | `MaterialMinLotSizeQuantity` |
 | `MaximumReleaseQuantity` | `MaximumReleaseQuantity` |
 | `MaterialBaseUnit` | `MaterialBaseUnit` |
-| `AuthorizationGroup, //This field is added for DCL and this CDS will be C1 released` | `AuthorizationGroup, //This field is added for DCL and this CDS will be C1 released` |
-| `IsBusinessPurposeCompleted, //This field is added for DCL and this CDS will be C1 released` | `IsBusinessPurposeCompleted, //This field is added for DCL and this CDS will be C1 released` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `_Supplier` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_PurgQuotaArrgmt : redirected to parent I_PurgQuotaArrgmtTP_2` | *Association* |
 
 ## Associations
 

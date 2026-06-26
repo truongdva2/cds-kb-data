@@ -34,19 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key ProductSalesOrg` | `ProductSalesOrg` |
-| `key ProductDistributionChnl` | `ProductDistributionChnl` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `Product` | `Product` |
+| `ProductSalesOrg` | `ProductSalesOrg` |
+| `ProductDistributionChnl` | `ProductDistributionChnl` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `ProductSalesDeliveryText` | `ProductSalesDeliveryText` |
 | `ProdLongTxtCreationDateTime` | `ProdLongTxtCreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `ProdLongTxtLastChangedDateTime` | `ProdLongTxtLastChangedDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductSalesDelivery : redirected to parent I_ProductSalesDeliveryTP_2` | *Association* |
-| `_Product              : redirected to I_ProductTP_2` | *Association* |
 
 ## Associations
 

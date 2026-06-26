@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.GrantID` | `_Text.GrantID` |
-| `_Text.GrantName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Grant as _Grant : redirected to parent I_CnsldtnGrantTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `GrantID` | `_Text.GrantID` |
+| `GrantName` | `_Text.GrantName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Grant` | *Association* |
 
 ## Associations
 

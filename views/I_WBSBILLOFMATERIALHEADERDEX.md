@@ -37,10 +37,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterialCategory` | `BillOfMaterialCategory` |
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key BOMHeaderInternalChangeCount` | `BOMHeaderInternalChangeCount` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `BOMHeaderInternalChangeCount` | `BOMHeaderInternalChangeCount` |
 | `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
 | `BillOfMaterialVersion` | `BillOfMaterialVersion` |
 | `BillOfMaterialAuthsnGrp` | `BillOfMaterialAuthsnGrp` |

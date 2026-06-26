@@ -33,36 +33,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     I_Customer.Customer` | `I_Customer.Customer` |
-| `I_Customer.OrganizationBPName1` | `I_Customer.OrganizationBPName1` |
-| `I_Customer.BusinessPartnerName1` | `I_Customer.BusinessPartnerName1` |
-| `I_Customer.OrganizationBPName2` | `I_Customer.OrganizationBPName2` |
-| `I_Customer.BusinessPartnerName2` | `I_Customer.BusinessPartnerName2` |
-| `I_Customer.Country` | `I_Customer.Country` |
-| `I_Customer.CityName` | `I_Customer.CityName` |
-| `I_Customer.BPAddrCityName` | `I_Customer.BPAddrCityName` |
-| `I_Customer.StreetName` | `I_Customer.StreetName` |
-| `I_Customer.BPAddrStreetName` | `I_Customer.BPAddrStreetName` |
-| `I_Customer.PostalCode` | `I_Customer.PostalCode` |
-| `I_Customer.CustomerName` | `I_Customer.CustomerName` |
-| `I_Customer.BPCustomerName` | `I_Customer.BPCustomerName` |
-| `I_Customer.CustomerAccountGroup` | `I_Customer.CustomerAccountGroup` |
-| `I_Customer.AuthorizationGroup` | `I_Customer.AuthorizationGroup` |
-| `I_Customer.IsBusinessPurposeCompleted` | `I_Customer.IsBusinessPurposeCompleted` |
-| `I_Customer.IsCompetitor` | `I_Customer.IsCompetitor` |
-| `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartner` | `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartner` |
-| `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartnerType` | `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartnerType` |
-| `I_Customer.DataControllerSet` | `I_Customer.DataControllerSet` |
-| `I_Customer.DataController1` | `I_Customer.DataController1` |
-| `I_Customer.DataController2` | `I_Customer.DataController2` |
-| `I_Customer.DataController3` | `I_Customer.DataController3` |
-| `I_Customer.DataController4` | `I_Customer.DataController4` |
-| `I_Customer.DataController5` | `I_Customer.DataController5` |
-| `I_Customer.DataController6` | `I_Customer.DataController6` |
-| `I_Customer.DataController7` | `I_Customer.DataController7` |
-| `I_Customer.DataController8` | `I_Customer.DataController8` |
-| `I_Customer.DataController9` | `I_Customer.DataController9` |
-| `I_Customer.DataController10` | `I_Customer.DataController10` |
+| `Customer` | `I_Customer.Customer` |
+| `OrganizationBPName1` | `I_Customer.OrganizationBPName1` |
+| `BusinessPartnerName1` | `I_Customer.BusinessPartnerName1` |
+| `OrganizationBPName2` | `I_Customer.OrganizationBPName2` |
+| `BusinessPartnerName2` | `I_Customer.BusinessPartnerName2` |
+| `Country` | `I_Customer.Country` |
+| `CityName` | `I_Customer.CityName` |
+| `BPAddrCityName` | `I_Customer.BPAddrCityName` |
+| `StreetName` | `I_Customer.StreetName` |
+| `BPAddrStreetName` | `I_Customer.BPAddrStreetName` |
+| `PostalCode` | `I_Customer.PostalCode` |
+| `CustomerName` | `I_Customer.CustomerName` |
+| `BPCustomerName` | `I_Customer.BPCustomerName` |
+| `CustomerAccountGroup` | `I_Customer.CustomerAccountGroup` |
+| `AuthorizationGroup` | `I_Customer.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `I_Customer.IsBusinessPurposeCompleted` |
+| `IsCompetitor` | `I_Customer.IsCompetitor` |
+| `BusinessPartner` | `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartner` |
+| `BusinessPartnerType` | `I_Customer._CustomerToBusinessPartner._BusinessPartner.BusinessPartnerType` |
+| `DataControllerSet` | `I_Customer.DataControllerSet` |
+| `DataController1` | `I_Customer.DataController1` |
+| `DataController2` | `I_Customer.DataController2` |
+| `DataController3` | `I_Customer.DataController3` |
+| `DataController4` | `I_Customer.DataController4` |
+| `DataController5` | `I_Customer.DataController5` |
+| `DataController6` | `I_Customer.DataController6` |
+| `DataController7` | `I_Customer.DataController7` |
+| `DataController8` | `I_Customer.DataController8` |
+| `DataController9` | `I_Customer.DataController9` |
+| `DataController10` | `I_Customer.DataController10` |
 
 ## Associations
 

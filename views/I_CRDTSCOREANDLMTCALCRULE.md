@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CreditScoreAndLimitCalcRule` | `limit_rule` |
-| `CrdtScoreAndLmtCalcRuleIsDflt, // UKM_DEFAULT_RULE - flag - rule is default for newly created business partners` | `default_rule` |
+| `CrdtScoreAndLmtCalcRuleIsDflt` | `default_rule` |
 | `_Text` | *Association* |
 
 ## Associations

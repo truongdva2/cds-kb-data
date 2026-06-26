@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceInternalID
 ---
 # I_MISCPRODNRSCETOOLTEXT
 
@@ -32,9 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ProductionResourceType` | `text.ProductionResourceType` |
+| `ProductionResourceInternalID` | `text.ProductionResourceInternalID` |
+| `Language` | `text.Language` |
 | `MiscProductionResourceToolDesc` | `text.ProductionResourceText` |
-| `_MiscPRTByInternalKey.MiscPRTAuthorizationGroup` | *Association* |
+| `MiscPRTAuthorizationGroup` | `--for DCLS _MiscPRTByInternalKey.MiscPRTAuthorizationGroup` |
 | `_ProductionResourceType` | *Association* |
 | `_Language` | *Association* |
 

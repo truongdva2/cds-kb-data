@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurgCatPartyUUID` | `PurgCatPartyUUID` |
+| `PurgCatPartyUUID` | `PurgCatPartyUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `BusinessPartnerUUID` | `BusinessPartnerUUID` |
 | `BusinessPartner` | `BusinessPartner` |

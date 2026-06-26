@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status_vt_kk preserving type )` | `cast( left( dd07l.domvalue_l,1 )` |
+| `CAProviderContractStatus` | `cast( left( dd07l.domvalue_l,1 ) as status_vt_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

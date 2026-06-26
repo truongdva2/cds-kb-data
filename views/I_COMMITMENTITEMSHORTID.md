@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fmis_ci_internalname preserving type )` | `cast( fipos` |
+| `CommitmentItemShortID` | `cast( fipos as fmis_ci_internalname preserving type )` |
 | `CommitmentItem` | `fipex` |
 | `_CommitmentItem` | *Association* |
 

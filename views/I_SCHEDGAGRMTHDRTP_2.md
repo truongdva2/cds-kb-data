@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreement
 ---
 # I_SCHEDGAGRMTHDRTP_2
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -84,10 +85,6 @@ tags:
 | `ReleaseIsNotCompleted` | `ReleaseIsNotCompleted` |
 | `PurchasingCompletenessStatus` | `PurchasingCompletenessStatus` |
 | `PurchasingProcessingStatus` | `PurchasingProcessingStatus` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm         : redirected to composition child I_SchedgAgrmtItmTP_2` | *Association* |
-| `_SchedgAgrmtPartner     : redirected to composition child I_SchedgAgrmtPartnerTP_2` | *Association* |
-| `_SchedgAgrmtHeaderNotes : redirected to composition child I_SchedgAgrmtHeaderNotesTP_2` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsVariant
 ---
 # I_MFGBILLOFOPERATIONS
 
@@ -30,17 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key plkz.BillOfOperationsType` | `plkz.BillOfOperationsType` |
-| `key plkz.BillOfOperationsGroup` | `plkz.BillOfOperationsGroup` |
-| `key plkz.BillOfOperationsVariant` | `plkz.BillOfOperationsVariant` |
-| `plkz.BillOfOperationsVersionType` | `plkz.BillOfOperationsVersionType` |
-| `plkz.LastUsageDate` | `plkz.LastUsageDate` |
-| `plkz.NumberOfUsages` | `plkz.NumberOfUsages` |
-| `plkz.HasChangeNumber` | `plkz.HasChangeNumber` |
-| `plkz.HasParameterEffectivity` | `plkz.HasParameterEffectivity` |
-| `plkz.LastChangeDate` | `plkz.LastChangeDate` |
-| `plkz.LastChangeTime` | `plkz.LastChangeTime` |
-| `plkz.LastChangedByUser` | `plkz.LastChangedByUser` |
+| `BillOfOperationsType` | `plkz.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plkz.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `-- representative key key plkz.BillOfOperationsVariant` |
+| `BillOfOperationsVersionType` | `plkz.BillOfOperationsVersionType` |
+| `LastUsageDate` | `plkz.LastUsageDate` |
+| `NumberOfUsages` | `plkz.NumberOfUsages` |
+| `HasChangeNumber` | `plkz.HasChangeNumber` |
+| `HasParameterEffectivity` | `plkz.HasParameterEffectivity` |
+| `LastChangeDate` | `plkz.LastChangeDate` |
+| `LastChangeTime` | `plkz.LastChangeTime` |
+| `LastChangedByUser` | `plkz.LastChangedByUser` |
 | `_BillOfOperationsChangeState` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsSequence` | *Association* |

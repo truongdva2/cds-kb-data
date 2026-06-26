@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-PMR-ENG-2CL
   - lob:Manufacturing
+  - bo:PMRPFlexibleConstraintCategory
 ---
 # I_PMRPFLXBLCSTRTCATEGORY
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PMRPFlxblCstrtCategoryText` | [0..*] |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-DF
   - lob:Cross-Application Components
+  - bo:WeekDay
 ---
 # I_WEEKDAY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_weekday )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `WeekDay` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_weekday )` |
 | `_Text` | *Association* |
 
 ## Associations

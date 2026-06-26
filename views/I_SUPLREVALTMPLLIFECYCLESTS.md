@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalTemplateLifecycleSts
 ---
 # I_SUPLREVALTMPLLIFECYCLESTS
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/sep_lifecycle_stat_cd preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrEvalTemplateLifecycleSts` | `cast(…)` |
 | `_SuplrEvalTmplLifecycleStsT` | *Association* |
 
 ## Associations

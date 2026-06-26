@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prlinv_cat_gfn_kk preserving type )` | `cast( prlinv_cat` |
+| `CAInvcgPreliminaryCategory` | `cast( prlinv_cat as prlinv_cat_gfn_kk preserving type )` |
 | `Language` | `langu` |
-| `prlinv_cat_txt_gfn_kk preserving type )` | `cast( text` |
+| `CAInvcgPreliminaryCategoryTxt` | `cast( text as prlinv_cat_txt_gfn_kk preserving type )` |
 | `_CAInvcgPreliminaryCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CAInvcgPreliminaryCategory` | `I_CAInvcgPreliminaryCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

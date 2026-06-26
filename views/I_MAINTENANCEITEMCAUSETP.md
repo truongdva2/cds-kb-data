@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceItem` | `MaintenanceItem` |
-| `key NmbrOfMaintComplianceItems` | `NmbrOfMaintComplianceItems` |
+| `MaintenanceItem` | `MaintenanceItem` |
+| `NmbrOfMaintComplianceItems` | `NmbrOfMaintComplianceItems` |
 | `MaintenanceComplianceGroupCode` | `MaintenanceComplianceGroupCode` |
 | `MaintenanceComplianceCode` | `MaintenanceComplianceCode` |
 | `MaintenanceComplianceTypeCode` | `MaintenanceComplianceTypeCode` |
@@ -50,10 +50,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Association */` | `/* Association */` |
-| `_MaintenanceItem : redirected to parent I_MaintenanceItemTP_2` | *Association* |
-| `/* Compostion */` | `/* Compostion */` |
-| `_MaintenanceItemCauseText : redirected to composition child I_MaintenanceItemCauseTextTP` | *Association* |
 
 ## Associations
 

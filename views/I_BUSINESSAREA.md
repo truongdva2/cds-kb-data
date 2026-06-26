@@ -1,6 +1,11 @@
 ---
 name: I_BUSINESSAREA
 description: Businessarea
+semantic_en: "Business area — an organizational unit for which internal financial statements can be produced across company codes."
+semantic_vi: "Khu vực kinh doanh — đơn vị tổ chức có thể lập báo cáo tài chính nội bộ xuyên các mã công ty."
+keywords:
+  - khu vực kinh doanh
+  - business area
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released
@@ -14,6 +19,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:BusinessArea
 ---
 # I_BUSINESSAREA
 

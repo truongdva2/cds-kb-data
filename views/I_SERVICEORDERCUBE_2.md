@@ -30,7 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderDescription` | `ServiceOrderDescription` |
+| `ServiceOrderStatus` | `ServiceOrderStatus` |
+| `ServiceOrderStatusName` | `expr(…)` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `SoldToParty` | `SoldToParty` |
+| `ResponsibleEmployee` | `ResponsibleEmployee` |
+| `ContactPersonBusinessPartnerId` | `ContactPerson` |
+| `RequestedServiceEndDate` | `RequestedServiceEndDate` |
+| `ServiceDocumentCreationDate` | `ServiceDocumentCreationDate` |
+| `SrvcOrdCreationQuarter` | `SrvcOrdCreationQuarter` |
+| `SrvcOrdCreationMonth` | `SrvcOrdCreationMonth` |
+| `SrvcOrdCreationYear` | `SrvcOrdCreationYear` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `ServiceDocumentHasError` | `ServiceDocumentHasError` |
 | `ServiceDocNetAmount` | `ServiceDocNetAmount` |
 | `NumberOfIncomingServiceOrders` | `NumberOfIncomingServiceOrders` |
 | `NumberOfOpenServiceOrders` | `NumberOfOpenServiceOrders` |

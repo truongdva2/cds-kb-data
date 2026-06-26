@@ -33,14 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   CostingReferenceObject` | `CostingReferenceObject` |
-| `key   CostEstimate` | `CostEstimate` |
-| `key   CostingType` | `CostingType` |
-| `key   CostingDate` | `CostingDate` |
-| `key   CostingVersion` | `CostingVersion` |
-| `key   ValuationVariant` | `ValuationVariant` |
-| `key   CostIsEnteredManually` | `CostIsEnteredManually` |
-| `key   CostingItem` | `CostingItem` |
+| `CostingReferenceObject` | `CostingReferenceObject` |
+| `CostEstimate` | `CostEstimate` |
+| `CostingType` | `CostingType` |
+| `CostingDate` | `CostingDate` |
+| `CostingVersion` | `CostingVersion` |
+| `ValuationVariant` | `ValuationVariant` |
+| `CostIsEnteredManually` | `CostIsEnteredManually` |
+| `CostingItem` | `CostingItem` |
 | `CostingItemCategory` | `CostingItemCategory` |
 | `CostElement` | `CostElement` |
 | `CostOriginGroup` | `CostOriginGroup` |
@@ -48,11 +48,11 @@ tags:
 | `Product` | `Product` |
 | `ValuationType` | `ValuationType` |
 | `Creditor` | `Creditor` |
-| `_SalesOrderItemCostEstimate.GlobalCurrency` | *Association* |
-| `fpc_total_price_global_crcy preserving type)` | `cast(TotalPriceInInCtrlgAreaCrcy` |
-| `fpc_fixed_price_global_crcy preserving type)` | `cast(FixedPriceInCtrlgAreaCrcy` |
-| `fis_ksl)` | `cast(TotalAmountInCtrlgAreaCrcy` |
-| `fis_kfsl)` | `cast(FixedAmountInCtrlgAreaCrcy` |
+| `GlobalCurrency` | `_SalesOrderItemCostEstimate.GlobalCurrency` |
+| `TotalPriceInGlobalCurrency` | `cast(TotalPriceInInCtrlgAreaCrcy as fpc_total_price_global_crcy preserving type)` |
+| `FixedPriceInGlobalCurrency` | `cast(FixedPriceInCtrlgAreaCrcy as fpc_fixed_price_global_crcy preserving type)` |
+| `TotalAmountInGlobalCurrency` | `cast(TotalAmountInCtrlgAreaCrcy as fis_ksl)` |
+| `FixedAmountInGlobalCrcy` | `cast(FixedAmountInCtrlgAreaCrcy as fis_kfsl)` |
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `TotalPriceInCompanyCodeCrcy` | `TotalPriceInCompanyCodeCrcy` |
 | `FixedPriceInCompanyCodeCrcy` | `FixedPriceInCompanyCodeCrcy` |

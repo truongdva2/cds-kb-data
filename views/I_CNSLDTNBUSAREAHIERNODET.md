@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _HierarchyNodeText.Language` | `_HierarchyNodeText.Language` |
-| `fincs_businessareahierarchy preserving type )` | `cast(_HierarchyNodeText.UniversalHierHierarchyID` |
-| `key _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `CnsldtnBusinessAreaHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

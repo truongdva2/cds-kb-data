@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ManufacturingOrder
 ---
 # I_MFGORDERSTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ManufacturingOrder` | `ManufacturingOrder` |
+| `ManufacturingOrder` | `ManufacturingOrder` |
 | `ManufacturingOrderText` | `ManufacturingOrderText` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ManufacturingOrderType` | `ManufacturingOrderType` |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashPoolAssignment
 ---
 # I_CASHPOOLSUBACCTASSGMT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPoolAssignment` | `CashPoolAssignment` |
+| `CashPoolAssignment` | `CashPoolAssignment` |
 | `CashPoolAssignmentText` | `CashPoolAssignmentText` |
 | `CashPool` | `CashPool` |
 | `CashPoolAssgmtIsHeadBkAcct` | `CashPoolAssgmtIsHeadBkAcct` |
@@ -47,7 +48,7 @@ tags:
 | `LastChangedByUser` | `CashPoolLastChangedByUser` |
 | `CreationDateTime` | `CashPoolCreationDateTime` |
 | `LocalLastChangeDateTime` | `CashPoolLastChangeDateTime` |
-| `_BankAccount.BankAccountCurrency as BankAccountCurrency` | *Association* |
+| `BankAccountCurrency` | `_BankAccount.BankAccountCurrency` |
 | `_BankAccount` | *Association* |
 | `_IsDeletedText` | *Association* |
 

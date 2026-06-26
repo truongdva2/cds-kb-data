@@ -31,26 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  _Assignment.WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
-| `key  _Assignment.Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
-| `key  _PaymentDetails.BankIdentification` | `_PaymentDetails.BankIdentification` |
-| `_Assignment.WorkforcePersonExternalID` | *Association* |
-| `_PaymentDetails.BankAccountHolderName` | *Association* |
-| `_PaymentDetails.BankAccountName` | *Association* |
-| `_PaymentDetails.BankControlKey` | *Association* |
-| `_PaymentDetails.BankCountryKey` | *Association* |
-| `_PaymentDetails.BankNumber` | *Association* |
-| `_PaymentDetails.BankName` | *Association* |
-| `_PaymentDetails.BankAccount` | *Association* |
-| `_PaymentDetails.IBAN` | *Association* |
-| `_PaymentDetails.SWIFTCode` | *Association* |
-| `cast (tstmp_to_dats( _PaymentDetails.ValidityStartDate` | `cast (tstmp_to_dats( _PaymentDetails.ValidityStartDate` |
-| `vdm_v_start_date)` | `abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' )` |
-| `cast (tstmp_to_dats( _PaymentDetails.ValidityEndDate` | `cast (tstmp_to_dats( _PaymentDetails.ValidityEndDate` |
-| `vdm_v_end_date)` | `abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' )` |
-| `_PaymentDetails.BankAccountReferenceText` | *Association* |
-| `_Assignment.IsBlocked` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
+| `BankIdentification` | `_PaymentDetails.BankIdentification` |
+| `WorkforcePersonExternalID` | `_Assignment.WorkforcePersonExternalID` |
+| `BankAccountHolderName` | `_PaymentDetails.BankAccountHolderName` |
+| `BankAccountName` | `_PaymentDetails.BankAccountName` |
+| `BankControlKey` | `_PaymentDetails.BankControlKey` |
+| `BankCountryKey` | `_PaymentDetails.BankCountryKey` |
+| `BankNumber` | `_PaymentDetails.BankNumber` |
+| `BankName` | `_PaymentDetails.BankName` |
+| `BankAccount` | `_PaymentDetails.BankAccount` |
+| `IBAN` | `_PaymentDetails.IBAN` |
+| `SWIFTCode` | `_PaymentDetails.SWIFTCode` |
+| `StartDate` | `cast(…)` |
+| `EndDate` | `cast(…)` |
+| `BankAccountReferenceText` | `_PaymentDetails.BankAccountReferenceText` |
+| `IsBlocked` | `_Assignment.IsBlocked` |
 | `_WorkAssignment` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

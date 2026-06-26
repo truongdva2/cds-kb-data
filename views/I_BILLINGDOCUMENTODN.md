@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AFDFUniqueKeyUUID` | `AFDFUniqueKeyUUID` |
-| `vbeln_vf )` | `cast( AFDFDocumentKey1` |
+| `AFDFUniqueKeyUUID` | `AFDFUniqueKeyUUID` |
+| `BillingDocument` | `cast( AFDFDocumentKey1 as vbeln_vf )` |
 | `OfficialDocumentNumberCountry` | `OfficialDocumentNumberCountry` |
 | `OfficialDocumentNumberType` | `OfficialDocumentNumberType` |
 | `OfficialDocumentNumber` | `OfficialDocumentNumber` |

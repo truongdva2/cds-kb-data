@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-SF-WA-2CL
   - lob:Plant Maintenance
+  - bo:ObjectInternalID
 ---
 # I_MASTERWRNTYOBJECTASSGMT
 

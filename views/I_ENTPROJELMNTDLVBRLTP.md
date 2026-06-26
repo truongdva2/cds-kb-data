@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EntProjElmntDeliverableUUID` | `EntProjElmntDeliverableUUID` |
+| `EntProjElmntDeliverableUUID` | `EntProjElmntDeliverableUUID` |
 | `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `EntProjElmntDeliverableType` | `EntProjElmntDeliverableType` |
@@ -41,9 +41,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_EnterpriseProjectElement              : redirected to parent I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProject                     : redirected to I_EnterpriseProjectTP_3` | *Association* |
-| `_EntProjElmntDlvDistr                  : redirected to composition child I_EntProjElmntDlvbrlDistrTP` | *Association* |
 
 ## Associations
 

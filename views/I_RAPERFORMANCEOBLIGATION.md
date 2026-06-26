@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:PerformanceObligation
 ---
 # I_RAPERFORMANCEOBLIGATION
 
@@ -29,13 +30,67 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DECOMMISSIONED, successor: 'ProfitabilitySegment_2' }` | `releaseState: #DECOMMISSIONED, successor: 'ProfitabilitySegment_2' }` |
-| `cast(case when paobjnr > '9999999999' then '9999999999' else lpad(paobjnr, 10, '0')` | `cast(case when paobjnr > '9999999999' then '9999999999' else lpad(paobjnr, 10, '0')` |
-| `rkeobjnr_numc)` | `end` |
-| `rkeobjnr_char preserving type)` | `cast(paobjnr` |
+| `PerformanceObligation` | `cast(pob_id as farr_cds_pob_id preserving type)` |
+| `PerformanceObligationClass` | `cast(pob_name as farr_cds_pob_name preserving type)` |
+| `RevenueAccountingContract` | `cast(contract_id as farr_cds_contract_id preserving type)` |
+| `Segment` | `segment` |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
+| `ProfitCenter` | `prctr` |
+| `AllocatedPriceInSalesDocCrcy` | `alloc_amt` |
+| `ContractualPrcInSlsDocCrcy` | `cast(trx_price as farr_cds_contractual_price preserving type)` |
+| `RATotalInterestAmtInSlsDocCrcy` | `cast(total_interest_amount as farr_cds_total_interest_amount preserving type)` |
+| `PerUnitSSPriceInSlsDocCrcy` | `cast(unit_ssp as farr_cds_unit_ssp preserving type)` |
+| `SSPriceInSalesDocCrcy` | `cast(ssp as farr_cds_standalone_price preserving type)` |
+| `SSPriceTolerancePercent` | `cast(ssp_range_perc as farr_cds_ssp_range_percentage preserving type)` |
+| `SSPriceToleranceAmount` | `ssp_range_amount` |
+| `SalesDocumentCurrency` | `cast(alloc_amt_curk as waerk preserving type)` |
+| `PerfOblgnContractualQuantity` | `cast(quantity as farr_cds_contractual_quantity)` |
+| `PerfOblgnContractualQtyUnit` | `quantity_unit` |
+| `PerfOblgnEffectiveQuantity` | `cast(effective_qty as farr_cds_effective_quantity)` |
+| `PerfOblgnEffectiveQuantityUnit` | `effective_qty_unit` |
+| `PerfOblgnFulfillmentType` | `cast(fulfill_type as farr_fulfill_type preserving type)` |
+| `RAPerfOblgnIsResidual` | `cast(residual_pob as farr_cds_residual_pob preserving type)` |
+| `PerfOblgnEventType` | `event_type` |
+| `PerformanceObligationStartDate` | `start_date` |
+| `PerformanceObligationEndDate` | `end_date` |
+| `RAPerfOblgnFinalizationDate` | `final_date` |
+| `PerfObligationDeferralMethod` | `deferral_method` |
+| `PerfOblgnStartDateType` | `start_date_type` |
+| `PerfObligationDuration` | `duration` |
+| `PerfObligationDurationUnit` | `duration_unit` |
+| `PerfOblgnIsFullyFulfilled` | `cast(fully_fulfilled as farr_cds_fully_fulfilled preserving type)` |
+| `PerfOblgnIsFinallyInvoiced` | `final_invoice` |
+| `BusinessPartner` | `partner` |
+| `CostCenter` | `kostl` |
+| `WBSElementExternalID` | `_InternalWBSElement.WBSElementExternalID` |
+| `WBSElementInternalID` | `cast(ps_psp_pnr as ps_s4_pspnr preserving type)` |
+| `RevnAcctgSalesOrganization` | `sales_org` |
+| `CompanyCode` | `company_code` |
+| `AccountingPrinciple` | `acct_principle` |
+| `PerfOblgnCreatedByUser` | `cast(created_by as fis_cc_erfnm preserving type)` |
+| `PerfOblgnCreationDate` | `cast(created_on as fis_cc_erfdt preserving type)` |
+| `PerfOblgnLastChangeDate` | `last_changed_on` |
+| `PerfOblgnLastChangedByUsr` | `cast(last_changed_by as fis_aufaenam preserving type)` |
+| `PerfOblgnIsExclFromPriceAlloc` | `cast(prevent_alloc as farr_cds_exclude_allocation preserving type)` |
+| `PerfOblgnPostingIsSusp` | `rev_rec_block` |
+| `OplContractualPrcInSlsDocCrcy` | `distributed_org_price` |
+| `PerfOblgnHasContrModification` | `cast(has_pro_change as farr_cds_has_pro_change preserving type)` |
+| `RAHigherLevelPerfOblgn` | `hi_level_pob_id` |
+| `PerfOblgnIsSoftDeleted` | `soft_deleted` |
+| `RAPerfOblgnInvoiceEffectType` | `invoice_effect_type` |
+| `RAFulfillmentIsValueBased` | `cast(value_based_fulfillments as farr_cds_ful_based_on_value preserving type)` |
+| `RevnAcctgPerfOblgnStatus` | `cast(status as farr_cds_pob_status preserving type)` |
+| `RAPerfOblgnCompletionDate` | `cast(completion_date as farr_cds_pob_completion_date preserving type)` |
+| `Customer` | `customer_id` |
+| `RAPerformanceObligationType` | `cast(pob_type as farr_cds_pob_type preserving type)` |
+| `RAPerfOblgnCategory` | `cast(pob_category as farr_cds_pob_category preserving type)` |
+| `FunctionalArea` | `fkber` |
+| `BusinessArea` | `gsber` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `cast(paobjnr as rkeobjnr_char preserving type)` |
 | `OrderID` | `aufnr` |
-| `farr_cds_acct_assmt_so preserving type)` | `cast(kdauf` |
-| `farr_cds_acct_assmt_so_item preserving type)` | `cast(kdpos` |
+| `SalesOrder` | `cast(kdauf as farr_cds_acct_assmt_so preserving type)` |
+| `SalesOrderItem` | `cast(kdpos as farr_cds_acct_assmt_so_item preserving type)` |
 | `RAPerfOblgnAccruedCostAccount` | `accrued_cost_account` |
 | `RAPerfOblgnDeferredCostAccount` | `deferred_cost_account` |
 | `RAContractAssetAccount` | `asset_account` |
@@ -46,13 +101,13 @@ tags:
 | `RAPerfOblgnCostAmtInSlsDocCrcy` | `cost` |
 | `CostCurrency` | `cost_curk` |
 | `RAPerfOblgnDistinctType` | `distinct_type` |
-| `farr_cds_cost_recognition preserving type)` | `cast(cost_recognition` |
+| `RAPerfOblgnIsCostRecognizable` | `cast(cost_recognition as farr_cds_cost_recognition preserving type)` |
 | `RAInitialEffectiveDate` | `initial_effective_date` |
 | `RootPerformanceObligationInBOM` | `bom_pob_id` |
-| `farr_cds_delivered_quantity)` | `cast(delivered_quantity` |
-| `farr_cds_diff_to_delivered_qty)` | `cast(delivered_qty_diff` |
-| `farr_cds_pob_role preserving type)` | `cast(pob_role` |
-| `farr_cds_leading_pob_id preserving type)` | `cast(leading_pob_id` |
+| `PerfOblgnDeliveredQuantity` | `cast(delivered_quantity as farr_cds_delivered_quantity)` |
+| `RAItemDifferenceToDeliveredQty` | `cast(delivered_qty_diff as farr_cds_diff_to_delivered_qty)` |
+| `PerformanceObligationRole` | `cast(pob_role as farr_cds_pob_role preserving type)` |
+| `LeadingPerformanceObligation` | `cast(leading_pob_id as farr_cds_leading_pob_id preserving type)` |
 | `RAPerfOblgnInceptionDate` | `inception_date` |
 | `RevnAcctgSuspensionDate` | `suspension_date` |
 | `RevnAcctgSuspensionReason` | `suspension_reason` |
@@ -63,7 +118,6 @@ tags:
 | `RevnAcctgReceivablesAccount` | `receivable_account` |
 | `BusinessSolutionOrder` | `solution_order_id` |
 | `BusinessSolutionOrderItem` | `solution_order_item_id` |
-| `/* association */` | `/* association */` |
 | `_RevenueAccountingContract` | *Association* |
 | `_Mapping` | *Association* |
 | `_CompanyCode` | *Association* |
@@ -139,8 +193,6 @@ tags:
 | `_RAPerfOblgnCategory` | `I_RAPerfOblgnCategory` | [1..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_RAUnivRevnRecgnIntegType` | `I_RAUnivRevnRecgnIntegType` | [1..1] |
-| `_PerfOblgnDeferralMethod` | `I_RAPerfOblgnDeferralMethod` | [0..1] |
-| `_PerfOblgnInvcEffctType` | `I_RAPerfOblgnInvcEffctType` | [0..1] |
 
 ## Source Code
 

@@ -30,9 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CnsldtnVersion'` | `foreignKey.association: '_CnsldtnVersion'` |
-| `sapObjectNodeTypeReference: 'ConsolidationVersion' }` | `sapObjectNodeTypeReference: 'ConsolidationVersion' }` |
-| `item.ConsolidationVersion` | `item.ConsolidationVersion` |
+| `CnsldtnTaskLogUUID` | `item.CnsldtnTaskLogUUID` |
+| `CnsldtnTaskLogItemUUID` | `item.CnsldtnTaskLogItemUUID` |
+| `CnsldtnTaskLogItemType` | `item.CnsldtnTaskLogItemType` |
+| `CnsldtnGroupJrnlEntry` | `item.CnsldtnGroupJrnlEntry` |
+| `FiscalPeriod` | `item.FiscalPeriod` |
+| `PostingFiscalYear` | `item.PostingFiscalYear` |
+| `ConsolidationDocumentNumber` | `item.ConsolidationDocumentNumber` |
+| `ConsolidationPostingItem` | `item.ConsolidationPostingItem` |
+| `ConsolidationGroup` | `item.ConsolidationGroup` |
+| `SubItemCategory` | `item.SubItemCategory` |
+| `SubItem` | `item.SubItem` |
+| `ConsolidationUnit` | `item.ConsolidationUnit` |
+| `CnsldtnTskLgItmRowNmbr` | `item.CnsldtnTskLgItmRowNmbr` |
+| `CnsldtnFinancialStatementItem` | `item.CnsldtnFinancialStatementItem` |
+| `PartnerConsolidationUnit` | `item.PartnerConsolidationUnit` |
+| `ConsolidationChartOfAccounts` | `item.ConsolidationChartOfAccounts` |
+| `ConsolidationVersion` | `item.ConsolidationVersion` |
 | `_ConsolidationTaskLog` | *Association* |
 | `_CnsldtnGroup` | *Association* |
 | `_CnsldtnSubitemCategory` | *Association* |

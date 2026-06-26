@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # I_SCHEDGAGRMTITMTP_2
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
@@ -126,12 +127,6 @@ tags:
 | `ManufacturerPartNmbr` | `ManufacturerPartNmbr` |
 | `ServicePackage` | `ServicePackage` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_SchedgAgrmtHdr             : redirected to parent I_SchedgAgrmtHdrTP_2` | *Association* |
-| `_SchedgLine                 : redirected to composition child I_SchedgLineTP_2` | *Association* |
-| `_SchedgAgrmtItmCndnValdty   : redirected to composition child I_SchedgAgrmtItmCndnValdtyTP_2` | *Association* |
-| `_SchedgAgrmtAcct            : redirected to composition child I_SchedgAgrmtAcctTP_2` | *Association* |
-| `_SchedgAgrmtDeliveryAddress : redirected to composition child I_SchedgAgrmtDeliveryAddrTP_2` | *Association* |
-| `_SchedgAgrmtItemNotes       : redirected to composition child I_SchedgAgrmtItemNotesTP_2` | *Association* |
 
 ## Associations
 

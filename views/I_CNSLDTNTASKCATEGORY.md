@@ -30,11 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_Domain.DomainValue, // required for search` | *Association* |
+| `ConsolidationTaskCategory` | `cast(left(_Domain.DomainValue, 2) as fincs_taskcategory preserving type )` |
+| `DomainValue` | `_Domain.DomainValue` |
 | `_Text` | *Association* |
 
 ## Associations

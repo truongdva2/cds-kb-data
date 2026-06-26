@@ -41,11 +41,9 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_Root` | *Association* |
 | `_Work` | *Association* |
 | `_ProjDmndRsceReqDistr` | *Association* |
-| `/* External Associations */` | `/* External Associations */` |
 | `_PersonWorkAgrmt` | *Association* |
 
 ## Associations

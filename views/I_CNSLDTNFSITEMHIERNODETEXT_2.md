@@ -32,14 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_Hierarchy' }` | `foreignKey.association: '_Hierarchy' }` |
-| `fincs_fsitemhierarchy preserving type )` | `cast( substring(_HierarchyNodeText.UniversalHierarchy, 9, 10 )` |
-| `key _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `CnsldtnFSItemHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |

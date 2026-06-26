@@ -30,12 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CountryVH'` | `name: 'I_CountryVH'` |
-| `element: 'Country' } }]` | `element: 'Country' } }]` |
-| `fincs_country preserving type )` | `cast(cntry` |
-| `fincs_company preserving type )` | `cast(_Company.Company` |
-| `fincs_md_link preserving type )` | `cast(link` |
-| `fincs_md_link_label preserving type )` | `cast(linklabel` |
+| `ConsolidationUnit` | `cast(bunit as fincs_consolidationunit preserving type )` |
+| `Country` | `cast(cntry as fincs_country preserving type )` |
+| `Company` | `cast(_Company.Company as fincs_company preserving type )` |
+| `ConsolidationUnitLink` | `cast(link as fincs_md_link preserving type )` |
+| `ConsolidationUnitLinkLabel` | `cast(linklabel as fincs_md_link_label preserving type )` |
 | `ETag` | `etag` |
 | `CreationDateTime` | `created_at` |
 | `_Text` | *Association* |

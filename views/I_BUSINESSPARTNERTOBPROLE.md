@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessPartnerVH'` | `name:    'I_BusinessPartnerVH'` |
-| `element: 'BusinessPartner' }` | `element: 'BusinessPartner' }` |
-| `}]` | `}]` |
+| `mandt` | `but100.mandt` |
 | `BusinessPartner` | `but100.partner` |
 | `BusinessPartnerRole` | `but100.rltyp` |
 | `ValidFrom` | `but100.valid_from` |
 | `ValidTo` | `but100.valid_to` |
 | `_BusinessPartnerRole` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

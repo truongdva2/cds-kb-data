@@ -29,16 +29,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PrcgConditionFieldRangeName   : fieldname;` | `PrcgConditionFieldRangeName   : fieldname;` |
-| `PrcgConditionFieldRangeSign   : tvarv_sign;` | `PrcgConditionFieldRangeSign   : tvarv_sign;` |
-| `PrcgConditionFieldRangeOption : tvarv_opti;` | `PrcgConditionFieldRangeOption : tvarv_opti;` |
-| `PrcgConditionFieldRangeLow    : rsdsselop_;` | `PrcgConditionFieldRangeLow    : rsdsselop_;` |
-| `PrcgConditionFieldRangeHigh   : rsdsselop_;` | `PrcgConditionFieldRangeHigh   : rsdsselop_;` |
-| `_ConditionRecordCriteriaItem  : association to parent D_ConditionRecordCriteriaItemP;` | *Association* |
+| `PrcgConditionFieldRangeName` | `fieldname` |
+| `PrcgConditionFieldRangeSign` | `tvarv_sign` |
+| `PrcgConditionFieldRangeOption` | `tvarv_opti` |
+| `PrcgConditionFieldRangeLow` | `rsdsselop_` |
+| `PrcgConditionFieldRangeHigh` | `rsdsselop_` |
+| `_ConditionRecordCriteriaItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConditionRecordCriteriaItem` | `D_ConditionRecordCriteriaItemP` | — |
 
 ## Source Code
 

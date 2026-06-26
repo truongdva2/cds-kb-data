@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ExternalProductGroup
 ---
 # I_EXTPRODGRP
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `externalproductgroup preserving type )` | `cast(extwg` |
+| `ExternalProductGroup` | `cast(extwg as externalproductgroup preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

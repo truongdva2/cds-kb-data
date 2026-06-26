@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_OffsettingAccount.ChartOfAccounts` | `P_OffsettingAccount.ChartOfAccounts` |
-| `key P_OffsettingAccount.OffsettingAccountType` | `P_OffsettingAccount.OffsettingAccountType` |
-| `key P_OffsettingAccount.OffsettingAccount` | `P_OffsettingAccount.OffsettingAccount` |
-| `P_OffsettingAccount.OffsettingAccountName` | `P_OffsettingAccount.OffsettingAccountName` |
-| `P_OffsettingAccount.OffsettingAccountShortName` | `P_OffsettingAccount.OffsettingAccountShortName` |
+| `ChartOfAccounts` | `P_OffsettingAccount.ChartOfAccounts` |
+| `OffsettingAccountType` | `P_OffsettingAccount.OffsettingAccountType` |
+| `OffsettingAccount` | `P_OffsettingAccount.OffsettingAccount` |
+| `OffsettingAccountName` | `P_OffsettingAccount.OffsettingAccountName` |
+| `OffsettingAccountShortName` | `P_OffsettingAccount.OffsettingAccountShortName` |
 | `_ChartOfAccounts` | *Association* |
 | `_GLAccountInChartOfAccounts` | *Association* |
 | `_GLAccount` | *Association* |
@@ -49,9 +49,7 @@ tags:
 | `_ChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 | `_GLAccount` | `I_GLAccountInChartOfAccounts` | [0..1] |
 | `_GLAccountInChartOfAccounts` | `I_GLAccountInChartOfAccounts` | [0..1] |
-| `_Text` | `I_OffsettingAccountText` | [0..*] |
 | `_OffsettingAccountType` | `I_FinancialAccountType` | [0..1] |
-| `_GLAccountHierarchyNode` | `I_GLAccountHierarchyNode` | [0..*] |
 | `_Customer` | `I_Customer` | [0..1] |
 | `_Supplier` | `I_Supplier` | [0..1] |
 

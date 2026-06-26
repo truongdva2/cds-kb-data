@@ -33,24 +33,24 @@ tags:
 | `BankStatementShortID` | `StatementShortID` |
 | `CompanyCode` | `CompanyCode` |
 | `HouseBank` | `HouseBank` |
-| `farp_hktid)` | `cast ( HouseBankAccount` |
-| `farp_aznum )` | `cast ( StatementNumber` |
-| `farp_azdat )` | `cast ( StatementDate` |
+| `HouseBankAccount` | `cast ( HouseBankAccount as farp_hktid)` |
+| `BankStatement` | `cast ( StatementNumber as farp_aznum )` |
+| `BankStatementDate` | `cast ( StatementDate as farp_azdat )` |
 | `BankStatementStatus` | `StatementStatus` |
 | `BankStatementPageNumber` | `StatementPageNumber` |
 | `Currency` | `Currency` |
-| `farp_opening_bal_interim_ind )` | `cast ( OpeningBalanceIsInterim` |
-| `farp_closing_bal_interim_ind )` | `cast ( ClosingBalanceIsInterim` |
+| `OpeningBalanceIsInterim` | `cast ( OpeningBalanceIsInterim as farp_opening_bal_interim_ind )` |
+| `ClosingBalanceIsInterim` | `cast ( ClosingBalanceIsInterim as farp_closing_bal_interim_ind )` |
 | `OpeningBalanceAmtInTransCrcy` | `OpeningBalanceAmtInTransCrcy` |
 | `ClosingBalanceAmtInTransCrcy` | `ClosingBalanceAmtInTransCrcy` |
 | `InterimOpenBalAmtInTransCrcy` | `InterimOpenBalAmtInTransCrcy` |
 | `InterimClsgBalAmtInTransCrcy` | `InterimClsgBalAmtInTransCrcy` |
 | `PaymentTransactionTypeGroup` | `PaymentTransactionTypeGroup` |
 | `CreatedByUser` | `CreatedByUser` |
-| `farp_bsmanuallycreated )` | `cast ( IsManuallyCreated` |
-| `farp_input_format )` | `cast ( StatementInputFormat` |
-| `farp_edate )` | `cast ( BankStatementImportDate` |
-| `farp_etime )` | `cast ( BankStatementImportTime` |
+| `BankStatementIsManuallyCreated` | `cast ( IsManuallyCreated as farp_bsmanuallycreated )` |
+| `BankStatementFormat` | `cast ( StatementInputFormat as farp_input_format )` |
+| `BankStatementImportDate` | `cast ( BankStatementImportDate as farp_edate )` |
+| `BankStatementImportTime` | `cast ( BankStatementImportTime as farp_etime )` |
 | `_Currency` | *Association* |
 
 ## Associations

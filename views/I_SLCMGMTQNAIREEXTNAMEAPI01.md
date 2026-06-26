@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SLCQnaireExternalNameUUID
 ---
 # I_SLCMGMTQNAIREEXTNAMEAPI01
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  SLCQnaireExternalNameUUID` | `SLCQnaireExternalNameUUID` |
+| `SLCQnaireExternalNameUUID` | `SLCQnaireExternalNameUUID` |
 | `SLCQnaireUUID` | `SLCQnaireUUID` |
 | `Language` | `Language` |
 | `SLCQnaireExternalName` | `SLCQnaireExternalName` |

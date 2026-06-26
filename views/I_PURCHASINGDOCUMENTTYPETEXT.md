@@ -15,6 +15,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentTypeText
 ---
 # I_PURCHASINGDOCUMENTTYPETEXT
 
@@ -31,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
+| `PurchasingDocumentType` | `bsart` |
+| `PurchasingDocumentCategory` | `bstyp` |
+| `Language` | `spras` |
 | `PurchasingDocumentTypeName` | `batxt` |
 | `_PurchasingDocumentType` | *Association* |
 | `_PurchasingDocumentCategory` | *Association* |
@@ -41,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurchasingDocumentType` | `I_PurchasingDocumentType` | — |
 | `_PurchasingDocumentCategory` | `I_PurchasingDocumentCategory` | [1..1] |
 | `_Language` | `I_Language` | [0..1] |
 

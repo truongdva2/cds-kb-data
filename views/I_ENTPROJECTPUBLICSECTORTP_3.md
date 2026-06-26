@@ -33,14 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectUUID` | `ProjectUUID` |
+| `ProjectUUID` | `ProjectUUID` |
 | `Fund` | `Fund` |
 | `FundIsFixAssigned` | `FundIsFixAssigned` |
 | `FunctionalAreaIsFixAssigned` | `FunctionalAreaIsFixAssigned` |
 | `GrantID` | `GrantID` |
 | `GrantIsFixAssigned` | `GrantIsFixAssigned` |
 | `SponsoredProgram` | `SponsoredProgram` |
-| `_EnterpriseProject : redirected to parent I_EnterpriseProjectTP_3` | *Association* |
 
 ## Associations
 

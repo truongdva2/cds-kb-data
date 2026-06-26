@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-KAB-2CL
   - lob:Manufacturing
+  - bo:ProductionSupplyAreaAddress
 ---
 # I_PRODUCTIONSUPPLYAREAADDRTP_2
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionSupplyArea` | `ProductionSupplyArea` |
-| `key Plant` | `Plant` |
-| `key AddressRepresentationCode` | `AddressRepresentationCode` |
+| `ProductionSupplyArea` | `ProductionSupplyArea` |
+| `Plant` | `Plant` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
 | `ProductionSupplyAreaAddressID` | `ProductionSupplyAreaAddressID` |
 | `AddresseeName1` | `AddresseeName1` |
 | `AddresseeName2` | `AddresseeName2` |
@@ -48,8 +49,6 @@ tags:
 | `PostalCode` | `PostalCode` |
 | `Region` | `Region` |
 | `Country` | `Country` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductionSupplyArea: redirected to parent I_ProductionSupplyAreaTP_2` | *Association* |
 
 ## Associations
 

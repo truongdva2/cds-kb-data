@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JntVntrEquityFundingDateValue
 ---
 # I_JNTVNTRVALDINVMTGRP
 
@@ -29,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JntVntrEquityTypeVH'` | `name:    'I_JntVntrEquityTypeVH'` |
-| `element: 'JointVentureEquityType' }` | `element: 'JointVentureEquityType' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `JointVenture` | `cast( vname as jv_name preserving type )` |
 | `JointVentureEquityType` | `etype` |
 | `JntVntrEquityFundingDateValue` | `fdate` |
 | `JointVentureEquityFundingDate` | `fdate` |
@@ -40,8 +40,8 @@ tags:
 | `JointVentureDefBillCurrency` | `bcurr` |
 | `JVAFundingGrpInEquityGrp` | `fundgroup` |
 | `JVAEquityGroupIntrstCalcGrpID` | `ic_group` |
-| `_JntVntrEquityTypeDesc.JointVentureEquityTypeName as JointVentureEquityTypeName` | *Association* |
-| `_JointVenture._Text[1:Language = $session.system_language ].JointVentureName` | *Association* |
+| `JointVentureEquityTypeName` | `_JntVntrEquityTypeDesc.JointVentureEquityTypeName` |
+| `JointVentureName` | `_JointVenture._Text[1:Language = $session.system_language ].JointVentureName` |
 | `_CompanyCode` | *Association* |
 | `_JointVenture` | *Association* |
 | `_JntVntrEquityType` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - warehouse
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:WarehouseTask
 ---
 # I_EWM_WAREHOUSETASK_2
 
@@ -31,168 +32,152 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _WarehouseTask.EWMWarehouse` | `_WarehouseTask.EWMWarehouse` |
-| `key _WarehouseTask.WarehouseTask` | `_WarehouseTask.WarehouseTask` |
-| `key _WarehouseTask.WarehouseTaskItem` | `_WarehouseTask.WarehouseTaskItem` |
-| `_WarehouseTask.IsHandlingUnitWarehouseTask` | *Association* |
-| `_WarehouseTask.WarehouseProcessType` | *Association* |
-| `_WarehouseTask.WarehouseProcessCategory` | *Association* |
-| `_WarehouseTask.StorageProcess` | *Association* |
-| `_WarehouseTask.ExternalStorageProcessStep` | *Association* |
-| `_WarehouseTask.WarehouseTaskStatus` | *Association* |
-| `_WarehouseTask.CreatedByUser` | *Association* |
-| `_WarehouseTask.WhseTaskCrtnUTCDateTime` | *Association* |
-| `_WarehouseTask.WarehouseTaskCodes` | *Association* |
-| `_WarehouseTask.ExecutingResource` | *Association* |
-| `_WarehouseTask.WarehouseMovementsReason` | *Association* |
-| `_WarehouseTask.EWMWarehouseTaskPriority` | *Association* |
-| `_WarehouseTask.StockItemUUID` | *Association* |
-| `_WarehouseTask.CurrentNumberOfKeyTable` | *Association* |
-| `_WarehouseTask.ProductUUID` | *Association* |
-| `_WarehouseTask.ProductName` | *Association* |
-| `_WarehouseTask._Material` | *Association* |
-| `_WarehouseTask.BatchUUID` | *Association* |
-| `_WarehouseTask.EWMStockType` | *Association* |
-| `_WarehouseTask.StockDocumentCategory` | *Association* |
-| `case _WarehouseTask.StockDocumentCategory` | `case _WarehouseTask.StockDocumentCategory` |
-| `when 'SOS'` | `when 'SOS'` |
-| `then _WarehouseTask.StockDocumentNumber` | `then _WarehouseTask.StockDocumentNumber` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then _WarehouseTask.WBSElementExternalID` | `then _WarehouseTask.WBSElementExternalID` |
-| `else _WarehouseTask.StockDocumentNumber` | `else _WarehouseTask.StockDocumentNumber` |
-| `StockDocumentNumber` | `end` |
-| `_WarehouseTask.StockItemNumber` | *Association* |
-| `_WarehouseTask.EWMDocumentCategory` | *Association* |
-| `_WarehouseTask.EWMStockUsage` | *Association* |
-| `_WarehouseTask.EWMStockOwner` | *Association* |
-| `_WarehouseTask.StockOwnerPartnerRole` | *Association* |
-| `_WarehouseTask.EntitledToDisposeParty` | *Association* |
-| `_WarehouseTask.EntitledToDisposePartnerRole` | *Association* |
-| `_WarehouseTask.CounterForStockSeparation` | *Association* |
-| `_WarehouseTask.Batch` | *Association* |
-| `_WarehouseTask.RequirementSegment` | *Association* |
-| `_WarehouseTask.StockSegment` | *Association* |
-| `_WarehouseTask.BaseUnit` | *Association* |
-| `_WarehouseTask.AlternativeUnit` | *Association* |
-| `_WarehouseTask.TargetQuantityInBaseUnit` | *Association* |
-| `_WarehouseTask.TargetQuantityInAltvUnit` | *Association* |
-| `_WarehouseTask.WhseTaskRetentionQuantity` | *Association* |
-| `_WarehouseTask.HandlingUnitType` | *Association* |
-| `abap.char(4) )` | `cast (''` |
-| `_WarehouseTask.NetWeight` | *Association* |
-| `_WarehouseTask.WhseTaskNetWeightUnitOfMeasure` | *Association* |
-| `_WarehouseTask.WhseTaskNetVolume` | *Association* |
-| `_WarehouseTask.WhseTaskNetVolumeUnitOfMeasure` | *Association* |
-| `_WarehouseTask.WhseTaskCapacityConsumption` | *Association* |
-| `/* NOTE: To keep the values of the fields stable the CAST to the a BOOLEAN type is introduced` | `/* NOTE: To keep the values of the fields stable the CAST to the a BOOLEAN type is introduced` |
-| `=> Annotation @Semantics.booleanIndicator was removed -> It's deprecated` | `=> Annotation @Semantics.booleanIndicator was removed -> It's deprecated` |
-| `=> This cast will lead to incompatible changes => Datatypes of the fields changed` | `=> This cast will lead to incompatible changes => Datatypes of the fields changed` |
-| `=> It's a necessary correction and therefore its okay! */` | `=> It's a necessary correction and therefore its okay! */` |
-| `abap_boolean)` | `cast( _WarehouseTask.PutAwayPhysInventoryIsPlanned` |
-| `abap_boolean )` | `cast( _WarehouseTask.WhseTaskLowStockCheckIsPlanned` |
-| `_WarehouseTask.EWMPutAwayPhysInvtryPlnSts` | *Association* |
-| `_WarehouseTask.EWMWhseTskLowStkChkPlnSts` | *Association* |
-| `_WarehouseTask.EWMPutAwayPhysInvtryExecSts` | *Association* |
-| `_WarehouseTask.EWMWhseTskLowStkChkExecSts` | *Association* |
-| `_WarehouseTask.ShelfLifeExpirationDate` | *Association* |
-| `_WarehouseTask.WhseTaskGoodsReceiptDateTime` | *Association* |
-| `_WarehouseTask.CountryOfOrigin` | *Association* |
-| `_WarehouseTask.HazardousSubstanceIndicator` | *Association* |
-| `_WarehouseTask.WhseTaskQualityInspectionType` | *Association* |
-| `_WarehouseTask.QualityInspectionDocUUID` | *Association* |
-| `_WarehouseTask.StockIdentificationOfWhseTask` | *Association* |
-| `_WarehouseTask.EWMConsolidationGroup` | *Association* |
-| `_WarehouseTask.SourceStorageType` | *Association* |
-| `_WarehouseTask.SourceStorageSection` | *Association* |
-| `_WarehouseTask.SourceStorageBin` | *Association* |
-| `_WarehouseTask.SourceHndlgUnitLogicalPosition` | *Association* |
-| `_WarehouseTask.SourceResource` | *Association* |
-| `_WarehouseTask.SourceTransportationUnit` | *Association* |
-| `_WarehouseTask.EWMSourceLocationType` | *Association* |
-| `_WarehouseTask.SourceHandlingUnitUUID` | *Association* |
-| `_WarehouseTask.SourceHandlingUnit` | *Association* |
-| `_WarehouseTask.DestinationStorageType` | *Association* |
-| `_WarehouseTask.DestinationStorageSection` | *Association* |
-| `_WarehouseTask.DestinationStorageBin` | *Association* |
-| `_WarehouseTask.DestHndlgUnitLogicalPosition` | *Association* |
-| `_WarehouseTask.DestinationResource` | *Association* |
-| `_WarehouseTask.DestinationTransportationUnit` | *Association* |
-| `_WarehouseTask.EWMDestinationLocationType` | *Association* |
-| `_WarehouseTask.DestinationHandlingUnitUUID` | *Association* |
-| `_WarehouseTask.DestinationHandlingUnit` | *Association* |
-| `_WarehouseTask.WhseTaskDestStorageBinDtmndBy` | *Association* |
-| `_WarehouseTask.WrhsTaskSubsystemTransmn` | *Association* |
-| `_WarehouseTask.WhseTaskPlannedProcessingTime` | *Association* |
-| `_WarehouseTask.WhseTaskProcgTimeDetnTimeUnit` | *Association* |
-| `_WarehouseTask.WhseTaskRefToValueAddedService` | *Association* |
-| `_WarehouseTask.BatchChangeIsNotAllowed` | *Association* |
-| `_WarehouseTask.EWMReferenceDocumentCategory` | *Association* |
-| `_WarehouseTask.ReferenceDocumentUUID` | *Association* |
-| `_WarehouseTask.ReferenceDocumentItemUUID` | *Association* |
-| `_WarehouseTask.Wave` | *Association* |
-| `_WarehouseTask.EWMWave` | *Association* |
-| `_WarehouseTask.WaveItem` | *Association* |
-| `_WarehouseTask.EWMWaveItem` | *Association* |
-| `_WarehouseTask.WhseTaskTwoStepPickingType` | *Association* |
-| `_WarehouseTask.WhseTaskTwoStepPickingRlvnce` | *Association* |
-| `_WarehouseTask.DocumentReltdStockDocCat` | *Association* |
-| `_WarehouseTask.DocumentReltdStockDocUUID` | *Association* |
-| `_WarehouseTask.DocumentReltdStockDocItemUUID` | *Association* |
-| `_WarehouseTask.StockIdentificationNumber` | *Association* |
-| `_WarehouseTask.KitItemIsCreatedAutomatically` | *Association* |
-| `_WarehouseTask.WarehouseTaskUUID` | *Association* |
-| `/* NOTE: To keep the values of the fields stable the CAST to the a BOOLEAN type is introduced` | `/* NOTE: To keep the values of the fields stable the CAST to the a BOOLEAN type is introduced` |
-| `=> Annotation @Semantics.booleanIndicator was removed -> It's deprecated` | `=> Annotation @Semantics.booleanIndicator was removed -> It's deprecated` |
-| `=> This cast will lead to incompatible changes => Datatypes of the fields changed` | `=> This cast will lead to incompatible changes => Datatypes of the fields changed` |
-| `=> It's a necessary correction and therefore its okay! */` | `=> It's a necessary correction and therefore its okay! */` |
-| `abap_boolean )` | `cast( _WarehouseTask.IsDocumentaryBatch` |
-| `_WarehouseTask.ConveyorTechniqueSegment` | *Association* |
-| `_WarehouseTask.EWMProductionSupplyArea` | *Association* |
-| `_WarehouseTask.ProductionOrder` | *Association* |
-| `_WarehouseTask.PurchaseOrder` | *Association* |
-| `_WarehouseTask.PurchaseOrderItem` | *Association* |
-| `_WarehouseTask.WhseTaskCrtnWhseTmznDateTime` | *Association* |
-| `_WarehouseTask.WhseTaskChgWhseTmznDateTime` | *Association* |
-| `_WarehouseTask.WhseTaskConfWhseTmznDateTime` | *Association* |
-| `timestamp)` | `cast  ('000000000000000'` |
-| `_WarehouseTask.Kanban` | *Association* |
-| `_WarehouseTask.StockKeepingAlternativeUoM` | *Association* |
-| `_WarehouseTask.ActivityArea` | *Association* |
-| `_WarehouseTask.Queue` | *Association* |
-| `_WarehouseTask.WarehouseOrder` | *Association* |
-| `_WarehouseTask.LogicalRecordProgramName` | *Association* |
-| `_WarehouseTask.LogicalRecordTransactionCode` | *Association* |
-| `_WarehouseTask.EWMDummyFuncForStructureExtn` | *Association* |
-| `_WarehouseTask.CertificateText` | *Association* |
-| `_WarehouseTask.WhseTaskLastChgUTCDateTime` | *Association* |
-| `abap.char( 4 ))` | `cast (''` |
-| `WarehouseTaskLog.WhseTaskPlannedClosingDateTime` | `WarehouseTaskLog.WhseTaskPlannedClosingDateTime` |
-| `_WarehouseTask.ConfirmedByUser` | *Association* |
-| `_WarehouseTask.ConfirmationUTCDateTime` | *Association* |
-| `_WarehouseTask.Processor` | *Association* |
-| `_WarehouseTask.WarehouseTaskExceptionCode` | *Association* |
-| `_WarehouseTask.BusinessContext` | *Association* |
-| `_WarehouseTask.BusinessContextExecutionStep` | *Association* |
-| `_WarehouseTask._Resource.ExecutingResourceGroup` | *Association* |
-| `_WarehouseTask._Resource.ExecutingResourceType` | *Association* |
-| `_WarehouseTask.ActualQuantityInBaseUnit` | *Association* |
-| `_WarehouseTask.ActualQuantityInAltvUnit` | *Association* |
-| `_WarehouseTask.DifferenceQuantityInAltvUnit` | *Association* |
-| `_WarehouseTask.DifferenceQuantityInBaseUnit` | *Association* |
-| `WarehouseTaskLog.WhseTaskSortingSequenceValue` | `WarehouseTaskLog.WhseTaskSortingSequenceValue` |
-| `WarehouseTaskLog.WarehouseOrderSequenceValue` | `WarehouseTaskLog.WarehouseOrderSequenceValue` |
-| `WarehouseTaskLog.WarehouseOrderActivityArea` | `WarehouseTaskLog.WarehouseOrderActivityArea` |
-| `WarehouseTaskLog.WarehouseOrderCreationRule` | `WarehouseTaskLog.WarehouseOrderCreationRule` |
-| `WarehouseTaskLog.HomogeneousFullPalletPick` | `WarehouseTaskLog.HomogeneousFullPalletPick` |
-| `WarehouseTaskLog.EWMRoute` | `WarehouseTaskLog.EWMRoute` |
-| `WarehouseTaskLog.EWMWaveCategory` | `WarehouseTaskLog.EWMWaveCategory` |
-| `_WarehouseTask.EWMCanceledWarehouseTask` | *Association* |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `WarehouseTask` | `WarehouseTask` |
+| `WarehouseTaskItem` | `cast('0000' as tapos_no_conv preserving type )` |
+| `IsHandlingUnitWarehouseTask` | `IsHandlingUnitWarehouseTask` |
+| `WarehouseProcessType` | `WarehouseProcessType` |
+| `WarehouseProcessCategory` | `WarehouseProcessCategory` |
+| `StorageProcess` | `StorageProcess` |
+| `ExternalStorageProcessStep` | `ExternalStorageProcessStep` |
+| `WarehouseTaskStatus` | `WarehouseTaskStatus` |
+| `CreatedByUser` | `CreatedByUser` |
+| `WhseTaskCrtnUTCDateTime` | `WhseTaskCrtnUTCDateTime` |
+| `WarehouseTaskCodes` | `WarehouseTaskCodes` |
+| `ExecutingResource` | `ExecutingResource` |
+| `WarehouseMovementsReason` | `WarehouseMovementsReason` |
+| `EWMWarehouseTaskPriority` | `EWMWarehouseTaskPriority` |
+| `StockItemUUID` | `StockItemUUID` |
+| `CurrentNumberOfKeyTable` | `CurrentNumberOfKeyTable` |
+| `ProductUUID` | `ProductUUID` |
+| `ProductName` | `_Material.Product` |
+| `_Material` | *Association* |
+| `BatchUUID` | `BatchUUID` |
+| `EWMStockType` | `EWMStockType` |
+| `StockDocumentCategory` | `StockDocumentCategory` |
+| `StockDocumentNumber` | `case…end` |
+| `StockItemNumber` | `StockItemNumber` |
+| `EWMDocumentCategory` | `EWMDocumentCategory` |
+| `EWMStockUsage` | `EWMStockUsage` |
+| `EWMStockOwner` | `EWMStockOwner` |
+| `StockOwnerPartnerRole` | `StockOwnerPartnerRole` |
+| `EntitledToDisposeParty` | `EntitledToDisposeParty` |
+| `EntitledToDisposePartnerRole` | `EntitledToDisposePartnerRole` |
+| `CounterForStockSeparation` | `CounterForStockSeparation` |
+| `Batch` | `Batch` |
+| `RequirementSegment` | `RequirementSegment` |
+| `StockSegment` | `StockSegment` |
+| `BaseUnit` | `BaseUnit` |
+| `AlternativeUnit` | `AlternativeUnit` |
+| `TargetQuantityInBaseUnit` | `TargetQuantityInBaseUnit` |
+| `TargetQuantityInAltvUnit` | `TargetQuantityInAltvUnit` |
+| `WhseTaskRetentionQuantity` | `WhseTaskRetentionQuantity` |
+| `HandlingUnitType` | `HandlingUnitType` |
+| `HandlingUnitTypeGroup` | `HandlingUnitTypeGroup` |
+| `NetWeight` | `NetWeight` |
+| `WhseTaskNetWeightUnitOfMeasure` | `WhseTaskNetWeightUnitOfMeasure` |
+| `WhseTaskNetVolume` | `WhseTaskNetVolume` |
+| `WhseTaskNetVolumeUnitOfMeasure` | `WhseTaskNetVolumeUnitOfMeasure` |
+| `WhseTaskCapacityConsumption` | `WhseTaskCapacityConsumption` |
+| `PutAwayPhysInventoryIsPlanned` | `cast( PutAwayPhysInventoryIsPlanned as abap_boolean )` |
+| `WhseTaskLowStockCheckIsPlanned` | `cast( WhseTaskLowStockCheckIsPlanned as abap_boolean )` |
+| `EWMPutAwayPhysInvtryPlnSts` | `EWMPutAwayPhysInvtryPlnSts` |
+| `EWMWhseTskLowStkChkPlnSts` | `EWMWhseTskLowStkChkPlnSts` |
+| `EWMPutAwayPhysInvtryExecSts` | `cast( '' as /scwm/de_place_inv )` |
+| `EWMWhseTskLowStkChkExecSts` | `cast( '' as /scwm/de_lowchk_inv )` |
+| `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
+| `WhseTaskGoodsReceiptDateTime` | `WhseTaskGoodsReceiptDateTime` |
+| `CountryOfOrigin` | `CountryOfOrigin` |
+| `HazardousSubstanceIndicator` | `HazardousSubstanceIndicator` |
+| `WhseTaskQualityInspectionType` | `WhseTaskQualityInspectionType` |
+| `QualityInspectionDocUUID` | `QualityInspectionDocUUID` |
+| `StockIdentificationOfWhseTask` | `StockIdentificationOfWhseTask` |
+| `EWMConsolidationGroup` | `EWMConsolidationGroup` |
+| `SourceStorageType` | `SourceStorageType` |
+| `SourceStorageSection` | `SourceStorageSection` |
+| `SourceStorageBin` | `SourceStorageBin` |
+| `SourceHndlgUnitLogicalPosition` | `SourceHndlgUnitLogicalPosition` |
+| `SourceResource` | `SourceResource` |
+| `SourceTransportationUnit` | `SourceTransportationUnit` |
+| `EWMSourceLocationType` | `EWMSourceLocationType` |
+| `SourceHandlingUnitUUID` | `SourceHandlingUnitUUID` |
+| `SourceHandlingUnit` | `SourceHandlingUnit` |
+| `DestinationStorageType` | `DestinationStorageType` |
+| `DestinationStorageSection` | `DestinationStorageSection` |
+| `DestinationStorageBin` | `DestinationStorageBin` |
+| `DestHndlgUnitLogicalPosition` | `DestHndlgUnitLogicalPosition` |
+| `DestinationResource` | `DestinationResource` |
+| `DestinationTransportationUnit` | `DestinationTransportationUnit` |
+| `EWMDestinationLocationType` | `EWMDestinationLocationType` |
+| `DestinationHandlingUnitUUID` | `DestinationHandlingUnitUUID` |
+| `DestinationHandlingUnit` | `DestinationHandlingUnit` |
+| `WhseTaskDestStorageBinDtmndBy` | `WhseTaskDestStorageBinDtmndBy` |
+| `WrhsTaskSubsystemTransmn` | `WrhsTaskSubsystemTransmn` |
+| `WhseTaskPlannedProcessingTime` | `WhseTaskPlannedProcessingTime` |
+| `WhseTaskProcgTimeDetnTimeUnit` | `WhseTaskProcgTimeDetnTimeUnit` |
+| `WhseTaskRefToValueAddedService` | `WhseTaskRefToValueAddedService` |
+| `BatchChangeIsNotAllowed` | `BatchChangeIsNotAllowed` |
+| `EWMReferenceDocumentCategory` | `EWMReferenceDocumentCategory` |
+| `ReferenceDocumentUUID` | `ReferenceDocumentUUID` |
+| `ReferenceDocumentItemUUID` | `ReferenceDocumentItemUUID` |
+| `Wave` | `Wave` |
+| `EWMWave` | `EWMWave` |
+| `WaveItem` | `WaveItem` |
+| `EWMWaveItem` | `EWMWaveItem` |
+| `WhseTaskTwoStepPickingType` | `WhseTaskTwoStepPickingType` |
+| `WhseTaskTwoStepPickingRlvnce` | `WhseTaskTwoStepPickingRlvnce` |
+| `DocumentReltdStockDocCat` | `DocumentReltdStockDocCat` |
+| `DocumentReltdStockDocUUID` | `DocumentReltdStockDocUUID` |
+| `DocumentReltdStockDocItemUUID` | `DocumentReltdStockDocItemUUID` |
+| `StockIdentificationNumber` | `StockIdentificationNumber` |
+| `KitItemIsCreatedAutomatically` | `KitItemIsCreatedAutomatically` |
+| `WarehouseTaskUUID` | `WarehouseTaskUUID` |
+| `IsDocumentaryBatch` | `cast( IsDocumentaryBatch as abap_boolean )` |
+| `ConveyorTechniqueSegment` | `ConveyorTechniqueSegment` |
+| `EWMProductionSupplyArea` | `EWMProductionSupplyArea` |
+| `ProductionOrder` | `ProductionOrder` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `WhseTaskCrtnWhseTmznDateTime` | `WhseTaskCrtnWhseTmznDateTime` |
+| `WhseTaskChgWhseTmznDateTime` | `WhseTaskChgWhseTmznDateTime` |
+| `WhseTaskConfWhseTmznDateTime` | `cast ('000000000000000' as timestamp)` |
+| `WhseTskPlndClsgWhseTmznDteTme` | `WhseTskPlndClsgWhseTmznDteTme` |
+| `Kanban` | `Kanban` |
+| `StockKeepingAlternativeUoM` | `StockKeepingAlternativeUoM` |
+| `ActivityArea` | `ActivityArea` |
+| `Queue` | `Queue` |
+| `WarehouseOrder` | `WarehouseOrder` |
+| `LogicalRecordProgramName` | `LogicalRecordProgramName` |
+| `LogicalRecordTransactionCode` | `LogicalRecordTransactionCode` |
+| `EWMDummyFuncForStructureExtn` | `EWMDummyFuncForStructureExtn` |
+| `CertificateText` | `CertificateText` |
+| `WhseTaskLastChgUTCDateTime` | `WhseTaskLastChgUTCDateTime` |
+| `WarehouseActivityType` | `WarehouseActivityType` |
+| `WhseTaskPlannedClosingDateTime` | `WhseTaskPlannedClosingDateTime` |
+| `ConfirmedByUser` | `cast ('' as abap.char( 12 ))` |
+| `ConfirmationUTCDateTime` | `cast ('000000000000000' as timestamp)` |
+| `Processor` | `cast ('' as abap.char( 12 ))` |
+| `WarehouseTaskExceptionCode` | `cast ('' as abap.char( 4 ))` |
+| `BusinessContext` | `cast ('' as abap.char( 3 ))` |
+| `BusinessContextExecutionStep` | `cast ('' as abap.char( 2 ))` |
+| `ExecutingResourceGroup` | `cast ('' as abap.char( 4 ))` |
+| `ExecutingResourceType` | `cast ('' as abap.char( 4 ))` |
+| `ActualQuantityInBaseUnit` | `cast(0 as abap.quan( 31, 14 ))` |
+| `ActualQuantityInAltvUnit` | `cast(0 as abap.quan( 31, 14 ))` |
+| `DifferenceQuantityInAltvUnit` | `cast(0 as abap.quan( 31, 14 ))` |
+| `DifferenceQuantityInBaseUnit` | `cast(0 as abap.quan( 31, 14 ))` |
+| `WhseTaskSortingSequenceValue` | `WhseTaskSortingSequenceValue` |
+| `WarehouseOrderSequenceValue` | `WarehouseOrderSequenceValue` |
+| `WarehouseOrderActivityArea` | `WarehouseOrderActivityArea` |
+| `WarehouseOrderCreationRule` | `WarehouseOrderCreationRule` |
+| `HomogeneousFullPalletPick` | `HomogeneousFullPalletPick` |
+| `EWMRoute` | `EWMRoute` |
+| `EWMWaveCategory` | `EWMWaveCategory` |
+| `EWMCanceledWarehouseTask` | `cast( '000000000000' as abap.numc( 12 ) )` |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `WarehouseTaskLog` | `I_EWM_WarehouseTaskLog` | [0..1] |
+> No associations found.
 
 ## Source Code
 

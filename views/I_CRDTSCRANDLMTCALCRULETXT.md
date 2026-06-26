@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8` | `fuzzinessThreshold:   0.8` |
-| `ranking:              #LOW }` | `ranking:              #LOW }` |
+| `CreditScoreAndLimitCalcRule` | `limit_rule` |
+| `Language` | `langu` |
 | `CrdtScoreAndLimitCalcRuleName` | `text50` |
 | `_Language` | *Association* |
 

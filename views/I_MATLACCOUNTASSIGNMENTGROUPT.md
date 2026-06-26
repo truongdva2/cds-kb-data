@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:MatlAccountAssignmentGroup
 ---
 # I_MATLACCOUNTASSIGNMENTGROUPT
 
@@ -38,7 +39,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_MatlAccountAssignmentGroup` | `I_MatlAccountAssignmentGroup` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

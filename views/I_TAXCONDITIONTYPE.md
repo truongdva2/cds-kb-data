@@ -16,6 +16,7 @@ tags:
   - tax
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:TaxConditionType
 ---
 # I_TAXCONDITIONTYPE
 
@@ -32,15 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _PricingConditionType.ConditionApplication` | `_PricingConditionType.ConditionApplication` |
-| `key _PricingConditionType.ConditionType` | `_PricingConditionType.ConditionType` |
-| `_PricingConditionType.ConditionClass` | *Association* |
-| `case when _MdiOidConfiguration.Context is initial` | `case when _MdiOidConfiguration.Context is initial` |
-| `or _MdiOidConfiguration.ComposeOid is initial then` | `or _MdiOidConfiguration.ComposeOid is initial then` |
-| `tax_condition_type_oid )` | `cast( concat( concat(_PricingConditionType.ConditionApplication, '-'), _PricingConditionType.ConditionType )` |
-| `when _MdiOidConfiguration.Context is not initial then` | `when _MdiOidConfiguration.Context is not initial then` |
-| `tax_condition_type_oid )` | `cast( concat( concat( concat( concat(_MdiOidConfiguration.Context, ':' ), _PricingConditionType.ConditionApplication), '-' ), _PricingConditionType.ConditionType )` |
-| `TaxConditionTypeOID` | `end` |
+| `ConditionApplication` | `_PricingConditionType.ConditionApplication` |
+| `ConditionType` | `_PricingConditionType.ConditionType` |
+| `ConditionClass` | `_PricingConditionType.ConditionClass` |
+| `TaxConditionTypeOID` | `case…end` |
 | `_ConditionApplication` | *Association* |
 | `_Text` | *Association* |
 

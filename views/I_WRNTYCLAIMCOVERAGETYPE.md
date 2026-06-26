@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:LO-WTY-FIO
   - lob:Logistics General
+  - bo:WarrantyClaim
 ---
 # I_WRNTYCLAIMCOVERAGETYPE
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wty_coverage_type )` | `cast( domvalue_l` |
+| `WrntyClaimCoverageType` | `cast( domvalue_l as wty_coverage_type )` |
 | `_Text` | *Association* |
 
 ## Associations

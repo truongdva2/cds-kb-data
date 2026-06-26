@@ -32,19 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `WBSElementHierarchy` | `'WBSELEMENTHIERARCHY                       '` |
-| `HierarchyNode` | `_WBSElement.WBSElement` |
-| `ValidityEndDate` | `'99991231'` |
-| `Language` | `_Language.Language` |
-| `_WBSElement.WBSDescription                   as HierarchyNodeText` | *Association* |
-| `ValidityStartDate` | `'19000101'` |
+| `WBSElementHierarchy` | `R_FinWBSElementHierarchyNodeT.WBSElementHierarchy` |
+| `HierarchyNode` | `R_FinWBSElementHierarchyNodeT.HierarchyNode` |
+| `ValidityEndDate` | `R_FinWBSElementHierarchyNodeT.ValidityEndDate` |
+| `Language` | `R_FinWBSElementHierarchyNodeT.Language` |
+| `HierarchyNodeText` | `R_FinWBSElementHierarchyNodeT.HierarchyNodeText` |
+| `ValidityStartDate` | `R_FinWBSElementHierarchyNodeT.ValidityStartDate` |
 | `_Hierarchy` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_Hierarchy` | `I_FinWBSElementHierarchy` | [1..1] |
 | `_Hierarchy` | `I_FinWBSElementHierarchy` | [1..1] |
 
 ## Source Code

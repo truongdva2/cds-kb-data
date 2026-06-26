@@ -15,6 +15,7 @@ tags:
   - status
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:PaymentReqnStrategyStatus
 ---
 # I_CN_PAYTREQNSTRATEGYSTATUST
 
@@ -31,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CN_PaytReqnStrategyStatusVH'` | `name: 'I_CN_PaytReqnStrategyStatusVH'` |
-| `element: 'PaymentReqnStrategyStatus'}, useAsTemplate: true }]` | `element: 'PaymentReqnStrategyStatus'}, useAsTemplate: true }]` |
-| `payreqn_stgy_status preserving type)` | `cast( substring( domvalue_l, 1, 2 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
+| `PaymentReqnStrategyStatus` | `cast( substring( domvalue_l, 1, 2 ) as payreqn_stgy_status preserving type)` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `payreqn_stgy_status_name preserving type  )` | `cast( ddtext` |
+| `PaymentReqnStrategyStatusName` | `cast( ddtext as payreqn_stgy_status_name preserving type )` |
 | `_Language` | *Association* |
 | `_StrategyStatus` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_StrategyStatus` | `I_CN_PaytReqnStrategyStatusVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

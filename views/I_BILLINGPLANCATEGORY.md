@@ -15,6 +15,7 @@ tags:
   - billing
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:BillingPlanCategory
 ---
 # I_BILLINGPLANCATEGORY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fptyp_fp )` | `cast( dd07l.domvalue_l` |
+| `BillingPlanCategory` | `cast( dd07l.domvalue_l as fptyp_fp )` |
 | `_Text` | *Association* |
 
 ## Associations

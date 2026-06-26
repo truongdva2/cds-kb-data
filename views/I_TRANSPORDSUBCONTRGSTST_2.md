@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderSubcontrgSts
 ---
 # I_TRANSPORDSUBCONTRGSTST_2
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_subcontr_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrderSubcontrgSts` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_subcontr_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_subcntr_sts_desc preserving type)` | `cast(ddtext` |
+| `TranspOrderSubcontrgStsDesc` | `cast(ddtext as /scmtms/vdm_subcntr_sts_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdSubcontractingSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdSubcontractingSts` | `I_TranspOrdSubcontrgStatus_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

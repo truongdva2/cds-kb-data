@@ -15,6 +15,7 @@ tags:
   - contract
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:InternalRealEstateNumber
 ---
 # I_RECONTRACTDATA
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InternalRealEstateNumber` | `InternalRealEstateNumber` |
+| `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `CompanyCode` | `CompanyCode` |
 | `RealEstateContract` | `RealEstateContract` |
 | `REStatusObject` | `REStatusObject` |

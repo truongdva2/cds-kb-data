@@ -15,6 +15,7 @@ tags:
   - schedule-line
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrderScheduleLine
 ---
 # I_PURORDSCHEDULELINEAPI01
 
@@ -31,7 +32,39 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BatchStdVH', element: 'Batch' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_BatchStdVH', element: 'Batch' }, useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PurchaseOrderScheduleLine` | `PurchaseOrderScheduleLine` |
+| `PerformancePeriodStartDate` | `PerformancePeriodStartDate` |
+| `PerformancePeriodEndDate` | `PerformancePeriodEndDate` |
+| `DelivDateCategory` | `DelivDateCategory` |
+| `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
+| `SchedLineStscDeliveryDate` | `SchedLineStscDeliveryDate` |
+| `ScheduleLineDeliveryTime` | `ScheduleLineDeliveryTime` |
+| `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
+| `RoughGoodsReceiptQty` | `RoughGoodsReceiptQty` |
+| `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `SourceOfCreation` | `SourceOfCreation` |
+| `PrevDelivQtyOfScheduleLine` | `PrevDelivQtyOfScheduleLine` |
+| `NoOfRemindersOfScheduleLine` | `NoOfRemindersOfScheduleLine` |
+| `ScheduleLineIsFixed` | `ScheduleLineIsFixed` |
+| `ScheduleLineCommittedQuantity` | `ScheduleLineCommittedQuantity` |
+| `Reservation` | `Reservation` |
+| `ProductAvailabilityDate` | `ProductAvailabilityDate` |
+| `MaterialStagingTime` | `MaterialStagingTime` |
+| `TransportationPlanningDate` | `TransportationPlanningDate` |
+| `TransportationPlanningTime` | `TransportationPlanningTime` |
+| `LoadingDate` | `LoadingDate` |
+| `LoadingTime` | `LoadingTime` |
+| `GoodsIssueDate` | `GoodsIssueDate` |
+| `GoodsIssueTime` | `GoodsIssueTime` |
+| `STOLatestPossibleGRDate` | `STOLatestPossibleGRDate` |
+| `STOLatestPossibleGRTime` | `STOLatestPossibleGRTime` |
+| `StockTransferDeliveredQuantity` | `StockTransferDeliveredQuantity` |
+| `ScheduleLineIssuedQuantity` | `ScheduleLineIssuedQuantity` |
+| `MRPRelevantQuantity` | `MRPRelevantQuantity` |
 | `Batch` | `Batch` |
 | `_PurchaseOrder` | *Association* |
 | `_PurchaseOrderItem` | *Association* |

@@ -13,6 +13,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgSafetyDataSheetStatus
 ---
 # I_PURGSAFETYDATASHEETSTATUS
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_pc_status_sds )` | `cast( dd07l.domvalue_l` |
+| `PurgSafetyDataSheetStatus` | `cast( dd07l.domvalue_l as mmpur_pc_status_sds )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgSafetyDataSheetStatusT` | [0..*] |
 
 ## Source Code
 

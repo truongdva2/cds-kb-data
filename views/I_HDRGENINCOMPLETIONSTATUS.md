@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocGenIncompletionStatus
 ---
 # I_HDRGENINCOMPLETIONSTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hdr_general_incompltn_status preserving type )` | `cast( substring (dd07l.domvalue_l, 1, 1)` |
+| `HdrGeneralIncompletionStatus` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

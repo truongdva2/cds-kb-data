@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `recestatusevaluation )` | `cast(domvalue_l` |
+| `REValuationStatus` | `cast(domvalue_l as recestatusevaluation )` |
 | `DomainValue` | `domvalue_l` |
 | `REValuationStatusDesc` | `ddtext` |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REValuationStatus` | `I_REValuationStatus` | — |
 | `_Language` | `I_Language` | [1..1] |
 
 ## Source Code

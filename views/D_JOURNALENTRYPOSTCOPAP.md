@@ -30,34 +30,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Customer                 :kunnr;` | `Customer                 :kunnr;` |
-| `CustomerGroup            :kdgrp;` | `CustomerGroup            :kdgrp;` |
-| `CustomerSupplierIndustry :brsch;` | `CustomerSupplierIndustry :brsch;` |
-| `CustomerSupplierCountry  :land1;` | `CustomerSupplierCountry  :land1;` |
-| `SalesDistrict            :bzirk;` | `SalesDistrict            :bzirk;` |
-| `SoldProduct              :artnr;` | `SoldProduct              :artnr;` |
-| `SoldProductGroup         :matkl;` | `SoldProductGroup         :matkl;` |
-| `SalesOrganization        :vkorg;` | `SalesOrganization        :vkorg;` |
-| `DistributionChannel      :vtweg;` | `DistributionChannel      :vtweg;` |
-| `Division                 :spart;` | `Division                 :spart;` |
-| `BillToParty              :kunre;` | `BillToParty              :kunre;` |
-| `ShipToParty              :kunwe;` | `ShipToParty              :kunwe;` |
-| `WBSElement               :ps_posid_edit;` | `WBSElement               :ps_posid_edit;` |
-| `FunctionalArea           :fkber;` | `FunctionalArea           :fkber;` |
-| `ServiceDocumentType      :fco_srvdoc_type;` | `ServiceDocumentType      :fco_srvdoc_type;` |
-| `ServiceDocument          :fco_srvdoc_id;` | `ServiceDocument          :fco_srvdoc_id;` |
-| `ServiceDocumentItem      :fco_srvdoc_item_id;` | `ServiceDocumentItem      :fco_srvdoc_item_id;` |
-| `BillingDocumentType      :fkart;` | `BillingDocumentType      :fkart;` |
-| `SalesOrder               :vbeln_va;` | `SalesOrder               :vbeln_va;` |
-| `SalesOrderItem           :posnr_va;` | `SalesOrderItem           :posnr_va;` |
-| `Plant                    :werks_ext;` | `Plant                    :werks_ext;` |
-| `CostCenter               :kostl;` | `CostCenter               :kostl;` |
-| `ProfitCenter             :prctr;` | `ProfitCenter             :prctr;` |
-| `_JournalEntryPost        : association to parent D_JournalEntryPostGLItemP ;` | *Association* |
+| `Customer` | `kunnr` |
+| `CustomerGroup` | `kdgrp` |
+| `CustomerSupplierIndustry` | `brsch` |
+| `CustomerSupplierCountry` | `land1` |
+| `SalesDistrict` | `bzirk` |
+| `SoldProduct` | `artnr` |
+| `SoldProductGroup` | `matkl` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `BillToParty` | `kunre` |
+| `ShipToParty` | `kunwe` |
+| `WBSElement` | `ps_posid_edit` |
+| `FunctionalArea` | `fkber` |
+| `ServiceDocumentType` | `fco_srvdoc_type` |
+| `ServiceDocument` | `fco_srvdoc_id` |
+| `ServiceDocumentItem` | `fco_srvdoc_item_id` |
+| `BillingDocumentType` | `fkart` |
+| `SalesOrder` | `vbeln_va` |
+| `SalesOrderItem` | `posnr_va` |
+| `Plant` | `werks_ext` |
+| `CostCenter` | `kostl` |
+| `ProfitCenter` | `prctr` |
+| `_JournalEntryPost` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_JournalEntryPost` | `D_JournalEntryPostGLItemP` | — |
 
 ## Source Code
 

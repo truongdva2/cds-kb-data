@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
+| `TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderStage` | `TransportationOrderStage` |
 | `TranspOrdStageType` | `TranspOrdStageType` |
@@ -51,11 +51,11 @@ tags:
 | `TranspOrdStageNetDuration` | `TranspOrdStageNetDuration` |
 | `TranspOrdStageSrceStopUUID` | `TranspOrdStageSrceStopUUID` |
 | `TranspOrdStageDestStopUUID` | `TranspOrdStageDestStopUUID` |
-| `_FreightOrderStop            : redirected to parent I_FreightOrderStopTP` | `FreightOrderStage._TranspOrderStop` |
-| `_FreightOrder                : redirected to I_FreightOrderTP` | `FreightOrderStage._TransportationOrder` |
-| `_FrtOrdStageBPAddrDfltRprstn : redirected to composition child I_FrtOrdStgeBPAddrDfltRprstnTP` | `FreightOrderStage._TrOrdStgeBPAddrDfltRprstn` |
-| `_ExectgCarrierAddrDfltRprstn : redirected to I_FrtOrdStgeBPAddrDfltRprstnTP` | `FreightOrderStage._ExectgCarrierAddrDfltRprstn` |
-| `_InvcgCarrierAddrDfltRprstn  : redirected to I_FrtOrdStgeBPAddrDfltRprstnTP` | `FreightOrderStage._InvcgCarrierAddrDfltRprstn` |
+| `_FreightOrderStop` | *Association* |
+| `_FreightOrder` | *Association* |
+| `_FrtOrdStageBPAddrDfltRprstn` | *Association* |
+| `_ExectgCarrierAddrDfltRprstn` | *Association* |
+| `_InvcgCarrierAddrDfltRprstn` | *Association* |
 
 ## Associations
 

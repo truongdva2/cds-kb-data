@@ -17,6 +17,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:TotalBlockStatus
 ---
 # I_TOTALBLOCKSTATUSTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TotalBlockStatus` | `I_TotalBlockStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

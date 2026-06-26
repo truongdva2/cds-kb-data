@@ -33,18 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlantStorage.Product` | `PlantStorage.Product` |
-| `key PlantStorage.Plant` | `PlantStorage.Plant` |
-| `PlantStorage.InventoryForCycleCountInd` | `PlantStorage.InventoryForCycleCountInd` |
-| `PlantStorage.MaximumStoragePeriod` | `PlantStorage.MaximumStoragePeriod` |
-| `PlantStorage.ProvisioningServiceLevel` | `PlantStorage.ProvisioningServiceLevel` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `PlantStorage.ProdMaximumStoragePeriodUnit` | `PlantStorage.ProdMaximumStoragePeriodUnit` |
-| `PlantStorage.WrhsMgmtPtwyAndStkRemovalStrgy` | `PlantStorage.WrhsMgmtPtwyAndStkRemovalStrgy` |
-| `PlantStorage.CycleCountingIndicatorIsFixed` | `PlantStorage.CycleCountingIndicatorIsFixed` |
-| `PlantStorage.SegmentationStrategyForPlant` | `PlantStorage.SegmentationStrategyForPlant` |
-| `PlantStorage.DefaultSegmentValue` | `PlantStorage.DefaultSegmentValue` |
-| `PlantStorage.SgmtHasPrioInProductStockSort` | `PlantStorage.SgmtHasPrioInProductStockSort` |
+| `Product` | `PlantStorage.Product` |
+| `Plant` | `PlantStorage.Plant` |
+| `InventoryForCycleCountInd` | `PlantStorage.InventoryForCycleCountInd` |
+| `MaximumStoragePeriod` | `PlantStorage.MaximumStoragePeriod` |
+| `ProvisioningServiceLevel` | `PlantStorage.ProvisioningServiceLevel` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `ProdMaximumStoragePeriodUnit` | `PlantStorage.ProdMaximumStoragePeriodUnit` |
+| `WrhsMgmtPtwyAndStkRemovalStrgy` | `PlantStorage.WrhsMgmtPtwyAndStkRemovalStrgy` |
+| `CycleCountingIndicatorIsFixed` | `PlantStorage.CycleCountingIndicatorIsFixed` |
+| `SegmentationStrategyForPlant` | `PlantStorage.SegmentationStrategyForPlant` |
+| `DefaultSegmentValue` | `PlantStorage.DefaultSegmentValue` |
+| `SgmtHasPrioInProductStockSort` | `PlantStorage.SgmtHasPrioInProductStockSort` |
 | `_Product` | *Association* |
 | `_ProvisioningSrvcLvl` | *Association* |
 | `_Plant` | *Association* |
@@ -57,7 +57,6 @@ tags:
 | `_ProdPlantStorageExt` | `E_Productplant` | [0..1] |
 | `_ProvisioningSrvcLvl` | `I_ProductProvisioningSrvcLvl` | [0..1] |
 | `_Plant` | `I_Plant` | [1..1] |
-| `_CycleCountingSettings` | `I_CycleCountingSettings` | [0..1] |
 
 ## Source Code
 

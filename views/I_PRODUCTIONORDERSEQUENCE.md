@@ -32,31 +32,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` | `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` |
+| `ProductionOrder` | `cast(affl.OrderID as vdm_manufacturingorder preserving type)` |
+| `ProductionOrderSequence` | `cast(affl.Sequence as vdm_prodnordersequence preserving type)` |
+| `OrderInternalID` | `affl.OrderInternalID` |
+| `SequenceInternalID` | `affl.SequenceInternalID` |
+| `SequenceCategory` | `affl.SequenceCategory` |
+| `ProductionOrderType` | `cast(affl.OrderType as vdm_prodnordertype preserving type)` |
+| `ProductionOrderSequenceText` | `cast(affl.SequenceText as vdm_flgtext preserving type)` |
+| `SequenceHasLongText` | `affl.SequenceHasLongText` |
+| `LongTextLanguage` | `cast(affl.Language as pph_longtextlang preserving type)` |
+| `SequenceBranchOperation` | `cast(vornr1.Operation_2 as vdm_vornr1 preserving type)` |
+| `SequenceReturnOperation` | `cast(vornr2.Operation_2 as vdm_vornr2 preserving type)` |
+| `ProductionPlant` | `affl.ProductionPlant` |
+| `BillOfOperationsType` | `affl.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `affl.BillOfOperationsGroup` |
 | `BillOfOperationsVariant` | `affl.BillOfOperations` |
 | `BillOfOperationsSequence` | `affl.ReferenceSequence` |
-| `affl.SequenceSchedulingAlignment` | `affl.SequenceSchedulingAlignment` |
-| `affl.ObjectInternalID` | `affl.ObjectInternalID` |
-| `affl.BillOfOperationsUnit` | `affl.BillOfOperationsUnit` |
-| `affl.MinimumLotSizeQuantity` | `affl.MinimumLotSizeQuantity` |
-| `affl.MaximumLotSizeQuantity` | `affl.MaximumLotSizeQuantity` |
+| `SequenceSchedulingAlignment` | `affl.SequenceSchedulingAlignment` |
+| `ObjectInternalID` | `affl.ObjectInternalID` |
+| `BillOfOperationsUnit` | `affl.BillOfOperationsUnit` |
+| `MinimumLotSizeQuantity` | `affl.MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `affl.MaximumLotSizeQuantity` |
 | `_ProductionOrderType` | *Association* |
 | `_StatusObject` | *Association* |
-| `affl._OrderInternalID` | `affl._OrderInternalID` |
-| `_SequenceInternalID` | `affl._OrderSequence` |
-| `affl._SequenceCategory` | `affl._SequenceCategory` |
-| `affl._SequenceSchedulingAlignment` | `affl._SequenceSchedulingAlignment` |
-| `affl._Plant` | `affl._Plant` |
-| `affl._BillOfOperationsType` | `affl._BillOfOperationsType` |
-| `affl._BillOfOperationsGroup` | `affl._BillOfOperationsGroup` |
+| `_OrderInternalID` | *Association* |
+| `_SequenceInternalID` | *Association* |
+| `_SequenceCategory` | *Association* |
+| `_SequenceSchedulingAlignment` | *Association* |
+| `_Plant` | *Association* |
+| `_BillOfOperationsType` | *Association* |
+| `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsVariant` | *Association* |
 | `_BillOfOperationsSequence` | *Association* |
-| `affl._BillOfOperationsUnit` | `affl._BillOfOperationsUnit` |
-| `affl._Language` | `affl._Language` |
-| `_ProductionOrderHeader` | *Association* |
+| `_BillOfOperationsUnit` | *Association* |
+| `_Language` | *Association* |
 | `_ProductionOrderOperation` | *Association* |
 | `_LongText` | *Association* |
-| `_ProductionOrderText` | *Association* |
 | `_ProductionPlantText` | *Association* |
 | `_StatusObjectText` | *Association* |
 
@@ -68,6 +79,9 @@ tags:
 | `_BillOfOperationsVariant` | `I_MfgBillOfOperations` | [0..1] |
 | `_BillOfOperationsSequence` | `I_MfgBillOfOperationsSequence` | [0..1] |
 | `_StatusObject` | `I_StatusObject` | [1..1] |
+| `_ProductionOrderHeader` | `I_ProductionOrder` | — |
+| `_ProductionOrderOperation` | `I_ProductionOrderOperation_2` | [0..*] |
+| `_LongText` | `I_ProdnOrderSequenceLongText` | [0..*] |
 | `_ProductionOrderText` | `I_ProductionOrder` | [1..1] |
 | `_ProductionPlantText` | `I_Plant` | [1..1] |
 | `_StatusObjectText` | `I_StatusObject` | [1..1] |

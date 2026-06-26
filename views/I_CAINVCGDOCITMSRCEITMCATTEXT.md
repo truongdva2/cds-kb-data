@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `srcitemcat_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,5 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `srcitemcat_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAInvcgDocItemSourceItmCat` | `cast ( substring( dd07t.domvalue_l,1,5 ) as srcitemcat_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAInvcgDocItmSrceItmCatText` | `cast ( ddtext as srcitemcat_txt_gfn_kk preserving type )` |
 | `_CAInvcgDocItmSrceItmCat` | *Association* |
 | `_Language` | *Association* |
 

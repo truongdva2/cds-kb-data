@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BOOOpDateOffsetRefCodeText
 ---
 # I_OPERATIONDATEOFFSTREFCODETXT
 
@@ -30,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Language` | `txt.spras` |
+| `OperationDateOffsetRefCode` | `txt.bzoff` |
 | `OperationDateOffsetRefCodeName` | `txt.bztxt` |
 | `_Language` | *Association* |
 

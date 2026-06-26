@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecuritiesAccountTypeText
 ---
 # I_SECURITYACCOUNTTYPETEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `SecurityAccountTypeText.spras` |
 | `SecurityAccountType` | `SecurityAccountTypeText.secacc_type` |
-| `ftr_gen_sec_account_type_name preserving type)` | `cast(SecurityAccountTypeText.secacc_type_text` |
+| `SecurityAccountTypeName` | `cast(…)` |
 | `_SecurityAccountType` | *Association* |
 | `_Language` | *Association* |
 

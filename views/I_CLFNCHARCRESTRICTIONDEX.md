@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharacteristicRestriction
 ---
 # I_CLFNCHARCRESTRICTIONDEX
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcRestriction.CharcInternalID` | `CharcRestriction.CharcInternalID` |
-| `key CharcRestriction.ClassType` | `CharcRestriction.ClassType` |
+| `CharcInternalID` | `CharcRestriction.CharcInternalID` |
+| `ClassType` | `CharcRestriction.ClassType` |
 | `_ClassType` | *Association* |
 
 ## Associations

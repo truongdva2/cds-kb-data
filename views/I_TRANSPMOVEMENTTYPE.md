@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationMovementType
 ---
 # I_TRANSPMOVEMENTTYPE
 
@@ -29,12 +30,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MovementType` | `movem_type` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspMovementTypeText` | [0..*] |
 
 ## Source Code
 

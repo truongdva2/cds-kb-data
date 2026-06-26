@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qchar_type_basic preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecCharcTypeText` | `,_InspSpecCharcTypeText` |
+| `InspSpecCharacteristicType` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qchar_type_basic preserving type )` |
+| `_InspSpecCharcTypeText` | *Association* |
 
 ## Associations
 

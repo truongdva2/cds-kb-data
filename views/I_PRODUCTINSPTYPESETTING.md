@@ -30,35 +30,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `InspectionLotType, //old:ProductInspectionType` | `art` |
+| `InspectionLotType` | `art` |
 | `Product` | `matnr` |
 | `Plant` | `werks` |
 | `InspLotIsTaskListRequired` | `ppl` |
 | `InspLotHasMaterialSpec` | `spezueber` |
 | `InspLotHasConfignSpecification` | `conf` |
-| `InspLotHasBatchCharc,//new, old:IsProdInspSpecBatchDetermined` | `tls` |
-| `InspLotHasAutomSpecAssgmt, //new,old: ProdInspHasAutomSpecAssgmt` | `app` |
-| `InspLotHasCharc, //new,old:IsProdInspByCharacteristics` | `mer` |
+| `InspLotHasBatchCharc` | `tls` |
+| `InspLotHasAutomSpecAssgmt` | `app` |
+| `InspLotHasCharc` | `mer` |
 | `HasPostToInspectionStock` | `insmk` |
 | `InspLotIsAutomUsgeDcsnPossible` | `ave` |
 | `SamplingProcedure` | `stichprver` |
 | `InspLotDynamicRule` | `dynregel` |
-| `InspLotSampleQuantityInPercent, // old:ProductInspectionPercentage` | `sproz` |
+| `InspLotSampleQuantityInPercent` | `sproz` |
 | `InspectionLotIsFullInspection` | `hpz` |
-| `InspLotSkipIsAllowed, //new, old:IsProductInspectionSkipAllowed` | `dyn` |
-| `InspLotHasManualSampleSize, //old: IsProdInspSmplEnteredManually` | `mpb` |
+| `InspLotSkipIsAllowed` | `dyn` |
+| `InspLotHasManualSampleSize` | `mpb` |
 | `InspLotIsSmplCalcMnlTriggered` | `mst` |
 | `InspLotIsSerialNmbrPossible` | `ein` |
-| `InspLotDurationInDays,  //new, old:ProdAverageInspectionDuration` | `mpdau` |
-| `InspLotSummaryControl, //new, old: CtrlProdInspectionLotCreation` | `chg` |
+| `InspLotDurationInDays` | `mpdau` |
+| `InspLotSummaryControl` | `chg` |
 | `InspQualityScoreProcedure` | `qkzverf` |
-| `InspLotAcceptedScrapRatioInPct, //new, old ProdInspLotAllwdShrOfScrapPct` | `qpmat` |
+| `InspLotAcceptedScrapRatioInPct` | `qpmat` |
 | `InspectionLotHasAppraisalCosts` | `kzprfkost` |
 | `QualityCostCollector` | `aufnr_co` |
-| `ProdInspTypeSettingIsActive, //new, old: ProdInspTypeMatlCombnIsActive` | `aktiv` |
-| `InspTypeIsPrfrd, //new, old: IsPrfrdProductInspectionType` | `apa` |
-| `InspLotHasHandlingUnit, //new, old: ProdInspLotIsForHandlingUnit` | `afr` |
-| `InspLotHasMultipleSpec, //new, old: ProdInspTypeHasMltplSpec` | `ms_flag` |
+| `ProdInspTypeSettingIsActive` | `aktiv` |
+| `InspTypeIsPrfrd` | `apa` |
+| `InspLotHasHandlingUnit` | `afr` |
+| `InspLotHasMultipleSpec` | `ms_flag` |
 | `InspLotOfEWMSummaryControl` | `chg_orig_17` |
 | `_InspectionLotType` | *Association* |
 | `_Product` | *Association* |

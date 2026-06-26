@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` |
+| `Country` | `land1` |
 | `CAWithholdingTaxSupplement` | `qssew` |
 | `_Country` | *Association* |
 | `_Text` | *Association* |

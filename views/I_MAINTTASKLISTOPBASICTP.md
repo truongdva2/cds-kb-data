@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   TaskListType` | `TaskListType` |
-| `key   TaskListGroup` | `TaskListGroup` |
-| `key   TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key   TaskListSequence` | `TaskListSequence` |
-| `key   TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `key   TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
+| `TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
 | `MaintenanceTaskListOperation` | `MaintenanceTaskListOperation` |
 | `MaintTaskListSubOperation` | `MaintTaskListSubOperation` |
 | `MaintOperationExecStageCode` | `MaintOperationExecStageCode` |
@@ -49,7 +49,6 @@ tags:
 | `OpPlannedWorkQuantity` | `OpPlannedWorkQuantity` |
 | `OpWorkQuantityUnit` | `OpWorkQuantityUnit` |
 | `NumberOfCapacities` | `NumberOfCapacities` |
-| `PurchaseOrderQty` | `PurchaseOrderQty` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `OperationStandardDuration` | `OperationStandardDuration` |
 | `OperationStandardDurationUnit` | `OperationStandardDurationUnit` |
@@ -79,12 +78,6 @@ tags:
 | `ValidityEndDate` | `ValidityEndDate` |
 | `TechnicalObject` | `TechnicalObject` |
 | `TechObjIsEquipOrFuncnlLoc` | `TechObjIsEquipOrFuncnlLoc` |
-| `_Header     : redirected to I_MaintenanceTaskListTP_2` | *Association* |
-| `_NonHistOp  : redirected to parent I_MaintTaskListOperationTP_2` | *Association* |
-| `_OpMaterial : redirected to I_MaintTaskListOpMaterialTP` | *Association* |
-| `_OpRelation : redirected to I_MaintTaskListOpRelshpTP` | *Association* |
-| `_SubOp      : redirected to I_MaintTaskListSubOpTP` | *Association* |
-| `_OpLongText : redirected to I_MaintTaskListOpLongTextTP` | *Association* |
 
 ## Associations
 

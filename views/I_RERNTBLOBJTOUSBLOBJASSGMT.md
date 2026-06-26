@@ -35,7 +35,6 @@ tags:
 | `RealEstateUsableObjectUUID` | `usableobjectuuid` |
 | `ValidityStartDate` | `validfrom` |
 | `ValidityEndDate` | `validto` |
-| `/* Associations */` | `/* Associations */` |
 | `_RERentableObject` | *Association* |
 | `_REUsableObject` | *Association* |
 

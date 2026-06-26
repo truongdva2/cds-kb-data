@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_calc_date_type preserving type)` | `cast(substring(domvalue_l, 1, 10)` |
+| `TranspCalculationDateType` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspCalculationDateTypeTxt` | [0..*] |
 
 ## Source Code
 

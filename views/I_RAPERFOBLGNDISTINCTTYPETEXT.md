@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RAPerfOblgnDistinctType
 ---
 # I_RAPERFOBLGNDISTINCTTYPETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RAPerfOblgnDistinctType` | `cast(dd07t.domvalue_l as farr_distinct)` |
 | `RAPerfOblgnDistinctTypeName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAPerfOblgnDistinctType` | *Association* |
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAPerfOblgnDistinctType` | `I_RAPerfOblgnDistinctType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

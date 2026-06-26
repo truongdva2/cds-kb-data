@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMRnwlAndTermnUUID` | `LglCntntMRnwlAndTermnUUID` |
+| `LglCntntMRnwlAndTermnUUID` | `LglCntntMRnwlAndTermnUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMRnwlType` | `LglCntntMRnwlType` |
 | `LglCntntMRnwlPeriod` | `LglCntntMRnwlPeriod` |
@@ -44,8 +44,6 @@ tags:
 | `LglCntntMTermnReminderUser` | `LglCntntMTermnReminderUser` |
 | `LglCntntMRnwlReminderDays` | `LglCntntMRnwlReminderDays` |
 | `LglCntntMTermnReminderDays` | `LglCntntMTermnReminderDays` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransaction : redirected to parent I_LegalTransactionTP_2` | *Association* |
 
 ## Associations
 

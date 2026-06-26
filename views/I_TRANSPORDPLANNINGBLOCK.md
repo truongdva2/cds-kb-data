@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TranspOrderPlanningBlock
 ---
 # I_TRANSPORDPLANNINGBLOCK
 
@@ -29,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_block_planning preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdPlanningBlock` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_block_planning preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

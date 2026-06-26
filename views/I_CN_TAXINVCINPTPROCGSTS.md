@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-TIM-CN
   - lob:Finance
+  - bo:CN_ValueAddedTaxInvcProcgSts
 ---
 # I_CN_TAXINVCINPTPROCGSTS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ficntaxinvc_input_status)` | `cast(dd07v.domvalue_l` |
+| `CN_TaxInvcInptProcgSts` | `cast(dd07v.domvalue_l as ficntaxinvc_input_status)` |
 | `DomainValue` | `dd07v.domvalue_l` |
 | `Language` | `ddlanguage` |
 | `DocumentStatusDesc` | `dd07v.ddtext` |

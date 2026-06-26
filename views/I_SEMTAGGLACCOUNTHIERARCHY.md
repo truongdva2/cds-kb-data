@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:GLAccountHierarchy
 ---
 # I_SEMTAGGLACCOUNTHIERARCHY
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GLAccountHierarchy` | `GLAccountHierarchy` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `GLAccountHierarchy` | `GLAccountHierarchy` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `HierarchyType` | `HierarchyType` |
 | `LastChangedByUser` | `LastChangedByUser` |

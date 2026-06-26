@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:Division
 ---
 # I_DIVISIONTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Division` | `spart` |
 | `Language` | `spras` |
-| `divisionname preserving type)` | `cast(vtext` |
+| `DivisionName` | `cast(vtext as divisionname preserving type)` |
 | `_Division` | *Association* |
 | `_Language` | *Association* |
 

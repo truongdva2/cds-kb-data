@@ -31,14 +31,65 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: '_DefectiveQuantityUnit' }` | `status: #DEPRECATED, successor: '_DefectiveQuantityUnit' }` |
-| `I_NotificationItem._DefectiveQtyUnitOfMeasure` | `I_NotificationItem._DefectiveQtyUnitOfMeasure` |
-| `I_NotificationItem._DefectiveQuantityUnit` | `I_NotificationItem._DefectiveQuantityUnit` |
-| `I_NotificationItem._NotifItmObjectPartCodeCtlg` | `I_NotificationItem._NotifItmObjectPartCodeCtlg` |
-| `I_NotificationItem._NotifItmObjectPartCodeGroup` | `I_NotificationItem._NotifItmObjectPartCodeGroup` |
-| `I_NotificationItem._NotifItmObjectPartCode` | `I_NotificationItem._NotifItmObjectPartCode` |
+| `QualityNotification` | `I_NotificationItem.Notification` |
+| `NotificationItem` | `I_NotificationItem.NotificationItem` |
+| `NotifProcessingPhase` | `I_QltyNotification.NotifProcessingPhase` |
+| `CreatedByUser` | `I_NotificationItem.CreatedByUser` |
+| `CreationDate` | `I_NotificationItem.CreationDate` |
+| `LastChangedByUser` | `I_NotificationItem.LastChangedByUser` |
+| `LastChangeDate` | `I_NotificationItem.LastChangeDate` |
+| `NotificationItemText` | `I_NotificationItem.NotificationItemText` |
+| `DefectCodeCatalog` | `I_NotificationItem.DefectCodeCatalog` |
+| `DefectCodeGroup` | `cast( I_NotificationItem.DefectCodeGroup as vdm_qfegrp preserving type )` |
+| `DefectCode` | `cast( I_NotificationItem.DefectCode as vdm_qfecod preserving type )` |
+| `NotifItmObjectPartCodeCtlg` | `cast(…)` |
+| `NotifItmObjectPartCodeGroup` | `cast(…)` |
+| `NotifItmObjectPartCode` | `cast( I_NotificationItem.NotifItmObjectPartCode as vdm_qfeocod preserving type )` |
+| `Assembly` | `I_NotificationItem.Assembly` |
+| `MasterLanguage` | `I_NotificationItem.MasterLanguage` |
+| `CreationTime` | `cast( I_NotificationItem.CreationTime as vdm_qerstezeit preserving type )` |
+| `LastChangeTime` | `cast( I_NotificationItem.LastChangeTime as vdm_qaendezeit preserving type )` |
+| `DefectClass` | `I_NotificationItem.DefectClass` |
+| `NumberOfDefects` | `I_NotificationItem.NumberOfDefects` |
+| `InspPlanOperationInternalID` | `I_NotificationItem.InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `I_NotificationItem.InspectionCharacteristic` |
+| `InspectionSubsetInternalID` | `I_NotificationItem.InspectionSubsetInternalID` |
+| `MaterialSample` | `I_NotificationItem.MaterialSample` |
+| `DefectiveSingleUnit` | `I_NotificationItem.DefectiveSingleUnit` |
+| `WorkCenterTypeCode` | `I_NotificationItem.WorkCenterTypeCode` |
+| `MainWorkCenterInternalID` | `I_NotificationItem.MainWorkCenterInternalID` |
+| `MainWorkCenter` | `I_NotificationItem.MainWorkCenter` |
+| `MainWorkCenterPlant` | `I_NotificationItem.MainWorkCenterPlant` |
+| `IsDeleted` | `I_NotificationItem.IsDeleted` |
+| `NotificationItemExternalID` | `cast(…)` |
+| `DefectOrigin` | `I_NotificationItem.DefectOrigin` |
+| `ExternalDefectiveQuantity` | `I_NotificationItem.ExternalDefectiveQuantity` |
+| `InternalDefectiveQuantity` | `I_NotificationItem.InternalDefectiveQuantity` |
+| `DefectiveQuantity` | `I_NotificationItem.DefectiveQuantity` |
+| `DefectiveQuantityUnit` | `I_NotificationItem.DefectiveQuantityUnit` |
+| `ReferencedDefect` | `I_NotificationItem.ReferencedDefect` |
+| `ChangedDateTime` | `I_NotificationItem.ChangedDateTime` |
+| `_QltyNotification` | *Association* |
+| `_Notification` | *Association* |
+| `_QltyNotificationTask` | *Association* |
+| `_QltyNotificationCause` | *Association* |
+| `_QltyNotificationActivity` | *Association* |
+| `_CreatedByUserContactCard` | *Association* |
+| `_LastChangedByUserContactCard` | *Association* |
+| `_DefectCodeCatalog` | *Association* |
+| `_DefectCodeGroup` | *Association* |
+| `_DefectCode` | *Association* |
+| `_DefectLocationCatalog` | *Association* |
+| `_DefectLocationCodeGroup` | *Association* |
+| `_DefectLocationCode` | *Association* |
+| `_DefectClass` | *Association* |
+| `_DefectiveQtyUnitOfMeasure` | *Association* |
+| `_DefectiveQuantityUnit` | *Association* |
+| `_NotifItmObjectPartCodeCtlg` | *Association* |
+| `_NotifItmObjectPartCodeGroup` | *Association* |
+| `_NotifItmObjectPartCode` | *Association* |
 | `_ReferencedDefect` | *Association* |
-| `I_NotificationItem._Assembly` | `I_NotificationItem._Assembly` |
+| `_Assembly` | *Association* |
 | `_QltyNotifItemLongText` | *Association* |
 
 ## Associations

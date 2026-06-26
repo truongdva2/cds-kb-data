@@ -16,6 +16,7 @@ tags:
   - text
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ManualBillgSelForPrjBlgReqItem
 ---
 # I_PRJBLGREQITMMNLBILLGSELTEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `pbr_apprvl_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ManualBillgSelForPrjBlgReqItem` | `cast( substring( domvalue_l, 1, 1 ) as pbr_apprvl_status preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `MnlBillgSelForPrjBlgReqItmText` | `ddtext` |
 | `_ProjBillgReqItmMnlBillgSel` | *Association* |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjBillgReqItmMnlBillgSel` | `I_ProjBillgReqItmMnlBillgSel` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

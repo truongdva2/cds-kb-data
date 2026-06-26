@@ -15,6 +15,7 @@ tags:
   - status
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationStatus
 ---
 # I_BILLOFOPERATIONSSTATUS
 
@@ -31,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `BillOfOperationsStatus` | `t412.plnst` |
 | `IsReleased` | `t412.freif` |
 | `_Text` | *Association* |

@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
-| `key SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
+| `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
@@ -45,8 +45,6 @@ tags:
 | `SrvcDocLongTextCreatedByUser` | `SrvcDocLongTextCreatedByUser` |
 | `SrvcDocLongTextChangedDateTime` | `SrvcDocLongTextChangedDateTime` |
 | `SrvcDocLongTextChangedByUser` | `SrvcDocLongTextChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationTP : redirected to parent I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

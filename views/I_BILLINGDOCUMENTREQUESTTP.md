@@ -35,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `BillingDocumentRequestType` | `BillingDocumentRequestType` |
 | `ProposedBillingDocumentType` | `ProposedBillingDocumentType` |
@@ -105,9 +105,6 @@ tags:
 | `OverallBillingDocReqStatus` | `OverallBillingDocReqStatus` |
 | `BillingIssueType` | `BillingIssueType` |
 | `OverallPricingIncompletionSts` | `OverallPricingIncompletionSts` |
-| `_Item    : redirected to composition child I_BillingDocumentRequestItemTP` | *Association* |
-| `_Partner : redirected to composition child I_BillgDocRequestPartnerTP` | *Association* |
-| `_Text    : redirected to composition child I_BillingDocumentRequestTextTP` | *Association* |
 
 ## Associations
 

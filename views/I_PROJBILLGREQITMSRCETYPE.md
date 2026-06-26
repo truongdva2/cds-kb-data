@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgReqItmSourceType
 ---
 # I_PROJBILLGREQITMSRCETYPE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbr_apprvl_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ProjBillgReqItmSourceType` | `cast( substring( domvalue_l, 1, 1 ) as pbr_apprvl_status preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProjBillgReqItmSrceTypeText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProjBillgReqItmSrceTypeText` | `I_ProjBillgReqItmSrceTypeText` | [0..*] |
 
 ## Source Code
 

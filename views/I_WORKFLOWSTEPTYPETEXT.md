@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowStepType
 ---
 # I_WORKFLOWSTEPTYPETEXT
 
@@ -33,7 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WrkflwScen` | `WorkflowStepType.wfd_id` |
+| `WrkflwScenVers` | `WorkflowStepType.version` |
+| `WorkflowStepType` | `WorkflowStepType.ruse_label` |
+| `Language` | `WorkflowStepTypeText.language` |
 | `_Language` | *Association* |
 | `WorkflowStepTypeSubject` | `WorkflowStepTypeText.text` |
 

@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-GF-2CL
   - lob:Other
+  - bo:LglCntntMAccessLvl
 ---
 # I_LGLCNTNTMACCESSLVLTEXTAPI01
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
-| `key Language` | `Language` |
+| `LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
+| `Language` | `Language` |
 | `LglCntntMAccessLvlName` | `LglCntntMAccessLvlName` |
 
 ## Associations

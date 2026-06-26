@@ -31,30 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedgAgrmtPricingElement.SalesSchedulingAgreement` | `SalesSchedgAgrmtPricingElement.SalesSchedulingAgreement` |
-| `key SalesSchedgAgrmtPricingElement.PricingProcedureStep` | `SalesSchedgAgrmtPricingElement.PricingProcedureStep` |
-| `key SalesSchedgAgrmtPricingElement.PricingProcedureCounter` | `SalesSchedgAgrmtPricingElement.PricingProcedureCounter` |
-| `SalesSchedgAgrmtPricingElement.ConditionApplication` | `SalesSchedgAgrmtPricingElement.ConditionApplication` |
-| `SalesSchedgAgrmtPricingElement.ConditionType` | `SalesSchedgAgrmtPricingElement.ConditionType` |
-| `SalesSchedgAgrmtPricingElement.ConditionCalculationType` | `SalesSchedgAgrmtPricingElement.ConditionCalculationType` |
-| `SalesSchedgAgrmtPricingElement.ConditionRateAmount` | `SalesSchedgAgrmtPricingElement.ConditionRateAmount` |
-| `SalesSchedgAgrmtPricingElement.ConditionCurrency` | `SalesSchedgAgrmtPricingElement.ConditionCurrency` |
-| `SalesSchedgAgrmtPricingElement.ConditionRateRatio` | `SalesSchedgAgrmtPricingElement.ConditionRateRatio` |
-| `SalesSchedgAgrmtPricingElement.ConditionRateRatioUnit` | `SalesSchedgAgrmtPricingElement.ConditionRateRatioUnit` |
-| `SalesSchedgAgrmtPricingElement.ConditionBaseAmount` | `SalesSchedgAgrmtPricingElement.ConditionBaseAmount` |
-| `SalesSchedgAgrmtPricingElement.ConditionAmount` | `SalesSchedgAgrmtPricingElement.ConditionAmount` |
-| `SalesSchedgAgrmtPricingElement.TransactionCurrency` | `SalesSchedgAgrmtPricingElement.TransactionCurrency` |
-| `SalesSchedgAgrmtPricingElement.ConditionBaseQuantity` | `SalesSchedgAgrmtPricingElement.ConditionBaseQuantity` |
-| `SalesSchedgAgrmtPricingElement.ConditionQuantity` | `SalesSchedgAgrmtPricingElement.ConditionQuantity` |
-| `SalesSchedgAgrmtPricingElement.ConditionQuantityUnit` | `SalesSchedgAgrmtPricingElement.ConditionQuantityUnit` |
-| `SalesSchedgAgrmtPricingElement.ConditionIsForStatistics` | `SalesSchedgAgrmtPricingElement.ConditionIsForStatistics` |
-| `SalesSchedgAgrmtPricingElement.ConditionIsManuallyChanged` | `SalesSchedgAgrmtPricingElement.ConditionIsManuallyChanged` |
-| `SalesSchedgAgrmtPricingElement.ConditionInactiveReason` | `SalesSchedgAgrmtPricingElement.ConditionInactiveReason` |
-| `SalesSchedgAgrmtPricingElement.SalesSchedgAgrmtType` | `SalesSchedgAgrmtPricingElement.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtPricingElement.OrganizationDivision` | `SalesSchedgAgrmtPricingElement.OrganizationDivision` |
-| `SalesSchedgAgrmtPricingElement.SalesOrganization` | `SalesSchedgAgrmtPricingElement.SalesOrganization` |
-| `SalesSchedgAgrmtPricingElement.DistributionChannel` | `SalesSchedgAgrmtPricingElement.DistributionChannel` |
-| `_SalesSchedulingAgreement : redirected to parent I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedgAgrmtPricingElement.SalesSchedulingAgreement` |
+| `PricingProcedureStep` | `SalesSchedgAgrmtPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SalesSchedgAgrmtPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `SalesSchedgAgrmtPricingElement.ConditionApplication` |
+| `ConditionType` | `SalesSchedgAgrmtPricingElement.ConditionType` |
+| `ConditionCalculationType` | `SalesSchedgAgrmtPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `SalesSchedgAgrmtPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `SalesSchedgAgrmtPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `SalesSchedgAgrmtPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SalesSchedgAgrmtPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SalesSchedgAgrmtPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `SalesSchedgAgrmtPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `SalesSchedgAgrmtPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SalesSchedgAgrmtPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SalesSchedgAgrmtPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SalesSchedgAgrmtPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SalesSchedgAgrmtPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SalesSchedgAgrmtPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SalesSchedgAgrmtPricingElement.ConditionInactiveReason` |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtPricingElement.SalesSchedgAgrmtType` |
+| `OrganizationDivision` | `SalesSchedgAgrmtPricingElement.OrganizationDivision` |
+| `SalesOrganization` | `SalesSchedgAgrmtPricingElement.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedgAgrmtPricingElement.DistributionChannel` |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceElementAccessLevel
 ---
 # I_SLSPRCELEMENTACCESSLEVELTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PriceElementAccessLevel` | `PriceElementAccessLevel` |
+| `Language` | `Language` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PriceElementAccessLevel` | `PriceElementAccessLevel` |
 | `_ConditionApplication` | *Association* |
 | `PriceElementAccessLevelText` | `PriceElementAccessLevelText` |
 

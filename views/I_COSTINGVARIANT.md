@@ -30,7 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CostingTypeStdVH ' , element: 'CostingType' }, useAsTemplate: true }]` | `name: 'I_CostingTypeStdVH ' , element: 'CostingType' }, useAsTemplate: true }]` |
+| `CostingVariant` | `klvar` |
+| `ValuationVariant` | `bwvar` |
+| `CostEstimateReferenceVariant` | `refid` |
 | `CostingType` | `kalka` |
 | `CostEstimateTransferControl` | `uebid` |
 | `CostEstTransfCtrlIsChangeable` | `voraend` |

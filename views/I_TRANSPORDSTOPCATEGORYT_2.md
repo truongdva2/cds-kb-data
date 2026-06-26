@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStopCategory
 ---
 # I_TRANSPORDSTOPCATEGORYT_2
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/stop_category preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdStopCategory` | `cast(substring(domvalue_l, 1, 1) as /scmtms/stop_category preserving type)` |
 | `Language` | `ddlanguage` |
 | `TranspOrdStopCategoryDesc` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdStopCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdStopCategory` | `I_TranspOrdStopCategory_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

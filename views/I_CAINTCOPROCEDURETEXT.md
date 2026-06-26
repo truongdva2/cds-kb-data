@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ico_proc_kk preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 2 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `ico_proc_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAIntcoProcedure` | `cast ( substring( dd07t.domvalue_l, 1, 2 ) as ico_proc_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAIntcoProcedureText` | `cast ( ddtext as ico_proc_txt_gfn_kk preserving type )` |
 | `_CAIntcoProcedure` | *Association* |
 | `_Language` | *Association* |
 

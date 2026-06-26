@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocOvrlItmGenIncompltnSts
 ---
 # I_OVRLITMGENINCOMPLETIONSTS
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `item_general_incompletion_sts preserving type )` | `cast ( substring (dd07l.domvalue_l, 1, 1)` |
+| `OvrlItmGeneralIncompletionSts` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceTaskListType
 ---
 # I_MAINTENANCETASKLISTTYPE
 
@@ -29,8 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TaskListType` | `I_BillOfOperationsType.BillOfOperationsType` |
-| `/* Associations */` | `/* Associations */` |
-| `I_BillOfOperationsType._Text` | `I_BillOfOperationsType._Text` |
+| `_Text` | *Association* |
 
 ## Associations
 

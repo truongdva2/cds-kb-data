@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:PurReqnOrResvnGeneration
 ---
 # I_PURREQNORRESVNGENERATION
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `audisp_plus )` | `cast ( domvalue_l` |
+| `PurReqnOrResvnGeneration` | `cast ( domvalue_l as audisp_plus )` |
 | `_PurReqnOrResvnGenerationText` | *Association* |
 
 ## Associations

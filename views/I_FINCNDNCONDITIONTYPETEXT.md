@@ -17,6 +17,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinConditionConditionType
 ---
 # I_FINCNDNCONDITIONTYPETEXT
 
@@ -35,11 +36,8 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `TreasuryContractType` | `rantyp` |
-| `ftr_cndn_condition_type preserving type )` | `cast( skoart` |
-| `cast( case` | `cast( case` |
-| `when xkoartl is initial then xkoartm` | `when xkoartl is initial then xkoartm` |
-| `else xkoartl` | `else xkoartl` |
-| `ftr_cndn_condition_type_name preserving type )` | `end` |
+| `FinConditionConditionType` | `cast( skoart as ftr_cndn_condition_type preserving type )` |
+| `FinConditionConditionTypeName` | `cast(…)` |
 | `_Language` | *Association* |
 | `_ContractType` | *Association* |
 | `_ConditionType` | *Association* |

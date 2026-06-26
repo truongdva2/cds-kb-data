@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billitem_crmet_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,2 )` |
+| `CABillgDocItemCrtnMethod` | `cast ( substring( dd07l.domvalue_l,1,2 ) as billitem_crmet_kk preserving type )` |
 | `_CABillgDocItemCrtnMethodText` | *Association* |
 
 ## Associations

@@ -16,6 +16,7 @@ tags:
   - serial-number
   - component:LO-MD-SN-2CL
   - lob:Logistics General
+  - bo:SerialNumberProfile
 ---
 # I_SERIALNUMBERPROFILEVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SerialNumberProfile` | `SerialNumberProfile` |
-| `_Text[ Language = $session.system_language ].SerialNumberProfileDescription` | *Association* |
+| `SerialNumberProfile` | `SerialNumberProfile` |
+| `SerialNumberProfileDescription` | `_Text[ Language = $session.system_language ].SerialNumberProfileDescription` |
 
 ## Associations
 

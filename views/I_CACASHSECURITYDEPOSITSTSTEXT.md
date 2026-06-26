@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `c_status_kk )` | `cast( left(dd07t.domvalue_l,2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `c_status_text_kk )` | `cast( ddtext` |
+| `CACashSecurityDepositStatus` | `cast( left(dd07t.domvalue_l,2 ) as c_status_kk )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CACashSecurityDepositStatusTxt` | `cast( ddtext as c_status_text_kk )` |
 | `_CashSecurityDepositStatus` | *Association* |
 | `_Language` | *Association* |
 

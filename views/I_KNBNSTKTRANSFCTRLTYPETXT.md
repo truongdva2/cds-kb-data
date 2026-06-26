@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KnbnCtrlCycStkTransfCtrlType
 ---
 # I_KNBNSTKTRANSFCTRLTYPETXT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pksau)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pksau_text preserving type)` | `cast(ddtext` |
+| `KnbnCtrlCycStkTransfCtrlType` | `cast(substring(domvalue_l, 1, 1) as pksau)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KnbnStkTransfCtrlTypeName` | `cast(ddtext as vdm_pksau_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnStkTransfCtrlType` | *Association* |
 | `_Language` | *Association* |

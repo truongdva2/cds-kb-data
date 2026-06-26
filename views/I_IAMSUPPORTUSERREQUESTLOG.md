@@ -31,21 +31,21 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CAMSupportUserRequestUUID` | `_SupportUserRequestLog.UUID` |
-| `_SupportUserRequestLog.RequestedAt          as CAMSuppUserValdtyStartDateTime` | *Association* |
-| `_SupportUserRequestLog.Bname                as CAMSupportUser` | *Association* |
-| `_SupportUserRequestLog.AccessLevelID        as CAMSupportAccessLevel` | *Association* |
-| `_SupportUserRequestLog.AccessCategory       as CAMSupportAccessCategory` | *Association* |
-| `_AccessCategory.ddtext                      as CAMSupportAccessCategoryText` | *Association* |
-| `_SupportUserRequestLog.AbaMode              as CAMSuppAddedAuthorizationMode` | *Association* |
-| `_AbaMode.ddtext                             as CAMSuppAddedAuthznModeText` | *Association* |
-| `_SupportUserRequestLog.AbaBname             as CAMSuppAddedAuthorizationUser` | *Association* |
-| `_SupportUserRequestLog.IncidentID           as CAMSupportIncident` | *Association* |
-| `_SupportUserRequestLog.IncidentSystemType   as CAMSupportIncidentSystem` | *Association* |
-| `_IncidentSystemType.ddtext                  as CAMSupportIncidentSystemText` | *Association* |
-| `_SupportUserRequestLog.IncidentSystemNumber as CAMSupportIncidentSystemNumber` | *Association* |
-| `_SupportUserRequestLog.IncidentNumber       as CAMSupportIncidentTicketNumber` | *Association* |
-| `_SupportUserRequestLog.IncidentYear         as CAMSupportIncidentTicketYear` | *Association* |
-| `_SupportUserRequestLog.ValidTo              as CAMSuppUserValdtyEndDateTime` | *Association* |
+| `CAMSuppUserValdtyStartDateTime` | `_SupportUserRequestLog.RequestedAt` |
+| `CAMSupportUser` | `_SupportUserRequestLog.Bname` |
+| `CAMSupportAccessLevel` | `_SupportUserRequestLog.AccessLevelID` |
+| `CAMSupportAccessCategory` | `_SupportUserRequestLog.AccessCategory` |
+| `CAMSupportAccessCategoryText` | `_AccessCategory.ddtext` |
+| `CAMSuppAddedAuthorizationMode` | `_SupportUserRequestLog.AbaMode` |
+| `CAMSuppAddedAuthznModeText` | `_AbaMode.ddtext` |
+| `CAMSuppAddedAuthorizationUser` | `_SupportUserRequestLog.AbaBname` |
+| `CAMSupportIncident` | `_SupportUserRequestLog.IncidentID` |
+| `CAMSupportIncidentSystem` | `_SupportUserRequestLog.IncidentSystemType` |
+| `CAMSupportIncidentSystemText` | `_IncidentSystemType.ddtext` |
+| `CAMSupportIncidentSystemNumber` | `_SupportUserRequestLog.IncidentSystemNumber` |
+| `CAMSupportIncidentTicketNumber` | `_SupportUserRequestLog.IncidentNumber` |
+| `CAMSupportIncidentTicketYear` | `_SupportUserRequestLog.IncidentYear` |
+| `CAMSuppUserValdtyEndDateTime` | `_SupportUserRequestLog.ValidTo` |
 | `_SupportUser` | *Association* |
 
 ## Associations

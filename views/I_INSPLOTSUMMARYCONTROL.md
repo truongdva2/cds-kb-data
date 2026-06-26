@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLotSummaryControl
 ---
 # I_INSPLOTSUMMARYCONTROL
 
@@ -38,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_InspLotSummaryControlText` | [0..*] |
 | `_InspectionLotOrigin` | `I_InspectionLotOrigin` | [0..1] |
 
 ## Source Code

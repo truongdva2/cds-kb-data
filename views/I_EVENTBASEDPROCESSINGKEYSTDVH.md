@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:CO-PC-OBJ-ORD-2CL
   - lob:Controlling
+  - bo:EventBasedProcessingKey
 ---
 # I_EVENTBASEDPROCESSINGKEYSTDVH
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key EventBasedProcessingKey` | `EventBasedProcessingKey` |
+| `EventBasedProcessingKey` | `EventBasedProcessingKey` |
 | `_Text` | *Association* |
 
 ## Associations

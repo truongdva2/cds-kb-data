@@ -33,16 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key Language` | `Language` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `Language` | `Language` |
 | `WorkCenterText` | `WorkCenterText` |
 | `Plant` | `Plant` |
 | `WorkCenterCategoryCode` | `WorkCenterCategoryCode` |
 | `WorkCenter` | `WorkCenter` |
 | `WorkCenterLastChangeDateTime` | `WorkCenterLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header: redirected to parent I_WorkCenterTP` | *Association* |
 
 ## Associations
 

@@ -32,54 +32,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key hdr.CN_TaxInvcUUID` | `hdr.CN_TaxInvcUUID` |
-| `hdr.CN_TaxInvcCode` | `hdr.CN_TaxInvcCode` |
-| `hdr.CN_TaxInvcNmbr` | `hdr.CN_TaxInvcNmbr` |
-| `ficntaxinvc_type preserving type)` | `cast( hdr.CN_TaxInvcType` |
-| `hdr.CN_TaxInvcDate` | `hdr.CN_TaxInvcDate` |
-| `hdr.CN_TaxSellerRegnNmbr` | `hdr.CN_TaxSellerRegnNmbr` |
-| `hdr.CN_TaxSellerName` | `hdr.CN_TaxSellerName` |
-| `hdr.CN_TaxInvcCrcy` | `hdr.CN_TaxInvcCrcy` |
-| `hdr.CN_TaxInvcNetAmtInInvcCrcy` | `hdr.CN_TaxInvcNetAmtInInvcCrcy` |
-| `hdr.CN_TaxInvcTaxAmtInInvcCrcy` | `hdr.CN_TaxInvcTaxAmtInInvcCrcy` |
-| `hdr.CreatedByUser` | `hdr.CreatedByUser` |
-| `fis_bukrs preserving type)` | `cast( hdr.CompanyCode` |
-| `elifn preserving type)` | `cast( hdr.Supplier` |
-| `hdr.CN_TaxEntityID` | `hdr.CN_TaxEntityID` |
-| `hdr.CN_TaxBuyerRegnNmbr` | `hdr.CN_TaxBuyerRegnNmbr` |
-| `hdr.CN_TaxInvcDeductAmtInInvcCrcy` | `hdr.CN_TaxInvcDeductAmtInInvcCrcy` |
-| `hdr.CN_TaxInvcDiscNetAmtInInvcCrcy` | `hdr.CN_TaxInvcDiscNetAmtInInvcCrcy` |
-| `hdr.CN_TaxInvcDiscTaxAmtInInvcCrcy` | `hdr.CN_TaxInvcDiscTaxAmtInInvcCrcy` |
-| `hdr.TaxRate` | `hdr.TaxRate` |
-| `hdr.CN_TaxInvcGldnTxSystSts` | `hdr.CN_TaxInvcGldnTxSystSts` |
-| `hdr.CN_TaxInvcInptProcgSts` | `hdr.CN_TaxInvcInptProcgSts` |
-| `ficntaxinvc_deduct_type preserving type)` | `cast( hdr.CN_TaxInvcDeductionType` |
-| `hdr.CN_TaxInvcComment` | `hdr.CN_TaxInvcComment` |
-| `hdr.CN_TaxInvoiceUsage` | `hdr.CN_TaxInvoiceUsage` |
-| `hdr.CN_TaxInvoiceDataSource` | `hdr.CN_TaxInvoiceDataSource` |
-| `hdr.CN_TaxInvoiceExpenseReportNmbr` | `hdr.CN_TaxInvoiceExpenseReportNmbr` |
-| `hdr.IsPostedOnAccount` | `hdr.IsPostedOnAccount` |
-| `ficntax_input_vat_cat preserving type)` | `cast( hdr.TaxCategory` |
-| `hdr.CN_TaxDeclnYear` | `hdr.CN_TaxDeclnYear` |
-| `hdr.CN_TaxDeclnMonth` | `hdr.CN_TaxDeclnMonth` |
-| `hdr.TaxInvoiceBuyerAddressPhone` | `hdr.TaxInvoiceBuyerAddressPhone` |
-| `hdr.TaxInvoiceBuyerBankAccount` | `hdr.TaxInvoiceBuyerBankAccount` |
-| `hdr.TaxInvoiceSellerAddressPhone` | `hdr.TaxInvoiceSellerAddressPhone` |
-| `hdr.TaxInvoiceSellerBankAccount` | `hdr.TaxInvoiceSellerBankAccount` |
-| `hdr.CN_TaxInvoiceVehicleType` | `hdr.CN_TaxInvoiceVehicleType` |
-| `hdr.CN_TaxInvoiceVehFactoryModel` | `hdr.CN_TaxInvoiceVehFactoryModel` |
-| `hdr.CN_TaxInvoiceVehicleProdnPlace` | `hdr.CN_TaxInvoiceVehicleProdnPlace` |
-| `hdr.CN_TaxInvoiceVehicleCertNumber` | `hdr.CN_TaxInvoiceVehicleCertNumber` |
-| `hdr.CN_TaxInvoiceVehImportCertNmbr` | `hdr.CN_TaxInvoiceVehImportCertNmbr` |
-| `hdr.CN_TaxInvoiceVehicleInspNumber` | `hdr.CN_TaxInvoiceVehicleInspNumber` |
-| `hdr.CN_TaxInvoiceVehicleEngineNmbr` | `hdr.CN_TaxInvoiceVehicleEngineNmbr` |
-| `hdr.CN_TaxInvoiceVehicleNumber` | `hdr.CN_TaxInvoiceVehicleNumber` |
-| `hdr.CN_TaxInvcVehTotAmtInInvcCrcy` | `hdr.CN_TaxInvcVehTotAmtInInvcCrcy` |
-| `hdr.CN_TaxInvoiceVehTxnRecordNmbr` | `hdr.CN_TaxInvoiceVehTxnRecordNmbr` |
-| `hdr.CN_TaxInvoiceVehicleTonnage` | `hdr.CN_TaxInvoiceVehicleTonnage` |
-| `hdr.CN_TaxInvoiceVehPassengerLimit` | `hdr.CN_TaxInvoiceVehPassengerLimit` |
-| `ekorg preserving type)` | `cast( hdr.PurchasingOrganization` |
-| `ekgrp preserving type)` | `cast( hdr.PurchasingGroup` |
+| `CN_TaxInvcUUID` | `hdr.CN_TaxInvcUUID` |
+| `CN_TaxInvcCode` | `hdr.CN_TaxInvcCode` |
+| `CN_TaxInvcNmbr` | `hdr.CN_TaxInvcNmbr` |
+| `CN_TaxInvcType` | `cast( hdr.CN_TaxInvcType as ficntaxinvc_type preserving type)` |
+| `CN_TaxInvcDate` | `hdr.CN_TaxInvcDate` |
+| `CN_TaxSellerRegnNmbr` | `hdr.CN_TaxSellerRegnNmbr` |
+| `CN_TaxSellerName` | `hdr.CN_TaxSellerName` |
+| `CN_TaxInvcCrcy` | `hdr.CN_TaxInvcCrcy` |
+| `CN_TaxInvcNetAmtInInvcCrcy` | `hdr.CN_TaxInvcNetAmtInInvcCrcy` |
+| `CN_TaxInvcTaxAmtInInvcCrcy` | `hdr.CN_TaxInvcTaxAmtInInvcCrcy` |
+| `CreatedByUser` | `hdr.CreatedByUser` |
+| `CompanyCode` | `cast( hdr.CompanyCode as fis_bukrs preserving type)` |
+| `Supplier` | `cast( hdr.Supplier as elifn preserving type)` |
+| `CN_TaxEntityID` | `hdr.CN_TaxEntityID` |
+| `CN_TaxBuyerRegnNmbr` | `hdr.CN_TaxBuyerRegnNmbr` |
+| `CN_TaxInvcDeductAmtInInvcCrcy` | `hdr.CN_TaxInvcDeductAmtInInvcCrcy` |
+| `CN_TaxInvcDiscNetAmtInInvcCrcy` | `hdr.CN_TaxInvcDiscNetAmtInInvcCrcy` |
+| `CN_TaxInvcDiscTaxAmtInInvcCrcy` | `hdr.CN_TaxInvcDiscTaxAmtInInvcCrcy` |
+| `TaxRate` | `hdr.TaxRate` |
+| `CN_TaxInvcGldnTxSystSts` | `hdr.CN_TaxInvcGldnTxSystSts` |
+| `CN_TaxInvcInptProcgSts` | `hdr.CN_TaxInvcInptProcgSts` |
+| `CN_TaxInvcDeductionType` | `cast( hdr.CN_TaxInvcDeductionType as ficntaxinvc_deduct_type preserving type)` |
+| `CN_TaxInvcComment` | `hdr.CN_TaxInvcComment` |
+| `CN_TaxInvoiceUsage` | `hdr.CN_TaxInvoiceUsage` |
+| `CN_TaxInvoiceDataSource` | `hdr.CN_TaxInvoiceDataSource` |
+| `CN_TaxInvoiceExpenseReportNmbr` | `hdr.CN_TaxInvoiceExpenseReportNmbr` |
+| `IsPostedOnAccount` | `hdr.IsPostedOnAccount` |
+| `TaxCategory` | `cast( hdr.TaxCategory as ficntax_input_vat_cat preserving type)` |
+| `CN_TaxDeclnYear` | `hdr.CN_TaxDeclnYear` |
+| `CN_TaxDeclnMonth` | `hdr.CN_TaxDeclnMonth` |
+| `TaxInvoiceBuyerAddressPhone` | `hdr.TaxInvoiceBuyerAddressPhone` |
+| `TaxInvoiceBuyerBankAccount` | `hdr.TaxInvoiceBuyerBankAccount` |
+| `TaxInvoiceSellerAddressPhone` | `hdr.TaxInvoiceSellerAddressPhone` |
+| `TaxInvoiceSellerBankAccount` | `hdr.TaxInvoiceSellerBankAccount` |
+| `CN_TaxInvoiceVehicleType` | `hdr.CN_TaxInvoiceVehicleType` |
+| `CN_TaxInvoiceVehFactoryModel` | `hdr.CN_TaxInvoiceVehFactoryModel` |
+| `CN_TaxInvoiceVehicleProdnPlace` | `hdr.CN_TaxInvoiceVehicleProdnPlace` |
+| `CN_TaxInvoiceVehicleCertNumber` | `hdr.CN_TaxInvoiceVehicleCertNumber` |
+| `CN_TaxInvoiceVehImportCertNmbr` | `hdr.CN_TaxInvoiceVehImportCertNmbr` |
+| `CN_TaxInvoiceVehicleInspNumber` | `hdr.CN_TaxInvoiceVehicleInspNumber` |
+| `CN_TaxInvoiceVehicleEngineNmbr` | `hdr.CN_TaxInvoiceVehicleEngineNmbr` |
+| `CN_TaxInvoiceVehicleNumber` | `hdr.CN_TaxInvoiceVehicleNumber` |
+| `CN_TaxInvcVehTotAmtInInvcCrcy` | `hdr.CN_TaxInvcVehTotAmtInInvcCrcy` |
+| `CN_TaxInvoiceVehTxnRecordNmbr` | `hdr.CN_TaxInvoiceVehTxnRecordNmbr` |
+| `CN_TaxInvoiceVehicleTonnage` | `hdr.CN_TaxInvoiceVehicleTonnage` |
+| `CN_TaxInvoiceVehPassengerLimit` | `hdr.CN_TaxInvoiceVehPassengerLimit` |
+| `PurchasingOrganization` | `cast( hdr.PurchasingOrganization as ekorg preserving type)` |
+| `PurchasingGroup` | `cast( hdr.PurchasingGroup as ekgrp preserving type)` |
 | `_InvoiceType` | *Association* |
 | `_Supplier` | *Association* |
 

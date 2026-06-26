@@ -18,6 +18,7 @@ tags:
   - status
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeNumberStatus
 ---
 # I_CHANGEMASTERSTATUSTEXT
 
@@ -34,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/plmb/ecn_status )` | `cast ( aenst` |
+| `ChangeNumberStatus` | `cast ( aenst as /plmb/ecn_status )` |
 | `Language` | `spras` |
 | `ChangeNumberStatusText` | `aestx` |
 | `_Language` | *Association* |

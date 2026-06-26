@@ -13,6 +13,7 @@ tags:
   - gl-account
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:SemanticTagGeneralLedger
 ---
 # I_SEMTAGGLACCOUNT
 
@@ -30,14 +31,14 @@ tags:
 | Field | Data Source |
 |---|---|
 | `GLAccountHierarchy` | `GLAccountHierarchy` |
-| `hrynode )` | `cast ( ''` |
+| `HierarchyNode` | `cast ( '' as hrynode )` |
 | `SemanticTag` | `SemanticTag` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ChartOfAccounts` | `ChartOfAccounts` |
 | `GLAccount` | `GLAccount` |
 | `FunctionalAreaIsUsed` | `FunctionalAreaIsUsed` |
-| `xfber_011 )` | `cast( case when SemanticTag = 'NTINC_ALAC' then '' else FunctionalAreaIsUsed end` |
+| `IsFunctionalAreaPermitted` | `cast(…)` |
 | `_Hierarchy` | *Association* |
 | `_GLAccountHierarchyNode` | *Association* |
 | `_SemanticTag` | *Association* |

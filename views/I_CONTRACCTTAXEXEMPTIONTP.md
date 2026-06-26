@@ -31,16 +31,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CATaxExemptionLicenseCurrency'} }` | `currencyCode: 'CATaxExemptionLicenseCurrency'} }` |
+| `ContractAccount` | `ContractAccount` |
+| `TaxCode` | `TaxCode` |
+| `CAConditionType` | `CAConditionType` |
+| `CustTaxGroupExemptionStartDate` | `CustTaxGroupExemptionStartDate` |
+| `TaxCodeForEdit` | `TaxCodeForEdit` |
+| `CAConditionTypeForEdit` | `CAConditionTypeForEdit` |
+| `CustTxGrpExmpStrtDtFoEd` | `CustTxGrpExmpStrtDtFoEd` |
+| `CustTaxGroupExemptionEndDate` | `CustTaxGroupExemptionEndDate` |
+| `CATaxExemptionLicense` | `CATaxExemptionLicense` |
+| `CATaxExemptionRate` | `CATaxExemptionRate` |
+| `CAMassRunDate` | `CAMassRunDate` |
+| `CAMassRunID` | `CAMassRunID` |
+| `CATaxExemptionLicenseExtended` | `CATaxExemptionLicenseExtended` |
 | `CATaxExemptionLicenseAmount` | `CATaxExemptionLicenseAmount` |
 | `CATaxExemptionLicenseCurrency` | `CATaxExemptionLicenseCurrency` |
 | `CATaxExemptionLicenseIssueDate` | `CATaxExemptionLicenseIssueDate` |
 | `IT_TaxCalculationProcedure` | `IT_TaxCalculationProcedure` |
-| `/* Associations */` | `/* Associations */` |
 | `_CAConditionType` | *Association* |
 | `_CATaxExemptionLicenseCurrency` | *Association* |
 | `_ContrAcctTaxExemptionUI` | *Association* |
-| `_ContractAccount: redirected to parent I_ContractAccountTP` | *Association* |
 
 ## Associations
 

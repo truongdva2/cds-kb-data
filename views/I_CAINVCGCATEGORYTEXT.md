@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CAInvcgCategory` | `_tfk2604t.inv_category` |
 | `Language` | `_tfk2604t.langu` |
-| `inv_category_txt_gfn_kk preserving type )` | `cast( _tfk2604t.text` |
+| `CAInvcgCategoryText` | `cast( _tfk2604t.text as inv_category_txt_gfn_kk preserving type )` |
 | `_CAInvcgCategory` | *Association* |
 | `_Language` | *Association* |
 

@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wnper_kk )` | `cast( left( dd07t.domvalue_l, 2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `wnper_text_kk preserving type )` | `cast( ddtext` |
+| `CARequestedPeriodForGLTransfer` | `cast( left( dd07t.domvalue_l, 2 ) as wnper_kk )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CARequestedPerdForGLTransfText` | `cast( ddtext as wnper_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

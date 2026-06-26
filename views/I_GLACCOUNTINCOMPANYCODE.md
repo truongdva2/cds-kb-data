@@ -40,10 +40,7 @@ tags:
 | `LastInterestCalcRunDate` | `skb1.datlz` |
 | `CreationDate` | `skb1.erdat` |
 | `CreatedByUser` | `skb1.ernam` |
-| `cast(case` | `cast(case` |
-| `timestamp )` | `when skb1.last_changed_ts    = 0 then cast( '19700101010101'` |
-| `else skb1.last_changed_ts` | `else skb1.last_changed_ts` |
-| `timestamp)` | `end` |
+| `LastChangeDateTime` | `cast(…)` |
 | `PlanningLevel` | `skb1.fdlev` |
 | `HouseBank` | `skb1.hbkid` |
 | `HouseBankAccount` | `skb1.hktid` |
@@ -53,7 +50,7 @@ tags:
 | `InterestCalculationCode` | `skb1.vzskz` |
 | `GLAccountCurrency` | `skb1.waers` |
 | `ReconciliationAcctIsChangeable` | `skb1.xmitk` |
-| `fac_gl_acct_extern_ind )` | `cast( substring(skb1.wmeth, 1, 1)` |
+| `IsManagedExternally` | `cast( substring(skb1.wmeth, 1, 1) as fac_gl_acct_extern_ind )` |
 | `IsAutomaticallyPosted` | `skb1.xintb` |
 | `LineItemDisplayIsEnabled` | `skb1.xkres` |
 | `SupplementIsAllowed` | `skb1.xnkon` |
@@ -61,10 +58,10 @@ tags:
 | `InterestCalculationDate` | `skb1.zindt` |
 | `IntrstCalcFrequencyInMonths` | `skb1.zinrt` |
 | `AcctgDocItmDisplaySequenceRule` | `skb1.zuawa` |
-| `fis_alternativeglaccount preserving type )` | `cast(skb1.altkt` |
+| `AlternativeGLAccount` | `cast(skb1.altkt as fis_alternativeglaccount preserving type )` |
 | `JointVentureRecoveryCode` | `skb1.recid` |
 | `CommitmentItem` | `skb1.fipos` |
-| `fmis_ci_internalname preserving type)` | `cast(skb1.fipos` |
+| `CommitmentItemShortID` | `cast(skb1.fipos as fmis_ci_internalname preserving type)` |
 | `TaxCodeIsRequired` | `skb1.xmwno` |
 | `BalanceHasLocalCurrency` | `skb1.xsalh` |
 | `ValuationGroup` | `skb1.bewgp` |

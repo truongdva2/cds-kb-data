@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-AP-AP-B-2CL
   - lob:Finance
+  - bo:PaymentBlockLevel
 ---
 # I_PAYMENTBLOCKLEVEL
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_splev )` | `cast( dd07l.domvalue_l` |
+| `PaymentBlockLevel` | `cast( dd07l.domvalue_l as farp_splev )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PaymentBlockLevelText` | [0..*] |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanReplenishmentStrgyType
 ---
 # I_KNBNREPLNMTSTRGYTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pk_replenishment_type preserving type)` | `cast ( right(domvalue_l, 1)` |
+| `KanbanReplenishmentStrgyType` | `cast ( right(domvalue_l, 1) as pk_replenishment_type preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

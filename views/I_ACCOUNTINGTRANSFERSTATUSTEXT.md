@@ -17,6 +17,7 @@ tags:
   - status
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:AccountingTransferStatus
 ---
 # I_ACCOUNTINGTRANSFERSTATUSTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AccountingTransferStatus` | `I_AccountingTransferStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

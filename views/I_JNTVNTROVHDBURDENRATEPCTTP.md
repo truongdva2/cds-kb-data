@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JointVentureBurdenRateType` | `JointVentureBurdenRateType` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureBurdenRateType` | `JointVentureBurdenRateType` |
 | `JointVentureOvhdBurdenRatePct` | `JointVentureOvhdBurdenRatePct` |
-| `_JointVenture : redirected to parent I_JointVentureTP` | *Association* |
 
 ## Associations
 

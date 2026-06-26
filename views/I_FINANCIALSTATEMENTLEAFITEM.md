@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FinancialStatementLeafItem
 ---
 # I_FINANCIALSTATEMENTLEAFITEM
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `char10))` | `cast(concat(concat(gl.ChartOfAccounts,concat(gl.GLAccount,'2A')),cast(P_FINANCIALSTATEMENTINCMNTIDX.incrmnt_index` |
-| `fins_fsleaf_externalid )` | `cast( concat(gl.ChartOfAccounts,concat('/',gl.GLAccount) )` |
+| `FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
+| `FinancialStmntLeafItemExtID` | `FinancialStmntLeafItemExtID` |
 | `_FinancialStatementHierNode` | *Association* |
 | `_Text` | *Association* |
 
@@ -40,12 +41,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_FinancialStatementHierNode` | `I_FinancialStatementHierNode` | [0..*] |
-| `_Text` | `I_FinancialStatementLeafItemT` | [0..*] |
-| `_FinancialStatementHierNode` | `I_FinancialStatementHierNode` | [0..*] |
-| `_Text` | `I_FinancialStatementLeafItemT` | [0..*] |
-| `_FinancialStatementHierNode` | `I_FinancialStatementHierNode` | [0..*] |
-| `_Text` | `I_FinancialStatementLeafItemT` | [0..*] |
 | `_FinancialStatementHierNode` | `I_FinancialStatementHierNode` | [0..*] |
 | `_Text` | `I_FinancialStatementLeafItemT` | [0..*] |
 

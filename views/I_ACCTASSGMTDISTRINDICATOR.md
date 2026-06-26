@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-GF-MAS-2CL
   - lob:Sourcing & Procurement
+  - bo:MultipleAcctAssgmtDistribution
 ---
 # I_ACCTASSGMTDISTRINDICATOR
 
@@ -35,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_AcctAssgmtDistrIndicatorTxt` | [0..*] |
 
 ## Source Code
 

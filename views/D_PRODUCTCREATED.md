@@ -14,6 +14,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Product
 ---
 # D_PRODUCTCREATED
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductType                    : producttype  ;` | `ProductType                    : producttype  ;` |
-| `ProductCategory                : prodcategory ;` | `ProductCategory                : prodcategory ;` |
+| `ProductType` | `producttype` |
+| `ProductCategory` | `prodcategory` |
 
 ## Associations
 

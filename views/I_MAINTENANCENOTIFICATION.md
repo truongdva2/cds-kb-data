@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceNotification
 ---
 # I_MAINTENANCENOTIFICATION
 
@@ -30,24 +31,51 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'MaintNotificationCatalog'` | `localElement: 'MaintNotificationCatalog'` |
-| `element: 'InspectionCatalog' }]` | `element: 'InspectionCatalog' }]` |
-| `}]` | `}]` |
+| `MaintenanceNotification` | `qmel.qmnum` |
+| `MaintPriority` | `qmel.priok` |
+| `MaintPriorityType` | `qmel.artpr` |
+| `NotificationType` | `qmel.qmart` |
+| `NotifProcessingPhase` | `qmel.phase` |
+| `CreatedByUser` | `qmel.ernam` |
+| `LastChangedByUser` | `qmel.aenam` |
+| `ReportedByUser` | `qmel.qmnam` |
+| `CreationDate` | `qmel.erdat` |
+| `LastChangeTime` | `case…end` |
+| `LastChangeDate` | `case…end` |
+| `CreationTime` | `qmel.erzeit` |
+| `CreationDateTime` | `cast ( concat(qmel.erdat,qmel.erzeit) as eam_creation_timestamp )` |
+| `NotificationText` | `qmel.qmtxt` |
+| `LongTextLanguage` | `qmel.kzmla` |
+| `MaintenanceOrder` | `qmel.aufnr` |
+| `RequiredStartDate` | `cast ( qmel.strmn as eam_req_start_date )` |
+| `RequiredStartTime` | `qmel.strur` |
+| `RequiredEndDate` | `cast ( qmel.ltrmn as eam_req_end_date )` |
+| `RequiredEndTime` | `qmel.ltrur` |
+| `NotificationCreationDate` | `qmel.qmdat` |
+| `NotificationCreationTime` | `qmel.mzeit` |
+| `NotificationReferenceDate` | `qmel.bezdt` |
+| `NotificationHasLongText` | `qmel.indtx` |
+| `MaintNotifInternalID` | `qmel.objnr` |
+| `NotificationTimeZone` | `qmel.tzonso` |
+| `NotificationReferenceTime` | `qmel.bezur` |
+| `NotificationCompletionDate` | `qmel.qmdab` |
+| `NotificationCompletionTime` | `qmel.qmzab` |
+| `WorkCenterInternalID` | `qmel.arbpl` |
+| `WorkCenterTypeCode` | `cast( 'A' as cr_objty )` |
+| `MaintenanceWorkCenterPlant` | `qmel.arbplwerk` |
+| `MaintNotificationCatalog` | `qmel.qmkat` |
+| `MaintNotificationCode` | `qmel.qmcod` |
 | `MaintNotificationCodeGroup` | `qmel.qmgrp` |
 | `CatalogProfile` | `qmel.rbnr` |
 | `NotificationOrigin` | `qmel.herkz` |
-| `cast( case when qmel.phase = '5' or qmel.kzloesch = 'X' then 'X'` | `cast( case when qmel.phase = '5' or qmel.kzloesch = 'X' then 'X'` |
-| `else ''` | `else ''` |
-| `eam_is_deleted  )` | `end` |
-| `cast( case when qmel.phase  = '4' then 'X'` | `cast( case when qmel.phase  = '4' then 'X'` |
-| `else ''` | `else ''` |
-| `eam_is_completed )` | `end` |
+| `IsDeleted` | `cast(…)` |
+| `IsCompleted` | `cast( case when qmel.phase = '4' then 'X' else '' end as eam_is_completed )` |
 | `LastChangeDateTime` | `qmel.changeddatetime` |
 | `SerialNumber` | `qmel.serialnr` |
 | `Material` | `qmel.matnr` |
 | `AdditionalDeviceData` | `qmel.deviceid` |
 | `MaintNotifExtReferenceNumber` | `qmel.refnum` |
-| `vdm_j_masterlanguage )` | `cast( qmel.kzmla` |
+| `MasterLanguage` | `cast( qmel.kzmla as vdm_j_masterlanguage )` |
 | `_LastChangedByUser` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_ReportedByUser` | *Association* |

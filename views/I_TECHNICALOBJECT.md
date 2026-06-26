@@ -30,33 +30,65 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FunctionalLocationStdVH'` | `name:    'I_FunctionalLocationStdVH'` |
-| `element: 'FunctionalLocation' }` | `element: 'FunctionalLocation' }` |
-| `}]` | `}]` |
-| `P_EquipmentFuncnlLocUnion.SuperiorFunctionalLocation` | `P_EquipmentFuncnlLocUnion.SuperiorFunctionalLocation` |
+| `TechnicalObject` | `P_EquipmentFuncnlLocUnion.TechnicalObject` |
+| `TechObjIsEquipOrFuncnlLoc` | `P_EquipmentFuncnlLocUnion.TechObjIsEquipOrFuncnlLoc` |
+| `TechnicalObjectLabel` | `cast(…)` |
+| `SuperiorObjIsEquipOrFuncnlLoc` | `cast(…)` |
+| `SuperiorTechnicalObject` | `SuperiorTechnicalObject` |
+| `TechnicalObjectCategory` | `P_EquipmentFuncnlLocUnion.TechnicalObjectCategory` |
+| `Equipment` | `P_EquipmentFuncnlLocUnion.Equipment` |
+| `FunctionalLocation` | `P_EquipmentFuncnlLocUnion.FunctionalLocation` |
+| `TechnicalObjectType` | `P_EquipmentFuncnlLocUnion.TechnicalObjectType` |
+| `CreatedByUser` | `P_EquipmentFuncnlLocUnion.CreatedByUser` |
+| `CreationDate` | `P_EquipmentFuncnlLocUnion.CreationDate` |
+| `LastChangedByUser` | `P_EquipmentFuncnlLocUnion.LastChangedByUser` |
+| `LastChangeDate` | `P_EquipmentFuncnlLocUnion.LastChangeDate` |
+| `AssetManufacturerName` | `P_EquipmentFuncnlLocUnion.AssetManufacturerName` |
+| `ManufacturerPartTypeName` | `P_EquipmentFuncnlLocUnion.ManufacturerPartTypeName` |
+| `MaintenancePlanningPlant` | `P_EquipmentFuncnlLocUnion.MaintenancePlanningPlant` |
+| `MaintenancePlannerGroup` | `P_EquipmentFuncnlLocUnion.MaintenancePlannerGroup` |
+| `CatalogProfile` | `P_EquipmentFuncnlLocUnion.CatalogProfile` |
+| `AuthorizationGroup` | `P_EquipmentFuncnlLocUnion.AuthorizationGroup` |
+| `WorkCenterInternalID` | `P_EquipmentFuncnlLocUnion.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `P_EquipmentFuncnlLocUnion.WorkCenterTypeCode` |
+| `MaintObjectLocAcctAssgmtNmbr` | `P_EquipmentFuncnlLocUnion.MaintObjectLocAcctAssgmtNmbr` |
+| `ManufacturerCountry` | `P_EquipmentFuncnlLocUnion.ManufacturerCountry` |
+| `ConstructionYear` | `P_EquipmentFuncnlLocUnion.ConstructionYear` |
+| `ConstructionMonth` | `P_EquipmentFuncnlLocUnion.ConstructionMonth` |
+| `ConstructionMaterial` | `P_EquipmentFuncnlLocUnion.ConstructionMaterial` |
+| `AcquisitionDate` | `P_EquipmentFuncnlLocUnion.AcquisitionDate` |
+| `Currency` | `P_EquipmentFuncnlLocUnion.Currency` |
+| `AcquisitionValue` | `P_EquipmentFuncnlLocUnion.AcquisitionValue` |
+| `TechnicalObjectSortCode` | `P_EquipmentFuncnlLocUnion.TechnicalObjectSortCode` |
+| `MaintObjectInternalID` | `P_EquipmentFuncnlLocUnion.MaintObjectInternalID` |
+| `SizeOrDimensionText` | `P_EquipmentFuncnlLocUnion.SizeOrDimensionText` |
+| `InventoryNumber` | `P_EquipmentFuncnlLocUnion.InventoryNumber` |
+| `GrossWeight` | `P_EquipmentFuncnlLocUnion.GrossWeight` |
+| `GrossWeightUnit` | `P_EquipmentFuncnlLocUnion.GrossWeightUnit` |
+| `ManufacturerPartNmbr` | `P_EquipmentFuncnlLocUnion.ManufacturerPartNmbr` |
+| `ManufacturerSerialNumber` | `P_EquipmentFuncnlLocUnion.ManufacturerSerialNumber` |
+| `OperationStartDate` | `P_EquipmentFuncnlLocUnion.OperationStartDate` |
+| `FuncLocStrucIdentifyingLevel` | `P_EquipmentFuncnlLocUnion.FuncLocStrucIdentifyingLevel` |
+| `FuncLocStruc2ndIdentifyingLvl` | `P_EquipmentFuncnlLocUnion.FuncLocStruc2ndIdentifyingLvl` |
+| `FuncLocationStructure` | `P_EquipmentFuncnlLocUnion.FuncLocationStructure` |
+| `SuperiorFunctionalLocation` | `P_EquipmentFuncnlLocUnion.SuperiorFunctionalLocation` |
 | `TechnicalObjectDescription` | `TechnicalObjectDescription` |
 | `TechnicalObjectHasLongText` | `TechnicalObjectHasLongText` |
 | `SuperiorTechnicalObjectName` | `SuperiorTechnicalObjectName` |
 | `SuperiorTechnicalObjectLabel` | `SuperiorTechnicalObjectLabel` |
-| `cast(case when _StatusObjectActiveStatus[1: StatusCode = 'I0076'].StatusCode is not null` | `cast(case when _StatusObjectActiveStatus[1: StatusCode = 'I0076'].StatusCode is not null` |
-| `and  _StatusObjectActiveStatus[1: StatusCode = 'I0076'].StatusCode = 'I0076'` | `and  _StatusObjectActiveStatus[1: StatusCode = 'I0076'].StatusCode = 'I0076'` |
-| `then 'X' else ''` | `then 'X' else ''` |
-| `lkenz )` | `end` |
-| `cast(case when _StatusObjectActiveStatus[1: StatusCode = 'I0320'].StatusCode is not null` | `cast(case when _StatusObjectActiveStatus[1: StatusCode = 'I0320'].StatusCode is not null` |
-| `and  _StatusObjectActiveStatus[1: StatusCode = 'I0320'].StatusCode = 'I0320'` | `and  _StatusObjectActiveStatus[1: StatusCode = 'I0320'].StatusCode = 'I0320'` |
-| `then 'X' else ''` | `then 'X' else ''` |
-| `eam_inactive )` | `end` |
-| `P_EquipmentFuncnlLocUnion.SalesOrganization` | `P_EquipmentFuncnlLocUnion.SalesOrganization` |
-| `P_EquipmentFuncnlLocUnion.DistributionChannel` | `P_EquipmentFuncnlLocUnion.DistributionChannel` |
-| `P_EquipmentFuncnlLocUnion.SalesOffice` | `P_EquipmentFuncnlLocUnion.SalesOffice` |
-| `P_EquipmentFuncnlLocUnion.OrganizationDivision` | `P_EquipmentFuncnlLocUnion.OrganizationDivision` |
-| `P_EquipmentFuncnlLocUnion.SalesGroup` | `P_EquipmentFuncnlLocUnion.SalesGroup` |
-| `P_EquipmentFuncnlLocUnion.Material` | `P_EquipmentFuncnlLocUnion.Material` |
-| `P_EquipmentFuncnlLocUnion.SerialNumber` | `P_EquipmentFuncnlLocUnion.SerialNumber` |
+| `IsDeleted` | `cast(…)` |
+| `TechObjStatusIsInactive` | `cast(…)` |
+| `SalesOrganization` | `P_EquipmentFuncnlLocUnion.SalesOrganization` |
+| `DistributionChannel` | `P_EquipmentFuncnlLocUnion.DistributionChannel` |
+| `SalesOffice` | `P_EquipmentFuncnlLocUnion.SalesOffice` |
+| `OrganizationDivision` | `P_EquipmentFuncnlLocUnion.OrganizationDivision` |
+| `SalesGroup` | `P_EquipmentFuncnlLocUnion.SalesGroup` |
+| `Material` | `P_EquipmentFuncnlLocUnion.Material` |
+| `SerialNumber` | `P_EquipmentFuncnlLocUnion.SerialNumber` |
 | `_CreatedByUser` | *Association* |
 | `_LastChangedByUser` | *Association* |
 | `_WorkCenterType` | *Association* |
-| `_WorkCenter, // Main Work Center` | *Association* |
+| `_WorkCenter` | *Association* |
 | `_LocationAccountAssignment` | *Association* |
 | `_TechnicalObjectType` | *Association* |
 | `_Equipment` | *Association* |
@@ -69,7 +101,7 @@ tags:
 | `_ManufacturerCountry` | *Association* |
 | `_Currency` | *Association* |
 | `_IsDeleted` | *Association* |
-| `_TechObjStatusIsInactive,                //Added by C5335816 for New Field Inactive Status` | *Association* |
+| `_TechObjStatusIsInactive` | *Association* |
 | `_TechnicalObjectHierarchy` | *Association* |
 | `_StatusObjectActiveStatus` | *Association* |
 | `_FunctionalLocationLabel` | *Association* |
@@ -117,6 +149,7 @@ tags:
 | `_SuperFunctionalLocationLabel` | `I_FunctionalLocationLabel` | [0..1] |
 | `_FunctionalLocationExtension` | `E_FunctionalLocation` | [0..1] |
 | `_EquipmentExtension` | `E_Equipment` | [0..1] |
+| `_MaintenancePlanPlant` | `I_MaintenancePlanPlant` | [0..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_GrossWeightUnit` | `I_UnitOfMeasure` | [0..1] |
 

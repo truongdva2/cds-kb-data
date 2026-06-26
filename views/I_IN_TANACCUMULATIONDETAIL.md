@@ -39,7 +39,7 @@ tags:
 | `FinancialAccountType` | `koart` |
 | `BusinessPartnerPanNumber` | `pan_no` |
 | `IN_AccumulationAmount` | `acc_amt` |
-| `fis_hwaer)` | `cast (abap.cuky'INR'` |
+| `CompanyCodeCurrency` | `cast (abap.cuky'INR' as fis_hwaer)` |
 
 ## Associations
 

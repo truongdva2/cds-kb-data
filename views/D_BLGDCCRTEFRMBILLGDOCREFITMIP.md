@@ -28,14 +28,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceBillingDocumentItem : posnr_vf;` | `ReferenceBillingDocumentItem : posnr_vf;` |
-| `BillingQuantity     : fkimg;` | `BillingQuantity     : fkimg;` |
-| `BillingQuantityUnit : vrkme;` | `BillingQuantityUnit : vrkme;` |
-| `_DummyAssociation   : association to parent D_BillgDocCrteFrmBillgDocRefIP;` | *Association* |
+| `ReferenceBillingDocumentItem` | `posnr_vf` |
+| `BillingQuantity` | `fkimg` |
+| `BillingQuantityUnit` | `vrkme` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_BillgDocCrteFrmBillgDocRefIP` | — |
 
 ## Source Code
 

@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListManufacturingOrd.ManufacturingOrder` | `_MaintObjListManufacturingOrd.ManufacturingOrder` |
-| `key _MaintObjListManufacturingOrd.ManufacturingOrderItem` | `_MaintObjListManufacturingOrd.ManufacturingOrderItem` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListManufacturingOrd._ManufacturingOrder` | *Association* |
-| `_MaintObjListManufacturingOrd._ManufacturingOrderItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `ManufacturingOrder` | `_MaintObjListManufacturingOrd.ManufacturingOrder` |
+| `ManufacturingOrderItem` | `_MaintObjListManufacturingOrd.ManufacturingOrderItem` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_ManufacturingOrder` | *Association* |
+| `_ManufacturingOrderItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

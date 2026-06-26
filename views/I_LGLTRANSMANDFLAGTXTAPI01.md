@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-LT-2CL
   - lob:Other
+  - bo:LegalTransactionMandatoryFlag
 ---
 # I_LGLTRANSMANDFLAGTXTAPI01
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
-| `key Language` | `Language` |
+| `LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
+| `Language` | `Language` |
 | `LglCntntMLglTransMandFlagText` | `LglCntntMLglTransMandFlagText` |
 
 ## Associations

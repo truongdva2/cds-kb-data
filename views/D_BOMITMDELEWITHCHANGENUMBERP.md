@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EngineeringChangeDocForEdit : aennr;` | `EngineeringChangeDocForEdit : aennr;` |
+| `EngineeringChangeDocForEdit` | `aennr` |
 
 ## Associations
 

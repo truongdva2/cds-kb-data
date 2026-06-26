@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LegalDocumentSource
 ---
 # I_LGLCNTNTMLGLDOCSRCETXTAPI01
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalDocumentSource` | `LegalDocumentSource` |
-| `key Language` | `Language` |
+| `LegalDocumentSource` | `LegalDocumentSource` |
+| `Language` | `Language` |
 | `LglCntntMDocumentSourceText` | `LglCntntMDocumentSourceText` |
 
 ## Associations

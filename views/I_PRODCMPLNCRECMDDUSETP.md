@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncSpcfcUseUUID` | `ProdCmplncSpcfcUseUUID` |
+| `ProdCmplncSpcfcUseUUID` | `ProdCmplncSpcfcUseUUID` |
 | `ProdCmplncUseUUID` | `ProdCmplncUseUUID` |
 | `ProdCmplncUseRating` | `ProdCmplncUseRating` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdCmplncUse : redirected to parent I_ProdCmplncUseTP` | *Association* |
 
 ## Associations
 

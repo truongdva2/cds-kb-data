@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderCategory
 ---
 # I_TRANSPORDERCATEGORYT_2
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_category preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderCategory` | `cast(substring(domvalue_l, 1, 2) as /scmtms/vdm_tor_category preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_cat_desc preserving type )` | `cast(ddtext` |
+| `TransportationOrderCatDesc` | `cast(ddtext as /scmtms/vdm_tor_cat_desc preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationOrderCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderCategory` | `I_TranspOrderCategory_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

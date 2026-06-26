@@ -32,44 +32,36 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BR_NotaFiscal` | `NFPartner.docnum` |
-| `logbr_parvw preserving type)` | `cast(NFPartner.parvw` |
+| `BR_NFPartnerFunction` | `cast(NFPartner.parvw as logbr_parvw preserving type)` |
 | `BR_NFPartner` | `NFPartner.parid` |
-| `logbr_anred preserving type)` | `cast(NFPartner.anred` |
+| `BR_NFPartnerTitle` | `cast(NFPartner.anred as logbr_anred preserving type)` |
 | `BR_NFPartnerName1` | `NFPartner.name1` |
 | `BR_NFPartnerName2` | `NFPartner.name2` |
 | `BR_NFPartnerName3` | `NFPartner.name3` |
 | `BR_NFPartnerName4` | `NFPartner.name4` |
-| `logbr_nfpartnertype preserving type)` | `cast(NFPartner.partyp` |
+| `BR_NFPartnerType` | `cast(NFPartner.partyp as logbr_nfpartnertype preserving type)` |
 | `BR_NFPartnerStreetName` | `NFPartner.stras` |
 | `BR_NFPartnerCityName` | `NFPartner.ort01` |
 | `BR_NFPartnerRegionCode` | `NFPartner.regio` |
 | `BR_NFPartnerDistrictName` | `NFPartner.ort02` |
 | `BR_NFPartnerCountryCode` | `NFPartner.land1` |
 | `BR_NFPartnerPostalCode` | `NFPartner.pstlz` |
-| `logbr_indus1 preserving type)` | `cast(NFPartner.indust` |
+| `BR_NFPartnerCFOPCategory` | `cast(NFPartner.indust as logbr_indus1 preserving type)` |
 | `BR_NFPartnerIsNaturalPerson` | `NFPartner.stkzn` |
-| `cast(case` | `cast(case` |
-| `when NFPartner.cgc > '99999999999999'` | `when NFPartner.cgc > '99999999999999'` |
-| `then '00000000000000'` | `then '00000000000000'` |
-| `logbr_cnpj_numc )` | `else NFPartner.cgc end` |
-| `logbr_cnpj preserving type)` | `cast(NFPartner.cgc` |
-| `logbr_cpf preserving type)` | `cast(NFPartner.cpf` |
+| `BR_NFPartnerCNPJ` | `cast(…)` |
+| `BR_NFPartnerCNPJ_2` | `cast(NFPartner.cgc as logbr_cnpj preserving type)` |
+| `BR_NFPartnerCPF` | `cast(NFPartner.cpf as logbr_cpf preserving type)` |
 | `PhoneNumber` | `NFPartner.telf1` |
 | `BR_NFPartnerStateTaxNumber` | `NFPartner.stains` |
-| `logbr_munins preserving type)` | `cast(NFPartner.munins` |
-| `logbr_txjcd preserving type)` | `cast(NFPartner.txjcd` |
+| `BR_NFPartnerMunicipalTaxNumber` | `cast(NFPartner.munins as logbr_munins preserving type)` |
+| `TaxJurisdiction` | `cast(NFPartner.txjcd as logbr_txjcd preserving type)` |
 | `BR_CTeFiscalDocumentPartner` | `NFPartner.cte_partner` |
-| `logbr_part_role preserving type )` | `cast(NFPartner.partner_role` |
-| `case` | `case` |
-| `when _Supplier.IsBusinessPurposeCompleted = 'X' or` | `when _Supplier.IsBusinessPurposeCompleted = 'X' or` |
-| `_Customer.IsBusinessPurposeCompleted = 'X'` | *Association* |
-| `then 'X'` | `then 'X'` |
-| `else ''` | `else ''` |
-| `IsBusinessPurposeCompleted` | `end` |
+| `BR_NFPartnerPlaceType` | `cast(NFPartner.partner_role as logbr_part_role preserving type )` |
+| `IsBusinessPurposeCompleted` | `case…end` |
 | `_BR_NFPartnerType` | *Association* |
 | `_BR_PartnerPlaceType` | *Association* |
 | `_BR_CTeFiscalDocPartner` | *Association* |
-| `_CountryText.CountryShortName` | *Association* |
+| `CountryShortName` | `_CountryText.CountryShortName` |
 
 ## Associations
 

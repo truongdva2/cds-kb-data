@@ -11,6 +11,7 @@ tags:
   - CRM
   - component:CRM-S4-SOL-SLO
   - lob:Other
+  - bo:BusinessSolutionOrder
 ---
 # D_BUSSOLNORDERRORRESOLVED
 
@@ -27,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BusSolnOrdDescription : crmt_process_description;` | `BusSolnOrdDescription : crmt_process_description;` |
+| `BusSolnOrdDescription` | `crmt_process_description` |
 
 ## Associations
 

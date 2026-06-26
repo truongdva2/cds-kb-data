@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:TaxJurisdiction
 ---
 # I_TAXJURISDICTIONTEXT
 
@@ -34,10 +35,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TaxJurisdictionCalcProcedure` | `kalsm` |
-| `fis_txjcd )` | `cast( txjcd` |
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
+| `TaxJurisdiction` | `cast( txjcd as fis_txjcd )` |
 | `Language` | `spras` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
 | `TaxJurisdictionName` | `text1` |
 | `_TaxJurisCalcProcedure` | *Association* |
 | `_Language` | *Association* |

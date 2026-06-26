@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_Customer.Customer` | `I_Customer.Customer` |
+| `Customer` | `I_Customer.Customer` |
 | `PartnerCompany` | `I_Customer.TradingPartner` |
-| `I_Customer.AuthorizationGroup` | `I_Customer.AuthorizationGroup` |
+| `AuthorizationGroup` | `I_Customer.AuthorizationGroup` |
 
 ## Associations
 

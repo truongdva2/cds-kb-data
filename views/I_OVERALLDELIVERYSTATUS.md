@@ -16,6 +16,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocOverallDeliveryStatus
 ---
 # I_OVERALLDELIVERYSTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lfstk preserving type )` | `cast ( substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallDeliveryStatus` | `cast ( substring(dd07l.domvalue_l, 1, 1) as lfstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

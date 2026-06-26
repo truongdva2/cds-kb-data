@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scdst_kk preserving type )` | `cast( left( dd07t.domvalue_l ,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `scdst_text_kk preserving type )` | `cast( ddtext` |
+| `CADunningValuationStatus` | `cast( left( dd07t.domvalue_l ,1 ) as scdst_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADunningValuationStatusName` | `cast( ddtext as scdst_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

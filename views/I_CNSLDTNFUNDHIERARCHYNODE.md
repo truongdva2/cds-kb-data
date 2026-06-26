@@ -30,13 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'FinancialManagementArea', element: 'FinancialManagementArea', usage: #FILTER_AND_RESULT }]` | `localElement: 'FinancialManagementArea', element: 'FinancialManagementArea', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `fincs_fund preserving type )` | `cast (left(_HierarchyNode.UniversalHierarchyLeafValue, 10 )` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `FinancialManagementArea` | `cast(…)` |
+| `CnsldtnFundHierarchy` | `cast(_HierarchyNode.UniversalHierarchy as fincs_fundhierarchy preserving type )` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `Fund` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Fund` | *Association* |
 | `_Hierarchy` | *Association* |

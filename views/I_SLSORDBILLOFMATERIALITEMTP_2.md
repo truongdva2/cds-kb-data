@@ -35,13 +35,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialCategory` | `BillOfMaterialCategory` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
-| `key HeaderChangeDocument` | `HeaderChangeDocument` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
+| `HeaderChangeDocument` | `HeaderChangeDocument` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
 | `BillOfMaterialItemUUID` | `BillOfMaterialItemUUID` |
 | `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
 | `BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
@@ -131,7 +131,6 @@ tags:
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `SalesOrder` | `SalesOrder` |
 | `SalesOrderItem` | `SalesOrderItem` |
-| `_BillOfMaterial : redirected to parent I_SalesOrderBillOfMaterialTP_2` | *Association* |
 
 ## Associations
 

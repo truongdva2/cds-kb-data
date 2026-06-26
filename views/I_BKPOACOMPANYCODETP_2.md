@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
-| `key BkPOACompanyCodeUUID` | `BkPOACompanyCodeUUID` |
+| `BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
+| `BkPOACompanyCodeUUID` | `BkPOACompanyCodeUUID` |
 | `BkPOACompanyCode` | `BkPOACompanyCode` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_BankPowerOfAttorney: redirected to parent I_BankPowerOfAttorneyTP_2` | *Association* |
 | `_CompanyCode` | *Association* |
 
 ## Associations

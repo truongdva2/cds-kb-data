@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
-| `fmre_blart preserving type )` | `cast ( blart` |
+| `EarmarkedFundsDocumentCategory` | `bltyp` |
+| `EarmarkedFundsDocumentType` | `cast ( blart as fmre_blart preserving type )` |
 | `_EarmarkedFundsDocCategory` | *Association* |
 | `_Text` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_EarmarkedFundsDocCategory` | `I_EarmarkedFunds_DocCategory` | [0..1] |
+| `_Text` | `I_EarmarkedFunds_DocTypeText` | [0..*] |
 
 ## Source Code
 

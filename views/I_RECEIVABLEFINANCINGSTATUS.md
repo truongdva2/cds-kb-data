@@ -15,6 +15,7 @@ tags:
   - status
   - component:FI-AR-AR-RF-2CL
   - lob:Finance
+  - bo:ReceivableFinancingStatus
 ---
 # I_RECEIVABLEFINANCINGSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `frp_rcvbl_financing_status preserving type)` | `cast( left(dd07l.domvalue_l, 1)` |
+| `ReceivableFinancingStatus` | `cast( left(dd07l.domvalue_l, 1) as frp_rcvbl_financing_status preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

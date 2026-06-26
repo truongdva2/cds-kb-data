@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderProcgAction
 ---
 # I_PLANNEDORDERPROCGACTIONTEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_mdacs preserving type)` | `cast(txt.mdacs` |
+| `PlannedOrderProcgAction` | `cast(txt.mdacc as vdm_mdacc preserving type)` |
+| `Language` | `txt.spras` |
+| `PlannedOrderProcgActionName` | `cast(txt.mdacs as vdm_mdacs preserving type)` |
 | `_ProcgAction` | *Association* |
 | `_Language` | *Association* |
 

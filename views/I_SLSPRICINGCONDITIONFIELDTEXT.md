@@ -36,8 +36,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd04t.ddlanguage` |
-| `kvewe )` | `cast ( 'A'` |
-| `kappl )` | `cast ( 'V'` |
+| `ConditionUsage` | `cast ( 'A' as kvewe )` |
+| `ConditionApplication` | `cast ( 'V' as kappl )` |
 | `PricingConditionField` | `dd03l.fieldname` |
 | `DatabaseTable` | `dd03l.tabname` |
 | `PricingConditionFieldText` | `dd04t.scrtext_l` |

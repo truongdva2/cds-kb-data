@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:FromGLAccount
 ---
 # I_JVACTBCKACCTMAPPGINTER
 
@@ -29,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckAcctMappgInterBsc.CompanyCode` | `JVACtbckAcctMappgInterBsc.CompanyCode` |
-| `key JVACtbckAcctMappgInterBsc.JntVntrIntcoCode` | `JVACtbckAcctMappgInterBsc.JntVntrIntcoCode` |
-| `key JVACtbckAcctMappgInterBsc.FromGLAccount` | `JVACtbckAcctMappgInterBsc.FromGLAccount` |
-| `JVACtbckAcctMappgInterBsc.ToGLAccount` | `JVACtbckAcctMappgInterBsc.ToGLAccount` |
-| `JVACtbckAcctMappgInterBsc.CutbackAccount` | `JVACtbckAcctMappgInterBsc.CutbackAccount` |
-| `JVACtbckAcctMappgInterBsc.JVAIsToKeepOriginalAccount` | `JVACtbckAcctMappgInterBsc.JVAIsToKeepOriginalAccount` |
+| `CompanyCode` | `JVACtbckAcctMappgInterBsc.CompanyCode` |
+| `JntVntrIntcoCode` | `JVACtbckAcctMappgInterBsc.JntVntrIntcoCode` |
+| `FromGLAccount` | `JVACtbckAcctMappgInterBsc.FromGLAccount` |
+| `ToGLAccount` | `JVACtbckAcctMappgInterBsc.ToGLAccount` |
+| `CutbackAccount` | `JVACtbckAcctMappgInterBsc.CutbackAccount` |
+| `JVAIsToKeepOriginalAccount` | `JVACtbckAcctMappgInterBsc.JVAIsToKeepOriginalAccount` |
 | `_CompanyCode` | *Association* |
 | `_InterCompanyCompanyCode` | *Association* |
 | `_FromGLAccount` | *Association* |

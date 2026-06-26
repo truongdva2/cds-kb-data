@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERY
 description: Outbound Delivery
+semantic_en: "Outbound delivery header — document for shipping goods to a customer, covering picking, packing and goods issue."
+semantic_vi: "Tiêu đề phiếu giao hàng đi — chứng từ xuất giao hàng cho khách, gồm soạn hàng, đóng gói và xuất kho."
+keywords:
+  - phiếu giao hàng
+  - giao hàng đi
+  - xuất kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released
@@ -15,6 +21,7 @@ tags:
   - delivery
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # I_OUTBOUNDDELIVERY
 
@@ -31,7 +38,74 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } } ]` | `name: 'I_Customer_VH', element: 'Customer' } } ]` |
+| `OutboundDelivery` | `cast(DeliveryDocument as outbound_delivery)` |
+| `DeliveryDocument` | `DeliveryDocument` |
+| `DeliveryDocumentType` | `DeliveryDocumentType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `ShippingPoint` | `ShippingPoint` |
+| `SalesOrganization` | `SalesOrganization` |
+| `SalesOffice` | `SalesOffice` |
+| `CompleteDeliveryIsDefined` | `CompleteDeliveryIsDefined` |
+| `OrderCombinationIsAllowed` | `OrderCombinationIsAllowed` |
+| `DeliveryPriority` | `DeliveryPriority` |
+| `DeliveryBlockReason` | `DeliveryBlockReason` |
+| `Supplier` | `Supplier` |
+| `DeliveryDocumentBySupplier` | `DeliveryDocumentBySupplier` |
+| `DeliveryIsInPlant` | `DeliveryIsInPlant` |
+| `ReceivingPlant` | `ReceivingPlant` |
+| `Warehouse` | `Warehouse` |
+| `IsExportDelivery` | `IsExportDelivery` |
+| `OrderID` | `OrderID` |
+| `HeaderGrossWeight` | `HeaderGrossWeight` |
+| `HeaderNetWeight` | `HeaderNetWeight` |
+| `HeaderWeightUnit` | `HeaderWeightUnit` |
+| `HeaderVolume` | `HeaderVolume` |
+| `HeaderVolumeUnit` | `HeaderVolumeUnit` |
+| `DocumentDate` | `DocumentDate` |
+| `ReadyForWarehouseExecStatus` | `ReadyForWarehouseExecStatus` |
+| `DelivAdvncdShipgRcvgRlvnce` | `DelivAdvncdShipgRcvgRlvnce` |
+| `PickingDate` | `PickingDate` |
+| `PickingTime` | `PickingTime` |
+| `TotalNumberOfPackage` | `TotalNumberOfPackage` |
+| `LoadingPoint` | `LoadingPoint` |
+| `LoadingDate` | `LoadingDate` |
+| `LoadingTime` | `LoadingTime` |
+| `BillOfLading` | `BillOfLading` |
+| `HandlingUnitInStock` | `HandlingUnitInStock` |
+| `ShipToParty` | `ShipToParty` |
+| `ShippingType` | `ShippingType` |
+| `DeliveryDate` | `DeliveryDate` |
+| `DeliveryTime` | `DeliveryTime` |
+| `ShippingCondition` | `ShippingCondition` |
+| `ShipmentBlockReason` | `ShipmentBlockReason` |
+| `TransportationPlanningDate` | `TransportationPlanningDate` |
+| `TransportationPlanningTime` | `TransportationPlanningTime` |
+| `ProposedDeliveryRoute` | `ProposedDeliveryRoute` |
+| `ActualDeliveryRoute` | `ActualDeliveryRoute` |
+| `RouteSchedule` | `RouteSchedule` |
+| `PlannedGoodsIssueDate` | `PlannedGoodsIssueDate` |
+| `GoodsIssueTime` | `GoodsIssueTime` |
+| `ActualGoodsMovementDate` | `ActualGoodsMovementDate` |
+| `ActualGoodsMovementTime` | `ActualGoodsMovementTime` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `ExternalTransportSystem` | `ExternalTransportSystem` |
+| `TransportationGroup` | `TransportationGroup` |
+| `MeansOfTransport` | `MeansOfTransport` |
+| `MeansOfTransportType` | `MeansOfTransportType` |
+| `UnloadingPointName` | `UnloadingPointName` |
+| `ProofOfDeliveryDate` | `ProofOfDeliveryDate` |
+| `ConfirmationTime` | `ConfirmationTime` |
+| `FactoryCalendarByCustomer` | `FactoryCalendarByCustomer` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |
 | `SoldToParty` | `SoldToParty` |
 | `CustomerGroup` | `CustomerGroup` |
 | `SalesDistrict` | `SalesDistrict` |

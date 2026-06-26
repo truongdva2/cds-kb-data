@@ -30,12 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocParCatUUID` | `LglCntntMDocParCatUUID` |
+| `LglCntntMDocParCatUUID` | `LglCntntMDocParCatUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMParentCategory` | `LglCntntMParentCategory` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document         : redirected to parent I_LegalDocumentTP` | *Association* |
-| `_LegalDocCategory : redirected to composition child I_LegalDocCategoryTP` | *Association* |
 
 ## Associations
 

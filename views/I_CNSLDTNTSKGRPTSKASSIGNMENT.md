@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_taskgroup preserving type )` | `cast( acgr` |
-| `fincs_tsk preserving type )` | `cast( cacti` |
-| `fincs_task_blockauto preserving type )` | `cast( lockind` |
-| `fincs_task_milestone preserving type )` | `cast( mstoneind` |
-| `fincs_task_sequence preserving type )` | `cast( seqnr` |
+| `ConsolidationTaskGroup` | `cast( acgr as fincs_taskgroup preserving type )` |
+| `ConsolidationTask` | `cast( cacti as fincs_tsk preserving type )` |
+| `CnsldtnTskIsBlkdAutomatically` | `cast( lockind as fincs_task_blockauto preserving type )` |
+| `ConsolidationTaskIsMilestone` | `cast( mstoneind as fincs_task_milestone preserving type )` |
+| `ConsolidationTaskSequenceValue` | `cast( seqnr as fincs_task_sequence preserving type )` |
 | `_CnsldtnTaskGroup` | *Association* |
 | `_CnsldtnTask` | *Association* |
 

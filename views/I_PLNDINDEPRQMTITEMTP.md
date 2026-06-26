@@ -32,15 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key MRPArea` | `MRPArea` |
-| `key PlndIndepRqmtType` | `PlndIndepRqmtType` |
-| `key PlndIndepRqmtVersion` | `PlndIndepRqmtVersion` |
-| `key RequirementPlan` | `RequirementPlan` |
-| `key RequirementSegment` | `RequirementSegment` |
-| `key PlndIndepRqmtPeriod` | `PlndIndepRqmtPeriod` |
-| `key PeriodType` | `PeriodType` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `MRPArea` | `MRPArea` |
+| `PlndIndepRqmtType` | `PlndIndepRqmtType` |
+| `PlndIndepRqmtVersion` | `PlndIndepRqmtVersion` |
+| `RequirementPlan` | `RequirementPlan` |
+| `RequirementSegment` | `RequirementSegment` |
+| `PlndIndepRqmtPeriod` | `PlndIndepRqmtPeriod` |
+| `PeriodType` | `PeriodType` |
 | `PlndIndepRqmtPeriodStartDate` | `PlndIndepRqmtPeriodStartDate` |
 | `PlndIndepRqmtInternalID` | `PlndIndepRqmtInternalID` |
 | `WorkingDayDate` | `WorkingDayDate` |
@@ -50,7 +50,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `PlndIndepRqmtLastChgdDateTime` | `PlndIndepRqmtLastChgdDateTime` |
-| `_PlndIndepRqmt : redirected to parent I_PlndIndepRqmtTP` | *Association* |
 
 ## Associations
 

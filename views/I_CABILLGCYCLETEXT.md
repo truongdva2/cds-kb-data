@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgCycle` | `_tfk2607t.cycle` |
 | `Language` | `_tfk2607t.langu` |
-| `_tfk2607t.text  as CABillgCycleText` | *Association* |
+| `CABillgCycleText` | `_tfk2607t.text` |
 | `_CABillgCycle` | *Association* |
 | `_Language` | *Association* |
 

@@ -33,18 +33,11 @@ tags:
 | `SelectedCodeSetPlant` | `qpam.werks` |
 | `InspectionCatalog` | `qpam.katalogart` |
 | `SelectedCodeSet` | `qpam.auswahlmge` |
-| `case when qpamtxt.language is not null` | `case when qpamtxt.language is not null` |
-| `then qpamtxt.language` | `then qpamtxt.language` |
-| `spras preserving type ) // qpam.ksp01` | `else cast( $session.system_language` |
-| `Language` | `end` |
-| `case when qpamtxt.language is not null` | `case when qpamtxt.language is not null` |
-| `vdm_qktextam preserving type )` | `then cast( qpamtxt.ktx01` |
-| `vdm_qktextam preserving type )` | `else cast( qpam.ktx01` |
-| `SelectedCodeSetText` | `end` |
+| `Language` | `case…end` |
+| `SelectedCodeSetText` | `case…end` |
 | `InspectionSelectedSetStatus` | `qpam.status` |
 | `SelectedCodeSetDfltCodeGroup` | `qpam.defaultcodegr` |
 | `SelectedCodeSetDefaultCode` | `qpam.defaultcode` |
-| `/* Associations */` | `/* Associations */` |
 | `_SelectedCodeSetPlant` | *Association* |
 | `_InspectionCatalog` | *Association* |
 | `_InspectionSelectedSetText` | *Association* |

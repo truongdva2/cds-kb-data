@@ -14,6 +14,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderActionControl
 ---
 # I_PLANNEDORDERACTIONCONTROL
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `PlannedOrderActionControl` | `mdach` |
 
 ## Associations

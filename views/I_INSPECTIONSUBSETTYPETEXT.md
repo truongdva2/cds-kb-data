@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qppkttyp preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspectionSubsetType` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qppkttyp preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qppkttyp_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `InspectionSubsetTypeText` | `cast( ddtext as vdm_qppkttyp_text preserving type )` |
 | `_InspectionSubsetType` | *Association* |
 | `_Language` | *Association* |
 

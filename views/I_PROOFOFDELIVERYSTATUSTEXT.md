@@ -18,6 +18,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ProofOfDeliveryStatus
 ---
 # I_PROOFOFDELIVERYSTATUSTEXT
 
@@ -42,7 +43,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProofOfDeliveryStatus` | `I_ProofOfDeliveryStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -31,146 +31,102 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key valid_items.BillOfMaterialCategory` | `valid_items.BillOfMaterialCategory` |
+| `BillOfMaterialCategory` | `valid_items.BillOfMaterialCategory` |
 | `BillOfMaterial` | `valid_items.BillOfMaterial` |
-| `key valid_items.BillOfMaterialVariant` | `valid_items.BillOfMaterialVariant` |
-| `key valid_items.BillOfMaterialItemNodeNumber` | `valid_items.BillOfMaterialItemNodeNumber` |
-| `key valid_items.BillOfMaterialVersion` | `valid_items.BillOfMaterialVersion` |
-| `key valid_items.BOMItemInternalChangeCount` | `valid_items.BOMItemInternalChangeCount` |
-| `valid_items.ValidityStartDate` | `valid_items.ValidityStartDate` |
-| `valid_items.ValidityEndDate` | `valid_items.ValidityEndDate` |
+| `BillOfMaterialVariant` | `valid_items.BillOfMaterialVariant` |
+| `BillOfMaterialItemNodeNumber` | `valid_items.BillOfMaterialItemNodeNumber` |
+| `BillOfMaterialVersion` | `valid_items.BillOfMaterialVersion` |
+| `BOMItemInternalChangeCount` | `valid_items.BOMItemInternalChangeCount` |
+| `ValidityStartDate` | `valid_items.ValidityStartDate` |
+| `ValidityEndDate` | `valid_items.ValidityEndDate` |
 | `EngineeringChangeDocument` | `valid_items.EngineeringChangeDocument` |
-| `aenra preserving type )` | `cast( valid_items.ChgToEngineeringChgDocument` |
-| `valid_items.InheritedNodeNumberForBOMItem` | `valid_items.InheritedNodeNumberForBOMItem` |
-| `valid_items.InheritedNodeNumberVersionBOM` | `valid_items.InheritedNodeNumberVersionBOM` |
-| `valid_items.BOMItemRecordCreationDate` | `valid_items.BOMItemRecordCreationDate` |
-| `valid_items.BOMItemCreatedByUser` | `valid_items.BOMItemCreatedByUser` |
-| `valid_items.BOMItemLastChangeDate` | `valid_items.BOMItemLastChangeDate` |
-| `valid_items.BOMItemLastChangedByUser` | `valid_items.BOMItemLastChangedByUser` |
-| `valid_items.BillOfMaterialComponent` | `valid_items.BillOfMaterialComponent` |
-| `valid_items.BillOfMaterialItemCategory` | `valid_items.BillOfMaterialItemCategory` |
+| `ChgToEngineeringChgDocument` | `cast( valid_items.ChgToEngineeringChgDocument as aenra preserving type )` |
+| `InheritedNodeNumberForBOMItem` | `valid_items.InheritedNodeNumberForBOMItem` |
+| `InheritedNodeNumberVersionBOM` | `valid_items.InheritedNodeNumberVersionBOM` |
+| `BOMItemRecordCreationDate` | `valid_items.BOMItemRecordCreationDate` |
+| `BOMItemCreatedByUser` | `valid_items.BOMItemCreatedByUser` |
+| `BOMItemLastChangeDate` | `valid_items.BOMItemLastChangeDate` |
+| `BOMItemLastChangedByUser` | `valid_items.BOMItemLastChangedByUser` |
+| `BillOfMaterialComponent` | `valid_items.BillOfMaterialComponent` |
+| `BillOfMaterialItemCategory` | `valid_items.BillOfMaterialItemCategory` |
 | `BillOfMaterialItemNumber` | `valid_items.BillOfMaterialItemNumber` |
-| `case when _BOMItemCategory.FixedItemCategory = 'R'` | `case when _BOMItemCategory.FixedItemCategory = 'R'` |
-| `then UnitOfMeasureForVarSizeItem` | `then UnitOfMeasureForVarSizeItem` |
-| `else valid_items.BillOfMaterialItemUnit` | `else valid_items.BillOfMaterialItemUnit` |
-| `BillOfMaterialItemUnit` | `end` |
-| `case when _BOMItemCategory.FixedItemCategory = 'R'` | `case when _BOMItemCategory.FixedItemCategory = 'R'` |
-| `then NumberOfVariableSizeItem` | `then NumberOfVariableSizeItem` |
-| `else valid_items.BillOfMaterialItemQuantity` | `else valid_items.BillOfMaterialItemQuantity` |
-| `BillOfMaterialItemQuantity` | `end` |
-| `stlkz preserving type )` | `cast( valid_items.IsAssembly` |
-| `valid_items.IsSubItem` | `valid_items.IsSubItem` |
-| `valid_items.BOMItemSorter` | `valid_items.BOMItemSorter` |
-| `valid_items.FixedQuantity` | `valid_items.FixedQuantity` |
-| `valid_items.BOMItemHasFixedQuantity` | `valid_items.BOMItemHasFixedQuantity` |
-| `valid_items.PurchasingGroup` | `valid_items.PurchasingGroup` |
-| `valid_items.Currency` | `valid_items.Currency` |
-| `valid_items.MaterialComponentPrice` | `valid_items.MaterialComponentPrice` |
-| `valid_items.IdentifierBOMItem` | `valid_items.IdentifierBOMItem` |
-| `valid_items.MaterialPriceUnitQty` | `valid_items.MaterialPriceUnitQty` |
-| `valid_items.ComponentScrapInPercent` | `valid_items.ComponentScrapInPercent` |
-| `valid_items.OperationScrapInPercent` | `valid_items.OperationScrapInPercent` |
-| `valid_items.IsNetScrap` | `valid_items.IsNetScrap` |
-| `valid_items.NumberOfVariableSizeItem` | `valid_items.NumberOfVariableSizeItem` |
-| `valid_items.QuantityVariableSizeItem` | `valid_items.QuantityVariableSizeItem` |
-| `valid_items.FormulaKey` | `valid_items.FormulaKey` |
-| `case` | `case` |
-| `when _BOMItemCategory.FixedItemCategory = 'L' or _BOMItemCategory.FixedItemCategory = 'C'` | `when _BOMItemCategory.FixedItemCategory = 'L' or _BOMItemCategory.FixedItemCategory = 'C'` |
-| `then` | `then` |
-| `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` | `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` |
-| `then _MaterialText.MaterialName` | `then _MaterialText.MaterialName` |
-| `else _MaterialTextEN.MaterialName` | `else _MaterialTextEN.MaterialName` |
-| `end` | `end` |
-| `when _BOMItemCategory.FixedItemCategory = 'T'` | `when _BOMItemCategory.FixedItemCategory = 'T'` |
-| `then valid_items.BOMItemDescription` | `then valid_items.BOMItemDescription` |
-| `when _BOMItemCategory.FixedItemCategory = 'R' and  (valid_items.BillOfMaterialComponent is not null)` | `when _BOMItemCategory.FixedItemCategory = 'R' and  (valid_items.BillOfMaterialComponent is not null)` |
-| `then` | `then` |
-| `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` | `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` |
-| `then _MaterialText.MaterialName` | `then _MaterialText.MaterialName` |
-| `else _MaterialTextEN.MaterialName` | `else _MaterialTextEN.MaterialName` |
-| `end` | `end` |
-| `when _BOMItemCategory.FixedItemCategory = 'R' and  (valid_items.BillOfMaterialComponent = '')` | `when _BOMItemCategory.FixedItemCategory = 'R' and  (valid_items.BillOfMaterialComponent = '')` |
-| `then valid_items.BOMItemDescription` | `then valid_items.BOMItemDescription` |
-| `when _BOMItemCategory.FixedItemCategory = 'D'` | `when _BOMItemCategory.FixedItemCategory = 'D'` |
-| `then` | `then` |
-| `case when _DocumentText.DocumentDescription is not null or _DocumentText.DocumentDescription <> ''` | `case when _DocumentText.DocumentDescription is not null or _DocumentText.DocumentDescription <> ''` |
-| `then _DocumentText.DocumentDescription` | `then _DocumentText.DocumentDescription` |
-| `else _DocumentTextEN.DocumentDescription` | `else _DocumentTextEN.DocumentDescription` |
-| `end` | `end` |
-| `when _BOMItemCategory.FixedItemCategory = 'K'` | `when _BOMItemCategory.FixedItemCategory = 'K'` |
-| `then` | `then` |
-| `case when _Class._ClassDescription[1:Language = $session.system_language].ClassDescription is not null` | `case when _Class._ClassDescription[1:Language = $session.system_language].ClassDescription is not null` |
-| `or _Class._ClassDescription[1:Language = $session.system_language].ClassDescription <> ''` | `or _Class._ClassDescription[1:Language = $session.system_language].ClassDescription <> ''` |
-| `then _Class._ClassDescription[1:Language = $session.system_language].ClassDescription` | `then _Class._ClassDescription[1:Language = $session.system_language].ClassDescription` |
-| `else _Class._ClassDescription[1:Language = 'E'].ClassDescription` | `else _Class._ClassDescription[1:Language = 'E'].ClassDescription` |
-| `end` | `end` |
-| `when _BOMItemCategory.FixedItemCategory = 'N' and (valid_items.BillOfMaterialComponent <> '')` | `when _BOMItemCategory.FixedItemCategory = 'N' and (valid_items.BillOfMaterialComponent <> '')` |
-| `then` | `then` |
-| `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` | `case when _MaterialText.MaterialName is not null or _MaterialText.MaterialName <> ''` |
-| `then _MaterialText.MaterialName` | `then _MaterialText.MaterialName` |
-| `else _MaterialTextEN.MaterialName` | `else _MaterialTextEN.MaterialName` |
-| `end` | `end` |
-| `when _BOMItemCategory.FixedItemCategory = 'N' and  (valid_items.BillOfMaterialComponent = '')` | `when _BOMItemCategory.FixedItemCategory = 'N' and  (valid_items.BillOfMaterialComponent = '')` |
-| `then valid_items.BOMItemDescription` | `then valid_items.BOMItemDescription` |
-| `ComponentDescription` | `end` |
-| `valid_items.BOMItemDescription` | `valid_items.BOMItemDescription` |
-| `valid_items.BOMItemText2` | `valid_items.BOMItemText2` |
-| `valid_items.MaterialGroup` | `valid_items.MaterialGroup` |
-| `valid_items.DocumentType` | `valid_items.DocumentType` |
-| `valid_items.DocNumber` | `valid_items.DocNumber` |
-| `valid_items.DocumentVersion` | `valid_items.DocumentVersion` |
-| `valid_items.DocumentPart` | `valid_items.DocumentPart` |
-| `valid_items.ClassNumber` | `valid_items.ClassNumber` |
-| `valid_items.ClassType` | `valid_items.ClassType` |
-| `valid_items.ResultingItemCategory` | `valid_items.ResultingItemCategory` |
-| `valid_items.DependencyObjectNumber` | `valid_items.DependencyObjectNumber` |
-| `valid_items.ObjectType` | `valid_items.ObjectType` |
-| `valid_items.IsClassificationRelevant` | `valid_items.IsClassificationRelevant` |
-| `valid_items.IsBulkMaterial` | `valid_items.IsBulkMaterial` |
-| `valid_items.BOMItemIsSparePart` | `valid_items.BOMItemIsSparePart` |
-| `valid_items.BOMItemIsSalesRelevant` | `valid_items.BOMItemIsSalesRelevant` |
-| `valid_items.IsProductionRelevant` | `valid_items.IsProductionRelevant` |
-| `valid_items.BOMItemIsPlantMaintRelevant` | `valid_items.BOMItemIsPlantMaintRelevant` |
-| `valid_items.BOMItemIsCostingRelevant` | `valid_items.BOMItemIsCostingRelevant` |
-| `valid_items.IsEngineeringRelevant` | `valid_items.IsEngineeringRelevant` |
-| `valid_items.SpecialProcurementType` | `valid_items.SpecialProcurementType` |
-| `valid_items.IsBOMRecursiveAllowed` | `valid_items.IsBOMRecursiveAllowed` |
-| `valid_items.OperationLeadTimeOffset` | `valid_items.OperationLeadTimeOffset` |
-| `valid_items.OpsLeadTimeOffsetUnit` | `valid_items.OpsLeadTimeOffsetUnit` |
-| `valid_items.IsMaterialProvision` | `valid_items.IsMaterialProvision` |
-| `valid_items.BOMIsRecursive` | `valid_items.BOMIsRecursive` |
-| `valid_items.DocumentIsCreatedByCAD` | `valid_items.DocumentIsCreatedByCAD` |
-| `valid_items.DistrKeyCompConsumption` | `valid_items.DistrKeyCompConsumption` |
-| `valid_items.DeliveryDurationInDays` | `valid_items.DeliveryDurationInDays` |
-| `valid_items.Creditor` | `valid_items.Creditor` |
-| `valid_items.CostElement` | `valid_items.CostElement` |
-| `valid_items.Size1` | `valid_items.Size1` |
-| `valid_items.Size2` | `valid_items.Size2` |
-| `valid_items.Size3` | `valid_items.Size3` |
-| `valid_items.UnitOfMeasureForSize1To3` | `valid_items.UnitOfMeasureForSize1To3` |
-| `valid_items.GoodsReceiptDuration` | `valid_items.GoodsReceiptDuration` |
-| `valid_items.PurchasingOrganization` | `valid_items.PurchasingOrganization` |
-| `valid_items.RequiredComponent` | `valid_items.RequiredComponent` |
-| `valid_items.MultipleSelectionAllowed` | `valid_items.MultipleSelectionAllowed` |
-| `valid_items.ProdOrderIssueLocation` | `valid_items.ProdOrderIssueLocation` |
-| `valid_items.MaterialIsCoProduct` | `valid_items.MaterialIsCoProduct` |
-| `valid_items.ExplosionType` | `valid_items.ExplosionType` |
-| `valid_items.FollowUpGroup` | `valid_items.FollowUpGroup` |
-| `valid_items.DiscontinuationGroup` | `valid_items.DiscontinuationGroup` |
-| `valid_items.IsConfigurableBOM` | `valid_items.IsConfigurableBOM` |
-| `valid_items.ReferencePoint` | `valid_items.ReferencePoint` |
-| `valid_items.LeadTimeOffset` | `valid_items.LeadTimeOffset` |
-| `valid_items.IsSoftwareComponent` | `valid_items.IsSoftwareComponent` |
-| `valid_items.ProductionSupplyArea` | `valid_items.ProductionSupplyArea` |
-| `valid_items.IsDeleted` | `valid_items.IsDeleted` |
-| `valid_items.IsALE` | `valid_items.IsALE` |
-| `valid_items.AlternativeItemGroup` | `valid_items.AlternativeItemGroup` |
-| `valid_items.AlternativeItemPriority` | `valid_items.AlternativeItemPriority` |
-| `valid_items.AlternativeItemStrategy` | `valid_items.AlternativeItemStrategy` |
-| `valid_items.UsageProbabilityPercent` | `valid_items.UsageProbabilityPercent` |
-| `_BOMItemCategoryText.BillOfMaterialItemCategoryDesc as BillOfMaterialItemCategoryDesc` | *Association* |
-| `dumps preserving type )` | `cast ( valid_items.IsPhantomItem` |
-| `dumps preserving type )` | `cast ( valid_items.IsPhantomItem` |
+| `BillOfMaterialItemUnit` | `case…end` |
+| `BillOfMaterialItemQuantity` | `case…end` |
+| `IsAssembly` | `cast( valid_items.IsAssembly as stlkz preserving type )` |
+| `IsSubItem` | `valid_items.IsSubItem` |
+| `BOMItemSorter` | `valid_items.BOMItemSorter` |
+| `FixedQuantity` | `valid_items.FixedQuantity` |
+| `BOMItemHasFixedQuantity` | `valid_items.BOMItemHasFixedQuantity` |
+| `PurchasingGroup` | `valid_items.PurchasingGroup` |
+| `Currency` | `valid_items.Currency` |
+| `MaterialComponentPrice` | `valid_items.MaterialComponentPrice` |
+| `IdentifierBOMItem` | `valid_items.IdentifierBOMItem` |
+| `MaterialPriceUnitQty` | `valid_items.MaterialPriceUnitQty` |
+| `ComponentScrapInPercent` | `valid_items.ComponentScrapInPercent` |
+| `OperationScrapInPercent` | `valid_items.OperationScrapInPercent` |
+| `IsNetScrap` | `valid_items.IsNetScrap` |
+| `NumberOfVariableSizeItem` | `valid_items.NumberOfVariableSizeItem` |
+| `QuantityVariableSizeItem` | `valid_items.QuantityVariableSizeItem` |
+| `FormulaKey` | `valid_items.FormulaKey` |
+| `ComponentDescription` | `case…end` |
+| `BOMItemDescription` | `valid_items.BOMItemDescription` |
+| `BOMItemText2` | `valid_items.BOMItemText2` |
+| `MaterialGroup` | `valid_items.MaterialGroup` |
+| `DocumentType` | `valid_items.DocumentType` |
+| `DocNumber` | `valid_items.DocNumber` |
+| `DocumentVersion` | `valid_items.DocumentVersion` |
+| `DocumentPart` | `valid_items.DocumentPart` |
+| `ClassNumber` | `valid_items.ClassNumber` |
+| `ClassType` | `valid_items.ClassType` |
+| `ResultingItemCategory` | `valid_items.ResultingItemCategory` |
+| `DependencyObjectNumber` | `valid_items.DependencyObjectNumber` |
+| `ObjectType` | `valid_items.ObjectType` |
+| `IsClassificationRelevant` | `valid_items.IsClassificationRelevant` |
+| `IsBulkMaterial` | `valid_items.IsBulkMaterial` |
+| `BOMItemIsSparePart` | `valid_items.BOMItemIsSparePart` |
+| `BOMItemIsSalesRelevant` | `valid_items.BOMItemIsSalesRelevant` |
+| `IsProductionRelevant` | `valid_items.IsProductionRelevant` |
+| `BOMItemIsPlantMaintRelevant` | `valid_items.BOMItemIsPlantMaintRelevant` |
+| `BOMItemIsCostingRelevant` | `valid_items.BOMItemIsCostingRelevant` |
+| `IsEngineeringRelevant` | `valid_items.IsEngineeringRelevant` |
+| `SpecialProcurementType` | `valid_items.SpecialProcurementType` |
+| `IsBOMRecursiveAllowed` | `valid_items.IsBOMRecursiveAllowed` |
+| `OperationLeadTimeOffset` | `valid_items.OperationLeadTimeOffset` |
+| `OpsLeadTimeOffsetUnit` | `valid_items.OpsLeadTimeOffsetUnit` |
+| `IsMaterialProvision` | `valid_items.IsMaterialProvision` |
+| `BOMIsRecursive` | `valid_items.BOMIsRecursive` |
+| `DocumentIsCreatedByCAD` | `valid_items.DocumentIsCreatedByCAD` |
+| `DistrKeyCompConsumption` | `valid_items.DistrKeyCompConsumption` |
+| `DeliveryDurationInDays` | `valid_items.DeliveryDurationInDays` |
+| `Creditor` | `valid_items.Creditor` |
+| `CostElement` | `valid_items.CostElement` |
+| `Size1` | `valid_items.Size1` |
+| `Size2` | `valid_items.Size2` |
+| `Size3` | `valid_items.Size3` |
+| `UnitOfMeasureForSize1To3` | `valid_items.UnitOfMeasureForSize1To3` |
+| `GoodsReceiptDuration` | `valid_items.GoodsReceiptDuration` |
+| `PurchasingOrganization` | `valid_items.PurchasingOrganization` |
+| `RequiredComponent` | `valid_items.RequiredComponent` |
+| `MultipleSelectionAllowed` | `valid_items.MultipleSelectionAllowed` |
+| `ProdOrderIssueLocation` | `valid_items.ProdOrderIssueLocation` |
+| `MaterialIsCoProduct` | `valid_items.MaterialIsCoProduct` |
+| `ExplosionType` | `valid_items.ExplosionType` |
+| `FollowUpGroup` | `valid_items.FollowUpGroup` |
+| `DiscontinuationGroup` | `valid_items.DiscontinuationGroup` |
+| `IsConfigurableBOM` | `valid_items.IsConfigurableBOM` |
+| `ReferencePoint` | `valid_items.ReferencePoint` |
+| `LeadTimeOffset` | `valid_items.LeadTimeOffset` |
+| `IsSoftwareComponent` | `valid_items.IsSoftwareComponent` |
+| `ProductionSupplyArea` | `valid_items.ProductionSupplyArea` |
+| `IsDeleted` | `valid_items.IsDeleted` |
+| `IsALE` | `valid_items.IsALE` |
+| `AlternativeItemGroup` | `valid_items.AlternativeItemGroup` |
+| `AlternativeItemPriority` | `valid_items.AlternativeItemPriority` |
+| `AlternativeItemStrategy` | `valid_items.AlternativeItemStrategy` |
+| `UsageProbabilityPercent` | `valid_items.UsageProbabilityPercent` |
+| `BillOfMaterialItemCategoryDesc` | `_BOMItemCategoryText.BillOfMaterialItemCategoryDesc` |
+| `MaterialComponentIsPhantomItem` | `cast ( valid_items.IsPhantomItem as dumps preserving type )` |
+| `IsPhantomItem` | `cast ( valid_items.IsPhantomItem as dumps preserving type )` |
 | `LastChangeDateTime` | `valid_items.LastChangeDateTime` |
 | `_BOMItemCategory` | *Association* |
 | `_UnitOfMeasure` | *Association* |

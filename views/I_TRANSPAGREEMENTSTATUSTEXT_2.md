@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_root_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationAgreementStatus` | `cast(substring(domvalue_l, 1, 2) as /scmtms/vdm_fag_root_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_fag_status_desc preserving type )` | `cast(ddtext` |
+| `TranspAgreementStatusText` | `cast(ddtext as /scmtms/vdm_fag_status_desc preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspAgreementStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspAgreementStatus` | `I_TranspAgreementStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

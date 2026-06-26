@@ -29,7 +29,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `TimeSheetTaskType` | `tasktype` |
 | `TimeSheetTaskTypeRelevanceCode` | `tasktype_relevance` |
 | `_TimeSheetTaskTypeText` | *Association* |

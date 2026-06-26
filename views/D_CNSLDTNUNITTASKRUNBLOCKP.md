@@ -29,13 +29,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConsolidationChartOfAccounts          : fincs_conschartofaccounts;` | `ConsolidationChartOfAccounts          : fincs_conschartofaccounts;` |
-| `ConsolidationVersion                  : fincs_consolidationversion;` | `ConsolidationVersion                  : fincs_consolidationversion;` |
-| `FiscalYear                            : fincs_fiscalyear;` | `FiscalYear                            : fincs_fiscalyear;` |
-| `FiscalPeriod                          : fincs_period;` | `FiscalPeriod                          : fincs_period;` |
-| `ConsolidationTask                     : fincs_tsk;` | `ConsolidationTask                     : fincs_tsk;` |
-| `ConsolidationUnit                     : fincs_consolidationunit;` | `ConsolidationUnit                     : fincs_consolidationunit;` |
-| `CnsldtnTskRunIsBlkdUponUsrReq         : fincs_taskrun_blockbyuser;` | `CnsldtnTskRunIsBlkdUponUsrReq         : fincs_taskrun_blockbyuser;` |
+| `ConsolidationChartOfAccounts` | `fincs_conschartofaccounts` |
+| `ConsolidationVersion` | `fincs_consolidationversion` |
+| `FiscalYear` | `fincs_fiscalyear` |
+| `FiscalPeriod` | `fincs_period` |
+| `ConsolidationTask` | `fincs_tsk` |
+| `ConsolidationUnit` | `fincs_consolidationunit` |
+| `CnsldtnTskRunIsBlkdUponUsrReq` | `fincs_taskrun_blockbyuser` |
 
 ## Associations
 

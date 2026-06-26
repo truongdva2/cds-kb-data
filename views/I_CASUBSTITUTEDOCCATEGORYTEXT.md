@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abwtp_kk preserving type )` | `cast( left( domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `abwtp_text_kk preserving type )` | `cast( ddtext` |
+| `CASubstituteDocumentCategory` | `cast( left( domvalue_l,1 ) as abwtp_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CASubstituteDocCategoryName` | `cast( ddtext as abwtp_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

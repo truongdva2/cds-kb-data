@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScp2CntrctlInstrumentText
 ---
 # I_GHGSCP2CNTRCTLINSTRTEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( sufndd_ghg_s2cit.langu` |
+| `Language` | `cast( sufndd_ghg_s2cit.langu as spras preserving type )` |
 | `GHGScope2ContractualInstrument` | `sufndd_ghg_s2cit.code` |
-| `sufnd_vdm_ghgscp2contrinstrnam preserving type )` | `cast( sufndd_ghg_s2cit.name` |
+| `GHGScp2CntrctlInstrName` | `cast( sufndd_ghg_s2cit.name as sufnd_vdm_ghgscp2contrinstrnam preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

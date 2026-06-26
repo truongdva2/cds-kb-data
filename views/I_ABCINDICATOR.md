@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:ABCIndicatorCode
 ---
 # I_ABCINDICATOR
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ABCIndicator` | `t370c.abckz` |
-| `abcindicator_oid )` | `cast( t370c.abckz` |
+| `ABCIndicatorCodeOID` | `cast( t370c.abckz as abcindicator_oid )` |
 | `_Text` | *Association* |
 
 ## Associations

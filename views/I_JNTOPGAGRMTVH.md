@@ -32,8 +32,7 @@ tags:
 |---|---|
 | `CompanyCode` | `bukrs` |
 | `JntOpgAgrmt` | `joa` |
-| `coalesce( _JntOpgAgrmtText[1:Language = $session.system_language ].JntOpgAgrmtText` | `coalesce( _JntOpgAgrmtText[1:Language = $session.system_language ].JntOpgAgrmtText` |
-| `_JntOpgAgrmtText[1:Language = 'E' ].JntOpgAgrmtText ) as JntOpgAgrmtText` | *Association* |
+| `JntOpgAgrmtText` | `coalesce(…)` |
 | `_JntOpgAgrmtText` | *Association* |
 | `_CompanyCode` | *Association* |
 

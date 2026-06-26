@@ -16,6 +16,7 @@ tags:
   - batch
   - component:LO-BM-MD-2CL
   - lob:Logistics General
+  - bo:Batch
 ---
 # I_BATCHTP_2
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
-| `key Batch` | `Batch` |
+| `Material` | `Material` |
+| `BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
+| `Batch` | `Batch` |
 | `BatchIsMarkedForDeletion` | `BatchIsMarkedForDeletion` |
 | `MatlBatchIsInRstrcdUseStock` | `MatlBatchIsInRstrcdUseStock` |
 | `Supplier` | `Supplier` |
@@ -53,12 +54,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `BatchExtWhseMgmtInternalId` | `BatchExtWhseMgmtInternalId` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_BatchPlantTP : redirected to composition child I_BatchPlantTP_2` | *Association* |
-| `_BatchClassTP : redirected to composition child I_BatchClassTP_2` | *Association* |
-| `_BatchCharacteristicTP : redirected to composition child I_BatchCharacteristicTP_2` | *Association* |
-| `_BatchTextTP : redirected to composition child I_BatchTextTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
 
 ## Associations

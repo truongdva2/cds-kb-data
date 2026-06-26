@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaskListType` | `TaskListType` |
-| `key TaskListGroup` | `TaskListGroup` |
-| `key TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
 | `BillOfOperationsVersionType` | `BillOfOperationsVersionType` |
 | `BillOfOperationsSubtype` | `BillOfOperationsSubtype` |
 | `LastUsageDate` | `LastUsageDate` |
@@ -45,10 +45,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `RoutingIsReworkRouting` | `RoutingIsReworkRouting` |
 | `ProdnProcgIsFlexible` | `ProdnProcgIsFlexible` |
-| `_TaskList     : redirected to composition child I_MaintenanceTaskListBasicTP` | *Association* |
-| `_NonHistOp    : redirected to composition child I_MaintTaskListOperationTP_2` | *Association* |
-| `_LongText     : redirected to composition child I_TaskListLongTextTP` | *Association* |
-| `_MaintPackage : redirected to composition child I_MaintTskListStrgyPackageTP` | *Association* |
 
 ## Associations
 

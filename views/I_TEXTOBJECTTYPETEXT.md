@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-VDM
   - lob:Cross-Application Components
+  - bo:TextObjectType
 ---
 # I_TEXTOBJECTTYPETEXT
 

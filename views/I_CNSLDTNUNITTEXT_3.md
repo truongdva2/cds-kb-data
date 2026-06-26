@@ -33,12 +33,12 @@ tags:
 |---|---|
 | `Language` | `_fincs_bunitt.langu` |
 | `ConsolidationUnit` | `_fincs_bunitt.bunit` |
-| `_fincs_bunitt.dimen                                                     as ConsolidationDimension` | *Association* |
-| `fincs_bunit_short_text preserving type )` | `cast ( _fincs_bunitt.txtsh` |
-| `fincs_bunit_medium_text preserving type )` | `cast ( _fincs_bunitt.txtmi` |
-| `_fincs_bunitt.txtlg                                                     as ConsolidationUnitLongText` | *Association* |
-| `_Language, // required for value help retrieval` | *Association* |
-| `_CnsldtnDimension // required for value help retrieval` | *Association* |
+| `ConsolidationDimension` | `_fincs_bunitt.dimen` |
+| `ConsolidationUnitText` | `cast ( _fincs_bunitt.txtsh as fincs_bunit_short_text preserving type )` |
+| `ConsolidationUnitMdmText` | `cast ( _fincs_bunitt.txtmi as fincs_bunit_medium_text preserving type )` |
+| `ConsolidationUnitLongText` | `_fincs_bunitt.txtlg` |
+| `_Language` | *Association* |
+| `_CnsldtnDimension` | *Association* |
 
 ## Associations
 

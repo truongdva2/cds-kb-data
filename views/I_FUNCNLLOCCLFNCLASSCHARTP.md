@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
-| `key ClassInternalID` | `ClassInternalID` |
-| `key CharcInternalID` | `CharcInternalID` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `ClassInternalID` | `ClassInternalID` |
+| `CharcInternalID` | `CharcInternalID` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `Characteristic` | `Characteristic` |
 | `CharcDataType` | `CharcDataType` |
@@ -44,9 +44,6 @@ tags:
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
 | `CharcMaintAuthGrp` | `CharcMaintAuthGrp` |
 | `Class` | `Class` |
-| `_Value: redirected to composition child I_FuncnlLocClfnCharValueTP` | *Association* |
-| `_Class: redirected to parent I_FuncnlLocClfnClassTP` | *Association* |
-| `_FunctionalLocation: redirected to I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

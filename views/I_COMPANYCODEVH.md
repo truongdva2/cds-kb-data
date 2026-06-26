@@ -33,10 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
+| `CompanyCode` | `t001.bukrs` |
+| `CompanyCodeName` | `t001.butxt` |
+| `ControllingArea` | `tka02.kokrs` |
+| `CityName` | `t001.ort01` |
+| `Country` | `t001.land1` |
+| `Currency` | `t001.waers` |
+| `Language` | `t001.spras` |
+| `ChartOfAccounts` | `t001.ktopl` |
+| `FiscalYearVariant` | `t001.periv` |
 | `Company` | `t001.rcomp` |
 | `CreditControlArea` | `t001.kkber` |
-| `fis_ktop2 preserving type)` | `cast(t001.ktop2` |
+| `CountryChartOfAccounts` | `cast(t001.ktop2 as fis_ktop2 preserving type)` |
 | `FinancialManagementArea` | `t001.fikrs` |
 | `_ControllingArea` | *Association* |
 | `_Country` | *Association* |
@@ -51,22 +59,14 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_ChartOfAccountsText` | `I_ChartOfAccountsText` | [0..*] |
-| `_CountryChartOfAccountsText` | `I_ChartOfAccountsText` | [0..*] |
-| `_ControllingAreaText` | `I_ControllingArea` | [0..1] |
-| `_CreditControlAreaText` | `I_CreditControlAreaText` | [0..*] |
 | `_Currency` | `I_Currency` | [0..1] |
 | `_Country` | `I_Country` | [0..1] |
-| `_Address` | `I_Address` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 | `_ChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 | `_FiscalYearVariant` | `I_FiscalYearVariant` | [0..1] |
 | `_CountryChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 | `_ControllingArea` | `I_ControllingArea` | [0..1] |
 | `_CreditControlArea` | `I_CreditControlArea` | [0..1] |
-| `_FieldStatusVariant` | `I_FieldStatusVariant` | [0..1] |
-| `_GlobalCompany` | `I_Globalcompany` | [0..1] |
-| `_CompanyCodeHierNode` | `I_CompanyCodeHierNode` | [0..*] |
 
 ## Source Code
 

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:BillOfOperationsGroup
 ---
 # I_MAINTENANCETASKLISTGROUP
 
@@ -28,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfOperationsType` | `BillOfOperationsType` |
-| `key BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
 | `_BillOfOperationsType` | *Association* |
 
 ## Associations

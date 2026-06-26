@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_itm_batch_uuid preserving type)` | `cast(TransportationOrderItemBatch.db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(TransportationOrderItemBatch.root_key` |
-| `/scmtms/vdm_tor_item_db_key  preserving type)` | `cast(TransportationOrderItemBatch.parent_key` |
+| `TranspOrdItemBatchUUID` | `cast(…)` |
+| `TransportationOrderUUID` | `cast(…)` |
+| `TransportationOrderItemUUID` | `cast(…)` |
 | `Batch` | `TransportationOrderItemBatch.batch_id` |
 | `BatchBySupplier` | `TransportationOrderItemBatch.batch_id_supplier` |
 | `ManufactureDate` | `TransportationOrderItemBatch.manufacture_date` |
@@ -48,6 +48,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderItem` | `I_TransportationOrderItem_2` | — |
 | `_TransportationOrder` | `I_TransportationOrder_2` | [1..1] |
 | `_Batch` | `I_BatchDistinct` | [0..1] |
 | `_Product` | `I_Product` | [0..1] |

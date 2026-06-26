@@ -33,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
+| `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItem` | `TranspOrdItem` |
 | `TranspOrdItemType` | `TranspOrdItemType` |
@@ -88,16 +87,15 @@ tags:
 | `TranspOrdItemNetWeight` | `TranspOrdItemNetWeight` |
 | `TranspOrdItemNetWeightUnit` | `TranspOrdItemNetWeightUnit` |
 | `TranspOrdItemDngrsGdsSts` | `TranspOrdItemDngrsGdsSts` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightOrder                  : redirected to parent I_FreightOrderTP` | `FreightOrderItem._TransportationOrder` |
-| `_FreightOrderItemDocRef        : redirected to composition child I_FreightOrderItemDocRefTP` | `FreightOrderItem._TranspOrdItemDocRef` |
-| `_FreightOrderItemSeal          : redirected to composition child I_FreightOrderItemSealTP` | `FreightOrderItem._TranspOrdItemSeal` |
-| `_FrtOrderItemCommodityCode     : redirected to composition child I_FrtOrderItemCommodityCodeTP` | `FreightOrderItem._TranspOrdItemCommodityCode` |
-| `_FreightOrderItemSerialNumber  : redirected to composition child I_FrtOrderItemSerialNumberTP` | `FreightOrderItem._TranspOrdItemSerialNumber` |
-| `_FreightOrderItemBatch         : redirected to composition child I_FreightOrderItemBatchTP` | `FreightOrderItem._TranspOrdItemBatch` |
-| `_FrtOrdItmMainBPAddrDfltRprstn : redirected to composition child I_FrtOrdItmMainBPAdDfRpnTP` | `FreightOrderItem._TrOrdItmMnBPAddrDfltRprstn` |
-| `_ShipperAddrDfltRprstn         : redirected to I_FrtOrdItmMainBPAdDfRpnTP` | `FreightOrderItem._ShipperAddrDfltRprstn` |
-| `_ConsigneeAddrDfltRprstn       : redirected to I_FrtOrdItmMainBPAdDfRpnTP` | `FreightOrderItem._ConsigneeAddrDfltRprstn` |
+| `_FreightOrder` | *Association* |
+| `_FreightOrderItemDocRef` | *Association* |
+| `_FreightOrderItemSeal` | *Association* |
+| `_FrtOrderItemCommodityCode` | *Association* |
+| `_FreightOrderItemSerialNumber` | *Association* |
+| `_FreightOrderItemBatch` | *Association* |
+| `_FrtOrdItmMainBPAddrDfltRprstn` | *Association* |
+| `_ShipperAddrDfltRprstn` | *Association* |
+| `_ConsigneeAddrDfltRprstn` | *Association* |
 
 ## Associations
 

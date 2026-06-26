@@ -32,14 +32,48 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_FollowOnDocumentType' }` | `foreignKey.association: '_FollowOnDocumentType' }` |
-| `R_CentralSupplierQuotation.PurgDocFollowOnDocumentType` | `R_CentralSupplierQuotation.PurgDocFollowOnDocumentType` |
-| `R_CentralSupplierQuotation.PurContrValidityStartDate` | `R_CentralSupplierQuotation.PurContrValidityStartDate` |
-| `R_CentralSupplierQuotation.PurContrValidityEndDate` | `R_CentralSupplierQuotation.PurContrValidityEndDate` |
-| `R_CentralSupplierQuotation.PurchaseContractTargetAmount` | `R_CentralSupplierQuotation.PurchaseContractTargetAmount` |
-| `R_CentralSupplierQuotation.IsEndOfPurposeBlocked` | `R_CentralSupplierQuotation.IsEndOfPurposeBlocked` |
-| `R_CentralSupplierQuotation.PurchasingDocumentDeletionCode` | `R_CentralSupplierQuotation.PurchasingDocumentDeletionCode` |
-| `/* Associations */` | `/* Associations */` |
+| `CentralSupplierQuotation` | `R_CentralSupplierQuotation.CentralSupplierQuotation` |
+| `CompanyCode` | `R_CentralSupplierQuotation.CompanyCode` |
+| `PurchasingDocumentCategory` | `R_CentralSupplierQuotation.PurchasingDocumentCategory` |
+| `PurchasingDocumentType` | `R_CentralSupplierQuotation.PurchasingDocumentType` |
+| `Supplier` | `R_CentralSupplierQuotation.Supplier` |
+| `CreatedByUser` | `R_CentralSupplierQuotation.CreatedByUser` |
+| `CreationDate` | `R_CentralSupplierQuotation.CreationDate` |
+| `LastChangeDateTime` | `R_CentralSupplierQuotation.LastChangeDateTime` |
+| `Language` | `R_CentralSupplierQuotation.Language` |
+| `DocumentCurrency` | `R_CentralSupplierQuotation.DocumentCurrency` |
+| `IncotermsClassification` | `R_CentralSupplierQuotation.IncotermsClassification` |
+| `IncotermsTransferLocation` | `R_CentralSupplierQuotation.IncotermsTransferLocation` |
+| `IncotermsVersion` | `R_CentralSupplierQuotation.IncotermsVersion` |
+| `IncotermsLocation1` | `R_CentralSupplierQuotation.IncotermsLocation1` |
+| `IncotermsLocation2` | `R_CentralSupplierQuotation.IncotermsLocation2` |
+| `PaymentTerms` | `R_CentralSupplierQuotation.PaymentTerms` |
+| `CashDiscount1Days` | `R_CentralSupplierQuotation.CashDiscount1Days` |
+| `CashDiscount2Days` | `R_CentralSupplierQuotation.CashDiscount2Days` |
+| `CashDiscount1Percent` | `R_CentralSupplierQuotation.CashDiscount1Percent` |
+| `CashDiscount2Percent` | `R_CentralSupplierQuotation.CashDiscount2Percent` |
+| `NetPaymentDays` | `R_CentralSupplierQuotation.NetPaymentDays` |
+| `PricingProcedure` | `R_CentralSupplierQuotation.PricingProcedure` |
+| `CentralSuplrQuotationCondition` | `R_CentralSupplierQuotation.CentralSuplrQuotationCondition` |
+| `PurchasingOrganization` | `R_CentralSupplierQuotation.PurchasingOrganization` |
+| `PurchasingGroup` | `R_CentralSupplierQuotation.PurchasingGroup` |
+| `PurchasingDocumentOrderDate` | `R_CentralSupplierQuotation.PurchasingDocumentOrderDate` |
+| `CentralRequestForQuotation` | `R_CentralSupplierQuotation.CentralRequestForQuotation` |
+| `SupplierQuotationExternalID` | `R_CentralSupplierQuotation.SupplierQuotationExternalID` |
+| `QuotationSubmissionDate` | `R_CentralSupplierQuotation.QuotationSubmissionDate` |
+| `QuotationLatestSubmissionDate` | `R_CentralSupplierQuotation.QuotationLatestSubmissionDate` |
+| `BindingPeriodValidityEndDate` | `R_CentralSupplierQuotation.BindingPeriodValidityEndDate` |
+| `ExchangeRate` | `ExchangeRate` |
+| `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
+| `QtnLifecycleStatus` | `R_CentralSupplierQuotation.QtnLifecycleStatus` |
+| `FollowOnDocumentCategory` | `R_CentralSupplierQuotation.FollowOnDocumentCategory` |
+| `FollowOnDocumentType` | `R_CentralSupplierQuotation.FollowOnDocumentType` |
+| `PurgDocFollowOnDocumentType` | `R_CentralSupplierQuotation.PurgDocFollowOnDocumentType` |
+| `PurContrValidityStartDate` | `R_CentralSupplierQuotation.PurContrValidityStartDate` |
+| `PurContrValidityEndDate` | `R_CentralSupplierQuotation.PurContrValidityEndDate` |
+| `PurchaseContractTargetAmount` | `R_CentralSupplierQuotation.PurchaseContractTargetAmount` |
+| `IsEndOfPurposeBlocked` | `R_CentralSupplierQuotation.IsEndOfPurposeBlocked` |
+| `PurchasingDocumentDeletionCode` | `R_CentralSupplierQuotation.PurchasingDocumentDeletionCode` |
 | `_CntrlSupplierQuotationItem` | *Association* |
 | `_PurchasingDocumentCategory` | *Association* |
 | `_CatTextInCurrentLang` | *Association* |
@@ -56,7 +90,7 @@ tags:
 | `_Language` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_PricingProcedure` | *Association* |
-| `R_CentralSupplierQuotation._DocumentCurrency` | `R_CentralSupplierQuotation._DocumentCurrency` |
+| `_DocumentCurrency` | *Association* |
 
 ## Associations
 
@@ -66,9 +100,7 @@ tags:
 | `_CatTextInCurrentLang` | `I_PurgDocumentCategoryText` | [0..1] |
 | `_FollowOnDocumentType` | `I_PurchasingDocumentType` | [0..1] |
 | `_FollowOnDocumentCategory` | `I_PurchasingDocumentCategory` | [0..1] |
-| `_CentralSupplierQuotationType` | `I_CentralSupplierQuotationType` | [0..1] |
 | `_CentralRequestForQuotation` | `I_CentralRequestForQuotation` | [1..1] |
-| `_QtnLifecycleStatus` | `I_QtnLifecycleStatus` | [0..1] |
 
 ## Source Code
 

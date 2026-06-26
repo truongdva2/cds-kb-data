@@ -11,6 +11,7 @@ tags:
   - CRM
   - component:CRM-S4-SOL-SLO
   - lob:Other
+  - bo:BusinessSolutionOrderItem
 ---
 # D_BUSSOLNORDITMCHANGED
 
@@ -27,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BusinessSolutionOrderItemUUID : crmt_object_guid;` | `BusinessSolutionOrderItemUUID : crmt_object_guid;` |
-| `BusSolnOrdItmCategory         : crmt_item_type_db;` | `BusSolnOrdItmCategory         : crmt_item_type_db;` |
-| `BusSolnOrdItmDescription      : crms4_solo_item_desc;` | `BusSolnOrdItmDescription      : crms4_solo_item_desc;` |
+| `BusinessSolutionOrderItemUUID` | `crmt_object_guid` |
+| `BusSolnOrdItmCategory` | `crmt_item_type_db` |
+| `BusSolnOrdItmDescription` | `crms4_solo_item_desc` |
 
 ## Associations
 

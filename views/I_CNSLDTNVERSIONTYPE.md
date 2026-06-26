@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_cnsldtnversiontype preserving type )` | `cast(left(_Domain.DomainValue, 1)` |
-| `_Domain.DomainValue, // required for search` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnVersionType` | `cast(left(_Domain.DomainValue, 1) as fincs_cnsldtnversiontype preserving type )` |
+| `DomainValue` | `_Domain.DomainValue` |
 | `_Text` | *Association* |
 
 ## Associations

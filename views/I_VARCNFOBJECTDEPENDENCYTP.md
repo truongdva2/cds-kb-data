@@ -31,13 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
 | `ObjectDependencyIsLocal` | `ObjectDependencyIsLocal` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_HistoricalObjectDependency : redirected to composition child I_VarCnfHistlObjDpndcyTP` | *Association* |
-| `_Text                       : redirected to composition child I_VarCnfObjDpndcyTextTP` | *Association* |
-| `_SourceCode                 : redirected to composition child I_VarCnfObjDpnSourceCodeTP` | *Association* |
 
 ## Associations
 

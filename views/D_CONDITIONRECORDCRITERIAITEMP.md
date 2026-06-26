@@ -31,16 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DummyKey                    : char1;` | `DummyKey                    : char1;` |
-| `_ConditionType              : composition [0..*] of D_CndnTypeSelectionOptionP;` | *Association* |
-| `_ConditionRecord            : composition [0..*] of D_CndnRecordSelectionOptionP;` | *Association* |
-| `_ConditionTable             : composition [0..*] of D_CndnTableSelectionOptionP;` | *Association* |
-| `_ConditionField             : composition [0..*] of D_CndnFieldSelectionOptionP;` | *Association* |
-| `_SlsPrcgGetConditionRecordP : association to parent D_SlsPrcgGetConditionRecordP;` | *Association* |
+| `DummyKey` | `char1` |
+| `_ConditionType` | *Association* |
+| `_ConditionRecord` | *Association* |
+| `_ConditionTable` | *Association* |
+| `_ConditionField` | *Association* |
+| `_SlsPrcgGetConditionRecordP` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConditionType` | `D_CndnTypeSelectionOptionP` | [0..*] |
+| `_ConditionRecord` | `D_CndnRecordSelectionOptionP` | [0..*] |
+| `_ConditionTable` | `D_CndnTableSelectionOptionP` | [0..*] |
+| `_ConditionField` | `D_CndnFieldSelectionOptionP` | [0..*] |
+| `_SlsPrcgGetConditionRecordP` | `D_SlsPrcgGetConditionRecordP` | — |
 
 ## Source Code
 

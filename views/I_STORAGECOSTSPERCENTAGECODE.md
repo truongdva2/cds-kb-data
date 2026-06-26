@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:StorageCostsPercentageCode
 ---
 # I_STORAGECOSTSPERCENTAGECODE
 
@@ -29,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Plant` | `werks` |
+| `StorageCostsPercentageCode` | `lagpr` |
 | `StorageCostsInPercent` | `lkost` |
 | `_Plant` | *Association* |
 

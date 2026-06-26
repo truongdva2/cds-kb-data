@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPSafetyStockMethod
 ---
 # I_MRPSAFETYSTOCKMETHODTEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `MRPSafetyStockMethod` | `cast( dd07t.domvalue_l as mrp_sstock_method )` |
+| `DomainValue` | `dd07t.domvalue_l` |
+| `MRPSafetyStockMethodText` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_MRPSafetyStockMethod` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MRPSafetyStockMethod` | `I_MRPSafetyStockMethod` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

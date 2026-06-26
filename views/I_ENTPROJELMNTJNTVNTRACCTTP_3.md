@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectElementUUID` | `ProjectElementUUID` |
+| `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `JointVenture` | `JointVenture` |
 | `JointVentureCostRecoveryCode` | `JointVentureCostRecoveryCode` |
@@ -39,8 +39,6 @@ tags:
 | `JntVntrProjectType` | `JntVntrProjectType` |
 | `JntIntrstBillgClass` | `JntIntrstBillgClass` |
 | `JntIntrstBillgSubClass` | `JntIntrstBillgSubClass` |
-| `_EnterpriseProjectElement : redirected to parent I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProject: redirected to I_EnterpriseProjectTP_3` | *Association* |
 
 ## Associations
 

@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressNumber` | `AddressNumber` |
-| `key Person` | `Person` |
-| `key OrdinalNumber` | `OrdinalNumber` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `Person` | `Person` |
+| `OrdinalNumber` | `OrdinalNumber` |
 | `OrdinalNumberForEdit` | `OrdinalNumberForEdit` |
 | `DestinationLocationCountry` | `DestinationLocationCountry` |
 | `TelephoneCountryPrefix` | `TelephoneCountryPrefix` |
@@ -58,8 +58,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
-| `_BusinessPartner : redirected to I_BusinessPartnerTP_3` | *Association* |
 | `_TelCountryPrefix` | *Association* |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |

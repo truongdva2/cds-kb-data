@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `credit_memo_request preserving type)` | `cast(SalesDocument` |
-| `credit_memo_request_item preserving type)` | `cast(SalesDocumentItem` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `CreditMemoRequest` | `cast(SalesDocument as credit_memo_request preserving type)` |
+| `CreditMemoRequestItem` | `cast(SalesDocumentItem as credit_memo_request_item preserving type)` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
@@ -57,7 +57,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CreditMemoRequest` | `I_CreditMemoRequest` | [1..1] |
+| `_CreditMemoRequestItem` | `I_CreditMemoRequestItem` | [1..1] |
 
 ## Source Code
 

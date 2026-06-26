@@ -29,16 +29,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name  : 'C_SerMatItmLastSerialNumberVH', element : 'Material'}` | `name  : 'C_SerMatItmLastSerialNumberVH', element : 'Material'}` |
-| `EquipMaterialLastSerialNumber           : lsernr;` | `EquipMaterialLastSerialNumber           : lsernr;` |
-| `EquipmentNumberOfSerialNumbers          : anzser;` | `EquipmentNumberOfSerialNumbers          : anzser;` |
-| `EquipmentFromSerialNumber               : servon;` | `EquipmentFromSerialNumber               : servon;` |
-| `EquipmentToSerialNumber                 : serbis;` | `EquipmentToSerialNumber                 : serbis;` |
-| `_SerialList                             : composition [0..*] of D_EquipCreateSerialNumberListP;` | *Association* |
+| `Material` | `matnr` |
+| `EquipmentCategory` | `eqtyp` |
+| `UniqueItemIdentifierRespPlant` | `uii_plant` |
+| `EquipMaterialLastSerialNumber` | `lsernr` |
+| `EquipmentNumberOfSerialNumbers` | `anzser` |
+| `EquipmentFromSerialNumber` | `servon` |
+| `EquipmentToSerialNumber` | `serbis` |
+| `_SerialList` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SerialList` | `D_EquipCreateSerialNumberListP` | [0..*] |
 
 ## Source Code
 

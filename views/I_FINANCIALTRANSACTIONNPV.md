@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key FinancialTransaction` | `FinancialTransaction` |
-| `key FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
-| `key NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
+| `FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
+| `NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
 | `NetPresentValueAmountInNPVCrcy` | `NetPresentValueAmountInNPVCrcy` |
 | `NetPresentValueCurrency` | `NetPresentValueCurrency` |
 | `IntrinsicValueAmountInNPVCrcy` | `IntrinsicValueAmountInNPVCrcy` |

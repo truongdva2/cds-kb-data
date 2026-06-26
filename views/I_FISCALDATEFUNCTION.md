@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:DateFunction
 ---
 # I_FISCALDATEFUNCTION
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DateFunction` | `DateFunction` |
+| `DateFunction` | `DateFunction` |
 | `DateFunctionType` | `DateFunctionType` |
 | `DateFunctionGranularity` | `DateFunctionGranularity` |
 | `DateFunctionStartPoint` | `DateFunctionStartPoint` |

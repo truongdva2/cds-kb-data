@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nftype    preserving type )` | `cast( PartnerPlaceMap.nfe_type` |
-| `logbr_part_role preserving type )` | `cast( PartnerPlaceMap.partner_role` |
-| `logbr_parvw     preserving type )` | `cast( PartnerPlaceMap.parvw` |
+| `BR_NFType` | `cast( PartnerPlaceMap.nfe_type as logbr_nftype preserving type )` |
+| `BR_NFPartnerPlaceType` | `cast( PartnerPlaceMap.partner_role as logbr_part_role preserving type )` |
+| `BR_NFPartnerFunction` | `cast( PartnerPlaceMap.parvw as logbr_parvw preserving type )` |
 | `_BR_NFPartnerPlaceType` | *Association* |
 
 ## Associations

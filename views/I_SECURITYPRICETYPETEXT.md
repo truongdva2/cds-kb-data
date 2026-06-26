@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:PriceQuotationType
 ---
 # I_SECURITYPRICETYPETEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tba_pricetype)` | `cast ( tw56t.skursart` |
-| `Language, //text views shall always be language dependent` | `tw56t.spras` |
+| `PriceQuotationType` | `cast ( tw56t.skursart as tba_pricetype)` |
+| `Language` | `tw56t.spras` |
 | `PriceQuotationTypeName` | `tw56t.xkurzbez` |
 | `_PriceQuotationType` | *Association* |
 | `_Language` | *Association* |

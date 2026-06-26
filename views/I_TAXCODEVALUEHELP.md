@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_TaxCode.TaxCalculationProcedure` | `I_TaxCode.TaxCalculationProcedure` |
-| `key I_TaxCode.TaxCode` | `I_TaxCode.TaxCode` |
-| `I_TaxCode._Text` | `I_TaxCode._Text` |
+| `TaxCalculationProcedure` | `I_TaxCode.TaxCalculationProcedure` |
+| `TaxCode` | `I_TaxCode.TaxCode` |
+| `_Text` | *Association* |
 
 ## Associations
 

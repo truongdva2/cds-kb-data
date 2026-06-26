@@ -14,6 +14,7 @@ tags:
   - status
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentStatus
 ---
 # I_PURCHASINGDOCUMENTSTATUS
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_doc_status )` | `cast ( domvalue_l` |
+| `PurchasingDocumentStatus` | `cast ( domvalue_l as mmpur_doc_status )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurchasingDocumentStatusText` | [0..*] |
 
 ## Source Code
 

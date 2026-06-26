@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MatlStkSafetyTimePeriodProfile
 ---
 # I_SAFETYTIMEPERIODPROFILE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_shpro preserving type)` | `cast(shpro` |
+| `Plant` | `werks` |
+| `SafetyTimePeriodProfile` | `cast(shpro as pph_shpro preserving type)` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:GlobalTradeItemNumberCategory
 ---
 # I_INTNTNLARTNMBCAT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `internationalarticlenumbercat preserving type )` | `cast(numtp` |
+| `InternationalArticleNumberCat` | `cast(numtp as internationalarticlenumbercat preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

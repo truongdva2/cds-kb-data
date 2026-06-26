@@ -32,25 +32,25 @@ tags:
 | `InternalRealEstateNumber` | `intreno` |
 | `RETermType` | `termtype` |
 | `RETermNumber` | `termno` |
-| `rebdvdmvalidfrom  preserving type )` | `cast(validfrom` |
-| `rebdvdmvalidto preserving type )` | `cast(validto` |
+| `ValidityStartDate` | `cast(validfrom as rebdvdmvalidfrom preserving type )` |
+| `ValidityEndDate` | `cast(validto as rebdvdmvalidto preserving type )` |
 | `BusinessArea` | `gsber` |
 | `ProfitCenter` | `prctr` |
-| `retmvdmraaddobjnr preserving type )` | `cast(addobjnr` |
+| `REStatusObject` | `cast(addobjnr as retmvdmraaddobjnr preserving type )` |
 | `TaxJurisdiction` | `txjcd` |
-| `bp_geber)` | `cast(fund` |
-| `fm_fictr)` | `cast(fundscenter` |
-| `fm_fipex preserving type )` | `cast( commitmentitem` |
-| `fm_farea)` | `cast(functionalarea` |
-| `reravdmgrantnumber  preserving type )` | `cast(grantnumber` |
-| `fm_budget_period)` | `cast(budgetperiod` |
-| `_REKeyAssgmt.RealEstateObjectType                          as RealEstateObjectType` | *Association* |
-| `_REKeyAssgmt._CompanyCode.ControllingArea                  as ControllingArea` | *Association* |
-| `_REKeyAssgmt._CompanyCode._Country.TaxCalculationProcedure as TaxCalculationProcedure` | *Association* |
-| `_REKeyAssgmt._CompanyCode.FinancialManagementArea          as FinancialManagementArea` | *Association* |
-| `_REKeyAssgmt._CompanyCode.CompanyCode                      as CompanyCode` | *Association* |
+| `Fund` | `cast(fund as bp_geber)` |
+| `FundsCenter` | `cast(fundscenter as fm_fictr)` |
+| `CommitmentItem` | `cast( commitmentitem as fm_fipex preserving type )` |
+| `FunctionalArea` | `cast(functionalarea as fm_farea)` |
+| `REFundsManagementGrantID` | `cast(grantnumber as reravdmgrantnumber preserving type )` |
+| `BudgetPeriod` | `cast(budgetperiod as fm_budget_period)` |
+| `RealEstateObjectType` | `_REKeyAssgmt.RealEstateObjectType` |
+| `ControllingArea` | `_REKeyAssgmt._CompanyCode.ControllingArea` |
+| `TaxCalculationProcedure` | `_REKeyAssgmt._CompanyCode._Country.TaxCalculationProcedure` |
+| `FinancialManagementArea` | `_REKeyAssgmt._CompanyCode.FinancialManagementArea` |
+| `CompanyCode` | `_REKeyAssgmt._CompanyCode.CompanyCode` |
 | `_REKeyAssgmt` | *Association* |
-| `_REKeyAssgmt._REObjectType` | *Association* |
+| `_REObjectType` | *Association* |
 | `_RETermType` | *Association* |
 | `_RETerm` | *Association* |
 | `_BusinessArea` | *Association* |

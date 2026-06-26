@@ -17,6 +17,7 @@ tags:
   - text
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:DeliveryCategory
 ---
 # I_DELIVERYCATEGORYTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DeliveryCategory` | `I_DeliveryCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -19,6 +19,7 @@ tags:
   - status
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:CountryTransportStatus
 ---
 # I_COUNTRYTRANSPORTSTATUSTEXT
 
@@ -35,14 +36,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ehdgm_country_transport_status preserving type )` | `cast( left(dd07t.domvalue_l, 2)` |
+| `CountryTransportStatus` | `cast(…)` |
 | `Language` | `dd07t.ddlanguage` |
 | `CountryTransportStatusName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `fincs_investmentmethodtext preserving type)` | `cast (_Text.txt` |
+| `Language` | `cast(_Text.langu as fincs_language preserving type )` |
+| `ConsolidationInvestmentMethod` | `cast(_Text.cmeth as fincs_investmentmethod preserving type )` |
+| `CnsldtnInvestmentMethodText` | `cast (_Text.txt as fincs_investmentmethodtext preserving type)` |
 | `_Language` | *Association* |
 | `_CnsldtnInvestmentMethod` | *Association* |
 

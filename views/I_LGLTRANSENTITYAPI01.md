@@ -29,17 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionEntityUUID` | `LegalTransactionEntityUUID` |
+| `LegalTransactionEntityUUID` | `LegalTransactionEntityUUID` |
 | `LglCntntMRank` | `LglCntntMRank` |
 | `LglCntntMEntity` | `LglCntntMEntity` |
 | `LglCntntMEntityType` | `LglCntntMEntityType` |
 | `LglCntntMTechEntityType` | `LglCntntMTechEntityType` |
-| `I_LegalTransactionEntity.LegalTransactionUUID` | `I_LegalTransactionEntity.LegalTransactionUUID` |
+| `LegalTransactionUUID` | `I_LegalTransactionEntity.LegalTransactionUUID` |
 | `LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
 | `LglCntntMIsMainEntity` | `LglCntntMIsMainEntity` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
 | `LglCntntMIsAddedByIntegVarbl` | `LglCntntMIsAddedByIntegVarbl` |
-| `/* Associations */` | `/* Associations */` |
 | `_LegalTransaction` | *Association* |
 
 ## Associations

@@ -56,7 +56,7 @@ tags:
 | `BankName` | `BankRcpt.part_bank_name` |
 | `BusinessPartnerName` | `BankStmtItem.BusinessPartnerName` |
 | `PartnerBankIBAN` | `BankStmtItem.PartnerBankIBAN` |
-| `fis_exchange_rate )` | `cast ( BankStmtItem.ExchangeRate` |
+| `ExchangeRate` | `cast ( BankStmtItem.ExchangeRate as fis_exchange_rate )` |
 | `PaymentAdviceAccountType` | `BankStmtItem.PaymentAdviceAccountType` |
 | `PaymentAdviceAccount` | `BankStmtItem.PaymentAdviceAccount` |
 | `BankStatementPostingRule` | `BankStmtItem.PostingRule` |

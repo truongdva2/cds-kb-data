@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProdRequirementsGroupingCode
 ---
 # I_PRODREQUIREMENTSGROUPINGVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzbed )` | `cast ( dd07l.domvalue_l` |
+| `ProductRequirementsGrouping` | `cast ( dd07l.domvalue_l as kzbed )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

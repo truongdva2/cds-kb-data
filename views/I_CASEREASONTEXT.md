@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:CaseReason
 ---
 # I_CASEREASONTEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgcase_type preserving type )` | `cast( case_type` |
-| `scmg_reason_code preserving type )` | `cast( reason_code` |
+| `CaseType` | `cast( case_type as scmgcase_type preserving type )` |
+| `CaseReason` | `cast( reason_code as scmg_reason_code preserving type )` |
 | `Language` | `langu` |
 | `CaseReasonName` | `description` |
 | `_CaseType` | *Association* |

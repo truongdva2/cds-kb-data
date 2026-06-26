@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderUUID` | `TransportationOrderUUID` |
+| `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrder` | `TransportationOrder` |
 | `TransportationOrderType` | `TransportationOrderType` |
 | `TransportationOrderCategory` | `TransportationOrderCategory` |
@@ -77,19 +76,17 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBookingBusinessPartner : redirected to composition child I_FreightBookingBPTP` | `FreightBooking._TransportationOrderBP` |
-| `_FreightBookingDocRef          : redirected to composition child I_FreightBookingDocRefTP` | `FreightBooking._TranspOrdDocumentReference` |
-| `_FreightBookingItem            : redirected to composition child I_FreightBookingItemTP` | `FreightBooking._TransportationOrderItem` |
-| `_FreightBookingStop            : redirected to composition child I_FreightBookingStopTP` | `FreightBooking._TransportationOrderStop` |
-| `_FreightBookingEvent           : redirected to composition child I_FreightBookingEventTP` | `FreightBooking._TransportationOrderEvent` |
-| `_FreightBookingCharge          : redirected to composition child I_FreightBookingChargeTP` | `FreightBooking._TransportationOrderCharge` |
-| `_FrtBkgMainBPAddrDfltRprstn    : redirected to composition child I_FrtBkgMainBPAddrDfltRprstnTP` | `FreightBooking._TrOrdMainBPAddrDfltRprstn` |
-| `/* Association redirections */` | `/* Association redirections */` |
-| `_CarrierAddrDfltRprstn         : redirected to I_FrtBkgMainBPAddrDfltRprstnTP` | `FreightBooking._CarrierAddrDfltRprstn` |
-| `_ShipperAddrDfltRprstn         : redirected to I_FrtBkgMainBPAddrDfltRprstnTP` | `FreightBooking._ShipperAddrDfltRprstn` |
-| `_ConsigneeAddrDfltRprstn       : redirected to I_FrtBkgMainBPAddrDfltRprstnTP` | `FreightBooking._ConsigneeAddrDfltRprstn` |
-| `_ExectgCarrierAddrDfltRprstn   : redirected to I_FrtBkgMainBPAddrDfltRprstnTP` | `FreightBooking._ExectgCarrierAddrDfltRprstn` |
+| `_FreightBookingBusinessPartner` | *Association* |
+| `_FreightBookingDocRef` | *Association* |
+| `_FreightBookingItem` | *Association* |
+| `_FreightBookingStop` | *Association* |
+| `_FreightBookingEvent` | *Association* |
+| `_FreightBookingCharge` | *Association* |
+| `_FrtBkgMainBPAddrDfltRprstn` | *Association* |
+| `_CarrierAddrDfltRprstn` | *Association* |
+| `_ShipperAddrDfltRprstn` | *Association* |
+| `_ConsigneeAddrDfltRprstn` | *Association* |
+| `_ExectgCarrierAddrDfltRprstn` | *Association* |
 
 ## Associations
 

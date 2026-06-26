@@ -15,6 +15,7 @@ tags:
   - classification
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurProductTaxClassification
 ---
 # I_PURPRODUCTTAXCLASSIFICATIONT
 

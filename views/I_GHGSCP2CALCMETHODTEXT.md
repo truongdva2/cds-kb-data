@@ -15,6 +15,7 @@ tags:
   - text
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethodText
 ---
 # I_GHGSCP2CALCMETHODTEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `sufnd_vdm_ghgscp2calcmeth )` | `cast( dd07t.domvalue_l` |
-| `sufnd_vdm_ghgscp2calcmethname preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `GHGScope2CalculationMethod` | `cast( dd07t.domvalue_l as sufnd_vdm_ghgscp2calcmeth )` |
+| `GHGScope2CalculationMethodName` | `cast( dd07t.ddtext as sufnd_vdm_ghgscp2calcmethname preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

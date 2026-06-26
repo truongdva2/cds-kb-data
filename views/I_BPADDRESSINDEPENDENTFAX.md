@@ -32,19 +32,18 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `_BusinessPartner.BusinessPartner` |
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
-| `key CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
+| `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `FaxNumberCountry` | `FaxNumberCountry` |
 | `FaxAreaCodeSubscriberNumber` | `FaxAreaCodeSubscriberNumber` |
 | `FaxExtensionNumber` | `FaxExtensionNumber` |
 | `InternationalFaxNumber` | `InternationalFaxNumber` |
 | `FaxNumberIsCurrentDefault` | `FaxNumberIsCurrentDefault` |
-| `ad_valfrom )` | `cast ( ValidityStartDate` |
-| `ad_valto )` | `cast ( ValidityEndDate` |
+| `ValidityStartDateTime` | `cast ( ValidityStartDate as ad_valfrom )` |
+| `ValidityEndDateTime` | `cast ( ValidityEndDate as ad_valto )` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
 | `_FaxNumberCountry` | *Association* |
@@ -55,7 +54,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_BusinessPartner` | `I_BusinessPartner` | [1..1] |
-| `_BPDataControllerUsage` | `I_BPDataControllerUsage` | [0..*] |
 
 ## Source Code
 

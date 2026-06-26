@@ -16,6 +16,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:DeliveryRelatedBillingStatus
 ---
 # I_DELIVERYRELATEDBILLGSTATUS
 

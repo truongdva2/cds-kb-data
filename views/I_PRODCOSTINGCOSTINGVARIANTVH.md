@@ -31,7 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CostingTypeStdVH' , element: 'CostingType' }, useAsTemplate: true }]` | `name: 'I_CostingTypeStdVH' , element: 'CostingType' }, useAsTemplate: true }]` |
+| `CostingVariant` | `CostingVariant` |
+| `CostingVariantName` | `CostingVariantName` |
+| `ValuationVariant` | `ValuationVariant` |
+| `ValuationVariantName` | `ValuationVariantName` |
 | `CostingType` | `CostingType` |
 
 ## Associations

@@ -32,10 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
+| `Language` | `Language` |
+| `LanguageName` | `_Text[1: Language = $session.system_language].LanguageName` |
 | `LanguageISOCode` | `LanguageISOCode` |
 
 ## Associations

@@ -35,33 +35,340 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'CustomerCreditMemoNetAmount_2' }` | `releaseState: #DEPRECATED, successor: 'CustomerCreditMemoNetAmount_2' }` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
+| `_BillingDocument` | *Association* |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `BillingDocumentCategory` | `BillingDocumentCategory` |
+| `BillingDocumentType` | `BillingDocumentType` |
+| `SalesDocumentItemCategory` | `SalesDocumentItemCategory` |
+| `SalesDocumentItemType` | `SalesDocumentItemType` |
+| `ReturnItemProcessingType` | `ReturnItemProcessingType` |
+| `_SDDocumentCategory` | *Association* |
+| `_BillingDocumentCategory` | *Association* |
+| `_BillingDocumentType` | *Association* |
+| `_SalesDocumentItemCategory` | *Association* |
+| `_SalesDocumentItemType` | *Association* |
+| `LastChangeDate` | `LastChangeDate` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreatedByUserName` | `cast(CreatedByUserName as created_by_user_name preserving type)` |
+| `CreationTime` | `CreationTime` |
+| `LogicalSystem` | `LogicalSystem` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `BillingDocumentDateYear` | `cast(CalendarDateBillingDoc.CalendarYear as billing_document_date_year)` |
+| `BillingDocDateYearQuarter` | `cast(CalendarDateBillingDoc.YearQuarter as billing_doc_date_year_quarter)` |
+| `BillingDocDateYearMonth` | `cast(CalendarDateBillingDoc.YearMonth as billing_doc_date_year_month)` |
+| `BillingDocDateCalendarMonth` | `cast(CalendarDateBillingDoc.CalendarMonth as billing_doc_date_cal_month)` |
+| `BillingDocumentDateCalendarDay` | `cast(CalendarDateBillingDoc.CalendarDay as billing_doc_date_cal_day)` |
+| `_CreatedByUser` | *Association* |
+| `_LogicalSystem` | *Association* |
+| `SoldToParty` | `Item.SoldToParty` |
+| `SoldToPartyName` | `Item.SoldToPartyName` |
+| `Customer` | `cast (Item.SoldToParty as kunnr)` |
+| `SoldToPartyClassification` | `Item.SoldToPartyClassification` |
+| `ShipToParty` | `Item.ShipToParty` |
+| `ShipToPartyName` | `Item.ShipToPartyName` |
+| `BillToParty` | `Item.BillToParty` |
+| `BillToPartyName` | `Item.BillToPartyName` |
+| `PayerParty` | `Item.PayerParty` |
+| `PayerPartyName` | `Item.PayerPartyName` |
+| `SalesEmployee` | `cast(Item.SalesEmployee as sales_empl)` |
+| `SalesEmployeeName` | `cast(SalesEmployeeWorkAgreement.PersonFullName as sales_empl_name)` |
+| `ResponsibleEmployee` | `cast(Item.ResponsibleEmployee as resp_empl)` |
+| `ResponsibleEmployeeName` | `cast(RespEmployeeWorkAgreement.PersonFullName as resp_empl_name)` |
+| `SalesEmployeeWorkAgreement` | `cast(Item.SalesEmployee as sales_empl_wrk_agrmt)` |
+| `ResponsibleEmployeeWorkAgrmt` | `cast(Item.ResponsibleEmployee as resp_empl_wrk_agrmt)` |
+| `PartnerCompany` | `--CE2111: foreign key added and _GlobalCompany exposed Item.PartnerCompany` |
+| `_GlobalCompany` | *Association* |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerGroup` | `CustomerGroup` |
+| `SalesDistrict` | `SalesDistrict` |
+| `Country` | `Country` |
+| `Region` | `Region` |
+| `CityCode` | `CityCode` |
+| `County` | `County` |
+| `County_2` | `County_2` |
+| `CreditControlArea` | `CreditControlArea` |
+| `CustomerRebateAgreement` | `CustomerRebateAgreement` |
+| `SalesGroup` | `SalesGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `RetailPromotion` | `RetailPromotion` |
+| `RebateBasisAmount` | `RebateBasisAmount` |
+| `VolumeRebateGroup` | `VolumeRebateGroup` |
+| `ItemIsRelevantForCredit` | `ItemIsRelevantForCredit` |
+| `CreditRelatedPrice` | `CreditRelatedPrice` |
+| `SalesDeal` | `SalesDeal` |
+| `SalesDealDescription` | `SalesDealDescription` |
+| `SalesPromotion` | `SalesPromotion` |
+| `_SoldToParty` | *Association* |
+| `_Customer` | *Association* |
+| `_SoldToPartyClassification` | *Association* |
+| `_ShipToParty` | *Association* |
+| `_BillToParty` | *Association* |
+| `_PayerParty` | *Association* |
+| `_SalesEmployee` | *Association* |
+| `_SalesEmployee_2` | *Association* |
+| `_ResponsibleEmployee` | *Association* |
+| `_ResponsibleEmployee_2` | *Association* |
+| `_CustomerGroup` | *Association* |
+| `_SalesDistrict` | *Association* |
+| `_Country` | *Association* |
+| `_Region` | *Association* |
+| `_CityCode` | *Association* |
+| `_County` | *Association* |
+| `_County_2` | *Association* |
+| `_CreditControlArea` | *Association* |
+| `_SalesGroup` | *Association* |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `_AdditionalCustomerGroup5` | *Association* |
+| `_SDDocumentReason` | *Association* |
+| `_SalesDeal` | *Association* |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `_SalesOrganization` | *Association* |
+| `_DistributionChannel` | *Association* |
+| `_OrganizationDivision` | *Association* |
+| `_Division` | *Association* |
+| `_SalesOffice` | *Association* |
+| `Material` | `Material` |
+| `Product` | `cast( Material as productnumber preserving type )` |
+| `OriginallyRequestedMaterial` | `OriginallyRequestedMaterial` |
+| `InternationalArticleNumber` | `InternationalArticleNumber` |
+| `PricingReferenceMaterial` | `PricingReferenceMaterial` |
+| `Batch` | `Batch` |
+| `ProductHierarchyNode` | `ProductHierarchyNode` |
+| `MaterialGroup` | `MaterialGroup` |
+| `ProductGroup` | `cast (MaterialGroup as productgroup preserving type)` |
+| `AdditionalMaterialGroup1` | `AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
+| `MaterialCommissionGroup` | `MaterialCommissionGroup` |
+| `Plant` | `Plant` |
+| `PlantName` | `PlantName` |
+| `StorageLocation` | `StorageLocation` |
+| `StorageLocationName` | `StorageLocationName` |
+| `_Material` | *Association* |
+| `_Product` | *Association* |
+| `_OriginallyRequestedMaterial` | *Association* |
+| `_PricingReferenceMaterial` | *Association* |
+| `_Batch` | *Association* |
+| `_ProductHierarchyNode` | *Association* |
+| `_MaterialGroup` | *Association* |
+| `_ProductGroup` | *Association* |
+| `_AdditionalMaterialGroup1` | *Association* |
+| `_AdditionalMaterialGroup2` | *Association* |
+| `_AdditionalMaterialGroup3` | *Association* |
+| `_AdditionalMaterialGroup4` | *Association* |
+| `_AdditionalMaterialGroup5` | *Association* |
+| `_MaterialCommissionGroup` | *Association* |
+| `_Plant` | *Association* |
+| `_StorageLocation` | *Association* |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingDocumentIsCancelled` | `BillingDocumentIsCancelled` |
+| `CancelledBillingDocument` | `CancelledBillingDocument` |
+| `ForeignTrade` | `ForeignTrade` |
+| `IsExportDelivery` | `IsExportDelivery` |
+| `BillingDocCombinationCriteria` | `BillingDocCombinationCriteria` |
+| `ManualInvoiceMaintIsRelevant` | `ManualInvoiceMaintIsRelevant` |
+| `BillingDocumentItemText` | `BillingDocumentItemText` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `BillingQuantity` | `BillingQuantity` |
+| `BillingQuantityUnit` | `BillingQuantityUnit` |
+| `BillingQuantityInBaseUnit` | `BillingQuantityInBaseUnit` |
+| `BaseUnit` | `BaseUnit` |
+| `MRPRequiredQuantityInBaseUnit` | `MRPRequiredQuantityInBaseUnit` |
+| `BillingToBaseQuantityDnmntr` | `BillingToBaseQuantityDnmntr` |
+| `BillingToBaseQuantityNmrtr` | `BillingToBaseQuantityNmrtr` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `BillToPartyCountry` | `BillToPartyCountry` |
+| `BillToPartyRegion` | `BillToPartyRegion` |
+| `BillingPlanRule` | `BillingPlanRule` |
+| `BillingPlan` | `BillingPlan` |
+| `BillingPlanItem` | `BillingPlanItem` |
+| `_BillingQuantityUnit` | *Association* |
+| `_BaseUnit` | *Association* |
+| `_ItemWeightUnit` | *Association* |
+| `_ItemVolumeUnit` | *Association* |
+| `_BillToPartyCountry` | *Association* |
+| `_BillToPartyRegion` | *Association* |
+| `_BillingPlanRule` | *Association* |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `PriceListType` | `PriceListType` |
+| `TaxDepartureCountry` | `TaxDepartureCountry` |
+| `VATRegistration` | `VATRegistration` |
+| `VATRegistrationOrigin` | `VATRegistrationOrigin` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `CustomerTaxClassification1` | `CustomerTaxClassification1` |
+| `CustomerTaxClassification2` | `CustomerTaxClassification2` |
+| `CustomerTaxClassification3` | `CustomerTaxClassification3` |
+| `CustomerTaxClassification4` | `CustomerTaxClassification4` |
+| `CustomerTaxClassification5` | `CustomerTaxClassification5` |
+| `CustomerTaxClassification6` | `CustomerTaxClassification6` |
+| `CustomerTaxClassification7` | `CustomerTaxClassification7` |
+| `CustomerTaxClassification8` | `CustomerTaxClassification8` |
+| `CustomerTaxClassification9` | `CustomerTaxClassification9` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ItemNetAmountOfBillingDoc` | `ItemNetAmountOfBillingDoc` |
+| `ItemNetAmountOfBillingDoc_2` | `ItemNetAmountOfBillingDoc_2` |
+| `ItemGrossAmountOfBillingDoc` | `ItemGrossAmountOfBillingDoc` |
+| `PricingDate` | `PricingDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `PricingScaleQuantityInBaseUnit` | `PricingScaleQuantityInBaseUnit` |
+| `TaxAmount` | `Item.TaxAmount` |
+| `CostAmount` | `CostAmount` |
+| `Subtotal1Amount` | `Subtotal1Amount` |
+| `Subtotal2Amount` | `Subtotal2Amount` |
+| `Subtotal3Amount` | `Subtotal3Amount` |
+| `Subtotal4Amount` | `Subtotal4Amount` |
+| `Subtotal5Amount` | `Subtotal5Amount` |
+| `Subtotal6Amount` | `Subtotal6Amount` |
+| `StatisticalValueControl` | `StatisticalValueControl` |
+| `_StatisticalValueControl` | *Association* |
+| `StatisticalValue` | `StatisticalValueControl` |
+| `MainItemPricingRefMaterial` | `MainItemPricingRefMaterial` |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `NetAmountInDisplayCurrency` | `cast(…)` |
+| `_CustomerPriceGroup` | *Association* |
+| `_PriceListType` | *Association* |
+| `_TaxDepartureCountry` | *Association* |
+| `_VATRegistrationOrigin` | *Association* |
+| `_VATRegistrationCountry` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `ShippingCondition` | `ShippingCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `ShippingPoint` | `ShippingPoint` |
+| `_ShippingCondition` | *Association* |
+| `_IncotermsClassification` | *Association* |
+| `_ShippingPoint` | *Association* |
+| `_IncotermsVersion` | *Association* |
+| `ContractAccount` | `ContractAccount` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `PaymentMethodName` | `PaymentMethodName` |
+| `PaymentReference` | `PaymentReference` |
+| `FixedValueDate` | `FixedValueDate` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `EligibleAmountForCashDiscount` | `EligibleAmountForCashDiscount` |
+| `CustomerProject` | `CustomerProjectItem.EngagementProject` |
+| `_CustomerPaymentTerms` | *Association* |
+| `_PaymentMethod` | *Association* |
+| `_CustomerProject` | *Association* |
+| `CompanyCode` | `CompanyCode` |
+| `CompanyCodeName` | `CompanyCodeName` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `AccountingExchangeRateIsSet` | `AccountingExchangeRateIsSet` |
+| `AccountingExchangeRate` | `AccountingExchangeRate` |
+| `ExchangeRateType` | `cast(ExchangeRateType as doc_exchange_rate_type preserving type )` |
+| `DocumentReferenceID` | `DocumentReferenceID` |
+| `AssignmentReference` | `AssignmentReference` |
+| `DunningArea` | `DunningArea` |
+| `DunningBlockingReason` | `DunningBlockingReason` |
+| `DunningKey` | `DunningKey` |
+| `InternalFinancialDocument` | `InternalFinancialDocument` |
+| `BusinessArea` | `BusinessArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `WBSElement` | `WBSElement` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementExternalID` | `_WBSElementBasicData.WBSElementExternalID` |
+| `ControllingArea` | `ControllingArea` |
+| `ControllingAreaName` | `ControllingAreaName` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
+| `OrderID` | `OrderID` |
+| `CostCenter` | `CostCenter` |
+| `OriginSDDocument` | `OriginSDDocument` |
+| `OriginSDDocumentItem` | `OriginSDDocumentItem` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `_CompanyCode` | *Association* |
+| `_FiscalYear` | *Association* |
+| `_CustomerAccountAssgmtGroup` | *Association* |
+| `_ExchangeRateType` | *Association* |
+| `_DunningArea` | *Association* |
+| `_DunningBlockingReason` | *Association* |
+| `_DunningKey` | *Association* |
+| `_BusinessArea` | *Association* |
+| `_ProfitCenter` | *Association* |
+| `_WBSElement` | *Association* |
+| `_WBSElementBasicData` | *Association* |
+| `_WBSElementExternalID` | *Association* |
+| `_ControllingArea` | *Association* |
+| `_OrderID` | *Association* |
+| `_CostCenter` | *Association* |
+| `ReferenceSDDocument` | `ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `ReferenceSDDocumentItem` |
+| `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
+| `SalesDocument` | `SalesDocument` |
+| `SalesDocumentItem` | `SalesDocumentItem` |
+| `SalesSDDocumentCategory` | `SalesSDDocumentCategory` |
+| `HigherLevelItem` | `HigherLevelItem` |
+| `BillingDocumentItemInPartSgmt` | `BillingDocumentItemInPartSgmt` |
+| `PropagatePrftbltySgmt2BOM` | `PropagatePrftbltySgmt2BOM` |
+| `CostDeterminationIsRequired` | `CostDeterminationIsRequired` |
+| `_ReferenceSDDocumentCategory` | *Association* |
+| `_SalesSDDocumentCategory` | *Association* |
+| `_SalesDocument` | *Association* |
+| `_SalesDocumentItem` | *Association* |
+| `_HigherLevelItem` | *Association* |
+| `_MainItemPricingRefMaterial` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `OverallSDProcessStatus` | `OverallSDProcessStatus` |
+| `OverallBillingStatus` | `OverallBillingStatus` |
+| `AccountingPostingStatus` | `AccountingPostingStatus` |
+| `AccountingTransferStatus` | `AccountingTransferStatus` |
+| `BillingIssueType` | `BillingIssueType` |
+| `InvoiceListStatus` | `InvoiceListStatus` |
+| `OvrlItmGeneralIncompletionSts` | `OvrlItmGeneralIncompletionSts` |
+| `OverallPricingIncompletionSts` | `OverallPricingIncompletionSts` |
+| `_OverallSDProcessStatus` | *Association* |
+| `_OverallBillingStatus` | *Association* |
+| `_AccountingPostingStatus` | *Association* |
+| `_AccountingTransferStatus` | *Association* |
+| `_BillingIssueType` | *Association* |
+| `_InvoiceListStatus` | *Association* |
+| `_OvrlItmGeneralIncompletionSts` | *Association* |
+| `_OverallPricingIncompletionSts` | *Association* |
+| `StatisticsCurrency` | `StatisticsCurrency` |
+| `_StatisticsCurrency` | *Association* |
+| `SalesVolumeNetAmount` | `SalesVolumeNetAmount` |
+| `SalesVolumeNetAmount_2` | `SalesVolumeNetAmount_2` |
+| `SlsVolumeNetAmtInDspCrcy` | `cast(…)` |
+| `CancldSlsVolumeNetAmt` | `CancldSlsVolumeNetAmt` |
+| `CancldSlsVolumeNetAmtInDspCrcy` | `cast(…)` |
+| `SalesProfitMarginNetAmount` | `SalesProfitMarginNetAmount` |
+| `SlsProfitMargNetAmtInDspCrcy` | `cast(…)` |
 | `CustomerCreditMemoNetAmount` | `CustomerCreditMemoNetAmount` |
 | `CustomerCreditMemoNetAmount_2` | `CustomerCreditMemoNetAmount_2` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CustomerCreditMemoNetAmount_2` | `amount => CustomerCreditMemoNetAmount_2` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => BillingDocumentDate` | `exchange_rate_date => BillingDocumentDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `mc_gunetwr )` | `)` |
+| `CustCrdtMemoNetAmtInDspCrcy` | `cast(…)` |
 | `CustCrdtMemoPrftMargNetAmt` | `CustCrdtMemoPrftMargNetAmt` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CustCrdtMemoPrftMargNetAmt` | `amount => CustCrdtMemoPrftMargNetAmt` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => BillingDocumentDate` | `exchange_rate_date => BillingDocumentDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `cm_prf_marg_net_amt_idc )` | `)` |
-| `SalesVolumeQuantity` | `SalesVolumeQuantity` |
+| `CustCrdtMemoPrftMargNetAmtInDC` | `cast(…)` |
 | `CustCreditMemoQuantity` | `CustCreditMemoQuantity` |
 
 ## Associations

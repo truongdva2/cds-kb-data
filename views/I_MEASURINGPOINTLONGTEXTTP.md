@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MeasuringPoint` | `MeasuringPoint` |
+| `MeasuringPoint` | `MeasuringPoint` |
 | `Language` | `Language` |
 | `MeasuringPointLongText` | `MeasuringPointLongText` |
-| `_MeasuringPoint : redirected to parent I_MeasuringPointTP_2` | *Association* |
 
 ## Associations
 

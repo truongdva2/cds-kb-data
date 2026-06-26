@@ -32,7 +32,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'FreeDefinedCurrency1'} }` | `currencyCode: 'FreeDefinedCurrency1'} }` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
+| `CostEstimate` | `CostEstimate` |
+| `Material` | `Material` |
+| `ValuationType` | `ValuationType` |
+| `ValuationArea` | `ValuationArea` |
+| `InvtryValnSpecialStockType` | `InvtryValnSpecialStockType` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `Supplier` | `Supplier` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `FiscalPeriod` | `$parameters.P_FiscalPeriod` |
+| `FiscalYear` | `$parameters.P_FiscalYear` |
+| `ValuationQuantity` | `ValuationQuantity` |
+| `UnitOfMeasure` | `UnitOfMeasure` |
+| `AmountInCompanyCodeCurrency` | `AmountInCompanyCodeCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `AmountInGlobalCurrency` | `AmountInGlobalCurrency` |
+| `GlobalCurrency` | `GlobalCurrency` |
 | `AmountInFreeDefinedCurrency1` | `AmountInFreeDefinedCurrency1` |
 | `FreeDefinedCurrency1` | `FreeDefinedCurrency1` |
 

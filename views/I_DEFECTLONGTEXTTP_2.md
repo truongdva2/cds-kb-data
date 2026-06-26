@@ -31,18 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _DefectLongText.DefectInternalID` | `_DefectLongText.DefectInternalID` |
-| `key _DefectLongText.LongTextInternalNumber` | `_DefectLongText.LongTextInternalNumber` |
-| `key _DefectLongText.Language` | `_DefectLongText.Language` |
-| `_DefectLongText.LongTextID` | *Association* |
-| `_DefectLongText.DefectLongText` | *Association* |
-| `_DefectLongText.LongTextCreatedByUser` | *Association* |
-| `_DefectLongText.LongTextCreatedAt` | *Association* |
-| `_DefectLongText.LongTextLastChangedByUser` | *Association* |
-| `_DefectLongText.LongTextLastChangedAt` | *Association* |
-| `_DefectLongText.MimeType` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_Defect : redirected to parent I_DefectTP_2` | *Association* |
+| `DefectInternalID` | `_DefectLongText.DefectInternalID` |
+| `LongTextInternalNumber` | `_DefectLongText.LongTextInternalNumber` |
+| `Language` | `_DefectLongText.Language` |
+| `LongTextID` | `_DefectLongText.LongTextID` |
+| `DefectLongText` | `_DefectLongText.DefectLongText` |
+| `LongTextCreatedByUser` | `_DefectLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `_DefectLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `_DefectLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `_DefectLongText.LongTextLastChangedAt` |
+| `MimeType` | `_DefectLongText.MimeType` |
 | `_Language` | *Association* |
 
 ## Associations

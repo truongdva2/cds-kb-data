@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
-| `key CapacityInternalID` | `CapacityInternalID` |
-| `key Language` | `Language` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
+| `CapacityInternalID` | `CapacityInternalID` |
+| `Language` | `Language` |
 | `CapacityText` | `CapacityText` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `_CapHeader: redirected to parent I_WorkCenterCapacityTP` | *Association* |
-| `_Header: redirected to I_WorkCenterTP` | *Association* |
 
 ## Associations
 

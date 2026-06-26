@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pdstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallProofOfDeliveryStatus` | `cast(left(dd07l.domvalue_l, 1 ) as pdstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

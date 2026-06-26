@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
-| `key ProdCmplncLogsDocumentItem` | `ProdCmplncLogsDocumentItem` |
+| `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
+| `ProdCmplncLogsDocumentItem` | `ProdCmplncLogsDocumentItem` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -64,9 +64,6 @@ tags:
 | `ChmlSuplrChkStatus` | `ChmlSuplrChkStatus` |
 | `ChmlSuplrChkStatusReason` | `ChmlSuplrChkStatusReason` |
 | `SftyDtaShtRcpntPtyDetnType` | `SftyDtaShtRcpntPtyDetnType` |
-| `/* Associations */` | `/* Associations */` |
-| `_PackingInstruction : redirected to composition child I_PCLgsDcItmPackgInstructionTP` | *Association* |
-| `_Document           : redirected to parent I_ProdCmplncLogsDocumentTP` | *Association* |
 
 ## Associations
 

@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `RequestForQuotation : ebeln;` | `RequestForQuotation : ebeln;` |
-| `Supplier : md_supplier ;` | `Supplier : md_supplier ;` |
-| `QuotationSubmissionDate : ihran ;` | `QuotationSubmissionDate : ihran ;` |
+| `RequestForQuotation` | `ebeln` |
+| `Supplier` | `md_supplier` |
+| `QuotationSubmissionDate` | `ihran` |
 
 ## Associations
 

@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderItemUUID : /scmtms/toritmuuid;` | `TransportationOrderItemUUID : /scmtms/toritmuuid;` |
-| `_FreightUnits               : composition [0..*] of D_FreightUnitAssignParameter;` | *Association* |
+| `TransportationOrderItemUUID` | `/scmtms/toritmuuid` |
+| `_FreightUnits` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FreightUnits` | `D_FreightUnitAssignParameter` | [0..*] |
 
 ## Source Code
 

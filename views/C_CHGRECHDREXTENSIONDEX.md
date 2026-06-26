@@ -15,6 +15,7 @@ tags:
   - header-level
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecord
 ---
 # C_CHGRECHDREXTENSIONDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 | `ParentChangeRecordUUID` | `ParentChangeRecordUUID` |
 | `ChgRecdHdrExtnUUID` | `ChgRecdHdrExtnUUID` |
 | `ChgRecdReasonForChange` | `ChgRecdReasonForChange` |

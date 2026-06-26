@@ -29,11 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FSItemMappingUUID: char32;` | `FSItemMappingUUID: char32;` |
-| `FiscalYear: fis_gjahr_no_conv;` | `FiscalYear: fis_gjahr_no_conv;` |
-| `CompanyCode: fis_bukrs;` | `CompanyCode: fis_bukrs;` |
-| `AccountingDocument: farp_belnr_d;` | `AccountingDocument: farp_belnr_d;` |
-| `Ledger: fis_rldnr;` | `Ledger: fis_rldnr;` |
+| `FSItemMappingUUID` | `char32` |
+| `FiscalYear` | `fis_gjahr_no_conv` |
+| `CompanyCode` | `fis_bukrs` |
+| `AccountingDocument` | `farp_belnr_d` |
+| `Ledger` | `fis_rldnr` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - approval
   - component:SD-SLS-SO-2CL
   - lob:Sales & Distribution
+  - bo:SalesOrderApprovalReason
 ---
 # I_SALESORDAPPROVALREASONTXT
 
@@ -31,14 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
+| `Language` | `SalesOrderApprovalReasonText.Language` |
 | `SalesOrderApprovalReason` | `SalesOrderApprovalReasonText.SalesDocApprovalReason` |
 | `SalesOrderApprovalReasonName` | `SalesOrderApprovalReasonText.SalesDocApprovalReasonName` |
 | `_SalesOrderApprovalReason` | *Association* |
-| `SalesOrderApprovalReasonText._Language` | `SalesOrderApprovalReasonText._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

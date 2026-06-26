@@ -33,14 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDelivery` | `OutboundDelivery` |
-| `key OutboundDeliveryItem` | `OutboundDeliveryItem` |
-| `key SerialNumber` | `SerialNumber` |
+| `OutboundDelivery` | `OutboundDelivery` |
+| `OutboundDeliveryItem` | `OutboundDeliveryItem` |
+| `SerialNumber` | `SerialNumber` |
 | `Equipment` | `Equipment` |
 | `Material` | `Material` |
-| `/* Associations */` | `/* Associations */` |
-| `_Delivery : redirected to I_OutboundDeliveryTP` | *Association* |
-| `_Item     : redirected to parent I_OutboundDeliveryItemTP` | *Association* |
 
 ## Associations
 

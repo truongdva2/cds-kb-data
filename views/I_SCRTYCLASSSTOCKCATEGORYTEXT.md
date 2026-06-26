@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClassStockCategory
 ---
 # I_SCRTYCLASSSTOCKCATEGORYTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `ddlanguage` |
 | `SecurityClassStockCategory` | `dd07t.domvalue_l` |
-| `ftr_gen_stock_category_name)` | `cast(dd07t.ddtext` |
+| `SecurityClassStockCategoryName` | `cast(dd07t.ddtext as ftr_gen_stock_category_name)` |
 | `_SecurityClassStockCategory` | *Association* |
 | `_Language` | *Association* |
 

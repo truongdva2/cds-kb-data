@@ -33,10 +33,10 @@ tags:
 | `ConditionRecord` | `ConditionRecord` |
 | `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionScaleLine` | `ConditionScaleLine` |
-| `kstbm )` | `cast( '0'` |
-| `konms )` | `cast( ''` |
-| `ConditionScaleAmount` | `ConditionScaleAmount` |
-| `ConditionScaleAmountCurrency` | `ConditionScaleAmountCurrency` |
+| `ConditionScaleQuantity` | `ConditionScaleQuantity` |
+| `ConditionScaleQuantityUnit` | `ConditionScaleQuantityUnit` |
+| `ConditionScaleAmount` | `cast( '0' as kstbw )` |
+| `ConditionScaleAmountCurrency` | `cast( '' as konws )` |
 | `ConditionRateValue` | `ConditionRateValue` |
 | `ConditionRateValueUnit` | `ConditionRateValueUnit` |
 | `ConditionRateRatio` | `ConditionRateRatio` |
@@ -50,8 +50,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_SlsPrcgConditionRecord` | `I_SlsPrcgConditionRecord` | [0..1] |
-| `_SlsPrcgCndnRecdSuplmnt` | `I_SlsPrcgCndnRecdSuplmnt` | [0..1] |
 | `_SlsPrcgConditionRecord` | `I_SlsPrcgConditionRecord` | [0..1] |
 | `_SlsPrcgCndnRecdSuplmnt` | `I_SlsPrcgCndnRecdSuplmnt` | [0..1] |
 

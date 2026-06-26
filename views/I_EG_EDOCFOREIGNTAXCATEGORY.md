@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EG_EDocCountryCode` | `EG_EDocCountryCode` |
-| `key EG_EDocBPPerson` | `EG_EDocBPPerson` |
+| `EG_EDocCountryCode` | `EG_EDocCountryCode` |
+| `EG_EDocBPPerson` | `EG_EDocBPPerson` |
 | `EG_EDocTaxNumberCategory` | `EG_EDocTaxNumberCategory` |
 | `EG_EDocPrefixCountryCode` | `EG_EDocPrefixCountryCode` |
 

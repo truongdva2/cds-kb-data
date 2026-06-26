@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountAssignmentNumber` | `AccountAssignmentNumber` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key SchedulingAgreement` | `SchedulingAgreement` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
 | `CostCenter` | `CostCenter` |
 | `MasterFixedAsset` | `MasterFixedAsset` |
 | `ProjectNetwork` | `ProjectNetwork` |
@@ -83,9 +83,6 @@ tags:
 | `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
 | `ValidityDate` | `ValidityDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm : redirected to parent I_SchedgAgrmtItmTP_2` | *Association* |
-| `_PurSchedgAgrmt : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

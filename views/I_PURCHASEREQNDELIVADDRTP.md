@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
-| `key PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 | `AddressID` | `AddressID` |
 | `Plant` | `Plant` |
 | `PurchasingDeliveryAddressType` | `PurchasingDeliveryAddressType` |
@@ -86,9 +86,6 @@ tags:
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseRequisitionItem : redirected to parent I_PurchaseReqnItemTP` | *Association* |
-| `_PurReqn                 : redirected to I_PurchaseRequisitionTP` | *Association* |
 
 ## Associations
 

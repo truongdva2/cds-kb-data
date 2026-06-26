@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:BillingIssueType
 ---
 # I_BILLINGISSUETYPETEXT
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vf_todo )` | `cast( domvalue_l` |
+| `BillingIssueType` | `cast( domvalue_l as vf_todo )` |
 | `Language` | `ddlanguage` |
 | `BillingIssueTypeName` | `ddtext` |
 | `_BillingIssueType` | *Association* |
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingIssueType` | `I_BillingIssueType` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

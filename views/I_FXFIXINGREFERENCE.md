@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:ForeignExchangeFixingReference
 ---
 # I_FXFIXINGREFERENCE
 

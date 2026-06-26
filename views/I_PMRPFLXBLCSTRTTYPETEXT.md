@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-PMR-ENG-2CL
   - lob:Manufacturing
+  - bo:PMRPConstraintType
 ---
 # I_PMRPFLXBLCSTRTTYPETEXT
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast(t.ddlanguage` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
 | `PMRPConstraintType` | `t.domvalue_l` |
 | `DomainValue` | `t.domvalue_l` |
 | `PMRPConstraintTypeText` | `t.ddtext` |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PMRPFlxblCstrtType` | `I_PMRPFlxblCstrtType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnTaskCategoryVH'` | `name: 'I_CnsldtnTaskCategoryVH'` |
-| `element: 'ConsolidationTaskCategory' } }]` | `element: 'ConsolidationTaskCategory' } }]` |
+| `ConsolidationMethod` | `ConsolidationMethod` |
+| `ConsolidationMethodText` | `cast(…)` |
 | `ConsolidationTaskCategory` | `ConsolidationTaskCategory` |
 
 ## Associations

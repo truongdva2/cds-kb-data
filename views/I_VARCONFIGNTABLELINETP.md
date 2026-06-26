@@ -31,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
-| `key VarConfignTblLineNumber` | `VarConfignTblLineNumber` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblLineNumber` | `VarConfignTblLineNumber` |
+| `ChangeNumber` | `ChangeNumber` |
 | `VarConfignTblTmpLinePosition` | `VarConfignTblTmpLinePosition` |
 | `IsDeleted` | `IsDeleted` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_Table : redirected to parent I_VarConfignTableContentTP` | *Association* |
-| `_Value : redirected to composition child I_VarConfignTableValueTP` | *Association* |
 
 ## Associations
 

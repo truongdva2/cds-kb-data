@@ -14,6 +14,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrder
 ---
 # I_PLANNEDORDER
 
@@ -30,20 +31,71 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ChangeMasterStdVH', element: 'ChangeNumber' } } ]` | `name: 'I_ChangeMasterStdVH', element: 'ChangeNumber' } } ]` |
+| `PlannedOrder` | `plaf.plnum` |
+| `PlannedOrderType` | `cast(plaf.paart as paart preserving type)` |
+| `PlannedOrderCategory` | `cast(plaf.obart as plannedordercategory preserving type)` |
+| `LastChangeDate` | `cast(left(cast(plaf.pstmp as abap.char(17)), 8) as aedat)` |
+| `LastChangeDateTime` | `plaf.pstmp` |
+| `LastChangedByUser` | `plaf.puser` |
+| `PlannedOrderLongText` | `plaf.ptext` |
+| `Material` | `plaf.matnr` |
+| `Product` | `cast(plaf.matnr as productnumber preserving type)` |
+| `MRPPlant` | `plaf.plwrk` |
+| `MRPArea` | `plaf.berid` |
+| `MRPController` | `cast(plaf.dispo as pph_dispo preserving type )` |
+| `MaterialProcurementCategory` | `cast(plaf.beskz as pph_beskz preserving type)` |
+| `MaterialProcurementType` | `cast(plaf.sobes as pph_sobes preserving type)` |
+| `MaterialGoodsReceiptDuration` | `cast(plaf.webaz as pph_webaz preserving type)` |
+| `MaterialPlannedDeliveryDurn` | `cast(plaf.plifz as pph_plifz preserving type)` |
+| `StorageLocation` | `cast(plaf.lgort as pph_lgort preserving type)` |
+| `InventorySpecialStockType` | `cast(plaf.sobkz as pph_sobkz preserving type)` |
+| `ConsumptionPosting` | `cast(plaf.kzvbr as pph_kzvbr preserving type)` |
+| `ManufacturerMaterial` | `cast(plaf.ematn as pph_ematn preserving type)` |
+| `IssuingStorageLocation` | `plaf.reslo` |
+| `BillOfOperationsType` | `cast(plaf.plnty as billofoperationstype preserving type)` |
+| `BillOfOperations` | `cast(plaf.plnnr as billofoperations preserving type)` |
+| `BillOfOperationsGroup` | `cast(plaf.plnnr as billofoperationsgroup preserving type)` |
+| `BillOfOperationsVariant` | `cast(plaf.plnal as billofoperationsvariant preserving type)` |
+| `BillOfMaterialVariant` | `plaf.stalt` |
+| `BillOfMaterialVariantUsage` | `plaf.stlan` |
+| `BillOfMaterialStatus` | `plaf.ststa` |
+| `BillOfMaterialVersion` | `plaf.bom_versn` |
+| `BOMExplosionDateID` | `cast(plaf.sernr as pph_sernr preserving type)` |
+| `ProductionPlant` | `plaf.pwwrk` |
+| `ProductionSupervisor` | `cast(plaf.plgrp as pph_fevor preserving type)` |
+| `ProductionVersion` | `plaf.verid` |
+| `MRPPlanningScenario` | `plaf.plscn` |
+| `Reservation` | `plaf.rsnum` |
+| `SettlementReservation` | `cast(plaf.arsnr as settlmntres preserving type)` |
+| `SettlementReservationItem` | `-- cast(plaf.arsps as pph_arsps preserving type)` |
+| `PurchasingOrganization` | `plaf.ekorg` |
+| `PurchasingDocument` | `cast(plaf.konnr as pph_konnr preserving type)` |
+| `PurchasingDocumentItem` | `cast(plaf.ktpnr as pph_ktpnr preserving type)` |
+| `QuotaArrangement` | `-- cast(plaf.qunum as pph_qunum preserving type)` |
+| `QuotaArrangementItem` | `-- cast(plaf.qupos as pph_qupos preserving type)` |
+| `FixedSupplier` | `plaf.flief` |
+| `SupplierIsSubcontractor` | `plaf.lblkz` |
+| `Customer` | `plaf.kunnr` |
+| `SalesOrder` | `cast(plaf.kdauf as co_kdauf preserving type)` |
+| `SalesOrderItem` | `cast(plaf.kdpos as co_kdpos preserving type)` |
+| `WBSElementInternalID` | `cast(plaf.pspel as pph_pspel preserving type)` |
+| `WBSElementInternalID_2` | `cast(plaf.pspel as ps_s4_pspnr preserving type)` |
+| `CapacityRequirement` | `plaf.bedid` |
+| `SchedulingType` | `cast(plaf.trart as pph_termkz preserving type)` |
+| `SchedulingError` | `plaf.trmer` |
 | `ChangeNumber` | `plaf.aennr` |
-| `qrevlv preserving type)` | `cast(plaf.revlv` |
-| `vdm_qm_revlv preserving type)` | `cast(plaf.revlv` |
-| `pph_knttp preserving type)` | `cast(plaf.knttp` |
-| `pph_mntga)` | `cast(plaf.monkz` |
+| `MaterialRevisionLevel` | `cast(plaf.revlv as qrevlv preserving type)` |
+| `MaterialRevisionLevel_2` | `cast(plaf.revlv as vdm_qm_revlv preserving type)` |
+| `AccountAssignmentCategory` | `cast(plaf.knttp as pph_knttp preserving type)` |
+| `AssemblyProcessingType` | `cast(plaf.monkz as pph_mntga)` |
 | `QuantityDistributionKey` | `plaf.verto` |
 | `EffectivityParameterVariant` | `plaf.techs` |
 | `RequirementPlan` | `plaf.pbdnr` |
-| `vdm_kzavc preserving type)` | `cast(plaf.kzavc` |
+| `ProductAvailabilityCheckType` | `cast(plaf.kzavc as vdm_kzavc preserving type)` |
 | `CentralContract` | `plaf.srm_contract_id` |
 | `CentralContractItem` | `plaf.srm_contract_itm` |
 | `PlannedOrderActionControl` | `plaf.mdach` |
-| `vdm_mdacc preserving type)` | `cast(plaf.mdacc` |
+| `PlannedOrderProcgAction` | `cast(plaf.mdacc as vdm_mdacc preserving type)` |
 | `PlannedOrderLastActionDate` | `plaf.mdacd` |
 | `PlannedOrderLastActionTime` | `plaf.mdact` |
 | `PlannedOrderIsFirm` | `plaf.auffx` |
@@ -51,18 +103,12 @@ tags:
 | `PlannedOrderIsConvertible` | `plaf.umskz` |
 | `PlndOrderIsCreatedForRptvMfg` | `plaf.remfl` |
 | `PlndOrderReplnmtElmntType` | `plaf.kbnkz` |
-| `cast(case` | `cast(case` |
-| `when plaf.monkz <> '' then 'X'` | `when plaf.monkz <> '' then 'X'` |
-| `else plaf.monkz` | `else plaf.monkz` |
-| `pph_monkz preserving type)` | `end` |
+| `PlndOrdIsCrtedForAssemblyProcg` | `cast(…)` |
 | `PlannedOrderCapacityIsDsptchd` | `plaf.kapfx` |
 | `OrderIsScheduled` | `plaf.trmkz` |
 | `PlndOrdConfOfAvailability` | `plaf.mdpbv` |
-| `pph_vrpla preserving type)` | `cast(plaf.vrpla` |
-| `cast(case` | `cast(case` |
-| `when plaf.arsnr > '0000000000' then 'X'` | `when plaf.arsnr > '0000000000' then 'X'` |
-| `when plaf.arsnr = '0000000000' then ' '` | `when plaf.arsnr = '0000000000' then ' '` |
-| `vdm_prodnet preserving type)` | `end` |
+| `IsPlannedWithoutFinalAssembly` | `cast(plaf.vrpla as pph_vrpla preserving type)` |
+| `PlannedOrderIsPartOfCollvOrder` | `cast(…)` |
 | `PlndOrderPlannedStartDate` | `plaf.psttr` |
 | `PlndOrderPlannedStartTime` | `plaf.pstti` |
 | `PlndOrderPlannedEndDate` | `plaf.pedtr` |
@@ -74,7 +120,7 @@ tags:
 | `BOMExplosionDate` | `plaf.paltr` |
 | `PlndOrderBaseToEntryQtyNmrtr` | `plaf.umrez` |
 | `PlndOrderBaseToEntryQtyDnmntr` | `plaf.umren` |
-| `BaseUnit` | `plaf.meins` |
+| `BaseUnit` | `-- Base unit plaf.meins` |
 | `PlannedTotalQtyInBaseUnit` | `plaf.gsmng` |
 | `PlannedScrapQtyInBaseUnit` | `plaf.avmng` |
 | `RequirementQuantityInBaseUnit` | `plaf.bdmng` |
@@ -83,14 +129,14 @@ tags:
 | `PlndOrderCommittedQty` | `plaf.vfmng` |
 | `PlannedOrderReducedQuantity` | `plaf.abmng` |
 | `PlannedOrderPartialLotQuantity` | `plaf.tlmng` |
-| `EntryUnit` | `plaf.erfme` |
-| `pph_erfmg preserving type)` | `cast(plaf.erfmg` |
-| `MasterPlannedOrder,     // Master Planned Order Number` | `plaf.fsh_mplnd_ord` |
-| `StockSegment,           // Stock Segment` | `plaf.sgt_scat` |
-| `ProductSeasonYear,      // Season Year` | `plaf.fsh_season_year` |
-| `ProductSeason,          // Season` | `plaf.fsh_season` |
-| `ProductCollection,      // Collection` | `plaf.fsh_collection` |
-| `ProductTheme,           // Theme` | `plaf.fsh_theme` |
+| `EntryUnit` | `-- Entry unit plaf.erfme` |
+| `PlndOrderEntryQuantity` | `cast(plaf.erfmg as pph_erfmg preserving type)` |
+| `MasterPlannedOrder` | `plaf.fsh_mplnd_ord` |
+| `StockSegment` | `plaf.sgt_scat` |
+| `ProductSeasonYear` | `plaf.fsh_season_year` |
+| `ProductSeason` | `plaf.fsh_season` |
+| `ProductCollection` | `plaf.fsh_collection` |
+| `ProductTheme` | `plaf.fsh_theme` |
 | `_PlannedOrderComponent` | *Association* |
 | `_PlannedOrderCapacity` | *Association* |
 | `_PlannedOrderType` | *Association* |

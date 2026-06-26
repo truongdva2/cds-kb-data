@@ -46,14 +46,13 @@ tags:
 | `BillOfMaterialItemUnit` | `BillOfMaterialItemUnit` |
 | `IsDeleted` | `IsDeleted` |
 | `ResvnIsMRPRlvtOrPurReqnIsCrted` | `ResvnIsMRPRlvtOrPurReqnIsCrted` |
-| `_BOMItemEAM.BillOfMaterialComponent` | *Association* |
-| `_BOMItemEAM.BillOfMaterialItemCategory` | *Association* |
-| `_MaintenanceTaskList.TechObjIsEquipOrFuncnlLoc` | *Association* |
-| `_MaintenanceTaskList.Equipment` | *Association* |
-| `_MaintenanceTaskList.FunctionalLocation` | *Association* |
+| `BillOfMaterialComponent` | `_BOMItemEAM.BillOfMaterialComponent` |
+| `BillOfMaterialItemCategory` | `_BOMItemEAM.BillOfMaterialItemCategory` |
+| `TechObjIsEquipOrFuncnlLoc` | `_MaintenanceTaskList.TechObjIsEquipOrFuncnlLoc` |
+| `Equipment` | `_MaintenanceTaskList.Equipment` |
+| `FunctionalLocation` | `_MaintenanceTaskList.FunctionalLocation` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_BillOfMaterialItem` | *Association* |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
@@ -62,14 +61,12 @@ tags:
 | `_BillOfOperationsType` | *Association* |
 | `_BOOOpBOMItemInternalID` | *Association* |
 | `_BOOOperationInternalID` | *Association* |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
 | `_BOMItemEAM` | *Association* |
 | `_BillOfMaterialComponent` | *Association* |
 | `_BillOfMaterialItemCategory` | *Association* |
 | `_BOMItemCategoryText` | *Association* |
 | `_MatlsPlngRelevancy` | *Association* |
 | `_SafetyRelevance` | *Association* |
-| `/* Associations - DCL */` | `/* Associations - DCL */` |
 | `_MaintenanceTaskList` | *Association* |
 
 ## Associations

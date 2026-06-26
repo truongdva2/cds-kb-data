@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListType
 ---
 # I_INVOICELISTTYPETEXT
 
@@ -32,15 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InvoiceListType.InvoiceListType` | `InvoiceListType.InvoiceListType` |
-| `key Text.Language` | `Text.Language` |
-| `invoicelisttypename preserving type)` | `cast(Text.BillingProcessDocumentTypeName` |
-| `Text._Language` | `Text._Language` |
+| `InvoiceListType` | `InvoiceListType.InvoiceListType` |
+| `Language` | `Text.Language` |
+| `InvoiceListTypeName` | `cast(Text.BillingProcessDocumentTypeName as invoicelisttypename preserving type)` |
+| `_Language` | *Association* |
 | `_InvoiceListType` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_InvoiceListType` | `I_InvoiceListType` | — |
 
 ## Source Code
 

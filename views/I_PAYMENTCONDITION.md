@@ -32,9 +32,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PaymentCondition` | `zahlkond` |
-| `farp_dzterm preserving type)` | `cast( zterm` |
-| `cr_wfcid preserving type)` | `cast( fcalid` |
-| `guzte preserving type)` | `cast( gterm` |
+| `PaymentTerms` | `cast( zterm as farp_dzterm preserving type)` |
+| `FactoryCalendar` | `cast( fcalid as cr_wfcid preserving type)` |
+| `CreditMemoPaymentTerms` | `cast( gterm as guzte preserving type)` |
 | `_Text` | *Association* |
 | `_FactoryCal` | *Association* |
 

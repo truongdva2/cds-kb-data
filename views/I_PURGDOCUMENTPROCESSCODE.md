@@ -13,6 +13,7 @@ tags:
   - document
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentProcessCode
 ---
 # I_PURGDOCUMENTPROCESSCODE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 3 ) )` | `cast (cast(substring(dd07l.domvalue_l ,1,3)` |
+| `PurchasingDocumentProcessCode` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgDocumentProcessCodeText` | [0..*] |
 
 ## Source Code
 

@@ -30,21 +30,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVenturePartnerValueHelp'` | `name:    'I_JointVenturePartnerValueHelp'` |
-| `element: 'JointVenturePartner' }` | `element: 'JointVenturePartner' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `JVFile.CompanyCode` |
+| `FiscalYear` | `JVFile.FiscalYear` |
+| `FiscalPeriod` | `JVFile.FiscalPeriod` |
 | `JointVenturePartner` | `JVFile.JointVenturePartner` |
 | `CreationDate` | `JVFile.CreationDate` |
 | `LinkedSAPObjectKey` | `JVFile.ObjectKey` |
 | `JVABillingFileType` | `JVFile.JVABillingFileType` |
-| `_DirObjectLinks.DocumentInfoRecordDocType` | *Association* |
-| `_DirObjectLinks.DocumentInfoRecordDocNumber` | *Association* |
-| `_DirObjectLinks.DocumentInfoRecordDocPart` | *Association* |
-| `_DirObjectLinks.DocumentInfoRecordDocVersion` | *Association* |
-| `_DirObjectLinks.LinkedSAPObject` | *Association* |
-| `_DirOriginals.LogicalDocument` | *Association* |
-| `_DirOriginals.PhysicalDocument` | *Association* |
-| `_DirOriginals.WorkstationApplication` | *Association* |
+| `DocumentInfoRecordDocType` | `_DirObjectLinks.DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `_DirObjectLinks.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocPart` | `_DirObjectLinks.DocumentInfoRecordDocPart` |
+| `DocumentInfoRecordDocVersion` | `_DirObjectLinks.DocumentInfoRecordDocVersion` |
+| `LinkedSAPObject` | `_DirObjectLinks.LinkedSAPObject` |
+| `LogicalDocument` | `_DirOriginals.LogicalDocument` |
+| `PhysicalDocument` | `_DirOriginals.PhysicalDocument` |
+| `WorkstationApplication` | `_DirOriginals.WorkstationApplication` |
 
 ## Associations
 

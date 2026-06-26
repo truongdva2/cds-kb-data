@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPType
 ---
 # I_MRPTYPE
 
@@ -29,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `MRPType` | `typ.dismm` |
 | `MRPProcedure` | `typ.disvf` |
 | `_MRPProcedure` | *Association* |

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePlannerGroup
 ---
 # I_MAINTPLNRGRPSTDVH
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
+| `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `MaintenancePlannerGroupName` | `MaintenancePlannerGroupName` |
 | `_MaintenancePlanningPlant` | *Association* |
 

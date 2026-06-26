@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrderProcessingContext
 ---
 # I_MAINTORDERPROCESSINGCONTEXT
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `maintorderprocessingcontext )` | `cast( dd07l.domvalue_l` |
+| `MaintOrderProcessingContext` | `cast( dd07l.domvalue_l as maintorderprocessingcontext )` |
 | `_Text` | *Association* |
 
 ## Associations

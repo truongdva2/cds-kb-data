@@ -28,14 +28,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `element: 'Currency'` | `element: 'Currency'` |
-| `name: 'I_CurrencyStdVH'` | `name: 'I_CurrencyStdVH'` |
-| `}` | `}` |
-| `label : 'Currency'` | `label : 'Currency'` |
-| `}` | `}` |
-| `]` | `]` |
-| `TransactionCurrency : twaer;` | `TransactionCurrency : twaer;` |
-| `CompanyCode : bukrs;` | `CompanyCode : bukrs;` |
+| `TransactionCurrency` | `twaer` |
+| `CompanyCode` | `bukrs` |
 
 ## Associations
 

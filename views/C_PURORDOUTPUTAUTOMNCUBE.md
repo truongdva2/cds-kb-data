@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Automation.PurchaseOrder` | `Automation.PurchaseOrder` |
-| `key POOutputMessageItemID` | `POOutputMessageItemID` |
-| `Automation.POOutputChannel` | `Automation.POOutputChannel` |
-| `Automation.Supplier` | `Automation.Supplier` |
-| `Automation.PurchasingOrganization` | `Automation.PurchasingOrganization` |
-| `Automation.PurchasingGroup` | `Automation.PurchasingGroup` |
-| `Calendar.CalendarYear` | `Calendar.CalendarYear` |
-| `Calendar.CalendarQuarter` | `Calendar.CalendarQuarter` |
-| `Calendar.CalendarMonth` | `Calendar.CalendarMonth` |
-| `Calendar.CalendarWeek` | `Calendar.CalendarWeek` |
+| `PurchaseOrder` | `Automation.PurchaseOrder` |
+| `POOutputMessageItemID` | `POOutputMessageItemID` |
+| `POOutputChannel` | `Automation.POOutputChannel` |
+| `Supplier` | `Automation.Supplier` |
+| `PurchasingOrganization` | `Automation.PurchasingOrganization` |
+| `PurchasingGroup` | `Automation.PurchasingGroup` |
+| `CalendarYear` | `Calendar.CalendarYear` |
+| `CalendarQuarter` | `Calendar.CalendarQuarter` |
+| `CalendarMonth` | `Calendar.CalendarMonth` |
+| `CalendarWeek` | `Calendar.CalendarWeek` |
 | `PurchaseOrderDate` | `PurchaseOrderDate` |
 | `POOutputChannelManualUniqueID` | `POOutputChannelManualUniqueID` |
 | `POOutputChannelAutomnUniqueID` | `POOutputChannelAutomnUniqueID` |
@@ -50,9 +50,9 @@ tags:
 | `NmbrOfPurOrdersOutputAsXML` | `NmbrOfPurOrdersOutputAsXML` |
 | `NmbrOfPurOrdersOutputAsIDOC` | `NmbrOfPurOrdersOutputAsIDOC` |
 | `NmbrOfPurOrdersOutputAsEDI` | `NmbrOfPurOrdersOutputAsEDI` |
-| `abap.int4 )` | `cast(1` |
-| `abap.int4 )` | `cast( 1` |
-| `abap.int4 )` | `cast( 1` |
+| `NmbrOfPurOrdsWithAutomnOutput` | `cast(1 as abap.int4 )` |
+| `NmbrOfPurOrdsWithNonAutomnOutp` | `cast( 1 as abap.int4 )` |
+| `NmbrOfPOOutputItems` | `cast( 1 as abap.int4 )` |
 | `_PurchasingOrganization` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_OutputType` | *Association* |
@@ -65,7 +65,6 @@ tags:
 | `_PurchasingOrganization` | `I_PurchasingOrganization` | [1..1] |
 | `_PurchasingGroup` | `I_PurchasingGroup` | [1..1] |
 | `_Supplier` | `I_Supplier` | [1..1] |
-| `Calendar` | `I_CalendarDate` | [1..1] |
 | `_OutputType` | `I_POChannelOutputType` | [1..1] |
 
 ## Source Code

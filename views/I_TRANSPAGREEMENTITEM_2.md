@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpagrmt_itm_uuid preserving type)` | `cast(db_key` |
+| `TranspAgreementItemUUID` | `cast(db_key as /scmtms/transpagrmt_itm_uuid preserving type)` |
 | `TransportationAgreementItem` | `item_no` |
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/transpcalcsheet_uuid preserving type)` | `cast(tccs_uuid` |
+| `TransportationAgreementUUID` | `cast(parent_key as /scmtms/transpagrmt_uuid preserving type)` |
+| `TranspCalculationSheetUUID` | `cast(tccs_uuid as /scmtms/transpcalcsheet_uuid preserving type)` |
 | `TransportationStageCategory` | `stage_cat` |
-| `/scmtms/vdm_fag_calc_sheet preserving type)` | `cast(tccs_id` |
-| `/scmtms/vdm_tcc_item_is_header preserving type)` | `cast(is_header_charge` |
+| `TranspChargeCalculationSheet` | `cast(tccs_id as /scmtms/vdm_fag_calc_sheet preserving type)` |
+| `TranspChargeItemIsHeaderCharge` | `cast(is_header_charge as /scmtms/vdm_tcc_item_is_header preserving type)` |
 | `_TransportationAgreement` | *Association* |
 | `_TranspAgrmtPaymentTerm` | *Association* |
 | `_TranspChargeCalcSheet` | *Association* |
@@ -47,6 +47,10 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationAgreement` | `I_TransportationAgreement` | — |
+| `_TranspAgrmtPaymentTerm` | `I_TranspAgrmtPaymentTerm` | [0..1] |
+| `_TranspAgrmtItemDescription` | `I_TranspAgrmtItemDescription_2` | [0..1] |
+| `_TranspChargeCalcSheet` | `I_TranspChrgCalculationSheet_2` | [0..1] |
 | `_TransportationStageCategory` | `I_TranspOrdStageCategory` | [0..1] |
 
 ## Source Code

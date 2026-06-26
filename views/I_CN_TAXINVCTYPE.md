@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-TIM-CN
   - lob:Finance
+  - bo:CN_ValueAddedTaxInvoiceType
 ---
 # I_CN_TAXINVCTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key type.CN_TaxInvcType` | `type.CN_TaxInvcType` |
+| `CN_TaxInvcType` | `type.CN_TaxInvcType` |
 | `_Text` | *Association* |
 
 ## Associations

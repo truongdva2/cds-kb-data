@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:Segment
 ---
 # I_SEGMENTSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Segment` | `Segment` |
+| `Segment` | `Segment` |
 | `_Text` | *Association* |
 
 ## Associations

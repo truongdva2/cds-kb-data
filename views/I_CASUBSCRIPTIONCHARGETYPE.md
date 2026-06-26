@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `charge_type_kk preserving type )` | `cast( left( dd07l.domvalue_l,2 )` |
+| `CASubscriptionChargeType` | `cast( left( dd07l.domvalue_l,2 ) as charge_type_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

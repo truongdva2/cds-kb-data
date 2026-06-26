@@ -52,6 +52,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_REConditionTypeText` | [0..*] |
 | `_REConditionAttribute` | `I_REConditionAttribute` | [0..1] |
 | `_REFlowType` | `I_REFlowType` | [0..1] |
 | `_RECndnCalculationRuleExt` | `I_RECndnCalculationRuleExt` | [0..1] |

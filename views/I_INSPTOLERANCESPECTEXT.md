@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `InspToleranceSpecification` | `tq29t.toleranzsl` |
+| `Language` | `tq29t.sprache` |
 | `InspToleranceSpecificationText` | `tq29t.kurztext` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspToleranceSpecification` | `,_InspToleranceSpecification` |
-| `,_Language` | `,_Language` |
+| `_InspToleranceSpecification` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

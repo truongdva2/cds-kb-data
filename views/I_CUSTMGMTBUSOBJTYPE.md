@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:CustMgmtBusObjType
 ---
 # I_CUSTMGMTBUSOBJTYPE
 
@@ -28,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
+| `BusinessObjectType` | `subobj_category` |
 | `_Text` | *Association* |
 
 ## Associations

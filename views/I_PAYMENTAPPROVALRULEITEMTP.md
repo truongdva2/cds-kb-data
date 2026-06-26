@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentApprovalRule` | `PaymentApprovalRule` |
-| `key PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
+| `PaymentApprovalRule` | `PaymentApprovalRule` |
+| `PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
 | `PaymentApprovalCategory` | `PaymentApprovalCategory` |
 | `IsUnlimited` | `IsUnlimited` |
 | `PaytApprvlDfltLmtCurrency` | `PaytApprvlDfltLmtCurrency` |
@@ -44,10 +44,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PaymentApprovalRule : redirected to parent I_PaymentApprovalRuleTP` | *Association* |
-| `_PaymentApprovalRuleLimit : redirected to composition child I_PaymentApprovalRuleLimitTP` | *Association* |
-| `_PaytApprvlRuleApprvrGroup : redirected to composition child I_PaytApprvlRuleApprvrGroupTP` | *Association* |
 
 ## Associations
 

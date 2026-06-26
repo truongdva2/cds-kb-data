@@ -29,14 +29,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: '_QualityNotificationItem' }` | `status: #DEPRECATED, successor: '_QualityNotificationItem' }` |
+| `QualityNotification` | `I_NotificationCause.Notification` |
+| `NotificationItem` | `I_NotificationCause.NotificationItem` |
+| `NotificationCauseID` | `I_NotificationCause.NotificationCauseID` |
+| `NotificationCauseSortNumber` | `I_NotificationCause.NotificationCauseSortNumber` |
+| `CreatedByUser` | `I_NotificationCause.CreatedByUser` |
+| `CreationDate` | `I_NotificationCause.CreationDate` |
+| `CreationTime` | `I_NotificationCause.CreationTime` |
+| `LastChangedByUser` | `I_NotificationCause.LastChangedByUser` |
+| `LastChangeDate` | `I_NotificationCause.LastChangeDate` |
+| `LastChangeTime` | `I_NotificationCause.LastChangeTime` |
+| `NotificationCauseText` | `I_NotificationCause.NotificationCauseText` |
+| `NotificationCauseCodeCatalog` | `cast(…)` |
+| `NotificationCauseCodeGroup` | `cast(…)` |
+| `NotificationCauseCode` | `I_NotificationCause.NotificationCauseCode` |
+| `ChangedDateTime` | `I_NotificationCause.ChangedDateTime` |
+| `MasterLanguage` | `I_NotificationCause.MasterLanguage` |
+| `NotificationRootCause` | `I_NotificationCause.NotificationRootCause` |
+| `IsDeleted` | `cast( I_NotificationCause.IsDeleted as vdm_qisdeleted preserving type )` |
+| `IsBusinessPurposeCompleted` | `I_NotificationCause.IsBusinessPurposeCompleted` |
+| `_QltyNotification` | *Association* |
+| `_Notification` | *Association* |
+| `_QualityNotificationItem` | *Association* |
 | `_NotificationItem` | *Association* |
-| `I_NotificationCause._CreatedByUserContactCard` | `I_NotificationCause._CreatedByUserContactCard` |
-| `I_NotificationCause._LastChangedByUserContactCard` | `I_NotificationCause._LastChangedByUserContactCard` |
-| `I_NotificationCause._NotifCauseCodeCatalog` | `I_NotificationCause._NotifCauseCodeCatalog` |
-| `I_NotificationCause._NotifCauseCodeGroup` | `I_NotificationCause._NotifCauseCodeGroup` |
-| `I_NotificationCause._NotifCauseCode` | `I_NotificationCause._NotifCauseCode` |
-| `I_NotificationCause._NotificationRootCause` | `I_NotificationCause._NotificationRootCause` |
+| `_CreatedByUserContactCard` | *Association* |
+| `_LastChangedByUserContactCard` | *Association* |
+| `_NotifCauseCodeCatalog` | *Association* |
+| `_NotifCauseCodeGroup` | *Association* |
+| `_NotifCauseCode` | *Association* |
+| `_NotificationRootCause` | *Association* |
 
 ## Associations
 

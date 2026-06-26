@@ -30,38 +30,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustProjSlsOrdItmBillgPln.CustomerProject` | `CustProjSlsOrdItmBillgPln.CustomerProject` |
-| `key CustProjSlsOrdItmBillgPln.SalesOrderItem` | `CustProjSlsOrdItmBillgPln.SalesOrderItem` |
-| `fplnr preserving type )` | `cast( CustProjSlsOrdItmBillgPln.BillingPlan` |
-| `key BillingPlanDueDate.BillingPlanItem` | `BillingPlanDueDate.BillingPlanItem` |
-| `CustProjSlsOrdItmBillgPln.BillingPlanUsageCategory` | `CustProjSlsOrdItmBillgPln.BillingPlanUsageCategory` |
-| `CustProjSlsOrdItmBillgPln.SalesOrder` | `CustProjSlsOrdItmBillgPln.SalesOrder` |
-| `BillingPlanDueDate.BillingPlanBillingDate` | `BillingPlanDueDate.BillingPlanBillingDate` |
-| `BillingPlanDueDate.BillingPlanRelatedBillgStatus` | `BillingPlanDueDate.BillingPlanRelatedBillgStatus` |
-| `BillingPlanDueDate.BillgPlnDteCorrectionRfndType` | `BillingPlanDueDate.BillgPlnDteCorrectionRfndType` |
-| `BillingPlanDueDate.BillingPlanAmount` | `BillingPlanDueDate.BillingPlanAmount` |
-| `BillingPlanDueDate.TransactionCurrency` | `BillingPlanDueDate.TransactionCurrency` |
+| `CustomerProject` | `CustProjSlsOrdItmBillgPln.CustomerProject` |
+| `SalesOrderItem` | `CustProjSlsOrdItmBillgPln.SalesOrderItem` |
+| `BillingPlan` | `cast( CustProjSlsOrdItmBillgPln.BillingPlan as fplnr preserving type )` |
+| `BillingPlanItem` | `BillingPlanDueDate.BillingPlanItem` |
+| `BillingPlanUsageCategory` | `CustProjSlsOrdItmBillgPln.BillingPlanUsageCategory` |
+| `SalesOrder` | `CustProjSlsOrdItmBillgPln.SalesOrder` |
+| `BillingPlanBillingDate` | `BillingPlanDueDate.BillingPlanBillingDate` |
+| `BillingPlanRelatedBillgStatus` | `BillingPlanDueDate.BillingPlanRelatedBillgStatus` |
+| `BillgPlnDteCorrectionRfndType` | `BillingPlanDueDate.BillgPlnDteCorrectionRfndType` |
+| `BillingPlanAmount` | `BillingPlanDueDate.BillingPlanAmount` |
+| `TransactionCurrency` | `BillingPlanDueDate.TransactionCurrency` |
 | `BillingPlanRule` | `BillingPlanDueDate.BillingPlanBillingRule` |
-| `BillingPlanDueDate.PostponementReason` | `BillingPlanDueDate.PostponementReason` |
-| `BillingPlanDueDate.BillingPlanItemUsage` | `BillingPlanDueDate.BillingPlanItemUsage` |
-| `BillingPlanDueDate.BillingPlanItemUsage_2` | `BillingPlanDueDate.BillingPlanItemUsage_2` |
-| `BillingPlanDueDate.BillingPlanItemDescription` | `BillingPlanDueDate.BillingPlanItemDescription` |
-| `BillingPlanDueDate.BillingPlanServiceStartDate` | `BillingPlanDueDate.BillingPlanServiceStartDate` |
-| `BillingPlanDueDate.BillingPlanServiceEndDate` | `BillingPlanDueDate.BillingPlanServiceEndDate` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `CustProjSlsOrdItmBillgPln._CustomerProject` | `CustProjSlsOrdItmBillgPln._CustomerProject` |
+| `PostponementReason` | `BillingPlanDueDate.PostponementReason` |
+| `BillingPlanItemUsage` | `BillingPlanDueDate.BillingPlanItemUsage` |
+| `BillingPlanItemUsage_2` | `BillingPlanDueDate.BillingPlanItemUsage_2` |
+| `BillingPlanItemDescription` | `BillingPlanDueDate.BillingPlanItemDescription` |
+| `BillingPlanServiceStartDate` | `BillingPlanDueDate.BillingPlanServiceStartDate` |
+| `BillingPlanServiceEndDate` | `BillingPlanDueDate.BillingPlanServiceEndDate` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `_CustomerProject` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_BillingPlanRelatedBillgStatus` | *Association* |
 | `_BillgPlnDteCorrectionRfndType` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_BillingPlanRule` | *Association* |
-| `BillingPlanDueDate._BillingPlanBillingRule` | `BillingPlanDueDate._BillingPlanBillingRule` |
+| `_BillingPlanBillingRule` | *Association* |
 | `_BillingPlanItemUsage` | *Association* |
 | `_BillgPlanItemUsage_2` | *Association* |
-| `CustProjSlsOrdItmBillgPln._BillingPlanUsageCategory` | `CustProjSlsOrdItmBillgPln._BillingPlanUsageCategory` |
+| `_BillingPlanUsageCategory` | *Association* |
 
 ## Associations
 

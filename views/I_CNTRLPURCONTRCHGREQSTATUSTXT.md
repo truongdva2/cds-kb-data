@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `abap.char( 2 ) )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurgDocChangeRequestStatus` | `cast( dd07t.domvalue_l as abap.char( 2 ) )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `abap.char(60) )` | `cast( dd07t.ddtext` |
+| `ChangeRequestNote` | `cast( dd07t.ddtext as abap.char(60) )` |
 | `_ChangeRequestStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ChangeRequestStatus` | `I_CntrlPurContrChgReqStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSBaseDetn
 ---
 # I_BR_ICMSBASEDETN
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_icms_base_det preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_ICMSBaseDetn` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_icms_base_det preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -15,6 +15,7 @@ tags:
   - transport
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:TransportationZone
 ---
 # I_TRANSPORTATIONZONE
 
@@ -34,7 +35,7 @@ tags:
 | `TransportZone` | `tzone.zone1` |
 | `CountryCode` | `tzone.land1` |
 | `_Country` | *Association* |
-| `, _Text` | `, _Text` |
+| `_Text` | *Association* |
 
 ## Associations
 

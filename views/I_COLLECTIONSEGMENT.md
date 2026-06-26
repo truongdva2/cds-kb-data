@@ -15,6 +15,7 @@ tags:
   - collection
   - component:FIN-FSCM-COL-2CL
   - lob:Other
+  - bo:CollectionsSegment
 ---
 # I_COLLECTIONSEGMENT
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_collection_segment preserving type)` | `cast(coll_segment` |
+| `CollectionSegment` | `cast(coll_segment as farp_collection_segment preserving type)` |
 | `IsReleased` | `xreleased` |
 | `_Text` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ChartOfAccounts
 ---
 # I_CHARTOFACCOUNTSSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChartOfAccounts` | `ChartOfAccounts` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
 | `_Text` | *Association* |
 
 ## Associations

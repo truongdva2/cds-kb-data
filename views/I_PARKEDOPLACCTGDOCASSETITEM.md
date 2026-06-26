@@ -32,10 +32,68 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
-| `abap.curr( 23,2))` | `case shkzg  when 'H' then cast( cast(-fwbas` |
-| `fwbas_shl preserving type )` | `when 'S' then cast(fwbas` |
-| `TaxBaseAmountInTransCrcy` | `end` |
+| `SourceCompanyCode` | `ausbk` |
+| `SourceAccountingDocument` | `cast( belnr as fis_belnr preserving type )` |
+| `SourceFiscalYear` | `cast( gjahr as fis_gjahr_no_conv preserving type )` |
+| `ParkedAcctgDocAssetItem` | `cast( bzkey as fis_parked_gl_item preserving type )` |
+| `SourceAccountingDocumentItem` | `cast(buzei as fis_buzei preserving type )` |
+| `CompanyCode` | `cast( bukrs as fis_bukrs preserving type )` |
+| `AccountingDocumentType` | `_ParkedOplAcctgDocument.AccountingDocumentType` |
+| `ControllingArea` | `_SourceCompanyCode.ControllingArea` |
+| `PostingKey` | `cast( bschl as fis_bschl preserving type )` |
+| `FinancialAccountType` | `cast( 'A' as farp_koart preserving type )` |
+| `DebitCreditCode` | `cast(…)` |
+| `BusinessArea` | `cast( gsber as fis_rbusa preserving type )` |
+| `PartnerBusinessArea` | `cast(pargb as fis_pargb preserving type )` |
+| `TaxCode` | `cast( mwskz as fis_mwskz preserving type )` |
+| `TaxType` | `mwart` |
+| `AssignmentReference` | `cast( zuonr as fis_zuonr preserving type )` |
+| `DocumentItemText` | `cast( sgtxt as farp_sgtxt preserving type )` |
+| `CostCenter` | `cast( kostl as fis_kostl preserving type )` |
+| `OrderID` | `aufnr` |
+| `MasterFixedAsset` | `cast( anln1 as fis_anln1 preserving type )` |
+| `FixedAsset` | `cast( anln2 as fis_anln2 preserving type )` |
+| `AssetTransactionType` | `anbwa` |
+| `PersonnelNumber` | `pernr` |
+| `GLAccount` | `cast( hkont as fis_racct preserving type )` |
+| `SpecialGLAccountAssignment` | `cast( hzuon as fins_hzuon preserving type )` |
+| `Product` | `cast (matnr as productnumber preserving type )` |
+| `Plant` | `werks` |
+| `ProfitCenter` | `cast( prctr as fis_prctr preserving type )` |
+| `JointVenture` | `vname` |
+| `JointVentureEquityGroup` | `egrup` |
+| `TaxJurisdiction` | `cast( txjcd as fis_txjcd preserving type )` |
+| `REInternalFinNumber` | `cast( imkey as recaimkeyfi preserving type )` |
+| `CommitmentItemShortID` | `cast( fipos as fis_fipos_shortid preserving type )` |
+| `CostObject` | `kstrg` |
+| `ProjectNetwork` | `nplnr` |
+| `ProfitabilitySegment` | `cast( paobjnr as rkeobjnr_char )` |
+| `FundsCenter` | `cast( fistl as farp_fistl preserving type )` |
+| `Fund` | `geber` |
+| `Reference2IDByBusinessPartner` | `cast( xref2 as farp_xref2 preserving type )` |
+| `IsNegativePosting` | `cast( xnegp as farp_xnegp preserving type )` |
+| `Reference3IDByBusinessPartner` | `cast( xref3 as farp_xref3 preserving type )` |
+| `Region` | `grirg` |
+| `BusinessPlace` | `cast( bupla as farp_bupla preserving type )` |
+| `CostCtrActivityType` | `lstar` |
+| `WBSElementInternalID` | `cast( ps_psp_pnr as fis_wbsint_no_conv preserving type )` |
+| `GrantID` | `grant_nbr` |
+| `Segment` | `segment` |
+| `PartnerSegment` | `psegment` |
+| `PartnerFund` | `cast( pgeber as bp_p_geber preserving type )` |
+| `PartnerGrant` | `pgrant_nbr` |
+| `BudgetPeriod` | `budget_pd` |
+| `PartnerBudgetPeriod` | `pbudget_pd` |
+| `TransactionCurrency` | `_ParkedOplAcctgDocument.TransactionCurrency` |
+| `CompanyCodeCurrency` | `_ParkedOplAcctgDocument.CompanyCodeCurrency` |
+| `AdditionalCurrency1` | `_ParkedOplAcctgDocument.AdditionalCurrency1` |
+| `AdditionalCurrency2` | `_ParkedOplAcctgDocument.AdditionalCurrency2` |
+| `AmountInCompanyCodeCurrency` | `case…end` |
+| `AmountInTransactionCurrency` | `case…end` |
+| `AmountInAdditionalCurrency1` | `case…end` |
+| `AmountInAdditionalCurrency2` | `case…end` |
+| `TaxBaseAmountInCoCodeCrcy` | `case…end` |
+| `TaxBaseAmountInTransCrcy` | `case…end` |
 | `BaseUnit` | `meins` |
 | `Quantity` | `menge` |
 | `AssetValueDate` | `bzdat` |
@@ -80,7 +138,7 @@ tags:
 | `_TaxType` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_WBSElementBasicData` | *Association* |
-| `_SourceCompanyCode._ControllingArea as _ControllingArea` | *Association* |
+| `_ControllingArea` | *Association* |
 
 ## Associations
 

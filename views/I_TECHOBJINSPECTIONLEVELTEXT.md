@@ -34,7 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `eame_idms_type)` | `cast(dd07t.domvalue_l` |
+| `TechObjInspectionLevelCode` | `cast(dd07t.domvalue_l as eame_idms_type)` |
 | `TechObjInspectionLevelDesc` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 

@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDeliveryItem
 ---
 # D_OUTBOUNDDELIVERYITEMDELETED
 
@@ -31,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DocumentItemNumber          : posnr;` | `DocumentItemNumber          : posnr;` |
-| `OutboundDeliveryItem        : outbound_delivery_item;` | `OutboundDeliveryItem        : outbound_delivery_item;` |
-| `DeliveryDocumentType        : lfart;` | `DeliveryDocumentType        : lfart;` |
-| `SalesOrganization           : vkorg;` | `SalesOrganization           : vkorg;` |
-| `SDDocumentCategory          : vbtypl;` | `SDDocumentCategory          : vbtypl;` |
+| `DocumentItemNumber` | `posnr` |
+| `OutboundDeliveryItem` | `outbound_delivery_item` |
+| `DeliveryDocumentType` | `lfart` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

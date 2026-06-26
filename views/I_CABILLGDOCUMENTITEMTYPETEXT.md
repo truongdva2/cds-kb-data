@@ -35,8 +35,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABillgDocumentItemType` | `_CABillgDocumentItemTypeText.CAInvcgDocumentItemType` |
-| `key _CABillgDocumentItemTypeText.Language` | `_CABillgDocumentItemTypeText.Language` |
-| `_CABillgDocumentItemTypeText.CAInvcgDocItemTypeText  as CABillgDocumentItemTypeText` | *Association* |
+| `Language` | `_CABillgDocumentItemTypeText.Language` |
+| `CABillgDocumentItemTypeText` | `_CABillgDocumentItemTypeText.CAInvcgDocItemTypeText` |
 | `_CABillgDocumentItemType` | *Association* |
 | `_Language` | *Association* |
 

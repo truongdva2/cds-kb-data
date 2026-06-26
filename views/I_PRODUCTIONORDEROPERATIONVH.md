@@ -33,10 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `OrderInternalID` | `oper.OrderInternalID` |
+| `OrderOperationInternalID` | `oper.OrderOperationInternalID` |
+| `ProductionOrder` | `oper.ProductionOrder` |
+| `ProductionOrderSequence` | `oper.ProductionOrderSequence` |
+| `ProductionOrderOperation` | `oper.ProductionOrderOperation` |
 | `ProductionOrderOperationText` | `ProductionOrderOperationText` |
-| `oper.ProductionOrderType` | `oper.ProductionOrderType` |
-| `oper.Plant` | `oper.Plant` |
+| `ProductionOrderType` | `oper.ProductionOrderType` |
+| `Plant` | `oper.Plant` |
 | `_ProductionOrderInternal` | *Association* |
 
 ## Associations

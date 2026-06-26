@@ -33,15 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       OrganizationalChange` | `OrganizationalChange` |
-| `key       ProjectInternalID` | `ProjectInternalID` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `ProjectInternalID` | `ProjectInternalID` |
 | `ProjectExternalID` | `ProjectExternalID` |
 | `ControllingArea` | `ControllingArea` |
 | `ProfitCenter` | `ProfitCenter` |
 | `ProfitCenterByOrglChange` | `ProfitCenterByOrglChange` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

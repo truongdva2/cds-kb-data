@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_quotation preserving type)` | `cast(SalesDocument` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `SalesQuotation` | `cast(SalesDocument as sales_quotation preserving type)` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PricingDateTime` | `PricingDateTime` |
@@ -98,7 +98,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesQuotation` | `I_SalesQuotation` | [1..1] |
 
 ## Source Code
 

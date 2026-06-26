@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `infoz_kk )` | `cast( left( dd07l.domvalue_l, 3 )` |
+| `CADoubtfulOrValueAdjmtCode` | `cast( left( dd07l.domvalue_l, 3 ) as infoz_kk )` |
 | `_Text` | *Association* |
 
 ## Associations

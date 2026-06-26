@@ -15,6 +15,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:MaxDocValueCreditCheckStatus
 ---
 # I_MAXDOCVALUECREDITCHECKSTST
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_MaxDocValueCreditCheckStatus` | `I_MaxDocValueCreditCheckSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

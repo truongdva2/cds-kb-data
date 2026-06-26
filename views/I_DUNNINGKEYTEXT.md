@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningKey
 ---
 # I_DUNNINGKEYTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_mschl )` | `cast( mschl` |
+| `DunningKey` | `cast( mschl as farp_mschl )` |
 | `Language` | `spras` |
-| `farp_text1_040a )` | `cast( text1` |
+| `MaximumDunningLevelDescription` | `cast( text1 as farp_text1_040a )` |
 | `_Language` | *Association* |
 
 ## Associations

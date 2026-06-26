@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-CSC-EDO-IT
   - lob:Cross-Application Components
+  - bo:IT_ElectronicDocRejectionCode
 ---
 # I_IT_ELECTRONICDOCREJECTCODE
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.element:  [ 'IT_ElectronicDocRejectCodeText' ]}` | `text.element:  [ 'IT_ElectronicDocRejectCodeText' ]}` |
-| `edoc_it_reject_code)` | `cast(domvalue_l` |
+| `IT_ElectronicDocRejectionCode` | `cast(domvalue_l as edoc_it_reject_code)` |
 | `Language` | `ddlanguage` |
 | `IT_ElectronicDocRejectCodeText` | `ddtext` |
 

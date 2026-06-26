@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billac_type_gfn_kk preserving type )` | `cast( tfk2715t.billac_type` |
+| `CAInvcgAccrualPostingType` | `cast( tfk2715t.billac_type as billac_type_gfn_kk preserving type )` |
 | `Language` | `tfk2715t.langu` |
-| `billac_type_txt_gfn_kk preserving type )` | `cast( tfk2715t.text` |
+| `CAInvcgAccrualPostingTypeTxt` | `cast( tfk2715t.text as billac_type_txt_gfn_kk preserving type )` |
 | `_CAInvcgAccrualPostingType` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CAInvcgAccrualPostingType` | `I_CAInvcgAccrualPostingType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

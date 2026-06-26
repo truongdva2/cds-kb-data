@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `BusinessSolutionOrderUUID` | `BusinessSolutionOrderUUID` |
 | `ServiceDocumentCharUUID` | `ServiceDocumentCharUUID` |
@@ -68,7 +68,7 @@ tags:
 | `BusSolnOrdHasError` | `BusSolnOrdHasError` |
 | `ServiceDocumentIsOpen` | `ServiceDocumentIsOpen` |
 | `BusSolnOrdRejectionStatus` | `BusSolnOrdRejectionStatus` |
-| `_ExtRefBusinessSolutionOrder.CustMgmtExtRefID as BusSolnOrdExtReference` | *Association* |
+| `BusSolnOrdExtReference` | `_ExtRefBusinessSolutionOrder.CustMgmtExtRefID` |
 | `_BillToParty` | *Association* |
 | `_ContactPerson` | *Association* |
 | `_DistributionChannel` | *Association* |

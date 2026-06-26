@@ -34,9 +34,8 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `FinancialServicesProductGroup` | `fs_product_group` |
-| `ffs_vdm_product_group_tt preserving type )` | `cast(fs_product_group_tt` |
-| `_Language._Text[Language = $session.system_language].LanguageName` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `FinServicesProductGroupName` | `cast(fs_product_group_tt as ffs_vdm_product_group_tt preserving type )` |
+| `LanguageName` | `_Language._Text[Language = $session.system_language].LanguageName` |
 | `_FinServicesProductGroup` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_FinServicesProductGroup` | `I_FinServicesProductGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

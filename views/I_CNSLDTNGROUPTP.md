@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.ConsolidationGroup` | `_Source.ConsolidationGroup` |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnGroupTextTP` | *Association* |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -33,16 +33,18 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessRoleUUID` | `brt.parent_uuid` |
-| `LanguageCode, // Currently not supported` | `brt.language_code` |
-| `br.BusinessRole` | `br.BusinessRole` |
-| `br.BusinessRoleGroup` | `br.BusinessRoleGroup` |
+| `LanguageCode` | `brt.language_code` |
+| `BusinessRole` | `br.BusinessRole` |
+| `BusinessRoleGroup` | `br.BusinessRoleGroup` |
 | `Name` | `brt.description` |
 | `Description` | `brt.long_text` |
 | `_BusinessRole` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BusinessRole` | `I_IAMBusinessRole` | — |
 
 ## Source Code
 

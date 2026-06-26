@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePackage
 ---
 # I_MAINTENANCEPACKAGETEXT
 
@@ -39,7 +40,6 @@ tags:
 | `MaintPackageHierarchyShortText` | `ktxhi` |
 | `MaintenanceCycleShortText` | `kzyk1` |
 | `StartOffsetShortText` | `koff1` |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
 | `_Language` | *Association* |
 | `_MaintenancePackage` | *Association* |
 | `_MaintenanceStrategy` | *Association* |

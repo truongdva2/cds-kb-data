@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFReferencedProcessOrigin
 ---
 # I_BR_NFREFERENCEDPROCORIGNTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_processorigin preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_processorigindescription preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFReferencedProcessOrigin` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_processorigin preserving type )` |
+| `BR_NFReferencedProcOriginDesc` | `cast( ddtext as logbr_processorigindescription preserving type )` |
 | `_BR_NFReferencedProcessOrigin` | *Association* |
 | `_Language` | *Association* |
 

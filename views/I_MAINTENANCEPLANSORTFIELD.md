@@ -15,6 +15,7 @@ tags:
   - maintenance-plan
   - component:PM-PRM-MP-2CL
   - lob:Plant Maintenance
+  - bo:MaintenancePlanSortField
 ---
 # I_MAINTENANCEPLANSORTFIELD
 
@@ -31,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `MaintenancePlanSortField` | `plan_sort` |
 | `_Text` | *Association* |
 

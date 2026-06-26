@@ -31,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.element: [ 'BPCompanyRelationshipDesc' ]` | `text.element: [ 'BPCompanyRelationshipDesc' ]` |
-| `foreignKey.association: '_BPCompanyRelationship'` | `foreignKey.association: '_BPCompanyRelationship'` |
-| `}` | `}` |
-| `bp_comp_re )` | `cast ( dd07t.domvalue_l` |
+| `Language` | `dd07t.ddlanguage` |
+| `BPCompanyRelationship` | `cast ( dd07t.domvalue_l as bp_comp_re )` |
 | `BPCompanyRelationshipDesc` | `dd07t.ddtext` |
 | `_BPCompanyRelationship` | *Association* |
 | `_Language` | *Association* |

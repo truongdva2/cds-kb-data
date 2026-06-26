@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionVersionGroup
 ---
 # I_PRODUCTIONVERSIONGROUP
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_mdv preserving type)` | `cast(RepetitiveMfgPlanningGroup` |
-| `pph_plid_text preserving type)` | `cast(RepetitiveMfgPlanningGroupText` |
+| `Plant` | `Plant` |
+| `ProductionVersionGroup` | `cast(RepetitiveMfgPlanningGroup as pph_mdv preserving type)` |
+| `ProductionVersionGroupDesc` | `cast(RepetitiveMfgPlanningGroupText as pph_plid_text preserving type)` |
 | `_Plant` | *Association* |
 
 ## Associations

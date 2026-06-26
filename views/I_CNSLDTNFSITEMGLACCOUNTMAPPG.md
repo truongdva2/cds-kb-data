@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_consolidationfsitem preserving type )` | `cast( _Source.ritem` |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationChartOfAccounts` | `cast( _Source.ritclg as fincs_conschartofaccounts preserving type )` |
+| `ChartOfAccounts` | `cast( _Source.ktopl as fincs_chartofaccounts preserving type )` |
+| `CnsldtnFSItemMapping` | `cast( _Source.mapping_id as fincs_fsitemmapping preserving type )` |
+| `CnsldtnFSItemMappingRevision` | `cast( _Source.revision as fincs_fsitemmappingrevision preserving type )` |
+| `GLAccount` | `cast( _Source.racct as fincs_glaccount preserving type )` |
+| `CnsldtnFinancialStatementItem` | `cast( _Source.ritem as fincs_consolidationfsitem preserving type )` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_CnsldtnFSItemMapping` | *Association* |

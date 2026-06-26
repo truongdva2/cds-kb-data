@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `language: true }` | `language: true }` |
+| `RegionalStructureCheckStatus` | `cast(domvalue_l as AD_CHECKST)` |
 | `Language` | `ddlanguage` |
 | `RegionalStrucCheckStatusText` | `ddtext` |
 

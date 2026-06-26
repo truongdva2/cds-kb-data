@@ -32,11 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key LanguageCode` | `LanguageCode` |
-| `/* Associations */` | `/* Associations */` |
-| `_HistoricalText   : redirected to composition child I_VarCnfHistlObjDpnTextTP` | *Association* |
-| `_ObjectDependency : redirected to parent I_VarCnfObjectDependencyTP` | *Association* |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `LanguageCode` | `LanguageCode` |
 
 ## Associations
 

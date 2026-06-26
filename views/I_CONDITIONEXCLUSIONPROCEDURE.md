@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceCndnExclusionProcedure
 ---
 # I_CONDITIONEXCLUSIONPROCEDURE
 
@@ -31,12 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kauvf )` | `cast( dd07l.domvalue_l` |
+| `ConditionExclusionProcedure` | `cast( dd07l.domvalue_l as kauvf )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CndnExclusionProcedureText` | [0..*] |
 
 ## Source Code
 

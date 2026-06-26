@@ -35,44 +35,20 @@ tags:
 | `Ledger` | `finsc_ld_cmp.rldnr` |
 | `CompanyCode` | `finsc_ld_cmp.bukrs` |
 | `FiscalYearVariant` | `periv` |
-| `fis_cc_currole preserving type )` | `cast(finsc_ld_cmp.curtph` |
-| `fis_gc_currole preserving type )` | `cast(finsc_ld_cmp.curtpk` |
-| `fis_fdc1_currole preserving type )` | `cast(finsc_ld_cmp.curtpo` |
-| `fis_fdc2_currole preserving type )` | `cast(finsc_ld_cmp.curtpv` |
-| `fis_fdc3_currole preserving type )` | `cast(finsc_ld_cmp.curtpb` |
-| `fis_fdc4_currole preserving type )` | `cast(finsc_ld_cmp.curtpc` |
-| `fis_fdc5_currole preserving type )` | `cast(finsc_ld_cmp.curtpd` |
-| `fis_fdc6_currole preserving type )` | `cast(finsc_ld_cmp.curtpe` |
-| `fis_fdc7_currole preserving type )` | `cast(finsc_ld_cmp.curtpf` |
-| `fis_fdc8_currole preserving type )` | `cast(finsc_ld_cmp.curtpg` |
-| `accounting_principle preserving type)` | `cast(finsc_ld_cmp.acc_principle` |
-| `cast( case when finsc_ld_cmp.functional_currency <> '  ' then finsc_ld_cmp.functional_currency` | `cast( case when finsc_ld_cmp.functional_currency <> '  ' then finsc_ld_cmp.functional_currency` |
-| `else finsc_ld_cmp.curtph` | `else finsc_ld_cmp.curtph` |
-| `end` | `end` |
-| `as fis_functional_currole` | `as fis_functional_currole` |
-| `FunctionalCurrencyRole` | `)` |
-| `cast ( case when  finsc_ld_cmp.curposk = '2' then 'GC'` | `cast ( case when  finsc_ld_cmp.curposk = '2' then 'GC'` |
-| `when  finsc_ld_cmp.curposo = '2' then 'FDC1'` | `when  finsc_ld_cmp.curposo = '2' then 'FDC1'` |
-| `when  finsc_ld_cmp.curposv = '2' then 'FDC2'` | `when  finsc_ld_cmp.curposv = '2' then 'FDC2'` |
-| `when  finsc_ld_cmp.curposb = '2' then 'FDC3'` | `when  finsc_ld_cmp.curposb = '2' then 'FDC3'` |
-| `when  finsc_ld_cmp.curposc = '2' then 'FDC4'` | `when  finsc_ld_cmp.curposc = '2' then 'FDC4'` |
-| `when  finsc_ld_cmp.curposd = '2' then 'FDC5'` | `when  finsc_ld_cmp.curposd = '2' then 'FDC5'` |
-| `when  finsc_ld_cmp.curpose = '2' then 'FDC6'` | `when  finsc_ld_cmp.curpose = '2' then 'FDC6'` |
-| `when  finsc_ld_cmp.curposf = '2' then 'FDC7'` | `when  finsc_ld_cmp.curposf = '2' then 'FDC7'` |
-| `when  finsc_ld_cmp.curposg = '2' then 'FDC8'` | `when  finsc_ld_cmp.curposg = '2' then 'FDC8'` |
-| `else '' end` | `else '' end` |
-| `AdditionalCurrency1Field` | `as fis_addl1_crcy_field )` |
-| `cast ( case when  finsc_ld_cmp.curposk = '3' then 'GC'` | `cast ( case when  finsc_ld_cmp.curposk = '3' then 'GC'` |
-| `when  finsc_ld_cmp.curposo = '3' then 'FDC1'` | `when  finsc_ld_cmp.curposo = '3' then 'FDC1'` |
-| `when  finsc_ld_cmp.curposv = '3' then 'FDC2'` | `when  finsc_ld_cmp.curposv = '3' then 'FDC2'` |
-| `when  finsc_ld_cmp.curposb = '3' then 'FDC3'` | `when  finsc_ld_cmp.curposb = '3' then 'FDC3'` |
-| `when  finsc_ld_cmp.curposc = '3' then 'FDC4'` | `when  finsc_ld_cmp.curposc = '3' then 'FDC4'` |
-| `when  finsc_ld_cmp.curposd = '3' then 'FDC5'` | `when  finsc_ld_cmp.curposd = '3' then 'FDC5'` |
-| `when  finsc_ld_cmp.curpose = '3' then 'FDC6'` | `when  finsc_ld_cmp.curpose = '3' then 'FDC6'` |
-| `when  finsc_ld_cmp.curposf = '3' then 'FDC7'` | `when  finsc_ld_cmp.curposf = '3' then 'FDC7'` |
-| `when  finsc_ld_cmp.curposg = '3' then 'FDC8'` | `when  finsc_ld_cmp.curposg = '3' then 'FDC8'` |
-| `else '' end` | `else '' end` |
-| `AdditionalCurrency2Field` | `as fis_addl2_crcy_field )` |
+| `CompanyCodeCurrencyRole` | `cast(finsc_ld_cmp.curtph as fis_cc_currole preserving type )` |
+| `GlobalCurrencyRole` | `cast(finsc_ld_cmp.curtpk as fis_gc_currole preserving type )` |
+| `FreeDefinedCurrency1Role` | `cast(finsc_ld_cmp.curtpo as fis_fdc1_currole preserving type )` |
+| `FreeDefinedCurrency2Role` | `cast(finsc_ld_cmp.curtpv as fis_fdc2_currole preserving type )` |
+| `FreeDefinedCurrency3Role` | `cast(finsc_ld_cmp.curtpb as fis_fdc3_currole preserving type )` |
+| `FreeDefinedCurrency4Role` | `cast(finsc_ld_cmp.curtpc as fis_fdc4_currole preserving type )` |
+| `FreeDefinedCurrency5Role` | `cast(finsc_ld_cmp.curtpd as fis_fdc5_currole preserving type )` |
+| `FreeDefinedCurrency6Role` | `cast(finsc_ld_cmp.curtpe as fis_fdc6_currole preserving type )` |
+| `FreeDefinedCurrency7Role` | `cast(finsc_ld_cmp.curtpf as fis_fdc7_currole preserving type )` |
+| `FreeDefinedCurrency8Role` | `cast(finsc_ld_cmp.curtpg as fis_fdc8_currole preserving type )` |
+| `AccountingPrinciple` | `cast(finsc_ld_cmp.acc_principle as accounting_principle preserving type)` |
+| `FunctionalCurrencyRole` | `cast(…)` |
+| `AdditionalCurrency1Field` | `cast(…)` |
+| `AdditionalCurrency2Field` | `cast(…)` |
 | `_Ledger` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_FiscalYearVariant` | *Association* |

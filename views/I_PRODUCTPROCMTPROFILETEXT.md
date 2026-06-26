@@ -17,6 +17,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProcurementSubType
 ---
 # I_PRODUCTPROCMTPROFILETEXT
 
@@ -33,10 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
+| `ProcurementSubType` | `cast ( MaterialProcurementProfile as sobsl preserving type )` |
+| `Plant` | `Plant` |
+| `Language` | `Language` |
 | `ProcurementSubTypeText` | `MaterialProcurementProfileName` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

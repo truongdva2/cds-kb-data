@@ -35,13 +35,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_CompanyCode.CompanyCode` | `I_CompanyCode.CompanyCode` |
-| `I_CompanyCode.CompanyCodeName` | `I_CompanyCode.CompanyCodeName` |
-| `I_CompanyCode.CityName` | `I_CompanyCode.CityName` |
-| `I_CompanyCode.Country` | `I_CompanyCode.Country` |
-| `I_CompanyCode.Currency` | `I_CompanyCode.Currency` |
-| `I_CompanyCode._Currency` | `I_CompanyCode._Currency` |
-| `I_CompanyCode._Country` | `I_CompanyCode._Country` |
+| `CompanyCode` | `I_CompanyCode.CompanyCode` |
+| `CompanyCodeName` | `I_CompanyCode.CompanyCodeName` |
+| `CityName` | `I_CompanyCode.CityName` |
+| `Country` | `I_CompanyCode.Country` |
+| `Currency` | `I_CompanyCode.Currency` |
+| `_Currency` | *Association* |
+| `_Country` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,46 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `Customer` | `Customer` |
+| `_BillToParty` | *Association* |
+| `SourceLedger` | `SourceLedger` |
+| `_SourceLedger` | *Association* |
+| `CompanyCode` | `CompanyCode` |
+| `_CompanyCode` | *Association* |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `Ledger` | `Ledger` |
+| `_Ledger` | *Association* |
+| `AccountingDocumentType` | `AccountingDocumentType` |
+| `_AccountingDocumentType` | *Association* |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `PostingDate` | `PostingDate` |
+| `DocumentDate` | `DocumentDate` |
+| `ClearingDate` | `ClearingDate` |
+| `DebitCreditCodeName` | `DebitCreditCodeName` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `_DebitCreditCode` | *Association* |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `_ChartOfAccounts` | *Association* |
+| `GLAccount` | `GLAccount` |
+| `_GLAccountInChartOfAccounts` | *Association* |
+| `DocumentItemText` | `DocumentItemText` |
+| `Product` | `Product` |
+| `_Product` | *Association* |
+| `BaseUnit` | `BaseUnit` |
+| `_BaseUnitFromBilling` | *Association* |
+| `Quantity` | `Quantity` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `AmountInTransactionCurrency` | `AmountInTransactionCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `_CompanyCodeCurrency` | *Association* |
+| `AmountInCompanyCodeCurrency` | `AmountInCompanyCodeCurrency` |
+| `AcctsRblAmtInCCCrcy` | `AcctsRblAmtInCCCrcy` |
+| `NetPriceQuantityUnit` | `_SOItem.NetPriceQuantityUnit` |
+| `_NetPriceQuantityUnit` | *Association* |
+| `NetPriceQuantity` | `cast( _SOItem.NetPriceQuantity as glo_jp_netpriceqty )` |
 | `NetPriceAmount` | `NetPriceAmount` |
 
 ## Associations

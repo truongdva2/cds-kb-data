@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanContainer
 ---
 # I_KANBANCTNDETAILEDQTY
 
@@ -30,20 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_KanbanContainerBatchQuantity.KanbanContainer` | `I_KanbanContainerBatchQuantity.KanbanContainer` |
-| `key I_KanbanContainerBatchQuantity.Batch` | `I_KanbanContainerBatchQuantity.Batch` |
-| `I_KanbanContainerBatchQuantity.BaseUnit` | `I_KanbanContainerBatchQuantity.BaseUnit` |
-| `I_KanbanContainerBatchQuantity.ActualQuantityInBaseUnit` | `I_KanbanContainerBatchQuantity.ActualQuantityInBaseUnit` |
-| `I_KanbanContainerBatchQuantity.Plant, // For ACL` | `I_KanbanContainerBatchQuantity.Plant, // For ACL` |
-| `I_KanbanContainerBatchQuantity.Product` | `I_KanbanContainerBatchQuantity.Product` |
-| `I_KanbanContainerBatchQuantity._Batch` | `I_KanbanContainerBatchQuantity._Batch` |
-| `I_KanbanContainerBatchQuantity._KanbanContainer` | `I_KanbanContainerBatchQuantity._KanbanContainer` |
-| `I_KanbanContainerBatchQuantity._Plant` | `I_KanbanContainerBatchQuantity._Plant` |
-| `I_KanbanContainerBatchQuantity._Product` | `I_KanbanContainerBatchQuantity._Product` |
-| `I_KanbanContainerBatchQuantity._BaseUnit` | `I_KanbanContainerBatchQuantity._BaseUnit` |
-| `I_KanbanContainerBatchQuantity.Supplier` | `I_KanbanContainerBatchQuantity.Supplier` |
-| `I_KanbanContainerBatchQuantity._Supplier` | `I_KanbanContainerBatchQuantity._Supplier` |
-| `I_KanbanContainerBatchQuantity._SupplierCompanyByPlant` | `I_KanbanContainerBatchQuantity._SupplierCompanyByPlant` |
+| `KanbanContainer` | `I_KanbanContainerBatchQuantity.KanbanContainer` |
+| `Batch` | `I_KanbanContainerBatchQuantity.Batch` |
+| `BaseUnit` | `I_KanbanContainerBatchQuantity.BaseUnit` |
+| `ActualQuantityInBaseUnit` | `I_KanbanContainerBatchQuantity.ActualQuantityInBaseUnit` |
+| `Plant` | `I_KanbanContainerBatchQuantity.Plant` |
+| `Product` | `I_KanbanContainerBatchQuantity.Product` |
+| `_Batch` | *Association* |
+| `_KanbanContainer` | *Association* |
+| `_Plant` | *Association* |
+| `_Product` | *Association* |
+| `_BaseUnit` | *Association* |
+| `Supplier` | `I_KanbanContainerBatchQuantity.Supplier` |
+| `_Supplier` | *Association* |
+| `_SupplierCompanyByPlant` | *Association* |
 
 ## Associations
 

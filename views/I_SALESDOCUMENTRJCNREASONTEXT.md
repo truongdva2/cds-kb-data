@@ -18,6 +18,7 @@ tags:
   - text
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentRjcnReason
 ---
 # I_SALESDOCUMENTRJCNREASONTEXT
 
@@ -42,7 +43,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesDocumentRjcnReason` | `I_SalesDocumentRjcnReason` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

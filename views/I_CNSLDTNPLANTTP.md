@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnPlant.Plant` | `_CnsldtnPlant.Plant` |
-| `_CnsldtnPlant.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnPlantTextTP` | *Association* |
+| `Plant` | `_CnsldtnPlant.Plant` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnPlant.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

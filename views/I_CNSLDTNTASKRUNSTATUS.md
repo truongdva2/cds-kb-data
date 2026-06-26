@@ -31,10 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
+| `ConsolidationTaskRunStatus` | `cast( left( Domain.domvalue_l,2 ) as fincs_taskrun_status preserving type )` |
 | `DomainValue` | `Domain.domvalue_l` |
 | `_Text` | *Association* |
 

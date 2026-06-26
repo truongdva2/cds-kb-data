@@ -36,7 +36,6 @@ tags:
 | `ValidityEndDate` | `valid_to_date` |
 | `ValidityStartDate` | `valid_from_date` |
 | `AssetRevaluationIndexValue` | `index_point` |
-| `/* Associations */` | `/* Associations */` |
 | `_AssetRevaluationIndex` | *Association* |
 
 ## Associations

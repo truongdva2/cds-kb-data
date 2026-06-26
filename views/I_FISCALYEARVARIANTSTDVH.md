@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `I_FiscalYearVariant._Text` | `I_FiscalYearVariant._Text` |
+| `FiscalYearVariant` | `I_FiscalYearVariant.FiscalYearVariant` |
+| `_Text` | *Association* |
 
 ## Associations
 

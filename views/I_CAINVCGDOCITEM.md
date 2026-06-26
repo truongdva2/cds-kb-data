@@ -39,14 +39,14 @@ tags:
 | `CAContract` | `vtref` |
 | `CAProviderContractItemNumber` | `vtpos` |
 | `CASubApplication` | `subap` |
-| `inv_gpart_a_gfn_kk preserving type)` | `cast(gpart_a` |
-| `inv_vkont_a_gfn_kk preserving type)` | `cast(vkont_a` |
-| `inv_gpvkt_a_cat_gfn_kk preserving type)` | `cast(gpvkt_a_cat` |
+| `CAInvcgItmAltvBusinessPartner` | `cast(gpart_a as inv_gpart_a_gfn_kk preserving type)` |
+| `CAInvcgItmAltvContractAccount` | `cast(vkont_a as inv_vkont_a_gfn_kk preserving type)` |
+| `CAInvcgDocItmAltvMDCat` | `cast(gpvkt_a_cat as inv_gpvkt_a_cat_gfn_kk preserving type)` |
 | `CAMainTransaction` | `hvorg` |
 | `CASubTransaction` | `tvorg` |
 | `CAIsDocItemSimulated` | `item_simulated` |
 | `CAInvcgDocItemIsReversal` | `reversalitem` |
-| `totalrel_gfn_kk preserving type)` | `cast(totalrel` |
+| `CAInvcgIsInFinalAmt` | `cast(totalrel as totalrel_gfn_kk preserving type)` |
 | `CAInvcgIsItemPostingRelevant` | `postrel` |
 | `CAInvcgIsNotBPRelevant` | `not_bprel` |
 | `CAInvcgIsItemPrintingRelevant` | `printrel` |
@@ -56,18 +56,18 @@ tags:
 | `CAInvcgDocItmLoclCurrency` | `invwaerh` |
 | `CAInvcgDocItmAmtInLoclCurrency` | `invbetrh` |
 | `CAInvcgDocItmTaxBaseAmtInLCrcy` | `invsbash` |
-| `srcdoc_curr_gfn_kk preserving type)` | `cast(srcdoc_curr` |
-| `srcdoc_amt_gfn_kk preserving type)` | `cast(srcdoc_amt` |
-| `currc_group_gfn_kk preserving type)` | `cast(currc_group` |
+| `CACurrencySourceDocument` | `cast(srcdoc_curr as srcdoc_curr_gfn_kk preserving type)` |
+| `CAInvcgSourceDocumentAmount` | `cast(srcdoc_amt as srcdoc_amt_gfn_kk preserving type)` |
+| `CAGroupingCurrencyTranslation` | `cast(currc_group as currc_group_gfn_kk preserving type)` |
 | `CAAccountDeterminationCode` | `kofiz` |
-| `farp_bupla preserving type)` | `cast(bupla` |
-| `fis_rbusa preserving type)` | `cast(gsber` |
+| `BusinessPlace` | `cast(bupla as farp_bupla preserving type)` |
+| `BusinessArea` | `cast(gsber as fis_rbusa preserving type)` |
 | `CATaxIsIncluded` | `tax_included` |
 | `CATaxDetnType` | `tax_det_type` |
 | `CAInvcgTaxGroupingKey` | `taxgr` |
 | `CAOtherTaxCode` | `strkz` |
 | `TaxCode` | `mwskz` |
-| `CATaxDeterminationCode` | `ermwskz` |
+| `CATaxDeterminationCode` | `-- fkey missing ermwskz` |
 | `TaxJurisdiction` | `txjcd` |
 | `CATransactionKeyAccountDetn` | `ktosl` |
 | `CAConditionType` | `kschl` |
@@ -85,11 +85,11 @@ tags:
 | `CAIsDownPaymentRequest` | `xanza` |
 | `CAStatisticalItemCode` | `stakz` |
 | `CAInvcgOffsettingGroup` | `offset_invgr` |
-| `defrev_stat_gfn_kk preserving type)` | `cast(defrev_stat` |
+| `CAInvcgDfrrdRevenueStatus` | `cast(defrev_stat as defrev_stat_gfn_kk preserving type)` |
 | `CAIsRevenueAccountingRelevant` | `rarel` |
 | `CAInvcgRevenueGrouping` | `ra_invgr` |
 | `CARevenueAccountingServiceType` | `service_type` |
-| `billac_type_gfn_kk preserving type)` | `cast(billac_type` |
+| `CAInvcgAccrualPostingType` | `cast(billac_type as billac_type_gfn_kk preserving type)` |
 | `CAIsPrepaid` | `prepaid` |
 | `UnitOfMeasure` | `meins` |
 | `Quantity` | `menge` |
@@ -99,28 +99,28 @@ tags:
 | `CAInvcgDocItemDefStatus` | `xstund` |
 | `CAItemPeriodStartDate` | `date_from` |
 | `CAItemPeriodEndDate` | `date_to` |
-| `cadoctype_gfn_kk preserving type )` | `cast(cadoctype` |
-| `opbel_gfn_kk preserving type )` | `cast(opbel` |
+| `CAInvcgRefPostingDocType` | `cast(cadoctype as cadoctype_gfn_kk preserving type )` |
+| `CADocumentNumber` | `cast(opbel as opbel_gfn_kk preserving type )` |
 | `CAGroupingKeyDocumentItems` | `psgrp` |
 | `CAInvcgGroupingKey` | `invgr` |
 | `CAClearingDocumentNumber` | `augbl` |
 | `CAClearingAmountInTransCrcy` | `augbw` |
 | `CAInvcgDocItemCrtnMethod` | `item_crmet` |
 | `CAInvcgFunction` | `inv_function` |
-| `srcdoccat_gfn_kk preserving type)` | `cast(srcdoccat` |
-| `srcdocno_gfn_kk preserving type)` | `cast(srcdocno` |
+| `CAInvcgSourceDocumentCat` | `cast(srcdoccat as srcdoccat_gfn_kk preserving type)` |
+| `CAInvcgSourceDocumentNumber` | `cast(srcdocno as srcdocno_gfn_kk preserving type)` |
 | `CAInvcgDocItemSourceItmCat` | `srcitemcat` |
 | `CAInvcgSourceDocumentItem` | `srcdocitem` |
-| `disckey_gfn_kk preserving type)` | `cast(disckey` |
+| `CABllbleItmDiscountKey` | `cast(disckey as disckey_gfn_kk preserving type)` |
 | `CABllbleItmDiscountVersion` | `disckey_versno` |
-| `corrcat_gfn_kk preserving type)` | `cast(corrcat` |
+| `CAInvcgCorrectionCategory` | `cast(corrcat as corrcat_gfn_kk preserving type)` |
 | `CABillToParty` | `bill_to_party` |
 | `CABillToRegion` | `bill_to_region` |
 | `CABillFromRegion` | `bill_from_region` |
 | `CAControlCode` | `steuc` |
 | `CASupplyRegion` | `supply_region` |
 | `CABillToCountry` | `bill_to_country` |
-| `fis_wbsint_no_conv preserving type )` | `cast( ps_psp_pnr` |
+| `WBSElementInternalID` | `cast( ps_psp_pnr as fis_wbsint_no_conv preserving type )` |
 | `_CAInvcgDocHeader` | *Association* |
 | `_CAInvcgFunction` | *Association* |
 | `_CompCode` | *Association* |

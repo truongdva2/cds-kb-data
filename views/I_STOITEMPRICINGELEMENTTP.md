@@ -33,7 +33,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionType` | `ConditionType` |
+| `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
+| `ConditionCalculationType` | `ConditionCalculationType` |
+| `ConditionBaseAmount` | `ConditionBaseAmount` |
+| `ConditionRateAmount` | `ConditionRateAmount` |
+| `ConditionRateRatio` | `ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `ConditionRateRatioUnit` |
+| `ConditionCurrency` | `ConditionCurrency` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `ConditionQuantity` | `ConditionQuantity` |
+| `ConditionQuantityUnit` | `ConditionQuantityUnit` |
+| `ConditionToBaseQtyNmrtr` | `ConditionToBaseQtyNmrtr` |
+| `ConditionToBaseQtyDnmntr` | `ConditionToBaseQtyDnmntr` |
+| `ConditionCategory` | `ConditionCategory` |
+| `ConditionIsForStatistics` | `ConditionIsForStatistics` |
+| `PricingScaleType` | `PricingScaleType` |
+| `IsRelevantForAccrual` | `IsRelevantForAccrual` |
+| `CndnIsRelevantForInvoiceList` | `CndnIsRelevantForInvoiceList` |
+| `ConditionOrigin` | `ConditionOrigin` |
+| `IsGroupCondition` | `IsGroupCondition` |
+| `AccessNumberOfAccessSequence` | `AccessNumberOfAccessSequence` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `AccountKeyForGLAccount` | `AccountKeyForGLAccount` |
+| `GLAccount` | `GLAccount` |
+| `TaxCode` | `TaxCode` |
+| `AcctKeyForAccrualsGLAccount` | `AcctKeyForAccrualsGLAccount` |
+| `AccrualsGLAccount` | `AccrualsGLAccount` |
+| `WithholdingTaxCode` | `WithholdingTaxCode` |
 | `FreightSupplier` | `FreightSupplier` |
 | `CndnRoundingOffDiffAmount` | `CndnRoundingOffDiffAmount` |
 | `ConditionAmount` | `ConditionAmount` |
@@ -68,10 +103,6 @@ tags:
 | `TaxCodeName` | `TaxCodeName` |
 | `ConditionIsDeletable` | `ConditionIsDeletable` |
 | `PricingProcedure` | `PricingProcedure` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrderItem : redirected to parent I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder     : redirected to I_StockTransportOrderTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_BillingPriceSource` | *Association* |
 | `_ConditionAcctAssgmtRelevance` | *Association* |
 | `_ConditionAlternativeCurrency` | *Association* |

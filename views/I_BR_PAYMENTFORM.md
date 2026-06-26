@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentForm
 ---
 # I_BR_PAYMENTFORM
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_indpag preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PaymentForm` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_indpag preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-PMR-ENG-2CL
   - lob:Manufacturing
+  - bo:PMRPPeriodType
 ---
 # I_PMRPFLXBLCSTRTPERIODTYPE
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PMRPFlxblCstrtPeriodTypeText` | [0..*] |
 
 ## Source Code
 

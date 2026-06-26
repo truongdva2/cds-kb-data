@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SlsSchedgAgrmtScheduleLine
 ---
 # I_SALESSCHEDGAGRMTSCHEDLINE
 
@@ -30,25 +31,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_schedg_agrmt preserving type )` | `cast(SalesDocumentScheduleLine.SalesDocument` |
-| `vdm_sales_schedg_agrmt_item preserving type )` | `cast(SalesDocumentItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `SalesSchedulingAgreement` | `cast(…)` |
+| `SalesSchedulingAgreementItem` | `cast(SalesDocumentItem as vdm_sales_schedg_agrmt_item preserving type )` |
+| `ScheduleLine` | `ScheduleLine` |
 | `ScheduleLineCategory` | `ScheduleLineCategory` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `OrderToBaseQuantityDnmntr` | `OrderToBaseQuantityDnmntr` |
 | `OrderToBaseQuantityNmrtr` | `OrderToBaseQuantityNmrtr` |
 | `BaseUnit` | `BaseUnit` |
-| `reqd_deliv)` | `cast(IsRequestedDelivSchedLine` |
-| `reqd_deliv_date)` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate` |
+| `IsRequestedDelivSchedLine` | `cast(IsRequestedDelivSchedLine as reqd_deliv)` |
+| `RequestedDeliveryDate` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate as reqd_deliv_date)` |
 | `RequestedDeliveryTime` | `RequestedDeliveryTime` |
 | `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
 | `CorrectedQtyInOrderQtyUnit` | `CorrectedQtyInOrderQtyUnit` |
-| `confd_deliv)` | `cast(IsConfirmedDelivSchedLine` |
-| `confd_deliv_date)` | `cast(ConfirmedDeliveryDate` |
+| `IsConfirmedDelivSchedLine` | `cast(IsConfirmedDelivSchedLine as confd_deliv)` |
+| `ConfirmedDeliveryDate` | `cast(ConfirmedDeliveryDate as confd_deliv_date)` |
 | `ConfirmedDeliveryTime` | `ConfirmedDeliveryTime` |
 | `ConfdOrderQtyByMatlAvailCheck` | `ConfdOrderQtyByMatlAvailCheck` |
 | `ConfdSchedLineReqdDelivDate` | `ConfdSchedLineReqdDelivDate` |
-| `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` |
+| `OpenConfdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` |
 | `ProductAvailabilityDate` | `ProductAvailabilityDate` |
 | `ProductAvailabilityTime` | `ProductAvailabilityTime` |
 | `ProductAvailCheckRqmtDate` | `ProductAvailCheckRqmtDate` |
@@ -56,12 +57,12 @@ tags:
 | `ProdAvailyCheckPlanningType` | `ProdAvailyCheckPlanningType` |
 | `ScheduleLineConfirmationStatus` | `ScheduleLineConfirmationStatus` |
 | `PlannedOrder` | `PlannedOrder` |
-| `SalesDocumentScheduleLine.OrderID` | `SalesDocumentScheduleLine.OrderID` |
+| `OrderID` | `SalesDocumentScheduleLine.OrderID` |
 | `SchedulingAgreementReleaseType` | `SchedulingAgreementReleaseType` |
 | `ScheduleLineByForecastDelivery` | `ScheduleLineByForecastDelivery` |
 | `OrderSchedulingGroup` | `OrderSchedulingGroup` |
 | `DeliveryDate` | `DeliveryDate` |
-| `sd_schedg_agrmt_deliv_dte_type preserving type )` | `cast(DelivDateCategory` |
+| `SalesDelivDateCategory` | `cast(DelivDateCategory as sd_schedg_agrmt_deliv_dte_type preserving type )` |
 | `CustEngineeringChgStatus` | `CustEngineeringChgStatus` |
 | `DeliveryCreationDate` | `DeliveryCreationDate` |
 | `TransportationPlanningDate` | `TransportationPlanningDate` |
@@ -74,14 +75,14 @@ tags:
 | `DelivBlockReasonForSchedLine` | `DelivBlockReasonForSchedLine` |
 | `GoodsMovementType` | `GoodsMovementType` |
 | `OpenDeliveryNetAmount` | `OpenDeliveryNetAmount` |
-| `SalesDocumentScheduleLine.TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
+| `TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
 | `_SalesSchedgAgrmt` | *Association* |
 | `_SalesSchedgAgrmtDelivSched` | *Association* |
 | `_SalesSchedgAgrmtItem` | *Association* |
 | `_ScheduleLineCategory` | *Association* |
 | `_ProdAvailabilityCheckRqmtType` | *Association* |
 | `_ScheduleLineConfStatus` | *Association* |
-| `_TransactionCurrency` | `SalesDocumentScheduleLine._TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
 | `_OrderID` | *Association* |
 | `_OrderQuantityUnit` | *Association* |
 | `_BaseUnit` | *Association* |

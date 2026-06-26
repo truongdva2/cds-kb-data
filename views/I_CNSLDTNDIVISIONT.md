@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'DivisionName' }` | `status: #DEPRECATED, successor: 'DivisionName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.DivisionName` |
-| `fincs_divisionname preserving type )` | `cast( _Source.DivisionName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `Division` | `cast( _Source.Division as fincs_division preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.DivisionName as fincs_description_text_20 preserving type )` |
+| `DivisionName` | `cast( _Source.DivisionName as fincs_divisionname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Division` | *Association* |
 

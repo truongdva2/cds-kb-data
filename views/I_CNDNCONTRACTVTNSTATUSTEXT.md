@@ -34,11 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `wcb_cc_state )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CndnContrActvtnStatus` | `cast( dd07t.domvalue_l as wcb_cc_state )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wcb_cc_state_name preserving type )` | `cast( dd07t.ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `CndnContrActvtnStatusName` | `cast( dd07t.ddtext as wcb_cc_state_name preserving type )` |
 | `_CndnContrActvtnStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -46,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CndnContrActvtnStatus` | `I_CndnContrActvtnStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

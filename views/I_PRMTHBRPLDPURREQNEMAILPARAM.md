@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
-| `key ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
-| `key ProcmtHubPurReqnItmCommentUUID` | `ProcmtHubPurReqnItmCommentUUID` |
+| `ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
+| `ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `ProcmtHubPurReqnItmCommentUUID` | `ProcmtHubPurReqnItmCommentUUID` |
 | `PrmtHbPurReqnItmCmntText` | `PrmtHbPurReqnItmCmntText` |
 | `PrmtHbCommentedByUserName` | `PrmtHbCommentedByUserName` |
-| `sstring )` | `cast( ''` |
+| `PrmtHbCreatedByUserName` | `cast( '' as sstring )` |
 
 ## Associations
 

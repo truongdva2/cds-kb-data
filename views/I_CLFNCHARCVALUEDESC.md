@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atinn_no_conv preserving type )` | `cast ( CharacteristicValueDesc.atinn` |
+| `CharcInternalID` | `cast ( CharacteristicValueDesc.atinn as atinn_no_conv preserving type )` |
 | `CharcValuePositionNumber` | `CharacteristicValueDesc.atzhl` |
 | `Language` | `CharacteristicValueDesc.spras` |
 | `TimeIntervalNumber` | `CharacteristicValueDesc.adzhl` |

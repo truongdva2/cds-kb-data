@@ -33,14 +33,14 @@ tags:
 |---|---|
 | `BR_NotaFiscal` | `NFTransportedVolume.docnum` |
 | `BR_NFTransptVolumesSequence` | `NFTransportedVolume.counter` |
-| `logbr_trans_vol_quan preserving type)` | `cast(NFTransportedVolume.qvol` |
-| `logbr_trans_vol_type preserving type)` | `cast(NFTransportedVolume.esp` |
-| `logbr_trans_vol_trademark preserving type)` | `cast(NFTransportedVolume.marca` |
-| `logbr_trans_vol_number preserving type)` | `cast(NFTransportedVolume.nvol` |
-| `msehi)` | `cast('KG'` |
-| `logbr_trans_vol_net preserving type)` | `cast(NFTransportedVolume.pesol` |
-| `msehi)` | `cast('KG'` |
-| `logbr_trans_vol_gross preserving type)` | `cast(NFTransportedVolume.pesob` |
+| `BR_NFTransportedVolumeQtyVal` | `cast(NFTransportedVolume.qvol as logbr_trans_vol_quan preserving type)` |
+| `BR_NFTransportedVolumeType` | `cast(NFTransportedVolume.esp as logbr_trans_vol_type preserving type)` |
+| `BR_NFTransptVolumeTrademark` | `cast(NFTransportedVolume.marca as logbr_trans_vol_trademark preserving type)` |
+| `BR_NFTransportedVolumeID` | `cast(NFTransportedVolume.nvol as logbr_trans_vol_number preserving type)` |
+| `BR_NFTransptVolNetWeightUnit` | `cast('KG' as msehi)` |
+| `BR_NFTransptVolumeNetWeight` | `cast(NFTransportedVolume.pesol as logbr_trans_vol_net preserving type)` |
+| `BR_NFTransptVolGrossWgtUnit` | `cast('KG' as msehi)` |
+| `BR_NFTransptVolumeGrossWeight` | `cast(NFTransportedVolume.pesob as logbr_trans_vol_gross preserving type)` |
 | `BR_NFTransportedVolumeSeal` | `NFTransportedVolume.nlacre` |
 | `_BR_NFTransptVolNetWeightUnit` | *Association* |
 | `_BR_NFTransptVolGrossWgtUnit` | *Association* |

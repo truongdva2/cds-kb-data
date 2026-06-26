@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:PurchaseConfirmationStatus
 ---
 # I_PURCHASECONFIRMATIONSTATUST
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PurchaseConfirmationStatus` | `I_PurchaseConfirmationStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:GLAccountHierarchyNode
 ---
 # I_GLACCOUNTHIERARCHYNODE
 
@@ -31,18 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `fis_datbi preserving type )` | `cast(hrrp_node_n.hryvalto` |
+| `GLAccountHierarchy` | `cast ( hrrp_node_n.hryid_42 as fis_glaccthier preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
 | `ParentNode` | `hrrp_node_n.parnode` |
-| `hryversn )` | `cast( '000000000000001'` |
-| `fis_datab preserving type )` | `cast(hrrp_node_n.hryvalfrom` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
 | `ChartOfAccounts` | `hrrp_node_n.ktopl` |
-| `fis_saknr preserving type )` | `cast(hrrp_node_n.saknr` |
-| `SequenceNumber, // do not use any longer, use HierarchyNodeSequence` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
+| `GLAccount` | `cast(hrrp_node_n.saknr as fis_saknr preserving type )` |
+| `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |
 | `NodeType` | `hrrp_node_n.nodetype` |
-| `hryattrvalue )` | `cast(hrrp_node_n.sign` |
+| `SignIsInverted` | `cast(hrrp_node_n.sign as hryattrvalue )` |
 | `HierarchyNodeVal` | `hrrp_node_n.nodevalue` |
 | `_Text` | *Association* |
 | `_GLAccountInChartOfAccounts` | *Association* |

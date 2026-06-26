@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_consolidationunit preserving type )` | `cast ( bunit` |
+| `ConsolidationUnit` | `cast ( bunit as fincs_consolidationunit preserving type )` |
 | `Country` | `cntry` |
 | `ConsolidationUnitLink` | `link` |
 | `ConsolidationUnitLinkLabel` | `linklabel` |
 | `ConsolidationDimension` | `dimen` |
-| `fincs_company preserving type )` | `cast(_Company.Company` |
+| `Company` | `cast(_Company.Company as fincs_company preserving type )` |
 | `ETag` | `etag` |
 | `_CnsldtnDimension` | *Association* |
 | `_Country` | *Association* |

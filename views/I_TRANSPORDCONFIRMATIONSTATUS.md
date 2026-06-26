@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderConfirmationStatus
 ---
 # I_TRANSPORDCONFIRMATIONSTATUS
 
@@ -29,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_confirm_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationOrderConfSts` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_confirm_status preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdConfirmationStsText` | [0..*] |
 
 ## Source Code
 

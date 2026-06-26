@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrActyTaskPartyUUID` | `SuplrActyTaskPartyUUID` |
+| `SuplrActyTaskPartyUUID` | `SuplrActyTaskPartyUUID` |
 | `SuplrActyTaskUUID` | `SuplrActyTaskUUID` |
 | `BusinessPartner` | `BusinessPartner` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

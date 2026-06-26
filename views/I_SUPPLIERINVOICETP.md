@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key SupplierInvoiceFiscalYear` | `SupplierInvoiceFiscalYear` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `SupplierInvoiceFiscalYear` | `SupplierInvoiceFiscalYear` |
 | `CompanyCode` | `CompanyCode` |
 
 ## Associations

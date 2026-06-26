@@ -30,15 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinSrvcsProdGroupVH'` | `name: 'I_CnsldtnFinSrvcsProdGroupVH'` |
-| `element: 'FinancialServicesProductGroup'` | `element: 'FinancialServicesProductGroup'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_finsrvcsproductgroup preserving type )` | `cast( left(_HierarchyNode.UniversalHierarchyLeafValue, 10)` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnFinSrvcsProdGroupHier` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `FinancialServicesProductGroup` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_FinancialServicesProductGroup` | *Association* |
 | `_Hierarchy` | *Association* |

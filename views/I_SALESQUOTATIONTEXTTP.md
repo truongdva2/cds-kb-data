@@ -33,17 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationText.SalesQuotation` | `SalesQuotationText.SalesQuotation` |
-| `key SalesQuotationText.Language` | `SalesQuotationText.Language` |
-| `key SalesQuotationText.LongTextID` | `SalesQuotationText.LongTextID` |
-| `SalesQuotationText.LongTextIDForEdit` | `SalesQuotationText.LongTextIDForEdit` |
-| `SalesQuotationText.LanguageForEdit` | `SalesQuotationText.LanguageForEdit` |
-| `SalesQuotationText.LongText` | `SalesQuotationText.LongText` |
-| `SalesQuotationText.SalesQuotationType` | `SalesQuotationText.SalesQuotationType` |
-| `SalesQuotationText.SalesOrganization` | `SalesQuotationText.SalesOrganization` |
-| `SalesQuotationText.DistributionChannel` | `SalesQuotationText.DistributionChannel` |
-| `SalesQuotationText.OrganizationDivision` | `SalesQuotationText.OrganizationDivision` |
-| `_SalesQuotation : redirected to parent I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationText.SalesQuotation` |
+| `Language` | `SalesQuotationText.Language` |
+| `LongTextID` | `SalesQuotationText.LongTextID` |
+| `LongTextIDForEdit` | `SalesQuotationText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesQuotationText.LanguageForEdit` |
+| `LongText` | `SalesQuotationText.LongText` |
+| `SalesQuotationType` | `SalesQuotationText.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationText.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationText.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationText.OrganizationDivision` |
 
 ## Associations
 

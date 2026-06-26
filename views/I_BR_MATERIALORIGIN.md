@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_matorg )` | `cast ( domvalue_l` |
+| `BR_MaterialOrigin` | `cast ( domvalue_l as logbr_matorg )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

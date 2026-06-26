@@ -30,19 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     CostEstimate` | `CostEstimate` |
-| `key     CurrencyRole` | `CurrencyRole` |
-| `key     Ledger` | `Ledger` |
-| `key     MaterialLedgerCategory` | `MaterialLedgerCategory` |
-| `key     ProcessCategory` | `ProcessCategory` |
-| `key     MatlLdgrDocIsCostingRelevant` | `MatlLdgrDocIsCostingRelevant` |
-| `key     ProductionProcess` | `ProductionProcess` |
-| `key     Material` | `Material` |
-| `key     SalesOrder` | `SalesOrder` |
-| `key     SalesOrderItem` | `SalesOrderItem` |
-| `key     WBSElementExternalID` | `WBSElementExternalID` |
-| `key     OrderID` | `OrderID` |
-| `key     GLAccount` | `GLAccount` |
+| `CostEstimate` | `CostEstimate` |
+| `CurrencyRole` | `CurrencyRole` |
+| `Ledger` | `Ledger` |
+| `MaterialLedgerCategory` | `MaterialLedgerCategory` |
+| `ProcessCategory` | `ProcessCategory` |
+| `MatlLdgrDocIsCostingRelevant` | `MatlLdgrDocIsCostingRelevant` |
+| `ProductionProcess` | `ProductionProcess` |
+| `Material` | `Material` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `WBSElementExternalID` | `WBSElementExternalID` |
+| `OrderID` | `OrderID` |
+| `GLAccount` | `GLAccount` |
 | `FiscalPeriod` | `$parameters.P_FiscalPeriod` |
 | `FiscalYear` | `$parameters.P_FiscalYear` |
 | `ValuationArea` | `ValuationArea` |

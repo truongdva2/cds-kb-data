@@ -34,31 +34,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SalesDocument` |
-| `sales_order_item preserving type)` | `cast(SalesDocumentItem` |
-| `key   SalesDocItemBillingPlan.BillingPlan` | `SalesDocItemBillingPlan.BillingPlan` |
-| `SalesDocItemBillingPlan.BillingPlanCategory` | `SalesDocItemBillingPlan.BillingPlanCategory` |
-| `SalesDocItemBillingPlan.BillingPlanUsageCategory` | `SalesDocItemBillingPlan.BillingPlanUsageCategory` |
-| `SalesDocItemBillingPlan.BillingPlanType` | `SalesDocItemBillingPlan.BillingPlanType` |
-| `SalesDocItemBillingPlan.BillingPlanStartDate` | `SalesDocItemBillingPlan.BillingPlanStartDate` |
-| `SalesDocItemBillingPlan.BillingPlanStartDateRule` | `SalesDocItemBillingPlan.BillingPlanStartDateRule` |
-| `SalesDocItemBillingPlan.BillingPlanEndDate` | `SalesDocItemBillingPlan.BillingPlanEndDate` |
-| `SalesDocItemBillingPlan.BillingPlanEndDateRule` | `SalesDocItemBillingPlan.BillingPlanEndDateRule` |
-| `SalesDocItemBillingPlan.ReferenceBillingPlan` | `SalesDocItemBillingPlan.ReferenceBillingPlan` |
-| `SalesDocItemBillingPlan.BillingPlanIsInHeader` | `SalesDocItemBillingPlan.BillingPlanIsInHeader` |
-| `SalesDocItemBillingPlan.BillingPlanSearchTerm` | `SalesDocItemBillingPlan.BillingPlanSearchTerm` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `SalesOrder` | `cast(SalesDocument as vdm_sales_order preserving type)` |
+| `SalesOrderItem` | `cast(SalesDocumentItem as sales_order_item preserving type)` |
+| `BillingPlan` | `SalesDocItemBillingPlan.BillingPlan` |
+| `BillingPlanCategory` | `SalesDocItemBillingPlan.BillingPlanCategory` |
+| `BillingPlanUsageCategory` | `SalesDocItemBillingPlan.BillingPlanUsageCategory` |
+| `BillingPlanType` | `SalesDocItemBillingPlan.BillingPlanType` |
+| `BillingPlanStartDate` | `SalesDocItemBillingPlan.BillingPlanStartDate` |
+| `BillingPlanStartDateRule` | `SalesDocItemBillingPlan.BillingPlanStartDateRule` |
+| `BillingPlanEndDate` | `SalesDocItemBillingPlan.BillingPlanEndDate` |
+| `BillingPlanEndDateRule` | `SalesDocItemBillingPlan.BillingPlanEndDateRule` |
+| `ReferenceBillingPlan` | `SalesDocItemBillingPlan.ReferenceBillingPlan` |
+| `BillingPlanIsInHeader` | `SalesDocItemBillingPlan.BillingPlanIsInHeader` |
+| `BillingPlanSearchTerm` | `SalesDocItemBillingPlan.BillingPlanSearchTerm` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
 | `_SlsOrderItemBillingPlanItem` | *Association* |
-| `SalesDocItemBillingPlan._BillingPlanCategory` | `SalesDocItemBillingPlan._BillingPlanCategory` |
-| `SalesDocItemBillingPlan._BillingPlanUsageCategory` | `SalesDocItemBillingPlan._BillingPlanUsageCategory` |
-| `SalesDocItemBillingPlan._BillingPlanType` | `SalesDocItemBillingPlan._BillingPlanType` |
-| `SalesDocItemBillingPlan._StartDateRule` | `SalesDocItemBillingPlan._StartDateRule` |
-| `SalesDocItemBillingPlan._EndDateRule` | `SalesDocItemBillingPlan._EndDateRule` |
+| `_BillingPlanCategory` | *Association* |
+| `_BillingPlanUsageCategory` | *Association* |
+| `_BillingPlanType` | *Association* |
+| `_StartDateRule` | *Association* |
+| `_EndDateRule` | *Association* |
 
 ## Associations
 

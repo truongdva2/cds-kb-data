@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tcmm_life_cycle_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspRateValidityLfcycStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_rate_lfcyc_sts_txt preserving type)` | `cast(ddtext` |
+| `TranspRateValidityLfcycStsText` | `cast(ddtext as /scmtms/vdm_rate_lfcyc_sts_txt preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspRateTableValdtySts` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspRateTableValdtySts` | `I_TranspRateTableValdtySts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

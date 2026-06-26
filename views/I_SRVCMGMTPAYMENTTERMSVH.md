@@ -14,6 +14,7 @@ tags:
   - payment
   - component:CRM-S4-SRV-MC-2CL
   - lob:Other
+  - bo:PaymentTerms
 ---
 # I_SRVCMGMTPAYMENTTERMSVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentTerms.PaymentTerms` | `PaymentTerms.PaymentTerms` |
+| `PaymentTerms` | `PaymentTerms.PaymentTerms` |
 | `_Text` | *Association* |
 
 ## Associations

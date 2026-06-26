@@ -16,6 +16,7 @@ tags:
   - status
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveStatus
 ---
 # I_EWM_WAVESTATUSTEXT_2
 
@@ -32,7 +33,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scwm/de_stwave )as EWMWaveStatus` | `cast( Domain.domvalue_l` |
 | `Language` | `Domain.ddlanguage` |
 | `EWMWaveStatusName` | `Domain.ddtext` |
 

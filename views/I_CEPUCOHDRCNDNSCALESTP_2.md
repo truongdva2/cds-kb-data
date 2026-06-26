@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
-| `key ConditionScaleLine` | `ConditionScaleLine` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `ConditionScaleLine` | `ConditionScaleLine` |
 | `ConditionScaleQuantity` | `ConditionScaleQuantity` |
 | `ConditionScaleQuantityUnit` | `ConditionScaleQuantityUnit` |
 | `ConditionScaleAmount` | `ConditionScaleAmount` |
@@ -47,9 +47,6 @@ tags:
 | `PricingScaleType` | `PricingScaleType` |
 | `ConditionQuantity` | `ConditionQuantity` |
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
-| `/* Associations  */` | `/* Associations  */` |
-| `_CentralPurchaseContract    : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurContrHdrCndnAmount : redirected to parent I_CntrlPurContrHdrCndnAmtTP_2` | *Association* |
 
 ## Associations
 

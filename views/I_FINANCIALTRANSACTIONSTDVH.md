@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialTransaction
 ---
 # I_FINANCIALTRANSACTIONSTDVH
 
@@ -32,10 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:     'I_TreasuryPortfolio'` | `name:     'I_TreasuryPortfolio'` |
-| `element:  'Portfolio'` | `element:  'Portfolio'` |
-| `}` | `}` |
-| `}]` | `}]` |
+| `FinancialTransaction` | `FinancialTransaction` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialInstrTransactionType` | `FinancialInstrTransactionType` |
+| `FinancialInstrumentProductType` | `FinancialInstrumentProductType` |
+| `Counterparty` | `Counterparty` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreatedByUserDescription` | `_CreatedBy.FullName` |
+| `FinTransCreationDate` | `FinTransCreationDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangedByUserDescription` | `_LastChangedBy.FullName` |
+| `LastChangeDate` | `LastChangeDate` |
+| `FinancialInstrumentStatus` | `FinancialInstrumentStatus` |
 | `Portfolio` | `Portfolio` |
 | `SecurityAccount` | `SecurityAccount` |
 | `_CreatedBy` | *Association* |

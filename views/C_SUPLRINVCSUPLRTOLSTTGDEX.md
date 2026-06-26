@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrInvcVerificatTolGroup
 ---
 # C_SUPLRINVCSUPLRTOLSTTGDEX
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
-| `key SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
 | `APARToleranceGroupName` | `APARToleranceGroupName` |
 | `_CompanyCode` | *Association* |
 

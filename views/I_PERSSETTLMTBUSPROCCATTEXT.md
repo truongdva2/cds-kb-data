@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_use_case_type )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `PersSettlmtBusProcCat` | `cast( dd07t.domvalue_l as wlf_use_case_type )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wlf_use_case_type_desc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `PersSettlmtBusProcCatName` | `cast( ddtext as wlf_use_case_type_desc preserving type )` |
 | `_PersSettlmtBusProcCat` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PersSettlmtBusProcCat` | `I_PersSettlmtBusProcCat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

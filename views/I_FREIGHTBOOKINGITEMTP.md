@@ -33,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
+| `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItem` | `TranspOrdItem` |
 | `TranspOrdItemType` | `TranspOrdItemType` |
@@ -87,16 +86,15 @@ tags:
 | `TranspOrdItemNetWeight` | `TranspOrdItemNetWeight` |
 | `TranspOrdItemNetWeightUnit` | `TranspOrdItemNetWeightUnit` |
 | `TranspOrdItemDngrsGdsSts` | `TranspOrdItemDngrsGdsSts` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBooking                : redirected to parent I_FreightBookingTP` | `FreightBookingItem._TransportationOrder` |
-| `_FreightBookingItemDocRef      : redirected to composition child I_FreightBookingItemDocRefTP` | `FreightBookingItem._TranspOrdItemDocRef` |
-| `_FreightBookingItemSeal        : redirected to composition child I_FreightBookingItemSealTP` | `FreightBookingItem._TranspOrdItemSeal` |
-| `_FrtBookingItemCommodityCode   : redirected to composition child I_FrtBkgItemCommodityCodeTP` | `FreightBookingItem._TranspOrdItemCommodityCode` |
-| `_FrtBookingItemSerialNumber    : redirected to composition child I_FrtBookingItemSerialNumberTP` | `FreightBookingItem._TranspOrdItemSerialNumber` |
-| `_FreightBookingItemBatch       : redirected to composition child I_FreightBookingItemBatchTP` | `FreightBookingItem._TranspOrdItemBatch` |
-| `_FrtBkgItmMainBPAddrDfltRprstn : redirected to composition child I_FrtBkgItmMainBPAdDfRpnTP` | `FreightBookingItem._TrOrdItmMnBPAddrDfltRprstn` |
-| `_ShipperAddrDfltRprstn         : redirected to I_FrtBkgItmMainBPAdDfRpnTP` | `FreightBookingItem._ShipperAddrDfltRprstn` |
-| `_ConsigneeAddrDfltRprstn       : redirected to I_FrtBkgItmMainBPAdDfRpnTP` | `FreightBookingItem._ConsigneeAddrDfltRprstn` |
+| `_FreightBooking` | *Association* |
+| `_FreightBookingItemDocRef` | *Association* |
+| `_FreightBookingItemSeal` | *Association* |
+| `_FrtBookingItemCommodityCode` | *Association* |
+| `_FrtBookingItemSerialNumber` | *Association* |
+| `_FreightBookingItemBatch` | *Association* |
+| `_FrtBkgItmMainBPAddrDfltRprstn` | *Association* |
+| `_ShipperAddrDfltRprstn` | *Association* |
+| `_ConsigneeAddrDfltRprstn` | *Association* |
 
 ## Associations
 

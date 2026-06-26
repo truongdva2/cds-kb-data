@@ -15,6 +15,7 @@ tags:
   - document
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeDocumentType
 ---
 # I_BR_CTEDOCUMENTTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_type_cte preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_CTeDocumentType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_type_cte preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CAInvcgSourceDocumentCat    : srcdoccat_kk;` | `CAInvcgSourceDocumentCat    : srcdoccat_kk;` |
-| `CAInvcgSourceDocumentNumber : srcdocno_kk;` | `CAInvcgSourceDocumentNumber : srcdocno_kk;` |
-| `_Parent                     : association to parent D_ContrAcctgInvcgDocCreated;` | *Association* |
+| `CAInvcgSourceDocumentCat` | `srcdoccat_kk` |
+| `CAInvcgSourceDocumentNumber` | `srcdocno_kk` |
+| `_Parent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Parent` | `D_ContrAcctgInvcgDocCreated` | — |
 
 ## Source Code
 

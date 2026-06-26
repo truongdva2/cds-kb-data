@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:FiscalPeriod
 ---
 # I_FISCALYEARPERIODFORLEDGER
 
@@ -30,26 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_LedgerStdVH'` | `name:    'I_LedgerStdVH'` |
-| `element: 'Ledger' }` | `element: 'Ledger' }` |
-| `}]` | `}]` |
-| `fis_rldnr preserving type )` | `cast( finsc_ld_cmp.rldnr` |
-| `key I_FiscalYearPeriod.FiscalYear` | `I_FiscalYearPeriod.FiscalYear` |
-| `key I_FiscalYearPeriod.FiscalPeriod` | `I_FiscalYearPeriod.FiscalPeriod` |
-| `I_FiscalYearPeriod.FiscalYearVariant` | `I_FiscalYearPeriod.FiscalYearVariant` |
-| `I_FiscalYearPeriod.FiscalPeriodStartDate` | `I_FiscalYearPeriod.FiscalPeriodStartDate` |
-| `I_FiscalYearPeriod.FiscalPeriodEndDate` | `I_FiscalYearPeriod.FiscalPeriodEndDate` |
-| `I_FiscalYearPeriod.IsSpecialPeriod` | `I_FiscalYearPeriod.IsSpecialPeriod` |
-| `I_FiscalYearPeriod.FiscalYearStartDate` | `I_FiscalYearPeriod.FiscalYearStartDate` |
-| `I_FiscalYearPeriod.FiscalYearEndDate` | `I_FiscalYearPeriod.FiscalYearEndDate` |
-| `I_FiscalYearPeriod.NextFiscalPeriod` | `I_FiscalYearPeriod.NextFiscalPeriod` |
-| `I_FiscalYearPeriod.NextFiscalPeriodFiscalYear` | `I_FiscalYearPeriod.NextFiscalPeriodFiscalYear` |
-| `I_FiscalYearPeriod.FiscalYearPeriod` | `I_FiscalYearPeriod.FiscalYearPeriod` |
+| `CompanyCode` | `cast( finsc_ld_cmp.bukrs as fis_bukrs preserving type )` |
+| `Ledger` | `cast( finsc_ld_cmp.rldnr as fis_rldnr preserving type )` |
+| `FiscalYear` | `I_FiscalYearPeriod.FiscalYear` |
+| `FiscalPeriod` | `I_FiscalYearPeriod.FiscalPeriod` |
+| `FiscalYearVariant` | `I_FiscalYearPeriod.FiscalYearVariant` |
+| `FiscalPeriodStartDate` | `I_FiscalYearPeriod.FiscalPeriodStartDate` |
+| `FiscalPeriodEndDate` | `I_FiscalYearPeriod.FiscalPeriodEndDate` |
+| `IsSpecialPeriod` | `I_FiscalYearPeriod.IsSpecialPeriod` |
+| `FiscalYearStartDate` | `I_FiscalYearPeriod.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `I_FiscalYearPeriod.FiscalYearEndDate` |
+| `NextFiscalPeriod` | `I_FiscalYearPeriod.NextFiscalPeriod` |
+| `NextFiscalPeriodFiscalYear` | `I_FiscalYearPeriod.NextFiscalPeriodFiscalYear` |
+| `FiscalYearPeriod` | `I_FiscalYearPeriod.FiscalYearPeriod` |
 | `_CompanyCode` | *Association* |
 | `_Ledger` | *Association* |
 | `_FiscalYearVariant` | *Association* |
 | `_FiscalYearForVariant` | *Association* |
-| `I_FiscalYearPeriod._FiscalPeriodStartDate` | `I_FiscalYearPeriod._FiscalPeriodStartDate` |
+| `_FiscalPeriodStartDate` | *Association* |
 | `_FiscalYear` | *Association* |
 | `_FiscalYearForLedger` | *Association* |
 | `_Text` | *Association* |

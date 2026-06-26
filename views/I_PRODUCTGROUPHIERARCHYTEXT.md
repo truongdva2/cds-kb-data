@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ProductGroupHierarchyText
 ---
 # I_PRODUCTGROUPHIERARCHYTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_productgroup preserving type )` | `cast(hrrp_dirt_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `ProductGroupHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_productgroup preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `ProductGroupHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

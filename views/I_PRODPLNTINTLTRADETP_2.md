@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_RegionVH', element : 'Region'} , useAsTemplate: true }]` | `name: 'I_RegionVH', element : 'Region'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `CountryOfOrigin` | `CountryOfOrigin` |
 | `RegionOfOrigin` | `RegionOfOrigin` |
 | `ConsumptionTaxCtrlCode` | `ConsumptionTaxCtrlCode` |
 | `ExportAndImportProductGroup` | `ExportAndImportProductGroup` |
 | `ProductCASNumber` | `ProductCASNumber` |
 | `ProdIntlTradeClassification` | `ProdIntlTradeClassification` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_CountryOfOrigin` | *Association* |
 | `_RegionOfOrigin` | *Association* |
 | `_ProductDescription` | *Association* |

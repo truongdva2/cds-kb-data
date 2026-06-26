@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:OverallSDProcessStatus
 ---
 # I_OVERALLSDPROCESSSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `gbstk preserving type )` | `cast (substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallSDProcessStatus` | `cast (substring(dd07l.domvalue_l, 1, 1) as gbstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

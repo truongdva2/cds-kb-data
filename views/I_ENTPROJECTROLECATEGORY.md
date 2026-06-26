@@ -32,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_role_category )` | `cast( dd07l.domvalue_l` |
+| `ProjectRoleCategory` | `cast( dd07l.domvalue_l as /s4ppm/tv_role_category )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_EntProjectRoleCategoryText` | [0..*] |
 
 ## Source Code
 

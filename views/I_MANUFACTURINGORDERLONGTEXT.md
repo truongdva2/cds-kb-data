@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `manufacturingorder preserving type)` | `cast(text.OrderID` |
+| `ManufacturingOrder` | `cast(text.OrderID as manufacturingorder preserving type)` |
 | `LongTextLanguage` | `head.LongTextLanguage` |
 | `ManufacturingOrderText` | `head.OrderDescription` |
 | `ManufacturingOrderLongText` | `text.PlainLongText` |

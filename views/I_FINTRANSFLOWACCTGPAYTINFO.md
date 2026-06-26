@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BizTransac.TrsyTransacMgmtBizTransaction` | `BizTransac.TrsyTransacMgmtBizTransaction` |
-| `FinTrans.CompanyCode` | `FinTrans.CompanyCode` |
-| `FinTrans.FinancialTransaction` | `FinTrans.FinancialTransaction` |
-| `FinTrans.FinancialInstrProductCategory` | `FinTrans.FinancialInstrProductCategory` |
-| `BizTransac.PayingValuationArea` | `BizTransac.PayingValuationArea` |
+| `TrsyTransacMgmtBizTransaction` | `BizTransac.TrsyTransacMgmtBizTransaction` |
+| `CompanyCode` | `FinTrans.CompanyCode` |
+| `FinancialTransaction` | `FinTrans.FinancialTransaction` |
+| `FinancialInstrProductCategory` | `FinTrans.FinancialInstrProductCategory` |
+| `PayingValuationArea` | `BizTransac.PayingValuationArea` |
 | `AccountingDocument` | `AcctInfo.AccountingDocument` |
-| `fis_gjahr_no_conv preserving type )` | `cast( AcctInfo.FiscalYear` |
+| `FiscalYear` | `cast( AcctInfo.FiscalYear as fis_gjahr_no_conv preserving type )` |
 | `FinTransFlowPostingDate` | `AcctInfo.PostingDate` |
 | `PaymentRequest` | `PaytRequest.PaymentRequest` |
 | `PaytReqOriglReferenceDocument` | `PaytRequest.PaytReqOriglReferenceDocument` |

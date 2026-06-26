@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspLotMatlDocItemType
 ---
 # I_INSPLOTMATLDOCITEMTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qambtype )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspLotMatlDocItemType` | `cast ( substring( domvalue_l, 1, 1 ) as qambtype )` |
 | `_Text` | *Association* |
 
 ## Associations

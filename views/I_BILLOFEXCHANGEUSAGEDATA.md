@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key AccountingDocument` | `AccountingDocument` |
-| `key FiscalYear` | `FiscalYear` |
-| `key AccountingDocumentItem` | `AccountingDocumentItem` |
+| `CompanyCode` | `CompanyCode` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocumentItem` | `AccountingDocumentItem` |
 | `Cheque` | `Cheque` |
 | `BillOfExchangeIssueDate` | `BillOfExchangeIssueDate` |
 | `BillOfExchangeUsageDate` | `BillOfExchangeUsageDate` |
@@ -51,10 +51,10 @@ tags:
 | `BusinessSectionCode` | `BusinessSectionCode` |
 | `BillOfExchangePortfolio` | `BillOfExchangePortfolio` |
 | `BillOfExchangeDataAgingDate` | `BillOfExchangeDataAgingDate` |
-| `cvp_xblck preserving type )` | `cast ( IsBusinessPurposeCompleted` |
-| `brgru preserving type )` | `cast ( AuthorizationGroup` |
-| `_OperationalAcctgDocItem.BillOfExchangeUsageDocument             as BillOfExchangeUsageDocument` | *Association* |
-| `_OperationalAcctgDocItem.BillOfExchangeUsage                     as BillOfExchangeUsage` | *Association* |
+| `IsBusinessPurposeCompleted` | `cast ( IsBusinessPurposeCompleted as cvp_xblck preserving type )` |
+| `AuthorizationGroup` | `cast ( AuthorizationGroup as brgru preserving type )` |
+| `BillOfExchangeUsageDocument` | `_OperationalAcctgDocItem.BillOfExchangeUsageDocument` |
+| `BillOfExchangeUsage` | `_OperationalAcctgDocItem.BillOfExchangeUsage` |
 | `_OperationalAcctgDocItem` | *Association* |
 
 ## Associations

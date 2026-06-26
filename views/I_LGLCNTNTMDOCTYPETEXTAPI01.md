@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LglCntntMDocType
 ---
 # I_LGLCNTNTMDOCTYPETEXTAPI01
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocType` | `LglCntntMDocType` |
-| `key Language` | `Language` |
+| `LglCntntMDocType` | `LglCntntMDocType` |
+| `Language` | `Language` |
 | `LglCntntMDocTypeText` | `LglCntntMDocTypeText` |
 
 ## Associations

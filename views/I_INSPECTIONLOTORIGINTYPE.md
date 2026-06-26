@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLotOriginVariant
 ---
 # I_INSPECTIONLOTORIGINTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qherk preserving type )` | `cast( tq32.herkunft` |
+| `InspectionLotOrigin` | `cast( tq32.herkunft as vdm_qherk preserving type )` |
 | `InspectionLotOriginVariant` | `tq32.variante` |
 | `InspectionLotType` | `tq32.art` |
 | `_InspectionLotOrigin` | *Association* |

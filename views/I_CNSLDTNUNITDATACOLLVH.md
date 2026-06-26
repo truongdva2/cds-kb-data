@@ -31,12 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `_CnsldtnUnitDataColl._Text[1: Language=$session.system_language].CnsldtnUnitDataCollectionText` | *Association* |
-| `_CnsldtnUnitDataColl._Text[1: Language=$session.system_language].CnsldtnUnitDataCollLongText` | *Association* |
+| `CnsldtnUnitDataCollection` | `_CnsldtnUnitDataColl.CnsldtnUnitDataCollection` |
+| `CnsldtnUnitDataCollectionText` | `expr(…)` |
+| `CnsldtnUnitDataCollLongText` | `expr(…)` |
 
 ## Associations
 

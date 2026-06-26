@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanCalculationSmoothingType
 ---
 # I_KANBANCALCSMOOTHINGTYPETXT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kcgla preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_smoothing_type_text preserving type)` | `cast(ddtext` |
+| `KanbanCalculationSmoothingType` | `cast(substring(domvalue_l, 1, 1) as kcgla preserving type)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KanbanCalcSmoothingTypeName` | `cast(ddtext as vdm_smoothing_type_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnCalcSmoothingTypes` | *Association* |
 | `_Language` | *Association* |

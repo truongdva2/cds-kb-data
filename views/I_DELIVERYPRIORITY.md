@@ -15,6 +15,7 @@ tags:
   - delivery
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:DeliveryPriority
 ---
 # I_DELIVERYPRIORITY
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DeliveryPriority` | `lprio` |
-| `bezei30)` | `cast(_Text[1: Language=$session.system_language].DeliveryPriorityDesc` |
+| `DeliveryPriorityDesc` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

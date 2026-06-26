@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pdtyp_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `pdtyp_text_kk preserving type )` | `cast( ddtext` |
+| `CAPaymentSpecificationCategory` | `cast( left( dd07t.domvalue_l, 1 ) as pdtyp_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAPaymentSpecificationCatName` | `cast( ddtext as pdtyp_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

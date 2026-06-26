@@ -31,14 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
-| `key VarConfignTblValAssgmtAltvID` | `VarConfignTblValAssgmtAltvID` |
-| `key Characteristic` | `Characteristic` |
+| `VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblValAssgmtAltvID` | `VarConfignTblValAssgmtAltvID` |
+| `Characteristic` | `Characteristic` |
 | `CharcInternalID` | `CharcInternalID` |
-| `/* Associations */` | `/* Associations */` |
-| `_Column: redirected to I_VarConfignTableColumnTP` | *Association* |
-| `_Table: redirected to I_VarConfignTableTP` | *Association* |
-| `_ValueAssignmentAlternative: redirected to parent I_VarCnfTblValAssgmtAltvTP` | *Association* |
 
 ## Associations
 

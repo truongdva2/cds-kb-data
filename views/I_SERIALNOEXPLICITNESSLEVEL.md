@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `serialnoexplicitnesslevel preserving type )` | `cast(substring(domvalue_l, 1, 1)` |
+| `SerialNoExplicitnessLevel` | `cast(substring(domvalue_l, 1, 1) as serialnoexplicitnesslevel preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

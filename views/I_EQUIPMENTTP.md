@@ -16,6 +16,7 @@ tags:
   - equipment
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:Equipment
 ---
 # I_EQUIPMENTTP
 
@@ -32,17 +33,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `Equipment` | `Equipment` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ValidityEndTime` | `ValidityEndTime` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `EquipmentName` | `EquipmentName` |
+| `EquipmentCategory` | `EquipmentCategory` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
+| `GrossWeight` | `GrossWeight` |
+| `GrossWeightUnit` | `GrossWeightUnit` |
+| `SizeOrDimensionText` | `SizeOrDimensionText` |
+| `InventoryNumber` | `InventoryNumber` |
+| `OperationStartDate` | `OperationStartDate` |
+| `AcquisitionValue` | `AcquisitionValue` |
+| `Currency` | `Currency` |
+| `AcquisitionDate` | `AcquisitionDate` |
+| `AssetManufacturerName` | `AssetManufacturerName` |
+| `ManufacturerPartTypeName` | `ManufacturerPartTypeName` |
+| `ManufacturerCountry` | `ManufacturerCountry` |
+| `ConstructionYear` | `ConstructionYear` |
+| `ConstructionMonth` | `ConstructionMonth` |
+| `EquipmentManufacturerPrtNmbr` | `EquipmentManufacturerPrtNmbr` |
+| `ManufacturerSerialNumber` | `ManufacturerSerialNumber` |
+| `MaintenancePlant` | `MaintenancePlant` |
+| `AssetLocation` | `AssetLocation` |
+| `AssetRoom` | `AssetRoom` |
+| `PlantSection` | `PlantSection` |
+| `WorkCenter` | `WorkCenter` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterPlant` | `WorkCenterPlant` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `ABCIndicator` | `ABCIndicator` |
+| `MaintObjectFreeDefinedAttrib` | `MaintObjectFreeDefinedAttrib` |
 | `AddressID` | `AddressID` |
-| `FormOfAddress, // new field 2108` | `FormOfAddress, // new field 2108` |
+| `FormOfAddress` | `FormOfAddress` |
 | `BusinessPartnerName1` | `BusinessPartnerName1` |
-| `BusinessPartnerName2, // new field 2108` | `BusinessPartnerName2, // new field 2108` |
+| `BusinessPartnerName2` | `BusinessPartnerName2` |
 | `CityName` | `CityName` |
 | `HouseNumber` | `HouseNumber` |
-| `HouseNumberSupplementText, // new field 2108` | `HouseNumberSupplementText, // new field 2108` |
-| `Building, // new field 2108` | `Building, // new field 2108` |
-| `Floor, // new field 2108` | `Floor, // new field 2108` |
-| `RoomNumber, // new field 2108` | `RoomNumber, // new field 2108` |
+| `HouseNumberSupplementText` | `HouseNumberSupplementText` |
+| `Building` | `Building` |
+| `Floor` | `Floor` |
+| `RoomNumber` | `RoomNumber` |
 | `PostalCode` | `PostalCode` |
 | `StreetName` | `StreetName` |
 | `Region` | `Region` |
@@ -73,8 +106,8 @@ tags:
 | `Material` | `Material` |
 | `SerialNumber` | `SerialNumber` |
 | `UniqueItemIdentifier` | `UniqueItemIdentifier` |
-| `UniqueItemIdentifierStrucType, // new UII field 2111` | `UniqueItemIdentifierStrucType, // new UII field 2111` |
-| `UniqueItemIdentifierRespPlant, // new UII field 2111` | `UniqueItemIdentifierRespPlant, // new UII field 2111` |
+| `UniqueItemIdentifierStrucType` | `UniqueItemIdentifierStrucType` |
+| `UniqueItemIdentifierRespPlant` | `UniqueItemIdentifierRespPlant` |
 | `SalesOrganization` | `SalesOrganization` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
@@ -83,11 +116,6 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Additional fields */` | `/* Additional fields */` |
-| `/* If record is latest record (today's), then the timestamp comes from equipment.` | `/* If record is latest record (today's), then the timestamp comes from equipment.` |
-| `This is because timestamp on equipment catches changes done to EQUI AND EQUZ. Example: AcquisitionValue changed` | `This is because timestamp on equipment catches changes done to EQUI AND EQUZ. Example: AcquisitionValue changed` |
-| `If record is an old record (i.e. its validity end date is not in the future), then that time segments timestamp is used.` | `If record is an old record (i.e. its validity end date is not in the future), then that time segments timestamp is used.` |
-| `This will also prevent any later changes of EQUI to be detected by ODP extractor. However this was discussed to be intended. */` | `This will also prevent any later changes of EQUI to be detected by ODP extractor. However this was discussed to be intended. */` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `NextEquipUsagePeriodSqncNmbr` | `NextEquipUsagePeriodSqncNmbr` |
 | `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
@@ -102,10 +130,6 @@ tags:
 | `EquipIsAllocToSuperiorEquip` | `EquipIsAllocToSuperiorEquip` |
 | `EquipmentIsInactive` | `EquipmentIsInactive` |
 | `EquipHasSubOrdinateEquipment` | `EquipHasSubOrdinateEquipment` |
-| `_Partner        : redirected to composition child I_EquipmentPartnerTP` | *Association* |
-| `_LongText       : redirected to composition child I_EquipmentLongTextTP` | *Association* |
-| `_Classification : redirected to composition child I_EquipmentClfnClassTP` | *Association* |
-| `_Warranty       : redirected to composition child I_EquipmentWrntyAssgmtTP` | *Association* |
 
 ## Associations
 

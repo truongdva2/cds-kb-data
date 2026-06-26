@@ -32,131 +32,121 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_customer_return preserving type)` | `cast(SDIA.SalesDocument` |
+| `CustomerReturn` | `cast(SDIA.SalesDocument as vdm_customer_return preserving type)` |
 | `_CustomerReturn` | *Association* |
-| `vdm_customer_return_item preserving type)` | `cast(SDIA.SalesDocumentItem` |
-| `vdm_customer_return_type preserving type)` | `cast(SDIA.SalesDocumentType` |
+| `CustomerReturnItem` | `cast(SDIA.SalesDocumentItem as vdm_customer_return_item preserving type)` |
+| `CustomerReturnType` | `cast(SDIA.SalesDocumentType as vdm_customer_return_type preserving type)` |
 | `_CustomerReturnType` | *Association* |
 | `CustomerReturnItemType` | `SDIA.SalesDocumentItemType` |
 | `CustomerReturnItemCategory` | `SDIA.SalesDocumentItemCategory` |
-| `SDIA._ItemCategory` | `SDIA._ItemCategory` |
-| `SDIA.CreatedByUser` | `SDIA.CreatedByUser` |
-| `SDIA._CreatedByUser` | `SDIA._CreatedByUser` |
-| `SDIA.CreationDate` | `SDIA.CreationDate` |
-| `SDIA.CreationTime` | `SDIA.CreationTime` |
-| `SDIA.LastChangeDate` | `SDIA.LastChangeDate` |
-| `creation_date_year)` | `cast(CalendarDate.CalendarYear` |
-| `creation_date_year_quarter)` | `cast(CalendarDate.YearQuarter` |
-| `creation_date_year_month)` | `cast(CalendarDate.YearMonth` |
-| `SDIA.SalesOrganization` | `SDIA.SalesOrganization` |
-| `SDIA._SalesOrganization` | `SDIA._SalesOrganization` |
-| `SDIA.DistributionChannel` | `SDIA.DistributionChannel` |
-| `SDIA._DistributionChannel` | `SDIA._DistributionChannel` |
-| `organization_division preserving type)` | `cast(SDIA.OrganizationDivision` |
-| `SDIA._OrganizationDivision` | `SDIA._OrganizationDivision` |
-| `SDIA.Division` | `SDIA.Division` |
-| `SDIA._Division` | `SDIA._Division` |
-| `SDIA.SalesGroup` | `SDIA.SalesGroup` |
-| `SDIA._SalesGroup` | `SDIA._SalesGroup` |
-| `SDIA.SalesOffice` | `SDIA.SalesOffice` |
-| `SDIA._SalesOffice` | `SDIA._SalesOffice` |
+| `_ItemCategory` | *Association* |
+| `CreatedByUser` | `SDIA.CreatedByUser` |
+| `_CreatedByUser` | *Association* |
+| `CreationDate` | `SDIA.CreationDate` |
+| `CreationTime` | `SDIA.CreationTime` |
+| `LastChangeDate` | `SDIA.LastChangeDate` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `SalesOrganization` | `SDIA.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `SDIA.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `cast(SDIA.OrganizationDivision as organization_division preserving type)` |
+| `_OrganizationDivision` | *Association* |
+| `Division` | `SDIA.Division` |
+| `_Division` | *Association* |
+| `SalesGroup` | `SDIA.SalesGroup` |
+| `_SalesGroup` | *Association* |
+| `SalesOffice` | `SDIA.SalesOffice` |
+| `_SalesOffice` | *Association* |
 | `PartnerCompany` | `SDIA._SoldToParty.TradingPartner` |
-| `SDIA._SoldToParty._GlobalCompany` | `SDIA._SoldToParty._GlobalCompany` |
-| `SDIA.SoldToParty` | `SDIA.SoldToParty` |
-| `SDIA._SoldToParty` | `SDIA._SoldToParty` |
-| `SDIA.ShipToParty` | `SDIA.ShipToParty` |
-| `SDIA._ShipToParty` | `SDIA._ShipToParty` |
-| `SDIA.PayerParty` | `SDIA.PayerParty` |
-| `SDIA._PayerParty` | `SDIA._PayerParty` |
-| `SDIA.BillToParty` | `SDIA.BillToParty` |
-| `SDIA._BillToParty` | `SDIA._BillToParty` |
-| `SDIA.SDDocumentReason` | `SDIA.SDDocumentReason` |
-| `SDIA._SDDocumentReason` | `SDIA._SDDocumentReason` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SDIA.SoldToParty` |
+| `_SoldToParty` | *Association* |
+| `ShipToParty` | `SDIA.ShipToParty` |
+| `_ShipToParty` | *Association* |
+| `PayerParty` | `SDIA.PayerParty` |
+| `_PayerParty` | *Association* |
+| `BillToParty` | `SDIA.BillToParty` |
+| `_BillToParty` | *Association* |
+| `SDDocumentReason` | `SDIA.SDDocumentReason` |
+| `_SDDocumentReason` | *Association* |
 | `CustomerReturnItemText` | `SDIA.SalesDocumentItemText` |
-| `SDIA.CustomerPurchaseOrderType` | `SDIA.CustomerPurchaseOrderType` |
-| `SDIA.PurchaseOrderByCustomer` | `SDIA.PurchaseOrderByCustomer` |
-| `SDIA.CustomerPurchaseOrderDate` | `SDIA.CustomerPurchaseOrderDate` |
-| `SDIA.CustomerGroup` | `SDIA.CustomerGroup` |
-| `SDIA._CustomerGroup` | `SDIA._CustomerGroup` |
-| `SDIA.SalesDocumentRjcnReason` | `SDIA.SalesDocumentRjcnReason` |
-| `SDIA._SalesDocumentRjcnReason` | `SDIA._SalesDocumentRjcnReason` |
-| `SDIA.ReturnReason` | `SDIA.ReturnReason` |
-| `SDIA._ReturnReason` | `SDIA._ReturnReason` |
-| `SDIA.RetsMgmtProcessingBlock` | `SDIA.RetsMgmtProcessingBlock` |
-| `SDIA.Product` | `SDIA.Product` |
+| `CustomerPurchaseOrderType` | `SDIA.CustomerPurchaseOrderType` |
+| `PurchaseOrderByCustomer` | `SDIA.PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderDate` | `SDIA.CustomerPurchaseOrderDate` |
+| `CustomerGroup` | `SDIA.CustomerGroup` |
+| `_CustomerGroup` | *Association* |
+| `SalesDocumentRjcnReason` | `SDIA.SalesDocumentRjcnReason` |
+| `_SalesDocumentRjcnReason` | *Association* |
+| `ReturnReason` | `SDIA.ReturnReason` |
+| `_ReturnReason` | *Association* |
+| `RetsMgmtProcessingBlock` | `SDIA.RetsMgmtProcessingBlock` |
+| `Product` | `SDIA.Product` |
 | `_Product` | *Association* |
-| `SDIA.ProductGroup` | `SDIA.ProductGroup` |
-| `SDIA._ProductGroup` | `SDIA._ProductGroup` |
-| `SDIA.Plant` | `SDIA.Plant` |
-| `SDIA._Plant` | `SDIA._Plant` |
-| `SDIA.ItemWeightUnit` | `SDIA.ItemWeightUnit` |
-| `SDIA._ItemWeightUnit` | `SDIA._ItemWeightUnit` |
-| `SDIA.ItemGrossWeight` | `SDIA.ItemGrossWeight` |
-| `SDIA.ItemNetWeight` | `SDIA.ItemNetWeight` |
-| `SDIA.ItemVolumeUnit` | `SDIA.ItemVolumeUnit` |
-| `SDIA._ItemVolumeUnit` | `SDIA._ItemVolumeUnit` |
-| `SDIA.ItemVolume` | `SDIA.ItemVolume` |
-| `SDIA.MainItemPricingRefProduct` | `SDIA.MainItemPricingRefProduct` |
-| `SDIA.HigherLevelItem` | `SDIA.HigherLevelItem` |
-| `SDIA.BillOfMaterial` | `SDIA.BillOfMaterial` |
-| `SDIA.PropagatePrftbltySgmt2BOM` | `SDIA.PropagatePrftbltySgmt2BOM` |
-| `SDIA.CostDeterminationIsRequired` | `SDIA.CostDeterminationIsRequired` |
-| `SDIA.BillingCompanyCode` | `SDIA.BillingCompanyCode` |
-| `SDIA._BillingCompanyCode` | `SDIA._BillingCompanyCode` |
-| `SDIA.ItemIsBillingRelevant` | `SDIA.ItemIsBillingRelevant` |
-| `SDIA._ItemIsBillingRelevant` | `SDIA._ItemIsBillingRelevant` |
-| `billing_block_reason_item preserving type)` | `cast(SDIA.ItemBillingBlockReason` |
-| `SDIA._ItemBillingBlockReason` | `SDIA._ItemBillingBlockReason` |
-| `SDIA.StatisticalValueControl` | `SDIA.StatisticalValueControl` |
-| `SDIA._StatisticalValueControl` | `SDIA._StatisticalValueControl` |
-| `SDIA.TaxAmount` | `SDIA.TaxAmount` |
-| `SDIA.CostAmount` | `SDIA.CostAmount` |
-| `SDIA.Subtotal1Amount` | `SDIA.Subtotal1Amount` |
-| `SDIA.Subtotal2Amount` | `SDIA.Subtotal2Amount` |
-| `SDIA.Subtotal3Amount` | `SDIA.Subtotal3Amount` |
-| `SDIA.Subtotal4Amount` | `SDIA.Subtotal4Amount` |
-| `SDIA.Subtotal5Amount` | `SDIA.Subtotal5Amount` |
-| `SDIA.Subtotal6Amount` | `SDIA.Subtotal6Amount` |
-| `SDIA.CustomerPaymentTerms` | `SDIA.CustomerPaymentTerms` |
-| `SDIA._CustomerPaymentTerms` | `SDIA._CustomerPaymentTerms` |
-| `SDIA.PaymentMethod` | `SDIA.PaymentMethod` |
-| `SDIA.BusinessArea` | `SDIA.BusinessArea` |
-| `SDIA._BusinessArea` | `SDIA._BusinessArea` |
-| `SDIA.ShippingPoint` | `SDIA.ShippingPoint` |
-| `SDIA._ShippingPoint` | `SDIA._ShippingPoint` |
-| `SDIA.ReferenceSDDocumentCategory` | `SDIA.ReferenceSDDocumentCategory` |
-| `SDIA._ReferenceSDDocumentCategory` | `SDIA._ReferenceSDDocumentCategory` |
-| `SDIA.ReferenceSDDocument` | `SDIA.ReferenceSDDocument` |
-| `SDIA._ReferenceSDDocument` | `SDIA._ReferenceSDDocument` |
-| `SDIA.ReferenceSDDocumentItem` | `SDIA.ReferenceSDDocumentItem` |
-| `SDIA._ReferenceSDDocumentItem` | `SDIA._ReferenceSDDocumentItem` |
-| `SDIA.BusinessSolutionOrder, --AT15.05.2020 Solution Order References Added#` | `SDIA.BusinessSolutionOrder, --AT15.05.2020 Solution Order References Added#` |
-| `SDIA._SolutionOrder` | `SDIA._SolutionOrder` |
-| `SDIA.BaseUnit` | `SDIA.BaseUnit` |
-| `SDIA._BaseUnit` | `SDIA._BaseUnit` |
-| `SDIA.TransactionCurrency` | `SDIA.TransactionCurrency` |
-| `SDIA._TransactionCurrency` | `SDIA._TransactionCurrency` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `SDIA.NumberOfIncomingCustRetItems` | `SDIA.NumberOfIncomingCustRetItems` |
-| `SDIA.IncomingCustReturnsNetAmount` | `SDIA.IncomingCustReturnsNetAmount` |
-| `cast( currency_conversion(` | `cast( currency_conversion(` |
-| `amount => SDIA.IncomingCustReturnsNetAmount` | `amount => SDIA.IncomingCustReturnsNetAmount` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SDIA.CreationDate` | `exchange_rate_date => SDIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `incg_cust_rets_net_amt_in_dc )` | `)` |
-| `SDIA.IncomingCustReturnsQuantity` | `SDIA.IncomingCustReturnsQuantity` |
-| `sd_doc_process_status preserving type)` | `cast(SDIA.SDProcessStatus` |
-| `SDIA._SDProcessStatus` | `SDIA._SDProcessStatus` |
-| `SDIA.OrderRelatedBillingStatus` | `SDIA.OrderRelatedBillingStatus` |
-| `SDIA._OrderRelatedBillingStatus` | `SDIA._OrderRelatedBillingStatus` |
-| `SDIA.BillingBlockStatus` | `SDIA.BillingBlockStatus` |
-| `SDIA._BillingBlockStatus` | `SDIA._BillingBlockStatus` |
+| `ProductGroup` | `SDIA.ProductGroup` |
+| `_ProductGroup` | *Association* |
+| `Plant` | `SDIA.Plant` |
+| `_Plant` | *Association* |
+| `ItemWeightUnit` | `SDIA.ItemWeightUnit` |
+| `_ItemWeightUnit` | *Association* |
+| `ItemGrossWeight` | `SDIA.ItemGrossWeight` |
+| `ItemNetWeight` | `SDIA.ItemNetWeight` |
+| `ItemVolumeUnit` | `SDIA.ItemVolumeUnit` |
+| `_ItemVolumeUnit` | *Association* |
+| `ItemVolume` | `SDIA.ItemVolume` |
+| `MainItemPricingRefProduct` | `SDIA.MainItemPricingRefProduct` |
+| `HigherLevelItem` | `SDIA.HigherLevelItem` |
+| `BillOfMaterial` | `SDIA.BillOfMaterial` |
+| `PropagatePrftbltySgmt2BOM` | `SDIA.PropagatePrftbltySgmt2BOM` |
+| `CostDeterminationIsRequired` | `SDIA.CostDeterminationIsRequired` |
+| `BillingCompanyCode` | `SDIA.BillingCompanyCode` |
+| `_BillingCompanyCode` | *Association* |
+| `ItemIsBillingRelevant` | `SDIA.ItemIsBillingRelevant` |
+| `_ItemIsBillingRelevant` | *Association* |
+| `ItemBillingBlockReason` | `cast(SDIA.ItemBillingBlockReason as billing_block_reason_item preserving type)` |
+| `_ItemBillingBlockReason` | *Association* |
+| `StatisticalValueControl` | `SDIA.StatisticalValueControl` |
+| `_StatisticalValueControl` | *Association* |
+| `TaxAmount` | `SDIA.TaxAmount` |
+| `CostAmount` | `SDIA.CostAmount` |
+| `Subtotal1Amount` | `SDIA.Subtotal1Amount` |
+| `Subtotal2Amount` | `SDIA.Subtotal2Amount` |
+| `Subtotal3Amount` | `SDIA.Subtotal3Amount` |
+| `Subtotal4Amount` | `SDIA.Subtotal4Amount` |
+| `Subtotal5Amount` | `SDIA.Subtotal5Amount` |
+| `Subtotal6Amount` | `SDIA.Subtotal6Amount` |
+| `CustomerPaymentTerms` | `SDIA.CustomerPaymentTerms` |
+| `_CustomerPaymentTerms` | *Association* |
+| `PaymentMethod` | `SDIA.PaymentMethod` |
+| `BusinessArea` | `SDIA.BusinessArea` |
+| `_BusinessArea` | *Association* |
+| `ShippingPoint` | `SDIA.ShippingPoint` |
+| `_ShippingPoint` | *Association* |
+| `ReferenceSDDocumentCategory` | `SDIA.ReferenceSDDocumentCategory` |
+| `_ReferenceSDDocumentCategory` | *Association* |
+| `ReferenceSDDocument` | `SDIA.ReferenceSDDocument` |
+| `_ReferenceSDDocument` | *Association* |
+| `ReferenceSDDocumentItem` | `SDIA.ReferenceSDDocumentItem` |
+| `_ReferenceSDDocumentItem` | *Association* |
+| `BusinessSolutionOrder` | `SDIA.BusinessSolutionOrder` |
+| `_SolutionOrder` | *Association* |
+| `BaseUnit` | `SDIA.BaseUnit` |
+| `_BaseUnit` | *Association* |
+| `TransactionCurrency` | `SDIA.TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `NumberOfIncomingCustRetItems` | `SDIA.NumberOfIncomingCustRetItems` |
+| `IncomingCustReturnsNetAmount` | `SDIA.IncomingCustReturnsNetAmount` |
+| `IncomingCustReturnsNetAmtInDC` | `cast(…)` |
+| `IncomingCustReturnsQuantity` | `SDIA.IncomingCustReturnsQuantity` |
+| `SDProcessStatus` | `cast(SDIA.SDProcessStatus as sd_doc_process_status preserving type)` |
+| `_SDProcessStatus` | *Association* |
+| `OrderRelatedBillingStatus` | `SDIA.OrderRelatedBillingStatus` |
+| `_OrderRelatedBillingStatus` | *Association* |
+| `BillingBlockStatus` | `SDIA.BillingBlockStatus` |
+| `_BillingBlockStatus` | *Association* |
 
 ## Associations
 

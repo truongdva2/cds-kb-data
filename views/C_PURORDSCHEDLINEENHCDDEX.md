@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrder
 ---
 # C_PURORDSCHEDLINEENHCDDEX
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ScheduleLineUniqueID` | `ScheduleLineUniqueID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |

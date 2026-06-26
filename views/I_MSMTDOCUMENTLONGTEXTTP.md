@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MeasurementDocument` | `MeasurementDocument` |
+| `MeasurementDocument` | `MeasurementDocument` |
 | `Language` | `Language` |
 | `MeasurementDocumentLongText` | `MeasurementDocumentLongText` |
-| `/* Associations */` | `/* Associations */` |
-| `_MeasurementDocument : redirected to parent I_MeasurementDocumentTP_2` | *Association* |
 
 ## Associations
 

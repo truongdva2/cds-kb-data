@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `CAClearingReason` | `augrd` |
 | `Language` | `spras` |
-| `augrd_text_gfn_kk preserving type )` | `cast( txt50` |
+| `CAClearingReasonName` | `cast( txt50 as augrd_text_gfn_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

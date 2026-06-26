@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:StstclKeyFigureHierarchyText
 ---
 # I_STSTCLKEYFIGUREHIERARCHYT
 
@@ -30,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
 | `ControllingArea` | `hrrp_dirt_n.hrycls` |
 | `StatisticalKeyFigureHierarchy` | `hrrp_dirt_n.hryid_42` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `StatKeyFigureHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |

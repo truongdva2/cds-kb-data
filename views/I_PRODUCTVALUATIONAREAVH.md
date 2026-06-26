@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ValuationArea` | `ValuationArea` |
+| `ValuationArea` | `ValuationArea` |
 | `CompanyCode` | `CompanyCode` |
 | `CompanyCodeName` | `CompanyCodeName` |
 | `_CompanyCode` | *Association* |

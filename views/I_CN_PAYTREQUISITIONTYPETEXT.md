@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:PaymentRequisitionType
 ---
 # I_CN_PAYTREQUISITIONTYPETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `payreqn_reqn_type preserving type)` | `cast(substring( domvalue_l, 1, 1 )` |
-| `spras preserving type)` | `cast ( ddlanguage` |
-| `payreqn_reqn_type_name preserving type)` | `cast( ddtext` |
+| `PaymentRequisitionType` | `cast(substring( domvalue_l, 1, 1 ) as payreqn_reqn_type preserving type)` |
+| `Language` | `cast ( ddlanguage as spras preserving type)` |
+| `PaymentRequisitionTypeName` | `cast( ddtext as payreqn_reqn_type_name preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Language` | *Association* |
 | `_RequisitionType` | *Association* |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RequisitionType` | `I_CN_PaymentRequisitionTypeVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -31,17 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcc_exch_rate_uuid preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_transpcharge_uuid preserving type )` | `cast(root_key` |
-| `/scmtms/vdm_chrg_element_uuid preserving type )` | `cast(parent_key` |
-| `fcurr_curr preserving type )` | `cast(unitcurncy` |
-| `tcurr_curr preserving type )` | `cast(quotedcurncy` |
+| `TranspChrgExchangeRateUUID` | `cast(db_key as /scmtms/vdm_tcc_exch_rate_uuid preserving type )` |
+| `TransportationChargeUUID` | `cast(root_key as /scmtms/vdm_transpcharge_uuid preserving type )` |
+| `TranspChargeElementUUID` | `cast(parent_key as /scmtms/vdm_chrg_element_uuid preserving type )` |
+| `SourceCurrency` | `cast(unitcurncy as fcurr_curr preserving type )` |
+| `TargetCurrency` | `cast(quotedcurncy as tcurr_curr preserving type )` |
 | `TranspChrgExchangeRate` | `rate` |
-| `transpexchrateismanuallychgd preserving type )` | `cast(fixed` |
+| `TranspExchRateIsManuallyChgd` | `cast(fixed as transpexchrateismanuallychgd preserving type )` |
 | `TranspChrgExchangeRateType` | `exchgratetco05_i` |
 | `ExchangeRateDate` | `quotedate` |
 | `TranspExchRateDateIsMnllyChgd` | `fix_exchrate_date` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationCharge` | *Association* |
 | `_TransportationChargeElement` | *Association* |
 | `_SourceCurrency` | *Association* |
@@ -53,6 +52,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_TransportationCharge` | `I_TransportationCharge` | [1..1] |
+| `_TransportationChargeElement` | `I_TransportationChargeElement` | — |
 | `_TranspChrgExchangeRateType` | `I_ExchangeRateType` | [1..1] |
 | `_SourceCurrency` | `I_Currency` | [1..1] |
 | `_TargetCurrency` | `I_Currency` | [1..1] |

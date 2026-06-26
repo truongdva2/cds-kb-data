@@ -17,6 +17,7 @@ tags:
   - text
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:Equipment
 ---
 # I_EQUIPMENTTEXTDEX
 
@@ -39,8 +40,8 @@ tags:
 | `IsPrimaryLanguage` | `eqkt.txasp` |
 | `EquipmentHasLongText` | `eqkt.kzltx` |
 | `LastChangeDateTime` | `eqkt.textchangeddatetime` |
-| `_Equipment.CreationDate as ValidityStartDate` | *Association* |
-| `datbi )` | `cast( '99991231'` |
+| `ValidityStartDate` | `_Equipment.CreationDate` |
+| `ValidityEndDate` | `cast( '99991231' as datbi )` |
 | `_Equipment` | *Association* |
 | `_Language` | *Association* |
 

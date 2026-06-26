@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CompanyCodeVH', element: 'CompanyCode' }, association: '_CompanyCodeVH' } ]` | `name: 'I_CompanyCodeVH', element: 'CompanyCode' }, association: '_CompanyCodeVH' } ]` |
+| `GLAdjmtAcctgNotificationUUID` | `GLAdjmtAcctgNotificationUUID` |
+| `AccountingDocument` | `AccountingDocument` |
 | `CompanyCode` | `CompanyCode` |
 | `FiscalYear` | `FiscalYear` |
 | `EntryTimestamp` | `EntryTimestamp` |

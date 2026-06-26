@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:VarianceReasonCode
 ---
 # I_VARIANCEREASON
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_agrnd preserving type)` | `cast(trug.grund` |
+| `Plant` | `trug.werks` |
+| `VarianceReasonCode` | `cast(trug.grund as pph_agrnd preserving type)` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |
 

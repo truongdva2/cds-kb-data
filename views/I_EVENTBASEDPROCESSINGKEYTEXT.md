@@ -16,6 +16,7 @@ tags:
   - text
   - component:CO-PC-OBJ-ORD-2CL
   - lob:Controlling
+  - bo:EventBasedProcessingKey
 ---
 # I_EVENTBASEDPROCESSINGKEYTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `EventBasedProcessingKey` | `fcoc_ebw_methodt.ebw_key` |
 | `Language` | `spras` |
-| `ebw_key_text preserving type )` | `cast(texta` |
+| `EventBasedProcessingKeyName` | `cast(texta as ebw_key_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

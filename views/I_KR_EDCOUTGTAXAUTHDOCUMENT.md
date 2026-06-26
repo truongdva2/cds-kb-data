@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `selectionType: #SINGLE, multipleSelections : true}` | `selectionType: #SINGLE, multipleSelections : true}` |
+| `EDCTaxAuthRecordUUID` | `record_guid` |
 | `TaxInvoiceApprovalNmbr` | `TATaxItem.apprvl_no` |
 | `Currency` | `TATaxItem.waers` |
 | `EDCTaxableAmount` | `TATaxItem.tax_base_amt` |

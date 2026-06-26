@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `KeyDate : vdm_v_key_date;` | `KeyDate : vdm_v_key_date;` |
+| `KeyDate` | `vdm_v_key_date` |
 
 ## Associations
 

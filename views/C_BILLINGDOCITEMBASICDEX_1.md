@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentItem
 ---
 # C_BILLINGDOCITEMBASICDEX_1
 
@@ -33,61 +34,146 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DECOMMISSIONED, successor: 'ProfitabilitySegment_2' }` | `releaseState: #DECOMMISSIONED, successor: 'ProfitabilitySegment_2' }` |
-| `rkeobjnr_numc)` | `cast(case when ProfitabilitySegment > '9999999999' then '9999999999' else lpad(ProfitabilitySegment, 10, '0') end` |
-| `as ProfitabilitySegment` | `as ProfitabilitySegment` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
+| `SalesDocumentItemCategory` | `SalesDocumentItemCategory` |
+| `SalesDocumentItemType` | `SalesDocumentItemType` |
+| `ReturnItemProcessingType` | `ReturnItemProcessingType` |
+| `BillingDocumentCategory` | `BillingDocumentCategory` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `_BillingDocumentBasic.LastChangeDate` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingDocumentIsTemporary` | `BillingDocumentIsTemporary` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Material` | `Material` |
+| `Product` | `Product` |
+| `OriginallyRequestedMaterial` | `OriginallyRequestedMaterial` |
+| `InternationalArticleNumber` | `InternationalArticleNumber` |
+| `PricingReferenceMaterial` | `PricingReferenceMaterial` |
+| `ProductGroup` | `ProductGroup` |
+| `AdditionalMaterialGroup1` | `AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
+| `MaterialCommissionGroup` | `MaterialCommissionGroup` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `BillingDocumentIsCancelled` | `_BillingDocumentBasic.BillingDocumentIsCancelled` |
+| `CancelledBillingDocument` | `-- Cube _BillingDocumentBasic.CancelledBillingDocument` |
+| `BillingQuantity` | `BillingQuantity` |
+| `BillingQuantityUnit` | `BillingQuantityUnit` |
+| `BillingQuantityInBaseUnit` | `BillingQuantityInBaseUnit` |
+| `BaseUnit` | `BaseUnit` |
+| `MRPRequiredQuantityInBaseUnit` | `MRPRequiredQuantityInBaseUnit` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `BillToPartyCountry` | `BillToPartyCountry` |
+| `BillToPartyRegion` | `BillToPartyRegion` |
+| `BillingPlanRule` | `BillingPlanRule` |
+| `BillingPlan` | `BillingPlan` |
+| `BillingPlanItem` | `BillingPlanItem` |
+| `PriceListType` | `-- Cube _BillingDocumentBasic.PriceListType` |
+| `TaxDepartureCountry` | `-- cube _BillingDocumentBasic.TaxDepartureCountry` |
+| `VATRegistration` | `-- Cube _BillingDocumentBasic.VATRegistration` |
+| `VATRegistrationCountry` | `-- Cube _BillingDocumentBasic.VATRegistrationCountry` |
+| `VATRegistrationOrigin` | `-- Cube _BillingDocumentBasic.VATRegistrationOrigin` |
+| `CustomerTaxClassification1` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification1` |
+| `CustomerTaxClassification2` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification2` |
+| `CustomerTaxClassification3` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification3` |
+| `CustomerTaxClassification4` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification4` |
+| `CustomerTaxClassification5` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification5` |
+| `CustomerTaxClassification6` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification6` |
+| `CustomerTaxClassification7` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification7` |
+| `CustomerTaxClassification8` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification8` |
+| `CustomerTaxClassification9` | `-- Cube _BillingDocumentBasic.CustomerTaxClassification9` |
+| `SDPricingProcedure` | `-- Cube _BillingDocumentBasic.SDPricingProcedure` |
+| `NetAmount` | `NetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `GrossAmount` | `GrossAmount` |
+| `PricingDate` | `PricingDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `PricingScaleQuantityInBaseUnit` | `PricingScaleQuantityInBaseUnit` |
+| `TaxAmount` | `TaxAmount` |
+| `CostAmount` | `CostAmount` |
+| `Subtotal1Amount` | `Subtotal1Amount` |
+| `Subtotal2Amount` | `Subtotal2Amount` |
+| `Subtotal3Amount` | `Subtotal3Amount` |
+| `Subtotal4Amount` | `Subtotal4Amount` |
+| `Subtotal5Amount` | `Subtotal5Amount` |
+| `Subtotal6Amount` | `Subtotal6Amount` |
+| `StatisticalValueControl` | `StatisticalValueControl` |
+| `StatisticsExchangeRate` | `StatisticsExchangeRate` |
+| `StatisticsCurrency` | `_BillingDocumentBasic.StatisticsCurrency` |
+| `SalesOrganizationCurrency` | `_SalesOrganization.SalesOrganizationCurrency` |
+| `EligibleAmountForCashDiscount` | `EligibleAmountForCashDiscount` |
+| `ContractAccount` | `-- Cube _BillingDocumentBasic.ContractAccount` |
+| `CustomerPaymentTerms` | `-- Cube _BillingDocumentBasic.CustomerPaymentTerms` |
+| `PaymentMethod` | `-- Cube _BillingDocumentBasic.PaymentMethod` |
+| `PaymentReference` | `-- Cube _BillingDocumentBasic.PaymentReference` |
+| `FixedValueDate` | `-- Cube _BillingDocumentBasic.FixedValueDate` |
+| `AdditionalValueDays` | `-- Cube _BillingDocumentBasic.AdditionalValueDays` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `_BillingDocumentBasic.FiscalYear` |
+| `FiscalPeriod` | `-- Cube _BillingDocumentBasic.FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `-- Cube _BillingDocumentBasic.CustomerAccountAssignmentGroup` |
+| `WBSElementInternalID` | `--Cube BillingDocumentItemBasic.WBSElementInternalID` |
+| `ControllingArea` | `ControllingArea` |
+| `AccountingDocument` | `_BillingDocumentBasic.AccountingDocument` |
+| `ProfitabilitySegment` | `expr(…)` |
 | `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
-| `CostCenter, -- Cube` | `CostCenter, -- Cube` |
-| `OriginSDDocument, -- Cube` | `OriginSDDocument, -- Cube` |
-| `OriginSDDocumentItem, -- Cube` | `OriginSDDocumentItem, -- Cube` |
-| `PriceDetnExchangeRateDate` | `PriceDetnExchangeRateDate` |
-| `_BillingDocumentBasic.ExchangeRateType` | *Association* |
-| `_CompanyCode.FiscalYearVariant` | *Association* |
-| `_CompanyCode.Currency` | *Association* |
-| `_BillingDocumentBasic.AccountingExchangeRate` | *Association* |
-| `_BillingDocumentBasic.AccountingExchangeRateIsSet` | *Association* |
+| `CostCenter` | `CostCenter` |
+| `ExchangeRateType` | `_BillingDocumentBasic.ExchangeRateType` |
+| `FiscalYearVariant` | `_CompanyCode.FiscalYearVariant` |
+| `Currency` | `_CompanyCode.Currency` |
+| `AccountingExchangeRate` | `_BillingDocumentBasic.AccountingExchangeRate` |
+| `AccountingExchangeRateIsSet` | `_BillingDocumentBasic.AccountingExchangeRateIsSet` |
 | `ReferenceSDDocument` | `ReferenceSDDocument` |
 | `ReferenceSDDocumentItem` | `ReferenceSDDocumentItem` |
 | `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
 | `SalesDocument` | `SalesDocument` |
 | `SalesDocumentItem` | `SalesDocumentItem` |
 | `SalesSDDocumentCategory` | `SalesSDDocumentCategory` |
-| `HigherLevelItem, -- cube` | `HigherLevelItem, -- cube` |
-| `BillingDocumentItemInPartSgmt, -- cube` | `BillingDocumentItemInPartSgmt, -- cube` |
+| `HigherLevelItem` | `HigherLevelItem` |
 | `SalesGroup` | `SalesGroup` |
 | `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
 | `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
 | `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
 | `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
 | `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
-| `SDDocumentReason, -- Cube` | `SDDocumentReason, -- Cube` |
-| `ItemIsRelevantForCredit, -- Cube` | `ItemIsRelevantForCredit, -- Cube` |
-| `CreditRelatedPrice, -- Cube` | `CreditRelatedPrice, -- Cube` |
+| `SDDocumentReason` | `SDDocumentReason` |
 | `SalesDistrict` | `SalesDistrict` |
 | `CustomerGroup` | `CustomerGroup` |
 | `SoldToParty` | `SoldToParty` |
 | `Country` | `Country` |
 | `ShipToParty` | `ShipToParty` |
-| `soon` | `BillToParty, // added` |
+| `BillToParty` | `BillToParty` |
 | `SalesEmployee` | `SalesEmployee` |
 | `ResponsibleEmployee` | `ResponsibleEmployee` |
-| `ShippingPoint` | `ShippingPoint` |
-| `_BillingDocumentBasic.IncotermsVersion` | *Association* |
-| `_BillingDocumentBasic.IncotermsClassification` | *Association* |
-| `_BillingDocumentBasic.IncotermsTransferLocation` | *Association* |
-| `_BillingDocumentBasic.IncotermsLocation1` | *Association* |
-| `_BillingDocumentBasic.IncotermsLocation2` | *Association* |
-| `_BillingDocumentBasic.ShippingCondition` | *Association* |
-| `BillingDocumentItemBasic.OverallSDProcessStatus` | `BillingDocumentItemBasic.OverallSDProcessStatus` |
-| `BillingDocumentItemBasic.OverallBillingStatus` | `BillingDocumentItemBasic.OverallBillingStatus` |
-| `_BillingDocumentBasic.AccountingPostingStatus` | *Association* |
-| `_BillingDocumentBasic.AccountingTransferStatus` | *Association* |
-| `_BillingDocumentBasic.BillingIssueType` | *Association* |
-| `_BillingDocumentBasic.InvoiceListStatus` | *Association* |
-| `_BillingDocumentBasic.OvrlItmGeneralIncompletionSts` | *Association* |
-| `_BillingDocumentBasic.OverallPricingIncompletionSts` | *Association* |
+| `SalesEmployee` | `expr(…)` |
+| `ResponsibleEmployee` | `expr(…)` |
+| `IncotermsVersion` | `_BillingDocumentBasic.IncotermsVersion` |
+| `IncotermsClassification` | `_BillingDocumentBasic.IncotermsClassification` |
+| `IncotermsTransferLocation` | `_BillingDocumentBasic.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `_BillingDocumentBasic.IncotermsLocation1` |
+| `IncotermsLocation2` | `_BillingDocumentBasic.IncotermsLocation2` |
+| `ShippingCondition` | `_BillingDocumentBasic.ShippingCondition` |
+| `OverallSDProcessStatus` | `BillingDocumentItemBasic.OverallSDProcessStatus` |
+| `OverallBillingStatus` | `BillingDocumentItemBasic.OverallBillingStatus` |
+| `AccountingPostingStatus` | `_BillingDocumentBasic.AccountingPostingStatus` |
+| `AccountingTransferStatus` | `_BillingDocumentBasic.AccountingTransferStatus` |
+| `BillingIssueType` | `_BillingDocumentBasic.BillingIssueType` |
+| `InvoiceListStatus` | `_BillingDocumentBasic.InvoiceListStatus` |
+| `OvrlItmGeneralIncompletionSts` | `_BillingDocumentBasic.OvrlItmGeneralIncompletionSts` |
+| `OverallPricingIncompletionSts` | `_BillingDocumentBasic.OverallPricingIncompletionSts` |
 | `_BillingDocumentBasic` | *Association* |
-
 
 ## Associations
 
@@ -95,7 +181,6 @@ tags:
 |---|---|---|
 | `_ExtensionItem` | `E_BillingDocumentItem` | [0..1] |
 | `_ExtensionHeader` | `E_BillingDocument` | [0..1] |
-
 
 ## Source Code
 

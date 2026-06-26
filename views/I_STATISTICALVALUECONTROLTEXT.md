@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:StatisticalValueControl
 ---
 # I_STATISTICALVALUECONTROLTEXT
 
@@ -40,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_StatisticalValueControl` | `I_StatisticalValueControl` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -32,24 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenancePlan` | `MaintenancePlan` |
-| `key MaintenancePlanCallNumber` | `MaintenancePlanCallNumber` |
-| `key MaintenancePackage` | `MaintenancePackage` |
+| `MaintenancePlan` | `MaintenancePlan` |
+| `MaintenancePlanCallNumber` | `MaintenancePlanCallNumber` |
+| `MaintenancePackage` | `MaintenancePackage` |
 | `MaintenanceStrategy` | `MaintenanceStrategy` |
 | `SchedulingType` | `SchedulingType` |
 | `SchedulingStatus` | `SchedulingStatus` |
-| `_MaintenanceSingleCycle.MeasuringPoint          as MeasuringPoint` | *Association* |
-| `case _MaintenanceSingleCycle.MaintenanceTaskPerformanceUnit` | `case _MaintenanceSingleCycle.MaintenanceTaskPerformanceUnit` |
-| `when '' then I_MaintPlanCallHistory._MaintenancePackage.MaintenanceTaskPerformanceUnit` | `when '' then I_MaintPlanCallHistory._MaintenancePackage.MaintenanceTaskPerformanceUnit` |
-| `else _MaintenanceSingleCycle.MaintenanceTaskPerformanceUnit` | `else _MaintenanceSingleCycle.MaintenanceTaskPerformanceUnit` |
-| `MaintenanceTaskPerformanceUnit` | `end` |
+| `MeasuringPoint` | `_MaintenanceSingleCycle.MeasuringPoint` |
+| `MaintenanceTaskPerformanceUnit` | `case…end` |
 | `MaintenanceCallNextPlannedDate` | `MaintenanceCallNextPlannedDate` |
 | `MaintenanceCallDate` | `MaintenanceCallDate` |
-| `case CompletionDate` | `case CompletionDate` |
-| `when '00000000' then _MaintCallCompltnDateTime.CompletionDate` | `when '00000000' then _MaintCallCompltnDateTime.CompletionDate` |
-| `else CompletionDate` | `else CompletionDate` |
-| `CompletionDate` | `end` |
-| `_MaintCallCompltnDateTime.CompletionTime        as CompletionTime` | *Association* |
+| `CompletionDate` | `case…end` |
+| `CompletionTime` | `_MaintCallCompltnDateTime.CompletionTime` |
 | `CycleSetSequence` | `CycleSetSequence` |
 | `MaintCallCompltnCntrRdng` | `MaintCallCompltnCntrRdng` |
 | `MaintCallNextPlndCntrRdng` | `MaintCallNextPlndCntrRdng` |
@@ -58,12 +52,11 @@ tags:
 | `MaintCallHorizonIsNotReached` | `MaintCallHorizonIsNotReached` |
 | `MaintPlanLastScheduledDate` | `MaintPlanLastScheduledDate` |
 | `ReleasedByUserName` | `ReleasedByUserName` |
-| `abap.char(256) )` | `cast (''` |
-| `_MaintenancePlan.MaintenanceCallHorizonCalcType as MaintenanceCallHorizonCalcType` | *Association* |
+| `MaintPlnCnctntdDuePackagesTxt` | `cast ('' as abap.char(256) )` |
+| `MaintenanceCallHorizonCalcType` | `_MaintenancePlan.MaintenanceCallHorizonCalcType` |
 | `MaintPlanPrdcssrCallCompltnDte` | `MaintPlanPrdcssrCallCompltnDte` |
 | `MaintenancePlanManualCallDate` | `MaintenancePlanManualCallDate` |
 | `MaintenanceCallLastPlannedDate` | `MaintenanceCallLastPlannedDate` |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
 | `_MaintenancePlan` | *Association* |
 | `_SchedulingType` | *Association* |
 | `_MaintTaskPerformanceUnit` | *Association* |

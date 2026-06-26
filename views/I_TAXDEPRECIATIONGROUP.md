@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Country', element: 'Country' }, useAsTemplate: true }]` | `name: 'I_Country', element: 'Country' }, useAsTemplate: true }]` |
 | `Country` | `land` |
 | `TaxDepreciationGroup` | `glo_tax_depr_grp` |
 | `_Country` | *Association* |

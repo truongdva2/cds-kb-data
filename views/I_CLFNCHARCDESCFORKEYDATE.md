@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcInternalID
 ---
 # I_CLFNCHARCDESCFORKEYDATE
 
@@ -29,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcDesc.CharcInternalID` | `CharcDesc.CharcInternalID` |
-| `key CharcDesc.Language` | `CharcDesc.Language` |
-| `CharcDesc.CharcDescription` | `CharcDesc.CharcDescription` |
-| `CharcDesc.ChangeNumber` | `CharcDesc.ChangeNumber` |
-| `CharcDesc.ValidityStartDate` | `CharcDesc.ValidityStartDate` |
-| `CharcDesc.ValidityEndDate` | `CharcDesc.ValidityEndDate` |
+| `CharcInternalID` | `CharcDesc.CharcInternalID` |
+| `Language` | `CharcDesc.Language` |
+| `CharcDescription` | `CharcDesc.CharcDescription` |
+| `ChangeNumber` | `CharcDesc.ChangeNumber` |
+| `ValidityStartDate` | `CharcDesc.ValidityStartDate` |
+| `ValidityEndDate` | `CharcDesc.ValidityEndDate` |
 | `_Language` | *Association* |
 | `_Characteristic` | *Association* |
 

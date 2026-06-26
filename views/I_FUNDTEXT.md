@@ -14,6 +14,7 @@ tags:
   - text
   - component:PSM
   - lob:Other
+  - bo:Fund
 ---
 # I_FUNDTEXT
 
@@ -30,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FinMgmtAreaStdVH'` | `name:    'I_FinMgmtAreaStdVH'` |
-| `element: 'FinancialManagementArea' }` | `element: 'FinancialManagementArea' }` |
-| `}]` | `}]` |
 | `FinancialManagementArea` | `fikrs` |
 | `Fund` | `fincode` |
 | `Language` | `spras` |
-| `fmis_fund_name preserving type )` | `cast( bezeich` |
-| `fmis_fund_description preserving type )` | `cast( beschr` |
+| `FundName` | `cast( bezeich as fmis_fund_name preserving type )` |
+| `FundDescription` | `cast( beschr as fmis_fund_description preserving type )` |
 | `_FinMgmtArea` | *Association* |
 | `_Language` | *Association* |
 | `_Fund` | *Association* |

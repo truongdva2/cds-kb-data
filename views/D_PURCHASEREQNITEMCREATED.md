@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseRequisitionItem
 ---
 # D_PURCHASEREQNITEMCREATED
 
@@ -31,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseRequisitionType        : bbsrt;` | `PurchaseRequisitionType        : bbsrt;` |
-| `PurchasingDocumentItemCategory : pstyp;` | `PurchasingDocumentItemCategory : pstyp;` |
-| `MaterialGroup                  : matkl;` | `MaterialGroup                  : matkl;` |
-| `PurchasingOrganization         : ekorg;` | `PurchasingOrganization         : ekorg;` |
-| `PurchasingGroup                : ekgrp;` | `PurchasingGroup                : ekgrp;` |
-| `Plant                          : ewerk;` | `Plant                          : ewerk;` |
+| `PurchaseRequisitionType` | `bbsrt` |
+| `PurchasingDocumentItemCategory` | `pstyp` |
+| `MaterialGroup` | `matkl` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchasingGroup` | `ekgrp` |
+| `Plant` | `ewerk` |
 
 ## Associations
 

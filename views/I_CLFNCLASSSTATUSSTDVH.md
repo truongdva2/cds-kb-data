@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassStatus
 ---
 # I_CLFNCLASSSTATUSSTDVH
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassType` | `ClassType` |
-| `key ClassStatus` | `ClassStatus` |
-| `_ClassStatusText as _Text` | *Association* |
+| `ClassType` | `ClassType` |
+| `ClassStatus` | `ClassStatus` |
+| `_Text` | *Association* |
 
 ## Associations
 

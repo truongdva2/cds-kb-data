@@ -39,7 +39,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransactionType` | `I_MX_TransactionType` | — |
 
 ## Source Code
 

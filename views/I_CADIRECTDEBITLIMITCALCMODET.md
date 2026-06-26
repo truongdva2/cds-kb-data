@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ddlxg_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `ddlxg_text_kk preserving type )` | `cast( ddtext` |
+| `CADirectDebitLimitCalcMode` | `cast( left( dd07t.domvalue_l, 1 ) as ddlxg_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADirectDebitLimitCalcModeText` | `cast( ddtext as ddlxg_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

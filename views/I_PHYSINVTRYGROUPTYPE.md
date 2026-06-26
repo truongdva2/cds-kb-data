@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `keord preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `PhysicalInventoryGroupType` | `cast ( substring( domvalue_l, 1, 2 ) as keord preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

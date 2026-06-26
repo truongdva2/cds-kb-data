@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CostOriginGroup` | `hrkft` |
 | `CostOriginType` | `koaty` |
-| `fis_kokrs preserving type )` | `cast( kokrs` |
+| `ControllingArea` | `cast( kokrs as fis_kokrs preserving type )` |
 | `Language` | `spras` |
 | `CostOriginGroupName` | `hrktx` |
 | `_Language` | *Association* |

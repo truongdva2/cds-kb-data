@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
 | `AddressID` | `AddressID` |
 | `Plant` | `Plant` |
 | `CareOfName` | `CareOfName` |
@@ -79,9 +79,6 @@ tags:
 | `AddressFaxNumber` | `AddressFaxNumber` |
 | `EmailAddress` | `EmailAddress` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContractItem : redirected to parent I_PurchaseContractItemTP` | *Association* |
-| `_PurContract          : redirected to I_PurchaseContractTP` | *Association* |
 
 ## Associations
 

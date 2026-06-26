@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionCodeGroup
 ---
 # I_INSPECTIONCODEGROUPTEXT
 
@@ -35,8 +36,7 @@ tags:
 | `InspectionCatalog` | `qpgt.katalogart` |
 | `InspectionCodeGroup` | `qpgt.codegruppe` |
 | `Language` | `qpgt.sprache` |
-| `vdm_qktextgr preserving type )` | `cast( qpgt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `InspSpecAddlCodeGroupText` | `cast( qpgt.kurztext as vdm_qktextgr preserving type )` |
 | `_InspectionCatalog` | *Association* |
 | `_InspectionCodeGroup` | *Association* |
 

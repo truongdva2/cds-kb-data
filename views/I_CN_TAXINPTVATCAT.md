@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-TIM-CN
   - lob:Finance
+  - bo:CN_ValueAddedTaxInvoiceCat
 ---
 # I_CN_TAXINPTVATCAT
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaxCategory` | `TaxCategory` |
+| `TaxCategory` | `TaxCategory` |
 | `TaxRate` | `TaxRate` |
 | `IsDeleted` | `IsDeleted` |
 | `_Text` | *Association* |

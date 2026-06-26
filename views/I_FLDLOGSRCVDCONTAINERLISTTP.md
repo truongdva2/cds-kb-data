@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsRcvdShipmentContainer
 ---
 # I_FLDLOGSRCVDCONTAINERLISTTP
 
@@ -31,9 +32,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true,ranking: #HIGH}` | `defaultSearchElement: true,ranking: #HIGH}` |
-| `_CtnItemTP : redirected to composition child I_FldLogsRcvdContainerItemTP` | *Association* |
-| `_RcvdPackggInCtn : redirected to composition child I_FldLogsRcvdPackggInCtnTP` | *Association* |
+| `FldLogsContainerID` | `FldLogsContainerID` |
+| `DispatchedStartDate` | `DispatchedStartDate` |
+| `FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
+| `NumberOfCtnTripsPerDay` | `NumberOfCtnTripsPerDay` |
+| `FldLogsCtnProcessingStartDate` | `FldLogsCtnProcessingStartDate` |
+| `FldLogsCtnProcessingEndDate` | `FldLogsCtnProcessingEndDate` |
+| `SystemMessageTypeCriticality` | `SystemMessageTypeCriticality` |
+| `FldLogsShipmentID` | `FldLogsShipmentID` |
+| `FldLogsContainerUUID` | `FldLogsContainerUUID` |
+| `FieldLogisticsProcessType` | `FieldLogisticsProcessType` |
+| `FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsShptVoyageNumber` | `FldLogsShptVoyageNumber` |
+| `FldLogsVoyageSrceStage` | `FldLogsVoyageSrceStage` |
+| `FldLogsVoyageDestStage` | `FldLogsVoyageDestStage` |
+| `FldLogsCtnChangeDateTime` | `FldLogsCtnChangeDateTime` |
+| `FieldLogisticsReceivingPlant` | `FieldLogisticsReceivingPlant` |
+| `FldLogsSealNumber1` | `FldLogsSealNumber1` |
+| `FldLogsSealNumber2` | `FldLogsSealNumber2` |
+| `FldLogsSealNumber3` | `FldLogsSealNumber3` |
+| `FldLogsSealNumber4` | `FldLogsSealNumber4` |
+| `FldLogsSealNumber5` | `FldLogsSealNumber5` |
+| `FldLogsContainerStatus` | `FldLogsContainerStatus` |
+| `FldLogsContainerOwner` | `FldLogsContainerOwner` |
+| `FldLogsRcvdContainerIsReleased` | `FldLogsRcvdContainerIsReleased` |
+| `LocationIsDestinationLocation` | `LocationIsDestinationLocation` |
+| `FldLogsShptCtnStsCriticality` | `FldLogsShptCtnStsCriticality` |
+| `Batch` | `Batch` |
+| `SerialNumber` | `SerialNumber` |
+| `InboundDelivery` | `InboundDelivery` |
+| `FldLogsContainerItemStatus` | `FldLogsContainerItemStatus` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `Material` | `Material` |
+| `FldLogsShptItmHndlgUnitID` | `FldLogsShptItmHndlgUnitID` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `FieldLogisticsKitIdentifier` | `FieldLogisticsKitIdentifier` |
+| `FldLogsItemType` | `FldLogsItemType` |
+| `WBSElementExternalID` | `WBSElementExternalID` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `FldLogsCtnActualDispatchPlant` | `FldLogsCtnActualDispatchPlant` |
+| `FldLogsCtnActualReceivingPlant` | `FldLogsCtnActualReceivingPlant` |
+| `GoodsReceivingPoint` | `GoodsReceivingPoint` |
+| `ShippingPoint` | `ShippingPoint` |
+| `_CtnStatText` | *Association* |
+| `_DispatchPlantText` | *Association* |
+| `_ItemStatText` | *Association* |
+| `_ReceivingPlantText` | *Association* |
 
 ## Associations
 

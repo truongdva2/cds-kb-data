@@ -1,6 +1,11 @@
 ---
 name: I_COSTCENTER
 description: Cost Center
+semantic_en: "Cost center — an organizational unit that incurs and is responsible for costs, used for internal cost accounting and reporting."
+semantic_vi: "Trung tâm chi phí — đơn vị tổ chức phát sinh và chịu trách nhiệm về chi phí, dùng cho kế toán và báo cáo chi phí nội bộ."
+keywords:
+  - trung tâm chi phí
+  - cost center
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released
@@ -53,8 +58,8 @@ tags:
 | `IsBlkdForSecondaryCostsPosting` | `bkzks` |
 | `IsBlockedForRevenuePosting` | `bkzer` |
 | `IsBlockedForCommitmentPosting` | `bkzob` |
-| `fis_pkzks preserving type)` | `cast(pkzks` |
-| `fis_pkzer preserving type)` | `cast(pkzer` |
+| `IsBlockedForPlanSecondaryCosts` | `cast(pkzks as fis_pkzks preserving type)` |
+| `IsBlockedForPlanRevenues` | `cast(pkzer as fis_pkzer preserving type)` |
 | `CostCenterAllocationMethod` | `vmeth` |
 | `ConsumptionQtyIsRecorded` | `mgefl` |
 | `Department` | `abtei` |
@@ -87,7 +92,7 @@ tags:
 | `CostCenterStandardHierArea` | `khinr` |
 | `CostCollector` | `cckey` |
 | `CostCenterIsComplete` | `kompl` |
-| `fins_xkostl_stat preserving type)` | `cast(stakz` |
+| `IsStatisticalCostCenter` | `cast(stakz as fins_xkostl_stat preserving type)` |
 | `ObjectInternalID` | `objnr` |
 | `CostCenterFunction` | `funkt` |
 | `CostCenterAlternativeFunction` | `afunk` |

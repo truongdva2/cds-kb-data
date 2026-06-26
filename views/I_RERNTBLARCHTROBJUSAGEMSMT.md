@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
+| `REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
 | `REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `RealEstateRentableObjectUUID` | `REGenericRentalObjectUUID` |
@@ -40,7 +40,6 @@ tags:
 | `REMeasurementType` | `REMeasurementType` |
 | `REMeasurementUnit` | `REMeasurementUnit` |
 | `REMeasurementQuantity` | `REMeasurementQuantity` |
-| `/* Associations */` | `/* Associations */` |
 | `_REArchitectureObject` | *Association* |
 | `_REGenericRentalObject` | *Association* |
 | `_REMeasurementType` | *Association* |

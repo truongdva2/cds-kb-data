@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductReplacementPartType
 ---
 # I_PRODUCTREPLACEMENTPARTTYPEVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atpkz)` | `cast ( dd07l.domvalue_l` |
+| `ReplacementPartType` | `cast ( dd07l.domvalue_l as atpkz)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

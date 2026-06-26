@@ -31,7 +31,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `year: true } }` | `year: true } }` |
+| `OutboundDelivery` | `OutboundDelivery` |
+| `OutboundDeliveryItem` | `OutboundDeliveryItem` |
+| `Product` | `Product` |
+| `RatioUnit` | `cast ('%' as abap.unit( 3 ))` |
+| `HundredInPercent` | `100` |
+| `PlannedGoodsIssueDate` | `PlannedGoodsIssueDate` |
+| `AdjustedPlannedGoodsIssueDate` | `AdjustedPlannedGoodsIssueDate` |
+| `ActualGoodsMovementDate` | `ActualGoodsMovementDate` |
+| `DeliveryPriority` | `DeliveryPriority` |
+| `ReferenceSDDocument` | `ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `ReferenceSDDocumentItem` |
+| `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
+| `DeliveryDocumentType` | `DeliveryDocumentType` |
+| `GoodsMovementStatus` | `GoodsMovementStatus` |
+| `ReceivingPlant` | `ReceivingPlant` |
+| `ShipToParty` | `ShipToParty` |
+| `ShippingCondition` | `ShippingCondition` |
+| `ShippingPoint` | `ShippingPoint` |
+| `SoldToParty` | `SoldToParty` |
+| `ProposedDeliveryRoute` | `ProposedDeliveryRoute` |
+| `ProductGroup` | `ProductGroup` |
+| `Plant` | `Plant` |
+| `TransportationGroup` | `TransportationGroup` |
+| `Warehouse` | `Warehouse` |
 | `CalendarYear` | `CalendarYear` |
 | `CalendarQuarter` | `CalendarQuarter` |
 | `CalendarMonth` | `CalendarMonth` |
@@ -42,12 +65,10 @@ tags:
 | `CustomerClassification` | `CustomerClassification` |
 | `ForwardingAgent` | `ForwardingAgent` |
 | `CreationDate` | `CreationDate` |
-| `/* KPIs */` | `/* KPIs */` |
-| `anz_lief_pos )` | `cast ( 1` |
+| `NumberOfDeliveryItems` | `cast ( 1 as anz_lief_pos )` |
 | `NmbrOfShpdAsPlndDelivItems` | `NmbrOfShpdAsPlndDelivItems` |
 | `GIToPlndGIDelayInDays` | `GIToPlndGIDelayInDays` |
-| `max_gi_to_plnd_gi_delay )` | `cast ( GIToPlndGIDelayInDays` |
-| `/* Associations */` | `/* Associations */` |
+| `MaxGIToPlndGIDelayInDays` | `cast ( GIToPlndGIDelayInDays as max_gi_to_plnd_gi_delay )` |
 | `_CustomerClassification` | *Association* |
 | `_DeliveryDocumentType` | *Association* |
 | `_DeliveryPriority` | *Association* |

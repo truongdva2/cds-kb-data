@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceSDDocument : vbeln;` | `ReferenceSDDocument : vbeln;` |
-| `ReferenceSDDocumentItem : posnr;` | `ReferenceSDDocumentItem : posnr;` |
+| `ReferenceSDDocument` | `vbeln` |
+| `ReferenceSDDocumentItem` | `posnr` |
 
 ## Associations
 

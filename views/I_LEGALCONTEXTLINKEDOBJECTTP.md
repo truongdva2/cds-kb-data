@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCntxtLinkObjUUID` | `LglCntntMCntxtLinkObjUUID` |
+| `LglCntntMCntxtLinkObjUUID` | `LglCntntMCntxtLinkObjUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMLinkdObjType` | `LglCntntMLinkdObjType` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
-| `_LCMContextTP : redirected to parent I_LegalContextTP` | *Association* |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransOptionExerciseTypeText
 ---
 # I_OPTIONEXERCISETYPETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `soptaus)` | `cast(DomainText.domvalue_l` |
+| `OptionExerciseType` | `cast(DomainText.domvalue_l as soptaus)` |
 | `Language` | `DomainText.ddlanguage` |
-| `option_exercise_type_name preserving type )` | `cast(DomainText.ddtext` |
+| `OptionExerciseTypeName` | `cast(DomainText.ddtext as option_exercise_type_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BOMIsSuccessfulPlantUnassigned :  boolean;` | `BOMIsSuccessfulPlantUnassigned :  boolean;` |
+| `BOMIsSuccessfulPlantUnassigned` | `boolean` |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RERentableObjectCategory
 ---
 # I_RERENTABLEOBJECTCATEGORY
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `regorentablecategory )` | `cast( dd07l.domvalue_l` |
+| `RERentableObjectCategory` | `cast( dd07l.domvalue_l as regorentablecategory )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RERentableObjectCategoryText` | [0..*] |
 
 ## Source Code
 

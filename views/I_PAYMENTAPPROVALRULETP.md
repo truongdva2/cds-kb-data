@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentApprovalRule` | `PaymentApprovalRule` |
+| `PaymentApprovalRule` | `PaymentApprovalRule` |
 | `PaymentApprovalRuleName` | `PaymentApprovalRuleName` |
 | `PaymentApprovalRuleStatus` | `PaymentApprovalRuleStatus` |
 | `PaytApprvlDfltLmtCurrency` | `PaytApprvlDfltLmtCurrency` |
@@ -42,8 +42,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PaymentApprovalRuleItem : redirected to composition child I_PaymentApprovalRuleItemTP` | *Association* |
 
 ## Associations
 

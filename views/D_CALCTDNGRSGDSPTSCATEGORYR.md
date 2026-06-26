@@ -29,20 +29,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ComplianceRequirement          : ehfnd_req_identifier;` | `ComplianceRequirement          : ehfnd_req_identifier;` |
-| `DangerousGoodsTransportCat     : dangerousgoodstransportcat;` | `DangerousGoodsTransportCat     : dangerousgoodstransportcat;` |
-| `DangerousGoodsQtyFactorText    : dangerousgoodsqtyfactortext;` | `DangerousGoodsQtyFactorText    : dangerousgoodsqtyfactortext;` |
-| `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` | `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` |
-| `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` | `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` |
-| `DngrsGdsEnclosureTotalQuantity : dngrsgdsenclosuretotalquantity;` | `DngrsGdsEnclosureTotalQuantity : dngrsgdsenclosuretotalquantity;` |
-| `DangerousGoodsPointTotalText   : dangerousgoodspointtotaltext;` | `DangerousGoodsPointTotalText   : dangerousgoodspointtotaltext;` |
-| `DngrsGdsQtyExemptionStatus     : dngrsgdsqtyexemptionstatus;` | `DngrsGdsQtyExemptionStatus     : dngrsgdsqtyexemptionstatus;` |
-| `DngrsGdsQtyExemptionStatusName : dngrsgdsqtyexemptionstatusname;` | `DngrsGdsQtyExemptionStatusName : dngrsgdsqtyexemptionstatusname;` |
-| `_Document                      : association to parent D_CalctDangerousGoodsPointsR;` | *Association* |
+| `ComplianceRequirement` | `ehfnd_req_identifier` |
+| `DangerousGoodsTransportCat` | `dangerousgoodstransportcat` |
+| `DangerousGoodsQtyFactorText` | `dangerousgoodsqtyfactortext` |
+| `DangerousGoodsEnclosureSapUnit` | `ehfnd_vdm_component_unit_sap` |
+| `DangerousGoodsEnclosureISOUnit` | `ehfnd_vdm_component_unit_iso` |
+| `DngrsGdsEnclosureTotalQuantity` | `dngrsgdsenclosuretotalquantity` |
+| `DangerousGoodsPointTotalText` | `dangerousgoodspointtotaltext` |
+| `DngrsGdsQtyExemptionStatus` | `dngrsgdsqtyexemptionstatus` |
+| `DngrsGdsQtyExemptionStatusName` | `dngrsgdsqtyexemptionstatusname` |
+| `_Document` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Document` | `D_CalctDangerousGoodsPointsR` | — |
 
 ## Source Code
 

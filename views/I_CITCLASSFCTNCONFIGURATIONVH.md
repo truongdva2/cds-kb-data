@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CIT
   - lob:Finance
+  - bo:CorporateIncomeTaxHierarchy
 ---
 # I_CITCLASSFCTNCONFIGURATIONVH
 
@@ -31,8 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 31 }]` | `position: 31 }]` |
-| `_HierarchyText[1: Language = $session.system_language].CITHierarchyDescription` | *Association* |
+| `CompanyCode` | `CompanyCode` |
+| `Ledger` | `Ledger` |
+| `CorporateIncomeTaxHierarchy` | `CorporateIncomeTaxHierarchy` |
+| `CompanyCodeName` | `_CompanyCodeText.CompanyCodeName` |
+| `LedgerName` | `_LedgerText[1: Language = $session.system_language].LedgerName` |
+| `CITHierarchyDescription` | `_HierarchyText[1: Language = $session.system_language].CITHierarchyDescription` |
 
 ## Associations
 

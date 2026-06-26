@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `OutputScenario                : ehdgm_output_scenario;` | `OutputScenario                : ehdgm_output_scenario;` |
+| `OutputScenario` | `ehdgm_output_scenario` |
 
 ## Associations
 

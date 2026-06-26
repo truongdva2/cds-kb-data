@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:CapacityCategoryAllocation
 ---
 # I_WORKCENTERCAPACITY
 
@@ -33,28 +34,24 @@ tags:
 |---|---|
 | `WorkCenterInternalID` | `crca.objid` |
 | `WorkCenterTypeCode` | `crca.objty` |
-| `pph_cr_capnum preserving type)` | `cast(crca.canum` |
+| `CapacityCategoryAllocation` | `cast(crca.canum as pph_cr_capnum preserving type)` |
 | `LastChangeDate` | `crca.aedat_kapa` |
 | `LastChangedByUser` | `crca.aenam_kapa` |
-| `_WorkCenter.Plant                                 as Plant` | *Association* |
-| `_WorkCenter.WorkCenter                            as WorkCenter` | *Association* |
-| `_WorkCenter.WorkCenterCategoryCode                as WorkCenterCategoryCode` | *Association* |
-| `_WorkCenter.WorkCenterResponsible                 as WorkCenterResponsible` | *Association* |
+| `Plant` | `_WorkCenter.Plant` |
+| `WorkCenter` | `_WorkCenter.WorkCenter` |
+| `WorkCenterCategoryCode` | `_WorkCenter.WorkCenterCategoryCode` |
+| `WorkCenterResponsible` | `_WorkCenter.WorkCenterResponsible` |
 | `CapacityInternalID` | `crca.kapid` |
-| `_Capacity.CapacityCategoryCode                    as CapacityCategoryCode` | *Association* |
-| `_Capacity.Capacity                                as Capacity` | *Association* |
+| `CapacityCategoryCode` | `_Capacity.CapacityCategoryCode` |
+| `Capacity` | `_Capacity.Capacity` |
 | `SetupCapRequirementFormula` | `crca.fork1` |
 | `ProcgCapRequirementFormula` | `crca.fork2` |
 | `TeardownCapRequirementFormula` | `crca.fork3` |
 | `OtherCapRequirementFormula` | `crca.forkn` |
 | `ValidityStartDate` | `crca.begda` |
 | `ValidityEndDate` | `crca.endda` |
-| `_Capacity.CapacityQuantityUnit                    as CapacityQuantityUnit` | *Association* |
-| `case` | `case` |
-| `when _WorkCenter.WorkCenterLastChangeDateTime is null` | `when _WorkCenter.WorkCenterLastChangeDateTime is null` |
-| `dats), cast('120000'as tims), 'UTC', $session.client, 'NULL')` | `then cast(dats_tims_to_tstmp(cast('20190101'` |
-| `else _WorkCenter.WorkCenterLastChangeDateTime` | `else _WorkCenter.WorkCenterLastChangeDateTime` |
-| `WorkCenterLastChangeDateTime` | `end` |
+| `CapacityQuantityUnit` | `_Capacity.CapacityQuantityUnit` |
+| `WorkCenterLastChangeDateTime` | `case…end` |
 | `_Plant` | *Association* |
 | `_WorkCenter` | *Association* |
 | `_WorkCenterBySemanticKey` | *Association* |

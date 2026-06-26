@@ -34,7 +34,7 @@ tags:
 | `CAInvcgChargeAndDiscountKey` | `chgkey` |
 | `CAInvcgChrgAndDiscKeyStartDate` | `date_from` |
 | `CAInvcgChrgAndDiscKeyEndDate` | `date_to` |
-| `applk_kk preserving type )` | `cast( 'C'` |
+| `CAApplicationArea` | `cast( 'C' as applk_kk preserving type )` |
 | `_BusinessPartner` | *Association* |
 | `_CAApplicationArea` | *Association* |
 | `_CAInvcgChrgAndDiscKey` | *Association* |

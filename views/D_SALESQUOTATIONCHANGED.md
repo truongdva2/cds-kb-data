@@ -13,6 +13,7 @@ tags:
   - sales-quotation
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # D_SALESQUOTATIONCHANGED
 
@@ -29,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime            : vdm_lastchangedon;` | `EventRaisedDateTime            : vdm_lastchangedon;` |
-| `SalesQuotationType             : auart_unv;` | `SalesQuotationType             : auart_unv;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `DistributionChannel            : vtweg;` | `DistributionChannel            : vtweg;` |
-| `OrganizationDivision           : spart;` | `OrganizationDivision           : spart;` |
-| `SoldToParty                    : kunnr;` | `SoldToParty                    : kunnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesQuotationType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
 
 ## Associations
 

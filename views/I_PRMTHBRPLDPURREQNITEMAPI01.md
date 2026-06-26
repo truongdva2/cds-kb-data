@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
-| `key ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
+| `ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ProcmtHubPurRequisitionType` | `ProcmtHubPurRequisitionType` |
 | `ProcessingStatus` | `ProcessingStatus` |
 | `ProcmtHubPurchasingGroup` | `ProcmtHubPurchasingGroup` |
@@ -64,7 +64,7 @@ tags:
 | `ProcmtHubBatch` | `ProcmtHubBatch` |
 | `ProcmtHubRequirementTracking` | `ProcmtHubRequirementTracking` |
 | `PurReqnItemBlockingReason` | `PurReqnItemBlockingReason` |
-| `revlv)` | `cast(MaterialRevisionLevel` |
+| `MaterialRevisionLevel` | `cast(MaterialRevisionLevel as revlv)` |
 | `MaterialRevisionLevel_2` | `MaterialRevisionLevel` |
 | `IsClosed` | `IsClosed` |
 | `MaterialPlannedDeliveryDurn` | `MaterialPlannedDeliveryDurn` |
@@ -91,14 +91,7 @@ tags:
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `ProcmtHubServicePackage` | `ProcmtHubServicePackage` |
 | `StorageLocation` | `StorageLocation` |
-| `case` | `case` |
-| `when PurReqnPriceQuantity = 0` | `when PurReqnPriceQuantity = 0` |
-| `abap.curr(21,2))` | `then cast( RequestedQuantity * PurchaseRequisitionPrice` |
-| `when ProcmtHubPurgDocItmCategory = 'A'` | `when ProcmtHubPurgDocItmCategory = 'A'` |
-| `then ExpectedOverallLimitAmount` | `then ExpectedOverallLimitAmount` |
-| `else` | `else` |
-| `abap.curr(21,2))` | `cast( division(RequestedQuantity * PurchaseRequisitionPrice , PurReqnPriceQuantity, 2)` |
-| `ItemNetAmount` | `end` |
+| `ItemNetAmount` | `case…end` |
 | `ExpectedOverallLimitAmount` | `ExpectedOverallLimitAmount` |
 | `OverallLimitAmount` | `OverallLimitAmount` |
 | `PurContractForOverallLimit` | `PurContractForOverallLimit` |

@@ -17,6 +17,7 @@ tags:
   - routing
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODUCTIONROUTINGTP_2
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
 | `BillOfOperationsVersionType` | `BillOfOperationsVersionType` |
 | `BillOfOperationsSubtype` | `BillOfOperationsSubtype` |
 | `LastUsageDate` | `LastUsageDate` |
@@ -48,10 +49,6 @@ tags:
 | `RoutingIsReworkRouting` | `RoutingIsReworkRouting` |
 | `ProdnProcgIsFlexible` | `ProdnProcgIsFlexible` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header     : redirected to composition child I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_MatlAssgmt : redirected to composition child I_ProdnRoutingMatlAssgmtTP_2` | *Association* |
-| `_NonSqnc    : redirected to composition child I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
 
 ## Associations
 

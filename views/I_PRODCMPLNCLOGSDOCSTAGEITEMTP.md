@@ -32,19 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
-| `key ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
-| `key ProdCmplncLogsDocumentItem` | `ProdCmplncLogsDocumentItem` |
+| `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
+| `ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
+| `ProdCmplncLogsDocumentItem` | `ProdCmplncLogsDocumentItem` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ProdCmplncLogicalTransportUnit` | `ProdCmplncLogicalTransportUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to I_ProdCmplncLogsDocumentTP` | *Association* |
-| `_Item     : redirected to I_ProdCmplncLogsDocumentItemTP` | *Association* |
-| `_Stage    : redirected to parent I_ProdCmplncLogsDocStageTP` | *Association* |
-| `_EUADR    : redirected to composition child I_ProdCmplncLogsDocEUADRTP` | *Association* |
 
 ## Associations
 

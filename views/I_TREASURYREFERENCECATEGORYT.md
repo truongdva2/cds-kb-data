@@ -31,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
 | `TreasuryReferenceCategory` | `TreasuryReferenceCategoryText.reftyp` |
 | `Language` | `TreasuryReferenceCategoryText.spras` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
 | `TreasuryReferenceCategoryName` | `TreasuryReferenceCategoryText.txt30` |
 | `TrsyReferenceCategoryShortName` | `TreasuryReferenceCategoryText.txt15` |
 | `_TreasuryReferenceCategory` | *Association* |

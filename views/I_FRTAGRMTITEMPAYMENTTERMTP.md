@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspAgrmtPaymentTermUUID` | `TranspAgrmtPaymentTermUUID` |
+| `TranspAgrmtPaymentTermUUID` | `TranspAgrmtPaymentTermUUID` |
 | `TranspAgreementItemUUID` | `TranspAgreementItemUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `PaymentTerms` | `PaymentTerms` |
-| `FrtAgrmtItemPaymentTerm._FreightAgreement     : redirected to I_FreightAgreementTP` | `FrtAgrmtItemPaymentTerm._FreightAgreement     : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtItemPaymentTerm._FreightAgreementItem : redirected to parent I_FreightAgreementItemTP` | `FrtAgrmtItemPaymentTerm._FreightAgreementItem : redirected to parent I_FreightAgreementItemTP` |
 
 ## Associations
 

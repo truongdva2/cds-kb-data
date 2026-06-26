@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingParentDocument` | `PurchasingParentDocument` |
-| `key SubordCntrlPurContract` | `SubordCntrlPurContract` |
-| `key ProcmtHubCompanyCodeGroupingID` | `ProcmtHubCompanyCodeGroupingID` |
+| `PurchasingParentDocument` | `PurchasingParentDocument` |
+| `SubordCntrlPurContract` | `SubordCntrlPurContract` |
+| `ProcmtHubCompanyCodeGroupingID` | `ProcmtHubCompanyCodeGroupingID` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
@@ -48,8 +48,6 @@ tags:
 | `DistrResponseMessageUUID` | `DistrResponseMessageUUID` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Cntrlpurchasecontract : redirected to parent I_CntrlPurchaseContractTP_2` | *Association* |
 
 ## Associations
 

@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowScenarioResult
 ---
 # I_WORKFLOWSCENARIORESULTTEXT
 
@@ -33,7 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowScenarioDefinition` | `WorkflowResult.wfd_id` |
+| `WorkflowScenarioDefinitionVers` | `WorkflowResult.version` |
+| `WorkflowScenarioResult` | `WorkflowResult.normiert` |
+| `Language` | `WorkflowResultText.language` |
+| `WorkflowScenarioResultText` | `WorkflowResultText.text` |
 | `_Language` | *Association* |
 
 ## Associations

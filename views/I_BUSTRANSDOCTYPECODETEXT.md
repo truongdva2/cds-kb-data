@@ -33,7 +33,6 @@ tags:
 | `BusinessTransactionDocType` | `btd_tco129` |
 | `Language` | `spras` |
 | `BusinessTransactionDocTypeName` | `description` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_BusinessTransactionDocType` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_BusinessTransactionDocType` | `I_BusTransDocTypeCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

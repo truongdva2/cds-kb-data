@@ -32,32 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_Country'` | `foreignKey.association: '_Country'` |
-| `text.association: '_CountryName'` | `text.association: '_CountryName'` |
-| `}` | `}` |
+| `Product` | `cast (tax.matnr as productnumber preserving type )` |
 | `Country` | `tax.aland` |
 | `TaxCategory` | `taxType.tatyp` |
-| `key case taxType.lfdnr` | `case taxType.lfdnr` |
-| `when '1' then` | `when '1' then` |
-| `tax.taxm1` | `tax.taxm1` |
-| `when '2' then` | `when '2' then` |
-| `tax.taxm2` | `tax.taxm2` |
-| `when '3' then` | `when '3' then` |
-| `tax.taxm3` | `tax.taxm3` |
-| `when '4' then` | `when '4' then` |
-| `tax.taxm4` | `tax.taxm4` |
-| `when '5' then` | `when '5' then` |
-| `tax.taxm5` | `tax.taxm5` |
-| `when '6' then` | `when '6' then` |
-| `tax.taxm6` | `tax.taxm6` |
-| `when '7' then` | `when '7' then` |
-| `tax.taxm7` | `tax.taxm7` |
-| `when '8' then` | `when '8' then` |
-| `tax.taxm8` | `tax.taxm8` |
-| `when '9' then` | `when '9' then` |
-| `tax.taxm9` | `tax.taxm9` |
-| `else ''` | `else ''` |
-| `TaxClassification` | `end` |
+| `TaxClassification` | `case…end` |
 | `_Product` | *Association* |
 | `_Country` | *Association* |
 | `_CountryName` | *Association* |

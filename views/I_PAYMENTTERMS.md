@@ -1,6 +1,11 @@
 ---
 name: I_PAYMENTTERMS
 description: Paymentterms
+semantic_en: "Payment terms — terms of payment defining due dates and cash-discount conditions for invoices."
+semantic_vi: "Điều khoản thanh toán — điều kiện thanh toán quy định ngày đến hạn và chiết khấu thanh toán cho hóa đơn."
+keywords:
+  - điều khoản thanh toán
+  - hạn thanh toán
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released
@@ -31,9 +36,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `farp_dzterm preserving type )` | `cast( _PaymentTerms.zterm` |
-| `_PaymentTermsInstallCondition.PaymentIsInstallment                      as PaymentIsInstallment` | *Association* |
+| `PaymentTerms` | `cast( _PaymentTerms.zterm as farp_dzterm preserving type )` |
+| `PaymentIsInstallment` | `_PaymentTermsInstallCondition.PaymentIsInstallment` |
 | `_PaymentTermsConditions` | *Association* |
 | `_Text` | *Association* |
 | `_InstallmentPaymentTermsItem` | *Association* |

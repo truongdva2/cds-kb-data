@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TimeSheetRecordUUID` | `TimeSheetRecordUUID` |
+| `TimeSheetRecordUUID` | `TimeSheetRecordUUID` |
 | `TimeSheetRecord` | `TimeSheetRecord` |
 | `WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
 | `Country2DigitISOCode` | `Country2DigitISOCode` |
@@ -43,7 +43,6 @@ tags:
 | `ActivityType` | `ActivityType` |
 | `WorkItem` | `WorkItem` |
 | `BillingControlCategory` | `BillingControlCategory` |
-| `/************      Future enhancement    ***************/` | `/************      Future enhancement    ***************/` |
 | `TimeSheetStatus` | `TimeSheetStatus` |
 | `TimeSheetPredecessorRecord` | `TimeSheetPredecessorRecord` |
 | `TimeSheetAccountingDocument` | `TimeSheetAccountingDocument` |

@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `co_type_gfn_kk preserving type)` | `cast(co_type` |
-| `co_subtype_gfn_kk preserving type)` | `cast(co_subtype` |
+| `CABllbleItmCostType` | `cast(co_type as co_type_gfn_kk preserving type)` |
+| `CABllbleItmCostSubType` | `cast(co_subtype as co_subtype_gfn_kk preserving type)` |
 | `_CABllbleItmCostType` | *Association* |
 | `_CABllbleItmCostSubtypeText` | *Association* |
 

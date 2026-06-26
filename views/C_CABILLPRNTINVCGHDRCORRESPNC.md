@@ -29,7 +29,95 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `CACorrespondenceType` | `CACorrespondenceType` |
+| `CACorrespondence` | `CACorrespondence` |
+| `ContractAccount` | `ContractAccount` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CAContract` | `CAContract` |
+| `OriglCorrespondenceRecipient` | `OriglCorrespondenceRecipient` |
+| `CompanyCode` | `CompanyCode` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `CorrespondencePrintDate` | `CorrespondencePrintDate` |
+| `CorrespondenceIssueDate` | `CorrespondenceIssueDate` |
+| `CorrespondenceIssueTime` | `CorrespondenceIssueTime` |
+| `Currency` | `Currency` |
+| `CAAmountInLocalCurrency` | `CAAmountInLocalCurrency` |
+| `CAMassRunDate` | `CAMassRunDate` |
+| `CAMassRunID` | `CAMassRunID` |
+| `Language` | `Language` |
+| `Correspondence1stEntityIdn` | `Correspondence1stEntityIdn` |
+| `Correspondence1stEntityData` | `Correspondence1stEntityData` |
+| `Correspondence2ndEntityIdn` | `Correspondence2ndEntityIdn` |
+| `Correspondence2ndEntityData` | `Correspondence2ndEntityData` |
+| `Correspondence3rdEntityIdn` | `Correspondence3rdEntityIdn` |
+| `Correspondence3rdEntityData` | `Correspondence3rdEntityData` |
+| `Correspondence4thEntityIdn` | `Correspondence4thEntityIdn` |
+| `Correspondence4thEntityData` | `Correspondence4thEntityData` |
+| `CACorrespncSenderAddressID` | `CACorrespncSenderAddressID` |
+| `CompanyCodeName` | `_CACorrespondenceHeader._CompCode.CompanyCodeName` |
+| `SenderCityName` | `_SenderAddress.CityName` |
+| `SenderPostalCode` | `_SenderAddress.PostalCode` |
+| `SenderStreetName` | `_SenderAddress.StreetName` |
+| `SenderHouseNumber` | `_SenderAddress.HouseNumber` |
+| `SenderCountry` | `_SenderAddress.Country` |
+| `BusinessPartnerName` | `_CACorrespondenceHeader._BusinessPartner.BusinessPartnerName` |
+| `RecipientCityName` | `_CACorrespondenceHeader._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.CityName` |
+| `RecipientPostalCode` | `_CACorrespondenceHeader._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.PostalCode` |
+| `RecipientStreetName` | `_CACorrespondenceHeader._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.StreetName` |
+| `RecipientHouseNumber` | `_CACorrespondenceHeader._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.HouseNumber` |
+| `RecipientCountry` | `_CACorrespondenceHeader._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.Country` |
+| `OriglCorrespncRecipientName` | `_OriglCorrespncRcpnt._BusinessPartner.BusinessPartnerName` |
+| `CustomerCityName` | `_OriglCorrespncRcpnt._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.CityName` |
+| `CustomerPostalCode` | `_OriglCorrespncRcpnt._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.PostalCode` |
+| `CustomerStreetName` | `_OriglCorrespncRcpnt._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.StreetName` |
+| `BusinessPartnerHouseNumber` | `_OriglCorrespncRcpnt._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.HouseNumber` |
+| `CustomerCountry` | `_OriglCorrespncRcpnt._BusinessPartner._CurrentDefaultAddress._AddressDefaultRepresentation.Country` |
+| `CAInvcgDocumentReversalReason` | `_CAInvcgDocHeader.CAInvcgDocumentReversalReason` |
+| `CAInvcgDocIsLockedForPrinting` | `_CAInvcgDocHeader.CAInvcgDocIsLockedForPrinting` |
+| `CAInvcgProcess` | `_CAInvcgDocHeader.CAInvcgProcess` |
+| `CAApplicationArea` | `_CAInvcgDocHeader.CAApplicationArea` |
+| `CAInvcgCategory` | `_CAInvcgDocHeader.CAInvcgCategory` |
+| `CAInvcgType` | `_CAInvcgDocHeader.CAInvcgType` |
+| `CAInvcgDocPeriodCategory` | `_CAInvcgDocHeader.CAInvcgDocPeriodCategory` |
+| `CAInvcgTargetProcess` | `_CAInvcgDocHeader.CAInvcgTargetProcess` |
+| `CAInvcgCorrectionCategory` | `_CAInvcgDocHeader.CAInvcgCorrectionCategory` |
+| `CAInvcgDocHasChargeOrDiscItems` | `_CAInvcgDocHeader.CAInvcgDocHasChargeOrDiscItems` |
+| `CAInvcgDocCreationMode` | `_CAInvcgDocHeader.CAInvcgDocCreationMode` |
+| `CAInvcgMasterDataType` | `_CAInvcgDocHeader.CAInvcgMasterDataType` |
+| `CAInvcgTechnicalDocumentType` | `_CAInvcgDocHeader.CAInvcgTechnicalDocumentType` |
+| `CAInvcgDocIsPartOfList` | `_CAInvcgDocHeader.CAInvcgDocIsPartOfList` |
+| `CAInvcgBolloTaxPostStatus` | `_CAInvcgDocHeader.CAInvcgBolloTaxPostStatus` |
+| `CAInvcgDocPeriodDate` | `_CAInvcgDocHeader.CAInvcgDocPeriodDate` |
+| `DocumentDate` | `_CAInvcgDocHeader.DocumentDate` |
+| `CAAmountInTransactionCurrency` | `_CAInvcgDocHeader.CAAmountInTransactionCurrency` |
+| `TransactionCurrency` | `_CAInvcgDocHeader.TransactionCurrency` |
+| `_CAInvcgDocHeader` | *Association* |
+| `_CAInvcgDocReversalReasonText` | *Association* |
+| `_CAInvcgProcessText` | *Association* |
+| `_CAInvcgDocLockedForPrintText` | *Association* |
+| `_CAInvcgCategoryText` | *Association* |
+| `_CAInvcgTypeProcText` | *Association* |
+| `_CAInvcgPeriodCatText` | *Association* |
+| `_CAInvcgTargetProcText` | *Association* |
+| `_CAInvcgCorrectionCatText` | *Association* |
+| `_CAInvcgDocChrgDiscItemsText` | *Association* |
+| `_CAInvcgDocCreationModeText` | *Association* |
+| `_CAInvcgMasterDataTypeText` | *Association* |
+| `_CAInvcgDocTechDocTypeText` | *Association* |
+| `_CAInvcgDocPartOfListText` | *Association* |
+| `_CAInvcgBolloTaxPostStatText` | *Association* |
+| `_CorrespncType` | *Association* |
+| `_CorrespncTypeT` | *Association* |
+| `_ContrAcc` | *Association* |
+| `_CAPartner` | *Association* |
+| `_BusinessPartner` | *Association* |
+| `_OriglCorrespncRcpnt` | *Association* |
+| `_CompCode` | *Association* |
+| `_SenderAddress` | *Association* |
 
 ## Associations
 
@@ -52,9 +140,6 @@ tags:
 | `_CAInvcgBolloTaxPostStatText` | `I_CAInvcgBolloTaxPostStatText` | [1..1] |
 | `_SenderAddress` | `I_Address_2` | [0..*] |
 | `_OriglCorrespncRcpnt` | `I_CAContractPartner` | [1..1] |
-| `_Extension` | `E_CAInvcgDocHeader` | [0..1] |
-| `_RecipientAddress` | `I_Address_2` | [0..1] |
-| `_CustomerAddress` | `I_Address_2` | [0..1] |
 | `_Extension` | `E_CAInvcgDocHeader` | [0..1] |
 
 ## Source Code

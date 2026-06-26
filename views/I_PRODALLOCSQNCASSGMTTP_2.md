@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocSqncAssgmt
 ---
 # I_PRODALLOCSQNCASSGMTTP_2
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocSqncAssignmentUUID` | `ProdAllocSqncAssignmentUUID` |
+| `ProdAllocSqncAssignmentUUID` | `ProdAllocSqncAssignmentUUID` |
 | `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
 | `ProductAllocationSequence` | `ProductAllocationSequence` |
 | `Material` | `Material` |
@@ -41,7 +42,6 @@ tags:
 | `ValidityEndUTCDateTime` | `ValidityEndUTCDateTime` |
 | `ValidityEndTimeZone` | `ValidityEndTimeZone` |
 | `IsDeleted` | `IsDeleted` |
-| `_ProdAllocationSequenceTP: redirected to parent I_ProdAllocationSequenceTP_2` | *Association* |
 
 ## Associations
 

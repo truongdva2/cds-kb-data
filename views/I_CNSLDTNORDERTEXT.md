@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( _Source.AdditionalMasterDataSource` |
-| `fincs_order_desc preserving type )` | `cast( _Source.OrderDescription` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `OrderID` | `cast( _Source.OrderID as fincs_order preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `OrderDescription` | `cast( _Source.OrderDescription as fincs_order_desc preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Order` | *Association* |
 

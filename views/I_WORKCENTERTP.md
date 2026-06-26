@@ -16,6 +16,7 @@ tags:
   - work-center
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenter
 ---
 # I_WORKCENTERTP
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
 | `WorkCenter` | `WorkCenter` |
 | `WorkCenterDesc` | `WorkCenterDesc` |
 | `Plant` | `Plant` |
@@ -90,11 +91,6 @@ tags:
 | `WorkCenterLastChangeDateTime` | `WorkCenterLastChangeDateTime` |
 | `ShiftNoteType` | `ShiftNoteType` |
 | `ShiftReportType` | `ShiftReportType` |
-| `/* Associations */` | `/* Associations */` |
-| `_Description: redirected to composition child I_WorkCenterTextTP` | *Association* |
-| `_CostCenter: redirected to composition child I_WorkCenterCostCenterTP` | *Association* |
-| `_Capacity: redirected to composition child I_WorkCenterCapacityTP` | *Association* |
-| `_PooledCap: redirected to composition child I_WorkCenterPooledCapAllocTP` | *Association* |
 
 ## Associations
 

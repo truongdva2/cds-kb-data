@@ -15,6 +15,7 @@ tags:
   - approval
   - component:SD-SLS-RE-2CL
   - lob:Sales & Distribution
+  - bo:CustomerReturnApprovalReason
 ---
 # I_CUSTRETAPPROVALREASONTXT
 
@@ -31,14 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
+| `Language` | `CustReturnApprovalReasonText.Language` |
 | `CustomerReturnApprovalReason` | `CustReturnApprovalReasonText.SalesDocApprovalReason` |
 | `CustReturnApprovalReasonName` | `CustReturnApprovalReasonText.SalesDocApprovalReasonName` |
 | `_CustomerReturnApprovalReason` | *Association* |
-| `CustReturnApprovalReasonText._Language` | `CustReturnApprovalReasonText._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

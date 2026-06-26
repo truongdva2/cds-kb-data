@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `JournalEntry : belnr_d;` | `JournalEntry : belnr_d;` |
+| `JournalEntry` | `belnr_d` |
 
 ## Associations
 

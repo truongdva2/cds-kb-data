@@ -30,14 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinancialDataSourceVH'` | `name: 'I_CnsldtnFinancialDataSourceVH'` |
-| `element: 'FinancialDataSource'` | `element: 'FinancialDataSource'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialdatasource preserving type )` | `cast( _Source.FinancialDataSource` |
-| `fincs_financialdatasourcename preserving type )` | `cast( _Source.FinancialDataSourceName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `FinancialDataSource` | `cast( _Source.FinancialDataSource as fincs_financialdatasource preserving type )` |
+| `FinancialDataSourceName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_FinancialDataSource` | *Association* |
 

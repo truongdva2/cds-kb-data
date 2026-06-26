@@ -32,24 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintNotificationActivity` | `MaintNotificationActivity` |
-| `key MaintenanceNotification` | `MaintenanceNotification` |
-| `key MaintenanceNotificationItem,   //Damages Number (Sort number for Item)` | `MaintenanceNotificationItem,   //Damages Number (Sort number for Item)` |
-| `MaintNotifActivitySortNumber,      //Activity Number (Sort number for Activity)` | `MaintNotifActivitySortNumber,      //Activity Number (Sort number for Activity)` |
-| `MaintNotifActyTxt,                 //Activity Description` | `MaintNotifActyTxt,                 //Activity Description` |
-| `MaintNotifActivityCodeGroup,       //Code Group - Activities` | `MaintNotifActivityCodeGroup,       //Code Group - Activities` |
-| `MaintNotificationActivityCode,     //Activity Code` | `MaintNotificationActivityCode,     //Activity Code` |
-| `PlannedStartDate,                  //Activity Start Date` | `PlannedStartDate,                  //Activity Start Date` |
-| `PlannedStartTime,                  //Start Time of Activity` | `PlannedStartTime,                  //Start Time of Activity` |
-| `PlannedEndDate,                    //Activity End Date` | `PlannedEndDate,                    //Activity End Date` |
-| `PlannedEndTime,                     //End Time of Activity` | `PlannedEndTime,                     //End Time of Activity` |
+| `MaintNotificationActivity` | `MaintNotificationActivity` |
+| `MaintenanceNotification` | `MaintenanceNotification` |
+| `MaintenanceNotificationItem` | `MaintenanceNotificationItem` |
+| `MaintNotifActivitySortNumber` | `MaintNotifActivitySortNumber` |
+| `MaintNotifActyTxt` | `MaintNotifActyTxt` |
+| `MaintNotifActivityCodeGroup` | `MaintNotifActivityCodeGroup` |
+| `MaintNotificationActivityCode` | `MaintNotificationActivityCode` |
+| `PlannedStartDate` | `PlannedStartDate` |
+| `PlannedStartTime` | `PlannedStartTime` |
+| `PlannedEndDate` | `PlannedEndDate` |
+| `PlannedEndTime` | `PlannedEndTime` |
 | `MaintNotifActivityCodeCatalog` | `MaintNotifActivityCodeCatalog` |
 | `IsDeleted` | `IsDeleted` |
 | `_MaintNotifActivityCodeGroup` | *Association* |
 | `_MaintNotificationActivityCode` | *Association* |
 | `_MaintenanceNotification` | *Association* |
-| `_Item : redirected to parent I_MaintNotificationItemTP_2` | *Association* |
-| `_Notif: redirected to I_MaintenanceNotificationTP_2` | *Association* |
 
 ## Associations
 

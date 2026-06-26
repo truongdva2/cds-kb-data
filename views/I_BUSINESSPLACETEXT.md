@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-BUP
   - lob:Finance
+  - bo:BusinessPlaceText
 ---
 # I_BUSINESSPLACETEXT
 

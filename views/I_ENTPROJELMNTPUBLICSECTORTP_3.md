@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectElementUUID` | `ProjectElementUUID` |
+| `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `Fund` | `Fund` |
 | `FundIsFixAssigned` | `FundIsFixAssigned` |
@@ -39,8 +39,6 @@ tags:
 | `GrantID` | `GrantID` |
 | `GrantIsFixAssigned` | `GrantIsFixAssigned` |
 | `SponsoredProgram` | `SponsoredProgram` |
-| `_EnterpriseProjectElement : redirected to parent I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProject: redirected to I_EnterpriseProjectTP_3` | *Association* |
 
 ## Associations
 

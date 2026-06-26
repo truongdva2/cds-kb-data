@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PrcgCndnPrpsdValidToDateCode
 ---
 # I_CNDNPRPSDVALDTODATECODETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `datvo )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PrcgCndnPrpsdValidToDateCode` | `cast ( substring( domvalue_l, 1, 1 ) as datvo )` |
+| `PrcgCndnPrpsdValdToDteCodeText` | `cast ( ddtext as val_text )` |
 | `_CndnPrpsdValidToDateCode` | *Association* |
 | `_Language` | *Association* |
 

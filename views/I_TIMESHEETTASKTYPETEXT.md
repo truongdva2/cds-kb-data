@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheetTaskType
 ---
 # I_TIMESHEETTASKTYPETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `Language` | `langu` |
+| `TimeSheetTaskType` | `tasktype` |
 | `TimeSheetTaskTypeText` | `text` |
 | `_TimeSheetTaskType` | *Association* |
 | `_Language` | *Association* |

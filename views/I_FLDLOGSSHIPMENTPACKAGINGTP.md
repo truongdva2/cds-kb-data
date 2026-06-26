@@ -16,6 +16,7 @@ tags:
   - shipment
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptContainer
 ---
 # I_FLDLOGSSHIPMENTPACKAGINGTP
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerUUID` | `FldLogsContainerUUID` |
+| `FldLogsContainerUUID` | `FldLogsContainerUUID` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
 | `Equipment` | `Equipment` |
 | `EquipmentType` | `EquipmentType` |

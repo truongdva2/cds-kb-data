@@ -30,7 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CACorrespondenceType` | `cotyp` |
-| `applk_kk preserving type )` | `cast( left( applk, 1 )` |
+| `CAApplicationArea` | `cast( left( applk, 1 ) as applk_kk preserving type )` |
 | `CAPeriodicCorrespondence` | `cotrg` |
 | `IsInboundCorrespondence` | `incorr` |
 | `_Text` | *Association* |

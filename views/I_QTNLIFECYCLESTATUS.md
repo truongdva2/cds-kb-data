@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-RFQ-2CL
   - lob:Sourcing & Procurement
+  - bo:QTNLifecycleStatus
 ---
 # I_QTNLIFECYCLESTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qtn_lfst_cd )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `QtnLifecycleStatus` | `cast ( substring( domvalue_l, 1, 2 ) as vdm_qtn_lfst_cd )` |
 | `_Text` | *Association* |
 
 ## Associations

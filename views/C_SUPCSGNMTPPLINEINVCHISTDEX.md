@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrCsgnmtPplineSettlmtHist
 ---
 # C_SUPCSGNMTPPLINEINVCHISTDEX
 
@@ -31,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key FiscalYear` | `FiscalYear` |
-| `key SupplierInvoiceItem` | `SupplierInvoiceItem` |
-| `_SupCsgnmtPplineWthdrwlAPI01.CompanyCode` | *Association* |
-| `_SupCsgnmtPplineWthdrwlAPI01.Plant` | *Association* |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `FiscalYear` | `FiscalYear` |
+| `SupplierInvoiceItem` | `SupplierInvoiceItem` |
+| `CompanyCode` | `_SupCsgnmtPplineWthdrwlAPI01.CompanyCode` |
+| `Plant` | `_SupCsgnmtPplineWthdrwlAPI01.Plant` |
 | `_SuplrCsgnmtPplineWthdrwlDEX` | *Association* |
 | `_SupplierInvoiceDEX` | *Association* |
 | `_SupplierInvoiceItemDEX` | *Association* |

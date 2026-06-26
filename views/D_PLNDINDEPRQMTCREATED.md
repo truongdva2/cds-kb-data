@@ -13,6 +13,7 @@ tags:
   - PP-MP-DEM
   - component:PP-MP-DEM-2CL
   - lob:Manufacturing
+  - bo:PlannedIndependentRequirement
 ---
 # D_PLNDINDEPRQMTCREATED
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PlndIndepRqmtCllgAppl      : pph_pir_calling_appl;` | `PlndIndepRqmtCllgAppl      : pph_pir_calling_appl;` |
-| `PlndIndepRqmtLastChangedBy : aenam;` | `PlndIndepRqmtLastChangedBy : aenam;` |
+| `PlndIndepRqmtCllgAppl` | `pph_pir_calling_appl` |
+| `PlndIndepRqmtLastChangedBy` | `aenam` |
 
 ## Associations
 

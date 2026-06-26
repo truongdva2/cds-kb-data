@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialDataSource` | `_Source.FinancialDataSource` |
-| `_Source._Text[1: Language=$session.system_language].FinancialDataSourceName` | *Association* |
+| `FinancialDataSource` | `_Source.FinancialDataSource` |
+| `FinancialDataSourceName` | `_Source._Text[1: Language=$session.system_language].FinancialDataSourceName` |
 
 ## Associations
 

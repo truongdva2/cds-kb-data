@@ -33,14 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  Equipment` | `Equipment` |
-| `key  Language` | `Language` |
+| `Equipment` | `Equipment` |
+| `Language` | `Language` |
 | `TextObjectKey` | `TextObjectKey` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `TextObjectType` | `TextObjectType` |
 | `EquipmentLongText` | `EquipmentLongText` |
 | `ValidityEndDate` | `ValidityEndDate` |
-| `_Equipment : redirected to parent I_EquipmentTP` | *Association* |
 
 ## Associations
 

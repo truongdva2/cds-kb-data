@@ -15,6 +15,7 @@ tags:
   - text
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:StockType
 ---
 # I_STOCKTYPETEXT_2
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_StockType` | `I_StockType_2` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

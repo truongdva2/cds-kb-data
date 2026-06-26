@@ -30,11 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_EquipmentCategoryStdVH'` | `name: 'I_EquipmentCategoryStdVH'` |
-| `element: 'EquipmentCategory'  }` | `element: 'EquipmentCategory'  }` |
-| `useForValidation: true` | `useForValidation: true` |
-| `}]` | `}]` |
-| `EquipmentCategory : eqtyp;` | `EquipmentCategory : eqtyp;` |
+| `EquipmentCategory` | `eqtyp` |
 
 ## Associations
 

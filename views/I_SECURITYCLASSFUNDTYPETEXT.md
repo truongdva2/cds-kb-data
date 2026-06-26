@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClassFundType
 ---
 # I_SECURITYCLASSFUNDTYPETEXT
 
@@ -34,8 +35,8 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `SecurityClassFundType` | `sfoty` |
-| `ftr_gen_seccls_fund_type_sname preserving type )` | `cast(xkurzbez` |
-| `ftr_gen_seccls_fund_type_lname preserving type )` | `cast(xlangbez` |
+| `SecurityClassFundTypeName` | `cast(xkurzbez as ftr_gen_seccls_fund_type_sname preserving type )` |
+| `ScrtyClassFundTypeDescription` | `cast(xlangbez as ftr_gen_seccls_fund_type_lname preserving type )` |
 | `_SecurityClassFundType` | *Association* |
 | `_Language` | *Association* |
 

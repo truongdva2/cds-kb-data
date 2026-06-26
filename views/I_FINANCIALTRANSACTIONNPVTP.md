@@ -31,8 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH'` | `name: 'I_CurrencyStdVH'` |
-| `element: 'Currency'}, useAsTemplate: true }]` | `element: 'Currency'}, useAsTemplate: true }]` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
+| `FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
+| `NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
+| `NetPresentValueAmountInNPVCrcy` | `NetPresentValueAmountInNPVCrcy` |
 | `NetPresentValueCurrency` | `NetPresentValueCurrency` |
 | `IntrinsicValueAmountInNPVCrcy` | `IntrinsicValueAmountInNPVCrcy` |
 | `TimeValueAmountInNPVCrcy` | `TimeValueAmountInNPVCrcy` |

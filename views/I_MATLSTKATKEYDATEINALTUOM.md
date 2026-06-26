@@ -32,29 +32,29 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Product` | `Material` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
-| `key Batch` | `Batch` |
-| `key Supplier` | `Supplier` |
-| `key SDDocument` | `SDDocument` |
-| `key SDDocumentItem` | `SDDocumentItem` |
-| `key WBSElementInternalID` | `WBSElementInternalID` |
-| `key Customer` | `Customer` |
-| `key SpecialStockIdfgStockOwner` | `SpecialStockIdfgStockOwner` |
-| `key InventoryStockType` | `InventoryStockType` |
-| `key InventorySpecialStockType` | `InventorySpecialStockType` |
-| `key MaterialBaseUnit` | `MaterialBaseUnit` |
-| `key AlternativeUnit` | `AlternativeUnit` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `Supplier` | `Supplier` |
+| `SDDocument` | `SDDocument` |
+| `SDDocumentItem` | `SDDocumentItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `Customer` | `Customer` |
+| `SpecialStockIdfgStockOwner` | `SpecialStockIdfgStockOwner` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `AlternativeUnit` | `AlternativeUnit` |
 | `CompanyCode` | `CompanyCode` |
 | `FiscalYearVariant` | `FiscalYearVariant` |
 | `MatlWrhsStkQtyInMatlBaseUnit` | `MatlWrhsStkQtyInMatlBaseUnit` |
 | `MatlCnsmpnQtyInMatlBaseUnit` | `MatlCnsmpnQtyInMatlBaseUnit` |
 | `MatlStkIncrQtyInMatlBaseUnit` | `MatlStkIncrQtyInMatlBaseUnit` |
 | `MatlStkDecrQtyInMatlBaseUnit` | `MatlStkDecrQtyInMatlBaseUnit` |
-| `abap.dec(31,14) )` | `cast( fltp_to_dec( MatlWrhsStkQtyInAltUoM` |
-| `abap.dec(31,14) )` | `cast( fltp_to_dec( MatlCnsmpnQtyInAltUoM` |
-| `abap.dec(31,14) )` | `cast( fltp_to_dec( MatlStkIncrQtyInAltUoM` |
-| `abap.dec(31,14) )` | `cast( fltp_to_dec( MatlStkDecrQtyInAltUoM` |
+| `MatlWrhsStkQtyInAltUoM` | `cast(…)` |
+| `MatlCnsmpnQtyInAltUoM` | `cast(…)` |
+| `MatlStkIncrQtyInAltUoM` | `cast(…)` |
+| `MatlStkDecrQtyInAltUoM` | `cast(…)` |
 | `_UnitOfMeasure` | *Association* |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |

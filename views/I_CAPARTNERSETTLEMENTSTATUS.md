@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ptitm_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAPartnerSettlementStatus` | `cast( left( dd07l.domvalue_l, 1 ) as ptitm_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

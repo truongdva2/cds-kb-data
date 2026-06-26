@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key CostCenterAllocation` | `CostCenterAllocation` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `CostCenterAllocation` | `CostCenterAllocation` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `WorkCenter` | `WorkCenter` |
 | `Plant` | `Plant` |
@@ -53,7 +53,6 @@ tags:
 | `CostCtrActyTypeIsReferenced` | `CostCtrActyTypeIsReferenced` |
 | `CostCtrActyTypeIncntvWageCode` | `CostCtrActyTypeIncntvWageCode` |
 | `CostCtrActyTypeRecdTypeGrpCode` | `CostCtrActyTypeRecdTypeGrpCode` |
-| `_Header: redirected to parent I_WorkCenterTP` | *Association* |
 
 ## Associations
 

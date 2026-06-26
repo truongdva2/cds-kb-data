@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pi_hdr_deletion_status_code preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PhysInvtryDeletionStatus` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

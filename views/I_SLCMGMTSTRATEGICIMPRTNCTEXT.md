@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sstn_strategic_importance preserving type )` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SLCSupplierStrategicImportance` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type )` | `cast(ddtext` |
+| `SLCTranslationStatusName` | `cast(ddtext as /srmsmc/status_descr preserving type )` |
 | `_SLCMgmtStrategicImportance` | *Association* |
 | `_Language` | *Association* |
 

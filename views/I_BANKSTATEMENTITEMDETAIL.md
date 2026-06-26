@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankStatementShortID` | `BankStatementShortID` |
-| `key BankStatementItem` | `BankStatementItem` |
-| `key BkStmntItemTransactionDetailID` | `BkStmntItemTransactionDetailID` |
+| `BankStatementShortID` | `BankStatementShortID` |
+| `BankStatementItem` | `BankStatementItem` |
+| `BkStmntItemTransactionDetailID` | `BkStmntItemTransactionDetailID` |
 | `AmountInTransactionCurrency` | `AmountInTransactionCurrency` |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `DebitCreditCode` | `DebitCreditCode` |

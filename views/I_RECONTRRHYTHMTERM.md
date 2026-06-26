@@ -32,31 +32,31 @@ tags:
 | `InternalRealEstateNumber` | `intreno` |
 | `RETermType` | `termtype` |
 | `RETermNumber` | `termno` |
-| `rebdvdmvalidfrom preserving type)` | `cast(validfrom` |
-| `rebdvdmvalidto preserving type)` | `cast(validto` |
-| `recdvdmfrequency preserving type )` | `cast( frequency` |
-| `recdvdmfrequencyunit)` | `cast(frequencyunit` |
-| `recdvdmweekfrom)` | `cast(weekfrom` |
-| `recdvdmmonthfrom)` | `cast(monthfrom` |
-| `recdvdmcondvaluerefer )` | `cast(condvaluerefer` |
-| `retmvdmcondvaluerefdif)` | `cast(condvaluerefdif` |
-| `recdvdmprorate)` | `cast(prorate` |
-| `recdvdmcalcmethper)` | `cast(calcmethper` |
-| `recdvdmpaymentformrh)` | `cast(paymentformrh` |
+| `ValidityStartDate` | `cast(validfrom as rebdvdmvalidfrom preserving type)` |
+| `ValidityEndDate` | `cast(validto as rebdvdmvalidto preserving type)` |
+| `RENumberOfFrequencyUnits` | `cast( frequency as recdvdmfrequency preserving type )` |
+| `REFrequencyUnit` | `cast(frequencyunit as recdvdmfrequencyunit)` |
+| `REStartFrequencyWeek` | `cast(weekfrom as recdvdmweekfrom)` |
+| `REFrequencyStart` | `cast(monthfrom as recdvdmmonthfrom)` |
+| `REConditionAmountReference` | `cast(condvaluerefer as recdvdmcondvaluerefer )` |
+| `REConditionAmountDiff` | `cast(condvaluerefdif as retmvdmcondvaluerefdif)` |
+| `REProRataMethod` | `cast(prorate as recdvdmprorate)` |
+| `REProRataMethodCalc` | `cast(calcmethper as recdvdmcalcmethper)` |
+| `REPaymentForm` | `cast(paymentformrh as recdvdmpaymentformrh)` |
 | `REFrequencyStartDate` | `rhythmbegin` |
 | `REDueDateCorrectionRule` | `duedatecorrrule` |
 | `REDueDateNumberOfCrrtnDays` | `duedatecorrday` |
 | `REDueDateNumberOfCrrtnMonths` | `duedatecorrmonth` |
 | `REDueDateNumberOfCrrtnYears` | `duedatecorryear` |
 | `REDueDateNumberOfCrrtnCalendar` | `duedatecorrcal` |
-| `recdvdmduedatecorrcalunit )` | `cast(duedatecorrcalun` |
+| `REDueDateCrrtnCalendarUnit` | `cast(duedatecorrcalun as recdvdmduedatecorrcalunit )` |
 | `FactoryCalendar` | `duedatecalender` |
 | `REDueDateIsAtBeginning` | `duedatemovebegin` |
 | `REDueDateIsAtEnd` | `duedatemoveend` |
 | `REFixedPeriod` | `fixper` |
-| `_REKeyAssgmt.RealEstateObjectType                     as RealEstateObjectType` | *Association* |
+| `RealEstateObjectType` | `_REKeyAssgmt.RealEstateObjectType` |
 | `_REKeyAssgmt` | *Association* |
-| `_REKeyAssgmt._REObjectType` | *Association* |
+| `_REObjectType` | *Association* |
 | `_RETermType` | *Association* |
 | `_RETerm` | *Association* |
 | `_REFrequencyUnit` | *Association* |

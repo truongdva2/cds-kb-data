@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `receprocessbehavior )` | `cast( dd07l.domvalue_l` |
+| `REValuationBehavior` | `cast( dd07l.domvalue_l as receprocessbehavior )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REValuationBehaviorText` | [0..*] |
 
 ## Source Code
 

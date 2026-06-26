@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnIndustry.Industry` | `_CnsldtnIndustry.Industry` |
-| `_CnsldtnIndustry.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnIndustryTextTP` | *Association* |
+| `Industry` | `_CnsldtnIndustry.Industry` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnIndustry.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

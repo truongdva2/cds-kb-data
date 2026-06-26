@@ -31,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
+| `TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TranspRateTblValidityCurrency` | `TranspRateTblValidityCurrency` |
 | `TranspRateTblValdtyLfcycStatus` | `TranspRateTblValdtyLfcycStatus` |
 | `TranspRateTblValidityEndDate` | `TranspRateTblValidityEndDate` |
 | `TranspRateTblValidityStartDate` | `TranspRateTblValidityStartDate` |
 | `TranspRateTblValidityPctUnit` | `TranspRateTblValidityPctUnit` |
-| `TranspRateTableValidity._TransportationRateTable   : redirected to parent I_TransportationRateTableTP` | `TranspRateTableValidity._TransportationRateTable   : redirected to parent I_TransportationRateTableTP` |
-| `TranspRateTableValidity._TranspRateTableCalcRule   : redirected to composition child I_TranspRateTableCalcRuleTP` | `TranspRateTableValidity._TranspRateTableCalcRule   : redirected to composition child I_TranspRateTableCalcRuleTP` |
-| `TranspRateTableValidity._TranspRateTableRate       : redirected to composition child I_TranspRateTableRateTP` | `TranspRateTableValidity._TranspRateTableRate       : redirected to composition child I_TranspRateTableRateTP` |
 
 ## Associations
 

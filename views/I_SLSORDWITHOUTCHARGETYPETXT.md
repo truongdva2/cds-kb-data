@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-SO-2CL
   - lob:Sales & Distribution
+  - bo:SalesOrderWithoutChargeType
 ---
 # I_SLSORDWITHOUTCHARGETYPETXT
 
@@ -30,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `sd_sowoc_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `SalesOrderWithoutChargeType` | `SalesOrderWithoutChargeType.SalesOrderWithoutChargeType` |
+| `Language` | `Text.Language` |
+| `SlsOrdWthoutChrgTypeName` | `cast( Text.SalesDocumentTypeName as sd_sowoc_type_name preserving type )` |
 | `_SalesOrderWithoutChargeType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

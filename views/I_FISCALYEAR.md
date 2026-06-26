@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:FiscalYear
 ---
 # I_FISCALYEAR
 
@@ -30,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_FiscalYear.FiscalYearVariant` | `P_FiscalYear.FiscalYearVariant` |
-| `key P_FiscalYear.FiscalYear` | `P_FiscalYear.FiscalYear` |
-| `P_FiscalYear.FiscalYearStartDate` | `P_FiscalYear.FiscalYearStartDate` |
-| `P_FiscalYear.FiscalYearEndDate` | `P_FiscalYear.FiscalYearEndDate` |
-| `P_FiscalYear.FiscalYearConsecutiveNumber` | `P_FiscalYear.FiscalYearConsecutiveNumber` |
-| `fins_next_fiscalyear_no_conv preserving type )` | `cast( P_FiscalYear.NextFiscalYear` |
-| `fins_next_fyear_startdate preserving type )` | `cast( P_FiscalYear.NextFiscalYearStartDate` |
-| `fins_next_fyear_enddate preserving type )` | `cast( P_FiscalYear.NextFiscalYearEndDate` |
-| `P_FiscalYear._FiscalYearVariant` | `P_FiscalYear._FiscalYearVariant` |
+| `FiscalYearVariant` | `P_FiscalYear.FiscalYearVariant` |
+| `FiscalYear` | `P_FiscalYear.FiscalYear` |
+| `FiscalYearStartDate` | `P_FiscalYear.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `P_FiscalYear.FiscalYearEndDate` |
+| `FiscalYearConsecutiveNumber` | `P_FiscalYear.FiscalYearConsecutiveNumber` |
+| `NextFiscalYear` | `cast(…)` |
+| `NextFiscalYearStartDate` | `cast(…)` |
+| `NextFiscalYearEndDate` | `cast(…)` |
+| `_FiscalYearVariant` | *Association* |
 
 ## Associations
 

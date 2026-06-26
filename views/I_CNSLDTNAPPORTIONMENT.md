@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_Text_2'}` | `releaseState: #DEPRECATED, successor: '_Text_2'}` |
+| `ConsolidationApportionment` | `cast(left(_Domain.DomainValue, 1) as fincs_apportionment)` |
+| `DomainValue` | `_Domain.DomainValue` |
 | `_Text` | *Association* |
 | `_Text_2` | *Association* |
 

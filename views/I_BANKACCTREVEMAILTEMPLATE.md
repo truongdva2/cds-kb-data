@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankAccountInternalID` | `BankAccountInternalID` |
-| `key BankAccountRevision` | `BankAccountRevision` |
+| `BankAccountInternalID` | `BankAccountInternalID` |
+| `BankAccountRevision` | `BankAccountRevision` |
 | `BankCountry` | `BankCountry` |
 | `Bank` | `Bank` |
 | `BankAccountNumber` | `BankAccountNumber` |
@@ -45,13 +45,10 @@ tags:
 | `BusinessArea` | `BusinessArea` |
 | `Segment` | `Segment` |
 | `BankAccountType` | `BankAccountType` |
-| `case` | `case` |
-| `when LastChangeDate is not null and BankAccountRevision <> '0000' then LastChangeDate` | `when LastChangeDate is not null and BankAccountRevision <> '0000' then LastChangeDate` |
-| `LastChangeDate` | `else  CreationDate end` |
-| `case when  LastChangedByUser is not null and BankAccountRevision <> '0001' and  BankAccountRevision <> '0000' then LastChangedByUser` | `case when  LastChangedByUser is not null and BankAccountRevision <> '0001' and  BankAccountRevision <> '0000' then LastChangedByUser` |
-| `LastChangedByUser` | `else  CreatedByUser end` |
+| `LastChangeDate` | `case…end` |
+| `LastChangedByUser` | `case…end` |
 | `BankAccountRevActivatedByUser` | `BankAccountRevActivatedByUser` |
-| `fclm_bam_acc_url)` | `cast( ' '` |
+| `BankAccountURL` | `cast( ' ' as fclm_bam_acc_url)` |
 
 ## Associations
 

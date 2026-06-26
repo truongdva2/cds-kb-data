@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingArea` | `ControllingArea` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
-| `key CompanyCode` | `CompanyCode` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `CompanyCode` | `CompanyCode` |
 | `CompanyCodeForEdit` | `CompanyCodeForEdit` |
 | `CompanyCodeName` | `CompanyCodeName` |
 | `PrftCtrIsAssignedToCompCode` | `PrftCtrIsAssignedToCompCode` |
@@ -44,8 +44,6 @@ tags:
 | `JointVentureObjectType` | `JointVentureObjectType` |
 | `JointVentureClass` | `JointVentureClass` |
 | `JointVentureSubClass` | `JointVentureSubClass` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProfitCenterTP : redirected to parent I_ProfitCenterTP_2` | *Association* |
 
 ## Associations
 

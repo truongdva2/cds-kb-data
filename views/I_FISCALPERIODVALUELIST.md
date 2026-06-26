@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:FiscalPeriod
 ---
 # I_FISCALPERIODVALUELIST
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fins_fiscalperiod preserving type )` | `cast( '000'` |
+| `FiscalPeriod` | `I_FiscalYearPeriod.FiscalPeriod` |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMStorBinIsAvailable
 ---
 # I_EWM_STORBINISAVAILABLETEXT
 
@@ -33,9 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ewm_de_storbinisavailable preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `ewm_de_storbinavailabledesc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `EWMStorBinIsAvailable` | `cast(…)` |
+| `EWMStorageBinAvailableDesc` | `cast( ddtext as ewm_de_storbinavailabledesc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

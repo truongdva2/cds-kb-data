@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecuritiesAccountGroup
 ---
 # I_SECURITYACCOUNTGROUP
 
@@ -30,13 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position : 2 }]` | `position : 2 }]` |
-| `ftr_gen_sec_account_group_name preserving type)` | `cast(SecurityAccountGroup.sec_acct_grp_nam` |
+| `CompanyCode` | `SecurityAccountGroup.company_code` |
+| `SecurityAccountGroup` | `cast(…)` |
+| `SecurityAccountGroupName` | `cast(…)` |
 | `_CompanyCode` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CompanyCode` | `I_CompanyCode` | — |
 
 ## Source Code
 

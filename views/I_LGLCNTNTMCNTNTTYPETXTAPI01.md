@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:LglCntntMDocContentType
 ---
 # I_LGLCNTNTMCNTNTTYPETXTAPI01
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocContentType` | `LglCntntMDocContentType` |
-| `key Language` | `Language` |
+| `LglCntntMDocContentType` | `LglCntntMDocContentType` |
+| `Language` | `Language` |
 | `LglCntntMDocContentTypeName` | `LglCntntMDocContentTypeName` |
 
 ## Associations

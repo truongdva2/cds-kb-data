@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDocument.SalesDocument` | `SalesDocument.SalesDocument` |
-| `key PaymentPlanItem` | `PaymentPlanItem` |
-| `PaymentItemDetails.PaymentPlan` | `PaymentItemDetails.PaymentPlan` |
-| `SalesDocument.SalesDocumentType` | `SalesDocument.SalesDocumentType` |
-| `SalesDocument.OrganizationDivision` | `SalesDocument.OrganizationDivision` |
-| `SalesDocument.SalesOrganization` | `SalesDocument.SalesOrganization` |
-| `SalesDocument.DistributionChannel` | `SalesDocument.DistributionChannel` |
-| `SalesDocument.SDDocumentCategory` | `SalesDocument.SDDocumentCategory` |
+| `SalesDocument` | `SalesDocument.SalesDocument` |
+| `PaymentPlanItem` | `PaymentPlanItem` |
+| `PaymentPlan` | `PaymentItemDetails.PaymentPlan` |
+| `SalesDocumentType` | `SalesDocument.SalesDocumentType` |
+| `OrganizationDivision` | `SalesDocument.OrganizationDivision` |
+| `SalesOrganization` | `SalesDocument.SalesOrganization` |
+| `DistributionChannel` | `SalesDocument.DistributionChannel` |
+| `SDDocumentCategory` | `SalesDocument.SDDocumentCategory` |
 | `ElectronicPaymentType` | `ElectronicPaymentType` |
 | `ElectronicPayment` | `ElectronicPayment` |
 | `ElectronicPaymentSequence` | `ElectronicPaymentSequence` |
@@ -70,14 +70,14 @@ tags:
 | `PreauthorizationIsRequested` | `PreauthorizationIsRequested` |
 | `AuthorizationStatusName` | `AuthorizationStatusName` |
 | `MaximumToBeAuthorizedAmount` | `MaximumToBeAuthorizedAmount` |
-| `PaymentItemDetails.TransactionCurrency` | `PaymentItemDetails.TransactionCurrency` |
+| `TransactionCurrency` | `PaymentItemDetails.TransactionCurrency` |
 | `PaytPlnForAuthorizationItem` | `PaytPlnForAuthorizationItem` |
 | `PaytPlnItmForAuthorizationItem` | `PaytPlnItmForAuthorizationItem` |
 | `PaymentPlanAuthorizationItem` | `PaymentPlanAuthorizationItem` |
 | `PaymentPlanRelatedBillgStatus` | `PaymentPlanRelatedBillgStatus` |
-| `_BillingPlanRelatedBillgSts._Text[1: Language=$session.system_language].BillingPlanRelatedBillgStsDesc` | *Association* |
+| `BillingPlanRelatedBillgStsDesc` | `expr(…)` |
 | `EPaytAuthorizationType` | `EPaytAuthorizationType` |
-| `_ElectronicPaymentAuthznType._Text[1: Language=$session.system_language].EPaytAuthorizationTypeDesc` | *Association* |
+| `EPaytAuthorizationTypeDesc` | `expr(…)` |
 | `_SalesDocument` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |

@@ -31,7 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association: '_MainContactPerson' } }` | `association: '_MainContactPerson' } }` |
+| `BusinessPartner` | `partner` |
+| `CollectionSegment` | `coll_segment` |
+| `BPCollSgmtAssignmentValidTo` | `valid_until` |
+| `BPCollSgmtAssignmentValidFrom` | `valid_from` |
+| `CollectionGroup` | `coll_group` |
+| `CollectionSpecialist` | `coll_specialist` |
 | `CollectionBPMainContactPerson` | `last_contact` |
 | `_BusinessPartner` | *Association* |
 | `_CollectionSegment` | *Association* |

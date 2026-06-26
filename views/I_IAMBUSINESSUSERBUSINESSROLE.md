@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_userid preserving type )` | `cast( bru.user_id` |
-| `key br.BusinessRoleUUID` | `br.BusinessRoleUUID` |
-| `br.BusinessRole` | `br.BusinessRole` |
-| `br.BusinessRoleGroup` | `br.BusinessRoleGroup` |
+| `UserID` | `cast( bru.user_id as vdm_userid preserving type )` |
+| `BusinessRoleUUID` | `br.BusinessRoleUUID` |
+| `BusinessRole` | `br.BusinessRole` |
+| `BusinessRoleGroup` | `br.BusinessRoleGroup` |
 | `_BusinessRole` | *Association* |
 | `_BusinessUser` | *Association* |
 

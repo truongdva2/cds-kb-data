@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:IsDocInfoRecdCreatedFromCAD
 ---
 # I_DOCUMENTINFORECORDCADSTST
 
@@ -33,7 +34,6 @@ tags:
 | `Language` | `Value.ddlanguage` |
 | `IsDocInfoRecdCreatedFromCAD` | `Value.domvalue_l` |
 | `CADStatusDescription` | `ddtext` |
-| `_Language` | *Association* |
 | `_DocumentInfoRecordCADSts` | *Association* |
 
 ## Associations

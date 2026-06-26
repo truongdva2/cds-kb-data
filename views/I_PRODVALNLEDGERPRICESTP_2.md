@@ -31,11 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `ValuationArea` | `ValuationArea` |
+| `ValuationType` | `ValuationType` |
+| `CurrencyRole` | `CurrencyRole` |
+| `Ledger` | `Ledger` |
+| `ProductPriceUnitQuantity` | `ProductPriceUnitQuantity` |
+| `Currency` | `Currency` |
+| `FuturePrice` | `FuturePrice` |
+| `FuturePriceValidityStartDate` | `FuturePriceValidityStartDate` |
+| `CompanyCode` | `CompanyCode` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product          : redirected to I_ProductTP_2` | *Association* |
-| `_ProductValuation : redirected to parent I_ProductValuationTP_2` | *Association* |
 | `_CurrencyText` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |
 

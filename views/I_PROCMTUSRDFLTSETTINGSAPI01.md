@@ -33,7 +33,7 @@ tags:
 | `UserID` | `I_ProcmtUsrAdvncdDfltSettings.Employee` |
 | `PersonalizationID` | `PersonalizationID` |
 | `BusinessObjectType` | `BusinessObjectType` |
-| `_Employee.BPIdentificationNumber       as Employee` | *Association* |
+| `Employee` | `_Employee.BPIdentificationNumber` |
 | `Plant` | `Plant` |
 | `AccountAssignmentCategory` | `AccountAssignmentCategory` |
 | `MaterialGroup` | `MaterialGroup` |
@@ -46,8 +46,8 @@ tags:
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `CompanyCode` | `CompanyCode` |
-| `ps_psp_pnr )` | `cast( WBSElementInternalID_2` |
-| `WBSElementInternalID_2,                                               // No conv exit` | `WBSElementInternalID_2,                                               // No conv exit` |
+| `WBSElementInternalID` | `cast( WBSElementInternalID_2 as ps_psp_pnr )` |
+| `WBSElementInternalID_2` | `WBSElementInternalID_2` |
 | `WBSElement` | `WBSElement` |
 | `ProjectNetwork` | `ProjectNetwork` |
 | `OrderID` | `OrderID` |
@@ -60,20 +60,20 @@ tags:
 | `GoodsRecipientName` | `GoodsRecipientName` |
 | `UnloadingPointName` | `UnloadingPointName` |
 | `PurchaseOrderPriceType` | `PurchaseOrderPriceType` |
-| `_Employee.AuthorizationGroup` | *Association* |
-| `_Employee.IsBusinessPurposeCompleted` | *Association* |
-| `_Employee.DataControllerSet                         as DataControllerSet` | *Association* |
-| `_Employee.DataController1                           as DataController1` | *Association* |
-| `_Employee.DataController2                           as DataController2` | *Association* |
-| `_Employee.DataController3                           as DataController3` | *Association* |
-| `_Employee.DataController4                           as DataController4` | *Association* |
-| `_Employee.DataController5                           as DataController5` | *Association* |
-| `_Employee.DataController6                           as DataController6` | *Association* |
-| `_Employee.DataController7                           as DataController7` | *Association* |
-| `_Employee.DataController8                           as DataController8` | *Association* |
-| `_Employee.DataController9                           as DataController9` | *Association* |
-| `_Employee.DataController10                          as DataController10` | *Association* |
-| `_Employee.BusinessPartner` | *Association* |
+| `AuthorizationGroup` | `_Employee.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_Employee.IsBusinessPurposeCompleted` |
+| `DataControllerSet` | `_Employee.DataControllerSet` |
+| `DataController1` | `_Employee.DataController1` |
+| `DataController2` | `_Employee.DataController2` |
+| `DataController3` | `_Employee.DataController3` |
+| `DataController4` | `_Employee.DataController4` |
+| `DataController5` | `_Employee.DataController5` |
+| `DataController6` | `_Employee.DataController6` |
+| `DataController7` | `_Employee.DataController7` |
+| `DataController8` | `_Employee.DataController8` |
+| `DataController9` | `_Employee.DataController9` |
+| `DataController10` | `_Employee.DataController10` |
+| `BusinessPartner` | `_Employee.BusinessPartner` |
 | `_Employee` | *Association* |
 | `_Employee1` | *Association* |
 
@@ -84,7 +84,6 @@ tags:
 | `_Employee` | `I_BusinessUser` | [1..1] |
 | `_Employee1` | `I_BusinessUserBasic` | [1..1] |
 | `_Extension` | `E_UserDefaultSettingItem` | [1..1] |
-| `_DraftExtension` | `E_UserDefaultSettingItem` | [0..1] |
 
 ## Source Code
 

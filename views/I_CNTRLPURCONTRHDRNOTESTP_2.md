@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingDocumentNoteUUID` | `PurchasingDocumentNoteUUID` |
+| `PurchasingDocumentNoteUUID` | `PurchasingDocumentNoteUUID` |
 | `PurchasingDocumentObjNodeType` | `PurchasingDocumentObjNodeType` |
 | `CentralPurchaseContract` | `CentralPurchaseContract` |
 | `PurchasingDocumentNoteObjectID` | `PurchasingDocumentNoteObjectID` |
@@ -46,8 +46,6 @@ tags:
 | `PurgDocNoteLastChangedBy` | `PurgDocNoteLastChangedBy` |
 | `PurgDocNoteLastChangedDateTime` | `PurgDocNoteLastChangedDateTime` |
 | `PurgDocNoteText` | `PurgDocNoteText` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurchaseContract : redirected to parent I_CntrlPurchaseContractTP_2` | *Association* |
 
 ## Associations
 

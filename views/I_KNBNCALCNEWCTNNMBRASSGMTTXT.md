@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KnbnCalcNewCtnNmbrAssgmt
 ---
 # I_KNBNCALCNEWCTNNMBRASSGMTTXT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `nknum)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_nmbrassngmnt_text preserving type)` | `cast(ddtext` |
+| `KnbnCalcNewCtnNmbrAssgmt` | `cast(substring(domvalue_l, 1, 1) as nknum)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KnbnCalcNewCtnNmbrAssgmtName` | `cast(ddtext as vdm_nmbrassngmnt_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnCalcNmbrAssignment` | *Association* |
 | `_Language` | *Association* |

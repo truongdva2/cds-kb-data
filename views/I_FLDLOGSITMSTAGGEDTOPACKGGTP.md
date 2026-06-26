@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
 | `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
@@ -65,7 +65,6 @@ tags:
 | `FieldLogisticsKitIdentifier` | `FieldLogisticsKitIdentifier` |
 | `HandlingUnitQuantity` | `HandlingUnitQuantity` |
 | `HandlingUnitQuantityUnit` | `HandlingUnitQuantityUnit` |
-| `_ShptPackggUnit : redirected to parent I_FldLogsShptPackggUnitTP` | *Association* |
 
 ## Associations
 

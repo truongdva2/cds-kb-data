@@ -33,25 +33,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankCountry` | `BankCountry` |
-| `key BankInternalID` | `BankInternalID` |
-| `key ChangeDocument` | `ChangeDocument` |
-| `key ChangeDocTableKey` | `ChangeDocTableKey` |
-| `key ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
-| `key DatabaseTableFieldName` | `DatabaseTableFieldName` |
-| `key ChangeDocItemChangeTypeText` | `ChangeDocItemChangeTypeText` |
-| `key DatabaseTable` | `DatabaseTable` |
-| `key ChangeDocTransactionCode` | `ChangeDocTransactionCode` |
+| `BankCountry` | `BankCountry` |
+| `BankInternalID` | `BankInternalID` |
+| `ChangeDocument` | `ChangeDocument` |
+| `ChangeDocTableKey` | `ChangeDocTableKey` |
+| `ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
+| `DatabaseTableFieldName` | `DatabaseTableFieldName` |
+| `ChangeDocItemChangeTypeText` | `ChangeDocItemChangeTypeText` |
+| `DatabaseTable` | `DatabaseTable` |
+| `ChangeDocTransactionCode` | `ChangeDocTransactionCode` |
 | `ChangeDocItemChangeType` | `ChangeDocItemChangeType` |
 | `ChangeDocObjectClass` | `ChangeDocObjectClass` |
 | `ChangeDocNewFieldValue` | `ChangeDocNewFieldValue` |
 | `ChangeDocPreviousFieldValue` | `ChangeDocPreviousFieldValue` |
-| `bf_bank_change_doc_tech_field preserving type )` | `cast(ChangeDocDatabaseTableField` |
+| `DatabaseFieldTechnicalName` | `cast(…)` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
-| `cast(dats_tims_to_tstmp(CreationDate, CreationTime, abap_system_timezone($session.client, 'NULL')` | `cast(dats_tims_to_tstmp(CreationDate, CreationTime, abap_system_timezone($session.client, 'NULL')` |
-| `timestamp preserving type )` | `$session.client, 'NULL')` |
+| `CreationDateTime` | `cast(…)` |
 
 ## Associations
 

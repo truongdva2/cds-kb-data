@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ServiceConfirmation` | `ServiceConfirmation` |
-| `key  ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key  PricingProcedureStep` | `PricingProcedureStep` |
-| `key  PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `PrcgProcedureCounterForHeader` | `PrcgProcedureCounterForHeader` |
 | `ConditionType` | `ConditionType` |
 | `ConditionRateValue` | `ConditionRateValue` |
@@ -43,8 +43,6 @@ tags:
 | `ConditionInactiveReason` | `ConditionInactiveReason` |
 | `_ConditionQuantityUnit` | *Association* |
 | `_ConditionInactiveReason` | *Association* |
-| `_ServiceConfirmationItemTP : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_SrvcConfTP : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

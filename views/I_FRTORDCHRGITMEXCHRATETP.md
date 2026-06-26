@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspChrgExchangeRateUUID` | `TranspChrgExchangeRateUUID` |
+| `TranspChrgExchangeRateUUID` | `TranspChrgExchangeRateUUID` |
 | `TranspChargeItemUUID` | `TranspChargeItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `SourceCurrency` | `SourceCurrency` |
@@ -39,9 +39,8 @@ tags:
 | `TranspChrgExchangeRate` | `TranspChrgExchangeRate` |
 | `TranspChrgExchangeRateType` | `TranspChrgExchangeRateType` |
 | `ExchangeRateDate` | `ExchangeRateDate` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TranspOrderChargeItem as _FreightOrderChargeItem : redirected to parent I_FreightOrderChargeItemTP` | *Association* |
-| `_TransportationOrder   as _FreightOrder           : redirected to I_FreightOrderTP` | *Association* |
+| `_FreightOrderChargeItem` | *Association* |
+| `_FreightOrder` | *Association* |
 
 ## Associations
 

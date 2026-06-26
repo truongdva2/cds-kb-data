@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OrderID
 ---
 # I_ORDER
 
@@ -29,22 +30,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `aufk.ProfitCenter` | `aufk.ProfitCenter` |
-| `aufk.CreationDate` | `aufk.CreationDate` |
-| `aufk.CreationTime` | `aufk.CreationTime` |
-| `aufk.LastChangeDate` | `aufk.LastChangeDate` |
-| `aufk.LastChangeTime` | `aufk.LastChangeTime` |
-| `aufk.ObjectInternalID` | `aufk.ObjectInternalID` |
-| `aufk.IsStatisticalOrder` | `aufk.IsStatisticalOrder` |
-| `aufk.IsMarkedForDeletion` | `aufk.IsMarkedForDeletion` |
-| `aufk._OrderCategory` | `aufk._OrderCategory` |
-| `aufk._OrderType` | `aufk._OrderType` |
-| `afko._OrderInternalID` | `afko._OrderInternalID` |
-| `aufk._OrderHierarchyNode` | `aufk._OrderHierarchyNode` |
+| `OrderID` | `aufk.OrderID` |
+| `OrderCategory` | `aufk.OrderCategory` |
+| `OrderType` | `aufk.OrderType` |
+| `OrderInternalID` | `afko.OrderInternalID` |
+| `OrderDescription` | `aufk.OrderDescription` |
+| `OrderHasLongText` | `aufk.OrderHasLongText` |
+| `Plant` | `aufk.Plant` |
+| `MRPController` | `afko.MRPController` |
+| `ControllingArea` | `aufk.ControllingArea` |
+| `CompanyCode` | `aufk.CompanyCode` |
+| `ProfitCenter` | `aufk.ProfitCenter` |
+| `CreationDate` | `aufk.CreationDate` |
+| `CreationTime` | `aufk.CreationTime` |
+| `LastChangeDate` | `aufk.LastChangeDate` |
+| `LastChangeTime` | `aufk.LastChangeTime` |
+| `ObjectInternalID` | `aufk.ObjectInternalID` |
+| `IsStatisticalOrder` | `aufk.IsStatisticalOrder` |
+| `IsMarkedForDeletion` | `aufk.IsMarkedForDeletion` |
+| `_OrderCategory` | *Association* |
+| `_OrderType` | *Association* |
+| `_OrderInternalID` | *Association* |
+| `_OrderHierarchyNode` | *Association* |
 | `_PlantText` | *Association* |
 | `_CompanyCodeText` | *Association* |
 | `_ControllingAreaText` | *Association* |

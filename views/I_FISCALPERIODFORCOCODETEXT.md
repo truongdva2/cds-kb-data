@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs preserving type )` | `cast( t001.bukrs` |
+| `CompanyCode` | `cast( t001.bukrs as fis_bukrs preserving type )` |
 | `Language` | `t009c.spras` |
-| `fis_gjahr_no_conv preserving type )` | `cast( finsc_period.fiscal_year` |
-| `fins_fiscalperiod preserving type )` | `cast( t009c.poper` |
-| `fis_periv preserving type )` | `cast( t009c.periv` |
+| `FiscalYear` | `cast( finsc_period.fiscal_year as fis_gjahr_no_conv preserving type )` |
+| `FiscalPeriod` | `cast( t009c.poper as fins_fiscalperiod preserving type )` |
+| `FiscalYearVariant` | `cast( t009c.periv as fis_periv preserving type )` |
 | `FiscalPeriodName` | `t009c.ltext` |
 | `_CompanyCode` | *Association* |
 | `_FiscalYearVariant` | *Association* |

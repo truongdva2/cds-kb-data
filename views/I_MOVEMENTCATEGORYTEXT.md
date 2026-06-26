@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:AssetAcctTransClassfctn
 ---
 # I_MOVEMENTCATEGORYTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `AssetAcctTransClassfctn` | `movcat` |
 | `Language` | `langu` |
-| `faa_movcat_text)` | `cast (description` |
+| `AssetAcctTransClassfctnName` | `cast (description as faa_movcat_text)` |
 | `_Language` | *Association* |
 
 ## Associations

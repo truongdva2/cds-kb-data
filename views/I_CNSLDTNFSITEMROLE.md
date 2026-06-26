@@ -31,9 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFSItemRole'` | `name: 'I_CnsldtnFSItemRole'` |
-| `element: 'CnsldtnFSItemRole' } }]` | `element: 'CnsldtnFSItemRole' } }]` |
-| `fincs_fsitemrole preserving type )` | `cast( _FSItemAttribValue.CnsldtnFSItemAttributeValue` |
+| `CnsldtnFSItemRole` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

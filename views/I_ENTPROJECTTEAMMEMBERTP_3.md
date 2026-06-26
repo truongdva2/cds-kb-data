@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TeamMemberUUID` | `TeamMemberUUID` |
+| `TeamMemberUUID` | `TeamMemberUUID` |
 | `BusinessPartnerUUID` | `BusinessPartnerUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_EnterpriseProject : redirected to parent I_EnterpriseProjectTP_3` | *Association* |
-| `_EntProjEntitlement: redirected to composition child I_EntProjTeamMbrEntlmntTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

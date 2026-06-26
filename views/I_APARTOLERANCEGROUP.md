@@ -31,15 +31,15 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CompanyCode` | `tg.bukrs` |
-| `farp_togru )` | `cast( tg.togru` |
+| `APARToleranceGroup` | `cast( tg.togru as farp_togru )` |
 | `GraceDays` | `tg.toler` |
-| `farp_dzbfix )` | `cast( tg.sktre` |
+| `FixedCashDiscount` | `cast( tg.sktre as farp_dzbfix )` |
 | `ArrearsDaysBaseDateDetn` | `tg.vrzde` |
-| `farp_betrh_043t )` | `cast( tg.betrh` |
-| `farp_betrs_043t )` | `cast( tg.betrs` |
-| `farp_prozh_043t )` | `cast( tg.prozh` |
-| `farp_prozs_043t )` | `cast( tg.prozs` |
-| `_t001.waers                                as CompanyCodeCurrency` | *Association* |
+| `MaxPaytDiffExpnAmountInCCCrcy` | `cast( tg.betrh as farp_betrh_043t )` |
+| `MaxPaytDiffRevnAmountInCCCrcy` | `cast( tg.betrs as farp_betrs_043t )` |
+| `MaxPaymentDiffExpensePercent` | `cast( tg.prozh as farp_prozh_043t )` |
+| `MaxPaymentDiffRevenuePercent` | `cast( tg.prozs as farp_prozs_043t )` |
+| `CompanyCodeCurrency` | `_t001.waers` |
 | `_CompanyCode` | *Association* |
 | `_CompanyCodeCurrency` | *Association* |
 | `_APARToleranceGroupText` | *Association* |

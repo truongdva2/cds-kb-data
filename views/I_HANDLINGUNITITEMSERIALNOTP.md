@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key HandlingUnitItem` | `HandlingUnitItem` |
-| `key HandlingUnitExternalID` | `HandlingUnitExternalID` |
-| `key Warehouse` | `Warehouse` |
-| `key StockItemUUID` | `StockItemUUID` |
-| `key SerialNumber` | `SerialNumber` |
+| `HandlingUnitItem` | `HandlingUnitItem` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `Warehouse` | `Warehouse` |
+| `StockItemUUID` | `StockItemUUID` |
+| `SerialNumber` | `SerialNumber` |
 | `Equipment` | `Equipment` |
 | `HandlingUnitInternalID` | `HandlingUnitInternalID` |
 | `Material` | `Material` |
-| `/* Associations */` | `/* Associations */` |
-| `_HandlingUnit : redirected to I_HandlingUnitTP` | *Association* |
-| `_HandlingUnitItem : redirected to parent I_HandlingUnitItemTP` | *Association* |
 
 ## Associations
 

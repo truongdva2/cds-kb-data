@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceToolGroup
 ---
 # I_PRODNRSCETOOLGROUPTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProductionResourceToolGroup` | `cast(fgrua as vdm_prtgroup preserving type)` |
+| `Language` | `spras` |
 | `ProductionRsceToolGroupDesc` | `fgrtxt` |
 | `_Language` | *Association* |
 | `_ProdnRsceToolGroup` | *Association* |

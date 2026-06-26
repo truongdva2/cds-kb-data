@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerContactPerson
 ---
 # I_CONTACTPERSON
 
@@ -30,20 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ContactPerson, -- Contact Person Number` | `knvk.parnr` |
-| `Customer, -- Customer Number` | `knvk.kunnr` |
-| `Supplier, -- Account Number of Vendor or Creditor` | `knvk.lifnr` |
-| `ContactPersonFunction, -- Contact person function` | `knvk.pafkt` |
-| `ContactPersonDepartment, -- Contact person department` | `knvk.abtnr` |
-| `SearchTerm1, -- Sort field` | `knvk.sortl` |
-| `SearchTerm, -- Sort field` | `knvk.sortl` |
-| `PersonNumber` | `knvk.prsnr` |
-| `UpperCaseFirstName, -- First name in upper case for search help` | `adrp.mc_namefir` |
-| `UpperCaseLastName, -- Last name in upper case for search help` | `adrp.mc_namelas` |
-| `FirstName, -- First Name` | `adrp.name_first` |
-| `LastName, -- Last Name` | `adrp.name_last` |
-| `PersonFullName, -- Full Name` | `adrp.name_text` |
-| `IsBusinessPurposeCompleted` | `knvk.cvp_xblck_k` |
+| `ContactPerson` | `knvk.parnr` |
+| `Customer` | `-- Contact Person Number knvk.kunnr` |
+| `Supplier` | `-- Customer Number knvk.lifnr` |
+| `ContactPersonFunction` | `-- Account Number of Vendor or Creditor knvk.pafkt` |
+| `ContactPersonDepartment` | `-- Contact person function knvk.abtnr` |
+| `SearchTerm1` | `-- Contact person department knvk.sortl` |
+| `SearchTerm` | `-- Sort field knvk.sortl` |
+| `PersonNumber` | `-- Sort field knvk.prsnr` |
+| `UpperCaseFirstName` | `adrp.mc_namefir` |
+| `UpperCaseLastName` | `-- First name in upper case for search help adrp.mc_namelas` |
+| `FirstName` | `-- Last name in upper case for search help adrp.name_first` |
+| `LastName` | `-- First Name adrp.name_last` |
+| `PersonFullName` | `-- Last Name adrp.name_text` |
+| `IsBusinessPurposeCompleted` | `-- Full Name knvk.cvp_xblck_k` |
 | `_Customer` | *Association* |
 | `_Supplier` | *Association* |
 | `_CustLink` | *Association* |
@@ -51,7 +52,12 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Customer` | `I_Customer` | — |
+| `_Supplier` | `I_Supplier` | — |
+| `_CustLink` | `I_BPCustomerContactLink` | [0..1] |
+| `_SuppLink` | `I_BPSupplierContactLink` | [0..1] |
 
 ## Source Code
 

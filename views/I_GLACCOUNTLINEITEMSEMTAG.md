@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:LedgerGLLineItem
 ---
 # I_GLACCOUNTLINEITEMSEMTAG
 
@@ -30,7 +31,346 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'CostSourceUnit'} }` | `unitOfMeasure: 'CostSourceUnit'} }` |
+| `Ledger` | `Ledger` |
+| `SourceLedger` | `SourceLedger` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `GLAccountHierarchy` | `GLAccountHierarchy` |
+| `SemanticTag` | `SemanticTag` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `LedgerFiscalYear` | `LedgerFiscalYear` |
+| `GLRecordType` | `GLRecordType` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `ControllingArea` | `ControllingArea` |
+| `FinancialTransactionType` | `FinancialTransactionType` |
+| `BusinessTransactionType` | `BusinessTransactionType` |
+| `ReferenceDocumentType` | `ReferenceDocumentType` |
+| `LogicalSystem` | `LogicalSystem` |
+| `ReferenceDocumentContext` | `ReferenceDocumentContext` |
+| `ReferenceDocument` | `ReferenceDocument` |
+| `ReferenceDocumentItem` | `ReferenceDocumentItem` |
+| `ReferenceDocumentItemGroup` | `ReferenceDocumentItemGroup` |
+| `IsReversal` | `IsReversal` |
+| `IsReversed` | `IsReversed` |
+| `ReversalReferenceDocumentCntxt` | `ReversalReferenceDocumentCntxt` |
+| `ReversalReferenceDocument` | `ReversalReferenceDocument` |
+| `IsSettlement` | `IsSettlement` |
+| `IsSettled` | `IsSettled` |
+| `PredecessorReferenceDocType` | `PredecessorReferenceDocType` |
+| `PredecessorReferenceDocCntxt` | `PredecessorReferenceDocCntxt` |
+| `PredecessorReferenceDocument` | `PredecessorReferenceDocument` |
+| `PredecessorReferenceDocItem` | `PredecessorReferenceDocItem` |
+| `SourceReferenceDocumentType` | `SourceReferenceDocumentType` |
+| `SourceLogicalSystem` | `SourceLogicalSystem` |
+| `SourceReferenceDocumentCntxt` | `SourceReferenceDocumentCntxt` |
+| `SourceReferenceDocument` | `SourceReferenceDocument` |
+| `SourceReferenceDocumentItem` | `SourceReferenceDocumentItem` |
+| `SourceReferenceDocSubitem` | `SourceReferenceDocSubitem` |
+| `IsCommitment` | `IsCommitment` |
+| `JrnlEntryItemObsoleteReason` | `JrnlEntryItemObsoleteReason` |
+| `GLAccount` | `GLAccount` |
+| `CostCenter` | `CostCenter` |
+| `ProfitCenter` | `ProfitCenter` |
+| `FunctionalArea` | `FunctionalArea` |
+| `BusinessArea` | `BusinessArea` |
+| `Segment` | `Segment` |
+| `PartnerCostCenter` | `PartnerCostCenter` |
+| `PartnerProfitCenter` | `PartnerProfitCenter` |
+| `PartnerFunctionalArea` | `PartnerFunctionalArea` |
+| `PartnerBusinessArea` | `PartnerBusinessArea` |
+| `PartnerCompany` | `PartnerCompany` |
+| `PartnerSegment` | `PartnerSegment` |
+| `BalanceTransactionCurrency` | `BalanceTransactionCurrency` |
+| `AmountInBalanceTransacCrcy` | `AmountInBalanceTransacCrcy` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `AmountInTransactionCurrency` | `AmountInTransactionCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `AmountInCompanyCodeCurrency` | `AmountInCompanyCodeCurrency` |
+| `GlobalCurrency` | `GlobalCurrency` |
+| `AmountInGlobalCurrency` | `AmountInGlobalCurrency` |
+| `FunctionalCurrency` | `FunctionalCurrency` |
+| `AmountInFunctionalCurrency` | `AmountInFunctionalCurrency` |
+| `FreeDefinedCurrency1` | `FreeDefinedCurrency1` |
+| `AmountInFreeDefinedCurrency1` | `AmountInFreeDefinedCurrency1` |
+| `FreeDefinedCurrency2` | `FreeDefinedCurrency2` |
+| `AmountInFreeDefinedCurrency2` | `AmountInFreeDefinedCurrency2` |
+| `FreeDefinedCurrency3` | `FreeDefinedCurrency3` |
+| `AmountInFreeDefinedCurrency3` | `AmountInFreeDefinedCurrency3` |
+| `FreeDefinedCurrency4` | `FreeDefinedCurrency4` |
+| `AmountInFreeDefinedCurrency4` | `AmountInFreeDefinedCurrency4` |
+| `FreeDefinedCurrency5` | `FreeDefinedCurrency5` |
+| `AmountInFreeDefinedCurrency5` | `AmountInFreeDefinedCurrency5` |
+| `FreeDefinedCurrency6` | `FreeDefinedCurrency6` |
+| `AmountInFreeDefinedCurrency6` | `AmountInFreeDefinedCurrency6` |
+| `FreeDefinedCurrency7` | `FreeDefinedCurrency7` |
+| `AmountInFreeDefinedCurrency7` | `AmountInFreeDefinedCurrency7` |
+| `FreeDefinedCurrency8` | `FreeDefinedCurrency8` |
+| `AmountInFreeDefinedCurrency8` | `AmountInFreeDefinedCurrency8` |
+| `FixedAmountInGlobalCrcy` | `FixedAmountInGlobalCrcy` |
+| `GrpValnFixedAmtInGlobCrcy` | `GrpValnFixedAmtInGlobCrcy` |
+| `PrftCtrValnFxdAmtInGlobCrcy` | `PrftCtrValnFxdAmtInGlobCrcy` |
+| `TotalPriceVarcInGlobalCrcy` | `TotalPriceVarcInGlobalCrcy` |
+| `GrpValnTotPrcVarcInGlobCrcy` | `GrpValnTotPrcVarcInGlobCrcy` |
+| `PrftCtrValnTotPrcVarcInGlbCrcy` | `PrftCtrValnTotPrcVarcInGlbCrcy` |
+| `FixedPriceVarcInGlobalCrcy` | `FixedPriceVarcInGlobalCrcy` |
+| `GrpValnFixedPrcVarcInGlobCrcy` | `GrpValnFixedPrcVarcInGlobCrcy` |
+| `PrftCtrValnFxdPrcVarcInGlbCrcy` | `PrftCtrValnFxdPrcVarcInGlbCrcy` |
+| `FixedAmountInCoCodeCrcy` | `FixedAmountInCoCodeCrcy` |
+| `ControllingObjectCurrency` | `ControllingObjectCurrency` |
+| `AmountInObjectCurrency` | `AmountInObjectCurrency` |
+| `BaseUnit` | `BaseUnit` |
+| `Quantity` | `Quantity` |
+| `FixedQuantity` | `FixedQuantity` |
+| `CostSourceUnit` | `CostSourceUnit` |
+| `ValuationQuantity` | `ValuationQuantity` |
+| `ValuationFixedQuantity` | `ValuationFixedQuantity` |
+| `AdditionalQuantity1Unit` | `AdditionalQuantity1Unit` |
+| `AdditionalQuantity1` | `AdditionalQuantity1` |
+| `AdditionalQuantity2Unit` | `AdditionalQuantity2Unit` |
+| `AdditionalQuantity2` | `AdditionalQuantity2` |
+| `AdditionalQuantity3Unit` | `AdditionalQuantity3Unit` |
+| `AdditionalQuantity3` | `AdditionalQuantity3` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `FiscalYearVariant` | `P_GLAccountLineItemSemTag.FiscalYearVariant` |
+| `FiscalYearPeriod` | `FiscalYearPeriod` |
+| `PostingDate` | `PostingDate` |
+| `DocumentDate` | `DocumentDate` |
+| `AccountingDocumentType` | `AccountingDocumentType` |
+| `AccountingDocumentItem` | `AccountingDocumentItem` |
+| `AssignmentReference` | `AssignmentReference` |
+| `AccountingDocumentCategory` | `AccountingDocumentCategory` |
+| `PostingKey` | `PostingKey` |
+| `TransactionTypeDetermination` | `TransactionTypeDetermination` |
+| `SubLedgerAcctLineItemType` | `SubLedgerAcctLineItemType` |
+| `AccountingDocCreatedByUser` | `AccountingDocCreatedByUser` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `CreationDateTime` | `CreationDateTime` |
+| `CreationDate` | `CreationDate` |
+| `EliminationProfitCenter` | `EliminationProfitCenter` |
+| `OriginObjectType` | `OriginObjectType` |
+| `GLAccountType` | `GLAccountType` |
+| `AlternativeGLAccount` | `AlternativeGLAccount` |
+| `CountryChartOfAccounts` | `CountryChartOfAccounts` |
+| `InvoiceReference` | `InvoiceReference` |
+| `InvoiceReferenceFiscalYear` | `InvoiceReferenceFiscalYear` |
+| `FollowOnDocumentType` | `FollowOnDocumentType` |
+| `InvoiceItemReference` | `InvoiceItemReference` |
+| `ReferencePurchaseOrderCategory` | `ReferencePurchaseOrderCategory` |
+| `PurchasingDocument` | `PurchasingDocument` |
+| `PurchasingDocumentItem` | `PurchasingDocumentItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `DocumentItemText` | `DocumentItemText` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesDocument` | `SalesDocument` |
+| `SalesDocumentItem` | `SalesDocumentItem` |
+| `Material` | `Material` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `Supplier` | `Supplier` |
+| `Customer` | `Customer` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `ConditionContract` | `ConditionContract` |
+| `ComponentBreakdown` | `ComponentBreakdown` |
+| `CompBreakdownScaleNumerator` | `CompBreakdownScaleNumerator` |
+| `FinancialAccountType` | `FinancialAccountType` |
+| `SpecialGLCode` | `SpecialGLCode` |
+| `TaxCode` | `TaxCode` |
+| `HouseBank` | `HouseBank` |
+| `HouseBankAccount` | `HouseBankAccount` |
+| `IsOpenItemManaged` | `IsOpenItemManaged` |
+| `ClearingDate` | `ClearingDate` |
+| `ClearingAccountingDocument` | `ClearingAccountingDocument` |
+| `ClearingDocFiscalYear` | `ClearingDocFiscalYear` |
+| `ClearingJournalEntry` | `ClearingJournalEntry` |
+| `ClearingJournalEntryFiscalYear` | `ClearingJournalEntryFiscalYear` |
+| `AssetDepreciationArea` | `AssetDepreciationArea` |
+| `MasterFixedAsset` | `MasterFixedAsset` |
+| `FixedAsset` | `FixedAsset` |
+| `AssetValueDate` | `AssetValueDate` |
+| `AssetTransactionType` | `AssetTransactionType` |
+| `AssetAcctTransClassfctn` | `AssetAcctTransClassfctn` |
+| `DepreciationFiscalPeriod` | `DepreciationFiscalPeriod` |
+| `GroupMasterFixedAsset` | `GroupMasterFixedAsset` |
+| `GroupFixedAsset` | `GroupFixedAsset` |
+| `CostEstimate` | `CostEstimate` |
+| `InventorySpecialStockValnType` | `InventorySpecialStockValnType` |
+| `InvtrySpecialStockValnType_2` | `InvtrySpecialStockValnType_2` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `InventorySpclStkSalesDocument` | `InventorySpclStkSalesDocument` |
+| `InventorySpclStkSalesDocItm` | `InventorySpclStkSalesDocItm` |
+| `InvtrySpclStockWBSElmntIntID` | `InvtrySpclStockWBSElmntIntID` |
+| `InvtrySpclStockWBSElmntExtID` | `InvtrySpclStockWBSElmntExtID` |
+| `InventorySpclStockWBSElement` | `InventorySpclStockWBSElement` |
+| `InventorySpecialStockSupplier` | `InventorySpecialStockSupplier` |
+| `InventoryValuationType` | `InventoryValuationType` |
+| `ValuationArea` | `ValuationArea` |
+| `SenderGLAccount` | `SenderGLAccount` |
+| `SenderAccountAssignment` | `SenderAccountAssignment` |
+| `SenderAccountAssignmentType` | `SenderAccountAssignmentType` |
+| `CostOriginGroup` | `CostOriginGroup` |
+| `OriginSenderObject` | `OriginSenderObject` |
+| `ControllingDebitCreditCode` | `ControllingDebitCreditCode` |
+| `ControllingObjectDebitType` | `ControllingObjectDebitType` |
+| `QuantityIsIncomplete` | `QuantityIsIncomplete` |
+| `OffsettingAccount` | `OffsettingAccount` |
+| `OffsettingAccountType` | `OffsettingAccountType` |
+| `OffsettingChartOfAccounts` | `OffsettingChartOfAccounts` |
+| `LineItemIsCompleted` | `LineItemIsCompleted` |
+| `PersonnelNumber` | `PersonnelNumber` |
+| `ControllingObjectClass` | `ControllingObjectClass` |
+| `PartnerCompanyCode` | `PartnerCompanyCode` |
+| `PartnerControllingObjectClass` | `PartnerControllingObjectClass` |
+| `OriginCostCenter` | `OriginCostCenter` |
+| `OriginProfitCenter` | `OriginProfitCenter` |
+| `OriginCostCtrActivityType` | `OriginCostCtrActivityType` |
+| `AccountAssignment` | `AccountAssignment` |
+| `AccountAssignmentType` | `AccountAssignmentType` |
+| `CostCtrActivityType` | `CostCtrActivityType` |
+| `OrderID` | `OrderID` |
+| `OrderCategory` | `OrderCategory` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementExternalID` | `WBSElementExternalID` |
+| `WBSElement` | `WBSElement` |
+| `PartnerWBSElementInternalID` | `PartnerWBSElementInternalID` |
+| `PartnerWBSElementExternalID` | `PartnerWBSElementExternalID` |
+| `ProjectInternalID` | `ProjectInternalID` |
+| `ProjectExternalID` | `ProjectExternalID` |
+| `Project` | `Project` |
+| `PartnerProjectInternalID` | `PartnerProjectInternalID` |
+| `PartnerProjectExternalID` | `PartnerProjectExternalID` |
+| `OperatingConcern` | `OperatingConcern` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `RelatedNetworkActivity` | `RelatedNetworkActivity` |
+| `BusinessProcess` | `BusinessProcess` |
+| `CostObject` | `CostObject` |
+| `BillableControl` | `BillableControl` |
+| `CostAnalysisResource` | `CostAnalysisResource` |
+| `CustomerServiceNotification` | `CustomerServiceNotification` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceDocumentItem` | `ServiceDocumentItem` |
+| `ServiceContractType` | `ServiceContractType` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `TimeSheetOvertimeCategory` | `TimeSheetOvertimeCategory` |
+| `ProviderContract` | `ProviderContract` |
+| `ProviderContractItem` | `ProviderContractItem` |
+| `PartnerAccountAssignment` | `PartnerAccountAssignment` |
+| `PartnerAccountAssignmentType` | `PartnerAccountAssignmentType` |
+| `WorkPackage` | `WorkPackage` |
+| `WorkItem` | `WorkItem` |
+| `PartnerCostCtrActivityType` | `PartnerCostCtrActivityType` |
+| `PartnerOrder` | `PartnerOrder` |
+| `PartnerOrder_2` | `PartnerOrder_2` |
+| `PartnerOrderCategory` | `PartnerOrderCategory` |
+| `PartnerWBSElement` | `PartnerWBSElement` |
+| `PartnerProject` | `PartnerProject` |
+| `PartnerSalesDocument` | `PartnerSalesDocument` |
+| `PartnerSalesDocumentItem` | `PartnerSalesDocumentItem` |
+| `PartnerProjectNetwork` | `PartnerProjectNetwork` |
+| `PartnerProjectNetworkActivity` | `PartnerProjectNetworkActivity` |
+| `PartnerBusinessProcess` | `PartnerBusinessProcess` |
+| `PartnerCostObject` | `PartnerCostObject` |
+| `BillingDocumentType` | `BillingDocumentType` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SoldMaterial` | `SoldMaterial` |
+| `SoldProduct` | `SoldProduct` |
+| `MaterialGroup` | `MaterialGroup` |
+| `SoldProductGroup` | `SoldProductGroup` |
+| `ProductGroup` | `ProductGroup` |
+| `CustomerGroup` | `CustomerGroup` |
+| `CustomerSupplierCountry` | `CustomerSupplierCountry` |
+| `CustomerSupplierIndustry` | `CustomerSupplierIndustry` |
+| `SalesDistrict` | `SalesDistrict` |
+| `BillToParty` | `BillToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `CustomerSupplierCorporateGroup` | `CustomerSupplierCorporateGroup` |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `Fund` | `Fund` |
+| `GrantID` | `GrantID` |
+| `BudgetPeriod` | `BudgetPeriod` |
+| `PartnerFund` | `PartnerFund` |
+| `PartnerGrant` | `PartnerGrant` |
+| `PartnerBudgetPeriod` | `PartnerBudgetPeriod` |
+| `FundsCenter` | `FundsCenter` |
+| `FundedProgram` | `FundedProgram` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureEquityGroup` | `JointVentureEquityGroup` |
+| `JointVentureCostRecoveryCode` | `JointVentureCostRecoveryCode` |
+| `JointVentureEquityType` | `JointVentureEquityType` |
+| `SettlementReferenceDate` | `SettlementReferenceDate` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `OrderOperation` | `OrderOperation` |
+| `OrderItem` | `OrderItem` |
+| `OrderSuboperation` | `OrderSuboperation` |
+| `Equipment` | `Equipment` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `Assembly` | `Assembly` |
+| `MaintenanceActivityType` | `MaintenanceActivityType` |
+| `MaintenanceOrderPlanningCode` | `MaintenanceOrderPlanningCode` |
+| `MaintPriorityType` | `MaintPriorityType` |
+| `MaintPriority` | `MaintPriority` |
+| `SuperiorOrder` | `SuperiorOrder` |
+| `MaintenanceOrderIsPlanned` | `MaintenanceOrderIsPlanned` |
+| `DebitAmountInCoCodeCrcy` | `DebitAmountInCoCodeCrcy` |
+| `CreditAmountInCoCodeCrcy` | `CreditAmountInCoCodeCrcy` |
+| `DebitAmountInTransCrcy` | `DebitAmountInTransCrcy` |
+| `CreditAmountInTransCrcy` | `CreditAmountInTransCrcy` |
+| `DebitAmountInBalanceTransCrcy` | `DebitAmountInBalanceTransCrcy` |
+| `CreditAmountInBalanceTransCrcy` | `CreditAmountInBalanceTransCrcy` |
+| `DebitAmountInGlobalCrcy` | `DebitAmountInGlobalCrcy` |
+| `CreditAmountInGlobalCrcy` | `CreditAmountInGlobalCrcy` |
+| `DebitAmountInFunctionalCrcy` | `DebitAmountInFunctionalCrcy` |
+| `CreditAmountInFunctionalCrcy` | `CreditAmountInFunctionalCrcy` |
+| `DebitAmountInFreeDefinedCrcy1` | `DebitAmountInFreeDefinedCrcy1` |
+| `CreditAmountInFreeDefinedCrcy1` | `CreditAmountInFreeDefinedCrcy1` |
+| `DebitAmountInFreeDefinedCrcy2` | `DebitAmountInFreeDefinedCrcy2` |
+| `CreditAmountInFreeDefinedCrcy2` | `CreditAmountInFreeDefinedCrcy2` |
+| `DebitAmountInFreeDefinedCrcy3` | `DebitAmountInFreeDefinedCrcy3` |
+| `CreditAmountInFreeDefinedCrcy3` | `CreditAmountInFreeDefinedCrcy3` |
+| `DebitAmountInFreeDefinedCrcy4` | `DebitAmountInFreeDefinedCrcy4` |
+| `CreditAmountInFreeDefinedCrcy4` | `CreditAmountInFreeDefinedCrcy4` |
+| `DebitAmountInFreeDefinedCrcy5` | `DebitAmountInFreeDefinedCrcy5` |
+| `CreditAmountInFreeDefinedCrcy5` | `CreditAmountInFreeDefinedCrcy5` |
+| `DebitAmountInFreeDefinedCrcy6` | `DebitAmountInFreeDefinedCrcy6` |
+| `CreditAmountInFreeDefinedCrcy6` | `CreditAmountInFreeDefinedCrcy6` |
+| `DebitAmountInFreeDefinedCrcy7` | `DebitAmountInFreeDefinedCrcy7` |
+| `CreditAmountInFreeDefinedCrcy7` | `CreditAmountInFreeDefinedCrcy7` |
+| `DebitAmountInFreeDefinedCrcy8` | `DebitAmountInFreeDefinedCrcy8` |
+| `CreditAmountInFreeDefinedCrcy8` | `CreditAmountInFreeDefinedCrcy8` |
+| `IsStatisticalOrder` | `IsStatisticalOrder` |
+| `IsStatisticalCostCenter` | `IsStatisticalCostCenter` |
+| `IsStatisticalSalesDocument` | `IsStatisticalSalesDocument` |
+| `WBSIsStatisticalWBSElement` | `WBSIsStatisticalWBSElement` |
+| `FiscalQuarter` | `FiscalQuarter` |
+| `FiscalYearQuarter` | `FiscalYearQuarter` |
+| `Employee` | `Employee` |
+| `EmployeeFullName` | `EmployeeFullName` |
+| `AssetAccountingKeyFigure` | `AssetAccountingKeyFigure` |
+| `ProjAndSlsOrdStkAmtInCCCrcy` | `ProjAndSlsOrdStkAmtInCCCrcy` |
+| `ProjAndSlsOrdStkAmtInGlobCrcy` | `ProjAndSlsOrdStkAmtInGlobCrcy` |
+| `RevenueAmountInCompanyCodeCrcy` | `RevenueAmountInCompanyCodeCrcy` |
+| `RevenueInGlobalCurrency` | `RevenueInGlobalCurrency` |
+| `GrossRevenueAmtInCCCrcy` | `GrossRevenueAmtInCCCrcy` |
+| `RecognizedRevnAmtInCCCrcy` | `RecognizedRevnAmtInCCCrcy` |
+| `RecognizedRevnAmtInGlobCrcy` | `RecognizedRevnAmtInGlobCrcy` |
+| `RevenueAdjustmentAmtInCCCrcy` | `RevenueAdjustmentAmtInCCCrcy` |
+| `RevenueAdjustAmtInGlobCrcy` | `RevenueAdjustAmtInGlobCrcy` |
+| `DeferredRevenueAmtInCCCrcy` | `DeferredRevenueAmtInCCCrcy` |
+| `AccruedRevenueAmtInCCCrcy` | `AccruedRevenueAmtInCCCrcy` |
+| `RecognizableRevenueAmtInCCCrcy` | `RecognizableRevenueAmtInCCCrcy` |
+| `RecognizableRevnAmtInGlobCrcy` | `RecognizableRevnAmtInGlobCrcy` |
+| `BilledRevenueAmtInCoCodeCrcy` | `BilledRevenueAmtInCoCodeCrcy` |
+| `BilledRevenueAmtInGlobCrcy` | `BilledRevenueAmtInGlobCrcy` |
 | `BilledValnQtyInCostSourceUnit` | `BilledValnQtyInCostSourceUnit` |
 | `UnbilledRevnInCoCodeCrcy` | `UnbilledRevnInCoCodeCrcy` |
 | `RecognizedMarginAmtInCCCrcy` | `RecognizedMarginAmtInCCCrcy` |
@@ -40,10 +380,10 @@ tags:
 | `COGSAmountInCoCodeCrcy` | `COGSAmountInCoCodeCrcy` |
 | `FxdCOGSAmtInGlobCrcy` | `FxdCOGSAmtInGlobCrcy` |
 | `FxdCOGSAmtInCCCrcy` | `FxdCOGSAmtInCCCrcy` |
-| `RecognizedCOGSAmtInCCCrcy, //CostofGoodsSold` | `RecognizedCOGSAmtInCCCrcy, //CostofGoodsSold` |
-| `COGSAdjustmentAmtInCCCrcy, //CostofGoodsSoldAdjusted` | `COGSAdjustmentAmtInCCCrcy, //CostofGoodsSoldAdjusted` |
-| `DeferredCOGSAmtInCCCrcy, //CostofGoodsSoldDeferred` | `DeferredCOGSAmtInCCCrcy, //CostofGoodsSoldDeferred` |
-| `AccruedCOGSAmtInCCCrcy, //CostofGoodsSoldAccrued` | `AccruedCOGSAmtInCCCrcy, //CostofGoodsSoldAccrued` |
+| `RecognizedCOGSAmtInCCCrcy` | `RecognizedCOGSAmtInCCCrcy` |
+| `COGSAdjustmentAmtInCCCrcy` | `COGSAdjustmentAmtInCCCrcy` |
+| `DeferredCOGSAmtInCCCrcy` | `DeferredCOGSAmtInCCCrcy` |
+| `AccruedCOGSAmtInCCCrcy` | `AccruedCOGSAmtInCCCrcy` |
 | `RecognizableCostAmtInCCCrcy` | `RecognizableCostAmtInCCCrcy` |
 | `ImminentLossRsrvAmtInCCCrcy` | `ImminentLossRsrvAmtInCCCrcy` |
 | `SalesDeductReserveAmtInCCCrcy` | `SalesDeductReserveAmtInCCCrcy` |
@@ -83,60 +423,19 @@ tags:
 | `NetResultAmtInCCCrcy` | `NetResultAmtInCCCrcy` |
 | `PnLResultAmtInCCCrcy` | `PnLResultAmtInCCCrcy` |
 | `GLAcctNetIncomeAmtInCCCrcy` | `GLAcctNetIncomeAmtInCCCrcy` |
-| `cast (` | `cast (` |
-| `DeferredCOGSAmtInCCCrcy + DeferredRevenueAmtInCCCrcy + AccruedRevenueAmtInCCCrcy + AccruedCOGSAmtInCCCrcy` | `DeferredCOGSAmtInCCCrcy + DeferredRevenueAmtInCCCrcy + AccruedRevenueAmtInCCCrcy + AccruedCOGSAmtInCCCrcy` |
-| `AssetLiabilityAmtInCCCrcy` | `as fis_asset_lblty)` |
-| `cast (` | `cast (` |
-| `CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy` | `CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy` |
-| `VarblCOGSAmtInGlobCrcy` | `as fins_cogs_variable)` |
-| `cast (` | `cast (` |
-| `COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy` | `COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy` |
-| `VarblCOGSAmtInCCCrcy` | `as fins_cogs_variable)` |
-| `cast (` | `cast (` |
-| `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (` | `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (` |
-| `CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy )` | `CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy )` |
-| `ContrbnMargin1AmtInGlobCrcy` | `as fins_contribution_margin_i)` |
-| `cast (` | `cast (` |
-| `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (` | `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (` |
-| `COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy )` | `COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy )` |
-| `ContrbnMargin1AmtInCoCodeCrcy` | `as fins_contribution_margin_i)` |
-| `cast ( (` | `cast ( (` |
-| `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy) ) +` | `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy) ) +` |
-| `FxdCOGSAmtInGlobCrcy + PriceDifferenceAmtInGlobCrcy` | `FxdCOGSAmtInGlobCrcy + PriceDifferenceAmtInGlobCrcy` |
-| `ContrbnMargin2AmtInGlobCrcy` | `as fins_contribution_margin_ii)` |
-| `cast ( (` | `cast ( (` |
-| `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy) ) +` | `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy) ) +` |
-| `FxdCOGSAmtInCCCrcy + PriceDifferenceAmtInCCCrcy` | `FxdCOGSAmtInCCCrcy + PriceDifferenceAmtInCCCrcy` |
-| `ContrbnMargin2AmtInCoCodeCrcy` | `as fins_contribution_margin_ii)` |
-| `cast ( ( (` | `cast ( ( (` |
-| `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy) ) +` | `BilledRevenueAmtInGlobCrcy + SalesDeductionAmountInGlobCrcy + RevenueAdjustAmtInGlobCrcy + (CostOfGoodsSoldAmtInGlobCrcy - FxdCOGSAmtInGlobCrcy) ) +` |
-| `FxdCOGSAmtInGlobCrcy + PriceDifferenceAmtInGlobCrcy ) +` | `FxdCOGSAmtInGlobCrcy + PriceDifferenceAmtInGlobCrcy ) +` |
-| `AdminOverheadAmtInGlobCrcy + SalesOverheadAmtInGlobCrcy + MarketingOverheadAmtInGlobCrcy + RnDOverheadAmtInGlobCrcy` | `AdminOverheadAmtInGlobCrcy + SalesOverheadAmtInGlobCrcy + MarketingOverheadAmtInGlobCrcy + RnDOverheadAmtInGlobCrcy` |
-| `ContrbnMargin3AmtInGlobCrcy` | `as fins_contribution_margin_iii)` |
-| `cast ( ( (` | `cast ( ( (` |
-| `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy) ) +` | `BilledRevenueAmtInCoCodeCrcy + SalesDeductionAmtInCoCodeCrcy + RevenueAdjustmentAmtInCCCrcy + (COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy) ) +` |
-| `FxdCOGSAmtInCCCrcy + PriceDifferenceAmtInCCCrcy ) +` | `FxdCOGSAmtInCCCrcy + PriceDifferenceAmtInCCCrcy ) +` |
-| `AdminOverheadAmtInCoCodeCrcy + SalesOverheadAmtInCoCodeCrcy + MarketingOvhdAmtInCoCodeCrcy + RnDOverheadAmtInCCCrcy` | `AdminOverheadAmtInCoCodeCrcy + SalesOverheadAmtInCoCodeCrcy + MarketingOvhdAmtInCoCodeCrcy + RnDOverheadAmtInCCCrcy` |
-| `ContrbnMargin3AmtInCoCodeCrcy` | `as fins_contribution_margin_iii)` |
-| `cast (` | `cast (` |
-| `PnLResultAmtInCCCrcy - TangibleAstDeprAmtInCCCrcy - IntngblAssetAmtznAmtInCCCrcy - FixedAssetRtrmtAmtInCCCrcy -` | `PnLResultAmtInCCCrcy - TangibleAstDeprAmtInCCCrcy - IntngblAssetAmtznAmtInCCCrcy - FixedAssetRtrmtAmtInCCCrcy -` |
-| `ProvisionAmtInCCCrcy - InventoryAmtInCCCrcy       - AcctsRblAmtInCCCrcy          - AcctsOthRblAmtInCCCrcy     +` | `ProvisionAmtInCCCrcy - InventoryAmtInCCCrcy       - AcctsRblAmtInCCCrcy          - AcctsOthRblAmtInCCCrcy     +` |
-| `AcctsPyblAmtInCCCrcy + AcctsOthPyblAmtInCCCrcy` | `AcctsPyblAmtInCCCrcy + AcctsOthPyblAmtInCCCrcy` |
-| `OperatingActyCashAmtInCCCrcy` | `as fins_cfs_cashopg)` |
-| `cast (` | `cast (` |
-| `- TangibleAstAmtInCCCrcy + TangibleAstDeprAmtInCCCrcy - IntangibleAstAmtInCCCrcy + IntngblAssetAmtznAmtInCCCrcy` | `- TangibleAstAmtInCCCrcy + TangibleAstDeprAmtInCCCrcy - IntangibleAstAmtInCCCrcy + IntngblAssetAmtznAmtInCCCrcy` |
-| `+ FixedAssetRtrmtAmtInCCCrcy - LongTermInvmtAmtInCCCrcy` | `+ FixedAssetRtrmtAmtInCCCrcy - LongTermInvmtAmtInCCCrcy` |
-| `InvestingActyCashAmtInCCCrcy` | `as fins_cfs_cashinvtg)` |
-| `cast (` | `cast (` |
-| `CommonStockAmtInCCCrcy + NotesReceivableAmtInCCCrcy` | `CommonStockAmtInCCCrcy + NotesReceivableAmtInCCCrcy` |
-| `FinancingActyCashAmtInCCCrcy` | `as fins_cfs_cashfin)` |
-| `cast ( (` | `cast ( (` |
-| `PnLResultAmtInCCCrcy - TangibleAstDeprAmtInCCCrcy - IntngblAssetAmtznAmtInCCCrcy - FixedAssetRtrmtAmtInCCCrcy -` | `PnLResultAmtInCCCrcy - TangibleAstDeprAmtInCCCrcy - IntngblAssetAmtznAmtInCCCrcy - FixedAssetRtrmtAmtInCCCrcy -` |
-| `ProvisionAmtInCCCrcy - InventoryAmtInCCCrcy       - AcctsRblAmtInCCCrcy          - AcctsOthRblAmtInCCCrcy     +` | `ProvisionAmtInCCCrcy - InventoryAmtInCCCrcy       - AcctsRblAmtInCCCrcy          - AcctsOthRblAmtInCCCrcy     +` |
-| `AcctsPyblAmtInCCCrcy + AcctsOthPyblAmtInCCCrcy)   + ( - TangibleAstAmtInCCCrcy + TangibleAstDeprAmtInCCCrcy - IntangibleAstAmtInCCCrcy + IntngblAssetAmtznAmtInCCCrcy` | `AcctsPyblAmtInCCCrcy + AcctsOthPyblAmtInCCCrcy)   + ( - TangibleAstAmtInCCCrcy + TangibleAstDeprAmtInCCCrcy - IntangibleAstAmtInCCCrcy + IntngblAssetAmtznAmtInCCCrcy` |
-| `+ FixedAssetRtrmtAmtInCCCrcy - LongTermInvmtAmtInCCCrcy) +` | `+ FixedAssetRtrmtAmtInCCCrcy - LongTermInvmtAmtInCCCrcy) +` |
-| `(CommonStockAmtInCCCrcy + NotesReceivableAmtInCCCrcy)` | `(CommonStockAmtInCCCrcy + NotesReceivableAmtInCCCrcy)` |
-| `NetCashAmtInCCCrcy` | `as fins_cfs_netcash)` |
+| `AssetLiabilityAmtInCCCrcy` | `cast(…)` |
+| `VarblCOGSAmtInGlobCrcy` | `cast(…)` |
+| `VarblCOGSAmtInCCCrcy` | `cast ( COGSAmountInCoCodeCrcy - FxdCOGSAmtInCCCrcy as fins_cogs_variable)` |
+| `ContrbnMargin1AmtInGlobCrcy` | `cast(…)` |
+| `ContrbnMargin1AmtInCoCodeCrcy` | `cast(…)` |
+| `ContrbnMargin2AmtInGlobCrcy` | `cast(…)` |
+| `ContrbnMargin2AmtInCoCodeCrcy` | `cast(…)` |
+| `ContrbnMargin3AmtInGlobCrcy` | `cast(…)` |
+| `ContrbnMargin3AmtInCoCodeCrcy` | `cast(…)` |
+| `OperatingActyCashAmtInCCCrcy` | `cast(…)` |
+| `InvestingActyCashAmtInCCCrcy` | `cast(…)` |
+| `FinancingActyCashAmtInCCCrcy` | `cast ( CommonStockAmtInCCCrcy + NotesReceivableAmtInCCCrcy as fins_cfs_cashfin)` |
+| `NetCashAmtInCCCrcy` | `cast(…)` |
 | `_JournalEntry` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_FiscalYear` | *Association* |

@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_settlmt_process_cat )` | `cast(dd07t.domvalue_l` |
+| `SettlmtProcessCat` | `cast(dd07t.domvalue_l as wlf_settlmt_process_cat )` |
 | `Language` | `dd07t.ddlanguage` |
-| `wlf_wbtyp_name preserving type )` | `cast( dd07t.ddtext` |
+| `SettlmtProcessCatName` | `cast( dd07t.ddtext as wlf_wbtyp_name preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtProcessCat` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SettlmtProcessCat` | `I_SettlmtProcessCat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

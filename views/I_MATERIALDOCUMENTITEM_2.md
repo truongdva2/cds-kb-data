@@ -34,10 +34,57 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `ranking: #MEDIUM` | `ranking: #MEDIUM` |
-| `}` | `}` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `StorageType` | `StorageType` |
+| `StorageBin` | `StorageBin` |
+| `Batch` | `Batch` |
+| `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
+| `ManufactureDate` | `ManufactureDate` |
+| `Supplier` | `Supplier` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
+| `WBSElementInternalID` | `cast(WBSElementInternalID as nsdm_wbselement_internal_id preserving type)` |
+| `Customer` | `Customer` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `InventoryStockType` | `InventoryStockType` |
+| `StockOwner` | `StockOwner` |
+| `GoodsMovementType` | `GoodsMovementType` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `InventoryUsabilityCode` | `InventoryUsabilityCode` |
+| `QuantityInBaseUnit` | `QuantityInBaseUnit` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `QuantityInEntryUnit` | `QuantityInEntryUnit` |
+| `EntryUnit` | `EntryUnit` |
+| `PostingDate` | `PostingDate` |
+| `DocumentDate` | `DocumentDate` |
+| `ReservationItemRecordType` | `ReservationRecordType` |
+| `TotalGoodsMvtAmtInCCCrcy` | `TotalGoodsMvtAmtInCCCrcy` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `InventoryValuationType` | `InventoryValuationType` |
+| `ReservationIsFinallyIssued` | `ReservationIsFinallyIssued` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `OrderID` | `OrderID` |
+| `OrderItem` | `OrderItem` |
+| `MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
+| `MaintOrderOperationCounter` | `MaintOrderOperationCounter` |
+| `Reservation` | `Reservation` |
+| `ReservationItem` | `ReservationItem` |
+| `DeliveryDocument` | `DeliveryDocument` |
+| `DeliveryDocumentItem` | `DeliveryDocumentItem` |
+| `ReversedMaterialDocumentYear` | `ReversedMaterialDocumentYear` |
+| `ReversedMaterialDocument` | `ReversedMaterialDocument` |
+| `ReversedMaterialDocumentItem` | `ReversedMaterialDocumentItem` |
+| `RvslOfGoodsReceiptIsAllowed` | `RvslOfGoodsReceiptIsAllowed` |
+| `GoodsRecipientName` | `GoodsRecipientName` |
+| `GoodsMovementReasonCode` | `GoodsMovementReasonCode` |
 | `UnloadingPointName` | `UnloadingPointName` |
 | `CostCenter` | `CostCenter` |
 | `GLAccount` | `GLAccount` |
@@ -74,18 +121,16 @@ tags:
 | `MaterialDocumentParentLine` | `MaterialDocumentParentLine` |
 | `SpecialStockIdfgSalesOrder` | `SpecialStockIdfgSalesOrder` |
 | `SpecialStockIdfgSalesOrderItem` | `SpecialStockIdfgSalesOrderItem` |
-| `nsdm_wbselement_internal_id preserving type)` | `cast(SpecialStockIdfgWBSElement` |
+| `SpecialStockIdfgWBSElement` | `cast(SpecialStockIdfgWBSElement as nsdm_wbselement_internal_id preserving type)` |
 | `QtyInPurchaseOrderPriceUnit` | `QtyInPurchaseOrderPriceUnit` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
 | `QuantityInDeliveryQtyUnit` | `QuantityInDeliveryQtyUnit` |
 | `DeliveryQuantityUnit` | `DeliveryQuantityUnit` |
 | `ProfitCenter` | `ProfitCenter` |
-| `_Product.ProductStandardID                                                      as ProductStandardID` | *Association* |
+| `ProductStandardID` | `_Product.ProductStandardID` |
 | `GdsMvtExtAmtInCoCodeCrcy` | `GdsMvtExtAmtInCoCodeCrcy` |
-| `ReferenceDocumentFiscalYear` | `ReferenceDocumentFiscalYear` |
 | `InvtryMgmtReferenceDocument` | `InvtryMgmtReferenceDocument` |
 | `InvtryMgmtRefDocumentItem` | `InvtryMgmtRefDocumentItem` |
-| `EWMWarehouse` | `EWMWarehouse` |
 | `EWMStorageBin` | `EWMStorageBin` |
 | `MaterialDocumentPostingType` | `MaterialDocumentPostingType` |
 | `OriginalMaterialDocumentItem` | `OriginalMaterialDocumentItem` |

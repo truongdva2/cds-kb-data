@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JointVenture
 ---
 # I_JOINTVENTUREDESC
 
@@ -29,9 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.7 }` | `fuzzinessThreshold: 0.7 }` |
-| `jv_venturename preserving type )` | `cast ( vtext` |
+| `CompanyCode` | `cast( bukrs as fis_bukrs preserving type )` |
+| `Language` | `spras` |
+| `JointVenture` | `vname` |
+| `JointVentureName` | `cast ( vtext as jv_venturename preserving type )` |
 | `_CompanyCode` | *Association* |
 | `_Language` | *Association* |
 | `_JointVentureMasterFld` | *Association* |

@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:StructureCondition
 ---
 # I_STRUCTURECONDITIONTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kdupl )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_struc_cndn_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `StructureCondition` | `cast ( substring( domvalue_l, 1, 1 ) as kdupl )` |
+| `StructureConditionName` | `cast ( ddtext as price_element_struc_cndn_descr )` |
 | `_StructureCondition` | *Association* |
 | `_Language` | *Association* |
 

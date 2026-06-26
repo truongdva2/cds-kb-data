@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:LO-WTY-FIO
   - lob:Logistics General
+  - bo:WarrantyClaim
 ---
 # I_WRNTYCLAIMITEMTYPE
 
@@ -38,7 +39,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_WrntyClaimType` | `cwty001` | [1..1] |
 | `_Text` | `I_WrntyClaimItemTypeText` | [1..*] |
 
 ## Source Code

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:ManufacturerPartProfile
 ---
 # I_MANUFACTURERPARTPROFILE
 
@@ -28,13 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
 | `ManufacturerPartProfile` | `mprof` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ManufacturerPartProfileText` | [0..*] |
 
 ## Source Code
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostComponentStructure` | `CostComponentStructure` |
-| `key CostComponent` | `CostComponent` |
-| `_CostComponentText.CostComponentName` | *Association* |
+| `CostComponentStructure` | `CostComponentStructure` |
+| `CostComponent` | `CostComponent` |
+| `CostComponentName` | `_CostComponentText.CostComponentName` |
 | `_CostComponentText` | *Association* |
 
 ## Associations

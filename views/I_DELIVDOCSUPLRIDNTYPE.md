@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/spe/de_lifex_type  preserving type )` | `cast (left(dd07l.domvalue_l, 1 )` |
+| `ExternalIdentificationType` | `cast (left(dd07l.domvalue_l, 1 ) as /spe/de_lifex_type preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_DelivDocSuplrIdnTypeText` | [0..*] |
 
 ## Source Code
 

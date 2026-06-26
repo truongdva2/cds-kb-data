@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductValuationCosting
 ---
 # I_PRODUCTVALUATIONCOSTING
 
@@ -31,20 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCosting.Product` | `ProdCosting.Product` |
-| `key ProdCosting.ValuationArea` | `ProdCosting.ValuationArea` |
-| `key ProdCosting.ValuationType` | `ProdCosting.ValuationType` |
-| `ProdCosting.IsMaterialCostedWithQtyStruc` | `ProdCosting.IsMaterialCostedWithQtyStruc` |
-| `ProdCosting.IsMaterialRelatedOrigin` | `ProdCosting.IsMaterialRelatedOrigin` |
-| `ProdCosting.CostOriginGroup` | `ProdCosting.CostOriginGroup` |
-| `ProdCosting.CostingOverheadGroup` | `ProdCosting.CostingOverheadGroup` |
-| `ProdCosting.PlannedPrice1InCoCodeCrcy` | `ProdCosting.PlannedPrice1InCoCodeCrcy` |
-| `ProdCosting.PlannedPrice2InCoCodeCrcy` | `ProdCosting.PlannedPrice2InCoCodeCrcy` |
-| `ProdCosting.PlannedPrice3InCoCodeCrcy` | `ProdCosting.PlannedPrice3InCoCodeCrcy` |
-| `ProdCosting.FuturePlndPrice1ValdtyDate` | `ProdCosting.FuturePlndPrice1ValdtyDate` |
-| `ProdCosting.FuturePlndPrice2ValdtyDate` | `ProdCosting.FuturePlndPrice2ValdtyDate` |
-| `ProdCosting.FuturePlndPrice3ValdtyDate` | `ProdCosting.FuturePlndPrice3ValdtyDate` |
-| `ProdCosting.PlannedPrice` | `ProdCosting.PlannedPrice` |
+| `Product` | `ProdCosting.Product` |
+| `ValuationArea` | `ProdCosting.ValuationArea` |
+| `ValuationType` | `ProdCosting.ValuationType` |
+| `IsMaterialCostedWithQtyStruc` | `ProdCosting.IsMaterialCostedWithQtyStruc` |
+| `IsMaterialRelatedOrigin` | `ProdCosting.IsMaterialRelatedOrigin` |
+| `CostOriginGroup` | `ProdCosting.CostOriginGroup` |
+| `CostingOverheadGroup` | `ProdCosting.CostingOverheadGroup` |
+| `PlannedPrice1InCoCodeCrcy` | `ProdCosting.PlannedPrice1InCoCodeCrcy` |
+| `PlannedPrice2InCoCodeCrcy` | `ProdCosting.PlannedPrice2InCoCodeCrcy` |
+| `PlannedPrice3InCoCodeCrcy` | `ProdCosting.PlannedPrice3InCoCodeCrcy` |
+| `FuturePlndPrice1ValdtyDate` | `ProdCosting.FuturePlndPrice1ValdtyDate` |
+| `FuturePlndPrice2ValdtyDate` | `ProdCosting.FuturePlndPrice2ValdtyDate` |
+| `FuturePlndPrice3ValdtyDate` | `ProdCosting.FuturePlndPrice3ValdtyDate` |
+| `PlannedPrice` | `ProdCosting.PlannedPrice` |
 | `Currency` | `t001.waers` |
 | `CompanyCode` | `t001.bukrs` |
 | `_Product` | *Association* |
@@ -63,7 +64,6 @@ tags:
 | `_Currency` | `I_Currency` | [1..1] |
 | `_CurrencyText` | `I_CurrencyText` | [0..*] |
 | `_ProductDescription` | `I_ProductDescription_2` | [0..*] |
-| `_CostingOverheadGroup` | `I_CostingOverheadGroup` | [0..1] |
 
 ## Source Code
 

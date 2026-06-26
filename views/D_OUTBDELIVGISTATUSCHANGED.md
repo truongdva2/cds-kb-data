@@ -14,6 +14,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # D_OUTBDELIVGISTATUSCHANGED
 
@@ -30,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType           : lfart;` | `DeliveryDocumentType           : lfart;` |
-| `OverallGoodsMovementStatus     : wbstk;` | `OverallGoodsMovementStatus     : wbstk;` |
-| `PrevOverallGoodsMovementStatus : wbstk;` | `PrevOverallGoodsMovementStatus : wbstk;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `SDDocumentCategory             : vbtypl;` | `SDDocumentCategory             : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `OverallGoodsMovementStatus` | `wbstk` |
+| `PrevOverallGoodsMovementStatus` | `wbstk` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

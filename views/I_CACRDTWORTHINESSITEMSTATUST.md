@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bonis_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CACrdtWorthinessItemStatus` | `cast( left( domvalue_l, 1 ) as bonis_kk preserving type )` |
 | `Language` | `ddlanguage` |
-| `bonis_text_kk preserving type )` | `cast( ddtext` |
+| `CACrdtWorthinessItemStatusText` | `cast( ddtext as bonis_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SLCQnaireLifecycleStatus
 ---
 # I_SLCQNAIRELIFECYCLESTS
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qnr_lifecycle_stat_cd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SLCQnaireLifecycleStatus` | `cast(…)` |
 | `_SLCQnaireLifecycleStsText` | *Association* |
 | `_Text` | *Association* |
 

@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PlannedStartDate   : /s4ppm/tv_ltst_start_date;` | `PlannedStartDate   : /s4ppm/tv_ltst_start_date;` |
-| `PlannedEndDate : /s4ppm/tv_ltst_end_date;` | `PlannedEndDate : /s4ppm/tv_ltst_end_date;` |
-| `EntProjElmntDistributionOption : /s4ppm/tv_distributiontype;` | `EntProjElmntDistributionOption : /s4ppm/tv_distributiontype;` |
+| `PlannedStartDate` | `/s4ppm/tv_ltst_start_date` |
+| `PlannedEndDate` | `/s4ppm/tv_ltst_end_date` |
+| `EntProjElmntDistributionOption` | `/s4ppm/tv_distributiontype` |
 
 ## Associations
 

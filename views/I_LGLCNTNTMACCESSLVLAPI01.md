@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
+| `LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
 | `_LglCntntMAccessLvlTextAPI01` | *Association* |
 
 ## Associations

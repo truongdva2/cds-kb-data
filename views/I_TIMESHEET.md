@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TimeSheetRecordUUID` | `TimeSheetRecordUUID` |
+| `TimeSheetRecordUUID` | `TimeSheetRecordUUID` |
 | `TimeSheetRecord` | `TimeSheetRecord` |
 | `WorkAssignment` | `WorkAssignment` |
 | `TimeSheetDate` | `TimeSheetDate` |
@@ -40,7 +40,6 @@ tags:
 | `ActivityType` | `ActivityType` |
 | `WorkItem` | `WorkItem` |
 | `BillableControl` | `BillableControl` |
-| `/************      Future enhancement    ***************/` | `/************      Future enhancement    ***************/` |
 | `TimeSheetStatus` | `TimeSheetStatus` |
 | `TimeSheetPredecessorRecord` | `TimeSheetPredecessorRecord` |
 | `TimeSheetAccountingDocument` | `TimeSheetAccountingDocument` |

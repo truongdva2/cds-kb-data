@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingProcedure
 ---
 # I_SAMPLINGPROCEDURE
 
@@ -31,31 +32,30 @@ tags:
 |---|---|
 | `SamplingProcedure` | `qdsv.stichprver` |
 | `SamplingProcedureMltplSamples` | `kzumfs` |
-| `vdm_qkzrast preserving type )` | `cast( kzrast` |
+| `SamplingProcedureInspSubset` | `cast( kzrast as vdm_qkzrast preserving type )` |
 | `SamplingValuationMode` | `bewertmod` |
 | `SamplingType` | `stichprart` |
 | `QualityControlChartType` | `qrkart` |
 | `SamplingScheme` | `stprplan` |
-| `vdm_qkznvwsv preserving type )` | `cast( kznvwsv` |
-| `vdm_qkzohi preserving type )` | `cast( qdsv.kzohi` |
+| `SamplingProcedureIsBlocked` | `cast( kznvwsv as vdm_qkznvwsv preserving type )` |
+| `SamplingProcedHasNoInspStgeChg` | `cast( qdsv.kzohi as vdm_qkzohi preserving type )` |
 | `SmplgProcedNmbrOfMltplSamples` | `qdsv.stpranz` |
 | `SamplingProcedureNumberOfUnits` | `qdsv.stprumf` |
 | `SamplingProcedAcceptanceCount` | `qdsv.annahmez` |
-| `vdm_qkzvwsvpl preserving type )` | `cast( qdsv.kzvwsvpl` |
+| `SamplingProcedIsUsedInspPlan` | `cast( qdsv.kzvwsvpl as vdm_qkzvwsvpl preserving type )` |
 | `SampleDeterminationRule` | `qdsv.fbkey` |
 | `InspSampleValuationRule` | `qdsv.fbkeymfs` |
 | `SamplingProcedInspSeverity` | `qdsv.prschaerfe` |
 | `SmplgProcedAcceptableQltyLevel` | `qdsv.aqlwert` |
 | `SamplingProcedSmplSizeInPct` | `qdsv.prozumf` |
-| `vdm_qninitial preserving type )` | `cast( qdsv.prozumfni` |
+| `SamplingProcedHasSmplSizeInPct` | `cast( qdsv.prozumfni as vdm_qninitial preserving type )` |
 | `SamplingProcedAccptcCountInPct` | `qdsv.prozazl` |
-| `vdm_qninitial preserving type )` | `cast( qdsv.prozazlni` |
+| `SamplingProcedHasAccptcCtInPct` | `cast( qdsv.prozazlni as vdm_qninitial preserving type )` |
 | `CreatedByUser` | `qdsv.ersteller` |
 | `LastChangedByUser` | `qdsv.aenderer` |
 | `SamplingProcedureCreationDate` | `qdsv.erstelldat` |
 | `SamplingProcedureChangeDate` | `qdsv.aenderdat` |
 | `SamplingProcedInspFrequency` | `qdsv.raster` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_SmplgProcedureInspSubset` | *Association* |
 | `_SampleProcedInspSubsetText` | *Association* |

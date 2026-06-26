@@ -31,22 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `_SupplierConfirmation.SupplierConfirmation` | *Association* |
-| `_SupplierConfirmation.CreationDate` | *Association* |
-| `_SupplierConfirmation.CreatedByUser` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_User.UserDescription` |
-| `_SupplierConfirmation.Supplier` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
-| `_SupplierConfirmation.SuplrConfRefPurchaseOrder                                                                          as PurchaseOrder` | *Association* |
-| `_SupplierConfirmation.PurchasingDocumentType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_PurchaseOrder.DocumentCurrency` | *Association* |
-| `mm_pur_order_tot_net_amount )` | `cast((_PurchaseOrderNetAmount.PurchaseOrderNetAmount)` |
-| `tzntstmps ), 'UTC', $session.client, 'NULL' )` | `cast(tstmp_to_dats( cast( _Workflowtask.WrkflwTskCreationUTCDateTime` |
-| `tzntstmps ), 'UTC', $session.client, 'NULL' )` | `cast(tstmp_to_tims( cast( _Workflowtask.WrkflwTskCreationUTCDateTime` |
-| `tzntstmps ), 'UTC', $session.client, 'NULL' )` | `cast(tstmp_to_dats( cast( _Workflowtask._TaskDueDate.WorkflowTaskDueUTCDateTime` |
-| `tzntstmps ), 'UTC', $session.client, 'NULL' )` | `cast(tstmp_to_tims( cast( _Workflowtask._TaskDueDate.WorkflowTaskDueUTCDateTime` |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `SupplierConfirmation` | `_SupplierConfirmation.SupplierConfirmation` |
+| `CreationDate` | `_SupplierConfirmation.CreationDate` |
+| `CreatedByUser` | `_SupplierConfirmation.CreatedByUser` |
+| `CreatedByUserName` | `cast(_User.UserDescription as mm_oa_user_fullname )` |
+| `Supplier` | `_SupplierConfirmation.Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `PurchaseOrder` | `_SupplierConfirmation.SuplrConfRefPurchaseOrder` |
+| `PurchasingDocumentType` | `_SupplierConfirmation.PurchasingDocumentType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_PurchaseOrder.DocumentCurrency` |
+| `PurchaseOrderNetAmount` | `cast(…)` |
+| `SuplrConfWrkflwTskCrtnUTCDate` | `cast(…)` |
+| `SuplrConfWrkflwTskCrtnUTCTime` | `cast(…)` |
+| `SuplrConfWrkflwTskDueUTCDate` | `cast(…)` |
+| `SuplrConfWrkflwTskDueUTCTime` | `cast(…)` |
 
 ## Associations
 

@@ -13,6 +13,7 @@ tags:
   - product
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgProdMarketabilityStatusTxt
 ---
 # I_PURGPRODUCTMARKETABILITYSTST
 
@@ -29,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `mmpur_pc_status_pma )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurgProductMarketabilityStatus` | `cast( dd07t.domvalue_l as mmpur_pc_status_pma )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_pc_status_pma_dscr preserving type )` | `cast( dd07t.ddtext` |
+| `PurgProdMarketabilityStsName` | `cast( dd07t.ddtext as mmpur_pc_status_pma_dscr preserving type )` |
 | `_PurgProductMarketabilitySts` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgProductMarketabilitySts` | `I_PurgProductMarketabilitySts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

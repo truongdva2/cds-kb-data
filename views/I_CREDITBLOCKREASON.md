@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:CreditAccountBlockReason
 ---
 # I_CREDITBLOCKREASON
 

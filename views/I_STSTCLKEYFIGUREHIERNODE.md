@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:StstclKeyFigureHierarchyNode
 ---
 # I_STSTCLKEYFIGUREHIERNODE
 
@@ -30,11 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ControllingArea'` | `localElement: 'ControllingArea'` |
-| `element: 'ControllingArea' }]` | `element: 'ControllingArea' }]` |
-| `}]` | `}]` |
-| `fis_stagr preserving type )` | `cast (  hrrp_node_n.stagr` |
-| `SequenceNumber, // do not use any longer, use HierarchyNodeSequence` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
+| `ControllingArea` | `cast( hrrp_node_n.kokrs as fis_kokrs preserving type )` |
+| `StatisticalKeyFigureHierarchy` | `hrrp_node_n.hryid_42` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ParentNode` | `hrrp_node_n.parnode` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
+| `StatisticalKeyFigure` | `cast ( hrrp_node_n.stagr as fis_stagr preserving type )` |
+| `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |
 | `NodeType` | `hrrp_node_n.nodetype` |

@@ -17,6 +17,7 @@ tags:
   - text
   - component:FIN-FSCM-DP-DP-2CL
   - lob:Other
+  - bo:DigitalPaymentType
 ---
 # I_DIGITALPAYMENTTYPETEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `dp_payment_type )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `DigitalPaymentType` | `cast( dd07t.domvalue_l as dp_payment_type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `dp_payment_type_text preserving type )` | `cast( dd07t.ddtext` |
+| `DigitalPaymentTypeName` | `cast( dd07t.ddtext as dp_payment_type_text preserving type )` |
 | `_DigitalPaymentType` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DigitalPaymentType` | `I_DigitalPaymentTypeValueHelp` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

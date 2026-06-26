@@ -1,6 +1,11 @@
 ---
 name: I_CHARTOFACCOUNTS
 description: Chartofaccounts
+semantic_en: "Chart of accounts — the structured list of G/L accounts used by one or more company codes for financial accounting."
+semantic_vi: "Hệ thống tài khoản — danh mục tài khoản sổ cái có cấu trúc dùng cho một hoặc nhiều mã công ty trong kế toán tài chính."
+keywords:
+  - hệ thống tài khoản
+  - danh mục tài khoản
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released
@@ -14,6 +19,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ChartOfAccounts
 ---
 # I_CHARTOFACCOUNTS
 
@@ -30,9 +36,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
+| `ChartOfAccounts` | `cast( ktopl as fis_ktopl preserving type)` |
 | `CorporateGroupChartOfAccounts` | `kktpl` |
 | `ChartOfAcctsIsBlocked` | `xsper` |
 | `MaintenanceLanguage` | `dspra` |

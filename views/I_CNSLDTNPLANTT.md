@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'PlantName' }` | `status: #DEPRECATED, successor: 'PlantName' }` |
-| `fincs_description_text_30 preserving type )` | `cast( _Source.PlantName` |
-| `fincs_plantname preserving type )` | `cast( _Source.PlantName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `Plant` | `cast( _Source.Plant as fincs_plant preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.PlantName as fincs_description_text_30 preserving type )` |
+| `PlantName` | `cast( _Source.PlantName as fincs_plantname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Plant` | *Association* |
 

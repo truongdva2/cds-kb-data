@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspSpecImportanceCode
 ---
 # I_INSPSPECIMPORTANCECODE
 
@@ -30,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspSpecImportanceCode` | `merkklasse` |
-| `_Text[1:Language = $session.system_language].InspSpecImportanceCodeText` | *Association* |
+| `InspSpecImportanceCodeText` | `_Text[1:Language = $session.system_language].InspSpecImportanceCodeText` |
 | `_Text` | *Association* |
 
 ## Associations

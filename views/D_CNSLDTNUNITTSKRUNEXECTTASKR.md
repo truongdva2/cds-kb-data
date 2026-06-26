@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CnsldtnTaskRunBackgroundJob              : fincs_taskrun_job_id;` | `CnsldtnTaskRunBackgroundJob              : fincs_taskrun_job_id;` |
-| `CnsldtnTskRunBackgroundJobName           : fincs_taskrun_jobname_id;` | `CnsldtnTskRunBackgroundJobName           : fincs_taskrun_jobname_id;` |
+| `CnsldtnTaskRunBackgroundJob` | `fincs_taskrun_job_id` |
+| `CnsldtnTskRunBackgroundJobName` | `fincs_taskrun_jobname_id` |
 
 ## Associations
 

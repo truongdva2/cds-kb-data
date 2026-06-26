@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SlsSchedgAgrmtReleaseType
 ---
 # I_SALESSCHEDGAGRMTRELTYPE
 

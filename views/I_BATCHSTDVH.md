@@ -17,6 +17,7 @@ tags:
   - batch
   - component:LO-BM-MD-2CL
   - lob:Logistics General
+  - bo:Batch
 ---
 # I_BATCHSTDVH
 
@@ -33,9 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Material` | `Material` |
-| `key Batch` | `Batch` |
+| `Material` | `Material` |
+| `Batch` | `Batch` |
 | `_Plant` | *Association* |
 | `_Product` | *Association* |
 | `_Material` | *Association* |

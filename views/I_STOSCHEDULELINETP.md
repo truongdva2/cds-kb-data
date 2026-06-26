@@ -32,17 +32,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element: 'Plant' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_PlantStdVH', element: 'Plant' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `DelivDateCategory` | `DelivDateCategory` |
+| `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
+| `ScheduleLineDeliveryTime` | `ScheduleLineDeliveryTime` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
+| `RoughGoodsReceiptQty` | `RoughGoodsReceiptQty` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `ScheduleLineIsFixed` | `ScheduleLineIsFixed` |
+| `ScheduleLineCommittedQuantity` | `ScheduleLineCommittedQuantity` |
+| `TransportationPlanningDate` | `TransportationPlanningDate` |
+| `TransportationPlanningTime` | `TransportationPlanningTime` |
+| `LoadingDate` | `LoadingDate` |
+| `LoadingTime` | `LoadingTime` |
+| `GoodsIssueDate` | `GoodsIssueDate` |
+| `GoodsIssueTime` | `GoodsIssueTime` |
+| `STOLatestPossibleGRDate` | `STOLatestPossibleGRDate` |
+| `STOLatestPossibleGRTime` | `STOLatestPossibleGRTime` |
+| `StockTransferDeliveredQuantity` | `StockTransferDeliveredQuantity` |
+| `StockTransportOrderType` | `StockTransportOrderType` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
 | `Plant` | `Plant` |
-| `/* Composition */` | `/* Composition */` |
-| `_STOSubcontractingComponent : redirected to composition child I_STOSubcontractingComponentTP` | *Association* |
-| `_StockTransportOrderItem    : redirected to parent I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder        : redirected to I_StockTransportOrderTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_OrderQuantityUnit` | *Association* |
 | `_PurchaseRequisition` | *Association* |
 | `_PurchaseRequisitionItem` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 | `_OrderQuantityUnitText` | *Association* |
 
 ## Associations

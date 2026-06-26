@@ -30,16 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustProjSlsOrdItem.CustomerProject` | `CustProjSlsOrdItem.CustomerProject` |
-| `key CustProjSlsOrdItem.SalesOrderItem` | `CustProjSlsOrdItem.SalesOrderItem` |
-| `CustProjSlsOrdItem.SalesOrder` | `CustProjSlsOrdItem.SalesOrder` |
-| `fplnr preserving type )` | `cast( CustProjSlsOrdItem.BillingPlan` |
-| `BillingPlan.BillingPlanCategory` | `BillingPlan.BillingPlanCategory` |
-| `BillingPlan.BillingPlanUsageCategory` | `BillingPlan.BillingPlanUsageCategory` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
+| `CustomerProject` | `CustProjSlsOrdItem.CustomerProject` |
+| `SalesOrderItem` | `CustProjSlsOrdItem.SalesOrderItem` |
+| `SalesOrder` | `CustProjSlsOrdItem.SalesOrder` |
+| `BillingPlan` | `cast( CustProjSlsOrdItem.BillingPlan as fplnr preserving type )` |
+| `BillingPlanCategory` | `BillingPlan.BillingPlanCategory` |
+| `BillingPlanUsageCategory` | `BillingPlan.BillingPlanUsageCategory` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
 | `_CustomerProject` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_BillingPlanCategory` | *Association* |

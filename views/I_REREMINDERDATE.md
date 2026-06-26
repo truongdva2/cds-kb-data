@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recavdmdateguid preserving type )` | `cast( rsdateguid` |
+| `REReminderUUID` | `cast( rsdateguid as recavdmdateguid preserving type )` |
 | `InternalRealEstateNumber` | `intreno` |
-| `recavdmrsno preserving type )` | `cast(  rsno` |
-| `recavdmrsrule preserving type )` | `cast( rsrule` |
-| `recavdmrsdate preserving type )` | `cast( rsdate` |
-| `recavdmrsreason preserving type )` | `cast( rsreason` |
+| `REReminderNumber` | `cast( rsno as recavdmrsno preserving type )` |
+| `REReminderRule` | `cast( rsrule as recavdmrsrule preserving type )` |
+| `REReminderDate` | `cast( rsdate as recavdmrsdate preserving type )` |
+| `REReminderReason` | `cast( rsreason as recavdmrsreason preserving type )` |
 | `CreatedByUser` | `rerf` |
 | `CreationDate` | `derf` |
 | `CreationTime` | `terf` |
@@ -44,15 +44,12 @@ tags:
 | `LastChangeTime` | `tbear` |
 | `RESourceOfChange` | `rbher` |
 | `Responsible` | `responsible` |
-| `recavdmrswfdate preserving type )` | `cast( rswfdate` |
-| `recavdmrsdone preserving type )` | `cast( rsdone` |
+| `REReminderWrkflwDate` | `cast( rswfdate as recavdmrswfdate preserving type )` |
+| `REReminderIsDone` | `cast( rsdone as recavdmrsdone preserving type )` |
 | `REReminderIsFix` | `rsfixed` |
 | `REReminderIsWrkflwSend` | `rswfevent` |
-| `cast(concat(intreno` | `cast(concat(intreno` |
-| `concat('#'` | `concat('#'` |
-| `concat(rsdate` | `concat(rsdate` |
-| `tdobname)` | `concat('#', rsno))))` |
-| `recavdmrsinfo preserving type )` | `cast( rsinfo` |
+| `TextObjectKey` | `cast(…)` |
+| `REReminderInfoText` | `cast( rsinfo as recavdmrsinfo preserving type )` |
 | `_CreatedByUser` | *Association* |
 | `_ChangedByUser` | *Association* |
 | `_ResponsibleUser` | *Association* |

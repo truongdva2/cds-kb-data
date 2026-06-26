@@ -15,6 +15,7 @@ tags:
   - document
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:JournalEntry
 ---
 # I_PARKEDOPLACCTGDOCUMENT
 
@@ -32,45 +33,41 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SourceCompanyCode` | `ausbk` |
-| `fis_bukrs preserving type )` | `cast( bukrs` |
-| `fis_belnr preserving type )` | `cast( belnr` |
-| `fis_gjahr_no_conv )` | `cast( gjahr` |
-| `farp_bstat_d preserving type )` | `cast( bstat` |
-| `farp_blart preserving type )` | `cast( blart` |
-| `fis_bldat preserving type )` | `cast( bldat` |
-| `fis_budat preserving type )` | `cast( budat` |
-| `abap.numc( 3 ) )` | `cast( cast( concat( '0', monat )` |
-| `vdm_v_exchange_rate_date preserving type)` | `cast( wwert` |
-| `farp_cpudt preserving type )` | `cast( cpudt` |
-| `ttet_dt_cr_time preserving type )` | `cast( cputm` |
-| `fis_lastmanualchangedate preserving type )` | `cast ( aedat` |
-| `fis_lastautomaticchangedate preserving type )` | `cast ( upddt` |
-| `cast ( case` | `cast ( case` |
-| `when ( upddt is not initial  and upddt > aedat ) then upddt` | `when ( upddt is not initial  and upddt > aedat ) then upddt` |
-| `ttet_dt_chg_date preserving type )` | `when aedat is not initial then cast ( aedat` |
-| `ttet_dt_chg_date preserving type )` | `else cast ( cpudt` |
-| `ttet_dt_chg_date )` | `end` |
-| `fis_usnam preserving type)` | `cast( usnam` |
+| `CompanyCode` | `cast( bukrs as fis_bukrs preserving type )` |
+| `SourceAccountingDocument` | `cast( belnr as fis_belnr preserving type )` |
+| `SourceFiscalYear` | `cast( gjahr as fis_gjahr_no_conv )` |
+| `AccountingDocumentCategory` | `cast( bstat as farp_bstat_d preserving type )` |
+| `AccountingDocumentType` | `cast( blart as farp_blart preserving type )` |
+| `DocumentDate` | `cast( bldat as fis_bldat preserving type )` |
+| `PostingDate` | `cast( budat as fis_budat preserving type )` |
+| `FiscalPeriod` | `cast( cast( concat( '0', monat ) as abap.numc( 3 ) ) as fins_fiscalperiod )` |
+| `ExchangeRateDate` | `cast( wwert as vdm_v_exchange_rate_date preserving type)` |
+| `AccountingDocumentCreationDate` | `cast( cpudt as farp_cpudt preserving type )` |
+| `CreationTime` | `cast( cputm as ttet_dt_cr_time preserving type )` |
+| `LastManualChangeDate` | `cast ( aedat as fis_lastmanualchangedate preserving type )` |
+| `LastAutomaticChangeDate` | `cast ( upddt as fis_lastautomaticchangedate preserving type )` |
+| `LastChangeDate` | `cast(…)` |
+| `AccountingDocCreatedByUser` | `cast( usnam as fis_usnam preserving type)` |
 | `TransactionCode` | `tcode` |
-| `fac_bvorg preserving type )` | `cast( bvorg` |
-| `fis_xblnr1 preserving type )` | `cast( xblnr` |
+| `IntercompanyTransaction` | `cast( bvorg as fac_bvorg preserving type )` |
+| `DocumentReferenceID` | `cast( xblnr as fis_xblnr1 preserving type )` |
 | `AccountingDocumentHeaderText` | `bktxt` |
 | `FinancialManagementArea` | `fikrs` |
 | `TransactionCurrency` | `waers` |
-| `fis_hwaer )` | `cast( hwaer` |
-| `fis_hwae2 )` | `cast( hwae2` |
-| `fis_hwae3 )` | `cast( hwae3` |
-| `fis_adl1_currole )` | `cast( curt2` |
-| `fis_adl2_currole )` | `cast( curt3` |
-| `fis_awtyp preserving type )` | `cast( awtyp` |
-| `fac_awkey preserving type )` | `cast( awkey` |
-| `fis_awsys preserving type)` | `cast(awsys` |
-| `fis_j_1abrnch preserving type)` | `cast( brnch` |
-| `fis_reindat )` | `cast( reindat` |
+| `CompanyCodeCurrency` | `cast( hwaer as fis_hwaer )` |
+| `AdditionalCurrency1` | `cast( hwae2 as fis_hwae2 )` |
+| `AdditionalCurrency2` | `cast( hwae3 as fis_hwae3 )` |
+| `AdditionalCurrency1Role` | `cast( curt2 as fis_adl1_currole )` |
+| `AdditionalCurrency2Role` | `cast( curt3 as fis_adl2_currole )` |
+| `ReferenceDocumentType` | `cast( awtyp as fis_awtyp preserving type )` |
+| `OriginalReferenceDocument` | `cast( awkey as fac_awkey preserving type )` |
+| `ReferenceDocumentLogicalSystem` | `cast(awsys as fis_awsys preserving type)` |
+| `Branch` | `cast( brnch as fis_j_1abrnch preserving type)` |
+| `InvoiceReceiptDate` | `cast( reindat as fis_reindat )` |
 | `LedgerGroup` | `ldgrp` |
 | `PartnerCompany` | `vbund` |
 | `TaxReportingDate` | `vatdate` |
-| `fis_xmwst )` | `cast( xmwst` |
+| `TaxIsCalculatedAutomatically` | `cast( xmwst as fis_xmwst )` |
 | `_SourceCompanyCode` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_SourceFiscalYear` | *Association* |

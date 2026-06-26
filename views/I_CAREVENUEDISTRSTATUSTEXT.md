@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rdstat_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `rdstat_text_kk preserving type )` | `cast( ddtext` |
+| `CARevenueDistributionStatus` | `cast( left( dd07t.domvalue_l, 1 ) as rdstat_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CARevenueDistributionStatusTxt` | `cast( ddtext as rdstat_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

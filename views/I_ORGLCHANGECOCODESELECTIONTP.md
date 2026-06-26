@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       OrganizationalChange` | `OrganizationalChange` |
-| `key       OrglChangeSelectionSequence` | `OrglChangeSelectionSequence` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `OrglChangeSelectionSequence` | `OrglChangeSelectionSequence` |
 | `OrglChangeSelectionSqncForEdit` | `OrglChangeSelectionSqncForEdit` |
 | `CompanyCodeRangeSign` | `CompanyCodeRangeSign` |
 | `CompanyCodeRangeOption` | `CompanyCodeRangeOption` |
@@ -40,7 +40,6 @@ tags:
 | `CompanyCodeRangeTo` | `CompanyCodeRangeTo` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

@@ -32,9 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true` | `text: true` |
-| `name.fullName: true` | `name.fullName: true` |
-| `}` | `}` |
+| `CreditMemoRequest` | `cast(SalesDocument as credit_memo_request preserving type)` |
+| `PartnerFunction` | `PartnerFunction` |
+| `Customer` | `Customer` |
+| `Supplier` | `Supplier` |
+| `Personnel` | `Personnel` |
+| `ContactPerson` | `ContactPerson` |
+| `Partner` | `Partner` |
 | `FullName` | `FullName` |
 | `ReferenceBusinessPartner` | `ReferenceBusinessPartner` |
 | `AddressID` | `AddressID` |
@@ -66,7 +70,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CreditMemoRequest` | `I_CreditMemoRequest` | [1..1] |
 
 ## Source Code
 

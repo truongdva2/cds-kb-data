@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key BusinessPlace` | `BusinessPlace` |
+| `CompanyCode` | `CompanyCode` |
+| `BusinessPlace` | `BusinessPlace` |
 | `BusinessPlaceDescription` | `BusinessPlaceDescription` |
 | `AddressID` | `AddressID` |
 | `IN_GSTIdentificationNumber` | `IN_GSTIdentificationNumber` |
 | `IN_IsBizPlaceGSTSpclEconomicZn` | `IN_IsBizPlaceGSTSpclEconomicZn` |
 | `IN_GSTTxDdctdAtSrceRegn` | `IN_GSTTxDdctdAtSrceRegn` |
 | `IN_GSTBizPlaceClassfctn` | `IN_GSTBizPlaceClassfctn` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_Address` | *Association* |
 

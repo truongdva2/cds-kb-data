@@ -31,17 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_rt_sc_item_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/vdm_rate_scale_uuid preserving type)` | `cast(parent_key` |
-| `_TransportationScale.TransportationRateUUID                                           as TransportationRateUUID` | *Association* |
-| `/scmtms/vdm_calc_type preserving type)` | `cast(calc_typ` |
-| `/scmtms/vdm_rt_sc_itm_qty_unit preserving type)` | `cast(uom` |
+| `TransportationScaleItemUUID` | `cast(db_key as /scmtms/vdm_rt_sc_item_uuid preserving type)` |
+| `TransportationScaleUUID` | `cast(parent_key as /scmtms/vdm_rate_scale_uuid preserving type)` |
+| `TransportationRateUUID` | `_TransportationScale.TransportationRateUUID` |
+| `TransportationCalculationType` | `cast(calc_typ as /scmtms/vdm_calc_type preserving type)` |
+| `TranspScaleItemQuantityUnit` | `cast(uom as /scmtms/vdm_rt_sc_itm_qty_unit preserving type)` |
 | `TranspScaleItemQuantity` | `scaval_quan` |
-| `/scmtms/vdm_sc_itm_char_value preserving type)` | `cast(scaval_char` |
+| `TranspScaleItemCharacterValue` | `cast(scaval_char as /scmtms/vdm_sc_itm_char_value preserving type)` |
 | `TranspScaleItemCurrency` | `currcode` |
-| `abap.dec(31,6) ) * 10000` | `cast( cast( scaval_amount` |
+| `TranspScaleItemAmount` | `cast(…)` |
 | `TranspScaleItemRefFieldName` | `scaval_ref_field` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationScale` | *Association* |
 | `_TransportationRate` | *Association* |
 | `_TranspScaleItemQuantityUnit` | *Association* |
@@ -53,6 +52,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationScale` | `I_TransportationScale` | — |
 | `_TranspRateScaleReference` | `I_TranspRateScaleReference` | [1..1] |
 | `_TranspScaleItemQuantityUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_TranspScaleItemCurrency` | `I_Currency` | [0..1] |

@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocCharcConstraintStatus
 ---
 # I_PRODALLOCCHARCCSTRTSTATUST
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccharcconstraintstatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocCharcConstraintStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodalloccharccstrtstatusdesc preserving type )` | `cast( ddtext` |
-| `_ProdAllocCharcCstrtStatus, //decomment only if no problems in analytics` | *Association* |
+| `ProdAllocCharcCstrtStatusDesc` | `cast( ddtext as prodalloccharccstrtstatusdesc preserving type )` |
+| `_ProdAllocCharcCstrtStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

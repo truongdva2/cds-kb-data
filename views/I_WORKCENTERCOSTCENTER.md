@@ -35,21 +35,21 @@ tags:
 |---|---|
 | `WorkCenterInternalID` | `crco.objid` |
 | `WorkCenterTypeCode` | `crco.objty` |
-| `pph_lanum preserving type)` | `cast(crco.lanum` |
+| `CostCenterAllocation` | `cast(crco.lanum as pph_lanum preserving type)` |
 | `ValidityEndDate` | `crco.endda` |
 | `ValidityStartDate` | `crco.begda` |
 | `LastChangeDate` | `crco.aedat_kost` |
 | `LastChangedByUser` | `crco.aenam_kost` |
-| `_WorkCenter.Plant` | *Association* |
-| `_WorkCenter.WorkCenterCategoryCode` | *Association* |
-| `fis_kokrs preserving type)` | `cast(crco.kokrs` |
+| `Plant` | `_WorkCenter.Plant` |
+| `WorkCenterCategoryCode` | `_WorkCenter.WorkCenterCategoryCode` |
+| `ControllingArea` | `cast(crco.kokrs as fis_kokrs preserving type)` |
 | `CostCenter` | `crco.kostl` |
 | `CostCtrActivityType` | `crco.lstar` |
 | `CostCtrActivityTypeQtyUnit` | `crco.leinh` |
 | `BusinessProcess` | `crco.prz` |
-| `pph_actxy preserving type)` | `cast(crco.actxy` |
-| `pph_actxk preserving type)` | `cast(crco.actxk` |
-| `ap_form_c1 preserving type)` | `cast(crco.forml` |
+| `ActivityDescOriginType` | `cast(crco.actxy as pph_actxy preserving type)` |
+| `CostCenterActivityAltvDescID` | `cast(crco.actxk as pph_actxk preserving type)` |
+| `CostCenterActivityTypeFormula` | `cast(crco.forml as ap_form_c1 preserving type)` |
 | `CostCtrActyTypeIsReferenced` | `crco.lstar_ref` |
 | `CostCtrActyTypeIncntvWageCode` | `crco.bde` |
 | `CostCtrActyTypeRecdTypeGrpCode` | `crco.sakl` |

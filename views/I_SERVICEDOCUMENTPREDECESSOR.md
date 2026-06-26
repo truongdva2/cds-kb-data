@@ -14,6 +14,7 @@ tags:
   - document
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentPredecessor
 ---
 # I_SERVICEDOCUMENTPREDECESSOR
 
@@ -33,7 +34,6 @@ tags:
 | `ServiceDocumentRelationUUID` | `relationid` |
 | `ServiceDocRltnSequenceNumber` | `posno` |
 | `ServiceDocumentRelationType` | `breltyp` |
-| `/* CRMT_BRELVONAE */` | `/* CRMT_BRELVONAE */` |
 | `ServiceDocumentRelationKind` | `vona_kind` |
 | `ServiceDocumentPredecessorUUID` | `objguid_a_sel` |
 | `ServiceDocPrdcssrBusObjType` | `objtype_a_sel` |

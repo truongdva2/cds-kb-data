@@ -14,6 +14,7 @@ tags:
   - contract
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevenueAccountingContract
 ---
 # I_REVENUEACCOUNTINGCONTRACT
 
@@ -30,32 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farr_cds_contract_id preserving type)` | `cast(contract_id` |
+| `RevenueAccountingContract` | `cast(contract_id as farr_cds_contract_id preserving type)` |
 | `CompanyCode` | `company_code` |
 | `RevnAcctgContractDescription` | `description` |
-| `farr_cds_contractual_price preserving type)` | `cast(trx_price` |
+| `TotContractualPrcInSlsDocCrcy` | `cast(trx_price as farr_cds_contractual_price preserving type)` |
 | `RevnAcctgContractCategory` | `contract_cat` |
 | `RevnAcctgSalesOrganization` | `sales_org` |
-| `farr_corr_amt preserving type)` | `cast(alloc_differ` |
+| `AllocEffctAmountInSalesDocCrcy` | `cast(alloc_differ as farr_corr_amt preserving type)` |
 | `AccountingPrinciple` | `acct_principle` |
-| `farr_cds_num_of_pobs preserving type)` | `cast(num_of_pob` |
-| `waerk preserving type)` | `cast(trx_price_curk` |
+| `NumberOfPerformanceObligations` | `cast(num_of_pob as farr_cds_num_of_pobs preserving type)` |
+| `SalesDocumentCurrency` | `cast(trx_price_curk as waerk preserving type)` |
 | `BusinessPartner` | `partner` |
 | `Customer` | `customer_id` |
 | `CustomerGroup` | `customer_grp` |
-| `farr_cds_has_alloc_effect preserving type)` | `cast(price_adjusted` |
+| `RAContractHasAllocationEffect` | `cast(price_adjusted as farr_cds_has_alloc_effect preserving type)` |
 | `RAContrBalanceDerivationRule` | `liab_method` |
 | `RAPostLevelOfContractBalance` | `liability_post_mode` |
 | `RevnAcctgContractStatus` | `status` |
-| `farr_cds_contr_completion_date preserving type)` | `cast(completion_date` |
-| `farr_cds_asset_impairment_date preserving type)` | `cast(asset_impairment_date` |
-| `cast(case asset_impairment_date` | `cast(case asset_impairment_date` |
-| `when '00000000' then ' '` | `when '00000000' then ' '` |
-| `else 'X'` | `else 'X'` |
-| `farr_cds_has_impair_of_assets preserving type)` | `end` |
-| `fis_cc_erfnm preserving type)` | `cast(created_by` |
-| `farr_cds_created_on preserving type)` | `cast(created_on` |
-| `fis_aufaenam preserving type)` | `cast(last_changed_by` |
+| `RAContractCompletionDate` | `cast(completion_date as farr_cds_contr_completion_date preserving type)` |
+| `RevnContrAssetsImpairmentDate` | `cast(asset_impairment_date as farr_cds_asset_impairment_date preserving type)` |
+| `RAContractHasAssetsImpairment` | `cast(…)` |
+| `RevnAcctgContractCreatedByUser` | `cast(created_by as fis_cc_erfnm preserving type)` |
+| `RevnAcctgContractCreationDate` | `cast(created_on as farr_cds_created_on preserving type)` |
+| `RAContractLastChangedByUsr` | `cast(last_changed_by as fis_aufaenam preserving type)` |
 | `RAContractIsSoftDeleted` | `soft_deleted` |
 | `RAContractLastChangeDate` | `last_changed_on` |
 | `RAContractLastSavedDateTime` | `last_saved_on` |
@@ -63,17 +61,16 @@ tags:
 | `RAContractAssetAccount` | `asset_account` |
 | `RAContractLiabilityAccount` | `liability_account` |
 | `RAContractIsManuallyChanged` | `manual_changed` |
-| `farr_cds_manual_price_alloc preserving type)` | `cast(manual_allocated` |
-| `farr_cds_has_alloc_conflict preserving type)` | `cast(manual_price_alloc_conflict` |
-| `val_obj_type preserving type)` | `cast('RARC'` |
-| `val_obj_id)` | `cast(contract_id` |
-| `val_subobj_id preserving type)` | `cast('                                '` |
+| `RAContractIsManuallyAllocated` | `cast(manual_allocated as farr_cds_manual_price_alloc preserving type)` |
+| `RAContrHasMnlPrcAllocConflict` | `cast(manual_price_alloc_conflict as farr_cds_has_alloc_conflict preserving type)` |
+| `FinancialValuationObjectType` | `cast('RARC' as val_obj_type preserving type)` |
+| `FinancialValuationObject` | `cast(contract_id as val_obj_id)` |
+| `FinancialValuationSubobject` | `cast(' ' as val_subobj_id preserving type)` |
 | `RAContractIsCreatedByContrMgr` | `rar_version_code` |
 | `IsBusinessPurposeCompleted` | `is_blocked` |
 | `RAContractTransformRecnclnKey` | `ccm_ocm_recon_key` |
 | `RAContractPostingMode` | `posting_mode` |
 | `RAContractIsUniversal` | `universal_rev_contr` |
-| `/* Association */` | `/* Association */` |
 | `_BusinessPartner` | *Association* |
 | `_Customer` | *Association* |
 | `_CustomerGroup` | *Association* |

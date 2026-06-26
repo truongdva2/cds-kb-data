@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPType
 ---
 # I_MRPTYPETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MRPType` | `txt.dismm` |
+| `Language` | `txt.spras` |
 | `MRPTypeName` | `txt.dibez` |
 | `_MRPType` | *Association* |
 | `_Language` | *Association* |

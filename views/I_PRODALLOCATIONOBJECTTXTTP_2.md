@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProductAllocationObjectText
 ---
 # I_PRODALLOCATIONOBJECTTXTTP_2
 
@@ -31,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
-| `key Language` | `Language` |
+| `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
+| `Language` | `Language` |
 | `ProdAllocObjectDescription` | `ProdAllocObjectDescription` |
-| `_ProdAllocationObjectTP: redirected to parent I_ProdAllocationObjectTP_2` | *Association* |
 
 ## Associations
 

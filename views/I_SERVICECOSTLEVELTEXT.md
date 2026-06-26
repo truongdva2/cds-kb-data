@@ -16,6 +16,7 @@ tags:
   - text
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:ServiceCostLevel
 ---
 # I_SERVICECOSTLEVELTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `ServiceCostLevel` | `srv_cost_level` |
+| `Language` | `langu` |
 | `ServiceCostLevelName` | `name` |
 | `ServiceCostLevelShortName` | `short_name` |
 | `_Language` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:GLAccountTypeFlowType
 ---
 # I_GLACCOUNTTYPEFLOWTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glacct_type_flow_type )` | `cast( dd07l.domvalue_l` |
+| `GLAccountTypeFlowType` | `cast( dd07l.domvalue_l as fis_glacct_type_flow_type )` |
 | `_Text` | *Association* |
 
 ## Associations

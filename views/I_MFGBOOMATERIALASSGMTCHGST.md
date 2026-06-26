@@ -33,28 +33,28 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Product` | `mapl.Material` |
-| `key mapl.Plant` | `mapl.Plant` |
-| `key mapl.BillOfOperationsType` | `mapl.BillOfOperationsType` |
-| `key mapl.BillOfOperationsGroup` | `mapl.BillOfOperationsGroup` |
-| `key mapl.BillOfOperationsVariant` | `mapl.BillOfOperationsVariant` |
-| `key mapl.BOOToMaterialInternalID` | `mapl.BOOToMaterialInternalID` |
-| `key mapl.BOOMatlInternalVersionCounter` | `mapl.BOOMatlInternalVersionCounter` |
-| `mapl.ValidityStartDate` | `mapl.ValidityStartDate` |
-| `mapl.ValidityEndDate` | `mapl.ValidityEndDate` |
-| `mapl.ChangeNumber` | `mapl.ChangeNumber` |
-| `mapl.CreationDate` | `mapl.CreationDate` |
-| `mapl.CreatedByUser` | `mapl.CreatedByUser` |
-| `mapl.LastChangeDate` | `mapl.LastChangeDate` |
-| `mapl.LastChangedByUser` | `mapl.LastChangedByUser` |
-| `mapl.IsDeleted` | `mapl.IsDeleted` |
-| `mapl.IsImplicitlyDeleted` | `mapl.IsImplicitlyDeleted` |
-| `mapl.Supplier` | `mapl.Supplier` |
-| `mapl.Customer` | `mapl.Customer` |
-| `mapl.SalesOrder` | `mapl.SalesOrder` |
-| `mapl.SalesOrderItem` | `mapl.SalesOrderItem` |
-| `mapl.WBSElementInternalID` | `mapl.WBSElementInternalID` |
-| `mapl.WBSElementInternalID_2` | `mapl.WBSElementInternalID_2` |
-| `mapl.BOOSearchText` | `mapl.BOOSearchText` |
+| `Plant` | `mapl.Plant` |
+| `BillOfOperationsType` | `mapl.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `mapl.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `mapl.BillOfOperationsVariant` |
+| `BOOToMaterialInternalID` | `mapl.BOOToMaterialInternalID` |
+| `BOOMatlInternalVersionCounter` | `-- Representative Key key mapl.BOOMatlInternalVersionCounter` |
+| `ValidityStartDate` | `mapl.ValidityStartDate` |
+| `ValidityEndDate` | `mapl.ValidityEndDate` |
+| `ChangeNumber` | `mapl.ChangeNumber` |
+| `CreationDate` | `mapl.CreationDate` |
+| `CreatedByUser` | `mapl.CreatedByUser` |
+| `LastChangeDate` | `mapl.LastChangeDate` |
+| `LastChangedByUser` | `mapl.LastChangedByUser` |
+| `IsDeleted` | `mapl.IsDeleted` |
+| `IsImplicitlyDeleted` | `mapl.IsImplicitlyDeleted` |
+| `Supplier` | `mapl.Supplier` |
+| `Customer` | `mapl.Customer` |
+| `SalesOrder` | `mapl.SalesOrder` |
+| `SalesOrderItem` | `mapl.SalesOrderItem` |
+| `WBSElementInternalID` | `mapl.WBSElementInternalID` |
+| `WBSElementInternalID_2` | `mapl.WBSElementInternalID_2` |
+| `BOOSearchText` | `mapl.BOOSearchText` |
 | `_Product` | *Association* |
 | `_ProductPlant` | *Association* |
 | `_ProductPlant2` | *Association* |
@@ -70,7 +70,6 @@ tags:
 | `_SupplierCompanyByPlant` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
-| `_WBSElementInternal` | *Association* |
 | `_WBSElementBasic` | *Association* |
 
 ## Associations

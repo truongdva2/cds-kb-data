@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ParentObjectUUID : /s4ppm/tv_task_guid;` | `ParentObjectUUID : /s4ppm/tv_task_guid;` |
-| `LeftSiblingUUID  : /s4ppm/tv_task_guid;` | `LeftSiblingUUID  : /s4ppm/tv_task_guid;` |
+| `ParentObjectUUID` | `/s4ppm/tv_task_guid` |
+| `LeftSiblingUUID` | `/s4ppm/tv_task_guid` |
 
 ## Associations
 

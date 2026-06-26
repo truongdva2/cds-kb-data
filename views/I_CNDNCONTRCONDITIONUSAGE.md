@@ -31,10 +31,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BillingDocumentItemStdVH', element: 'BillingDocumentItem' } }]` | `name: 'I_BillingDocumentItemStdVH', element: 'BillingDocumentItem' } }]` |
-| `}` | `}` |
+| `DocRelationshipUUID` | `DocRelationshipUUID` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionContract` | `ConditionContract` |
+| `CndnContrUUID` | `CndnContrUUID` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `cast( '00' as kopos preserving type )` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `CndnContrAccrRvslSts` | `CndnContrAccrRvslSts` |
+| `AccrSrceDocCategory` | `AccrSrceDocCategory` |
+| `AccrSrceDocument` | `AccrSrceDocument` |
+| `AccrSrceDocumentYear` | `AccrSrceDocumentYear` |
+| `AccrSrceDocumentItem` | `AccrSrceDocumentItem` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionType` | `ConditionType` |
+| `ConditionAmount` | `ConditionAmount` |
+| `ConditionCurrency` | `cast( AccrSrceDocCurrency as waers preserving type )` |
+| `AR_DocumentPostingDate` | `cast( AccrSrceDocPostingDate as wcb_wcocof_budat preserving type )` |
+| `AccrSrceDocPostingDate` | `AccrSrceDocPostingDate` |
+| `SettlmtDate` | `SettlmtDate` |
+| `SettlmtDateSequentialID` | `SettlmtDateSequentialID` |
+| `RefSettlmtDate` | `RefSettlmtDate` |
+| `RefSettlmtDateSequentialID` | `RefSettlmtDateSequentialID` |
+| `FiscalYear` | `AccrSrceDocFiscalYear` |
+| `Plant` | `AccrSrceDocItemPlant` |
+| `CompanyCode` | `AccrSrceDocCompanyCode` |
+| `CndnContrAccrSource` | `CndnContrAccrSource` |
+| `BillingDocument` | `BillingDocument` |
 | `BillingDocumentItem` | `BillingDocumentItem` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionContract` | *Association* |
 | `_CndnContrAccrRvslSts` | *Association* |
 | `_ConditionApplication` | *Association* |

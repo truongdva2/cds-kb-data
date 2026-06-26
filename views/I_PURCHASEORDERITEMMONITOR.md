@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `DocumentCurrency` | `DocumentCurrency` |
-| `mm_pur_next_sched_line_date)` | `cast(ScheduleLineDeliveryDate` |
-| `mm_pur_next_sched_line_qty)` | `cast(ScheduleLineOpenQty` |
+| `ScheduleLineDeliveryDate` | `cast(ScheduleLineDeliveryDate as mm_pur_next_sched_line_date)` |
+| `ScheduleLineOpenQty` | `cast(ScheduleLineOpenQty as mm_pur_next_sched_line_qty)` |
 | `GoodsReceiptQty` | `GoodsReceiptQty` |
 | `GoodsReceiptAmountInCoCodeCrcy` | `GoodsReceiptAmountInCoCodeCrcy` |
 | `StillToBeDeliveredQuantity` | `StillToBeDeliveredQuantity` |
@@ -47,7 +47,7 @@ tags:
 | `InvoiceReceiptAmount` | `InvoiceReceiptAmount` |
 | `StillToInvoiceQuantity` | `StillToInvoiceQuantity` |
 | `StillToInvoiceValue` | `StillToInvoiceValue` |
-| `mm_pur_is_completed)` | `cast(IsCompleted` |
+| `IsCompleted` | `cast(IsCompleted as mm_pur_is_completed)` |
 | `_PurchaseOrder` | *Association* |
 | `_PurchaseOrderItem` | *Association* |
 | `_PurOrdScheduleLine` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - transport
   - component:TM-MD-PR-2CL
   - lob:Other
+  - bo:TransportationGroup
 ---
 # I_TRANSPORTATIONGROUP
 

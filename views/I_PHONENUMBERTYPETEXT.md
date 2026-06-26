@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `language: true }` | `language: true }` |
+| `PhoneNumberType` | `cast ( domvalue_l as ad_flgmob)` |
 | `Language` | `ddlanguage` |
 | `PhoneNumberTypeText` | `ddtext` |
 

@@ -30,9 +30,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `EarmarkedFundsDocEntryStatus` | `cast(…)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fmis_efd_entrystatustext preserving type )` | `cast ( ddtext` |
+| `EarmarkedFundsDocEntryStsText` | `cast ( ddtext as fmis_efd_entrystatustext preserving type )` |
 | `_EarmarkedFundsDocEntryStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EarmarkedFundsDocEntryStatus` | `I_EarmarkedFundsDocEntryStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

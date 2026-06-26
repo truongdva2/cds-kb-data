@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocVersion
 ---
 # I_DOCUMENTINFORECORDDOCVERSION
 
@@ -30,9 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'DocumentInfoRecordDocType'` | `localElement: 'DocumentInfoRecordDocType'` |
-| `element: 'DocumentInfoRecordDocType' }]` | `element: 'DocumentInfoRecordDocType' }]` |
-| `}]` | `}]` |
+| `DocumentInfoRecordDocType` | `document.dokar` |
 | `DocumentInfoRecordDocNumber` | `document.doknr` |
 | `DocumentInfoRecordDocVersion` | `document.dokvr` |
 | `_DocType` | *Association* |

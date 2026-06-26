@@ -28,14 +28,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingDocumentDate    : fkdat;` | `BillingDocumentDate    : fkdat;` |
-| `BillingDocumentType    : fkart;` | `BillingDocumentType    : fkart;` |
-| `_Reference : composition [1..*] of D_BillgDocCrteFrmBillgDocRefIP;` | *Association* |
-| `_Control   : composition [0..1] of D_BlgDcCrteFrmBillgDocCtrlIP;` | *Association* |
+| `BillingDocumentDate` | `fkdat` |
+| `BillingDocumentType` | `fkart` |
+| `_Reference` | *Association* |
+| `_Control` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Reference` | `D_BillgDocCrteFrmBillgDocRefIP` | [1..*] |
+| `_Control` | `D_BlgDcCrteFrmBillgDocCtrlIP` | [0..1] |
 
 ## Source Code
 

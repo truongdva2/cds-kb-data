@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `OrdRelIsPmtdDsptMisgParts : abap_boolean;` | `OrdRelIsPmtdDsptMisgParts : abap_boolean;` |
+| `OrdRelIsPmtdDsptMisgParts` | `abap_boolean` |
 
 ## Associations
 

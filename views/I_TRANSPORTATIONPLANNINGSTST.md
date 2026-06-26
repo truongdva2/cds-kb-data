@@ -14,6 +14,7 @@ tags:
   - transport
   - component:LE-TRA
   - lob:Logistics Execution
+  - bo:TransportationPlanningStatus
 ---
 # I_TRANSPORTATIONPLANNINGSTST
 

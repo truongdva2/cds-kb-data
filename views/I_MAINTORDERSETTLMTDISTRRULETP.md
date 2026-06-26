@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       MaintenanceOrder` | `MaintenanceOrder` |
-| `key       Ledger` | `Ledger` |
-| `key       LedgerGroup` | `LedgerGroup` |
-| `key       SettlementDistributionRuleGrp` | `SettlementDistributionRuleGrp` |
-| `key       SettlmtDistrRuleSequence` | `SettlmtDistrRuleSequence` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `Ledger` | `Ledger` |
+| `LedgerGroup` | `LedgerGroup` |
+| `SettlementDistributionRuleGrp` | `SettlementDistributionRuleGrp` |
+| `SettlmtDistrRuleSequence` | `SettlmtDistrRuleSequence` |
 | `ControllingObject` | `ControllingObject` |
 | `SettlementType` | `SettlementType` |
 | `DistributionSourceAssignment` | `DistributionSourceAssignment` |
@@ -69,7 +69,6 @@ tags:
 | `SettlmtRuleLastUsgeFsclPeriod` | `SettlmtRuleLastUsgeFsclPeriod` |
 | `SettlmtRuleLastUsageFiscalYear` | `SettlmtRuleLastUsageFiscalYear` |
 | `SettlmtDistrRuleIsUsedInLedger` | `SettlmtDistrRuleIsUsedInLedger` |
-| `_MaintenanceOrder : redirected to parent I_MaintenanceOrderTP` | *Association* |
 
 ## Associations
 

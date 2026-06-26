@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atinn_no_conv preserving type )` | `cast ( CharcDesc.atinn` |
+| `CharcInternalID` | `cast ( CharcDesc.atinn as atinn_no_conv preserving type )` |
 | `Language` | `CharcDesc.spras` |
 | `TimeIntervalNumber` | `CharcDesc.adzhl` |
-| `charcdescription preserving type )` | `cast ( CharcDesc.atbez` |
+| `CharcDescription` | `cast ( CharcDesc.atbez as charcdescription preserving type )` |
 | `ChangeNumber` | `CharcDesc.aennr` |
 | `ValidityStartDate` | `CharcDesc.datuv` |
 | `ValidityEndDate` | `CharcDesc.datub` |

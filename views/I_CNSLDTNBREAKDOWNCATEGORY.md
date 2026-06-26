@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_breakdowncategory preserving type )` | `cast(ConsolidationBreakdownCategory` |
+| `ConsolidationChartOfAccounts` | `cast(ConsolidationChartOfAccounts as fincs_conschartofaccounts preserving type )` |
+| `ConsolidationBreakdownCategory` | `cast(ConsolidationBreakdownCategory as fincs_breakdowncategory preserving type )` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Text` | *Association* |
 | `_BreakdownBySubassignment` | *Association* |

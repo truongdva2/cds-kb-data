@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_Source.DomainValue, // required for search` | *Association* |
+| `ConsolidationPostingLevel` | `cast(left(_Source.DomainValue, 2) as fincs_postinglevel preserving type )` |
+| `ConsolidationReportingLevel` | `cast(…)` |
+| `DomainValue` | `_Source.DomainValue` |
 | `_ReportingLevel` | *Association* |
 | `_HierarchyNode` | *Association* |
 | `_Text` | *Association* |

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ComparisonFieldName          : fieldname;` | `ComparisonFieldName          : fieldname;` |
-| `ComparisonFieldNameText      : as4text;` | `ComparisonFieldNameText      : as4text;` |
-| `ComparisonFieldObjTypeValue  : bom_comp_obj_type;` | `ComparisonFieldObjTypeValue  : bom_comp_obj_type;` |
+| `ComparisonFieldName` | `fieldname` |
+| `ComparisonFieldNameText` | `as4text` |
+| `ComparisonFieldObjTypeValue` | `bom_comp_obj_type` |
 
 ## Associations
 

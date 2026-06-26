@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2CalculationMethod
 ---
 # I_GHGSCP2CALCMETHODVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGScope2CalculationMethod` | `GHGScope2CalculationMethod` |
+| `GHGScope2CalculationMethod` | `GHGScope2CalculationMethod` |
 | `_Text` | *Association* |
 
 ## Associations

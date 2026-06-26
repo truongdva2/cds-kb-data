@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PM-2CL
   - lob:Plant Maintenance
+  - bo:BillOfOperationsVariant
 ---
 # I_MAINTTASKLISTGROUPCOUNTER
 
@@ -32,14 +33,14 @@ tags:
 | `BillOfOperationsGroup` | `plkz.plnnr` |
 | `BillOfOperationsVariant` | `plkz.plnal` |
 | `BillOfOperationsVersionType` | `plkz.subtype` |
-| `BillOfOperationsSubtype, //kept for compatibility reasons` | `plkz.subtype` |
+| `BillOfOperationsSubtype` | `plkz.subtype` |
 | `LastUsageDate` | `plkz.abdat` |
 | `NumberOfUsages` | `plkz.abanz` |
 | `HasChangeNumber` | `plkz.flg_ecm` |
 | `HasParameterEffectivity` | `plkz.flg_ecm_par` |
-| `LastChangeDate` | `plkz.aedat` |
+| `LastChangeDate` | `-- Administrative Data plkz.aedat` |
 | `LastChangeTime` | `plkz.aeuzeit` |
-| `vdm_lastchangedbyuserid preserving type)` | `cast(plkz.aenam` |
+| `LastChangedByUser` | `cast(plkz.aenam as vdm_lastchangedbyuserid preserving type)` |
 | `RoutingIsReworkRouting` | `plkz.rework` |
 | `ProdnProcgIsFlexible` | `plkz.relaxed` |
 | `_BOOMaterialAssignment` | *Association* |

@@ -31,9 +31,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CompanyCode` | `bukrs` |
-| `fins_target_crcyrole preserving type )` | `cast( curtype` |
-| `fac_targetcurrency preserving type )` | `cast(waers` |
-| `fins_source_crcyrole preserving type )` | `cast( source_curtype` |
+| `TargetCurrencyRole` | `cast( curtype as fins_target_crcyrole preserving type )` |
+| `TargetCurrency` | `cast(waers as fac_targetcurrency preserving type )` |
+| `SourceCurrencyRole` | `cast( source_curtype as fins_source_crcyrole preserving type )` |
 | `ExchangeRateType` | `kurst` |
 | `CurrencyTranslationDateType` | `curdt` |
 | `_CompanyCode` | *Association* |

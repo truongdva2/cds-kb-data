@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:QualityLevel
 ---
 # I_QUALITYLEVEL
 
@@ -41,17 +42,17 @@ tags:
 | `Manufacturer` | `hersteller` |
 | `Customer` | `kunnr` |
 | `InspectionLotType` | `pruefart` |
-| `qvornr_rap preserving type )` | `cast( vornr` |
+| `InspectionOperation` | `cast( vornr as qvornr_rap preserving type )` |
 | `InspectionCharacteristic` | `merknr` |
 | `QltyLvlIndirectlyChangedBy` | `aendlosa` |
 | `QltyLvlManuallyChangedBy` | `aendlosm` |
 | `QltyLvlIndirectlyChangedOn` | `aedatlosa` |
 | `QltyLvlManuallyChangedOn` | `aedatlosm` |
-| `vdm_qplosql preserving type )` | `cast( prueflos` |
+| `InspectionLot` | `cast( prueflos as vdm_qplosql preserving type )` |
 | `InspLotUsageDecisionValuation` | `bwlos` |
 | `InspLotUsgeDcsnDynValuation` | `bwlosdyn` |
 | `SamplingProcedure` | `stichprver` |
-| `vdm_qdynregel preserving type )` | `cast( dynregel` |
+| `InspLotDynamicRule` | `cast( dynregel as vdm_qdynregel preserving type )` |
 | `QltyLevelNextDynRuleStage` | `prstufenae` |
 | `InspLotsWithoutUsageDecision` | `anzloseove` |
 | `InspLotsSinceStageChg` | `anzpraen` |
@@ -63,9 +64,7 @@ tags:
 | `QltyLevelCanceledInspections` | `anzprstop` |
 | `QualityLevelDeletionOn` | `deldatum` |
 | `QualityLevelResetOn` | `resdatum` |
-| `case qdql.changeddatetime` | `case qdql.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qdql.changeddatetime end` |
+| `ChangedDateTime` | `case…end` |
 | `_Plant` | *Association* |
 | `_Material` | *Association* |
 | `_BillOfOperationsType` | *Association* |

@@ -30,10 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` | `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` |
-| `fincs_consolidationselection preserving type)` | `cast(left(_Source.FinancialSelection, 20)` |
-| `_Source.FinancialSelection` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationSelection` | `cast(…)` |
+| `FinancialSelection` | `_Source.FinancialSelection` |
 | `_Text` | *Association* |
 | `_SelectionCondition` | *Association* |
 

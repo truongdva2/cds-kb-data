@@ -15,6 +15,7 @@ tags:
   - approval
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:DebitMemoRequestApprovalReason
 ---
 # I_DEBITMEMOREQAPPROVALREASON
 
@@ -32,8 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DebitMemoReqApprovalReason` | `SlsDocApprovalReason.SalesDocApprovalReason` |
-| `SlsDocApprovalReason._SDApprovalReason` | `SlsDocApprovalReason._SDApprovalReason` |
-| `SlsDocApprovalReason._SDApprovalReasonT` | `SlsDocApprovalReason._SDApprovalReasonT` |
+| `_SDApprovalReason` | *Association* |
+| `_SDApprovalReasonT` | *Association* |
 
 ## Associations
 

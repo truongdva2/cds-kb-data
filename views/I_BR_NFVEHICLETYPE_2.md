@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:NFVehicleType
 ---
 # I_BR_NFVEHICLETYPE_2
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicletype preserving type )` | `cast( tpveic` |
+| `NFVehicleType` | `cast( tpveic as logbr_vehicletype preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

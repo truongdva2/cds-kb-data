@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocObjTimeSeries
 ---
 # I_PRODALLOCOBJTIMESERIESTP_2
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocationTimeSeriesUUID` | `ProdAllocationTimeSeriesUUID` |
+| `ProdAllocationTimeSeriesUUID` | `ProdAllocationTimeSeriesUUID` |
 | `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
 | `CharcValueCombinationUUID` | `CharcValueCombinationUUID` |
 | `ProdAllocPerdStartUTCDateTime` | `ProdAllocPerdStartUTCDateTime` |
@@ -40,8 +41,6 @@ tags:
 | `ProdAllocPeriodEndTimeZone` | `ProdAllocPeriodEndTimeZone` |
 | `ProductAllocationQuantity` | `ProductAllocationQuantity` |
 | `ProductAllocationQuantityUnit` | `ProductAllocationQuantityUnit` |
-| `_ProdAllocationObjectTP: redirected to I_ProdAllocationObjectTP_2` | *Association* |
-| `_ProdAllocCharcValCombnTP: redirected to parent I_ProdAllocCharcValCombnTP_2` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocument
 ---
 # C_SDDOCMULTILEVELPROCFLOWDEX
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  DocRelationshipUUID` | `DocRelationshipUUID` |
+| `DocRelationshipUUID` | `DocRelationshipUUID` |
 | `PrecedingDocument` | `PrecedingDocument` |
 | `PrecedingDocumentItem` | `PrecedingDocumentItem` |
 | `PrecedingDocumentCategory` | `PrecedingDocumentCategory` |

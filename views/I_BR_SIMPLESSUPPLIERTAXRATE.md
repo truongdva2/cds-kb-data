@@ -38,19 +38,19 @@ tags:
 | `FiscalMonth` | `fiscal_month` |
 | `BR_SIMPLESClassCode` | `class` |
 | `BR_SIMPLESTaxRate` | `rate` |
-| `_Supplier.AuthorizationGroup   as AuthorizationGroup` | *Association* |
-| `_Supplier.SupplierAccountGroup as SupplierAccountGroup` | *Association* |
-| `_Supplier.DataControllerSet` | *Association* |
-| `_Supplier.DataController1` | *Association* |
-| `_Supplier.DataController2` | *Association* |
-| `_Supplier.DataController3` | *Association* |
-| `_Supplier.DataController4` | *Association* |
-| `_Supplier.DataController5` | *Association* |
-| `_Supplier.DataController6` | *Association* |
-| `_Supplier.DataController7` | *Association* |
-| `_Supplier.DataController8` | *Association* |
-| `_Supplier.DataController9` | *Association* |
-| `_Supplier.DataController10` | *Association* |
+| `AuthorizationGroup` | `_Supplier.AuthorizationGroup` |
+| `SupplierAccountGroup` | `_Supplier.SupplierAccountGroup` |
+| `DataControllerSet` | `_Supplier.DataControllerSet` |
+| `DataController1` | `_Supplier.DataController1` |
+| `DataController2` | `_Supplier.DataController2` |
+| `DataController3` | `_Supplier.DataController3` |
+| `DataController4` | `_Supplier.DataController4` |
+| `DataController5` | `_Supplier.DataController5` |
+| `DataController6` | `_Supplier.DataController6` |
+| `DataController7` | `_Supplier.DataController7` |
+| `DataController8` | `_Supplier.DataController8` |
+| `DataController9` | `_Supplier.DataController9` |
+| `DataController10` | `_Supplier.DataController10` |
 
 ## Associations
 

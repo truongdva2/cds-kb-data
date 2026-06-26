@@ -13,6 +13,7 @@ tags:
   - document
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentOrigin
 ---
 # I_PURCHASINGDOCUMENTORIGIN
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_purhasingdocumentorigin )` | `cast ( domvalue_l` |
+| `PurchasingDocumentOrigin` | `cast ( domvalue_l as vdm_purhasingdocumentorigin )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurchasingDocumentOriginText` | [0..*] |
 
 ## Source Code
 

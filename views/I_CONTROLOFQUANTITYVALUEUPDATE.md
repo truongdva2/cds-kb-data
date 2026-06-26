@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ValuationArea` | `bwkey` |
-| `producttype preserving type )` | `cast(mtart` |
+| `ProductType` | `cast(mtart as producttype preserving type )` |
 | `QuantityUpdateIsActive` | `mengu` |
 | `ValueUpdateIsActive` | `wertu` |
 | `PipelineHndlgIsMand` | `kzpip` |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProdUnivHierarchyNormalNode
 ---
 # I_PRODUNIVHIERARCHYNODEBASIC
 
@@ -30,30 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prod_hier_id )` | `cast(substring( node.hryid, 6, 26 )` |
+| `ProdUnivHierarchy` | `cast(substring( node.hryid, 6, 26 ) as prod_hier_id )` |
 | `HierarchyNode` | `node.hrynode` |
-| `prodhierarchyvalidityenddate preserving type )` | `cast(node.hryvalto` |
-| `prodhierarchyvaliditystartdate preserving type )` | `cast(node.hryvalfrom` |
+| `ProdHierarchyValidityEndDate` | `cast(node.hryvalto as prodhierarchyvalidityenddate preserving type )` |
+| `ProdHierarchyValidityStartDate` | `cast(node.hryvalfrom as prodhierarchyvaliditystartdate preserving type )` |
 | `ParentNode` | `node.parnode` |
-| `cast( case node.nodetype` | `cast( case node.nodetype` |
-| `when 'R' then node.nodevalue` | `when 'R' then node.nodevalue` |
-| `when 'N' then node.nodevalue` | `when 'N' then node.nodevalue` |
-| `else ''` | `else ''` |
-| `prod_hier_node_value )` | `end` |
-| `cast(` | `cast(` |
-| `case node.hrytype` | `case node.hrytype` |
-| `when 'MD01' then` | `when 'MD01' then` |
-| `case node.nodetype` | `case node.nodetype` |
-| `when 'L' then node.nodevalue` | `when 'L' then node.nodevalue` |
-| `else ''` | `else ''` |
-| `end` | `end` |
-| `else` | `else` |
-| `case node.nodetype` | `case node.nodetype` |
-| `when 'L' then node.nodevalue` | `when 'L' then node.nodevalue` |
-| `when 'N' then node.nodevalue` | `when 'N' then node.nodevalue` |
-| `else  ''` | `else  ''` |
-| `end` | `end` |
-| `productnumber  )` | `end` |
+| `ProdUnivHierarchyNode` | `cast(…)` |
+| `Product` | `cast(…)` |
 | `HierarchyNodeSequence` | `node.hryseqnbr` |
 | `NodeType` | `node.nodetype` |
 | `HierarchyNodeLevel` | `node.hrylevel` |

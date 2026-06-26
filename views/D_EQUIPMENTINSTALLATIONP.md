@@ -30,26 +30,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SuperordinateEquipment                       :hequi;` | `SuperordinateEquipment                       :hequi;` |
-| `FunctionalLocation                           :tplnr; //tplnr; //tplnr_unconverted;` | `FunctionalLocation                           :tplnr; //tplnr; //tplnr_unconverted;` |
-| `EquipInstallationPositionNmbr                :installpos;` | `EquipInstallationPositionNmbr                :installpos;` |
-| `EquipmentInstallationDate                    :aedat;` | `EquipmentInstallationDate                    :aedat;` |
-| `EquipmentInstallationTime                    :timbi;` | `EquipmentInstallationTime                    :timbi;` |
-| `LocationCopyIsRequested                      :flag;` | `LocationCopyIsRequested                      :flag;` |
-| `RoomCopyIsRequested                          :flag;` | `RoomCopyIsRequested                          :flag;` |
-| `PlantSectionCopyIsRequested                  :flag;` | `PlantSectionCopyIsRequested                  :flag;` |
-| `WorkCenterCopyIsRequested                    :flag;` | `WorkCenterCopyIsRequested                    :flag;` |
-| `ABCIndicatorCopyIsRequested                  :flag;` | `ABCIndicatorCopyIsRequested                  :flag;` |
-| `SortFieldCopyIsRequested                     :flag;` | `SortFieldCopyIsRequested                     :flag;` |
-| `BusinessAreaCopyIsRequested                  :flag;` | `BusinessAreaCopyIsRequested                  :flag;` |
-| `CostCenterCopyIsRequested                    :flag;` | `CostCenterCopyIsRequested                    :flag;` |
-| `WBSElementCopyIsRequested                    :flag;` | `WBSElementCopyIsRequested                    :flag;` |
-| `StandingOrderCopyIsRequested                 :flag;` | `StandingOrderCopyIsRequested                 :flag;` |
-| `SettlementOrderCopyIsRequested               :flag;` | `SettlementOrderCopyIsRequested               :flag;` |
-| `MaintPlanningPlantCopyIsReqd                 :flag;` | `MaintPlanningPlantCopyIsReqd                 :flag;` |
-| `MaintWorkCenterCopyIsRequested               :flag;` | `MaintWorkCenterCopyIsRequested               :flag;` |
-| `CatalogProfileCopyIsRequested                :flag;` | `CatalogProfileCopyIsRequested                :flag;` |
-| `SalesOrganizationCopyIsReqd                  :flag;` | `SalesOrganizationCopyIsReqd                  :flag;` |
+| `SuperordinateEquipment` | `hequi` |
+| `FunctionalLocation` | `tplnr` |
+| `EquipInstallationPositionNmbr` | `installpos` |
+| `EquipmentInstallationDate` | `aedat` |
+| `EquipmentInstallationTime` | `timbi` |
+| `LocationCopyIsRequested` | `flag` |
+| `RoomCopyIsRequested` | `flag` |
+| `PlantSectionCopyIsRequested` | `flag` |
+| `WorkCenterCopyIsRequested` | `flag` |
+| `ABCIndicatorCopyIsRequested` | `flag` |
+| `SortFieldCopyIsRequested` | `flag` |
+| `BusinessAreaCopyIsRequested` | `flag` |
+| `CostCenterCopyIsRequested` | `flag` |
+| `WBSElementCopyIsRequested` | `flag` |
+| `StandingOrderCopyIsRequested` | `flag` |
+| `SettlementOrderCopyIsRequested` | `flag` |
+| `MaintPlanningPlantCopyIsReqd` | `flag` |
+| `MaintWorkCenterCopyIsRequested` | `flag` |
+| `CatalogProfileCopyIsRequested` | `flag` |
+| `SalesOrganizationCopyIsReqd` | `flag` |
 
 ## Associations
 

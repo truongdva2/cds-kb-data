@@ -30,15 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableCalcRuleUUID` | `TranspRateTableCalcRuleUUID` |
+| `TranspRateTableCalcRuleUUID` | `TranspRateTableCalcRuleUUID` |
 | `TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TransportationCalculationBase` | `TransportationCalculationBase` |
 | `TranspRateTableCalcRuleQtyUnit` | `TranspRateTableCalcRuleQtyUnit` |
-| `/scmtms/rttable_calcrule_price preserving type )` | `cast( TranspRateCalcRulePricePerQty` |
-| `FrtAgrmtRateTableCalcRule._FreightAgreement          : redirected to I_FreightAgreementTP` | `FrtAgrmtRateTableCalcRule._FreightAgreement          : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtRateTableCalcRule._FrtAgrmtRateTableValidity : redirected to parent I_FrtAgrmtRateTableValidityTP` | `FrtAgrmtRateTableCalcRule._FrtAgrmtRateTableValidity : redirected to parent I_FrtAgrmtRateTableValidityTP` |
+| `TranspRateCalcRulePricePerQty` | `cast(…)` |
 
 ## Associations
 

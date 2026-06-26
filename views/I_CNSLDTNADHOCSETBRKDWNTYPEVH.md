@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `_AdhocSetBrkdwnType.DomainValue // required for search` | *Association* |
+| `CnsldtnAdhocSetBrkdwnType` | `CnsldtnAdhocSetBrkdwnType` |
+| `CnsldtnAdhocSetBrkdwnTypeText` | `cast(…)` |
+| `DomainValue` | `_AdhocSetBrkdwnType.DomainValue` |
 
 ## Associations
 

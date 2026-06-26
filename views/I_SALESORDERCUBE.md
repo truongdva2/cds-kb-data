@@ -32,195 +32,182 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SDH.SalesDocument` |
+| `SalesOrder` | `cast(SDH.SalesDocument as vdm_sales_order preserving type)` |
 | `SalesOrderType` | `SDH.SalesDocumentType` |
 | `_SalesOrderType` | *Association* |
-| `SDH.CreatedByUser` | `SDH.CreatedByUser` |
-| `SDH._CreatedByUser` | `SDH._CreatedByUser` |
-| `created_by_user_name)` | `cast(SDH._CreatedByUser.UserDescription` |
-| `SDH.CreationDate` | `SDH.CreationDate` |
-| `SDH.CreationTime` | `SDH.CreationTime` |
-| `SDH.LastChangeDate` | `SDH.LastChangeDate` |
-| `creation_date_year)` | `cast(CalendarDate.CalendarYear` |
-| `creation_date_year_quarter)` | `cast(CalendarDate.YearQuarter` |
-| `creation_date_year_month)` | `cast(CalendarDate.YearMonth` |
-| `sales_order_date_year)` | `cast(CalendarDateSalesOrder.CalendarYear` |
-| `sales_order_date_year_quarter)` | `cast(CalendarDateSalesOrder.YearQuarter` |
-| `sales_order_date_year_month)` | `cast(CalendarDateSalesOrder.YearMonth` |
-| `SDH.SalesOrganization` | `SDH.SalesOrganization` |
-| `SDH._SalesOrganization` | `SDH._SalesOrganization` |
-| `SDH.DistributionChannel` | `SDH.DistributionChannel` |
-| `SDH._DistributionChannel` | `SDH._DistributionChannel` |
-| `organization_division preserving type)` | `cast(SDH.OrganizationDivision` |
-| `SDH._OrganizationDivision` | `SDH._OrganizationDivision` |
-| `SDH.SalesGroup` | `SDH.SalesGroup` |
-| `SDH._SalesGroup` | `SDH._SalesGroup` |
-| `SDH.SalesOffice` | `SDH.SalesOffice` |
-| `SDH._SalesOffice` | `SDH._SalesOffice` |
+| `CreatedByUser` | `SDH.CreatedByUser` |
+| `_CreatedByUser` | *Association* |
+| `CreatedByUserName` | `cast(SDH._CreatedByUser.UserDescription as created_by_user_name)` |
+| `CreationDate` | `SDH.CreationDate` |
+| `CreationTime` | `SDH.CreationTime` |
+| `LastChangeDate` | `SDH.LastChangeDate` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `SalesOrderDateYear` | `cast(CalendarDateSalesOrder.CalendarYear as sales_order_date_year)` |
+| `SalesOrderDateYearQuarter` | `cast(CalendarDateSalesOrder.YearQuarter as sales_order_date_year_quarter)` |
+| `SalesOrderDateYearMonth` | `cast(CalendarDateSalesOrder.YearMonth as sales_order_date_year_month)` |
+| `SalesOrganization` | `SDH.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `SDH.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `cast(SDH.OrganizationDivision as organization_division preserving type)` |
+| `_OrganizationDivision` | *Association* |
+| `SalesGroup` | `SDH.SalesGroup` |
+| `_SalesGroup` | *Association* |
+| `SalesOffice` | `SDH.SalesOffice` |
+| `_SalesOffice` | *Association* |
 | `PartnerCompany` | `SDH._SoldToParty.TradingPartner` |
-| `SDH._SoldToParty._GlobalCompany` | `SDH._SoldToParty._GlobalCompany` |
-| `SDH.SoldToParty` | `SDH.SoldToParty` |
-| `SDH._SoldToParty` | `SDH._SoldToParty` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SDH.SoldToParty` |
+| `_SoldToParty` | *Association* |
 | `SoldToPartyClassification` | `SDH._SoldToParty.CustomerClassification` |
 | `_SoldToPartyClassification` | *Association* |
-| `kunwe)` | `cast(StandardPartner.ShipToParty` |
+| `ShipToParty` | `cast(StandardPartner.ShipToParty as kunwe)` |
 | `_ShipToParty` | *Association* |
-| `kunrg)` | `cast(StandardPartner.PayerParty` |
+| `PayerParty` | `cast(StandardPartner.PayerParty as kunrg)` |
 | `_PayerParty` | *Association* |
-| `kunre)` | `cast(StandardPartner.BillToParty` |
+| `BillToParty` | `cast(StandardPartner.BillToParty as kunre)` |
 | `_BillToParty` | *Association* |
-| `SDH.CustomerGroup` | `SDH.CustomerGroup` |
-| `SDH._CustomerGroup` | `SDH._CustomerGroup` |
-| `SDH.AdditionalCustomerGroup1` | `SDH.AdditionalCustomerGroup1` |
-| `SDH._AdditionalCustomerGroup1` | `SDH._AdditionalCustomerGroup1` |
-| `SDH.AdditionalCustomerGroup2` | `SDH.AdditionalCustomerGroup2` |
-| `SDH._AdditionalCustomerGroup2` | `SDH._AdditionalCustomerGroup2` |
-| `SDH.AdditionalCustomerGroup3` | `SDH.AdditionalCustomerGroup3` |
-| `SDH._AdditionalCustomerGroup3` | `SDH._AdditionalCustomerGroup3` |
-| `SDH.AdditionalCustomerGroup4` | `SDH.AdditionalCustomerGroup4` |
-| `SDH._AdditionalCustomerGroup4` | `SDH._AdditionalCustomerGroup4` |
-| `SDH.AdditionalCustomerGroup5` | `SDH.AdditionalCustomerGroup5` |
-| `SDH._AdditionalCustomerGroup5` | `SDH._AdditionalCustomerGroup5` |
-| `customer_rebate_agreement)` | `cast(SDH.CustomerRebateAgreement` |
+| `CustomerGroup` | `SDH.CustomerGroup` |
+| `_CustomerGroup` | *Association* |
+| `AdditionalCustomerGroup1` | `SDH.AdditionalCustomerGroup1` |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `AdditionalCustomerGroup2` | `SDH.AdditionalCustomerGroup2` |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `AdditionalCustomerGroup3` | `SDH.AdditionalCustomerGroup3` |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `AdditionalCustomerGroup4` | `SDH.AdditionalCustomerGroup4` |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `AdditionalCustomerGroup5` | `SDH.AdditionalCustomerGroup5` |
+| `_AdditionalCustomerGroup5` | *Association* |
+| `CustomerRebateAgreement` | `cast(SDH.CustomerRebateAgreement as customer_rebate_agreement)` |
 | `SalesOrderDate` | `SDH.SalesDocumentDate` |
-| `SDH.SDDocumentReason` | `SDH.SDDocumentReason` |
-| `SDH._SDDocumentReason` | `SDH._SDDocumentReason` |
-| `SDH.SDDocumentCollectiveNumber` | `SDH.SDDocumentCollectiveNumber` |
-| `SDH.PurchaseOrderByCustomer` | `SDH.PurchaseOrderByCustomer` |
-| `SDH.CustomerPurchaseOrderType` | `SDH.CustomerPurchaseOrderType` |
-| `SDH.CustomerPurchaseOrderDate` | `SDH.CustomerPurchaseOrderDate` |
-| `SDH.CustomerPurchaseOrderSuplmnt` | `SDH.CustomerPurchaseOrderSuplmnt` |
-| `SDH.SalesDistrict` | `SDH.SalesDistrict` |
-| `SDH._SalesDistrict` | `SDH._SalesDistrict` |
-| `product_catalog)` | `cast(SDH.ProductCatalog` |
-| `SDH.ServicesRenderedDate` | `SDH.ServicesRenderedDate` |
-| `SDH.TransactionCurrency` | `SDH.TransactionCurrency` |
-| `SDH._TransactionCurrency` | `SDH._TransactionCurrency` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `SDH.PricingDate` | `SDH.PricingDate` |
-| `retail_promotion)` | `cast(SDH.RetailPromotion` |
-| `sales_order_condition)` | `cast(SDH.SalesDocumentCondition` |
-| `nmbr_of_incg_sls_ords)` | `cast(1` |
-| `incg_sls_ords_net_amt)` | `cast(SDH.TotalNetAmount` |
-| `cast (currency_conversion(` | `cast (currency_conversion(` |
-| `amount => SDH.TotalNetAmount` | `amount => SDH.TotalNetAmount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SDH.CreationDate` | `exchange_rate_date => SDH.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `incg_sls_ords_net_amt_in_dc)` | `)` |
-| `opn_ords_for_ordrelinv_amt_idc)` | `cast(OpnSOForOrdReltdInvcsNetAmtDC` |
-| `opn_ord_for_del_amt_idc)` | `cast(OpnSlsOrdsForDelivAmtInDspCrcy` |
-| `opn_ord_for_iplan_amt_idc)` | `cast(OpnSlsOrdsForInvcPlansNetAmtDC` |
-| `cast(case when OverallSDProcessStatus != 'C'` | `cast(case when OverallSDProcessStatus != 'C'` |
-| `then 1` | `then 1` |
-| `else 0` | `else 0` |
-| `nmbr_of_opn_sls_ords)` | `end` |
-| `SDH.RequestedDeliveryDate` | `SDH.RequestedDeliveryDate` |
-| `SDH.ShippingType` | `SDH.ShippingType` |
-| `SDH._ShippingType` | `SDH._ShippingType` |
-| `SDH.ShippingCondition` | `SDH.ShippingCondition` |
-| `SDH._ShippingCondition` | `SDH._ShippingCondition` |
-| `SDH.IncotermsClassification` | `SDH.IncotermsClassification` |
-| `SDH._IncotermsClassification` | `SDH._IncotermsClassification` |
-| `SDH.IncotermsTransferLocation` | `SDH.IncotermsTransferLocation` |
-| `SDH.IncotermsLocation1` | `SDH.IncotermsLocation1` |
-| `SDH.IncotermsLocation2` | `SDH.IncotermsLocation2` |
-| `SDH.IncotermsVersion` | `SDH.IncotermsVersion` |
-| `SDH._IncotermsVersion` | `SDH._IncotermsVersion` |
-| `SDH.CompleteDeliveryIsDefined` | `SDH.CompleteDeliveryIsDefined` |
-| `SDH.DeliveryBlockReason` | `SDH.DeliveryBlockReason` |
-| `SDH._DeliveryBlockReason` | `SDH._DeliveryBlockReason` |
-| `SDH.BillingDocumentDate` | `SDH.BillingDocumentDate` |
-| `SDH.BillingCompanyCode` | `SDH.BillingCompanyCode` |
-| `SDH._BillingCompanyCode` | `SDH._BillingCompanyCode` |
-| `SDH.HeaderBillingBlockReason` | `SDH.HeaderBillingBlockReason` |
-| `SDH._HeaderBillingBlockReason` | `SDH._HeaderBillingBlockReason` |
-| `SDH.CustomerPaymentTerms` | `SDH.CustomerPaymentTerms` |
-| `SDH._CustomerPaymentTerms` | `SDH._CustomerPaymentTerms` |
-| `SDH.PaymentMethod` | `SDH.PaymentMethod` |
-| `SDH.FixedValueDate` | `SDH.FixedValueDate` |
+| `SDDocumentReason` | `SDH.SDDocumentReason` |
+| `_SDDocumentReason` | *Association* |
+| `SDDocumentCollectiveNumber` | `SDH.SDDocumentCollectiveNumber` |
+| `PurchaseOrderByCustomer` | `SDH.PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `SDH.CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `SDH.CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `SDH.CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SDH.SalesDistrict` |
+| `_SalesDistrict` | *Association* |
+| `ProductCatalog` | `cast(SDH.ProductCatalog as product_catalog)` |
+| `ServicesRenderedDate` | `SDH.ServicesRenderedDate` |
+| `TransactionCurrency` | `SDH.TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `PricingDate` | `SDH.PricingDate` |
+| `RetailPromotion` | `cast(SDH.RetailPromotion as retail_promotion)` |
+| `SalesOrderCondition` | `cast(SDH.SalesDocumentCondition as sales_order_condition)` |
+| `NumberOfIncomingSalesOrders` | `cast(1 as nmbr_of_incg_sls_ords)` |
+| `IncomingSalesOrdersNetAmount` | `cast(SDH.TotalNetAmount as incg_sls_ords_net_amt)` |
+| `IncomingSalesOrdersNetAmtInDC` | `cast(…)` |
+| `OpnSOForOrdReltdInvcsNetAmtDC` | `cast(OpnSOForOrdReltdInvcsNetAmtDC as opn_ords_for_ordrelinv_amt_idc)` |
+| `OpnSlsOrdsForDelivAmtInDspCrcy` | `cast(OpnSlsOrdsForDelivAmtInDspCrcy as opn_ord_for_del_amt_idc)` |
+| `OpnSlsOrdsForInvcPlansNetAmtDC` | `cast(OpnSlsOrdsForInvcPlansNetAmtDC as opn_ord_for_iplan_amt_idc)` |
+| `NumberOfOpenSalesOrders` | `cast(…)` |
+| `RequestedDeliveryDate` | `SDH.RequestedDeliveryDate` |
+| `ShippingType` | `SDH.ShippingType` |
+| `_ShippingType` | *Association* |
+| `ShippingCondition` | `SDH.ShippingCondition` |
+| `_ShippingCondition` | *Association* |
+| `IncotermsClassification` | `SDH.IncotermsClassification` |
+| `_IncotermsClassification` | *Association* |
+| `IncotermsTransferLocation` | `SDH.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `SDH.IncotermsLocation1` |
+| `IncotermsLocation2` | `SDH.IncotermsLocation2` |
+| `IncotermsVersion` | `SDH.IncotermsVersion` |
+| `_IncotermsVersion` | *Association* |
+| `CompleteDeliveryIsDefined` | `SDH.CompleteDeliveryIsDefined` |
+| `DeliveryBlockReason` | `SDH.DeliveryBlockReason` |
+| `_DeliveryBlockReason` | *Association* |
+| `BillingDocumentDate` | `SDH.BillingDocumentDate` |
+| `BillingCompanyCode` | `SDH.BillingCompanyCode` |
+| `_BillingCompanyCode` | *Association* |
+| `HeaderBillingBlockReason` | `SDH.HeaderBillingBlockReason` |
+| `_HeaderBillingBlockReason` | *Association* |
+| `CustomerPaymentTerms` | `SDH.CustomerPaymentTerms` |
+| `_CustomerPaymentTerms` | *Association* |
+| `PaymentMethod` | `SDH.PaymentMethod` |
+| `FixedValueDate` | `SDH.FixedValueDate` |
 | `CustomerProject` | `CustomerProjectItem.EngagementProject` |
 | `_CustomerProject` | *Association* |
-| `SDH.FiscalYear` | `SDH.FiscalYear` |
-| `SDH.FiscalPeriod` | `SDH.FiscalPeriod` |
-| `SDH.ExchangeRateType` | `SDH.ExchangeRateType` |
-| `SDH._ExchangeRateType` | `SDH._ExchangeRateType` |
-| `SDH.BusinessArea` | `SDH.BusinessArea` |
-| `SDH._BusinessArea` | `SDH._BusinessArea` |
-| `SDH.CustomerAccountAssignmentGroup` | `SDH.CustomerAccountAssignmentGroup` |
-| `SDH._CustomerAccountAssgmtGroup` | `SDH._CustomerAccountAssgmtGroup` |
-| `business_area_cost_center preserving type)` | `cast(SDH.CostCenterBusinessArea` |
-| `SDH._CostCenterBusinessArea` | `SDH._CostCenterBusinessArea` |
-| `SDH.CostCenter` | `SDH.CostCenter` |
-| `SDH._CostCenter` | `SDH._CostCenter` |
-| `SDH.ControllingArea` | `SDH.ControllingArea` |
-| `SDH._ControllingArea` | `SDH._ControllingArea` |
-| `SDH.OrderID` | `SDH.OrderID` |
-| `controlling_object)` | `cast(SDH.ControllingObject` |
-| `SDH.ReferenceSDDocument` | `SDH.ReferenceSDDocument` |
-| `SDH.ReferenceSDDocumentCategory` | `SDH.ReferenceSDDocumentCategory` |
-| `SDH._ReferenceSDDocumentCategory` | `SDH._ReferenceSDDocumentCategory` |
-| `SDH.BusinessSolutionOrder, --AT14May2020: Added for CE2008` | `SDH.BusinessSolutionOrder, --AT14May2020: Added for CE2008` |
-| `SDH._SolutionOrder` | `SDH._SolutionOrder` |
-| `overall_sd_process_status preserving type)` | `cast(SDH.OverallSDProcessStatus` |
-| `SDH._OverallSDProcessStatus` | `SDH._OverallSDProcessStatus` |
-| `overall_purchase_conf_status preserving type)` | `cast(SDH.OverallPurchaseConfStatus` |
-| `SDH._OverallPurchaseConfStatus` | `SDH._OverallPurchaseConfStatus` |
-| `ovrl_sd_doc_rejection_status preserving type)` | `cast(SDH.OverallSDDocumentRejectionSts` |
-| `SDH._OverallSDDocumentRejectionSts` | `SDH._OverallSDDocumentRejectionSts` |
-| `SDH.TotalBlockStatus` | `SDH.TotalBlockStatus` |
-| `SDH._TotalBlockStatus` | `SDH._TotalBlockStatus` |
-| `overall_delivery_conf_status preserving type)` | `cast(SDH.OverallDelivConfStatus` |
-| `SDH._OverallDelivConfStatus` | `SDH._OverallDelivConfStatus` |
-| `itms_ovrl_delivery_status preserving type)` | `cast(SDH.OverallTotalDeliveryStatus` |
-| `SDH._OverallTotalDeliveryStatus` | `SDH._OverallTotalDeliveryStatus` |
-| `overall_delivery_status preserving type)` | `cast(SDH.OverallDeliveryStatus` |
-| `SDH._OverallDeliveryStatus` | `SDH._OverallDeliveryStatus` |
-| `overall_delivery_block_status preserving type)` | `cast(SDH.OverallDeliveryBlockStatus` |
-| `SDH._OverallDeliveryBlockStatus` | `SDH._OverallDeliveryBlockStatus` |
-| `ovrl_ord_rel_billg_status preserving type)` | `cast(SDH.OverallOrdReltdBillgStatus` |
-| `SDH._OverallOrdReltdBillgStatus` | `SDH._OverallOrdReltdBillgStatus` |
-| `overall_billing_block_status preserving type)` | `cast(SDH.OverallBillingBlockStatus` |
-| `SDH._OverallBillingBlockStatus` | `SDH._OverallBillingBlockStatus` |
-| `ovrl_reference_status preserving type)` | `cast(SDH.OverallTotalSDDocRefStatus` |
-| `SDH._OverallTotalSDDocRefStatus` | `SDH._OverallTotalSDDocRefStatus` |
-| `ovrl_sd_doc_reference_status preserving type)` | `cast(SDH.OverallSDDocReferenceStatus` |
-| `SDH._OverallSDDocReferenceStatus` | `SDH._OverallSDDocReferenceStatus` |
-| `SDH.TotalCreditCheckStatus` | `SDH.TotalCreditCheckStatus` |
-| `SDH._TotalCreditCheckStatus` | `SDH._TotalCreditCheckStatus` |
-| `SDH.MaxDocValueCreditCheckStatus` | `SDH.MaxDocValueCreditCheckStatus` |
-| `SDH._MaxDocValueCreditCheckStatus` | `SDH._MaxDocValueCreditCheckStatus` |
-| `payt_terms_credit_check_status preserving type)` | `cast(SDH.PaymentTermCreditCheckStatus` |
-| `SDH._PaymentTermCreditCheckStatus` | `SDH._PaymentTermCreditCheckStatus` |
-| `SDH.FinDocCreditCheckStatus` | `SDH.FinDocCreditCheckStatus` |
-| `SDH._FinDocCreditCheckStatus` | `SDH._FinDocCreditCheckStatus` |
-| `SDH.ExprtInsurCreditCheckStatus` | `SDH.ExprtInsurCreditCheckStatus` |
-| `SDH._ExprtInsurCreditCheckStatus` | `SDH._ExprtInsurCreditCheckStatus` |
-| `SDH.PaytAuthsnCreditCheckSts` | `SDH.PaytAuthsnCreditCheckSts` |
-| `SDH._PaytAuthsnCreditCheckSts` | `SDH._PaytAuthsnCreditCheckSts` |
-| `central_credit_check_status preserving type)` | `cast(SDH.CentralCreditCheckStatus` |
-| `SDH._CentralCreditCheckStatus` | `SDH._CentralCreditCheckStatus` |
-| `centrl_crdt_chck_tech_err_sts preserving type)` | `cast(SDH.CentralCreditChkTechErrSts` |
-| `SDH._CentralCreditChkTechErrSts` | `SDH._CentralCreditChkTechErrSts` |
-| `hdr_general_incompltn_status preserving type)` | `cast(SDH.HdrGeneralIncompletionStatus` |
-| `SDH._HdrGeneralIncompletionStatus` | `SDH._HdrGeneralIncompletionStatus` |
-| `ovrl_pricing_incompletion_sts preserving type)` | `cast(SDH.OverallPricingIncompletionSts` |
-| `SDH._OverallPricingIncompletionSts` | `SDH._OverallPricingIncompletionSts` |
-| `hdrdelivincompletionstatus  preserving type)` | `cast(SDH.HeaderDelivIncompletionStatus` |
-| `SDH._HeaderDelivIncompletionStatus` | `SDH._HeaderDelivIncompletionStatus` |
-| `hdrbillgincompletionstatus preserving type)` | `cast(SDH.HeaderBillgIncompletionStatus` |
-| `SDH._HeaderBillgIncompletionStatus` | `SDH._HeaderBillgIncompletionStatus` |
-| `itms_ovrl_incompletion_status preserving type)` | `cast(SDH.OvrlItmGeneralIncompletionSts` |
-| `SDH._OvrlItmGeneralIncompletionSts` | `SDH._OvrlItmGeneralIncompletionSts` |
-| `ovrl_itms_incompltn_sts_billg preserving type)` | `cast(SDH.OvrlItmBillingIncompletionSts` |
-| `SDH._OvrlItmBillingIncompletionSts` | `SDH._OvrlItmBillingIncompletionSts` |
-| `ovrl_items_dlv_incompltn_sts preserving type)` | `cast(SDH.OvrlItmDelivIncompletionSts` |
-| `SDH._OvrlItmDelivIncompletionSts` | `SDH._OvrlItmDelivIncompletionSts` |
+| `FiscalYear` | `SDH.FiscalYear` |
+| `FiscalPeriod` | `SDH.FiscalPeriod` |
+| `ExchangeRateType` | `SDH.ExchangeRateType` |
+| `_ExchangeRateType` | *Association* |
+| `BusinessArea` | `SDH.BusinessArea` |
+| `_BusinessArea` | *Association* |
+| `CustomerAccountAssignmentGroup` | `SDH.CustomerAccountAssignmentGroup` |
+| `_CustomerAccountAssgmtGroup` | *Association* |
+| `CostCenterBusinessArea` | `cast(SDH.CostCenterBusinessArea as business_area_cost_center preserving type)` |
+| `_CostCenterBusinessArea` | *Association* |
+| `CostCenter` | `SDH.CostCenter` |
+| `_CostCenter` | *Association* |
+| `ControllingArea` | `SDH.ControllingArea` |
+| `_ControllingArea` | *Association* |
+| `OrderID` | `SDH.OrderID` |
+| `ControllingObject` | `cast(SDH.ControllingObject as controlling_object)` |
+| `ReferenceSDDocument` | `SDH.ReferenceSDDocument` |
+| `ReferenceSDDocumentCategory` | `SDH.ReferenceSDDocumentCategory` |
+| `_ReferenceSDDocumentCategory` | *Association* |
+| `BusinessSolutionOrder` | `SDH.BusinessSolutionOrder` |
+| `_SolutionOrder` | *Association* |
+| `OverallSDProcessStatus` | `cast(SDH.OverallSDProcessStatus as overall_sd_process_status preserving type)` |
+| `_OverallSDProcessStatus` | *Association* |
+| `OverallPurchaseConfStatus` | `cast(…)` |
+| `_OverallPurchaseConfStatus` | *Association* |
+| `OverallSDDocumentRejectionSts` | `cast(…)` |
+| `_OverallSDDocumentRejectionSts` | *Association* |
+| `TotalBlockStatus` | `SDH.TotalBlockStatus` |
+| `_TotalBlockStatus` | *Association* |
+| `OverallDelivConfStatus` | `cast(SDH.OverallDelivConfStatus as overall_delivery_conf_status preserving type)` |
+| `_OverallDelivConfStatus` | *Association* |
+| `OverallTotalDeliveryStatus` | `cast(…)` |
+| `_OverallTotalDeliveryStatus` | *Association* |
+| `OverallDeliveryStatus` | `cast(SDH.OverallDeliveryStatus as overall_delivery_status preserving type)` |
+| `_OverallDeliveryStatus` | *Association* |
+| `OverallDeliveryBlockStatus` | `cast(…)` |
+| `_OverallDeliveryBlockStatus` | *Association* |
+| `OverallOrdReltdBillgStatus` | `cast(…)` |
+| `_OverallOrdReltdBillgStatus` | *Association* |
+| `OverallBillingBlockStatus` | `cast(…)` |
+| `_OverallBillingBlockStatus` | *Association* |
+| `OverallTotalSDDocRefStatus` | `cast(SDH.OverallTotalSDDocRefStatus as ovrl_reference_status preserving type)` |
+| `_OverallTotalSDDocRefStatus` | *Association* |
+| `OverallSDDocReferenceStatus` | `cast(…)` |
+| `_OverallSDDocReferenceStatus` | *Association* |
+| `TotalCreditCheckStatus` | `SDH.TotalCreditCheckStatus` |
+| `_TotalCreditCheckStatus` | *Association* |
+| `MaxDocValueCreditCheckStatus` | `SDH.MaxDocValueCreditCheckStatus` |
+| `_MaxDocValueCreditCheckStatus` | *Association* |
+| `PaymentTermCreditCheckStatus` | `cast(…)` |
+| `_PaymentTermCreditCheckStatus` | *Association* |
+| `FinDocCreditCheckStatus` | `SDH.FinDocCreditCheckStatus` |
+| `_FinDocCreditCheckStatus` | *Association* |
+| `ExprtInsurCreditCheckStatus` | `SDH.ExprtInsurCreditCheckStatus` |
+| `_ExprtInsurCreditCheckStatus` | *Association* |
+| `PaytAuthsnCreditCheckSts` | `SDH.PaytAuthsnCreditCheckSts` |
+| `_PaytAuthsnCreditCheckSts` | *Association* |
+| `CentralCreditCheckStatus` | `cast(…)` |
+| `_CentralCreditCheckStatus` | *Association* |
+| `CentralCreditChkTechErrSts` | `cast(…)` |
+| `_CentralCreditChkTechErrSts` | *Association* |
+| `HdrGeneralIncompletionStatus` | `cast(…)` |
+| `_HdrGeneralIncompletionStatus` | *Association* |
+| `OverallPricingIncompletionSts` | `cast(…)` |
+| `_OverallPricingIncompletionSts` | *Association* |
+| `HeaderDelivIncompletionStatus` | `cast(…)` |
+| `_HeaderDelivIncompletionStatus` | *Association* |
+| `HeaderBillgIncompletionStatus` | `cast(…)` |
+| `_HeaderBillgIncompletionStatus` | *Association* |
+| `OvrlItmGeneralIncompletionSts` | `cast(…)` |
+| `_OvrlItmGeneralIncompletionSts` | *Association* |
+| `OvrlItmBillingIncompletionSts` | `cast(…)` |
+| `_OvrlItmBillingIncompletionSts` | *Association* |
+| `OvrlItmDelivIncompletionSts` | `cast(…)` |
+| `_OvrlItmDelivIncompletionSts` | *Association* |
 
 ## Associations
 

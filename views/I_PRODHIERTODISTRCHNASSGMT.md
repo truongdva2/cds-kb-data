@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-PH-2CL
   - lob:Sales & Distribution
+  - bo:ProductHierarchyAssignment
 ---
 # I_PRODHIERTODISTRCHNASSGMT
 
@@ -36,7 +37,7 @@ tags:
 | `UniversalHierVersValidTo` | `universalhierversvalidto` |
 | `UniversalHierVersValidFrom` | `universalhierversvalidfrom` |
 | `ProductHierarchy` | `producthierarchy` |
-| `last_changed_date_time preserving type )` | `cast( lastchangedatetime` |
+| `LastChangeDateTime` | `cast( lastchangedatetime as last_changed_date_time preserving type )` |
 | `_SalesProductHierarchyPurpose` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |

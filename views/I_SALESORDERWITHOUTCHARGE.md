@@ -32,9 +32,82 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingObjectStdVH'` | `name:    'I_ControllingObjectStdVH'` |
-| `element: 'ControllingObject' }` | `element: 'ControllingObject' }` |
-| `}]` | `}]` |
+| `SalesOrderWithoutCharge` | `cast(SalesDocument as sales_order_without_charge preserving type)` |
+| `SalesOrderWithoutChargeType` | `cast( SalesDocumentType as sd_slsord_without_charge_type preserving type )` |
+| `SalesOrderWthoutChrgProcgType` | `SalesDocumentProcessingType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `cast(LastChangeDateTime as vdm_lastchangedon)` |
+| `LastCustomerContactDate` | `LastCustomerContactDate` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `SoldToParty` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `CreditControlArea` | `CreditControlArea` |
+| `CustomerRebateAgreement` | `CustomerRebateAgreement` |
+| `SalesOrderWithoutChargeDate` | `SalesDocumentDate` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `SDDocumentCollectiveNumber` | `SDDocumentCollectiveNumber` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SalesDistrict` |
+| `ProductCatalog` | `ProductCatalog` |
+| `SchedulingAgreementProfileCode` | `SchedulingAgreementProfileCode` |
+| `AgrmtValdtyStartDate` | `cast(AgrmtValdtyStartDate as sd_sowoc_valid_from)` |
+| `AgrmtValdtyEndDate` | `cast(AgrmtValdtyEndDate as sd_sowoc_valid_to)` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `StatisticsCurrency` | `StatisticsCurrency` |
+| `PricingDate` | `PricingDate` |
+| `RetailPromotion` | `RetailPromotion` |
+| `SalesOrderWthoutChrgCondition` | `SalesDocumentCondition` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `RequestedDeliveryDate` | `RequestedDeliveryDate` |
+| `ShippingType` | `ShippingType` |
+| `ShippingCondition` | `ShippingCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `CompleteDeliveryIsDefined` | `CompleteDeliveryIsDefined` |
+| `OrderCombinationIsAllowed` | `OrderCombinationIsAllowed` |
+| `DeliveryBlockReason` | `DeliveryBlockReason` |
+| `DeliveryDateTypeRule` | `DeliveryDateTypeRule` |
+| `SlsOrdWthoutChrgApprvlReason` | `cast(SalesDocApprovalReason as sd_sowoc_approval_reason)` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingCompanyCode` | `BillingCompanyCode` |
+| `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FixedValueDate` | `FixedValueDate` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `BusinessArea` | `BusinessArea` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `CostCenterBusinessArea` | `CostCenterBusinessArea` |
+| `CostCenter` | `CostCenter` |
+| `ControllingArea` | `ControllingArea` |
+| `OrderID` | `OrderID` |
 | `ControllingObject` | `ControllingObject` |
 | `ReferenceSDDocument` | `ReferenceSDDocument` |
 | `AccountingDocExternalReference` | `AccountingDocExternalReference` |

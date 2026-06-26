@@ -17,6 +17,7 @@ tags:
   - contract
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceContract
 ---
 # I_ACCTGSERVICECONTRACTVH
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceContract` | `ServiceDocument` |
 | `ObjectType` | `ObjectType` |
 

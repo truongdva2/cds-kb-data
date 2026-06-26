@@ -31,13 +31,64 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SalesSpcfcProductGroup5', element: 'SalesSpcfcProductGroup5' }, useAsTemplate: true }]` | `name: 'I_SalesSpcfcProductGroup5', element: 'SalesSpcfcProductGroup5' }, useAsTemplate: true }]` |
-| `}` | `}` |
+| `PersonnelSettlementDocument` | `PersonnelSettlementDocument` |
+| `PersSettlmtDocItem` | `PersSettlmtDocItem` |
+| `PersSettlmtDocCurrency` | `PersSettlmtDocCurrency` |
+| `PricingDocument` | `PricingDocument` |
+| `Product` | `Product` |
+| `ProductGroup` | `ProductGroup` |
+| `Plant` | `Plant` |
+| `PricingDate` | `PricingDate` |
+| `SettlmtQuantity` | `SettlmtQuantity` |
+| `SettlmtQuantityUnit` | `SettlmtQuantityUnit` |
+| `NetPriceAmount` | `NetPriceAmount` |
+| `NetPriceQuantity` | `NetPriceQuantity` |
+| `NetPriceQuantityUnit` | `NetPriceQuantityUnit` |
+| `SettlmtToBaseQuantityNmrtr` | `SettlmtToBaseQuantityNmrtr` |
+| `SettlmtToBaseQuantityDnmntr` | `SettlmtToBaseQuantityDnmntr` |
+| `SettlmtToNetPriceQtyNmrtr` | `SettlmtToNetPriceQtyNmrtr` |
+| `SettlmtToNetPriceQtyDnmntr` | `SettlmtToNetPriceQtyDnmntr` |
+| `BaseUnit` | `BaseUnit` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ItemNetAmount` | `ItemNetAmount` |
+| `Subtotal1Amount` | `Subtotal1Amount` |
+| `Subtotal2Amount` | `Subtotal2Amount` |
+| `Subtotal3Amount` | `Subtotal3Amount` |
+| `Subtotal4Amount` | `Subtotal4Amount` |
+| `Subtotal5Amount` | `Subtotal5Amount` |
+| `Subtotal6Amount` | `Subtotal6Amount` |
+| `RebateBasisAmount` | `RebateBasisAmount` |
+| `PersSettlmtDocItmStstclPrpty` | `PersSettlmtDocItmStstclPrpty` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `PersSettlmtDocItmActyReason` | `PersSettlmtDocItmActyReason` |
+| `PersSettlmtDocItemText` | `PersSettlmtDocItemText` |
+| `BusinessArea` | `BusinessArea` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `ProfitCenter` | `ProfitCenter` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `PersSettlmtDocOrder` | `PersSettlmtDocOrder` |
+| `PrcDetnIsIncmplt` | `PrcDetnIsIncmplt` |
+| `PersSettlmtDocItemCat` | `PersSettlmtDocItemCat` |
+| `PersSettlmtDocItemStatus` | `PersSettlmtDocItemStatus` |
+| `PersSettlmtDocItemRvsd` | `PersSettlmtDocItemRvsd` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SettlementFiscalYear` | `SettlementFiscalYear` |
+| `CompanyCode` | `CompanyCode` |
+| `GLAccount` | `GLAccount` |
+| `SalesSpcfcProductGroup1` | `SalesSpcfcProductGroup1` |
+| `SalesSpcfcProductGroup2` | `SalesSpcfcProductGroup2` |
+| `SalesSpcfcProductGroup3` | `SalesSpcfcProductGroup3` |
+| `SalesSpcfcProductGroup4` | `SalesSpcfcProductGroup4` |
 | `SalesSpcfcProductGroup5` | `SalesSpcfcProductGroup5` |
 | `BusTransDocReferenceID` | `BusTransDocReferenceID` |
 | `BusTransDocReferenceItemID` | `BusTransDocReferenceItemID` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_PersSettlmtDoc : redirected to parent I_PersSettlmtDocTP` | *Association* |
 
 ## Associations
 

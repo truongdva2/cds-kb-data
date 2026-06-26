@@ -32,9 +32,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localInstanceLastChangedAt: true } }` | `localInstanceLastChangedAt: true } }` |
+| `DCoDisputeUUID` | `DCoDisputeUUID` |
+| `DCoDisputeAccountingDocUUID` | `DCoDisputeAccountingDocUUID` |
+| `DCoAccountingDocumentUUID` | `DCoAccountingDocumentUUID` |
+| `DCoDisputeAcctgDocCurrency` | `DCoDisputeAcctgDocCurrency` |
+| `DCoDsputAcctgDocDsputdAmt` | `DCoDsputAcctgDocDsputdAmt` |
+| `DCoDsputAcctgDocToBeColltdAmt` | `DCoDsputAcctgDocToBeColltdAmt` |
+| `DCoDsputAcctgDocCrrtnAmt` | `DCoDsputAcctgDocCrrtnAmt` |
+| `DCoDsputAcctgDocWrtOffAmt` | `DCoDsputAcctgDocWrtOffAmt` |
+| `DCoDisputeAcctgDocumentReason` | `DCoDisputeAcctgDocumentReason` |
+| `DCoDisputeAcctgDocDecision` | `DCoDisputeAcctgDocDecision` |
+| `DCoDisputeAcctgDocCategory` | `DCoDisputeAcctgDocCategory` |
+| `DCoPrelimAccountingDocumentID` | `DCoPrelimAccountingDocumentID` |
+| `DCoPrelimAcctgDocLogicalSystem` | `DCoPrelimAcctgDocLogicalSystem` |
+| `DCoDisputeAcctgDocCreationUser` | `DCoDisputeAcctgDocCreationUser` |
+| `DCoDsputAcctgDocCrtnDateTime` | `DCoDsputAcctgDocCrtnDateTime` |
+| `DCoDsputAcctgDocLastChgdByUsr` | `DCoDsputAcctgDocLastChgdByUsr` |
 | `DCoDsputAcctgDocLstChgDateTime` | `DCoDsputAcctgDocLstChgDateTime` |
-| `_Dispute : redirected to parent /DCO/I_DisputeTP` | *Association* |
 
 ## Associations
 

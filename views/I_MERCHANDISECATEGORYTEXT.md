@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MerchandiseCategoryText
 ---
 # I_MERCHANDISECATEGORYTEXT
 
@@ -37,7 +38,6 @@ tags:
 | `MerchandiseCategoryName` | `MerchandiseCategoryText.wgbez` |
 | `MerchandiseCategoryText` | `MerchandiseCategoryText.wgbez60` |
 | `ClassInternalID` | `MrchdsCategory.clint` |
-| `/* Associations */` | `/* Associations */` |
 | `_MerchandiseCategory` | *Association* |
 | `_Language` | *Association* |
 

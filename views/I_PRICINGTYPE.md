@@ -15,6 +15,7 @@ tags:
   - pricing
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingType
 ---
 # I_PRICINGTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `knprs preserving type)` | `cast ( SUBSTRING( domvalue_l, 1, 1)` |
+| `PricingType` | `cast ( SUBSTRING( domvalue_l, 1, 1) as knprs preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

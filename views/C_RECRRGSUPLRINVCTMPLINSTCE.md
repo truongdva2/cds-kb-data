@@ -12,6 +12,7 @@ tags:
   - consumption-view
   - component:FI-FIO-AP-2CL
   - lob:Finance
+  - bo:RecrrgSuplrInvcTmplInstce
 ---
 # C_RECRRGSUPLRINVCTMPLINSTCE
 
@@ -29,17 +30,17 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RecrrgSuplrInvcTmplInstceUUID` | `_Forcast.RecrrgSuplrInvcTmplInstceUUID` |
-| `_Forcast.RecrrgSuplrInvcTmplUUID                                                        as RecrrgSuplrInvcTmplUUID` | *Association* |
-| `_Forcast.RecrrgSuplrInvcTmplInstance                                                    as RecrrgSuplrInvcTmplInstance` | *Association* |
-| `_Forcast.RecurrenceInstanceStatus                                                       as RecurrenceInstanceStatus` | *Association* |
-| `_RecurrenceStatusText._Text[ Language = $session.system_language ].RecurrenceStatusName as RecurrenceInstanceStatusName` | *Association* |
-| `_Forcast.PostingDate                                                                    as PostingDate` | *Association* |
-| `_Forcast.AccountingDocument                                                             as AccountingDocument` | *Association* |
-| `_Forcast.FiscalYear                                                                     as FiscalYear` | *Association* |
-| `_Forcast.TransactionCurrency                                                            as TransactionCurrency` | *Association* |
-| `_Forcast.AmountInTransactionCurrency                                                    as AmountInTransactionCurrency` | *Association* |
-| `_Tmpl.CompanyCode                                                                       as CompanyCode` | *Association* |
-| `_Forcast.OriginalReferenceDocument                                                      as OriginalReferenceDocument` | *Association* |
+| `RecrrgSuplrInvcTmplUUID` | `_Forcast.RecrrgSuplrInvcTmplUUID` |
+| `RecrrgSuplrInvcTmplInstance` | `_Forcast.RecrrgSuplrInvcTmplInstance` |
+| `RecurrenceInstanceStatus` | `_Forcast.RecurrenceInstanceStatus` |
+| `RecurrenceInstanceStatusName` | `expr(…)` |
+| `PostingDate` | `_Forcast.PostingDate` |
+| `AccountingDocument` | `_Forcast.AccountingDocument` |
+| `FiscalYear` | `_Forcast.FiscalYear` |
+| `TransactionCurrency` | `_Forcast.TransactionCurrency` |
+| `AmountInTransactionCurrency` | `_Forcast.AmountInTransactionCurrency` |
+| `CompanyCode` | `_Tmpl.CompanyCode` |
+| `OriginalReferenceDocument` | `_Forcast.OriginalReferenceDocument` |
 | `_Tmpl` | *Association* |
 
 ## Associations

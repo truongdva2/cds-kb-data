@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-APS-EXT-REL
   - lob:Basis Components
+  - bo:ABAPSoftwareComponent
 ---
 # I_CUSTABAPSOFTWARECOMPONENTTXT
 
@@ -30,15 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ABAPSoftwareComponent` | `ABAPSoftwareComponent` |
-| `key Language` | `Language` |
+| `ABAPSoftwareComponent` | `ABAPSoftwareComponent` |
+| `Language` | `Language` |
 | `ABAPSoftwareComponentName` | `ABAPSoftwareComponentName` |
 | `_ABAPSoftwareComponent` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ABAPSoftwareComponent` | `I_CustABAPSoftwareComponent` | — |
 
 ## Source Code
 

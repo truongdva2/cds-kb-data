@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs preserving type )` | `cast( jv.bukrs` |
-| `jv_name_cds preserving type )` | `cast(vname` |
+| `CompanyCode` | `cast( jv.bukrs as fis_bukrs preserving type )` |
+| `JointVenture` | `cast(vname as jv_name_cds preserving type )` |
 | `JointVentureType` | `jv.vtype` |
 | `JointVentureClass` | `jv.vclass` |
 | `JntOpgAgrmt` | `jv.joa` |

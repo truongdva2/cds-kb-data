@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:PurchasingQualityInfoRecord
 ---
 # I_QUALITYINPROCUREMENT
 
@@ -30,12 +31,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Material` | `qinf.matnr` |
-| `vdm_qm_qltyinprocmtintid preserving type )` | `cast(qinf.zaehl` |
+| `QltyInProcmtIntID` | `cast(qinf.zaehl as vdm_qm_qltyinprocmtintid preserving type )` |
 | `Supplier` | `qinf.lieferant` |
 | `Plant` | `qinf.werk` |
-| `vdm_qm_revlv preserving type )` | `cast( qinf.revlv` |
+| `MaterialRevisionLevel` | `cast( qinf.revlv as vdm_qm_revlv preserving type )` |
 | `QltyInProcmtReleaseValidTo` | `qinf.frei_dat` |
-| `vdm_qfreimgkz preserving type )` | `cast( qinf.frei_mgkz` |
+| `QltyInProcmtRelQtyIsActive` | `cast( qinf.frei_mgkz as vdm_qfreimgkz preserving type )` |
 | `BaseUnit` | `qinf.me` |
 | `ReleasedQuantity` | `qinf.frei_mng` |
 | `OrderedQuantity` | `qinf.best_mg` |
@@ -44,17 +45,17 @@ tags:
 | `ProcurementBlock` | `qinf.sperrfkt` |
 | `QualityManagementSystem` | `qinf.qssysfam` |
 | `QltyInProcmtCertfnValidTo` | `qinf.qssysdat` |
-| `_Supplier.SupplierProcurementBlock` | *Association* |
-| `_Supplier.SuplrQualityManagementSystem` | *Association* |
-| `_Supplier.SuplrQltyInProcmtCertfnValidTo` | *Association* |
+| `SupplierProcurementBlock` | `_Supplier.SupplierProcurementBlock` |
+| `SuplrQualityManagementSystem` | `_Supplier.SuplrQualityManagementSystem` |
+| `SuplrQltyInProcmtCertfnValidTo` | `_Supplier.SuplrQltyInProcmtCertfnValidTo` |
 | `QltyInProcmtInspControl` | `qinf.noinsp` |
 | `InspectionLotType` | `qinf.variabnahm` |
 | `QltyInProcmtHasLongText` | `qinf.ltextkz` |
-| `vdm_qnoweabn preserving type )` | `cast( qinf.noinspabn` |
+| `QltyInProcmtNoFurtherInsp` | `cast( qinf.noinspabn as vdm_qnoweabn preserving type )` |
 | `QltyInProcmtLotCrtnLeadTime` | `qinf.vorlabn` |
 | `IsDeleted` | `qinf.loekz` |
 | `QltyInProcmtCertificateCtrl` | `qinf.certcontrol` |
-| `vdm_qqsvvorh preserving type )` | `cast( qinf.qvvorh` |
+| `QltyInProcmtHasAssuranceAgrmt` | `cast( qinf.qvvorh as vdm_qqsvvorh preserving type )` |
 | `QltyInProcmtCurInspLot` | `qinf.plos` |
 | `QltyInProcmtNextInspLot` | `qinf.plos2` |
 | `ProdnPieceApprovalIsRequired` | `qinf.ppap_is_required` |
@@ -67,13 +68,10 @@ tags:
 | `CreationDate` | `qinf.erstelldat` |
 | `LastChangedByUser` | `qinf.aenderer` |
 | `LastChangeDate` | `qinf.aenderdat` |
-| `case qinf.changeddatetime` | `case qinf.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qinf.changeddatetime end` |
-| `Language, // or QINF.sprache` | `qinf.spras` |
-| `_DocObjKeyForQltyInProcmt.LinkedSAPObjectKey as LinkedSAPObjectKey` | *Association* |
-| `qdokart preserving type )` | `cast( 'Q01'` |
-| `/*Assosiations*/` | `/*Assosiations*/` |
+| `ChangedDateTime` | `case…end` |
+| `Language` | `qinf.spras` |
+| `LinkedSAPObjectKey` | `_DocObjKeyForQltyInProcmt.LinkedSAPObjectKey` |
+| `DocumentInfoRecordDocType` | `cast( 'Q01' as qdokart preserving type )` |
 | `_Material` | *Association* |
 | `_ProductPlantQtManagement` | *Association* |
 | `_Plant` | *Association* |

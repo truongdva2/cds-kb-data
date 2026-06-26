@@ -17,6 +17,7 @@ tags:
   - schedule-line
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:ScheduleLineCategory
 ---
 # I_SCHEDULELINECATEGORYTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ScheduleLineCategory` | `I_ScheduleLineCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

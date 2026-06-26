@@ -15,6 +15,7 @@ tags:
   - status
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsDocumentStatus
 ---
 # I_RETURNSDOCUMENTSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_doc_status)` | `cast( substring(dd07l.domvalue_l, 1, 1)` |
+| `ReturnsDocumentStatus` | `cast( substring(dd07l.domvalue_l, 1, 1) as msr_doc_status)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

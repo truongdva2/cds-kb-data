@@ -33,15 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MaterialDocumentItem        : mblpo;` | `MaterialDocumentItem        : mblpo;` |
-| `GoodsMovementType         : bwart;` | `GoodsMovementType         : bwart;` |
-| `Plant                     : werks_d;` | `Plant                     : werks_d;` |
-| `StorageLocation           : lgort_d;` | `StorageLocation           : lgort_d;` |
-| `_DummyAssociation         : association to parent D_MaterialDocumentCreated_2;` | *Association* |
+| `MaterialDocumentItem` | `mblpo` |
+| `GoodsMovementType` | `bwart` |
+| `Plant` | `werks_d` |
+| `StorageLocation` | `lgort_d` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_MaterialDocumentCreated_2` | — |
 
 ## Source Code
 

@@ -33,23 +33,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Costing.Product` | `Costing.Product` |
-| `key Costing.Plant` | `Costing.Plant` |
-| `Costing.IsCoProduct` | `Costing.IsCoProduct` |
-| `Costing.CostingLotSize` | `Costing.CostingLotSize` |
-| `Costing.TaskListGroup` | `Costing.TaskListGroup` |
-| `Costing.TaskListType` | `Costing.TaskListType` |
-| `Costing.CostingSpecialProcurementType` | `Costing.CostingSpecialProcurementType` |
-| `Costing.SourceBOMAlternative` | `Costing.SourceBOMAlternative` |
-| `Costing.ProductBOMUsage` | `Costing.ProductBOMUsage` |
-| `Costing.ProductIsCostingRelevant` | `Costing.ProductIsCostingRelevant` |
-| `Costing.TaskListGroupCounter` | `Costing.TaskListGroupCounter` |
-| `Costing.VarianceKey` | `Costing.VarianceKey` |
-| `Costing.CostingProductionVersion` | `Costing.CostingProductionVersion` |
-| `Costing.IsFixedPriceCoProduct` | `Costing.IsFixedPriceCoProduct` |
-| `_Product.BaseUnit` | *Association* |
+| `Product` | `Costing.Product` |
+| `Plant` | `Costing.Plant` |
+| `IsCoProduct` | `Costing.IsCoProduct` |
+| `CostingLotSize` | `Costing.CostingLotSize` |
+| `TaskListGroup` | `Costing.TaskListGroup` |
+| `TaskListType` | `Costing.TaskListType` |
+| `CostingSpecialProcurementType` | `Costing.CostingSpecialProcurementType` |
+| `SourceBOMAlternative` | `Costing.SourceBOMAlternative` |
+| `ProductBOMUsage` | `Costing.ProductBOMUsage` |
+| `ProductIsCostingRelevant` | `Costing.ProductIsCostingRelevant` |
+| `TaskListGroupCounter` | `Costing.TaskListGroupCounter` |
+| `VarianceKey` | `Costing.VarianceKey` |
+| `CostingProductionVersion` | `Costing.CostingProductionVersion` |
+| `IsFixedPriceCoProduct` | `Costing.IsFixedPriceCoProduct` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
-| `_Product._BaseUnitOfMeasure` | *Association* |
+| `_BaseUnitOfMeasure` | *Association* |
 | `_BillOfMaterialUsageText` | *Association* |
 | `_ProductDescription` | *Association* |
 | `_BaseUnitOfMeasureText` | *Association* |

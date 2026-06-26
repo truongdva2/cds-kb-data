@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:StandardWorkFormulaParameter
 ---
 # I_STANDARDWORKFORMULAPARAMETER
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_parid preserving type)` | `cast(parid` |
+| `StandardWorkFormulaParameter` | `cast(parid as pph_parid preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -29,8 +29,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'ConditionScaleBaseAmount'}` | `releaseState: #DEPRECATED, successor: 'ConditionScaleBaseAmount'}` |
-| `vfrpc_scale_base_value preserving type )` | `cast( ConditionScaleBaseAmount` |
+| `SettlmtDoc` | `SettlmtDoc` |
+| `SettlmtDocItem` | `SettlmtDocItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionType` | `ConditionType` |
+| `PricingDateTime` | `cast( ' ' as vfprc_timestamp preserving type )` |
+| `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
+| `ConditionCalculationType` | `ConditionCalculationType` |
+| `ConditionBaseValue` | `cast( ConditionBaseAmount as vfprc_element_base_value preserving type )` |
+| `ConditionRateValue` | `cast( ConditionRateAmount as vfprc_element_amount preserving type )` |
+| `ConditionCurrency` | `ConditionCurrency` |
+| `ConditionQuantity` | `ConditionQuantity` |
+| `ConditionQuantityUnit` | `ConditionQuantityUnit` |
+| `ConditionCategory` | `ConditionCategory` |
+| `ConditionIsForStatistics` | `ConditionIsForStatistics` |
+| `PricingScaleType` | `PricingScaleType` |
+| `IsRelevantForAccrual` | `IsRelevantForAccrual` |
+| `CndnIsRelevantForInvoiceList` | `CndnIsRelevantForInvoiceList` |
+| `ConditionOrigin` | `ConditionOrigin` |
+| `IsGroupCondition` | `IsGroupCondition` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `TaxCode` | `TaxCode` |
+| `WithholdingTaxCode` | `WithholdingTaxCode` |
+| `CndnRoundingOffDiffAmount` | `CndnRoundingOffDiffAmount` |
+| `ConditionAmount` | `ConditionAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ConditionControl` | `ConditionControl` |
+| `ConditionInactiveReason` | `ConditionInactiveReason` |
+| `ConditionClass` | `ConditionClass` |
+| `PrcgProcedureCounterForHeader` | `PrcgProcedureCounterForHeader` |
+| `FactorForConditionBasisValue` | `FactorForConditionBasisValue` |
+| `StructureCondition` | `StructureCondition` |
+| `PeriodFactorForCndnBasisValue` | `PeriodFactorForCndnBasisValue` |
+| `PricingScaleBasis` | `PricingScaleBasis` |
+| `ConditionScaleBasisValue` | `cast( ConditionScaleBaseAmount as vfrpc_scale_base_value preserving type )` |
 | `ConditionScaleBasisUnit` | `ConditionScaleBasisUnit` |
 | `ConditionScaleBasisCurrency` | `ConditionScaleBasisCurrency` |
 | `CndnIsRelevantForIntcoBilling` | `CndnIsRelevantForIntcoBilling` |
@@ -44,7 +79,6 @@ tags:
 | `ConditionRateRatioUnit` | `ConditionRateRatioUnit` |
 | `ConditionScaleBaseAmount` | `ConditionScaleBaseAmount` |
 | `ConditionScaleBaseQuantity` | `ConditionScaleBaseQuantity` |
-| `/* Accounts */` | `/* Accounts */` |
 | `AccountKeyForGLAccount` | `AccountKeyForGLAccount` |
 | `AcctKeyForAccrualsGLAccount` | `AcctKeyForAccrualsGLAccount` |
 | `_SettlmtDoc` | *Association* |

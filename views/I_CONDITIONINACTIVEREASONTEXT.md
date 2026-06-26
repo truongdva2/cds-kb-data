@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:ConditionInactiveReason
 ---
 # I_CONDITIONINACTIVEREASONTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kinak )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_inactive_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionInactiveReason` | `cast ( substring( domvalue_l, 1, 1 ) as kinak )` |
+| `ConditionInactiveReasonName` | `cast ( ddtext as price_element_inactive_descr )` |
 | `_ConditionInactiveReason` | *Association* |
 | `_Language` | *Association* |
 

@@ -34,7 +34,7 @@ tags:
 | `Country` | `land1` |
 | `Region` | `regio` |
 | `GrossIncomeTaxActivityCode` | `j_1agicd` |
-| `abap.int4) )` | `cast( ( 99999999 - cast( j_1avaldat` |
+| `AR_ActivityCodeValidityAsText` | `cast( ( 99999999 - cast( j_1avaldat as abap.int4) ) as abap.char( 12 ) )` |
 | `AR_ActivityCodeTaxRate` | `j_1agiper` |
 
 ## Associations

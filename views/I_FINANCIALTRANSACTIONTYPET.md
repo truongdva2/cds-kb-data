@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:FinancialTransactionType
 ---
 # I_FINANCIALTRANSACTIONTYPET
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `langu` |
-| `fis_rmvct preserving type )` | `cast( trtyp` |
+| `FinancialTransactionType` | `cast( trtyp as fis_rmvct preserving type )` |
 | `FinancialTransactionTypeName` | `txt` |
 | `_Language` | *Association* |
 

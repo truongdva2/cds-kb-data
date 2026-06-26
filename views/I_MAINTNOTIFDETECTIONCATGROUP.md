@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintNotifDetectionCodeGroup
 ---
 # I_MAINTNOTIFDETECTIONCATGROUP
 
@@ -32,8 +33,8 @@ tags:
 |---|---|
 | `MaintNotifDetectionCatalog` | `detectioncatalog` |
 | `MaintNotifDetectionCodeGroup` | `detectioncodegroup` |
-| `_DetectionCtlgText[1:Language=$session.system_language].MaintNotifDetectionCatalogText  as MaintNotifDetectionCatalogText` | *Association* |
-| `_DetectCodeGroupText[1:Language=$session.system_language].MaintNotifDetectionCodeGrpTxt as MaintNotifDetectionCodeGrpTxt` | *Association* |
+| `MaintNotifDetectionCatalogText` | `expr(…)` |
+| `MaintNotifDetectionCodeGrpTxt` | `expr(…)` |
 | `_DetectionCatalog` | *Association* |
 | `_DetectionCodeGroup` | *Association* |
 | `_DetectionCtlgText` | *Association* |

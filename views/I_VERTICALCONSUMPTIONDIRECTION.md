@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:VerticalConsumptionDirection
 ---
 # I_VERTICALCONSUMPTIONDIRECTION
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `verticalconsumptiondirection preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `, _Text` | `, _Text` |
+| `VerticalConsumptionDirection` | `cast(…)` |
+| `_Text` | *Association* |
 
 ## Associations
 

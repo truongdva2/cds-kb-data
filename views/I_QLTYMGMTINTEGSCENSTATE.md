@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qinteg_state preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `QltyMgmtIntegScenState` | `cast(substring(domvalue_l, 1, 1) as qinteg_state preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_QltyMgmtIntegScenStateText` | *Association* |
 

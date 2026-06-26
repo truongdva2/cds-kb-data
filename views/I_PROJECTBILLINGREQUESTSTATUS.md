@@ -34,13 +34,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbr_doc_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ProjectBillingRequestStatus` | `cast( substring( domvalue_l, 1, 1 ) as pbr_doc_status preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProjectBillingReqStatusText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProjectBillingReqStatusText` | `I_ProjectBillingReqStatusText` | [0..*] |
 
 ## Source Code
 

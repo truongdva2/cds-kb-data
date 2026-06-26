@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartnerRatingProcedure` | `BusinessPartnerRatingProcedure` |
+| `BusinessPartnerRatingProcedure` | `BusinessPartnerRatingProcedure` |
 | `BPRatingIsRequired` | `BPRatingIsRequired` |
 | `BusinessPartnerRatingIsDefault` | `BusinessPartnerRatingIsDefault` |
 | `BPRatingStandardAccessDays` | `BPRatingStandardAccessDays` |
 | `_Text` | *Association* |
-| `_Text[1:Language = $session.system_language ].BPRatingProcedureDescription` | *Association* |
+| `BPRatingProcedureDescription` | `_Text[1:Language = $session.system_language ].BPRatingProcedureDescription` |
 
 ## Associations
 

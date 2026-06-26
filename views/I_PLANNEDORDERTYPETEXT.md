@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderType
 ---
 # I_PLANNEDORDERTYPETEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `plannedordertypename preserving type)` | `cast(txt.ddtext` |
+| `PlannedOrderType` | `cast(substring(txt.domvalue_l, 1, 4) as paart preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `PlannedOrderTypeName` | `cast(txt.ddtext as plannedordertypename preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Type` | *Association* |
 | `_Language` | *Association* |

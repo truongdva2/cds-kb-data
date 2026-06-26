@@ -31,24 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_CntrlSupplierConfirmation.PurchasingDocumentType                                                                      as PurchasingDocumentType` | *Association* |
-| `_CntrlSupplierConfirmation.CntrlSuplrConfRefPrmtHbRpldPO                                                               as PurchaseOrder` | *Association* |
-| `_CntrlSupplierConfirmation._PurchaseOrder.PurchaseOrderNetAmount                                                       as PurchaseOrderNetAmount` | *Association* |
-| `_CntrlSupplierConfirmation._PurchaseOrder.DocumentCurrency                                                             as DocumentCurrency` | *Association* |
-| `_CntrlSupplierConfirmation.ProcurementHubSourceSystem                                                                  as ExtSourceSystem` | *Association* |
-| `_CntrlSupplierConfirmation.CreatedByUser                                                                               as CreatedByUserName` | *Association* |
-| `_CntrlSupplierConfirmation.CreationDate                                                                                as CreationDate` | *Association* |
-| `_CntrlSupplierConfirmation.Supplier                                                                                    as Supplier` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime,    'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime,    'UTC', $session.client, 'NULL' )` |
-| `_Workflowtask.WorkflowTaskResult                                                                                       as WorkflowTaskResult` | *Association* |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText.WorkflowTaskResultReasonText as WorkflowTaskResultReasonText` | *Association* |
-| `_Workflowtask._WorkflowTaskResult.WorkflowTaskResultComment                                                            as WorkflowTaskResultComment` | *Association* |
-| `_Workflowtask.WorkflowTaskCurrentUser                                                                                  as ApprovedByUserFullName` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `CentralSupplierConfirmation` | `cast(…)` |
+| `PurchasingDocumentType` | `_CntrlSupplierConfirmation.PurchasingDocumentType` |
+| `PurchaseOrder` | `_CntrlSupplierConfirmation.CntrlSuplrConfRefPrmtHbRpldPO` |
+| `PurchaseOrderNetAmount` | `_CntrlSupplierConfirmation._PurchaseOrder.PurchaseOrderNetAmount` |
+| `DocumentCurrency` | `_CntrlSupplierConfirmation._PurchaseOrder.DocumentCurrency` |
+| `ExtSourceSystem` | `_CntrlSupplierConfirmation.ProcurementHubSourceSystem` |
+| `CreatedByUserName` | `_CntrlSupplierConfirmation.CreatedByUser` |
+| `CreationDate` | `_CntrlSupplierConfirmation.CreationDate` |
+| `Supplier` | `_CntrlSupplierConfirmation.Supplier` |
+| `PrmtHbWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCTme` | `cast(…)` |
+| `WorkflowTaskResult` | `_Workflowtask.WorkflowTaskResult` |
+| `WorkflowTaskResultReasonText` | `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText.WorkflowTaskResultReasonText` |
+| `WorkflowTaskResultComment` | `_Workflowtask._WorkflowTaskResult.WorkflowTaskResultComment` |
+| `ApprovedByUserFullName` | `_Workflowtask.WorkflowTaskCurrentUser` |
 
 ## Associations
 

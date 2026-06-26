@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-GF-MAS-2CL
   - lob:Sourcing & Procurement
+  - bo:VarblPurOrdUnitIsActive
 ---
 # I_VARBLPURORDUNITACTVSTATUSTXT
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `vabme )` | `cast( dd07t.domvalue_l` |
+| `VarblPurOrdUnitIsActive` | `cast( dd07t.domvalue_l as vabme )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `VarblPurOrdUnitStatus` | `dd07t.ddtext` |
 | `_VarblPurOrdUnitActvStatus` | *Association* |
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_VarblPurOrdUnitActvStatus` | `I_VarblPurOrdUnitActvStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

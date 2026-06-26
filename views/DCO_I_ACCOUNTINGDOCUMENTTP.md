@@ -33,7 +33,46 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `DCoAccountingDocumentUUID` | `DCoAccountingDocumentUUID` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CompanyCode` | `CompanyCode` |
+| `DCoAccountingDocumentOrigin` | `DCoAccountingDocumentOrigin` |
+| `DCoAccountingDocumentID` | `DCoAccountingDocumentID` |
+| `DCoAccountingDocumentDate` | `DCoAccountingDocumentDate` |
+| `DCoAcctgDocOriginalDueDate` | `DCoAcctgDocOriginalDueDate` |
+| `DCoAccountingDocumentDueDate` | `DCoAccountingDocumentDueDate` |
+| `DCoAcctgDocLastPaymentDate` | `DCoAcctgDocLastPaymentDate` |
+| `DCoAccountingDocumentCurrency` | `DCoAccountingDocumentCurrency` |
+| `DCoAcctgDocumentOriginalAmount` | `DCoAcctgDocumentOriginalAmount` |
+| `DCoAcctgDocumentOpenAmount` | `DCoAcctgDocumentOpenAmount` |
+| `DCoAcctgDocumentPaidAmount` | `DCoAcctgDocumentPaidAmount` |
+| `DCoAcctgDocumentCreditedAmount` | `DCoAcctgDocumentCreditedAmount` |
+| `DCoAcctgDocWriteOffAmount` | `DCoAcctgDocWriteOffAmount` |
+| `DCoAcctgDocCshDiscUsedAmount` | `DCoAcctgDocCshDiscUsedAmount` |
+| `DCoAccountingDocumentBranch` | `DCoAccountingDocumentBranch` |
+| `DCoAcctgDocumentCreationUser` | `DCoAcctgDocumentCreationUser` |
+| `DCoAcctgDocCreationDateTime` | `DCoAcctgDocCreationDateTime` |
+| `DCoAcctgDocLastChangedByUser` | `DCoAcctgDocLastChangedByUser` |
+| `DCoAcctgDocLastChangeDateTime` | `DCoAcctgDocLastChangeDateTime` |
+| `DCoDocumentReference` | `DCoDocumentReference` |
+| `DCoAltvDocumentReference` | `DCoAltvDocumentReference` |
+| `DCoAcctgDocumentReference1ID` | `DCoAcctgDocumentReference1ID` |
+| `DCoAcctgDocumentReference2ID` | `DCoAcctgDocumentReference2ID` |
+| `DCoAcctgDocumentReference3ID` | `DCoAcctgDocumentReference3ID` |
+| `DCoAcctgDocIsBlockedForPayment` | `DCoAcctgDocIsBlockedForPayment` |
+| `DCoAccountingDocumentNoteText` | `DCoAccountingDocumentNoteText` |
+| `DCoAccountingDocumentIsCleared` | `DCoAccountingDocumentIsCleared` |
+| `DCoAcctgDocumentLogicalSystem` | `DCoAcctgDocumentLogicalSystem` |
+| `DCoPaymentIsArranged` | `DCoPaymentIsArranged` |
+| `DCoPrdcssrAcctgDocumentUUID` | `DCoPrdcssrAcctgDocumentUUID` |
+| `DCoOriglAccountingDocumentUUID` | `DCoOriglAccountingDocumentUUID` |
+| `DCoAcctgDocHierarchyLevelValue` | `DCoAcctgDocHierarchyLevelValue` |
+| `DCoAcctgDocumentIsReversed` | `DCoAcctgDocumentIsReversed` |
+| `DCoRefAccountingDocumentUUID` | `DCoRefAccountingDocumentUUID` |
+| `DCoOriginalReferenceDocument` | `DCoOriginalReferenceDocument` |
+| `DCoOriglReferenceDocumentType` | `DCoOriglReferenceDocumentType` |
+| `DCoOriglRefDocLogicalSystem` | `DCoOriglRefDocLogicalSystem` |
+| `DCoAccountingDocumentNoteUUID` | `DCoAccountingDocumentNoteUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
 | `_BranchAccount` | *Association* |
 | `_BusinessPartner` | *Association* |

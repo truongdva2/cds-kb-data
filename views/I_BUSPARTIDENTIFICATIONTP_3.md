@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key BPIdentificationType` | `BPIdentificationType` |
-| `key BPIdentificationNumber` | `BPIdentificationNumber` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BPIdentificationType` | `BPIdentificationType` |
+| `BPIdentificationNumber` | `BPIdentificationNumber` |
 | `BPIdnNmbrIssuingInstitute` | `BPIdnNmbrIssuingInstitute` |
 | `BPIdentificationEntryDate` | `BPIdentificationEntryDate` |
 | `Country` | `Country` |
@@ -58,7 +58,6 @@ tags:
 | `DataController10` | `DataController10` |
 | `_BuPaIdentificationType` | *Association* |
 | `_BusinessPartnerCategory` | *Association* |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 
 ## Associations
 

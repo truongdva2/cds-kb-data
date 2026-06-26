@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bnk_min_rsv )` | `cast ( dd07t.domvalue_l` |
+| `BPMinimumReserve` | `cast ( dd07t.domvalue_l as bnk_min_rsv )` |
 | `BPMinimumReserveDescription` | `dd07t.ddtext` |
 | `_BPMinimumReserve` | *Association* |
 | `_Language` | *Association* |

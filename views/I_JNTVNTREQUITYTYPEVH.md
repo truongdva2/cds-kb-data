@@ -30,8 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
-| `_JntVntrEquityTypeDesc[1:Language = $session.system_language].JointVentureEquityTypeName` | *Association* |
+| `CompanyCode` | `bukrs` |
+| `JointVentureEquityType` | `etype` |
+| `_CompanyCode` | *Association* |
+| `JointVentureEquityTypeName` | `expr(…)` |
 | `_JntVntrEquityTypeDesc` | *Association* |
 
 ## Associations

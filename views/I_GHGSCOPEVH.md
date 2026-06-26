@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope
 ---
 # I_GHGSCOPEVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGScope` | `GHGScope` |
+| `GHGScope` | `GHGScope` |
 | `_Text` | *Association* |
 
 ## Associations

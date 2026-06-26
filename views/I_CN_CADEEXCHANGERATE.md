@@ -35,7 +35,7 @@ tags:
 | `CN_CADENatlStdRelVersion` | `ExchangeRate.cade_natl_std_rel_ver` |
 | `ExchangeRateType` | `ExchangeRate.kurst` |
 | `CN_CADEExchangeRateTypeName` | `ExchangeRate.cade_er_desc` |
-| `_Text.curvw                         as ExchangeRateTypeName` | *Association* |
+| `ExchangeRateTypeName` | `_Text.curvw` |
 
 ## Associations
 

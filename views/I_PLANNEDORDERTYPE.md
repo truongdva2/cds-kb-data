@@ -14,6 +14,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderType
 ---
 # I_PLANNEDORDERTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `PlannedOrderType` | `cast(substring(l.domvalue_l, 1, 4) as paart preserving type)` |
 | `DomainValue` | `l.domvalue_l` |
 | `_Text` | *Association* |
 

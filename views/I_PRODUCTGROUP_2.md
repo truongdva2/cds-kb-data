@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductGroup
 ---
 # I_PRODUCTGROUP_2
 
@@ -31,11 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `productgroup preserving type )` | `cast(t023.matkl` |
+| `ProductGroup` | `cast(t023.matkl as productgroup preserving type )` |
 | `AuthorizationGroup` | `t023.begru` |
 | `ValuationClass` | `t023.bklas` |
 | `PurchasingAcknProfile` | `t023.ekwsl` |

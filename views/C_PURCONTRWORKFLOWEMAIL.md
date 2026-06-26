@@ -32,19 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseContract.ActivePurchasingDocument as ActivePurchasingDocument` | *Association* |
-| `_PurchaseContract.PurchasingDocumentType as PurchaseContractType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_PurchaseContract.DocumentCurrency` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_PurchaseContract.Supplier` | *Association* |
-| `_User.UserDescription                                                                                         as CreatedByUserDescription` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `PurchaseContract` | `cast(…)` |
+| `ActivePurchasingDocument` | `_PurchaseContract.ActivePurchasingDocument` |
+| `PurchaseContractType` | `_PurchaseContract.PurchasingDocumentType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_PurchaseContract.DocumentCurrency` |
+| `PurContrWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PurContrWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PurContrWrkflwTskDuUTCDte` | `cast(…)` |
+| `PurContrWrkflwTskDuUTCTme` | `cast(…)` |
+| `Supplier` | `_PurchaseContract.Supplier` |
+| `CreatedByUserDescription` | `_User.UserDescription` |
+| `SupplierName` | `_Supplier.SupplierName` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:CapacityRequirement
 ---
 # I_CAPACITYREQUIREMENTSTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityRequirement` | `CapacityRequirement` |
+| `CapacityRequirement` | `CapacityRequirement` |
 
 ## Associations
 

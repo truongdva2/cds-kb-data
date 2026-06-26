@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseRequisitionItem
 ---
 # I_PURCHASEREQNITEMTP
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
-| `key PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 | `PurchasingDocument` | `PurchasingDocument` |
 | `PurchasingDocumentItem` | `PurchasingDocumentItem` |
 | `PurReqnReleaseStatus` | `PurReqnReleaseStatus` |
@@ -141,13 +142,8 @@ tags:
 | `PartialInvoiceDistribution` | `PartialInvoiceDistribution` |
 | `ProcuringPlant` | `ProcuringPlant` |
 | `PurchaseOrderDate` | `PurchaseOrderDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_UnitOfMeasure` | *Association* |
 | `_Currency` | *Association* |
-| `_PurchaseReqnAcctAssgmt   : redirected to composition child I_PurchaseReqnAcctAssgmtTP` | *Association* |
-| `_PurchaseReqnDelivAddress : redirected to composition child I_PurchaseReqnDelivAddrTP` | *Association* |
-| `_PurchaseReqnItemText     : redirected to composition child I_PurchaseReqnItemTextTP` | *Association* |
-| `_PurReqn                  : redirected to parent I_PurchaseRequisitionTP` | *Association* |
 
 ## Associations
 

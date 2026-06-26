@@ -42,7 +42,6 @@ tags:
 | `InspSubsetShortNmbrFieldName` | `tq79t.usern1slw` |
 | `InspSubsetLongNmbrFieldName` | `tq79t.usern2slw` |
 | `InspSubsetTimeFieldName` | `tq79t.usert1slw` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

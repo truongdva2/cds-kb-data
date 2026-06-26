@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionLinkdObjUUID` | `LegalTransactionLinkdObjUUID` |
+| `LegalTransactionLinkdObjUUID` | `LegalTransactionLinkdObjUUID` |
 | `LglCntntMLinkdObjType` | `LglCntntMLinkdObjType` |
 | `LglCntntMLinkdObj` | `LglCntntMLinkdObj` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
@@ -37,7 +37,6 @@ tags:
 | `LegalTransactionIsTriggerObj` | `LegalTransactionIsTriggerObj` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
 | `LglCntntMIsAddedByIntegVarbl` | `LglCntntMIsAddedByIntegVarbl` |
-| `/* Associations */` | `/* Associations */` |
 | `_LegalTransaction` | *Association* |
 
 ## Associations

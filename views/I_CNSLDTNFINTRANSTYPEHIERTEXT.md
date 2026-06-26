@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_fintransactiontypehier preserving type )` | `cast(_HierarchyText.CnsldtnUniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `_HierarchyText.UniversalHierarchyText                                                           as CnsldtnFinTransTypeHierText` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnFinTransTypeHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnFinTransTypeHierText` | `_HierarchyText.UniversalHierarchyText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

@@ -13,6 +13,7 @@ tags:
   - SD-SLS-CMR
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:DebitMemoRequestItem
 ---
 # D_DEBITMEMOREQITMSDPROCSTSCHGD
 
@@ -29,16 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime           : vdm_lastchangedon;` | `EventRaisedDateTime           : vdm_lastchangedon;` |
-| `DebitMemoRequestType          : auart_unv;` | `DebitMemoRequestType          : auart_unv;` |
-| `SalesOrganization             : vkorg;` | `SalesOrganization             : vkorg;` |
-| `DistributionChannel           : vtweg;` | `DistributionChannel           : vtweg;` |
-| `OrganizationDivision          : spart;` | `OrganizationDivision          : spart;` |
-| `SoldToParty                   : kunnr;` | `SoldToParty                   : kunnr;` |
-| `DebitMemoRequestItemCategory  : pstyv;` | `DebitMemoRequestItemCategory  : pstyv;` |
-| `Product                       : matnr;` | `Product                       : matnr;` |
-| `SDProcessStatus               : gbsta;` | `SDProcessStatus               : gbsta;` |
-| `PreviousSDProcessStatus       : gbsta;` | `PreviousSDProcessStatus       : gbsta;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `DebitMemoRequestType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `DebitMemoRequestItemCategory` | `pstyv` |
+| `Product` | `matnr` |
+| `SDProcessStatus` | `gbsta` |
+| `PreviousSDProcessStatus` | `gbsta` |
 
 ## Associations
 

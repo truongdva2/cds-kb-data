@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-CAT-2CL
   - lob:Other
+  - bo:LglCntntMCatType
 ---
 # I_LGLCNTNTMCATTYPETEXTAPI01
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCatType` | `LglCntntMCatType` |
+| `LglCntntMCatType` | `LglCntntMCatType` |
 | `LglCntntMCatTypeName` | `LglCntntMCatTypeName` |
 
 ## Associations

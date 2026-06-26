@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RAContrBalanceDerivationRule
 ---
 # I_RACONTRBALANCEDRVTNRULETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RAContrBalanceDerivationRule` | `cast(dd07t.domvalue_l as farr_create_liability_method)` |
 | `ContrBalanceDerivationRuleName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAContrBalanceDerivationRule` | *Association* |
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAContrBalanceDerivationRule` | `I_RAContrBalanceDerivationRule` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

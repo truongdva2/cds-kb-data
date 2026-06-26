@@ -14,6 +14,7 @@ tags:
   - transactional-processing
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspLotMatlDocItmSerialNumber
 ---
 # I_INSPLOTMATLDOCITMSRLNMBRTP_2
 
@@ -30,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspLotMatlDocItem` | `InspLotMatlDocItem` |
-| `key Equipment` | `Equipment` |
+| `InspectionLot` | `InspectionLot` |
+| `InspLotMatlDocItem` | `InspLotMatlDocItem` |
+| `Equipment` | `Equipment` |
 | `MaterialDocumentYear` | `MaterialDocumentYear` |
 | `MaterialDocument` | `MaterialDocument` |
 | `SerialNumber` | `SerialNumber` |
 | `InspLotMatlDocItemType` | `InspLotMatlDocItemType` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot      : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspLotMatlDocItem : redirected to parent I_InspLotMatlDocItemTP_2` | *Association* |
 
 ## Associations
 

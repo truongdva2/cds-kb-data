@@ -31,9 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `key FreightCostAllocationDocument` | `FreightCostAllocationDocument` |
-| `/* Required for DCL */` | `/* Required for DCL */` |
+| `FreightCostAllocationDocument` | `FreightCostAllocationDocument` |
 | `SettlmtDocType` | `SettlmtDocType` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingOrganization` | `PurchasingOrganization` |

@@ -16,6 +16,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrder
 ---
 # I_PLANNEDORDERSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlannedOrder` | `PlannedOrder` |
+| `PlannedOrder` | `PlannedOrder` |
 | `MRPController` | `MRPController` |
 | `MRPPlant` | `MRPPlant` |
 

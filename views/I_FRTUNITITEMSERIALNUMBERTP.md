@@ -33,14 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TranspOrdItemSerialNumberUUID` | `TranspOrdItemSerialNumberUUID` |
+| `TranspOrdItemSerialNumberUUID` | `TranspOrdItemSerialNumberUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TranspOrdItemSerialNumber` | `TranspOrdItemSerialNumber` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightUnit     : redirected to I_FreightUnitTP` | `FreightUnitItemSerialNumber._TransportationOrder` |
-| `_FreightUnitItem : redirected to parent I_FreightUnitItemTP` | `FreightUnitItemSerialNumber._TransportationOrderItem` |
+| `_FreightUnit` | *Association* |
+| `_FreightUnitItem` | *Association* |
 
 ## Associations
 

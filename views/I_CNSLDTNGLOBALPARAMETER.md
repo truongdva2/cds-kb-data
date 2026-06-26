@@ -30,18 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fc_dimen )` | `cast( coalesce(_CnsldtnGlobalParameter.dimen, 'Y1')` |
-| `fc_itclg )` | `cast( coalesce(_CnsldtnGlobalParameter.itclg, '')` |
-| `fc_rldnr )` | `cast( coalesce(_CnsldtnGlobalParameter.rldnr, 'Y1')` |
-| `fc_rvers )` | `cast( coalesce(_CnsldtnGlobalParameter.rvers, '')` |
-| `ryear    )` | `cast( coalesce(_CnsldtnGlobalParameter.ryear, '0000')` |
-| `poper    )` | `cast( coalesce(_CnsldtnGlobalParameter.perid, '000')` |
-| `_CnsldtnGlobalParameter.uname                                                                                                                                                  as UserName` | *Association* |
-| `fincs_consolidationgroup )` | `cast( coalesce(_CnsldtnGlobalParameter.congr, '')` |
-| `fincs_consolidationunit )` | `cast( coalesce(_CnsldtnGlobalParameter.bunit, '')` |
-| `fis_periv)` | `cast( coalesce(_CnsldtnVersion.FiscalYearVariant,'K4')` |
-| `ryear    ), cast( coalesce(_CnsldtnGlobalParameter.perid, '000')` | `cast(concat( cast( coalesce(_CnsldtnGlobalParameter.ryear, '0000')` |
-| `fincs_congr_hry  )` | `cast( coalesce(_CnsldtnGlobalParameter.cg_hry, '')` |
+| `ConsolidationDimension` | `cast( coalesce(_CnsldtnGlobalParameter.dimen, 'Y1') as fc_dimen )` |
+| `ConsolidationChartOfAccounts` | `cast( coalesce(_CnsldtnGlobalParameter.itclg, '') as fc_itclg )` |
+| `ConsolidationLedger` | `cast( coalesce(_CnsldtnGlobalParameter.rldnr, 'Y1') as fc_rldnr )` |
+| `ConsolidationVersion` | `cast( coalesce(_CnsldtnGlobalParameter.rvers, '') as fc_rvers )` |
+| `FiscalYear` | `cast( coalesce(_CnsldtnGlobalParameter.ryear, '0000') as ryear )` |
+| `FiscalPeriod` | `cast( coalesce(_CnsldtnGlobalParameter.perid, '000') as poper )` |
+| `UserName` | `_CnsldtnGlobalParameter.uname` |
+| `ConsolidationGroup` | `cast( coalesce(_CnsldtnGlobalParameter.congr, '') as fincs_consolidationgroup )` |
+| `ConsolidationUnit` | `cast( coalesce(_CnsldtnGlobalParameter.bunit, '') as fincs_consolidationunit )` |
+| `FiscalYearVariant` | `cast( coalesce(_CnsldtnVersion.FiscalYearVariant,'K4') as fis_periv)` |
+| `FiscalYearPeriod` | `cast(…)` |
+| `ConsolidationGroupHierarchy` | `cast( coalesce(_CnsldtnGlobalParameter.cg_hry, '') as fincs_congr_hry )` |
 
 ## Associations
 

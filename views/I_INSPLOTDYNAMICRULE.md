@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionLotDynamicRule
 ---
 # I_INSPLOTDYNAMICRULE
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdynregel preserving type )` | `cast( dynregel` |
+| `InspLotDynamicRule` | `cast( dynregel as vdm_qdynregel preserving type )` |
 | `InspLotDynRuleInitStage` | `prstufeanf` |
 | `_InspLotDynRuleStage` | *Association* |
 | `_InspLotDynRuleInitStage` | *Association* |

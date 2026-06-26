@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `nsdm_lbbsa)` | `cast(substring( domvalue_l, 1, 2 )` |
+| `InventoryStockType` | `cast(substring( domvalue_l, 1, 2 ) as nsdm_lbbsa)` |
 | `Language` | `ddlanguage` |
-| `nsdm_stock_type_name)` | `cast(ddtext` |
+| `InventoryStockTypeName` | `cast(ddtext as nsdm_stock_type_name)` |
 | `_InventoryStockType` | *Association* |
 | `_Language` | *Association* |
 

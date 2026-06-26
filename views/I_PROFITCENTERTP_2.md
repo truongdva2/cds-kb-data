@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingArea` | `ControllingArea` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ControllingAreaForEdit` | `ControllingAreaForEdit` |
 | `ProfitCenterForEdit` | `ProfitCenterForEdit` |
@@ -75,9 +75,6 @@ tags:
 | `ProfitCenterPrinterName` | `ProfitCenterPrinterName` |
 | `LogicalSystem` | `LogicalSystem` |
 | `ChangeDocObject` | `ChangeDocObject` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ProfitCenterTextTP      : redirected to composition child I_ProfitCenterTextTP_2` | *Association* |
-| `_PrftCtrCompCodeAssgmtTP : redirected to composition child I_PrftCtrCompCodeAssgmtTP_2` | *Association* |
 
 ## Associations
 

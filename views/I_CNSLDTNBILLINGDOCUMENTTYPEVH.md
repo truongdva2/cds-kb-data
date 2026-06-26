@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentType` | `BillingDocumentType` |
-| `_CnsldtnBillingDocumentType._Text[1: Language=$session.system_language].BillingDocumentTypeName` | *Association* |
+| `BillingDocumentType` | `BillingDocumentType` |
+| `BillingDocumentTypeName` | `expr(…)` |
 
 ## Associations
 

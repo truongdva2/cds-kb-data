@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:StandardWorkFormulaParamText
 ---
 # I_STANDARDWORKFORMULAPARAMTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8}` |
-| `pph_partxt preserving type)` | `cast(txtlg` |
-| `_Language` | *Association* |
+| `StandardWorkFormulaParameter` | `cast(parid as pph_parid preserving type)` |
+| `Language` | `spras` |
+| `StandardWorkFormulaParamName` | `cast(txtlg as pph_partxt preserving type)` |
 
 ## Associations
 

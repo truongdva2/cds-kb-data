@@ -35,8 +35,8 @@ tags:
 |---|---|
 | `Customer` | `kunnr` |
 | `CustomerTaxGroupingCode` | `taxgr` |
-| `_Customer.CustomerAccountGroup as CustomerAccountGroup` | *Association* |
-| `_Customer.AuthorizationGroup as AuthorizationGroup` | *Association* |
+| `CustomerAccountGroup` | `_Customer.CustomerAccountGroup` |
+| `AuthorizationGroup` | `_Customer.AuthorizationGroup` |
 | `CustTaxGrpExemptionCertificate` | `exnr` |
 | `CustTaxGroupExemptionRate` | `exrt` |
 | `CustTaxGroupExemptionStartDate` | `exdf` |

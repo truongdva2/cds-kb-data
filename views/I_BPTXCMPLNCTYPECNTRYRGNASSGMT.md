@@ -29,11 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
 | `BPTaxComplianceType` | `type` |
 | `BPTaxComplianceCountryRegion` | `country` |
 | `BPTaxComplianceRegion` | `region` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
 
 ## Associations
 

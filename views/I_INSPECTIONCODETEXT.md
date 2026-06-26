@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionCode
 ---
 # I_INSPECTIONCODETEXT
 
@@ -32,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'InspectionCodeGroup'` | `localElement: 'InspectionCodeGroup'` |
-| `element: 'InspectionCodeGroup' }]` | `element: 'InspectionCodeGroup' }]` |
-| `}]` | `}]` |
+| `InspectionCatalog` | `katalogart` |
+| `InspectionCodeGroup` | `codegruppe` |
 | `InspectionCode` | `code` |
 | `Language` | `sprache` |
-| `vdm_qtxt_code preserving type )` | `cast( kurztext` |
+| `InspectionCodeText` | `cast( kurztext as vdm_qtxt_code preserving type )` |
 | `_InspectionCatalog` | *Association* |
 | `_InspectionCodeGroup` | *Association* |
 | `_InspectionCode` | *Association* |

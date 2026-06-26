@@ -30,23 +30,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode                  : bukrs;` | `CompanyCode                  : bukrs;` |
-| `LedgerGroup                  : fagl_ldgrp;` | `LedgerGroup                  : fagl_ldgrp;` |
-| `AccountingDocumentType       : blart;` | `AccountingDocumentType       : blart;` |
-| `BusinessTransactionType      : fins_custbttype;` | `BusinessTransactionType      : fins_custbttype;` |
-| `DocumentDate                 : bldat;` | `DocumentDate                 : bldat;` |
-| `PostingDate                  : budat;` | `PostingDate                  : budat;` |
-| `PostingFiscalPeriod          : monat;` | `PostingFiscalPeriod          : monat;` |
-| `DocumentReferenceID          : xblnr;` | `DocumentReferenceID          : xblnr;` |
-| `AccountingDocumentHeaderText : bktxt;` | `AccountingDocumentHeaderText : bktxt;` |
-| `CreatedByUser                : usnam;` | `CreatedByUser                : usnam;` |
-| `Reference1InDocumentHeader   : xref1_hd;` | `Reference1InDocumentHeader   : xref1_hd;` |
-| `Reference2InDocumentHeader   : xref2_hd;` | `Reference2InDocumentHeader   : xref2_hd;` |
-| `_GLItems                     : composition [0..*] of D_GLAdjmtItemPostJournalEntryP;` | *Association* |
+| `CompanyCode` | `bukrs` |
+| `LedgerGroup` | `fagl_ldgrp` |
+| `AccountingDocumentType` | `blart` |
+| `BusinessTransactionType` | `fins_custbttype` |
+| `DocumentDate` | `bldat` |
+| `PostingDate` | `budat` |
+| `PostingFiscalPeriod` | `monat` |
+| `DocumentReferenceID` | `xblnr` |
+| `AccountingDocumentHeaderText` | `bktxt` |
+| `CreatedByUser` | `usnam` |
+| `Reference1InDocumentHeader` | `xref1_hd` |
+| `Reference2InDocumentHeader` | `xref2_hd` |
+| `_GLItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_GLItems` | `D_GLAdjmtItemPostJournalEntryP` | [0..*] |
 
 ## Source Code
 

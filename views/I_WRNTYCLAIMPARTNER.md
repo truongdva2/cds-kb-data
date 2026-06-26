@@ -14,6 +14,7 @@ tags:
   - partner
   - component:LO-WTY-FIO
   - lob:Logistics General
+  - bo:WarrantyClaim
 ---
 # I_WRNTYCLAIMPARTNER
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `WrntyClaimPartnerUUID` | `pguid` |
-| `parvw_unv preserving type )` | `cast(parvw` |
+| `WrntyPartRole` | `cast(parvw as parvw_unv preserving type )` |
 | `Partner` | `parnr` |
 | `WarrantyInternalNumber` | `counter` |
 | `WrntyClaimHeaderUUID` | `header_guid` |
@@ -43,8 +44,8 @@ tags:
 | `WrntyClaimChangedDate` | `chngdat` |
 | `LastChangedByUser` | `chngby` |
 | `WrntyHandlingNumber` | `ref_handle` |
-| `_Supplier.DataControllerSet               as DataControllerSet,     ------BP Performance Blocker Solution: Optional Element missing-----` | *Association* |
-| `_Supplier.Supplier                        as Supplier` | *Association* |
+| `DataControllerSet` | `_Supplier.DataControllerSet` |
+| `Supplier` | `expr(…)` |
 | `_WrntyClaimHeader` | *Association* |
 | `_Supplier` | *Association* |
 

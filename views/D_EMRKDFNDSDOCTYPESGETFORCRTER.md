@@ -27,7 +27,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EarmarkedFundsDocumentCategory : fmre_bltyp;` | `EarmarkedFundsDocumentCategory : fmre_bltyp;` |
+| `EarmarkedFundsDocumentCategory` | `fmre_bltyp` |
 
 ## Associations
 

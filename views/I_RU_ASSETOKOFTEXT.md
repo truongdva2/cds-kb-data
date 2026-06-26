@@ -33,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` |
+| `Country` | `land1` |
+| `Language` | `sprsl` |
+| `RU_AssetOKOF` | `okof` |
 | `RU_AssetOKOFDesc` | `okof_text` |
 | `_Country` | *Association* |
 | `_Language` | *Association* |

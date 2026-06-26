@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcInternalID
 ---
 # I_CLFNCHARACTERISTICFORKEYDATE
 
@@ -29,50 +30,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Characteristic.CharcInternalID` | `Characteristic.CharcInternalID` |
-| `Characteristic.Characteristic` | `Characteristic.Characteristic` |
-| `Characteristic.CharcStatus` | `Characteristic.CharcStatus` |
-| `Characteristic.CharcDataType` | `Characteristic.CharcDataType` |
-| `Characteristic.CharcLength` | `Characteristic.CharcLength` |
-| `Characteristic.CharcDecimals` | `Characteristic.CharcDecimals` |
-| `Characteristic.CharcTemplate` | `Characteristic.CharcTemplate` |
-| `Characteristic.ValueIsCaseSensitive` | `Characteristic.ValueIsCaseSensitive` |
-| `Characteristic.CharcConversionRoutine` | `Characteristic.CharcConversionRoutine` |
-| `Characteristic.CharcGroup` | `Characteristic.CharcGroup` |
-| `Characteristic.EntryIsRequired` | `Characteristic.EntryIsRequired` |
-| `Characteristic.MultipleValuesAreAllowed` | `Characteristic.MultipleValuesAreAllowed` |
-| `Characteristic.CharcValueUnit` | `Characteristic.CharcValueUnit` |
-| `Characteristic.Currency` | `Characteristic.Currency` |
-| `Characteristic.CharcExponentValue` | `Characteristic.CharcExponentValue` |
-| `Characteristic.ValueIntervalIsAllowed` | `Characteristic.ValueIntervalIsAllowed` |
-| `Characteristic.AdditionalValueIsAllowed` | `Characteristic.AdditionalValueIsAllowed` |
-| `Characteristic.NegativeValueIsAllowed` | `Characteristic.NegativeValueIsAllowed` |
-| `Characteristic.ValidityStartDate` | `Characteristic.ValidityStartDate` |
-| `Characteristic.ValidityEndDate` | `Characteristic.ValidityEndDate` |
-| `Characteristic.ChangeNumber` | `Characteristic.ChangeNumber` |
-| `Characteristic.DocumentInfoRecordDocType` | `Characteristic.DocumentInfoRecordDocType` |
-| `Characteristic.DocumentInfoRecordDocNumber` | `Characteristic.DocumentInfoRecordDocNumber` |
-| `Characteristic.DocumentInfoRecordDocVersion` | `Characteristic.DocumentInfoRecordDocVersion` |
-| `Characteristic.DocumentInfoRecordDocPart` | `Characteristic.DocumentInfoRecordDocPart` |
-| `Characteristic.CharcMaintAuthGrp` | `Characteristic.CharcMaintAuthGrp` |
-| `Characteristic.CharcIsReadOnly` | `Characteristic.CharcIsReadOnly` |
-| `Characteristic.CharcIsHidden` | `Characteristic.CharcIsHidden` |
-| `Characteristic.CharcIsRestrictable` | `Characteristic.CharcIsRestrictable` |
-| `Characteristic.CharcReferenceTable` | `Characteristic.CharcReferenceTable` |
-| `Characteristic.CharcReferenceTableField` | `Characteristic.CharcReferenceTableField` |
-| `Characteristic.CharcCheckTable` | `Characteristic.CharcCheckTable` |
-| `Characteristic.CharcCheckFunctionModule` | `Characteristic.CharcCheckFunctionModule` |
-| `Characteristic.CharcExponentFormat` | `Characteristic.CharcExponentFormat` |
-| `Characteristic.CharcEntryIsNotFormatCtrld` | `Characteristic.CharcEntryIsNotFormatCtrld` |
-| `Characteristic.CharcTemplateIsDisplayed` | `Characteristic.CharcTemplateIsDisplayed` |
-| `Characteristic.CharcSelectedSet` | `Characteristic.CharcSelectedSet` |
-| `Characteristic.Plant` | `Characteristic.Plant` |
-| `Characteristic.CharcCatalogType` | `Characteristic.CharcCatalogType` |
-| `Characteristic.CreatedByUser` | `Characteristic.CreatedByUser` |
-| `Characteristic.CreationDate` | `Characteristic.CreationDate` |
-| `Characteristic.LastChangedByUser` | `Characteristic.LastChangedByUser` |
-| `Characteristic.LastChangeDate` | `Characteristic.LastChangeDate` |
-| `Characteristic.CharcLastChangedDateTime` | `Characteristic.CharcLastChangedDateTime` |
+| `CharcInternalID` | `Characteristic.CharcInternalID` |
+| `Characteristic` | `Characteristic.Characteristic` |
+| `CharcStatus` | `Characteristic.CharcStatus` |
+| `CharcDataType` | `Characteristic.CharcDataType` |
+| `CharcLength` | `Characteristic.CharcLength` |
+| `CharcDecimals` | `Characteristic.CharcDecimals` |
+| `CharcTemplate` | `Characteristic.CharcTemplate` |
+| `ValueIsCaseSensitive` | `Characteristic.ValueIsCaseSensitive` |
+| `CharcConversionRoutine` | `Characteristic.CharcConversionRoutine` |
+| `CharcGroup` | `Characteristic.CharcGroup` |
+| `EntryIsRequired` | `Characteristic.EntryIsRequired` |
+| `MultipleValuesAreAllowed` | `Characteristic.MultipleValuesAreAllowed` |
+| `CharcValueUnit` | `Characteristic.CharcValueUnit` |
+| `Currency` | `Characteristic.Currency` |
+| `CharcExponentValue` | `Characteristic.CharcExponentValue` |
+| `ValueIntervalIsAllowed` | `Characteristic.ValueIntervalIsAllowed` |
+| `AdditionalValueIsAllowed` | `Characteristic.AdditionalValueIsAllowed` |
+| `NegativeValueIsAllowed` | `Characteristic.NegativeValueIsAllowed` |
+| `ValidityStartDate` | `Characteristic.ValidityStartDate` |
+| `ValidityEndDate` | `Characteristic.ValidityEndDate` |
+| `ChangeNumber` | `Characteristic.ChangeNumber` |
+| `DocumentInfoRecordDocType` | `Characteristic.DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `Characteristic.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `Characteristic.DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocPart` | `Characteristic.DocumentInfoRecordDocPart` |
+| `CharcMaintAuthGrp` | `Characteristic.CharcMaintAuthGrp` |
+| `CharcIsReadOnly` | `Characteristic.CharcIsReadOnly` |
+| `CharcIsHidden` | `Characteristic.CharcIsHidden` |
+| `CharcIsRestrictable` | `Characteristic.CharcIsRestrictable` |
+| `CharcReferenceTable` | `Characteristic.CharcReferenceTable` |
+| `CharcReferenceTableField` | `Characteristic.CharcReferenceTableField` |
+| `CharcCheckTable` | `Characteristic.CharcCheckTable` |
+| `CharcCheckFunctionModule` | `Characteristic.CharcCheckFunctionModule` |
+| `CharcExponentFormat` | `Characteristic.CharcExponentFormat` |
+| `CharcEntryIsNotFormatCtrld` | `Characteristic.CharcEntryIsNotFormatCtrld` |
+| `CharcTemplateIsDisplayed` | `Characteristic.CharcTemplateIsDisplayed` |
+| `CharcSelectedSet` | `Characteristic.CharcSelectedSet` |
+| `Plant` | `Characteristic.Plant` |
+| `CharcCatalogType` | `Characteristic.CharcCatalogType` |
+| `CreatedByUser` | `Characteristic.CreatedByUser` |
+| `CreationDate` | `Characteristic.CreationDate` |
+| `LastChangedByUser` | `Characteristic.LastChangedByUser` |
+| `LastChangeDate` | `Characteristic.LastChangeDate` |
+| `CharcLastChangedDateTime` | `Characteristic.CharcLastChangedDateTime` |
 | `_CharacteristicDesc` | *Association* |
 | `_CharacteristicValue` | *Association* |
 | `_CharacteristicGroup` | *Association* |

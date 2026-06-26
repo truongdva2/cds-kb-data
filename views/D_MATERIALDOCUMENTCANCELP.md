@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate : budat;` | `PostingDate : budat;` |
+| `PostingDate` | `budat` |
 
 ## Associations
 

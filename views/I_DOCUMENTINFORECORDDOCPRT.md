@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocPart
 ---
 # I_DOCUMENTINFORECORDDOCPRT
 
@@ -30,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'DocumentInfoRecordDocNumber'` | `localElement: 'DocumentInfoRecordDocNumber'` |
-| `element: 'DocumentInfoRecordDocNumber' }]` | `element: 'DocumentInfoRecordDocNumber' }]` |
-| `}]` | `}]` |
+| `DocumentInfoRecordDocType` | `document.dokar` |
+| `DocumentInfoRecordDocNumber` | `document.doknr` |
 | `DocumentInfoRecordDocVersion` | `document.dokvr` |
 | `DocumentInfoRecordDocPart` | `document.doktl` |
-| `_DocDescription[1:Language = $session.system_language].DocumentDescription as  DocumentDescription` | *Association* |
+| `DocumentDescription` | `_DocDescription[1:Language = $session.system_language].DocumentDescription` |
 | `_DocDescription` | *Association* |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |

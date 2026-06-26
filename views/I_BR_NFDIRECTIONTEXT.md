@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFDirection
 ---
 # I_BR_NFDIRECTIONTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras  preserving type)` | `cast( ddlanguage` |
-| `logbr_nfdirection preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
-| `logbr_direction preserving type)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_NFDirection` | `cast( substring(domvalue_l, 1, 1) as logbr_nfdirection preserving type )` |
+| `BR_NFDirectionDesc` | `cast(ddtext as logbr_direction preserving type)` |
 | `_BR_NFDirection` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xndtx_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `xndtx_text_kk preserving type )` | `cast( ddtext` |
+| `CAContainsNonDeductibleInptTax` | `cast( left( dd07t.domvalue_l, 1 ) as xndtx_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAContainsNonDeductInptTaxText` | `cast( ddtext as xndtx_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

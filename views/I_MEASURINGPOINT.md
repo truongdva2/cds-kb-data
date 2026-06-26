@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasuringPoint
 ---
 # I_MEASURINGPOINT
 
@@ -30,6 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
+| `MeasuringPoint` | `point` |
+| `MeasuringPointObjectIdentifier` | `mpobj` |
+| `MeasuringPointPositionNumber` | `psort` |
+| `MeasuringPointCategory` | `mptyp` |
+| `CreationDate` | `erdat` |
+| `LastChangeDate` | `aedat` |
+| `AuthorizationGroup` | `begru` |
+| `MeasuringPointIsInactive` | `inact` |
+| `MeasuringPointIsCounter` | `indct` |
+| `MultiLevelDeletionLogicStatus` | `lvorm` |
 | `Assembly` | `locas` |
 | `ReferenceMeasuringPoint` | `refmp` |
 | `MsrgPtInternalCharacteristic` | `atinn` |
@@ -40,7 +51,7 @@ tags:
 | `MeasuringPointMaximumThreshold` | `mrmax` |
 | `MaximumThresholdIsEntered` | `mrmaxi` |
 | `MeasurementRangeUnit` | `mrngu` |
-| `_UnitOfMeasure._Dimension.UnitOFMeasureSiUnit as MeasuringPointSIUnitOfMeasure` | *Association* |
+| `MeasuringPointSIUnitOfMeasure` | `_UnitOfMeasure._Dimension.UnitOFMeasureSiUnit` |
 | `MsrgPtIsCountingBackwards` | `indrv` |
 | `MsmtRdngSourceMeasuringPoint` | `trans` |
 | `CounterOverflowRdngThreshold` | `cjump` |
@@ -58,7 +69,7 @@ tags:
 | `CreatedByUser` | `ernam` |
 | `LastChangedByUser` | `aenam` |
 | `MeasuringPointHasLongText` | `kzltx` |
-| `j_obart)` | `cast(substring(mpobj,1,2)` |
+| `MeasuringPointObjectType` | `cast(substring(mpobj,1,2) as j_obart)` |
 | `MeasuringPointTargetValue` | `desir` |
 | `TargetValueIsEntered` | `desiri` |
 | `MsmtRdngTransferMode` | `modtr` |
@@ -66,7 +77,7 @@ tags:
 | `MsrgPtMaxTolUnitOfMeasure` | `upr_dsp_unit` |
 | `MsrgPtMinimumToleranceQuantity` | `lowr_tolerance` |
 | `MsrgPtMinTolUnitOfMeasure` | `lowr_dsp_unit` |
-| `_FunctionalLocation.FunctionalLocation        as FunctionalLocation` | *Association* |
+| `FunctionalLocation` | `_FunctionalLocation.FunctionalLocation` |
 | `_ControllingObject` | *Association* |
 | `_Language` | *Association* |
 | `_Product` | *Association* |
@@ -100,9 +111,6 @@ tags:
 | `_FunctionalLocation` | `I_FunctionalLocation` | [0..1] |
 | `_FunctionalLocationLabel` | `I_FunctionalLocationLabel` | [0..1] |
 | `_AuthorizationGroup` | `I_TechObjAuthznGrp` | [0..1] |
-| `_Building` | `P_Building` | [0..1] |
-| `_SettlementUnit` | `P_SettlementUnit` | [0..1] |
-| `_RentalObject` | `P_RentalObject` | [0..1] |
 | `_MeasuringPointExtension` | `E_MeasuringPoint` | [0..1] |
 
 ## Source Code

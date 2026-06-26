@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardPtyUUID` | `SuplrEvalScorecardPtyUUID` |
+| `SuplrEvalScorecardPtyUUID` | `SuplrEvalScorecardPtyUUID` |
 | `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
 | `BusinessPartner` | `BusinessPartner` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

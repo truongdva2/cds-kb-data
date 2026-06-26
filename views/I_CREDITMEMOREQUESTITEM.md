@@ -1,6 +1,11 @@
 ---
 name: I_CREDITMEMOREQUESTITEM
 description: Creditmemorequestitem
+semantic_en: "Credit memo request item — a line in a credit memo request: product, quantity and credit amount."
+semantic_vi: "Dòng (item) yêu cầu giấy báo có — sản phẩm, số lượng và số tiền ghi có."
+keywords:
+  - dòng báo có
+  - chi tiết báo có
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released
@@ -16,6 +21,7 @@ tags:
   - item-level
   - component:SD-SLS-CMR-2CL
   - lob:Sales & Distribution
+  - bo:CreditMemoRequestItem
 ---
 # I_CREDITMEMOREQUESTITEM
 
@@ -32,9 +38,102 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessAreaStdVH'` | `name:    'I_BusinessAreaStdVH'` |
-| `element: 'BusinessArea' }` | `element: 'BusinessArea' }` |
-| `}]` | `}]` |
+| `CreditMemoRequest` | `cast(SalesDocument as credit_memo_request preserving type )` |
+| `CreditMemoRequestItem` | `cast(SalesDocumentItem as credit_memo_request_item preserving type )` |
+| `CreditMemoRequestItemCategory` | `SalesDocumentItemCategory` |
+| `CreditMemoRequestItemType` | `SalesDocumentItemType` |
+| `IsReturnsItem` | `IsReturnsItem` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `Division` | `Division` |
+| `Material` | `Material` |
+| `Product` | `Product` |
+| `OriginallyRequestedMaterial` | `OriginallyRequestedMaterial` |
+| `MaterialByCustomer` | `MaterialByCustomer` |
+| `Batch` | `Batch` |
+| `ProductHierarchyNode` | `ProductHierarchyNode` |
+| `ProductCatalog` | `ProductCatalog` |
+| `MaterialGroup` | `MaterialGroup` |
+| `ProductGroup` | `ProductGroup` |
+| `MaterialPricingGroup` | `MaterialPricingGroup` |
+| `ProductTaxClassification1` | `ProductTaxClassification1` |
+| `ProductTaxClassification2` | `ProductTaxClassification2` |
+| `ProductTaxClassification3` | `ProductTaxClassification3` |
+| `ProductTaxClassification4` | `ProductTaxClassification4` |
+| `ProductTaxClassification5` | `ProductTaxClassification5` |
+| `ProductTaxClassification6` | `ProductTaxClassification6` |
+| `ProductTaxClassification7` | `ProductTaxClassification7` |
+| `ProductTaxClassification8` | `ProductTaxClassification8` |
+| `ProductTaxClassification9` | `ProductTaxClassification9` |
+| `MatlAccountAssignmentGroup` | `MatlAccountAssignmentGroup` |
+| `AdditionalMaterialGroup1` | `AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
+| `Plant` | `Plant` |
+| `CreditMemoRequestItemText` | `SalesDocumentItemText` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustPurOrdTypeByShipToParty` | `CustPurOrdTypeByShipToParty` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `CorrespncExtRefByShipToParty` | `CorrespncExtRefByShipToParty` |
+| `UnderlyingPurchaseOrderItem` | `UnderlyingPurchaseOrderItem` |
+| `UndrlgPurOrdItmByShipToParty` | `UndrlgPurOrdItmByShipToParty` |
+| `BaseUnit` | `BaseUnit` |
+| `TargetQuantity` | `TargetQuantity` |
+| `TargetQuantityUnit` | `TargetQuantityUnit` |
+| `TargetToBaseQuantityDnmntr` | `TargetToBaseQuantityDnmntr` |
+| `TargetToBaseQuantityNmrtr` | `TargetToBaseQuantityNmrtr` |
+| `RequestedQuantity` | `RequestedQuantity` |
+| `RequestedQuantityUnit` | `RequestedQuantityUnit` |
+| `RequestedQuantityInBaseUnit` | `RequestedQuantityInBaseUnit` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SalesDistrict` | `SalesDistrict` |
+| `SalesDeal` | `SalesDeal` |
+| `CustomerGroup` | `CustomerGroup` |
+| `SalesDocumentRjcnReason` | `SalesDocumentRjcnReason` |
+| `ItemOrderProbabilityInPercent` | `ItemOrderProbabilityInPercent` |
+| `NetAmount` | `NetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `NetPriceAmount` | `NetPriceAmount` |
+| `NetPriceQuantity` | `NetPriceQuantity` |
+| `NetPriceQuantityUnit` | `NetPriceQuantityUnit` |
+| `StatisticalValueControl` | `StatisticalValueControl` |
+| `_StatisticalValueControl` | *Association* |
+| `TaxAmount` | `TaxAmount` |
+| `CostAmount` | `CostAmount` |
+| `Subtotal1Amount` | `Subtotal1Amount` |
+| `Subtotal2Amount` | `Subtotal2Amount` |
+| `Subtotal3Amount` | `Subtotal3Amount` |
+| `Subtotal4Amount` | `Subtotal4Amount` |
+| `Subtotal5Amount` | `Subtotal5Amount` |
+| `Subtotal6Amount` | `Subtotal6Amount` |
+| `CreditMemoRequestCondition` | `SalesDocumentCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `ItemIsBillingRelevant` | `ItemIsBillingRelevant` |
+| `ItemBillingBlockReason` | `ItemBillingBlockReason` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
 | `BusinessArea` | `BusinessArea` |
 | `ControllingArea` | `ControllingArea` |
 | `ProfitCenter` | `ProfitCenter` |
@@ -82,7 +181,6 @@ tags:
 | `ResponsibleEmployee` | `ResponsibleEmployee` |
 | `SalesEmployeeWorkAgreement` | `SalesEmployeeWorkAgreement` |
 | `ResponsibleEmployeeWorkAgrmt` | `ResponsibleEmployeeWorkAgrmt` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_CreditMemoRequest` | *Association* |
 | `_Partner` | *Association* |
 | `_PricingElement` | *Association* |

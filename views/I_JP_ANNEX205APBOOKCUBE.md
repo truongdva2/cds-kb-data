@@ -31,9 +31,41 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
-| `_PurchasingDocumentItem.NetPriceAmount` | *Association* |
-| `_PurchasingDocumentItem.DocumentCurrency` | *Association* |
+| `Supplier` | `Supplier` |
+| `SourceLedger` | `SourceLedger` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `Ledger` | `Ledger` |
+| `PurchasingDocument` | `PurchasingDocument` |
+| `JP_Annex205APLeadingAcctgDoc` | `JP_Annex205APLeadingAcctgDoc` |
+| `AccountingDocumentType` | `AccountingDocumentType` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `PostingDate` | `PostingDate` |
+| `DocumentDate` | `DocumentDate` |
+| `ClearingDate` | `ClearingDate` |
+| `AccountingDocumentHeaderText` | `_Header.AccountingDocumentHeaderText` |
+| `DocumentItemText` | `DocumentItemText` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccount` | `GLAccount` |
+| `ReferenceDocument` | `ReferenceDocument` |
+| `ReferenceDocumentItem` | `ReferenceDocumentItem` |
+| `PurchasingDocumentItem` | `PurchasingDocumentItem` |
+| `Product` | `Product` |
+| `DebitCreditCodeName` | `DebitCreditCodeName` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `AmountInTransactionCurrency` | `cast( AmountInTransactionCurrency as fis_wsl preserving type )` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `AmountInCompanyCodeCurrency` | `cast( AmountInCompanyCodeCurrency as fis_hsl preserving type )` |
+| `AcctsPyblAmtInCCCrcy` | `case…end` |
+| `BaseUnit` | `BaseUnit` |
+| `Quantity` | `cast( abs(Quantity) as glo_jp_anx20_quantity preserving type )` |
+| `OrderPriceUnit` | `_PurchasingDocumentItem.OrderPriceUnit` |
+| `NetPriceQuantity` | `cast( _PurchasingDocumentItem.NetPriceQuantity as glo_jp_netpriceqty )` |
+| `NetPriceAmount` | `_PurchasingDocumentItem.NetPriceAmount` |
+| `DocumentCurrency` | `_PurchasingDocumentItem.DocumentCurrency` |
 | `_SourceLedger` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_FiscalYear` | *Association* |

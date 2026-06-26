@@ -17,6 +17,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:DeliveryServiceTypeCode
 ---
 # I_ADDRESSDELIVERYSERVICETYPE
 
@@ -35,7 +36,6 @@ tags:
 |---|---|
 | `DeliveryServiceTypeCode` | `deli_serv_type` |
 | `DeliveryServiceTypeName` | `deli_serv_text` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

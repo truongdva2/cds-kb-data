@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:GLAccountHierarchyNodeText
 ---
 # I_GLACCOUNTHIERARCHYNODET
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glaccthier preserving type )` | `cast ( hrrp_nodet_n.hryid_42` |
+| `GLAccountHierarchy` | `cast ( hrrp_nodet_n.hryid_42 as fis_glaccthier preserving type )` |
 | `HierarchyNode` | `hrrp_nodet_n.hrynode` |
 | `ValidityEndDate` | `hrrp_nodet_n.hryvalto` |
 | `Language` | `hrrp_nodet_n.spras` |

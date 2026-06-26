@@ -30,7 +30,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ProcurementBlock` | `tq04a.sperrfkt` |
-| `/* Associations */` | `/* Associations */` |
 | `_ProcurementBlockText` | *Association* |
 
 ## Associations

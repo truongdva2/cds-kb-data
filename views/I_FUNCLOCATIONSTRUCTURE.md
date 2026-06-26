@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FuncLocationStructureCode
 ---
 # I_FUNCLOCATIONSTRUCTURE
 
@@ -35,7 +36,7 @@ tags:
 | `FuncLocationStrucHierLevels` | `t370s.stufm` |
 | `FuncLocStrucIdentifyingLevel` | `t370s.level_kz` |
 | `FuncLocStruc2ndIdentifyingLvl` | `t370s.level_kz2` |
-| `funclocationstructure_oid )` | `cast( t370s.tplkz` |
+| `FuncnlLocationStructureCodeOID` | `cast( t370s.tplkz as funclocationstructure_oid )` |
 | `_FuncLocationStructureText` | *Association* |
 
 ## Associations

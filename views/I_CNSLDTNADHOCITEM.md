@@ -31,8 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED}` | `status: #DEPRECATED}` |
-| `_CnsldtnFinStmntItem // required for value help retrieval` | *Association* |
+| `ConsolidationChartOfAccounts` | `cast(_AdhocItem.itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnAdhocItem` | `_AdhocItem.adhocitem` |
+| `CnsldtnAdhocSet` | `_AdhocItem.adhocset` |
+| `FinancialStatementItem` | `cast ( '' as fincs_md_finstatementitem )` |
+| `_CnsldtnChartOfAccounts` | *Association* |
+| `_CnsldtnAdhocSet` | *Association* |
+| `_Text` | *Association* |
+| `_CnsldtnFinStmntItem` | *Association* |
 
 ## Associations
 

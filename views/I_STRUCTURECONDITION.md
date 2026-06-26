@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingStructureCondition
 ---
 # I_STRUCTURECONDITION
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kdupl )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `StructureCondition` | `cast ( substring( domvalue_l, 1, 1 ) as kdupl )` |
 | `_Text` | *Association* |
 
 ## Associations

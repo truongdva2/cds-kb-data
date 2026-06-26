@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ContractAccount : vkont_kk;` | `ContractAccount : vkont_kk;` |
-| `_SourceDocument : composition [0..*] of D_CAInvcgDocCreatedSourceDoc;` | *Association* |
+| `ContractAccount` | `vkont_kk` |
+| `_SourceDocument` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SourceDocument` | `D_CAInvcgDocCreatedSourceDoc` | [0..*] |
 
 ## Source Code
 

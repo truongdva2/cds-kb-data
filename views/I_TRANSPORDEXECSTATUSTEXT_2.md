@@ -14,6 +14,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderExecSts
 ---
 # I_TRANSPORDEXECSTATUSTEXT_2
 
@@ -30,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_execution_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderExecSts` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_lc_status_desc preserving type )` | `cast(ddtext` |
+| `TransportationOrderExecStsDesc` | `cast(ddtext as /scmtms/vdm_tor_lc_status_desc preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationOrderExecSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderExecSts` | `I_TranspOrdExecStatus_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

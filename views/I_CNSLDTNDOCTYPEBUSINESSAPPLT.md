@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_DomainT.DomainValueText                                         as CnsldtnDocTypeBusinessApplText` | *Association* |
-| `_DomainT.DomainValue` | *Association* |
+| `Language` | `cast(_DomainT.Language as spras preserving type )` |
+| `CnsldtnDocTypeBusinessAppl` | `cast(left(_DomainT.DomainValue, 1) as fincs_doctypebusinessappl preserving type)` |
+| `CnsldtnDocTypeBusinessApplText` | `_DomainT.DomainValueText` |
+| `DomainValue` | `_DomainT.DomainValue` |
 | `_DocTypeBusinessApplication` | *Association* |
-| `_DomainT._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

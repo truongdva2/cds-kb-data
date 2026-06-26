@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMPhaseUUID : lcm_uuid;` | `LglCntntMPhaseUUID : lcm_uuid;` |
+| `LglCntntMPhaseUUID` | `lcm_uuid` |
 
 ## Associations
 

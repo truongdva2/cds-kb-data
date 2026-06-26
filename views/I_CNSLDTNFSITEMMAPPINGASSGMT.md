@@ -31,20 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'CnsldtnFSItemMapping'` | `localElement: 'CnsldtnFSItemMapping'` |
-| `element: 'CnsldtnFSItemMapping'` | `element: 'CnsldtnFSItemMapping'` |
-| `usage: #FILTER_AND_RESULT` | `usage: #FILTER_AND_RESULT` |
-| `}` | `}` |
-| `]` | `]` |
-| `}]` | `}]` |
-| `_Source.CnsldtnFSItemMappingRevision` | *Association* |
-| `_Source.ETag` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_Source._CnsldtnChartOfAccounts` | *Association* |
-| `_Source._ChartOfAccounts` | *Association* |
-| `_Source._CnsldtnVersion` | *Association* |
-| `_Source._CnsldtnFSItemMapping` | *Association* |
-| `_Source._CnsldtnFSItemMappingRevision` | *Association* |
+| `ConsolidationChartOfAccounts` | `_Source.ConsolidationChartOfAccounts` |
+| `ChartOfAccounts` | `_Source.ChartOfAccounts` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `_Source.ToFiscalYearPeriod` |
+| `CnsldtnFSItemMapping` | `_Source.CnsldtnFSItemMapping` |
+| `CnsldtnFSItemMappingRevision` | `_Source.CnsldtnFSItemMappingRevision` |
+| `ETag` | `_Source.ETag` |
+| `_CnsldtnChartOfAccounts` | *Association* |
+| `_ChartOfAccounts` | *Association* |
+| `_CnsldtnVersion` | *Association* |
+| `_CnsldtnFSItemMapping` | *Association* |
+| `_CnsldtnFSItemMappingRevision` | *Association* |
 
 ## Associations
 

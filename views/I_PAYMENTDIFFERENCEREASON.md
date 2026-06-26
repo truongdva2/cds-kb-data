@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-AR-IS-2CL
   - lob:Finance
+  - bo:PaymentDifferenceReason
 ---
 # I_PAYMENTDIFFERENCEREASON
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs)` | `cast (bukrs` |
-| `farp_rstgr)` | `cast (rstgr` |
+| `CompanyCode` | `cast (bukrs as fis_bukrs)` |
+| `PaymentDifferenceReason` | `cast (rstgr as farp_rstgr)` |
 | `IsDisputed` | `xstrp` |
 | `PaytDiffIsChargedToSprtGLAcct` | `xausb` |
 | `_Text` | *Association* |

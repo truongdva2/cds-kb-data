@@ -29,20 +29,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PCLgsDcItmPackgInstructionUUID : ehfnd_log_doc_pi_uuid;` | `PCLgsDcItmPackgInstructionUUID : ehfnd_log_doc_pi_uuid;` |
-| `PackingInstructionSystemUUID   : ehfnd_pi_uuid;` | `PackingInstructionSystemUUID   : ehfnd_pi_uuid;` |
-| `PackingInstructionNumber       : ehfnd_pi_id;` | `PackingInstructionNumber       : ehfnd_pi_id;` |
-| `ProdCmplncLogsDocumentItem     : ehfnd_log_doc_posnr;` | `ProdCmplncLogsDocumentItem     : ehfnd_log_doc_posnr;` |
-| `Product                        : ehfnd_mat_id;` | `Product                        : ehfnd_mat_id;` |
-| `DngrsGdsCalculatedEnclosureQty : dngrsgdscalculatedenclosureqty;` | `DngrsGdsCalculatedEnclosureQty : dngrsgdscalculatedenclosureqty;` |
-| `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` | `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` |
-| `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` | `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` |
-| `_PackingInstructionRegulation  : composition [0..*] of D_DaGdsClfnCalctPtsPaInsnRglnR;` | *Association* |
-| `_Document                      : association to parent D_CalctDangerousGoodsPointsR;` | *Association* |
+| `PCLgsDcItmPackgInstructionUUID` | `ehfnd_log_doc_pi_uuid` |
+| `PackingInstructionSystemUUID` | `ehfnd_pi_uuid` |
+| `PackingInstructionNumber` | `ehfnd_pi_id` |
+| `ProdCmplncLogsDocumentItem` | `ehfnd_log_doc_posnr` |
+| `Product` | `ehfnd_mat_id` |
+| `DngrsGdsCalculatedEnclosureQty` | `dngrsgdscalculatedenclosureqty` |
+| `DangerousGoodsEnclosureSapUnit` | `ehfnd_vdm_component_unit_sap` |
+| `DangerousGoodsEnclosureISOUnit` | `ehfnd_vdm_component_unit_iso` |
+| `_PackingInstructionRegulation` | *Association* |
+| `_Document` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PackingInstructionRegulation` | `D_DaGdsClfnCalctPtsPaInsnRglnR` | [0..*] |
+| `_Document` | `D_CalctDangerousGoodsPointsR` | — |
 
 ## Source Code
 

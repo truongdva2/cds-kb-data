@@ -34,14 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `PhysInventoryForCycleCounting` | `PhysInventoryForCycleCounting` |
 | `MaximumStoragePeriod` | `MaximumStoragePeriod` |
 | `ProdMaximumStoragePeriodUnit` | `ProdMaximumStoragePeriodUnit` |
 | `CycleCountingIndicatorIsFixed` | `CycleCountingIndicatorIsFixed` |
 | `ProvisioningServiceLevel` | `ProvisioningServiceLevel` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 | `_ProdMaxStoragePeriodUnit` | *Association* |
 
 ## Associations

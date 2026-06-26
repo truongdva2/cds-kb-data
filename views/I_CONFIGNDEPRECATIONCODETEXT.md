@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-DWB-DIC
   - lob:Basis Components
+  - bo:ConfigurationDeprecationCode
 ---
 # I_CONFIGNDEPRECATIONCODETEXT
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `config_deprecation_code )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ConfigurationDeprecationCode` | `cast( dd07t.domvalue_l as config_deprecation_code )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `config_deprecation_code_name preserving type )` | `cast( dd07t.ddtext` |
+| `ConfignDeprecationCodeName` | `cast( dd07t.ddtext as config_deprecation_code_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchasingDocumentType : esart;` | `PurchasingDocumentType : esart;` |
-| `_Items  : composition[0..*] of D_RFQCreateFromPurReqnItemP ;` | *Association* |
+| `PurchasingDocumentType` | `esart` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_RFQCreateFromPurReqnItemP` | [0..*] |
 
 ## Source Code
 

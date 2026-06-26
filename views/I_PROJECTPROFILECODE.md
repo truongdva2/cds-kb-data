@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ProjectProfileCode` | `profidproj` |
-| `_Text // Make association public` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:ProjectServiceOrganizationText
 ---
 # I_PROJSRVCORGTEXT
 
@@ -32,15 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectServiceOrganization` | `ProjectServiceOrganization` |
-| `key Language` | `Language` |
+| `ProjectServiceOrganization` | `ProjectServiceOrganization` |
+| `Language` | `Language` |
 | `ProjectServiceOrganizationUUID` | `ProjectServiceOrganizationUUID` |
 | `ProjSrvcOrgName` | `ProjSrvcOrgName` |
 | `_ServiceOrganization` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ServiceOrganization` | `I_ProjSrvcOrg` | — |
 
 ## Source Code
 

@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransIntrstRateInstr
 ---
 # I_FINTRANSINTRSTRATEINSTRTP
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  CompanyCode` | `CompanyCode` |
-| `key  FinancialTransaction` | `FinancialTransaction` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
 | `TreasuryFinancialObject` | `TreasuryFinancialObject` |
 | `CreatedByUser` | `CreatedByUser` |
 | `FinTransCreationDate` | `FinTransCreationDate` |

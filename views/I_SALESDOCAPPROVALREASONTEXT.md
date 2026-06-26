@@ -17,6 +17,7 @@ tags:
   - approval
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocApprovalReason
 ---
 # I_SALESDOCAPPROVALREASONTEXT
 
@@ -33,16 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
-| `sd_apm_approval_reason preserving type )` | `cast( SalesDocApprovalReasonText.SDApprovalReason` |
-| `key SalesDocApprovalReason.SDDocumentCategory` | `SalesDocApprovalReason.SDDocumentCategory` |
+| `Language` | `SalesDocApprovalReasonText.Language` |
+| `SalesDocApprovalReason` | `cast(…)` |
+| `SDDocumentCategory` | `SalesDocApprovalReason.SDDocumentCategory` |
 | `SalesDocApprovalReasonName` | `SalesDocApprovalReasonText.SDApprovalReasonName` |
 | `_SalesDocApprovalReason` | *Association* |
-| `SalesDocApprovalReason._SDDocumentCategory` | `SalesDocApprovalReason._SDDocumentCategory` |
-| `SalesDocApprovalReasonText._Language` | `SalesDocApprovalReasonText._Language` |
+| `_SDDocumentCategory` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

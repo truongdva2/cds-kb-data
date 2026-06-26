@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerUniversalHierarchyNode
 ---
 # I_CUSTUNIVHIERARCHYNODE_2
 
@@ -32,14 +33,14 @@ tags:
 |---|---|
 | `UniversalHierarchy` | `Node.hryid` |
 | `HierarchyNode` | `Node.hrynode` |
-| `custhierarchyvalidityenddate preserving type )` | `cast(Node.hryvalto` |
-| `custhierarchyvaliditystartdate preserving type )` | `cast(Node.hryvalfrom` |
+| `CustUnivHierarchyValidEndDate` | `cast(Node.hryvalto as custhierarchyvalidityenddate preserving type )` |
+| `CustUnivHierarchyValidStartDte` | `cast(Node.hryvalfrom as custhierarchyvaliditystartdate preserving type )` |
 | `CustUnivHierarchyType` | `Node.hrytyp` |
-| `_hierarchydirectory.hrysid                                                 as CustUnivHierarchyShortID` | *Association* |
+| `CustUnivHierarchyShortID` | `_hierarchydirectory.hrysid` |
 | `CustUnivHierarchyParentNode` | `Node.parnode` |
 | `CustUnivHierarchyNodeType` | `Node.nodetype` |
 | `CustUnivHierarchyNodeValue` | `Node.nodevalue` |
-| `kunnr)` | `cast( _NodeAttribute.hryattrvalue` |
+| `Customer` | `cast( _NodeAttribute.hryattrvalue as kunnr)` |
 | `CustUnivHierarchyNodeSequence` | `Node.hryseqnbr` |
 | `CustUnivHierarchyNodeLevel` | `Node.hrylevel` |
 | `CustUnivHierarchyLeafValue` | `Node.leafvalue` |

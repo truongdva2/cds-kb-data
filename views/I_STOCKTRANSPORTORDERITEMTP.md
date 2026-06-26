@@ -33,27 +33,67 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_Customer_VH', element: 'Customer' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `STOItemUniqueID` | `STOItemUniqueID` |
+| `StockTransportOrderItemText` | `StockTransportOrderItemText` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `PurchasingDocumentDeletionCode` | `PurchasingDocumentDeletionCode` |
+| `ProductGroup` | `ProductGroup` |
+| `Product` | `Product` |
+| `ProductTypeCode` | `ProductTypeCode` |
+| `ManufacturerMaterial` | `ManufacturerMaterial` |
+| `CompanyCode` | `CompanyCode` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `IsCompletelyDelivered` | `IsCompletelyDelivered` |
+| `GoodsReceiptIsExpected` | `GoodsReceiptIsExpected` |
+| `OutwardDeliveryIsComplete` | `OutwardDeliveryIsComplete` |
+| `InvoiceIsExpected` | `InvoiceIsExpected` |
+| `UnlimitedOverdeliveryIsAllowed` | `UnlimitedOverdeliveryIsAllowed` |
+| `OverdelivTolrtdLmtRatioInPct` | `OverdelivTolrtdLmtRatioInPct` |
+| `UnderdelivTolrtdLmtRatioInPct` | `UnderdelivTolrtdLmtRatioInPct` |
+| `RequisitionerName` | `RequisitionerName` |
+| `BaseUnit` | `BaseUnit` |
+| `STOItemCategory` | `STOItemCategory` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `DeliveryDocumentType` | `DeliveryDocumentType` |
+| `IssuingStorageLocation` | `IssuingStorageLocation` |
+| `IsStatisticalItem` | `IsStatisticalItem` |
+| `PurchasingParentItem` | `PurchasingParentItem` |
+| `AccountAssignmentCategory` | `AccountAssignmentCategory` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `NetAmount` | `NetAmount` |
+| `EffectiveAmount` | `EffectiveAmount` |
+| `OrderQuantity` | `OrderQuantity` |
+| `NetPriceAmount` | `NetPriceAmount` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `MultipleAcctAssgmtDistribution` | `MultipleAcctAssgmtDistribution` |
+| `PartialInvoiceDistribution` | `PartialInvoiceDistribution` |
+| `PartialDeliveryIsAllowed` | `PartialDeliveryIsAllowed` |
+| `GoodsReceiptDurationInDays` | `GoodsReceiptDurationInDays` |
+| `InventoryUsabilityCode` | `InventoryUsabilityCode` |
+| `PurgDocSubitemCategory` | `PurgDocSubitemCategory` |
+| `StockTransportOrderType` | `StockTransportOrderType` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `SupplierConfirmationControlKey` | `SupplierConfirmationControlKey` |
+| `Subcontractor` | `Subcontractor` |
 | `Customer` | `Customer` |
 | `Batch` | `Batch` |
 | `ValuationType` | `ValuationType` |
 | `ValuationCategory` | `ValuationCategory` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrder   : redirected to parent I_StockTransportOrderTP` | *Association* |
-| `_STOScheduleLine       : redirected to composition child I_STOScheduleLineTP` | *Association* |
-| `_STOShipping           : redirected to composition child I_STOShippingTP` | *Association* |
-| `_STOItemNote           : redirected to composition child I_STOItemNoteTP` | *Association* |
-| `_STOItemPricingElement : redirected to composition child I_STOItemPricingElementTP` | *Association* |
-| `_STOAccountAssignment : redirected to composition child I_STOAccountAssignmentTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
-| `_Product, // --?` | *Association* |
+| `_Product` | *Association* |
 | `_ProductGroup` | *Association* |
 | `_Plant` | *Association* |
 | `_PurgDocumentItemCategory` | *Association* |
 | `_StorageLocation` | *Association* |
 | `_ValuationCategoryText` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 
 ## Associations
 

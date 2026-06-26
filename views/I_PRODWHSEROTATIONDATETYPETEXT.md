@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:WrhsMgmtPtwyAndStkRemovalStrgy
 ---
 # I_PRODWHSEROTATIONDATETYPETEXT
 
@@ -32,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `val_text preserving type )` | `cast ( dd07t.ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `WrhsMgmtPtwyAndStkRemovalStrgy` | `cast ( dd07t.domvalue_l as rotation_date )` |
+| `Name` | `cast ( dd07t.ddtext as val_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

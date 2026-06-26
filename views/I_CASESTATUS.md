@@ -15,6 +15,7 @@ tags:
   - status
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:DisputeCaseSystemStatus
 ---
 # I_CASESTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgstatpara preserving type )` | `cast( stat_para` |
+| `Status` | `cast( stat_para as scmgstatpara preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

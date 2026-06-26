@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fkstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallDelivReltdBillgStatus` | `cast(left(dd07l.domvalue_l, 1 ) as fkstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentObject
 ---
 # I_SDDOCUMENTOBJECTTEXT
 
@@ -32,15 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_doc_object preserving type )` | `cast(SUBSTRING(dd07t.domvalue_l, 1, 1)` |
+| `SDDocumentObject` | `cast(SUBSTRING(dd07t.domvalue_l, 1, 1) as sd_doc_object preserving type )` |
 | `Language` | `ddlanguage` |
-| `sd_doc_object_name)` | `cast(ddtext` |
+| `SDDocumentObjectName` | `cast(ddtext as sd_doc_object_name)` |
 | `_SDDocumentObject` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SDDocumentObject` | `I_SDDocumentObject` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

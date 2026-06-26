@@ -37,7 +37,7 @@ tags:
 | `CAMassRunDate` | `laufd` |
 | `CAMassRunID` | `laufi` |
 | `CreatedByUser` | `ernam` |
-| `timestampl)` | `cast(timestamp` |
+| `CreationDateTime` | `cast(timestamp as timestampl)` |
 | `TransactionCode` | `tcode` |
 
 ## Associations

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:BusinessTransactionCategory
 ---
 # I_BUSTRANSACTIONCATEGORYTEXT
 
@@ -33,8 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `finsc_bttype_t.langu` |
-| `fis_bttype preserving type )` | `cast(finsc_bttype_t.bttype` |
-| `fins_bttype_txt preserving type )` | `cast(finsc_bttype_t.txt` |
+| `BusinessTransactionCategory` | `cast(finsc_bttype_t.bttype as fis_bttype preserving type )` |
+| `BusTransactionCategoryName` | `cast(finsc_bttype_t.txt as fins_bttype_txt preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

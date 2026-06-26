@@ -33,25 +33,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductionOrderOperationVH', element: 'ProductionOrderOperation' } } ]` | `name: 'I_ProductionOrderOperationVH', element: 'ProductionOrderOperation' } } ]` |
-| `vdm_prodnorderoperation preserving type)` | `cast(docl.ManufacturingOrderOperation` |
-| `dokst preserving type)` | `cast(docl.InternalDocumentStatus` |
-| `daenr preserving type)` | `cast(docl.ChangeNumber` |
-| `pph_dwnam preserving type)` | `cast(docl.ResponsiblePersonName` |
+| `LinkedSAPObjectKey` | `docl.LinkedSAPObjectKey` |
+| `DocumentType` | `cast(docl.DocumentType as dokar preserving type)` |
+| `DocumentInfoRecord` | `cast(docl.DocumentInfoRecord as doknr preserving type)` |
+| `DocumentPart` | `cast(docl.DocumentPart as pph_doktl preserving type)` |
+| `DocumentVersion` | `cast(docl.DocumentVersion as pph_dokvr preserving type)` |
+| `CreationDateTime` | `cast(docl.CreationDateTime as hp_created_at preserving type)` |
+| `CreatedByUser` | `cast(docl.CreatedByUser as ernam preserving type)` |
+| `ChangedDateTime` | `cast(docl.ChangedDateTime as hp_changed_at preserving type)` |
+| `LastChangedByUser` | `cast(docl.LastChangedByUser as aenam preserving type)` |
+| `ProductionOrderType` | `cast(docl.ManufacturingOrderType as vdm_prodnordertype preserving type)` |
+| `ProductionOrder` | `cast(docl.ManufacturingOrder as vdm_manufacturingorder preserving type)` |
+| `ProductionOrderSequence` | `cast(docl.ManufacturingOrderSequence as vdm_prodnordersequence preserving type)` |
+| `ProductionOrderOperation` | `cast(…)` |
+| `InternalDocumentStatus` | `cast(docl.InternalDocumentStatus as dokst preserving type)` |
+| `ChangeNumber` | `cast(docl.ChangeNumber as daenr preserving type)` |
+| `ResponsibleUser` | `-- cast(docl.ResponsiblePersonName as pph_dwnam preserving type)` |
 | `_ProductionOrderType` | *Association* |
 | `_ProductionOrderHeader` | *Association* |
 | `_ProductionOrderSequence` | *Association* |
 | `_ProductionOrderOperation` | *Association* |
 | `_ResponsibleUser` | *Association* |
-| `docl._DocumentNumber` | `docl._DocumentNumber` |
-| `docl._DocumentType` | `docl._DocumentType` |
-| `docl._DocumentVersion` | `docl._DocumentVersion` |
-| `docl._DocumentPart` | `docl._DocumentPart` |
-| `docl._DocumentStatus` | `docl._DocumentStatus` |
-| `docl._DocumentText` | `docl._DocumentText` |
-| `docl._ChangeNumber` | `docl._ChangeNumber` |
-| `docl._CreatedUser` | `docl._CreatedUser` |
-| `docl._ChangedUser` | `docl._ChangedUser` |
+| `_DocumentNumber` | *Association* |
+| `_DocumentType` | *Association* |
+| `_DocumentVersion` | *Association* |
+| `_DocumentPart` | *Association* |
+| `_DocumentStatus` | *Association* |
+| `_DocumentText` | *Association* |
+| `_ChangeNumber` | *Association* |
+| `_CreatedUser` | *Association* |
+| `_ChangedUser` | *Association* |
 
 ## Associations
 
@@ -59,6 +70,7 @@ tags:
 |---|---|---|
 | `_ProductionOrderType` | `I_ProductionOrderType` | [1..1] |
 | `_ResponsibleUser` | `I_User` | [1..1] |
+| `_ProductionOrderHeader` | `I_ProductionOrder` | — |
 | `_ProductionOrderSequence` | `I_ProductionOrderSequence` | [0..1] |
 | `_ProductionOrderOperation` | `I_ProductionOrderOperation_2` | [0..1] |
 

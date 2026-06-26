@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDelivery` | `OutboundDelivery` |
-| `key OutboundDeliveryItem` | `OutboundDeliveryItem` |
+| `OutboundDelivery` | `OutboundDelivery` |
+| `OutboundDeliveryItem` | `OutboundDeliveryItem` |
 | `ActualDeliveredQtyInBaseUnit` | `ActualDeliveredQtyInBaseUnit` |
 | `ActualDeliveredQtyInOrderUnit` | `ActualDeliveredQtyInOrderUnit` |
 | `PickQuantityInBaseUnit` | `PickQuantityInBaseUnit` |
@@ -164,10 +164,6 @@ tags:
 | `IssgOrRcvgBatch` | `IssgOrRcvgBatch` |
 | `IssgOrRcvgValuationType` | `IssgOrRcvgValuationType` |
 | `IssgOrRcvgSpclStockCode` | `IssgOrRcvgSpclStockCode` |
-| `/* Associations */` | `/* Associations */` |
-| `_Delivery     : redirected to parent I_OutboundDeliveryTP` | *Association* |
-| `_SerialNumber : redirected to composition child I_OutbDelivItemSerialNumberTP` | *Association* |
-| `_ItemText     : redirected to composition child I_OutboundDeliveryItemTextTP` | *Association* |
 
 ## Associations
 

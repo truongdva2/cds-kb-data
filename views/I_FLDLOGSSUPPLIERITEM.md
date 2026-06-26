@@ -33,8 +33,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'FldLogsSuplrItemDngrsGdsCat' }` | `releaseState: #DEPRECATED, successor: 'FldLogsSuplrItemDngrsGdsCat' }` |
-| `abap.char( 51 ))` | `cast(dangerousgoodsidnnumbercnctntd` |
+| `FldLogsSuplrItemUUID` | `fldlogssuplritemuuid` |
+| `FldLogsSuplrItemType` | `fldlogssuplritemtype` |
+| `FldLogsSuplrParentItemUUID` | `fldlogssuplrparentitemuuid` |
+| `FldLogsSuplrItemSerialNumber` | `fldlogssuplritemserialnumber` |
+| `FldLogsSuplrItemName` | `fldlogssuplritemname` |
+| `PreferredSupplier` | `preferredsupplier` |
+| `FldLogsSuplrBasePlant` | `fldlogssuplrbaseplant` |
+| `FldLogsRemotePlant` | `fldlogsremoteplant` |
+| `FldLogsSuplrItmPOItmUniqueID` | `fldlogssuplritmpoitmuniqueid` |
+| `FldLogsSupplyProcess` | `fldlogssupplyprocess` |
+| `FldLogsSuplrItemVislInspCode` | `fldlogssuplritemvislinspcode` |
+| `PurgDocNetPriceAmount` | `purgdocnetpriceamount` |
+| `FldLogsSuplrItemRateUnit` | `fldlogssuplritemrateunit` |
+| `FldLogsSuplrItemQuantity` | `fldlogssuplritemquantity` |
+| `FldLogsSuplrItemQuantityUnit` | `fldlogssuplritemquantityunit` |
+| `FldLogsSuplrItemGrossVolume` | `fldlogssuplritemgrossvolume` |
+| `FldLogsSuplrItmGrossVolumeUnit` | `fldlogssuplritmgrossvolumeunit` |
+| `ProductGrossWeight` | `productgrossweight` |
+| `ProductWeightUnit` | `productweightunit` |
+| `FldLogsSuplrItemLength` | `fldlogssuplritemlength` |
+| `FldLogsSuplrItemWidth` | `fldlogssuplritemwidth` |
+| `FldLogsSuplrItemHeight` | `fldlogssuplritemheight` |
+| `FldLogsSuplrItemMeasureUnit` | `fldlogssuplritemmeasureunit` |
+| `FldLogsSuplrItemStatusID` | `fldlogssuplritemstatusid` |
+| `ItemIsDangerousGood` | `itemisdangerousgood` |
+| `FldLogsSuplrItemDngrsGdsCat` | `dangerousgoodsidnnumbercnctntd` |
+| `DangerousGoodsIdnNumberCnctntd` | `cast(dangerousgoodsidnnumbercnctntd as abap.char( 51 ))` |
 | `FldLogsIsWorkOrderOnHold` | `fldlogsisworkorderonhold` |
 | `FldLogsSuplrItemPlndDelivDate` | `fldlogssuplritemplnddelivdate` |
 | `FldLogsSuplrItmChangeDateTime` | `fldlogssuplritmchangedatetime` |
@@ -47,11 +72,11 @@ tags:
 | `FldLogsSealNumber3` | `fldlogssealnumber3` |
 | `FldLogsSealNumber4` | `fldlogssealnumber4` |
 | `FldLogsSealNumber5` | `fldlogssealnumber5` |
-| `_Owner.IsBusinessPurposeCompleted                       as IsBusinessPurposeCompleted` | *Association* |
-| `_PreferredSupplier.IsBusinessPurposeCompleted           as SuplrCoIsBusPrpsCmpltd` | *Association* |
+| `IsBusinessPurposeCompleted` | `_Owner.IsBusinessPurposeCompleted` |
+| `SuplrCoIsBusPrpsCmpltd` | `_PreferredSupplier.IsBusinessPurposeCompleted` |
 | `FldLogsTransferType` | `fldlogstransfertype` |
 | `FieldLogisticsTransferPlant` | `fieldlogisticstransferplant` |
-| `_PreferredSupplier                                      as _Supplier` | *Association* |
+| `_Supplier` | *Association* |
 
 ## Associations
 

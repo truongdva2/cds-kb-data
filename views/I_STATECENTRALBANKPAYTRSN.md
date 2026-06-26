@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fac_lzbkz )` | `cast( lzbkz` |
+| `StateCentralBankPaymentReason` | `cast( lzbkz as fac_lzbkz )` |
 | `StateCentralBankDocumentType` | `blart` |
 | `StateCentralBankServiceSpec` | `lvawv` |
-| `farp_scbpaytrsndesc )` | `cast( concat( zwck1, zwck2 )` |
+| `StateCentralBankPaytRsnDesc` | `cast( concat( zwck1, zwck2 ) as farp_scbpaytrsndesc )` |
 
 ## Associations
 

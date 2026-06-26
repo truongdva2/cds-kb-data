@@ -33,16 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
 | `WarehouseStorageBin` | `WarehouseStorageBin` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `LeanWrhsManagementPickingArea` | `LeanWrhsManagementPickingArea` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 | `_ProductDescription_2` | *Association* |
 
 ## Associations

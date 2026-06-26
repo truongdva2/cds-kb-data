@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_entity_quota )` | `cast ( dd07l.domvalue_l` |
+| `BPGerAstRglnRestrictedAstQuota` | `cast ( dd07l.domvalue_l as bp_entity_quota )` |
 | `_Text` | *Association* |
 
 ## Associations

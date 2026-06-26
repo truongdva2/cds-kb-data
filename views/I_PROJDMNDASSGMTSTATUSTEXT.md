@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tv_proj_dmnd_assgmt_status )` | `cast( substring(domvalue_l, 1, 2 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjDmndAssgmtStatus` | `cast( substring(domvalue_l, 1, 2 ) as tv_proj_dmnd_assgmt_status )` |
 | `ProjDmndAssgmtStatusText` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 | `_AssignmentStatus` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_AssignmentStatus` | `I_ProjDmndAssgmtStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

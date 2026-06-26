@@ -30,12 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_Domain.DomainValue, // required for search` | *Association* |
-| `_Text // required for text retrieval and navigation` | *Association* |
+| `CnsldtnAdhocSetBrkdwnType` | `cast(left(_Domain.DomainValue, 1) as fincs_adhocsetbrkdwntype preserving type )` |
+| `DomainValue` | `_Domain.DomainValue` |
+| `_Text` | *Association* |
 
 ## Associations
 

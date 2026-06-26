@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnBusinessAreaVH'` | `name: 'I_CnsldtnBusinessAreaVH'` |
-| `element: 'BusinessArea'` | `element: 'BusinessArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_businessarea preserving type )` | `cast( left(_HierarchyNode.UniversalHierarchyLeafValue, 4)` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `CnsldtnBusinessAreaHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `BusinessArea` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_BusinessArea` | *Association* |
 | `_Hierarchy` | *Association* |

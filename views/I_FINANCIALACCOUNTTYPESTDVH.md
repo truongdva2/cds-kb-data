@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FinancialAccountType` | `FinancialAccountType` |
+| `FinancialAccountType` | `FinancialAccountType` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

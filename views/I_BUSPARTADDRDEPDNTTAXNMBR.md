@@ -32,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusPartAddrDepdntTaxTypeVH'` | `name:    'I_BusPartAddrDepdntTaxTypeVH'` |
-| `element: 'BPTaxType' }` | `element: 'BPTaxType' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `BusinessPartner` | `BusinessPartnerTaxNumberAdr.partner` |
+| `BusinessPartnerAddressID` | `BusinessPartnerTaxNumberAdr.adrnr` |
 | `BPTaxType` | `BusinessPartnerTaxNumberAdr.taxtype` |
 | `BPTaxNumber` | `BusinessPartnerTaxNumberAdr.taxnum` |
 | `BPTaxLongNumber` | `BusinessPartnerTaxNumberAdr.taxnumxl` |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_TaxCategoryText` | *Association* |
 | `_BusinessPartner` | *Association* |
 

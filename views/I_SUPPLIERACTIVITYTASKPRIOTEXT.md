@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/tsk_priority)` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SuplrActyTaskPriority` | `cast(substring( domvalue_l, 1, 1 ) as /srmsmc/tsk_priority)` |
 | `Language` | `ddlanguage` |
 | `SuplrActyTaskPriorityName` | `ddtext` |
 | `_SupplierActivityTaskPrio` | *Association* |

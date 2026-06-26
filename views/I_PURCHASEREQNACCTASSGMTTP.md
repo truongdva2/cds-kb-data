@@ -16,6 +16,7 @@ tags:
   - purchase-requisition
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseReqnAcctAssgmtNumber
 ---
 # I_PURCHASEREQNACCTASSGMTTP
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
-| `key PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
-| `key PurchaseReqnAcctAssgmtNumber` | `PurchaseReqnAcctAssgmtNumber` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `PurchaseReqnAcctAssgmtNumber` | `PurchaseReqnAcctAssgmtNumber` |
 | `CostCenter` | `CostCenter` |
 | `MasterFixedAsset` | `MasterFixedAsset` |
 | `ProjectNetwork` | `ProjectNetwork` |
@@ -83,11 +84,8 @@ tags:
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_Currency` | *Association* |
 | `_UnitOfMeasure` | *Association* |
-| `_PurchaseRequisitionItem : redirected to parent I_PurchaseReqnItemTP` | *Association* |
-| `_PurReqn                 : redirected to I_PurchaseRequisitionTP` | *Association* |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:PlanningCategory
 ---
 # I_PLANNINGCATEGORY
 
@@ -60,6 +61,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_PlanningCategoryText` | [0..*] |
+| `_VirtualPlanningCategory` | `I_VirtualPlanningCategory` | [0..*] |
 
 ## Source Code
 

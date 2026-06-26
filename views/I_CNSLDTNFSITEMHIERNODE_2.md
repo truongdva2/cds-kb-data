@@ -31,18 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ConsolidationChartOfAccounts', element: 'ConsolidationChartOfAccounts', usage: #FILTER_AND_RESULT }]` | `localElement: 'ConsolidationChartOfAccounts', element: 'ConsolidationChartOfAccounts', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `_HierarchyNode.CnsldtnFinancialStatementItem` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `cast(` | `cast(` |
-| `case when _GlobalSetting.CnsldtnCustomSignLogicIsActive = 'X'` | `case when _GlobalSetting.CnsldtnCustomSignLogicIsActive = 'X'` |
-| `then ''` | `then ''` |
-| `else _HierarchyNode.SignIsInverted` | `else _HierarchyNode.SignIsInverted` |
-| `fincs_signisinverted )` | `end` |
-| `/* associations */` | `/* associations */` |
+| `ConsolidationChartOfAccounts` | `_HierarchyNode.ConsolidationChartOfAccounts` |
+| `CnsldtnFSItemHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `CnsldtnFinancialStatementItem` | `_HierarchyNode.CnsldtnFinancialStatementItem` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
+| `SignIsInverted` | `cast(…)` |
 | `_Text` | *Association* |
 | `_FSItem` | *Association* |
 | `_Hierarchy` | *Association* |

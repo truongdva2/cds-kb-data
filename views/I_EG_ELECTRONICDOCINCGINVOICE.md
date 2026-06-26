@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
 | `EG_ElectronicDocIncgDocUnqID` | `EG_ElectronicDocIncgDocUnqID` |
 | `EG_ElectronicDocIncgRcvdDteTme` | `EG_ElectronicDocIncgRcvdDteTme` |
 | `EG_EDocIncgCanclnAllwdDateTime` | `EG_EDocIncgCanclnAllwdDateTime` |
@@ -48,7 +48,7 @@ tags:
 | `EG_ElectronicDocIncgRjcnDesc` | `EG_ElectronicDocIncgRjcnDesc` |
 | `EG_ElectronicDocInternalIDIncg` | `EG_ElectronicDocInternalIDIncg` |
 | `EG_ElectronicDocIncgPORef` | `EG_ElectronicDocIncgPORef` |
-| `_ElectronicDoc.ElectronicDocCompanyCode as EG_ElectronicDocCompanyCode` | *Association* |
+| `EG_ElectronicDocCompanyCode` | `_ElectronicDoc.ElectronicDocCompanyCode` |
 
 ## Associations
 

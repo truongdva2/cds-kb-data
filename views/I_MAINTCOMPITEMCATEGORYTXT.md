@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintComponentItemCategory
 ---
 # I_MAINTCOMPITEMCATEGORYTXT
 
@@ -33,8 +34,7 @@ tags:
 |---|---|
 | `Language` | `_text.spras` |
 | `MaintComponentItemCategory` | `_text.postp` |
-| `_text.ptext as MaintComponentItemCategoryDesc` | *Association* |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `MaintComponentItemCategoryDesc` | `_text.ptext` |
 | `_MaintComponentItemCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MaintComponentItemCategory` | `I_MaintComponentItemCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

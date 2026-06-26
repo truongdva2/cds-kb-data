@@ -13,6 +13,7 @@ tags:
   - item-level
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrderItemCategory
 ---
 # I_TRANSPORDITEMCATEGORY_2
 
@@ -29,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/item_category preserving type)` | `cast(substring(domvalue_l, 1, 3)` |
+| `TranspOrdItemCategory` | `cast(substring(domvalue_l, 1, 3) as /scmtms/item_category preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdItemCategoryT_2` | [0..*] |
 
 ## Source Code
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSSTBaseDetermination
 ---
 # I_BR_ICMSSTBASEDETNTEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_icst_base_det preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_ICMSSTBaseDetermination` | `cast( substring(domvalue_l, 1, 1) as logbr_icst_base_det preserving type )` |
 | `BR_ICMSSTBaseDeterminationDesc` | `ddtext` |
 | `_BR_ICMSSTBaseDetermination` | *Association* |
 | `_Language` | *Association* |

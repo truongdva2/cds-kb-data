@@ -36,7 +36,7 @@ tags:
 | `ProcmtHubCompanyCode` | `be_co_code` |
 | `ProcmtHubCompanyCodeUniqueID` | `be_cc_unique_id` |
 | `ProcmtHubCompanyCodeName` | `be_co_code_name` |
-| `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName` | *Association* |
+| `ProcurementHubSourceSystemName` | `_ProcmtHubBackendSourceSystem.ProcurementHubSourceSystemName` |
 | `_ProcmtHubBackendSourceSystem` | *Association* |
 
 ## Associations

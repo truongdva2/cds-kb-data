@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:QualityManagementSystem
 ---
 # I_QUALITYMANAGEMENTSYSTEM
 
@@ -32,12 +33,7 @@ tags:
 | `QualityManagementSystem` | `tq02b.qssysfam` |
 | `QltyMgmtSystIsCertified` | `tq02b.qssyszert` |
 | `QltyMgmtSystValuation` | `tq02b.qssysbew` |
-| `case when I_MdiOidConfiguration.Context is initial then` | `case when I_MdiOidConfiguration.Context is initial then` |
-| `qualitymanagementsystemoid )` | `cast( tq02b.qssysfam` |
-| `when I_MdiOidConfiguration.Context is not initial then` | `when I_MdiOidConfiguration.Context is not initial then` |
-| `qualitymanagementsystemoid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), tq02b.qssysfam )` |
-| `QualityManagementSystemOID` | `end` |
-| `/* Associations */` | `/* Associations */` |
+| `QualityManagementSystemOID` | `case…end` |
 | `_QltyMgmtSystemText` | *Association* |
 
 ## Associations

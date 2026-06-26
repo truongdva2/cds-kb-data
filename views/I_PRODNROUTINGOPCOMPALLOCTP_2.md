@@ -16,6 +16,7 @@ tags:
   - routing
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRouting
 ---
 # I_PRODNROUTINGOPCOMPALLOCTP_2
 
@@ -32,20 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
-| `key ProdnRtgOpBOMItemInternalID` | `ProdnRtgOpBOMItemInternalID` |
-| `key ProdnRtgOpBOMItemIntVersion` | `ProdnRtgOpBOMItemIntVersion` |
-| `/* BOM Details */` | `/* BOM Details */` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
+| `ProdnRtgOpBOMItemInternalID` | `ProdnRtgOpBOMItemInternalID` |
+| `ProdnRtgOpBOMItemIntVersion` | `ProdnRtgOpBOMItemIntVersion` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BillOfMaterial` | `BillOfMaterial` |
 | `BillOfMaterialComponent` | `BillOfMaterialComponent` |
 | `BillOfMaterialVariant` | `BillOfMaterialVariant` |
 | `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
 | `MatlCompIsMarkedForBackflush` | `MatlCompIsMarkedForBackflush` |
-| `/* Administrative Data */` | `/* Administrative Data */` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
@@ -54,10 +53,6 @@ tags:
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ChangeNumber` | `ChangeNumber` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqncTP  : redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_ProdnRtgTP : redirected to I_ProductionRoutingTP_2` | *Association* |
 
 ## Associations
 

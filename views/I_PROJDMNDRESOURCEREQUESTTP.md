@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjDmndResourceRequestUUID` | `ProjDmndResourceRequestUUID` |
+| `ProjDmndResourceRequestUUID` | `ProjDmndResourceRequestUUID` |
 | `ProjectDemandWorkUUID` | `ProjectDemandWorkUUID` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
 | `ProjectUUID` | `ProjectUUID` |
@@ -46,11 +46,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Root                 : redirected to I_ProjectDemandTP_2` | *Association* |
-| `_Work                 : redirected to parent I_ProjectDemandResourceTP` | *Association* |
-| `_ProjDmndRsceReqDistr : redirected to composition child I_ProjDmndRsceReqDistrTP` | *Association* |
-| `/* External Associations */` | `/* External Associations */` |
 | `_EnterpriseProject` | *Association* |
 | `_PersonWorkAgrmt` | *Association* |
 

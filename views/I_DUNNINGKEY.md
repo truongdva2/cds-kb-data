@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningKey
 ---
 # I_DUNNINGKEY
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true } }` | `hidden: true } }` |
-| `maxst)` | `cast(maxst` |
+| `DunningKey` | `cast( mschl as farp_mschl )` |
+| `MaximumDunningLevel` | `cast(maxst as maxst)` |
 | `_Text` | *Association* |
 
 ## Associations

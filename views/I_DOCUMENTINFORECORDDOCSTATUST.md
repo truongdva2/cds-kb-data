@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:InternalDocumentStatus
 ---
 # I_DOCUMENTINFORECORDDOCSTATUST
 

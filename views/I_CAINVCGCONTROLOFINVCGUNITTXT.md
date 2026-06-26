@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `separate_inv_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `separate_inv_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAInvcgControlOfInvoicingUnit` | `cast ( substring( dd07t.domvalue_l,1,1 ) as separate_inv_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAInvcgControlOfInvcgUnitTxt` | `cast ( ddtext as separate_inv_txt_gfn_kk preserving type )` |
 | `_CAInvcgControlOfInvcgUnit` | *Association* |
 | `_Language` | *Association* |
 

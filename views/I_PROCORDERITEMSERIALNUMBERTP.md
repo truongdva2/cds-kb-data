@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderSerialNumber
 ---
 # I_PROCORDERITEMSERIALNUMBERTP
 
@@ -33,16 +34,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcessOrder` | `ProcessOrder` |
-| `key ProcessOrderItem` | `ProcessOrderItem` |
-| `key SerialNumber.SerialNumber` | `SerialNumber.SerialNumber` |
+| `ProcessOrder` | `ProcessOrder` |
+| `ProcessOrderItem` | `ProcessOrderItem` |
+| `SerialNumber` | `SerialNumber.SerialNumber` |
 | `Product` | `Product` |
 | `ProductionPlant` | `ProductionPlant` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProcessOrderType` | `ProcessOrderType` |
 | `SerialNumberProfile` | `SerialNumberProfile` |
-| `_Item  : redirected to parent I_ProcessOrderItemTP` | *Association* |
-| `_Order : redirected to I_ProcessOrderTP` | *Association* |
 
 ## Associations
 

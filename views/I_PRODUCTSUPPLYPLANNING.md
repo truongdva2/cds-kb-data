@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductPlantSupplyPlanning
 ---
 # I_PRODUCTSUPPLYPLANNING
 
@@ -31,81 +32,81 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplyPlanning.Product` | `SupplyPlanning.Product` |
-| `key SupplyPlanning.Plant` | `SupplyPlanning.Plant` |
-| `SupplyPlanning.FixedLotSizeQuantity` | `SupplyPlanning.FixedLotSizeQuantity` |
-| `SupplyPlanning.MaximumLotSizeQuantity` | `SupplyPlanning.MaximumLotSizeQuantity` |
-| `SupplyPlanning.MinimumLotSizeQuantity` | `SupplyPlanning.MinimumLotSizeQuantity` |
-| `SupplyPlanning.LotSizeRoundingQuantity` | `SupplyPlanning.LotSizeRoundingQuantity` |
-| `SupplyPlanning.LotSizingProcedure` | `SupplyPlanning.LotSizingProcedure` |
-| `SupplyPlanning.MRPType` | `SupplyPlanning.MRPType` |
-| `SupplyPlanning.MRPResponsible` | `SupplyPlanning.MRPResponsible` |
-| `SupplyPlanning.SafetyStockQuantity` | `SupplyPlanning.SafetyStockQuantity` |
-| `SupplyPlanning.MinimumSafetyStockQuantity` | `SupplyPlanning.MinimumSafetyStockQuantity` |
-| `SupplyPlanning.PlanningTimeFence` | `SupplyPlanning.PlanningTimeFence` |
-| `SupplyPlanning.ABCIndicator` | `SupplyPlanning.ABCIndicator` |
-| `SupplyPlanning.MaximumStockQuantity` | `SupplyPlanning.MaximumStockQuantity` |
-| `SupplyPlanning.ReorderThresholdQuantity` | `SupplyPlanning.ReorderThresholdQuantity` |
-| `SupplyPlanning.PlannedDeliveryDurationInDays` | `SupplyPlanning.PlannedDeliveryDurationInDays` |
-| `SupplyPlanning.SafetyDuration` | `SupplyPlanning.SafetyDuration` |
-| `SupplyPlanning.PlanningStrategyGroup` | `SupplyPlanning.PlanningStrategyGroup` |
-| `SupplyPlanning.TotalReplenishmentLeadTime` | `SupplyPlanning.TotalReplenishmentLeadTime` |
-| `SupplyPlanning.ATPCheckHorizonInDays` | `SupplyPlanning.ATPCheckHorizonInDays` |
-| `SupplyPlanning.ATPCheckHorizonFactoryCalendar` | `SupplyPlanning.ATPCheckHorizonFactoryCalendar` |
-| `SupplyPlanning.ProcurementType` | `SupplyPlanning.ProcurementType` |
-| `SupplyPlanning.ProcurementSubType` | `SupplyPlanning.ProcurementSubType` |
-| `SupplyPlanning.AssemblyScrapPercent` | `SupplyPlanning.AssemblyScrapPercent` |
-| `SupplyPlanning.AvailabilityCheckType` | `SupplyPlanning.AvailabilityCheckType` |
+| `Product` | `SupplyPlanning.Product` |
+| `Plant` | `SupplyPlanning.Plant` |
+| `FixedLotSizeQuantity` | `SupplyPlanning.FixedLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `SupplyPlanning.MaximumLotSizeQuantity` |
+| `MinimumLotSizeQuantity` | `SupplyPlanning.MinimumLotSizeQuantity` |
+| `LotSizeRoundingQuantity` | `SupplyPlanning.LotSizeRoundingQuantity` |
+| `LotSizingProcedure` | `SupplyPlanning.LotSizingProcedure` |
+| `MRPType` | `SupplyPlanning.MRPType` |
+| `MRPResponsible` | `SupplyPlanning.MRPResponsible` |
+| `SafetyStockQuantity` | `SupplyPlanning.SafetyStockQuantity` |
+| `MinimumSafetyStockQuantity` | `SupplyPlanning.MinimumSafetyStockQuantity` |
+| `PlanningTimeFence` | `SupplyPlanning.PlanningTimeFence` |
+| `ABCIndicator` | `SupplyPlanning.ABCIndicator` |
+| `MaximumStockQuantity` | `SupplyPlanning.MaximumStockQuantity` |
+| `ReorderThresholdQuantity` | `SupplyPlanning.ReorderThresholdQuantity` |
+| `PlannedDeliveryDurationInDays` | `SupplyPlanning.PlannedDeliveryDurationInDays` |
+| `SafetyDuration` | `SupplyPlanning.SafetyDuration` |
+| `PlanningStrategyGroup` | `SupplyPlanning.PlanningStrategyGroup` |
+| `TotalReplenishmentLeadTime` | `SupplyPlanning.TotalReplenishmentLeadTime` |
+| `ATPCheckHorizonInDays` | `SupplyPlanning.ATPCheckHorizonInDays` |
+| `ATPCheckHorizonFactoryCalendar` | `SupplyPlanning.ATPCheckHorizonFactoryCalendar` |
+| `ProcurementType` | `SupplyPlanning.ProcurementType` |
+| `ProcurementSubType` | `SupplyPlanning.ProcurementSubType` |
+| `AssemblyScrapPercent` | `SupplyPlanning.AssemblyScrapPercent` |
+| `AvailabilityCheckType` | `SupplyPlanning.AvailabilityCheckType` |
 | `_AvailabilityCheckType` | *Association* |
 | `_AvailabilityCheckTypeText` | *Association* |
-| `SupplyPlanning.GoodsReceiptDuration` | `SupplyPlanning.GoodsReceiptDuration` |
-| `SupplyPlanning.PlanAndOrderDayDetermination` | `SupplyPlanning.PlanAndOrderDayDetermination` |
-| `SupplyPlanning.RoundingProfile` | `SupplyPlanning.RoundingProfile` |
-| `SupplyPlanning.DfltStorageLocationExtProcmt` | `SupplyPlanning.DfltStorageLocationExtProcmt` |
-| `SupplyPlanning.GoodIssueProcessingDays` | `SupplyPlanning.GoodIssueProcessingDays` |
-| `SupplyPlanning.ConsignmentControl` | `SupplyPlanning.ConsignmentControl` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `SupplyPlanning.MRPGroup` | `SupplyPlanning.MRPGroup` |
-| `SupplyPlanning.LotSizeIndependentCosts` | `SupplyPlanning.LotSizeIndependentCosts` |
+| `GoodsReceiptDuration` | `SupplyPlanning.GoodsReceiptDuration` |
+| `PlanAndOrderDayDetermination` | `SupplyPlanning.PlanAndOrderDayDetermination` |
+| `RoundingProfile` | `SupplyPlanning.RoundingProfile` |
+| `DfltStorageLocationExtProcmt` | `SupplyPlanning.DfltStorageLocationExtProcmt` |
+| `GoodIssueProcessingDays` | `SupplyPlanning.GoodIssueProcessingDays` |
+| `ConsignmentControl` | `SupplyPlanning.ConsignmentControl` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `MRPGroup` | `SupplyPlanning.MRPGroup` |
+| `LotSizeIndependentCosts` | `SupplyPlanning.LotSizeIndependentCosts` |
 | `IsStorageCosts` | `SupplyPlanning.StorageCostsPercentageCode` |
-| `SupplyPlanning.RqmtQtyRcptTaktTmeInWrkgDays, //to be added` | `SupplyPlanning.RqmtQtyRcptTaktTmeInWrkgDays, //to be added` |
-| `SupplyPlanning.MRPPlanningCalendar` | `SupplyPlanning.MRPPlanningCalendar` |
-| `SupplyPlanning.RangeOfCvrgPrflCode` | `SupplyPlanning.RangeOfCvrgPrflCode` |
-| `SupplyPlanning.IsSafetyTime` | `SupplyPlanning.IsSafetyTime` |
-| `SupplyPlanning.PerdPrflForSftyTme` | `SupplyPlanning.PerdPrflForSftyTme` |
-| `SupplyPlanning.IsMRPDependentRqmt` | `SupplyPlanning.IsMRPDependentRqmt` |
-| `SupplyPlanning.SrvcLvl` | `SupplyPlanning.SrvcLvl` |
-| `SupplyPlanning.InHouseProductionTime` | `SupplyPlanning.InHouseProductionTime` |
-| `SupplyPlanning.MRPAvailabilityType` | `SupplyPlanning.MRPAvailabilityType` |
-| `SupplyPlanning.ProductIsForCrossProject` | `SupplyPlanning.ProductIsForCrossProject` |
-| `SupplyPlanning.StorageCostsPercentageCode` | `SupplyPlanning.StorageCostsPercentageCode` |
+| `RqmtQtyRcptTaktTmeInWrkgDays` | `SupplyPlanning.RqmtQtyRcptTaktTmeInWrkgDays` |
+| `MRPPlanningCalendar` | `SupplyPlanning.MRPPlanningCalendar` |
+| `RangeOfCvrgPrflCode` | `SupplyPlanning.RangeOfCvrgPrflCode` |
+| `IsSafetyTime` | `SupplyPlanning.IsSafetyTime` |
+| `PerdPrflForSftyTme` | `SupplyPlanning.PerdPrflForSftyTme` |
+| `IsMRPDependentRqmt` | `SupplyPlanning.IsMRPDependentRqmt` |
+| `SrvcLvl` | `SupplyPlanning.SrvcLvl` |
+| `InHouseProductionTime` | `SupplyPlanning.InHouseProductionTime` |
+| `MRPAvailabilityType` | `SupplyPlanning.MRPAvailabilityType` |
+| `ProductIsForCrossProject` | `SupplyPlanning.ProductIsForCrossProject` |
+| `StorageCostsPercentageCode` | `SupplyPlanning.StorageCostsPercentageCode` |
 | `ProdnPlngAndControlCalendar` | `SupplyPlanning.MRPPlanningCalendar` |
-| `SupplyPlanning.FollowUpProduct` | `SupplyPlanning.FollowUpProduct` |
-| `SupplyPlanning.RepetitiveManufacturingIsAllwd` | `SupplyPlanning.RepetitiveManufacturingIsAllwd` |
-| `SupplyPlanning.DependentRequirementsType` | `SupplyPlanning.DependentRequirementsType` |
-| `SupplyPlanning.IsBulkMaterialComponent` | `SupplyPlanning.IsBulkMaterialComponent` |
-| `SupplyPlanning.RepetitiveManufacturingProfile` | `SupplyPlanning.RepetitiveManufacturingProfile` |
-| `SupplyPlanning.BackwardCnsmpnPeriodInWorkDays` | `SupplyPlanning.BackwardCnsmpnPeriodInWorkDays` |
-| `SupplyPlanning.FwdConsumptionPeriodInWorkDays` | `SupplyPlanning.FwdConsumptionPeriodInWorkDays` |
-| `SupplyPlanning.ProdRqmtsConsumptionMode` | `SupplyPlanning.ProdRqmtsConsumptionMode` |
-| `SupplyPlanning.ForecastRequirementsAreSplit` | `SupplyPlanning.ForecastRequirementsAreSplit` |
-| `SupplyPlanning.EffectiveOutDate` | `SupplyPlanning.EffectiveOutDate` |
-| `SupplyPlanning.MRPProfile` | `SupplyPlanning.MRPProfile` |
-| `SupplyPlanning.SchedulingMarginKey` | `SupplyPlanning.SchedulingMarginKey` |
-| `SupplyPlanning.ComponentScrapInPercent` | `SupplyPlanning.ComponentScrapInPercent` |
-| `SupplyPlanning.ProductIsToBeDiscontinued` | `SupplyPlanning.ProductIsToBeDiscontinued` |
-| `SupplyPlanning.ProdRqmtsAreConsolidated` | `SupplyPlanning.ProdRqmtsAreConsolidated` |
-| `SupplyPlanning.ProductionInvtryManagedLoc` | `SupplyPlanning.ProductionInvtryManagedLoc` |
-| `SupplyPlanning.MatlCompIsMarkedForBackflush` | `SupplyPlanning.MatlCompIsMarkedForBackflush` |
-| `SupplyPlanning.ProposedProductSupplyArea` | `SupplyPlanning.ProposedProductSupplyArea` |
-| `SupplyPlanning.PlannedOrderActionControl` | `SupplyPlanning.PlannedOrderActionControl` |
-| `SupplyPlanning.ProductUnitGroup, // to be used only for retail` | `SupplyPlanning.ProductUnitGroup, // to be used only for retail` |
-| `SupplyPlanning.MRPSafetyStockMethod` | `SupplyPlanning.MRPSafetyStockMethod` |
-| `SupplyPlanning.JITProdnConfProfile` | `SupplyPlanning.JITProdnConfProfile` |
+| `FollowUpProduct` | `SupplyPlanning.FollowUpProduct` |
+| `RepetitiveManufacturingIsAllwd` | `SupplyPlanning.RepetitiveManufacturingIsAllwd` |
+| `DependentRequirementsType` | `SupplyPlanning.DependentRequirementsType` |
+| `IsBulkMaterialComponent` | `SupplyPlanning.IsBulkMaterialComponent` |
+| `RepetitiveManufacturingProfile` | `SupplyPlanning.RepetitiveManufacturingProfile` |
+| `BackwardCnsmpnPeriodInWorkDays` | `SupplyPlanning.BackwardCnsmpnPeriodInWorkDays` |
+| `FwdConsumptionPeriodInWorkDays` | `SupplyPlanning.FwdConsumptionPeriodInWorkDays` |
+| `ProdRqmtsConsumptionMode` | `SupplyPlanning.ProdRqmtsConsumptionMode` |
+| `ForecastRequirementsAreSplit` | `SupplyPlanning.ForecastRequirementsAreSplit` |
+| `EffectiveOutDate` | `SupplyPlanning.EffectiveOutDate` |
+| `MRPProfile` | `SupplyPlanning.MRPProfile` |
+| `SchedulingMarginKey` | `SupplyPlanning.SchedulingMarginKey` |
+| `ComponentScrapInPercent` | `SupplyPlanning.ComponentScrapInPercent` |
+| `ProductIsToBeDiscontinued` | `SupplyPlanning.ProductIsToBeDiscontinued` |
+| `ProdRqmtsAreConsolidated` | `SupplyPlanning.ProdRqmtsAreConsolidated` |
+| `ProductionInvtryManagedLoc` | `SupplyPlanning.ProductionInvtryManagedLoc` |
+| `MatlCompIsMarkedForBackflush` | `SupplyPlanning.MatlCompIsMarkedForBackflush` |
+| `ProposedProductSupplyArea` | `SupplyPlanning.ProposedProductSupplyArea` |
+| `PlannedOrderActionControl` | `SupplyPlanning.PlannedOrderActionControl` |
+| `ProductUnitGroup` | `SupplyPlanning.ProductUnitGroup` |
+| `MRPSafetyStockMethod` | `SupplyPlanning.MRPSafetyStockMethod` |
+| `JITProdnConfProfile` | `SupplyPlanning.JITProdnConfProfile` |
 | `Currency` | `t001.waers` |
 | `CompanyCode` | `t001k.bukrs` |
 | `ValuationArea` | `t001k.bwkey` |
-| `_Product.BaseUnit                               as BaseUnit` | *Association* |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_RangeOfCvrgPrflCode` | *Association* |
 | `_RangeOfCvrgPrflCodeText` | *Association* |

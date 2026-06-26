@@ -30,22 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder.PurchaseOrder` | `PurchaseOrder.PurchaseOrder` |
-| `key PurOrdChangeDocumentItem.ChangeDocument` | `PurOrdChangeDocumentItem.ChangeDocument` |
-| `key PurOrdChangeDocumentItem.ChangeDocObjectClass` | `PurOrdChangeDocumentItem.ChangeDocObjectClass` |
-| `key PurOrdChangeDocumentItem.DatabaseTable` | `PurOrdChangeDocumentItem.DatabaseTable` |
-| `key PurOrdChangeDocumentItem.ChangeDocTableKey` | `PurOrdChangeDocumentItem.ChangeDocTableKey` |
-| `key PurOrdChangeDocumentItem.ChangeDocDatabaseTableField` | `PurOrdChangeDocumentItem.ChangeDocDatabaseTableField` |
-| `key PurOrdChangeDocumentItem.ChangeDocItemChangeType` | `PurOrdChangeDocumentItem.ChangeDocItemChangeType` |
-| `mmiv_chng_doc_old_unit preserving type )` | `cast ( PurOrdChangeDocumentItem.ChangeDocPreviousUnit` |
-| `mmiv_chng_doc_new_unit preserving type )` | `cast ( PurOrdChangeDocumentItem.ChangeDocNewUnit` |
-| `mmiv_chng_doc_old_currency preserving type )` | `cast ( PurOrdChangeDocumentItem.ChangeDocPreviousCurrency` |
-| `mmiv_chng_doc_new_currency preserving type )` | `cast ( PurOrdChangeDocumentItem.ChangeDocNewCurrency` |
-| `PurOrdChangeDocumentItem.ChangeDocPreviousFieldValue` | `PurOrdChangeDocumentItem.ChangeDocPreviousFieldValue` |
-| `PurOrdChangeDocumentItem.ChangeDocNewFieldValue` | `PurOrdChangeDocumentItem.ChangeDocNewFieldValue` |
-| `PurchaseOrder.PurchaseOrderType` | `PurchaseOrder.PurchaseOrderType` |
-| `PurchaseOrder.PurchasingOrganization` | `PurchaseOrder.PurchasingOrganization` |
-| `PurchaseOrder.PurchasingGroup` | `PurchaseOrder.PurchasingGroup` |
+| `PurchaseOrder` | `PurchaseOrder.PurchaseOrder` |
+| `ChangeDocument` | `PurOrdChangeDocumentItem.ChangeDocument` |
+| `ChangeDocObjectClass` | `PurOrdChangeDocumentItem.ChangeDocObjectClass` |
+| `DatabaseTable` | `PurOrdChangeDocumentItem.DatabaseTable` |
+| `ChangeDocTableKey` | `PurOrdChangeDocumentItem.ChangeDocTableKey` |
+| `ChangeDocDatabaseTableField` | `PurOrdChangeDocumentItem.ChangeDocDatabaseTableField` |
+| `ChangeDocItemChangeType` | `PurOrdChangeDocumentItem.ChangeDocItemChangeType` |
+| `ChangeDocPreviousUnit` | `cast(…)` |
+| `ChangeDocNewUnit` | `cast(…)` |
+| `ChangeDocPreviousCurrency` | `cast(…)` |
+| `ChangeDocNewCurrency` | `cast(…)` |
+| `ChangeDocPreviousFieldValue` | `PurOrdChangeDocumentItem.ChangeDocPreviousFieldValue` |
+| `ChangeDocNewFieldValue` | `PurOrdChangeDocumentItem.ChangeDocNewFieldValue` |
+| `PurchaseOrderType` | `PurchaseOrder.PurchaseOrderType` |
+| `PurchasingOrganization` | `PurchaseOrder.PurchasingOrganization` |
+| `PurchasingGroup` | `PurchaseOrder.PurchasingGroup` |
 
 ## Associations
 

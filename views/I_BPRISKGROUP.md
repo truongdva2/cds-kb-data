@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_risk_group )` | `cast ( dd07l.domvalue_l` |
+| `BusinessPartnerRiskGroup` | `cast ( dd07l.domvalue_l as bp_risk_group )` |
 | `_Text` | *Association* |
 
 ## Associations

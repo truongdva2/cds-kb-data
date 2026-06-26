@@ -14,6 +14,7 @@ tags:
   - text
   - component:CM-GF-2CL
   - lob:Other
+  - bo:LglCntntMProfile
 ---
 # I_LGLCNTNTMPROFILETEXTAPI01
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMProfile` | `LglCntntMProfile` |
-| `key Language` | `Language` |
-| `LglCntntMProfileName` | `LglCntntMProfileName` |
+| `LglCntntMProfile` | `LglCntntMProfile` |
+| `Language` | `Language` |
 
 ## Associations
 

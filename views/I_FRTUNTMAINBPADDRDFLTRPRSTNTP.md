@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderUUID` | `TransportationOrderUUID` |
-| `key TranspOrdBizPartnerFunction` | `TranspOrdBizPartnerFunction` |
+| `TransportationOrderUUID` | `TransportationOrderUUID` |
+| `TranspOrdBizPartnerFunction` | `TranspOrdBizPartnerFunction` |
 | `AddressID` | `AddressID` |
 | `AddresseeFullName` | `AddresseeFullName` |
 | `CityName` | `CityName` |
@@ -46,9 +46,8 @@ tags:
 | `InternationalMobilePhoneNumber` | `InternationalMobilePhoneNumber` |
 | `InternationalFaxNumber` | `InternationalFaxNumber` |
 | `_PartnerFunction` | *Association* |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TransportationOrder       as _FreightUnit                 : redirected to parent I_FreightUnitTP` | *Association* |
-| `_TrOrdMainBPAddrAddlRprstn as _FrtUnitMainBPAddrAddlRprstn : redirected to composition child I_FrtUntMainBPAddrAddlRprstnTP` | *Association* |
+| `_FreightUnit` | *Association* |
+| `_FrtUnitMainBPAddrAddlRprstn` | *Association* |
 
 ## Associations
 

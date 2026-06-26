@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:SelectedCodeSet
 ---
 # I_CHARCATTRIBSELDCODESETSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `key SelectedCodeSet` | `SelectedCodeSet` |
+| `SelectedCodeSetPlant` | `SelectedCodeSetPlant` |
+| `SelectedCodeSet` | `SelectedCodeSet` |
 | `SelectedCodeSetText` | `SelectedCodeSetText` |
 | `InspectionSelectedSetStatus` | `InspectionSelectedSetStatus` |
 | `_SelectedCodeSetPlant` | *Association* |

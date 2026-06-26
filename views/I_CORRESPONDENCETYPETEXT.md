@@ -15,6 +15,7 @@ tags:
   - text
   - component:FI-GL-2CL
   - lob:Finance
+  - bo:Correspondence
 ---
 # I_CORRESPONDENCETYPETEXT
 

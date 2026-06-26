@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `psm_s4c_budget_scenario )` | `cast( dd07l.domvalue_l` |
+| `BudgetScenario` | `cast( dd07l.domvalue_l as psm_s4c_budget_scenario )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PubSecBudgetScenarioText` | [0..*] |
 
 ## Source Code
 

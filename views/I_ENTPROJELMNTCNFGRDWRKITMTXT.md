@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EnPrjElmConfiguredWorkItemText
 ---
 # I_ENTPROJELMNTCNFGRDWRKITMTXT
 

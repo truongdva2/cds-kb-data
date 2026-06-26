@@ -16,6 +16,7 @@ tags:
   - document
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:AccountingDocumentCategory
 ---
 # I_ACCOUNTINGDOCUMENTCATEGORYT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_bstat_d )` | `cast( domvalue_l` |
-| `spras )` | `cast( ddlanguage` |
-| `fis_val_text preserving type)` | `cast(ddtext` |
+| `AccountingDocumentCategory` | `cast( domvalue_l as farp_bstat_d )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `AccountingDocumentCategoryName` | `cast(ddtext as fis_val_text preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_Language` | *Association* |
 

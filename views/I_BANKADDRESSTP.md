@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankCountry` | `BankCountry` |
-| `key BankInternalID` | `BankInternalID` |
+| `BankCountry` | `BankCountry` |
+| `BankInternalID` | `BankInternalID` |
 | `StreetName` | `StreetName` |
 | `HouseNumber` | `HouseNumber` |
 | `HouseNumberSupplementText` | `HouseNumberSupplementText` |
@@ -80,8 +80,6 @@ tags:
 | `InternationalMobilePhoneNumber` | `InternationalMobilePhoneNumber` |
 | `InternationalFaxNumber` | `InternationalFaxNumber` |
 | `EmailAddress` | `EmailAddress` |
-| `BankAddress._Bank              : redirected to parent I_BankTP` | `BankAddress._Bank              : redirected to parent I_BankTP` |
-| `BankAddress._BankScriptVariant : redirected to composition child I_BankScriptedAddressTP` | `BankAddress._BankScriptVariant : redirected to composition child I_BankScriptedAddressTP` |
 | `_Region` | *Association* |
 | `_Country` | *Association* |
 | `_FormOfAddress` | *Association* |

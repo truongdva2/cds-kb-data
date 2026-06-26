@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGScope2ContractualInstrument
 ---
 # I_GHGSCP2CNTRCTLINSTRUMENTVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGScope2ContractualInstrument` | `GHGScope2ContractualInstrument` |
+| `GHGScope2ContractualInstrument` | `GHGScope2ContractualInstrument` |
 | `_Text` | *Association* |
 
 ## Associations

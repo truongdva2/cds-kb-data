@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `PrcgProcedureCounterForHeader` | `PrcgProcedureCounterForHeader` |
 | `ConditionType` | `ConditionType` |
 | `ConditionRateValue` | `ConditionRateValue` |
@@ -41,11 +41,8 @@ tags:
 | `ConditionQuantity` | `ConditionQuantity` |
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionInactiveReason` | `ConditionInactiveReason` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionQuantityUnit` | *Association* |
 | `_ConditionInactiveReason` | *Association* |
-| `_ServiceOrderItemTP : redirected to parent I_ServiceOrderItemTP` | *Association* |
-| `_ServiceOrderTP     : redirected to I_ServiceOrderTP` | *Association* |
 
 ## Associations
 

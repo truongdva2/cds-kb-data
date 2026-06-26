@@ -29,23 +29,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FinancialTransactionDirection  : tb_rkondgr;` | `FinancialTransactionDirection  : tb_rkondgr;` |
-| `FinConditionItem               : tb_kond;` | `FinConditionItem               : tb_kond;` |
-| `ConditionItemValidityStartDate : dguel_kp;` | `ConditionItemValidityStartDate : dguel_kp;` |
-| `CalculationDate                : dvalut;` | `CalculationDate                : dvalut;` |
-| `CalcDateIsAsEndDateMonthEnd    : calc_dte_as_end_dte_month_end;` | `CalcDateIsAsEndDateMonthEnd    : calc_dte_as_end_dte_month_end;` |
-| `FinancialConditionDueDate      : dfaell;` | `FinancialConditionDueDate      : dfaell;` |
-| `DueDateIsAsEndDateMonthEnd     : due_dte_as_end_date_month_end;` | `DueDateIsAsEndDateMonthEnd     : due_dte_as_end_date_month_end;` |
-| `InterestRateAdjustmentDate     : tbvaluza;` | `InterestRateAdjustmentDate     : tbvaluza;` |
-| `IntrstRateAdjmtDateIsMonthEnd  : tbultiza;` | `IntrstRateAdjmtDateIsMonthEnd  : tbultiza;` |
-| `FinancialConditionItemAmount   : ftr_condition_item_amount;` | `FinancialConditionItemAmount   : ftr_condition_item_amount;` |
-| `FinancialConditionItemCurrency : swhrkond;` | `FinancialConditionItemCurrency : swhrkond;` |
-| `ConditionPercentageRate        : pkond;` | `ConditionPercentageRate        : pkond;` |
-| `_Condition                     : association to parent D_IntrstRateInstrChgCndnP;` | *Association* |
+| `FinancialTransactionDirection` | `tb_rkondgr` |
+| `FinConditionItem` | `tb_kond` |
+| `ConditionItemValidityStartDate` | `dguel_kp` |
+| `CalculationDate` | `dvalut` |
+| `CalcDateIsAsEndDateMonthEnd` | `calc_dte_as_end_dte_month_end` |
+| `FinancialConditionDueDate` | `dfaell` |
+| `DueDateIsAsEndDateMonthEnd` | `due_dte_as_end_date_month_end` |
+| `InterestRateAdjustmentDate` | `tbvaluza` |
+| `IntrstRateAdjmtDateIsMonthEnd` | `tbultiza` |
+| `FinancialConditionItemAmount` | `ftr_condition_item_amount` |
+| `FinancialConditionItemCurrency` | `swhrkond` |
+| `ConditionPercentageRate` | `pkond` |
+| `_Condition` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Condition` | `D_IntrstRateInstrChgCndnP` | — |
 
 ## Source Code
 

@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `CAInvcgSchedule` | `_tfk2606t.inv_schedule` |
 | `Language` | `_tfk2606t.langu` |
-| `_tfk2606t.text         as CAInvcgScheduleText` | *Association* |
+| `CAInvcgScheduleText` | `_tfk2606t.text` |
 | `_CAInvcgSchedule` | *Association* |
 | `_Language` | *Association* |
 

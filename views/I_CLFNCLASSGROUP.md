@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassificationClassGroup
 ---
 # I_CLFNCLASSGROUP
 
@@ -35,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ClassGroupText` | `I_ClfnClassGroupText` | [0..*] |
 
 ## Source Code
 

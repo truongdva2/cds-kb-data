@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasuringPointCategory
 ---
 # I_MEASURINGPOINTCATEGORY
 

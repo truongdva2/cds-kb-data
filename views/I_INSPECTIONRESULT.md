@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionCharacteristic
 ---
 # I_INSPECTIONRESULT
 
@@ -30,9 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'CharacteristicAttributeCodeGrp'` | `localElement: 'CharacteristicAttributeCodeGrp'` |
-| `element: 'CharacteristicAttributeCodeGrp' }]` | `element: 'CharacteristicAttributeCodeGrp' }]` |
-| `}]` | `}]` |
+| `InspectionLot` | `qamr.prueflos` |
+| `InspPlanOperationInternalID` | `qamr.vorglfnr` |
+| `InspectionCharacteristic` | `qamr.merknr` |
+| `Inspector` | `qamr.pruefer` |
+| `InspectionResultStatus` | `qamr.satzstatus` |
+| `InspResultIsCompletionForced` | `case…end` |
+| `InspectionResultAttribute` | `qamr.attribut` |
+| `InspectionResultOrigin` | `qamr.qergdath` |
+| `InspectionValuationResult` | `qamr.mbewertg` |
+| `InspResultDynModifValuation` | `qamr.dbewertg` |
+| `InspectionResultMeanValue` | `qamr.mittelwert` |
+| `InspectionResultHasMeanValue` | `cast(…)` |
+| `InspectionResultMaximumValue` | `qamr.maxwert` |
+| `InspResultHasMaximumValue` | `cast(…)` |
+| `InspectionResultMinimumValue` | `qamr.minwert` |
+| `InspResultHasMinimumValue` | `cast(…)` |
+| `InspectionResultOriginalValue` | `qamr.original_input` |
+| `InspResultValidValuesNumber` | `qamr.anzwertg` |
+| `InspResultNmbrOfRecordedRslts` | `qamr.iststpumf` |
+| `InspectionResultText` | `cast( qamr.pruefbemkt as vdm_qinspectionresultdesc preserving type )` |
+| `InspectionResultHasLongText` | `qamr.prltextkz` |
+| `Language` | `qamr.ltextspr` |
+| `CharacteristicAttributeCodeGrp` | `qamr.gruppe1` |
 | `CharacteristicAttributeCode` | `qamr.code1` |
 | `CharcAttributeCodeVers` | `qamr.version1` |
 | `InspRsltFreeDefinedTestEquip` | `qamr.maschine` |
@@ -43,7 +64,7 @@ tags:
 | `InspRsltAboveToleranceFraction` | `qamr.anteilo` |
 | `InspRsltBelowToleranceFraction` | `qamr.anteilu` |
 | `InspResultVariance` | `qamr.varianz` |
-| `vdm_varianzni preserving type)` | `cast(case qamr.varianzni when '*' then 'X' else qamr.varianzni end` |
+| `InspResultHasVariance` | `cast(…)` |
 | `CharacteristicAttributeCatalog` | `qamr.katalgart1` |
 | `InspectionResultCatalog2` | `qamr.katalgart2` |
 | `InspectionResultCatalog3` | `qamr.katalgart3` |
@@ -65,15 +86,13 @@ tags:
 | `InspectionPartialSampleSize` | `qamr.iststpanz` |
 | `InspectionStartDate` | `qamr.pruefdatuv` |
 | `InspectionStartTime` | `qamr.pruefzeitv` |
-| `vdm_qpruefdatb preserving type )` | `cast( qamr.pruefdatub` |
+| `InspectionEndDate` | `cast( qamr.pruefdatub as vdm_qpruefdatb preserving type )` |
 | `InspectionEndTime` | `qamr.pruefzeitb` |
 | `CreatedByUser` | `qamr.ersteller` |
 | `CreationDate` | `qamr.erstelldat` |
 | `LastChangedByUser` | `qamr.aenderer` |
 | `LastChangeDate` | `qamr.aenderdat` |
-| `case qamr.changeddatetime` | `case qamr.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qamr.changeddatetime                          end` |
+| `ChangedDateTime` | `case…end` |
 | `ChangedTime` | `qamr.zeitaend` |
 | `CreationTime` | `qamr.zeiterstl` |
 | `InspResultNrOfAddlDcmlsPlaces` | `qamr.diff_dec_places` |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-IV-LIV-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierInvoiceItemConsignment
 ---
 # I_SUPCSGNMTPPLINEINVCHISTAPI01
 
@@ -30,13 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key FiscalYear` | `FiscalYear` |
-| `key SupplierInvoiceItem` | `SupplierInvoiceItem` |
-| `/* Associations */` | `/* Associations */` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `FiscalYear` | `FiscalYear` |
+| `SupplierInvoiceItem` | `SupplierInvoiceItem` |
 | `_SupCsgnmtPplineWthdrwlAPI01` | *Association* |
 
 ## Associations

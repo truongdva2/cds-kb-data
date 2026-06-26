@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressID
 ---
 # I_ADDRESSURI
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
-| `key CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
+| `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `AddressManagementURIType` | `AddressManagementURIType` |
 | `URLIsCurrentDefault` | `URLIsCurrentDefault` |
 | `UniformResourceIdentifier` | `UniformResourceIdentifier` |

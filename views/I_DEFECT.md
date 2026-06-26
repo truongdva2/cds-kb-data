@@ -29,7 +29,67 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'SourceStorageType' }` | `releaseState: #DEPRECATED, successor: 'SourceStorageType' }` |
+| `DefectInternalID` | `cast( I_NotificationItem.Notification as qdefectinternalid preserving type )` |
+| `Defect` | `cast(…)` |
+| `DefectCategory` | `I_NotificationItem.DefectCategory` |
+| `CreatedByUser` | `I_NotificationItem.CreatedByUser` |
+| `CreationDate` | `I_NotificationItem.CreationDate` |
+| `LastChangedByUser` | `I_NotificationItem.LastChangedByUser` |
+| `LastChangeDate` | `I_NotificationItem.LastChangeDate` |
+| `DefectText` | `cast(I_NotificationItem.NotificationItemText as vdm_qfetxt preserving type )` |
+| `DefectCodeCatalog` | `I_NotificationItem.DefectCodeCatalog` |
+| `DefectCodeGroup` | `cast( I_NotificationItem.DefectCodeGroup as vdm_qfegrp preserving type )` |
+| `DefectCode` | `cast( I_NotificationItem.DefectCode as vdm_qfecod preserving type )` |
+| `DefectCodeVersion` | `I_NotificationItem.DefectCodeVersion` |
+| `DefectObjectCodeCatalog` | `cast(…)` |
+| `DefectObjectCodeGroup` | `cast(…)` |
+| `DefectObjectCode` | `cast(I_NotificationItem.NotifItmObjectPartCode as vdm_qfeocod preserving type )` |
+| `DefectObjectCodeVersion` | `I_NotificationItem.NotifItmObjectPartVersion` |
+| `DefectCauseCodeCatalog` | `cast(…)` |
+| `DefectCauseCodeGroup` | `cast(…)` |
+| `DefectCauseCode` | `cast(…)` |
+| `DefectCauseCodeVersion` | `I_NotificationItem.DefectCauseCodeVersion` |
+| `DefectiveQuantity` | `cast( I_NotificationItem.DefectiveQuantity as vdm_qmgpos preserving type )` |
+| `DefectiveQuantityUnit` | `I_NotificationItem.DefectiveQuantityUnit` |
+| `DefectIsCreatedAutomatically` | `I_NotificationItem.DefectIsCreatedAutomatically` |
+| `ProductionOrderOperationActy` | `I_NotificationItem.ProductionOrderOperationActy` |
+| `ProductionOrderOpActyVers` | `I_NotificationItem.ProductionOrderOpActyVers` |
+| `Batch` | `I_NotificationItem.Batch` |
+| `DefectiveSingleUnit` | `I_NotificationItem.DefectiveSingleUnit` |
+| `ProductionOrder` | `cast( I_NotificationItem.ProductionOrder as vdm_qm_fertaufnr preserving type )` |
+| `OrderInternalID` | `I_NotificationItem.OrderInternalID` |
+| `CreationTime` | `cast( I_NotificationItem.CreationTime as vdm_qerstezeit preserving type )` |
+| `LastChangeTime` | `cast( I_NotificationItem.LastChangeTime as vdm_qaendezeit preserving type )` |
+| `DefectClass` | `I_NotificationItem.DefectClass` |
+| `NumberOfDefects` | `I_NotificationItem.NumberOfDefects` |
+| `InspPlanOperationInternalID` | `I_NotificationItem.InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `I_NotificationItem.InspectionCharacteristic` |
+| `InspectionSubsetInternalID` | `I_NotificationItem.InspectionSubsetInternalID` |
+| `MaterialSample` | `I_NotificationItem.MaterialSample` |
+| `WorkCenterTypeCode` | `I_NotificationItem.WorkCenterTypeCode` |
+| `MainWorkCenterInternalID` | `I_NotificationItem.MainWorkCenterInternalID` |
+| `MainWorkCenterPlant` | `cast( I_NotificationItem.MainWorkCenterPlant as vdm_qarbpwerks preserving type )` |
+| `MainWorkCenter` | `I_NotificationItem.MainWorkCenter` |
+| `Equipment` | `I_NotificationItem.Equipment` |
+| `FunctionalLocation` | `I_NotificationItem.FunctionalLocation` |
+| `IsDeleted` | `cast( I_NotificationItem.IsDeleted as vdm_qdefisdeleted preserving type )` |
+| `DefectOrigin` | `I_NotificationItem.DefectOrigin` |
+| `Material` | `cast( I_NotificationItem.Material as vdm_defective_material preserving type )` |
+| `Plant` | `I_NotificationItem.Plant` |
+| `StorageLocation` | `I_NotificationItem.StorageLocation` |
+| `WarehouseLogicalSystem` | `I_NotificationItem.WarehouseLogicalSystem` |
+| `InspectionLot` | `I_NotificationItem.InspectionLot` |
+| `CatalogProfile` | `I_NotificationItem.CatalogProfile` |
+| `ChangedDateTime` | `I_NotificationItem.ChangedDateTime` |
+| `DefectLifecycleStatus` | `DefectLifecycleStatus` |
+| `DefectArchivingStatus` | `DefectArchivingStatus` |
+| `ProblemAnalysisStatus` | `ProblemAnalysisStatus` |
+| `QualityIssueReference` | `QualityIssueReference` |
+| `MasterLanguage` | `MasterLanguage` |
+| `DefectUUID` | `DefectUUID` |
+| `ProductionSupplyArea` | `ProductionSupplyArea` |
+| `Warehouse` | `EWMWarehouse` |
+| `EWMWarehouse` | `EWMWarehouse` |
 | `StorageType` | `SourceStorageType` |
 | `SourceStorageType` | `SourceStorageType` |
 | `SourceStorageBin` | `SourceStorageBin` |
@@ -38,14 +98,13 @@ tags:
 | `BOMItemInstanceUUID` | `BOMItemInstanceUUID` |
 | `ProducedMaterial` | `ProducedMaterial` |
 | `ProducedSerialNumber` | `ProducedSerialNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `I_NotificationItem._CatalogProfile` | `I_NotificationItem._CatalogProfile` |
-| `I_NotificationItem._DefectCategory` | `I_NotificationItem._DefectCategory` |
+| `_CatalogProfile` | *Association* |
+| `_DefectCategory` | *Association* |
 | `_DefectCode` | *Association* |
-| `I_NotificationItem._DefectCodeCatalog` | `I_NotificationItem._DefectCodeCatalog` |
+| `_DefectCodeCatalog` | *Association* |
 | `_DefectCodeGroup` | *Association* |
-| `I_NotificationItem._InspectionLot` | `I_NotificationItem._InspectionLot` |
-| `I_NotificationItem._DefectiveQuantityUnit` | `I_NotificationItem._DefectiveQuantityUnit` |
+| `_InspectionLot` | *Association* |
+| `_DefectiveQuantityUnit` | *Association* |
 | `_DefectObjectCodeCatalog` | *Association* |
 | `_DefectObjectPartCodeGroup` | *Association* |
 | `_DefectObjectCode` | *Association* |
@@ -72,7 +131,7 @@ tags:
 | `_ManufacturingOrder` | *Association* |
 | `_ManufacturingOrderOperation` | *Association* |
 | `_InspectionOperation` | *Association* |
-| `I_NotificationItem._WorkCenter` | `I_NotificationItem._WorkCenter` |
+| `_WorkCenter` | *Association* |
 
 ## Associations
 

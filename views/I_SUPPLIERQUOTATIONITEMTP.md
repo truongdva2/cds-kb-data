@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierQuotation` | `SupplierQuotation` |
-| `key SupplierQuotationItem` | `SupplierQuotationItem` |
+| `SupplierQuotation` | `SupplierQuotation` |
+| `SupplierQuotationItem` | `SupplierQuotationItem` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
 | `Material` | `Material` |
@@ -81,9 +81,6 @@ tags:
 | `PurchasingInfoRecord` | `PurchasingInfoRecord` |
 | `PurchasingDocumentItemCategory` | `PurchasingDocumentItemCategory` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_QTNPricingElement : redirected to composition child I_SupplierQuotationPrcElmntTP` | *Association* |
-| `_SupplierQuotation : redirected to parent I_SupplierQuotationTP` | *Association* |
 
 ## Associations
 

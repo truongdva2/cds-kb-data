@@ -34,7 +34,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PhysInvtryGroupType', element: 'PhysicalInventoryGroupType' }, useAsTemplate: true } ] }` | `name: 'I_PhysInvtryGroupType', element: 'PhysicalInventoryGroupType' }, useAsTemplate: true } ] }` |
+| `PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
+| `FiscalYear` | `FiscalYear` |
+| `InventoryTransactionType` | `InventoryTransactionType` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `DocumentDate` | `DocumentDate` |
+| `PhysInventoryPlannedCountDate` | `PhysInventoryPlannedCountDate` |
+| `PhysicalInventoryLastCountDate` | `PhysicalInventoryLastCountDate` |
+| `PostingDate` | `PostingDate` |
+| `PostingFiscalPeriod` | `PostingFiscalPeriod` |
+| `CreatedByUserName` | `CreatedByUserName` |
+| `PostingIsBlockedForPhysInvtry` | `PostingIsBlockedForPhysInvtry` |
+| `PhysicalInventoryCountStatus` | `PhysicalInventoryCountStatus` |
+| `PhysInvtryAdjustmentPostingSts` | `PhysInvtryAdjustmentPostingSts` |
+| `PhysInventoryReferenceNumber` | `PhysInventoryReferenceNumber` |
+| `PhysInvtryDeletionStatus` | `PhysInvtryDeletionStatus` |
+| `PhysInvtryDocHasQtySnapshot` | `PhysInvtryDocHasQtySnapshot` |
 | `PhysicalInventoryGroupType` | `PhysicalInventoryGroupType` |
 | `PhysicalInventoryGroup` | `PhysicalInventoryGroup` |
 | `PhysicalInventoryNumber` | `PhysicalInventoryNumber` |
@@ -42,7 +59,6 @@ tags:
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `SalesPriceValuationIsActive` | `SalesPriceValuationIsActive` |
 | `CountingVarianceInPercent` | `CountingVarianceInPercent` |
-| `_PhysicalInventoryDocumentItem    : redirected to composition child I_PhysInvtryDocumentItemTP` | *Association* |
 | `_InventorySpecialStockTypeText` | *Association* |
 | `_InventoryTransactionTypeText` | *Association* |
 | `_PhysInvtryCountStsText` | *Association* |

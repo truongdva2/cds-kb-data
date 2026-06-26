@@ -30,7 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `amount.currencyCode: 'Currency' }` | `amount.currencyCode: 'Currency' }` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `AccountAssignmentNumber` | `AccountAssignment` |
+| `SESRefDocAccountAssignment` | `RefDocAccountAssignment` |
+| `IsDeleted` | `IsDeleted` |
+| `Quantity` | `Quantity` |
+| `QuantityUnit` | `QuantityUnit` |
 | `NetAmount` | `NetAmount` |
 | `Currency` | `Currency` |
 | `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
@@ -44,7 +50,7 @@ tags:
 | `OrderID` | `OrderID` |
 | `ControllingArea` | `ControllingArea` |
 | `CostObject` | `CostObject` |
-| `rkeobjnr_char )` | `cast( ProfitabilitySegment` |
+| `ProfitabilitySegment` | `cast( ProfitabilitySegment as rkeobjnr_char )` |
 | `ProfitCenter` | `ProfitCenter` |
 | `GLAccount` | `GLAccount` |
 | `WBSElementInternalID` | `WBSElementInternalID_2` |

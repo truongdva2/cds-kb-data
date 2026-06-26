@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransUnderlyingFlow
 ---
 # I_FINTRANSUNDERLYINGFLOW
 
@@ -30,29 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `option_underlying_transaction preserving type )` | `cast( rfha` |
-| `FinancialInstrumentActivity, //OptionUnderlyingActivity` | `rfhazu` |
+| `OptionUnderlyingTransaction` | `cast( rfha as option_underlying_transaction preserving type )` |
+| `FinancialInstrumentActivity` | `rfhazu` |
 | `FinTransFlowCreationDate` | `dcrdat` |
-| `ftr_flow_creation_time preserving type )` | `cast( tcrtim` |
+| `FinTransFlowCreationTime` | `cast( tcrtim as ftr_flow_creation_time preserving type )` |
 | `FinTransFlowNumber` | `rfhazb` |
 | `CreatedByUser` | `UnderlyingFlow.cruser` |
-| `ftr_creation_date preserving type )` | `cast( UnderlyingFlow.dcrdat` |
+| `FinTransCreationDate` | `cast( UnderlyingFlow.dcrdat as ftr_creation_date preserving type )` |
 | `FinTransCreationTime` | `UnderlyingFlow.tcrtim` |
 | `LastChangedByUser` | `UnderlyingFlow.upuser` |
 | `LastChangeDate` | `UnderlyingFlow.dupdat` |
 | `FinInstrumentLastChangedTime` | `UnderlyingFlow.tuptim` |
 | `TreasuryContractType` | `UnderlyingFlow.rantyp` |
 | `FinTransFlowType` | `UnderlyingFlow.sfhazba` |
-| `ftr_flow_category preserving type )` | `cast( UnderlyingFlow.sbktyp` |
-| `ftr_flow_payment_amt_direction preserving type )` | `cast( UnderlyingFlow.ssign` |
+| `FinTransFlowCategory` | `cast( UnderlyingFlow.sbktyp as ftr_flow_category preserving type )` |
+| `FinTransFlowPaytAmtDirection` | `cast( UnderlyingFlow.ssign as ftr_flow_payment_amt_direction preserving type )` |
 | `FinancialTransactionDirection` | `UnderlyingFlow.rkondgr` |
 | `FinTransFlowSource` | `UnderlyingFlow.sherkunft` |
 | `PayerPayee` | `UnderlyingFlow.rpzahl` |
-| `ftr_flow_payment_date preserving type )` | `cast( UnderlyingFlow.dzterm` |
-| `ftr_flow_payment_amount preserving type )` | `cast( UnderlyingFlow.bzbetr` |
+| `FinTransFlowPaymentDate` | `cast( UnderlyingFlow.dzterm as ftr_flow_payment_date preserving type )` |
+| `FinTransFlowPaytAmt` | `cast( UnderlyingFlow.bzbetr as ftr_flow_payment_amount preserving type )` |
 | `FinTransFlowPaytAmtCrcy` | `UnderlyingFlow.wzbetr` |
 | `FinTransFlowInLoclCrcyPaytAmt` | `UnderlyingFlow.bhwbetr` |
-| `ftr_flow_locl_crcy_cnvrsn_rate preserving type )` | `cast( UnderlyingFlow.khwkurs` |
+| `FinTransFlowLoclCrcyCnvrsnRate` | `cast( UnderlyingFlow.khwkurs as ftr_flow_locl_crcy_cnvrsn_rate preserving type )` |
 | `CalculationDate` | `UnderlyingFlow.dvalut` |
 | `CalculationPeriodStartDate` | `UnderlyingFlow.dbervon` |
 | `CalculationPeriodEndDate` | `UnderlyingFlow.dberbis` |
@@ -67,39 +68,30 @@ tags:
 | `FinTransFlowCalcBaseAmountCrcy` | `UnderlyingFlow.wbasis` |
 | `IntrstCalcMethFactoryCalendar` | `UnderlyingFlow.skalidwt` |
 | `InterestBaseDaysMethod` | `UnderlyingFlow.stgbasis` |
-| `cast ( case` | `cast ( case` |
-| `when UnderlyingFlow.jexpozins      = 'X' then '1'` | `when UnderlyingFlow.jexpozins      = 'X' then '1'` |
-| `when UnderlyingFlow.jexpozins      = 'L' then '5'` | `when UnderlyingFlow.jexpozins      = 'L' then '5'` |
-| `when UnderlyingFlow.stgbasis       = '1' then '2'` | `when UnderlyingFlow.stgbasis       = '1' then '2'` |
-| `when UnderlyingFlow.stgbasis       = 'D' then '3'` | `when UnderlyingFlow.stgbasis       = 'D' then '3'` |
-| `when UnderlyingFlow.jexpointfactor = 'X' then '4'` | `when UnderlyingFlow.jexpointfactor = 'X' then '4'` |
-| `when UnderlyingFlow.jexpointfactor = 'L' then '6'` | `when UnderlyingFlow.jexpointfactor = 'L' then '6'` |
-| `when UnderlyingFlow.jexpointfactor = 'A' then '7'` | `when UnderlyingFlow.jexpointfactor = 'A' then '7'` |
-| `else '0'` | `else '0'` |
-| `tfmsintcalc preserving type )` | `end` |
+| `InterestCalculationType` | `cast(…)` |
 | `ConditionPercentageRate` | `UnderlyingFlow.pkond` |
 | `FinCndnPctgRateFixingDate` | `UnderlyingFlow.dpkond` |
 | `FinTransFlowIntrstRateFixDate` | `UnderlyingFlow.dzfest` |
 | `FinTransPositionValueDate` | `UnderlyingFlow.dbestand` |
-| `ftr_position_amount preserving type )` | `cast( UnderlyingFlow.bbbetr` |
+| `FinTransFlowPositionAmount` | `cast( UnderlyingFlow.bbbetr as ftr_position_amount preserving type )` |
 | `FinTransFlwPosAmtCrcy` | `UnderlyingFlow.wbbetr` |
-| `ftr_flow_norminal_amount preserving type )` | `cast( UnderlyingFlow.bnwhr` |
-| `ftr_flow_norminal_amount_crcy preserving type )` | `cast( UnderlyingFlow.wprice` |
+| `FinTransFlowNomAmt` | `cast( UnderlyingFlow.bnwhr as ftr_flow_norminal_amount preserving type )` |
+| `FinTransFlowNomAmtCrcy` | `cast( UnderlyingFlow.wprice as ftr_flow_norminal_amount_crcy preserving type )` |
 | `MarketValueInQtanCurrency` | `UnderlyingFlow.bebetr` |
 | `QuotationCurrency` | `UnderlyingFlow.webetr` |
-| `ftr_fintrans_units_l )` | `cast( UnderlyingFlow.astueck` |
-| `ftr_price preserving type )` | `cast( UnderlyingFlow.buprc` |
-| `ftr_traded_price_currency_unit preserving type )` | `cast( UnderlyingFlow.srunit` |
+| `FinTransTradedNumberOfUnits` | `cast( UnderlyingFlow.astueck as ftr_fintrans_units_l )` |
+| `FinTransTrdPriceCrcyUnitRate` | `cast( UnderlyingFlow.buprc as ftr_price preserving type )` |
+| `FinTransTradedPriceCrcyUnit` | `cast( UnderlyingFlow.srunit as ftr_traded_price_currency_unit preserving type )` |
 | `SecurityExchange` | `UnderlyingFlow.rhandpl` |
 | `FinConditionItem` | `UnderlyingFlow.rkond` |
 | `ConditionItemValidityStartDate` | `UnderlyingFlow.dguel_kp` |
 | `FinConditionSubItem` | `UnderlyingFlow.nstufe` |
 | `InterestConditionType` | `UnderlyingFlow.skoart` |
-| `ftr_instr_cndn_logic_group preserving type )` | `cast( UnderlyingFlow.logic_rkond` |
+| `FinInstrConditionLogicGroup` | `cast( UnderlyingFlow.logic_rkond as ftr_instr_cndn_logic_group preserving type )` |
 | `FinCndnCrsRefcdAccmlnCndnGrp` | `UnderlyingFlow.sum_rkond` |
 | `FinTransFlwReltdAccumulatingID` | `UnderlyingFlow.sum_id_source` |
 | `FinTransFlowAccumulatingFlowID` | `UnderlyingFlow.sum_id_sum` |
-| `ftr_price_percent preserving type )` | `cast( UnderlyingFlow.bpprc` |
+| `FinTransTradedPricePercent` | `cast( UnderlyingFlow.bpprc as ftr_price_percent preserving type )` |
 | `_ContractType` | *Association* |
 | `_FlowType` | *Association* |
 | `_FlowCategory` | *Association* |

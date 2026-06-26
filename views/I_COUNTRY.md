@@ -1,6 +1,11 @@
 ---
 name: I_COUNTRY
 description: Country
+semantic_en: "Country/region — ISO country/region codes and their attributes used across master data and transactions."
+semantic_vi: "Quốc gia/vùng — mã quốc gia/vùng ISO và thuộc tính, dùng xuyên suốt dữ liệu chủ và giao dịch."
+keywords:
+  - quốc gia
+  - vùng lãnh thổ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released
@@ -15,6 +20,7 @@ tags:
   - country
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:Country
 ---
 # I_COUNTRY
 

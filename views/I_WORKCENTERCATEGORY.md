@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenterCategory
 ---
 # I_WORKCENTERCATEGORY
 
@@ -31,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `WorkCenterCategoryCode` | `cat.verwe` |
 | `StatusProfile` | `cat.stsma` |
 | `_Text` | *Association* |

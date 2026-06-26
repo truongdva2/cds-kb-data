@@ -34,29 +34,26 @@ tags:
 | `ContractAccount` | `vkont` |
 | `BusinessPartner` | `gpart` |
 | `ContractAccountName` | `vkbez` |
-| `/* administration data */` | `/* administration data */` |
 | `CreationDate` | `erdat` |
 | `CreationTime` | `ertim` |
 | `CreatedByUser` | `ernam` |
-| `loevm preserving type )` | `cast( loevm` |
+| `IsMarkedForDeletion` | `cast( loevm as loevm preserving type )` |
 | `LastChangeDate` | `aedatp` |
 | `LastChangeTime` | `aetimp` |
 | `LastChangedByUser` | `aenamp` |
-| `/* payment data */` | `/* payment data */` |
 | `CABankIDForIncomingPayments` | `ebvty` |
 | `CABankIDForOutgoingPayments` | `abvty` |
 | `CAIncomingPaymentMethod` | `ezawe` |
 | `CACnctntdOutgPaymentMethods` | `azawe` |
-| `azawe1_conacct_kk preserving type)` | `cast (substring(azawe, 1, 1)` |
-| `azawe2_conacct_kk preserving type)` | `cast (substring(azawe, 2, 1)` |
-| `azawe3_conacct_kk preserving type)` | `cast (substring(azawe, 3, 1)` |
-| `azawe4_conacct_kk preserving type)` | `cast (substring(azawe, 4, 1)` |
-| `azawe5_conacct_kk preserving type)` | `cast (substring(azawe, 5, 1)` |
+| `CAFirstOutgoingPaymentMethod` | `cast (substring(azawe, 1, 1) as azawe1_conacct_kk preserving type)` |
+| `CASecondOutgoingPaymentMethod` | `cast (substring(azawe, 2, 1) as azawe2_conacct_kk preserving type)` |
+| `CAThirdOutgoingPaymentMethod` | `cast (substring(azawe, 3, 1) as azawe3_conacct_kk preserving type)` |
+| `CAFourthOutgoingPaymentMethod` | `cast (substring(azawe, 4, 1) as azawe4_conacct_kk preserving type)` |
+| `CAFifthOutgoingPaymentMethod` | `cast (substring(azawe, 5, 1) as azawe5_conacct_kk preserving type)` |
 | `CAHouseBankReference` | `eigbv` |
 | `CAPaymentCardIDForIncomingPayt` | `ccard_id` |
 | `CAPaymentCardIDForOutgoingPayt` | `ccard_out` |
 | `SEPAMandate` | `mndid` |
-| `/* dunning and collections */` | `/* dunning and collections */` |
 | `CADunningProcedure` | `mahnv` |
 | `CADunningNoticeGroup` | `mgrup` |
 | `CACorrespondenceDunningProced` | `corr_mahnv` |
@@ -64,7 +61,6 @@ tags:
 | `CACollectionsMasterDataGroup` | `cmgrp` |
 | `CACollectionStrategy` | `strat` |
 | `CACollectionsContactPerson` | `cpers` |
-| `/* alternative business partners */` | `/* alternative business partners */` |
 | `ContractAccountForPayment` | `vkonv` |
 | `CABusinessPartnerForPayment` | `gparv` |
 | `CAAlternativePayer` | `abwre` |
@@ -76,12 +72,10 @@ tags:
 | `CAAddressIDOfAlternativePayee` | `adrra` |
 | `CAAddressIDOfAltvDunRecipient` | `adrma` |
 | `CAAddressIDOfAltvInvoiceRcpnt` | `adrrh` |
-| `/* direct debit limit */` | `/* direct debit limit */` |
 | `CACurrencyForDirectDebitLimit` | `ddlcu` |
 | `CADirectDebitLimit` | `ddlam` |
 | `CANmbrMnthsForDirectDebitLimit` | `ddlnm` |
 | `CADirectDebitLimitCalcMode` | `ddlxg` |
-| `/* billing and invoicing */` | `/* billing and invoicing */` |
 | `CAStartDateForBillingPeriod` | `inv_cycle_start` |
 | `ContrAcctPrtnHasInvcgChrgDsc` | `inv_chgdisc_x` |
 | `CATargetCurrencyForInvoicing` | `inv_curr` |
@@ -96,13 +90,11 @@ tags:
 | `ContractAccountForInvcgList` | `vkont_invlist` |
 | `CAMasterAgreement` | `makey` |
 | `CAPartnerSettlementRule` | `ptsrl` |
-| `/* tax data */` | `/* tax data */` |
 | `ValdtyDateForWhldgTaxExmpCert` | `qszdt` |
 | `TaxJurisdiction` | `txjcd` |
 | `OutgPaytWithholdingTaxCode` | `qsskz_a` |
 | `IncgPaytWithholdingTaxCode` | `qsskz_e` |
 | `WithholdingTaxCertificate` | `qsznr` |
-| `/* other data */` | `/* other data */` |
 | `CAAdditionalDaysForCashMgmt` | `fdztg` |
 | `CABusPartnerPostgLockExstcCode` | `bpl_xpocl` |
 | `CABusPartnerAddlLockExstcCode` | `bpl_xaddl` |
@@ -127,12 +119,11 @@ tags:
 | `SupplyingCountry` | `landl` |
 | `BusinessPlace` | `bupla` |
 | `CASubledgerApplication` | `trsla` |
-| `/* include SI_FKKVKPSICA  */` | `/* include SI_FKKVKPSICA  */` |
 | `PaymentCondition` | `zahlkond` |
 | `CAAccountDeterminationCode` | `kofiz_sd` |
 | `BusinessArea` | `gsber` |
-| `_CompCodeGroup.CAPaymentCompanyCode                                 as CAPaymentCompanyCode` | *Association* |
-| `_CompCodeGroup._CompanyCode.Country                                 as Country` | *Association* |
+| `CAPaymentCompanyCode` | `_CompCodeGroup.CAPaymentCompanyCode` |
+| `Country` | `_CompCodeGroup._CompanyCode.Country` |
 | `_AcctDetnCode` | *Association* |
 | `_AlternativePayer` | *Association* |
 | `_AlternativePayee` | *Association* |
@@ -191,15 +182,13 @@ tags:
 | `_RelshpOfBP` | *Association* |
 | `_SupplyingCountry` | *Association* |
 | `_ToleranceGroup` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `CABusinessPartnerLock` | `bpl_xpocl` |
 | `CAClearingRestriction` | `augrs_def` |
 | `CAPaymentMethodForIncgPayment` | `ezawe` |
 | `CAPaymentMethodForOutgPayment` | `azawe` |
 | `CAWhldgTaxCodeOutgoingPayt` | `qsskz_a` |
 | `CAWhldgTaxCodeIncomingPayt` | `qsskz_e` |
-| `/* deprecated associations */` | `/* deprecated associations */` |
-| `_CorrespncVar                                                       as _CorrVariant` | *Association* |
+| `_CorrVariant` | *Association* |
 | `_PaytMethodIncg` | *Association* |
 | `_PaytMethodOutg` | *Association* |
 

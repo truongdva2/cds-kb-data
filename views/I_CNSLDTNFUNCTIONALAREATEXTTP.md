@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FunctionalArea` | `_Text.FunctionalArea` |
-| `_Text.FunctionalAreaName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_FunctionalArea as _FunctionalArea : redirected to parent I_CnsldtnFunctionalAreaTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FunctionalArea` | `_Text.FunctionalArea` |
+| `FunctionalAreaName` | `_Text.FunctionalAreaName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_FunctionalArea` | *Association* |
 
 ## Associations
 

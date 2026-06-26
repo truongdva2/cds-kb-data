@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergySourcingType
 ---
 # I_GHGENERGYSOURCINGTYPE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sufnd_vdm_ghgengysrcgtype )` | `cast( dd07l.domvalue_l` |
-| `DomainValue, //Needed for optimized access according VDM guideline` | `dd07l.domvalue_l` |
+| `GHGEnergySourcingType` | `cast( dd07l.domvalue_l as sufnd_vdm_ghgengysrcgtype )` |
+| `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations

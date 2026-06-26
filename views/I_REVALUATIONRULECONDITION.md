@@ -38,10 +38,10 @@ tags:
 | `REIsValuationCndnConsdtn` | `considercond` |
 | `REValuationCndnSharePercent` | `condperc` |
 | `REValuationCndnShareAbsltAmt` | `condabs` |
-| `recdvdmvalcurr preserving type )` | `cast(currency` |
+| `REValuationCurrency` | `cast(currency as recdvdmvalcurr preserving type )` |
 | `REValuationCndnStatus` | `statuscondrule` |
 | `REInfoText` | `note` |
-| `_REValuationTerm.REValuationRule                  as REValuationRule` | *Association* |
+| `REValuationRule` | `_REValuationTerm.REValuationRule` |
 | `_REContract` | *Association* |
 | `_REKeyAssgmt` | *Association* |
 | `_REValuationTerm` | *Association* |

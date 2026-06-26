@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectRoleUUID` | `ProjectRoleUUID` |
+| `ProjectRoleUUID` | `ProjectRoleUUID` |
 | `ProjectUUID` | `ProjectUUID` |
 | `ProjectRoleType` | `ProjectRoleType` |
 | `ProjectRoleCategory` | `ProjectRoleCategory` |
@@ -42,7 +42,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_EnterpriseProject : redirected to parent I_EnterpriseProjectTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

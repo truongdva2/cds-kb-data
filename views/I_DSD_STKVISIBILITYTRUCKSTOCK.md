@@ -29,7 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'UnitOfMeasure' } }` | `unitOfMeasure: 'UnitOfMeasure' } }` |
+| `DeliveryVehicleNumber` | `vehicle` |
+| `StkVisibilitySequentialNumber` | `itm_no` |
+| `Material` | `matnr` |
+| `Batch` | `charg` |
+| `StockVisibilityVehicleQuantity` | `quantity` |
 | `StockVisibilityStorLocQuantity` | `quantity_ts` |
 | `UnitOfMeasure` | `meins` |
 | `DSD_TourIdentification` | `tour_id` |

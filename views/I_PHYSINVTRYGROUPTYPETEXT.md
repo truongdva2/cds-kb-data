@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `keord preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `val_text preserving type)` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `PhysicalInventoryGroupType` | `cast ( substring( domvalue_l, 1, 2 ) as keord preserving type)` |
+| `PhysicalInventoryGroupTypeName` | `cast ( substring ( ddtext, 1, 60 ) as val_text preserving type)` |
 | `_PhysInvtryGroupType` | *Association* |
 | `_Language` | *Association* |
 

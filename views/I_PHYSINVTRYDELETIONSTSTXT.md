@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `pi_hdr_deletion_status_code preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text preserving type )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `PhysInvtryDeletionStatus` | `cast(…)` |
+| `PhysInvtryDeletionStatusText` | `cast ( substring ( ddtext, 1, 60 ) as val_text preserving type )` |
 | `_Language` | *Association* |
 | `_PhysInvtryDeletionSts` | *Association* |
 

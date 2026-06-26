@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     InspectionCode` | `InspectionCode` |
-| `key     Language` | `Language` |
+| `InspectionCode` | `InspectionCode` |
+| `Language` | `Language` |
 | `InspectionCodeText` | `max(InspectionCodeText)` |
 | `_Language` | *Association* |
 

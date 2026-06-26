@@ -16,6 +16,7 @@ tags:
   - text
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalScoreOutputActionType
 ---
 # I_SUPLREVALOUTPUTSCORETYPETEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `mmpur_ana_de_output_act_typ_t)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `SuplrEvalScoreOutputActionType` | `cast( domvalue_l as mmpur_ana_de_output_act_typ)` |
+| `SuplrEvalScoreOutpActnTypeText` | `cast(ddtext as mmpur_ana_de_output_act_typ_t)` |
 | `_OutputScoreType` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_OutputScoreType` | `I_SuplrEvalOutputScoreType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

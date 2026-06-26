@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label:'Business Role Price Category', quickInfo:'Price Category' }` | `label:'Business Role Price Category', quickInfo:'Price Category' }` |
-| `case res.access_restriction_code` | `case res.access_restriction_code` |
-| `when  '3' then pc.PriceCategoryRead` | `when  '3' then pc.PriceCategoryRead` |
-| `else  pc.PriceCategory` | `else  pc.PriceCategory` |
-| `BusinessRolePriceCategory` | `end` |
+| `BusinessRoleUUID` | `br.BusinessRoleUUID` |
+| `BusinessRole` | `br.BusinessRole` |
+| `BusinessRoleGroup` | `br.BusinessRoleGroup` |
+| `BusinessRolePriceCategory` | `case…end` |
 
 ## Associations
 

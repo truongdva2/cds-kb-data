@@ -32,15 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Equipment` | `Equipment` |
-| `key WarrantyType` | `WarrantyType` |
+| `Equipment` | `Equipment` |
+| `WarrantyType` | `WarrantyType` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `MasterWarranty` | `MasterWarranty` |
 | `WarrantyStartDate` | `WarrantyStartDate` |
 | `WarrantyEndDate` | `WarrantyEndDate` |
 | `WrntyIsInhtdFromSuperiorObject` | `WrntyIsInhtdFromSuperiorObject` |
 | `WrntyIsPassedOnToChildObject` | `WrntyIsPassedOnToChildObject` |
-| `_Equipment  : redirected to parent I_EquipmentTP` | *Association* |
 
 ## Associations
 

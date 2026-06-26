@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EarmarkedFundsMnlEditBlk` | `I_EarmarkedFunds_MnlEditBlk` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

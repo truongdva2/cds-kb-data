@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `entobj_function_id )` | `cast( dd07l.domvalue_l` |
+| `EnterpriseProjectBlockFunction` | `cast( dd07l.domvalue_l as entobj_function_id )` |
 | `DomainValueLow` | `dd07l.domvalue_l` |
 | `_EntProjBlkFunctionCodeText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_EntProjBlkFunctionCodeText` | `I_EntProjBlkFunctionCodeText` | [0..*] |
 
 ## Source Code
 

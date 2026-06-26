@@ -31,18 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QltyNotificationLongText.QualityNotification` | `_QltyNotificationLongText.QualityNotification` |
-| `key _QltyNotificationLongText.LongTextInternalNumber` | `_QltyNotificationLongText.LongTextInternalNumber` |
-| `key _QltyNotificationLongText.Language` | `_QltyNotificationLongText.Language` |
-| `_QltyNotificationLongText.LongTextID` | *Association* |
-| `_QltyNotificationLongText.QltyNotificationLongText` | *Association* |
-| `_QltyNotificationLongText.LongTextCreatedByUser` | *Association* |
-| `_QltyNotificationLongText.LongTextCreatedAt` | *Association* |
-| `_QltyNotificationLongText.LongTextLastChangedByUser` | *Association* |
-| `_QltyNotificationLongText.LongTextLastChangedAt` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_QltyNotificationLongText._QltyNotification : redirected to parent I_QltyNotificationTP` | *Association* |
-| `_QltyNotificationLongText._Language` | *Association* |
+| `QualityNotification` | `_QltyNotificationLongText.QualityNotification` |
+| `LongTextInternalNumber` | `_QltyNotificationLongText.LongTextInternalNumber` |
+| `Language` | `_QltyNotificationLongText.Language` |
+| `LongTextID` | `_QltyNotificationLongText.LongTextID` |
+| `QltyNotificationLongText` | `_QltyNotificationLongText.QltyNotificationLongText` |
+| `LongTextCreatedByUser` | `_QltyNotificationLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `_QltyNotificationLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `_QltyNotificationLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `_QltyNotificationLongText.LongTextLastChangedAt` |
+| `_Language` | *Association* |
 
 ## Associations
 

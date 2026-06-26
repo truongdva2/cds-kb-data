@@ -14,6 +14,7 @@ tags:
   - batch
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RptvMfgConfBatchCharc
 ---
 # I_RPTVMFGCONFGRBATCHCHARC
 
@@ -30,24 +31,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BatchStdVH', element: 'Batch' } } ]` | `name: 'I_BatchStdVH', element: 'Batch' } } ]` |
-| `key Batch.Batch` | `Batch.Batch` |
-| `key CharcVal.CharcInternalID` | `CharcVal.CharcInternalID` |
-| `ClfnCharcValuePositionNumber` | `CharcVal.CharcValuePositionNumber` |
-| `Batch.DefinitionOfBatchLevel` | `Batch.DefinitionOfBatchLevel` |
-| `Batch.BatchIsMarkedForDeletion` | `Batch.BatchIsMarkedForDeletion` |
-| `CharcVal.ClfnObjectTable` | `CharcVal.ClfnObjectTable` |
-| `klassenart preserving type)` | `cast(CharcVal.ClassType` |
-| `CharcVal.ClfnObjectType` | `CharcVal.ClfnObjectType` |
-| `CharcVal._Characteristic(P_KeyDate: $session.system_date).Characteristic` | `CharcVal._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
-| `CharcVal.CharcValue` | `CharcVal.CharcValue` |
+| `RepetitiveMfgConfirmation` | `Conf.RepetitiveMfgConfirmation` |
+| `Plant` | `cast(Batch.Plant as werks_bp preserving type)` |
+| `Material` | `cast(Batch.Material as matnr preserving type)` |
+| `Batch` | `Batch.Batch` |
+| `CharcInternalID` | `CharcVal.CharcInternalID` |
+| `ClfnCharcValuePositionNumber` | `-- representative key key CharcVal.CharcValuePositionNumber` |
+| `DefinitionOfBatchLevel` | `Batch.DefinitionOfBatchLevel` |
+| `BatchIsMarkedForDeletion` | `Batch.BatchIsMarkedForDeletion` |
+| `ClfnObjectTable` | `CharcVal.ClfnObjectTable` |
+| `ClassType` | `cast(CharcVal.ClassType as klassenart preserving type)` |
+| `ClfnObjectType` | `CharcVal.ClfnObjectType` |
+| `Characteristic` | `CharcVal._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
+| `CharcValue` | `CharcVal.CharcValue` |
 | `_RepetitiveMfgConfirmation` | *Association* |
 | `_Material` | *Association* |
 | `_BatchPlant` | *Association* |
 | `_Batch` | *Association* |
 | `_ClassType` | *Association* |
-| `CharcVal._Characteristic` | `CharcVal._Characteristic` |
-| `CharcVal._CharacteristicValue` | `CharcVal._CharacteristicValue` |
+| `_Characteristic` | *Association* |
+| `_CharacteristicValue` | *Association* |
 
 ## Associations
 

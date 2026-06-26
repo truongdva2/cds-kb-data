@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_hryid_segment )` | `cast ( _Source.hryid` |
-| `fincs_validityenddate preserving type )` | `cast ( _Source.hryvalto` |
-| `fincs_segment preserving type )` | `cast ( _Source.segment` |
-| `fincs_partnersegment preserving type )` | `cast ( _Source.psegment` |
-| `fincs_validitystartdate preserving type )` | `cast ( _Source.hryvalfrom` |
-| `fincs_segmentforelim preserving type )` | `cast ( _Source.segment_eliminated` |
+| `ConsolidationSegmentHierarchy` | `cast ( _Source.hryid as fincs_hryid_segment )` |
+| `ValidityEndDate` | `cast ( _Source.hryvalto as fincs_validityenddate preserving type )` |
+| `Segment` | `cast ( _Source.segment as fincs_segment preserving type )` |
+| `PartnerSegment` | `cast ( _Source.psegment as fincs_partnersegment preserving type )` |
+| `ValidityStartDate` | `cast ( _Source.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ConsolidationSegmentForElim` | `cast ( _Source.segment_eliminated as fincs_segmentforelim preserving type )` |
 
 ## Associations
 

@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:CountryHierarchyText
 ---
 # I_COUNTRYHIERARCHYTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_country preserving type )` | `cast(hrrp_dirt_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `CountryHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_country preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `CountryHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `charge_type_kk preserving type )` | `cast( left( domvalue_l,2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `charge_type_text_kk preserving type )` | `cast( ddtext` |
+| `CASubscriptionChargeType` | `cast( left( domvalue_l,2 ) as charge_type_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CASubscriptionChargeTypeText` | `cast( ddtext as charge_type_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

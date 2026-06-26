@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClass
 ---
 # I_SECURITYCLASS
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  SecurityClass` | `SecurityClass` |
+| `SecurityClass` | `SecurityClass` |
 | `FinancialInstrProductCategory` | `FinancialInstrProductCategory` |
 | `FinancialInstrumentProductType` | `FinancialInstrumentProductType` |
 | `SecurityClassName` | `SecurityClassName` |
@@ -110,6 +111,8 @@ tags:
 | `_SecurityClassQuotation` | `I_SecurityClassQuotation` | [0..1] |
 | `_SecurityClassTransferType` | `I_SecurityClassTransferType` | [0..1] |
 | `_SecurityClassGenClassfctn` | `I_SecurityClassGenClassfctn` | [0..1] |
+| `_FinancialInstrProductType` | `I_FinancialinstrProductType` | — |
+| `_FinancialInstrProdCat` | `I_FinancialInstrProdCat` | — |
 | `_SecurityClRgtyRptgHeader` | `I_SecurityClRgtyRptgHeader` | [1..1] |
 | `_SecurityClassConditionHeader` | `I_SecurityClassConditionHeader` | [1..1] |
 | `_SecurityClassPayInPriceRate` | `I_SecurityClassPayInPriceRate` | [0..*] |

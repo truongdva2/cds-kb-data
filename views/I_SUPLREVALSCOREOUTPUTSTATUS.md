@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierEvaluationScore
 ---
 # I_SUPLREVALSCOREOUTPUTSTATUS
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_ana_de_se_output_status )` | `cast ( dd07l.domvalue_l` |
+| `SuplrEvalScoreOutputStatus` | `cast ( dd07l.domvalue_l as mmpur_ana_de_se_output_status )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SuplrEvalScoreOutpStatusText` | [0..*] |
 
 ## Source Code
 

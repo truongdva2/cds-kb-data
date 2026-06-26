@@ -46,7 +46,7 @@ tags:
 | `MaintenanceRevision` | `afih.revnr` |
 | `MaintenancePlan` | `afih.warpl` |
 | `MaintenanceItem` | `afih.wapos` |
-| `eam_maint_activity_type preserving type )` | `cast( afih.ilart` |
+| `MaintenanceActivityType` | `cast( afih.ilart as eam_maint_activity_type preserving type )` |
 | `WorkCenterInternalID` | `afih.gewrk` |
 | `WorkCenterTypeCode` | `afih.pm_objty` |
 | `MaintOrderReferenceDate` | `afih.addat` |
@@ -56,8 +56,8 @@ tags:
 | `OperationSystemCondition` | `afih.anlzu` |
 | `ReferenceElement` | `afih.adpsp` |
 | `MaintenanceItemObjectList` | `afih.obknr` |
-| `objknr preserving type )` | `cast(afih.obknr` |
-| `pernr_d )` | `cast(afih.aning` |
+| `MaintenanceOrderObjectList` | `cast(afih.obknr as objknr preserving type )` |
+| `PersonnelNumber` | `cast(afih.aning as pernr_d )` |
 | `MaintOrdProcmtIntegScenario` | `afih.maintordprocmtintegscenario` |
 | `Material` | `afih.sermat` |
 | `MaintOrderRoutingNumber` | `afko.aufpl` |
@@ -68,9 +68,9 @@ tags:
 | `MaintenanceOrderDesc` | `aufk.ktext` |
 | `ControllingArea` | `aufk.kokrs` |
 | `CompanyCode` | `aufk.bukrs` |
-| `pph_kostl preserving type)` | `cast(aufk.kostv` |
+| `ResponsibleCostCenter` | `cast(aufk.kostv as pph_kostl preserving type)` |
 | `ProfitCenter` | `aufk.prctr` |
-| `pph_scope preserving type)` | `cast(aufk.scope` |
+| `ControllingObjectClass` | `cast(aufk.scope as pph_scope preserving type)` |
 | `TechnicalCompletionDate` | `aufk.idat2` |
 | `BasicSchedulingType` | `afko.terkz` |
 | `OrdIsNotSchedldAutomatically` | `afko.nauterm` |
@@ -82,42 +82,39 @@ tags:
 | `ScheduledBasicStartTime` | `afko.gsuzs` |
 | `ScheduledBasicEndDate` | `afko.gltrs` |
 | `ScheduledBasicEndTime` | `afko.gluzs` |
-| `MaintOrdPersonResponsible` | `afih.maintordpersonresponsible` |
+| `MaintOrdPersonResponsible` | `-- will require DPP protection (todo CE2008) afih.maintordpersonresponsible` |
 | `MaintenanceOrderInternalID` | `aufk.objnr` |
-| `billofoperations           preserving type)` | `cast(afko.plnnr` |
-| `billofoperationstype           preserving type)` | `cast(afko.plnty` |
-| `billofoperationsvariant    preserving type)` | `cast(afko.plnal` |
+| `TaskListGroup` | `cast(afko.plnnr as billofoperations preserving type)` |
+| `TaskListType` | `cast(afko.plnty as billofoperationstype preserving type)` |
+| `TaskListGroupCounter` | `cast(afko.plnal as billofoperationsvariant preserving type)` |
 | `MaintenancePlant` | `aufk.sowrk` |
 | `CreationDate` | `aufk.erdat` |
 | `CreationTime` | `aufk.erfzeit` |
 | `CreatedByUser` | `aufk.ernam` |
-| `cast( case when aufk.ltext = '' then ''` | `cast( case when aufk.ltext = '' then ''` |
-| `pph_aufltxt preserving type)` | `else 'X' end` |
+| `OrderHasLongText` | `cast(…)` |
 | `LastChangeByUser` | `aufk.aenam` |
 | `LastChangeDateTime` | `afih.changeddatetime` |
 | `AdditionalDeviceData` | `afih.deviceid` |
-| `vdm_wbs_element_internal preserving type )` | `cast( aufk.pspel` |
-| `ps_s4_proj_pspnr preserving type)` | `cast( afko.pronr` |
+| `WBSElementInternalID` | `cast( aufk.pspel as vdm_wbs_element_internal preserving type )` |
+| `ProjectInternalID` | `cast( afko.pronr as ps_s4_proj_pspnr preserving type)` |
 | `OrderProcessingGroup` | `aufk.abkrs` |
 | `SuperiorProjectNetwork` | `afko.aufnt` |
 | `MainWorkCenter` | `aufk.vaplz` |
 | `MainWorkCenterPlant` | `aufk.wawrk` |
 | `CostingSheet` | `aufk.kalsm` |
 | `Currency` | `aufk.waers` |
-| `vdm_lacd_date preserving type )` | `cast(afih.lacd_date` |
+| `LatestAcceptableCompletionDate` | `cast(afih.lacd_date as vdm_lacd_date preserving type )` |
 | `MaintOrdProcessPhaseCode` | `afih.maintordovrlprocphase` |
 | `MaintOrdProcessSubPhaseCode` | `afih.maintordovrlprocsubphase` |
 | `MaintOrderProcessingContext` | `afih.maintorderprocessingcontext` |
 | `ServiceDocumentType` | `afih.service_doc_type` |
 | `ServiceDocument` | `afih.service_doc_id` |
 | `ServiceDocumentItem` | `afih.service_doc_item_id` |
-| `/* Control Parameters*/` | `/* Control Parameters*/` |
 | `ConditionUsage` | `aufk.kvewe` |
 | `ConditionApplication` | `aufk.kappl` |
 | `MaintenanceOrderOverheadCode` | `aufk.zschl` |
 | `PlannedCostsCostingVariant` | `afko.klvarp` |
 | `ActualCostsCostingVariant` | `afko.klvari` |
-| `/* maintenance plan */` | `/* maintenance plan */` |
 | `MaintenanceCall` | `afih.abnum` |
 | `LeadingOrder` | `afih.laufn` |
 | `PrevLtstAccptblCompletionDate` | `afih.old_lacd_date` |

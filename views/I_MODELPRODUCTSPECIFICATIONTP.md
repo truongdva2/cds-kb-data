@@ -16,6 +16,7 @@ tags:
   - product
   - component:MM-PUR-MPS-2CL
   - lob:Sourcing & Procurement
+  - bo:ModelProductSpecification
 ---
 # I_MODELPRODUCTSPECIFICATIONTP
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ModelProductSpecificationUUID` | `ModelProductSpecificationUUID` |
+| `ModelProductSpecificationUUID` | `ModelProductSpecificationUUID` |
 | `ModelProductSpecification` | `ModelProductSpecification` |
 | `ModelProductSpecificationName` | `ModelProductSpecificationName` |
 | `ModProdSpecGroupingCode` | `ModProdSpecGroupingCode` |
@@ -44,8 +45,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ModProdSpecItemTP: redirected to composition child I_ModProdSpecItemTP` | *Association* |
 | `_ChangedByUser` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_ModProdSpecGroupingCode` | *Association* |

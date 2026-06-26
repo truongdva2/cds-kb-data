@@ -34,13 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
-| `key SalesOrder` | `SalesOrder` |
-| `key SalesOrderItem` | `SalesOrderItem` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `RecordCreationDate` | `RecordCreationDate` |
 | `CreatedByUser` | `CreatedByUser` |

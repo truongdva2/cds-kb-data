@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocationCategory
 ---
 # I_FUNCTIONALLOCATIONCATEGORY
 
@@ -32,7 +33,7 @@ tags:
 |---|---|
 | `FunctionalLocationCategory` | `t370f.fltyp` |
 | `TechObjInspectionLevelCode` | `t370f.idms_type` |
-| `functionallocationcategory_oid )` | `cast( t370f.fltyp` |
+| `FunctionalLocationCategoryOID` | `cast( t370f.fltyp as functionallocationcategory_oid )` |
 | `_Text` | *Association* |
 | `_InspectionLevelText` | *Association* |
 

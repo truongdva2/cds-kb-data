@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
-| `key BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
+| `BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
@@ -43,8 +43,6 @@ tags:
 | `ReferenceBusinessPartner` | `ReferenceBusinessPartner` |
 | `BusinessPartnerAddressUUID` | `BusinessPartnerAddressUUID` |
 | `PartnerIsSpecificForSDDocItem` | `PartnerIsSpecificForSDDocItem` |
-| `_Item                   : redirected to parent I_BillingDocumentRequestItemTP` | *Association* |
-| `_BillingDocumentRequest : redirected to I_BillingDocumentRequestTP` | *Association* |
 
 ## Associations
 

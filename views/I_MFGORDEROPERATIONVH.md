@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OrderOperationInternalID
 ---
 # I_MFGORDEROPERATIONVH
 
@@ -30,11 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MfgOrderInternalID` | `oper1.MfgOrderInternalID` |
+| `OrderOperationInternalID` | `oper1.OrderOperationInternalID` |
+| `ManufacturingOrder` | `oper1.ManufacturingOrder` |
+| `ManufacturingOrderSequence` | `oper1.ManufacturingOrderSequence` |
+| `ManufacturingOrderOperation` | `oper1.ManufacturingOrderOperation` |
+| `OperationIsSubOperation` | `cast(oper1.OperationIsSubOperation as vdm_subop_flag preserving type)` |
 | `MfgOrderOperationText` | `oper2.OperationText` |
-| `oper1.ManufacturingOrderCategory` | `oper1.ManufacturingOrderCategory` |
-| `oper1.ManufacturingOrderType` | `oper1.ManufacturingOrderType` |
-| `oper1.ProductionPlant` | `oper1.ProductionPlant` |
+| `ManufacturingOrderCategory` | `oper1.ManufacturingOrderCategory` |
+| `ManufacturingOrderType` | `oper1.ManufacturingOrderType` |
+| `ProductionPlant` | `oper1.ProductionPlant` |
 
 ## Associations
 

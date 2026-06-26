@@ -34,17 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderWithoutChargeText.SalesOrderWithoutCharge` | `SalesOrderWithoutChargeText.SalesOrderWithoutCharge` |
-| `key SalesOrderWithoutChargeText.Language` | `SalesOrderWithoutChargeText.Language` |
-| `key SalesOrderWithoutChargeText.LongTextID` | `SalesOrderWithoutChargeText.LongTextID` |
-| `SalesOrderWithoutChargeText.LongTextIDForEdit` | `SalesOrderWithoutChargeText.LongTextIDForEdit` |
-| `SalesOrderWithoutChargeText.LanguageForEdit` | `SalesOrderWithoutChargeText.LanguageForEdit` |
-| `SalesOrderWithoutChargeText.LongText` | `SalesOrderWithoutChargeText.LongText` |
-| `SalesOrderWithoutChargeText.SalesOrderWithoutChargeType` | `SalesOrderWithoutChargeText.SalesOrderWithoutChargeType` |
-| `SalesOrderWithoutChargeText.SalesOrganization` | `SalesOrderWithoutChargeText.SalesOrganization` |
-| `SalesOrderWithoutChargeText.DistributionChannel` | `SalesOrderWithoutChargeText.DistributionChannel` |
-| `SalesOrderWithoutChargeText.OrganizationDivision` | `SalesOrderWithoutChargeText.OrganizationDivision` |
-| `_SalesOrderWithoutCharge : redirected to parent I_SalesOrderWithoutChargeTP` | *Association* |
+| `SalesOrderWithoutCharge` | `SalesOrderWithoutChargeText.SalesOrderWithoutCharge` |
+| `Language` | `SalesOrderWithoutChargeText.Language` |
+| `LongTextID` | `SalesOrderWithoutChargeText.LongTextID` |
+| `LongTextIDForEdit` | `SalesOrderWithoutChargeText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesOrderWithoutChargeText.LanguageForEdit` |
+| `LongText` | `SalesOrderWithoutChargeText.LongText` |
+| `SalesOrderWithoutChargeType` | `SalesOrderWithoutChargeText.SalesOrderWithoutChargeType` |
+| `SalesOrganization` | `SalesOrderWithoutChargeText.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderWithoutChargeText.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderWithoutChargeText.OrganizationDivision` |
 
 ## Associations
 

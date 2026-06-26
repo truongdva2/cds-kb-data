@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_msg_type_text preserving type )` | `cast(_DomainT.DomainValueText` |
-| `_DomainT.DomainValue` | *Association* |
+| `Language` | `cast(_DomainT.Language as spras preserving type )` |
+| `CnsldtnSystemMessageType` | `cast(left(_DomainT.DomainValue, 1) as fincs_msg_type preserving type )` |
+| `CnsldtnSystemMessageTypeText` | `cast(_DomainT.DomainValueText as fincs_msg_type_text preserving type )` |
+| `DomainValue` | `_DomainT.DomainValue` |
 | `_SystemMessageType` | *Association* |
-| `_DomainT._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

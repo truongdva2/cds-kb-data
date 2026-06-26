@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PCLgsDcMnllyOvrwrtnAddrUUID` | `PCLgsDcMnllyOvrwrtnAddrUUID` |
+| `PCLgsDcMnllyOvrwrtnAddrUUID` | `PCLgsDcMnllyOvrwrtnAddrUUID` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -50,8 +50,6 @@ tags:
 | `AddressCorrespondenceLanguage` | `AddressCorrespondenceLanguage` |
 | `AddressCountry` | `AddressCountry` |
 | `SftyDataShtOutpReqManReqEmail` | `SftyDataShtOutpReqManReqEmail` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to parent I_ProdCmplncLogsDocumentTP` | *Association* |
 
 ## Associations
 

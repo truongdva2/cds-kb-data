@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JointVenturePartnerEquityShare
 ---
 # I_JNTVNTRPARTOWNREQUITYSHR
 
@@ -29,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVenturePartnerValueHelp'` | `name:    'I_JointVenturePartnerValueHelp'` |
-| `element: 'JointVenturePartner' }` | `element: 'JointVenturePartner' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `JointVenture` | `vname` |
+| `JntOpgAgrmtEquityGrp` | `egrup` |
 | `JointVenturePartner` | `partn` |
-| `_Customer.CustomerName       as JointVenturePartnerShortText` | *Association* |
-| `_Customer.BPCustomerName     as JointVenturePartner2ShortText` | *Association* |
-| `_Customer.BPCustomerFullName as JointVenturePartnerLongText` | *Association* |
+| `JointVenturePartnerShortText` | `_Customer.CustomerName` |
+| `JointVenturePartner2ShortText` | `_Customer.BPCustomerName` |
+| `JointVenturePartnerLongText` | `_Customer.BPCustomerFullName` |
 | `JntVntrEquityShare` | `eqshare` |
 | `JntVntrOwnrIsSuspended` | `ownsusp` |
 | `JntVntrOwnrSuspendedPerd` | `ownsusper` |
@@ -52,7 +53,7 @@ tags:
 | `JntVntrCarriedIntrstGrp` | `cigroup` |
 | `JntVntrNetProfitIntrstGrp` | `npigroup` |
 | `JntVntrOperatorAddressArea` | `regio` |
-| `_JntVntrEquityGrpText.JntOpgAgrmtEquityGrpText` | *Association* |
+| `JntOpgAgrmtEquityGrpText` | `_JntVntrEquityGrpText.JntOpgAgrmtEquityGrpText` |
 | `_CompanyCode` | *Association* |
 | `_Customer` | *Association* |
 | `_JntVntrValueHelp` | *Association* |

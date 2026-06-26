@@ -14,6 +14,7 @@ tags:
   - product
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupervisor
 ---
 # I_PRODUCTIONSUPERVISOR
 
@@ -30,9 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `txt_fevor preserving type)` | `cast(t024f.txt` |
-| `pph_prodprf preserving type)` | `cast(t024f.sfcpf` |
+| `Plant` | `t024f.werks` |
+| `ProductionSupervisor` | `cast(t024f.fevor as pph_fevor preserving type)` |
+| `ProductionSupervisorName` | `cast(t024f.txt as txt_fevor preserving type)` |
+| `ProductionSchedulingProfile` | `cast(t024f.sfcpf as pph_prodprf preserving type)` |
 | `_Plant` | *Association* |
 | `_ProductionSchedulingProfile` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:HeaderDelivIncompletionStatus
 ---
 # I_HDRDELIVINCOMPLETIONSTATUST
 
@@ -34,13 +35,16 @@ tags:
 |---|---|
 | `HeaderDelivIncompletionStatus` | `statu` |
 | `Language` | `spras` |
-| `hdrdelivincompletionstatusdesc preserving type)` | `cast(bezei` |
+| `HdrDelivIncompletionStatusDesc` | `cast(bezei as hdrdelivincompletionstatusdesc preserving type)` |
 | `_HeaderDelivIncompletionStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_HeaderDelivIncompletionStatus` | `I_HdrDelivIncompletionStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

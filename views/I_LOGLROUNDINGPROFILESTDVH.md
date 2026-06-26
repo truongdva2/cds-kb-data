@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key LogisticalRoundingProfile` | `LogisticalRoundingProfile` |
+| `Plant` | `Plant` |
+| `LogisticalRoundingProfile` | `LogisticalRoundingProfile` |
 | `_Text` | *Association* |
 
 ## Associations

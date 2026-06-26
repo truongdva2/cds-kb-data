@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMDocumentLinkedObjKey : lcm_uuid_c32;` | `LglCntntMDocumentLinkedObjKey : lcm_uuid_c32;` |
+| `LglCntntMDocumentLinkedObjKey` | `lcm_uuid_c32` |
 
 ## Associations
 

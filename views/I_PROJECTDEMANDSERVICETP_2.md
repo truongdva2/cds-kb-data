@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectDemandServiceUUID` | `ProjectDemandServiceUUID` |
+| `ProjectDemandServiceUUID` | `ProjectDemandServiceUUID` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
 | `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
@@ -48,8 +48,6 @@ tags:
 | `_MaterialGroupText` | *Association* |
 | `_Supplier` | *Association* |
 | `_PurchasingInfoRecord` | *Association* |
-| `_RootTP        : redirected to parent I_ProjectDemandTP_2` | *Association* |
-| `_ServiceSupply : redirected to composition child I_ProjDemandServiceSupplyTP_2` | *Association* |
 
 ## Associations
 

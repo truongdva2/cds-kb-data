@@ -33,13 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListMaintenanceOrder.MaintenanceOrder` | `_MaintObjListMaintenanceOrder.MaintenanceOrder` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListMaintenanceOrder._MaintenanceOrder` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `MaintenanceOrder` | `_MaintObjListMaintenanceOrder.MaintenanceOrder` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_MaintenanceOrder` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

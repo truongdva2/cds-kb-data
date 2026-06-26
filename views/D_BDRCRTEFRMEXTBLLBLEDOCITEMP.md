@@ -30,50 +30,55 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceDocumentItem                 : sdbil_odata_src_doc_item; //Mandatory` | `ReferenceDocumentItem                 : sdbil_odata_src_doc_item; //Mandatory` |
-| `SalesDocumentType                     : auart; //Mandatory` | `SalesDocumentType                     : auart; //Mandatory` |
-| `SalesDocumentItemCategory             : sales_doc_item_category; //Mandatory` | `SalesDocumentItemCategory             : sales_doc_item_category; //Mandatory` |
-| `ReferenceDocumentItemText             : billing_doc_request_item_text;` | `ReferenceDocumentItemText             : billing_doc_request_item_text;` |
-| `BillingDocumentRequestType            : sdbil_odata_bdr_type; //Mandatory` | `BillingDocumentRequestType            : sdbil_odata_bdr_type; //Mandatory` |
-| `SalesOrganization                     : vkorg; //Mandatory` | `SalesOrganization                     : vkorg; //Mandatory` |
-| `DistributionChannel                   : vtweg; //Mandatory` | `DistributionChannel                   : vtweg; //Mandatory` |
-| `Division                              : spart; //Mandatory` | `Division                              : spart; //Mandatory` |
-| `BillingDocumentDate                   : fkdat;` | `BillingDocumentDate                   : fkdat;` |
-| `SoldToParty                           : kunag; //Mandatory` | `SoldToParty                           : kunag; //Mandatory` |
-| `TransactionCurrency                   : waerk; //Mandatory` | `TransactionCurrency                   : waerk; //Mandatory` |
-| `TaxDepartureCountry                   : landtx;` | `TaxDepartureCountry                   : landtx;` |
-| `PurchaseOrderByCustomer               : bstkd;` | `PurchaseOrderByCustomer               : bstkd;` |
-| `CustomerPaymentTerms                  : dzterm;` | `CustomerPaymentTerms                  : dzterm;` |
-| `PaymentMethod                         : schzw_bseg;` | `PaymentMethod                         : schzw_bseg;` |
-| `Product                               : productnumber; //Mandatory` | `Product                               : productnumber; //Mandatory` |
-| `IncotermsClassification               : inco1;` | `IncotermsClassification               : inco1;` |
-| `IncotermsTransferLocation             : inco2;` | `IncotermsTransferLocation             : inco2;` |
-| `IncotermsVersion                      : incov;` | `IncotermsVersion                      : incov;` |
-| `IncotermsLocation1                    : inco2_l;` | `IncotermsLocation1                    : inco2_l;` |
-| `IncotermsLocation2                    : inco3_l;` | `IncotermsLocation2                    : inco3_l;` |
-| `MatlAccountAssignmentGroup            :  ktgrm;` | `MatlAccountAssignmentGroup            :  ktgrm;` |
-| `BillingQuantity                       : billing_quantity; //Mandatory` | `BillingQuantity                       : billing_quantity; //Mandatory` |
-| `BillingQuantityUnit                   : billing_quantity_unit; //Mandatory` | `BillingQuantityUnit                   : billing_quantity_unit; //Mandatory` |
-| `ServicesRenderedDate                  : fbuda;` | `ServicesRenderedDate                  : fbuda;` |
-| `PricingDate                           : prsdt;` | `PricingDate                           : prsdt;` |
-| `PriceDetnExchangeRate                 : kursk_not_converted;` | `PriceDetnExchangeRate                 : kursk_not_converted;` |
-| `TaxJurisdiction                       :  txjcd;` | `TaxJurisdiction                       :  txjcd;` |
-| `ProductTaxClassification1             : taxm1;` | `ProductTaxClassification1             : taxm1;` |
-| `Plant                                 : werks_d; //Mandatory` | `Plant                                 : werks_d; //Mandatory` |
-| `DepartureCountry                      : aland;` | `DepartureCountry                      : aland;` |
-| `ProfitCenter                          : prctr;` | `ProfitCenter                          : prctr;` |
-| `ContractAccount                       : corr_vkont_kk;` | `ContractAccount                       : corr_vkont_kk;` |
-| `CostCenter                            :  kostl;` | `CostCenter                            :  kostl;` |
-| `WBSElementInternalID                  : ps_s4_pspnr; // Db: ps_psp_pnr ?` | `WBSElementInternalID                  : ps_s4_pspnr; // Db: ps_psp_pnr ?` |
-| `SEPAMandate                           : sepa_mndid;` | `SEPAMandate                           : sepa_mndid;` |
-| `_PricingElement  : association [0..*] to D_BDRCrteFrmExtPrcgElmntP on 1=0;` | *Association* |
-| `_Text            : association [0..*] to D_BDRCrteFrmExtTextP on 1 = 0;` | *Association* |
-| `_Partner         : association [0..*] to D_BDRCrteFrmExtPartnerP on 1 = 0;` | *Association* |
-| `_DummyAssociation : association to parent D_BDRCrteFrmExtBllbleDocP; //standardized association` | *Association* |
+| `ReferenceDocumentItem` | `sdbil_odata_src_doc_item` |
+| `SalesDocumentType` | `auart` |
+| `SalesDocumentItemCategory` | `sales_doc_item_category` |
+| `ReferenceDocumentItemText` | `billing_doc_request_item_text` |
+| `BillingDocumentRequestType` | `sdbil_odata_bdr_type` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `BillingDocumentDate` | `fkdat` |
+| `SoldToParty` | `kunag` |
+| `TransactionCurrency` | `waerk` |
+| `TaxDepartureCountry` | `landtx` |
+| `PurchaseOrderByCustomer` | `bstkd` |
+| `CustomerPaymentTerms` | `dzterm` |
+| `PaymentMethod` | `schzw_bseg` |
+| `Product` | `productnumber` |
+| `IncotermsClassification` | `inco1` |
+| `IncotermsTransferLocation` | `inco2` |
+| `IncotermsVersion` | `incov` |
+| `IncotermsLocation1` | `inco2_l` |
+| `IncotermsLocation2` | `inco3_l` |
+| `MatlAccountAssignmentGroup` | `ktgrm` |
+| `BillingQuantity` | `billing_quantity` |
+| `BillingQuantityUnit` | `billing_quantity_unit` |
+| `ServicesRenderedDate` | `fbuda` |
+| `PricingDate` | `prsdt` |
+| `PriceDetnExchangeRate` | `kursk_not_converted` |
+| `TaxJurisdiction` | `txjcd` |
+| `ProductTaxClassification1` | `taxm1` |
+| `Plant` | `werks_d` |
+| `DepartureCountry` | `aland` |
+| `ProfitCenter` | `prctr` |
+| `ContractAccount` | `corr_vkont_kk` |
+| `CostCenter` | `kostl` |
+| `WBSElementInternalID` | `ps_s4_pspnr` |
+| `SEPAMandate` | `sepa_mndid` |
+| `_PricingElement` | *Association* |
+| `_Text` | *Association* |
+| `_Partner` | *Association* |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PricingElement` | `D_BDRCrteFrmExtPrcgElmntP` | [0..*] |
+| `_Text` | `D_BDRCrteFrmExtTextP` | [0..*] |
+| `_Partner` | `D_BDRCrteFrmExtPartnerP` | [0..*] |
+| `_DummyAssociation` | `D_BDRCrteFrmExtBllbleDocP` | — |
 
 ## Source Code
 

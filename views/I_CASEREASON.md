@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:DisputeCaseReason
 ---
 # I_CASEREASON
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgcase_type preserving type )` | `cast( case_type` |
-| `scmg_reason_code preserving type )` | `cast( reason_code` |
+| `CaseType` | `cast( case_type as scmgcase_type preserving type )` |
+| `CaseReason` | `cast( reason_code as scmg_reason_code preserving type )` |
 | `_CaseType` | *Association* |
 | `_Text` | *Association* |
 

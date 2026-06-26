@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdWhseProcessingStatus
 ---
 # I_TRANSPORDWHSEPROCGSTATUS
 
@@ -29,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_wh_procg_status preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdWhseProcessingStatus` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_wh_procg_status preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdWhseProcgStsText` | [0..*] |
 
 ## Source Code
 

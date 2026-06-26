@@ -29,10 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH', element   : 'Currency' } }]` | `name: 'I_CurrencyStdVH', element   : 'Currency' } }]` |
-| `TranspRateValidityCurrency : /scmtms/currency;` | `TranspRateValidityCurrency : /scmtms/currency;` |
-| `TranspRateValidityPctUnit  : msehi;` | `TranspRateValidityPctUnit  : msehi;` |
-| `TranspRateSignIncrDecr     : /scmtms/sign;` | `TranspRateSignIncrDecr     : /scmtms/sign;` |
+| `TranspRateIncrDecrInPct` | `/scmtms/percentage_amt` |
+| `TranspRateAmountInRateCrcy` | `/scmtms/amount` |
+| `TranspRateValidityCurrency` | `/scmtms/currency` |
+| `TranspRateValidityPctUnit` | `msehi` |
+| `TranspRateSignIncrDecr` | `/scmtms/sign` |
 
 ## Associations
 

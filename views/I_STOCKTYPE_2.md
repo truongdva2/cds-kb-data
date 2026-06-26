@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:InventoryUsabilityCode
 ---
 # I_STOCKTYPE_2
 

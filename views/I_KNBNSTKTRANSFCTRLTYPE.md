@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KnbnCtrlCycStkTransfCtrlType
 ---
 # I_KNBNSTKTRANSFCTRLTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pksau)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KnbnCtrlCycStkTransfCtrlType` | `cast(substring(domvalue_l, 1, 1) as pksau)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

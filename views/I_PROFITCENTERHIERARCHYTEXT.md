@@ -34,11 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingArea'` | `name:    'I_ControllingArea'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
 | `ControllingArea` | `hrrp_dirt_n.hrycls` |
-| `fis_hryid_prctr preserving type )` | `cast(hrrp_dirt_n.hryid` |
+| `ProfitCenterHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_prctr preserving type )` |
 | `ValidityEndDate` | `hrrp_dirt_n.hryvalto` |
 | `Language` | `hrrp_dirt_n.spras` |
 | `ValidityStartDate` | `hrrp_dirt_n.hryvalfrom` |

@@ -30,25 +30,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key who.Warehouse` | `who.Warehouse` |
-| `key who.WarehouseOrder` | `who.WarehouseOrder` |
-| `who.WarehouseOrderStatus` | `who.WarehouseOrderStatus` |
-| `who.ActivityArea` | `who.ActivityArea` |
-| `who.StorageType` | `who.StorageType` |
-| `who.WarehouseOrderHasPhysInvtryDoc` | `who.WarehouseOrderHasPhysInvtryDoc` |
-| `who.WarehouseOrderHasWhseTask` | `who.WarehouseOrderHasWhseTask` |
-| `/scwm/de_procty preserving type)` | `cast ( '    '` |
-| `abap.numc( 1 ))` | `cast ( ' '` |
-| `/scwm/lvs_trart preserving type)` | `cast ( ' '` |
-| `/scwm/de_workstation preserving type)` | `cast ( '    '` |
-| `/scwm/de_exccode preserving type)` | `cast ( '    '` |
-| `/scwm/de_owner preserving type)` | `cast ( '          '` |
-| `/scwm/de_entitled preserving type)` | `cast ( '          '` |
-| `/scwm/flghuto preserving type)` | `cast ( ' '` |
-| `/scwm/de_actty preserving type)` | `cast ( '    '` |
-| `/scwm/de_tostat preserving type)` | `cast ( ' '` |
-| `/scwm/de_movehu preserving type)` | `cast ( ' '` |
-| `/scwm/de_wavecat preserving type)` | `cast ( '  '` |
+| `Warehouse` | `who.Warehouse` |
+| `WarehouseOrder` | `who.WarehouseOrder` |
+| `WarehouseOrderStatus` | `who.WarehouseOrderStatus` |
+| `ActivityArea` | `who.ActivityArea` |
+| `StorageType` | `who.StorageType` |
+| `WarehouseOrderHasPhysInvtryDoc` | `who.WarehouseOrderHasPhysInvtryDoc` |
+| `WarehouseOrderHasWhseTask` | `who.WarehouseOrderHasWhseTask` |
+| `WarehouseProcessType` | `cast ( ' ' as /scwm/de_procty preserving type)` |
+| `WarehouseTaskEvent` | `cast ( ' ' as abap.numc( 1 ))` |
+| `WarehouseProcessCategory` | `cast ( ' ' as /scwm/lvs_trart preserving type)` |
+| `WorkCenter` | `cast ( ' ' as /scwm/de_workstation preserving type)` |
+| `WarehouseTaskExceptionCode` | `cast ( ' ' as /scwm/de_exccode preserving type)` |
+| `StockOwner` | `cast ( ' ' as /scwm/de_owner preserving type)` |
+| `EntitledToDisposeParty` | `cast ( ' ' as /scwm/de_entitled preserving type)` |
+| `IsHandlingUnitWarehouseTask` | `cast ( ' ' as /scwm/flghuto preserving type)` |
+| `WarehouseActivityType` | `cast ( ' ' as /scwm/de_actty preserving type)` |
+| `WarehouseTaskStatus` | `cast ( ' ' as /scwm/de_tostat preserving type)` |
+| `HomogeneousFullPalletPick` | `cast ( ' ' as /scwm/de_movehu preserving type)` |
+| `EWMWaveCategory` | `cast ( ' ' as /scwm/de_wavecat preserving type)` |
 
 ## Associations
 

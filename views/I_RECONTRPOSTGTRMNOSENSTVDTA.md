@@ -32,31 +32,31 @@ tags:
 | `InternalRealEstateNumber` | `intreno` |
 | `RETermType` | `termtype` |
 | `RETermNumber` | `termno` |
-| `rebdvdmvalidfrom preserving type)` | `cast(validfrom` |
-| `rebdvdmvalidto preserving type)` | `cast(validto` |
-| `farp_schzw_bseg)` | `cast(pymtmeth` |
-| `retmvdmpymtmethcrmo preserving type)` | `cast(pymtmethcrmo` |
-| `farp_dzlspr)` | `cast(pymtblock` |
+| `ValidityStartDate` | `cast(validfrom as rebdvdmvalidfrom preserving type)` |
+| `ValidityEndDate` | `cast(validto as rebdvdmvalidto preserving type)` |
+| `PaymentMethod` | `cast(pymtmeth as farp_schzw_bseg)` |
+| `REPaymentMethodCreditMemo` | `cast(pymtmethcrmo as retmvdmpymtmethcrmo preserving type)` |
+| `PaymentBlockingReason` | `cast(pymtblock as farp_dzlspr)` |
 | `PaymentTerms` | `pymtterm` |
 | `RENoteToPayeeText` | `notetopayee` |
-| `farp_maber)` | `cast(dunnarea` |
-| `farp_mschl)` | `cast(dunnkey` |
-| `farp_mansp)` | `cast(dunnblock` |
-| `retmvdmaccdetkey preserving type)` | `cast(accdetkey` |
+| `DunningArea` | `cast(dunnarea as farp_maber)` |
+| `DunningKey` | `cast(dunnkey as farp_mschl)` |
+| `DunningBlockingReason` | `cast(dunnblock as farp_mansp)` |
+| `REAcctDeterminationKey` | `cast(accdetkey as retmvdmaccdetkey preserving type)` |
 | `RETaxType` | `taxtype` |
-| `taxgrp)` | `cast(taxgroup` |
+| `TaxGroup` | `cast(taxgroup as taxgrp)` |
 | `REIsConditionGrossAmount` | `isgross` |
-| `retmvdmtaxcountry preserving type)` | `cast(taxcountry` |
+| `TaxCountry` | `cast(taxcountry as retmvdmtaxcountry preserving type)` |
 | `BusinessPartner` | `partner` |
-| `retmvdmpartnerobjnr preserving type)` | `cast(partnerobjnr` |
+| `REAccountingObject` | `cast(partnerobjnr as retmvdmpartnerobjnr preserving type)` |
 | `TaxJurisdiction` | `txjcd` |
 | `REIsConditionSplit` | `iscdsplit` |
-| `retmvdmcactrule preserving type)` | `cast(ctrule` |
+| `RECurrencyTranslationRule` | `cast(ctrule as retmvdmcactrule preserving type)` |
 | `REIsPartnerBlocked` | `ispartnerblocked` |
-| `_REKeyAssgmt.RealEstateObjectType                          as RealEstateObjectType` | *Association* |
-| `_REKeyAssgmt.CompanyCode                                   as CompanyCode` | *Association* |
-| `_REKeyAssgmt._CompanyCode.Country                          as Country` | *Association* |
-| `_REKeyAssgmt._CompanyCode._Country.TaxCalculationProcedure as TaxCalculationProcedure` | *Association* |
+| `RealEstateObjectType` | `_REKeyAssgmt.RealEstateObjectType` |
+| `CompanyCode` | `_REKeyAssgmt.CompanyCode` |
+| `Country` | `_REKeyAssgmt._CompanyCode.Country` |
+| `TaxCalculationProcedure` | `_REKeyAssgmt._CompanyCode._Country.TaxCalculationProcedure` |
 | `_REContract` | *Association* |
 | `_REKeyAssgmt` | *Association* |
 | `_RETermType` | *Association* |
@@ -78,9 +78,9 @@ tags:
 | `_TaxJurisdiction` | *Association* |
 | `_RECurrencyTranslationRule` | *Association* |
 | `_REAccountingObject` | *Association* |
-| `_REKeyAssgmt._CompanyCode` | *Association* |
-| `_REKeyAssgmt._CompanyCode._Country as _CompanyCodeCountry` | *Association* |
-| `_REKeyAssgmt._REObjectType` | *Association* |
+| `_CompanyCode` | *Association* |
+| `_CompanyCodeCountry` | *Association* |
+| `_REObjectType` | *Association* |
 | `_TaxJurisdictionCalcProcedure` | *Association* |
 
 ## Associations

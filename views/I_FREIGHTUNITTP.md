@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderUUID` | `TransportationOrderUUID` |
+| `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrder` | `TransportationOrder` |
 | `TransportationOrderType` | `TransportationOrderType` |
 | `TransportationOrderCategory` | `TransportationOrderCategory` |
@@ -58,25 +57,15 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* The (generic) access control definition of R_TransportationOrderTP uses the (generic) authorization object` | `/* The (generic) access control definition of R_TransportationOrderTP uses the (generic) authorization object` |
-| `* T_TOR_PUR which contains the authorization fields TranspPurgOrgExtID and TranspPurgGroupExtID.` | `* T_TOR_PUR which contains the authorization fields TranspPurgOrgExtID and TranspPurgGroupExtID.` |
-| `* The projection views shall inherit the access control definition of the underlying transactional processing` | `* The projection views shall inherit the access control definition of the underlying transactional processing` |
-| `optional which are part of a path expression` | `* view and it is (currently) not possible to declare elements` |
-| `such` | `* such` |
-| `* This requires, that the elements TranspPurgOrgExtID and TranspPurgGroupExtID must be (technically) defined on` | `* This requires, that the elements TranspPurgOrgExtID and TranspPurgGroupExtID must be (technically) defined on` |
-| `* I_FreightUnitTP and at the same time hidden from the consumer` | `* I_FreightUnitTP and at the same time hidden from the consumer` |
-| `*/` | `*/` |
 | `TranspPurgOrgExtID` | `TranspPurgOrgExtID` |
 | `TranspPurgGroupExtID` | `TranspPurgGroupExtID` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightUnitBusinessPartner   : redirected to composition child I_FreightUnitBusinessPartnerTP` | `FreightUnit._TransportationOrderBP` |
-| `_FreightUnitDocumentReference : redirected to composition child I_FreightUnitDocRefTP` | `FreightUnit._TranspOrdDocumentReference` |
-| `_FreightUnitItem              : redirected to composition child I_FreightUnitItemTP` | `FreightUnit._TransportationOrderItem` |
-| `_FreightUnitStop              : redirected to composition child I_FreightUnitStopTP` | `FreightUnit._TransportationOrderStop` |
-| `_FrtUnitMainBPAddrDfltRprstn  : redirected to composition child I_FrtUntMainBPAddrDfltRprstnTP` | `FreightUnit._TrOrdMainBPAddrDfltRprstn` |
-| `/* Association redirections */` | `/* Association redirections */` |
-| `_ShipperAddrDfltRprstn        : redirected to I_FrtUntMainBPAddrDfltRprstnTP` | `FreightUnit._ShipperAddrDfltRprstn` |
-| `_ConsigneeAddrDfltRprstn      : redirected to I_FrtUntMainBPAddrDfltRprstnTP` | `FreightUnit._ConsigneeAddrDfltRprstn` |
+| `_FreightUnitBusinessPartner` | *Association* |
+| `_FreightUnitDocumentReference` | *Association* |
+| `_FreightUnitItem` | *Association* |
+| `_FreightUnitStop` | *Association* |
+| `_FrtUnitMainBPAddrDfltRprstn` | *Association* |
+| `_ShipperAddrDfltRprstn` | *Association* |
+| `_ConsigneeAddrDfltRprstn` | *Association* |
 
 ## Associations
 

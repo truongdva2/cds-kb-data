@@ -29,24 +29,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Task.WorkflowTaskInternalID` | `Task.WorkflowTaskInternalID` |
-| `Header.ChangeRecordUUID` | `Header.ChangeRecordUUID` |
-| `_Text[1:Language = $session.system_language].ChgRecordDescriptionText as ChgRecordDescriptionText` | *Association* |
-| `Header.ChangeRecord` | `Header.ChangeRecord` |
-| `Header.ChangeRecordType` | `Header.ChangeRecordType` |
-| `Header.ParentChangeRecordUUID` | `Header.ParentChangeRecordUUID` |
-| `Header.RootChangeRecordUUID` | `Header.RootChangeRecordUUID` |
-| `/iam/priority )` | `cast (''` |
-| `Header.ChangeRecordStatus` | `Header.ChangeRecordStatus` |
-| `Header.ChangeNumber` | `Header.ChangeNumber` |
-| `Header.ChangeRecordCategory` | `Header.ChangeRecordCategory` |
-| `Header.ChgRecordApplication` | `Header.ChgRecordApplication` |
-| `Header.CreatedByUser` | `Header.CreatedByUser` |
-| `Header.CreationDateTime` | `Header.CreationDateTime` |
-| `Header.LastChangedByUser` | `Header.LastChangedByUser` |
-| `Header.LastChangeDateTime` | `Header.LastChangeDateTime` |
-| `Header.ChangeRecordLifecycleStatus` | `Header.ChangeRecordLifecycleStatus` |
-| `Header.ChgRecdAuthGroup` | `Header.ChgRecdAuthGroup` |
+| `WorkflowTaskInternalID` | `Task.WorkflowTaskInternalID` |
+| `ChangeRecordUUID` | `Header.ChangeRecordUUID` |
+| `ChgRecordDescriptionText` | `_Text[1:Language = $session.system_language].ChgRecordDescriptionText` |
+| `ChangeRecord` | `Header.ChangeRecord` |
+| `ChangeRecordType` | `Header.ChangeRecordType` |
+| `ParentChangeRecordUUID` | `Header.ParentChangeRecordUUID` |
+| `RootChangeRecordUUID` | `Header.RootChangeRecordUUID` |
+| `ChangeRecordPriority` | `cast ('' as /iam/priority )` |
+| `ChangeRecordStatus` | `Header.ChangeRecordStatus` |
+| `ChangeNumber` | `Header.ChangeNumber` |
+| `ChangeRecordCategory` | `Header.ChangeRecordCategory` |
+| `ChgRecordApplication` | `Header.ChgRecordApplication` |
+| `CreatedByUser` | `Header.CreatedByUser` |
+| `CreationDateTime` | `Header.CreationDateTime` |
+| `LastChangedByUser` | `Header.LastChangedByUser` |
+| `LastChangeDateTime` | `Header.LastChangeDateTime` |
+| `ChangeRecordLifecycleStatus` | `Header.ChangeRecordLifecycleStatus` |
+| `ChgRecdAuthGroup` | `Header.ChgRecdAuthGroup` |
 | `_TaskRecipient` | *Association* |
 | `_Text` | *Association* |
 

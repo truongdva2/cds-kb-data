@@ -31,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtApplSts` | `SettlmtApplSts` |
-| `/* Associations */` | `/* Associations */` |
+| `SettlmtApplSts` | `SettlmtApplSts` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OperationControlProfile
 ---
 # I_OPERATIONCONTROLPROFILE
 
@@ -29,35 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_steus preserving type)` | `cast(prof.steus` |
-| `pph_lief preserving type)` | `cast(prof.lief` |
-| `cast( case prof.lief` | `cast( case prof.lief` |
-| `when '+' then 'X'` | `when '+' then 'X'` |
-| `when 'X' then 'X'` | `when 'X' then 'X'` |
-| `else ''` | `else ''` |
-| `flg_frd preserving type)` | `end` |
-| `cast( case prof.lief` | `cast( case prof.lief` |
-| `when ' ' then 'X'` | `when ' ' then 'X'` |
-| `when 'X' then 'X'` | `when 'X' then 'X'` |
-| `else ''` | `else ''` |
-| `ps_workact preserving type)` | `end` |
-| `cast( case prof.ruek` | `cast( case prof.ruek` |
-| `when '1' then 'X'` | `when '1' then 'X'` |
-| `else ''` | `else ''` |
-| `flg_mst preserving type)` | `end` |
-| `cast( case prof.ruek` | `cast( case prof.ruek` |
-| `when '2' then 'X'` | `when '2' then 'X'` |
-| `else ''` | `else ''` |
-| `pph_confisrequired preserving type)` | `end` |
-| `cast( case prof.ruek` | `cast( case prof.ruek` |
-| `when '3' then 'X'` | `when '3' then 'X'` |
-| `else ''` | `else ''` |
-| `pph_confisnotpossible preserving type)` | `end` |
-| `cast( case prof.ruek` | `cast( case prof.ruek` |
-| `when '' then 'X'` | `when '' then 'X'` |
-| `else ''` | `else ''` |
-| `pph_confisoptional preserving type)` | `end` |
+| `OperationControlProfile` | `cast(prof.steus as pph_steus preserving type)` |
+| `OperationExternalProcessing` | `cast(prof.lief as pph_lief preserving type)` |
+| `OperationIsProcessedExternally` | `cast(…)` |
+| `OperationIsProcessedInternally` | `cast(…)` |
+| `OperationIsMilestone` | `cast( case prof.ruek when '1' then 'X' else '' end as flg_mst preserving type)` |
+| `ConfirmationIsRequired` | `cast(…)` |
+| `ConfirmationIsNotPossible` | `cast(…)` |
+| `ConfirmationIsOptional` | `cast(…)` |
 | `OperationIsScheduled` | `prof.term` |
 | `OperationIsPrinted` | `prof.vrgd` |
 | `OperationIsIncludedInCosting` | `prof.kalkz` |

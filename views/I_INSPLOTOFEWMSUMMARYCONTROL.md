@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:InspLotOfEWMSummaryControl
 ---
 # I_INSPLOTOFEWMSUMMARYCONTROL
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qlot_control_origin_17 preserving type )` | `cast (substring ( domvalue_l, 1, 1)` |
+| `InspLotOfEWMSummaryControl` | `cast (substring ( domvalue_l, 1, 1) as qlot_control_origin_17 preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

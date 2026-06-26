@@ -30,7 +30,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED}` | `status: #DEPRECATED}` |
+| `CompanyCode` | `faat_md_tdd.comp_code` |
+| `MasterFixedAsset` | `faat_md_tdd.asset_no` |
+| `FixedAsset` | `faat_md_tdd.asset_subno` |
+| `ValidityEndDate` | `faat_md_tdd.valid_to_date` |
+| `ControllingArea` | `tka02.kokrs` |
+| `ValidityStartDate` | `faat_md_tdd.valid_from_date` |
+| `VehicleLicensePlateNumber` | `faat_md_tdd.car_license_plate` |
+| `CostCenter` | `faat_md_tdd.cost_center` |
+| `Plant` | `faat_md_tdd.plant` |
+| `BusinessArea` | `faat_md_tdd.business_area` |
+| `AssetLocation` | `faat_md_tdd.location` |
+| `Room` | `faat_md_tdd.room` |
+| `CostCtrActivityType` | `faat_md_tdd.activity_type` |
+| `InternalOrder` | `faat_md_tdd.internal_order` |
+| `IsShutDown` | `cast( '' as xstil )` |
+| `ResponsibleCostCenter` | `faat_md_tdd.responsible_cost_center` |
+| `PersonnelNumber` | `faat_md_tdd.personnel_number` |
+| `MaintenanceOrder` | `cast( '' as iaufn )` |
+| `TaxJurisdiction` | `faat_md_tdd.tax_jurisdiction` |
+| `Fund` | `faat_md_tdd.fund` |
+| `WBSElementInternalID_2` | `faat_md_tdd.wbs_element` |
+| `WBSElementInternalID` | `cast( faat_md_tdd.wbs_element as am_ipsnr preserving type )` |
+| `REInternalFinNumber` | `cast( faat_md_tdd.real_estate_key as recaimkeyfi preserving type )` |
+| `RealEstateObject` | `cast(…)` |
+| `ProfitCenter` | `faat_md_tdd.profit_center` |
+| `Segment` | `faat_md_tdd.segment` |
+| `FunctionalArea` | `faat_md_tdd.functional_area` |
+| `ShiftOperationFactor` | `cast( '0' as msfak )` |
+| `GrantID` | `faat_md_tdd.grant_id` |
+| `BudgetPeriod` | `faat_md_tdd.budget_period` |
+| `FundsCenter` | `faat_md_tdd.funds_center` |
+| `FunctionalLocation` | `cast( '' as tplnr )` |
+| `BusinessPlace` | `faat_md_tdd.business_place` |
+| `AssetAuthorizationContext` | `cast( 'NEW' as faa_authcntxt )` |
+| `ReferenceDocumentType` | `faat_md_tdd.awtyp` |
+| `LogicalSystem` | `faat_md_tdd.awsys` |
+| `ReferenceDocumentContext` | `faat_md_tdd.aworg` |
+| `ReferenceDocument` | `faat_md_tdd.awref` |
+| `_FixedAsset` | *Association* |
+| `_CompanyCode` | *Association* |
+| `_MasterFixedAsset` | *Association* |
+| `_CostCenter` | *Association* |
+| `_ResponsibleCostCenter` | *Association* |
+| `_CostCenterActivityType` | *Association* |
+| `_Plant` | *Association* |
+| `_BusinessArea` | *Association* |
+| `_WBSElement` | *Association* |
+| `_InternalOrder` | *Association* |
 | `_MaintenanceOrder` | *Association* |
 | `_ProfitCenter` | *Association* |
 | `_Segment` | *Association* |

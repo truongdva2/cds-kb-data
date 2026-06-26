@@ -29,14 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(30) )` | `cast( enum.simpleType` |
-| `abap.char(30) )` | `cast( enum.enumIdentifier` |
-| `abap.char(4) )` | `cast( enum.enumValue` |
+| `simpleType` | `cast( enum.simpleType as abap.char(30) )` |
+| `enumIdentifier` | `cast( enum.enumIdentifier as abap.char(30) )` |
+| `enumValue` | `cast( enum.enumValue as abap.char(4) )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `ddcds_type_enumval_char4_t_scp` | [0..*] |
 
 ## Source Code
 

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:Capacity
 ---
 # I_CAPACITYBYSEMANTICKEYSTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Capacity` | `Capacity` |
+| `Plant` | `Plant` |
+| `Capacity` | `Capacity` |
 | `_Text` | *Association* |
 | `CapacityInternalID` | `CapacityInternalID` |
 | `_Plant` | *Association* |

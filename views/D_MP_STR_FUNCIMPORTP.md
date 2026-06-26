@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MeasuringPointCategory : imrc_mptyp;` | `MeasuringPointCategory : imrc_mptyp;` |
+| `MeasuringPointCategory` | `imrc_mptyp` |
 
 ## Associations
 

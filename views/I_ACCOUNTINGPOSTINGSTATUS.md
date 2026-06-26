@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocAcctgPostingStatus
 ---
 # I_ACCOUNTINGPOSTINGSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `buchk )` | `cast( dd07l.domvalue_l` |
+| `AccountingPostingStatus` | `cast( dd07l.domvalue_l as buchk )` |
 | `_Text` | *Association* |
 
 ## Associations

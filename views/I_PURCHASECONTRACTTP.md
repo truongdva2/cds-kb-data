@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-OA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContract
 ---
 # I_PURCHASECONTRACTTP
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
+| `PurchaseContract` | `PurchaseContract` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -79,10 +80,6 @@ tags:
 | `SupplierAddressID` | `SupplierAddressID` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `PurgHasCatalogRelevantItems` | `PurgHasCatalogRelevantItems` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContractItem : redirected to composition child I_PurchaseContractItemTP` | *Association* |
-| `_PurCtrPartners       : redirected to composition child I_PurContrPartnersTP` | *Association* |
-| `_PurCtrNotes          : redirected to composition child I_PurContrHeaderNotesTP` | *Association* |
 | `_ReleaseCode` | *Association* |
 
 ## Associations

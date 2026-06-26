@@ -30,15 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_questiontypetext preserving type )` | `cast(_Source.DomainValueText` |
-| `_Source.DomainValue` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast(_Source.Language as spras preserving type )` |
+| `ConsolidationQuestionType` | `cast(left(_Source.DomainValue, 1) as fincs_questiontype preserving type )` |
+| `ConsolidationQuestionTypeText` | `cast(_Source.DomainValueText as fincs_questiontypetext preserving type )` |
+| `DomainValue` | `_Source.DomainValue` |
 | `_QuestionType` | *Association* |
-| `_Source._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

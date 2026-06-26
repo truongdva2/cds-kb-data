@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PCLgsDcItmPackgInstructionUUID` | `PCLgsDcItmPackgInstructionUUID` |
+| `PCLgsDcItmPackgInstructionUUID` | `PCLgsDcItmPackgInstructionUUID` |
 | `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
 | `ProdCmplncLogsDocumentItem` | `ProdCmplncLogsDocumentItem` |
 | `PackingInstructionSystemUUID` | `PackingInstructionSystemUUID` |
@@ -41,8 +41,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeUTCDateTime` | `LastChangeUTCDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_Item     : redirected to parent I_ProdCmplncLogsDocumentItemTP` | *Association* |
-| `_Document : redirected to I_ProdCmplncLogsDocumentTP` | *Association* |
 
 ## Associations
 

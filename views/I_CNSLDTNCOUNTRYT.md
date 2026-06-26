@@ -31,11 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CountryName' }` | `status: #DEPRECATED, successor: 'CountryName' }` |
-| `fincs_description_text_50 preserving type )` | `cast( _Source.CountryName` |
-| `fincs_countryname preserving type )` | `cast( _Source.CountryName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `Country` | `cast( _Source.Country as fincs_country preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.CountryName as fincs_description_text_50 preserving type )` |
+| `CountryName` | `cast( _Source.CountryName as fincs_countryname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Country` | *Association* |
 

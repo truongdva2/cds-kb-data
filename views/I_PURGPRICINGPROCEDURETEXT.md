@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingProcedure
 ---
 # I_PURGPRICINGPROCEDURETEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionUsage` | `ConditionUsage` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PricingProcedure` | `PricingProcedure` |
+| `Language` | `Language` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PricingProcedure` | `PricingProcedure` |
 | `PricingProcedureName` | `PricingProcedureName` |
 | `_ConditionUsage` | *Association* |
 | `_ConditionApplication` | *Association* |

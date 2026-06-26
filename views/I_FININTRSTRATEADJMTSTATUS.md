@@ -15,6 +15,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinInterestRateAdjmtStatus
 ---
 # I_FININTRSTRATEADJMTSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_ira_registration_state )` | `cast( dd07l.domvalue_l` |
+| `FinInterestRateAdjmtStatus` | `cast( dd07l.domvalue_l as tb_ira_registration_state )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

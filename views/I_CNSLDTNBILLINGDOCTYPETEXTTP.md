@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.BillingDocumentType` | `_Text.BillingDocumentType` |
-| `_Text.BillingDocumentTypeName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_BillingDocumentType as _BillingDocumentType : redirected to parent I_CnsldtnBillingDocumentTypeTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `BillingDocumentType` | `_Text.BillingDocumentType` |
+| `BillingDocumentTypeName` | `_Text.BillingDocumentTypeName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_BillingDocumentType` | *Association* |
 
 ## Associations
 

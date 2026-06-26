@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MrchdsCategoryHierarchyNode
 ---
 # I_MRCHDSCATCMPLTHIERARCHYNODE
 
@@ -32,8 +33,8 @@ tags:
 |---|---|
 | `MrchdsCatCmpltHierNode` | `Class.class` |
 | `ParentMrchdsCatCmpltHierNode` | `ParentClass.class` |
-| `rfm_mrchdscategory ) else '' end` | `case when Class.wwskz = '1' then cast ( Class.class` |
-| `rfm_mrchdcathiernode preserving type ) else '' end` | `case when Class.wwskz = '0' then cast ( Class.class` |
+| `MerchandiseCategory` | `case…end` |
+| `MrchdsCategoryHierarchyNode` | `case…end` |
 | `_MerchandiseCategory` | *Association* |
 | `_MrchdsCategoryHierarchyNode` | *Association* |
 

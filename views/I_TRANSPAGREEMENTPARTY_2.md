@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_bp_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(parent_key` |
+| `TranspAgrmtBusinessPartnerUUID` | `cast(db_key as /scmtms/vdm_fag_bp_uuid preserving type)` |
+| `TransportationAgreementUUID` | `cast(parent_key as /scmtms/transpagrmt_uuid preserving type)` |
 | `BusinessPartner` | `ptyintid_id133_i` |
 | `_TransportationAgreement` | *Association* |
 | `_BusinessPartner` | *Association* |
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationAgreement` | `I_TransportationAgreement` | — |
 | `_BusinessPartner` | `I_BusinessPartner` | [0..1] |
 
 ## Source Code

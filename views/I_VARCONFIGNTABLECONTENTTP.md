@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:LO-VCH-API-2CL
   - lob:Logistics General
+  - bo:VarConfigurationTableContent
 ---
 # I_VARCONFIGNTABLECONTENTTP
 
@@ -31,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblName` | `VarConfignTblName` |
 | `VarConfignTblStatus` | `VarConfignTblStatus` |
 | `EngineProcessingMode` | `EngineProcessingMode` |
 | `VarConfignTblCntntLstChgDteTme` | `VarConfignTblCntntLstChgDteTme` |
 | `VarConfignTblCntntLastChgNo` | `VarConfignTblCntntLastChgNo` |
-| `/* Associations */` | `/* Associations */` |
-| `_TableLine : redirected to composition child I_VarConfignTableLineTP` | *Association* |
 
 ## Associations
 

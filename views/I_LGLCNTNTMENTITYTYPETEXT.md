@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMEntityType` | `LglCntntMEntityType` |
-| `key Language` | `Language` |
+| `LglCntntMEntityType` | `LglCntntMEntityType` |
+| `Language` | `Language` |
 | `LglCntntMEntityTypeName` | `LglCntntMEntityTypeName` |
 
 ## Associations

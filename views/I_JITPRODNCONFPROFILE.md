@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `njit_prodn_conf_profile preserving type )` | `cast( substring( domvalue_l,1,4 )` |
+| `JITProdnConfProfile` | `cast( substring( domvalue_l,1,4 ) as njit_prodn_conf_profile preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

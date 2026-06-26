@@ -32,8 +32,7 @@ tags:
 |---|---|
 | `TranspSCACCode` | `scac` |
 | `Language` | `spras` |
-| `/scmtms/vdm_scac_desc preserving type)` | `cast(text` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspSCACCodeDesc` | `cast(text as /scmtms/vdm_scac_desc preserving type)` |
 | `_TranspSCACCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspSCACCode` | `I_TranspSCACCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

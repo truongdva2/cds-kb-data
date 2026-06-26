@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/abc_classification  preserving type )` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SupplierABCClassificationCode` | `cast(…)` |
 | `_SLCMgmtABCClassificationText` | *Association* |
 
 ## Associations

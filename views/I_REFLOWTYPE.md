@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `REFlowType` | `flowtype` |
-| `shkzg preserving type )` | `cast( ssolhab` |
+| `DebitCreditCode` | `cast( ssolhab as shkzg preserving type )` |
 | `REAnticipatoryAccrualType` | `antacrtype` |
 | `RETransitoryAccrualType` | `traacrtype` |
 | `REFlowTypeForSummary` | `flowtypecnds` |

@@ -15,6 +15,7 @@ tags:
   - status
   - component:CM-DOC-2CL
   - lob:Other
+  - bo:InternalDocumentStatus
 ---
 # I_LGLCNTNTMDOCSTATUSTEXTAPI01
 
@@ -31,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InternalDocumentStatus` | `InternalDocumentStatus` |
-| `key Language` | `Language` |
-| `LglCntntMDocStatusName` | `LglCntntMDocStatusName` |
+| `InternalDocumentStatus` | `InternalDocumentStatus` |
+| `Language` | `Language` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:ConfigurableCodesCodeGroup
 ---
 # I_CONFIGBLCODESCODEGROUPTEXT
 
@@ -34,8 +35,7 @@ tags:
 | `ConfigurableCodesCatalog` | `qpgt.katalogart` |
 | `ConfigurableCodesCodeGroup` | `qpgt.codegruppe` |
 | `Language` | `qpgt.sprache` |
-| `vdm_qktextgr preserving type )` | `cast( qpgt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `ConfigblCodesCodeGrpTxt` | `cast( qpgt.kurztext as vdm_qktextgr preserving type )` |
 | `_ConfigurableCodesCatalog` | *Association* |
 | `_ConfigurableCodesCodeGroup` | *Association* |
 

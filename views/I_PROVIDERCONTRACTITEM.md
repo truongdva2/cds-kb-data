@@ -31,8 +31,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED` | `status: #DEPRECATED` |
-| `successor: 'EBRRResultAnalysisInternalID' }` | `successor: 'EBRRResultAnalysisInternalID' }` |
+| `ProviderContract` | `vtkey` |
+| `ProviderContractItem` | `vtpos` |
+| `CreationDate` | `erdat` |
+| `CreationTime` | `cast(ertim as ttet_dt_cr_time preserving type )` |
+| `CreatedByUser` | `ernam` |
+| `LastChangeDate` | `aedat` |
+| `LastChangeTime` | `aetim` |
+| `LastChangedByUser` | `aenam` |
+| `CAProviderContractItemUUID` | `vtpid` |
+| `CAPrvdrContrParentItemUUID` | `papid` |
+| `CAPrvdrContrItmValidFromDteTme` | `valfr` |
+| `CAPrvdrContrItmValidToDateTime` | `valto` |
+| `CAPrvdrContrItemCanclnDateTime` | `cancl` |
+| `PrvdrContrItmWthdrwlDateTime` | `withdrawn_at` |
+| `CAProviderContractStatus` | `status` |
+| `CAProviderContractItemText` | `vtitt` |
+| `ContractAccount` | `vkont` |
+| `CAPrepaidAccount` | `ppacc` |
+| `CATechnicalResourceGroup` | `vttrg` |
+| `CAServiceRecipient` | `srvrp` |
+| `CAAddressIDOfServiceRecipient` | `adrsr` |
+| `PrvdrContrItmCorrespncRcpnt` | `def_rec` |
+| `AddrIDOfCorrespncRcpnt` | `def_rec_adrnr` |
+| `CAProduct` | `prdnr` |
+| `ProductConfiguration` | `cuobj` |
+| `CASalesPackageProduct` | `prdnr_sp` |
+| `CAMasterAgreement` | `makey` |
+| `CAMasterAgreementProduct` | `maprd` |
+| `CAPartnerSettlementRule` | `ptsrl` |
+| `CASharingContract` | `vtkrf` |
+| `TaxJurisdiction` | `txjcd` |
+| `CAReceivingCountry` | `landl` |
+| `TaxCountry` | `tax_country` |
+| `CASubscriptionChargeType` | `charge_type` |
+| `BusinessSolutionOrder` | `solution_order_id` |
+| `BusinessSolutionOrderItem` | `solution_order_item_id` |
+| `SoldProduct` | `matnr_copa` |
 | `RevenueRecognitionKey` | `rev_rec_key` |
 | `EBRRResultAnalysisInternalID` | `rev_rec_key` |
 | `EBRRIsBundleActive` | `bundling` |
@@ -53,7 +88,7 @@ tags:
 | `Division` | `spart` |
 | `CAPrvdrContrSalesAreaAttrib1` | `vber1` |
 | `CAPrvdrContrSalesAreaAttrib2` | `vber2` |
-| `fis_wbsint_no_conv preserving type )` | `cast( ps_psp_pnr` |
+| `WBSElementInternalID` | `cast( ps_psp_pnr as fis_wbsint_no_conv preserving type )` |
 | `InternalOrder` | `aufnr` |
 | `CAStandardDivision` | `stdsp` |
 | `PrvdrContrItmIsRlvtForPrfSgDrv` | `x_vt_copa` |

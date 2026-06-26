@@ -32,34 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type)` | `cast(ConditionItem.rkey1` |
+| `SecurityClass` | `cast(ConditionItem.rkey1 as ftr_gen_security_class preserving type)` |
 | `FinConditionConditionType` | `ConditionItem.skoart` |
-| `key case` | `case` |
-| `when dats_is_valid(ConditionItem.dguel_kp) = 1` | `when dats_is_valid(ConditionItem.dguel_kp) = 1` |
-| `then ConditionItem.dguel_kp` | `then ConditionItem.dguel_kp` |
-| `else` | `else` |
-| `'99991231'` | `'99991231'` |
-| `ConditionItemValidityStartDate` | `end` |
+| `ConditionItemValidityStartDate` | `case…end` |
 | `FinConditionSubItem` | `ConditionItem.nstufe` |
-| `ftr_gen_fin_instr_prod_categ preserving type)` | `cast(ConditionItem.sanlf` |
-| `cast(case` | `cast(case` |
-| `when ConditionItem.sexclguel = '0' then 'X'` | `when ConditionItem.sexclguel = '0' then 'X'` |
-| `else ''` | `else ''` |
-| `ftr_sc_cndn_strt_dte_incld_ind preserving type )` | `end` |
+| `FinancialInstrProductCategory` | `cast(ConditionItem.sanlf as ftr_gen_fin_instr_prod_categ preserving type)` |
+| `CndnItmValdtyStrtDtIsInclusive` | `cast(…)` |
 | `FinConditionForm` | `ConditionItem.jnullkon` |
 | `FinCndnReferenceConditionType` | `ConditionType.skoaref` |
 | `FinCndnRefAccumulatingCndnType` | `ConditionType.sum_skoaref` |
 | `InterestCalculationMethod` | `ConditionItem.szbmeth` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionItem.jexpozins      = 'X' then '1'` | `when ConditionItem.jexpozins      = 'X' then '1'` |
-| `when ConditionItem.jprozr         = 'X' then '2'` | `when ConditionItem.jprozr         = 'X' then '2'` |
-| `when ConditionItem.jprozr         = 'Y' then '3'` | `when ConditionItem.jprozr         = 'Y' then '3'` |
-| `when ConditionItem.jexpointfactor = 'X' then '4'` | `when ConditionItem.jexpointfactor = 'X' then '4'` |
-| `when ConditionItem.jexpozins      = 'L' then '5'` | `when ConditionItem.jexpozins      = 'L' then '5'` |
-| `when ConditionItem.jexpointfactor = 'L' then '6'` | `when ConditionItem.jexpointfactor = 'L' then '6'` |
-| `when ConditionItem.jexpointfactor = 'A' then '7'` | `when ConditionItem.jexpointfactor = 'A' then '7'` |
-| `else '0'` | `else '0'` |
-| `tfmsintcalc preserving type )` | `end` |
+| `InterestCalculationType` | `cast(…)` |
 | `ExponentialIntrstSettlmtFrqcy` | `ConditionItem.ammrhyzv` |
 | `IntrstCalcMethFactoryCalendar` | `ConditionItem.skalidwt` |
 | `InterestFirstPeriodRate` | `ConditionItem.pkond1stper` |
@@ -80,19 +63,13 @@ tags:
 | `FinCndnAmountRoundingCategory` | `ConditionItem.sround` |
 | `FinCndnAmountRoundingUnit` | `ConditionItem.broundunit` |
 | `RndngBaseUntAmtInCndnItmCrcy` | `ConditionItem.bbasisunit` |
-| `ftr_cndn_intrst_base_amount)` | `cast(ConditionItem.bbasis` |
+| `FinConditionIntrstBaseAmount` | `cast(ConditionItem.bbasis as ftr_cndn_intrst_base_amount)` |
 | `FinCndnCalcBaseReference` | `ConditionItem.sbasis` |
 | `FinancialConditionItemAmount` | `ConditionItem.kbkond` |
 | `FinancialConditionItemCurrency` | `ConditionItem.swhrkond` |
 | `FinCndnAmountTimeUnit` | `ConditionItem.jbmonat` |
-| `cast( case when ConditionItem.kurs1 >= 0` | `cast( case when ConditionItem.kurs1 >= 0` |
-| `then ConditionItem.kurs1` | `then ConditionItem.kurs1` |
-| `else 0` | `else 0` |
-| `ftr_sc_exchange_rate_direct preserving type )` | `end` |
-| `cast( case when ConditionItem.kurs1 < 0` | `cast( case when ConditionItem.kurs1 < 0` |
-| `then abs( ConditionItem.kurs1 )` | `then abs( ConditionItem.kurs1 )` |
-| `else 0` | `else 0` |
-| `ftr_sc_exchange_rate_indirect preserving type )` | `end` |
+| `ScrtyClCndnDrctExchRate` | `cast(…)` |
+| `ScrtyClCndnIndrctExchRate` | `cast(…)` |
 | `FinConditionFactoryCalendar1` | `ConditionItem.skalid` |
 | `FinConditionFactoryCalendar2` | `ConditionItem.skalid2` |
 | `FinConditionFactoryCalendar3` | `ConditionItem.skalid3` |
@@ -107,360 +84,58 @@ tags:
 | `AvgIntrstRateHasUsedLowerLimit` | `ConditionItem.javgfloor` |
 | `AverageInterestLowerLimitRate` | `ConditionItem.pavgfloor` |
 | `AverageIntrstRateResetCalcEvt` | `ConditionItem.sfactorreset` |
-| `case` | `case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.update_rule_entry_type` | `then ConditionItem.update_rule_entry_type` |
-| `else null` | `else null` |
-| `FinCndnUpdateRuleEntryType` | `end` |
-| `case` | `case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `then ConditionItem.dfaell` | `then ConditionItem.dfaell` |
-| `else null` | `else null` |
-| `FinCndnUpdateRuleFirstDate` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then ConditionItem.attrhy` | `then ConditionItem.attrhy` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then ConditionItem.ammrhy` | `then ConditionItem.ammrhy` |
-| `else null` | `else null` |
-| `ftr_codn_calc_dte_frequency preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then '1'` | `then '1'` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then '0'` | `then '0'` |
-| `else null` | `else null` |
-| `ftr_codn_calc_dte_unit preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `then ConditionItem.sfult` | `then ConditionItem.sfult` |
-| `else null` | `else null` |
-| `due_dte_as_end_date_month_end preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` | `and (ConditionItem.update_rule_entry_type = '09' or ConditionItem.update_rule_entry_type = '10')` |
-| `then ConditionItem.sfwerk` | `then ConditionItem.sfwerk` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_wrk_day_sft preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA' then '0'` | `when ConditionType.sberfima = 'ZA' then '0'` |
-| `when ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' then '0'` | `when ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' then '0'` |
-| `when ConditionItem.svmeth = '3' or ConditionItem.svmeth = '4' then '1'` | `when ConditionItem.svmeth = '3' or ConditionItem.svmeth = '4' then '1'` |
-| `when ConditionItem.svmeth = '5' then '2'` | `when ConditionItem.svmeth = '5' then '2'` |
-| `else null` | `else null` |
-| `ftr_cndn_calc_date_update_rule preserving type )` | `end` |
-| `case` | `case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.dvalut` | `then ConditionItem.dvalut` |
-| `else null` | `else null` |
-| `CalculationDate` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then ConditionItem.attrhy` | `then ConditionItem.attrhy` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then ConditionItem.ammrhy` | `then ConditionItem.ammrhy` |
-| `else null` | `else null` |
-| `ftr_codn_calc_dte_frequency preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then '1'` | `then '1'` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then '0'` | `then '0'` |
-| `else null` | `else null` |
-| `ftr_codn_calc_dte_unit preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima = 'ZA' then ''` | `when ConditionType.sberfima = 'ZA' then ''` |
-| `when ConditionItem.sincl = '0' then ''` | `when ConditionItem.sincl = '0' then ''` |
-| `else 'X'` | `else 'X'` |
-| `ftr_dateisinclusive preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.svult` | `then ConditionItem.svult` |
-| `else null` | `else null` |
-| `calc_dte_as_end_dte_month_end preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.svwerk` | `then ConditionItem.svwerk` |
-| `else null` | `else null` |
-| `ftr_cndn_calc_date_wrk_day_sft preserving type )` | `end` |
-| `cast(case` | `cast(case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.avgstagevz` | `then ConditionItem.avgstagevz` |
-| `else null` | `else null` |
-| `ftr_cndn_calc_dte_shft_drctn preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.avgstage` | `then ConditionItem.avgstage` |
-| `else null` | `else null` |
-| `ftr_sc_cndn_calc_dte_shft_days preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA' then ''` | `when ConditionType.sberfima = 'ZA' then ''` |
-| `when ConditionItem.svmeth = '2' then 'X'` | `when ConditionItem.svmeth = '2' then 'X'` |
-| `when ConditionItem.svmeth <> '2' then ''` | `when ConditionItem.svmeth <> '2' then ''` |
-| `else null` | `else null` |
-| `calc_dte_is_reg_with_varbl_dte preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA' then '0'` | `when ConditionType.sberfima = 'ZA' then '0'` |
-| `when ConditionItem.svmeth = '4' then '0'` | `when ConditionItem.svmeth = '4' then '0'` |
-| `when ConditionItem.svmeth = '3' then '1'` | `when ConditionItem.svmeth = '3' then '1'` |
-| `else null` | `else null` |
-| `reference_date_for_calc_dte preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA' then '0'` | `when ConditionType.sberfima = 'ZA' then '0'` |
-| `when ConditionItem.sfmeth = '1' or  ConditionItem.sfmeth = '2' then '0'` | `when ConditionItem.sfmeth = '1' or  ConditionItem.sfmeth = '2' then '0'` |
-| `when ConditionItem.sfmeth = '3' or  ConditionItem.sfmeth = '4' then '1'` | `when ConditionItem.sfmeth = '3' or  ConditionItem.sfmeth = '4' then '1'` |
-| `when ConditionItem.sfmeth = '5' then '2'` | `when ConditionItem.sfmeth = '5' then '2'` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_update_rule preserving type )` | `end` |
-| `case` | `case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.dfaell` | `then ConditionItem.dfaell` |
-| `else null` | `else null` |
-| `DueDate` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then ConditionItem.attrhy` | `then ConditionItem.attrhy` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then ConditionItem.ammrhy` | `then ConditionItem.ammrhy` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_frequency preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then '1'` | `then '1'` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then '0'` | `then '0'` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_frqcy_unit preserving type )` | `end` |
-| `cast (case` | `cast (case` |
-| `when ConditionType.sberfima = 'ZA' then ''` | `when ConditionType.sberfima = 'ZA' then ''` |
-| `when ConditionItem.sfincl = '0' then ''` | `when ConditionItem.sfincl = '0' then ''` |
-| `else 'X'` | `else 'X'` |
-| `ftr_dateisinclusive preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.sfult` | `then ConditionItem.sfult` |
-| `else null` | `else null` |
-| `due_dte_as_end_date_month_end preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.sfwerk` | `then ConditionItem.sfwerk` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_wrk_day_sft preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.afgstagevz` | `then ConditionItem.afgstagevz` |
-| `else null` | `else null` |
-| `ftr_cndn_due_date_shift_drctn preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima <> 'ZA'` | `when ConditionType.sberfima <> 'ZA'` |
-| `then ConditionItem.afgstage` | `then ConditionItem.afgstage` |
-| `else null` | `else null` |
-| `ftr_sc_cndn_due_dte_shft_days preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionItem.sfmeth = '2' and ConditionType.sberfima <> 'ZA' then 'X'` | `when ConditionItem.sfmeth = '2' and ConditionType.sberfima <> 'ZA' then 'X'` |
-| `when ConditionItem.sfmeth <> '2' and ConditionType.sberfima <> 'ZA' then ''` | `when ConditionItem.sfmeth <> '2' and ConditionType.sberfima <> 'ZA' then ''` |
-| `else null` | `else null` |
-| `due_dte_is_reg_with_varbl_dte preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima <> 'ZA' then '0'` | `when ConditionType.sberfima <> 'ZA' then '0'` |
-| `when ConditionItem.sfmeth = '5' then '0'` | `when ConditionItem.sfmeth = '5' then '0'` |
-| `when ConditionItem.sfmeth = '4' then '0'` | `when ConditionItem.sfmeth = '4' then '0'` |
-| `when ConditionItem.sfmeth = '3' then '1'` | `when ConditionItem.sfmeth = '3' then '1'` |
-| `else null` | `else null` |
-| `reference_date_for_due_dte preserving type )` | `end` |
+| `FinCndnUpdateRuleEntryType` | `case…end` |
+| `FinCndnUpdateRuleFirstDate` | `case…end` |
+| `FinCndnUpdateRuleDateFrequency` | `cast(…)` |
+| `FinCndnUpdateRuleDateFrqcyUnit` | `cast(…)` |
+| `UpdateRuleDateIsMonthEnd` | `cast(…)` |
+| `FinCndnUpdtRuleDateWrkgDayShft` | `cast(…)` |
+| `FinCndnCalcDteUpdateRule` | `cast(…)` |
+| `CalculationDate` | `case when ConditionType.sberfima <> 'ZA' then ConditionItem.dvalut else null end` |
+| `FinCndnCalcDteFrequency` | `cast(…)` |
+| `FinCndnCalcDteFrqcyUnit` | `cast(…)` |
+| `CalcDateIsAsEndDateInclusive` | `cast(…)` |
+| `CalcDateIsAsEndDateMonthEnd` | `cast(…)` |
+| `FinCndnCalcDteWrkgDayShft` | `cast(…)` |
+| `FinCndnCalcDteShftDrctn` | `cast(…)` |
+| `ScrtyClCndnCalcDteShftNrOfDays` | `cast(…)` |
+| `CalcDteIsRegularWithVarblDte` | `cast(…)` |
+| `InterestCalculationDateRef` | `cast(…)` |
+| `FinCndnDueDteUpdateRule` | `cast(…)` |
+| `DueDate` | `case when ConditionType.sberfima <> 'ZA' then ConditionItem.dfaell else null end` |
+| `FinCndnDueDteFrequency` | `cast(…)` |
+| `FinCndnDueDteFrqcyUnit` | `cast(…)` |
+| `DueDateIsAsEndDateInclusive` | `cast(…)` |
+| `DueDateIsAsEndDateMonthEnd` | `cast(…)` |
+| `FinCndnDueDteWrkgDayShft` | `cast(…)` |
+| `FinCndnDueDteShftDrctn` | `cast(…)` |
+| `ScrtyClCndnDueDteShftNrOfDays` | `cast(…)` |
+| `DueDteIsRegularWithVarblDte` | `cast(…)` |
+| `InterestDueDateReference` | `cast(…)` |
 | `FinCndnPaytDateWrkgDayShft` | `ConditionItem.sdwerk` |
-| `tb_sfranze_new )` | `cast( ConditionItem.sfranz` |
-| `cast( case` | `cast( case` |
-| `when ConditionItem.sfant = '0' then ''` | `when ConditionItem.sfant = '0' then ''` |
-| `else 'X'` | `else 'X'` |
-| `ftr_sc_vvsfant preserving type )` | `end` |
+| `FinCndnDueDteShiftToTermEnd` | `cast( ConditionItem.sfranz as tb_sfranze_new )` |
+| `FinCndnDuDteIsFinMathCalcReltd` | `cast(…)` |
 | `FinCndnRpaytSettlmt` | `ConditionItem.jsofverr` |
-| `cast ( case ConditionItem.szeitant` | `cast ( case ConditionItem.szeitant` |
-| `when '0' then '0'` | `when '0' then '0'` |
-| `when '1' then '2'` | `when '1' then '2'` |
-| `when '2' then '1'` | `when '2' then '1'` |
-| `when '3' then '0'` | `when '3' then '0'` |
-| `when '4' then '0'` | `when '4' then '0'` |
-| `when '5' then '2'` | `when '5' then '2'` |
-| `when '6' then '1'` | `when '6' then '1'` |
-| `when '7' then '2'` | `when '7' then '2'` |
-| `when '8' then '1'` | `when '8' then '1'` |
-| `else '0'` | `else '0'` |
-| `tfmsfstper preserving type )` | `end` |
-| `cast ( case ConditionItem.szeitant` | `cast ( case ConditionItem.szeitant` |
-| `when '0' then '0'` | `when '0' then '0'` |
-| `when '1' then '2'` | `when '1' then '2'` |
-| `when '2' then '1'` | `when '2' then '1'` |
-| `when '3' then '2'` | `when '3' then '2'` |
-| `when '4' then '1'` | `when '4' then '1'` |
-| `when '5' then '0'` | `when '5' then '0'` |
-| `when '6' then '0'` | `when '6' then '0'` |
-| `when '7' then '1'` | `when '7' then '1'` |
-| `when '8' then '2'` | `when '8' then '2'` |
-| `else '0'` | `else '0'` |
-| `tfmslstper preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '1' then '1'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '1' then '1'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '5' then '2'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '5' then '2'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '6' then '0'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '6' then '0'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '7' then '3'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.svmeth = '7' then '3'` |
-| `else null` | `else null` |
-| `tfmsrhyzap preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.dvalut` | `then ConditionItem.dvalut` |
-| `else null` | `else null` |
-| `tbvaluza preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.svult` | `then ConditionItem.svult` |
-| `else null` | `else null` |
-| `adjmt_dte_as_end_dte_month_end preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then ConditionItem.attrhy` | `then ConditionItem.attrhy` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then ConditionItem.ammrhy` | `then ConditionItem.ammrhy` |
-| `else null` | `else null` |
-| `ftr_cndn_adjmt_date_frequency preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then '1'` | `then '1'` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` | `and ( ConditionItem.svmeth = '1' or ConditionItem.svmeth = '2' or ConditionItem.svmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then '0'` | `then '0'` |
-| `else null` | `else null` |
-| `ftr_cndn_adjmt_date_frqcy_unit preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.svwerk` | `then ConditionItem.svwerk` |
-| `else null` | `else null` |
-| `ftr_cndn_adjmt_dte_wrk_day_sft preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.avgstagevz` | `then ConditionItem.avgstagevz` |
-| `else null` | `else null` |
-| `ftr_cndn_adjmt_dte_shft_drctn preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.avgstage` | `then ConditionItem.avgstage` |
-| `else null` | `else null` |
-| `ftr_sc_cndn_adj_dte_shft_days preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ConditionItem.sfmeth = '1'` | `and ConditionItem.sfmeth = '1'` |
-| `then '0'` | `then '0'` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ConditionItem.sfmeth = '5'` | `and ConditionItem.sfmeth = '5'` |
-| `then '2'` | `then '2'` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '3'` | `and ( ConditionItem.sfmeth = '3'` |
-| `or ConditionItem.sfmeth = '6'` | `or ConditionItem.sfmeth = '6'` |
-| `or ConditionItem.sfmeth = '8'` | `or ConditionItem.sfmeth = '8'` |
-| `or ConditionItem.sfmeth = '9' )` | `or ConditionItem.sfmeth = '9' )` |
-| `then '1'` | `then '1'` |
-| `else null` | `else null` |
-| `tfmsrhy preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.dfaell` | `then ConditionItem.dfaell` |
-| `else null` | `else null` |
-| `tbfaelza preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.sfult` | `then ConditionItem.sfult` |
-| `else null` | `else null` |
-| `fixing_dte_as_end_dte_mnth_end preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then ConditionItem.attrhy` | `then ConditionItem.attrhy` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then ConditionItem.ammrhy` | `then ConditionItem.ammrhy` |
-| `else null` | `else null` |
-| `ftr_cndn_fixing_date_frequency preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.attrhy is not initial` | `and ConditionItem.attrhy is not initial` |
-| `then '1'` | `then '1'` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` | `and ( ConditionItem.sfmeth = '1' or ConditionItem.sfmeth = '2' or ConditionItem.sfmeth = '5' )` |
-| `and ConditionItem.ammrhy is not initial` | `and ConditionItem.ammrhy is not initial` |
-| `then '0'` | `then '0'` |
-| `else null` | `else null` |
-| `ftr_cndn_fixing_dte_frqcy_unit preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and (ConditionItem.sfwerk = '3' or ConditionItem.sfwerk = '4')` | `and (ConditionItem.sfwerk = '3' or ConditionItem.sfwerk = '4')` |
-| `then '-'` | `then '-'` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and (ConditionItem.sfwerk = '1' or ConditionItem.sfwerk = '2')` | `and (ConditionItem.sfwerk = '1' or ConditionItem.sfwerk = '2')` |
-| `then '+'` | `then '+'` |
-| `else null` | `else null` |
-| `ftr_cndn_fixing_dte_shft_drctn preserving type )` | `end` |
-| `cast( case` | `cast( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `then ConditionItem.afgstage` | `then ConditionItem.afgstage` |
-| `else null` | `else null` |
-| `ftr_sc_cndn_fix_dte_shft_days preserving type )` | `end` |
+| `FinCndnFirstPeriodCalcMethod` | `cast(…)` |
+| `FinCndnLastPeriodCalcMethod` | `cast(…)` |
+| `InterestRateAdjustmentDateRule` | `cast(…)` |
+| `InterestRateAdjustmentDate` | `cast(…)` |
+| `IntrstRateAdjmtDateIsMonthEnd` | `cast(…)` |
+| `InterestRateAdjustmentFrqcy` | `cast(…)` |
+| `InterestRateAdjmtFrqcyUnit` | `cast(…)` |
+| `IntrstRateAdjmtDateWrkgDayShft` | `cast(…)` |
+| `FinCndnAdjmtDteShftDrctn` | `cast(…)` |
+| `ScrtyClIntrstRateAdjmtShftDays` | `cast(…)` |
+| `InterestRateFixingDateRule` | `cast(…)` |
+| `InterestRateFixingDate` | `cast(…)` |
+| `IntrstRateFixingDateIsMonthEnd` | `cast(…)` |
+| `InterestRateFixingFrqcy` | `cast(…)` |
+| `InterestRateFixingFrqcyUnit` | `cast(…)` |
+| `FinCndnFixingDteShftDrctn` | `cast(…)` |
+| `ScrtyClIntrstRateFixShftDays` | `cast(…)` |
 | `FinCndnRateFixingLockoutPeriod` | `ConditionItem.adgstage` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and (ConditionItem.sfwerk = '2' or ConditionItem.sfwerk = '4')` | `and (ConditionItem.sfwerk = '2' or ConditionItem.sfwerk = '4')` |
-| `then 'X'` | `then 'X'` |
-| `else null` | `else null` |
-| `tfmjmodif preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ConditionType.sberfima = 'ZA'` | `when ConditionType.sberfima = 'ZA'` |
-| `and ( ConditionItem.sfmeth = '1'` | `and ( ConditionItem.sfmeth = '1'` |
-| `or ConditionItem.sfmeth = '5'` | `or ConditionItem.sfmeth = '5'` |
-| `or ConditionItem.sfmeth = '8' ) then '0'` | `or ConditionItem.sfmeth = '8' ) then '0'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '3' then '1'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '3' then '1'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '6' then '3'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '6' then '3'` |
-| `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '9' then '2'` | `when ConditionType.sberfima = 'ZA' and ConditionItem.sfmeth = '9' then '2'` |
-| `else null` | `else null` |
-| `tfmzreldat preserving type )` | `end` |
+| `IntrstRateFixDteShftIsModifd` | `cast(…)` |
+| `InterestRateFixingDateRef` | `cast(…)` |
 | `_SecurityClassBasic` | *Association* |
 
 ## Associations

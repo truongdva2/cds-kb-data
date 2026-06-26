@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
-| `key InventoryStockType` | `InventoryStockType` |
-| `key InventorySpecialStockType` | `InventorySpecialStockType` |
-| `key MaterialBaseUnit` | `MaterialBaseUnit` |
-| `key Currency` | `Currency` |
-| `key ValuationAreaType` | `ValuationAreaType` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `Currency` | `Currency` |
+| `ValuationAreaType` | `ValuationAreaType` |
 | `MatlWrhsStkQtyInMatlBaseUnit` | `MatlWrhsStkQtyInMatlBaseUnit` |
 | `StockValueInCCCrcy` | `StockValueInCCCrcy` |
 | `_Product` | *Association* |

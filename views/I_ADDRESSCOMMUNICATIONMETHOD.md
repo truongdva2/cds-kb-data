@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:CommunicationMediumType
 ---
 # I_ADDRESSCOMMUNICATIONMETHOD
 
@@ -32,7 +33,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CommunicationMediumType` | `comm_type` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

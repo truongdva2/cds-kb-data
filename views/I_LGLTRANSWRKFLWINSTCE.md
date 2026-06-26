@@ -34,22 +34,22 @@ tags:
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LegalTransactionWrkflwSqnc` | `LegalTransactionWrkflwSqnc` |
 | `LglTransWrkFlwModInstce` | `LglTransWrkFlwModInstce` |
-| `_LegalTransactionBase.LegalTransaction` | *Association* |
-| `_LegalTransactionBase.LegalTransactionTitle` | *Association* |
-| `_LegalTransactionBase.LegalTransactionHealth` | *Association* |
-| `sww_witext )` | `cast( _WorkflowTask._TaskTitle[1:Language=$session.system_language].WorkflowTaskName` |
-| `_WorkflowTask.WorkflowTaskType                                                                                         as LegalTransactionTaskType` | *Association* |
-| `_WorkflowTask.WorkflowTaskType                                                                                         as WorkflowTaskType` | *Association* |
-| `_WorkflowTask._TaskType._Text[1:Language=$session.system_language].WorkflowTaskTypeDesc                                as LegalTransactionTaskTypeName` | *Association* |
-| `_WorkflowTask._TaskType._Text[1:Language=$session.system_language].WorkflowTaskTypeDesc                                as WorkflowTaskTypeDesc` | *Association* |
-| `_WorkflowTask.WorkflowTaskStepType                                                                                     as WorkflowTaskStepType` | *Association* |
-| `_WorkflowTask._WorkflowStepType._WorkflowTaskStepTypeText[1:Language=$session.system_language].WorkflowStepTypeSubject as WorkflowStepTypeSubject` | *Association* |
-| `_WorkflowTask.WorkflowTaskStatus                                                                                       as LegalTransactionTaskStatus` | *Association* |
-| `_WorkflowTask._TaskStatus._Text[1:Language=$session.system_language].WorkflowTaskStatusDesc                            as LegalTransactionTaskStatusName` | *Association* |
-| `_WorkflowTask.WorkflowTaskCreatedByUser                                                                                as LegalTransactionTaskCrtedByUsr` | *Association* |
-| `_WorkflowTask.WrkflwTskCreationUTCDateTime                                                                             as LglTransTskCrtnUTCDteTme` | *Association* |
-| `_WorkflowTask.WorkflowTaskCurrentUser                                                                                  as LegalTransactionTaskCurUsr` | *Association* |
-| `_WorkflowTask.WorkflowTaskDefinition` | *Association* |
+| `LegalTransaction` | `_LegalTransactionBase.LegalTransaction` |
+| `LegalTransactionTitle` | `_LegalTransactionBase.LegalTransactionTitle` |
+| `LegalTransactionHealth` | `_LegalTransactionBase.LegalTransactionHealth` |
+| `LegalTransactionTaskName` | `cast(…)` |
+| `LegalTransactionTaskType` | `_WorkflowTask.WorkflowTaskType` |
+| `WorkflowTaskType` | `_WorkflowTask.WorkflowTaskType` |
+| `LegalTransactionTaskTypeName` | `expr(…)` |
+| `WorkflowTaskTypeDesc` | `expr(…)` |
+| `WorkflowTaskStepType` | `_WorkflowTask.WorkflowTaskStepType` |
+| `WorkflowStepTypeSubject` | `expr(…)` |
+| `LegalTransactionTaskStatus` | `_WorkflowTask.WorkflowTaskStatus` |
+| `LegalTransactionTaskStatusName` | `expr(…)` |
+| `LegalTransactionTaskCrtedByUsr` | `_WorkflowTask.WorkflowTaskCreatedByUser` |
+| `LglTransTskCrtnUTCDteTme` | `_WorkflowTask.WrkflwTskCreationUTCDateTime` |
+| `LegalTransactionTaskCurUsr` | `_WorkflowTask.WorkflowTaskCurrentUser` |
+| `WorkflowTaskDefinition` | `_WorkflowTask.WorkflowTaskDefinition` |
 | `_LegalTransactionBase` | *Association* |
 
 ## Associations
@@ -57,7 +57,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_LegalTransactionBase` | `I_LegalTransactionBase` | [1..1] |
-| `_LglTransWorkflowTaskTitle` | `I_LglTransWorkflowTaskTitle` | [1..1] |
 
 ## Source Code
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InternalDocumentStatus` | `InternalDocumentStatus` |
+| `InternalDocumentStatus` | `InternalDocumentStatus` |
 | `_LglCntntMDocStatusTextAPI01` | *Association* |
 
 ## Associations

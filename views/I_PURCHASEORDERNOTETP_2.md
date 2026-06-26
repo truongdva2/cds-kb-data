@@ -34,13 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `PlainLongText` | `PlainLongText` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
-| `_PurchaseOrder : redirected to parent I_PurchaseOrderTP_2` | *Association* |
 
 ## Associations
 

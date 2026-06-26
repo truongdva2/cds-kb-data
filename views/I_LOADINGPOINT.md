@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:LoadingPoint
 ---
 # I_LOADINGPOINT
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` | `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` |
 | `ShippingPoint` | `vstel` |
 | `LoadingPoint` | `lstel` |
 | `_Text` | *Association* |

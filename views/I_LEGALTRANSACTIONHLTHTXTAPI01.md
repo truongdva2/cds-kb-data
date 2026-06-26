@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-LT-2CL
   - lob:Other
+  - bo:LegalTransactionHealth
 ---
 # I_LEGALTRANSACTIONHLTHTXTAPI01
 
@@ -29,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionHealth` | `LegalTransactionHealth` |
-| `key Language` | `Language` |
-| `LegalTransactionHealthName` | `LegalTransactionHealthName` |
+| `LegalTransactionHealth` | `LegalTransactionHealth` |
+| `Language` | `Language` |
 
 ## Associations
 

@@ -31,10 +31,55 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'C_SrvcContrPaymentMethodVH' , element:'PaymentMethod'}, useAsTemplate: true  }]` | `name: 'C_SrvcContrPaymentMethodVH' , element:'PaymentMethod'}, useAsTemplate: true  }]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContractType` | `ServiceContractType` |
+| `ServiceContractUUID` | `ServiceContractUUID` |
+| `ServiceContractDescription` | `ServiceContractDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `ServiceOrganization` | `ServiceOrganization` |
+| `ServiceContractIsNew` | `ServiceContractIsNew` |
+| `ServiceContractIsInProcess` | `ServiceContractIsInProcess` |
+| `ServiceContractIsReleased` | `ServiceContractIsReleased` |
+| `ServiceContractIsCompleted` | `ServiceContractIsCompleted` |
+| `ServiceContractStatus` | `ServiceContractStatus` |
+| `SrvcContrBillingStatus` | `SrvcContrBillingStatus` |
+| `SrvcDocRejectionStatus` | `SrvcDocRejectionStatus` |
+| `ServiceContractHasError` | `ServiceContractHasError` |
+| `SrvcDocTransferStatus` | `SrvcDocTransferStatus` |
+| `ServiceContractStartDateTime` | `ServiceContractStartDateTime` |
+| `ServiceContractEndDateTime` | `ServiceContractEndDateTime` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
+| `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
+| `PricingDocument` | `PricingDocument` |
+| `ServiceContractCanclnParty` | `ServiceContractCanclnParty` |
+| `ServiceContrCancellationReason` | `ServiceContrCancellationReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `PaymentTerms` | `PaymentTerms` |
 | `PaymentMethod` | `PaymentMethod` |
 | `SrvcContrExternalReference` | `SrvcContrExternalReference` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceDocumentType` | *Association* |
 | `_ServiceObjType` | *Association* |
 | `_ShipToParty` | *Association* |
@@ -71,8 +116,6 @@ tags:
 | `_ServiceDocTransferStatusText` | *Association* |
 | `_ServiceCancellationPartyText` | *Association* |
 | `_ServiceCanclnReasonText` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceContractItemTP : redirected to composition child I_ServiceContractItemTP_2` | *Association* |
 
 ## Associations
 

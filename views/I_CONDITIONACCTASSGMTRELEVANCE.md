@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:CndnAcctAssignmentRelevance
 ---
 # I_CONDITIONACCTASSGMTRELEVANCE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ktrel )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionAcctAssgmtRelevance` | `cast ( substring( domvalue_l, 1, 1 ) as ktrel )` |
 | `_Text` | *Association* |
 
 ## Associations

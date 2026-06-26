@@ -14,6 +14,7 @@ tags:
   - product
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductPlanningStrategy
 ---
 # I_PRODUCTPLANNINGSTRATEGY
 
@@ -30,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ProductPlanningStrategy` | `strat.stra1` |
 | `PlndIndepRqmtRqmtType` | `strat.bedvp` |
 | `CustomerRequirementRqmtType` | `strat.bedku` |

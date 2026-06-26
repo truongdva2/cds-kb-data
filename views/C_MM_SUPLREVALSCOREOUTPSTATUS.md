@@ -15,6 +15,7 @@ tags:
   - status
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalScoreOutputStatus
 ---
 # C_MM_SUPLREVALSCOREOUTPSTATUS
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW,  fuzzinessThreshold: 0.8   }` | `defaultSearchElement: true, ranking: #LOW,  fuzzinessThreshold: 0.8   }` |
-| `_Text[1: Language = $session.system_language ].SuplrEvalScoreOutputStatusText                                   as SuplrEvalScoreOutputStatusText` | *Association* |
+| `SuplrEvalScoreOutputStatus` | `cast( SuplrEvalScoreOutputStatus as mmpur_ana_de_output_act_typ)` |
+| `SuplrEvalScoreOutputStatusText` | `_Text[1: Language = $session.system_language ].SuplrEvalScoreOutputStatusText` |
 
 ## Associations
 

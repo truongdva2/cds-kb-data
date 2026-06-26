@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pasta_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 1 )` |
+| `CAFactoringCheckStsForClrgInfo` | `cast ( left( dd07l.domvalue_l, 1 ) as pasta_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

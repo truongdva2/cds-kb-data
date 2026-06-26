@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_blart preserving type )` | `cast ( blart` |
+| `AccountingDocumentType` | `cast ( blart as farp_blart preserving type )` |
 | `AccountingDocumentNumberRange` | `numkr` |
 | `AuthorizationGroup` | `brgru` |
 | `ExchangeRateType` | `kurst` |
 | `AllowedFinancialAccountTypes` | `koars` |
-| `fis_xkoad preserving type )` | `cast( xkoad` |
-| `fis_xkoak preserving type )` | `cast( xkoak` |
+| `CustomerPostingIsAllowed` | `cast( xkoad as fis_xkoad preserving type )` |
+| `SupplierPostingIsAllowed` | `cast( xkoak as fis_xkoak preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

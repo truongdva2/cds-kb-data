@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspSpecAddlCatalogFieldGroup
 ---
 # I_INSPSPECCATALOG
 
@@ -29,19 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_AssgmtInspMethInspSpec.InspectionSpecificationPlant` | `I_AssgmtInspMethInspSpec.InspectionSpecificationPlant` |
-| `key I_AssgmtInspMethInspSpec.InspectionSpecification` | `I_AssgmtInspMethInspSpec.InspectionSpecification` |
-| `key I_AssgmtInspMethInspSpec.InspectionSpecificationVersion` | `I_AssgmtInspMethInspSpec.InspectionSpecificationVersion` |
-| `/* Define artifical counter for the additional catalog data.  */` | `/* Define artifical counter for the additional catalog data.  */` |
-| `/* - must be KEY because otherwise each result line of this CDS has the same key for one "unionized" up to four results    */` | `/* - must be KEY because otherwise each result line of this CDS has the same key for one "unionized" up to four results    */` |
-| `/* - this key shall be used for UPDATE; the counter key is related directly to the corresponding DB fields which ends with */` | `/* - this key shall be used for UPDATE; the counter key is related directly to the corresponding DB fields which ends with */` |
-| `/*   the same counter number;                                                                                              */` | `/*   the same counter number;                                                                                              */` |
-| `InspSpecAddlCatalogFieldGroup` | `5` |
-| `InspSpecAdditionalCatalog` | `I_AssgmtInspMethInspSpec.InspSpecAdditionalCatalog5` |
-| `InspSpecAdditionalSelectedSet` | `I_AssgmtInspMethInspSpec.InspSpecAdditionalSelectedSet5` |
-| `InspSpecAdditionalCodeGroup` | `I_AssgmtInspMethInspSpec.InspSpecAdditionalCodeGroup5` |
-| `InspSpecAddlSeldCodeSetPlant` | `I_AssgmtInspMethInspSpec.InspSpecAddlSeldCodeSetPlant5` |
-| `/* Associations */` | `/* Associations */` |
+| `InspectionSpecificationPlant` | `I_AssgmtInspMethInspSpec.InspectionSpecificationPlant` |
+| `InspectionSpecification` | `I_AssgmtInspMethInspSpec.InspectionSpecification` |
+| `InspectionSpecificationVersion` | `I_AssgmtInspMethInspSpec.InspectionSpecificationVersion` |
+| `InspSpecAddlCatalogFieldGroup` | `1` |
+| `InspSpecAdditionalCatalog` | `cast( '1' as qkatausw )` |
+| `InspSpecAdditionalSelectedSet` | `I_AssgmtInspMethInspSpec.SelectedCodeSet` |
+| `InspSpecAdditionalCodeGroup` | `cast( '' as qcgrausw )` |
+| `InspSpecAddlSeldCodeSetPlant` | `I_AssgmtInspMethInspSpec.SelectedCodeSetPlant` |
 | `_InspectionSpecificationPlant` | *Association* |
 | `_InspectionSpecification` | *Association* |
 | `_InspSpecificationVersion` | *Association* |
@@ -54,34 +50,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_InspectionSpecificationPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecification` | `I_InspectionSpecification` | [1..1] |
-| `_InspSpecificationVersion` | `I_InspSpecificationVersion` | [1..1] |
-| `_InspSpecAddlCatalog` | `I_Inspectioncatalog` | [1..1] |
-| `_InspSpecAddlSelectedSet` | `I_InspectionSelectedSet` | [1..1] |
-| `_InspSpecAddlCodeGroup` | `I_InspectionCodeGroup` | [1..1] |
-| `_InspSpecAddlSeldCodeSetPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecificationPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecification` | `I_InspectionSpecification` | [1..1] |
-| `_InspSpecificationVersion` | `I_InspSpecificationVersion` | [1..1] |
-| `_InspSpecAddlCatalog` | `I_Inspectioncatalog` | [1..1] |
-| `_InspSpecAddlSelectedSet` | `I_InspectionSelectedSet` | [1..1] |
-| `_InspSpecAddlCodeGroup` | `I_InspectionCodeGroup` | [1..1] |
-| `_InspSpecAddlSeldCodeSetPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecificationPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecification` | `I_InspectionSpecification` | [1..1] |
-| `_InspSpecificationVersion` | `I_InspSpecificationVersion` | [1..1] |
-| `_InspSpecAddlCatalog` | `I_Inspectioncatalog` | [1..1] |
-| `_InspSpecAddlSelectedSet` | `I_InspectionSelectedSet` | [1..1] |
-| `_InspSpecAddlCodeGroup` | `I_InspectionCodeGroup` | [1..1] |
-| `_InspSpecAddlSeldCodeSetPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecificationPlant` | `I_Plant` | [1..1] |
-| `_InspectionSpecification` | `I_InspectionSpecification` | [1..1] |
-| `_InspSpecificationVersion` | `I_InspSpecificationVersion` | [1..1] |
-| `_InspSpecAddlCatalog` | `I_Inspectioncatalog` | [1..1] |
-| `_InspSpecAddlSelectedSet` | `I_InspectionSelectedSet` | [1..1] |
-| `_InspSpecAddlCodeGroup` | `I_InspectionCodeGroup` | [1..1] |
-| `_InspSpecAddlSeldCodeSetPlant` | `I_Plant` | [1..1] |
 | `_InspectionSpecificationPlant` | `I_Plant` | [1..1] |
 | `_InspectionSpecification` | `I_InspectionSpecification` | [1..1] |
 | `_InspSpecificationVersion` | `I_InspSpecificationVersion` | [1..1] |

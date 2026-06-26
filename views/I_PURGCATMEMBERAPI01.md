@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurgCatPartyUUID` | `PurgCatPartyUUID` |
+| `PurgCatPartyUUID` | `PurgCatPartyUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `UserID` | `UserID` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |

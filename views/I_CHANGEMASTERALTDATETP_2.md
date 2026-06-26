@@ -32,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
+| `ChangeNumber` | `ChangeNumber` |
+| `ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
 | `ChgNmbrAlternativeDate` | `ChgNmbrAlternativeDate` |
 | `ChgNmbrAltvDateIsAssignedToObj` | `ChgNmbrAltvDateIsAssignedToObj` |
 | `ChgNmbrAlternativeDateCounter` | `ChgNmbrAlternativeDateCounter` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `_ChangeMaster : redirected to parent I_ChangeMasterTP_2` | *Association* |
 
 ## Associations
 

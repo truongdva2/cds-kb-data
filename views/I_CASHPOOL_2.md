@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashPool
 ---
 # I_CASHPOOL_2
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPool` | `CashPool` |
+| `CashPool` | `CashPool` |
 | `CashPoolIsDeleted` | `CashPoolIsDeleted` |
 | `CashPoolType` | `CashPoolType` |
 | `CashPoolTransfDrctn` | `CashPoolTransfDrctn` |

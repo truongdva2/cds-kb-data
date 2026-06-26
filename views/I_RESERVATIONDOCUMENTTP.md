@@ -16,6 +16,7 @@ tags:
   - document
   - component:MM-IM-RS-2CL
   - lob:Sourcing & Procurement
+  - bo:ReservationDocument
 ---
 # I_RESERVATIONDOCUMENTTP
 
@@ -32,8 +33,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `element: 'Plant', localElement: 'IssuingOrReceivingPlant' }]` | `element: 'Plant', localElement: 'IssuingOrReceivingPlant' }]` |
-| `} ]` | `} ]` |
+| `Reservation` | `Reservation` |
+| `ResvnVerificationCompanyCode` | `ResvnVerificationCompanyCode` |
+| `ReservationDate` | `ReservationDate` |
+| `UserID` | `UserID` |
+| `GoodsMovementType` | `GoodsMovementType` |
+| `CostCenter` | `CostCenter` |
+| `AssetNumber` | `AssetNumber` |
+| `AssetSubNumber` | `AssetSubNumber` |
+| `OrderID` | `OrderID` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `IssuingOrReceivingPlant` | `IssuingOrReceivingPlant` |
 | `IssuingOrReceivingStorageLoc` | `IssuingOrReceivingStorageLoc` |
 | `IsCheckedAgainstFactoryCal` | `IsCheckedAgainstFactoryCal` |
 | `CreationDateTime` | `CreationDateTime` |
@@ -49,7 +62,6 @@ tags:
 | `_WBSElementBasicData` | *Association* |
 | `_IssuingOrReceivingPlant` | *Association* |
 | `_IssuingOrReceivingStorageLoc` | *Association* |
-| `_ReservationDocumentItemTP : redirected to composition child I_ReservationDocumentItemTP` | *Association* |
 
 ## Associations
 

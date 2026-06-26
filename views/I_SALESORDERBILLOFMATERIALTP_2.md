@@ -44,14 +44,14 @@ tags:
 | `Plant` | `bom_header.Plant` |
 | `SalesOrder` | `bom_header.SalesOrder` |
 | `SalesOrderItem` | `bom_header.SalesOrderItem` |
-| `bom_header.LastChangeDateTime` | `bom_header.LastChangeDateTime` |
+| `LastChangeDateTime` | `bom_header.LastChangeDateTime` |
 | `EngineeringChangeDocForEdit` | `bom_header.EngineeringChangeDocForEdit` |
 | `BillOfMaterialHeaderUUID` | `bom_header.BillOfMaterialHeaderUUID` |
 | `BillOfMaterialVariantUsage` | `bom_header.BillOfMaterialVariantUsage` |
 | `ValidityStartDate` | `bom_header.ValidityStartDate` |
 | `ValidityEndDate` | `bom_header.ValidityEndDate` |
-| `bom_header.BOMHeaderInternalChangeCount` | `bom_header.BOMHeaderInternalChangeCount` |
-| `bom_header.BOMHeaderText` | `bom_header.BOMHeaderText` |
+| `BOMHeaderInternalChangeCount` | `bom_header.BOMHeaderInternalChangeCount` |
+| `BOMHeaderText` | `bom_header.BOMHeaderText` |
 | `BOMExplosionApplication` | `bom_header.BOMExplosionApplication` |
 | `BOMUsagePriority` | `bom_header.BOMUsagePriority` |
 | `BillOfMaterialAuthsnGrp` | `bom_header.BillOfMaterialAuthsnGrp` |
@@ -61,10 +61,10 @@ tags:
 | `BillOfMaterialStatus` | `bom_header.BillOfMaterialStatus` |
 | `ChgToEngineeringChgDocument` | `bom_header.ChgToEngineeringChgDocument` |
 | `IsMarkedForDeletion` | `bom_header.IsMarkedForDeletion` |
-| `bom_header.BOMIsArchivedForDeletion` | `bom_header.BOMIsArchivedForDeletion` |
-| `IsConfiguredMaterial,  -- MAST-KZKFG` | `bom_header.IsConfiguredMaterial` |
-| `BOMIsConfigurable,            -- MAST-KZKFG` | `bom_header.BOMIsConfigurable` |
-| `IsALE` | `bom_header.IsALE` |
+| `BOMIsArchivedForDeletion` | `bom_header.BOMIsArchivedForDeletion` |
+| `IsConfiguredMaterial` | `bom_header.IsConfiguredMaterial` |
+| `BOMIsConfigurable` | `-- MAST-KZKFG bom_header.BOMIsConfigurable` |
+| `IsALE` | `-- MAST-KZKFG bom_header.IsALE` |
 | `BOMHeaderBaseUnit` | `bom_header.BOMHeaderBaseUnit` |
 | `BOMHeaderQuantityInBaseUnit` | `bom_header.BOMHeaderQuantityInBaseUnit` |
 | `RecordCreationDate` | `bom_header.RecordCreationDate` |
@@ -77,7 +77,6 @@ tags:
 | `BOMAssetNtwkHndovrIsRelevant` | `bom_header.BOMAssetNtwkHndovrIsRelevant` |
 | `_Plant` | *Association* |
 | `_BOMChangeNumbers` | *Association* |
-| `_BillOfMaterialItem : redirected to composition child I_SlsOrdBillOfMaterialItemTP_2` | *Association* |
 
 ## Associations
 

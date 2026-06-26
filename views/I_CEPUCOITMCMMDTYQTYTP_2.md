@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key PurgDocCmmdtyQtySqntlNumber` | `PurgDocCmmdtyQtySqntlNumber` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `PurgDocCmmdtyQtySqntlNumber` | `PurgDocCmmdtyQtySqntlNumber` |
 | `Commodity` | `Commodity` |
 | `PurgDocCmmdtyQtyValidToDate` | `PurgDocCmmdtyQtyValidToDate` |
 | `PurgDocCmmdtyQtyValidFromDate` | `PurgDocCmmdtyQtyValidFromDate` |
@@ -43,9 +43,6 @@ tags:
 | `ItemQuantityUnit` | `ItemQuantityUnit` |
 | `PurgDocCmmdtyUpdateCycle` | `PurgDocCmmdtyUpdateCycle` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralPurchaseContract   : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurchaseContractItem : redirected to parent I_CntrlPurchaseContractItmTP_2` | *Association* |
 
 ## Associations
 

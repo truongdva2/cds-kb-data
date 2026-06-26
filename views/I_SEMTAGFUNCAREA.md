@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:FI-FIO-GL-HIE-2CL
   - lob:Finance
+  - bo:SemanticTagFunctionalArea
 ---
 # I_SEMTAGFUNCAREA
 
@@ -28,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GLAccountHierarchy` | `GLAccountHierarchy` |
-| `key HierarchyNode` | `HierarchyNode` |
-| `key SemanticTag` | `SemanticTag` |
-| `key ValidityEndDate` | `ValidityEndDate` |
-| `key ValidityStartDate` | `ValidityStartDate` |
-| `key FunctionalArea` | `FunctionalArea` |
+| `GLAccountHierarchy` | `GLAccountHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `SemanticTag` | `SemanticTag` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `FunctionalArea` | `FunctionalArea` |
 | `_Hierarchy` | *Association* |
 | `_GLAccountHierarchyNode` | *Association* |
 | `_SemanticTag` | *Association* |

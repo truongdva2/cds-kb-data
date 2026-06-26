@@ -31,18 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.ConsolidationGroup` | `_Source.ConsolidationGroup` |
-| `key _Source.ConsolidationUnit` | `_Source.ConsolidationUnit` |
-| `key _Source.ConsolidationVersion` | `_Source.ConsolidationVersion` |
-| `key _Source.GroupStrucFromFiscalYearPeriod` | `_Source.GroupStrucFromFiscalYearPeriod` |
-| `_Source.GroupStrucToFiscalYearPeriod` | *Association* |
-| `_Source.FirstCnsldtnFiscalYearPeriod` | *Association* |
-| `_Source.FirstCnsldtnIsAtEndOfPeriod` | *Association* |
-| `_Source.DivestitureFiscalYearPeriod` | *Association* |
-| `_Source.DivestitureIsAtBeginOfPeriod` | *Association* |
-| `_Source.DivestitureIsDueToMerger` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnGrpStrucMethAssgmt as _CnsldtnGrpStrucMethAssgmt : redirected to composition child I_CnsldtnGrpStrucMethAssgmtTP` | *Association* |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationUnit` | `_Source.ConsolidationUnit` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `GroupStrucFromFiscalYearPeriod` | `_Source.GroupStrucFromFiscalYearPeriod` |
+| `GroupStrucToFiscalYearPeriod` | `_Source.GroupStrucToFiscalYearPeriod` |
+| `FirstCnsldtnFiscalYearPeriod` | `_Source.FirstCnsldtnFiscalYearPeriod` |
+| `FirstCnsldtnIsAtEndOfPeriod` | `_Source.FirstCnsldtnIsAtEndOfPeriod` |
+| `DivestitureFiscalYearPeriod` | `_Source.DivestitureFiscalYearPeriod` |
+| `DivestitureIsAtBeginOfPeriod` | `_Source.DivestitureIsAtBeginOfPeriod` |
+| `DivestitureIsDueToMerger` | `_Source.DivestitureIsDueToMerger` |
+| `_CnsldtnGrpStrucMethAssgmt` | *Association* |
 
 ## Associations
 

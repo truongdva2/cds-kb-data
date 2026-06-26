@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MrchdsCategoryHierarchyNode
 ---
 # I_MRCHDSCATEGORYHIERARCHYNODE
 
@@ -30,12 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdcathiernode preserving type )` | `cast(MrchdsCatHierNode.class` |
-| `case` | `case` |
-| `when class_header.tstmp_i >= class_header.tstmp_c and class_header.tstmp_i >= MrchdsCatHierNode.lastchangeddatetime then class_header.tstmp_i` | `when class_header.tstmp_i >= class_header.tstmp_c and class_header.tstmp_i >= MrchdsCatHierNode.lastchangeddatetime then class_header.tstmp_i` |
-| `when class_header.tstmp_c >= class_header.tstmp_i and class_header.tstmp_c >= MrchdsCatHierNode.lastchangeddatetime then class_header.tstmp_c` | `when class_header.tstmp_c >= class_header.tstmp_i and class_header.tstmp_c >= MrchdsCatHierNode.lastchangeddatetime then class_header.tstmp_c` |
-| `else MrchdsCatHierNode.lastchangeddatetime` | `else MrchdsCatHierNode.lastchangeddatetime` |
-| `LastChangeDateTime` | `end` |
+| `MrchdsCategoryHierarchyNode` | `cast(MrchdsCatHierNode.class as rfm_mrchdcathiernode preserving type )` |
+| `LastChangeDateTime` | `case…end` |
 | `ClassInternalID` | `MrchdsCatHierNode.clint` |
 | `_MrchdsCatHierNodeText` | *Association* |
 | `_MrchdsCatHierNodeCharc` | *Association* |

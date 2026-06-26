@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-GTF-VDM
   - lob:Cross-Application Components
+  - bo:StatusProfile
 ---
 # I_STATUSPROFILE
 

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FreightBookingItemUUID  : /scmtms/vdm_frt_bkg_item_uuid;` | `FreightBookingItemUUID  : /scmtms/vdm_frt_bkg_item_uuid;` |
+| `FreightBookingItemUUID` | `/scmtms/vdm_frt_bkg_item_uuid` |
 
 ## Associations
 

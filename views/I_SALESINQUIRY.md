@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesInquiry
 ---
 # I_SALESINQUIRY
 
@@ -30,9 +31,62 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
+| `SalesInquiry` | `cast(SalesDocument as sales_inquiry preserving type )` |
+| `SalesInquiryType` | `SalesDocumentType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `SoldToParty` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `SalesInquiryDate` | `SalesDocumentDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `SalesDistrict` | `SalesDistrict` |
+| `ProductCatalog` | `ProductCatalog` |
+| `BindingPeriodValidityStartDate` | `cast(BindingPeriodValidityStartDate as inquiry_valid_from preserving type )` |
+| `BindingPeriodValidityEndDate` | `cast(BindingPeriodValidityEndDate as inquiry_valid_to preserving type )` |
+| `HdrOrderProbabilityInPercent` | `HdrOrderProbabilityInPercent` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `RetailPromotion` | `RetailPromotion` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `SalesInquiryCondition` | `SalesDocumentCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingCompanyCode` | `BillingCompanyCode` |
+| `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FixedValueDate` | `FixedValueDate` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `BusinessArea` | `BusinessArea` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `CostCenterBusinessArea` | `CostCenterBusinessArea` |
+| `CostCenter` | `CostCenter` |
 | `ControllingArea` | `ControllingArea` |
 | `OrderID` | `OrderID` |
 | `ReferenceSDDocument` | `ReferenceSDDocument` |

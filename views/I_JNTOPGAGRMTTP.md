@@ -31,43 +31,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JntOpgAgrmt.CompanyCode` | `JntOpgAgrmt.CompanyCode` |
-| `key JntOpgAgrmt.JntOpgAgrmt` | `JntOpgAgrmt.JntOpgAgrmt` |
-| `JntOpgAgrmt.JntVntrContractNmbr` | `JntOpgAgrmt.JntVntrContractNmbr` |
-| `JntOpgAgrmt.JntVntrPayrollClearingSet` | `JntOpgAgrmt.JntVntrPayrollClearingSet` |
-| `JntOpgAgrmt.JntVntrConstructionExclsnSet` | `JntOpgAgrmt.JntVntrConstructionExclsnSet` |
-| `JntOpgAgrmt.JntVntrCatastropheExclsnSet` | `JntOpgAgrmt.JntVntrCatastropheExclsnSet` |
-| `JntOpgAgrmt.JntVntrConstructionOvhdRule` | `JntOpgAgrmt.JntVntrConstructionOvhdRule` |
-| `JntOpgAgrmt.JntVntrCatastropheOvhdRule` | `JntOpgAgrmt.JntVntrCatastropheOvhdRule` |
-| `JntOpgAgrmt.JVAOvhdPercentProdg` | `JntOpgAgrmt.JVAOvhdPercentProdg` |
-| `JntOpgAgrmt.JVAExclsnAcctSetPercentProdg` | `JntOpgAgrmt.JVAExclsnAcctSetPercentProdg` |
-| `JntOpgAgrmt.JVAOvhdPercentDev` | `JntOpgAgrmt.JVAOvhdPercentDev` |
-| `JntOpgAgrmt.JVAExclsnAcctSetPercentDev` | `JntOpgAgrmt.JVAExclsnAcctSetPercentDev` |
-| `JntOpgAgrmt.JntVntrExplorationOvhdRule` | `JntOpgAgrmt.JntVntrExplorationOvhdRule` |
-| `JntOpgAgrmt.JntVntrDrillingOvhdRule` | `JntOpgAgrmt.JntVntrDrillingOvhdRule` |
-| `JntOpgAgrmt.JntVntrCapitalExclsnSet` | `JntOpgAgrmt.JntVntrCapitalExclsnSet` |
-| `JntOpgAgrmt.JntVntrOvhdOffsetCostCtr` | `JntOpgAgrmt.JntVntrOvhdOffsetCostCtr` |
-| `JntOpgAgrmt.JntOpgAgrmtProdgWellThld` | `JntOpgAgrmt.JntOpgAgrmtProdgWellThld` |
-| `JntOpgAgrmt.JntVntrOvhdRecurringDoc` | `JntOpgAgrmt.JntVntrOvhdRecurringDoc` |
-| `JntOpgAgrmt.JntVntrExpnIsEscalated` | `JntOpgAgrmt.JntVntrExpnIsEscalated` |
-| `JntOpgAgrmt.JntOpgAgrmtClass` | `JntOpgAgrmt.JntOpgAgrmtClass` |
-| `JntOpgAgrmt.JntOpgAgrmtCreatedByUser` | `JntOpgAgrmt.JntOpgAgrmtCreatedByUser` |
-| `JntOpgAgrmt.JntOpgAgrmtCreationTime` | `JntOpgAgrmt.JntOpgAgrmtCreationTime` |
-| `JntOpgAgrmt.JntOpgAgrmtCreationDate` | `JntOpgAgrmt.JntOpgAgrmtCreationDate` |
-| `JntOpgAgrmt.JntOpgAgrmtLastChangedByUser` | `JntOpgAgrmt.JntOpgAgrmtLastChangedByUser` |
-| `JntOpgAgrmt.JntOpgAgrmtLastChangedTime` | `JntOpgAgrmt.JntOpgAgrmtLastChangedTime` |
-| `JntOpgAgrmt.JntOpgAgrmtLastChangedDate` | `JntOpgAgrmt.JntOpgAgrmtLastChangedDate` |
-| `JntOpgAgrmt.JntVntrPrioPerdDrillingIsCalc` | `JntOpgAgrmt.JntVntrPrioPerdDrillingIsCalc` |
-| `JntOpgAgrmt.JntVntrWBSElmntOvhdIsCalc` | `JntOpgAgrmt.JntVntrWBSElmntOvhdIsCalc` |
-| `_JntOpgAgrmtText            : redirected to composition child I_JntOpgAgrmtTextTP` | *Association* |
-| `_JntOpgAgrmtEquityGrp       : redirected to composition child I_JntOpgAgrmtEquityTypeGrpTP` | *Association* |
-| `_JntOpgAgrmtPnltyCatRcvry   : redirected to composition child I_JntOpgAgrmtPnltyCatRcvryTP` | *Association* |
-| `_JntOpgAgrmtProjSteppedRate : redirected to composition child I_JntOpgAgrmtProjSteppedRateTP` | *Association* |
-| `_JntOpgAgrmtProdgStatAssgmt : redirected to composition child I_JntOpgAgrmtProdgStatAssgmtTP` | *Association* |
-| `_JntOpgAgrmtProdgStatThld   : redirected to composition child I_JntOpgAgrmtProdgStatThldTP` | *Association* |
-| `_JntOpgAgrmtDrillingRatio   : redirected to composition child I_JntOpgAgrmtDrillingRatioTP` | *Association* |
-| `_JntOpgAgrmtParentCoOvhd    : redirected to composition child I_JntOpgAgrmtParentCoOvhdTP` | *Association* |
-| `_JntOpgAgrmtPayrollBurden   : redirected to composition child I_JntOpgAgrmtPayrollBurdenTP` | *Association* |
+| `CompanyCode` | `JntOpgAgrmt.CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt.JntOpgAgrmt` |
+| `JntVntrContractNmbr` | `JntOpgAgrmt.JntVntrContractNmbr` |
+| `JntVntrPayrollClearingSet` | `JntOpgAgrmt.JntVntrPayrollClearingSet` |
+| `JntVntrConstructionExclsnSet` | `JntOpgAgrmt.JntVntrConstructionExclsnSet` |
+| `JntVntrCatastropheExclsnSet` | `JntOpgAgrmt.JntVntrCatastropheExclsnSet` |
+| `JntVntrConstructionOvhdRule` | `JntOpgAgrmt.JntVntrConstructionOvhdRule` |
+| `JntVntrCatastropheOvhdRule` | `JntOpgAgrmt.JntVntrCatastropheOvhdRule` |
+| `JVAOvhdPercentProdg` | `JntOpgAgrmt.JVAOvhdPercentProdg` |
+| `JVAExclsnAcctSetPercentProdg` | `JntOpgAgrmt.JVAExclsnAcctSetPercentProdg` |
+| `JVAOvhdPercentDev` | `JntOpgAgrmt.JVAOvhdPercentDev` |
+| `JVAExclsnAcctSetPercentDev` | `JntOpgAgrmt.JVAExclsnAcctSetPercentDev` |
+| `JntVntrExplorationOvhdRule` | `JntOpgAgrmt.JntVntrExplorationOvhdRule` |
+| `JntVntrDrillingOvhdRule` | `JntOpgAgrmt.JntVntrDrillingOvhdRule` |
+| `JntVntrCapitalExclsnSet` | `JntOpgAgrmt.JntVntrCapitalExclsnSet` |
+| `JntVntrOvhdOffsetCostCtr` | `JntOpgAgrmt.JntVntrOvhdOffsetCostCtr` |
+| `JntOpgAgrmtProdgWellThld` | `JntOpgAgrmt.JntOpgAgrmtProdgWellThld` |
+| `JntVntrOvhdRecurringDoc` | `JntOpgAgrmt.JntVntrOvhdRecurringDoc` |
+| `JntVntrExpnIsEscalated` | `JntOpgAgrmt.JntVntrExpnIsEscalated` |
+| `JntOpgAgrmtClass` | `JntOpgAgrmt.JntOpgAgrmtClass` |
+| `JntOpgAgrmtCreatedByUser` | `JntOpgAgrmt.JntOpgAgrmtCreatedByUser` |
+| `JntOpgAgrmtCreationTime` | `JntOpgAgrmt.JntOpgAgrmtCreationTime` |
+| `JntOpgAgrmtCreationDate` | `JntOpgAgrmt.JntOpgAgrmtCreationDate` |
+| `JntOpgAgrmtLastChangedByUser` | `JntOpgAgrmt.JntOpgAgrmtLastChangedByUser` |
+| `JntOpgAgrmtLastChangedTime` | `JntOpgAgrmt.JntOpgAgrmtLastChangedTime` |
+| `JntOpgAgrmtLastChangedDate` | `JntOpgAgrmt.JntOpgAgrmtLastChangedDate` |
+| `JntVntrPrioPerdDrillingIsCalc` | `JntOpgAgrmt.JntVntrPrioPerdDrillingIsCalc` |
+| `JntVntrWBSElmntOvhdIsCalc` | `JntOpgAgrmt.JntVntrWBSElmntOvhdIsCalc` |
 
 ## Associations
 

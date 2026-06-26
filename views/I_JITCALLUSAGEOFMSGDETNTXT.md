@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:JITCallUsageOfMsgDetn
 ---
 # I_JITCALLUSAGEOFMSGDETNTXT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabmsd)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pabmsd_text preserving type)` | `cast(ddtext` |
+| `JITCallUsageOfMsgDetn` | `cast(substring(domvalue_l, 1, 1) as pabmsd)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `JITCallUsageOfMsgDetnName` | `cast(ddtext as vdm_pabmsd_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_JITCallUsageOfMsgDetn` | *Association* |
 | `_Language` | *Association* |

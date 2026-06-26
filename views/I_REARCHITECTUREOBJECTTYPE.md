@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjectType
 ---
 # I_REARCHITECTUREOBJECTTYPE
 

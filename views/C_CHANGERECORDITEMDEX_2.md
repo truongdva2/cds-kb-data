@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecordItem
 ---
 # C_CHANGERECORDITEMDEX_2
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
+| `ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
 | `ChangeRecordUUID` | `ChangeRecordUUID` |
 
 ## Associations

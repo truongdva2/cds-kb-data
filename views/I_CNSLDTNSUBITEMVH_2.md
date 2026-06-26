@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `_Source._Text[1: Language=$session.system_language].CnsldtnSubitemText` | *Association* |
-| `_Source._Text[1: Language=$session.system_language].CnsldtnSubitemMediumText` | *Association* |
+| `CnsldtnSubitemCategory` | `_Source.CnsldtnSubitemCategory` |
+| `CnsldtnSubitem` | `_Source.CnsldtnSubitem` |
+| `CnsldtnSubitemText` | `_Source._Text[1: Language=$session.system_language].CnsldtnSubitemText` |
+| `CnsldtnSubitemMediumText` | `_Source._Text[1: Language=$session.system_language].CnsldtnSubitemMediumText` |
 
 ## Associations
 

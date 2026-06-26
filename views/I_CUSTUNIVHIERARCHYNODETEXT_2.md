@@ -15,6 +15,7 @@ tags:
   - text
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:CustomerUnivHierarchyNodeText
 ---
 # I_CUSTUNIVHIERARCHYNODETEXT_2
 
@@ -34,8 +35,8 @@ tags:
 | `Language` | `nodetn.spras` |
 | `UniversalHierarchy` | `nodetn.hryid` |
 | `HierarchyNode` | `nodetn.hrynode` |
-| `custhierarchyvalidityenddate preserving type )` | `cast(nodetn.hryvalto` |
-| `custhierarchyvaliditystartdate preserving type )` | `cast(nodetn.hryvalfrom` |
+| `CustUnivHierarchyValidEndDate` | `cast(nodetn.hryvalto as custhierarchyvalidityenddate preserving type )` |
+| `CustUnivHierarchyValidStartDte` | `cast(nodetn.hryvalfrom as custhierarchyvaliditystartdate preserving type )` |
 | `CustUnivHierarchyType` | `nodetn.hrytyp` |
 | `CustUnivHierarchyShortID` | `dir.hrysid` |
 | `CustUnivHierarchyParentNode` | `nodetn.parnode` |

@@ -15,6 +15,7 @@ tags:
   - freight
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFFreightNature
 ---
 # I_BR_NFFREIGHTNATURE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_ind_nat_frt )` | `cast ( domvalue_l` |
+| `BR_NFFreightNature` | `cast ( domvalue_l as logbr_ind_nat_frt )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

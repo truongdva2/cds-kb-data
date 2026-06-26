@@ -31,13 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'TechObjIsEquipOrFuncnlLoc'` | `localElement: 'TechObjIsEquipOrFuncnlLoc'` |
-| `element: 'TechObjIsEquipOrFuncnlLoc'` | `element: 'TechObjIsEquipOrFuncnlLoc'` |
-| `}]` | `}]` |
-| `}]` | `}]` |
-| `eams_tec_obj )` | `cast (''` |
-| `eams_tech_obj_conv )` | `cast (''` |
-| `eams_tec_obj_des )` | `cast (''` |
+| `MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
+| `MaintenanceItemObject` | `MaintenanceItemObject` |
+| `Equipment` | `Equipment` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast ( 'EAMS_EQUI' as eams_tec_obj_type_value )` |
+| `TechnicalObject` | `cast ( Equipment as eams_tec_obj )` |
+| `TechnicalObjectLabel` | `cast ( Equipment as eams_tech_obj_conv )` |
+| `TechnicalObjectDescription` | `cast(…)` |
 | `Assembly` | `Assembly` |
 | `Material` | `Material` |
 | `SerialNumber` | `SerialNumber` |
@@ -45,7 +46,6 @@ tags:
 | `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
 | `SortField` | `SortField` |
 | `Product` | `Product` |
-| `/* Associations */` | `/* Associations */` |
 | `_Assembly` | *Association* |
 | `_Equipment` | *Association* |
 | `_FunctionalLocation` | *Association* |
@@ -63,12 +63,6 @@ tags:
 | `_TechnicalObject` | `I_TechnicalObject` | [0..1] |
 | `_TechObjIsEquipOrFuncnlLoc` | `I_TechObjIsEquipOrFuncnlLoc` | [0..1] |
 | `_EquipmentText` | `I_EquipmentText` | [0..*] |
-| `_TechnicalObject` | `I_TechnicalObject` | [0..1] |
-| `_TechObjIsEquipOrFuncnlLoc` | `I_TechObjIsEquipOrFuncnlLoc` | [0..1] |
-| `_FunctionalLocationLabel` | `I_FunctionalLocationLabel` | [0..1] |
-| `_FunctionalLocationText` | `I_FunctionalLocationText` | [0..*] |
-| `_TechnicalObject` | `I_TechnicalObject` | [0..1] |
-| `_TechObjIsEquipOrFuncnlLoc` | `I_TechObjIsEquipOrFuncnlLoc` | [0..1] |
 
 ## Source Code
 

@@ -18,6 +18,7 @@ tags:
   - status
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeNumberStatus
 ---
 # I_CHANGEMASTERSTATUSSTDVH
 
@@ -34,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `_Text` | *Association* |
 
 ## Associations

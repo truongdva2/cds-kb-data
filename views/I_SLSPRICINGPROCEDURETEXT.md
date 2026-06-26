@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingProcedure
 ---
 # I_SLSPRICINGPROCEDURETEXT
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key PricingProcedure` | `PricingProcedure` |
+| `Language` | `Language` |
+| `PricingProcedure` | `PricingProcedure` |
 | `ConditionUsage` | `ConditionUsage` |
 | `ConditionApplication` | `ConditionApplication` |
 | `PricingProcedureName` | `PricingProcedureName` |

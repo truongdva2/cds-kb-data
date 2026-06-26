@@ -33,8 +33,7 @@ tags:
 |---|---|
 | `ProcurementBlock` | `tq04s.sperrfkt` |
 | `Language` | `tq04s.sprache` |
-| `vdm_qprocurementblock_text preserving type  )` | `cast( tq04s.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `ProcurementBlockText` | `cast( tq04s.kurztext as vdm_qprocurementblock_text preserving type )` |
 | `_ProcurementBlock` | *Association* |
 | `_Language` | *Association* |
 

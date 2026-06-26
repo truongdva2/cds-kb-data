@@ -29,14 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key SupplierInvoiceItem` | `SupplierInvoiceItem` |
-| `key FiscalYear` | `FiscalYear` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderItem : redirected to parent I_ServiceOrderItemTP` | *Association* |
-| `_ServiceOrderTP   : redirected to I_ServiceOrderTP` | *Association* |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `SupplierInvoiceItem` | `SupplierInvoiceItem` |
+| `FiscalYear` | `FiscalYear` |
 
 ## Associations
 

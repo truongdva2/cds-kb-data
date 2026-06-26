@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:LO-WTY-FIO
   - lob:Logistics General
+  - bo:WarrantyClaim
 ---
 # I_WARRANTYCLAIMITEMTYPEVH
 

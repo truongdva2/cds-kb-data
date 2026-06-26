@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-FQM-2CL
   - lob:Other
+  - bo:CashFlow
 ---
 # I_CASHFLOWDELTADATA
 

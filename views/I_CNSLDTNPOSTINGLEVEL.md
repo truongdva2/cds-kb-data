@@ -30,7 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_Text_2'}` | `releaseState: #DEPRECATED, successor: '_Text_2'}` |
+| `PostingLevel` | `cast(left(_Domain.DomainValue, 2) as fincs_postinglevel)` |
+| `ConsolidationReportingLevel` | `cast(…)` |
+| `DomainValue` | `_Domain.DomainValue` |
+| `_ReportingLevel` | *Association* |
+| `_PostgLevelHierNode` | *Association* |
 | `_Text` | *Association* |
 | `_Text_2` | *Association* |
 

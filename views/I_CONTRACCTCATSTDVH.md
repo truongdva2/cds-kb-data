@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `_Text[1:Language = $session.system_language].ContractAccountCategoryName` | *Association* |
+| `ContractAccountCategory` | `ContractAccountCategory` |
+| `CAApplicationArea` | `CAApplicationArea` |
+| `ContractAccountCategoryName` | `_Text[1:Language = $session.system_language].ContractAccountCategoryName` |
 | `_Text` | *Association* |
 
 ## Associations

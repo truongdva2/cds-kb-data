@@ -29,13 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key BillingDocument` | `BillingDocument` |
-| `key BillingDocumentItem` | `BillingDocumentItem` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationItem : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP   : redirected to I_ServiceConfirmationTP` | *Association* |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
 
 ## Associations
 

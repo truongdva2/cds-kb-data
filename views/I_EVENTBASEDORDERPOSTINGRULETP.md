@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EventBasedDistrPostingRuleUUID` | `EventBasedDistrPostingRuleUUID` |
+| `EventBasedDistrPostingRuleUUID` | `EventBasedDistrPostingRuleUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
 | `ControllingObject` | `ControllingObject` |
 | `ControllingObjectType` | `ControllingObjectType` |

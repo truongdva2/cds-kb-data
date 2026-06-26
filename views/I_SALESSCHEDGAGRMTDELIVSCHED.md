@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-OA-SCH-2CL
   - lob:Sales & Distribution
+  - bo:SalesSchedgAgrmtDelivSched
 ---
 # I_SALESSCHEDGAGRMTDELIVSCHED
 
@@ -37,20 +38,20 @@ tags:
 | `CumulativeReceiptQuantity` | `vblb.abefz` |
 | `DeliveryScheduleStartDate` | `vblb.abrab` |
 | `DeliveryScheduleEndDate` | `vblb.abrbi` |
-| `sd_schedg_agrmt_delivery_sched  preserving type )` | `cast(vblb.labnk` |
+| `CustomerDeliveryScheduleNumber` | `cast(vblb.labnk as sd_schedg_agrmt_delivery_sched preserving type )` |
 | `DeliveryScheduleDate` | `vblb.abrdt` |
-| `sd_schedg_agrmt_rel_date_key preserving type )` | `cast(vblb.tersl` |
-| `sd_schedg_agrmt_last_dlv_date preserving type )` | `cast(vblb.lfdkd` |
-| `sd_schedg_agrmt_last_delivery preserving type )` | `cast(vblb.lfnkd` |
+| `ScheduleLineDateKey` | `cast(vblb.tersl as sd_schedg_agrmt_rel_date_key preserving type )` |
+| `LastDeliveryDocPostingDate` | `cast(vblb.lfdkd as sd_schedg_agrmt_last_dlv_date preserving type )` |
+| `LastDeliveryDocument` | `cast(vblb.lfnkd as sd_schedg_agrmt_last_delivery preserving type )` |
 | `LastIntDeliveryScheduleNumber` | `vblb.ablli` |
 | `CreationDate` | `vblb.erdat` |
 | `CreationTime` | `vblb.erzei` |
 | `CreatedByUser` | `vblb.ernam` |
 | `LastDeliveryNoteSentByExtAgt` | `vblb.edlls` |
 | `LastDeliveryNoteSentDate` | `vblb.edldt` |
-| `sd_schedg_agrmt_jit_horizon preserving type )` | `cast(vblb.abhor` |
-| `sd_schedg_agrmt_cust_fscl_yr preserving type )` | `cast(vblb.gjkun` |
-| `sd_schedg_agrmt_cust_fscl_yr preserving type )` | `cast(vblb.vjkun` |
+| `JITHorizonEndDate` | `cast(vblb.abhor as sd_schedg_agrmt_jit_horizon preserving type )` |
+| `CustomerFiscalYear` | `cast(vblb.gjkun as sd_schedg_agrmt_cust_fscl_yr preserving type )` |
+| `PreviousCustomerFiscalYear` | `cast(vblb.vjkun as sd_schedg_agrmt_cust_fscl_yr preserving type )` |
 | `RequirementsStatusKey` | `vblb.labky` |
 | `LastReceiptQuantity` | `vblb.lfmkd` |
 | `SalesQtyToBaseQtyNmrtr` | `vblb.umvkz` |

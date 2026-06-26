@@ -35,23 +35,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnItemPartner.CustomerReturn` | `CustomerReturnItemPartner.CustomerReturn` |
-| `key CustomerReturnItemPartner.CustomerReturnItem` | `CustomerReturnItemPartner.CustomerReturnItem` |
-| `key CustomerReturnItemPartner.PartnerFunction` | `CustomerReturnItemPartner.PartnerFunction` |
-| `CustomerReturnItemPartner.PartnerFunctionForEdit` | `CustomerReturnItemPartner.PartnerFunctionForEdit` |
-| `CustomerReturnItemPartner.Customer` | `CustomerReturnItemPartner.Customer` |
-| `CustomerReturnItemPartner.Supplier` | `CustomerReturnItemPartner.Supplier` |
-| `CustomerReturnItemPartner.Personnel` | `CustomerReturnItemPartner.Personnel` |
-| `CustomerReturnItemPartner.ContactPerson` | `CustomerReturnItemPartner.ContactPerson` |
-| `CustomerReturnItemPartner.ReferenceBusinessPartner` | `CustomerReturnItemPartner.ReferenceBusinessPartner` |
-| `CustomerReturnItemPartner.Partner` | `CustomerReturnItemPartner.Partner` |
-| `CustomerReturnItemPartner.PartnerIsSpecificForSDDocItem` | `CustomerReturnItemPartner.PartnerIsSpecificForSDDocItem` |
-| `CustomerReturnItemPartner.CustomerReturnType` | `CustomerReturnItemPartner.CustomerReturnType` |
-| `CustomerReturnItemPartner.SalesOrganization` | `CustomerReturnItemPartner.SalesOrganization` |
-| `CustomerReturnItemPartner.DistributionChannel` | `CustomerReturnItemPartner.DistributionChannel` |
-| `CustomerReturnItemPartner.OrganizationDivision` | `CustomerReturnItemPartner.OrganizationDivision` |
-| `_Item       : redirected to parent I_CustomerReturnItemTP` | *Association* |
-| `_CustomerReturn : redirected to I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustomerReturnItemPartner.CustomerReturn` |
+| `CustomerReturnItem` | `CustomerReturnItemPartner.CustomerReturnItem` |
+| `PartnerFunction` | `CustomerReturnItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `CustomerReturnItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `CustomerReturnItemPartner.Customer` |
+| `Supplier` | `CustomerReturnItemPartner.Supplier` |
+| `Personnel` | `CustomerReturnItemPartner.Personnel` |
+| `ContactPerson` | `CustomerReturnItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `CustomerReturnItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `CustomerReturnItemPartner.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `CustomerReturnItemPartner.PartnerIsSpecificForSDDocItem` |
+| `CustomerReturnType` | `CustomerReturnItemPartner.CustomerReturnType` |
+| `SalesOrganization` | `CustomerReturnItemPartner.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturnItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturnItemPartner.OrganizationDivision` |
 
 ## Associations
 

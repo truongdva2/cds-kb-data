@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:QualityControlChartType
 ---
 # I_QUALITYCONTROLCHARTTYPE
 
@@ -29,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `QualityControlChartType` | `qrkart` |
 | `ControlChartAxisType` | `xgroup` |
 | `_Text` | *Association* |

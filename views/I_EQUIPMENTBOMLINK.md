@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `BillOfMaterial` | `stlnr` |
+| `BillOfMaterialVariant` | `stlal` |
+| `Equipment` | `equnr` |
 | `Plant` | `werks` |
 | `BillOfMaterialVariantUsage` | `stlan` |
-| `stlty preserving type)` | `cast ('E'` |
+| `BillOfMaterialCategory` | `cast ('E' as stlty preserving type)` |
 | `_BillOfMaterialUsage` | *Association* |
 
 ## Associations

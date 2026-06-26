@@ -34,15 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Batch` | `Batch` |
-| `key Plant` | `Plant` |
+| `Material` | `Material` |
+| `Batch` | `Batch` |
+| `Plant` | `Plant` |
 | `BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
 | `InventoryValuationType` | `InventoryValuationType` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_BatchTP : redirected to parent I_BatchTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
 
 ## Associations

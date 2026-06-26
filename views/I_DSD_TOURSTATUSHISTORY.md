@@ -32,12 +32,12 @@ tags:
 |---|---|
 | `DSD_TourIdentification` | `_History.tourid` |
 | `TourStatusSequentialNumber` | `_History.counter` |
-| `_History.status_id as TourStatusIdentification` | *Association* |
-| `_History.idate     as CreatedAtDate` | *Association* |
-| `_History.itime     as TimeOfCreation` | *Association* |
-| `_History.canceled  as TourStatusHasBeenCancelled` | *Association* |
-| `_History.man_exec  as TourStatusHasBeenSetManually` | *Association* |
-| `_TourStatus.scenario as TourScenario` | *Association* |
+| `TourStatusIdentification` | `_History.status_id` |
+| `CreatedAtDate` | `_History.idate` |
+| `TimeOfCreation` | `_History.itime` |
+| `TourStatusHasBeenCancelled` | `_History.canceled` |
+| `TourStatusHasBeenSetManually` | `_History.man_exec` |
+| `TourScenario` | `_TourStatus.scenario` |
 | `_Status` | *Association* |
 
 ## Associations

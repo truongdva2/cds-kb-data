@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-EVL
   - lob:Other
+  - bo:SuplrEvalRspQuestionnaireUUID
 ---
 # I_SUPLREVALRSPSTRUCQNAIREAPI01
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  SuplrEvalRspQuestionnaireUUID` | `SuplrEvalRspQuestionnaireUUID` |
+| `SuplrEvalRspQuestionnaireUUID` | `SuplrEvalRspQuestionnaireUUID` |
 | `SuplrEvalReqQuestionnaireUUID` | `SuplrEvalReqQuestionnaireUUID` |
 | `SuplrEvalRspRootQnaireUUID` | `SuplrEvalRspRootQnaireUUID` |
 | `SuplrEvalRspUUID` | `SuplrEvalRspUUID` |

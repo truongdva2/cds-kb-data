@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionType` | `ConditionType` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionType` | `ConditionType` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionRateValue` | `ConditionRateValue` |
 | `ConditionRateValueUnit` | `ConditionRateValueUnit` |

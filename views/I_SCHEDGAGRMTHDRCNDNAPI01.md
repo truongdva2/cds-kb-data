@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    SchedulingAgreement` | `SchedulingAgreement` |
-| `key    ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key    ConditionType` | `ConditionType` |
-| `key    ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionType` | `ConditionType` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionRateValue` | `ConditionRateValue` |
 | `ConditionRateValueUnit` | `ConditionRateValueUnit` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ComponentBreakdownMethod` | `ComponentBreakdownMethod` |
+| `ComponentBreakdownMethod` | `ComponentBreakdownMethod` |
 | `ComponentBreakdownMethodType` | `ComponentBreakdownMethodType` |
 | `CostBreakdownStructure` | `CostBreakdownStructure` |
 | `QuantityBreakdownStructure` | `QuantityBreakdownStructure` |

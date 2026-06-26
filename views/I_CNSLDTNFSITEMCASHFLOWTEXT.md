@@ -33,13 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `fincs_short_text_30 preserving type )` | `cast( _FSItemAttribValueTxt.CnsldtnFSItemAttribValueText` |
-| `fincs_long_text_60 preserving type )` | `cast( _FSItemAttribValueTxt.CnsldtnFSItemAttribValLongText` |
-| `_FSItemAttribValueTxt._Language` | *Association* |
+| `Language` | `cast( _FSItemAttribValueTxt.Language as spras preserving type )` |
+| `CnsldtnFSItemCashFlow` | `cast(…)` |
+| `CnsldtnFSItemCashFlowText` | `cast(…)` |
+| `CnsldtnFSItemCashFlowLongText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_CnsldtnFSItemCashFlow` | *Association* |
 
 ## Associations

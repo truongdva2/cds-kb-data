@@ -33,9 +33,9 @@ tags:
 |---|---|
 | `InternalRealEstateNumber` | `intreno` |
 | `CompanyCode` | `bukrs` |
-| `recnvdmcnnr preserving type )` | `cast(recnnr` |
+| `RealEstateContract` | `cast(recnnr as recnvdmcnnr preserving type )` |
 | `REStatusObject` | `objnr` |
-| `recaimkeyfi preserving type )` | `cast(imkey` |
+| `REInternalFinNumber` | `cast(imkey as recaimkeyfi preserving type )` |
 | `RealEstateContractOID` | `oid` |
 | `REContractAlternativeID` | `alternativeid` |
 | `RECreationType` | `creationtype` |
@@ -51,22 +51,22 @@ tags:
 | `REUserExclusive` | `userexclusive` |
 | `REAuthorizationGroup` | `authgrp` |
 | `REContractType` | `recntype` |
-| `recnvdmcnbeg preserving type )` | `cast( recnbeg` |
-| `recnvdmcnendabs preserving type )` | `cast( recnendabs` |
-| `recnvdmcnname preserving type )` | `cast( recntxt` |
-| `recnvdmdaktv preserving type )` | `cast(recndactiv` |
-| `recnvdmcntlaw preserving type)` | `cast( recntlaw` |
-| `recnvdmcntxtold preserving type)` | `cast( recntxtold` |
-| `recnvdmcnbukrscode preserving type)` | `cast( recnbukrscollect` |
+| `ContractStartDate` | `cast( recnbeg as recnvdmcnbeg preserving type )` |
+| `ContractEndDate` | `cast( recnendabs as recnvdmcnendabs preserving type )` |
+| `REContractName` | `cast( recntxt as recnvdmcnname preserving type )` |
+| `REContractActivateDate` | `cast(recndactiv as recnvdmdaktv preserving type )` |
+| `RETenancyLaw` | `cast( recntlaw as recnvdmcntlaw preserving type)` |
+| `REContractNumberOld` | `cast( recntxtold as recnvdmcntxtold preserving type)` |
+| `REMainContractCompanyCode` | `cast( recnbukrscollect as recnvdmcnbukrscode preserving type)` |
 | `REMainContract` | `recnnrcollect` |
 | `REContractCurrency` | `recncncurr` |
 | `REIndustrySector` | `industry` |
 | `REIsSalesRelevant` | `srrelevant` |
-| `recnvdmdepotype preserving type)` | `cast(dptargettype` |
+| `REContractDepositType` | `cast(dptargettype as recnvdmdepotype preserving type)` |
 | `REContractSignDate` | `recndat` |
-| `recnvdm2date preserving type)` | `cast(recn2dat` |
+| `REContract2SignDate` | `cast(recn2dat as recnvdm2date preserving type)` |
 | `REContractCashFlowDate` | `recndpo` |
-| `recnvdmcnend1st preserving type)` | `cast(recnend1st` |
+| `REContractFirstEndDate` | `cast(recnend1st as recnvdmcnend1st preserving type)` |
 | `REContractNoticeDate` | `recnnotper` |
 | `REContractNoticeInDate` | `recnnotreceipt` |
 | `REContractNoticeReason` | `recnnotreason` |
@@ -74,16 +74,16 @@ tags:
 | `RECashFlowArchivedToDate` | `cfarchivedto` |
 | `RECashFlowLockedToDate` | `cflockedto` |
 | `RECashFlowPostingFromDate` | `cfpostingfrom` |
-| `rebdvdmbeno preserving type)` | `cast(benocn` |
-| `recnvdmtranspossfrom preserving type)` | `cast(transpossfrom` |
-| `recnvdmtranspossto preserving type )` | `cast ( transpossto` |
+| `REBusinessEntity` | `cast(benocn as rebdvdmbeno preserving type)` |
+| `REObjectAvailableFromDate` | `cast(transpossfrom as recnvdmtranspossfrom preserving type)` |
+| `REObjectAvailableToDate` | `cast ( transpossto as recnvdmtranspossto preserving type )` |
 | `REHasMultipleAssignments` | `hasmultiassign` |
 | `REPossessionStartDate` | `possdatefrom` |
 | `REPossessionEndDate` | `possdateto` |
 | `ValuationRelevance` | `relevanteval` |
-| `_REKeyAssgmt.RealEstateObjectType                             as RealEstateObjectType` | *Association* |
-| `_REKeyAssgmt.REIdentificationKey                              as REIdentificationKey` | *Association* |
-| `_REContractType.REBusinessPartnerRole1                        as REBusinessPartnerRole1` | *Association* |
+| `RealEstateObjectType` | `_REKeyAssgmt.RealEstateObjectType` |
+| `REIdentificationKey` | `_REKeyAssgmt.REIdentificationKey` |
+| `REBusinessPartnerRole1` | `_REContractType.REBusinessPartnerRole1` |
 | `_CompanyCode` | *Association* |
 | `_MainContractCompanyCode` | *Association* |
 | `_CreatedByUser` | *Association* |

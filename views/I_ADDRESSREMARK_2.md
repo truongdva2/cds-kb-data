@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressRemark
 ---
 # I_ADDRESSREMARK_2
 

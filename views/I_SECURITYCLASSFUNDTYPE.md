@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClassFundType
 ---
 # I_SECURITYCLASSFUNDTYPE
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SecurityClassFundType` | `sfoty` |
-| `_Text // Make association public` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

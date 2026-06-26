@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_ccode_42 preserving type )` | `cast ( hrrp_dir_n.hryid_42` |
-| `fis_datbi preserving type )` | `cast(hrrp_dir_n.hryvalto` |
-| `fis_datab preserving type )` | `cast(hrrp_dir_n.hryvalfrom` |
+| `CompanyCodeHierarchy` | `cast ( hrrp_dir_n.hryid_42 as fis_hryid_ccode_42 preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dir_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_dir_n.hryvalfrom as fis_datab preserving type )` |
 | `LastChangedByUser` | `hrrp_dir_n.upduser` |
 | `LastChangeDateTime` | `hrrp_dir_n.updtime` |
 | `LastChangeTime` | `hrrp_dir_n.updtime` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncMarketabilityStatus  : ehfnd_cci_logistics_status;` | `ProdCmplncMarketabilityStatus  : ehfnd_cci_logistics_status;` |
+| `ProdCmplncMarketabilityStatus` | `ehfnd_cci_logistics_status` |
 
 ## Associations
 

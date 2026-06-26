@@ -30,7 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SAPClient` | `document.mandt` |
-| `pidockey` | `concat( document.PhysicalInventoryDocument, concat (document.FiscalYear, document.PhysicalInventoryDocumentItem ) )` |
+| `pidockey` | `concat(…)` |
 | `PhysicalInventoryDocument` | `document.PhysicalInventoryDocument` |
 | `PhysicalInventoryYear` | `document.FiscalYear` |
 | `PhysicalInventoryItem` | `document.PhysicalInventoryDocumentItem` |

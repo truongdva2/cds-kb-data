@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceCndnAmountLimitExceeded
 ---
 # I_CONDITIONAMOUNTLIMITEXCEEDED
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kmxwr )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionAmountLimitExceeded` | `cast ( substring( domvalue_l, 1, 1 ) as kmxwr )` |
 | `_Text` | *Association* |
 
 ## Associations

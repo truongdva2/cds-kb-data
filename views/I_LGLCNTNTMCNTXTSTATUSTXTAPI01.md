@@ -14,6 +14,7 @@ tags:
   - status
   - component:CM-GF-2CL
   - lob:Other
+  - bo:LglCntntMStatus
 ---
 # I_LGLCNTNTMCNTXTSTATUSTXTAPI01
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMStatus` | `LglCntntMStatus` |
-| `key Language` | `Language` |
-| `LglCntntMStatusName` | `LglCntntMStatusName` |
+| `LglCntntMStatus` | `LglCntntMStatus` |
+| `Language` | `Language` |
 
 ## Associations
 

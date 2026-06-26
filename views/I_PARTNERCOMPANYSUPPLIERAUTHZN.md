@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_Supplier.Supplier` | `I_Supplier.Supplier` |
+| `Supplier` | `I_Supplier.Supplier` |
 | `PartnerCompany` | `I_Supplier.TradingPartner` |
-| `I_Supplier.AuthorizationGroup` | `I_Supplier.AuthorizationGroup` |
+| `AuthorizationGroup` | `I_Supplier.AuthorizationGroup` |
 
 ## Associations
 

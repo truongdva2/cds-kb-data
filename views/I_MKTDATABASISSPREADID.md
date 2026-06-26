@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:BasisSpread
 ---
 # I_MKTDATABASISSPREADID
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_mdm_mkt_data_bsprd_id preserving type )` | `cast( BasisSpreadID.bsprd_id` |
+| `MktDataBasisSpreadID` | `cast( BasisSpreadID.bsprd_id as ftr_mdm_mkt_data_bsprd_id preserving type )` |
 | `TextDescription` | `BasisSpreadID.text_long` |
 
 ## Associations

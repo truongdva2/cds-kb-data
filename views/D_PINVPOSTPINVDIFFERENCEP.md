@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate : fis_budat;` | `PostingDate : fis_budat;` |
-| `ReasonForPhysInvtryDifference : grdif;` | `ReasonForPhysInvtryDifference : grdif;` |
+| `PostingDate` | `fis_budat` |
+| `ReasonForPhysInvtryDifference` | `grdif` |
 
 ## Associations
 

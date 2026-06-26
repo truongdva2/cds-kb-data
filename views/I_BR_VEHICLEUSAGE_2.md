@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleUsage
 ---
 # I_BR_VEHICLEUSAGE_2
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicleusage preserving type )` | `cast ( espveic` |
+| `VehicleUsage` | `cast ( espveic as logbr_vehicleusage preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

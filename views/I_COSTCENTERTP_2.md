@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingArea` | `ControllingArea` |
-| `key CostCenter` | `CostCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ControllingAreaForEdit` | `ControllingAreaForEdit` |
 | `CostCenterForEdit` | `CostCenterForEdit` |
@@ -117,8 +117,6 @@ tags:
 | `CostCenterLastChangedByUser` | `CostCenterLastChangedByUser` |
 | `CostCenterLastChangedOnDate` | `CostCenterLastChangedOnDate` |
 | `CostCenterLastChangedAtTime` | `CostCenterLastChangedAtTime` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_CostCenterTextTP : redirected to composition child I_CostCenterTextTP_2` | *Association* |
 
 ## Associations
 

@@ -35,7 +35,7 @@ tags:
 | `CAInvcgType` | `_tfk2603at.inv_type` |
 | `CAApplicationArea` | `_tfk2603at.applk` |
 | `Language` | `_tfk2603at.langu` |
-| `_tfk2603at.text     as CAInvcgTypeText` | *Association* |
+| `CAInvcgTypeText` | `_tfk2603at.text` |
 | `_CAApplicationArea` | *Association* |
 | `_CAInvcgType` | *Association* |
 | `_Language` | *Association* |

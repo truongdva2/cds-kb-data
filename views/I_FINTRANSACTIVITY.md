@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialInstrumentActivity
 ---
 # I_FINTRANSACTIVITY
 
@@ -35,32 +36,15 @@ tags:
 | `FinancialInstrumentActivity` | `Activity.rfhazu` |
 | `FinancialInstrActivityCategory` | `Activity.sfgzustt` |
 | `TermEndDate` | `Activity.delfz` |
-| `cast( case when Activity.delfz is initial` | `cast( case when Activity.delfz is initial` |
-| `then 'X'` | `then 'X'` |
-| `else ''` | `else ''` |
-| `ftr_term_category )` | `end` |
+| `FinTransTermCategory` | `cast(…)` |
 | `TermEndDateIsInclusive` | `Activity.sincle` |
-| `ftr_term_start_end_inclusive preserving type )` | `cast( Activity.sincle` |
+| `FinTransTermStartEndInclusive` | `cast( Activity.sincle as ftr_term_start_end_inclusive preserving type )` |
 | `FinTransNoticeDate` | `Activity.notice_date` |
-| `ftr_acty_conclusion_dte preserving type )` | `cast(Activity.dvtrab` |
+| `FinTransActyConclusionDate` | `cast(Activity.dvtrab as ftr_acty_conclusion_dte preserving type )` |
 | `FinTransActyConclusionTime` | `Activity.tvtrab` |
 | `FinTransActyConclusionTimeZone` | `Activity.zvtrab` |
-| `case when Activity.sfgzustt = '11'` | `case when Activity.sfgzustt = '11'` |
-| `or Activity.sfgzustt = '21'` | `or Activity.sfgzustt = '21'` |
-| `then Activity.dblfz` | `then Activity.dblfz` |
-| `tb_dblfz)` | `else cast('00000000'` |
-| `FinTransRolloverDate` | `end` |
-| `case when Activity.sfgzustt = '41'` | `case when Activity.sfgzustt = '41'` |
-| `or Activity.sfgzustt = '51'` | `or Activity.sfgzustt = '51'` |
-| `or Activity.sfgzustt = '61'` | `or Activity.sfgzustt = '61'` |
-| `or Activity.sfgzustt = '71'` | `or Activity.sfgzustt = '71'` |
-| `or Activity.sfgzustt = '42'` | `or Activity.sfgzustt = '42'` |
-| `or Activity.sfgzustt = '52'` | `or Activity.sfgzustt = '52'` |
-| `or Activity.sfgzustt = '62'` | `or Activity.sfgzustt = '62'` |
-| `or Activity.sfgzustt = '72'` | `or Activity.sfgzustt = '72'` |
-| `then Activity.delfz` | `then Activity.delfz` |
-| `tb_delfz)` | `else cast('00000000'` |
-| `FinTransExerciseDate` | `end` |
+| `FinTransRolloverDate` | `case…end` |
+| `FinTransExerciseDate` | `case…end` |
 | `FinTransOrderValidityEndDate` | `Activity.limitdat` |
 | `FinTransFixingDate` | `Activity.dfix` |
 | `ForeignExchangeFixingReference` | `Activity.fixing_ref_id` |
@@ -80,10 +64,7 @@ tags:
 | `SpotExchangeRate` | `Activity.kkassa` |
 | `SwapExchangeRate` | `Activity.kswap` |
 | `LiquidityEffectValue` | `Activity.kwliqui` |
-| `case` | `case` |
-| `when (Activity.wlwaers is not initial and Activity.wfwaers is not initial)` | `when (Activity.wlwaers is not initial and Activity.wfwaers is not initial)` |
-| `ftr_curr_pair)` | `then cast( concat(concat(Activity.wlwaers, '/'), Activity.wfwaers)` |
-| `CurrencyPair` | `end` |
+| `CurrencyPair` | `case…end` |
 | `EffectiveInterestRate` | `Activity.peffzins` |
 | `EffectiveInterestMethod` | `Activity.seffmeth` |
 | `FinTransIntrstHndlgAtRollover` | `Activity.sznspro` |
@@ -91,16 +72,8 @@ tags:
 | `LetterOfCredit` | `LetterOfCredit.lc_number` |
 | `TreasuryApplicant` | `LetterOfCredit.applicant` |
 | `TreasuryBeneficiary` | `LetterOfCredit.benficiary` |
-| `cast( case when ( LetterOfCredit.man_benficiary is initial` | `cast( case when ( LetterOfCredit.man_benficiary is initial` |
-| `and TransactionType.sfgtyp = '100' )` | `and TransactionType.sfgtyp = '100' )` |
-| `then LetterOfCredit.man_comp_name` | `then LetterOfCredit.man_comp_name` |
-| `else ''` | `else ''` |
-| `ftr_man_bene_name )` | `end` |
-| `cast( case when ( LetterOfCredit.man_applicant is initial` | `cast( case when ( LetterOfCredit.man_applicant is initial` |
-| `and TransactionType.sfgtyp = '200' )` | `and TransactionType.sfgtyp = '200' )` |
-| `then LetterOfCredit.man_comp_name` | `then LetterOfCredit.man_comp_name` |
-| `else ''` | `else ''` |
-| `ftr_man_appl_name )` | `end` |
+| `TrsyMnllyEnteredBnfcyName` | `cast(…)` |
+| `TrsyMnllyEnteredApplcntName` | `cast(…)` |
 | `TreasuryAdvisingBank` | `LetterOfCredit.advising_bank` |
 | `TreasuryIssuingBank` | `LetterOfCredit.issuing_bank` |
 | `BankGuaranteeNumber` | `LetterOfCredit.bg_number` |

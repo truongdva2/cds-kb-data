@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_BillOfExchangeIsBlocked
 ---
 # I_CN_BILLOFEXCHANGEBLOCKVH
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xfeld preserving type)` | `cast(substring( domvalue_l, 1, 1 )` |
+| `BillOfExchangeIsBlocked` | `cast(substring( domvalue_l, 1, 1 ) as xfeld preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CN_BillOfExchangeBlockText` | [0..*] |
 
 ## Source Code
 

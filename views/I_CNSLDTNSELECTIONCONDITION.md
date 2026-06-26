@@ -31,18 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` | `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` |
-| `fincs_consolidationselection preserving type)` | `cast(left(_Source.FinancialSelection, 20)` |
-| `key _Source.FinSelectionConditionSequence` | `_Source.FinSelectionConditionSequence` |
-| `_Source.FinSelectionConditionDimension` | *Association* |
-| `_Source.FinSelCndnDimensionAccessPath` | *Association* |
-| `_Source.FinSelCndnDimensionAccessType` | *Association* |
-| `_Source.FinSelectionConditionRangeSign` | *Association* |
-| `_Source.FinSelConditionRangeOption` | *Association* |
-| `_Source.FinSelConditionRangeLowValue` | *Association* |
-| `_Source.FinSelConditionRangeHighValue` | *Association* |
-| `_Source.FinancialSelection` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationSelection` | `cast(…)` |
+| `FinSelectionConditionSequence` | `_Source.FinSelectionConditionSequence` |
+| `FinSelectionConditionDimension` | `_Source.FinSelectionConditionDimension` |
+| `FinSelCndnDimensionAccessPath` | `_Source.FinSelCndnDimensionAccessPath` |
+| `FinSelCndnDimensionAccessType` | `_Source.FinSelCndnDimensionAccessType` |
+| `FinSelectionConditionRangeSign` | `_Source.FinSelectionConditionRangeSign` |
+| `FinSelConditionRangeOption` | `_Source.FinSelConditionRangeOption` |
+| `FinSelConditionRangeLowValue` | `_Source.FinSelConditionRangeLowValue` |
+| `FinSelConditionRangeHighValue` | `_Source.FinSelConditionRangeHighValue` |
+| `FinancialSelection` | `_Source.FinancialSelection` |
 | `_Selection` | *Association* |
 
 ## Associations

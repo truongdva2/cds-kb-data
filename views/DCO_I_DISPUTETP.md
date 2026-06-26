@@ -32,11 +32,51 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `DCoDisputeUUID` | `DCoDisputeUUID` |
+| `DebtCollectionsDispute` | `DebtCollectionsDispute` |
+| `BusinessPartner` | `BusinessPartner` |
+| `DebtCollectionsCompanyCode` | `DebtCollectionsCompanyCode` |
+| `DCoDisputeProcessStep` | `DCoDisputeProcessStep` |
+| `DCoDisputeProcessStepStatus` | `DCoDisputeProcessStepStatus` |
+| `DCoDisputePriority` | `DCoDisputePriority` |
+| `DCoDisputeEscalationReason` | `DCoDisputeEscalationReason` |
+| `DCoDisputeEscalationLevelValue` | `DCoDisputeEscalationLevelValue` |
+| `DCoDisputeCurrency` | `DCoDisputeCurrency` |
+| `DCoDisputeProcessor` | `DCoDisputeProcessor` |
+| `DCoDisputeProcessorGroup` | `DCoDisputeProcessorGroup` |
+| `DCoDisputeProcessCoordinator` | `DCoDisputeProcessCoordinator` |
+| `DCoDisputeResponsiblePerson` | `DCoDisputeResponsiblePerson` |
+| `DCoDisputeCustContactPerson` | `DCoDisputeCustContactPerson` |
+| `DCoDisputeProcStepDeadlineDate` | `DCoDisputeProcStepDeadlineDate` |
+| `DCoDisputePlannedCloseDate` | `DCoDisputePlannedCloseDate` |
+| `DCoDsputDbtCollsActyIsCrted` | `DCoDsputDbtCollsActyIsCrted` |
+| `DCoPredecessorServiceRequest` | `DCoPredecessorServiceRequest` |
+| `DCoPredecessorServiceReqUUID` | `DCoPredecessorServiceReqUUID` |
+| `DCoDebtCollectionsActivity` | `DCoDebtCollectionsActivity` |
+| `DCoDsputOrigntgInbComm` | `DCoDsputOrigntgInbComm` |
+| `DCoDsputOrigntgInbCommUUID` | `DCoDsputOrigntgInbCommUUID` |
+| `DCoDsputCustomerInteraction` | `DCoDsputCustomerInteraction` |
+| `DCoDsputCustInteractionUUID` | `DCoDsputCustInteractionUUID` |
+| `DCoPredecessorDispute` | `DCoPredecessorDispute` |
+| `DCoOriginatingBankStatement` | `DCoOriginatingBankStatement` |
+| `DCoOrigntgObjectLogicalSystem` | `DCoOrigntgObjectLogicalSystem` |
+| `DCoDisputeAssgdServiceRequest` | `DCoDisputeAssgdServiceRequest` |
+| `DCoDisputeAssgdSrvcRequestUUID` | `DCoDisputeAssgdSrvcRequestUUID` |
+| `DCoDisputedSumAmount` | `DCoDisputedSumAmount` |
+| `DCoDisputeCorrectionSumAmount` | `DCoDisputeCorrectionSumAmount` |
+| `DCoDsputToBeWrittenOffSumAmt` | `DCoDsputToBeWrittenOffSumAmt` |
+| `DCoDsputAcctgDocColltdSumAmt` | `DCoDsputAcctgDocColltdSumAmt` |
+| `DCoDisputeCreationUser` | `DCoDisputeCreationUser` |
+| `DCoDisputeCreationDateTime` | `DCoDisputeCreationDateTime` |
+| `DCoDisputeLastChangedByUser` | `DCoDisputeLastChangedByUser` |
+| `DCoDisputeLastChangeDateTime` | `DCoDisputeLastChangeDateTime` |
+| `DCoDisputeClosedByUser` | `DCoDisputeClosedByUser` |
+| `DCoDisputeClosingDateTime` | `DCoDisputeClosingDateTime` |
+| `DCoDisputeDecidedByUser` | `DCoDisputeDecidedByUser` |
+| `DCoDisputeDecisionDateTime` | `DCoDisputeDecisionDateTime` |
+| `DCoDisputeIsMigrated` | `DCoDisputeIsMigrated` |
+| `DCoDisputeNoteUUID` | `DCoDisputeNoteUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
-| `_DisputeResubmission       : redirected to composition child /DCO/I_DisputeResubmissionTP` | *Association* |
-| `_DisputeAccountingDocument : redirected to composition child /DCO/I_DsputAcctgDocumentTP` | *Association* |
-| `_DsputReltdAcctgDocument   : redirected to composition child /DCO/I_DsputReltdAcctgDocTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_NoteBasic` | *Association* |
 | `_HDMRelation` | *Association* |

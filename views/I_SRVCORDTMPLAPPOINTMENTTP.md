@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
 | `SrvcDocApptStartDateTime` | `SrvcDocApptStartDateTime` |
 | `SrvcDocApptEndDateTime` | `SrvcDocApptEndDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTemplateTP : redirected to parent I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

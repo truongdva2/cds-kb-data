@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `CostingVariant` | `klvar` |
-| `fpc_costing_variant_name preserving type)` | `cast(txklv` |
+| `CostingVariantName` | `cast(txklv as fpc_costing_variant_name preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

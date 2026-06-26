@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsVariant
 ---
 # I_MFGBILLOFOPERATIONSSTDVH
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfOperationsType` | `BillOfOperationsType` |
-| `key BillOfOperationsGroup` | `BillOfOperationsGroup` |
-| `key BillOfOperationsVariant` | `BillOfOperationsVariant` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `BillOfOperationsVariant` |
 | `_BillOfOperationsType` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 

@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_use_case_type )` | `cast ( dd07l.domvalue_l` |
+| `FrtCostAllocBusProcCat` | `cast ( dd07l.domvalue_l as wlf_use_case_type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FrtCostAllocBusProcCatText` | [0..*] |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:EntRsceCapResponsiblePlanner
 ---
 # I_CAPACITYRESPPLANNER
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `kapplaner preserving type)` | `cast(plnr.planr` |
+| `CapacityResponsiblePlanner` | `cast(plnr.planr as kapplaner preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

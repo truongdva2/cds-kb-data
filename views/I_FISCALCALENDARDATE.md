@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:CalendarDate
 ---
 # I_FISCALCALENDARDATE
 
@@ -47,7 +48,7 @@ tags:
 | `FiscalYearPeriod` | `P_FiscalCalendarDate.fiscal_year_period` |
 | `FiscalYearQuarter` | `P_FiscalCalendarDate.fiscal_year_quarter` |
 | `FiscalYearWeek` | `P_FiscalCalendarDate.fiscal_year_week` |
-| `fins_fiscalyear_i)` | `cast(P_FiscalCalendarDate.fiscal_year` |
+| `FiscalYearConsecutiveNumber` | `cast(P_FiscalCalendarDate.fiscal_year as fins_fiscalyear_i)` |
 | `FiscalPeriodConsecutiveNumber` | `P_FiscalCalendarDate.fiscal_year_period_int` |
 | `FiscalQuarterConsecutiveNumber` | `P_FiscalCalendarDate.fiscal_year_quarter_int` |
 | `FiscalWeekConsecutiveNumber` | `P_FiscalCalendarDate.fiscal_year_week_int` |

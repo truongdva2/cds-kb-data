@@ -30,11 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_taskgroup preserving type )` | `cast( acgr` |
+| `ConsolidationTaskGroup` | `cast( acgr as fincs_taskgroup preserving type )` |
 | `_Text` | *Association* |
 | `_CnsldtnTaskAssignment` | *Association* |
 | `_CnsldtnTaskPreceding` | *Association* |

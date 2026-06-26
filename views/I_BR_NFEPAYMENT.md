@@ -31,9 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position:140 }]` | `position:140 }]` |
-| `logbr_cnpjpaymentregion preserving type)` | `cast(ufpag` |
-| `_BR_NFDocumentCurrency.SalesDocumentCurrency                                              as SalesDocumentCurrency` | *Association* |
+| `BR_NotaFiscal` | `docnum` |
+| `SequenceNumber` | `counter` |
+| `PaymentMethod` | `cast(t_pag as logbr_tpag preserving type)` |
+| `BR_NFPaymentMethodManualDesc` | `cast(x_pag as logbr_payment_descr preserving type)` |
+| `PaymentAmount` | `cast(v_pag as logbr_vpag)` |
+| `PaymentSystemIntegrationType` | `cast(tp_integra as logbr_tpintegra preserving type)` |
+| `BR_CreditCardCompanyCNPJ` | `cast(…)` |
+| `CreditCardBrand` | `t_band` |
+| `CreditCardTransactionAuthznID` | `cast( substring( c_aut, 1, 20 ) as logbr_caut_old)` |
+| `BR_NFPaytAuthorizationNumber` | `c_aut` |
+| `PaymentForm` | `cast(ind_pag as logbr_indpag preserving type)` |
+| `BR_CNPJPaymentRecipient` | `cast(…)` |
+| `BR_PaymentTerminalIdentifier` | `cast(idtermpag as logbr_paymentterminalid preserving type)` |
+| `BR_PaymentDate` | `cast(dpag as logbr_paymentdate preserving type)` |
+| `BR_CNPJPaymentTransactional` | `cast(…)` |
+| `BR_RgnEstblmtCNPJPaytMade` | `cast(ufpag as logbr_cnpjpaymentregion preserving type)` |
+| `SalesDocumentCurrency` | `_BR_NFDocumentCurrency.SalesDocumentCurrency` |
 | `_SalesDocumentCurrency` | *Association* |
 | `_BR_NotaFiscal` | *Association* |
 | `_BR_PaymentMethod` | *Association* |

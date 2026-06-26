@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     MaintenanceOrder` | `MaintenanceOrder` |
-| `key     MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key     MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
-| `key     ProdnRsceToolItemNumber` | `ProdnRsceToolItemNumber` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `ProdnRsceToolItemNumber` | `ProdnRsceToolItemNumber` |
 | `OrderProdnRsceToolText` | `OrderProdnRsceToolText` |
 | `ProdnRsceToolCategory` | `ProdnRsceToolCategory` |
 | `Product` | `Product` |
@@ -49,8 +49,6 @@ tags:
 | `DocumentPart` | `DocumentPart` |
 | `DocumentVersion` | `DocumentVersion` |
 | `MeasuringPoint` | `MeasuringPoint` |
-| `_MaintenanceOrder          : redirected to I_MaintenanceOrderTP` | *Association* |
-| `_MaintenanceOrderOperation : redirected to parent I_MaintenanceOrderOperationTP` | *Association* |
 
 ## Associations
 

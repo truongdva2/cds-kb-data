@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
+| `Plant` | `Plant` |
 | `PlantName` | `PlantName` |
-| `_ValuationArea.CompanyCode as CompanyCode` | *Association* |
+| `CompanyCode` | `_ValuationArea.CompanyCode` |
 | `BusinessPlace` | `BusinessPlace` |
-| `/* Association */` | `/* Association */` |
 | `_CompanyCode` | *Association* |
 | `_BusinessPlace` | *Association* |
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rrcty )` | `cast( substring(domvalue_l, 1, 1)` |
+| `GLRecordType` | `cast( substring(domvalue_l, 1, 1) as rrcty )` |
 | `_Text` | *Association* |
 
 ## Associations

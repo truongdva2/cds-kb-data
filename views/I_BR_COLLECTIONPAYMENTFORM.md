@@ -16,6 +16,7 @@ tags:
   - collection
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentForm
 ---
 # I_BR_COLLECTIONPAYMENTFORM
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `PaymentForm` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

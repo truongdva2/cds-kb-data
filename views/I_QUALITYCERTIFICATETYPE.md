@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-CA-2CL
   - lob:Quality Management
+  - bo:QualityCertificateType
 ---
 # I_QUALITYCERTIFICATETYPE
 
@@ -30,11 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `QualityCertificateType` | `tq05.zgtyp` |
-| `case when I_MdiOidConfiguration.Context is initial then` | `case when I_MdiOidConfiguration.Context is initial then` |
-| `qualitycertificatetypeoid )` | `cast( tq05.zgtyp` |
-| `when I_MdiOidConfiguration.Context is not initial then` | `when I_MdiOidConfiguration.Context is not initial then` |
-| `qualitycertificatetypeoid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), tq05.zgtyp )` |
-| `QualityCertificateTypeOID` | `end` |
+| `QualityCertificateTypeOID` | `case…end` |
 | `_QualityCertificateTypeT` | *Association* |
 
 ## Associations

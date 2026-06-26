@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key                     ConditionUsage` | `ConditionUsage` |
-| `key                     ConditionApplication` | `ConditionApplication` |
-| `key                     PricingProcedure` | `PricingProcedure` |
-| `key                     PricingProcedureStep` | `PricingProcedureStep` |
-| `key                     PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PricingProcedure` | `PricingProcedure` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionType` | `ConditionType` |
 | `PrcgProcedItemFromRefStep` | `PrcgProcedItemFromRefStep` |
 | `PrcgProcedItemToRefStep` | `PrcgProcedItemToRefStep` |

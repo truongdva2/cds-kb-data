@@ -30,10 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `useAsTemplate: true` | `useAsTemplate: true` |
-| `}]` | `}]` |
 | `CompanyCode` | `bukrs` |
 | `Ledger` | `rldnr` |
 | `_CompanyCode` | *Association* |

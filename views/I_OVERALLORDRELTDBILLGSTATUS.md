@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:OverallOrdReltdBillgStatus
 ---
 # I_OVERALLORDRELTDBILLGSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sdmd_overallordreltdbillgsts preserving type )` | `cast(substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallOrdReltdBillgStatus` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

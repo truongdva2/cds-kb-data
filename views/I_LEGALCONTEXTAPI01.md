@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMContextUUID` | `LglCntntMContextUUID` |
+| `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMContext` | `LglCntntMContext` |
 | `LglCntntMContextVersion` | `LglCntntMContextVersion` |
 | `LglCntntMContextTitle` | `LglCntntMContextTitle` |

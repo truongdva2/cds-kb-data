@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:SelectedCodeSet
 ---
 # I_CHARCATTRIBSELECTEDCODESET
 
@@ -29,7 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #MEDIUM }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #MEDIUM }` |
+| `SelectedCodeSetPlant` | `qpam.werks` |
+| `SelectedCodeSet` | `qpam.auswahlmge` |
+| `Language` | `case…end` |
+| `SelectedCodeSetText` | `case when qpamtxt.language is not null then qpamtxt.ktx01 else qpam.ktx01 end` |
+| `InspectionSelectedSetStatus` | `status` |
+| `CharcAttribSeldSetCreatedBy` | `ersteller` |
+| `CharcAttribSeldSetCrtedOn` | `e_datum` |
+| `CharcAttribSeldSetLastChgdBy` | `aenderer` |
 | `CharcAttribSeldSetLastChgdOn` | `a_datum` |
 | `_CharcAttribSelectedSetCode` | *Association* |
 | `_SelectedCodeSetPlant` | *Association* |

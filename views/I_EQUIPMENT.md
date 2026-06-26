@@ -15,6 +15,7 @@ tags:
   - equipment
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:Equipment
 ---
 # I_EQUIPMENT
 
@@ -31,17 +32,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Supplier_VH'` | `name:    'I_Supplier_VH'` |
-| `element: 'Supplier' }` | `element: 'Supplier' }` |
-| `}]` | `}]` |
+| `Equipment` | `equi.equnr` |
+| `EquipmentOID` | `equi.equipmentoid` |
+| `EquipmentCategory` | `equi.eqtyp` |
+| `TechnicalObjectType` | `equi.eqart` |
+| `Plant` | `equi.werk` |
+| `Division` | `equi.sparte` |
+| `StorageLocation` | `equi.lager` |
+| `CreatedByUser` | `equi.ernam` |
+| `LastChangedByUser` | `equi.aenam` |
+| `CreationDate` | `equi.erdat` |
+| `LastChangeDate` | `equi.aedat` |
+| `AssetManufacturerName` | `equi.herst` |
+| `ManufacturerPartTypeName` | `equi.typbz` |
+| `ManufacturerCountry` | `equi.herld` |
+| `ConstructionYear` | `equi.baujj` |
+| `ConstructionMonth` | `equi.baumm` |
+| `AcquisitionDate` | `equi.ansdt` |
+| `Currency` | `equi.waers` |
+| `AcquisitionValue` | `equi.answt` |
+| `MaintObjectInternalID` | `equi.objnr` |
+| `SerialNumber` | `equi.sernr` |
+| `EquipUsagePeriodSequenceNumber` | `equi.eqlfn` |
+| `Material` | `equi.matnr` |
+| `Customer` | `equi.kunde` |
+| `AuthorizationGroup` | `equi.begru` |
+| `ManufacturerSerialNumber` | `equi.serge` |
+| `UniqueItemIdentifier` | `equi.uii` |
+| `UniqueItemIdentifierStrucType` | `equi.iuid_type` |
+| `UniqueItemIdentifierRespPlant` | `equi.uii_plant` |
+| `AssetSynchronizationRule` | `equi.act_change_aa` |
+| `InventoryNumber` | `equi.invnr` |
+| `GrossWeight` | `equi.brgew` |
+| `GrossWeightUnit` | `equi.gewei` |
+| `SizeOrDimensionText` | `equi.groes` |
+| `Batch` | `equi.charge` |
+| `OperationStartDate` | `equi.inbdt` |
 | `Supplier` | `equi.elief` |
 | `HasEquipmentData` | `equi.s_equi` |
-| `equipmenthasstockinformation preserving type )` | `cast( equi.s_eqbs` |
+| `EquipmentHasStockInformation` | `cast( equi.s_eqbs as equipmenthasstockinformation preserving type )` |
 | `MasterWarranty` | `equi.mganr` |
 | `LastChangeDateTime` | `equi.changeddatetime` |
 | `EquipmentFirstDeliveryDate` | `equi.auldt` |
-| `_CurrentTimeSegment.ValidityStartDate` | *Association* |
-| `_CurrentTimeSegment.ValidityEndDate` | *Association* |
+| `ValidityStartDate` | `_CurrentTimeSegment.ValidityStartDate` |
+| `ValidityEndDate` | `_CurrentTimeSegment.ValidityEndDate` |
 | `MatlSrlNmbrLastGdsMvtDte` | `equi.datlwb` |
 | `EquipmentEndOfUseDate` | `equi.endofuse` |
 | `MaintenancePlan` | `equi.warpl` |
@@ -62,7 +96,6 @@ tags:
 | `_Material` | *Association* |
 | `_Customer` | *Association* |
 | `_ManufacturerCountry` | *Association* |
-| `_Batch` | *Association* |
 | `_CurrentTimeSegment` | *Association* |
 | `_PlantMaintenancePartner` | *Association* |
 | `_MasterWrntyObjectAssgmt` | *Association* |

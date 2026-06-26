@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_TimeZone', element: 'TimeZoneID' }}]` | `name: 'I_TimeZone', element: 'TimeZoneID' }}]` |
+| `TimeZoneIANACode` | `TimeZoneIANACode` |
 | `TimeZoneID` | `TimeZoneID` |
 | `_TimeZoneText` | *Association* |
 

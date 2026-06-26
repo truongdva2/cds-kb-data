@@ -29,11 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH' , element:'Currency'}, useAsTemplate: true  }]` | `name: 'I_CurrencyStdVH' , element:'Currency'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionType` | `ConditionType` |
+| `ConditionRateValue` | `ConditionRateValue` |
+| `ConditionQuantity` | `ConditionQuantity` |
+| `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionCurrency` | `ConditionCurrency` |
 | `PricingDocument` | `PricingDocument` |
-| `/* Associations */` | `/* Associations */` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
 | `_UnitOfMeasureText` | *Association* |
 | `_CurrencyText` | *Association* |
 

@@ -30,13 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceOrder` | `ServiceOrder` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTP          : redirected to parent I_ServiceOrderTP` | *Association* |
-| `_SrvcOrdPartnerAddressTP : redirected to composition child I_SrvcOrdPartnerAddressTP` | *Association* |
 
 ## Associations
 

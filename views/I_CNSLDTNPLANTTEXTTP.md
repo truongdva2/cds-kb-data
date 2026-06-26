@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.Plant` | `_Text.Plant` |
-| `_Text.PlantName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Plant as _Plant : redirected to parent I_CnsldtnPlantTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `Plant` | `_Text.Plant` |
+| `PlantName` | `_Text.PlantName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Plant` | *Association* |
 
 ## Associations
 

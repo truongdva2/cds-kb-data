@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_order_type preserving type )` | `cast( SalesDocumentType` |
+| `SalesOrderType` | `cast( SalesDocumentType as sales_order_type preserving type )` |
 | `SalesOrderProcessingType` | `SalesDocumentProcessingType` |
 | `OrderTypeForBillingRequest` | `OrderTypeForBillingRequest` |
 | `TradeComplianceIsActive` | `TradeComplianceIsActive` |

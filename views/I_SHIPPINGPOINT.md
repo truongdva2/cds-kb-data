@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ShippingPoint
 ---
 # I_SHIPPINGPOINT
 
@@ -35,14 +36,10 @@ tags:
 | `AddressID` | `adrnr` |
 | `PickingConfirmation` | `koqui` |
 | `ConfigDeprecationCode` | `configdeprecationcode` |
-| `cast(floor(division(floor(division(loadtg,10000,4)),24,2))` | `cast(floor(division(floor(division(loadtg,10000,4)),24,2))` |
-| `abap.int8),24)*3600 + floor(division(loadtg - floor(division(loadtg,10000,4))*10000,100,2))*60` | `+ division(floor(division(cast(mod(cast(floor(division(loadtg,10000,4))` |
-| `abap.int8),100)` | `+ mod(cast(loadtg` |
-| `le_loadtn_min)` | `cast(floor(division(loadtn,10000,4))*60 + division(loadtn - floor(division(loadtn,10000,4))*10000,100,0)` |
-| `cast(floor(division(floor(division(pipatg,10000,4)),24,2))` | `cast(floor(division(floor(division(pipatg,10000,4)),24,2))` |
-| `+ division(floor(division(cast(mod(cast(floor(division(pipatg,10000,4))as abap.int8),24)*3600 + floor(division(pipatg - floor(division(pipatg,10000,4))*10000,100,2))*60` | `+ division(floor(division(cast(mod(cast(floor(division(pipatg,10000,4))as abap.int8),24)*3600 + floor(division(pipatg - floor(division(pipatg,10000,4))*10000,100,2))*60` |
-| `abap.int8),100)` | `+ mod(cast(pipatg` |
-| `le_pipatn_min)` | `cast(floor(division(pipatn,10000,4))*60 + division(pipatn - floor(division(pipatn,10000,4))*10000,100,0)` |
+| `LoadingTimeInWorkingDays` | `cast(…)` |
+| `LoadingTimeWorkHoursInMinutes` | `cast(…)` |
+| `PickPackTimeInWorkingDays` | `cast(…)` |
+| `PickPackTimeWorkHoursInMinutes` | `cast(…)` |
 | `_Text` | *Association* |
 | `_ActiveDepartureCountry` | *Association* |
 

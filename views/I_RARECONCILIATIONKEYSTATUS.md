@@ -14,6 +14,7 @@ tags:
   - status
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevnAcctgRecnclnKeyStatus
 ---
 # I_RARECONCILIATIONKEYSTATUS
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `RevnAcctgRecnclnKeyStatus` | `cast(dd07l.domvalue_l as farr_recon_key_status)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RARecnclnKeyStatusText` | [0..*] |
 
 ## Source Code
 

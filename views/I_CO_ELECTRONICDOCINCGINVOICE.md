@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
 | `CO_ElectronicDocOfclInvcNmbr` | `CO_ElectronicDocOfclInvcNmbr` |
 | `CO_ElectronicDocSupplierName` | `CO_ElectronicDocSupplierName` |
 | `CO_ElectronicDocPurOrdByCust` | `CO_ElectronicDocPurOrdByCust` |

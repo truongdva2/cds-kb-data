@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-PCP-2CL
   - lob:Controlling
+  - bo:CostingType
 ---
 # I_COSTINGTYPE
 
@@ -30,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LedgerStdVH', element: 'Ledger' }` | `name: 'I_LedgerStdVH', element: 'Ledger' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `CostingType` | `kalka` |
+| `ControllingValuationType` | `valuation` |
+| `CostingReferenceObject` | `bzobj` |
 | `Ledger` | `rldnr` |
 | `_CostingTypeText` | *Association* |
 | `_Ledger` | *Association* |

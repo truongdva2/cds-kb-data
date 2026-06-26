@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tax_det_type_kk preserving type )` | `cast ( substring( dd07l.domvalue_l, 1, 2 )` |
+| `CATaxDetnType` | `cast ( substring( dd07l.domvalue_l, 1, 2 ) as tax_det_type_kk preserving type )` |
 | `_CATaxDetnTypeText` | *Association* |
 
 ## Associations

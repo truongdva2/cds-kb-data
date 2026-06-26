@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentItemSuccessor
 ---
 # I_SERVICEDOCUMENTITEMSUCCSSR_2
 
@@ -33,9 +34,8 @@ tags:
 |---|---|
 | `ServiceDocumentItmRelationUUID` | `relationid` |
 | `ServiceDocItmRltnSqncNumber` | `posno` |
-| `/* CRMT_BRELVONAI */` | `/* CRMT_BRELVONAI */` |
-| `crms4_object_charguid32 preserving type )` | `cast(objkey_a` |
-| `crms4_object_charguid32 preserving type )` | `cast(objkey_b` |
+| `ServiceDocumentItemCharUUID` | `cast(objkey_a as crms4_object_charguid32 preserving type )` |
+| `ServiceDocItmSuccssrCharUUID` | `cast(objkey_b as crms4_object_charguid32 preserving type )` |
 | `ServiceDocumentItmRelationType` | `breltyp` |
 | `ServiceDocumentItemObjectType` | `objtype_a` |
 | `ServiceDocumentItmRelationKind` | `vona_kind` |

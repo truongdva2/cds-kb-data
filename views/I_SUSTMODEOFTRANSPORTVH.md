@@ -15,6 +15,7 @@ tags:
   - transport
   - component:SUS-INT
   - lob:Other
+  - bo:SustainabilityModeOfTransport
 ---
 # I_SUSTMODEOFTRANSPORTVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SustainabilityModeOfTransport` | `SustainabilityModeOfTransport` |
+| `SustainabilityModeOfTransport` | `SustainabilityModeOfTransport` |
 | `_Text` | *Association* |
 
 ## Associations

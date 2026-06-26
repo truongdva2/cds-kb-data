@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrganizationalChangeActivity` | `OrganizationalChangeActivity` |
-| `key OrganizationalChange` | `OrganizationalChange` |
+| `OrganizationalChangeActivity` | `OrganizationalChangeActivity` |
+| `OrganizationalChange` | `OrganizationalChange` |
 | `OrganizationalChangeJobType` | `OrganizationalChangeJobType` |
 | `ApplicationJobName` | `ApplicationJobName` |
 | `ApplicationJob` | `ApplicationJob` |
@@ -42,15 +42,15 @@ tags:
 | `NumberOfUniqueErrors` | `NumberOfUniqueErrors` |
 | `JobStatusValue` | `JobStatusValue` |
 | `OrglChangeActivityDateTime` | `OrglChangeActivityDateTime` |
-| `_UserContactCard.FullName` | *Association* |
-| `_UserContactCard.Department` | *Association* |
-| `_UserContactCard.EmailAddress` | *Association* |
-| `_UserContactCard.PhoneNumber` | *Association* |
-| `_UserContactCard.MobilePhoneNumber` | *Association* |
+| `FullName` | `_UserContactCard.FullName` |
+| `Department` | `_UserContactCard.Department` |
+| `EmailAddress` | `_UserContactCard.EmailAddress` |
+| `PhoneNumber` | `_UserContactCard.PhoneNumber` |
+| `MobilePhoneNumber` | `_UserContactCard.MobilePhoneNumber` |
 | `OrglChangeActivityProcdByUser` | `OrglChangeActivityProcdByUser` |
 | `OrglChangeProcessingStatus` | `OrglChangeProcessingStatus` |
-| `_OrglChangeProcgStatusText[1:Language=$session.system_language].OrglChangeProcessingStatusName as OrglChangeProcessingStatusName` | *Association* |
-| `_JobTypeText[1:Language=$session.system_language].OrglChangeJobTypeName as OrglChangeJobTypeName` | *Association* |
+| `OrglChangeProcessingStatusName` | `expr(…)` |
+| `OrglChangeJobTypeName` | `_JobTypeText[1:Language=$session.system_language].OrglChangeJobTypeName` |
 
 ## Associations
 

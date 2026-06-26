@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SLC-CAT-2CL
   - lob:Other
+  - bo:PurchasingCategory
 ---
 # I_PURCHASINGCATEGORYVALUEHELP
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/generic_id preserving type)` | `cast(I_PurchasingCategory.PurchasingCategory` |
-| `/srmsmc/medium_name preserving type)` | `cast(I_PurchasingCategory.PurgCatName` |
-| `/srmsmc/description_char60 preserving type)` | `cast(I_PurchasingCategory._PurchasingCategoryDesc[1: Language = $session.system_language].PurgCatDescription` |
+| `PurchasingCategory` | `cast(…)` |
+| `PurgCatName` | `cast(I_PurchasingCategory.PurgCatName as /srmsmc/medium_name preserving type)` |
+| `PurgCatDescription` | `cast(…)` |
 
 ## Associations
 

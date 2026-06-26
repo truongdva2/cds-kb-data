@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgTransfCostQtyCode
 ---
 # I_PROJBILLGTRANSFCOSTQTYCODE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbe_transfer_qty_costs preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ProjBillgTransfCostQtyCode` | `cast( substring( domvalue_l, 1, 1 ) as pbe_transfer_qty_costs preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PrjBillgTransfCostQtyCodeTxt` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrjBillgTransfCostQtyCodeTxt` | `I_PrjBillgTransfCostQtyCodeTxt` | [0..*] |
 
 ## Source Code
 

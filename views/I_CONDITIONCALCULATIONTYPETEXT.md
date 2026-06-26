@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:ConditionCalculationType
 ---
 # I_CONDITIONCALCULATIONTYPETEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `krech_long )` | `cast ( substring( domvalue_l, 1, 3 )` |
-| `prct_calculation_type_descr )` | `cast ( substring ( ddtext, 1, 30 )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionCalculationType` | `cast ( substring( domvalue_l, 1, 3 ) as krech_long )` |
+| `ConditionCalculationTypeName` | `cast ( substring ( ddtext, 1, 30 ) as prct_calculation_type_descr )` |
 | `_ConditionCalculationType` | *Association* |
 | `_Language` | *Association* |
 

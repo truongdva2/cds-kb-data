@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CABllbleItmSourceTransType : srctatype_kk;` | `CABllbleItmSourceTransType : srctatype_kk;` |
-| `CABllbleItmSourceTransId   : srctaid_kk;` | `CABllbleItmSourceTransId   : srctaid_kk;` |
-| `_Parent                    : association to parent D_ContrAcctgBlgDocumentCreated;` | *Association* |
+| `CABllbleItmSourceTransType` | `srctatype_kk` |
+| `CABllbleItmSourceTransId` | `srctaid_kk` |
+| `_Parent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Parent` | `D_ContrAcctgBlgDocumentCreated` | — |
 
 ## Source Code
 

@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectUUID` | `ProjectUUID` |
+| `ProjectUUID` | `ProjectUUID` |
 | `JointVenture` | `JointVenture` |
 | `JointVentureCostRecoveryCode` | `JointVentureCostRecoveryCode` |
 | `JointVentureEquityType` | `JointVentureEquityType` |
 | `JntVntrProjectType` | `JntVntrProjectType` |
 | `JntIntrstBillgClass` | `JntIntrstBillgClass` |
 | `JntIntrstBillgSubClass` | `JntIntrstBillgSubClass` |
-| `_EnterpriseProject : redirected to parent I_EnterpriseProjectTP_3` | *Association* |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `gm_code)` | `cast(substring(domvalue_l, 1, 2)` |
+| `GoodsMovementCode` | `cast(substring(domvalue_l, 1, 2) as gm_code)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -33,16 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key StockTransportOrder` | `StockTransportOrder` |
-| `key StockTransportOrderItem` | `StockTransportOrderItem` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `PlainLongText` | `PlainLongText` |
 | `STOItemUniqueID` | `STOItemUniqueID` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrderItem : redirected to parent I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder     : redirected to I_StockTransportOrderTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

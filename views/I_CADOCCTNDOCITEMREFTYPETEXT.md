@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `oprty_dc_kk preserving type )` | `cast( left( dd07t.domvalue_l,2 )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `oprty_dc_text_kk preserving type )` | `cast( dd07t.ddtext` |
+| `CADocContainerDocItemRefType` | `cast( left( dd07t.domvalue_l,2 ) as oprty_dc_kk preserving type )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CADocContainerDocItmRefTypeTxt` | `cast( dd07t.ddtext as oprty_dc_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

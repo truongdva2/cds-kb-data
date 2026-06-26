@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qkzformel preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspSpecResultCalculation` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qkzformel preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qkzformel_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `InspSpecResultCalculationText` | `cast( ddtext as vdm_qkzformel_text preserving type )` |
 | `_InspSpecResultCalculation` | *Association* |
 | `_Language` | *Association* |
 

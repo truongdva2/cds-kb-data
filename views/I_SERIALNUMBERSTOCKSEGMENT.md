@@ -15,6 +15,7 @@ tags:
   - serial-number
   - component:LO-MD-SN-2CL
   - lob:Logistics General
+  - bo:SerialNumber
 ---
 # I_SERIALNUMBERSTOCKSEGMENT
 
@@ -31,26 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_WBSElmntByIntKeyStdVH'` | `name:    'I_WBSElmntByIntKeyStdVH'` |
-| `element: 'WBSElementInternalID' }` | `element: 'WBSElementInternalID' }` |
-| `}]` | `}]` |
-| `ess.WBSElementInternalID` | `ess.WBSElementInternalID` |
-| `ess.Batch` | `ess.Batch` |
-| `ess.InventoryStockType` | `ess.InventoryStockType` |
-| `ess.StockOwner` | `ess.StockOwner` |
-| `e._Material` | `e._Material` |
-| `ess._Equipment` | `ess._Equipment` |
-| `ess._Plant` | `ess._Plant` |
-| `ess._StorageLocation` | `ess._StorageLocation` |
-| `ess._SalesOrder` | `ess._SalesOrder` |
-| `ess._SalesOrderItem` | `ess._SalesOrderItem` |
-| `ess._Customer` | `ess._Customer` |
-| `ess._CustomerCompanyByPlant` | `ess._CustomerCompanyByPlant` |
-| `ess._Supplier` | `ess._Supplier` |
-| `ess._SupplierCompanyByPlant` | `ess._SupplierCompanyByPlant` |
-| `ess._InventoryStockType` | `ess._InventoryStockType` |
-| `ess._InventorySpecialStockType` | `ess._InventorySpecialStockType` |
-| `ess._WBSElementByInternalKey` | `ess._WBSElementByInternalKey` |
+| `Material` | `e.Material` |
+| `SerialNumber` | `e.SerialNumber` |
+| `Equipment` | `ess.Equipment` |
+| `Plant` | `ess.Plant` |
+| `StorageLocation` | `ess.StorageLocation` |
+| `Customer` | `ess.Customer` |
+| `Supplier` | `ess.Supplier` |
+| `SalesOrder` | `ess.SalesOrder` |
+| `SalesOrderItem` | `ess.SalesOrderItem` |
+| `InventorySpecialStockType` | `ess.InventorySpecialStockType` |
+| `WBSElementInternalID` | `ess.WBSElementInternalID` |
+| `Batch` | `ess.Batch` |
+| `InventoryStockType` | `ess.InventoryStockType` |
+| `StockOwner` | `ess.StockOwner` |
+| `_Material` | *Association* |
+| `_Equipment` | *Association* |
+| `_Plant` | *Association* |
+| `_StorageLocation` | *Association* |
+| `_SalesOrder` | *Association* |
+| `_SalesOrderItem` | *Association* |
+| `_Customer` | *Association* |
+| `_CustomerCompanyByPlant` | *Association* |
+| `_Supplier` | *Association* |
+| `_SupplierCompanyByPlant` | *Association* |
+| `_InventoryStockType` | *Association* |
+| `_InventorySpecialStockType` | *Association* |
+| `_WBSElementByInternalKey` | *Association* |
 
 ## Associations
 

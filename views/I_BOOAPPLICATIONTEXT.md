@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOpsApplicationText
 ---
 # I_BOOAPPLICATIONTEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `plnat preserving type)` | `cast(t.text40` |
+| `BillOfOperationsApplication` | `cast(t.plnaw as billofoperationsapplication preserving type)` |
+| `Language` | `cast(t.spras as spras preserving type)` |
+| `BOOApplicationName` | `cast(t.text40 as plnat preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

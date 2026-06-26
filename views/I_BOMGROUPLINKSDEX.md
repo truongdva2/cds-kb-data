@@ -16,6 +16,7 @@ tags:
   - bom
   - component:LO-MD-BOM-2CL
   - lob:Logistics General
+  - bo:BillOfMaterialGroup
 ---
 # I_BOMGROUPLINKSDEX
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BOMLinkUUID` | `BOMLinkUUID` |
+| `BOMLinkUUID` | `BOMLinkUUID` |
 | `BOMGroupUUID` | `BOMGroupUUID` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BillOfMaterial` | `BillOfMaterial` |

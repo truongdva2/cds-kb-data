@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:SecurityClassQuotationText
 ---
 # I_SECURITYCLASSQUOTATIONTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `ddlanguage` |
 | `SecurityClassQuotation` | `dd07t.domvalue_l` |
-| `ftr_gen_snoti_name preserving type)` | `cast(dd07t.ddtext` |
+| `SecurityClassQuotationName` | `cast(dd07t.ddtext as ftr_gen_snoti_name preserving type)` |
 | `_SecurityClassQuotation` | *Association* |
 | `_Language` | *Association* |
 

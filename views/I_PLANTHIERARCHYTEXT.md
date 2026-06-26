@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_plant preserving type )` | `cast(hrrp_dirt_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `PlantHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_plant preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `PlantHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

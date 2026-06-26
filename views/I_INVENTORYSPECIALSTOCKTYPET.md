@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `InventorySpecialStockType` | `sobkz` |
 | `Language` | `spras` |
-| `nsdm_spcl_stock_type_name preserving type )` | `cast ( sotxt` |
+| `InventorySpecialStockTypeName` | `cast ( sotxt as nsdm_spcl_stock_type_name preserving type )` |
 | `_InventorySpecialStockType` | *Association* |
 | `_Language` | *Association* |
 

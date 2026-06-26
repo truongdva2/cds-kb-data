@@ -14,6 +14,7 @@ tags:
   - document
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SDDocumentObject
 ---
 # I_SDDOCUMENTOBJECT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_doc_object preserving type )` | `cast(SUBSTRING(dd07l.domvalue_l, 1, 1)` |
+| `SDDocumentObject` | `cast(SUBSTRING(dd07l.domvalue_l, 1, 1) as sd_doc_object preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

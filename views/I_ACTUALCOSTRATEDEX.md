@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:ActualCostRate
 ---
 # I_ACTUALCOSTRATEDEX
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
 | `CurrencyRole` | `CurrencyRole` |
 | `Ledger` | `Ledger` |
 | `CompanyCode` | `CompanyCode` |

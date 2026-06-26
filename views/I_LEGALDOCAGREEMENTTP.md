@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMAgreementUUID` | `LglCntntMAgreementUUID` |
+| `LglCntntMAgreementUUID` | `LglCntntMAgreementUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMContractTypeName` | `LglCntntMContractTypeName` |
 | `LglCntntMAgreementTemplateName` | `LglCntntMAgreementTemplateName` |
@@ -42,8 +42,6 @@ tags:
 | `LglCntntMCreatedByUser` | `LglCntntMCreatedByUser` |
 | `LglCntntMChangedUTCDateTime` | `LglCntntMChangedUTCDateTime` |
 | `LglCntntMChangedByUser` | `LglCntntMChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to parent I_LegalDocumentTP` | *Association* |
 
 ## Associations
 

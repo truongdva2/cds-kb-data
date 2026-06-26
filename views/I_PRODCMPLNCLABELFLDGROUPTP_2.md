@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:EHS-SUS-SDS
   - lob:Other
+  - bo:ProdComplianceLabelFieldGroup
 ---
 # I_PRODCMPLNCLABELFLDGROUPTP_2
 
@@ -31,18 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
+| `ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
 | `ProdCmplncLblFldParentGroupID` | `ProdCmplncLblFldParentGroupID` |
 | `ProdCmplncLblFldGrpTechName` | `ProdCmplncLblFldGrpDDICStruc` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_LabelFieldVersions       : redirected to composition child I_ProdCmplncLblFldVersionTP_2` | *Association* |
-| `_Texts                    : redirected to composition child I_ProdCmplncLblFldGroupTxtTP_2` | *Association* |
-| `_ParentLabelFieldGroup    : redirected to I_ProdCmplncLabelFldGroupTP_2` | *Association* |
-| `_ChildrenLabelFieldGroups : redirected to I_ProdCmplncLabelFldGroupTP_2` | *Association* |
 
 ## Associations
 

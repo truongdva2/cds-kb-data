@@ -39,14 +39,11 @@ tags:
 | `TransactionCurrency` | `waers` |
 | `CADunningAmountInLocalCurrency` | `mbetc` |
 | `LocalCurrency` | `wersc` |
-| `/* associations */` | `/* associations */` |
 | `_CADocument_2` | *Association* |
 | `_CADocumentBPItem_2` | *Association* |
 | `_LocalCurrency` | *Association* |
 | `_TransactionCurrency` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `_CADocument` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `_CADocumentBPItem` | *Association* |
 
 ## Associations

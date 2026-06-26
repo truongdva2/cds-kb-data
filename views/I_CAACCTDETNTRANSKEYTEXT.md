@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ktosl_kk preserving type )` | `cast( left( dd07t.domvalue_l,3 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `ktosl_text_kk preserving type )` | `cast( ddtext` |
+| `CATransactionKeyAccountDetn` | `cast( left( dd07t.domvalue_l,3 ) as ktosl_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CATransactionKeyAcctDetnText` | `cast( ddtext as ktosl_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

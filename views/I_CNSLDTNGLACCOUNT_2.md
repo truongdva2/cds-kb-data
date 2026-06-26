@@ -31,7 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_GLAccountHierNode_2'}` | `releaseState: #DEPRECATED, successor: '_GLAccountHierNode_2'}` |
+| `ChartOfAccounts` | `cast( ChartOfAccounts as fincs_chartofaccounts preserving type )` |
+| `GLAccount` | `cast( GLAccount as fincs_glaccount preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
+| `CreationDateTime` | `cast( min ( CreationDateTime ) as fincs_creationdatetime preserving type )` |
+| `_ChartOfAccounts` | *Association* |
+| `_Text` | *Association* |
 | `_GLAccountHierNode` | *Association* |
 | `_GLAccountHierNode_2` | *Association* |
 | `_MDSource` | *Association* |

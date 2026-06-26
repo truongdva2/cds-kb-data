@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceList
 ---
 # I_INVOICELISTREMUNERATION
 
@@ -30,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` | `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` |
-| `key InvoiceListItem.InvoiceList` | `InvoiceListItem.InvoiceList` |
-| `InvoiceListItem.TransactionCurrency` | `InvoiceListItem.TransactionCurrency` |
-| `kwert_rl preserving type)` | `cast(sum(InvoiceListItem.RemunerationNetAmount)` |
-| `mwsbp_rl preserving type)` | `cast(sum(InvoiceListItem.RemunerationTaxAmount)` |
+| `InvoiceList` | `InvoiceListItem.InvoiceList` |
+| `TransactionCurrency` | `InvoiceListItem.TransactionCurrency` |
+| `TotalRemunerationNetAmount` | `cast(sum(InvoiceListItem.RemunerationNetAmount) as kwert_rl preserving type)` |
+| `TotalRemunerationTaxAmount` | `cast(sum(InvoiceListItem.RemunerationTaxAmount) as mwsbp_rl preserving type)` |
 | `_TransactionCurrency` | *Association* |
 | `_InvoiceList` | *Association* |
 

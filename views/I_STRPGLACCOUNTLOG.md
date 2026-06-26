@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_CompanyCodeVH', element: 'CompanyCode'} }]` | `name : 'I_CompanyCodeVH', element: 'CompanyCode'} }]` |
+| `StatryRptgEntity` | `glaccts_rep_itm.statryrptgentity` |
+| `StatryRptCategory` | `glaccts_rep_itm.statryrptcategory` |
+| `StatryRptRunID` | `glaccts_rep_itm.statryrptrunid` |
 | `CompanyCode` | `glaccts_rep_itm.companycode` |
 | `GLAccount` | `glaccts_rep_itm.glaccount` |
 

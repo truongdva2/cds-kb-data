@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PartnerFunction` | `PartnerFunction` |
 | `SupplierSubrange` | `SupplierSubrange` |
 | `Plant` | `Plant` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -49,12 +49,10 @@ tags:
 | `PersonWorkAgreement` | `PersonWorkAgreement` |
 | `EmploymentInternalID` | `EmploymentInternalID` |
 | `DefaultPartner` | `DefaultPartner` |
-| `/* Associations */` | `/* Associations */` |
 | `_PartnerFunction` | *Association* |
 | `_PartnerFunctionText` | *Association* |
 | `_PersonWorkAgreement` | *Association* |
 | `_Plant` | *Association* |
-| `_PurchaseOrderTP : redirected to parent I_PurchaseOrderTP_2` | *Association* |
 | `_PurchasingOrganization` | *Association* |
 | `_Supplier` | *Association* |
 | `_SupplierContact` | *Association* |

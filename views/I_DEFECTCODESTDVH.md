@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-QN-2CL
   - lob:Quality Management
+  - bo:DefectCode
 ---
 # I_DEFECTCODESTDVH
 
@@ -31,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `_DefectCodeGroup._Text[ 1:Language = $session.system_language ].DefectCodeGroupText` | *Association* |
+| `DefectCodeGroup` | `DefectCodeGroup` |
+| `DefectCode` | `DefectCode` |
+| `DefectCodeText` | `_Text[ 1:Language = $session.system_language ].DefectCodeText` |
+| `DefectCodeGroupText` | `expr(…)` |
 | `CodeIsInactive` | `CodeIsInactive` |
-| `qdefect_code_group_and_code preserving type )` | `cast( concat_with_space( DefectCodeGroup, DefectCode, 1)` |
+| `DefectCodeGroupAndCode` | `cast(…)` |
 | `_Text` | *Association* |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 | `_DefectCodeGroup` | *Association* |

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:PrjBlgElmEntrCanclnSrcCodeText
 ---
 # I_PRJBLGELMENTRCANCLNSRCCDTEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `pbee_cancellingsrc preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PrjBlgElmEntrCanclnSrceCode` | `cast( substring( domvalue_l, 1, 1 ) as pbee_cancellingsrc preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `PrjBlgElmEntrCanclnSrcCdText` | `ddtext` |
 | `_PrjBlgElmEntrCanclnSrceCode` | *Association* |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PrjBlgElmEntrCanclnSrceCode` | `I_PrjBlgElmEntrCanclnSrceCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

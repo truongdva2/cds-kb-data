@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStopUUID` | `TransportationOrderStopUUID` |
+| `TransportationOrderStopUUID` | `TransportationOrderStopUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderStop` | `TransportationOrderStop` |
 | `TranspOrdStopCategory` | `TranspOrdStopCategory` |
 | `TranspOrdStopRole` | `TranspOrdStopRole` |
-| `LocationAdditionalUUID, // This is the RAW16 UUID of the Location; LocationUUID is the CHAR22 GUID` | `LocationAdditionalUUID, // This is the RAW16 UUID of the Location; LocationUUID is the CHAR22 GUID` |
+| `LocationAdditionalUUID` | `LocationAdditionalUUID` |
 | `LocationId` | `LocationId` |
 | `LocationUNCode` | `LocationUNCode` |
 | `LocationIATACode` | `LocationIATACode` |
@@ -50,9 +50,9 @@ tags:
 | `TranspOrdCapacityStopUUID` | `TranspOrdCapacityStopUUID` |
 | `TranspOrdStopCapacityItemUUID` | `TranspOrdStopCapacityItemUUID` |
 | `TranspOrdStopExecIsBlocked` | `TranspOrdStopExecIsBlocked` |
-| `_FreightUnit                  : redirected to parent I_FreightUnitTP` | `FreightUnitStop._TransportationOrder` |
-| `_FreightUnitStage             : redirected to composition child I_FreightUnitStageTP` | `FreightUnitStop._TranspOrderStage` |
-| `_FrtUnitStopLocAddrDfltRprstn : redirected to composition child I_FrtUnitStopLocAdDfRpnTP` | `FreightUnitStop._TrOrdStopLocAddrDfltRprstn` |
+| `_FreightUnit` | *Association* |
+| `_FreightUnitStage` | *Association* |
+| `_FrtUnitStopLocAddrDfltRprstn` | *Association* |
 
 ## Associations
 

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_order_wthout_charge_type preserving type )` | `cast ( SalesDocumentType` |
+| `SalesOrderWithoutChargeType` | `cast ( SalesDocumentType as sales_order_wthout_charge_type preserving type )` |
 | `SalesOrderWthoutChrgProcgType` | `SalesDocumentProcessingType` |
 | `_Text` | *Association* |
 

@@ -30,7 +30,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_RFQLifecycleStatus'}` | `foreignKey.association: '_RFQLifecycleStatus'}` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
+| `PurchasingDocumentType` | `PurchasingDocumentType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `Language` | `Language` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `PaymentTerms` | `PaymentTerms` |
+| `CashDiscount1Days` | `CashDiscount1Days` |
+| `CashDiscount2Days` | `CashDiscount2Days` |
+| `CashDiscount1Percent` | `CashDiscount1Percent` |
+| `CashDiscount2Percent` | `CashDiscount2Percent` |
+| `NetPaymentDays` | `NetPaymentDays` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `RFQPublishingDate` | `RFQPublishingDate` |
+| `QuotationLatestSubmissionDate` | `QuotationLatestSubmissionDate` |
+| `BindingPeriodValidityEndDate` | `BindingPeriodValidityEndDate` |
+| `TargetAmount` | `TargetAmount` |
 | `RFQLifecycleStatus` | `RFQLifecycleStatus` |
 | `RequestForQuotationName` | `RequestForQuotationName` |
 | `QuotationEarliestSubmsnDate` | `QuotationEarliestSubmsnDate` |
@@ -43,7 +70,6 @@ tags:
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `PurContrValidityStartDate` | `PurContrValidityStartDate` |
 | `PurContrValidityEndDate` | `PurContrValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_CentralReqForQuotationItem` | *Association* |
 | `_CntrlReqForQuotationBidder` | *Association* |
 | `_PurchasingDocumentType` | *Association* |
@@ -67,10 +93,8 @@ tags:
 | `_CentralReqForQuotationItem` | `I_CentralReqForQuotationItem` | [1..*] |
 | `_CntrlReqForQuotationBidder` | `I_CntrlReqForQuotationBidder` | [1..*] |
 | `_FollowOnDocumentType` | `I_PurchasingDocumentType` | [0..1] |
-| `_RFQType` | `I_RequestForQuotationType` | [0..1] |
 | `_FollowOnDocumentCategory` | `I_PurchasingDocumentCategory` | [0..1] |
 | `_CentralSupplierQuotation` | `I_CentralSupplierQuotation` | [0..*] |
-| `_RFQLifecycleStatus` | `I_RFQLifecycleStatus` | [0..1] |
 | `_CentralReqForQuotationExtn` | `E_PurchasingDocument` | [1..1] |
 
 ## Source Code

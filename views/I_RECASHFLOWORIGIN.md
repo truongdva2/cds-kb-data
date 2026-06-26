@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:RECashFlowOrigin
 ---
 # I_RECASHFLOWORIGIN
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `reiscforigin )` | `cast( dd07l.domvalue_l` |
+| `RECashFlowOrigin` | `cast( dd07l.domvalue_l as reiscforigin )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RECashFlowOriginText` | [0..*] |
 
 ## Source Code
 

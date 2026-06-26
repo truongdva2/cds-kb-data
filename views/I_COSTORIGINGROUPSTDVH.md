@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:CO-PC-PCP-2CL
   - lob:Controlling
+  - bo:CostOriginGroup
 ---
 # I_COSTORIGINGROUPSTDVH
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostOriginGroup` | `CostOriginGroup` |
-| `key CostOriginType` | `CostOriginType` |
-| `key ControllingArea` | `ControllingArea` |
+| `CostOriginGroup` | `CostOriginGroup` |
+| `CostOriginType` | `CostOriginType` |
+| `ControllingArea` | `ControllingArea` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_CostOriginType` | *Association* |

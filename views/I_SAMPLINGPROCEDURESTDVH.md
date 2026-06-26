@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `I_SamplingProcedureValueHelp.SamplingProcedureText` | `I_SamplingProcedureValueHelp.SamplingProcedureText` |
+| `SamplingProcedure` | `SamplingProcedure` |
+| `SamplingProcedureText` | `I_SamplingProcedureValueHelp.SamplingProcedureText` |
 
 ## Associations
 

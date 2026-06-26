@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `uvwak_su preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OvrlItmGdsMvtIncompletionSts` | `cast(left(dd07l.domvalue_l, 1 ) as uvwak_su preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

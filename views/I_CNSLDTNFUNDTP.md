@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialManagementArea` | `_Source.FinancialManagementArea` |
-| `key _Source.Fund` | `_Source.Fund` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnFundTextTP` | *Association* |
+| `FinancialManagementArea` | `_Source.FinancialManagementArea` |
+| `Fund` | `_Source.Fund` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -30,11 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_unitdatacollection preserving type )` | `cast( _UnitAttributeValue.CnsldtnUnitAttributeValue` |
+| `CnsldtnUnitDataCollection` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

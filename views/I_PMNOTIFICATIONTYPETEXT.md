@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:NotificationType
 ---
 # I_PMNOTIFICATIONTYPETEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `NotificationType` | `tq80_t.qmart` |
+| `Language` | `tq80_t.spras` |
 | `NotificationTypeName` | `tq80_t.qmartx` |
 | `_PMNotificationType` | *Association* |
 | `_Language` | *Association* |

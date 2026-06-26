@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMDocument  : lcm_document_id ;` | `LglCntntMDocument  : lcm_document_id ;` |
+| `LglCntntMDocument` | `lcm_document_id` |
 
 ## Associations
 

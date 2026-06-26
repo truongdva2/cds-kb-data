@@ -29,35 +29,35 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RuntimeHierarchy` | `hryid` |
-| `fis_datbi preserving type )` | `cast(hryvalto` |
+| `ValidityEndDate` | `cast(hryvalto as fis_datbi preserving type )` |
 | `HierarchyNode` | `hrynode` |
 | `HierarchyNodeClass` | `nodecls` |
 | `ParentNode` | `parnode` |
 | `HierarchyType` | `hrytyp` |
-| `fis_datab preserving type )` | `cast(hryvalfrom` |
+| `ValidityStartDate` | `cast(hryvalfrom as fis_datab preserving type )` |
 | `DebitCreditCode` | `balind` |
 | `NodeType` | `nodetype` |
 | `HierarchyNodeVal` | `nodevalue` |
 | `HierarchyNodeSequence` | `hryseqnbr` |
 | `HierarchyNodeLevel` | `hrylevel` |
-| `ControllingArea, //FIS_KOKRS` | `kokrs` |
-| `ChartOfAccounts, //FIS_KTOPL` | `ktopl` |
+| `ControllingArea` | `kokrs` |
+| `ChartOfAccounts` | `ktopl` |
 | `ConsolidationChartOfAccounts` | `itclg` |
 | `SubItemCategory` | `sityp` |
 | `ValidationScenarioID` | `scen_id` |
 | `FinancialManagementArea` | `fikrs` |
 | `FinMgmtAreaFiscalYear` | `fma_fisyear` |
-| `GLAccount, //FIS_RACCT` | `saknr` |
-| `CostCenter, //FIS_KOSTL` | `kostl` |
+| `GLAccount` | `saknr` |
+| `CostCenter` | `kostl` |
 | `ProfitCenter` | `prctr` |
-| `StatisticalKeyFigure, //FIS_STAGR` | `stagr` |
-| `ActivityType, //LEARR` | `lstar` |
-| `fis_wbs_no_conv preserving type )` | `cast( posid` |
+| `StatisticalKeyFigure` | `stagr` |
+| `ActivityType` | `lstar` |
+| `WBSElement` | `cast( posid as fis_wbs_no_conv preserving type )` |
 | `FunctionalArea` | `fkber` |
 | `CompanyCode` | `bukrs` |
 | `Segment` | `segment` |
 | `BusinessTransactionType` | `cbttype` |
-| `OrderID, //FIS_AUFNR` | `aufnr` |
+| `OrderID` | `aufnr` |
 | `Fund` | `fincode` |
 | `GrantID` | `grant_nbr` |
 | `BudgetPeriod` | `budget_pd` |
@@ -69,15 +69,15 @@ tags:
 | `BankAccountInternalID` | `acc_id` |
 | `LiquidityItem` | `lqpos` |
 | `AssetBusinessArea` | `gsber` |
-| `FinancialTransactionType, //FIS_RMVCT` | `trtyp` |
+| `FinancialTransactionType` | `trtyp` |
 | `CustomerNum` | `kunnr` |
 | `AssetSupplier` | `lifnr` |
-| `fis_project_no_conv preserving type  )` | `cast( pspid` |
+| `Project` | `cast( pspid as fis_project_no_conv preserving type )` |
 | `Material` | `matnr` |
 | `CustomerGroup` | `kdgrp` |
 | `CountryOrRegion` | `land1` |
 | `FinancialStatementItemTemplate` | `item` |
-| `fincs_consolidationunit preserving type )` | `cast ( bunit` |
+| `ConsolidationUnit` | `cast ( bunit as fincs_consolidationunit preserving type )` |
 | `SubItem` | `sitem` |
 | `ConsolidationDocumentType` | `docty` |
 | `Company` | `rcomp` |
@@ -91,10 +91,10 @@ tags:
 | `Plant` | `werks` |
 | `Industry` | `brsch` |
 | `CommitmentItem` | `fipex` |
-| `PostingLevel, //FC_PLEVL` | `plevl` |
+| `PostingLevel` | `plevl` |
 | `FinancialServicesProductGroup` | `fs_product_group` |
 | `PricingIsRelevant` | `pricingrelevant` |
-| `rr_rsign preserving type )` | `cast( sign` |
+| `SignIsInverted` | `cast( sign as rr_rsign preserving type )` |
 | `GeneralLedgerAgingIncrement` | `regrouping` |
 | `FinancialStatementLeafItem` | `fs_leafitem` |
 | `FinancialStatementNodeType` | `fs_nodetype` |

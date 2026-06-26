@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bukrs )` | `cast(AFDFDocumentKey1` |
-| `farp_belnr_d )` | `cast(AFDFDocumentKey2` |
-| `gjahr )` | `cast(AFDFDocumentKey3` |
-| `key OfficialDocumentNumberType` | `OfficialDocumentNumberType` |
+| `CompanyCode` | `cast(AFDFDocumentKey1 as bukrs )` |
+| `AccountingDocument` | `cast(AFDFDocumentKey2 as farp_belnr_d )` |
+| `FiscalYear` | `cast(AFDFDocumentKey3 as gjahr )` |
+| `OfficialDocumentNumberType` | `OfficialDocumentNumberType` |
 | `AFDFUniqueKeyUUID` | `AFDFUniqueKeyUUID` |
 | `AFDFDocumentType` | `AFDFDocumentType` |
 | `AFDFRecordType` | `AFDFRecordType` |

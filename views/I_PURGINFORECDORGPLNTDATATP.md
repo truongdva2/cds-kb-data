@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-VM-REC-2CL
   - lob:Sourcing & Procurement
+  - bo:PurgInfoRecdOrgPlantData
 ---
 # I_PURGINFORECDORGPLNTDATATP
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
-| `key PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key Plant` | `Plant` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `Plant` | `Plant` |
 | `CreatedByUser` | `CreatedByUser` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `PurchasingGroup` | `PurchasingGroup` |
@@ -64,7 +65,7 @@ tags:
 | `IsEvaluatedRcptSettlmtAllowed` | `IsEvaluatedRcptSettlmtAllowed` |
 | `IsPurOrderAllwdForInbDeliv` | `IsPurOrderAllwdForInbDeliv` |
 | `IsOrderAcknRqd` | `IsOrderAcknRqd` |
-| `IsRetMatlAuthznRqdBySupplier,   // can we use SuplrRetMatlAuthznRqmtSts..?` | `IsRetMatlAuthznRqdBySupplier,   // can we use SuplrRetMatlAuthznRqmtSts..?` |
+| `IsRetMatlAuthznRqdBySupplier` | `IsRetMatlAuthznRqdBySupplier` |
 | `IsCashDiscountGranted` | `IsCashDiscountGranted` |
 | `MaterialConditionGroup` | `MaterialConditionGroup` |
 | `PurchasingDocumentDate` | `PurchasingDocumentDate` |
@@ -88,8 +89,6 @@ tags:
 | `_PurchasingGroup` | *Association* |
 | `_PurchasingOrganization` | *Association* |
 | `_TaxCode` | *Association* |
-| `_PurgInfoRecdPrcgCndnValdty   : redirected to composition child I_PurgInfoRecdPrcgCndnValdtyTP` | *Association* |
-| `_PurchasingInfoRecord        : redirected to parent I_PurchasingInfoRecordTP` | *Association* |
 
 ## Associations
 

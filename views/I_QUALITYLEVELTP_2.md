@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Material` | `Material` |
-| `key BillOfOperationsType` | `BillOfOperationsType` |
-| `key BillOfOperationsGroup` | `BillOfOperationsGroup` |
-| `key BillOfOperationsVariant` | `BillOfOperationsVariant` |
-| `key BOOOperationInternalID` | `BOOOperationInternalID` |
-| `key Sequence` | `Sequence` |
-| `key QualityLevelInternalID` | `QualityLevelInternalID` |
+| `Plant` | `Plant` |
+| `Material` | `Material` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `BillOfOperationsVariant` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `Sequence` | `Sequence` |
+| `QualityLevelInternalID` | `QualityLevelInternalID` |
 | `Supplier` | `Supplier` |
 | `Manufacturer` | `Manufacturer` |
 | `Customer` | `Customer` |

@@ -32,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
-| `fpc_costing_run_description preserving type)` | `cast(EstimatedCostCostingRunDesc` |
+| `EstimatedCostCostingRun` | `EstimatedCostCostingRun` |
+| `EstimatedCostCostingRunDate` | `EstimatedCostCostingRunDate` |
+| `CostingVersion` | `CostingVersion` |
+| `EstimatedCostCostingRunDesc` | `cast(EstimatedCostCostingRunDesc as fpc_costing_run_description preserving type)` |
 
 ## Associations
 

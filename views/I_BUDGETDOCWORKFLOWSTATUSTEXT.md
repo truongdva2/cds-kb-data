@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cast( cast ( substring( dd07t.domvalue_l, 1, 1 )` | `cast( cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `bdgt_doc_workflow_status )` | `as abap.char( 1 ) )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `bdgt_doc_workflow_status_text preserving type )` | `cast ( dd07t.ddtext` |
+| `BudgetDocWorkFlowStatus` | `cast(…)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `BudgetDocWorkFlowStatusText` | `cast ( dd07t.ddtext as bdgt_doc_workflow_status_text preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_BudgetDocWorkFlowStatus` | *Association* |
 | `_Language` | *Association* |
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_BudgetDocWorkFlowStatus` | `I_BudgetDocWorkFlowStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

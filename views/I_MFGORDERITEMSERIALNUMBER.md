@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SerialNumber
 ---
 # I_MFGORDERITEMSERIALNUMBER
 
@@ -31,30 +32,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element: 'Plant' } } ]` | `name: 'I_PlantStdVH', element: 'Plant' } } ]` |
-| `item.PlanningPlant` | `item.PlanningPlant` |
-| `item.MRPController` | `item.MRPController` |
-| `item.ProductionSupervisor` | `item.ProductionSupervisor` |
-| `item.ManufacturingOrderCategory` | `item.ManufacturingOrderCategory` |
-| `item.ManufacturingOrderType` | `item.ManufacturingOrderType` |
-| `SerialNumberProfile` | `item.SerialNumberAssgmtProfile` |
+| `ManufacturingOrder` | `item.ManufacturingOrder` |
+| `ManufacturingOrderItem` | `item.ManufacturingOrderItem` |
+| `SerialNumber` | `-- representative key key cast(objk.SerialNumber as gernr preserving type)` |
+| `MaintenanceItemObjectList` | `objk.MaintenanceItemObjectList` |
+| `MaintenanceItemObject` | `objk.MaintenanceItemObject` |
+| `Equipment` | `objk.Equipment` |
+| `Equipment_2` | `cast(objk.Equipment as equnr preserving type)` |
+| `Product` | `item.Product` |
+| `ProductionPlant` | `item.ProductionPlant` |
+| `PlanningPlant` | `item.PlanningPlant` |
+| `MRPController` | `item.MRPController` |
+| `ProductionSupervisor` | `item.ProductionSupervisor` |
+| `ManufacturingOrderCategory` | `item.ManufacturingOrderCategory` |
+| `ManufacturingOrderType` | `item.ManufacturingOrderType` |
+| `SerialNumberProfile` | `-- item.SerialNumberAssgmtProfile` |
 | `DocumentDate` | `sern.SerialNumberAssignmentDate` |
-| `item._MfgOrder` | `item._MfgOrder` |
+| `_MfgOrder` | *Association* |
 | `_MfgOrderItem` | *Association* |
-| `item._MfgOrderCategory` | `item._MfgOrderCategory` |
-| `item._MfgOrderType` | `item._MfgOrderType` |
+| `_MfgOrderCategory` | *Association* |
+| `_MfgOrderType` | *Association* |
 | `_Equipment` | *Association* |
 | `_Equipment_2` | *Association* |
-| `item._Product` | `item._Product` |
-| `item._ProductionPlant` | `item._ProductionPlant` |
-| `item._ProductionSupervisor` | `item._ProductionSupervisor` |
-| `item._MRPController` | `item._MRPController` |
-| `item._MRPPlant` | `item._MRPPlant` |
-| `item._SerialNumberProfile` | `item._SerialNumberProfile` |
+| `_Product` | *Association* |
+| `_ProductionPlant` | *Association* |
+| `_ProductionSupervisor` | *Association* |
+| `_MRPController` | *Association* |
+| `_MRPPlant` | *Association* |
+| `_SerialNumberProfile` | *Association* |
 | `_EquipmentText` | *Association* |
-| `item._ProductText` | `item._ProductText` |
-| `item._ProductionPlantText` | `item._ProductionPlantText` |
-| `item._PlanningPlantText` | `item._PlanningPlantText` |
+| `_ProductText` | *Association* |
+| `_ProductionPlantText` | *Association* |
+| `_PlanningPlantText` | *Association* |
 
 ## Associations
 

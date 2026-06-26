@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsSequence
 ---
 # I_MFGBILLOFOPERATIONSSEQUENCE
 
@@ -30,9 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` | `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` |
-| `key plfl.BillOfOperationsVariant` | `plfl.BillOfOperationsVariant` |
-| `key plfl.BillOfOperationsSequence` | `plfl.BillOfOperationsSequence` |
+| `BillOfOperationsType` | `plfl.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plfl.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `plfl.BillOfOperationsVariant` |
+| `BillOfOperationsSequence` | `plfl.BillOfOperationsSequence` |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsType` | *Association* |

@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_UnitOfMeasure' }` | `foreignKey.association: '_UnitOfMeasure' }` |
+| `CompanyCode` | `comp_code` |
+| `FixedAssetUsageObject` | `usage_object` |
+| `FixedAssetUsageObjectDesc` | `description` |
 | `BaseUnit` | `base_uom` |
 | `FixedAssetUsageObjLfcycSts` | `lifecycle_status` |
 | `CreationDateTime` | `creation_datetime` |

@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `UserID         : abp_behv_draft_user_name;` | `UserID         : abp_behv_draft_user_name;` |
-| `UserAccessRole : abp_behv_draft_user_role;` | `UserAccessRole : abp_behv_draft_user_role;` |
-| `toParent       : association to parent ABP_BEHV_PAR_SHARE;` | `toParent       : association to parent ABP_BEHV_PAR_SHARE;` |
+| `UserID` | `abp_behv_draft_user_name` |
+| `UserAccessRole` | `abp_behv_draft_user_role` |
+| `toParent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `toParent` | `ABP_BEHV_PAR_SHARE` | — |
 
 ## Source Code
 

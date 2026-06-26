@@ -45,12 +45,7 @@ tags:
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `JournalEntryTypeText` | `I_AccountingDocumentTypeText` | [0..1] |
-| `CADEJournalEntryType` | `I_CN_CADEJournalEntryDocType` | [0..1] |
-| `CADETranscationType` | `I_CN_CADEJournalEntryDocType` | [0..1] |
-| `CADEDocumentType` | `I_CN_CADEJournalEntryDocType` | [0..1] |
+> No associations found.
 
 ## Source Code
 

@@ -15,6 +15,7 @@ tags:
   - transport
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeTransportationMode
 ---
 # I_BR_CTETRANSPORTATIONMODE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_CTeTransportationMode` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

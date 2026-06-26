@@ -32,24 +32,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `GLAccountLineItem          :docln6;` | `GLAccountLineItem          :docln6;` |
-| `TaxCode                    :mwskz;` | `TaxCode                    :mwskz;` |
-| `TaxItemClassification      :ktosl;` | `TaxItemClassification      :ktosl;` |
-| `ConditionType              :kschl;` | `ConditionType              :kschl;` |
-| `TaxJurisdiction            :txjcd;` | `TaxJurisdiction            :txjcd;` |
-| `TaxJurisdictionLevel       :acpi_txjcd_level;` | `TaxJurisdictionLevel       :acpi_txjcd_level;` |
-| `LowestLevelTaxJurisdiction :acpi_txjcd_deep;` | `LowestLevelTaxJurisdiction :acpi_txjcd_deep;` |
-| `TaxItemAcctgDocItemRef     :taxps;` | `TaxItemAcctgDocItemRef     :taxps;` |
-| `TaxRate                    :msatz_f05l;` | `TaxRate                    :msatz_f05l;` |
-| `TaxDeterminationDate       :acpi_txdat;` | `TaxDeterminationDate       :acpi_txdat;` |
-| `IsDirectTaxPosting         :bapi_flg_dir;` | `IsDirectTaxPosting         :bapi_flg_dir;` |
-| `TaxCountry                 :fot_tax_country;` | `TaxCountry                 :fot_tax_country;` |
-| `_CurrencyAmount            : association [0..*] to D_JournalEntryPostCurrencyAmtP on 1 = 1;` | *Association* |
-| `_JournalEntryPost          : association to parent D_JournalEntryPostParameter;` | *Association* |
+| `GLAccountLineItem` | `docln6` |
+| `TaxCode` | `mwskz` |
+| `TaxItemClassification` | `ktosl` |
+| `ConditionType` | `kschl` |
+| `TaxJurisdiction` | `txjcd` |
+| `TaxJurisdictionLevel` | `acpi_txjcd_level` |
+| `LowestLevelTaxJurisdiction` | `acpi_txjcd_deep` |
+| `TaxItemAcctgDocItemRef` | `taxps` |
+| `TaxRate` | `msatz_f05l` |
+| `TaxDeterminationDate` | `acpi_txdat` |
+| `IsDirectTaxPosting` | `bapi_flg_dir` |
+| `TaxCountry` | `fot_tax_country` |
+| `_CurrencyAmount` | *Association* |
+| `_JournalEntryPost` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CurrencyAmount` | `D_JournalEntryPostCurrencyAmtP` | [0..*] |
+| `_JournalEntryPost` | `D_JournalEntryPostParameter` | — |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlanningStrategyGroup
 ---
 # I_PLANNINGSTRATEGYGROUPVH
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `grp.MainPlanningStrategy` | `grp.MainPlanningStrategy` |
+| `PlanningStrategyGroup` | `grp.PlanningStrategyGroup` |
+| `MainPlanningStrategy` | `grp.MainPlanningStrategy` |
 | `_Text` | *Association* |
 
 ## Associations

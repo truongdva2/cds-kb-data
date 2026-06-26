@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowExternalStatus
 ---
 # I_WORKFLOWTASKEXTERNALSTATTEXT
 
@@ -33,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowExternalStatus` | `WorkflowTaskStatus` |
+| `Language` | `Language` |
 | `_Language` | *Association* |
 | `WorkflowExternalStatusDesc` | `WorkflowTaskStatusDesc` |
 

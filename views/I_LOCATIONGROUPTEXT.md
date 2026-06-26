@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:LocationGroup
 ---
 # I_LOCATIONGROUPTEXT
 
@@ -32,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `LocationGroup` | `txt.ortgr` |
+| `Plant` | `txt.werks` |
+| `Language` | `txt.spras` |
 | `LocationGroupName` | `txt.txt` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

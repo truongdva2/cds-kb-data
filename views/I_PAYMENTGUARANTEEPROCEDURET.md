@@ -15,6 +15,7 @@ tags:
   - payment
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:PaymentGuaranteeProcedure
 ---
 # I_PAYMENTGUARANTEEPROCEDURET
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PaymentGuaranteeProcedure` | `I_PaymentGuaranteeProcedure` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

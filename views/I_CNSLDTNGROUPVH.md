@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `_Source._Text[1: Language=$session.system_language].ConsolidationGroupText` | *Association* |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationGroupText` | `_Source._Text[1: Language=$session.system_language].ConsolidationGroupText` |
 
 ## Associations
 

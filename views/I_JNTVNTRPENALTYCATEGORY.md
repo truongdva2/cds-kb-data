@@ -29,9 +29,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVentureCompanyCodeVH'` | `name:    'I_JointVentureCompanyCodeVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CompanyCode` | `bukrs` |
 | `JntVntrPenaltyCategory` | `pencat` |
 | `_CompanyCode` | *Association* |

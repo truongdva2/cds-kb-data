@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OperationExternalProcessing
 ---
 # I_OPERATIONEXTERNALPROCTEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `OperationExternalProcessing` | `cast(substring(t.domvalue_l, 1, 1) as lief preserving type)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
 | `OperationExternalProcName` | `t.ddtext` |
 | `_ExternalProcessing` | *Association* |
 | `_Language` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - product
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProductAllocationPeriodType
 ---
 # I_PRODUCTALLOCATIONPERIODTYPET
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productallocationperiodtype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProductAllocationPeriodType` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodallocationperiodtypedesc preserving type )` | `cast( ddtext` |
+| `ProdAllocationPeriodTypeDesc` | `cast( ddtext as prodallocationperiodtypedesc preserving type )` |
 | `_ProductAllocationPeriodType` | *Association* |
 | `_Language` | *Association* |
 

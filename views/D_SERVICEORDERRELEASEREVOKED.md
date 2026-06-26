@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CustMgmtObjectType      : crmt_subobject_category_db;` | `CustMgmtObjectType      : crmt_subobject_category_db;` |
-| `ServiceOrderUUID        : crmt_object_guid;` | `ServiceOrderUUID        : crmt_object_guid;` |
-| `ServiceOrderDescription : crmt_process_description;` | `ServiceOrderDescription : crmt_process_description;` |
-| `ServiceOrderType        : crmt_process_type;` | `ServiceOrderType        : crmt_process_type;` |
+| `CustMgmtObjectType` | `crmt_subobject_category_db` |
+| `ServiceOrderUUID` | `crmt_object_guid` |
+| `ServiceOrderDescription` | `crmt_process_description` |
+| `ServiceOrderType` | `crmt_process_type` |
 
 ## Associations
 

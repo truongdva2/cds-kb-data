@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key InspectionPlan` | `InspectionPlan` |
-| `key BOOOperationInternalID` | `BOOOperationInternalID` |
-| `key BOOCharacteristic` | `BOOCharacteristic` |
-| `key BOODpndantCharcSpec` | `BOODpndantCharcSpec` |
-| `key BOODpndantCharcSpecVers` | `BOODpndantCharcSpecVers` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `InspectionPlan` | `InspectionPlan` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `BOOCharacteristic` | `BOOCharacteristic` |
+| `BOODpndantCharcSpec` | `BOODpndantCharcSpec` |
+| `BOODpndantCharcSpecVers` | `BOODpndantCharcSpecVers` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ChangeNumber` | `ChangeNumber` |
@@ -82,10 +82,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `BillOfOperationsVersion` | `BillOfOperationsVersion` |
-| `_InspPlanOperation : redirected to parent I_InspPlanOperationTP_2` | *Association* |
-| `_InspPlanOpCharcVers : redirected to I_InspPlanOpCharcVersionTP_2` | *Association* |
-| `_InspPlanVersion : redirected to I_InspectionPlanVersionTP_2` | *Association* |
-| `_InspPlan : redirected to I_InspectionPlanTP_2` | *Association* |
 
 ## Associations
 

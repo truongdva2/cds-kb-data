@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassInternalID
 ---
 # I_CLFNCLASS
 
@@ -43,8 +44,8 @@ tags:
 | `LastChangeDate` | `Class.vdatu` |
 | `ValidityStartDate` | `Class.vondt` |
 | `ValidityEndDate` | `Class.bisdt` |
-| `char1 preserving type )` | `cast( Class.praus` |
-| `clfnorganizationalarea preserving type )` | `cast( Class.sicht` |
+| `SameClassfctnReaction` | `cast( Class.praus as char1 preserving type )` |
+| `ClfnOrganizationalArea` | `cast( Class.sicht as clfnorganizationalarea preserving type )` |
 | `DocumentInfoRecordDocNumber` | `Class.doknr` |
 | `DocumentInfoRecordDocType` | `Class.dokar` |
 | `DocumentInfoRecordDocPart` | `Class.doktl` |

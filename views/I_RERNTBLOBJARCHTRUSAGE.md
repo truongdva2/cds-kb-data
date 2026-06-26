@@ -30,16 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
+| `REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
 | `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `RealEstateRentableObjectUUID` | `REGenericRentalObjectUUID` |
-| `_REArchitectureObject.REArchitectureObjectType` | *Association* |
-| `_REArchitectureObject.REArchitectureObjectNumber` | *Association* |
-| `_REArchitectureObject.REArchitectureObjectOID` | *Association* |
+| `REArchitectureObjectType` | `_REArchitectureObject.REArchitectureObjectType` |
+| `REArchitectureObjectNumber` | `_REArchitectureObject.REArchitectureObjectNumber` |
+| `REArchitectureObjectOID` | `_REArchitectureObject.REArchitectureObjectOID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `REArchtrObjUsageIsMsmtBased` | `REArchtrObjUsageIsMsmtBased` |
-| `/* Associations */` | `/* Associations */` |
 | `_REArchitectureObject` | *Association* |
 | `_REGenericRentalObject` | *Association* |
 | `_RERentableObject` | *Association* |

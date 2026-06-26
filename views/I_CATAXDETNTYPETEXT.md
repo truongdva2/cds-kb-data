@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tax_det_type_kk preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 2 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `tax_det_type_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CATaxDetnType` | `cast ( substring( dd07t.domvalue_l, 1, 2 ) as tax_det_type_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CATaxDetnTypeText` | `cast ( ddtext as tax_det_type_txt_gfn_kk preserving type )` |
 | `_CATaxDetnType` | *Association* |
 | `_Language` | *Association* |
 

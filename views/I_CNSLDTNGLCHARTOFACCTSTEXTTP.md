@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.ChartOfAccounts` | `_Text.ChartOfAccounts` |
-| `_Text.ChartOfAccountsName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_ChartOfAccounts as _ChartOfAccounts : redirected to parent I_CnsldtnGLChartOfAccountsTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `ChartOfAccounts` | `_Text.ChartOfAccounts` |
+| `ChartOfAccountsName` | `_Text.ChartOfAccountsName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_ChartOfAccounts` | *Association* |
 
 ## Associations
 

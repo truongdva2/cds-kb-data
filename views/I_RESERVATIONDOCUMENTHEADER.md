@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Reservation` | `Reservation` |
+| `Reservation` | `Reservation` |
 | `ReservationCreationCode` | `ReservationCreationCode` |
 | `ReservationOrigin` | `ReservationOrigin` |
 | `OrderID` | `OrderID` |
@@ -81,7 +81,6 @@ tags:
 | `_WBSElementByInternalKey` | `I_WBSElementByInternalKey` | [0..1] |
 | `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
 | `_ReservationCreationCode` | `I_ReservationCreationCode` | [0..1] |
-| `_ReservationDocHeaderStatus` | `I_ResvnDocHeaderStatus` | [0..1] |
 
 ## Source Code
 

@@ -30,9 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pperi preserving type)` | `cast(ppsl.pperi` |
-| `vdm_ppfix preserving type)` | `cast(ppsl.ppfix` |
+| `MRPPlant` | `cast(ppsl.werks as werks_d preserving type)` |
+| `MRPPlanningCalendar` | `cast(ppsl.mrppp as mrppp preserving type)` |
+| `PlngPerdScheduleLineEndDate` | `cast(ppsl.ppbis as vdm_ppbis preserving type)` |
+| `PlngPerdScheduleLineStartDate` | `cast(ppsl.ppvon as vdm_ppvon preserving type)` |
+| `PlngPerdScheduleLineInternalID` | `cast(ppsl.pperi as vdm_pperi preserving type)` |
+| `PlngPerdScheduleLineIsFixed` | `cast(ppsl.ppfix as vdm_ppfix preserving type)` |
 | `_PlanningPeriod` | *Association* |
 | `_Plant` | *Association* |
 | `_PlanningCalendar` | *Association* |

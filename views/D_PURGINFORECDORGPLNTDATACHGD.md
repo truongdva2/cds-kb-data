@@ -13,6 +13,7 @@ tags:
   - MM-PUR-VM
   - component:MM-PUR-VM-REC-2CL
   - lob:Sourcing & Procurement
+  - bo:PurgInfoRecdOrgPlantData
 ---
 # D_PURGINFORECDORGPLNTDATACHGD
 
@@ -29,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Supplier      : elifn;` | `Supplier      : elifn;` |
-| `Material      : matnr;` | `Material      : matnr;` |
-| `MaterialGroup : matkl;` | `MaterialGroup : matkl;` |
+| `Supplier` | `elifn` |
+| `Material` | `matnr` |
+| `MaterialGroup` | `matkl` |
 
 ## Associations
 

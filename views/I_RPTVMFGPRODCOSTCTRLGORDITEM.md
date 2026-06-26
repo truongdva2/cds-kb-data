@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RepetitiveManufacturingPCCItem
 ---
 # I_RPTVMFGPRODCOSTCTRLGORDITEM
 
@@ -30,7 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BusinessAreaStdVH', element: 'BusinessArea' } } ]` | `name: 'I_BusinessAreaStdVH', element: 'BusinessArea' } } ]` |
+| `OrderID` | `OrderID` |
+| `OrderItem` | `OrderItem` |
+| `OrderType` | `OrderType` |
+| `Material` | `Material` |
+| `Product` | `cast(Material as productnumber preserving type)` |
+| `ProductionPlant` | `ProductionPlant` |
+| `PlanningPlant` | `MRPPlant` |
+| `ProductionVersion` | `ProductionVersion` |
+| `StorageLocation` | `StorageLocation` |
+| `MRPArea` | `MRPArea` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementInternalID_2` | `WBSElementInternalID_2` |
+| `ProductConfiguration` | `ProductConfiguration` |
+| `ObjectInternalID` | `ObjectInternalID` |
+| `IsCompletelyDelivered` | `IsCompletelyDelivered` |
+| `GoodsReceiptIsExpected` | `GoodsReceiptIsExpected` |
+| `GoodsReceiptIsNonValuated` | `GoodsReceiptIsNonValuated` |
+| `PlannedEndDate` | `cast(PlannedEndDate as pph_gltrp preserving type)` |
+| `ScheduledBasicEndDate` | `cast(ScheduledBasicEndDate as pph_gltrs preserving type)` |
+| `PlannedDeliveryDate` | `PlannedDeliveryDate` |
+| `ActualDeliveryDate` | `ActualDeliveryDate` |
+| `BaseUnit` | `BaseUnit` |
+| `ProductionUnit` | `ProductionUnit` |
+| `OrderPlannedTotalQty` | `cast(ItemQuantity as co_psmng preserving type)` |
+| `OrderPlannedScrapQty` | `cast(MfgOrderItemPlannedScrapQty as co_psamg preserving type)` |
+| `GoodsReceiptQty` | `cast(MfgOrderItemGoodsReceiptQty as co_wemng preserving type)` |
+| `ActualDeviationQty` | `cast(MfgOrderItemActualDeviationQty as co_iamng preserving type)` |
 | `BusinessArea` | `BusinessArea` |
 | `AccountAssignmentCategory` | `AccountAssignmentCategory` |
 | `_Order` | *Association* |

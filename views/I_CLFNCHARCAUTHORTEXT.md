@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcAuthor
 ---
 # I_CLFNCHARCAUTHORTEXT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `ataut )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CharcAuthor` | `cast( dd07t.domvalue_l as ataut )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `charcauthorname preserving type )` | `cast( dd07t.ddtext` |
+| `CharcAuthorName` | `cast( dd07t.ddtext as charcauthorname preserving type )` |
 | `_CharcAuthor` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcAuthor` | `I_ClfnCharcAuthor` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

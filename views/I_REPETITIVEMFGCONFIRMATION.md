@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RepetitiveMfgConfirmation
 ---
 # I_REPETITIVEMFGCONFIRMATION
 
@@ -29,8 +30,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CostCenterStdVH', element: 'CostCenter' } } ]` | `name: 'I_CostCenterStdVH', element: 'CostCenter' } } ]` |
-| `conf.CostCenter` | `conf.CostCenter` |
+| `RepetitiveMfgConfirmation` | `conf.RepetitiveMfgConfirmation` |
+| `RepetitiveMfgConfirmationItem` | `conf.RepetitiveMfgConfirmationItem` |
+| `CreationDate` | `conf.CreationDate` |
+| `CreationTime` | `conf.CreationTime` |
+| `EnteredByUser` | `conf.EnteredByUser` |
+| `RepetitiveMfgConfirmationText` | `conf.RepetitiveMfgConfirmationText` |
+| `RepetitiveMfgConfScenario` | `conf.RepetitiveMfgConfScenario` |
+| `RptvMfgConfProcessingType` | `conf.RptvMfgConfProcessingType` |
+| `RptvMfgConfReversedCode` | `conf.RptvMfgConfReversedCode` |
+| `RptvMfgConfPostingDate` | `conf.RptvMfgConfPostingDate` |
+| `PostingDateYear` | `-- conf.PostingDateYear` |
+| `RptvMfgConfDocumentDate` | `conf.RptvMfgConfDocumentDate` |
+| `BOMExplosionDate` | `conf.BOMExplosionDate` |
+| `ConfHasRefToPlannedOrder` | `conf.ConfHasRefToPlannedOrder` |
+| `BackflushReportingPoint` | `conf.BackflushReportingPoint` |
+| `ReportingPointOperation` | `conf.ReportingPointOperation` |
+| `Product` | `conf.Product` |
+| `Plant` | `conf.Plant` |
+| `ProductionVersion` | `conf.ProductionVersion` |
+| `ReceivingStorageLocation` | `conf.ReceivingStorageLocation` |
+| `ReceivingBatch` | `conf.ReceivingBatch` |
+| `ProductionLine` | `conf.ProductionLine` |
+| `RepetitiveMfgPlanningGroup` | `conf.RepetitiveMfgPlanningGroup` |
+| `PlannedOrder` | `conf.PlannedOrder` |
+| `SalesOrder` | `conf.SalesOrder` |
+| `SalesOrderItem` | `conf.SalesOrderItem` |
+| `ProductionLot` | `conf.ProductionLot` |
+| `ProductionLotInternalID` | `conf.ProductionLotInternalID` |
+| `Reservation` | `conf.Reservation` |
+| `PlanningPlant` | `conf.PlanningPlant` |
+| `KanbanControlCycle` | `conf.KanbanControlCycle` |
+| `KanbanControlCycleItem` | `conf.KanbanControlCycleItem` |
+| `MaterialDocument` | `expr(…)` |
+| `MaterialDocumentYear` | `cast(…)` |
+| `MaterialRevisionLevel` | `conf.MaterialRevisionLevel` |
+| `MaterialRevisionLevel_2` | `conf.MaterialRevisionLevel_2` |
+| `PlantDataCollectionID` | `conf.PlantDataCollectionID` |
+| `Personnel` | `expr(…)` |
+| `EmployeeWageType` | `expr(…)` |
+| `EmployeeWageGroup` | `expr(…)` |
+| `EntryUnit` | `conf.EntryUnit` |
+| `RptvMfgConfEntryQuantity` | `conf.RptvMfgConfEntryQuantity` |
+| `ScrapQuantityInEntryUnit` | `conf.ScrapQuantityInEntryUnit` |
+| `VarianceReasonCode` | `conf.VarianceReasonCode` |
+| `QuantityIsRelevantForRework` | `conf.QuantityIsRelevantForRework` |
+| `ConfFailureCostsReason` | `conf.ConfFailureCostsReason` |
+| `CostCenter` | `conf.CostCenter` |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |
 | `_PlanningPlant` | *Association* |
@@ -45,7 +91,6 @@ tags:
 | `_PlannedOrder` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
-| `_ProductionLot` | *Association* |
 | `_ProductionLot2` | *Association* |
 | `_Reservation` | *Association* |
 | `_KanbanControlCycle` | *Association* |
@@ -61,8 +106,8 @@ tags:
 | `_RepetitiveMfgScenario` | *Association* |
 | `_RptvMfgConfProcessingType` | *Association* |
 | `_RptvMfgConfRevesalType` | *Association* |
-| `conf._EnteredByUser` | `conf._EnteredByUser` |
-| `conf._EntryUnit` | `conf._EntryUnit` |
+| `_EnteredByUser` | *Association* |
+| `_EntryUnit` | *Association* |
 
 ## Associations
 

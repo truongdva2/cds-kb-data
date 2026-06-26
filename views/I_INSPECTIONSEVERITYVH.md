@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM }` | `defaultSearchElement: true, ranking: #MEDIUM }` |
-| `_Text[1:Language = $session.system_language].InspectionSeverityText` | *Association* |
+| `InspectionSeverity` | `InspectionSeverity` |
+| `InspectionSeverityText` | `_Text[1:Language = $session.system_language].InspectionSeverityText` |
 
 ## Associations
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PSM-FM-MD
   - lob:Other
+  - bo:PublicSectorBudgetAccount
 ---
 # I_PUBSECBUDGETACCOUNT
 
@@ -30,25 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
-| `Main.ChartOfAccounts` | `Main.ChartOfAccounts` |
-| `Main.PubSecBudgetCnsmpnType` | `Main.PubSecBudgetCnsmpnType` |
-| `Main.PubSecBdgtAcctRevnExpnCode` | `Main.PubSecBdgtAcctRevnExpnCode` |
-| `Main.PubSecBudgetIsRelevant` | `Main.PubSecBudgetIsRelevant` |
-| `Main.PubSecBdgtAcctIsPostgAllowed` | `Main.PubSecBdgtAcctIsPostgAllowed` |
-| `Main.PubSecBdgtAcctIsBdgtAllowed` | `Main.PubSecBdgtAcctIsBdgtAllowed` |
-| `Main.PubSecBdgtAcctIsCarryFwd` | `Main.PubSecBdgtAcctIsCarryFwd` |
-| `Main.PubSecBdgtAcctCarryFwdTo` | `Main.PubSecBdgtAcctCarryFwdTo` |
-| `Main.CashLedgerAccount` | `Main.CashLedgerAccount` |
-| `Main._Text` | `Main._Text` |
-| `Main._PubSecBdgtCnsmpnType` | `Main._PubSecBdgtCnsmpnType` |
-| `Main._PubSecBdgtAcctRevnExpnCode` | `Main._PubSecBdgtAcctRevnExpnCode` |
-| `Main._PubSecBdgtAcctCarryFwdTo` | `Main._PubSecBdgtAcctCarryFwdTo` |
-| `_CarryForwardBudgetAccount` | `Main._CarryForwardBudgetAccount` |
-| `Main._CashLedgerAccount` | `Main._CashLedgerAccount` |
-| `Main._BudgetAccountHierarchyNode` | `Main._BudgetAccountHierarchyNode` |
+| `PubSecBudgetAccount` | `Main.PubSecBudgetAccount` |
+| `PubSecBudgetAccountCoCode` | `cast(…)` |
+| `ChartOfAccounts` | `Main.ChartOfAccounts` |
+| `PubSecBudgetCnsmpnType` | `Main.PubSecBudgetCnsmpnType` |
+| `PubSecBdgtAcctRevnExpnCode` | `Main.PubSecBdgtAcctRevnExpnCode` |
+| `PubSecBudgetIsRelevant` | `Main.PubSecBudgetIsRelevant` |
+| `PubSecBdgtAcctIsPostgAllowed` | `Main.PubSecBdgtAcctIsPostgAllowed` |
+| `PubSecBdgtAcctIsBdgtAllowed` | `Main.PubSecBdgtAcctIsBdgtAllowed` |
+| `PubSecBdgtAcctIsCarryFwd` | `Main.PubSecBdgtAcctIsCarryFwd` |
+| `PubSecBdgtAcctCarryFwdTo` | `Main.PubSecBdgtAcctCarryFwdTo` |
+| `CashLedgerAccount` | `Main.CashLedgerAccount` |
+| `_Text` | *Association* |
+| `_PubSecBdgtCnsmpnType` | *Association* |
+| `_PubSecBdgtAcctRevnExpnCode` | *Association* |
+| `_PubSecBdgtAcctCarryFwdTo` | *Association* |
+| `_CarryForwardBudgetAccount` | *Association* |
+| `_CashLedgerAccount` | *Association* |
+| `_BudgetAccountHierarchyNode` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_ChartOfAccountsText` | *Association* |
 | `_PubSecBudgetAccountText` | *Association* |

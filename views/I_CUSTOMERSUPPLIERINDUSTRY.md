@@ -34,8 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_brsch preserving type )` | `cast(brsch` |
-| `/* Associations */` | `/* Associations */` |
+| `Industry` | `cast(brsch as fis_brsch preserving type )` |
 | `_Text` | *Association* |
 | `_IndustryHierarchyNode` | *Association* |
 

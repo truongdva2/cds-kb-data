@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:BPGoodsReceivingHoursCode
 ---
 # I_BPGOODSRECEIVINGHOURSVH
 

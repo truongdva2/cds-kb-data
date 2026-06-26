@@ -31,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key QltyInProcmtIntID` | `QltyInProcmtIntID` |
-| `key StatusCode` | `StatusCode` |
+| `Material` | `Material` |
+| `QltyInProcmtIntID` | `QltyInProcmtIntID` |
+| `StatusCode` | `StatusCode` |
 | `StatusProfile` | `StatusProfile` |
 | `StatusObject` | `StatusObject` |
 | `UserStatusName` | `UserStatusName` |
-| `/* Associations */` | `/* Associations */` |
-| `_QltyInProcurement : redirected to parent I_QualityInProcurementTP_2` | *Association* |
 
 ## Associations
 

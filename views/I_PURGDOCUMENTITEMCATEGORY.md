@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentItemCategory
 ---
 # I_PURGDOCUMENTITEMCATEGORY
 
@@ -38,7 +39,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgDocumentItemCategoryText` | [0..*] |
 
 ## Source Code
 

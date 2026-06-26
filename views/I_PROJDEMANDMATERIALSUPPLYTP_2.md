@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjDemandMaterialSupplyUUID` | `ProjDemandMaterialSupplyUUID` |
+| `ProjDemandMaterialSupplyUUID` | `ProjDemandMaterialSupplyUUID` |
 | `ProjectDemandMaterialUUID` | `ProjectDemandMaterialUUID` |
 | `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 | `ProjectDemandReservation` | `ProjectDemandReservation` |
 | `ProjectDemandReservationItem` | `ProjectDemandReservationItem` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
-| `_Material : redirected to parent I_ProjectDemandMaterialTP_2` | *Association* |
-| `_Root     : redirected to I_ProjectDemandTP_2` | *Association* |
 
 ## Associations
 

@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` |
+| `Language` | `cast( langu as spras)` |
+| `AccountingPrinciple` | `tacc_principlet.acc_principle` |
 | `AccountingPrincipleName` | `acc_princtxt` |
 | `_Language` | *Association* |
 

@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnFunctionalArea.FunctionalArea` | `_CnsldtnFunctionalArea.FunctionalArea` |
-| `_CnsldtnFunctionalArea.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnFunctionalAreaTextTP` | *Association* |
+| `FunctionalArea` | `_CnsldtnFunctionalArea.FunctionalArea` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnFunctionalArea.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

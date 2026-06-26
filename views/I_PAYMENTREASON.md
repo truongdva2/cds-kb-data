@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-AP-AP-B-2CL
   - lob:Finance
+  - bo:PaymentReason
 ---
 # I_PAYMENTREASON
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PaymentReason` | `payt_rsn` |
-| `_Text // Make association public` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

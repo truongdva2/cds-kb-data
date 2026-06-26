@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PSM
   - lob:Other
+  - bo:FiscalYear
 ---
 # I_FISCALYEARFORFINMGMTAREA
 
@@ -28,18 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FinMgmtAreaStdVH'` | `name:    'I_FinMgmtAreaStdVH'` |
-| `element: 'FinancialManagementArea' }` | `element: 'FinancialManagementArea' }` |
-| `}]` | `}]` |
 | `FinancialManagementArea` | `I_FinancialManagementArea.FinancialManagementArea` |
-| `fmis_fma_fiscal_year preserving type )` | `cast( I_FiscalYearForVariant.FiscalYear` |
-| `fmis_fma_fiscal_year_variant preserving type )` | `cast( I_FiscalYearForVariant.FiscalYearVariant` |
-| `fins_next_fyear_startdate preserving type )` | `cast( I_FiscalYearForVariant.FiscalYearStartDate` |
-| `fins_next_fyear_enddate preserving type )` | `cast( I_FiscalYearForVariant.FiscalYearEndDate` |
-| `cast( ( case _FinMgmtArea.CommitmentItemIsYearDependent` | `cast( ( case _FinMgmtArea.CommitmentItemIsYearDependent` |
-| `when 'X' then I_FiscalYearForVariant.FiscalYear` | `when 'X' then I_FiscalYearForVariant.FiscalYear` |
-| `else '0000'` | `else '0000'` |
-| `fmis_commititem_year preserving type )` | `end )` |
+| `FinMgmtAreaFiscalYear` | `cast(…)` |
+| `FinMgmtAreaFiscalYearVariant` | `cast(…)` |
+| `FinMgmtAreaFiscalYearStartDate` | `cast(…)` |
+| `FinMgmtAreaFiscalYearEndDate` | `cast(…)` |
+| `CommitmentItemFiscalYear` | `cast(…)` |
 | `_FinMgmtArea` | *Association* |
 
 ## Associations

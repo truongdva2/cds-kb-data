@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `negbu_kk )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CANegativePostingControlCode` | `cast( left( dd07l.domvalue_l, 1 ) as negbu_kk )` |
 | `_Text` | *Association* |
 
 ## Associations

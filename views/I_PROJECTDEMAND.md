@@ -32,7 +32,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'ProjDmndOverallRevenueCurrency'} }` | `currencyCode: 'ProjDmndOverallRevenueCurrency'} }` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjectDemand` | `ProjectDemand` |
+| `ProjectDemandName` | `ProjectDemandName` |
+| `ProjectDemandDescription` | `ProjectDemandDescription` |
+| `ProjectDemandCategory` | `ProjectDemandCategory` |
+| `ProjectDemandType` | `ProjectDemandType` |
+| `ReferencedObjectUUID` | `ReferencedObjectUUID` |
+| `ProjectDemandStatus` | `ProjectDemandStatus` |
+| `ProjectDemandDateMaintenance` | `ProjectDemandDateMaintenance` |
+| `ProjectDemandStartDate` | `ProjectDemandStartDate` |
+| `ProjectDemandEndDate` | `ProjectDemandEndDate` |
+| `ProjectDemandReleasedDateTime` | `ProjectDemandReleasedDateTime` |
+| `ProjDmndActualSupplyDate` | `ProjDmndActualSupplyDate` |
+| `ProjectDemandPerUnitAmount` | `ProjectDemandPerUnitAmount` |
+| `ProjectDemandRequestCurrency` | `ProjectDemandRequestCurrency` |
+| `ProjectDemandRequestNetAmount` | `ProjectDemandRequestNetAmount` |
+| `ProjDmndReqNetAmountCurrency` | `ProjDmndReqNetAmountCurrency` |
+| `ProjectDemandOverallAmount` | `ProjectDemandOverallAmount` |
+| `ProjDmndRequestedQuantity` | `ProjDmndRequestedQuantity` |
+| `ProjDmndRequestedQuantityUnit` | `ProjDmndRequestedQuantityUnit` |
+| `PriceUnitQty` | `PriceUnitQty` |
+| `Plant` | `Plant` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDateTime` | `CreationDateTime` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `ProjectDemandLastChangedByUser` | `ProjectDemandLastChangedByUser` |
+| `ProjDemandLastChangeDateTime` | `ProjDemandLastChangeDateTime` |
+| `ProjectUUID` | `ProjectUUID` |
 | `ProjectDemandOverallRevenue` | `ProjectDemandOverallRevenue` |
 | `ProjDmndOverallRevenueCurrency` | `ProjDmndOverallRevenueCurrency` |
 | `ProjDmndDataModelVersion` | `ProjDmndDataModelVersion` |
@@ -62,16 +92,8 @@ tags:
 | `_Work` | `I_ProjectDemandWork` | [0..1] |
 | `_Expense` | `I_ProjectDemandExpense` | [0..1] |
 | `_ProjectDemandExtension` | `E_ProjectDemand` | [1..1] |
-| `_ProjectDemandCategory` | `I_ProjectDemandCategory` | [1..1] |
-| `_ProjectDemandType` | `I_ProjectDemandType` | [1..1] |
-| `_WorkPackage` | `I_EnterpriseProjectElement` | [0..1] |
-| `_ProjectDemandStatus` | `I_ProjectDemandStatus` | [1..1] |
-| `_ProjectDemandCurrency` | `I_Currency` | [0..1] |
-| `_ProjectDemandNetCurrency` | `I_Currency` | [0..1] |
 | `_ProjDmndQuantityUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_Plant` | `I_Plant` | [0..1] |
-| `_PurchasingGroup` | `I_PurchasingGroup` | [0..1] |
-| `_PurchasingOrganisation` | `I_PurchasingOrganization` | [0..1] |
 
 ## Source Code
 

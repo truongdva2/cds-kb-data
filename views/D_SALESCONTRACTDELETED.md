@@ -15,6 +15,7 @@ tags:
   - contract
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContract
 ---
 # D_SALESCONTRACTDELETED
 
@@ -31,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime  : vdm_lastchangedon;` | `EventRaisedDateTime  : vdm_lastchangedon;` |
-| `SalesContractType    : auart_unv;` | `SalesContractType    : auart_unv;` |
-| `SalesOrganization    : vkorg;` | `SalesOrganization    : vkorg;` |
-| `DistributionChannel  : vtweg;` | `DistributionChannel  : vtweg;` |
-| `OrganizationDivision : spart;` | `OrganizationDivision : spart;` |
-| `SoldToParty          : kunnr;` | `SoldToParty          : kunnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesContractType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
 
 ## Associations
 

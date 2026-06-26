@@ -14,6 +14,7 @@ tags:
   - status
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPPlanningScenarioStatus
 ---
 # I_PLANNINGSCENARIOSTATUS
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MRPPlanningScenarioStatus` | `cast( substring(l.domvalue_l, 1, 1) as psact preserving type)` |
 | `DomainValue` | `l.domvalue_l` |
 | `_Text` | *Association* |
 

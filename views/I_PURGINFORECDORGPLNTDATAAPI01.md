@@ -30,61 +30,63 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_PurgInfoRecdOrgPlantData.PurchasingInfoRecord` | `I_PurgInfoRecdOrgPlantData.PurchasingInfoRecord` |
-| `key I_PurgInfoRecdOrgPlantData.PurchasingOrganization` | `I_PurgInfoRecdOrgPlantData.PurchasingOrganization` |
-| `key I_PurgInfoRecdOrgPlantData.PurchasingInfoRecordCategory` | `I_PurgInfoRecdOrgPlantData.PurchasingInfoRecordCategory` |
-| `key I_PurgInfoRecdOrgPlantData.Plant` | `I_PurgInfoRecdOrgPlantData.Plant` |
-| `I_PurgInfoRecdOrgPlantData.CreatedByUser` | `I_PurgInfoRecdOrgPlantData.CreatedByUser` |
-| `I_PurgInfoRecdOrgPlantData.IsMarkedForDeletion` | `I_PurgInfoRecdOrgPlantData.IsMarkedForDeletion` |
-| `I_PurgInfoRecdOrgPlantData.PurchasingGroup` | `I_PurgInfoRecdOrgPlantData.PurchasingGroup` |
-| `I_PurgInfoRecdOrgPlantData.Currency` | `I_PurgInfoRecdOrgPlantData.Currency` |
-| `I_PurgInfoRecdOrgPlantData.MinimumPurchaseOrderQuantity` | `I_PurgInfoRecdOrgPlantData.MinimumPurchaseOrderQuantity` |
-| `I_PurgInfoRecdOrgPlantData.StandardPurchaseOrderQuantity` | `I_PurgInfoRecdOrgPlantData.StandardPurchaseOrderQuantity` |
-| `I_PurgInfoRecdOrgPlantData.MaterialPlannedDeliveryDurn` | `I_PurgInfoRecdOrgPlantData.MaterialPlannedDeliveryDurn` |
-| `I_PurgInfoRecdOrgPlantData.OverdelivTolrtdLmtRatioInPct` | `I_PurgInfoRecdOrgPlantData.OverdelivTolrtdLmtRatioInPct` |
-| `I_PurgInfoRecdOrgPlantData.UnderdelivTolrtdLmtRatioInPct` | `I_PurgInfoRecdOrgPlantData.UnderdelivTolrtdLmtRatioInPct` |
-| `I_PurgInfoRecdOrgPlantData.UnlimitedOverdeliveryIsAllowed` | `I_PurgInfoRecdOrgPlantData.UnlimitedOverdeliveryIsAllowed` |
-| `I_PurgInfoRecdOrgPlantData.LastReferencingPurchaseOrder` | `I_PurgInfoRecdOrgPlantData.LastReferencingPurchaseOrder` |
-| `I_PurgInfoRecdOrgPlantData.LastReferencingPurOrderItem` | `I_PurgInfoRecdOrgPlantData.LastReferencingPurOrderItem` |
-| `I_PurgInfoRecdOrgPlantData.NetPriceAmount` | `I_PurgInfoRecdOrgPlantData.NetPriceAmount` |
-| `I_PurgInfoRecdOrgPlantData.PurgInfoRecdEffctvPrc` | `I_PurgInfoRecdOrgPlantData.PurgInfoRecdEffctvPrc` |
-| `I_PurgInfoRecdOrgPlantData.MaterialPriceUnitQty` | `I_PurgInfoRecdOrgPlantData.MaterialPriceUnitQty` |
-| `I_PurgInfoRecdOrgPlantData.PurchaseOrderPriceUnit` | `I_PurgInfoRecdOrgPlantData.PurchaseOrderPriceUnit` |
-| `I_PurgInfoRecdOrgPlantData.PriceValidityEndDate` | `I_PurgInfoRecdOrgPlantData.PriceValidityEndDate` |
-| `I_PurgInfoRecdOrgPlantData.OrderPriceUnitToOrderUnitNmrtr` | `I_PurgInfoRecdOrgPlantData.OrderPriceUnitToOrderUnitNmrtr` |
-| `I_PurgInfoRecdOrgPlantData.OrdPriceUnitToOrderUnitDnmntr` | `I_PurgInfoRecdOrgPlantData.OrdPriceUnitToOrderUnitDnmntr` |
-| `I_PurgInfoRecdOrgPlantData.InvoiceIsGoodsReceiptBased` | `I_PurgInfoRecdOrgPlantData.InvoiceIsGoodsReceiptBased` |
-| `I_PurgInfoRecdOrgPlantData.TaxCode` | `I_PurgInfoRecdOrgPlantData.TaxCode` |
-| `I_PurgInfoRecdOrgPlantData.IncotermsClassification` | `I_PurgInfoRecdOrgPlantData.IncotermsClassification` |
-| `I_PurgInfoRecdOrgPlantData.IncotermsTransferLocation` | `I_PurgInfoRecdOrgPlantData.IncotermsTransferLocation` |
-| `I_PurgInfoRecdOrgPlantData.IncotermsLocation1` | `I_PurgInfoRecdOrgPlantData.IncotermsLocation1` |
-| `I_PurgInfoRecdOrgPlantData.IncotermsLocation2` | `I_PurgInfoRecdOrgPlantData.IncotermsLocation2` |
-| `I_PurgInfoRecdOrgPlantData.MaximumOrderQuantity` | `I_PurgInfoRecdOrgPlantData.MaximumOrderQuantity` |
-| `I_PurgInfoRecdOrgPlantData.IsRelevantForAutomSrcg` | `I_PurgInfoRecdOrgPlantData.IsRelevantForAutomSrcg` |
-| `I_PurgInfoRecdOrgPlantData.IncotermsVersion` | `I_PurgInfoRecdOrgPlantData.IncotermsVersion` |
-| `I_PurgInfoRecdOrgPlantData.SupplierQuotation` | `I_PurgInfoRecdOrgPlantData.SupplierQuotation` |
-| `I_PurgInfoRecdOrgPlantData.SupplierQuotationDate` | `I_PurgInfoRecdOrgPlantData.SupplierQuotationDate` |
-| `I_PurgInfoRecdOrgPlantData.MinRemainingShelfLife` | `I_PurgInfoRecdOrgPlantData.MinRemainingShelfLife` |
-| `I_PurgInfoRecdOrgPlantData.ShippingInstruction` | `I_PurgInfoRecdOrgPlantData.ShippingInstruction` |
-| `I_PurgInfoRecdOrgPlantData.IsEvaluatedRcptSettlmtAllowed` | `I_PurgInfoRecdOrgPlantData.IsEvaluatedRcptSettlmtAllowed` |
-| `I_PurgInfoRecdOrgPlantData.IsPurOrderAllwdForInbDeliv` | `I_PurgInfoRecdOrgPlantData.IsPurOrderAllwdForInbDeliv` |
-| `I_PurgInfoRecdOrgPlantData.IsOrderAcknRqd` | `I_PurgInfoRecdOrgPlantData.IsOrderAcknRqd` |
-| `I_PurgInfoRecdOrgPlantData.SupplierConfirmationControlKey` | `I_PurgInfoRecdOrgPlantData.SupplierConfirmationControlKey` |
-| `I_PurgInfoRecdOrgPlantData.MaterialRoundingProfile` | `I_PurgInfoRecdOrgPlantData.MaterialRoundingProfile` |
-| `I_PurgInfoRecdOrgPlantData.MaterialStagingTime` | `I_PurgInfoRecdOrgPlantData.MaterialStagingTime` |
-| `I_PurgInfoRecdOrgPlantData.ProductUnitGroup` | `I_PurgInfoRecdOrgPlantData.ProductUnitGroup` |
-| `I_PurgInfoRecdOrgPlantData.IsRetMatlAuthznRqdBySupplier` | `I_PurgInfoRecdOrgPlantData.IsRetMatlAuthznRqdBySupplier` |
+| `PurchasingInfoRecord` | `I_PurgInfoRecdOrgPlantData.PurchasingInfoRecord` |
+| `PurchasingOrganization` | `I_PurgInfoRecdOrgPlantData.PurchasingOrganization` |
+| `PurchasingInfoRecordCategory` | `I_PurgInfoRecdOrgPlantData.PurchasingInfoRecordCategory` |
+| `Plant` | `I_PurgInfoRecdOrgPlantData.Plant` |
+| `CreatedByUser` | `I_PurgInfoRecdOrgPlantData.CreatedByUser` |
+| `IsMarkedForDeletion` | `I_PurgInfoRecdOrgPlantData.IsMarkedForDeletion` |
+| `PurchasingGroup` | `I_PurgInfoRecdOrgPlantData.PurchasingGroup` |
+| `Currency` | `I_PurgInfoRecdOrgPlantData.Currency` |
+| `MinimumPurchaseOrderQuantity` | `I_PurgInfoRecdOrgPlantData.MinimumPurchaseOrderQuantity` |
+| `StandardPurchaseOrderQuantity` | `I_PurgInfoRecdOrgPlantData.StandardPurchaseOrderQuantity` |
+| `MaterialPlannedDeliveryDurn` | `I_PurgInfoRecdOrgPlantData.MaterialPlannedDeliveryDurn` |
+| `OverdelivTolrtdLmtRatioInPct` | `I_PurgInfoRecdOrgPlantData.OverdelivTolrtdLmtRatioInPct` |
+| `UnderdelivTolrtdLmtRatioInPct` | `I_PurgInfoRecdOrgPlantData.UnderdelivTolrtdLmtRatioInPct` |
+| `UnlimitedOverdeliveryIsAllowed` | `I_PurgInfoRecdOrgPlantData.UnlimitedOverdeliveryIsAllowed` |
+| `LastReferencingPurchaseOrder` | `I_PurgInfoRecdOrgPlantData.LastReferencingPurchaseOrder` |
+| `LastReferencingPurOrderItem` | `I_PurgInfoRecdOrgPlantData.LastReferencingPurOrderItem` |
+| `NetPriceAmount` | `I_PurgInfoRecdOrgPlantData.NetPriceAmount` |
+| `PurgInfoRecdEffctvPrc` | `I_PurgInfoRecdOrgPlantData.PurgInfoRecdEffctvPrc` |
+| `MaterialPriceUnitQty` | `I_PurgInfoRecdOrgPlantData.MaterialPriceUnitQty` |
+| `PurchaseOrderPriceUnit` | `I_PurgInfoRecdOrgPlantData.PurchaseOrderPriceUnit` |
+| `PriceValidityEndDate` | `I_PurgInfoRecdOrgPlantData.PriceValidityEndDate` |
+| `OrderPriceUnitToOrderUnitNmrtr` | `I_PurgInfoRecdOrgPlantData.OrderPriceUnitToOrderUnitNmrtr` |
+| `OrdPriceUnitToOrderUnitDnmntr` | `I_PurgInfoRecdOrgPlantData.OrdPriceUnitToOrderUnitDnmntr` |
+| `InvoiceIsGoodsReceiptBased` | `I_PurgInfoRecdOrgPlantData.InvoiceIsGoodsReceiptBased` |
+| `TaxCode` | `I_PurgInfoRecdOrgPlantData.TaxCode` |
+| `IncotermsClassification` | `I_PurgInfoRecdOrgPlantData.IncotermsClassification` |
+| `IncotermsTransferLocation` | `I_PurgInfoRecdOrgPlantData.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `I_PurgInfoRecdOrgPlantData.IncotermsLocation1` |
+| `IncotermsLocation2` | `I_PurgInfoRecdOrgPlantData.IncotermsLocation2` |
+| `MaximumOrderQuantity` | `I_PurgInfoRecdOrgPlantData.MaximumOrderQuantity` |
+| `IsRelevantForAutomSrcg` | `I_PurgInfoRecdOrgPlantData.IsRelevantForAutomSrcg` |
+| `IncotermsVersion` | `I_PurgInfoRecdOrgPlantData.IncotermsVersion` |
+| `SupplierQuotation` | `I_PurgInfoRecdOrgPlantData.SupplierQuotation` |
+| `SupplierQuotationDate` | `I_PurgInfoRecdOrgPlantData.SupplierQuotationDate` |
+| `MinRemainingShelfLife` | `I_PurgInfoRecdOrgPlantData.MinRemainingShelfLife` |
+| `ShippingInstruction` | `I_PurgInfoRecdOrgPlantData.ShippingInstruction` |
+| `IsEvaluatedRcptSettlmtAllowed` | `I_PurgInfoRecdOrgPlantData.IsEvaluatedRcptSettlmtAllowed` |
+| `IsPurOrderAllwdForInbDeliv` | `I_PurgInfoRecdOrgPlantData.IsPurOrderAllwdForInbDeliv` |
+| `IsOrderAcknRqd` | `I_PurgInfoRecdOrgPlantData.IsOrderAcknRqd` |
+| `SupplierConfirmationControlKey` | `I_PurgInfoRecdOrgPlantData.SupplierConfirmationControlKey` |
+| `MaterialRoundingProfile` | `I_PurgInfoRecdOrgPlantData.MaterialRoundingProfile` |
+| `MaterialStagingTime` | `I_PurgInfoRecdOrgPlantData.MaterialStagingTime` |
+| `ProductUnitGroup` | `I_PurgInfoRecdOrgPlantData.ProductUnitGroup` |
+| `IsRetMatlAuthznRqdBySupplier` | `I_PurgInfoRecdOrgPlantData.IsRetMatlAuthznRqdBySupplier` |
 | `SuplrRetMatlAuthznRqmtSts` | `I_PurgInfoRecdOrgPlantData.IsRetMatlAuthznRqdBySupplier` |
-| `I_PurgInfoRecdOrgPlantData.IsCashDiscountGranted` | `I_PurgInfoRecdOrgPlantData.IsCashDiscountGranted` |
-| `I_PurgInfoRecdOrgPlantData.MaterialConditionGroup` | `I_PurgInfoRecdOrgPlantData.MaterialConditionGroup` |
-| `I_PurgInfoRecdOrgPlantData.PricingDateControl` | `I_PurgInfoRecdOrgPlantData.PricingDateControl` |
-| `I_PurgInfoRecdOrgPlantData.PurchasingDocumentDate` | `I_PurgInfoRecdOrgPlantData.PurchasingDocumentDate` |
-| `I_PurgInfoRecdOrgPlantData.ShelfLifeExpirationDatePeriod` | `I_PurgInfoRecdOrgPlantData.ShelfLifeExpirationDatePeriod` |
-| `I_PurgInfoRecdOrgPlantData.ProductionVersion` | `I_PurgInfoRecdOrgPlantData.ProductionVersion` |
+| `IsCashDiscountGranted` | `I_PurgInfoRecdOrgPlantData.IsCashDiscountGranted` |
+| `MaterialConditionGroup` | `I_PurgInfoRecdOrgPlantData.MaterialConditionGroup` |
+| `PricingDateControl` | `I_PurgInfoRecdOrgPlantData.PricingDateControl` |
+| `PurchasingDocumentDate` | `I_PurgInfoRecdOrgPlantData.PurchasingDocumentDate` |
+| `ShelfLifeExpirationDatePeriod` | `I_PurgInfoRecdOrgPlantData.ShelfLifeExpirationDatePeriod` |
+| `ProductionVersion` | `I_PurgInfoRecdOrgPlantData.ProductionVersion` |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Extension` | `E_PurgInfoRecdOrgPlantData` | — |
 
 ## Source Code
 

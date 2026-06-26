@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
-| `key ConsolidationVersion` | `ConsolidationVersion` |
-| `key FiscalYear` | `FiscalYear` |
-| `key FiscalPeriod` | `FiscalPeriod` |
-| `key ConsolidationTask` | `ConsolidationTask` |
-| `key ConsolidationUnit` | `ConsolidationUnit` |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `ConsolidationVersion` | `ConsolidationVersion` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ConsolidationTask` | `ConsolidationTask` |
+| `ConsolidationUnit` | `ConsolidationUnit` |
 | `CnsldtnTskRunNmbrOfErrMessages` | `CnsldtnTskRunNmbrOfErrMessages` |
 | `CnsldtnTskRunNmbrOfWrngMsgs` | `CnsldtnTskRunNmbrOfWrngMsgs` |
 | `CnsldtnTaskRunChangedByUser` | `CnsldtnTaskRunChangedByUser` |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:DisputeCase
 ---
 # I_CASEATTRIBUTES
 
@@ -33,9 +34,9 @@ tags:
 | `CaseUUID` | `CaseUniqueID` |
 | `CaseID` | `CaseID` |
 | `CaseProcessor` | `CaseProcessor` |
-| `_User.UserDescription            as DisputeCaseProcessorFullName` | *Association* |
-| `char17 )` | `cast( CaseCreatedOn` |
-| `char17 )` | `cast( CaseClosedTime` |
+| `DisputeCaseProcessorFullName` | `_User.UserDescription` |
+| `CreationDateTime` | `cast( CaseCreatedOn as char17 )` |
+| `CloseDateTime` | `cast( CaseClosedTime as char17 )` |
 | `CaseReason` | `CaseReason` |
 | `CaseType` | `CaseType` |
 | `CaseStatusProfile` | `CaseStatusProfile` |

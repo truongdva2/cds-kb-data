@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Product
 ---
 # I_PRODUCTVH_2
 
@@ -31,8 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` |
-| `meins )` | `cast( BaseUnit` |
+| `Product` | `cast (Product as productnumber preserving type )` |
+| `_Text` | *Association* |
+| `ProductDescription` | `_Text[1: Language=$session.system_language].ProductDescription` |
+| `ProductExternalID` | `ProductExternalID` |
+| `ProductType` | `cast(ProductType as producttype preserving type )` |
+| `_ProductType` | *Association* |
+| `_ProductTypeText` | *Association* |
+| `ProductGroup` | `cast (ProductGroup as productgroup preserving type )` |
+| `_ProductGroup` | *Association* |
+| `_ProductGroupText` | *Association* |
+| `BaseUnit` | `cast( BaseUnit as meins )` |
 | `_BaseUnitText` | *Association* |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `IsBatchManagementRequired` | `IsBatchManagementRequired` |

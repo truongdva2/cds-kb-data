@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_debtor_group )` | `cast ( dd07l.domvalue_l` |
+| `BusinessPartnerDebtorGroup` | `cast ( dd07l.domvalue_l as bp_debtor_group )` |
 | `_Text` | *Association* |
 
 ## Associations

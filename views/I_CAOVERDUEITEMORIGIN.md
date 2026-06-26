@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `overdue_item_origin_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAOverdueItemOrigin` | `cast( left( dd07l.domvalue_l, 1 ) as overdue_item_origin_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

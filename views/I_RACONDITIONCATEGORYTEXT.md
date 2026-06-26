@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:RevnAcctgConditionCategory
 ---
 # I_RACONDITIONCATEGORYTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RevnAcctgConditionCategory` | `cast(dd07t.domvalue_l as farr_condition_category)` |
 | `RevnAcctgConditionCategoryName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAConditionCategory` | *Association* |
@@ -42,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAConditionCategory` | `I_RAConditionCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

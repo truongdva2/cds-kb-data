@@ -16,6 +16,7 @@ tags:
   - status
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocRejectionStatus
 ---
 # I_SDDOCUMENTREJECTIONSTATUS
 

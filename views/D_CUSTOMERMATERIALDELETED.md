@@ -33,13 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material                      : matnr;` | `Material                      : matnr;` |
-| `MaterialByCustomer            : matnr_ku;` | `MaterialByCustomer            : matnr_ku;` |
-| `MaterialDescriptionByCustomer : postx;` | `MaterialDescriptionByCustomer : postx;` |
-| `Plant                         : werks_d;` | `Plant                         : werks_d;` |
-| `DeliveryPriority              : lprio;` | `DeliveryPriority              : lprio;` |
-| `MinDeliveryQtyInBaseUnit      : minlf;` | `MinDeliveryQtyInBaseUnit      : minlf;` |
-| `BaseUnit                      : meins;` | `BaseUnit                      : meins;` |
+| `Material` | `matnr` |
+| `MaterialByCustomer` | `matnr_ku` |
+| `MaterialDescriptionByCustomer` | `postx` |
+| `Plant` | `werks_d` |
+| `DeliveryPriority` | `lprio` |
+| `MinDeliveryQtyInBaseUnit` | `minlf` |
+| `BaseUnit` | `meins` |
 
 ## Associations
 

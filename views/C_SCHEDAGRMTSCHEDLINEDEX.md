@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurSchedgAgrmtItmScheduleLine
 ---
 # C_SCHEDAGRMTSCHEDLINEDEX
 
@@ -47,15 +48,15 @@ tags:
 | `PurchasingSchdLnNrOfReminders` | `NoOfRemindersOfScheduleLine` |
 | `PrevDelivQtyOfScheduleLine` | `PrevDelivQtyOfScheduleLine` |
 | `SourceOfCreation` | `SourceOfCreation` |
-| `_SchedgagrmthdrApi01.PurchasingDocumentOrderDate as PurchasingDocumentOrderDate` | *Association* |
-| `_SchedgagrmthdrApi01.PurchasingGroup             as PurchasingGroup` | *Association* |
-| `_SchedgagrmthdrApi01.PurchasingOrganization      as PurchasingOrganization` | *Association* |
-| `_SchedgAgrmtItmApi01.StorageLocation             as StorageLocation` | *Association* |
-| `_SchedgagrmthdrApi01.Supplier                    as Supplier` | *Association* |
-| `_SchedgAgrmtItmApi01.Material                    as Material` | *Association* |
-| `_SchedgagrmthdrApi01.PurchasingDocumentOrigin    as PurchasingDocumentOrigin` | *Association* |
-| `_SchedgAgrmtItmApi01.Plant                       as Plant` | *Association* |
-| `_SchedgagrmthdrApi01.PurchasingDocumentType      as PurchasingDocumentType` | *Association* |
+| `PurchasingDocumentOrderDate` | `_SchedgagrmthdrApi01.PurchasingDocumentOrderDate` |
+| `PurchasingGroup` | `_SchedgagrmthdrApi01.PurchasingGroup` |
+| `PurchasingOrganization` | `_SchedgagrmthdrApi01.PurchasingOrganization` |
+| `StorageLocation` | `_SchedgAgrmtItmApi01.StorageLocation` |
+| `Supplier` | `_SchedgagrmthdrApi01.Supplier` |
+| `Material` | `_SchedgAgrmtItmApi01.Material` |
+| `PurchasingDocumentOrigin` | `_SchedgagrmthdrApi01.PurchasingDocumentOrigin` |
+| `Plant` | `_SchedgAgrmtItmApi01.Plant` |
+| `PurchasingDocumentType` | `_SchedgagrmthdrApi01.PurchasingDocumentType` |
 | `_ScheduleAgreementHdrDEX` | *Association* |
 | `_ScheduleAgreementItemDEX` | *Association* |
 | `_PurchaseRequisitionItem` | *Association* |

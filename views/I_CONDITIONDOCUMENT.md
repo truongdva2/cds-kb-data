@@ -32,18 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionDocument` | `ConditionDocument` |
+| `ConditionDocument` | `ConditionDocument` |
 | `CndnContrType` | `CndnContrType` |
 | `CndnDocActivationStatus` | `CndnDocActivationStatus` |
-| `/* Validity */` | `/* Validity */` |
 | `ConditionDocumentValidFromDate` | `ConditionDocumentValidFromDate` |
 | `ConditionDocumentValidToDate` | `ConditionDocumentValidToDate` |
-| `/* Partners */` | `/* Partners */` |
 | `Supplier` | `Supplier` |
 | `Customer` | `Customer` |
 | `PriorSupplier` | `PriorSupplier` |
 | `PersonWorkAgreement` | `PersonWorkAgreement` |
-| `/* Organizational Data */` | `/* Organizational Data */` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
@@ -51,12 +48,9 @@ tags:
 | `DistributionChannel` | `DistributionChannel` |
 | `Division` | `Division` |
 | `PrecedingConditionDocument` | `PrecedingConditionDocument` |
-| `/* Worker related fields */` | `/* Worker related fields */` |
 | `CndnDocWorkerCostCenter` | `CndnDocWorkerCostCenter` |
-| `/* BO Separation */` | `/* BO Separation */` |
 | `CndnDocObjNodeTypeAbbr` | `CndnDocObjNodeTypeAbbr` |
 | `CndnDocSemanticCode` | `CndnDocSemanticCode` |
-| `/* Associations */` | `/* Associations */` |
 | `_CndnContrType` | *Association* |
 | `_Supplier` | *Association* |
 | `_Customer` | *Association* |

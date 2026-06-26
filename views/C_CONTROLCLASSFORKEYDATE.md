@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalRegulation` | `LegalRegulation` |
-| `key ControlClass` | `ControlClass` |
+| `LegalRegulation` | `LegalRegulation` |
+| `ControlClass` | `ControlClass` |
 | `TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
 | `TrdClassfctnNmbrSchmCntnt` | `TrdClassfctnNmbrSchmCntnt` |
 | `ValidityStartDate` | `ValidityStartDate` |

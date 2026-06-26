@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key EG_EDocMaterialGroup` | `EG_EDocMaterialGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `EG_EDocMaterialGroup` | `EG_EDocMaterialGroup` |
 | `EG_EDocItmType` | `EG_EDocItmType` |
 | `EG_EDocItmCode` | `EG_EDocItmCode` |
 | `EG_EDocInternationalArtclNmbr` | `EG_EDocInternationalArtclNmbr` |

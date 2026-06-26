@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalRelevantDocCategory
 ---
 # I_SUPLREVALDOCCATCONFIGNT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `abap.char( 1 ) )` | `cast( cast ( substring( dd07t.domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `SuplrEvalRelevantDocCategory` | `cast(…)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_ana_de_se_doc_cat_cf_txt preserving type )` | `cast( dd07t.ddtext` |
+| `SuplrEvalRelevantDocCatTxt` | `cast( dd07t.ddtext as mmpur_ana_de_se_doc_cat_cf_txt preserving type )` |
 | `_DocConfigCatValue` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DocConfigCatValue` | `I_SuplrEvalDocCatConfign` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

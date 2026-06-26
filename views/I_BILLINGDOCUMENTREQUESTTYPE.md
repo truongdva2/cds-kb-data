@@ -34,17 +34,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sdbil_odata_bdr_type preserving type)` | `cast ( BillingProcessDocumentType` |
+| `BillingDocumentRequestType` | `cast ( BillingProcessDocumentType as sdbil_odata_bdr_type preserving type)` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `IncrementItemNumber` | `IncrementItemNumber` |
 | `BillingDocumentCategory` | `BillingDocumentCategory` |
-| `billgdocreqtxtdetnprocedure preserving type)` | `cast ( BillgProcDocTxtDetnProcedure` |
-| `billgdocreqitmtxtdetnprocedure preserving type )` | `cast ( BillgProcDocItmTxtDetnProced` |
+| `BillgDocReqTxtDetnProcedure` | `cast(…)` |
+| `BillgDocReqItmTxtDetnProcedure` | `cast(…)` |
 | `_Text` | *Association* |
 | `_SDDocumentCategory` | *Association* |
 | `_BillingDocumentCategory` | *Association* |
-| `_BillgProcDocTxtDetnProcedure                                                           as _BillgDocReqTxtDetnProcedure` | *Association* |
-| `_BillgProcDocItmTxtDetnProced                                                           as _BillgDocReqItmTxtDetnProced` | *Association* |
+| `_BillgDocReqTxtDetnProcedure` | *Association* |
+| `_BillgDocReqItmTxtDetnProced` | *Association* |
 
 ## Associations
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bip_amount_date_type_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `bip_amt_date_type_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CABillgPlnItemAmountDateType` | `cast(…)` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CABillgPlnItmAmtDateTypeText` | `cast ( ddtext as bip_amt_date_type_txt_gfn_kk preserving type )` |
 | `_CABillgPlnItmAmtDateType` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,7 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `CostCenter` | `CostCenter` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `Quantity` | `Quantity` |
+| `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
+| `DocumentCurrency` | `DocumentCurrency` |
 | `GLAccount` | `GLAccount` |
 | `SalesOrder` | `SalesOrder` |
 | `SalesOrderItem` | `SalesOrderItem` |
@@ -40,14 +48,10 @@ tags:
 | `ProjectNetworkInternalID` | `ProjectNetworkInternalID` |
 | `NetworkActivityInternalID` | `NetworkActivityInternalID` |
 | `CreationDate` | `CreationDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_StockTransportOrderItem : redirected to parent I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder     : redirected to I_StockTransportOrderTP` | *Association* |
 | `_GLAccount` | *Association* |
 | `_SalesDocumentScheduleLine` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 | `_OrderQuantityUnitText` | *Association* |
 | `_DocumentCurrencyText` | *Association* |
 

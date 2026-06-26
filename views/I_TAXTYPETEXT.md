@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:TaxType
 ---
 # I_TAXTYPETEXT
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mwart)` | `cast(domvalue_l` |
-| `spras)` | `cast(ddlanguage` |
+| `TaxType` | `cast(domvalue_l as mwart)` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `TaxTypeName` | `ddtext` |
 | `_Language` | *Association* |
 

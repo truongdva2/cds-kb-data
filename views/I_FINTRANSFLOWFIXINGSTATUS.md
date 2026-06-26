@@ -15,6 +15,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransFlowFixingStatus
 ---
 # I_FINTRANSFLOWFIXINGSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_sbewebe )` | `cast( dd07l.domvalue_l` |
+| `FinTransFlowFixingStatus` | `cast( dd07l.domvalue_l as tb_sbewebe )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

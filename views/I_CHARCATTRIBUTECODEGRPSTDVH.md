@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:CharacteristicAttributeCodeGrp
 ---
 # I_CHARCATTRIBUTECODEGRPSTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
+| `CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 
 ## Associations

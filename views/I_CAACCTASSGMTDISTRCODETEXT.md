@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `aasta_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `aasta_text_kk preserving type )` | `cast( ddtext` |
+| `CACtrlFieldForAcctAssgmtDistr` | `cast( left( dd07t.domvalue_l, 1 ) as aasta_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CACtrlFldForAcctAssgmtDistrTxt` | `cast( ddtext as aasta_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

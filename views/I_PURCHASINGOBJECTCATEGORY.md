@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentCategory
 ---
 # I_PURCHASINGOBJECTCATEGORY
 
@@ -28,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ebstyp )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PurchasingDocumentCategory` | `cast ( substring( domvalue_l, 1, 1 ) as ebstyp )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

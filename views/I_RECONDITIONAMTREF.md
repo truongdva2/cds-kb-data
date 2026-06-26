@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdvdmcondvaluerefer )` | `cast( dd07l.domvalue_l` |
+| `REConditionAmountReference` | `cast( dd07l.domvalue_l as recdvdmcondvaluerefer )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REConditionAmtRefText` | [0..*] |
 
 ## Source Code
 

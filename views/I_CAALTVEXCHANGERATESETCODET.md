@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xdexr_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `xdexr_text_kk preserving type )` | `cast( ddtext` |
+| `CAAltvExchangeRateSetCode` | `cast( left( dd07t.domvalue_l, 1 ) as xdexr_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAAltvExchangeRateSetCodeText` | `cast( ddtext as xdexr_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

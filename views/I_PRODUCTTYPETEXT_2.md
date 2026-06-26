@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductTypeText
 ---
 # I_PRODUCTTYPETEXT_2
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `producttype preserving type )` | `cast(mtart` |
+| `ProductType` | `cast(mtart as producttype preserving type )` |
 | `Language` | `spras` |
-| `producttypename preserving type )` | `cast(mtbez` |
+| `ProductTypeName` | `cast(mtbez as producttypename preserving type )` |
 | `_ProductType` | *Association* |
 | `_Language` | *Association* |
 

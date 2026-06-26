@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
 | `CO_ElectronicDocPyrlUniqueID` | `CO_ElectronicDocPyrlUniqueID` |
 | `CO_ElectronicDocPayrollNumber` | `CO_ElectronicDocPayrollNumber` |
 | `CO_ElectronicDocEmployeeCode` | `CO_ElectronicDocEmployeeCode` |

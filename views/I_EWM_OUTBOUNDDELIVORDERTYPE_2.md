@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:EWMDeliveryDocumentType
 ---
 # I_EWM_OUTBOUNDDELIVORDERTYPE_2
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMDeliveryDocumentCategory` | `EWMDeliveryDocumentCategory` |
-| `key EWMDeliveryDocumentType` | `EWMDeliveryDocumentType` |
+| `EWMDeliveryDocumentType` | `EWMDeliveryDocumentType` |
 | `_DeliveryCategory` | *Association* |
 | `_Text` | *Association* |
 

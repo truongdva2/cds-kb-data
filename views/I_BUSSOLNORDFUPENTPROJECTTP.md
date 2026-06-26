@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key Project` | `Project` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `Project` | `Project` |
 
 ## Associations
 

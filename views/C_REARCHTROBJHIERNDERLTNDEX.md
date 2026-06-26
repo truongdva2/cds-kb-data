@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjectRltnUUID
 ---
 # C_REARCHTROBJHIERNDERLTNDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjectRltnUUID` | `REArchitectureObjectRltnUUID` |
+| `REArchitectureObjectRltnUUID` | `REArchitectureObjectRltnUUID` |
 | `REArchitectureObjectOID` | `REArchitectureObjectOID` |
 | `REArchitectureObjectParentOID` | `REArchitectureObjectParentOID` |
 | `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |

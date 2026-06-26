@@ -14,6 +14,7 @@ tags:
   - document
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentReferenceObject
 ---
 # I_SERVICEDOCUMENTREFOBJECT
 

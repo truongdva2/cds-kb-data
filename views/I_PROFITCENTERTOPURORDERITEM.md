@@ -46,16 +46,16 @@ tags:
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
 | `SourceWBSElementInternalID` | `srce_ps_psp_pnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
 | `SourceProduct` | `srce_matnr` |
 | `SourcePlant` | `srce_werks` |
-| `vbeln_va preserving type)` | `cast(srce_kdauf` |
-| `posnr_va preserving type)` | `cast(srce_kdpos` |
-| `kostl preserving type)` | `cast(srce_kostl` |
-| `anln1 preserving type)` | `cast(srce_anln1` |
-| `anln2 preserving type)` | `cast(srce_anln2` |
-| `aufnr preserving type)` | `cast(srce_aufnr` |
-| `fis_networkactivity_no_conv preserving type)` | `cast(srce_vornr` |
+| `SourceSalesDocument` | `cast(srce_kdauf as vbeln_va preserving type)` |
+| `SourceSalesDocumentItem` | `cast(srce_kdpos as posnr_va preserving type)` |
+| `SourceCostCenter` | `cast(srce_kostl as kostl preserving type)` |
+| `SourceMasterFixedAsset` | `cast(srce_anln1 as anln1 preserving type)` |
+| `SourceFixedAsset` | `cast(srce_anln2 as anln2 preserving type)` |
+| `SourceOrder` | `cast(srce_aufnr as aufnr preserving type)` |
+| `SourceNetworkActivity` | `cast(srce_vornr as fis_networkactivity_no_conv preserving type)` |
 | `_OrglChgReassignmentStatus` | *Association* |
 | `_ProfitCtrDerivationSrceType` | *Association* |
 | `_OrglChange` | *Association* |

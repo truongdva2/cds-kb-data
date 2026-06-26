@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_description_text_30   preserving type )` | `cast(_CnsldtnVersion._Text[1: Language=$session.system_language].ConsolidationVersionText` |
+| `ConsolidationVersion` | `_CnsldtnVersion.ConsolidationVersion` |
+| `ConsolidationVersionText` | `cast(…)` |
 
 ## Associations
 

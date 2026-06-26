@@ -34,19 +34,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_GLAccountText.GLAccount` | `I_GLAccountText.GLAccount` |
-| `key I_GLAccountInCompanyCode.CompanyCode` | `I_GLAccountInCompanyCode.CompanyCode` |
-| `key I_GLAccountText.Language` | `I_GLAccountText.Language` |
-| `I_GLAccountText.ChartOfAccounts` | `I_GLAccountText.ChartOfAccounts` |
-| `fin_glaccount_name preserving type )` | `cast(I_GLAccountText.GLAccountName` |
-| `fis_txt50_skat preserving type )` | `cast(I_GLAccountText.GLAccountLongName` |
+| `GLAccount` | `I_GLAccountText.GLAccount` |
+| `CompanyCode` | `I_GLAccountInCompanyCode.CompanyCode` |
+| `Language` | `I_GLAccountText.Language` |
+| `ChartOfAccounts` | `I_GLAccountText.ChartOfAccounts` |
+| `GLAccountName` | `cast(I_GLAccountText.GLAccountName as fin_glaccount_name preserving type )` |
+| `GLAccountLongName` | `cast(I_GLAccountText.GLAccountLongName as fis_txt50_skat preserving type )` |
 | `_Language` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
+| `_CompanyCode` | `I_CompanyCode` | [0..1] |
+| `_ChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 
 ## Source Code
 

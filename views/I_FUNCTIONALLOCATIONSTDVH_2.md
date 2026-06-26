@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # I_FUNCTIONALLOCATIONSTDVH_2
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_FunctionalLocationText[1:Language = $session.system_language].FunctionalLocationName` | *Association* |
+| `FunctionalLocation` | `cast(FunctionalLocation as tplnr_unconverted preserving type )` |
+| `FunctionalLocationName` | `expr(…)` |
 | `_FunctionalLocationText` | *Association* |
 | `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

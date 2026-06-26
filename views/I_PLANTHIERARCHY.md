@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_plant preserving type )` | `cast(hrrp_dir_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dir_n.hryvalto` |
-| `fis_datab preserving type )` | `cast(hrrp_dir_n.hryvalfrom` |
+| `PlantHierarchy` | `cast(hrrp_dir_n.hryid as fis_hryid_plant preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dir_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_dir_n.hryvalfrom as fis_datab preserving type )` |
 | `LastChangedByUser` | `hrrp_dir_n.upduser` |
 | `LastChangeDateTime` | `hrrp_dir_n.updtime` |
 | `HierarchyShortID` | `hrrp_dir_n.hrysid` |

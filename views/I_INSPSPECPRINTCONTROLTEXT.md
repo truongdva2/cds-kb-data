@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdruck1 preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspSpecPrintControl` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qdruck1 preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qdruck1_text preserving type )` | `cast( ddtext` |
-| `/* Association */` | `/* Association */` |
-| `,_InspSpecPrintControl` | `,_InspSpecPrintControl` |
-| `,_Language` | `,_Language` |
+| `InspSpecPrintControlText` | `cast( ddtext as vdm_qdruck1_text preserving type )` |
+| `_InspSpecPrintControl` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

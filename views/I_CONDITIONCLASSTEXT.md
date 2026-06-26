@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:ConditionClass
 ---
 # I_CONDITIONCLASSTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `koaid )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_class_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionClass` | `cast ( substring( domvalue_l, 1, 1 ) as koaid )` |
+| `ConditionClassName` | `cast ( ddtext as price_element_class_descr )` |
 | `_ConditionClass` | *Association* |
 | `_Language` | *Association* |
 

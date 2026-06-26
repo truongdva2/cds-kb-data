@@ -15,6 +15,7 @@ tags:
   - status
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:BillgReqItemBillingStatus
 ---
 # I_BILLGREQITMSETTLMTSTATUSTEXT
 

@@ -29,22 +29,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FinancialTransactionDirection  : tb_rkondgr;` | `FinancialTransactionDirection  : tb_rkondgr;` |
-| `FinConditionItem               : tb_kond;` | `FinConditionItem               : tb_kond;` |
-| `ConditionItemValidityStartDate : dguel_kp;` | `ConditionItemValidityStartDate : dguel_kp;` |
-| `FinInstrConditionLogicGroup    : ftr_instr_cndn_logic_group;` | `FinInstrConditionLogicGroup    : ftr_instr_cndn_logic_group;` |
-| `FinCndnScaleLowerLimitAmount   : ftr_condition_lower_amount;` | `FinCndnScaleLowerLimitAmount   : ftr_condition_lower_amount;` |
-| `FinCndnScaleUpperLimitAmount   : ftr_condition_upper_amount;` | `FinCndnScaleUpperLimitAmount   : ftr_condition_upper_amount;` |
-| `FinCndnLimitAmountCurrency     : ftr_cndn_limit_amount_currency;` | `FinCndnLimitAmountCurrency     : ftr_cndn_limit_amount_currency;` |
-| `ConditionPercentageRate        : pkond;` | `ConditionPercentageRate        : pkond;` |
-| `ReferenceInterestRate          : szsref;` | `ReferenceInterestRate          : szsref;` |
-| `FinConditionFormulaReference   : tb_xformbe;` | `FinConditionFormulaReference   : tb_xformbe;` |
-| `_Condition              : association to parent D_IntrstRateInstrChgCndnP;` | *Association* |
-| `_FmlaVarbl              : association [0..*] to D_IntrstRateInstrChgFmlaVarblP on 1 = 1 ;` | *Association* |
+| `FinancialTransactionDirection` | `tb_rkondgr` |
+| `FinConditionItem` | `tb_kond` |
+| `ConditionItemValidityStartDate` | `dguel_kp` |
+| `FinInstrConditionLogicGroup` | `ftr_instr_cndn_logic_group` |
+| `FinCndnScaleLowerLimitAmount` | `ftr_condition_lower_amount` |
+| `FinCndnScaleUpperLimitAmount` | `ftr_condition_upper_amount` |
+| `FinCndnLimitAmountCurrency` | `ftr_cndn_limit_amount_currency` |
+| `ConditionPercentageRate` | `pkond` |
+| `ReferenceInterestRate` | `szsref` |
+| `FinConditionFormulaReference` | `tb_xformbe` |
+| `_Condition` | *Association* |
+| `_FmlaVarbl` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Condition` | `D_IntrstRateInstrChgCndnP` | — |
+| `_FmlaVarbl` | `D_IntrstRateInstrChgFmlaVarblP` | [0..*] |
 
 ## Source Code
 

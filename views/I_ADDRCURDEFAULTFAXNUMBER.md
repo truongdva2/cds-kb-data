@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressID
 ---
 # I_ADDRCURDEFAULTFAXNUMBER
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
 | `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `FaxNumberCountry` | `FaxNumberCountry` |
 | `FaxAreaCodeSubscriberNumber` | `FaxAreaCodeSubscriberNumber` |

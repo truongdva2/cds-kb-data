@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `CASecurityDepositReversalRsn` | `rev_reason` |
 | `Language` | `spras` |
-| `rev_reason_txt_kk )` | `cast( text` |
+| `CASecurityDepositRvslRsnText` | `cast( text as rev_reason_txt_kk )` |
 | `_Language` | *Association* |
 | `_CASecurityDepositReversalRsn` | *Association* |
 

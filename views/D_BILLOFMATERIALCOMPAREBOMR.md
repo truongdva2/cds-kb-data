@@ -33,83 +33,83 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BOMCompareUUID                 : guid;` | `BOMCompareUUID                 : guid;` |
-| `BOMComponentPrimary            : idnrk;` | `BOMComponentPrimary            : idnrk;` |
-| `BOMComponentSecondary          : idnrk;` | `BOMComponentSecondary          : idnrk;` |
-| `BOMComparisonResult            : bom_comp_result;` | `BOMComparisonResult            : bom_comp_result;` |
-| `MaterialTypePrimary            : mtart;` | `MaterialTypePrimary            : mtart;` |
-| `MaterialTypeSecondary          : mtart;` | `MaterialTypeSecondary          : mtart;` |
-| `PrimBOMItemQuantity            : kmpmg;` | `PrimBOMItemQuantity            : kmpmg;` |
-| `SecdryBOMItemQuantity          : kmpmg;` | `SecdryBOMItemQuantity          : kmpmg;` |
-| `BOMItemCategoryPrimary         : postp;` | `BOMItemCategoryPrimary         : postp;` |
-| `ItemCategorySecdryBOMValue     : postp;` | `ItemCategorySecdryBOMValue     : postp;` |
-| `BOMItemNumberPrimary           : sposn;` | `BOMItemNumberPrimary           : sposn;` |
-| `BOMItemNumberSecondary         : sposn;` | `BOMItemNumberSecondary         : sposn;` |
-| `CompleteMaintStatusPrimary     : vpsta;` | `CompleteMaintStatusPrimary     : vpsta;` |
-| `CompleteMaintStatusSecondary   : vpsta;` | `CompleteMaintStatusSecondary   : vpsta;` |
-| `BOMItemDescriptionPrimary      : maktx;` | `BOMItemDescriptionPrimary      : maktx;` |
-| `BOMItemDescriptionSecondary    : maktx;` | `BOMItemDescriptionSecondary    : maktx;` |
-| `PrimBOMHdrBaseUoM              : meins;` | `PrimBOMHdrBaseUoM              : meins;` |
-| `BOMHeaderBaseUnitSecondary     : meins;` | `BOMHeaderBaseUnitSecondary     : meins;` |
-| `BOMItemUnitPrimary             : kmpme;` | `BOMItemUnitPrimary             : kmpme;` |
-| `BOMItemUnitSecondary           : kmpme;` | `BOMItemUnitSecondary           : kmpme;` |
-| `IsProductionRelevantPrimary    : sanfe;` | `IsProductionRelevantPrimary    : sanfe;` |
-| `IsProductionRelevantSecondary  : sanfe;` | `IsProductionRelevantSecondary  : sanfe;` |
-| `PrimBOMItemIsCostingRelevant   : cs_sanka;` | `PrimBOMItemIsCostingRelevant   : cs_sanka;` |
-| `SecdryBOMItemIsCostingRelevant : cs_sanka;` | `SecdryBOMItemIsCostingRelevant : cs_sanka;` |
-| `PrimaryBOMHeaderIsDeleted      : lkenz;` | `PrimaryBOMHeaderIsDeleted      : lkenz;` |
-| `SecondaryBOMHeaderIsDeleted    : lkenz;` | `SecondaryBOMHeaderIsDeleted    : lkenz;` |
-| `SpclProcurementTypeSecdryBOM   : cs_sobsl;` | `SpclProcurementTypeSecdryBOM   : cs_sobsl;` |
-| `PrimBOMIsMaterialConfigurable  : kzkfg;` | `PrimBOMIsMaterialConfigurable  : kzkfg;` |
-| `PrimaryBOMIsMaterialProvision  : beikz;` | `PrimaryBOMIsMaterialProvision  : beikz;` |
-| `IsCADPrimary                   : cadpo;` | `IsCADPrimary                   : cadpo;` |
-| `LeadTimeOffsetPrimBOMValue     : nlfzt;` | `LeadTimeOffsetPrimBOMValue     : nlfzt;` |
-| `PrimaryBOMPurchasingGroupValue : ekgrp;` | `PrimaryBOMPurchasingGroupValue : ekgrp;` |
-| `DeliveryTimeInDaysPrimBOM      : lifzt;` | `DeliveryTimeInDaysPrimBOM      : lifzt;` |
-| `PrimaryBOMSupplier             : lifnr;` | `PrimaryBOMSupplier             : lifnr;` |
-| `PrimaryBOMItemPrice            : cprei;` | `PrimaryBOMItemPrice            : cprei;` |
-| `PrimaryBOMItemPriceUnits       : waers;` | `PrimaryBOMItemPriceUnits       : waers;` |
-| `NmbrVarblSizeItemPrimBOMQty    : roanz;` | `NmbrVarblSizeItemPrimBOMQty    : roanz;` |
-| `Size1PrimaryBOMQuantity        : roms1;` | `Size1PrimaryBOMQuantity        : roms1;` |
-| `Size2PrimaryBOMQuantity        : roms2;` | `Size2PrimaryBOMQuantity        : roms2;` |
-| `Size3PrimaryBOMQuantity        : roms3;` | `Size3PrimaryBOMQuantity        : roms3;` |
-| `PrimBOMVarblSizeItemQuantity   : romen;` | `PrimBOMVarblSizeItemQuantity   : romen;` |
-| `PrimaryBOMFormulaKeyValue      : rform;` | `PrimaryBOMFormulaKeyValue      : rform;` |
-| `GoodsReceiptDurationInPrimBOM  : webaz;` | `GoodsReceiptDurationInPrimBOM  : webaz;` |
-| `MaterialGroupPrimaryBOM        : matkl;` | `MaterialGroupPrimaryBOM        : matkl;` |
-| `PrimBOMSpecialProcurementType  : cs_sobsl;` | `PrimBOMSpecialProcurementType  : cs_sobsl;` |
-| `SecdryBOMMatlIsConfigurable    : kzkfg;` | `SecdryBOMMatlIsConfigurable    : kzkfg;` |
-| `SecdryBOMIsMaterialProvision   : beikz;` | `SecdryBOMIsMaterialProvision   : beikz;` |
-| `SecondaryBOMIsCAD              : cadpo;` | `SecondaryBOMIsCAD              : cadpo;` |
-| `LeadTimeOffsetSecdryBOMValue   : nlfzt;` | `LeadTimeOffsetSecdryBOMValue   : nlfzt;` |
-| `SecdryBOMPurchasingGroupValue  : ekgrp;` | `SecdryBOMPurchasingGroupValue  : ekgrp;` |
-| `DeliveryTimeInDaysSecdryBOM    : lifzt;` | `DeliveryTimeInDaysSecdryBOM    : lifzt;` |
-| `SecondaryBOMSupplierValue      : lifnr;` | `SecondaryBOMSupplierValue      : lifnr;` |
-| `SecondaryBOMItemPrice          : cprei;` | `SecondaryBOMItemPrice          : cprei;` |
-| `SecdryBOMItemPriceUnit         : waers;` | `SecdryBOMItemPriceUnit         : waers;` |
-| `NmbrVarblSizeItemSecdryBOMQty  : roanz;` | `NmbrVarblSizeItemSecdryBOMQty  : roanz;` |
-| `Size1SecondaryQuantity         : roms1;` | `Size1SecondaryQuantity         : roms1;` |
-| `Size2SecondaryQuantity         : roms2;` | `Size2SecondaryQuantity         : roms2;` |
-| `Size3SecondaryQuantity         : roms3;` | `Size3SecondaryQuantity         : roms3;` |
-| `SecdryBOMVarblSizeItemQuantity : romen;` | `SecdryBOMVarblSizeItemQuantity : romen;` |
-| `SecondaryBOMFormulaKeyValue    : rform;` | `SecondaryBOMFormulaKeyValue    : rform;` |
-| `GoodsReceiptDurationSecdryBOM  : webaz;` | `GoodsReceiptDurationSecdryBOM  : webaz;` |
-| `MaterialGroupSecondaryBOM      : matkl;` | `MaterialGroupSecondaryBOM      : matkl;` |
-| `PrimBOMComponentLevelValue     : stufe;` | `PrimBOMComponentLevelValue     : stufe;` |
-| `SecdryBOMComponentLevelValue   : stufe;` | `SecdryBOMComponentLevelValue   : stufe;` |
-| `CompDiffInBOMComparisonQty     : kmpmg;` | `CompDiffInBOMComparisonQty     : kmpmg;` |
-| `PrimBOMParentCompValue         : matnr;` | `PrimBOMParentCompValue         : matnr;` |
-| `SecdryBOMParentCompValue       : matnr;` | `SecdryBOMParentCompValue       : matnr;` |
-| `BOMComparisonIsSummarized      : lkenz;` | `BOMComparisonIsSummarized      : lkenz;` |
-| `PrimaryBOMValue                : stnum;` | `PrimaryBOMValue                : stnum;` |
-| `BOMNmbrNextLevelPrimBOMValue   : stnum;` | `BOMNmbrNextLevelPrimBOMValue   : stnum;` |
-| `SecondaryBOMValue              : stnum;` | `SecondaryBOMValue              : stnum;` |
-| `BOMNmbrNextLevelSecdryBOMValue : stnum;` | `BOMNmbrNextLevelSecdryBOMValue : stnum;` |
-| `ComparisonResultValue          : cs_comparison_result;` | `ComparisonResultValue          : cs_comparison_result;` |
-| `PrimaryBOMComponentIndexValue  : sytabix;` | `PrimaryBOMComponentIndexValue  : sytabix;` |
-| `SecdryBOMComponentIndexValue   : sytabix;` | `SecdryBOMComponentIndexValue   : sytabix;` |
-| `BOMItemCategoryPrimaryDesc     : pttxt;` | `BOMItemCategoryPrimaryDesc     : pttxt;` |
-| `BOMItemCategorySecondaryDesc   : pttxt;` | `BOMItemCategorySecondaryDesc   : pttxt;` |
+| `BOMCompareUUID` | `guid` |
+| `BOMComponentPrimary` | `idnrk` |
+| `BOMComponentSecondary` | `idnrk` |
+| `BOMComparisonResult` | `bom_comp_result` |
+| `MaterialTypePrimary` | `mtart` |
+| `MaterialTypeSecondary` | `mtart` |
+| `PrimBOMItemQuantity` | `kmpmg` |
+| `SecdryBOMItemQuantity` | `kmpmg` |
+| `BOMItemCategoryPrimary` | `postp` |
+| `ItemCategorySecdryBOMValue` | `postp` |
+| `BOMItemNumberPrimary` | `sposn` |
+| `BOMItemNumberSecondary` | `sposn` |
+| `CompleteMaintStatusPrimary` | `vpsta` |
+| `CompleteMaintStatusSecondary` | `vpsta` |
+| `BOMItemDescriptionPrimary` | `maktx` |
+| `BOMItemDescriptionSecondary` | `maktx` |
+| `PrimBOMHdrBaseUoM` | `meins` |
+| `BOMHeaderBaseUnitSecondary` | `meins` |
+| `BOMItemUnitPrimary` | `kmpme` |
+| `BOMItemUnitSecondary` | `kmpme` |
+| `IsProductionRelevantPrimary` | `sanfe` |
+| `IsProductionRelevantSecondary` | `sanfe` |
+| `PrimBOMItemIsCostingRelevant` | `cs_sanka` |
+| `SecdryBOMItemIsCostingRelevant` | `cs_sanka` |
+| `PrimaryBOMHeaderIsDeleted` | `lkenz` |
+| `SecondaryBOMHeaderIsDeleted` | `lkenz` |
+| `SpclProcurementTypeSecdryBOM` | `cs_sobsl` |
+| `PrimBOMIsMaterialConfigurable` | `kzkfg` |
+| `PrimaryBOMIsMaterialProvision` | `beikz` |
+| `IsCADPrimary` | `cadpo` |
+| `LeadTimeOffsetPrimBOMValue` | `nlfzt` |
+| `PrimaryBOMPurchasingGroupValue` | `ekgrp` |
+| `DeliveryTimeInDaysPrimBOM` | `lifzt` |
+| `PrimaryBOMSupplier` | `lifnr` |
+| `PrimaryBOMItemPrice` | `cprei` |
+| `PrimaryBOMItemPriceUnits` | `waers` |
+| `NmbrVarblSizeItemPrimBOMQty` | `roanz` |
+| `Size1PrimaryBOMQuantity` | `roms1` |
+| `Size2PrimaryBOMQuantity` | `roms2` |
+| `Size3PrimaryBOMQuantity` | `roms3` |
+| `PrimBOMVarblSizeItemQuantity` | `romen` |
+| `PrimaryBOMFormulaKeyValue` | `rform` |
+| `GoodsReceiptDurationInPrimBOM` | `webaz` |
+| `MaterialGroupPrimaryBOM` | `matkl` |
+| `PrimBOMSpecialProcurementType` | `cs_sobsl` |
+| `SecdryBOMMatlIsConfigurable` | `kzkfg` |
+| `SecdryBOMIsMaterialProvision` | `beikz` |
+| `SecondaryBOMIsCAD` | `cadpo` |
+| `LeadTimeOffsetSecdryBOMValue` | `nlfzt` |
+| `SecdryBOMPurchasingGroupValue` | `ekgrp` |
+| `DeliveryTimeInDaysSecdryBOM` | `lifzt` |
+| `SecondaryBOMSupplierValue` | `lifnr` |
+| `SecondaryBOMItemPrice` | `cprei` |
+| `SecdryBOMItemPriceUnit` | `waers` |
+| `NmbrVarblSizeItemSecdryBOMQty` | `roanz` |
+| `Size1SecondaryQuantity` | `roms1` |
+| `Size2SecondaryQuantity` | `roms2` |
+| `Size3SecondaryQuantity` | `roms3` |
+| `SecdryBOMVarblSizeItemQuantity` | `romen` |
+| `SecondaryBOMFormulaKeyValue` | `rform` |
+| `GoodsReceiptDurationSecdryBOM` | `webaz` |
+| `MaterialGroupSecondaryBOM` | `matkl` |
+| `PrimBOMComponentLevelValue` | `stufe` |
+| `SecdryBOMComponentLevelValue` | `stufe` |
+| `CompDiffInBOMComparisonQty` | `kmpmg` |
+| `PrimBOMParentCompValue` | `matnr` |
+| `SecdryBOMParentCompValue` | `matnr` |
+| `BOMComparisonIsSummarized` | `lkenz` |
+| `PrimaryBOMValue` | `stnum` |
+| `BOMNmbrNextLevelPrimBOMValue` | `stnum` |
+| `SecondaryBOMValue` | `stnum` |
+| `BOMNmbrNextLevelSecdryBOMValue` | `stnum` |
+| `ComparisonResultValue` | `cs_comparison_result` |
+| `PrimaryBOMComponentIndexValue` | `sytabix` |
+| `SecdryBOMComponentIndexValue` | `sytabix` |
+| `BOMItemCategoryPrimaryDesc` | `pttxt` |
+| `BOMItemCategorySecondaryDesc` | `pttxt` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceConditionControl
 ---
 # I_CONDITIONCONTROL
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ksteu )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionControl` | `cast ( substring( domvalue_l, 1, 1 ) as ksteu )` |
 | `_Text` | *Association* |
 
 ## Associations

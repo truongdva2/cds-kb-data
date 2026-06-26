@@ -32,15 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListPurchaseReqn.PurchaseRequisition` | `_MaintObjListPurchaseReqn.PurchaseRequisition` |
-| `key _MaintObjListPurchaseReqn.PurchaseRequisitionItem` | `_MaintObjListPurchaseReqn.PurchaseRequisitionItem` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListPurchaseReqn._PurchaseRequisition` | *Association* |
-| `_MaintObjListPurchaseReqn._PurchaseRequisitionItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `PurchaseRequisition` | `_MaintObjListPurchaseReqn.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `_MaintObjListPurchaseReqn.PurchaseRequisitionItem` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_PurchaseRequisition` | *Association* |
+| `_PurchaseRequisitionItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

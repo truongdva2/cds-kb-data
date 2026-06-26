@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SLCQnaireTranslationUUID` | `SLCQnaireTranslationUUID` |
+| `SLCQnaireTranslationUUID` | `SLCQnaireTranslationUUID` |
 | `SLCQnaireUUID` | `SLCQnaireUUID` |
 | `SLCQnaireTgtTranslationLang` | `SLCQnaireTgtTranslationLang` |
 | `SLCQnaireTgtTranslationLangSts` | `SLCQnaireTgtTranslationLangSts` |

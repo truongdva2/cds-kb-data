@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcValueIntervalType
 ---
 # I_CLFNCHARCVALINTERVALTYPETEXT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `atcod )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CharcValueIntervalType` | `cast( dd07t.domvalue_l as atcod )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `charcvalueintervaltypename preserving type )` | `cast( dd07t.ddtext` |
+| `CharcValueIntervalTypeName` | `cast( dd07t.ddtext as charcvalueintervaltypename preserving type )` |
 | `_CharcValueIntervalType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcValueIntervalType` | `I_ClfnCharcValIntervalType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

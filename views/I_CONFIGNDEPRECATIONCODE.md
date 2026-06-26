@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-DWB-DIC
   - lob:Basis Components
+  - bo:ConfigurationDeprecationCode
 ---
 # I_CONFIGNDEPRECATIONCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `config_deprecation_code )` | `cast( dd07l.domvalue_l` |
+| `ConfigurationDeprecationCode` | `cast( dd07l.domvalue_l as config_deprecation_code )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -17,6 +17,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OverallPackingStatus
 ---
 # I_OVERALLPACKINGSTATUSTEXT
 

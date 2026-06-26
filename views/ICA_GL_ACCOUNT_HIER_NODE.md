@@ -29,7 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Hierarchy ID` | `Hierarchy ID` |
+| `hryid` | `hryid` |
+| `parnode` | `parnode` |
+| `racct` | `--Parent Node saknr` |
 
 ## Associations
 

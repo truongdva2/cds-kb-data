@@ -33,15 +33,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Customer_VH'` | `name:    'I_Customer_VH'` |
-| `element: 'Customer' }` | `element: 'Customer' }` |
-| `}]` | `}]` |
+| `DeliveryDocument` | `DeliveryDocument` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `SalesOrganization` | `SalesOrganization` |
+| `SalesOffice` | `SalesOffice` |
+| `ShippingPoint` | `ShippingPoint` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `SoldToParty` | `SoldToParty` |
 | `CustomerCreditAccount` | `CustomerCreditAccount` |
 | `ControllingAreaCurrency` | `ControllingAreaCurrency` |
 | `ReleasedCreditAmount` | `ReleasedCreditAmount` |
 | `CreditBlockReleaseDate` | `CreditBlockReleaseDate` |
 | `NextShippingDate` | `NextShippingDate` |
-| `abgru_va )` | `cast( '  '` |
+| `SalesDocumentRjcnReason` | `cast( ' ' as abgru_va )` |
 | `CentralCreditChkTechErrSts` | `CentralCreditChkTechErrSts` |
 | `OverallSDProcessStatus` | `OverallSDProcessStatus` |
 | `OverallGoodsMovementStatus` | `OverallGoodsMovementStatus` |

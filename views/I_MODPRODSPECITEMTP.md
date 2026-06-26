@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM-PUR-MPS-2CL
   - lob:Sourcing & Procurement
+  - bo:ModProdSpecItemUUID
 ---
 # I_MODPRODSPECITEMTP
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ModProdSpecItemUUID` | `ModProdSpecItemUUID` |
+| `ModProdSpecItemUUID` | `ModProdSpecItemUUID` |
 | `ModelProductSpecificationUUID` | `ModelProductSpecificationUUID` |
 | `ModelProductSpecification` | `ModelProductSpecification` |
 | `ModelProductSpecificationItem` | `ModelProductSpecificationItem` |
@@ -57,8 +58,6 @@ tags:
 | `HierarchyDistanceFromRoot` | `HierarchyDistanceFromRoot` |
 | `HierarchyDescendantCount` | `HierarchyDescendantCount` |
 | `HierarchyNodeOrdinalNumber` | `HierarchyNodeOrdinalNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `_ModelProductSpecificationTP: redirected to parent I_ModelProductSpecificationTP` | *Association* |
 | `_MaterialGroup` | *Association* |
 | `_Plant` | *Association* |
 | `_Product` | *Association* |

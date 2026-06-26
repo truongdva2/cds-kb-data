@@ -31,21 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   PaymentRunDate` | `PaymentRunDate` |
-| `key   PaymentRunID` | `PaymentRunID` |
-| `key   PaymentRunIsProposal` | `PaymentRunIsProposal` |
-| `key   PayingCompanyCode` | `PayingCompanyCode` |
-| `key   Supplier` | `Supplier` |
-| `key   Customer` | `Customer` |
-| `key   PaymentRecipient` | `PaymentRecipient` |
-| `key   PaymentDocument` | `PaymentDocument` |
+| `PaymentRunDate` | `PaymentRunDate` |
+| `PaymentRunID` | `PaymentRunID` |
+| `PaymentRunIsProposal` | `PaymentRunIsProposal` |
+| `PayingCompanyCode` | `PayingCompanyCode` |
+| `Supplier` | `Supplier` |
+| `Customer` | `Customer` |
+| `PaymentRecipient` | `PaymentRecipient` |
+| `PaymentDocument` | `PaymentDocument` |
 | `FinancialAccountType` | `FinancialAccountType` |
 | `SendingCompanyCode` | `SendingCompanyCode` |
 | `BusinessArea` | `BusinessArea` |
 | `PaymentReason` | `PaymentReason` |
 | `BranchCode` | `BranchCode` |
 | `DirectDebitType` | `DirectDebitType` |
-| `PaymentDueDate, //PaidItemDueDate` | `PaymentDueDate, //PaidItemDueDate` |
+| `PaymentDueDate` | `PaymentDueDate` |
 | `PaymentRequestPaymentGroup` | `PaymentRequestPaymentGroup` |
 | `NumberOfTextLines` | `NumberOfTextLines` |
 | `NumberOfPaidItems` | `NumberOfPaidItems` |
@@ -58,16 +58,16 @@ tags:
 | `PaymentOrder` | `PaymentOrder` |
 | `ValueDate` | `ValueDate` |
 | `ExchangeRate` | `ExchangeRate` |
-| `PaymentsGroupingCriterion, //PaymentOrigin` | `PaymentsGroupingCriterion, //PaymentOrigin` |
-| `PaymentOrigin, //BankPaymentGroupingOrigin` | `PaymentOrigin, //BankPaymentGroupingOrigin` |
+| `PaymentsGroupingCriterion` | `PaymentsGroupingCriterion` |
+| `PaymentOrigin` | `PaymentOrigin` |
 | `SWIFTTransactionReferenceUUID` | `SWIFTTransactionReferenceUUID` |
 | `BusinessPlace` | `BusinessPlace` |
 | `AccountingClerk` | `AccountingClerk` |
-| `AccountByShipper, //SupplierClerkIDBySupplier` | `AccountByShipper, //SupplierClerkIDBySupplier` |
+| `AccountByShipper` | `AccountByShipper` |
 | `AddressID` | `AddressID` |
-| `Country, //SupplierCountry` | `Country, //SupplierCountry` |
+| `Country` | `Country` |
 | `Region` | `Region` |
-| `CityName, //SupplierCityName` | `CityName, //SupplierCityName` |
+| `CityName` | `CityName` |
 | `StreetAddressName` | `StreetAddressName` |
 | `PostalCode` | `PostalCode` |
 | `POBox` | `POBox` |
@@ -91,7 +91,7 @@ tags:
 | `PayeeName` | `PayeeName` |
 | `PayeeAdditionalName` | `PayeeAdditionalName` |
 | `PayeeCountry` | `PayeeCountry` |
-| `PayeeRegion, //SupplierRegion` | `PayeeRegion, //SupplierRegion` |
+| `PayeeRegion` | `PayeeRegion` |
 | `PayeeCityName` | `PayeeCityName` |
 | `PayeeDistrictName` | `PayeeDistrictName` |
 | `PayeeStreet` | `PayeeStreet` |
@@ -104,19 +104,19 @@ tags:
 | `PayeeBankKey` | `PayeeBankKey` |
 | `PayeeBankAccount` | `PayeeBankAccount` |
 | `PayeeBankAccountLongID` | `PayeeBankAccountLongID` |
-| `PayeeSEPASequenceType, //SEPASequenceType` | `PayeeSEPASequenceType, //SEPASequenceType` |
-| `PayeeSEPAMandateUUID, //SEPAMandateUUID` | `PayeeSEPAMandateUUID, //SEPAMandateUUID` |
+| `PayeeSEPASequenceType` | `PayeeSEPASequenceType` |
+| `PayeeSEPAMandateUUID` | `PayeeSEPAMandateUUID` |
 | `PayeeIBAN` | `PayeeIBAN` |
-| `PayeeSWIFTCode, //SWIFTCode` | `PayeeSWIFTCode, //SWIFTCode` |
-| `PayeeBankDetailReference, //BankAccountReferenceText` | `PayeeBankDetailReference, //BankAccountReferenceText` |
-| `PayeeBankAccountHolderName, //BankAccountHolderName` | `PayeeBankAccountHolderName, //BankAccountHolderName` |
+| `PayeeSWIFTCode` | `PayeeSWIFTCode` |
+| `PayeeBankDetailReference` | `PayeeBankDetailReference` |
+| `PayeeBankAccountHolderName` | `PayeeBankAccountHolderName` |
 | `PaymentCurrency` | `PaymentCurrency` |
-| `CashDiscountAmountInPaytCrcy, //CashDiscountAmtInTransacCrcy` | `CashDiscountAmountInPaytCrcy, //CashDiscountAmtInTransacCrcy` |
-| `PaymentAmountInPaytCurrency, //PaidAmountInPaytCurrency` | `PaymentAmountInPaytCurrency, //PaidAmountInPaytCurrency` |
-| `LostCashDiscountInPaytCrcy, //LostCashDiscountInTransacCrcy` | `LostCashDiscountInPaytCrcy, //LostCashDiscountInTransacCrcy` |
+| `CashDiscountAmountInPaytCrcy` | `CashDiscountAmountInPaytCrcy` |
+| `PaymentAmountInPaytCurrency` | `PaymentAmountInPaytCurrency` |
+| `LostCashDiscountInPaytCrcy` | `LostCashDiscountInPaytCrcy` |
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `CashDiscountAmtInCoCodeCrcy` | `CashDiscountAmtInCoCodeCrcy` |
-| `PaytAmountInCoCodeCurrency, //AmountInCompanyCodeCurrency` | `PaytAmountInCoCodeCurrency, //AmountInCompanyCodeCurrency` |
+| `PaytAmountInCoCodeCurrency` | `PaytAmountInCoCodeCurrency` |
 | `LostCashDiscountInCoCodeCrcy` | `LostCashDiscountInCoCodeCrcy` |
 | `FunctionalCurrency` | `FunctionalCurrency` |
 | `PaymentAmountInFunctionalCrcy` | `PaymentAmountInFunctionalCrcy` |

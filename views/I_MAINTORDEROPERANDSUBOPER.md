@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintenanceOrderOperation
 ---
 # I_MAINTORDEROPERANDSUBOPER
 
@@ -31,11 +32,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MaintenanceOrder` | `afko.aufnr` |
+| `MaintenanceOrderOperation` | `expr(…)` |
 | `MaintenanceOrderOperation` | `coalesce( afvc_superior.vornr, afvc.vornr )` |
-| `key cast (` | `cast (` |
-| `case when afvc.sumnr = '00000000' then '    ' else afvc.vornr end` | `case when afvc.sumnr = '00000000' then '    ' else afvc.vornr end` |
-| `MaintenanceOrderSubOperation` | `as  maintenanceordersuboperation preserving type )` |
-| `maintenanceorderoperation preserving type )` | `cast( afvc.vornr` |
+| `MaintenanceOrderSubOperation` | `cast(…)` |
+| `MaintOrderOperationForEdit` | `cast( afvc.vornr as maintenanceorderoperation preserving type )` |
 | `MaintOrderRoutingNumber` | `afvc.aufpl` |
 | `MaintOrderOperationCounter` | `afvc.aplzl` |
 | `SuperiorOperationInternalID` | `afvc.sumnr` |
@@ -51,7 +51,7 @@ tags:
 | `NumberOfCapacities` | `afvc.anzzl` |
 | `MaintOrderConfirmation` | `afvc.rueck` |
 | `Equipment` | `afvc.equnr` |
-| `vdm_eam_tplnr )` | `cast ( afvc.tplnr` |
+| `FunctionalLocation` | `cast ( afvc.tplnr as vdm_eam_tplnr )` |
 | `OperationPurgInfoRecdSearchTxt` | `afvc.sortl` |
 | `OperationRequisitionerName` | `afvc.afnam` |
 | `OperationGoodsRecipientName` | `afvc.wempf` |
@@ -64,8 +64,8 @@ tags:
 | `OperationTrackingNumber` | `afvc.bednr` |
 | `OperationPurchasingInfoRecord` | `afvc.infnr` |
 | `OperationUnloadingPointName` | `afvc.ablad` |
-| `konnr)` | `cast (afvc.ebeln` |
-| `ktpnr)` | `cast (afvc.ebelp` |
+| `OpPurchaseOutlineAgreement` | `cast (afvc.ebeln as konnr)` |
+| `OpPurchaseOutlineAgreementItem` | `cast (afvc.ebelp as ktpnr)` |
 | `OperationSupplier` | `afvc.lifnr` |
 | `Assembly` | `afvc.istru` |
 | `OperationSystemCondition` | `afvc.anlzu` |
@@ -80,8 +80,8 @@ tags:
 | `CostElement` | `afvc.sakto` |
 | `PurchasingOrganization` | `afvc.ekorg` |
 | `PurchasingGroup` | `afvc.ekgrp` |
-| `spras preserving type)` | `cast(afvc.txtsp` |
-| `xfeld)` | `cast(case when afvc.txtsp = '' then '' else 'X' end` |
+| `Language` | `cast(afvc.txtsp as spras preserving type)` |
+| `OperationHasLongText` | `cast(case when afvc.txtsp = '' then '' else 'X' end as xfeld)` |
 | `EAMPlannedDeliveryDurnInDays` | `afvv.plifz` |
 | `MaintOrderOperationDuration` | `afvv.dauno` |
 | `MaintOrdOperationDurationUnit` | `afvv.daune` |
@@ -95,7 +95,7 @@ tags:
 | `ConstraintTimeForBscFinishTime` | `afvv.ntenz` |
 | `MaintOrdOperationExecutionRate` | `afvv.aufkt` |
 | `BusinessArea` | `afvc.gsber` |
-| `ps_s4_pspnr preserving type )` | `cast( afvc.projn` |
+| `MaintOrdOpAssgdWBSElmntInt` | `cast( afvc.projn as ps_s4_pspnr preserving type )` |
 | `ProfitCenter` | `afvc.prctr` |
 | `CostingSheet` | `afvc.kalsm` |
 | `TaxJurisdiction` | `afvc.txjcd` |
@@ -107,21 +107,17 @@ tags:
 | `EmployeeWageType` | `afvc.loart` |
 | `EmployeeWageGroup` | `afvc.logrp` |
 | `EmployeeSuitability` | `afvc.qualf` |
-| `ps_s4_scope_cv preserving type )` | `cast( afvc.scope` |
+| `MaintControllingObjectClass` | `cast( afvc.scope as ps_s4_scope_cv preserving type )` |
 | `WrkCtrIntCapRqmtsDistr` | `afvc.vertl` |
 | `MaintOrdOperationOverheadCode` | `afvc.zschl` |
 | `MaintOrderOperationQuantity` | `afvv.mgvrg` |
 | `MaintOrdOperationQuantityUnit` | `afvv.meinh` |
-| `cast(case when afvc.no_disp = ''   then '3'` | `cast(case when afvc.no_disp = ''   then '3'` |
-| `when afvc.no_disp = 'X'  then '2'` | `when afvc.no_disp = 'X'  then '2'` |
-| `when afvc.no_disp = '1'  then '1'` | `when afvc.no_disp = '1'  then '1'` |
-| `else '1'` | `else '1'` |
-| `audisp_plus  )` | `end` |
-| `eam_premainpost_cds preserving type )` | `cast( afvc.maintopexecutionphasecode` |
+| `MaintOrdOperationIsMRPRelevant` | `cast(…)` |
+| `MaintOperationExecStageCode` | `cast( afvc.maintopexecutionphasecode as eam_premainpost_cds preserving type )` |
 | `OperationMilestoneUsageCode` | `afvc.mlstn` |
 | `MaintOrderConfCntrValue` | `afvc.rmzhl` |
-| `ControllingArea, //avoid to use, will be deleted` | `aufk.kokrs` |
-| `IsMarkedForDeletion, //DeletionIndicator` | `afvc.loekz` |
+| `ControllingArea` | `aufk.kokrs` |
+| `IsMarkedForDeletion` | `afvc.loekz` |
 | `OpErlstSchedldExecStrtDte` | `afvv.fsavd` |
 | `OpErlstSchedldExecStrtTme` | `afvv.fsavz` |
 | `OpErlstSchedldExecEndDte` | `afvv.fsedd` |
@@ -138,7 +134,7 @@ tags:
 | `ActyConfFcstdEndTime` | `afvv.pedz` |
 | `ForecastWorkQuantity` | `afvv.ofmnw` |
 | `ActualWorkQuantity` | `afvv.ismnw` |
-| `cc4_delvry_date_adj_oper preserving type)` | `cast(afvc.sched_end` |
+| `MaintOrdOpDelivDateAdjustment` | `cast(afvc.sched_end as cc4_delvry_date_adj_oper preserving type)` |
 | `MaintOrdOpProcessPhaseCode` | `afvc.maintordopprocessphasecode` |
 | `MaintOrdOpProcessSubPhaseCode` | `afvc.maintordopprocesssubphasecode` |
 | `AllMaintOrdCompCmtdQtsAreKept` | `afvc.allmaintordcompcmtdqtsarekept` |
@@ -218,8 +214,6 @@ tags:
 | `_PurchasingGroup` | `I_PurchasingGroup` | [0..1] |
 | `_PurReqnOrResvnGeneration` | `I_PurReqnOrResvnGeneration` | [0..1] |
 | `_MaintOrdOpDeliveryDateAdjmt` | `I_MaintOrdOpDeliveryDateAdjmt` | [0..1] |
-| `_LongText` | `I_OrderOperationLongText` | [0..*] |
-| `_StatusObjectDeletion` | `I_StatusObjectDeletion` | [0..1] |
 
 ## Source Code
 

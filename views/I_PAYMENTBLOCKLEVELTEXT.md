@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-AP-AP-B-2CL
   - lob:Finance
+  - bo:PaymentBlockLevel
 ---
 # I_PAYMENTBLOCKLEVELTEXT
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `farp_splev )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PaymentBlockLevel` | `cast( dd07t.domvalue_l as farp_splev )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `farp_splev_name preserving type )` | `cast( dd07t.ddtext` |
+| `PaymentBlockLevelName` | `cast( dd07t.ddtext as farp_splev_name preserving type )` |
 | `_PaymentBlockLevel` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PaymentBlockLevel` | `I_PaymentBlockLevel` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

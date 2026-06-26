@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:SrvcDocItemBillingRequestItem
 ---
 # I_BILLINGREQUESTITEM
 
@@ -30,13 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `objtype_h` |
+| `ServiceDocument` | `object_id` |
+| `ServiceDocumentItem` | `number_int` |
+| `BillingRequestItem` | `record_no` |
+| `BillgReqItemBillingDateTime` | `bill_date` |
+| `BillgReqItemBillingStatus` | `bill_settl_stat` |
+| `SettlementStartDateTime` | `settl_from` |
+| `SettlementEndDateTime` | `settl_to` |
+| `BillingPlanTimeZone` | `_ServiceDocItem.BillingPlanTimeZone` |
+| `TransactionCurrency` | `_ServiceDocItem.TransactionCurrency` |
 | `BillgReqItemNetAmount` | `net_value` |
 | `BillingBlockReason` | `billing_block` |
 | `BillgReqItemDescription` | `description` |
 | `ServicesRenderedDateTime` | `servicesrendereddatetime` |
 | `BillgReqItemPricingDate` | `price_date` |
-| `/* Enhancement Solution Order */` | `/* Enhancement Solution Order */` |
 | `BillgReqItemTaxAmount` | `tax_amount` |
 | `BillgReqItemGrossAmount` | `gross_value` |
 | `BillgReqItemIsCreditItem` | `credit_indicator` |

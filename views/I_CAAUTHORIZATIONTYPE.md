@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `auart_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 1 )` |
+| `CAAuthorizationType` | `cast ( left( dd07l.domvalue_l, 1 ) as auart_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

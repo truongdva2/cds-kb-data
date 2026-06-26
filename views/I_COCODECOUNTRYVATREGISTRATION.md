@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode` | `t001n.bukrs` |
-| `VATRegistrationCountry` | `t001n.land1` |
-| `VATRegistration` | `t001n.stceg` |
-| `CompanyCodeName` | `t001n.butxt` |
-| `AddressID` | `t001n.adrnr` |
+| `CompanyCode` | `CompanyCode` |
+| `VATRegistrationCountry` | `Country` |
+| `VATRegistration` | `VATRegistration` |
+| `CompanyCodeName` | `CompanyCodeName` |
+| `AddressID` | `AddressID` |
 | `_CompanyCode` | *Association* |
 | `_Country` | *Association* |
 | `_Address` | *Association* |
@@ -44,9 +44,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_CompanyCode` | `I_CompanyCode` | [1..1] |
-| `_Country` | `I_Country` | [0..1] |
-| `_Address` | `I_OrgAddressDefaultRprstn` | [0..1] |
 | `_CompanyCode` | `I_CompanyCode` | [1..1] |
 | `_Country` | `I_Country` | [0..1] |
 | `_Address` | `I_OrgAddressDefaultRprstn` | [0..1] |

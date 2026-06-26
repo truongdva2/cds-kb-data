@@ -1,6 +1,11 @@
 ---
 name: I_DELIVERYDOCUMENT
 description: Delivery DocumentUMENT
+semantic_en: "Delivery document header — inbound or outbound delivery for goods movement in logistics execution."
+semantic_vi: "Tiêu đề chứng từ giao nhận — phiếu giao hàng đến hoặc đi cho luân chuyển hàng trong logistics."
+keywords:
+  - chứng từ giao nhận
+  - phiếu giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released
@@ -34,27 +39,99 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } } ]` | `name: 'I_Customer_VH', element: 'Customer' } } ]` |
+| `DeliveryDocument` | `vbeln` |
+| `SDDocumentCategory` | `vbtyp` |
+| `DeliveryDocumentType` | `lfart` |
+| `CreatedByUser` | `ernam` |
+| `CreationDate` | `erdat` |
+| `CreationTime` | `erzet` |
+| `LastChangedByUser` | `aenam` |
+| `LastChangeDate` | `aedat` |
+| `ShippingPoint` | `vstel` |
+| `SalesOrganization` | `vkorg` |
+| `SalesOffice` | `vkbur` |
+| `CompleteDeliveryIsDefined` | `autlf` |
+| `OrderCombinationIsAllowed` | `kzazu` |
+| `DeliveryPriority` | `lprio` |
+| `DeliveryBlockReason` | `lifsk` |
+| `Supplier` | `cast(lifnr as md_supplier)` |
+| `DeliveryDocumentBySupplier` | `lifex` |
+| `DeliveryIsInPlant` | `imwrk` |
+| `ReceivingPlant` | `werks` |
+| `Warehouse` | `lgnum` |
+| `IsExportDelivery` | `expkz` |
+| `OrderID` | `ternr` |
+| `HeaderGrossWeight` | `btgew` |
+| `HeaderNetWeight` | `ntgew` |
+| `HeaderWeightUnit` | `gewei` |
+| `HeaderVolume` | `volum` |
+| `HeaderVolumeUnit` | `voleh` |
+| `IsDeliveryForSingleWarehouse` | `lispl` |
+| `GoodsIssueOrReceiptSlipNumber` | `xabln` |
+| `WarehouseGate` | `lgtor` |
+| `WarehouseStagingArea` | `lgbzo` |
+| `MeansOfTransportRefMaterial` | `trmtyp` |
+| `SpecialProcessingCode` | `sdabw` |
+| `ExternalIdentificationType` | `spe_lifex_type` |
+| `DeliveryVersion` | `dlv_version` |
+| `PickedItemsLocation` | `berot` |
+| `DocumentDate` | `bldat` |
+| `PickingDate` | `kodat` |
+| `PickingTime` | `kouhr` |
+| `TotalNumberOfPackage` | `anzpk` |
+| `LoadingPoint` | `lstel` |
+| `LoadingDate` | `lddat` |
+| `LoadingTime` | `lduhr` |
+| `BillOfLading` | `bolnr` |
+| `HandlingUnitInStock` | `vestk` |
+| `ShipToParty` | `kunnr` |
+| `ShippingType` | `vsart` |
+| `DeliveryDate` | `lfdat` |
+| `DeliveryTime` | `lfuhr` |
+| `ShippingCondition` | `vsbed` |
+| `ShipmentBlockReason` | `trspg` |
+| `TransportationPlanningDate` | `tddat` |
+| `TransportationPlanningTime` | `tduhr` |
+| `ProposedDeliveryRoute` | `route` |
+| `ActualDeliveryRoute` | `routa` |
+| `RouteSchedule` | `aulwe` |
+| `PlannedGoodsIssueDate` | `wadat` |
+| `GoodsIssueTime` | `wauhr` |
+| `ActualGoodsMovementDate` | `wadat_ist` |
+| `ActualGoodsMovementTime` | `spe_wauhr_ist` |
+| `IncotermsVersion` | `incov` |
+| `IncotermsClassification` | `inco1` |
+| `IncotermsTransferLocation` | `inco2` |
+| `IncotermsLocation1` | `inco2_l` |
+| `IncotermsLocation2` | `inco3_l` |
+| `ExternalTransportSystem` | `tpsid` |
+| `TransportationGroup` | `tragr` |
+| `MeansOfTransport` | `traid` |
+| `MeansOfTransportType` | `traty` |
+| `UnloadingPointName` | `ablad` |
+| `ProofOfDeliveryDate` | `podat` |
+| `ConfirmationTime` | `potim` |
+| `FactoryCalendarByCustomer` | `knfak` |
+| `ShippingLocationTimeZone` | `tzonis` |
+| `ReceivingLocationTimeZone` | `tzonrc` |
+| `IntercompanyBillingDate` | `fkdiv` |
+| `BillingDocumentDate` | `fkdat` |
+| `HeaderBillingBlockReason` | `faksk` |
+| `InternalFinancialDocument` | `lcnum` |
+| `PaymentGuaranteeProcedure` | `abssc` |
+| `DepreciationPercentage` | `akprz` |
+| `NextShippingDate` | `cmngv` |
+| `CustomerCreditAccount` | `knkli` |
+| `CentralCreditChkTechErrSts` | `cmps_te` |
+| `ReleasedCreditAmount` | `amtbl` |
+| `ControllingAreaCurrency` | `cmwae` |
+| `CreditBlockReleaseDate` | `cmfre` |
 | `SoldToParty` | `kunag` |
 | `CustomerGroup` | `kdgrp` |
 | `SalesDistrict` | `bzirk` |
 | `TransactionCurrency` | `waerk` |
 | `StatisticsCurrency` | `stwae` |
-| `case` | `case` |
-| `when fkivk is initial then ico_fkivk` | `when fkivk is initial then ico_fkivk` |
-| `when fkivk = 'A' then` | `when fkivk = 'A' then` |
-| `case` | `case` |
-| `when ico_fkivk = 'B' or ico_fkivk = 'C' then 'B'` | `when ico_fkivk = 'B' or ico_fkivk = 'C' then 'B'` |
-| `else fkivk` | `else fkivk` |
-| `end` | `end` |
-| `when fkivk = 'B' then 'B'` | `when fkivk = 'B' then 'B'` |
-| `when fkivk = 'C' then` | `when fkivk = 'C' then` |
-| `case` | `case` |
-| `when ico_fkivk = 'A' or ico_fkivk = 'B' then 'B'` | `when ico_fkivk = 'A' or ico_fkivk = 'B' then 'B'` |
-| `else fkivk` | `else fkivk` |
-| `end` | `end` |
-| `else fkivk` | `else fkivk` |
-| `OverallIntcoBillingStatus` | `end` |
+| `OverallIntcoBillingStatus` | `case…end` |
 | `OverallSDProcessStatus` | `gbstk` |
 | `TotalBlockStatus` | `spstg` |
 | `OverallDelivConfStatus` | `bestk` |

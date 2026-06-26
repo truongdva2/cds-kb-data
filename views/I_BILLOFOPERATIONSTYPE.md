@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsType
 ---
 # I_BILLOFOPERATIONSTYPE
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `billofoperationstype preserving type)` | `cast(plnty` |
-| `billofoperationsapplication preserving type)` | `cast(plnaw` |
+| `BillOfOperationsType` | `cast(plnty as billofoperationstype preserving type)` |
+| `BillOfOperationsApplication` | `cast(plnaw as billofoperationsapplication preserving type)` |
 | `_Text` | *Association* |
 | `_BillOfOperationsApplication` | *Association* |
 

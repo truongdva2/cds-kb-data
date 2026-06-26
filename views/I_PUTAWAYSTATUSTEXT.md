@@ -17,6 +17,7 @@ tags:
   - status
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:PutawayStatus
 ---
 # I_PUTAWAYSTATUSTEXT
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `le_putaway_status preserving type )` | `cast(substring(dd07t.domvalue_l,1,1)` |
-| `spras preserving type )` | `cast(ddlanguage` |
+| `PutawayStatus` | `cast(substring(dd07t.domvalue_l,1,1) as le_putaway_status preserving type )` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
 | `PutawayStatusName` | `ddtext` |
 | `_PutawayStatus` | *Association* |
 | `_Language` | *Association* |

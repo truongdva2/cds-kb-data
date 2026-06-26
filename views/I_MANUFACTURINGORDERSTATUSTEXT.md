@@ -16,6 +16,7 @@ tags:
   - status
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:StatusCode
 ---
 # I_MANUFACTURINGORDERSTATUSTEXT
 
@@ -32,12 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pp_jtxt04 preserving type)` | `cast(text.StatusShortName` |
-| `vdm_pp_jtxt30 preserving type)` | `cast(text.StatusName` |
+| `ManufacturingOrder` | `stat.ManufacturingOrder` |
+| `StatusCode` | `-- key stat.StatusCode` |
+| `Language` | `cast(text.Language as spras preserving type)` |
+| `StatusProfile` | `-- stat.StatusProfile` |
+| `StatusShortName` | `cast(text.StatusShortName as vdm_pp_jtxt04 preserving type)` |
+| `StatusName` | `cast(text.StatusName as vdm_pp_jtxt30 preserving type)` |
 | `_ManufacturingOrder` | *Association* |
 | `_ManufacturingOrderStatus` | *Association* |
-| `text._Language` | `text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

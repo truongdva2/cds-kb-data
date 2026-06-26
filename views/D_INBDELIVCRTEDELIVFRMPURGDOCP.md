@@ -29,17 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Supplier                   : lifnr;` | `Supplier                   : lifnr;` |
-| `DeliveryDate               : lfdat_v;` | `DeliveryDate               : lfdat_v;` |
-| `DeliveryTime               : lfuhr;` | `DeliveryTime               : lfuhr;` |
-| `DeliveryDocumentBySupplier : lifex;` | `DeliveryDocumentBySupplier : lifex;` |
-| `MeansOfTransportType       : traty;` | `MeansOfTransportType       : traty;` |
-| `MeansOfTransport           : traid;` | `MeansOfTransport           : traid;` |
-| `_ReferencePurgDocumentItem  : association [1..*] to D_InbDelivCrteFrmPurgDocItemP on 1 = 0;` | *Association* |
+| `Supplier` | `lifnr` |
+| `DeliveryDate` | `lfdat_v` |
+| `DeliveryTime` | `lfuhr` |
+| `DeliveryDocumentBySupplier` | `lifex` |
+| `MeansOfTransportType` | `traty` |
+| `MeansOfTransport` | `traid` |
+| `_ReferencePurgDocumentItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReferencePurgDocumentItem` | `D_InbDelivCrteFrmPurgDocItemP` | [1..*] |
 
 ## Source Code
 

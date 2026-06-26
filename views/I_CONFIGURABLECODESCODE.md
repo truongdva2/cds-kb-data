@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:ConfigurableCodesCode
 ---
 # I_CONFIGURABLECODESCODE
 
@@ -32,10 +33,7 @@ tags:
 | `ConfigurableCodesCatalog` | `qpcd.katalogart` |
 | `ConfigurableCodesCodeGroup` | `codegruppe` |
 | `ConfigurableCodesCode` | `code` |
-| `case qpcd.inaktiv` | `case qpcd.inaktiv` |
-| `vdm_qm_codeisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codeisinactive preserving type )` | `else cast( 'X'` |
-| `ConfigblCodesCodeGrpIsInactv` | `end` |
+| `ConfigblCodesCodeGrpIsInactv` | `case…end` |
 | `_ConfigurableCodesCatalog` | *Association* |
 | `_ConfigurableCodesCodeGroup` | *Association* |
 | `_Text` | *Association* |

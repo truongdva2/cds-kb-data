@@ -16,6 +16,7 @@ tags:
   - text
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:FiscalPeriod
 ---
 # I_FISCALYEARPERIODTEXT
 
@@ -33,9 +34,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `t009c.spras` |
-| `fis_periv preserving type )` | `cast( t009c.periv` |
-| `fis_gjahr_no_conv preserving type )` | `cast( finsc_period.fiscal_year` |
-| `fins_fiscalperiod preserving type )` | `cast( t009c.poper` |
+| `FiscalYearVariant` | `cast( t009c.periv as fis_periv preserving type )` |
+| `FiscalYear` | `cast( finsc_period.fiscal_year as fis_gjahr_no_conv preserving type )` |
+| `FiscalPeriod` | `cast( t009c.poper as fins_fiscalperiod preserving type )` |
 | `FiscalPeriodName` | `t009c.ltext` |
 | `_FiscalYearVariant` | *Association* |
 | `_FiscalYear` | *Association* |

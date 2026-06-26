@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:JITCallOutboundType
 ---
 # I_JITCALLOUTBOUNDTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabart)` | `cast(substring(domvalue_l, 1, 1)` |
+| `JITCallOutboundType` | `cast(substring(domvalue_l, 1, 1) as pabart)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SalesDocumentType        : auart;` | `SalesDocumentType        : auart;` |
-| `ReferenceSDDocument      : vgbel;` | `ReferenceSDDocument      : vgbel;` |
-| `_ReferenceSDDocumentItems : association [0..*] to D_SalesDocCreateWithRefItemP on 1 = 0; //reuse` | *Association* |
+| `SalesDocumentType` | `auart` |
+| `ReferenceSDDocument` | `vgbel` |
+| `_ReferenceSDDocumentItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReferenceSDDocumentItems` | `D_SalesDocCreateWithRefItemP` | [0..*] |
 
 ## Source Code
 

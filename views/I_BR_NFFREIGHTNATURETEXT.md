@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFFreightNature
 ---
 # I_BR_NFFREIGHTNATURETEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `logbr_ind_nat_frt )` | `cast ( domvalue_l` |
-| `logbr_ind_nat_frt_desc preserving type)` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_NFFreightNature` | `cast ( domvalue_l as logbr_ind_nat_frt )` |
+| `BR_NFFreightNatureDesc` | `cast ( ddtext as logbr_ind_nat_frt_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_BR_NFFreightNature` | *Association* |
 | `_Language` | *Association* |

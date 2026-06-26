@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrder
 ---
 # I_PURGOUTPUTOPERATIONCODE
 
@@ -28,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `druvo )` | `cast ( domvalue_l` |
+| `PurgOutputOperationCode` | `cast ( domvalue_l as druvo )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgOutputOperationCodeText` | [0..*] |
 
 ## Source Code
 

@@ -29,15 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key CreditSegment` | `CreditSegment` |
-| `key CrdtAcctInformationCategory` | `CrdtAcctInformationCategory` |
-| `key CrdtAcctInformationType` | `CrdtAcctInformationType` |
-| `bp_counter preserving type )` | `cast ( SequenceNumber` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CreditSegment` | `CreditSegment` |
+| `CrdtAcctInformationCategory` | `CrdtAcctInformationCategory` |
+| `CrdtAcctInformationType` | `CrdtAcctInformationType` |
+| `AdditionalCreditDocSequence` | `cast ( SequenceNumber as bp_counter preserving type )` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `AdditionalCreditDocComment` | `AdditionalCreditDocComment` |
-| `_CrdtMBusinessPartnerTP : redirected to parent I_CrdtMBusinessPartnerTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

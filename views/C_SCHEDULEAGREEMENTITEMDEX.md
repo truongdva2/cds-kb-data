@@ -17,6 +17,7 @@ tags:
   - schedule-line
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # C_SCHEDULEAGREEMENTITEMDEX
 
@@ -67,7 +68,7 @@ tags:
 | `NetPriceAmount` | `NetPriceAmount` |
 | `NetPriceQuantity` | `NetPriceQuantity` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
-| `abap.char(4))` | `cast(ProductType` |
+| `ProductType` | `cast(ProductType as abap.char(4))` |
 | `MaterialType` | `MaterialType` |
 | `StorageLocation` | `StorageLocation` |
 | `PurchasingInfoRecordUpdateCode` | `IsInfoRecordUpdated` |
@@ -99,16 +100,15 @@ tags:
 | `ScheduleLineFirmOrderInDays` | `ScheduleLineFirmOrderInDays` |
 | `SchedLineSemiFirmOrderInDays` | `SchedLineSemiFirmOrderInDays` |
 | `FirmTradeOffZoneBindMRP` | `FirmTradeOffZoneBindMRP` |
-| `_SchedgAgrmtHdrAPI01.PurchasingDocumentOrderDate    as PurchasingDocumentOrderDate` | *Association* |
-| `_SchedgAgrmtHdrAPI01.PurchasingOrganization         as PurchasingOrganization` | *Association* |
-| `_SchedgAgrmtHdrAPI01.PurchasingGroup                as PurchasingGroup` | *Association* |
-| `_SchedgAgrmtHdrAPI01.PurchasingDocumentType         as PurchasingDocumentType` | *Association* |
-| `_SchedgAgrmtHdrAPI01.Supplier                       as Supplier` | *Association* |
-| `_SchedgAgrmtHdrAPI01.ValidityStartDate              as ValidityStartDate` | *Association* |
-| `_SchedgAgrmtHdrAPI01.ValidityEndDate                as ValidityEndDate` | *Association* |
-| `_SchedgAgrmtHdrAPI01.PurchasingDocumentDeletionCode as PurchasingDocumentDeletionCode` | *Association* |
+| `PurchasingDocumentOrderDate` | `_SchedgAgrmtHdrAPI01.PurchasingDocumentOrderDate` |
+| `PurchasingOrganization` | `_SchedgAgrmtHdrAPI01.PurchasingOrganization` |
+| `PurchasingGroup` | `_SchedgAgrmtHdrAPI01.PurchasingGroup` |
+| `PurchasingDocumentType` | `_SchedgAgrmtHdrAPI01.PurchasingDocumentType` |
+| `Supplier` | `_SchedgAgrmtHdrAPI01.Supplier` |
+| `ValidityStartDate` | `_SchedgAgrmtHdrAPI01.ValidityStartDate` |
+| `ValidityEndDate` | `_SchedgAgrmtHdrAPI01.ValidityEndDate` |
+| `PurchasingDocumentDeletionCode` | `_SchedgAgrmtHdrAPI01.PurchasingDocumentDeletionCode` |
 | `TargetQuantity` | `TargetQuantity` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_ScheduleAgreementHdrDEX` | *Association* |
 | `_SchedAgrmtSchedLineDEX` | *Association* |
 | `_PurchasingInfoRecord` | *Association* |

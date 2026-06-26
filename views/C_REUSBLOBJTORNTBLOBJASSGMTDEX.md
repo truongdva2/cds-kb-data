@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REUsblObjToRntblAssgmtUUID
 ---
 # C_REUSBLOBJTORNTBLOBJASSGMTDEX
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REUsblObjToRntblAssgmtUUID` | `REUsblObjToRntblAssgmtUUID` |
+| `REUsblObjToRntblAssgmtUUID` | `REUsblObjToRntblAssgmtUUID` |
 | `RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
 | `RealEstateUsableObjectUUID` | `RealEstateUsableObjectUUID` |
-| `_RERentableObject.RealEstateRentableObjectNumber as RealEstateRentableObjectNumber` | *Association* |
+| `RealEstateRentableObjectNumber` | `_RERentableObject.RealEstateRentableObjectNumber` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `REIsAssignmentFromUsableObj` | `REIsAssignmentFromUsableObj` |
@@ -43,7 +44,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_REUsableObject` | `I_REUsableObject` | — |
 
 ## Source Code
 

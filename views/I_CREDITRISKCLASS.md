@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:CreditRiskClass
 ---
 # I_CREDITRISKCLASS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_risk_class preserving type)` | `cast(risk_class` |
+| `CreditRiskClass` | `cast(risk_class as farp_risk_class preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

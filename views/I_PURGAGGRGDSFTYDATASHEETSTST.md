@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgAggrgdSftyDataSheetStsText
 ---
 # I_PURGAGGRGDSFTYDATASHEETSTST
 
@@ -28,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `mmpur_pc_total_status_sds )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurgAggrgdSftyDataSheetStatus` | `cast( dd07t.domvalue_l as mmpur_pc_total_status_sds )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_pc_total_status_sds_dscr preserving type )` | `cast( dd07t.ddtext` |
+| `PurgAggrgdSftyDataSheetStsName` | `cast( dd07t.ddtext as mmpur_pc_total_status_sds_dscr preserving type )` |
 | `_PurgAggrgdSftyDataSheetStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgAggrgdSftyDataSheetStatus` | `I_PurgAggrgdSftyDataSheetSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

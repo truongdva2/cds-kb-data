@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyType
 ---
 # I_SLCPARTYTYPE
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/party_type preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SLCPartyType` | `cast ( substring( domvalue_l, 1, 1 ) as /srmsmc/party_type preserving type)` |
 | `_SLCPartyTypeText` | *Association* |
 
 ## Associations

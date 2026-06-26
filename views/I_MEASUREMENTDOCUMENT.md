@@ -15,6 +15,7 @@ tags:
   - document
   - component:PM-EQM-SF-MPC-2CL
   - lob:Plant Maintenance
+  - bo:MeasurementDocument
 ---
 # I_MEASUREMENTDOCUMENT
 
@@ -35,8 +36,7 @@ tags:
 | `MeasuringPoint` | `point` |
 | `MsmtRdngDate` | `idate` |
 | `MsmtRdngTime` | `itime` |
-| `cast ( dats_tims_to_tstmp( idate, itime, abap_system_timezone( $session.client,'NULL' )` | `cast ( dats_tims_to_tstmp( idate, itime, abap_system_timezone( $session.client,'NULL' )` |
-| `timestamp )` | `$session.client, 'NULL' )` |
+| `MeasurementReadingDateTime` | `cast(…)` |
 | `MsmtRdngInvertedDateTime` | `invts` |
 | `MsmtRdngIsForCounter` | `cntrg` |
 | `MeasurementDocumentText` | `mdtxt` |
@@ -45,8 +45,7 @@ tags:
 | `MsmtRdngByUser` | `readr` |
 | `CreationDate` | `erdat` |
 | `CreationTime` | `eruhr` |
-| `cast ( dats_tims_to_tstmp( erdat, eruhr, abap_system_timezone( $session.client,'NULL' )` | `cast ( dats_tims_to_tstmp( erdat, eruhr, abap_system_timezone( $session.client,'NULL' )` |
-| `timestamp )` | `$session.client, 'NULL' )` |
+| `MsmtDocumentCreationDateTime` | `cast(…)` |
 | `CreatedByUser` | `ernam` |
 | `LastChangeDate` | `aedat` |
 | `LastChangedByUser` | `aenam` |
@@ -64,7 +63,7 @@ tags:
 | `MeasurementReadingInEntryUoM` | `recdv` |
 | `MsmtReadingInEntryUoMIsEntered` | `recdvi` |
 | `MeasurementReadingEntryUoM` | `recdu` |
-| `_MeasuringPoint._UnitOfMeasure._Dimension.UnitOFMeasureSiUnit as MsmtDocumentSIUnitOfMeasure` | *Association* |
+| `MsmtDocumentSIUnitOfMeasure` | `_MeasuringPoint._UnitOfMeasure._Dimension.UnitOFMeasureSiUnit` |
 | `MeasurementCounterReading` | `cntrr` |
 | `MsmtCntrRdngIsEntered` | `cntrri` |
 | `MsmtCounterReadingDifference` | `cdiff` |

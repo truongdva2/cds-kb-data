@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingArea'` | `name:    'I_ControllingArea'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
-| `fis_kokrs preserving type )` | `cast( hrrp_nodet_n.kokrs` |
-| `fis_hryid_prctr preserving type )` | `cast(hrrp_nodet_n.hryid` |
+| `ControllingArea` | `cast( hrrp_nodet_n.kokrs as fis_kokrs preserving type )` |
+| `ProfitCenterHierarchy` | `cast(hrrp_nodet_n.hryid as fis_hryid_prctr preserving type )` |
 | `HierarchyNode` | `hrrp_nodet_n.hrynode` |
-| `fis_datbi preserving type )` | `cast(hrrp_nodet_n.hryvalto` |
+| `ValidityEndDate` | `cast(hrrp_nodet_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `hrrp_nodet_n.spras` |
 | `HierarchyNodeText` | `hrrp_nodet_n.nodetxt` |
 | `HierarchyNodeShortText` | `substring(hrrp_nodet_n.nodetxt, 1, 20)` |
-| `fis_datab preserving type )` | `cast(hrrp_nodet_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_nodet_n.hryvalfrom as fis_datab preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Hierarchy` | *Association* |
 | `_Language` | *Association* |

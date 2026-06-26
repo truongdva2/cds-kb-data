@@ -30,7 +30,51 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `amount.currencyCode: 'DocumentCurrency' }` | `amount.currencyCode: 'DocumentCurrency' }` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `CostCenter` | `CostCenter` |
+| `MasterFixedAsset` | `MasterFixedAsset` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `Quantity` | `Quantity` |
+| `PurchaseOrderQuantityUnit` | `OrderQuantityUnit` |
+| `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
+| `PurgDocNetAmount` | `PurgDocNetAmount` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `IsDeleted` | `IsDeleted` |
+| `GLAccount` | `GLAccount` |
+| `BusinessArea` | `BusinessArea` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
+| `FixedAsset` | `FixedAsset` |
+| `OrderID` | `OrderID` |
+| `UnloadingPointName` | `UnloadingPointName` |
+| `ControllingArea` | `ControllingArea` |
+| `CostObject` | `CostObject` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
+| `ProfitCenter` | `ProfitCenter` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementInternalID_2` | `WBSElementInternalID_2` |
+| `ProjectNetworkInternalID` | `ProjectNetworkInternalID` |
+| `CommitmentItem` | `CommitmentItem` |
+| `CommitmentItemShortID` | `CommitmentItemShortID` |
+| `FundsCenter` | `FundsCenter` |
+| `Fund` | `Fund` |
+| `FunctionalArea` | `FunctionalArea` |
+| `GoodsRecipientName` | `GoodsRecipientName` |
+| `IsFinallyInvoiced` | `IsFinallyInvoiced` |
+| `RealEstateObject` | `cast (REInternalFinNumber as imkey preserving type )` |
+| `REInternalFinNumber` | `REInternalFinNumber` |
+| `NetworkActivityInternalID` | `NetworkActivityInternalID` |
+| `PartnerAccountNumber` | `PartnerAccountNumber` |
+| `JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
+| `SettlementReferenceDate` | `SettlementReferenceDate` |
+| `OrderInternalID` | `OrderInternalID` |
+| `OrderIntBillOfOperationsItem` | `OrderIntBillOfOperationsItem` |
+| `TaxCode` | `TaxCode` |
+| `TaxJurisdiction` | `TaxJurisdiction` |
 | `NonDeductibleInputTaxAmount` | `NonDeductibleInputTaxAmount` |
 | `CostCtrActivityType` | `CostCtrActivityType` |
 | `BusinessProcess` | `BusinessProcess` |

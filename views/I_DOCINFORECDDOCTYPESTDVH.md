@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocType
 ---
 # I_DOCINFORECDDOCTYPESTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
 | `_Text` | *Association* |
 
 ## Associations

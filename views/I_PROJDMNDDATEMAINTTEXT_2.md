@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tv_dmnd_date_maint preserving type )` | `cast( substring( domvalue_l, 1, 2 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjectDemandDateMaintenance` | `cast( substring( domvalue_l, 1, 2 ) as tv_dmnd_date_maint preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `ProjDemandDateMaintenanceText` | `ddtext` |
 | `_ProjectDemandDateMaintenance` | *Association* |
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjectDemandDateMaintenance` | `I_ProjDmndDateMaintenance_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

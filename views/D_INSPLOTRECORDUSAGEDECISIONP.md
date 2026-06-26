@@ -28,11 +28,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SelectedCodeSetPlant           : qwerkausw;` | `SelectedCodeSetPlant           : qwerkausw;` |
-| `InspLotUsgeDcsnSelectedSet     : qvmenge;` | `InspLotUsgeDcsnSelectedSet     : qvmenge;` |
-| `InspLotUsageDecisionCodeGroup  : qvgruppe;` | `InspLotUsageDecisionCodeGroup  : qvgruppe;` |
-| `InspectionLotUsageDecisionCode : qvcode;` | `InspectionLotUsageDecisionCode : qvcode;` |
-| `InspLotIsCompletionForced      : vdm_qinsp_completion_forced;` | `InspLotIsCompletionForced      : vdm_qinsp_completion_forced;` |
+| `SelectedCodeSetPlant` | `qwerkausw` |
+| `InspLotUsgeDcsnSelectedSet` | `qvmenge` |
+| `InspLotUsageDecisionCodeGroup` | `qvgruppe` |
+| `InspectionLotUsageDecisionCode` | `qvcode` |
+| `InspLotIsCompletionForced` | `vdm_qinsp_completion_forced` |
 
 ## Associations
 

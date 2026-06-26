@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kostk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallPickingStatus` | `cast(left(dd07l.domvalue_l, 1 ) as kostk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPExceptionMessage
 ---
 # I_MRPEXCEPTIONMESSAGETEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_auslt preserving type)` | `cast(auslt` |
+| `Language` | `cast(spras as spras preserving type)` |
+| `MRPExceptionMessage` | `cast(aussl as vdm_aussl preserving type)` |
+| `MRPExceptionMessageName` | `cast(auslt as vdm_auslt preserving type)` |
 | `_MRPExceptionMessage` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MRPExceptionMessage` | `I_MRPExceptionMessage` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

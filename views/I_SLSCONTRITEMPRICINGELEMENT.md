@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_contract preserving type)` | `cast(SalesDocument` |
-| `sales_contract_item preserving type)` | `cast(SalesDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `SalesContract` | `cast(SalesDocument as sales_contract preserving type)` |
+| `SalesContractItem` | `cast(SalesDocumentItem as sales_contract_item preserving type)` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |

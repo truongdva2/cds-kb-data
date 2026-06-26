@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassKeywordPositionNumber
 ---
 # I_CLFNCLASSDESCRIPTIONDEX
 

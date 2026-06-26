@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:FunctionalAreaHierarchyNode
 ---
 # I_FUNCTIONALAREAHIERNODE
 
@@ -30,13 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `fis_datbi preserving type )` | `cast(hrrp_node_n.hryvalto` |
-| `fis_datab preserving type )` | `cast(hrrp_node_n.hryvalfrom` |
+| `FunctionalAreaHierarchy` | `cast ( hrrp_node_n.hryid_42 as fis_hryid_functionalarea_42 preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
 | `ParentNode` | `hrrp_node_n.parnode` |
-| `hryversn )` | `cast( '000000000000001'` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
 | `FunctionalArea` | `hrrp_node_n.fkber` |
-| `SequenceNumber, // do not use any longer, use HierarchyNodeSequence` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
+| `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |
 | `NodeType` | `hrrp_node_n.nodetype` |

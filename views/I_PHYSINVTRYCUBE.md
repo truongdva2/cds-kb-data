@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FiscalYear` | `FiscalYear` |
-| `key PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
-| `key PhysicalInventoryDocumentItem` | `PhysicalInventoryDocumentItem` |
+| `FiscalYear` | `FiscalYear` |
+| `PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
+| `PhysicalInventoryDocumentItem` | `PhysicalInventoryDocumentItem` |
 | `Plant` | `Plant` |
 | `StorageLocation` | `StorageLocation` |
 | `Material` | `Material` |
@@ -80,7 +80,7 @@ tags:
 | `IsHandledInAltvUnitOfMsr` | `IsHandledInAltvUnitOfMsr` |
 | `ProductCategory` | `ProductCategory` |
 | `CrossPlantConfigurableMaterial` | `CrossPlantConfigurableMaterial` |
-| `I_AugmentedPhysInvtryDocItem._PhysInvtryDocHeader.SalesPriceValuationIsActive` | `I_AugmentedPhysInvtryDocItem._PhysInvtryDocHeader.SalesPriceValuationIsActive` |
+| `SalesPriceValuationIsActive` | `I_AugmentedPhysInvtryDocItem._PhysInvtryDocHeader.SalesPriceValuationIsActive` |
 | `BookQtyBfrCountInMatlBaseUnit` | `BookQtyBfrCountInMatlBaseUnit` |
 | `PhysicalInventoryItemIsZero` | `PhysicalInventoryItemIsZero` |
 | `Quantity` | `Quantity` |

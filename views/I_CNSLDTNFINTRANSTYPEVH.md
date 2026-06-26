@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  FinancialTransactionType` | `FinancialTransactionType` |
-| `_Source._Text[1: Language=$session.system_language].FinancialTransactionTypeName` | *Association* |
+| `FinancialTransactionType` | `FinancialTransactionType` |
+| `FinancialTransactionTypeName` | `_Source._Text[1: Language=$session.system_language].FinancialTransactionTypeName` |
 
 ## Associations
 

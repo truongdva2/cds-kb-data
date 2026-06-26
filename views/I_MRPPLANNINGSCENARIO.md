@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPPlanningScenario
 ---
 # I_MRPPLANNINGSCENARIO
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MRPPlanningScenario` | `plsc.plscn` |
 | `MRPPlanningScenarioText` | `plsc.plsct` |
 | `MRPPlanningScenarioStatus` | `plsc.psact` |
 | `CapacityActiveVersion` | `plsc.versa` |

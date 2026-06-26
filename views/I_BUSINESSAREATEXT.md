@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:BusinessArea
 ---
 # I_BUSINESSAREATEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `BusinessArea` | `gsber` |
 | `Language` | `spras` |
-| `fis_gtext_vdm preserving type)` | `cast( gtext` |
+| `BusinessAreaName` | `cast( gtext as fis_gtext_vdm preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

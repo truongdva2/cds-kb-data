@@ -31,31 +31,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pi_document preserving type)` | `cast(ikpf.iblnr` |
+| `PhysicalInventoryDocument` | `cast(ikpf.iblnr as pi_document preserving type)` |
 | `FiscalYear` | `ikpf.gjahr` |
-| `pi_transaction_type preserving type)` | `cast(ikpf.vgart` |
+| `InventoryTransactionType` | `cast(ikpf.vgart as pi_transaction_type preserving type)` |
 | `Plant` | `ikpf.werks` |
 | `StorageLocation` | `ikpf.lgort` |
 | `InventorySpecialStockType` | `ikpf.sobkz` |
 | `DocumentDate` | `ikpf.bldat` |
 | `PhysInventoryPlannedCountDate` | `ikpf.gidat` |
 | `PhysicalInventoryLastCountDate` | `ikpf.zldat` |
-| `mmim_postingdate preserving type)` | `cast(ikpf.budat` |
-| `pi_monat preserving type)` | `cast(ikpf.monat` |
-| `pi_created_by_user preserving type)` | `cast(ikpf.usnam` |
+| `PostingDate` | `cast(ikpf.budat as mmim_postingdate preserving type)` |
+| `FiscalPeriod` | `cast(ikpf.monat as pi_monat preserving type)` |
+| `CreatedByUserName` | `cast(ikpf.usnam as pi_created_by_user preserving type)` |
 | `PostingIsBlockedForPhysInvtry` | `ikpf.sperr` |
 | `PhysicalInventoryCountStatus` | `ikpf.zstat` |
 | `PhysInvtryAdjustmentPostingSts` | `ikpf.dstat` |
-| `pi_reference preserving type)` | `cast(ikpf.xblni` |
+| `PhysInventoryReferenceNumber` | `cast(ikpf.xblni as pi_reference preserving type)` |
 | `PhysInvtryDeletionStatus` | `ikpf.lstat` |
-| `pi_book_inventory_freeze preserving type)` | `cast(ikpf.xbufi` |
+| `PhysInvtryDocHasQtySnapshot` | `cast(ikpf.xbufi as pi_book_inventory_freeze preserving type)` |
 | `PhysicalInventoryGroupType` | `ikpf.keord` |
 | `PhysicalInventoryGroup` | `ikpf.ordng` |
-| `pi_number preserving type)` | `cast(ikpf.invnu` |
+| `PhysicalInventoryNumber` | `cast(ikpf.invnu as pi_number preserving type)` |
 | `PhysicalInventoryDocumentDesc` | `ikpf.ibltxt` |
-| `pi_type preserving type)` | `cast(ikpf.invart` |
+| `PhysicalInventoryType` | `cast(ikpf.invart as pi_type preserving type)` |
 | `LastChangeDateTime` | `ikpf.lastchange_datetime` |
-| `pi_is_sp_valuation_active preserving type)` | `cast(t001k.xvkbw` |
+| `SalesPriceValuationIsActive` | `cast(t001k.xvkbw as pi_is_sp_valuation_active preserving type)` |
 | `ValuationArea` | `t001k.bwkey` |
 | `_Plant` | *Association* |
 | `_StorageLocation` | *Association* |

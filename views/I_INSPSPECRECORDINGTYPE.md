@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qestukz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `,_Text` | `,_Text` |
+| `InspSpecRecordingType` | `cast ( substring( domvalue_l, 1, 1 ) as qestukz preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

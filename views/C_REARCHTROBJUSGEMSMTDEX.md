@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjMsmtUsageUUID
 ---
 # C_REARCHTROBJUSGEMSMTDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
+| `REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
 | `REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `REGenericRentalObjectUUID` | `REGenericRentalObjectUUID` |

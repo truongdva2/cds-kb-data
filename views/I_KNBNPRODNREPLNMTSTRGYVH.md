@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:InHouseProductionReplnmtStrgy
 ---
 # I_KNBNPRODNREPLNMTSTRGYVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `key Plant` | `Plant` |
+| `InHouseProductionReplnmtStrgy` | `InHouseProductionReplnmtStrgy` |
+| `Plant` | `Plant` |
 | `_Text` | *Association* |
 | `_Plant` | *Association* |
 

@@ -18,6 +18,7 @@ tags:
   - status
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Status
 ---
 # I_PRODUCTSTATUSTEXT
 
@@ -36,7 +37,7 @@ tags:
 |---|---|
 | `Status` | `t141t.mmsta` |
 | `Language` | `spras` |
-| `crossplantstatustext preserving type )` | `cast(t141t.mtstb` |
+| `MaterialUsabilityProfileName` | `cast(t141t.mtstb as crossplantstatustext preserving type )` |
 
 ## Associations
 

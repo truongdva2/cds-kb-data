@@ -32,9 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `fincs_methodtext preserving type)` | `cast (_Text.txt` |
-| `fincs_taskcategory preserving type )` | `cast( _tf550.cactt` |
+| `Language` | `cast(_Text.langu as fincs_language preserving type )` |
+| `ConsolidationMethod` | `cast(_Text.cmeth as fincs_method preserving type )` |
+| `ConsolidationMethodText` | `cast (_Text.txt as fincs_methodtext preserving type)` |
+| `ConsolidationTaskCategory` | `cast( _tf550.cactt as fincs_taskcategory preserving type )` |
 | `_Language` | *Association* |
 | `_Method` | *Association* |
 

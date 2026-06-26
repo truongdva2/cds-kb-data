@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PrcgConditionDeletionMethod
 ---
 # I_PRCGCNDNDELTNMETHODTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kdele )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PrcgConditionDeletionMethod` | `cast ( substring( domvalue_l, 1, 1 ) as kdele )` |
+| `PrcgCndnDeletionMethodText` | `cast ( ddtext as val_text )` |
 | `_PrcgConditionDeletionMethod` | *Association* |
 | `_Language` | *Association* |
 

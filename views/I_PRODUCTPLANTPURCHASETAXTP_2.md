@@ -35,12 +35,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CountryVH', element : 'Country'} , useAsTemplate: true }]` | `name: 'I_CountryVH', element : 'Country'} , useAsTemplate: true }]` |
-| `key DepartureCountry` | `DepartureCountry` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `DepartureCountry` | `DepartureCountry` |
 | `ProdPurchaseTaxClassification` | `ProdPurchaseTaxClassification` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 | `_Country` | *Association* |
 | `_ProductDescription` | *Association* |
 | `_CountryText` | *Association* |

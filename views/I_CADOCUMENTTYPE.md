@@ -35,16 +35,9 @@ tags:
 | `CACrossCompCodePostgIsAllowed` | `tfk003.xgsub` |
 | `CAManualPostingIsForbidden` | `tfk003.xintf` |
 | `CANegativePostingCode` | `tfk003.negbl` |
-| `/* only technical fields:` | `/* only technical fields:` |
-| `tfk003.numkr` | `tfk003.numkr` |
-| `tfk003.bllfz` | `tfk003.bllfz` |
-| `tfk003.arclfz` | `tfk003.arclfz` |
-| `*/` | `*/` |
-| `/* associations */` | `/* associations */` |
 | `_CAApplicationArea` | *Association* |
 | `_Text` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea as _ApplArea` | *Association* |
+| `_ApplArea` | *Association* |
 
 ## Associations
 

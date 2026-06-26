@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntrJrnlEntrLink
 ---
 # I_PRJBLGELMENTRJRNLENTRLINK
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
+| `ProjBillgElmntEntrItmUUID` | `PrjBlgElmEntrJrnlEntrLink.projbillgelmntentritmuuid` |
+| `Ledger` | `PrjBlgElmEntrJrnlEntrLink.ledger` |
 | `CompanyCode` | `PrjBlgElmEntrJrnlEntrLink.companycode` |
 | `FiscalYear` | `PrjBlgElmEntrJrnlEntrLink.fiscalyear` |
 | `AccountingDocument` | `PrjBlgElmEntrJrnlEntrLink.accountingdocument` |
@@ -55,6 +55,8 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjectBillingElementEntry` | `I_ProjectBillingElementEntry` | [1..1] |
+| `_GLAccountLineItemRawData` | `I_GLAccountLineItemRawData` | [1..1] |
 | `_Ledger` | `I_Ledger` | [1..1] |
 | `_LedgerText` | `I_LedgerText` | [1..*] |
 | `_CompanyCode` | `I_CompanyCode` | [1..1] |

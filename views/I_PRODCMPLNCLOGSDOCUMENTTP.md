@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
+| `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -49,11 +49,6 @@ tags:
 | `ActualGoodsMovementDate` | `ActualGoodsMovementDate` |
 | `ActualGoodsMovementTime` | `ActualGoodsMovementTime` |
 | `ActualGoodsIssueTimeZone` | `ActualGoodsIssueTimeZone` |
-| `/* Associations */` | `/* Associations */` |
-| `_Item             : redirected to composition child I_ProdCmplncLogsDocumentItemTP` | *Association* |
-| `_Stage            : redirected to composition child I_ProdCmplncLogsDocStageTP` | *Association* |
-| `_StatusMessage    : redirected to composition child I_ProdCmplncLogsDocStatusMsgTP` | *Association* |
-| `_MnllyOvrwrtnAddr : redirected to composition child I_PCLgsDcMnllyOvrwrtnAddrTP` | *Association* |
 
 ## Associations
 

@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-SRV-BSF-CUR-2CL
   - lob:Basis Components
+  - bo:Currency
 ---
 # I_CURRENCYTEXT
 
@@ -37,12 +38,15 @@ tags:
 | `_Language` | *Association* |
 | `Currency` | `waers` |
 | `_Currency` | *Association* |
-| `ltext_cds preserving type)` | `cast(ltext` |
+| `CurrencyName` | `cast(ltext as ltext_cds preserving type)` |
 | `CurrencyShortName` | `ktext` |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Currency` | `I_Currency` | [1..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

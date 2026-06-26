@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name   : 'I_EUElectronicDocPaymentMeanVH'` | `name   : 'I_EUElectronicDocPaymentMeanVH'` |
-| `element: 'EU_EDocPaymentmeans' }` | `element: 'EU_EDocPaymentmeans' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `HouseBank` | `hbkid` |
+| `HouseBankAccount` | `hktid` |
 | `EU_EDocPaymentMeans` | `paym_means` |
 | `IBAN` | `iban` |
 | `_HouseBank` | *Association* |
@@ -47,6 +47,7 @@ tags:
 |---|---|---|
 | `_CompanyCode` | `I_CompanyCode` | [1..1] |
 | `_HouseBank` | `I_Housebank` | [1..1] |
+| `_HouseBankAccount` | `I_HouseBankAccount` | — |
 
 ## Source Code
 

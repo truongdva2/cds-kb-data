@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
-| `key ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
+| `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
+| `ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
@@ -40,10 +40,6 @@ tags:
 | `DepartureCountry` | `DepartureCountry` |
 | `DestinationCountry` | `DestinationCountry` |
 | `DngrsGoodsModeOfTransport` | `DngrsGoodsModeOfTransport` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document       : redirected to parent I_ProdCmplncLogsDocumentTP` | *Association* |
-| `_StageItem      : redirected to composition child I_ProdCmplncLogsDocStageItemTP` | *Association* |
-| `_TransitCountry : redirected to composition child I_ProdCmplncLogsDocTrnstCtryTP` | *Association* |
 
 ## Associations
 

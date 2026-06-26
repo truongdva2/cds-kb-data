@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSchedulingProfile
 ---
 # I_PRODUCTIONSCHEDGPROFILEVH
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProductionSchedulingProfile` | `ProductionSchedulingProfile` |
+| `Plant` | `Plant` |
 | `OrderCategory` | `OrderCategory` |
 | `_Plant` | *Association* |
 | `_OrderCategory` | *Association* |

@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
 | `SupplierConfirmationCategory` | `ebtyp` |
 | `_Text` | *Association* |
 

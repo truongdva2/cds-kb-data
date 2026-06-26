@@ -14,6 +14,7 @@ tags:
   - status
   - component:SLC-SUP
   - lob:Other
+  - bo:PurgCatIsInactive
 ---
 # I_INACTIVESTATUS
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/inactive_status preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PurgCatIsInactive` | `cast ( substring( domvalue_l, 1, 1 ) as /srmsmc/inactive_status preserving type)` |
 | `_InactiveStatusText` | *Association* |
 | `_Text` | *Association* |
 

@@ -32,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key StatusCode` | `StatusCode` |
+| `InspectionLot` | `InspectionLot` |
+| `StatusCode` | `StatusCode` |
 | `StatusObject` | `StatusObject` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot: redirected to parent I_InspectionLotTP_2` | *Association* |
 
 ## Associations
 

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialGroup` | `MaterialGroup` |
-| `_CnsldtnMaterialGroup._Text[1: Language=$session.system_language].MaterialGroupName` | *Association* |
+| `MaterialGroup` | `MaterialGroup` |
+| `MaterialGroupName` | `expr(…)` |
 
 ## Associations
 

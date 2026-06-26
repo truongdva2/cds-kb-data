@@ -30,8 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspSpecAdditionalCatalog` | `I_Inspectioncatalog.InspectionCatalog` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecAddlCatalogText` | `,_InspSpecAddlCatalogText` |
+| `_InspSpecAddlCatalogText` | *Association* |
 
 ## Associations
 

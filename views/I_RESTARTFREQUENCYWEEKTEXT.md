@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `recdvdmweekfrom )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REStartFrequencyWeek` | `cast( dd07t.domvalue_l as recdvdmweekfrom )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `REStartFrequencyWeekName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_REStartFrequencyWeek` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REStartFrequencyWeek` | `I_REStartFrequencyWeek` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

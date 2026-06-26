@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
 | `MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
 | `MaintenanceOrderType` | `MaintenanceOrderType` |
 | `MaintenanceOrderDesc` | `MaintenanceOrderDesc` |
@@ -55,9 +55,9 @@ tags:
 | `MainWorkCenterTypeCode` | `WorkCenterTypeCode` |
 | `MainWorkCenter` | `MainWorkCenter` |
 | `MainWorkCenterPlant` | `MainWorkCenterPlant` |
-| `_LocationAccountAssignment.WorkCenterInternalID` | *Association* |
-| `_LocationAccountAssignment.WorkCenterTypeCode` | *Association* |
-| `_LocationAccountAssignment._WorkCenter.WorkCenter` | *Association* |
+| `WorkCenterInternalID` | `_LocationAccountAssignment.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `_LocationAccountAssignment.WorkCenterTypeCode` |
+| `WorkCenter` | `_LocationAccountAssignment._WorkCenter.WorkCenter` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `MaintenancePlant` | `MaintenancePlant` |
 | `Assembly` | `Assembly` |
@@ -65,14 +65,14 @@ tags:
 | `MaintOrdProcessSubPhaseCode` | `MaintOrdProcessSubPhaseCode` |
 | `BusinessArea` | `BusinessArea` |
 | `CompanyCode` | `CompanyCode` |
-| `_LocationAccountAssignment.CostCenter` | *Association* |
+| `CostCenter` | `_LocationAccountAssignment.CostCenter` |
 | `CostingSheet` | `CostingSheet` |
 | `ReferenceElement` | `ReferenceElement` |
 | `FunctionalArea` | `FunctionalArea` |
 | `AdditionalDeviceData` | `AdditionalDeviceData` |
 | `Equipment` | `Equipment` |
-| `_Equipment._EquipmentText[1:Language=$session.system_language].EquipmentName` | *Association* |
-| `vdm_eam_tplnr )` | `cast ( _LocationAccountAssignment.FunctionalLocation` |
+| `EquipmentName` | `_Equipment._EquipmentText[1:Language=$session.system_language].EquipmentName` |
+| `FunctionalLocation` | `cast ( _LocationAccountAssignment.FunctionalLocation as vdm_eam_tplnr )` |
 | `MaintenanceOrderPlanningCode` | `MaintenanceOrderPlanningCode` |
 | `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
 | `MaintenanceActivityType` | `MaintenanceActivityType` |
@@ -87,23 +87,23 @@ tags:
 | `Product` | `Material` |
 | `SuperiorProjectNetwork` | `SuperiorProjectNetwork` |
 | `OperationSystemCondition` | `OperationSystemCondition` |
-| `_WBSElement.WBSElementExternalID                                                        as WBSElement` | *Association* |
+| `WBSElement` | `_WBSElement.WBSElementExternalID` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
-| `ps_s4_proj_pspnr )` | `cast( ProjectInternalID` |
+| `ProjectInternalID` | `cast( ProjectInternalID as ps_s4_proj_pspnr )` |
 | `ControllingObjectClass` | `ControllingObjectClass` |
 | `MaintenanceOrderInternalID` | `MaintenanceOrderInternalID` |
 | `MaintenanceObjectList` | `MaintenanceItemObjectList` |
 | `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
-| `_LocationAccountAssignment.AssetLocation` | *Association* |
-| `_LocationAccountAssignment.AssetRoom` | *Association* |
-| `_LocationAccountAssignment.PlantSection` | *Association* |
-| `_LocationAccountAssignment.ABCIndicator` | *Association* |
-| `_LocationAccountAssignment.MaintObjectFreeDefinedAttrib` | *Association* |
+| `AssetLocation` | `_LocationAccountAssignment.AssetLocation` |
+| `AssetRoom` | `_LocationAccountAssignment.AssetRoom` |
+| `PlantSection` | `_LocationAccountAssignment.PlantSection` |
+| `ABCIndicator` | `_LocationAccountAssignment.ABCIndicator` |
+| `MaintObjectFreeDefinedAttrib` | `_LocationAccountAssignment.MaintObjectFreeDefinedAttrib` |
 | `BasicSchedulingType` | `BasicSchedulingType` |
 | `LatestAcceptableCompletionDate` | `LatestAcceptableCompletionDate` |
 | `MaintOrdPersonResponsible` | `MaintOrdPersonResponsible` |
 | `LastChangeByUser` | `LastChangeByUser` |
-| `rslastchangedat preserving type )` | `cast( LastChangeDateTime` |
+| `LastChangeDateTime` | `cast( LastChangeDateTime as rslastchangedat preserving type )` |
 | `CreatedByUser` | `CreatedByUser` |
 | `OrderHasLongText` | `OrderHasLongText` |
 | `MaintenanceOrderOverheadCode` | `MaintenanceOrderOverheadCode` |
@@ -116,12 +116,12 @@ tags:
 | `TaskListType` | `TaskListType` |
 | `TaskListGroup` | `TaskListGroup` |
 | `TaskListGroupCounter` | `TaskListGroupCounter` |
-| `_LocationAccountAssignment._WBSElementBasicData.WBSElementExternalID                    as LocAcctAssgmtWBSElement` | *Association* |
-| `ps_s4_pspnr preserving type )` | `cast ( _LocationAccountAssignment.WBSElementInternalID` |
-| `_CtrlgObjectSettlementRule.ControllingSettlementProfile` | *Association* |
-| `_LocationAccountAssignment.BusinessArea                                                 as LocAcctAssgmtBusinessArea` | *Association* |
-| `_LocationAccountAssignment.ControllingArea                                              as LocAcctAssgmtControllingArea` | *Association* |
-| `_LocationAccountAssignment.CompanyCode                                                  as LocAcctAssgmtCompanyCode` | *Association* |
+| `LocAcctAssgmtWBSElement` | `_LocationAccountAssignment._WBSElementBasicData.WBSElementExternalID` |
+| `LocAcctAssgmtWBSElmntIntID` | `cast(…)` |
+| `ControllingSettlementProfile` | `_CtrlgObjectSettlementRule.ControllingSettlementProfile` |
+| `LocAcctAssgmtBusinessArea` | `_LocationAccountAssignment.BusinessArea` |
+| `LocAcctAssgmtControllingArea` | `_LocationAccountAssignment.ControllingArea` |
+| `LocAcctAssgmtCompanyCode` | `_LocationAccountAssignment.CompanyCode` |
 | `MaintOrderProcessingContext` | `MaintOrderProcessingContext` |
 | `_Equipment` | *Association* |
 | `_FunctionalLocation` | *Association* |

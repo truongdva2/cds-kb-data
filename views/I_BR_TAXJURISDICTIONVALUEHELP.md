@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CountryVH', element: 'Country'  } }]` | `name: 'I_CountryVH', element: 'Country'  } }]` |
-| `land1 preserving type )` | `cast( country` |
+| `Country` | `cast( country as land1 preserving type )` |
 | `TaxJurisdiction` | `taxjurcode` |
-| `_BR_TaxJurisdictionText.TaxJurisdictionName as TaxJurisdictionName` | *Association* |
+| `TaxJurisdictionName` | `_BR_TaxJurisdictionText.TaxJurisdictionName` |
 | `_Country` | *Association* |
 
 ## Associations

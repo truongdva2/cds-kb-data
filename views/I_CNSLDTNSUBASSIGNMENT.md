@@ -30,15 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSubassignmentVH', element: 'CnsldtnSubassignment' } }]` | `name: 'I_CnsldtnSubassignmentVH', element: 'CnsldtnSubassignment' } }]` |
-| `key cast(case rollname` | `cast(case rollname` |
-| `when 'RTCUR' then  'TransactionCurrency'` | `when 'RTCUR' then  'TransactionCurrency'` |
-| `when 'FC_BUPTR' then  'PartnerConsolidationUnit'` | `when 'FC_BUPTR' then  'PartnerConsolidationUnit'` |
-| `when 'FC_SITYP' then  'SubItemCategory'` | `when 'FC_SITYP' then  'SubItemCategory'` |
-| `when 'FC_SITEM' then 'SubItem'` | `when 'FC_SITEM' then 'SubItem'` |
-| `when 'MEINS' then 'BaseUnit'` | `when 'MEINS' then 'BaseUnit'` |
-| `else ''` | `else ''` |
-| `fincs_subassignment )` | `end` |
+| `CnsldtnSubassignment` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

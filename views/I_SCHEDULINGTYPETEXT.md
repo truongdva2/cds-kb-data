@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SchedulingTypeText
 ---
 # I_SCHEDULINGTYPETEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `termkz_txt preserving type)` | `cast(txt.txt` |
+| `SchedulingType` | `cast(txt.termkz as pph_termkz preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `SchedulingTypeName` | `cast(txt.txt as termkz_txt preserving type)` |
 | `_SchedulingType` | *Association* |
 | `_Language` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:SalesGroup
 ---
 # I_SALESGROUPTEXT
 
@@ -34,13 +35,16 @@ tags:
 |---|---|
 | `SalesGroup` | `vkgrp` |
 | `Language` | `spras` |
-| `salesgroupname preserving type)` | `cast(bezei` |
+| `SalesGroupName` | `cast(bezei as salesgroupname preserving type)` |
 | `_SalesGroup` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesGroup` | `I_SalesGroup` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -38,7 +38,7 @@ tags:
 | `BPTaxType` | `BusinessPartnerTaxNumber.taxtype` |
 | `BPTaxNumber` | `BusinessPartnerTaxNumber.taxnum` |
 | `BPTaxLongNumber` | `BusinessPartnerTaxNumber.taxnumxl` |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_TaxCategoryText` | *Association* |
 | `_BusinessPartner` | *Association* |
 

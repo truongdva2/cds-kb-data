@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingValuationMode
 ---
 # I_SAMPLINGVALUATIONMODE
 
@@ -29,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `SamplingValuationMode` | `qdbm.bewertmod` |
 | `SmplgValnIsByNcnfrmngUnits` | `qdbm.kzattrfe` |
 | `SamplingValuationIsByDefects` | `qdbm.kzattrfz` |
@@ -39,7 +39,6 @@ tags:
 | `SmplgValnIsByQltyCtrlChart` | `qdbm.kzqrk` |
 | `SmplgValnIsByToleranceLimits` | `qdbm.kzknull` |
 | `SmplgValnIsWithoutParameter` | `qdbm.kzohnebewp` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

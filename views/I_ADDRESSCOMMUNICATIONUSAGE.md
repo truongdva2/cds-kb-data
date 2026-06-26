@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressID
 ---
 # I_ADDRESSCOMMUNICATIONUSAGE
 
@@ -36,14 +37,8 @@ tags:
 | `CommunicationMediumType` | `comm_type` |
 | `CommMediumSequenceNumber` | `consnumber` |
 | `CommunicationMediumTypeUsage` | `comm_usage` |
-| `case valid_from` | `case valid_from` |
-| `when '' then '00010101'` | `when '' then '00010101'` |
-| `abap.dats)` | `else cast( substring( valid_from,1,8)` |
-| `ValidityStartDate` | `end` |
-| `case valid_to` | `case valid_to` |
-| `when '' then '99991231'` | `when '' then '99991231'` |
-| `abap.dats)` | `else cast( substring( valid_to,1,8)` |
-| `ValidityEndDate` | `end` |
+| `ValidityStartDate` | `case…end` |
+| `ValidityEndDate` | `case…end` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LogAccMObjectType` | `LogAccMObjectType` |
+| `LogAccMObjectType` | `LogAccMObjectType` |
 | `LogAccMObjectTypeIsActive` | `LogAccMObjectTypeIsActive` |
 
 ## Associations

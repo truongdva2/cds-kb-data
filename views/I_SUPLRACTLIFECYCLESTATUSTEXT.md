@@ -16,6 +16,7 @@ tags:
   - status
   - component:SLC-ACT
   - lob:Other
+  - bo:SuplrActyLifecycleStatus
 ---
 # I_SUPLRACTLIFECYCLESTATUSTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/act_lifecycle_stat_cd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrActyLifecycleStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr)` | `cast(ddtext` |
+| `SuplrActyLifecycleStatusName` | `cast(ddtext as /srmsmc/status_descr)` |
 | `_SuplrActLifecycleStatus` | *Association* |
 | `_Language` | *Association* |
 

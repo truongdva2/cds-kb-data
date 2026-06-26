@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionOrderTriggerPoint
 ---
 # I_MFGORDEROPERATIONTRGGRPOINT
 
@@ -29,20 +30,41 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_WorkCenterStdVH', element: 'WorkCenterInternalID' } } ]` | `name: 'I_WorkCenterStdVH', element: 'WorkCenterInternalID' } } ]` |
-| `oper.WorkCenterInternalID` | `oper.WorkCenterInternalID` |
-| `pph_steus preserving type)` | `cast(oper.OperationControlProfile` |
-| `mlst.ScheduledBasicDate` | `mlst.ScheduledBasicDate` |
-| `mlst.FixedBasicDate` | `mlst.FixedBasicDate` |
-| `mlst.ActualEndDate` | `mlst.ActualEndDate` |
-| `mlst.ScheduledForecastedDate` | `mlst.ScheduledForecastedDate` |
-| `mlst.ForecastedFixedDate` | `mlst.ForecastedFixedDate` |
+| `TriggerPointNumber` | `cast(mlst.ProjectMilestone as pph_mlst_zaehl preserving type)` |
+| `TriggerPointName` | `cast(mlst.MilestoneDescription as pph_mlst_ktext preserving type)` |
+| `OrderInternalID` | `oper.OrderInternalBillOfOperations` |
+| `OrderOperationInternalID` | `oper.OrderIntBillOfOperationsItem` |
+| `TriggerPointInternalID` | `cast(mlst.ProjectMilestoneInternalID as pph_mlst_intid preserving type)` |
+| `IsDeleted` | `mlst.IsDeleted` |
+| `IsMarkedForDeletion` | `mlst.IsDeleted` |
+| `UsageCode` | `mlst.UsageCode` |
+| `TriggerPointUsage` | `mlst.UsageCode` |
+| `CreationDate` | `mlst.CreationDate` |
+| `LastChangeDate` | `mlst.LastChangeDate` |
+| `CreatedByUser` | `mlst.CreatedByUser` |
+| `LastChangedByUser` | `mlst.LastChangedByUser` |
+| `ManufacturingOrder` | `oper.ManufacturingOrder` |
+| `ManufacturingOrderCategory` | `oper.ManufacturingOrderCategory` |
+| `ManufacturingOrderType` | `oper.ManufacturingOrderType` |
+| `ManufacturingOrderSequence` | `oper.ManufacturingOrderSequence` |
+| `ManufacturingOrderOperation` | `oper.ManufacturingOrderOperation_2` |
+| `ProductionPlant` | `oper.ProductionPlant` |
+| `WorkCenter` | `oper._WorkCenter.WorkCenter` |
+| `WorkCenterTypeCode` | `oper.WorkCenterTypeCode` |
+| `WorkCenterTypeCode_2` | `oper.WorkCenterTypeCode_2` |
+| `WorkCenterInternalID` | `oper.WorkCenterInternalID` |
+| `OperationControlProfile` | `cast(oper.OperationControlProfile as pph_steus preserving type)` |
+| `ScheduledBasicDate` | `mlst.ScheduledBasicDate` |
+| `FixedBasicDate` | `mlst.FixedBasicDate` |
+| `ActualEndDate` | `mlst.ActualEndDate` |
+| `ScheduledForecastedDate` | `mlst.ScheduledForecastedDate` |
+| `ForecastedFixedDate` | `mlst.ForecastedFixedDate` |
 | `TrggrPtReleaseStopIsActive` | `mlst.MlstnReleaseStopIsActive` |
-| `vdm_pp_wflow preserving type)` | `cast(mlst.MlstnIsUsedforMlstnFunc` |
-| `vdm_pp_incnw preserving type)` | `cast(mlst.MlstnIsMarkedForCreateNtwk` |
-| `vdm_pp_incpn preserving type)` | `cast(mlst.MlstnIsMarkedForIncludeSubNtwk` |
-| `vdm_pp_incsn preserving type)` | `cast(mlst.MlstnIsMarkedForCreateSubNtwk` |
-| `vdm_pp_relsu preserving type)` | `cast(mlst.MlstnIsMarkedForRelFllwngActy` |
+| `TrggrPtIsUsedForTrggrPtFunc` | `cast(mlst.MlstnIsUsedforMlstnFunc as vdm_pp_wflow preserving type)` |
+| `TrggrPtIsMarkedForCreateOrder` | `cast(mlst.MlstnIsMarkedForCreateNtwk as vdm_pp_incnw preserving type)` |
+| `TrggrPtIsMarkedForInsertRefOp` | `cast(mlst.MlstnIsMarkedForIncludeSubNtwk as vdm_pp_incpn preserving type)` |
+| `TrggrPtIsMarkedForRelPrevOp` | `cast(mlst.MlstnIsMarkedForCreateSubNtwk as vdm_pp_incsn preserving type)` |
+| `TrggrPtIsMarkedForRelFllwngOp` | `cast(mlst.MlstnIsMarkedForRelFllwngActy as vdm_pp_relsu preserving type)` |
 | `TrggrPtIsMarkedForRelUpToStop` | `mlst.MlstnIsMarkedForRelUptoStopInd` |
 | `TrggrPtIsMrkdForStartWrkflwTsk` | `mlst.MlstnIsMarkedForStrtWrkflwTsk` |
 | `_OrderInternalID` | *Association* |
@@ -50,11 +72,11 @@ tags:
 | `_ManufacturingOrderSequence` | *Association* |
 | `_ManufacturingOrderOperation` | *Association* |
 | `_MfgOrderOperationBySemKey` | *Association* |
-| `oper._MfgOrderCategory` | `oper._MfgOrderCategory` |
-| `oper._MfgOrderType` | `oper._MfgOrderType` |
-| `oper._ProductionPlant` | `oper._ProductionPlant` |
+| `_MfgOrderCategory` | *Association* |
+| `_MfgOrderType` | *Association* |
+| `_ProductionPlant` | *Association* |
 | `_WorkCenter` | *Association* |
-| `oper._OperationControlProfile` | `oper._OperationControlProfile` |
+| `_OperationControlProfile` | *Association* |
 | `_TriggerPointUsage` | *Association* |
 | `_TriggerPointText` | *Association* |
 

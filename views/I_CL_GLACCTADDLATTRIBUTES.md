@@ -31,8 +31,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ChartOfAccounts` | `ktopl` |
-| `saknr_v )` | `cast( from_account` |
-| `saknr_b )` | `cast( to_account` |
+| `FromGLAccount` | `cast( from_account as saknr_v )` |
+| `ToGLAccount` | `cast( to_account as saknr_b )` |
 | `CL_GLAccountGroup` | `acct_code` |
 | `CL_GLAccountType` | `acct_classification` |
 

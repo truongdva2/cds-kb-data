@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSchedulingProfile
 ---
 # I_PRODUCTIONSCHEDGPROFILETEXT
 
@@ -32,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProductionSchedulingProfile` | `txt.co_prodprf` |
+| `Plant` | `txt.werks` |
+| `Language` | `txt.spras` |
 | `ProductionSchedgProfileName` | `txt.prodprf_tx` |
 | `_Profile` | *Association* |
 | `_Plant` | *Association* |

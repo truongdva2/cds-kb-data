@@ -15,6 +15,7 @@ tags:
   - partner
   - component:SD-BF-PD-2CL
   - lob:Sales & Distribution
+  - bo:PartnerFunction
 ---
 # I_PARTNERFUNCTION
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `parvw_unv)` | `cast(parvw` |
+| `PartnerFunction` | `cast(parvw as parvw_unv)` |
 | `SDDocumentPartnerType` | `nrart` |
 | `_Text` | *Association* |
 | `_PartnerFunctionLangDepdnt` | *Association* |

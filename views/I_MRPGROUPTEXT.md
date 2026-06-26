@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPGroup
 ---
 # I_MRPGROUPTEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `mrpgroupname preserving type)` | `cast(txt.text40` |
+| `MRPGroup` | `txt.disgr` |
+| `MRPPlant` | `txt.werks` |
+| `Language` | `txt.spras` |
+| `MRPGroupName` | `cast(txt.text40 as mrpgroupname preserving type)` |
 | `_MRPGroup` | *Association* |
 | `_MRPPlant` | *Association* |
 | `_Language` | *Association* |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsApplication
 ---
 # I_BOOAPPLICATION
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `billofoperationsapplication preserving type)` | `cast(c.plnaw` |
+| `BillOfOperationsApplication` | `cast(c.plnaw as billofoperationsapplication preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

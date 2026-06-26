@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMGovLaw` | `LglCntntMGovLaw` |
-| `key Language` | `Language` |
-| `LglCntntMGovLawText` | `LglCntntMGovLawText` |
+| `LglCntntMGovLaw` | `LglCntntMGovLaw` |
+| `Language` | `Language` |
 
 ## Associations
 

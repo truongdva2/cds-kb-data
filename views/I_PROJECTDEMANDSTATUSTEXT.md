@@ -35,9 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
+| `ProjectDemandStatus` | `status` |
+| `Language` | `langu` |
 | `ProjectDemandStatusText` | `description` |
 | `_Status` | *Association* |
 | `_Language` | *Association* |
@@ -46,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Status` | `I_ProjectDemandStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

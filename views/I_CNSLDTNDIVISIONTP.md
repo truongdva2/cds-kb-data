@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnDivision.Division` | `_CnsldtnDivision.Division` |
-| `_CnsldtnDivision.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnDivisionTextTP` | *Association* |
+| `Division` | `_CnsldtnDivision.Division` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnDivision.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

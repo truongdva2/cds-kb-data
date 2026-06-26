@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationRateTableUUID` | `TransportationRateTableUUID` |
+| `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TranspCalculationSheetUUID` | `TranspCalculationSheetUUID` |
 | `TranspCalcSheetItemUUID` | `TranspCalcSheetItemUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
@@ -41,10 +41,6 @@ tags:
 | `TranspChargeType` | `TranspChargeType` |
 | `TranspRateTableSignType` | `TranspRateTableSignType` |
 | `TranspRateTableTimeZone` | `TranspRateTableTimeZone` |
-| `FreightAgreementRateTable._FreightAgreement          : redirected to I_FreightAgreementTP` | `FreightAgreementRateTable._FreightAgreement          : redirected to I_FreightAgreementTP` |
-| `FreightAgreementRateTable._FrtAgrmtCalcSheetItem     : redirected to parent I_FrtAgrmtCalcSheetItemTP` | `FreightAgreementRateTable._FrtAgrmtCalcSheetItem     : redirected to parent I_FrtAgrmtCalcSheetItemTP` |
-| `FreightAgreementRateTable._FrtAgrmtRateTableScaleRef : redirected to composition child I_FrtAgrmtRateTableScaleRefTP` | `FreightAgreementRateTable._FrtAgrmtRateTableScaleRef : redirected to composition child I_FrtAgrmtRateTableScaleRefTP` |
-| `FreightAgreementRateTable._FrtAgrmtRateTableValidity : redirected to composition child I_FrtAgrmtRateTableValidityTP` | `FreightAgreementRateTable._FrtAgrmtRateTableValidity : redirected to composition child I_FrtAgrmtRateTableValidityTP` |
 
 ## Associations
 

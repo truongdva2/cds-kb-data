@@ -17,6 +17,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinConditionConditionCategory
 ---
 # I_FINCNDNCONDITIONCATEGORYTEXT
 
@@ -34,7 +35,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `ftr_cndn_condition_category preserving type )` | `cast( sbktyp` |
+| `FinConditionConditionCategory` | `cast( sbktyp as ftr_cndn_condition_category preserving type )` |
 | `FinCndnConditionCategoryName` | `xbktyp` |
 | `_Language` | *Association* |
 | `_ConditionCategory` | *Association* |

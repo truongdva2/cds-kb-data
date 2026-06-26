@@ -33,7 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 80 }]` | `position: 80 }]` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ProfitCenterStandardHierarchy` | `ProfitCenterStandardHierarchy` |
+| `ProfitCenterName` | `_Text[1:Language=$session.system_language].ProfitCenterName` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ProfitCtrResponsiblePersonName` | `ProfitCtrResponsiblePersonName` |
 | `Segment` | `Segment` |
 | `_ControllingArea` | *Association* |
 | `_Segment` | *Association* |
@@ -47,6 +53,7 @@ tags:
 |---|---|---|
 | `_ControllingAreaText` | `I_ControllingArea` | [1..1] |
 | `_SegmentText` | `I_SegmentText` | [0..*] |
+| `_Text` | `I_ProfitCenterText` | [0..*] |
 | `_ProfitCenterExt` | `E_ProfitCenter` | [0..1] |
 
 ## Source Code

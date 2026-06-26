@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ManufacturingOrderImportance
 ---
 # I_MANUFACTURINGORDERIMPORTANCE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key ManufacturingOrderImportance` | `ManufacturingOrderImportance` |
+| `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
+| `ManufacturingOrderImportance` | `ManufacturingOrderImportance` |
 | `_MfgOrderCategory` | *Association* |
 
 ## Associations

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vlstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `DistrStatusByDecentralizedWrhs` | `cast(left(dd07l.domvalue_l, 1 ) as vlstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

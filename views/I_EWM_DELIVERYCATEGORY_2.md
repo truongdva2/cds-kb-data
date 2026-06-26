@@ -15,6 +15,7 @@ tags:
   - delivery
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:EWMDeliveryDocumentCategory
 ---
 # I_EWM_DELIVERYCATEGORY_2
 

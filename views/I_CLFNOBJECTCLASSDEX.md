@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassificationObjectClass
 ---
 # I_CLFNOBJECTCLASSDEX
 
@@ -30,21 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectHeader.ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
-| `key ObjectClassBasic.ClassInternalID` | `ObjectClassBasic.ClassInternalID` |
-| `key ObjectClassBasic.ClassType` | `ObjectClassBasic.ClassType` |
-| `key ObjectClassBasic.ClfnObjectType` | `ObjectClassBasic.ClfnObjectType` |
-| `key ObjectClassBasic.TimeIntervalNumber` | `ObjectClassBasic.TimeIntervalNumber` |
-| `ObjectHeader.ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
-| `ObjectClassBasic.ClfnStatus` | `ObjectClassBasic.ClfnStatus` |
-| `ObjectClassBasic.ClassPositionNumber` | `ObjectClassBasic.ClassPositionNumber` |
-| `ObjectClassBasic.ClassIsStandardClass` | `ObjectClassBasic.ClassIsStandardClass` |
-| `ObjectClassBasic.BOMIsRecursive` | `ObjectClassBasic.BOMIsRecursive` |
-| `ObjectClassBasic.IsDeleted` | `ObjectClassBasic.IsDeleted` |
-| `ObjectClassBasic.ChangeNumber` | `ObjectClassBasic.ChangeNumber` |
-| `ObjectClassBasic.ValidityStartDate` | `ObjectClassBasic.ValidityStartDate` |
-| `ObjectClassBasic.ValidityEndDate` | `ObjectClassBasic.ValidityEndDate` |
-| `ObjectHeader.LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
+| `ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
+| `ClassInternalID` | `ObjectClassBasic.ClassInternalID` |
+| `ClassType` | `ObjectClassBasic.ClassType` |
+| `ClfnObjectType` | `ObjectClassBasic.ClfnObjectType` |
+| `TimeIntervalNumber` | `ObjectClassBasic.TimeIntervalNumber` |
+| `ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
+| `ClfnStatus` | `ObjectClassBasic.ClfnStatus` |
+| `ClassPositionNumber` | `ObjectClassBasic.ClassPositionNumber` |
+| `ClassIsStandardClass` | `ObjectClassBasic.ClassIsStandardClass` |
+| `BOMIsRecursive` | `ObjectClassBasic.BOMIsRecursive` |
+| `IsDeleted` | `ObjectClassBasic.IsDeleted` |
+| `ChangeNumber` | `ObjectClassBasic.ChangeNumber` |
+| `ValidityStartDate` | `ObjectClassBasic.ValidityStartDate` |
+| `ValidityEndDate` | `ObjectClassBasic.ValidityEndDate` |
+| `LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
 | `_Class` | *Association* |
 
 ## Associations

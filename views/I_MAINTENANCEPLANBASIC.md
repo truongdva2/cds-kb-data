@@ -31,10 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH'` | `name: 'I_Customer_VH'` |
-| `element: 'Customer'` | `element: 'Customer'` |
-| `}` | `}` |
-| `}]` | `}]` |
+| `MaintenancePlan` | `mpla.warpl` |
+| `MaintenancePlanDesc` | `mpla.wptxt` |
+| `CreationDate` | `mpla.ersdt` |
+| `CreatedByUser` | `mpla.ernam` |
+| `LastChangeDate` | `mpla.aedat` |
+| `LastChangedByUser` | `mpla.aenam` |
+| `MaintenanceStrategy` | `mpla.strat` |
+| `SchedulingDuration` | `mpla.abrho` |
+| `Equipment` | `mpla.equnr` |
+| `FunctionalLocation` | `mpla.tplnr` |
 | `Customer` | `mpla.kunum` |
 | `NumberOfMaintenanceItems` | `mpla.anzps` |
 | `Language` | `mpla.langu` |
@@ -56,7 +62,7 @@ tags:
 | `EarlyCompletionShiftInPercent` | `mpla.vsneg` |
 | `LateCompletionTolerancePercent` | `mpla.topos` |
 | `EarlyCompletionTolerancePct` | `mpla.toneg` |
-| `eam_cc_callhorizon_calc_type preserving type)` | `cast (mpla.horiz_qualifier` |
+| `MaintenanceCallHorizonCalcType` | `cast (mpla.horiz_qualifier as eam_cc_callhorizon_calc_type preserving type)` |
 | `MaintPlanLogicalOperatorCode` | `mpla.andor` |
 | `MultipleCounterPlanShiftFactor` | `mpla.mcp_sf` |
 | `MaintPlanStartCntrReadingValue` | `mpla.szaeh` |
@@ -66,11 +72,10 @@ tags:
 | `SchedulingEndDate` | `mpla.enddt_for_sched` |
 | `MaintenanceLeadFloatInDays` | `mpla.puffp` |
 | `MaintPlnStrtBufDurationInDays` | `mpla.tgoon` |
-| `hunit)` | `cast('TAG'` |
+| `MaintPlanStartBufferUnit` | `cast('TAG' as hunit)` |
 | `PrdcssrCallObjCompltnIsRqd` | `mpla.call_confirm` |
 | `MaintenancePlanHasLongText` | `mpla.ltknz` |
-| `_MaintenancePlanCatParam.MaintenancePlanCallObject                         as MaintenancePlanCallObject` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `MaintenancePlanCallObject` | `_MaintenancePlanCatParam.MaintenancePlanCallObject` |
 | `_StatusObjectActiveStatus` | *Association* |
 | `_Customer` | *Association* |
 | `_Equipment` | *Association* |
@@ -115,7 +120,6 @@ tags:
 | `_MaintenancePlanSortField` | `I_MaintenancePlanSortField` | [0..1] |
 | `_MaintPlanStartBufferUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_MaintenancePlanExtension` | `E_MaintenancePlan` | [0..1] |
-| `_CallHorizonUnit` | `ZI_MaintPlanCallHorizonTypeTex` | [1..1] |
 
 ## Source Code
 

@@ -30,8 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_IndustryTypeVH', element: 'IndustryType'} }` | `name: 'I_IndustryTypeVH', element: 'IndustryType'} }` |
-| `]` | `]` |
+| `Customer` | `kunnr` |
+| `TaxInvcNmbrValidityStartDate` | `datab` |
+| `TaxNumber1` | `stcd1` |
+| `TaxNumber2` | `stcd2` |
+| `BusinessType` | `gestyp` |
 | `IndustryType` | `indtyp` |
 | `TaxInvoiceRepresentativeName` | `repres` |
 | `CustomerBusinessPlace` | `business_place` |

@@ -36,14 +36,14 @@ tags:
 | `FindingSubObjectName` | `ATCExemptionsAll.subobjname` |
 | `FindingChecksumVersion` | `ATCExemptionsAll.checksum_version` |
 | `FindingChecksum` | `ATCExemptionsAll.checksum` |
-| `I_SATC_API_OBJECT_SCOPE preserving type )` | `cast( ATCExemptionsAll.object_scope` |
-| `I_SATC_API_CHECK_SCOPE preserving type )` | `cast( ATCExemptionsAll.check_scope` |
+| `FindingObjectScope` | `cast( ATCExemptionsAll.object_scope as I_SATC_API_OBJECT_SCOPE preserving type )` |
+| `CheckScope` | `cast( ATCExemptionsAll.check_scope as I_SATC_API_CHECK_SCOPE preserving type )` |
 | `CheckClass` | `ATCExemptionsAll.chkclass` |
 | `CheckCode` | `ATCExemptionsAll.chkcode` |
 | `ExemptionValidRelease` | `ATCExemptionsAll.valid_release` |
 | `ExemptionValidUntil` | `ATCExemptionsAll.valid_until` |
-| `I_SATC_API_EXEMPTION_STATE_C1 preserving type )` | `cast( ATCExemptionsAll.state` |
-| `I_SATC_API_EXEMPTION_STATE_C1 preserving type )` | `cast( ATCExemptionsAll.prev_state` |
+| `ExemptionState` | `cast( ATCExemptionsAll.state as I_SATC_API_EXEMPTION_STATE_C1 preserving type )` |
+| `ExemptionPreviousState` | `cast(…)` |
 | `ExemptionApplicant` | `ATCExemptionsAll.applicant` |
 | `ExemptionApplicantComment` | `ATCExemptionsAll.appl_comment` |
 | `ExemptionApplicantLastChgdOn` | `ATCExemptionsAll.appl_last` |

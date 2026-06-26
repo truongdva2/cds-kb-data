@@ -30,20 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpratetable_uuid preserving type)` | `cast(db_key` |
+| `TransportationRateUUID` | `cast(db_key as /scmtms/transpratetable_uuid preserving type)` |
 | `TransportationRate` | `rate_id` |
-| `/scmtms/vdm_tm_tstmp_cht preserving type)` | `cast(changed_on` |
-| `log_created_on preserving type)` | `cast(created_on` |
-| `vdm_lastchangedbyuserid preserving type)` | `cast(changed_by` |
-| `vdm_createdbyuserid preserving type)` | `cast(created_by` |
-| `/scmtms/vdm_rt_value_type preserving type)` | `cast(val_indicator` |
+| `ChangedDateTime` | `cast(changed_on as /scmtms/vdm_tm_tstmp_cht preserving type)` |
+| `CreationDateTime` | `cast(created_on as log_created_on preserving type)` |
+| `LastChangedByUser` | `cast(changed_by as vdm_lastchangedbyuserid preserving type)` |
+| `CreatedByUser` | `cast(created_by as vdm_createdbyuserid preserving type)` |
+| `TransportationRateValueType` | `cast(val_indicator as /scmtms/vdm_rt_value_type preserving type)` |
 | `TranspChargeType` | `tcet` |
-| `/scmtms/transpcalcsheet_uuid preserving type)` | `cast(owner_key` |
+| `TranspCalculationSheetUUID` | `cast(owner_key as /scmtms/transpcalcsheet_uuid preserving type)` |
 | `TranspChargeUsage` | `tcusagecd085` |
-| `/scmtms/vdm_rt_tzone preserving type)` | `cast(timezone` |
+| `TranspRateTableTimeZone` | `cast(timezone as /scmtms/vdm_rt_tzone preserving type)` |
 | `TransportationRateType` | `rate_tab_type` |
-| `_TranspChargeType.TranspRateSignType                             as TranspRateSignType` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `TranspRateSignType` | `_TranspChargeType.TranspRateSignType` |
 | `_TranspRateTableOrganization` | *Association* |
 | `_TranspRateScaleRef` | *Association* |
 | `_TranspRateValidity` | *Association* |
@@ -59,6 +58,10 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspRateTableOrganization` | `I_TranspRateTableOrganization` | [0..*] |
+| `_TranspRateTableText` | `I_TranspRateTableDescription_2` | [0..1] |
+| `_TranspRateScaleRef` | `I_TranspRateScaleReference` | [0..*] |
+| `_TranspRateValidity` | `I_TransportationRateValidity_2` | [0..*] |
 | `_TranspCalcSheetItem` | `I_TranspChrgCalcSheetItem` | [1..1] |
 | `_TranspChargeType` | `I_TranspChargeType` | [1..1] |
 | `_TranspRateTableCreatedBy` | `I_User` | [0..1] |

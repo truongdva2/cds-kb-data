@@ -16,6 +16,7 @@ tags:
   - contract
   - component:MM-PUR-OA-CON-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContractType
 ---
 # I_PURCHASECONTRACTTYPE
 

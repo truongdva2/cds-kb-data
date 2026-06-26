@@ -17,6 +17,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeFiscalDocumentPartner
 ---
 # I_BR_CTEFISCALDOCPARTNERTEXT
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_CTeFiscalDocumentPartner` | `cast(…)` |
 | `BR_CTeFiscalDocPartnerDesc` | `ddtext` |
 | `_BR_CTeFiscalDocPartner` | *Association* |
 | `_Language` | *Association* |

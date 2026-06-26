@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:TechObjIsEquipOrFuncnlLoc
 ---
 # I_TECHOBJISEQUIPORFUNCNLLOC
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eams_tec_obj_type_value )` | `cast( dd07l.domvalue_l` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast( dd07l.domvalue_l as eams_tec_obj_type_value )` |
 | `_Text` | *Association* |
 
 ## Associations

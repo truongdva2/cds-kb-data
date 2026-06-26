@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CalendarMonth` | `CalendarMonth` |
+| `CalendarMonth` | `CalendarMonth` |
 | `_Text` | *Association* |
 
 ## Associations

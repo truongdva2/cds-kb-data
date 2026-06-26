@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsRcvdShipmentContainer
 ---
 # I_FLDLOGSRCVDPACKGGINCTNTP
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerID` | `FldLogsContainerID` |
-| `key DispatchedStartDate` | `DispatchedStartDate` |
-| `key FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
-| `key NumberOfCtnTripsPerDay` | `NumberOfCtnTripsPerDay` |
+| `FldLogsContainerID` | `FldLogsContainerID` |
+| `DispatchedStartDate` | `DispatchedStartDate` |
+| `FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
+| `NumberOfCtnTripsPerDay` | `NumberOfCtnTripsPerDay` |
 | `FldLogsShipmentID` | `FldLogsShipmentID` |
 | `FldLogsCtnProcessingStartDate` | `FldLogsCtnProcessingStartDate` |
 | `FldLogsCtnProcessingEndDate` | `FldLogsCtnProcessingEndDate` |
@@ -71,7 +72,6 @@ tags:
 | `FldLogsContainerItemStatus` | `FldLogsContainerItemStatus` |
 | `FldLogsContainerStatus` | `FldLogsContainerStatus` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
-| `_CtnList : redirected to parent I_FldLogsRcvdContainerListTP` | *Association* |
 
 ## Associations
 

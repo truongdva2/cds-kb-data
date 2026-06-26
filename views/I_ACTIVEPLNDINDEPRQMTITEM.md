@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:WorkingDayDate
 ---
 # I_ACTIVEPLNDINDEPRQMTITEM
 
@@ -30,24 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key pbed.PlndIndepRqmtInternalID` | `pbed.PlndIndepRqmtInternalID` |
-| `key pbed.WorkingDayDate` | `pbed.WorkingDayDate` |
-| `cast( case pbed.ForecastPeriodType` | `cast( case pbed.ForecastPeriodType` |
-| `when '1' then 'D'` | `when '1' then 'D'` |
-| `when '2' then 'W'` | `when '2' then 'W'` |
-| `when '3' then 'M'` | `when '3' then 'M'` |
-| `when '4' then 'P'` | `when '4' then 'P'` |
-| `when '5' then 'C'` | `when '5' then 'C'` |
-| `pph_period_type preserving type)` | `end` |
-| `pbed.LastChangedByUser` | `pbed.LastChangedByUser` |
-| `pbed.LastChangeDate` | `pbed.LastChangeDate` |
-| `pbed.BaseUnit` | `pbed.BaseUnit` |
-| `pbed.PlannedQuantity` | `pbed.PlannedQuantity` |
-| `pbed.WithdrawalQuantity` | `pbed.WithdrawalQuantity` |
+| `PlndIndepRqmtInternalID` | `pbed.PlndIndepRqmtInternalID` |
+| `WorkingDayDate` | `pbed.WorkingDayDate` |
+| `PeriodType` | `cast(…)` |
+| `LastChangedByUser` | `pbed.LastChangedByUser` |
+| `LastChangeDate` | `pbed.LastChangeDate` |
+| `BaseUnit` | `pbed.BaseUnit` |
+| `PlannedQuantity` | `pbed.PlannedQuantity` |
+| `WithdrawalQuantity` | `pbed.WithdrawalQuantity` |
 | `_ActivePlndIndepRqmt` | *Association* |
 | `_PeriodType` | *Association* |
-| `pbed._UnitOfMeasure` | `pbed._UnitOfMeasure` |
-| `pbed._LastChangedByUser` | `pbed._LastChangedByUser` |
+| `_UnitOfMeasure` | *Association* |
+| `_LastChangedByUser` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PayRelatedCashFlowRecordUUID` | `PayRelatedCashFlowRecordUUID` |
+| `PayRelatedCashFlowRecordUUID` | `PayRelatedCashFlowRecordUUID` |
 | `REConditionUUID` | `REConditionUUID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `REDocumentReferenceUUID` | `REDocumentReferenceUUID` |
@@ -45,22 +45,13 @@ tags:
 | `LastChangeTime` | `LastChangeTime` |
 | `RESourceOfChange` | `RESourceOfChange` |
 | `CalculationPeriodStartDate` | `CalculationPeriodStartDate` |
-| `case when CalcPeriodStartDateIsExclusive = '0'` | `case when CalcPeriodStartDateIsExclusive = '0'` |
-| `recdvdmcalcstartexcl )` | `then cast ( ' '` |
-| `recdvdmcalcstartexcl )` | `else cast ( 'X'` |
-| `CalcPeriodStartDateIsExclusive` | `end` |
+| `CalcPeriodStartDateIsExclusive` | `case…end` |
 | `CalcPeriodStartDateIsMonthEnd` | `CalcPeriodStartDateIsMonthEnd` |
 | `CalculationPeriodEndDate` | `CalculationPeriodEndDate` |
-| `case when CalcPeriodEndDateIsInclusive = '0'` | `case when CalcPeriodEndDateIsInclusive = '0'` |
-| `recdvdmcalcendincl )` | `then cast ( ' '` |
-| `recdvdmcalcendincl )` | `else cast ( 'X'` |
-| `CalcPeriodEndDateIsInclusive` | `end` |
+| `CalcPeriodEndDateIsInclusive` | `case…end` |
 | `CalcPeriodEndDateIsMonthEnd` | `CalcPeriodEndDateIsMonthEnd` |
 | `CalculationDate` | `CalculationDate` |
-| `case when CalcDateIsAsEndDateInclusive = '0'` | `case when CalcDateIsAsEndDateInclusive = '0'` |
-| `recdvdmcalcendincl )` | `then cast ( ' '` |
-| `recdvdmcalcendincl )` | `else cast ( 'X'` |
-| `CalcDateIsAsEndDateInclusive` | `end` |
+| `CalcDateIsAsEndDateInclusive` | `case…end` |
 | `CalculationDateIsMonthEnd` | `CalculationDateIsMonthEnd` |
 | `PaymentDueDate` | `PaymentDueDate` |
 | `DueDateIsMonthEnd` | `DueDateIsMonthEnd` |
@@ -70,26 +61,17 @@ tags:
 | `InterestBaseDaysMethod` | `InterestBaseDaysMethod` |
 | `InterestCalculationMethod` | `InterestCalculationMethod` |
 | `REBeginOfPeriodDate` | `REBeginOfPeriodDate` |
-| `case when PeriodStartDateIsExclusive = '0'` | `case when PeriodStartDateIsExclusive = '0'` |
-| `recdvdmperiodstartexcl )` | `then cast ( ' '` |
-| `recdvdmperiodstartexcl )` | `else cast ( 'X'` |
-| `PeriodStartDateIsExclusive` | `end` |
+| `PeriodStartDateIsExclusive` | `case…end` |
 | `PeriodStartDateIsMonthEnd` | `PeriodStartDateIsMonthEnd` |
 | `REEndOfPeriodDate` | `REEndOfPeriodDate` |
-| `case when PeriodEndDateIsInclusive = '0'` | `case when PeriodEndDateIsInclusive = '0'` |
-| `recdvdmperiodendincl )` | `then cast ( ' '` |
-| `recdvdmperiodendincl )` | `else cast ( 'X'` |
-| `PeriodEndDateIsInclusive` | `end` |
+| `PeriodEndDateIsInclusive` | `case…end` |
 | `PeriodEndDateIsMonthEnd` | `PeriodEndDateIsMonthEnd` |
 | `REConditionCurrency` | `REConditionCurrency` |
 | `REUnitPrice` | `REUnitPrice` |
 | `REProRataMethod` | `REProRataMethod` |
 | `REPaymentStatus` | `REPaymentStatus` |
 | `CashFlowConditionGroup` | `CashFlowConditionGroup` |
-| `case when _REFlowType.DebitCreditCode = 'H'` | `case when _REFlowType.DebitCreditCode = 'H'` |
-| `then RECashFlowPositionAmount * ( -1 )` | `then RECashFlowPositionAmount * ( -1 )` |
-| `else RECashFlowPositionAmount` | `else RECashFlowPositionAmount` |
-| `RECashFlowPositionAmount` | `end` |
+| `RECashFlowPositionAmount` | `case…end` |
 | `RETaxType` | `RETaxType` |
 | `RETaxGroup` | `TaxGroup` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
@@ -133,8 +115,8 @@ tags:
 | `CompanyCode` | `CompanyCode` |
 | `CashPlanningGroup` | `CashPlanningGroup` |
 | `RECurrencyTranslationRule` | `RECurrencyTranslationRule` |
-| `kurrf_not_converted preserving type )` | `cast( ExchangeRate` |
-| `kurrf_not_converted preserving type )` | `cast( REOriginExchangeRate` |
+| `ExchangeRate` | `cast( ExchangeRate as kurrf_not_converted preserving type )` |
+| `REOriginExchangeRate` | `cast( REOriginExchangeRate as kurrf_not_converted preserving type )` |
 | `REIsPostInConditionCurrency` | `REIsPostInConditionCurrency` |
 | `REPlndTranslationDate` | `REPlndTranslationDate` |
 | `REActlTranslationDate` | `REActlTranslationDate` |

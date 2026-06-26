@@ -33,19 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key partner.PurchaseOrder` | `partner.PurchaseOrder` |
-| `key partner.PurchasingOrganization` | `partner.PurchasingOrganization` |
-| `key SupplierSubrange` | `SupplierSubrange` |
-| `key Plant` | `Plant` |
-| `parvw preserving type )` | `cast ( PartnerFunction` |
-| `key PartnerCounter` | `PartnerCounter` |
-| `partner.CreatedByUser` | `partner.CreatedByUser` |
-| `partner.CreationDate` | `partner.CreationDate` |
-| `partner.Supplier` | `partner.Supplier` |
+| `PurchaseOrder` | `partner.PurchaseOrder` |
+| `PurchasingOrganization` | `partner.PurchasingOrganization` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `Plant` | `Plant` |
+| `PartnerFunction` | `cast ( PartnerFunction as parvw preserving type )` |
+| `PartnerCounter` | `PartnerCounter` |
+| `CreatedByUser` | `partner.CreatedByUser` |
+| `CreationDate` | `partner.CreationDate` |
+| `Supplier` | `partner.Supplier` |
 | `SupplierHierarchyCategory` | `SupplierHierarchyCategory` |
 | `SupplierContact` | `SupplierContact` |
 | `EmploymentInternalID` | `EmploymentInternalID` |
-| `DefaultPartner, // default for a particular partner function, checkbox on partner tab in ME21N` | `DefaultPartner, // default for a particular partner function, checkbox on partner tab in ME21N` |
+| `DefaultPartner` | `DefaultPartner` |
 | `_PurchaseOrder` | *Association* |
 
 ## Associations

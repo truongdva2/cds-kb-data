@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_BusinessTransactionCategory.BusinessTransactionCategory` | `I_BusinessTransactionCategory.BusinessTransactionCategory` |
+| `BusinessTransactionCategory` | `I_BusinessTransactionCategory.BusinessTransactionCategory` |
 | `_Text` | *Association* |
 
 ## Associations

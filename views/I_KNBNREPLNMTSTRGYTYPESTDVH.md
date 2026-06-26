@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanReplenishmentStrgyType
 ---
 # I_KNBNREPLNMTSTRGYTYPESTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanReplenishmentStrgyType` | `KanbanReplenishmentStrgyType` |
+| `KanbanReplenishmentStrgyType` | `KanbanReplenishmentStrgyType` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EventbasedProductCostgErrorID` | `EventbasedProductCostgErrorID` |
+| `EventbasedProductCostgErrorID` | `EventbasedProductCostgErrorID` |
 | `CompanyCode` | `CompanyCode` |
 | `SystemMessageClass` | `SystemMessageClass` |
 | `SystemMessageNumber` | `SystemMessageNumber` |
-| `le_msg_text)` | `cast ( Text` |
+| `LogMessageText` | `cast ( Text as le_msg_text)` |
 
 ## Associations
 

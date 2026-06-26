@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_koart )` | `cast( substring( domvalue_l, 1, 1)` |
-| `spras )` | `cast( ddlanguage` |
-| `fis_fin_acc_type_name)` | `cast(ddtext` |
+| `FinancialAccountType` | `cast( substring( domvalue_l, 1, 1) as farp_koart )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `FinancialAccountTypeName` | `cast(ddtext as fis_fin_acc_type_name)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_Language` | *Association* |
 

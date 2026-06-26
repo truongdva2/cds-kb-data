@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ptitm_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `ptitm_text_kk preserving type )` | `cast( ddtext` |
+| `CAPartnerSettlementStatus` | `cast( left( dd07t.domvalue_l, 1 ) as ptitm_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAPartnerSettlementStatusName` | `cast( ddtext as ptitm_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

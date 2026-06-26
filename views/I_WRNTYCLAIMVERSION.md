@@ -31,17 +31,17 @@ tags:
 |---|---|
 | `WrntyVersionUUID` | `pnguid` |
 | `WrntyClaimHeaderUUID` | `header_guid` |
-| `wty_versn   preserving type )` | `cast(versn` |
+| `WrntyVersionNumber` | `cast(versn as wty_versn preserving type )` |
 | `WarrantyClaimVersionCategory` | `kateg` |
 | `WrntyDecisionCode` | `v_rejcd` |
 | `WarrantyClaimVersionPartner` | `v_parnr` |
-| `parvw_unv preserving type )` | `cast(v_parvw` |
+| `WrntyClaimVersionPartnerRole` | `cast(v_parvw as parvw_unv preserving type )` |
 | `WarrantyClaimVersionIsActive` | `aktiv` |
 | `WrntyBillingDocumentDate` | `fkdat` |
 | `WrntyDocumentCondition` | `knumv` |
 | `WrntyCurrencyCode` | `v_crncy` |
 | `WrntyPriceExchangeRateDate` | `prsdt` |
-| `fis_absolute_exchangerate preserving type)` | `cast(kursk` |
+| `WrntyExchangeRateForPrice` | `cast(kursk as fis_absolute_exchangerate preserving type)` |
 | `WrntyNumberPrecedingVersion` | `prev_version` |
 | `SalesOrganization` | `vkorg` |
 | `DistributionChannel` | `vtweg` |
@@ -57,8 +57,8 @@ tags:
 | `LastChangedByUser` | `chngby` |
 | `WarrantyClaimVersionText` | `pntext` |
 | `WarrantyVersionRprstvID` | `vers_representativeid` |
-| `_WrntyClaimHeader.WrntyCustClmProcessingStatus` | *Association* |
-| `_WrntyClaimHeader.WrntySuplrClmProcessingStatus` | *Association* |
+| `WrntyCustClmProcessingStatus` | `_WrntyClaimHeader.WrntyCustClmProcessingStatus` |
+| `WrntySuplrClmProcessingStatus` | `_WrntyClaimHeader.WrntySuplrClmProcessingStatus` |
 | `_WrntyClaimHeader` | *Association* |
 | `_Header` | *Association* |
 | `_WrntyClaimItem` | *Association* |
@@ -80,8 +80,6 @@ tags:
 | `_WrntyClaimItem` | `I_WrntyClaimItem` | [1..*] |
 | `_LastChangedByUser` | `I_UserContactCard` | [1..1] |
 | `_CreatedByUser` | `I_UserContactCard` | [1..1] |
-| `_Text` | `I_WrntyClaimCategoryText` | [1..*] |
-| `_Text` | `I_WrntyClaimVersionCategoryTxt` | [1..*] |
 | `_Customer` | `I_Customer` | [0..1] |
 | `_Supplier` | `I_Supplier` | [1..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |

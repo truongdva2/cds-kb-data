@@ -29,15 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key SubscrpnBillgSubscription` | `SubscrpnBillgSubscription` |
-| `key SubscrpnBillgSubscriptionItem` | `SubscrpnBillgSubscriptionItem` |
-| `/*    @Semantics.uuid: true` | `/*    @Semantics.uuid: true` |
-| `ServiceDocumentItmRelationUUID` | `ServiceDocumentItmRelationUUID` |
-| `BusSolnOrderItemCharUUID,*/` | `BusSolnOrderItemCharUUID,*/` |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SubscrpnBillgSubscription` | `SubscrpnBillgSubscription` |
+| `SubscrpnBillgSubscriptionItem` | `SubscrpnBillgSubscriptionItem` |
 
 ## Associations
 

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalTemplatePartyUUID` | `SuplrEvalTemplatePartyUUID` |
+| `SuplrEvalTemplatePartyUUID` | `SuplrEvalTemplatePartyUUID` |
 | `SuplrEvalTemplateUUID` | `SuplrEvalTemplateUUID` |
 | `UserID` | `UserID` |
 | `EmailAddress` | `EmailAddress` |

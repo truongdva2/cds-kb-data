@@ -29,11 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH' , element:'Product'}, useAsTemplate: true  }]` | `name: 'I_ProductStdVH' , element:'Product'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `SerialNumber` | `SerialNumber` |
+| `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
+| `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
 | `SrvcRefObjIsMainObject` | `SrvcRefObjIsMainObject` |
-| `_BusinessSolutionOrder     : redirected to I_BusinessSolutionOrderTP` | *Association* |
-| `_BusinessSolutionOrderItem : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
 | `_EquipmentText` | *Association* |
 | `_FunctionalLocationText` | *Association* |
 | `_ProductText` | *Association* |

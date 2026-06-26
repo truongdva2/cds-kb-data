@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfstk preserving type )` | `cast (substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallSDDocReferenceStatus` | `cast (substring(dd07l.domvalue_l, 1, 1) as rfstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

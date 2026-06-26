@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:IndependentRequirementType
 ---
 # I_INDEPENDENTREQUIREMENTTYPE
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_bedar preserving type)` | `cast(typ.bedar` |
+| `IndependentRequirementType` | `cast(typ.bedae as vdm_bedae preserving type)` |
+| `IndependentRequirementClass` | `cast(typ.bedar as vdm_bedar preserving type)` |
 | `_Text` | *Association* |
 | `_RequirementClass` | *Association* |
 

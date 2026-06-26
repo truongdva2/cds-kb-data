@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:OptionPutCallCode
 ---
 # I_OPTIONPUTCALLCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ti_sputcal)` | `cast(domvalue_l` |
+| `OptionPutCallCode` | `cast(domvalue_l as ti_sputcal)` |
 | `_Text` | *Association* |
 
 ## Associations

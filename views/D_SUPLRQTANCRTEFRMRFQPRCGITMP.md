@@ -29,14 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConditionType      : kscha;` | `ConditionType      : kscha;` |
-| `ConditionRateValue : kbetr;` | `ConditionRateValue : kbetr;` |
-| `ConditionCurrency  : waers;` | `ConditionCurrency  : waers;` |
-| `_DummyAssociation : association to parent D_SuplrQtanCrteFrmRFQItemP;` | *Association* |
+| `ConditionType` | `kscha` |
+| `ConditionRateValue` | `kbetr` |
+| `ConditionCurrency` | `waers` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_SuplrQtanCrteFrmRFQItemP` | — |
 
 ## Source Code
 

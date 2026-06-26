@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-RA-2CL
   - lob:Other
+  - bo:REInvoiceNumber
 ---
 # I_REINVOICEDATA
 
@@ -30,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key REInvoiceNumber` | `REInvoiceNumber` |
-| `key FiscalYear` | `FiscalYear` |
+| `CompanyCode` | `CompanyCode` |
+| `REInvoiceNumber` | `REInvoiceNumber` |
+| `FiscalYear` | `FiscalYear` |
 | `REInvoiceUUID` | `REInvoiceUUID` |
 | `REProcessUUID` | `REProcessUUID` |
-| `_REContract.REContractType` | *Association* |
-| `_REContract.REAuthorizationGroup` | *Association* |
+| `REContractType` | `_REContract.REContractType` |
+| `REAuthorizationGroup` | `_REContract.REAuthorizationGroup` |
 | `Partner` | `Partner` |
 | `Role` | `Role` |
 | `StatusObject` | `StatusObject` |

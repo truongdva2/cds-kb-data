@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:TM-MD-TN-LOC-2CL
   - lob:Other
+  - bo:LocationType
 ---
 # I_LOCATIONTYPE_2
 
@@ -30,14 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/sapapo/c_loctype)` | `cast(domvalue_l` |
+| `LocationType` | `cast(domvalue_l as /sapapo/c_loctype)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_LocationTypeText_2` | [0..*] |
 
 ## Source Code
 

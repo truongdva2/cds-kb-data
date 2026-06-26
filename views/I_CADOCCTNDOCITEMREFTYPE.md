@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `oprty_dc_kk preserving type )` | `cast( left( dd07l.domvalue_l, 2 )` |
+| `CADocContainerDocItemRefType` | `cast( left( dd07l.domvalue_l, 2 ) as oprty_dc_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

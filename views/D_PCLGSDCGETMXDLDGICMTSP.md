@@ -29,17 +29,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode                    : bukrs; //  char(4)  Company Code` | `CompanyCode                    : bukrs; //  char(4)  Company Code` |
-| `ProdCmplncLogsDocumentCategory : ehfnd_log_doc_category; // char(2)  Logistics Document Category` | `ProdCmplncLogsDocumentCategory : ehfnd_log_doc_category; // char(2)  Logistics Document Category` |
-| `DepartureCountry               : ehfnd_departure_country; // char(3)  Country/Region Key` | `DepartureCountry               : ehfnd_departure_country; // char(3)  Country/Region Key` |
-| `DestinationCountry             : ehfnd_destination_country; //  char(3)  Country/Region Key` | `DestinationCountry             : ehfnd_destination_country; //  char(3)  Country/Region Key` |
-| `DngrsGoodsMainModeOfTransport  : ehfnd_req_mot; //  char(10)  Mode of Transport According to Dangerous Goods Regulations` | `DngrsGoodsMainModeOfTransport  : ehfnd_req_mot; //  char(10)  Mode of Transport According to Dangerous Goods Regulations` |
-| `_TransitCountries : composition[0..*] of D_PCLgsDcGetMxdLdgIcmtsCntryP  ;  // ttyp  Transit Countires of Incompatibility Determination` | *Association* |
-| `_Products  : composition[0..*] of D_PCLgsDcGetMxdLdgIcmtsProdP ;  // ttyp  Products of Incompatibility Determination` | *Association* |
+| `CompanyCode` | `bukrs` |
+| `ProdCmplncLogsDocumentCategory` | `ehfnd_log_doc_category` |
+| `DepartureCountry` | `ehfnd_departure_country` |
+| `DestinationCountry` | `ehfnd_destination_country` |
+| `DngrsGoodsMainModeOfTransport` | `ehfnd_req_mot` |
+| `_TransitCountries` | *Association* |
+| `_Products` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransitCountries` | `D_PCLgsDcGetMxdLdgIcmtsCntryP` | [0..*] |
+| `_Products` | `D_PCLgsDcGetMxdLdgIcmtsProdP` | [0..*] |
 
 ## Source Code
 

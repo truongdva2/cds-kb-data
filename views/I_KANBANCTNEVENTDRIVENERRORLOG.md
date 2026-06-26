@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanCtnEventDrivenErrorLog
 ---
 # I_KANBANCTNEVENTDRIVENERRORLOG
 
@@ -30,22 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `KanbanContainer` | `pkkey` |
-| `_KanbanContainer._KanbanControlCycle.Plant` | *Association* |
+| `Plant` | `_KanbanContainer._KanbanControlCycle.Plant` |
 | `SystemMessageClass` | `msgid` |
 | `SystemMessageNumber` | `msgnr` |
 | `SystemMessageType` | `msgty` |
-| `vdm_pk_msg_var_1 preserving type)` | `cast(msgv1` |
-| `vdm_pk_msg_var_2 preserving type)` | `cast(msgv2` |
-| `vdm_pk_msg_var_3 preserving type)` | `cast(msgv3` |
-| `vdm_pk_msg_var_4 preserving type)` | `cast(msgv4` |
+| `SystemMessageVariable1` | `cast(msgv1 as vdm_pk_msg_var_1 preserving type)` |
+| `SystemMessageVariable2` | `cast(msgv2 as vdm_pk_msg_var_2 preserving type)` |
+| `SystemMessageVariable3` | `cast(msgv3 as vdm_pk_msg_var_3 preserving type)` |
+| `SystemMessageVariable4` | `cast(msgv4 as vdm_pk_msg_var_4 preserving type)` |
 | `ErrorOccurrenceDate` | `saedt` |
 | `ErrorOccurrenceTime` | `saeuz` |
 | `PreviousKanbanContainerStatus` | `sfgsv` |
 | `TargetKanbanContainerStatus` | `sfgsn` |
 | `_KanbanContainer` | *Association* |
-| `_KanbanContainer.Supplier` | *Association* |
+| `Supplier` | `_KanbanContainer.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 

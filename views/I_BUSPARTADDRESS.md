@@ -16,6 +16,7 @@ tags:
   - address
   - component:AP-MD-BP
   - lob:Other
+  - bo:BusinessPartnerAddress
 ---
 # I_BUSPARTADDRESS
 
@@ -37,11 +38,11 @@ tags:
 | `AddressUUID` | `BusinessPartnerAddress.address_guid` |
 | `ValidityStartDate` | `BusinessPartnerAddress.addr_valid_from` |
 | `ValidityEndDate` | `BusinessPartnerAddress.addr_valid_to` |
-| `AddressIDByExternalSystem, // added in 1802` | `BusinessPartnerAddress.adext` |
+| `AddressIDByExternalSystem` | `BusinessPartnerAddress.adext` |
 | `BPTargetAddressID` | `BusinessPartnerAddress.move_addr` |
 | `BPAddressMoveDateTime` | `BusinessPartnerAddress.addr_move_date` |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
-| `_BusinessPartner.IsBusinessPurposeCompleted` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_BusinessPartner.IsBusinessPurposeCompleted` |
 | `_BPProtectedAddress` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_AddressDefaultRepresentation` | *Association* |

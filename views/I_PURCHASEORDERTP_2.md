@@ -33,16 +33,73 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PurgProdCmplncTotDngrsGdsSts', element: 'PurgProdCmplncTotDngrsGoodsSts' }` | `name: 'I_PurgProdCmplncTotDngrsGdsSts', element: 'PurgProdCmplncTotDngrsGoodsSts' }` |
-| `useAsTemplate: true }]       //CustomUI` | `useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderType` | `PurchaseOrderType` |
+| `PurchaseOrderSubtype` | `PurchaseOrderSubtype` |
+| `PurchasingDocumentOrigin` | `PurchasingDocumentOrigin` |
+| `PurchasingDocumentProcessCode` | `PurchasingDocumentProcessCode` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `PurchaseOrderDate` | `PurchaseOrderDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `Language` | `Language` |
+| `PurchaseOrderDeletionCode` | `PurchaseOrderDeletionCode` |
+| `ReleaseIsNotCompleted` | `ReleaseIsNotCompleted` |
+| `PurchasingCompletenessStatus` | `PurchasingCompletenessStatus` |
+| `PurchasingProcessingStatus` | `PurchasingProcessingStatus` |
+| `PurgReleaseSequenceStatus` | `PurgReleaseSequenceStatus` |
+| `ReleaseCode` | `ReleaseCode` |
+| `PurchasingReleaseStrategy` | `PurchasingReleaseStrategy` |
+| `PurgReasonForDocCancellation` | `PurgReasonForDocCancellation` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `Supplier` | `Supplier` |
+| `ManualSupplierAddressID` | `ManualSupplierAddressID` |
+| `SupplierAddressID` | `SupplierAddressID` |
+| `SupplierRespSalesPersonName` | `SupplierRespSalesPersonName` |
+| `SupplierPhoneNumber` | `SupplierPhoneNumber` |
+| `SupplyingSupplier` | `SupplyingSupplier` |
+| `SupplyingPlant` | `SupplyingPlant` |
+| `InvoicingParty` | `InvoicingParty` |
+| `Customer` | `Customer` |
+| `PurchaseContract` | `PurchaseContract` |
+| `SupplierQuotationExternalID` | `SupplierQuotationExternalID` |
+| `QuotationSubmissionDate` | `QuotationSubmissionDate` |
+| `ItemNumberIntervalForSubItems` | `ItemNumberIntervalForSubItems` |
+| `PaymentTerms` | `PaymentTerms` |
+| `CashDiscount1Days` | `CashDiscount1Days` |
+| `CashDiscount2Days` | `CashDiscount2Days` |
+| `NetPaymentDays` | `NetPaymentDays` |
+| `CashDiscount1Percent` | `CashDiscount1Percent` |
+| `CashDiscount2Percent` | `CashDiscount2Percent` |
+| `DownPaymentType` | `DownPaymentType` |
+| `DownPaymentPercentageOfTotAmt` | `DownPaymentPercentageOfTotAmt` |
+| `DownPaymentAmount` | `DownPaymentAmount` |
+| `DownPaymentDueDate` | `DownPaymentDueDate` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IsIntrastatReportingRelevant` | `IsIntrastatReportingRelevant` |
+| `IsIntrastatReportingExcluded` | `IsIntrastatReportingExcluded` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `CorrespncInternalReference` | `CorrespncInternalReference` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingProcedure` | `PricingProcedure` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `ExchangeRate` | `ExchangeRate` |
+| `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
+| `TaxReturnCountry` | `TaxReturnCountry` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `PurgAggrgdProdCmplncSuplrSts` | `PurgAggrgdProdCmplncSuplrSts` |
+| `PurgAggrgdProdMarketabilitySts` | `PurgAggrgdProdMarketabilitySts` |
+| `PurgAggrgdSftyDataSheetStatus` | `PurgAggrgdSftyDataSheetStatus` |
 | `PurgProdCmplncTotDngrsGoodsSts` | `PurgProdCmplncTotDngrsGoodsSts` |
 | `PurchasingCollectiveNumber` | `PurchasingCollectiveNumber` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_SupplierAddress   : redirected to composition child I_PurchaseOrdSupplierAddrTP_2` | *Association* |
-| `_PurchaseOrderItem : redirected to composition child I_PurchaseOrderItemTP_2` | *Association* |
-| `_PurchaseOrderNote : redirected to composition child I_PurchaseOrderNoteTP_2` | *Association* |
-| `_PurchaseOrderPartner : redirected to composition child I_PurchaseOrderPartnerTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_DocumentCurrency` | *Association* |

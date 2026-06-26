@@ -35,14 +35,14 @@ tags:
 |---|---|
 | `CompanyCode` | `bsec.bukrs` |
 | `AccountingDocument` | `bsec.belnr` |
-| `fis_gjahr_no_conv preserving type )` | `cast( bsec.gjahr` |
+| `FiscalYear` | `cast( bsec.gjahr as fis_gjahr_no_conv preserving type )` |
 | `AccountingDocumentItem` | `bsec.buzei` |
-| `ad_name1)` | `cast(bsec.name1` |
-| `ad_name2)` | `cast(bsec.name2` |
-| `ad_name3)` | `cast(bsec.name3` |
-| `ad_name4)` | `cast(bsec.name4` |
+| `BusinessPartnerName1` | `cast(bsec.name1 as ad_name1)` |
+| `BusinessPartnerName2` | `cast(bsec.name2 as ad_name2)` |
+| `BusinessPartnerName3` | `cast(bsec.name3 as ad_name3)` |
+| `BusinessPartnerName4` | `cast(bsec.name4 as ad_name4)` |
 | `Country` | `bsec.land1` |
-| `ad_city1)` | `cast(bsec.ort01` |
+| `CityName` | `cast(bsec.ort01 as ad_city1)` |
 | `POBox` | `bsec.pfach` |
 | `POBoxPostalCode` | `bsec.pstl2` |
 | `PostalCode` | `bsec.pstlz` |
@@ -68,11 +68,11 @@ tags:
 | `PaymentSystem` | `bsec.payment_system` |
 | `AliasType` | `bsec.alias_type` |
 | `BPBankAccountAliasName` | `bsec.bank_alias` |
-| `bu_natural_person)` | `cast(bsec.stkzn` |
+| `IsNaturalPerson` | `cast(bsec.stkzn as bu_natural_person)` |
 | `IsOneTimeAccount` | `bsec.xcpdk` |
 | `BankControlKey` | `bkont` |
 | `OneTimeAcctCntrySpecificRef1` | `glo_re1_ot` |
-| `farp_dtaws preserving type)` | `cast(bsec.dtaws` |
+| `DataExchangeInstructionKey` | `cast(bsec.dtaws as farp_dtaws preserving type)` |
 | `DataMediumExchangeControl` | `bsec.dtams` |
 | `_CompanyCode` | *Association* |
 | `_AccountingDocument` | *Association* |

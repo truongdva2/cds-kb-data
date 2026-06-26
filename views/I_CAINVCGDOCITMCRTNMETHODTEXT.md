@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invitem_crmet_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `invitem_crmet_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAInvcgDocItemCrtnMethod` | `cast ( substring( dd07t.domvalue_l,1,1 ) as invitem_crmet_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAInvcgDocItmCrtnMethodText` | `cast ( ddtext as invitem_crmet_txt_gfn_kk preserving type )` |
 | `_CAInvcgDocItmCrtnMethod` | *Association* |
 | `_Language` | *Association* |
 

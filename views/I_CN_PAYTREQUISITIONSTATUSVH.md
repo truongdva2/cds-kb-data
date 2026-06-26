@@ -16,6 +16,7 @@ tags:
   - status
   - component:FI-LOC-CM-CN
   - lob:Finance
+  - bo:CN_PaymentRequisitionStatus
 ---
 # I_CN_PAYTREQUISITIONSTATUSVH
 
@@ -32,13 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `payreqn_reqn_status preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `PaymentRequisitionStatus` | `cast ( substring( domvalue_l, 1, 2 ) as payreqn_reqn_status preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CN_PaytRequisitionStatusText` | [0..*] |
 
 ## Source Code
 

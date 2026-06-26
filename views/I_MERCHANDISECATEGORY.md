@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MerchandiseCategory
 ---
 # I_MERCHANDISECATEGORY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdscategory preserving type   )` | `cast ( MerchandiseCategory.matkl` |
+| `MerchandiseCategory` | `cast ( MerchandiseCategory.matkl as rfm_mrchdscategory preserving type )` |
 | `AuthorizationGroup` | `MerchandiseCategory.begru` |
 | `ContactPersonStdDepartment` | `MerchandiseCategory.abtnr` |
 | `Division` | `MerchandiseCategory.spart` |
@@ -39,7 +40,6 @@ tags:
 | `ValuationClass` | `MerchandiseCategory.bklas` |
 | `LastChangeDateTime` | `MerchandiseCategory.last_changed_at` |
 | `ClassInternalID` | `MrchdsCategory.clint` |
-| `/* Associations */` | `/* Associations */` |
 | `_ProductGroup` | *Association* |
 | `_MerchandiseCategoryText` | *Association* |
 | `_MrchdsCategoryCharacteristic` | *Association* |

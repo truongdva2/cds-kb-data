@@ -31,16 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSubitemCategoryVH_2'` | `name: 'I_CnsldtnSubitemCategoryVH_2'` |
-| `element: 'CnsldtnSubitemCategory'` | `element: 'CnsldtnSubitemCategory'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key    _Hierarchy.CnsldtnSubitemCategory` | `_Hierarchy.CnsldtnSubitemCategory` |
-| `fincs_subitemhierarchy preserving type )` | `cast( _Hierarchy.CnsldtnUniversalHierarchy` |
-| `key    _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `CnsldtnSubitemCategory` | `_Hierarchy.CnsldtnSubitemCategory` |
+| `ConsolidationSubitemHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 | `_SubitemCategory` | *Association* |
 

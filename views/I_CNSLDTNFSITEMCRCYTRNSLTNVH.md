@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_CnsldtnFSItemCrcyTrnsltn._Text[1: Language=$session.system_language].CnsldtnFSItemCrcyTrnsltnText` | *Association* |
-| `_CnsldtnFSItemCrcyTrnsltn._Text[1: Language=$session.system_language].CnsldtnFSItmCrcyTrnsltnLongTxt` | *Association* |
+| `CnsldtnFSItemCrcyTranslation` | `_CnsldtnFSItemCrcyTrnsltn.CnsldtnFSItemCrcyTranslation` |
+| `CnsldtnFSItemCrcyTrnsltnText` | `expr(…)` |
+| `CnsldtnFSItmCrcyTrnsltnLongTxt` | `expr(…)` |
 
 ## Associations
 

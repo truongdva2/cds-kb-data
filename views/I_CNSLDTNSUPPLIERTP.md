@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnSupplier.Supplier` | `_CnsldtnSupplier.Supplier` |
-| `_CnsldtnSupplier.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnSupplierTextTP` | *Association* |
+| `Supplier` | `_CnsldtnSupplier.Supplier` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnSupplier.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

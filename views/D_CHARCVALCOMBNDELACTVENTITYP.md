@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CharcValCombnWthAssgmtIsDeltd : charcvalcombnwthassgmtisdeltd;` | `CharcValCombnWthAssgmtIsDeltd : charcvalcombnwthassgmtisdeltd;` |
+| `CharcValCombnWthAssgmtIsDeltd` | `charcvalcombnwthassgmtisdeltd` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invart preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PhysicalInventoryType` | `cast ( substring( domvalue_l, 1, 1 ) as invart preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -32,12 +32,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinancialServicesBranch` | `branch_id` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FinancialServicesBranchT` | [0..*] |
 
 ## Source Code
 

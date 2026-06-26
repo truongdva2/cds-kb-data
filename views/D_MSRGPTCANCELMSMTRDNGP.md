@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MsmtRdngIntervalEndDate   : imrc_idate;` | `MsmtRdngIntervalEndDate   : imrc_idate;` |
-| `MsmtRdngIntervalEndTime   : imrc_itime;` | `MsmtRdngIntervalEndTime   : imrc_itime;` |
+| `MsmtRdngIntervalEndDate` | `imrc_idate` |
+| `MsmtRdngIntervalEndTime` | `imrc_itime` |
 
 ## Associations
 

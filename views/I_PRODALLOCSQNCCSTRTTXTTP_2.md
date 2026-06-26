@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocSqncCstrtTxt
 ---
 # I_PRODALLOCSQNCCSTRTTXTTP_2
 
@@ -31,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocSqncConstraintUUID` | `ProdAllocSqncConstraintUUID` |
-| `key Language` | `Language` |
+| `ProdAllocSqncConstraintUUID` | `ProdAllocSqncConstraintUUID` |
+| `Language` | `Language` |
 | `ProdAllocSqncConstraintDesc` | `ProdAllocSqncConstraintDesc` |
 | `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
-| `_ProdAllocationSequenceTP: redirected to  I_ProdAllocationSequenceTP_2` | *Association* |
-| `_ProdAllocSqncCstrtTP: redirected to parent I_ProdAllocSqncCstrtTP_2` | *Association* |
 
 ## Associations
 

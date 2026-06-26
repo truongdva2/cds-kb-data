@@ -32,16 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
-| `key AlternativeUnit` | `AlternativeUnit` |
-| `key Supplier` | `Supplier` |
-| `key ConsecutiveNumber` | `ConsecutiveNumber` |
+| `Product` | `Product` |
+| `AlternativeUnit` | `AlternativeUnit` |
+| `Supplier` | `Supplier` |
+| `ConsecutiveNumber` | `ConsecutiveNumber` |
 | `GlobalTradeItemNumber` | `GlobalTradeItemNumber` |
 | `SuplrGTINIsMain` | `SuplrGTINIsMain` |
 | `SupplierProduct` | `SupplierProduct` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductUnitOfMeasure : redirected to parent I_ProductUnitOfMeasureTP_2` | *Association* |
-| `_Product              : redirected to I_ProductTP_2` | *Association* |
 | `_AlternativeUnit` | *Association* |
 | `_ProductDescription` | *Association* |
 | `_AlternativeUnitText` | *Association* |

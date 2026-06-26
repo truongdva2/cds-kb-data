@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Segment` | `Segment` |
-| `_Text_2[1: Language=$session.system_language].SegmentName` | *Association* |
+| `Segment` | `Segment` |
+| `SegmentName` | `_Text_2[1: Language=$session.system_language].SegmentName` |
 
 ## Associations
 

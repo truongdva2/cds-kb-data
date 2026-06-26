@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocationActivationStatus
 ---
 # I_PRODALLOCACTIVATIONSTATUST
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocationactivationstatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocationActivationStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodallocactivationstatusdesc preserving type )` | `cast( ddtext` |
-| `_ProdAllocActivationStatus, //decomment only if no problems in analytics` | *Association* |
+| `ProdAllocActivationStatusDesc` | `cast( ddtext as prodallocactivationstatusdesc preserving type )` |
+| `_ProdAllocActivationStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

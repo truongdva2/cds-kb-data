@@ -31,7 +31,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'UnitOfMeasure'} }` | `unitOfMeasure: 'UnitOfMeasure'} }` |
+| `OrderID` | `OrderID` |
+| `CompanyCode` | `CompanyCode` |
+| `ControllingArea` | `ControllingArea` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `OrderOperation` | `OrderOperation` |
+| `GLAccount` | `GLAccount` |
+| `PartnerCostCtrActivityType` | `PartnerCostCtrActivityType` |
+| `PartnerCostCenter` | `PartnerCostCenter` |
+| `Plant` | `Plant` |
+| `Product` | `Product` |
+| `UnitOfMeasure` | `UnitOfMeasure` |
+| `Ledger` | `cast( $parameters.P_Ledger as fins_ledger preserving type )` |
+| `ProducedProduct` | `ProducedProduct` |
+| `WorkCenter` | `_WorkCenter.WorkCenter` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `OrderType` | `OrderType` |
+| `OrderCategory` | `OrderCategory` |
+| `DisplayCurrency` | `DisplayCurrency` |
+| `CreditActlCostInDspCrcy` | `CreditActlCostInDspCrcy` |
+| `DebitActlCostInDspCrcy` | `DebitActlCostInDspCrcy` |
+| `CrdtActlFxdCostInDspCrcy` | `CrdtActlFxdCostInDspCrcy` |
+| `DebitActlFxdCostInDspCrcy` | `DebitActlFxdCostInDspCrcy` |
+| `ActualQtyInCostSourceUnit` | `ActualQtyInCostSourceUnit` |
+| `CrdtTargetCostInDspCrcy` | `CrdtTargetCostInDspCrcy` |
+| `DebitTargetCostInDspCrcy` | `DebitTargetCostInDspCrcy` |
 | `TargetQtyInCostSourceUnit` | `TargetQtyInCostSourceUnit` |
 | `_Order` | *Association* |
 | `_ControllingArea` | *Association* |

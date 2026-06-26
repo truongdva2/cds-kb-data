@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProjBillgElmntEntrItmUUID : pbee_uuid;` | `ProjBillgElmntEntrItmUUID : pbee_uuid;` |
+| `ProjBillgElmntEntrItmUUID` | `pbee_uuid` |
 
 ## Associations
 

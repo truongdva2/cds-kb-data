@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFIsCreatedManually
 ---
 # I_BR_NFISCREATEDMANUALLY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_manual preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFIsCreatedManually` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_manual preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

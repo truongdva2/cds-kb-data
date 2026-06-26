@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnInvestmentMethodVH'` | `name: 'I_CnsldtnInvestmentMethodVH'` |
-| `element: 'ConsolidationInvestmentMethod'` | `element: 'ConsolidationInvestmentMethod'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_Source.ConsolidationInvestmentMethod` | *Association* |
-| `_Source.AccountingTechnique` | *Association* |
-| `_Source.MethChangeIsAtBeginOfPeriod` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationUnit` | `_Source.ConsolidationUnit` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `GroupStrucFromFiscalYearPeriod` | `_Source.GroupStrucFromFiscalYearPeriod` |
+| `MethAssgmtFromFiscalYearPeriod` | `_Source.MethAssgmtFromFiscalYearPeriod` |
+| `MethAssgmtToFiscalYearPeriod` | `_Source.MethAssgmtToFiscalYearPeriod` |
+| `ConsolidationInvestmentMethod` | `_Source.ConsolidationInvestmentMethod` |
+| `AccountingTechnique` | `_Source.AccountingTechnique` |
+| `MethChangeIsAtBeginOfPeriod` | `_Source.MethChangeIsAtBeginOfPeriod` |
 | `_CnsldtnVersion` | *Association* |
 | `_CnsldtnGroup` | *Association* |
 | `_CnsldtnUnit` | *Association* |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinInstrumentActivityCategory
 ---
 # I_FININSTRACTIVITYCATEGORY
 
@@ -30,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position : 4 }]` | `position : 4 }]` |
-| `ftr_gen_activity_category)` | `cast(svgtyp` |
+| `FinancialInstrProductCategory` | `sanlfor` |
+| `FinInstrTransactionCategory` | `sfgtyp` |
+| `FinancialInstrActivityCategory` | `sfgzustt` |
+| `FinTransGenActivityCategory` | `cast(svgtyp as ftr_gen_activity_category)` |
 | `_ProductCategory` | *Association* |
 | `_TransactionCategory` | *Association* |
 | `_ActivityCategoryText` | *Association* |

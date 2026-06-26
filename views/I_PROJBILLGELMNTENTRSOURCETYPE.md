@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-BIL
   - lob:Other
+  - bo:ProjBillgElmntEntrSourceType
 ---
 # I_PROJBILLGELMNTENTRSOURCETYPE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbee_sourceid preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ProjBillgElmntEntrSourceType` | `cast( substring( domvalue_l, 1, 1 ) as pbee_sourceid preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PrjBlgElmEntrSrceTypeText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrjBlgElmEntrSrceTypeText` | `I_PrjBlgElmEntrSrceTypeText` | [0..*] |
 
 ## Source Code
 

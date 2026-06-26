@@ -17,6 +17,7 @@ tags:
   - email
   - component:CA-GTF-CSC-EDO-PAP
   - lob:Cross-Application Components
+  - bo:EU_EDocEmail
 ---
 # I_EUELECTRONICDOCEMAILVH
 
@@ -33,9 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `EU_EDocEmail` | `cast(dd07t.domvalue_l as edoc_eu_email)` |
+| `Language` | `ddlanguage` |
 | `EU_EDocEmailText` | `ddtext` |
 | `_Language` | *Association* |
 

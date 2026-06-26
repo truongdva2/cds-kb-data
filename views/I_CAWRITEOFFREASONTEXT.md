@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `CAWriteOffReason` | `abgrd` |
 | `Language` | `spras` |
-| `abgrd_text_kk preserving type )` | `cast( abtxt` |
+| `CAWriteOffReasonName` | `cast( abtxt as abgrd_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

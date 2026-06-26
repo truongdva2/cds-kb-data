@@ -14,6 +14,7 @@ tags:
   - document
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocPart
 ---
 # I_DOCUMENTINFORECORDINDSTST
 
@@ -37,7 +38,6 @@ tags:
 | `DocInfoRecdIsMarkedForDeletion` | `IndicatorStatus.DocInfoRecdIsMarkedForDeletion` |
 | `IsDocInfoRecdStructure` | `IndicatorStatus.IsDocInfoRecdStructure` |
 | `IsDocInfoRecdCreatedFromCAD` | `IndicatorStatus.IsDocInfoRecdCreatedFromCAD` |
-| `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 | `_DocVersion` | *Association* |
 | `_DocPart` | *Association* |

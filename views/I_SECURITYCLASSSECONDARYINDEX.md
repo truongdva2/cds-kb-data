@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type )` | `cast(SecurityClSecondaryIndex.ranl` |
-| `ftr_sc_secdry_idx_number preserving type )` | `cast(SecurityClSecondaryIndex.vvranlwi` |
-| `ftr_sc_secondary_ind_value preserving type )` | `cast(SecurityClSecondaryIndex.vvranlwx` |
+| `SecurityClass` | `cast(SecurityClSecondaryIndex.ranl as ftr_gen_security_class preserving type )` |
+| `ScrtyClSecondaryIndexNumber` | `cast(…)` |
+| `ScrtyClSecdryIdxValIdentifier` | `cast(…)` |
 | `_SecurityClass` | *Association* |
 
 ## Associations

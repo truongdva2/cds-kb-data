@@ -33,17 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListMaterialDocument.MaterialDocumentYear` | `_MaintObjListMaterialDocument.MaterialDocumentYear` |
-| `key _MaintObjListMaterialDocument.MaterialDocument` | `_MaintObjListMaterialDocument.MaterialDocument` |
-| `key _MaintObjListMaterialDocument.MaterialDocumentItem` | `_MaintObjListMaterialDocument.MaterialDocumentItem` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListMaterialDocument._MaterialDocumentYear` | *Association* |
-| `_MaintObjListMaterialDocument._MaterialDocument` | *Association* |
-| `_MaintObjListMaterialDocument._MaterialDocumentItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `MaterialDocumentYear` | `_MaintObjListMaterialDocument.MaterialDocumentYear` |
+| `MaterialDocument` | `_MaintObjListMaterialDocument.MaterialDocument` |
+| `MaterialDocumentItem` | `_MaintObjListMaterialDocument.MaterialDocumentItem` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_MaterialDocumentYear` | *Association* |
+| `_MaterialDocument` | *Association* |
+| `_MaterialDocumentItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

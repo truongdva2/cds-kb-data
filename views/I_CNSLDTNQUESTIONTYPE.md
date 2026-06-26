@@ -30,12 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_Source.DomainValue, // required for search` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `ConsolidationQuestionType` | `cast(left(_Source.DomainValue, 1) as fincs_questiontype preserving type )` |
+| `DomainValue` | `_Source.DomainValue` |
 | `_Text` | *Association* |
 
 ## Associations

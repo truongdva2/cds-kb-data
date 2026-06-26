@@ -29,13 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceLogicalSystem : sdbil_odata_source_system; // Mandatory` | `ReferenceLogicalSystem : sdbil_odata_source_system; // Mandatory` |
-| `_BillableDocument      : association [1..*] to D_BDRCrteFrmExtBllbleDocP on 1 = 0;` | *Association* |
-| `_Control               : composition [0..1] of D_BDRCrteFrmExtDataControlP;` | *Association* |
+| `ReferenceLogicalSystem` | `sdbil_odata_source_system` |
+| `_BillableDocument` | *Association* |
+| `_Control` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillableDocument` | `D_BDRCrteFrmExtBllbleDocP` | [1..*] |
+| `_Control` | `D_BDRCrteFrmExtDataControlP` | [0..1] |
 
 ## Source Code
 

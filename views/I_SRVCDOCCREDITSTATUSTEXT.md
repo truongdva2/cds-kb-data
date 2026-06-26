@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_credit_h )` | `cast ( domvalue_l` |
-| `spras preserving type )` | `cast( ddlanguage` |
+| `SrvcDocCreditStatus` | `cast ( domvalue_l as crms4_stat_credit_h )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `SrvcDocCreditStatusText` | `ddtext` |
 | `_SrvcDocCreditStatus` | *Association* |

@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DocumentCopyIsRequested       : flag;` | `DocumentCopyIsRequested       : flag;` |
-| `RelationshipCopyIsRequested   : flag;` | `RelationshipCopyIsRequested   : flag;` |
-| `DescriptionCopyIsRequested    : flag;` | `DescriptionCopyIsRequested    : flag;` |
-| `MaintTskListValidityStartDate : datuv;` | `MaintTskListValidityStartDate : datuv;` |
+| `DocumentCopyIsRequested` | `flag` |
+| `RelationshipCopyIsRequested` | `flag` |
+| `DescriptionCopyIsRequested` | `flag` |
+| `MaintTskListValidityStartDate` | `datuv` |
 
 ## Associations
 

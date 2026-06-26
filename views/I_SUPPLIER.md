@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIER
 description: Supplier
+semantic_en: "Supplier (vendor) master data — the business partner in the supplier role used for procurement and accounts payable."
+semantic_vi: "Dữ liệu chủ nhà cung cấp — đối tác kinh doanh ở vai trò nhà cung cấp, dùng cho mua sắm và công nợ phải trả."
+keywords:
+  - nhà cung cấp
+  - vendor
+  - công nợ phải trả
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released
@@ -32,24 +38,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lifnr preserving type)` | `cast(lfa1.lifnr` |
+| `Supplier` | `cast(lfa1.lifnr as lifnr preserving type)` |
 | `SupplierAccountGroup` | `ktokk` |
-| `md_supplier_name)` | `cast(substring(rtrim(replace(concat(name1, concat(' &@', name2)), '&@', ''),' '),1,80)` |
-| `cast(concat( concat( concat( concat( concat( concat_with_space( anred, name1, 1 ), name2 ), name3 ), name4 ), '/' )` | `cast(concat( concat( concat( concat( concat( concat_with_space( anred, name1, 1 ), name2 ), name3 ), name4 ), '/' )` |
-| `md_supplier_full_name)` | `concat_with_space( pstlz, ort01 , 1 ) )` |
-| `suppliername_2)` | `cast(substring(rtrim(replace(concat(_AddressDefaultRepresentation.AddresseeName1, concat(' &@', _AddressDefaultRepresentation.AddresseeName2)), '&@', ''),' '),1,81)` |
-| `supplierfullname_2)` | `cast(concat( concat_with_space( concat_with_space( concat_with_space(_AddressDefaultRepresentation.AddresseeName1, _AddressDefaultRepresentation.AddresseeName2,1 ), _AddressDefaultRepresentation.AddresseeName3,1 ), _AddressDefaultRepresentation.AddresseeName4,1 ), ' ' )` |
-| `_AddressDefaultRepresentation.AddresseeName1 as BusinessPartnerName1` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName2 as BusinessPartnerName2` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName3 as BusinessPartnerName3` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName4 as BusinessPartnerName4` | *Association* |
-| `_AddressDefaultRepresentation.CityName                                                                                                                                                                                                                                                                as BPAddrCityName` | *Association* |
-| `_AddressDefaultRepresentation.StreetName                                                                                                                                                                                                                                                              as BPAddrStreetName` | *Association* |
-| `_AddressDefaultRepresentation.AddressSearchTerm1                                                                                                                                                                                                                                                      as AddressSearchTerm1` | *Association* |
-| `_AddressDefaultRepresentation.AddressSearchTerm2                                                                                                                                                                                                                                                      as AddressSearchTerm2` | *Association* |
-| `_AddressDefaultRepresentation.DistrictName                                                                                                                                                                                                                                                            as DistrictName` | *Association* |
-| `_AddressDefaultRepresentation.POBoxDeviatingCityName                                                                                                                                                                                                                                                  as POBoxDeviatingCityName` | *Association* |
-| `_AddressDefaultRepresentation.FormOfAddress                                                                                                                                                                                                                                                           as BusinessPartnerFormOfAddress` | *Association* |
+| `SupplierName` | `cast(…)` |
+| `SupplierFullName` | `cast(…)` |
+| `BPSupplierName` | `cast(…)` |
+| `BPSupplierFullName` | `cast(…)` |
+| `BusinessPartnerName1` | `_AddressDefaultRepresentation.AddresseeName1` |
+| `BusinessPartnerName2` | `_AddressDefaultRepresentation.AddresseeName2` |
+| `BusinessPartnerName3` | `_AddressDefaultRepresentation.AddresseeName3` |
+| `BusinessPartnerName4` | `_AddressDefaultRepresentation.AddresseeName4` |
+| `BPAddrCityName` | `_AddressDefaultRepresentation.CityName` |
+| `BPAddrStreetName` | `_AddressDefaultRepresentation.StreetName` |
+| `AddressSearchTerm1` | `_AddressDefaultRepresentation.AddressSearchTerm1` |
+| `AddressSearchTerm2` | `_AddressDefaultRepresentation.AddressSearchTerm2` |
+| `DistrictName` | `_AddressDefaultRepresentation.DistrictName` |
+| `POBoxDeviatingCityName` | `_AddressDefaultRepresentation.POBoxDeviatingCityName` |
+| `BusinessPartnerFormOfAddress` | `_AddressDefaultRepresentation.FormOfAddress` |
 | `IsBusinessPurposeCompleted` | `lfa1.cvp_xblck` |
 | `CreatedByUser` | `ernam` |
 | `CreationDate` | `erdat` |
@@ -63,10 +68,10 @@ tags:
 | `SupplierAgentProcedureGroup` | `dlgrp` |
 | `SupplIsSocialInsuranceRegtrd` | `regss` |
 | `SocialInsuranceActivityCode` | `actss` |
-| `SupplierCorporateGroup, //to be used` | `konzs` |
+| `SupplierCorporateGroup` | `konzs` |
 | `Customer` | `kunnr` |
-| `Industry,   // siehe Anmerkung` | `brsch` |
-| `TaxNumber1, // tax number 1&2: siehe Anmerkung` | `stcd1` |
+| `Industry` | `brsch` |
+| `TaxNumber1` | `stcd1` |
 | `TaxNumber2` | `stcd2` |
 | `TaxNumber3` | `stcd3` |
 | `TaxNumber4` | `stcd4` |
@@ -85,7 +90,7 @@ tags:
 | `PostalCode` | `lfa1.pstlz` |
 | `StreetName` | `lfa1.stras` |
 | `Country` | `lfa1.land1` |
-| `md_international_loc )` | `cast((concat(concat(bbbnr,concat(' & ', bbsnr)),concat(' & ',bubkz)))` |
+| `ConcatenatedInternationalLocNo` | `cast(…)` |
 | `SupplierProcurementBlock` | `sperq` |
 | `SuplrQualityManagementSystem` | `qssys` |
 | `SuplrQltyInProcmtCertfnValidTo` | `qssysdat` |
@@ -131,7 +136,7 @@ tags:
 | `AU_SupplyIsMadeAsPrivateHobby` | `lfa1.au_private_hobby` |
 | `AU_SupplyMadeIsOfDmstcNature` | `lfa1.au_domestic_nature` |
 | `IsToBeAcceptedAtOrigin` | `lfa1.weora` |
-| `xfeld preserving type)` | `cast (stkza` |
+| `BPIsEqualizationTaxSubject` | `cast (stkza as xfeld preserving type)` |
 | `BRSpcfcTaxBasePercentageCode` | `lfa1.taxbs` |
 | `SupplierProfession` | `lfa1.profs` |
 | `SuplrManufacturerExternalName` | `lfa1.emnfr` |
@@ -171,8 +176,8 @@ tags:
 | `_SupplierPurchasingOrg` | *Association* |
 | `_SupplierBankDetails` | *Association* |
 | `_SupplierAccountGroup` | *Association* |
-| `_SupplierAccountGroupText, // OBSOLETE to be deleted` | *Association* |
-| `_SupplierIndustryText, // OBSOLETE to be deleted` | *Association* |
+| `_SupplierAccountGroupText` | *Association* |
+| `_SupplierIndustryText` | *Association* |
 | `_Industry` | *Association* |
 | `_StandardAddress` | *Association* |
 | `_CorrespondingCustomer` | *Association* |
@@ -208,7 +213,6 @@ tags:
 | `_ProcurementBlock` | `I_ProcurementBlock` | [0..1] |
 | `_QualityManagementSystem` | `I_QualityManagementSystem` | [0..1] |
 | `_StandardAddress` | `I_Address` | [1..1] |
-| `_BusinessPartnerAddress` | `I_BusinessPartnerAddress` | [1..1] |
 | `_SupplierExt` | `E_Supplier` | [0..1] |
 | `_AddressDefaultRepresentation` | `I_OrganizationAddress` | [0..1] |
 | `_AddressRepresentation` | `I_Address_2` | [0..1] |

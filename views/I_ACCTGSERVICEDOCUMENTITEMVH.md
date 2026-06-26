@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocumentItem
 ---
 # I_ACCTGSERVICEDOCUMENTITEMVH
 
@@ -34,9 +35,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `importance: #HIGH}]` | `importance: #HIGH}]` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceDocumentItem` | `ServiceDocumentItem` |
+| `CompanyCode` | `CompanyCode` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ServiceDocumentTypeName` | `ServiceDocumentTypeName` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `ServiceDocItemCategory` | `ServiceDocItemCategory` |
+| `ServiceDocItemCategoryName` | `cast( ServiceDocItemCategoryName as fco_srvdoc_item_type_desc preserving type )` |
+| `ServiceDocumentItemDescription` | `ServiceDocumentItemDescription` |
 | `OriginallyRequestedProduct` | `OriginallyRequestedProduct` |
-| `_ProductText[1: Language = $session.system_language].ProductName  as ProductName` | *Association* |
+| `ProductName` | `_ProductText[1: Language = $session.system_language].ProductName` |
 | `PostingDate` | `PostingDate` |
 | `SrvcOrderConfirmationRelevance` | `SrvcOrderConfirmationRelevance` |
 | `_AcctgServiceDocumentTypeVH` | *Association* |

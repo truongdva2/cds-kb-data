@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessArea` | `BusinessArea` |
-| `_Text[1: Language=$session.system_language].BusinessAreaName` | *Association* |
+| `BusinessArea` | `BusinessArea` |
+| `BusinessAreaName` | `_Text[1: Language=$session.system_language].BusinessAreaName` |
 
 ## Associations
 

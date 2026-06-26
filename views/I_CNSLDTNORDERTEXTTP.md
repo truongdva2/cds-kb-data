@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.OrderID` | `_Text.OrderID` |
-| `_Text.OrderDescription` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Order as _Order : redirected to parent I_CnsldtnOrderTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `OrderID` | `_Text.OrderID` |
+| `OrderDescription` | `_Text.OrderDescription` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Order` | *Association* |
 
 ## Associations
 

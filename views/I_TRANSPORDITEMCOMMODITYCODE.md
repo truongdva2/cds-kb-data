@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_itm_cc_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(root_key` |
-| `/scmtms/vdm_tor_item_db_key  preserving type)` | `cast(parent_key` |
+| `TranspOrdItemCommodityCodeUUID` | `cast(db_key as /scmtms/vdm_tor_itm_cc_uuid preserving type)` |
+| `TransportationOrderUUID` | `cast(root_key as /scmtms/vdm_tor_db_key preserving type)` |
+| `TransportationOrderItemUUID` | `cast(parent_key as /scmtms/vdm_tor_item_db_key preserving type)` |
 | `TranspOrdItemCommodityCode` | `ccode` |
-| `/scmtms/stcts preserving type )` | `cast(stcts` |
-| `/* Associations */` | `/* Associations */` |
+| `TrOrdItmCmmdtyCodeNmbrngSchm` | `cast(stcts as /scmtms/stcts preserving type )` |
 | `_TransportationOrder` | *Association* |
 | `_TransportationOrderItem` | *Association* |
 | `_NumberingScheme` | *Association* |
@@ -45,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderItem` | `I_TransportationOrderItem_2` | — |
 | `_TransportationOrder` | `I_TransportationOrder_2` | [1..1] |
 | `_NumberingScheme` | `I_TranspNumberingScheme` | [0..1] |
 

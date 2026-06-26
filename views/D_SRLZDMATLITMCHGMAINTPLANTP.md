@@ -32,11 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' }` | `element: 'Plant' }` |
-| `useForValidation: true` | `useForValidation: true` |
-| `}]` | `}]` |
-| `MaintenancePlant : swerk;` | `MaintenancePlant : swerk;` |
+| `MaintenancePlant` | `swerk` |
 
 ## Associations
 

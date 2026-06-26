@@ -13,6 +13,7 @@ tags:
   - status
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStopHndlgExecStatus
 ---
 # I_TRANSPSTOPHNDLGEXECSTATUS
 
@@ -29,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_s_hdl_exec_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStopHndlgExecStatus` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspStopHndlgExecStatusT` | [0..*] |
 
 ## Source Code
 

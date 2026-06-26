@@ -32,15 +32,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `ValuationArea` | `ValuationArea` |
+| `ValuationType` | `ValuationType` |
+| `ValuationClass` | `ValuationClass` |
+| `PriceDeterminationControl` | `PriceDeterminationControl` |
+| `StandardPrice` | `StandardPrice` |
+| `ProductPriceUnitQuantity` | `ProductPriceUnitQuantity` |
+| `InventoryValuationProcedure` | `InventoryValuationProcedure` |
+| `MovingAveragePrice` | `MovingAveragePrice` |
+| `ValuationCategory` | `ValuationCategory` |
+| `ProductUsageType` | `ProductUsageType` |
+| `ProductOriginType` | `ProductOriginType` |
+| `IsProducedInhouse` | `IsProducedInhouse` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `ValuationClassSalesOrderStock` | `ValuationClassSalesOrderStock` |
+| `ProjectStockValuationClass` | `ProjectStockValuationClass` |
+| `Currency` | `Currency` |
 | `BaseUnit` | `BaseUnit` |
 | `ValuationMarginPercent` | `ValuationMarginPercent` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product                       : redirected to parent I_ProductTP_2` | *Association* |
-| `_ProductValuationAccounting    : redirected to composition child I_ProdValuationAccountingTP_2` | *Association* |
-| `_ProductValuationLedgerAccount : redirected to composition child I_ProdValnLedgerAccountTP_2` | *Association* |
-| `_ProductValuationLedgerPrices  : redirected to composition child I_ProdValnLedgerPricesTP_2` | *Association* |
-| `_ProductValuationCosting       : redirected to composition child I_ProductValuationCostingTP_2` | *Association* |
 | `_ValuationClass` | *Association* |
 | `_PriceDeterminationControl` | *Association* |
 | `_InventoryValnProcedure` | *Association* |

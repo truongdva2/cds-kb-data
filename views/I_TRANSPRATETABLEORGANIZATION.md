@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transprate_org_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpratetable_uuid preserving type)` | `cast(parent_key` |
+| `TranspRateTableOrgUUID` | `cast(db_key as /scmtms/transprate_org_uuid preserving type)` |
+| `TransportationRateUUID` | `cast(parent_key as /scmtms/transpratetable_uuid preserving type)` |
 | `TranspPurgOrg` | `purch_org` |
 | `_TransportationRate` | *Association* |
 | `_TranspPurgOrg` | *Association* |
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationRate` | `I_TransportationRate` | — |
 | `_TranspPurgOrg` | `I_TranspPurgOrg` | [1..1] |
 
 ## Source Code

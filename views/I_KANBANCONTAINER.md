@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanContainer
 ---
 # I_KANBANCONTAINER
 
@@ -30,54 +31,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_pkkey preserving type)` | `cast(pkps.pkkey` |
-| `vdm_pknum preserving type)` | `cast(pkps.pknum` |
-| `vdm_pkpos preserving type)` | `cast(pkps.pkpos` |
-| `_KanbanControlCycle.Plant                                                    as Plant` | *Association* |
-| `_KanbanControlCycle.ProductionSupplyArea                                     as ProductionSupplyArea` | *Association* |
-| `vdm_pkbst preserving type)` | `cast(pkps.pkbst` |
-| `vdm_spkkz preserving type)` | `cast(pkps.spkkz` |
-| `vdm_saedt preserving type)` | `cast(pkps.saedt` |
-| `vdm_saeuz preserving type)` | `cast(pkps.saeuz` |
-| `vdm_plnum preserving type)` | `cast(pkps.plnum` |
+| `KanbanContainer` | `cast(pkps.pkkey as vdm_pkkey preserving type)` |
+| `KanbanControlCycle` | `cast(pkps.pknum as vdm_pknum preserving type)` |
+| `KanbanControlCycleItem` | `cast(pkps.pkpos as vdm_pkpos preserving type)` |
+| `Plant` | `_KanbanControlCycle.Plant` |
+| `ProductionSupplyArea` | `_KanbanControlCycle.ProductionSupplyArea` |
+| `KanbanContainerStatus` | `cast(pkps.pkbst as vdm_pkbst preserving type)` |
+| `IsLocked` | `cast(pkps.spkkz as vdm_spkkz preserving type)` |
+| `LastChangeDate` | `cast(pkps.saedt as vdm_saedt preserving type)` |
+| `LastChangeTime` | `cast(pkps.saeuz as vdm_saeuz preserving type)` |
+| `PlannedOrder` | `cast(pkps.plnum as vdm_plnum preserving type)` |
 | `OrderID` | `pkps.aufnr` |
-| `pph_ebeln preserving type)` | `cast(pkps.ebeln` |
-| `pph_ebelp preserving type)` | `cast(pkps.ebelp` |
-| `vdm_vbeln preserving type)` | `cast(pkps.vbeln` |
-| `vdm_posnr preserving type)` | `cast(pkps.vbelp` |
-| `pph_prtnr preserving type)` | `cast(pkps.prtnr` |
-| `vdm_rsnum preserving type)` | `cast(pkps.rsnum` |
-| `vdm_rspos preserving type)` | `cast(pkps.rspos` |
-| `vdm_mblnr preserving type)` | `cast(pkps.mblnr` |
-| `vdm_mjahr preserving type)` | `cast(pkps.mjahr` |
-| `vdm_mblpo preserving type)` | `cast(pkps.mblpo` |
-| `_KanbanControlCycle.BaseUnit                                                 as BaseUnit` | *Association* |
-| `vdm_pkimg preserving type)` | `cast(pkps.pkimg` |
-| `vdm_pkbmg preserving type)` | `cast(pkps.pkbmg` |
-| `vdm_previouslastchangedate preserving type)` | `cast(pkps.sadt2` |
-| `vdm_previouslastchangetime preserving type)` | `cast(pkps.sauz2` |
-| `vdm_tbnum preserving type)` | `cast(pkps.tbnum` |
-| `vdm_tbpos preserving type)` | `cast(pkps.tbpos` |
-| `vdm_pklkz preserving type)` | `cast(pkps.pklkz` |
-| `vdm_pkbsa preserving type)` | `cast(pkps.pkbsa` |
-| `vdm_pabnum preserving type)` | `cast(pkps.pabnum` |
-| `vdm_pabnum preserving type)` | `cast(pkps.pabnum` |
-| `vdm_pabpos preserving type)` | `cast(pkps.pabpos` |
-| `vdm_pkgpzg preserving type)` | `cast(pkps.pkgpzg` |
-| `vdm_hdflg preserving type)` | `cast(pkps.hdflg` |
-| `vdm_etens preserving type)` | `cast(pkps.etens` |
-| `vdm_sa_zpunkt preserving type)` | `cast(pkps.zpunkt` |
-| `vdm_ebstyp preserving type)` | `cast(pkps.bstyp` |
-| `vdm_lgnum preserving type)` | `cast(pkps.ewm_lgnum` |
-| `vdm_lgnum_ewm preserving type)` | `cast(pkps.lgnum_ewm` |
-| `vdm_warehousetask preserving type)` | `cast(pkps.ewm_tanum` |
-| `vdm_warehouse_request preserving type)` | `cast(pkps.ewm_wh_request` |
-| `vdm_warehouse_request_item preserving type)` | `cast(pkps.ewm_wh_request_item` |
-| `vdm_whsegoodsmovementdoc preserving type)` | `cast(pkps.ewm_gm_doc` |
-| `vdm_whsegoodsmovementdocitem preserving type)` | `cast(pkps.ewm_gm_doc_item` |
-| `vdm_lastchangedatetime preserving type)` | `cast(pkps.lastchange_datetime` |
-| `_KanbanControlCycle.Supplier` | *Association* |
+| `PurchasingDocument` | `-- cast(pkps.ebeln as pph_ebeln preserving type)` |
+| `PurchasingDocumentItem` | `-- cast(pkps.ebelp as pph_ebelp preserving type)` |
+| `SalesDocument` | `cast(pkps.vbeln as vdm_vbeln preserving type)` |
+| `SalesDocumentItem` | `cast(pkps.vbelp as vdm_posnr preserving type)` |
+| `RepetitiveMfgConfirmation` | `cast(pkps.prtnr as pph_prtnr preserving type)` |
+| `Reservation` | `cast(pkps.rsnum as vdm_rsnum preserving type)` |
+| `ReservationItem` | `cast(pkps.rspos as vdm_rspos preserving type)` |
+| `MaterialDocument` | `cast(pkps.mblnr as vdm_mblnr preserving type)` |
+| `MaterialDocumentYear` | `cast(pkps.mjahr as vdm_mjahr preserving type)` |
+| `MaterialDocumentItem` | `cast(pkps.mblpo as vdm_mblpo preserving type)` |
+| `BaseUnit` | `_KanbanControlCycle.BaseUnit` |
+| `ActualQuantityInBaseUnit` | `cast(pkps.pkimg as vdm_pkimg preserving type)` |
+| `RequestedQuantityInBaseUnit` | `cast(pkps.pkbmg as vdm_pkbmg preserving type)` |
+| `PreviousLastChangeDate` | `cast(pkps.sadt2 as vdm_previouslastchangedate preserving type)` |
+| `PreviousLastChangeTime` | `cast(pkps.sauz2 as vdm_previouslastchangetime preserving type)` |
+| `TransferRequirementNumber` | `cast(pkps.tbnum as vdm_tbnum preserving type)` |
+| `TransferRequirementItem` | `cast(pkps.tbpos as vdm_tbpos preserving type)` |
+| `IsDeleted` | `cast(pkps.pklkz as vdm_pklkz preserving type)` |
+| `PreviousKanbanContainerStatus` | `cast(pkps.pkbsa as vdm_pkbsa preserving type)` |
+| `InternalJITCallNumber` | `cast(pkps.pabnum as vdm_pabnum preserving type)` |
+| `JITCallNumber` | `cast(pkps.pabnum as vdm_pabnum preserving type)` |
+| `JITCallItemNumber` | `cast(pkps.pabpos as vdm_pabpos preserving type)` |
+| `PlannedReceiptDateTime` | `cast(pkps.pkgpzg as vdm_pkgpzg preserving type)` |
+| `ChangedPackgInstrnDataIsAvail` | `cast(pkps.hdflg as vdm_hdflg preserving type)` |
+| `SequentialNmbrOfSuplrConf` | `cast(pkps.etens as vdm_etens preserving type)` |
+| `BackflushReportingPoint` | `cast(pkps.zpunkt as vdm_sa_zpunkt preserving type)` |
+| `PurchasingDocumentCategory` | `cast(pkps.bstyp as vdm_ebstyp preserving type)` |
+| `Warehouse` | `cast(pkps.ewm_lgnum as vdm_lgnum preserving type)` |
+| `EWMWarehouse` | `cast(pkps.lgnum_ewm as vdm_lgnum_ewm preserving type)` |
+| `WarehouseTask` | `cast(pkps.ewm_tanum as vdm_warehousetask preserving type)` |
+| `EWMWarehouseRequest` | `cast(pkps.ewm_wh_request as vdm_warehouse_request preserving type)` |
+| `EWMWarehouseRequestItem` | `cast(pkps.ewm_wh_request_item as vdm_warehouse_request_item preserving type)` |
+| `WhseGoodsMovementDocument` | `cast(pkps.ewm_gm_doc as vdm_whsegoodsmovementdoc preserving type)` |
+| `WhseGoodsMovementDocumentItem` | `cast(pkps.ewm_gm_doc_item as vdm_whsegoodsmovementdocitem preserving type)` |
+| `LastChangeDateTime` | `cast(pkps.lastchange_datetime as vdm_lastchangedatetime preserving type)` |
+| `Supplier` | `_KanbanControlCycle.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 | `_KanbanControlCycle` | *Association* |
@@ -107,7 +107,6 @@ tags:
 | `_BaseUnit` | `I_UnitOfMeasure` | [1..1] |
 | `_PlannedOrder` | `I_PlannedOrder` | [0..1] |
 | `_Order` | `I_LogisticsOrder` | [0..1] |
-| `_OrderItem` | `I_OrderItem` | [0..1] |
 | `_PurchasingDocument` | `I_PurchasingDocument` | [0..1] |
 | `_PurchasingDocumentItem` | `I_PurchasingDocumentItem` | [0..1] |
 | `_SalesDocument` | `I_SalesDocument` | [0..1] |

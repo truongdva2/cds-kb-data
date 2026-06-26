@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-WFD
   - lob:Cross-Application Components
+  - bo:WorkAssignmentDetails
 ---
 # I_PERSONWORKAGRMTORGLDETAILS
 
@@ -27,20 +28,25 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `PersonWorkAgreement` | `cast( dets.workforce_assgmt_id as persno preserving type )` |
+| `StartDate` | `cast( dets.start_date as begda preserving type )` |
+| `EndDate` | `cast( dets.end_date as endda preserving type )` |
+| `CompanyCode` | `dets.company_code` |
+| `CostCenter` | `dets.cost_center` |
+| `Job` | `cast( dets.job_code as stell )` |
+| `OrganizationalUnit` | `cast( '' as orgeh )` |
+| `PersonWorkAgrmtAuthznGrpg` | `cast( '' as vdsk1 )` |
+| `_CompanyCode` | *Association* |
+| `_CostCenter` | *Association* |
+| `_PersonWorkAgrmtJobText` | *Association* |
+| `_OrganizationalUnitText` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_CompanyCode` | `I_CompanyCode` | [1] |
-| `_CostCenter` | `I_CostCenter` | [1] |
-| `_PersonWorkAgrmtJobText` | `I_PersonWorkAgrmtJobText` | [0..*] |
-| `_OrganizationalUnitText` | `I_OrganizationalUnitText` | [0..*] |
-| `_CompanyCode` | `I_CompanyCode` | [1] |
-| `_CostCenter` | `I_CostCenter` | [1] |
-| `_PersonWorkAgrmtJobText` | `I_PersonWorkAgrmtJobText` | [0..*] |
-| `_OrganizationalUnitText` | `I_OrganizationalUnitText` | [0..*] |
 | `_CompanyCode` | `I_CompanyCode` | [1] |
 | `_CostCenter` | `I_CostCenter` | [1] |
 | `_PersonWorkAgrmtJobText` | `I_PersonWorkAgrmtJobText` | [0..*] |

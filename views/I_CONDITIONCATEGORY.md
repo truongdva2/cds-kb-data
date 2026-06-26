@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PriceConditionCategory
 ---
 # I_CONDITIONCATEGORY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kntyp )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionCategory` | `cast ( substring( domvalue_l, 1, 1 ) as kntyp )` |
 | `_Text` | *Association* |
 
 ## Associations

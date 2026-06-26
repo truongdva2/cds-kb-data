@@ -29,15 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcSubscrpnParamValType' , element:'SubscriptionParamValType'}, useAsTemplate: true  }]` | `name: 'I_SrvcSubscrpnParamValType' , element:'SubscriptionParamValType'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SubscrpnPrcgParameter` | `SubscrpnPrcgParameter` |
+| `SubscrpnParameterDecimalValue` | `SubscrpnParameterDecimalValue` |
 | `SubscrpnPrcgParamValType` | `SubscrpnPrcgParamValType` |
 | `SubscrpnParamDfltDecimalValue` | `SubscrpnParamDfltDecimalValue` |
 | `SubscrpnPrcgParamValIsSpcfd` | `SubscrpnPrcgParamValIsSpcfd` |
 | `_SubscriptionBillingItem` | *Association* |
 | `_SubscriptionBilling` | *Association* |
 | `_SrvcSubscrpnParamValTypeText` | *Association* |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

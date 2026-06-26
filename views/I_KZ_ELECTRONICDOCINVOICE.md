@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
 | `KZ_EDocRegistrationNumber` | `KZ_EDocRegistrationNumber` |
 | `KZ_ElectronicDocumentInvoiceID` | `KZ_ElectronicDocumentInvoiceID` |
 | `KZ_ElectronicDocumentVATDate` | `KZ_ElectronicDocumentVATDate` |

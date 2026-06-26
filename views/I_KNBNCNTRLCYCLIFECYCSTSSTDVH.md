@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanCtrlCycleLifeCycleStatus
 ---
 # I_KNBNCNTRLCYCLIFECYCSTSSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanCtrlCycleLifeCycleStatus` | `KanbanCtrlCycleLifeCycleStatus` |
+| `KanbanCtrlCycleLifeCycleStatus` | `KanbanCtrlCycleLifeCycleStatus` |
 | `_Text` | *Association* |
 
 ## Associations

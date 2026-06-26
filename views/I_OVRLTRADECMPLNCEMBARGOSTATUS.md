@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tdd_total_emcst preserving type )` | `cast (substring( dd07l.domvalue_l, 1, 1)` |
+| `OverallTrdCmplncEmbargoSts` | `cast (substring( dd07l.domvalue_l, 1, 1) as tdd_total_emcst preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

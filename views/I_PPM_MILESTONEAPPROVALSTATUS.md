@@ -32,12 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_mlstn_apprvl_status )` | `cast ( substring( domvalue_l, 1, 5 )` |
+| `MilestoneApprovalStatus` | `cast ( substring( domvalue_l, 1, 5 ) as /s4ppm/tv_mlstn_apprvl_status )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PPM_MilestoneApprovalStsText` | [0..*] |
 
 ## Source Code
 

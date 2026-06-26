@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:MaintObjectLocAcctAssgmtNmbr
 ---
 # I_LOCATIONACCOUNTASSIGNMENT
 
@@ -30,9 +31,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_MaintenanceOrderStdVH'` | `name:    'I_MaintenanceOrderStdVH'` |
-| `element: 'MaintenanceOrder' }` | `element: 'MaintenanceOrder' }` |
-| `}]` | `}]` |
+| `MaintObjectLocAcctAssgmtNmbr` | `iloa.iloan` |
+| `WorkCenterInternalID` | `iloa.ppsid` |
+| `WorkCenterTypeCode` | `iloa.cr_objty` |
+| `FunctionalLocation` | `iloa.tplnr` |
+| `MaintenancePlant` | `iloa.swerk` |
+| `PlantSection` | `iloa.beber` |
+| `AssetLocation` | `iloa.stort` |
+| `MaintObjectFreeDefinedAttrib` | `iloa.eqfnr` |
+| `BusinessArea` | `iloa.gsber` |
+| `ControllingArea` | `iloa.kokrs` |
+| `CostCenter` | `iloa.kostl` |
+| `CompanyCode` | `iloa.bukrs` |
+| `Division` | `iloa.spart` |
+| `MaintenanceObjectLocation` | `iloa.stort` |
+| `AssetRoom` | `iloa.msgrp` |
+| `ABCIndicator` | `iloa.abckz` |
+| `AddressID` | `iloa.adrnr` |
+| `WBSElementInternalID` | `iloa.proid` |
+| `MasterFixedAsset` | `iloa.anlnr` |
+| `FixedAsset` | `iloa.anlun` |
+| `SettlementOrder` | `iloa.aufnr` |
 | `StandingOrderNumber` | `iloa.daufn` |
 | `SalesOrganization` | `iloa.vkorg` |
 | `DistributionChannel` | `iloa.vtweg` |
@@ -59,7 +78,7 @@ tags:
 | `_SettlementOrder` | *Association* |
 | `_StandingOrderNumber` | *Association* |
 | `_Address` | *Association* |
-| `_Address2,  //2302 CE - Adapt I_Address_2 View` | *Association* |
+| `_Address2` | *Association* |
 | `_SalesAreaSalesOffice` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_SlsOrganizationDistrChnl` | *Association* |

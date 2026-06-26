@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AssgdMaintNotifIsToBePutInProc : abap_boolean;` | `AssgdMaintNotifIsToBePutInProc : abap_boolean;` |
+| `AssgdMaintNotifIsToBePutInProc` | `abap_boolean` |
 
 ## Associations
 

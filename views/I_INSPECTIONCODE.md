@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionCode
 ---
 # I_INSPECTIONCODE
 
@@ -30,15 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'InspectionCatalog'` | `localElement: 'InspectionCatalog'` |
-| `element: 'InspectionCatalog' }]` | `element: 'InspectionCatalog' }]` |
-| `}]` | `}]` |
+| `InspectionCatalog` | `qpcd.katalogart` |
 | `InspectionCodeGroup` | `codegruppe` |
 | `InspectionCode` | `code` |
-| `case qpcd.inaktiv` | `case qpcd.inaktiv` |
-| `vdm_qm_codeisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codeisinactive preserving type )` | `else cast( 'X'` |
-| `CodeIsInactive` | `end` |
+| `CodeIsInactive` | `case…end` |
 | `_InspectionCatalog` | *Association* |
 | `_InspectionCodeGroup` | *Association* |
 | `_Text` | *Association* |

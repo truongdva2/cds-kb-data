@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:MaterialABCClassification
 ---
 # I_PRODABCLASSFCTNTXT
 
@@ -30,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
+| `MaterialABCClassification` | `cast(maabc as abcindicator preserving type )` |
+| `Language` | `tmabct.spras` |
 | `MaterialABCClassificationDesc` | `tmabc` |
 | `_ABCIndicator` | *Association* |
 | `_Language` | *Association* |

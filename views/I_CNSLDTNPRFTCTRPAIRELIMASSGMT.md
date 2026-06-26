@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_controllingarea preserving type )` | `cast ( _Source.kokrs` |
-| `fincs_hryid_profitcenter )` | `cast ( _Source.hryid` |
-| `fincs_validityenddate preserving type )` | `cast ( _Source.hryvalto` |
-| `fincs_profitcenter preserving type )` | `cast ( _Source.prctr` |
-| `fincs_partnerprofitcenter preserving type )` | `cast ( _Source.pprctr` |
-| `fincs_validitystartdate preserving type )` | `cast ( _Source.hryvalfrom` |
-| `fincs_prftctrforelim preserving type )` | `cast ( _Source.prctr_eliminated` |
+| `ControllingArea` | `cast ( _Source.kokrs as fincs_controllingarea preserving type )` |
+| `ConsolidationPrftCtrHierarchy` | `cast ( _Source.hryid as fincs_hryid_profitcenter )` |
+| `ValidityEndDate` | `cast ( _Source.hryvalto as fincs_validityenddate preserving type )` |
+| `ProfitCenter` | `cast ( _Source.prctr as fincs_profitcenter preserving type )` |
+| `PartnerProfitCenter` | `cast ( _Source.pprctr as fincs_partnerprofitcenter preserving type )` |
+| `ValidityStartDate` | `cast ( _Source.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ConsolidationPrftCtrForElim` | `cast ( _Source.prctr_eliminated as fincs_prftctrforelim preserving type )` |
 
 ## Associations
 

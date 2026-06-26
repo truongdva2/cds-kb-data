@@ -31,18 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrQtnScheduleLine.SupplierQuotation` | `I_SuplrQtnScheduleLine.SupplierQuotation` |
-| `key I_SuplrQtnScheduleLine.SupplierQuotationItem` | `I_SuplrQtnScheduleLine.SupplierQuotationItem` |
-| `key I_SuplrQtnScheduleLine.ScheduleLine` | `I_SuplrQtnScheduleLine.ScheduleLine` |
-| `I_SuplrQtnScheduleLine.DelivDateCategory` | `I_SuplrQtnScheduleLine.DelivDateCategory` |
-| `I_SuplrQtnScheduleLine.ScheduleLineDeliveryDate` | `I_SuplrQtnScheduleLine.ScheduleLineDeliveryDate` |
-| `I_SuplrQtnScheduleLine.SchedLineStscDeliveryDate` | `I_SuplrQtnScheduleLine.SchedLineStscDeliveryDate` |
-| `I_SuplrQtnScheduleLine.ScheduleLineDeliveryTime` | `I_SuplrQtnScheduleLine.ScheduleLineDeliveryTime` |
-| `I_SuplrQtnScheduleLine.ScheduleLineOrderQuantity` | `I_SuplrQtnScheduleLine.ScheduleLineOrderQuantity` |
-| `I_SuplrQtnScheduleLine.RoughGoodsReceiptQty` | `I_SuplrQtnScheduleLine.RoughGoodsReceiptQty` |
-| `I_SuplrQtnScheduleLine.AwardedQuantity` | `I_SuplrQtnScheduleLine.AwardedQuantity` |
-| `I_SuplrQtnScheduleLine.OrderQuantityUnit` | `I_SuplrQtnScheduleLine.OrderQuantityUnit` |
-| `/*Association*/` | `/*Association*/` |
+| `SupplierQuotation` | `I_SuplrQtnScheduleLine.SupplierQuotation` |
+| `SupplierQuotationItem` | `I_SuplrQtnScheduleLine.SupplierQuotationItem` |
+| `ScheduleLine` | `I_SuplrQtnScheduleLine.ScheduleLine` |
+| `DelivDateCategory` | `I_SuplrQtnScheduleLine.DelivDateCategory` |
+| `ScheduleLineDeliveryDate` | `I_SuplrQtnScheduleLine.ScheduleLineDeliveryDate` |
+| `SchedLineStscDeliveryDate` | `I_SuplrQtnScheduleLine.SchedLineStscDeliveryDate` |
+| `ScheduleLineDeliveryTime` | `I_SuplrQtnScheduleLine.ScheduleLineDeliveryTime` |
+| `ScheduleLineOrderQuantity` | `I_SuplrQtnScheduleLine.ScheduleLineOrderQuantity` |
+| `RoughGoodsReceiptQty` | `I_SuplrQtnScheduleLine.RoughGoodsReceiptQty` |
+| `AwardedQuantity` | `I_SuplrQtnScheduleLine.AwardedQuantity` |
+| `OrderQuantityUnit` | `I_SuplrQtnScheduleLine.OrderQuantityUnit` |
 | `_SupplierQuotation` | *Association* |
 | `_SupplierQuotationItem` | *Association* |
 

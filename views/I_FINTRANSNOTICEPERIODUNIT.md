@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransNoticePeriodUnit
 ---
 # I_FINTRANSNOTICEPERIODUNIT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_skuend )` | `cast( dd07l.domvalue_l` |
+| `FinTransNoticePeriodUnit` | `cast( dd07l.domvalue_l as tb_skuend )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

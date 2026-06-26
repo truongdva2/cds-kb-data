@@ -17,6 +17,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionLine
 ---
 # I_PRODUCTIONLINESTDVH
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionLine` | `ProductionLine` |
-| `key Plant` | `Plant` |
+| `ProductionLine` | `ProductionLine` |
+| `Plant` | `Plant` |
 | `_WorkCenterTextBySemanticKey` | *Association* |
 | `_Plant` | *Association* |
 

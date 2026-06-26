@@ -28,14 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material                    : matnr;` | `Material                    : matnr;` |
-| `MRPPlant                    : werks_d;` | `MRPPlant                    : werks_d;` |
-| `MRPArea                     : berid;` | `MRPArea                     : berid;` |
-| `MRPPlanningSegmentType      : plaab;` | `MRPPlanningSegmentType      : plaab;` |
-| `MRPPlanningSegment          : planr;` | `MRPPlanningSegment          : planr;` |
-| `MaterialShortageDefinition  : char15;` | `MaterialShortageDefinition  : char15;` |
-| `MRPElementSupplyAggregation : supplyaggregation;` | `MRPElementSupplyAggregation : supplyaggregation;` |
-| `MRPElementDemandAggregation : demandaggregation;` | `MRPElementDemandAggregation : demandaggregation;` |
+| `Material` | `matnr` |
+| `MRPPlant` | `werks_d` |
+| `MRPArea` | `berid` |
+| `MRPPlanningSegmentType` | `plaab` |
+| `MRPPlanningSegment` | `planr` |
+| `MaterialShortageDefinition` | `char15` |
+| `MRPElementSupplyAggregation` | `supplyaggregation` |
+| `MRPElementDemandAggregation` | `demandaggregation` |
 
 ## Associations
 

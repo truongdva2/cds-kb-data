@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_co_resource preserving type )` | `cast( cskv.resrc` |
-| `fis_kokrs preserving type )` | `cast( cskv.kokrs` |
+| `CostAnalysisResource` | `cast( cskv.resrc as fis_co_resource preserving type )` |
+| `ControllingArea` | `cast( cskv.kokrs as fis_kokrs preserving type )` |
 | `Language` | `cskv.spras` |
-| `fis_datbi preserving type )` | `cast( cskv.datbi` |
-| `fis_datab preserving type )` | `cast( _md.datab` |
-| `fis_co_resrc_name preserving type )` | `cast( cskv.ktext` |
-| `fis_co_resrc_desc preserving type )` | `cast( cskv.ltext` |
+| `ValidityEndDate` | `cast( cskv.datbi as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast( _md.datab as fis_datab preserving type )` |
+| `CostAnalysisResourceName` | `cast( cskv.ktext as fis_co_resrc_name preserving type )` |
+| `CostAnalysisResourceDesc` | `cast( cskv.ltext as fis_co_resrc_desc preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Language` | *Association* |
 

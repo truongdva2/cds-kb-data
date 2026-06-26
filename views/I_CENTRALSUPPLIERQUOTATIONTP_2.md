@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralSupplierQuotation` | `CentralSupplierQuotation` |
+| `CentralSupplierQuotation` | `CentralSupplierQuotation` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -72,8 +72,6 @@ tags:
 | `PurchaseContractTargetAmount` | `PurchaseContractTargetAmount` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `PurchasingDocumentDeletionCode` | `PurchasingDocumentDeletionCode` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlSupplierQuotationItem : redirected to composition child I_CntrlSuplrQuotationItemTP_2` | *Association* |
 
 ## Associations
 

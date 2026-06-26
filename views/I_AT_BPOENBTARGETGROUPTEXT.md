@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast(td05t_at_fs.spras` |
-| `vvszg_at_fs preserving type)` | `cast(td05t_at_fs.szg_at` |
+| `Language` | `cast(td05t_at_fs.spras as spras preserving type)` |
+| `BPOeNBTargetGroup` | `cast(td05t_at_fs.szg_at as vvszg_at_fs preserving type)` |
 | `BPOeNBTargetGroupDescription` | `td05t_at_fs.xlbez` |
 | `_AT_BPOeNBTargetGroup` | *Association* |
 | `_Language` | *Association* |

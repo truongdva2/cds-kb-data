@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocItmReqdDelivConfSts
 ---
 # I_SLSDOCITMREQDDELIVCONFSTSTXT
 
@@ -37,7 +38,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SlsDocItmReqdDelivConfSts` | `I_SlsDocItmReqdDelivConfSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

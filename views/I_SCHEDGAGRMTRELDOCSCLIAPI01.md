@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key SchedulingAgreementReleaseType` | `SchedulingAgreementReleaseType` |
-| `key SchedulingAgreementRelease` | `SchedulingAgreementRelease` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `SchedulingAgreementReleaseType` | `SchedulingAgreementReleaseType` |
+| `SchedulingAgreementRelease` | `SchedulingAgreementRelease` |
+| `ScheduleLine` | `ScheduleLine` |
 | `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
 | `ScheduleLineDeliveryTime` | `ScheduleLineDeliveryTime` |
 | `ScheduledQuantity` | `ScheduledQuantity` |
@@ -44,8 +44,7 @@ tags:
 | `PrevDelivQtyOfScheduleLine` | `PrevDelivQtyOfScheduleLine` |
 | `ReceivedQuantity` | `ReceivedQuantity` |
 | `DelivDateCategory` | `DelivDateCategory` |
-| `_SchedgAgrmtReleaseDocAPI01.OrderQuantityUnit` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `OrderQuantityUnit` | `_SchedgAgrmtReleaseDocAPI01.OrderQuantityUnit` |
 | `_SchedgAgrmtHdrAPI01` | *Association* |
 | `_SchedgAgrmtItmAPI01` | *Association* |
 | `_SchedgAgrmtReleaseDocAPI01` | *Association* |

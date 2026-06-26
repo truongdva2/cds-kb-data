@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `labelform preserving type )` | `cast( etifo` |
+| `LabelForm` | `cast( etifo as labelform preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_LabelFormText` | [0..*] |
 
 ## Source Code
 

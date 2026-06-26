@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsInspectionCode
 ---
 # I_RETURNSINSPECTIONCODETEXT
 
@@ -32,18 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `vdm_qtxt_code preserving` | `cast(InspCtlgCodeTxt.kurztext` |
-| `ReturnsInspectionCodeDesc` | `type)` |
+| `ReturnsInspectionCode` | `InspCtlgCodeTxt.code` |
+| `Language` | `InspCtlgCodeTxt.sprache` |
+| `ReturnsInspectionCodeDesc` | `cast(InspCtlgCodeTxt.kurztext as vdm_qtxt_code preserving type)` |
 | `_ReturnsInspectionCode` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReturnsInspectionCode` | `I_ReturnsInspectionCode` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

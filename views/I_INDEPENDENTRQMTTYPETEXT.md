@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:IndependentRequirementType
 ---
 # I_INDEPENDENTRQMTTYPETEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_bdtxt preserving type)` | `cast(txt.bdtxt` |
+| `IndependentRequirementType` | `cast(txt.bedae as vdm_bedae preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `IndependentRequirementTypeName` | `cast(txt.bdtxt as pph_bdtxt preserving type)` |
 | `_RequirementType` | *Association* |
 | `_Language` | *Association* |
 

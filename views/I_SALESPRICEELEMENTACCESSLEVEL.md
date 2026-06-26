@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:SalesPriceElementAccessLevel
 ---
 # I_SALESPRICEELEMENTACCESSLEVEL
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PriceElementAccessLevel` | `PriceElementAccessLevel` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PriceElementAccessLevel` | `PriceElementAccessLevel` |
 | `_ConditionApplication` | *Association* |
 | `_Text` | *Association* |
 

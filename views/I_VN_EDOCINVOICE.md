@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VN_EDocInvoiceUUID` | `VN_EDocInvoiceUUID` |
+| `VN_EDocInvoiceUUID` | `VN_EDocInvoiceUUID` |
 | `VN_EDocTemplateID` | `VN_EDocTemplateID` |
 | `VN_EDocSeriesID` | `VN_EDocSeriesID` |
 | `VN_EDocInvoiceNumber` | `VN_EDocInvoiceNumber` |

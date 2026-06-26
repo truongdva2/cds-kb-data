@@ -16,6 +16,7 @@ tags:
   - text
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentRequestType
 ---
 # I_BILLGDOCREQUESTTYPETEXT
 
@@ -32,15 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequestType.BillingDocumentRequestType` | `BillingDocumentRequestType.BillingDocumentRequestType` |
-| `key Text.Language` | `Text.Language` |
-| `billingdocumentrequesttypename preserving type )` | `cast ( Text.BillingProcessDocumentTypeName` |
-| `Text._Language` | `Text._Language` |
+| `BillingDocumentRequestType` | `BillingDocumentRequestType.BillingDocumentRequestType` |
+| `Language` | `Text.Language` |
+| `BillingDocumentRequestTypeName` | `cast(…)` |
+| `_Language` | *Association* |
 | `_BillingDocumentRequestType` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingDocumentRequestType` | `I_BillingDocumentRequestType` | — |
 
 ## Source Code
 

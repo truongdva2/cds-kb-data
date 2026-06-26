@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_description_text_30 preserving type )` | `cast(txt` |
+| `ConsolidationChartOfAccounts` | `cast(itclg as fincs_conschartofaccounts preserving type )` |
+| `Language` | `langu` |
+| `ConsolidationChartOfAcctsText` | `cast(txt as fincs_description_text_30 preserving type )` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 

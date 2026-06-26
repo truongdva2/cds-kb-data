@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenanceOrderObjectList` | `MaintenanceOrderObjectList` |
-| `key MaintenanceObjectListItem` | `MaintenanceObjectListItem` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderObjectList` | `MaintenanceOrderObjectList` |
+| `MaintenanceObjectListItem` | `MaintenanceObjectListItem` |
 | `Equipment` | `Equipment` |
 | `MaintenanceNotification` | `MaintenanceNotification` |
 | `Assembly` | `Assembly` |
@@ -43,7 +43,6 @@ tags:
 | `UniqueItemIdentifier` | `UniqueItemIdentifier` |
 | `FunctionalLocation` | `FunctionalLocation` |
 | `MaintObjectListItemSequence` | `MaintObjectListItemSequence` |
-| `_MaintenanceOrder          : redirected to parent I_MaintenanceOrderTP` | *Association* |
 
 ## Associations
 

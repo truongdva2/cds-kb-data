@@ -35,14 +35,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `enabled  : 'EXTERNAL_CALCULATION'` | `enabled  : 'EXTERNAL_CALCULATION'` |
-| `key    BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `BillOfMaterialVersion` | `BillOfMaterialVersion` |
+| `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
+| `HeaderChangeDocument` | `HeaderChangeDocument` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
+| `BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
 | `BillOfMaterialItemUnit` | `BillOfMaterialItemUnit` |
 | `BillOfMaterialSubItemQuantity` | `BillOfMaterialSubItemQuantity` |
 | `BOMSubItemInstallationPoint` | `BOMSubItemInstallationPoint` |
 | `BillOfMaterialSubItemText` | `BillOfMaterialSubItemText` |
-| `_BillOfMaterialItem : redirected to parent I_BillOfMaterialItemTP_2` | *Association* |
-| `_BillOfMaterial : redirected to I_BillOfMaterialTP_2` | *Association* |
 
 ## Associations
 

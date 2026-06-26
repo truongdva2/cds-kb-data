@@ -32,10 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement:  true` | `defaultSearchElement:  true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
+| `RecrrgAcctgDocCompanyCode` | `bukrs` |
 | `RecurringJournalEntry` | `belnr` |
 | `RecrrgJournalEntryFiscalYear` | `gjahr` |
 | `RecurrenceFrequencyType` | `dbmon` |

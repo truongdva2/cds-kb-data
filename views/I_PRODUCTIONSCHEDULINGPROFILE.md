@@ -14,6 +14,7 @@ tags:
   - product
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSchedulingProfile
 ---
 # I_PRODUCTIONSCHEDULINGPROFILE
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProductionSchedulingProfile` | `cast(tco43.co_prodprf as pph_prodprf preserving type)` |
 | `Plant` | `tco43.werks` |
-| `pph_autyp preserving type)` | `cast(tco43.autyp` |
+| `OrderCategory` | `cast(tco43.autyp as pph_autyp preserving type)` |
 | `GRIsPostedAutomatically` | `tco43.autwe` |
 | `MfgOrderEWMSynchronousPosting` | `tco43.sync_gm_for_ewm` |
 | `_Text` | *Association* |

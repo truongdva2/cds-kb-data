@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:IndustrySector
 ---
 # I_INDUSTRYSECTORVH
 
@@ -31,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED` | `status: #DEPRECATED` |
-| `successor: '_Text_2'` | `successor: '_Text_2'` |
-| `}` | `}` |
-| `Industry._Text` | `Industry._Text` |
-| `Industry._Text_2` | `Industry._Text_2` |
+| `IndustrySector` | `Industry.IndustrySector` |
+| `_Text` | *Association* |
+| `_Text_2` | *Association* |
 
 ## Associations
 

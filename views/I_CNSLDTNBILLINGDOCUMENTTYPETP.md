@@ -35,10 +35,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnBillingDocumentType.BillingDocumentType` | `_CnsldtnBillingDocumentType.BillingDocumentType` |
-| `_CnsldtnBillingDocumentType.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnBillingDocTypeTextTP` | *Association* |
+| `BillingDocumentType` | `_CnsldtnBillingDocumentType.BillingDocumentType` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnBillingDocumentType.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

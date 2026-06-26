@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConsolidationUnit` | `ConsolidationUnit` |
-| `_Text[1: Language = $session.system_language].ConsolidationUnitMdmText` | *Association* |
+| `ConsolidationUnit` | `ConsolidationUnit` |
+| `ConsolidationUnitMdmText` | `_Text[1: Language = $session.system_language].ConsolidationUnitMdmText` |
 
 ## Associations
 

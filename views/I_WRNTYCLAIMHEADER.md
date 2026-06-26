@@ -57,8 +57,8 @@ tags:
 | `WarrantyCustomerClaimIsClosed` | `closed` |
 | `WrntyCustomerClaimClosedDate` | `close_date` |
 | `WarrantyCustomer` | `parnr` |
-| `parvw_unv preserving type )` | `cast( parvw` |
-| `wty_log_handle preserving type )` | `cast(log_handle` |
+| `WarrantyCustomerRole` | `cast( parvw as parvw_unv preserving type )` |
+| `WarrantyCustomerApplicationLog` | `cast(log_handle as wty_log_handle preserving type )` |
 | `WarrantyCustClmApplLogMessage` | `log_message` |
 | `WrntySupplierCoverageType` | `coverage_type_sup` |
 | `WrntySuplrClmProcessingStatus` | `astate_sup` |
@@ -67,9 +67,9 @@ tags:
 | `WrntySupplierClaimIsClosed` | `closed_sup` |
 | `WrntySupplierClaimClosedDate` | `closed_date_sup` |
 | `WrntySupplier` | `parnr_sup` |
-| `parvw_unv preserving type )` | `cast( parvw_sup` |
-| `wty_log_handle preserving type )` | `cast(log_handle_sup` |
-| `wty_balloghndl_msg_sup preserving type)` | `cast( log_message_sup` |
+| `WrntySupplierRole` | `cast( parvw_sup as parvw_unv preserving type )` |
+| `WrntySupplierApplicationLog` | `cast(log_handle_sup as wty_log_handle preserving type )` |
+| `WrntySuplrClmApplLogMessage` | `cast( log_message_sup as wty_balloghndl_msg_sup preserving type)` |
 | `WarrantyClaimChangeDateTime` | `timstmp` |
 | `WrntyClaimCreationDate` | `creadat` |
 | `CreatedByUser` | `creaby` |
@@ -110,8 +110,6 @@ tags:
 | `_Plant` | `I_Plant` | [1..1] |
 | `_SupCoverageType` | `I_WrntyClaimCoverageType` | [1..1] |
 | `_CustCoverageType` | `I_WrntyClaimCoverageType` | [1..1] |
-| `_ExternalObjectNumber` | `I_WrntyExternalObjectNumber` | [1..1] |
-| `_WrntyClaimAlertCount` | `I_WrntyClaimAlertCount` | [0..1] |
 | `_ExtensionWrntyClaim` | `E_WarrantyClaim` | [1..1] |
 
 ## Source Code

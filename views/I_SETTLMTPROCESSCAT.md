@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_settlmt_process_cat )` | `cast( dd07l.domvalue_l` |
+| `SettlmtProcessCat` | `cast( dd07l.domvalue_l as wlf_settlmt_process_cat )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SettlmtProcessCatText` | [0..*] |
 
 ## Source Code
 

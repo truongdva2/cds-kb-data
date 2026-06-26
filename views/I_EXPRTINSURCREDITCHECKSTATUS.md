@@ -16,6 +16,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:ExprtInsurCreditCheckStatus
 ---
 # I_EXPRTINSURCREDITCHECKSTATUS
 

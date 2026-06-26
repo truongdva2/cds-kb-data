@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:BPBankAccountInternalID
 ---
 # I_SUPLRBKDETSBYINTIDSTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Supplier` | `Supplier` |
-| `key BPBankAccountInternalID` | `BPBankAccountInternalID` |
+| `Supplier` | `Supplier` |
+| `BPBankAccountInternalID` | `BPBankAccountInternalID` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `BankCountry` | `BankCountry` |
 | `_Supplier` | *Association* |

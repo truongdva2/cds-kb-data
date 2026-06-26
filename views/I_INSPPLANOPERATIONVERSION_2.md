@@ -30,42 +30,37 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspectionPlanGroup` | `_BillOfOperationsOpBasic.BillOfOperationsGroup` |
-| `key      _BillOfOperationsOpBasic.BOOOperationInternalID` | `_BillOfOperationsOpBasic.BOOOperationInternalID` |
-| `key      _BillOfOperationsOpBasic.BOOOpInternalVersionCounter` | `_BillOfOperationsOpBasic.BOOOpInternalVersionCounter` |
-| `key      _BillOfOperationsOpBasic.BillOfOperationsType` | `_BillOfOperationsOpBasic.BillOfOperationsType` |
-| `_InspPlanOpAssgmt.InspectionPlan` | *Association* |
-| `_BillOfOperationsOpBasic.WorkCenterInternalID` | *Association* |
-| `_BillOfOperationsOpBasic.WorkCenterTypeCode` | *Association* |
-| `cast(` | `cast(` |
-| `case` | `case` |
-| `when _BillOfOperationsOpBasic.IsDeleted = 'X' then 'X'` | `when _BillOfOperationsOpBasic.IsDeleted = 'X' then 'X'` |
-| `when _InspPlanOpAssgmt.IsDeleted = 'X' then 'X'` | `when _InspPlanOpAssgmt.IsDeleted = 'X' then 'X'` |
-| `else ' '` | `else ' '` |
-| `lkenz preserving type )` | `end` |
-| `_BillOfOperationsOpBasic.IsImplicitlyDeleted` | *Association* |
-| `_BillOfOperationsOpBasic.OperationExternalID` | *Association* |
-| `_BillOfOperationsOpBasic.Operation_2 as Operation` | *Association* |
-| `_BillOfOperationsOpBasic.OperationText` | *Association* |
-| `_BillOfOperationsOpBasic.Plant` | *Association* |
-| `_BillOfOperationsOpBasic.OperationControlProfile` | *Association* |
-| `_BillOfOperationsOpBasic.OperationStandardTextCode` | *Association* |
-| `_BillOfOperationsOpBasic.BillOfOperationsRefType` | *Association* |
-| `_BillOfOperationsOpBasic.BillOfOperationsRefGroup` | *Association* |
-| `_BillOfOperationsOpBasic.BillOfOperationsRefVariant` | *Association* |
-| `_BillOfOperationsOpBasic.BOORefOperationIncrementValue` | *Association* |
-| `_BillOfOperationsOpBasic.InspSbstCompletionConfirmation` | *Association* |
-| `_BillOfOperationsOpBasic.InspSbstHasNoTimeOrQuantity` | *Association* |
-| `_BillOfOperationsOpBasic.OperationReferenceQuantity` | *Association* |
-| `_BillOfOperationsOpBasic.OperationUnit` | *Association* |
-| `_BillOfOperationsOpBasic.OpQtyToBaseQtyDnmntr` | *Association* |
-| `_BillOfOperationsOpBasic.OpQtyToBaseQtyNmrtr` | *Association* |
-| `_BillOfOperationsOpBasic.CreationDate` | *Association* |
-| `_BillOfOperationsOpBasic.CreatedByUser` | *Association* |
-| `_BillOfOperationsOpBasic.LastChangeDate` | *Association* |
-| `_BillOfOperationsOpBasic.LastChangedByUser` | *Association* |
-| `_BillOfOperationsOpBasic.ChangeNumber` | *Association* |
-| `_BillOfOperationsOpBasic.ValidityStartDate` | *Association* |
-| `_BillOfOperationsOpBasic.ValidityEndDate` | *Association* |
+| `BOOOperationInternalID` | `_BillOfOperationsOpBasic.BOOOperationInternalID` |
+| `BOOOpInternalVersionCounter` | `_BillOfOperationsOpBasic.BOOOpInternalVersionCounter` |
+| `BillOfOperationsType` | `_BillOfOperationsOpBasic.BillOfOperationsType` |
+| `InspectionPlan` | `_InspPlanOpAssgmt.InspectionPlan` |
+| `WorkCenterInternalID` | `_BillOfOperationsOpBasic.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `_BillOfOperationsOpBasic.WorkCenterTypeCode` |
+| `IsDeleted` | `cast(…)` |
+| `IsImplicitlyDeleted` | `_BillOfOperationsOpBasic.IsImplicitlyDeleted` |
+| `OperationExternalID` | `_BillOfOperationsOpBasic.OperationExternalID` |
+| `Operation` | `_BillOfOperationsOpBasic.Operation_2` |
+| `OperationText` | `_BillOfOperationsOpBasic.OperationText` |
+| `Plant` | `_BillOfOperationsOpBasic.Plant` |
+| `OperationControlProfile` | `_BillOfOperationsOpBasic.OperationControlProfile` |
+| `OperationStandardTextCode` | `_BillOfOperationsOpBasic.OperationStandardTextCode` |
+| `BillOfOperationsRefType` | `-- Origin _BillOfOperationsOpBasic.BillOfOperationsRefType` |
+| `BillOfOperationsRefGroup` | `_BillOfOperationsOpBasic.BillOfOperationsRefGroup` |
+| `BillOfOperationsRefVariant` | `_BillOfOperationsOpBasic.BillOfOperationsRefVariant` |
+| `BOORefOperationIncrementValue` | `_BillOfOperationsOpBasic.BOORefOperationIncrementValue` |
+| `InspSbstCompletionConfirmation` | `expr(…)` |
+| `InspSbstHasNoTimeOrQuantity` | `_BillOfOperationsOpBasic.InspSbstHasNoTimeOrQuantity` |
+| `OperationReferenceQuantity` | `--Standard Values _BillOfOperationsOpBasic.OperationReferenceQuantity` |
+| `OperationUnit` | `_BillOfOperationsOpBasic.OperationUnit` |
+| `OpQtyToBaseQtyDnmntr` | `_BillOfOperationsOpBasic.OpQtyToBaseQtyDnmntr` |
+| `OpQtyToBaseQtyNmrtr` | `_BillOfOperationsOpBasic.OpQtyToBaseQtyNmrtr` |
+| `CreationDate` | `_BillOfOperationsOpBasic.CreationDate` |
+| `CreatedByUser` | `_BillOfOperationsOpBasic.CreatedByUser` |
+| `LastChangeDate` | `_BillOfOperationsOpBasic.LastChangeDate` |
+| `LastChangedByUser` | `_BillOfOperationsOpBasic.LastChangedByUser` |
+| `ChangeNumber` | `_BillOfOperationsOpBasic.ChangeNumber` |
+| `ValidityStartDate` | `_BillOfOperationsOpBasic.ValidityStartDate` |
+| `ValidityEndDate` | `_BillOfOperationsOpBasic.ValidityEndDate` |
 | `_InspectionPlanVersion` | *Association* |
 | `_BillOfOperationsType` | *Association* |
 

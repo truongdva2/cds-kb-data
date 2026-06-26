@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalArea` | `FunctionalArea` |
-| `_Text[1: Language=$session.system_language].FunctionalAreaName` | *Association* |
+| `FunctionalArea` | `FunctionalArea` |
+| `FunctionalAreaName` | `_Text[1: Language=$session.system_language].FunctionalAreaName` |
 
 ## Associations
 

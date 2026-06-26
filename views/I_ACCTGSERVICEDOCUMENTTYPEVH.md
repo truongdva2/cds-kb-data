@@ -17,6 +17,7 @@ tags:
   - document
   - component:CO-PC-OBJ-SRV-2CL
   - lob:Controlling
+  - bo:ServiceDocumentType
 ---
 # I_ACCTGSERVICEDOCUMENTTYPEVH
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceDocumentTypeName` | `ServiceDocumentTypeName` |
 
 ## Associations

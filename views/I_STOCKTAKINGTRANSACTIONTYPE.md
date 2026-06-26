@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InventoryTransactionType` | `InventoryTransactionType` |
-| `IsPhysicalInventoryRelevant` | `IsPhysicalInventoryRelevant` |
+| `InventoryTransactionType` | `InventoryTransactionType` |
 | `IsMaterialDocumentRelevant` | `IsMaterialDocumentRelevant` |
 | `IsReservationRelevant` | `IsReservationRelevant` |
 | `_Text` | *Association* |

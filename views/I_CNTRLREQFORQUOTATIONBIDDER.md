@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_PartnerFunction' }` | `foreignKey.association: '_PartnerFunction' }` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `PartnerCounter` | `PartnerCounter` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Supplier` | `Supplier` |
-| `/*Association*/` | `/*Association*/` |
 | `_CentralRequestForQuotation` | *Association* |
 | `_PartnerFunction` | *Association* |
 | `_Supplier` | *Association* |

@@ -31,14 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/scatyp preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationScaleType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/scatyp preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspScaleTypeText_2` | [0..*] |
 
 ## Source Code
 

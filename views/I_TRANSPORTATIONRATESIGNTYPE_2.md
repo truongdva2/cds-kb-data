@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_rate_sign_ind preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspRateSignType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_rate_sign_ind preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspRateSignTypeText` | [0..*] |
 
 ## Source Code
 

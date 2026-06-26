@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-2CL
   - lob:Finance
+  - bo:FiscalYear
 ---
 # I_FISCALYEARRAWDATA
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_periv preserving type )` | `cast( t009c.periv` |
-| `fins_gjahr_no_conv preserving type )` | `cast( t009c.bdatj` |
+| `FiscalYearVariant` | `cast( t009c.periv as fis_periv preserving type )` |
+| `FiscalYear` | `cast( t009c.bdatj as fins_gjahr_no_conv preserving type )` |
 | `_FiscalYearVariant` | *Association* |
 
 ## Associations

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcValuePositionNumber
 ---
 # I_CLFNCHARCVALUEDESCFORKEYDATE
 
@@ -29,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcValueDesc.CharcInternalID` | `CharcValueDesc.CharcInternalID` |
-| `key CharcValueDesc.CharcValuePositionNumber` | `CharcValueDesc.CharcValuePositionNumber` |
-| `key CharcValueDesc.Language` | `CharcValueDesc.Language` |
-| `CharcValueDesc.CharcValueDescription` | `CharcValueDesc.CharcValueDescription` |
-| `CharcValueDesc.ChangeNumber` | `CharcValueDesc.ChangeNumber` |
-| `CharcValueDesc.ValidityStartDate` | `CharcValueDesc.ValidityStartDate` |
-| `CharcValueDesc.ValidityEndDate` | `CharcValueDesc.ValidityEndDate` |
+| `CharcInternalID` | `CharcValueDesc.CharcInternalID` |
+| `CharcValuePositionNumber` | `CharcValueDesc.CharcValuePositionNumber` |
+| `Language` | `CharcValueDesc.Language` |
+| `CharcValueDescription` | `CharcValueDesc.CharcValueDescription` |
+| `ChangeNumber` | `CharcValueDesc.ChangeNumber` |
+| `ValidityStartDate` | `CharcValueDesc.ValidityStartDate` |
+| `ValidityEndDate` | `CharcValueDesc.ValidityEndDate` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicValue` | *Association* |
 | `_Language` | *Association* |

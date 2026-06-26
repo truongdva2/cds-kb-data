@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qpumfkz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `, _Text` | `, _Text` |
+| `InspectionScope` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qpumfkz preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

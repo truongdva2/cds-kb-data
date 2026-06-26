@@ -31,7 +31,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `pricing.PurchaseOrder` |
+| `PurchaseOrderItem` | `pricing.PurchaseOrderItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionType` | `ConditionType` |
+| `PricingDateTime` | `PricingDateTime` |
+| `ConditionCalculationType` | `ConditionCalculationType` |
+| `ConditionBaseValue` | `ConditionBaseValue` |
+| `ConditionRateValue` | `ConditionRateValue` |
+| `ConditionCurrency` | `ConditionCurrency` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `AbsltPriceDetnExchangeRate` | `cast(abs( PriceDetnExchangeRate ) as kursk_abs)` |
+| `PriceDetnExchRateIsIndrctQtan` | `cast(…)` |
+| `ConditionQuantity` | `ConditionQuantity` |
+| `ConditionQuantityUnit` | `ConditionQuantityUnit` |
+| `ConditionToBaseQtyNmrtr` | `ConditionToBaseQtyNmrtr` |
+| `ConditionToBaseQtyDnmntr` | `ConditionToBaseQtyDnmntr` |
+| `ConditionCategory` | `ConditionCategory` |
+| `ConditionIsForStatistics` | `ConditionIsForStatistics` |
+| `PricingScaleType` | `PricingScaleType` |
+| `IsRelevantForAccrual` | `IsRelevantForAccrual` |
+| `CndnIsRelevantForInvoiceList` | `CndnIsRelevantForInvoiceList` |
+| `ConditionOrigin` | `ConditionOrigin` |
+| `IsGroupCondition` | `IsGroupCondition` |
+| `AccessNumberOfAccessSequence` | `AccessNumberOfAccessSequence` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `AccountKeyForGLAccount` | `AccountKeyForGLAccount` |
+| `GLAccount` | `GLAccount` |
+| `TaxCode` | `TaxCode` |
+| `AcctKeyForAccrualsGLAccount` | `AcctKeyForAccrualsGLAccount` |
+| `AccrualsGLAccount` | `AccrualsGLAccount` |
+| `WithholdingTaxCode` | `WithholdingTaxCode` |
 | `FreightSupplier` | `FreightSupplier` |
 | `CndnRoundingOffDiffAmount` | `CndnRoundingOffDiffAmount` |
 | `ConditionAmount` | `ConditionAmount` |

@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FldLogsReceivedHandlingUnit
 ---
 # I_FLDLOGSRCVDHNDLGUNITITEMTP
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
-| `key FldLogsShptItmHndlgUnitID` | `FldLogsShptItmHndlgUnitID` |
-| `key FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsShptItmHndlgUnitID` | `FldLogsShptItmHndlgUnitID` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `DispatchedStartDate` | `DispatchedStartDate` |
 | `FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
 | `FldLogsReferenceDocCategory` | `FldLogsReferenceDocCategory` |
@@ -111,7 +112,7 @@ tags:
 | `InventorySpecialStockType` | `InventorySpecialStockType` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
-| `WarehouseStorageBin, //Destination Storage Bin` | `WarehouseStorageBin, //Destination Storage Bin` |
+| `WarehouseStorageBin` | `WarehouseStorageBin` |
 | `PurchasingDocumentItem` | `PurchasingDocumentItem` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `FldLogsItmActualReceivingPlant` | `FldLogsItmActualReceivingPlant` |
@@ -121,7 +122,6 @@ tags:
 | `InspectionLot` | `InspectionLot` |
 | `GoodsReceivingPoint` | `GoodsReceivingPoint` |
 | `ShippingPoint` | `ShippingPoint` |
-| `/* Associations */` | `/* Associations */` |
 | `_ActionText` | *Association* |
 | `_DestinationStorageLocationTxt` | *Association* |
 | `_DispatchPlantText` | *Association* |

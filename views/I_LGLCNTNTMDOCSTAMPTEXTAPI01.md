@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocumentStamp` | `LglCntntMDocumentStamp` |
-| `key Language` | `Language` |
+| `LglCntntMDocumentStamp` | `LglCntntMDocumentStamp` |
+| `Language` | `Language` |
 | `LglCntntMDocumentStampName` | `LglCntntMDocumentStampName` |
 
 ## Associations

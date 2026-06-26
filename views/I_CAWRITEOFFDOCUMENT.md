@@ -67,7 +67,6 @@ tags:
 | `CADocumentClass` | `CADocumentClass` |
 | `CADocumentVersion` | `CADocumentVersion` |
 | `IsIndividualPosting` | `IsIndividualPosting` |
-| `/* Associations */` | `/* Associations */` |
 | `_CAApplicationArea` | *Association* |
 | `_CAClearingInformation` | *Association* |
 | `_CADocTransactionClass` | *Association* |

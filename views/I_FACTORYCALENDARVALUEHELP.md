@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:BC-SRV-ASF-CAL
   - lob:Basis Components
+  - bo:FactoryCalendarID
 ---
 # I_FACTORYCALENDARVALUEHELP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  FactoryCalendarID` | `FactoryCalendarID` |
+| `FactoryCalendarID` | `FactoryCalendarID` |
 | `FactoryCalendarLegacyID` | `FactoryCalendarLegacyID` |
 | `FctryCalendarValidityStartDate` | `FctryCalendarValidityStartDate` |
 | `FactoryCalendarValidityEndDate` | `FactoryCalendarValidityEndDate` |

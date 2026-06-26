@@ -17,6 +17,7 @@ tags:
   - status
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:Status
 ---
 # I_CASESTATUSTEXT
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgstatpara preserving type )` | `cast( stat_para` |
+| `Status` | `cast( stat_para as scmgstatpara preserving type )` |
 | `Language` | `langu` |
 | `StatusName` | `stat_para_descr` |
 | `_Language` | *Association* |

@@ -30,22 +30,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocumentItem    : ehfnd_log_doc_posnr;           // Id of the corresponding item in the PCLD instance` | `ProdCmplncLogsDocumentItem    : ehfnd_log_doc_posnr;           // Id of the corresponding item in the PCLD instance` |
-| `DngrsGdsIsHazardousMaterial   : dngrsgdsishazardousmaterial;   // abap_boolean Flag product is Dangerous Goods` | `DngrsGdsIsHazardousMaterial   : dngrsgdsishazardousmaterial;   // abap_boolean Flag product is Dangerous Goods` |
-| `DngrsGdsIsGrossWeightCalcRlvt : dngrsgdsisgrossweightcalcrlvt; // abap_boolean Flag Product is Gross Weight Calculation relevant` | `DngrsGdsIsGrossWeightCalcRlvt : dngrsgdsisgrossweightcalcrlvt; // abap_boolean Flag Product is Gross Weight Calculation relevant` |
-| `DngrsGdsDescForDocumentsText  : dngrsgdsdescfordocumentstext;  // string Concatenated texts with “new lines”` | `DngrsGdsDescForDocumentsText  : dngrsgdsdescfordocumentstext;  // string Concatenated texts with “new lines”` |
-| `DangerousGoodNetMassQty       : dangerousgoodnetmassqty;       // dec11_4 Dangerous goods net mass` | `DangerousGoodNetMassQty       : dangerousgoodnetmassqty;       // dec11_4 Dangerous goods net mass` |
-| `DangerousGoodNetMassSAPUnit   : dangerousgoodnetmasssapunit;   // ehfnd_unit_code_nce Dangerous goods net mass SAP unit` | `DangerousGoodNetMassSAPUnit   : dangerousgoodnetmasssapunit;   // ehfnd_unit_code_nce Dangerous goods net mass SAP unit` |
-| `DangerousGoodNetMassISOUnit   : dangerousgoodnetmassisounit;   // isocd_unit Dangerous goods net mass ISO unit` | `DangerousGoodNetMassISOUnit   : dangerousgoodnetmassisounit;   // isocd_unit Dangerous goods net mass ISO unit` |
-| `GrossWeight                   : ehfnd_gross_weight_val;        // /scmtms/quantity Gross Weight Value` | `GrossWeight                   : ehfnd_gross_weight_val;        // /scmtms/quantity Gross Weight Value` |
-| `GrossWeightUnit               : ehfnd_gross_weight_uom;        // meins Gross Weight Unit of Measure` | `GrossWeightUnit               : ehfnd_gross_weight_uom;        // meins Gross Weight Unit of Measure` |
-| `GrossVolume                   : ehfnd_gross_volume_val;        // /scmtms/quantity Gross Volume Value` | `GrossVolume                   : ehfnd_gross_volume_val;        // /scmtms/quantity Gross Volume Value` |
-| `GrossVolumeUnit               : ehfnd_gross_volume_uom;        // meins Gross Volume Unit of Measure` | `GrossVolumeUnit               : ehfnd_gross_volume_uom;        // meins Gross Volume Unit of Measure` |
-| `_Root                         : association to parent D_PCLgsDcGetDngrsGdsDocInfoR;` | *Association* |
+| `ProdCmplncLogsDocumentItem` | `ehfnd_log_doc_posnr` |
+| `DngrsGdsIsHazardousMaterial` | `dngrsgdsishazardousmaterial` |
+| `DngrsGdsIsGrossWeightCalcRlvt` | `dngrsgdsisgrossweightcalcrlvt` |
+| `DngrsGdsDescForDocumentsText` | `dngrsgdsdescfordocumentstext` |
+| `DangerousGoodNetMassQty` | `dangerousgoodnetmassqty` |
+| `DangerousGoodNetMassSAPUnit` | `dangerousgoodnetmasssapunit` |
+| `DangerousGoodNetMassISOUnit` | `dangerousgoodnetmassisounit` |
+| `GrossWeight` | `ehfnd_gross_weight_val` |
+| `GrossWeightUnit` | `ehfnd_gross_weight_uom` |
+| `GrossVolume` | `ehfnd_gross_volume_val` |
+| `GrossVolumeUnit` | `ehfnd_gross_volume_uom` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetDngrsGdsDocInfoR` | — |
 
 ## Source Code
 

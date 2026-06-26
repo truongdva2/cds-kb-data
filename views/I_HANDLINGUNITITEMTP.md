@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key HandlingUnitExternalID` | `HandlingUnitExternalID` |
-| `key Warehouse` | `Warehouse` |
-| `key StockItemUUID` | `StockItemUUID` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `Warehouse` | `Warehouse` |
+| `StockItemUUID` | `StockItemUUID` |
 | `HandlingUnitItem` | `HandlingUnitItem` |
 | `HandlingUnitTypeOfContent` | `HandlingUnitTypeOfContent` |
 | `HandlingUnitNestedExternalID` | `HandlingUnitNestedExternalID` |
@@ -55,9 +55,6 @@ tags:
 | `SerialNumberProfile` | `SerialNumberProfile` |
 | `SpecialStockIdfgSalesOrder` | `SpecialStockIdfgSalesOrder` |
 | `SpecialStockIdfgSalesOrderItem` | `SpecialStockIdfgSalesOrderItem` |
-| `/* Associations */` | `/* Associations */` |
-| `_HandlingUnit : redirected to parent I_HandlingUnitTP` | *Association* |
-| `_HandlingUnitItemSerialNumber : redirected to composition child I_HandlingUnitItemSerialNoTP` | *Association* |
 
 ## Associations
 

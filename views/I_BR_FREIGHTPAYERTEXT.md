@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:FreightPayer
 ---
 # I_BR_FREIGHTPAYERTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_freight_mode preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_freightmode preserving type)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `FreightPayer` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_freight_mode preserving type )` |
+| `FreightPayerDesc` | `cast(ddtext as logbr_freightmode preserving type)` |
 | `_FreightPayer` | *Association* |
 | `_Language` | *Association* |
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseOrderOutputIsAutomated
 ---
 # I_POCHANNELOUTPUTTYPETXT
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `mm_a_output_channel_type )` | `cast( substring(dd07t.domvalue_l, 1, 2 )` |
+| `PurchaseOrderOutputIsAutomated` | `cast( substring(dd07t.domvalue_l, 1, 2 ) as mm_a_output_channel_type )` |
 | `POOutputChannelAutomnText` | `dd07t.ddtext` |
 | `_OutputType` | *Association* |
 | `_Language` | *Association* |

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationRateTableUUID` | `TransportationRateTableUUID` |
+| `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TranspRateTableID` | `TranspRateTableID` |
 | `TranspRateTableDesc` | `TranspRateTableDesc` |
 | `TranspRateTableChangedOnDteTme` | `TranspRateTableChangedOnDteTme` |
@@ -43,10 +43,6 @@ tags:
 | `TranspChargeType` | `TranspChargeType` |
 | `TranspRateTableSignType` | `TranspRateTableSignType` |
 | `TranspRateTableTimeZone` | `TranspRateTableTimeZone` |
-| `/* Associations */` | `/* Associations */` |
-| `TransportationRateTable._TranspRateTableScaleRef     : redirected to composition child I_TranspRateTableScaleRefTP` | `TransportationRateTable._TranspRateTableScaleRef     : redirected to composition child I_TranspRateTableScaleRefTP` |
-| `TransportationRateTable._TranspRateTableValidity     : redirected to composition child I_TranspRateTableValidityTP` | `TransportationRateTable._TranspRateTableValidity     : redirected to composition child I_TranspRateTableValidityTP` |
-| `TransportationRateTable._TranspRateTableOrganization : redirected to composition child I_TranspRateTableOrgTP` | `TransportationRateTable._TranspRateTableOrganization : redirected to composition child I_TranspRateTableOrgTP` |
 
 ## Associations
 

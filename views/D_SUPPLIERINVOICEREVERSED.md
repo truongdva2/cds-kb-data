@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FiscalYear : gjahr;` | `FiscalYear : gjahr;` |
+| `FiscalYear` | `gjahr` |
 
 ## Associations
 

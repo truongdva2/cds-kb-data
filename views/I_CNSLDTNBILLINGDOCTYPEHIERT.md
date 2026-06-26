@@ -32,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_billingdoctypehierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_billingdoctypehiertext  preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyText._Language` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnBillingDocTypeHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnBillingDocTypeHierText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

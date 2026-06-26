@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-SQ-QTA-2CL
   - lob:Sourcing & Procurement
+  - bo:QuotaArrangement
 ---
 # I_PURGQUOTAARRGMTAPI01
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QuotaArrangement` | `QuotaArrangement` |
+| `QuotaArrangement` | `QuotaArrangement` |
 | `Material` | `Material` |
 | `Plant` | `Plant` |
 | `ValidityEndDate` | `ValidityEndDate` |

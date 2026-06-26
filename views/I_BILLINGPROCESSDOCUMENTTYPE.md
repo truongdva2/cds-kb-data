@@ -16,6 +16,7 @@ tags:
   - document
   - component:SD-BIL-GF-2CL
   - lob:Sales & Distribution
+  - bo:BillingProcessDocumentType
 ---
 # I_BILLINGPROCESSDOCUMENTTYPE
 
@@ -32,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billingprocessdocumenttype preserving type )` | `cast( fkart` |
+| `BillingProcessDocumentType` | `cast( fkart as billingprocessdocumenttype preserving type )` |
 | `SDDocumentCategory` | `vbtyp` |
 | `IncrementItemNumber` | `incpo` |
 | `BillingDocumentCategory` | `fktyp` |
-| `billg_proc_doc_text_detn_head preserving type )` | `cast( txtgr` |
-| `billg_proc_doc_text_detn_item preserving type )` | `cast( txtgr_p` |
+| `BillgProcDocTxtDetnProcedure` | `cast( txtgr as billg_proc_doc_text_detn_head preserving type )` |
+| `BillgProcDocItmTxtDetnProced` | `cast( txtgr_p as billg_proc_doc_text_detn_item preserving type )` |
 | `_Text` | *Association* |
 | `_SDDocumentCategory` | *Association* |
 | `_BillingDocumentCategory` | *Association* |

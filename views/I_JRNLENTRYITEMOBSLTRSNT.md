@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:JrnlEntryItemObsoleteReason
 ---
 # I_JRNLENTRYITEMOBSLTRSNT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fins_obsolete_item_reason preserving type )` | `cast( substring( dd07t.domvalue_l, 1, 1)` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `JrnlEntryItemObsoleteReason` | `cast(…)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fis_fin_acc_type_name preserving type )` | `cast( dd07t.ddtext` |
+| `JrnlEntryItemObsoleteRsnName` | `cast( dd07t.ddtext as fis_fin_acc_type_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

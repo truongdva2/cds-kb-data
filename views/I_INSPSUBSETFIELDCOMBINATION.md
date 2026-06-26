@@ -32,13 +32,7 @@ tags:
 | `InspSubsetFieldCombination` | `slwbez` |
 | `InspectionSubsetType` | `ppkttyp` |
 | `InspSbstFieldCombnIsLastValid` | `last_valid` |
-| `cast(` | `cast(` |
-| `case tq79.ppkttyp` | `case tq79.ppkttyp` |
-| `when '1' then '1'  //Equipment` | `when '1' then '1'  //Equipment` |
-| `when '2' then '1'  //Functional Location` | `when '2' then '1'  //Functional Location` |
-| `when '3' then '2'  //Sample` | `when '3' then '2'  //Sample` |
-| `else 'X'` | `else 'X'` |
-| `vdm_qkzrast preserving type )` | `end` |
+| `SamplingProcedureInspSubset` | `cast(…)` |
 | `InspSbstLongTxtFldProperty` | `userc1akt` |
 | `InspSbstShrtTxtFldProperty` | `userc2akt` |
 | `InspSbstLongNmbrFldProperty` | `usern1akt` |

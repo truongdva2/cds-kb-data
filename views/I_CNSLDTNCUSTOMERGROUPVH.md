@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerGroup` | `CustomerGroup` |
-| `_CnsldtnCustomerGroup._Text[1: Language=$session.system_language].CustomerGroupName` | *Association* |
+| `CustomerGroup` | `CustomerGroup` |
+| `CustomerGroupName` | `expr(…)` |
 
 ## Associations
 

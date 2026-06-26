@@ -31,17 +31,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_PurchasingDocumentCategory', element : 'PurchasingDocumentCategory' } }]` | `name : 'I_PurchasingDocumentCategory', element : 'PurchasingDocumentCategory' } }]` |
+| `InspectionLot` | `QualityVariance.InspectionLot` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
+| `SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
+| `PurchaseOrder` | `cast( QualityVariance.PurchasingDocument as vdm_purchaseorder )` |
+| `PurchaseOrderItem` | `cast( QualityVariance.PurchasingDocumentItem as vdm_purchaseorderitem )` |
+| `Supplier` | `QualityVariance.Supplier` |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
+| `Region` | `_Supplier.Region` |
+| `CountryName` | `expr(…)` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `CalendarYear` | `_Date.CalendarYear` |
+| `CalendarQuarter` | `_Date.CalendarQuarter` |
+| `CalendarMonth` | `_Date.CalendarMonth` |
+| `CalendarWeek` | `_Date.CalendarWeek` |
+| `Material` | `QualityVariance.Material` |
+| `MaterialGroup` | `QualityVariance.MaterialGroup` |
+| `Plant` | `QualityVariance.Plant` |
 | `PurchasingDocumentCategory` | `QualityVariance.PurchasingDocumentCategory` |
 | `PurchasingCategory` | `PurchasingCategoryMatlGroup._PurchasingCategory.PurchasingCategory` |
 | `PurgCatName` | `PurchasingCategoryMatlGroup._PurchasingCategory.PurgCatName` |
-| `cast( case when UpdatedScore.IsScoreChanged = 'X'` | `cast( case when UpdatedScore.IsScoreChanged = 'X'` |
-| `then UpdatedScore.InspectionLotQualityScore` | `then UpdatedScore.InspectionLotQualityScore` |
-| `else QualityVariance.InspectionLotQualityScore` | `else QualityVariance.InspectionLotQualityScore` |
-| `mm_a_variance_score )` | `end` |
-| `mm_pur_ana_numbrofpurords )` | `cast( 1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast( 1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast( 1` |
+| `InspectionLotQualityScore` | `cast(…)` |
+| `NumberOfPurchaseOrders` | `cast( 1 as mm_pur_ana_numbrofpurords )` |
+| `NumberOfPurchaseOrderItems` | `cast( 1 as mm_pur_ana_numbrofpurorditms )` |
+| `NumberOfInspectionLots` | `cast( 1 as mm_pur_ana_numbrofpurorditms )` |
 | `PurchaseOrderItemUniqueID` | `PurchaseOrderItemUniqueID` |
 | `_Supplier` | *Association* |
 | `_Country` | *Association* |

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:JITCallNumber
 ---
 # I_SUMMARIZEDJITCALLSTDVH
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key JITCallNumber` | `JITCallNumber` |
+| `JITCallNumber` | `JITCallNumber` |
 | `Plant` | `Plant` |
 | `Supplier` | `Supplier` |
 | `SumzdJITCallPlndDelivDateTime` | `SumzdJITCallPlndDelivDateTime` |

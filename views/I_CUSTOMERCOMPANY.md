@@ -32,8 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_PaymentBlockValueHelp'` | `foreignKey.association: '_PaymentBlockValueHelp'` |
-| `}` | `}` |
+| `Customer` | `kunnr` |
+| `CompanyCode` | `bukrs` |
+| `AccountingClerk` | `busab` |
+| `ReconciliationAccount` | `akont` |
+| `AuthorizationGroup` | `begru` |
+| `CustomerHeadOffice` | `knrze` |
+| `AlternativePayerAccount` | `knrzb` |
 | `PaymentBlockingReason` | `zahls` |
 | `InterestCalculationCode` | `vzskz` |
 | `InterestCalculationDate` | `zindt` |
@@ -89,13 +94,13 @@ tags:
 | `US_FrgnRecipientHasPartnership` | `us_partnership_ind` |
 | `US_FrgnAcctTaxFilingIsRequired` | `us_fatca_ind` |
 | `US_Chapter4StatusCode` | `us_chap4_status_code` |
-| `_CustomerDefaultDunning.LastDunnedOn` | *Association* |
-| `_CustomerDefaultDunning.DunningProcedure` | *Association* |
-| `_CustomerDefaultDunning.DunningLevel` | *Association* |
-| `_CustomerDefaultDunning.DunningBlock` | *Association* |
-| `_CustomerDefaultDunning.DunningRecipient` | *Association* |
-| `_CustomerDefaultDunning.LegDunningProcedureOn` | *Association* |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `LastDunnedOn` | `_CustomerDefaultDunning.LastDunnedOn` |
+| `DunningProcedure` | `_CustomerDefaultDunning.DunningProcedure` |
+| `DunningLevel` | `_CustomerDefaultDunning.DunningLevel` |
+| `DunningBlock` | `_CustomerDefaultDunning.DunningBlock` |
+| `DunningRecipient` | `_CustomerDefaultDunning.DunningRecipient` |
+| `LegDunningProcedureOn` | `_CustomerDefaultDunning.LegDunningProcedureOn` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `_Customer` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_CustomerDunning` | *Association* |

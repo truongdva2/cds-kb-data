@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-WFD
   - lob:Cross-Application Components
+  - bo:PersonWorkAgreement
 ---
 # I_PERSWRKAGRMTMANAGERFORKEYDTE
 
@@ -27,18 +28,19 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `PersonWorkAgreement` | `cast( PersonWorkAgreement as persno preserving type )` |
+| `KeyDate` | `cast( $parameters.P_KeyDate as dats preserving type )` |
+| `ManagerPersonWorkAgreement` | `cast( ManagerPersonWorkAgreement as mstbr preserving type )` |
+| `PersonWorkAgrmtAuthznGrpg` | `cast( PersonWorkAgrmtAuthznGrpg as vdsk1 preserving type )` |
+| `_ManagerPersonWorkAgreement` | *Association* |
+| `_ManagerPersonWorkAgreement_1` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_ManagerPersonWorkAgreement` | `I_PersonWorkAgreement` | [1..1] |
-| `_ManagerPersonWorkAgreement_1` | `I_PersonWorkAgreement_1` | [1..1] |
-| `_ManagerPersonWorkAgreement` | `I_PersonWorkAgreement` | [1..1] |
-| `_ManagerPersonWorkAgreement_1` | `I_PersonWorkAgreement_1` | [1..1] |
-| `_ManagerPersonWorkAgreement` | `I_PersonWorkAgreement` | [1..1] |
-| `_ManagerPersonWorkAgreement_1` | `I_PersonWorkAgreement_1` | [1..1] |
 | `_ManagerPersonWorkAgreement` | `I_PersonWorkAgreement` | [1..1] |
 | `_ManagerPersonWorkAgreement_1` | `I_PersonWorkAgreement_1` | [1..1] |
 

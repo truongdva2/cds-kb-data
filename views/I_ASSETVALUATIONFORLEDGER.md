@@ -29,8 +29,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED}` | `status: #DEPRECATED}` |
-| `fis_alind)` | `cast(I_AssetValuation.RplcmtValueAgingIndexSers` |
+| `CompanyCode` | `I_AssetTimeBasedValuation.CompanyCode` |
+| `MasterFixedAsset` | `I_AssetTimeBasedValuation.MasterFixedAsset` |
+| `FixedAsset` | `I_AssetTimeBasedValuation.FixedAsset` |
+| `Ledger` | `I_AssetTimeBasedValuation.Ledger` |
+| `AssetRealDepreciationArea` | `cast(I_AssetTimeBasedValuation.AssetDepreciationArea as afabe_d)` |
+| `ValidityEndDate` | `I_AssetTimeBasedValuation.ValidityEndDate` |
+| `ValidityStartDate` | `I_AssetTimeBasedValuation.ValidityStartDate` |
+| `DepreciationStartDate` | `I_AssetValuation.DepreciationStartDate` |
+| `SpecialDeprStartDate` | `I_AssetValuation.SpecialDeprStartDate` |
+| `DeprKeyChangeoverYear` | `cast(I_AssetValuation.DeprKeyChangeoverYear as fis_umjar)` |
+| `DeprKeyChangeoverPeriod` | `I_AssetValuation.DeprKeyChangeoverPeriod` |
+| `DepreciationKey` | `I_AssetTimeBasedValuation.DepreciationKey` |
+| `InvestmentSupportMeasure` | `cast('' as faa_invsl)` |
+| `PlannedUsefulLifeInPeriods` | `cast(I_AssetTimeBasedValuation.PlannedUsefulLifeInPeriods as fis_ndper)` |
+| `PlannedUsefulLifeInYears` | `cast(I_AssetTimeBasedValuation.PlannedUsefulLifeInYears as fis_ndjar)` |
+| `VintageYear` | `cast('0000' as fis_vyear)` |
+| `VintageMonth` | `cast('000' as fis_vmnth)` |
+| `OriglAstUsefulLifeInPerds` | `cast('000' as fis_ndurp)` |
+| `OriglAstUsefulLifeInYears` | `cast('000' as ndurj)` |
+| `ReplacementValueIndexSers` | `I_AssetValuation.ReplacementValueIndexSers` |
+| `RplcmtValueAgingIndexSers` | `cast(I_AssetValuation.RplcmtValueAgingIndexSers as fis_alind)` |
 | `AcqnProdnCostScrapPercent` | `I_AssetTimeBasedValuation.AcqnProdnCostScrapPercent` |
 | `VariableDeprPercent` | `I_AssetTimeBasedValuation.VariableDeprPercent` |
 | `ShiftOperationFactor` | `I_AssetTimeBasedValuation.ShiftOperationFactor` |
@@ -39,11 +58,10 @@ tags:
 | `LastRetirementValueDate` | `I_AssetValuation.LastRetirementValueDate` |
 | `DepreciationAreaType` | `I_AssetValuation.DepreciationAreaType` |
 | `ScrapAmountInCoCodeCrcy` | `I_AssetTimeBasedValuation.ScrapAmountInCoCodeCrcy` |
-| `_CompanyCode.Currency                                                   as CompanyCodeCurrency` | *Association* |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
 | `AssetOpgReadinessDate` | `I_AssetValuation.AssetOpgReadinessDate` |
 | `FixedAssetUsageObject` | `I_AssetTimeBasedValuation.FixedAssetUsageObject` |
 | `AssetRevaluationIndex` | `I_AssetTimeBasedValuation.AssetRevaluationIndex` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_MasterFixedAsset` | *Association* |
 | `_FixedAsset` | *Association* |

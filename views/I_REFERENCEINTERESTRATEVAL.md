@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ReferenceInterestRate` | `ReferenceInterestRate.referenz` |
-| `abap.numc(8))` | `cast(left(cast(99999999 - cast(cast(ReferenceInterestRate.datab` |
+| `EffectiveDate` | `cast(…)` |
 | `EffectiveInterestRate` | `ReferenceInterestRate.zsoll` |
 | `_ReferenceInterestRate` | *Association* |
 

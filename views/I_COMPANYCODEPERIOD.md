@@ -34,11 +34,11 @@ tags:
 |---|---|
 | `CompanyCode` | `bukrs` |
 | `FiscalMonthCurrentPeriod` | `lfmon` |
-| `cmd_prd_lfgja preserving type )` | `cast ( lfgja` |
+| `ProductCurrentFiscalYear` | `cast ( lfgja as cmd_prd_lfgja preserving type )` |
 | `FiscalMonthPreviousPeriod` | `vmmon` |
-| `cmd_prd_vmgja preserving type )` | `cast ( vmgja` |
+| `ProdPreviousPeriodFiscalYear` | `cast ( vmgja as cmd_prd_vmgja preserving type )` |
 | `FiscalMonthLastYear` | `vjmon` |
-| `cmd_prd_vjgja  preserving type )` | `cast (vjgja` |
+| `ProductLastFiscalYear` | `cast (vjgja as cmd_prd_vjgja preserving type )` |
 
 ## Associations
 

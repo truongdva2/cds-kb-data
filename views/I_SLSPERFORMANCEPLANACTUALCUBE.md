@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesPlanItemUUID` | `SalesPlanItemUUID` |
-| `key SDDocument` | `SDDocument` |
-| `key SDDocumentItem` | `SDDocumentItem` |
+| `SalesPlanItemUUID` | `SalesPlanItemUUID` |
+| `SDDocument` | `SDDocument` |
+| `SDDocumentItem` | `SDDocumentItem` |
 | `SalesDocumentType` | `SalesDocumentType` |
 | `_SalesDocumentType` | *Association* |
 | `BillingDocumentType` | `BillingDocumentType` |
@@ -95,11 +95,7 @@ tags:
 | `_AdditionalMaterialGroup4` | *Association* |
 | `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
 | `_AdditionalMaterialGroup5` | *Association* |
-| `cast(` | `cast(` |
-| `case when SalesEmployee is not null` | `case when SalesEmployee is not null` |
-| `then SalesEmployee` | `then SalesEmployee` |
-| `else '00000000'` | `else '00000000'` |
-| `sales_empl )` | `end` |
+| `SalesEmployee` | `cast(…)` |
 | `_SalesEmployee_2` | *Association* |
 | `Plant` | `Plant` |
 | `_Plant` | *Association* |
@@ -127,10 +123,10 @@ tags:
 | `SalesPlanAmountInDspCrcy` | `SalesPlanAmountInDspCrcy` |
 | `SalesPerfActlAmtInDspCurrency` | `SalesPerfActlAmtInDspCurrency` |
 | `SalesPlanQuantity` | `SalesPlanQuantity` |
-| `plan_unit)` | `cast(SalesPlanUnit` |
+| `SalesPlanUnit` | `cast(SalesPlanUnit as plan_unit)` |
 | `_SalesPlanUnit` | *Association* |
 | `SalesPerfActualQtyInBaseUnit` | `SalesPerfActualQtyInBaseUnit` |
-| `meins)` | `cast (BaseUnit` |
+| `BaseUnit` | `cast (BaseUnit as meins)` |
 | `_BaseUnit` | *Association* |
 | `SalesPerformanceActualQuantity` | `SalesPerformanceActualQuantity` |
 | `SalesPerfActualQuantityUnit` | `SalesPerfActualQuantityUnit` |
@@ -141,7 +137,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_SalesPlanPurpose` | `I_SalesPlanPurpose` | [0..1] |
-| `_CreatedByUser` | `I_User` | [0..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
 | `_OrganizationDivision` | `I_Division` | [0..1] |

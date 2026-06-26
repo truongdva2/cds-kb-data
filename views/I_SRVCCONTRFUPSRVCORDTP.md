@@ -29,10 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceContract` | `ServiceContract` |
-| `key ServiceOrder` | `ServiceOrder` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractTP : redirected to parent I_ServiceContractTP` | *Association* |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceOrder` | `ServiceOrder` |
 
 ## Associations
 

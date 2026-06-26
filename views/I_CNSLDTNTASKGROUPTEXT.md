@@ -32,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_taskgroup_txt preserving type )` | `cast(txt` |
+| `ConsolidationTaskGroup` | `cast( acgr as fincs_taskgroup preserving type )` |
+| `Language` | `langu` |
+| `ConsolidationTaskGroupText` | `cast(txt as fincs_taskgroup_txt preserving type )` |
 | `_Language` | *Association* |
 | `_CnsldtnTaskGroup` | *Association* |
 

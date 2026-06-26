@@ -14,6 +14,7 @@ tags:
   - lease
   - component:MM-PUR-OA-SCH-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseSchedulingAgreementItm
 ---
 # D_PURSCHEDGAGRMTRELEASED
 
@@ -30,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Supplier                       : md_supplier;` | `Supplier                       : md_supplier;` |
-| `Material                       : matnr;` | `Material                       : matnr;` |
-| `ManufacturerMaterial           : ematnr;` | `ManufacturerMaterial           : ematnr;` |
-| `SupplierMaterialNumber         : idnlf;` | `SupplierMaterialNumber         : idnlf;` |
-| `MaterialGroup                  : matkl;` | `MaterialGroup                  : matkl;` |
-| `Plant                          : ewerk;` | `Plant                          : ewerk;` |
-| `SchedulingAgreementReleaseType : meabart;` | `SchedulingAgreementReleaseType : meabart;` |
-| `SchedulingAgreementRelease     : meabruf;` | `SchedulingAgreementRelease     : meabruf;` |
+| `Supplier` | `md_supplier` |
+| `Material` | `matnr` |
+| `ManufacturerMaterial` | `ematnr` |
+| `SupplierMaterialNumber` | `idnlf` |
+| `MaterialGroup` | `matkl` |
+| `Plant` | `ewerk` |
+| `SchedulingAgreementReleaseType` | `meabart` |
+| `SchedulingAgreementRelease` | `meabruf` |
 
 ## Associations
 

@@ -17,6 +17,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:BondClassification
 ---
 # I_BONDCLASSIFICATIONTEXT
 
@@ -35,7 +36,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `BondClassification` | `swpklass` |
-| `ftr_gen_bond_classifi_name preserving type)` | `cast (xlangbez` |
+| `BondClassificationName` | `cast (xlangbez as ftr_gen_bond_classifi_name preserving type)` |
 | `_BondClassification` | *Association* |
 | `_Language` | *Association* |
 

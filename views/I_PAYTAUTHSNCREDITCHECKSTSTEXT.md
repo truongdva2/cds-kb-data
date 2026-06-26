@@ -17,6 +17,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:PaytAuthsnCreditCheckSts
 ---
 # I_PAYTAUTHSNCREDITCHECKSTSTEXT
 
@@ -35,13 +36,16 @@ tags:
 |---|---|
 | `PaytAuthsnCreditCheckSts` | `statu` |
 | `Language` | `spras` |
-| `paytauthsncreditcheckstsdesc )` | `cast(bezei` |
+| `PaytAuthsnCreditCheckStsDesc` | `cast(bezei as paytauthsncreditcheckstsdesc )` |
 | `_PaytAuthsnCreditCheckSts` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PaytAuthsnCreditCheckSts` | `I_PaytAuthsnCreditCheckSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

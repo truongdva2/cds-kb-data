@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'MaterialGroupName' }` | `status: #DEPRECATED, successor: 'MaterialGroupName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.MaterialGroupName` |
-| `fincs_materialgroupname preserving type )` | `cast( _Source.MaterialGroupName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `MaterialGroup` | `cast ( _Source.MaterialGroup as fincs_materialgroup preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.MaterialGroupName as fincs_description_text_20 preserving type )` |
+| `MaterialGroupName` | `cast( _Source.MaterialGroupName as fincs_materialgroupname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_MaterialGroup` | *Association* |
 

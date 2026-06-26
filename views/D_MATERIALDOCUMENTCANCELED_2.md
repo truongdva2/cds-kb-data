@@ -32,12 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `InventoryTransactionType     : vgart;` | `InventoryTransactionType     : vgart;` |
-| `_MaterialDocumentItemCanceled : composition [1..*] of D_MaterialDocumentItemCancld_2;` | *Association* |
+| `InventoryTransactionType` | `vgart` |
+| `_MaterialDocumentItemCanceled` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_MaterialDocumentItemCanceled` | `D_MaterialDocumentItemCancld_2` | [1..*] |
 
 ## Source Code
 

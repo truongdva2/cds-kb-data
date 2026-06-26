@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanControlCycle
 ---
 # I_KANBANCALCCHANGEPROPOSAL
 
@@ -71,10 +72,10 @@ tags:
 | `KanbanCalcSetupCapUtilznPct` | `capa_utl_s` |
 | `NrOfDaysWthoutRqmtsToBeIgnrd` | `kigdays` |
 | `MRPPlanningScenario` | `plscn` |
-| `_KanbanControlCycle.BaseUnit` | *Association* |
+| `BaseUnit` | `_KanbanControlCycle.BaseUnit` |
 | `_KanbanControlCycle` | *Association* |
-| `_KanbanControlCycle.Plant` | *Association* |
-| `_KanbanControlCycle.Supplier` | *Association* |
+| `Plant` | `_KanbanControlCycle.Plant` |
+| `Supplier` | `_KanbanControlCycle.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 

@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SD-SLS-GF-2CL
   - lob:Sales & Distribution
+  - bo:HeaderBillgIncompletionStatus
 ---
 # I_HDRBILLGINCOMPLETIONSTATUST
 
@@ -34,13 +35,16 @@ tags:
 |---|---|
 | `HeaderBillgIncompletionStatus` | `statu` |
 | `Language` | `spras` |
-| `hdrbillgincompletionstatusdesc preserving type)` | `cast(bezei` |
+| `HdrBillgIncompletionStatusDesc` | `cast(bezei as hdrbillgincompletionstatusdesc preserving type)` |
 | `_HeaderBillgIncompletionStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_HeaderBillgIncompletionStatus` | `I_HdrBillgIncompletionStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

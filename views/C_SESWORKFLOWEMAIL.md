@@ -32,20 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _WorkflowTask.WorkflowTaskInternalID` | `_WorkflowTask.WorkflowTaskInternalID` |
-| `_WorkflowTask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReasonText` | *Association* |
-| `_WorkflowTaskResultComment.WorkflowTaskResultComment` | *Association* |
-| `_ServiceEntrySheet.ServiceEntrySheet` | *Association* |
-| `_ServiceEntrySheet.ServiceEntrySheetName` | *Association* |
-| `_ServiceEntrySheet.PurchasingOrganization` | *Association* |
-| `_ServiceEntrySheet.PurchasingGroup` | *Association* |
-| `_ServiceEntrySheet.Supplier` | *Association* |
-| `_ServiceEntrySheet.PurchaseOrder` | *Association* |
-| `_ServiceEntrySheet.Currency` | *Association* |
-| `_Document.TotalNetAmount` | *Association* |
-| `_ServiceEntrySheet.ApprovalStatus` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_ApproverUser.UserDescription` |
-| `mm_oa_user_fullname )` | `cast(_SESCreatorUser.UserDescription` |
+| `WorkflowTaskInternalID` | `_WorkflowTask.WorkflowTaskInternalID` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
+| `WorkflowTaskResultComment` | `_WorkflowTaskResultComment.WorkflowTaskResultComment` |
+| `ServiceEntrySheet` | `_ServiceEntrySheet.ServiceEntrySheet` |
+| `ServiceEntrySheetName` | `_ServiceEntrySheet.ServiceEntrySheetName` |
+| `PurchasingOrganization` | `_ServiceEntrySheet.PurchasingOrganization` |
+| `PurchasingGroup` | `_ServiceEntrySheet.PurchasingGroup` |
+| `Supplier` | `_ServiceEntrySheet.Supplier` |
+| `PurchaseOrder` | `_ServiceEntrySheet.PurchaseOrder` |
+| `Currency` | `_ServiceEntrySheet.Currency` |
+| `TotalNetAmount` | `_Document.TotalNetAmount` |
+| `ApprovalStatus` | `_ServiceEntrySheet.ApprovalStatus` |
+| `ApprovedByUserFullName` | `cast(_ApproverUser.UserDescription as mm_oa_user_fullname )` |
+| `CreatedByUserName` | `cast(_SESCreatorUser.UserDescription as mm_oa_user_fullname )` |
 
 ## Associations
 

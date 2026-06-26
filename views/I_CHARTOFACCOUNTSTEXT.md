@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ChartOfAccounts
 ---
 # I_CHARTOFACCOUNTSTEXT
 
@@ -32,9 +33,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
 | `ChartOfAccounts` | `ktopl` |
 | `Language` | `spras` |
 | `ChartOfAccountsName` | `ktplt` |
@@ -47,6 +45,8 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_ChartOfAccountsText` | `I_ChartOfAccountsText` | [0..*] |
+| `_ChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

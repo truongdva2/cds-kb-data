@@ -31,24 +31,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
-| `key Supplier` | `Supplier` |
+| `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
+| `Supplier` | `Supplier` |
 | `SupplierEvalScorecard` | `SupplierEvalScorecard` |
 | `SuplrEvalScorecardName` | `SuplrEvalScorecardName` |
 | `SuplrEvalStartDate` | `SuplrEvalStartDate` |
 | `SuplrEvalEndDate` | `SuplrEvalEndDate` |
 | `PurchasingCategory` | `PurchasingCategory` |
 | `PurgCatName` | `PurgCatName` |
-| `_Supplier.Country` | *Association* |
-| `_Supplier.Region` | *Association* |
-| `questionnairescore )` | `cast( CalculatedScore` |
-| `questionnairescore )` | `cast( CalculatedScore` |
+| `Country` | `_Supplier.Country` |
+| `Region` | `_Supplier.Region` |
+| `SuplrEvalCalculatedScoreValue` | `cast( CalculatedScore as questionnairescore )` |
+| `SuplrEvalQnaireScoreValue` | `cast( CalculatedScore as questionnairescore )` |
 | `SupplierEvalScoreTargetValue` | `TargetScore` |
 | `TargetScoreValue` | `TargetScore` |
 | `NumberOfResponses` | `NumberOfResponses` |
-| `mm_a_min_target_score )` | `cast( MinimalScore` |
-| `mm_a_min_target_score )` | `cast( MinimalScore` |
-| `abap.int4)` | `cast(1` |
+| `AnswerScoreValue` | `cast( MinimalScore as mm_a_min_target_score )` |
+| `MinimalScoreValue` | `cast( MinimalScore as mm_a_min_target_score )` |
+| `NmbrOfSuplrEvalQnaire` | `cast(1 as abap.int4)` |
 | `_Supplier` | *Association* |
 | `_Country` | *Association* |
 | `_SupplierRegion` | *Association* |

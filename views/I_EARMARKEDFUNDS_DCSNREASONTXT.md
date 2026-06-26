@@ -31,7 +31,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `EarmarkedFundsDecisionReason` | `fmreason` |
-| `fmis_efd_decisionreasontext preserving type )` | `cast ( fmreasntxt` |
+| `EmrkdFundsDecisionReasonText` | `cast ( fmreasntxt as fmis_efd_decisionreasontext preserving type )` |
 | `_EarmarkedFundsDcsnReason` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EarmarkedFundsDcsnReason` | `I_EarmarkedFunds_DcsnReason` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

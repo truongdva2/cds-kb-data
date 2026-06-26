@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:CrdtAcctInformationCategory
 ---
 # I_CRDTACCTINFOCATEGORY
 

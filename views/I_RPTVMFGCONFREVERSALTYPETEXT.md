@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RptvMfgConfReversalType
 ---
 # I_RPTVMFGCONFREVERSALTYPETEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pp_storntxt preserving type)` | `cast(t.ddtext` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `RptvMfgConfReversalType` | `cast(substring(t.domvalue_l, 1, 1) as pph_storn preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `RptvMfgConfReversalTypeName` | `cast(t.ddtext as vdm_pp_storntxt preserving type)` |
 | `_RptvMfgConfReversalType` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RptvMfgConfReversalType` | `I_RptvMfgConfReversalType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

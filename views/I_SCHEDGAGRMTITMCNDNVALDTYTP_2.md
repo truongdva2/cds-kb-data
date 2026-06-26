@@ -31,19 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionIsDeleted` | `ConditionIsDeleted` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm           : redirected to parent I_SchedgAgrmtItmTP_2` | *Association* |
-| `_SchedgAgrmtItmCndnAmount : redirected to composition child I_SchedgAgrmtItmCndnAmountTP_2` | *Association* |
-| `_PurSchedgAgrmt           : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

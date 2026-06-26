@@ -17,6 +17,7 @@ tags:
   - status
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeMasterStatus
 ---
 # C_CHANGEMASTERSTATUSDEX
 
@@ -33,11 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `ChangeIsAllowed` | `ChangeIsAllowed` |
 | `DateChangeIsAllowed` | `DateChangeIsAllowed` |
 | `DistributionIsLocked` | `DistributionIsLocked` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

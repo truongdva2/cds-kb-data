@@ -15,6 +15,7 @@ tags:
   - status
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListStatus
 ---
 # I_INVOICELISTSTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `relik)` | `cast(dd07l.domvalue_l` |
+| `InvoiceListStatus` | `cast(dd07l.domvalue_l as relik)` |
 | `_Text` | *Association* |
 
 ## Associations

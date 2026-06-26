@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `langu preserving type)` | `cast(tp04t.langu` |
-| `bp_proprty_old preserving type)` | `cast(tp04t.proprty_st` |
+| `Language` | `cast(tp04t.langu as langu preserving type)` |
+| `BPMaritalPropertyRegime` | `cast(tp04t.proprty_st as bp_proprty_old preserving type)` |
 | `BPMaritalPropertyRegimeDesc` | `tp04t.proprty_t` |
 | `_BPMaritalPropertyRegime` | *Association* |
 | `_Language` | *Association* |

@@ -32,38 +32,38 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `lgnum` |
-| `ewm_de_wave )` | `cast( wave` |
+| `EWMWave` | `cast( wave as ewm_de_wave )` |
 | `EWMReferenceDocumentCategory` | `rdoccat` |
-| `ewm_de_wavetemplate )` | `cast( tmplt` |
+| `EWMWaveTemplate` | `cast( tmplt as ewm_de_wavetemplate )` |
 | `EWMWaveName` | `wave_text` |
 | `EWMWaveType` | `wave_type` |
 | `EWMWaveCategory` | `wave_cat` |
 | `EWMWaveReleaseMethod` | `rls_mthd` |
-| `ewm_de_wave_cutoff_dt )` | `cast( cutoff_dt` |
-| `ewm_de_wave_release_dt )` | `cast( rls_dt` |
-| `ewm_de_wave_pick_comp_dt )` | `cast( pick_comp_dt` |
-| `ewm_de_wave_pack_comp_dt )` | `cast( pack_comp_dt` |
-| `ewm_de_wave_stag_comp_dt )` | `cast( stag_comp_dt` |
-| `ewm_de_wave_load_comp_dt )` | `cast( load_comp_dt` |
+| `EWMWaveCutoffUTCDateTime` | `cast( cutoff_dt as ewm_de_wave_cutoff_dt )` |
+| `PlndWaveReleaseUTCDateTime` | `cast( rls_dt as ewm_de_wave_release_dt )` |
+| `PlndPickCompltnUTCDateTime` | `cast( pick_comp_dt as ewm_de_wave_pick_comp_dt )` |
+| `PlndPackCompletionUTCDateTime` | `cast( pack_comp_dt as ewm_de_wave_pack_comp_dt )` |
+| `PlndStagingCompltnUTCDateTime` | `cast( stag_comp_dt as ewm_de_wave_stag_comp_dt )` |
+| `PlndLoadCompletionUTCDateTime` | `cast( load_comp_dt as ewm_de_wave_load_comp_dt )` |
 | `EWMWaveCapacityProfile` | `wave_capa` |
 | `BehaviourDuringPickDenial` | `bind_process` |
-| `ewm_de_wave_cutoff_dt_wh )` | `cast( cutoff_dt_wh` |
-| `ewm_de_wave_rls_dt_wh )` | `cast( rls_dt_wh` |
-| `ewm_de_wave_pick_comp_dt_wh )` | `cast( pick_comp_dt_wh` |
-| `ewm_de_wave_pack_comp_dt_wh )` | `cast( pack_comp_dt_wh` |
-| `ewm_de_wave_stag_comp_dt_wh )` | `cast( stag_comp_dt_wh` |
-| `ewm_de_wave_load_comp_dt_wh )` | `cast( load_comp_dt_wh` |
-| `ewm_de_wave_released_at_wh )` | `cast( released_at_wh` |
+| `EWMWaveCutoffWhseTmznDateTime` | `cast( cutoff_dt_wh as ewm_de_wave_cutoff_dt_wh )` |
+| `EWMWavePlndRelWhseTmznDateTime` | `cast( rls_dt_wh as ewm_de_wave_rls_dt_wh )` |
+| `PlndPickCmpltWhseTmznDateTime` | `cast( pick_comp_dt_wh as ewm_de_wave_pick_comp_dt_wh )` |
+| `PlndPackCmpltWhseTmznDateTime` | `cast( pack_comp_dt_wh as ewm_de_wave_pack_comp_dt_wh )` |
+| `PlndStggCmpltWhseTmznDateTime` | `cast( stag_comp_dt_wh as ewm_de_wave_stag_comp_dt_wh )` |
+| `EWMWaveCompltnWhseTmznDateTime` | `cast( load_comp_dt_wh as ewm_de_wave_load_comp_dt_wh )` |
+| `EWMWaveActlReldWhseTmznDteTime` | `cast( released_at_wh as ewm_de_wave_released_at_wh )` |
 | `EWMWaveIsReleasedManually` | `flg_mnrls` |
 | `EWMWaveStatus` | `status` |
-| `ewm_de_wave_released_at_dt )` | `cast( released_at` |
-| `ewm_de_wave_templateoption )` | `cast(optn` |
+| `EWMWaveActlReleasedUTCDateTime` | `cast( released_at as ewm_de_wave_released_at_dt )` |
+| `EWMWaveTemplateOption` | `cast(optn as ewm_de_wave_templateoption )` |
 | `EWMWaveFactoryCalendar` | `wave_calendar` |
 | `EWMWaveWhseTaskCreationMode` | `lmode` |
 | `EWMStorageType` | `stareagr` |
 | `EWMStorageSection` | `starea` |
 | `EWMWaveReleasedByUser` | `released_by` |
-| `ewm_de_wave_maxitem )` | `cast(mxitm` |
+| `MaximumNumberOfWaveItems` | `cast(mxitm as ewm_de_wave_maxitem )` |
 | `EWMWaveSimulationStatus` | `sim_status_hdr` |
 | `_WaveTmpl` | *Association* |
 

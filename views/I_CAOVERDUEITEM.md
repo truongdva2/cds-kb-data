@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CADocumentNumber` | `CADocumentNumber` |
-| `key CARepetitionItemNumber` | `CARepetitionItemNumber` |
-| `key CABPItemNumber` | `CABPItemNumber` |
-| `key CASubItemNumber` | `CASubItemNumber` |
-| `key CAPromiseToPay` | `CAPromiseToPay` |
-| `key CANetDueDate` | `CANetDueDate` |
+| `CADocumentNumber` | `CADocumentNumber` |
+| `CARepetitionItemNumber` | `CARepetitionItemNumber` |
+| `CABPItemNumber` | `CABPItemNumber` |
+| `CASubItemNumber` | `CASubItemNumber` |
+| `CAPromiseToPay` | `CAPromiseToPay` |
+| `CANetDueDate` | `CANetDueDate` |
 | `CAOverdueItemOrigin` | `CAOverdueItemOrigin` |
 | `CompanyCode` | `CompanyCode` |
 | `BusinessPartner` | `BusinessPartner` |
@@ -44,7 +44,6 @@ tags:
 | `CAAmountInTransactionCurrency` | `CAAmountInTransactionCurrency` |
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `CAAmountInLocalCurrency` | `CAAmountInLocalCurrency` |
-| `/* associations */` | `/* associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CADocument_2` | *Association* |
 | `_CADocumentBPItem_2` | *Association* |
@@ -53,9 +52,7 @@ tags:
 | `_CompanyCodeCurrency` | *Association* |
 | `_ContractAccount` | *Association* |
 | `_TransactionCurrency` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `_CADocument` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `_CADocumentBPItem` | *Association* |
 
 ## Associations

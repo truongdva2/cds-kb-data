@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:BillingPlanCategory
 ---
 # I_BILLINGPLANCATEGORYTEXT
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fptyp_fp )` | `cast( dd07t.domvalue_l` |
+| `BillingPlanCategory` | `cast( dd07t.domvalue_l as fptyp_fp )` |
 | `Language` | `ddlanguage` |
 | `BillingPlanCategoryName` | `ddtext` |
 | `_BillingPlanCategory` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JntOpgAgrmtEquityGrp
 ---
 # I_JNTVNTREQUITYGRPTEXT
 
@@ -33,9 +34,9 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `CompanyCode` | `bukrs` |
-| `jv_name_cds preserving type )` | `cast( vname` |
+| `JointVenture` | `cast( vname as jv_name_cds preserving type )` |
 | `JntOpgAgrmtEquityGrp` | `egrup` |
-| `jv_egtxt_cds preserving type )` | `cast( egtxt` |
+| `JntOpgAgrmtEquityGrpText` | `cast( egtxt as jv_egtxt_cds preserving type )` |
 | `_Language` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_JointVentureMasterFld` | *Association* |

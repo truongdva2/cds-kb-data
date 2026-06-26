@@ -30,11 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'Currency' } }` | `currencyCode: 'Currency' } }` |
-| `_PaymentDifferences.amount_plan      as SettlmtPlndExpndtrRcptAmount` | *Association* |
-| `_PaymentDifferences.amount_diff_eval as MoneyDifferenceWithinTolerance` | *Association* |
-| `_PaymentDifferences.tolgrp_id        as SettlementToleranceGroup` | *Association* |
-| `_Header.plant                        as Plant` | *Association* |
+| `DSD_SettlementDocument` | `_PaymentDifferences.sld_doc_id` |
+| `SettlementPaymentMethod` | `_PaymentDifferences.payment_type` |
+| `SettlementCheckOutAmount` | `_PaymentDifferences.amount_co` |
+| `SettlementExpenditureAmount` | `_PaymentDifferences.amount_expenses` |
+| `SettlementReceiptsAmount` | `_PaymentDifferences.amount_earnings` |
+| `SettlementCheckInAmount` | `_PaymentDifferences.amount_ci` |
+| `SettlementDifferencesAmount` | `_PaymentDifferences.amount_diff` |
+| `SettlementDifferenceReason` | `_PaymentDifferences.reason` |
+| `Currency` | `_PaymentDifferences.currency_amount` |
+| `SettlmtPlndExpndtrRcptAmount` | `_PaymentDifferences.amount_plan` |
+| `MoneyDifferenceWithinTolerance` | `_PaymentDifferences.amount_diff_eval` |
+| `SettlementToleranceGroup` | `_PaymentDifferences.tolgrp_id` |
+| `Plant` | `_Header.plant` |
 | `_PaymentMethod` | *Association* |
 | `_DifferenceReason` | *Association* |
 | `_Currency` | *Association* |

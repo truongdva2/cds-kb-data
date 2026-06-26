@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_DomainText.DomainValueText                                             as CurrencyConversionsDiffTypeTxt` | *Association* |
-| `_DomainText.DomainValue                                                 as DomainValue, // required for optimized join definitions` | *Association* |
+| `Language` | `cast(_DomainText.Language as spras preserving type )` |
+| `CurrencyConversionsDiffType` | `cast(left(_DomainText.DomainValue, 1) as fincs_currencycnvrsnsdifftype)` |
+| `CurrencyConversionsDiffTypeTxt` | `_DomainText.DomainValueText` |
+| `DomainValue` | `_DomainText.DomainValue` |
 | `_CrcyCnvrsnDiffType` | *Association* |
-| `_DomainText._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

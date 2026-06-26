@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RptvMfgConfProcessingType
 ---
 # I_RPTVMFGCONFPROCESSINGTYPETXT
 
@@ -29,8 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pp_vaarttxt preserving type)` | `cast(t.ddtext` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `RptvMfgConfProcessingType` | `cast(substring(t.domvalue_l, 1, 4) as vdm_pp_vaart preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `RptvMfgConfProcessingTypeName` | `cast(t.ddtext as vdm_pp_vaarttxt preserving type)` |
 | `_RptvMfgConfProcessingType` | *Association* |
 | `_Language` | *Association* |
 
@@ -38,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RptvMfgConfProcessingType` | `I_RptvMfgConfProcessingType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

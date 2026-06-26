@@ -30,18 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_conschartofaccounts preserving type )` | `cast( tf261.itclg` |
-| `fincs_consolidationversion preserving type )` | `cast( tf261.rvers` |
-| `fincs_fiscalyear preserving type )` | `cast( tf261.ryear` |
-| `fincs_period preserving type )` | `cast( tf261.perid` |
-| `fincs_tsk preserving type )` | `cast( tf261.cacti` |
-| `fincs_consolidationunit preserving type )` | `cast( tf261.bunit` |
-| `fincs_taskrun_err_no preserving type )` | `cast( tf261.error` |
-| `fincs_taskrun_warn_no preserving type )` | `cast( tf261.warng` |
-| `fincs_taskrun_changeby preserving type )` | `cast( tf261.usr` |
-| `fincs_taskrun_changedat preserving type )` | `cast( tf261.datum` |
-| `fincs_taskrun_changetime preserving type )` | `cast( tf261.time` |
-| `fincs_taskrun_status preserving type )` | `cast( tf261.status` |
+| `ConsolidationChartOfAccounts` | `cast( tf261.itclg as fincs_conschartofaccounts preserving type )` |
+| `ConsolidationVersion` | `cast( tf261.rvers as fincs_consolidationversion preserving type )` |
+| `FiscalYear` | `cast( tf261.ryear as fincs_fiscalyear preserving type )` |
+| `FiscalPeriod` | `cast( tf261.perid as fincs_period preserving type )` |
+| `ConsolidationTask` | `cast( tf261.cacti as fincs_tsk preserving type )` |
+| `ConsolidationUnit` | `cast( tf261.bunit as fincs_consolidationunit preserving type )` |
+| `CnsldtnTskRunNmbrOfErrMessages` | `cast( tf261.error as fincs_taskrun_err_no preserving type )` |
+| `CnsldtnTskRunNmbrOfWrngMsgs` | `cast( tf261.warng as fincs_taskrun_warn_no preserving type )` |
+| `CnsldtnTaskRunChangedByUser` | `cast( tf261.usr as fincs_taskrun_changeby preserving type )` |
+| `CnsldtnTaskRunChangedDate` | `cast( tf261.datum as fincs_taskrun_changedat preserving type )` |
+| `CnsldtnTaskRunChangedTime` | `cast( tf261.time as fincs_taskrun_changetime preserving type )` |
+| `ConsolidationTaskRunStatus` | `cast( tf261.status as fincs_taskrun_status preserving type )` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_CnsldtnVersion` | *Association* |
 | `_CnsldtnTask` | *Association* |

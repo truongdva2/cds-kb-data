@@ -35,7 +35,7 @@ tags:
 | `Country` | `land1` |
 | `CAPaymentMethod` | `zlsch` |
 | `Language` | `spras` |
-| `pymet_text_kk preserving type )` | `cast( text1` |
+| `CAPaymentMethodName` | `cast( text1 as pymet_text_kk preserving type )` |
 | `_Language` | *Association* |
 | `_Country` | *Association* |
 

@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_block_execution)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdExecutionIsBlocked` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_block_execution)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_block_exectn_desc preserving type )` | `cast(ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdExecutionBlockDesc` | `cast(ddtext as /scmtms/vdm_block_exectn_desc preserving type )` |
 | `_TranspOrdExecutionIsBlocked` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdExecutionIsBlocked` | `I_TranspOrdExecutionIsBlocked` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

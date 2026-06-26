@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wb2_settlmt_calc_method )` | `cast( dd07l.domvalue_l` |
+| `CndnContrSettlmtCalcMethod` | `cast( dd07l.domvalue_l as wb2_settlmt_calc_method )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CndnContrSettlmtCalcMethodT` | [0..*] |
 
 ## Source Code
 

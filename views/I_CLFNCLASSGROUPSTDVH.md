@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassGroup
 ---
 # I_CLFNCLASSGROUPSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassGroup` | `ClassGroup` |
-| `_ClassGroupText as _Text` | *Association* |
+| `ClassGroup` | `ClassGroup` |
+| `_Text` | *Association* |
 
 ## Associations
 

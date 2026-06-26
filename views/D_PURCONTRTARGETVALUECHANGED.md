@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseContractTargetAmount : ktwrt;` | `PurchaseContractTargetAmount : ktwrt;` |
-| `DocumentCurrency : waers;` | `DocumentCurrency : waers;` |
-| `PurContractPrevTargetAmount : ktwrt;` | `PurContractPrevTargetAmount : ktwrt;` |
-| `PurContrPrevDocumentCurrency : waers;` | `PurContrPrevDocumentCurrency : waers;` |
+| `PurchaseContractTargetAmount` | `ktwrt` |
+| `DocumentCurrency` | `waers` |
+| `PurContractPrevTargetAmount` | `ktwrt` |
+| `PurContrPrevDocumentCurrency` | `waers` |
 
 ## Associations
 

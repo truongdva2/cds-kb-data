@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:FI-GL-OC-2CL
   - lob:Finance
+  - bo:OrganizationalChange
 ---
 # I_ORGANIZATIONALCHANGETP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrganizationalChange` | `OrganizationalChange` |
+| `OrganizationalChange` | `OrganizationalChange` |
 | `OrganizationalChangeForEdit` | `OrganizationalChangeForEdit` |
 | `OrganizationalChangeActivity` | `OrganizationalChangeActivity` |
 | `OrglChangeEffectiveDate` | `OrglChangeEffectiveDate` |
@@ -41,15 +42,6 @@ tags:
 | `OrglChangeLastChangedByUser` | `OrglChangeLastChangedByUser` |
 | `OrglChangeCreationDateTime` | `OrglChangeCreationDateTime` |
 | `OrglChangeCreatedByUser` | `OrglChangeCreatedByUser` |
-| `_WBSElement       : redirected to composition child I_OrglChangeWBSElementTP` | *Association* |
-| `_OrglChangeText   : redirected to composition child I_OrganizationalChangeTextTP` | *Association* |
-| `_Project          : redirected to composition child I_OrglChangeProjectTP` | *Association* |
-| `_Product          : redirected to composition child I_OrglChangeProductTP` | *Association* |
-| `_MasterFixedAsset : redirected to composition child I_OrglChangeFixedAssetTP` | *Association* |
-| `_Order            : redirected to composition child I_OrganizationalChangeOrderTP` | *Association* |
-| `_NetworkActivity  : redirected to composition child I_OrglChangeNetworkActivityTP` | *Association* |
-| `_CoCodeSelection  : redirected to composition child I_OrglChangeCoCodeSelectionTP` | *Association* |
-| `_PrftCtrSelection : redirected to composition child I_OrglChangePrftCtrSelectionTP` | *Association* |
 | `_UserCrtedContactCard` | *Association* |
 | `_UserLastChgdContactCard` | *Association* |
 | `_SitnInstceIndicator` | *Association* |

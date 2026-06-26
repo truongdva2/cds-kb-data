@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:BC-SRV-BUM
   - lob:Basis Components
+  - bo:BusinessPartner
 ---
 # I_BUSINESSUSERVH
 

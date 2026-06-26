@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStgeInvcgCarrLvl
 ---
 # I_TRANSPORDSTGEINVCGCARRLVLT
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/stg_pymt_ind  preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStgeInvcgCarrLvl` | `cast(substring(domvalue_l, 1, 2) as /scmtms/stg_pymt_ind preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_stg_inv_car_l_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdStgeInvcgCarrLvlDesc` | `cast(ddtext as /scmtms/vdm_stg_inv_car_l_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdStgeInvcgCarrLvl` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdStgeInvcgCarrLvl` | `I_TranspOrdStgeInvcgCarrLvl` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

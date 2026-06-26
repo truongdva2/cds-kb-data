@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderPhaseCapacity
 ---
 # I_PROCESSORDERPHASECAPACITYTP
 
@@ -31,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityRequirement` | `CapacityRequirement` |
-| `key CapacityRequirementItem` | `CapacityRequirementItem` |
-| `key CapacityRqmtItemCapacity` | `CapacityRqmtItemCapacity` |
+| `CapacityRequirement` | `CapacityRequirement` |
+| `CapacityRequirementItem` | `CapacityRequirementItem` |
 | `ProcessOrder` | `ProcessOrder` |
 | `OrderInternalID` | `OrderInternalID` |
 | `OrderPhaseInternalID` | `OrderPhaseInternalID` |
@@ -81,9 +81,6 @@ tags:
 | `_CapacityRequirementConf` | *Association* |
 | `_Capacity` | *Association* |
 | `_UnitOfMeasure` | *Association* |
-| `_Order     : redirected to I_ProcessOrderTP` | *Association* |
-| `_Operation : redirected to I_ProcessOrderOperationTP` | *Association* |
-| `_Phase     : redirected to parent I_ProcessOrderPhaseTP` | *Association* |
 
 ## Associations
 

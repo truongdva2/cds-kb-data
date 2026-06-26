@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransOptnUndrlgAllocation
 ---
 # I_FINTRANSOPTNUNDRLGALLOCATION
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinTransOptionNumber` | `optnr` |
-| `option_underlying_transaction preserving type )` | `cast( rfha` |
+| `OptionUnderlyingTransaction` | `cast( rfha as option_underlying_transaction preserving type )` |
 | `FinancialTransactionFromExer` | `vrfha` |
 | `_FinTrans` | *Association* |
 

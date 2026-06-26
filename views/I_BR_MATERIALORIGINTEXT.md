@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras  preserving type )` | `cast( ddlanguage` |
-| `logbr_matorg )` | `cast ( domvalue_l` |
-| `logbr_matorgdesc preserving type)` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_MaterialOrigin` | `cast ( domvalue_l as logbr_matorg )` |
+| `BR_MaterialOriginDesc` | `cast ( ddtext as logbr_matorgdesc preserving type)` |
 | `_BR_MaterialOrigin` | *Association* |
 | `_Language` | *Association* |
 

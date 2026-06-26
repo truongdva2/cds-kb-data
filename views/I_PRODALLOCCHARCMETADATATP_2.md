@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocCharcMetaData
 ---
 # I_PRODALLOCCHARCMETADATATP_2
 
@@ -31,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicsMetaDataUUID` | `CharacteristicsMetaDataUUID` |
+| `CharacteristicsMetaDataUUID` | `CharacteristicsMetaDataUUID` |
 | `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
 | `ProdAllocCharcCtlgPathIntID` | `ProdAllocCharcPathDescComIntID` |
 | `ProdAllocCharcCtlgPathUUID` | `ProdAllocCharcCtlgPathUUID` |
 | `ProdAllocOrdinalNumberValue` | `ProdAllocOrdinalNumberValue` |
-| `_ProdAllocationObjectTP: redirected to parent I_ProdAllocationObjectTP_2 //` | *Association* |
 
 ## Associations
 

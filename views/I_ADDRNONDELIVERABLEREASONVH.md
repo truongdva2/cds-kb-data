@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressNonDeliverableReason` | `AddressNonDeliverableReason` |
+| `AddressNonDeliverableReason` | `AddressNonDeliverableReason` |
 | `_Text` | *Association* |
 
 ## Associations

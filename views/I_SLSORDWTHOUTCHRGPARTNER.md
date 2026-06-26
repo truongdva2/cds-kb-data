@@ -31,9 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true` | `text: true` |
-| `name.fullName: true` | `name.fullName: true` |
-| `}` | `}` |
+| `SalesOrderWithoutCharge` | `cast(Partner.SalesDocument as sales_order_without_charge preserving type)` |
+| `PartnerFunction` | `PartnerFunction` |
+| `Customer` | `Customer` |
+| `Supplier` | `Supplier` |
+| `Personnel` | `Personnel` |
+| `ContactPerson` | `ContactPerson` |
+| `Partner` | `Partner` |
 | `FullName` | `FullName` |
 | `ReferenceBusinessPartner` | `ReferenceBusinessPartner` |
 | `AddressID` | `AddressID` |

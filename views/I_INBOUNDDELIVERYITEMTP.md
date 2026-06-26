@@ -33,7 +33,89 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'OrderQuantityUnit' }` | `unitOfMeasure: 'OrderQuantityUnit' }` |
+| `InboundDelivery` | `InboundDelivery` |
+| `InboundDeliveryItem` | `InboundDeliveryItem` |
+| `DeliveryDocumentItemCategory` | `DeliveryDocumentItemCategory` |
+| `SalesDocumentItemType` | `SalesDocumentItemType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `DepartmentClassificationByCust` | `DepartmentClassificationByCust` |
+| `Material` | `Material` |
+| `MaterialByCustomer` | `MaterialByCustomer` |
+| `OriginallyRequestedMaterial` | `OriginallyRequestedMaterial` |
+| `InternationalArticleNumber` | `InternationalArticleNumber` |
+| `Batch` | `Batch` |
+| `BatchBySupplier` | `BatchBySupplier` |
+| `BatchClassification` | `BatchClassification` |
+| `MaterialIsBatchManaged` | `MaterialIsBatchManaged` |
+| `AdditionalMaterialGroup1` | `AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
+| `MaterialFreightGroup` | `MaterialFreightGroup` |
+| `MaterialGroup` | `MaterialGroup` |
+| `Plant` | `Plant` |
+| `Warehouse` | `Warehouse` |
+| `StorageBin` | `StorageBin` |
+| `StorageLocation` | `StorageLocation` |
+| `StorageType` | `StorageType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
+| `NumberOfSerialNumbers` | `NumberOfSerialNumbers` |
+| `ProductConfiguration` | `ProductConfiguration` |
+| `ProductHierarchyNode` | `ProductHierarchyNode` |
+| `ManufactureDate` | `ManufactureDate` |
+| `DeliveryDocumentItemText` | `DeliveryDocumentItemText` |
+| `HigherLevelItem` | `HigherLevelItem` |
+| `HigherLvlItmOfBatSpltItm` | `HigherLvlItmOfBatSpltItm` |
+| `ActualDeliveredQtyInOrderUnit` | `ActualDeliveredQtyInOrderUnit` |
+| `QuantityIsFixed` | `QuantityIsFixed` |
+| `OriginalDeliveryQuantity` | `OriginalDeliveryQuantity` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `ActualDeliveredQtyInBaseUnit` | `ActualDeliveredQtyInBaseUnit` |
+| `BaseUnit` | `BaseUnit` |
+| `DeliveryToBaseQuantityDnmntr` | `DeliveryToBaseQuantityDnmntr` |
+| `DeliveryToBaseQuantityNmrtr` | `DeliveryToBaseQuantityNmrtr` |
+| `ProductAvailabilityDate` | `ProductAvailabilityDate` |
+| `ProductAvailabilityTime` | `ProductAvailabilityTime` |
+| `DeliveryGroup` | `DeliveryGroup` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `InspectionLot` | `InspectionLot` |
+| `InspectionPartialLot` | `InspectionPartialLot` |
+| `PartialDeliveryIsAllowed` | `PartialDeliveryIsAllowed` |
+| `UnlimitedOverdeliveryIsAllowed` | `UnlimitedOverdeliveryIsAllowed` |
+| `OverdelivTolrtdLmtRatioInPct` | `OverdelivTolrtdLmtRatioInPct` |
+| `UnderdelivTolrtdLmtRatioInPct` | `UnderdelivTolrtdLmtRatioInPct` |
+| `WarehouseStorageBin` | `WarehouseStorageBin` |
+| `BOMExplosion` | `BOMExplosion` |
+| `CustEngineeringChgStatus` | `CustEngineeringChgStatus` |
+| `WarehouseStagingArea` | `WarehouseStagingArea` |
+| `WarehouseStockCategory` | `WarehouseStockCategory` |
+| `IssgOrRcvgStockCategory` | `IssgOrRcvgStockCategory` |
+| `IssgOrRcvgMaterial` | `IssgOrRcvgMaterial` |
+| `IssuingOrReceivingPlant` | `IssuingOrReceivingPlant` |
+| `IssuingOrReceivingStorageLoc` | `IssuingOrReceivingStorageLoc` |
+| `IssgOrRcvgBatch` | `IssgOrRcvgBatch` |
+| `IssgOrRcvgSpclStockCode` | `IssgOrRcvgSpclStockCode` |
+| `IssgOrRcvgValuationType` | `IssgOrRcvgValuationType` |
+| `PrimaryPostingSwitch` | `PrimaryPostingSwitch` |
+| `StockType` | `StockType` |
+| `IsNotGoodsMovementsRelevant` | `IsNotGoodsMovementsRelevant` |
+| `GLAccount` | `GLAccount` |
+| `GoodsMovementReasonCode` | `GoodsMovementReasonCode` |
+| `SubsequentMovementType` | `SubsequentMovementType` |
+| `IsCompletelyDelivered` | `IsCompletelyDelivered` |
+| `AlternateProductNumber` | `AlternateProductNumber` |
+| `PutawayQuantityInBaseUnit` | `PutawayQuantityInBaseUnit` |
 | `PutawayQuantityInOrderUnit` | `PutawayQuantityInOrderUnit` |
 | `LoadingGroup` | `LoadingGroup` |
 | `GoodsMovementType` | `GoodsMovementType` |
@@ -78,11 +160,6 @@ tags:
 | `ItemGeneralIncompletionStatus` | `ItemGeneralIncompletionStatus` |
 | `ItemPackingIncompletionStatus` | `ItemPackingIncompletionStatus` |
 | `ItemPutawayIncompletionStatus` | `ItemPutawayIncompletionStatus` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_SerialNumber : redirected to composition child I_InbDelivItemSerialNumberTP` | *Association* |
-| `_ItemText     : redirected to composition child I_InbDelivItemTextTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_Delivery     : redirected to parent I_InboundDeliveryTP` | *Association* |
 
 ## Associations
 

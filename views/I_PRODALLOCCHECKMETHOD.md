@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProductAllocationCheckMethod
 ---
 # I_PRODALLOCCHECKMETHOD
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccheckmethod preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocCheckMethod` | `cast ( substring( domvalue_l, 1, 2 ) as prodalloccheckmethod preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProdAllocCheckMethodT` | [0..*] |
 
 ## Source Code
 

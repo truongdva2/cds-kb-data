@@ -15,6 +15,7 @@ tags:
   - service
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:ServiceCostRate
 ---
 # I_SERVICECOSTRATEDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
 | `CurrencyRole` | `CurrencyRole` |
 | `Ledger` | `Ledger` |
 | `CompanyCode` | `CompanyCode` |

@@ -14,6 +14,7 @@ tags:
   - planned-order
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlannedOrderProcgAction
 ---
 # I_PLANNEDORDERPROCGACTION
 
@@ -30,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_mdacc preserving type)` | `cast(mdacc` |
+| `PlannedOrderProcgAction` | `cast(mdacc as vdm_mdacc preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

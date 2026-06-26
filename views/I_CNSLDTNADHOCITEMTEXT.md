@@ -33,9 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_AdhocItemT.adhocitemtext                                             as CnsldtnAdhocItemText` | *Association* |
-| `_AdhocItemT.adhocitemlongtext                                         as CnsldtnAdhocItemLongText` | *Association* |
+| `Language` | `_AdhocItemT.langu` |
+| `ConsolidationChartOfAccounts` | `cast(_AdhocItemT.itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnAdhocItem` | `_AdhocItemT.adhocitem` |
+| `CnsldtnAdhocItemText` | `_AdhocItemT.adhocitemtext` |
+| `CnsldtnAdhocItemLongText` | `_AdhocItemT.adhocitemlongtext` |
 | `_Language` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_CnsldtnAdhocItem` | *Association* |

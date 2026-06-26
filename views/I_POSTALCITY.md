@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:CityNumber
 ---
 # I_POSTALCITY
 

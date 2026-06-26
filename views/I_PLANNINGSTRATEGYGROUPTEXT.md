@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:PlanningStrategyGroup
 ---
 # I_PLANNINGSTRATEGYGROUPTEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `planningstrategygroupname preserving type)` | `cast(txt.text40` |
+| `PlanningStrategyGroup` | `cast(txt.strgr as strgr preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `PlanningStrategyGroupName` | `cast(txt.text40 as planningstrategygroupname preserving type)` |
 | `_StrategyGroup` | *Association* |
 | `_Language` | *Association* |
 

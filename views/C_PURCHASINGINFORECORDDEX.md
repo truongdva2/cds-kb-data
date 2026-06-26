@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingInfoRecord
 ---
 # C_PURCHASINGINFORECORDDEX
 
@@ -39,7 +40,7 @@ tags:
 | `IsDeleted` | `IsDeleted` |
 | `PurchasingInfoRecordDesc` | `PurchasingInfoRecordDesc` |
 | `PurgDocOrderQuantityUnit` | `PurgDocOrderQuantityUnit` |
-| `umbsz_ll preserving type)` | `cast ( OrderItemQtyToBaseQtyNmrtr` |
+| `OrderItemQtyToBaseQtyNmrtr` | `cast ( OrderItemQtyToBaseQtyNmrtr as umbsz_ll preserving type)` |
 | `OrderItemQtyToBaseQtyDnmntr` | `OrderItemQtyToBaseQtyDnmntr` |
 | `SupplierMaterialNumber` | `SupplierMaterialNumber` |
 | `SupplierRespSalesPersonName` | `SupplierRespSalesPersonName` |

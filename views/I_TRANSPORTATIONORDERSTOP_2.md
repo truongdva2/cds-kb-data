@@ -30,35 +30,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_stop_db_key preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(parent_key` |
-| `/scmtms/vdm_tor_stop_id preserving type )` | `cast(stop_id` |
+| `TransportationOrderStopUUID` | `cast(db_key as /scmtms/vdm_tor_stop_db_key preserving type )` |
+| `TransportationOrderUUID` | `cast(parent_key as /scmtms/vdm_tor_db_key preserving type)` |
+| `TransportationOrderStop` | `cast(stop_id as /scmtms/vdm_tor_stop_id preserving type )` |
 | `TranspOrdStopCategory` | `stop_cat` |
 | `TranspOrdStopRole` | `stop_role` |
-| `/scmtms/vdm_location_adtl_uuid preserving type)` | `cast(log_loc_uuid` |
+| `LocationAdditionalUUID` | `cast(log_loc_uuid as /scmtms/vdm_location_adtl_uuid preserving type)` |
 | `LocationId` | `log_locid` |
 | `LocationUNCode` | `log_locun` |
-| `/scmtms/vdm_loc_airportcode preserving type )` | `cast(log_lociata` |
-| `/scmtms/vdm_tor_stop_acc_start preserving type)` | `cast(acc_start` |
-| `/scmtms/vdm_tor_stop_req_start preserving type)` | `cast(req_start` |
-| `/scmtms/vdm_tor_stop_acc_end preserving type)` | `cast(acc_end` |
-| `/scmtms/vdm_tor_stop_req_end preserving type)` | `cast(req_end` |
-| `/scmtms/vdm_tor_stop_plan_dt preserving type)` | `cast(plan_trans_time` |
-| `/scmtms/vdm_tor_stp_appt_s_dt preserving type)` | `cast(appointment_start` |
-| `/scmtms/vdm_tor_stp_appt_e_dt preserving type)` | `cast(appointment_end` |
-| `/scmtms/vdm_tor_stp_ca_co_s_dt preserving type)` | `cast(carr_conf_start` |
-| `/scmtms/vdm_tor_stp_ca_co_e_dt preserving type)` | `cast(carr_conf_end` |
-| `/scmtms/vdm_doc_cutoff_dt preserving type )` | `cast(cutoff_doc` |
-| `/scmtms/vdm_cargo_cutoff_dt preserving type )` | `cast(cutoff_cargo` |
-| `/scmtms/vdm_vgm_cutoff_dt preserving type )` | `cast(cutoff_carr_vgm` |
-| `/scmtms/vdm_tor_stp_load_s_dt preserving type)` | `cast(aggr_assgn_start_l` |
-| `/scmtms/vdm_tor_stp_load_e_dt preserving type)` | `cast(aggr_assgn_end_l` |
+| `LocationAirportCode` | `cast(log_lociata as /scmtms/vdm_loc_airportcode preserving type )` |
+| `TranspOrdStopAccptblStrtDteTme` | `cast(acc_start as /scmtms/vdm_tor_stop_acc_start preserving type)` |
+| `TranspOrdStopReqStartDteTme` | `cast(req_start as /scmtms/vdm_tor_stop_req_start preserving type)` |
+| `TranspOrdStopAccptblEndDteTme` | `cast(acc_end as /scmtms/vdm_tor_stop_acc_end preserving type)` |
+| `TranspOrdStopReqEndDteTme` | `cast(req_end as /scmtms/vdm_tor_stop_req_end preserving type)` |
+| `TranspOrdStopPlanTranspDteTme` | `cast(plan_trans_time as /scmtms/vdm_tor_stop_plan_dt preserving type)` |
+| `TranspOrdStopApptStrtDteTme` | `cast(appointment_start as /scmtms/vdm_tor_stp_appt_s_dt preserving type)` |
+| `TranspOrdStopApptEndDteTme` | `cast(appointment_end as /scmtms/vdm_tor_stp_appt_e_dt preserving type)` |
+| `TranspStopCarrConfStrtDteTme` | `cast(carr_conf_start as /scmtms/vdm_tor_stp_ca_co_s_dt preserving type)` |
+| `TranspStopCarrConfEndDteTme` | `cast(carr_conf_end as /scmtms/vdm_tor_stp_ca_co_e_dt preserving type)` |
+| `TranspOrdStopDocCutOffDateTime` | `cast(cutoff_doc as /scmtms/vdm_doc_cutoff_dt preserving type )` |
+| `TranspOrdStopCrgoCutOffDteTme` | `cast(cutoff_cargo as /scmtms/vdm_cargo_cutoff_dt preserving type )` |
+| `TranspOrdStopVGMCutOffDateTime` | `cast(cutoff_carr_vgm as /scmtms/vdm_vgm_cutoff_dt preserving type )` |
+| `TranspOrdStopLoadStartDateTime` | `cast(aggr_assgn_start_l as /scmtms/vdm_tor_stp_load_s_dt preserving type)` |
+| `TranspOrdStopLoadEndDateTime` | `cast(aggr_assgn_end_l as /scmtms/vdm_tor_stp_load_e_dt preserving type)` |
 | `TranspOrdStopSequencePosition` | `stop_seq_pos` |
-| `/scmtms/vdm_tor_capa_stop_key preserving type )` | `cast(assgn_stop_key` |
-| `/scmtms/vdm_tor_stp_cp_itm_key preserving type )` | `cast(assgn_item_key` |
-| `/scmtms/vdm_tor_stp_hdl_exe_st preserving type )` | `cast(handling_exec` |
-| `/scmtms/vdm_block_execution preserving type )` | `cast(blk_exec` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdCapacityStopUUID` | `cast(assgn_stop_key as /scmtms/vdm_tor_capa_stop_key preserving type )` |
+| `TranspOrdStopCapacityItemUUID` | `cast(assgn_item_key as /scmtms/vdm_tor_stp_cp_itm_key preserving type )` |
+| `TranspOrdStopHndlgExecStatus` | `cast(handling_exec as /scmtms/vdm_tor_stp_hdl_exe_st preserving type )` |
+| `TranspOrdStopExecIsBlocked` | `cast(blk_exec as /scmtms/vdm_block_execution preserving type )` |
 | `_TransportationOrder` | *Association* |
 | `_TransportationOrderStage` | *Association* |
 | `_CapacityStop` | *Association* |
@@ -72,6 +71,8 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrder` | `I_TransportationOrder_2` | — |
+| `_TransportationOrderStage` | `I_TransportationOrderStage_2` | [0..*] |
 | `_CapacityStop` | `I_TransportationOrderStop_2` | [0..1] |
 | `_Location` | `I_LocationBasic_2` | [0..1] |
 | `_TranspOrdStopCategory` | `I_TranspOrdStopCategory_2` | [0..1] |

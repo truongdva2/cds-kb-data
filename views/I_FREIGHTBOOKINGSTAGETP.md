@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
+| `TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderStage` | `TransportationOrderStage` |
 | `TranspOrdStageType` | `TranspOrdStageType` |
@@ -54,12 +54,11 @@ tags:
 | `TranspOrdStageNetDuration` | `TranspOrdStageNetDuration` |
 | `TranspOrdStageSrceStopUUID` | `TranspOrdStageSrceStopUUID` |
 | `TranspOrdStageDestStopUUID` | `TranspOrdStageDestStopUUID` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBookingStop          : redirected to parent I_FreightBookingStopTP` | `FreightBookingStage._TranspOrderStop` |
-| `_FrtBkgStageBPAddrDfltRprstn : redirected to composition child I_FrtBkgStgeBPAddrDfltRprstnTP` | `FreightBookingStage._TrOrdStgeBPAddrDfltRprstn` |
-| `_ExectgCarrierAddrDfltRprstn : redirected to I_FrtBkgStgeBPAddrDfltRprstnTP` | `FreightBookingStage._ExectgCarrierAddrDfltRprstn` |
-| `_InvcgCarrierAddrDfltRprstn  : redirected to I_FrtBkgStgeBPAddrDfltRprstnTP` | `FreightBookingStage._InvcgCarrierAddrDfltRprstn` |
-| `_FreightBooking              : redirected to I_FreightBookingTP` | `FreightBookingStage._TransportationOrder` |
+| `_FreightBookingStop` | *Association* |
+| `_FrtBkgStageBPAddrDfltRprstn` | *Association* |
+| `_ExectgCarrierAddrDfltRprstn` | *Association* |
+| `_InvcgCarrierAddrDfltRprstn` | *Association* |
+| `_FreightBooking` | *Association* |
 
 ## Associations
 

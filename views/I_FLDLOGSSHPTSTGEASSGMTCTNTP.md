@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShipmentVoyageStage
 ---
 # I_FLDLOGSSHPTSTGEASSGMTCTNTP
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
-| `key FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
 | `FldLogsVoyStgeAssgmtSqncID` | `FldLogsVoyStgeAssgmtSqncID` |
 | `FldLogsShipmentItemTypeCode` | `FldLogsShipmentItemTypeCode` |
 | `FldLogsShptVoyageNumber` | `FldLogsShptVoyageNumber` |
@@ -45,7 +46,6 @@ tags:
 | `FldLogsVoyageSrceStage` | `FldLogsVoyageSrceStage` |
 | `FldLogsVoyageDestStage` | `FldLogsVoyageDestStage` |
 | `FldLogsShptAssignmentStatus` | `FldLogsShptAssignmentStatus` |
-| `_ShptCtnUnit : redirected to parent I_FldLogsDelivContainerUnitTP` | *Association* |
 
 ## Associations
 

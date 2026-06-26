@@ -30,8 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } }]` | `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } }]` |
-| `fincs_consolidationselection preserving type )` | `cast(tf103a.selnm_max` |
+| `ConsolidationChartOfAccounts` | `tf103a.itclg` |
+| `ConsolidationBreakdownCategory` | `cast(tf103a.itgrp as fincs_breakdowncategory preserving type )` |
+| `CnsldtnSubassignment` | `cast(…)` |
+| `ConsolidationBreakdownType` | `cast(tf103a.breakdown as fincs_breakdowntype preserving type )` |
+| `CnsldtnFixedValueOfSubassgmt` | `cast(tf103a.value as fincs_fixedvalueofsubassgmt preserving type )` |
+| `CnsldtnFixedValOfSubassgmtExt` | `cast(…)` |
+| `ConsolidationSelection` | `cast(tf103a.selnm_max as fincs_consolidationselection preserving type )` |
 | `_Subassignment` | *Association* |
 | `_BreakdownType` | *Association* |
 | `_BreakdownCategory` | *Association* |

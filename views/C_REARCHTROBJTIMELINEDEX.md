@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjTimelineUUID
 ---
 # C_REARCHTROBJTIMELINEDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjTimelineUUID` | `REArchitectureObjTimelineUUID` |
+| `REArchitectureObjTimelineUUID` | `REArchitectureObjTimelineUUID` |
 | `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |

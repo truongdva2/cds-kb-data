@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenterResponsible
 ---
 # I_WORKCENTERRESPONSIBLE
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `ap_veran preserving type)` | `cast(tc24.veran` |
-| `pph_veranname preserving type)` | `cast(tc24.ktext` |
+| `Plant` | `tc24.werks` |
+| `WorkCenterResponsible` | `cast(tc24.veran as ap_veran preserving type)` |
+| `WorkCenterResponsibleName` | `cast(tc24.ktext as pph_veranname preserving type)` |
 | `_Plant` | *Association* |
 
 ## Associations

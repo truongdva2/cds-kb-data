@@ -30,16 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
 | `BusinessSolutionOrderLongText` | `BusinessSolutionOrderLongText` |
-| `/* Associations */` | `/* Associations */` |
-| `_BusinessSolutionOrderTP : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

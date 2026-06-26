@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KnbnCtrlCycInhProdnCtrlType
 ---
 # I_KNBNINHPRODNCTRLTYPETXT
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pksar)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pksar_text preserving type)` | `cast(ddtext` |
+| `KnbnCtrlCycInhProdnCtrlType` | `cast(substring(domvalue_l, 1, 1) as pksar)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KnbnInhProdnCtrlTypeName` | `cast(ddtext as vdm_pksar_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnInhProdnCtrlType` | *Association* |
 | `_Language` | *Association* |

@@ -29,8 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_type_code preserving type )` | `cast( fagtypeid103` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationAgreementType` | `cast( fagtypeid103 as /scmtms/vdm_fag_type_code preserving type )` |
 | `_TranspAgreementTypeText` | *Association* |
 
 ## Associations

@@ -15,6 +15,7 @@ tags:
   - exchange-rate
   - component:BC-SRV-BSF-CUR-2CL
   - lob:Basis Components
+  - bo:ValidityStartDate
 ---
 # I_EXCHANGERATERAWDATA
 
@@ -34,10 +35,7 @@ tags:
 | `ExchangeRateType` | `kurst` |
 | `SourceCurrency` | `fcurr` |
 | `TargetCurrency` | `tcurr` |
-| `key case gdatu` | `case gdatu` |
-| `abap.dats)` | `when '' then cast('00000000'` |
-| `abap.numc(8))` | `else cast(substring(cast(99999999 - cast(cast(gdatu` |
-| `ValidityStartDate` | `end` |
+| `ValidityStartDate` | `case…end` |
 | `ExchangeRate` | `ukurs` |
 | `NumberOfSourceCurrencyUnits` | `ffact` |
 | `NumberOfTargetCurrencyUnits` | `tfact` |

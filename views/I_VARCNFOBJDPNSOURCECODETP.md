@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_ObjectDependency : redirected to parent I_VarCnfObjectDependencyTP` | *Association* |
-| `_SourceCodeLine   : redirected to composition child I_VarCnfObjDpnSrcCdLineTP` | *Association* |
 
 ## Associations
 

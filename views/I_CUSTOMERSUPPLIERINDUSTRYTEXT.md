@@ -37,9 +37,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `t016t.spras` |
-| `fis_brsch preserving type )` | `cast(t016t.brsch` |
-| `fis_customersupplierindustry_n preserving type )` | `cast(t016t.brtxt` |
-| `/* Associations */` | `/* Associations */` |
+| `Industry` | `cast(t016t.brsch as fis_brsch preserving type )` |
+| `CustomerSupplierIndustryName` | `cast(t016t.brtxt as fis_customersupplierindustry_n preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

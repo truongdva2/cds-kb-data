@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
-| `key Language` | `Language` |
+| `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
+| `Language` | `Language` |
 | `BillOfMaterialVariantUsageDesc` | `BillOfMaterialVariantUsageDesc` |
 
 ## Associations

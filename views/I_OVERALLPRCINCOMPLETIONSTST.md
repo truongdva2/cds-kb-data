@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BF-MD-2CL
   - lob:Sales & Distribution
+  - bo:OverallPricingIncompletionSts
 ---
 # I_OVERALLPRCINCOMPLETIONSTST
 
@@ -32,13 +33,16 @@ tags:
 |---|---|
 | `OverallPricingIncompletionSts` | `statu` |
 | `Language` | `spras` |
-| `overallprcincompletionstsdesc preserving type)` | `cast(bezei` |
+| `OverallPrcIncompletionStsDesc` | `cast(bezei as overallprcincompletionstsdesc preserving type)` |
 | `_OverallPricingIncompletionSts` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OverallPricingIncompletionSts` | `I_OverallPrcIncompletionSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

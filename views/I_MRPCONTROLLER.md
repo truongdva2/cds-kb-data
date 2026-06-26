@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPController
 ---
 # I_MRPCONTROLLER
 
@@ -29,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProfitCenterStdVH', element: 'ProfitCenter' } } ]` | `name: 'I_ProfitCenterStdVH', element: 'ProfitCenter' } } ]` |
+| `Plant` | `t024d.werks` |
+| `MRPController` | `cast(t024d.dispo as pph_dispo preserving type)` |
+| `MRPControllerName` | `cast(t024d.dsnam as pph_dsnam preserving type)` |
+| `MRPControllerPhoneNumber` | `cast(t024d.dstel as pph_dstel preserving type)` |
+| `PurchasingGroup` | `t024d.ekgrp` |
+| `BusinessArea` | `t024d.gsber` |
 | `ProfitCenter` | `t024d.prctr` |
-| `case t024d.usrtyp` | `case t024d.usrtyp` |
-| `when 'US'` | `when 'US'` |
-| `then t024d.usrkey` | `then t024d.usrkey` |
-| `else ''` | `else ''` |
-| `UserID` | `end` |
+| `UserID` | `case t024d.usrtyp when 'US' then t024d.usrkey else '' end` |
 | `_Plant` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_BusinessArea` | *Association* |

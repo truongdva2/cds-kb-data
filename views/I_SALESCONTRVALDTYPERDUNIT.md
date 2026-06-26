@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-SLS-OA-CCO-2CL
   - lob:Sales & Distribution
+  - bo:SalesContractValidityPerdUnit
 ---
 # I_SALESCONTRVALDTYPERDUNIT
 

@@ -16,6 +16,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressManagementURIType
 ---
 # I_ADDRESSMANAGEMENTURITYPEVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressManagementURIType` | `AddressManagementURIType` |
+| `AddressManagementURIType` | `AddressManagementURIType` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

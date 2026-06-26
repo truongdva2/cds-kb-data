@@ -15,6 +15,7 @@ tags:
   - sales-quotation
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotationType
 ---
 # I_SALESQUOTATIONTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_quotation_type preserving type )` | `cast( SalesDocumentType` |
+| `SalesQuotationType` | `cast( SalesDocumentType as sales_quotation_type preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

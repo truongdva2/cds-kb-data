@@ -32,17 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DebitMemoRequestText.DebitMemoRequest` | `DebitMemoRequestText.DebitMemoRequest` |
-| `key DebitMemoRequestText.Language` | `DebitMemoRequestText.Language` |
-| `key DebitMemoRequestText.LongTextID` | `DebitMemoRequestText.LongTextID` |
-| `DebitMemoRequestText.LongTextIDForEdit` | `DebitMemoRequestText.LongTextIDForEdit` |
-| `DebitMemoRequestText.LanguageForEdit` | `DebitMemoRequestText.LanguageForEdit` |
-| `DebitMemoRequestText.LongText` | `DebitMemoRequestText.LongText` |
-| `DebitMemoRequestText.DebitMemoRequestType` | `DebitMemoRequestText.DebitMemoRequestType` |
-| `DebitMemoRequestText.SalesOrganization` | `DebitMemoRequestText.SalesOrganization` |
-| `DebitMemoRequestText.DistributionChannel` | `DebitMemoRequestText.DistributionChannel` |
-| `DebitMemoRequestText.OrganizationDivision` | `DebitMemoRequestText.OrganizationDivision` |
-| `_DebitMemoRequest : redirected to parent I_DebitMemoRequestTP` | *Association* |
+| `DebitMemoRequest` | `DebitMemoRequestText.DebitMemoRequest` |
+| `Language` | `DebitMemoRequestText.Language` |
+| `LongTextID` | `DebitMemoRequestText.LongTextID` |
+| `LongTextIDForEdit` | `DebitMemoRequestText.LongTextIDForEdit` |
+| `LanguageForEdit` | `DebitMemoRequestText.LanguageForEdit` |
+| `LongText` | `DebitMemoRequestText.LongText` |
+| `DebitMemoRequestType` | `DebitMemoRequestText.DebitMemoRequestType` |
+| `SalesOrganization` | `DebitMemoRequestText.SalesOrganization` |
+| `DistributionChannel` | `DebitMemoRequestText.DistributionChannel` |
+| `OrganizationDivision` | `DebitMemoRequestText.OrganizationDivision` |
 
 ## Associations
 

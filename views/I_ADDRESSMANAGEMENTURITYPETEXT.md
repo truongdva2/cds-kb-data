@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `language: true }` | `language: true }` |
+| `AddressManagementURIType` | `cast ( domvalue_l as ad_uritype )` |
 | `Language` | `ddlanguage` |
 | `AddressManagementURITypeText` | `ddtext` |
 

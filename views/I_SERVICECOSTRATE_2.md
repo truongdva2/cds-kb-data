@@ -14,6 +14,7 @@ tags:
   - service
   - component:CO-OM-2CL
   - lob:Controlling
+  - bo:AccountingCostRate
 ---
 # I_SERVICECOSTRATE_2
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountingCostRateUUID` | `AccountingCostRateUUID` |
-| `_Rate.Ledger` | *Association* |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `Ledger` | `_Rate.Ledger` |
 | `CurrencyRole` | `CurrencyRole` |
 | `CompanyCode` | `CompanyCode` |
 | `ControllingArea` | `ControllingArea` |
@@ -47,15 +48,15 @@ tags:
 | `TimeSheetOvertimeCategory` | `TimeSheetOvertimeCategory` |
 | `ValidityStartFiscalYear` | `ValidityStartFiscalYear` |
 | `ValidityStartFiscalPeriod` | `ValidityStartFiscalPeriod` |
-| `fins_fyearperiod)` | `cast((concat( ValidityStartFiscalYear, ValidityStartFiscalPeriod ))` |
+| `ValidityStartFiscalYearPeriod` | `cast(…)` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndFiscalYear` | `ValidityEndFiscalYear` |
 | `ValidityEndFiscalPeriod` | `ValidityEndFiscalPeriod` |
-| `fins_fyearperiod)` | `cast((concat( ValidityEndFiscalYear, ValidityEndFiscalPeriod ))` |
+| `ValidityEndFiscalYearPeriod` | `cast(…)` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `CostCtrActivityTypeQtyUnit` | `CostCtrActivityTypeQtyUnit` |
 | `Currency` | `Currency` |
-| `fco_rate_varbl_amount)` | `cast(CostRateTotalAmount - CostRateFixedAmount` |
+| `CostRateVarblAmount` | `cast(CostRateTotalAmount - CostRateFixedAmount as fco_rate_varbl_amount)` |
 | `CostRateScaleFactor` | `CostRateScaleFactor` |
 | `LedgerForAuthorization` | `LedgerForAuthorization` |
 | `_CompanyCode` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - text
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcGroup
 ---
 # I_CLFNCHARCGROUPTEXT
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `CharacteristicGroupText.spras` |
-| `charcgroup preserving type )` | `cast ( CharacteristicGroupText.atkla` |
+| `CharcGroup` | `cast ( CharacteristicGroupText.atkla as charcgroup preserving type )` |
 | `CharcGroupName` | `CharacteristicGroupText.atklt` |
 | `_CharcGroup` | *Association* |
 | `_Language` | *Association* |
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcGroup` | `I_ClfnCharcGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

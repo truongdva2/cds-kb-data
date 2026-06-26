@@ -32,14 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wcb_cc_state )` | `cast( dd07l.domvalue_l` |
+| `CndnContrActvtnStatus` | `cast( dd07l.domvalue_l as wcb_cc_state )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CndnContrActvtnStatusText` | [0..*] |
 
 ## Source Code
 

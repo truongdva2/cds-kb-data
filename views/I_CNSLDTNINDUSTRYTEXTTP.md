@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.Industry` | `_Text.Industry` |
-| `_Text.IndustryName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Industry as _Industry : redirected to parent I_CnsldtnIndustryTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `Industry` | `_Text.Industry` |
+| `IndustryName` | `_Text.IndustryName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Industry` | *Association* |
 
 ## Associations
 

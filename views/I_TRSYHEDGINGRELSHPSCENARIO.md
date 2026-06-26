@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TrsyHedgingRelshpScenario
 ---
 # I_TRSYHEDGINGRELSHPSCENARIO
 
@@ -30,19 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hrel_scenario         preserving type)` | `cast(TrsyHedgingRelshpScenario.hrel_scene_cat` |
-| `ftr_gen_hrel_category         preserving type)` | `cast(TrsyHedgingRelshpScenario.hedge_category` |
-| `cast (case` | `cast (case` |
-| `when` | `when` |
-| `TrsyHedgingRelshpScenario.fx_risk is not initial then '01'` | `TrsyHedgingRelshpScenario.fx_risk is not initial then '01'` |
-| `when` | `when` |
-| `TrsyHedgingRelshpScenario.ir_risk is not initial then '02'` | `TrsyHedgingRelshpScenario.ir_risk is not initial then '02'` |
-| `when` | `when` |
-| `TrsyHedgingRelshpScenario.price_risk is not initial then '03'` | `TrsyHedgingRelshpScenario.price_risk is not initial then '03'` |
-| `else` | `else` |
-| `'  '` | `'  '` |
-| `ftr_gen_hrel_risk_category    preserving type)` | `end` |
-| `ftr_gen_hacc_rule             preserving type)` | `cast(TrsyHedgingRelshpScenario.hacc_rule` |
+| `TrsyHedgingRelshpScenario` | `cast(…)` |
+| `HedgingRelationshipCategory` | `cast(…)` |
+| `TrsyHedgingRelshpRiskCategory` | `cast(…)` |
+| `TrsyHedgeAccountingRule` | `cast(TrsyHedgingRelshpScenario.hacc_rule as ftr_gen_hacc_rule preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

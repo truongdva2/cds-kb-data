@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentMethod
 ---
 # I_BR_PAYMENTMETHODTEXT
 
@@ -34,8 +35,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `logbr_tpag preserving type)` | `cast (t_pag` |
-| `logbr_tpagdesc preserving type)` | `cast(t_pagt` |
+| `PaymentMethod` | `cast (t_pag as logbr_tpag preserving type)` |
+| `PaymentMethodDescription` | `cast(t_pagt as logbr_tpagdesc preserving type)` |
 | `_BR_PaymentMethod` | *Association* |
 | `_Language` | *Association* |
 

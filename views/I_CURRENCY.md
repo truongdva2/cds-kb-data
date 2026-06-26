@@ -1,6 +1,11 @@
 ---
 name: I_CURRENCY
 description: Currency
+semantic_en: "Currency — ISO currency codes used for amounts in transactions and accounting."
+semantic_vi: "Tiền tệ — mã tiền tệ ISO dùng cho số tiền trong giao dịch và kế toán."
+keywords:
+  - tiền tệ
+  - loại tiền
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released
@@ -15,6 +20,7 @@ tags:
   - currency
   - component:BC-SRV-BSF-CUR-2CL
   - lob:Basis Components
+  - bo:Currency
 ---
 # I_CURRENCY
 
@@ -33,9 +39,9 @@ tags:
 |---|---|
 | `Currency` | `tcurc.waers` |
 | `_Text` | *Association* |
-| `currdec_cds)` | `cast(COALESCE(tcurx.currdec, 2)` |
-| `isocd_cds)` | `cast(tcurc.isocd` |
-| `altwr_cds)` | `cast(tcurc.altwr` |
+| `Decimals` | `cast(COALESCE(tcurx.currdec, 2) as currdec_cds)` |
+| `CurrencyISOCode` | `cast(tcurc.isocd as isocd_cds)` |
+| `AlternativeCurrencyKey` | `cast(tcurc.altwr as altwr_cds)` |
 | `IsPrimaryCurrencyForISOCrcy` | `tcurc.xprimary` |
 
 ## Associations

@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `UniqueIntSourcingRequest` | `UniqueIntSourcingRequest` |
 | `Supplier` | `Supplier` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -39,17 +39,17 @@ tags:
 | `Plant` | `Plant` |
 | `CompanyCode` | `CompanyCode` |
 | `MaterialGroup` | `MaterialGroup` |
-| `mm_a_supplier_country )` | `cast( _Supplier.Country` |
-| `_Supplier.Region as Region` | *Association* |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
+| `Region` | `_Supplier.Region` |
 | `IncotermsClassification` | `IncotermsClassification` |
 | `PaymentTerms` | `PaymentTerms` |
 | `PurchaseOrderDate` | `PurchaseOrderDate` |
-| `_Calendar.CalendarYear` | *Association* |
+| `CalendarYear` | `_Calendar.CalendarYear` |
 | `MinNrOfPOWithNonCompPaytTrm` | `NrOfPOWithNonCompliantPaytTrm` |
 | `NrOfPOWithNonCompliantPaytTrm` | `NrOfPOWithNonCompliantPaytTrm` |
-| `mm_pur_ana_numbrofpurords )` | `cast( 1` |
+| `NumberOfPurchaseOrders` | `cast( 1 as mm_pur_ana_numbrofpurords )` |
 | `PurOrdNetAmountInDisplayCrcy` | `PurOrdNetAmountInDisplayCrcy` |
-| `displaycurrency preserving type )` | `cast( :P_DisplayCurrency` |
+| `DisplayCurrency` | `cast( :P_DisplayCurrency as displaycurrency preserving type )` |
 | `_MaterialGroup` | *Association* |
 | `_Supplier` | *Association* |
 | `_PurchasingGroup` | *Association* |
@@ -73,6 +73,8 @@ tags:
 | `_MaterialGroup` | `I_ProductGroup_2` | [1..1] |
 | `_CompanyCode` | `I_CompanyCode` | [1..1] |
 | `_Calendar` | `I_CalendarDate` | [1..1] |
+| `_Country` | `I_Country` | [1..1] |
+| `_Region` | `I_Region` | [1..1] |
 
 ## Source Code
 

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-FL-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # I_FUNCTIONALLOCATION
 
@@ -30,9 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'MaintenancePlanningPlant'` | `localElement: 'MaintenancePlanningPlant'` |
-| `element: 'MaintenancePlanningPlant' }]` | `element: 'MaintenancePlanningPlant' }]` |
-| `}]` | `}]` |
+| `FunctionalLocation` | `iflot.tplnr` |
+| `FunctionalLocationOID` | `iflot.functionallocationoid` |
+| `FuncLocationStructure` | `iflot.tplkz` |
+| `FunctionalLocationCategory` | `iflot.fltyp` |
+| `WorkCenterInternalID` | `iflot.lgwid` |
+| `WorkCenterTypeCode` | `iflot.pm_objty` |
+| `TechnicalObjectType` | `iflot.eqart` |
+| `MaintObjectLocAcctAssgmtNmbr` | `iflot.iloan` |
+| `ConstructionMaterial` | `iflot.submt` |
+| `CreatedByUser` | `iflot.ernam` |
+| `CreationDate` | `iflot.erdat` |
+| `LastChangedByUser` | `iflot.aenam` |
+| `LastChangeDate` | `iflot.aedat` |
+| `AssetManufacturerName` | `iflot.herst` |
+| `ManufacturerPartTypeName` | `iflot.typbz` |
 | `MaintenancePlannerGroup` | `iflot.ingrp` |
 | `MaintenancePlanningPlant` | `iflot.iwerk` |
 | `CatalogProfile` | `iflot.rbnr` |

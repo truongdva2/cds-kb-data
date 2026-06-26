@@ -32,46 +32,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QualityNotificationItem.QualityNotification` | `_QualityNotificationItem.QualityNotification` |
-| `key _QualityNotificationItem.NotificationItem` | `_QualityNotificationItem.NotificationItem` |
-| `_QualityNotificationItem.NotificationItemExternalID` | *Association* |
-| `_QualityNotificationItem.NotificationItemText` | *Association* |
-| `_QualityNotificationItem.MasterLanguage` | *Association* |
-| `_QualityNotificationItem.Assembly` | *Association* |
-| `_QualityNotificationItem.DefectClass` | *Association* |
-| `_QualityNotificationItem.NumberOfDefects` | *Association* |
-| `_QualityNotificationItem.InspPlanOperationInternalID` | *Association* |
-| `_QualityNotificationItem.InspectionCharacteristic` | *Association* |
-| `_QualityNotificationItem.InspectionSubsetInternalID` | *Association* |
-| `_QualityNotificationItem.MaterialSample` | *Association* |
-| `_QualityNotificationItem.DefectiveSingleUnit` | *Association* |
-| `_QualityNotificationItem.WorkCenterTypeCode` | *Association* |
-| `_QualityNotificationItem.MainWorkCenterInternalID` | *Association* |
-| `_QualityNotificationItem.MainWorkCenter` | *Association* |
-| `_QualityNotificationItem.MainWorkCenterPlant` | *Association* |
-| `_QualityNotificationItem.DefectOrigin` | *Association* |
-| `_QualityNotificationItem.ReferencedDefect` | *Association* |
-| `_QualityNotificationItem.IsDeleted` | *Association* |
-| `_QualityNotificationItem.DefectCodeCatalog` | *Association* |
-| `_QualityNotificationItem.DefectCodeGroup` | *Association* |
-| `_QualityNotificationItem.DefectCode` | *Association* |
-| `_QualityNotificationItem.NotifItmObjectPartCodeCtlg` | *Association* |
-| `_QualityNotificationItem.NotifItmObjectPartCodeGroup` | *Association* |
-| `_QualityNotificationItem.NotifItmObjectPartCode` | *Association* |
-| `_QualityNotificationItem.ExternalDefectiveQuantity` | *Association* |
-| `_QualityNotificationItem.InternalDefectiveQuantity` | *Association* |
-| `_QualityNotificationItem.DefectiveQuantityUnit` | *Association* |
-| `_QualityNotificationItem.CreatedByUser` | *Association* |
-| `_QualityNotificationItem.CreationDate` | *Association* |
-| `_QualityNotificationItem.CreationTime` | *Association* |
-| `_QualityNotificationItem.LastChangedByUser` | *Association* |
-| `_QualityNotificationItem.LastChangeDate` | *Association* |
-| `_QualityNotificationItem.LastChangeTime` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_QualityNotificationItem._QltyNotification          : redirected to parent            I_QltyNotificationTP` | *Association* |
-| `_QualityNotificationItem._QltyNotifItemLongText     : redirected to composition child I_QltyNotifItemLongTextTP` | *Association* |
-| `_QualityNotificationItem._QltyNotificationItemCause : redirected to composition child I_QltyNotificationItemCauseTP` | *Association* |
-| `_QualityNotificationItem._Notification` | *Association* |
+| `QualityNotification` | `_QualityNotificationItem.QualityNotification` |
+| `NotificationItem` | `_QualityNotificationItem.NotificationItem` |
+| `NotificationItemExternalID` | `_QualityNotificationItem.NotificationItemExternalID` |
+| `NotificationItemText` | `_QualityNotificationItem.NotificationItemText` |
+| `MasterLanguage` | `_QualityNotificationItem.MasterLanguage` |
+| `Assembly` | `_QualityNotificationItem.Assembly` |
+| `DefectClass` | `_QualityNotificationItem.DefectClass` |
+| `NumberOfDefects` | `_QualityNotificationItem.NumberOfDefects` |
+| `InspPlanOperationInternalID` | `_QualityNotificationItem.InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `_QualityNotificationItem.InspectionCharacteristic` |
+| `InspectionSubsetInternalID` | `_QualityNotificationItem.InspectionSubsetInternalID` |
+| `MaterialSample` | `_QualityNotificationItem.MaterialSample` |
+| `DefectiveSingleUnit` | `_QualityNotificationItem.DefectiveSingleUnit` |
+| `WorkCenterTypeCode` | `_QualityNotificationItem.WorkCenterTypeCode` |
+| `MainWorkCenterInternalID` | `_QualityNotificationItem.MainWorkCenterInternalID` |
+| `MainWorkCenter` | `_QualityNotificationItem.MainWorkCenter` |
+| `MainWorkCenterPlant` | `_QualityNotificationItem.MainWorkCenterPlant` |
+| `DefectOrigin` | `_QualityNotificationItem.DefectOrigin` |
+| `ReferencedDefect` | `_QualityNotificationItem.ReferencedDefect` |
+| `IsDeleted` | `_QualityNotificationItem.IsDeleted` |
+| `DefectCodeCatalog` | `_QualityNotificationItem.DefectCodeCatalog` |
+| `DefectCodeGroup` | `_QualityNotificationItem.DefectCodeGroup` |
+| `DefectCode` | `_QualityNotificationItem.DefectCode` |
+| `NotifItmObjectPartCodeCtlg` | `_QualityNotificationItem.NotifItmObjectPartCodeCtlg` |
+| `NotifItmObjectPartCodeGroup` | `_QualityNotificationItem.NotifItmObjectPartCodeGroup` |
+| `NotifItmObjectPartCode` | `_QualityNotificationItem.NotifItmObjectPartCode` |
+| `ExternalDefectiveQuantity` | `_QualityNotificationItem.ExternalDefectiveQuantity` |
+| `InternalDefectiveQuantity` | `_QualityNotificationItem.InternalDefectiveQuantity` |
+| `DefectiveQuantityUnit` | `_QualityNotificationItem.DefectiveQuantityUnit` |
+| `CreatedByUser` | `_QualityNotificationItem.CreatedByUser` |
+| `CreationDate` | `_QualityNotificationItem.CreationDate` |
+| `CreationTime` | `_QualityNotificationItem.CreationTime` |
+| `LastChangedByUser` | `_QualityNotificationItem.LastChangedByUser` |
+| `LastChangeDate` | `_QualityNotificationItem.LastChangeDate` |
+| `LastChangeTime` | `_QualityNotificationItem.LastChangeTime` |
+| `_Notification` | *Association* |
 
 ## Associations
 

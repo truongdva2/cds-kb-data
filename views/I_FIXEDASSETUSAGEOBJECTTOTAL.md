@@ -37,9 +37,9 @@ tags:
 | `ValidityEndDate` | `valid_to_date` |
 | `ValidityStartDate` | `valid_from_date` |
 | `CapacityInProductionUnit` | `total_units` |
-| `_UsageObject.BaseUnit` | *Association* |
+| `BaseUnit` | `_UsageObject.BaseUnit` |
 | `_CompanyCode` | *Association* |
-| `_UsageObject._UnitOfMeasure` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 | `_UsageObject` | *Association* |
 
 ## Associations

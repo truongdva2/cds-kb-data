@@ -33,11 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `key Product` | `Product` |
+| `Product` | `Product` |
 | `ProductExternalID` | `ProductExternalID` |
 | `_Text` | *Association* |
 | `ProductGroup` | `ProductGroup` |

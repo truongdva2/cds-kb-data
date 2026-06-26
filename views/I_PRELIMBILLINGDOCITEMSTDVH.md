@@ -19,6 +19,7 @@ tags:
   - item-level
   - component:SD-BIL-PBD-2CL
   - lob:Sales & Distribution
+  - bo:PrelimBillingDocumentItem
 ---
 # I_PRELIMBILLINGDOCITEMSTDVH
 
@@ -35,8 +36,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PrelimBillingDocument` | `PrelimBillingDocument` |
-| `key PrelimBillingDocumentItem` | `PrelimBillingDocumentItem` |
+| `PrelimBillingDocument` | `PrelimBillingDocument` |
+| `PrelimBillingDocumentItem` | `PrelimBillingDocumentItem` |
 | `BillingDocumentItemText` | `BillingDocumentItemText` |
 | `BillingDocumentType` | `BillingDocumentType` |
 | `SalesOrganization` | `SalesOrganization` |

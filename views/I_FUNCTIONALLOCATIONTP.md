@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:FunctionalLocation
 ---
 # I_FUNCTIONALLOCATIONTP
 
@@ -31,17 +32,48 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
+| `FunctionalLocationName` | `FunctionalLocationName` |
+| `FuncLocationStructure` | `FuncLocationStructure` |
+| `FunctionalLocationCategory` | `FunctionalLocationCategory` |
+| `SuperiorFunctionalLocation` | `SuperiorFunctionalLocation` |
+| `SuperiorFuncnlLocLabelName` | `SuperiorFuncnlLocLabelName` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
+| `GrossWeight` | `GrossWeight` |
+| `GrossWeightUnit` | `GrossWeightUnit` |
+| `OperationStartDate` | `OperationStartDate` |
+| `InventoryNumber` | `InventoryNumber` |
+| `AcquisitionValue` | `AcquisitionValue` |
+| `Currency` | `Currency` |
+| `AcquisitionDate` | `AcquisitionDate` |
+| `AssetManufacturerName` | `AssetManufacturerName` |
+| `ManufacturerPartNmbr` | `ManufacturerPartNmbr` |
+| `ManufacturerCountry` | `ManufacturerCountry` |
+| `ManufacturerPartTypeName` | `ManufacturerPartTypeName` |
+| `ConstructionMonth` | `ConstructionMonth` |
+| `ConstructionYear` | `ConstructionYear` |
+| `ManufacturerSerialNumber` | `ManufacturerSerialNumber` |
+| `MaintenancePlant` | `MaintenancePlant` |
+| `AssetLocation` | `AssetLocation` |
+| `AssetRoom` | `AssetRoom` |
+| `PlantSection` | `PlantSection` |
+| `WorkCenter` | `WorkCenter` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterPlant` | `WorkCenterPlant` |
+| `ABCIndicator` | `ABCIndicator` |
+| `MaintObjectFreeDefinedAttrib` | `MaintObjectFreeDefinedAttrib` |
 | `AddressID` | `AddressID` |
-| `FormOfAddress, // new field 2108` | `FormOfAddress, // new field 2108` |
+| `FormOfAddress` | `FormOfAddress` |
 | `BusinessPartnerName1` | `BusinessPartnerName1` |
-| `BusinessPartnerName2, //new field 2108` | `BusinessPartnerName2, //new field 2108` |
+| `BusinessPartnerName2` | `BusinessPartnerName2` |
 | `CityName` | `CityName` |
 | `HouseNumber` | `HouseNumber` |
-| `HouseNumberSupplementText, //new field 2108` | `HouseNumberSupplementText, //new field 2108` |
-| `Building, // new field 2108` | `Building, // new field 2108` |
-| `Floor, // new field 2108` | `Floor, // new field 2108` |
-| `RoomNumber, //new field 2108` | `RoomNumber, //new field 2108` |
+| `HouseNumberSupplementText` | `HouseNumberSupplementText` |
+| `Building` | `Building` |
+| `Floor` | `Floor` |
+| `RoomNumber` | `RoomNumber` |
 | `PostalCode` | `PostalCode` |
 | `StreetName` | `StreetName` |
 | `Region` | `Region` |
@@ -77,13 +109,9 @@ tags:
 | `FuncnlLocIsDeleted` | `FuncnlLocIsDeleted` |
 | `FunctionalLocationIsActive` | `FunctionalLocationIsActive` |
 | `FuncnlLocIsDeactivated` | `FuncnlLocIsDeactivated` |
-| `CreatedByUser, //new admin field 2111` | `CreatedByUser, //new admin field 2111` |
-| `CreationDate, //new admin field 2111` | `CreationDate, //new admin field 2111` |
-| `LastChangedByUser, //new admin field 2111` | `LastChangedByUser, //new admin field 2111` |
-| `_Partner        : redirected to composition child I_FunctionalLocationPartnerTP` | *Association* |
-| `_LongText       : redirected to composition child I_FunctionalLocationLongTextTP` | *Association* |
-| `_Classification : redirected to composition child I_FuncnlLocClfnClassTP` | *Association* |
-| `_Warranty       : redirected to composition child I_FuncnlLocWarrantyAssgmtTP` | *Association* |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
 
 ## Associations
 

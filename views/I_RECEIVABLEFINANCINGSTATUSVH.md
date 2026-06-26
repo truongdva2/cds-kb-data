@@ -16,6 +16,7 @@ tags:
   - status
   - component:FI-AR-AR-RF-2CL
   - lob:Finance
+  - bo:ReceivableFinancingStatus
 ---
 # I_RECEIVABLEFINANCINGSTATUSVH
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
-| `key ReceivableFinancingStatus` | `ReceivableFinancingStatus` |
+| `ReceivableFinancingStatus` | `ReceivableFinancingStatus` |
 | `_Text` | *Association* |
 
 ## Associations

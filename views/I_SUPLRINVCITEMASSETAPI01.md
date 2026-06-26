@@ -32,31 +32,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierInvoiceItemAsset.SupplierInvoice` | `I_SupplierInvoiceItemAsset.SupplierInvoice` |
-| `key I_SupplierInvoiceItemAsset.FiscalYear` | `I_SupplierInvoiceItemAsset.FiscalYear` |
-| `abap.int2 ) - _GlItemCount.NumberOfItems , cast ( I_SupplierInvoiceItemAsset.OrdinalNumber` | `cast ( cast ( coalesce ( cast ( I_SupplierInvoiceItemAsset.OrdinalNumber` |
-| `I_SupplierInvoiceItemAsset.CompanyCode` | `I_SupplierInvoiceItemAsset.CompanyCode` |
-| `I_SupplierInvoiceItemAsset.MasterFixedAsset` | `I_SupplierInvoiceItemAsset.MasterFixedAsset` |
-| `I_SupplierInvoiceItemAsset.FixedAsset` | `I_SupplierInvoiceItemAsset.FixedAsset` |
-| `I_SupplierInvoiceItemAsset.DebitCreditCode` | `I_SupplierInvoiceItemAsset.DebitCreditCode` |
-| `I_SupplierInvoiceItemAsset.DocumentCurrency` | `I_SupplierInvoiceItemAsset.DocumentCurrency` |
-| `I_SupplierInvoiceItemAsset.SupplierInvoiceItemAmount` | `I_SupplierInvoiceItemAsset.SupplierInvoiceItemAmount` |
-| `I_SupplierInvoiceItemAsset.QuantityUnit` | `I_SupplierInvoiceItemAsset.QuantityUnit` |
-| `I_SupplierInvoiceItemAsset.Quantity` | `I_SupplierInvoiceItemAsset.Quantity` |
-| `I_SupplierInvoiceItemAsset.TaxCode` | `I_SupplierInvoiceItemAsset.TaxCode` |
-| `I_SupplierInvoiceItemAsset.TaxJurisdiction` | `I_SupplierInvoiceItemAsset.TaxJurisdiction` |
-| `I_SupplierInvoiceItemAsset.TaxCountry` | `I_SupplierInvoiceItemAsset.TaxCountry` |
-| `I_SupplierInvoiceItemAsset.TaxDeterminationDate` | `I_SupplierInvoiceItemAsset.TaxDeterminationDate` |
-| `I_SupplierInvoiceItemAsset.AssignmentReference` | `I_SupplierInvoiceItemAsset.AssignmentReference` |
-| `I_SupplierInvoiceItemAsset.SupplierInvoiceItemText` | `I_SupplierInvoiceItemAsset.SupplierInvoiceItemText` |
-| `I_SupplierInvoiceItemAsset.IsNotCashDiscountLiable` | `I_SupplierInvoiceItemAsset.IsNotCashDiscountLiable` |
-| `I_SupplierInvoiceItemAsset.ProfitCenter` | `I_SupplierInvoiceItemAsset.ProfitCenter` |
-| `I_SupplierInvoiceItemAsset.AssetValueDate` | `I_SupplierInvoiceItemAsset.AssetValueDate` |
-| `I_SupplierInvoiceItemAsset.GLAccount` | `I_SupplierInvoiceItemAsset.GLAccount` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `I_SupplierInvoiceItemAsset.SupplierInvoice` |
+| `FiscalYear` | `I_SupplierInvoiceItemAsset.FiscalYear` |
+| `SupplierInvoiceItem` | `cast(…)` |
+| `CompanyCode` | `I_SupplierInvoiceItemAsset.CompanyCode` |
+| `MasterFixedAsset` | `I_SupplierInvoiceItemAsset.MasterFixedAsset` |
+| `FixedAsset` | `I_SupplierInvoiceItemAsset.FixedAsset` |
+| `DebitCreditCode` | `I_SupplierInvoiceItemAsset.DebitCreditCode` |
+| `DocumentCurrency` | `I_SupplierInvoiceItemAsset.DocumentCurrency` |
+| `SupplierInvoiceItemAmount` | `I_SupplierInvoiceItemAsset.SupplierInvoiceItemAmount` |
+| `QuantityUnit` | `I_SupplierInvoiceItemAsset.QuantityUnit` |
+| `Quantity` | `I_SupplierInvoiceItemAsset.Quantity` |
+| `TaxCode` | `I_SupplierInvoiceItemAsset.TaxCode` |
+| `TaxJurisdiction` | `I_SupplierInvoiceItemAsset.TaxJurisdiction` |
+| `TaxCountry` | `I_SupplierInvoiceItemAsset.TaxCountry` |
+| `TaxDeterminationDate` | `I_SupplierInvoiceItemAsset.TaxDeterminationDate` |
+| `AssignmentReference` | `I_SupplierInvoiceItemAsset.AssignmentReference` |
+| `SupplierInvoiceItemText` | `I_SupplierInvoiceItemAsset.SupplierInvoiceItemText` |
+| `IsNotCashDiscountLiable` | `I_SupplierInvoiceItemAsset.IsNotCashDiscountLiable` |
+| `ProfitCenter` | `I_SupplierInvoiceItemAsset.ProfitCenter` |
+| `AssetValueDate` | `I_SupplierInvoiceItemAsset.AssetValueDate` |
+| `GLAccount` | `I_SupplierInvoiceItemAsset.GLAccount` |
 | `_SupplierInvoiceAPI01` | *Association* |
-| `I_SupplierInvoiceItemAsset._Currency` | `I_SupplierInvoiceItemAsset._Currency` |
-| `I_SupplierInvoiceItemAsset._UnitOfMeasure` | `I_SupplierInvoiceItemAsset._UnitOfMeasure` |
+| `_Currency` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 
 ## Associations
 

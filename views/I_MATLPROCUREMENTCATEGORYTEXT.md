@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialProcurementCategoryTxt
 ---
 # I_MATLPROCUREMENTCATEGORYTEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `materialprocurementcatname preserving type)` | `cast(txt.ddtext` |
+| `MaterialProcurementCategory` | `cast(substring(txt.domvalue_l, 1, 1) as pph_beskz preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `MaterialProcurementCatName` | `cast(txt.ddtext as materialprocurementcatname preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Category` | *Association* |
 | `_Language` | *Association* |

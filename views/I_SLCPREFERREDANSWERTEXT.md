@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPreferredAnswer
 ---
 # I_SLCPREFERREDANSWERTEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qlb_pref_answer)` | `cast( substring( domvalue_l, 1, 1 )` |
+| `SLCPreferredAnswer` | `cast( substring( domvalue_l, 1, 1 ) as /srmsmc/qlb_pref_answer)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/type_descr preserving type)` | `cast(ddtext` |
+| `SLCQuestionTypeName` | `cast(ddtext as /srmsmc/type_descr preserving type)` |
 | `_Language` | *Association* |
 | `_SLCPreferredAnswer` | *Association* |
 

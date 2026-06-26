@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleCondition
 ---
 # I_BR_VEHICLECONDITION
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehiclecondition )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `VehicleCondition` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_vehiclecondition )` |
 | `_Text` | *Association* |
 
 ## Associations

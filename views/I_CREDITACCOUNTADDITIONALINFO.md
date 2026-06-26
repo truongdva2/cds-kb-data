@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FIN-FSCM-CR-2CL
   - lob:Other
+  - bo:AdditionalCreditDocSequence
 ---
 # I_CREDITACCOUNTADDITIONALINFO
 
@@ -31,8 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
-| `ukm_comment preserving type)` | `cast(text` |
+| `BusinessPartner` | `partner` |
+| `CreditSegment` | `cast(criter as ukm_credit_sgmnt preserving type)` |
+| `CrdtAcctInformationCategory` | `addtype` |
+| `CrdtAcctInformationType` | `data_type` |
+| `CrdtAcctAddInfoUTCDateTime` | `timestamp` |
+| `AdditionalCreditDocSequence` | `counter` |
+| `ExceptionIsCreditCheckRelevant` | `cast(xfeld as ukm_check_relevant preserving type )` |
+| `AddlCreditDocAmtInTransacCrcy` | `amnt` |
+| `TransactionCurrency` | `curr` |
+| `ValidityStartDate` | `cast(datefr as ukm_validity_start_date preserving type )` |
+| `ValidityEndDate` | `cast(dateto as ukm_validity_end_date preserving type)` |
+| `CreditAccountResubmissionDate` | `cast(addate as ukm_resubmission_date preserving type)` |
+| `AdditionalCreditDocComment` | `cast(text as ukm_comment preserving type)` |
 | `_BusinessPartner` | *Association* |
 | `_CreditManagementSegment` | *Association* |
 | `_CrdtAcctInfoCategory` | *Association* |

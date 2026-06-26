@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `ProjectRoleType` | `participant_role` |
 | `ProjectRoleCategory` | `role_category` |
-| `/s4ppm/tv_partner_function preserving type )` | `cast ( dpr_part_role.partner_function` |
+| `PartnerFunction` | `cast(…)` |
 | `_Text` | *Association* |
 | `_ProjectRoleTypeCategory` | *Association* |
 | `_PartnerFunction` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_EntProjectRoleTypeText` | [0..*] |
 | `_ProjectRoleTypeCategory` | `I_EntProjectRoleCategory` | [1..1] |
 | `_PartnerFunction` | `I_PartnerFunction` | [1..1] |
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLotType
 ---
 # I_INSPECTIONLOTTYPETEXT
 
@@ -32,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
-| `vdm_qpart_text preserving type )` | `cast( tq30t.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `InspectionLotType` | `tq30t.art` |
+| `Language` | `tq30t.sprache` |
+| `InspectionLotTypeText` | `cast( tq30t.kurztext as vdm_qpart_text preserving type )` |
 | `_InspectionLotType` | *Association* |
 | `_Language` | *Association* |
 

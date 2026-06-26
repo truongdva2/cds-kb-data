@@ -14,6 +14,7 @@ tags:
   - document
   - component:PSM
   - lob:Other
+  - bo:EarmarkedFundsDocument
 ---
 # I_EARMARKEDFUNDSDOCUMENTTP
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
+| `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
 | `EarmarkedFundsDocumentForEdit` | `EarmarkedFundsDocumentForEdit` |
 | `EarmarkedFundsDocumentCategory` | `EarmarkedFundsDocumentCategory` |
 | `EarmarkedFundsDocumentType` | `EarmarkedFundsDocumentType` |
@@ -78,8 +79,6 @@ tags:
 | `EmrkdFndsChgdTotalInTransCrcy` | `EmrkdFndsChgdTotalInTransCrcy` |
 | `EmrkdFndsCnsmdTotalInTransCrcy` | `EmrkdFndsCnsmdTotalInTransCrcy` |
 | `EmrkdFndsOriglTotalInTransCrcy` | `EmrkdFndsOriglTotalInTransCrcy` |
-| `/* Associations */` | `/* Associations */` |
-| `efdoc._EarmarkedFundsDocumentItem : redirected to composition child I_EarmarkedFundsDocumentItemTP` | `efdoc._EarmarkedFundsDocumentItem : redirected to composition child I_EarmarkedFundsDocumentItemTP` |
 
 ## Associations
 

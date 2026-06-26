@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgPlnItmExcptnReason` | `item_excreason` |
 | `Language` | `langu` |
-| `bip_item_excreason_txt_gfn_kk preserving type )` | `cast(text` |
+| `CABillgPlnItmExcptnRsnText` | `cast(text as bip_item_excreason_txt_gfn_kk preserving type )` |
 | `_CABillgPlnItmExcptnReason` | *Association* |
 | `_Language` | *Association* |
 

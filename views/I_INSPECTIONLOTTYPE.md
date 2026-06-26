@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLotType
 ---
 # I_INSPECTIONLOTTYPE
 
@@ -30,10 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
+| `InspectionLotType` | `tq30.art` |
 | `BillOfOperationsUsage` | `tq30.pplverw` |
 | `SelectedCodeSet` | `tq30.vemenge` |
 | `SelectedCodeSetHasSamePlant` | `tq30.kzvewerks` |

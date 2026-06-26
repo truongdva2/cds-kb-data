@@ -31,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'SubItemCategory'` | `localElement: 'SubItemCategory'` |
-| `element: 'SubItemCategory' }]` | `element: 'SubItemCategory' }]` |
-| `}]` | `}]` |
-| `fincs_subitem preserving type )` | `cast(sitem` |
+| `SubItemCategory` | `cast(sityp as fincs_subitemcategory preserving type )` |
+| `SubItem` | `cast(sitem as fincs_subitem preserving type )` |
 | `_SubItemCategory` | *Association* |
 | `_SubitemHierNode` | *Association* |
 | `_Text` | *Association* |

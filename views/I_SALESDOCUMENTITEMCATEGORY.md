@@ -37,8 +37,8 @@ tags:
 | `BillingRelevanceCode` | `fkrel` |
 | `ScheduleLineIsAllowed` | `eterl` |
 | `PricingRelevance` | `prsfd` |
-| `sls_doc_text_detn_item preserving type )` | `cast(txtgr` |
-| `sls_doc_partner_detn_item preserving type )` | `cast(pargr` |
+| `TextDeterminationProcedure` | `cast(txtgr as sls_doc_text_detn_item preserving type )` |
+| `PartnerDeterminationProcedure` | `cast(pargr as sls_doc_partner_detn_item preserving type )` |
 | `PropagatePrftbltySgmt2BOM` | `propagate_paobjnr_bom` |
 | `CostDeterminationIsRequired` | `evrwr` |
 | `StatisticalValueControl` | `kowrr` |

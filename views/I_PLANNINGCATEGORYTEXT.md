@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:PlanningCategory
 ---
 # I_PLANNINGCATEGORYTEXT
 
@@ -34,7 +35,7 @@ tags:
 |---|---|
 | `PlanningCategory` | `fcomc_category_t.category` |
 | `Language` | `langu` |
-| `fcom_category_t preserving type )` | `cast(text` |
+| `PlanningCategoryName` | `cast(text as fcom_category_t preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

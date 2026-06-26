@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'FunctionalAreaName' }` | `status: #DEPRECATED, successor: 'FunctionalAreaName' }` |
-| `fincs_description_text_25 preserving type )` | `cast( _Source.FunctionalAreaName` |
-| `fincs_functionalareaname preserving type )` | `cast( _Source.FunctionalAreaName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `FunctionalArea` | `cast( _Source.FunctionalArea as fincs_functionalarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.FunctionalAreaName as fincs_description_text_25 preserving type )` |
+| `FunctionalAreaName` | `cast( _Source.FunctionalAreaName as fincs_functionalareaname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_FunctionalArea` | *Association* |
 

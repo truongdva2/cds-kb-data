@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/trcharg_clc_res_instr preserving type)` | `cast(substring(domvalue_l, 1, 6)` |
+| `TranspChargeInstrnType` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspChargeInstrnTypeText` | [0..*] |
 
 ## Source Code
 

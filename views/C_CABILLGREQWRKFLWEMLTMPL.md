@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Workflowtask.WorkflowTaskInternalID` | `Workflowtask.WorkflowTaskInternalID` |
-| `_CABillgReq.CABillgReqDocument` | *Association* |
-| `_CABillgReq.CABillgReqTotalAmountCurrency` | *Association* |
-| `_CABillgReq.CABillgReqType` | *Association* |
-| `_CABillgReq.CABillgReqReason` | *Association* |
-| `_CABillgReq.CABillgReqCreationDate` | *Association* |
-| `_CABillgReq.CABillgReqDescription` | *Association* |
-| `_WorkflowTaskURL.WorkflowTaskURL` | *Association* |
+| `WorkflowTaskInternalID` | `Workflowtask.WorkflowTaskInternalID` |
+| `CABillgReqDocument` | `_CABillgReq.CABillgReqDocument` |
+| `CABillgReqTotalAmountCurrency` | `_CABillgReq.CABillgReqTotalAmountCurrency` |
+| `CABillgReqType` | `_CABillgReq.CABillgReqType` |
+| `CABillgReqReason` | `_CABillgReq.CABillgReqReason` |
+| `CABillgReqCreationDate` | `_CABillgReq.CABillgReqCreationDate` |
+| `CABillgReqDescription` | `_CABillgReq.CABillgReqDescription` |
+| `WorkflowTaskURL` | `_WorkflowTaskURL.WorkflowTaskURL` |
 
 ## Associations
 

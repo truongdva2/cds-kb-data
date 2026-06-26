@@ -17,6 +17,7 @@ tags:
   - text
   - component:BC-SRV-ASF-UOM
   - lob:Basis Components
+  - bo:UnitOfMeasureDimension
 ---
 # I_UNITOFMEASUREDIMENSIONTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_UnitOfMeasureDimension` | `I_UnitOfMeasureDimension` | [1..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

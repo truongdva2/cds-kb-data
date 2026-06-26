@@ -32,10 +32,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PurchaseOrder` | `pricing.PurchaseOrder` |
-| `key PricingDocument` | `PricingDocument` |
-| `key PricingDocumentItem` | `PricingDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PricingDateTime` | `PricingDateTime` |
@@ -44,8 +44,8 @@ tags:
 | `ConditionRateValue` | `ConditionRateValue` |
 | `ConditionCurrency` | `ConditionCurrency` |
 | `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
-| `kursk_abs)` | `cast(abs( PriceDetnExchangeRate )` |
-| `kursk_quotatn_is_indirect)` | `cast(case when PriceDetnExchangeRate < 0 then 'X' else ' ' end` |
+| `AbsltPriceDetnExchangeRate` | `cast(abs( PriceDetnExchangeRate ) as kursk_abs)` |
+| `PriceDetnExchRateIsIndrctQtan` | `cast(…)` |
 | `ConditionQuantity` | `ConditionQuantity` |
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionToBaseQtyNmrtr` | `ConditionToBaseQtyNmrtr` |

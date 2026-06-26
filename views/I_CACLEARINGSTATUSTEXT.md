@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `augst_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `augst_text_kk preserving type )` | `cast( ddtext` |
+| `CAClearingStatus` | `cast( left( domvalue_l, 1 ) as augst_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAClearingStatusName` | `cast( ddtext as augst_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

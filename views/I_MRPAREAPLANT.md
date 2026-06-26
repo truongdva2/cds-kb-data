@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MRPArea` | `mdlw.berid` |
-| `werzg preserving type)` | `cast(mdlw.werks` |
+| `MRPAreaPlant` | `cast(mdlw.werks as werzg preserving type)` |
 | `_Plant` | *Association* |
 
 ## Associations

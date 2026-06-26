@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtProcessType` | `SettlmtProcessType` |
+| `SettlmtProcessType` | `SettlmtProcessType` |
 | `SettlmtDocType` | `SettlmtDocType` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

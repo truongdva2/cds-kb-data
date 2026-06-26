@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-OBJ-ORD-2CL
   - lob:Controlling
+  - bo:MfgOrdNonMatlRcvrAcctDetnMeth
 ---
 # I_MFGORDNONMATRCVRACCTDETNMETH
 
@@ -30,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `fco_acct_detn_meth_text)` | `cast(ddtext` |
+| `MfgOrdNonMatlRcvrAcctDetnMeth` | `cast( domvalue_l as fco_acct_determination_method)` |
+| `MfgOrdNonMatlRcvrDetnMethName` | `cast(ddtext as fco_acct_detn_meth_text)` |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_Language` | `I_Language` | [0..1] |
+> No associations found.
 
 ## Source Code
 

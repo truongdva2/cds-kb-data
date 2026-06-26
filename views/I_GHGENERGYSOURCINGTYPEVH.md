@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergySourcingType
 ---
 # I_GHGENERGYSOURCINGTYPEVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergySourcingType` | `GHGEnergySourcingType` |
+| `GHGEnergySourcingType` | `GHGEnergySourcingType` |
 | `_Text` | *Association* |
 
 ## Associations

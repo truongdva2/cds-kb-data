@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_postinglevelhierarchy preserving type  )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `fincs_postinglevelhiertext preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
+| `Language` | `_HierarchyText.Language` |
+| `ConsolidationPostgLevelHier` | `cast(…)` |
+| `ConsolidationPostgLevelHierTxt` | `cast(…)` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

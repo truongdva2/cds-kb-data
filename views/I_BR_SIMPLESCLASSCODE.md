@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_SIMPLESClassCode
 ---
 # I_BR_SIMPLESCLASSCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_simples_class )` | `cast ( domvalue_l` |
+| `BR_SIMPLESClassCode` | `cast ( domvalue_l as logbr_simples_class )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

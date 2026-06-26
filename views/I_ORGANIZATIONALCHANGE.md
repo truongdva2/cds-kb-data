@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-OC-2CL
   - lob:Finance
+  - bo:OrganizationalChange
 ---
 # I_ORGANIZATIONALCHANGE
 
@@ -39,13 +40,13 @@ tags:
 | `OrglChangeLastChangedByUser` | `last_changed_by_user` |
 | `OrglChangeProcessingStatus` | `processing_status` |
 | `OrglChangeApplicationVersion` | `appl_version` |
-| `_LastActivity.OrganizationalChangeJobType as OrganizationalChangeJobType` | *Association* |
-| `_LastActivity.ApplicationLog              as ApplicationLog` | *Association* |
-| `_LastActivity.JobStatusValue              as StatusCode` | *Association* |
-| `_LastActivity.NumberOfUniqueWarnings      as NumberOfUniqueWarnings` | *Association* |
-| `_LastActivity.NumberOfUniqueErrors        as NumberOfUniqueErrors` | *Association* |
-| `_LastActivity.ApplicationJob              as ApplicationJob` | *Association* |
-| `_LastActivity.ApplicationJobName          as ApplicationJobName` | *Association* |
+| `OrganizationalChangeJobType` | `_LastActivity.OrganizationalChangeJobType` |
+| `ApplicationLog` | `_LastActivity.ApplicationLog` |
+| `StatusCode` | `_LastActivity.JobStatusValue` |
+| `NumberOfUniqueWarnings` | `_LastActivity.NumberOfUniqueWarnings` |
+| `NumberOfUniqueErrors` | `_LastActivity.NumberOfUniqueErrors` |
+| `ApplicationJob` | `_LastActivity.ApplicationJob` |
+| `ApplicationJobName` | `_LastActivity.ApplicationJobName` |
 | `_LastActivity` | *Association* |
 | `_Text` | *Association* |
 | `_WBSElement` | *Association* |

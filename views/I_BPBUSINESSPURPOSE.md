@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_business_purpose )` | `cast ( dd07l.domvalue_l` |
+| `BusinessPartnerBusinessPurpose` | `cast ( dd07l.domvalue_l as bp_business_purpose )` |
 | `_Text` | *Association* |
 
 ## Associations

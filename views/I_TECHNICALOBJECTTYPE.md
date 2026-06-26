@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:EAMTechnicalObjectType
 ---
 # I_TECHNICALOBJECTTYPE
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TechnicalObjectType` | `t370k.eqart` |
-| `technicalobjecttype_oid )` | `cast( t370k.eqart` |
+| `EAMTechnicalObjectTypeOID` | `cast( t370k.eqart as technicalobjecttype_oid )` |
 | `_Text` | *Association* |
 
 ## Associations

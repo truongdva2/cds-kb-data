@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:BusinessPartner
 ---
 # I_FTR_COUNTERPARTY
 
@@ -30,21 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner.BusinessPartner` | `BusinessPartner.BusinessPartner` |
-| `BusinessPartner.AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
-| `ftr_bpname )` | `cast( BusinessPartner.BusinessPartnerName` |
-| `BusinessPartner.IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
-| `BusinessPartner.DataControllerSet` | `BusinessPartner.DataControllerSet` |
-| `BusinessPartner.DataController1` | `BusinessPartner.DataController1` |
-| `BusinessPartner.DataController2` | `BusinessPartner.DataController2` |
-| `BusinessPartner.DataController3` | `BusinessPartner.DataController3` |
-| `BusinessPartner.DataController4` | `BusinessPartner.DataController4` |
-| `BusinessPartner.DataController5` | `BusinessPartner.DataController5` |
-| `BusinessPartner.DataController6` | `BusinessPartner.DataController6` |
-| `BusinessPartner.DataController7` | `BusinessPartner.DataController7` |
-| `BusinessPartner.DataController8` | `BusinessPartner.DataController8` |
-| `BusinessPartner.DataController9` | `BusinessPartner.DataController9` |
-| `BusinessPartner.DataController10` | `BusinessPartner.DataController10` |
+| `BusinessPartner` | `BusinessPartner.BusinessPartner` |
+| `AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
+| `BusinessPartnerName` | `cast( BusinessPartner.BusinessPartnerName as ftr_bpname )` |
+| `IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
+| `DataControllerSet` | `BusinessPartner.DataControllerSet` |
+| `DataController1` | `BusinessPartner.DataController1` |
+| `DataController2` | `BusinessPartner.DataController2` |
+| `DataController3` | `BusinessPartner.DataController3` |
+| `DataController4` | `BusinessPartner.DataController4` |
+| `DataController5` | `BusinessPartner.DataController5` |
+| `DataController6` | `BusinessPartner.DataController6` |
+| `DataController7` | `BusinessPartner.DataController7` |
+| `DataController8` | `BusinessPartner.DataController8` |
+| `DataController9` | `BusinessPartner.DataController9` |
+| `DataController10` | `BusinessPartner.DataController10` |
 
 ## Associations
 

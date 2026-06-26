@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ExchangeRateType` | `ExchangeRateType` |
-| `key SourceCurrency` | `SourceCurrency` |
-| `key TargetCurrency` | `TargetCurrency` |
-| `key ExchangeRateEffectiveDate` | `ExchangeRateEffectiveDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `SourceCurrency` | `SourceCurrency` |
+| `TargetCurrency` | `TargetCurrency` |
+| `ExchangeRateEffectiveDate` | `ExchangeRateEffectiveDate` |
 | `ExchangeRateTypeForEdit` | `ExchangeRateTypeForEdit` |
 | `SourceCurrencyForEdit` | `SourceCurrencyForEdit` |
 | `TargetCurrencyForEdit` | `TargetCurrencyForEdit` |

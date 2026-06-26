@@ -33,19 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedgAgrmtItemText.SalesSchedulingAgreement` | `SalesSchedgAgrmtItemText.SalesSchedulingAgreement` |
-| `key SalesSchedgAgrmtItemText.SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItemText.SalesSchedulingAgreementItem` |
-| `key SalesSchedgAgrmtItemText.Language` | `SalesSchedgAgrmtItemText.Language` |
-| `key SalesSchedgAgrmtItemText.LongTextID` | `SalesSchedgAgrmtItemText.LongTextID` |
-| `SalesSchedgAgrmtItemText.LongTextIDForEdit` | `SalesSchedgAgrmtItemText.LongTextIDForEdit` |
-| `SalesSchedgAgrmtItemText.LanguageForEdit` | `SalesSchedgAgrmtItemText.LanguageForEdit` |
-| `SalesSchedgAgrmtItemText.LongText` | `SalesSchedgAgrmtItemText.LongText` |
-| `SalesSchedgAgrmtItemText.SalesSchedgAgrmtType` | `SalesSchedgAgrmtItemText.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtItemText.OrganizationDivision` | `SalesSchedgAgrmtItemText.OrganizationDivision` |
-| `SalesSchedgAgrmtItemText.SalesOrganization` | `SalesSchedgAgrmtItemText.SalesOrganization` |
-| `SalesSchedgAgrmtItemText.DistributionChannel` | `SalesSchedgAgrmtItemText.DistributionChannel` |
-| `_Item                     : redirected to parent I_SlsSchedulingAgreementItemTP` | *Association* |
-| `_SalesSchedulingAgreement : redirected to I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedgAgrmtItemText.SalesSchedulingAgreement` |
+| `SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItemText.SalesSchedulingAgreementItem` |
+| `Language` | `SalesSchedgAgrmtItemText.Language` |
+| `LongTextID` | `SalesSchedgAgrmtItemText.LongTextID` |
+| `LongTextIDForEdit` | `SalesSchedgAgrmtItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesSchedgAgrmtItemText.LanguageForEdit` |
+| `LongText` | `SalesSchedgAgrmtItemText.LongText` |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtItemText.SalesSchedgAgrmtType` |
+| `OrganizationDivision` | `SalesSchedgAgrmtItemText.OrganizationDivision` |
+| `SalesOrganization` | `SalesSchedgAgrmtItemText.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedgAgrmtItemText.DistributionChannel` |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:RecurrenceEndType
 ---
 # I_RECURRENCEENDTYPETEXT
 
@@ -32,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fac_rjet_end_by_type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RecurrenceEndType` | `cast ( substring( dd07t.domvalue_l, 1, 1 ) as fac_rjet_end_by_type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `RecurrenceEndTypeName` | `ddtext` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_RecurrenceEndType` | *Association* |
 | `_Language` | *Association* |
 

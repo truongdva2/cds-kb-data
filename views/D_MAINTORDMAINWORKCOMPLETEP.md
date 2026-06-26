@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MainWorkCompletedDateTime   : timestamp;` | `MainWorkCompletedDateTime   : timestamp;` |
-| `MainWrkCmpltdDateTimeIsUsed : abap_boolean;` | `MainWrkCmpltdDateTimeIsUsed : abap_boolean;` |
+| `MainWorkCompletedDateTime` | `timestamp` |
+| `MainWrkCmpltdDateTimeIsUsed` | `abap_boolean` |
 
 ## Associations
 

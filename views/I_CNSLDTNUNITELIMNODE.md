@@ -30,11 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnUnitForEliminationVH'` | `name: 'I_CnsldtnUnitForEliminationVH'` |
-| `element: 'ConsolidationUnit'` | `element: 'ConsolidationUnit'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_elim_unit preserving type )` | `cast(left(_node.nodevalue, 25)` |
+| `ConsolidationUnit` | `cast(left(_node.nodevalue, 25) as fincs_elim_unit preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

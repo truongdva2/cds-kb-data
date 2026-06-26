@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `separate_inv_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CAInvcgControlOfInvoicingUnit` | `cast ( substring( dd07l.domvalue_l,1,1 ) as separate_inv_kk preserving type )` |
 | `_CAInvcgControlOfInvcgUnitTxt` | *Association* |
 
 ## Associations

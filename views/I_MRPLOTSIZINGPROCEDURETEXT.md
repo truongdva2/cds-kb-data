@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialLotSizingProcedure
 ---
 # I_MRPLOTSIZINGPROCEDURETEXT
 
@@ -31,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MaterialLotSizingProcedure` | `txt.disls` |
+| `Language` | `txt.spras` |
 | `MaterialLotSizingProcedureName` | `txt.loslt` |
 | `_LotSizingProcedure` | *Association* |
 | `_Language` | *Association* |

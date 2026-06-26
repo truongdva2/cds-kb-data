@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:CndnValueZeroProcgCode
 ---
 # I_CNDNVALUEZEROPROCESSINGCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `val_zero )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `CndnValueZeroProcgCode` | `cast ( substring( domvalue_l, 1, 1 ) as val_zero )` |
 | `_Text` | *Association* |
 
 ## Associations

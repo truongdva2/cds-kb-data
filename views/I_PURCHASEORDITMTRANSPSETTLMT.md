@@ -40,7 +40,6 @@ tags:
 | `TranspOrdItem` | `TranspOrdItem` |
 | `TranspOrdStageSrceLocation` | `TranspOrdStageSrceLocation` |
 | `TranspOrdStageDestLocation` | `TranspOrdStageDestLocation` |
-| `/* Associations */` | `/* Associations */` |
 | `_PurchaseOrderItem` | *Association* |
 
 ## Associations

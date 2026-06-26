@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `uvwak_uk preserving type )` | `cast( left(dd07l.domvalue_l, 1 )` |
+| `HdrGoodsMvtIncompletionStatus` | `cast( left(dd07l.domvalue_l, 1 ) as uvwak_uk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

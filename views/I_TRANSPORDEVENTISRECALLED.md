@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:TM-FRM-2CL
   - lob:Other
+  - bo:TranspOrderEventRecalled
 ---
 # I_TRANSPORDEVENTISRECALLED
 
@@ -29,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/event_revoked preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdEventIsRecalled` | `cast(substring(domvalue_l, 1, 1) as /scmtms/event_revoked preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdEventIsRecalledText` | [0..*] |
 
 ## Source Code
 

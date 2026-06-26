@@ -35,7 +35,7 @@ tags:
 | `JITHeaderUUID` | `root_key` |
 | `JITCallComponentUUID` | `parent_key` |
 | `RawMaterial` | `rawmaterial` |
-| `abap.numc( 18 ) )` | `cast( cast( quantity` |
+| `Quantity` | `cast( cast( quantity as abap.numc( 18 ) ) as abap.quan( 18 ) )` |
 | `BaseUnitofMeasure` | `uom` |
 | `Plant` | `plant` |
 | `StorageLocation` | `storagelocation` |
@@ -50,6 +50,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInbCallComponent` | `I_JITInbCallComponent` | — |
 | `_JITInboundCall` | `I_JITInboundCall` | [1..1] |
 | `_ProductRawMaterial` | `I_Product` | [1..1] |
 | `_Plant` | `I_Plant` | [0..1] |

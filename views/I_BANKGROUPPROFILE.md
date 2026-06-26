@@ -34,8 +34,8 @@ tags:
 |---|---|
 | `BankGroup` | `BusinessPartnerNumber` |
 | `BankGroupName` | `BusinessPartnerName` |
-| `_BankAccountCount.BankAccountQuantity as NumberOfBankAccounts` | *Association* |
-| `_HouseBankCompany.NumberOfCompanyCodes` | *Association* |
+| `NumberOfBankAccounts` | `_BankAccountCount.BankAccountQuantity` |
+| `NumberOfCompanyCodes` | `_HouseBankCompany.NumberOfCompanyCodes` |
 
 ## Associations
 

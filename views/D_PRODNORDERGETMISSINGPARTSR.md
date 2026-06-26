@@ -28,19 +28,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductionOrder            : aufnr;` | `ProductionOrder            : aufnr;` |
-| `BillOfMaterialItemNumber   : vdm_sposn;` | `BillOfMaterialItemNumber   : vdm_sposn;` |
-| `Material                   : matnr;` | `Material                   : matnr;` |
-| `Plant                      : werks_d;` | `Plant                      : werks_d;` |
-| `StorageLocation            : lgort_d;` | `StorageLocation            : lgort_d;` |
-| `Batch                      : charg_d;` | `Batch                      : charg_d;` |
-| `ProductionOrderOperation   : vdm_vornr;` | `ProductionOrderOperation   : vdm_vornr;` |
-| `RequirementDate            : bdter;` | `RequirementDate            : bdter;` |
-| `CommittedAvailabilityDate  : dat05;` | `CommittedAvailabilityDate  : dat05;` |
-| `BaseUnit                   : ausme;` | `BaseUnit                   : ausme;` |
-| `RequiredQuantity           : bdmng;` | `RequiredQuantity           : bdmng;` |
-| `ConfirmedAvailableQuantity : co_vmeng;` | `ConfirmedAvailableQuantity : co_vmeng;` |
-| `ActualAvailableQuantity    : pp_atpmg;` | `ActualAvailableQuantity    : pp_atpmg;` |
+| `ProductionOrder` | `aufnr` |
+| `BillOfMaterialItemNumber` | `vdm_sposn` |
+| `Material` | `matnr` |
+| `Plant` | `werks_d` |
+| `StorageLocation` | `lgort_d` |
+| `Batch` | `charg_d` |
+| `ProductionOrderOperation` | `vdm_vornr` |
+| `RequirementDate` | `bdter` |
+| `CommittedAvailabilityDate` | `dat05` |
+| `BaseUnit` | `ausme` |
+| `RequiredQuantity` | `bdmng` |
+| `ConfirmedAvailableQuantity` | `co_vmeng` |
+| `ActualAvailableQuantity` | `pp_atpmg` |
 
 ## Associations
 

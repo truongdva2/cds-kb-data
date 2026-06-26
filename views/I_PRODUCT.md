@@ -1,6 +1,13 @@
 ---
 name: I_PRODUCT
 description: Product
+semantic_en: "Product (material) master data — goods or services that are procured, produced, stored or sold, with basic descriptive attributes."
+semantic_vi: "Dữ liệu chủ sản phẩm (vật tư) — hàng hóa hoặc dịch vụ được mua, sản xuất, lưu kho hoặc bán, kèm các thuộc tính mô tả cơ bản."
+keywords:
+  - sản phẩm
+  - vật tư
+  - material
+  - hàng hóa
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released
@@ -15,6 +22,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:Product
 ---
 # I_PRODUCT
 
@@ -31,9 +39,223 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED` | `status: #DEPRECATED` |
-| `successor: '_AdjustmentProfileText_2'` | `successor: '_AdjustmentProfileText_2'` |
-| `}` | `}` |
+| `Product` | `cast (mara.matnr as productnumber preserving type )` |
+| `_Text` | *Association* |
+| `ProductExternalID` | `mara.matnr_external` |
+| `ProductOID` | `mara.productoid` |
+| `ProductType` | `cast (mara.mtart as producttype preserving type )` |
+| `_ProductType` | *Association* |
+| `CreationDate` | `mara.ersda` |
+| `CreationTime` | `mara.created_at_time` |
+| `CreationDateTime` | `cast(…)` |
+| `CreatedByUser` | `mara.ernam` |
+| `_CreatedByUser` | *Association* |
+| `_CreatedByUserContactCard` | *Association* |
+| `LastChangeDate` | `mara.laeda` |
+| `LastChangedByUser` | `case…end` |
+| `_LastChangedByUser` | *Association* |
+| `_LastChangedByUserContactCard` | *Association* |
+| `IsMarkedForDeletion` | `cast (mara.lvorm as ismarkedfordeletion)` |
+| `CrossPlantStatus` | `cast (mara.mstae as crossplantstatus)` |
+| `_ProductStatus` | *Association* |
+| `_ProductStatusText` | *Association* |
+| `CrossPlantStatusValidityDate` | `mara.mstde` |
+| `ProductOldID` | `cast (mara.bismt as productoldid)` |
+| `GrossWeight` | `mara.brgew` |
+| `PurchaseOrderQuantityUnit` | `mara.bstme` |
+| `SourceOfSupply` | `mara.bwscl` |
+| `WeightUnit` | `mara.gewei` |
+| `_WeightUnitValueHelp` | *Association* |
+| `_WeightUnitText` | *Association* |
+| `CountryOfOrigin` | `mara.herkl` |
+| `CompetitorID` | `mara.kunnr` |
+| `ProductGroup` | `cast (mara.matkl as productgroup preserving type )` |
+| `_ProductGroup` | *Association* |
+| `_ProductGroupText` | *Association* |
+| `_ProductGroup_2` | *Association* |
+| `_ProductGroupText_2` | *Association* |
+| `BaseUnit` | `mara.meins` |
+| `_BaseUnitOfMeasure` | *Association* |
+| `_BaseUnitOfMeasureText` | *Association* |
+| `ItemCategoryGroup` | `mara.mtpos_mara` |
+| `NetWeight` | `mara.ntgew` |
+| `ProductHierarchy` | `mara.prdha` |
+| `_ProductHierarchy` | *Association* |
+| `_ProductHierarchyText` | *Association* |
+| `Division` | `mara.spart` |
+| `_Division` | *Association* |
+| `_DivisionText` | *Association* |
+| `VarblPurOrdUnitIsActive` | `mara.vabme` |
+| `VolumeUnit` | `mara.voleh` |
+| `_QuantityUnitValueHelp` | *Association* |
+| `_QuantityUnitText` | *Association* |
+| `MaterialVolume` | `cast (mara.volum as materialvolume)` |
+| `SalesStatus` | `mara.mstav` |
+| `TransportationGroup` | `-- added on 12.08.2015 mara.tragr` |
+| `SalesStatusValidityDate` | `mara.mstdv` |
+| `AuthorizationGroup` | `mara.begru` |
+| `ANPCode` | `mara.anp` |
+| `ProductCategory` | `cast (mara.attyp as prodcategory preserving type )` |
+| `_ProductCategory` | *Association* |
+| `_ProductCategoryText` | *Association* |
+| `Brand` | `mara.brand_id` |
+| `_Brand` | *Association* |
+| `ProcurementRule` | `mara.bwvor` |
+| `ValidityStartDate` | `mara.datab` |
+| `LowLevelCode` | `mara.disst` |
+| `ProdNoInGenProdInPrepackProd` | `mara.gennr` |
+| `SerialIdentifierAssgmtProfile` | `mara.serial` |
+| `SizeOrDimensionText` | `mara.groes` |
+| `IndustryStandardName` | `mara.normt` |
+| `ProductStandardID` | `cast( mara.ean11 as globaltradeitemnumber)` |
+| `InternationalArticleNumberCat` | `mara.numtp` |
+| `_InternationalArticleNumberCat` | *Association* |
+| `_IntArticleNumberText` | *Association* |
+| `ProductIsConfigurable` | `cast( mara.kzkfg as productisconfigurable preserving type )` |
+| `IsBatchManagementRequired` | `mara.xchpf` |
+| `HasEmptiesBOM` | `mara.mlgut` |
+| `ExternalProductGroup` | `cast (mara.extwg as externalproductgroup preserving type )` |
+| `_ExternalProductGroup` | *Association* |
+| `_ExtProdGrpText` | *Association* |
+| `CrossPlantConfigurableProduct` | `cast (mara.satnr as crossplantconfigurableproduct preserving type )` |
+| `_CrossPlantConfigurableProduct` | *Association* |
+| `_MaterialText` | *Association* |
+| `SerialNoExplicitnessLevel` | `mara.serlv` |
+| `ProductManufacturerNumber` | `mara.mfrpn` |
+| `ManufacturerNumber` | `mara.mfrnr` |
+| `ManufacturerPartProfile` | `mara.mprof` |
+| `QltyMgmtInProcmtIsActive` | `mara.qmpur` |
+| `IsApprovedBatchRecordReqd` | `-- Added on 21.4.16 not releven for Product Master mara.xgchp` |
+| `HandlingIndicator` | `mara.hndlcode` |
+| `WarehouseProductGroup` | `mara.whmatgr` |
+| `WarehouseStorageCondition` | `mara.whstc` |
+| `StandardHandlingUnitType` | `mara.hutyp_dflt` |
+| `SerialNumberProfile` | `mara.serial` |
+| `AdjustmentProfile` | `mara.adprof` |
+| `PreferredUnitOfMeasure` | `mara.scm_puom` |
+| `IsPilferable` | `mara.pilferable` |
+| `IsRelevantForHzdsSubstances` | `mara.hazmat` |
+| `QuarantinePeriod` | `mara.qqtime` |
+| `TimeUnitForQuarantinePeriod` | `mara.qqtimeuom` |
+| `_TimeUnitForQuarantinePeriod` | *Association* |
+| `_TimeUnitQuarantinePeriodText` | *Association* |
+| `QualityInspectionGroup` | `mara.qgrp` |
+| `HandlingUnitType` | `mara.hutyp` |
+| `HasVariableTareWeight` | `mara.tare_var` |
+| `MaximumPackagingLength` | `mara.maxl` |
+| `MaximumPackagingWidth` | `mara.maxb` |
+| `MaximumPackagingHeight` | `mara.maxh` |
+| `MaximumCapacity` | `mara.maxc` |
+| `OvercapacityTolerance` | `mara.maxc_tol` |
+| `UnitForMaxPackagingDimensions` | `mara.maxdim_uom` |
+| `_UnitForMaxPackaging` | *Association* |
+| `_UnitForMaxPackagingText` | *Association* |
+| `BaseUnitSpecificProductLength` | `mara.laeng` |
+| `BaseUnitSpecificProductWidth` | `mara.breit` |
+| `BaseUnitSpecificProductHeight` | `mara.hoehe` |
+| `ProductMeasurementUnit` | `mara.meabm` |
+| `_ProductMeasurementUnit` | *Association* |
+| `_ProductMeasurementUnitText` | *Association* |
+| `ProductValidStartDate` | `mara.datab` |
+| `ArticleCategory` | `cast (mara.attyp as prodcategory preserving type )` |
+| `ContentUnit` | `mara.inhme` |
+| `_ContentUnit` | *Association* |
+| `_ContentUnitText` | *Association* |
+| `NetContent` | `mara.inhal` |
+| `ComparisonPriceQuantity` | `mara.vpreh` |
+| `GrossContent` | `mara.inhbr` |
+| `ProductValidEndDate` | `mara.liqdt` |
+| `AssortmentListType` | `mara.bbtyp` |
+| `HasTextilePartsWthAnimalOrigin` | `mara.animal_origin` |
+| `ProductSeasonUsageCategory` | `mara.fsh_sealv` |
+| `IndustrySector` | `mara.mbrsh` |
+| `ChangeNumber` | `cast('' as changenumber )` |
+| `MaterialRevisionLevel` | `cast('' as productrevisionlevel)` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `LastChangeDateTime` | `case…end` |
+| `LastChangeTime` | `mara.last_changed_time` |
+| `DangerousGoodsIndProfile` | `mara.profl` |
+| `ProductUUID` | `mara.scm_matid_guid16` |
+| `ProdSupChnMgmtUUID22` | `mara.scm_matid_guid22` |
+| `ProductDocumentChangeNumber` | `mara.aeszn` |
+| `ProductDocumentPageCount` | `mara.blanz` |
+| `ProductDocumentPageNumber` | `mara.blatt` |
+| `OwnInventoryManagedProduct` | `mara.bmatn` |
+| `DocumentIsCreatedByCAD` | `mara.cadkz` |
+| `ProductionOrInspectionMemoTxt` | `mara.ferth` |
+| `ProductionMemoPageFormat` | `mara.formt` |
+| `GlobalTradeItemNumberVariant` | `mara.gtin_variant` |
+| `ProductIsHighlyViscous` | `mara.ihivi` |
+| `TransportIsInBulk` | `mara.iloos` |
+| `ProdAllocDetnProcedure` | `mara.kosch` |
+| `ProdEffctyParamValsAreAssigned` | `mara.kzeff` |
+| `ProdIsEnvironmentallyRelevant` | `mara.kzumw` |
+| `LaboratoryOrDesignOffice` | `mara.labor` |
+| `PackagingMaterialGroup` | `mara.magrv` |
+| `ProductIsLocked` | `cast( mara.matfi as productislocked preserving type )` |
+| `DiscountInKindEligibility` | `mara.nrfhg` |
+| `SmartFormName` | `mara.ps_smartform` |
+| `PackingReferenceProduct` | `mara.rmatp` |
+| `BasicMaterial` | `mara.wrkst` |
+| `ProductDocumentNumber` | `mara.zeinr` |
+| `ProductDocumentVersion` | `mara.zeivr` |
+| `ProductDocumentType` | `mara.zeiar` |
+| `ProductDocumentPageFormat` | `mara.zeifo` |
+| `ProductConfiguration` | `mara.cuobf` |
+| `SegmentationStrategy` | `mara.sgt_covsa` |
+| `SegmentationIsRelevant` | `mara.sgt_rel` |
+| `ProductCompositionIsRelevant` | `mara.przus` |
+| `IsChemicalComplianceRelevant` | `cast( mara.chml_cmplnc_rlvnce_ind as chml_cmplnc_rlvnce_ind_pm )` |
+| `ManufacturerBookPartNumber` | `mara.msbookpartno` |
+| `LogisticalProductCategory` | `mara.logistical_mat_category` |
+| `SalesProduct` | `mara.sales_material` |
+| `ProdCharc1InternalNumber` | `mara.color_atinn` |
+| `ProdCharc2InternalNumber` | `mara.size1_atinn` |
+| `ProdCharc3InternalNumber` | `mara.size2_atinn` |
+| `ProductCharacteristic1` | `mara.color` |
+| `ProductCharacteristic2` | `mara.size1` |
+| `ProductCharacteristic3` | `mara.size2` |
+| `MaintenanceStatus` | `mara.pstat` |
+| `FashionProdInformationField1` | `mara.fsh_mg_at1` |
+| `FashionProdInformationField2` | `mara.fsh_mg_at2` |
+| `FashionProdInformationField3` | `mara.fsh_mg_at3` |
+| `_ProductTypeName` | *Association* |
+| `_ProductRetail` | *Association* |
+| `_ProductProcurement` | *Association* |
+| `_ProductSales` | *Association* |
+| `_MDProductHierarchyNode` | *Association* |
+| `_ChemicalComplianceRlvtText` | *Association* |
+| `_ChemicalComplianceRelevant` | *Association* |
+| `_ItemCategoryGroupText` | *Association* |
+| `_ItemCategoryGroup` | *Association* |
+| `_BrandText` | *Association* |
+| `_ProdUnivHierarchyNode` | *Association* |
+| `_BasicMaterial` | *Association* |
+| `_ESHProductSalesDelivery` | *Association* |
+| `_ESHSourceOfSupply` | *Association* |
+| `_ESHSupplier` | *Association* |
+| `_ESHTextObjectPlainLongText` | *Association* |
+| `_ESHDocInfoRecordObjectLink` | *Association* |
+| `_ESHPurOrderQuantityUnitText` | *Association* |
+| `_ESHProductPlant` | *Association* |
+| `_ESHCharValueAssignment` | *Association* |
+| `_ESHClassAssignment` | *Association* |
+| `_MaterialRevisionLevel` | *Association* |
+| `_AssortmentListType` | *Association* |
+| `_AssortmentListTypeText` | *Association* |
+| `_BR_ANPCode` | *Association* |
+| `_BR_ANPCodeText` | *Association* |
+| `_HandlingIndicator` | *Association* |
+| `_HandlingIndicatorText` | *Association* |
+| `_WarehouseProductGroup` | *Association* |
+| `_WarehouseProductGroupText` | *Association* |
+| `_WarehouseStorageCondition` | *Association* |
+| `_WarehouseStorageConditionText` | *Association* |
+| `_StandardHandlingUnitType` | *Association* |
+| `_StandardHandlingUnitTypeText` | *Association* |
+| `_SerialNumberProfile` | *Association* |
+| `_SerialNumberProfileText` | *Association* |
+| `_AdjustmentProfile` | *Association* |
 | `_AdjustmentProfileText` | *Association* |
 | `_AdjustmentProfile_2` | *Association* |
 | `_AdjustmentProfileText_2` | *Association* |
@@ -121,7 +343,6 @@ tags:
 | `_UnitForMaxPackagingText` | `I_UnitOfMeasureText` | [0..*] |
 | `_TimeUnitForQuarantinePeriod` | `I_UnitOfMeasure` | [0..1] |
 | `_TimeUnitQuarantinePeriodText` | `I_UnitOfMeasureText` | [0..*] |
-| `_CrossPlantConfigurableProduct` | `I_Productvh` | [0..1] |
 | `_MaterialText` | `I_ProductDescription` | [0..*] |
 | `_MDProductHierarchyNode` | `I_MDProductHierarchyNode` | [0..*] |
 | `_MaterialRevisionLevel` | `I_ChangeMstrObjTypeRevisionLvl` | [0..1] |

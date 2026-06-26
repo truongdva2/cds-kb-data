@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGScope` | `_Source.GHGScope` |
-| `_Source._Text[1: Language=$session.system_language].GHGScopeName` | *Association* |
+| `GHGScope` | `_Source.GHGScope` |
+| `GHGScopeName` | `_Source._Text[1: Language=$session.system_language].GHGScopeName` |
 
 ## Associations
 

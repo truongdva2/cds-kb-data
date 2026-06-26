@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionDocLinkUUID` | `LegalTransactionDocLinkUUID` |
+| `LegalTransactionDocLinkUUID` | `LegalTransactionDocLinkUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMDocument` | `LglCntntMDocument` |
 | `LglCntntMDocAccessLvl` | `LglCntntMDocAccessLvl` |
 | `LglCntntMDocContentType` | `LglCntntMDocContentType` |
 | `InternalDocumentStatus` | `InternalDocumentStatus` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransaction : redirected to parent I_LegalTransactionTP_2` | *Association* |
 
 ## Associations
 

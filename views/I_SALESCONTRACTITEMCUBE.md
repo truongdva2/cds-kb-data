@@ -33,247 +33,217 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_contract preserving type)` | `cast(SDIA.SalesDocument` |
+| `SalesContract` | `cast(SDIA.SalesDocument as sales_contract preserving type)` |
 | `_SalesContract` | *Association* |
-| `sales_contract_item preserving type)` | `cast(SDIA.SalesDocumentItem` |
+| `SalesContractItem` | `cast(SDIA.SalesDocumentItem as sales_contract_item preserving type)` |
 | `SalesContractType` | `SDIA.SalesDocumentType` |
 | `_SalesContractType` | *Association* |
 | `SalesContractItemType` | `SDIA.SalesDocumentItemType` |
 | `SalesContractItemCategory` | `SDIA.SalesDocumentItemCategory` |
-| `SDIA._ItemCategory` | `SDIA._ItemCategory` |
-| `SDIA.CreatedByUser` | `SDIA.CreatedByUser` |
-| `SDIA._CreatedByUser` | `SDIA._CreatedByUser` |
-| `SDIA.CreationDate` | `SDIA.CreationDate` |
-| `SDIA.CreationTime` | `SDIA.CreationTime` |
-| `SDIA.LastChangeDate` | `SDIA.LastChangeDate` |
-| `creation_date_year)` | `cast(CalendarDate.CalendarYear` |
-| `creation_date_year_quarter)` | `cast(CalendarDate.YearQuarter` |
-| `creation_date_year_month)` | `cast(CalendarDate.YearMonth` |
-| `SDIA.SalesOrganization` | `SDIA.SalesOrganization` |
-| `SDIA._SalesOrganization` | `SDIA._SalesOrganization` |
-| `SDIA.DistributionChannel` | `SDIA.DistributionChannel` |
-| `SDIA._DistributionChannel` | `SDIA._DistributionChannel` |
-| `organization_division preserving type)` | `cast(SDIA.OrganizationDivision` |
-| `SDIA._OrganizationDivision` | `SDIA._OrganizationDivision` |
-| `SDIA.Division` | `SDIA.Division` |
-| `SDIA._Division` | `SDIA._Division` |
-| `SDIA.SalesOffice` | `SDIA.SalesOffice` |
-| `SDIA._SalesOffice` | `SDIA._SalesOffice` |
-| `SDIA.SalesGroup` | `SDIA.SalesGroup` |
-| `SDIA._SalesGroup` | `SDIA._SalesGroup` |
+| `_ItemCategory` | *Association* |
+| `CreatedByUser` | `SDIA.CreatedByUser` |
+| `_CreatedByUser` | *Association* |
+| `CreationDate` | `SDIA.CreationDate` |
+| `CreationTime` | `SDIA.CreationTime` |
+| `LastChangeDate` | `SDIA.LastChangeDate` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `SalesOrganization` | `SDIA.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `SDIA.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `cast(SDIA.OrganizationDivision as organization_division preserving type)` |
+| `_OrganizationDivision` | *Association* |
+| `Division` | `SDIA.Division` |
+| `_Division` | *Association* |
+| `SalesOffice` | `SDIA.SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `SalesGroup` | `SDIA.SalesGroup` |
+| `_SalesGroup` | *Association* |
 | `PartnerCompany` | `SDIA._SoldToParty.TradingPartner` |
-| `SDIA._SoldToParty._GlobalCompany` | `SDIA._SoldToParty._GlobalCompany` |
-| `SDIA.SoldToParty` | `SDIA.SoldToParty` |
-| `SDIA._SoldToParty` | `SDIA._SoldToParty` |
-| `SDIA.ShipToParty` | `SDIA.ShipToParty` |
-| `SDIA._ShipToParty` | `SDIA._ShipToParty` |
-| `SDIA.SalesEmployee` | `SDIA.SalesEmployee` |
-| `SDIA._SalesEmployee` | `SDIA._SalesEmployee` |
-| `SDIA.ResponsibleEmployee` | `SDIA.ResponsibleEmployee` |
-| `SDIA._ResponsibleEmployee` | `SDIA._ResponsibleEmployee` |
-| `SDIA.CustomerGroup` | `SDIA.CustomerGroup` |
-| `SDIA._CustomerGroup` | `SDIA._CustomerGroup` |
-| `SDIA.AdditionalCustomerGroup1` | `SDIA.AdditionalCustomerGroup1` |
-| `SDIA._AdditionalCustomerGroup1` | `SDIA._AdditionalCustomerGroup1` |
-| `SDIA.AdditionalCustomerGroup2` | `SDIA.AdditionalCustomerGroup2` |
-| `SDIA._AdditionalCustomerGroup2` | `SDIA._AdditionalCustomerGroup2` |
-| `SDIA.AdditionalCustomerGroup3` | `SDIA.AdditionalCustomerGroup3` |
-| `SDIA._AdditionalCustomerGroup3` | `SDIA._AdditionalCustomerGroup3` |
-| `SDIA.AdditionalCustomerGroup4` | `SDIA.AdditionalCustomerGroup4` |
-| `SDIA._AdditionalCustomerGroup4` | `SDIA._AdditionalCustomerGroup4` |
-| `SDIA.AdditionalCustomerGroup5` | `SDIA.AdditionalCustomerGroup5` |
-| `SDIA._AdditionalCustomerGroup5` | `SDIA._AdditionalCustomerGroup5` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SDIA.SoldToParty` |
+| `_SoldToParty` | *Association* |
+| `ShipToParty` | `SDIA.ShipToParty` |
+| `_ShipToParty` | *Association* |
+| `SalesEmployee` | `SDIA.SalesEmployee` |
+| `_SalesEmployee` | *Association* |
+| `ResponsibleEmployee` | `SDIA.ResponsibleEmployee` |
+| `_ResponsibleEmployee` | *Association* |
+| `CustomerGroup` | `SDIA.CustomerGroup` |
+| `_CustomerGroup` | *Association* |
+| `AdditionalCustomerGroup1` | `SDIA.AdditionalCustomerGroup1` |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `AdditionalCustomerGroup2` | `SDIA.AdditionalCustomerGroup2` |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `AdditionalCustomerGroup3` | `SDIA.AdditionalCustomerGroup3` |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `AdditionalCustomerGroup4` | `SDIA.AdditionalCustomerGroup4` |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `AdditionalCustomerGroup5` | `SDIA.AdditionalCustomerGroup5` |
+| `_AdditionalCustomerGroup5` | *Association* |
 | `SalesContractDate` | `SDIA.SalesDocumentDate` |
-| `SDIA.SDDocumentReason` | `SDIA.SDDocumentReason` |
-| `SDIA._SDDocumentReason` | `SDIA._SDDocumentReason` |
-| `SDIA.PurchaseOrderByCustomer` | `SDIA.PurchaseOrderByCustomer` |
-| `SDIA.CustomerPurchaseOrderDate` | `SDIA.CustomerPurchaseOrderDate` |
+| `SDDocumentReason` | `SDIA.SDDocumentReason` |
+| `_SDDocumentReason` | *Association* |
+| `PurchaseOrderByCustomer` | `SDIA.PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderDate` | `SDIA.CustomerPurchaseOrderDate` |
 | `SalesContractItemText` | `SDIA.SalesDocumentItemText` |
-| `SDIA.SalesDocumentRjcnReason` | `SDIA.SalesDocumentRjcnReason` |
-| `SDIA._SalesDocumentRjcnReason` | `SDIA._SalesDocumentRjcnReason` |
-| `SDIA.OutlineAgreementTargetAmount` | `SDIA.OutlineAgreementTargetAmount` |
-| `SDIA.TargetQuantity` | `SDIA.TargetQuantity` |
-| `SDIA.TargetQuantityUnit` | `SDIA.TargetQuantityUnit` |
-| `SDIA._TargetQuantityUnit` | `SDIA._TargetQuantityUnit` |
+| `SalesDocumentRjcnReason` | `SDIA.SalesDocumentRjcnReason` |
+| `_SalesDocumentRjcnReason` | *Association* |
+| `OutlineAgreementTargetAmount` | `SDIA.OutlineAgreementTargetAmount` |
+| `TargetQuantity` | `SDIA.TargetQuantity` |
+| `TargetQuantityUnit` | `SDIA.TargetQuantityUnit` |
+| `_TargetQuantityUnit` | *Association* |
 | `SalesContractValidityStartDate` | `SDIA.AgrmtValdtyStartDate` |
 | `SalesContractValidityEndDate` | `SDIA.AgrmtValdtyEndDate` |
-| `SDIA.SalesContractCanclnParty` | `SDIA.SalesContractCanclnParty` |
-| `SDIA._SalesContractCanclnParty` | `SDIA._SalesContractCanclnParty` |
-| `SDIA.SalesContractCanclnReason` | `SDIA.SalesContractCanclnReason` |
-| `SDIA._SalesContractCanclnReason` | `SDIA._SalesContractCanclnReason` |
-| `SDIA.SalesContractFollowUpAction` | `SDIA.SalesContractFollowUpAction` |
-| `SDIA._SalesContractFollowUpAction` | `SDIA._SalesContractFollowUpAction` |
-| `SDIA.ContractPartnerCanclnDocDate` | `SDIA.ContractPartnerCanclnDocDate` |
-| `SDIA.Material` | `SDIA.Material` |
-| `SDIA._Material` | `SDIA._Material` |
-| `productnumber preserving type)` | `cast(SDIA.Material` |
+| `SalesContractCanclnParty` | `SDIA.SalesContractCanclnParty` |
+| `_SalesContractCanclnParty` | *Association* |
+| `SalesContractCanclnReason` | `SDIA.SalesContractCanclnReason` |
+| `_SalesContractCanclnReason` | *Association* |
+| `SalesContractFollowUpAction` | `SDIA.SalesContractFollowUpAction` |
+| `_SalesContractFollowUpAction` | *Association* |
+| `ContractPartnerCanclnDocDate` | `SDIA.ContractPartnerCanclnDocDate` |
+| `Material` | `SDIA.Material` |
+| `_Material` | *Association* |
+| `Product` | `cast(SDIA.Material as productnumber preserving type)` |
 | `_Product` | *Association* |
-| `SDIA.MaterialGroup` | `SDIA.MaterialGroup` |
-| `SDIA._MaterialGroup` | `SDIA._MaterialGroup` |
-| `SDIA.ProductGroup` | `SDIA.ProductGroup` |
-| `SDIA._ProductGroup` | `SDIA._ProductGroup` |
-| `SDIA.AdditionalMaterialGroup1` | `SDIA.AdditionalMaterialGroup1` |
-| `SDIA._AdditionalMaterialGroup1` | `SDIA._AdditionalMaterialGroup1` |
-| `SDIA.AdditionalMaterialGroup2` | `SDIA.AdditionalMaterialGroup2` |
-| `SDIA._AdditionalMaterialGroup2` | `SDIA._AdditionalMaterialGroup2` |
-| `SDIA.AdditionalMaterialGroup3` | `SDIA.AdditionalMaterialGroup3` |
-| `SDIA._AdditionalMaterialGroup3` | `SDIA._AdditionalMaterialGroup3` |
-| `SDIA.AdditionalMaterialGroup4` | `SDIA.AdditionalMaterialGroup4` |
-| `SDIA._AdditionalMaterialGroup4` | `SDIA._AdditionalMaterialGroup4` |
-| `SDIA.AdditionalMaterialGroup5` | `SDIA.AdditionalMaterialGroup5` |
-| `SDIA._AdditionalMaterialGroup5` | `SDIA._AdditionalMaterialGroup5` |
-| `SDIA.Plant` | `SDIA.Plant` |
-| `SDIA._Plant` | `SDIA._Plant` |
-| `SDIA.StorageLocation` | `SDIA.StorageLocation` |
-| `SDIA._StorageLocation` | `SDIA._StorageLocation` |
+| `MaterialGroup` | `SDIA.MaterialGroup` |
+| `_MaterialGroup` | *Association* |
+| `ProductGroup` | `SDIA.ProductGroup` |
+| `_ProductGroup` | *Association* |
+| `AdditionalMaterialGroup1` | `SDIA.AdditionalMaterialGroup1` |
+| `_AdditionalMaterialGroup1` | *Association* |
+| `AdditionalMaterialGroup2` | `SDIA.AdditionalMaterialGroup2` |
+| `_AdditionalMaterialGroup2` | *Association* |
+| `AdditionalMaterialGroup3` | `SDIA.AdditionalMaterialGroup3` |
+| `_AdditionalMaterialGroup3` | *Association* |
+| `AdditionalMaterialGroup4` | `SDIA.AdditionalMaterialGroup4` |
+| `_AdditionalMaterialGroup4` | *Association* |
+| `AdditionalMaterialGroup5` | `SDIA.AdditionalMaterialGroup5` |
+| `_AdditionalMaterialGroup5` | *Association* |
+| `Plant` | `SDIA.Plant` |
+| `_Plant` | *Association* |
+| `StorageLocation` | `SDIA.StorageLocation` |
+| `_StorageLocation` | *Association* |
 | `MainItemPricingRefProduct` | `MainItemPricingRefProduct` |
 | `HigherLevelItem` | `HigherLevelItem` |
 | `BillOfMaterial` | `BillOfMaterial` |
 | `PropagatePrftbltySgmt2BOM` | `PropagatePrftbltySgmt2BOM` |
 | `CostDeterminationIsRequired` | `CostDeterminationIsRequired` |
-| `SDIA.ItemWeightUnit` | `SDIA.ItemWeightUnit` |
-| `SDIA._ItemWeightUnit` | `SDIA._ItemWeightUnit` |
-| `SDIA.ItemGrossWeight` | `SDIA.ItemGrossWeight` |
-| `SDIA.ItemNetWeight` | `SDIA.ItemNetWeight` |
-| `SDIA.ItemVolumeUnit` | `SDIA.ItemVolumeUnit` |
-| `SDIA._ItemVolumeUnit` | `SDIA._ItemVolumeUnit` |
-| `SDIA.ItemVolume` | `SDIA.ItemVolume` |
-| `SDIA.PricingDate` | `SDIA.PricingDate` |
-| `SDIA.SalesDistrict` | `SDIA.SalesDistrict` |
-| `SDIA._SalesDistrict` | `SDIA._SalesDistrict` |
-| `SDIA.TaxAmount` | `SDIA.TaxAmount` |
-| `SDIA.CostAmount` | `SDIA.CostAmount` |
-| `SDIA.Subtotal1Amount` | `SDIA.Subtotal1Amount` |
-| `SDIA.Subtotal2Amount` | `SDIA.Subtotal2Amount` |
-| `SDIA.Subtotal3Amount` | `SDIA.Subtotal3Amount` |
-| `SDIA.Subtotal4Amount` | `SDIA.Subtotal4Amount` |
-| `SDIA.Subtotal5Amount` | `SDIA.Subtotal5Amount` |
-| `SDIA.Subtotal6Amount` | `SDIA.Subtotal6Amount` |
-| `SDIA.BaseUnit` | `SDIA.BaseUnit` |
-| `SDIA._BaseUnit` | `SDIA._BaseUnit` |
-| `SDIA.TransactionCurrency` | `SDIA.TransactionCurrency` |
-| `SDIA._TransactionCurrency` | `SDIA._TransactionCurrency` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `SDIA.BillingCompanyCode` | `SDIA.BillingCompanyCode` |
-| `SDIA._BillingCompanyCode` | `SDIA._BillingCompanyCode` |
-| `SDIA.BillingDocumentDate` | `SDIA.BillingDocumentDate` |
-| `SDIA.ItemBillingBlockReason` | `SDIA.ItemBillingBlockReason` |
-| `SDIA._ItemBillingBlockReason` | `SDIA._ItemBillingBlockReason` |
-| `SDIA.CustomerPaymentTerms` | `SDIA.CustomerPaymentTerms` |
-| `SDIA._CustomerPaymentTerms` | `SDIA._CustomerPaymentTerms` |
-| `SDIA.PaymentMethod` | `SDIA.PaymentMethod` |
-| `SDIA.FixedValueDate` | `SDIA.FixedValueDate` |
-| `SDIA.AdditionalValueDays` | `SDIA.AdditionalValueDays` |
-| `SDIA.FiscalYear` | `SDIA.FiscalYear` |
-| `SDIA.FiscalPeriod` | `SDIA.FiscalPeriod` |
-| `SDIA.BusinessArea` | `SDIA.BusinessArea` |
-| `SDIA._BusinessArea` | `SDIA._BusinessArea` |
-| `SDIA.ProfitCenter` | `SDIA.ProfitCenter` |
-| `SDIA.CustomerAccountAssignmentGroup` | `SDIA.CustomerAccountAssignmentGroup` |
-| `SDIA.SalesContractTargetValue` | `SDIA.SalesContractTargetValue` |
-| `SDIA.SalesContractTargetAmount` | `SDIA.SalesContractTargetAmount` |
-| `incg_sls_contr_net_amt )` | `cast( SDIA.SalesContractTargetAmount` |
-| `reld_sls_contr_tgt_val )` | `cast( ReleasedSalesContract.SalesContractReleasedAmount` |
-| `SDIA.SalesContractTargetQuantity` | `SDIA.SalesContractTargetQuantity` |
-| `incg_sls_contr_qty )` | `cast( SDIA.SalesContractTargetQuantity` |
-| `cast( currency_conversion(` | `cast( currency_conversion(` |
-| `amount => SDIA.SalesContractTargetValue` | `amount => SDIA.SalesContractTargetValue` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SDIA.CreationDate` | `exchange_rate_date => SDIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `sls_contr_tgt_val_in_dc )` | `)` |
-| `cast( currency_conversion(` | `cast( currency_conversion(` |
-| `amount => SDIA.SalesContractTargetAmount` | `amount => SDIA.SalesContractTargetAmount` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SDIA.CreationDate` | `exchange_rate_date => SDIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `sls_contr_tgt_val_in_dc )` | `)` |
-| `cast( currency_conversion(` | `cast( currency_conversion(` |
-| `amount => SDIA.SalesContractTargetAmount` | `amount => SDIA.SalesContractTargetAmount` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SDIA.CreationDate` | `exchange_rate_date => SDIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `incg_sls_contr_net_amt_in_dc )` | `)` |
-| `reld_sls_contr_tgt_val_in_dc )` | `cast( ReleasedSalesContract.SalesContractReleasedAmtInDC` |
-| `SDIA.ReferenceSDDocument` | `SDIA.ReferenceSDDocument` |
-| `SDIA._ReferenceSDDocument` | `SDIA._ReferenceSDDocument` |
-| `SDIA.ReferenceSDDocumentItem` | `SDIA.ReferenceSDDocumentItem` |
-| `SDIA._ReferenceSDDocumentItem` | `SDIA._ReferenceSDDocumentItem` |
-| `SDIA.ReferenceSDDocumentCategory` | `SDIA.ReferenceSDDocumentCategory` |
-| `SDIA._ReferenceSDDocumentCategory` | `SDIA._ReferenceSDDocumentCategory` |
-| `overall_sd_process_status preserving type)` | `cast(SDIA.OverallSDProcessStatus` |
-| `SDIA._OverallSDProcessStatus` | `SDIA._OverallSDProcessStatus` |
-| `ovrl_sd_doc_rejection_status preserving type)` | `cast(SDIA.OverallSDDocumentRejectionSts` |
-| `SDIA._OverallSDDocumentRejectionSts` | `SDIA._OverallSDDocumentRejectionSts` |
-| `SDIA.TotalBlockStatus` | `SDIA.TotalBlockStatus` |
-| `SDIA._TotalBlockStatus` | `SDIA._TotalBlockStatus` |
-| `overall_delivery_conf_status preserving type)` | `cast(SDIA.OverallDelivConfStatus` |
-| `SDIA._OverallDelivConfStatus` | `SDIA._OverallDelivConfStatus` |
-| `itms_ovrl_delivery_status preserving type)` | `cast(SDIA.OverallTotalDeliveryStatus` |
-| `SDIA._OverallTotalDeliveryStatus` | `SDIA._OverallTotalDeliveryStatus` |
-| `overall_delivery_status preserving type)` | `cast(SDIA.OverallDeliveryStatus` |
-| `SDIA._OverallDeliveryStatus` | `SDIA._OverallDeliveryStatus` |
-| `overall_delivery_block_status preserving type)` | `cast(SDIA.OverallDeliveryBlockStatus` |
-| `SDIA._OverallDeliveryBlockStatus` | `SDIA._OverallDeliveryBlockStatus` |
-| `ovrl_ord_rel_billg_status preserving type)` | `cast(SDIA.OverallOrdReltdBillgStatus` |
-| `SDIA._OverallOrdReltdBillgStatus` | `SDIA._OverallOrdReltdBillgStatus` |
-| `overall_billing_block_status preserving type)` | `cast(SDIA.OverallBillingBlockStatus` |
-| `SDIA._OverallBillingBlockStatus` | `SDIA._OverallBillingBlockStatus` |
-| `ovrl_reference_status preserving type)` | `cast(SDIA.OverallTotalSDDocRefStatus` |
-| `SDIA._OverallTotalSDDocRefStatus` | `SDIA._OverallTotalSDDocRefStatus` |
-| `ovrl_sd_doc_reference_status preserving type)` | `cast(SDIA.OverallSDDocReferenceStatus` |
-| `SDIA._OverallSDDocReferenceStatus` | `SDIA._OverallSDDocReferenceStatus` |
-| `hdr_general_incompltn_status preserving type)` | `cast(SDIA.HdrGeneralIncompletionStatus` |
-| `SDIA._HdrGeneralIncompletionStatus` | `SDIA._HdrGeneralIncompletionStatus` |
-| `hdrdelivincompletionstatus preserving type)` | `cast(SDIA.HeaderDelivIncompletionStatus` |
-| `SDIA._HeaderDelivIncompletionStatus` | `SDIA._HeaderDelivIncompletionStatus` |
-| `hdrbillgincompletionstatus preserving type)` | `cast(SDIA.HeaderBillgIncompletionStatus` |
-| `SDIA._HeaderBillgIncompletionStatus` | `SDIA._HeaderBillgIncompletionStatus` |
-| `itms_ovrl_incompletion_status preserving type)` | `cast(SDIA.OvrlItmGeneralIncompletionSts` |
-| `SDIA._OvrlItmGeneralIncompletionSts` | `SDIA._OvrlItmGeneralIncompletionSts` |
-| `ovrl_itms_incompltn_sts_billg preserving type)` | `cast(SDIA.OvrlItmBillingIncompletionSts` |
-| `SDIA._OvrlItmBillingIncompletionSts` | `SDIA._OvrlItmBillingIncompletionSts` |
-| `ovrl_items_dlv_incompltn_sts preserving type)` | `cast(SDIA.OvrlItmDelivIncompletionSts` |
-| `SDIA._OvrlItmDelivIncompletionSts` | `SDIA._OvrlItmDelivIncompletionSts` |
-| `sd_doc_process_status preserving type)` | `cast(SDIA.SDProcessStatus` |
-| `SDIA._SDProcessStatus` | `SDIA._SDProcessStatus` |
-| `delivery_confirmation_status preserving type)` | `cast(SDIA.DeliveryConfirmationStatus` |
-| `SDIA._DeliveryConfirmationStatus` | `SDIA._DeliveryConfirmationStatus` |
-| `SDIA.TotalDeliveryStatus` | `SDIA.TotalDeliveryStatus` |
-| `SDIA._TotalDeliveryStatus` | `SDIA._TotalDeliveryStatus` |
-| `SDIA.DeliveryStatus` | `SDIA.DeliveryStatus` |
-| `SDIA._DeliveryStatus` | `SDIA._DeliveryStatus` |
-| `SDIA.DeliveryBlockStatus` | `SDIA.DeliveryBlockStatus` |
-| `SDIA._DeliveryBlockStatus` | `SDIA._DeliveryBlockStatus` |
-| `SDIA.OrderRelatedBillingStatus` | `SDIA.OrderRelatedBillingStatus` |
-| `SDIA._OrderRelatedBillingStatus` | `SDIA._OrderRelatedBillingStatus` |
-| `SDIA.BillingBlockStatus` | `SDIA.BillingBlockStatus` |
-| `SDIA._BillingBlockStatus` | `SDIA._BillingBlockStatus` |
-| `item_general_incompletion_sts preserving type)` | `cast(SDIA.ItemGeneralIncompletionStatus` |
-| `SDIA._ItemGeneralIncompletionStatus` | `SDIA._ItemGeneralIncompletionStatus` |
-| `itms_incompltn_sts_billg preserving type)` | `cast(SDIA.ItemBillingIncompletionStatus` |
-| `SDIA._ItemBillingIncompletionStatus` | `SDIA._ItemBillingIncompletionStatus` |
-| `itm_deliv_incompletion_status preserving type)` | `cast(SDIA.ItemDeliveryIncompletionStatus` |
-| `SDIA._ItemDelivIncompletionSts` | `SDIA._ItemDelivIncompletionSts` |
-| `sd_doc_rejection_status preserving type)` | `cast(SDIA.SDDocumentRejectionStatus` |
-| `SDIA._SDDocumentRejectionStatus` | `SDIA._SDDocumentRejectionStatus` |
-| `SDIA.TotalSDDocReferenceStatus` | `SDIA.TotalSDDocReferenceStatus` |
-| `SDIA._TotalSDDocReferenceStatus` | `SDIA._TotalSDDocReferenceStatus` |
+| `ItemWeightUnit` | `SDIA.ItemWeightUnit` |
+| `_ItemWeightUnit` | *Association* |
+| `ItemGrossWeight` | `SDIA.ItemGrossWeight` |
+| `ItemNetWeight` | `SDIA.ItemNetWeight` |
+| `ItemVolumeUnit` | `SDIA.ItemVolumeUnit` |
+| `_ItemVolumeUnit` | *Association* |
+| `ItemVolume` | `SDIA.ItemVolume` |
+| `PricingDate` | `SDIA.PricingDate` |
+| `SalesDistrict` | `SDIA.SalesDistrict` |
+| `_SalesDistrict` | *Association* |
+| `TaxAmount` | `SDIA.TaxAmount` |
+| `CostAmount` | `SDIA.CostAmount` |
+| `Subtotal1Amount` | `SDIA.Subtotal1Amount` |
+| `Subtotal2Amount` | `SDIA.Subtotal2Amount` |
+| `Subtotal3Amount` | `SDIA.Subtotal3Amount` |
+| `Subtotal4Amount` | `SDIA.Subtotal4Amount` |
+| `Subtotal5Amount` | `SDIA.Subtotal5Amount` |
+| `Subtotal6Amount` | `SDIA.Subtotal6Amount` |
+| `BaseUnit` | `SDIA.BaseUnit` |
+| `_BaseUnit` | *Association* |
+| `TransactionCurrency` | `SDIA.TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `BillingCompanyCode` | `SDIA.BillingCompanyCode` |
+| `_BillingCompanyCode` | *Association* |
+| `BillingDocumentDate` | `SDIA.BillingDocumentDate` |
+| `ItemBillingBlockReason` | `SDIA.ItemBillingBlockReason` |
+| `_ItemBillingBlockReason` | *Association* |
+| `CustomerPaymentTerms` | `SDIA.CustomerPaymentTerms` |
+| `_CustomerPaymentTerms` | *Association* |
+| `PaymentMethod` | `SDIA.PaymentMethod` |
+| `FixedValueDate` | `SDIA.FixedValueDate` |
+| `AdditionalValueDays` | `SDIA.AdditionalValueDays` |
+| `FiscalYear` | `SDIA.FiscalYear` |
+| `FiscalPeriod` | `SDIA.FiscalPeriod` |
+| `BusinessArea` | `SDIA.BusinessArea` |
+| `_BusinessArea` | *Association* |
+| `ProfitCenter` | `SDIA.ProfitCenter` |
+| `CustomerAccountAssignmentGroup` | `SDIA.CustomerAccountAssignmentGroup` |
+| `SalesContractTargetValue` | `SDIA.SalesContractTargetValue` |
+| `SalesContractTargetAmount` | `SDIA.SalesContractTargetAmount` |
+| `IncomingSlsContractNetAmount` | `cast( SDIA.SalesContractTargetAmount as incg_sls_contr_net_amt )` |
+| `SalesContractReleasedAmount` | `cast(…)` |
+| `SalesContractTargetQuantity` | `SDIA.SalesContractTargetQuantity` |
+| `IncomingSlsContractQuantity` | `cast( SDIA.SalesContractTargetQuantity as incg_sls_contr_qty )` |
+| `SalesContractTargetValueInDC` | `cast(…)` |
+| `SalesContractTargetAmountInDC` | `cast(…)` |
+| `IncomingSlsContractNetAmtInDC` | `cast(…)` |
+| `SalesContractReleasedAmtInDC` | `cast(…)` |
+| `ReferenceSDDocument` | `SDIA.ReferenceSDDocument` |
+| `_ReferenceSDDocument` | *Association* |
+| `ReferenceSDDocumentItem` | `SDIA.ReferenceSDDocumentItem` |
+| `_ReferenceSDDocumentItem` | *Association* |
+| `ReferenceSDDocumentCategory` | `SDIA.ReferenceSDDocumentCategory` |
+| `_ReferenceSDDocumentCategory` | *Association* |
+| `OverallSDProcessStatus` | `cast(SDIA.OverallSDProcessStatus as overall_sd_process_status preserving type)` |
+| `_OverallSDProcessStatus` | *Association* |
+| `OverallSDDocumentRejectionSts` | `cast(…)` |
+| `_OverallSDDocumentRejectionSts` | *Association* |
+| `TotalBlockStatus` | `SDIA.TotalBlockStatus` |
+| `_TotalBlockStatus` | *Association* |
+| `OverallDelivConfStatus` | `cast(…)` |
+| `_OverallDelivConfStatus` | *Association* |
+| `OverallTotalDeliveryStatus` | `cast(…)` |
+| `_OverallTotalDeliveryStatus` | *Association* |
+| `OverallDeliveryStatus` | `cast(SDIA.OverallDeliveryStatus as overall_delivery_status preserving type)` |
+| `_OverallDeliveryStatus` | *Association* |
+| `OverallDeliveryBlockStatus` | `cast(…)` |
+| `_OverallDeliveryBlockStatus` | *Association* |
+| `OverallOrdReltdBillgStatus` | `cast(…)` |
+| `_OverallOrdReltdBillgStatus` | *Association* |
+| `OverallBillingBlockStatus` | `cast(…)` |
+| `_OverallBillingBlockStatus` | *Association* |
+| `OverallTotalSDDocRefStatus` | `cast(SDIA.OverallTotalSDDocRefStatus as ovrl_reference_status preserving type)` |
+| `_OverallTotalSDDocRefStatus` | *Association* |
+| `OverallSDDocReferenceStatus` | `cast(…)` |
+| `_OverallSDDocReferenceStatus` | *Association* |
+| `HdrGeneralIncompletionStatus` | `cast(…)` |
+| `_HdrGeneralIncompletionStatus` | *Association* |
+| `HeaderDelivIncompletionStatus` | `cast(…)` |
+| `_HeaderDelivIncompletionStatus` | *Association* |
+| `HeaderBillgIncompletionStatus` | `cast(…)` |
+| `_HeaderBillgIncompletionStatus` | *Association* |
+| `OvrlItmGeneralIncompletionSts` | `cast(…)` |
+| `_OvrlItmGeneralIncompletionSts` | *Association* |
+| `OvrlItmBillingIncompletionSts` | `cast(…)` |
+| `_OvrlItmBillingIncompletionSts` | *Association* |
+| `OvrlItmDelivIncompletionSts` | `cast(…)` |
+| `_OvrlItmDelivIncompletionSts` | *Association* |
+| `SDProcessStatus` | `cast(SDIA.SDProcessStatus as sd_doc_process_status preserving type)` |
+| `_SDProcessStatus` | *Association* |
+| `DeliveryConfirmationStatus` | `cast(…)` |
+| `_DeliveryConfirmationStatus` | *Association* |
+| `TotalDeliveryStatus` | `SDIA.TotalDeliveryStatus` |
+| `_TotalDeliveryStatus` | *Association* |
+| `DeliveryStatus` | `SDIA.DeliveryStatus` |
+| `_DeliveryStatus` | *Association* |
+| `DeliveryBlockStatus` | `SDIA.DeliveryBlockStatus` |
+| `_DeliveryBlockStatus` | *Association* |
+| `OrderRelatedBillingStatus` | `SDIA.OrderRelatedBillingStatus` |
+| `_OrderRelatedBillingStatus` | *Association* |
+| `BillingBlockStatus` | `SDIA.BillingBlockStatus` |
+| `_BillingBlockStatus` | *Association* |
+| `ItemGeneralIncompletionStatus` | `cast(…)` |
+| `_ItemGeneralIncompletionStatus` | *Association* |
+| `ItemBillingIncompletionStatus` | `cast(…)` |
+| `_ItemBillingIncompletionStatus` | *Association* |
+| `ItemDeliveryIncompletionStatus` | `cast(…)` |
+| `_ItemDelivIncompletionSts` | *Association* |
+| `SDDocumentRejectionStatus` | `cast(SDIA.SDDocumentRejectionStatus as sd_doc_rejection_status preserving type)` |
+| `_SDDocumentRejectionStatus` | *Association* |
+| `TotalSDDocReferenceStatus` | `SDIA.TotalSDDocReferenceStatus` |
+| `_TotalSDDocReferenceStatus` | *Association* |
 
 ## Associations
 

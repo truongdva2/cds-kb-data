@@ -15,6 +15,7 @@ tags:
   - pricing
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingScaleType
 ---
 # I_PRICINGSCALETYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `stfkz )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingScaleType` | `cast ( substring( domvalue_l, 1, 1 ) as stfkz )` |
 | `_Text` | *Association* |
 
 ## Associations

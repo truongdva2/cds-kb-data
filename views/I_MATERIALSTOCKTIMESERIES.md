@@ -32,22 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PeriodType` | `PeriodType` |
-| `key EndDate` | `EndDate` |
-| `key YearPeriod` | `YearPeriod` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
-| `key Batch` | `Batch` |
-| `key Supplier` | `Supplier` |
-| `key SDDocument` | `SDDocument` |
-| `key SDDocumentItem` | `SDDocumentItem` |
-| `key WBSElementInternalID` | `WBSElementInternalID` |
-| `key Customer` | `Customer` |
-| `key InventoryStockType` | `InventoryStockType` |
-| `key InventorySpecialStockType` | `InventorySpecialStockType` |
-| `key FiscalYearVariant` | `FiscalYearVariant` |
-| `key MaterialBaseUnit` | `MaterialBaseUnit` |
+| `PeriodType` | `PeriodType` |
+| `YearPeriod` | `YearPeriod` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `Supplier` | `Supplier` |
+| `SDDocument` | `SDDocument` |
+| `SDDocumentItem` | `SDDocumentItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `Customer` | `Customer` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
 | `CostEstimate` | `CostEstimate` |
 | `CompanyCode` | `CompanyCode` |
 | `MatlWrhsStkQtyInMatlBaseUnit` | `MatlWrhsStkQtyInMatlBaseUnit` |

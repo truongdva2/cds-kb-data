@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspLotDynamicRule
 ---
 # I_INSPLOTDYNAMICRULETEXT
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdynregel preserving type )` | `cast( dynregel` |
-| `Language, //text views shall always be language dependent` | `sprache` |
+| `InspLotDynamicRule` | `cast( dynregel as vdm_qdynregel preserving type )` |
+| `Language` | `sprache` |
 | `InspLotDynamicRuleText` | `kurztext` |
 | `_InspLotDynamicRule` | *Association* |
 | `_Language` | *Association* |

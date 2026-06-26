@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xdexr_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 1 )` |
+| `CAAltvExchangeRateSetCode` | `cast ( left( dd07l.domvalue_l, 1 ) as xdexr_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

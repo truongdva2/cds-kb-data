@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ElectronicDocUUID` | `ElectronicDocUUID` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
 | `TR_ElectronicDocEnvelopeID` | `TR_ElectronicDocEnvelopeID` |
 | `TR_ElectronicDocInvoiceID` | `TR_ElectronicDocInvoiceID` |
 | `TR_ElectronicDocUniqueID` | `TR_ElectronicDocUniqueID` |
@@ -44,7 +44,7 @@ tags:
 | `TR_EDocBusPartnerName` | `TR_EDocBusPartnerName` |
 | `TR_EDocCancelReason` | `TR_EDocCancelReason` |
 | `TR_EDocCancelReasonCode` | `TR_EDocCancelReasonCode` |
-| `_ElectronicDoc.ElectronicDocCompanyCode as TR_ElectronicDocCompanyCode` | *Association* |
+| `TR_ElectronicDocCompanyCode` | `_ElectronicDoc.ElectronicDocCompanyCode` |
 
 ## Associations
 

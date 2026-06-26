@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
-| `key SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
+| `SrvcDocAppointmentType` | `SrvcDocAppointmentType` |
 | `SrvcDocApptStartDateTime` | `SrvcDocApptStartDateTime` |
 | `SrvcDocApptEndDateTime` | `SrvcDocApptEndDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTemplateItemTP : redirected to parent I_ServiceOrderTemplateItemTP` | *Association* |
-| `_ServiceOrderTemplateTP     : redirected to I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

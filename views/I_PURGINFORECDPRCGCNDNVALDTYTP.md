@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
-| `key PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key Plant` | `Plant` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `Plant` | `Plant` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -45,10 +45,6 @@ tags:
 | `MaterialGroup` | `MaterialGroup` |
 | `Material` | `Material` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/*Composition Entities */` | `/*Composition Entities */` |
-| `_PurgInfoRecdCndnRecord : redirected to composition child I_PurgInfoRecdCndnRecordTP` | *Association* |
-| `_PurgInfoRecdOrgPlntData : redirected to parent I_PurgInfoRecdOrgPlntDataTP` | *Association* |
-| `_PurgInfoRecd : redirected to I_PurchasingInfoRecordTP` | *Association* |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocOblgnUUID` | `LglCntntMDocOblgnUUID` |
+| `LglCntntMDocOblgnUUID` | `LglCntntMDocOblgnUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMDocObligation` | `LglCntntMDocObligation` |
 | `LglCntntMDocOblgnType` | `LglCntntMDocOblgnType` |
@@ -39,11 +39,6 @@ tags:
 | `LglCntntMDocOblgnStrtDte` | `LglCntntMDocOblgnStrtDte` |
 | `LglCntntMDocOblgnEndDte` | `LglCntntMDocOblgnEndDte` |
 | `LglCntntMDocOblgnHasRem` | `LglCntntMDocOblgnHasRem` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document            : redirected to parent I_LegalDocumentTP` | *Association* |
-| `_LegalDocOblgnRcpnt  : redirected to composition child I_LegalDocOblgnRcpntTP` | *Association* |
-| `_LegalDocOblgnEntity : redirected to composition child I_LegalDocOblgnEntityTP` | *Association* |
-| `_LegalDocOblgnRem    : redirected to composition child I_LegalDocOblgnRemTP` | *Association* |
 
 ## Associations
 

@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key    BOOOperationInternalID` | `BOOOperationInternalID` |
-| `key    BOOOpInternalVersionCounter` | `BOOOpInternalVersionCounter` |
-| `key    InspectionPlan` | `InspectionPlan` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `BOOOpInternalVersionCounter` | `BOOOpInternalVersionCounter` |
+| `InspectionPlan` | `InspectionPlan` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `WorkCenterInternalID` | `WorkCenterInternalID` |
@@ -61,10 +61,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangeNumber` | `ChangeNumber` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `_InspPlanOperation : redirected to parent I_InspPlanOperationTP_2` | *Association* |
-| `_InspectionPlanVersion : redirected to I_InspectionPlanVersionTP_2` | *Association* |
-| `_InspPlanOpCharcVers : redirected to I_InspPlanOpCharcVersionTP_2` | *Association* |
-| `_InspPlan : redirected to I_InspectionPlanTP_2` | *Association* |
 
 ## Associations
 

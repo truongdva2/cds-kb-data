@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:MM-PUR-SVC-SES-2CL
   - lob:Sourcing & Procurement
+  - bo:ServiceEntrySheetItem
 ---
 # I_SERVICEENTRYSHEETITEMTP_2
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `PurgDocumentItemDeletionCode` | `PurgDocumentItemDeletionCode` |
@@ -102,11 +103,6 @@ tags:
 | `InventorySpecialStockType` | `InventorySpecialStockType` |
 | `PurgDocProductType` | `PurgDocProductType` |
 | `SESItemIsFinalEntry` | `SESItemIsFinalEntry` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheet : redirected to parent I_ServiceEntrySheetTP_2` | *Association* |
-| `_AccountAssignment : redirected to composition child I_SESAccountAssignmentTP_2` | *Association* |
-| `_SESPricingElement : redirected to composition child I_SESPricingElementTP_2` | *Association* |
-| `_ServiceEntrySheetItemNote : redirected to composition child I_ServiceEntrySheetItemNoteTP` | *Association* |
 
 ## Associations
 

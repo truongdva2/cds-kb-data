@@ -38,7 +38,7 @@ tags:
 | `Language` | `tmc1t.spras` |
 | `ConditionUsage` | `t681.kvewe` |
 | `ConditionApplication` | `t681.kappl` |
-| `char03 )` | `cast ( t681.kotabnr` |
+| `ConditionTable` | `cast ( t681.kotabnr as char03 )` |
 | `ConditionTableText` | `tmc1t.gstxt` |
 | `_PricingConditionTable` | *Association* |
 

@@ -31,27 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_InspectionOperation.OrderInternalBillOfOperations` | `I_InspectionOperation.OrderInternalBillOfOperations` |
-| `key I_InspectionOperation.InspPlanOperationInternalID` | `I_InspectionOperation.InspPlanOperationInternalID` |
+| `OrderInternalBillOfOperations` | `I_InspectionOperation.OrderInternalBillOfOperations` |
+| `InspPlanOperationInternalID` | `I_InspectionOperation.InspPlanOperationInternalID` |
 | `InspectionOpIsCompletionNeeded` | `max(tqec30.oper_completion)` |
-| `max(case I_InspectionOperation.BillOfOperationsType` | `max(case I_InspectionOperation.BillOfOperationsType` |
-| `when 'Q' then 1` | `when 'Q' then 1` |
-| `else` | `else` |
-| `case I_StatusObjectStatusBasic.StatusIsInactive` | `case I_StatusObjectStatusBasic.StatusIsInactive` |
-| `when 'X' then 0` | `when 'X' then 0` |
-| `else` | `else` |
-| `case I_StatusObjectStatusBasic.StatusCode` | `case I_StatusObjectStatusBasic.StatusCode` |
-| `when 'I0282' then 1` | `when 'I0282' then 1` |
-| `when 'I0283' then 1` | `when 'I0283' then 1` |
-| `else 0` | `else 0` |
-| `end` | `end` |
-| `end` | `end` |
-| `InspOpHasCharc` | `end)` |
-| `I_InspectionOperation._InspectionLot.MatlQualityAuthorizationGroup` | `I_InspectionOperation._InspectionLot.MatlQualityAuthorizationGroup` |
-| `I_InspectionOperation._InspectionLot.InspectionLotType` | `I_InspectionOperation._InspectionLot.InspectionLotType` |
-| `I_InspectionOperation._InspectionLot.Plant` | `I_InspectionOperation._InspectionLot.Plant` |
-| `I_InspectionOperation._InspectionLot._Plant` | `I_InspectionOperation._InspectionLot._Plant` |
-| `I_InspectionOperation._InspectionLot._InspectionLotType` | `I_InspectionOperation._InspectionLot._InspectionLotType` |
+| `InspOpHasCharc` | `max(…)` |
+| `MatlQualityAuthorizationGroup` | `I_InspectionOperation._InspectionLot.MatlQualityAuthorizationGroup` |
+| `InspectionLotType` | `I_InspectionOperation._InspectionLot.InspectionLotType` |
+| `Plant` | `I_InspectionOperation._InspectionLot.Plant` |
+| `_Plant` | *Association* |
+| `_InspectionLotType` | *Association* |
 
 ## Associations
 

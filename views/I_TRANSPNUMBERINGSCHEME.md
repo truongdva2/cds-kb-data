@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TrdClassfctnNmbrSchm
 ---
 # I_TRANSPNUMBERINGSCHEME
 
@@ -28,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
+| `TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
 | `TrdClassfctnNmbrSchmType` | `TrdClassfctnNmbrSchmType` |
 
 ## Associations

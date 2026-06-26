@@ -16,6 +16,7 @@ tags:
   - treasury
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryContractType
 ---
 # I_TREASURYCONTRACTTYPE
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rantyp )` | `cast( dd07l.domvalue_l` |
+| `TreasuryContractType` | `cast( dd07l.domvalue_l as rantyp )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

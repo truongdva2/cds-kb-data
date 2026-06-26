@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-BP
   - lob:Basis Components
+  - bo:BusinessPartner
 ---
 # I_BPDATACONTROLLERUSAGE
 

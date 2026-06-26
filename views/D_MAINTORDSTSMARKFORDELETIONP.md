@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AssgdMaintNotifIsToBeSetDel : abap_boolean;` | `AssgdMaintNotifIsToBeSetDel : abap_boolean;` |
+| `AssgdMaintNotifIsToBeSetDel` | `abap_boolean` |
 
 ## Associations
 

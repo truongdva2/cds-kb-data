@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-BMT-WFP
   - lob:Basis Components
+  - bo:ExtensionWorkflow
 ---
 # I_CPWF_INST
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CpWfHandle` | `CpWfHandle` |
+| `CpWfHandle` | `CpWfHandle` |
 | `RetentionTime` | `RetentionTime` |
 | `CpWfDefId` | `CpWfDefId` |
 | `PaWfDefId` | `PaWfDefId` |

@@ -33,14 +33,10 @@ tags:
 | `CAServiceReconnectionRequest` | `recpnr` |
 | `CASrvcReconncnReqIsInvalid` | `xrpinv` |
 | `CASrvcReconncnReqIsObsolete` | `xiobs` |
-| `cast( case` | `cast( case` |
-| `when xrpinv = 'X' then 'I'` | `when xrpinv = 'X' then 'I'` |
-| `when xiobs = 'X' then 'O'` | `when xiobs = 'X' then 'O'` |
-| `else 'V'` | `else 'V'` |
-| `recreq_stat_kk preserving type )` | `end` |
-| `bu_partner preserving type )` | `cast( gpart` |
-| `vkont_gfn_kk preserving type )` | `cast( vkont` |
-| `vtref_kk preserving type )` | `cast( vtref` |
+| `CASrvcReconncnReqStatus` | `cast(…)` |
+| `BusinessPartner` | `cast( gpart as bu_partner preserving type )` |
+| `ContractAccount` | `cast( vkont as vkont_gfn_kk preserving type )` |
+| `CAContract` | `cast( vtref as vtref_kk preserving type )` |
 | `CASubApplication` | `subap` |
 | `CADunningAmount` | `mbetm` |
 | `TransactionCurrency` | `waers` |
@@ -49,7 +45,6 @@ tags:
 | `CreatedByUser` | `uname` |
 | `CreationDate` | `crdate` |
 | `CreationTime` | `crtime` |
-| `/* associations */` | `/* associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CAProviderContract` | *Association* |
 | `_CASrvcReconncnReqStatus` | *Association* |

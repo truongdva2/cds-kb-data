@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ProdForecastRequirementsSplit
 ---
 # I_PRODFORECASTREQUIREMENTSSPLT
 
@@ -29,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `werks` |
+| `ForecastPeriodType` | `cast(perkz as periotype preserving type)` |
 | `ProdFcstRequirementsSplitCode` | `auftl` |
 | `NumberOfDailyFcstRequirements` | `anztg` |
 | `NumberOfWeeklyFcstRequirements` | `anzwo` |
-| `tbd */` | `/*    anzpr` |
 | `_Plant` | *Association* |
 | `_ForecastPeriodType` | *Association* |
 

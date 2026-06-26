@@ -46,7 +46,6 @@ tags:
 | `LastChangedByUser` | `lastchange_user` |
 | `LastChangeDateTime` | `lastchange_datetime` |
 | `LocalLastChangeDateTime` | `draft_lastchange_datetime` |
-| `/* Associations */` | `/* Associations */` |
 | `_AssetRevaluationIndexItem` | *Association* |
 | `_AssetRevaluationIndexLfcycSts` | *Association* |
 | `_AssetRevaluationIndexType` | *Association* |

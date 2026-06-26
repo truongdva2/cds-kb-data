@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABillgPlnCategory` | `_tfk8210.bipcat` |
-| `_tfk8210.xnoedit as CABillgPlnIsNotEditable` | *Association* |
+| `CABillgPlnIsNotEditable` | `_tfk8210.xnoedit` |
 | `_CABillgPlnCategoryText` | *Association* |
 
 ## Associations

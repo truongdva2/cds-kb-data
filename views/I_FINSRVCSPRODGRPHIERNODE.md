@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
+| `FinSrvcsProductGroupHierarchy` | `cast(…)` |
+| `HierarchyNode` | `HierNode.HierarchyNode` |
 | `ValidityEndDate` | `HierNode.ValidityEndDate` |
 | `ParentNode` | `HierNode.ParentNode` |
 | `ValidityStartDate` | `HierNode.ValidityStartDate` |

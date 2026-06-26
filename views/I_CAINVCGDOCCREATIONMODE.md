@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_crmode_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CAInvcgDocCreationMode` | `cast ( substring( dd07l.domvalue_l,1,1 ) as inv_crmode_kk preserving type )` |
 | `_CAInvcgDocCreationModeText` | *Association* |
 
 ## Associations

@@ -32,19 +32,20 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TransportationScaleBase` | `scalebase` |
-| `/scmtms/vdm_sc_base_fld_assgmt preserving type)` | `cast(ass_field` |
-| `/scmtms/vdm_sc_base_uom_rlvt preserving type)` | `cast(unit_check` |
-| `/scmtms/vdm_sc_base_dimension preserving type)` | `cast(dimid` |
-| `/scmtms/vdm_sc_base_is_numeric preserving type)` | `cast(all_numc_flag` |
-| `/scmtms/vdm_sc_base_is_amount preserving type)` | `cast(is_cur` |
-| `/scmtms/vdm_sc_base_is_raw_val preserving type)` | `cast(is_raw` |
-| `/scmtms/vdm_sc_base_is_date preserving type)` | `cast(is_date` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationFieldAssignment` | `cast(ass_field as /scmtms/vdm_sc_base_fld_assgmt preserving type)` |
+| `TranspScaleBaseHasUoM` | `cast(unit_check as /scmtms/vdm_sc_base_uom_rlvt preserving type)` |
+| `TranspScaleBaseDimension` | `cast(dimid as /scmtms/vdm_sc_base_dimension preserving type)` |
+| `TranspScaleBaseIsNumeric` | `cast(all_numc_flag as /scmtms/vdm_sc_base_is_numeric preserving type)` |
+| `TranspScaleBaseIsAmount` | `cast(is_cur as /scmtms/vdm_sc_base_is_amount preserving type)` |
+| `TranspScaleBaseIsRawValue` | `cast(is_raw as /scmtms/vdm_sc_base_is_raw_val preserving type)` |
+| `TranspScaleBaseIsDate` | `cast(is_date as /scmtms/vdm_sc_base_is_date preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspScaleBaseText_2` | [0..*] |
 
 ## Source Code
 

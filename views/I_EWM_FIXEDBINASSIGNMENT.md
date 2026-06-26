@@ -34,14 +34,14 @@ tags:
 | `EntitledToDisposeParty` | `entitled` |
 | `EWMStorageBin` | `lgpla` |
 | `Product` | `matnr` |
-| `raw16 preserving type )` | `cast( matid` |
+| `ProductUUID` | `cast( matid as raw16 preserving type )` |
 | `EWMStorageType` | `lgtyp` |
 | `EWMMaximumStorageQuantity` | `maxqty` |
 | `EWMMaximumStorageQuantityUnit` | `maxqty_uom_dsp` |
 | `EWMMinimumStorageQuantity` | `minqty` |
 | `EWMMinimumStorageQuantityUnit` | `minqty_uom_dsp` |
-| `ewm_de_fixedbinassgmtcreateddt preserving type )` | `cast ( created_at` |
-| `ewm_de_fixedbinassgmtcreatedby preserving type )` | `cast ( created_by` |
+| `EWMFixedBinAssgmtCreatedDteTme` | `cast ( created_at as ewm_de_fixedbinassgmtcreateddt preserving type )` |
+| `EWMFixedBinAssgmtCreatedByUser` | `cast ( created_by as ewm_de_fixedbinassgmtcreatedby preserving type )` |
 
 ## Associations
 

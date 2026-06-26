@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
 | `OrderInternalBillOfOperations` | `OrderInternalBillOfOperations` |
 | `OrderOperationInternalID` | `OrderOperationInternalID` |
 | `InspectionOperation` | `InspectionOperation` |
@@ -48,10 +48,6 @@ tags:
 | `InspSbstIsTimeRelated` | `InspSbstIsTimeRelated` |
 | `InspSbstHasNoTimeOrQuantity` | `InspSbstHasNoTimeOrQuantity` |
 | `Sequence` | `Sequence` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot            : redirected to parent I_InspectionLotTP_2` | *Association* |
-| `_InspectionCharacteristic : redirected to composition child I_InspCharacteristicTP_2` | *Association* |
-| `_InspectionSubset         : redirected to composition child I_InspectionSubsetTP_21` | *Association* |
 | `_WorkCenter` | *Association* |
 
 ## Associations

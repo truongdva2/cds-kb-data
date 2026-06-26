@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocRequestBillingStatus
 ---
 # I_BILLGDOCREQBILLGSTS
 

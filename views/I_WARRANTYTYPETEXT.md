@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-SF-WA-2CL
   - lob:Plant Maintenance
+  - bo:WarrantyType
 ---
 # I_WARRANTYTYPETEXT
 
@@ -35,7 +36,6 @@ tags:
 | `WarrantyType` | `gaart` |
 | `Language` | `langu` |
 | `WarrantyTypeName` | `ktext` |
-| `/* Associations */` | `/* Associations */` |
 | `_WarrantyType` | *Association* |
 | `_Language` | *Association* |
 

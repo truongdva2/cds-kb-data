@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:CO-FIO-PA-2CL
   - lob:Controlling
+  - bo:CurrencyField
 ---
 # I_PRJMARGANLYSRPTCRCYFLDTXT
 
@@ -28,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fis_crcy_role_field )` | `cast( dd07t.domvalue_l` |
-| `fis_crcy_role_field_text preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CurrencyField` | `cast( dd07t.domvalue_l as fis_crcy_role_field )` |
+| `CurrencyFieldName` | `cast( dd07t.ddtext as fis_crcy_role_field_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

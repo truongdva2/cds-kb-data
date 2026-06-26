@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  MeasurementDocument` | `MeasurementDocument` |
+| `MeasurementDocument` | `MeasurementDocument` |
 | `MeasuringPoint` | `MeasuringPoint` |
 | `MsmtRdngDate` | `MsmtRdngDate` |
 | `MsmtRdngTime` | `MsmtRdngTime` |

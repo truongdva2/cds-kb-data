@@ -31,14 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'CnsldtnSubitem'` | `localElement: 'CnsldtnSubitem'` |
-| `element: 'CnsldtnSubitem'` | `element: 'CnsldtnSubitem'` |
-| `usage: #FILTER_AND_RESULT }]` | `usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `_HierarchyNode.CnsldtnSubitem` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `CnsldtnSubitemCategory` | `_HierarchyNode.CnsldtnSubitemCategory` |
+| `ConsolidationSubitemHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `CnsldtnSubitem` | `_HierarchyNode.CnsldtnSubitem` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Subitem` | *Association* |
 | `_Hierarchy` | *Association* |

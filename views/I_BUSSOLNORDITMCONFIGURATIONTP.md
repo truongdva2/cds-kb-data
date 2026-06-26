@@ -29,21 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key VarConfignInstceBusObjectKey` | `VarConfignInstceBusObjectKey` |
-| `key VarConfignInstceBusObjectType` | `VarConfignInstceBusObjectType` |
-| `key VariantConfigurationInstance` | `VariantConfigurationInstance` |
-| `key CharcInternalID` | `CharcInternalID` |
-| `key CharcValue` | `CharcValue` |
-| `key CharcFromNumericValue` | `CharcFromNumericValue` |
-| `key CharcToNumericValue` | `CharcToNumericValue` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `VarConfignInstceBusObjectKey` | `VarConfignInstceBusObjectKey` |
+| `VarConfignInstceBusObjectType` | `VarConfignInstceBusObjectType` |
+| `VariantConfigurationInstance` | `VariantConfigurationInstance` |
+| `CharcInternalID` | `CharcInternalID` |
+| `CharcValue` | `CharcValue` |
+| `CharcFromNumericValue` | `CharcFromNumericValue` |
+| `CharcToNumericValue` | `CharcToNumericValue` |
 | `CharcReferenceTable` | `CharcReferenceTable` |
 | `CharcReferenceTableField` | `CharcReferenceTableField` |
 | `Characteristic` | `Characteristic` |
 | `VariantConfigurationDate` | `VariantConfigurationDate` |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

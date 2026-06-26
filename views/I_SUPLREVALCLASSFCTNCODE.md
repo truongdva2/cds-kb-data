@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SupplierEvaluationScore
 ---
 # I_SUPLREVALCLASSFCTNCODE
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mm_classification )` | `cast( dd07l.domvalue_l` |
+| `SupplierClassification` | `cast( dd07l.domvalue_l as mm_classification )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SuplrEvalClassfctnCodeTxt` | [0..*] |
 
 ## Source Code
 

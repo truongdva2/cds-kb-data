@@ -29,43 +29,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FinTransFlowCreationDate        : tb_crdat;` | `FinTransFlowCreationDate        : tb_crdat;` |
-| `FinTransFlowCreationTime        : ftr_flow_creation_time;` | `FinTransFlowCreationTime        : ftr_flow_creation_time;` |
-| `FinTransFlowNumber              : tb_rfhazb;` | `FinTransFlowNumber              : tb_rfhazb;` |
-| `FinancialInstrumentActivity     : tb_rfhazu;` | `FinancialInstrumentActivity     : tb_rfhazu;` |
-| `FinancialTransactionDirection   : tb_rkondgr;` | `FinancialTransactionDirection   : tb_rkondgr;` |
-| `FinTransFlowType                : tb_sfhazba;` | `FinTransFlowType                : tb_sfhazba;` |
-| `FinTransFlowPaytAmtDirection    : ftr_flow_payment_amt_direction;` | `FinTransFlowPaytAmtDirection    : ftr_flow_payment_amt_direction;` |
-| `FinTransFlowPaymentDate         : ftr_flow_payment_date;` | `FinTransFlowPaymentDate         : ftr_flow_payment_date;` |
-| `FinTransFlowPaytAmt             : ftr_payment_amount;` | `FinTransFlowPaytAmt             : ftr_payment_amount;` |
-| `FinTransFlowPaytAmtCrcy         : tb_wzbetr;` | `FinTransFlowPaytAmtCrcy         : tb_wzbetr;` |
-| `FinTransFlowLoclCrcyCnvrsnRate  : ftr_flow_rate_in_locl_crcy;` | `FinTransFlowLoclCrcyCnvrsnRate  : ftr_flow_rate_in_locl_crcy;` |
-| `FinTransFlowInLoclCrcyPaytAmt   : ftr_payt_amt_in_local_currency;` | `FinTransFlowInLoclCrcyPaytAmt   : ftr_payt_amt_in_local_currency;` |
-| `LocalCurrency                   : waers;` | `LocalCurrency                   : waers;` |
-| `AmtInLoclCrcyIsCnvrtdByCurRate  : ftr_local_amt_in_cur_rate_ind;` | `AmtInLoclCrcyIsCnvrtdByCurRate  : ftr_local_amt_in_cur_rate_ind;` |
-| `AmtInLoclCrcyIsCnvrtdByFxdRate  : ftr_local_amt_in_fxd_rate_ind;` | `AmtInLoclCrcyIsCnvrtdByFxdRate  : ftr_local_amt_in_fxd_rate_ind;` |
-| `AmountInLocalCurrencyIsFixed    : ftr_local_amt_fxd_ind;` | `AmountInLocalCurrencyIsFixed    : ftr_local_amt_fxd_ind;` |
-| `CalculationPeriodStartDate      : dbervon;` | `CalculationPeriodStartDate      : dbervon;` |
-| `CalcPeriodStartDateIsInclusive  : tb_sinclv;` | `CalcPeriodStartDateIsInclusive  : tb_sinclv;` |
-| `CalcPeriodStartDateIsMonthEnd   : vvsultvon;` | `CalcPeriodStartDateIsMonthEnd   : vvsultvon;` |
-| `CalculationPeriodEndDate        : dberbis;` | `CalculationPeriodEndDate        : dberbis;` |
-| `CalcPeriodEndDateIsInclusive    : tb_sinclb;` | `CalcPeriodEndDateIsInclusive    : tb_sinclb;` |
-| `CalcPeriodEndDateIsMonthEnd     : vvsultbis;` | `CalcPeriodEndDateIsMonthEnd     : vvsultbis;` |
-| `InterestCalculationMethod       : szbmeth;` | `InterestCalculationMethod       : szbmeth;` |
-| `IntrstCalcMethFactoryCalendar   : tfmskalidwt;` | `IntrstCalcMethFactoryCalendar   : tfmskalidwt;` |
-| `NumberOfCalculationDays         : vvatage;` | `NumberOfCalculationDays         : vvatage;` |
-| `NrOfBaseDaysPerCalcPeriod       : abastage;` | `NrOfBaseDaysPerCalcPeriod       : abastage;` |
-| `FinTransFlowCalcBaseAmount      : ftr_calc_base_amount;` | `FinTransFlowCalcBaseAmount      : ftr_calc_base_amount;` |
-| `FinTransFlowCalcBaseAmountCrcy  : tb_wbasis;` | `FinTransFlowCalcBaseAmountCrcy  : tb_wbasis;` |
-| `ConditionPercentageRate         : pkond;` | `ConditionPercentageRate         : pkond;` |
-| `AssignmentReference             : fis_zuonr;` | `AssignmentReference             : fis_zuonr;` |
-| `FinTransFlowPostingStatus       : tb_sbewebe;` | `FinTransFlowPostingStatus       : tb_sbewebe;` |
-| `FinTransFlowCalculationDate     : ftr_flow_calculation_date;` | `FinTransFlowCalculationDate     : ftr_flow_calculation_date;` |
-| `_IntrstRateInstr              : association to parent D_IntrstRateInstrChangeP;` | *Association* |
+| `FinTransFlowCreationDate` | `tb_crdat` |
+| `FinTransFlowCreationTime` | `ftr_flow_creation_time` |
+| `FinTransFlowNumber` | `tb_rfhazb` |
+| `FinancialInstrumentActivity` | `tb_rfhazu` |
+| `FinancialTransactionDirection` | `tb_rkondgr` |
+| `FinTransFlowType` | `tb_sfhazba` |
+| `FinTransFlowPaytAmtDirection` | `ftr_flow_payment_amt_direction` |
+| `FinTransFlowPaymentDate` | `ftr_flow_payment_date` |
+| `FinTransFlowPaytAmt` | `ftr_payment_amount` |
+| `FinTransFlowPaytAmtCrcy` | `tb_wzbetr` |
+| `FinTransFlowLoclCrcyCnvrsnRate` | `ftr_flow_rate_in_locl_crcy` |
+| `FinTransFlowInLoclCrcyPaytAmt` | `ftr_payt_amt_in_local_currency` |
+| `LocalCurrency` | `waers` |
+| `AmtInLoclCrcyIsCnvrtdByCurRate` | `ftr_local_amt_in_cur_rate_ind` |
+| `AmtInLoclCrcyIsCnvrtdByFxdRate` | `ftr_local_amt_in_fxd_rate_ind` |
+| `AmountInLocalCurrencyIsFixed` | `ftr_local_amt_fxd_ind` |
+| `CalculationPeriodStartDate` | `dbervon` |
+| `CalcPeriodStartDateIsInclusive` | `tb_sinclv` |
+| `CalcPeriodStartDateIsMonthEnd` | `vvsultvon` |
+| `CalculationPeriodEndDate` | `dberbis` |
+| `CalcPeriodEndDateIsInclusive` | `tb_sinclb` |
+| `CalcPeriodEndDateIsMonthEnd` | `vvsultbis` |
+| `InterestCalculationMethod` | `szbmeth` |
+| `IntrstCalcMethFactoryCalendar` | `tfmskalidwt` |
+| `NumberOfCalculationDays` | `vvatage` |
+| `NrOfBaseDaysPerCalcPeriod` | `abastage` |
+| `FinTransFlowCalcBaseAmount` | `ftr_calc_base_amount` |
+| `FinTransFlowCalcBaseAmountCrcy` | `tb_wbasis` |
+| `ConditionPercentageRate` | `pkond` |
+| `AssignmentReference` | `fis_zuonr` |
+| `FinTransFlowPostingStatus` | `tb_sbewebe` |
+| `FinTransFlowCalculationDate` | `ftr_flow_calculation_date` |
+| `_IntrstRateInstr` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_IntrstRateInstr` | `D_IntrstRateInstrChangeP` | — |
 
 ## Source Code
 

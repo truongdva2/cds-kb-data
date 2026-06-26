@@ -32,14 +32,16 @@ tags:
 |---|---|
 | `BR_NotaFiscal` | `NFReferencedProcess.docnum` |
 | `BR_NFReferencedProcessSqncNmbr` | `NFReferencedProcess.counter` |
-| `logbr_nf_process_id)` | `cast(NFReferencedProcess.nproc` |
+| `BR_NFReferencedProcIdentifier` | `cast(NFReferencedProcess.nproc as logbr_nf_process_id)` |
 | `BR_NFReferencedProcessOrigin` | `NFReferencedProcess.indproc` |
-| `logbr_type_concession_act preserving type )` | `cast(NFReferencedProcess.tpato` |
+| `BR_NFTypeOfConcessionAct` | `cast(NFReferencedProcess.tpato as logbr_type_concession_act preserving type )` |
 | `_BR_NFReferencedProcOrign` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BR_NFReferencedProcOrign` | `I_BR_NFReferencedProcOrign` | [0..1] |
 
 ## Source Code
 

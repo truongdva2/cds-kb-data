@@ -32,30 +32,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractPrcgElmnt.SalesContract` | `SalesContractPrcgElmnt.SalesContract` |
-| `key SalesContractPrcgElmnt.PricingProcedureStep` | `SalesContractPrcgElmnt.PricingProcedureStep` |
-| `key SalesContractPrcgElmnt.PricingProcedureCounter` | `SalesContractPrcgElmnt.PricingProcedureCounter` |
-| `SalesContractPrcgElmnt.ConditionApplication` | `SalesContractPrcgElmnt.ConditionApplication` |
-| `SalesContractPrcgElmnt.ConditionType` | `SalesContractPrcgElmnt.ConditionType` |
-| `SalesContractPrcgElmnt.ConditionCalculationType` | `SalesContractPrcgElmnt.ConditionCalculationType` |
-| `SalesContractPrcgElmnt.ConditionRateAmount` | `SalesContractPrcgElmnt.ConditionRateAmount` |
-| `SalesContractPrcgElmnt.ConditionCurrency` | `SalesContractPrcgElmnt.ConditionCurrency` |
-| `SalesContractPrcgElmnt.ConditionRateRatio` | `SalesContractPrcgElmnt.ConditionRateRatio` |
-| `SalesContractPrcgElmnt.ConditionRateRatioUnit` | `SalesContractPrcgElmnt.ConditionRateRatioUnit` |
-| `SalesContractPrcgElmnt.ConditionBaseAmount` | `SalesContractPrcgElmnt.ConditionBaseAmount` |
-| `SalesContractPrcgElmnt.ConditionAmount` | `SalesContractPrcgElmnt.ConditionAmount` |
-| `SalesContractPrcgElmnt.TransactionCurrency` | `SalesContractPrcgElmnt.TransactionCurrency` |
-| `SalesContractPrcgElmnt.ConditionBaseQuantity` | `SalesContractPrcgElmnt.ConditionBaseQuantity` |
-| `SalesContractPrcgElmnt.ConditionQuantity` | `SalesContractPrcgElmnt.ConditionQuantity` |
-| `SalesContractPrcgElmnt.ConditionQuantityUnit` | `SalesContractPrcgElmnt.ConditionQuantityUnit` |
-| `SalesContractPrcgElmnt.ConditionIsForStatistics` | `SalesContractPrcgElmnt.ConditionIsForStatistics` |
-| `SalesContractPrcgElmnt.ConditionIsManuallyChanged` | `SalesContractPrcgElmnt.ConditionIsManuallyChanged` |
-| `SalesContractPrcgElmnt.ConditionInactiveReason` | `SalesContractPrcgElmnt.ConditionInactiveReason` |
-| `SalesContractPrcgElmnt.SalesContractType` | `SalesContractPrcgElmnt.SalesContractType` |
-| `SalesContractPrcgElmnt.SalesOrganization` | `SalesContractPrcgElmnt.SalesOrganization` |
-| `SalesContractPrcgElmnt.DistributionChannel` | `SalesContractPrcgElmnt.DistributionChannel` |
-| `SalesContractPrcgElmnt.OrganizationDivision` | `SalesContractPrcgElmnt.OrganizationDivision` |
-| `_SalesContract : redirected to parent I_SalesContractTP` | *Association* |
+| `SalesContract` | `SalesContractPrcgElmnt.SalesContract` |
+| `PricingProcedureStep` | `SalesContractPrcgElmnt.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SalesContractPrcgElmnt.PricingProcedureCounter` |
+| `ConditionApplication` | `SalesContractPrcgElmnt.ConditionApplication` |
+| `ConditionType` | `SalesContractPrcgElmnt.ConditionType` |
+| `ConditionCalculationType` | `SalesContractPrcgElmnt.ConditionCalculationType` |
+| `ConditionRateAmount` | `SalesContractPrcgElmnt.ConditionRateAmount` |
+| `ConditionCurrency` | `SalesContractPrcgElmnt.ConditionCurrency` |
+| `ConditionRateRatio` | `SalesContractPrcgElmnt.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SalesContractPrcgElmnt.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SalesContractPrcgElmnt.ConditionBaseAmount` |
+| `ConditionAmount` | `SalesContractPrcgElmnt.ConditionAmount` |
+| `TransactionCurrency` | `SalesContractPrcgElmnt.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SalesContractPrcgElmnt.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SalesContractPrcgElmnt.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SalesContractPrcgElmnt.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SalesContractPrcgElmnt.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SalesContractPrcgElmnt.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SalesContractPrcgElmnt.ConditionInactiveReason` |
+| `SalesContractType` | `SalesContractPrcgElmnt.SalesContractType` |
+| `SalesOrganization` | `SalesContractPrcgElmnt.SalesOrganization` |
+| `DistributionChannel` | `SalesContractPrcgElmnt.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractPrcgElmnt.OrganizationDivision` |
 
 ## Associations
 

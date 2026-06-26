@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmpur_pc_status_pcs )` | `cast( dd07l.domvalue_l` |
+| `PurgProdCmplncSupplierStatus` | `cast( dd07l.domvalue_l as mmpur_pc_status_pcs )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgProdCmplncSupplierStsT` | [0..*] |
 
 ## Source Code
 

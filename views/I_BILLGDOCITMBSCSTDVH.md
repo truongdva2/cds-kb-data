@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:BillingDocumentItem
 ---
 # I_BILLGDOCITMBSCSTDVH
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocument` | `BillingDocument` |
-| `key BillingDocumentItem` | `BillingDocumentItem` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
 | `BillingDocumentItemText` | `BillingDocumentItemText` |
 | `BillingDocumentType` | `BillingDocumentType` |
 | `SalesOrganization` | `SalesOrganization` |

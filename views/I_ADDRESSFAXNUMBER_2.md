@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:FaxNumber
 ---
 # I_ADDRESSFAXNUMBER_2
 
@@ -39,15 +40,9 @@ tags:
 | `FaxAreaCodeSubscriberNumber` | `fax_number` |
 | `FaxExtensionNumber` | `fax_extens` |
 | `InternationalFaxNumber` | `faxnr_long` |
-| `ad_faxcurdflt preserving type)` | `cast (flgdefault` |
-| `case valid_from` | `case valid_from` |
-| `when '' then '00010101'` | `when '' then '00010101'` |
-| `abap.dats)` | `else cast( substring( valid_from,1,8)` |
-| `ValidityStartDate` | `end` |
-| `case valid_to` | `case valid_to` |
-| `when '' then '99991231'` | `when '' then '99991231'` |
-| `abap.dats)` | `else cast( substring( valid_to,1,8)` |
-| `ValidityEndDate` | `end` |
+| `FaxNumberIsCurrentDefault` | `cast (flgdefault as ad_faxcurdflt preserving type)` |
+| `ValidityStartDate` | `case…end` |
+| `ValidityEndDate` | `case…end` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
 | `_FaxNumberCountry` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressManagementURIType
 ---
 # I_ADDRESSMANAGEMENTURITYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ad_uritype )` | `cast ( domvalue_l` |
+| `AddressManagementURIType` | `cast ( domvalue_l as ad_uritype )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

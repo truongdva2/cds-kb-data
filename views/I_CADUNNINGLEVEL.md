@@ -54,7 +54,6 @@ tags:
 | `CAMinimalPctOfAmountStillOpen` | `minpz` |
 | `CAIntrstAndChargeIsAddedToHist` | `newdc` |
 | `CADunningSuccessCanBeEvaluated` | `xdsuc` |
-| `/* associations */` | `/* associations */` |
 | `_Text` | *Association* |
 | `_DunningProcedure` | *Association* |
 | `_DunningLevelCat` | *Association* |

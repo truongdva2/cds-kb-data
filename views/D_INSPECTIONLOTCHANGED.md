@@ -13,6 +13,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLot
 ---
 # D_INSPECTIONLOTCHANGED
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Plant : werks_d;` | `Plant : werks_d;` |
+| `Plant` | `werks_d` |
 
 ## Associations
 

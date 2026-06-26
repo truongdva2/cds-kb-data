@@ -15,6 +15,7 @@ tags:
   - text
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgDocumentProcessCodeText
 ---
 # I_PURGDOCUMENTPROCESSCODETEXT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 3 ) )` | `cast (cast(substring(dd07t.domvalue_l ,1,3)` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `PurchasingDocumentProcessCode` | `cast(…)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `purgdocumentprocesscodename preserving type )` | `cast (dd07t.ddtext` |
+| `PurgDocumentProcessCodeName` | `cast (dd07t.ddtext as purgdocumentprocesscodename preserving type )` |
 | `_PurgDocumentProcessCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgDocumentProcessCode` | `I_PurgDocumentProcessCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

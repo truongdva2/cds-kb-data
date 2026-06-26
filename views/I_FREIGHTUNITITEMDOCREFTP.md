@@ -33,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TranspOrdItemDocReferenceUUID` | `TranspOrdItemDocReferenceUUID` |
+| `TranspOrdItemDocReferenceUUID` | `TranspOrdItemDocReferenceUUID` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItemDocReferenceID` | `TranspOrdItemDocReferenceID` |
@@ -43,9 +42,8 @@ tags:
 | `TranspOrdItmDocRefItemType` | `TranspOrdItmDocRefItemType` |
 | `TranspOrdItmDocRefDate` | `TranspOrdItmDocRefDate` |
 | `TranspOrdItemDocRefIssuerName` | `TranspOrdItemDocRefIssuerName` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightUnit : redirected to I_FreightUnitTP` | `FreightUnitItemDocRef._TransportationOrder` |
-| `_FreightUnitItem: redirected to parent I_FreightUnitItemTP` | `FreightUnitItemDocRef._TransportationOrderItem` |
+| `_FreightUnit` | *Association* |
+| `_FreightUnitItem` | *Association* |
 
 ## Associations
 

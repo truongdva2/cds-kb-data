@@ -17,6 +17,7 @@ tags:
   - contract
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchaseContractHistory
 ---
 # C_PURCHASECONTRACTHISTORYDEX
 
@@ -33,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key ReleaseOrder` | `ReleaseOrder` |
-| `key ReleaseOrderItem` | `ReleaseOrderItem` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `ReleaseOrder` | `ReleaseOrder` |
+| `ReleaseOrderItem` | `ReleaseOrderItem` |
 | `ReleaseOrderItemOrderQuantity` | `ReleaseOrderItemOrderQuantity` |
 | `ReleaseOrderItemNetAmount` | `ReleaseOrderItemNetAmount` |
 | `ReleaseOrderItemIsDeleted` | `ReleaseOrderItemIsDeleted` |
@@ -48,8 +49,8 @@ tags:
 | `CompanyCode` | `CompanyCode` |
 | `Plant` | `Plant` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
-| `_PurchaseContractAPI01.PurchaseContractType as PurchaseContractType` | *Association* |
-| `_PurchaseContractAPI01.PurchasingGroup      as PurchasingGroup` | *Association* |
+| `PurchaseContractType` | `_PurchaseContractAPI01.PurchaseContractType` |
+| `PurchasingGroup` | `_PurchaseContractAPI01.PurchasingGroup` |
 | `_PurchaseContract` | *Association* |
 | `_PurchaseContractItem` | *Association* |
 | `_ReleaseOrderItemQuantityUnit` | *Association* |

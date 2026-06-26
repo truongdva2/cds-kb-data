@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ico_type_gfn_kk preserving type)` | `cast(_tfk8250.ico_type` |
+| `CAIntcoType` | `cast(_tfk8250.ico_type as ico_type_gfn_kk preserving type)` |
 | `_CAIntcoTypeText` | *Association* |
 
 ## Associations

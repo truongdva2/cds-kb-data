@@ -17,6 +17,7 @@ tags:
   - text
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:TransportCheckRule
 ---
 # I_TRANSPORTCHECKRULETEXT
 
@@ -33,14 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ehdgm_transport_check_rule preserving type )` | `cast( left( dd07t.domvalue_l, 2)` |
+| `TransportCheckRule` | `cast( left( dd07t.domvalue_l, 2) as ehdgm_transport_check_rule preserving type )` |
 | `Language` | `dd07t.ddlanguage` |
 | `TransportCheckRuleName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

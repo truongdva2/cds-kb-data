@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key DocumentType` | `DocumentType` |
-| `key DocumentInfoRecord` | `DocumentInfoRecord` |
-| `key DocumentPart` | `DocumentPart` |
-| `key DocumentVersion` | `DocumentVersion` |
+| `ChangeNumber` | `ChangeNumber` |
+| `DocumentType` | `DocumentType` |
+| `DocumentInfoRecord` | `DocumentInfoRecord` |
+| `DocumentPart` | `DocumentPart` |
+| `DocumentVersion` | `DocumentVersion` |
 | `ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
 | `SAPObjectTechnicalID` | `SAPObjectTechnicalID` |
 | `ObjMgmtRecdDescription` | `ObjMgmtRecdDescription` |
@@ -51,9 +51,6 @@ tags:
 | `ObjMgmtRecdObjRevisionLevel` | `ObjMgmtRecdObjRevisionLevel` |
 | `ChgNmbrAlternativeDateCounter` | `ChgNmbrAlternativeDateCounter` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ChangeMaster        : redirected to parent I_ChangeMasterTP_2` | *Association* |
-| `_ChangeMasterAltDate : redirected to I_ChangeMasterAltDateTP_2` | *Association* |
 
 ## Associations
 

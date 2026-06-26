@@ -32,14 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
+| `CompanyCode` | `CompanyCode` |
 | `Currency` | `Currency` |
 | `LanguageISOCode` | `LanguageISOCode` |
-| `cimic_time_zone )` | `cast( _IANATimeZone.TimeZoneIANACode` |
-| `cast( concat( substring(_FiscalYearCC.FiscalYearEndDate, 5, 2)` | `cast( concat( substring(_FiscalYearCC.FiscalYearEndDate, 5, 2)` |
-| `cimic_fyear_enddate )` | `concat('-', substring(_FiscalYearCC.FiscalYearEndDate, 7, 2) ))` |
+| `TimeZoneText` | `cast( _IANATimeZone.TimeZoneIANACode as cimic_time_zone )` |
+| `EndDateFiscalYearPeriod` | `cast(…)` |
 | `TaxCalculationProcedure` | `TaxCalculationProcedure` |
-| `cimic_external_tax_system )` | `cast( _TxJxProced.ExternalTaxSystem` |
+| `ExternalTaxSystem` | `cast( _TxJxProced.ExternalTaxSystem as cimic_external_tax_system )` |
 
 ## Associations
 

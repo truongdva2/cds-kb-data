@@ -17,6 +17,7 @@ tags:
   - email
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:AddressID
 ---
 # I_ADDRCURDEFAULTEMAILADDRESS
 
@@ -33,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
 | `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `EmailAddress` | `EmailAddress` |
 | `ValidityStartDate` | `ValidityStartDate` |

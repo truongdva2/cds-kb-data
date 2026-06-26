@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TrsyCshFlowDebtInvmtCode
 ---
 # I_TRSYCSHFLOWDEBTINVMTCODET
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_debt_invest_indicator preserving type)` | `cast(left(domvalue_l, 1)` |
+| `TrsyCshFlowDebtInvmtCode` | `cast(left(domvalue_l, 1) as ftr_debt_invest_indicator preserving type)` |
 | `Language` | `DomainText.ddlanguage` |
 | `TrsyCshFlowDebtInvmtCodeName` | `DomainText.ddtext` |
 | `_Language` | *Association* |

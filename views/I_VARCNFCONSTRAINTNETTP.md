@@ -31,12 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Constraint              : redirected to composition child I_VarCnfConstraintTP` | *Association* |
-| `_HistoricalConstraintNet : redirected to composition child I_VarCnfHistlConstraintNetTP` | *Association* |
-| `_Text                    : redirected to composition child I_VarCnfConstraintNetTextTP` | *Association* |
 
 ## Associations
 

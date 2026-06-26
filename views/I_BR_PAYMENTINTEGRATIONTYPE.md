@@ -15,6 +15,7 @@ tags:
   - payment
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentSystemIntegrationType
 ---
 # I_BR_PAYMENTINTEGRATIONTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_tpintegra preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PaymentSystemIntegrationType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_tpintegra preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

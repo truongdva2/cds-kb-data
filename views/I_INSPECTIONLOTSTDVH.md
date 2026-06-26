@@ -16,6 +16,7 @@ tags:
   - inspection
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionLot
 ---
 # I_INSPECTIONLOTSTDVH
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `key InspectionLot` | `InspectionLot` |
+| `InspectionLot` | `InspectionLot` |
 | `InspectionLotType` | `InspectionLotType` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `MatlQualityAuthorizationGroup` | `MatlQualityAuthorizationGroup` |

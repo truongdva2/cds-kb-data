@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspBizTransacDocTypeCode
 ---
 # I_BUSTRANSDOCTYPECODE
 
@@ -33,7 +34,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_BusTransDocTypeCodeText` | [0..*] |
 
 ## Source Code
 

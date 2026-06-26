@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_doctyp_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 4 )` |
+| `CABusTransDocumentType` | `cast ( left( dd07l.domvalue_l, 4 ) as evl_doctyp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

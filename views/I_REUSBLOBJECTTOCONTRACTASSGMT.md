@@ -32,31 +32,25 @@ tags:
 | Field | Data Source |
 |---|---|
 | `REStatusObjectSource` | `_REObjectAssgmt.REStatusObjectTarget` |
-| `key _REObjectAssgmt.REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
-| `key _REContract.CompanyCode` | `_REContract.CompanyCode` |
-| `key _REContract.RealEstateContract` | `_REContract.RealEstateContract` |
-| `recadateperiod preserving type )` | `cast(concat(_REUsableObject.ValidityStartDate, _REUsableObject.ValidityEndDate )` |
-| `key _REUsableObject.RealEstateUsableObjectUUID` | `_REUsableObject.RealEstateUsableObjectUUID` |
-| `rebdvdmvalidfrom preserving type )` | `case when _REObjectAssgmt.ValidityStartDate > _REContract.ContractStartDate then cast( coalesce(_REUsableObject.ValidityStartDate, '00000000')` |
-| `when _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityStartDate > _REContract.ContractStartDate then _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityStartDate` | `when _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityStartDate > _REContract.ContractStartDate then _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityStartDate` |
-| `else _REContract.ContractStartDate` | `else _REContract.ContractStartDate` |
-| `ValidityStartDate` | `end` |
-| `_REObjectAssgmt.REStatusObjectSource                                                                as REStatusObjectTarget` | *Association* |
-| `rebdvdmvalidto preserving type )` | `case when _REObjectAssgmt.ValidityEndDate < _REContract.ContractEndDate then cast( coalesce(_REUsableObject.ValidityEndDate, '99991231')` |
-| `when _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityEndDate < _REContract.ContractEndDate then _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityEndDate` | `when _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityEndDate < _REContract.ContractEndDate then _REObjectAssgmt._REObjectTypeDetails._REUsableObject.ValidityEndDate` |
-| `else _REContract.ContractEndDate` | `else _REContract.ContractEndDate` |
-| `ValidityEndDate` | `end` |
-| `_REObjectAssgmt.REOnlyInfoAssgmt` | *Association* |
-| `_REObjectAssgmt.REStatusObjectSourceIsArchived` | *Association* |
-| `_REObjectAssgmt.REGenerationType` | *Association* |
-| `_REObjectAssgmt.REIsMainAsset` | *Association* |
-| `_REObjectAssgmt.REAssignmentHasMultiple` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionStartDate` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionEndDate` | *Association* |
-| `_REObjectAssgmt._REObjectTypeDetails` | *Association* |
-| `_REObjectAssgmt._REObjectAssignmentType` | *Association* |
-| `_REObjectAssgmt._REGenerationType` | *Association* |
-| `_REContract._CompanyCode` | *Association* |
+| `REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
+| `CompanyCode` | `_REContract.CompanyCode` |
+| `RealEstateContract` | `_REContract.RealEstateContract` |
+| `ValidityStartEndDateValue` | `cast(…)` |
+| `RealEstateUsableObjectUUID` | `_REUsableObject.RealEstateUsableObjectUUID` |
+| `ValidityStartDate` | `case…end` |
+| `REStatusObjectTarget` | `_REObjectAssgmt.REStatusObjectSource` |
+| `ValidityEndDate` | `case…end` |
+| `REOnlyInfoAssgmt` | `_REObjectAssgmt.REOnlyInfoAssgmt` |
+| `REStatusObjectSourceIsArchived` | `_REObjectAssgmt.REStatusObjectSourceIsArchived` |
+| `REGenerationType` | `_REObjectAssgmt.REGenerationType` |
+| `REIsMainAsset` | `_REObjectAssgmt.REIsMainAsset` |
+| `REAssignmentHasMultiple` | `_REObjectAssgmt.REAssignmentHasMultiple` |
+| `REObjectPossessionStartDate` | `_REObjectAssgmt.REObjectPossessionStartDate` |
+| `REObjectPossessionEndDate` | `_REObjectAssgmt.REObjectPossessionEndDate` |
+| `_REObjectTypeDetails` | *Association* |
+| `_REObjectAssignmentType` | *Association* |
+| `_REGenerationType` | *Association* |
+| `_CompanyCode` | *Association* |
 | `_REContract` | *Association* |
 | `_REUsableObjectData` | *Association* |
 

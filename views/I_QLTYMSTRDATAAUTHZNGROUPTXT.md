@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.7 }` |
-| `vdm_qmastauth_text preserving type )` | `cast( tq01e.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `QltyMstrDataAuthorizationGroup` | `tq01e.qmastauth` |
+| `Language` | `tq01e.spras` |
+| `QltyMstrDataAuthznGroupTxt` | `cast( tq01e.kurztext as vdm_qmastauth_text preserving type )` |
 | `_QltyMstrDataAuthorizationGrp` | *Association* |
 | `_Language` | *Association* |
 

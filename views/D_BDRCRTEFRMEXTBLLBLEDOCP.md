@@ -29,15 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceDocument : sdbil_odata_source_document; //Mandatory` | `ReferenceDocument : sdbil_odata_source_document; //Mandatory` |
-| `ReferenceDocSDDocCategory : sdbil_odata_src_doc_cat; //Mandatory` | `ReferenceDocSDDocCategory : sdbil_odata_src_doc_cat; //Mandatory` |
-| `_Item            : composition [1..*] of D_BDRCrteFrmExtBllbleDocItemP;` | *Association* |
-| `_Text            : association [0..*] to D_BDRCrteFrmExtTextP on 1 = 0;` | *Association* |
-| `_PaymentCard     : association [0..*] to D_BDRCrteFrmExtPaytCardP on 1 = 0;` | *Association* |
+| `ReferenceDocument` | `sdbil_odata_source_document` |
+| `ReferenceDocSDDocCategory` | `sdbil_odata_src_doc_cat` |
+| `_Item` | *Association* |
+| `_Text` | *Association* |
+| `_PaymentCard` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_BDRCrteFrmExtBllbleDocItemP` | [1..*] |
+| `_Text` | `D_BDRCrteFrmExtTextP` | [0..*] |
+| `_PaymentCard` | `D_BDRCrteFrmExtPaytCardP` | [0..*] |
 
 ## Source Code
 

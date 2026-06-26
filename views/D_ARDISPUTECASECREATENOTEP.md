@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `NoteContent    : nte_cont;` | `NoteContent    : nte_cont;` |
-| `_ChildToParent : association to parent D_ARDisputeCaseCreateP;` | *Association* |
+| `NoteContent` | `nte_cont` |
+| `_ChildToParent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ChildToParent` | `D_ARDisputeCaseCreateP` | — |
 
 ## Source Code
 

@@ -16,6 +16,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductSalesDelivery
 ---
 # I_PRODUCTSALESDELIVERY
 
@@ -32,8 +33,64 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
-| `_Product.BaseUnit` | *Association* |
+| `Product` | `cast (mvke.matnr as productnumber preserving type )` |
+| `ProductSalesOrg` | `mvke.vkorg` |
+| `ProductDistributionChnl` | `mvke.vtweg` |
+| `MinimumOrderQuantity` | `mvke.aumng` |
+| `SupplyingPlant` | `mvke.dwerk` |
+| `PriceSpecificationProductGroup` | `cast (mvke.kondm as pricespecificationproductgroup preserving type )` |
+| `AccountDetnProductGroup` | `mvke.ktgrm` |
+| `DeliveryNoteProcMinDelivQty` | `mvke.lfmng` |
+| `ItemCategoryGroup` | `mvke.mtpos` |
+| `DeliveryQuantityUnit` | `mvke.schme` |
+| `DeliveryQuantity` | `mvke.scmng` |
+| `ProductSalesStatus` | `mvke.vmsta` |
+| `ProductSalesStatusValidityDate` | `mvke.vmstd` |
+| `SalesMeasureUnit` | `mvke.vrkme` |
+| `IsMarkedForDeletion` | `mvke.lvorm` |
+| `ProductHierarchy` | `-- New Fields mvke.prodh` |
+| `FirstSalesSpecProductGroup` | `cast (mvke.mvgr1 as firstsalesspecproductgroup preserving type )` |
+| `SecondSalesSpecProductGroup` | `cast (mvke.mvgr2 as secondsalesspecproductgroup preserving type )` |
+| `ThirdSalesSpecProductGroup` | `cast (mvke.mvgr3 as thirdsalesspecproductgroup preserving type )` |
+| `FourthSalesSpecProductGroup` | `cast (mvke.mvgr4 as fourthsalesspecproductgroup preserving type )` |
+| `FifthSalesSpecProductGroup` | `cast (mvke.mvgr5 as fifthsalesspecproductgroup preserving type )` |
+| `MinimumMakeToOrderOrderQty` | `mvke.efmng` |
+| `LogisticsStatisticsGroup` | `mvke.versg` |
+| `VolumeRebateGroup` | `mvke.bonus` |
+| `ProductCommissionGroup` | `mvke.provg` |
+| `CashDiscountIsDeductible` | `mvke.sktof` |
+| `PricingReferenceProduct` | `mvke.pmatn` |
+| `AssortmentGrade` | `mvke.sstuf` |
+| `StoreListingProcedure` | `mvke.lstfl` |
+| `DistrCntrListingProcedure` | `mvke.lstvz` |
+| `StoreListingStartDate` | `cast(mvke.ldvfl as storelistingstartdate )` |
+| `StoreListingEndDate` | `cast(mvke.ldbfl as storelistingenddate )` |
+| `DistrCntrListingStartDate` | `cast(mvke.ldvzl as distrcntrlistingstartdate )` |
+| `DistrCntrListingEndDate` | `cast(mvke.ldbzl as distrcntrlistingenddate )` |
+| `StoreSaleStartDate` | `cast (mvke.vdvfl as storesalestartdate )` |
+| `StoreSaleEndDate` | `cast(mvke.vdbfl as storesaleenddate )` |
+| `DistrCntrSaleStartDate` | `cast (mvke.vdvzl as distrcntrsalestartdate )` |
+| `DistrCntrSaleEndDate` | `cast(mvke.vdbzl as distrcntrsaleenddate )` |
+| `RoundingProfile` | `mvke.rdprf` |
+| `ProductUnitGroup` | `mvke.megru` |
+| `MaxDeliveryQtyStoreOrder` | `mvke.lfmax` |
+| `PriceFixingCategory` | `mvke.pbind` |
+| `VariableSalesUnitIsNotAllowed` | `mvke.vavme` |
+| `CompetitionPressureCategory` | `mvke.matkc` |
+| `ProductHasAttributeID01` | `cast( mvke.prat1 as producthasattributeid01 preserving type )` |
+| `ProductHasAttributeID02` | `cast( mvke.prat2 as producthasattributeid02 preserving type )` |
+| `ProductHasAttributeID03` | `cast( mvke.prat3 as producthasattributeid03 preserving type )` |
+| `ProductHasAttributeID04` | `cast( mvke.prat4 as producthasattributeid04 preserving type )` |
+| `ProductHasAttributeID05` | `cast( mvke.prat5 as producthasattributeid05 preserving type )` |
+| `ProductHasAttributeID06` | `cast( mvke.prat6 as producthasattributeid06 preserving type )` |
+| `ProductHasAttributeID07` | `cast( mvke.prat7 as producthasattributeid07 preserving type )` |
+| `ProductHasAttributeID08` | `cast( mvke.prat8 as producthasattributeid08 preserving type )` |
+| `ProductHasAttributeID09` | `cast( mvke.prat9 as producthasattributeid09 preserving type )` |
+| `ProductHasAttributeID10` | `cast( mvke.prata as producthasattributeid10 preserving type )` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `ProdExtAssortmentPriority` | `mvke.pflks` |
+| `ProdIsEntlmntRlvt` | `mvke.is_entlmnt_rlvt` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |
@@ -107,8 +164,6 @@ tags:
 | `_CompetitionPressureCategoryT` | `I_CompetitionPressureCategoryT` | [0..*] |
 | `_MaterialStatisticsGroup` | `I_MaterialStatisticsGroup` | [0..1] |
 | `_MaterialStatisticsGroupText` | `I_MaterialStatisticsGroupText` | [0..*] |
-| `_LogisticalRoundingProfile` | `I_LogisticalRoundingProfile` | [0..1] |
-| `_LogisticalRoundingProfileT` | `I_LogisticalRoundingProfileT` | [0..*] |
 | `_ProductDescription_2` | `I_ProductDescription_2` | [0..*] |
 | `_PricingReferenceProduct` | `I_ProductDescription_2` | [0..*] |
 | `_BaseUnitOfMeasureText` | `I_UnitOfMeasureText` | [0..*] |

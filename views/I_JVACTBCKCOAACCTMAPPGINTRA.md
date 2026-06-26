@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:FromGLAccount
 ---
 # I_JVACTBCKCOAACCTMAPPGINTRA
 
@@ -29,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckCOAAcctMappgIntraBsc.JVAChartOfAccounts` | `JVACtbckCOAAcctMappgIntraBsc.JVAChartOfAccounts` |
-| `key JVACtbckCOAAcctMappgIntraBsc.FromGLAccount` | `JVACtbckCOAAcctMappgIntraBsc.FromGLAccount` |
-| `JVACtbckCOAAcctMappgIntraBsc.ToGLAccount` | `JVACtbckCOAAcctMappgIntraBsc.ToGLAccount` |
-| `JVACtbckCOAAcctMappgIntraBsc.CutbackAccount` | `JVACtbckCOAAcctMappgIntraBsc.CutbackAccount` |
-| `JVACtbckCOAAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` | `JVACtbckCOAAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` |
+| `JVAChartOfAccounts` | `JVACtbckCOAAcctMappgIntraBsc.JVAChartOfAccounts` |
+| `FromGLAccount` | `JVACtbckCOAAcctMappgIntraBsc.FromGLAccount` |
+| `ToGLAccount` | `JVACtbckCOAAcctMappgIntraBsc.ToGLAccount` |
+| `CutbackAccount` | `JVACtbckCOAAcctMappgIntraBsc.CutbackAccount` |
+| `JVAIsToKeepOriginalAccount` | `JVACtbckCOAAcctMappgIntraBsc.JVAIsToKeepOriginalAccount` |
 | `_ChartOfAccounts` | *Association* |
 | `_FromGLAccount` | *Association* |
 | `_ToGLAccount` | *Association* |

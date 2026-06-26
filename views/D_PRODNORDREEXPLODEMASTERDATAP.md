@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductionVersion : char4;` | `ProductionVersion : char4;` |
+| `ProductionVersion` | `char4` |
 
 ## Associations
 

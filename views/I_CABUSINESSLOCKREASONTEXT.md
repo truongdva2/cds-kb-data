@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusProc.CABusinessProcess` | `BusProc.CABusinessProcess` |
-| `CABusinessLockReason` | `InvocgLockRsnTxt.CAInvcgLockReason` |
-| `key InvocgLockRsnTxt.Language` | `InvocgLockRsnTxt.Language` |
-| `CABusinessLockReasonName` | `InvocgLockRsnTxt.CAInvcgLockReasonName` |
+| `CABusinessProcess` | `BusProc.CABusinessProcess` |
+| `CABusinessLockReason` | `DunLockRsnTxt.CADunningLockReason` |
+| `Language` | `DunLockRsnTxt.Language` |
+| `CABusinessLockReasonName` | `DunLockRsnTxt.CADunningLockReasonName` |
 | `_BusProcess` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,16 +42,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
 | `_BusProcess` | `I_CABusinessProcess` | [1..1] |
 | `_Language` | `I_Language` | [0..1] |
 

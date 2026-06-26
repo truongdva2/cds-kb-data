@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_PFMTransDataFootprint.PFMTransDataFootprintUUID` | `I_PFMTransDataFootprint.PFMTransDataFootprintUUID` |
-| `_PFMTransDataFootprintQty.PFMTransDataFootprintQtyUUID` | *Association* |
-| `_PFMTransDataFootprintQty.PFMFootprintQuantity` | *Association* |
-| `pfmfootprintquantity_quan)` | `cast (_PFMTransDataFootprintQty.PFMFootprintQuantity` |
-| `_PFMTransDataFootprintQty.PFMFootprintUnit` | *Association* |
-| `I_PFMTransDataFootprint.PFMTransDataFprntBusObjType` | `I_PFMTransDataFootprint.PFMTransDataFprntBusObjType` |
-| `_PFMTransDataFootprintQty._UnitOfMeasure` | *Association* |
+| `PFMTransDataFootprintUUID` | `I_PFMTransDataFootprint.PFMTransDataFootprintUUID` |
+| `PFMTransDataFootprintQtyUUID` | `_PFMTransDataFootprintQty.PFMTransDataFootprintQtyUUID` |
+| `PFMFootprintQuantity` | `_PFMTransDataFootprintQty.PFMFootprintQuantity` |
+| `PFMFootprintFxdPtDcmlQuantity` | `cast(…)` |
+| `PFMFootprintUnit` | `_PFMTransDataFootprintQty.PFMFootprintUnit` |
+| `PFMTransDataFprntBusObjType` | `I_PFMTransDataFootprint.PFMTransDataFprntBusObjType` |
+| `_UnitOfMeasure` | *Association* |
 | `_PFMTransDataCO2eqFprntGHGCat` | *Association* |
 
 ## Associations

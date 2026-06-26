@@ -30,52 +30,52 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `StockTransportOrder          : vdm_stocktransportorder;` | `StockTransportOrder          : vdm_stocktransportorder;` |
-| `AddressID                    : ad_addrnum;` | `AddressID                    : ad_addrnum;` |
-| `AddressPersonID              : ad_persnum;` | `AddressPersonID              : ad_persnum;` |
-| `AddressRepresentationCode    : ad_nation;` | `AddressRepresentationCode    : ad_nation;` |
-| `CorrespondenceLanguage       : spras;` | `CorrespondenceLanguage       : spras;` |
-| `PrfrdCommMediumType          : ad_comm;` | `PrfrdCommMediumType          : ad_comm;` |
-| `AddresseeFullName            : ad_namtext;` | `AddresseeFullName            : ad_namtext;` |
-| `OrganizationName1            : ad_name1;` | `OrganizationName1            : ad_name1;` |
-| `OrganizationName2            : ad_name2;` | `OrganizationName2            : ad_name2;` |
-| `OrganizationName3            : ad_name3;` | `OrganizationName3            : ad_name3;` |
-| `OrganizationName4            : ad_name4;` | `OrganizationName4            : ad_name4;` |
-| `AddressSearchTerm1           : ad_sort1;` | `AddressSearchTerm1           : ad_sort1;` |
-| `AddressSearchTerm2           : ad_sort2;` | `AddressSearchTerm2           : ad_sort2;` |
-| `CityName                     : ad_city1;` | `CityName                     : ad_city1;` |
-| `DistrictName                 : ad_city2;` | `DistrictName                 : ad_city2;` |
-| `VillageName                  : ad_city3;` | `VillageName                  : ad_city3;` |
-| `PostalCode                   : ad_pstcd1;` | `PostalCode                   : ad_pstcd1;` |
-| `CompanyPostalCode            : ad_pstcd3;` | `CompanyPostalCode            : ad_pstcd3;` |
-| `StreetName                   : ad_street;` | `StreetName                   : ad_street;` |
-| `StreetPrefixName1            : ad_strspp1;` | `StreetPrefixName1            : ad_strspp1;` |
-| `StreetPrefixName2            : ad_strspp2;` | `StreetPrefixName2            : ad_strspp2;` |
-| `StreetSuffixName1            : ad_strspp3;` | `StreetSuffixName1            : ad_strspp3;` |
-| `StreetSuffixName2            : ad_lctn;` | `StreetSuffixName2            : ad_lctn;` |
-| `HouseNumber                  : ad_hsnm1;` | `HouseNumber                  : ad_hsnm1;` |
-| `HouseNumberSupplementText    : ad_hsnm2;` | `HouseNumberSupplementText    : ad_hsnm2;` |
-| `Building                     : ad_bldng;` | `Building                     : ad_bldng;` |
-| `Floor                        : ad_floor;` | `Floor                        : ad_floor;` |
-| `RoomNumber                   : ad_roomnum;` | `RoomNumber                   : ad_roomnum;` |
-| `Country                      : land1;` | `Country                      : land1;` |
-| `Region                       : regio;` | `Region                       : regio;` |
-| `FormOfAddress                : ad_title;` | `FormOfAddress                : ad_title;` |
-| `TaxJurisdiction              : ad_txjcd;` | `TaxJurisdiction              : ad_txjcd;` |
-| `TransportZone                : lzone;` | `TransportZone                : lzone;` |
-| `POBox                        : ad_pobx;` | `POBox                        : ad_pobx;` |
-| `POBoxIsWithoutNumber         : ad_pobxnum;` | `POBoxIsWithoutNumber         : ad_pobxnum;` |
-| `POBoxPostalCode              : ad_pstcd2;` | `POBoxPostalCode              : ad_pstcd2;` |
-| `POBoxLobbyName               : ad_po_box_lby;` | `POBoxLobbyName               : ad_po_box_lby;` |
-| `POBoxDeviatingCityName       : ad_pobxloc;` | `POBoxDeviatingCityName       : ad_pobxloc;` |
-| `POBoxDeviatingRegion         : ad_pobxreg;` | `POBoxDeviatingRegion         : ad_pobxreg;` |
-| `POBoxDeviatingCountry        : ad_pobxcty;` | `POBoxDeviatingCountry        : ad_pobxcty;` |
-| `CareOfName                   : ad_name_co;` | `CareOfName                   : ad_name_co;` |
-| `DeliveryServiceTypeCode      : ad_delivery_service_type;` | `DeliveryServiceTypeCode      : ad_delivery_service_type;` |
-| `DeliveryServiceNumber        : ad_delivery_service_number;` | `DeliveryServiceNumber        : ad_delivery_service_number;` |
-| `AddressTimeZone              : ad_tzone;` | `AddressTimeZone              : ad_tzone;` |
-| `EmailAddress                 : ad_smtpadr;` | `EmailAddress                 : ad_smtpadr;` |
-| `RegionalStructureCheckStatus : ad_checkst;` | `RegionalStructureCheckStatus : ad_checkst;` |
+| `StockTransportOrder` | `vdm_stocktransportorder` |
+| `AddressID` | `ad_addrnum` |
+| `AddressPersonID` | `ad_persnum` |
+| `AddressRepresentationCode` | `ad_nation` |
+| `CorrespondenceLanguage` | `spras` |
+| `PrfrdCommMediumType` | `ad_comm` |
+| `AddresseeFullName` | `ad_namtext` |
+| `OrganizationName1` | `ad_name1` |
+| `OrganizationName2` | `ad_name2` |
+| `OrganizationName3` | `ad_name3` |
+| `OrganizationName4` | `ad_name4` |
+| `AddressSearchTerm1` | `ad_sort1` |
+| `AddressSearchTerm2` | `ad_sort2` |
+| `CityName` | `ad_city1` |
+| `DistrictName` | `ad_city2` |
+| `VillageName` | `ad_city3` |
+| `PostalCode` | `ad_pstcd1` |
+| `CompanyPostalCode` | `ad_pstcd3` |
+| `StreetName` | `ad_street` |
+| `StreetPrefixName1` | `ad_strspp1` |
+| `StreetPrefixName2` | `ad_strspp2` |
+| `StreetSuffixName1` | `ad_strspp3` |
+| `StreetSuffixName2` | `ad_lctn` |
+| `HouseNumber` | `ad_hsnm1` |
+| `HouseNumberSupplementText` | `ad_hsnm2` |
+| `Building` | `ad_bldng` |
+| `Floor` | `ad_floor` |
+| `RoomNumber` | `ad_roomnum` |
+| `Country` | `land1` |
+| `Region` | `regio` |
+| `FormOfAddress` | `ad_title` |
+| `TaxJurisdiction` | `ad_txjcd` |
+| `TransportZone` | `lzone` |
+| `POBox` | `ad_pobx` |
+| `POBoxIsWithoutNumber` | `ad_pobxnum` |
+| `POBoxPostalCode` | `ad_pstcd2` |
+| `POBoxLobbyName` | `ad_po_box_lby` |
+| `POBoxDeviatingCityName` | `ad_pobxloc` |
+| `POBoxDeviatingRegion` | `ad_pobxreg` |
+| `POBoxDeviatingCountry` | `ad_pobxcty` |
+| `CareOfName` | `ad_name_co` |
+| `DeliveryServiceTypeCode` | `ad_delivery_service_type` |
+| `DeliveryServiceNumber` | `ad_delivery_service_number` |
+| `AddressTimeZone` | `ad_tzone` |
+| `EmailAddress` | `ad_smtpadr` |
+| `RegionalStructureCheckStatus` | `ad_checkst` |
 
 ## Associations
 

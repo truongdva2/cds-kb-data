@@ -32,8 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'Currency'} }` | `currencyCode: 'Currency'} }` |
-| `CashDiscountBaseAmount     : wskto;` | `CashDiscountBaseAmount     : wskto;` |
+| `CurrencyRole` | `curtp` |
+| `Currency` | `waers` |
+| `ExchangeRate` | `ukursp` |
+| `IndirectQuotedExchangeRate` | `ukursm` |
+| `JournalEntryItemAmount` | `wrbtr` |
+| `TaxAmount` | `wmwst` |
+| `TaxBaseAmount` | `fwbas` |
+| `CashDiscountBaseAmount` | `wskto` |
 
 ## Associations
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-JVA
   - lob:Cross-Application Components
+  - bo:JVAFromOrder
 ---
 # I_JVACTBCKORDMAPPGINTER
 
@@ -29,15 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckOrdMappgInterBsc.CompanyCode` | `JVACtbckOrdMappgInterBsc.CompanyCode` |
-| `key JVACtbckOrdMappgInterBsc.JntVntrIntcoCode` | `JVACtbckOrdMappgInterBsc.JntVntrIntcoCode` |
-| `key JVACtbckOrdMappgInterBsc.JVAFromOrder` | `JVACtbckOrdMappgInterBsc.JVAFromOrder` |
-| `JVACtbckOrdMappgInterBsc.JVARangeToOrder` | `JVACtbckOrdMappgInterBsc.JVARangeToOrder` |
-| `JVACtbckOrdMappgInterBsc.JVACutbackCostCenter` | `JVACtbckOrdMappgInterBsc.JVACutbackCostCenter` |
-| `JVACtbckOrdMappgInterBsc.JVACutbackOrder` | `JVACtbckOrdMappgInterBsc.JVACutbackOrder` |
-| `JVACtbckOrdMappgInterBsc.JVACutbackWBS` | `JVACtbckOrdMappgInterBsc.JVACutbackWBS` |
-| `_CutbackWBSElement.WBSElementExternalID as JVACutbackWBSExt` | *Association* |
-| `_InterCompanyCompanyCode.ControllingArea as JVAInterCompanyControllingArea` | *Association* |
+| `CompanyCode` | `JVACtbckOrdMappgInterBsc.CompanyCode` |
+| `JntVntrIntcoCode` | `JVACtbckOrdMappgInterBsc.JntVntrIntcoCode` |
+| `JVAFromOrder` | `JVACtbckOrdMappgInterBsc.JVAFromOrder` |
+| `JVARangeToOrder` | `JVACtbckOrdMappgInterBsc.JVARangeToOrder` |
+| `JVACutbackCostCenter` | `JVACtbckOrdMappgInterBsc.JVACutbackCostCenter` |
+| `JVACutbackOrder` | `JVACtbckOrdMappgInterBsc.JVACutbackOrder` |
+| `JVACutbackWBS` | `JVACtbckOrdMappgInterBsc.JVACutbackWBS` |
+| `JVACutbackWBSExt` | `_CutbackWBSElement.WBSElementExternalID` |
+| `JVAInterCompanyControllingArea` | `_InterCompanyCompanyCode.ControllingArea` |
 | `_CompanyCode` | *Association* |
 | `_InterCompanyCompanyCode` | *Association* |
 | `_JVAFromOrder` | *Association* |

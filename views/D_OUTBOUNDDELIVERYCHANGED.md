@@ -14,6 +14,7 @@ tags:
   - delivery
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:OutboundDelivery
 ---
 # D_OUTBOUNDDELIVERYCHANGED
 
@@ -30,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType : lfart;` | `DeliveryDocumentType : lfart;` |
-| `SalesOrganization    : vkorg;` | `SalesOrganization    : vkorg;` |
-| `SDDocumentCategory   : vbtypl;` | `SDDocumentCategory   : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_wbsint_no_conv preserving type)` | `cast (ps_psp_pnr` |
+| `WBSElementInternalID` | `cast (ps_psp_pnr as fis_wbsint_no_conv preserving type)` |
 | `ValidityStartDate` | `valid_from` |
 | `ValidityEndDate` | `valid_to` |
 | `ControllingArea` | `kokrs` |
@@ -45,8 +45,8 @@ tags:
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
 | `SourceWBSElementInternalID` | `srce_ps_psp_pnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
-| `_SourceWBSElement.WBSElementExternalID                  as SourceWBSElementExternalID` | *Association* |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
+| `SourceWBSElementExternalID` | `_SourceWBSElement.WBSElementExternalID` |
 | `_OrglChgReassignmentStatus` | *Association* |
 | `_ProfitCtrDerivationSrceType` | *Association* |
 | `_WBSElement` | *Association* |

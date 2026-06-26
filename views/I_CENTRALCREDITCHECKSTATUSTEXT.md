@@ -18,6 +18,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:CentralCreditCheckStatus
 ---
 # I_CENTRALCREDITCHECKSTATUSTEXT
 
@@ -42,7 +43,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CentralCreditCheckStatus` | `I_CentralCreditCheckStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

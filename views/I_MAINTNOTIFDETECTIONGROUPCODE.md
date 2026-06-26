@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintNotifDetectionCode
 ---
 # I_MAINTNOTIFDETECTIONGROUPCODE
 
@@ -32,8 +33,8 @@ tags:
 |---|---|
 | `MaintNotifDetectionCodeGroup` | `eam_detgrpcode.detectioncodegroup` |
 | `MaintNotifDetectionCode` | `eam_detgrpcode.detectioncode` |
-| `_DetectionCodeText[1:Language=$session.system_language].MaintNotifDetectionCodeText        as MaintNotifDetectionCodeText` | *Association* |
-| `_DetectionCodeGroupText[1:Language=$session.system_language].MaintNotifDetectionCodeGrpTxt as MaintNotifDetectionCodeGrpTxt` | *Association* |
+| `MaintNotifDetectionCodeText` | `expr(…)` |
+| `MaintNotifDetectionCodeGrpTxt` | `expr(…)` |
 | `_DetectionCode` | *Association* |
 | `_DetectionCodeGroup` | *Association* |
 | `_DetectionCodeText` | *Association* |

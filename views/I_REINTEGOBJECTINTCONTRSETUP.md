@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:RE-FX-IP-2CL
   - lob:Other
+  - bo:REContractType
 ---
 # I_REINTEGOBJECTINTCONTRSETUP
 

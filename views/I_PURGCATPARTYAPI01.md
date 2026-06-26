@@ -29,27 +29,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurgCatPartyUUID` | `PurgCatPartyUUID` |
+| `PurgCatPartyUUID` | `PurgCatPartyUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `SLCParty` | `SLCParty` |
 | `SLCPartyType` | `SLCPartyType` |
 | `SLCPartyRole` | `SLCPartyRole` |
 | `SLCPartyIdentifierType` | `SLCPartyIdentifierType` |
 | `EmailAddress` | `EmailAddress` |
-| `I_BusinessPartner.AuthorizationGroup` | `I_BusinessPartner.AuthorizationGroup` |
-| `I_BusinessPartner.DataController1` | `I_BusinessPartner.DataController1` |
-| `I_BusinessPartner.DataController2` | `I_BusinessPartner.DataController2` |
-| `I_BusinessPartner.DataController3` | `I_BusinessPartner.DataController3` |
-| `I_BusinessPartner.DataController4` | `I_BusinessPartner.DataController4` |
-| `I_BusinessPartner.DataController5` | `I_BusinessPartner.DataController5` |
-| `I_BusinessPartner.DataController6` | `I_BusinessPartner.DataController6` |
-| `I_BusinessPartner.DataController7` | `I_BusinessPartner.DataController7` |
-| `I_BusinessPartner.DataController8` | `I_BusinessPartner.DataController8` |
-| `I_BusinessPartner.DataController9` | `I_BusinessPartner.DataController9` |
-| `I_BusinessPartner.DataController10` | `I_BusinessPartner.DataController10` |
-| `I_BusinessPartner.DataControllerSet` | `I_BusinessPartner.DataControllerSet` |
-| `I_BusinessPartner.BusinessPartner` | `I_BusinessPartner.BusinessPartner` |
-| `I_BusinessPartner.IsBusinessPurposeCompleted` | `I_BusinessPartner.IsBusinessPurposeCompleted` |
+| `AuthorizationGroup` | `I_BusinessPartner.AuthorizationGroup` |
+| `DataController1` | `I_BusinessPartner.DataController1` |
+| `DataController2` | `I_BusinessPartner.DataController2` |
+| `DataController3` | `I_BusinessPartner.DataController3` |
+| `DataController4` | `I_BusinessPartner.DataController4` |
+| `DataController5` | `I_BusinessPartner.DataController5` |
+| `DataController6` | `I_BusinessPartner.DataController6` |
+| `DataController7` | `I_BusinessPartner.DataController7` |
+| `DataController8` | `I_BusinessPartner.DataController8` |
+| `DataController9` | `I_BusinessPartner.DataController9` |
+| `DataController10` | `I_BusinessPartner.DataController10` |
+| `DataControllerSet` | `I_BusinessPartner.DataControllerSet` |
+| `BusinessPartner` | `I_BusinessPartner.BusinessPartner` |
+| `IsBusinessPurposeCompleted` | `I_BusinessPartner.IsBusinessPurposeCompleted` |
 
 ## Associations
 

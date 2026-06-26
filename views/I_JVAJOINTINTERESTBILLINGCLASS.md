@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'JIB/JIBE Subclass' , quickInfo: 'JIB/JIBE Subclass' }` | `label: 'JIB/JIBE Subclass' , quickInfo: 'JIB/JIBE Subclass' }` |
+| `CompanyCode` | `bukrs` |
+| `JVAJointInterestBillingClass` | `class` |
 | `JVAJointInterestBillgSubClass` | `subclass` |
 
 ## Associations

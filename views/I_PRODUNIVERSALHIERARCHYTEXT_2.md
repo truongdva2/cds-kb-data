@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `text.spras` |
-| `prod_hier_id )` | `cast(substring(text.hryid, 6, 26 )` |
+| `ProdUnivHierarchy` | `cast(substring(text.hryid, 6, 26 ) as prod_hier_id )` |
 | `ProdHierarchyValidityEndDate` | `text.hryvalto` |
 | `ProdHierarchyValidityStartDate` | `text.hryvalfrom` |
 | `ProdUnivHierarchyText` | `hrytxt` |

@@ -30,20 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `_PurchaseRequisitionItem.ProcmtHubPurchaseRequisition                                                         as ProcmtHubPurchaseRequisition` | *Association* |
-| `_PurchaseRequisitionItem.ProcmtHubPurRequisitionItem                                                          as ProcmtHubPurRequisitionItem` | *Association* |
-| `_PurchaseRequisitionItem.ProcmtHubPurRequisitionType                                                          as ProcmtHubPurRequisitionType` | *Association* |
-| `_PurchaseRequisitionItem.ProcurementHubSourceSystem                                                           as ProcurementHubSourceSystem` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_PurchaseRequisitionItem.ProcmtHubSupplier` | *Association* |
-| `_User.UserDescription                                                                                         as CreatedByUserDescription` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReason` | *Association* |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReasonText` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `ProcmtHubPurchaseRequisition` | `_PurchaseRequisitionItem.ProcmtHubPurchaseRequisition` |
+| `ProcmtHubPurRequisitionItem` | `_PurchaseRequisitionItem.ProcmtHubPurRequisitionItem` |
+| `ProcmtHubPurRequisitionType` | `_PurchaseRequisitionItem.ProcmtHubPurRequisitionType` |
+| `ProcurementHubSourceSystem` | `_PurchaseRequisitionItem.ProcurementHubSourceSystem` |
+| `PrmtHbWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCTme` | `cast(…)` |
+| `ProcmtHubSupplier` | `_PurchaseRequisitionItem.ProcmtHubSupplier` |
+| `CreatedByUserDescription` | `_User.UserDescription` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `WorkflowTaskResultReason` | `expr(…)` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
 
 ## Associations
 

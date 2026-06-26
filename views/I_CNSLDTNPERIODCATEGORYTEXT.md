@@ -32,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_periodcategory_txt preserving type )` | `cast(txt` |
+| `ConsolidationPeriodCategory` | `cast( pertp as fincs_periodcategory preserving type )` |
+| `Language` | `langu` |
+| `CnsldtnPeriodCategoryText` | `cast(txt as fincs_periodcategory_txt preserving type )` |
 | `_CnsldtnPeriodCategory` | *Association* |
 | `_Language` | *Association* |
 

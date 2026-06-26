@@ -15,6 +15,7 @@ tags:
   - treasury
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryValuationArea
 ---
 # I_TREASURYVALUATIONAREA
 
@@ -31,16 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
-| `ftr_gen_valuation_area_name preserving type)` | `cast(TreasuryValuationArea.val_area_name` |
+| `TreasuryValuationArea` | `TreasuryValuationArea.valuation_area` |
+| `TreasuryValuationAreaName` | `cast(…)` |
 | `ValuationAreaIsPaying` | `TreasuryValuationArea.paying_val_area` |
 | `AccountingPrinciple` | `TreasuryValuationArea.acc_principle` |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_AccountingPrinciple` | `I_AccountingPrinciple` | [0..1] |
+> No associations found.
 
 ## Source Code
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `corrcat_gfn_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,2 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `corrcat_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAInvcgCorrectionCategory` | `cast ( substring( dd07t.domvalue_l,1,2 ) as corrcat_gfn_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAInvcgCorrectionCatText` | `cast ( ddtext as corrcat_txt_gfn_kk preserving type )` |
 | `_CAInvcgCorrectionCat` | *Association* |
 | `_Language` | *Association* |
 

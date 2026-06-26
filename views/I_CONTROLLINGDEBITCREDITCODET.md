@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ControllingDebitCreditCode
 ---
 # I_CONTROLLINGDEBITCREDITCODET
 
@@ -32,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ControllingDebitCreditCode` | `substring(domvalue_l, 1, 1)` |
-| `spras preserving type )` | `cast(ddlanguage` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
 | `ControllingDebitCreditCodeName` | `ddtext` |
 | `_Language` | *Association* |
 

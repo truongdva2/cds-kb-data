@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPGroup
 ---
 # I_MRPGROUPCONTROLPARAMETER
 
@@ -32,21 +33,21 @@ tags:
 | `MRPGroup` | `mtart` |
 | `MRPPlant` | `werks` |
 | `PlanningStrategyGroup` | `strgr` |
-| `vdm_umthz preserving type)` | `cast(umthz` |
-| `vdm_plahz preserving type)` | `cast(plahz` |
+| `ReschedulingHorizonInWorkdays` | `cast(umthz as vdm_umthz preserving type)` |
+| `PlanningHorizonInWorkdays` | `cast(plahz as vdm_plahz preserving type)` |
 | `PlanningTimeFenceInDays` | `fixhz` |
 | `ScheduleLinesCreationCode` | `lifkz` |
-| `bmg_prreg preserving type)` | `cast(prreg` |
-| `/sapapo/vrmod preserving type)` | `cast(vrmod` |
-| `vdm_vint1 preserving type)` | `cast(vint1` |
-| `vdm_vint2 preserving type)` | `cast(vint2` |
-| `vdm_andis preserving type)` | `cast(andis` |
+| `ATPCheckingRule` | `cast(prreg as bmg_prreg preserving type)` |
+| `ProdRqmtsConsumptionMode` | `cast(vrmod as /sapapo/vrmod preserving type)` |
+| `BackwardCnsmpnPeriodInWorkDays` | `cast(vint1 as vdm_vint1 preserving type)` |
+| `FwdConsumptionPeriodInWorkDays` | `cast(vint2 as vdm_vint2 preserving type)` |
+| `NmbrOfDaysAfterMatlMustBePlnd` | `cast(andis as vdm_andis preserving type)` |
 | `OrderType` | `auart` |
-| `pph_shflg preserving type)` | `cast(shflg` |
+| `ProductSafetyTimeMRPRelevance` | `cast(shflg as pph_shflg preserving type)` |
 | `SafetyTimeInWorkDays` | `shzet` |
 | `PlndOrdProcessingActionControl` | `mdach` |
-| `vdm_rvpkz preserving type)` | `cast(rvpkz` |
-| `vdm_resvp preserving type)` | `cast(resvp` |
+| `PlndIndepRqmtAdjustment` | `-- cast(rvpkz as vdm_rvpkz preserving type)` |
+| `PlndIndepRqmtAdjmtTimePeriod` | `cast(resvp as vdm_resvp preserving type)` |
 | `PurReqnHandoverIsRequired` | `preqapproval` |
 | `_MRPPlant` | *Association* |
 | `_MRPGroup` | *Association* |

@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FinancialServicesBranch` | `_Text.FinancialServicesBranch` |
-| `_Text.FinancialServicesBranchName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_FinancialServicesBranch as _FinancialServicesBranch : redirected to parent I_CnsldtnFinServicesBranchTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FinancialServicesBranch` | `_Text.FinancialServicesBranch` |
+| `FinancialServicesBranchName` | `_Text.FinancialServicesBranchName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_FinancialServicesBranch` | *Association* |
 
 ## Associations
 

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ModProdSpecItemType         : mmpur_mps_item_type;` | `ModProdSpecItemType         : mmpur_mps_item_type;` |
-| `ModProdSpecSelectedItemUUID : mmpur_mps_selected_item_uuid;` | `ModProdSpecSelectedItemUUID : mmpur_mps_selected_item_uuid;` |
-| `ModProdSpecItemIsSubitem    : mmpur_mps_item_is_subitem;` | `ModProdSpecItemIsSubitem    : mmpur_mps_item_is_subitem;` |
+| `ModProdSpecItemType` | `mmpur_mps_item_type` |
+| `ModProdSpecSelectedItemUUID` | `mmpur_mps_selected_item_uuid` |
+| `ModProdSpecItemIsSubitem` | `mmpur_mps_item_is_subitem` |
 
 ## Associations
 

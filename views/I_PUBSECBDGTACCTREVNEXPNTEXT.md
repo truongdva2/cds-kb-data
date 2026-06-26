@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `key cast( cast ( substring( dd07t.domvalue_l, 1, 1 )` | `cast( cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `psm_bdgt_acct_rev_or_exp preserving type )` | `as abap.char( 1 ) )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PubSecBdgtAcctRevnExpnCode` | `cast(…)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `psm_bdgt_acct_rev_or_exp_text preserving type )` | `cast ( dd07t.ddtext` |
+| `PubSecBdgtAcctRevnExpnCodeText` | `cast ( dd07t.ddtext as psm_bdgt_acct_rev_or_exp_text preserving type )` |
 | `_PubSecBdgtAcctRevnExpnCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PubSecBdgtAcctRevnExpnCode` | `I_PubSecBdgtAcctRevnExpnCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

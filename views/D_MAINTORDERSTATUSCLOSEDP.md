@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MaintOrderReferenceDateTime    : timestamp;` | `MaintOrderReferenceDateTime    : timestamp;` |
-| `AssignedMaintNotifIsToBeClosed : abap_boolean;` | `AssignedMaintNotifIsToBeClosed : abap_boolean;` |
+| `MaintOrderReferenceDateTime` | `timestamp` |
+| `AssignedMaintNotifIsToBeClosed` | `abap_boolean` |
 
 ## Associations
 

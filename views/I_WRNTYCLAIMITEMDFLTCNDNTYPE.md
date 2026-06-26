@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:LO-WTY-FIO
   - lob:Logistics General
+  - bo:WarrantyClaim
 ---
 # I_WRNTYCLAIMITEMDFLTCNDNTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WrntyControllingItemType` | `WrntyControllingItemType` |
+| `WrntyControllingItemType` | `WrntyControllingItemType` |
 | `MatlItmCndnTypeInbFrmRmbsr` | `MatlItmCndnTypeInbFrmRmbsr` |
 | `MatlItmCndnTypeOutbToRmbsr` | `MatlItmCndnTypeOutbToRmbsr` |
 | `LabItmCndnTypeInbFrmRmbsr` | `LabItmCndnTypeInbFrmRmbsr` |

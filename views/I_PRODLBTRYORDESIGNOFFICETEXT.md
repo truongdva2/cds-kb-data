@@ -16,6 +16,7 @@ tags:
   - text
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:LaboratoryOrDesignOffice
 ---
 # I_PRODLBTRYORDESIGNOFFICETEXT
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type  )` | `cast( spras` |
-| `labor preserving type )` | `cast( labor` |
+| `Language` | `cast( spras as spras preserving type )` |
+| `LaboratoryOrDesignOffice` | `cast( labor as labor preserving type )` |
 | `LaboratoryOrDesignOfficeName` | `lbtxt` |
 | `_Language` | *Association* |
 | `_LabOffice` | *Association* |

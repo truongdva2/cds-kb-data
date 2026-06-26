@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `_Text[1: Language=$session.system_language].ProductName` | *Association* |
+| `Product` | `Product` |
+| `ProductName` | `_Text[1: Language=$session.system_language].ProductName` |
 
 ## Associations
 

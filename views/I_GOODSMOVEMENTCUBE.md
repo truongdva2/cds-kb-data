@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key MaterialDocumentRecordType` | `MaterialDocumentRecordType` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentRecordType` | `MaterialDocumentRecordType` |
 | `Plant` | `Plant` |
 | `StorageLocation` | `StorageLocation` |
 | `Material` | `Material` |
@@ -47,8 +47,8 @@ tags:
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `MaterialBaseUnit` | `MaterialBaseUnit` |
 | `IsReversalMovementType` | `IsReversalMovementType` |
-| `I_AugmentedGoodsMovement._Material.MaterialGroup` | `I_AugmentedGoodsMovement._Material.MaterialGroup` |
-| `I_AugmentedGoodsMovement._Material.MaterialType` | `I_AugmentedGoodsMovement._Material.MaterialType` |
+| `MaterialGroup` | `I_AugmentedGoodsMovement._Material.MaterialGroup` |
+| `MaterialType` | `I_AugmentedGoodsMovement._Material.MaterialType` |
 | `IssuingOrReceivingPlant` | `IssuingOrReceivingPlant` |
 | `IssuingOrReceivingStorageLoc` | `IssuingOrReceivingStorageLoc` |
 | `IssgOrRcvgMaterial` | `IssgOrRcvgMaterial` |
@@ -83,12 +83,12 @@ tags:
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `ManufacturingOrder` | `ManufacturingOrder` |
 | `ManufacturingOrderItem` | `ManufacturingOrderItem` |
-| `I_AugmentedGoodsMovement._PurchaseOrder.PurchasingGroup` | `I_AugmentedGoodsMovement._PurchaseOrder.PurchasingGroup` |
-| `nsdm_ekorg preserving type)` | `cast(I_AugmentedGoodsMovement._PurchaseOrder.PurchasingOrganization` |
-| `I_AugmentedGoodsMovement._SalesOrder.SalesOrganization` | `I_AugmentedGoodsMovement._SalesOrder.SalesOrganization` |
-| `I_AugmentedGoodsMovement._SalesOrder.DistributionChannel` | `I_AugmentedGoodsMovement._SalesOrder.DistributionChannel` |
-| `nsdm_sales_division preserving type)` | `cast(I_AugmentedGoodsMovement._SalesOrder.OrganizationDivision` |
-| `I_AugmentedGoodsMovement._SalesOrder.SalesGroup` | `I_AugmentedGoodsMovement._SalesOrder.SalesGroup` |
+| `PurchasingGroup` | `I_AugmentedGoodsMovement._PurchaseOrder.PurchasingGroup` |
+| `PurchasingOrganization` | `cast(…)` |
+| `SalesOrganization` | `I_AugmentedGoodsMovement._SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `I_AugmentedGoodsMovement._SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `cast(…)` |
+| `SalesGroup` | `I_AugmentedGoodsMovement._SalesOrder.SalesGroup` |
 | `GoodsMovementType` | `GoodsMovementType` |
 | `GoodsMovementReasonCode` | `GoodsMovementReasonCode` |
 | `InventoryValuationType` | `InventoryValuationType` |
@@ -97,7 +97,7 @@ tags:
 | `AccountAssignmentCategory` | `AccountAssignmentCategory` |
 | `CostObject` | `CostObject` |
 | `CostCenter` | `CostCenter` |
-| `ControllingArea, // required to fulfill requirement to expose the full key (for cost center association)` | `ControllingArea, // required to fulfill requirement to expose the full key (for cost center association)` |
+| `ControllingArea` | `ControllingArea` |
 | `ProfitabilitySegment` | `ProfitabilitySegment` |
 | `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
 | `ProfitCenter` | `ProfitCenter` |
@@ -121,17 +121,17 @@ tags:
 | `GoodsReceiptAmountInCoCodeCrcy` | `GoodsReceiptAmountInCoCodeCrcy` |
 | `MatlStkChangeQtyInBaseUnit` | `MatlStkChangeQtyInBaseUnit` |
 | `MatlCnsmpnQtyInMatlBaseUnit` | `MatlCnsmpnQtyInMatlBaseUnit` |
-| `nsdm_min_cons_qty preserving type)` | `cast( abs(MatlCnsmpnQtyInMatlBaseUnit)` |
-| `nsdm_max_cons_qty preserving type)` | `cast( abs(MatlCnsmpnQtyInMatlBaseUnit)` |
+| `MinCnsmpnQtyInBaseUnit` | `cast( abs(MatlCnsmpnQtyInMatlBaseUnit) as nsdm_min_cons_qty preserving type)` |
+| `MaxCnsmpnQtyInBaseUnit` | `cast( abs(MatlCnsmpnQtyInMatlBaseUnit) as nsdm_max_cons_qty preserving type)` |
 | `GoodsIssueQtyInBaseUnit` | `GoodsIssueQtyInBaseUnit` |
-| `nsdm_min_gi_qty preserving type)` | `cast( abs(GoodsIssueQtyInBaseUnit)` |
-| `nsdm_max_gi_qty preserving type)` | `cast( abs(GoodsIssueQtyInBaseUnit)` |
+| `MinGoodsIssueQtyInBaseUnit` | `cast( abs(GoodsIssueQtyInBaseUnit) as nsdm_min_gi_qty preserving type)` |
+| `MaxGoodsIssueQtyInBaseUnit` | `cast( abs(GoodsIssueQtyInBaseUnit) as nsdm_max_gi_qty preserving type)` |
 | `GoodsReceiptQtyInBaseUnit` | `GoodsReceiptQtyInBaseUnit` |
-| `nsdm_min_gr_qty preserving type)` | `cast( abs(GoodsReceiptQtyInBaseUnit)` |
-| `nsdm_max_gr_qty preserving type)` | `cast( abs(GoodsReceiptQtyInBaseUnit)` |
+| `MinGoodsRcptQtyInBaseUnit` | `cast( abs(GoodsReceiptQtyInBaseUnit) as nsdm_min_gr_qty preserving type)` |
+| `MaxGoodsRcptQtyInBaseUnit` | `cast( abs(GoodsReceiptQtyInBaseUnit) as nsdm_max_gr_qty preserving type)` |
 | `TotalGdsMvtQtyInBaseUnit` | `TotalGdsMvtQtyInBaseUnit` |
-| `nsdm_first_mvt_posting_date preserving type)` | `cast ( PostingDate` |
-| `nsdm_last_mvt_posting_date preserving type)` | `cast ( PostingDate` |
+| `FirstGoodsMovementPostingDate` | `cast ( PostingDate as nsdm_first_mvt_posting_date preserving type)` |
+| `LastGoodsMovementPostingDate` | `cast ( PostingDate as nsdm_last_mvt_posting_date preserving type)` |
 | `IsStorLocAuthznCheckActive` | `IsStorLocAuthznCheckActive` |
 | `IsIssgOrRcvgStorLocAuthChkActv` | `IsIssgOrRcvgStorLocAuthChkActv` |
 | `_Plant` | *Association* |

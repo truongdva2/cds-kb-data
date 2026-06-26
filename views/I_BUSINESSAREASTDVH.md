@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:BusinessArea
 ---
 # I_BUSINESSAREASTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessArea` | `BusinessArea` |
+| `BusinessArea` | `BusinessArea` |
 | `_Text` | *Association* |
 
 ## Associations

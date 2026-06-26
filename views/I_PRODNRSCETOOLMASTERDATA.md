@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceInternalID
 ---
 # I_PRODNRSCETOOLMASTERDATA
 
@@ -30,38 +31,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productionresourcetype preserving type)` | `cast(crfh.objty` |
-| `pph_fhmid preserving type)` | `cast(crfh.objid` |
+| `ProductionResourceType` | `cast(crfh.objty as productionresourcetype preserving type)` |
+| `ProductionResourceInternalID` | `cast(crfh.objid as pph_fhmid preserving type)` |
 | `ProdnRsceToolCategory` | `crfh.fhmar` |
-| `mpe_fhmar preserving type)` | `cast(crfh.fhmar` |
+| `ProdnRsceToolCategory_2` | `cast(crfh.fhmar as mpe_fhmar preserving type)` |
 | `ProductionResourceToolGroup1` | `crfh.fgru1` |
 | `ProductionResourceToolGroup2` | `crfh.fgru2` |
 | `ProductionResourceUsage` | `crfh.planv` |
 | `MiscPRTAuthorizationGroup` | `crfh.brgru` |
 | `ProdnRsceToolControlProfile` | `crfh.steuf` |
-| `changenumber preserving type)` | `cast(crfh.aennr` |
+| `ChangeNumber` | `cast(crfh.aennr as changenumber preserving type)` |
 | `ProdnRsceToolStandardTextCode` | `crfh.ktsch` |
 | `ProdnRsceToolTotQtyCalcFormula` | `crfh.mgform` |
 | `ProdnRsceToolUsageQtyCalcFmla` | `crfh.ewform` |
 | `ProdnRsceToolBaseUnit` | `crfh.baseh` |
 | `CreationDate` | `crfh.andat` |
-| `vdm_createdbyuserid preserving type)` | `cast(crfh.annam` |
+| `CreatedByUser` | `cast(crfh.annam as vdm_createdbyuserid preserving type)` |
 | `LastChangeDate` | `crfh.aedat` |
 | `LastChangedByUser` | `crfh.aenam` |
-| `startdateoffsetreferencecode preserving type)` | `cast(crfh.bzoffb` |
-| `startdateoffsetduration preserving type)` | `cast(crfh.offstb` |
+| `StartDateOffsetReferenceCode` | `cast(crfh.bzoffb as startdateoffsetreferencecode preserving type)` |
+| `StartDateOffsetDuration` | `cast(crfh.offstb as startdateoffsetduration preserving type)` |
 | `StartDateOffsetDurationUnit` | `crfh.ehoffb` |
-| `enddateoffsetreferencecode preserving type)` | `cast(crfh.bzoffe` |
-| `enddateoffsetduration preserving type)` | `cast(crfh.offste` |
+| `EndDateOffsetReferenceCode` | `cast(crfh.bzoffe as enddateoffsetreferencecode preserving type)` |
+| `EndDateOffsetDuration` | `cast(crfh.offste as enddateoffsetduration preserving type)` |
 | `EndDateOffsetDurationUnit` | `crfh.ehoffe` |
-| `vdm_oekzr preserving type)` | `cast(crfh.offste_ref` |
-| `vdm_obkzr preserving type)` | `cast(crfh.offstb_ref` |
-| `vdm_bekzr preserving type)` | `cast(crfh.bzoffe_ref` |
-| `vdm_bbkzr preserving type)` | `cast(crfh.bzoffb_ref` |
-| `vdm_mfkzr preserving type)` | `cast(crfh.mgform_ref` |
-| `vdm_efkzr preserving type)` | `cast(crfh.ewform_ref` |
-| `vdm_stkzr preserving type)` | `cast(crfh.steuf_ref` |
-| `vdm_ktkzr preserving type)` | `cast(crfh.ktsch_ref` |
+| `EndDateOffsetDurnIsReferenced` | `cast(crfh.offste_ref as vdm_oekzr preserving type)` |
+| `StartDateOffstDurnIsReferenced` | `cast(crfh.offstb_ref as vdm_obkzr preserving type)` |
+| `EndDteOffstRefCodeIsReferenced` | `cast(crfh.bzoffe_ref as vdm_bekzr preserving type)` |
+| `StartDateOffsetRefCodeIsRefcd` | `cast(crfh.bzoffb_ref as vdm_bbkzr preserving type)` |
+| `PRTTotQtyCalcFmlaIsReferenced` | `cast(crfh.mgform_ref as vdm_mfkzr preserving type)` |
+| `PRTUsgeQtyCalcFmlaIsReferenced` | `cast(crfh.ewform_ref as vdm_efkzr preserving type)` |
+| `PRTControlProfileIsReferenced` | `cast(crfh.steuf_ref as vdm_stkzr preserving type)` |
+| `PRTStdTextCodeIsReferenced` | `cast(crfh.ktsch_ref as vdm_ktkzr preserving type)` |
 | `ShopFloorRtgPRTIsRegistrable` | `crfh.registrable` |
 | `ProdnRsceToolPlntLoc` | `crfh.stowk` |
 | `ProductionResourceToolStatus` | `crfh.status` |
@@ -71,7 +72,7 @@ tags:
 | `_ProductionResourceType` | *Association* |
 | `_ProdnRsceToolCategory` | *Association* |
 | `_ProdnRsceToolCategory_2` | *Association* |
-| `_ProdnRsceToolCategory_3, //assoc. to new view w/o conversion exit` | *Association* |
+| `_ProdnRsceToolCategory_3` | *Association* |
 | `_ProdnRsceToolGroup1` | *Association* |
 | `_ProdnRsceToolGroup2` | *Association* |
 | `_ProductionResourceUsage` | *Association* |

@@ -30,46 +30,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QualityTask.QualityTaskInternalId` | `_QualityTask.QualityTaskInternalId` |
-| `_QualityTask.QualityTask` | *Association* |
-| `_QualityTask.QualityTaskOrigin` | *Association* |
-| `_QualityTask.QualityTaskText` | *Association* |
-| `_QualityTask.IsDeleted` | *Association* |
-| `_QualityTask.QualityTaskProcessor` | *Association* |
-| `_QualityTask.MasterLanguage` | *Association* |
-| `_QualityTask.NotifTaskCompletedByUser` | *Association* |
-| `_QualityTask.QualityTaskType` | *Association* |
-| `_QualityTask.QualityTaskCodeCatalog` | *Association* |
-| `_QualityTask.QualityTaskCodeGroup` | *Association* |
-| `_QualityTask.QualityTaskCode` | *Association* |
-| `_QualityTask.NotifTaskTimeZone` | *Association* |
-| `_QualityTask.NotifTaskPlannedEndDate` | *Association* |
-| `_QualityTask.NotifTaskPlannedEndTime` | *Association* |
-| `_QualityTask.NotifTaskCompletionDate` | *Association* |
-| `_QualityTask.NotifTaskCompletionTime` | *Association* |
-| `_QualityTask.NotifTaskResubmissionDate` | *Association* |
-| `_QualityTask.NotifTaskResubmissionTime` | *Association* |
-| `_QualityTask.DefectInternalID` | *Association* |
-| `_QualityTask.PredecessorQltyTaskIntNumber` | *Association* |
-| `_QualityTask.ProbSolvingProc` | *Association* |
-| `_QualityTask.ProbSolvingProcStp` | *Association* |
-| `_QualityTask.ProbSolvingProcCause` | *Association* |
-| `_QualityTask.QltyTaskFollowUpAction` | *Association* |
-| `_QualityTask.QualityTaskLifecycleStatus` | *Association* |
-| `_QualityTask.QualityTaskArchivingStatus` | *Association* |
-| `_QualityTask.QltyTaskFllwUpActionSts` | *Association* |
-| `_QualityTask.CreatedByUser` | *Association* |
-| `_QualityTask.CreationDate` | *Association* |
-| `_QualityTask.CreationTime` | *Association* |
-| `_QualityTask.ChangedDateTime` | *Association* |
-| `_QualityTask.LastChangeDate` | *Association* |
-| `_QualityTask.LastChangeTime` | *Association* |
-| `_QualityTask.LastChangedByUser` | *Association* |
-| `_QualityTask.QltyTskProcgIsCtrldByTskOrigin` | *Association* |
-| `_QualityTask.QltyTaskTimeBasedEffort` | *Association* |
-| `_QualityTask.QltyTaskTimeBasedEffortUoM` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_QualityTaskLongText : redirected to composition child I_QualityTaskLongTextTP_2` | *Association* |
+| `QualityTaskInternalId` | `_QualityTask.QualityTaskInternalId` |
+| `QualityTask` | `_QualityTask.QualityTask` |
+| `QualityTaskOrigin` | `_QualityTask.QualityTaskOrigin` |
+| `QualityTaskText` | `_QualityTask.QualityTaskText` |
+| `IsDeleted` | `_QualityTask.IsDeleted` |
+| `QualityTaskProcessor` | `_QualityTask.QualityTaskProcessor` |
+| `MasterLanguage` | `_QualityTask.MasterLanguage` |
+| `NotifTaskCompletedByUser` | `_QualityTask.NotifTaskCompletedByUser` |
+| `QualityTaskType` | `_QualityTask.QualityTaskType` |
+| `QualityTaskCodeCatalog` | `_QualityTask.QualityTaskCodeCatalog` |
+| `QualityTaskCodeGroup` | `_QualityTask.QualityTaskCodeGroup` |
+| `QualityTaskCode` | `_QualityTask.QualityTaskCode` |
+| `NotifTaskTimeZone` | `_QualityTask.NotifTaskTimeZone` |
+| `NotifTaskPlannedEndDate` | `_QualityTask.NotifTaskPlannedEndDate` |
+| `NotifTaskPlannedEndTime` | `_QualityTask.NotifTaskPlannedEndTime` |
+| `NotifTaskCompletionDate` | `_QualityTask.NotifTaskCompletionDate` |
+| `NotifTaskCompletionTime` | `_QualityTask.NotifTaskCompletionTime` |
+| `NotifTaskResubmissionDate` | `_QualityTask.NotifTaskResubmissionDate` |
+| `NotifTaskResubmissionTime` | `_QualityTask.NotifTaskResubmissionTime` |
+| `DefectInternalID` | `_QualityTask.DefectInternalID` |
+| `PredecessorQltyTaskIntNumber` | `_QualityTask.PredecessorQltyTaskIntNumber` |
+| `ProbSolvingProc` | `_QualityTask.ProbSolvingProc` |
+| `ProbSolvingProcStp` | `_QualityTask.ProbSolvingProcStp` |
+| `ProbSolvingProcCause` | `_QualityTask.ProbSolvingProcCause` |
+| `QltyTaskFollowUpAction` | `_QualityTask.QltyTaskFollowUpAction` |
+| `QualityTaskLifecycleStatus` | `-- 'transient' field _QualityTask.QualityTaskLifecycleStatus` |
+| `QualityTaskArchivingStatus` | `_QualityTask.QualityTaskArchivingStatus` |
+| `QltyTaskFllwUpActionSts` | `_QualityTask.QltyTaskFllwUpActionSts` |
+| `CreatedByUser` | `_QualityTask.CreatedByUser` |
+| `CreationDate` | `_QualityTask.CreationDate` |
+| `CreationTime` | `_QualityTask.CreationTime` |
+| `ChangedDateTime` | `_QualityTask.ChangedDateTime` |
+| `LastChangeDate` | `_QualityTask.LastChangeDate` |
+| `LastChangeTime` | `_QualityTask.LastChangeTime` |
+| `LastChangedByUser` | `_QualityTask.LastChangedByUser` |
+| `QltyTskProcgIsCtrldByTskOrigin` | `_QualityTask.QltyTskProcgIsCtrldByTskOrigin` |
+| `QltyTaskTimeBasedEffort` | `_QualityTask.QltyTaskTimeBasedEffort` |
+| `QltyTaskTimeBasedEffortUoM` | `_QualityTask.QltyTaskTimeBasedEffortUoM` |
 
 ## Associations
 

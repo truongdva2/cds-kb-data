@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ktosl_kk preserving type )` | `cast( left( dd07l.domvalue_l,3 )` |
+| `CATransactionKeyAccountDetn` | `cast( left( dd07l.domvalue_l,3 ) as ktosl_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

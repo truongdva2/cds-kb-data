@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CostComponentView : ck_sicht;` | `CostComponentView : ck_sicht;` |
+| `CostComponentView` | `ck_sicht` |
 
 ## Associations
 

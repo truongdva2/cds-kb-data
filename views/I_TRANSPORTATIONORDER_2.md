@@ -30,62 +30,61 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(db_key` |
-| `/scmtms/vdm_tor_id preserving type )` | `cast(tor_id` |
-| `/scmtms/vdm_tor_type preserving type )` | `cast(tor_type` |
-| `/scmtms/vdm_tor_category preserving type )` | `cast(tor_cat` |
+| `TransportationOrderUUID` | `cast(db_key as /scmtms/vdm_tor_db_key preserving type)` |
+| `TransportationOrder` | `cast(tor_id as /scmtms/vdm_tor_id preserving type )` |
+| `TransportationOrderType` | `cast(tor_type as /scmtms/vdm_tor_type preserving type )` |
+| `TransportationOrderCategory` | `cast(tor_cat as /scmtms/vdm_tor_category preserving type )` |
 | `TransportationShippingType` | `shipping_type` |
 | `MovementType` | `movement_type` |
-| `/scmtms/vdm_tor_trmodcode preserving type )` | `cast(trmodcod` |
-| `/scmtms/vdm_tor_trmod_cat preserving type )` | `cast(trmodcat` |
-| `/scmtms/vdm_normloadconsval preserving type )` | `cast(normloadconsval` |
+| `TransportationMode` | `cast(trmodcod as /scmtms/vdm_tor_trmodcode preserving type )` |
+| `TransportationModeCategory` | `cast(trmodcat as /scmtms/vdm_tor_trmod_cat preserving type )` |
+| `TranspOrdPalletSpacesQty` | `cast(normloadconsval as /scmtms/vdm_normloadconsval preserving type )` |
 | `TranspOrdPalletSpacesUnit` | `normloadconsuom` |
-| `/scmtms/vdm_addnormloadconsval preserving type )` | `cast(addnormloadconsval` |
+| `TranspOrdLoadMetersQty` | `cast(addnormloadconsval as /scmtms/vdm_addnormloadconsval preserving type )` |
 | `TranspOrdLoadMetersUnit` | `addnormloadconsuom` |
-| `/scmtms/vdm_tor_dstnc preserving type)` | `cast(total_distance_km` |
-| `/scmtms/vdm_tor_dstnc_unit)` | `cast('KM'` |
-| `/scmtms/vdm_tor_net_duration)` | `cast(total_duration_net` |
-| `/scmtms/vdm_dsp_time_unit)` | `cast('H'` |
-| `/scmtms/vdm_carrier_party_key preserving type)` | `cast(tsp` |
-| `/scmtms/pty_carrier preserving type)` | `cast(tspid` |
-| `/scmtms/vdm_carrier_address_id preserving type )` | `cast (tsp_address_id` |
+| `TranspOrdDistance` | `cast(total_distance_km as /scmtms/vdm_tor_dstnc preserving type)` |
+| `TranspOrdDistanceUnit` | `cast('KM' as /scmtms/vdm_tor_dstnc_unit)` |
+| `TranspOrdNetDuration` | `cast(total_duration_net as /scmtms/vdm_tor_net_duration)` |
+| `TranspOrdNetDurationUnit` | `cast('H' as /scmtms/vdm_dsp_time_unit)` |
+| `CarrierUUID` | `cast(tsp as /scmtms/vdm_carrier_party_key preserving type)` |
+| `Carrier` | `cast(tspid as /scmtms/pty_carrier preserving type)` |
+| `CarrierAddressID` | `cast (tsp_address_id as /scmtms/vdm_carrier_address_id preserving type )` |
 | `StandardCarrierAlphaCode` | `tsp_scac` |
-| `/scmtms/vdm_tspexec_uuid preserving type)` | `cast(tspexec_key` |
+| `TranspOrdExecutingCarrierUUID` | `cast(tspexec_key as /scmtms/vdm_tspexec_uuid preserving type)` |
 | `TranspOrdExecutingCarrier` | `tspexecid` |
-| `/scmtms/vdm_execarr_address_id preserving type )` | `cast (tspexec_address_id` |
-| `/scmtms/vdm_shipper_key preserving type)` | `cast(shipper_key` |
-| `/scmtms/pty_shipper preserving type)` | `cast(shipperid` |
-| `/scmtms/vdm_shipper_address_id preserving type )` | `cast (sp_address_id` |
-| `/scmtms/vdm_consignee_key preserving type)` | `cast(consignee_key` |
-| `/scmtms/pty_consignee preserving type)` | `cast(consigneeid` |
-| `/scmtms/vdm_consignee_addr_id preserving type )` | `cast (cp_address_id` |
+| `ExecutingCarrierAddressID` | `cast (tspexec_address_id as /scmtms/vdm_execarr_address_id preserving type )` |
+| `ShipperUUID` | `cast(shipper_key as /scmtms/vdm_shipper_key preserving type)` |
+| `Shipper` | `cast(shipperid as /scmtms/pty_shipper preserving type)` |
+| `ShipperAddressID` | `cast (sp_address_id as /scmtms/vdm_shipper_address_id preserving type )` |
+| `ConsigneeUUID` | `cast(consignee_key as /scmtms/vdm_consignee_key preserving type)` |
+| `Consignee` | `cast(consigneeid as /scmtms/pty_consignee preserving type)` |
+| `ConsigneeAddressID` | `cast (cp_address_id as /scmtms/vdm_consignee_addr_id preserving type )` |
 | `TranspPurgOrg` | `purch_org` |
 | `TranspPurgGroup` | `purch_grp` |
-| `bukrs preserving type )` | `cast( purch_company_code` |
+| `PurgOrgCompanyCode` | `cast( purch_company_code as bukrs preserving type )` |
 | `CarrierAccountNumber` | `eikto` |
-| `/sapapo/tr_traty preserving type )` | `cast(mtr` |
+| `TranspMeansOfTransport` | `cast(mtr as /sapapo/tr_traty preserving type )` |
 | `TranspOrdPartnerReference` | `partner_ref_id` |
 | `MasterBillOfLading` | `partner_mbl_id` |
 | `TranspOrdResponsiblePerson` | `resp_person` |
 | `TranspOrdHasMltplExectgPties` | `multi_exe_pty` |
 | `TranspOrdInvoicingCarrierLevel` | `pymt_ind` |
-| `/scmtms/vdm_tor_order_datetime preserving type)` | `cast(order_date` |
-| `/scmtms/vdm_tor_lc_status preserving type )` | `cast(lifecycle` |
+| `TranspOrdOrderDateTime` | `cast(order_date as /scmtms/vdm_tor_order_datetime preserving type)` |
+| `TranspOrdLifeCycleStatus` | `cast(lifecycle as /scmtms/vdm_tor_lc_status preserving type )` |
 | `TranspOrderSubcontrgSts` | `subcontracting` |
 | `TransportationOrderConfSts` | `confirmation` |
 | `TransportationOrderExecSts` | `execution` |
 | `TranspOrdGoodsMovementStatus` | `dlv_goods_mvmnt` |
 | `TranspOrdWhseProcessingStatus` | `wh_processing_status` |
-| `/scmtms/vdm_tor_dg_status preserving type )` | `cast(dg_status` |
-| `/scmtms/vdm_block_planning preserving type )` | `cast(blk_plan` |
-| `/scmtms/vdm_block_execution preserving type )` | `cast(blk_exec` |
-| `/scmtms/vdm_tor_pln_status preserving type )` | `cast(plan_status_root` |
+| `TranspOrderDngrsGdsSts` | `cast(dg_status as /scmtms/vdm_tor_dg_status preserving type )` |
+| `TranspOrdPlanningBlock` | `cast(blk_plan as /scmtms/vdm_block_planning preserving type )` |
+| `TranspOrdExecutionIsBlocked` | `cast(blk_exec as /scmtms/vdm_block_execution preserving type )` |
+| `TranspOrdPlanningStatus` | `cast(plan_status_root as /scmtms/vdm_tor_pln_status preserving type )` |
 | `TransportationOrderCrtnType` | `creation_type` |
-| `vdm_createdbyuserid preserving type )` | `cast(created_by` |
-| `/scmtms/vdm_creation_datetme preserving type)` | `cast(created_on` |
-| `vdm_lastchangedbyuserid preserving type )` | `cast(changed_by` |
-| `/scmtms/vdm_changed_datetme preserving type)` | `cast(changed_on` |
-| `/* Associations */` | `/* Associations */` |
+| `CreatedByUser` | `cast(created_by as vdm_createdbyuserid preserving type )` |
+| `CreationDateTime` | `cast(created_on as /scmtms/vdm_creation_datetme preserving type)` |
+| `LastChangedByUser` | `cast(changed_by as vdm_lastchangedbyuserid preserving type )` |
+| `ChangedDateTime` | `cast(changed_on as /scmtms/vdm_changed_datetme preserving type)` |
 | `_TransportationOrderItem` | *Association* |
 | `_TransportationOrderStop` | *Association* |
 | `_TransportationOrderBP` | *Association* |
@@ -127,6 +126,11 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderItem` | `I_TransportationOrderItem_2` | [0..*] |
+| `_TransportationOrderStop` | `I_TransportationOrderStop_2` | [0..*] |
+| `_TransportationOrderBP` | `I_TransportationOrderBP_2` | [0..*] |
+| `_TranspOrdDocumentReference` | `I_TranspOrdDocRef_2` | [0..*] |
+| `_TransportationOrderEvent` | `I_TransportationOrderEvent` | [0..*] |
 | `_Consignee` | `I_BusinessPartner` | [0..1] |
 | `_Shipper` | `I_BusinessPartner` | [0..1] |
 | `_Carrier` | `I_BusinessPartner` | [0..1] |

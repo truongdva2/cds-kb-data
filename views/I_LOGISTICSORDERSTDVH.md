@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OrderID
 ---
 # I_LOGISTICSORDERSTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderID` | `OrderID` |
+| `OrderID` | `OrderID` |
 | `OrderDescription` | `OrderDescription` |
 | `MRPController` | `MRPController` |
 | `OrderCategory` | `OrderCategory` |

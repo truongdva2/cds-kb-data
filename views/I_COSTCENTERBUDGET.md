@@ -74,14 +74,14 @@ tags:
 | `CostCenterName` | `CostCenterName` |
 | `GLAccountName` | `GLAccountName` |
 | `HierarchyNodeText` | `HierarchyNodeText` |
-| `GLAccountHierarchyName,          //added` | `GLAccountHierarchyName,          //added` |
-| `PlanningCategoryName,            //added` | `PlanningCategoryName,            //added` |
-| `JointVenture,                    //added  JVA` | `JointVenture,                    //added  JVA` |
-| `JointVentureName,                //added  JVA` | `JointVentureName,                //added  JVA` |
-| `JointVentureEquityGroup,         //added  JVA` | `JointVentureEquityGroup,         //added  JVA` |
-| `JointVentureEquityGroupName,     //added  JVA` | `JointVentureEquityGroupName,     //added  JVA` |
-| `JointVentureRecoveryCode,        //added  JVA` | `JointVentureRecoveryCode,        //added  JVA` |
-| `JointVentureRecoveryCodeName,    //added  JVA` | `JointVentureRecoveryCodeName,    //added  JVA` |
+| `GLAccountHierarchyName` | `GLAccountHierarchyName` |
+| `PlanningCategoryName` | `PlanningCategoryName` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureName` | `JointVentureName` |
+| `JointVentureEquityGroup` | `JointVentureEquityGroup` |
+| `JointVentureEquityGroupName` | `JointVentureEquityGroupName` |
+| `JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
+| `JointVentureRecoveryCodeName` | `JointVentureRecoveryCodeName` |
 | `PlanAmountInCompanyCodeCrcy` | `PlanAmountInCompanyCodeCrcy` |
 | `BudgetAmountInCompanyCodeCrcy` | `BudgetAmountInCompanyCodeCrcy` |
 | `ActualCostAmtInCCCrcy` | `ActualCostAmtInCCCrcy` |

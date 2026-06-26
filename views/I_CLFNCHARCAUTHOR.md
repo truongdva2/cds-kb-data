@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharacteristicValueOrigin
 ---
 # I_CLFNCHARCAUTHOR
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ataut )` | `cast( dd07l.domvalue_l` |
+| `CharcAuthor` | `cast( dd07l.domvalue_l as ataut )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ClfnCharcAuthorText` | [0..*] |
 
 ## Source Code
 

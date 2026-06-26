@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:LO-ARM-2CL
   - lob:Logistics General
+  - bo:ReturnsInspectionResult
 ---
 # I_RETURNSINSPECTIONCODE
 
@@ -35,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ReturnsInspectionCodeText` | [1..*] |
 
 ## Source Code
 

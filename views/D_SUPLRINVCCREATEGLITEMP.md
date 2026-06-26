@@ -30,17 +30,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
-| `TaxBaseAmountInDocCry     : fwbas_cs;` | `TaxBaseAmountInDocCry     : fwbas_cs;` |
-| `WorkItem                  : /cpd/pfp_workitem_id;` | `WorkItem                  : /cpd/pfp_workitem_id;` |
-| `TaxCountry                : fot_tax_country;` | `TaxCountry                : fot_tax_country;` |
-| `FinancialTransactionType  : rmvct;` | `FinancialTransactionType  : rmvct;` |
-| `BudgetPeriod              : fm_budget_period;` | `BudgetPeriod              : fm_budget_period;` |
-| `_SupplierInvoice          : association to parent D_SuplrInvcCreateP;` | *Association* |
+| `SupplierInvoiceItem` | `cobl_nr` |
+| `GLAccount` | `saknr` |
+| `DocumentCurrency` | `waers` |
+| `SupplierInvoiceItemAmount` | `wrbtr_cs` |
+| `DebitCreditCode` | `shkzg` |
+| `CompanyCode` | `bukrs` |
+| `TaxCode` | `mwskz` |
+| `TaxJurisdiction` | `txjcd` |
+| `SupplierInvoiceItemText` | `sgtxt` |
+| `CostCenter` | `kostl` |
+| `SalesOrder` | `vbeln` |
+| `SalesOrderItem` | `vbelp` |
+| `InternalOrder` | `aufnr` |
+| `ProfitCenter` | `prctr` |
+| `BusinessArea` | `gsber` |
+| `CostObject` | `kstrg` |
+| `WBSElementInternalID` | `ps_s4_pspnr` |
+| `CostCtrActivityType` | `lstar` |
+| `PersonnelNumber` | `pernr_d` |
+| `BusinessProcess` | `co_prznr` |
+| `GrantID` | `gm_grant_nbr` |
+| `QuantityUnit` | `meins` |
+| `Quantity` | `menge_d` |
+| `AssignmentReference` | `dzuonr` |
+| `IsNotCashDiscountLiable` | `xskrl` |
+| `TaxBaseAmountInDocCry` | `fwbas_cs` |
+| `WorkItem` | `/cpd/pfp_workitem_id` |
+| `TaxCountry` | `fot_tax_country` |
+| `FinancialTransactionType` | `rmvct` |
+| `BudgetPeriod` | `fm_budget_period` |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplierInvoice` | `D_SuplrInvcCreateP` | — |
 
 ## Source Code
 

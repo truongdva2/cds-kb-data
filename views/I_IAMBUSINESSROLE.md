@@ -45,6 +45,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_IAMBusinessRoleText` | [0..*] |
 | `_User` | `I_IAMBusinessUserBusinessRole` | [0..*] |
 
 ## Source Code

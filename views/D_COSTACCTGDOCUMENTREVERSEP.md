@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AccountingDocumentHeaderText : bktxt;` | `AccountingDocumentHeaderText : bktxt;` |
-| `DocumentDate                 : fis_bldat;` | `DocumentDate                 : fis_bldat;` |
-| `PostingDate                  : fis_budat;` | `PostingDate                  : fis_budat;` |
+| `AccountingDocumentHeaderText` | `bktxt` |
+| `DocumentDate` | `fis_bldat` |
+| `PostingDate` | `fis_budat` |
 
 ## Associations
 

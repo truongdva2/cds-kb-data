@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `intbu_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAInternalPostingReasonCode` | `cast( left( dd07l.domvalue_l, 1 ) as intbu_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

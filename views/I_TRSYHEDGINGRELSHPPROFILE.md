@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:HedgingProfile
 ---
 # I_TRSYHEDGINGRELSHPPROFILE
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hdgg_profile         preserving type)` | `cast(TrsyHedgingRelshpProfile.hrel_profile` |
-| `ftr_gen_hrel_scenario        preserving type)` | `cast(TrsyHedgingRelshpProfile.hrel_scene_cat` |
+| `HedgingProfile` | `cast(…)` |
+| `TrsyHedgingRelshpScenario` | `cast(…)` |
 | `_TrsyHedgingRelshpScenario` | *Association* |
 | `_Text` | *Association* |
 

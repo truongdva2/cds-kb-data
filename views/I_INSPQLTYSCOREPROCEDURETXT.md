@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `Language` | `sprache` |
+| `InspQualityScoreProcedure` | `qkzverf` |
 | `InspQltyScoreProcedureTxt` | `qkz_text` |
 | `_InspQualityScoreProcedure` | *Association* |
 

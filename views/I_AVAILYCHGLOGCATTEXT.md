@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `atp_acl_category_text  preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `AvailabilityChangeLogCategory` | `cast ( domvalue_l as atpnetchgcategory )` |
+| `DomainValue` | `domvalue_l` |
+| `AvailyChgLogCategoryDesc` | `cast( ddtext as atp_acl_category_text preserving type )` |
 | `_Language` | *Association* |
 | `_ACLCat` | *Association* |
 
@@ -45,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ACLCat` | `I_AvailyChgLogCat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConsolidationVersion                  : fincs_consolidationversion;` | `ConsolidationVersion                  : fincs_consolidationversion;` |
-| `FiscalYear                            : fincs_fiscalyear;` | `FiscalYear                            : fincs_fiscalyear;` |
-| `FiscalPeriod                          : fincs_period;` | `FiscalPeriod                          : fincs_period;` |
+| `ConsolidationVersion` | `fincs_consolidationversion` |
+| `FiscalYear` | `fincs_fiscalyear` |
+| `FiscalPeriod` | `fincs_period` |
 
 ## Associations
 

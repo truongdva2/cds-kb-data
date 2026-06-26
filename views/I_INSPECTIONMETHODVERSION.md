@@ -14,6 +14,7 @@ tags:
   - inspection
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionMethodVersion
 ---
 # I_INSPECTIONMETHODVERSION
 
@@ -30,9 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_InspectorQualificationStdVH'` | `name:    'I_InspectorQualificationStdVH'` |
-| `element: 'InspectorQualification' }` | `element: 'InspectorQualification' }` |
-| `}]` | `}]` |
+| `InspectionMethodPlant` | `qmtb.werks` |
+| `InspectionMethod` | `qmtb.pmtnr` |
+| `InspectionMethodVersion` | `qmtb.version` |
+| `InspectionMethodValidFromDate` | `qmtb.gueltigab` |
+| `InspectionMethodSearchField` | `qmtb.sortfeld` |
+| `InspectionMethodStatus` | `qmtb.loekz` |
 | `InspectorQualification` | `qmtb.prfql` |
 | `InspMethInformationField1` | `qmtb.dummy10` |
 | `InspMethInformationField2` | `qmtb.dummy20` |
@@ -42,10 +46,7 @@ tags:
 | `CreationDate` | `qmtb.dates` |
 | `LastChangedByUser` | `qmtb.aeaut` |
 | `LastChangeDate` | `qmtb.datae` |
-| `case qmtb.changeddatetime` | `case qmtb.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qmtb.changeddatetime                        end` |
-| `/* Associations */` | `/* Associations */` |
+| `ChangedDateTime` | `case…end` |
 | `_InspectionMethod` | *Association* |
 | `_InspectionMethodText` | *Association* |
 | `_InspectionMethodPlant` | *Association* |

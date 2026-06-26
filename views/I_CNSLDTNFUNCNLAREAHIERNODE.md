@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFunctionalAreaVH'` | `name: 'I_CnsldtnFunctionalAreaVH'` |
-| `element: 'FunctionalArea'` | `element: 'FunctionalArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_functionalarea preserving type )` | `cast(left(_HierarchyNode.UniversalHierarchyLeafValue, 16)` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `CnsldtnFunctionalAreaHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `FunctionalArea` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Hierarchy` | *Association* |
 | `_FunctionalArea` | *Association* |

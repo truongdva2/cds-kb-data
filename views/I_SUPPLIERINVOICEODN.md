@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AFDFUniqueKeyUUID` | `AFDFUniqueKeyUUID` |
-| `re_belnr )` | `cast( AFDFDocumentKey1` |
-| `gjahr )` | `cast( AFDFDocumentKey2` |
+| `AFDFUniqueKeyUUID` | `AFDFUniqueKeyUUID` |
+| `SupplierInvoice` | `cast( AFDFDocumentKey1 as re_belnr )` |
+| `FiscalYear` | `cast( AFDFDocumentKey2 as gjahr )` |
 | `OfficialDocumentNumberCountry` | `OfficialDocumentNumberCountry` |
 | `OfficialDocumentNumberType` | `OfficialDocumentNumberType` |
 | `OfficialDocumentNumber` | `OfficialDocumentNumber` |

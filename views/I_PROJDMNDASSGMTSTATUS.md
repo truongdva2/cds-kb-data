@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tv_proj_dmnd_assgmt_status )` | `cast( substring(domvalue_l, 1, 2 )` |
+| `ProjDmndAssgmtStatus` | `cast( substring(domvalue_l, 1, 2 ) as tv_proj_dmnd_assgmt_status )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_AssignmentStatusText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AssignmentStatusText` | `I_ProjDmndAssgmtStatusText` | [0..*] |
 
 ## Source Code
 

@@ -34,9 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ProductGroup_2'` | `name:    'I_ProductGroup_2'` |
-| `element: 'ProductGroup' }` | `element: 'ProductGroup' }` |
-| `}]` | `}]` |
+| `ProjectDemandMaterialUUID` | `ProjectDemandMaterialUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `StorageLocation` | `StorageLocation` |
+| `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
 | `Supplier` | `Supplier` |
 | `PurchasingInfoRecord` | `PurchasingInfoRecord` |

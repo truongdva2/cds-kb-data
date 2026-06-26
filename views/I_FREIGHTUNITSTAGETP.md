@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
+| `TransportationOrderStageUUID` | `TransportationOrderStageUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderStage` | `TransportationOrderStage` |
 | `TranspOrdStageType` | `TranspOrdStageType` |
@@ -42,8 +42,8 @@ tags:
 | `TranspOrdStageNetDuration` | `TranspOrdStageNetDuration` |
 | `TranspOrdStageSrceStopUUID` | `TranspOrdStageSrceStopUUID` |
 | `TranspOrdStageDestStopUUID` | `TranspOrdStageDestStopUUID` |
-| `_FreightUnitStop : redirected to parent I_FreightUnitStopTP` | `FreightUnitStage._TranspOrderStop` |
-| `_FreightUnit : redirected to I_FreightUnitTP` | `FreightUnitStage._TransportationOrder` |
+| `_FreightUnitStop` | *Association* |
+| `_FreightUnit` | *Association* |
 
 ## Associations
 

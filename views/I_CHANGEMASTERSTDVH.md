@@ -17,6 +17,7 @@ tags:
   - change-master
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ChangeNumber
 ---
 # I_CHANGEMASTERSTDVH
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ChangeNumberDescription` | `ChangeNumberDescription` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `ChangeNumberFunction` | `ChangeNumberFunction` |

@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KanbanControlCycleCategory
 ---
 # I_KNBNCTRLCYCLECATEGORYSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanControlCycleCategory` | `KanbanControlCycleCategory` |
+| `KanbanControlCycleCategory` | `KanbanControlCycleCategory` |
 | `_Text` | *Association* |
 
 ## Associations

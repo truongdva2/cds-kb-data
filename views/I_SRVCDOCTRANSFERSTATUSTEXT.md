@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_transfer )` | `cast ( domvalue_l` |
+| `SrvcDocTransferStatus` | `cast ( domvalue_l as crms4_stat_transfer )` |
 | `Language` | `ddlanguage` |
 | `SrvcDocTransferStatusText` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |

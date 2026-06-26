@@ -16,6 +16,7 @@ tags:
   - status
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeDocumentStatus
 ---
 # I_BR_NFEDOCUMENTSTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nfedocstatus preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `BR_NFeDocumentStatus` | `cast( substring( domvalue_l, 1, 1 ) as logbr_nfedocstatus preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

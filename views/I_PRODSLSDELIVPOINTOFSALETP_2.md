@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element : 'Plant'} , useAsTemplate: true }]` | `name: 'I_PlantStdVH', element : 'Plant'} , useAsTemplate: true }]` |
-| `key Plant` | `Plant` |
+| `Product` | `Product` |
+| `ProductSalesOrg` | `ProductSalesOrg` |
+| `ProductDistributionChnl` | `ProductDistributionChnl` |
+| `Plant` | `Plant` |
 | `StoreSaleStartDate` | `StoreSaleStartDate` |
 | `StoreSaleEndDate` | `StoreSaleEndDate` |
 | `ProductSalesStatus` | `ProductSalesStatus` |
@@ -41,8 +43,6 @@ tags:
 | `ScalesGroup` | `ScalesGroup` |
 | `ProdSlsDelivPOSIsPriceRequired` | `ProdSlsDelivPOSIsPriceRequired` |
 | `ProdSlsDelivRepeatKey` | `ProdSlsDelivRepeatKey` |
-| `_Product              : redirected to I_ProductTP_2` | *Association* |
-| `_ProductSalesDelivery : redirected to parent I_ProductSalesDeliveryTP_2` | *Association* |
 | `_Plant` | *Association* |
 
 ## Associations

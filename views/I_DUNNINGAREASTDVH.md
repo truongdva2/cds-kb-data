@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningArea
 ---
 # I_DUNNINGAREASTDVH
 
@@ -32,9 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8 }` | `fuzzinessThreshold:   0.8 }` |
-| `key DunningArea` | `DunningArea` |
+| `CompanyCode` | `CompanyCode` |
+| `DunningArea` | `DunningArea` |
 | `_Text` | *Association* |
 | `_CompanyCode` | *Association* |
 

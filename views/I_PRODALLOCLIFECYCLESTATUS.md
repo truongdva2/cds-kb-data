@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-ATP-PAL-2CL
   - lob:Cross-Application Components
+  - bo:ProdAllocationLifecycleStatus
 ---
 # I_PRODALLOCLIFECYCLESTATUS
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocationlifecyclestatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocationLifecycleStatus` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-MR-2CL
   - lob:Other
+  - bo:FinancialTransactionNPVType
 ---
 # I_FINANCIALTRANSACTIONNPVTYPE
 
@@ -35,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FinancialTransactionNPVTypeT` | [0..*] |
 
 ## Source Code
 

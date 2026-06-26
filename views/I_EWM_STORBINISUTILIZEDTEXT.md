@@ -16,6 +16,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMStorageBinIsUtilized
 ---
 # I_EWM_STORBINISUTILIZEDTEXT
 
@@ -33,9 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ewm_de_storagebinisutilized preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `ewm_de_storbinutilizeddesc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `EWMStorageBinIsUtilized` | `cast(…)` |
+| `EWMStorageBinUtilizedDesc` | `cast( ddtext as ewm_de_storbinutilizeddesc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

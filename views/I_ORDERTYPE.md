@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:WorkOrderType
 ---
 # I_ORDERTYPE
 
@@ -29,18 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `OrderType` | `typ.auart` |
-| `pph_autyp preserving type)` | `cast(typ.autyp` |
+| `OrderCategory` | `cast(typ.autyp as pph_autyp preserving type)` |
 | `OrderNumberRange` | `typ.numkr` |
 | `CommitmentsMgmtActvtnStatus` | `typ.obligo` |
 | `StatusProfile` | `typ.stsma` |
-| `vdm_stsma_op preserving type)` | `cast(typ.vrg_stsma` |
+| `OperationStatusProfile` | `cast(typ.vrg_stsma as vdm_stsma_op preserving type)` |
 | `ControllingSettlementProfile` | `typ.aprof` |
 | `PlanningProfile` | `typ.pprof` |
 | `BudgetProfile` | `typ.bprof` |
 | `ExecutionServiceProfile` | `typ.exec_profile` |
-| `pph_scope preserving type)` | `cast(typ.scope` |
+| `ControllingObjectClass` | `cast(typ.scope as pph_scope preserving type)` |
 | `FunctionalArea` | `typ.func_area` |
 | `CtrlgTotalsRecordActvtnStatus` | `typ.copar` |
 | `ResidenceTime1` | `typ.resz1` |
@@ -54,8 +54,8 @@ tags:
 | `SettlementIsNotRequired` | `typ.nabpf` |
 | `OrdIsUsedInIntegratedPlanning` | `typ.plint` |
 | `NetworkIsForPlanning` | `typ.vorpl` |
-| `vdm_pp_erloese preserving type)` | `cast(typ.erloese` |
-| `vdm_colordproc preserving type)` | `cast(typ.colordproc` |
+| `RevenuePostingIsAllowed` | `cast(typ.erloese as vdm_pp_erloese preserving type)` |
+| `CollectiveOrderHasAutoGoodsMvt` | `cast(typ.colordproc as vdm_colordproc preserving type)` |
 | `_OrderCategory` | *Association* |
 | `_FunctionalArea` | *Association* |
 | `_ControllingObjectClass` | *Association* |

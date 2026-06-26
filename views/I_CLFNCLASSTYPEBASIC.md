@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassificationClassType
 ---
 # I_CLFNCLASSTYPEBASIC
 
@@ -41,7 +42,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ClassTypeText` | `I_ClfnClassTypeText` | [0..*] |
 
 ## Source Code
 

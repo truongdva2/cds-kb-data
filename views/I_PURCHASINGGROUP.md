@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGGROUP
 description: Purchasinggroup
+semantic_en: "Purchasing group — the buyer or group of buyers responsible for procurement activities."
+semantic_vi: "Nhóm mua hàng — người mua hoặc nhóm người mua chịu trách nhiệm các hoạt động mua sắm."
+keywords:
+  - nhóm mua hàng
+  - người mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released
@@ -12,6 +17,7 @@ tags:
   - interface-view
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurchasingGroup
 ---
 # I_PURCHASINGGROUP
 
@@ -29,7 +35,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PurchasingGroup` | `t024.ekgrp` |
-| `mm_a_purg_grp_name preserving type )` | `cast(t024.eknam` |
+| `PurchasingGroupName` | `cast(t024.eknam as mm_a_purg_grp_name preserving type )` |
 | `PurchasingGroupPhoneNumber` | `t024.ektel` |
 | `FaxNumber` | `t024.telfx` |
 | `PhoneNumber` | `t024.tel_number` |

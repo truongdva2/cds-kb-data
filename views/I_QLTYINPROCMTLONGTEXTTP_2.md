@@ -31,18 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key QltyInProcmtIntID` | `QltyInProcmtIntID` |
-| `key LongTextInternalNumber` | `LongTextInternalNumber` |
-| `key Language` | `Language` |
+| `Material` | `Material` |
+| `QltyInProcmtIntID` | `QltyInProcmtIntID` |
+| `LongTextInternalNumber` | `LongTextInternalNumber` |
+| `Language` | `Language` |
 | `LongTextID` | `LongTextID` |
 | `QltyInProcmtLongText` | `QltyInProcmtLongText` |
 | `LongTextCreatedByUser` | `LongTextCreatedByUser` |
 | `LongTextCreatedAt` | `LongTextCreatedAt` |
 | `LongTextLastChangedByUser` | `LongTextLastChangedByUser` |
 | `LongTextLastChangedAt` | `LongTextLastChangedAt` |
-| `/* Associations */` | `/* Associations */` |
-| `_QltyInProcurement : redirected to parent I_QualityInProcurementTP_2` | *Association* |
 
 ## Associations
 

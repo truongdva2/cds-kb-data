@@ -16,6 +16,7 @@ tags:
   - text
   - component:PSM-GM-GTE-MD
   - lob:Other
+  - bo:SponsoredClassText
 ---
 # I_SPONSOREDCLASSCORETEXT
 

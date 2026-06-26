@@ -15,6 +15,7 @@ tags:
   - credit
   - component:SD-BF-CM-2CL
   - lob:Sales & Distribution
+  - bo:CentralCreditChkTechErrSts
 ---
 # I_CENTRALCREDITCHKTECHERRSTST
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CentralCreditChkTechErrSts` | `I_CentralCreditChkTechErrSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

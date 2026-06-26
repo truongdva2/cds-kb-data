@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:ItemCategoryGroup
 ---
 # I_ITEMCATEGORYGROUPTEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ItemCategoryGroup` | `I_ItemCategoryGroup` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

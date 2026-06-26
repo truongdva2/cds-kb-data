@@ -31,23 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
-| `trsy_ref_cat preserving type )` | `cast( reftyp` |
-| `trsy_ref_nmbr preserving type )` | `cast( refnr` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
-| `trsy_ref_status preserving type )` | `cast( status` |
-| `trsy_ref_payment_date preserving type )` | `cast( dzterm` |
-| `trsy_ref_business_partner preserving type )` | `cast( kontrh` |
-| `trsy_ref_ext_ref preserving type )` | `cast( ext_ref_id` |
+| `TreasuryReferenceCategory` | `cast( reftyp as trsy_ref_cat preserving type )` |
+| `TreasuryReferenceNumber` | `cast( refnr as trsy_ref_nmbr preserving type )` |
+| `TreasuryReferenceStatus` | `cast( status as trsy_ref_status preserving type )` |
+| `TreasuryReferencePaymentDate` | `cast( dzterm as trsy_ref_payment_date preserving type )` |
+| `TreasuryReferencePartner` | `cast( kontrh as trsy_ref_business_partner preserving type )` |
+| `TrsyRefExtRefIdfr` | `cast( ext_ref_id as trsy_ref_ext_ref preserving type )` |
 | `ClassificationOfFinInstr` | `cfi_code` |
 | `UniqueProductIdentifier` | `upi` |
 | `InternationalSecuritiesIdnNmbr` | `isin` |
-| `trsy_ref_cruser preserving type )` | `cast( cruser` |
-| `trsy_ref_dcrdat preserving type )` | `cast( dcrdat` |
-| `trsy_ref_tcrtim preserving type )` | `cast( tcrtim` |
-| `trsy_ref_upuser preserving type )` | `cast( upuser` |
-| `trsy_ref_dupdat preserving type )` | `cast( dupdat` |
-| `trsy_ref_tuptim preserving type )` | `cast( tuptim` |
+| `TreasuryReferenceCreatedByUser` | `cast( cruser as trsy_ref_cruser preserving type )` |
+| `TreasuryReferenceCreationDate` | `cast( dcrdat as trsy_ref_dcrdat preserving type )` |
+| `TrsyReferenceCreationTime` | `cast( tcrtim as trsy_ref_tcrtim preserving type )` |
+| `TrsyReferenceLastChangedByUser` | `cast( upuser as trsy_ref_upuser preserving type )` |
+| `TrsyReferenceLastChangeDate` | `cast( dupdat as trsy_ref_dupdat preserving type )` |
+| `TrsyReferenceLastChangeTime` | `cast( tuptim as trsy_ref_tuptim preserving type )` |
 | `_TreasuryReferenceCategory` | *Association* |
 | `_TreasuryReferenceItem` | *Association* |
 

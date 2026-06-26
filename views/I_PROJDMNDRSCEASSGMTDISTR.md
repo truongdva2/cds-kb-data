@@ -30,7 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'ProjDmndRsceDistrRevenueAmtCur'} }` | `currencyCode: 'ProjDmndRsceDistrRevenueAmtCur'} }` |
+| `ProjDmndRsceAssgmtDistrUUID` | `ProjDmndRsceAssgmtDistrUUID` |
+| `ProjDmndRsceAssgmtUUID` | `ProjDmndRsceAssgmtUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjDmndRsceAssgmtDistrYearVal` | `ProjDmndRsceAssgmtDistrYearVal` |
+| `ProjDmndRsceAssgmtDistrPerdVal` | `ProjDmndRsceAssgmtDistrPerdVal` |
+| `ProjDmndRsceAssgmtDistrQty` | `ProjDmndRsceAssgmtDistrQty` |
+| `ProjDmndRsceAssgmtDistrQtyUnit` | `ProjDmndRsceAssgmtDistrQtyUnit` |
+| `ProjDmndRsceDistrPerdAmt` | `ProjDmndRsceDistrPerdAmt` |
+| `ProjDmndRsceDistrPerdAmtCur` | `ProjDmndRsceDistrPerdAmtCur` |
 | `ProjDmndRsceDistrRevenueAmt` | `ProjDmndRsceDistrRevenueAmt` |
 | `ProjDmndRsceDistrRevenueAmtCur` | `ProjDmndRsceDistrRevenueAmtCur` |
 | `ProjDmndRsceAssgmtDistrStrtDte` | `ProjDmndRsceAssgmtDistrStrtDte` |
@@ -40,10 +48,8 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* BO internal Associations */` | `/* BO internal Associations */` |
 | `_Assignment` | *Association* |
 | `_Root` | *Association* |
-| `/* External Associations */` | `/* External Associations */` |
 | `_ProjDmndRsceDistrQtyUnit` | *Association* |
 | `_ProjDmndRsceDistrPerdAmtCur` | *Association* |
 | `_ProjDmndRsceDistrRevnAmtCur` | *Association* |

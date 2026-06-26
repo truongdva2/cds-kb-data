@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-MRP-2CL
   - lob:Manufacturing
+  - bo:MRPMasterDataIssueSource
 ---
 # I_MRPMASTERDATAISSUESOURCE
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MRPMasterDataIssueSource` | `cast ( substring( domvalue_l, 1, 1 ) as pph_source_of_issue preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

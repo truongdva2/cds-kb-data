@@ -34,8 +34,7 @@ tags:
 |---|---|
 | `Language` | `wb2_c_af_groupt.spras` |
 | `AmountFieldGroup` | `wb2_c_af_groupt.af_group` |
-| `wb2_amount_fields_group_txt preserving type )` | `cast( wb2_c_af_groupt.text` |
-| `/* Associations */` | `/* Associations */` |
+| `AmountFieldGroupDesc` | `cast( wb2_c_af_groupt.text as wb2_amount_fields_group_txt preserving type )` |
 | `_AmountFieldGroup` | *Association* |
 | `_Language` | *Association* |
 

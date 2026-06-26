@@ -14,6 +14,7 @@ tags:
   - classification
   - component:SUS-INT
   - lob:Other
+  - bo:GHGEnergyClassification
 ---
 # I_GHGENERGYCLASSIFICATION
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sufnd_vdm_ghgenergyclass )` | `cast( dd07l.domvalue_l` |
-| `DomainValue, //Needed for optimized access according VDM guideline` | `dd07l.domvalue_l` |
+| `GHGEnergyClassification` | `cast( dd07l.domvalue_l as sufnd_vdm_ghgenergyclass )` |
+| `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,38 +30,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Location Basic Info */` | `/* Location Basic Info */` |
-| `/sapapo/location_id preserving type )` | `cast( locid` |
-| `/sapapo/location_uuid preserving type )` | `cast( loc_uuid` |
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
+| `LocationUUID` | `cast( locid as /sapapo/location_id preserving type )` |
+| `LocationAdditionalUUID` | `cast( loc_uuid as /sapapo/location_uuid preserving type )` |
 | `Location` | `locno` |
 | `LocationType` | `loctype` |
-| `tznzone preserving type )` | `cast ( tzone` |
+| `LocationTimeZone` | `cast ( tzone as tznzone preserving type )` |
 | `LocationUNCode` | `unlocode` |
-| `/scmtms/vdm_loc_airportcode preserving type )` | `cast(iatacode` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
-| `/* Address */` | `/* Address */` |
+| `LocationAirportCode` | `cast(iatacode as /scmtms/vdm_loc_airportcode preserving type )` |
 | `AddressID` | `adrnummer` |
-| `/* Geocodes */` | `/* Geocodes */` |
-| `/scmtms/vdm_geo_cood_unit)` | `cast('DEG'` |
+| `GeoCoordinatesUnit` | `cast('DEG' as /scmtms/vdm_geo_cood_unit)` |
 | `Longitude` | `xpos` |
 | `Latitude` | `ypos` |
-| `/scmtms/vdm_loc_geo_val_end_dt preserving type )` | `cast( geo_validity_end` |
+| `GeoCoordsValidityEndDateTime` | `cast( geo_validity_end as /scmtms/vdm_loc_geo_val_end_dt preserving type )` |
 | `GeoCoordinatesLevel` | `gc_level` |
 | `GeoCoordinatesStrategy` | `strategy` |
 | `GeoCoordinatesMatchPercent` | `match_gc` |
 | `GeoCoordinatesDataSource` | `srcid` |
 | `GeoCoordinatesPrecision` | `precisid` |
 | `GeoCoordsAreManuallyChanged` | `manually_changed_gc` |
-| `/* Business Purpose and Partner */` | `/* Business Purpose and Partner */` |
 | `IsBusinessPurposeCompleted` | `loc_xblck` |
 | `BusinessPartnerUUID` | `partner_guid` |
-| `/* Administrative Data */` | `/* Administrative Data */` |
-| `/scmtms/vdm_creation_datetme preserving type )` | `cast (createutc` |
+| `CreationDateTime` | `cast (createutc as /scmtms/vdm_creation_datetme preserving type )` |
 | `CreatedByUser` | `createuser` |
-| `/scmtms/vdm_changed_datetme preserving type )` | `cast ( changeutc` |
+| `ChangedDateTime` | `cast ( changeutc as /scmtms/vdm_changed_datetme preserving type )` |
 | `LastChangedByUser` | `changeuser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_LocationType` | *Association* |
 | `_AddrDfltRprstn` | *Association* |
@@ -73,6 +65,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_LocationBasicText_2` | [0..*] |
 | `_LocationType` | `I_LocationType_2` | [0..1] |
 | `_AddrDfltRprstn` | `I_AddressDefaultRepresentation` | [0..1] |
 | `_LocAddressDataText` | `I_LocationAddressDataText` | [0..1] |

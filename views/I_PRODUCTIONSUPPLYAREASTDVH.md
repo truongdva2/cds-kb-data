@@ -17,6 +17,7 @@ tags:
   - product
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:ProductionSupplyArea
 ---
 # I_PRODUCTIONSUPPLYAREASTDVH
 
@@ -33,9 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key ProductionSupplyArea` | `ProductionSupplyArea` |
-| `key Plant` | `Plant` |
+| `ProductionSupplyArea` | `ProductionSupplyArea` |
+| `Plant` | `Plant` |
 | `_Text` | *Association* |
 | `_Plant` | *Association* |
 

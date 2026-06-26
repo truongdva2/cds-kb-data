@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wbstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallGoodsMovementStatus` | `cast(left(dd07l.domvalue_l, 1 ) as wbstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

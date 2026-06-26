@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/abc_classification  preserving type )` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SupplierABCClassificationCode` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type )` | `cast(ddtext` |
+| `SLCTranslationStatusName` | `cast(ddtext as /srmsmc/status_descr preserving type )` |
 | `_SLCMgmtABCClassification` | *Association* |
 | `_Language` | *Association* |
 

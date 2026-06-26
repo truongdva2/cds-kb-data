@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkBreak
 ---
 # I_WORKBREAK
 
@@ -30,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `break.schgrup` |
+| `WorkBreakSchedule` | `break.paplan` |
 | `WorkBreakNumber` | `break.paunr` |
 | `WorkBreakStartTime` | `break.paubeg` |
 | `WorkBreakEndTime` | `break.pauend` |

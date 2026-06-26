@@ -28,14 +28,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceDocument : sdbil_odata_source_document; //Mandatory` | `ReferenceDocument : sdbil_odata_source_document; //Mandatory` |
-| `_Item             : composition [1..*] of D_BlgDcCrteFrmExtBlblDocItmIP;` | *Association* |
-| `_Text             : association [0..*] to D_BillgDocCrteFrmExtTxtIP on 1 = 0;` | *Association* |
-| `_PaymentCard      : association [0..*] to D_BillgDocCrteFrmExtPaytCardIP on 1 = 0;` | *Association* |
+| `ReferenceDocument` | `sdbil_odata_source_document` |
+| `_Item` | *Association* |
+| `_Text` | *Association* |
+| `_PaymentCard` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_BlgDcCrteFrmExtBlblDocItmIP` | [1..*] |
+| `_Text` | `D_BillgDocCrteFrmExtTxtIP` | [0..*] |
+| `_PaymentCard` | `D_BillgDocCrteFrmExtPaytCardIP` | [0..*] |
 
 ## Source Code
 

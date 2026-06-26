@@ -29,12 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Field list */` | `/* Field list */` |
-| `key  ResultId` | `ResultId` |
-| `key  ItemId` | `ItemId` |
-| `key  CheckRunIndex` | `CheckRunIndex` |
+| `ResultId` | `ResultId` |
+| `ItemId` | `ItemId` |
+| `CheckRunIndex` | `CheckRunIndex` |
 | `CreatedOnItem` | `CreatedOnItem` |
-| `I_SATC_API_ITEM_STATE preserving type )` | `cast( Status` |
+| `Status` | `cast( Status as I_SATC_API_ITEM_STATE preserving type )` |
 | `ChangedOn` | `ChangedOn` |
 | `module_id` | `module_id` |
 | `CheckVariant` | `CheckVariant` |
@@ -53,22 +52,22 @@ tags:
 | `QualityStandard` | `QualityStandard` |
 | `ChecksumVersion` | `ChecksumVersion` |
 | `Checksum` | `Checksum` |
-| `I_SATC_API_EXEMPTION_KIND preserving type )` | `cast( ExemptionKind` |
-| `I_SATC_API_EXEMPTION_VAL preserving type )` | `cast( ExemptionValidity` |
-| `I_SATC_API_EXEMPTION_APPR preserving type )` | `cast( ExemptionApproval` |
-| `I_SATC_API_EXEMPTION_KIND preserving type )` | `cast( ExemptionKindItem` |
-| `I_SATC_API_EXEMPTION_VAL preserving type )` | `cast( ExemptionValidityItem` |
-| `I_SATC_API_EXEMPTION_APPR preserving type )` | `cast( ExemptionApprovalItem` |
+| `ExemptionKind` | `cast( ExemptionKind as I_SATC_API_EXEMPTION_KIND preserving type )` |
+| `ExemptionValidity` | `cast( ExemptionValidity as I_SATC_API_EXEMPTION_VAL preserving type )` |
+| `ExemptionApproval` | `cast( ExemptionApproval as I_SATC_API_EXEMPTION_APPR preserving type )` |
+| `ExemptionKindItem` | `cast( ExemptionKindItem as I_SATC_API_EXEMPTION_KIND preserving type )` |
+| `ExemptionValidityItem` | `cast( ExemptionValidityItem as I_SATC_API_EXEMPTION_VAL preserving type )` |
+| `ExemptionApprovalItem` | `cast( ExemptionApprovalItem as I_SATC_API_EXEMPTION_APPR preserving type )` |
 | `ExemptionId` | `ExemptionId` |
 | `FindingLocation` | `FindingLocation` |
-| `I_SATC_API_FNDQF preserving type )` | `cast( HasQuickfixes` |
+| `HasQuickfixes` | `cast( HasQuickfixes as I_SATC_API_FNDQF preserving type )` |
 | `LastChangedBy` | `LastChangedBy` |
 | `LastChangedOn` | `LastChangedOn` |
-| `I_SATC_API_PRIORITY preserving type )` | `cast( Priority` |
+| `Priority` | `cast( Priority as I_SATC_API_PRIORITY preserving type )` |
 | `CretatedOn` | `CretatedOn` |
 | `Host` | `Host` |
-| `I_SATC_API_ITEM_STATE preserving type )` | `cast( StatusNew` |
-| `I_SATC_API_ITEM_STATE preserving type )` | `cast( StatusOld` |
+| `StatusNew` | `cast( StatusNew as I_SATC_API_ITEM_STATE preserving type )` |
+| `StatusOld` | `cast( StatusOld as I_SATC_API_ITEM_STATE preserving type )` |
 | `RemarkText` | `RemarkText` |
 | `RemarkLink` | `RemarkLink` |
 

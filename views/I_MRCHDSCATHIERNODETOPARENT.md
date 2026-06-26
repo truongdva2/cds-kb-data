@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-RFM-MD-MC
   - lob:Logistics General
+  - bo:MrchdsCategoryHierarchyNode
 ---
 # I_MRCHDSCATHIERNODETOPARENT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdcathiernode preserving type )` | `cast(MrchdsCatHiernode .class` |
+| `MrchdsCategoryHierarchyNode` | `cast(MrchdsCatHiernode .class as rfm_mrchdcathiernode preserving type )` |
 | `ParentMrchdsCatHierarchyNode` | `ParentMrchdsCatHiernode.class` |
 | `_MrchdsCategoryHierarchyNode` | *Association* |
 

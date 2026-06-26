@@ -31,13 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinServicesBranchVH'` | `name: 'I_CnsldtnFinServicesBranchVH'` |
-| `element: 'FinancialServicesBranch'` | `element: 'FinancialServicesBranch'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialservicesbranch preserving type )` | `cast( _Source.FinancialServicesBranch` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _Source.CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `FinancialServicesBranch` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

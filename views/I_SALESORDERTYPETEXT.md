@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `sd_sales_order_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `SalesOrderType` | `SalesOrderType.SalesOrderType` |
+| `Language` | `Text.Language` |
+| `SalesOrderTypeName` | `cast( Text.SalesDocumentTypeName as sd_sales_order_type_name preserving type )` |
 | `_SalesOrderType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

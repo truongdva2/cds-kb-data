@@ -29,15 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ComplianceRequirement       : ehfnd_req_identifier;` | `ComplianceRequirement       : ehfnd_req_identifier;` |
-| `DangerousGoodsTransportCat  : dangerousgoodstransportcat;` | `DangerousGoodsTransportCat  : dangerousgoodstransportcat;` |
-| `DangerousGoodsQtyFactorText : dangerousgoodsqtyfactortext;` | `DangerousGoodsQtyFactorText : dangerousgoodsqtyfactortext;` |
-| `DangerousGoodsPointText     : dangerousgoodspointtext;` | `DangerousGoodsPointText     : dangerousgoodspointtext;` |
-| `_Item                       : association to parent D_CalctDngrsGoodsPointsItemR;` | *Association* |
+| `ComplianceRequirement` | `ehfnd_req_identifier` |
+| `DangerousGoodsTransportCat` | `dangerousgoodstransportcat` |
+| `DangerousGoodsQtyFactorText` | `dangerousgoodsqtyfactortext` |
+| `DangerousGoodsPointText` | `dangerousgoodspointtext` |
+| `_Item` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_CalctDngrsGoodsPointsItemR` | — |
 
 ## Source Code
 

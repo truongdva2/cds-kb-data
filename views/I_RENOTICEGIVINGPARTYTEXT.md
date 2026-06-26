@@ -15,6 +15,7 @@ tags:
   - text
   - component:RE-FX-2CL
   - lob:Other
+  - bo:RENoticeGivingParty
 ---
 # I_RENOTICEGIVINGPARTYTEXT
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `retmntprocprty )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RENoticeGivingParty` | `cast( dd07t.domvalue_l as retmntprocprty )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `RENoticeGivingPartyName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_RENoticeGivingParty` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RENoticeGivingParty` | `I_RENoticeGivingParty` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

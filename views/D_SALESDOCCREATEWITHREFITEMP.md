@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceSDDocumentItem : vgpos;` | `ReferenceSDDocumentItem : vgpos;` |
-| `RequestedQuantity       : reqd_qty;` | `RequestedQuantity       : reqd_qty;` |
-| `RequestedQuantityUnit   : reqd_qty_unit;` | `RequestedQuantityUnit   : reqd_qty_unit;` |
+| `ReferenceSDDocumentItem` | `vgpos` |
+| `RequestedQuantity` | `reqd_qty` |
+| `RequestedQuantityUnit` | `reqd_qty_unit` |
 
 ## Associations
 

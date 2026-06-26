@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:FiscalQuarter
 ---
 # I_FISCALQUARTER
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_fiscal_quarter )` | `cast ( dd07l.domvalue_l` |
+| `FiscalQuarter` | `cast ( dd07l.domvalue_l as fis_fiscal_quarter )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

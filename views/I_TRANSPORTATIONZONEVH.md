@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportZone` | `TransportZone` |
-| `key CountryCode` | `CountryCode` |
+| `TransportZone` | `TransportZone` |
+| `CountryCode` | `CountryCode` |
 | `_Country` | *Association* |
 | `_Text` | *Association* |
 

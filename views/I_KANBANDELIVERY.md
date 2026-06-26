@@ -31,17 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `KanbanContainer` | `pkkey` |
 | `SoldToParty` | `kunnr` |
 | `CustomerReferenceNumber` | `bstkd` |
 | `DeliveryDocument` | `vlien` |
 | `DeliveryDocumentItem` | `vliep` |
-| `_KanbanContainer.Plant, // for ACL` | *Association* |
+| `Plant` | `_KanbanContainer.Plant` |
 | `_KanbanContainer` | *Association* |
 | `_Customer` | *Association* |
 | `_CustomerCompanyByPlant` | *Association* |
-| `_KanbanContainer.Supplier` | *Association* |
+| `Supplier` | `_KanbanContainer.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 

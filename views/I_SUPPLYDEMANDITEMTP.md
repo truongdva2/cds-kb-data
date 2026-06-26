@@ -14,6 +14,7 @@ tags:
   - item-level
   - component:PP-FIO-2CL
   - lob:Manufacturing
+  - bo:MaterialSupplyAndDemandView
 ---
 # I_SUPPLYDEMANDITEMTP
 
@@ -30,7 +31,62 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MRPExceptionMessage', element: 'MRPExceptionMessageNumber' }, useAsTemplate: true  } ]` | `name: 'I_MRPExceptionMessage', element: 'MRPExceptionMessageNumber' }, useAsTemplate: true  } ]` |
+| `RowIndex` | `RowIndex` |
+| `Material` | `Material` |
+| `MRPPlant` | `MRPPlant` |
+| `MRPArea` | `MRPArea` |
+| `MRPPlanningSegmentType` | `MRPPlanningSegmentType` |
+| `MRPPlanningSegment` | `MRPPlanningSegment` |
+| `MaterialShortageDefinition` | `MaterialShortageDefinition` |
+| `MRPElementSupplyAggregation` | `MRPElementSupplyAggregation` |
+| `MRPElementDemandAggregation` | `MRPElementDemandAggregation` |
+| `MaterialExternalID` | `MaterialExternalID` |
+| `MRPElement` | `MRPElement` |
+| `MRPElementItem` | `MRPElementItem` |
+| `MRPElementScheduleLine` | `MRPElementScheduleLine` |
+| `MRPElementCategory` | `MRPElementCategory` |
+| `MRPElementCategoryShortName` | `MRPElementCategoryShortName` |
+| `MRPElementAvailyOrRqmtDate` | `MRPElementAvailyOrRqmtDate` |
+| `SupplyEndDate` | `SupplyEndDate` |
+| `SupplyStartDate` | `SupplyStartDate` |
+| `RequirementMRPDate` | `RequirementMRPDate` |
+| `MRPAvailableQuantity` | `MRPAvailableQuantity` |
+| `MRPElementOpenQuantity` | `MRPElementOpenQuantity` |
+| `MRPElementQuantityIsFirm` | `MRPElementQuantityIsFirm` |
+| `MRPElementDocumentType` | `MRPElementDocumentType` |
+| `StorageLocation` | `StorageLocation` |
+| `Assembly` | `Assembly` |
+| `ProductionVersion` | `ProductionVersion` |
+| `SourceMRPElement` | `SourceMRPElement` |
+| `SourceMRPElement_2` | `SourceMRPElement_2` |
+| `SourceMRPElementItem` | `SourceMRPElementItem` |
+| `SourceMRPElementScheduleLine` | `SourceMRPElementScheduleLine` |
+| `SourceMRPElementCategory` | `SourceMRPElementCategory` |
+| `MRPElementBusinessPartner` | `MRPElementBusinessPartner` |
+| `MRPElementBusinessPartnerName` | `MRPElementBusinessPartnerName` |
+| `MRPElementBusinessPartnerType` | `MRPElementBusinessPartnerType` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `UnitOfMeasureCommercialName` | `UnitOfMeasureCommercialName` |
+| `TargetQuantityUnitDisplayDcmls` | `TargetQuantityUnitDisplayDcmls` |
+| `TargetQuantityUnitDcmls` | `TargetQuantityUnitDcmls` |
+| `MaterialBaseUnitDesc` | `MaterialBaseUnitDesc` |
+| `UnitOfMeasureName` | `UnitOfMeasureName` |
+| `MRPElementIsReleased` | `MRPElementIsReleased` |
+| `MRPElementIsPartiallyDelivered` | `MRPElementIsPartiallyDelivered` |
+| `MRPRequestStatus` | `MRPRequestStatus` |
+| `MRPRequestSupplierResponse` | `MRPRequestSupplierResponse` |
+| `MRPAvailability` | `MRPAvailability` |
+| `MRPEvaluationHorizonInDays` | `MRPEvaluationHorizonInDays` |
+| `MaterialSafetyStockQty` | `MaterialSafetyStockQty` |
+| `MRPElementDocumentTypeName` | `MRPElementDocumentTypeName` |
+| `MRPElementCategoryGroup` | `MRPElementCategoryGroup` |
+| `MRPElementCategoryGroupName` | `MRPElementCategoryGroupName` |
+| `SupplyIsInThePast` | `SupplyIsInThePast` |
+| `NumberOfAggregatedMRPElements` | `NumberOfAggregatedMRPElements` |
+| `ProductionPlant` | `ProductionPlant` |
+| `PlanningPlant` | `PlanningPlant` |
+| `ExceptionMessageNumber` | `ExceptionMessageNumber` |
+| `ExceptionMessageText` | `ExceptionMessageText` |
 | `ExceptionMessageNumber2` | `ExceptionMessageNumber2` |
 | `ExceptionMessageText2` | `ExceptionMessageText2` |
 | `MRPElementReschedulingDate` | `MRPElementReschedulingDate` |

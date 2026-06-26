@@ -33,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 1.0 }` | `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 1.0 }` |
-| `fis_cctr_hryid_42 preserving type )` | `cast( hrrp_dir_n.hryid_42` |
+| `CostCenterHierarchy` | `cast( hrrp_dir_n.hryid_42 as fis_cctr_hryid_42 preserving type )` |
 | `ValidityEndDate` | `hrrp_dir_n.hryvalto` |
 | `ValidityStartDate` | `hrrp_dir_n.hryvalfrom` |
-| `fis_hrycls_kokrs preserving type )` | `cast( hrrp_dir_n.hrycls` |
+| `ControllingArea` | `cast( hrrp_dir_n.hrycls as fis_hrycls_kokrs preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Text` | *Association* |
 

@@ -31,74 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeDocObject` | `ChangeDocObject` |
-| `key ChangeDocObjectClass` | `ChangeDocObjectClass` |
-| `key ChangeDocument` | `ChangeDocument` |
-| `key DatabaseTable` | `DatabaseTable` |
-| `key ChangeDocTableKey` | `ChangeDocTableKey` |
-| `key ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
-| `key ChangeDocItemChangeType` | `ChangeDocItemChangeType` |
-| `case` | `case` |
-| `when ( DatabaseTable = 'VBAK'` | `when ( DatabaseTable = 'VBAK'` |
-| `or     DatabaseTable = 'VBAP'` | `or     DatabaseTable = 'VBAP'` |
-| `or     DatabaseTable = 'VBEP'` | `or     DatabaseTable = 'VBEP'` |
-| `or     DatabaseTable = 'VBPA'` | `or     DatabaseTable = 'VBPA'` |
-| `or     DatabaseTable = 'VBKD' )` | `or     DatabaseTable = 'VBKD' )` |
-| `and    ChangeDocDatabaseTableField = 'KEY'` | `and    ChangeDocDatabaseTableField = 'KEY'` |
-| `then` | `then` |
-| `cast('SalesDocument'as fieldname )` | `cast('SalesDocument'as fieldname )` |
-| `when ( DatabaseTable = 'VBAK' )` | `when ( DatabaseTable = 'VBAK' )` |
-| `then` | `then` |
-| `FieldmapSDH.GFNName` | `FieldmapSDH.GFNName` |
-| `when ( DatabaseTable = 'VBAP' )` | `when ( DatabaseTable = 'VBAP' )` |
-| `then` | `then` |
-| `FieldmapSDI.GFNName` | `FieldmapSDI.GFNName` |
-| `when ( DatabaseTable = 'VBKD' )` | `when ( DatabaseTable = 'VBKD' )` |
-| `then` | `then` |
-| `FieldmapSDB.GFNName` | `FieldmapSDB.GFNName` |
-| `when ( DatabaseTable = 'VBPA' )` | `when ( DatabaseTable = 'VBPA' )` |
-| `then` | `then` |
-| `FieldmapSDP.GFNName` | `FieldmapSDP.GFNName` |
-| `when ( DatabaseTable = 'VBEP' )` | `when ( DatabaseTable = 'VBEP' )` |
-| `then` | `then` |
-| `FieldmapSDS.GFNName` | `FieldmapSDS.GFNName` |
-| `when ( DatabaseTable = 'FPLA')` | `when ( DatabaseTable = 'FPLA')` |
-| `and    ChangeDocDatabaseTableField = 'KEY'` | `and    ChangeDocDatabaseTableField = 'KEY'` |
-| `then` | `then` |
-| `fieldname )` | `cast('BillingPlan'` |
-| `when ( DatabaseTable = 'KONVC')` | `when ( DatabaseTable = 'KONVC')` |
-| `and    ChangeDocDatabaseTableField = 'KEY'` | `and    ChangeDocDatabaseTableField = 'KEY'` |
-| `then` | `then` |
-| `fieldname )` | `cast('SalesDocumentCondition'` |
-| `when ( DatabaseTable = 'KONVC' )` | `when ( DatabaseTable = 'KONVC' )` |
-| `then` | `then` |
-| `FieldmapPRC.GFNName` | `FieldmapPRC.GFNName` |
-| `else` | `else` |
-| `ChangeDocGlobalFieldName` | `ChangeDocDatabaseTableField end` |
+| `ChangeDocObject` | `ChangeDocObject` |
+| `ChangeDocObjectClass` | `ChangeDocObjectClass` |
+| `ChangeDocument` | `ChangeDocument` |
+| `DatabaseTable` | `DatabaseTable` |
+| `ChangeDocTableKey` | `ChangeDocTableKey` |
+| `ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
+| `ChangeDocItemChangeType` | `ChangeDocItemChangeType` |
+| `ChangeDocGlobalFieldName` | `case…end` |
+| `ChangeGLobalFieldName` | `-- Fieldmap.GFNName` |
 | `SalesDocument` | `ChangeDocObject` |
-| `case` | `case` |
-| `when DatabaseTable = 'VBAP' or` | `when DatabaseTable = 'VBAP' or` |
-| `DatabaseTable = 'VBPA' or` | `DatabaseTable = 'VBPA' or` |
-| `DatabaseTable = 'VBEP' or` | `DatabaseTable = 'VBEP' or` |
-| `DatabaseTable = 'VBKD'` | `DatabaseTable = 'VBKD'` |
-| `then` | `then` |
-| `substring(ChangeDocTableKey, 14, 6)` | `substring(ChangeDocTableKey, 14, 6)` |
-| `SalesDocumentItem` | `else '000000' end` |
-| `case` | `case` |
-| `when DatabaseTable = 'VBEP'` | `when DatabaseTable = 'VBEP'` |
-| `then` | `then` |
-| `substring(ChangeDocTableKey, 20, 4)` | `substring(ChangeDocTableKey, 20, 4)` |
-| `ScheduleLine` | `else '0000' end` |
-| `case` | `case` |
-| `when DatabaseTable = 'VBPA'` | `when DatabaseTable = 'VBPA'` |
-| `then` | `then` |
-| `substring(ChangeDocTableKey, 20, 4)` | `substring(ChangeDocTableKey, 20, 4)` |
-| `PartnerFunction` | `else '0000' end` |
-| `case` | `case` |
-| `when DatabaseTable = 'KONVC'` | `when DatabaseTable = 'KONVC'` |
-| `then` | `then` |
-| `SDI.SalesDocumentCondition` | `SDI.SalesDocumentCondition` |
-| `SalesDocumentCondition` | `else '0000000000' end` |
+| `SalesDocumentItem` | `case…end` |
+| `ScheduleLine` | `case…end` |
+| `PartnerFunction` | `case…end` |
+| `SalesDocumentCondition` | `case…end` |
 | `ChangeDocPreviousUnit` | `ChangeDocPreviousUnit` |
 | `ChangeDocNewUnit` | `ChangeDocNewUnit` |
 | `ChangeDocPreviousCurrency` | `ChangeDocPreviousCurrency` |
@@ -106,9 +52,8 @@ tags:
 | `ChangeDocNewFieldValue` | `ChangeDocNewFieldValue` |
 | `ChangeDocPreviousFieldValue` | `ChangeDocPreviousFieldValue` |
 | `ChangeDocTextIsChanged` | `ChangeDocTextIsChanged` |
-| `_ChangeDocument.CreationDate` | *Association* |
-| `_ChangeDocument.CreationTime` | *Association* |
-| `_ChangeDocument` | *Association* |
+| `CreationDate` | `_ChangeDocument.CreationDate` |
+| `CreationTime` | `_ChangeDocument.CreationTime` |
 | `_ChangeDocLongTableKey` | *Association* |
 | `_ChangeDocumentItemExtension` | *Association* |
 

@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowAgentRule
 ---
 # I_WORKFLOWAGENTRULETEXT
 
@@ -33,9 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowScenarioDefinition` | `_reuse.wfd_id` |
+| `WorkflowScenarioDefinitionVers` | `_reuse.version` |
+| `WorkflowAgentRule` | `_reuse.ruse_label` |
+| `Language` | `_text.language` |
 | `_Language` | *Association* |
-| `_text.text        as WorkflowAgentRuleText` | *Association* |
+| `WorkflowAgentRuleText` | `_text.text` |
 
 ## Associations
 

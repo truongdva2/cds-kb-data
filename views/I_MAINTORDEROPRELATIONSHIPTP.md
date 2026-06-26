@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
-| `key MaintOrdOperationIsSuccessor` | `MaintOrdOperationIsSuccessor` |
-| `key RelatedMaintenanceOrder` | `RelatedMaintenanceOrder` |
-| `key RelatedMaintOrderOperation` | `RelatedMaintOrderOperation` |
-| `key OrderOpRelationshipIntType` | `OrderOpRelationshipIntType` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `MaintOrdOperationIsSuccessor` | `MaintOrdOperationIsSuccessor` |
+| `RelatedMaintenanceOrder` | `RelatedMaintenanceOrder` |
+| `RelatedMaintOrderOperation` | `RelatedMaintOrderOperation` |
+| `OrderOpRelationshipIntType` | `OrderOpRelationshipIntType` |
 | `PredecessorMaintOrderRouting` | `PredecessorMaintOrderRouting` |
 | `PredecessorOrderRoutingNode` | `PredecessorOrderRoutingNode` |
 | `SuccessorMaintOrderRouting` | `SuccessorMaintOrderRouting` |
@@ -55,8 +55,6 @@ tags:
 | `OpRelshpEarliestFinishTime` | `OpRelshpEarliestFinishTime` |
 | `OpRelshpLatestFinishDate` | `OpRelshpLatestFinishDate` |
 | `OpRelshpLatestFinishTime` | `OpRelshpLatestFinishTime` |
-| `_MaintenanceOrder          : redirected to I_MaintenanceOrderTP` | *Association* |
-| `_MaintenanceOrderOperation : redirected to parent I_MaintenanceOrderOperationTP` | *Association* |
 
 ## Associations
 

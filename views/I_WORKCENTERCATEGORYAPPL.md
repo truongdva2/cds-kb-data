@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-CFS-CE-2CL
   - lob:Manufacturing
+  - bo:WorkCenterCategoryCode
 ---
 # I_WORKCENTERCATEGORYAPPL
 

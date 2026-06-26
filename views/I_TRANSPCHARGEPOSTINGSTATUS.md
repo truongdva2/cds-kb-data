@@ -31,14 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_posting_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspChargePostingStatus` | `cast(substring(domvalue_l, 1, 2) as /scmtms/vdm_posting_status preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspChrgPostgStatusText` | [0..*] |
 
 ## Source Code
 

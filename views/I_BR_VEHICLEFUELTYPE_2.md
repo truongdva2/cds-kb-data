@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleFuelType
 ---
 # I_BR_VEHICLEFUELTYPE_2
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehiclefueltype preserving type )` | `cast ( tpcomb` |
+| `VehicleFuelType` | `cast ( tpcomb as logbr_vehiclefueltype preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

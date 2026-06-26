@@ -33,14 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Forecast.Product` | `Forecast.Product` |
-| `key Forecast.Plant` | `Forecast.Plant` |
-| `Forecast.ConsumptionRefUsageEndDate` | `Forecast.ConsumptionRefUsageEndDate` |
-| `Forecast.ConsumptionQtyMultiplier` | `Forecast.ConsumptionQtyMultiplier` |
-| `Forecast.ConsumptionReferenceProduct` | `Forecast.ConsumptionReferenceProduct` |
-| `Forecast.ConsumptionReferencePlant` | `Forecast.ConsumptionReferencePlant` |
-| `Forecast.CorrectionFactorIsRequired` | `Forecast.CorrectionFactorIsRequired` |
-| `Forecast.ForecastModelIsReset` | `Forecast.ForecastModelIsReset` |
+| `Product` | `Forecast.Product` |
+| `Plant` | `Forecast.Plant` |
+| `ConsumptionRefUsageEndDate` | `Forecast.ConsumptionRefUsageEndDate` |
+| `ConsumptionQtyMultiplier` | `Forecast.ConsumptionQtyMultiplier` |
+| `ConsumptionReferenceProduct` | `Forecast.ConsumptionReferenceProduct` |
+| `ConsumptionReferencePlant` | `Forecast.ConsumptionReferencePlant` |
+| `CorrectionFactorIsRequired` | `Forecast.CorrectionFactorIsRequired` |
+| `ForecastModelIsReset` | `Forecast.ForecastModelIsReset` |
 | `_Product` | *Association* |
 | `_ConsumptionReferenceProduct` | *Association* |
 | `_ConsumptionReferencePlant` | *Association* |

@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCntxtCategoryUUID` | `LglCntntMCntxtCategoryUUID` |
+| `LglCntntMCntxtCategoryUUID` | `LglCntntMCntxtCategoryUUID` |
 | `LglCntntMCntxtParCategoryUUID` | `LglCntntMCntxtParCategoryUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMCategory` | `LglCntntMCategory` |
-| `_LCMContextParentCategoryTP : redirected to parent I_LegalContextParentCategoryTP` | *Association* |
-| `_LCMContextTP               : redirected to I_LegalContextTP` | *Association* |
 
 ## Associations
 

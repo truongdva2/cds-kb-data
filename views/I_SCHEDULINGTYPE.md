@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SchedulingType
 ---
 # I_SCHEDULINGTYPE
 
@@ -29,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_termkz preserving type)` | `cast(typ.termkz` |
+| `SchedulingType` | `cast(typ.termkz as pph_termkz preserving type)` |
 | `SchedulingIsPerformedForward` | `typ.vorwt` |
 | `SchedulingIsPerformedBackward` | `typ.ruekt` |
 | `SchedgIsPerformedFromCurDate` | `typ.tagdt` |

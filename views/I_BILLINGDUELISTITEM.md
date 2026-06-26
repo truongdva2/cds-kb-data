@@ -31,7 +31,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessSolutionOrderStdVH'` | `name:    'I_BusinessSolutionOrderStdVH'` |
+| `BillingDocumentCategory` | `fktyp` |
+| `BillingDocumentType` | `fkart` |
+| `BillingDocumentDate` | `fkdat` |
+| `SalesOrganization` | `vkorg` |
+| `Customer` | `cast(kunnr as kunnr preserving type)` |
+| `DestinationCountry` | `lland` |
+| `ReferenceSDDocument` | `vbeln` |
+| `ReferenceSDDocumentCategory` | `vbtyp` |
+| `ReferenceSDDocumentType` | `vbart` |
+| `AddressID` | `cast(adrnr as adrnr preserving type)` |
+| `AddressPersonID` | `adrnp` |
+| `AddressObjectType` | `addr_type` |
+| `HeaderBillingBlockReason` | `faksk` |
+| `SortCriterion` | `sortkri` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `ShippingPoint` | `vstel` |
+| `OverallProofOfDeliveryStatus` | `pdstk` |
+| `NetAmount` | `netwr` |
+| `TransactionCurrency` | `waerk` |
+| `BillgDocReqRefLgclSyst` | `bdr_ref_logsys` |
+| `BillingDocRequestReference` | `bdr_ref` |
 | `BusinessSolutionOrder` | `solution_order_id` |
 | `CreatedByUser` | `ernam` |
 | `CreationDate` | `erdat` |

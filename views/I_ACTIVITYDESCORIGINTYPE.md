@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ActivityDescriptionOriginType
 ---
 # I_ACTIVITYDESCORIGINTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `actxy preserving type)` | `cast(substring(l.domvalue_l, 1, 1)` |
+| `ActivityDescOriginType` | `cast(substring(l.domvalue_l, 1, 1) as actxy preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

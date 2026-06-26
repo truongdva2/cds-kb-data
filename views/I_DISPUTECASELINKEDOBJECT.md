@@ -34,7 +34,7 @@ tags:
 | `LogicalSystem` | `logsys` |
 | `ObjectType` | `obj_type` |
 | `ObjectKey` | `obj_key` |
-| `dispute_relationship preserving type )` | `cast ( relation` |
+| `RelationToLinkedObject` | `cast ( relation as dispute_relationship preserving type )` |
 | `DisputeCaseUUID` | `case_guid_loc` |
 | `ObjectClassification` | `classification` |
 | `ObjectIsConfirmed` | `is_confirmed` |

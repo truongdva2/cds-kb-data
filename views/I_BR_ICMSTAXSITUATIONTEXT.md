@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_ICMSTaxSituation
 ---
 # I_BR_ICMSTAXSITUATIONTEXT
 
@@ -33,13 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `key cast(case substring( domvalue_l, 1, 1 )` | `cast(case substring( domvalue_l, 1, 1 )` |
-| `when 'A' then '41'` | `when 'A' then '41'` |
-| `when 'B' then '51'` | `when 'B' then '51'` |
-| `else concat(substring( domvalue_l, 1, 1 ), '0')` | `else concat(substring( domvalue_l, 1, 1 ), '0')` |
-| `logbr_taxsit)` | `end` |
-| `logbr_icmstaxsituation preserving type)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_ICMSTaxSituation` | `cast(…)` |
+| `BR_ICMSTaxSituationDesc` | `cast(ddtext as logbr_icmstaxsituation preserving type)` |
 | `_BR_ICMSTaxSituation` | *Association* |
 | `_Language` | *Association* |
 

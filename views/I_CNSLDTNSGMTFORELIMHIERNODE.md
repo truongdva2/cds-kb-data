@@ -30,17 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sapObjectNodeTypeReference: 'CnsldtnSegmentForElimination'` | `sapObjectNodeTypeReference: 'CnsldtnSegmentForElimination'` |
-| `foreignKey.association: '_SegmentForElim' }` | `foreignKey.association: '_SegmentForElim' }` |
-| `cast ( case _HierNode.NodeType` | `cast ( case _HierNode.NodeType` |
-| `when 'L' then` | `when 'L' then` |
-| `case replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(left( UniversalHierarchyLeafValue, 10 )` | `case replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(left( UniversalHierarchyLeafValue, 10 )` |
-| `'0', ''), '1', ''), '2', ''), '3', ''), '4', ''), '5', ''), '6', ''), '7', ''), '8', ''), '9', '')` | `'0', ''), '1', ''), '2', ''), '3', ''), '4', ''), '5', ''), '6', ''), '7', ''), '8', ''), '9', '')` |
-| `when  ''` | `when  ''` |
-| `then lpad(left( UniversalHierarchyLeafValue, 10 ), 25, '0')` | `then lpad(left( UniversalHierarchyLeafValue, 10 ), 25, '0')` |
-| `else left( UniversalHierarchyLeafValue, 10 )` | `else left( UniversalHierarchyLeafValue, 10 )` |
-| `end` | `end` |
-| `when '
+| `ConsolidationSegmentHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierNode.ValidityEndDate` |
+| `ParentNode` | `_HierNode.ParentNode` |
+| `HierarchyVersion` | `_HierNode.HierarchyVersion` |
+| `ValidityStartDate` | `_HierNode.ValidityStartDate` |
+| `fincs_elim_segment` | `cast(…)` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:PP-PI-POR-2CL
   - lob:Manufacturing
+  - bo:ProcessOrderPhase
 ---
 # I_PROCESSORDERPHASETP
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderInternalID` | `OrderInternalID` |
-| `key OrderPhaseInternalID` | `OrderPhaseInternalID` |
+| `OrderInternalID` | `OrderInternalID` |
+| `OrderPhaseInternalID` | `OrderPhaseInternalID` |
 | `ProcessOrder` | `ProcessOrder` |
 | `ProcessOrderSequence` | `ProcessOrderSequence` |
 | `ProcessOrderPhase` | `ProcessOrderPhase` |
@@ -42,7 +43,7 @@ tags:
 | `PhaseHasLongText` | `PhaseHasLongText` |
 | `LongTextLanguage` | `LongTextLanguage` |
 | `PhaseStandardTextCode` | `PhaseStandardTextCode` |
-| `PhaseIsToBeDeleted, // not changeable - deprecate/remove in subsequent version` | `PhaseIsToBeDeleted, // not changeable - deprecate/remove in subsequent version` |
+| `PhaseIsToBeDeleted` | `PhaseIsToBeDeleted` |
 | `Plant` | `Plant` |
 | `ProductionResource` | `ProductionResource` |
 | `ProductionResourceInternalID` | `ProductionResourceInternalID` |
@@ -53,14 +54,14 @@ tags:
 | `ConfirmationGroup` | `ConfirmationGroup` |
 | `NumberOfPhaseConfirmations` | `NumberOfPhaseConfirmations` |
 | `NumberOfCapacities` | `NumberOfCapacities` |
-| `CapacityRequirement, // not changeable - deprecate/remove in subsequent version` | `CapacityRequirement, // not changeable - deprecate/remove in subsequent version` |
+| `CapacityRequirement` | `CapacityRequirement` |
 | `ChangeNumber` | `ChangeNumber` |
 | `ObjectInternalID` | `ObjectInternalID` |
 | `CostElement` | `CostElement` |
-| `EmployeeSuitability, // not changeable - deprecate/remove in subsequent version` | `EmployeeSuitability, // not changeable - deprecate/remove in subsequent version` |
-| `EmployeeWageType,    // not changeable - deprecate/remove in subsequent version` | `EmployeeWageType,    // not changeable - deprecate/remove in subsequent version` |
-| `EmployeeWageGroup,   // not changeable - deprecate/remove in subsequent version` | `EmployeeWageGroup,   // not changeable - deprecate/remove in subsequent version` |
-| `NumberOfEmployees,   // not changeable - deprecate/remove in subsequent version` | `NumberOfEmployees,   // not changeable - deprecate/remove in subsequent version` |
+| `EmployeeSuitability` | `EmployeeSuitability` |
+| `EmployeeWageType` | `EmployeeWageType` |
+| `EmployeeWageGroup` | `EmployeeWageGroup` |
+| `NumberOfEmployees` | `NumberOfEmployees` |
 | `NumberOfTimeTickets` | `NumberOfTimeTickets` |
 | `PhaseSetupGroupCategory` | `PhaseSetupGroupCategory` |
 | `PhaseSetupGroup` | `PhaseSetupGroup` |
@@ -76,8 +77,8 @@ tags:
 | `PurchaseOutlineAgreement` | `PurchaseOutlineAgreement` |
 | `PurchaseOutlineAgreementItem` | `PurchaseOutlineAgreementItem` |
 | `PurgInfoRecNonStockItmSortTerm` | `PurgInfoRecNonStockItmSortTerm` |
-| `PurchaseOrder,     // not changeable - deprecate/remove in subsequent version` | `PurchaseOrder,     // not changeable - deprecate/remove in subsequent version` |
-| `PurchaseOrderItem, // not changeable - deprecate/remove in subsequent version` | `PurchaseOrderItem, // not changeable - deprecate/remove in subsequent version` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `Supplier` | `Supplier` |
 | `GoodsRecipientName` | `GoodsRecipientName` |
 | `PurchaseRequisition` | `PurchaseRequisition` |
@@ -166,12 +167,6 @@ tags:
 | `NoFurtherBusinessProcQtyIsExpd` | `NoFurtherBusinessProcQtyIsExpd` |
 | `BusinessProcRemainingQtyUnit` | `BusinessProcRemainingQtyUnit` |
 | `BusinessProcessRemainingQty` | `BusinessProcessRemainingQty` |
-| `_Operation               : redirected to parent I_ProcessOrderOperationTP` | *Association* |
-| `_PredecessorRelationship : redirected to composition child I_ProcessOrderRelationshipTP` | *Association* |
-| `_SuccessorRelationship   : redirected to I_ProcessOrderRelationshipTP` | *Association* |
-| `_Component               : redirected to I_ProcessOrderComponentTP` | *Association* |
-| `_Order                   : redirected to I_ProcessOrderTP` | *Association* |
-| `_PhaseCapacity           : redirected to composition child I_ProcessOrderPhaseCapacityTP` | *Association* |
 
 ## Associations
 

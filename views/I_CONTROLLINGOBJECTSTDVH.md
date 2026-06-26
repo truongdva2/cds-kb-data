@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ControllingObject
 ---
 # I_CONTROLLINGOBJECTSTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingObject` | `ControllingObject` |
+| `ControllingObject` | `ControllingObject` |
 | `ControllingArea` | `ControllingArea` |
 
 ## Associations

@@ -31,13 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `FunctionalLocation` | `tplnr` |
 | `Plant` | `werks` |
 | `BillOfMaterialVariantUsage` | `stlan` |
 | `BillOfMaterial` | `stlnr` |
 | `BillOfMaterialVariant` | `stlal` |
-| `stlty preserving type)` | `cast ('T'` |
+| `BillOfMaterialCategory` | `cast ('T' as stlty preserving type)` |
 | `_BillOfMaterialUsage` | *Association* |
 
 ## Associations

@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/trcharg_clc_res_instr preserving type)` | `cast(substring(domvalue_l, 1, 6)` |
+| `TranspChargeInstrnType` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tcm_instrn_typt preserving type)` | `cast(ddtext` |
+| `TranspChargeInstrnTypeDesc` | `cast(ddtext as /scmtms/vdm_tcm_instrn_typt preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspChargeInstrnType` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargeInstrnType` | `I_TranspChargeInstrnType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

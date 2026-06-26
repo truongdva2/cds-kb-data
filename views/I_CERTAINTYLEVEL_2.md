@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-CLM-2CL
   - lob:Other
+  - bo:CashFlowCertaintyLevel
 ---
 # I_CERTAINTYLEVEL_2
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fqm_certainty_level)` | `cast( dd07l.domvalue_l` |
+| `CertaintyLevel` | `cast( dd07l.domvalue_l as fqm_certainty_level)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CertaintyLevelText` | [0..*] |
 
 ## Source Code
 

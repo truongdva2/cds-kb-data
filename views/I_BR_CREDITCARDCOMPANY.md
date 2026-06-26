@@ -15,6 +15,7 @@ tags:
   - credit
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:CreditCardBrand
 ---
 # I_BR_CREDITCARDCOMPANY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_tband preserving type )` | `cast (t_band` |
+| `CreditCardBrand` | `cast (t_band as logbr_tband preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:FI-RA-2CL
   - lob:Finance
+  - bo:PerfObligationDeferralMethod
 ---
 # I_RAPERFOBLGNDEFERRALMETHODTXT
 
@@ -31,7 +32,7 @@ tags:
 |---|---|
 | `Language` | `_DeferralMethodText.langu` |
 | `PerfObligationDeferralMethod` | `_BADIFilterCondition.value1` |
-| `_DeferralMethodText.text    as PerfOblgnDeferralMethodText` | *Association* |
+| `PerfOblgnDeferralMethodText` | `_DeferralMethodText.text` |
 | `_DeferralMethod` | *Association* |
 | `_Language` | *Association* |
 

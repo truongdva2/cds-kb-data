@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.CustomerGroup` | `_Text.CustomerGroup` |
-| `_Text.CustomerGroupName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CustomerGroup as _CustomerGroup : redirected to parent I_CnsldtnCustomerGroupTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `CustomerGroup` | `_Text.CustomerGroup` |
+| `CustomerGroupName` | `_Text.CustomerGroupName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_CustomerGroup` | *Association* |
 
 ## Associations
 

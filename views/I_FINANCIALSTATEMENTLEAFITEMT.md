@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FinancialStatementLeafItem
 ---
 # I_FINANCIALSTATEMENTLEAFITEMT
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
-| `key    Language` | `Language` |
+| `FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
+| `Language` | `Language` |
 | `FinancialStatementLeafItemName` | `FinancialStatementLeafItemName` |
 | `FinStmntLeafItmLongName` | `FinStmntLeafItmLongName` |
 | `_Language` | *Association* |

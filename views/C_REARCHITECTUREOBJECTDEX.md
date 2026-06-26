@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:REArchitectureObjectUUID
 ---
 # C_REARCHITECTUREOBJECTDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
+| `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `REArchitectureObjectType` | `REArchitectureObjectType` |
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |

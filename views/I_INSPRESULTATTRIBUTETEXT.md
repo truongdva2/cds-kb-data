@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:InspectionResultAttribute
 ---
 # I_INSPRESULTATTRIBUTETEXT
 
@@ -34,7 +35,7 @@ tags:
 | `InspectionResultAttribute` | `tq77t.attribut` |
 | `Language` | `tq77t.sprache` |
 | `InspectionResultAttributeText` | `tq77t.kurztext` |
-| `_InspectionResultAttribute, //decomment only if no problems in analytics` | *Association* |
+| `_InspectionResultAttribute` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

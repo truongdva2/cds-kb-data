@@ -40,7 +40,6 @@ tags:
 | `FirstAcquisitionFiscalYear` | `acquisition_year` |
 | `FirstAcquisitionFiscalPeriod` | `acquisition_period` |
 | `LastRevaluationDate` | `last_reval_date` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_MasterFixedAsset` | *Association* |
 | `_FixedAsset` | *Association* |

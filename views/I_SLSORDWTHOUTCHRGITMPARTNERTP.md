@@ -32,23 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsOrdWithoutChargeItemPartner.SalesOrderWithoutCharge` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutCharge` |
-| `key SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeItem` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeItem` |
-| `key SlsOrdWithoutChargeItemPartner.PartnerFunction` | `SlsOrdWithoutChargeItemPartner.PartnerFunction` |
-| `SlsOrdWithoutChargeItemPartner.PartnerFunctionForEdit` | `SlsOrdWithoutChargeItemPartner.PartnerFunctionForEdit` |
-| `SlsOrdWithoutChargeItemPartner.Customer` | `SlsOrdWithoutChargeItemPartner.Customer` |
-| `SlsOrdWithoutChargeItemPartner.Supplier` | `SlsOrdWithoutChargeItemPartner.Supplier` |
-| `SlsOrdWithoutChargeItemPartner.Personnel` | `SlsOrdWithoutChargeItemPartner.Personnel` |
-| `SlsOrdWithoutChargeItemPartner.ContactPerson` | `SlsOrdWithoutChargeItemPartner.ContactPerson` |
-| `SlsOrdWithoutChargeItemPartner.ReferenceBusinessPartner` | `SlsOrdWithoutChargeItemPartner.ReferenceBusinessPartner` |
-| `SlsOrdWithoutChargeItemPartner.Partner` | `SlsOrdWithoutChargeItemPartner.Partner` |
-| `SlsOrdWithoutChargeItemPartner.PartnerIsSpecificForSDDocItem` | `SlsOrdWithoutChargeItemPartner.PartnerIsSpecificForSDDocItem` |
-| `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeType` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeType` |
-| `SlsOrdWithoutChargeItemPartner.SalesOrganization` | `SlsOrdWithoutChargeItemPartner.SalesOrganization` |
-| `SlsOrdWithoutChargeItemPartner.DistributionChannel` | `SlsOrdWithoutChargeItemPartner.DistributionChannel` |
-| `SlsOrdWithoutChargeItemPartner.OrganizationDivision` | `SlsOrdWithoutChargeItemPartner.OrganizationDivision` |
-| `_Item                    : redirected to parent I_SlsOrderWithoutChargeItemTP` | *Association* |
-| `_SalesOrderWithoutCharge : redirected to I_SalesOrderWithoutChargeTP` | *Association* |
+| `SalesOrderWithoutCharge` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutCharge` |
+| `SalesOrderWithoutChargeItem` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeItem` |
+| `PartnerFunction` | `SlsOrdWithoutChargeItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SlsOrdWithoutChargeItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `SlsOrdWithoutChargeItemPartner.Customer` |
+| `Supplier` | `SlsOrdWithoutChargeItemPartner.Supplier` |
+| `Personnel` | `SlsOrdWithoutChargeItemPartner.Personnel` |
+| `ContactPerson` | `SlsOrdWithoutChargeItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SlsOrdWithoutChargeItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `SlsOrdWithoutChargeItemPartner.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `SlsOrdWithoutChargeItemPartner.PartnerIsSpecificForSDDocItem` |
+| `SalesOrderWithoutChargeType` | `SlsOrdWithoutChargeItemPartner.SalesOrderWithoutChargeType` |
+| `SalesOrganization` | `SlsOrdWithoutChargeItemPartner.SalesOrganization` |
+| `DistributionChannel` | `SlsOrdWithoutChargeItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `SlsOrdWithoutChargeItemPartner.OrganizationDivision` |
 
 ## Associations
 

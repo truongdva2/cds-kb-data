@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-IV-LIV-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrInvcVerificatTolGroup
 ---
 # I_SUPLRINVCSUPLRTOLSTTGSAPI01
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
 | `APARToleranceGroupName` | `APARToleranceGroupName` |
 
 ## Associations

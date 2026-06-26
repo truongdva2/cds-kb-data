@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStopRole
 ---
 # I_TRANSPORDSTOPROLET_2
 
@@ -28,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_stop_role preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStopRole` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_stop_role preserving type)` |
 | `Language` | `ddlanguage` |
 | `TranspOrdStopRoleDesc` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdStopRole` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdStopRole` | `I_TranspOrdStopRole_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

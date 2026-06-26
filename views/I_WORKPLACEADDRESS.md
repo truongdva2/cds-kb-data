@@ -34,20 +34,20 @@ tags:
 | `BusinessPartnerUUID` | `Mom.partner_guid` |
 | `AddressID` | `root.addrnumber` |
 | `BusinessPartner` | `bp.partner` |
-| `_phone[1: r3_user = '1' ].country                                 as DestinationLocationCountry` | *Association* |
-| `_phone[1: r3_user = '1' ].tel_number                              as PhoneNumber` | *Association* |
-| `_phone[1: r3_user = '1' ].tel_extens                              as PhoneNumberExtension` | *Association* |
-| `_phone[1: r3_user = '1' ].telnr_long                              as NormalizedPhoneNumber` | *Association* |
-| `_phone[1: r3_user = '3' ].country                                 as MblPhoneDestinationLocCountry` | *Association* |
-| `_phone[1: r3_user = '3' ].tel_number                              as MobilePhoneNumber` | *Association* |
-| `_phone[1: r3_user = '3' ].telnr_long                              as MblNormalizedPhoneNumber` | *Association* |
-| `_CurrentDefaultFaxNumber.country                                  as FaxNumberCountry` | *Association* |
-| `_CurrentDefaultFaxNumber.fax_number                               as FaxAreaCodeSubscriberNumber` | *Association* |
-| `_CurrentDefaultFaxNumber.fax_extens                               as FaxExtensionNumber` | *Association* |
-| `_CurrentDefaultFaxNumber.faxnr_long                               as InternationalFaxNumber` | *Association* |
-| `_mail[1: flgdefault = 'X'].smtp_addr                              as DefaultEmailAddress` | *Association* |
-| `ValidityStartDate` | `tstmp_to_dats(Mom.from_timestamp,'UTC',  $session.client, 'NULL')` |
-| `ValidityEndDate` | `tstmp_to_dats(Mom.to_timestamp,'UTC',  $session.client, 'NULL')` |
+| `DestinationLocationCountry` | `_phone[1: r3_user = '1' ].country` |
+| `PhoneNumber` | `_phone[1: r3_user = '1' ].tel_number` |
+| `PhoneNumberExtension` | `_phone[1: r3_user = '1' ].tel_extens` |
+| `NormalizedPhoneNumber` | `_phone[1: r3_user = '1' ].telnr_long` |
+| `MblPhoneDestinationLocCountry` | `_phone[1: r3_user = '3' ].country` |
+| `MobilePhoneNumber` | `_phone[1: r3_user = '3' ].tel_number` |
+| `MblNormalizedPhoneNumber` | `_phone[1: r3_user = '3' ].telnr_long` |
+| `FaxNumberCountry` | `_CurrentDefaultFaxNumber.country` |
+| `FaxAreaCodeSubscriberNumber` | `_CurrentDefaultFaxNumber.fax_number` |
+| `FaxExtensionNumber` | `_CurrentDefaultFaxNumber.fax_extens` |
+| `InternationalFaxNumber` | `_CurrentDefaultFaxNumber.faxnr_long` |
+| `DefaultEmailAddress` | `_mail[1: flgdefault = 'X'].smtp_addr` |
+| `ValidityStartDate` | `tstmp_to_dats(Mom.from_timestamp,'UTC', $session.client, 'NULL')` |
+| `ValidityEndDate` | `tstmp_to_dats(Mom.to_timestamp,'UTC', $session.client, 'NULL')` |
 | `Building` | `root.building` |
 | `RoomNumber` | `root.roomnumber` |
 | `Floor` | `root.floor` |

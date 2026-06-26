@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SerialNumber` | `SerialNumber` |
-| `key FiscalYear` | `FiscalYear` |
-| `key PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
-| `key PhysicalInventoryDocumentItem` | `PhysicalInventoryDocumentItem` |
+| `SerialNumber` | `SerialNumber` |
+| `FiscalYear` | `FiscalYear` |
+| `PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
+| `PhysicalInventoryDocumentItem` | `PhysicalInventoryDocumentItem` |
 | `Equipment` | `Equipment` |
-| `_PhysicalInventoryDocumentItem : redirected to parent I_PhysInvtryDocumentItemTP` | *Association* |
-| `_PhysInvtryDoc : redirected to I_PhysicalInventoryDocumentTP` | *Association* |
 
 ## Associations
 

@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key dedt.CN_TaxInvcDeductionType` | `dedt.CN_TaxInvcDeductionType` |
-| `key Language` | `Language` |
+| `CN_TaxInvcDeductionType` | `dedt.CN_TaxInvcDeductionType` |
+| `Language` | `Language` |
 | `_Language` | *Association* |
-| `dedt.CN_TaxInvcDeductionTypeTxt` | `dedt.CN_TaxInvcDeductionTypeTxt` |
+| `CN_TaxInvcDeductionTypeTxt` | `dedt.CN_TaxInvcDeductionTypeTxt` |
 
 ## Associations
 

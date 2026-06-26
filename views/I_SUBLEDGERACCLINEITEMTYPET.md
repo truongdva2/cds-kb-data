@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `SubLedgerAcctLineItemType` | `finsts_slalittyt.slalittype` |
 | `Language` | `finsts_slalittyt.langu` |
-| `fis_slalittype_desc)` | `cast( finsts_slalittyt.description` |
+| `SubLedgerAcctLineItemTypeName` | `cast( finsts_slalittyt.description as fis_slalittype_desc)` |
 | `_Language` | *Association* |
 
 ## Associations

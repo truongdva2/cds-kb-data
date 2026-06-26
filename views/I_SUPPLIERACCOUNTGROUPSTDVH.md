@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierAccountGroup` | `SupplierAccountGroup` |
+| `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `_SupplierAccountGroupText` | *Association* |
 
 ## Associations

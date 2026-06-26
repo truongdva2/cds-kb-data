@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ItemPackingIncompletionStatus
 ---
 # I_ITEMPACKINGINCOMPLETIONSTST
 
@@ -39,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ItemPackingIncompletionStatus` | `I_ItemPackingIncompletionSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

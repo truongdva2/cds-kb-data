@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
 | `PurchaseContractItemText` | `PurchaseContractItemText` |
 | `ContractNetPriceAmount` | `ContractNetPriceAmount` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
@@ -82,12 +82,6 @@ tags:
 | `IsOutline` | `IsOutline` |
 | `PurgConfigurableItemNumber` | `PurgConfigurableItemNumber` |
 | `ProcmtHubRefcdConnectedSystem` | `ProcmtHubRefcdConnectedSystem` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurchaseContract       : redirected to parent I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CentralPurchaseContItemDist : redirected to composition child I_CntrlPurContrItemDistrTP_2` | *Association* |
-| `_CentrlPurContrItmCndnValdty : redirected to composition child I_CePuCoItmCndnValidityTP_2` | *Association* |
-| `_CntrlPurContrItmNotes       : redirected to composition child I_CntrlPurContrItemNotesTP_2` | *Association* |
-| `_CntrlPurContrItmCmmdtyQty   : redirected to composition child I_CePuCoItmCmmdtyQtyTP_2` | *Association* |
 
 ## Associations
 

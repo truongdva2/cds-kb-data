@@ -31,13 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSustModeOfTransportVH'` | `name: 'I_CnsldtnSustModeOfTransportVH'` |
-| `element: 'SustainabilityModeOfTransport'` | `element: 'SustainabilityModeOfTransport'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_sustmodeoftransport preserving type )` | `cast( _Source.SustainabilityModeOfTransport` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _Source.CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `SustainabilityModeOfTransport` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

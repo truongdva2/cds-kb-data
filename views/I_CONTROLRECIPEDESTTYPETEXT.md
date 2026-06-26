@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:ControlRecipeDestinationType
 ---
 # I_CONTROLRECIPEDESTTYPETEXT
 
@@ -31,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `destinationtypename preserving type)` | `cast(txt.ddtext` |
+| `ControlRecipeDestinationType` | `cast( substring(txt.domvalue_l, 1, 1) as comty preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `ControlRecipeDestTypeName` | `cast(txt.ddtext as destinationtypename preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_DestinationType` | *Association* |
 | `_Language` | *Association* |

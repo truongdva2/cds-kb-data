@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SchedulingReductionLevel
 ---
 # I_SCHEDULINGREDUCTIONLEVELTEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `redkz_txt preserving type)` | `cast(t.ddtext` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `SchedulingReductionLevel` | `cast(substring(t.domvalue_l, 1, 1) as redkz preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `SchedulingReductionLevelName` | `cast(t.ddtext as redkz_txt preserving type)` |
 | `_SchedulingReductionLevel` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SchedulingReductionLevel` | `I_SchedulingReductionLevel` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

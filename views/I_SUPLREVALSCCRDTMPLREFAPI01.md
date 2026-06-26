@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardRefUUID` | `SuplrEvalScorecardRefUUID` |
+| `SuplrEvalScorecardRefUUID` | `SuplrEvalScorecardRefUUID` |
 | `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
 | `SuplrEvalTemplateUUID` | `SuplrEvalTemplateUUID` |
 | `SupplierEvalTemplate` | `SupplierEvalTemplate` |

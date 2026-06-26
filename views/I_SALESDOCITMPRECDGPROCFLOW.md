@@ -31,19 +31,19 @@ tags:
 |---|---|
 | `SalesDocument` | `PrecedingProcFlowItem.SubsequentDocument` |
 | `SalesDocumentItem` | `PrecedingProcFlowItem.SubsequentDocumentItem` |
-| `key PrecedingProcFlowItem.DocRelationshipUUID` | `PrecedingProcFlowItem.DocRelationshipUUID` |
+| `DocRelationshipUUID` | `PrecedingProcFlowItem.DocRelationshipUUID` |
 | `SDDocumentCategory` | `PrecedingProcFlowItem.SubsequentDocumentCategory` |
-| `PrecedingProcFlowItem.PrecedingDocument` | `PrecedingProcFlowItem.PrecedingDocument` |
-| `PrecedingProcFlowItem.PrecedingDocumentItem` | `PrecedingProcFlowItem.PrecedingDocumentItem` |
-| `PrecedingProcFlowItem.PrecedingDocumentCategory` | `PrecedingProcFlowItem.PrecedingDocumentCategory` |
-| `PrecedingProcFlowItem.ProcessFlowLevel` | `PrecedingProcFlowItem.ProcessFlowLevel` |
-| `PrecedingProcFlowItem.CreationDate` | `PrecedingProcFlowItem.CreationDate` |
-| `PrecedingProcFlowItem.CreationTime` | `PrecedingProcFlowItem.CreationTime` |
-| `PrecedingProcFlowItem.LastChangeDate` | `PrecedingProcFlowItem.LastChangeDate` |
-| `SalesDocumentItem.SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
-| `SalesDocumentItem.SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
-| `SalesDocumentItem.DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
-| `SalesDocumentItem.OrganizationDivision` | `SalesDocumentItem.OrganizationDivision` |
+| `PrecedingDocument` | `PrecedingProcFlowItem.PrecedingDocument` |
+| `PrecedingDocumentItem` | `PrecedingProcFlowItem.PrecedingDocumentItem` |
+| `PrecedingDocumentCategory` | `PrecedingProcFlowItem.PrecedingDocumentCategory` |
+| `ProcessFlowLevel` | `PrecedingProcFlowItem.ProcessFlowLevel` |
+| `CreationDate` | `PrecedingProcFlowItem.CreationDate` |
+| `CreationTime` | `PrecedingProcFlowItem.CreationTime` |
+| `LastChangeDate` | `PrecedingProcFlowItem.LastChangeDate` |
+| `SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
+| `SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
+| `DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
+| `OrganizationDivision` | `SalesDocumentItem.OrganizationDivision` |
 | `_SalesDocument` | *Association* |
 | `_SalesDocumentItem` | *Association* |
 

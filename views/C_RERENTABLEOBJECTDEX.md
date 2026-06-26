@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RealEstateRentableObjectUUID
 ---
 # C_RERENTABLEOBJECTDEX
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
+| `RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |

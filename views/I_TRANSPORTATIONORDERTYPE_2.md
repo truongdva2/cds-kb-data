@@ -13,6 +13,7 @@ tags:
   - transport
   - component:TM-2CL
   - lob:Other
+  - bo:TransportationOrderType
 ---
 # I_TRANSPORTATIONORDERTYPE_2
 
@@ -29,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_type preserving type )` | `cast(type` |
-| `/scmtms/vdm_tor_category preserving type )` | `cast(cat` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationOrderType` | `cast(type as /scmtms/vdm_tor_type preserving type )` |
+| `TransportationOrderCategory` | `cast(cat as /scmtms/vdm_tor_category preserving type )` |
 | `_Text` | *Association* |
 | `_TransportationOrderCategory` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TransportationOrderTypeT_2` | [0..*] |
 | `_TransportationOrderCategory` | `I_TranspOrderCategory_2` | [0..1] |
 
 ## Source Code

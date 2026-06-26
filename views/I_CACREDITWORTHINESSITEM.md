@@ -31,24 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key CalendarYear` | `CalendarYear` |
-| `key CACreditWorthinessSequenceNmbr` | `CACreditWorthinessSequenceNmbr` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CalendarYear` | `CalendarYear` |
+| `CACreditWorthinessSequenceNmbr` | `CACreditWorthinessSequenceNmbr` |
 | `CACreditWorthinessOrigin` | `CACreditWorthinessOrigin` |
 | `CACreditWorthinessDate` | `CACreditWorthinessDate` |
 | `CAItemCreditWorthinessValue` | `CAItemCreditWorthinessValue` |
 | `CAItemCrdtWorthinessIsNegative` | `CAItemCrdtWorthinessIsNegative` |
-| `cast( case` | `cast( case` |
-| `when CAItemCrdtWorthinessIsNegative = 'X'` | `when CAItemCrdtWorthinessIsNegative = 'X'` |
-| `cbetr_kk ) * -1` | `then cast( CAItemCreditWorthinessValue` |
-| `cbetr_kk )` | `else cast( CAItemCreditWorthinessValue` |
-| `cbetr_kk )` | `end` |
+| `CAItmCrdtWrthnssWthSignVal` | `cast(…)` |
 | `CACrdtWorthinessItemIsReversed` | `CACrdtWorthinessItemIsReversed` |
-| `cast( case` | `cast( case` |
-| `when CACrdtWorthinessItemIsReversed = 'X'` | `when CACrdtWorthinessItemIsReversed = 'X'` |
-| `then '2'` | `then '2'` |
-| `else '1'` | `else '1'` |
-| `bonis_kk )` | `end` |
+| `CACrdtWorthinessItemStatus` | `cast(…)` |
 | `CACreditWorthinessItemExtKey` | `CACreditWorthinessItemExtKey` |
 | `CACreditWorthinessItemText` | `CACreditWorthinessItemText` |
 | `CAApplicationArea` | `CAApplicationArea` |
@@ -60,7 +52,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_CACreditWorthinessItemStatus` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_CAApplicationArea` | *Association* |

@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:TaxCalculationProcedure
 ---
 # I_TAXCALCULATIONPROCEDURE
 

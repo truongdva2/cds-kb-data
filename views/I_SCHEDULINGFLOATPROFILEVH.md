@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:SchedulingFloatProfile
 ---
 # I_SCHEDULINGFLOATPROFILEVH
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key SchedulingFloatProfile` | `SchedulingFloatProfile` |
+| `Plant` | `Plant` |
+| `SchedulingFloatProfile` | `SchedulingFloatProfile` |
 | `_Plant` | *Association* |
 
 ## Associations

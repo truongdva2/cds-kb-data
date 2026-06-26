@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBBusinessPartnerUUID` | `IHBBusinessPartnerUUID` |
+| `IHBBusinessPartnerUUID` | `IHBBusinessPartnerUUID` |
 | `IHBBusinessPartnerRefUUID` | `IHBBusinessPartnerRefUUID` |
 | `IHBAccountUUID` | `IHBAccountUUID` |
 | `IHBBusinessPartnerRole` | `IHBBusinessPartnerRole` |
@@ -45,7 +45,6 @@ tags:
 | `IHBBankStmntIsOriglRecipient` | `IHBBankStmntIsOriglRecipient` |
 | `IHBAccountChangedDateTime` | `IHBAccountChangedDateTime` |
 | `IHBEmailAddress` | `IHBEmailAddress` |
-| `_IHBAccountTP : redirected to parent I_IHBAccountTP` | *Association* |
 | `_IHBAccount` | *Association* |
 | `_IHBConverterOutID` | *Association* |
 

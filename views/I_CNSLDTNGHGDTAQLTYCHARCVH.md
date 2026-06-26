@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGDataQualityCharacteristic` | `_Source.GHGDataQualityCharacteristic` |
-| `_Source._Text[1: Language=$session.system_language].GHGDtaQltyCharacteristicName` | *Association* |
+| `GHGDataQualityCharacteristic` | `_Source.GHGDataQualityCharacteristic` |
+| `GHGDtaQltyCharacteristicName` | `_Source._Text[1: Language=$session.system_language].GHGDtaQltyCharacteristicName` |
 
 ## Associations
 

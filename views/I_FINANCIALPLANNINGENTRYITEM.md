@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:FinancialPlanningEntryItem
 ---
 # I_FINANCIALPLANNINGENTRYITEM
 
@@ -31,7 +32,205 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `FinancialPlanningReqTransSqnc` | `reqtsn` |
+| `FinancialPlanningDataPacket` | `datapakid` |
+| `FinancialPlanningEntryItem` | `record` |
+| `ControllingArea` | `kokrs` |
+| `CompanyCode` | `rbukrs` |
+| `Ledger` | `rldnr` |
+| `GLAccount` | `racct` |
+| `ChartOfAccounts` | `ktopl` |
+| `FiscalYear` | `gjahr` |
+| `LedgerFiscalYear` | `ryear` |
+| `BusinessTransactionCategory` | `bttype` |
+| `BusinessTransactionType` | `cast(bttype as fins_custbttype preserving type )` |
+| `FinancialTransactionType` | `rmvct` |
+| `FinPlngEntryItemCreatedByUser` | `usnam` |
+| `FinPlngEntryItemCrtnDateTime` | `cast(…)` |
+| `BusinessArea` | `rbusa` |
+| `ProfitCenter` | `prctr` |
+| `CostCenter` | `rcntr` |
+| `Project` | `cast(ps_pspid as fis_project preserving type )` |
+| `ProjectInternalID` | `ps_prj_pnr` |
+| `PartnerProjectInternalID` | `pps_prj_pnr` |
+| `WBSElement` | `ps_posid` |
+| `WBSElementInternalID` | `ps_psp_pnr` |
+| `PartnerWBSElementInternalID` | `pps_psp_pnr` |
+| `FunctionalArea` | `rfarea` |
+| `Segment` | `segment` |
+| `CostCtrActivityType` | `lstar` |
+| `CostAnalysisResource` | `rsrce` |
+| `WorkPackage` | `cast( ps_posid as /cpd/plan_item_id )` |
+| `WorkItem` | `work_item_id` |
+| `BillableControl` | `bemot` |
+| `IsLotSizeIndependent` | `psknz` |
+| `CostingLotSize` | `losgr` |
+| `LotSizeUnit` | `lsunit` |
+| `PartnerCompanyCode` | `cast(pbukrs as fis_partner_company_code preserving type)` |
+| `OriginCostCenter` | `ukostl` |
+| `OriginCostCtrActivityType` | `ulstar` |
+| `OriginProfitCenter` | `uprctr` |
+| `PartnerBusinessArea` | `sbusa` |
+| `PartnerSegment` | `psegment` |
+| `PartnerProfitCenter` | `pprctr` |
+| `PartnerCostCenter` | `scntr` |
+| `PartnerProject` | `pps_pspid` |
+| `PartnerWBSElement` | `pps_posid` |
+| `PartnerFunctionalArea` | `sfarea` |
+| `PartnerCostCtrActivityType` | `plstar` |
+| `OrderID` | `aufnr` |
+| `PartnerOrder` | `cast(paufnr as fis_par_aufnr_depre preserving type )` |
+| `PartnerOrder_2` | `cast(paufnr as fis_par_aufnr preserving type )` |
+| `PartnerCompany` | `rassc` |
+| `ReferenceDocumentType` | `awtyp` |
+| `ReferenceDocumentContext` | `aworg` |
+| `ReferenceDocument` | `awref` |
+| `TransactionCurrency` | `rwcur` |
+| `AmountInTransactionCurrency` | `wsl` |
+| `CompanyCodeCurrency` | `rhcur` |
+| `AmountInCompanyCodeCurrency` | `hsl` |
+| `GlobalCurrency` | `rkcur` |
+| `AmountInGlobalCurrency` | `ksl` |
+| `FunctionalCurrency` | `rfccur` |
+| `AmountInFunctionalCurrency` | `fcsl` |
+| `FreeDefinedCurrency1` | `rocur` |
+| `AmountInFreeDefinedCurrency1` | `osl` |
+| `FreeDefinedCurrency2` | `rvcur` |
+| `AmountInFreeDefinedCurrency2` | `vsl` |
+| `FreeDefinedCurrency3` | `rbcur` |
+| `AmountInFreeDefinedCurrency3` | `bsl` |
+| `FreeDefinedCurrency4` | `rccur` |
+| `AmountInFreeDefinedCurrency4` | `csl` |
+| `FreeDefinedCurrency5` | `rdcur` |
+| `AmountInFreeDefinedCurrency5` | `dsl` |
+| `FreeDefinedCurrency6` | `recur` |
+| `AmountInFreeDefinedCurrency6` | `esl` |
+| `FreeDefinedCurrency7` | `rfcur` |
+| `AmountInFreeDefinedCurrency7` | `fsl` |
+| `FreeDefinedCurrency8` | `rgcur` |
+| `AmountInFreeDefinedCurrency8` | `gsl` |
+| `ControllingObjectCurrency` | `rco_ocur` |
+| `AmountInObjectCurrency` | `co_osl` |
+| `FixedAmountInGlobalCrcy` | `kfsl` |
+| `FixedAmountInCoCodeCrcy` | `hfsl` |
+| `FixedAmountInTransCrcy` | `wfsl` |
+| `CostSourceUnit` | `rvunit` |
+| `ValuationQuantity` | `vmsl` |
+| `ValuationFixedQuantity` | `vmfsl` |
+| `ReferenceQuantityUnit` | `rrunit` |
+| `ReferenceQuantity` | `rmsl` |
+| `FiscalYearVariant` | `periv` |
+| `FiscalPeriod` | `poper` |
+| `FiscalYearPeriod` | `fiscyearper` |
+| `PostingDate` | `cast( budat as fis_budat preserving type )` |
+| `AssignmentReference` | `zuonr` |
+| `SubLedgerAcctLineItemType` | `slalittype` |
+| `SalesOrder` | `kdauf` |
+| `SalesOrderItem` | `kdpos` |
+| `SalesDocument` | `cast(kdauf as vbeln_va preserving type)` |
+| `SalesDocumentItem` | `cast(kdpos as posnr_va preserving type)` |
+| `Plant` | `werks` |
+| `Material` | `matnr` |
+| `Product` | `cast (matnr as productnumber preserving type )` |
+| `Customer` | `kunnr` |
+| `DocumentItemText` | `sgtxt` |
+| `ControllingObject` | `cast( objnr as fis_objnr preserving type)` |
+| `PlanningCategory` | `category` |
+| `AccountAssignmentType` | `accasty` |
+| `PartnerAccountAssignmentType` | `paccasty` |
+| `ControllingDebitCreditCode` | `co_belkz` |
+| `PersonnelNumber` | `pernr` |
+| `ServiceDocumentType` | `service_doc_type` |
+| `ServiceDocument` | `service_doc_id` |
+| `ServiceDocumentItem` | `service_doc_item_id` |
+| `ServiceContractType` | `service_contract_type` |
+| `ServiceContract` | `service_contract_id` |
+| `ServiceContractItem` | `service_contract_item_id` |
+| `ProjectNetwork` | `nplnr` |
+| `OffsettingAccount` | `gkont` |
+| `OffsettingAccountType` | `cast( gkoar as fis_gkoar preserving type )` |
+| `OffsettingChartOfAccounts` | `case…end` |
+| `IsStatisticalOrder` | `cast(…)` |
+| `IsStatisticalCostCenter` | `cast(…)` |
+| `IsStatisticalSalesDocument` | `cast(…)` |
+| `WBSIsStatisticalWBSElement` | `cast(…)` |
+| `OriginOrder` | `aufnr_org` |
+| `BillingDocumentType` | `fkart` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `OrganizationDivision` | `cast( spart as fis_spart preserving type )` |
+| `SoldMaterial` | `cast(matnr_copa as fis_sold_material preserving type )` |
+| `SoldProduct` | `cast (matnr_copa as fins_matnr_pa preserving type)` |
+| `MaterialGroup` | `matkl` |
+| `SoldProductGroup` | `cast (matkl as productgroup preserving type)` |
+| `ProductGroup` | `matkl_mm` |
+| `CustomerGroup` | `kdgrp` |
+| `CustomerSupplierCountry` | `land1` |
+| `CustomerSupplierIndustry` | `cast(brsch as fis_brsch preserving type )` |
+| `SalesDistrict` | `bzirk` |
+| `BillToParty` | `kunre` |
+| `ShipToParty` | `kunwe` |
+| `CustomerSupplierCorporateGroup` | `cast(konzs as fis_konzs preserving type )` |
+| `FinancialManagementArea` | `fikrs` |
+| `Fund` | `rfund` |
+| `GrantID` | `rgrant_nbr` |
+| `BudgetPeriod` | `rbudget_pd` |
+| `SponsoredProgram` | `rsponsored_prog` |
+| `SponsoredClass` | `rsponsored_class` |
+| `GteeMBudgetValidityNumber` | `rbdgt_vldty_nbr` |
+| `BudgetProcess` | `budget_process` |
+| `BudgetingType` | `budget_subcategory` |
+| `BudgetDocWorkFlowStatus` | `bdgt_doc_workflow_status` |
+| `WorkCenterInternalID` | `arbid` |
+| `OrderOperation` | `vornr` |
+| `OrderItem` | `aufps` |
+| `PartnerOrderItem` | `paufps` |
+| `OrderSuboperation` | `uvorn` |
+| `Equipment` | `equnr` |
+| `FunctionalLocation` | `tplnr` |
+| `Assembly` | `istru` |
+| `MaintenanceActivityType` | `cast(ilart as rsh_eam_maint_activity_type preserving type )` |
+| `MaintenanceOrderPlanningCode` | `plknz` |
+| `MaintPriorityType` | `artpr` |
+| `MaintPriority` | `priok` |
+| `SuperiorOrder` | `maufnr` |
+| `OriginOrderOperation` | `vornr_org` |
+| `AssetDepreciationArea` | `afabe` |
+| `MasterFixedAsset` | `anln1` |
+| `FixedAsset` | `anln2` |
+| `AssetAcctTransClassfctn` | `movcat` |
+| `AssetClass` | `anlkl` |
+| `JointVenture` | `vname` |
+| `JointVentureEquityGroup` | `cast( egrup as jv_egroup_cds preserving type )` |
+| `JointVentureCostRecoveryCode` | `cast( recid as jv_recind_cds preserving type )` |
+| `JointVentureProductionDate` | `cast( prodper as jv_prodper_cds preserving type )` |
+| `Reservation` | `rsnum` |
+| `ReservationItem` | `rspos` |
+| `ReservationType` | `rsart` |
+| `MMServicePackage` | `packno` |
+| `MMServicePackageLine` | `introw` |
+| `REBusinessEntity` | `SWENR` |
+| `RealEstateBuilding` | `SGENR` |
+| `RealEstateProperty` | `SGRNR` |
+| `RERentalObject` | `SMENR` |
+| `RealEstateContract` | `RECNNR` |
+| `REServiceChargeKey` | `snksl` |
+| `RESettlementUnitID` | `sempsl` |
+| `SettlementReferenceDate` | `dabrz` |
+| `ProducedProduct` | `pmatnr` |
+| `CostEstimateValidityStartDate` | `costg_from_date` |
+| `CostEstimateValidityEndDate` | `costg_to_date` |
+| `CostOriginGroup` | `hkgrp` |
+| `AccrualObjectType` | `acrobjtype` |
+| `AccrualObjectLogicalSystem` | `acrlogsys` |
+| `AccrualObject` | `acrobj_id` |
+| `AccrualSubobject` | `acrsobj_id` |
+| `AccrualItemType` | `acritmtype` |
+| `AccrualReferenceObject` | `acrrefobj_id` |
+| `AccrualValueDate` | `acrvaldat` |
+| `PlanPriceInGlobalCurrency` | `kprice` |
+| `PlanPriceInCompanyCodeCurrency` | `hprice` |
 | `PlanPriceInTransactionCurrency` | `wprice` |
 | `_Ledger` | *Association* |
 | `_CompanyCode` | *Association* |
@@ -161,10 +360,10 @@ tags:
 | `_ServiceContractType` | *Association* |
 | `_SponsoredProgram` | *Association* |
 | `_SponsoredClass` | *Association* |
-| `brgru)` | `cast( ''` |
-| `brgru)` | `cast( ''` |
-| `aufart)` | `cast( ''` |
-| `auart)` | `cast( ''` |
+| `GLAccountAuthorizationGroup` | `cast( '' as brgru)` |
+| `CustomerBasicAuthorizationGrp` | `cast( '' as brgru)` |
+| `OrderType` | `cast( '' as aufart)` |
+| `SalesOrderType` | `cast( '' as auart)` |
 
 ## Associations
 
@@ -212,7 +411,6 @@ tags:
 | `_WBSElement` | `I_WBSElement` | [0..1] |
 | `_WBSElementByInternalKey` | `I_WBSElementByInternalKey` | [0..1] |
 | `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
-| `_WBSElementInternalID` | `I_WBSElementBasicData` | [0..1] |
 | `_PartnerWBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
 | `_Project` | `I_Project` | [0..1] |
 | `_ProjectBasicData` | `I_ProjectBasicData` | [0..1] |
@@ -234,7 +432,6 @@ tags:
 | `_ProductGroup_2` | `I_ProductGroup_2` | [0..1] |
 | `_SoldMaterial` | `I_Material` | [0..1] |
 | `_SoldProduct` | `I_Product` | [0..1] |
-| `_ProductGroup` | `I_ProductGroup_2` | [0..1] |
 | `_SalesOrder` | `I_SalesOrder` | [0..1] |
 | `_SalesOrderItem` | `I_SalesOrderItem` | [0..1] |
 | `_SalesDocument` | `I_SalesDocument` | [0..1] |

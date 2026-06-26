@@ -34,11 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessPartnerVH'` | `name:    'I_BusinessPartnerVH'` |
-| `element: 'BusinessPartner' }` | `element: 'BusinessPartner' }` |
-| `}]` | `}]` |
-| `key BusinessPartner` | `BusinessPartner` |
-| `key BusinessPartnerRole` | `BusinessPartnerRole` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BusinessPartnerRole` | `BusinessPartnerRole` |
 | `ValidFrom` | `ValidFrom` |
 | `ValidTo` | `ValidTo` |
 | `BusinessPartnerRoleForEdit` | `BusinessPartnerRoleForEdit` |
@@ -55,8 +52,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 | `_AuthorizationGroup` | *Association* |
 | `_BusinessPartnerRoleVH` | *Association* |
 

@@ -15,6 +15,7 @@ tags:
   - status
   - component:CA-GTF-VDM
   - lob:Cross-Application Components
+  - bo:SystemStatus
 ---
 # I_SYSTEMSTATUS
 
@@ -37,7 +38,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SystemStatusText` | `I_SystemStatusText` | [0..*] |
 
 ## Source Code
 

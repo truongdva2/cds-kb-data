@@ -34,11 +34,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `LoadingGroup` | `LoadingGroup` |
+| `CapPlanningQuantityInBaseUoM` | `CapPlanningQuantityInBaseUoM` |
+| `ProdShipgProcgDurationInDays` | `ProdShipgProcgDurationInDays` |
+| `WrkCentersShipgSetupTimeInDays` | `WrkCentersShipgSetupTimeInDays` |
+| `ReplacementPartType` | `ReplacementPartType` |
+| `AvailabilityCheckType` | `AvailabilityCheckType` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_LoadingGroupText` | *Association* |
 | `_ProductReplacementPartTypeT` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |

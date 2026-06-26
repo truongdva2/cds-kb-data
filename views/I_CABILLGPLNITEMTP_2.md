@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CABillgPlnNumber` | `CABillgPlnNumber` |
-| `key CABillgPlnItem` | `CABillgPlnItem` |
+| `CABillgPlnNumber` | `CABillgPlnNumber` |
+| `CABillgPlnItem` | `CABillgPlnItem` |
 | `CABillgPlnItmCat` | `CABillgPlnItmCat` |
 | `CABillgPlnItmType` | `CABillgPlnItmType` |
 | `CABillgPlnItmTxt` | `CABillgPlnItmTxt` |
@@ -101,8 +101,6 @@ tags:
 | `CAIntcoSubtype` | `CAIntcoSubtype` |
 | `TaxCalculationProcedure` | `TaxCalculationProcedure` |
 | `CAApplicationArea` | `CAApplicationArea` |
-| `/* Associations */` | `/* Associations */` |
-| `_CABillgPln : redirected to parent I_CABillgPlnTP_2` | *Association* |
 
 ## Associations
 

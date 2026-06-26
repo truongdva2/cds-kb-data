@@ -33,9 +33,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_UnitOfMeasureStdVH'` | `name:    'I_UnitOfMeasureStdVH'` |
-| `element: 'UnitOfMeasure' }` | `element: 'UnitOfMeasure' }` |
-| `}]` | `}]` |
+| `ProjBillgElmntEntrItmFlowUUID` | `ProjectBillingElementEntryFlow.projbillgelmntentritmflowuuid` |
+| `ProjBillgElmntEntrItmUUID` | `ProjectBillingElementEntryFlow.projbillgelmntentritmuuid` |
+| `BillingDocument` | `ProjectBillingElementEntryFlow.billingdocument` |
+| `BillingDocumentItem` | `ProjectBillingElementEntryFlow.billingdocumentitem` |
+| `BillingDocumentType` | `ProjectBillingElementEntryFlow.billingdocumenttype` |
+| `SDDocumentCategory` | `ProjectBillingElementEntryFlow.sddocumentcategory` |
+| `ProjectBillingRequest` | `ProjectBillingElementEntryFlow.precedingdocument` |
+| `BillingDocRequestItemReference` | `ProjectBillingElementEntryFlow.precedingdocumentitem` |
+| `BillingDate` | `ProjectBillingElementEntryFlow.billingdate` |
+| `DocumentBillingStatus` | `ProjectBillingElementEntryFlow.documentbillingstatus` |
+| `EnterpriseProjectServiceOrg` | `ProjectBillingElementEntryFlow.enterpriseprojectserviceorg` |
+| `ProjBillgElmntEntrSrvcExpnCode` | `ProjectBillingElementEntryFlow.serviceexpensecode` |
+| `TransactionCurrency` | `ProjectBillingElementEntryFlow.transactioncurrency` |
+| `ProjectCurrency` | `ProjectBillingElementEntryFlow.projectcurrency` |
+| `GlobalCurrency` | `ProjectBillingElementEntryFlow.globalcurrency` |
+| `DocumentCurrency` | `ProjectBillingElementEntryFlow.documentcurrency` |
+| `NetPriceAmountInDocCrcy` | `ProjectBillingElementEntryFlow.netpriceamountindoccrcy` |
+| `NetPriceQuantity` | `ProjectBillingElementEntryFlow.netpricequantity` |
+| `NetPriceQuantityUnit` | `ProjectBillingElementEntryFlow.netpricequantityunit` |
 | `QuantityUnit` | `ProjectBillingElementEntryFlow.quantityunit` |
 | `BillingRequestedQuantity` | `ProjectBillingElementEntryFlow.billingrequestedquantity` |
 | `BillgReqdAmtInTransacCrcy` | `ProjectBillingElementEntryFlow.billgreqdamtintransaccrcy` |

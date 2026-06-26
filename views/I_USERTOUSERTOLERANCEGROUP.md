@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `UserID` | `usnam` |
-| `fins_rfpro )` | `cast( rfpro` |
+| `UserToleranceGroup` | `cast( rfpro as fins_rfpro )` |
 | `_UserToleranceGroup` | *Association* |
 
 ## Associations

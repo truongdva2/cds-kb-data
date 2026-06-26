@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionRoutingOperation
 ---
 # I_MFGBOOOPERATIONCHANGESTATE
 
@@ -30,88 +31,92 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Supplier_VH', element: 'Supplier' } } ]` | `name: 'I_Supplier_VH', element: 'Supplier' } } ]` |
-| `case` | `case` |
-| `when PurchasingInfoRecord is not initial` | `when PurchasingInfoRecord is not initial` |
-| `then _PurchasingInfoRec.Supplier` | `then _PurchasingInfoRec.Supplier` |
-| `else Supplier` | `else Supplier` |
-| `Supplier` | `end` |
-| `case` | `case` |
-| `when PurchasingInfoRecord is not initial` | `when PurchasingInfoRecord is not initial` |
-| `then  case` | `then  case` |
-| `when OpIsExtlyProcdWithSubcontrg is not initial` | `when OpIsExtlyProcdWithSubcontrg is not initial` |
-| `then coalesce( _SubCtrct_with_plant.MaterialPlannedDeliveryDurn, _SubCtrct_without_plant.MaterialPlannedDeliveryDurn )` | `then coalesce( _SubCtrct_with_plant.MaterialPlannedDeliveryDurn, _SubCtrct_without_plant.MaterialPlannedDeliveryDurn )` |
-| `else coalesce( _Std_with_plant.MaterialPlannedDeliveryDurn, _Std_without_plant.MaterialPlannedDeliveryDurn )` | `else coalesce( _Std_with_plant.MaterialPlannedDeliveryDurn, _Std_without_plant.MaterialPlannedDeliveryDurn )` |
-| `end` | `end` |
-| `else PlannedDeliveryDuration` | `else PlannedDeliveryDuration` |
-| `PlannedDeliveryDuration` | `end` |
-| `case` | `case` |
-| `when PurchasingInfoRecord is not initial` | `when PurchasingInfoRecord is not initial` |
-| `then case` | `then case` |
-| `when OpIsExtlyProcdWithSubcontrg is not initial` | `when OpIsExtlyProcdWithSubcontrg is not initial` |
-| `then coalesce( _SubCtrct_with_plant.MaterialPriceUnitQty, _SubCtrct_without_plant.MaterialPriceUnitQty )` | `then coalesce( _SubCtrct_with_plant.MaterialPriceUnitQty, _SubCtrct_without_plant.MaterialPriceUnitQty )` |
-| `else coalesce( _Std_with_plant.MaterialPriceUnitQty, _Std_without_plant.MaterialPriceUnitQty )` | `else coalesce( _Std_with_plant.MaterialPriceUnitQty, _Std_without_plant.MaterialPriceUnitQty )` |
-| `end` | `end` |
-| `else NumberOfOperationPriceUnits` | `else NumberOfOperationPriceUnits` |
-| `NumberOfOperationPriceUnits` | `end` |
-| `case` | `case` |
-| `when PurchasingInfoRecord is not initial` | `when PurchasingInfoRecord is not initial` |
-| `then case` | `then case` |
-| `when OpIsExtlyProcdWithSubcontrg is not initial` | `when OpIsExtlyProcdWithSubcontrg is not initial` |
-| `then coalesce( _SubCtrct_with_plant.Currency, _SubCtrct_without_plant.Currency )` | `then coalesce( _SubCtrct_with_plant.Currency, _SubCtrct_without_plant.Currency )` |
-| `else coalesce( _Std_with_plant.Currency, _Std_without_plant.Currency )` | `else coalesce( _Std_with_plant.Currency, _Std_without_plant.Currency )` |
-| `end` | `end` |
-| `else OpExternalProcessingCurrency` | `else OpExternalProcessingCurrency` |
-| `OpExternalProcessingCurrency` | `end` |
-| `case` | `case` |
-| `when PurchasingInfoRecord is not initial` | `when PurchasingInfoRecord is not initial` |
-| `then case` | `then case` |
-| `when OpIsExtlyProcdWithSubcontrg is not initial` | `when OpIsExtlyProcdWithSubcontrg is not initial` |
-| `then coalesce( _SubCtrct_with_plant.NetPriceAmount, _SubCtrct_without_plant.NetPriceAmount )` | `then coalesce( _SubCtrct_with_plant.NetPriceAmount, _SubCtrct_without_plant.NetPriceAmount )` |
-| `else coalesce( _Std_with_plant.NetPriceAmount, _Std_without_plant.NetPriceAmount )` | `else coalesce( _Std_with_plant.NetPriceAmount, _Std_without_plant.NetPriceAmount )` |
-| `end` | `end` |
-| `else OpExternalProcessingPrice` | `else OpExternalProcessingPrice` |
-| `OpExternalProcessingPrice` | `end` |
-| `InspectionLotType` | `InspectionLotType` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `BillOfOperationsVariant` |
+| `BillOfOperationsSequence` | `BillOfOperationsSequence` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `BOOSqncOpAssgmtIntVersionCntr` | `BOOSqncOpAssgmtIntVersionCntr` |
+| `BOOOpInternalVersionCounter` | `BOOOpInternalVersionCounter` |
+| `OperationExternalID` | `OperationExternalID` |
+| `Operation` | `Operation` |
+| `Operation_2` | `Operation_2` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `IsDeleted` | `IsDeleted` |
+| `IsImplicitlyDeleted` | `IsImplicitlyDeleted` |
+| `OperationText` | `OperationText` |
+| `LongTextLanguageCode` | `LongTextLanguageCode` |
+| `OperationControlProfile` | `OperationControlProfile` |
+| `OperationStandardTextCode` | `OperationStandardTextCode` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `FactoryCalendar` | `FactoryCalendar` |
+| `CapacityCategoryCode` | `CapacityCategoryCode` |
+| `CompanyCode` | `CompanyCode` |
+| `OperationCostingRelevancyType` | `OperationCostingRelevancyType` |
+| `NumberOfConfirmationSlips` | `NumberOfConfirmationSlips` |
+| `EmployeeWageGroup` | `EmployeeWageGroup` |
+| `EmployeeWageType` | `EmployeeWageType` |
+| `EmployeeSuitability` | `EmployeeSuitability` |
+| `NumberOfEmployees` | `NumberOfEmployees` |
+| `BillOfOperationsRefGroup` | `BillOfOperationsRefGroup` |
+| `BillOfOperationsRefVariant` | `BillOfOperationsRefVariant` |
+| `OrderHasNoSubOperations` | `OrderHasNoSubOperations` |
+| `OperationSetupGroupCategory` | `OperationSetupGroupCategory` |
+| `OperationSetupGroup` | `OperationSetupGroup` |
+| `BOOOperationIsPhase` | `BOOOperationIsPhase` |
+| `BOOPhaseSuperiorOpInternalID` | `BOOPhaseSuperiorOpInternalID` |
+| `ControlRecipeDestination` | `ControlRecipeDestination` |
+| `OpIsExtlyProcdWithSubcontrg` | `OpIsExtlyProcdWithSubcontrg` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingInfoRecdAddlGrpgName` | `case…end` |
+| `MaterialGroup` | `MaterialGroup` |
+| `PurchasingGroup` | `case…end` |
+| `Supplier` | `case…end` |
+| `PlannedDeliveryDuration` | `case…end` |
+| `NumberOfOperationPriceUnits` | `case…end` |
+| `OpExternalProcessingCurrency` | `case…end` |
+| `OpExternalProcessingPrice` | `case…end` |
 | `InspResultRecordingView` | `InspResultRecordingView` |
-| `InspSbstCompletionConfirmation` | `InspSbstCompletionConfirmation` |
 | `InspSbstHasNoTimeOrQuantity` | `InspSbstHasNoTimeOrQuantity` |
-| `OperationReferenceQuantity` | `OperationReferenceQuantity` |
 | `OperationUnit` | `OperationUnit` |
 | `OperationScrapPercent` | `OperationScrapPercent` |
 | `OpQtyToBaseQtyNmrtr` | `OpQtyToBaseQtyNmrtr` |
 | `OpQtyToBaseQtyDnmntr` | `OpQtyToBaseQtyDnmntr` |
-| `pph_par01 preserving type)` | `cast(StandardWorkFormulaParam1` |
-| `vdm_vgw01 preserving type)` | `cast(StandardWorkQuantity1` |
-| `pph_vge01 preserving type)` | `cast(StandardWorkQuantityUnit1` |
-| `vdm_lar01 preserving type)` | `cast(CostCtrActivityType1` |
+| `StandardWorkFormulaParam1` | `-- Standard Values cast(StandardWorkFormulaParam1 as pph_par01 preserving type)` |
+| `StandardWorkQuantity1` | `cast(StandardWorkQuantity1 as vdm_vgw01 preserving type)` |
+| `StandardWorkQuantityUnit1` | `cast(StandardWorkQuantityUnit1 as pph_vge01 preserving type)` |
+| `CostCtrActivityType1` | `cast(CostCtrActivityType1 as vdm_lar01 preserving type)` |
 | `PerfEfficiencyRatioCode1` | `PerfEfficiencyRatioCode1` |
-| `pph_par02 preserving type)` | `cast(StandardWorkFormulaParam2` |
-| `vdm_vgw02 preserving type)` | `cast(StandardWorkQuantity2` |
-| `pph_vge02 preserving type)` | `cast(StandardWorkQuantityUnit2` |
-| `vdm_lar02 preserving type)` | `cast(CostCtrActivityType2` |
+| `StandardWorkFormulaParam2` | `cast(StandardWorkFormulaParam2 as pph_par02 preserving type)` |
+| `StandardWorkQuantity2` | `cast(StandardWorkQuantity2 as vdm_vgw02 preserving type)` |
+| `StandardWorkQuantityUnit2` | `cast(StandardWorkQuantityUnit2 as pph_vge02 preserving type)` |
+| `CostCtrActivityType2` | `cast(CostCtrActivityType2 as vdm_lar02 preserving type)` |
 | `PerfEfficiencyRatioCode2` | `PerfEfficiencyRatioCode2` |
-| `pph_par03 preserving type)` | `cast(StandardWorkFormulaParam3` |
-| `vdm_vgw03 preserving type)` | `cast(StandardWorkQuantity3` |
-| `pph_vge03 preserving type)` | `cast(StandardWorkQuantityUnit3` |
-| `vdm_lar03 preserving type)` | `cast(CostCtrActivityType3` |
+| `StandardWorkFormulaParam3` | `cast(StandardWorkFormulaParam3 as pph_par03 preserving type)` |
+| `StandardWorkQuantity3` | `cast(StandardWorkQuantity3 as vdm_vgw03 preserving type)` |
+| `StandardWorkQuantityUnit3` | `cast(StandardWorkQuantityUnit3 as pph_vge03 preserving type)` |
+| `CostCtrActivityType3` | `cast(CostCtrActivityType3 as vdm_lar03 preserving type)` |
 | `PerfEfficiencyRatioCode3` | `PerfEfficiencyRatioCode3` |
-| `pph_par04 preserving type)` | `cast(StandardWorkFormulaParam4` |
-| `vdm_vgw04 preserving type)` | `cast(StandardWorkQuantity4` |
-| `pph_vge04 preserving type)` | `cast(StandardWorkQuantityUnit4` |
-| `vdm_lar04 preserving type)` | `cast(CostCtrActivityType4` |
+| `StandardWorkFormulaParam4` | `cast(StandardWorkFormulaParam4 as pph_par04 preserving type)` |
+| `StandardWorkQuantity4` | `cast(StandardWorkQuantity4 as vdm_vgw04 preserving type)` |
+| `StandardWorkQuantityUnit4` | `cast(StandardWorkQuantityUnit4 as pph_vge04 preserving type)` |
+| `CostCtrActivityType4` | `cast(CostCtrActivityType4 as vdm_lar04 preserving type)` |
 | `PerfEfficiencyRatioCode4` | `PerfEfficiencyRatioCode4` |
-| `pph_par05 preserving type)` | `cast(StandardWorkFormulaParam5` |
-| `vdm_vgw05 preserving type)` | `cast(StandardWorkQuantity5` |
-| `pph_vge05 preserving type)` | `cast(StandardWorkQuantityUnit5` |
-| `vdm_lar05 preserving type)` | `cast(CostCtrActivityType5` |
+| `StandardWorkFormulaParam5` | `cast(StandardWorkFormulaParam5 as pph_par05 preserving type)` |
+| `StandardWorkQuantity5` | `cast(StandardWorkQuantity5 as vdm_vgw05 preserving type)` |
+| `StandardWorkQuantityUnit5` | `cast(StandardWorkQuantityUnit5 as pph_vge05 preserving type)` |
+| `CostCtrActivityType5` | `cast(CostCtrActivityType5 as vdm_lar05 preserving type)` |
 | `PerfEfficiencyRatioCode5` | `PerfEfficiencyRatioCode5` |
-| `pph_par06 preserving type)` | `cast(StandardWorkFormulaParam6` |
-| `vdm_vgw06 preserving type)` | `cast(StandardWorkQuantity6` |
-| `pph_vge06 preserving type)` | `cast(StandardWorkQuantityUnit6` |
-| `vdm_lar06 preserving type)` | `cast(CostCtrActivityType6` |
+| `StandardWorkFormulaParam6` | `cast(StandardWorkFormulaParam6 as pph_par06 preserving type)` |
+| `StandardWorkQuantity6` | `cast(StandardWorkQuantity6 as vdm_vgw06 preserving type)` |
+| `StandardWorkQuantityUnit6` | `cast(StandardWorkQuantityUnit6 as pph_vge06 preserving type)` |
+| `CostCtrActivityType6` | `cast(CostCtrActivityType6 as vdm_lar06 preserving type)` |
 | `PerfEfficiencyRatioCode6` | `PerfEfficiencyRatioCode6` |
-| `BusinessProcess` | `BusinessProcess` |
 | `LeadTimeReductionStrategy` | `LeadTimeReductionStrategy` |
 | `TeardownAndWaitIsParallel` | `TeardownAndWaitIsParallel` |
 | `BillOfOperationsBreakDuration` | `BillOfOperationsBreakDuration` |
@@ -128,22 +133,12 @@ tags:
 | `StandardMoveDurationUnit` | `StandardMoveDurationUnit` |
 | `MinimumMoveDuration` | `MinimumMoveDuration` |
 | `MinimumMoveDurationUnit` | `MinimumMoveDurationUnit` |
-| `OperationSplitIsRequired` | `OperationSplitIsRequired` |
 | `MaximumNumberOfSplits` | `MaximumNumberOfSplits` |
 | `MinProcessingDurationPerSplit` | `MinProcessingDurationPerSplit` |
 | `MinProcessingDurnPerSplitUnit` | `MinProcessingDurnPerSplitUnit` |
-| `OperationOverlappingIsRequired` | `OperationOverlappingIsRequired` |
 | `OperationOverlappingIsPossible` | `OperationOverlappingIsPossible` |
 | `OperationsIsAlwaysOverlapping` | `OperationsIsAlwaysOverlapping` |
-| `case` | `case` |
-| `when OperationOverlappingIsRequired <> 'X'` | `when OperationOverlappingIsRequired <> 'X'` |
-| `then case` | `then case` |
-| `when OperationOverlappingIsPossible <> 'X'` | `when OperationOverlappingIsPossible <> 'X'` |
-| `then case` | `then case` |
-| `when OperationsIsAlwaysOverlapping <> 'X'` | `when OperationsIsAlwaysOverlapping <> 'X'` |
-| `uenicht preserving type ) else cast( ''` | `then cast( 'X'` |
-| `uenicht preserving type ) end` | `else cast( ''` |
-| `uenicht preserving type ) end` | `else cast( ''` |
+| `OperationHasNoOverlapping` | `case…end` |
 | `OverlapMinimumDuration` | `OverlapMinimumDuration` |
 | `OverlapMinimumDurationUnit` | `OverlapMinimumDurationUnit` |
 | `OverlapMinimumTransferQty` | `OverlapMinimumTransferQty` |

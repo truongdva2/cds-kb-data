@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotationType
 ---
 # I_SALESQUOTATIONTYPETEXT
 
@@ -33,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `quotation_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `SalesQuotationType` | `SalesQuotationType.SalesQuotationType` |
+| `Language` | `Text.Language` |
+| `SalesQuotationTypeName` | `cast( Text.SalesDocumentTypeName as quotation_type_name preserving type )` |
 | `_SalesQuotationType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

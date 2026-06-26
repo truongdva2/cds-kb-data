@@ -29,17 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_docref_key preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(parent_key` |
+| `TransportationOrderDocRefUUID` | `cast(db_key as /scmtms/vdm_tor_docref_key preserving type )` |
+| `TransportationOrderUUID` | `cast(parent_key as /scmtms/vdm_tor_db_key preserving type)` |
 | `TranspOrdDocReferenceID` | `btd_id` |
 | `TranspOrdDocReferenceType` | `btd_tco` |
-| `/scmtms/orig_ref_root_key preserving type )` | `cast(orig_ref_root` |
-| `/scmtms/base_btd_item_tco preserving type )` | `cast(btditem_tco` |
+| `TranspOrdOrigRefRootUUID` | `cast(orig_ref_root as /scmtms/orig_ref_root_key preserving type )` |
+| `TranspOrdDocReferenceItmType` | `cast(btditem_tco as /scmtms/base_btd_item_tco preserving type )` |
 | `TranspOrdDocReferenceItmID` | `btditem_id` |
 | `TranspOrdDocumentReferenceDate` | `btd_date` |
 | `TranspOrdDocRefIssuerName` | `btd_issuer` |
-| `/scmtms/vdm_docref_origin preserving type )` | `cast(origin` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdDocReferenceOrigin` | `cast(origin as /scmtms/vdm_docref_origin preserving type )` |
 | `_TransportationOrder` | *Association* |
 | `_BusTransDocTypeCode` | *Association* |
 | `_BusTransDocItemTypeCode` | *Association* |
@@ -48,6 +47,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrder` | `I_TransportationOrder_2` | — |
 | `_BusTransDocTypeCode` | `I_BusTransDocTypeCode` | [0..1] |
 | `_BusTransDocItemTypeCode` | `I_BusTransDocItemTypeCode` | [0..1] |
 

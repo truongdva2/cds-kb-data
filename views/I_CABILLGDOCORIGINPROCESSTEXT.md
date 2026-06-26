@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgDocOriginProcess` | `_tfk2641t.srcprocess` |
 | `Language` | `_tfk2641t.spras` |
-| `srcproctext_gfn_kk preserving type )` | `cast( _tfk2641t.srcproctext` |
+| `CABillgDocOriginProcessText` | `cast( _tfk2641t.srcproctext as srcproctext_gfn_kk preserving type )` |
 | `_CABillgDocOriginProcess` | *Association* |
 | `_Language` | *Association* |
 

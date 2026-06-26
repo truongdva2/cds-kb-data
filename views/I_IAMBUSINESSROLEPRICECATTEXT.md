@@ -32,17 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label:'Business Role Price Category', quickInfo:'Price Category' }` | `label:'Business Role Price Category', quickInfo:'Price Category' }` |
+| `Language` | `pct.langu` |
+| `BusinessRoleUUID` | `pc.BusinessRoleUUID` |
 | `BusinessRolePriceCategory` | `pct.usrprc_id` |
-| `pc.BusinessRole` | `pc.BusinessRole` |
-| `pc.BusinessRoleGroup` | `pc.BusinessRoleGroup` |
+| `BusinessRole` | `pc.BusinessRole` |
+| `BusinessRoleGroup` | `pc.BusinessRoleGroup` |
 | `BusinessRolePriceCategoryName` | `pct.text` |
 | `_Language` | *Association* |
 | `_BusinessRolePriceCategory` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BusinessRolePriceCategory` | `I_IAMBusinessRolePriceCategory` | — |
+| `_Language` | `I_Language` | — |
 
 ## Source Code
 

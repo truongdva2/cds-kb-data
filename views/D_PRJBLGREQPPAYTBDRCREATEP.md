@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingWBSElementInternalID : ps_s4_pspnr;` | `BillingWBSElementInternalID : ps_s4_pspnr;` |
-| `PrjBlgElmPlndPpaytType      : pbe_prepaymenttype;` | `PrjBlgElmPlndPpaytType      : pbe_prepaymenttype;` |
+| `BillingWBSElementInternalID` | `ps_s4_pspnr` |
+| `PrjBlgElmPlndPpaytType` | `pbe_prepaymenttype` |
 
 ## Associations
 

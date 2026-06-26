@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductQualityManagement
 ---
 # I_PRODUCTQM
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productnumber preserving type )` | `cast (mara.matnr` |
+| `Product` | `cast (mara.matnr as productnumber preserving type )` |
 | `QltyMgmtInProcmtIsActive` | `mara.qmpur` |
 | `AuthorizationGroup` | `mara.begru` |
 | `CatalogProfile` | `mara.rbnrm` |

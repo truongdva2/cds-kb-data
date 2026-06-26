@@ -33,8 +33,52 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qualifier     : 'PeriodComp', groupLabel: 'by Fiscal Period' }]` | `qualifier     : 'PeriodComp', groupLabel: 'by Fiscal Period' }]` |
-| `DeltaActPlanFYPeriodRatio` | `ratio_of( portion=>$projection.DeltaActPlanFYPeriodValue, total=>$projection.CurrentFYPeriodPlanValue ) * 100` |
+| `Ledger` | `Ledger` |
+| `IsStatisticalCostCenter` | `IsStatisticalCostCenter` |
+| `CostCenter` | `CostCenter` |
+| `GLAccount` | `GLAccount` |
+| `CostCtrActivityType` | `CostCtrActivityType` |
+| `BusinessTransactionType` | `BusinessTransactionType` |
+| `CompanyCode` | `CompanyCode` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `SourceLedger` | `SourceLedger` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FinancialPlanningReqTransSqnc` | `FinancialPlanningReqTransSqnc` |
+| `FinancialPlanningDataPacket` | `FinancialPlanningDataPacket` |
+| `ActualPlanJournalEntryItem` | `ActualPlanJournalEntryItem` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `FiscalQuarter` | `FiscalQuarter` |
+| `FiscalYearPeriod` | `FiscalYearPeriod` |
+| `FiscalYearQuarter` | `FiscalYearQuarter` |
+| `LedgerFiscalYear` | `LedgerFiscalYear` |
+| `GlobalCurrency` | `GlobalCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `AccountAssignmentType` | `AccountAssignmentType` |
+| `PartnerAccountAssignmentType` | `PartnerAccountAssignmentType` |
+| `FunctionalArea` | `FunctionalArea` |
+| `PartnerCostCtrActivityType` | `PartnerCostCtrActivityType` |
+| `PartnerCostCenter` | `PartnerCostCenter` |
+| `PartnerProjectInternalID` | `PartnerProjectInternalID` |
+| `PartnerProjectExternalID` | `PartnerProjectExternalID` |
+| `PartnerWBSElementExternalID` | `PartnerWBSElementExternalID` |
+| `PartnerFunctionalArea` | `PartnerFunctionalArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `AmountInCompanyCodeCurrency` | `AmountInCompanyCodeCurrency` |
+| `AmountInGlobalCurrency` | `AmountInGlobalCurrency` |
+| `BaseUnit` | `BaseUnit` |
+| `Quantity` | `Quantity` |
+| `RatioUnit` | `cast( '%' as abap.unit )` |
+| `CurrentFYYearToDateValue` | `cast(…)` |
+| `PreviousFYYearToDateValue` | `cast(…)` |
+| `PlanFYYearToDateValue` | `cast(…)` |
+| `DeltaActPlanFYYearToDateValue` | `cast(…)` |
+| `DeltaActPlanFYYearToDateRatio` | `ratio_of(…)` |
+| `CurrentFYPeriodValue` | `cast(…)` |
+| `PreviousFYPeriodValue` | `cast(…)` |
+| `CurrentFYPeriodPlanValue` | `cast(…)` |
+| `DeltaActPlanFYPeriodValue` | `cast(…)` |
+| `DeltaActPlanFYPeriodRatio` | `ratio_of(…)` |
 
 ## Associations
 

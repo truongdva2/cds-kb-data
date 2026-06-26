@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcStatus
 ---
 # I_CLFNCHARCSTATUSSTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcStatus` | `CharcStatus` |
-| `_CharacteristicStatusText as _Text` | *Association* |
+| `CharcStatus` | `CharcStatus` |
+| `_Text` | *Association* |
 
 ## Associations
 

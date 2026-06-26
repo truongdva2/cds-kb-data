@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionTable` | `ConditionTable` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -77,9 +77,6 @@ tags:
 | `MaximumConditionAmount` | `MaximumConditionAmount` |
 | `IncrementalScale` | `IncrementalScale` |
 | `PricingScaleLine` | `PricingScaleLine` |
-| `_SupplementScale : redirected to composition child I_SlsPrcgCndnRecdSuplmntScTP_2` | *Association* |
-| `_SupplementText   : redirected to composition child I_SlsPrcgCndnSuplmntTextTP_2` | *Association* |
-| `_ConditionRecord  : redirected to parent I_SlsPrcgConditionRecordTP_2` | *Association* |
 
 ## Associations
 

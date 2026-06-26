@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-GF-2CL
   - lob:Other
+  - bo:LglCntntMMainOrgType
 ---
 # I_LGLCNTNTMMAINORGTYPETXTAPI01
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMMainOrgType` | `LglCntntMMainOrgType` |
-| `key Language` | `Language` |
+| `LglCntntMMainOrgType` | `LglCntntMMainOrgType` |
+| `Language` | `Language` |
 | `LglCntntMMainOrgTypeName` | `LglCntntMMainOrgTypeName` |
 
 ## Associations

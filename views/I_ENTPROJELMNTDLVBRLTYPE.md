@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_entprojdlvbrltype preserving type )` | `cast ( substring( resource_id, 1, 6 )` |
+| `EntProjElmntDeliverableType` | `cast(…)` |
 | `_DeliverableTypeText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DeliverableTypeText` | `I_EntProjElmntDlvbrlTypeText` | [0..*] |
 
 ## Source Code
 

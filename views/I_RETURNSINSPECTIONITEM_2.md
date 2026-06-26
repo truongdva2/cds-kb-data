@@ -34,68 +34,38 @@ tags:
 |---|---|
 | `ReturnsInspection` | `ReturnsInspectionItem.InspectionDocument` |
 | `ReturnsInspectionItem` | `ReturnsInspectionItem.InspectionDocumentItem` |
-| `ReturnsInspectionItem.Product` | `ReturnsInspectionItem.Product` |
-| `ReturnsInspectionItem.InspectionCode` | `ReturnsInspectionItem.InspectionCode` |
-| `ReturnsInspectionItem.InspectionDate` | `ReturnsInspectionItem.InspectionDate` |
-| `ReturnsInspectionItem.ProductInspectorName` | `ReturnsInspectionItem.ProductInspectorName` |
-| `ReturnsInspectionItem.InspectionLeadingUnitCode` | `ReturnsInspectionItem.InspectionLeadingUnitCode` |
-| `ReturnsInspectionItem.InspectedProductQtyInBaseUnit` | `ReturnsInspectionItem.InspectedProductQtyInBaseUnit` |
-| `ReturnsInspectionItem.BaseUnit` | `ReturnsInspectionItem.BaseUnit` |
-| `ReturnsInspectionItem.InspectionDocumentIsDeleted` | `ReturnsInspectionItem.InspectionDocumentIsDeleted` |
-| `ReturnsInspectionItem.InspectionDocumentIsCancelled` | `ReturnsInspectionItem.InspectionDocumentIsCancelled` |
-| `ReturnsInspectionItem.ReturnsFollowUpActivity` | `ReturnsInspectionItem.ReturnsFollowUpActivity` |
-| `ReturnsInspectionItem.InspectedProductQtyInSalesUnit` | `ReturnsInspectionItem.InspectedProductQtyInSalesUnit` |
-| `ReturnsInspectionItem.SalesUnit` | `ReturnsInspectionItem.SalesUnit` |
-| `case` | `case` |
-| `when ReturnsInspectionItem.InspectionLeadingUnitCode = '1'` | `when ReturnsInspectionItem.InspectionLeadingUnitCode = '1'` |
-| `/spe/inspqty preserving type  )` | `then cast (ReturnsInspectionItem.InspectedProductQtyInBaseUnit` |
-| `when ReturnsInspectionItem.InspectionLeadingUnitCode = '2'` | `when ReturnsInspectionItem.InspectionLeadingUnitCode = '2'` |
-| `/spe/inspqty preserving type )` | `then cast (ReturnsInspectionItem.InspectedProductQtyInSalesUnit` |
-| `else` | `else` |
-| `/spe/inspqty preserving type  )` | `cast (ReturnsInspectionItem.InspectedProductQtyInBaseUnit` |
-| `InspectedProductQuantity` | `end` |
-| `case` | `case` |
-| `when ReturnsInspectionItem.InspectionLeadingUnitCode = '1'` | `when ReturnsInspectionItem.InspectionLeadingUnitCode = '1'` |
-| `meins preserving type )` | `then cast (ReturnsInspectionItem.BaseUnit` |
-| `when ReturnsInspectionItem.InspectionLeadingUnitCode  = '2'` | `when ReturnsInspectionItem.InspectionLeadingUnitCode  = '2'` |
-| `meins preserving type )` | `then cast (ReturnsInspectionItem.SalesUnit` |
-| `else` | `else` |
-| `meins preserving type )` | `cast (ReturnsInspectionItem.BaseUnit` |
-| `InspectedProductUnit` | `end` |
-| `case` | `case` |
-| `msr_insp_insp_status) // inspected` | `when ReturnsInspectionItem.InspectionCode is not initial and ReturnsInspectionItem.InspectedProductQtyInBaseUnit > 0 then cast( '2'` |
-| `msr_insp_insp_status ) // not_inspected` | `when ReturnsInspectionItem.InspectionCode is initial or ReturnsInspectionItem.InspectedProductQtyInBaseUnit <= 0 then cast( '1'` |
-| `msr_insp_insp_status ) // inspection_cancelled` | `when ReturnsInspectionItem.InspectionDocumentIsDeleted is not initial then cast( '4'` |
-| `msr_insp_insp_status ) // not_inspected` | `else cast( '1'` |
-| `ReturnsInspectionItemStatus` | `end` |
-| `case` | `case` |
-| `when ReturnsInspection.RetsMgmtInspPubgSts = 'P' or ReturnsInspection.RetsMgmtInspPubgSts = 'C' // published or publish_work` | `when ReturnsInspection.RetsMgmtInspPubgSts = 'P' or ReturnsInspection.RetsMgmtInspPubgSts = 'C' // published or publish_work` |
-| `msr_insp_ldm_status)  //confirmed` | `then cast( '3'` |
-| `when ReturnsInspection.RetsMgmtInspPubgSts <> 'P' and ReturnsInspection.RetsMgmtInspPubgSts <> 'C' // published and publish_work` | `when ReturnsInspection.RetsMgmtInspPubgSts <> 'P' and ReturnsInspection.RetsMgmtInspPubgSts <> 'C' // published and publish_work` |
-| `and ReturnsInspectionItem.ReturnsFollowUpActivity is not initial` | `and ReturnsInspectionItem.ReturnsFollowUpActivity is not initial` |
-| `msr_insp_ldm_status) // in_process` | `then cast( '2'` |
-| `when ReturnsInspection.RetsMgmtInspPubgSts <> 'P' and ReturnsInspection.RetsMgmtInspPubgSts <> 'C' // published and publish_work` | `when ReturnsInspection.RetsMgmtInspPubgSts <> 'P' and ReturnsInspection.RetsMgmtInspPubgSts <> 'C' // published and publish_work` |
-| `and ReturnsInspectionItem.ReturnsFollowUpActivity is initial` | `and ReturnsInspectionItem.ReturnsFollowUpActivity is initial` |
-| `msr_insp_ldm_status) // open` | `then cast( '1'` |
-| `when ReturnsInspection.RetsMgmtInspPubgSts = 'P' and ReturnsInspectionItem.InspectionDocumentIsCancelled <> '' // publish_work` | `when ReturnsInspection.RetsMgmtInspPubgSts = 'P' and ReturnsInspectionItem.InspectionDocumentIsCancelled <> '' // publish_work` |
-| `and ReturnsInspectionItem.ReturnsFollowUpActivity <> '0031'` | `and ReturnsInspectionItem.ReturnsFollowUpActivity <> '0031'` |
-| `msr_insp_ldm_status) // in_process` | `then cast( '2'` |
-| `when ReturnsInspectionItem.InspectionDocumentIsDeleted <> '' then '4' // cancelled` | `when ReturnsInspectionItem.InspectionDocumentIsDeleted <> '' then '4' // cancelled` |
-| `msr_insp_ldm_status) // open` | `else cast( '1'` |
-| `RetsFllwUpActyItmSts` | `end` |
-| `ReturnsInspection.RetsMgmtProcess` | `ReturnsInspection.RetsMgmtProcess` |
-| `_ReturnsInspectionExecuted.TargetPlant           as TargetPlant` | *Association* |
-| `_ReturnsInspectionExecuted.TargetStorageLocation as TargetStorageLocation` | *Association* |
-| `_ReturnsInspectionExecuted.TargetStockType       as TargetStockType` | *Association* |
-| `_ReturnsInspectionExecuted.TgtProdForGdsMvtPostg as TgtProdForGdsMvtPostg` | *Association* |
-| `_ReturnsInspectionExecuted.Supplier              as Supplier` | *Association* |
-| `ReturnsInspectionItem.RetsFllwUpActyRespPersnName` | `ReturnsInspectionItem.RetsFllwUpActyRespPersnName` |
-| `ReturnsInspectionItem.RetsFllwUpActyReleasedDate` | `ReturnsInspectionItem.RetsFllwUpActyReleasedDate` |
+| `Product` | `ReturnsInspectionItem.Product` |
+| `InspectionCode` | `ReturnsInspectionItem.InspectionCode` |
+| `InspectionDate` | `ReturnsInspectionItem.InspectionDate` |
+| `ProductInspectorName` | `ReturnsInspectionItem.ProductInspectorName` |
+| `InspectionLeadingUnitCode` | `ReturnsInspectionItem.InspectionLeadingUnitCode` |
+| `InspectedProductQtyInBaseUnit` | `ReturnsInspectionItem.InspectedProductQtyInBaseUnit` |
+| `BaseUnit` | `ReturnsInspectionItem.BaseUnit` |
+| `InspectionDocumentIsDeleted` | `ReturnsInspectionItem.InspectionDocumentIsDeleted` |
+| `InspectionDocumentIsCancelled` | `ReturnsInspectionItem.InspectionDocumentIsCancelled` |
+| `ReturnsFollowUpActivity` | `ReturnsInspectionItem.ReturnsFollowUpActivity` |
+| `InspectedProductQtyInSalesUnit` | `ReturnsInspectionItem.InspectedProductQtyInSalesUnit` |
+| `SalesUnit` | `ReturnsInspectionItem.SalesUnit` |
+| `InspectedProductQuantity` | `case…end` |
+| `InspectedProductUnit` | `case…end` |
+| `ReturnsInspectionItemStatus` | `case…end` |
+| `RetsFllwUpActyItmSts` | `case…end` |
+| `RetsMgmtProcess` | `ReturnsInspection.RetsMgmtProcess` |
+| `TargetPlant` | `_ReturnsInspectionExecuted.TargetPlant` |
+| `TargetStorageLocation` | `_ReturnsInspectionExecuted.TargetStorageLocation` |
+| `TargetStockType` | `_ReturnsInspectionExecuted.TargetStockType` |
+| `TgtProdForGdsMvtPostg` | `_ReturnsInspectionExecuted.TgtProdForGdsMvtPostg` |
+| `Supplier` | `_ReturnsInspectionExecuted.Supplier` |
+| `RetsFllwUpActyRespPersnName` | `ReturnsInspectionItem.RetsFllwUpActyRespPersnName` |
+| `RetsFllwUpActyReleasedDate` | `ReturnsInspectionItem.RetsFllwUpActyReleasedDate` |
 | `_ReturnsInspection` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReturnsInspection` | `I_ReturnsInspection_2` | [1..1] |
+| `_ReturnsInspectionExecuted` | `I_AdvncdRetsMgmtProcExecuted` | [1..*] |
 
 ## Source Code
 

@@ -31,22 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_PaytAdviceCompanyCodeVH', element : 'CompanyCode' } }]` | `name : 'I_PaytAdviceCompanyCodeVH', element : 'CompanyCode' } }]` |
 | `CompanyCode` | `bukrs` |
 | `PaymentAdviceAccountType` | `koart` |
 | `PaymentAdviceAccount` | `konto` |
-| `farp_pa_avsid preserving type)` | `cast(avsid` |
+| `PaymentAdvice` | `cast(avsid as farp_pa_avsid preserving type)` |
 | `IsOutgoingPayment` | `xausg` |
-| `farp_pa_vblnr preserving type)` | `cast(vblnr` |
-| `farp_pa_eikto preserving type)` | `cast(eikto` |
-| `farp_fwaer preserving type)` | `cast(waers` |
-| `farp_payment_date preserving type)` | `cast(zaldt` |
+| `PaymentDocument` | `cast(vblnr as farp_pa_vblnr preserving type)` |
+| `AccountByShipper` | `cast(eikto as farp_pa_eikto preserving type)` |
+| `PaymentCurrency` | `cast(waers as farp_fwaer preserving type)` |
+| `PaymentDate` | `cast(zaldt as farp_payment_date preserving type)` |
 | `PaidAmountInPaytCurrency` | `rwbtr` |
-| `fis_wskto)` | `cast(rwskt` |
+| `CashDiscountAmountInPaytCrcy` | `cast(rwskt as fis_wskto)` |
 | `BillOfExchangeDueDate` | `wefae` |
 | `PaymentMethod` | `rzawe` |
-| `farp_pa_dzbnkl preserving type)` | `cast(zbnkl` |
-| `farp_pa_dzbnkn preserving type)` | `cast(zbnkn` |
+| `PartnerBank` | `cast(zbnkl as farp_pa_dzbnkl preserving type)` |
+| `PartnerBankAccount` | `cast(zbnkn as farp_pa_dzbnkn preserving type)` |
 | `PartnerBankCountry` | `zbnks` |
 | `PartnerBankSWIFTCode` | `zbswi` |
 | `CreatedByUser` | `ernam` |
@@ -54,13 +53,13 @@ tags:
 | `LastChangeDate` | `aedat` |
 | `LastChangeDateTime` | `lastchangedatetime` |
 | `LastChangedByUser` | `aenam` |
-| `farp_avtxt_avik preserving type)` | `cast(avtxt` |
+| `PaymentAdviceHeaderText` | `cast(avtxt as farp_avtxt_avik preserving type)` |
 | `PaymentAdviceType` | `avsrt` |
 | `CreationTime` | `cputm` |
 | `PaymentAdviceStatus` | `astat` |
 | `PaymentAdviceIsHeld` | `xkeep` |
 | `PaymentAdviceHasSingleAccount` | `xuniq` |
-| `farp_vrsdg preserving type)` | `cast(vrsdg` |
+| `PaytAdvcDiffDeterminationRule` | `cast(vrsdg as farp_vrsdg preserving type)` |
 | `PaymentAdviceSelectionRule` | `sregl` |
 | `OriginalReferenceDocument` | `xbenr` |
 | `ReferenceDocumentType` | `xbtyp` |
@@ -69,7 +68,7 @@ tags:
 | `ValueDateTime` | `butim` |
 | `FeeAmountInTransactionCrcy` | `spesk` |
 | `PaymentTransaction` | `vorgc` |
-| `farp_kursf)` | `cast(kursf` |
+| `ExchangeRate` | `cast(kursf as farp_kursf)` |
 | `BillOfExchangeFailureDate` | `jpdat` |
 | `Cheque` | `chect` |
 | `ValueDate` | `valut` |

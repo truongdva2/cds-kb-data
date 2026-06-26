@@ -16,6 +16,7 @@ tags:
   - status
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransReleaseStatus
 ---
 # I_FINTRANSRELEASESTATUS
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_frgzust )` | `cast( dd07l.domvalue_l` |
+| `FinTransReleaseStatus` | `cast( dd07l.domvalue_l as tb_frgzust )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

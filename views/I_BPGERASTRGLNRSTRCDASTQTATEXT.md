@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_entity_quota )` | `cast ( dd07t.domvalue_l` |
+| `BPGerAstRglnRestrictedAstQuota` | `cast ( dd07t.domvalue_l as bp_entity_quota )` |
 | `BPGerAstRglnRstrcdAstQtaDesc` | `dd07t.ddtext` |
 | `_BPGerAstRglnRstrcdAstQta` | *Association* |
 | `_Language` | *Association* |

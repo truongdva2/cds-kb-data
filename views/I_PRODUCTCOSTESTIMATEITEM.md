@@ -32,7 +32,46 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BusinessAreaStdVH' , element: 'BusinessArea' }, useAsTemplate: true }]` | `name: 'I_BusinessAreaStdVH' , element: 'BusinessArea' }, useAsTemplate: true }]` |
+| `CostingReferenceObject` | `CostingReferenceObject` |
+| `CostEstimate` | `CostEstimate` |
+| `CostingType` | `CostingType` |
+| `CostingDate` | `CostingDate` |
+| `CostingVersion` | `CostingVersion` |
+| `ValuationVariant` | `ValuationVariant` |
+| `CostIsEnteredManually` | `CostIsEnteredManually` |
+| `CostingItem` | `CostingItem` |
+| `CostingItemCategory` | `CostingItemCategory` |
+| `Plant` | `Plant` |
+| `Product` | `Product` |
+| `ValuationType` | `ValuationType` |
+| `ControllingAreaCurrency` | `ControllingAreaCurrency` |
+| `TotalPriceInInCtrlgAreaCrcy` | `TotalPriceInInCtrlgAreaCrcy` |
+| `FixedPriceInCtrlgAreaCrcy` | `FixedPriceInCtrlgAreaCrcy` |
+| `TotalAmountInCtrlgAreaCrcy` | `TotalAmountInCtrlgAreaCrcy` |
+| `FixedAmountInCtrlgAreaCrcy` | `FixedAmountInCtrlgAreaCrcy` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `TotalPriceInCompanyCodeCrcy` | `TotalPriceInCompanyCodeCrcy` |
+| `FixedPriceInCompanyCodeCrcy` | `FixedPriceInCompanyCodeCrcy` |
+| `TotalAmountInCoCodeCrcy` | `TotalAmountInCoCodeCrcy` |
+| `FixedAmountInCoCodeCrcy` | `FixedAmountInCoCodeCrcy` |
+| `BaseUnit` | `BaseUnit` |
+| `QuantityInBaseUnit` | `QuantityInBaseUnit` |
+| `AssyScrapQuantityInValnQtyUnit` | `AssyScrapQuantityInValnQtyUnit` |
+| `CompScrapQuantityInValnQtyUnit` | `CompScrapQuantityInValnQtyUnit` |
+| `CostingPriceUnitQty` | `CostingPriceUnitQty` |
+| `CostingPriceQtyUnit` | `CostingPriceQtyUnit` |
+| `CostElement` | `CostElement` |
+| `CostOriginGroup` | `CostOriginGroup` |
+| `CostComponent` | `CostComponent` |
+| `AuxiliaryCostComponent` | `AuxiliaryCostComponent` |
+| `Creditor` | `Creditor` |
+| `TransferCostEstimate` | `TransferCostEstimate` |
+| `TransferCostingType` | `TransferCostingType` |
+| `TransferCostingDate` | `TransferCostingDate` |
+| `TransferCostingVersion` | `TransferCostingVersion` |
+| `TransferValuationVariant` | `TransferValuationVariant` |
+| `CostCenter` | `CostCenter` |
+| `ProfitCenter` | `ProfitCenter` |
 | `BusinessArea` | `BusinessArea` |
 | `CostCtrActivityType` | `CostCtrActivityType` |
 | `CostingObject` | `CostingObject` |

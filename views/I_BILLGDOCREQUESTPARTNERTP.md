@@ -32,15 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
 | `ContactPerson` | `ContactPerson` |
 | `ReferenceBusinessPartner` | `ReferenceBusinessPartner` |
 | `BusinessPartnerAddressUUID` | `BusinessPartnerAddressUUID` |
-| `_BillingDocumentRequest : redirected to parent I_BillingDocumentRequestTP` | *Association* |
 
 ## Associations
 

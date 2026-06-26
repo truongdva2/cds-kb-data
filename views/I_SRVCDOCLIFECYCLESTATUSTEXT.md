@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandt` | `$session.client` |
-| `crms4_stat_lifecycle preserving type )` | `cast(SrvcLifeCycleSystemStatus` |
-| `key  Language` | `Language` |
-| `crms4_stat_lifecycle_desc )` | `cast (SrvcLifeCycleSystemStatusName` |
+| `ServiceDocumentStatus` | `cast(CustMgmtLifecycleUserStatus as crms4_stat_lifecycle preserving type )` |
+| `Language` | `Language` |
+| `ServiceDocumentStatusName` | `cast(CustMgmtLifecycleUserStsName as crms4_stat_lifecycle_desc )` |
 | `_Language` | *Association* |
 | `_ServiceDocumentStatus` | *Association* |
 
@@ -42,7 +41,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_ServiceDocumentStatus` | `I_SrvcDocLifecycleStatus` | [1] |
 | `_ServiceDocumentStatus` | `I_SrvcDocLifecycleStatus` | [1] |
 
 ## Source Code

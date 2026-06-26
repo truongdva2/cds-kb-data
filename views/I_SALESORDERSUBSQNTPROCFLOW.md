@@ -33,17 +33,17 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SalesOrder` | `SubsequentProcFlow.SalesDocument` |
-| `key SubsequentProcFlow.DocRelationshipUUID` | `SubsequentProcFlow.DocRelationshipUUID` |
-| `SubsequentProcFlow.SubsequentDocument` | `SubsequentProcFlow.SubsequentDocument` |
-| `SubsequentProcFlow.SubsequentDocumentCategory` | `SubsequentProcFlow.SubsequentDocumentCategory` |
-| `SubsequentProcFlow.ProcessFlowLevel` | `SubsequentProcFlow.ProcessFlowLevel` |
-| `SubsequentProcFlow.CreationDate` | `SubsequentProcFlow.CreationDate` |
-| `SubsequentProcFlow.CreationTime` | `SubsequentProcFlow.CreationTime` |
-| `SubsequentProcFlow.LastChangeDate` | `SubsequentProcFlow.LastChangeDate` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `DocRelationshipUUID` | `SubsequentProcFlow.DocRelationshipUUID` |
+| `SubsequentDocument` | `SubsequentProcFlow.SubsequentDocument` |
+| `SubsequentDocumentCategory` | `SubsequentProcFlow.SubsequentDocumentCategory` |
+| `ProcessFlowLevel` | `SubsequentProcFlow.ProcessFlowLevel` |
+| `CreationDate` | `SubsequentProcFlow.CreationDate` |
+| `CreationTime` | `SubsequentProcFlow.CreationTime` |
+| `LastChangeDate` | `SubsequentProcFlow.LastChangeDate` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 
 ## Associations

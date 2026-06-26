@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABillgPlnItmType` | `_tfk8213.bipitemtype` |
-| `_tfk8213.bipitemcat       as CABillgPlnItmCat` | *Association* |
+| `CABillgPlnItmCat` | `_tfk8213.bipitemcat` |
 | `_Text` | *Association* |
 
 ## Associations

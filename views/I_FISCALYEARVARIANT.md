@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_periv preserving type )` | `cast( t009.periv` |
-| `fis_xkale preserving type )` | `cast( t009.xkale` |
+| `FiscalYearVariant` | `cast( t009.periv as fis_periv preserving type )` |
+| `FiscalPeriodIsEqualMonth` | `cast( t009.xkale as fis_xkale preserving type )` |
 | `IsYearDependent` | `t009.xjabh` |
 | `PostingPeriodsNumberVal` | `t009.anzbp` |
 | `NumberOfSpecialPeriods` | `t009.anzsp` |
@@ -41,7 +41,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FiscalYearVariantText` | [0..*] |
 
 ## Source Code
 

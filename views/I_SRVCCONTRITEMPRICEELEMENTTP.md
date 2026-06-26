@@ -30,18 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }` | `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PrcgProcedureCounterForHeader` | `PrcgProcedureCounterForHeader` |
+| `ConditionType` | `ConditionType` |
+| `ConditionRateValue` | `ConditionRateValue` |
+| `ConditionCurrency` | `ConditionCurrency` |
+| `ConditionQuantity` | `ConditionQuantity` |
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionInactiveReason` | `ConditionInactiveReason` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionQuantityUnit` | *Association* |
 | `_ConditionInactiveReason` | *Association* |
 | `_UnitOfMeasureText` | *Association* |
 | `_CurrencyText` | *Association* |
 | `_ConditionInactiveReasonText` | *Association* |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
 
 ## Associations
 

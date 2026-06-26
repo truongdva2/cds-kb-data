@@ -30,42 +30,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpcalcshtitm_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpcalcsheet_uuid preserving type)` | `cast(parent_key` |
-| `_TranspChargeCalcSheet.TransportationAgreementUUID                        as TransportationAgreementUUID` | *Association* |
-| `/scmtms/vdm_tccs_item_number preserving type)` | `cast(linenr` |
+| `TranspCalcSheetItemUUID` | `cast(db_key as /scmtms/transpcalcshtitm_uuid preserving type)` |
+| `TranspCalculationSheetUUID` | `cast(parent_key as /scmtms/transpcalcsheet_uuid preserving type)` |
+| `TransportationAgreementUUID` | `_TranspChargeCalcSheet.TransportationAgreementUUID` |
+| `TranspCalculationSheetItem` | `cast(linenr as /scmtms/vdm_tccs_item_number preserving type)` |
 | `TranspChargeType` | `tcet084` |
-| `/scmtms/vdm_tcm_res_base preserving type)` | `cast(clcresbas036` |
+| `TranspChargeResolutionBase` | `cast(clcresbas036 as /scmtms/vdm_tcm_res_base preserving type)` |
 | `TransportationRateUUID` | `uuid026` |
-| `case when currcode016 = '%'` | `case when currcode016 = '%'` |
-| `/scmtms/vdm_tccs_item_curr )` | `then cast(''` |
-| `/scmtms/vdm_tccs_item_curr preserving type)` | `else cast(currcode016` |
-| `TranspCalcSheetItemCurrency` | `end` |
-| `case when currcode016 = '%'` | `case when currcode016 = '%'` |
-| `abap.dec(31,6) ) * 10000` | `then cast( cast( 0` |
-| `abap.dec(31,6) ) * 10000` | `else cast( cast( amount` |
-| `TranspCalcSheetItemAmount` | `end` |
-| `cast( case when currcode016 = '%'` | `cast( case when currcode016 = '%'` |
-| `abap.char( 3 ))` | `then cast( '%'` |
-| `else  ''` | `else  ''` |
-| `/scmtms/vdm_tccs_itm_pct_unit)` | `end` |
-| `case when currcode016 = '%'` | `case when currcode016 = '%'` |
-| `abap.dec(31,6) ) * 10000` | `then cast( cast( amount` |
-| `abap.dec(31,6) ) * 10000` | `else cast( cast( 0` |
-| `TranspCalcSheetItemAmountPct` | `end` |
+| `TranspCalcSheetItemCurrency` | `case…end` |
+| `TranspCalcSheetItemAmount` | `case…end` |
+| `TranspCalcSheetItemPctUnit` | `cast(…)` |
+| `TranspCalcSheetItemAmountPct` | `case…end` |
 | `TranspCalculationMethodType` | `calc_meth_code` |
 | `TranspCalculationDateType` | `calc_date_type` |
 | `TranspChargeIsMandatory` | `mandatory` |
-| `/scmtms/vdm_tccs_baseline_uuid preserving type)` | `cast( calcbaseline_key` |
-| `/scmtms/calcshtitm_ref_to_uuid preserving type)` | `cast( calcbase_to_key` |
+| `TranspCalcBaselineUUID` | `cast( calcbaseline_key as /scmtms/vdm_tccs_baseline_uuid preserving type)` |
+| `TranspCalcSheetItemRefToUUID` | `cast( calcbase_to_key as /scmtms/calcshtitm_ref_to_uuid preserving type)` |
 | `TranspDimnWeightProfile` | `dim_wt_profile` |
 | `TranspChargeInstrnType` | `tccalcresins040` |
-| `/scmtms/vdm_rt_index_uuid preserving type)` | `cast(uuid_index_rate` |
+| `TranspIndexRateTableUUID` | `cast(uuid_index_rate as /scmtms/vdm_rt_index_uuid preserving type)` |
 | `TranspCalcShtItmIdxBaseDteTime` | `index_base_date_ts` |
 | `TranspChargeIsDependent` | `dependent_chrge` |
 | `TransportationStageCategory` | `stage_cat` |
-| `/scmtms/vdm_tcm_calc_mthd_name preserving type)` | `cast(calc_meth_name` |
-| `/scmtms/vdm_tccs_item_mnl_chrg preserving type)` | `cast(manual_entry` |
+| `TranspCalculationMethodName` | `cast(calc_meth_name as /scmtms/vdm_tcm_calc_mthd_name preserving type)` |
+| `TranspCalcShtItmIsManualCharge` | `cast(manual_entry as /scmtms/vdm_tccs_item_mnl_chrg preserving type)` |
 | `_TranspChargeCalcSheet` | *Association* |
 | `_TransportationAgreement` | *Association* |
 | `_TranspCalcSheetItemCurrency` | *Association* |
@@ -79,6 +67,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargeCalcSheet` | `I_TranspChrgCalculationSheet_2` | — |
 | `_TransportationRate` | `I_TransportationRate` | [0..1] |
 | `_TranspCalcSheetItemPctUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_TranspChrgCalcResolutionBase` | `I_TranspChargeCalcReslnBase` | [0..1] |

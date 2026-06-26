@@ -16,6 +16,7 @@ tags:
   - inspection
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspectionCodeGroup
 ---
 # I_INSPECTIONCODEGROUPSTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionCatalog` | `InspectionCatalog` |
-| `key InspectionCodeGroup` | `InspectionCodeGroup` |
+| `InspectionCatalog` | `InspectionCatalog` |
+| `InspectionCodeGroup` | `InspectionCodeGroup` |
 | `_Text` | *Association* |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 | `_InspectionCatalog` | *Association* |

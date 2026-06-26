@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:MM-PUR-ANA-2CL
   - lob:Sourcing & Procurement
+  - bo:SuplrEvalUserDefinedCriterion
 ---
 # I_SUPLREVALUSRDFNDCRITERIATP_2
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalUsrDfndCritraUUID` | `SuplrEvalUsrDfndCritraUUID` |
+| `SuplrEvalUsrDfndCritraUUID` | `SuplrEvalUsrDfndCritraUUID` |
 | `Supplier` | `Supplier` |
 | `MaterialGroup` | `MaterialGroup` |
 | `PurchasingCategory` | `PurchasingCategory` |
@@ -49,7 +50,6 @@ tags:
 | `SuplrEvalUsrCritraCommentText` | `SuplrEvalUsrCritraCommentText` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `SuplrEvalUsrCritraChgDteTme` | `SuplrEvalUsrCritraChgDteTme` |
-| `/* Associations */` | `/* Associations */` |
 | `_CreatedBy` | *Association* |
 | `_LastChangedBy` | *Association* |
 | `_MatGroup` | *Association* |

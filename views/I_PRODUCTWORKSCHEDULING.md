@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductPlantWorkScheduling
 ---
 # I_PRODUCTWORKSCHEDULING
 
@@ -31,33 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    WorkScheduling.Product` | `WorkScheduling.Product` |
-| `key    WorkScheduling.Plant` | `WorkScheduling.Plant` |
-| `WorkScheduling.MaterialBaseQuantity` | `WorkScheduling.MaterialBaseQuantity` |
-| `WorkScheduling.UnlimitedOverDelivIsAllowed` | `WorkScheduling.UnlimitedOverDelivIsAllowed` |
-| `WorkScheduling.OverDelivToleranceLimit` | `WorkScheduling.OverDelivToleranceLimit` |
-| `WorkScheduling.UnderDelivToleranceLimit` | `WorkScheduling.UnderDelivToleranceLimit` |
-| `WorkScheduling.ProductionInvtryManagedLoc, //PSTAT Revert` | `WorkScheduling.ProductionInvtryManagedLoc, //PSTAT Revert` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `WorkScheduling.ProdnOrderIsBatchRequired` | `WorkScheduling.ProdnOrderIsBatchRequired` |
-| `WorkScheduling.ProdIsWithdrawnFrmProdnBin` | `WorkScheduling.ProdIsWithdrawnFrmProdnBin` |
-| `WorkScheduling.TransitionMatrixProductsGroup` | `WorkScheduling.TransitionMatrixProductsGroup` |
-| `WorkScheduling.OrderChangeManagementProfile` | `WorkScheduling.OrderChangeManagementProfile` |
-| `WorkScheduling.MatlCompIsMarkedForBackflush` | `WorkScheduling.MatlCompIsMarkedForBackflush` |
-| `WorkScheduling.SetupAndTeardownTime` | `WorkScheduling.SetupAndTeardownTime` |
-| `WorkScheduling.ProductionSchedulingProfile` | `WorkScheduling.ProductionSchedulingProfile` |
-| `WorkScheduling.TransitionTime` | `WorkScheduling.TransitionTime` |
-| `WorkScheduling.ProcessingTimeInDays` | `WorkScheduling.ProcessingTimeInDays` |
-| `WorkScheduling.ProductionSupervisor` | `WorkScheduling.ProductionSupervisor` |
-| `WorkScheduling.ProductProductionQuantityUnit` | `WorkScheduling.ProductProductionQuantityUnit` |
-| `WorkScheduling.HasProductionVersion, //calculated field  pstat A` | `WorkScheduling.HasProductionVersion, //calculated field  pstat A` |
-| `_Product.BaseUnit                               as BaseUnit` | *Association* |
+| `Product` | `WorkScheduling.Product` |
+| `Plant` | `WorkScheduling.Plant` |
+| `MaterialBaseQuantity` | `WorkScheduling.MaterialBaseQuantity` |
+| `UnlimitedOverDelivIsAllowed` | `WorkScheduling.UnlimitedOverDelivIsAllowed` |
+| `OverDelivToleranceLimit` | `WorkScheduling.OverDelivToleranceLimit` |
+| `UnderDelivToleranceLimit` | `WorkScheduling.UnderDelivToleranceLimit` |
+| `ProductionInvtryManagedLoc` | `WorkScheduling.ProductionInvtryManagedLoc` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `ProdnOrderIsBatchRequired` | `WorkScheduling.ProdnOrderIsBatchRequired` |
+| `ProdIsWithdrawnFrmProdnBin` | `WorkScheduling.ProdIsWithdrawnFrmProdnBin` |
+| `TransitionMatrixProductsGroup` | `WorkScheduling.TransitionMatrixProductsGroup` |
+| `OrderChangeManagementProfile` | `WorkScheduling.OrderChangeManagementProfile` |
+| `MatlCompIsMarkedForBackflush` | `WorkScheduling.MatlCompIsMarkedForBackflush` |
+| `SetupAndTeardownTime` | `WorkScheduling.SetupAndTeardownTime` |
+| `ProductionSchedulingProfile` | `WorkScheduling.ProductionSchedulingProfile` |
+| `TransitionTime` | `WorkScheduling.TransitionTime` |
+| `ProcessingTimeInDays` | `WorkScheduling.ProcessingTimeInDays` |
+| `ProductionSupervisor` | `WorkScheduling.ProductionSupervisor` |
+| `ProductProductionQuantityUnit` | `WorkScheduling.ProductProductionQuantityUnit` |
+| `HasProductionVersion` | `WorkScheduling.HasProductionVersion` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |
 | `_ProductionInvtryManagedLoc` | *Association* |
 | `_ProductionSupervisor` | *Association* |
 | `_ProductionSchedulingProfile` | *Association* |
-| `_Product._BaseUnitOfMeasure` | *Association* |
+| `_BaseUnitOfMeasure` | *Association* |
 | `_ProductProductionQuantityUnit` | *Association* |
 | `_ProdnOrdBatDetnCodeText` | *Association* |
 | `_ProdComponentBackflushCodeT` | *Association* |

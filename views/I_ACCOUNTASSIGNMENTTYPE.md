@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_obart preserving type )` | `cast(obart` |
+| `AccountAssignmentType` | `cast(obart as fis_obart preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

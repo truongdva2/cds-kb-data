@@ -34,23 +34,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditMemoReqItemPartner.CreditMemoRequest` | `CreditMemoReqItemPartner.CreditMemoRequest` |
-| `key CreditMemoReqItemPartner.CreditMemoRequestItem` | `CreditMemoReqItemPartner.CreditMemoRequestItem` |
-| `key CreditMemoReqItemPartner.PartnerFunction` | `CreditMemoReqItemPartner.PartnerFunction` |
-| `CreditMemoReqItemPartner.PartnerFunctionForEdit` | `CreditMemoReqItemPartner.PartnerFunctionForEdit` |
-| `CreditMemoReqItemPartner.Customer` | `CreditMemoReqItemPartner.Customer` |
-| `CreditMemoReqItemPartner.Supplier` | `CreditMemoReqItemPartner.Supplier` |
-| `CreditMemoReqItemPartner.Personnel` | `CreditMemoReqItemPartner.Personnel` |
-| `CreditMemoReqItemPartner.ContactPerson` | `CreditMemoReqItemPartner.ContactPerson` |
-| `CreditMemoReqItemPartner.ReferenceBusinessPartner` | `CreditMemoReqItemPartner.ReferenceBusinessPartner` |
-| `CreditMemoReqItemPartner.Partner` | `CreditMemoReqItemPartner.Partner` |
-| `CreditMemoReqItemPartner.PartnerIsSpecificForSDDocItem` | `CreditMemoReqItemPartner.PartnerIsSpecificForSDDocItem` |
-| `CreditMemoReqItemPartner.CreditMemoRequestType` | `CreditMemoReqItemPartner.CreditMemoRequestType` |
-| `CreditMemoReqItemPartner.SalesOrganization` | `CreditMemoReqItemPartner.SalesOrganization` |
-| `CreditMemoReqItemPartner.DistributionChannel` | `CreditMemoReqItemPartner.DistributionChannel` |
-| `CreditMemoReqItemPartner.OrganizationDivision` | `CreditMemoReqItemPartner.OrganizationDivision` |
-| `_Item       : redirected to parent I_CreditMemoRequestItemTP` | *Association* |
-| `_CreditMemoRequest : redirected to I_CreditMemoRequestTP` | *Association* |
+| `CreditMemoRequest` | `CreditMemoReqItemPartner.CreditMemoRequest` |
+| `CreditMemoRequestItem` | `CreditMemoReqItemPartner.CreditMemoRequestItem` |
+| `PartnerFunction` | `CreditMemoReqItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `CreditMemoReqItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `CreditMemoReqItemPartner.Customer` |
+| `Supplier` | `CreditMemoReqItemPartner.Supplier` |
+| `Personnel` | `CreditMemoReqItemPartner.Personnel` |
+| `ContactPerson` | `CreditMemoReqItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `CreditMemoReqItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `CreditMemoReqItemPartner.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `CreditMemoReqItemPartner.PartnerIsSpecificForSDDocItem` |
+| `CreditMemoRequestType` | `CreditMemoReqItemPartner.CreditMemoRequestType` |
+| `SalesOrganization` | `CreditMemoReqItemPartner.SalesOrganization` |
+| `DistributionChannel` | `CreditMemoReqItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `CreditMemoReqItemPartner.OrganizationDivision` |
 
 ## Associations
 

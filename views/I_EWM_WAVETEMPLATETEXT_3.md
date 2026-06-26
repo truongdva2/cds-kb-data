@@ -15,6 +15,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMWaveTemplate
 ---
 # I_EWM_WAVETEMPLATETEXT_3
 
@@ -33,8 +34,8 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `EWMWarehouse` | `lgnum` |
-| `ewm_de_wavetemplate )` | `cast( tmplt` |
-| `EWMWaveTemplateName, //WaveTemplateName，` | `text` |
+| `EWMWaveTemplate` | `cast( tmplt as ewm_de_wavetemplate )` |
+| `EWMWaveTemplateName` | `text` |
 | `_Warehouse` | *Association* |
 
 ## Associations

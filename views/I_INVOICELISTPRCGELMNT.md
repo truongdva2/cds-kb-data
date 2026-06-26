@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListPricingElement
 ---
 # I_INVOICELISTPRCGELMNT
 
@@ -30,71 +31,68 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` | `name: 'I_InvoiceListStdVH', element: 'InvoiceList' } } ]` |
-| `vbeln_rl preserving type)` | `cast(PricingElement.BillingDocument` |
-| `key PricingElement.PricingProcedureStep` | `PricingElement.PricingProcedureStep` |
-| `key PricingElement.PricingProcedureCounter, // decision from pricing colleagues: keep wrong name, do not rename to PricingElementCounter` | `PricingElement.PricingProcedureCounter, // decision from pricing colleagues: keep wrong name, do not rename to PricingElementCounter` |
-| `PricingElement.ConditionApplication, // required for foreign key association of condition type` | `PricingElement.ConditionApplication, // required for foreign key association of condition type` |
-| `PricingElement.ConditionType` | `PricingElement.ConditionType` |
-| `PricingElement.PriceConditionDeterminationDte` | `PricingElement.PriceConditionDeterminationDte` |
-| `PricingElement.ConditionCalculationType` | `PricingElement.ConditionCalculationType` |
-| `PricingElement.ConditionCurrency` | `PricingElement.ConditionCurrency` |
-| `PricingElement.ConditionQuantity` | `PricingElement.ConditionQuantity` |
-| `PricingElement.ConditionQuantityUnit` | `PricingElement.ConditionQuantityUnit` |
-| `PricingElement.ConditionCategory` | `PricingElement.ConditionCategory` |
-| `PricingElement.ConditionIsForStatistics` | `PricingElement.ConditionIsForStatistics` |
-| `PricingElement.PricingScaleType` | `PricingElement.PricingScaleType` |
-| `PricingElement.IsRelevantForAccrual` | `PricingElement.IsRelevantForAccrual` |
-| `PricingElement.CndnIsRelevantForInvoiceList` | `PricingElement.CndnIsRelevantForInvoiceList` |
-| `PricingElement.ConditionOrigin` | `PricingElement.ConditionOrigin` |
-| `PricingElement.IsGroupCondition` | `PricingElement.IsGroupCondition` |
-| `PricingElement.ConditionRecord` | `PricingElement.ConditionRecord` |
-| `PricingElement.ConditionSequentialNumber` | `PricingElement.ConditionSequentialNumber` |
-| `PricingElement.TaxCode` | `PricingElement.TaxCode` |
-| `PricingElement.WithholdingTaxCode` | `PricingElement.WithholdingTaxCode` |
-| `PricingElement.CndnRoundingOffDiffAmount` | `PricingElement.CndnRoundingOffDiffAmount` |
-| `PricingElement.ConditionAmount` | `PricingElement.ConditionAmount` |
-| `PricingElement.TransactionCurrency` | `PricingElement.TransactionCurrency` |
-| `PricingElement.ConditionControl` | `PricingElement.ConditionControl` |
-| `PricingElement.ConditionInactiveReason` | `PricingElement.ConditionInactiveReason` |
-| `PricingElement.ConditionClass` | `PricingElement.ConditionClass` |
-| `PricingElement.PrcgProcedureCounterForHeader` | `PricingElement.PrcgProcedureCounterForHeader` |
-| `PricingElement.FactorForConditionBasisValue` | `PricingElement.FactorForConditionBasisValue` |
-| `PricingElement.StructureCondition` | `PricingElement.StructureCondition` |
-| `PricingElement.PeriodFactorForCndnBasisValue` | `PricingElement.PeriodFactorForCndnBasisValue` |
-| `PricingElement.PricingScaleBasis` | `PricingElement.PricingScaleBasis` |
-| `PricingElement.ConditionScaleBasisUnit` | `PricingElement.ConditionScaleBasisUnit` |
-| `PricingElement.ConditionScaleBasisCurrency` | `PricingElement.ConditionScaleBasisCurrency` |
-| `PricingElement.CndnIsRelevantForIntcoBilling` | `PricingElement.CndnIsRelevantForIntcoBilling` |
-| `PricingElement.ConditionIsManuallyChanged` | `PricingElement.ConditionIsManuallyChanged` |
-| `PricingElement.ConditionIsForConfiguration` | `PricingElement.ConditionIsForConfiguration` |
-| `PricingElement.VariantCondition` | `PricingElement.VariantCondition` |
-| `PricingElement.ConditionRateAmount` | `PricingElement.ConditionRateAmount` |
-| `PricingElement.ConditionBaseAmount` | `PricingElement.ConditionBaseAmount` |
-| `PricingElement.ConditionBaseQuantity` | `PricingElement.ConditionBaseQuantity` |
-| `PricingElement.ConditionRateRatio` | `PricingElement.ConditionRateRatio` |
-| `PricingElement.ConditionRateRatioUnit` | `PricingElement.ConditionRateRatioUnit` |
-| `PricingElement.ConditionScaleBaseAmount` | `PricingElement.ConditionScaleBaseAmount` |
-| `PricingElement.ConditionScaleBaseQuantity` | `PricingElement.ConditionScaleBaseQuantity` |
+| `InvoiceList` | `cast(PricingElement.BillingDocument as vbeln_rl preserving type)` |
+| `PricingProcedureStep` | `PricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `PricingElement.ConditionApplication` |
+| `ConditionType` | `PricingElement.ConditionType` |
+| `PriceConditionDeterminationDte` | `PricingElement.PriceConditionDeterminationDte` |
+| `ConditionCalculationType` | `PricingElement.ConditionCalculationType` |
+| `ConditionCurrency` | `PricingElement.ConditionCurrency` |
+| `ConditionQuantity` | `PricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `PricingElement.ConditionQuantityUnit` |
+| `ConditionCategory` | `PricingElement.ConditionCategory` |
+| `ConditionIsForStatistics` | `PricingElement.ConditionIsForStatistics` |
+| `PricingScaleType` | `PricingElement.PricingScaleType` |
+| `IsRelevantForAccrual` | `PricingElement.IsRelevantForAccrual` |
+| `CndnIsRelevantForInvoiceList` | `PricingElement.CndnIsRelevantForInvoiceList` |
+| `ConditionOrigin` | `PricingElement.ConditionOrigin` |
+| `IsGroupCondition` | `PricingElement.IsGroupCondition` |
+| `ConditionRecord` | `PricingElement.ConditionRecord` |
+| `ConditionSequentialNumber` | `PricingElement.ConditionSequentialNumber` |
+| `TaxCode` | `PricingElement.TaxCode` |
+| `WithholdingTaxCode` | `PricingElement.WithholdingTaxCode` |
+| `CndnRoundingOffDiffAmount` | `PricingElement.CndnRoundingOffDiffAmount` |
+| `ConditionAmount` | `PricingElement.ConditionAmount` |
+| `TransactionCurrency` | `PricingElement.TransactionCurrency` |
+| `ConditionControl` | `PricingElement.ConditionControl` |
+| `ConditionInactiveReason` | `PricingElement.ConditionInactiveReason` |
+| `ConditionClass` | `PricingElement.ConditionClass` |
+| `PrcgProcedureCounterForHeader` | `PricingElement.PrcgProcedureCounterForHeader` |
+| `FactorForConditionBasisValue` | `PricingElement.FactorForConditionBasisValue` |
+| `StructureCondition` | `PricingElement.StructureCondition` |
+| `PeriodFactorForCndnBasisValue` | `PricingElement.PeriodFactorForCndnBasisValue` |
+| `PricingScaleBasis` | `PricingElement.PricingScaleBasis` |
+| `ConditionScaleBasisUnit` | `PricingElement.ConditionScaleBasisUnit` |
+| `ConditionScaleBasisCurrency` | `PricingElement.ConditionScaleBasisCurrency` |
+| `CndnIsRelevantForIntcoBilling` | `PricingElement.CndnIsRelevantForIntcoBilling` |
+| `ConditionIsManuallyChanged` | `PricingElement.ConditionIsManuallyChanged` |
+| `ConditionIsForConfiguration` | `PricingElement.ConditionIsForConfiguration` |
+| `VariantCondition` | `PricingElement.VariantCondition` |
+| `ConditionRateAmount` | `PricingElement.ConditionRateAmount` |
+| `ConditionBaseAmount` | `PricingElement.ConditionBaseAmount` |
+| `ConditionBaseQuantity` | `PricingElement.ConditionBaseQuantity` |
+| `ConditionRateRatio` | `PricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `PricingElement.ConditionRateRatioUnit` |
+| `ConditionScaleBaseAmount` | `PricingElement.ConditionScaleBaseAmount` |
+| `ConditionScaleBaseQuantity` | `PricingElement.ConditionScaleBaseQuantity` |
 | `_InvoiceList` | *Association* |
-| `PricingElement._ConditionApplication` | `PricingElement._ConditionApplication` |
-| `PricingElement._PricingConditionType, // naming could be better: _ConditionType` | `PricingElement._PricingConditionType, // naming could be better: _ConditionType` |
-| `PricingElement._ConditionCurrency` | `PricingElement._ConditionCurrency` |
-| `PricingElement._Currency, // naming could be better: _TransactionCurrency` | `PricingElement._Currency, // naming could be better: _TransactionCurrency` |
-| `PricingElement._ConditionQuantityUnit` | `PricingElement._ConditionQuantityUnit` |
-| `PricingElement._ScaleUnitOfMeasure, // naming could be better: _ConditionScaleBasisUnit` | `PricingElement._ScaleUnitOfMeasure, // naming could be better: _ConditionScaleBasisUnit` |
-| `PricingElement._ScaleCurrency, // naming could be better: _ConditionScaleBasisCurrency` | `PricingElement._ScaleCurrency, // naming could be better: _ConditionScaleBasisCurrency` |
-| `PricingElement._VariantCondition` | `PricingElement._VariantCondition` |
-| `/* start suppress warning calculated_field_check */` | `/* start suppress warning calculated_field_check */` |
-| `PricingElement._ConditionCalculationType` | `PricingElement._ConditionCalculationType` |
-| `PricingElement._ConditionCategory` | `PricingElement._ConditionCategory` |
-| `PricingElement._ConditionOrigin` | `PricingElement._ConditionOrigin` |
-| `PricingElement._ConditionControl` | `PricingElement._ConditionControl` |
-| `PricingElement._ConditionInactiveReason` | `PricingElement._ConditionInactiveReason` |
-| `PricingElement._ConditionClass` | `PricingElement._ConditionClass` |
-| `PricingElement._PricingScaleBasis` | `PricingElement._PricingScaleBasis` |
-| `PricingElement._StructureCondition` | `PricingElement._StructureCondition` |
-| `/* end suppress warning calculated_field_check */` | `/* end suppress warning calculated_field_check */` |
+| `_ConditionApplication` | *Association* |
+| `_PricingConditionType` | *Association* |
+| `_ConditionCurrency` | *Association* |
+| `_Currency` | *Association* |
+| `_ConditionQuantityUnit` | *Association* |
+| `_ScaleUnitOfMeasure` | *Association* |
+| `_ScaleCurrency` | *Association* |
+| `_VariantCondition` | *Association* |
+| `_ConditionCalculationType` | *Association* |
+| `_ConditionCategory` | *Association* |
+| `_ConditionOrigin` | *Association* |
+| `_ConditionControl` | *Association* |
+| `_ConditionInactiveReason` | *Association* |
+| `_ConditionClass` | *Association* |
+| `_PricingScaleBasis` | *Association* |
+| `_StructureCondition` | *Association* |
 
 ## Associations
 

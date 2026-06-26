@@ -13,6 +13,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdStageType
 ---
 # I_TRANSPORDSTAGETYPETEXT_2
 
@@ -31,8 +32,7 @@ tags:
 |---|---|
 | `TranspOrdStageType` | `stage_type` |
 | `Language` | `langu` |
-| `/scmtms/vdm_stage_type_desc preserving type )` | `cast ( description_s` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdStageTypeDesc` | `cast ( description_s as /scmtms/vdm_stage_type_desc preserving type )` |
 | `_TranspOrdStageType` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdStageType` | `I_TranspOrdStageType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

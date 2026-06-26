@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _HierarchyNodeText.Language` | `_HierarchyNodeText.Language` |
-| `fincs_conschartofaccounts preserving type )` | `cast( left(_HierarchyNodeText.HierarchyNodeClass, 2)` |
-| `fincs_reportingitemhierarchy preserving type )` | `cast( substring(_HierarchyNodeText.UniversalHierHierarchyID, 9, 10 )` |
-| `key _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `key _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `ConsolidationChartOfAccounts` | `cast(…)` |
+| `ConsolidationReportingItemHier` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |

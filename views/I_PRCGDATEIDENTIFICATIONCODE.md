@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingDateIdentificationCode
 ---
 # I_PRCGDATEIDENTIFICATIONCODE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kprdt )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingDateIdentificationCode` | `cast ( substring( domvalue_l, 1, 1 ) as kprdt )` |
 | `_Text` | *Association* |
 
 ## Associations

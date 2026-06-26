@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `HandlingUnitInternalID` | `venum` |
 | `HandlingUnitItem` | `vepos` |
-| `_HandlingUnitHeader.HandlingUnitExternalID as HandlingUnitExternalID` | *Association* |
+| `HandlingUnitExternalID` | `_HandlingUnitHeader.HandlingUnitExternalID` |
 | `HandlingUnitTypeOfContent` | `velin` |
 | `HandlingUnitReferenceDocument` | `vbeln` |
 | `HandlingUnitRefDocumentItem` | `posnr` |
@@ -82,7 +82,6 @@ tags:
 | `_Material` | `I_Material` | [0..1] |
 | `_StorageLocation` | `I_StorageLocation` | [0..1] |
 | `_HandlingUnitSerialNumber` | `I_SerialNumberHandlingUnit` | [0..*] |
-| `_SerialNumberProfile` | `C_SrlNmbrAsGprfTemp` | [0..1] |
 | `_SalesDocumentItemCategory` | `I_SalesDocumentItemCategory` | [0..1] |
 | `_Batch` | `I_BatchCrossPlant` | [0..1] |
 | `_JITCallCompMaterialBasic` | `I_JITCallCompMaterialBasic` | [0..*] |

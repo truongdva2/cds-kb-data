@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:WorkforceAvailability
 ---
 # I_TIMEOVERVIEWBYWRKAGRMTANDDTE
 
@@ -40,8 +41,8 @@ tags:
 | `AbsenceInHours` | `pTime.absencehours` |
 | `AttendanceHours` | `pTime.attendancehours` |
 | `OvertimeInHours` | `pTime.overtimehours` |
-| `AvailabilityInHours` | `( pTime.regularhours + pTime.overtimehours - pTime.absencehours - pTime.attendancehours )` |
-| `_PersonWorkAgrmtStatus.PersonWorkAgrmtAuthznGrpg` | *Association* |
+| `AvailabilityInHours` | `expr(…)` |
+| `PersonWorkAgrmtAuthznGrpg` | `_PersonWorkAgrmtStatus.PersonWorkAgrmtAuthznGrpg` |
 
 ## Associations
 

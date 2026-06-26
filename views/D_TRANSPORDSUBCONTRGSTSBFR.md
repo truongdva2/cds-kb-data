@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspOrderSubcontrgSts : /scmtms/tor_subcontr_status;` | `TranspOrderSubcontrgSts : /scmtms/tor_subcontr_status;` |
-| `_DummyAssociation       : association to parent D_TranspOrdSubcontrgStsChgd;` | *Association* |
+| `TranspOrderSubcontrgSts` | `/scmtms/tor_subcontr_status` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdSubcontrgStsChgd` | — |
 
 ## Source Code
 

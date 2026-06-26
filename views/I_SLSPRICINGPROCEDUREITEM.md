@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key                     PricingProcedure` | `PricingProcedure` |
-| `key                     PricingProcedureStep` | `PricingProcedureStep` |
-| `key                     PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PricingProcedure` | `PricingProcedure` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionUsage` | `ConditionUsage` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |

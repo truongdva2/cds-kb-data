@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_beskz preserving type)` | `cast(q.beskz` |
-| `pph_sobes preserving type)` | `cast(q.sobes` |
+| `MaterialProcurementCategory` | `cast(q.beskz as pph_beskz preserving type)` |
+| `MaterialProcurementType` | `cast(q.sobes as pph_sobes preserving type)` |
 | `_MaterialProcurementCategory` | *Association* |
 | `_MaterialProcurementType` | *Association* |
 

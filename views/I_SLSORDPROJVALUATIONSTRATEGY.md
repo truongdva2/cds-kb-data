@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast( cast ( substring( domvalue_l, 1, 1)` |
+| `SlsOrdProjValnStrategy` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

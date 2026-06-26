@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGORGANIZATION
 description: Purchasingorganization
+semantic_en: "Purchasing organization — the organizational unit that negotiates purchasing conditions with suppliers and is responsible for procurement."
+semantic_vi: "Tổ chức mua hàng — đơn vị tổ chức đàm phán điều kiện mua với nhà cung cấp và chịu trách nhiệm mua sắm."
+keywords:
+  - tổ chức mua hàng
+  - đơn vị mua sắm
 app_component: MM
 software_component: SAPSCORE
 release_state: released
@@ -29,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ekorg_ll preserving type )` | `cast( ekorg` |
-| `mm_a_purg_org_name preserving type )` | `cast( ekotx` |
+| `PurchasingOrganization` | `cast( ekorg as ekorg_ll preserving type )` |
+| `PurchasingOrganizationName` | `cast( ekotx as mm_a_purg_org_name preserving type )` |
 | `CompanyCode` | `t024e.bukrs` |
 | `ConfigDeprecationCode` | `t024e.configdeprecationcode` |
 | `_Plant` | *Association* |

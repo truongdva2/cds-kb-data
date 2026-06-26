@@ -33,14 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
-| `fis_kokrs preserving type )` | `cast( cslt.kokrs` |
+| `ValidityEndDate` | `cslt.datbi` |
+| `ControllingArea` | `cast( cslt.kokrs as fis_kokrs preserving type )` |
 | `CostCtrActivityType` | `cslt.lstar` |
 | `Language` | `spras` |
-| `fis_costctractivitytypename preserving type )` | `cast( ktext` |
-| `fis_costctractivitytypedesc preserving type )` | `cast( ltext` |
+| `CostCtrActivityTypeName` | `cast( ktext as fis_costctractivitytypename preserving type )` |
+| `CostCtrActivityTypeDesc` | `cast( ltext as fis_costctractivitytypedesc preserving type )` |
 | `ValidityStartDate` | `datab` |
 | `CostCtrActyTypeTxtSearchTerm` | `mctxt` |
 | `_Language` | *Association* |
@@ -53,6 +51,7 @@ tags:
 |---|---|---|
 | `_ControllingAreaText` | `I_ControllingArea` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
+| `_ControllingArea` | `I_ControllingArea` | [1] |
 
 ## Source Code
 

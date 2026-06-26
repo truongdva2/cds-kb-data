@@ -16,6 +16,7 @@ tags:
   - status
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcStatus
 ---
 # I_CLFNCHARCSTATUSTEXT
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcStatus` | `I_ClfnCharcStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -33,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `Language` | `lang` |
+| `CollectionProfile` | `coll_profile` |
 | `CollectionsProfileName` | `coll_profile_txt` |
 | `_Language` | *Association* |
 

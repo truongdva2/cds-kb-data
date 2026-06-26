@@ -39,9 +39,6 @@ tags:
 | `LglCntntMDocOblgnRemSubject` | `LglCntntMDocOblgnRemSubject` |
 | `LglCntntMDocObligation` | `LglCntntMDocObligation` |
 | `LglCntntMDocOblgnType` | `LglCntntMDocOblgnType` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document           : redirected to I_LegalDocumentTP` | *Association* |
-| `_LegalDocObligation : redirected to parent I_LegalDocObligationTP` | *Association* |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:InspLotDynamicRule
 ---
 # I_INSPLOTDYNAMICRULESTDVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspLotDynamicRule` | `InspLotDynamicRule` |
+| `InspLotDynamicRule` | `InspLotDynamicRule` |
 | `_Text` | *Association* |
 
 ## Associations

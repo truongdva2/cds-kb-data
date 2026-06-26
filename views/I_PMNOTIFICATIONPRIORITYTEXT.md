@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-WOC-MN-2CL
   - lob:Plant Maintenance
+  - bo:MaintPriority
 ---
 # I_PMNOTIFICATIONPRIORITYTEXT
 
@@ -32,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MaintPriority` | `t356_t.priok` |
+| `MaintPriorityType` | `t356_t.artpr` |
+| `Language` | `t356_t.spras` |
 | `MaintPriorityDesc` | `t356_t.priokx` |
 | `_PMNotificationPriority` | *Association* |
 | `_PMNotificationPriorityType` | *Association* |

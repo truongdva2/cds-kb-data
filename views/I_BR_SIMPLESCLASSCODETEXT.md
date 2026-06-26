@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_SIMPLESClassCode
 ---
 # I_BR_SIMPLESCLASSCODETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `logbr_simples_class )` | `cast ( domvalue_l` |
-| `logbr_simples_class_desc preserving type)` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_SIMPLESClassCode` | `cast ( domvalue_l as logbr_simples_class )` |
+| `BR_SIMPLESClassCodeDesc` | `cast ( ddtext as logbr_simples_class_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_BR_SIMPLESClassCode` | *Association* |
 | `_Language` | *Association* |

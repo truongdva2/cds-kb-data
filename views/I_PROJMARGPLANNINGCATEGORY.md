@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:CO-FIO-PA-2CL
   - lob:Controlling
+  - bo:PlanningCategory
 ---
 # I_PROJMARGPLANNINGCATEGORY
 
@@ -28,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlanningCategory` | `PlanningCategory` |
+| `PlanningCategory` | `PlanningCategory` |
 | `_Text` | *Association* |
 
 ## Associations

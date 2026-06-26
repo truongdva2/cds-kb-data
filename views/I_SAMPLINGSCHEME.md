@@ -29,19 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `SamplingScheme` | `qdpk.stprplan` |
-| `vdm_qm_smpl_sm_is_for_attr_ins preserving type  )` | `cast ( qdpk.kzattr` |
-| `vdm_qm_smpl_sm_is_for_vrbl_ins preserving type )` | `cast ( qdpk.kzvars` |
-| `vdm_qm_aql_is_used preserving type )` | `cast ( qdpk.kzaql` |
-| `vdm_qm_sampl_scheme_is_blocked preserving type )` | `cast ( qdpk.kznvwpk` |
-| `abp_creation_user preserving type )` | `cast ( qdpk.ersteller` |
-| `abp_creation_date preserving type )` | `cast ( qdpk.erstelldat` |
-| `abp_creation_time preserving type )` | `cast ( qdpk.zeiterstl` |
-| `abp_lastchange_user preserving type )` | `cast ( qdpk.aenderer` |
-| `abp_lastchange_date preserving type )` | `cast ( qdpk.aenderdat` |
-| `abp_lastchange_time preserving type )` | `cast ( qdpk.zeitaend` |
-| `/* Associations */` | `/* Associations */` |
+| `SmplgSchmIsForAttributiveInsp` | `cast ( qdpk.kzattr as vdm_qm_smpl_sm_is_for_attr_ins preserving type )` |
+| `SmplgSchmIsForVariableInsp` | `cast ( qdpk.kzvars as vdm_qm_smpl_sm_is_for_vrbl_ins preserving type )` |
+| `AcceptableQualityLevelIsUsed` | `cast ( qdpk.kzaql as vdm_qm_aql_is_used preserving type )` |
+| `SamplingSchemeIsBlocked` | `cast ( qdpk.kznvwpk as vdm_qm_sampl_scheme_is_blocked preserving type )` |
+| `CreatedByUser` | `cast ( qdpk.ersteller as abp_creation_user preserving type )` |
+| `CreationDate` | `cast ( qdpk.erstelldat as abp_creation_date preserving type )` |
+| `CreationTime` | `cast ( qdpk.zeiterstl as abp_creation_time preserving type )` |
+| `LastChangedByUser` | `cast ( qdpk.aenderer as abp_lastchange_user preserving type )` |
+| `LastChangeDate` | `cast ( qdpk.aenderdat as abp_lastchange_date preserving type )` |
+| `LastChangeTime` | `cast ( qdpk.zeitaend as abp_lastchange_time preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

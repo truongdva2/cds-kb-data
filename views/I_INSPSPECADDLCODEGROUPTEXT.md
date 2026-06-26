@@ -31,12 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Additional Code Group Text', quickInfo: 'Additional Code Group Text' }` | `label: 'Additional Code Group Text', quickInfo: 'Additional Code Group Text' }` |
+| `InspSpecAdditionalCatalog` | `qpgt.katalogart` |
+| `InspSpecAdditionalCodeGroup` | `qpgt.codegruppe` |
+| `Language` | `qpgt.sprache` |
 | `InspSpecAddlCodeGroupText` | `qpgt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecAdditionalCatalog` | `,_InspSpecAdditionalCatalog` |
-| `,_Language` | `,_Language` |
-| `,_InspSpecAddlCodeGroup` | `,_InspSpecAddlCodeGroup` |
+| `_InspSpecAdditionalCatalog` | *Association* |
+| `_Language` | *Association* |
+| `_InspSpecAddlCodeGroup` | *Association* |
 
 ## Associations
 

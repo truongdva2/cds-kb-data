@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-WFD
   - lob:Cross-Application Components
+  - bo:PersonWorkAgreement
 ---
 # I_PERSONWORKAGRMTTOEXTERNALID
 
@@ -27,14 +28,18 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `PersonWorkAgreement` | `cast(dets.workforce_assgmt_id as persno preserving type )` |
+| `CompanyCode` | `dets.company_code` |
+| `PersonWorkAgreementExternalID` | `case…end` |
+| `PersonWorkAgrmtAuthznGrpg` | `cast ('' as vdsk1 )` |
+| `_CompanyCode` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_CompanyCode` | `I_CompanyCode` | [1] |
-| `_CompanyCode` | `I_CompanyCode` | [1] |
 | `_CompanyCode` | `I_CompanyCode` | [1] |
 
 ## Source Code

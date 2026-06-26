@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:BC-SRV-APS-EXT-REL
   - lob:Basis Components
+  - bo:ABAPSoftwareComponent
 ---
 # I_CUSTABAPSOFTWARECOMPONENT
 
@@ -30,20 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ABAPSoftwareComponent` | `ABAPSoftwareComponent` |
-| `CUSTOM_SOFTWARE_COMPONENT_TYPE)` | `cast(ABAPSoftwareComponentType` |
-| `case ABAPSoftwareComponentType` | `case ABAPSoftwareComponentType` |
-| `relc_type)` | `when cast(ARS_SOFTWARE_COMPONENT_TYPE.#key_user_extensibility` |
-| `then CUSTOM_OBJECT_CATEGORY.#key_user_extensibility` | `then CUSTOM_OBJECT_CATEGORY.#key_user_extensibility` |
-| `relc_type)` | `when cast(ARS_SOFTWARE_COMPONENT_TYPE.#key_user_extensibility_add_on` |
-| `then CUSTOM_OBJECT_CATEGORY.#key_user_extensibility` | `then CUSTOM_OBJECT_CATEGORY.#key_user_extensibility` |
-| `else CUSTOM_OBJECT_CATEGORY.#developer_extensibility` | `else CUSTOM_OBJECT_CATEGORY.#developer_extensibility` |
-| `ABAPCloudCustomObjectCategory` | `end` |
+| `ABAPSoftwareComponent` | `ABAPSoftwareComponent` |
+| `ABAPSoftwareComponentType` | `cast(ABAPSoftwareComponentType as CUSTOM_SOFTWARE_COMPONENT_TYPE)` |
+| `ABAPCloudCustomObjectCategory` | `case…end` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CustABAPSoftwareComponentTxt` | [0..*] |
 
 ## Source Code
 

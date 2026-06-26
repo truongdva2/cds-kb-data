@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_offset_action_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `inv_offset_action_txt_gfn_kk preserving type )` | `cast( ddtext` |
+| `CAInvcgOffsettingAction` | `cast(…)` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CAInvcgOffsettingActionText` | `cast( ddtext as inv_offset_action_txt_gfn_kk preserving type )` |
 | `_CAInvcgOffsettingAction` | *Association* |
 | `_Language` | *Association* |
 

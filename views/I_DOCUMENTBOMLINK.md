@@ -38,7 +38,7 @@ tags:
 | `DocNumber` | `doknr` |
 | `DocumentVersion` | `dokvr` |
 | `DocumentPart` | `doktl` |
-| `stlty preserving type)` | `cast ('D'` |
+| `BillOfMaterialCategory` | `cast ('D' as stlty preserving type)` |
 
 ## Associations
 

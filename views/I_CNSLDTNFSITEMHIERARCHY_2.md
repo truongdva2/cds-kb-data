@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnChartOfAccountsVH'` | `name: 'I_CnsldtnChartOfAccountsVH'` |
-| `element: 'ConsolidationChartOfAccounts' }` | `element: 'ConsolidationChartOfAccounts' }` |
-| `}]` | `}]` |
-| `key ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
-| `fincs_fsitemhierarchy preserving type )` | `cast( substring(_Hierarchy.UniversalHierarchy, 9, 10 )` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `CnsldtnFSItemHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |
 

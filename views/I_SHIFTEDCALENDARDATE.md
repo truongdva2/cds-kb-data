@@ -30,16 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CalendarDate` | `CalendarDate` |
-| `cast(` | `cast(` |
-| `case $parameters.P_TimePeriodOffsetUnit` | `case $parameters.P_TimePeriodOffsetUnit` |
-| `when 'D' then dats_add_days   (CalendarDate, :P_TimePeriodOffsetDuration      ,'FAIL') // Day` | `when 'D' then dats_add_days   (CalendarDate, :P_TimePeriodOffsetDuration      ,'FAIL') // Day` |
-| `when 'W' then dats_add_days   (CalendarDate, :P_TimePeriodOffsetDuration*7    ,'FAIL') // Week` | `when 'W' then dats_add_days   (CalendarDate, :P_TimePeriodOffsetDuration*7    ,'FAIL') // Week` |
-| `when 'M' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration      ,'FAIL') // Month` | `when 'M' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration      ,'FAIL') // Month` |
-| `when 'Q' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration*3    ,'FAIL') // Quarter` | `when 'Q' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration*3    ,'FAIL') // Quarter` |
-| `when 'Y' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration*12   ,'FAIL') // Year` | `when 'Y' then dats_add_months (CalendarDate, :P_TimePeriodOffsetDuration*12   ,'FAIL') // Year` |
-| `else ''` | `else ''` |
-| `calendardate)` | `end` |
+| `CalendarDate` | `CalendarDate` |
+| `ShiftedCalendarDate` | `cast(…)` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SamplingType
 ---
 # I_SAMPLINGTYPETEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` |
+| `Language` | `qdsat.sprache` |
+| `SamplingType` | `qdsat.stichprart` |
 | `SamplingTypeText` | `qdsat.kurztext` |
-| `/* Associations */` | `/* Associations */` |
 | `_SamplingType` | *Association* |
 | `_Language` | *Association* |
 

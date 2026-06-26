@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CM-LT-2CL
   - lob:Other
+  - bo:LegalTransactionSource
 ---
 # I_LGLTRANSSRCETXTAPI01
 
@@ -29,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionSource` | `LegalTransactionSource` |
-| `key Language` | `Language` |
+| `LegalTransactionSource` | `LegalTransactionSource` |
+| `Language` | `Language` |
 | `LglCntntMLglTransSrceTxt` | `LglCntntMLglTransSrceTxt` |
 
 ## Associations

@@ -30,13 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
-| `_ServiceQuotationTP : redirected to I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

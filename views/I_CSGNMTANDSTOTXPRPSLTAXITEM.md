@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:FI-TXL-TGM
   - lob:Finance
+  - bo:ConsignmentAndSTOTaxProposal
 ---
 # I_CSGNMTANDSTOTXPRPSLTAXITEM
 
@@ -32,11 +33,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ProposalTaxPostingIdentifier` | `TaxPropslTax.ptxnr` |
+| `ProposalTaxPostingItem` | `TaxPropslTax.ptxit` |
+| `ProposalTaxPostingTaxItem` | `TaxPropslTax.subno` |
+| `TransactionCurrency` | `_TaxProposalHeader.TransactionCurrency` |
+| `TaxBaseAmountInTransCrcy` | `TaxPropslTax.taxbas` |
+| `TaxCode` | `TaxPropslTax.taxcode` |
+| `ConditionType` | `TaxPropslTax.conditiontype` |
+| `AccountKeyForGLAccount` | `TaxPropslTax.accountkey` |
+| `TaxProposalTaxationDate` | `TaxPropslTax.taxdate` |
+| `TaxRate` | `TaxPropslTax.taxrate` |
 | `TaxAmountInTransCrcy` | `TaxPropslTax.taxamt` |
 | `TaxCountry` | `TaxPropslTax.taxcountry` |
 | `TaxRateValidityStartDate` | `TaxPropslTax.txdat_from` |
-| `_TaxProposalHeader.CompanyCode         as CompanyCode` | *Association* |
+| `CompanyCode` | `_TaxProposalHeader.CompanyCode` |
 | `_TaxProposalHeader` | *Association* |
 
 ## Associations

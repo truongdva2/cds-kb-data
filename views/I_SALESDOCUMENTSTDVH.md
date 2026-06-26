@@ -17,6 +17,7 @@ tags:
   - document
   - component:SD-SLS-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocument
 ---
 # I_SALESDOCUMENTSTDVH
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDocument` | `SalesDocument` |
+| `SalesDocument` | `SalesDocument` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
 | `SalesDocumentType` | `SalesDocumentType` |

@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowStepResult
 ---
 # I_WORKFLOWSTEPRESULTTEXT
 
@@ -33,7 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowScenarioDefinition` | `WorkflowStepTypeNode.WorkflowScenarioDefinition` |
+| `WorkflowScenarioDefinitionVers` | `WorkflowStepTypeNode.WorkflowScenarioDefinitionVers` |
+| `WorkflowStepType` | `WorkflowStepTypeNode.WorkflowStepType` |
+| `WorkflowStepResult` | `WorkflowStepTypeNode.WorkflowStepResult` |
+| `Language` | `WorfklowStepText.Language` |
 | `_Language` | *Association* |
 | `WorkflowStepResultText` | `WorfklowStepText.WorkflowStepText` |
 

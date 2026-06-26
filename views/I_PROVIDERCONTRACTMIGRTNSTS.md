@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `migst_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAProviderContractMigrtnStatus` | `cast( left( dd07l.domvalue_l, 1 ) as migst_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

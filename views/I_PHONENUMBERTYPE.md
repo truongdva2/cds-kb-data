@@ -15,6 +15,7 @@ tags:
   - phone
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:PhoneNumberType
 ---
 # I_PHONENUMBERTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ad_flgmob )` | `cast ( domvalue_l` |
+| `PhoneNumberType` | `cast ( domvalue_l as ad_flgmob )` |
 | `_Text` | *Association* |
 
 ## Associations

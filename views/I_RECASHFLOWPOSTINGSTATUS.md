@@ -15,6 +15,7 @@ tags:
   - status
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:CashFlowPostingStatus
 ---
 # I_RECASHFLOWPOSTINGSTATUS
 
@@ -31,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdcfstatus )` | `cast( dd07l.domvalue_l` |
+| `CashFlowPostingStatus` | `cast( dd07l.domvalue_l as recdcfstatus )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RECashFlowPostingStatusText` | [0..*] |
 
 ## Source Code
 

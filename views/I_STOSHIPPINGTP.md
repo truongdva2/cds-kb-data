@@ -31,17 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element: 'Plant' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_PlantStdVH', element: 'Plant' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `ShippingCondition` | `ShippingCondition` |
+| `ShippingPoint` | `ShippingPoint` |
+| `Route` | `Route` |
+| `LoadingGroup` | `LoadingGroup` |
+| `TransportationGroup` | `TransportationGroup` |
+| `DeliveryPriority` | `DeliveryPriority` |
+| `UnloadingPointName` | `UnloadingPointName` |
+| `StockTransportOrderType` | `StockTransportOrderType` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
 | `Plant` | `Plant` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrderItem : redirected to parent I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder     : redirected to I_StockTransportOrderTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_PurchasingDocument` | *Association* |
 | `_PurchasingDocumentItem` | *Association* |
 | `_ShippingCondition` | *Association* |
 | `_ShippingPoint` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 
 ## Associations
 

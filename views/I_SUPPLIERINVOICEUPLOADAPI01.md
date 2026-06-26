@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoiceUploadUUID` | `SupplierInvoiceUploadUUID` |
+| `SupplierInvoiceUploadUUID` | `SupplierInvoiceUploadUUID` |
 | `CompanyCode` | `CompanyCode` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |

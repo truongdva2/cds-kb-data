@@ -35,7 +35,7 @@ tags:
 | `ConditionApplication` | `t682z.kappl` |
 | `AccessSequence` | `t682z.kozgf` |
 | `AccessNumberOfAccessSequence` | `t682z.kolnr` |
-| `char03 )` | `cast ( t682i.kotabnr` |
+| `ConditionTable` | `cast ( t682i.kotabnr as char03 )` |
 | `PricingConditionField` | `t682z.zifna` |
 | `PrcgCndnAccDocumentStructure` | `t682z.qustr` |
 | `PrcgCndnAccessDocumentField` | `t682z.qufna` |

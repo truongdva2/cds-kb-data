@@ -15,6 +15,7 @@ tags:
   - text
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPartyRole
 ---
 # I_SLCPARTYROLETEXT
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/party_role_code preserving type)` | `cast ( substring( domvalue_l, 1, 3 )` |
+| `SLCPartyRole` | `cast ( substring( domvalue_l, 1, 3 ) as /srmsmc/party_role_code preserving type)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/role_description preserving type)` | `cast(ddtext` |
+| `SLCPartyRoleName` | `cast(ddtext as /srmsmc/role_description preserving type)` |
 | `_SLCPartyRole` | *Association* |
 | `_Language` | *Association* |
 

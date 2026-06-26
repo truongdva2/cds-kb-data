@@ -29,16 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
+| `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
 | `SupplierEvalScorecard` | `SupplierEvalScorecard` |
 | `SuplrEvalScorecardName` | `SuplrEvalScorecardName` |
 | `SuplrEvalStartDate` | `SuplrEvalStartDate` |
 | `SuplrEvalEndDate` | `SuplrEvalEndDate` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `CreationDateTime` | `CreationDateTime` |
-| `/srmsmc/created_by )` | `cast(CreatedByUser` |
+| `CreatedByUser` | `cast(CreatedByUser as /srmsmc/created_by )` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/srmsmc/last_changed_by )` | `cast(LastChangedByUser` |
+| `LastChangedByUser` | `cast(LastChangedByUser as /srmsmc/last_changed_by )` |
 | `SuplrEvalIsFinal` | `SuplrEvalIsFinal` |
 | `_Supplier` | *Association* |
 

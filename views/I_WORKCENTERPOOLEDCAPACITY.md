@@ -15,6 +15,7 @@ tags:
   - work-center
   - component:PP-BD-WKC-2CL
   - lob:Manufacturing
+  - bo:PooledCapacity
 ---
 # I_WORKCENTERPOOLEDCAPACITY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
+| `CapacityInternalID` | `CapacityInternalID` |
 | `Plant` | `Plant` |
 | `Capacity` | `Capacity` |
 | `CapacityCategoryCode` | `CapacityCategoryCode` |

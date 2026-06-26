@@ -35,7 +35,7 @@ tags:
 | `ChartOfDepreciation` | `afapl` |
 | `DepreciationKey` | `afasl` |
 | `CN_CADEDepreciationFormulaText` | `cade_depr_fmla` |
-| `_DeprKeyText.DepreciationKeyName` | *Association* |
+| `DepreciationKeyName` | `_DeprKeyText.DepreciationKeyName` |
 
 ## Associations
 

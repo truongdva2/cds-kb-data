@@ -16,6 +16,7 @@ tags:
   - status
   - component:MM-PUR-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:PurReqnReleaseStatus
 ---
 # I_PURREQNRELEASESTATUS
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `banpr)` | `cast(domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
+| `PurReqnReleaseStatus` | `cast(domvalue_l as banpr)` |
 | `_Text` | *Association* |
 
 ## Associations

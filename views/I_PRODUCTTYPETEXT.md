@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `producttypename preserving type )` | `cast(t134t.mtbez` |
+| `ProductType` | `cast(t134t.mtart as producttype preserving type )` |
+| `Language` | `t134t.spras` |
+| `MaterialTypeName` | `cast(t134t.mtbez as producttypename preserving type )` |
 | `_Language` | *Association* |
 | `_ProductType` | *Association* |
 

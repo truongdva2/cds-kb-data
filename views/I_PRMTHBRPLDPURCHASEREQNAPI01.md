@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `ProcmtHubPurchaseRequisition` | `ProcmtHubPurchaseRequisition` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ProcmtHubPurRequisitionType` | `ProcmtHubPurRequisitionType` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 

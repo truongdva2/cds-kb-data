@@ -16,6 +16,7 @@ tags:
   - text
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecord
 ---
 # C_CHANGERECORDTEXTDEX
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    ChangeRecordReferenceTextUUID` | `ChangeRecordReferenceTextUUID` |
+| `ChangeRecordReferenceTextUUID` | `ChangeRecordReferenceTextUUID` |
 | `Language` | `Language` |
 | `ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
 | `ChangeRecordUUID` | `ChangeRecordUUID` |

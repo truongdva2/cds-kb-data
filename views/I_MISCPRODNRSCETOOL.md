@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:MiscProductionResourceTool
 ---
 # I_MISCPRODNRSCETOOL
 
@@ -30,11 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `PRT.ProductionResourceToolGroup2` | `PRT.ProductionResourceToolGroup2` |
-| `PRT.ProductionResourceUsage` | `PRT.ProductionResourceUsage` |
+| `MiscProductionResourceTool` | `PRT.MiscProductionResourceTool` |
+| `ProductionResourceType` | `PRT.ProductionResourceType` |
+| `ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
+| `ProductionResourceToolGroup1` | `PRT.ProductionResourceToolGroup1` |
+| `ProductionResourceToolGroup2` | `PRT.ProductionResourceToolGroup2` |
+| `ProductionResourceUsage` | `PRT.ProductionResourceUsage` |
 | `ProdnRsceToolControlProfile` | `ProdnRsceToolControlProfile` |
-| `PRT.ChangeNumber` | `PRT.ChangeNumber` |
+| `ChangeNumber` | `PRT.ChangeNumber` |
 | `ProdnRsceToolStandardTextCode` | `ProdnRsceToolStandardTextCode` |
 | `ProdnRsceToolTotQtyCalcFormula` | `ProdnRsceToolTotQtyCalcFormula` |
 | `ProdnRsceToolUsageQtyCalcFmla` | `ProdnRsceToolUsageQtyCalcFmla` |
@@ -56,12 +60,12 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `PRT.MiscPRTAuthorizationGroup` | `PRT.MiscPRTAuthorizationGroup` |
-| `PRT.ProdnRsceToolPlntLoc` | `PRT.ProdnRsceToolPlntLoc` |
-| `PRT.ProductionResourceToolStatus` | `PRT.ProductionResourceToolStatus` |
-| `PRT.ProdnRsceToolIsDeleted` | `PRT.ProdnRsceToolIsDeleted` |
-| `PRT.ProductionResourceToolLocation` | `PRT.ProductionResourceToolLocation` |
-| `PRT.ProdnRsceToolBaseUnit` | `PRT.ProdnRsceToolBaseUnit` |
+| `MiscPRTAuthorizationGroup` | `PRT.MiscPRTAuthorizationGroup` |
+| `ProdnRsceToolPlntLoc` | `PRT.ProdnRsceToolPlntLoc` |
+| `ProductionResourceToolStatus` | `PRT.ProductionResourceToolStatus` |
+| `ProdnRsceToolIsDeleted` | `PRT.ProdnRsceToolIsDeleted` |
+| `ProductionResourceToolLocation` | `PRT.ProductionResourceToolLocation` |
+| `ProdnRsceToolBaseUnit` | `PRT.ProdnRsceToolBaseUnit` |
 | `_ProductionResourceType` | *Association* |
 | `_Text` | *Association* |
 | `_ProdnRsceToolGroup1` | *Association* |

@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:EntRsceCapacityCategoryText
 ---
 # I_CAPACITYCATEGORYTEXT
 
@@ -32,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `kaparttext preserving type)` | `cast(txt.txt` |
+| `CapacityCategoryCode` | `cast(txt.kapar as pph_kapart preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `CapacityCategoryName` | `cast(txt.txt as kaparttext preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

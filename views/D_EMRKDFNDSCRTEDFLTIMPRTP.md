@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode : bukrs;` | `CompanyCode : bukrs;` |
+| `CompanyCode` | `bukrs` |
 
 ## Associations
 

@@ -15,6 +15,7 @@ tags:
   - partner
   - component:LO-MD-BP-2CL
   - lob:Logistics General
+  - bo:PartnerCounter
 ---
 # I_CUSTSALESPARTNERCOUNTER
 

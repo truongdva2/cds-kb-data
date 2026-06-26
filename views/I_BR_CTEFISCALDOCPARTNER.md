@@ -15,6 +15,7 @@ tags:
   - partner
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_CTeFiscalDocumentPartner
 ---
 # I_BR_CTEFISCALDOCPARTNER
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `j_1bcte_tomali preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_CTeFiscalDocumentPartner` | `cast ( substring( domvalue_l, 1, 1 ) as j_1bcte_tomali preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

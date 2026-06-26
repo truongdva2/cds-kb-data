@@ -17,6 +17,7 @@ tags:
   - partner
   - component:SD-BIL-2CL
   - lob:Sales & Distribution
+  - bo:PartnerFunction
 ---
 # I_BILLINGDOCITEMPARTNER
 
@@ -33,26 +34,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'BillingDocument'` | `localElement: 'BillingDocument'` |
-| `element: 'BillingDocument' } ] } ]` | `element: 'BillingDocument' } ] } ]` |
-| `key Partner.BillingDocumentItem` | `Partner.BillingDocumentItem` |
-| `key Partner.PartnerFunction` | `Partner.PartnerFunction` |
-| `Partner.Customer` | `Partner.Customer` |
-| `Partner.Supplier` | `Partner.Supplier` |
-| `Partner.Personnel` | `Partner.Personnel` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.ContactPerson` | `Partner.ContactPerson` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
-| `Partner.ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
-| `Partner.BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
-| `Partner.SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
+| `BillingDocument` | `Partner.BillingDocument` |
+| `BillingDocumentItem` | `Partner.BillingDocumentItem` |
+| `PartnerFunction` | `Partner.PartnerFunction` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `AddressID` | `Partner.AddressID` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
+| `ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
+| `BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
+| `SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
 | `_BillingDocument` | *Association* |
 | `_Item` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._BusinessPartnerAddress` | `Partner._BusinessPartnerAddress` |
-| `Partner._BPRefAddressForDocSpcfcAddr` | `Partner._BPRefAddressForDocSpcfcAddr` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
+| `_PartnerFunction` | *Association* |
+| `_Address` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
 
 ## Associations
 

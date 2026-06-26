@@ -18,6 +18,7 @@ tags:
   - item-level
   - component:MM-PUR-PO-2CL
   - lob:Sourcing & Procurement
+  - bo:PurchasingDocumentItem
 ---
 # I_PURCHASINGDOCUMENTITEMSTDVH
 
@@ -34,9 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.9 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.9 }` |
-| `key PurchasingDocument` | `PurchasingDocument` |
-| `key PurchasingDocumentItem` | `PurchasingDocumentItem` |
+| `PurchasingDocument` | `PurchasingDocument` |
+| `PurchasingDocumentItem` | `PurchasingDocumentItem` |
 | `Plant` | `Plant` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |

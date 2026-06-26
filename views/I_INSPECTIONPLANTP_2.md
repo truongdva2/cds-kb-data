@@ -33,17 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key InspectionPlan` | `InspectionPlan` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `InspectionPlan` | `InspectionPlan` |
 | `HasChangeNumber` | `HasChangeNumber` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `_InspPlanVersion : redirected to composition child I_InspectionPlanVersionTP_2` | *Association* |
-| `_MatlAssgmtVersion : redirected to composition child I_InspPlanMatlAssgmtVersTP_2` | *Association* |
-| `_InspPlanOperation : redirected to composition child I_InspPlanOperationTP_2` | *Association* |
 
 ## Associations
 

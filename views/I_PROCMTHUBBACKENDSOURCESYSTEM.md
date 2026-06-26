@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:MM-PUR-HUB-REQ-2CL
   - lob:Sourcing & Procurement
+  - bo:ProcurementHubSourceSystem
 ---
 # I_PROCMTHUBBACKENDSOURCESYSTEM
 

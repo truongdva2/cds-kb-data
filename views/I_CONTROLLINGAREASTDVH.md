@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:ControllingArea
 ---
 # I_CONTROLLINGAREASTDVH
 
@@ -32,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_ControllingArea.ControllingArea` | `I_ControllingArea.ControllingArea` |
-| `I_ControllingArea.ControllingAreaName` | `I_ControllingArea.ControllingAreaName` |
+| `ControllingArea` | `I_ControllingArea.ControllingArea` |
+| `ControllingAreaName` | `I_ControllingArea.ControllingAreaName` |
 
 ## Associations
 

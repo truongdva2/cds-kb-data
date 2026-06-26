@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:Segment
 ---
 # I_SEGMENTTEXT
 
@@ -34,7 +35,6 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `Segment` | `segment` |
-| `fis_segment_name preserving type )as SegmentName` | `cast (name` |
 | `_Language` | *Association* |
 
 ## Associations

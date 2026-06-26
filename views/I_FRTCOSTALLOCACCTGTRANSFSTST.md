@@ -29,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wfbsk )` | `cast(dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `FrtCostAllocAcctgTransfSts` | `cast(dd07t.domvalue_l as wfbsk )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wlf_rfbsk_name preserving type)` | `cast( dd07t.ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `FrtCostAllocAcctgTransfStsName` | `cast( dd07t.ddtext as wlf_rfbsk_name preserving type)` |
 | `_FrtCostAllocAcctgTransfSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_FrtCostAllocAcctgTransfSts` | `I_FrtCostAllocAcctgTransfSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

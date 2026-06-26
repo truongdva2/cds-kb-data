@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
-| `parvw_unv preserving type )` | `cast(PartnerFunction` |
-| `key FuncnlLocPartnerObjectNmbr` | `FuncnlLocPartnerObjectNmbr` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `PartnerFunction` | `cast(PartnerFunction as parvw_unv preserving type )` |
+| `FuncnlLocPartnerObjectNmbr` | `FuncnlLocPartnerObjectNmbr` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `Partner` | `Partner` |
 | `CreatedByUser` | `CreatedByUser` |
@@ -58,7 +58,6 @@ tags:
 | `SupplierIsBusPrpsCmpltd` | `SupplierIsBusPrpsCmpltd` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `SupplierAuthznGrp` | `SupplierAuthznGrp` |
-| `_FunctionalLocation : redirected to parent I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

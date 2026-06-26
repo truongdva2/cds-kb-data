@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Product                          : ehfnd_mat_id;` | `Product                          : ehfnd_mat_id;` |
-| `PackingInstructionNumber         : ehfnd_pi_id;` | `PackingInstructionNumber         : ehfnd_pi_id;` |
-| `_Root : association to parent D_PCLgsDcGetMxdLdgIcmtsP;` | *Association* |
+| `Product` | `ehfnd_mat_id` |
+| `PackingInstructionNumber` | `ehfnd_pi_id` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetMxdLdgIcmtsP` | — |
 
 ## Source Code
 

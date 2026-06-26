@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abwtp_kk preserving type )` | `cast( left( dd07l.domvalue_l,1 )` |
+| `CASubstituteDocumentCategory` | `cast( left( dd07l.domvalue_l,1 ) as abwtp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

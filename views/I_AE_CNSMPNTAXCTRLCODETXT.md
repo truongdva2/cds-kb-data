@@ -15,6 +15,7 @@ tags:
   - tax
   - component:FI-LOC-LO-AE
   - lob:Finance
+  - bo:ConsumptionTaxCtrlCode
 ---
 # I_AE_CNSMPNTAXCTRLCODETXT
 
@@ -41,7 +42,7 @@ tags:
 | `ConsumptionTaxCtrlCodeText5` | `text5` |
 | `_Language` | *Association* |
 | `_Country` | *Association* |
-| `_ControlCode //Make association public` | *Association* |
+| `_ControlCode` | *Association* |
 
 ## Associations
 

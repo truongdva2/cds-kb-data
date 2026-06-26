@@ -15,6 +15,7 @@ tags:
   - equipment
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:EquipmentCategory
 ---
 # I_EQUIPMENTCATEGORY
 
@@ -40,7 +41,7 @@ tags:
 | `EquipmentCategoryStatusProfile` | `t370t.stsma` |
 | `EquipmentCategoryViewProfile` | `t370t.view_prof` |
 | `EquipCatHasLinearAttributes` | `t370t.lfe_ind` |
-| `equipmentcategory_oid )` | `cast( t370t.eqtyp` |
+| `EquipmentCategoryOID` | `cast( t370t.eqtyp as equipmentcategory_oid )` |
 | `_Text` | *Association* |
 | `_InspectionLevelText` | *Association* |
 

@@ -33,92 +33,48 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } } ]` | `name: 'I_Customer_VH', element: 'Customer' } } ]` |
-| `SCIA.SoldToParty` | `SCIA.SoldToParty` |
-| `SCIA._SoldToParty` | `SCIA._SoldToParty` |
-| `SCIA.ResponsibleEmployee` | `SCIA.ResponsibleEmployee` |
+| `SalesContract` | `cast( SCIA.SalesDocument as sales_contract preserving type )` |
+| `_SalesContract` | *Association* |
+| `SalesContractItem` | `cast( SCIA.SalesDocumentItem as sales_contract_item preserving type )` |
+| `SalesContractType` | `SCIA.SalesDocumentType` |
+| `CreationDate` | `SCIA.CreationDate` |
+| `CreatedByUser` | `SCIA.CreatedByUser` |
+| `_CreatedByUser` | *Association* |
+| `SalesContractValidityStartDate` | `SCIA.AgrmtValdtyStartDate` |
+| `SalesContractValidityEndDate` | `SCIA.AgrmtValdtyEndDate` |
+| `SalesOrganization` | `SCIA.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `SCIA.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `cast(SCIA.OrganizationDivision as organization_division preserving type )` |
+| `_OrganizationDivision` | *Association* |
+| `SalesGroup` | `SCIA.SalesGroup` |
+| `_SalesGroup` | *Association* |
+| `SalesOffice` | `SCIA.SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `PartnerCompany` | `SCIA._SoldToParty.TradingPartner` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SCIA.SoldToParty` |
+| `_SoldToParty` | *Association* |
+| `ResponsibleEmployee` | `SCIA.ResponsibleEmployee` |
 | `_ResponsibleEmployee_2` | *Association* |
 | `_ResponsibleEmployee` | *Association* |
-| `SCIA.SalesEmployee` | `SCIA.SalesEmployee` |
+| `SalesEmployee` | `SCIA.SalesEmployee` |
 | `_SalesEmployee_2` | *Association* |
 | `_SalesEmployee` | *Association* |
-| `SCIA.Material` | `SCIA.Material` |
-| `SCIA.Product` | `SCIA.Product` |
-| `SCIA._Product` | `SCIA._Product` |
-| `SCIA.SDDocumentRejectionStatus` | `SCIA.SDDocumentRejectionStatus` |
-| `SCIA._SDDocumentRejectionStatus` | `SCIA._SDDocumentRejectionStatus` |
-| `SCIA.TransactionCurrency` | `SCIA.TransactionCurrency` |
-| `SCIA._TransactionCurrency` | `SCIA._TransactionCurrency` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `cast (currency_conversion(` | `cast (currency_conversion(` |
-| `amount => SCIA.SalesContractTargetValue` | `amount => SCIA.SalesContractTargetValue` |
-| `source_currency => SCIA.TransactionCurrency` | `source_currency => SCIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SCIA.CreationDate` | `exchange_rate_date => SCIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `sales_contract_target_value)` | `)` |
-| `cast( currency_conversion(` | `cast( currency_conversion(` |
-| `amount => SCIA.SalesContractTargetAmount` | `amount => SCIA.SalesContractTargetAmount` |
-| `source_currency => SCIA.TransactionCurrency` | `source_currency => SCIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SCIA.CreationDate` | `exchange_rate_date => SCIA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `sls_contr_tgt_val_in_dc )` | `)` |
-| `reld_sls_contr_tgt_val )` | `cast( ReleasedSalesContract.SalesContractReleasedAmount` |
-| `reld_sls_contr_tgt_val_in_dc )` | `cast( ReleasedSalesContract.SalesContractReleasedAmtInDC` |
-| `cast(` | `cast(` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyStartDate = '00000000'` | `SCIA.AgrmtValdtyStartDate = '00000000'` |
-| `then` | `then` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyEndDate = '00000000'` | `SCIA.AgrmtValdtyEndDate = '00000000'` |
-| `then` | `then` |
-| `case when` | `case when` |
-| `SCIA.CreationDate = '99991231'` | `SCIA.CreationDate = '99991231'` |
-| `then` | `then` |
-| `1` | `1` |
-| `else` | `else` |
-| `abap.dats(8))),5)` | `division(dats_days_between(SCIA.CreationDate, :P_Date),dats_days_between(SCIA.CreationDate,cast('99991231'` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyEndDate = SCIA.CreationDate` | `SCIA.AgrmtValdtyEndDate = SCIA.CreationDate` |
-| `then` | `then` |
-| `1` | `1` |
-| `else` | `else` |
-| `division(dats_days_between(SCIA.CreationDate, :P_Date),dats_days_between(SCIA.CreationDate,SCIA.AgrmtValdtyEndDate),5)` | `division(dats_days_between(SCIA.CreationDate, :P_Date),dats_days_between(SCIA.CreationDate,SCIA.AgrmtValdtyEndDate),5)` |
-| `end` | `end` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyEndDate = '00000000'` | `SCIA.AgrmtValdtyEndDate = '00000000'` |
-| `then` | `then` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyStartDate = '99991231'` | `SCIA.AgrmtValdtyStartDate = '99991231'` |
-| `then` | `then` |
-| `1` | `1` |
-| `else` | `else` |
-| `abap.dats(8))),5)` | `division(dats_days_between(SCIA.AgrmtValdtyStartDate, :P_Date),dats_days_between(SCIA.AgrmtValdtyStartDate,cast('99991231'` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when` | `case when` |
-| `SCIA.AgrmtValdtyStartDate = SCIA.AgrmtValdtyEndDate` | `SCIA.AgrmtValdtyStartDate = SCIA.AgrmtValdtyEndDate` |
-| `then` | `then` |
-| `1` | `1` |
-| `else` | `else` |
-| `division(dats_days_between(SCIA.AgrmtValdtyStartDate, :P_Date),dats_days_between(SCIA.AgrmtValdtyStartDate,SCIA.AgrmtValdtyEndDate),5)` | `division(dats_days_between(SCIA.AgrmtValdtyStartDate, :P_Date),dats_days_between(SCIA.AgrmtValdtyStartDate,SCIA.AgrmtValdtyEndDate),5)` |
-| `end` | `end` |
-| `end` | `end` |
-| `end` | `end` |
-| `SlsContrPeriodElapsedPercent` | `as sls_contr_period_elpsd_percent)` |
+| `Material` | `SCIA.Material` |
+| `Product` | `SCIA.Product` |
+| `_Product` | *Association* |
+| `SDDocumentRejectionStatus` | `SCIA.SDDocumentRejectionStatus` |
+| `_SDDocumentRejectionStatus` | *Association* |
+| `TransactionCurrency` | `SCIA.TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `SalesContractTargetValue` | `cast(…)` |
+| `SalesContractTargetAmountInDC` | `cast(…)` |
+| `ReleasedNetAmount` | `cast(…)` |
+| `SalesContractReleasedAmtInDC` | `cast(…)` |
+| `SlsContrPeriodElapsedPercent` | `cast(…)` |
 
 ## Associations
 

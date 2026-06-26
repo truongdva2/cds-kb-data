@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:SLC-SUP
   - lob:Other
+  - bo:SLCPreferredAnswer
 ---
 # I_SLCPREFERREDANSWER
 
@@ -29,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qlb_pref_answer)` | `cast( substring( domvalue_l, 1, 1 )` |
+| `SLCPreferredAnswer` | `cast( substring( domvalue_l, 1, 1 ) as /srmsmc/qlb_pref_answer)` |
 | `_SLCPreferredAnswerText` | *Association* |
 
 ## Associations

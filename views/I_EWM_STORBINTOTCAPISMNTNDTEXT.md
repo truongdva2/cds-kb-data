@@ -16,6 +16,7 @@ tags:
   - text
   - component:SCM-EWM-WOP-2CL
   - lob:Other
+  - bo:EWMStorBinTotalCapacityIsMntnd
 ---
 # I_EWM_STORBINTOTCAPISMNTNDTEXT
 
@@ -33,9 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ewm_de_storbinmaxcapacitymaint preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `ewm_de_storbinmaxcapamaintdesc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `EWMStorBinTotalCapacityIsMntnd` | `cast(…)` |
+| `EWMStorBinTotCapacityMntndDesc` | `cast( ddtext as ewm_de_storbinmaxcapamaintdesc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

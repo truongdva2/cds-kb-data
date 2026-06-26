@@ -17,6 +17,7 @@ tags:
   - header-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WarehouseInboundDelivery
 ---
 # I_EWM_INBDELIVERYHEADERTP
 
@@ -33,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMInboundDelivery` | `EWMInboundDelivery` |
+| `EWMInboundDelivery` | `EWMInboundDelivery` |
 | `InboundDeliveryUUID` | `InboundDeliveryUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
 | `EWMInboundDeliveryUUIDHex` | `EWMInboundDeliveryUUIDHex` |
@@ -48,12 +49,10 @@ tags:
 | `EWMCarrierIsBusPurposeCmpltd` | `EWMCarrierIsBusPurposeCmpltd` |
 | `AdvancedShippingNotification` | `AdvancedShippingNotification` |
 | `InboundDelivery` | `InboundDelivery` |
-| `ewm_de_plan_dlv_date preserving type)` | `cast(PlannedDeliveryUTCDateTime` |
+| `PlannedDeliveryUTCDateTime` | `cast(PlannedDeliveryUTCDateTime as ewm_de_plan_dlv_date preserving type)` |
 | `ReceivingOffice` | `ReceivingOffice` |
 | `EWMDelivLastChangeUTCDateTime` | `EWMDelivLastChangeUTCDateTime` |
 | `WarehouseTimeZone` | `WarehouseTimeZone` |
-| `_WhseInbDeliveryItem : redirected to composition child I_EWM_InbDeliveryItemTP` | *Association* |
-| `/* Attachments */` | `/* Attachments */` |
 | `_HDMRelation` | *Association* |
 
 ## Associations

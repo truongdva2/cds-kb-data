@@ -33,15 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       OrganizationalChange` | `OrganizationalChange` |
-| `key       WBSElementInternalID` | `WBSElementInternalID` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
 | `ControllingArea` | `ControllingArea` |
 | `ProfitCenter` | `ProfitCenter` |
 | `ProfitCenterByOrglChange` | `ProfitCenterByOrglChange` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

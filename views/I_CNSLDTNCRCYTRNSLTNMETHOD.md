@@ -30,10 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnCrcyTrnsltnMethodVH'` | `name: 'I_CnsldtnCrcyTrnsltnMethodVH'` |
-| `element: 'CnsldtnCrcyTranslationMethod' } }]` | `element: 'CnsldtnCrcyTranslationMethod' } }]` |
-| `fincs_crcy_trnsltn_method preserving type )` | `cast ( ConsolidationMethod` |
-| `_Text // required for text retrieval and navigation` | *Association* |
+| `CnsldtnCrcyTranslationMethod` | `cast ( ConsolidationMethod as fincs_crcy_trnsltn_method preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

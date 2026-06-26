@@ -36,7 +36,7 @@ tags:
 | `KR_EDocSelfBillMapIsDelete` | `delete_indicator` |
 | `AccountingDocument` | `belnr` |
 | `CompanyCode` | `bukrs` |
-| `fis_gjahr_no_conv preserving type)` | `cast(gjahr` |
+| `FiscalYear` | `cast(gjahr as fis_gjahr_no_conv preserving type)` |
 | `BillingDocument` | `vbeln` |
 | `KR_EDocSelfBillMapInvcgDocNo` | `invdocno` |
 

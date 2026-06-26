@@ -30,7 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContractUUID` | `ServiceContractUUID` |
+| `ServiceContractCharUUID` | `ServiceContractCharUUID` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceContractDescription` | `ServiceContractDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `PricingDocument` | `PricingDocument` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `ServiceContractNetAmount` | `ServiceContractNetAmount` |
+| `ServiceContractGrossAmount` | `ServiceContractGrossAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `SoldToParty` | `SoldToParty` |
 | `SoldToPartyRegion` | `SoldToPartyRegion` |
@@ -71,12 +86,10 @@ tags:
 | `ServiceContractCanclnParty` | `ServiceContractCanclnParty` |
 | `ServiceContrCancellationReason` | `ServiceContrCancellationReason` |
 | `SrvcContrCreditStatus` | `SrvcContrCreditStatus` |
-| `cast( case ServiceContractCanclnParty` | `cast( case ServiceContractCanclnParty` |
-| `when '' then 0` | `when '' then 0` |
-| `timestamp preserving type )` | `else ServiceContractEndDateTime end` |
-| `_ExtRefServiceContract.CustMgmtExtRefID                                     as SrvcContrExternalReference` | *Association* |
-| `_ExtRefServiceContractQuot.CustMgmtExtRefID                                 as ServiceQtanExtReference` | *Association* |
-| `_WBSElementBasicData.WBSElementExternalID` | *Association* |
+| `SrvcContrCancellationDateTime` | `cast(…)` |
+| `SrvcContrExternalReference` | `_ExtRefServiceContract.CustMgmtExtRefID` |
+| `ServiceQtanExtReference` | `_ExtRefServiceContractQuot.CustMgmtExtRefID` |
+| `WBSElementExternalID` | `_WBSElementBasicData.WBSElementExternalID` |
 | `_ServiceContractItem` | *Association* |
 | `_ServiceDocPredecessor` | *Association* |
 | `_ServiceDocSuccessor` | *Association* |

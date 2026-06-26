@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:BusinessTransactionCategory
 ---
 # I_BUSINESSTRANSACTIONCATEGORY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bttype preserving type )` | `cast(finsc_bttype.bttype` |
+| `BusinessTransactionCategory` | `cast(finsc_bttype.bttype as fis_bttype preserving type )` |
 | `BusTransIsSubjToPerdControl` | `finsc_bttype.xperiodcontrol` |
 | `PeriodControlIsLedgerSpecific` | `finsc_bttype.xperiodbyledger` |
 | `PeriodIsCheckedByLeadingLedger` | `finsc_bttype.xperiodbyleadingledger` |
@@ -41,7 +42,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_BusTransactionCategoryText` | [0..*] |
-| `_BusTransacTypeHierNode` | `I_BusTransacTypeHierNode` | [0..*] |
 
 ## Source Code
 

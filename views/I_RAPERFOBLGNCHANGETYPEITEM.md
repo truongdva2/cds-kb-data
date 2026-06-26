@@ -30,45 +30,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farr_cds_pob_id preserving type)` | `cast(pob_id` |
-| `farr_cds_contract_id preserving type)` | `cast(contract_id` |
+| `PerformanceObligation` | `cast(pob_id as farr_cds_pob_id preserving type)` |
+| `RevenueAccountingContract` | `cast(contract_id as farr_cds_contract_id preserving type)` |
 | `RevnAcctgContrChangeEffctvDate` | `effective_date` |
-| `farr_cds_pob_name preserving type)` | `cast(pob_name` |
+| `PerformanceObligationClass` | `cast(pob_name as farr_cds_pob_name preserving type)` |
 | `RAPerfOblgnChangeType` | `change_type` |
 | `RevnAcctgReconciliationKey` | `recon_key` |
-| `fis_gjahr preserving type)` | `cast(fiscal_year` |
-| `fins_fiscalperiod preserving type)` | `cast(period` |
-| `fis_jahrper_conv)` | `cast(concat(fiscal_year, period)` |
-| `farr_cds_pob_type preserving type)` | `cast(pob_type` |
-| `farr_cds_standalone_price preserving type)` | `cast(ssp` |
+| `FiscalYear` | `cast(fiscal_year as fis_gjahr preserving type)` |
+| `FiscalPeriod` | `cast(period as fins_fiscalperiod preserving type)` |
+| `FiscalYearPeriod` | `cast(concat(fiscal_year, period) as fis_jahrper_conv)` |
+| `RAPerformanceObligationType` | `cast(pob_type as farr_cds_pob_type preserving type)` |
+| `SSPriceInSalesDocCrcy` | `cast(ssp as farr_cds_standalone_price preserving type)` |
 | `AllocatedPriceInSalesDocCrcy` | `alloc_amt` |
-| `farr_cds_contractual_price preserving type)` | `cast(trx_price` |
-| `farr_cds_transaction_price_org preserving type)` | `cast(trx_price_org` |
-| `farr_cds_total_interest_amount preserving type)` | `cast(total_interest_amount` |
+| `ContractualPrcInSlsDocCrcy` | `cast(trx_price as farr_cds_contractual_price preserving type)` |
+| `OplContractualPrcInSlsDocCrcy` | `cast(trx_price_org as farr_cds_transaction_price_org preserving type)` |
+| `RATotalInterestAmtInSlsDocCrcy` | `cast(total_interest_amount as farr_cds_total_interest_amount preserving type)` |
 | `PerfOblgnFaceAmtInSlsDocCrcy` | `face_value` |
-| `waerk preserving type)` | `cast(trx_price_curk` |
+| `SalesDocumentCurrency` | `cast(trx_price_curk as waerk preserving type)` |
 | `PerformanceObligationStartDate` | `start_date` |
 | `PerformanceObligationEndDate` | `end_date` |
 | `PerfOblgnFulfillmentType` | `fulfill_type` |
 | `PerfObligationDeferralMethod` | `deferral_method` |
-| `farr_cds_residual_pob preserving type)` | `cast(residual_pob` |
-| `farr_cds_exclude_allocation preserving type)` | `cast(prevent_alloc` |
-| `farr_cds_ssp_range_percentage preserving type)` | `cast(ssp_range_perc` |
+| `RAPerfOblgnIsResidual` | `cast(residual_pob as farr_cds_residual_pob preserving type)` |
+| `PerfOblgnIsExclFromPriceAlloc` | `cast(prevent_alloc as farr_cds_exclude_allocation preserving type)` |
+| `SSPriceTolerancePercent` | `cast(ssp_range_perc as farr_cds_ssp_range_percentage preserving type)` |
 | `SSPriceToleranceAmount` | `ssp_range_amount` |
-| `farr_cds_contractual_quantity)` | `cast(quantity` |
+| `PerfOblgnContractualQuantity` | `cast(quantity as farr_cds_contractual_quantity)` |
 | `PerfOblgnContractualQtyUnit` | `quantity_unit` |
-| `farr_cds_effective_quantity)` | `cast(effective_qty` |
+| `PerfOblgnEffectiveQuantity` | `cast(effective_qty as farr_cds_effective_quantity)` |
 | `PerfOblgnEffectiveQuantityUnit` | `effective_qty_unit` |
 | `RAPerfOblgnDistinctType` | `distinct_type` |
 | `RAHigherLevelPerfOblgn` | `hi_level_pob_id` |
 | `PerfOblgnIsFinallyInvoiced` | `final_invoice` |
 | `PerfOblgnIsSoftDeleted` | `soft_deleted` |
 | `RAPerfOblgnFinalizationDate` | `final_date` |
-| `farr_cds_manual_price_alloc preserving type)` | `cast(manual_allocated` |
-| `farr_cds_business_chg_reason preserving type)` | `cast(business_change_reason` |
-| `creation_date_time preserving type)` | `cast(created_on` |
-| `last_changed_date_time preserving type)` | `cast(changed_on` |
-| `/* association */` | `/* association */` |
+| `RAContractIsManuallyAllocated` | `cast(manual_allocated as farr_cds_manual_price_alloc preserving type)` |
+| `RABusinessChangeReason` | `cast(business_change_reason as farr_cds_business_chg_reason preserving type)` |
+| `RAChangeTypeCreationDateTime` | `cast(created_on as creation_date_time preserving type)` |
+| `RAChangeTypeChangeDateTime` | `cast(changed_on as last_changed_date_time preserving type)` |
 | `_Currency` | *Association* |
 | `_PerfOblgn` | *Association* |
 | `_RevenueAccountingContract` | *Association* |

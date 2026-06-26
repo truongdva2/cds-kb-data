@@ -17,6 +17,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenterText
 ---
 # I_WORKCENTERTEXT
 
@@ -33,10 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `workcentertext preserving type)` | `cast(text.ProductionResourceText` |
-| `_WorkCenter.Plant` | *Association* |
-| `_WorkCenter.WorkCenterCategoryCode` | *Association* |
+| `WorkCenterTypeCode` | `text.ProductionResourceType` |
+| `WorkCenterInternalID` | `text.ProductionResourceInternalID` |
+| `Language` | `cast(text.Language as spras preserving type)` |
+| `WorkCenterText` | `cast(text.ProductionResourceText as workcentertext preserving type)` |
+| `Plant` | `_WorkCenter.Plant` |
+| `WorkCenterCategoryCode` | `_WorkCenter.WorkCenterCategoryCode` |
 | `_WorkCenterType` | *Association* |
 | `_Language` | *Association* |
 

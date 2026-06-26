@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductType
 ---
 # I_PRODUCTTYPE
 
@@ -31,11 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `producttype preserving type )` | `cast(t134.mtart` |
+| `ProductType` | `cast(t134.mtart as producttype preserving type )` |
 | `ProductTypeCode` | `prod_type_code` |
 | `AuthorizationGroup` | `t134.begru` |
 | `MaintenanceStatus` | `t134.pstat` |

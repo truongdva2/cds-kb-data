@@ -34,18 +34,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
-| `key PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
-| `key TextObjectCategory` | `TextObjectCategory` |
-| `key TextObjectKey` | `TextObjectKey` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
+| `TextObjectCategory` | `TextObjectCategory` |
+| `TextObjectKey` | `TextObjectKey` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `PlainLongText` | `PlainLongText` |
 | `FixedIndicator` | `FixedIndicator` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseRequisitionItem : redirected to parent I_PurchaseReqnItemTP` | *Association* |
-| `_PurReqn                 : redirected to I_PurchaseRequisitionTP` | *Association* |
 
 ## Associations
 

@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcValuePositionNumber
 ---
 # I_CLFNCHARCVALUEFORKEYDATE
 
@@ -29,34 +30,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicValue.CharcInternalID` | `CharacteristicValue.CharcInternalID` |
-| `key CharacteristicValue.CharcValuePositionNumber` | `CharacteristicValue.CharcValuePositionNumber` |
-| `CharacteristicValue.CharcValueParentPositionNumber` | `CharacteristicValue.CharcValueParentPositionNumber` |
-| `CharacteristicValue.CharcValueHasChild` | `CharacteristicValue.CharcValueHasChild` |
-| `CharcValueDependency,   //to keep compatibility` | `CharacteristicValue.CharcValueIntervalType` |
-| `CharacteristicValue.CharcValue` | `CharacteristicValue.CharcValue` |
-| `CharacteristicValue.CharcFromNumericValue` | `CharacteristicValue.CharcFromNumericValue` |
-| `CharacteristicValue.CharcToNumericValue` | `CharacteristicValue.CharcToNumericValue` |
-| `CharacteristicValue.IsDefaultValue` | `CharacteristicValue.IsDefaultValue` |
-| `CharacteristicValue.CharcFromNumericValueUnit` | `CharacteristicValue.CharcFromNumericValueUnit` |
-| `CharacteristicValue.CharcToNumericValueUnit` | `CharacteristicValue.CharcToNumericValueUnit` |
-| `CharacteristicValue.CharcFromDecimalValue` | `CharacteristicValue.CharcFromDecimalValue` |
-| `CharacteristicValue.CharcToDecimalValue` | `CharacteristicValue.CharcToDecimalValue` |
-| `CharacteristicValue.CharcFromDate` | `CharacteristicValue.CharcFromDate` |
-| `CharacteristicValue.CharcToDate` | `CharacteristicValue.CharcToDate` |
-| `CharacteristicValue.CharcFromTime` | `CharacteristicValue.CharcFromTime` |
-| `CharacteristicValue.CharcToTime` | `CharacteristicValue.CharcToTime` |
-| `CharacteristicValue.CharcFromAmount` | `CharacteristicValue.CharcFromAmount` |
-| `CharacteristicValue.CharcToAmount` | `CharacteristicValue.CharcToAmount` |
-| `CharacteristicValue.Currency` | `CharacteristicValue.Currency` |
-| `CharacteristicValue.LongTextID` | `CharacteristicValue.LongTextID` |
-| `CharacteristicValue.ChangeNumber` | `CharacteristicValue.ChangeNumber` |
-| `CharacteristicValue.ValidityStartDate` | `CharacteristicValue.ValidityStartDate` |
-| `CharacteristicValue.ValidityEndDate` | `CharacteristicValue.ValidityEndDate` |
-| `CharacteristicValue.DocumentInfoRecordDocNumber` | `CharacteristicValue.DocumentInfoRecordDocNumber` |
-| `CharacteristicValue.DocumentInfoRecordDocPart` | `CharacteristicValue.DocumentInfoRecordDocPart` |
-| `CharacteristicValue.DocumentInfoRecordDocVersion` | `CharacteristicValue.DocumentInfoRecordDocVersion` |
-| `CharacteristicValue.DocumentInfoRecordDocType` | `CharacteristicValue.DocumentInfoRecordDocType` |
+| `CharcInternalID` | `CharacteristicValue.CharcInternalID` |
+| `CharcValuePositionNumber` | `CharacteristicValue.CharcValuePositionNumber` |
+| `CharcValueParentPositionNumber` | `CharacteristicValue.CharcValueParentPositionNumber` |
+| `CharcValueHasChild` | `CharacteristicValue.CharcValueHasChild` |
+| `CharcValueDependency` | `CharacteristicValue.CharcValueIntervalType` |
+| `CharcValue` | `CharacteristicValue.CharcValue` |
+| `CharcFromNumericValue` | `CharacteristicValue.CharcFromNumericValue` |
+| `CharcToNumericValue` | `CharacteristicValue.CharcToNumericValue` |
+| `IsDefaultValue` | `CharacteristicValue.IsDefaultValue` |
+| `CharcFromNumericValueUnit` | `CharacteristicValue.CharcFromNumericValueUnit` |
+| `CharcToNumericValueUnit` | `CharacteristicValue.CharcToNumericValueUnit` |
+| `CharcFromDecimalValue` | `CharacteristicValue.CharcFromDecimalValue` |
+| `CharcToDecimalValue` | `CharacteristicValue.CharcToDecimalValue` |
+| `CharcFromDate` | `CharacteristicValue.CharcFromDate` |
+| `CharcToDate` | `CharacteristicValue.CharcToDate` |
+| `CharcFromTime` | `CharacteristicValue.CharcFromTime` |
+| `CharcToTime` | `CharacteristicValue.CharcToTime` |
+| `CharcFromAmount` | `CharacteristicValue.CharcFromAmount` |
+| `CharcToAmount` | `CharacteristicValue.CharcToAmount` |
+| `Currency` | `CharacteristicValue.Currency` |
+| `LongTextID` | `CharacteristicValue.LongTextID` |
+| `ChangeNumber` | `CharacteristicValue.ChangeNumber` |
+| `ValidityStartDate` | `CharacteristicValue.ValidityStartDate` |
+| `ValidityEndDate` | `CharacteristicValue.ValidityEndDate` |
+| `DocumentInfoRecordDocNumber` | `CharacteristicValue.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocPart` | `CharacteristicValue.DocumentInfoRecordDocPart` |
+| `DocumentInfoRecordDocVersion` | `CharacteristicValue.DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocType` | `CharacteristicValue.DocumentInfoRecordDocType` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicValueDesc` | *Association* |
 

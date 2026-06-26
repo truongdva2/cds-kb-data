@@ -29,20 +29,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ComplianceRequirement          : ehfnd_req_identifier;           // CRID, e.g. RID, ADR` | `ComplianceRequirement          : ehfnd_req_identifier;           // CRID, e.g. RID, ADR` |
-| `DangerousGoodsTransportCat     : dangerousgoodstransportcat;     // string e.g. 0, 1, 2, 3, 4 or none` | `DangerousGoodsTransportCat     : dangerousgoodstransportcat;     // string e.g. 0, 1, 2, 3, 4 or none` |
-| `quantity` | `DngrsGdsEnclosureTotalQuantity : dngrsgdsenclosuretotalquantity; // Volume / Mass` |
-| `string` | `DngrsGdsEnclosureQuantityText  : dngrsgdsenclosurequantitytext;  // Volume / Mass` |
-| `SAP unit` | `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;   // Volume / Mass` |
-| `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;   // Volume / Mass ISO unit` | `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;   // Volume / Mass ISO unit` |
-| `string` | `DangerousGoodsQtyFactorText    : dangerousgoodsqtyfactortext;    // Multiplication Factor` |
-| `string` | `DangerousGoodsPointTotalText   : dangerousgoodspointtotaltext;   // Points per Category` |
-| `DngrsGdsQtyExemptionIsPossible : dngrsgdsqtyexemptionispossible; // abap_boolean M1.1.3.6 Exemption Possible` | `DngrsGdsQtyExemptionIsPossible : dngrsgdsqtyexemptionispossible; // abap_boolean M1.1.3.6 Exemption Possible` |
-| `_Root                          : association to parent D_PCLgsDcGetDngrsGdsDocInfoR;` | *Association* |
+| `ComplianceRequirement` | `ehfnd_req_identifier` |
+| `DangerousGoodsTransportCat` | `dangerousgoodstransportcat` |
+| `DngrsGdsEnclosureTotalQuantity` | `dngrsgdsenclosuretotalquantity` |
+| `DngrsGdsEnclosureQuantityText` | `dngrsgdsenclosurequantitytext` |
+| `DangerousGoodsEnclosureSapUnit` | `ehfnd_vdm_component_unit_sap` |
+| `DangerousGoodsEnclosureISOUnit` | `ehfnd_vdm_component_unit_iso` |
+| `DangerousGoodsQtyFactorText` | `dangerousgoodsqtyfactortext` |
+| `DangerousGoodsPointTotalText` | `dangerousgoodspointtotaltext` |
+| `DngrsGdsQtyExemptionIsPossible` | `dngrsgdsqtyexemptionispossible` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetDngrsGdsDocInfoR` | — |
 
 ## Source Code
 

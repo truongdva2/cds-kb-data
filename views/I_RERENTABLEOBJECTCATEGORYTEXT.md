@@ -16,6 +16,7 @@ tags:
   - text
   - component:RE-FX-BD-2CL
   - lob:Other
+  - bo:RERentableObjectCategory
 ---
 # I_RERENTABLEOBJECTCATEGORYTEXT
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `regorentablecategory )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RERentableObjectCategory` | `cast( dd07t.domvalue_l as regorentablecategory )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `RERentableObjectCategoryName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_RERentableObjectCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RERentableObjectCategory` | `I_RERentableObjectCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

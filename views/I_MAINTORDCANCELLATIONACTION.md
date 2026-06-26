@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:PM-WOC-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrdCancellationAction
 ---
 # I_MAINTORDCANCELLATIONACTION
 
@@ -29,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `maintordcancellationaction)` | `cast(dd07l.domvalue_l` |
+| `MaintOrdCancellationAction` | `cast(dd07l.domvalue_l as maintordcancellationaction)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_MaintOrdCancellationActionT` | [0..*] |
 
 ## Source Code
 

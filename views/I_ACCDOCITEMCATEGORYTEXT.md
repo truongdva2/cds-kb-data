@@ -33,14 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_accdoc_itemcat preserving type )` | `cast(t8g02t.linetype` |
+| `AccountingDocumentItemCategory` | `cast(t8g02t.linetype as fis_accdoc_itemcat preserving type )` |
 | `Language` | `t8g02t.langu` |
 | `AccountingDocItemCategoryName` | `t8g02t.text` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

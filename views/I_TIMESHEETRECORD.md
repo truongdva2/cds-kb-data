@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-TS-S4
   - lob:Cross-Application Components
+  - bo:TimeSheet
 ---
 # I_TIMESHEETRECORD
 
@@ -32,7 +33,7 @@ tags:
 | `TimeSheetRecord` | `catsdb.counter` |
 | `PersonWorkAgreement` | `catsdb.pernr` |
 | `TimeSheetDate` | `catsdb.workdate` |
-| `ps_s4_pspnr preserving type)` | `cast(catsdb.rproj` |
+| `WBSElementInternalID` | `cast(catsdb.rproj as ps_s4_pspnr preserving type)` |
 | `ActivityType` | `catsdb.lstar` |
 | `WorkItem` | `catsdb.work_item_id` |
 | `RecordedHours` | `catsdb.catshours` |
@@ -71,15 +72,15 @@ tags:
 | `TimeSheetWrkLocCode` | `catsdb.wtart` |
 | `TimeSheetOvertimeCategory` | `catsdb.overtimecat` |
 | `TimeSheetHasLongText` | `catsdb.longtext` |
-| `TimeSheetAccountingDocument, // added in CE2002` | `catsdb.belnr` |
-| `SenderPubSecFund,                  //added in CE2111` | `catsdb.s_fund` |
-| `SendingPubSecFunctionalArea,      //added in CE2111` | `catsdb.s_func_area` |
-| `SenderPubSecGrant,               //added in CE2111` | `catsdb.s_grant_nbr` |
-| `SenderPubSecBudgetPeriod,       //added in CE2111` | `catsdb.sbudget_pd` |
-| `ReceiverPubSecFund,            //added in CE2111` | `catsdb.fund` |
-| `ReceiverPubSecFuncnlArea,     //added in CE2111` | `catsdb.func_area` |
-| `ReceiverPubSecGrant,         //added in CE2111` | `catsdb.grant_nbr` |
-| `ReceiverPubSecBudgetPeriod, //added in CE2111` | `catsdb.budget_pd` |
+| `TimeSheetAccountingDocument` | `catsdb.belnr` |
+| `SenderPubSecFund` | `catsdb.s_fund` |
+| `SendingPubSecFunctionalArea` | `catsdb.s_func_area` |
+| `SenderPubSecGrant` | `catsdb.s_grant_nbr` |
+| `SenderPubSecBudgetPeriod` | `catsdb.sbudget_pd` |
+| `ReceiverPubSecFund` | `catsdb.fund` |
+| `ReceiverPubSecFuncnlArea` | `catsdb.func_area` |
+| `ReceiverPubSecGrant` | `catsdb.grant_nbr` |
+| `ReceiverPubSecBudgetPeriod` | `catsdb.budget_pd` |
 | `_TimeSheetRejReasonText` | *Association* |
 | `_TimeSheetStatusText` | *Association* |
 | `_TimeSheetWrkLoc` | *Association* |

@@ -28,13 +28,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMDocContentType : lcm_doc_content_type;` | `LglCntntMDocContentType : lcm_doc_content_type;` |
-| `DocumentDescription     : lcm_description;` | `DocumentDescription     : lcm_description;` |
-| `LglCntntMLanguage       : lcm_language;` | `LglCntntMLanguage       : lcm_language;` |
-| `FileName                : lcm_filename;` | `FileName                : lcm_filename;` |
-| `LglCntntMTmplUUID       : lcm_tmpl_uuid;` | `LglCntntMTmplUUID       : lcm_tmpl_uuid;` |
-| `LglCntntMDocAccessLvl   : lcm_access_lvl;` | `LglCntntMDocAccessLvl   : lcm_access_lvl;` |
-| `LglCntntMDocPaperType   : lcm_doc_paper_type;` | `LglCntntMDocPaperType   : lcm_doc_paper_type;` |
+| `LglCntntMDocContentType` | `lcm_doc_content_type` |
+| `DocumentDescription` | `lcm_description` |
+| `LglCntntMLanguage` | `lcm_language` |
+| `FileName` | `lcm_filename` |
+| `LglCntntMTmplUUID` | `lcm_tmpl_uuid` |
+| `LglCntntMDocAccessLvl` | `lcm_access_lvl` |
+| `LglCntntMDocPaperType` | `lcm_doc_paper_type` |
 
 ## Associations
 

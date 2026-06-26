@@ -16,6 +16,7 @@ tags:
   - contract
   - component:CRM-S4-REP-RFW
   - lob:Other
+  - bo:ServiceDocumentType
 ---
 # I_SERVICECONTRACTTYPESTDVH
 
@@ -32,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `key ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `_ServiceDocumentTypeText` | *Association* |
 | `_ServiceObjectTypeText` | *Association* |

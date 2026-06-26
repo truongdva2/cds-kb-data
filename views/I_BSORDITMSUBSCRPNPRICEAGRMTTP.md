@@ -29,7 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SubscrpnBillgCndnCalcType' , element:'SubscrpnBillgCndnCalcType'}, useAsTemplate: true  }]` | `name: 'I_SubscrpnBillgCndnCalcType' , element:'SubscrpnBillgCndnCalcType'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SubscriptionRateElement` | `SubscriptionRateElement` |
+| `SubscriptionRateSubElement` | `SubscriptionRateSubElement` |
+| `SubscrpnBillgPrcElmntSpec` | `SubscrpnBillgPrcElmntSpec` |
+| `SubscrpnBillgPricingField` | `SubscrpnBillgPricingField` |
+| `SubscrpnBillgPrcAgreementLine` | `SubscrpnBillgPrcAgreementLine` |
+| `SubscrpnBillgPricingScaleType` | `SubscrpnBillgPricingScaleType` |
 | `SubscrpnBillgCndnCalcType` | `SubscrpnBillgCndnCalcType` |
 | `ConditionScaleAmount` | `ConditionScaleAmount` |
 | `ConditionScaleQuantity` | `ConditionScaleQuantity` |
@@ -44,8 +51,6 @@ tags:
 | `_SubscriptionBillingItem` | *Association* |
 | `_SubscrpnBillgCndnCalcTypeTxt` | *Association* |
 | `_SubscrpnBillgPrcgScTypeText` | *Association* |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

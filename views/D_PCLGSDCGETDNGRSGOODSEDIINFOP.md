@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocumentUUID : ehfnd_log_doc_uuid;` | `ProdCmplncLogsDocumentUUID : ehfnd_log_doc_uuid;` |
-| `_Items                      : composition [0..*] of D_PCLGSDCGETDAGDSEDIINFOITEMP;` | *Association* |
+| `ProdCmplncLogsDocumentUUID` | `ehfnd_log_doc_uuid` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_PCLGSDCGETDAGDSEDIINFOITEMP` | [0..*] |
 
 ## Source Code
 

@@ -31,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_consolidationunit preserving type )` | `cast ( _Source.ConsolidationUnit` |
-| `key _Source.FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
-| `_Source.ToFiscalYearPeriod` | *Association* |
-| `_Source.ConsolidationUnitLocalCurrency` | *Association* |
-| `_Source.Company` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnUnit                                                                  as _CnsldtnUnit : redirected to parent I_CnsldtnUnitTP` | *Association* |
+| `ConsolidationUnit` | `cast ( _Source.ConsolidationUnit as fincs_consolidationunit preserving type )` |
+| `FromFiscalYearPeriod` | `_Source.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `_Source.ToFiscalYearPeriod` |
+| `ConsolidationUnitLocalCurrency` | `_Source.ConsolidationUnitLocalCurrency` |
+| `Company` | `_Source.Company` |
+| `_CnsldtnUnit` | *Association* |
 
 ## Associations
 

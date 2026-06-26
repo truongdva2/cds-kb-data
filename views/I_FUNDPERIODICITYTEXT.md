@@ -16,6 +16,7 @@ tags:
   - text
   - component:PSM-FM-MD
   - lob:Other
+  - bo:FundPeriodicity
 ---
 # I_FUNDPERIODICITYTEXT
 

@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectDemandServiceSupplyUUID` | `ProjectDemandServiceSupplyUUID` |
+| `ProjectDemandServiceSupplyUUID` | `ProjectDemandServiceSupplyUUID` |
 | `ProjectDemandServiceUUID` | `ProjectDemandServiceUUID` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
 | `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
-| `_Service : redirected to parent I_ProjectDemandServiceTP_2` | *Association* |
-| `_Root    : redirected to I_ProjectDemandTP_2` | *Association* |
 
 ## Associations
 

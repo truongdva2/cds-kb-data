@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ValuationVariant` | `ValuationVariant` |
-| `_CostingValuationVarText.ValuationVariantName` | *Association* |
+| `ValuationVariant` | `ValuationVariant` |
+| `ValuationVariantName` | `_CostingValuationVarText.ValuationVariantName` |
 | `OverheadCostingSheet` | `OverheadCostingSheet` |
-| `fpc_costing_sheet_description preserving type)` | `cast(_CostingSheetText.CostingSheetProcedureDesc` |
+| `OverheadCostingSheetDesc` | `cast(…)` |
 | `ExtProcuredMatlOvhdCostingSht` | `ExtProcuredMatlOvhdCostingSht` |
-| `fpc_costing_sheet_ext_desc preserving type)` | `cast(_CostingSheetExtText.CostingSheetProcedureDesc` |
+| `ExtProcMatlOvhdCostgShtDesc` | `cast(…)` |
 | `_CostingValuationVarText` | *Association* |
 | `_CostingSheetText` | *Association* |
 | `_CostingSheetExtText` | *Association* |

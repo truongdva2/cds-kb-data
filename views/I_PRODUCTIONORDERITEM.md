@@ -33,20 +33,82 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlannedOrderStdVH', element: 'PlannedOrder' } } ]` | `name: 'I_PlannedOrderStdVH', element: 'PlannedOrder' } } ]` |
-| `item.PlannedOrder` | `item.PlannedOrder` |
+| `ProductionOrder` | `cast(item.OrderID as vdm_manufacturingorder preserving type)` |
+| `ProductionOrderItem` | `-- representative key key item.OrderItem` |
+| `OrderIsReleased` | `cast(item.OrderIsReleased as orderisreleased preserving type)` |
+| `IsMarkedForDeletion` | `item.IsMarkedForDeletion` |
+| `OrderItemIsNotRelevantForMRP` | `cast(item.OrderItemIsNotRelevantForMRP as vdm_dnrel preserving type)` |
+| `ProductionOrderType` | `cast(item.OrderType as vdm_prodnordertype preserving type)` |
+| `Product` | `cast(item.Material as productnumber preserving type)` |
+| `ProductionPlant` | `item.ProductionPlant` |
+| `PlanningPlant` | `item.MRPPlant` |
+| `ProductionVersion` | `item.ProductionVersion` |
+| `MRPArea` | `item.MRPArea` |
+| `SalesOrder` | `item.SalesOrder` |
+| `SalesOrderItem` | `item.SalesOrderItem` |
+| `SalesOrderScheduleLine` | `item.SalesOrderScheduleLine` |
+| `WBSElementInternalID` | `-- item.WBSElementInternalID_2` |
+| `QuotaArrangement` | `-- item.QuotaArrangement` |
+| `QuotaArrangementItem` | `-- item.QuotaArrangementItem` |
+| `SettlementReservation` | `item.SettlementReservation` |
+| `SettlementReservationItem` | `item.SettlementReservationItem` |
+| `CoProductReservation` | `item.CoProductReservation` |
+| `CoProductReservationItem` | `item.CoProductReservationItem` |
+| `SerialNumberProfile` | `-- item.SerialNumberAssgmtProfile` |
+| `NumberOfSerialNumbers` | `item.NumberOfSerialNumbers` |
+| `ReplenishmentElementType` | `item.MfgOrderItemReplnmtElmntType` |
+| `ProductConfiguration` | `cast(item.ProductConfiguration as product_configuration preserving type)` |
+| `ObjectInternalID` | `item.ObjectInternalID` |
+| `QuantityDistributionKey` | `item.QuantityDistributionKey` |
+| `EffectivityParameterVariant` | `item.EffectivityParameterVariant` |
+| `OriginalEffctyParameterVariant` | `item.OriginalEffctyParameterVariant` |
+| `GoodsReceiptIsExpected` | `item.GoodsReceiptIsExpected` |
+| `GoodsReceiptIsNonValuated` | `item.GoodsReceiptIsNonValuated` |
+| `IsCompletelyDelivered` | `item.IsCompletelyDelivered` |
+| `MaterialGoodsReceiptDuration` | `item.MaterialGoodsReceiptDuration` |
+| `UnderdelivTolrtdLmtRatioInPct` | `item.UnderdelivTolrtdLmtRatioInPct` |
+| `OverdelivTolrtdLmtRatioInPct` | `item.OverdelivTolrtdLmtRatioInPct` |
+| `UnlimitedOverdeliveryIsAllowed` | `item.UnlimitedOverdeliveryIsAllowed` |
+| `StorageLocation` | `item.StorageLocation` |
+| `Batch` | `item.Batch` |
+| `InventoryValuationType` | `item.InventoryValuationType` |
+| `InventoryValuationCategory` | `item.InventoryValuationCategory` |
+| `InventoryUsabilityCode` | `item.InventoryUsabilityCode` |
+| `InventorySpecialStockType` | `item.InventorySpecialStockType` |
+| `InventorySpecialStockValnType` | `item.InventorySpecialStockValnType` |
+| `ConsumptionPosting` | `item.ConsumptionPosting` |
+| `GoodsRecipientName` | `item.GoodsRecipientName` |
+| `UnloadingPointName` | `item.UnloadingPointName` |
+| `PlannedEndDate` | `cast(item.PlannedEndDate as mfgorderitemplannedenddate preserving type)` |
+| `ScheduledEndDate` | `cast(item.ScheduledBasicEndDate as mfgorderitemscheduledenddate preserving type)` |
+| `ActualDeliveryDate` | `item.ActualDeliveryDate` |
+| `TotalCommitmentDate` | `item.TotalCommitmentDate` |
+| `ProductionUnit` | `item.ProductionUnit` |
+| `PlannedTotalQty` | `cast(item.ItemQuantity as co_psmng preserving type)` |
+| `PlannedScrapQuantity` | `cast(item.MfgOrderItemPlannedScrapQty as co_psamg preserving type)` |
+| `PlannedYieldQuantity` | `cast(…)` |
+| `GoodsReceiptQty` | `cast(item.MfgOrderItemGoodsReceiptQty as co_wemng preserving type)` |
+| `ActualDeviationQty` | `cast(item.MfgOrderItemActualDeviationQty as co_iamng preserving type)` |
+| `OpenYieldQuantity` | `cast(item.MfgOrderItemOpenYieldQty as openyieldquantity preserving type)` |
+| `BaseUnit` | `-- in base unit item.BaseUnit` |
+| `PlannedTotalQtyInBaseUnit` | `cast(item.OrderPlannedTotalQty as vdm_pgmng preserving type)` |
+| `PlannedScrapQtyInBaseUnit` | `cast(item.OrderPlannedScrapQty as vdm_pamng preserving type)` |
+| `CompanyCode` | `head.CompanyCode` |
+| `BusinessArea` | `item.BusinessArea` |
+| `AccountAssignmentCategory` | `item.AccountAssignmentCategory` |
+| `PlannedOrder` | `item.PlannedOrder` |
 | `PlannedOrderPlannedDeliveryDte` | `item.PlannedDeliveryDate` |
-| `vdm_strmp preserving type)` | `cast(item.PlndOrderPlannedStartDate` |
-| `vdm_etrmp preserving type)` | `cast(item.PlannedOrderOpeningDate` |
+| `PlndOrderPlannedStartDate` | `cast(item.PlndOrderPlannedStartDate as vdm_strmp preserving type)` |
+| `PlannedOrderOpeningDate` | `cast(item.PlannedOrderOpeningDate as vdm_etrmp preserving type)` |
 | `CompanyCodeCurrency` | `head.Currency` |
-| `item.GoodsReceiptAmountInCoCodeCrcy` | `item.GoodsReceiptAmountInCoCodeCrcy` |
+| `GoodsReceiptAmountInCoCodeCrcy` | `item.GoodsReceiptAmountInCoCodeCrcy` |
 | `_ProductionOrderHeader` | *Association* |
 | `_ProductionOrderType` | *Association* |
 | `_SerialNumber` | *Association* |
-| `item._ProductionPlant` | `item._ProductionPlant` |
-| `_PlanningPlant` | `item._MRPPlant` |
-| `item._MRPArea` | `item._MRPArea` |
-| `item._PlannedOrder` | `item._PlannedOrder` |
+| `_ProductionPlant` | *Association* |
+| `_PlanningPlant` | *Association* |
+| `_MRPArea` | *Association* |
+| `_PlannedOrder` | *Association* |
 | `_Product` | *Association* |
 | `_ProductPlant` | *Association* |
 | `_ProductPlanningPlant` | *Association* |
@@ -54,33 +116,33 @@ tags:
 | `_ProductSupplyPlanning` | *Association* |
 | `_ProductMRPArea` | *Association* |
 | `_ProductPlantMRPArea` | *Association* |
-| `item._BaseUnit` | `item._BaseUnit` |
-| `item._ProductionUnit` | `item._ProductionUnit` |
-| `item._ProductionVersion` | `item._ProductionVersion` |
-| `_StatusObjectItem as _StatusObject` | *Association* |
-| `item._DeliveryCompletedIndicator` | `item._DeliveryCompletedIndicator` |
-| `item._StorageLocation` | `item._StorageLocation` |
+| `_BaseUnit` | *Association* |
+| `_ProductionUnit` | *Association* |
+| `_ProductionVersion` | *Association* |
+| `_StatusObject` | *Association* |
+| `_DeliveryCompletedIndicator` | *Association* |
+| `_StorageLocation` | *Association* |
 | `_Batch` | *Association* |
-| `item._InventorySpecialStockType` | `item._InventorySpecialStockType` |
-| `item._InventorySpecialStockValnType` | `item._InventorySpecialStockValnType` |
-| `item._InventoryValuationType` | `item._InventoryValuationType` |
-| `item._InventoryUsabilityCode` | `item._InventoryUsabilityCode` |
-| `item._SerialNumberProfile` | `item._SerialNumberProfile` |
-| `item._ConsumptionPosting` | `item._ConsumptionPosting` |
-| `item._SalesOrder` | `item._SalesOrder` |
-| `item._SalesOrderItem` | `item._SalesOrderItem` |
-| `item._SalesOrderScheduleLine` | `item._SalesOrderScheduleLine` |
+| `_InventorySpecialStockType` | *Association* |
+| `_InventorySpecialStockValnType` | *Association* |
+| `_InventoryValuationType` | *Association* |
+| `_InventoryUsabilityCode` | *Association* |
+| `_SerialNumberProfile` | *Association* |
+| `_ConsumptionPosting` | *Association* |
+| `_SalesOrder` | *Association* |
+| `_SalesOrderItem` | *Association* |
+| `_SalesOrderScheduleLine` | *Association* |
 | `_WBSElementBasicData` | *Association* |
 | `_EnterpriseProjectElement` | *Association* |
-| `item._QuotaArrangement` | `item._QuotaArrangement` |
-| `item._QuotaArrangementItem` | `item._QuotaArrangementItem` |
-| `item._SettlementReservation` | `item._SettlementReservation` |
-| `item._SettlementReservationItem` | `item._SettlementReservationItem` |
-| `item._CoProductReservation` | `item._CoProductReservation` |
-| `item._CoProductReservationItem` | `item._CoProductReservationItem` |
-| `item._BusinessArea` | `item._BusinessArea` |
-| `item._AccountAssignmentCategory` | `item._AccountAssignmentCategory` |
-| `head._CompanyCode` | `head._CompanyCode` |
+| `_QuotaArrangement` | *Association* |
+| `_QuotaArrangementItem` | *Association* |
+| `_SettlementReservation` | *Association* |
+| `_SettlementReservationItem` | *Association* |
+| `_CoProductReservation` | *Association* |
+| `_CoProductReservationItem` | *Association* |
+| `_BusinessArea` | *Association* |
+| `_AccountAssignmentCategory` | *Association* |
+| `_CompanyCode` | *Association* |
 | `_Currency` | *Association* |
 | `_ProductionOrderText` | *Association* |
 | `_ProductText` | *Association* |
@@ -109,6 +171,8 @@ tags:
 | `_ProductPlantMRPArea` | `I_ProductPlantMRP` | [0..1] |
 | `_Batch` | `I_Batch` | [0..1] |
 | `_Currency` | `I_Currency` | [0..1] |
+| `_ProductionOrderHeader` | `I_ProductionOrder` | — |
+| `_SerialNumber` | `I_ProdnOrderItemSerialNumber` | [0..*] |
 | `_ProductionOrderText` | `I_ProductionOrder` | [1..1] |
 | `_ProductionPlantText` | `I_Plant` | [1..1] |
 | `_PlanningPlantText` | `I_Plant` | [0..1] |

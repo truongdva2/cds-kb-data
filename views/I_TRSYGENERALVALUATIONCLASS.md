@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TreasuryGeneralValuationClass
 ---
 # I_TRSYGENERALVALUATIONCLASS
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_fin_instr_val_class)` | `cast(com_val_class` |
+| `TreasuryGeneralValuationClass` | `cast(com_val_class as ftr_gen_fin_instr_val_class)` |
 | `_Text` | *Association* |
 
 ## Associations

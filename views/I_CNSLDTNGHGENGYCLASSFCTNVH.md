@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGEnergyClassification` | `_Source.GHGEnergyClassification` |
-| `_Source._Text[1: Language=$session.system_language].GHGEnergyClassificationName` | *Association* |
+| `GHGEnergyClassification` | `_Source.GHGEnergyClassification` |
+| `GHGEnergyClassificationName` | `_Source._Text[1: Language=$session.system_language].GHGEnergyClassificationName` |
 
 ## Associations
 

@@ -30,142 +30,96 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REValuationCashflow.InternalRealEstateNumber` | `REValuationCashflow.InternalRealEstateNumber` |
-| `key REValuationCashflow.REValuationRuleUUID` | `REValuationCashflow.REValuationRuleUUID` |
-| `key REValuationCashflow.REValuationProcessUUID` | `REValuationCashflow.REValuationProcessUUID` |
-| `key REValuationCashflow.REValuationCashFlowRecordUUID` | `REValuationCashflow.REValuationCashFlowRecordUUID` |
-| `REValuationCashflow.RETermNumber` | `REValuationCashflow.RETermNumber` |
-| `REValuationCashflow.REValuationRule` | `REValuationCashflow.REValuationRule` |
-| `REValuationCashflow.RECashFlowType` | `REValuationCashflow.RECashFlowType` |
-| `REValuationCashflow.CashFlowItemOrigin` | `REValuationCashflow.CashFlowItemOrigin` |
-| `REValuationCashflow.REStatusObject` | `REValuationCashflow.REStatusObject` |
-| `REValuationCashflow.REStatusObjectAsset` | `REValuationCashflow.REStatusObjectAsset` |
-| `REValuationCashflow.REConditionUUID` | `REValuationCashflow.REConditionUUID` |
-| `REValuationCashflow.ValidityStartDate` | `REValuationCashflow.ValidityStartDate` |
-| `REValuationCashflow.CalculationPeriodStartDate` | `REValuationCashflow.CalculationPeriodStartDate` |
-| `REValuationCashflow.CalculationPeriodEndDate` | `REValuationCashflow.CalculationPeriodEndDate` |
-| `REValuationCashflow.NumberOfDays` | `REValuationCashflow.NumberOfDays` |
-| `REValuationCashflow.REPositionDueDate` | `REValuationCashflow.REPositionDueDate` |
-| `REValuationCashflow.PaymentDueDate` | `REValuationCashflow.PaymentDueDate` |
-| `REValuationCashflow.CalculationDate` | `REValuationCashflow.CalculationDate` |
-| `REValuationCashflow.REConditionCurrency` | `REValuationCashflow.REConditionCurrency` |
-| `REValuationCashflow.REInterestRate` | `REValuationCashflow.REInterestRate` |
-| `REValuationCashflow.REValuationIsInitialCost` | `REValuationCashflow.REValuationIsInitialCost` |
-| `REValuationCashflow.REValuationIsLiabilityDiff` | `REValuationCashflow.REValuationIsLiabilityDiff` |
-| `REValuationCashflow.REIsDeferralAdjustment` | `REValuationCashflow.REIsDeferralAdjustment` |
-| `REValuationCashflow.REIsAssetRetirementObligation` | `REValuationCashflow.REIsAssetRetirementObligation` |
-| `REValuationCashflow.REValnIsCompleteRetirement` | `REValuationCashflow.REValnIsCompleteRetirement` |
-| `REValuationCashflow.REIsRetroActiveChange` | `REValuationCashflow.REIsRetroActiveChange` |
-| `REValuationCashflow.REValuationIsReduction` | `REValuationCashflow.REValuationIsReduction` |
-| `REValuationCashflow.REDocumentReferenceUUID` | `REValuationCashflow.REDocumentReferenceUUID` |
-| `REValuationCashflow.REDocumentReference2UUID` | `REValuationCashflow.REDocumentReference2UUID` |
-| `REValuationCashflow.REDocumentReference3UUID` | `REValuationCashflow.REDocumentReference3UUID` |
-| `REValuationCashflow.REDocumentReference4UUID` | `REValuationCashflow.REDocumentReference4UUID` |
-| `REValuationCashflow.CreatedByUser` | `REValuationCashflow.CreatedByUser` |
-| `REValuationCashflow.CreationDate` | `REValuationCashflow.CreationDate` |
-| `REValuationCashflow.CreationTime` | `REValuationCashflow.CreationTime` |
-| `REValuationCashflow.RESourceOfCreation` | `REValuationCashflow.RESourceOfCreation` |
-| `REValuationCashflow.LastChangedByUser` | `REValuationCashflow.LastChangedByUser` |
-| `REValuationCashflow.LastChangeDate` | `REValuationCashflow.LastChangeDate` |
-| `REValuationCashflow.LastChangeTime` | `REValuationCashflow.LastChangeTime` |
-| `REValuationCashflow.RESourceOfChange` | `REValuationCashflow.RESourceOfChange` |
-| `REValuationCashflow.IsReversed` | `REValuationCashflow.IsReversed` |
-| `REValuationCashflow.SplitCashFlowRecordUUID` | `REValuationCashflow.SplitCashFlowRecordUUID` |
-| `REValuationCashflow.RecordIsBasisForSplit` | `REValuationCashflow.RecordIsBasisForSplit` |
-| `REValuationCashflow.REValuationEngine` | `REValuationCashflow.REValuationEngine` |
-| `case when REValuationCashflow._REContract._REContractType_2.REContractUserSupplier = '1'` | `case when REValuationCashflow._REContract._REContractType_2.REContractUserSupplier = '1'` |
-| `then` | `then` |
-| `case when REValuationCashflow.RECashFlowType = '1'` | `case when REValuationCashflow.RECashFlowType = '1'` |
-| `then` | `then` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount` | `then REValuationCashflow.RECashFlowPositionAmount` |
-| `else REValuationCashflow.RECashFlowPositionAmount * (-1)` | `else REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when REValuationCashflow.RERelshpBookedToFlowType <> 'CE8'` | `case when REValuationCashflow.RERelshpBookedToFlowType <> 'CE8'` |
-| `and REValuationCashflow.RERelshpBookedToFlowType <> 'CE9'` | `and REValuationCashflow.RERelshpBookedToFlowType <> 'CE9'` |
-| `then` | `then` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount * (-1)` | `then REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `else REValuationCashflow.RECashFlowPositionAmount` | `else REValuationCashflow.RECashFlowPositionAmount` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount` | `then REValuationCashflow.RECashFlowPositionAmount` |
-| `else REValuationCashflow.RECashFlowPositionAmount * (-1)` | `else REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `end` | `end` |
-| `end` | `end` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when REValuationCashflow.RECashFlowType = '1'` | `case when REValuationCashflow.RECashFlowType = '1'` |
-| `then` | `then` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount * (-1)` | `then REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `else REValuationCashflow.RECashFlowPositionAmount` | `else REValuationCashflow.RECashFlowPositionAmount` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when REValuationCashflow.RERelshpBookedToFlowType <> 'CE8'` | `case when REValuationCashflow.RERelshpBookedToFlowType <> 'CE8'` |
-| `and REValuationCashflow.RERelshpBookedToFlowType <> 'CE9'` | `and REValuationCashflow.RERelshpBookedToFlowType <> 'CE9'` |
-| `then` | `then` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount` | `then REValuationCashflow.RECashFlowPositionAmount` |
-| `else REValuationCashflow.RECashFlowPositionAmount * (-1)` | `else REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `end` | `end` |
-| `else` | `else` |
-| `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` | `case when REValuationCashflow._REBookedFlowType.DebitCreditCode = 'H'` |
-| `then REValuationCashflow.RECashFlowPositionAmount * (-1)` | `then REValuationCashflow.RECashFlowPositionAmount * (-1)` |
-| `else REValuationCashflow.RECashFlowPositionAmount` | `else REValuationCashflow.RECashFlowPositionAmount` |
-| `end` | `end` |
-| `end` | `end` |
-| `end` | `end` |
-| `RECashFlowPositionAmount` | `end` |
-| `REValuationCashflow.RETaxType` | `REValuationCashflow.RETaxType` |
-| `REValuationCashflow.RETaxGroup` | `REValuationCashflow.RETaxGroup` |
-| `REValuationCashflow.TaxJurisdiction` | `REValuationCashflow.TaxJurisdiction` |
-| `REValuationCashflow.REIsConditionGrossAmount` | `REValuationCashflow.REIsConditionGrossAmount` |
-| `REValuationCashflow.TaxCountry` | `REValuationCashflow.TaxCountry` |
-| `REValuationCashflow.REFlowType` | `REValuationCashflow.REFlowType` |
-| `REValuationCashflow.REOriginalFlowType` | `REValuationCashflow.REOriginalFlowType` |
-| `REValuationCashflow.RERelshpOriglToFlowType` | `REValuationCashflow.RERelshpOriglToFlowType` |
-| `REValuationCashflow.CashFlowPostingStatus` | `REValuationCashflow.CashFlowPostingStatus` |
-| `REValuationCashflow.IsToBeArchived` | `REValuationCashflow.IsToBeArchived` |
-| `REValuationCashflow.REOriglDueDate` | `REValuationCashflow.REOriglDueDate` |
-| `REValuationCashflow.REConditionType` | `REValuationCashflow.REConditionType` |
-| `REValuationCashflow.PostingDate` | `REValuationCashflow.PostingDate` |
-| `REValuationCashflow.DocumentDate` | `REValuationCashflow.DocumentDate` |
-| `REValuationCashflow.ExchangeRateDate` | `REValuationCashflow.ExchangeRateDate` |
-| `REValuationCashflow.REReversalForUUID` | `REValuationCashflow.REReversalForUUID` |
-| `REValuationCashflow.REReversalByUUID` | `REValuationCashflow.REReversalByUUID` |
-| `REValuationCashflow.REFollowUpPostingUUID` | `REValuationCashflow.REFollowUpPostingUUID` |
-| `REValuationCashflow.REBookedFlowType` | `REValuationCashflow.REBookedFlowType` |
-| `REValuationCashflow.RERelshpBookedToFlowType` | `REValuationCashflow.RERelshpBookedToFlowType` |
-| `REValuationCashflow.RETaxCalcDate` | `REValuationCashflow.RETaxCalcDate` |
-| `REValuationCashflow.REModifiedDueDate` | `REValuationCashflow.REModifiedDueDate` |
-| `REValuationCashflow.RECalcDueDate` | `REValuationCashflow.RECalcDueDate` |
-| `REValuationCashflow.RECurrencyTranslationRule` | `REValuationCashflow.RECurrencyTranslationRule` |
-| `REValuationCashflow.REIsPostInConditionCurrency` | `REValuationCashflow.REIsPostInConditionCurrency` |
-| `REValuationCashflow.REPlndTranslationDate` | `REValuationCashflow.REPlndTranslationDate` |
-| `REValuationCashflow.REActlTranslationDate` | `REValuationCashflow.REActlTranslationDate` |
-| `REValuationCashflow.REOriglActlTranslationDate` | `REValuationCashflow.REOriglActlTranslationDate` |
-| `REValuationCashflow.REIsTranslationDateFrmCashFlow` | `REValuationCashflow.REIsTranslationDateFrmCashFlow` |
-| `REValuationCashflow._REContract._CompanyCode._Country.TaxCalculationProcedure` | `REValuationCashflow._REContract._CompanyCode._Country.TaxCalculationProcedure` |
-| `/* Associations */` | `/* Associations */` |
-| `REValuationCashflow._ChangedByUser` | `REValuationCashflow._ChangedByUser` |
-| `REValuationCashflow._CreatedByUser` | `REValuationCashflow._CreatedByUser` |
-| `REValuationCashflow._REBookedFlowType` | `REValuationCashflow._REBookedFlowType` |
-| `REValuationCashflow._RECashFlowItemOrigin` | `REValuationCashflow._RECashFlowItemOrigin` |
-| `REValuationCashflow._RECashFlowPostingStatus` | `REValuationCashflow._RECashFlowPostingStatus` |
-| `REValuationCashflow._RECondition` | `REValuationCashflow._RECondition` |
-| `REValuationCashflow._REConditionType` | `REValuationCashflow._REConditionType` |
-| `REValuationCashflow._REContract` | `REValuationCashflow._REContract` |
-| `REValuationCashflow._REDocumentHeader` | `REValuationCashflow._REDocumentHeader` |
-| `REValuationCashflow._REFlowType` | `REValuationCashflow._REFlowType` |
-| `REValuationCashflow._REOriglFlowType` | `REValuationCashflow._REOriglFlowType` |
-| `REValuationCashflow._RERelshpBookedToFlowType` | `REValuationCashflow._RERelshpBookedToFlowType` |
-| `REValuationCashflow._RERelshpOriglToFlowType` | `REValuationCashflow._RERelshpOriglToFlowType` |
-| `REValuationCashflow._RETaxGroup` | `REValuationCashflow._RETaxGroup` |
-| `REValuationCashflow._RETaxType` | `REValuationCashflow._RETaxType` |
-| `REValuationCashflow._TaxCountry` | `REValuationCashflow._TaxCountry` |
+| `InternalRealEstateNumber` | `REValuationCashflow.InternalRealEstateNumber` |
+| `REValuationRuleUUID` | `REValuationCashflow.REValuationRuleUUID` |
+| `REValuationProcessUUID` | `REValuationCashflow.REValuationProcessUUID` |
+| `REValuationCashFlowRecordUUID` | `REValuationCashflow.REValuationCashFlowRecordUUID` |
+| `RETermNumber` | `REValuationCashflow.RETermNumber` |
+| `REValuationRule` | `REValuationCashflow.REValuationRule` |
+| `RECashFlowType` | `REValuationCashflow.RECashFlowType` |
+| `CashFlowItemOrigin` | `REValuationCashflow.CashFlowItemOrigin` |
+| `REStatusObject` | `REValuationCashflow.REStatusObject` |
+| `REStatusObjectAsset` | `REValuationCashflow.REStatusObjectAsset` |
+| `REConditionUUID` | `REValuationCashflow.REConditionUUID` |
+| `ValidityStartDate` | `REValuationCashflow.ValidityStartDate` |
+| `CalculationPeriodStartDate` | `REValuationCashflow.CalculationPeriodStartDate` |
+| `CalculationPeriodEndDate` | `REValuationCashflow.CalculationPeriodEndDate` |
+| `NumberOfDays` | `REValuationCashflow.NumberOfDays` |
+| `REPositionDueDate` | `REValuationCashflow.REPositionDueDate` |
+| `PaymentDueDate` | `REValuationCashflow.PaymentDueDate` |
+| `CalculationDate` | `REValuationCashflow.CalculationDate` |
+| `REConditionCurrency` | `REValuationCashflow.REConditionCurrency` |
+| `REInterestRate` | `REValuationCashflow.REInterestRate` |
+| `REValuationIsInitialCost` | `REValuationCashflow.REValuationIsInitialCost` |
+| `REValuationIsLiabilityDiff` | `REValuationCashflow.REValuationIsLiabilityDiff` |
+| `REIsDeferralAdjustment` | `REValuationCashflow.REIsDeferralAdjustment` |
+| `REIsAssetRetirementObligation` | `REValuationCashflow.REIsAssetRetirementObligation` |
+| `REValnIsCompleteRetirement` | `REValuationCashflow.REValnIsCompleteRetirement` |
+| `REIsRetroActiveChange` | `REValuationCashflow.REIsRetroActiveChange` |
+| `REValuationIsReduction` | `REValuationCashflow.REValuationIsReduction` |
+| `REDocumentReferenceUUID` | `REValuationCashflow.REDocumentReferenceUUID` |
+| `REDocumentReference2UUID` | `REValuationCashflow.REDocumentReference2UUID` |
+| `REDocumentReference3UUID` | `REValuationCashflow.REDocumentReference3UUID` |
+| `REDocumentReference4UUID` | `REValuationCashflow.REDocumentReference4UUID` |
+| `CreatedByUser` | `REValuationCashflow.CreatedByUser` |
+| `CreationDate` | `REValuationCashflow.CreationDate` |
+| `CreationTime` | `REValuationCashflow.CreationTime` |
+| `RESourceOfCreation` | `REValuationCashflow.RESourceOfCreation` |
+| `LastChangedByUser` | `REValuationCashflow.LastChangedByUser` |
+| `LastChangeDate` | `REValuationCashflow.LastChangeDate` |
+| `LastChangeTime` | `REValuationCashflow.LastChangeTime` |
+| `RESourceOfChange` | `REValuationCashflow.RESourceOfChange` |
+| `IsReversed` | `REValuationCashflow.IsReversed` |
+| `SplitCashFlowRecordUUID` | `REValuationCashflow.SplitCashFlowRecordUUID` |
+| `RecordIsBasisForSplit` | `REValuationCashflow.RecordIsBasisForSplit` |
+| `REValuationEngine` | `REValuationCashflow.REValuationEngine` |
+| `RECashFlowPositionAmount` | `case…end` |
+| `RETaxType` | `REValuationCashflow.RETaxType` |
+| `RETaxGroup` | `REValuationCashflow.RETaxGroup` |
+| `TaxJurisdiction` | `REValuationCashflow.TaxJurisdiction` |
+| `REIsConditionGrossAmount` | `REValuationCashflow.REIsConditionGrossAmount` |
+| `TaxCountry` | `REValuationCashflow.TaxCountry` |
+| `REFlowType` | `REValuationCashflow.REFlowType` |
+| `REOriginalFlowType` | `REValuationCashflow.REOriginalFlowType` |
+| `RERelshpOriglToFlowType` | `REValuationCashflow.RERelshpOriglToFlowType` |
+| `CashFlowPostingStatus` | `REValuationCashflow.CashFlowPostingStatus` |
+| `IsToBeArchived` | `REValuationCashflow.IsToBeArchived` |
+| `REOriglDueDate` | `REValuationCashflow.REOriglDueDate` |
+| `REConditionType` | `REValuationCashflow.REConditionType` |
+| `PostingDate` | `REValuationCashflow.PostingDate` |
+| `DocumentDate` | `REValuationCashflow.DocumentDate` |
+| `ExchangeRateDate` | `REValuationCashflow.ExchangeRateDate` |
+| `REReversalForUUID` | `REValuationCashflow.REReversalForUUID` |
+| `REReversalByUUID` | `REValuationCashflow.REReversalByUUID` |
+| `REFollowUpPostingUUID` | `REValuationCashflow.REFollowUpPostingUUID` |
+| `REBookedFlowType` | `REValuationCashflow.REBookedFlowType` |
+| `RERelshpBookedToFlowType` | `REValuationCashflow.RERelshpBookedToFlowType` |
+| `RETaxCalcDate` | `REValuationCashflow.RETaxCalcDate` |
+| `REModifiedDueDate` | `REValuationCashflow.REModifiedDueDate` |
+| `RECalcDueDate` | `REValuationCashflow.RECalcDueDate` |
+| `RECurrencyTranslationRule` | `REValuationCashflow.RECurrencyTranslationRule` |
+| `REIsPostInConditionCurrency` | `REValuationCashflow.REIsPostInConditionCurrency` |
+| `REPlndTranslationDate` | `REValuationCashflow.REPlndTranslationDate` |
+| `REActlTranslationDate` | `REValuationCashflow.REActlTranslationDate` |
+| `REOriglActlTranslationDate` | `REValuationCashflow.REOriglActlTranslationDate` |
+| `REIsTranslationDateFrmCashFlow` | `REValuationCashflow.REIsTranslationDateFrmCashFlow` |
+| `TaxCalculationProcedure` | `REValuationCashflow._REContract._CompanyCode._Country.TaxCalculationProcedure` |
+| `_ChangedByUser` | *Association* |
+| `_CreatedByUser` | *Association* |
+| `_REBookedFlowType` | *Association* |
+| `_RECashFlowItemOrigin` | *Association* |
+| `_RECashFlowPostingStatus` | *Association* |
+| `_RECondition` | *Association* |
+| `_REConditionType` | *Association* |
+| `_REContract` | *Association* |
+| `_REDocumentHeader` | *Association* |
+| `_REFlowType` | *Association* |
+| `_REOriglFlowType` | *Association* |
+| `_RERelshpBookedToFlowType` | *Association* |
+| `_RERelshpOriglToFlowType` | *Association* |
+| `_RETaxGroup` | *Association* |
+| `_RETaxType` | *Association* |
+| `_TaxCountry` | *Association* |
 | `_REValuationTerm` | *Association* |
 | `_REValuationRule` | *Association* |
 | `_RECashFlowType` | *Association* |

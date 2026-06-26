@@ -16,6 +16,7 @@ tags:
   - product
   - component:CA-FL-RET
   - lob:Cross-Application Components
+  - bo:FieldLogisticsReturns
 ---
 # I_FLDLOGSRETURNSPRODUCTTP
 
@@ -32,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   Material` | `Material` |
-| `key   FldLogsRemotePlant` | `FldLogsRemotePlant` |
-| `key   FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
-| `key   ReferenceDocumentItem` | `ReferenceDocumentItem` |
-| `key   FldLogsMaintenanceOrder` | `FldLogsMaintenanceOrder` |
-| `key   RemoteStorageLocation` | `RemoteStorageLocation` |
+| `Material` | `Material` |
+| `FldLogsRemotePlant` | `FldLogsRemotePlant` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `ReferenceDocumentItem` | `ReferenceDocumentItem` |
+| `FldLogsMaintenanceOrder` | `FldLogsMaintenanceOrder` |
+| `RemoteStorageLocation` | `RemoteStorageLocation` |
 | `FldLogsReferenceDocCategory` | `FldLogsReferenceDocCategory` |
 | `FldLogsReturnStatus` | `FldLogsReturnStatus` |
 | `RetblQtyInBaseUnit` | `RetblQtyInBaseUnit` |

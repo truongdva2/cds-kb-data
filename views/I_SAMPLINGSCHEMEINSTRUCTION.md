@@ -34,13 +34,12 @@ tags:
 | `InspectionSeverity` | `prschaerfe` |
 | `SmplgSchmInstrnSequentialNmbr` | `zaehlanw` |
 | `SmplgSchemeMaxLotSizeValue` | `losumf` |
-| `vdm_qm_smpl_sm_has_max_lot_sz preserving type )` | `cast (losumfni` |
+| `SmplgSchemeHasMaxLotSize` | `cast (losumfni as vdm_qm_smpl_sm_has_max_lot_sz preserving type )` |
 | `SamplingSchemeSampleSizeValue` | `stprumf` |
 | `SamplingSchemeAcceptanceValue` | `annahmez` |
 | `SamplingSchemeRejectionValue` | `rueckwez` |
 | `InspSampleAcceptanceFactor` | `kfaktor` |
-| `vdm_qm_smpl_schm_has_accpt_fct preserving type )` | `cast (kfaktorni` |
-| `/* Associations */` | `/* Associations */` |
+| `InspSampleHasAcceptanceFactor` | `cast (kfaktorni as vdm_qm_smpl_schm_has_accpt_fct preserving type )` |
 | `_SamplingScheme` | *Association* |
 | `_SamplingSchemeItem` | *Association* |
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspChrgCalcBaseUUID` | `TranspChrgCalcBaseUUID` |
+| `TranspChrgCalcBaseUUID` | `TranspChrgCalcBaseUUID` |
 | `TranspChargeItemElementUUID` | `TranspChargeItemElementUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspChrgCalculationBase` | `TranspChrgCalculationBase` |
@@ -45,9 +45,8 @@ tags:
 | `TranspDataSourceCurrency` | `TranspDataSourceCurrency` |
 | `TranspDataSourceAmount` | `TranspDataSourceAmount` |
 | `TranspDataSourceValueChar` | `TranspDataSourceValueChar` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TranspOrdChrgElmnt  as _FrtOrdChrgElement : redirected to parent I_FrtOrdChrgElementTP` | *Association* |
-| `_TransportationOrder as _FreightOrder      : redirected to I_FreightOrderTP` | *Association* |
+| `_FrtOrdChrgElement` | *Association* |
+| `_FreightOrder` | *Association* |
 
 ## Associations
 

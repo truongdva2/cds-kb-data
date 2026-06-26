@@ -16,6 +16,7 @@ tags:
   - text
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:TertiaryRegion
 ---
 # I_TERTIARYREGIONTEXT
 

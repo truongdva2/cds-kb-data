@@ -30,12 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BillingBlockReason', element: 'BillingBlockReason' }` | `name: 'I_BillingBlockReason', element: 'BillingBlockReason' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `BillingRequestItem` | `BillingRequestItem` |
+| `BillgReqItemBillingDateTime` | `BillgReqItemBillingDateTime` |
+| `BillgReqItemBillingStatus` | `BillgReqItemBillingStatus` |
+| `SettlementStartDateTime` | `SettlementStartDateTime` |
+| `SettlementEndDateTime` | `SettlementEndDateTime` |
+| `BillingPlanTimeZone` | `BillingPlanTimeZone` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `BillgReqItemNetAmount` | `BillgReqItemNetAmount` |
 | `BillingBlockReason` | `BillingBlockReason` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_BillgReqItmSettlmtStatusText` | *Association* |
 | `_CurrencyText` | *Association* |

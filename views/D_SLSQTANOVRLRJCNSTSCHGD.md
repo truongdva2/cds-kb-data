@@ -13,6 +13,7 @@ tags:
   - SD-SLS-QUT
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # D_SLSQTANOVRLRJCNSTSCHGD
 
@@ -29,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime           : vdm_lastchangedon;` | `EventRaisedDateTime           : vdm_lastchangedon;` |
-| `SalesQuotationType            : auart_unv;` | `SalesQuotationType            : auart_unv;` |
-| `SalesOrganization             : vkorg;` | `SalesOrganization             : vkorg;` |
-| `DistributionChannel           : vtweg;` | `DistributionChannel           : vtweg;` |
-| `OrganizationDivision          : spart;` | `OrganizationDivision          : spart;` |
-| `SoldToParty                   : kunnr;` | `SoldToParty                   : kunnr;` |
-| `OverallSDDocumentRejectionSts : abstk;` | `OverallSDDocumentRejectionSts : abstk;` |
-| `PreviousOvrlSDDocRejectionSts : abstk;` | `PreviousOvrlSDDocRejectionSts : abstk;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesQuotationType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `OverallSDDocumentRejectionSts` | `abstk` |
+| `PreviousOvrlSDDocRejectionSts` | `abstk` |
 
 ## Associations
 

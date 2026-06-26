@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdUnivHierarchy` | `ProdUnivHierarchy` |
-| `key HierarchyNode` | `HierarchyNode` |
-| `key ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
+| `ProdUnivHierarchy` | `ProdUnivHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
 | `ProdHierarchyValidityStartDate` | `ProdHierarchyValidityStartDate` |
 | `ParentNode` | `ParentNode` |
 | `NodeType` | `NodeType` |
 | `ProdUnivHierarchyNode` | `ProdUnivHierarchyNode` |
-| `_ProdUniversalHierarchy : redirected to parent I_ProdUniversalHierarchyTP` | *Association* |
 
 ## Associations
 

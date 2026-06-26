@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContract` | `SalesContract` |
+| `SalesContract` | `SalesContract` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
 | `SalesContractType` | `SalesContractType` |

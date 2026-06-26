@@ -16,6 +16,7 @@ tags:
   - partner
   - component:PLM-CR-2CL
   - lob:Other
+  - bo:ChangeRecordResponsible
 ---
 # C_CHANGERECORDPARTNERDEX
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 
 ## Associations
 

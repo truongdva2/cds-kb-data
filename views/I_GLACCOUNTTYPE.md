@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `glaccount_type)` | `cast(domvalue_l` |
+| `GLAccountType` | `cast(domvalue_l as glaccount_type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_GLAccountTypeText` | *Association* |
 

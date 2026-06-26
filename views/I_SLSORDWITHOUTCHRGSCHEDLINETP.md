@@ -31,29 +31,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutCharge` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutCharge` |
-| `key SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeItem` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeItem` |
-| `key SlsOrdWithoutChrgScheduleLine.ScheduleLine` | `SlsOrdWithoutChrgScheduleLine.ScheduleLine` |
-| `SlsOrdWithoutChrgScheduleLine.ScheduleLineForEdit` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineForEdit` |
-| `SlsOrdWithoutChrgScheduleLine.ScheduleLineCategory` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineCategory` |
-| `SlsOrdWithoutChrgScheduleLine.OrderQuantityUnit` | `SlsOrdWithoutChrgScheduleLine.OrderQuantityUnit` |
-| `SlsOrdWithoutChrgScheduleLine.ScheduleLineOrderQuantity` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineOrderQuantity` |
-| `SlsOrdWithoutChrgScheduleLine.ConfdOrderQtyByMatlAvailCheck` | `SlsOrdWithoutChrgScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
-| `SlsOrdWithoutChrgScheduleLine.DeliveredQtyInOrderQtyUnit` | `SlsOrdWithoutChrgScheduleLine.DeliveredQtyInOrderQtyUnit` |
-| `SlsOrdWithoutChrgScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` | `SlsOrdWithoutChrgScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
-| `SlsOrdWithoutChrgScheduleLine.CorrectedQtyInOrderQtyUnit` | `SlsOrdWithoutChrgScheduleLine.CorrectedQtyInOrderQtyUnit` |
-| `SlsOrdWithoutChrgScheduleLine.RequestedDeliveryDate` | `SlsOrdWithoutChrgScheduleLine.RequestedDeliveryDate` |
-| `SlsOrdWithoutChrgScheduleLine.ConfirmedDeliveryDate` | `SlsOrdWithoutChrgScheduleLine.ConfirmedDeliveryDate` |
-| `SlsOrdWithoutChrgScheduleLine.DelivBlockReasonForSchedLine` | `SlsOrdWithoutChrgScheduleLine.DelivBlockReasonForSchedLine` |
-| `SlsOrdWithoutChrgScheduleLine.PurchaseRequisition` | `SlsOrdWithoutChrgScheduleLine.PurchaseRequisition` |
-| `SlsOrdWithoutChrgScheduleLine.PurchaseRequisitionItem` | `SlsOrdWithoutChrgScheduleLine.PurchaseRequisitionItem` |
-| `SlsOrdWithoutChrgScheduleLine.GoodsMovementType` | `SlsOrdWithoutChrgScheduleLine.GoodsMovementType` |
-| `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeType` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeType` |
-| `SlsOrdWithoutChrgScheduleLine.SalesOrganization` | `SlsOrdWithoutChrgScheduleLine.SalesOrganization` |
-| `SlsOrdWithoutChrgScheduleLine.DistributionChannel` | `SlsOrdWithoutChrgScheduleLine.DistributionChannel` |
-| `SlsOrdWithoutChrgScheduleLine.OrganizationDivision` | `SlsOrdWithoutChrgScheduleLine.OrganizationDivision` |
-| `_Item                    : redirected to parent I_SlsOrderWithoutChargeItemTP` | *Association* |
-| `_SalesOrderWithoutCharge : redirected to I_SalesOrderWithoutChargeTP` | *Association* |
+| `SalesOrderWithoutCharge` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutCharge` |
+| `SalesOrderWithoutChargeItem` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeItem` |
+| `ScheduleLine` | `SlsOrdWithoutChrgScheduleLine.ScheduleLine` |
+| `ScheduleLineForEdit` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineForEdit` |
+| `ScheduleLineCategory` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineCategory` |
+| `OrderQuantityUnit` | `SlsOrdWithoutChrgScheduleLine.OrderQuantityUnit` |
+| `ScheduleLineOrderQuantity` | `SlsOrdWithoutChrgScheduleLine.ScheduleLineOrderQuantity` |
+| `ConfdOrderQtyByMatlAvailCheck` | `SlsOrdWithoutChrgScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
+| `DeliveredQtyInOrderQtyUnit` | `SlsOrdWithoutChrgScheduleLine.DeliveredQtyInOrderQtyUnit` |
+| `OpenConfdDelivQtyInOrdQtyUnit` | `SlsOrdWithoutChrgScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
+| `CorrectedQtyInOrderQtyUnit` | `SlsOrdWithoutChrgScheduleLine.CorrectedQtyInOrderQtyUnit` |
+| `RequestedDeliveryDate` | `SlsOrdWithoutChrgScheduleLine.RequestedDeliveryDate` |
+| `ConfirmedDeliveryDate` | `SlsOrdWithoutChrgScheduleLine.ConfirmedDeliveryDate` |
+| `DelivBlockReasonForSchedLine` | `SlsOrdWithoutChrgScheduleLine.DelivBlockReasonForSchedLine` |
+| `PurchaseRequisition` | `SlsOrdWithoutChrgScheduleLine.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `SlsOrdWithoutChrgScheduleLine.PurchaseRequisitionItem` |
+| `GoodsMovementType` | `SlsOrdWithoutChrgScheduleLine.GoodsMovementType` |
+| `SalesOrderWithoutChargeType` | `SlsOrdWithoutChrgScheduleLine.SalesOrderWithoutChargeType` |
+| `SalesOrganization` | `SlsOrdWithoutChrgScheduleLine.SalesOrganization` |
+| `DistributionChannel` | `SlsOrdWithoutChrgScheduleLine.DistributionChannel` |
+| `OrganizationDivision` | `SlsOrdWithoutChrgScheduleLine.OrganizationDivision` |
 
 ## Associations
 

@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SuperordinateEquipment            :  hequi ;` | `SuperordinateEquipment            :  hequi ;` |
-| `EquipInstallationPositionNmbr     :  posnr;` | `EquipInstallationPositionNmbr     :  posnr;` |
-| `EquipInstallationPosInChar        : installpos;` | `EquipInstallationPosInChar        : installpos;` |
-| `FunctionalLocation                : tplnr; //tplnr_unconverted; //tplnr;` | `FunctionalLocation                : tplnr; //tplnr_unconverted; //tplnr;` |
-| `EquipmentInstallationDate          :  aedat;` | `EquipmentInstallationDate          :  aedat;` |
-| `EquipmentInstallationTime         :  timbi;` | `EquipmentInstallationTime         :  timbi;` |
+| `SuperordinateEquipment` | `hequi` |
+| `EquipInstallationPositionNmbr` | `posnr` |
+| `EquipInstallationPosInChar` | `installpos` |
+| `FunctionalLocation` | `tplnr` |
+| `EquipmentInstallationDate` | `aedat` |
+| `EquipmentInstallationTime` | `timbi` |
 
 ## Associations
 

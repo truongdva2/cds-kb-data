@@ -32,37 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key AccountingDocument` | `AccountingDocument` |
-| `key FiscalYear` | `FiscalYear` |
-| `key TaxItem` | `TaxItem` |
-| `key TaxItemUUID` | `TaxItemUUID` |
+| `CompanyCode` | `CompanyCode` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FiscalYear` | `FiscalYear` |
+| `TaxItem` | `TaxItem` |
+| `TaxItemUUID` | `TaxItemUUID` |
 | `TaxCode` | `TaxCode` |
-| `hwbas_shl)` | `cast( TaxBaseAmountInCoCodeCrcy` |
-| `fwbas_shl )` | `cast( TaxBaseAmountInTransCrcy` |
-| `fis_mwsts )` | `cast( TaxAmountInCoCodeCrcy` |
-| `wmwst_shl )` | `cast( TaxAmountInTransCrcy` |
+| `TaxBaseAmountInCoCodeCrcy` | `cast( TaxBaseAmountInCoCodeCrcy as hwbas_shl)` |
+| `TaxBaseAmountInTransCrcy` | `cast( TaxBaseAmountInTransCrcy as fwbas_shl )` |
+| `TaxAmountInCoCodeCrcy` | `cast( TaxAmountInCoCodeCrcy as fis_mwsts )` |
+| `TaxAmountInTransCrcy` | `cast( TaxAmountInTransCrcy as wmwst_shl )` |
 | `TransactionTypeDetermination` | `TransactionTypeDetermination` |
-| `cast ( case` | `cast ( case` |
-| `when TaxDataSource = '2'` | `when TaxDataSource = '2'` |
-| `then TaxAmountInRptgCrcy` | `then TaxAmountInRptgCrcy` |
-| `else` | `else` |
-| `case` | `case` |
-| `when CompanyCodeCountry = ReportingCountry and CompanyCodeCurrency = ReportingCurrency` | `when CompanyCodeCountry = ReportingCountry and CompanyCodeCurrency = ReportingCurrency` |
-| `then TaxAmountInCoCodeCrcy` | `then TaxAmountInCoCodeCrcy` |
-| `else TaxAmountInRptgCrcy` | `else TaxAmountInRptgCrcy` |
-| `end` | `end` |
-| `glo_tax_amount_rptg_crcy )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when TaxDataSource = '2'` | `when TaxDataSource = '2'` |
-| `then TaxBaseAmountInRptgCrcy` | `then TaxBaseAmountInRptgCrcy` |
-| `else` | `else` |
-| `case` | `case` |
-| `when CompanyCodeCountry = ReportingCountry and CompanyCodeCurrency = ReportingCurrency` | `when CompanyCodeCountry = ReportingCountry and CompanyCodeCurrency = ReportingCurrency` |
-| `then TaxBaseAmountInCoCodeCrcy` | `then TaxBaseAmountInCoCodeCrcy` |
-| `else TaxBaseAmountInRptgCrcy` | `else TaxBaseAmountInRptgCrcy` |
-| `end` | `end` |
-| `glo_taxbase_amount_rptg_crcy )` | `end` |
+| `TaxAmountInRptgCrcy` | `cast(…)` |
+| `TaxBaseAmountInRptgCrcy` | `cast(…)` |
 | `ReportingCountry` | `ReportingCountry` |
 | `ReportingCurrency` | `ReportingCurrency` |
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |

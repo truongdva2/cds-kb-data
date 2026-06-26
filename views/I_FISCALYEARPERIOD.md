@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-GTF-GL-CAL
   - lob:Cross-Application Components
+  - bo:FiscalPeriod
 ---
 # I_FISCALYEARPERIOD
 
@@ -39,10 +40,10 @@ tags:
 | `FiscalYearStartDate` | `P_FiscalYearPeriod.fiscal_year_start_date` |
 | `FiscalYearEndDate` | `P_FiscalYearPeriod.fiscal_year_end_date` |
 | `FiscalYearPeriod` | `P_FiscalYearPeriod.fiscal_year_period` |
-| `_FiscalCalendarDate.FiscalPeriodConsecutiveNumber` | *Association* |
+| `FiscalPeriodConsecutiveNumber` | `_FiscalCalendarDate.FiscalPeriodConsecutiveNumber` |
 | `NextFiscalPeriod` | `P_FiscalYearPeriod.next_fiscal_period` |
 | `NextFiscalPeriodFiscalYear` | `P_FiscalYearPeriod.next_fiscal_period_fiscal_year` |
-| `_FiscalCalendarDate.FiscalPeriodConsecutiveNumber + 1 as NextFsclPeriodConsecutiveNmbr` | *Association* |
+| `NextFsclPeriodConsecutiveNmbr` | `_FiscalCalendarDate.FiscalPeriodConsecutiveNumber + 1` |
 | `_FiscalYearVariant` | *Association* |
 | `_FiscalPeriodStartDate` | *Association* |
 | `_FiscalYear` | *Association* |

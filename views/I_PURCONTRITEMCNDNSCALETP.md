@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
-| `key ConditionScaleLine` | `ConditionScaleLine` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `ConditionScaleLine` | `ConditionScaleLine` |
 | `ConditionScaleQuantity` | `ConditionScaleQuantity` |
 | `ConditionScaleQuantityUnit` | `ConditionScaleQuantityUnit` |
 | `CndnScaleQuantityUnitISOCode` | `CndnScaleQuantityUnitISOCode` |
@@ -53,9 +53,6 @@ tags:
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionQuantityUnitISOCode` | `ConditionQuantityUnitISOCode` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurContract            : redirected to I_PurchaseContractTP` | *Association* |
-| `_PurContrItemCndnAmount : redirected to parent I_PurContrItemCndnAmountTP` | *Association* |
 
 ## Associations
 

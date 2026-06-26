@@ -13,6 +13,7 @@ tags:
   - text
   - component:TM-2CL
   - lob:Other
+  - bo:TranspOrdEventCode
 ---
 # I_TRANSPORDEVENTCODETEXT_2
 
@@ -31,8 +32,7 @@ tags:
 |---|---|
 | `TranspOrdEventCode` | `tor_event` |
 | `Language` | `langu` |
-| `/scmtms/vdm_eventcode_desc preserving type )` | `cast ( description_s` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdEventCodeDesc` | `cast ( description_s as /scmtms/vdm_eventcode_desc preserving type )` |
 | `_TranspOrdEventCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdEventCode` | `I_TranspOrdEventCode_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

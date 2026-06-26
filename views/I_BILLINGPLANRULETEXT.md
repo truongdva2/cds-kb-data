@@ -17,6 +17,7 @@ tags:
   - text
   - component:SD-BIL-IV-BP-2CL
   - lob:Sales & Distribution
+  - bo:BillingPlanRule
 ---
 # I_BILLINGPLANRULETEXT
 
@@ -41,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingPlanRule` | `I_BillingPlanRule` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

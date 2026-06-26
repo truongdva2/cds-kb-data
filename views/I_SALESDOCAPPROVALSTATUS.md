@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_apm_approval_status preserving type )` | `cast ( substring(dd07l.domvalue_l, 1, 1)` |
+| `SalesDocApprovalStatus` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

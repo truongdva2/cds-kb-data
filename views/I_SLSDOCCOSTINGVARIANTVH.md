@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostingVariant` | `CostingVariant` |
+| `CostingVariant` | `CostingVariant` |
 | `CostingVariantName` | `CostingVariantName` |
 
 ## Associations

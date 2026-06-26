@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JntOpgAgrmt` | `JntOpgAgrmt` |
-| `key JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
-| `key JointVentureWBSElementExtID` | `JointVentureWBSElementExtID` |
-| `key JntVntrProjLvlSteppedRateOvhd` | `JntVntrProjLvlSteppedRateOvhd` |
+| `CompanyCode` | `CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
+| `JointVentureWBSElementExtID` | `JointVentureWBSElementExtID` |
+| `JntVntrProjLvlSteppedRateOvhd` | `JntVntrProjLvlSteppedRateOvhd` |
 | `JointVentureOvrrdeExclusionSet` | `JointVentureOvrrdeExclusionSet` |
 | `JntVntrStepRateOvhdOvrrdePct` | `JntVntrStepRateOvhdOvrrdePct` |
 | `JntVntrOvrrdeStepRateOvhdRule` | `JntVntrOvrrdeStepRateOvhdRule` |
@@ -43,7 +43,6 @@ tags:
 | `_CompanyCode` | *Association* |
 | `_JntVntrSteppedRateOvhdType` | *Association* |
 | `_JntVntrSteppedRateOvhdRule` | *Association* |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
 
 ## Associations
 

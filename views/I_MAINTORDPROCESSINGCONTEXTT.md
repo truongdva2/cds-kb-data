@@ -15,6 +15,7 @@ tags:
   - text
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrderProcessingContext
 ---
 # I_MAINTORDPROCESSINGCONTEXTT
 
@@ -31,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `maintorderprocessingcontext )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `MaintOrderProcessingContext` | `cast( dd07t.domvalue_l as maintorderprocessingcontext )` |
 | `MaintOrdProcessingContextText` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 | `_MaintOrderProcessingContext` | *Association* |

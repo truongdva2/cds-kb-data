@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_conschartofaccounts preserving type )` | `cast( left( _HierarchyText.HierarchyClass, 2)` |
-| `fincs_reportingitemhierarchy preserving type )` | `cast( substring( _HierarchyText.UniversalHierHierarchyID, 9, 10 )` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `_HierarchyText.UniversalHierarchyText                                                                               as ConsolidationRptgItemHierText` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `ConsolidationChartOfAccounts` | `cast(…)` |
+| `ConsolidationReportingItemHier` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `ConsolidationRptgItemHierText` | `_HierarchyText.UniversalHierarchyText` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key ExtSourceSystem` | `ExtSourceSystem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `ExtSourceSystem` | `ExtSourceSystem` |
 | `PurchaseOrderType` | `PurchaseOrderType` |
 | `PurchaseOrderSubtype` | `PurchaseOrderSubtype` |
 | `PurchasingDocumentOrigin` | `PurchasingDocumentOrigin` |
@@ -89,11 +89,11 @@ tags:
 | `PurgReasonForDocCancellation` | `PurgReasonForDocCancellation` |
 | `PurgReleaseTimeTotalAmount` | `PurgReleaseTimeTotalAmount` |
 | `PrmtHbRpldPOUniqueID` | `concat(PurchaseOrder, ExtSourceSystem)` |
-| `_ProcmtHubCoCodeSystemVH.ProcmtHubCompanyCodeUniqueID` | *Association* |
-| `_ProcmtHubPurgOrgSystemVH.ProcmtHubPurgOrgUniqueID` | *Association* |
+| `ProcmtHubCompanyCodeUniqueID` | `_ProcmtHubCoCodeSystemVH.ProcmtHubCompanyCodeUniqueID` |
+| `ProcmtHubPurgOrgUniqueID` | `_ProcmtHubPurgOrgSystemVH.ProcmtHubPurgOrgUniqueID` |
 | `_ProcmtHubPurchaseOrderItem` | *Association* |
-| `_ProcmtHubCoCodeSystemVH, //Responsibility management` | *Association* |
-| `_ProcmtHubPurgOrgSystemVH //Responsibility management` | *Association* |
+| `_ProcmtHubCoCodeSystemVH` | *Association* |
+| `_ProcmtHubPurgOrgSystemVH` | *Association* |
 
 ## Associations
 

@@ -12,6 +12,7 @@ tags:
   - interface-view
   - component:PP-FIO-2CL
   - lob:Manufacturing
+  - bo:MRPRequestRejection
 ---
 # I_MRPCHANGEREQUESTREJECTIONTXT
 
@@ -38,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MRPRequestRejection` | `I_MRPChangeRequestRejection` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

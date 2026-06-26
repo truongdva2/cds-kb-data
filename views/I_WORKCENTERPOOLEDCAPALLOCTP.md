@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
-| `key CapacityInternalID` | `CapacityInternalID` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
+| `CapacityInternalID` | `CapacityInternalID` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `Plant` | `Plant` |
@@ -50,8 +50,6 @@ tags:
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `WorkCenterLastChangeDateTime` | `WorkCenterLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header: redirected to parent I_WorkCenterTP` | *Association* |
 
 ## Associations
 

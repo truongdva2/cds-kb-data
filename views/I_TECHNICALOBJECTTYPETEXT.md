@@ -16,6 +16,7 @@ tags:
   - text
   - component:PM-EQM-EQ-2CL
   - lob:Plant Maintenance
+  - bo:TechnicalObjectType
 ---
 # I_TECHNICALOBJECTTYPETEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `TechnicalObjectType` | `t370k_t.eqart` |
+| `Language` | `t370k_t.spras` |
 | `TechnicalObjectTypeDesc` | `t370k_t.eartx` |
 | `_TechnicalObjectType` | *Association* |
 | `_Language` | *Association* |
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TechnicalObjectType` | `I_TechnicalObjectType` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

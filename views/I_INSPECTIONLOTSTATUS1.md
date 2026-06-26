@@ -15,6 +15,7 @@ tags:
   - status
   - component:QM-IM-2CL
   - lob:Quality Management
+  - bo:StatusCode
 ---
 # I_INSPECTIONLOTSTATUS1
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_InspectionLot.InspectionLot` | `I_InspectionLot.InspectionLot` |
-| `key I_StatusObjectActiveStatus.StatusCode` | `I_StatusObjectActiveStatus.StatusCode` |
-| `I_StatusObjectActiveStatus.StatusObject` | `I_StatusObjectActiveStatus.StatusObject` |
-| `I_StatusObjectActiveStatus._StatusObject` | `I_StatusObjectActiveStatus._StatusObject` |
+| `InspectionLot` | `I_InspectionLot.InspectionLot` |
+| `StatusCode` | `I_StatusObjectActiveStatus.StatusCode` |
+| `StatusObject` | `I_StatusObjectActiveStatus.StatusObject` |
+| `_StatusObject` | *Association* |
 | `_InspectionLot` | *Association* |
 
 ## Associations

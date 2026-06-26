@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransInterestCategory
 ---
 # I_FINCNDNINTERESTCATEGORY
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_intcat )` | `cast( dd07l.domvalue_l` |
+| `FinConditionInterestCategory` | `cast( dd07l.domvalue_l as ftr_intcat )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

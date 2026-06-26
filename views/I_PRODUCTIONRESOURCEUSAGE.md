@@ -15,6 +15,7 @@ tags:
   - product
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:ProductionResourceUsage
 ---
 # I_PRODUCTIONRESOURCEUSAGE
 
@@ -31,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ProductionResourceUsage` | `planv` |
 | `_Text` | *Association* |
 

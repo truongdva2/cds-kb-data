@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_debtor_group )` | `cast ( dd07t.domvalue_l` |
+| `BusinessPartnerDebtorGroup` | `cast ( dd07t.domvalue_l as bp_debtor_group )` |
 | `BPDebtorGroupDescription` | `dd07t.ddtext` |
 | `_BPDebtorGroup` | *Association* |
 | `_Language` | *Association* |

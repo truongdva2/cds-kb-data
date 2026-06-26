@@ -17,6 +17,7 @@ tags:
   - text
   - component:EHS-SUS-DG
   - lob:Other
+  - bo:DngrsGdsRglnLanguageType
 ---
 # I_DNGRSGDSRGLNLANGUAGETYPETEXT
 
@@ -33,14 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ehdgm_regulation_language_type preserving type )` | `cast( left(dd07t.domvalue_l, 2)` |
+| `DngrsGdsRglnLanguageType` | `cast(…)` |
 | `Language` | `dd07t.ddlanguage` |
 | `DngrsGdsRglnLanguageTypeName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

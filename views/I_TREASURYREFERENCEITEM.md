@@ -32,20 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
-| `trsy_ref_cat preserving type )` | `cast( reftyp` |
-| `trsy_ref_nmbr preserving type )` | `cast( refnr` |
+| `TreasuryReferenceCategory` | `cast( reftyp as trsy_ref_cat preserving type )` |
+| `TreasuryReferenceNumber` | `cast( refnr as trsy_ref_nmbr preserving type )` |
 | `TreasuryFinancialObject` | `objnr` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
-| `trsy_ref_item_status preserving type )` | `cast( status` |
-| `trsy_ref_item_ranking preserving type )` | `cast( rrang` |
-| `trsy_ref_item_cruser preserving type )` | `cast( cruser` |
-| `trsy_ref_item_dcrdat preserving type )` | `cast( dcrdat` |
-| `trsy_ref_item_tcrtim preserving type )` | `cast( tcrtim` |
-| `trsy_ref_item_upuser preserving type )` | `cast( upuser` |
-| `trsy_ref_item_dupdat preserving type )` | `cast( dupdat` |
-| `trsy_ref_item_tuptim preserving type )` | `cast( tuptim` |
-| `_TreasuryReference.TreasuryReferenceStatus` | *Association* |
+| `TreasuryReferenceItemStatus` | `cast( status as trsy_ref_item_status preserving type )` |
+| `TreasuryReferenceItemRanking` | `cast( rrang as trsy_ref_item_ranking preserving type )` |
+| `TrsyReferenceItemCreatedByUser` | `cast( cruser as trsy_ref_item_cruser preserving type )` |
+| `TrsyReferenceItemCreationDate` | `cast( dcrdat as trsy_ref_item_dcrdat preserving type )` |
+| `TrsyReferenceItemCreationTime` | `cast( tcrtim as trsy_ref_item_tcrtim preserving type )` |
+| `TrsyRefItemLastChangedByUser` | `cast( upuser as trsy_ref_item_upuser preserving type )` |
+| `TrsyRefItemLastChangeDate` | `cast( dupdat as trsy_ref_item_dupdat preserving type )` |
+| `TrsyRefItemLastChangeTime` | `cast( tuptim as trsy_ref_item_tuptim preserving type )` |
+| `TreasuryReferenceStatus` | `_TreasuryReference.TreasuryReferenceStatus` |
 | `_FinancialTransaction` | *Association* |
 | `_TreasuryReferenceCategory` | *Association* |
 | `_TreasuryReference` | *Association* |

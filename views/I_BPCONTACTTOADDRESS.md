@@ -15,6 +15,7 @@ tags:
   - address
   - component:AP-MD-BP
   - lob:Other
+  - bo:BPRelationshipAddress
 ---
 # I_BPCONTACTTOADDRESS
 
@@ -31,34 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessPartnerVH'` | `name:    'I_BusinessPartnerVH'` |
-| `element: 'BusinessPartner' }` | `element: 'BusinessPartner' }` |
-| `}]` | `}]` |
+| `RelationshipNumber` | `but052.relnr` |
+| `BusinessPartnerCompany` | `but052.partner1` |
 | `BusinessPartnerPerson` | `but052.partner2` |
 | `ValidityEndDate` | `but052.date_to` |
 | `AddressID` | `but052.addrnumber` |
 | `PersonNumber` | `but000.persnumber` |
 | `IsDefaultAddress` | `but052.xdfadr` |
-| `_AddressDetails[1: nation = ' '].nation                  as AddressRepresentationCode` | *Association* |
-| `_AddressDetails[1: nation = ' '].function                as ContactRelationshipFunction` | *Association* |
-| `_AddressDetails[1: nation = ' '].department              as ContactRelationshipDepartment` | *Association* |
-| `_AddressDetails[1: nation = ' '].floor                   as Floor` | *Association* |
-| `_AddressDetails[1: nation = ' '].building                as Building` | *Association* |
-| `_AddressDetails[1: nation = ' '].roomnumber              as RoomNumber` | *Association* |
-| `_AddressDetails[1: nation = ' '].deflt_comm              as PrfrdCommMediumType` | *Association* |
-| `_AddressDetails[1: nation = ' '].id_code                 as CorrespondenceShortName` | *Association* |
-| `_AddressDetails[1: nation = ' '].ih_mail                 as InhouseMail` | *Association* |
-| `_Telephone_2.InternationalPhoneNumber` | *Association* |
-| `_Telephone_2.PhoneNumberCountry` | *Association* |
-| `_Telephone_2.PhoneAreaCodeSubscriberNumber   as PhoneNumber` | *Association* |
-| `_MobilePhone_2.InternationalPhoneNumber      as InternationalMobilePhoneNumber` | *Association* |
-| `_MobilePhone_2.PhoneNumberCountry            as MobilePhoneCountry` | *Association* |
-| `_MobilePhone_2.PhoneAreaCodeSubscriberNumber as MobilePhoneNumber` | *Association* |
-| `_MobilePhone_2.PhoneExtensionNumber          as MobilePhoneNumberExtension` | *Association* |
-| `_FaxNumber_2.InternationalFaxNumber` | *Association* |
-| `_FaxNumber_2.FaxNumberCountry                as FaxCountry` | *Association* |
-| `_BusinessPartnerPerson.AuthorizationGroup` | *Association* |
-| `_BusinessPartnerPerson.IsBusinessPurposeCompleted` | *Association* |
+| `AddressRepresentationCode` | `_AddressDetails[1: nation = ' '].nation` |
+| `ContactRelationshipFunction` | `_AddressDetails[1: nation = ' '].function` |
+| `ContactRelationshipDepartment` | `_AddressDetails[1: nation = ' '].department` |
+| `Floor` | `_AddressDetails[1: nation = ' '].floor` |
+| `Building` | `_AddressDetails[1: nation = ' '].building` |
+| `RoomNumber` | `_AddressDetails[1: nation = ' '].roomnumber` |
+| `PrfrdCommMediumType` | `_AddressDetails[1: nation = ' '].deflt_comm` |
+| `CorrespondenceShortName` | `_AddressDetails[1: nation = ' '].id_code` |
+| `InhouseMail` | `_AddressDetails[1: nation = ' '].ih_mail` |
+| `InternationalPhoneNumber` | `_Telephone_2.InternationalPhoneNumber` |
+| `PhoneNumberCountry` | `_Telephone_2.PhoneNumberCountry` |
+| `PhoneNumber` | `_Telephone_2.PhoneAreaCodeSubscriberNumber` |
+| `InternationalMobilePhoneNumber` | `_MobilePhone_2.InternationalPhoneNumber` |
+| `MobilePhoneCountry` | `_MobilePhone_2.PhoneNumberCountry` |
+| `MobilePhoneNumber` | `_MobilePhone_2.PhoneAreaCodeSubscriberNumber` |
+| `MobilePhoneNumberExtension` | `_MobilePhone_2.PhoneExtensionNumber` |
+| `InternationalFaxNumber` | `_FaxNumber_2.InternationalFaxNumber` |
+| `FaxCountry` | `_FaxNumber_2.FaxNumberCountry` |
+| `AuthorizationGroup` | `_BusinessPartnerPerson.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_BusinessPartnerPerson.IsBusinessPurposeCompleted` |
 | `_AddressDetails` | *Association* |
 | `_PersonDetails` | *Association* |
 | `_BPCompanyPostalAddress` | *Association* |

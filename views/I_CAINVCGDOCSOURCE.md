@@ -30,17 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `srcdoccat_gfn_kk preserving type)` | `cast(srcdoccat` |
-| `srcdocno_gfn_kk preserving type)` | `cast(srcdocno` |
+| `CAInvcgSourceDocumentCat` | `cast(srcdoccat as srcdoccat_gfn_kk preserving type)` |
+| `CAInvcgSourceDocumentNumber` | `cast(srcdocno as srcdocno_gfn_kk preserving type)` |
 | `CAInvoicingDocument` | `invdocno` |
 | `CAInvcgSourceDocumentType` | `srcdoctype` |
 | `LogicalSystem` | `log_system` |
 | `CAApplicationArea` | `applk` |
 | `CAInvcgIsDocumentPosted` | `invoiced` |
 | `CAInvcgIsDocumentSimulated` | `simulated` |
-| `inv_preliminary_gfn_kk preserving type)` | `cast(preliminary` |
-| `inv_reversaldoc_gfn_kk preserving type)` | `cast(reversaldoc` |
-| `inv_reverseddoc_gfn_kk preserving type)` | `cast(reverseddoc` |
+| `CAInvcgIsDocumentPreliminary` | `cast(preliminary as inv_preliminary_gfn_kk preserving type)` |
+| `CAInvcgReversalDocument` | `cast(reversaldoc as inv_reversaldoc_gfn_kk preserving type)` |
+| `CAInvcgReversedDocument` | `cast(reverseddoc as inv_reverseddoc_gfn_kk preserving type)` |
 | `CAInvcgCreationDate` | `crdate` |
 | `CAInvcgCreationTime` | `crtime` |
 | `_CAInvcgSourceDocCat` | *Association* |

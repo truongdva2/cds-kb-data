@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCode : bukrs;` | `CompanyCode : bukrs;` |
-| `CorporateIncomeTaxHierarchy : ficite_hryid;` | `CorporateIncomeTaxHierarchy : ficite_hryid;` |
-| `CITHierCoCodeEditingIsAllowed: boole_d;` | `CITHierCoCodeEditingIsAllowed: boole_d;` |
-| `CITHierCoCodeClassfctnIsAllwd: boole_d;` | `CITHierCoCodeClassfctnIsAllwd: boole_d;` |
+| `CompanyCode` | `bukrs` |
+| `CorporateIncomeTaxHierarchy` | `ficite_hryid` |
+| `CITHierCoCodeEditingIsAllowed` | `boole_d` |
+| `CITHierCoCodeClassfctnIsAllwd` | `boole_d` |
 
 ## Associations
 

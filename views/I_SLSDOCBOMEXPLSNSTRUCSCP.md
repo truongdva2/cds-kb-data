@@ -15,6 +15,7 @@ tags:
   - bom
   - component:SD-MD-MM-2CL
   - lob:Sales & Distribution
+  - bo:SlsDocBOMExplsnStrucScp
 ---
 # I_SLSDOCBOMEXPLSNSTRUCSCP
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `strum )` | `cast(dd07l.domvalue_l` |
+| `SlsDocBOMExplsnStrucScp` | `cast(dd07l.domvalue_l as strum )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

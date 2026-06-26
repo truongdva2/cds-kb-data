@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder.PurchaseOrder` | `PurchaseOrder.PurchaseOrder` |
-| `key ChangeDocument.ChangeDocObjectClass` | `ChangeDocument.ChangeDocObjectClass` |
-| `key ChangeDocument.ChangeDocument` | `ChangeDocument.ChangeDocument` |
-| `ChangeDocument.CreatedByUser` | `ChangeDocument.CreatedByUser` |
-| `ChangeDocument.CreationDate` | `ChangeDocument.CreationDate` |
-| `ChangeDocument.CreationTime` | `ChangeDocument.CreationTime` |
-| `PurchaseOrder.PurchaseOrderType` | `PurchaseOrder.PurchaseOrderType` |
-| `PurchaseOrder.PurchasingOrganization` | `PurchaseOrder.PurchasingOrganization` |
-| `PurchaseOrder.PurchasingGroup` | `PurchaseOrder.PurchasingGroup` |
+| `PurchaseOrder` | `PurchaseOrder.PurchaseOrder` |
+| `ChangeDocObjectClass` | `ChangeDocument.ChangeDocObjectClass` |
+| `ChangeDocument` | `ChangeDocument.ChangeDocument` |
+| `CreatedByUser` | `ChangeDocument.CreatedByUser` |
+| `CreationDate` | `ChangeDocument.CreationDate` |
+| `CreationTime` | `ChangeDocument.CreationTime` |
+| `PurchaseOrderType` | `PurchaseOrder.PurchaseOrderType` |
+| `PurchasingOrganization` | `PurchaseOrder.PurchasingOrganization` |
+| `PurchasingGroup` | `PurchaseOrder.PurchasingGroup` |
 | `_PurOrdChangeDocumentItem` | *Association* |
 
 ## Associations

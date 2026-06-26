@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionReminderUUID` | `LegalTransactionReminderUUID` |
+| `LegalTransactionReminderUUID` | `LegalTransactionReminderUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LegalTransactionReminderType` | `LegalTransactionReminderType` |
 | `LegalTransactionReminderDate` | `LegalTransactionReminderDate` |
@@ -47,7 +47,6 @@ tags:
 | `LglCntntMRemRecipientTeam` | `LglCntntMRemRecipientTeam` |
 | `LglCntntMRemRecipientFunction` | `LglCntntMRemRecipientFunction` |
 | `LglCntntMRemRcpntIntCntctType` | `LglCntntMRemRcpntIntCntctType` |
-| `_LegalTransaction : redirected to parent I_LegalTransactionTP_2` | *Association* |
 
 ## Associations
 

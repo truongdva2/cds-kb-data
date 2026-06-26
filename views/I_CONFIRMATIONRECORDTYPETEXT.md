@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:OrderConfirmationRecordTypeTxt
 ---
 # I_CONFIRMATIONRECORDTYPETEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `confrecdtypename preserving type)` | `cast(t.ddtext` |
+| `OrderConfirmationRecordType` | `cast(substring(t.domvalue_l, 1, 3) as co_satza preserving type)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `OrderConfirmationRecdTypeName` | `cast(t.ddtext as confrecdtypename preserving type)` |
 | `_ConfirmationRecordType` | *Association* |
 | `_Language` | *Association* |
 

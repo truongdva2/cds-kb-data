@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:ProjectElement
 ---
 # I_ENTPROJWRKBRKDWNSTRUCELMNTVH
 
@@ -31,9 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_EntProjProcessingStatus', element: 'ProcessingStatus'  } }]` | `name: 'I_EntProjProcessingStatus', element: 'ProcessingStatus'  } }]` |
+| `ProjectElement` | `ProjectElement` |
+| `ProjectElementUUID` | `ProjectElementUUID` |
+| `ProjectElementDescription` | `ProjectElementDescription` |
+| `Project` | `_Project.Project` |
+| `ProjectDescription` | `_Project.ProjectDescription` |
 | `ProcessingStatus` | `ProcessingStatus` |
-| `_ProcessingStatusText.ProcessingStatusText` | *Association* |
+| `ProcessingStatusText` | `_ProcessingStatusText.ProcessingStatusText` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `ResponsibleCostCenter` | `ResponsibleCostCenter` |
 | `ProfitCenter` | `ProfitCenter` |
@@ -44,7 +49,7 @@ tags:
 | `Plant` | `Plant` |
 | `ParentObjectUUID` | `ParentObjectUUID` |
 | `IsProjectMilestone` | `IsProjectMilestone` |
-| `_Project as _EnterpriseProject` | *Association* |
+| `_EnterpriseProject` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 | `_ProcessingStatusText` | *Association* |
 

@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MaterialDiscontinuationTypeTxt
 ---
 # I_MATLCOMPDSCONTNTYPETEXT
 
@@ -31,8 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `matlcompdscontntypename preserving type)` | `cast(t.ddtext` |
+| `MatlCompDiscontinuationType` | `cast(substring(t.domvalue_l, 1, 1) as auslf preserving type)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `MatlCompDscontnTypeName` | `cast(t.ddtext as matlcompdscontntypename preserving type)` |
 | `_MatlCompDiscontinuationType` | *Association* |
 | `_Language` | *Association* |
 

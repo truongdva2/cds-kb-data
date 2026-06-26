@@ -31,18 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key DistributionKey` | `DistributionKey` |
-| `key PartnerCounter` | `PartnerCounter` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `DistributionKey` | `DistributionKey` |
+| `PartnerCounter` | `PartnerCounter` |
 | `PartnerFunction` | `PartnerFunction` |
 | `ExtPlantForPurg` | `ExtPlantForPurg` |
 | `Supplier` | `Supplier` |
 | `SupplierSubrange` | `SupplierSubrange` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurContract     : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurContrItmDist : redirected to parent I_CntrlPurContrItemDistrTP_2` | *Association* |
 
 ## Associations
 

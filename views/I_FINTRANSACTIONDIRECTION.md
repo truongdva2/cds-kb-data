@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinancialTransactionDirection
 ---
 # I_FINTRANSACTIONDIRECTION
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_rkondgr )` | `cast( dd07l.domvalue_l` |
+| `FinancialTransactionDirection` | `cast( dd07l.domvalue_l as tb_rkondgr )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

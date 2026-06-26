@@ -33,52 +33,48 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturn.CustomerReturn` | `CustomerReturn.CustomerReturn` |
-| `CustomerReturn.CustomerReturnType` | `CustomerReturn.CustomerReturnType` |
-| `CustomerReturn.CustomerReturnDate` | `CustomerReturn.CustomerReturnDate` |
-| `CustomerReturn.SoldToParty` | `CustomerReturn.SoldToParty` |
-| `CustomerReturn.SalesOrganization` | `CustomerReturn.SalesOrganization` |
-| `CustomerReturn.DistributionChannel` | `CustomerReturn.DistributionChannel` |
-| `CustomerReturn.OrganizationDivision` | `CustomerReturn.OrganizationDivision` |
-| `CustomerReturn.SalesOffice` | `CustomerReturn.SalesOffice` |
-| `CustomerReturn.SalesGroup` | `CustomerReturn.SalesGroup` |
-| `CustomerReturn.SalesDistrict` | `CustomerReturn.SalesDistrict` |
-| `CustomerReturn.CreatedByUser` | `CustomerReturn.CreatedByUser` |
-| `CustomerReturn.CreationDate` | `CustomerReturn.CreationDate` |
-| `CustomerReturn.LastChangeDate` | `CustomerReturn.LastChangeDate` |
-| `CustomerReturn.LastChangeDateTime` | `CustomerReturn.LastChangeDateTime` |
-| `CustomerReturn.PurchaseOrderByCustomer` | `CustomerReturn.PurchaseOrderByCustomer` |
-| `CustomerReturn.CustomerPurchaseOrderType` | `CustomerReturn.CustomerPurchaseOrderType` |
-| `CustomerReturn.CustomerPurchaseOrderDate` | `CustomerReturn.CustomerPurchaseOrderDate` |
-| `CustomerReturn.SDDocumentReason` | `CustomerReturn.SDDocumentReason` |
-| `CustomerReturn.PricingDate` | `CustomerReturn.PricingDate` |
-| `CustomerReturn.RequestedDeliveryDate` | `CustomerReturn.RequestedDeliveryDate` |
-| `CustomerReturn.TotalNetAmount` | `CustomerReturn.TotalNetAmount` |
-| `CustomerReturn.TransactionCurrency` | `CustomerReturn.TransactionCurrency` |
-| `CustomerReturn.HeaderBillingBlockReason` | `CustomerReturn.HeaderBillingBlockReason` |
-| `CustomerReturn.DeliveryBlockReason` | `CustomerReturn.DeliveryBlockReason` |
-| `CustomerReturn.IncotermsClassification` | `CustomerReturn.IncotermsClassification` |
-| `CustomerReturn.IncotermsTransferLocation` | `CustomerReturn.IncotermsTransferLocation` |
-| `CustomerReturn.IncotermsLocation1` | `CustomerReturn.IncotermsLocation1` |
-| `CustomerReturn.IncotermsLocation2` | `CustomerReturn.IncotermsLocation2` |
-| `CustomerReturn.IncotermsVersion` | `CustomerReturn.IncotermsVersion` |
-| `CustomerReturn.CustomerPaymentTerms` | `CustomerReturn.CustomerPaymentTerms` |
-| `CustomerReturn.PaymentMethod` | `CustomerReturn.PaymentMethod` |
-| `CustomerReturn.CustomerReturnApprovalReason` | `CustomerReturn.CustomerReturnApprovalReason` |
-| `CustomerReturn.SalesDocApprovalStatus` | `CustomerReturn.SalesDocApprovalStatus` |
-| `CustomerReturn.ReferenceSDDocument` | `CustomerReturn.ReferenceSDDocument` |
-| `CustomerReturn.ReferenceSDDocumentCategory` | `CustomerReturn.ReferenceSDDocumentCategory` |
-| `CustomerReturn.RetsMgmtProcess` | `CustomerReturn.RetsMgmtProcess` |
-| `CustomerReturn.RetsMgmtLogProcgStatus` | `CustomerReturn.RetsMgmtLogProcgStatus` |
-| `CustomerReturn.RetsMgmtCompnProcgStatus` | `CustomerReturn.RetsMgmtCompnProcgStatus` |
-| `CustomerReturn.RetsMgmtProcessingStatus` | `CustomerReturn.RetsMgmtProcessingStatus` |
-| `CustomerReturn.OverallSDProcessStatus` | `CustomerReturn.OverallSDProcessStatus` |
-| `CustomerReturn.TotalCreditCheckStatus` | `CustomerReturn.TotalCreditCheckStatus` |
-| `CustomerReturn.OverallSDDocumentRejectionSts` | `CustomerReturn.OverallSDDocumentRejectionSts` |
-| `_Item           : redirected to composition child I_CustomerReturnItemTP` | *Association* |
-| `_Partner        : redirected to composition child I_CustomerReturnPartnerTP` | *Association* |
-| `_Text           : redirected to composition child I_CustomerReturnTextTP` | *Association* |
-| `_PricingElement : redirected to composition child I_CustRetPricingElementTP` | *Association* |
+| `CustomerReturn` | `CustomerReturn.CustomerReturn` |
+| `CustomerReturnType` | `CustomerReturn.CustomerReturnType` |
+| `CustomerReturnDate` | `CustomerReturn.CustomerReturnDate` |
+| `SoldToParty` | `CustomerReturn.SoldToParty` |
+| `SalesOrganization` | `CustomerReturn.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturn.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturn.OrganizationDivision` |
+| `SalesOffice` | `CustomerReturn.SalesOffice` |
+| `SalesGroup` | `CustomerReturn.SalesGroup` |
+| `SalesDistrict` | `CustomerReturn.SalesDistrict` |
+| `CreatedByUser` | `CustomerReturn.CreatedByUser` |
+| `CreationDate` | `CustomerReturn.CreationDate` |
+| `LastChangeDate` | `CustomerReturn.LastChangeDate` |
+| `LastChangeDateTime` | `CustomerReturn.LastChangeDateTime` |
+| `PurchaseOrderByCustomer` | `CustomerReturn.PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `CustomerReturn.CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerReturn.CustomerPurchaseOrderDate` |
+| `SDDocumentReason` | `CustomerReturn.SDDocumentReason` |
+| `PricingDate` | `CustomerReturn.PricingDate` |
+| `RequestedDeliveryDate` | `CustomerReturn.RequestedDeliveryDate` |
+| `TotalNetAmount` | `CustomerReturn.TotalNetAmount` |
+| `TransactionCurrency` | `CustomerReturn.TransactionCurrency` |
+| `HeaderBillingBlockReason` | `CustomerReturn.HeaderBillingBlockReason` |
+| `DeliveryBlockReason` | `CustomerReturn.DeliveryBlockReason` |
+| `IncotermsClassification` | `CustomerReturn.IncotermsClassification` |
+| `IncotermsTransferLocation` | `CustomerReturn.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `CustomerReturn.IncotermsLocation1` |
+| `IncotermsLocation2` | `CustomerReturn.IncotermsLocation2` |
+| `IncotermsVersion` | `CustomerReturn.IncotermsVersion` |
+| `CustomerPaymentTerms` | `CustomerReturn.CustomerPaymentTerms` |
+| `PaymentMethod` | `CustomerReturn.PaymentMethod` |
+| `CustomerReturnApprovalReason` | `CustomerReturn.CustomerReturnApprovalReason` |
+| `SalesDocApprovalStatus` | `CustomerReturn.SalesDocApprovalStatus` |
+| `ReferenceSDDocument` | `CustomerReturn.ReferenceSDDocument` |
+| `ReferenceSDDocumentCategory` | `CustomerReturn.ReferenceSDDocumentCategory` |
+| `RetsMgmtProcess` | `CustomerReturn.RetsMgmtProcess` |
+| `RetsMgmtLogProcgStatus` | `CustomerReturn.RetsMgmtLogProcgStatus` |
+| `RetsMgmtCompnProcgStatus` | `CustomerReturn.RetsMgmtCompnProcgStatus` |
+| `RetsMgmtProcessingStatus` | `CustomerReturn.RetsMgmtProcessingStatus` |
+| `OverallSDProcessStatus` | `CustomerReturn.OverallSDProcessStatus` |
+| `TotalCreditCheckStatus` | `CustomerReturn.TotalCreditCheckStatus` |
+| `OverallSDDocumentRejectionSts` | `CustomerReturn.OverallSDDocumentRejectionSts` |
 
 ## Associations
 

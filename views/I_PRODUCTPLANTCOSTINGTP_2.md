@@ -34,12 +34,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `IsCoProduct` | `IsCoProduct` |
+| `CostingLotSize` | `CostingLotSize` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListType` | `TaskListType` |
+| `CostingSpecialProcurementType` | `CostingSpecialProcurementType` |
+| `SourceBOMAlternative` | `SourceBOMAlternative` |
+| `ProductBOMUsage` | `ProductBOMUsage` |
+| `ProductIsCostingRelevant` | `ProductIsCostingRelevant` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `VarianceKey` | `VarianceKey` |
+| `CostingProductionVersion` | `CostingProductionVersion` |
+| `IsFixedPriceCoProduct` | `IsFixedPriceCoProduct` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_BaseUnitOfMeasure` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_BillOfMaterialUsageText` | *Association* |
 | `_ProductDescription` | *Association* |
 | `_BaseUnitOfMeasureText` | *Association* |

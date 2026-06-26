@@ -15,6 +15,7 @@ tags:
   - gl-account
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:GLAccountGroup
 ---
 # I_GLACCOUNTGROUP
 
@@ -31,9 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
 | `ChartOfAccounts` | `ktopl` |
 | `GLAccountGroup` | `ktoks` |
 | `_ChartOfAccountsText` | *Association* |

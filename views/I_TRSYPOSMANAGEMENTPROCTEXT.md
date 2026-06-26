@@ -16,6 +16,7 @@ tags:
   - text
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:TrsyPosManagementProcedure
 ---
 # I_TRSYPOSMANAGEMENTPROCTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_pos_man_proc preserving type)` | `cast(TrsyPosManagementProcedureText.pos_man_proc` |
+| `TrsyPosManagementProcedure` | `cast(…)` |
 | `Language` | `TrsyPosManagementProcedureText.spras` |
-| `ftr_gen_pos_man_proc_name preserving type)` | `cast(TrsyPosManagementProcedureText.pos_man_proc_t` |
+| `TrsyPosManagementProcedureName` | `cast(…)` |
 | `_TrsyPosManagementProcedure` | *Association* |
 | `_Language` | *Association* |
 

@@ -33,14 +33,75 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ConsignmentControl', element : 'ConsignmentControl'} , useAsTemplate: true }]` | `name: 'I_ConsignmentControl', element : 'ConsignmentControl'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `FixedLotSizeQuantity` | `FixedLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `MaximumLotSizeQuantity` |
+| `MinimumLotSizeQuantity` | `MinimumLotSizeQuantity` |
+| `LotSizeRoundingQuantity` | `LotSizeRoundingQuantity` |
+| `LotSizingProcedure` | `LotSizingProcedure` |
+| `MRPType` | `MRPType` |
+| `MRPResponsible` | `MRPResponsible` |
+| `SafetyStockQuantity` | `SafetyStockQuantity` |
+| `MinimumSafetyStockQuantity` | `MinimumSafetyStockQuantity` |
+| `PlanningTimeFence` | `PlanningTimeFence` |
+| `ConsumptionValueCategory` | `ConsumptionValueCategory` |
+| `MaximumStockQuantity` | `MaximumStockQuantity` |
+| `ReorderThresholdQuantity` | `ReorderThresholdQuantity` |
+| `PlannedDeliveryDurationInDays` | `PlannedDeliveryDurationInDays` |
+| `SafetySupplyDurationInDays` | `SafetySupplyDurationInDays` |
+| `PlanningStrategyGroup` | `PlanningStrategyGroup` |
+| `TotalReplenishmentLeadTime` | `TotalReplenishmentLeadTime` |
+| `ProcurementType` | `ProcurementType` |
+| `ProcurementSubType` | `ProcurementSubType` |
+| `AssemblyScrapPercent` | `AssemblyScrapPercent` |
+| `AvailabilityCheckType` | `AvailabilityCheckType` |
+| `GoodsReceiptDuration` | `GoodsReceiptDuration` |
+| `PlanAndOrderDayDetermination` | `PlanAndOrderDayDetermination` |
+| `RoundingProfile` | `RoundingProfile` |
+| `DfltStorageLocationExtProcmt` | `DfltStorageLocationExtProcmt` |
+| `MRPGroup` | `MRPGroup` |
+| `LotSizeIndependentCosts` | `LotSizeIndependentCosts` |
+| `RqmtQtyRcptTaktTmeInWrkgDays` | `RqmtQtyRcptTaktTmeInWrkgDays` |
+| `MRPPlanningCalendar` | `MRPPlanningCalendar` |
+| `RangeOfCvrgPrflCode` | `RangeOfCvrgPrflCode` |
+| `ProductSafetyTimeMRPRelevance` | `ProductSafetyTimeMRPRelevance` |
+| `SafetyTimePeriodProfile` | `SafetyTimePeriodProfile` |
+| `DependentRqmtMRPRelevance` | `DependentRqmtMRPRelevance` |
+| `ProductServiceLevelInPercent` | `ProductServiceLevelInPercent` |
+| `ProdInhProdnDurationInWorkDays` | `ProdInhProdnDurationInWorkDays` |
+| `MRPAvailabilityType` | `MRPAvailabilityType` |
+| `CrossProjectProduct` | `CrossProjectProduct` |
+| `StorageCostsPercentageCode` | `StorageCostsPercentageCode` |
+| `FollowUpProduct` | `FollowUpProduct` |
+| `RepetitiveManufacturingIsAllwd` | `RepetitiveManufacturingIsAllwd` |
+| `DependentRequirementsType` | `DependentRequirementsType` |
+| `ProductIsBulkComponent` | `ProductIsBulkComponent` |
+| `RepetitiveManufacturingProfile` | `RepetitiveManufacturingProfile` |
+| `BackwardCnsmpnPeriodInWorkDays` | `BackwardCnsmpnPeriodInWorkDays` |
+| `FwdConsumptionPeriodInWorkDays` | `FwdConsumptionPeriodInWorkDays` |
+| `ProdRqmtsConsumptionMode` | `ProdRqmtsConsumptionMode` |
+| `ProdFcstRequirementsSplitCode` | `ProdFcstRequirementsSplitCode` |
+| `EffectiveOutDate` | `EffectiveOutDate` |
+| `SchedulingFloatProfile` | `SchedulingFloatProfile` |
+| `ComponentScrapInPercent` | `ComponentScrapInPercent` |
+| `ProductDiscontinuationCode` | `ProductDiscontinuationCode` |
+| `ProductRequirementsGrouping` | `ProductRequirementsGrouping` |
+| `ProductionInvtryManagedLoc` | `ProductionInvtryManagedLoc` |
+| `ProductComponentBackflushCode` | `ProductComponentBackflushCode` |
+| `ProposedProductSupplyArea` | `ProposedProductSupplyArea` |
+| `MRPSafetyStockMethod` | `MRPSafetyStockMethod` |
+| `JITProdnConfProfile` | `JITProdnConfProfile` |
+| `PlannedOrderActionControl` | `PlannedOrderActionControl` |
+| `Currency` | `Currency` |
+| `BaseUnit` | `BaseUnit` |
+| `MRPProfile` | `MRPProfile` |
+| `ProdnPlngAndControlCalendar` | `ProdnPlngAndControlCalendar` |
+| `GoodIssueProcessingDays` | `GoodIssueProcessingDays` |
 | `ConsignmentControl` | `ConsignmentControl` |
-| `ProductUnitGroup, //Retail field` | `ProductUnitGroup, //Retail field` |
+| `ProductUnitGroup` | `ProductUnitGroup` |
 | `ATPCheckHorizonInDays` | `ATPCheckHorizonInDays` |
 | `ATPCheckHorizonFactoryCalendar` | `ATPCheckHorizonFactoryCalendar` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 | `_ABCIndicatorText` | *Association* |
 | `_SafetyTimePeriodProfileText` | *Association* |
 | `_ProdSafetyTimeMRPRlvnceText` | *Association* |

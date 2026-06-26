@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PrcgProcedItemSubtotal
 ---
 # I_PRCGPROCEDITEMSUBTOTALTEXT
 
@@ -33,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kzwiw )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PrcgProcedItemSubtotal` | `cast ( substring( domvalue_l, 1, 1 ) as kzwiw )` |
+| `PrcgProcedItemSubtotalText` | `cast ( ddtext as val_text )` |
 | `_PricingProcedureItemSubtotal` | *Association* |
 | `_Language` | *Association* |
 

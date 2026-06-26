@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BillOfOperationsUsageText
 ---
 # I_BILLOFOPERATIONSUSAGETEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `BillOfOperationsUsage` | `cast(txt.verwe as billofoperationsusage preserving type)` |
+| `Language` | `txt.spras` |
 | `BillOfOperationsUsageDesc` | `txt.txt` |
 | `_Language` | *Association* |
 

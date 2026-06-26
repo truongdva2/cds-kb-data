@@ -70,7 +70,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BR_NFeTextNumber` | `I_BR_NFeModText` | [0..*] |
+| `_BR_NFeTextNumber2` | `I_BR_NFeModText` | [0..*] |
 
 ## Source Code
 

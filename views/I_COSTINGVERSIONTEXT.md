@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cvers.CostingVersion` | `cvers.CostingVersion` |
-| `key cvers.CostingType` | `cvers.CostingType` |
-| `key cvers.ValuationVariant` | `cvers.ValuationVariant` |
+| `CostingVersion` | `cvers.CostingVersion` |
+| `CostingType` | `cvers.CostingType` |
+| `ValuationVariant` | `cvers.ValuationVariant` |
 | `Language` | `text.spras` |
 | `CostingVersionName` | `text.text` |
-| `cvers._CostingType` | `cvers._CostingType` |
-| `cvers._CostingValuationVariant` | `cvers._CostingValuationVariant` |
+| `_CostingType` | *Association* |
+| `_CostingValuationVariant` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

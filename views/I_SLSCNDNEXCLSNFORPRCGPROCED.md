@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionUsage` | `ConditionUsage` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PricingProcedure` | `PricingProcedure` |
-| `key CndnExclusionSequentialNumber` | `CndnExclusionSequentialNumber` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PricingProcedure` | `PricingProcedure` |
+| `CndnExclusionSequentialNumber` | `CndnExclusionSequentialNumber` |
 | `ConditionExclusionProcedure` | `ConditionExclusionProcedure` |
 | `ConditionExclusionGroup1` | `ConditionExclusionGroup1` |
 | `ConditionExclusionGroup2` | `ConditionExclusionGroup2` |

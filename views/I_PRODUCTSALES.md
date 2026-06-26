@@ -15,6 +15,7 @@ tags:
   - product
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductSales
 ---
 # I_PRODUCTSALES
 
@@ -35,17 +36,17 @@ tags:
 | `SalesStatus` | `mara.mstav` |
 | `_SalesStatus` | *Association* |
 | `_SalesStatusText` | *Association* |
-| `salesstatusvaliditydate)` | `cast(mara.mstdv` |
+| `SalesStatusValidityDate` | `cast(mara.mstdv as salesstatusvaliditydate)` |
 | `TaxClassification` | `mara.taklv` |
 | `TransportationGroup` | `mara.tragr` |
 | `_TransportationGroup` | *Association* |
 | `_TransportationGroupText` | *Association* |
 | `AllowedPackagingWeightQty` | `mara.ergew` |
-| `allowedpackagingweightqtyunit)` | `cast(mara.ergei` |
+| `AllowedPackagingWeightQtyUnit` | `cast(mara.ergei as allowedpackagingweightqtyunit)` |
 | `_Weight` | *Association* |
 | `_WeightText` | *Association* |
 | `AllowedPackagingVolumeQty` | `mara.ervol` |
-| `allowedpackagingvolumeqtyunit)` | `cast(mara.ervoe` |
+| `AllowedPackagingVolumeQtyUnit` | `cast(mara.ervoe as allowedpackagingvolumeqtyunit)` |
 | `_Volume` | *Association* |
 | `_VolumeText` | *Association* |
 | `PricingReferenceProduct` | `mara.pmata` |
@@ -54,17 +55,17 @@ tags:
 | `_PricingReferenceProductText_2` | *Association* |
 | `VariantsPricingProfile` | `mara.sprof` |
 | `IsVariantPriceAllowed` | `mara.allow_pmat_igno` |
-| `_ProductRetail.LoadingGroup                                as LoadingGroup, //Copy Value for MARC` | *Association* |
-| `_ProductRetail._LoadingGroup` | *Association* |
-| `_ProductRetail._LoadingGroupText` | *Association* |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `excessweighttolerance preserving type )` | `cast(mara.gewto` |
-| `excessvolumetolerance preserving type )` | `cast(mara.volto` |
-| `packagingmaterialtype preserving type )` | `cast(mara.vhart` |
+| `LoadingGroup` | `_ProductRetail.LoadingGroup` |
+| `_LoadingGroup` | *Association* |
+| `_LoadingGroupText` | *Association* |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `ExcessWeightTolerance` | `cast(mara.gewto as excessweighttolerance preserving type )` |
+| `ExcessVolumeTolerance` | `cast(mara.volto as excessvolumetolerance preserving type )` |
+| `PackagingMaterialType` | `cast(mara.vhart as packagingmaterialtype preserving type )` |
 | `_PackagingMaterialType` | *Association* |
 | `_PackagingMaterialTypeText` | *Association* |
-| `IsClosedPackagingMaterial, //Packaging Material is Closed Packaging` | `mara.kzgvh` |
-| `VolumeMaximumLevel,        //Maximum level (by volume)` | `mara.fuelg` |
+| `IsClosedPackagingMaterial` | `mara.kzgvh` |
+| `VolumeMaximumLevel` | `mara.fuelg` |
 | `AuthorizationGroup` | `mara.begru` |
 | `MaterialFreightGroup` | `mara.mfrgr` |
 | `StackingFactor` | `mara.stfak` |
@@ -87,8 +88,6 @@ tags:
 | `_PricingReferenceProduct` | `I_Product` | [0..1] |
 | `_PricingReferenceProductText` | `I_ProductDescription` | [0..*] |
 | `_PricingReferenceProductText_2` | `I_ProductDescription_2` | [0..*] |
-| `_LoadingGroup` | `I_LoadingGroup` | [0..1] |
-| `_LoadingGroupText` | `I_LoadingGroupText` | [0..*] |
 | `_Weight` | `I_UnitOfMeasure` | [0..1] |
 | `_WeightText` | `I_UnitOfMeasureText` | [0..*] |
 | `_Volume` | `I_UnitOfMeasure` | [0..1] |

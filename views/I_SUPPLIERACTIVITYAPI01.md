@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrActyUUID` | `SuplrActyUUID` |
+| `SuplrActyUUID` | `SuplrActyUUID` |
 | `SupplierActivity` | `SupplierActivity` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `SuplrActyName` | `SuplrActyName` |
 | `StartDate` | `StartDate` |
 | `EndDate` | `EndDate` |
 | `CreationDateTime` | `CreationDateTime` |
-| `/srmsmc/created_by )` | `cast(CreatedByUser` |
+| `CreatedByUser` | `cast(CreatedByUser as /srmsmc/created_by )` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/srmsmc/last_changed_by )` | `cast(LastChangedByUser` |
+| `LastChangedByUser` | `cast(LastChangedByUser as /srmsmc/last_changed_by )` |
 | `Language` | `Language` |
 | `SuplrActyPriority` | `SuplrActyPriority` |
 | `SuplrActyType` | `SuplrActyType` |

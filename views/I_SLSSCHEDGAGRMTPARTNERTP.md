@@ -32,20 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedgAgrmtPartner.SalesSchedulingAgreement` | `SalesSchedgAgrmtPartner.SalesSchedulingAgreement` |
-| `key SalesSchedgAgrmtPartner.PartnerFunction` | `SalesSchedgAgrmtPartner.PartnerFunction` |
-| `SalesSchedgAgrmtPartner.PartnerFunctionForEdit` | `SalesSchedgAgrmtPartner.PartnerFunctionForEdit` |
-| `SalesSchedgAgrmtPartner.Customer` | `SalesSchedgAgrmtPartner.Customer` |
-| `SalesSchedgAgrmtPartner.Personnel` | `SalesSchedgAgrmtPartner.Personnel` |
-| `SalesSchedgAgrmtPartner.Supplier` | `SalesSchedgAgrmtPartner.Supplier` |
-| `SalesSchedgAgrmtPartner.ContactPerson` | `SalesSchedgAgrmtPartner.ContactPerson` |
-| `SalesSchedgAgrmtPartner.ReferenceBusinessPartner` | `SalesSchedgAgrmtPartner.ReferenceBusinessPartner` |
-| `SalesSchedgAgrmtPartner.Partner` | `SalesSchedgAgrmtPartner.Partner` |
-| `SalesSchedgAgrmtPartner.SalesSchedgAgrmtType` | `SalesSchedgAgrmtPartner.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtPartner.OrganizationDivision` | `SalesSchedgAgrmtPartner.OrganizationDivision` |
-| `SalesSchedgAgrmtPartner.SalesOrganization` | `SalesSchedgAgrmtPartner.SalesOrganization` |
-| `SalesSchedgAgrmtPartner.DistributionChannel` | `SalesSchedgAgrmtPartner.DistributionChannel` |
-| `_SalesSchedulingAgreement : redirected to parent I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedgAgrmtPartner.SalesSchedulingAgreement` |
+| `PartnerFunction` | `SalesSchedgAgrmtPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesSchedgAgrmtPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesSchedgAgrmtPartner.Customer` |
+| `Personnel` | `SalesSchedgAgrmtPartner.Personnel` |
+| `Supplier` | `SalesSchedgAgrmtPartner.Supplier` |
+| `ContactPerson` | `SalesSchedgAgrmtPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesSchedgAgrmtPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesSchedgAgrmtPartner.Partner` |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtPartner.SalesSchedgAgrmtType` |
+| `OrganizationDivision` | `SalesSchedgAgrmtPartner.OrganizationDivision` |
+| `SalesOrganization` | `SalesSchedgAgrmtPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedgAgrmtPartner.DistributionChannel` |
 
 ## Associations
 

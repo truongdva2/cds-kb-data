@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key FiscalYear` | `FiscalYear` |
-| `mmiv_belnr_gjahr_internal )` | `cast( concat(SupplierInvoice , FiscalYear)` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `FiscalYear` | `FiscalYear` |
+| `SupplierInvoiceWthnFiscalYear` | `cast( concat(SupplierInvoice , FiscalYear) as mmiv_belnr_gjahr_internal )` |
 | `CompanyCode` | `CompanyCode` |
 | `DocumentDate` | `DocumentDate` |
 | `PostingDate` | `PostingDate` |
@@ -57,7 +57,7 @@ tags:
 | `BusinessPlace` | `BusinessPlace` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
-| `mmiv_si_lastchangedatetime_txt )` | `cast( SuplrInvcLastChangeDateTime` |
+| `SuplrInvcLstChgDteTmeTxt` | `cast( SuplrInvcLastChangeDateTime as mmiv_si_lastchangedatetime_txt )` |
 | `UnplannedDeliveryCost` | `UnplannedDeliveryCost` |
 | `UnplannedDeliveryCostTaxCode` | `UnplannedDeliveryCostTaxCode` |
 | `UnplndDelivCostTaxJurisdiction` | `UnplndDelivCostTaxJurisdiction` |
@@ -95,7 +95,7 @@ tags:
 | `IsEUTriangularDeal` | `IsEUTriangularDeal` |
 | `SuplrInvcDebitCrdtCodeDelivery` | `SuplrInvcDebitCrdtCodeDelivery` |
 | `SuplrInvcDebitCrdtCodeReturns` | `SuplrInvcDebitCrdtCodeReturns` |
-| `ElectronicInvoiceUUID, //Mexico` | `ElectronicInvoiceUUID, //Mexico` |
+| `ElectronicInvoiceUUID` | `ElectronicInvoiceUUID` |
 | `JrnlEntryCntrySpecificRef1` | `JrnlEntryCntrySpecificRef1` |
 | `JrnlEntryCntrySpecificDate1` | `JrnlEntryCntrySpecificDate1` |
 | `JrnlEntryCntrySpecificRef2` | `JrnlEntryCntrySpecificRef2` |

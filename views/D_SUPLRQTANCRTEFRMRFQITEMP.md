@@ -30,21 +30,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `RequestForQuotationItem : vdm_requestforquotationitem;` | `RequestForQuotationItem : vdm_requestforquotationitem;` |
-| `OrderQuantity           : etmen;` | `OrderQuantity           : etmen;` |
-| `NetPriceAmount          : netpr;` | `NetPriceAmount          : netpr;` |
-| `DocumentCurrency        : waers;` | `DocumentCurrency        : waers;` |
-| `NetPriceQuantity        : vdm_price_unit;` | `NetPriceQuantity        : vdm_price_unit;` |
-| `SupplierMaterialNumber  : idnlf;` | `SupplierMaterialNumber  : idnlf;` |
-| `Manufacturer            : mfrnr;` | `Manufacturer            : mfrnr;` |
-| `ManufacturerPartNmbr    : mfrpn;` | `ManufacturerPartNmbr    : mfrpn;` |
-| `OrderQuantityUnit       : bstme;` | `OrderQuantityUnit       : bstme;` |
-| `_PricingItems           : composition [0..*] of D_SuplrQtanCrteFrmRFQPrcgItmP;` | *Association* |
-| `_DummyAssociation : association to parent D_SuplrQtanCrteFrmRFQP;` | *Association* |
+| `RequestForQuotationItem` | `vdm_requestforquotationitem` |
+| `OrderQuantity` | `etmen` |
+| `NetPriceAmount` | `netpr` |
+| `DocumentCurrency` | `waers` |
+| `NetPriceQuantity` | `vdm_price_unit` |
+| `SupplierMaterialNumber` | `idnlf` |
+| `Manufacturer` | `mfrnr` |
+| `ManufacturerPartNmbr` | `mfrpn` |
+| `OrderQuantityUnit` | `bstme` |
+| `_PricingItems` | *Association* |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PricingItems` | `D_SuplrQtanCrteFrmRFQPrcgItmP` | [0..*] |
+| `_DummyAssociation` | `D_SuplrQtanCrteFrmRFQP` | — |
 
 ## Source Code
 

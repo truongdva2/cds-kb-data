@@ -36,22 +36,21 @@ tags:
 | `REStatusObject` | `REStatusObject` |
 | `RealEstateRentableObjectOID` | `REGenericRentalObjectOID` |
 | `REGnrcRntlObjectAlternativeID` | `REGnrcRntlObjectAlternativeID` |
-| `_RERntblObjToUsblObjAssgmt._REUsableObject.REGnrcRentalObjPortfolioID` | *Association* |
-| `regogonrrentable preserving type )` | `cast( REGenericRentalObjectNumber` |
-| `regovdmxrentableobject preserving type )` | `cast( REGenericRentalObjectName` |
+| `REGnrcRentalObjPortfolioID` | `_RERntblObjToUsblObjAssgmt._REUsableObject.REGnrcRentalObjPortfolioID` |
+| `RealEstateRentableObjectNumber` | `cast( REGenericRentalObjectNumber as regogonrrentable preserving type )` |
+| `RERentableObjectName` | `cast( REGenericRentalObjectName as regovdmxrentableobject preserving type )` |
 | `REIdentificationKey` | `REIdentificationKey` |
 | `CompanyCode` | `CompanyCode` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `REAuthorizationGroup` | `REAuthorizationGroup` |
 | `REGnrcRentalObjUsageCategory` | `REGnrcRentalObjUsageCategory` |
-| `regovdmrentableobjusagetype preserving type )` | `cast( REGenericRentalObjectUsageType` |
+| `REGenericRentalObjectUsageType` | `cast(…)` |
 | `REGenericRentalObjParentUUID` | `REGenericRentalObjParentUUID` |
 | `RERentableObjectCategory` | `RERentableObjectCategory` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_REKeyAssgmt` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_REAuthorizationGroup` | *Association* |

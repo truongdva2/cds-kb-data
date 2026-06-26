@@ -1,6 +1,13 @@
 ---
 name: I_PURCHASEORDERAPI01
 description: Purchase OrderAPI 01
+semantic_en: "Purchase order header — a formal order to a supplier for materials or services, with terms, quantities and approval status."
+semantic_vi: "Tiêu đề đơn mua hàng — đơn đặt chính thức gửi nhà cung cấp cho vật tư hoặc dịch vụ, gồm điều khoản, số lượng và trạng thái phê duyệt."
+keywords:
+  - đơn mua hàng
+  - đơn đặt hàng mua
+  - mua sắm
+  - PO
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released
@@ -32,7 +39,67 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PurgProdCmplncTotDngrsGdsSts', element: 'PurgProdCmplncTotDngrsGoodsSts' },useAsTemplate: true }]       //CustomUI` | `name: 'I_PurgProdCmplncTotDngrsGdsSts', element: 'PurgProdCmplncTotDngrsGoodsSts' },useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderType` | `PurchaseOrderType` |
+| `PurchaseOrderSubtype` | `PurchaseOrderSubtype` |
+| `PurchasingDocumentOrigin` | `PurchasingDocumentOrigin` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `PurchaseOrderDate` | `PurchaseOrderDate` |
+| `Language` | `Language` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `CorrespncInternalReference` | `CorrespncInternalReference` |
+| `PurchasingDocumentDeletionCode` | `PurchaseOrderDeletionCode` |
+| `ReleaseIsNotCompleted` | `ReleaseIsNotCompleted` |
+| `PurchasingCompletenessStatus` | `PurchasingCompletenessStatus` |
+| `PurchasingProcessingStatus` | `PurchasingProcessingStatus` |
+| `PurgReleaseSequenceStatus` | `PurgReleaseSequenceStatus` |
+| `ReleaseCode` | `ReleaseCode` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `Supplier` | `Supplier` |
+| `ManualSupplierAddressID` | `ManualSupplierAddressID` |
+| `SupplierRespSalesPersonName` | `SupplierRespSalesPersonName` |
+| `SupplierPhoneNumber` | `SupplierPhoneNumber` |
+| `SupplyingSupplier` | `SupplyingSupplier` |
+| `SupplyingPlant` | `SupplyingPlant` |
+| `InvoicingParty` | `InvoicingParty` |
+| `Customer` | `Customer` |
+| `SupplierQuotationExternalID` | `SupplierQuotationExternalID` |
+| `PaymentTerms` | `PaymentTerms` |
+| `CashDiscount1Days` | `CashDiscount1Days` |
+| `CashDiscount2Days` | `CashDiscount2Days` |
+| `NetPaymentDays` | `NetPaymentDays` |
+| `CashDiscount1Percent` | `CashDiscount1Percent` |
+| `CashDiscount2Percent` | `CashDiscount2Percent` |
+| `DownPaymentType` | `DownPaymentType` |
+| `DownPaymentPercentageOfTotAmt` | `DownPaymentPercentageOfTotAmt` |
+| `DownPaymentAmount` | `DownPaymentAmount` |
+| `DownPaymentDueDate` | `DownPaymentDueDate` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IsIntrastatReportingRelevant` | `IsIntrastatReportingRelevant` |
+| `IsIntrastatReportingExcluded` | `IsIntrastatReportingExcluded` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingProcedure` | `PricingProcedure` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ExchangeRate` | `ExchangeRate` |
+| `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `TaxReturnCountry` | `TaxReturnCountry` |
+| `VATRegistration` | `VATRegistration` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `PurgReasonForDocCancellation` | `PurgReasonForDocCancellation` |
+| `PurgReleaseTimeTotalAmount` | `PurgReleaseTimeTotalAmount` |
+| `PurgAggrgdProdCmplncSuplrSts` | `PurgAggrgdProdCmplncSuplrSts` |
+| `PurgAggrgdProdMarketabilitySts` | `PurgAggrgdProdMarketabilitySts` |
+| `PurgAggrgdSftyDataSheetStatus` | `PurgAggrgdSftyDataSheetStatus` |
 | `PurgProdCmplncTotDngrsGoodsSts` | `PurgProdCmplncTotDngrsGoodsSts` |
 | `_PurchaseOrderItem` | *Association* |
 | `_Supplier` | *Association* |

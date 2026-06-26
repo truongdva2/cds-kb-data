@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
-| `key InspectionCharacteristic` | `InspectionCharacteristic` |
-| `key InspResultValueInternalID` | `InspResultValueInternalID` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `InspectionCharacteristic` |
+| `InspResultValueInternalID` | `InspResultValueInternalID` |
 | `InspectionResultAttribute` | `InspectionResultAttribute` |
 | `InspResultItemInternalID` | `InspResultItemInternalID` |
 | `InspectionSubsetInternalID` | `InspectionSubsetInternalID` |
@@ -80,10 +80,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `ChangedTime` | `ChangedTime` |
 | `CreationTime` | `CreationTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot    : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspectionResult : redirected to parent I_InspectionResultTP_2` | *Association* |
-| `_InspectionCharacteristic: redirected to I_InspCharacteristicTP_2` | *Association* |
 | `_InspectionOperation` | *Association* |
 
 ## Associations

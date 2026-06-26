@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CA-FL-SG
   - lob:Cross-Application Components
+  - bo:FldLogsShptVoyageUUID
 ---
 # I_FLDLOGSSHPTVOYOUTPUTREQUEST
 

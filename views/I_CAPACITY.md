@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:WorkCenterCapacity
 ---
 # I_CAPACITY
 
@@ -33,7 +34,7 @@ tags:
 | `CapacityInternalID` | `kako.kapid` |
 | `Plant` | `kako.werks` |
 | `Capacity` | `kako.name` |
-| `pph_kapart preserving type)` | `cast(kako.kapar` |
+| `CapacityCategoryCode` | `cast(kako.kapar as pph_kapart preserving type)` |
 | `CapacityActiveVersion` | `kako.versa` |
 | `CapacityIsFinite` | `kako.kapter` |
 | `CapacityIsPooled` | `kako.poolk` |
@@ -43,21 +44,19 @@ tags:
 | `CapacityResponsiblePlanner` | `kako.planr` |
 | `CapacityPlanUtilizationPercent` | `kako.ngrad` |
 | `CapacityBreakDuration` | `kako.pause` |
-| `pph_kzavo preserving type)` | `cast(kako.kapavo` |
-| `pph_refid preserving type)` | `cast(kako.refid` |
+| `CapIsUsedInMultiOperations` | `cast(kako.kapavo as pph_kzavo preserving type)` |
+| `ReferencedCapacityInternalID` | `cast(kako.refid as pph_refid preserving type)` |
 | `CapOverloadThresholdInPercent` | `kako.ueberlast` |
 | `FactoryCalendar` | `kako.kalid` |
-| `AuthorizationGroup` | `kako.brgru` |
+| `AuthorizationGroup` | `-- kako.brgru` |
 | `ShiftGroup` | `kako.mosid` |
 | `CapacityStartTime` | `kako.begzt` |
 | `CapacityEndTime` | `kako.endzt` |
-| `vdm_begzt preserving type)` | `cast(kako.begzt` |
-| `vdm_endzt preserving type)` | `cast(kako.endzt` |
+| `CapacityStartTimeID` | `cast(kako.begzt as vdm_begzt preserving type)` |
+| `CapacityEndTimeID` | `cast(kako.endzt as vdm_endzt preserving type)` |
 | `CapacityQuantityUnit` | `kako.kapeh` |
 | `CapacityBaseQtyUnit` | `kako.meins` |
-| `case when kako.lastchange_datetime = 0 or kako.lastchange_datetime is null then` | `case when kako.lastchange_datetime = 0 or kako.lastchange_datetime is null then` |
-| `kap_lastchange_datetime)` | `cast('20190101120000'` |
-| `CapacityLastChangeDateTime` | `else kako.lastchange_datetime end` |
+| `CapacityLastChangeDateTime` | `case…end` |
 | `ResourceType` | `kako.type` |
 | `ResourceCategory` | `kako.restype` |
 | `RsceValidityStartOffsetInDays` | `kako.lc_days_minus` |

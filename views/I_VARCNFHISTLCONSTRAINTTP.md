@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key VarCnfConstraintName` | `VarCnfConstraintName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintName` | `VarCnfConstraintName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ObjectDependencyStatus` | `ObjectDependencyStatus` |
 | `ObjectDependencyGroup` | `ObjectDependencyGroup` |
 | `CreationDate` | `CreationDate` |
@@ -44,11 +44,6 @@ tags:
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Constraint     : redirected to parent I_VarCnfConstraintTP` | *Association* |
-| `_ConstraintNet  : redirected to I_VarCnfConstraintNetTP` | *Association* |
-| `_HistoricalText : redirected to I_VarCnfHistlCstrtTextTP` | *Association* |
-| `_SourceCode     : redirected to I_VarCnfCstrtSourceCodeTP` | *Association* |
 
 ## Associations
 

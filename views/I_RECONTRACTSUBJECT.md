@@ -33,11 +33,11 @@ tags:
 |---|---|
 | `InternalRealEstateNumber` | `intreno` |
 | `REStatusObject` | `objnr` |
-| `vibdcnvdmxcnsubject preserving type )` | `cast (xcnsubject` |
-| `vibdcnvdmsubjectobjnr preserving type )` | `cast (adjustnumber` |
+| `REContractSubjectDescription` | `cast (xcnsubject as vibdcnvdmxcnsubject preserving type )` |
+| `REContractSubjectNumber` | `cast (adjustnumber as vibdcnvdmsubjectobjnr preserving type )` |
 | `ExternalId` | `extid` |
-| `recaobjtype )` | `cast(substring(acctobjnr,1,2)` |
-| `rebdvdmacctobjnr  preserving type )` | `cast(acctobjnr` |
+| `REAccountingObjectType` | `cast(substring(acctobjnr,1,2) as recaobjtype )` |
+| `REAccountingObject` | `cast(acctobjnr as rebdvdmacctobjnr preserving type )` |
 | `REContractSubjectType` | `cnsubjecttype` |
 | `REContractSubjectClass` | `cnsubjectclass` |
 | `_CostCenter` | *Association* |

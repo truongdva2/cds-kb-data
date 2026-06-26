@@ -31,8 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspectionCatalog` | `tq15.katalogart` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspectionCatalogText` | `,_InspectionCatalogText` |
+| `_InspectionCatalogText` | *Association* |
 
 ## Associations
 

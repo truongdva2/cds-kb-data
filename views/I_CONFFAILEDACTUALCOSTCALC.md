@@ -29,15 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` | `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` |
 | `OrderID` | `aufnr` |
-| `pph_rueck preserving type)` | `cast(rueck` |
-| `pph_rmzhl preserving type)` | `cast(rmzhl` |
+| `ConfirmationGroup` | `cast(rueck as pph_rueck preserving type)` |
+| `OrderConfirmation` | `cast(rmzhl as pph_rmzhl preserving type)` |
 | `CreationDate` | `ersda` |
 | `CreationTime` | `ertim` |
 | `CreatedByUser` | `ernam` |
-| `pph_autyp preserving type)` | `cast(autyp` |
-| `vdm_cmfnr preserving type)` | `cast(cmfnr` |
+| `OrderCategory` | `cast(autyp as pph_autyp preserving type)` |
+| `CostingErrorLogID` | `-- cast(cmfnr as vdm_cmfnr preserving type)` |
 | `_Order` | *Association* |
 | `_ConfirmationGroup` | *Association* |
 | `_Confirmation` | *Association* |

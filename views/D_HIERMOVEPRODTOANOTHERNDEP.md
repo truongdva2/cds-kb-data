@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductHierarchyTargetNode : parnode;` | `ProductHierarchyTargetNode : parnode;` |
+| `ProductHierarchyTargetNode` | `parnode` |
 
 ## Associations
 

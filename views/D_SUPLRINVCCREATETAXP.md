@@ -30,13 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CompanyCodeCurrency'} }` | `currencyCode: 'CompanyCodeCurrency'} }` |
-| `TaxBaseAmountInCoCodeCrcy : hwbas_bses_cs;` | `TaxBaseAmountInCoCodeCrcy : hwbas_bses_cs;` |
-| `_SupplierInvoice          : association to parent D_SuplrInvcCreateP;` | *Association* |
+| `TaxCode` | `mwskz` |
+| `TaxJurisdiction` | `txjcd` |
+| `TaxCountry` | `fot_tax_country` |
+| `DocumentCurrency` | `waers` |
+| `CompanyCodeCurrency` | `hwaer` |
+| `TaxAmountInDocCry` | `fwstev` |
+| `TaxBaseAmountInDocCry` | `fwbas_bses_cs` |
+| `TaxAmountInCoCodeCrcy` | `hwste_cs` |
+| `TaxBaseAmountInCoCodeCrcy` | `hwbas_bses_cs` |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplierInvoice` | `D_SuplrInvcCreateP` | — |
 
 ## Source Code
 

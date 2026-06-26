@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_objid_kk preserving type )` | `cast( left( dd07l.domvalue_l, 8 )` |
+| `CABusinessTransactionObject` | `cast( left( dd07l.domvalue_l, 8 ) as evl_objid_kk preserving type )` |
 | `_CABusTransObjText` | *Association* |
 
 ## Associations

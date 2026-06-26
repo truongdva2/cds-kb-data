@@ -31,11 +31,11 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ProviderContract` | `vtkey` |
-| `bu_partner preserving type )` | `cast(gpart` |
+| `BusinessPartner` | `cast(gpart as bu_partner preserving type )` |
 | `CreationDate` | `erdat` |
-| `ttet_dt_cr_time preserving type )` | `cast(ertim` |
+| `CreationTime` | `cast(ertim as ttet_dt_cr_time preserving type )` |
 | `CreatedByUser` | `ernam` |
-| `loevm preserving type )` | `cast(loevm` |
+| `IsMarkedForDeletion` | `cast(loevm as loevm preserving type )` |
 | `LastChangeDate` | `aedat` |
 | `LastChangeTime` | `aetim` |
 | `LastChangedByUser` | `aenam` |
@@ -46,7 +46,7 @@ tags:
 | `AuthorizationGroup` | `begru` |
 | `CAAuthorizationGroup` | `begru` |
 | `CompanyCode` | `bukrs` |
-| `tznzone preserving type )` | `cast(tzone` |
+| `TimeZoneID` | `cast(tzone as tznzone preserving type )` |
 | `CAProviderContractCategory` | `vtcat` |
 | `CAProviderContractMigrtnStatus` | `migst` |
 | `CAProviderContractType` | `vtchr` |
@@ -57,7 +57,6 @@ tags:
 | `NrOfMonthsForContractRenewal` | `vtper_rnwl` |
 | `NrOfDaysForContrNoticePeriod` | `vtper_canc` |
 | `BudgetBillingPlanType` | `uti_bbptype` |
-| `/* association */` | `/* association */` |
 | `_BusinessPartner` | *Association* |
 | `_CAAuthorizationGroup` | *Association* |
 | `_CompCode` | *Association* |

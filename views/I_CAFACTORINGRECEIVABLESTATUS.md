@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fasta_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CACurrentFactoringStatusOfRbl` | `cast( left( dd07l.domvalue_l, 1 ) as fasta_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

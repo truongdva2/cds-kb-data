@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key DataController` | `DataController` |
-| `key PurposeForPersonalData` | `PurposeForPersonalData` |
+| `BusinessPartner` | `BusinessPartner` |
+| `DataController` | `DataController` |
+| `PurposeForPersonalData` | `PurposeForPersonalData` |
 | `BusinessPartnerForEdit` | `BusinessPartnerForEdit` |
 | `DataControllerForEdit` | `DataControllerForEdit` |
 | `IsDerivationSet` | `IsDerivationSet` |
@@ -43,7 +43,6 @@ tags:
 | `PurposeDerived` | `PurposeDerived` |
 | `PurposeType` | `PurposeType` |
 | `BusinessPurposeFlag` | `BusinessPurposeFlag` |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 
 ## Associations
 

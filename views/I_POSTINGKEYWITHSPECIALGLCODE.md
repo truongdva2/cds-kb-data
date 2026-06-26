@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-GL-A-2CL
   - lob:Finance
+  - bo:PostingKeyWithSpecialGLCode
 ---
 # I_POSTINGKEYWITHSPECIALGLCODE
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PostingKey` | `PostingKey` |
-| `key SpecialGLCode` | `SpecialGLCode` |
+| `PostingKey` | `PostingKey` |
+| `SpecialGLCode` | `SpecialGLCode` |
 | `_Text` | *Association* |
 | `_PostingKey` | *Association* |
 

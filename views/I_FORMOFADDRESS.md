@@ -15,6 +15,7 @@ tags:
   - address
   - component:BC-SRV-ADR
   - lob:Basis Components
+  - bo:FormOfAddress
 ---
 # I_FORMOFADDRESS
 

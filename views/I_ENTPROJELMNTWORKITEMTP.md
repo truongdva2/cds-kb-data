@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EntProjElmntWorkItemUUID` | `EntProjElmntWorkItemUUID` |
+| `EntProjElmntWorkItemUUID` | `EntProjElmntWorkItemUUID` |
 | `EntProjElmntWorkItem` | `EntProjElmntWorkItem` |
 | `EntProjElmntWorkItemName` | `EntProjElmntWorkItemName` |
 | `EntProjElmntWorkItemIsInactive` | `EntProjElmntWorkItemIsInactive` |
@@ -44,8 +44,6 @@ tags:
 | `EntProjElmntWrkItmCrtnDteTme` | `EntProjElmntWrkItmCrtnDteTme` |
 | `EntProjElmntWrkItmLstChgByUsr` | `EntProjElmntWrkItmLstChgByUsr` |
 | `EntProjElmntWrkItmLstChgDteTme` | `EntProjElmntWrkItmLstChgDteTme` |
-| `_EnterpriseProjectElement              : redirected to parent I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EnterpriseProject                     : redirected to I_EnterpriseProjectTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

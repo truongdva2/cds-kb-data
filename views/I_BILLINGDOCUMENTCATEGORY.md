@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fktyp )` | `cast( dd07l.domvalue_l` |
+| `BillingDocumentCategory` | `cast( dd07l.domvalue_l as fktyp )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

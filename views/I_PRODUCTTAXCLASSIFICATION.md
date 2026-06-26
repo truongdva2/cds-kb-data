@@ -17,6 +17,7 @@ tags:
   - classification
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProductTaxClassification
 ---
 # I_PRODUCTTAXCLASSIFICATION
 
@@ -33,9 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_Country'` | `foreignKey.association: '_Country'` |
-| `text.association: '_CountryName'` | `text.association: '_CountryName'` |
-| `}` | `}` |
+| `Product` | `cast (tax.matnr as productnumber preserving type )` |
 | `Country` | `tax.aland` |
 | `TaxClassification1` | `tax.taxm1` |
 | `TaxClassification2` | `tax.taxm2` |

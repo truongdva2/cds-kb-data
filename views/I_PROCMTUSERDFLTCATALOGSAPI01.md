@@ -34,21 +34,21 @@ tags:
 | `PersonalizationID` | `I_ProcmtUserDefaultCatalogs.PersonalizationID` |
 | `BusinessObjectType` | `I_ProcmtUserDefaultCatalogs.BusinessObjectType` |
 | `ProcmtCatalogID` | `I_ProcmtUserDefaultCatalogs.PurReqnSSPCatalog` |
-| `_Employee.BPIdentificationNumber               as Employee` | *Association* |
-| `_Employee.AuthorizationGroup` | *Association* |
-| `_Employee.IsBusinessPurposeCompleted` | *Association* |
-| `_Employee.BusinessPartner as BusinessPartner` | *Association* |
-| `_Employee.DataControllerSet                         as DataControllerSet` | *Association* |
-| `_Employee.DataController1                           as DataController1` | *Association* |
-| `_Employee.DataController2                           as DataController2` | *Association* |
-| `_Employee.DataController3                           as DataController3` | *Association* |
-| `_Employee.DataController4                           as DataController4` | *Association* |
-| `_Employee.DataController5                           as DataController5` | *Association* |
-| `_Employee.DataController6                           as DataController6` | *Association* |
-| `_Employee.DataController7                           as DataController7` | *Association* |
-| `_Employee.DataController8                           as DataController8` | *Association* |
-| `_Employee.DataController9                           as DataController9` | *Association* |
-| `_Employee.DataController10                          as DataController10` | *Association* |
+| `Employee` | `_Employee.BPIdentificationNumber` |
+| `AuthorizationGroup` | `_Employee.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_Employee.IsBusinessPurposeCompleted` |
+| `BusinessPartner` | `_Employee.BusinessPartner` |
+| `DataControllerSet` | `_Employee.DataControllerSet` |
+| `DataController1` | `_Employee.DataController1` |
+| `DataController2` | `_Employee.DataController2` |
+| `DataController3` | `_Employee.DataController3` |
+| `DataController4` | `_Employee.DataController4` |
+| `DataController5` | `_Employee.DataController5` |
+| `DataController6` | `_Employee.DataController6` |
+| `DataController7` | `_Employee.DataController7` |
+| `DataController8` | `_Employee.DataController8` |
+| `DataController9` | `_Employee.DataController9` |
+| `DataController10` | `_Employee.DataController10` |
 | `_Employee` | *Association* |
 | `_Employee1` | *Association* |
 

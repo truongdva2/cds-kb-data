@@ -33,18 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key DocumentText` | `DocumentText` |
-| `key TechnicalObjectType` | `TechnicalObjectType` |
-| `key ArchObjectNumber` | `ArchObjectNumber` |
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `Language` | `Language` |
+| `DocumentText` | `DocumentText` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `ArchObjectNumber` | `ArchObjectNumber` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
 | `NoteDescription` | `NoteDescription` |
 | `FixedIndicator` | `FixedIndicator` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm : redirected to parent I_SchedgAgrmtItmTP_2` | *Association* |
-| `_PurSchedgAgrmt : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

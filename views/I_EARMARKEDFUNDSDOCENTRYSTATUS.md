@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `EarmarkedFundsDocEntryStatus` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_EarmarkedFundsDocEntryStsTxt` | [0..*] |
 
 ## Source Code
 

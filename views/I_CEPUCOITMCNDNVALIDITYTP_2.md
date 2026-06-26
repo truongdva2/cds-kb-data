@@ -31,19 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key  CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key  ConditionRecord` | `ConditionRecord` |
-| `key  ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ProcmtHubPlantUniqueID` | `ProcmtHubPlantUniqueID` |
 | `ConditionIsDeleted` | `ConditionIsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralPurchaseContract    : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurchaseContractItm   : redirected to parent I_CntrlPurchaseContractItmTP_2` | *Association* |
-| `_CntrlPurContrItmCndnAmount : redirected to composition child I_CntrlPurContrItmCndnAmtTP_2` | *Association* |
 
 ## Associations
 

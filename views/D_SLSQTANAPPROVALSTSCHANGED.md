@@ -14,6 +14,7 @@ tags:
   - approval
   - component:SD-SLS-QUT-2CL
   - lob:Sales & Distribution
+  - bo:SalesQuotation
 ---
 # D_SLSQTANAPPROVALSTSCHANGED
 
@@ -30,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime            : vdm_lastchangedon;` | `EventRaisedDateTime            : vdm_lastchangedon;` |
-| `SalesQuotationType             : auart_unv;` | `SalesQuotationType             : auart_unv;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `DistributionChannel            : vtweg;` | `DistributionChannel            : vtweg;` |
-| `OrganizationDivision           : spart;` | `OrganizationDivision           : spart;` |
-| `SoldToParty                    : kunnr;` | `SoldToParty                    : kunnr;` |
-| `SalesDocApprovalStatus         : sd_apm_approval_status;` | `SalesDocApprovalStatus         : sd_apm_approval_status;` |
-| `PreviousSalesDocApprovalStatus : sd_apm_approval_status;` | `PreviousSalesDocApprovalStatus : sd_apm_approval_status;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesQuotationType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `SalesDocApprovalStatus` | `sd_apm_approval_status` |
+| `PreviousSalesDocApprovalStatus` | `sd_apm_approval_status` |
 
 ## Associations
 

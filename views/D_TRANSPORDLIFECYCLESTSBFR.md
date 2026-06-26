@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspOrdLifeCycleStatus : /scmtms/tor_lc_status;` | `TranspOrdLifeCycleStatus : /scmtms/tor_lc_status;` |
-| `_DummyAssociation        : association to parent D_TranspOrdLifecycleStsChgd;` | *Association* |
+| `TranspOrdLifeCycleStatus` | `/scmtms/tor_lc_status` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdLifecycleStsChgd` | — |
 
 ## Source Code
 

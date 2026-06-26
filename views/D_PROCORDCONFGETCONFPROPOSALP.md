@@ -28,20 +28,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConfirmationGroup               : pph_rueck;` | `ConfirmationGroup               : pph_rueck;` |
-| `OrderID                         : manufacturingorder;` | `OrderID                         : manufacturingorder;` |
-| `OrderOperation                  : vdm_vornr;` | `OrderOperation                  : vdm_vornr;` |
-| `OrderSuboperation               : vdm_uvorn;` | `OrderSuboperation               : vdm_uvorn;` |
-| `OrderConfirmationRecordType     : co_satza;` | `OrderConfirmationRecordType     : co_satza;` |
-| `ConfirmationUnit                : meinh;` | `ConfirmationUnit                : meinh;` |
-| `ConfirmationUnitISOCode         : isocd_unit;` | `ConfirmationUnitISOCode         : isocd_unit;` |
-| `ConfirmationUnitSAPCode         : meinsint;` | `ConfirmationUnitSAPCode         : meinsint;` |
-| `ConfirmationYieldQuantity       : ru_lmnga;` | `ConfirmationYieldQuantity       : ru_lmnga;` |
-| `ConfirmationScrapQuantity       : ru_xmnga;` | `ConfirmationScrapQuantity       : ru_xmnga;` |
-| `QuantityIsToBeProposed          : vssmg;` | `QuantityIsToBeProposed          : vssmg;` |
-| `ActivityIsToBeProposed          : vssle;` | `ActivityIsToBeProposed          : vssle;` |
-| `DateAndTimeIsToBeProposed       : vsszt;` | `DateAndTimeIsToBeProposed       : vsszt;` |
-| `PersonnelIsToBeProposed         : vsszu;` | `PersonnelIsToBeProposed         : vsszu;` |
+| `ConfirmationGroup` | `pph_rueck` |
+| `OrderID` | `manufacturingorder` |
+| `OrderOperation` | `vdm_vornr` |
+| `OrderSuboperation` | `vdm_uvorn` |
+| `OrderConfirmationRecordType` | `co_satza` |
+| `ConfirmationUnit` | `meinh` |
+| `ConfirmationUnitISOCode` | `isocd_unit` |
+| `ConfirmationUnitSAPCode` | `meinsint` |
+| `ConfirmationYieldQuantity` | `ru_lmnga` |
+| `ConfirmationScrapQuantity` | `ru_xmnga` |
+| `QuantityIsToBeProposed` | `vssmg` |
+| `ActivityIsToBeProposed` | `vssle` |
+| `DateAndTimeIsToBeProposed` | `vsszt` |
+| `PersonnelIsToBeProposed` | `vsszu` |
 
 ## Associations
 

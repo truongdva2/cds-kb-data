@@ -39,7 +39,7 @@ tags:
 | `ShippingCondition` | `vsbed` |
 | `TransportationGroup` | `tragr` |
 | `DeliveryWeightGroup` | `grulg` |
-| `le_route preserving type)` | `cast(route` |
+| `DeliveryRoute` | `cast(route as le_route preserving type)` |
 | `_DepartureCountry` | *Association* |
 | `_DepartureZone` | *Association* |
 | `_DestinationCountry` | *Association* |

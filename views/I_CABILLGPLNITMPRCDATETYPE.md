@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bip_price_date_type_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CABillgPlnItemPriceDateType` | `cast(…)` |
 | `_CABillgPlnItmPrcDateTypeText` | *Association* |
 
 ## Associations

@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key QltyInProcmtIntID` | `QltyInProcmtIntID` |
+| `Material` | `Material` |
+| `QltyInProcmtIntID` | `QltyInProcmtIntID` |
 | `Supplier` | `Supplier` |
 | `Plant` | `Plant` |
 | `MaterialRevisionLevel` | `MaterialRevisionLevel` |
@@ -60,10 +60,6 @@ tags:
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `MatlQualityAuthorizationGroup` | `MatlQualityAuthorizationGroup` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
-| `/* Associations */` | `/* Associations */` |
-| `_QltyFirstArticleInsp : redirected to composition child I_QltyFirstArticleInspTP_2` | *Association* |
-| `_QltyInProcmtLongText : redirected to composition child I_QltyInProcmtLongTextTP_2` | *Association* |
-| `_QltyInProcmtStatus   : redirected to composition child I_QltyInProcmtStatusTP_2` | *Association* |
 
 ## Associations
 

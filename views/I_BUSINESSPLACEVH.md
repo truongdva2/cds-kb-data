@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key BusinessPlace` | `BusinessPlace` |
+| `CompanyCode` | `CompanyCode` |
+| `BusinessPlace` | `BusinessPlace` |
 | `BusinessPlaceDescription` | `BusinessPlaceDescription` |
 
 ## Associations

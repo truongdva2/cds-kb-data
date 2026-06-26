@@ -31,7 +31,57 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceOrderType` | `ServiceOrderType` |
+| `ServiceOrderUUID` | `ServiceOrderUUID` |
+| `ServiceOrderDescription` | `ServiceOrderDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `PaymentTerms` | `PaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `SEPAMandate` | `SEPAMandate` |
+| `SrvcSEPAMandateRelevance` | `SrvcSEPAMandateRelevance` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `ServiceOrganization` | `ServiceOrganization` |
+| `RespyMgmtServiceTeam` | `RespyMgmtServiceTeam` |
+| `RespyMgmtGlobalTeamID` | `RespyMgmtGlobalTeamID` |
+| `ServiceOrderIsNew` | `ServiceOrderIsNew` |
+| `ServiceOrderIsInProcess` | `ServiceOrderIsInProcess` |
+| `ServiceOrderIsReleased` | `ServiceOrderIsReleased` |
+| `ServiceOrderIsCompleted` | `ServiceOrderIsCompleted` |
+| `ServiceOrderIsRejected` | `ServiceOrderIsRejected` |
+| `ServiceOrderStatus` | `ServiceOrderStatus` |
+| `SrvcOrdReldForBillingStatus` | `SrvcOrdReldForBillingStatus` |
+| `SrvcOrdBillingStatus` | `SrvcOrdBillingStatus` |
+| `ServiceOrderHasError` | `ServiceOrderHasError` |
+| `SrvcDocTransferStatus` | `SrvcDocTransferStatus` |
+| `SrvcOrdExecutionStatus` | `SrvcOrdExecutionStatus` |
+| `SrvcOrdCreditStatus` | `SrvcOrdCreditStatus` |
+| `RequestedServiceStartDateTime` | `RequestedServiceStartDateTime` |
+| `RequestedServiceEndDateTime` | `RequestedServiceEndDateTime` |
+| `ErlstRequestedDeliveryDateTime` | `ErlstRequestedDeliveryDateTime` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `PricingDocument` | `PricingDocument` |
 | `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
@@ -41,7 +91,6 @@ tags:
 | `ReferenceServiceContract` | `ReferenceServiceContract` |
 | `RefServiceOrderTemplate` | `RefServiceOrderTemplate` |
 | `ReferenceServiceQtan` | `ReferenceServiceQtan` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceObjType` | *Association* |
 | `_ServiceDocumentType` | *Association* |
 | `WBSElementExternalID` | `WBSElementExternalID` |
@@ -68,22 +117,6 @@ tags:
 | `_ServiceDocumentPriority` | *Association* |
 | `_SrvcDocumentRejectionReason` | *Association* |
 | `_Confirmation` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceOrderItemTP        : redirected to composition child I_ServiceOrderItemTP` | *Association* |
-| `_SrvcOrdPartnerTP          : redirected to composition child I_SrvcOrdPartnerTP` | *Association* |
-| `_SrvcOrdReferenceObjectTP  : redirected to composition child I_SrvcOrdReferenceObjectTP` | *Association* |
-| `_SrvcOrdPriceElementTP     : redirected to composition child I_SrvcOrdPriceElementTP` | *Association* |
-| `_SrvcOrdUserStatusTP       : redirected to composition child I_SrvcOrdUserStatusTP` | *Association* |
-| `_SrvcOrdAppointmentTP      : redirected to composition child I_SrvcOrdAppointmentTP` | *Association* |
-| `_SrvcOrdDurationTP         : redirected to composition child I_SrvcOrdDurationTP` | *Association* |
-| `_SrvcOrdFUPSrvcConfTP      : redirected to composition child I_SrvcOrdFUPSrvcConfTP` | *Association* |
-| `_SrvcOrdFUPBillgDocTP      : redirected to composition child I_SrvcOrdFUPBillgDocTP` | *Association* |
-| `_SrvcOrdFUPPurchaseOrderTP : redirected to composition child I_SrvcOrdFUPPurchaseOrderTP` | *Association* |
-| `_SrvcOrdFUPPurReqnTP       : redirected to composition child I_SrvcOrdFUPPurReqnTP` | *Association* |
-| `_SrvcOrdFUPSrvcEntrSheetTP : redirected to composition child I_SrvcOrdFUPSrvcEntrSheetTP` | *Association* |
-| `_SrvcOrdFUPSuplrInvcTP     : redirected to composition child I_SrvcOrdFUPSuplrInvcTP` | *Association* |
-| `_SrvcOrdFUPMaintOrdTP      : redirected to composition child I_SrvcOrdFUPMaintOrdTP` | *Association* |
-| `_SrvcOrdLongTextTP         : redirected to composition child I_SrvcOrdLongTextTP` | *Association* |
 
 ## Associations
 

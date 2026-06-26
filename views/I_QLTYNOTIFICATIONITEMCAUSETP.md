@@ -31,27 +31,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QltyNotificationItemCauseTP.QualityNotification` | `_QltyNotificationItemCauseTP.QualityNotification` |
-| `key _QltyNotificationItemCauseTP.NotificationItem` | `_QltyNotificationItemCauseTP.NotificationItem` |
-| `key _QltyNotificationItemCauseTP.NotificationCauseID` | `_QltyNotificationItemCauseTP.NotificationCauseID` |
-| `_QltyNotificationItemCauseTP.NotificationCauseSortNumber` | *Association* |
-| `_QltyNotificationItemCauseTP.MasterLanguage` | *Association* |
-| `_QltyNotificationItemCauseTP.NotificationCauseText` | *Association* |
-| `_QltyNotificationItemCauseTP.NotificationCauseCodeCatalog` | *Association* |
-| `_QltyNotificationItemCauseTP.NotificationCauseCodeGroup` | *Association* |
-| `_QltyNotificationItemCauseTP.NotificationCauseCode` | *Association* |
-| `_QltyNotificationItemCauseTP.NotificationRootCause` | *Association* |
-| `_QltyNotificationItemCauseTP.IsDeleted` | *Association* |
-| `_QltyNotificationItemCauseTP.IsBusinessPurposeCompleted` | *Association* |
-| `_QltyNotificationItemCauseTP.CreatedByUser` | *Association* |
-| `_QltyNotificationItemCauseTP.CreationDate` | *Association* |
-| `_QltyNotificationItemCauseTP.CreationTime` | *Association* |
-| `_QltyNotificationItemCauseTP.LastChangedByUser` | *Association* |
-| `_QltyNotificationItemCauseTP.LastChangeDate` | *Association* |
-| `_QltyNotificationItemCauseTP.LastChangeTime` | *Association* |
-| `_QltyNotificationItemCauseTP._QltyNotification        : redirected to        I_QltyNotificationTP` | *Association* |
-| `_QltyNotificationItemCauseTP._QualityNotificationItem : redirected to parent I_QualityNotificationItemTP` | *Association* |
-| `_QltyNotificationItemCauseTP._Notification` | *Association* |
+| `QualityNotification` | `_QltyNotificationItemCauseTP.QualityNotification` |
+| `NotificationItem` | `_QltyNotificationItemCauseTP.NotificationItem` |
+| `NotificationCauseID` | `_QltyNotificationItemCauseTP.NotificationCauseID` |
+| `NotificationCauseSortNumber` | `_QltyNotificationItemCauseTP.NotificationCauseSortNumber` |
+| `MasterLanguage` | `_QltyNotificationItemCauseTP.MasterLanguage` |
+| `NotificationCauseText` | `_QltyNotificationItemCauseTP.NotificationCauseText` |
+| `NotificationCauseCodeCatalog` | `_QltyNotificationItemCauseTP.NotificationCauseCodeCatalog` |
+| `NotificationCauseCodeGroup` | `_QltyNotificationItemCauseTP.NotificationCauseCodeGroup` |
+| `NotificationCauseCode` | `_QltyNotificationItemCauseTP.NotificationCauseCode` |
+| `NotificationRootCause` | `_QltyNotificationItemCauseTP.NotificationRootCause` |
+| `IsDeleted` | `_QltyNotificationItemCauseTP.IsDeleted` |
+| `IsBusinessPurposeCompleted` | `_QltyNotificationItemCauseTP.IsBusinessPurposeCompleted` |
+| `CreatedByUser` | `_QltyNotificationItemCauseTP.CreatedByUser` |
+| `CreationDate` | `_QltyNotificationItemCauseTP.CreationDate` |
+| `CreationTime` | `_QltyNotificationItemCauseTP.CreationTime` |
+| `LastChangedByUser` | `_QltyNotificationItemCauseTP.LastChangedByUser` |
+| `LastChangeDate` | `_QltyNotificationItemCauseTP.LastChangeDate` |
+| `LastChangeTime` | `_QltyNotificationItemCauseTP.LastChangeTime` |
+| `_Notification` | *Association* |
 
 ## Associations
 

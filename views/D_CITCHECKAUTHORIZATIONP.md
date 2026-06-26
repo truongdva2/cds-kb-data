@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TaskActivityValue : activ_auth;` | `TaskActivityValue : activ_auth;` |
+| `TaskActivityValue` | `activ_auth` |
 
 ## Associations
 

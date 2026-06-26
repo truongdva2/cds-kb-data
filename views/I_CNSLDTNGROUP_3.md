@@ -30,16 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_md_congr preserving type )` | `cast( _tf180.congr` |
+| `ConsolidationGroup` | `cast( _tf180.congr as fincs_md_congr preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_TmprlNde` | `I_CnsldtnGroupTNHierNode` | [0..*] |
-| `_HierNde` | `I_CnsldtnGroupHierarchyNode_2` | [0..*] |
 | `_Text` | `I_CnsldtnGroupT_2` | [0..*] |
 
 ## Source Code

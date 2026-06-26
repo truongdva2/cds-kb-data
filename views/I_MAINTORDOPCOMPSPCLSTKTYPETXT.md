@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PM-WOC-MO-2CL
   - lob:Plant Maintenance
+  - bo:MaintOrdOpCompSpecialStockType
 ---
 # I_MAINTORDOPCOMPSPCLSTKTYPETXT
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `co_sobkz_d )` | `cast ( domvalue_l` |
+| `MaintOrdOpCompSpecialStockType` | `cast ( domvalue_l as co_sobkz_d )` |
 | `Language` | `ddlanguage` |
 | `MaintOrdOpCompSpclStkTypeText` | `dd07t.ddtext` |
 | `_MaintOrdOpCompSpclStockType` | *Association* |

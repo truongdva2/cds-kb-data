@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFIssuedBy
 ---
 # I_BR_NFISSUERTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_nfissuer preserving type )` | `cast( substring(domvalue_l, 1, 1 )` |
-| `logbr_nfissuerdescription preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFIssuedBy` | `cast( substring(domvalue_l, 1, 1 ) as logbr_nfissuer preserving type )` |
+| `BR_NFIssuerDesc` | `cast( ddtext as logbr_nfissuerdescription preserving type )` |
 | `_BR_NFIssuer` | *Association* |
 | `_Language` | *Association* |
 

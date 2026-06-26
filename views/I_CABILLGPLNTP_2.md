@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CABillgPlnNumber` | `CABillgPlnNumber` |
+| `CABillgPlnNumber` | `CABillgPlnNumber` |
 | `CABillgPlnCategory` | `CABillgPlnCategory` |
 | `CABillgPlnType` | `CABillgPlnType` |
 | `CABillgPlnStatus` | `CABillgPlnStatus` |
@@ -62,9 +62,7 @@ tags:
 | `CABillgPlnCompletionDate` | `CABillgPlnCompletionDate` |
 | `CABillgPlnIsTemplate` | `CABillgPlnIsTemplate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_ContractAccountPartner` | *Association* |
-| `_CABillgPlnItem : redirected to composition child I_CABillgPlnItemTP_2` | *Association* |
 
 ## Associations
 

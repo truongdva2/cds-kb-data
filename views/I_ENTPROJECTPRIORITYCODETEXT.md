@@ -35,7 +35,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `language` |
-| `abap.char(3)),3,'0')as abap.numc(3))` | `cast(lpad(cast(priority` |
+| `PriorityCode` | `cast(lpad(cast(priority as abap.char(3)),3,'0')as abap.numc(3))` |
 | `PriorityCodeName` | `text` |
 | `_PriorityCode` | *Association* |
 | `_Language` | *Association* |
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PriorityCode` | `I_EntProjectPriorityCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

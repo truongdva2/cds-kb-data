@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocVersion
 ---
 # I_DOCINFORECDDOCVERSSTDVH
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
-| `key DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
-| `key DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 

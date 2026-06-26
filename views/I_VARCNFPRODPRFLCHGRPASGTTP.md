@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key VarConfigurationProfileName` | `VarConfigurationProfileName` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
+| `Product` | `Product` |
+| `VarConfigurationProfileName` | `VarConfigurationProfileName` |
+| `ChangeNumber` | `ChangeNumber` |
+| `ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
 | `VarCnfChGrpAsgtSrtgOrderValue` | `VarCnfChGrpAsgtSrtgOrderValue` |
-| `/* Associations */` | `/* Associations */` |
-| `_HistoricalProfile : redirected to parent I_VarCnfHistlProductProfileTP` | *Association* |
-| `_Profile           : redirected to I_VarCnfProductProfileTP` | *Association* |
 | `_Product` | *Association* |
 
 ## Associations

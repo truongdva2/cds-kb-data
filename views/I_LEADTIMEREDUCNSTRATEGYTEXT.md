@@ -15,6 +15,7 @@ tags:
   - text
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:LeadTimeReductionStrategyText
 ---
 # I_LEADTIMEREDUCNSTRATEGYTEXT
 
@@ -31,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Plant` | `txt.werks` |
+| `LeadTimeReductionStrategy` | `txt.rstra` |
+| `Language` | `txt.spras` |
 | `LeadTimeReductionStrategyName` | `txt.txt` |
 | `_Strategy` | *Association* |
 | `_Plant` | *Association* |

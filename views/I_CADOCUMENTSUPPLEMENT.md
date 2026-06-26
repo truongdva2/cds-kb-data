@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `appdx_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADocumentSupplements` | `cast( left( dd07l.domvalue_l, 1 ) as appdx_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:PricingConditionUsage
 ---
 # I_CONDITIONUSAGE
 

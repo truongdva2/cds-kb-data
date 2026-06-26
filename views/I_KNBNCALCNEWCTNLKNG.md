@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-KAB-VDM-2CL
   - lob:Manufacturing
+  - bo:KnbnCalcNewContainerLocking
 ---
 # I_KNBNCALCNEWCTNLKNG
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `nlock)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KnbnCalcNewCtnLkng` | `cast(substring(domvalue_l, 1, 1) as nlock)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

@@ -28,36 +28,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cb.PaymentCompanyCode` | `cb.PaymentCompanyCode` |
-| `key cb.HouseBank` | `cb.HouseBank` |
-| `key cb.HouseBankAccount` | `cb.HouseBankAccount` |
-| `key cb.Chequebook` | `cb.Chequebook` |
-| `cb.ChequebookFirstCheque` | `cb.ChequebookFirstCheque` |
-| `cb.ChequebookLastCheque` | `cb.ChequebookLastCheque` |
-| `cb.NextChequebook` | `cb.NextChequebook` |
-| `cb.LastAssignedCheque` | `cb.LastAssignedCheque` |
-| `cb.ChequebookName` | `cb.ChequebookName` |
-| `cb.ChequebookIsNonSequential` | `cb.ChequebookIsNonSequential` |
-| `case cb.ChequebookPurchaseDate` | `case cb.ChequebookPurchaseDate` |
-| `abap.dats )` | `when '' then cast ( ' '` |
-| `abap.dats )` | `else cast ( cb.ChequebookPurchaseDate` |
-| `ChequebookPurchaseDate` | `end` |
-| `cb.ChequebookPaymentMethodList` | `cb.ChequebookPaymentMethodList` |
-| `cb.ChequebookMinimalChequeCount` | `cb.ChequebookMinimalChequeCount` |
-| `cb.ChequebookPurchaser` | `cb.ChequebookPurchaser` |
-| `cb.ChequebookCreatedByUser` | `cb.ChequebookCreatedByUser` |
-| `cb.ChequebookCreationDate` | `cb.ChequebookCreationDate` |
-| `cb.ChequebookCreationTime` | `cb.ChequebookCreationTime` |
-| `cb.ChequeType` | `cb.ChequeType` |
-| `abap.char(10))` | `cast( '          '` |
-| `_HouseBankAccount.HouseBankAccountDescription as BankAccountName` | *Association* |
+| `PaymentCompanyCode` | `cb.PaymentCompanyCode` |
+| `HouseBank` | `cb.HouseBank` |
+| `HouseBankAccount` | `cb.HouseBankAccount` |
+| `Chequebook` | `cb.Chequebook` |
+| `ChequebookFirstCheque` | `cb.ChequebookFirstCheque` |
+| `ChequebookLastCheque` | `cb.ChequebookLastCheque` |
+| `NextChequebook` | `cb.NextChequebook` |
+| `LastAssignedCheque` | `cb.LastAssignedCheque` |
+| `ChequebookName` | `cb.ChequebookName` |
+| `ChequebookIsNonSequential` | `cb.ChequebookIsNonSequential` |
+| `ChequebookPurchaseDate` | `case…end` |
+| `ChequebookPaymentMethodList` | `cb.ChequebookPaymentMethodList` |
+| `ChequebookMinimalChequeCount` | `cb.ChequebookMinimalChequeCount` |
+| `ChequebookPurchaser` | `cb.ChequebookPurchaser` |
+| `ChequebookCreatedByUser` | `cb.ChequebookCreatedByUser` |
+| `ChequebookCreationDate` | `cb.ChequebookCreationDate` |
+| `ChequebookCreationTime` | `cb.ChequebookCreationTime` |
+| `ChequeType` | `cb.ChequeType` |
+| `ChequebookStatus` | `cast( ' ' as abap.char(10))` |
+| `BankAccountName` | `_HouseBankAccount.HouseBankAccountDescription` |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_Company` | `I_CompanyCode` | [0..1] |
-| `_HouseBankAccount` | `I_HouseBankAccount` | [0..1] |
 | `_HouseBankAccount` | `I_HouseBankAccountText` | [0..1] |
 
 ## Source Code

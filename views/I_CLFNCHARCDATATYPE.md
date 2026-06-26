@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClfnCharacteristicDataType
 ---
 # I_CLFNCHARCDATATYPE
 
@@ -29,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atfor )` | `cast( dd07l.domvalue_l` |
+| `CharcDataType` | `cast( dd07l.domvalue_l as atfor )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ClfnCharcDataTypeText` | [0..*] |
 
 ## Source Code
 

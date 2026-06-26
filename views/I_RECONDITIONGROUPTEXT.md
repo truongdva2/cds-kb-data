@@ -17,6 +17,7 @@ tags:
   - text
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:REConditionGroup
 ---
 # I_RECONDITIONGROUPTEXT
 
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REConditionGroup` | `I_REConditionGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

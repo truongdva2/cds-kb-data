@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:VehicleOperationType
 ---
 # I_BR_VEHICLEOPERATIONTYPETEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_vehicleoperationtype preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_vehicleoperationtypedesc preserving type)` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `VehicleOperationType` | `cast(…)` |
+| `VehicleOperationTypeDesc` | `cast(…)` |
 | `_VehicleOperationType` | *Association* |
 | `_Language` | *Association* |
 

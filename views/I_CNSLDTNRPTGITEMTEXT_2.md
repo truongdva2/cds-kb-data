@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ranking: #MEDIUM` | `ranking: #MEDIUM` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_CnsldtnFSItemText_2.CnsldtnFSItemText                                                              as ConsolidationReportingItemText` | *Association* |
-| `_CnsldtnFSItemText_2.CnsldtnFSItemMediumText                                                        as ConsolidationRptgItemMdmText` | *Association* |
-| `_CnsldtnFSItemText_2.CnsldtnFSItemLongText                                                          as ConsolidationRptgItemLongText` | *Association* |
-| `_CnsldtnFSItemText_2._Language` | *Association* |
-| `_CnsldtnFSItemText_2._CnsldtnChartOfAccounts` | *Association* |
+| `Language` | `_CnsldtnFSItemText_2.Language` |
+| `ConsolidationChartOfAccounts` | `_CnsldtnFSItemText_2.ConsolidationChartOfAccounts` |
+| `ConsolidationReportingItem` | `cast(…)` |
+| `ConsolidationReportingItemText` | `_CnsldtnFSItemText_2.CnsldtnFSItemText` |
+| `ConsolidationRptgItemMdmText` | `_CnsldtnFSItemText_2.CnsldtnFSItemMediumText` |
+| `ConsolidationRptgItemLongText` | `_CnsldtnFSItemText_2.CnsldtnFSItemLongText` |
+| `_Language` | *Association* |
+| `_CnsldtnChartOfAccounts` | *Association* |
 
 ## Associations
 

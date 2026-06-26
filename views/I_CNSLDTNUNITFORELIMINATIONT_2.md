@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnUnitForEliminationVH'` | `name: 'I_CnsldtnUnitForEliminationVH'` |
-| `element: 'ConsolidationUnit'` | `element: 'ConsolidationUnit'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_elim_unit preserving type )` | `cast(ConsolidationUnit` |
-| `fincs_description_text_50 preserving type )` | `cast(ConsolidationUnitMdmText` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `Language` |
+| `ConsolidationUnit` | `cast(ConsolidationUnit as fincs_elim_unit preserving type )` |
+| `ConsolidationUnitMdmText` | `cast(ConsolidationUnitMdmText as fincs_description_text_50 preserving type )` |
 | `_Language` | *Association* |
 | `_CnsldtnUnit` | *Association* |
 

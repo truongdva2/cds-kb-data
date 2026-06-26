@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH' , element:'Product'}, useAsTemplate: true  }]` | `name: 'I_ProductStdVH' , element:'Product'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `ServiceProductListItem` | `ServiceProductListItem` |
 | `SrvcProductListProduct` | `SrvcProductListProduct` |
-| `_BusinessSolutionOrder     : redirected to I_BusinessSolutionOrderTP` | *Association* |
-| `_BusinessSolutionOrderItem : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
 | `_Text` | *Association* |
 
 ## Associations

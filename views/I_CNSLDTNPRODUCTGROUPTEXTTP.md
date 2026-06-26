@@ -33,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.ProductGroup` | `_Text.ProductGroup` |
-| `_Text.ProductGroupName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_ProductGroup as _ProductGroup : redirected to parent I_CnsldtnProductGroupTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `ProductGroup` | `_Text.ProductGroup` |
+| `ProductGroupName` | `_Text.ProductGroupName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_ProductGroup` | *Association* |
 
 ## Associations
 

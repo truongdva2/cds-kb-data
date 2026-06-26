@@ -45,6 +45,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
+| `_ProjectDemandType` | `I_ProjectDemandType` | — |
 
 ## Source Code
 

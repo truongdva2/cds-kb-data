@@ -34,19 +34,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationItemText.SalesQuotation` | `SalesQuotationItemText.SalesQuotation` |
-| `key SalesQuotationItemText.SalesQuotationItem` | `SalesQuotationItemText.SalesQuotationItem` |
-| `key SalesQuotationItemText.Language` | `SalesQuotationItemText.Language` |
-| `key SalesQuotationItemText.LongTextID` | `SalesQuotationItemText.LongTextID` |
-| `SalesQuotationItemText.LongTextIDForEdit` | `SalesQuotationItemText.LongTextIDForEdit` |
-| `SalesQuotationItemText.LanguageForEdit` | `SalesQuotationItemText.LanguageForEdit` |
-| `SalesQuotationItemText.LongText` | `SalesQuotationItemText.LongText` |
-| `SalesQuotationItemText.SalesQuotationType` | `SalesQuotationItemText.SalesQuotationType` |
-| `SalesQuotationItemText.SalesOrganization` | `SalesQuotationItemText.SalesOrganization` |
-| `SalesQuotationItemText.DistributionChannel` | `SalesQuotationItemText.DistributionChannel` |
-| `SalesQuotationItemText.OrganizationDivision` | `SalesQuotationItemText.OrganizationDivision` |
-| `_Item           : redirected to parent I_SalesQuotationItemTP` | *Association* |
-| `_SalesQuotation : redirected to I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationItemText.SalesQuotation` |
+| `SalesQuotationItem` | `SalesQuotationItemText.SalesQuotationItem` |
+| `Language` | `SalesQuotationItemText.Language` |
+| `LongTextID` | `SalesQuotationItemText.LongTextID` |
+| `LongTextIDForEdit` | `SalesQuotationItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesQuotationItemText.LanguageForEdit` |
+| `LongText` | `SalesQuotationItemText.LongText` |
+| `SalesQuotationType` | `SalesQuotationItemText.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationItemText.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationItemText.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationItemText.OrganizationDivision` |
 
 ## Associations
 

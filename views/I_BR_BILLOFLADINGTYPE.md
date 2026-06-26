@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_BillOfLadingType
 ---
 # I_BR_BILLOFLADINGTYPE
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_bill_lading_type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `BR_BillOfLadingType` | `cast ( substring( domvalue_l, 1, 2 ) as logbr_bill_lading_type )` |
 | `_Text` | *Association* |
 
 ## Associations

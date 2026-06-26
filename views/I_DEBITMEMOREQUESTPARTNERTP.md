@@ -32,20 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DebitMemoRequestPartnerTP.DebitMemoRequest` | `DebitMemoRequestPartnerTP.DebitMemoRequest` |
-| `key DebitMemoRequestPartnerTP.PartnerFunction` | `DebitMemoRequestPartnerTP.PartnerFunction` |
-| `DebitMemoRequestPartnerTP.PartnerFunctionForEdit` | `DebitMemoRequestPartnerTP.PartnerFunctionForEdit` |
-| `DebitMemoRequestPartnerTP.Customer` | `DebitMemoRequestPartnerTP.Customer` |
-| `DebitMemoRequestPartnerTP.Supplier` | `DebitMemoRequestPartnerTP.Supplier` |
-| `DebitMemoRequestPartnerTP.Personnel` | `DebitMemoRequestPartnerTP.Personnel` |
-| `DebitMemoRequestPartnerTP.ContactPerson` | `DebitMemoRequestPartnerTP.ContactPerson` |
-| `DebitMemoRequestPartnerTP.ReferenceBusinessPartner` | `DebitMemoRequestPartnerTP.ReferenceBusinessPartner` |
-| `DebitMemoRequestPartnerTP.Partner` | `DebitMemoRequestPartnerTP.Partner` |
-| `DebitMemoRequestPartnerTP.DebitMemoRequestType` | `DebitMemoRequestPartnerTP.DebitMemoRequestType` |
-| `DebitMemoRequestPartnerTP.SalesOrganization` | `DebitMemoRequestPartnerTP.SalesOrganization` |
-| `DebitMemoRequestPartnerTP.DistributionChannel` | `DebitMemoRequestPartnerTP.DistributionChannel` |
-| `DebitMemoRequestPartnerTP.OrganizationDivision` | `DebitMemoRequestPartnerTP.OrganizationDivision` |
-| `_DebitMemoRequest : redirected to parent I_DebitMemoRequestTP` | *Association* |
+| `DebitMemoRequest` | `DebitMemoRequestPartnerTP.DebitMemoRequest` |
+| `PartnerFunction` | `DebitMemoRequestPartnerTP.PartnerFunction` |
+| `PartnerFunctionForEdit` | `DebitMemoRequestPartnerTP.PartnerFunctionForEdit` |
+| `Customer` | `DebitMemoRequestPartnerTP.Customer` |
+| `Supplier` | `DebitMemoRequestPartnerTP.Supplier` |
+| `Personnel` | `DebitMemoRequestPartnerTP.Personnel` |
+| `ContactPerson` | `DebitMemoRequestPartnerTP.ContactPerson` |
+| `ReferenceBusinessPartner` | `DebitMemoRequestPartnerTP.ReferenceBusinessPartner` |
+| `Partner` | `DebitMemoRequestPartnerTP.Partner` |
+| `DebitMemoRequestType` | `DebitMemoRequestPartnerTP.DebitMemoRequestType` |
+| `SalesOrganization` | `DebitMemoRequestPartnerTP.SalesOrganization` |
+| `DistributionChannel` | `DebitMemoRequestPartnerTP.DistributionChannel` |
+| `OrganizationDivision` | `DebitMemoRequestPartnerTP.OrganizationDivision` |
 
 ## Associations
 

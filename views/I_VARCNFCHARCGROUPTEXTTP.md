@@ -32,16 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key Language` | `Language` |
+| `ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
+| `ChangeNumber` | `ChangeNumber` |
+| `Language` | `Language` |
 | `ConfignCharacteristicGroupDesc` | `ConfignCharacteristicGroupDesc` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Group : redirected to parent I_VarCnfCharcGroupTP` | *Association* |
 
 ## Associations
 

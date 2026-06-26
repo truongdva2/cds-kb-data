@@ -29,15 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PrcgConditionRecordRangeSign   : tvarv_sign;` | `PrcgConditionRecordRangeSign   : tvarv_sign;` |
-| `PrcgConditionRecordRangeOption : tvarv_opti;` | `PrcgConditionRecordRangeOption : tvarv_opti;` |
-| `PricingConditionRecordRangeLow : knumh;` | `PricingConditionRecordRangeLow : knumh;` |
-| `PrcgConditionRecordRangeHigh   : knumh;` | `PrcgConditionRecordRangeHigh   : knumh;` |
-| `_ConditionRecordCriteriaItem   : association to parent D_ConditionRecordCriteriaItemP;` | *Association* |
+| `PrcgConditionRecordRangeSign` | `tvarv_sign` |
+| `PrcgConditionRecordRangeOption` | `tvarv_opti` |
+| `PricingConditionRecordRangeLow` | `knumh` |
+| `PrcgConditionRecordRangeHigh` | `knumh` |
+| `_ConditionRecordCriteriaItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConditionRecordCriteriaItem` | `D_ConditionRecordCriteriaItemP` | — |
 
 ## Source Code
 

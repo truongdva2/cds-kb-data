@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EntProjElmntDlvbrl
 ---
 # I_ENTPROJELMNTDLVBRL
 
@@ -41,7 +42,7 @@ tags:
 | `LastChangedByUser` | `Deliverable.changed_by` |
 | `LastChangeDateTime` | `Deliverable.changed_on` |
 | `_EnterpriseProject` | *Association* |
-| `_EnterpriseProjectElement, // Make association public` | *Association* |
+| `_EnterpriseProjectElement` | *Association* |
 | `_EntProjElmntDlvDistr` | *Association* |
 
 ## Associations

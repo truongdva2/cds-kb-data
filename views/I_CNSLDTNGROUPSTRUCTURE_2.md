@@ -30,24 +30,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnVersionVH'` | `name: 'I_CnsldtnVersionVH'` |
-| `element: 'ConsolidationVersion'` | `element: 'ConsolidationVersion'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key _Source.ConsolidationVersion` | `_Source.ConsolidationVersion` |
-| `fincs_fromfiscalyearperiod preserving type )` | `cast( _Source.GroupStrucFromFiscalYearPeriod` |
-| `fincs_tofiscalyearperiod preserving type )` | `cast( _Source.GroupStrucToFiscalYearPeriod` |
-| `_Source.YearOfFirstConsolidation` | *Association* |
-| `_Source.PeriodOfFirstConsolidation` | *Association* |
-| `_Source.FirstCnsldtnIsAtEndOfPeriod` | *Association* |
-| `_Source.YearOfDivestiture` | *Association* |
-| `_Source.PeriodOfDivestiture` | *Association* |
-| `_Source.DivestitureIsAtBeginOfPeriod` | *Association* |
-| `_Source.ConsolidationMethod, // no longer valid` | *Association* |
-| `_Source.AccountingTechnique, // no longer valid` | *Association* |
-| `_Source.DivestitureIsDueToMerger` | *Association* |
-| `_Source.ETag` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationUnit` | `_Source.ConsolidationUnit` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `FromFiscalYearPeriod` | `cast(…)` |
+| `ToFiscalYearPeriod` | `cast(…)` |
+| `YearOfFirstConsolidation` | `_Source.YearOfFirstConsolidation` |
+| `PeriodOfFirstConsolidation` | `_Source.PeriodOfFirstConsolidation` |
+| `FirstCnsldtnIsAtEndOfPeriod` | `_Source.FirstCnsldtnIsAtEndOfPeriod` |
+| `YearOfDivestiture` | `_Source.YearOfDivestiture` |
+| `PeriodOfDivestiture` | `_Source.PeriodOfDivestiture` |
+| `DivestitureIsAtBeginOfPeriod` | `_Source.DivestitureIsAtBeginOfPeriod` |
+| `ConsolidationMethod` | `_Source.ConsolidationMethod` |
+| `AccountingTechnique` | `_Source.AccountingTechnique` |
+| `DivestitureIsDueToMerger` | `_Source.DivestitureIsDueToMerger` |
+| `ETag` | `_Source.ETag` |
 | `_CnsldtnVersion` | *Association* |
 | `_CnsldtnGroup` | *Association* |
 | `_CnsldtnUnit` | *Association* |

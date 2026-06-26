@@ -14,6 +14,7 @@ tags:
   - data-extraction
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:CharcValuePositionNumber
 ---
 # I_CLFNCHARCVALUEDESCDEX
 
@@ -30,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   Characteristic.CharcInternalID` | `Characteristic.CharcInternalID` |
-| `key   CharacteristicValueDesc.CharcValuePositionNumber` | `CharacteristicValueDesc.CharcValuePositionNumber` |
-| `key   CharacteristicValueDesc.Language` | `CharacteristicValueDesc.Language` |
-| `key   CharacteristicValueDesc.ValidityEndDate` | `CharacteristicValueDesc.ValidityEndDate` |
-| `CharacteristicValueDesc.TimeIntervalNumber` | `CharacteristicValueDesc.TimeIntervalNumber` |
-| `CharacteristicValueDesc.CharcValueDescription` | `CharacteristicValueDesc.CharcValueDescription` |
-| `CharacteristicValueDesc.ChangeNumber` | `CharacteristicValueDesc.ChangeNumber` |
-| `CharacteristicValueDesc.ValidityStartDate` | `CharacteristicValueDesc.ValidityStartDate` |
-| `CharacteristicValueDesc.IsDeleted` | `CharacteristicValueDesc.IsDeleted` |
+| `CharcInternalID` | `Characteristic.CharcInternalID` |
+| `CharcValuePositionNumber` | `CharacteristicValueDesc.CharcValuePositionNumber` |
+| `Language` | `CharacteristicValueDesc.Language` |
+| `ValidityEndDate` | `CharacteristicValueDesc.ValidityEndDate` |
+| `TimeIntervalNumber` | `CharacteristicValueDesc.TimeIntervalNumber` |
+| `CharcValueDescription` | `CharacteristicValueDesc.CharcValueDescription` |
+| `ChangeNumber` | `CharacteristicValueDesc.ChangeNumber` |
+| `ValidityStartDate` | `CharacteristicValueDesc.ValidityStartDate` |
+| `IsDeleted` | `CharacteristicValueDesc.IsDeleted` |
 | `_Language` | *Association* |
 | `_Characteristic` | *Association* |
 

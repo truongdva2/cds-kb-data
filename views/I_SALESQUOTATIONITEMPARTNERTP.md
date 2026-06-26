@@ -34,23 +34,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationItemPartner.SalesQuotation` | `SalesQuotationItemPartner.SalesQuotation` |
-| `key SalesQuotationItemPartner.SalesQuotationItem` | `SalesQuotationItemPartner.SalesQuotationItem` |
-| `key SalesQuotationItemPartner.PartnerFunction` | `SalesQuotationItemPartner.PartnerFunction` |
-| `SalesQuotationItemPartner.PartnerFunctionForEdit` | `SalesQuotationItemPartner.PartnerFunctionForEdit` |
-| `SalesQuotationItemPartner.Customer` | `SalesQuotationItemPartner.Customer` |
-| `SalesQuotationItemPartner.Supplier` | `SalesQuotationItemPartner.Supplier` |
-| `SalesQuotationItemPartner.Personnel` | `SalesQuotationItemPartner.Personnel` |
-| `SalesQuotationItemPartner.ContactPerson` | `SalesQuotationItemPartner.ContactPerson` |
-| `SalesQuotationItemPartner.ReferenceBusinessPartner` | `SalesQuotationItemPartner.ReferenceBusinessPartner` |
-| `SalesQuotationItemPartner.Partner` | `SalesQuotationItemPartner.Partner` |
-| `SalesQuotationItemPartner.PartnerIsSpecificForSDDocItem` | `SalesQuotationItemPartner.PartnerIsSpecificForSDDocItem` |
-| `SalesQuotationItemPartner.SalesQuotationType` | `SalesQuotationItemPartner.SalesQuotationType` |
-| `SalesQuotationItemPartner.SalesOrganization` | `SalesQuotationItemPartner.SalesOrganization` |
-| `SalesQuotationItemPartner.DistributionChannel` | `SalesQuotationItemPartner.DistributionChannel` |
-| `SalesQuotationItemPartner.OrganizationDivision` | `SalesQuotationItemPartner.OrganizationDivision` |
-| `_Item           : redirected to parent I_SalesQuotationItemTP` | *Association* |
-| `_SalesQuotation : redirected to I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationItemPartner.SalesQuotation` |
+| `SalesQuotationItem` | `SalesQuotationItemPartner.SalesQuotationItem` |
+| `PartnerFunction` | `SalesQuotationItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesQuotationItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesQuotationItemPartner.Customer` |
+| `Supplier` | `SalesQuotationItemPartner.Supplier` |
+| `Personnel` | `SalesQuotationItemPartner.Personnel` |
+| `ContactPerson` | `SalesQuotationItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesQuotationItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesQuotationItemPartner.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `SalesQuotationItemPartner.PartnerIsSpecificForSDDocItem` |
+| `SalesQuotationType` | `SalesQuotationItemPartner.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationItemPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationItemPartner.OrganizationDivision` |
 
 ## Associations
 

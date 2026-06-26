@@ -15,6 +15,7 @@ tags:
   - item-level
   - component:PPM-SCL-STR
   - lob:Other
+  - bo:EnPrjElmConfiguredWorkItem
 ---
 # I_ENTPROJELMNTCNFGRDWRKITEM
 

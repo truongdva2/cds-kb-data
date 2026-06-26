@@ -17,6 +17,7 @@ tags:
   - item-level
   - component:SD-ANA-2CL
   - lob:Sales & Distribution
+  - bo:SalesDocumentItem
 ---
 # C_SALESDOCUMENTITEMDEX_1
 
@@ -33,186 +34,185 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDocumentItem.SalesDocument` | `SalesDocumentItem.SalesDocument` |
-| `key SalesDocumentItem.SalesDocumentItem` | `SalesDocumentItem.SalesDocumentItem` |
-| `SalesDocumentItem.SalesDocumentItemUUID` | `SalesDocumentItem.SalesDocumentItemUUID` |
-| `SalesDocumentItem.SDDocumentCategory` | `SalesDocumentItem.SDDocumentCategory` |
-| `SalesDocumentItem.SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
-| `SalesDocumentItem.SalesDocumentItemCategory` | `SalesDocumentItem.SalesDocumentItemCategory` |
-| `SalesDocumentItem.SalesDocumentItemType` | `SalesDocumentItem.SalesDocumentItemType` |
-| `SalesDocumentItem.IsReturnsItem` | `SalesDocumentItem.IsReturnsItem` |
-| `SalesDocumentItem.CreatedByUser` | `SalesDocumentItem.CreatedByUser` |
-| `SalesDocumentItem.CreationDate` | `SalesDocumentItem.CreationDate` |
-| `SalesDocumentItem.CreationTime` | `SalesDocumentItem.CreationTime` |
-| `SalesDocumentItem.LastChangeDate` | `SalesDocumentItem.LastChangeDate` |
-| `SalesDocumentItem.SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
-| `SalesDocumentItem.DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
-| `SalesDocumentItem.Division` | `SalesDocumentItem.Division` |
-| `SalesDocumentItem.SalesGroup` | `SalesDocumentItem.SalesGroup` |
-| `SalesDocumentItem.SalesOffice` | `SalesDocumentItem.SalesOffice` |
-| `SalesDocumentItem.InternationalArticleNumber` | `SalesDocumentItem.InternationalArticleNumber` |
-| `SalesDocumentItem.Batch` | `SalesDocumentItem.Batch` |
-| `SalesDocumentItem.Material` | `SalesDocumentItem.Material` |
-| `SalesDocumentItem.Product` | `SalesDocumentItem.Product` |
-| `SalesDocumentItem.OriginallyRequestedMaterial` | `SalesDocumentItem.OriginallyRequestedMaterial` |
-| `SalesDocumentItem.MaterialSubstitutionReason` | `SalesDocumentItem.MaterialSubstitutionReason` |
-| `SalesDocumentItem.MaterialGroup` | `SalesDocumentItem.MaterialGroup` |
-| `SalesDocumentItem.ProductGroup` | `SalesDocumentItem.ProductGroup` |
-| `SalesDocumentItem.AdditionalMaterialGroup1` | `SalesDocumentItem.AdditionalMaterialGroup1` |
-| `SalesDocumentItem.AdditionalMaterialGroup2` | `SalesDocumentItem.AdditionalMaterialGroup2` |
-| `SalesDocumentItem.AdditionalMaterialGroup3` | `SalesDocumentItem.AdditionalMaterialGroup3` |
-| `SalesDocumentItem.AdditionalMaterialGroup4` | `SalesDocumentItem.AdditionalMaterialGroup4` |
-| `SalesDocumentItem.AdditionalMaterialGroup5` | `SalesDocumentItem.AdditionalMaterialGroup5` |
-| `SalesDocumentItem.PurchaseOrderByCustomer, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` | `SalesDocumentItem.PurchaseOrderByCustomer, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` |
-| `SalesDocumentItem.SalesDocumentItemText, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` | `SalesDocumentItem.SalesDocumentItemText, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` |
-| `SalesDocumentItem.SoldToParty` | `SalesDocumentItem.SoldToParty` |
-| `SalesDocumentItem.AdditionalCustomerGroup1` | `SalesDocumentItem.AdditionalCustomerGroup1` |
-| `SalesDocumentItem.AdditionalCustomerGroup2` | `SalesDocumentItem.AdditionalCustomerGroup2` |
-| `SalesDocumentItem.AdditionalCustomerGroup3` | `SalesDocumentItem.AdditionalCustomerGroup3` |
-| `SalesDocumentItem.AdditionalCustomerGroup4` | `SalesDocumentItem.AdditionalCustomerGroup4` |
-| `SalesDocumentItem.AdditionalCustomerGroup5` | `SalesDocumentItem.AdditionalCustomerGroup5` |
+| `SalesDocument` | `SalesDocumentItem.SalesDocument` |
+| `SalesDocumentItem` | `SalesDocumentItem.SalesDocumentItem` |
+| `SalesDocumentItemUUID` | `SalesDocumentItem.SalesDocumentItemUUID` |
+| `SDDocumentCategory` | `SalesDocumentItem.SDDocumentCategory` |
+| `SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
+| `SalesDocumentItemCategory` | `SalesDocumentItem.SalesDocumentItemCategory` |
+| `SalesDocumentItemType` | `SalesDocumentItem.SalesDocumentItemType` |
+| `IsReturnsItem` | `SalesDocumentItem.IsReturnsItem` |
+| `CreatedByUser` | `SalesDocumentItem.CreatedByUser` |
+| `CreationDate` | `SalesDocumentItem.CreationDate` |
+| `CreationTime` | `SalesDocumentItem.CreationTime` |
+| `LastChangeDate` | `SalesDocumentItem.LastChangeDate` |
+| `SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
+| `DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
+| `Division` | `SalesDocumentItem.Division` |
+| `SalesGroup` | `SalesDocumentItem.SalesGroup` |
+| `SalesOffice` | `SalesDocumentItem.SalesOffice` |
+| `InternationalArticleNumber` | `SalesDocumentItem.InternationalArticleNumber` |
+| `Batch` | `SalesDocumentItem.Batch` |
+| `Material` | `SalesDocumentItem.Material` |
+| `Product` | `SalesDocumentItem.Product` |
+| `OriginallyRequestedMaterial` | `SalesDocumentItem.OriginallyRequestedMaterial` |
+| `MaterialSubstitutionReason` | `SalesDocumentItem.MaterialSubstitutionReason` |
+| `MaterialGroup` | `SalesDocumentItem.MaterialGroup` |
+| `ProductGroup` | `SalesDocumentItem.ProductGroup` |
+| `AdditionalMaterialGroup1` | `SalesDocumentItem.AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `SalesDocumentItem.AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `SalesDocumentItem.AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `SalesDocumentItem.AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `SalesDocumentItem.AdditionalMaterialGroup5` |
+| `PurchaseOrderByCustomer` | `SalesDocumentItem.PurchaseOrderByCustomer` |
+| `SalesDocumentItemText` | `expr(…)` |
+| `SoldToParty` | `-- BK. 04.10.2021 added for BLI SDANALYTICS01-901 SalesDocumentItem.SoldToParty` |
+| `AdditionalCustomerGroup1` | `SalesDocumentItem.AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `SalesDocumentItem.AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `SalesDocumentItem.AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `SalesDocumentItem.AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `SalesDocumentItem.AdditionalCustomerGroup5` |
 | `ShipToParty` | `SalesDocumentItem.ShipToParty` |
 | `PayerParty` | `SalesDocumentItem.PayerParty` |
 | `BillToParty` | `SalesDocumentItem.BillToParty` |
-| `SalesDocumentItem.SalesEmployee` | `SalesDocumentItem.SalesEmployee` |
-| `SalesDocumentItem.SalesEmployeeWorkAgreement` | `SalesDocumentItem.SalesEmployeeWorkAgreement` |
-| `SalesDocumentItem.ResponsibleEmployee` | `SalesDocumentItem.ResponsibleEmployee` |
-| `SalesDocumentItem.ResponsibleEmployeeWorkAgrmt` | `SalesDocumentItem.ResponsibleEmployeeWorkAgrmt` |
-| `SalesDocumentItem.SDDocumentReason` | `SalesDocumentItem.SDDocumentReason` |
-| `SalesDocumentItem.SalesDocumentDate` | `SalesDocumentItem.SalesDocumentDate` |
-| `SalesDocumentItem.OrderQuantity` | `SalesDocumentItem.OrderQuantity` |
-| `SalesDocumentItem.OrderQuantityUnit` | `SalesDocumentItem.OrderQuantityUnit` |
-| `SalesDocumentItem.TargetQuantity` | `SalesDocumentItem.TargetQuantity` |
-| `SalesDocumentItem.TargetQuantityUnit` | `SalesDocumentItem.TargetQuantityUnit` |
-| `SalesDocumentItem.TargetToBaseQuantityDnmntr` | `SalesDocumentItem.TargetToBaseQuantityDnmntr` |
-| `SalesDocumentItem.TargetToBaseQuantityNmrtr` | `SalesDocumentItem.TargetToBaseQuantityNmrtr` |
-| `SalesDocumentItem.OrderToBaseQuantityDnmntr` | `SalesDocumentItem.OrderToBaseQuantityDnmntr` |
-| `SalesDocumentItem.OrderToBaseQuantityNmrtr` | `SalesDocumentItem.OrderToBaseQuantityNmrtr` |
-| `SalesDocumentItem.ConfdDelivQtyInOrderQtyUnit` | `SalesDocumentItem.ConfdDelivQtyInOrderQtyUnit` |
-| `SalesDocumentItem.TargetDelivQtyInOrderQtyUnit` | `SalesDocumentItem.TargetDelivQtyInOrderQtyUnit` |
-| `SalesDocumentItem.ConfdDeliveryQtyInBaseUnit` | `SalesDocumentItem.ConfdDeliveryQtyInBaseUnit` |
-| `SalesDocumentItem.BaseUnit` | `SalesDocumentItem.BaseUnit` |
-| `SalesDocumentItem.RequestedQuantityInBaseUnit` | `SalesDocumentItem.RequestedQuantityInBaseUnit` |
-| `SalesDocumentItem.ItemGrossWeight` | `SalesDocumentItem.ItemGrossWeight` |
-| `SalesDocumentItem.ItemNetWeight` | `SalesDocumentItem.ItemNetWeight` |
-| `SalesDocumentItem.ItemWeightUnit` | `SalesDocumentItem.ItemWeightUnit` |
-| `SalesDocumentItem.ItemVolume` | `SalesDocumentItem.ItemVolume` |
-| `SalesDocumentItem.ItemVolumeUnit` | `SalesDocumentItem.ItemVolumeUnit` |
-| `SalesDocumentItem.ServicesRenderedDate` | `SalesDocumentItem.ServicesRenderedDate` |
-| `SalesDocumentItem.SalesDistrict` | `SalesDocumentItem.SalesDistrict` |
-| `SalesDocumentItem.CustomerGroup` | `SalesDocumentItem.CustomerGroup` |
-| `SalesDocument.HdrOrderProbabilityInPercent` | `SalesDocument.HdrOrderProbabilityInPercent` |
-| `SalesDocumentItem.ItemOrderProbabilityInPercent` | `SalesDocumentItem.ItemOrderProbabilityInPercent` |
-| `SalesDocumentItem.SalesDocumentRjcnReason` | `SalesDocumentItem.SalesDocumentRjcnReason` |
-| `SalesDocumentItem.PricingDate` | `SalesDocumentItem.PricingDate` |
-| `SalesDocumentItem.ExchangeRateDate` | `SalesDocumentItem.ExchangeRateDate` |
-| `SalesDocumentItem.PriceDetnExchangeRate` | `SalesDocumentItem.PriceDetnExchangeRate` |
-| `kursk_abs)` | `cast(abs(SalesDocumentItem.PriceDetnExchangeRate)` |
-| `kursk_quotatn_is_indirect)` | `cast(case when SalesDocumentItem.PriceDetnExchangeRate < 0 then 'X' else ' ' end` |
-| `SalesDocumentItem.StatisticalValueControl` | `SalesDocumentItem.StatisticalValueControl` |
-| `SalesDocumentItem.MatlAccountAssignmentGroup` | `SalesDocumentItem.MatlAccountAssignmentGroup` |
-| `SalesDocumentItem.NetAmount` | `SalesDocumentItem.NetAmount` |
-| `SalesDocumentItem.TransactionCurrency` | `SalesDocumentItem.TransactionCurrency` |
-| `SalesDocumentItem._SalesOrganization.SalesOrganizationCurrency` | `SalesDocumentItem._SalesOrganization.SalesOrganizationCurrency` |
-| `SalesDocumentItem.NetPriceAmount` | `SalesDocumentItem.NetPriceAmount` |
-| `SalesDocumentItem.NetPriceQuantity` | `SalesDocumentItem.NetPriceQuantity` |
-| `SalesDocumentItem.NetPriceQuantityUnit` | `SalesDocumentItem.NetPriceQuantityUnit` |
-| `SalesDocumentItem.TaxAmount` | `SalesDocumentItem.TaxAmount` |
-| `SalesDocumentItem.CostAmount` | `SalesDocumentItem.CostAmount` |
-| `SalesDocumentItem.Subtotal1Amount` | `SalesDocumentItem.Subtotal1Amount` |
-| `SalesDocumentItem.Subtotal2Amount` | `SalesDocumentItem.Subtotal2Amount` |
-| `SalesDocumentItem.Subtotal3Amount` | `SalesDocumentItem.Subtotal3Amount` |
-| `SalesDocumentItem.Subtotal4Amount` | `SalesDocumentItem.Subtotal4Amount` |
-| `SalesDocumentItem.Subtotal5Amount` | `SalesDocumentItem.Subtotal5Amount` |
-| `SalesDocumentItem.Subtotal6Amount` | `SalesDocumentItem.Subtotal6Amount` |
-| `SalesDocumentItem.CappedNetAmount, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` | `SalesDocumentItem.CappedNetAmount, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` |
-| `SalesDocumentItem.SalesDocumentCondition` | `SalesDocumentItem.SalesDocumentCondition` |
-| `SalesDocumentItem.ShippingPoint` | `SalesDocumentItem.ShippingPoint` |
-| `SalesDocumentItem.ShippingType` | `SalesDocumentItem.ShippingType` |
-| `SalesDocumentItem.DeliveryPriority` | `SalesDocumentItem.DeliveryPriority` |
-| `SalesDocumentItem.InventorySpecialStockType` | `SalesDocumentItem.InventorySpecialStockType` |
-| `SalesDocumentItem.RequestedDeliveryDate` | `SalesDocumentItem.RequestedDeliveryDate` |
-| `SalesDocumentItem.ShippingCondition` | `SalesDocumentItem.ShippingCondition` |
-| `SalesDocument.DeliveryBlockReason` | `SalesDocument.DeliveryBlockReason` |
-| `SalesDocumentItem.Plant` | `SalesDocumentItem.Plant` |
-| `SalesDocumentItem.OriginalPlant` | `SalesDocumentItem.OriginalPlant` |
-| `SalesDocumentItem.StorageLocation` | `SalesDocumentItem.StorageLocation` |
-| `SalesDocumentItem.Route` | `SalesDocumentItem.Route` |
-| `SalesDocumentItem.IncotermsClassification` | `SalesDocumentItem.IncotermsClassification` |
-| `SalesDocumentItem.IncotermsVersion` | `SalesDocumentItem.IncotermsVersion` |
-| `SalesDocumentItem.IncotermsTransferLocation` | `SalesDocumentItem.IncotermsTransferLocation` |
-| `SalesDocumentItem.IncotermsLocation1` | `SalesDocumentItem.IncotermsLocation1` |
-| `SalesDocumentItem.IncotermsLocation2` | `SalesDocumentItem.IncotermsLocation2` |
-| `SalesDocumentItem.MinDeliveryQtyInBaseUnit` | `SalesDocumentItem.MinDeliveryQtyInBaseUnit` |
-| `SalesDocumentItem.UnlimitedOverdeliveryIsAllowed` | `SalesDocumentItem.UnlimitedOverdeliveryIsAllowed` |
-| `SalesDocumentItem.OverdelivTolrtdLmtRatioInPct` | `SalesDocumentItem.OverdelivTolrtdLmtRatioInPct` |
-| `SalesDocumentItem.UnderdelivTolrtdLmtRatioInPct` | `SalesDocumentItem.UnderdelivTolrtdLmtRatioInPct` |
-| `SalesDocumentItem.PartialDeliveryIsAllowed` | `SalesDocumentItem.PartialDeliveryIsAllowed` |
-| `SalesDocument.BindingPeriodValidityStartDate` | `SalesDocument.BindingPeriodValidityStartDate` |
-| `SalesDocument.BindingPeriodValidityEndDate` | `SalesDocument.BindingPeriodValidityEndDate` |
-| `SalesDocumentItem.CompletionRule` | `SalesDocumentItem.CompletionRule` |
-| `SalesDocumentItem.OutlineAgreementTargetAmount` | `SalesDocumentItem.OutlineAgreementTargetAmount` |
-| `SalesDocumentItem.BillingDocumentDate` | `SalesDocumentItem.BillingDocumentDate` |
-| `SalesDocument.BillingCompanyCode` | `SalesDocument.BillingCompanyCode` |
-| `SalesDocument.HeaderBillingBlockReason` | `SalesDocument.HeaderBillingBlockReason` |
-| `SalesDocumentItem.ItemBillingBlockReason` | `SalesDocumentItem.ItemBillingBlockReason` |
-| `SalesDocumentItem.ItemIsBillingRelevant` | `SalesDocumentItem.ItemIsBillingRelevant` |
-| `SalesDocumentItem.BillingPlan, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` | `SalesDocumentItem.BillingPlan, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` |
-| `SalesDocumentItem.ReferenceBillingPlan` | `SalesDocumentItem.ReferenceBillingPlan` |
-| `SalesDocumentItem.ReferenceBillingPlanItem` | `SalesDocumentItem.ReferenceBillingPlanItem` |
-| `SalesDocumentItem.CustomerPaymentTerms, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` | `SalesDocumentItem.CustomerPaymentTerms, -- BK. 04.10.2021 added for BLI SDANALYTICS01-901` |
-| `SalesDocumentItem.FiscalYear` | `SalesDocumentItem.FiscalYear` |
-| `SalesDocumentItem.FiscalPeriod` | `SalesDocumentItem.FiscalPeriod` |
-| `SalesDocumentItem.CustomerAccountAssignmentGroup` | `SalesDocumentItem.CustomerAccountAssignmentGroup` |
-| `SalesDocument.ExchangeRateType` | `SalesDocument.ExchangeRateType` |
-| `CompanyCode.Currency` | `CompanyCode.Currency` |
-| `CompanyCode.FiscalYearVariant` | `CompanyCode.FiscalYearVariant` |
-| `SalesDocumentItem.BusinessArea` | `SalesDocumentItem.BusinessArea` |
-| `SalesDocumentItem.ProfitCenter` | `SalesDocumentItem.ProfitCenter` |
-| `SalesDocumentItem.OrderID` | `SalesDocumentItem.OrderID` |
-| `SalesDocumentItem.WBSElementInternalID` | `SalesDocumentItem.WBSElementInternalID` |
-| `rkeobjnr_numc )` | `cast( case when ProfitabilitySegment > '9999999999' then '9999999999' else lpad( ProfitabilitySegment, 10, '0' ) end` |
+| `SalesEmployee` | `SalesDocumentItem.SalesEmployee` |
+| `SalesEmployeeWorkAgreement` | `SalesDocumentItem.SalesEmployeeWorkAgreement` |
+| `ResponsibleEmployee` | `SalesDocumentItem.ResponsibleEmployee` |
+| `ResponsibleEmployeeWorkAgrmt` | `SalesDocumentItem.ResponsibleEmployeeWorkAgrmt` |
+| `SDDocumentReason` | `SalesDocumentItem.SDDocumentReason` |
+| `SalesDocumentDate` | `SalesDocumentItem.SalesDocumentDate` |
+| `OrderQuantity` | `SalesDocumentItem.OrderQuantity` |
+| `OrderQuantityUnit` | `SalesDocumentItem.OrderQuantityUnit` |
+| `TargetQuantity` | `SalesDocumentItem.TargetQuantity` |
+| `TargetQuantityUnit` | `SalesDocumentItem.TargetQuantityUnit` |
+| `TargetToBaseQuantityDnmntr` | `SalesDocumentItem.TargetToBaseQuantityDnmntr` |
+| `TargetToBaseQuantityNmrtr` | `SalesDocumentItem.TargetToBaseQuantityNmrtr` |
+| `OrderToBaseQuantityDnmntr` | `SalesDocumentItem.OrderToBaseQuantityDnmntr` |
+| `OrderToBaseQuantityNmrtr` | `SalesDocumentItem.OrderToBaseQuantityNmrtr` |
+| `ConfdDelivQtyInOrderQtyUnit` | `SalesDocumentItem.ConfdDelivQtyInOrderQtyUnit` |
+| `TargetDelivQtyInOrderQtyUnit` | `SalesDocumentItem.TargetDelivQtyInOrderQtyUnit` |
+| `ConfdDeliveryQtyInBaseUnit` | `SalesDocumentItem.ConfdDeliveryQtyInBaseUnit` |
+| `BaseUnit` | `SalesDocumentItem.BaseUnit` |
+| `RequestedQuantityInBaseUnit` | `--- >1911 JB 27.08.19 SalesDocumentItem.RequestedQuantityInBaseUnit` |
+| `ItemGrossWeight` | `--- 1911 JB 27.08.19< SalesDocumentItem.ItemGrossWeight` |
+| `ItemNetWeight` | `SalesDocumentItem.ItemNetWeight` |
+| `ItemWeightUnit` | `SalesDocumentItem.ItemWeightUnit` |
+| `ItemVolume` | `SalesDocumentItem.ItemVolume` |
+| `ItemVolumeUnit` | `SalesDocumentItem.ItemVolumeUnit` |
+| `ServicesRenderedDate` | `SalesDocumentItem.ServicesRenderedDate` |
+| `SalesDistrict` | `SalesDocumentItem.SalesDistrict` |
+| `CustomerGroup` | `SalesDocumentItem.CustomerGroup` |
+| `HdrOrderProbabilityInPercent` | `SalesDocument.HdrOrderProbabilityInPercent` |
+| `ItemOrderProbabilityInPercent` | `SalesDocumentItem.ItemOrderProbabilityInPercent` |
+| `SalesDocumentRjcnReason` | `SalesDocumentItem.SalesDocumentRjcnReason` |
+| `PricingDate` | `SalesDocumentItem.PricingDate` |
+| `ExchangeRateDate` | `SalesDocumentItem.ExchangeRateDate` |
+| `PriceDetnExchangeRate` | `SalesDocumentItem.PriceDetnExchangeRate` |
+| `AbsltPriceDetnExchangeRate` | `cast(abs(SalesDocumentItem.PriceDetnExchangeRate) as kursk_abs)` |
+| `PriceDetnExchRateIsIndrctQtan` | `cast(…)` |
+| `StatisticalValueControl` | `SalesDocumentItem.StatisticalValueControl` |
+| `MatlAccountAssignmentGroup` | `SalesDocumentItem.MatlAccountAssignmentGroup` |
+| `NetAmount` | `SalesDocumentItem.NetAmount` |
+| `TransactionCurrency` | `SalesDocumentItem.TransactionCurrency` |
+| `SalesOrganizationCurrency` | `SalesDocumentItem._SalesOrganization.SalesOrganizationCurrency` |
+| `NetPriceAmount` | `SalesDocumentItem.NetPriceAmount` |
+| `NetPriceQuantity` | `SalesDocumentItem.NetPriceQuantity` |
+| `NetPriceQuantityUnit` | `SalesDocumentItem.NetPriceQuantityUnit` |
+| `TaxAmount` | `SalesDocumentItem.TaxAmount` |
+| `CostAmount` | `SalesDocumentItem.CostAmount` |
+| `Subtotal1Amount` | `SalesDocumentItem.Subtotal1Amount` |
+| `Subtotal2Amount` | `SalesDocumentItem.Subtotal2Amount` |
+| `Subtotal3Amount` | `SalesDocumentItem.Subtotal3Amount` |
+| `Subtotal4Amount` | `SalesDocumentItem.Subtotal4Amount` |
+| `Subtotal5Amount` | `SalesDocumentItem.Subtotal5Amount` |
+| `Subtotal6Amount` | `SalesDocumentItem.Subtotal6Amount` |
+| `CappedNetAmount` | `SalesDocumentItem.CappedNetAmount` |
+| `SalesDocumentCondition` | `expr(…)` |
+| `ShippingPoint` | `SalesDocumentItem.ShippingPoint` |
+| `ShippingType` | `SalesDocumentItem.ShippingType` |
+| `DeliveryPriority` | `SalesDocumentItem.DeliveryPriority` |
+| `InventorySpecialStockType` | `SalesDocumentItem.InventorySpecialStockType` |
+| `RequestedDeliveryDate` | `SalesDocumentItem.RequestedDeliveryDate` |
+| `ShippingCondition` | `SalesDocumentItem.ShippingCondition` |
+| `DeliveryBlockReason` | `SalesDocument.DeliveryBlockReason` |
+| `Plant` | `SalesDocumentItem.Plant` |
+| `OriginalPlant` | `SalesDocumentItem.OriginalPlant` |
+| `StorageLocation` | `SalesDocumentItem.StorageLocation` |
+| `Route` | `SalesDocumentItem.Route` |
+| `IncotermsClassification` | `SalesDocumentItem.IncotermsClassification` |
+| `IncotermsVersion` | `SalesDocumentItem.IncotermsVersion` |
+| `IncotermsTransferLocation` | `SalesDocumentItem.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `SalesDocumentItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `SalesDocumentItem.IncotermsLocation2` |
+| `MinDeliveryQtyInBaseUnit` | `SalesDocumentItem.MinDeliveryQtyInBaseUnit` |
+| `UnlimitedOverdeliveryIsAllowed` | `SalesDocumentItem.UnlimitedOverdeliveryIsAllowed` |
+| `OverdelivTolrtdLmtRatioInPct` | `SalesDocumentItem.OverdelivTolrtdLmtRatioInPct` |
+| `UnderdelivTolrtdLmtRatioInPct` | `SalesDocumentItem.UnderdelivTolrtdLmtRatioInPct` |
+| `PartialDeliveryIsAllowed` | `SalesDocumentItem.PartialDeliveryIsAllowed` |
+| `BindingPeriodValidityStartDate` | `SalesDocument.BindingPeriodValidityStartDate` |
+| `BindingPeriodValidityEndDate` | `SalesDocument.BindingPeriodValidityEndDate` |
+| `CompletionRule` | `--- >1911 JB 27.08.19 SalesDocumentItem.CompletionRule` |
+| `OutlineAgreementTargetAmount` | `--- 1911 JB 27.08.19< SalesDocumentItem.OutlineAgreementTargetAmount` |
+| `BillingDocumentDate` | `SalesDocumentItem.BillingDocumentDate` |
+| `BillingCompanyCode` | `SalesDocument.BillingCompanyCode` |
+| `HeaderBillingBlockReason` | `SalesDocument.HeaderBillingBlockReason` |
+| `ItemBillingBlockReason` | `SalesDocumentItem.ItemBillingBlockReason` |
+| `ItemIsBillingRelevant` | `--- >1911 JB 27.08.19 SalesDocumentItem.ItemIsBillingRelevant` |
+| `BillingPlan` | `--- 1911 JB 27.08.19< SalesDocumentItem.BillingPlan` |
+| `ReferenceBillingPlan` | `expr(…)` |
+| `ReferenceBillingPlanItem` | `SalesDocumentItem.ReferenceBillingPlanItem` |
+| `CustomerPaymentTerms` | `SalesDocumentItem.CustomerPaymentTerms` |
+| `FiscalYear` | `-- BK. 04.10.2021 added for BLI SDANALYTICS01-901 SalesDocumentItem.FiscalYear` |
+| `FiscalPeriod` | `SalesDocumentItem.FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `SalesDocumentItem.CustomerAccountAssignmentGroup` |
+| `ExchangeRateType` | `SalesDocument.ExchangeRateType` |
+| `Currency` | `CompanyCode.Currency` |
+| `FiscalYearVariant` | `CompanyCode.FiscalYearVariant` |
+| `BusinessArea` | `SalesDocumentItem.BusinessArea` |
+| `ProfitCenter` | `SalesDocumentItem.ProfitCenter` |
+| `OrderID` | `SalesDocumentItem.OrderID` |
+| `WBSElementInternalID` | `SalesDocumentItem.WBSElementInternalID` |
+| `ProfitabilitySegment` | `expr(…)` |
 | `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
-| `SalesDocumentItem.ControllingArea` | `SalesDocumentItem.ControllingArea` |
-| `kurrf_abs)` | `cast(abs( SalesDocumentItem.AccountingExchangeRate )` |
-| `kurrf_quotatn_is_indirect)` | `cast(case when SalesDocumentItem.AccountingExchangeRate < 0 then 'X' else ' ' end` |
-| `SalesDocumentItem.ReferenceSDDocument` | `SalesDocumentItem.ReferenceSDDocument` |
-| `SalesDocumentItem.ReferenceSDDocumentItem` | `SalesDocumentItem.ReferenceSDDocumentItem` |
-| `SalesDocumentItem.ReferenceSDDocumentCategory` | `SalesDocumentItem.ReferenceSDDocumentCategory` |
-| `SalesDocumentItem.OriginSDDocument` | `SalesDocumentItem.OriginSDDocument` |
-| `SalesDocumentItem.OriginSDDocumentItem` | `SalesDocumentItem.OriginSDDocumentItem` |
-| `SalesDocumentItem.HigherLevelItem` | `SalesDocumentItem.HigherLevelItem` |
-| `SalesDocumentItem.ValueContract` | `SalesDocumentItem.ValueContract` |
-| `SalesDocumentItem.ValueContractItem` | `SalesDocumentItem.ValueContractItem` |
-| `SalesDocumentItem.BusinessSolutionOrder,     ---- AT 11.04.2022` | `SalesDocumentItem.BusinessSolutionOrder,     ---- AT 11.04.2022` |
-| `SalesDocumentItem.BusinessSolutionOrderItem, ---- AT 11.04.2022` | `SalesDocumentItem.BusinessSolutionOrderItem, ---- AT 11.04.2022` |
-| `SalesDocumentItem.ServiceDocumentType` | `SalesDocumentItem.ServiceDocumentType` |
-| `SalesDocumentItem.ServiceDocument` | `SalesDocumentItem.ServiceDocument` |
-| `SalesDocumentItem.ServiceDocumentItem` | `SalesDocumentItem.ServiceDocumentItem` |
-| `SalesDocument.OverallSDProcessStatus` | `SalesDocument.OverallSDProcessStatus` |
-| `SalesDocument.OverallTotalDeliveryStatus` | `SalesDocument.OverallTotalDeliveryStatus` |
-| `SalesDocument.OverallOrdReltdBillgStatus` | `SalesDocument.OverallOrdReltdBillgStatus` |
-| `SalesDocument.TotalCreditCheckStatus` | `SalesDocument.TotalCreditCheckStatus` |
-| `SalesDocument.OverallSDDocumentRejectionSts` | `SalesDocument.OverallSDDocumentRejectionSts` |
-| `SalesDocument.OverallTotalSDDocRefStatus` | `SalesDocument.OverallTotalSDDocRefStatus` |
-| `SalesDocument.OverallSDDocReferenceStatus` | `SalesDocument.OverallSDDocReferenceStatus` |
-| `SalesDocument.OverallDelivConfStatus` | `SalesDocument.OverallDelivConfStatus` |
-| `SalesDocument.OverallDeliveryStatus` | `SalesDocument.OverallDeliveryStatus` |
-| `SalesDocumentItem.DeliveryBlockStatus` | `SalesDocumentItem.DeliveryBlockStatus` |
-| `SalesDocumentItem.BillingBlockStatus` | `SalesDocumentItem.BillingBlockStatus` |
-| `SalesDocumentItem.TotalSDDocReferenceStatus` | `SalesDocumentItem.TotalSDDocReferenceStatus` |
-| `SalesDocumentItem.SDDocReferenceStatus` | `SalesDocumentItem.SDDocReferenceStatus` |
-| `SalesDocumentItem.SDDocumentRejectionStatus` | `SalesDocumentItem.SDDocumentRejectionStatus` |
-| `SalesDocumentItem.ItemGeneralIncompletionStatus` | `SalesDocumentItem.ItemGeneralIncompletionStatus` |
-| `SalesDocumentItem.ItemBillingIncompletionStatus` | `SalesDocumentItem.ItemBillingIncompletionStatus` |
-| `SalesDocumentItem.PricingIncompletionStatus` | `SalesDocumentItem.PricingIncompletionStatus` |
-| `SalesDocumentItem.ItemDeliveryIncompletionStatus` | `SalesDocumentItem.ItemDeliveryIncompletionStatus` |
-| `SalesDocumentItem.DeliveryConfirmationStatus` | `SalesDocumentItem.DeliveryConfirmationStatus` |
-| `SalesDocumentItem.OrderRelatedBillingStatus` | `SalesDocumentItem.OrderRelatedBillingStatus` |
-| `SalesDocumentItem.SDProcessStatus` | `SalesDocumentItem.SDProcessStatus` |
-| `SalesDocumentItem.TotalDeliveryStatus` | `SalesDocumentItem.TotalDeliveryStatus` |
-| `SalesDocumentItem.DeliveryStatus` | `SalesDocumentItem.DeliveryStatus` |
-| `_SalesDocument` | *Association* |
+| `ControllingArea` | `SalesDocumentItem.ControllingArea` |
+| `AbsltAccountingExchangeRate` | `cast(abs( SalesDocumentItem.AccountingExchangeRate ) as kurrf_abs)` |
+| `AcctgExchangeRateIsIndrctQtan` | `cast(…)` |
+| `ReferenceSDDocument` | `SalesDocumentItem.ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `SalesDocumentItem.ReferenceSDDocumentItem` |
+| `ReferenceSDDocumentCategory` | `SalesDocumentItem.ReferenceSDDocumentCategory` |
+| `OriginSDDocument` | `SalesDocumentItem.OriginSDDocument` |
+| `OriginSDDocumentItem` | `SalesDocumentItem.OriginSDDocumentItem` |
+| `HigherLevelItem` | `SalesDocumentItem.HigherLevelItem` |
+| `ValueContract` | `SalesDocumentItem.ValueContract` |
+| `ValueContractItem` | `SalesDocumentItem.ValueContractItem` |
+| `BusinessSolutionOrder` | `SalesDocumentItem.BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `---- AT 11.04.2022 SalesDocumentItem.BusinessSolutionOrderItem` |
+| `ServiceDocumentType` | `---- AT 11.04.2022 SalesDocumentItem.ServiceDocumentType` |
+| `ServiceDocument` | `SalesDocumentItem.ServiceDocument` |
+| `ServiceDocumentItem` | `SalesDocumentItem.ServiceDocumentItem` |
+| `OverallSDProcessStatus` | `SalesDocument.OverallSDProcessStatus` |
+| `OverallTotalDeliveryStatus` | `SalesDocument.OverallTotalDeliveryStatus` |
+| `OverallOrdReltdBillgStatus` | `SalesDocument.OverallOrdReltdBillgStatus` |
+| `TotalCreditCheckStatus` | `SalesDocument.TotalCreditCheckStatus` |
+| `OverallSDDocumentRejectionSts` | `SalesDocument.OverallSDDocumentRejectionSts` |
+| `OverallTotalSDDocRefStatus` | `SalesDocument.OverallTotalSDDocRefStatus` |
+| `OverallSDDocReferenceStatus` | `SalesDocument.OverallSDDocReferenceStatus` |
+| `OverallDelivConfStatus` | `--- >1911 JB 27.08.19 SalesDocument.OverallDelivConfStatus` |
+| `OverallDeliveryStatus` | `SalesDocument.OverallDeliveryStatus` |
+| `DeliveryBlockStatus` | `--- 1911 JB 27.08.19< SalesDocumentItem.DeliveryBlockStatus` |
+| `BillingBlockStatus` | `SalesDocumentItem.BillingBlockStatus` |
+| `TotalSDDocReferenceStatus` | `SalesDocumentItem.TotalSDDocReferenceStatus` |
+| `SDDocReferenceStatus` | `SalesDocumentItem.SDDocReferenceStatus` |
+| `SDDocumentRejectionStatus` | `SalesDocumentItem.SDDocumentRejectionStatus` |
+| `ItemGeneralIncompletionStatus` | `SalesDocumentItem.ItemGeneralIncompletionStatus` |
+| `ItemBillingIncompletionStatus` | `SalesDocumentItem.ItemBillingIncompletionStatus` |
+| `PricingIncompletionStatus` | `SalesDocumentItem.PricingIncompletionStatus` |
+| `ItemDeliveryIncompletionStatus` | `SalesDocumentItem.ItemDeliveryIncompletionStatus` |
+| `DeliveryConfirmationStatus` | `--- >1911 JB 27.08.19 SalesDocumentItem.DeliveryConfirmationStatus` |
+| `OrderRelatedBillingStatus` | `SalesDocumentItem.OrderRelatedBillingStatus` |
+| `SDProcessStatus` | `SalesDocumentItem.SDProcessStatus` |
+| `TotalDeliveryStatus` | `SalesDocumentItem.TotalDeliveryStatus` |
+| `DeliveryStatus` | `SalesDocumentItem.DeliveryStatus` |
 
 ## Associations
 

@@ -35,12 +35,14 @@ tags:
 |---|---|
 | `SerialNumberProfile` | `serail` |
 | `Language` | `spras` |
-| `losn_profile_description preserving type )` | `cast( t377p_t.serailtxt` |
+| `SerialNumberProfileDescription` | `cast( t377p_t.serailtxt as losn_profile_description preserving type )` |
 | `_SerialNumberProfile` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SerialNumberProfile` | `I_SerialNumberProfile` | — |
 
 ## Source Code
 

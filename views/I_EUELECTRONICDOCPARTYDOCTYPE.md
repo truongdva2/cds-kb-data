@@ -30,13 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name   : 'I_EUElectronicDocCategoryVH'` | `name   : 'I_EUElectronicDocCategoryVH'` |
-| `element: 'EU_EDocDocCategory' }` | `element: 'EU_EDocDocCategory' }` |
-| `}]` | `}]` |
+| `ElectronicDocPartnerId` | `partner_id` |
+| `ElectronicDocBPType` | `partner_type` |
 | `EU_EDocDocCategory` | `doc_categ` |
 | `EU_EDocDocTypeId` | `doc_type_id` |
-| `_BusinessPartner.AuthorizationGroup               as AuthorizationGroup` | *Association* |
-| `_BusinessPartner.IsBusinessPurposeCompleted       as IsBusinessPurposeCompleted` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_BusinessPartner.IsBusinessPurposeCompleted` |
 
 ## Associations
 

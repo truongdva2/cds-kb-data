@@ -17,6 +17,7 @@ tags:
   - text
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:GLAccountHierarchyText
 ---
 # I_GLACCOUNTHIERARCHYTEXT
 
@@ -33,7 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking:#HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking:#HIGH }` |
+| `GLAccountHierarchy` | `cast ( hrrp_dirt_n.hryid_42 as fis_glaccthier preserving type )` |
+| `ValidityEndDate` | `hrrp_dirt_n.hryvalto` |
+| `Language` | `spras` |
+| `ValidityStartDate` | `hrrp_dirt_n.hryvalfrom` |
 | `GLAccountHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

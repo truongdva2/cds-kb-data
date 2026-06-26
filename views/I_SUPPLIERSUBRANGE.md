@@ -32,25 +32,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
 | `SupplierSubrange` | `ltsnr` |
 | `Supplier` | `lifnr` |
-| `_Supplier.DataController1` | *Association* |
-| `_Supplier.DataController2` | *Association* |
-| `_Supplier.DataController3` | *Association* |
-| `_Supplier.DataController4` | *Association* |
-| `_Supplier.DataController5` | *Association* |
-| `_Supplier.DataController6` | *Association* |
-| `_Supplier.DataController7` | *Association* |
-| `_Supplier.DataController8` | *Association* |
-| `_Supplier.DataController9` | *Association* |
-| `_Supplier.DataController10` | *Association* |
-| `_Supplier.DataControllerSet` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
-| `_Supplier.BPSupplierName` | *Association* |
-| `_Supplier.AuthorizationGroup` | *Association* |
-| `_Supplier.SupplierAccountGroup` | *Association* |
-| `_Supplier.IsBusinessPurposeCompleted` | *Association* |
+| `DataController1` | `_Supplier.DataController1` |
+| `DataController2` | `_Supplier.DataController2` |
+| `DataController3` | `_Supplier.DataController3` |
+| `DataController4` | `_Supplier.DataController4` |
+| `DataController5` | `_Supplier.DataController5` |
+| `DataController6` | `_Supplier.DataController6` |
+| `DataController7` | `_Supplier.DataController7` |
+| `DataController8` | `_Supplier.DataController8` |
+| `DataController9` | `_Supplier.DataController9` |
+| `DataController10` | `_Supplier.DataController10` |
+| `DataControllerSet` | `_Supplier.DataControllerSet` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `BPSupplierName` | `_Supplier.BPSupplierName` |
+| `AuthorizationGroup` | `_Supplier.AuthorizationGroup` |
+| `SupplierAccountGroup` | `_Supplier.SupplierAccountGroup` |
+| `IsBusinessPurposeCompleted` | `_Supplier.IsBusinessPurposeCompleted` |
 | `_Text` | *Association* |
 | `_Supplier` | *Association* |
 

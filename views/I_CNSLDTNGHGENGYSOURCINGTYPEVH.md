@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGEnergySourcingType` | `_Source.GHGEnergySourcingType` |
-| `_Source._Text[1: Language=$session.system_language].GHGEnergySourcingTypeName` | *Association* |
+| `GHGEnergySourcingType` | `_Source.GHGEnergySourcingType` |
+| `GHGEnergySourcingTypeName` | `_Source._Text[1: Language=$session.system_language].GHGEnergySourcingTypeName` |
 
 ## Associations
 

@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-AR-AR-C-2CL
   - lob:Finance
+  - bo:DunningArea
 ---
 # I_DUNNINGAREATEXT
 
@@ -32,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs preserving type)` | `cast(bukrs` |
-| `farp_maber preserving type)` | `cast(maber` |
+| `CompanyCode` | `cast(bukrs as fis_bukrs preserving type)` |
+| `DunningArea` | `cast(maber as farp_maber preserving type)` |
 | `Language` | `spras` |
-| `farp_text1_047n preserving type)` | `cast(text1` |
+| `DunningAreaName` | `cast(text1 as farp_text1_047n preserving type)` |
 | `_CompanyCode` | *Association* |
 | `_Language` | *Association* |
 

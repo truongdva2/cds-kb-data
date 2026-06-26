@@ -15,6 +15,7 @@ tags:
   - data-extraction
   - component:PLM-WUI-OBJ-ECN-2CL
   - lob:Other
+  - bo:ObjectManagementRecord
 ---
 # C_CHANGEMSTROBJMGMTRECORDDEX
 
@@ -31,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key ChangeNumberObjectType` | `ChangeNumberObjectType` |
-| `key ObjMgmtRecdObjectInternalID` | `ObjMgmtRecdObjectInternalID` |
+| `ChangeNumber` | `ChangeNumber` |
+| `ChangeNumberObjectType` | `ChangeNumberObjectType` |
+| `ObjMgmtRecdObjectInternalID` | `ObjMgmtRecdObjectInternalID` |
 | `ObjMgmtRecdObject` | `ObjMgmtRecdObject` |
 | `ObjMgmtRecdObjIsLockedForChg` | `ObjMgmtRecdObjIsLockedForChg` |
 | `ObjMgmtRecdObjRevisionLevel` | `ObjMgmtRecdObjRevisionLevel` |

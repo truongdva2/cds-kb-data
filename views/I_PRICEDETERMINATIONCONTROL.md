@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:CO-PC-ML-2CL
   - lob:Controlling
+  - bo:PriceDeterminationControl
 ---
 # I_PRICEDETERMINATIONCONTROL
 
@@ -30,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fml_abst )` | `cast( domvalue_l` |
+| `PriceDeterminationControl` | `cast( domvalue_l as fml_abst )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PriceDeterminationControlTxt` | [0..*] |
 
 ## Source Code
 

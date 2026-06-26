@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpratescalref_uuid preserving type)` | `cast( db_key` |
-| `/scmtms/transpratetable_uuid preserving type)` | `cast ( ( parent_key )` |
-| `/scmtms/vdm_rate_scale_uuid preserving type)` | `cast(uuid030` |
+| `TranspRateScaleRefUUID` | `cast( db_key as /scmtms/transpratescalref_uuid preserving type)` |
+| `TransportationRateUUID` | `cast ( ( parent_key ) as /scmtms/transpratetable_uuid preserving type)` |
+| `TransportationScaleUUID` | `cast(uuid030 as /scmtms/vdm_rate_scale_uuid preserving type)` |
 | `TransportationCalculationBase` | `calc_base` |
 | `TranspRateScaleRefMinValIsSupp` | `minval_supported` |
 | `TranspRateScaleRefMaxValIsSupp` | `maxval_supported` |
@@ -42,8 +42,7 @@ tags:
 | `TranspRateScaleRefCalcType` | `calc_typ` |
 | `TranspRateDimensionIndex` | `dimension_indx` |
 | `TranspRateScaleRefNoValIsAllwd` | `initval_support` |
-| `/scmtms/stcts preserving type)` | `cast(stcts` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspCmmdtyCodeNmbrngSchm` | `cast(stcts as /scmtms/stcts preserving type)` |
 | `_TransportationRate` | *Association* |
 | `_TransportationScale` | *Association* |
 | `_TranspScaleType` | *Association* |
@@ -56,6 +55,8 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationRate` | `I_TransportationRate` | — |
+| `_TransportationScale` | `I_TransportationScale` | [1..1] |
 | `_TranspScaleCalcType` | `I_TranspScaleCalcType` | [1..1] |
 | `_TranspScaleType` | `I_TransportationScaleType_2` | [1..1] |
 | `_TransportationCalculationBase` | `I_TranspCalculationBase` | [1..1] |

@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-LOC-FI
   - lob:Finance
+  - bo:Country
 ---
 # I_BOPFORMTOCNTRY
 
@@ -32,7 +33,7 @@ tags:
 |---|---|
 | `BOPRptgCntry` | `country` |
 | `BOPForm` | `form` |
-| `land1_gp)` | `cast(subdiv` |
+| `Country` | `cast(subdiv as land1_gp)` |
 | `_BOPRptgCntry` | *Association* |
 | `_BOPForm` | *Association* |
 

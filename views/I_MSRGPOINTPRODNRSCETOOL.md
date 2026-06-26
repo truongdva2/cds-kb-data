@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:MeasuringPoint
 ---
 # I_MSRGPOINTPRODNRSCETOOL
 
@@ -30,11 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `PRT.ProductionResourceToolGroup2` | `PRT.ProductionResourceToolGroup2` |
-| `PRT.ProductionResourceUsage` | `PRT.ProductionResourceUsage` |
+| `MeasuringPoint` | `-- representative key key PRT.MeasuringPoint` |
+| `ProductionResourceType` | `PRT.ProductionResourceType` |
+| `ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
+| `ProductionResourceToolGroup1` | `PRT.ProductionResourceToolGroup1` |
+| `ProductionResourceToolGroup2` | `PRT.ProductionResourceToolGroup2` |
+| `ProductionResourceUsage` | `PRT.ProductionResourceUsage` |
 | `ProdnRsceToolControlProfile` | `ProdnRsceToolControlProfile` |
-| `PRT.ChangeNumber` | `PRT.ChangeNumber` |
+| `ChangeNumber` | `PRT.ChangeNumber` |
 | `ProdnRsceToolStandardTextCode` | `ProdnRsceToolStandardTextCode` |
 | `ProdnRsceToolTotQtyCalcFormula` | `ProdnRsceToolTotQtyCalcFormula` |
 | `ProdnRsceToolUsageQtyCalcFmla` | `ProdnRsceToolUsageQtyCalcFmla` |
@@ -50,7 +54,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `_ProductionResourceType` | *Association* |
-| `_ProdnRsceToolGroup1` | *Association* |
 | `_ProdnRsceToolGroup2` | *Association* |
 | `_ProductionResourceUsage` | *Association* |
 | `_ProdnRsceToolControlProfile` | *Association* |

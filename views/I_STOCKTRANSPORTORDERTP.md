@@ -32,15 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH', element: 'Currency' }, useAsTemplate: true }] //CustomUI` | `name: 'I_CurrencyStdVH', element: 'Currency' }, useAsTemplate: true }] //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderType` | `StockTransportOrderType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `StockTransportOrderDate` | `StockTransportOrderDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `Language` | `Language` |
+| `ReleaseIsNotCompleted` | `ReleaseIsNotCompleted` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `SupplyingPlant` | `SupplyingPlant` |
 | `DocumentCurrency` | `DocumentCurrency` |
 | `IsIntrastatReportingRelevant` | `IsIntrastatReportingRelevant` |
 | `IsIntrastatReportingExcluded` | `IsIntrastatReportingExcluded` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrderItem    : redirected to composition child I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrderNote    : redirected to composition child I_StockTransportOrderNoteTP` | *Association* |
-| `_StockTransportOrderPartner : redirected to composition child I_StockTransportOrderPartnerTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_DocumentCurrency` | *Association* |
@@ -48,7 +54,6 @@ tags:
 | `_PurchasingGroup` | *Association* |
 | `_PurchasingOrganization` | *Association* |
 | `_SupplyingPlant` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 
 ## Associations
 

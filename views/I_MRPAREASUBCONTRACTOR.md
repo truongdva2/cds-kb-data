@@ -14,6 +14,7 @@ tags:
   - contract
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:MRPArea
 ---
 # I_MRPAREASUBCONTRACTOR
 
@@ -30,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Supplier_VH', element: 'Supplier' } } ]` | `name: 'I_Supplier_VH', element: 'Supplier' } } ]` |
+| `MRPArea` | `-- representative key key mdll.berid` |
+| `MRPAreaPlant` | `mdll.werks` |
 | `MRPAreaSubcontractor` | `mdll.lbear` |
 | `_MRPArea` | *Association* |
 | `_Plant` | *Association* |

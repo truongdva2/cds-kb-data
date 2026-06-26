@@ -1,6 +1,10 @@
 ---
 name: I_LANGUAGE
 description: Language
+semantic_en: "Language — language keys used for texts and communication across the system."
+semantic_vi: "Ngôn ngữ — khóa ngôn ngữ dùng cho văn bản và giao tiếp trong hệ thống."
+keywords:
+  - ngôn ngữ
 app_component: BC-DOC-TTL
 software_component: SAP_BASIS
 release_state: released
@@ -15,6 +19,7 @@ tags:
   - language
   - component:BC-DOC-TTL
   - lob:Basis Components
+  - bo:Language
 ---
 # I_LANGUAGE
 

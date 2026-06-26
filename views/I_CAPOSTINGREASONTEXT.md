@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocOriginCode.CADocumentOriginCode` | `DocOriginCode.CADocumentOriginCode` |
-| `bugrd_kk preserving type )` | `cast( ReversalReasonText.CAReversalReason` |
-| `key ReversalReasonText.Language` | `ReversalReasonText.Language` |
-| `potxt_kk )` | `cast( ReversalReasonText.CAReversalReasonText` |
+| `CADocumentOriginCode` | `DocOriginCode.CADocumentOriginCode` |
+| `CAPostingReason` | `cast( WriteOffReasonText.CAWriteOffReason as bugrd_kk preserving type )` |
+| `Language` | `WriteOffReasonText.Language` |
+| `CAPostingReasonName` | `cast( WriteOffReasonText.CAWriteOffReasonName as potxt_kk preserving type )` |
 | `_DocOriginCode` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,12 +42,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Language` | `I_Language` | [0..1] |
 | `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
 | `_Language` | `I_Language` | [0..1] |
 

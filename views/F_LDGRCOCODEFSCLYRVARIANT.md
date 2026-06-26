@@ -14,6 +14,7 @@ tags:
   - fact-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:CompanyCode
 ---
 # F_LDGRCOCODEFSCLYRVARIANT
 
@@ -30,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  Ledger` | `Ledger` |
-| `key  CompanyCode` | `CompanyCode` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
 | `FiscalYearVariant` | `FiscalYearVariant` |
 | `_Ledger` | *Association* |
 | `_CompanyCode` | *Association* |

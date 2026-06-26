@@ -15,6 +15,7 @@ tags:
   - value-help
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ProdDependentRequirementsType
 ---
 # I_PRODDEPDNTRQMTSTYPEVH
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sbdkz )` | `cast ( dd07l.domvalue_l` |
+| `DependentRequirementsType` | `cast ( dd07l.domvalue_l as sbdkz )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

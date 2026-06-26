@@ -30,12 +30,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CADunningProcedure` | `mahnv` |
-| `mvtyp_gfn_kk preserving type)` | `cast(mvtyp` |
-| `altmv_gfn_kk preserving type)` | `cast(altmv` |
-| `altmv2_gfn_kk preserving type)` | `cast(altmv2` |
+| `CADunningProcedureCategory` | `cast(mvtyp as mvtyp_gfn_kk preserving type)` |
+| `CAAltvDunProcedForInstallments` | `cast(altmv as altmv_gfn_kk preserving type)` |
+| `CAAltvDunProcedForReturns` | `cast(altmv2 as altmv2_gfn_kk preserving type)` |
 | `CAProcessControlAtLastDunLevel` | `vlmst` |
 | `CAFactoryCalendarIsUsedForDun` | `xmfac` |
-| `fabkl preserving type)` | `cast(mfcid` |
+| `FactoryCalendar` | `cast(mfcid as fabkl preserving type)` |
 | `CADunningLevelMustNotBeReduced` | `not_lower_dl` |
 | `CAProcessControlForCredits` | `vbgut` |
 | `_Text` | *Association* |

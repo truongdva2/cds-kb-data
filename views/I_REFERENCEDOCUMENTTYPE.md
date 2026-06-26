@@ -15,6 +15,7 @@ tags:
   - document
   - component:FI-GL-GL-N-2CL
   - lob:Finance
+  - bo:ReferenceDocumentType
 ---
 # I_REFERENCEDOCUMENTTYPE
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_awtyp preserving type )` | `cast(awtyp` |
+| `ReferenceDocumentType` | `cast(awtyp as fis_awtyp preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

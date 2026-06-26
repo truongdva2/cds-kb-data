@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConditionType           : kschl;` | `ConditionType           : kschl;` |
-| `ConditionRateAmount     : vfprc_rate_amount;` | `ConditionRateAmount     : vfprc_rate_amount;` |
-| `ConditionCurrency       : waers;  //No semantics in I-View` | `ConditionCurrency       : waers;  //No semantics in I-View` |
-| `ConditionQuantity       : kpein;` | `ConditionQuantity       : kpein;` |
-| `ConditionQuantityUnit   : kmein;` | `ConditionQuantityUnit   : kmein;` |
-| `ConditionRateRatio      : vfprc_element_ratio; // Datenelemente klären` | `ConditionRateRatio      : vfprc_element_ratio; // Datenelemente klären` |
-| `ConditionRateRatioUnit  : msehi;` | `ConditionRateRatioUnit  : msehi;` |
+| `ConditionType` | `kschl` |
+| `ConditionRateAmount` | `vfprc_rate_amount` |
+| `ConditionCurrency` | `waers` |
+| `ConditionQuantity` | `kpein` |
+| `ConditionQuantityUnit` | `kmein` |
+| `ConditionRateRatio` | `vfprc_element_ratio` |
+| `ConditionRateRatioUnit` | `msehi` |
 
 ## Associations
 

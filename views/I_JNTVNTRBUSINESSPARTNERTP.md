@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenturePartner` | `JointVenturePartner` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenturePartner` | `JointVenturePartner` |
 | `JointVenturePartner2ShortText` | `JointVenturePartner2ShortText` |
 | `JntVntrIntcoCode` | `JntVntrIntcoCode` |
 | `JntVntrCashCallThld` | `JntVntrCashCallThld` |
@@ -57,7 +57,6 @@ tags:
 | `JntVntrBillgThldIsActive` | `JntVntrBillgThldIsActive` |
 | `JntVntrBillgReportsAreSpprsd` | `JntVntrBillgReportsAreSpprsd` |
 | `JntVntrSeparateBillgIsPrepared` | `JntVntrSeparateBillgIsPrepared` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CompanyCode` | *Association* |
 

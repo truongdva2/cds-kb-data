@@ -16,6 +16,7 @@ tags:
   - text
   - component:PP-VDM-MD-2CL
   - lob:Manufacturing
+  - bo:BOOOperationsStandardTextText
 ---
 # I_OPERATIONSTANDARDTEXTTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `OperationStandardTextCode` | `cast(txt.vlsch as pph_ktsch preserving type)` |
+| `Language` | `txt.spras` |
 | `OperationStandardTextCodeName` | `txt.txt` |
 | `_Language` | *Association* |
 

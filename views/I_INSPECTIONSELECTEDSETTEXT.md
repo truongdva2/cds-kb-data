@@ -16,6 +16,7 @@ tags:
   - text
   - component:QM-PT-2CL
   - lob:Quality Management
+  - bo:SelectedCodeSet
 ---
 # I_INSPECTIONSELECTEDSETTEXT
 
@@ -36,8 +37,7 @@ tags:
 | `InspectionCatalog` | `qpamtxt.katalogart` |
 | `SelectedCodeSet` | `qpamtxt.auswahlmge` |
 | `Language` | `qpamtxt.language` |
-| `vdm_qktextam preserving type )` | `cast( qpamtxt.ktx01` |
-| `/* Associations */` | `/* Associations */` |
+| `SelectedCodeSetText` | `cast( qpamtxt.ktx01 as vdm_qktextam preserving type )` |
 | `_SelectedSetPlant` | *Association* |
 | `_InspectionCatalog` | *Association* |
 | `_InspectionSelectedSet` | *Association* |

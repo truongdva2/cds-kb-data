@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tv_proj_dmnd_source_of_supply )` | `cast( substring(domvalue_l, 1, 2 )` |
+| `ProjectDemandSourceOfSupply` | `cast( substring(domvalue_l, 1, 2 ) as tv_proj_dmnd_source_of_supply )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_SourceOfSupplyText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SourceOfSupplyText` | `I_ProjDmndSourceOfSupplyText` | [0..*] |
 
 ## Source Code
 

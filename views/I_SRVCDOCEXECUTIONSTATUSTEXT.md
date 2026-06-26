@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `ServiceDocumentIsQuotation` | `crms4c_stat_exec.stat_quotation` |
 | `SrvcDocExecutionStatus` | `crms4c_stat_exec.stat_execution` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `SrvcDocExecutionStatusText` | `dd07t.ddtext` |
 | `_SrvcDocExecutionStatus` | *Association* |

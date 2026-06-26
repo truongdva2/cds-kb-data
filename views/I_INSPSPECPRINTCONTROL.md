@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdruck1 preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `, _Text` | `, _Text` |
+| `InspSpecPrintControl` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qdruck1 preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

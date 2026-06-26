@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `importance: #HIGH, position: 10}]` | `importance: #HIGH, position: 10}]` |
-| `key CostCtrActivityType` | `CostCtrActivityType` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCtrActivityType` | `CostCtrActivityType` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |

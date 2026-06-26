@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:SD-BF-PR-2CL
   - lob:Sales & Distribution
+  - bo:PricingProcedureItemSubtotal
 ---
 # I_PRICINGPROCEDUREITEMSUBTOTAL
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzwiw )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgProcedItemSubtotal` | `cast ( substring( domvalue_l, 1, 1 ) as kzwiw )` |
 | `_Text` | *Association* |
 
 ## Associations

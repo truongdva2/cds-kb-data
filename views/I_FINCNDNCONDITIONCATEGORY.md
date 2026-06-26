@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:FIN-FSCM-TRM-2CL
   - lob:Other
+  - bo:FinTransConditionCategory
 ---
 # I_FINCNDNCONDITIONCATEGORY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_cndn_condition_category preserving type )` | `cast( sbktyp` |
+| `FinConditionConditionCategory` | `cast( sbktyp as ftr_cndn_condition_category preserving type )` |
 | `_ConditionCategoryText` | *Association* |
 
 ## Associations

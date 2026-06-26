@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:PaymentSystemIntegrationType
 ---
 # I_BR_PAYTINTEGRATIONTYPETEXT
 
@@ -32,11 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_tpintegra preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_tpintegradesc preserving type )` | `cast ( substring ( ddtext, 1, 60 )` |
-| `_BR_PaymentIntegrationType, //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
-| `_Language //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `PaymentSystemIntegrationType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_tpintegra preserving type )` |
+| `PaytSystemIntegrationTypeDesc` | `cast ( substring ( ddtext, 1, 60 ) as logbr_tpintegradesc preserving type )` |
+| `_BR_PaymentIntegrationType` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

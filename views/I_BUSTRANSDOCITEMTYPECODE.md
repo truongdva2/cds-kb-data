@@ -13,6 +13,7 @@ tags:
   - item-level
   - component:TM-2CL
   - lob:Other
+  - bo:TranspBizTransacDocItmTypeCode
 ---
 # I_BUSTRANSDOCITEMTYPECODE
 
@@ -29,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `njit_btd_item_type_code preserving type )` | `cast (btditm_tco150` |
+| `BusinessTransacDocItmTypeCode` | `cast (btditm_tco150 as njit_btd_item_type_code preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_BusTransDocItmTypeCodeText` | [0..*] |
 
 ## Source Code
 

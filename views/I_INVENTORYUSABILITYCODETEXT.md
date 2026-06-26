@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
-| `spras preserving type)` | `cast(ddlanguage` |
+| `InventoryUsabilityCode` | `cast ( cast ( substring( domvalue_l, 1, 1 ) as abap.char( 1 ) ) as insmk )` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `pi_usability_code_text preserving type )` | `cast ( ddtext` |
+| `InventoryUsabilityCodeName` | `cast ( ddtext as pi_usability_code_text preserving type )` |
 | `_InventoryUsabilityCode` | *Association* |
 | `_Language` | *Association* |
 

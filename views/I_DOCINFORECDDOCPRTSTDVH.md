@@ -15,6 +15,7 @@ tags:
   - standard-value-help
   - component:CA-DMS
   - lob:Cross-Application Components
+  - bo:DocumentInfoRecordDocPart
 ---
 # I_DOCINFORECDDOCPRTSTDVH
 
@@ -31,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
-| `key DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
-| `key DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
-| `key DocumentInfoRecordDocPart` | `DocumentInfoRecordDocPart` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocPart` | `DocumentInfoRecordDocPart` |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 | `_DocVersion` | *Association* |

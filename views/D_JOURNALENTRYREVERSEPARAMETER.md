@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate                : budat;` | `PostingDate                : budat;` |
-| `ReversalReason             : acpi_stgrd;` | `ReversalReason             : acpi_stgrd;` |
-| `CreatedByUser              : usnam;` | `CreatedByUser              : usnam;` |
+| `PostingDate` | `budat` |
+| `ReversalReason` | `acpi_stgrd` |
+| `CreatedByUser` | `usnam` |
 
 ## Associations
 

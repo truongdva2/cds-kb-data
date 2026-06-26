@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:LE-SHP-GF-2CL
   - lob:Logistics Execution
+  - bo:ShippingCondition
 ---
 # I_SHIPPINGCONDITION
 

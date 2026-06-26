@@ -17,6 +17,7 @@ tags:
   - workflow
   - component:BC-BMT-WFM
   - lob:Basis Components
+  - bo:WorkflowScenarioDefinition
 ---
 # I_WORKFLOWSCENARIODEFTEXT
 
@@ -33,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowScenarioDefinition` | `WorkflowScenarioDefinition.WorkflowScenarioDefinition` |
+| `Language` | `WorkflowDefinitionText.Language` |
 | `_Language` | *Association* |
 | `WorkflowScenarioDefinitionName` | `WorkflowDefinitionText.WorkflowTaskDefinitionName` |
 

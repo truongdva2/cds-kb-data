@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductionVersionLock : mksp;` | `ProductionVersionLock : mksp;` |
+| `ProductionVersionLock` | `mksp` |
 
 ## Associations
 

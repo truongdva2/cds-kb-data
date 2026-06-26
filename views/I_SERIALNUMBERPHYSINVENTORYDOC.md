@@ -33,18 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListPhysInventoryDoc.FiscalYear` | `_MaintObjListPhysInventoryDoc.FiscalYear` |
-| `key _MaintObjListPhysInventoryDoc.PhysicalInventoryDocument` | `_MaintObjListPhysInventoryDoc.PhysicalInventoryDocument` |
-| `key _MaintObjListPhysInventoryDoc.PhysicalInventoryDocumentItem` | `_MaintObjListPhysInventoryDoc.PhysicalInventoryDocumentItem` |
-| `key _MaintObjListPhysInventoryDoc.SerialNumberPhysicalInvtryType` | `_MaintObjListPhysInventoryDoc.SerialNumberPhysicalInvtryType` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListPhysInventoryDoc._PhysicalInvtryDocFiscalYear` | *Association* |
-| `_MaintObjListPhysInventoryDoc._PhysicalInventoryDocument` | *Association* |
-| `_MaintObjListPhysInventoryDoc._PhysicalInventoryDocumentItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `FiscalYear` | `_MaintObjListPhysInventoryDoc.FiscalYear` |
+| `PhysicalInventoryDocument` | `_MaintObjListPhysInventoryDoc.PhysicalInventoryDocument` |
+| `PhysicalInventoryDocumentItem` | `_MaintObjListPhysInventoryDoc.PhysicalInventoryDocumentItem` |
+| `SerialNumberPhysicalInvtryType` | `_MaintObjListPhysInventoryDoc.SerialNumberPhysicalInvtryType` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_PhysicalInvtryDocFiscalYear` | *Association* |
+| `_PhysicalInventoryDocument` | *Association* |
+| `_PhysicalInventoryDocumentItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

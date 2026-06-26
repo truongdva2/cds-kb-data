@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/purch_org preserving type )` | `cast( PurchasingOrganization` |
-| `/scmtms/purch_org_name preserving type )` | `cast( PurchasingOrganizationName` |
-| `/scmtms/purch_company_code preserving type )` | `cast( CompanyCode` |
+| `TranspPurgOrg` | `cast( PurchasingOrganization as /scmtms/purch_org preserving type )` |
+| `TranspPurgOrgName` | `cast( PurchasingOrganizationName as /scmtms/purch_org_name preserving type )` |
+| `CompanyCode` | `cast( CompanyCode as /scmtms/purch_company_code preserving type )` |
 | `ConfigDeprecationCode` | `ConfigDeprecationCode` |
 | `_CompanyCode` | *Association* |
 

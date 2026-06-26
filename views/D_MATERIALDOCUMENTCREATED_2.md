@@ -32,12 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `InventoryTransactionType     : vgart;` | `InventoryTransactionType     : vgart;` |
-| `_MaterialDocumentItemCreated : composition [1..*] of D_MaterialDocumentItemCrted_2;` | *Association* |
+| `InventoryTransactionType` | `vgart` |
+| `_MaterialDocumentItemCreated` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_MaterialDocumentItemCreated` | `D_MaterialDocumentItemCrted_2` | [1..*] |
 
 ## Source Code
 

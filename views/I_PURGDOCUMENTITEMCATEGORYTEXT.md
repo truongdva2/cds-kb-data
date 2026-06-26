@@ -16,6 +16,7 @@ tags:
   - item-level
   - component:MM
   - lob:Sourcing & Procurement
+  - bo:PurgDocumentItemCategoryText
 ---
 # I_PURGDOCUMENTITEMCATEGORYTEXT
 
@@ -32,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
+| `PurchasingDocumentItemCategory` | `pstyp` |
+| `Language` | `spras` |
 | `PurgDocItemCategoryName` | `ptext` |
 | `PurgDocExternalItemCategory` | `epstp` |
 | `_PurgDocumentItemCategory` | *Association* |
@@ -42,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgDocumentItemCategory` | `I_PurgDocumentItemCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

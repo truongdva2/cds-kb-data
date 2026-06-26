@@ -31,25 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CustomerProjectVH'` | `name:    'I_CustomerProjectVH'` |
-| `element: 'CustomerProject' }` | `element: 'CustomerProject' }` |
-| `}]` | `}]` |
-| `key CustProjSlsOrdItem.CustomerProject` | `CustProjSlsOrdItem.CustomerProject` |
-| `key CustProjSlsOrdItem.SalesOrderItem` | `CustProjSlsOrdItem.SalesOrderItem` |
-| `key WorkPackage.WorkPackage` | `WorkPackage.WorkPackage` |
-| `WorkPackage.WorkPackageName` | `WorkPackage.WorkPackageName` |
-| `CustProjSlsOrdItem.SalesOrder` | `CustProjSlsOrdItem.SalesOrder` |
-| `WorkPackage.WorkPackageStartDate` | `WorkPackage.WorkPackageStartDate` |
-| `WorkPackage.WorkPackageEndDate` | `WorkPackage.WorkPackageEndDate` |
-| `WorkPackage.WorkPackageUUID` | `WorkPackage.WorkPackageUUID` |
-| `CustProjSlsOrdItem.SalesOrderType` | `CustProjSlsOrdItem.SalesOrderType` |
-| `CustProjSlsOrdItem.OrganizationDivision` | `CustProjSlsOrdItem.OrganizationDivision` |
-| `CustProjSlsOrdItem.SalesOrganization` | `CustProjSlsOrdItem.SalesOrganization` |
-| `CustProjSlsOrdItem.DistributionChannel` | `CustProjSlsOrdItem.DistributionChannel` |
+| `CustomerProject` | `CustProjSlsOrdItem.CustomerProject` |
+| `SalesOrderItem` | `CustProjSlsOrdItem.SalesOrderItem` |
+| `WorkPackage` | `WorkPackage.WorkPackage` |
+| `WorkPackageName` | `WorkPackage.WorkPackageName` |
+| `SalesOrder` | `CustProjSlsOrdItem.SalesOrder` |
+| `WorkPackageStartDate` | `WorkPackage.WorkPackageStartDate` |
+| `WorkPackageEndDate` | `WorkPackage.WorkPackageEndDate` |
+| `WorkPackageUUID` | `WorkPackage.WorkPackageUUID` |
+| `SalesOrderType` | `CustProjSlsOrdItem.SalesOrderType` |
+| `OrganizationDivision` | `CustProjSlsOrdItem.OrganizationDivision` |
+| `SalesOrganization` | `CustProjSlsOrdItem.SalesOrganization` |
+| `DistributionChannel` | `CustProjSlsOrdItem.DistributionChannel` |
 | `_CustomerProject` | *Association* |
 | `_CustProjSlsOrdItem` | *Association* |
 | `_SalesOrderItem` | *Association* |
-| `CustProjSlsOrdItem._SalesOrder` | `CustProjSlsOrdItem._SalesOrder` |
+| `_SalesOrder` | *Association* |
 
 ## Associations
 

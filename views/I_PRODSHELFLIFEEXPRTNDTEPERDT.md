@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:ShelfLifeExpirationDatePeriod
 ---
 # I_PRODSHELFLIFEEXPRTNDTEPERDT
 
@@ -30,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `shelflifeexpirationdateperiod )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ShelfLifeExpirationDatePeriod` | `cast( dd07t.domvalue_l as shelflifeexpirationdateperiod )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `Name` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

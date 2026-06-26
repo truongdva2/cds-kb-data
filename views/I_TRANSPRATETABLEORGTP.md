@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableOrgUUID` | `TranspRateTableOrgUUID` |
+| `TranspRateTableOrgUUID` | `TranspRateTableOrgUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TranspPurgOrgExtID` | `TranspPurgOrgExtID` |
-| `TranspRateTableOrganization._TransportationRateTable : redirected to parent I_TransportationRateTableTP` | `TranspRateTableOrganization._TransportationRateTable : redirected to parent I_TransportationRateTableTP` |
 
 ## Associations
 

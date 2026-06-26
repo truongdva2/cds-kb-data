@@ -15,6 +15,7 @@ tags:
   - transactional-processing
   - component:CA-WFD-INT
   - lob:Cross-Application Components
+  - bo:WorkforcePerson
 ---
 # I_WORKFORCEPERSONTP_1
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
+| `WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
 | `BusinessPartner` | `BusinessPartner` |
 | `WorkforcePersonExternalUUID` | `WorkforcePersonExternalUUID` |
 | `FullName` | `FullName` |
@@ -59,8 +60,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `WorkforcePerson._WorkAssignment           : redirected to composition child I_WorkAssignmentTP_1` | `WorkforcePerson._WorkAssignment           : redirected to composition child I_WorkAssignmentTP_1` |
-| `WorkforcePerson._WorkforcePersonSkillTags : redirected to composition child I_WorkforcePersonSkillTagTP_1` | `WorkforcePerson._WorkforcePersonSkillTags : redirected to composition child I_WorkforcePersonSkillTagTP_1` |
 
 ## Associations
 

@@ -33,12 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
-| `key Product` | `Product` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `Product` | `Product` |
+| `ChangeNumber` | `ChangeNumber` |
 | `RevisionLevel` | `RevisionLevel` |
 | `_ChangeMaster` | *Association* |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 
 ## Associations
 

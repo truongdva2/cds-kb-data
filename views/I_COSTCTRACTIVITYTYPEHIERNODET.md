@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:FI-GL-IS-2CL
   - lob:Finance
+  - bo:CostCtrActivityTypeHierNdeText
 ---
 # I_COSTCTRACTIVITYTYPEHIERNODET
 
@@ -30,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
-| `fis_kokrs preserving type )` | `cast( hrrp_nodet_n.kokrs` |
-| `fis_hryid_cctracttytpe preserving type )` | `cast(hrrp_nodet_n.hryid` |
+| `ControllingArea` | `cast( hrrp_nodet_n.kokrs as fis_kokrs preserving type )` |
+| `CostCtrActivityTypeHierarchy` | `cast(hrrp_nodet_n.hryid as fis_hryid_cctracttytpe preserving type )` |
 | `HierarchyNode` | `hrrp_nodet_n.hrynode` |
 | `ValidityEndDate` | `hrrp_nodet_n.hryvalto` |
 | `Language` | `hrrp_nodet_n.spras` |

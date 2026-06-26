@@ -16,6 +16,7 @@ tags:
   - text
   - component:FI-LOC-LO-BR
   - lob:Finance
+  - bo:BR_NFeDestination
 ---
 # I_BR_NFEDESTINATIONTEXT
 
@@ -32,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_nfe_iddest preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_nfe_iddest_description preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFeDestination` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_nfe_iddest preserving type )` |
+| `BR_NFeDestinationDesc` | `cast( ddtext as logbr_nfe_iddest_description preserving type )` |
 | `_BR_NFeDestination` | *Association* |
 | `_Language` | *Association* |
 

@@ -30,70 +30,107 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_GLAccountStdVH'` | `name:    'I_GLAccountStdVH'` |
-| `element: 'GLAccount' }` | `element: 'GLAccount' }` |
-| `}]` | `}]` |
-| `JVItem.GLAccount` | `JVItem.GLAccount` |
-| `JVItem._GLAccountTxt[ Language = $session.system_language ].GLAccountName` | `JVItem._GLAccountTxt[ Language = $session.system_language ].GLAccountName` |
-| `BillIndex.JntIntrstBillgClass` | `BillIndex.JntIntrstBillgClass` |
-| `BillIndex.JntIntrstBillgSubClass` | `BillIndex.JntIntrstBillgSubClass` |
-| `BillIndex.JntIntrstBillgSubClass2` | `BillIndex.JntIntrstBillgSubClass2` |
-| `BillIndex.JntVntrCostTypeText` | `BillIndex.JntVntrCostTypeText` |
-| `BillIndex.JntIntrstBillgCostObjectType` | `BillIndex.JntIntrstBillgCostObjectType` |
-| `cast( case when BillIndex.JntIntrstBillgClass     is not initial and` | `cast( case when BillIndex.JntIntrstBillgClass     is not initial and` |
-| `BillIndex.JntIntrstBillgSubClass  is not initial and` | `BillIndex.JntIntrstBillgSubClass  is not initial and` |
-| `BillIndex.JntIntrstBillgSubClass2 is not initial then` | `BillIndex.JntIntrstBillgSubClass2 is not initial then` |
-| `concat( concat( BillIndex.JntIntrstBillgClass, '/' )` | `concat( concat( BillIndex.JntIntrstBillgClass, '/' )` |
-| `concat( concat( BillIndex.JntIntrstBillgSubClass,'/' )` | `concat( concat( BillIndex.JntIntrstBillgSubClass,'/' )` |
-| `BillIndex.JntIntrstBillgSubClass2 ) )` | `BillIndex.JntIntrstBillgSubClass2 ) )` |
-| `when BillIndex.JntIntrstBillgClass     is not initial and` | `when BillIndex.JntIntrstBillgClass     is not initial and` |
-| `BillIndex.JntIntrstBillgSubClass  is not initial then` | `BillIndex.JntIntrstBillgSubClass  is not initial then` |
-| `concat( concat( BillIndex.JntIntrstBillgClass, '/' )` | `concat( concat( BillIndex.JntIntrstBillgClass, '/' )` |
-| `BillIndex.JntIntrstBillgSubClass )` | `BillIndex.JntIntrstBillgSubClass )` |
-| `when BillIndex.JntIntrstBillgClass is not initial then` | `when BillIndex.JntIntrstBillgClass is not initial then` |
-| `BillIndex.JntIntrstBillgClass` | `BillIndex.JntIntrstBillgClass` |
-| `else ' '` | `else ' '` |
-| `abap.char(33) )` | `end` |
-| `JVItem._CompanyCode` | `JVItem._CompanyCode` |
-| `JVItem._CompanyCodeText` | `JVItem._CompanyCodeText` |
-| `JVItem._ControllingArea` | `JVItem._ControllingArea` |
-| `JVItem._ControllingAreaText` | `JVItem._ControllingAreaText` |
-| `JVItem._ChartOfAccounts` | `JVItem._ChartOfAccounts` |
-| `JVItem._FiscalYear` | `JVItem._FiscalYear` |
-| `JVItem._FiscalPeriodCompanyCode` | `JVItem._FiscalPeriodCompanyCode` |
-| `_FiscalPeriod` | `JVItem._FiscalPeriodCompanyCode` |
-| `JVItem._LedgerFiscalYearForVariant` | `JVItem._LedgerFiscalYearForVariant` |
-| `JVItem._FiscalYearVariant` | `JVItem._FiscalYearVariant` |
+| `CompanyCode` | `JVItem.CompanyCode` |
+| `FiscalYear` | `JVItem.FiscalYear` |
+| `AccountingDocument` | `JVItem.AccountingDocument` |
+| `LedgerGLLineItem` | `JVItem.LedgerGLLineItem` |
+| `Ledger` | `JVItem.SourceLedger` |
+| `PostingDate` | `JVItem.PostingDate` |
+| `FiscalPeriod` | `JVItem.FiscalPeriod` |
+| `LedgerFiscalYear` | `JVItem.LedgerFiscalYear` |
+| `FiscalYearVariant` | `JVItem.FiscalYearVariant` |
+| `CompanyCodeName` | `JVItem._CompanyCode[ Language = $session.system_language ].CompanyCodeName` |
+| `JointVenture` | `JVItem.JointVenture` |
+| `JointVentureName` | `coalesce(…)` |
+| `JointVentureEquityGroup` | `JVItem.JointVentureEquityGroup` |
+| `JointVentureCostRecoveryCode` | `JVItem.JointVentureCostRecoveryCode` |
+| `JointVenturePartner` | `JVItem.JointVenturePartner` |
+| `TransactionCurrency` | `JVItem.TransactionCurrency` |
+| `AmountInTransactionCurrency` | `JVItem.AmountInTransactionCurrency` |
+| `CompanyCodeCurrency` | `JVItem.CompanyCodeCurrency` |
+| `AmountInCompanyCodeCurrency` | `JVItem.AmountInCompanyCodeCurrency` |
+| `GlobalCurrency` | `JVItem.GlobalCurrency` |
+| `AmountInGlobalCurrency` | `JVItem.AmountInGlobalCurrency` |
+| `FunctionalCurrency` | `JVItem.FunctionalCurrency` |
+| `AmountInFunctionalCurrency` | `JVItem.AmountInFunctionalCurrency` |
+| `FreeDefinedCurrency1` | `JVItem.FreeDefinedCurrency1` |
+| `AmountInFreeDefinedCurrency1` | `JVItem.AmountInFreeDefinedCurrency1` |
+| `FreeDefinedCurrency2` | `JVItem.FreeDefinedCurrency2` |
+| `AmountInFreeDefinedCurrency2` | `JVItem.AmountInFreeDefinedCurrency2` |
+| `FreeDefinedCurrency3` | `JVItem.FreeDefinedCurrency3` |
+| `AmountInFreeDefinedCurrency3` | `JVItem.AmountInFreeDefinedCurrency3` |
+| `FreeDefinedCurrency4` | `JVItem.FreeDefinedCurrency4` |
+| `FreeDefinedCurrency5` | `JVItem.FreeDefinedCurrency5` |
+| `AmountInFreeDefinedCurrency5` | `JVItem.AmountInFreeDefinedCurrency5` |
+| `FreeDefinedCurrency6` | `JVItem.FreeDefinedCurrency6` |
+| `AmountInFreeDefinedCurrency6` | `JVItem.AmountInFreeDefinedCurrency6` |
+| `FreeDefinedCurrency7` | `JVItem.FreeDefinedCurrency7` |
+| `AmountInFreeDefinedCurrency7` | `JVItem.AmountInFreeDefinedCurrency7` |
+| `FreeDefinedCurrency8` | `JVItem.FreeDefinedCurrency8` |
+| `AmountInFreeDefinedCurrency8` | `JVItem.AmountInFreeDefinedCurrency8` |
+| `JVAFundingCurrency1` | `cast( JVItem.JVAFundingCurrency as jv_fundcur preserving type )` |
+| `AmountInJVAFundingCurrency` | `cast( JVItem.AmountInJVAFundingCurrency as jv_fundamt preserving type )` |
+| `JVAExpenditureType` | `BillIndex.JVAExpenditureType` |
+| `JVAProjIsAuthzdForCptlExpndtr` | `BillIndex.JVAProjIsAuthzdForCptlExpndtr` |
+| `JntVntrAuthznForExpndtrObject` | `cast( _WBSElementBasicData.WBSElementExternalID as jv_afenum_cds )` |
+| `CostCenter` | `JVItem.CostCenter` |
+| `CostCenterName` | `_CostCenterText.CostCenterName` |
+| `ControllingArea` | `JVItem.ControllingArea` |
+| `ChartOfAccounts` | `JVItem.ChartOfAccounts` |
+| `WBSElementExternalID` | `JVItem.WBSElementExternalID` |
+| `WBSDescription` | `JVItem._WBSElementBasicData.WBSDescription` |
+| `WBSElementInternalID` | `JVItem.WBSElementInternalID` |
+| `OrderID` | `JVItem.OrderID` |
+| `SuperiorOrder` | `JVItem.SuperiorOrder` |
+| `AssetTransactionType` | `JVItem.AssetTransactionType` |
+| `GLAccount` | `JVItem.GLAccount` |
+| `GLAccountName` | `JVItem._GLAccountTxt[ Language = $session.system_language ].GLAccountName` |
+| `JntIntrstBillgClass` | `BillIndex.JntIntrstBillgClass` |
+| `JntIntrstBillgSubClass` | `BillIndex.JntIntrstBillgSubClass` |
+| `JntIntrstBillgSubClass2` | `BillIndex.JntIntrstBillgSubClass2` |
+| `JntVntrCostTypeText` | `BillIndex.JntVntrCostTypeText` |
+| `JntIntrstBillgCostObjectType` | `BillIndex.JntIntrstBillgCostObjectType` |
+| `JntVntrSuspenseStatusText` | `cast(…)` |
+| `_CompanyCode` | *Association* |
+| `_CompanyCodeText` | *Association* |
+| `_ControllingArea` | *Association* |
+| `_ControllingAreaText` | *Association* |
+| `_ChartOfAccounts` | *Association* |
+| `_FiscalYear` | *Association* |
+| `_FiscalPeriodCompanyCode` | *Association* |
+| `_FiscalPeriod` | *Association* |
+| `_LedgerFiscalYearForVariant` | *Association* |
+| `_FiscalYearVariant` | *Association* |
 | `_JournalEntry` | *Association* |
 | `_CostCenter` | *Association* |
 | `_CostCenterText` | *Association* |
-| `JVItem._JointVentureDesc` | `JVItem._JointVentureDesc` |
-| `JVItem._Order` | `JVItem._Order` |
-| `JVItem._JointVentureMasterFld` | `JVItem._JointVentureMasterFld` |
-| `JVItem._GLAccountTxt` | `JVItem._GLAccountTxt` |
-| `JVItem._GLAccountInChartOfAccounts` | `JVItem._GLAccountInChartOfAccounts` |
-| `JVItem._JntVntrEquityGrp` | `JVItem._JntVntrEquityGrp` |
-| `JVItem._JntVntrRecoveryInd` | `JVItem._JntVntrRecoveryInd` |
-| `JVItem._JntVntrBusinessPartner` | `JVItem._JntVntrBusinessPartner` |
-| `JVItem._TransactionCurrency` | `JVItem._TransactionCurrency` |
-| `JVItem._CompanyCodeCurrency` | `JVItem._CompanyCodeCurrency` |
-| `JVItem._WBSElementBasicData` | `JVItem._WBSElementBasicData` |
-| `_WBSElementBasicDataText` | `JVItem._WBSElementBasicData` |
-| `JVItem._WBSElementInternalID` | `JVItem._WBSElementInternalID` |
-| `JVItem._WBSElementExternalID` | `JVItem._WBSElementExternalID` |
-| `JVItem._WBSElementExternalIDText` | `JVItem._WBSElementExternalIDText` |
-| `JVItem._WBSElementInternalIDText` | `JVItem._WBSElementInternalIDText` |
-| `JVItem._GlobalCurrency` | `JVItem._GlobalCurrency` |
-| `JVItem._FunctionalCurrency` | `JVItem._FunctionalCurrency` |
-| `JVItem._FreeDefinedCurrency1` | `JVItem._FreeDefinedCurrency1` |
-| `JVItem._FreeDefinedCurrency2` | `JVItem._FreeDefinedCurrency2` |
-| `JVItem._FreeDefinedCurrency3` | `JVItem._FreeDefinedCurrency3` |
-| `JVItem._FreeDefinedCurrency4` | `JVItem._FreeDefinedCurrency4` |
-| `JVItem._FreeDefinedCurrency5` | `JVItem._FreeDefinedCurrency5` |
-| `JVItem._FreeDefinedCurrency6` | `JVItem._FreeDefinedCurrency6` |
-| `JVItem._FreeDefinedCurrency7` | `JVItem._FreeDefinedCurrency7` |
-| `JVItem._FreeDefinedCurrency8` | `JVItem._FreeDefinedCurrency8` |
-| `JVItem._JntVntrEquityGrp._JntVntrEquityGrpText[1:Language = $session.system_language].JntOpgAgrmtEquityGrpText` | `JVItem._JntVntrEquityGrp._JntVntrEquityGrpText[1:Language = $session.system_language].JntOpgAgrmtEquityGrpText` |
+| `_JointVentureDesc` | *Association* |
+| `_Order` | *Association* |
+| `_JointVentureMasterFld` | *Association* |
+| `_GLAccountTxt` | *Association* |
+| `_GLAccountInChartOfAccounts` | *Association* |
+| `_JntVntrEquityGrp` | *Association* |
+| `_JntVntrRecoveryInd` | *Association* |
+| `_JntVntrBusinessPartner` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `_CompanyCodeCurrency` | *Association* |
+| `_WBSElementBasicData` | *Association* |
+| `_WBSElementBasicDataText` | *Association* |
+| `_WBSElementInternalID` | *Association* |
+| `_WBSElementExternalID` | *Association* |
+| `_WBSElementExternalIDText` | *Association* |
+| `_WBSElementInternalIDText` | *Association* |
+| `_GlobalCurrency` | *Association* |
+| `_FunctionalCurrency` | *Association* |
+| `_FreeDefinedCurrency1` | *Association* |
+| `_FreeDefinedCurrency2` | *Association* |
+| `_FreeDefinedCurrency3` | *Association* |
+| `_FreeDefinedCurrency4` | *Association* |
+| `_FreeDefinedCurrency5` | *Association* |
+| `_FreeDefinedCurrency6` | *Association* |
+| `_FreeDefinedCurrency7` | *Association* |
+| `_FreeDefinedCurrency8` | *Association* |
+| `JntOpgAgrmtEquityGrpText` | `expr(…)` |
 
 ## Associations
 

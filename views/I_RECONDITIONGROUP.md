@@ -15,6 +15,7 @@ tags:
   - pricing-condition
   - component:RE-FX-CN-2CL
   - lob:Other
+  - bo:REConditionGroup
 ---
 # I_RECONDITIONGROUP
 
@@ -36,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REConditionGroupText` | [0..*] |
 
 ## Source Code
 

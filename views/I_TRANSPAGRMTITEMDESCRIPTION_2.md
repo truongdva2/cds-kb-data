@@ -31,16 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpagritemtext_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(root_key` |
-| `/scmtms/transpagrmt_itm_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/vdm_fag_item_desc preserving type)` | `cast(description` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspAgreementItemDescUUID` | `cast(db_key as /scmtms/transpagritemtext_uuid preserving type)` |
+| `TransportationAgreementUUID` | `cast(root_key as /scmtms/transpagrmt_uuid preserving type)` |
+| `TranspAgreementItemUUID` | `cast(parent_key as /scmtms/transpagrmt_itm_uuid preserving type)` |
+| `TranspAgreementItemDesc` | `cast(description as /scmtms/vdm_fag_item_desc preserving type)` |
 | `_TranspAgreementItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TranspAgreementItem` | `I_TranspAgreementItem_2` | — |
 
 ## Source Code
 

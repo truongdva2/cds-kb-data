@@ -19,6 +19,7 @@ tags:
   - status
   - component:SD-BIL-BDR-2CL
   - lob:Sales & Distribution
+  - bo:OverallBillingDocReqStatus
 ---
 # I_OVRLBILLINGDOCREQSTATUSTEXT
 
@@ -43,7 +44,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OvrlBillingDocReqStatus` | `I_OvrlBillingDocReqStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

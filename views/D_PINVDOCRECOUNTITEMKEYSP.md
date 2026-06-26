@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PhysicalInventoryDocumentItem : pi_item_number;` | `PhysicalInventoryDocumentItem : pi_item_number;` |
-| `_RecountSettings : association to parent D_PInvRecountPhysInvtryDocItmP;` | *Association* |
+| `PhysicalInventoryDocumentItem` | `pi_item_number` |
+| `_RecountSettings` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_RecountSettings` | `D_PInvRecountPhysInvtryDocItmP` | — |
 
 ## Source Code
 

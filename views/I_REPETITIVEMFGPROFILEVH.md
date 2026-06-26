@@ -14,6 +14,7 @@ tags:
   - value-help
   - component:PP-VDM-2CL
   - lob:Manufacturing
+  - bo:RepetitiveManufacturingProfile
 ---
 # I_REPETITIVEMFGPROFILEVH
 
@@ -30,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `RepetitiveManufacturingProfile` | `RepetitiveManufacturingProfile` |
 | `RepetitiveMfgProductionType` | `RepetitiveMfgProductionType` |
 | `_Text` | *Association* |
 

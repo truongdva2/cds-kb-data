@@ -13,6 +13,7 @@ tags:
   - interface-view
   - component:CA-CL-2CL
   - lob:Cross-Application Components
+  - bo:ClassInternalID
 ---
 # I_CLFNCLASSFORKEYDATE
 
@@ -29,36 +30,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Class.ClassInternalID` | `Class.ClassInternalID` |
-| `Class.ClassType` | `Class.ClassType` |
-| `Class.Class` | `Class.Class` |
-| `Class.ClassStatus` | `Class.ClassStatus` |
-| `Class.ClassGroup` | `Class.ClassGroup` |
-| `Class.ClassSearchAuthGrp` | `Class.ClassSearchAuthGrp` |
-| `Class.ClassClassfctnAuthGrp` | `Class.ClassClassfctnAuthGrp` |
-| `Class.ClassMaintAuthGrp` | `Class.ClassMaintAuthGrp` |
-| `Class.DocumentInfoRecordDocNumber` | `Class.DocumentInfoRecordDocNumber` |
-| `Class.DocumentInfoRecordDocType` | `Class.DocumentInfoRecordDocType` |
-| `Class.DocumentInfoRecordDocPart` | `Class.DocumentInfoRecordDocPart` |
-| `Class.DocumentInfoRecordDocVersion` | `Class.DocumentInfoRecordDocVersion` |
-| `Class.SameClassfctnReaction` | `Class.SameClassfctnReaction` |
-| `Class.ClfnOrganizationalArea` | `Class.ClfnOrganizationalArea` |
-| `Class.ClassStandardOrgName` | `Class.ClassStandardOrgName` |
-| `Class.ClassStandardNumber` | `Class.ClassStandardNumber` |
-| `Class.ClassStandardStartDate` | `Class.ClassStandardStartDate` |
-| `Class.ClassStandardVersionStartDate` | `Class.ClassStandardVersionStartDate` |
-| `Class.ClassStandardVersion` | `Class.ClassStandardVersion` |
-| `Class.ClassStandardCharcTable` | `Class.ClassStandardCharcTable` |
-| `Class.ClassBaseUnit` | `Class.ClassBaseUnit` |
-| `Class.ClassIsUsableInBOM` | `Class.ClassIsUsableInBOM` |
-| `Class.ClassIsLocal` | `Class.ClassIsLocal` |
-| `Class.ValidityStartDate` | `Class.ValidityStartDate` |
-| `Class.ValidityEndDate` | `Class.ValidityEndDate` |
-| `Class.CreatedByUser` | `Class.CreatedByUser` |
-| `Class.CreationDate` | `Class.CreationDate` |
-| `Class.LastChangedByUser` | `Class.LastChangedByUser` |
-| `Class.LastChangeDate` | `Class.LastChangeDate` |
-| `Class.ClassLastChangedDateTime` | `Class.ClassLastChangedDateTime` |
+| `ClassInternalID` | `Class.ClassInternalID` |
+| `ClassType` | `Class.ClassType` |
+| `Class` | `Class.Class` |
+| `ClassStatus` | `Class.ClassStatus` |
+| `ClassGroup` | `Class.ClassGroup` |
+| `ClassSearchAuthGrp` | `Class.ClassSearchAuthGrp` |
+| `ClassClassfctnAuthGrp` | `Class.ClassClassfctnAuthGrp` |
+| `ClassMaintAuthGrp` | `Class.ClassMaintAuthGrp` |
+| `DocumentInfoRecordDocNumber` | `Class.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocType` | `Class.DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocPart` | `Class.DocumentInfoRecordDocPart` |
+| `DocumentInfoRecordDocVersion` | `Class.DocumentInfoRecordDocVersion` |
+| `SameClassfctnReaction` | `Class.SameClassfctnReaction` |
+| `ClfnOrganizationalArea` | `Class.ClfnOrganizationalArea` |
+| `ClassStandardOrgName` | `Class.ClassStandardOrgName` |
+| `ClassStandardNumber` | `Class.ClassStandardNumber` |
+| `ClassStandardStartDate` | `Class.ClassStandardStartDate` |
+| `ClassStandardVersionStartDate` | `Class.ClassStandardVersionStartDate` |
+| `ClassStandardVersion` | `Class.ClassStandardVersion` |
+| `ClassStandardCharcTable` | `Class.ClassStandardCharcTable` |
+| `ClassBaseUnit` | `Class.ClassBaseUnit` |
+| `ClassIsUsableInBOM` | `Class.ClassIsUsableInBOM` |
+| `ClassIsLocal` | `Class.ClassIsLocal` |
+| `ValidityStartDate` | `Class.ValidityStartDate` |
+| `ValidityEndDate` | `Class.ValidityEndDate` |
+| `CreatedByUser` | `Class.CreatedByUser` |
+| `CreationDate` | `Class.CreationDate` |
+| `LastChangedByUser` | `Class.LastChangedByUser` |
+| `LastChangeDate` | `Class.LastChangeDate` |
+| `ClassLastChangedDateTime` | `Class.ClassLastChangedDateTime` |
 | `_ClassDescription` | *Association* |
 | `_ClassKeyword` | *Association* |
 | `_ClassGroup` | *Association* |

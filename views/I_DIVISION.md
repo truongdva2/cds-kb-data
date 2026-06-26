@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:SD-CRF-ORG-2CL
   - lob:Sales & Distribution
+  - bo:Division
 ---
 # I_DIVISION
 
@@ -31,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Division` | `spart` |
-| `division_oid )` | `cast( spart` |
+| `DivisionOID` | `cast( spart as division_oid )` |
 | `_DivisionHierarchyNode` | *Association* |
 | `_Text` | *Association* |
 

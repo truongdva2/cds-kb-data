@@ -16,6 +16,7 @@ tags:
   - header-level
   - component:SCM-EWM-DLP-2CL
   - lob:Other
+  - bo:WarehouseOutboundDeliveryOrder
 ---
 # I_EWM_OUTBDELIVORDERHEADERTP
 
@@ -32,37 +33,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMOutboundDeliveryOrder` | `EWMOutboundDeliveryOrder` |
+| `EWMOutboundDeliveryOrder` | `EWMOutboundDeliveryOrder` |
 | `OutboundDeliveryOrderUUID` | `OutboundDeliveryOrderUUID` |
 | `SAPObjectNodeType` | `SAPObjectNodeType` |
 | `EWMOutbDeliveryOrderUUIDHex` | `EWMOutbDeliveryOrderUUIDHex` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `EWMDeliveryDocumentCategory` | `EWMDeliveryDocumentCategory` |
 | `EWMDeliveryDocumentType` | `EWMDeliveryDocumentType` |
-| `/* Business Partner */` | `/* Business Partner */` |
 | `ShipToParty` | `ShipToParty` |
 | `ShipToPartyName` | `ShipToPartyName` |
 | `EWMShipToIsBusPurposeCmpltd` | `EWMShipToIsBusPurposeCmpltd` |
 | `Carrier` | `Carrier` |
 | `CarrierName` | `CarrierName` |
 | `EWMCarrierIsBusPurposeCmpltd` | `EWMCarrierIsBusPurposeCmpltd` |
-| `/* Reference Documents */` | `/* Reference Documents */` |
 | `OutboundDelivery` | `OutboundDelivery` |
-| `/* TM References */` | `/* TM References */` |
 | `FreightOrder` | `FreightOrder` |
 | `MasterBillOfLading` | `MasterBillOfLading` |
 | `TranspOrdPartnerReference` | `TranspOrdPartnerReference` |
 | `BusinessSystemName` | `BusinessSystemName` |
-| `/* Status */` | `/* Status */` |
 | `EWMShippingReadinessStatus` | `EWMShippingReadinessStatus` |
-| `/* Date Times */` | `/* Date Times */` |
 | `PlannedDeliveryUTCDateTime` | `PlannedDeliveryUTCDateTime` |
 | `PlannedOutOfYardUTCDateTime` | `PlannedOutOfYardUTCDateTime` |
 | `WarehouseTimeZone` | `WarehouseTimeZone` |
-| `/* Incoterms */` | `/* Incoterms */` |
 | `IncotermsPart1` | `IncotermsPart1` |
 | `IncotermsPart2` | `IncotermsPart2` |
-| `/* Transportation & Location */` | `/* Transportation & Location */` |
 | `EWMRoute` | `EWMRoute` |
 | `RouteName` | `RouteName` |
 | `SalesOrganization` | `SalesOrganization` |
@@ -71,11 +65,7 @@ tags:
 | `EWMMeansOfTransportType` | `EWMMeansOfTransportType` |
 | `EWMTranspPlanningType` | `EWMTranspPlanningType` |
 | `EWMDelivLastChangeUTCDateTime` | `EWMDelivLastChangeUTCDateTime` |
-| `/* Warehouse Tasks Exists*/` | `/* Warehouse Tasks Exists*/` |
 | `EWMWhseReqHasWarehouseTask` | `EWMWhseReqHasWarehouseTask` |
-| `/* VDM Associations */` | `/* VDM Associations */` |
-| `_WhseOutbDeliveryOrderItem : redirected to composition child I_EWM_OutbDelivOrderItemTP` | *Association* |
-| `/* Attachments */` | `/* Attachments */` |
 | `_HDMRelation` | *Association* |
 
 ## Associations

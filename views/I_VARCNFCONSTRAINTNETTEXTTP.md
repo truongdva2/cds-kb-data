@@ -32,11 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key LanguageCode` | `LanguageCode` |
-| `/* Associations */` | `/* Associations */` |
-| `_ConstraintNet  : redirected to parent I_VarCnfConstraintNetTP` | *Association* |
-| `_HistoricalText : redirected to composition child I_VarCnfHistlCstrtNetTextTP` | *Association* |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `LanguageCode` | `LanguageCode` |
 
 ## Associations
 

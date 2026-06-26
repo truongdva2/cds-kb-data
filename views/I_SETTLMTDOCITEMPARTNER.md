@@ -31,8 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } }]` | `name: 'I_Customer_VH', element: 'Customer' } }]` |
-| `}` | `}` |
+| `SettlmtDoc` | `SettlmtDoc` |
+| `SettlmtDocItem` | `SettlmtDocItem` |
+| `PartnerFunction` | `PartnerFunction` |
+| `PartnerCounter` | `PartnerCounter` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `Supplier` | `Supplier` |
 | `Customer` | `Customer` |
 | `ContactPerson` | `ContactPerson` |
 | `Personnel` | `Personnel` |
@@ -44,7 +49,6 @@ tags:
 | `BPAddrDeterminationTransaction` | `BPAddrDeterminationTransaction` |
 | `BPRefAddressIDForDocSpcfcAddr` | `BPRefAddressIDForDocSpcfcAddr` |
 | `VATRegistration` | `VATRegistration` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtDoc` | *Association* |
 | `_SettlmtDocItem` | *Association* |
 | `_PartnerFunction` | *Association* |

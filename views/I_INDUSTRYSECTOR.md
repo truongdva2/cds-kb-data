@@ -14,6 +14,7 @@ tags:
   - interface-view
   - component:LO-MD-MM-2CL
   - lob:Logistics General
+  - bo:IndustrySector
 ---
 # I_INDUSTRYSECTOR
 
@@ -30,9 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED` | `status: #DEPRECATED` |
-| `successor: '_Text_2'` | `successor: '_Text_2'` |
-| `}` | `}` |
+| `IndustrySector` | `Industry.mbrsh` |
 | `_Text` | *Association* |
 | `_Text_2` | *Association* |
 

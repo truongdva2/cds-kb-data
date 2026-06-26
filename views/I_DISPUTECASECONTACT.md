@@ -15,6 +15,7 @@ tags:
   - dispute
   - component:FIN-FSCM-DM-2CL
   - lob:Other
+  - bo:BusinessUser
 ---
 # I_DISPUTECASECONTACT
 
@@ -29,7 +30,11 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `UserID` | `UserID` |
+| `FullName` | `FullName` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
 
 ## Associations
 

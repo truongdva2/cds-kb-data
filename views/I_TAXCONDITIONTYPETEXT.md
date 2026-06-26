@@ -18,6 +18,7 @@ tags:
   - text
   - component:SD-MD-CM-2CL
   - lob:Sales & Distribution
+  - bo:ConditionType
 ---
 # I_TAXCONDITIONTYPETEXT
 
@@ -34,9 +35,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key ConditionType` | `ConditionType` |
+| `Language` | `Language` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionType` | `ConditionType` |
 | `ConditionTypeName` | `ConditionTypeName` |
 | `_ConditionApplication` | *Association* |
 | `_TaxConditionType` | *Association* |

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kofiz_kk preserving type )` | `cast( kofiz` |
+| `CAAccountDeterminationCode` | `cast( kofiz as kofiz_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

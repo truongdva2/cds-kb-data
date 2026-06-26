@@ -16,6 +16,7 @@ tags:
   - standard-value-help
   - component:SD-BIL-IL-2CL
   - lob:Sales & Distribution
+  - bo:InvoiceListType
 ---
 # I_INVOICELISTTYPESTDVH
 
@@ -32,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InvoiceListType` | `InvoiceListType` |
+| `InvoiceListType` | `InvoiceListType` |
 | `_Text` | *Association* |
 
 ## Associations

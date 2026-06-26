@@ -31,17 +31,52 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'Currency'} }` | `currencyCode: 'Currency'} }` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureName` | `JointVentureName` |
+| `JointVenturePaymentTerms` | `JointVenturePaymentTerms` |
+| `JointVentureBillingMethod` | `JointVentureBillingMethod` |
+| `JointVentureType` | `JointVentureType` |
+| `JointVentureOperator` | `JointVentureOperator` |
+| `JVAVentureClass` | `JVAVentureClass` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JntVntrBillgCutbackIsBlk` | `JntVntrBillgCutbackIsBlk` |
+| `JntVntrInceptionToDateData` | `JntVntrInceptionToDateData` |
+| `JntVntrCurrentMonthBillg` | `JntVntrCurrentMonthBillg` |
+| `JntVntrYearToDateBillg` | `JntVntrYearToDateBillg` |
+| `JntVntrInceptionToDateBillg` | `JntVntrInceptionToDateBillg` |
+| `JntVntrFundingGroup` | `JntVntrFundingGroup` |
+| `JointVentureCreatedByUser` | `JointVentureCreatedByUser` |
+| `JntVntrTimeCreated` | `JntVntrTimeCreated` |
+| `JntVntrDateCreated` | `JntVntrDateCreated` |
+| `JntVntrCreationDateTime` | `JntVntrCreationDateTime` |
+| `JointVentureLastChangedByUser` | `JointVentureLastChangedByUser` |
+| `JntVntrTimeLastChanged` | `JntVntrTimeLastChanged` |
+| `JntVntrDateLastChanged` | `JntVntrDateLastChanged` |
+| `JntVntrLastChangedDateTime` | `JntVntrLastChangedDateTime` |
+| `JntVntrBillgFrqcy` | `JntVntrBillgFrqcy` |
+| `JntVntrBillgFormat` | `JntVntrBillgFormat` |
+| `JntVntrNonBillgFormat` | `JntVntrNonBillgFormat` |
+| `JointVentureTaxCode` | `JointVentureTaxCode` |
+| `JntVntrTaxJurisdiction` | `JntVntrTaxJurisdiction` |
+| `JntVntrOutTaxCode` | `JntVntrOutTaxCode` |
+| `JntVntrOutTaxJurisdiction` | `JntVntrOutTaxJurisdiction` |
+| `JntVntrOutPaymentTerms` | `JntVntrOutPaymentTerms` |
+| `JntVntrDrillingPayRate` | `JntVntrDrillingPayRate` |
+| `JntVntrNonDrillingPayRate` | `JntVntrNonDrillingPayRate` |
+| `JntVntrParentCoOvhdExpnCostCtr` | `JntVntrParentCoOvhdExpnCostCtr` |
+| `JntVntrParentCoOvhdProject` | `JntVntrParentCoOvhdProject` |
+| `JntVntrParentCoOvhdExpnOrder` | `JntVntrParentCoOvhdExpnOrder` |
+| `JntVntrSubstituteCostCtr` | `JntVntrSubstituteCostCtr` |
+| `JntVntrCrcyIsFundingCrcy` | `JntVntrCrcyIsFundingCrcy` |
+| `JntVntrProperty` | `JntVntrProperty` |
+| `Currency` | `Currency` |
+| `JntVntrBillgThldDebit` | `JntVntrBillgThldDebit` |
 | `JntVntrBillgThldCredit` | `JntVntrBillgThldCredit` |
 | `JntVntrBillgThldIsActive` | `JntVntrBillgThldIsActive` |
 | `JntVntrPaymentTermSchema` | `JntVntrPaymentTermSchema` |
 | `JVAVentureIntrstCalcGrpID` | `JVAVentureIntrstCalcGrpID` |
 | `_Currency` | *Association* |
-| `_JointVentureEquityGroup    : redirected to composition child I_JointVentureEquityGroupTP` | *Association* |
-| `_JointVentureDescription    : redirected to composition child I_JointVentureDescriptionTP` | *Association* |
-| `_JointVentureEquityType     : redirected to composition child I_JointVentureEquityTypeTP` | *Association* |
-| `_JntVntrParCompanyOverhead  : redirected to composition child I_JntVntrParCompanyOverheadTP` | *Association* |
-| `_JntVntrOvhdBurdenRatePct   : redirected to composition child I_JntVntrOvhdBurdenRatePctTP` | *Association* |
 
 ## Associations
 

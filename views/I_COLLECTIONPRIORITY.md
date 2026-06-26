@@ -15,6 +15,7 @@ tags:
   - collection
   - component:FIN-FSCM-COL-2CL
   - lob:Other
+  - bo:CollectionsPriority
 ---
 # I_COLLECTIONPRIORITY
 
@@ -31,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `udm_coll_priority preserving type)` | `cast(priority` |
+| `CollectionPriority` | `cast(priority as udm_coll_priority preserving type)` |
 | `ValuationThresholdPercent` | `percentage_from` |
 | `_Text` | *Association* |
 

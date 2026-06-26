@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspOrdExecutionIsBlocked : /scmtms/block_execution;` | `TranspOrdExecutionIsBlocked : /scmtms/block_execution;` |
-| `_DummyAssociation        : association to parent D_TranspOrdBlockStsChgd;` | *Association* |
+| `TranspOrdExecutionIsBlocked` | `/scmtms/block_execution` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdBlockStsChgd` | — |
 
 ## Source Code
 
