@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `j_1bcte_tomali preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_CTeFiscalDocumentPartner` | `cast ( substring( domvalue_l, 1, 1 ) as j_1bcte_tomali preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

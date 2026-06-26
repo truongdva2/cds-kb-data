@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ProdnRsceToolStandardTextCode` | `cast(txt.vlsch as cf_ktsch preserving type)` |
+| `Language` | `txt.spras` |
 | `ProdnRsceToolStdTextCodeName` | `txt.txt` |
 | `_Language` | *Association* |
 

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrganization` | `SalesOrganization` |
-| `_Text[1: Language=$session.system_language].SalesOrganizationName` | *Association* |
+| `SalesOrganization` | `SalesOrganization` |
+| `SalesOrganizationName` | `_Text[1: Language=$session.system_language].SalesOrganizationName` |
 
 ## Associations
 

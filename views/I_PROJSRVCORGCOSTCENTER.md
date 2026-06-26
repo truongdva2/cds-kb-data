@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectServiceOrganization` | `ProjectServiceOrganization` |
-| `key ProjSrvcOrgCostCenter` | `ProjSrvcOrgCostCenter` |
+| `ProjectServiceOrganization` | `ProjectServiceOrganization` |
+| `ProjSrvcOrgCostCenter` | `ProjSrvcOrgCostCenter` |
 | `ProjectServiceOrganizationUUID` | `ProjectServiceOrganizationUUID` |
 | `ProjSrvcOrgIsMainCostCenter` | `ProjSrvcOrgIsMainCostCenter` |
 | `_ParentServiceOrganization` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ParentServiceOrganization` | `I_ProjSrvcOrg` | — |
 | `_ServiceOrganization` | `I_ProjSrvcOrg` | [1..*] |
 
 ## Source Code

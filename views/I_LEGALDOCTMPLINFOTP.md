@@ -30,13 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocTemplateInfoUUID` | `LglCntntMDocTemplateInfoUUID` |
+| `LglCntntMDocTemplateInfoUUID` | `LglCntntMDocTemplateInfoUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMDocTemplateName` | `LglCntntMDocTemplateName` |
 | `LglCntntMDocTemplateVersion` | `LglCntntMDocTemplateVersion` |
 | `LglCntntMDocTemplateDate` | `LglCntntMDocTemplateDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to parent I_LegalDocumentTP` | *Association* |
 
 ## Associations
 

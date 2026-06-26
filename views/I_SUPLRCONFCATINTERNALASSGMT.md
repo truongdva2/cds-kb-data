@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
+| `SupplierConfInternalCategory` | `ibtyp` |
 | `SupplierConfirmationCategory` | `ebtyp` |
 | `DeliveryDocumentType` | `lfart` |
 

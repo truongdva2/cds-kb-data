@@ -31,17 +31,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'StatisticalKeyFigQtyUnit'} }` | `unitOfMeasure: 'StatisticalKeyFigQtyUnit'} }` |
-| `cast(` | `cast(` |
-| `case P_FinStatisticalKeyFigureItem.grtyp` | `case P_FinStatisticalKeyFigureItem.grtyp` |
-| `when '2' then` | `when '2' then` |
-| `( case P_FinStatisticalKeyFigureItem.rrcty` | `( case P_FinStatisticalKeyFigureItem.rrcty` |
-| `when '1' then P_FinStatisticalKeyFigureItem.msl` | `when '1' then P_FinStatisticalKeyFigureItem.msl` |
-| `abap.quan(23,3))` | `else cast( cast(0` |
-| `end` | `end` |
-| `)` | `)` |
-| `abap.quan(23,3))` | `else cast( cast(0` |
-| `fis_pln_sum_smexxx_long  preserving type )` | `end` |
+| `Ledger` | `P_FinStatisticalKeyFigureItem.rldnr` |
+| `CompanyCode` | `P_FinStatisticalKeyFigureItem.rbukrs` |
+| `StatisticalKeyFigure` | `P_FinStatisticalKeyFigureItem.stagr` |
+| `FiscalYear` | `P_FinStatisticalKeyFigureItem.RYEAR` |
+| `FiscalPeriod` | `P_FinStatisticalKeyFigureItem.poper` |
+| `StatisticalKeyFigureItem` | `P_FinStatisticalKeyFigureItem.recid` |
+| `FiscalYearPeriod` | `P_FinStatisticalKeyFigureItem.FISCYEARPER` |
+| `FiscalYearVariant` | `P_FinStatisticalKeyFigureItem.periv` |
+| `IsSpecialPeriod` | `P_FinStatisticalKeyFigureItem.IsSpecialPeriod` |
+| `StatisticalKeyFigureCategory` | `P_FinStatisticalKeyFigureItem.grtyp` |
+| `StatisticalKeyFigQtyUnit` | `P_FinStatisticalKeyFigureItem.runit` |
+| `StatisticalKeyFigureQuantity` | `cast( P_FinStatisticalKeyFigureItem.msl as fis_smexxx_long )` |
+| `StatisticalKeyFigFixedQty` | `cast(…)` |
+| `StatisticalKeyFigSumQty` | `cast(…)` |
+| `StatisticalKeyFigureActlQty` | `cast(…)` |
+| `StatisticalKeyFigurePlanQty` | `cast(…)` |
+| `StatisticalKeyFigActlFixedQty` | `cast(…)` |
+| `StatisticalKeyFigPlanFixedQty` | `cast(…)` |
+| `StatisticalKeyFigActlSumQty` | `cast(…)` |
+| `StatisticalKeyFigPlanSumQty` | `cast(…)` |
+| `IntmdStatisticalKeyFigFixedQty` | `cast(…)` |
+| `IntmdStatisticalKeyFigSumQty` | `cast(…)` |
+| `StstclKeyFigIntmdActlFixedQty` | `cast(…)` |
+| `StstclKeyFigIntmdPlanFixedQty` | `cast(…)` |
+| `StstclKeyFigIntmdActlSumQty` | `cast(…)` |
+| `StstclKeyFigIntmdPlanSumQty` | `cast(…)` |
 | `GLRecordType` | `P_FinStatisticalKeyFigureItem.rrcty` |
 | `PlanningCategory` | `P_FinStatisticalKeyFigureItem.category` |
 | `CostCenter` | `P_FinStatisticalKeyFigureItem.rcntr` |
@@ -56,8 +71,8 @@ tags:
 | `ControllingObjectClass` | `P_FinStatisticalKeyFigureItem.scope` |
 | `OrderID` | `P_FinStatisticalKeyFigureItem.aufnr` |
 | `OrderCategory` | `P_FinStatisticalKeyFigureItem.autyp` |
-| `fis_wbs preserving type )` | `cast( P_FinStatisticalKeyFigureItem.ps_posid` |
-| `P_FinStatisticalKeyFigureItem.WBSElementExternalID` | `P_FinStatisticalKeyFigureItem.WBSElementExternalID` |
+| `WBSElement` | `cast( P_FinStatisticalKeyFigureItem.ps_posid as fis_wbs preserving type )` |
+| `WBSElementExternalID` | `P_FinStatisticalKeyFigureItem.WBSElementExternalID` |
 | `Fund` | `P_FinStatisticalKeyFigureItem.rfund` |
 | `GrantID` | `P_FinStatisticalKeyFigureItem.rgrant_nbr` |
 | `BudgetPeriod` | `P_FinStatisticalKeyFigureItem.rbudget_pd` |
@@ -94,6 +109,27 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ControllingArea` | `I_ControllingArea` | [1] |
+| `_Ledger` | `I_Ledger` | [1..1] |
+| `_CompanyCode` | `I_CompanyCode` | [0..1] |
+| `_LedgerCompanyCodeVH` | `I_LedgerCoCode` | [0..1] |
+| `_CostCenter` | `I_CostCenter` | [0..*] |
+| `_ProfitCenter` | `I_ProfitCenter` | [0..*] |
+| `_StatisticalKeyFigure` | `I_StatisticalKeyFigure` | [1] |
+| `_StatisticalKeyFigureCat` | `I_StatisticalKeyFigureCat` | [1] |
+| `_FiscalYearVariant` | `I_FiscalYearVariant` | [1..1] |
+| `_FiscalYear` | `I_FiscalYear` | [0..1] |
+| `_FiscalPeriod` | `I_FiscalYearPeriod` | [0..1] |
+| `_UnitOfMeasure` | `I_UnitOfMeasure` | [1] |
+| `_Segment` | `I_Segment` | [0..1] |
+| `_FunctionalArea` | `I_FunctionalArea` | [0..1] |
+| `_BusinessArea` | `I_BusinessArea` | [0..1] |
+| `_Order` | `I_Order` | [0..1] |
+| `_SalesDocument` | `I_SalesDocument` | [0..1] |
+| `_SalesDocumentItem` | `I_SalesDocumentItem` | [0..1] |
+| `_ControllingObject` | `I_ControllingObject` | [0..1] |
+| `_BudgetPeriod` | `I_BudgetPeriod` | [0..1] |
+| `_PlanningCategory` | `I_PlanningCategory` | [0..1] |
 | `_WBSElementExternalID` | `I_WBSElementByExternalID` | [0..1] |
 
 ## Source Code

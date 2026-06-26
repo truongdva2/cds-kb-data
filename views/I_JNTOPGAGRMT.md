@@ -29,28 +29,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CompanyCodeCurrency'} }` | `currencyCode: 'CompanyCodeCurrency'} }` |
+| `CompanyCode` | `bukrs` |
+| `JntOpgAgrmt` | `joa` |
+| `JntVntrContractNmbr` | `contract` |
+| `JntVntrPayrollClearingSet` | `payset` |
+| `JntVntrConstructionExclsnSet` | `xsetcon` |
+| `JntVntrCatastropheExclsnSet` | `xsetcat` |
+| `JntVntrConstructionOvhdRule` | `conrule` |
+| `JntVntrCatastropheOvhdRule` | `catrule` |
+| `JVAOvhdPercentProdg` | `per1` |
+| `JVAExclsnAcctSetPercentProdg` | `xper1` |
+| `JVAOvhdPercentDev` | `per2` |
+| `JVAExclsnAcctSetPercentDev` | `xper2` |
+| `JntVntrExplorationOvhdRule` | `exprule` |
+| `JntVntrDrillingOvhdRule` | `drlrule` |
+| `JntVntrCapitalExclsnSet` | `xsetcap` |
+| `JntVntrOvhdOffsetCostCtr` | `offcc` |
+| `JntOpgAgrmtProdgWellThld` | `joaprth` |
+| `JntVntrOvhdRecurringDoc` | `recdoc` |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
 | `JntVntrOvhdFlatRateAmt` | `flatrate` |
 | `JntVntrExpnIsEscalated` | `escal` |
 | `JntOpgAgrmtClass` | `aclass` |
 | `JntOpgAgrmtCreatedByUser` | `cruser` |
-| `case when crtime is null or crtime = ''` | `case when crtime is null or crtime = ''` |
-| `abap.tims)` | `then cast('000000'` |
-| `abap.tims)` | `else cast(substring(crtime, 1, 6)` |
-| `JntOpgAgrmtCreationTime` | `end` |
-| `case when crdate is null or crdate = ''` | `case when crdate is null or crdate = ''` |
-| `then cast('00000000'as jv_crdate )` | `then cast('00000000'as jv_crdate )` |
-| `else crdate` | `else crdate` |
-| `JntOpgAgrmtCreationDate` | `end` |
+| `JntOpgAgrmtCreationTime` | `case…end` |
+| `JntOpgAgrmtCreationDate` | `case…end` |
 | `JntOpgAgrmtLastChangedByUser` | `chuser` |
-| `case when chtime is null or chtime = ''` | `case when chtime is null or chtime = ''` |
-| `abap.tims)` | `then cast('000000'` |
-| `abap.tims)` | `else cast(substring(chtime, 1, 6)` |
-| `JntOpgAgrmtLastChangedTime` | `end` |
-| `case when chdate is null or chdate = ''` | `case when chdate is null or chdate = ''` |
-| `jv_chdate)` | `then cast('00000000'` |
-| `else chdate` | `else chdate` |
-| `JntOpgAgrmtLastChangedDate` | `end` |
+| `JntOpgAgrmtLastChangedTime` | `case…end` |
+| `JntOpgAgrmtLastChangedDate` | `case…end` |
 | `JntVntrPrioPerdDrillingIsCalc` | `drillp` |
 | `JntVntrWBSElmntOvhdIsCalc` | `allwbs` |
 | `JntOpgAgrmtDrillingPayRate` | `dfpay` |

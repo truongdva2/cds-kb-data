@@ -34,31 +34,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderScheduleLine.SalesOrder` | `SalesOrderScheduleLine.SalesOrder` |
-| `key SalesOrderScheduleLine.SalesOrderItem` | `SalesOrderScheduleLine.SalesOrderItem` |
-| `key SalesOrderScheduleLine.ScheduleLine` | `SalesOrderScheduleLine.ScheduleLine` |
-| `SalesOrderScheduleLine.ScheduleLineForEdit` | `SalesOrderScheduleLine.ScheduleLineForEdit` |
-| `SalesOrderScheduleLine.ScheduleLineCategory` | `SalesOrderScheduleLine.ScheduleLineCategory` |
-| `SalesOrderScheduleLine.OrderQuantityUnit` | `SalesOrderScheduleLine.OrderQuantityUnit` |
-| `SalesOrderScheduleLine.OrderQuantitySAPUnit` | `SalesOrderScheduleLine.OrderQuantitySAPUnit` |
-| `SalesOrderScheduleLine.ScheduleLineOrderQuantity` | `SalesOrderScheduleLine.ScheduleLineOrderQuantity` |
-| `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` | `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
-| `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` | `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` |
-| `SalesOrderScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` | `SalesOrderScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
-| `SalesOrderScheduleLine.CorrectedQtyInOrderQtyUnit` | `SalesOrderScheduleLine.CorrectedQtyInOrderQtyUnit` |
-| `SalesOrderScheduleLine.DeliveryDate` | `SalesOrderScheduleLine.DeliveryDate` |
-| `SalesOrderScheduleLine.RequestedDeliveryDate` | `SalesOrderScheduleLine.RequestedDeliveryDate` |
-| `SalesOrderScheduleLine.ConfirmedDeliveryDate` | `SalesOrderScheduleLine.ConfirmedDeliveryDate` |
-| `SalesOrderScheduleLine.DelivBlockReasonForSchedLine` | `SalesOrderScheduleLine.DelivBlockReasonForSchedLine` |
-| `SalesOrderScheduleLine.PurchaseRequisition` | `SalesOrderScheduleLine.PurchaseRequisition` |
-| `SalesOrderScheduleLine.PurchaseRequisitionItem` | `SalesOrderScheduleLine.PurchaseRequisitionItem` |
-| `SalesOrderScheduleLine.GoodsMovementType` | `SalesOrderScheduleLine.GoodsMovementType` |
-| `SalesOrderScheduleLine.SalesOrderType` | `SalesOrderScheduleLine.SalesOrderType` |
-| `SalesOrderScheduleLine.SalesOrganization` | `SalesOrderScheduleLine.SalesOrganization` |
-| `SalesOrderScheduleLine.DistributionChannel` | `SalesOrderScheduleLine.DistributionChannel` |
-| `SalesOrderScheduleLine.OrganizationDivision` | `SalesOrderScheduleLine.OrganizationDivision` |
-| `_Item       : redirected to parent I_SalesOrderItemTP` | *Association* |
-| `_SalesOrder : redirected to I_SalesOrderTP` | *Association* |
+| `SalesOrder` | `SalesOrderScheduleLine.SalesOrder` |
+| `SalesOrderItem` | `SalesOrderScheduleLine.SalesOrderItem` |
+| `ScheduleLine` | `SalesOrderScheduleLine.ScheduleLine` |
+| `ScheduleLineForEdit` | `SalesOrderScheduleLine.ScheduleLineForEdit` |
+| `ScheduleLineCategory` | `SalesOrderScheduleLine.ScheduleLineCategory` |
+| `OrderQuantityUnit` | `SalesOrderScheduleLine.OrderQuantityUnit` |
+| `OrderQuantitySAPUnit` | `SalesOrderScheduleLine.OrderQuantitySAPUnit` |
+| `ScheduleLineOrderQuantity` | `SalesOrderScheduleLine.ScheduleLineOrderQuantity` |
+| `ConfdOrderQtyByMatlAvailCheck` | `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
+| `DeliveredQtyInOrderQtyUnit` | `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` |
+| `OpenConfdDelivQtyInOrdQtyUnit` | `SalesOrderScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
+| `CorrectedQtyInOrderQtyUnit` | `SalesOrderScheduleLine.CorrectedQtyInOrderQtyUnit` |
+| `DeliveryDate` | `SalesOrderScheduleLine.DeliveryDate` |
+| `RequestedDeliveryDate` | `SalesOrderScheduleLine.RequestedDeliveryDate` |
+| `ConfirmedDeliveryDate` | `SalesOrderScheduleLine.ConfirmedDeliveryDate` |
+| `DelivBlockReasonForSchedLine` | `SalesOrderScheduleLine.DelivBlockReasonForSchedLine` |
+| `PurchaseRequisition` | `SalesOrderScheduleLine.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `SalesOrderScheduleLine.PurchaseRequisitionItem` |
+| `GoodsMovementType` | `SalesOrderScheduleLine.GoodsMovementType` |
+| `SalesOrderType` | `SalesOrderScheduleLine.SalesOrderType` |
+| `SalesOrganization` | `SalesOrderScheduleLine.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderScheduleLine.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderScheduleLine.OrganizationDivision` |
 
 ## Associations
 

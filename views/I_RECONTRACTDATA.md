@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InternalRealEstateNumber` | `InternalRealEstateNumber` |
+| `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `CompanyCode` | `CompanyCode` |
 | `RealEstateContract` | `RealEstateContract` |
 | `REStatusObject` | `REStatusObject` |

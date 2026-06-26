@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_signlogictypetext preserving type )` | `cast(_DomainT.DomainValueText` |
-| `_DomainT.DomainValue` | *Association* |
+| `Language` | `cast(_DomainT.Language as spras preserving type )` |
+| `ConsolidationSignLogicType` | `cast(left(_DomainT.DomainValue, 1) as fincs_signlogictype preserving type )` |
+| `ConsolidationSignLogicTypeText` | `cast(_DomainT.DomainValueText as fincs_signlogictypetext preserving type )` |
+| `DomainValue` | `_DomainT.DomainValue` |
 | `_SignLogicType` | *Association* |
-| `_DomainT._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

@@ -33,10 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
+| `ProductBrand` | `cast ( brand_id as wrf_brand_id preserving type )` |
+| `Language` | `cast ( language as spras preserving type )` |
 | `ProductBrandName` | `brand_descr` |
 | `_ProductBrand` | *Association* |
 | `_Language` | *Association* |

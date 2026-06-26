@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Equipment` | `Equipment` |
-| `key  ClassInternalID` | `ClassInternalID` |
-| `key  CharcInternalID` | `CharcInternalID` |
+| `Equipment` | `Equipment` |
+| `ClassInternalID` | `ClassInternalID` |
+| `CharcInternalID` | `CharcInternalID` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `Characteristic` | `Characteristic` |
 | `CharcDataType` | `CharcDataType` |
@@ -45,9 +45,6 @@ tags:
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
 | `CharcMaintAuthGrp` | `CharcMaintAuthGrp` |
 | `Class` | `Class` |
-| `_Value: redirected to composition child I_EquipmentClfnCharValueTP` | *Association* |
-| `_EquipmentClass : redirected to parent I_EquipmentClfnClassTP` | *Association* |
-| `_Equipment : redirected to I_EquipmentTP` | *Association* |
 
 ## Associations
 

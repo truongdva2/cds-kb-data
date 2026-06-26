@@ -31,23 +31,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` | `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` |
+| `WorkCenterInternalID` | `crhd.objid` |
+| `WorkCenterTypeCode` | `crhd.objty` |
+| `WorkCenter` | `cast(crhd.arbpl as pph_arbpl preserving type)` |
+| `WorkCenterIsToBeDeleted` | `crhd.lvorm` |
+| `WorkCenterIsLocked` | `crhd.xsprr` |
+| `WorkCenterIsMntndForCosting` | `crhd.xkost` |
+| `WorkCenterIsMntndForScheduling` | `crhd.xterm` |
+| `NumberOfConfirmationSlips` | `crhd.rsanz` |
+| `AdvancedPlanningIsSupported` | `crhd.ppskz` |
+| `ShiftNoteType` | `crhd.sntype` |
+| `ShiftReportType` | `crhd.srtype` |
+| `WorkCenterLastChangedBy` | `crhd.aenam_grnd` |
+| `WorkCenterLastChangeDateTime` | `case…end` |
+| `WorkCenterCategoryCode` | `crhd.verwe` |
+| `WorkCenterLocation` | `crhd.stand` |
+| `WorkCenterLocationGroup` | `crhd.ortgr` |
+| `WorkCenterUsage` | `cast(crhd.planv as pph_ap_planv preserving type)` |
+| `WorkCenterResponsible` | `crhd.veran` |
+| `Plant` | `crhd.werks` |
+| `SupplyArea` | `crhd.prvbe` |
 | `CapacityInternalID` | `crhd.kapid` |
 | `MachineType` | `crhd.matyp` |
-| `pph_steus preserving type)` | `cast(crhd.steus` |
+| `OperationControlProfile` | `cast(crhd.steus as pph_steus preserving type)` |
 | `MatlCompIsMarkedForBackflush` | `crhd.rgekz` |
-| `workcentersetuptype preserving type)` | `cast(crhd.rasch` |
-| `pph_slwid preserving type)` | `cast(crhd.slwid` |
+| `WorkCenterSetupType` | `cast(crhd.rasch as workcentersetuptype preserving type)` |
+| `FreeDefinedTableFieldSemantic` | `cast(crhd.slwid as pph_slwid preserving type)` |
 | `ObjectInternalID` | `crhd.stobj` |
-| `pph_ktsch preserving type)` | `cast(crhd.ktsch` |
-| `pph_loart preserving type)` | `cast(crhd.loart` |
-| `pph_logrp preserving type)` | `cast(crhd.logrp` |
-| `pph_qualf preserving type)` | `cast(crhd.qualf` |
+| `StandardTextInternalID` | `cast(crhd.ktsch as pph_ktsch preserving type)` |
+| `EmployeeWageType` | `cast(crhd.loart as pph_loart preserving type)` |
+| `EmployeeWageGroup` | `cast(crhd.logrp as pph_logrp preserving type)` |
+| `EmployeeSuitability` | `cast(crhd.qualf as pph_qualf preserving type)` |
 | `NumberOfTimeTickets` | `crhd.loanz` |
-| `pph_plvar preserving type)` | `cast(crhd.hrplvar` |
-| `wrkctrhumrsceobjid preserving type)` | `cast(crhd.hroid` |
-| `pph_begda preserving type)` | `cast(crhd.begda` |
-| `pph_endda preserving type)` | `cast(crhd.endda` |
+| `PlanVersion` | `cast(crhd.hrplvar as pph_plvar preserving type)` |
+| `WrkCtrHumRsceObjID` | `cast(crhd.hroid as wrkctrhumrsceobjid preserving type)` |
+| `ValidityStartDate` | `cast(crhd.begda as pph_begda preserving type)` |
+| `ValidityEndDate` | `cast(crhd.endda as pph_endda preserving type)` |
 | `StandardTextIDIsReferenced` | `crhd.ktsch_ref` |
 | `EmployeeWageTypeIsReferenced` | `crhd.loart_ref` |
 | `NmbrOfTimeTicketsIsReferenced` | `crhd.loanz_ref` |
@@ -60,43 +79,43 @@ tags:
 | `WorkCenterStandardQueueDurn` | `crhd.zwnor` |
 | `WorkCenterMinimumQueueDurnUnit` | `crhd.zeiwm` |
 | `WorkCenterMinimumQueueDuration` | `crhd.zwmin` |
-| `pph_vge01 preserving type)` | `cast(crhd.vge01` |
-| `pph_vge02 preserving type)` | `cast(crhd.vge02` |
-| `pph_vge03 preserving type)` | `cast(crhd.vge03` |
-| `pph_vge04 preserving type)` | `cast(crhd.vge04` |
-| `pph_vge05 preserving type)` | `cast(crhd.vge05` |
-| `pph_vge06 preserving type)` | `cast(crhd.vge06` |
+| `WorkCenterStandardWorkQtyUnit1` | `cast(crhd.vge01 as pph_vge01 preserving type)` |
+| `WorkCenterStandardWorkQtyUnit2` | `cast(crhd.vge02 as pph_vge02 preserving type)` |
+| `WorkCenterStandardWorkQtyUnit3` | `cast(crhd.vge03 as pph_vge03 preserving type)` |
+| `WorkCenterStandardWorkQtyUnit4` | `cast(crhd.vge04 as pph_vge04 preserving type)` |
+| `WorkCenterStandardWorkQtyUnit5` | `cast(crhd.vge05 as pph_vge05 preserving type)` |
+| `WorkCenterStandardWorkQtyUnit6` | `cast(crhd.vge06 as pph_vge06 preserving type)` |
 | `StandardWorkQuantityUnit` | `crhd.vgarb` |
 | `StandardWorkFormulaParamGroup` | `crhd.vgwts` |
 | `LaborTrackingIsRequired` | `crhd.s_labor_track` |
-| `pph_par01 preserving type)` | `cast(crhd.par01` |
-| `pph_par02 preserving type)` | `cast(crhd.par02` |
-| `pph_par03 preserving type)` | `cast(crhd.par03` |
-| `pph_par04 preserving type)` | `cast(crhd.par04` |
-| `pph_par05 preserving type)` | `cast(crhd.par05` |
-| `pph_par06 preserving type)` | `cast(crhd.par06` |
-| `pph_parv1 preserving type)` | `cast(crhd.parv1` |
-| `pph_parv2 preserving type)` | `cast(crhd.parv2` |
-| `pph_parv3 preserving type)` | `cast(crhd.parv3` |
-| `pph_parv4 preserving type)` | `cast(crhd.parv4` |
-| `pph_parv5 preserving type)` | `cast(crhd.parv5` |
-| `pph_parv6 preserving type)` | `cast(crhd.parv6` |
-| `pph_paru1 preserving type)` | `cast(crhd.paru1` |
-| `pph_paru2 preserving type)` | `cast(crhd.paru2` |
-| `pph_paru3 preserving type)` | `cast(crhd.paru3` |
-| `pph_paru4 preserving type)` | `cast(crhd.paru4` |
-| `pph_paru5 preserving type)` | `cast(crhd.paru5` |
-| `pph_paru6 preserving type)` | `cast(crhd.paru6` |
-| `pph_vgm01 preserving type)` | `cast(crhd.vgm01` |
-| `pph_vgm02 preserving type)` | `cast(crhd.vgm02` |
-| `pph_vgm03 preserving type)` | `cast(crhd.vgm03` |
-| `pph_vgm04 preserving type)` | `cast(crhd.vgm04` |
-| `pph_vgm05 preserving type)` | `cast(crhd.vgm05` |
-| `pph_vgm06 preserving type)` | `cast(crhd.vgm06` |
-| `ap_form_t1 preserving type)` | `cast(crhd.fort1` |
-| `ap_form_t2 preserving type)` | `cast(crhd.fort2` |
-| `ap_form_t3 preserving type)` | `cast(crhd.fort3` |
-| `wrkctrintprocgschedgfmla preserving type)` | `cast(crhd.fortn` |
+| `WorkCenterFormulaParam1` | `cast(crhd.par01 as pph_par01 preserving type)` |
+| `WorkCenterFormulaParam2` | `cast(crhd.par02 as pph_par02 preserving type)` |
+| `WorkCenterFormulaParam3` | `cast(crhd.par03 as pph_par03 preserving type)` |
+| `WorkCenterFormulaParam4` | `cast(crhd.par04 as pph_par04 preserving type)` |
+| `WorkCenterFormulaParam5` | `cast(crhd.par05 as pph_par05 preserving type)` |
+| `WorkCenterFormulaParam6` | `cast(crhd.par06 as pph_par06 preserving type)` |
+| `WorkCenterFmlaParamValue1` | `cast(crhd.parv1 as pph_parv1 preserving type)` |
+| `WorkCenterFmlaParamValue2` | `cast(crhd.parv2 as pph_parv2 preserving type)` |
+| `WorkCenterFmlaParamValue3` | `cast(crhd.parv3 as pph_parv3 preserving type)` |
+| `WorkCenterFmlaParamValue4` | `cast(crhd.parv4 as pph_parv4 preserving type)` |
+| `WorkCenterFmlaParamValue5` | `cast(crhd.parv5 as pph_parv5 preserving type)` |
+| `WorkCenterFmlaParamValue6` | `cast(crhd.parv6 as pph_parv6 preserving type)` |
+| `WorkCenterFmlaParamUnit1` | `cast(crhd.paru1 as pph_paru1 preserving type)` |
+| `WorkCenterFmlaParamUnit2` | `cast(crhd.paru2 as pph_paru2 preserving type)` |
+| `WorkCenterFmlaParamUnit3` | `cast(crhd.paru3 as pph_paru3 preserving type)` |
+| `WorkCenterFmlaParamUnit4` | `cast(crhd.paru4 as pph_paru4 preserving type)` |
+| `WorkCenterFmlaParamUnit5` | `cast(crhd.paru5 as pph_paru5 preserving type)` |
+| `WorkCenterFmlaParamUnit6` | `cast(crhd.paru6 as pph_paru6 preserving type)` |
+| `WrkCtrStdValMaintRule1` | `cast(crhd.vgm01 as pph_vgm01 preserving type)` |
+| `WrkCtrStdValMaintRule2` | `cast(crhd.vgm02 as pph_vgm02 preserving type)` |
+| `WrkCtrStdValMaintRule3` | `cast(crhd.vgm03 as pph_vgm03 preserving type)` |
+| `WrkCtrStdValMaintRule4` | `cast(crhd.vgm04 as pph_vgm04 preserving type)` |
+| `WrkCtrStdValMaintRule5` | `cast(crhd.vgm05 as pph_vgm05 preserving type)` |
+| `WrkCtrStdValMaintRule6` | `cast(crhd.vgm06 as pph_vgm06 preserving type)` |
+| `WrkCtrSetupSchedgFmla` | `cast(crhd.fort1 as ap_form_t1 preserving type)` |
+| `WrkCtrProcgSchedgFmla` | `cast(crhd.fort2 as ap_form_t2 preserving type)` |
+| `WrkCtrTeardownSchedgFmla` | `cast(crhd.fort3 as ap_form_t3 preserving type)` |
+| `WrkCtrIntProcgSchedgFmla` | `cast(crhd.fortn as wrkctrintprocgschedgfmla preserving type)` |
 | `_Plant` | *Association* |
 | `_WorkCenter` | *Association* |
 | `_WorkCenterType` | *Association* |

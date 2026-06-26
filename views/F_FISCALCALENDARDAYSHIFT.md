@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ShiftedCalendarDate` | `dats_add_days($parameters.P_CalendarDate,$parameters.P_FsclTimePeriodOffsetDuration,'INITIAL')` |
+| `ShiftedCalendarDate` | `dats_add_days(…)` |
 
 ## Associations
 

@@ -32,32 +32,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillOfMaterialItemUUID         : cs_guid;` | `BillOfMaterialItemUUID         : cs_guid;` |
-| `BillOfMaterialComponent        : idnrk;` | `BillOfMaterialComponent        : idnrk;` |
-| `BillOfMaterialItemNumber       : sposn;` | `BillOfMaterialItemNumber       : sposn;` |
-| `NewBillOfMaterialItemNumber    : cs_sposn;` | `NewBillOfMaterialItemNumber    : cs_sposn;` |
-| `HeaderChangeDocument           : aennr;` | `HeaderChangeDocument           : aennr;` |
-| `BillOfMaterialCategory         : stlty;` | `BillOfMaterialCategory         : stlty;` |
-| `BillOfMaterial                 : stnum;` | `BillOfMaterial                 : stnum;` |
-| `SuccessorBillOfMaterial        : cs_stlnr;` | `SuccessorBillOfMaterial        : cs_stlnr;` |
-| `BillOfMaterialVariant          : stalt;` | `BillOfMaterialVariant          : stalt;` |
-| `BillOfMaterialVersion          : bom_version;` | `BillOfMaterialVersion          : bom_version;` |
-| `BillOfMaterialItemCategory     : postp;` | `BillOfMaterialItemCategory     : postp;` |
-| `BillOfMaterialItemUnit         : kmpme;` | `BillOfMaterialItemUnit         : kmpme;` |
-| `BillOfMaterialItemQuantity     : kmpmg;` | `BillOfMaterialItemQuantity     : kmpmg;` |
-| `EngineeringChangeDocument      : aennr;` | `EngineeringChangeDocument      : aennr;` |
-| `ValidityStartDate              : datuv;` | `ValidityStartDate              : datuv;` |
-| `ValidityEndDate                : datub;` | `ValidityEndDate                : datub;` |
-| `BillOfMaterialItemNodeNumber   : stlkn;` | `BillOfMaterialItemNodeNumber   : stlkn;` |
-| `BOMItemDescription             : potx1;` | `BOMItemDescription             : potx1;` |
-| `Material                       : matnr;` | `Material                       : matnr;` |
-| `MaterialName                   : maktx;` | `MaterialName                   : maktx;` |
-| `PlantName                      : werks_name;` | `PlantName                      : werks_name;` |
-| `BillOfMaterialVariantUsageDesc : antxt;` | `BillOfMaterialVariantUsageDesc : antxt;` |
-| `Plant                          : werks_d;` | `Plant                          : werks_d;` |
-| `BillOfMaterialVariantUsage     : stlan;` | `BillOfMaterialVariantUsage     : stlan;` |
-| `BOMVersionStatus               : cs_versnst;` | `BOMVersionStatus               : cs_versnst;` |
-| `BOMVersionStatusDescription    : val_text;` | `BOMVersionStatusDescription    : val_text;` |
+| `BillOfMaterialItemUUID` | `cs_guid` |
+| `BillOfMaterialComponent` | `idnrk` |
+| `BillOfMaterialItemNumber` | `sposn` |
+| `NewBillOfMaterialItemNumber` | `cs_sposn` |
+| `HeaderChangeDocument` | `aennr` |
+| `BillOfMaterialCategory` | `stlty` |
+| `BillOfMaterial` | `stnum` |
+| `SuccessorBillOfMaterial` | `cs_stlnr` |
+| `BillOfMaterialVariant` | `stalt` |
+| `BillOfMaterialVersion` | `bom_version` |
+| `BillOfMaterialItemCategory` | `postp` |
+| `BillOfMaterialItemUnit` | `kmpme` |
+| `BillOfMaterialItemQuantity` | `kmpmg` |
+| `EngineeringChangeDocument` | `aennr` |
+| `ValidityStartDate` | `datuv` |
+| `ValidityEndDate` | `datub` |
+| `BillOfMaterialItemNodeNumber` | `stlkn` |
+| `BOMItemDescription` | `potx1` |
+| `Material` | `matnr` |
+| `MaterialName` | `maktx` |
+| `PlantName` | `werks_name` |
+| `BillOfMaterialVariantUsageDesc` | `antxt` |
+| `Plant` | `werks_d` |
+| `BillOfMaterialVariantUsage` | `stlan` |
+| `BOMVersionStatus` | `cs_versnst` |
+| `BOMVersionStatusDescription` | `val_text` |
 
 ## Associations
 

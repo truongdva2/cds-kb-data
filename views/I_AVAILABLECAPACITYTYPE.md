@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `availablecapacitytype preserving type)` | `cast(typ.versn` |
+| `AvailableCapacityType` | `cast(typ.versn as availablecapacitytype preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras  preserving type)` | `cast( ddlanguage` |
-| `logbr_nf_texttype preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
-| `logbr_nf_texttypedesc preserving type)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_NFTextType` | `cast( substring(domvalue_l, 1, 1) as logbr_nf_texttype preserving type )` |
+| `BR_NFTextTypeDesc` | `cast(ddtext as logbr_nf_texttypedesc preserving type)` |
 | `_BR_NFTextType` | *Association* |
 | `_Language` | *Association* |
 

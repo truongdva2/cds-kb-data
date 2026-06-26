@@ -42,7 +42,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
-| `_CaseProfile` | `I_CaseStatusProfile` | [0..1] |
 
 ## Source Code
 

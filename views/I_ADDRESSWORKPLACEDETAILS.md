@@ -34,10 +34,7 @@ tags:
 | `AddressID` | `addrnumber` |
 | `AddressPersonID` | `persnumber` |
 | `AddressRepresentationCode` | `nation` |
-| `case comp_pers` | `case comp_pers` |
-| `ad_isworkplaceaddress preserving type )` | `when 'C' then cast('X'` |
-| `ad_isworkplaceaddress preserving type )` | `else cast(' '` |
-| `AddressIsWorkplaceAddress` | `end` |
+| `AddressIsWorkplaceAddress` | `case…end` |
 | `PersonAddressObjectType` | `comp_pers` |
 | `WorkplaceBuilding` | `building` |
 | `WorkplaceFloor` | `floor` |

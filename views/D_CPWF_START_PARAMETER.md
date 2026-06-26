@@ -29,11 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CpWfDefId     : swf_cpwf_defid;` | `CpWfDefId     : swf_cpwf_defid;` |
-| `PaWfDefId     : swf_cpwf_defid_long;` | `PaWfDefId     : swf_cpwf_defid_long;` |
-| `RetentionTime : swf_cpwf_retention;` | `RetentionTime : swf_cpwf_retention;` |
-| `Consumer      : swf_cpwf_consumer;` | `Consumer      : swf_cpwf_consumer;` |
-| `CallbackClass : seoclsname;` | `CallbackClass : seoclsname;` |
+| `CpWfDefId` | `swf_cpwf_defid` |
+| `PaWfDefId` | `swf_cpwf_defid_long` |
+| `RetentionTime` | `swf_cpwf_retention` |
+| `Consumer` | `swf_cpwf_consumer` |
+| `CallbackClass` | `seoclsname` |
 
 ## Associations
 

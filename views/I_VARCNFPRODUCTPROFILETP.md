@@ -32,12 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key VarConfigurationProfileName` | `VarConfigurationProfileName` |
-| `/* Associations */` | `/* Associations */` |
-| `_HistoricalProfile : redirected to composition child I_VarCnfHistlProductProfileTP` | *Association* |
-| `_ProcedureAssignment : redirected to composition child I_VarCnfProdPrflProcedAssgmtTP` | *Association* |
-| `_ConstraintNetAssignment: redirected to composition child I_VarCnfProdPrflCstrtNetAsgtTP` | *Association* |
+| `Product` | `Product` |
+| `VarConfigurationProfileName` | `VarConfigurationProfileName` |
 | `_Product` | *Association* |
 
 ## Associations

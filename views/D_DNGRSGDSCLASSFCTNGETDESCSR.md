@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CmplRqRsltDngrsGdsModeOfTrUUID : cmplrqrsltdngrsgdsmodeoftruuid;` | `CmplRqRsltDngrsGdsModeOfTrUUID : cmplrqrsltdngrsgdsmodeoftruuid;` |
-| `CmplRqVers                     : ehfnd_bco_id;` | `CmplRqVers                     : ehfnd_bco_id;` |
-| `DngrsGoodsModeOfTransport      : ehfnd_req_mot;` | `DngrsGoodsModeOfTransport      : ehfnd_req_mot;` |
-| `Language                       : ehfnd_langu;` | `Language                       : ehfnd_langu;` |
-| `DangerousGoodDescForDocuments  : ehdgm_final_description;` | `DangerousGoodDescForDocuments  : ehdgm_final_description;` |
-| `CmplRqVersName                 : ehdgm_regulation_name;` | `CmplRqVersName                 : ehdgm_regulation_name;` |
+| `CmplRqRsltDngrsGdsModeOfTrUUID` | `cmplrqrsltdngrsgdsmodeoftruuid` |
+| `CmplRqVers` | `ehfnd_bco_id` |
+| `DngrsGoodsModeOfTransport` | `ehfnd_req_mot` |
+| `Language` | `ehfnd_langu` |
+| `DangerousGoodDescForDocuments` | `ehdgm_final_description` |
+| `CmplRqVersName` | `ehdgm_regulation_name` |
 
 ## Associations
 

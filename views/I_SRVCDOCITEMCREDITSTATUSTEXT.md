@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_credit_i )` | `cast ( domvalue_l` |
-| `spras preserving type )` | `cast( ddlanguage` |
+| `SrvcDocItemCreditStatus` | `cast ( domvalue_l as crms4_stat_credit_i )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `SrvcDocItemCreditStatusText` | `ddtext` |
 | `_SrvcDocItemCreditStatus` | *Association* |

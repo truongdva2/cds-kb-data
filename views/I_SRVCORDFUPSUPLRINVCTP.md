@@ -29,11 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key SupplierInvoice` | `SupplierInvoice` |
-| `key FiscalYear` | `FiscalYear` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTP: redirected to parent I_ServiceOrderTP` | *Association* |
+| `ServiceOrder` | `ServiceOrder` |
+| `SupplierInvoice` | `SupplierInvoice` |
+| `FiscalYear` | `FiscalYear` |
 
 ## Associations
 

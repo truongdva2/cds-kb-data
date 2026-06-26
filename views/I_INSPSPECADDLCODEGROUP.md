@@ -31,14 +31,10 @@ tags:
 |---|---|
 | `InspSpecAdditionalCatalog` | `qpgr.katalogart` |
 | `InspSpecAdditionalCodeGroup` | `qpgr.codegruppe` |
-| `case qpgr.inaktiv` | `case qpgr.inaktiv` |
-| `vdm_qm_codegroupisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codegroupisinactive preserving type )` | `else cast( 'X'` |
-| `CodeGroupIsInactive` | `end` |
+| `CodeGroupIsInactive` | `case…end` |
 | `CodeGroupStatus` | `qpgr.status` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecAdditionalCatalog` | `,_InspSpecAdditionalCatalog` |
-| `,_Text` | `,_Text` |
+| `_InspSpecAdditionalCatalog` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -30,19 +30,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'C_OvrdPOSuplrConfStatusVH', element : 'OvrdPOSuplrConfirmationStatus' } }]` | `name : 'C_OvrdPOSuplrConfStatusVH', element : 'OvrdPOSuplrConfirmationStatus' } }]` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
+| `CalendarWeek` | `_CalendarDate.CalendarWeek` |
+| `CalendarMonth` | `_CalendarDate.CalendarMonth` |
+| `CalendarQuarter` | `_CalendarDate.CalendarQuarter` |
+| `CalendarYear` | `_CalendarDate.CalendarYear` |
+| `DeliveryDate` | `cast(ScheduleLineDeliveryDate as mm_a_delivery_date)` |
+| `PurchasingOrganization` | `cast(PurchasingOrganization as mm_a_purg_org)` |
+| `PurchasingOrganizationName` | `_PurchasingOrganization.PurchasingOrganizationName` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `PurchasingGroupName` | `_PurchasingGroup.PurchasingGroupName` |
+| `PurgDocHdrCompanyCode` | `PurgDocHdrCompanyCode` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `CompanyCode` | `CompanyCode` |
+| `ReceivingCompanyCodeName` | `_ReceivingCompanyCode.CompanyCodeName` |
+| `Supplier` | `Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `SupplierCountry` | `SupplierCountry` |
+| `CountryName` | `_Country.CountryName` |
+| `Material` | `Material` |
+| `MaterialName` | `_Material._Text[1: Language = $parameters.P_Language].MaterialName` |
+| `MaterialGroup` | `OverduePO.MaterialGroup` |
+| `MaterialGroupName` | `_MaterialGroup._Text[1: Language = $parameters.P_Language].MaterialGroupName` |
+| `PurchaseOrderItemText` | `PurchaseOrderItemText` |
+| `PurchasingCategory` | `_PurchasingCategoryMatlGroup._PurchasingCategory.PurchasingCategory` |
+| `PurgCatRelatedToMaterialGroup` | `cast(…)` |
+| `PurgCatName` | `case…end` |
+| `Plant` | `Plant` |
+| `PlantName` | `cast( _Plant.PlantName as mm_a_plant_name )` |
+| `Currency` | `:P_DisplayCurrency` |
+| `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
+| `PurchaseOrderType` | `PurchaseOrderType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `PurchaseOrderCategory` | `PurchaseOrderCategory` |
+| `PurchaseOrderItemCategory` | `PurchaseOrderItemCategory` |
+| `PurgDocItemCategoryName` | `expr(…)` |
 | `OvrdPOSuplrConfirmationStatus` | `OvrdPOSuplrConfirmationStatus` |
-| `_OvrdPOSuplrConfStatus.OvrdPOSuplrConfirmationStsText` | *Association* |
-| `displaycurrency)` | `cast(:P_DisplayCurrency` |
-| `/* Measures */` | `/* Measures */` |
-| `mm_a_open_amount)` | `cast( OpenPurchaseOrderNetAmount` |
-| `mm_a_ordered_quantity)` | `cast( PurchaseOrderQty` |
-| `mm_a_open_quantity)` | `cast( OpenPurchaseOrderQuantity` |
-| `mm_a_delivererd_quantity)` | `cast( GoodsReceiptQuantity` |
-| `_UnitOfMeasure.UnitOfMeasure` | *Association* |
-| `_UnitOfMeasure._Text[1: Language = $parameters.P_Language].UnitOfMeasureName` | *Association* |
+| `OvrdPOSuplrConfirmationStsText` | `_OvrdPOSuplrConfStatus.OvrdPOSuplrConfirmationStsText` |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as displaycurrency)` |
+| `OpenPurchaseOrderNetAmount` | `cast( OpenPurchaseOrderNetAmount as mm_a_open_amount)` |
+| `OrderedQuantity` | `cast( PurchaseOrderQty as mm_a_ordered_quantity)` |
+| `OpenPurchaseOrderQuantity` | `cast( OpenPurchaseOrderQuantity as mm_a_open_quantity)` |
+| `DeliveredQuantity` | `cast( GoodsReceiptQuantity as mm_a_delivererd_quantity)` |
+| `UnitOfMeasure` | `_UnitOfMeasure.UnitOfMeasure` |
+| `UnitOfMeasureName` | `_UnitOfMeasure._Text[1: Language = $parameters.P_Language].UnitOfMeasureName` |
 | `OverdueDays` | `cast(dats_days_between(ScheduleLineDeliveryDate,today )as mm_a_overdue_days)` |
-| `mm_a_open_items_number)` | `cast(1` |
+| `NumberOfOpenItems` | `cast(1 as mm_a_open_items_number)` |
 
 ## Associations
 

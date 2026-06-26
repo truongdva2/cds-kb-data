@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_kapart preserving type)` | `cast(cat.kapar` |
+| `CapacityCategoryCode` | `cast(cat.kapar as pph_kapart preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

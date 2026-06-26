@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `fincs_subitem preserving type )` | `cast(_Source.sitem` |
+| `CnsldtnSubitemCategory` | `cast(_Source.sityp as fincs_subitemcategory preserving type )` |
+| `CnsldtnSubitem` | `cast(_Source.sitem as fincs_subitem preserving type )` |
 | `_SubitemCategory` | *Association* |
 | `_HierarchyNode` | *Association* |
 | `_Text` | *Association* |

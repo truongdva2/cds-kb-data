@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `boptriangulardealrelevancy )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BOPTriangularDealRelevancy` | `cast ( substring( domvalue_l, 1, 1 ) as boptriangulardealrelevancy )` |
 | `_Text` | *Association* |
 
 ## Associations

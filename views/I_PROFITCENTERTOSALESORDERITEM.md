@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vbeln_va preserving type)` | `cast(kdauf` |
-| `posnr_va preserving type)` | `cast(kdpos` |
+| `SalesDocument` | `cast(kdauf as vbeln_va preserving type)` |
+| `SalesDocumentItem` | `cast(kdpos as posnr_va preserving type)` |
 | `ValidityStartDate` | `valid_from` |
 | `ValidityEndDate` | `valid_to` |
 | `ControllingArea` | `kokrs` |
@@ -47,11 +47,11 @@ tags:
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
 | `SourceWBSElementInternalID` | `srce_ps_psp_pnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
 | `SourceProduct` | `srce_matnr` |
 | `SourcePlant` | `srce_werks` |
-| `aufnr preserving type)` | `cast(srce_aufnr` |
-| `kostl preserving type)` | `cast(srce_kostl` |
+| `SourceOrder` | `cast(srce_aufnr as aufnr preserving type)` |
+| `SourceCostCenter` | `cast(srce_kostl as kostl preserving type)` |
 | `_OrglChgReassignmentStatus` | *Association* |
 | `_ProfitCtrDerivationSrceType` | *Association* |
 | `_SalesDocument` | *Association* |

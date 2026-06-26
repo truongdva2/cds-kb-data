@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrderConfSts : /scmtms/tor_confirm_status;` | `TransportationOrderConfSts : /scmtms/tor_confirm_status;` |
-| `_DummyAssociation          : association to parent D_TranspOrdConfirmationStsChgd;` | *Association* |
+| `TransportationOrderConfSts` | `/scmtms/tor_confirm_status` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdConfirmationStsChgd` | — |
 
 ## Source Code
 

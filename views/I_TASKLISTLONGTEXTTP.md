@@ -32,18 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   TaskListType` | `TaskListType` |
-| `key   TaskListGroup` | `TaskListGroup` |
-| `key   TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key   TaskListVersionCounter` | `TaskListVersionCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListVersionCounter` | `TaskListVersionCounter` |
 | `TextObjectKey` | `TextObjectKey` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `PlainLongText` | `PlainLongText` |
 | `Language` | `Language` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header              : redirected to parent I_MaintenanceTaskListTP_2` | *Association* |
-| `_MaintenanceTaskList : redirected to I_MaintenanceTaskListBasicTP` | *Association* |
 
 ## Associations
 

@@ -31,12 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_ReportingItem'` | `foreignKey.association: '_ReportingItem'` |
-| `sapObjectNodeTypeReference: 'ConsolidationReportingItem' }` | `sapObjectNodeTypeReference: 'ConsolidationReportingItem' }` |
-| `fincs_reportingitem preserving type )` | `cast( left(_HierarchyNode.UniversalHierarchyLeafValue, 10)` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `ConsolidationChartOfAccounts` | `cast(…)` |
+| `ConsolidationReportingItemHier` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `ConsolidationReportingItem` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_ReportingItem` | *Association* |
 | `_Hierarchy` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |

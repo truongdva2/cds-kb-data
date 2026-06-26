@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_pabprf preserving type )` | `cast(pabprf` |
+| `JITCallProfile` | `cast(pabprf as vdm_pabprf preserving type )` |
 | `JITCallOutboundType` | `pabart` |
-| `vdm_pabpar preserving type )` | `cast(pabpar` |
+| `JITCallPartnerRole` | `cast(pabpar as vdm_pabpar preserving type )` |
 | `JITCallSummarizationStrategy` | `pabzus` |
 | `JITCallTimeDefinition` | `pabztd` |
 | `JITCallGRPostingControl` | `goods_receipt_posting_control` |

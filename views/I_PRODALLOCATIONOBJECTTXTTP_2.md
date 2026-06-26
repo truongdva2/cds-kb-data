@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
-| `key Language` | `Language` |
+| `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
+| `Language` | `Language` |
 | `ProdAllocObjectDescription` | `ProdAllocObjectDescription` |
-| `_ProdAllocationObjectTP: redirected to parent I_ProdAllocationObjectTP_2` | *Association* |
 
 ## Associations
 

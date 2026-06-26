@@ -33,9 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ProjectBillingCategory'` | `name:    'I_ProjectBillingCategory'` |
-| `element: 'ProjectBillingCategory' }` | `element: 'ProjectBillingCategory' }` |
-| `}]` | `}]` |
+| `ProjectBillingElementUUID` | `ProjectBillingElement.projectbillingelementuuid` |
+| `BillingWBSElementInternalID` | `ProjectBillingElement.billingwbselementinternalid` |
+| `DocumentCurrency` | `ProjectBillingElement.documentcurrency` |
+| `BilledRevenueAmtInDocCrcy` | `ProjectBillingElement.billedrevenueamtindoccrcy` |
+| `WrittenOffRevenueAmtInDocCrcy` | `ProjectBillingElement.writtenoffrevenueamtindoccrcy` |
+| `ProjBillingProfile` | `ProjectBillingElement.projbillingprofile` |
 | `ProjectBillingCategory` | `ProjectBillingElement.projectbillingcategory` |
 | `ProjBillgElmntCreatedByUser` | `ProjectBillingElement.projbillgelmntcreatedbyuser` |
 | `ProjBillgElmntCreatedAtDteTme` | `ProjectBillingElement.projbillgelmntcreatedatdtetme` |
@@ -46,7 +49,7 @@ tags:
 | `BillingPlan` | `ProjectBillingElement.billingplan` |
 | `ProjectUUID` | `ProjectBillingElement.projectuuid` |
 | `ProjectElementUUID` | `ProjectBillingElement.projectelementuuid` |
-| `_ProjBillgElmObjectLink.PrjBlgElmObjLnkUUID, //for the delta extraction` | *Association* |
+| `PrjBlgElmObjLnkUUID` | `_ProjBillgElmObjectLink.PrjBlgElmObjLnkUUID` |
 | `_SalesDocument` | *Association* |
 | `_ProjectBillingElementEntry` | *Association* |
 | `_WBSElement` | *Association* |

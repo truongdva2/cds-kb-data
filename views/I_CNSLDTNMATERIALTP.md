@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnMaterial.Material` | `_CnsldtnMaterial.Material` |
-| `_CnsldtnMaterial.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnMaterialTextTP` | *Association* |
+| `Material` | `_CnsldtnMaterial.Material` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnMaterial.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

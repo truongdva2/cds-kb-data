@@ -29,14 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ShippingPoint             : vstel;` | `ShippingPoint             : vstel;` |
-| `DeliverySelectionDate     : lfdat_a;` | `DeliverySelectionDate     : lfdat_a;` |
-| `DeliveryDocumentType      : lfart;` | `DeliveryDocumentType      : lfart;` |
-| `_ReferenceSDDocumentItem : association [1..*] to D_OutbDelivCrteFrmSlsDocItemP on 1 = 0;` | *Association* |
+| `ShippingPoint` | `vstel` |
+| `DeliverySelectionDate` | `lfdat_a` |
+| `DeliveryDocumentType` | `lfart` |
+| `_ReferenceSDDocumentItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReferenceSDDocumentItem` | `D_OutbDelivCrteFrmSlsDocItemP` | [1..*] |
 
 ## Source Code
 

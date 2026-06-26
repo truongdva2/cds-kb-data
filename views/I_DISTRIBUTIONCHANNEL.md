@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DistributionChannel` | `vtweg` |
-| `distributionchannel_oid )` | `cast( vtweg` |
+| `DistributionChannelOID` | `cast( vtweg as distributionchannel_oid )` |
 | `_DistrChannelHierarchyNode` | *Association* |
 | `_Text` | *Association* |
 

@@ -32,23 +32,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_PurchasingDocumentType', element : 'PurchaseContractType' } }]` | `name : 'I_PurchasingDocumentType', element : 'PurchaseContractType' } }]` |
+| `PurchaseContract` | `ContractExpiry.PurchaseContract` |
+| `PurchasingGroup` | `ContractExpiry.PurchasingGroup` |
+| `PurchasingGroupName` | `_PurchasingGroup.PurchasingGroupName` |
+| `PurchasingOrganization` | `ContractExpiry.PurchasingOrganization` |
+| `PurchasingOrganizationName` | `_PurchasingOrganization.PurchasingOrganizationName` |
+| `Supplier` | `ContractExpiry.Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `CompanyCode` | `ContractExpiry.CompanyCode` |
+| `PurchasingDocumentCategory` | `ContractExpiry.PurchasingDocumentCategory` |
+| `PurchasingDocumentCategoryName` | `expr(…)` |
+| `PurchasingDocumentSubtype` | `PurchasingDocumentSubtype` |
+| `PurchasingDocumentSubTypeName` | `expr(…)` |
 | `PurchaseContractType` | `PurchaseContractType` |
-| `_PurchasingDocumentType._Text[1: Language = $parameters.P_Language].PurchasingDocumentTypeName as PurchasingDocumentTypeName` | *Association* |
-| `/* Contract Validity Check*/` | `/* Contract Validity Check*/` |
-| `ContractExpiry.ValidityStartDate` | `ContractExpiry.ValidityStartDate` |
-| `ContractExpiry.ValidityEndDate` | `ContractExpiry.ValidityEndDate` |
-| `ContractExpiry.CreatedByUser` | `ContractExpiry.CreatedByUser` |
-| `ContractExpiry.DisplayCurrency` | `ContractExpiry.DisplayCurrency` |
-| `/* Measures*/` | `/* Measures*/` |
-| `mm_a_release_order_net_amount)` | `cast(ReleaseOrderItemNetAmount` |
-| `mm_a_expiring_contract_number )` | `cast(1` |
-| `mm_a_target_amount)` | `cast(TargetAmount` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `ValidityStartDate` | `ContractExpiry.ValidityStartDate` |
+| `ValidityEndDate` | `ContractExpiry.ValidityEndDate` |
+| `CreatedByUser` | `ContractExpiry.CreatedByUser` |
+| `DisplayCurrency` | `ContractExpiry.DisplayCurrency` |
+| `ReleaseOrderItemNetAmount` | `cast(ReleaseOrderItemNetAmount as mm_a_release_order_net_amount)` |
+| `NmbrOfExpiringContracts` | `cast(1 as mm_a_expiring_contract_number )` |
+| `TargetAmount` | `cast(TargetAmount as mm_a_target_amount)` |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Supplier` | `I_Supplier` | [1..1] |
+| `_PurchasingOrganization` | `I_PurchasingOrganization` | [1..1] |
+| `_PurchasingGroup` | `I_PurchasingGroup` | [1..1] |
+| `_PurchasingDocumentSubType` | `I_PurchasingDocumentSubtype` | [1..1] |
+| `_PurchasingDocumentCategory` | `I_PurchasingDocumentCategory` | [1..1] |
 | `_PurchasingDocumentType` | `I_PurchasingDocumentType` | [1..1] |
 
 ## Source Code

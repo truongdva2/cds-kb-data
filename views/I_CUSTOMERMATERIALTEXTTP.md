@@ -36,16 +36,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerMaterialText.LongTextID` | `CustomerMaterialText.LongTextID` |
-| `key CustomerMaterialText.SalesOrganization` | `CustomerMaterialText.SalesOrganization` |
-| `key CustomerMaterialText.DistributionChannel` | `CustomerMaterialText.DistributionChannel` |
-| `key CustomerMaterialText.Customer` | `CustomerMaterialText.Customer` |
-| `key CustomerMaterialText.Product` | `CustomerMaterialText.Product` |
-| `key CustomerMaterialText.Language` | `CustomerMaterialText.Language` |
-| `CustomerMaterialText.LanguageForEdit` | `CustomerMaterialText.LanguageForEdit` |
-| `CustomerMaterialText.LongTextIDForEdit` | `CustomerMaterialText.LongTextIDForEdit` |
-| `CustomerMaterialText.LongText` | `CustomerMaterialText.LongText` |
-| `_CustomerMaterial : redirected to parent I_CustomerMaterialTP_2` | *Association* |
+| `LongTextID` | `CustomerMaterialText.LongTextID` |
+| `SalesOrganization` | `CustomerMaterialText.SalesOrganization` |
+| `DistributionChannel` | `CustomerMaterialText.DistributionChannel` |
+| `Customer` | `CustomerMaterialText.Customer` |
+| `Product` | `CustomerMaterialText.Product` |
+| `Language` | `CustomerMaterialText.Language` |
+| `LanguageForEdit` | `CustomerMaterialText.LanguageForEdit` |
+| `LongTextIDForEdit` | `CustomerMaterialText.LongTextIDForEdit` |
+| `LongText` | `CustomerMaterialText.LongText` |
 
 ## Associations
 

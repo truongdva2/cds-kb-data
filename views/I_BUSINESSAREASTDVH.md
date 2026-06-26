@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessArea` | `BusinessArea` |
+| `BusinessArea` | `BusinessArea` |
 | `_Text` | *Association* |
 
 ## Associations

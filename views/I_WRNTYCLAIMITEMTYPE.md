@@ -38,7 +38,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_WrntyClaimType` | `cwty001` | [1..1] |
 | `_Text` | `I_WrntyClaimItemTypeText` | [1..*] |
 
 ## Source Code

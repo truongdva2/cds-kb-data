@@ -33,7 +33,6 @@ tags:
 |---|---|
 | `CADocumentNumber` | `opbel` |
 | `CAGLItemNumber` | `opupk` |
-| `/* organizational and master data */` | `/* organizational and master data */` |
 | `CompanyCode` | `bukrs` |
 | `BusinessArea` | `gsber` |
 | `BusinessPlace` | `bupla` |
@@ -41,15 +40,12 @@ tags:
 | `ProfitCenter` | `prctr` |
 | `PartnerCompany` | `vbund` |
 | `GLAccount` | `hkont` |
-| `ps_s4_pspnr preserving type )` | `cast(ps_psp_pnr` |
-| `/* dates and amounts */` | `/* dates and amounts */` |
+| `WBSElementInternalID` | `cast(ps_psp_pnr as ps_s4_pspnr preserving type )` |
 | `ValueDate` | `valut` |
-| `fis_absolute_exchangerate preserving type )` | `cast( abs( kursf )` |
-| `cast( case when kursf < 0  then 'X'` | `cast( case when kursf < 0  then 'X'` |
-| `when kursf >= 0 then ' '` | `when kursf >= 0 then ' '` |
-| `fis_indirect_quotation preserving type )` | `end` |
-| `_CADocument.TransactionCurrency                                   as TransactionCurrency` | *Association* |
-| `_CompanyCode.Currency                                             as Currency` | *Association* |
+| `CAExchangeRate` | `cast( abs( kursf ) as fis_absolute_exchangerate preserving type )` |
+| `ExchRateIsIndirectQuotation` | `cast(…)` |
+| `TransactionCurrency` | `_CADocument.TransactionCurrency` |
+| `Currency` | `_CompanyCode.Currency` |
 | `CAAmountInLocalCurrency` | `betrh` |
 | `CAAmountInTransactionCurrency` | `betrw` |
 | `CAAmountInSecondCurrency` | `betr2` |
@@ -74,7 +70,6 @@ tags:
 | `QuantityInBaseUnit` | `menge` |
 | `BaseUnit` | `meins` |
 | `CAGroupingKeyDocumentItems` | `psgrp` |
-| `/* tax data */` | `/* tax data */` |
 | `TaxCode` | `mwskz` |
 | `CASupplementaryTaxCode` | `mwszkz` |
 | `CAWithholdingTaxSupplement` | `qssew` |
@@ -99,7 +94,6 @@ tags:
 | `CAAltvExchangeRateSetCode` | `xdexr` |
 | `TaxCountry` | `tax_country` |
 | `TransToTaxCntryCrcyCnvrsnFctr` | `taxc_factor` |
-| `/* cash flow data */` | `/* cash flow data */` |
 | `CAIsCashFlowItem` | `xcsha` |
 | `CACashFlowAccount` | `reacc` |
 | `CACashFlowCompanyCode` | `rebuk` |
@@ -119,9 +113,9 @@ tags:
 | `OriginalFinancialMgmtArea` | `origfikrs` |
 | `OriglYearForFinMgmtAcctAssgmt` | `budgetyear` |
 | `EarmarkedFundsDocument` | `kblnr` |
-| `_CompanyCode.ChartOfAccounts                                      as ChartOfAccounts` | *Association* |
-| `_CompanyCode.Country                                              as Country` | *Association* |
-| `_CompanyCode._Country.TaxCalculationProcedure                     as TaxCalculationProcedure` | *Association* |
+| `ChartOfAccounts` | `_CompanyCode.ChartOfAccounts` |
+| `Country` | `_CompanyCode.Country` |
+| `TaxCalculationProcedure` | `_CompanyCode._Country.TaxCalculationProcedure` |
 | `_BaseUnit` | *Association* |
 | `_BusinessArea` | *Association* |
 | `_CAAccountAssignmentCategory` | *Association* |
@@ -149,20 +143,16 @@ tags:
 | `_TaxCountry` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_WBSElementBasicData` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `cast( case when paobjnr > '9999999999'` | `cast( case when paobjnr > '9999999999'` |
-| `then '9999999999'` | `then '9999999999'` |
-| `else lpad( paobjnr, 10, '0' )` | `else lpad( paobjnr, 10, '0' )` |
-| `rkeobjnr_numc )` | `end` |
+| `ProfitabilitySegment` | `cast(…)` |
 | `CAAltvExchangeRateForTaxItem` | `xdexr` |
 | `CATaxItemHasAltvExchangeRate` | `xdexr` |
 | `EarmarkedFunds` | `kblnr` |
-| `_CAAccountAssignmentCategory                                      as _AcctAssgmtCat` | *Association* |
-| `_CompanyCode                                                      as _CompCode` | *Association* |
-| `_CashFlowCompanyCode                                              as _CompCodeCashFlow` | *Association* |
+| `_AcctAssgmtCat` | *Association* |
+| `_CompCode` | *Association* |
+| `_CompCodeCashFlow` | *Association* |
 | `_DocHeader` | *Association* |
-| `_CAOtherTaxCode                                                   as _OtherTaxCode` | *Association* |
-| `_CAWithholdingTaxSupplement                                       as _WhldgTaxSuplmnt` | *Association* |
+| `_OtherTaxCode` | *Association* |
+| `_WhldgTaxSuplmnt` | *Association* |
 | `_GLAccountInCompanyCode` | *Association* |
 
 ## Associations

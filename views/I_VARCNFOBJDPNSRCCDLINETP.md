@@ -31,13 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key ObjectDependencyCodeLineNumber` | `ObjectDependencyCodeLineNumber` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `ChangeNumber` | `ChangeNumber` |
+| `ObjectDependencyCodeLineNumber` | `ObjectDependencyCodeLineNumber` |
 | `ObjectDependencyCodeLineText` | `ObjectDependencyCodeLineText` |
-| `/* Associations */` | `/* Associations */` |
-| `_SourceCode       : redirected to parent I_VarCnfObjDpnSourceCodeTP` | *Association* |
-| `_ObjectDependency : redirected to I_VarCnfObjectDependencyTP` | *Association* |
 
 ## Associations
 

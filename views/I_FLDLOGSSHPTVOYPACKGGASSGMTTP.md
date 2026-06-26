@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
-| `key FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
 | `FldLogsVoyStgeAssgmtSqncID` | `FldLogsVoyStgeAssgmtSqncID` |
 | `FldLogsShipmentItemTypeCode` | `FldLogsShipmentItemTypeCode` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
@@ -48,7 +48,6 @@ tags:
 | `SuplrCoIsBusPrpsCmpltd` | `SuplrCoIsBusPrpsCmpltd` |
 | `_VoyageAssgmtText` | *Association* |
 | `_ItemType` | *Association* |
-| `_Voyage : redirected to parent I_FldLogsShipmentVoyageTP` | *Association* |
 
 ## Associations
 

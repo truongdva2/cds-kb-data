@@ -28,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate                : pph_budat;` | `PostingDate                : pph_budat;` |
-| `ConfirmationText           : pph_rtext;` | `ConfirmationText           : pph_rtext;` |
-| `ExternalSystemConfirmation : ru_extid;` | `ExternalSystemConfirmation : ru_extid;` |
+| `PostingDate` | `pph_budat` |
+| `ConfirmationText` | `pph_rtext` |
+| `ExternalSystemConfirmation` | `ru_extid` |
 
 ## Associations
 

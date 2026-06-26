@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast (cast(substring(dd07t.domvalue_l ,1,1)` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `PurchasingDocumentCategory` | `cast (cast(substring(dd07t.domvalue_l ,1,1) as abap.char( 1 ) ) as ebstyp )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `purchasingdocumentcategoryname preserving type )` | `cast (dd07t.ddtext` |
+| `PurchasingDocumentCategoryName` | `cast (dd07t.ddtext as purchasingdocumentcategoryname preserving type )` |
 | `_PurchasingDocumentCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurchasingDocumentCategory` | `I_PurchasingDocumentCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

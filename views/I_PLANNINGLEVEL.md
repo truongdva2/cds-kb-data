@@ -36,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PlanningLevelText` | [0..*] |
 
 ## Source Code
 

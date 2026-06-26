@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MeasurementDocument` | `MeasurementDocument` |
+| `MeasurementDocument` | `MeasurementDocument` |
 | `MeasuringPoint` | `MeasuringPoint` |
 | `MeasuringPointPositionNumber` | `MeasuringPointPositionNumber` |
 | `MsmtRdngDate` | `MsmtRdngDate` |
@@ -60,8 +60,6 @@ tags:
 | `MsmtRdngIsReversed` | `MsmtRdngIsReversed` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `MsmtCounterReadingIsReplaced` | `MsmtCounterReadingIsReplaced` |
-| `_FailedMeasurementReading    : redirected to composition child I_FailedMeasurementReadingTP` | *Association* |
-| `_MeasurementDocumentLongText : redirected to composition child I_MsmtDocumentLongTextTP` | *Association* |
 
 ## Associations
 

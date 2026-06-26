@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MaintOrderConfLongText : esh_e_sr_longtext;` | `MaintOrderConfLongText : esh_e_sr_longtext;` |
+| `MaintOrderConfLongText` | `esh_e_sr_longtext` |
 
 ## Associations
 

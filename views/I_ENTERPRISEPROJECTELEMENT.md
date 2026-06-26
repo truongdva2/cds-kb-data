@@ -32,9 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `quickInfo : 'Latest Planned Finish'` | `quickInfo : 'Latest Planned Finish'` |
-| `label     : 'Latest Planned Finish'` | `label     : 'Latest Planned Finish'` |
-| `heading   : 'Latest Planned Finish' }` | `heading   : 'Latest Planned Finish' }` |
+| `ProjectElementUUID` | `task.guid` |
+| `ProjectElement` | `cast ( task.external_id as /s4ppm/project_ele_id preserving type )` |
+| `ProjectUUID` | `task.project_guid` |
+| `ProjectElementDescription` | `task.name` |
+| `ProcessingStatus` | `task.proc_status_own` |
+| `PlannedStartDate` | `task.latest_start_date` |
 | `PlannedEndDate` | `task.latest_finish_date` |
 | `ActualStartDate` | `task.actualstart_date` |
 | `ActualFinishDate` | `task.actualfinish_date` |
@@ -43,14 +46,14 @@ tags:
 | `IsProjectMilestone` | `task.milestone` |
 | `ForecastedEndDate` | `task.forecast_finish_date` |
 | `MilestoneApprovalStatus` | `task.mlstn_apprvl_status` |
-| `_tasktype.IsEssentialMilestone                                     as IsMainMilestone` | *Association* |
+| `IsMainMilestone` | `_tasktype.IsEssentialMilestone` |
 | `TaxJurisdiction` | `prps.txjcd` |
 | `FunctionalLocation` | `prps.tplnr` |
 | `WBSElementIsBillingElement` | `prps.fakkz` |
-| `ps_s4_pspnr preserving type )` | `cast ( task.pspnr` |
-| `ps_s4_proj_pspnr preserving type )` | `cast ( prps.psphi` |
-| `/s4ppm/tv_parent_entity_guid preserving type )` | `cast ( hiera.up` |
-| `/s4ppm/tv_sort_number preserving type )` | `cast (hiera.sort_number` |
+| `WBSElementInternalID` | `cast ( task.pspnr as ps_s4_pspnr preserving type )` |
+| `ProjectInternalID` | `cast ( prps.psphi as ps_s4_proj_pspnr preserving type )` |
+| `ParentObjectUUID` | `cast ( hiera.up as /s4ppm/tv_parent_entity_guid preserving type )` |
+| `ProjectElementOrdinalNumber` | `cast (hiera.sort_number as /s4ppm/tv_sort_number preserving type )` |
 | `WBSIsStatisticalWBSElement` | `prps.xstat` |
 | `CompanyCode` | `prps.pbukr` |
 | `ControllingArea` | `prps.pkokr` |

@@ -31,32 +31,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_AddressWorkplaceDetails.AddressID` | `I_AddressWorkplaceDetails.AddressID` |
-| `key I_AddressWorkplaceDetails.AddressPersonID` | `I_AddressWorkplaceDetails.AddressPersonID` |
-| `key I_AddressWorkplaceDetails.AddressRepresentationCode` | `I_AddressWorkplaceDetails.AddressRepresentationCode` |
-| `_PersonName.CorrespondenceLanguage` | *Association* |
-| `_PersonName.GivenName` | *Association* |
-| `_PersonName.FamilyName` | *Association* |
-| `_PersonName.PersonBirthName` | *Association* |
-| `_PersonName.PersonMiddleName` | *Association* |
-| `_PersonName.SecondFamilyName` | *Association* |
-| `_PersonName.AcademicTitle` | *Association* |
-| `_PersonName.AcademicTitle2` | *Association* |
-| `_PersonName.FamilyNamePrefix` | *Association* |
-| `_PersonName.FamilyNameSecondPrefix` | *Association* |
-| `_PersonName.PersonNameSupplementCode` | *Association* |
-| `_PersonName.PersonNickname` | *Association* |
-| `_PersonName.NameInitials` | *Association* |
-| `_PersonName.PersonFullName` | *Association* |
-| `_PersonName.FormOfAddress` | *Association* |
-| `I_AddressWorkplaceDetails.WorkplaceBuilding` | `I_AddressWorkplaceDetails.WorkplaceBuilding` |
-| `I_AddressWorkplaceDetails.WorkplaceFloor` | `I_AddressWorkplaceDetails.WorkplaceFloor` |
-| `I_AddressWorkplaceDetails.WorkplaceRoomNumber` | `I_AddressWorkplaceDetails.WorkplaceRoomNumber` |
-| `I_AddressWorkplaceDetails.WorkplaceFunctionalTitleName` | `I_AddressWorkplaceDetails.WorkplaceFunctionalTitleName` |
-| `I_AddressWorkplaceDetails.WorkplaceDepartmentName` | `I_AddressWorkplaceDetails.WorkplaceDepartmentName` |
-| `I_AddressWorkplaceDetails.WorkplacePrfrdCommMediumType` | `I_AddressWorkplaceDetails.WorkplacePrfrdCommMediumType` |
-| `I_AddressWorkplaceDetails.WorkplaceCorrespncShortName` | `I_AddressWorkplaceDetails.WorkplaceCorrespncShortName` |
-| `I_AddressWorkplaceDetails.WorkplaceInhouseMail` | `I_AddressWorkplaceDetails.WorkplaceInhouseMail` |
+| `AddressID` | `I_AddressWorkplaceDetails.AddressID` |
+| `AddressPersonID` | `I_AddressWorkplaceDetails.AddressPersonID` |
+| `AddressRepresentationCode` | `I_AddressWorkplaceDetails.AddressRepresentationCode` |
+| `CorrespondenceLanguage` | `_PersonName.CorrespondenceLanguage` |
+| `GivenName` | `_PersonName.GivenName` |
+| `FamilyName` | `_PersonName.FamilyName` |
+| `PersonBirthName` | `_PersonName.PersonBirthName` |
+| `PersonMiddleName` | `_PersonName.PersonMiddleName` |
+| `SecondFamilyName` | `_PersonName.SecondFamilyName` |
+| `AcademicTitle` | `_PersonName.AcademicTitle` |
+| `AcademicTitle2` | `_PersonName.AcademicTitle2` |
+| `FamilyNamePrefix` | `_PersonName.FamilyNamePrefix` |
+| `FamilyNameSecondPrefix` | `_PersonName.FamilyNameSecondPrefix` |
+| `PersonNameSupplementCode` | `_PersonName.PersonNameSupplementCode` |
+| `PersonNickname` | `_PersonName.PersonNickname` |
+| `NameInitials` | `_PersonName.NameInitials` |
+| `PersonFullName` | `_PersonName.PersonFullName` |
+| `FormOfAddress` | `_PersonName.FormOfAddress` |
+| `WorkplaceBuilding` | `I_AddressWorkplaceDetails.WorkplaceBuilding` |
+| `WorkplaceFloor` | `I_AddressWorkplaceDetails.WorkplaceFloor` |
+| `WorkplaceRoomNumber` | `I_AddressWorkplaceDetails.WorkplaceRoomNumber` |
+| `WorkplaceFunctionalTitleName` | `I_AddressWorkplaceDetails.WorkplaceFunctionalTitleName` |
+| `WorkplaceDepartmentName` | `I_AddressWorkplaceDetails.WorkplaceDepartmentName` |
+| `WorkplacePrfrdCommMediumType` | `I_AddressWorkplaceDetails.WorkplacePrfrdCommMediumType` |
+| `WorkplaceCorrespncShortName` | `I_AddressWorkplaceDetails.WorkplaceCorrespncShortName` |
+| `WorkplaceInhouseMail` | `I_AddressWorkplaceDetails.WorkplaceInhouseMail` |
 | `_EmailAddress` | *Association* |
 | `_PhoneNumber` | *Association* |
 | `_FaxNumber` | *Association* |

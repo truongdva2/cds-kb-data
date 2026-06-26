@@ -35,7 +35,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ClassGroupText` | `I_ClfnClassGroupText` | [0..*] |
 
 ## Source Code
 

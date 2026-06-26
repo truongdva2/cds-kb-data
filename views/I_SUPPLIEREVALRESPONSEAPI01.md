@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalRspUUID` | `SuplrEvalRspUUID` |
+| `SuplrEvalRspUUID` | `SuplrEvalRspUUID` |
 | `SupplierEvalResponse` | `SupplierEvalResponse` |
 | `SuplrEvalRspName` | `SuplrEvalRspName` |
 | `SuplrEvalStartDate` | `SuplrEvalStartDate` |
@@ -40,9 +40,9 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `SuplrEvalDeadlineDate` | `SuplrEvalDeadlineDate` |
 | `PurgCatUUID` | `PurgCatUUID` |
-| `/srmsmc/created_by )` | `cast(CreatedByUser` |
+| `CreatedByUser` | `cast(CreatedByUser as /srmsmc/created_by )` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/srmsmc/last_changed_by )` | `cast(LastChangedByUser` |
+| `LastChangedByUser` | `cast(LastChangedByUser as /srmsmc/last_changed_by )` |
 | `Language` | `Language` |
 | `SuplrEvalRspLifecycleStatus` | `SuplrEvalRspLifecycleStatus` |
 | `_Supplier` | *Association* |

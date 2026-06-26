@@ -39,11 +39,11 @@ tags:
 | `WarrantyItemKey` | `itmno` |
 | `WrntyClaimQuantity` | `quant` |
 | `QuantityUnit` | `meinh` |
-| `wty_crncy preserving type )` | `cast (_WrntyClaimVersion.WrntyCurrencyCode` |
-| `WarrantyClaimItemDecisionCode,// WarrantyClaimItemDecisionCode` | `rejcd` |
+| `WrntyCurrencyCode` | `cast (_WrntyClaimVersion.WrntyCurrencyCode as wty_crncy preserving type )` |
+| `WarrantyClaimItemDecisionCode` | `rejcd` |
 | `WrntyReturnPartsFrmCustStatus` | `retpa` |
 | `WrntyClmPartsIsCausingDamage` | `causp` |
-| `WrntyClaimItemShortText,//WrntyClaimItemShortText` | `pvtxt` |
+| `WrntyClaimItemShortText` | `pvtxt` |
 | `WrntyClaimantClaimAmount` | `valic` |
 | `WrntyReimburserClaimAmount` | `valov` |
 | `WrntyReimburseApprovedAmount` | `valiv` |
@@ -57,41 +57,15 @@ tags:
 | `WrntyItmSuplrRetPartsDelivDate` | `retpa_delv_date_v` |
 | `WarrantyClaimCatalog` | `wrntycatalog_id` |
 | `WarrantyClaimItemPricingStatus` | `pricing_ok` |
-| `WarrantyClaimChangeDateTime,// to be chnaged` | `timstmp` |
+| `WarrantyClaimChangeDateTime` | `timstmp` |
 | `WrntyClaimCreationDate` | `creadat` |
 | `CreatedByUser` | `creaby` |
 | `WrntyClaimChangedDate` | `chngdat` |
 | `LastChangedByUser` | `chngby` |
-| `_WrntyClaimVersion.WrntyClaimHeaderUUID                                   as WrntyClaimHeaderUUID` | *Association* |
-| `_WrntyClaimVersion.WrntyPriceExchangeRateDate                             as WrntyPriceExchangeRateDate` | *Association* |
-| `_WrntyClaimVersion.WrntyDocumentCondition` | *Association* |
-| `case poskt` | `case poskt` |
-| `when 'MAT' then` | `when 'MAT' then` |
-| `case _WrntyClaimVersion.WarrantyClaimVersionCategory` | `case _WrntyClaimVersion.WarrantyClaimVersionCategory` |
-| `when 'IV' then _DfltCndnType.MatlItmCndnTypeInbFrmRmbsr` | `when 'IV' then _DfltCndnType.MatlItmCndnTypeInbFrmRmbsr` |
-| `when 'OV' then _DfltCndnType.MatlItmCndnTypeOutbToRmbsr` | `when 'OV' then _DfltCndnType.MatlItmCndnTypeOutbToRmbsr` |
-| `when 'IC' then _DfltCndnType.MatlItmCndnTypeInbFrmClmnt` | `when 'IC' then _DfltCndnType.MatlItmCndnTypeInbFrmClmnt` |
-| `when 'OC' then _DfltCndnType.MatlItmCndnTypeOutbToClmnt` | `when 'OC' then _DfltCndnType.MatlItmCndnTypeOutbToClmnt` |
-| `else''` | `else''` |
-| `end` | `end` |
-| `when 'FR' then` | `when 'FR' then` |
-| `case _WrntyClaimVersion.WarrantyClaimVersionCategory` | `case _WrntyClaimVersion.WarrantyClaimVersionCategory` |
-| `when 'IV' then _DfltCndnType.LabItmCndnTypeInbFrmRmbsr` | `when 'IV' then _DfltCndnType.LabItmCndnTypeInbFrmRmbsr` |
-| `when 'OV' then _DfltCndnType.LabItmCndnTypeOutbToRmbsr` | `when 'OV' then _DfltCndnType.LabItmCndnTypeOutbToRmbsr` |
-| `when 'IC' then _DfltCndnType.LabItmCndnTypeForInbFrmClmnt` | `when 'IC' then _DfltCndnType.LabItmCndnTypeForInbFrmClmnt` |
-| `when 'OC' then _DfltCndnType.LabItmCndnTypeOutbToClmnt` | `when 'OC' then _DfltCndnType.LabItmCndnTypeOutbToClmnt` |
-| `else''` | `else''` |
-| `end` | `end` |
-| `when 'SUBL' then` | `when 'SUBL' then` |
-| `case _WrntyClaimVersion.WarrantyClaimVersionCategory` | `case _WrntyClaimVersion.WarrantyClaimVersionCategory` |
-| `when 'IV' then _DfltCndnType.ExtItmCndnTypeInbFrmRmbsr` | `when 'IV' then _DfltCndnType.ExtItmCndnTypeInbFrmRmbsr` |
-| `when 'OV' then _DfltCndnType.ExtItmCndnTypeOutbToRmbsr` | `when 'OV' then _DfltCndnType.ExtItmCndnTypeOutbToRmbsr` |
-| `when 'IC' then _DfltCndnType.ExtItmCndnTypeInbFrmClmnt` | `when 'IC' then _DfltCndnType.ExtItmCndnTypeInbFrmClmnt` |
-| `when 'OC' then _DfltCndnType.ExtItmCndnTypeOutbToClmnt` | `when 'OC' then _DfltCndnType.ExtItmCndnTypeOutbToClmnt` |
-| `else''` | `else''` |
-| `end` | `end` |
-| `else ''` | `else ''` |
-| `WrntyClmItmDfltCndnType` | `end` |
+| `WrntyClaimHeaderUUID` | `_WrntyClaimVersion.WrntyClaimHeaderUUID` |
+| `WrntyPriceExchangeRateDate` | `_WrntyClaimVersion.WrntyPriceExchangeRateDate` |
+| `WrntyDocumentCondition` | `_WrntyClaimVersion.WrntyDocumentCondition` |
+| `WrntyClmItmDfltCndnType` | `case…end` |
 | `_WrntyClaimVersion` | *Association* |
 | `_LastChangedByUser` | *Association* |
 | `_DfltCndnType` | *Association* |

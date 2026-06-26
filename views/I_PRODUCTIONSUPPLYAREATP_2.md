@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionSupplyArea` | `ProductionSupplyArea` |
-| `key Plant` | `Plant` |
+| `ProductionSupplyArea` | `ProductionSupplyArea` |
+| `Plant` | `Plant` |
 | `StorageLocation` | `StorageLocation` |
 | `ProductionSupplyAreaRespPerson` | `ProductionSupplyAreaRespPerson` |
 | `UnloadingPointName` | `UnloadingPointName` |
@@ -45,9 +45,6 @@ tags:
 | `AutomotiveLoadingPoint` | `AutomotiveLoadingPoint` |
 | `ProductionSupplyAreaAddressID` | `ProductionSupplyAreaAddressID` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductionSupplyAreaAddress : redirected to composition child I_ProductionSupplyAreaAddrTP_2` | *Association* |
-| `_ProductionSupplyAreaText : redirected to composition child I_ProductionSupplyAreaTextTP_2` | *Association* |
 
 ## Associations
 

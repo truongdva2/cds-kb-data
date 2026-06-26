@@ -37,11 +37,10 @@ tags:
 | `LongTextID` | `textid` |
 | `QualityTaskLongText` | `content` |
 | `LongTextCreatedByUser` | `created_by` |
-| `qlt_longtext_created_at preserving type )` | `cast( created_at` |
+| `LongTextCreatedAt` | `cast( created_at as qlt_longtext_created_at preserving type )` |
 | `LongTextLastChangedByUser` | `changed_by` |
-| `qlt_longtext_changed_at preserving type )` | `cast( changed_at` |
-| `w3conttype )` | `cast( mimetype` |
-| `/* Association */` | `/* Association */` |
+| `LongTextLastChangedAt` | `cast( changed_at as qlt_longtext_changed_at preserving type )` |
+| `MimeType` | `cast( mimetype as w3conttype )` |
 | `_QualityTask` | *Association* |
 | `_Language` | *Association* |
 

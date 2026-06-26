@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BusinessPartnerVH', element: 'BusinessPartner' }` | `name: 'I_BusinessPartnerVH', element: 'BusinessPartner' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
-| `key  CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceContract` | `ServiceContract` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartFunctionCategory` | `CustMgmtPartFunctionCategory` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceContractTP         : redirected to parent I_ServiceContractTP` | *Association* |
-| `_SrvcContrPartnerAddressTP : redirected to composition child I_SrvcContrPartnerAddressTP` | *Association* |
 | `_SrvcMgmtPartnerFunctionText` | *Association* |
 
 ## Associations

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDistrict` | `SalesDistrict` |
-| `_CnsldtnSalesDistrict._Text[1: Language=$session.system_language].SalesDistrictName` | *Association* |
+| `SalesDistrict` | `SalesDistrict` |
+| `SalesDistrictName` | `expr(…)` |
 
 ## Associations
 

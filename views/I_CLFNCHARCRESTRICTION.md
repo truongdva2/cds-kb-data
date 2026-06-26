@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atinn_no_conv preserving type )` | `cast ( CharcRestriction.atinn` |
+| `CharcInternalID` | `cast ( CharcRestriction.atinn as atinn_no_conv preserving type )` |
 | `ClassType` | `CharcRestriction.klart` |
 
 ## Associations

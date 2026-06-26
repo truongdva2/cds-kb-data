@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_productgroup preserving type )` | `cast(left(DomainValue.domvalue_l,4)` |
+| `FinTransProductGroup` | `cast(left(DomainValue.domvalue_l,4) as ftr_productgroup preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

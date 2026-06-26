@@ -32,10 +32,7 @@ tags:
 |---|---|
 | `SourceCurrency` | `fcurr` |
 | `TargetCurrency` | `tcurr` |
-| `key case gdatu` | `case gdatu` |
-| `abap.dats)` | `when '' then cast('00000000'` |
-| `abap.numc(8))` | `else cast(substring(cast(99999999 - cast(cast(gdatu` |
-| `ValidityStartDate` | `end` |
+| `ValidityStartDate` | `case…end` |
 | `CurrencyQuotationType` | `notation` |
 | `_SourceCurrency` | *Association* |
 | `_TargetCurrency` | *Association* |

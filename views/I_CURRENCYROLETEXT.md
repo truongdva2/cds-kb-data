@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `CurrencyRole` | `curtype` |
 | `Language` | `langu` |
-| `fac_crcyrole_txt preserving type )` | `cast( name` |
+| `CurrencyRoleName` | `cast( name as fac_crcyrole_txt preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

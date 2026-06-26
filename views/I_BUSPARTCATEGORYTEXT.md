@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `BusinessPartnerCategory` | `cast ( cast ( substring( domvalue_l, 1, 1 ) as abap.char( 1 ) ) as bu_type )` |
 | `Language` | `ddlanguage` |
 | `BusinessPartnerCategoryText` | `ddtext` |
 | `DomainValue` | `domvalue_l` |

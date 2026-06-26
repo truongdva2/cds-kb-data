@@ -32,20 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eams_tec_obj )` | `cast ( I_FunctionalLocationText.FunctionalLocation` |
-| `eams_tec_obj_type_value )` | `cast ( 'EAMS_FL'` |
-| `I_FunctionalLocationText.Language` | `I_FunctionalLocationText.Language` |
-| `eams_tec_obj_des )` | `cast( I_FunctionalLocationText.FunctionalLocationName` |
-| `I_FunctionalLocationText.IsPrimaryLanguage` | `I_FunctionalLocationText.IsPrimaryLanguage` |
-| `TechnicalObjectHasLongText` | `I_FunctionalLocationText.FuncnlLocHasLongText` |
-| `/* Associations */` | `/* Associations */` |
-| `I_FunctionalLocationText._Language` | `I_FunctionalLocationText._Language` |
+| `TechnicalObject` | `cast ( Equipment as eams_tec_obj )` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast ( 'EAMS_EQUI' as eams_tec_obj_type_value )` |
+| `Language` | `I_EquipmentText.Language` |
+| `TechnicalObjectDescription` | `cast( I_EquipmentText.EquipmentName as eams_tec_obj_des )` |
+| `IsPrimaryLanguage` | `I_EquipmentText.IsPrimaryLanguage` |
+| `TechnicalObjectHasLongText` | `I_EquipmentText.EquipmentHasLongText` |
+| `_Language` | *Association* |
 | `_TechnicalObject` | *Association* |
 | `_TechObjIsEquipOrFuncnlLoc` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TechnicalObject` | `I_TechnicalObject` | [0..1] |
+| `_TechObjIsEquipOrFuncnlLoc` | `I_TechObjIsEquipOrFuncnlLoc` | [0..1] |
 
 ## Source Code
 

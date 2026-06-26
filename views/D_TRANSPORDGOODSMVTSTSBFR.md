@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspOrdGoodsMovementStatus : /scmtms/dlv_goods_movem_status;` | `TranspOrdGoodsMovementStatus : /scmtms/dlv_goods_movem_status;` |
-| `_DummyAssociation            : association to parent D_TranspOrdGoodsMvtStsChgd;` | *Association* |
+| `TranspOrdGoodsMovementStatus` | `/scmtms/dlv_goods_movem_status` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdGoodsMvtStsChgd` | — |
 
 ## Source Code
 

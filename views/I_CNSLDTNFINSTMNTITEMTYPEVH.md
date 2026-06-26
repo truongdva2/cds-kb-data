@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `fincs_description_text_60 preserving type )` | `cast(_Text[1: Language=$session.system_language].ConsolidationFSItemTypeText` |
+| `ConsolidationFSItemType` | `ConsolidationFSItemType` |
+| `ConsolidationFSItemTypeText` | `cast(…)` |
 
 ## Associations
 

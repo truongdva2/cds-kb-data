@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMDeliveryDocumentCategory` | `EWMDeliveryDocumentCategory` |
-| `key EWMDeliveryDocumentType` | `EWMDeliveryDocumentType` |
+| `EWMDeliveryDocumentType` | `EWMDeliveryDocumentType` |
 | `_DeliveryCategory` | *Association* |
 | `_Text` | *Association* |
 

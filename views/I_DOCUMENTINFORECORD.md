@@ -30,12 +30,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_DocumentInfoRecordUserVH'` | `name:    'I_DocumentInfoRecordUserVH'` |
-| `element: 'LastChangedByUser' }` | `element: 'LastChangedByUser' }` |
-| `}]` | `}]` |
+| `DocumentInfoRecordDocType` | `DocInfo.DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocVersion` | `DocInfo.DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocNumber` | `DocInfo.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocPart` | `DocInfo.DocumentInfoRecordDocPart` |
+| `DocumentInfoRecord` | `DocInfo.DocumentInfoRecord` |
+| `InternalDocumentStatus` | `DocInfo.InternalDocumentStatus` |
+| `ExternalDocumentStatus` | `_DocStatusVH.ExternalDocumentStatus` |
+| `LaboratoryOrDesignOffice` | `DocInfo.LaboratoryOrDesignOffice` |
+| `Plant` | `DocInfo.Plant` |
+| `AuthorizationGroup` | `DocInfo.AuthorizationGroup` |
+| `ChangeNumber` | `DocInfo.ChangeNumber` |
+| `DocInfoRecdIsMarkedForDeletion` | `DocInfo.DocInfoRecdIsMarkedForDeletion` |
+| `IsDocInfoRecdCreatedFromCAD` | `DocInfo.IsDocInfoRecdCreatedFromCAD` |
+| `IsDocInfoRecdStructure` | `DocInfo.IsDocInfoRecdStructure` |
+| `DocInfoRecdSourceDocNumber` | `DocInfo.DocInfoRecdSourceDocNumber` |
+| `DocInfoRecdSourceDocPart` | `DocInfo.DocInfoRecdSourceDocPart` |
+| `DocInfoRecdSourceDocVersion` | `DocInfo.DocInfoRecdSourceDocVersion` |
+| `ResponsiblePersonName` | `DocInfo.ResponsiblePersonName` |
+| `CreationDateTime` | `DocInfo.CreationDateTime` |
+| `CreatedByUser` | `DocInfo.CreatedByUser` |
+| `ChangedDateTime` | `DocInfo.ChangedDateTime` |
 | `LastChangedByUser` | `DocInfo.LastChangedByUser` |
 | `DocumentInfoRecordIsFrozen` | `DocInfo.DocumentInfoRecordIsFrozen` |
-| `/* Associations */` | `/* Associations */` |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 | `_DocVersion` | *Association* |

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SequentialPlantDataCollection` | `SequentialPlantDataCollection` |
+| `SequentialPlantDataCollection` | `SequentialPlantDataCollection` |
 | `ConfirmationApplicationOrigin` | `ConfirmationApplicationOrigin` |
 | `SystemMessageIdentification` | `SystemMessageIdentification` |
 | `SystemMessageNumber` | `SystemMessageNumber` |

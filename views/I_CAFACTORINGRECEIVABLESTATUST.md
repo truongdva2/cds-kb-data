@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fasta_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `fasta_text_kk preserving type )` | `cast ( ddtext` |
+| `CACurrentFactoringStatusOfRbl` | `cast( left( dd07t.domvalue_l, 1 ) as fasta_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CACurrentFactoringStsOfRblText` | `cast ( ddtext as fasta_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -29,9 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVentureCompanyCodeVH'` | `name:    'I_JointVentureCompanyCodeVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
+| `ValuationArea` | `ValuationArea` |
 | `CompanyCode` | `CompanyCode` |
 | `_CompanyCode` | *Association* |
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtDoc` | `SettlmtDoc` |
+| `SettlmtDoc` | `SettlmtDoc` |
 | `AlternativeInvoicingParty` | `AlternativeInvoicingParty` |
 | `SuplrSettlmtCompanyCode` | `SuplrSettlmtCompanyCode` |
 | `BillToParty` | `BillToParty` |

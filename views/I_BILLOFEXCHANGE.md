@@ -30,9 +30,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_RegionVH'` | `name:    'I_RegionVH'` |
-| `element: 'Region' }` | `element: 'Region' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `_CompanyCode` | *Association* |
+| `AccountingDocument` | `belnr` |
+| `_JournalEntry` | *Association* |
+| `FiscalYear` | `cast(gjahr as fis_gjahr_no_conv preserving type)` |
+| `_FiscalYear` | *Association* |
+| `AccountingDocumentItem` | `buzei` |
+| `Cheque` | `cast(boeno as chect)` |
+| `BillOfExchangeIssueDate` | `wdate` |
+| `BillOfExchangeUsageDate` | `wverd` |
+| `BillOfExchangeUsage` | `cast( wevwv as farp_wverw preserving type )` |
+| `PlannedBillOfExchangeUsage` | `wevwv` |
+| `BillOfExchangeDrawer` | `wname` |
+| `BillOfExchangeDrawerCityName` | `wort1` |
+| `BillOfExchangeDrawee` | `wbzog` |
+| `BillOfExchangeDraweeCityName` | `wort2` |
+| `BillOfExchangeDomicileText` | `wbank` |
+| `BillOfExchangeIsAccepted` | `xaktz` |
 | `Region` | `regio` |
 | `BillOfExchangeDocumentStatus` | `wstat` |
 | `BillOfExchangeIsProtested` | `wgbkz` |
@@ -43,11 +58,11 @@ tags:
 | `BillOfExchangePortfolio` | `portf` |
 | `BillOfExchangeCntrlBankLocText` | `wlzbp` |
 | `BOEDraweeBankKey` | `bank` |
-| `_dataaging                                                                      as BillOfExchangeDataAgingDate` | *Association* |
-| `cvp_xblck preserving type )` | `cast( ' '` |
-| `brgru preserving type )` | `cast( '    '` |
-| `BankAccount, // CM 40121 (2025) Inclusion Fields in I_BILLOFEXCHANGE CDS by Fiona` | `accou` |
-| `BOESupplierForPresentation, // CM 40121 (2025) Inclusion Fields in I_BILLOFEXCHANGE CDS by Fiona` | `vendr` |
+| `BillOfExchangeDataAgingDate` | `_dataaging` |
+| `IsBusinessPurposeCompleted` | `cast( ' ' as cvp_xblck preserving type )` |
+| `AuthorizationGroup` | `cast( ' ' as brgru preserving type )` |
+| `BankAccount` | `accou` |
+| `BOESupplierForPresentation` | `vendr` |
 | `BOEReferenceProcedure` | `reference_procedure` |
 | `BOEReferenceObjectKey` | `reference_object_key` |
 | `_OperationalAcctgDocItem` | *Association* |

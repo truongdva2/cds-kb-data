@@ -30,33 +30,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `fis_bukrs preserving type )` | `cast( I_CompanyCode.CompanyCode` |
-| `I_FiscalCalendarDate.FiscalYearVariant` | `I_FiscalCalendarDate.FiscalYearVariant` |
-| `I_FiscalCalendarDate.FiscalYear` | `I_FiscalCalendarDate.FiscalYear` |
-| `I_FiscalCalendarDate.FiscalYearStartDate` | `I_FiscalCalendarDate.FiscalYearStartDate` |
-| `I_FiscalCalendarDate.FiscalYearEndDate` | `I_FiscalCalendarDate.FiscalYearEndDate` |
-| `I_FiscalCalendarDate.FiscalPeriod` | `I_FiscalCalendarDate.FiscalPeriod` |
-| `I_FiscalCalendarDate.FiscalPeriodStartDate` | `I_FiscalCalendarDate.FiscalPeriodStartDate` |
-| `I_FiscalCalendarDate.FiscalPeriodEndDate` | `I_FiscalCalendarDate.FiscalPeriodEndDate` |
-| `I_FiscalCalendarDate.FiscalQuarter` | `I_FiscalCalendarDate.FiscalQuarter` |
-| `I_FiscalCalendarDate.FiscalQuarterStartDate` | `I_FiscalCalendarDate.FiscalQuarterStartDate` |
-| `I_FiscalCalendarDate.FiscalQuarterEndDate` | `I_FiscalCalendarDate.FiscalQuarterEndDate` |
-| `I_FiscalCalendarDate.FiscalWeek` | `I_FiscalCalendarDate.FiscalWeek` |
-| `I_FiscalCalendarDate.FiscalWeekStartDate` | `I_FiscalCalendarDate.FiscalWeekStartDate` |
-| `I_FiscalCalendarDate.FiscalWeekEndDate` | `I_FiscalCalendarDate.FiscalWeekEndDate` |
-| `I_FiscalCalendarDate.FiscalYearPeriod` | `I_FiscalCalendarDate.FiscalYearPeriod` |
-| `I_FiscalCalendarDate.FiscalYearQuarter` | `I_FiscalCalendarDate.FiscalYearQuarter` |
-| `I_FiscalCalendarDate.FiscalYearWeek` | `I_FiscalCalendarDate.FiscalYearWeek` |
-| `I_FiscalCalendarDate.FiscalYearConsecutiveNumber` | `I_FiscalCalendarDate.FiscalYearConsecutiveNumber` |
-| `I_FiscalCalendarDate.FiscalPeriodConsecutiveNumber` | `I_FiscalCalendarDate.FiscalPeriodConsecutiveNumber` |
-| `I_FiscalCalendarDate.FiscalQuarterConsecutiveNumber` | `I_FiscalCalendarDate.FiscalQuarterConsecutiveNumber` |
-| `I_FiscalCalendarDate.FiscalWeekConsecutiveNumber` | `I_FiscalCalendarDate.FiscalWeekConsecutiveNumber` |
-| `I_FiscalCalendarDate._FiscalYearVariant` | `I_FiscalCalendarDate._FiscalYearVariant` |
+| `CalendarDate` | `I_FiscalCalendarDate.CalendarDate` |
+| `CompanyCode` | `cast( I_CompanyCode.CompanyCode as fis_bukrs preserving type )` |
+| `FiscalYearVariant` | `I_FiscalCalendarDate.FiscalYearVariant` |
+| `FiscalYear` | `I_FiscalCalendarDate.FiscalYear` |
+| `FiscalYearStartDate` | `I_FiscalCalendarDate.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `I_FiscalCalendarDate.FiscalYearEndDate` |
+| `FiscalPeriod` | `I_FiscalCalendarDate.FiscalPeriod` |
+| `FiscalPeriodStartDate` | `I_FiscalCalendarDate.FiscalPeriodStartDate` |
+| `FiscalPeriodEndDate` | `I_FiscalCalendarDate.FiscalPeriodEndDate` |
+| `FiscalQuarter` | `I_FiscalCalendarDate.FiscalQuarter` |
+| `FiscalQuarterStartDate` | `I_FiscalCalendarDate.FiscalQuarterStartDate` |
+| `FiscalQuarterEndDate` | `I_FiscalCalendarDate.FiscalQuarterEndDate` |
+| `FiscalWeek` | `I_FiscalCalendarDate.FiscalWeek` |
+| `FiscalWeekStartDate` | `I_FiscalCalendarDate.FiscalWeekStartDate` |
+| `FiscalWeekEndDate` | `I_FiscalCalendarDate.FiscalWeekEndDate` |
+| `FiscalYearPeriod` | `I_FiscalCalendarDate.FiscalYearPeriod` |
+| `FiscalYearQuarter` | `I_FiscalCalendarDate.FiscalYearQuarter` |
+| `FiscalYearWeek` | `I_FiscalCalendarDate.FiscalYearWeek` |
+| `FiscalYearConsecutiveNumber` | `I_FiscalCalendarDate.FiscalYearConsecutiveNumber` |
+| `FiscalPeriodConsecutiveNumber` | `I_FiscalCalendarDate.FiscalPeriodConsecutiveNumber` |
+| `FiscalQuarterConsecutiveNumber` | `I_FiscalCalendarDate.FiscalQuarterConsecutiveNumber` |
+| `FiscalWeekConsecutiveNumber` | `I_FiscalCalendarDate.FiscalWeekConsecutiveNumber` |
+| `_FiscalYearVariant` | *Association* |
 | `_CompanyCode` | *Association* |
-| `I_FiscalCalendarDate._CalendarDate` | `I_FiscalCalendarDate._CalendarDate` |
+| `_CalendarDate` | *Association* |
 | `_Text` | *Association* |
 
 ## Associations

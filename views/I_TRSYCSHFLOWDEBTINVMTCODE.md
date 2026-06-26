@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_debt_invest_indicator preserving type)` | `cast(left(DomainValue.domvalue_l, 1)` |
+| `TrsyCshFlowDebtInvmtCode` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

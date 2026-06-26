@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinStmntItemTypeVH', element: 'ConsolidationFSItemType' } }]` | `name: 'I_CnsldtnFinStmntItemTypeVH', element: 'ConsolidationFSItemType' } }]` |
-| `fincs_fsitemtype preserving type )` | `cast ( _DomainText.DomainValue` |
-| `fincs_fsitemtype_desc preserving type )` | `cast(_DomainText.DomainValueText` |
+| `Language` | `cast(_DomainText.Language as spras preserving type )` |
+| `ConsolidationFSItemType` | `cast ( _DomainText.DomainValue as fincs_fsitemtype preserving type )` |
+| `ConsolidationFSItemTypeText` | `cast(_DomainText.DomainValueText as fincs_fsitemtype_desc preserving type )` |
 | `_FSItemType` | *Association* |
 | `_Language` | *Association* |
 

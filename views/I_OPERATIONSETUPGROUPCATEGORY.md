@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH}` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH}` |
-| `vdm_ruefagrp preserving type)` | `cast(rfgrp` |
+| `OperationSetupGroupCategory` | `cast(rfgrp as vdm_ruefagrp preserving type)` |
 | `Plant` | `werks` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |

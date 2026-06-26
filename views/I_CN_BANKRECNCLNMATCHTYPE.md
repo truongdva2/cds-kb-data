@@ -32,11 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CN_BankRecnclnMatchTypeText'` | `name:    'I_CN_BankRecnclnMatchTypeText'` |
-| `element: 'BankReconciliationMatchType' }` | `element: 'BankReconciliationMatchType' }` |
-| `useAsTemplate: true` | `useAsTemplate: true` |
-| `}]` | `}]` |
-| `epic_brs_matched_indicator preserving type )` | `cast(left(domvalue_l,1)` |
+| `BankReconciliationMatchType` | `cast(left(domvalue_l,1) as epic_brs_matched_indicator preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

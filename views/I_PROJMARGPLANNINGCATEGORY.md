@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlanningCategory` | `PlanningCategory` |
+| `PlanningCategory` | `PlanningCategory` |
 | `_Text` | *Association* |
 
 ## Associations

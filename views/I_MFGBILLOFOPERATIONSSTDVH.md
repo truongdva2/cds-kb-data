@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfOperationsType` | `BillOfOperationsType` |
-| `key BillOfOperationsGroup` | `BillOfOperationsGroup` |
-| `key BillOfOperationsVariant` | `BillOfOperationsVariant` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `BillOfOperationsVariant` |
 | `_BillOfOperationsType` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 

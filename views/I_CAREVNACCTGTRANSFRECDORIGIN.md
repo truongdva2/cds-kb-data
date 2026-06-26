@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ra_oi_orig_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CARevnAcctgTransfRecordOrigin` | `cast( left( dd07l.domvalue_l, 1 ) as ra_oi_orig_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

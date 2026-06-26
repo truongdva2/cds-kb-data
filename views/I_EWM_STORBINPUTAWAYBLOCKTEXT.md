@@ -35,7 +35,6 @@ tags:
 | `Language` | `ddlanguage` |
 | `StorageBinIsBlockedForPutaway` | `domvalue_l` |
 | `StorageBinIsPutawayBlockedDesc` | `ddtext` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -32,37 +32,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnPricingElement.CustomerReturn` | `CustomerReturnPricingElement.CustomerReturn` |
-| `key CustomerReturnPricingElement.PricingProcedureStep` | `CustomerReturnPricingElement.PricingProcedureStep` |
-| `key CustomerReturnPricingElement.PricingProcedureCounter` | `CustomerReturnPricingElement.PricingProcedureCounter` |
-| `CustomerReturnPricingElement.ConditionApplication` | `CustomerReturnPricingElement.ConditionApplication` |
-| `CustomerReturnPricingElement.ConditionType` | `CustomerReturnPricingElement.ConditionType` |
-| `CustomerReturnPricingElement.ConditionTypeName` | `CustomerReturnPricingElement.ConditionTypeName` |
-| `CustomerReturnPricingElement.ConditionCalculationType` | `CustomerReturnPricingElement.ConditionCalculationType` |
-| `CustomerReturnPricingElement.ConditionRateAmount` | `CustomerReturnPricingElement.ConditionRateAmount` |
-| `CustomerReturnPricingElement.ConditionCurrency` | `CustomerReturnPricingElement.ConditionCurrency` |
-| `CustomerReturnPricingElement.ConditionRateRatio` | `CustomerReturnPricingElement.ConditionRateRatio` |
-| `CustomerReturnPricingElement.ConditionRateRatioUnit` | `CustomerReturnPricingElement.ConditionRateRatioUnit` |
-| `CustomerReturnPricingElement.ConditionBaseAmount` | `CustomerReturnPricingElement.ConditionBaseAmount` |
-| `CustomerReturnPricingElement.ConditionAmount` | `CustomerReturnPricingElement.ConditionAmount` |
-| `CustomerReturnPricingElement.TransactionCurrency` | `CustomerReturnPricingElement.TransactionCurrency` |
-| `CustomerReturnPricingElement.ConditionBaseQuantity` | `CustomerReturnPricingElement.ConditionBaseQuantity` |
-| `CustomerReturnPricingElement.ConditionQuantity` | `CustomerReturnPricingElement.ConditionQuantity` |
-| `CustomerReturnPricingElement.ConditionQuantityUnit` | `CustomerReturnPricingElement.ConditionQuantityUnit` |
-| `CustomerReturnPricingElement.ConditionIsForStatistics` | `CustomerReturnPricingElement.ConditionIsForStatistics` |
-| `CustomerReturnPricingElement.ConditionIsManuallyChanged` | `CustomerReturnPricingElement.ConditionIsManuallyChanged` |
-| `CustomerReturnPricingElement.ConditionInactiveReason` | `CustomerReturnPricingElement.ConditionInactiveReason` |
-| `CustomerReturnPricingElement.ConditionRateValueIsAmount` | `CustomerReturnPricingElement.ConditionRateValueIsAmount` |
-| `CustomerReturnPricingElement.ConditionRateValueIsRatio` | `CustomerReturnPricingElement.ConditionRateValueIsRatio` |
-| `CustomerReturnPricingElement.ConditionRateValueIsNull` | `CustomerReturnPricingElement.ConditionRateValueIsNull` |
-| `CustomerReturnPricingElement.ConditionQuantityIsNull` | `CustomerReturnPricingElement.ConditionQuantityIsNull` |
-| `CustomerReturnPricingElement.ConditionAmountIsNull` | `CustomerReturnPricingElement.ConditionAmountIsNull` |
-| `CustomerReturnPricingElement.CustomerReturnType` | `CustomerReturnPricingElement.CustomerReturnType` |
-| `CustomerReturnPricingElement.SalesOrganization` | `CustomerReturnPricingElement.SalesOrganization` |
-| `CustomerReturnPricingElement.DistributionChannel` | `CustomerReturnPricingElement.DistributionChannel` |
-| `CustomerReturnPricingElement.OrganizationDivision` | `CustomerReturnPricingElement.OrganizationDivision` |
-| `/* Associations */` | `/* Associations */` |
-| `_CustomerReturn : redirected to parent I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustomerReturnPricingElement.CustomerReturn` |
+| `PricingProcedureStep` | `CustomerReturnPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `CustomerReturnPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `CustomerReturnPricingElement.ConditionApplication` |
+| `ConditionType` | `CustomerReturnPricingElement.ConditionType` |
+| `ConditionTypeName` | `CustomerReturnPricingElement.ConditionTypeName` |
+| `ConditionCalculationType` | `CustomerReturnPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `CustomerReturnPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `CustomerReturnPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `CustomerReturnPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `CustomerReturnPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `CustomerReturnPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `CustomerReturnPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `CustomerReturnPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `CustomerReturnPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `CustomerReturnPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `CustomerReturnPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `CustomerReturnPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `CustomerReturnPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `CustomerReturnPricingElement.ConditionInactiveReason` |
+| `ConditionRateValueIsAmount` | `CustomerReturnPricingElement.ConditionRateValueIsAmount` |
+| `ConditionRateValueIsRatio` | `CustomerReturnPricingElement.ConditionRateValueIsRatio` |
+| `ConditionRateValueIsNull` | `CustomerReturnPricingElement.ConditionRateValueIsNull` |
+| `ConditionQuantityIsNull` | `CustomerReturnPricingElement.ConditionQuantityIsNull` |
+| `ConditionAmountIsNull` | `CustomerReturnPricingElement.ConditionAmountIsNull` |
+| `CustomerReturnType` | `CustomerReturnPricingElement.CustomerReturnType` |
+| `SalesOrganization` | `CustomerReturnPricingElement.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturnPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturnPricingElement.OrganizationDivision` |
 
 ## Associations
 

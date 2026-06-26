@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8` | `fuzzinessThreshold:   0.8` |
-| `ranking:              #LOW }` | `ranking:              #LOW }` |
+| `CreditSegment` | `cast( credit_sgmnt as farp_credit_segment preserving type)` |
+| `Language` | `langu` |
 | `CreditSegmentName` | `credit_sgmnt_txt` |
 
 ## Associations

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType : lfart;` | `DeliveryDocumentType : lfart;` |
-| `SalesOrganization    : vkorg;` | `SalesOrganization    : vkorg;` |
-| `SDDocumentCategory   : vbtypl;` | `SDDocumentCategory   : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

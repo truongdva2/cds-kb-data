@@ -32,9 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BillingDocumentTypeStdVH'` | `name:    'I_BillingDocumentTypeStdVH'` |
-| `element: 'BillingDocumentType' }` | `element: 'BillingDocumentType' }` |
-| `}]` | `}]` |
+| `BillingDocumentTypeHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_billingdoctype preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
+| `ParentNode` | `hrrp_node_n.parnode` |
 | `BillingDocumentType` | `hrrp_node_n.fkart` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |

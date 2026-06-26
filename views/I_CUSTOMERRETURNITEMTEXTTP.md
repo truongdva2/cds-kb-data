@@ -35,19 +35,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnItemText.CustomerReturn` | `CustomerReturnItemText.CustomerReturn` |
-| `key CustomerReturnItemText.CustomerReturnItem` | `CustomerReturnItemText.CustomerReturnItem` |
-| `key CustomerReturnItemText.Language` | `CustomerReturnItemText.Language` |
-| `key CustomerReturnItemText.LongTextID` | `CustomerReturnItemText.LongTextID` |
-| `CustomerReturnItemText.LongTextIDForEdit` | `CustomerReturnItemText.LongTextIDForEdit` |
-| `CustomerReturnItemText.LanguageForEdit` | `CustomerReturnItemText.LanguageForEdit` |
-| `CustomerReturnItemText.LongText` | `CustomerReturnItemText.LongText` |
-| `CustomerReturnItemText.CustomerReturnType` | `CustomerReturnItemText.CustomerReturnType` |
-| `CustomerReturnItemText.SalesOrganization` | `CustomerReturnItemText.SalesOrganization` |
-| `CustomerReturnItemText.DistributionChannel` | `CustomerReturnItemText.DistributionChannel` |
-| `CustomerReturnItemText.OrganizationDivision` | `CustomerReturnItemText.OrganizationDivision` |
-| `_Item       : redirected to parent I_CustomerReturnItemTP` | *Association* |
-| `_CustomerReturn : redirected to I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustomerReturnItemText.CustomerReturn` |
+| `CustomerReturnItem` | `CustomerReturnItemText.CustomerReturnItem` |
+| `Language` | `CustomerReturnItemText.Language` |
+| `LongTextID` | `CustomerReturnItemText.LongTextID` |
+| `LongTextIDForEdit` | `CustomerReturnItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `CustomerReturnItemText.LanguageForEdit` |
+| `LongText` | `CustomerReturnItemText.LongText` |
+| `CustomerReturnType` | `CustomerReturnItemText.CustomerReturnType` |
+| `SalesOrganization` | `CustomerReturnItemText.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturnItemText.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturnItemText.OrganizationDivision` |
 
 ## Associations
 

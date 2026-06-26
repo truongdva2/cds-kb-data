@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ObjectDependencyStatus` | `ObjectDependencyStatus` |
 | `ObjectDependencyGroup` | `ObjectDependencyGroup` |
 | `ObjectDependencyType` | `ObjectDependencyType` |
@@ -43,10 +43,6 @@ tags:
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_ObjectDependency : redirected to parent I_VarCnfObjectDependencyTP` | *Association* |
-| `_HistoricalText   : redirected to I_VarCnfHistlObjDpnTextTP` | *Association* |
-| `_SourceCode       : redirected to I_VarCnfObjDpnSourceCodeTP` | *Association* |
 
 ## Associations
 

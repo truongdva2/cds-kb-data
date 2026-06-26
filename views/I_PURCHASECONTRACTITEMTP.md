@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
 | `PurchaseContractItemUniqueID` | `PurchaseContractItemUniqueID` |
 | `CompanyCode` | `CompanyCode` |
 | `Material` | `Material` |
@@ -106,12 +106,6 @@ tags:
 | `PurchasingGroup` | `PurchasingGroup` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `PurchasingIsCatalogRelevant` | `PurchasingIsCatalogRelevant` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContract : redirected to parent I_PurchaseContractTP` | *Association* |
-| `_PurCtrAccount    : redirected to composition child I_PurContrAccountTP` | *Association* |
-| `_PurCtrAddress    : redirected to composition child I_PurContrAddressTP` | *Association* |
-| `_PurCtrItNotes    : redirected to composition child I_PurContrItemNotesTP` | *Association* |
-| `_PurContrItemCndnValdty : redirected to composition child I_PurContrItemCndnValdtyTP` | *Association* |
 
 ## Associations
 

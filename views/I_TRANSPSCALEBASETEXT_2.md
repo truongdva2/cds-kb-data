@@ -34,7 +34,6 @@ tags:
 | `TransportationScaleBase` | `scalebase` |
 | `Language` | `spras` |
 | `TransportationScaleBaseText` | `scbasetext` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationScaleBase` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationScaleBase` | `I_TransportationScaleBase_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

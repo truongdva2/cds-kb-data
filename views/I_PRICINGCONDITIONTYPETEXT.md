@@ -38,7 +38,7 @@ tags:
 | `Language` | `spras` |
 | `ConditionApplication` | `kappl` |
 | `ConditionType` | `kschl` |
-| `vtxtm )` | `cast(vtext` |
+| `ConditionTypeName` | `cast(vtext as vtxtm )` |
 | `_ConditionApplication` | *Association* |
 
 ## Associations

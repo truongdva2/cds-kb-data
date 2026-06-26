@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdvdmpaymentformrh )` | `cast( dd07l.domvalue_l` |
+| `REPaymentForm` | `cast( dd07l.domvalue_l as recdvdmpaymentformrh )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REPaymentFormText` | [0..*] |
 
 ## Source Code
 

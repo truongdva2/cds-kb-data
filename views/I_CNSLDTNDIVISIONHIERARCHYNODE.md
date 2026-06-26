@@ -30,15 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnDivisionVH'` | `name: 'I_CnsldtnDivisionVH'` |
-| `element: 'Division'` | `element: 'Division'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_HierarchyNode.Division` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnDivisionHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `Division` | `_HierarchyNode.Division` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Division` | *Association* |
 | `_Hierarchy` | *Association* |

@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralRequestForQuotation` | `CentralRequestForQuotation` |
-| `key PartnerCounter` | `PartnerCounter` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `PartnerCounter` | `PartnerCounter` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Supplier` | `Supplier` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralRequestForQuotation : redirected to parent I_CntrlRequestForQuotationTP_2` | *Association* |
 
 ## Associations
 

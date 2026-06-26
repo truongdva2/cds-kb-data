@@ -31,13 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_productgrouphierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_productgrouphiertext  preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyText._Language` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnProductGroupHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnProductGroupHierText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

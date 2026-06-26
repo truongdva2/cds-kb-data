@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key FinancialTransaction` | `FinancialTransaction` |
-| `key FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
-| `key NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
-| `_FinancialTransaction.Counterparty                                                                                                           as Counterparty` | *Association* |
-| `_FinancialTransaction.FinancialInstrProductCategory                                                                                          as FinancialInstrProductCategory` | *Association* |
-| `_FinancialTransaction.FinancialInstrumentProductType                                                                                         as FinancialInstrumentProductType` | *Association* |
-| `_FinancialTransaction.FinancialInstrTransactionType                                                                                          as FinancialInstrTransactionType` | *Association* |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
+| `FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
+| `NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
+| `Counterparty` | `_FinancialTransaction.Counterparty` |
+| `FinancialInstrProductCategory` | `_FinancialTransaction.FinancialInstrProductCategory` |
+| `FinancialInstrumentProductType` | `_FinancialTransaction.FinancialInstrumentProductType` |
+| `FinancialInstrTransactionType` | `_FinancialTransaction.FinancialInstrTransactionType` |
 | `NetPresentValueAmountInNPVCrcy` | `NetPresentValueAmountInNPVCrcy` |
 | `IntrinsicValueAmountInNPVCrcy` | `IntrinsicValueAmountInNPVCrcy` |
 | `TimeValueAmountInNPVCrcy` | `TimeValueAmountInNPVCrcy` |
@@ -52,10 +52,10 @@ tags:
 | `_CompanyCode` | *Association* |
 | `_FinancialTransaction` | *Association* |
 | `_NPVType` | *Association* |
-| `_FinancialTransaction._Counterparty                                                                                                          as _Counterparty` | *Association* |
-| `_FinancialTransaction._FinancialInstrProdCat                                                                                                 as _FinancialInstrProdCat` | *Association* |
-| `_FinancialTransaction._FinancialInstrProdType                                                                                                as _FinancialInstrProdType` | *Association* |
-| `_FinancialTransaction._FinancialInstrTransType                                                                                               as _FinancialInstrTransType` | *Association* |
+| `_Counterparty` | *Association* |
+| `_FinancialInstrProdCat` | *Association* |
+| `_FinancialInstrProdType` | *Association* |
+| `_FinancialInstrTransType` | *Association* |
 
 ## Associations
 

@@ -33,32 +33,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustReturnItemPricingElement.CustomerReturn` | `CustReturnItemPricingElement.CustomerReturn` |
-| `key CustReturnItemPricingElement.CustomerReturnItem` | `CustReturnItemPricingElement.CustomerReturnItem` |
-| `key CustReturnItemPricingElement.PricingProcedureStep` | `CustReturnItemPricingElement.PricingProcedureStep` |
-| `key CustReturnItemPricingElement.PricingProcedureCounter` | `CustReturnItemPricingElement.PricingProcedureCounter` |
-| `CustReturnItemPricingElement.ConditionApplication` | `CustReturnItemPricingElement.ConditionApplication` |
-| `CustReturnItemPricingElement.ConditionType` | `CustReturnItemPricingElement.ConditionType` |
-| `CustReturnItemPricingElement.ConditionCalculationType` | `CustReturnItemPricingElement.ConditionCalculationType` |
-| `CustReturnItemPricingElement.ConditionRateAmount` | `CustReturnItemPricingElement.ConditionRateAmount` |
-| `CustReturnItemPricingElement.ConditionCurrency` | `CustReturnItemPricingElement.ConditionCurrency` |
-| `CustReturnItemPricingElement.ConditionRateRatio` | `CustReturnItemPricingElement.ConditionRateRatio` |
-| `CustReturnItemPricingElement.ConditionRateRatioUnit` | `CustReturnItemPricingElement.ConditionRateRatioUnit` |
-| `CustReturnItemPricingElement.ConditionBaseAmount` | `CustReturnItemPricingElement.ConditionBaseAmount` |
-| `CustReturnItemPricingElement.ConditionAmount` | `CustReturnItemPricingElement.ConditionAmount` |
-| `CustReturnItemPricingElement.TransactionCurrency` | `CustReturnItemPricingElement.TransactionCurrency` |
-| `CustReturnItemPricingElement.ConditionBaseQuantity` | `CustReturnItemPricingElement.ConditionBaseQuantity` |
-| `CustReturnItemPricingElement.ConditionQuantity` | `CustReturnItemPricingElement.ConditionQuantity` |
-| `CustReturnItemPricingElement.ConditionQuantityUnit` | `CustReturnItemPricingElement.ConditionQuantityUnit` |
-| `CustReturnItemPricingElement.ConditionIsForStatistics` | `CustReturnItemPricingElement.ConditionIsForStatistics` |
-| `CustReturnItemPricingElement.ConditionIsManuallyChanged` | `CustReturnItemPricingElement.ConditionIsManuallyChanged` |
-| `CustReturnItemPricingElement.ConditionInactiveReason` | `CustReturnItemPricingElement.ConditionInactiveReason` |
-| `CustReturnItemPricingElement.CustomerReturnType` | `CustReturnItemPricingElement.CustomerReturnType` |
-| `CustReturnItemPricingElement.SalesOrganization` | `CustReturnItemPricingElement.SalesOrganization` |
-| `CustReturnItemPricingElement.DistributionChannel` | `CustReturnItemPricingElement.DistributionChannel` |
-| `CustReturnItemPricingElement.OrganizationDivision` | `CustReturnItemPricingElement.OrganizationDivision` |
-| `_Item           : redirected to parent I_CustomerReturnItemTP` | *Association* |
-| `_CustomerReturn : redirected to I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustReturnItemPricingElement.CustomerReturn` |
+| `CustomerReturnItem` | `CustReturnItemPricingElement.CustomerReturnItem` |
+| `PricingProcedureStep` | `CustReturnItemPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `CustReturnItemPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `CustReturnItemPricingElement.ConditionApplication` |
+| `ConditionType` | `CustReturnItemPricingElement.ConditionType` |
+| `ConditionCalculationType` | `CustReturnItemPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `CustReturnItemPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `CustReturnItemPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `CustReturnItemPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `CustReturnItemPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `CustReturnItemPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `CustReturnItemPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `CustReturnItemPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `CustReturnItemPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `CustReturnItemPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `CustReturnItemPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `CustReturnItemPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `CustReturnItemPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `CustReturnItemPricingElement.ConditionInactiveReason` |
+| `CustomerReturnType` | `CustReturnItemPricingElement.CustomerReturnType` |
+| `SalesOrganization` | `CustReturnItemPricingElement.SalesOrganization` |
+| `DistributionChannel` | `CustReturnItemPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `CustReturnItemPricingElement.OrganizationDivision` |
 
 ## Associations
 

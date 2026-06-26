@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `txind_007a)` | `cast(domvalue_l` |
-| `spras)` | `cast(ddlanguage` |
+| `UnitedStatesTaxCategory` | `cast(domvalue_l as txind_007a)` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `UnitedStatesTaxCategoryName` | `ddtext` |
 | `_Language` | *Association* |
 

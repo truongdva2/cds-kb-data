@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_industry preserving type )` | `cast(hrrp_dirt_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `IndustryHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_industry preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `IndustryHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

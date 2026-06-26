@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CustMgmtObjectType : crmt_subobject_category_db;` | `CustMgmtObjectType : crmt_subobject_category_db;` |
-| `ServiceContractUUID : crmt_object_guid;` | `ServiceContractUUID : crmt_object_guid;` |
-| `ServiceContractType : crmt_process_type;` | `ServiceContractType : crmt_process_type;` |
+| `CustMgmtObjectType` | `crmt_subobject_category_db` |
+| `ServiceContractUUID` | `crmt_object_guid` |
+| `ServiceContractType` | `crmt_process_type` |
 
 ## Associations
 

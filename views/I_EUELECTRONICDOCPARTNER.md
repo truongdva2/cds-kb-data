@@ -31,12 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name   : 'I_EUElectronicDocCommChannelVH'` | `name   : 'I_EUElectronicDocCommChannelVH'` |
-| `element: 'EU_EDocCommChannel' }` | `element: 'EU_EDocCommChannel' }` |
-| `}]` | `}]` |
+| `ElectronicDocPartnerId` | `partner_id` |
+| `ElectronicDocBPType` | `partner_type` |
+| `ElectronicDocPartyIdType` | `party_id_type` |
+| `EU_EDocEmail` | `email` |
 | `EU_EDocCommChannel` | `comm_channel` |
-| `_BusinessPartner.AuthorizationGroup             as AuthorizationGroup` | *Association* |
-| `_BusinessPartner.IsBusinessPurposeCompleted     as IsBusinessPurposeCompleted` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_BusinessPartner.IsBusinessPurposeCompleted` |
 
 ## Associations
 

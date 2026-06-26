@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `producttype preserving type )` | `cast(mtart` |
+| `ProductType` | `cast(mtart as producttype preserving type )` |
 | `Language` | `spras` |
-| `producttypename preserving type )` | `cast(mtbez` |
+| `ProductTypeName` | `cast(mtbez as producttypename preserving type )` |
 | `_ProductType` | *Association* |
 | `_Language` | *Association* |
 

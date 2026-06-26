@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocumentStampUUID` | `LglCntntMDocumentStampUUID` |
+| `LglCntntMDocumentStampUUID` | `LglCntntMDocumentStampUUID` |
 | `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMDocumentStamp` | `LglCntntMDocumentStamp` |
 | `LglCntntMCreatedUTCDateTime` | `LglCntntMCreatedUTCDateTime` |
 | `LglCntntMCreatedByUser` | `LglCntntMCreatedByUser` |
 | `LglTransWrkFlwModInstce` | `LglTransWrkFlwModInstce` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to parent I_LegalDocumentTP` | *Association* |
 
 ## Associations
 

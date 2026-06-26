@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCntxtCatGroupUUID` | `LglCntntMCntxtCatGroupUUID` |
+| `LglCntntMCntxtCatGroupUUID` | `LglCntntMCntxtCatGroupUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMCatGroupTitle` | `LglCntntMCatGroupTitle` |
-| `_LCMContextTP               : redirected to parent I_LegalContextTP` | *Association* |
-| `_LCMContextParentCategoryTP : redirected to composition child I_LegalContextParentCategoryTP` | *Association* |
 
 ## Associations
 

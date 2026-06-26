@@ -29,20 +29,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocument : ehfnd_log_doc_number_nc;` | `ProdCmplncLogsDocument : ehfnd_log_doc_number_nc;` |
-| `DangerousGoodsEUADRPointText : dangerousgoodseuadrpointtext;` | `DangerousGoodsEUADRPointText : dangerousgoodseuadrpointtext;` |
-| `DngrsGdsEUADRQtyExmpIsAllowed : dngrsgdseuadrqtyexmpisallowed;` | `DngrsGdsEUADRQtyExmpIsAllowed : dngrsgdseuadrqtyexmpisallowed;` |
-| `DngrsGdsEUADRQtyExmpIsApplbl : dngrsgdseuadrqtyexmpisapplbl;` | `DngrsGdsEUADRQtyExmpIsApplbl : dngrsgdseuadrqtyexmpisapplbl;` |
-| `DangerousGoodsRIDPointText : dangerousgoodsridpointtext;` | `DangerousGoodsRIDPointText : dangerousgoodsridpointtext;` |
-| `DngrsGdsRIDQtyExmpIsAllowed : dngrsgdsridqtyexmpisallowed;` | `DngrsGdsRIDQtyExmpIsAllowed : dngrsgdsridqtyexmpisallowed;` |
-| `DngrsGdsRIDExmpIsApplicable : dngrsgdsridexmpisapplicable;` | `DngrsGdsRIDExmpIsApplicable : dngrsgdsridexmpisapplicable;` |
-| `_Item : composition[0..*] of D_CalctDngrsGoodsPointsItemR;` | *Association* |
-| `_Category : composition[0..*] of D_CalctDngrsGdsPtsCategoryR;` | *Association* |
-| `_PackingInstruction : composition[0..*] of D_DaGdsClfnClctDaGdsPtsPaInsnR;` | *Association* |
+| `ProdCmplncLogsDocument` | `ehfnd_log_doc_number_nc` |
+| `DangerousGoodsEUADRPointText` | `dangerousgoodseuadrpointtext` |
+| `DngrsGdsEUADRQtyExmpIsAllowed` | `dngrsgdseuadrqtyexmpisallowed` |
+| `DngrsGdsEUADRQtyExmpIsApplbl` | `dngrsgdseuadrqtyexmpisapplbl` |
+| `DangerousGoodsRIDPointText` | `dangerousgoodsridpointtext` |
+| `DngrsGdsRIDQtyExmpIsAllowed` | `dngrsgdsridqtyexmpisallowed` |
+| `DngrsGdsRIDExmpIsApplicable` | `dngrsgdsridexmpisapplicable` |
+| `_Item` | *Association* |
+| `_Category` | *Association* |
+| `_PackingInstruction` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_CalctDngrsGoodsPointsItemR` | [0..*] |
+| `_Category` | `D_CalctDngrsGdsPtsCategoryR` | [0..*] |
+| `_PackingInstruction` | `D_DaGdsClfnClctDaGdsPtsPaInsnR` | [0..*] |
 
 ## Source Code
 

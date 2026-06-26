@@ -32,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `EU_EDocPaymentMeans` | `cast(dd07t.domvalue_l as edoc_eu_paym_means)` |
+| `Language` | `ddlanguage` |
 | `EU_EDocPaymentMeansText` | `ddtext` |
 | `_Language` | *Association* |
 

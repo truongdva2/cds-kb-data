@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `CAPreliminaryInvcgDocStatus` | `cast( dd07l.domvalue_l as prlinv_status_kk )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CAPreliminaryInvcgDocStatusT` | [0..*] |
 
 ## Source Code
 

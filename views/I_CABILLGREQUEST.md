@@ -36,7 +36,7 @@ tags:
 | `CABillgReqReason` | `billreqrsn` |
 | `CAApplicationArea` | `applk` |
 | `ContractAccount` | `vkont` |
-| `bu_partner preserving type)` | `cast(gpart` |
+| `BusinessPartner` | `cast(gpart as bu_partner preserving type)` |
 | `CAInvoicingDocument` | `inv_ref` |
 | `CABillgReqDescription` | `billreq_descr` |
 | `CABillgReqStatus` | `billreqstatus` |

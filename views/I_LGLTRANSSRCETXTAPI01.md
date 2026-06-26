@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionSource` | `LegalTransactionSource` |
-| `key Language` | `Language` |
+| `LegalTransactionSource` | `LegalTransactionSource` |
+| `Language` | `Language` |
 | `LglCntntMLglTransSrceTxt` | `LglCntntMLglTransSrceTxt` |
 
 ## Associations

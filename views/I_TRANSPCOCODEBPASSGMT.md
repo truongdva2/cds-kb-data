@@ -30,17 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited*/` | `/* start suppress warning shlporigin_not_inherited*/` |
 | `CompanyCode` | `comp_code` |
 | `BusinessPartner` | `partner` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
 | `CreatedByUser` | `created_by` |
 | `CreationDateTime` | `created_at` |
 | `LocalInstanceLastChangedByUser` | `local_last_changed_by` |
 | `LoclInstanceLastChangeDateTime` | `local_last_changed_at` |
 | `LastChangedByUser` | `last_changed_by` |
 | `LastChangeDateTime` | `last_changed_at` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_BusinessPartner` | *Association* |
 

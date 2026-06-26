@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pi_hdr_post_status_code preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PhysInvtryAdjustmentPostingSts` | `cast ( substring( domvalue_l, 1, 1 ) as pi_hdr_post_status_code preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

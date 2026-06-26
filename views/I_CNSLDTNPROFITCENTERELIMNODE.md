@@ -32,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sapObjectNodeTypeReference: 'CnsldtnProfitCenterForElim'` | `sapObjectNodeTypeReference: 'CnsldtnProfitCenterForElim'` |
-| `text.association: '_Text' }` | `text.association: '_Text' }` |
-| `fincs_elim_profitcenter preserving type )` | `cast(left(_node.nodevalue, 25)` |
+| `ControllingArea` | `cast(_node.kokrs as fincs_controllingarea preserving type )` |
+| `ProfitCenter` | `cast(left(_node.nodevalue, 25) as fincs_elim_profitcenter preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Text` | *Association* |
 

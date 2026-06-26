@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       EWMWarehouse` | `EWMWarehouse` |
-| `key       EntitledToDisposeParty` | `EntitledToDisposeParty` |
-| `key       EWMProductionSupplyArea` | `EWMProductionSupplyArea` |
-| `key       Product` | `Product` |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `EntitledToDisposeParty` | `EntitledToDisposeParty` |
+| `EWMProductionSupplyArea` | `EWMProductionSupplyArea` |
+| `Product` | `Product` |
 | `ProductUUID` | `ProductUUID` |
 | `EWMStorageBin` | `EWMStorageBin` |
 | `EWMStagingMethod` | `EWMStagingMethod` |

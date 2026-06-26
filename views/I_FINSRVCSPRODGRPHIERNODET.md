@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ffs_hryid_product_group preserving type )` | `cast (HierDirectory.HierarchyShortID` |
+| `FinSrvcsProductGroupHierarchy` | `cast(…)` |
 | `HierarchyNode` | `HierNode.HierarchyNode` |
 | `ValidityEndDate` | `HierNode.ValidityEndDate` |
 | `Language` | `HierNode.Language` |
 | `HierarchyNodeText` | `HierNode.HierarchyNodeText` |
-| `ffs_node_short_text preserving type )` | `cast(substring(HierNode.HierarchyNodeText, 1, 20)` |
+| `HierarchyNodeShortText` | `cast(…)` |
 | `ValidityStartDate` | `HierNode.ValidityStartDate` |
-| `HierNode._Language` | `HierNode._Language` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

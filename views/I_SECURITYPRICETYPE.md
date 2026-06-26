@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tba_pricetype)` | `cast ( tw56.skursart` |
+| `PriceQuotationType` | `cast ( tw56.skursart as tba_pricetype)` |
 | `_Text` | *Association* |
 
 ## Associations

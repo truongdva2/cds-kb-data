@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label:  'Calendar Quarter Name'` | `label:  'Calendar Quarter Name'` |
-| `quickInfo: 'Calendar Quarter Name' }` | `quickInfo: 'Calendar Quarter Name' }` |
+| `CalendarQuarter` | `cast ( substring( dd07t.domvalue_l, 1, 1 ) as calendarquarter )` |
+| `Language` | `ddlanguage` |
 | `CalendarQuarterName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_CalendarQuarter` | *Association* |

@@ -30,12 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true , fuzzinessThreshold: 0.8 , ranking: #HIGH }` | `defaultSearchElement: true , fuzzinessThreshold: 0.8 , ranking: #HIGH }` |
 | `CompanyCode` | `bukrs` |
-| `jv_name preserving type )` | `cast( vname` |
+| `JointVenture` | `cast( vname as jv_name preserving type )` |
 | `JntOpgAgrmtEquityGrp` | `egrup` |
-| `coalesce( _JntVntrEquityGrpText[1:Language = $session.system_language ].JntOpgAgrmtEquityGrpText` | `coalesce( _JntVntrEquityGrpText[1:Language = $session.system_language ].JntOpgAgrmtEquityGrpText` |
-| `_JntVntrEquityGrpText[1:Language = 'E' ].JntOpgAgrmtEquityGrpText ) as JntOpgAgrmtEquityGrpText` | *Association* |
+| `JntOpgAgrmtEquityGrpText` | `coalesce(…)` |
 | `_CompanyCode` | *Association* |
 | `_JointVentureMasterFld` | *Association* |
 | `_JntVntrEquityGrpText` | *Association* |

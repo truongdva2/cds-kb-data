@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ProjectElementUUID` | `ProjectElementUUID` |
+| `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectElement` | `ProjectElement` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `ProjectUUID` | `ProjectUUID` |
@@ -70,14 +70,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_EnterpriseProject              : redirected to parent  I_EnterpriseProjectTP_3` | *Association* |
-| `_SubProjElement                 : redirected to I_EnterpriseProjectElementTP_3` | *Association* |
-| `_ParentProjElement              : redirected to I_EnterpriseProjectElementTP_3` | *Association* |
-| `_EntProjectElementJVA           : redirected to composition child I_EntProjElmntJntVntrAcctTP_3` | *Association* |
-| `_EntProjElmntBlkFunc            : redirected to composition child I_EntProjElmntBlockFuncTP_3` | *Association* |
-| `_EntProjectElmntPublicSector    : redirected to composition child I_EntProjElmntPublicSectorTP_3` | *Association* |
-| `_EntProjElmntDlvbrl             : redirected to composition child I_EntProjElmntDlvbrlTP` | *Association* |
-| `_EntProjElmntWorkItem           : redirected to composition child I_EntProjElmntWorkItemTP` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

@@ -33,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnProfitCenter.ControllingArea` | `_CnsldtnProfitCenter.ControllingArea` |
-| `key _CnsldtnProfitCenter.ProfitCenter` | `_CnsldtnProfitCenter.ProfitCenter` |
-| `_CnsldtnProfitCenter.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnProfitCenterTextTP` | *Association* |
+| `ControllingArea` | `_CnsldtnProfitCenter.ControllingArea` |
+| `ProfitCenter` | `_CnsldtnProfitCenter.ProfitCenter` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnProfitCenter.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

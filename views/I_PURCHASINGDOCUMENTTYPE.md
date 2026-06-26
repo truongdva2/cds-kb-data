@@ -44,6 +44,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Category` | `I_PurchasingDocumentCategory` | [1..1] |
+| `_Text` | `I_PurchasingDocumentTypeText` | [0..*] |
 
 ## Source Code
 

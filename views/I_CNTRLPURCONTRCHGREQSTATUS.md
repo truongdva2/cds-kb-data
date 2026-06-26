@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ) )` | `cast( dd07l.domvalue_l` |
+| `PurgDocChangeRequestStatus` | `cast( dd07l.domvalue_l as abap.char( 2 ) )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CntrlPurContrChgReqStatusTxt` | [0..*] |
 
 ## Source Code
 

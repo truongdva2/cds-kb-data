@@ -30,12 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'FinancialManagementArea', element: 'FinancialManagementArea', usage: #FILTER_AND_RESULT }]` | `localElement: 'FinancialManagementArea', element: 'FinancialManagementArea', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `fincs_fund preserving type )` | `cast( _source.Fund` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _source.CnsldtnIsAdditionalMasterData )` |
-| `fincs_creationdatetime preserving type )` | `cast( min ( _source.CreationDateTime )` |
-| `/* associations */` | `/* associations */` |
+| `FinancialManagementArea` | `cast(…)` |
+| `Fund` | `cast( _source.Fund as fincs_fund preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
+| `CreationDateTime` | `cast(…)` |
 | `_Text` | *Association* |
 | `_HierarchyNode` | *Association* |
 | `_FinancialManagementArea` | *Association* |

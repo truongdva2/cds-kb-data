@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_rkondgr )` | `cast( dd07l.domvalue_l` |
+| `FinancialTransactionDirection` | `cast( dd07l.domvalue_l as tb_rkondgr )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

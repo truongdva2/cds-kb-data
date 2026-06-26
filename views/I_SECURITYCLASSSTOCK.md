@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type)` | `cast(ranl` |
+| `SecurityClass` | `cast(ranl as ftr_gen_security_class preserving type)` |
 | `SecurityClassStockCategory` | `sakar` |
 | `SecurityClassFundType` | `sfoty` |
 | `SecurityClNmbrOfIssuedStocks` | `aaaaktie` |

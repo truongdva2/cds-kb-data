@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QuotaArrangement` | `QuotaArrangement` |
+| `QuotaArrangement` | `QuotaArrangement` |
 | `Material` | `Material` |
 | `Plant` | `Plant` |
 | `ValidityEndDate` | `ValidityEndDate` |
@@ -42,8 +42,6 @@ tags:
 | `UserDescription` | `UserDescription` |
 | `MaterialBaseUnit` | `MaterialBaseUnit` |
 | `MinQtyForSpltQuota` | `MinQtyForSpltQuota` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurgQuotaArrgmtItem : redirected to composition child I_PurgQuotaArrgmtItemTP_2` | *Association* |
 
 ## Associations
 

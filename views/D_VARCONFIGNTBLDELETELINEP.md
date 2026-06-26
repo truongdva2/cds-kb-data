@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `VarConfignTblLineNumber : vtlin;` | `VarConfignTblLineNumber : vtlin;` |
-| `ChangeNumber            : aennr;` | `ChangeNumber            : aennr;` |
+| `VarConfignTblLineNumber` | `vtlin` |
+| `ChangeNumber` | `aennr` |
 
 ## Associations
 

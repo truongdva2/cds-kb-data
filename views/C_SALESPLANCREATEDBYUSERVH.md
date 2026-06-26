@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesPlanUUID` | `SalesPlanUUID` |
+| `SalesPlanUUID` | `SalesPlanUUID` |
 | `SalesPlan` | `SalesPlan` |
 | `SalesPlanVersion` | `SalesPlanVersion` |
 | `CreatedByUser` | `CreatedByUser` |
-| `sp_username preserving type )` | `cast( _CreatedByUser.UserDescription` |
+| `UserDescription` | `cast( _CreatedByUser.UserDescription as sp_username preserving type )` |
 
 ## Associations
 

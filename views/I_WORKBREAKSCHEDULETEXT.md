@@ -33,8 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `workbreakschedulename preserving type)` | `cast(txt.ktext` |
+| `ShiftGrouping` | `txt.schgrup` |
+| `WorkBreakSchedule` | `txt.paplan` |
+| `Language` | `txt.spras` |
+| `WorkBreakScheduleName` | `cast(txt.ktext as workbreakschedulename preserving type)` |
 | `_WorkBreakSchedule` | *Association* |
 | `_ShiftGrouping` | *Association* |
 | `_Language` | *Association* |

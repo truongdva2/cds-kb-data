@@ -36,11 +36,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fktyp )` | `cast( domvalue_l` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `billingdocumentcategoryname preserving type )` | `cast( ddtext` |
+| `BillingDocumentCategory` | `cast( domvalue_l as fktyp )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BillingDocumentCategoryName` | `cast( ddtext as billingdocumentcategoryname preserving type )` |
 | `DomainValue` | `domvalue_l` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_BillingDocumentCategory` | *Association* |
 | `_Language` | *Association* |
 

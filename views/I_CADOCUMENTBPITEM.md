@@ -55,7 +55,6 @@ tags:
 | `CASubApplication` | `subap` |
 | `AltvContractAcctForCollvBills` | `abwkt` |
 | `CAReconciliationAccount` | `hkont` |
-| `/* posting attributes */` | `/* posting attributes */` |
 | `CAApplicationArea` | `applk` |
 | `CAMainTransaction` | `hvorg` |
 | `CASubTransaction` | `tvorg` |
@@ -86,24 +85,20 @@ tags:
 | `CAIsPartOfJointLiability` | `palix` |
 | `CADocumentOriginCode` | `herkf_kk` |
 | `CAGroupingKeyDocumentItems` | `psgrp` |
-| `/* document references */` | `/* document references */` |
 | `CASubstituteDocumentNumber` | `abwbl` |
 | `CASubstituteDocumentCategory` | `abwtp` |
 | `CAStatisticalCodeOfOriginItem` | `astkz` |
 | `CADocumentNumberOfOriginItem` | `asblg` |
 | `CAReferenceDocument` | `xblnr` |
 | `CAClassificationKey` | `opord` |
-| `/* dates and amounts */` | `/* dates and amounts */` |
 | `DocumentDate` | `bldat` |
 | `CAPostingDate` | `budat` |
 | `CANetDueDate` | `faedn` |
 | `CADeferralDate` | `studt` |
 | `TransactionCurrency` | `waers` |
-| `_CompanyCode.Currency                                           as CompanyCodeCurrency` | *Association* |
-| `fis_absolute_exchangerate preserving type )` | `cast( abs(kursf)` |
-| `cast( case when kursf < 0  then 'X'` | `cast( case when kursf < 0  then 'X'` |
-| `when kursf >= 0 then ' '` | `when kursf >= 0 then ' '` |
-| `fis_indirect_quotation preserving type )` | `end` |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
+| `CAExchangeRate` | `cast( abs(kursf) as fis_absolute_exchangerate preserving type )` |
+| `ExchRateIsIndirectQuotation` | `cast(…)` |
 | `CAAmountInLocalCurrency` | `betrh` |
 | `CAAmountInTransactionCurrency` | `betrw` |
 | `CAAmountInSecondCurrency` | `betr2` |
@@ -111,11 +106,9 @@ tags:
 | `CADocBPItemTotalAmountInTC` | `oriop` |
 | `CADocBPItemOriglOpenAmountInTC` | `augia` |
 | `CAClearingDeductionAmountInTC` | `augda` |
-| `/* cash discount */` | `/* cash discount */` |
 | `CACashDiscountDueDate` | `faeds` |
 | `CACashDiscountRate` | `sktpz` |
 | `CAEligibleAmountForCshDiscount` | `skfbt` |
-| `/* tax data */` | `/* tax data */` |
 | `TaxCode` | `mwskz` |
 | `CASupplementaryTaxCode` | `mwszkz` |
 | `CATaxAmountInLocalCurrency` | `sbeth` |
@@ -141,12 +134,10 @@ tags:
 | `CATaxAmountIsSetFromExternal` | `inttx` |
 | `TaxCountry` | `tax_country` |
 | `TransToTaxCntryCrcyCnvrsnFctr` | `taxc_factor` |
-| `/* payment data */` | `/* payment data */` |
 | `CAPaymentMethod` | `pymet` |
 | `CAPaymentCompanyCode` | `pybuk` |
 | `CAGroupingForPayment` | `pygrp` |
 | `CAPaymentSpecificationCategory` | `pdtyp` |
-| `/* clearing data */` | `/* clearing data */` |
 | `CAClearingStatus` | `augst` |
 | `CAClearingDate` | `augdt` |
 | `CAClearingDocumentNumber` | `augbl` |
@@ -160,50 +151,40 @@ tags:
 | `CAClearingRestrictionCode` | `augrs` |
 | `CAClearingPostingIsReset` | `xragl` |
 | `CAItemIsWithdrawn` | `augob` |
-| `/* dunning and collections */` | `/* dunning and collections */` |
 | `CAItemIsExcludedFromDunning` | `xmanl` |
 | `CADunningProcedure` | `mahnv` |
 | `CAGrpgCodeForTransfToCollAgcy` | `inkps` |
 | `CAIsIncludedInCollectionCase` | `xcolc` |
-| `/* cash management data */` | `/* cash management data */` |
 | `CashPlanningGroup` | `fdgrp` |
 | `PlanningLevel` | `fdlev` |
 | `CAAdditionalDaysForCashMgmt` | `fdztg` |
-| `fis_fdwbt )` | `cast( fdwbt` |
-| `/* alternative business partner for payment */` | `/* alternative business partner for payment */` |
+| `PlannedAmtInTransactionCrcy` | `cast( fdwbt as fis_fdwbt )` |
 | `CAAltvBPForPayment` | `emgpa` |
 | `CABankOfAltvBPForPayment` | `embvt` |
 | `CAAddressOfAltvBPForPayment` | `emadr` |
 | `CACardOfAltvBPForPayment` | `emcrd` |
 | `SEPAMandateCAInternalID` | `emmnd` |
-| `/* GL data */` | `/* GL data */` |
 | `CAGLPostingCurrency` | `pswsl` |
 | `CAGLPostingAmount` | `pswbt` |
 | `CAGLPostingTaxAmount` | `pswtx` |
 | `CAIsSeparateLineItemInGL` | `xeiph` |
-| `/* cash flow data */` | `/* cash flow data */` |
 | `CAIsCashFlowItem` | `xcsha` |
 | `CACashFlowAccount` | `reacc` |
 | `CACashFlowCompanyCode` | `rebuk` |
-| `/* pre notification data */` | `/* pre notification data */` |
 | `CAPaymentPreNotificationCode` | `xpyor` |
 | `CASEPAPreNotificationNumber` | `pnnum` |
 | `CASEPAPreNotifOriginCode` | `pnhkf` |
 | `CASEPAPreNotifExecutionDate` | `pnexd` |
 | `CASEPAPreNotificationRqmtCode` | `pnctr` |
-| `/* revenue distribution data */` | `/* revenue distribution data */` |
 | `CARevenueDistrFinalRecipient` | `finre` |
 | `CARevenueDistrCurrentStatus` | `rdsta` |
 | `CARevenueDistrLastStatus` | `rdstb` |
-| `/* Factoring */` | `/* Factoring */` |
 | `CACurrentFactoringStatusOfRbl` | `fasta` |
 | `CAFactoringCheckStsForClrgInfo` | `pasta` |
 | `CAFactoringItem` | `opupf` |
-| `/* Additional data */` | `/* Additional data */` |
-| `_CompanyCode.ControllingArea                                    as ControllingArea` | *Association* |
-| `_CompanyCode.ChartOfAccounts                                    as ChartOfAccounts` | *Association* |
-| `_CompanyCode.Country                                            as Country` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
+| `ChartOfAccounts` | `_CompanyCode.ChartOfAccounts` |
+| `Country` | `_CompanyCode.Country` |
 | `_BusinessArea` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_CAAccountAssignmentCategory` | *Association* |

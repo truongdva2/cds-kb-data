@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `njit_prodn_conf_profile preserving type )` | `cast( substring( domvalue_l, 1, 4 )` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `JITProdnConfProfile` | `cast( substring( domvalue_l, 1, 4 ) as njit_prodn_conf_profile preserving type )` |
+| `JITProdnConfProfileDesc` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_Language` | *Association* |
 | `_JITProdnConfProfile` | *Association* |
 

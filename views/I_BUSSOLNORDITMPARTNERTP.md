@@ -30,16 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BusinessPartnerVH'` | `name: 'I_BusinessPartnerVH'` |
-| `element:'BusinessPartner'` | `element:'BusinessPartner'` |
-| `}, useAsTemplate: true` | `}, useAsTemplate: true` |
-| `}]` | `}]` |
-| `key  CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartFunctionCategory` | `CustMgmtPartFunctionCategory` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `_BusSolnOrdItmPartnerAddrTP  : redirected to composition child I_BusSolnOrdItmPartnerAddrTP` | *Association* |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
 | `_CustMgmtPartnerFuncText` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_PartnerFunctionText` | *Association* |

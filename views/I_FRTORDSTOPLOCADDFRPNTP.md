@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderStopUUID` | `TransportationOrderStopUUID` |
+| `TransportationOrderStopUUID` | `TransportationOrderStopUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `AddressID` | `AddressID` |
 | `AddresseeFullName` | `AddresseeFullName` |
@@ -41,10 +41,9 @@ tags:
 | `HouseNumber` | `HouseNumber` |
 | `Country` | `Country` |
 | `Region` | `Region` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TrOrdStopLocAddrAddlRprstn  as _FrtOrdStopLocAddrAddlRprstn : redirected to composition child I_FrtOrdStopLocAdAdRpnTP` | *Association* |
-| `_TransportationOrderStop     as _FreightOrderStop            : redirected to parent I_FreightOrderStopTP` | *Association* |
-| `_TransportationOrder         as _FreightOrder                : redirected to I_FreightOrderTP` | *Association* |
+| `_FrtOrdStopLocAddrAddlRprstn` | *Association* |
+| `_FreightOrderStop` | *Association* |
+| `_FreightOrder` | *Association* |
 
 ## Associations
 

@@ -33,11 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_vehiclecondition preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_vehicleconditiondesc preserving type )` | `cast( ddtext` |
-| `_VehicleCondition, //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
-| `_Language //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `VehicleCondition` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_vehiclecondition preserving type )` |
+| `VehicleConditionDesc` | `cast( ddtext as logbr_vehicleconditiondesc preserving type )` |
+| `_VehicleCondition` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

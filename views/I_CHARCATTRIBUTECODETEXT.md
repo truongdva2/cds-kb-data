@@ -34,7 +34,7 @@ tags:
 | `CharacteristicAttributeCodeGrp` | `codegruppe` |
 | `CharacteristicAttributeCode` | `code` |
 | `Language` | `sprache` |
-| `vdm_qtxt_code preserving type )` | `cast( kurztext` |
+| `CharacteristicAttributeCodeTxt` | `cast( kurztext as vdm_qtxt_code preserving type )` |
 | `_CharcAttributeCodeGrp` | *Association* |
 
 ## Associations

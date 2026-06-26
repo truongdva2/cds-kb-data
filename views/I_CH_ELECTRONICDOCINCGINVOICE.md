@@ -30,7 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CurrencyStdVH',  element: 'Currency' }, useAsTemplate: true  }]` | `name: 'I_CurrencyStdVH',  element: 'Currency' }, useAsTemplate: true  }]` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
+| `CH_ElectronicDocInvcIssuerID` | `CH_ElectronicDocInvcIssuerID` |
+| `CH_ElectronicDocRecipientID` | `CH_ElectronicDocRecipientID` |
+| `CH_ElectronicDocTransactionID` | `CH_ElectronicDocTransactionID` |
+| `CH_ElectronicDocumentID` | `CH_ElectronicDocumentID` |
+| `CH_EDocRcpntBusinessPartnerID` | `CH_EDocRcpntBusinessPartnerID` |
+| `CH_EDocInvcIssuerCompanyName` | `CH_EDocInvcIssuerCompanyName` |
+| `CH_EDocRcpntBusPartnerName` | `CH_EDocRcpntBusPartnerName` |
+| `CH_ElectronicDocInvcIssuerTxID` | `CH_ElectronicDocInvcIssuerTxID` |
+| `CH_ElectronicDocAcctgDocNmbr` | `CH_ElectronicDocAcctgDocNmbr` |
+| `CH_ElectronicDocIBAN` | `CH_ElectronicDocIBAN` |
+| `CH_ElectronicDocQRCodeRefNmbr` | `CH_ElectronicDocQRCodeRefNmbr` |
+| `CH_ElectronicDocTotalAmount` | `CH_ElectronicDocTotalAmount` |
+| `CH_ElectronicDocTotalTaxAmount` | `CH_ElectronicDocTotalTaxAmount` |
 | `CH_ElectronicDocCurrency` | `CH_ElectronicDocCurrency` |
 | `CH_ElectronicDocType` | `CH_ElectronicDocType` |
 | `CH_ElectronicDocPaymentType` | `CH_ElectronicDocPaymentType` |

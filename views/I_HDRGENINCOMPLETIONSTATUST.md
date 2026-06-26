@@ -34,13 +34,16 @@ tags:
 |---|---|
 | `HdrGeneralIncompletionStatus` | `statu` |
 | `Language` | `spras` |
-| `hdrgenincompletionstatusdesc)` | `cast(bezei` |
+| `HdrGenIncompletionStatusDesc` | `cast(bezei as hdrgenincompletionstatusdesc)` |
 | `_HdrGeneralIncompletionStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_HdrGeneralIncompletionStatus` | `I_HdrGenIncompletionStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfent)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_unlkngseq_text preserving type)` | `cast(ddtext` |
+| `KanbanCalcUnlockingSequence` | `cast(substring(domvalue_l, 1, 1) as rfent)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KanbanCalcUnlkngSqncName` | `cast(ddtext as vdm_unlkngseq_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnCalcUnlkngSequence` | *Association* |
 | `_Language` | *Association* |

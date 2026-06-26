@@ -31,17 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key ServiceQuotationItem` | `ServiceQuotationItem` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceQuotationItem` | `ServiceQuotationItem` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_PartnerFunction` | *Association* |
-| `_ServiceQuotationItemTP : redirected to parent I_ServiceQuotationItemTP` | *Association* |
-| `_ServiceQuotationTP : redirected to I_ServiceQuotationTP` | *Association* |
-| `_SrvcQtanItemPartnerAddressTP : redirected to composition child I_SrvcQtanItemPartnerAddressTP` | *Association* |
 
 ## Associations
 

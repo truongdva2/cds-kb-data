@@ -34,11 +34,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `MRPArea` | `MRPArea` |
+| `Plant` | `Plant` |
+| `MRPType` | `MRPType` |
+| `MRPResponsible` | `MRPResponsible` |
+| `MRPGroup` | `MRPGroup` |
+| `ReorderThresholdQuantity` | `ReorderThresholdQuantity` |
+| `PlanAndOrderDayDetermination` | `PlanAndOrderDayDetermination` |
+| `PlanningTimeFence` | `PlanningTimeFence` |
+| `LotSizingProcedure` | `LotSizingProcedure` |
+| `RoundingProfile` | `RoundingProfile` |
+| `LotSizeRoundingQuantity` | `LotSizeRoundingQuantity` |
+| `MinimumLotSizeQuantity` | `MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `MaximumLotSizeQuantity` |
+| `MaximumStockQuantity` | `MaximumStockQuantity` |
+| `AssemblyScrapPercent` | `AssemblyScrapPercent` |
+| `ProcurementSubType` | `ProcurementSubType` |
+| `ProductionInvtryManagedLoc` | `ProductionInvtryManagedLoc` |
+| `DfltStorageLocationExtProcmt` | `DfltStorageLocationExtProcmt` |
+| `MRPPlanningCalendar` | `MRPPlanningCalendar` |
+| `SafetyStockQuantity` | `SafetyStockQuantity` |
+| `RangeOfCvrgPrflCode` | `RangeOfCvrgPrflCode` |
+| `SafetySupplyDurationInDays` | `SafetySupplyDurationInDays` |
+| `FixedLotSizeQuantity` | `FixedLotSizeQuantity` |
+| `LotSizeIndependentCosts` | `LotSizeIndependentCosts` |
+| `StorageCostsPercentageCode` | `StorageCostsPercentageCode` |
+| `ProductServiceLevelInPercent` | `ProductServiceLevelInPercent` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `SafetyTimePeriodProfile` | `SafetyTimePeriodProfile` |
+| `DependentRqmtMRPRelevance` | `DependentRqmtMRPRelevance` |
+| `ProductSafetyTimeMRPRelevance` | `ProductSafetyTimeMRPRelevance` |
+| `PlannedDeliveryDurationInDays` | `PlannedDeliveryDurationInDays` |
+| `IsPlannedDeliveryTime` | `IsPlannedDeliveryTime` |
+| `RqmtQtyRcptTaktTmeInWrkgDays` | `RqmtQtyRcptTaktTmeInWrkgDays` |
+| `MRPSafetyStockMethod` | `MRPSafetyStockMethod` |
+| `Currency` | `Currency` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 | `_MRPGroupText` | *Association* |
 | `_MRPTypeName` | *Association* |
 | `_LotSizingProcedureText` | *Association* |

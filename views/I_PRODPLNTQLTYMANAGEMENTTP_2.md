@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
 | `ProdQltyManagementControlKey` | `ProdQltyManagementControlKey` |
 | `HasPostToInspectionStock` | `HasPostToInspectionStock` |
 | `InspLotDocumentationIsRequired` | `InspLotDocumentationIsRequired` |
@@ -41,9 +40,6 @@ tags:
 | `RecrrgInspIntervalTimeInDays` | `RecrrgInspIntervalTimeInDays` |
 | `ProductQualityCertificateType` | `ProductQualityCertificateType` |
 | `ProdQualityAuthorizationGroup` | `ProdQualityAuthorizationGroup` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_ProductDescription` | *Association* |
 
 ## Associations

@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectDemandExpenseUUID` | `ProjectDemandExpenseUUID` |
+| `ProjectDemandExpenseUUID` | `ProjectDemandExpenseUUID` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
 | `ProjectDemandExpenseType` | `ProjectDemandExpenseType` |
 | `ProjectUUID` | `ProjectUUID` |
@@ -43,8 +43,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_Root                 : redirected to parent I_ProjectDemandTP_2` | *Association* |
-| `_ProjDmndExpenseDistr : redirected to composition child I_ProjDmndExpenseDistrTP` | *Association* |
 
 ## Associations
 

@@ -31,14 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinSrvcsProdGroupVH'` | `name: 'I_CnsldtnFinSrvcsProdGroupVH'` |
-| `element: 'FinancialServicesProductGroup'` | `element: 'FinancialServicesProductGroup'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_finsrvcsproductgroup preserving type )` | `cast( _Source.FinancialServicesProductGroup` |
-| `fincs_finsrvcsproductgroupname preserving type )` | `cast( _Source.FinServicesProductGroupName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `FinancialServicesProductGroup` | `cast(…)` |
+| `FinServicesProductGroupName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_FinancialServicesProductGroup` | *Association* |
 

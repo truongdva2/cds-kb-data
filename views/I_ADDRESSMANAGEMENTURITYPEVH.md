@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressManagementURIType` | `AddressManagementURIType` |
+| `AddressManagementURIType` | `AddressManagementURIType` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

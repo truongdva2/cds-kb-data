@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType         : lfart;` | `DeliveryDocumentType         : lfart;` |
-| `OverallPackingStatus         : pkstk;` | `OverallPackingStatus         : pkstk;` |
-| `PreviousOverallPackingStatus : pkstk;` | `PreviousOverallPackingStatus : pkstk;` |
-| `SalesOrganization            : vkorg;` | `SalesOrganization            : vkorg;` |
-| `SDDocumentCategory           : vbtypl;` | `SDDocumentCategory           : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `OverallPackingStatus` | `pkstk` |
+| `PreviousOverallPackingStatus` | `pkstk` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocument : ehfnd_log_doc_number; // Logistics Document Number` | `ProdCmplncLogsDocument : ehfnd_log_doc_number; // Logistics Document Number` |
-| `_ItemInformation       : composition [0..*] of D_PCLgsDcGetDaGdsEDIInfoItemR;` | *Association* |
+| `ProdCmplncLogsDocument` | `ehfnd_log_doc_number` |
+| `_ItemInformation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ItemInformation` | `D_PCLgsDcGetDaGdsEDIInfoItemR` | [0..*] |
 
 ## Source Code
 

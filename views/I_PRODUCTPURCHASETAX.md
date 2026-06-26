@@ -32,9 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_Country'` | `foreignKey.association: '_Country'` |
-| `text.association: '_CountryText'` | `text.association: '_CountryText'` |
-| `}` | `}` |
+| `Product` | `cast( mlan.matnr as productnumber preserving type )` |
 | `SourceLocationCountry` | `mlan.aland` |
 | `TaxIndicator` | `mlan.taxim` |
 | `_Product` | *Association* |

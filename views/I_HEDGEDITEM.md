@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `ftr_gen_hitem_number      preserving type)` | `cast(hitem.hitem_number` |
-| `ftr_gen_hitem_fiscal_year preserving type)` | `cast(hitem.fiscal_year` |
-| `bukrs                     preserving type)` | `cast(hitem.tr_acc_code` |
-| `tpm_val_area              preserving type)` | `cast(hitem.valuation_area` |
-| `ftr_gen_hitem_descr       preserving type)` | `cast(hitem.description` |
-| `ftr_gen_hrel_uuid         preserving type)` | `cast(hitem.hrel_oid` |
+| `HedgedItemUUID` | `cast(hitem.os_guid as ftr_gen_hitem preserving type)` |
+| `HedgedItem` | `cast(hitem.hitem_number as ftr_gen_hitem_number preserving type)` |
+| `HedgedItemFiscalYear` | `cast(hitem.fiscal_year as ftr_gen_hitem_fiscal_year preserving type)` |
+| `CompanyCode` | `cast(hitem.tr_acc_code as bukrs preserving type)` |
+| `TreasuryValuationArea` | `cast(hitem.valuation_area as tpm_val_area preserving type)` |
+| `HedgedItemName` | `cast(hitem.description as ftr_gen_hitem_descr preserving type)` |
+| `HedgingRelationshipUUID` | `cast(hitem.hrel_oid as ftr_gen_hrel_uuid preserving type)` |
 | `_HedgingRelationship` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_FiscalYear` | *Association* |

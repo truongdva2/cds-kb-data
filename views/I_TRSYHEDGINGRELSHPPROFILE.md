@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hdgg_profile         preserving type)` | `cast(TrsyHedgingRelshpProfile.hrel_profile` |
-| `ftr_gen_hrel_scenario        preserving type)` | `cast(TrsyHedgingRelshpProfile.hrel_scene_cat` |
+| `HedgingProfile` | `cast(…)` |
+| `TrsyHedgingRelshpScenario` | `cast(…)` |
 | `_TrsyHedgingRelshpScenario` | *Association* |
 | `_Text` | *Association* |
 

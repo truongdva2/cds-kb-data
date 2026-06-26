@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_solvncy)` | `cast ( dd07l.domvalue_l` |
+| `BusPartCreditStanding` | `cast ( dd07l.domvalue_l as bp_solvncy)` |
 | `_Text` | *Association* |
 
 ## Associations

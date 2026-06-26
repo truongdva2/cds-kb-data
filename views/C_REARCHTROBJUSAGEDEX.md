@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
+| `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `REArchitectureObjectType` | `REArchitectureObjectType` |
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |

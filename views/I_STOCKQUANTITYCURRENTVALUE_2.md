@@ -30,10 +30,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_ProductType'` | `foreignKey.association: '_ProductType'` |
-| `text.element: [ 'MaterialTypeName' ]` | `text.element: [ 'MaterialTypeName' ]` |
-| `}*/` | `}*/` |
-| `_Product.ProductType                                                   as ProductType` | *Association* |
+| `Product` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `Supplier` | `Supplier` |
+| `SDDocument` | `SDDocument` |
+| `SDDocumentItem` | `SDDocumentItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `Customer` | `Customer` |
+| `SpecialStockIdfgStockOwner` | `SpecialStockIdfgStockOwner` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `Currency` | `Currency` |
+| `DisplayCurrency` | `cast($parameters.P_DisplayCurrency as nsdm_display_currency preserving type )` |
+| `ValuationAreaType` | `ValuationAreaType` |
+| `MatlWrhsStkQtyInMatlBaseUnit` | `MatlWrhsStkQtyInMatlBaseUnit` |
+| `StockValueInCCCrcy` | `StockValueInCCCrcy` |
+| `StockValueInDisplayCurrency` | `cast(…)` |
+| `ProductGroup` | `_Product.ProductGroup` |
+| `ProductType` | `_Product.ProductType` |
+| `ProductDescription` | `expr(…)` |
+| `PlantName` | `-- _Plant.PlantName` |
+| `InventoryStockTypeName` | `expr(…)` |
+| `InventorySpecialStockTypeName` | `expr(…)` |
+| `MaterialGroupName` | `expr(…)` |
+| `MaterialTypeName` | `expr(…)` |
 | `_UnitOfMeasure` | *Association* |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |

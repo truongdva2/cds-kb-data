@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType           : lfart;` | `DeliveryDocumentType           : lfart;` |
-| `OverallGoodsMovementStatus     : wbstk;` | `OverallGoodsMovementStatus     : wbstk;` |
-| `PrevOverallGoodsMovementStatus : wbstk;` | `PrevOverallGoodsMovementStatus : wbstk;` |
-| `SalesOrganization              : vkorg;` | `SalesOrganization              : vkorg;` |
-| `SDDocumentCategory             : vbtypl;` | `SDDocumentCategory             : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `OverallGoodsMovementStatus` | `wbstk` |
+| `PrevOverallGoodsMovementStatus` | `wbstk` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

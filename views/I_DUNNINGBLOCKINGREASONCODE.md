@@ -30,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8 }` | `fuzzinessThreshold:   0.8 }` |
-| `farp_mansp preserving type )` | `cast( mansp` |
+| `DunningBlockingReason` | `cast( mansp as farp_mansp preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

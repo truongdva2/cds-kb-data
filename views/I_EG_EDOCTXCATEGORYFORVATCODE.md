@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EG_EDocTaxCode` | `EG_EDocTaxCode` |
-| `key EG_EDocAcctKey` | `EG_EDocAcctKey` |
+| `EG_EDocTaxCode` | `EG_EDocTaxCode` |
+| `EG_EDocAcctKey` | `EG_EDocAcctKey` |
 | `EG_EDocTaxType` | `EG_EDocTaxType` |
 | `EG_EDocTaxSubtype` | `EG_EDocTaxSubtype` |
 | `EG_EDocTaxCategory` | `EG_EDocTaxCategory` |

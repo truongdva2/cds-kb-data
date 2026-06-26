@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `secdep_doc_category_kk preserving type)` | `cast( left( dd07l.domvalue_l, 3 )` |
+| `CASecurityDepositDocCategory` | `cast( left( dd07l.domvalue_l, 3 ) as secdep_doc_category_kk preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

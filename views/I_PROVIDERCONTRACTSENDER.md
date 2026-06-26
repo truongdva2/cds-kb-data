@@ -32,9 +32,8 @@ tags:
 |---|---|
 | `CAProviderContractSender` | `sender` |
 | `CAProviderContractSenderCat` | `sendercat` |
-| `nrext_vt_kk preserving type )` | `cast(nrext` |
-| `nrint_vt_kk preserving type )` | `cast(nrint` |
-| `/* Associations */` | `/* Associations */` |
+| `ExternalNumberRangeInterval` | `cast(nrext as nrext_vt_kk preserving type )` |
+| `InternalNumberRangeInterval` | `cast(nrint as nrint_vt_kk preserving type )` |
 | `_SenderCategory` | *Association* |
 | `_Text` | *Association* |
 

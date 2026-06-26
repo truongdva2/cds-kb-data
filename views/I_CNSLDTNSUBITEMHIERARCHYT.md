@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSubitemCategoryVH_2'` | `name: 'I_CnsldtnSubitemCategoryVH_2'` |
-| `element: 'CnsldtnSubitemCategory'` | `element: 'CnsldtnSubitemCategory'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key    _HierarchyText.CnsldtnSubitemCategory` | `_HierarchyText.CnsldtnSubitemCategory` |
-| `fincs_subitemhierarchy preserving type )` | `cast(_HierarchyText.CnsldtnUniversalHierarchy` |
-| `key    _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_subitemhierarchytext preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnSubitemCategory` | `_HierarchyText.CnsldtnSubitemCategory` |
+| `ConsolidationSubitemHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `ConsolidationSubitemHierText` | `cast(…)` |
 | `_Language` | *Association* |
 | `_SubitemCategory` | *Association* |
 | `_Hierarchy` | *Association* |

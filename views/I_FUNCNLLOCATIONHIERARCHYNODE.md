@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_FunctionalLocation.FunctionalLocation` | `I_FunctionalLocation.FunctionalLocation` |
+| `FunctionalLocation` | `I_FunctionalLocation.FunctionalLocation` |
 | `HierarchyNode` | `I_FunctionalLocation.FunctionalLocation` |
-| `I_FunctionalLocation.SuperiorFunctionalLocation` | `I_FunctionalLocation.SuperiorFunctionalLocation` |
+| `SuperiorFunctionalLocation` | `I_FunctionalLocation.SuperiorFunctionalLocation` |
 | `_Text` | *Association* |
-| `_FunctionalLocationData // Make association public` | *Association* |
+| `_FunctionalLocationData` | *Association* |
 
 ## Associations
 

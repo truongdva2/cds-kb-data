@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ))` | `cast(dd07l.domvalue_l` |
+| `WarrantyClaimVersionCategory` | `cast(dd07l.domvalue_l as abap.char( 2 ))` |
 | `_Text` | *Association* |
 
 ## Associations

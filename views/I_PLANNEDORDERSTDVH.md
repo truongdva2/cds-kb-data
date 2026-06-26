@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlannedOrder` | `PlannedOrder` |
+| `PlannedOrder` | `PlannedOrder` |
 | `MRPController` | `MRPController` |
 | `MRPPlant` | `MRPPlant` |
 

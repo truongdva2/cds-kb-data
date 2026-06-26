@@ -32,12 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `_CnsldtnFSItemCashFlow._Text[1: Language=$session.system_language].CnsldtnFSItemCashFlowText` | *Association* |
-| `_CnsldtnFSItemCashFlow._Text[1: Language=$session.system_language].CnsldtnFSItemCashFlowLongText` | *Association* |
+| `CnsldtnFSItemCashFlow` | `_CnsldtnFSItemCashFlow.CnsldtnFSItemCashFlow` |
+| `CnsldtnFSItemCashFlowText` | `expr(…)` |
+| `CnsldtnFSItemCashFlowLongText` | `expr(…)` |
 
 ## Associations
 

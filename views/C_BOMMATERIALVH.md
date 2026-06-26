@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `matnr preserving type )` | `cast (Product` |
-| `maktx)` | `cast( _Text[1: Language=$session.system_language].ProductName` |
+| `Material` | `cast (Product as matnr preserving type )` |
+| `MaterialDescription` | `cast( _Text[1: Language=$session.system_language].ProductName as maktx)` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `Product` | `Product` |
 | `ProductExternalID` | `ProductExternalID` |

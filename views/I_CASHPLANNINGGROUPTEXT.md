@@ -34,8 +34,8 @@ tags:
 |---|---|
 | `CashPlanningGroup` | `grupp` |
 | `Language` | `spras` |
-| `fclm_grupp_txtk )` | `cast( textk` |
-| `fclm_grupp_txtl )` | `cast( textl` |
+| `CashPlanningGroupName` | `cast( textk as fclm_grupp_txtk )` |
+| `CashPlanningGroupDescription` | `cast( textl as fclm_grupp_txtl )` |
 | `_Language` | *Association* |
 
 ## Associations

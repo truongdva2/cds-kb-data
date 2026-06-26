@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `epic_brs_matched_indicator preserving type )` | `cast(left(domvalue_l,1)` |
-| `spras preserving type )` | `cast(ddlanguage` |
-| `epic_brs_matched_indicator_txt preserving type )` | `cast(ddtext` |
+| `BankReconciliationMatchType` | `cast(left(domvalue_l,1) as epic_brs_matched_indicator preserving type )` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `BkReconciliationMatchTypeName` | `cast(ddtext as epic_brs_matched_indicator_txt preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

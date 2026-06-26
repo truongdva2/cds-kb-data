@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `IsDeleted` | `IsDeleted` |
@@ -49,7 +49,7 @@ tags:
 | `OriginObject` | `OriginObject` |
 | `NetAmount` | `NetAmount` |
 | `NetPriceAmount` | `NetPriceAmount` |
-| `_ServiceEntrySheet.Currency as Currency` | *Association* |
+| `Currency` | `_ServiceEntrySheet.Currency` |
 | `PurgDocItemExternalReference` | `PurgDocItemExternalReference` |
 | `PurchaseContract` | `PurchaseContract` |
 | `PurchaseContractItem` | `PurchaseContractItem` |

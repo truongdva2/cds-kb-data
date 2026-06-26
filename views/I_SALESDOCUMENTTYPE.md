@@ -42,8 +42,8 @@ tags:
 | `IsLocked` | `sperr` |
 | `RetsMgmtIsActive` | `msr_active` |
 | `TradeComplianceIsActive` | `itmac` |
-| `sls_doc_text_detn_head preserving type )` | `cast(txtgr` |
-| `sls_doc_partner_detn_head preserving type )` | `cast(pargr` |
+| `TextDeterminationProcedure` | `cast(txtgr as sls_doc_text_detn_head preserving type )` |
+| `PartnerDeterminationProcedure` | `cast(pargr as sls_doc_partner_detn_head preserving type )` |
 | `SlsDocProdProposalProcedure` | `pvbsm` |
 | `NumberRangeForIntIDAssignment` | `numki` |
 | `NumberRangeForExtIDAssignment` | `numke` |

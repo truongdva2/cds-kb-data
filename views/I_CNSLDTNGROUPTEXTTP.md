@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.Language` | `_Source.Language` |
-| `key _Source.ConsolidationGroup` | `_Source.ConsolidationGroup` |
-| `_Source.ConsolidationGroupText` | *Association* |
-| `_Source.ConsolidationGroupMediumText` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_ConsolidationGroup as _ConsolidationGroup : redirected to parent I_CnsldtnGroupTP` | *Association* |
+| `Language` | `_Source.Language` |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationGroupText` | `_Source.ConsolidationGroupText` |
+| `ConsolidationGroupMediumText` | `_Source.ConsolidationGroupMediumText` |
+| `_ConsolidationGroup` | *Association* |
 
 ## Associations
 

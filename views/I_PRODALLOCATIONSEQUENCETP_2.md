@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
+| `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
 | `ProductAllocationSequence` | `ProductAllocationSequence` |
 | `ProdAllocSqncConsumptionUnit` | `ProdAllocSqncConsumptionUnit` |
 | `CreationDateTime` | `CreationDateTime` |
@@ -39,9 +39,6 @@ tags:
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ProdAllocationLifecycleStatus` | `ProdAllocationLifecycleStatus` |
-| `_ProdAllocSequenceTTP: redirected to composition child I_ProdAllocSequenceTxtTP_2` | *Association* |
-| `_ProdAllocSqncAssgmtTP: redirected to composition child I_ProdAllocSqncAssgmtTP_2` | *Association* |
-| `_ProdAllocSqncGroupTP: redirected to composition child I_ProdAllocSqncGroupTP_2` | *Association* |
 
 ## Associations
 

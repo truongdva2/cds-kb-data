@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'SalesOrganizationName' }` | `status: #DEPRECATED, successor: 'SalesOrganizationName' }` |
-| `fincs_description_text_20 preserving type )` | `cast ( _Source.SalesOrganizationName` |
-| `fincs_salesorganizationname preserving type )` | `cast( _Source.SalesOrganizationName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `SalesOrganization` | `cast( _Source.SalesOrganization as fincs_salesorganization preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast(…)` |
+| `SalesOrganizationName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_SalesOrganization` | *Association* |
 

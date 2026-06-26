@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key SupplierSubrange` | `SupplierSubrange` |
-| `key Plant` | `Plant` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key PartnerCounter` | `PartnerCounter` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `Plant` | `Plant` |
+| `PartnerFunction` | `PartnerFunction` |
+| `PartnerCounter` | `PartnerCounter` |
 | `SchedgAgrmtPartner` | `SchedgAgrmtPartner` |
 | `SchedgAgrmtPartnerName` | `SchedgAgrmtPartnerName` |
 | `SchedgAgrmtCategory` | `SchedgAgrmtCategory` |

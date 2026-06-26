@@ -33,31 +33,31 @@ tags:
 | `InspectionLot` | `qamv.prueflos` |
 | `InspPlanOperationInternalID` | `qamv.vorglfnr` |
 | `InspectionCharacteristic` | `qamv.merknr` |
-| `vdm_qmkkurztxt preserving type )` | `cast( qamv.kurztext` |
-| `vdm_qmkkurztxt preserving type )` | `cast( qamv.kurztext` |
+| `InspectionSpecificationText` | `cast( qamv.kurztext as vdm_qmkkurztxt preserving type )` |
+| `InspectionCharacteristicText` | `cast( qamv.kurztext as vdm_qmkkurztxt preserving type )` |
 | `InspCharcLongTextLanguage` | `qamv.ltextspr` |
 | `HasInspCharcPrtlSmpl` | `qamv.tstichprkz` |
 | `BOOCharacteristicInspRelevance` | `qamv.char_relevance` |
 | `InspCharcUnplannedProcessing` | `qamv.aktppkt` |
-| `vdm_qkzqunmk preserving type )` | `cast(substring(qamv.steuerkz,1,1)` |
-| `qkzqumk preserving type )` | `cast(substring(qamv.steuerkz,2,1)` |
-| `qkzpkat preserving type )` | `cast(substring(qamv.steuerkz,3,1)` |
-| `qlzeitkz preserving type )` | `cast(substring(qamv.steuerkz,8,1)` |
-| `qestukz preserving type )` | `cast(substring(qamv.steuerkz,9,1)` |
-| `qdokukz preserving type )` | `cast(substring(qamv.steuerkz,10,1)` |
-| `qrzwang preserving type )` | `cast(substring(qamv.steuerkz,11,1)` |
-| `qkzformel preserving type )` | `cast(substring(qamv.steuerkz,15,1)` |
-| `qstichpr preserving type )` | `cast(substring(qamv.steuerkz,16,1)` |
-| `qbfhlzhl preserving type )` | `cast( substring(qamv.steuerkz,19,1)` |
-| `qfehlrec preserving type )` | `cast( substring(qamv.steuerkz,23,1)` |
-| `qkzaenbel preserving type )` | `cast(substring(qamv.steuerkz,24,1)` |
-| `qspcmk preserving type )` | `cast(substring(qamv.steuerkz,25,1)` |
-| `vdm_qniplanmk preserving type )` | `cast( niplanmkkz` |
+| `InspSpecIsQuantitative` | `cast(substring(qamv.steuerkz,1,1) as vdm_qkzqunmk preserving type )` |
+| `InspSpecIsMeasuredValueRqd` | `cast(substring(qamv.steuerkz,2,1) as qkzqumk preserving type )` |
+| `InspSpecIsSelectedSetRequired` | `cast(substring(qamv.steuerkz,3,1) as qkzpkat preserving type )` |
+| `InspSpecIsLongTermInspection` | `cast(substring(qamv.steuerkz,8,1) as qlzeitkz preserving type )` |
+| `InspSpecRecordingType` | `cast(substring(qamv.steuerkz,9,1) as qestukz preserving type )` |
+| `InspResultIsDocumentationRqd` | `cast(substring(qamv.steuerkz,10,1) as qdokukz preserving type )` |
+| `InspSpecCharcCategory` | `cast(substring(qamv.steuerkz,11,1) as qrzwang preserving type )` |
+| `InspSpecResultCalculation` | `cast(substring(qamv.steuerkz,15,1) as qkzformel preserving type )` |
+| `InspSpecHasSamplingProcedure` | `cast(substring(qamv.steuerkz,16,1) as qstichpr preserving type )` |
+| `InspSpecIsDefectRecordingRqd` | `cast( substring(qamv.steuerkz,19,1) as qbfhlzhl preserving type )` |
+| `InspSpecIsDefectsRecgAutomatic` | `cast( substring(qamv.steuerkz,23,1) as qfehlrec preserving type )` |
+| `InspSpecIsChgDocRequired` | `cast(substring(qamv.steuerkz,24,1) as qkzaenbel preserving type )` |
+| `InspSpecHasControlChart` | `cast(substring(qamv.steuerkz,25,1) as qspcmk preserving type )` |
+| `InspCharcIsNotPlanned` | `cast( niplanmkkz as vdm_qniplanmk preserving type )` |
 | `InspectionMethod` | `qamv.pmethode` |
-| `vdm_qmtb_werks preserving type )` | `cast( qamv.qmtb_werks` |
+| `InspectionMethodPlant` | `cast( qamv.qmtb_werks as vdm_qmtb_werks preserving type )` |
 | `InspectionMethodVersion` | `qamv.pmtversion` |
 | `InspCharcInspSpecRefType` | `qamv.qpmk_ref` |
-| `vdm_qpmk_werks preserving type )` | `cast( qamv.qpmk_werks` |
+| `InspectionSpecificationPlant` | `cast( qamv.qpmk_werks as vdm_qpmk_werks preserving type )` |
 | `InspectionSpecification` | `qamv.verwmerkm` |
 | `InspectionSpecificationVersion` | `qamv.mkversion` |
 | `InspCharcPrtlSmpl` | `qamv.physprobe` |
@@ -96,31 +96,15 @@ tags:
 | `InspSpecAddlSeldCodeSetPlant3` | `qamv.auswmgwrk3` |
 | `InspSpecAddlSeldCodeSetPlant4` | `qamv.auswmgwrk4` |
 | `InspSpecAddlSeldCodeSetPlant5` | `qamv.auswmgwrk5` |
-| `case qamv.katab2` | `case qamv.katab2` |
-| `when 'X' then qamv.auswmenge2 else ''` | `when 'X' then qamv.auswmenge2 else ''` |
-| `InspSpecAdditionalSelectedSet2` | `end` |
-| `case qamv.katab2` | `case qamv.katab2` |
-| `when ' ' then qamv.auswmenge2 else ''` | `when ' ' then qamv.auswmenge2 else ''` |
-| `InspSpecAdditionalCodeGroup2` | `end` |
-| `case qamv.katab3` | `case qamv.katab3` |
-| `when 'X' then qamv.auswmenge3 else ''` | `when 'X' then qamv.auswmenge3 else ''` |
-| `InspSpecAdditionalSelectedSet3` | `end` |
-| `case qamv.katab3` | `case qamv.katab3` |
-| `when ' ' then qamv.auswmenge3 else ''` | `when ' ' then qamv.auswmenge3 else ''` |
-| `InspSpecAdditionalCodeGroup3` | `end` |
-| `case qamv.katab4` | `case qamv.katab4` |
-| `when 'X' then qamv.auswmenge4 else ''` | `when 'X' then qamv.auswmenge4 else ''` |
-| `InspSpecAdditionalSelectedSet4` | `end` |
-| `case qamv.katab4` | `case qamv.katab4` |
-| `when ' ' then qamv.auswmenge4 else ''` | `when ' ' then qamv.auswmenge4 else ''` |
-| `InspSpecAdditionalCodeGroup4` | `end` |
-| `case qamv.katab5` | `case qamv.katab5` |
-| `when 'X' then qamv.auswmenge5 else ''` | `when 'X' then qamv.auswmenge5 else ''` |
-| `InspSpecAdditionalSelectedSet5` | `end` |
-| `case qamv.katab5` | `case qamv.katab5` |
-| `when ' ' then qamv.auswmenge5 else ''` | `when ' ' then qamv.auswmenge5 else ''` |
-| `InspSpecAdditionalCodeGroup5` | `end` |
-| `vdm_qkz preserving type )` | `cast( qamv.ltextkz` |
+| `InspSpecAdditionalSelectedSet2` | `case qamv.katab2 when 'X' then qamv.auswmenge2 else '' end` |
+| `InspSpecAdditionalCodeGroup2` | `case qamv.katab2 when ' ' then qamv.auswmenge2 else '' end` |
+| `InspSpecAdditionalSelectedSet3` | `case qamv.katab3 when 'X' then qamv.auswmenge3 else '' end` |
+| `InspSpecAdditionalCodeGroup3` | `case qamv.katab3 when ' ' then qamv.auswmenge3 else '' end` |
+| `InspSpecAdditionalSelectedSet4` | `case qamv.katab4 when 'X' then qamv.auswmenge4 else '' end` |
+| `InspSpecAdditionalCodeGroup4` | `case qamv.katab4 when ' ' then qamv.auswmenge4 else '' end` |
+| `InspSpecAdditionalSelectedSet5` | `case qamv.katab5 when 'X' then qamv.auswmenge5 else '' end` |
+| `InspSpecAdditionalCodeGroup5` | `case qamv.katab5 when ' ' then qamv.auswmenge5 else '' end` |
+| `InspSpecificationHasLongText` | `cast( qamv.ltextkz as vdm_qkz preserving type )` |
 | `InspectorQualification` | `qamv.pruefquali` |
 | `InspSpecHasFormula` | `qamv.formelsl` |
 | `InspSpecFormula1` | `qamv.formel1` |
@@ -134,12 +118,12 @@ tags:
 | `InspSpecDefectCodeRjcnUpper` | `qamv.code9o` |
 | `InspSpecDefectCodeGrpRejection` | `qamv.codegrqual` |
 | `InspSpecDefectCodeRejection` | `qamv.codequal` |
-| `InspectionScope, // wrong GFN --> deprecated! Replaced by InspCharcQuantity` | `qamv.pruefumf` |
+| `InspectionScope` | `qamv.pruefumf` |
 | `InspCharcQuantity` | `qamv.pruefumf` |
 | `InspectionLotSampleUnit` | `qamv.mengeneinh` |
 | `InspSpecControlIndicators` | `qamv.steuerkz` |
-| `UnplndCharcInspSubsetIntID, // only filled if unplanned characteristic was created for a spcific Subset` | `qamv.ppktungemk` |
-| `vdm_qdynregel preserving type )` | `cast( qamv.qdynregel` |
+| `UnplndCharcInspSubsetIntID` | `qamv.ppktungemk` |
+| `InspLotDynamicRule` | `cast( qamv.qdynregel as vdm_qdynregel preserving type )` |
 | `QualityLevelInternalID` | `qamv.zaehlerql` |
 | `SamplingProcedureInspSubset` | `qamv.kzrast` |
 | `InspectionsNotSkippedDnmntr` | `qamv.raster` |

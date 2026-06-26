@@ -31,13 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_reportingitem  preserving type )` | `cast ( _CnsldtnFSItem_2.CnsldtnFinancialStatementItem` |
-| `_CnsldtnFSItem_2.CreationDateTime` | *Association* |
-| `_CnsldtnFSItem_2._CnsldtnChartOfAccounts` | *Association* |
+| `ConsolidationChartOfAccounts` | `_CnsldtnFSItem_2.ConsolidationChartOfAccounts` |
+| `ConsolidationReportingItem` | `cast(…)` |
+| `CreationDateTime` | `_CnsldtnFSItem_2.CreationDateTime` |
+| `_CnsldtnChartOfAccounts` | *Association* |
 | `_HierarchyNode` | *Association* |
 | `_Text` | *Association* |
 

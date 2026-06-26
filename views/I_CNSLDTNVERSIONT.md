@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_consolidationversiontext preserving type )` | `cast (_tf201.txt` |
+| `ConsolidationVersion` | `cast ( _tf201.rvers as fincs_consolidationversion preserving type )` |
+| `Language` | `_tf201.langu` |
+| `ConsolidationVersionText` | `cast (_tf201.txt as fincs_consolidationversiontext preserving type )` |
 | `_Language` | *Association* |
 | `_CnsldtnVersion` | *Association* |
 

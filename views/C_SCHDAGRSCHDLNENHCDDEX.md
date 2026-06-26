@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ScheduleLineUniqueID` | `ScheduleLineUniqueID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |

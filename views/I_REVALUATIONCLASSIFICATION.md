@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rececesltype )` | `cast( dd07l.domvalue_l` |
+| `REValuationClassification` | `cast( dd07l.domvalue_l as rececesltype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REValuationClassificationTxt` | [0..*] |
 
 ## Source Code
 

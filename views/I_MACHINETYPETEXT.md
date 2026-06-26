@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MachineType` | `txt.matyp` |
+| `Language` | `txt.spras` |
 | `MachineTypeName` | `txt.matyt` |
 | `_Language` | *Association* |
 

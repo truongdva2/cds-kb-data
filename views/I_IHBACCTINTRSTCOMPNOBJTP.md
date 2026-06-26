@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBObjectUUID` | `IHBObjectUUID` |
+| `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBObjectReferenceUUID` | `IHBObjectReferenceUUID` |
 | `IHBObjectType` | `IHBObjectType` |
 | `IHBObjectCategory` | `IHBObjectCategory` |
@@ -49,9 +49,6 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_IHBGroupAssignmentTP       : redirected to composition child I_IHBAcctIntrstCompnItmTP` | *Association* |
-| `_IHBAcctIntrstCompnTP       : redirected to composition child I_IHBAcctIntrstCompnTP` | *Association* |
 
 ## Associations
 

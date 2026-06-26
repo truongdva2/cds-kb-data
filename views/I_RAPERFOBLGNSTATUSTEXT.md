@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RevnAcctgPerfOblgnStatus` | `cast(dd07t.domvalue_l as farr_cds_pob_status)` |
 | `RevnAcctgPerfOblgnStatusName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAPerfOblgnStatus` | *Association* |
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAPerfOblgnStatus` | `I_RAPerfOblgnStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

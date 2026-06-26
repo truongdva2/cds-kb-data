@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `ABAPObjectType` | `object.object` |
 | `ABAPObjectName` | `object.obj_name` |
-| `ABAPCloudCustomObjectCategory` | `CUSTOM_OBJECT_CATEGORY.#key_user_extensibility` |
+| `ABAPCloudCustomObjectCategory` | `case…end` |
 
 ## Associations
 

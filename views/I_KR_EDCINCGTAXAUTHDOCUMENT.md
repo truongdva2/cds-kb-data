@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `selectionType: #SINGLE, multipleSelections : true}` | `selectionType: #SINGLE, multipleSelections : true}` |
+| `EDCTaxAuthRecordUUID` | `edoc_guid` |
 | `TaxInvoiceApprovalNmbr` | `TATaxItem.apprvl_no` |
-| `waers)` | `cast('KRW'` |
-| `hwbas)` | `cast((TATaxItem.tax_base_amt / 100)` |
-| `hwbas)` | `cast((TATaxItem.tax_amount / 100)` |
-| `hwbas)` | `cast(TATaxItem.amount / 100` |
+| `Currency` | `cast('KRW' as waers)` |
+| `EDCTaxableAmount` | `cast((TATaxItem.tax_base_amt / 100) as hwbas)` |
+| `EDCTaxAmount` | `cast((TATaxItem.tax_amount / 100) as hwbas)` |
+| `TotalAmountInCoCodeCrcy` | `cast(TATaxItem.amount / 100 as hwbas)` |
 | `KR_EDocTransferDate` | `TATaxItem.transfer_date` |
 | `AccountingDocument` | `TATaxItem.belnr` |
 | `InvoiceDate` | `TATaxItem.invoice_date` |
@@ -62,11 +62,11 @@ tags:
 | `KR_EDocBuyrRespPersnEmlAddr3` | `TATaxItem.buyer_email2` |
 | `KR_ElectronicDocumentItemDate` | `TATaxItem.item_date` |
 | `KR_ElectronicDocumentItemName` | `TATaxItem.item_name` |
-| `edc_kr_item_unit)` | `cast(TATaxItem.item_unit` |
-| `edc_kr_item_quantity)` | `cast(TATaxItem.item_quantity` |
-| `edoc_kr_item_unit_price)` | `cast(TATaxItem.item_unit_price` |
-| `hwbas)` | `cast((TATaxItem.item_base_amt / 100)` |
-| `hwbas)` | `cast((TATaxItem.item_tax_amount / 100)` |
+| `KR_ElectronicDocumentItemUnit` | `cast(TATaxItem.item_unit as edc_kr_item_unit)` |
+| `KR_EDocItemQuantity` | `cast(TATaxItem.item_quantity as edc_kr_item_quantity)` |
+| `KR_EDocItmUntPriceInCoCodeCrcy` | `cast(TATaxItem.item_unit_price as edoc_kr_item_unit_price)` |
+| `TaxBaseAmountInCoCodeCrcy` | `cast((TATaxItem.item_base_amt / 100) as hwbas)` |
+| `TaxAmountInCoCodeCrcy` | `cast((TATaxItem.item_tax_amount / 100) as hwbas)` |
 | `KR_EDocItemRemark` | `TATaxItem.item_remarks` |
 
 ## Associations

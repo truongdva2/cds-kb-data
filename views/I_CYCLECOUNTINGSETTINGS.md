@@ -31,11 +31,11 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Plant` | `werks` |
-| `mmim_cycle_count_type )` | `cast( abcin` |
-| `mmim_cycle_count_per_fisc_year )` | `cast( aninv` |
-| `mmim_cycle_count_interval )` | `cast( ininv` |
-| `mmim_cycle_count_float_time )` | `cast( pzinv` |
-| `config_deprecation_code )` | `cast( configurationdeprecationcode` |
+| `CycleCountType` | `cast( abcin as mmim_cycle_count_type )` |
+| `NmbrOfPhysInvtryPerFiscalYear` | `cast( aninv as mmim_cycle_count_per_fisc_year )` |
+| `PhysInvtryIntvlForCycCounting` | `cast( ininv as mmim_cycle_count_interval )` |
+| `PhysInvtryFloatTimeCycCounting` | `cast( pzinv as mmim_cycle_count_float_time )` |
+| `ConfigDeprecationCode` | `cast( configurationdeprecationcode as config_deprecation_code )` |
 
 ## Associations
 

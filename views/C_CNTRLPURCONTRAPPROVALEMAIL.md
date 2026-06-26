@@ -33,19 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_CentralPurchaseContract.PurchaseContractType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_CentralPurchaseContract.DocumentCurrency` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_CentralPurchaseContract.Supplier` | *Association* |
-| `_CentralPurchaseContract.ActivePurchasingDocument                                                             as ActivePurchasingDocument, //3227601` | *Association* |
-| `_User.UserDescription                                                                                         as CreatedByUserDescription` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `CentralPurchaseContract` | `cast(…)` |
+| `PurchaseContractType` | `_CentralPurchaseContract.PurchaseContractType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_CentralPurchaseContract.DocumentCurrency` |
+| `CntrlContrWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `CntrlContrWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `CntrlContrWrkflwTskDuUTCDte` | `cast(…)` |
+| `CntrlContrWrkflwTskDuUTCTme` | `cast(…)` |
+| `Supplier` | `_CentralPurchaseContract.Supplier` |
+| `ActivePurchasingDocument` | `_CentralPurchaseContract.ActivePurchasingDocument` |
+| `CreatedByUserDescription` | `_User.UserDescription` |
+| `SupplierName` | `_Supplier.SupplierName` |
 
 ## Associations
 

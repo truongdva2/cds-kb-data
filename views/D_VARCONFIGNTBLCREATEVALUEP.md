@@ -29,16 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `VarConfignTblLineNumber        : vtlin;` | `VarConfignTblLineNumber        : vtlin;` |
-| `ChangeNumber                   : aennr;` | `ChangeNumber                   : aennr;` |
-| `Characteristic                 : atnam;` | `Characteristic                 : atnam;` |
-| `CharcValue                     : atwrt;` | `CharcValue                     : atwrt;` |
-| `CharcFromNumericValue          : atflv;` | `CharcFromNumericValue          : atflv;` |
-| `CharcToNumericValue            : atflb;` | `CharcToNumericValue            : atflb;` |
-| `CharcValueIntervalType         : atcod;` | `CharcValueIntervalType         : atcod;` |
-| `CharcFromNumericValueUnit      : msehi;` | `CharcFromNumericValueUnit      : msehi;` |
-| `CharcToNumericValueUnit        : msehi;` | `CharcToNumericValueUnit        : msehi;` |
-| `VarConfignTblAnyValueIsAllowed : boole_d;` | `VarConfignTblAnyValueIsAllowed : boole_d;` |
+| `VarConfignTblLineNumber` | `vtlin` |
+| `ChangeNumber` | `aennr` |
+| `Characteristic` | `atnam` |
+| `CharcValue` | `atwrt` |
+| `CharcFromNumericValue` | `atflv` |
+| `CharcToNumericValue` | `atflb` |
+| `CharcValueIntervalType` | `atcod` |
+| `CharcFromNumericValueUnit` | `msehi` |
+| `CharcToNumericValueUnit` | `msehi` |
+| `VarConfignTblAnyValueIsAllowed` | `boole_d` |
 
 ## Associations
 

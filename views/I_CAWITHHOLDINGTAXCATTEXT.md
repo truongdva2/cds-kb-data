@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qsptp_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `qsptp_text_kk preserving type )` | `cast( ddtext` |
+| `CAWithholdingTaxCategory` | `cast( left( domvalue_l, 1 ) as qsptp_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAWithholdingTaxCategoryName` | `cast( ddtext as qsptp_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

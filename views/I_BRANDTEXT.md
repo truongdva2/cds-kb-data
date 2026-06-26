@@ -32,10 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
+| `Brand` | `brand_id` |
+| `Language` | `language` |
 | `BrandName` | `brand_descr` |
 | `_Brand` | *Association* |
 | `_Language` | *Association* |

@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `retmnttype )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RENoticeType` | `cast( dd07t.domvalue_l as retmnttype )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `RENoticeTypeName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_RENoticeType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RENoticeType` | `I_RENoticeType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

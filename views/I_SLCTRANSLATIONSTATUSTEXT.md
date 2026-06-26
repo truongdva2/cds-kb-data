@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/translation_status)` | `cast(substring( domvalue_l, 1, 2)` |
+| `SLCTranslationStatus` | `cast(substring( domvalue_l, 1, 2) as /srmsmc/translation_status)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type)` | `cast(ddtext` |
+| `SLCTranslationStatusName` | `cast(ddtext as /srmsmc/status_descr preserving type)` |
 | `_SLCTranslationStatus` | *Association* |
 | `_Language` | *Association* |
 

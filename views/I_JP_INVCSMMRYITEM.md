@@ -31,36 +31,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs)` | `cast(bukrs` |
-| `farp_belnr_d)` | `cast(belnr` |
-| `fis_gjahr)` | `cast(gjahr` |
-| `farp_buzei)` | `cast(buzei` |
-| `farp_bstat_d)` | `cast(bstat` |
-| `isjp_ispayer)` | `cast(invsumpayer` |
-| `isjp_pigrunit)` | `cast(pigrunit` |
-| `waers)` | `cast(waers` |
-| `isjp_recipient)` | `cast(invsumrecip` |
-| `isjp_grpunit   )as  InvcSmmryGroupingUnit` | `cast(grunit` |
-| `isjp_closedate)` | `cast(closdate` |
-| `isjp_duedate)` | `cast(netdt` |
-| `isjp_minr)` | `cast(minr` |
-| `isjp_notincl)` | `cast(notincl` |
-| `isjp_miblock)` | `cast(miblock` |
-| `isjp_netamnt)` | `cast(netamnt` |
-| `isjp_taxamnt)` | `cast(taxamnt` |
-| `isjp_grossamnt )as InvcSmmryGrossAmount` | `cast(netamnt + taxamnt` |
-| `fis_mwskz)` | `cast(mwskz` |
-| `isjp_itemcat)` | `cast(itemcat` |
-| `fis_augdt )` | `cast(cleardate` |
-| `isjp_netamnt1)` | `cast(netamnt1` |
-| `isjp_taxamnt1)` | `cast(taxamnt1` |
-| `isjp_mwskz1)` | `cast(mwsk1` |
-| `isjp_netamnt2)` | `cast(netamnt2` |
-| `isjp_taxamnt2)` | `cast(taxamnt2` |
-| `isjp_mwskz2)` | `cast(mwsk2` |
-| `isjp_netamnt3)` | `cast(netamnt3` |
-| `isjp_taxamnt3)` | `cast(taxamnt3` |
-| `isjp_mwskz3)` | `cast(mwsk3` |
+| `CompanyCode` | `cast(bukrs as fis_bukrs)` |
+| `AccountingDocument` | `cast(belnr as farp_belnr_d)` |
+| `FiscalYear` | `cast(gjahr as fis_gjahr)` |
+| `AccountingDocumentItem` | `cast(buzei as farp_buzei)` |
+| `AccountingDocumentCategory` | `cast(bstat as farp_bstat_d)` |
+| `InvcSmmryPayer` | `cast(invsumpayer as isjp_ispayer)` |
+| `InvcSmmryPayerInvcGrpgUnit` | `cast(pigrunit as isjp_pigrunit)` |
+| `Currency` | `cast(waers as waers)` |
+| `InvcSmmryRecipient` | `cast(invsumrecip as isjp_recipient)` |
+| `InvcSmmryClosingDate` | `cast(closdate as isjp_closedate)` |
+| `InvcSmmryDueDate` | `cast(netdt as isjp_duedate)` |
+| `InvcSmmryMonthlyInvc` | `cast(minr as isjp_minr)` |
+| `InvcSmmryIsNotInMonthlyInvc` | `cast(notincl as isjp_notincl)` |
+| `InvcSmmryMonthlyInvcIsBlock` | `cast(miblock as isjp_miblock)` |
+| `InvcSmmryNetAmount` | `cast(netamnt as isjp_netamnt)` |
+| `InvcSmmryTaxAmount` | `cast(taxamnt as isjp_taxamnt)` |
+| `TaxCode` | `cast(mwskz as fis_mwskz)` |
+| `InvcSmmryItemCategory` | `cast(itemcat as isjp_itemcat)` |
+| `ClearingDate` | `cast(cleardate as fis_augdt )` |
+| `InvcSmmryAddlNetAmount1` | `cast(netamnt1 as isjp_netamnt1)` |
+| `InvcSmmryAddlTaxAmount1` | `cast(taxamnt1 as isjp_taxamnt1)` |
+| `InvcSmmryAddlTaxCode1` | `cast(mwsk1 as isjp_mwskz1)` |
+| `InvcSmmryAddlNetAmount2` | `cast(netamnt2 as isjp_netamnt2)` |
+| `InvcSmmryAddlTaxAmount2` | `cast(taxamnt2 as isjp_taxamnt2)` |
+| `InvcSmmryAddlTaxCode2` | `cast(mwsk2 as isjp_mwskz2)` |
+| `InvcSmmryAddlNetAmount3` | `cast(netamnt3 as isjp_netamnt3)` |
+| `InvcSmmryAddlTaxAmount3` | `cast(taxamnt3 as isjp_taxamnt3)` |
+| `InvcSmmryAddlTaxCode3` | `cast(mwsk3 as isjp_mwskz3)` |
 | `_CompanyCode` | *Association* |
 | `_JournalEntry` | *Association* |
 | `_FiscalYear` | *Association* |

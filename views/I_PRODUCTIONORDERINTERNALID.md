@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductionOrderTypeStdVH', element: 'ProductionOrderType' } } ]` | `name: 'I_ProductionOrderTypeStdVH', element: 'ProductionOrderType' } } ]` |
-| `vdm_prodnordertype preserving type)` | `cast(OrderType` |
+| `ProductionOrderInternalID` | `OrderInternalBillOfOperations` |
+| `ProductionOrder` | `cast(OrderID as vdm_manufacturingorder preserving type)` |
+| `ProductionOrderType` | `cast(OrderType as vdm_prodnordertype preserving type)` |
 | `_ProductionOrder` | *Association* |
 | `_ProductionOrderType` | *Association* |
 

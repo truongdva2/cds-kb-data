@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ShippingPoint` | `ShippingPoint` |
-| `_Text[1: Language=$session.system_language].ShippingPointName as ShippingPointName` | *Association* |
+| `ShippingPoint` | `ShippingPoint` |
+| `ShippingPointName` | `_Text[1: Language=$session.system_language].ShippingPointName` |
 | `_Text` | *Association* |
 
 ## Associations

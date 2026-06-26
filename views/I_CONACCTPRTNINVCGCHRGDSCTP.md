@@ -30,18 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ContractAccount` | `ContractAccount` |
-| `key BusinessPartner` | `BusinessPartner` |
-| `key CAInvcgChargeAndDiscountKey` | `CAInvcgChargeAndDiscountKey` |
-| `key CAInvcgChrgAndDiscKeyStartDate` | `CAInvcgChrgAndDiscKeyStartDate` |
+| `ContractAccount` | `ContractAccount` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CAInvcgChargeAndDiscountKey` | `CAInvcgChargeAndDiscountKey` |
+| `CAInvcgChrgAndDiscKeyStartDate` | `CAInvcgChrgAndDiscKeyStartDate` |
 | `CAInvcgChrgDscKeyFoEd` | `CAInvcgChrgDscKeyFoEd` |
 | `CAInvcgChrgDscKeyStrtDtFoEd` | `CAInvcgChrgDscKeyStrtDtFoEd` |
 | `CAInvcgChrgAndDiscKeyEndDate` | `CAInvcgChrgAndDiscKeyEndDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CAInvcgChrgAndDiscKey` | *Association* |
-| `_ContractAccount: redirected to I_ContractAccountTP` | *Association* |
-| `_ContractAccountPartner: redirected to parent I_ContractAccountPartnerTP` | *Association* |
 
 ## Associations
 

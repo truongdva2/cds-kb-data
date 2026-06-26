@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintOrderConf` | `MaintOrderConf` |
-| `key MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
+| `MaintOrderConf` | `MaintOrderConf` |
+| `MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
 | `MaintOrderConfirmationEntryDte` | `MaintOrderConfirmationEntryDte` |
 | `MaintOrderOperationCounter` | `MaintOrderOperationCounter` |
 | `EnteredByUser` | `EnteredByUser` |
@@ -87,7 +87,6 @@ tags:
 | `AddressTimeZone` | `AddressTimeZone` |
 | `UserEnteredTimeZone` | `UserEnteredTimeZone` |
 | `PlantTimeZone` | `PlantTimeZone` |
-| `/* Associations */` | `/* Associations */` |
 | `_ActualWorkCenter` | *Association* |
 | `_ActualWorkExtQuantityUnit` | *Association* |
 | `_ConfirmationGroup` | *Association* |

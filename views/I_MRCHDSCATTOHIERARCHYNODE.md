@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdscategory )` | `cast (MrchdsCategory.class` |
-| `rfm_mrchdcathiernode preserving type  )` | `cast (MrchdsCatHiernode.class` |
+| `MerchandiseCategory` | `cast (MrchdsCategory.class as rfm_mrchdscategory )` |
+| `MrchdsCategoryHierarchyNode` | `cast (MrchdsCatHiernode.class as rfm_mrchdcathiernode preserving type )` |
 | `_MerchandiseCategory` | *Association* |
 
 ## Associations

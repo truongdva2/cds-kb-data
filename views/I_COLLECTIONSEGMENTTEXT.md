@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bdm_coll_segment preserving type)` | `cast(coll_segment` |
+| `CollectionSegment` | `cast(coll_segment as bdm_coll_segment preserving type)` |
 | `Language` | `lang` |
 | `CollectionSegmentName` | `coll_segment_txt` |
 | `_Language` | *Association* |

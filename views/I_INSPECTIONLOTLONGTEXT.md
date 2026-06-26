@@ -32,14 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key Language` | `Language` |
+| `InspectionLot` | `InspectionLot` |
+| `Language` | `Language` |
 | `InspectionLotLongText` | `InspectionLotLongText` |
 | `LongTextCreatedByUser` | `LongTextCreatedByUser` |
 | `LongTextCreatedAt` | `LongTextCreatedAt` |
 | `LongTextLastChangedByUser` | `LongTextLastChangedByUser` |
 | `LongTextLastChangedAt` | `LongTextLastChangedAt` |
-| `/* Association */` | `/* Association */` |
 | `_InspectionLot` | *Association* |
 | `_Language` | *Association* |
 

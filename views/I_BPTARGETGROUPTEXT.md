@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `langu preserving type)` | `cast(tp13t.langu` |
-| `bp_group_d preserving type)` | `cast(tp13t.group_d` |
+| `Language` | `cast(tp13t.langu as langu preserving type)` |
+| `BusinessPartnerTargetGroup` | `cast(tp13t.group_d as bp_group_d preserving type)` |
 | `BusinessPartnerTargetGroupDesc` | `tp13t.group_d_t` |
 | `_BusinessPartnerTargetGroup` | *Association* |
 | `_Language` | *Association* |

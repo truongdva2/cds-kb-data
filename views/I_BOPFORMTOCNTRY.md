@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `BOPRptgCntry` | `country` |
 | `BOPForm` | `form` |
-| `land1_gp)` | `cast(subdiv` |
+| `Country` | `cast(subdiv as land1_gp)` |
 | `_BOPRptgCntry` | *Association* |
 | `_BOPForm` | *Association* |
 

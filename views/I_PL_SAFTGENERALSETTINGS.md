@@ -35,26 +35,16 @@ tags:
 | `ValidityStartDate` | `begda` |
 | `PL_SAFTAccountSelectCriterion` | `main_alt_acct` |
 | `PL_SAFTAccountingViewType` | `fi_view` |
-| `abap.char(241))` | `cast(file_email` |
+| `EmailAddress` | `cast(file_email as abap.char(241))` |
 | `PL_OfficialEntityRegistration` | `regon` |
 | `PL_CompanyDistrictName` | `district` |
 | `PL_CompanySubDistrictName` | `sub_district` |
 | `PL_TaxOfficeCode` | `tax_office` |
-| `abap.char(30))` | `cast(business_type` |
+| `BusinessType` | `cast(business_type as abap.char(30))` |
 | `PL_EstonianCITIsUsedForSAFT` | `cit` |
-| `cast(case` | `cast(case` |
-| `when cit = 'X'` | `when cit = 'X'` |
-| `then  '1'` | `then  '1'` |
-| `else` | `else` |
-| `' '` | `' '` |
-| `abap.char(1))` | `end` |
+| `PL_EstonianCITText` | `cast(case when cit = 'X' then '1' else ' ' end as abap.char(1))` |
 | `PL_IFRSForSAFTIsUsed` | `ifrs` |
-| `cast (case` | `cast (case` |
-| `when ifrs  = 'X'` | `when ifrs  = 'X'` |
-| `then  '1'` | `then  '1'` |
-| `else` | `else` |
-| `' '` | `' '` |
-| `abap.char(1))` | `end` |
+| `PL_IFRSText` | `cast (case when ifrs = 'X' then '1' else ' ' end as abap.char(1))` |
 
 ## Associations
 

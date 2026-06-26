@@ -32,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
-| `key LanguageCode` | `LanguageCode` |
+| `VarConfignTblName` | `VarConfignTblName` |
+| `LanguageCode` | `LanguageCode` |
 | `VarConfignTblDescription` | `VarConfignTblDescription` |
-| `/* Associations */` | `/* Associations */` |
-| `_Table: redirected to parent I_VarConfignTableTP` | *Association* |
 
 ## Associations
 

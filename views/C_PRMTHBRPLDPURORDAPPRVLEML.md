@@ -30,15 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseOrder.PurchaseOrderType                                                                              as PurchaseOrderType` | *Association* |
-| `_PurchaseOrder.ExtSourceSystem                                                                                as ExtSourceSystem` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1: Language = $session.system_language].WorkflowTaskResultReasonText` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `PurchaseOrder` | `cast(…)` |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `ExtSourceSystem` | `_PurchaseOrder.ExtSourceSystem` |
+| `PrmtHbWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCTme` | `cast(…)` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
 
 ## Associations
 

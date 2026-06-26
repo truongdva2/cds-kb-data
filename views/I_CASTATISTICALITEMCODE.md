@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `stakz_kk preserving type )` | `cast( left( domvalue_l,1 )` |
+| `CAStatisticalItemCode` | `cast( left( domvalue_l,1 ) as stakz_kk preserving type )` |
 | `_CAStatisticalItemCodeText` | *Association* |
 
 ## Associations

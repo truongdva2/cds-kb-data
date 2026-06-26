@@ -34,11 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankCountry` | `BankCountry` |
-| `key BankInternalID` | `BankInternalID` |
-| `key AddressRepresentationCode, //adrc-nation <> ''` | `AddressRepresentationCode, //adrc-nation <> ''` |
-| `LongBankName,              //char80  ... must be exposed. Contains scripted value for I_BankTP.LongBankName` | `LongBankName,              //char80  ... must be exposed. Contains scripted value for I_BankTP.LongBankName` |
-| `LongBankBranch,            //char80` | `LongBankBranch,            //char80` |
+| `BankCountry` | `BankCountry` |
+| `BankInternalID` | `BankInternalID` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
+| `LongBankName` | `LongBankName` |
+| `LongBankBranch` | `LongBankBranch` |
 | `StreetName` | `StreetName` |
 | `HouseNumber` | `HouseNumber` |
 | `HouseNumberSupplementText` | `HouseNumberSupplementText` |
@@ -77,8 +77,6 @@ tags:
 | `TertiaryRegionName` | `TertiaryRegionName` |
 | `AddressSearchTerm1` | `AddressSearchTerm1` |
 | `AddressSearchTerm2` | `AddressSearchTerm2` |
-| `BankScriptedAddress._BankAddress : redirected to parent I_BankAddressTP` | `BankScriptedAddress._BankAddress : redirected to parent I_BankAddressTP` |
-| `BankScriptedAddress._Bank        : redirected to I_BankTP` | `BankScriptedAddress._Bank        : redirected to I_BankTP` |
 
 ## Associations
 

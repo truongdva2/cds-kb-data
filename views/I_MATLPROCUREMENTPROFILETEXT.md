@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `materialprocurementprofilename preserving type)` | `cast(txt.ltext` |
+| `MaterialProcurementProfile` | `cast(txt.sobsl as pph_sobsl preserving type)` |
+| `Plant` | `txt.werks` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `MaterialProcurementProfileName` | `cast(txt.ltext as materialprocurementprofilename preserving type)` |
 | `_Profile` | *Association* |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fcom_category preserving type)` | `cast (fcomc_cat_assgmt.virtual_category` |
+| `PlanningCategory` | `cast (fcomc_cat_assgmt.virtual_category as fcom_category preserving type)` |
 | `SourcePlanningCategory` | `fcomc_cat_assgmt.source_category` |
 | `_Text` | *Association* |
 | `_SourcePlanningCategory` | *Association* |
@@ -40,6 +40,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_PlanningCategoryText` | [0..*] |
+| `_SourcePlanningCategory` | `I_PlanningCategory` | — |
 
 ## Source Code
 

@@ -29,9 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `SamplingType` | `qdsa.stichprart` |
-| `/* Associtions */` | `/* Associtions */` |
 | `_Text` | *Association* |
 
 ## Associations

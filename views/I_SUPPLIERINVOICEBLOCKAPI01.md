@@ -32,16 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierInvoiceBlock.PaymentBlockingReason` | `I_SupplierInvoiceBlock.PaymentBlockingReason` |
-| `key I_SupplierInvoiceBlock.CompanyCode` | `I_SupplierInvoiceBlock.CompanyCode` |
-| `key I_SupplierInvoiceBlock.FiscalYear` | `I_SupplierInvoiceBlock.FiscalYear` |
-| `key I_SupplierInvoiceBlock.InvoicingParty` | `I_SupplierInvoiceBlock.InvoicingParty` |
-| `key I_SupplierInvoiceBlock.SupplierInvoice` | `I_SupplierInvoiceBlock.SupplierInvoice` |
-| `key I_SupplierInvoiceBlock.CreatedByUser` | `I_SupplierInvoiceBlock.CreatedByUser` |
-| `key I_SupplierInvoiceBlock.PostingDate` | `I_SupplierInvoiceBlock.PostingDate` |
-| `key I_SupplierInvoiceBlock.PurchasingGroup` | `I_SupplierInvoiceBlock.PurchasingGroup` |
-| `key I_SupplierInvoiceBlock.NetDueDate` | `I_SupplierInvoiceBlock.NetDueDate` |
-| `/* Associations */` | `/* Associations */` |
+| `PaymentBlockingReason` | `I_SupplierInvoiceBlock.PaymentBlockingReason` |
+| `CompanyCode` | `I_SupplierInvoiceBlock.CompanyCode` |
+| `FiscalYear` | `I_SupplierInvoiceBlock.FiscalYear` |
+| `InvoicingParty` | `I_SupplierInvoiceBlock.InvoicingParty` |
+| `SupplierInvoice` | `I_SupplierInvoiceBlock.SupplierInvoice` |
+| `CreatedByUser` | `I_SupplierInvoiceBlock.CreatedByUser` |
+| `PostingDate` | `I_SupplierInvoiceBlock.PostingDate` |
+| `PurchasingGroup` | `I_SupplierInvoiceBlock.PurchasingGroup` |
+| `NetDueDate` | `I_SupplierInvoiceBlock.NetDueDate` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

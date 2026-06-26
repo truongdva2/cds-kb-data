@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_sec_exchange preserving type )` | `cast(Exchange.rhandpl` |
+| `SecurityExchange` | `cast(Exchange.rhandpl as ftr_sec_exchange preserving type )` |
 | `Currency` | `Exchange.waers` |
 | `CountryISOCode` | `Exchange.land1` |
-| `ftr_sec_exchange_desc)` | `cast(Exchange.xkurzbez` |
+| `SecurityExchangeShortName` | `cast(Exchange.xkurzbez as ftr_sec_exchange_desc)` |
 
 ## Associations
 

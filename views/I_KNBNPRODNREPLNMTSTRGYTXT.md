@@ -30,7 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Plant` | `werks` |
+| `InHouseProductionReplnmtStrgy` | `pksts` |
+| `Language` | `spras` |
 | `InhProdnReplnmtStrgyName` | `pksbz` |
 | `_KnbnProdnReplnmtStrgy` | *Association* |
 | `_Language` | *Association* |

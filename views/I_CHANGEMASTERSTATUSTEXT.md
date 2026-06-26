@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/plmb/ecn_status )` | `cast ( aenst` |
+| `ChangeNumberStatus` | `cast ( aenst as /plmb/ecn_status )` |
 | `Language` | `spras` |
 | `ChangeNumberStatusText` | `aestx` |
 | `_Language` | *Association* |

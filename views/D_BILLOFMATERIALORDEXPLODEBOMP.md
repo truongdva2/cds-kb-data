@@ -33,23 +33,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SalesOrder : vbeln ;` | `SalesOrder : vbeln ;` |
-| `SalesOrderItem : cs_vbpos ;` | `SalesOrderItem : cs_vbpos ;` |
-| `BOMExplosionApplication : capid ;` | `BOMExplosionApplication : capid ;` |
-| `RequiredQuantity : basmn;` | `RequiredQuantity : basmn;` |
-| `BOMHeaderBaseUnit: bmein;` | `BOMHeaderBaseUnit: bmein;` |
-| `BOMExplosionIsLimited : brems;` | `BOMExplosionIsLimited : brems;` |
-| `BOMItmQtyIsScrapRelevant : auskz;` | `BOMItmQtyIsScrapRelevant : auskz;` |
-| `BillOfMaterialItemCategory : postp;` | `BillOfMaterialItemCategory : postp;` |
-| `BOMExplosionAssembly : matnr;` | `BOMExplosionAssembly : matnr;` |
-| `BOMExplosionDate : datuv;` | `BOMExplosionDate : datuv;` |
-| `ExplodeBOMLevelValue : cs_maxst;` | `ExplodeBOMLevelValue : cs_maxst;` |
-| `BOMExplosionIsMultilevel : mehrs;` | `BOMExplosionIsMultilevel : mehrs;` |
-| `MaterialProvisionFltrType : beikz;` | `MaterialProvisionFltrType : beikz;` |
-| `SparePartFltrType : erskz;` | `SparePartFltrType : erskz;` |
-| `FinalPriceIndicator : cs_preis;` | `FinalPriceIndicator : cs_preis;` |
-| `BOMExplosionIsAlternatePrio : altvo;` | `BOMExplosionIsAlternatePrio : altvo;` |
-| `BillOfMaterialSimulationValue : cuobj;` | `BillOfMaterialSimulationValue : cuobj;` |
+| `SalesOrder` | `vbeln` |
+| `SalesOrderItem` | `cs_vbpos` |
+| `BOMExplosionApplication` | `capid` |
+| `RequiredQuantity` | `basmn` |
+| `BOMHeaderBaseUnit` | `bmein` |
+| `BOMExplosionIsLimited` | `brems` |
+| `BOMItmQtyIsScrapRelevant` | `auskz` |
+| `BillOfMaterialItemCategory` | `postp` |
+| `BOMExplosionAssembly` | `matnr` |
+| `BOMExplosionDate` | `datuv` |
+| `ExplodeBOMLevelValue` | `cs_maxst` |
+| `BOMExplosionIsMultilevel` | `mehrs` |
+| `MaterialProvisionFltrType` | `beikz` |
+| `SparePartFltrType` | `erskz` |
+| `FinalPriceIndicator` | `cs_preis` |
+| `BOMExplosionIsAlternatePrio` | `altvo` |
+| `BillOfMaterialSimulationValue` | `cuobj` |
 
 ## Associations
 

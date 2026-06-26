@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ti_sputcal)` | `cast(domvalue_l` |
+| `OptionPutCallCode` | `cast(domvalue_l as ti_sputcal)` |
 | `_Text` | *Association* |
 
 ## Associations

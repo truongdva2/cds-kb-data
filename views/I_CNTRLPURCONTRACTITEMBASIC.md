@@ -33,26 +33,26 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CentralPurchaseContract` | `ActivePurchasingDocument` |
-| `key Item.CentralPurchaseContractItem` | `Item.CentralPurchaseContractItem` |
+| `CentralPurchaseContractItem` | `Item.CentralPurchaseContractItem` |
 | `CntrlPurContractItemText` | `Item.PurchaseContractItemText` |
-| `Item.PurchasingDocumentItemCategory` | `Item.PurchasingDocumentItemCategory` |
-| `matkl preserving type )` | `cast ( Item.ProductGroup` |
-| `Item.ProcmtHubExtReferencedMaterial` | `Item.ProcmtHubExtReferencedMaterial` |
-| `Item.NetPriceQuantity` | `Item.NetPriceQuantity` |
-| `Item.OrderPriceUnit` | `Item.OrderPriceUnit` |
-| `Item.TargetQuantity` | `Item.TargetQuantity` |
-| `Item.CntrlPurContrItmTargetAmount` | `Item.CntrlPurContrItmTargetAmount` |
-| `Item.ContractNetPriceAmount` | `Item.ContractNetPriceAmount` |
-| `Item.OrderQuantityUnit` | `Item.OrderQuantityUnit` |
-| `Item.PurgDocReleaseOrderQuantity` | `Item.PurgDocReleaseOrderQuantity` |
-| `Item.OrdPriceUnitToOrderUnitDnmntr` | `Item.OrdPriceUnitToOrderUnitDnmntr` |
-| `Item.OrderPriceUnitToOrderUnitNmrtr` | `Item.OrderPriceUnitToOrderUnitNmrtr` |
-| `Item.DocumentCurrency` | `Item.DocumentCurrency` |
-| `Item.TaxCode` | `Item.TaxCode` |
-| `Item.EvaldRcptSettlmtIsAllowed` | `Item.EvaldRcptSettlmtIsAllowed` |
-| `Item.PurchasingContractDeletionCode` | `Item.PurchasingContractDeletionCode` |
-| `Item.PurgDocItmBlkRsnCode` | `Item.PurgDocItmBlkRsnCode` |
-| `Item.PurchasingParentItem` | `Item.PurchasingParentItem` |
+| `PurchasingDocumentItemCategory` | `Item.PurchasingDocumentItemCategory` |
+| `MaterialGroup` | `cast ( Item.ProductGroup as matkl preserving type )` |
+| `ProcmtHubExtReferencedMaterial` | `Item.ProcmtHubExtReferencedMaterial` |
+| `NetPriceQuantity` | `Item.NetPriceQuantity` |
+| `OrderPriceUnit` | `Item.OrderPriceUnit` |
+| `TargetQuantity` | `Item.TargetQuantity` |
+| `CntrlPurContrItmTargetAmount` | `Item.CntrlPurContrItmTargetAmount` |
+| `ContractNetPriceAmount` | `Item.ContractNetPriceAmount` |
+| `OrderQuantityUnit` | `Item.OrderQuantityUnit` |
+| `PurgDocReleaseOrderQuantity` | `Item.PurgDocReleaseOrderQuantity` |
+| `OrdPriceUnitToOrderUnitDnmntr` | `Item.OrdPriceUnitToOrderUnitDnmntr` |
+| `OrderPriceUnitToOrderUnitNmrtr` | `Item.OrderPriceUnitToOrderUnitNmrtr` |
+| `DocumentCurrency` | `Item.DocumentCurrency` |
+| `TaxCode` | `Item.TaxCode` |
+| `EvaldRcptSettlmtIsAllowed` | `Item.EvaldRcptSettlmtIsAllowed` |
+| `PurchasingContractDeletionCode` | `Item.PurchasingContractDeletionCode` |
+| `PurgDocItmBlkRsnCode` | `Item.PurgDocItmBlkRsnCode` |
+| `PurchasingParentItem` | `Item.PurchasingParentItem` |
 | `IsOutline` | `Item.IsStatisticalItem` |
 | `_CentralPurchaseContractBasic` | *Association* |
 

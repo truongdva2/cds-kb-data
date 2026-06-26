@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `latyp )` | `cast( domvalue_l` |
-| `spras )` | `cast( ddlanguage` |
-| `fis_latyp_text)` | `cast(ddtext` |
+| `CostCtrActivityTypeCategory` | `cast( domvalue_l as latyp )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `CostCtrActivityTypeCatName` | `cast(ddtext as fis_latyp_text)` |
 | `_Language` | *Association* |
 
 ## Associations

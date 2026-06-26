@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CABillgPlnType  : biptype_kk;` | `CABillgPlnType  : biptype_kk;` |
-| `ContractAccount : vkont_kk;` | `ContractAccount : vkont_kk;` |
-| `CAContract      : vtref_kk;` | `CAContract      : vtref_kk;` |
+| `CABillgPlnType` | `biptype_kk` |
+| `ContractAccount` | `vkont_kk` |
+| `CAContract` | `vtref_kk` |
 
 ## Associations
 

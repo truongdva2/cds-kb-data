@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_sp_data_source )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SalesPerformanceDataSource` | `cast ( substring( domvalue_l, 1, 1 ) as sd_sp_data_source )` |
 | `_Text` | *Association* |
 
 ## Associations

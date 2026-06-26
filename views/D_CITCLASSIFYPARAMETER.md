@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CompanyCodeName                : fis_butxt; //char25` | `CompanyCodeName                : fis_butxt; //char25` |
-| `HierarchyTreeVariableShortText : char1024;  //CIT Hierarchy, char 1024` | `HierarchyTreeVariableShortText : char1024;  //CIT Hierarchy, char 1024` |
-| `LedgerName                     : ldtxt; //char30` | `LedgerName                     : ldtxt; //char30` |
-| `FromPostingDate                : abap.dats;` | `FromPostingDate                : abap.dats;` |
-| `ToPostingDate                  : abap.dats;` | `ToPostingDate                  : abap.dats;` |
-| `IsChanged                      : abap.char( 1 );` | `IsChanged                      : abap.char( 1 );` |
+| `CompanyCodeName` | `fis_butxt` |
+| `HierarchyTreeVariableShortText` | `char1024` |
+| `LedgerName` | `ldtxt` |
+| `FromPostingDate` | `abap.dats` |
+| `ToPostingDate` | `abap.dats` |
+| `IsChanged` | `abap.char( 1 )` |
 
 ## Associations
 

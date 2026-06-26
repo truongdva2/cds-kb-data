@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `PartialDeliveryIsAllowed` | `cast ( cast ( substring( domvalue_l, 1, 1 ) as abap.char( 1 ) ) as kztlf )` |
 | `Language` | `ddlanguage` |
 | `PartialDeliveryIsAllowedText` | `ddtext` |
 

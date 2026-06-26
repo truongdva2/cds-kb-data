@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_risk_group )` | `cast ( dd07t.domvalue_l` |
+| `BusinessPartnerRiskGroup` | `cast ( dd07t.domvalue_l as bp_risk_group )` |
 | `BPRiskGroupDescription` | `dd07t.ddtext` |
 | `_BPRiskGroup` | *Association* |
 | `_Language` | *Association* |

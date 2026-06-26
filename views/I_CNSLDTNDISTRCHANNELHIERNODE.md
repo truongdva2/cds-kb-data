@@ -30,15 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnDistributionChannelVH'` | `name: 'I_CnsldtnDistributionChannelVH'` |
-| `element: 'DistributionChannel'` | `element: 'DistributionChannel'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_HierarchyNode.DistributionChannel` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnDistrChannelHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `DistributionChannel` | `_HierarchyNode.DistributionChannel` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_DistributionChannel` | *Association* |
 | `_Hierarchy` | *Association* |

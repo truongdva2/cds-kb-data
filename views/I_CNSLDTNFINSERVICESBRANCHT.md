@@ -31,14 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinServicesBranchVH'` | `name: 'I_CnsldtnFinServicesBranchVH'` |
-| `element: 'FinancialServicesBranch'` | `element: 'FinancialServicesBranch'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialservicesbranch preserving type )` | `cast( _Source.FinancialServicesBranch` |
-| `fincs_finservicesbranchname preserving type )` | `cast( _Source.FinancialServicesBranchName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `FinancialServicesBranch` | `cast(…)` |
+| `FinancialServicesBranchName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_FinancialServicesBranch` | *Association* |
 

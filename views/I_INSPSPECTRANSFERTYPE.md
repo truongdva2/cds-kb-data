@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qvollst preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecTransferTypeText` | `,_InspSpecTransferTypeText` |
+| `InspSpecTransferType` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qvollst preserving type )` |
+| `_InspSpecTransferTypeText` | *Association* |
 
 ## Associations
 

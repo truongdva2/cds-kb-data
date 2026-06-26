@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key NoteBasicUUID` | `NoteBasicUUID` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `NoteBasicUUID` | `NoteBasicUUID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
@@ -42,8 +42,6 @@ tags:
 | `NoteBasicType` | `NoteBasicType` |
 | `NoteBasicLanguage` | `NoteBasicLanguage` |
 | `NoteBasicContent` | `NoteBasicContent` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheet : redirected to parent I_ServiceEntrySheetTP_2` | *Association* |
 
 ## Associations
 

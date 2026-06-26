@@ -30,17 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocumentItem     : ehfnd_log_doc_posnr; // Id of the corresponding item in the PCLD instance` | `ProdCmplncLogsDocumentItem     : ehfnd_log_doc_posnr; // Id of the corresponding item in the PCLD instance` |
-| `Product                        : ehfnd_mat_id;` | `Product                        : ehfnd_mat_id;` |
-| `DangerousGoodsEDIControllerTxt : dangerousgoodsedicontrollertxt;` | `DangerousGoodsEDIControllerTxt : dangerousgoodsedicontrollertxt;` |
-| `DangerousGoodsEDIBasicInfoTxt  : dangerousgoodsedibasicinfotxt;` | `DangerousGoodsEDIBasicInfoTxt  : dangerousgoodsedibasicinfotxt;` |
-| `DngrsGoodsEDIExtendedInfoTxt   : dngrsgoodsediextendedinfotxt;` | `DngrsGoodsEDIExtendedInfoTxt   : dngrsgoodsediextendedinfotxt;` |
-| `DngrsGdsEDIRlvtRegulationsTxt  : dngrsgdsedirlvtregulationstxt;` | `DngrsGdsEDIRlvtRegulationsTxt  : dngrsgdsedirlvtregulationstxt;` |
-| `_Root                          : association to parent D_PCLgsDcGetDngrsGoodsEDIInfoR;` | *Association* |
+| `ProdCmplncLogsDocumentItem` | `ehfnd_log_doc_posnr` |
+| `Product` | `ehfnd_mat_id` |
+| `DangerousGoodsEDIControllerTxt` | `dangerousgoodsedicontrollertxt` |
+| `DangerousGoodsEDIBasicInfoTxt` | `dangerousgoodsedibasicinfotxt` |
+| `DngrsGoodsEDIExtendedInfoTxt` | `dngrsgoodsediextendedinfotxt` |
+| `DngrsGdsEDIRlvtRegulationsTxt` | `dngrsgdsedirlvtregulationstxt` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetDngrsGoodsEDIInfoR` | — |
 
 ## Source Code
 

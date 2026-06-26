@@ -31,10 +31,7 @@ tags:
 |---|---|
 | `ConfigurableCodesCatalog` | `qpgr.katalogart` |
 | `ConfigurableCodesCodeGroup` | `qpgr.codegruppe` |
-| `case qpgr.inaktiv` | `case qpgr.inaktiv` |
-| `vdm_qm_codegroupisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codegroupisinactive preserving type )` | `else cast( 'X'` |
-| `ConfigblCodesCodeGrpIsInactv` | `end` |
+| `ConfigblCodesCodeGrpIsInactv` | `case…end` |
 | `ConfigblCodesCodeGroupStatus` | `qpgr.status` |
 | `_ConfigurableCodesCatalog` | *Association* |
 | `_ConfigurableCodesCode` | *Association* |

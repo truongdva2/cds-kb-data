@@ -29,14 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key SubscrpnBillgParamSqncNumber` | `SubscrpnBillgParamSqncNumber` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SubscrpnBillgParamSqncNumber` | `SubscrpnBillgParamSqncNumber` |
 | `SubscriptionParameter` | `SubscriptionParameter` |
 | `SubscrpnParameterIntegerValue` | `SubscrpnParameterIntegerValue` |
 | `_SubscriptionBillingItem` | *Association* |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

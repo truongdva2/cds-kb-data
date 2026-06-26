@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
+| `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
 | `ProductAllocationObject` | `ProductAllocationObject` |
 | `ProductAllocationPeriodType` | `ProductAllocationPeriodType` |
 | `ProdAllocationPeriodTimeZone` | `ProdAllocationPeriodTimeZone` |
@@ -46,9 +46,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_ProdAllocCharcValCombnTP: redirected to composition child I_ProdAllocCharcValCombnTP_2` | *Association* |
-| `_ProdAllocCharcMetaDataTP: redirected to composition child I_ProdAllocCharcMetaDataTP_2` | *Association* |
-| `_ProdAllocationObjectTTP: redirected to composition child I_ProdAllocationObjectTxtTP_2` | *Association* |
 
 ## Associations
 

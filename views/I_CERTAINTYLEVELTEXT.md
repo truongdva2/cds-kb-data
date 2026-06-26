@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fqm_certainty_level )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CertaintyLevel` | `cast( dd07t.domvalue_l as fqm_certainty_level )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fclm_cl_name preserving type )` | `cast( dd07t.ddtext` |
+| `CertaintyLevelName` | `cast( dd07t.ddtext as fclm_cl_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

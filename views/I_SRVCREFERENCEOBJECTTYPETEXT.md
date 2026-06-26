@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(1))` | `cast(domvalue_l` |
+| `ServiceReferenceObjectType` | `cast(domvalue_l as abap.char(1))` |
 | `Language` | `ddlanguage` |
 | `ServiceReferenceObjectTypeText` | `ddtext` |
 | `_SrvcReferenceObjectType` | *Association* |

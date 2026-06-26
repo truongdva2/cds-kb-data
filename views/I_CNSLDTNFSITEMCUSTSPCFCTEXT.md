@@ -33,13 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `_FSItemAttribValueTxt.CnsldtnFSItemAttribValueText                                                        as CnsldtnFSItemCustSpcfcText` | *Association* |
-| `_FSItemAttribValueTxt.CnsldtnFSItemAttribValLongText                                                      as CnsldtnFSItemCustSpcfcLongText` | *Association* |
-| `_FSItemAttribValueTxt._Language` | *Association* |
+| `Language` | `_FSItemAttribValueTxt.Language` |
+| `CnsldtnFSItemCustomerSpecific` | `cast(…)` |
+| `CnsldtnFSItemCustSpcfcText` | `_FSItemAttribValueTxt.CnsldtnFSItemAttribValueText` |
+| `CnsldtnFSItemCustSpcfcLongText` | `_FSItemAttribValueTxt.CnsldtnFSItemAttribValLongText` |
+| `_Language` | *Association* |
 | `_CnsldtnFSItemCustSpcfc` | *Association* |
 
 ## Associations

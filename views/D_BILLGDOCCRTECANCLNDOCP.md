@@ -28,8 +28,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingDocumentDate : fkdat;` | `BillingDocumentDate : fkdat;` |
-| `ReversalReason : stgrd;` | `ReversalReason : stgrd;` |
+| `BillingDocumentDate` | `fkdat` |
+| `ReversalReason` | `stgrd` |
 
 ## Associations
 

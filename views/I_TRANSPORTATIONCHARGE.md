@@ -31,30 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_transpcharge_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/vdm_tcc_hst_doc_uuid preserving type )` | `cast(host_key` |
-| `cast(` | `cast(` |
-| `case bintohex( host_bo_key )` | `case bintohex( host_bo_key )` |
-| `when '80E0ED0A0C021DEE8CE07DB4266D17C4'   then 'TransportationOrder'` | `when '80E0ED0A0C021DEE8CE07DB4266D17C4'   then 'TransportationOrder'` |
-| `when '80E0ED0A0DD11DDEB4EA8E4375A74E6B'   then 'SupplierFreightInvoiceRequest'` | `when '80E0ED0A0DD11DDEB4EA8E4375A74E6B'   then 'SupplierFreightInvoiceRequest'` |
-| `else ''` | `else ''` |
-| `sap_object_type_raw )` | `end` |
-| `cast(` | `cast(` |
-| `case bintohex( host_node_key )` | `case bintohex( host_node_key )` |
-| `when '80E0ED0A0C021DDE8CE07DB5DFAD0818' then 'TransportationOrder'` | `when '80E0ED0A0C021DDE8CE07DB5DFAD0818' then 'TransportationOrder'` |
-| `when '80E0ED0A0DD11DEEB4EA8E44A108915B' then 'SupplierFreightInvoiceRequest'` | `when '80E0ED0A0DD11DEEB4EA8E44A108915B' then 'SupplierFreightInvoiceRequest'` |
-| `else ''` | `else ''` |
-| `sap_object_node_type )` | `end` |
+| `TransportationChargeUUID` | `cast(db_key as /scmtms/vdm_transpcharge_uuid preserving type)` |
+| `TranspChargeHostDocumentUUID` | `cast(host_key as /scmtms/vdm_tcc_hst_doc_uuid preserving type )` |
+| `HostObjectSAPObjectType` | `cast(…)` |
+| `HostObjNodeSAPObjectNodeType` | `cast(…)` |
 | `TranspChargeDocumentCurrency` | `doc_currency` |
-| `abap.dec(31,6) ) * 10000` | `cast( cast( total_amount` |
+| `TranspChrgTotalAmtInDocCrcy` | `cast(…)` |
 | `TranspChargeLocalCurrency` | `lcl_currency` |
-| `abap.dec(31,6) ) * 10000` | `cast( cast( net_amount_lcl` |
+| `TranspChrgTotalAmtInLoclCrcy` | `cast(…)` |
 | `TranspChargeCalculationDateTme` | `calcdate_tstmp` |
-| `/scmtms/vdm_posting_status preserving type )` | `cast( invoicing` |
+| `TranspChargePostingStatus` | `cast( invoicing as /scmtms/vdm_posting_status preserving type )` |
 | `TranspChargeCalcStatus` | `calc_status` |
 | `TranspChargeUsage` | `tcusagecd085` |
 | `ExchangeRateDate` | `exchdate_doc` |
-| `/* Associations  */` | `/* Associations  */` |
 | `_TranspChargeItem` | *Association* |
 | `_TranspChargePostingStatus` | *Association* |
 | `_TranspChargeCalcStatus` | *Association* |
@@ -65,6 +54,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargeItem` | `I_TranspChargeItem` | [0..*] |
 | `_TranspChargePostingStatus` | `I_TranspChargePostingStatus` | [0..1] |
 | `_TranspChargeCalcStatus` | `I_TranspChargeCalcStatus` | [0..1] |
 | `_TranspChargeDocumentCurrency` | `I_Currency` | [0..1] |

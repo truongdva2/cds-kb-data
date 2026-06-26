@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Customer` | `Customer` |
-| `_Text[1: Language=$session.system_language].CustomerName` | *Association* |
+| `Customer` | `Customer` |
+| `CustomerName` | `_Text[1: Language=$session.system_language].CustomerName` |
 
 ## Associations
 

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLotType` | `InspectionLotType` |
-| `_Text[1:Language = $parameters.P_Language].InspectionLotTypeText` | *Association* |
+| `InspectionLotType` | `InspectionLotType` |
+| `InspectionLotTypeText` | `_Text[1:Language = $parameters.P_Language].InspectionLotTypeText` |
 
 ## Associations
 

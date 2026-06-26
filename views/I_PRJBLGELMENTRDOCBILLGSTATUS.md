@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbee_bdrstatus preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `DocumentBillingStatus` | `cast( substring( domvalue_l, 1, 1 ) as pbee_bdrstatus preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PrjBlgElmEntrDocBillgStsTxt` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrjBlgElmEntrDocBillgStsTxt` | `I_PrjBlgElmEntrDocBillgStsTxt` | [0..*] |
 
 ## Source Code
 

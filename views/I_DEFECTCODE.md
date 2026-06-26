@@ -29,17 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_DefectCodeGroupStdVH'` | `name:    'I_DefectCodeGroupStdVH'` |
-| `element: 'DefectCodeGroup' }` | `element: 'DefectCodeGroup' }` |
-| `}]` | `}]` |
-| `vdm_qfegrp preserving type )` | `cast( qpcd.codegruppe` |
-| `vdm_qfecod preserving type )` | `cast( qpcd.code` |
-| `case qpcd.inaktiv` | `case qpcd.inaktiv` |
-| `vdm_qm_codeisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codeisinactive preserving type )` | `else cast( 'X'` |
-| `CodeIsInactive` | `end` |
+| `DefectCodeGroup` | `cast( qpcd.codegruppe as vdm_qfegrp preserving type )` |
+| `DefectCode` | `cast( qpcd.code as vdm_qfecod preserving type )` |
+| `CodeIsInactive` | `case…end` |
 | `DefectClass` | `qpcd.fehlklasse` |
-| `_DefectCodeGroup.CodeGroupStatus` | *Association* |
+| `CodeGroupStatus` | `_DefectCodeGroup.CodeGroupStatus` |
 | `_DefectCodeGroup` | *Association* |
 | `_Text` | *Association* |
 | `_DefectClass` | *Association* |

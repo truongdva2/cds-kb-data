@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `language` |
 | `RevnAcctgContractCategory` | `contract_cat` |
-| `farr_contract_category_text preserving type)` | `cast(description` |
+| `RevnAcctgContrCategoryText` | `cast(description as farr_contract_category_text preserving type)` |
 | `_RAContractCategory` | *Association* |
 | `_Language` | *Association* |
 

@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `InspectionResultOrigin` | `qergdath` |
-| `Language, //text views shall always be language dependent` | `sprsl` |
+| `Language` | `sprsl` |
 | `InspectionResultOriginText` | `erdathetxt` |
 | `_InspectionResultOrigin` | *Association* |
 | `_Language` | *Association* |

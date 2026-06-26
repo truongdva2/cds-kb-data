@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CAInvoicingDocument` | `CAInvoicingDocument` |
+| `CAInvoicingDocument` | `CAInvoicingDocument` |
 | `CAApplicationArea` | `CAApplicationArea` |
 | `CAInvcgProcess` | `CAInvcgProcess` |
 | `CAInvcgType` | `CAInvcgType` |
@@ -99,10 +99,8 @@ tags:
 | `CAInvcgAdjustmentDocument` | `CAInvcgAdjustmentDocument` |
 | `CAInvcgAdjustedDocument` | `CAInvcgAdjustedDocument` |
 | `CAClassificationKey` | `CAClassificationKey` |
-| `/* Associations */` | `/* Associations */` |
 | `_ContractAccountHeader` | *Association* |
 | `_ContractAccountPartner` | *Association* |
-| `_CAInvcgDocItem : redirected to composition child I_CAInvcgDocItemTP` | *Association* |
 
 ## Associations
 

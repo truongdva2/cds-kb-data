@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_payt_term_uuid preserving type )` | `cast( db_key` |
-| `/scmtms/transpagrmt_itm_uuid preserving type )` | `cast( parent_key` |
-| `/scmtms/transpagrmt_uuid preserving type )` | `cast( root_key` |
-| `/scmtms/vdm_payment_terms preserving type )` | `cast( zterm` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspAgrmtPaymentTermUUID` | `cast( db_key as /scmtms/vdm_fag_payt_term_uuid preserving type )` |
+| `TranspAgreementItemUUID` | `cast( parent_key as /scmtms/transpagrmt_itm_uuid preserving type )` |
+| `TransportationAgreementUUID` | `cast( root_key as /scmtms/transpagrmt_uuid preserving type )` |
+| `TransportationPaymentTerms` | `cast( zterm as /scmtms/vdm_payment_terms preserving type )` |
 | `_TranspAgreementItem` | *Association* |
 | `_PaymentTermText` | *Association* |
 | `_TransportationAgreement` | *Association* |
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspAgreementItem` | `I_TranspAgreementItem_2` | — |
 | `_PaymentTermText` | `I_PaymentTermsText` | [0..*] |
 | `_TransportationAgreement` | `I_TransportationAgreement` | [1..1] |
 

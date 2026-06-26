@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eams_tec_obj_type_value )` | `cast( dd07l.domvalue_l` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast( dd07l.domvalue_l as eams_tec_obj_type_value )` |
 | `_Text` | *Association* |
 
 ## Associations

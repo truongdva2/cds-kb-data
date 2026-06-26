@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `ClassInternalID` | `ClassDescription.clint` |
 | `Language` | `ClassDescription.spras` |
-| `klsbez preserving type )` | `cast( ClassDescription.kschl` |
+| `ClassDescription` | `cast( ClassDescription.kschl as klsbez preserving type )` |
 | `ClassKeywordPositionNumber` | `ClassDescription.klpos` |
 | `_Language` | *Association* |
 | `_Class` | *Association* |

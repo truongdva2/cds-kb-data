@@ -32,20 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderWithoutChargePartner.SalesOrderWithoutCharge` | `SalesOrderWithoutChargePartner.SalesOrderWithoutCharge` |
-| `key SalesOrderWithoutChargePartner.PartnerFunction` | `SalesOrderWithoutChargePartner.PartnerFunction` |
-| `SalesOrderWithoutChargePartner.PartnerFunctionForEdit` | `SalesOrderWithoutChargePartner.PartnerFunctionForEdit` |
-| `SalesOrderWithoutChargePartner.Customer` | `SalesOrderWithoutChargePartner.Customer` |
-| `SalesOrderWithoutChargePartner.Supplier` | `SalesOrderWithoutChargePartner.Supplier` |
-| `SalesOrderWithoutChargePartner.Personnel` | `SalesOrderWithoutChargePartner.Personnel` |
-| `SalesOrderWithoutChargePartner.ContactPerson` | `SalesOrderWithoutChargePartner.ContactPerson` |
-| `SalesOrderWithoutChargePartner.ReferenceBusinessPartner` | `SalesOrderWithoutChargePartner.ReferenceBusinessPartner` |
-| `SalesOrderWithoutChargePartner.Partner` | `SalesOrderWithoutChargePartner.Partner` |
-| `SalesOrderWithoutChargePartner.SalesOrderWithoutChargeType` | `SalesOrderWithoutChargePartner.SalesOrderWithoutChargeType` |
-| `SalesOrderWithoutChargePartner.SalesOrganization` | `SalesOrderWithoutChargePartner.SalesOrganization` |
-| `SalesOrderWithoutChargePartner.DistributionChannel` | `SalesOrderWithoutChargePartner.DistributionChannel` |
-| `SalesOrderWithoutChargePartner.OrganizationDivision` | `SalesOrderWithoutChargePartner.OrganizationDivision` |
-| `_SalesOrderWithoutCharge : redirected to parent I_SalesOrderWithoutChargeTP` | *Association* |
+| `SalesOrderWithoutCharge` | `SalesOrderWithoutChargePartner.SalesOrderWithoutCharge` |
+| `PartnerFunction` | `SalesOrderWithoutChargePartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesOrderWithoutChargePartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesOrderWithoutChargePartner.Customer` |
+| `Supplier` | `SalesOrderWithoutChargePartner.Supplier` |
+| `Personnel` | `SalesOrderWithoutChargePartner.Personnel` |
+| `ContactPerson` | `SalesOrderWithoutChargePartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesOrderWithoutChargePartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesOrderWithoutChargePartner.Partner` |
+| `SalesOrderWithoutChargeType` | `SalesOrderWithoutChargePartner.SalesOrderWithoutChargeType` |
+| `SalesOrganization` | `SalesOrderWithoutChargePartner.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderWithoutChargePartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderWithoutChargePartner.OrganizationDivision` |
 
 ## Associations
 

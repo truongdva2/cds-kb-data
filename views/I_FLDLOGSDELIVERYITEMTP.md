@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
 | `FldLogsReferenceDocCategory` | `FldLogsReferenceDocCategory` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
@@ -85,7 +85,6 @@ tags:
 | `FldLogsCtnPackgStsCode` | `FldLogsCtnPackgStsCode` |
 | `FieldLogisticsKitIdentifier` | `FieldLogisticsKitIdentifier` |
 | `Material` | `Material` |
-| `_ShptStgeAssgmt : redirected to composition child I_FldLogsDelivStgeAssgmtTP` | *Association* |
 | `_ShptHandlingUnitItem` | *Association* |
 | `_SrcePlantText` | *Association* |
 | `_DestPlantText` | *Association* |

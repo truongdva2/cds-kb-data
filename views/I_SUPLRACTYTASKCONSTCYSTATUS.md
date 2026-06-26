@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/3val_consistency_stcd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrActyTaskConsistencyStatus` | `cast(…)` |
 | `_SuplrActyTaskConstcyStatusT` | *Association* |
 
 ## Associations

@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ContractAccountCategory     : vktyp_kk;` | `ContractAccountCategory     : vktyp_kk;` |
-| `ContractAccountExtReference : vkona_kk;` | `ContractAccountExtReference : vkona_kk;` |
+| `ContractAccountCategory` | `vktyp_kk` |
+| `ContractAccountExtReference` | `vkona_kk` |
 
 ## Associations
 

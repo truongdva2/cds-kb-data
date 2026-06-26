@@ -29,27 +29,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `OutputScenario                 : ehdgm_output_scenario;                                // Output scenario, e.g. 'S_TM_IMO_C'` | `OutputScenario                 : ehdgm_output_scenario;                                // Output scenario, e.g. 'S_TM_IMO_C'` |
-| `ProdCmplncLogsDocument         : ehfnd_log_doc_number;                                 // Logistics Document Number` | `ProdCmplncLogsDocument         : ehfnd_log_doc_number;                                 // Logistics Document Number` |
-| `_ItemInformation               : composition [0..*] of D_PCLgsDcGetDaGdsDocInfoItemR;  // ttyp Description for each item` | *Association* |
-| `_GroupingDescription           : composition [0..*] of D_PCLgsDcGetDaGdsDocInfoGroupR; // ttyp Grouping information` | *Association* |
-| `DangerousGoodsEUADRPointText   : dangerousgoodseuadrpointtext;                         // Sum of all 1.1.3.6 points for regulation ADR` | `DangerousGoodsEUADRPointText   : dangerousgoodseuadrpointtext;                         // Sum of all 1.1.3.6 points for regulation ADR` |
-| `DangerousGoodsRIDPointText     : dangerousgoodsridpointtext;                           // Sum of all 1.1.3.6 points for regulation RID` | `DangerousGoodsRIDPointText     : dangerousgoodsridpointtext;                           // Sum of all 1.1.3.6 points for regulation RID` |
-| `DngrsGdsEUADRQtyExmpIsPossible : dngrsgdseuadrqtyexmpispossible;                       // abap_boolean Is ADR 1.1.3.6 Exemption possible` | `DngrsGdsEUADRQtyExmpIsPossible : dngrsgdseuadrqtyexmpispossible;                       // abap_boolean Is ADR 1.1.3.6 Exemption possible` |
-| `DngrsGdsRIDQtyExmpIsPossible   : dngrsgdsridqtyexmpispossible;                         // abap_boolean Is RID 1.1.3.6 Exemption possible` | `DngrsGdsRIDQtyExmpIsPossible   : dngrsgdsridqtyexmpispossible;                         // abap_boolean Is RID 1.1.3.6 Exemption possible` |
-| `_PointsPerCategory             : composition [0..*] of D_PCLgsDcGetDaGdsDocInfoPointR; // ttyp Table containing the 1.1.3.6 information (1000 Point Rule)` | *Association* |
-| `DngrsGdsInLimitedQuantitiesQty : dngrsgdsinlimitedquantitiesqty;                       // dec11_4 Dangerous Goods in Limited Quantities (Gross Weight)` | `DngrsGdsInLimitedQuantitiesQty : dngrsgdsinlimitedquantitiesqty;                       // dec11_4 Dangerous Goods in Limited Quantities (Gross Weight)` |
-| `DngrsGdsInLimitedQtySAPUnit    : dngrsgdsinlimitedqtysapunit;                          // ehfnd_unit_code_nce Dangerous Goods in Limited Quantities (Gross Weight) SAP Unit - KG` | `DngrsGdsInLimitedQtySAPUnit    : dngrsgdsinlimitedqtysapunit;                          // ehfnd_unit_code_nce Dangerous Goods in Limited Quantities (Gross Weight) SAP Unit - KG` |
-| `DngrsGdsInLimitedQtyISOUnit    : dngrsgdsinlimitedqtyisounit;                          // isocd_unit Dangerous Goods in Limited Quantities (Gross Weight) ISO Unit - KG` | `DngrsGdsInLimitedQtyISOUnit    : dngrsgdsinlimitedqtyisounit;                          // isocd_unit Dangerous Goods in Limited Quantities (Gross Weight) ISO Unit - KG` |
-| `DngrsGdsInExceptedQtyValue     : dngrsgdsinexceptedqtyvalue;                           // int4 Dangerous Goods in Excepted Quantities – the number of packages of all items that have enclosure variant “EQ”` | `DngrsGdsInExceptedQtyValue     : dngrsgdsinexceptedqtyvalue;                           // int4 Dangerous Goods in Excepted Quantities – the number of packages of all items that have enclosure variant “EQ”` |
-| `GrossWeight                   : ehfnd_gross_weight_val;                                // /scmtms/quantity Gross Weight Value` | `GrossWeight                   : ehfnd_gross_weight_val;                                // /scmtms/quantity Gross Weight Value` |
-| `GrossWeightUnit               : ehfnd_gross_weight_uom;                                // meins Gross Weight Unit of Measure` | `GrossWeightUnit               : ehfnd_gross_weight_uom;                                // meins Gross Weight Unit of Measure` |
-| `GrossVolume                   : ehfnd_gross_volume_val;                                // /scmtms/quantity Gross Volume Value` | `GrossVolume                   : ehfnd_gross_volume_val;                                // /scmtms/quantity Gross Volume Value` |
-| `GrossVolumeUnit               : ehfnd_gross_volume_uom;                                // meins Gross Volume Unit of Measure` | `GrossVolumeUnit               : ehfnd_gross_volume_uom;                                // meins Gross Volume Unit of Measure` |
+| `OutputScenario` | `ehdgm_output_scenario` |
+| `ProdCmplncLogsDocument` | `ehfnd_log_doc_number` |
+| `_ItemInformation` | *Association* |
+| `_GroupingDescription` | *Association* |
+| `DangerousGoodsEUADRPointText` | `dangerousgoodseuadrpointtext` |
+| `DangerousGoodsRIDPointText` | `dangerousgoodsridpointtext` |
+| `DngrsGdsEUADRQtyExmpIsPossible` | `dngrsgdseuadrqtyexmpispossible` |
+| `DngrsGdsRIDQtyExmpIsPossible` | `dngrsgdsridqtyexmpispossible` |
+| `_PointsPerCategory` | *Association* |
+| `DngrsGdsInLimitedQuantitiesQty` | `dngrsgdsinlimitedquantitiesqty` |
+| `DngrsGdsInLimitedQtySAPUnit` | `dngrsgdsinlimitedqtysapunit` |
+| `DngrsGdsInLimitedQtyISOUnit` | `dngrsgdsinlimitedqtyisounit` |
+| `DngrsGdsInExceptedQtyValue` | `dngrsgdsinexceptedqtyvalue` |
+| `GrossWeight` | `ehfnd_gross_weight_val` |
+| `GrossWeightUnit` | `ehfnd_gross_weight_uom` |
+| `GrossVolume` | `ehfnd_gross_volume_val` |
+| `GrossVolumeUnit` | `ehfnd_gross_volume_uom` |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ItemInformation` | `D_PCLgsDcGetDaGdsDocInfoItemR` | [0..*] |
+| `_GroupingDescription` | `D_PCLgsDcGetDaGdsDocInfoGroupR` | [0..*] |
+| `_PointsPerCategory` | `D_PCLgsDcGetDaGdsDocInfoPointR` | [0..*] |
 
 ## Source Code
 

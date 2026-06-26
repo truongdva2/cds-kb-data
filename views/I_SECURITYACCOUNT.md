@@ -30,15 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CompanyCode` | `SecurityAccount.bukrs` |
-| `ftr_gen_security_account preserving type)` | `cast(SecurityAccount.rldepo` |
-| `ftr_gen_security_account_name preserving type)` | `cast(SecurityAccount.xldepo` |
-| `ftr_gen_sec_account_group preserving type)` | `cast(SecurityAccount.sec_acc_grp` |
-| `ftr_gen_security_account_type preserving type )` | `cast(SecurityAccount.secacc_type` |
-| `ftr_gen_partnr_depository_bank preserving type )` | `cast(SecurityAccount.rdpbank` |
+| `SecurityAccount` | `cast(SecurityAccount.rldepo as ftr_gen_security_account preserving type)` |
+| `SecurityAccountName` | `cast(SecurityAccount.xldepo as ftr_gen_security_account_name preserving type)` |
+| `SecurityAccountGroup` | `cast(SecurityAccount.sec_acc_grp as ftr_gen_sec_account_group preserving type)` |
+| `SecurityAccountType` | `cast(…)` |
+| `DepositoryBank` | `cast(SecurityAccount.rdpbank as ftr_gen_partnr_depository_bank preserving type )` |
 | `_CompanyCode` | *Association* |
 | `_SecurityAccountType` | *Association* |
 | `_SecurityAccountGroup` | *Association* |
@@ -47,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CompanyCode` | `I_CompanyCode` | — |
 | `_SecurityAccountType` | `I_SecurityAccountType` | [0..1] |
 | `_SecurityAccountGroup` | `I_SecurityAccountGroup` | [0..1] |
 

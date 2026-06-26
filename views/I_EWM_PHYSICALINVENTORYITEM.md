@@ -33,101 +33,72 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  _logHead.PhysicalInventoryDocNumber` | `_logHead.PhysicalInventoryDocNumber` |
-| `key  _logHead.PhysicalInventoryDocYear` | `_logHead.PhysicalInventoryDocYear` |
-| `key  _PIItem.EWMWarehouse` | `_PIItem.EWMWarehouse` |
-| `key  _PIItem.PhysicalInventoryItemNumber` | `_PIItem.PhysicalInventoryItemNumber` |
-| `_PIItem.PhysicalInventoryDocumentUUID` | *Association* |
-| `_PIItem.EWMPhysicalInventoryStatus` | *Association* |
-| `_PIItem._Status._Text[1:Language = $session.system_language].EWMPhysicalInventoryStatusText` | *Association* |
-| `_PIItem.PhysicalInventoryDocumentType` | *Association* |
-| `_PIItem._DocType._Text[1:Language = $session.system_language].PInvDocumentTypeText` | *Association* |
-| `_PIItem.PInvCountedUTCDateTime` | *Association* |
-| `_PIItem.PhysicalInventoryCountUserName` | *Association* |
-| `_PIItem.PhysInventoryCrtnUTCDateTime` | *Association* |
-| `_PIItem.EWMPhysInvtryPostingDateTime` | *Association* |
-| `_PIItem.ActivityArea` | *Association* |
-| `_PIItem.EWMPhysicalInventoryPriority` | *Association* |
-| `_PIItem._Priority._Text[1:Language = $session.system_language].PInvPriorityText` | *Association* |
-| `_PIItem.EWMPhysInvtryReason` | *Association* |
-| `_PIItem._Reason._Text[1:Language = $session.system_language].PInvReasonText` | *Association* |
-| `_PIItem.PInvDocumentItemIsPrinted` | *Association* |
-| `_PIItem.EWMPhysInvtryItemSequenceValue` | *Association* |
-| `_PIItem.EWMStorageType` | *Association* |
-| `_PIItem.EWMStorageBin` | *Association* |
-| `_PIItem.WhseQualityInspectionType` | *Association* |
-| `_PIItem.QualityInspectionDocUUID` | *Association* |
-| `_PIItem.StockIdentificationNumber` | *Association* |
-| `_PIItem.EWMStockReferenceDocCategory` | *Association* |
-| `_PIItem.EWMStockRefDocumentUUID` | *Association* |
-| `_PIItem.EWMStockRefDocItemUUID` | *Association* |
-| `case _PIItem.EWMStockReferenceDocCategory` | `case _PIItem.EWMStockReferenceDocCategory` |
-| `ewm_de_referencedocument preserving type )` | `when 'PDI' then cast(_InbDeliveryItem.InboundDelivery` |
-| `ewm_de_referencedocument preserving type )` | `when 'PDO' then cast(_WarehouseRequestOutItem.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'SPC' then cast(_WarehouseRequestOutItem.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'WMR' then cast(_WarehouseRequestOutItem.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'PWR' then cast(_ProdnMatlReqItem.EWMProductionMaterialRequest` |
-| `/scdl/dl_docno_int)` | `else cast( cast(''` |
-| `EWMStockReferenceDocument` | `end` |
-| `case _PIItem.EWMStockReferenceDocCategory` | `case _PIItem.EWMStockReferenceDocCategory` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PDI' then cast(_InbDeliveryItem.EWMInboundDeliveryItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PDO' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'SPC' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'WMR' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PWR' then cast(_ProdnMatlReqItem.EWMProductionMaterialReqItem` |
-| `/scdl/dl_itemno)` | `else cast( cast(''` |
-| `EWMStockReferenceDocumentItem` | `end` |
-| `_PIItem.EWMGoodsReceiptDateTime` | *Association* |
-| `_PIItem.ShelfLifeExpirationDate` | *Association* |
-| `_PIItem.CountryOfOrigin` | *Association* |
-| `_PIItem.MatlBatchIsInRstrcdUseStock` | *Association* |
-| `_PIItem.ProductUUID` | *Association* |
-| `_PIItem.Product` | *Association* |
-| `_PIItem.BatchUUID` | *Association* |
-| `_PIItem.Batch` | *Association* |
-| `_PIItem.EntitledToDisposeParty` | *Association* |
-| `_PIItem.EWMStockOwner` | *Association* |
-| `_PIItem.EWMStockType` | *Association* |
-| `_PIItem.EWMStockUsage` | *Association* |
-| `ewm_de_stockdocumentcat preserving type )` | `cast( _PIItem.StockDocumentCategory` |
-| `_PIItem.StockDocumentNumber` | *Association* |
-| `/* Project Stock - Internal WBS Element */` | `/* Project Stock - Internal WBS Element */` |
-| `case _PIItem.StockDocumentCategory` | `case _PIItem.StockDocumentCategory` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then _ProjectStock.WBSElementInternalID` | `then _ProjectStock.WBSElementInternalID` |
-| `ps_s4_pspnr preserving type ) end` | `else cast( '00000000'` |
-| `/* Project Stock - External WBS Element */` | `/* Project Stock - External WBS Element */` |
-| `case _PIItem.StockDocumentCategory` | `case _PIItem.StockDocumentCategory` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then _ProjectStock.WBSElementExternalID` | `then _ProjectStock.WBSElementExternalID` |
-| `ps_posid_edit ) end` | `else cast( ''` |
-| `case _PIItem.StockDocumentCategory` | `case _PIItem.StockDocumentCategory` |
-| `when 'SOS'` | `when 'SOS'` |
-| `ewm_de_special_stock_idfg_hdr )` | `then cast( ltrim( _PIItem.StockDocumentNumber, '0' )` |
-| `ewm_de_special_stock_idfg_hdr ) end` | `else cast( ''` |
-| `case _PIItem.StockDocumentCategory` | `case _PIItem.StockDocumentCategory` |
-| `when 'SOS'` | `when 'SOS'` |
-| `mat_kdpos )` | `then cast(ltrim(_PIItem.StockItemNumber, '0')` |
-| `mat_kdpos ) end` | `else cast( '000000'` |
-| `_PIItem._ProductWhse.EWMPhysInventoryCountingCycle` | *Association* |
-| `_PIItem._ProductWhse.EWMPInvCycCountingIntvlValue` | *Association* |
-| `_PIItem._ProductWhse.EWMPInvCycCountingBufferValue` | *Association* |
-| `_PIItem.WarehouseOrder` | *Association* |
-| `_PIItem.WarehouseTask` | *Association* |
-| `/lime/pi_doc_year)` | `cast(substring(_PIItem.PhysicalInventoryRefDocNumber ,5, 4)` |
-| `/lime/pi_doc_number)` | `cast(substring(_PIItem.PhysicalInventoryRefDocNumber ,9, 20)` |
-| `/lime/line_item_id)` | `cast(substring(_PIItem.PhysicalInventoryRefDocNumber ,29, 6)` |
-| `_PIItem.PInvFreeDefinedRefText` | *Association* |
-| `_PIItem._Priority` | *Association* |
-| `_PIItem._Reason` | *Association* |
-| `_PIItem._DocType` | *Association* |
+| `PhysicalInventoryDocNumber` | `_logHead.PhysicalInventoryDocNumber` |
+| `PhysicalInventoryDocYear` | `_logHead.PhysicalInventoryDocYear` |
+| `EWMWarehouse` | `_PIItem.EWMWarehouse` |
+| `PhysicalInventoryItemNumber` | `_PIItem.PhysicalInventoryItemNumber` |
+| `PhysicalInventoryDocumentUUID` | `_PIItem.PhysicalInventoryDocumentUUID` |
+| `EWMPhysicalInventoryStatus` | `_PIItem.EWMPhysicalInventoryStatus` |
+| `EWMPhysicalInventoryStatusText` | `expr(…)` |
+| `PhysicalInventoryDocumentType` | `_PIItem.PhysicalInventoryDocumentType` |
+| `PInvDocumentTypeText` | `expr(…)` |
+| `PInvCountedUTCDateTime` | `_PIItem.PInvCountedUTCDateTime` |
+| `PhysicalInventoryCountUserName` | `_PIItem.PhysicalInventoryCountUserName` |
+| `PhysInventoryCrtnUTCDateTime` | `_PIItem.PhysInventoryCrtnUTCDateTime` |
+| `EWMPhysInvtryPostingDateTime` | `_PIItem.EWMPhysInvtryPostingDateTime` |
+| `ActivityArea` | `_PIItem.ActivityArea` |
+| `EWMPhysicalInventoryPriority` | `_PIItem.EWMPhysicalInventoryPriority` |
+| `PInvPriorityText` | `_PIItem._Priority._Text[1:Language = $session.system_language].PInvPriorityText` |
+| `EWMPhysInvtryReason` | `_PIItem.EWMPhysInvtryReason` |
+| `PInvReasonText` | `_PIItem._Reason._Text[1:Language = $session.system_language].PInvReasonText` |
+| `PInvDocumentItemIsPrinted` | `_PIItem.PInvDocumentItemIsPrinted` |
+| `EWMPhysInvtryItemSequenceValue` | `_PIItem.EWMPhysInvtryItemSequenceValue` |
+| `EWMStorageType` | `_PIItem.EWMStorageType` |
+| `EWMStorageBin` | `_PIItem.EWMStorageBin` |
+| `WhseQualityInspectionType` | `_PIItem.WhseQualityInspectionType` |
+| `QualityInspectionDocUUID` | `_PIItem.QualityInspectionDocUUID` |
+| `StockIdentificationNumber` | `_PIItem.StockIdentificationNumber` |
+| `EWMStockReferenceDocCategory` | `_PIItem.EWMStockReferenceDocCategory` |
+| `EWMStockRefDocumentUUID` | `_PIItem.EWMStockRefDocumentUUID` |
+| `EWMStockRefDocItemUUID` | `_PIItem.EWMStockRefDocItemUUID` |
+| `EWMStockReferenceDocument` | `case…end` |
+| `EWMStockReferenceDocumentItem` | `case…end` |
+| `EWMGoodsReceiptDateTime` | `_PIItem.EWMGoodsReceiptDateTime` |
+| `ShelfLifeExpirationDate` | `_PIItem.ShelfLifeExpirationDate` |
+| `CountryOfOrigin` | `_PIItem.CountryOfOrigin` |
+| `MatlBatchIsInRstrcdUseStock` | `_PIItem.MatlBatchIsInRstrcdUseStock` |
+| `ProductUUID` | `_PIItem.ProductUUID` |
+| `Product` | `_PIItem.Product` |
+| `BatchUUID` | `_PIItem.BatchUUID` |
+| `Batch` | `_PIItem.Batch` |
+| `EntitledToDisposeParty` | `_PIItem.EntitledToDisposeParty` |
+| `EWMStockOwner` | `_PIItem.EWMStockOwner` |
+| `EWMStockType` | `_PIItem.EWMStockType` |
+| `EWMStockUsage` | `_PIItem.EWMStockUsage` |
+| `StockDocumentCategory` | `cast( _PIItem.StockDocumentCategory as ewm_de_stockdocumentcat preserving type )` |
+| `StockDocumentNumber` | `_PIItem.StockDocumentNumber` |
+| `WBSElementInternalID` | `case…end` |
+| `WBSElementExternalID` | `case…end` |
+| `SpecialStockIdfgSalesOrder` | `case…end` |
+| `SpecialStockIdfgSalesOrderItem` | `case…end` |
+| `EWMPhysInventoryCountingCycle` | `_PIItem._ProductWhse.EWMPhysInventoryCountingCycle` |
+| `EWMPInvCycCountingIntvlValue` | `_PIItem._ProductWhse.EWMPInvCycCountingIntvlValue` |
+| `EWMPInvCycCountingBufferValue` | `_PIItem._ProductWhse.EWMPInvCycCountingBufferValue` |
+| `WarehouseOrder` | `_PIItem.WarehouseOrder` |
+| `WarehouseTask` | `_PIItem.WarehouseTask` |
+| `PhysicalInventoryRefDocYear` | `cast(…)` |
+| `EWMRefPhysicalInventoryDoc` | `cast(…)` |
+| `PhysicalInventoryRefDocItem` | `cast(…)` |
+| `PInvFreeDefinedRefText` | `_PIItem.PInvFreeDefinedRefText` |
+| `_Priority` | *Association* |
+| `_Reason` | *Association* |
+| `_DocType` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_logHead` | `I_EWM_PInvDocHeaderLog` | [0..1] |
-| `_QualityInspection` | `I_EWM_QltyInspDocUUID` | [0..1] |
 | `_InbDeliveryItem` | `I_EWM_InbDeliveryItemBasic` | [0..1] |
 | `_WarehouseRequestOutItem` | `I_EWM_WarehouseRequestOutItem` | [0..1] |
 | `_ProdnMatlReqItem` | `I_EWM_ProdnMatlReqItem` | [0..1] |

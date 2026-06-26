@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionType` | `ConditionType` |
 | `ConditionRateValue` | `ConditionRateValue` |
 | `ConditionCurrency` | `ConditionCurrency` |
@@ -40,10 +40,8 @@ tags:
 | `ConditionAmount` | `ConditionAmount` |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `ConditionInactiveReason` | `ConditionInactiveReason` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionQuantityUnit` | *Association* |
 | `_ConditionInactiveReason` | *Association* |
-| `_ServiceQuotationTP : redirected to parent I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

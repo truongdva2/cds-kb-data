@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs preserving type)` | `cast(bukrs` |
+| `CompanyCode` | `cast(bukrs as fis_bukrs preserving type)` |
 | `CompanyCodeName` | `butxt` |
 
 ## Associations

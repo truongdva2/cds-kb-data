@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `koaid )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionClass` | `cast ( substring( domvalue_l, 1, 1 ) as koaid )` |
 | `_Text` | *Association* |
 
 ## Associations

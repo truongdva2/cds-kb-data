@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Project : /s4ppm/tv_external_id;` | `Project : /s4ppm/tv_external_id;` |
+| `Project` | `/s4ppm/tv_external_id` |
 
 ## Associations
 

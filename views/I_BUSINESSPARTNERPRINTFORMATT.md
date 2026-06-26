@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `BusinessPartnerPrintFormat` | `cast(…)` |
 | `Language` | `ddlanguage` |
 | `BusinessPartnerPrintFormatText` | `ddtext` |
 | `DomainValue` | `domvalue_l` |

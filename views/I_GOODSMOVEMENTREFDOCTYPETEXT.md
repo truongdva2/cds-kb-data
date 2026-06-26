@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ) )` | `cast ( cast ( substring( domvalue_l, 1, 2 )` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_lkngseq_text preserving type)` | `cast(ddtext` |
+| `GoodsMovementRefDocType` | `cast ( cast ( substring( domvalue_l, 1, 2 ) as abap.char( 2 ) ) as kzbew )` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `GoodsMovementRefDocTypeName` | `cast(ddtext as vdm_lkngseq_text preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_GoodsMovementRefDocType` | *Association* |
 | `_Language` | *Association* |

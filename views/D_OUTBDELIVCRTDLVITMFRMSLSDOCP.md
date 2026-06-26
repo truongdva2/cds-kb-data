@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliverySelectionDate     : lfdat_a;` | `DeliverySelectionDate     : lfdat_a;` |
-| `_ReferenceSDDocumentItem : association [1..*] to D_OutbDelivCrteFrmSlsDocItemP on 1 = 0;` | *Association* |
+| `DeliverySelectionDate` | `lfdat_a` |
+| `_ReferenceSDDocumentItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ReferenceSDDocumentItem` | `D_OutbDelivCrteFrmSlsDocItemP` | [1..*] |
 
 ## Source Code
 

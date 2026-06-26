@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanControlCycle` | `KanbanControlCycle` |
+| `KanbanControlCycle` | `KanbanControlCycle` |
 | `KanbanControlCycleCategory` | `KanbanControlCycleCategory` |
 | `Product` | `Product` |
 | `Plant` | `Plant` |
@@ -112,7 +112,6 @@ tags:
 | `_Plant` | *Association* |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
-| `_KanbanContainer: redirected to composition child I_KanbanContainerTP` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
+| `REArchitectureObjMsmtUsageUUID` | `REArchitectureObjMsmtUsageUUID` |
 | `REArchitectureObjectUsageUUID` | `REArchitectureObjectUsageUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `REGenericRentalObjectUUID` | `REGenericRentalObjectUUID` |

@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `TreasuryUpdateType` | `TreasuryUpdateTypeText.dis_flowtype` |
 | `Language` | `TreasuryUpdateTypeText.spras` |
-| `ftr_gen_update_type_name preserving type )` | `cast(TreasuryUpdateTypeText.dis_flowtypetext` |
+| `TreasuryUpdateTypeName` | `cast(…)` |
 | `_TreasuryUpdateType` | *Association* |
 | `_Language` | *Association* |
 

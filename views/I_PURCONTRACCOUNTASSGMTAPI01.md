@@ -30,17 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
 | `CostCenter` | `CostCenter` |
 | `MasterFixedAsset` | `MasterFixedAsset` |
 | `ProjectNetwork` | `ProjectNetwork` |
 | `Quantity` | `Quantity` |
-| `_PurchaseContractItemAPI01.OrderQuantityUnit` | *Association* |
+| `OrderQuantityUnit` | `_PurchaseContractItemAPI01.OrderQuantityUnit` |
 | `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
 | `PurgDocNetAmount` | `PurgDocNetAmount` |
-| `_PurchaseContractAPI01.DocumentCurrency` | *Association* |
+| `DocumentCurrency` | `_PurchaseContractAPI01.DocumentCurrency` |
 | `IsDeleted` | `IsDeleted` |
 | `GLAccount` | `GLAccount` |
 | `BusinessArea` | `BusinessArea` |
@@ -53,14 +53,14 @@ tags:
 | `ControllingArea` | `ControllingArea` |
 | `CostObject` | `CostObject` |
 | `ProfitCenter` | `ProfitCenter` |
-| `ps_psp_pnr )` | `cast( WBSElementInternalID_2` |
-| `WBSElementInternalID_2, // no conv. exit` | `WBSElementInternalID_2, // no conv. exit` |
+| `WBSElementInternalID` | `cast( WBSElementInternalID_2 as ps_psp_pnr )` |
+| `WBSElementInternalID_2` | `WBSElementInternalID_2` |
 | `CommitmentItem` | `CommitmentItem` |
 | `CommitmentItemShortID` | `CommitmentItemShortID` |
 | `FunctionalArea` | `FunctionalArea` |
 | `GoodsRecipientName` | `GoodsRecipientName` |
-| `imkey )` | `cast( _RealEstateObject.REInternalFinNumber` |
-| `_RealEstateObject.REInternalFinNumber` | *Association* |
+| `RealEstateObject` | `cast( _RealEstateObject.REInternalFinNumber as imkey )` |
+| `REInternalFinNumber` | `_RealEstateObject.REInternalFinNumber` |
 | `PartnerAccountNumber` | `PartnerAccountNumber` |
 | `JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
 | `SettlementReferenceDate` | `SettlementReferenceDate` |

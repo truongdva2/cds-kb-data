@@ -34,17 +34,17 @@ tags:
 | `BR_NotaFiscal` | `NFTax.docnum` |
 | `BR_NotaFiscalItem` | `NFTax.itmnum` |
 | `BR_TaxType` | `NFTax.taxtyp` |
-| `logbr_taxgrp preserving type)` | `cast(NFTax.taxgrp` |
+| `TaxGroup` | `cast(NFTax.taxgrp as logbr_taxgrp preserving type)` |
 | `BR_NFItemBaseAmount` | `NFTax.base` |
 | `BR_NFItemTaxRate` | `NFTax.rate` |
 | `BR_NFItemTaxAmount` | `NFTax.taxval` |
-| `logbr_excbas)` | `cast(NFTax.excbas` |
+| `BR_NFItemExcludedBaseAmount` | `cast(NFTax.excbas as logbr_excbas)` |
 | `BR_NFItemOtherBaseAmount` | `NFTax.othbas` |
-| `msehi)` | `cast(' %'` |
-| `logbr_taxbase preserving type)` | `cast(NFTax.basered1` |
-| `msehi)` | `cast(' %'` |
+| `BR_NFItemTaxBasePct1Unit` | `cast(' %' as msehi)` |
+| `BR_NFItemTaxBasePct1` | `cast(NFTax.basered1 as logbr_taxbase preserving type)` |
+| `BR_NFItemTaxBasePct2Unit` | `cast(' %' as msehi)` |
 | `BR_NFItemTaxBasePct2` | `NFTax.basered2` |
-| `logbr_stattx)` | `cast(NFTax.stattx` |
+| `BR_NFItemIsStatisticalTax` | `cast(NFTax.stattx as logbr_stattx)` |
 | `BR_NFItemHasFixedMktTariff` | `NFTax.rectype` |
 | `BR_NFItemFixedMktTariffBaseQty` | `NFTax.pauta_base` |
 | `BR_NFItemFixedMarketTariffUnit` | `NFTax.unit` |
@@ -53,12 +53,12 @@ tags:
 | `BR_NFItemFixedMktTariffQty` | `NFTax.factor4dec` |
 | `BR_NFItmFxdMktTariffUnit4Dcmls` | `NFTax.unit4dec` |
 | `TaxesAreIncludedInNetAmount` | `NFTax.taxinnet` |
-| `logbr_withholdingtax preserving type)` | `cast(NFTax.withhold` |
+| `BR_NFItemHasWithholdingTax` | `cast(NFTax.withhold as logbr_withholdingtax preserving type)` |
 | `BR_NFSServiceTypeIncoming` | `NFTax.servtype_in` |
 | `BR_NFSServiceTypeOutgoing` | `NFTax.servtype_out` |
 | `TaxJurisdiction` | `NFTax.tax_loc` |
 | `AggregateBaseAmount` | `(NFTax.base + NFTax.othbas)` |
-| `_BR_NFDocumentCurrency.SalesDocumentCurrency as SalesDocumentCurrency` | *Association* |
+| `SalesDocumentCurrency` | `_BR_NFDocumentCurrency.SalesDocumentCurrency` |
 | `_BR_NotaFiscal` | *Association* |
 | `_SalesDocumentCurrency` | *Association* |
 | `_BR_NFItemTaxBasePct1Unit` | *Association* |

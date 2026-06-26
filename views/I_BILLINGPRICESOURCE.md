@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prsqu )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BillingPriceSource` | `cast ( substring( domvalue_l, 1, 1 ) as prsqu )` |
 | `_Text` | *Association* |
 
 ## Associations

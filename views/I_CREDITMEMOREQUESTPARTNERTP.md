@@ -33,20 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditMemoRequestPartner.CreditMemoRequest` | `CreditMemoRequestPartner.CreditMemoRequest` |
-| `key CreditMemoRequestPartner.PartnerFunction` | `CreditMemoRequestPartner.PartnerFunction` |
-| `CreditMemoRequestPartner.PartnerFunctionForEdit` | `CreditMemoRequestPartner.PartnerFunctionForEdit` |
-| `CreditMemoRequestPartner.Customer` | `CreditMemoRequestPartner.Customer` |
-| `CreditMemoRequestPartner.Supplier` | `CreditMemoRequestPartner.Supplier` |
-| `CreditMemoRequestPartner.Personnel` | `CreditMemoRequestPartner.Personnel` |
-| `CreditMemoRequestPartner.ContactPerson` | `CreditMemoRequestPartner.ContactPerson` |
-| `CreditMemoRequestPartner.ReferenceBusinessPartner` | `CreditMemoRequestPartner.ReferenceBusinessPartner` |
-| `CreditMemoRequestPartner.Partner` | `CreditMemoRequestPartner.Partner` |
-| `CreditMemoRequestPartner.CreditMemoRequestType` | `CreditMemoRequestPartner.CreditMemoRequestType` |
-| `CreditMemoRequestPartner.SalesOrganization` | `CreditMemoRequestPartner.SalesOrganization` |
-| `CreditMemoRequestPartner.DistributionChannel` | `CreditMemoRequestPartner.DistributionChannel` |
-| `CreditMemoRequestPartner.OrganizationDivision` | `CreditMemoRequestPartner.OrganizationDivision` |
-| `_CreditMemoRequest : redirected to parent I_CreditMemoRequestTP` | *Association* |
+| `CreditMemoRequest` | `CreditMemoRequestPartner.CreditMemoRequest` |
+| `PartnerFunction` | `CreditMemoRequestPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `CreditMemoRequestPartner.PartnerFunctionForEdit` |
+| `Customer` | `CreditMemoRequestPartner.Customer` |
+| `Supplier` | `CreditMemoRequestPartner.Supplier` |
+| `Personnel` | `CreditMemoRequestPartner.Personnel` |
+| `ContactPerson` | `CreditMemoRequestPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `CreditMemoRequestPartner.ReferenceBusinessPartner` |
+| `Partner` | `CreditMemoRequestPartner.Partner` |
+| `CreditMemoRequestType` | `CreditMemoRequestPartner.CreditMemoRequestType` |
+| `SalesOrganization` | `CreditMemoRequestPartner.SalesOrganization` |
+| `DistributionChannel` | `CreditMemoRequestPartner.DistributionChannel` |
+| `OrganizationDivision` | `CreditMemoRequestPartner.OrganizationDivision` |
 
 ## Associations
 

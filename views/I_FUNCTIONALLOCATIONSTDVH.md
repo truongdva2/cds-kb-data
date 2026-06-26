@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 } // ranking #HIGH to #LOW - Optimize Type ahead for value helps - 2302` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 } // ranking #HIGH to #LOW - Optimize Type ahead for value helps - 2302` |
-| `_FunctionalLocationText[1:Language = $session.system_language].FunctionalLocationName` | *Association* |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `FunctionalLocationName` | `expr(…)` |
 | `_FunctionalLocationText` | *Association* |
 | `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

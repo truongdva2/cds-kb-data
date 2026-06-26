@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `farp_dzterm preserving type )` | `cast( _PaymentTerms.zterm` |
-| `_PaymentTermsInstallCondition.PaymentIsInstallment                      as PaymentIsInstallment` | *Association* |
+| `PaymentTerms` | `cast( _PaymentTerms.zterm as farp_dzterm preserving type )` |
+| `PaymentIsInstallment` | `_PaymentTermsInstallCondition.PaymentIsInstallment` |
 | `_PaymentTermsConditions` | *Association* |
 | `_Text` | *Association* |
 | `_InstallmentPaymentTermsItem` | *Association* |

@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PlndIndepRqmtCllgAppl      : pph_pir_calling_appl;` | `PlndIndepRqmtCllgAppl      : pph_pir_calling_appl;` |
-| `PlndIndepRqmtLastChangedBy : aenam;` | `PlndIndepRqmtLastChangedBy : aenam;` |
+| `PlndIndepRqmtCllgAppl` | `pph_pir_calling_appl` |
+| `PlndIndepRqmtLastChangedBy` | `aenam` |
 
 ## Associations
 

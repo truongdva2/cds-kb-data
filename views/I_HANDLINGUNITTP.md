@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key HandlingUnitExternalID` | `HandlingUnitExternalID` |
-| `key Warehouse` | `Warehouse` |
+| `HandlingUnitExternalID` | `HandlingUnitExternalID` |
+| `Warehouse` | `Warehouse` |
 | `HandlingUnitExternalIdType` | `HandlingUnitExternalIdType` |
 | `Plant` | `Plant` |
 | `StorageLocation` | `StorageLocation` |
@@ -78,8 +78,6 @@ tags:
 | `HandlingUnitMaxWidth` | `HandlingUnitMaxWidth` |
 | `HandlingUnitMaxHeight` | `HandlingUnitMaxHeight` |
 | `HandlingUnitMaxDimensionUnit` | `HandlingUnitMaxDimensionUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_HandlingUnitItem : redirected to composition child I_HandlingUnitItemTP` | *Association* |
 
 ## Associations
 

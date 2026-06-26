@@ -36,7 +36,7 @@ tags:
 | `CAAltvCollectionStep` | `altst` |
 | `CADaysToNextDunning` | `intrv` |
 | `CAFactoryCalendarIsUsedForDun` | `xmfac` |
-| `fabkl preserving type )` | `cast( mfcid` |
+| `FactoryCalendar` | `cast( mfcid as fabkl preserving type )` |
 | `CAItemGroupIsClosed` | `closegroup` |
 | `CADaysToPaymentDeadline` | `frist` |
 | `CACreditWorthinessRatingValue` | `bonig` |

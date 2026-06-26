@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `/s4ppm/tv_proc_status )` | `cast( substring( domvalue_l, 1, 2 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProcessingStatus` | `cast( substring( domvalue_l, 1, 2 ) as /s4ppm/tv_proc_status )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/s4ppm/tv_proc_status_text )` | `cast ( ddtext` |
+| `ProcessingStatusText` | `cast ( ddtext as /s4ppm/tv_proc_status_text )` |
 | `_ProcessingStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProcessingStatus` | `I_EntProjProcessingStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

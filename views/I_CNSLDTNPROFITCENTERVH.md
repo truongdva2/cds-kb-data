@@ -33,13 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnControllingAreaVH'` | `name: 'I_CnsldtnControllingAreaVH'` |
-| `element: 'ControllingArea'` | `element: 'ControllingArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key ControllingArea` | `ControllingArea` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `_CnsldtnProfitCenter._Text[1: Language=$session.system_language].ProfitCenterName` | *Association* |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ProfitCenterName` | `expr(…)` |
 
 ## Associations
 

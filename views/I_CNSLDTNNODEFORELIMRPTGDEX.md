@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_hierarchytype preserving type )` | `cast(_node.hrytyp` |
+| `HierarchyType` | `cast(_node.hrytyp as fincs_hierarchytype preserving type )` |
 | `UniversalHierarchy` | `_node.hryid` |
-| `fincs_hierarchynodeclass preserving type )` | `cast(_node.nodecls` |
-| `fincs_hierarchynode preserving type )` | `cast(_node.hrynode` |
-| `fincs_parentnode preserving type )` | `cast(_node.parnode` |
-| `fincs_validityenddate preserving type )` | `cast(_node.hryvalto` |
-| `fincs_validitystartdate preserving type )` | `cast(_node.hryvalfrom` |
-| `fincs_hierarchynodevalue preserving type )` | `cast(_node.nodevalue` |
-| `fincs_hierarchynodelevel preserving type )` | `cast(_node.hrylevel` |
-| `fincs_nodetype preserving type )` | `cast(_node.nodetype` |
+| `HierarchyNodeClass` | `cast(_node.nodecls as fincs_hierarchynodeclass preserving type )` |
+| `HierarchyNode` | `cast(_node.hrynode as fincs_hierarchynode preserving type )` |
+| `ParentNode` | `cast(_node.parnode as fincs_parentnode preserving type )` |
+| `ValidityEndDate` | `cast(_node.hryvalto as fincs_validityenddate preserving type )` |
+| `ValidityStartDate` | `cast(_node.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `HierarchyNodeVal` | `cast(_node.nodevalue as fincs_hierarchynodevalue preserving type )` |
+| `HierarchyNodeLevel` | `cast(_node.hrylevel as fincs_hierarchynodelevel preserving type )` |
+| `NodeType` | `cast(_node.nodetype as fincs_nodetype preserving type )` |
 
 ## Associations
 

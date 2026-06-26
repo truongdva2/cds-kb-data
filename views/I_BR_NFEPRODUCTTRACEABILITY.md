@@ -31,9 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position:50 }]` | `position:50 }]` |
+| `BR_NotaFiscal` | `docnum` |
+| `BR_NotaFiscalItem` | `itmnum` |
+| `SequenceNumber` | `counter` |
+| `ProductBatch` | `nlote` |
+| `ProductBatchQuantity` | `qlote` |
+| `ManufacturingDate` | `dfab` |
+| `ExpirationDate` | `dval` |
+| `AggregationID` | `cast('' as j_1bnfe_cagreg)` |
 | `BR_NFeProdTrcblyAggregationID` | `cagreg` |
-| `_BR_NFItemBaseUnit.BaseUnit as BaseUnit` | *Association* |
+| `BaseUnit` | `_BR_NFItemBaseUnit.BaseUnit` |
 | `_BR_NotaFiscalItem` | *Association* |
 | `_BaseUnit` | *Association* |
 

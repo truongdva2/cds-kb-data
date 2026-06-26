@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionOrder` | `ProductionOrder` |
-| `ManufacturingOrderCategory, // for DCLS` | `ManufacturingOrderCategory, // for DCLS` |
+| `ProductionOrder` | `ProductionOrder` |
+| `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProductionOrderType` | `ProductionOrderType` |
 | `ProductionOrderText` | `ProductionOrderText` |
 | `OrderHasLongText` | `OrderHasLongText` |
@@ -166,13 +166,6 @@ tags:
 | `OrderConfirmedReworkQty` | `OrderConfirmedReworkQty` |
 | `ExpectedDeviationQuantity` | `ExpectedDeviationQuantity` |
 | `ActualDeliveredQuantity` | `ActualDeliveredQuantity` |
-| `_Item      : redirected to composition child I_ProductionOrderItemTP` | *Association* |
-| `_Sequence  : redirected to composition child I_ProductionOrderSequenceTP` | *Association* |
-| `_Component : redirected to composition child I_ProductionOrderOpComponentTP` | *Association* |
-| `_Operation : redirected to I_ProductionOrderOperationTP` | *Association* |
-| `_SerialNumber : redirected to I_ProdnOrderItemSerialNumberTP` | *Association* |
-| `_PostingRule : redirected to I_EventBasedOrderPostingRuleTP` | *Association* |
-| `_OrderCapacity : redirected to I_ProdnOrdOperationCapacityTP` | *Association* |
 
 ## Associations
 

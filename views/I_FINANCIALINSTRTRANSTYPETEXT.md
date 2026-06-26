@@ -34,8 +34,8 @@ tags:
 |---|---|
 | `Language` | `FinancialInstrTransTypeText.spras` |
 | `FinancialInstrumentProductType` | `FinancialInstrTransTypeText.sgsart` |
-| `ftr_gen_transaction_type preserving type)` | `cast(FinancialInstrTransTypeText.sfhaart` |
-| `ftr_gen_transaction_type_name preserving type)` | `cast(FinancialInstrTransTypeText.xtext` |
+| `FinancialInstrTransactionType` | `cast(…)` |
+| `FinancialInstrTransTypeName` | `cast(…)` |
 | `_FinancialInstrTransType` | *Association* |
 | `_Language` | *Association* |
 | `_Financialinstrproducttype` | *Association* |
@@ -46,6 +46,7 @@ tags:
 |---|---|---|
 | `_FinancialInstrTransType` | `I_FinancialInstrTransType` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
+| `_Financialinstrproducttype` | `I_FinancialinstrProductType` | — |
 
 ## Source Code
 

@@ -30,16 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key BOOOperationInternalID` | `BOOOperationInternalID` |
-| `key InspectionPlan` | `InspectionPlan` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `InspectionPlan` | `InspectionPlan` |
 | `ChangedDateTime` | `ChangedDateTime` |
 | `IsDeleted` | `IsDeleted` |
-| `_InspPlanVersion : redirected to I_InspectionPlanVersionTP_2` | *Association* |
-| `_InspPlanOpVersion : redirected to composition child I_InspPlanOperationVersTP_2` | *Association* |
-| `_InspPlanOpCharcVers : redirected to composition child I_InspPlanOpCharcVersionTP_2` | *Association* |
-| `_InspPlanDepdntCharcVers : redirected to composition child I_InspPlanDepdntCharcVersTP_2` | *Association* |
-| `_InspPlan : redirected to parent I_InspectionPlanTP_2` | *Association* |
 
 ## Associations
 

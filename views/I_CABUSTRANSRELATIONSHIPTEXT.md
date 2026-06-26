@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_objrl_kk preserving type )` | `cast( left( dd07t.domvalue_l, 2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `evl_objrl_text_kk preserving type )` | `cast( ddtext` |
+| `CABusTransRelationship` | `cast( left( dd07t.domvalue_l, 2 ) as evl_objrl_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABusTransRelationshipText` | `cast( ddtext as evl_objrl_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

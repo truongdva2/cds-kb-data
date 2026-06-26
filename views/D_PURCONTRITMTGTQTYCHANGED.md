@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseContractTargetQuantity : ktmng;` | `PurchaseContractTargetQuantity : ktmng;` |
-| `PurContractOrderQuantityUnit   : meins;` | `PurContractOrderQuantityUnit   : meins;` |
-| `PurContractPrevTargetQuantity  : ktmng;` | `PurContractPrevTargetQuantity  : ktmng;` |
-| `PurContrPrevOrderQuantityUnit  : meins;` | `PurContrPrevOrderQuantityUnit  : meins;` |
+| `PurchaseContractTargetQuantity` | `ktmng` |
+| `PurContractOrderQuantityUnit` | `meins` |
+| `PurContractPrevTargetQuantity` | `ktmng` |
+| `PurContrPrevOrderQuantityUnit` | `meins` |
 
 ## Associations
 

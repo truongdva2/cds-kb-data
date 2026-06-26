@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableScaleRefUUID` | `TranspRateTableScaleRefUUID` |
+| `TranspRateTableScaleRefUUID` | `TranspRateTableScaleRefUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationScaleUUID` | `TransportationScaleUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
@@ -45,8 +45,6 @@ tags:
 | `TranspRateTblScRefNoValIsSupp` | `TranspRateTblScRefNoValIsSupp` |
 | `TranspRateScRefIsRlvtForBrkWgt` | `TranspRateScRefIsRlvtForBrkWgt` |
 | `TranspCmmdtyCodeNmbrngSchm` | `TranspCmmdtyCodeNmbrngSchm` |
-| `FrtAgrmtRateTableScaleRef._FreightAgreement          : redirected to I_FreightAgreementTP` | `FrtAgrmtRateTableScaleRef._FreightAgreement          : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtRateTableScaleRef._FreightAgreementRateTable : redirected to parent I_FreightAgreementRateTableTP` | `FrtAgrmtRateTableScaleRef._FreightAgreementRateTable : redirected to parent I_FreightAgreementRateTableTP` |
 
 ## Associations
 

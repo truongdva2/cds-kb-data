@@ -33,27 +33,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseContract.ActivePurchasingDocument as ActivePurchasingDocument` | *Association* |
-| `_PurchaseContract.PurchasingDocumentType as PurchaseContractType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_PurchaseContract.DocumentCurrency` | *Association* |
-| `case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` | `case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` |
-| `when 'requestApproved' then 'Approved'` | `when 'requestApproved' then 'Approved'` |
-| `when 'requestRejected' then 'Rejected'` | `when 'requestRejected' then 'Rejected'` |
-| `WorkflowTaskResult` | `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCompletionUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCompletionUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _Workflowtask._TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _Workflowtask._TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReasonText` | *Association* |
-| `_PurchaseContract.Supplier` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
-| `_User.UserDescription                                                                                           as CreatedByUserDescription` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_ApproverUser.UserDescription` |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `PurchaseContract` | `cast(…)` |
+| `ActivePurchasingDocument` | `_PurchaseContract.ActivePurchasingDocument` |
+| `PurchaseContractType` | `_PurchaseContract.PurchasingDocumentType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_PurchaseContract.DocumentCurrency` |
+| `WorkflowTaskResult` | `case…end` |
+| `PurContrWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PurContrWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PurContrWrkflwTaskEndUTCDate` | `cast(…)` |
+| `PurContrWrkflwTaskEndUTCTime` | `cast(…)` |
+| `PurContrWrkflwTskDuUTCDte` | `cast(…)` |
+| `PurContrWrkflwTskDuUTCTme` | `cast(…)` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
+| `Supplier` | `_PurchaseContract.Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `CreatedByUserDescription` | `_User.UserDescription` |
+| `ApprovedByUserFullName` | `cast(_ApproverUser.UserDescription as mm_oa_user_fullname )` |
 
 ## Associations
 

@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `fincs_description_text_60 preserving type )` | `cast( _Source._Text[1: Language=$session.system_language].CnsldtnFSItemMappgRevisionText` |
+| `ConsolidationChartOfAccounts` | `_Source.ConsolidationChartOfAccounts` |
+| `ChartOfAccounts` | `_Source.ChartOfAccounts` |
+| `CnsldtnFSItemMapping` | `_Source.CnsldtnFSItemMapping` |
+| `CnsldtnFSItemMappingRevision` | `_Source.CnsldtnFSItemMappingRevision` |
+| `CnsldtnFSItemMappgRevisionText` | `cast(…)` |
 
 ## Associations
 

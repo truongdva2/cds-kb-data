@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressRepresentationCode` | `AddressRepresentationCode` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
 | `_Text` | *Association* |
 
 ## Associations

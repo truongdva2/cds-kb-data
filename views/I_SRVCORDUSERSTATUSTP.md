@@ -30,13 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceOrder` | `ServiceOrder` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
-| `_ServiceOrderTP : redirected to parent I_ServiceOrderTP` | *Association* |
 
 ## Associations
 

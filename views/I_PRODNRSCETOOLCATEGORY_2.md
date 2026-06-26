@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `mpe_fhmar preserving type)` | `cast(fhmar` |
+| `ProdnRsceToolCategory` | `cast(fhmar as mpe_fhmar preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

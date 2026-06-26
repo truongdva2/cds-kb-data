@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `buchk preserving type )` | `cast( statu` |
+| `AccountingPostingStatus` | `cast( statu as buchk preserving type )` |
 | `Language` | `spras` |
 | `AccountingPostingStatusDesc` | `bezei` |
 | `_AccountingPostingStatus` | *Association* |
@@ -41,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AccountingPostingStatus` | `I_AccountingPostingStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

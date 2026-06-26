@@ -32,7 +32,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CommunicationMediumType` | `comm_type` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

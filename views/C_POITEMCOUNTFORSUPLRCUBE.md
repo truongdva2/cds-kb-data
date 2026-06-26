@@ -34,13 +34,13 @@ tags:
 |---|---|
 | `Supplier` | `AvailableSupplier.Supplier` |
 | `PurchaseOrder` | `_PurchaseOrder.PurchaseOrder` |
-| `key _PurchaseOrderItem.PurchaseOrderItem` | `_PurchaseOrderItem.PurchaseOrderItem` |
+| `PurchaseOrderItem` | `_PurchaseOrderItem.PurchaseOrderItem` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `Country` | `Country` |
 | `Region` | `Region` |
-| `mm_pur_ana_numbrofpurords )` | `cast( 1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast( 1` |
+| `NumberOfPurchaseOrders` | `cast( 1 as mm_pur_ana_numbrofpurords )` |
+| `NumberOfPurchaseOrderItems` | `cast( 1 as mm_pur_ana_numbrofpurorditms )` |
 | `_Supplier` | *Association* |
 | `_Country` | *Association* |
 | `_SupplierRegion` | *Association* |

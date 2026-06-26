@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  SLCQnaireExternalNameUUID` | `SLCQnaireExternalNameUUID` |
+| `SLCQnaireExternalNameUUID` | `SLCQnaireExternalNameUUID` |
 | `SLCQnaireUUID` | `SLCQnaireUUID` |
 | `Language` | `Language` |
 | `SLCQnaireExternalName` | `SLCQnaireExternalName` |

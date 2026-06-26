@@ -32,71 +32,66 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderWithoutChargeItem.SalesOrderWithoutCharge` | `SalesOrderWithoutChargeItem.SalesOrderWithoutCharge` |
-| `key SalesOrderWithoutChargeItem.SalesOrderWithoutChargeItem` | `SalesOrderWithoutChargeItem.SalesOrderWithoutChargeItem` |
-| `SalesOrderWithoutChargeItem.HigherLevelItem` | `SalesOrderWithoutChargeItem.HigherLevelItem` |
-| `SalesOrderWithoutChargeItem.SlsOrdWthoutChrgItemCategory` | `SalesOrderWithoutChargeItem.SlsOrdWthoutChrgItemCategory` |
-| `SalesOrderWithoutChargeItem.SalesOrderWthoutChrgItemText` | `SalesOrderWithoutChargeItem.SalesOrderWthoutChrgItemText` |
-| `SalesOrderWithoutChargeItem.PurchaseOrderByCustomer` | `SalesOrderWithoutChargeItem.PurchaseOrderByCustomer` |
-| `SalesOrderWithoutChargeItem.RequestedDeliveryDate` | `SalesOrderWithoutChargeItem.RequestedDeliveryDate` |
-| `SalesOrderWithoutChargeItem.ConfirmedDeliveryDate` | `SalesOrderWithoutChargeItem.ConfirmedDeliveryDate` |
-| `SalesOrderWithoutChargeItem.ConfdDelivQtyInOrderQtyUnit` | `SalesOrderWithoutChargeItem.ConfdDelivQtyInOrderQtyUnit` |
-| `SalesOrderWithoutChargeItem.OrderQuantityUnit` | `SalesOrderWithoutChargeItem.OrderQuantityUnit` |
-| `SalesOrderWithoutChargeItem.SDDocumentRejectionStatus` | `SalesOrderWithoutChargeItem.SDDocumentRejectionStatus` |
-| `SalesOrderWithoutChargeItem.ItemGeneralIncompletionStatus` | `SalesOrderWithoutChargeItem.ItemGeneralIncompletionStatus` |
-| `SalesOrderWithoutChargeItem.DeliveryBlockStatus` | `SalesOrderWithoutChargeItem.DeliveryBlockStatus` |
-| `SalesOrderWithoutChargeItem.PricingDate` | `SalesOrderWithoutChargeItem.PricingDate` |
-| `SalesOrderWithoutChargeItem.BillingDocumentDate` | `SalesOrderWithoutChargeItem.BillingDocumentDate` |
-| `SalesOrderWithoutChargeItem.CustomerGroup` | `SalesOrderWithoutChargeItem.CustomerGroup` |
-| `SalesOrderWithoutChargeItem.Route` | `SalesOrderWithoutChargeItem.Route` |
-| `SalesOrderWithoutChargeItem.PartialDeliveryIsAllowed` | `SalesOrderWithoutChargeItem.PartialDeliveryIsAllowed` |
-| `SalesOrderWithoutChargeItem.MaxNmbrOfPartialDelivery` | `SalesOrderWithoutChargeItem.MaxNmbrOfPartialDelivery` |
-| `SalesOrderWithoutChargeItem.DeliveryDateQuantityIsFixed` | `SalesOrderWithoutChargeItem.DeliveryDateQuantityIsFixed` |
-| `SalesOrderWithoutChargeItem.DeliveryGroup` | `SalesOrderWithoutChargeItem.DeliveryGroup` |
-| `SalesOrderWithoutChargeItem.CustomerPaymentTerms` | `SalesOrderWithoutChargeItem.CustomerPaymentTerms` |
-| `SalesOrderWithoutChargeItem.RequestedQuantity` | `SalesOrderWithoutChargeItem.RequestedQuantity` |
-| `SalesOrderWithoutChargeItem.RequestedQuantityUnit` | `SalesOrderWithoutChargeItem.RequestedQuantityUnit` |
-| `SalesOrderWithoutChargeItem.ReferenceSDDocument` | `SalesOrderWithoutChargeItem.ReferenceSDDocument` |
-| `SalesOrderWithoutChargeItem.ReferenceSDDocumentItem` | `SalesOrderWithoutChargeItem.ReferenceSDDocumentItem` |
-| `SalesOrderWithoutChargeItem.ReferenceSDDocumentCategory` | `SalesOrderWithoutChargeItem.ReferenceSDDocumentCategory` |
-| `SalesOrderWithoutChargeItem.ItemGrossWeight` | `SalesOrderWithoutChargeItem.ItemGrossWeight` |
-| `SalesOrderWithoutChargeItem.ItemNetWeight` | `SalesOrderWithoutChargeItem.ItemNetWeight` |
-| `SalesOrderWithoutChargeItem.ItemWeightUnit` | `SalesOrderWithoutChargeItem.ItemWeightUnit` |
-| `SalesOrderWithoutChargeItem.ItemVolume` | `SalesOrderWithoutChargeItem.ItemVolume` |
-| `SalesOrderWithoutChargeItem.ItemVolumeUnit` | `SalesOrderWithoutChargeItem.ItemVolumeUnit` |
-| `SalesOrderWithoutChargeItem.TransactionCurrency` | `SalesOrderWithoutChargeItem.TransactionCurrency` |
-| `SalesOrderWithoutChargeItem.NetAmount` | `SalesOrderWithoutChargeItem.NetAmount` |
-| `SalesOrderWithoutChargeItem.Product` | `SalesOrderWithoutChargeItem.Product` |
-| `SalesOrderWithoutChargeItem.OriginallyRequestedMaterial` | `SalesOrderWithoutChargeItem.OriginallyRequestedMaterial` |
-| `SalesOrderWithoutChargeItem.ProductGroup` | `SalesOrderWithoutChargeItem.ProductGroup` |
-| `SalesOrderWithoutChargeItem.MaterialByCustomer` | `SalesOrderWithoutChargeItem.MaterialByCustomer` |
-| `SalesOrderWithoutChargeItem.InternationalArticleNumber` | `SalesOrderWithoutChargeItem.InternationalArticleNumber` |
-| `SalesOrderWithoutChargeItem.MaterialPricingGroup` | `SalesOrderWithoutChargeItem.MaterialPricingGroup` |
-| `SalesOrderWithoutChargeItem.Batch` | `SalesOrderWithoutChargeItem.Batch` |
-| `SalesOrderWithoutChargeItem.Plant` | `SalesOrderWithoutChargeItem.Plant` |
-| `SalesOrderWithoutChargeItem.StorageLocation` | `SalesOrderWithoutChargeItem.StorageLocation` |
-| `SalesOrderWithoutChargeItem.ShippingPoint` | `SalesOrderWithoutChargeItem.ShippingPoint` |
-| `SalesOrderWithoutChargeItem.ShippingType` | `SalesOrderWithoutChargeItem.ShippingType` |
-| `SalesOrderWithoutChargeItem.DeliveryPriority` | `SalesOrderWithoutChargeItem.DeliveryPriority` |
-| `SalesOrderWithoutChargeItem.IncotermsClassification` | `SalesOrderWithoutChargeItem.IncotermsClassification` |
-| `SalesOrderWithoutChargeItem.IncotermsLocation1` | `SalesOrderWithoutChargeItem.IncotermsLocation1` |
-| `SalesOrderWithoutChargeItem.IncotermsLocation2` | `SalesOrderWithoutChargeItem.IncotermsLocation2` |
-| `SalesOrderWithoutChargeItem.SalesDocumentRjcnReason` | `SalesOrderWithoutChargeItem.SalesDocumentRjcnReason` |
-| `SalesOrderWithoutChargeItem.BusinessArea` | `SalesOrderWithoutChargeItem.BusinessArea` |
-| `SalesOrderWithoutChargeItem.ProfitCenter` | `SalesOrderWithoutChargeItem.ProfitCenter` |
-| `SalesOrderWithoutChargeItem.SDProcessStatus` | `SalesOrderWithoutChargeItem.SDProcessStatus` |
-| `SalesOrderWithoutChargeItem.DeliveryStatus` | `SalesOrderWithoutChargeItem.DeliveryStatus` |
-| `SalesOrderWithoutChargeItem.ItemCategoryGroup` | `SalesOrderWithoutChargeItem.ItemCategoryGroup` |
-| `SalesOrderWithoutChargeItem.SDDocumentItemUsage` | `SalesOrderWithoutChargeItem.SDDocumentItemUsage` |
-| `SalesOrderWithoutChargeItem.SalesOrderWithoutChargeType` | `SalesOrderWithoutChargeItem.SalesOrderWithoutChargeType` |
-| `SalesOrderWithoutChargeItem.OrganizationDivision` | `SalesOrderWithoutChargeItem.OrganizationDivision` |
-| `SalesOrderWithoutChargeItem.SalesOrganization` | `SalesOrderWithoutChargeItem.SalesOrganization` |
-| `SalesOrderWithoutChargeItem.DistributionChannel` | `SalesOrderWithoutChargeItem.DistributionChannel` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_SalesOrderWithoutCharge : redirected to parent I_SalesOrderWithoutChargeTP` | *Association* |
-| `_ItemPartner             : redirected to composition child I_SlsOrdWthoutChrgItmPartnerTP` | *Association* |
-| `_ItemText                : redirected to composition child I_SlsOrderWithoutChrgItmTextTP` | *Association* |
-| `_ScheduleLine            : redirected to composition child I_SlsOrdWithoutChrgSchedLineTP` | *Association* |
+| `SalesOrderWithoutCharge` | `SalesOrderWithoutChargeItem.SalesOrderWithoutCharge` |
+| `SalesOrderWithoutChargeItem` | `SalesOrderWithoutChargeItem.SalesOrderWithoutChargeItem` |
+| `HigherLevelItem` | `SalesOrderWithoutChargeItem.HigherLevelItem` |
+| `SlsOrdWthoutChrgItemCategory` | `SalesOrderWithoutChargeItem.SlsOrdWthoutChrgItemCategory` |
+| `SalesOrderWthoutChrgItemText` | `SalesOrderWithoutChargeItem.SalesOrderWthoutChrgItemText` |
+| `PurchaseOrderByCustomer` | `SalesOrderWithoutChargeItem.PurchaseOrderByCustomer` |
+| `RequestedDeliveryDate` | `SalesOrderWithoutChargeItem.RequestedDeliveryDate` |
+| `ConfirmedDeliveryDate` | `SalesOrderWithoutChargeItem.ConfirmedDeliveryDate` |
+| `ConfdDelivQtyInOrderQtyUnit` | `SalesOrderWithoutChargeItem.ConfdDelivQtyInOrderQtyUnit` |
+| `OrderQuantityUnit` | `SalesOrderWithoutChargeItem.OrderQuantityUnit` |
+| `SDDocumentRejectionStatus` | `SalesOrderWithoutChargeItem.SDDocumentRejectionStatus` |
+| `ItemGeneralIncompletionStatus` | `SalesOrderWithoutChargeItem.ItemGeneralIncompletionStatus` |
+| `DeliveryBlockStatus` | `SalesOrderWithoutChargeItem.DeliveryBlockStatus` |
+| `PricingDate` | `SalesOrderWithoutChargeItem.PricingDate` |
+| `BillingDocumentDate` | `SalesOrderWithoutChargeItem.BillingDocumentDate` |
+| `CustomerGroup` | `SalesOrderWithoutChargeItem.CustomerGroup` |
+| `Route` | `SalesOrderWithoutChargeItem.Route` |
+| `PartialDeliveryIsAllowed` | `SalesOrderWithoutChargeItem.PartialDeliveryIsAllowed` |
+| `MaxNmbrOfPartialDelivery` | `SalesOrderWithoutChargeItem.MaxNmbrOfPartialDelivery` |
+| `DeliveryDateQuantityIsFixed` | `SalesOrderWithoutChargeItem.DeliveryDateQuantityIsFixed` |
+| `DeliveryGroup` | `SalesOrderWithoutChargeItem.DeliveryGroup` |
+| `CustomerPaymentTerms` | `SalesOrderWithoutChargeItem.CustomerPaymentTerms` |
+| `RequestedQuantity` | `SalesOrderWithoutChargeItem.RequestedQuantity` |
+| `RequestedQuantityUnit` | `SalesOrderWithoutChargeItem.RequestedQuantityUnit` |
+| `ReferenceSDDocument` | `SalesOrderWithoutChargeItem.ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `SalesOrderWithoutChargeItem.ReferenceSDDocumentItem` |
+| `ReferenceSDDocumentCategory` | `SalesOrderWithoutChargeItem.ReferenceSDDocumentCategory` |
+| `ItemGrossWeight` | `SalesOrderWithoutChargeItem.ItemGrossWeight` |
+| `ItemNetWeight` | `SalesOrderWithoutChargeItem.ItemNetWeight` |
+| `ItemWeightUnit` | `SalesOrderWithoutChargeItem.ItemWeightUnit` |
+| `ItemVolume` | `SalesOrderWithoutChargeItem.ItemVolume` |
+| `ItemVolumeUnit` | `SalesOrderWithoutChargeItem.ItemVolumeUnit` |
+| `TransactionCurrency` | `SalesOrderWithoutChargeItem.TransactionCurrency` |
+| `NetAmount` | `SalesOrderWithoutChargeItem.NetAmount` |
+| `Product` | `SalesOrderWithoutChargeItem.Product` |
+| `OriginallyRequestedMaterial` | `SalesOrderWithoutChargeItem.OriginallyRequestedMaterial` |
+| `ProductGroup` | `SalesOrderWithoutChargeItem.ProductGroup` |
+| `MaterialByCustomer` | `SalesOrderWithoutChargeItem.MaterialByCustomer` |
+| `InternationalArticleNumber` | `SalesOrderWithoutChargeItem.InternationalArticleNumber` |
+| `MaterialPricingGroup` | `SalesOrderWithoutChargeItem.MaterialPricingGroup` |
+| `Batch` | `SalesOrderWithoutChargeItem.Batch` |
+| `Plant` | `SalesOrderWithoutChargeItem.Plant` |
+| `StorageLocation` | `SalesOrderWithoutChargeItem.StorageLocation` |
+| `ShippingPoint` | `SalesOrderWithoutChargeItem.ShippingPoint` |
+| `ShippingType` | `SalesOrderWithoutChargeItem.ShippingType` |
+| `DeliveryPriority` | `SalesOrderWithoutChargeItem.DeliveryPriority` |
+| `IncotermsClassification` | `SalesOrderWithoutChargeItem.IncotermsClassification` |
+| `IncotermsLocation1` | `SalesOrderWithoutChargeItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `SalesOrderWithoutChargeItem.IncotermsLocation2` |
+| `SalesDocumentRjcnReason` | `SalesOrderWithoutChargeItem.SalesDocumentRjcnReason` |
+| `BusinessArea` | `SalesOrderWithoutChargeItem.BusinessArea` |
+| `ProfitCenter` | `SalesOrderWithoutChargeItem.ProfitCenter` |
+| `SDProcessStatus` | `SalesOrderWithoutChargeItem.SDProcessStatus` |
+| `DeliveryStatus` | `SalesOrderWithoutChargeItem.DeliveryStatus` |
+| `ItemCategoryGroup` | `SalesOrderWithoutChargeItem.ItemCategoryGroup` |
+| `SDDocumentItemUsage` | `SalesOrderWithoutChargeItem.SDDocumentItemUsage` |
+| `SalesOrderWithoutChargeType` | `SalesOrderWithoutChargeItem.SalesOrderWithoutChargeType` |
+| `OrganizationDivision` | `SalesOrderWithoutChargeItem.OrganizationDivision` |
+| `SalesOrganization` | `SalesOrderWithoutChargeItem.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderWithoutChargeItem.DistributionChannel` |
 
 ## Associations
 

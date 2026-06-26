@@ -30,9 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_SegmentStdVH'` | `name:    'I_SegmentStdVH'` |
-| `element: 'Segment' }` | `element: 'Segment' }` |
-| `}]` | `}]` |
+| `SegmentHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_segment preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
+| `ParentNode` | `hrrp_node_n.parnode` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
 | `Segment` | `hrrp_node_n.segment` |
 | `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |

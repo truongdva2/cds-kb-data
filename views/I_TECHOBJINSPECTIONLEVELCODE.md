@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eame_idms_type)` | `cast(dd07l.domvalue_l` |
+| `TechObjInspectionLevelCode` | `cast(dd07l.domvalue_l as eame_idms_type)` |
 | `_InspectionLevelText` | *Association* |
 
 ## Associations

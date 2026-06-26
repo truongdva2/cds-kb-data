@@ -31,28 +31,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'PaymentCurrency'} }` | `currencyCode: 'PaymentCurrency'} }` |
-| `AmountInPaymentCurrency       : pyamt;` | `AmountInPaymentCurrency       : pyamt;` |
-| `LastDunningDate               :madat;` | `LastDunningDate               :madat;` |
-| `DunningBlockingReason         :mansp;` | `DunningBlockingReason         :mansp;` |
-| `DunningLevel                  :mahns_d;` | `DunningLevel                  :mahns_d;` |
-| `DunningKey                    :mschl;` | `DunningKey                    :mschl;` |
-| `PaymentTerms                  :dzterm;` | `PaymentTerms                  :dzterm;` |
-| `DueCalculationBaseDate        :dzfbdt;` | `DueCalculationBaseDate        :dzfbdt;` |
-| `CashDiscount1Days             :dzbd1t;` | `CashDiscount1Days             :dzbd1t;` |
-| `CashDiscount2Days             :dzbd2t;` | `CashDiscount2Days             :dzbd2t;` |
-| `NetPaymentDays                :dzbd3t;` | `NetPaymentDays                :dzbd3t;` |
-| `CashDiscount1Percent          :dzbd1p;` | `CashDiscount1Percent          :dzbd1p;` |
-| `CashDiscount2Percent          :dzbd2p;` | `CashDiscount2Percent          :dzbd2p;` |
-| `PaymentMethod                 :dzlsch;` | `PaymentMethod                 :dzlsch;` |
-| `PaymentBlockingReason         :dzlspr;` | `PaymentBlockingReason         :dzlspr;` |
-| `FixedCashDiscount             :dzbfix;` | `FixedCashDiscount             :dzbfix;` |
-| `PaymentDifferenceReason       :rstgr;` | `PaymentDifferenceReason       :rstgr;` |
-| `_JournalEntryChange           : association to parent D_JournalEntryChangeParameter;` | *Association* |
+| `GLAccountLineItem` | `docln6` |
+| `DocumentItemText` | `sgtxt` |
+| `AssignmentReference` | `dzuonr` |
+| `SpecialGLAccountAssignment` | `hzuon` |
+| `Reference1IDByBusinessPartner` | `xref1` |
+| `Reference2IDByBusinessPartner` | `xref2` |
+| `Reference3IDByBusinessPartner` | `xref3` |
+| `BPBankAccountInternalID` | `bvtyp` |
+| `HouseBank` | `hbkid` |
+| `HouseBankAccount` | `hktid` |
+| `InvoiceReference` | `rebzg` |
+| `InvoiceReferenceFiscalYear` | `rebzj` |
+| `InvoiceItemReference` | `rebzz` |
+| `PaymentCurrency` | `pycur` |
+| `AmountInPaymentCurrency` | `pyamt` |
+| `LastDunningDate` | `madat` |
+| `DunningBlockingReason` | `mansp` |
+| `DunningLevel` | `mahns_d` |
+| `DunningKey` | `mschl` |
+| `PaymentTerms` | `dzterm` |
+| `DueCalculationBaseDate` | `dzfbdt` |
+| `CashDiscount1Days` | `dzbd1t` |
+| `CashDiscount2Days` | `dzbd2t` |
+| `NetPaymentDays` | `dzbd3t` |
+| `CashDiscount1Percent` | `dzbd1p` |
+| `CashDiscount2Percent` | `dzbd2p` |
+| `PaymentMethod` | `dzlsch` |
+| `PaymentBlockingReason` | `dzlspr` |
+| `FixedCashDiscount` | `dzbfix` |
+| `PaymentDifferenceReason` | `rstgr` |
+| `_JournalEntryChange` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_JournalEntryChange` | `D_JournalEntryChangeParameter` | — |
 
 ## Source Code
 

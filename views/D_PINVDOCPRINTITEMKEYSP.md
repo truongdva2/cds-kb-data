@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PhysicalInventoryDocument             : pi_item_document ;` | `PhysicalInventoryDocument             : pi_item_document ;` |
-| `PhysicalInventoryDocumentItem : pi_item_number;` | `PhysicalInventoryDocumentItem : pi_item_number;` |
-| `FiscalYear: gjahr ;` | `FiscalYear: gjahr ;` |
-| `_PrintSettings : association to parent D_PInvPrintPInvItemsP;` | *Association* |
+| `PhysicalInventoryDocument` | `pi_item_document` |
+| `PhysicalInventoryDocumentItem` | `pi_item_number` |
+| `FiscalYear` | `gjahr` |
+| `_PrintSettings` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrintSettings` | `D_PInvPrintPInvItemsP` | — |
 
 ## Source Code
 

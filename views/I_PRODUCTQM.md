@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productnumber preserving type )` | `cast (mara.matnr` |
+| `Product` | `cast (mara.matnr as productnumber preserving type )` |
 | `QltyMgmtInProcmtIsActive` | `mara.qmpur` |
 | `AuthorizationGroup` | `mara.begru` |
 | `CatalogProfile` | `mara.rbnrm` |

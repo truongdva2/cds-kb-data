@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_tf_cat)` | `cast(DomainText.domvalue_l` |
+| `TradeFinanceCategory` | `cast(DomainText.domvalue_l as ftr_tf_cat)` |
 | `Language` | `DomainText.ddlanguage` |
-| `trade_finance_category_name preserving type )` | `cast( DomainText.ddtext` |
-| `as TradeFinanceCategoryName` | `as TradeFinanceCategoryName` |
+| `TradeFinanceCategoryName` | `cast( DomainText.ddtext as trade_finance_category_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

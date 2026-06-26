@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostBreakdownStructure` | `CostBreakdownStructure` |
-| `key CostBreakdownComponent` | `CostBreakdownComponent` |
+| `CostBreakdownStructure` | `CostBreakdownStructure` |
+| `CostBreakdownComponent` | `CostBreakdownComponent` |
 | `CostBreakdownComponentSequence` | `CostBreakdownComponentSequence` |
 | `IncludeInInventory` | `IncludeInInventory` |
 | `IncludeInCOGS` | `IncludeInCOGS` |

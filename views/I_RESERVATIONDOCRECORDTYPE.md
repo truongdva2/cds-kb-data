@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `imrs_recordtype )` | `cast( dd07l.domvalue_l` |
-| `_GoodsMovementType.GoodsMovementType` | *Association* |
+| `RecordType` | `cast( dd07l.domvalue_l as imrs_recordtype )` |
+| `GoodsMovementType` | `_GoodsMovementType.GoodsMovementType` |
 
 ## Associations
 

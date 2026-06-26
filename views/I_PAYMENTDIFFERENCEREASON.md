@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs)` | `cast (bukrs` |
-| `farp_rstgr)` | `cast (rstgr` |
+| `CompanyCode` | `cast (bukrs as fis_bukrs)` |
+| `PaymentDifferenceReason` | `cast (rstgr as farp_rstgr)` |
 | `IsDisputed` | `xstrp` |
 | `PaytDiffIsChargedToSprtGLAcct` | `xausb` |
 | `_Text` | *Association* |

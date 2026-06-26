@@ -34,41 +34,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderPricingElement.SalesOrder` | `SalesOrderPricingElement.SalesOrder` |
-| `key SalesOrderPricingElement.PricingProcedureStep` | `SalesOrderPricingElement.PricingProcedureStep` |
-| `key SalesOrderPricingElement.PricingProcedureCounter` | `SalesOrderPricingElement.PricingProcedureCounter` |
-| `SalesOrderPricingElement.ConditionApplication` | `SalesOrderPricingElement.ConditionApplication` |
-| `SalesOrderPricingElement.ConditionType` | `SalesOrderPricingElement.ConditionType` |
-| `SalesOrderPricingElement.ConditionTypeName` | `SalesOrderPricingElement.ConditionTypeName` |
-| `SalesOrderPricingElement.ConditionCalculationType` | `SalesOrderPricingElement.ConditionCalculationType` |
-| `SalesOrderPricingElement.ConditionRateAmount` | `SalesOrderPricingElement.ConditionRateAmount` |
-| `SalesOrderPricingElement.ConditionCurrency` | `SalesOrderPricingElement.ConditionCurrency` |
-| `SalesOrderPricingElement.ConditionRateRatio` | `SalesOrderPricingElement.ConditionRateRatio` |
-| `SalesOrderPricingElement.ConditionRateRatioUnit` | `SalesOrderPricingElement.ConditionRateRatioUnit` |
-| `SalesOrderPricingElement.ConditionBaseAmount` | `SalesOrderPricingElement.ConditionBaseAmount` |
-| `SalesOrderPricingElement.ConditionAmount` | `SalesOrderPricingElement.ConditionAmount` |
-| `SalesOrderPricingElement.TransactionCurrency` | `SalesOrderPricingElement.TransactionCurrency` |
-| `SalesOrderPricingElement.ConditionBaseQuantity` | `SalesOrderPricingElement.ConditionBaseQuantity` |
-| `SalesOrderPricingElement.ConditionQuantity` | `SalesOrderPricingElement.ConditionQuantity` |
-| `SalesOrderPricingElement.ConditionQuantityUnit` | `SalesOrderPricingElement.ConditionQuantityUnit` |
-| `SalesOrderPricingElement.ConditionIsForStatistics` | `SalesOrderPricingElement.ConditionIsForStatistics` |
-| `SalesOrderPricingElement.ConditionIsManuallyChanged` | `SalesOrderPricingElement.ConditionIsManuallyChanged` |
-| `SalesOrderPricingElement.ConditionInactiveReason` | `SalesOrderPricingElement.ConditionInactiveReason` |
-| `SalesOrderPricingElement.ConditionOrigin` | `SalesOrderPricingElement.ConditionOrigin` |
-| `SalesOrderPricingElement.ConditionRateValueIsAmount` | `SalesOrderPricingElement.ConditionRateValueIsAmount` |
-| `SalesOrderPricingElement.ConditionRateValueIsRatio` | `SalesOrderPricingElement.ConditionRateValueIsRatio` |
-| `SalesOrderPricingElement.ConditionBaseValueIsQuantity` | `SalesOrderPricingElement.ConditionBaseValueIsQuantity` |
-| `SalesOrderPricingElement.ConditionBaseValueIsAmount` | `SalesOrderPricingElement.ConditionBaseValueIsAmount` |
-| `SalesOrderPricingElement.ConditionQuantityIsNull` | `SalesOrderPricingElement.ConditionQuantityIsNull` |
-| `SalesOrderPricingElement.ConditionAmountIsNull` | `SalesOrderPricingElement.ConditionAmountIsNull` |
-| `SalesOrderPricingElement.PriceConditionDeterminationDte` | `SalesOrderPricingElement.PriceConditionDeterminationDte` |
-| `SalesOrderPricingElement.ConditionClass` | `SalesOrderPricingElement.ConditionClass` |
-| `SalesOrderPricingElement.ConditionRateValueIsNull` | `SalesOrderPricingElement.ConditionRateValueIsNull` |
-| `SalesOrderPricingElement.SalesOrderType` | `SalesOrderPricingElement.SalesOrderType` |
-| `SalesOrderPricingElement.SalesOrganization` | `SalesOrderPricingElement.SalesOrganization` |
-| `SalesOrderPricingElement.DistributionChannel` | `SalesOrderPricingElement.DistributionChannel` |
-| `SalesOrderPricingElement.OrganizationDivision` | `SalesOrderPricingElement.OrganizationDivision` |
-| `_SalesOrder : redirected to parent I_SalesOrderTP` | *Association* |
+| `SalesOrder` | `SalesOrderPricingElement.SalesOrder` |
+| `PricingProcedureStep` | `SalesOrderPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SalesOrderPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `SalesOrderPricingElement.ConditionApplication` |
+| `ConditionType` | `SalesOrderPricingElement.ConditionType` |
+| `ConditionTypeName` | `SalesOrderPricingElement.ConditionTypeName` |
+| `ConditionCalculationType` | `SalesOrderPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `SalesOrderPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `SalesOrderPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `SalesOrderPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SalesOrderPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SalesOrderPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `SalesOrderPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `SalesOrderPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SalesOrderPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SalesOrderPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SalesOrderPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SalesOrderPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SalesOrderPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SalesOrderPricingElement.ConditionInactiveReason` |
+| `ConditionOrigin` | `SalesOrderPricingElement.ConditionOrigin` |
+| `ConditionRateValueIsAmount` | `SalesOrderPricingElement.ConditionRateValueIsAmount` |
+| `ConditionRateValueIsRatio` | `SalesOrderPricingElement.ConditionRateValueIsRatio` |
+| `ConditionBaseValueIsQuantity` | `SalesOrderPricingElement.ConditionBaseValueIsQuantity` |
+| `ConditionBaseValueIsAmount` | `SalesOrderPricingElement.ConditionBaseValueIsAmount` |
+| `ConditionQuantityIsNull` | `SalesOrderPricingElement.ConditionQuantityIsNull` |
+| `ConditionAmountIsNull` | `SalesOrderPricingElement.ConditionAmountIsNull` |
+| `PriceConditionDeterminationDte` | `SalesOrderPricingElement.PriceConditionDeterminationDte` |
+| `ConditionClass` | `SalesOrderPricingElement.ConditionClass` |
+| `ConditionRateValueIsNull` | `SalesOrderPricingElement.ConditionRateValueIsNull` |
+| `SalesOrderType` | `SalesOrderPricingElement.SalesOrderType` |
+| `SalesOrganization` | `SalesOrderPricingElement.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderPricingElement.OrganizationDivision` |
 
 ## Associations
 

@@ -31,9 +31,103 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessAreaStdVH'` | `name:    'I_BusinessAreaStdVH'` |
-| `element: 'BusinessArea' }` | `element: 'BusinessArea' }` |
-| `}]` | `}]` |
+| `DebitMemoRequest` | `cast(SalesDocument as debit_memo_request preserving type)` |
+| `DebitMemoRequestItem` | `cast(SalesDocumentItem as debit_memo_request_item preserving type)` |
+| `DebitMemoRequestItemCategory` | `SalesDocumentItemCategory` |
+| `DebitMemoRequestItemType` | `SalesDocumentItemType` |
+| `IsReturnsItem` | `IsReturnsItem` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `Division` | `Division` |
+| `Material` | `Material` |
+| `Product` | `Product` |
+| `OriginallyRequestedMaterial` | `OriginallyRequestedMaterial` |
+| `MaterialByCustomer` | `MaterialByCustomer` |
+| `Batch` | `Batch` |
+| `ProductHierarchyNode` | `ProductHierarchyNode` |
+| `ProductCatalog` | `ProductCatalog` |
+| `MaterialGroup` | `MaterialGroup` |
+| `ProductGroup` | `ProductGroup` |
+| `MaterialPricingGroup` | `MaterialPricingGroup` |
+| `ProductTaxClassification1` | `ProductTaxClassification1` |
+| `ProductTaxClassification2` | `ProductTaxClassification2` |
+| `ProductTaxClassification3` | `ProductTaxClassification3` |
+| `ProductTaxClassification4` | `ProductTaxClassification4` |
+| `ProductTaxClassification5` | `ProductTaxClassification5` |
+| `ProductTaxClassification6` | `ProductTaxClassification6` |
+| `ProductTaxClassification7` | `ProductTaxClassification7` |
+| `ProductTaxClassification8` | `ProductTaxClassification8` |
+| `ProductTaxClassification9` | `ProductTaxClassification9` |
+| `MatlAccountAssignmentGroup` | `MatlAccountAssignmentGroup` |
+| `AdditionalMaterialGroup1` | `AdditionalMaterialGroup1` |
+| `AdditionalMaterialGroup2` | `AdditionalMaterialGroup2` |
+| `AdditionalMaterialGroup3` | `AdditionalMaterialGroup3` |
+| `AdditionalMaterialGroup4` | `AdditionalMaterialGroup4` |
+| `AdditionalMaterialGroup5` | `AdditionalMaterialGroup5` |
+| `Plant` | `Plant` |
+| `DebitMemoRequestItemText` | `SalesDocumentItemText` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `CorrespncExtRefByShipToParty` | `CorrespncExtRefByShipToParty` |
+| `UnderlyingPurchaseOrderItem` | `UnderlyingPurchaseOrderItem` |
+| `UndrlgPurOrdItmByShipToParty` | `UndrlgPurOrdItmByShipToParty` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustPurOrdTypeByShipToParty` | `CustPurOrdTypeByShipToParty` |
+| `BaseUnit` | `BaseUnit` |
+| `TargetQuantity` | `TargetQuantity` |
+| `TargetQuantityUnit` | `TargetQuantityUnit` |
+| `TargetToBaseQuantityDnmntr` | `TargetToBaseQuantityDnmntr` |
+| `TargetToBaseQuantityNmrtr` | `TargetToBaseQuantityNmrtr` |
+| `RequestedQuantity` | `RequestedQuantity` |
+| `RequestedQuantityUnit` | `RequestedQuantityUnit` |
+| `RequestedQuantityInBaseUnit` | `RequestedQuantityInBaseUnit` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SalesDistrict` | `SalesDistrict` |
+| `SalesDeal` | `SalesDeal` |
+| `CustomerGroup` | `CustomerGroup` |
+| `SalesDocumentRjcnReason` | `SalesDocumentRjcnReason` |
+| `NetAmount` | `NetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `NetPriceAmount` | `NetPriceAmount` |
+| `NetPriceQuantity` | `NetPriceQuantity` |
+| `NetPriceQuantityUnit` | `NetPriceQuantityUnit` |
+| `StatisticalValueControl` | `StatisticalValueControl` |
+| `_StatisticalValueControl` | *Association* |
+| `TaxAmount` | `TaxAmount` |
+| `CostAmount` | `CostAmount` |
+| `Subtotal1Amount` | `Subtotal1Amount` |
+| `Subtotal2Amount` | `Subtotal2Amount` |
+| `Subtotal3Amount` | `Subtotal3Amount` |
+| `Subtotal4Amount` | `Subtotal4Amount` |
+| `Subtotal5Amount` | `Subtotal5Amount` |
+| `Subtotal6Amount` | `Subtotal6Amount` |
+| `DebitMemoRequestCondition` | `SalesDocumentCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `ItemIsBillingRelevant` | `ItemIsBillingRelevant` |
+| `ItemBillingBlockReason` | `ItemBillingBlockReason` |
+| `ReferenceBillingPlan` | `ReferenceBillingPlan` |
+| `ReferenceBillingPlanItem` | `ReferenceBillingPlanItem` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
 | `BusinessArea` | `BusinessArea` |
 | `ControllingArea` | `ControllingArea` |
 | `ProfitCenter` | `ProfitCenter` |
@@ -78,7 +172,6 @@ tags:
 | `ResponsibleEmployee` | `ResponsibleEmployee` |
 | `SalesEmployeeWorkAgreement` | `SalesEmployeeWorkAgreement` |
 | `ResponsibleEmployeeWorkAgrmt` | `ResponsibleEmployeeWorkAgrmt` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
 | `_DebitMemoRequest` | *Association* |
 | `_Partner` | *Association* |
 | `_PricingElement` | *Association* |
@@ -164,6 +257,8 @@ tags:
 | `_MaterialText` | `I_MaterialText` | [0..*] |
 | `_ProductText` | `I_ProductText` | [0..*] |
 | `_OrigMaterialText` | `I_MaterialText` | [0..*] |
+| `_DebitMemoRequest` | `I_DebitMemoRequest` | [1..1] |
+| `_DebitMemoRequestType` | `I_DebitMemoRequestType` | [0..1] |
 | `_Partner` | `I_DebitMemoReqItemPartner` | [0..*] |
 | `_PricingElement` | `I_DebitMemoReqItemPrcgElmnt` | [0..*] |
 | `_HigherLevelItem` | `I_DebitMemoRequestItem` | [0..1] |

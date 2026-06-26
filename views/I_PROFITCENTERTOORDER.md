@@ -46,8 +46,8 @@ tags:
 | `SourceProduct` | `srce_matnr` |
 | `SourcePlant` | `srce_werks` |
 | `SourceCostCenter` | `srce_kostl` |
-| `ps_s4_pspnr preserving type)` | `cast( srce_ps_psp_pnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
+| `SourceWBSElementInternalID` | `cast( srce_ps_psp_pnr as ps_s4_pspnr preserving type)` |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
 | `_OrglChgReassignmentStatus` | *Association* |
 | `_ProfitCtrDerivationSrceType` | *Association* |
 | `_OrglChange` | *Association* |

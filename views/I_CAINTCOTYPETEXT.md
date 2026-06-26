@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CAIntcoType` | `_tfk8250t.ico_type` |
 | `Language` | `_tfk8250t.langu` |
-| `ico_type_txt_gfn_kk preserving type )` | `cast ( _tfk8250t.text` |
+| `CAIntcoTypeText` | `cast ( _tfk8250t.text as ico_type_txt_gfn_kk preserving type )` |
 | `_CAIntcoType` | *Association* |
 | `_Language` | *Association* |
 

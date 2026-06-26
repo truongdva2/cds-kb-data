@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FinancialManagementArea` | `_Text.FinancialManagementArea` |
-| `_Text.FinancialManagementAreaName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_FinancialManagementArea as _FinancialManagementArea : redirected to parent I_CnsldtnFinManagementAreaTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FinancialManagementArea` | `_Text.FinancialManagementArea` |
+| `FinancialManagementAreaName` | `_Text.FinancialManagementAreaName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_FinancialManagementArea` | *Association* |
 
 ## Associations
 

@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
-| `key CustomsTariffNumber` | `CustomsTariffNumber` |
+| `TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
+| `CustomsTariffNumber` | `CustomsTariffNumber` |
 | `TrdClassfctnNmbrSchmCntnt` | `TrdClassfctnNmbrSchmCntnt` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |

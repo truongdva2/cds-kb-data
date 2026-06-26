@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_creation_type preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderCrtnType` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_creation_type preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_crea_type_desc preserving type)` | `cast(ddtext` |
+| `TranspOrderCrtnTypeDesc` | `cast(ddtext as /scmtms/vdm_tor_crea_type_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdCreationType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdCreationType` | `I_TranspOrdCreationType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

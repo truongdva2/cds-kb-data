@@ -31,17 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QualityTaskLongText.QualityTaskInternalId` | `_QualityTaskLongText.QualityTaskInternalId` |
-| `key _QualityTaskLongText.LongTextInternalNumber` | `_QualityTaskLongText.LongTextInternalNumber` |
-| `key _QualityTaskLongText.Language` | `_QualityTaskLongText.Language` |
-| `_QualityTaskLongText.LongTextID` | *Association* |
-| `_QualityTaskLongText.QualityTaskLongText` | *Association* |
-| `_QualityTaskLongText.LongTextCreatedByUser` | *Association* |
-| `_QualityTaskLongText.LongTextCreatedAt` | *Association* |
-| `_QualityTaskLongText.LongTextLastChangedByUser` | *Association* |
-| `_QualityTaskLongText.LongTextLastChangedAt` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_QualityTask : redirected to parent I_QualityTaskTP_2` | *Association* |
+| `QualityTaskInternalId` | `_QualityTaskLongText.QualityTaskInternalId` |
+| `LongTextInternalNumber` | `_QualityTaskLongText.LongTextInternalNumber` |
+| `Language` | `_QualityTaskLongText.Language` |
+| `LongTextID` | `_QualityTaskLongText.LongTextID` |
+| `QualityTaskLongText` | `_QualityTaskLongText.QualityTaskLongText` |
+| `LongTextCreatedByUser` | `_QualityTaskLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `_QualityTaskLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `_QualityTaskLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `_QualityTaskLongText.LongTextLastChangedAt` |
 | `_Language` | *Association* |
 
 ## Associations

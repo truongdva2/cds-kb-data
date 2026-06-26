@@ -38,6 +38,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_InspLotSummaryControlText` | [0..*] |
 | `_InspectionLotOrigin` | `I_InspectionLotOrigin` | [0..1] |
 
 ## Source Code

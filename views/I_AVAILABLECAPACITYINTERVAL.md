@@ -32,12 +32,12 @@ tags:
 |---|---|
 | `CapacityInternalID` | `kazy.kapid` |
 | `AvailableCapacityType` | `kazy.versn` |
-| `ValidityEndDate` | `kazy.datub` |
+| `ValidityEndDate` | `-- representative key key kazy.datub` |
 | `CapacityNumberOfCapacities` | `kazy.anzhl` |
 | `CapacityNumberOfShifts` | `kazy.anzsh` |
-| `workdayrule preserving type)` | `cast(kazy.fabtg` |
+| `WorkDayRule` | `cast(kazy.fabtg as workdayrule preserving type)` |
 | `ShiftSequence` | `kazy.sprog` |
-| `availablecapacityintervaldurn preserving type)` | `cast(kazy.anztg` |
+| `AvailableCapacityIntervalDurn` | `cast(kazy.anztg as availablecapacityintervaldurn preserving type)` |
 | `CapacityPlanUtilizationPercent` | `kazy.ngrad` |
 | `StdAvailableCapacityIsValid` | `kazy.kkopf` |
 | `_Capacity` | *Association* |

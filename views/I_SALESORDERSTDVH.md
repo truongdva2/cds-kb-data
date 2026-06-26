@@ -34,11 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `key SalesOrder` | `SalesOrder` |
+| `SalesOrder` | `SalesOrder` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
 | `SalesOrderType` | `SalesOrderType` |

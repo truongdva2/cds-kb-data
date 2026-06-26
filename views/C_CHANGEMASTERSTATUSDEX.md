@@ -33,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `ChangeIsAllowed` | `ChangeIsAllowed` |
 | `DateChangeIsAllowed` | `DateChangeIsAllowed` |
 | `DistributionIsLocked` | `DistributionIsLocked` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

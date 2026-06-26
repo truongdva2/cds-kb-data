@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     BusinessPartner` | `BusinessPartner` |
+| `BusinessPartner` | `BusinessPartner` |
 | `CrdtMgmtBusinessPartnerGroup` | `CrdtMgmtBusinessPartnerGroup` |
 | `CreditWorthinessScoreValue` | `CreditWorthinessScoreValue` |
 | `CrdtWrthnssScoreValdtyEndDate` | `CrdtWrthnssScoreValdtyEndDate` |
@@ -44,10 +44,6 @@ tags:
 | `CreditCheckRule` | `CreditCheckRule` |
 | `CreditScoreAndLimitCalcRule` | `CreditScoreAndLimitCalcRule` |
 | `CustBusinessRelshpStartYear` | `CustBusinessRelshpStartYear` |
-| `_CreditMgmtAccountTP : redirected to composition child I_CreditMgmtAccountTP` | *Association* |
-| `_CrdtMBPCollateralTP : redirected to composition child I_CrdtMgmtBPCollateralTP` | *Association* |
-| `_CrdtMBPCreditInsuranceTP : redirected to composition child I_CrdtMgmtBPCreditInsuranceTP` | *Association* |
-| `_CrdtMBPNegativeEventTP : redirected to composition child I_CrdtMgmtBPNegativeEventTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

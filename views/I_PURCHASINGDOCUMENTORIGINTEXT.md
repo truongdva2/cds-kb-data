@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `vdm_purhasingdocumentorigin )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurchasingDocumentOrigin` | `cast( dd07t.domvalue_l as vdm_purhasingdocumentorigin )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `purchasingdocumentoriginname preserving type )` | `cast( dd07t.ddtext` |
+| `PurchasingDocumentOriginName` | `cast( dd07t.ddtext as purchasingdocumentoriginname preserving type )` |
 | `_PurchasingDocumentOrigin` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurchasingDocumentOrigin` | `I_PurchasingDocumentOrigin` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

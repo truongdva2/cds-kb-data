@@ -30,13 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CN_PaytRequisitionPriorityVH'` | `name: 'I_CN_PaytRequisitionPriorityVH'` |
-| `element: 'PaymentRequisitionPriority'}, useAsTemplate: true }]` | `element: 'PaymentRequisitionPriority'}, useAsTemplate: true }]` |
-| `payreqn_priority preserving type)` | `cast(substring( domvalue_l, 1, 1 )` |
-| `spras preserving type)` | `cast ( ddlanguage` |
-| `payreqn_priority_name preserving type )` | `cast( ddtext` |
+| `PaymentRequisitionPriority` | `cast(substring( domvalue_l, 1, 1 ) as payreqn_priority preserving type)` |
+| `Language` | `cast ( ddlanguage as spras preserving type)` |
+| `PaymentRequisitionPriorityName` | `cast( ddtext as payreqn_priority_name preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_Priority` | *Association* |
 
@@ -44,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Priority` | `I_CN_PaytRequisitionPriorityVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kntyp )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionCategory` | `cast ( substring( domvalue_l, 1, 1 ) as kntyp )` |
 | `_Text` | *Association* |
 
 ## Associations

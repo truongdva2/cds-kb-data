@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnAdhocSetBrkdwnTypeVH'` | `name: 'I_CnsldtnAdhocSetBrkdwnTypeVH'` |
-| `element: 'CnsldtnAdhocSetBrkdwnType'` | `element: 'CnsldtnAdhocSetBrkdwnType'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_AdhocSet.adhocsetbrkdwntype                                        as CnsldtnAdhocSetBrkdwnType` | *Association* |
+| `ConsolidationChartOfAccounts` | `cast(_AdhocSet.itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnAdhocSet` | `_AdhocSet.adhocset` |
+| `CnsldtnAdhocSetBrkdwnType` | `_AdhocSet.adhocsetbrkdwntype` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_CnsldtnAdhocSetBrkdwnType` | *Association* |
 | `_Text` | *Association* |

@@ -30,15 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CreditSegmentCurrency' } }` | `currencyCode: 'CreditSegmentCurrency' } }` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CreditSegment` | `CreditSegment` |
+| `BusinessPartnerIsCritical` | `BusinessPartnerIsCritical` |
+| `CreditAccountIsBlocked` | `CreditAccountIsBlocked` |
+| `CreditAccountBlockReason` | `CreditAccountBlockReason` |
+| `CreditAccountResubmissionDate` | `CreditAccountResubmissionDate` |
+| `CreditLimitAmount` | `CreditLimitAmount` |
+| `CreditLimitValidityEndDate` | `CreditLimitValidityEndDate` |
+| `CreditLimitLastChangeDate` | `CreditLimitLastChangeDate` |
+| `CreditLimitCalculatedAmount` | `CreditLimitCalculatedAmount` |
+| `CreditLimitIsZero` | `CreditLimitIsZero` |
 | `CreditLimitRequestedAmount` | `CreditLimitRequestedAmount` |
 | `CrdtLmtIsReqdFrmAutomCalc` | `CrdtLmtIsReqdFrmAutomCalc` |
 | `CreditLimitReqdValidityEndDate` | `CreditLimitReqdValidityEndDate` |
 | `CreditLimitRequestDate` | `CreditLimitRequestDate` |
 | `CreditSegmentCurrency` | `CreditSegmentCurrency` |
-| `_CrdtMBusinessPartnerTP : redirected to parent I_CrdtMBusinessPartnerTP` | *Association* |
-| `_CrdtMAcctCrdtInsuranceTP : redirected to composition child I_CrdtMAcctCrdtInsuranceTP` | *Association* |
-| `_CrdtMAcctCollateralTP    : redirected to composition child I_CrdtMAcctCollateralTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

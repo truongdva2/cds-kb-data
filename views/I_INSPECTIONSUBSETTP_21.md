@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspectionSubsetInternalID` | `InspectionSubsetInternalID` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionLot` | `InspectionLot` |
+| `InspectionSubsetInternalID` | `InspectionSubsetInternalID` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
 | `InspectionSubsetSortKey` | `InspectionSubsetSortKey` |
 | `MaterialSample` | `MaterialSample` |
 | `InspSbstMatlSmplProperty` | `InspSbstMatlSmplProperty` |
@@ -73,9 +73,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `_InspectionOperation      : redirected to parent I_InspectionOperationTP_2` | *Association* |
-| `_InspectionLot            : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspSubsetCharacteristic : redirected to composition child I_InspSubsetCharacteristicTP_2` | *Association* |
 
 ## Associations
 

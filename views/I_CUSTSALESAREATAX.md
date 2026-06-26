@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Customer,  -- Customer Number` | `knvi.kunnr` |
-| `SalesOrganization, -- Sales Organization` | `tvkwz.vkorg` |
-| `DistributionChannel, -- Distribution Channel` | `tvkwz.vtweg` |
-| `Division,  -- Division` | `tvta.spart` |
-| `DepartureCountry, -- Departure Country` | `aland` |
-| `CustomerTaxCategory, -- Tax Category` | `tatyp` |
-| `CustomerTaxClassification, -- Tax Classification` | `taxkd` |
-| `_Customer.AuthorizationGroup` | *Association* |
-| `_Customer.IsBusinessPurposeCompleted` | *Association* |
+| `Customer` | `knvi.kunnr` |
+| `SalesOrganization` | `-- Customer Number key tvkwz.vkorg` |
+| `DistributionChannel` | `-- Sales Organization key tvkwz.vtweg` |
+| `Division` | `-- Distribution Channel key tvta.spart` |
+| `DepartureCountry` | `-- Division key aland` |
+| `CustomerTaxCategory` | `-- Departure Country key tatyp` |
+| `CustomerTaxClassification` | `-- Tax Category taxkd` |
+| `AuthorizationGroup` | `-- Tax Classification _Customer.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `_Customer.IsBusinessPurposeCompleted` |
 | `_Customer` | *Association* |
 | `_CustomerSalesArea` | *Association* |
 | `_SalesOrganization` | *Association* |
@@ -51,6 +51,9 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Customer` | `I_Customer` | [1..1] |
+| `_CustomerSalesArea` | `I_CustomerSalesArea` | [1..1] |
+| `_Country` | `I_Country` | [1..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
 | `_Division` | `I_Division` | [0..1] |

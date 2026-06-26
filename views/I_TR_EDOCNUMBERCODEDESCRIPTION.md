@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TR_EDocLanguageKey` | `TR_EDocLanguageKey` |
-| `key CompanyCode` | `CompanyCode` |
-| `key TR_EDocBusinessPartnerAlias` | `TR_EDocBusinessPartnerAlias` |
-| `key TR_ElectronicDocumentUnivCode` | `TR_ElectronicDocumentUnivCode` |
+| `TR_EDocLanguageKey` | `TR_EDocLanguageKey` |
+| `CompanyCode` | `CompanyCode` |
+| `TR_EDocBusinessPartnerAlias` | `TR_EDocBusinessPartnerAlias` |
+| `TR_ElectronicDocumentUnivCode` | `TR_ElectronicDocumentUnivCode` |
 | `TR_EDocUnivCodeText` | `TR_EDocUnivCodeText` |
-| `_CompanyCode.CompanyCode as TR_ElectronicDocCompanyCode` | *Association* |
+| `TR_ElectronicDocCompanyCode` | `_CompanyCode.CompanyCode` |
 
 ## Associations
 

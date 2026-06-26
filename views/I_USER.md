@@ -30,15 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_userid          preserving type )` | `cast( usr21.bname` |
-| `vdm_userdescription preserving type )` | `cast( usr21.techdesc` |
-| `case usr21.idadtype` | `case usr21.idadtype` |
-| `when '00' then ' '  //users having classical address (NO connection to Business Partner)` | `when '00' then ' '  //users having classical address (NO connection to Business Partner)` |
-| `when '02' then ' '  //users connected to a BP person` | `when '02' then ' '  //users connected to a BP person` |
-| `when '03' then ' '  //users connected to a BP person with a relation to a BP Organization` | `when '03' then ' '  //users connected to a BP person with a relation to a BP Organization` |
-| `when '04' then ' '  //users connected to a BP person and have a BP workplace address` | `when '04' then ' '  //users connected to a BP person and have a BP workplace address` |
-| `else           'X'  //users without address data (intended for technical purposes only)` | `else           'X'  //users without address data (intended for technical purposes only)` |
-| `IsTechnicalUser` | `end` |
+| `UserID` | `cast( usr21.bname as vdm_userid preserving type )` |
+| `UserDescription` | `cast( usr21.techdesc as vdm_userdescription preserving type )` |
+| `IsTechnicalUser` | `case…end` |
 | `_AddrCurDefaultEmailAddress` | *Association* |
 | `AddressPersonID` | `usr21.persnumber` |
 | `AddressID` | `usr21.addrnumber` |

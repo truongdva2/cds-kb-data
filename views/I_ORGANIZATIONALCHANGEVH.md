@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `OrganizationalChange` | `orgl_change` |
-| `_Text[1:Language=$session.system_language].OrganizationalChangeName as OrganizationalChangeName` | *Association* |
+| `OrganizationalChangeName` | `_Text[1:Language=$session.system_language].OrganizationalChangeName` |
 | `OrglChangeEffectiveDate` | `effective_date` |
 | `OrglChangeCreatedByUser` | `created_by_user` |
 | `OrglChangeLastChangedByUser` | `last_changed_by_user` |

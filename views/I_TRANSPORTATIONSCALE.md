@@ -30,19 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_rate_scale_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpratescalref_uuid preserving type)` | `cast(rate_scale_ref_key` |
-| `_TranspRateScaleReference.TransportationRateUUID              as TransportationRateUUID` | *Association* |
-| `/scmtms/vdm_rate_scale preserving type)` | `cast(scaid` |
-| `/scmtms/vdm_rt_scale_type preserving type)` | `cast(scatyp` |
-| `/scmtms/vdm_rt_scale_base preserving type)` | `cast(scalebase` |
-| `/scmtms/vdm_rt_sc_qty_unit preserving type)` | `cast(scale_uom` |
+| `TransportationScaleUUID` | `cast(db_key as /scmtms/vdm_rate_scale_uuid preserving type)` |
+| `TranspRateScaleRefUUID` | `cast(rate_scale_ref_key as /scmtms/transpratescalref_uuid preserving type)` |
+| `TransportationRateUUID` | `_TranspRateScaleReference.TransportationRateUUID` |
+| `TransportationScale` | `cast(scaid as /scmtms/vdm_rate_scale preserving type)` |
+| `TransportationScaleType` | `cast(scatyp as /scmtms/vdm_rt_scale_type preserving type)` |
+| `TransportationScaleBase` | `cast(scalebase as /scmtms/vdm_rt_scale_base preserving type)` |
+| `TranspScaleQuantityUnit` | `cast(scale_uom as /scmtms/vdm_rt_sc_qty_unit preserving type)` |
 | `TransportationScaleCurrency` | `scale_curr` |
-| `vdm_createdbyuserid preserving type)` | `cast(created_by` |
-| `log_created_on preserving type)` | `cast(created_on` |
-| `vdm_lastchangedbyuserid preserving type)` | `cast(changed_by` |
-| `/scmtms/vdm_tm_tstmp_cht preserving type)` | `cast(changed_on` |
-| `/*Associations*/` | `/*Associations*/` |
+| `CreatedByUser` | `cast(created_by as vdm_createdbyuserid preserving type)` |
+| `CreationDateTime` | `cast(created_on as log_created_on preserving type)` |
+| `LastChangedByUser` | `cast(changed_by as vdm_lastchangedbyuserid preserving type)` |
+| `ChangedDateTime` | `cast(changed_on as /scmtms/vdm_tm_tstmp_cht preserving type)` |
 | `_TranspScaleItem` | *Association* |
 | `_CreatedBy` | *Association* |
 | `_ChangedBy` | *Association* |
@@ -57,6 +56,8 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspScaleItem` | `I_TransportationScaleItem` | [0..*] |
+| `_TranspRateScaleReference` | `I_TranspRateScaleReference` | — |
 | `_CreatedBy` | `I_User` | [1..1] |
 | `_ChangedBy` | `I_User` | [1..1] |
 | `_TranspScaleQuantityUnit` | `I_UnitOfMeasure` | [0..1] |

@@ -31,13 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinSrvcsProdGroupVH'` | `name: 'I_CnsldtnFinSrvcsProdGroupVH'` |
-| `element: 'FinancialServicesProductGroup'` | `element: 'FinancialServicesProductGroup'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_finsrvcsproductgroup preserving type )` | `cast( _Source.FinancialServicesProductGroup` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( _Source.CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `FinancialServicesProductGroup` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 | `_HierarchyNode` | *Association* |
 

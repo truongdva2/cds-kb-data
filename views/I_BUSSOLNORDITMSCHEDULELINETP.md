@@ -30,17 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
 | `Quantity` | `Quantity` |
 | `RequestedDeliveryUTCDateTime` | `RequestedDeliveryUTCDateTime` |
 | `ProductQuantity` | `ProductQuantity` |
 | `ConfirmedDeliveryDateTime` | `ConfirmedDeliveryDateTime` |
 | `QuantityUnit` | `QuantityUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

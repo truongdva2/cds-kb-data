@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `payreqn_reqn_status preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `spras preserving type)` | `cast ( ddlanguage` |
+| `PaymentRequisitionStatus` | `cast ( substring( domvalue_l, 1, 2 ) as payreqn_reqn_status preserving type)` |
+| `Language` | `cast ( ddlanguage as spras preserving type)` |
 | `DomainValue` | `domvalue_l` |
-| `payreqn_reqn_status_name preserving type)` | `cast( ddtext` |
+| `PaymentRequisitionStatusName` | `cast( ddtext as payreqn_reqn_status_name preserving type)` |
 | `_Language` | *Association* |
 | `_RequisitionStatus` | *Association* |
 
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RequisitionStatus` | `I_CN_PaytRequisitionStatusVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

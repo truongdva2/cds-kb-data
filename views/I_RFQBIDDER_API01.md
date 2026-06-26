@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_RFQBidder.RequestForQuotation` | `I_RFQBidder.RequestForQuotation` |
-| `key I_RFQBidder.PartnerCounter` | `I_RFQBidder.PartnerCounter` |
-| `parvw )` | `cast( I_RFQBidder.PartnerFunction` |
-| `I_RFQBidder.Supplier` | `I_RFQBidder.Supplier` |
-| `/*Associations*/` | `/*Associations*/` |
+| `RequestForQuotation` | `I_RFQBidder.RequestForQuotation` |
+| `PartnerCounter` | `I_RFQBidder.PartnerCounter` |
+| `PartnerFunction` | `cast( I_RFQBidder.PartnerFunction as parvw )` |
+| `Supplier` | `I_RFQBidder.Supplier` |
 | `_RequestForQuotation` | *Association* |
 
 ## Associations

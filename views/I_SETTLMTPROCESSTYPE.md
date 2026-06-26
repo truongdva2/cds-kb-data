@@ -29,8 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtProcessType` | `SettlmtProcessType` |
-| `/* Control Settings */` | `/* Control Settings */` |
+| `SettlmtProcessType` | `SettlmtProcessType` |
 | `SettlmtProcessCat` | `SettlmtProcessCat` |
 | `SettlmtPartnerCat` | `SettlmtPartnerCat` |
 | `CrsCoSettlmtCat` | `CrsCoSettlmtCat` |
@@ -40,15 +39,11 @@ tags:
 | `SettlmtTxCodeDetnCat` | `SettlmtTxCodeDetnCat` |
 | `SettlmtNoTxCodeErrHndlgCat` | `SettlmtNoTxCodeErrHndlgCat` |
 | `CustHasAltvAcctAssgmtFields` | `CustHasAltvAcctAssgmtFields` |
-| `/* Assigned Settlement Document Types */` | `/* Assigned Settlement Document Types */` |
 | `SettlmtDocType` | `SettlmtDocType` |
-| `/* Application Status */` | `/* Application Status */` |
 | `SettlmtApplStsGrp` | `SettlmtApplStsGrp` |
-| `/* Collection Processing */` | `/* Collection Processing */` |
 | `SettlmtCollectionCategory` | `SettlmtCollectionCategory` |
 | `SettlmtProcTypeOfCollection` | `SettlmtProcTypeOfCollection` |
 | `SettlmtDocTypeOfCollection` | `SettlmtDocTypeOfCollection` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_SettlmtProcessCat` | *Association* |
 | `_SettlmtBusProcVar` | *Association* |
@@ -68,6 +63,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_SettlmtProcessTypeText` | [0..*] |
 | `_SettlmtProcessCat` | `I_SettlmtProcessCat` | [0..1] |
 | `_SettlmtPartnerCat` | `I_SettlmtPartnerCat` | [0..1] |
 | `_CrsCoSettlmtCat` | `I_CrsCoSettlmtCat` | [0..1] |

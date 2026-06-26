@@ -33,9 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ewm_de_storbinisblocked preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `ewm_de_storbinblockeddesc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `EWMStorBinIsBlocked` | `cast(…)` |
+| `EWMStorageBinBlockedDesc` | `cast( ddtext as ewm_de_storbinblockeddesc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

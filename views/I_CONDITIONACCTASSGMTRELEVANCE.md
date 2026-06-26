@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ktrel )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionAcctAssgmtRelevance` | `cast ( substring( domvalue_l, 1, 1 ) as ktrel )` |
 | `_Text` | *Association* |
 
 ## Associations

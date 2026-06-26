@@ -30,27 +30,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DocumentHeaderText           : bktxt;` | `DocumentHeaderText           : bktxt;` |
-| `DocumentReferenceID          : xblnr1;` | `DocumentReferenceID          : xblnr1;` |
-| `JrnlEntryCntrySpecificRef1   : fac_glo_ref1_hd;` | `JrnlEntryCntrySpecificRef1   : fac_glo_ref1_hd;` |
-| `JrnlEntryCntrySpecificDate1  : fac_glo_dat1_hd;` | `JrnlEntryCntrySpecificDate1  : fac_glo_dat1_hd;` |
-| `JrnlEntryCntrySpecificRef2   : fac_glo_ref2_hd;` | `JrnlEntryCntrySpecificRef2   : fac_glo_ref2_hd;` |
-| `JrnlEntryCntrySpecificDate2  : fac_glo_dat2_hd;` | `JrnlEntryCntrySpecificDate2  : fac_glo_dat2_hd;` |
-| `JrnlEntryCntrySpecificRef3   : fac_glo_ref3_hd;` | `JrnlEntryCntrySpecificRef3   : fac_glo_ref3_hd;` |
-| `JrnlEntryCntrySpecificDate3  : fac_glo_dat3_hd;` | `JrnlEntryCntrySpecificDate3  : fac_glo_dat3_hd;` |
-| `JrnlEntryCntrySpecificRef4   : fac_glo_ref4_hd;` | `JrnlEntryCntrySpecificRef4   : fac_glo_ref4_hd;` |
-| `JrnlEntryCntrySpecificDate4  : fac_glo_dat4_hd;` | `JrnlEntryCntrySpecificDate4  : fac_glo_dat4_hd;` |
-| `JrnlEntryCntrySpecificRef5   : fac_glo_ref5_hd;` | `JrnlEntryCntrySpecificRef5   : fac_glo_ref5_hd;` |
-| `JrnlEntryCntrySpecificDate5  : fac_glo_dat5_hd;` | `JrnlEntryCntrySpecificDate5  : fac_glo_dat5_hd;` |
-| `JrnlEntryCntrySpecificBP1    : fac_glo_bp1_hd;` | `JrnlEntryCntrySpecificBP1    : fac_glo_bp1_hd;` |
-| `JrnlEntryCntrySpecificBP2    : fac_glo_bp2_hd;` | `JrnlEntryCntrySpecificBP2    : fac_glo_bp2_hd;` |
-| `PlannedReversalDate          : fis_stodt;` | `PlannedReversalDate          : fis_stodt;` |
-| `_GLItems                      : composition [0..*] of D_JournalEntryChangeGLItemP;` | *Association* |
-| `_APARItems                    : composition [0..*] of D_JournalEntryChangeAPARItemP;` | *Association* |
+| `DocumentHeaderText` | `bktxt` |
+| `DocumentReferenceID` | `xblnr1` |
+| `JrnlEntryCntrySpecificRef1` | `fac_glo_ref1_hd` |
+| `JrnlEntryCntrySpecificDate1` | `fac_glo_dat1_hd` |
+| `JrnlEntryCntrySpecificRef2` | `fac_glo_ref2_hd` |
+| `JrnlEntryCntrySpecificDate2` | `fac_glo_dat2_hd` |
+| `JrnlEntryCntrySpecificRef3` | `fac_glo_ref3_hd` |
+| `JrnlEntryCntrySpecificDate3` | `fac_glo_dat3_hd` |
+| `JrnlEntryCntrySpecificRef4` | `fac_glo_ref4_hd` |
+| `JrnlEntryCntrySpecificDate4` | `fac_glo_dat4_hd` |
+| `JrnlEntryCntrySpecificRef5` | `fac_glo_ref5_hd` |
+| `JrnlEntryCntrySpecificDate5` | `fac_glo_dat5_hd` |
+| `JrnlEntryCntrySpecificBP1` | `fac_glo_bp1_hd` |
+| `JrnlEntryCntrySpecificBP2` | `fac_glo_bp2_hd` |
+| `PlannedReversalDate` | `fis_stodt` |
+| `_GLItems` | *Association* |
+| `_APARItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_GLItems` | `D_JournalEntryChangeGLItemP` | [0..*] |
+| `_APARItems` | `D_JournalEntryChangeAPARItemP` | [0..*] |
 
 ## Source Code
 

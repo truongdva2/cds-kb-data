@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_etxdc_sourcing)` | `cast(domvalue_l` |
+| `UnitedStatesTaxSourcing` | `cast(domvalue_l as fis_etxdc_sourcing)` |
 | `_Text` | *Association* |
 
 ## Associations

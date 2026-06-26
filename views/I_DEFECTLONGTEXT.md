@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Defect Detailed Description'` | `label: 'Defect Detailed Description'` |
-| `quickInfo: 'Detailed Description of Defect'` | `quickInfo: 'Detailed Description of Defect'` |
-| `}/* normally you should build a vdm_q* data element and cast the field to it to get the label, but cast to STRING is not allowed */` | `}/* normally you should build a vdm_q* data element and cast the field to it to get the label, but cast to STRING is not allowed */` |
+| `DefectInternalID` | `cast(…)` |
+| `Language` | `Language` |
+| `LongTextInternalNumber` | `LongTextInternalNumber` |
+| `LongTextID` | `LongTextID` |
 | `DefectLongText` | `NotificationItemLongText` |
 | `LongTextCreatedByUser` | `LongTextCreatedByUser` |
 | `LongTextCreatedAt` | `LongTextCreatedAt` |
 | `LongTextLastChangedByUser` | `LongTextLastChangedByUser` |
 | `LongTextLastChangedAt` | `LongTextLastChangedAt` |
 | `MimeType` | `MimeType` |
-| `/* Associations */` | `/* Associations */` |
 | `_Defect` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,12 +31,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SalesSpcfcProductGroup4` | `AdditionalMaterialGroup4` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SalesSpcfcProductGroup4Text` | [0..*] |
 
 ## Source Code
 

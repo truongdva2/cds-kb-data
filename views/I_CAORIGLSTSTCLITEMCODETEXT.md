@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `astkz_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `astkz_text_kk preserving type )` | `cast( ddtext` |
+| `CAStatisticalCodeOfOriginItem` | `cast( left( dd07t.domvalue_l,1 ) as astkz_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAStatisticalCodeOfOrignItmTxt` | `cast( ddtext as astkz_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

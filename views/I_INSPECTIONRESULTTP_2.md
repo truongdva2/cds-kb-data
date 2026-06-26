@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
-| `key InspectionCharacteristic` | `InspectionCharacteristic` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `InspectionCharacteristic` |
 | `Inspector` | `Inspector` |
 | `InspectionResultStatus` | `InspectionResultStatus` |
 | `InspResultIsCompletionForced` | `InspResultIsCompletionForced` |
@@ -94,10 +94,6 @@ tags:
 | `ChangedDateTime` | `ChangedDateTime` |
 | `ChangedTime` | `ChangedTime` |
 | `CreationTime` | `CreationTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionCharacteristic : redirected to parent I_InspCharacteristicTP_2` | *Association* |
-| `_InspectionLot            : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspectionResultValue    : redirected to composition child I_InspectionResultValueTP_2` | *Association* |
 | `_InspectionOperation` | *Association* |
 
 ## Associations

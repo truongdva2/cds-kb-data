@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrInvcSeldInbBillOfLading.SupplierInvoice` | `I_SuplrInvcSeldInbBillOfLading.SupplierInvoice` |
-| `key I_SuplrInvcSeldInbBillOfLading.FiscalYear` | `I_SuplrInvcSeldInbBillOfLading.FiscalYear` |
-| `key I_SuplrInvcSeldInbBillOfLading.InboundBillOfLading` | `I_SuplrInvcSeldInbBillOfLading.InboundBillOfLading` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `I_SuplrInvcSeldInbBillOfLading.SupplierInvoice` |
+| `FiscalYear` | `I_SuplrInvcSeldInbBillOfLading.FiscalYear` |
+| `InboundBillOfLading` | `I_SuplrInvcSeldInbBillOfLading.InboundBillOfLading` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

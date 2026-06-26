@@ -32,9 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_AccountingDocumentTypeStdVH'` | `name:    'I_AccountingDocumentTypeStdVH'` |
-| `element: 'AccountingDocumentType'}` | `element: 'AccountingDocumentType'}` |
-| `useAsTemplate: true }]` | `useAsTemplate: true }]` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGroup` | `LedgerGroup` |
+| `ReferenceDocumentType` | `ReferenceDocumentType` |
+| `OriginalReferenceDocument` | `OriginalReferenceDocument` |
+| `ReferenceDocumentLogicalSystem` | `ReferenceDocumentLogicalSystem` |
+| `BusinessTransactionType` | `BusinessTransactionType` |
 | `AccountingDocumentType` | `AccountingDocumentType` |
 | `TaxReportingDate` | `TaxReportingDate` |
 | `InvoiceReceiptDate` | `InvoiceReceiptDate` |

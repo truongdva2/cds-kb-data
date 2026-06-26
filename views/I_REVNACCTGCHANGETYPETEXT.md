@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RAPerfOblgnChangeType` | `cast(dd07t.domvalue_l as farr_change_type)` |
 | `RAPerfOblgnChangeTypeName` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAChangeType` | *Association* |
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAChangeType` | `I_RevnAcctgChangeType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

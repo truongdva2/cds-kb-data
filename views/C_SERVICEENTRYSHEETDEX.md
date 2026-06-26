@@ -53,7 +53,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Supplier` | *Association* |
 | `_PurchaseOrder` | *Association* |
 | `_DocumentCurrency` | *Association* |

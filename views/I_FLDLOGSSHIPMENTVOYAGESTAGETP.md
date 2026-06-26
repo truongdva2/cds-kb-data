@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
-| `key  FldLogsVoyageStageID` | `FldLogsVoyageStageID` |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsVoyageStageID` | `FldLogsVoyageStageID` |
 | `FldLogsSrcePlnt` | `FldLogsSrcePlnt` |
 | `FldLogsDestPlnt` | `FldLogsDestPlnt` |
 | `FldLogsShptVoyageStatusCode` | `FldLogsShptVoyageStatusCode` |
@@ -47,7 +47,6 @@ tags:
 | `_VoyStsText` | *Association* |
 | `_SrcePlantText` | *Association* |
 | `_DestPlantText` | *Association* |
-| `_Voyage : redirected to parent I_FldLogsShipmentVoyageTP` | *Association* |
 
 ## Associations
 

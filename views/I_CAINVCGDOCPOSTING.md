@@ -32,8 +32,8 @@ tags:
 |---|---|
 | `CAInvoicingDocument` | `invdocno` |
 | `CASequenceNumber` | `consno` |
-| `cadoctype_gfn_kk preserving type )` | `cast(cadoctype` |
-| `opbel_gfn_kk preserving type)` | `cast(opbel` |
+| `CAInvcgRefPostingDocType` | `cast(cadoctype as cadoctype_gfn_kk preserving type )` |
+| `CADocumentNumber` | `cast(opbel as opbel_gfn_kk preserving type)` |
 | `CARepetitionItemNumber` | `opupw` |
 | `CABPItemNumber` | `opupk` |
 | `CAInvcgIsPostedInCurrentInvcg` | `xnewdoc` |

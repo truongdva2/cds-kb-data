@@ -30,10 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
 | `ServiceDocumentType` | `process_type` |
 | `ServiceObjectType` | `object_type` |
 | `CustMgmtServiceTeamProfile` | `service_team_profile` |

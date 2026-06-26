@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.element:  [ 'IT_ElectronicDocRejectCodeText' ]}` | `text.element:  [ 'IT_ElectronicDocRejectCodeText' ]}` |
-| `edoc_it_reject_code)` | `cast(domvalue_l` |
+| `IT_ElectronicDocRejectionCode` | `cast(domvalue_l as edoc_it_reject_code)` |
 | `Language` | `ddlanguage` |
 | `IT_ElectronicDocRejectCodeText` | `ddtext` |
 

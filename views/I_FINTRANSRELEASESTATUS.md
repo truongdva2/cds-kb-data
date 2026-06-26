@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_frgzust )` | `cast( dd07l.domvalue_l` |
+| `FinTransReleaseStatus` | `cast( dd07l.domvalue_l as tb_frgzust )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

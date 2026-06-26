@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nfdirection preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `BR_NFDirection` | `cast( substring(domvalue_l, 1, 1) as logbr_nfdirection preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

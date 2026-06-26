@@ -31,8 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `MRPElementCategoryLongName,     // CHAR60 text` | `MRPElementCategoryLongName,     // CHAR60 text` |
+| `Language` | `Language` |
+| `MRPElementCategory` | `MRPElementCategory` |
+| `MRPElementCategoryShortName` | `MRPElementCategoryShortName` |
+| `MRPElementCategoryName` | `MRPElementCategoryName` |
+| `MRPElementCategoryLongName` | `MRPElementCategoryLongName` |
 | `_MRPElementCategoryValue` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MRPElementCategoryValue` | `I_MRPElementCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

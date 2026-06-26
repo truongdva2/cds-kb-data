@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productallocationperiodtype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `, _Text` | `, _Text` |
+| `ProductAllocationPeriodType` | `cast(…)` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -29,10 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key SubscrpnBillgSubscription` | `SubscrpnBillgSubscription` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `SubscrpnBillgSubscription` | `SubscrpnBillgSubscription` |
 | `BusinessSolutionOrderUUID` | `BusinessSolutionOrderUUID` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

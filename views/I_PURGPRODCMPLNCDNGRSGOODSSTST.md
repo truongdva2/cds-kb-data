@@ -28,10 +28,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `mmpur_pc_status_dg )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurgProdCmplncDngrsGoodsStatus` | `cast( dd07t.domvalue_l as mmpur_pc_status_dg )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mmpur_pc_status_dg_dscr preserving type )` | `cast( dd07t.ddtext` |
+| `PurgProdCmplncDngrsGdsStsName` | `cast( dd07t.ddtext as mmpur_pc_status_dg_dscr preserving type )` |
 | `_PurgProdCmplncDngrsGoodsSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgProdCmplncDngrsGoodsSts` | `I_PurgProdCmplncDngrsGoodsSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

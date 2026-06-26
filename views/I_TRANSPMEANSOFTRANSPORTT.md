@@ -32,7 +32,6 @@ tags:
 | `TranspMeansOfTransport` | `ttype` |
 | `Language` | `spras` |
 | `MeansOfTransportDesc` | `ttypetxt` |
-| `/* Associations */` | `/* Associations */` |
 | `_MeansOfTransport` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MeansOfTransport` | `I_TranspMeansOfTransport` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

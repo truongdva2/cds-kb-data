@@ -29,10 +29,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusSolnOrdType` | `BusSolnOrdType` |
+| `BusSolnOrdDescription` | `BusSolnOrdDescription` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOrganization` | `SalesOrganization` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SoldToParty` | `SoldToParty` |
+| `SoldToPartyCountry` | `SoldToPartyCountry` |
+| `SoldToPartyRegion` | `SoldToPartyRegion` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `BusSolnOrdStatus` | `BusSolnOrdStatus` |
+| `NrOfOpenBusSolnOrders` | `NrOfOpenBusSolnOrders` |
+| `NrOfReldBusSolnOrders` | `NrOfReldBusSolnOrders` |
+| `NrOfCmpltdBusSolnOrders` | `NrOfCmpltdBusSolnOrders` |
+| `NrOfCrtedBusSolnOrders` | `NrOfCrtedBusSolnOrders` |
+| `ServiceDocumentCreationDate` | `ServiceDocumentCreationDate` |
+| `BusSolnOrdCreationQuarter` | `BusSolnOrdCreationQuarter` |
+| `BusSolnOrdCreationMonth` | `BusSolnOrdCreationMonth` |
+| `BusSolnOrdCreationYear` | `BusSolnOrdCreationYear` |
+| `DisplayCurrency` | `$parameters.P_DisplayCurrency` |
 | `ServiceDocNetAmount` | `ServiceDocNetAmount` |
 | `PostingDate` | `PostingDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_DistributionChannel` | *Association* |
 | `_Division` | *Association* |
 | `_Period` | *Association* |

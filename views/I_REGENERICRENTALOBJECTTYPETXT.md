@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `regoobjtype )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REGenericRentalObjectType` | `cast( dd07t.domvalue_l as regoobjtype )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `REGenericRentalObjectTypeText` | `dd07t.ddtext` |
 | `_REGenericRentalObjectType` | *Association* |
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REGenericRentalObjectType` | `I_REGenericRentalObjectType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

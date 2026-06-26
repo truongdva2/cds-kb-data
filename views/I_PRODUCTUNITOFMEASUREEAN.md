@@ -36,7 +36,7 @@ tags:
 | `AlternativeUnit` | `mean.meinh` |
 | `ConsecutiveNumber` | `mean.lfnum` |
 | `ProductStandardID` | `mean.ean11` |
-| `internationalarticlenumbercat preserving type )` | `cast(mean.eantp` |
+| `InternationalArticleNumberCat` | `cast(mean.eantp as internationalarticlenumbercat preserving type )` |
 | `IsMainGlobalTradeItemNumber` | `mean.hpean` |
 | `_Product` | *Association* |
 | `_InternationalArticleNumber` | *Association* |

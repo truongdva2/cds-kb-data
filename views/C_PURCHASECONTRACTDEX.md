@@ -45,7 +45,7 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `DocumentCurrency` | `DocumentCurrency` |
-| `fis_exchange_rate preserving type)` | `cast ( ExchangeRate` |
+| `ExchangeRate` | `cast ( ExchangeRate as fis_exchange_rate preserving type)` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `CompanyCode` | `CompanyCode` |
 | `IncotermsClassification` | `IncotermsClassification` |

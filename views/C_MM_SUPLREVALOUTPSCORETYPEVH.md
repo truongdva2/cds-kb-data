@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW,  fuzzinessThreshold: 0.8   }` | `defaultSearchElement: true, ranking: #LOW,  fuzzinessThreshold: 0.8   }` |
-| `_Text[1: Language = $session.system_language ].SuplrEvalScoreOutpActnTypeText                                   as SuplrEvalScoreOutpActnTypeText` | *Association* |
+| `SuplrEvalScoreOutputActionType` | `cast( SuplrEvalScoreOutputActionType as mmpur_ana_de_output_act_typ)` |
+| `SuplrEvalScoreOutpActnTypeText` | `_Text[1: Language = $session.system_language ].SuplrEvalScoreOutpActnTypeText` |
 
 ## Associations
 

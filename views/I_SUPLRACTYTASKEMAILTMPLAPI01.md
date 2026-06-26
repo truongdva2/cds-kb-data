@@ -31,19 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Task.SuplrActyTaskUUID` | `Task.SuplrActyTaskUUID` |
-| `/srmsmc/task_id )` | `cast(ltrim(Task.SupplierActivityTask,'0')` |
-| `Task.SuplrActyTaskName` | `Task.SuplrActyTaskName` |
-| `Task.EndDate` | `Task.EndDate` |
-| `Task.CreationDateTime` | `Task.CreationDateTime` |
-| `/srmsmc/created_by )` | `cast(Task.CreatedByUser` |
-| `Task.LastChangeDateTime` | `Task.LastChangeDateTime` |
-| `/srmsmc/last_changed_by )` | `cast(Task.LastChangedByUser` |
-| `Task.Language` | `Task.Language` |
-| `/srmsmc/created_by_user_desc)` | `cast(Task._CreatedByUser._BusinessPartner[IsBusinessPurposeCompleted = ''].BusinessPartnerFullName` |
-| `/srmsmc/last_changed_by_desc)` | `cast(Task._LastChangedByUser._BusinessPartner[IsBusinessPurposeCompleted = ''].BusinessPartnerFullName` |
-| `Task._SupplierActivity._SupplierActivity.SuplrActyName` | `Task._SupplierActivity._SupplierActivity.SuplrActyName` |
-| `Task._SupplierActivityTaskPrio._SupplierActivityTaskPrioText[1:Language=$parameters.P_Language].SuplrActyTaskPriorityName` | `Task._SupplierActivityTaskPrio._SupplierActivityTaskPrioText[1:Language=$parameters.P_Language].SuplrActyTaskPriorityName` |
+| `SuplrActyTaskUUID` | `Task.SuplrActyTaskUUID` |
+| `SupplierActivityTask` | `cast(ltrim(Task.SupplierActivityTask,'0') as /srmsmc/task_id )` |
+| `SuplrActyTaskName` | `Task.SuplrActyTaskName` |
+| `EndDate` | `Task.EndDate` |
+| `CreationDateTime` | `Task.CreationDateTime` |
+| `CreatedByUser` | `cast(Task.CreatedByUser as /srmsmc/created_by )` |
+| `LastChangeDateTime` | `Task.LastChangeDateTime` |
+| `LastChangedByUser` | `cast(Task.LastChangedByUser as /srmsmc/last_changed_by )` |
+| `Language` | `Task.Language` |
+| `CreatedByUserDescription` | `cast(…)` |
+| `LastChangedByUserName` | `cast(…)` |
+| `SuplrActyName` | `Task._SupplierActivity._SupplierActivity.SuplrActyName` |
+| `SuplrActyTaskPriorityName` | `expr(…)` |
 | `FormOfAddressName` | `formofaddressname.FormOfAddressName` |
 | `FirstName` | `businessuser.FirstName` |
 | `FamilyName` | `businessuser.LastName` |

@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/sapapo/location_id preserving type )` | `cast( locid` |
-| `spras preserving type )` | `cast( spras` |
+| `LocationUUID` | `cast( locid as /sapapo/location_id preserving type )` |
+| `Language` | `cast( spras as spras preserving type )` |
 | `LocationDescription` | `descr40` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_LocationBasic` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
+| `_LocationBasic` | `I_LocationBasic_2` | — |
 
 ## Source Code
 

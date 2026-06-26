@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingObject` | `ControllingObject` |
+| `ControllingObject` | `ControllingObject` |
 | `ControllingArea` | `ControllingArea` |
 
 ## Associations

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `drukz )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PricingProcedureItemPrintType` | `cast ( substring( domvalue_l, 1, 1 ) as drukz )` |
+| `PrcgProcedItemPrintTypeName` | `cast ( ddtext as val_text )` |
 | `_PrcgProcedItemPrntType` | *Association* |
 | `_Language` | *Association* |
 

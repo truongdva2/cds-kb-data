@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
-| `key SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
+| `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
 | `ServiceObjectType` | `ServiceObjectType` |
@@ -45,8 +45,6 @@ tags:
 | `SrvcDocLongTextCreatedByUser` | `SrvcDocLongTextCreatedByUser` |
 | `SrvcDocLongTextChangedDateTime` | `SrvcDocLongTextChangedDateTime` |
 | `SrvcDocLongTextChangedByUser` | `SrvcDocLongTextChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationTP : redirected to parent I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

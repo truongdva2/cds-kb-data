@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGEnergyMix` | `_Source.GHGEnergyMix` |
-| `_Source._Text[1: Language=$session.system_language].GHGEnergyMixName` | *Association* |
+| `GHGEnergyMix` | `_Source.GHGEnergyMix` |
+| `GHGEnergyMixName` | `_Source._Text[1: Language=$session.system_language].GHGEnergyMixName` |
 
 ## Associations
 

@@ -35,11 +35,10 @@ tags:
 | `CADocumentType` | `blart` |
 | `Language` | `spras` |
 | `CAApplicationArea` | `applk` |
-| `blart_text_kk  preserving type )` | `cast( ltext` |
+| `CADocumentTypeName` | `cast( ltext as blart_text_kk preserving type )` |
 | `_Language` | *Association* |
 | `_CAApplicationArea` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea                              as _ApplArea` | *Association* |
+| `_ApplArea` | *Association* |
 
 ## Associations
 

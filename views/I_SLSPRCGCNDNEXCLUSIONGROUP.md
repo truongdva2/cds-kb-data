@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionUsage` | `ConditionUsage` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key ConditionExclusionGroup` | `ConditionExclusionGroup` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionExclusionGroup` | `ConditionExclusionGroup` |
 | `_SlsPrcgCndnTypeInExclsnGroup` | *Association* |
 | `_SlsCndnExclsnForPrcgProced` | *Association* |
 | `_Text` | *Association* |

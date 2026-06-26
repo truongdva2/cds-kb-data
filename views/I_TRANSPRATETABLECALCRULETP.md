@@ -31,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableCalcRuleUUID` | `TranspRateTableCalcRuleUUID` |
+| `TranspRateTableCalcRuleUUID` | `TranspRateTableCalcRuleUUID` |
 | `TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationCalculationBase` | `TransportationCalculationBase` |
-| `/scmtms/rttable_calcrule_price preserving type )` | `cast( TranspRateCalcRulePricePerQty` |
+| `TranspRateCalcRulePricePerQty` | `cast(…)` |
 | `TranspRateTableCalcRuleQtyUnit` | `TranspRateTableCalcRuleQtyUnit` |
-| `TranspRateTableCalcRule._TransportationRateTable : redirected to I_TransportationRateTableTP` | `TranspRateTableCalcRule._TransportationRateTable : redirected to I_TransportationRateTableTP` |
-| `TranspRateTableCalcRule._TranspRateTableValidity : redirected to parent I_TranspRateTableValidityTP` | `TranspRateTableCalcRule._TranspRateTableValidity : redirected to parent I_TranspRateTableValidityTP` |
 
 ## Associations
 

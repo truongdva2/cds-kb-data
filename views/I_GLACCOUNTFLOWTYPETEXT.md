@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glaccount_flow_type preserving type )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fis_val_text preserving type )` | `cast(dd07t.ddtext` |
+| `GLAccountFlowType` | `cast( dd07t.domvalue_l as fis_glaccount_flow_type preserving type )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `GLAccountFlowTypeName` | `cast(dd07t.ddtext as fis_val_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

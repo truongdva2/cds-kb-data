@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassKeyword.ClassInternalID` | `ClassKeyword.ClassInternalID` |
-| `key ClassKeyword.Language` | `ClassKeyword.Language` |
-| `key ClassKeyword.ClassKeywordPositionNumber` | `ClassKeyword.ClassKeywordPositionNumber` |
-| `ClassKeyword.ClassKeywordText` | `ClassKeyword.ClassKeywordText` |
+| `ClassInternalID` | `ClassKeyword.ClassInternalID` |
+| `Language` | `ClassKeyword.Language` |
+| `ClassKeywordPositionNumber` | `ClassKeyword.ClassKeywordPositionNumber` |
+| `ClassKeywordText` | `ClassKeyword.ClassKeywordText` |
 | `_Language` | *Association* |
 | `_Class` | *Association* |
 

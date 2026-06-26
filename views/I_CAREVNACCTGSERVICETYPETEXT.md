@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CARevenueAccountingServiceType` | `service_type` |
-| `spras preserving type )` | `cast( langu` |
+| `Language` | `cast( langu as spras preserving type )` |
 | `CARevnAcctgServiceTypeText` | `text` |
 | `_Language` | *Association* |
 

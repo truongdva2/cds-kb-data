@@ -31,53 +31,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_BatchPlant.Plant` | `P_BatchPlant.Plant` |
-| `key P_BatchPlant.Material` | `P_BatchPlant.Material` |
-| `key P_BatchPlant.Batch` | `P_BatchPlant.Batch` |
-| `I_BatchCrossPlant.BatchIsMarkedForDeletion` | `I_BatchCrossPlant.BatchIsMarkedForDeletion` |
-| `I_BatchCrossPlant.MatlBatchIsInRstrcdUseStock` | `I_BatchCrossPlant.MatlBatchIsInRstrcdUseStock` |
-| `I_BatchCrossPlant.Supplier` | `I_BatchCrossPlant.Supplier` |
-| `I_BatchCrossPlant.BatchBySupplier` | `I_BatchCrossPlant.BatchBySupplier` |
-| `I_BatchCrossPlant.CountryOfOrigin` | `I_BatchCrossPlant.CountryOfOrigin` |
-| `I_BatchCrossPlant.RegionOfOrigin` | `I_BatchCrossPlant.RegionOfOrigin` |
-| `I_BatchCrossPlant.MatlBatchAvailabilityDate` | `I_BatchCrossPlant.MatlBatchAvailabilityDate` |
-| `I_BatchCrossPlant.ShelfLifeExpirationDate` | `I_BatchCrossPlant.ShelfLifeExpirationDate` |
-| `I_BatchCrossPlant.ManufactureDate` | `I_BatchCrossPlant.ManufactureDate` |
-| `I_BatchCrossPlant.NextInspectionDate` | `I_BatchCrossPlant.NextInspectionDate` |
-| `I_BatchCrossPlant.LastGoodsReceiptDate` | `I_BatchCrossPlant.LastGoodsReceiptDate` |
-| `I_BatchCrossPlant.FreeDefinedDate1` | `I_BatchCrossPlant.FreeDefinedDate1` |
-| `I_BatchCrossPlant.FreeDefinedDate2` | `I_BatchCrossPlant.FreeDefinedDate2` |
-| `I_BatchCrossPlant.FreeDefinedDate3` | `I_BatchCrossPlant.FreeDefinedDate3` |
-| `I_BatchCrossPlant.FreeDefinedDate4` | `I_BatchCrossPlant.FreeDefinedDate4` |
-| `I_BatchCrossPlant.FreeDefinedDate5` | `I_BatchCrossPlant.FreeDefinedDate5` |
-| `I_BatchCrossPlant.FreeDefinedDate6` | `I_BatchCrossPlant.FreeDefinedDate6` |
-| `I_BatchCrossPlant.BatchCertificationDate` | `I_BatchCrossPlant.BatchCertificationDate` |
-| `kzdch)` | `cast('1'` |
-| `subordinate_batch preserving type )` | `cast('X'` |
-| `werks_d preserving type)` | `cast('    '` |
-| `I_BatchCrossPlant.CreationDateTime` | `I_BatchCrossPlant.CreationDateTime` |
-| `I_BatchCrossPlant.LastChangeDateTime` | `I_BatchCrossPlant.LastChangeDateTime` |
-| `I_BatchCrossPlant.ClfnObjectInternalID` | `I_BatchCrossPlant.ClfnObjectInternalID` |
-| `P_BatchPlant.BatchExtWhseMgmtInternalId` | `P_BatchPlant.BatchExtWhseMgmtInternalId` |
-| `I_BatchCrossPlant.StockSegment` | `I_BatchCrossPlant.StockSegment` |
-| `I_BatchCrossPlant.ExportAndImportProductGroup` | `I_BatchCrossPlant.ExportAndImportProductGroup` |
-| `P_BatchPlant.InventoryValuationType` | `P_BatchPlant.InventoryValuationType` |
-| `P_BatchPlant._Plant` | `P_BatchPlant._Plant` |
-| `P_BatchPlant._Material` | `P_BatchPlant._Material` |
-| `I_BatchCrossPlant._Supplier` | `I_BatchCrossPlant._Supplier` |
-| `I_BatchCrossPlant._CountryOfOrigin` | `I_BatchCrossPlant._CountryOfOrigin` |
-| `I_BatchCrossPlant._RegionOfOrigin` | `I_BatchCrossPlant._RegionOfOrigin` |
+| `Plant` | `Plant` |
+| `Material` | `Material` |
+| `Batch` | `Batch` |
+| `BatchIsMarkedForDeletion` | `BatchIsMarkedForDeletion` |
+| `MatlBatchIsInRstrcdUseStock` | `MatlBatchIsInRstrcdUseStock` |
+| `Supplier` | `Supplier` |
+| `BatchBySupplier` | `BatchBySupplier` |
+| `CountryOfOrigin` | `CountryOfOrigin` |
+| `RegionOfOrigin` | `RegionOfOrigin` |
+| `MatlBatchAvailabilityDate` | `MatlBatchAvailabilityDate` |
+| `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
+| `ManufactureDate` | `ManufactureDate` |
+| `NextInspectionDate` | `NextInspectionDate` |
+| `LastGoodsReceiptDate` | `LastGoodsReceiptDate` |
+| `FreeDefinedDate1` | `FreeDefinedDate1` |
+| `FreeDefinedDate2` | `FreeDefinedDate2` |
+| `FreeDefinedDate3` | `FreeDefinedDate3` |
+| `FreeDefinedDate4` | `FreeDefinedDate4` |
+| `FreeDefinedDate5` | `FreeDefinedDate5` |
+| `FreeDefinedDate6` | `FreeDefinedDate6` |
+| `BatchCertificationDate` | `BatchCertificationDate` |
+| `DefinitionOfBatchLevel` | `DefinitionOfBatchLevel` |
+| `IsSubordinateBatch` | `cast(' ' as subordinate_batch preserving type )` |
+| `BatchIdentifyingPlant` | `Plant` |
+| `CreationDateTime` | `CreationDateTime` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `ClfnObjectInternalID` | `ClfnObjectInternalID` |
+| `BatchExtWhseMgmtInternalId` | `BatchExtWhseMgmtInternalId` |
+| `StockSegment` | `StockSegment` |
+| `ExportAndImportProductGroup` | `ExportAndImportProductGroup` |
+| `InventoryValuationType` | `InventoryValuationType` |
+| `_Plant` | *Association* |
+| `_Material` | *Association* |
+| `_Supplier` | *Association* |
+| `_CountryOfOrigin` | *Association* |
+| `_RegionOfOrigin` | *Association* |
 | `_Product` | *Association* |
 | `_ClfnObjectClassForKeyDate` | *Association* |
 | `_ClfnObjectCharcValForKeyDate` | *Association* |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_Product` | `I_Product` | [1..1] |
-| `_ClfnObjectClassForKeyDate` | `I_ClfnObjectClassForKeyDate` | [0..1] |
-| `_ClfnObjectCharcValForKeyDate` | `I_ClfnObjectCharcValForKeyDate` | [0..*] |
+> No associations found.
 
 ## Source Code
 

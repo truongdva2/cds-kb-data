@@ -36,19 +36,9 @@ tags:
 | `DistributionChannel` | `knvp.vtweg` |
 | `Division` | `knvp.spart` |
 | `PartnerCounter` | `knvp.parza` |
-| `PartnerFunction, //partner role` | `knvp.parvw` |
+| `PartnerFunction` | `knvp.parvw` |
 | `PartnerFunctionType` | `tpar.nrart` |
-| `case` | `case` |
-| `when tpar.nrart = 'KU'` | `when tpar.nrart = 'KU'` |
-| `then knvp.kunn2` | `then knvp.kunn2` |
-| `when tpar.nrart = 'LI'` | `when tpar.nrart = 'LI'` |
-| `then knvp.lifnr` | `then knvp.lifnr` |
-| `when tpar.nrart = 'AP'` | `when tpar.nrart = 'AP'` |
-| `then knvp.parnr` | `then knvp.parnr` |
-| `when tpar.nrart = 'PE'` | `when tpar.nrart = 'PE'` |
-| `then knvp.pernr` | `then knvp.pernr` |
-| `else ''` | `else ''` |
-| `BPCustomerNumber` | `end` |
+| `BPCustomerNumber` | `case…end` |
 | `CustomerPartnerDescription` | `knvp.knref` |
 | `DefaultPartner` | `knvp.defpa` |
 | `Supplier` | `knvp.lifnr` |
@@ -66,10 +56,11 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CustomerSalesArea` | `I_CustomerSalesArea` | [1..1] |
+| `_Customer` | `I_Customer` | [1..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
 | `_Division` | `I_Division` | [0..1] |
-| `_PartnerFunction` | `I_PartnerFunction` | [0..1] |
 | `_CustSalesPartnerCounter` | `I_CustSalesPartnerCounter` | [0..1] |
 
 ## Source Code

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/inactive_status preserving type)` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PurgCatIsInactive` | `cast ( substring( domvalue_l, 1, 1 ) as /srmsmc/inactive_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type)` | `cast( ddtext` |
+| `PurgCatIsInactiveName` | `cast( ddtext as /srmsmc/status_descr preserving type)` |
 | `_InactiveStatus` | *Association* |
 | `_Language` | *Association* |
 

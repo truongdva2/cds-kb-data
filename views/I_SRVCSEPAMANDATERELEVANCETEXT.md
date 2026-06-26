@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `crm_sepa_on)` | `cast(domvalue_l` |
+| `SrvcSEPAMandateRelevance` | `cast(domvalue_l as crm_sepa_on)` |
 | `SrvcSEPAMandateRelevanceText` | `ddtext` |
 | `_SrvcSEPAMandateRelevance` | *Association* |
 | `_Language` | *Association* |

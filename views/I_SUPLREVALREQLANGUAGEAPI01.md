@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalReqLanguageUUID` | `SuplrEvalReqLanguageUUID` |
+| `SuplrEvalReqLanguageUUID` | `SuplrEvalReqLanguageUUID` |
 | `SuplrEvalReqUUID` | `SuplrEvalReqUUID` |
 | `SuplrEvalReqQuestionnaireUUID` | `SuplrEvalReqQuestionnaireUUID` |
 | `Language` | `Language` |

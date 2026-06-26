@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eams_tec_obj_type_value )` | `cast( dd07t.domvalue_l` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast( dd07t.domvalue_l as eams_tec_obj_type_value )` |
 | `Language` | `dd07t.ddlanguage` |
-| `eams_tec_obj_type_desc )` | `cast( dd07t.ddtext` |
+| `TechObjIsEquipOrFuncnlLocDesc` | `cast( dd07t.ddtext as eams_tec_obj_type_desc )` |
 | `_Language` | *Association* |
 | `_TechObjIsEquipOrFuncnlLoc` | *Association* |
 

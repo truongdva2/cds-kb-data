@@ -33,8 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `tbslt.spras` |
-| `fis_bschl preserving type)` | `cast(tbslt.bschl` |
-| `fis_bschl_name preserving type )` | `cast (tbslt.ltext` |
+| `PostingKey` | `cast(tbslt.bschl as fis_bschl preserving type)` |
+| `PostingKeyName` | `cast (tbslt.ltext as fis_bschl_name preserving type )` |
 | `_PostingKey` | *Association* |
 | `_Language` | *Association* |
 

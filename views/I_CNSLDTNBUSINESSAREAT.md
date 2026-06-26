@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'BusinessAreaName' }` | `status: #DEPRECATED, successor: 'BusinessAreaName' }` |
-| `fincs_description_text_30 preserving type )` | `cast( _Source.BusinessAreaName` |
-| `fincs_businessareaname preserving type )` | `cast( _Source.BusinessAreaName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `BusinessArea` | `cast( _Source.BusinessArea as fincs_businessarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.BusinessAreaName as fincs_description_text_30 preserving type )` |
+| `BusinessAreaName` | `cast( _Source.BusinessAreaName as fincs_businessareaname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_BusinessArea` | *Association* |
 

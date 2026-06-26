@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `imrs_resvn_compltn_status_code )` | `cast ( dd07l.domvalue_l` |
-| `DomainValue` | `dd07l.domvalue_l` |
+| `ReservationCompletionStatus` | `cast ( dd07l.domvalue_l as imrs_resvn_compltn_status_code )` |
+| `DomainValue` | `-- Text Associations dd07l.domvalue_l` |
 | `_ResvnCompletionStatusText` | *Association* |
 
 ## Associations

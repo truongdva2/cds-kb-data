@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBAccountUUID` | `IHBAccountUUID` |
-| `key IHBAccountLanguage` | `IHBAccountLanguage` |
+| `IHBAccountUUID` | `IHBAccountUUID` |
+| `IHBAccountLanguage` | `IHBAccountLanguage` |
 | `IHBAccountDescription` | `IHBAccountDescription` |
 | `IHBAccountChangedDateTime` | `IHBAccountChangedDateTime` |
-| `_IHBAccountTP : redirected to parent I_IHBAccountTP` | *Association* |
 | `_IHBAccount` | *Association* |
 | `_Language` | *Association* |
 

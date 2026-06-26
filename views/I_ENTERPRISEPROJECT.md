@@ -32,11 +32,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `quickInfo : 'Latest Planned Finish'` | `quickInfo : 'Latest Planned Finish'` |
-| `label     : 'Latest Planned Finish'` | `label     : 'Latest Planned Finish'` |
-| `heading   : 'Latest Planned Finish' }` | `heading   : 'Latest Planned Finish' }` |
+| `ProjectUUID` | `project.guid` |
+| `ProjectInternalID` | `cast ( project.pspnr as ps_s4_proj_pspnr preserving type )` |
+| `CustomerUUID` | `project.customer` |
+| `EnterpriseProjectServiceOrg` | `project.org_id` |
+| `EntProjectIsConfidential` | `project.confidential` |
+| `RestrictedTimePosting` | `project.restrict_time_posting` |
+| `ProjectCategory` | `project.pro_category` |
+| `ProjectSummaryTaskUUID` | `task.guid` |
+| `Project` | `cast ( task.external_id as /s4ppm/project_id preserving type )` |
+| `ProjectDescription` | `task.name` |
+| `ProcessingStatus` | `task.proc_status_own` |
+| `PlannedStartDate` | `task.planstart_date` |
+| `PlannedEndDate` | `task.planfinish_date` |
+| `ActualStartDate` | `task.actualstart_date` |
+| `ActualFinishDate` | `task.actualfinish_date` |
+| `PriorityCode` | `task.priority` |
+| `EntProjIsMultiSlsOrdItmsEnbld` | `task.multi_soi_enabled` |
+| `ProjectStartDate` | `task.latest_start_date` |
 | `ProjectEndDate` | `task.latest_finish_date` |
-| `ps_s4_pspnr preserving type )` | `cast ( prps.pspnr` |
+| `WBSElementInternalID` | `cast ( prps.pspnr as ps_s4_pspnr preserving type )` |
 | `ProjectProfileCode` | `proj.profl` |
 | `ProfitCenter` | `proj.prctr` |
 | `CompanyCode` | `proj.vbukr` |
@@ -44,7 +59,7 @@ tags:
 | `FunctionalArea` | `proj.func_area` |
 | `Location` | `proj.stort` |
 | `Plant` | `proj.werks` |
-| `/s4ppm/tv_project_currency preserving type )` | `cast ( proj.cpcurr` |
+| `Currency` | `cast ( proj.cpcurr as /s4ppm/tv_project_currency preserving type )` |
 | `AvailabilityControlProfile` | `proj.avc_profile` |
 | `AvailabilityControlIsActive` | `proj.avc_active` |
 | `InvestmentProfile` | `proj.imprf` |
@@ -61,7 +76,7 @@ tags:
 | `LastChangedByUser` | `task.changed_by` |
 | `LastChangeDateTime` | `task.changed_on` |
 | `ProjectLastChangedByUser` | `project.last_changed_by` |
-| `/s4ppm/tv_proj_changed_on preserving type )` | `cast ( project.last_changed_on` |
+| `ProjectLastChangedDateTime` | `cast ( project.last_changed_on as /s4ppm/tv_proj_changed_on preserving type )` |
 | `EntProjHasProjectStockEnabled` | `project.entprojhasprojectstockenabled` |
 | `EntProjectSettlementType` | `project.entprojectsettlementtype` |
 | `EntProjectSettlementElement` | `project.entprojectsettlementelement` |

@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
+| `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `MaintenancePlannerGroupName` | `MaintenancePlannerGroupName` |
 | `_MaintenancePlanningPlant` | *Association* |
 

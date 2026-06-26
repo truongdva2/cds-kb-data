@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
-| `key EarmarkedFundsDocumentItem` | `EarmarkedFundsDocumentItem` |
-| `key EmrkdFndsDocItmMnlReducn` | `EmrkdFndsDocItmMnlReducn` |
+| `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
+| `EarmarkedFundsDocumentItem` | `EarmarkedFundsDocumentItem` |
+| `EmrkdFndsDocItmMnlReducn` | `EmrkdFndsDocItmMnlReducn` |
 | `CompanyCode` | `CompanyCode` |
 | `BusinessTransactionType` | `BusinessTransactionType` |
 | `CreatedByUser` | `CreatedByUser` |
@@ -59,9 +59,6 @@ tags:
 | `EmrkdFndsProcgAmtInTransCrcy` | `EmrkdFndsProcgAmtInTransCrcy` |
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `EmrkdFndsProcgAmtInCCCrcy` | `EmrkdFndsProcgAmtInCCCrcy` |
-| `/* Associations */` | `/* Associations */` |
-| `efitmred._EarmarkedFundsDocumentItem : redirected to parent I_EarmarkedFundsDocumentItemTP` | `efitmred._EarmarkedFundsDocumentItem : redirected to parent I_EarmarkedFundsDocumentItemTP` |
-| `efitmred._EarmarkedFundsDocument : redirected to I_EarmarkedFundsDocumentTP` | `efitmred._EarmarkedFundsDocument : redirected to I_EarmarkedFundsDocumentTP` |
 
 ## Associations
 

@@ -31,7 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'ProjDmndRsceReqDistrRevnAmtCur'} }` | `currencyCode: 'ProjDmndRsceReqDistrRevnAmtCur'} }` |
+| `ProjDmndRsceReqDistrUUID` | `ProjDmndRsceReqDistrUUID` |
+| `ProjDmndResourceRequestUUID` | `ProjDmndResourceRequestUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjectUUID` | `ProjectUUID` |
+| `ReferencedObjectUUID` | `ReferencedObjectUUID` |
+| `ProjDmndRsceReqDistrYearVal` | `ProjDmndRsceReqDistrYearVal` |
+| `ProjDmndRsceReqDistrPerdVal` | `ProjDmndRsceReqDistrPerdVal` |
+| `ProjDmndRsceReqDistrQuantity` | `ProjDmndRsceReqDistrQuantity` |
+| `ProjDmndRsceReqDistrQtyUnit` | `ProjDmndRsceReqDistrQtyUnit` |
+| `ProjDmndRsceReqDistrPerdAmt` | `ProjDmndRsceReqDistrPerdAmt` |
+| `ProjDmndRsceReqDistrPerdAmtCur` | `ProjDmndRsceReqDistrPerdAmtCur` |
 | `ProjDmndRsceReqDistrRevenueAmt` | `ProjDmndRsceReqDistrRevenueAmt` |
 | `ProjDmndRsceReqDistrRevnAmtCur` | `ProjDmndRsceReqDistrRevnAmtCur` |
 | `ProjDmndReferencedPlanDataUUID` | `ProjDmndReferencedPlanDataUUID` |
@@ -41,16 +51,10 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* BO internal Associations */` | `/* BO internal Associations */` |
-| `_Root            : redirected to I_ProjectDemandTP_2` | *Association* |
-| `/* External Associations */` | `/* External Associations */` |
 | `_EnterpriseProject` | *Association* |
-| `/* I_ProjDmndRsceReqDistribution Associations */` | `/* I_ProjDmndRsceReqDistribution Associations */` |
 | `_ProjDmndRsceReqDistrQtyUnit` | *Association* |
 | `_DmndRsceReqDistrPerdAmtCur` | *Association* |
 | `_DmndRsceReqDistrRevnAmtCur` | *Association* |
-| `/*  I_ProjDmndResourceRequestTP Associations */` | `/*  I_ProjDmndResourceRequestTP Associations */` |
-| `_ProjDmndRsceReq : redirected to parent I_ProjDmndResourceRequestTP` | *Association* |
 
 ## Associations
 

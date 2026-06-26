@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressGroup` | `AddressGroup` |
+| `AddressGroup` | `AddressGroup` |
 | `_Text` | *Association* |
 
 ## Associations

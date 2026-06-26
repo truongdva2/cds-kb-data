@@ -27,10 +27,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CustMgmtObjectType        : crmt_subobject_category_db;` | `CustMgmtObjectType        : crmt_subobject_category_db;` |
-| `BusinessSolutionOrderUUID : crmt_object_guid;` | `BusinessSolutionOrderUUID : crmt_object_guid;` |
-| `BusSolnOrdType            : crmt_process_type_db;` | `BusSolnOrdType            : crmt_process_type_db;` |
-| `BusSolnOrdDescription     : crmt_process_description;` | `BusSolnOrdDescription     : crmt_process_description;` |
+| `CustMgmtObjectType` | `crmt_subobject_category_db` |
+| `BusinessSolutionOrderUUID` | `crmt_object_guid` |
+| `BusSolnOrdType` | `crmt_process_type_db` |
+| `BusSolnOrdDescription` | `crmt_process_description` |
 
 ## Associations
 

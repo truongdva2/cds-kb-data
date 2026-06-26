@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 1 }]` | `position: 1 }]` |
-| `key UsageDecisionCode` | `UsageDecisionCode` |
+| `UsageDecisionCodeGroup` | `UsageDecisionCodeGroup` |
+| `UsageDecisionCode` | `UsageDecisionCode` |
 | `_Text` | *Association* |
 | `_UsageDecisionCodeGroup` | *Association* |
 

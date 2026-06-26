@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `miskz )` | `cast ( dd07l.domvalue_l` |
+| `MRPAvailabilityType` | `cast ( dd07l.domvalue_l as miskz )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

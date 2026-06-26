@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ShareAll       : abp_behv_draft_share_all_ind;` | `ShareAll       : abp_behv_draft_share_all_ind;` |
-| `IsDeltaUpdate : abp_behv_draft_delta_upd_ind;` | `IsDeltaUpdate : abp_behv_draft_delta_upd_ind;` |
-| `Users : composition [1..*] of ABP_BEHV_DRAFT_USER_ACCESS;` | `Users : composition [1..*] of ABP_BEHV_DRAFT_USER_ACCESS;` |
+| `ShareAll` | `abp_behv_draft_share_all_ind` |
+| `IsDeltaUpdate` | `abp_behv_draft_delta_upd_ind` |
+| `Users` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `Users` | `ABP_BEHV_DRAFT_USER_ACCESS` | [1..*] |
 
 ## Source Code
 

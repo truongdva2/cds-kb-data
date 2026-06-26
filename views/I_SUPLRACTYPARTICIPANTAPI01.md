@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrActyPartyUUID` | `SuplrActyPartyUUID` |
+| `SuplrActyPartyUUID` | `SuplrActyPartyUUID` |
 | `SuplrActyUUID` | `SuplrActyUUID` |
 | `UserID` | `UserID` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

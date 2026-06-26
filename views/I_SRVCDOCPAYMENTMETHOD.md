@@ -32,9 +32,9 @@ tags:
 | `PaymentMethod` | `_PaymentMethod.PaymentMethod` |
 | `SalesOrganization` | `_SlsOrgIDDetmCountry.SalesOrganization` |
 | `OrgUnitTypeIDConcatenated` | `_SlsOrgIDDetmCountry.OrgUnitTypeIDConcatenated` |
-| `_PaymentMethod.Country                         as Country` | *Association* |
-| `_PaymentMethod._Text[1:Language = $session.system_language and _PaymentMethod.Country = Country and _PaymentMethod.PaymentMethod = PaymentMethod].PaymentMethodDescription` | *Association* |
-| `_PaymentMethod._Text` | *Association* |
+| `Country` | `_PaymentMethod.Country` |
+| `PaymentMethodDescription` | `expr(…)` |
+| `_Text` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_SalesOrganizationOrgUnit` | *Association* |
 

@@ -31,35 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _ErroItem.FinSGLErrorItemUUID` | `_ErroItem.FinSGLErrorItemUUID` |
-| `I_JournalEntryItem.SourceLedger` | `I_JournalEntryItem.SourceLedger` |
-| `I_JournalEntryItem.Ledger` | `I_JournalEntryItem.Ledger` |
-| `I_JournalEntryItem.CompanyCode` | `I_JournalEntryItem.CompanyCode` |
-| `I_JournalEntryItem.FiscalYear` | `I_JournalEntryItem.FiscalYear` |
-| `I_JournalEntryItem.AccountingDocument` | `I_JournalEntryItem.AccountingDocument` |
-| `I_JournalEntryItem.LedgerGLLineItem` | `I_JournalEntryItem.LedgerGLLineItem` |
-| `I_JournalEntryItem.GLAccount` | `I_JournalEntryItem.GLAccount` |
-| `I_JournalEntryItem.PartnerCompany` | `I_JournalEntryItem.PartnerCompany` |
-| `I_JournalEntryItem.CostCenter` | `I_JournalEntryItem.CostCenter` |
-| `I_JournalEntryItem.ProfitCenter` | `I_JournalEntryItem.ProfitCenter` |
-| `I_JournalEntryItem.PartnerProfitCenter` | `I_JournalEntryItem.PartnerProfitCenter` |
-| `I_JournalEntryItem.DocumentItemText` | `I_JournalEntryItem.DocumentItemText` |
-| `I_JournalEntryItem.BalanceTransactionCurrency` | `I_JournalEntryItem.BalanceTransactionCurrency` |
-| `I_JournalEntryItem.AmountInBalanceTransacCrcy` | `I_JournalEntryItem.AmountInBalanceTransacCrcy` |
-| `I_JournalEntryItem.TransactionCurrency` | `I_JournalEntryItem.TransactionCurrency` |
-| `I_JournalEntryItem.AmountInTransactionCurrency` | `I_JournalEntryItem.AmountInTransactionCurrency` |
-| `I_JournalEntryItem.CompanyCodeCurrency` | `I_JournalEntryItem.CompanyCodeCurrency` |
-| `I_JournalEntryItem.AmountInCompanyCodeCurrency` | `I_JournalEntryItem.AmountInCompanyCodeCurrency` |
-| `I_JournalEntryItem.GlobalCurrency` | `I_JournalEntryItem.GlobalCurrency` |
-| `I_JournalEntryItem.AmountInGlobalCurrency` | `I_JournalEntryItem.AmountInGlobalCurrency` |
-| `I_JournalEntryItem.FunctionalCurrency` | `I_JournalEntryItem.FunctionalCurrency` |
-| `I_JournalEntryItem.AmountInFunctionalCurrency` | `I_JournalEntryItem.AmountInFunctionalCurrency` |
-| `I_JournalEntryItem.FinancialServicesProductGroup` | `I_JournalEntryItem.FinancialServicesProductGroup` |
-| `I_JournalEntryItem.FinancialServicesBranch` | `I_JournalEntryItem.FinancialServicesBranch` |
-| `I_JournalEntryItem.FinancialDataSource` | `I_JournalEntryItem.FinancialDataSource` |
-| `I_JournalEntryItem.CustomerSupplierIndustry` | `I_JournalEntryItem.CustomerSupplierIndustry` |
-| `I_JournalEntryItem.CustomerGroup` | `I_JournalEntryItem.CustomerGroup` |
-| `I_JournalEntryItem.CustomerSupplierCountry` | `I_JournalEntryItem.CustomerSupplierCountry` |
+| `FinSGLErrorItemUUID` | `_ErroItem.FinSGLErrorItemUUID` |
+| `SourceLedger` | `I_JournalEntryItem.SourceLedger` |
+| `Ledger` | `I_JournalEntryItem.Ledger` |
+| `CompanyCode` | `I_JournalEntryItem.CompanyCode` |
+| `FiscalYear` | `I_JournalEntryItem.FiscalYear` |
+| `AccountingDocument` | `I_JournalEntryItem.AccountingDocument` |
+| `LedgerGLLineItem` | `I_JournalEntryItem.LedgerGLLineItem` |
+| `GLAccount` | `I_JournalEntryItem.GLAccount` |
+| `PartnerCompany` | `I_JournalEntryItem.PartnerCompany` |
+| `CostCenter` | `I_JournalEntryItem.CostCenter` |
+| `ProfitCenter` | `I_JournalEntryItem.ProfitCenter` |
+| `PartnerProfitCenter` | `I_JournalEntryItem.PartnerProfitCenter` |
+| `DocumentItemText` | `I_JournalEntryItem.DocumentItemText` |
+| `BalanceTransactionCurrency` | `I_JournalEntryItem.BalanceTransactionCurrency` |
+| `AmountInBalanceTransacCrcy` | `I_JournalEntryItem.AmountInBalanceTransacCrcy` |
+| `TransactionCurrency` | `I_JournalEntryItem.TransactionCurrency` |
+| `AmountInTransactionCurrency` | `I_JournalEntryItem.AmountInTransactionCurrency` |
+| `CompanyCodeCurrency` | `I_JournalEntryItem.CompanyCodeCurrency` |
+| `AmountInCompanyCodeCurrency` | `I_JournalEntryItem.AmountInCompanyCodeCurrency` |
+| `GlobalCurrency` | `I_JournalEntryItem.GlobalCurrency` |
+| `AmountInGlobalCurrency` | `I_JournalEntryItem.AmountInGlobalCurrency` |
+| `FunctionalCurrency` | `I_JournalEntryItem.FunctionalCurrency` |
+| `AmountInFunctionalCurrency` | `I_JournalEntryItem.AmountInFunctionalCurrency` |
+| `FinancialServicesProductGroup` | `I_JournalEntryItem.FinancialServicesProductGroup` |
+| `FinancialServicesBranch` | `I_JournalEntryItem.FinancialServicesBranch` |
+| `FinancialDataSource` | `I_JournalEntryItem.FinancialDataSource` |
+| `CustomerSupplierIndustry` | `I_JournalEntryItem.CustomerSupplierIndustry` |
+| `CustomerGroup` | `I_JournalEntryItem.CustomerGroup` |
+| `CustomerSupplierCountry` | `I_JournalEntryItem.CustomerSupplierCountry` |
 
 ## Associations
 

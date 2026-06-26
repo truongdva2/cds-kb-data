@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vrmod )` | `cast( dd07l.domvalue_l` |
+| `ProdRqmtsConsumptionMode` | `cast( dd07l.domvalue_l as vrmod )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

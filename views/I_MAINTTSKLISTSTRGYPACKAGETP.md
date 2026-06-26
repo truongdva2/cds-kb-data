@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   TaskListType` | `TaskListType` |
-| `key   TaskListGroup` | `TaskListGroup` |
-| `key   TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key   TaskListSequence` | `TaskListSequence` |
-| `key   TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `key   MaintenancePackage` | `MaintenancePackage` |
-| `key   MaintPckgTskListOpAllocIntNmbr` | `MaintPckgTskListOpAllocIntNmbr` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
+| `MaintenancePackage` | `MaintenancePackage` |
+| `MaintPckgTskListOpAllocIntNmbr` | `MaintPckgTskListOpAllocIntNmbr` |
 | `MaintenancePackageText` | `MaintenancePackageText` |
 | `MaintenanceTaskListOperation` | `MaintenanceTaskListOperation` |
 | `OperationText` | `OperationText` |
@@ -52,7 +52,6 @@ tags:
 | `ResponsiblePlannerGroup` | `ResponsiblePlannerGroup` |
 | `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
 | `Plant` | `Plant` |
-| `_Header : redirected to parent I_MaintenanceTaskListTP_2` | *Association* |
 
 ## Associations
 

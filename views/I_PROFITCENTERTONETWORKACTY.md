@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ps_s4_aufnr preserving type)` | `cast ( aufnr` |
-| `fis_networkactivity_no_conv preserving type)` | `cast ( vornr` |
+| `ProjectNetwork` | `cast ( aufnr as ps_s4_aufnr preserving type)` |
+| `NetworkActivity` | `cast ( vornr as fis_networkactivity_no_conv preserving type)` |
 | `ValidityStartDate` | `valid_from` |
 | `ValidityEndDate` | `valid_to` |
 | `ControllingArea` | `kokrs` |
@@ -44,9 +44,9 @@ tags:
 | `OrganizationalChange` | `orgl_change` |
 | `OrglChangeReassignmentStatus` | `reassgmt_status` |
 | `ProfitCenterDerivationSrceType` | `prctr_drvtn_source_type` |
-| `aufnr preserving type)` | `cast(srce_aufnr` |
-| `ps_s4_proj_pspnr preserving type)` | `cast (srce_ps_prj_pnr` |
-| `fis_wbsint_no_conv preserving type)` | `cast(srce_ps_psp_pnr` |
+| `SourceOrder` | `cast(srce_aufnr as aufnr preserving type)` |
+| `SourceProjectInternalID` | `cast (srce_ps_prj_pnr as ps_s4_proj_pspnr preserving type)` |
+| `SourceWBSElementInternalID` | `cast(srce_ps_psp_pnr as fis_wbsint_no_conv preserving type)` |
 | `ProjectNetworkInternalID` | `aufpl` |
 | `NetworkActivityInternalID` | `aplzl` |
 | `_OrglChgReassignmentStatus` | *Association* |

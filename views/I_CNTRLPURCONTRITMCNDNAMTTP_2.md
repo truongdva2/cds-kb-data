@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ProcmtHubPlantUniqueID` | `ProcmtHubPlantUniqueID` |
 | `ConditionType` | `ConditionType` |
@@ -69,10 +69,6 @@ tags:
 | `PricingScaleBasisShort` | `PricingScaleBasisShort` |
 | `PricingScaleLine` | `PricingScaleLine` |
 | `ConditionHasScales` | `ConditionHasScales` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralPurchaseContract    : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurContrItmCndnValdty : redirected to parent I_CePuCoItmCndnValidityTP_2` | *Association* |
-| `_CntrlPurContrItmScales     : redirected to composition child I_CePuCoItmCndnScalesTP_2` | *Association* |
 
 ## Associations
 

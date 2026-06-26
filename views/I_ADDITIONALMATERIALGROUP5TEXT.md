@@ -42,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AdditionalMaterialGroup5` | `I_AdditionalMaterialGroup5` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

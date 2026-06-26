@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transprate_text_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpratetable_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/vdm_rt_desc preserving type)` | `cast(description` |
+| `TranspRateTableDescUUID` | `cast(db_key as /scmtms/transprate_text_uuid preserving type)` |
+| `TransportationRateUUID` | `cast(parent_key as /scmtms/transpratetable_uuid preserving type)` |
+| `TranspRateTableDesc` | `cast(description as /scmtms/vdm_rt_desc preserving type)` |
 | `_TransportationRate` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransportationRate` | `I_TransportationRate` | — |
 
 ## Source Code
 

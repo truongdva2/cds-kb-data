@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LogAccMObjectID` | `LogAccMObjectID` |
-| `key LogAccMSecureID` | `LogAccMSecureID` |
-| `key LogAccMObjectType` | `LogAccMObjectType` |
+| `LogAccMObjectID` | `LogAccMObjectID` |
+| `LogAccMSecureID` | `LogAccMSecureID` |
+| `LogAccMObjectType` | `LogAccMObjectType` |
 | `LogAccMObjectAssignmentType` | `LogAccMObjectAssignmentType` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |

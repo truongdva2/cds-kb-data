@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_skuend )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinTransNoticePeriodUnit` | `cast( dd07t.domvalue_l as tb_skuend )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_skuend_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinTransNoticePeriodUnitName` | `cast( dd07t.ddtext as tb_skuend_name preserving type )` |
 | `_NoticePeriodUnit` | *Association* |
 | `_Language` | *Association* |
 

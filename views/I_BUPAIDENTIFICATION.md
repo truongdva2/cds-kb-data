@@ -39,7 +39,7 @@ tags:
 | `Region` | `region` |
 | `ValidityStartDate` | `valid_date_from` |
 | `ValidityEndDate` | `valid_date_to` |
-| `_BusinessPartner.AuthorizationGroup as AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_BusinessPartner` | *Association* |
 | `_BuPaIdentificationType` | *Association* |
 

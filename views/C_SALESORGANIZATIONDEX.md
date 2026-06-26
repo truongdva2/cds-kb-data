@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrganization` | `SalesOrganization` |
+| `SalesOrganization` | `SalesOrganization` |
 | `SalesOrganizationCurrency` | `SalesOrganizationCurrency` |
 | `IntercompanyBillingCustomer` | `IntercompanyBillingCustomer` |
 | `CompanyCode` | `CompanyCode` |
-| `_CompanyCode.Country` | *Association* |
-| `_CompanyCode.Currency` | *Association* |
-| `_CompanyCode.FiscalYearVariant` | *Association* |
+| `Country` | `_CompanyCode.Country` |
+| `Currency` | `_CompanyCode.Currency` |
+| `FiscalYearVariant` | `_CompanyCode.FiscalYearVariant` |
 | `_Text` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_IntercompanyBillingCustomer` | *Association* |

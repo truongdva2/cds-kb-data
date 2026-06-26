@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SettlmtDocItemStdVH', element: 'SettlmtDocItem' } }]` | `name: 'I_SettlmtDocItemStdVH', element: 'SettlmtDocItem' } }]` |
-| `}` | `}` |
-| `key SettlmtDocItem` | `SettlmtDocItem` |
-| `key SetldBusVolDocCategory` | `SetldBusVolDocCategory` |
-| `key SetldBusVolDocKey1` | `SetldBusVolDocKey1` |
-| `key SetldBusVolDocKey2` | `SetldBusVolDocKey2` |
-| `key SetldBusVolDocKey3` | `SetldBusVolDocKey3` |
-| `key SetldBusVolDocItem` | `SetldBusVolDocItem` |
+| `ConditionContract` | `ConditionContract` |
+| `SettlmtDoc` | `SettlmtDoc` |
+| `SettlmtDocItem` | `SettlmtDocItem` |
+| `SetldBusVolDocCategory` | `SetldBusVolDocCategory` |
+| `SetldBusVolDocKey1` | `SetldBusVolDocKey1` |
+| `SetldBusVolDocKey2` | `SetldBusVolDocKey2` |
+| `SetldBusVolDocKey3` | `SetldBusVolDocKey3` |
+| `SetldBusVolDocItem` | `SetldBusVolDocItem` |
 | `BusVolSelDteForSettlmt` | `BusVolSelDteForSettlmt` |
 | `SettledBusVolQty` | `SettledBusVolQty` |
 | `SettledBusVolQtyUnit` | `SettledBusVolQtyUnit` |
@@ -54,7 +54,6 @@ tags:
 | `SettledBusVolPointsQtyUnit` | `SettledBusVolPointsQtyUnit` |
 | `SettlmtDocType` | `SettlmtDocType` |
 | `BusVolDocCurrency` | `BusVolDocCurrency` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtDoc` | *Association* |
 | `_SettlmtDocItem` | *Association* |
 | `_ConditionContract` | *Association* |

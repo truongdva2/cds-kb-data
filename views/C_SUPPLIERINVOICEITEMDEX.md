@@ -58,23 +58,22 @@ tags:
 | `Plant` | `Plant` |
 | `DocumentCurrency` | `DocumentCurrency` |
 | `SupplierInvoiceItemAmount` | `SupplierInvoiceItemAmount` |
-| `_SupplierInvoiceAPI01.SuplrInvcAutomReducedAmount   as SuplrInvcAutomReducedAmount` | *Association* |
-| `_SupplierInvoiceAPI01.UnplannedDeliveryCost         as UnplannedDeliveryCost` | *Association* |
-| `_SupplierInvoiceAPI01.DocumentHeaderText            as DocumentHeaderText` | *Association* |
-| `_SupplierInvoiceAPI01.DocumentDate                  as DocumentDate` | *Association* |
-| `_SupplierInvoiceAPI01.PostingDate                   as PostingDate` | *Association* |
-| `_SupplierInvoiceAPI01.CompanyCode                   as CompanyCode` | *Association* |
-| `_SupplierInvoiceAPI01.SupplierInvoiceOrigin         as SupplierInvoiceOrigin` | *Association* |
-| `_SupplierInvoiceAPI01.InvoicingParty                as InvoicingParty` | *Association* |
-| `_SupplierInvoiceAPI01.UnplannedDeliveryCostTaxCode  as UnplannedDeliveryCostTaxCode` | *Association* |
-| `_SupplierInvoiceAPI01.ReverseDocument               as ReverseDocument` | *Association* |
-| `_SupplierInvoiceAPI01.ReverseDocumentFiscalYear     as ReverseDocumentFiscalYear` | *Association* |
-| `_SupplierInvoiceAPI01.SupplierInvoiceIDByInvcgParty as SupplierInvoiceIDByInvcgParty` | *Association* |
-| `_SupplierInvoiceAPI01.IsInvoice                     as IsInvoice` | *Association* |
-| `_SupplierInvoiceAPI01.SupplierInvoiceStatus         as SupplierInvoiceStatus` | *Association* |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `SuplrInvcAutomReducedAmount` | `_SupplierInvoiceAPI01.SuplrInvcAutomReducedAmount` |
+| `UnplannedDeliveryCost` | `_SupplierInvoiceAPI01.UnplannedDeliveryCost` |
+| `DocumentHeaderText` | `_SupplierInvoiceAPI01.DocumentHeaderText` |
+| `DocumentDate` | `_SupplierInvoiceAPI01.DocumentDate` |
+| `PostingDate` | `_SupplierInvoiceAPI01.PostingDate` |
+| `CompanyCode` | `_SupplierInvoiceAPI01.CompanyCode` |
+| `SupplierInvoiceOrigin` | `_SupplierInvoiceAPI01.SupplierInvoiceOrigin` |
+| `InvoicingParty` | `_SupplierInvoiceAPI01.InvoicingParty` |
+| `UnplannedDeliveryCostTaxCode` | `_SupplierInvoiceAPI01.UnplannedDeliveryCostTaxCode` |
+| `ReverseDocument` | `_SupplierInvoiceAPI01.ReverseDocument` |
+| `ReverseDocumentFiscalYear` | `_SupplierInvoiceAPI01.ReverseDocumentFiscalYear` |
+| `SupplierInvoiceIDByInvcgParty` | `_SupplierInvoiceAPI01.SupplierInvoiceIDByInvcgParty` |
+| `IsInvoice` | `_SupplierInvoiceAPI01.IsInvoice` |
+| `SupplierInvoiceStatus` | `_SupplierInvoiceAPI01.SupplierInvoiceStatus` |
 | `_SupplierInvoiceDEX` | *Association* |
-| `I_SuplrInvcItemPurOrdRefAPI01._PurOrdPriceUnitOfMeasure` | `I_SuplrInvcItemPurOrdRefAPI01._PurOrdPriceUnitOfMeasure` |
+| `_PurOrdPriceUnitOfMeasure` | *Association* |
 | `_PurchaseOrder` | *Association* |
 | `_PurchaseOrderItem` | *Association* |
 | `_UnitOfMeasure` | *Association* |

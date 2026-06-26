@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Country` | `Country` |
-| `key Region` | `Region` |
+| `Country` | `Country` |
+| `Region` | `Region` |
 | `_RegionText` | *Association* |
 | `_Country` | *Association* |
 

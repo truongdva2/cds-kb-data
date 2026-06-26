@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7 }` |
+| `CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
 | `CharacteristicAttribCodeGrpTxt` | `CharacteristicAttribCodeGrpTxt` |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 

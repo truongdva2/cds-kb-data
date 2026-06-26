@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fins_obsolete_item_reason preserving type )` | `cast( substring( dd07l.domvalue_l, 1, 1)` |
+| `JrnlEntryItemObsoleteReason` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

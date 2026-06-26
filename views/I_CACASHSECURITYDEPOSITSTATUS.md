@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `c_status_kk )` | `cast( left( domvalue_l,2 )` |
+| `CACashSecurityDepositStatus` | `cast( left( domvalue_l,2 ) as c_status_kk )` |
 | `_Text` | *Association* |
 
 ## Associations

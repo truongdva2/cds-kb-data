@@ -41,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesDocumentItemCategory` | `I_SalesDocumentItemCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

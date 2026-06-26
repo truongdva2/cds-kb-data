@@ -32,16 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrInvcHeaderWhldgTax.SupplierInvoice` | `I_SuplrInvcHeaderWhldgTax.SupplierInvoice` |
-| `key I_SuplrInvcHeaderWhldgTax.FiscalYear` | `I_SuplrInvcHeaderWhldgTax.FiscalYear` |
-| `key WithholdingTaxType` | `WithholdingTaxType` |
-| `I_SuplrInvcHeaderWhldgTax.DocumentCurrency` | `I_SuplrInvcHeaderWhldgTax.DocumentCurrency` |
+| `SupplierInvoice` | `I_SuplrInvcHeaderWhldgTax.SupplierInvoice` |
+| `FiscalYear` | `I_SuplrInvcHeaderWhldgTax.FiscalYear` |
+| `WithholdingTaxType` | `WithholdingTaxType` |
+| `DocumentCurrency` | `I_SuplrInvcHeaderWhldgTax.DocumentCurrency` |
 | `WithholdingTaxCode` | `WithholdingTaxCode` |
 | `WithholdingTaxBaseAmount` | `WithholdingTaxBaseAmount` |
 | `ManuallyEnteredWhldgTaxAmount` | `ManuallyEnteredWhldgTaxAmount` |
-| `/* Associations */` | `/* Associations */` |
 | `_SupplierInvoiceAPI01` | *Association* |
-| `I_SuplrInvcHeaderWhldgTax._Currency` | `I_SuplrInvcHeaderWhldgTax._Currency` |
+| `_Currency` | *Association* |
 
 ## Associations
 

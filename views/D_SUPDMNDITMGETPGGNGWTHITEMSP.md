@@ -28,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material : matnr;` | `Material : matnr;` |
-| `MRPPlant : werks_d;` | `MRPPlant : werks_d;` |
-| `MRPArea  : berid;` | `MRPArea  : berid;` |
+| `Material` | `matnr` |
+| `MRPPlant` | `werks_d` |
+| `MRPArea` | `berid` |
 
 ## Associations
 

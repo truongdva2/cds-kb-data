@@ -34,28 +34,28 @@ tags:
 | `ProposalTaxPostingIdentifier` | `TaxPropslHearder.ptxnr` |
 | `CrossBorderTaxProposalCategory` | `TaxPropslHearder.ptxtype` |
 | `CrossBorderTaxPrpslSubcategory` | `TaxPropslHearder.ptxsubtype` |
-| `MaterialDocument, //` | `TaxPropslHearder.mblnr` |
-| `MaterialDocumentYear, //` | `TaxPropslHearder.mjahr` |
+| `MaterialDocument` | `TaxPropslHearder.mblnr` |
+| `MaterialDocumentYear` | `TaxPropslHearder.mjahr` |
 | `NrOfMaterialDocumentHeaders` | `TaxPropslHearder.hdr_counter` |
-| `OutboundDelivery, //` | `TaxPropslHearder.vbeln` |
-| `TransactionCurrency, //` | `TaxPropslHearder.waerk` |
-| `CompanyCode, //` | `TaxPropslHearder.bukrs` |
-| `ReversedMaterialDocument, //` | `TaxPropslHearder.smbln` |
-| `ReversedMaterialDocumentYear, //` | `TaxPropslHearder.sjahr` |
+| `OutboundDelivery` | `TaxPropslHearder.vbeln` |
+| `TransactionCurrency` | `TaxPropslHearder.waerk` |
+| `CompanyCode` | `TaxPropslHearder.bukrs` |
+| `ReversedMaterialDocument` | `TaxPropslHearder.smbln` |
+| `ReversedMaterialDocumentYear` | `TaxPropslHearder.sjahr` |
 | `NrOfReversedMatlDocHeaders` | `TaxPropslHearder.cr_counter` |
 | `MaterialDocPostgDate` | `TaxPropslHearder.budat` |
-| `MaterialDocumentCreationDate, //` | `TaxPropslHearder.cpudt` |
+| `MaterialDocumentCreationDate` | `TaxPropslHearder.cpudt` |
 | `MaterialDocCreationTime` | `TaxPropslHearder.cputm` |
-| `Customer, //` | `TaxPropslHearder.kunnr` |
-| `TaxDepartureCountry, //` | `TaxPropslHearder.otaxcnty` |
-| `TaxDestinationCountry, //` | `TaxPropslHearder.itaxcnty` |
+| `Customer` | `TaxPropslHearder.kunnr` |
+| `TaxDepartureCountry` | `TaxPropslHearder.otaxcnty` |
+| `TaxDestinationCountry` | `TaxPropslHearder.itaxcnty` |
 | `TaxPostingStatus` | `TaxPropslHearder.taxstatus` |
 | `TaxPostingReverseCode` | `TaxPropslHearder.reversecode` |
 | `TaxPostingCancelCode` | `TaxPropslHearder.cancelcode` |
-| `JournalEntry, //` | `TaxPropslHearder.belnr` |
-| `fis_gjahr_no_conv preserving type)` | `cast(TaxPropslHearder.gjahr` |
-| `PostingDate, //` | `TaxPropslHearder.fibudat` |
-| `CustomerVATRegistration, //` | `TaxPropslHearder.stceg` |
+| `JournalEntry` | `TaxPropslHearder.belnr` |
+| `FiscalYear` | `cast(TaxPropslHearder.gjahr as fis_gjahr_no_conv preserving type)` |
+| `PostingDate` | `TaxPropslHearder.fibudat` |
+| `CustomerVATRegistration` | `TaxPropslHearder.stceg` |
 | `DeptrCtryCoCodeVATRegnNumber` | `TaxPropslHearder.ostceg` |
 | `DestCtryCoCodeVATRegnNumber` | `TaxPropslHearder.istceg` |
 | `CreatedByUser` | `TaxPropslHearder.ernam` |
@@ -64,14 +64,14 @@ tags:
 | `LastChangedByUser` | `TaxPropslHearder.upnam` |
 | `LastChangeDate` | `TaxPropslHearder.updat` |
 | `LastChangeTime` | `TaxPropslHearder.uptim` |
-| `IncotermsPart1, //` | `TaxPropslHearder.inco1` |
-| `kurrf_not_converted preserving type )` | `cast( TaxPropslHearder.kurrf` |
-| `DestinationCountry, // same value with field itaxcnty` | `TaxPropslHearder.land1` |
-| `Region, //` | `TaxPropslHearder.regio` |
+| `IncotermsPart1` | `TaxPropslHearder.inco1` |
+| `AccountingExchangeRate` | `cast( TaxPropslHearder.kurrf as kurrf_not_converted preserving type )` |
+| `DestinationCountry` | `TaxPropslHearder.land1` |
+| `Region` | `TaxPropslHearder.regio` |
 | `ForeignTradeStstclCurrency` | `TaxPropslHearder.grwcu` |
 | `SalesOrganization` | `TaxPropslHearder.vkorg` |
-| `IsIntrastatReportingRelevant, //` | `TaxPropslHearder.intra_rel` |
-| `IsIntrastatReportingExcluded //` | `TaxPropslHearder.intra_excl` |
+| `IsIntrastatReportingRelevant` | `TaxPropslHearder.intra_rel` |
+| `IsIntrastatReportingExcluded` | `TaxPropslHearder.intra_excl` |
 
 ## Associations
 

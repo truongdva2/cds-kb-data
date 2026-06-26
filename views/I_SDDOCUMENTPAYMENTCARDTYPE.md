@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PaymentCardType` | `ccins` |
-| `int4)` | `cast( tgval` |
+| `PaymentCardAuthznPeriodDays` | `cast( tgval as int4)` |
 | `_Text` | *Association* |
 
 ## Associations

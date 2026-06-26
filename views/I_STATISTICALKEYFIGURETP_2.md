@@ -31,13 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dateTime: true` | `dateTime: true` |
-| `systemDateTime.lastChangedAt:true }` | `systemDateTime.lastChangedAt:true }` |
+| `StatisticalKeyFigure` | `StatisticalKeyFigure` |
+| `ControllingArea` | `ControllingArea` |
+| `StatisticalKeyFigureForEdit` | `StatisticalKeyFigureForEdit` |
+| `ControllingAreaForEdit` | `ControllingAreaForEdit` |
+| `StatisticalKeyFigureName` | `StatisticalKeyFigureName` |
+| `StstcKeyFigQuantityUnit` | `StstcKeyFigQuantityUnit` |
+| `StstcKeyFigCategory` | `StstcKeyFigCategory` |
+| `StstclKeyFigCreatedAtDateTime` | `StstclKeyFigCreatedAtDateTime` |
 | `StstclKeyFigLastChgdAtDteTme` | `StstclKeyFigLastChgdAtDteTme` |
 | `StstclKeyFigureCreatedByUser` | `StstclKeyFigureCreatedByUser` |
 | `StstclKeyFigLastChangedByUser` | `StstclKeyFigLastChangedByUser` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_StatisticalKeyFigureTextTP : redirected to composition child I_StatisticalKeyFigureTextTP_2` | *Association* |
 
 ## Associations
 

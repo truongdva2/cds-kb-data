@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qst_dtyp_format_code)` | `cast( substring( domvalue_l, 1, 2)` |
+| `SLCQuestionType` | `cast( substring( domvalue_l, 1, 2) as /srmsmc/qst_dtyp_format_code)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/type_descr preserving type)` | `cast(ddtext` |
+| `SLCQuestionTypeName` | `cast(ddtext as /srmsmc/type_descr preserving type)` |
 | `_SLCQuestionType` | *Association* |
 | `_Language` | *Association* |
 

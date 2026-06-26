@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `DistributionChannel` | `vtweg` |
 | `Language` | `spras` |
-| `distributionchannelname preserving type)` | `cast(vtext` |
+| `DistributionChannelName` | `cast(vtext as distributionchannelname preserving type)` |
 | `_DistributionChannel` | *Association* |
 | `_Language` | *Association* |
 

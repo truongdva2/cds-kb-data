@@ -31,22 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdnRtgTP         : redirected to parent I_ProductionRoutingTP_2` | *Association* |
-| `_Header             : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_Sequence           : redirected to composition child I_ProdnRoutingSequenceTP_2` | *Association* |
-| `_Operation          : redirected to composition child I_ProdnRoutingOperationTP_2` | *Association* |
-| `_SubOp              : redirected to composition child I_ProductionRoutingSubopTP_2` | *Association* |
-| `_OpCompAlloc        : redirected to composition child I_ProdnRoutingOpCompAllocTP_2` | *Association* |
-| `_OpDocPRTAssgmt     : redirected to composition child I_ProdnRtgOpDocPRTAssgmtTP_2` | *Association* |
-| `_OpEquipPRTAssgmt   : redirected to composition child I_ProdnRtgOpEquipPRTAssgmtTP_2` | *Association* |
-| `_OpMatlPRTAssgmt    : redirected to composition child I_ProdnRtgOpMatlPRTAssgmtTP_2` | *Association* |
-| `_OpMiscPRTAssgmt    : redirected to composition child I_ProdnRtgOpMiscPRTAssgmtTP_2` | *Association* |
-| `_OpInspCharcsAssgmt : redirected to composition child I_ProdnRtgInspCharcsAssgmtTP_2` | *Association* |
 
 ## Associations
 

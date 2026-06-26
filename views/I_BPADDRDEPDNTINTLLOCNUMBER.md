@@ -37,7 +37,7 @@ tags:
 | `InternationalLocationNumber3` | `BusinessPartnerAddrDepILN.location_3` |
 | `_BusinessPartner` | *Association* |
 | `_AddressDefaultRepresentation` | *Association* |
-| `_BusinessPartner.AuthorizationGroup  as AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 
 ## Associations
 

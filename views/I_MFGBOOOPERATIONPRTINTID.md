@@ -30,13 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key plfh.BillOfOperationsType` | `plfh.BillOfOperationsType` |
-| `key plfh.BillOfOperationsGroup` | `plfh.BillOfOperationsGroup` |
-| `key plfh.BillOfOperationsVariant` | `plfh.BillOfOperationsVariant` |
-| `key plfh.BillOfOperationsSequence` | `plfh.BillOfOperationsSequence` |
-| `key plfh.BOOOperationInternalID` | `plfh.BOOOperationInternalID` |
-| `key plfh.BOOOperationPRTInternalID` | `plfh.BOOOperationPRTInternalID` |
-| `_BillOfOperationsType` | *Association* |
+| `BillOfOperationsType` | `plfh.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plfh.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `plfh.BillOfOperationsVariant` |
+| `BillOfOperationsSequence` | `plfh.BillOfOperationsSequence` |
+| `BOOOperationInternalID` | `plfh.BOOOperationInternalID` |
+| `BOOOperationPRTInternalID` | `-- representative key key plfh.BOOOperationPRTInternalID` |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsOperation` | *Association* |

@@ -30,14 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement:  true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement:  true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
+| `FinSrvcsProductGroupHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `HierDirectoryText.ValidityEndDate` |
+| `Language` | `HierDirectoryText.Language` |
+| `ValidityStartDate` | `HierDirectoryText.ValidityStartDate` |
 | `FinSrvcsProdGroupHierarchyName` | `HierDirectoryText.HierarchyName` |
-| `HierDirectoryText._Language` | `HierDirectoryText._Language` |
+| `_Language` | *Association* |
 | `_ProdGroupHierarchy` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProdGroupHierarchy` | `I_FinSrvcsProdGroupHierarchy` | — |
 
 ## Source Code
 

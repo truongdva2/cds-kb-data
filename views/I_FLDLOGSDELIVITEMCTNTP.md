@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label :'Delivery Document',quickInfo: 'Delivery Document'}` | `label :'Delivery Document',quickInfo: 'Delivery Document'}` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsReferenceDocCategory` | `FldLogsReferenceDocCategory` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
 | `FldLogsShptItmWrkOrdItmID` | `FldLogsShptItmWrkOrdItmID` |
@@ -71,7 +73,6 @@ tags:
 | `FieldLogisticsKitIdentifier` | `FieldLogisticsKitIdentifier` |
 | `HandlingUnitQuantity` | `HandlingUnitQuantity` |
 | `HandlingUnitQuantityUnit` | `HandlingUnitQuantityUnit` |
-| `_ShptCtnUnit : redirected to parent I_FldLogsDelivContainerUnitTP` | *Association* |
 
 ## Associations
 

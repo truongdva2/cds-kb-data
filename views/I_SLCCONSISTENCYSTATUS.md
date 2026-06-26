@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/consistency_stcd )` | `cast( domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
+| `SLCConsistencyStatus` | `cast( domvalue_l as /srmsmc/consistency_stcd )` |
 | `_SLCConsistencyStatusText` | *Association* |
 
 ## Associations

@@ -30,8 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #HIGH }` |
-| `_Text[1:Language=$session.system_language].InspLotSummaryControlTxt` | *Association* |
+| `InspectionLotOrigin` | `InspectionLotOrigin` |
+| `InspLotSummaryControl` | `InspLotSummaryControl` |
+| `InspLotSummaryControlTxt` | `_Text[1:Language=$session.system_language].InspLotSummaryControlTxt` |
 | `_InspectionLotOrigin` | *Association* |
 
 ## Associations

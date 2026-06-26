@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_exec_step_status preserving type)` | `cast( substring(dd07t.domvalue_l, 1, 1)` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `RetsMgmtProcStepExecStatus` | `cast( substring(dd07t.domvalue_l, 1, 1) as msr_exec_step_status preserving type)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `RetsProcStpExecStsDescription` | `dd07t.ddtext` |
 | `_ReturnsProcStepExecStatus` | *Association* |

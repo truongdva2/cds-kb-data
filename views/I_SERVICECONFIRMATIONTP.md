@@ -30,7 +30,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationType` | `ServiceConfirmationType` |
+| `ServiceConfirmationUUID` | `ServiceConfirmationUUID` |
+| `ServiceConfirmationDescription` | `ServiceConfirmationDescription` |
+| `Language` | `Language` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `RequestedServiceStartDateTime` | `RequestedServiceStartDateTime` |
+| `RequestedServiceEndDateTime` | `RequestedServiceEndDateTime` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `ServiceEmployee` | `ServiceEmployee` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `ServiceOrganization` | `ServiceOrganization` |
+| `RespyMgmtServiceTeam` | `RespyMgmtServiceTeam` |
+| `RespyMgmtGlobalTeamID` | `RespyMgmtGlobalTeamID` |
+| `ServiceConfirmationIsNew` | `ServiceConfirmationIsNew` |
+| `ServiceConfirmationIsCompleted` | `ServiceConfirmationIsCompleted` |
+| `ServiceConfirmationIsCanceled` | `ServiceConfirmationIsCanceled` |
+| `ServiceConfirmationStatus` | `ServiceConfirmationStatus` |
+| `SrvcConfReldForBillingStatus` | `SrvcConfReldForBillingStatus` |
+| `SrvcConfBillingStatus` | `SrvcConfBillingStatus` |
+| `ServiceConfirmationIsFinal` | `ServiceConfirmationIsFinal` |
+| `ServiceConfirmationHasError` | `ServiceConfirmationHasError` |
+| `SrvcDocTransferStatus` | `SrvcDocTransferStatus` |
+| `SrvcDocRejectionStatus` | `SrvcDocRejectionStatus` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `PricingDocument` | `PricingDocument` |
 | `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
@@ -38,7 +81,6 @@ tags:
 | `SrvcConfExtReference` | `SrvcConfExtReference` |
 | `ReferenceServiceOrder` | `ReferenceServiceOrder` |
 | `ShippingCondition` | `ShippingCondition` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceDocumentType` | *Association* |
 | `_SoldToParty` | *Association* |
 | `_ShipToParty` | *Association* |
@@ -59,16 +101,6 @@ tags:
 | `_ServiceDocumentPriority` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_ServiceObjType` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceConfirmationItemTP : redirected to composition child I_ServiceConfirmationItemTP` | *Association* |
-| `_SrvcConfReferenceObjectTP : redirected to composition child I_SrvcConfRefObjectTP` | *Association* |
-| `_SrvcConfPartnerTP         : redirected to composition child I_SrvcConfPartnerTP` | *Association* |
-| `_SrvcConfUserStatusTP      : redirected to composition child I_SrvcConfUserStatusTP` | *Association* |
-| `_SrvcConfAppointmentTP     : redirected to composition child I_SrvcConfAppointmentTP` | *Association* |
-| `_SrvcConfDurationTP        : redirected to composition child I_SrvcConfDurationTP` | *Association* |
-| `_BillingDocumentFollowupTP : redirected to composition child I_SrvcConfFUPBillgDocTP` | *Association* |
-| `_TimeSheetFollowupTP       : redirected to composition child I_SrvcConfFUPTimeSheetTP` | *Association* |
-| `_SrvcConfLongTextTP        : redirected to composition child I_SrvcConfLongTextTP` | *Association* |
 
 ## Associations
 

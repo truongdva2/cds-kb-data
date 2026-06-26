@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `PerfOblgnFulfillmentType` | `cast(dd07l.domvalue_l as farr_fulfill_type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RAPerfOblgnFlfmtTypeText` | [0..*] |
 
 ## Source Code
 

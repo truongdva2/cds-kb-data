@@ -30,36 +30,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type)` | `cast(ranl` |
-| `ftr_gen_fin_instr_prod_categ preserving type)` | `cast(sanlf` |
+| `SecurityClass` | `cast(ranl as ftr_gen_security_class preserving type)` |
+| `FinancialInstrProductCategory` | `cast(sanlf as ftr_gen_fin_instr_prod_categ preserving type)` |
 | `SecurityClassStatus` | `SecurityClass.sstati` |
-| `ftr_gen_security_class_name preserving type)` | `cast(SecurityClass.xalkz` |
-| `ftr_gen_security_class_lname preserving type)` | `cast(SecurityClass.xallb` |
+| `SecurityClassName` | `cast(SecurityClass.xalkz as ftr_gen_security_class_name preserving type)` |
+| `SecurityClassDescription` | `cast(SecurityClass.xallb as ftr_gen_security_class_lname preserving type)` |
 | `FinancialInstrumentProductType` | `SecurityClass.gsart` |
 | `ScrtyClassGenClassification` | `SecurityClass.srolext` |
-| `repke_new preserving type)` | `cast(SecurityClass.repke` |
+| `Issuer` | `cast(SecurityClass.repke as repke_new preserving type)` |
 | `IssueCurrency` | `SecurityClass.rewhr` |
-| `ftr_sc_bempreis)` | `cast(SecurityClass.bempreis` |
+| `SecurityClassIssuePriceValue` | `cast(SecurityClass.bempreis as ftr_sc_bempreis)` |
 | `IssueRateInPercent` | `SecurityClass.pemkurs` |
 | `SecurityClassTransferType` | `SecurityClass.swerttyp` |
 | `SecurityClassQuotation` | `SecurityClass.snoti` |
-| `ftr_sc_min_unit_num preserving type )` | `cast( SecurityClass.unit_tick` |
+| `ScrtyClMinimalNumberOfUnits` | `cast( SecurityClass.unit_tick as ftr_sc_min_unit_num preserving type )` |
 | `SecurityClassIsListed` | `SecurityClass.sboernot` |
-| `cast( case` | `cast( case` |
-| `when SecurityClass.sstbe = '1' then 'X'` | `when SecurityClass.sstbe = '1' then 'X'` |
-| `else ''` | `else ''` |
-| `ftr_sc_sstbe preserving type )` | `end` |
+| `ScrtyClassIsRlvtForTaxes` | `cast(…)` |
 | `SecurityClassTaxClassification` | `SecurityClass.tax_classification` |
 | `ScrtyClCmplmntyIdnCode` | `SecurityClass.coicode` |
 | `ScrtyClCmplmntyIdnCtryReg` | `SecurityClass.coiland` |
-| `ftr_sc_rerf preserving type)` | `cast(SecurityClass.rerf` |
-| `ftr_sc_derf preserving type)` | `cast(SecurityClass.derf` |
-| `ftr_sc_terf preserving type)` | `cast(SecurityClass.terf` |
-| `ftr_sc_reher preserving type)` | `cast(SecurityClass.reher` |
-| `ftr_sc_rbear preserving type)` | `cast(SecurityClass.rbear` |
-| `ftr_sc_dbear preserving type)` | `cast(SecurityClass.dbear` |
-| `ftr_sc_tbear preserving type)` | `cast(SecurityClass.tbear` |
-| `ftr_sc_rbher preserving type)` | `cast(SecurityClass.rbher` |
+| `SecurityClassCreatedByUser` | `cast(SecurityClass.rerf as ftr_sc_rerf preserving type)` |
+| `SecurityClassCreationDate` | `cast(SecurityClass.derf as ftr_sc_derf preserving type)` |
+| `SecurityClassCreationTime` | `cast(SecurityClass.terf as ftr_sc_terf preserving type)` |
+| `SecurityClassCreationSource` | `cast(SecurityClass.reher as ftr_sc_reher preserving type)` |
+| `SecurityClassLastChangedByUser` | `cast(SecurityClass.rbear as ftr_sc_rbear preserving type)` |
+| `SecurityClassLastChangedDate` | `cast(SecurityClass.dbear as ftr_sc_dbear preserving type)` |
+| `SecurityClassLastChangedTime` | `cast(SecurityClass.tbear as ftr_sc_tbear preserving type)` |
+| `SecurityClassLastChangedSource` | `cast(SecurityClass.rbher as ftr_sc_rbher preserving type)` |
 | `SecurityClassIsPledgeable` | `SecurityClass.wpfan` |
 
 ## Associations

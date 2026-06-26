@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tv_proj_dmnd_upd_source )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjectDemandLastUpdateSource` | `cast ( substring( domvalue_l, 1, 2 ) as tv_proj_dmnd_upd_source )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tv_proj_dmnd_upd_src_txt )` | `cast ( ddtext` |
+| `ProjDmndLastUpdateSourceText` | `cast ( ddtext as tv_proj_dmnd_upd_src_txt )` |
 | `_UpdateSource` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_UpdateSource` | `I_ProjDmndLastUpdateSource` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fclm_pl_desc preserving type )` | `cast( ltext` |
-| `fclm_pl_name preserving type )` | `cast( ktext` |
+| `PlanningLevel` | `ebene` |
+| `Language` | `spras` |
+| `PlanningLevelDescription` | `cast( ltext as fclm_pl_desc preserving type )` |
+| `PlanningLevelName` | `cast( ktext as fclm_pl_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

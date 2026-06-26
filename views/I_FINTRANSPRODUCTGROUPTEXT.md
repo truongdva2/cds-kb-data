@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_productgroup preserving type )` | `cast(left(DomainText.domvalue_l,4)` |
+| `FinTransProductGroup` | `cast(left(DomainText.domvalue_l,4) as ftr_productgroup preserving type )` |
 | `Language` | `DomainText.ddlanguage` |
-| `fin_trans_prod_group_name preserving type )` | `cast(DomainText.ddtext` |
+| `FinTransProductGroupName` | `cast(DomainText.ddtext as fin_trans_prod_group_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

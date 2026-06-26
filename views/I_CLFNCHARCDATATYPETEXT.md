@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `atfor)` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CharcDataType` | `cast( dd07t.domvalue_l as atfor)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `charcdatatypename preserving type )` | `cast( dd07t.ddtext` |
+| `CharcDataTypeName` | `cast( dd07t.ddtext as charcdatatypename preserving type )` |
 | `_CharcDataType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcDataType` | `I_ClfnCharcDataType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

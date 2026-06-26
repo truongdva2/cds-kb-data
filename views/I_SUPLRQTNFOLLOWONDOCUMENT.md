@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qtn_doc_type preserving type )` | `cast(source_doc_type` |
+| `SupplierQuotationType` | `cast(source_doc_type as vdm_qtn_doc_type preserving type )` |
 | `FollowOnDocumentCategory` | `target_doc_cat` |
-| `followondoctype preserving type )` | `cast(target_doc_type` |
+| `FollowOnDocumentType` | `cast(target_doc_type as followondoctype preserving type )` |
 | `_SupplierQuotationType` | *Association* |
 | `_FollowOnDocumentCategory` | *Association* |
 | `_DocTypeText` | *Association* |

@@ -33,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `credit_memo_request_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `CreditMemoRequestType` | `CreditMemoRequestType.CreditMemoRequestType` |
+| `Language` | `Text.Language` |
+| `CreditMemoRequestTypeName` | `cast(…)` |
 | `_CreditMemoRequestType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

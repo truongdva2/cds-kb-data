@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `eurou_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `eurou_text_kk preserving type )` | `cast( ddtext` |
+| `CAStatusOfEuroConversion` | `cast( left( dd07t.domvalue_l,1 ) as eurou_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAStatusOfEuroConversionText` | `cast( ddtext as eurou_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

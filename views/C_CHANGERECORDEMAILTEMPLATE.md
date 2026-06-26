@@ -32,20 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_ChangeRecordMyInboxTask.ChangeRecordUUID` | `P_ChangeRecordMyInboxTask.ChangeRecordUUID` |
-| `key _ProcessRouteTask.ProcessRouteTask` | `_ProcessRouteTask.ProcessRouteTask` |
-| `P_ChangeRecordMyInboxTask.ChangeRecord` | `P_ChangeRecordMyInboxTask.ChangeRecord` |
+| `ChangeRecordUUID` | `P_ChangeRecordMyInboxTask.ChangeRecordUUID` |
+| `ProcessRouteTask` | `_ProcessRouteTask.ProcessRouteTask` |
+| `ChangeRecord` | `P_ChangeRecordMyInboxTask.ChangeRecord` |
 | `ProcessRoute` | `ProcessRoute` |
 | `ProcessRouteActivityArea` | `ProcessRouteActivityArea` |
-| `P_ChangeRecordMyInboxTask.ChgRecordDescriptionText` | `P_ChangeRecordMyInboxTask.ChgRecordDescriptionText` |
-| `P_ChangeRecordMyInboxTask.ChangeRecordType` | `P_ChangeRecordMyInboxTask.ChangeRecordType` |
-| `_ChangeRecordTypeVH.ChangeRecordTypeDesc` | *Association* |
-| `P_ChangeRecordMyInboxTask.ChangeRecordStatus` | `P_ChangeRecordMyInboxTask.ChangeRecordStatus` |
-| `_UserStatusVH.ChangeRecordStatusDescription` | *Association* |
-| `_ChangeRecordContactPerson.PersonFullName` | *Association* |
+| `ChgRecordDescriptionText` | `P_ChangeRecordMyInboxTask.ChgRecordDescriptionText` |
+| `ChangeRecordType` | `P_ChangeRecordMyInboxTask.ChangeRecordType` |
+| `ChangeRecordTypeDesc` | `_ChangeRecordTypeVH.ChangeRecordTypeDesc` |
+| `ChangeRecordStatus` | `P_ChangeRecordMyInboxTask.ChangeRecordStatus` |
+| `ChangeRecordStatusDescription` | `_UserStatusVH.ChangeRecordStatusDescription` |
+| `PersonFullName` | `_ChangeRecordContactPerson.PersonFullName` |
 | `ChgRecdExpectedCompletionDate` | `ChgRecdExpectedCompletionDate` |
 | `ChgRecdAddlAttribDetailDesc` | `ChangeRecordDetailDescription` |
-| `P_ChangeRecordMyInboxTask.Partner` | `P_ChangeRecordMyInboxTask.Partner` |
+| `Partner` | `P_ChangeRecordMyInboxTask.Partner` |
 | `_ChangeRecordType` | *Association* |
 | `_ChangeRecordTypeVH` | *Association* |
 | `_UserStatusVH` | *Association* |

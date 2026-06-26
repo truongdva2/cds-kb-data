@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `PlanningCategory` | `fcomc_category_t.category` |
 | `Language` | `langu` |
-| `fcom_category_t preserving type )` | `cast(text` |
+| `PlanningCategoryName` | `cast(text as fcom_category_t preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

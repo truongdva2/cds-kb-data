@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingDocOutputDataBinary : billingdocoutputdatabinary;` | `BillingDocOutputDataBinary : billingdocoutputdatabinary;` |
+| `BillingDocOutputDataBinary` | `billingdocoutputdatabinary` |
 
 ## Associations
 

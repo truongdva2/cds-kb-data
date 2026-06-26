@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehiclerestriction )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `VehicleRestriction` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_vehiclerestriction )` |
 | `_Text` | *Association* |
 
 ## Associations

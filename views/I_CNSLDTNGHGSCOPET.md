@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGScopeVH'` | `name: 'I_CnsldtnGHGScopeVH'` |
-| `element: 'GHGScope'` | `element: 'GHGScope'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgscope preserving type )` | `cast( _Source.GHGScope` |
-| `fincs_ghgscopename preserving type )` | `cast( _Source.GHGScopeName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GHGScope` | `cast( _Source.GHGScope as fincs_ghgscope preserving type )` |
+| `GHGScopeName` | `cast( _Source.GHGScopeName as fincs_ghgscopename preserving type )` |
 | `_Language` | *Association* |
 | `_GHGScope` | *Association* |
 

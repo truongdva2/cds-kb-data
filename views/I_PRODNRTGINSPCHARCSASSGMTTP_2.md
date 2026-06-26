@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
-| `key BOOCharacteristic` | `BOOCharacteristic` |
-| `key BOOCharacteristicVersion` | `BOOCharacteristicVersion` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
+| `BOOCharacteristic` | `BOOCharacteristic` |
+| `BOOCharacteristicVersion` | `BOOCharacteristicVersion` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ChangeNumber` | `ChangeNumber` |
@@ -51,32 +51,32 @@ tags:
 | `InspectionSpecification` | `InspectionSpecification` |
 | `InspectionSpecificationVersion` | `InspectionSpecificationVersion` |
 | `BOOCharcHasInspSpecReference` | `BOOCharcHasInspSpecReference` |
-| `a whole` | `InspSpecControlIndicators,     // Publish structure` |
-| `InspSpecIsQuantitative,        // Quantitative` | `InspSpecIsQuantitative,        // Quantitative` |
-| `InspSpecIsQualitative,         // Qualitative` | `InspSpecIsQualitative,         // Qualitative` |
-| `InspSpecIsMeasuredValueRqd,    // Measured Value Must Be Recorded` | `InspSpecIsMeasuredValueRqd,    // Measured Value Must Be Recorded` |
-| `InspSpecIsSelectedSetRequired, // Selected set is required` | `InspSpecIsSelectedSetRequired, // Selected set is required` |
-| `InspSpecIsUpperLimitRequired,  // Upper Specification Limit Required` | `InspSpecIsUpperLimitRequired,  // Upper Specification Limit Required` |
-| `InspSpecIsLowerLimitRequired,  // Lower Specification Limit Required` | `InspSpecIsLowerLimitRequired,  // Lower Specification Limit Required` |
-| `InspSpecIsTargetValueInLimit,  // Check if target value is between lower and upper limit` | `InspSpecIsTargetValueInLimit,  // Check if target value is between lower and upper limit` |
-| `InspectionScope,               // Inspection Scope` | `InspectionScope,               // Inspection Scope` |
-| `InspSpecIsLongTermInspection,  // Long-Term Inspection` | `InspSpecIsLongTermInspection,  // Long-Term Inspection` |
-| `InspSpecRecordingType,         // RecordingType: Values from domain QESTKUZ` | `InspSpecRecordingType,         // RecordingType: Values from domain QESTKUZ` |
-| `InspResultIsDocumentationRqd,  // Documentation Required for Inspection Result: Values from domain QDOKUKZ` | `InspResultIsDocumentationRqd,  // Documentation Required for Inspection Result: Values from domain QDOKUKZ` |
-| `InspSpecCharcCategory,         // Characteristic Category` | `InspSpecCharcCategory,         // Characteristic Category` |
-| `InspSpecIsSampleQtyAdditive,   // Sample Quantity Is Additive` | `InspSpecIsSampleQtyAdditive,   // Sample Quantity Is Additive` |
-| `InspSpecIsDestructive,         // Destructive Inspection` | `InspSpecIsDestructive,         // Destructive Inspection` |
-| `InspSpecResultCalculation,     // Result Calculation for Characteristics` | `InspSpecResultCalculation,     // Result Calculation for Characteristics` |
-| `InspSpecHasNoFormula,             // No Formula` | `InspSpecHasNoFormula,             // No Formula` |
-| `InspSpecIsSamplingProcedRqd,   // Sampling Procedure Is Required` | `InspSpecIsSamplingProcedRqd,   // Sampling Procedure Is Required` |
-| `InspSpecIsScrapRelevant,       // Characteristic Relevant for Quality Score and Scrap Share` | `InspSpecIsScrapRelevant,       // Characteristic Relevant for Quality Score and Scrap Share` |
-| `InspSpecHasFixedCtrlIndicators, // Control Indicator fixed` | `InspSpecHasFixedCtrlIndicators, // Control Indicator fixed` |
-| `InspSpecIsDefectRecordingRqd, // Defects Recording required` | `InspSpecIsDefectRecordingRqd, // Defects Recording required` |
-| `InspSpecIsTestEquipmentRqd, // Assignment of Test Equipment Required` | `InspSpecIsTestEquipmentRqd, // Assignment of Test Equipment Required` |
-| `InspSpecIsDefectsRecgAutomatic, // Defects Recording Automatically Called Up` | `InspSpecIsDefectsRecgAutomatic, // Defects Recording Automatically Called Up` |
-| `InspSpecIsChgDocRequired,      // Create Change Documents During Results Recording` | `InspSpecIsChgDocRequired,      // Create Change Documents During Results Recording` |
-| `InspSpecIsControlChartUsed,    // SPC Characteristic; Control Chart is Used` | `InspSpecIsControlChartUsed,    // SPC Characteristic; Control Chart is Used` |
-| `InspSpecPrintControl,          // Print Control` | `InspSpecPrintControl,          // Print Control` |
+| `InspSpecControlIndicators` | `InspSpecControlIndicators` |
+| `InspSpecIsQuantitative` | `InspSpecIsQuantitative` |
+| `InspSpecIsQualitative` | `InspSpecIsQualitative` |
+| `InspSpecIsMeasuredValueRqd` | `InspSpecIsMeasuredValueRqd` |
+| `InspSpecIsSelectedSetRequired` | `InspSpecIsSelectedSetRequired` |
+| `InspSpecIsUpperLimitRequired` | `InspSpecIsUpperLimitRequired` |
+| `InspSpecIsLowerLimitRequired` | `InspSpecIsLowerLimitRequired` |
+| `InspSpecIsTargetValueInLimit` | `InspSpecIsTargetValueInLimit` |
+| `InspectionScope` | `InspectionScope` |
+| `InspSpecIsLongTermInspection` | `InspSpecIsLongTermInspection` |
+| `InspSpecRecordingType` | `InspSpecRecordingType` |
+| `InspResultIsDocumentationRqd` | `InspResultIsDocumentationRqd` |
+| `InspSpecCharcCategory` | `InspSpecCharcCategory` |
+| `InspSpecIsSampleQtyAdditive` | `InspSpecIsSampleQtyAdditive` |
+| `InspSpecIsDestructive` | `InspSpecIsDestructive` |
+| `InspSpecResultCalculation` | `InspSpecResultCalculation` |
+| `InspSpecHasNoFormula` | `InspSpecHasNoFormula` |
+| `InspSpecIsSamplingProcedRqd` | `InspSpecIsSamplingProcedRqd` |
+| `InspSpecIsScrapRelevant` | `InspSpecIsScrapRelevant` |
+| `InspSpecHasFixedCtrlIndicators` | `InspSpecHasFixedCtrlIndicators` |
+| `InspSpecIsDefectRecordingRqd` | `InspSpecIsDefectRecordingRqd` |
+| `InspSpecIsTestEquipmentRqd` | `InspSpecIsTestEquipmentRqd` |
+| `InspSpecIsDefectsRecgAutomatic` | `InspSpecIsDefectsRecgAutomatic` |
+| `InspSpecIsChgDocRequired` | `InspSpecIsChgDocRequired` |
+| `InspSpecIsControlChartUsed` | `InspSpecIsControlChartUsed` |
+| `InspSpecPrintControl` | `InspSpecPrintControl` |
 | `InspToleranceSpecification` | `InspToleranceSpecification` |
 | `InspSpecDecimalPlaces` | `InspSpecDecimalPlaces` |
 | `InspectionSpecificationUnit` | `InspectionSpecificationUnit` |
@@ -110,8 +110,8 @@ tags:
 | `InspSpecClassMidpointQty` | `InspSpecClassMidpointQty` |
 | `InspSpecHasClassMidpoint` | `InspSpecHasClassMidpoint` |
 | `InspSpecHasFormula` | `InspSpecHasFormula` |
-| `InspSpecFormula1, // formula (if control indicator calculated characteristic is set)` | `InspSpecFormula1, // formula (if control indicator calculated characteristic is set)` |
-| `InspSpecFormula2, // formula (if control indicator calculated characteristic is set)` | `InspSpecFormula2, // formula (if control indicator calculated characteristic is set)` |
+| `InspSpecFormula1` | `InspSpecFormula1` |
+| `InspSpecFormula2` | `InspSpecFormula2` |
 | `InspSpecDefectCodeGrpRejection` | `InspSpecDefectCodeGrpRejection` |
 | `InspSpecDefectCodeRejection` | `InspSpecDefectCodeRejection` |
 | `InspSpecDefectCodeGrpRjcnUpper` | `InspSpecDefectCodeGrpRjcnUpper` |
@@ -160,10 +160,6 @@ tags:
 | `BOOCharcGroupDivision` | `BOOCharcGroupDivision` |
 | `BillOfOperationsVersion` | `BillOfOperationsVersion` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqncTP  : redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_ProdnRtgTP : redirected to I_ProductionRoutingTP_2` | *Association* |
 
 ## Associations
 

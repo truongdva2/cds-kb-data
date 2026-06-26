@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bonis_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CACrdtWorthinessItemStatus` | `cast( left( domvalue_l, 1 ) as bonis_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

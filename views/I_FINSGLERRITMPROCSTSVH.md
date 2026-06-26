@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden   : true }` | `hidden   : true }` |
-| `char1 )` | `cast( domvalue_l` |
-| `char10 )` | `cast( ddtext` |
+| `FinSGLErrorItemStatus` | `cast( domvalue_l as char1 )` |
+| `FinSGLErrorItemStatusText` | `cast( ddtext as char10 )` |
 
 ## Associations
 

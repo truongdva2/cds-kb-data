@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key DistributionKey` | `DistributionKey` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `DistributionKey` | `DistributionKey` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `Supplier` | `Supplier` |
 | `PurchasingGroup` | `PurchasingGroup` |
@@ -49,14 +49,14 @@ tags:
 | `ProcmtHubPlant` | `ProcmtHubPlant` |
 | `CompanyCodeName` | `ProcmtHubCompanyCode` |
 | `ProcmtHubCompanyCode` | `ProcmtHubCompanyCode` |
-| `_RelevantDates.CalendarYear as CalendarYear` | *Association* |
-| `_RelevantDates.CalendarQuarter as CalendarQuarter` | *Association* |
-| `_RelevantDates.CalendarMonth as CalendarMonth` | *Association* |
-| `_RelevantDates.CalendarWeek as CalendarWeek` | *Association* |
-| `_HubPurchasingGroup.ProcmtHubPurchasingGroupName` | *Association* |
-| `_HubPlant.ProcmtHubPlantName` | *Association* |
-| `_HubCompanyCode.ProcmtHubCompanyCodeName as ProcmtHubCompanyCodeName` | *Association* |
-| `_HubPurchasingOrg.ProcmtHubPurgOrgName` | *Association* |
+| `CalendarYear` | `_RelevantDates.CalendarYear` |
+| `CalendarQuarter` | `_RelevantDates.CalendarQuarter` |
+| `CalendarMonth` | `_RelevantDates.CalendarMonth` |
+| `CalendarWeek` | `_RelevantDates.CalendarWeek` |
+| `ProcmtHubPurchasingGroupName` | `_HubPurchasingGroup.ProcmtHubPurchasingGroupName` |
+| `ProcmtHubPlantName` | `_HubPlant.ProcmtHubPlantName` |
+| `ProcmtHubCompanyCodeName` | `_HubCompanyCode.ProcmtHubCompanyCodeName` |
+| `ProcmtHubPurgOrgName` | `_HubPurchasingOrg.ProcmtHubPurgOrgName` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `DisplayCurrency` | `DisplayCurrency` |
@@ -65,7 +65,7 @@ tags:
 | `ReleaseOrderItemNetAmount` | `ReleaseOrderItemNetAmount` |
 | `ReleaseOrderItemOrderQuantity` | `ReleaseOrderItemOrderQuantity` |
 | `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
-| `CentrlContractItems.PurgDocChangeRequestStatus` | `CentrlContractItems.PurgDocChangeRequestStatus` |
+| `PurgDocChangeRequestStatus` | `CentrlContractItems.PurgDocChangeRequestStatus` |
 | `_HubPlant_2` | *Association* |
 | `_HubPlant` | *Association* |
 | `_HubPurchasingGroup` | *Association* |
@@ -86,8 +86,19 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_RelevantDates` | `I_CalendarDate` | [1..1] |
-| `_PurchasingCategoryMatlGroup` | `I_PurchasingCategoryMatlGroup` | [1..1] |
+| `_HubPurchasingOrg` | `I_ProcmtHubPurgOrgAPI01` | [1..1] |
+| `_HubPurchasingGroup` | `I_ProcmtHubPurgGroupAPI01` | [1..1] |
 | `_Supplier` | `I_Supplier` | [1..1] |
+| `_HubPlant` | `I_ProcmtHubPlant` | [1..1] |
+| `_HubPlant_2` | `I_ProcmtHubPlant` | [1..1] |
+| `_HubCompanyCode` | `I_ProcmtHubCompanyCode` | [1..1] |
+| `_ProductGroup` | `I_ProductGroup_2` | [1..1] |
+| `_Product` | `I_Product` | [1..1] |
+| `_Plant` | `I_Plant` | [1..1] |
+| `_PurchasingOrganization` | `I_PurchasingOrganization` | [1..1] |
+| `_PurchasingGroup` | `I_PurchasingGroup` | [1..1] |
+| `_CompanyCode` | `I_CompanyCode` | [1..1] |
+| `_BackendSourceSystem` | `I_ProcmtHubBackendSourceSystem` | [1..1] |
 | `_VersionType` | `I_CntrlPurContrChgReqStatus` | [1..1] |
 
 ## Source Code

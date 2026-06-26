@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillableDocValidityIsChecked : billabledocvalidityischecked;` | `BillableDocValidityIsChecked : billabledocvalidityischecked;` |
-| `_DummyAssociation            : association to parent D_BDRCrteFrmExtDataP;` | *Association* |
+| `BillableDocValidityIsChecked` | `billabledocvalidityischecked` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_BDRCrteFrmExtDataP` | — |
 
 ## Source Code
 

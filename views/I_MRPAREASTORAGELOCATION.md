@@ -29,7 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` | `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` |
+| `MRPArea` | `-- key mdlg.berid` |
+| `MRPAreaPlant` | `mdlg.werks` |
 | `MRPAreaStorageLocation` | `mdlg.lgort` |
 | `_MRPArea` | *Association* |
 | `_Plant` | *Association* |

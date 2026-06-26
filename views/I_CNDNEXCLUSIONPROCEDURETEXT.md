@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `kauvf )` | `cast( dd07t.domvalue_l` |
-| `ddtext preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ConditionExclusionProcedure` | `cast( dd07t.domvalue_l as kauvf )` |
+| `CndnExclusionProcedureText` | `cast( dd07t.ddtext as ddtext preserving type )` |
 | `_ConditionExclusionProcedure` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ConditionExclusionProcedure` | `I_ConditionExclusionProcedure` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

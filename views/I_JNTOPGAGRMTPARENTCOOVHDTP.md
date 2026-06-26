@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JntOpgAgrmt` | `JntOpgAgrmt` |
-| `key JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
+| `CompanyCode` | `CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JointVentureSequenceNumber` | `JointVentureSequenceNumber` |
 | `JointVentureWBSElementSet` | `JointVentureWBSElementSet` |
 | `JointVentureCostCenterSet` | `JointVentureCostCenterSet` |
 | `JointVentureOrderSet` | `JointVentureOrderSet` |
@@ -42,7 +42,6 @@ tags:
 | `JointVentureNetworkSet` | `JointVentureNetworkSet` |
 | `_CompanyCode` | *Association* |
 | `_JntVntrSteppedRateOvhdRule` | *Association* |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
 
 ## Associations
 

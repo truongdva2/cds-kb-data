@@ -33,10 +33,10 @@ tags:
 | `CapacityInternalID` | `kapa.kapid` |
 | `AvailableCapacityType` | `kapa.versn` |
 | `ValidityEndDate` | `kapa.datub` |
-| `vdm_weekday)` | `cast(substring (kapa.tagnr, 3, 1)` |
-| `AvailableCapacityShift` | `kapa.schnr` |
+| `WeekDay` | `cast(substring (kapa.tagnr, 3, 1) as vdm_weekday)` |
+| `AvailableCapacityShift` | `-- representative key key kapa.schnr` |
 | `CapacityNumberOfCapacities` | `kapa.anzhl` |
-| `workdayrule preserving type)` | `cast(kapa.fabtg` |
+| `WorkDayRule` | `cast(kapa.fabtg as workdayrule preserving type)` |
 | `ShiftDefinition` | `kapa.tprog` |
 | `CapacityPlanUtilizationPercent` | `kapa.ngrad` |
 | `CapacityStartTimeID` | `kapa.begzt` |

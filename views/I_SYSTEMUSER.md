@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_userid          preserving type )` | `cast( _usr02.bname` |
-| `vdm_userdescription preserving type )` | `cast( _usr21.techdesc` |
+| `UserID` | `cast( _usr02.bname as vdm_userid preserving type )` |
+| `UserDescription` | `cast( _usr21.techdesc as vdm_userdescription preserving type )` |
 
 ## Associations
 

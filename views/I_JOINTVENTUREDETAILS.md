@@ -29,12 +29,48 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'Currency'} }` | `currencyCode: 'Currency'} }` |
+| `CompanyCode` | `cast( jv.bukrs as fis_bukrs preserving type )` |
+| `JointVenture` | `jv.vname` |
+| `JntOpgAgrmtEquityGrp` | `eg.egrup` |
+| `JointVenturePartner` | `bp.partn` |
+| `JointVentureType` | `jv.vtype` |
+| `Operator` | `jv.operator` |
+| `TaxCode` | `jv.taxcode` |
+| `JointVentureClass` | `jv.vclass` |
+| `JntOpgAgrmt` | `jv.joa` |
+| `JntVntrFundingGroup` | `jv.fundgroup` |
+| `PaymentTerms` | `jv.payterms` |
+| `JointVentureBillingType` | `jv.bmethod` |
+| `JntVntrInceptionToDateBillg` | `jv.itd` |
+| `CreatedByUser` | `jv.cruser` |
+| `JntVntrTimeCreated` | `jv.crtime` |
+| `JntVntrDateCreated` | `jv.crdate` |
+| `LastChangedByUser` | `jv.chuser` |
+| `JntVntrTimeLastChanged` | `jv.chtime` |
+| `JntVntrDateLastChanged` | `jv.chdate` |
+| `JntVntrBillgFormat` | `jv.bformat` |
+| `JntVntrBillgCutbackIsBlk` | `jv.vactive` |
+| `TaxJurisdiction` | `jv.txjcd` |
+| `JntVntrOutPaymentTerms` | `jv.outpayterm` |
+| `JntVntrOutTaxCode` | `jv.outtaxcode` |
+| `JntVntrTaxJurisdiction` | `jv.txjcd2` |
+| `JntVntrNonBillgFormat` | `jv.nbformat` |
+| `JntVntrBillgFrqcy` | `jv.bfreq` |
+| `JntVntrDrillingPayRate` | `jv.ovrdf` |
+| `JntVntrNonDrillingPayRate` | `jv.ovrnd` |
+| `JntVntrParentCoOvhdExpnCostCtr` | `jv.pcocostc` |
+| `JntVntrParentCoOvhdProject` | `jv.pcoprojk` |
+| `JntVntrParentCoOvhdExpnOrder` | `jv.pcoordnr` |
+| `JntVntrSubstituteCostCtr` | `jv.kostl` |
+| `JntVntrCrcyIsFundingCrcy` | `jv.checkfc` |
+| `JntVntrProperty` | `jv.property` |
+| `Currency` | `_CompanyCode.Currency` |
+| `JntVntrBillgThldDebit` | `jv.billthres` |
 | `JntVntrBillgThldCredit` | `jv.billthresc` |
 | `JntVntrBillgThldIsActive` | `jv.billthresa` |
 | `JntVntrPaymentTermSchema` | `jv.pschem` |
 | `_CompanyCode` | *Association* |
-| `_CompanyCode._Currency` | *Association* |
+| `_Currency` | *Association* |
 | `_JntOpgAgrmt` | *Association* |
 | `_JntVntrEquityGrp` | *Association* |
 | `_JntVntrPartOwnrEquityShr` | *Association* |

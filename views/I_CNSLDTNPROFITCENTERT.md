@@ -32,11 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'ProfitCenterName' }` | `status: #DEPRECATED, successor: 'ProfitCenterName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.ProfitCenterName` |
-| `fincs_profitcenter_name preserving type )` | `cast( _Source.ProfitCenterName` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( _Source.CnsldtnIsAdditionalMasterData` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `ProfitCenter` | `cast( _Source.ProfitCenter as fincs_profitcenter preserving type )` |
+| `ControllingArea` | `cast( _Source.ControllingArea as fincs_controllingarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.ProfitCenterName as fincs_description_text_20 preserving type )` |
+| `ProfitCenterName` | `cast( _Source.ProfitCenterName as fincs_profitcenter_name preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_ProfitCenter` | *Association* |

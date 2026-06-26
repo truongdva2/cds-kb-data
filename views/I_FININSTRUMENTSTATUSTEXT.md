@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_saktiv )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinancialInstrumentStatus` | `cast( dd07t.domvalue_l as tb_saktiv )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_saktiv_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinancialInstrumentStatusName` | `cast( dd07t.ddtext as tb_saktiv_name preserving type )` |
 | `_Status` | *Association* |
 | `_Language` | *Association* |
 

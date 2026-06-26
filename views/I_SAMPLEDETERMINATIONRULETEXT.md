@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` |
-| `vdm_qfbkey_text preserving type )` | `cast( qdfbt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `qdfbt.sprache` |
+| `SampleDeterminationRule` | `qdfbt.fbkey` |
+| `SampleDeterminationRuleTxt` | `cast( qdfbt.kurztext as vdm_qfbkey_text preserving type )` |
 | `_SampleDeterminationRule` | *Association* |
 | `_Language` | *Association* |
 

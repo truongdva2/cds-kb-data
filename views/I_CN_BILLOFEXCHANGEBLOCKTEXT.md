@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xfeld preserving type)` | `cast( substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast ( ddlanguage` |
+| `BillOfExchangeIsBlocked` | `cast( substring(domvalue_l, 1, 1) as xfeld preserving type)` |
+| `Language` | `cast ( ddlanguage as spras preserving type)` |
 | `BillOfExchangeBlockingTypeText` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_BillOfExchangeBlock` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_BillOfExchangeBlock` | `I_CN_BillOfExchangeBlockVH` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

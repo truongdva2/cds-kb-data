@@ -31,27 +31,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
-| `ServiceQuotationItem.ServiceDocumentItemTaxAmount` | `ServiceQuotationItem.ServiceDocumentItemTaxAmount` |
-| `ServiceQuotationItem.ServiceDocItemRejectionReason` | `ServiceQuotationItem.ServiceDocItemRejectionReason` |
+| `ServiceObjectType` | `ServiceQuotationItem.ServiceObjectType` |
+| `ServiceDocument` | `ServiceQuotationItem.ServiceDocument` |
+| `ServiceDocumentItem` | `ServiceQuotationItem.ServiceDocumentItem` |
+| `ServiceDocumentType` | `ServiceQuotationItem.ServiceDocumentType` |
+| `ServiceDocumentItemDescription` | `ServiceQuotationItem.ServiceDocumentItemDescription` |
+| `ServiceDocumentItemIsRejected` | `ServiceQuotationItem.ServiceDocumentItemIsRejected` |
+| `SoldToParty` | `ServiceQuotationItem.SoldToParty` |
+| `ShipToParty` | `ServiceQuotationItem.ShipToParty` |
+| `RespEmployeeBusinessPartnerId` | `ServiceQuotationItem.ResponsibleEmployee` |
+| `RespyMgmtGlobalTeamID` | `ServiceQuotationItem._ServiceTeamHeader.RespyMgmtGlobalTeamID` |
+| `SalesOrganization` | `ServiceQuotationItem.SalesOrganization` |
+| `DistributionChannel` | `ServiceQuotationItem.DistributionChannel` |
+| `Division` | `ServiceQuotationItem.Division` |
+| `SalesOffice` | `ServiceQuotationItem.SalesOffice` |
+| `SalesGroup` | `ServiceQuotationItem.SalesGroup` |
+| `PaymentTerms` | `ServiceQuotationItem.PaymentTerms` |
+| `TransactionCurrency` | `ServiceQuotationItem.TransactionCurrency` |
+| `Product` | `ServiceQuotationItem.Product` |
+| `ServiceDocumentItemQuantity` | `ServiceQuotationItem.ServiceDocumentItemQuantity` |
+| `ServiceDocItemQuantityUnit` | `ServiceQuotationItem.ServiceDocItemQuantityUnit` |
+| `ServiceDuration` | `ServiceQuotationItem.ServiceDuration` |
+| `ServiceDurationUnit` | `ServiceQuotationItem.ServiceDurationUnit` |
+| `ServiceDocumentItemIsQuotation` | `ServiceQuotationItem.ServiceDocumentItemIsQuotation` |
+| `TimeSheetOvertimeCategory` | `ServiceQuotationItem.TimeSheetOvertimeCategory` |
+| `ServiceDocumentItemStatus` | `ServiceQuotationItem.ServiceDocumentItemStatus` |
+| `ServiceDocItemCategory` | `ServiceQuotationItem.ServiceDocItemCategory` |
+| `ServiceDocItemGrossAmount` | `ServiceQuotationItem.ServiceDocItemGrossAmount` |
+| `ServiceDocumentItemNetAmount` | `ServiceQuotationItem.ServiceDocumentItemNetAmount` |
+| `ServiceDocumentItemTaxAmount` | `ServiceQuotationItem.ServiceDocumentItemTaxAmount` |
+| `ServiceDocItemRejectionReason` | `ServiceQuotationItem.ServiceDocItemRejectionReason` |
 | `ParentServiceQuotationItem` | `ServiceQuotationItem._ParentServiceDocItem_2.ServiceDocumentItem` |
-| `ServiceQuotationItem.ServiceDocumentItemObjectType` | `ServiceQuotationItem.ServiceDocumentItemObjectType` |
+| `ServiceDocumentItemObjectType` | `ServiceQuotationItem.ServiceDocumentItemObjectType` |
 | `ReferenceServiceContract` | `ServiceDocumentItemPrdcssr._ServiceDocItm.ServiceDocument` |
 | `ReferenceServiceContractItem` | `ServiceDocumentItemPrdcssr._ServiceDocItm.ServiceDocumentItem` |
-| `/* Reference Object Details */` | `/* Reference Object Details */` |
-| `ServiceQtanItemRefObj.SerialNumber` | `ServiceQtanItemRefObj.SerialNumber` |
-| `ServiceQtanItemRefObj.Equipment` | `ServiceQtanItemRefObj.Equipment` |
-| `functionallocation preserving type )` | `cast ( ServiceQtanItemRefObj.FunctionalLocation` |
-| `ServiceQtanItemRefObj.ProductID` | `ServiceQtanItemRefObj.ProductID` |
-| `ServiceQuotationItem._ServiceObjType` | `ServiceQuotationItem._ServiceObjType` |
-| `ServiceQuotationItem._ServiceDocumentType` | `ServiceQuotationItem._ServiceDocumentType` |
-| `ServiceQuotationItem._PaymentTerms` | `ServiceQuotationItem._PaymentTerms` |
-| `ServiceQuotationItem._TransactionCurrency` | `ServiceQuotationItem._TransactionCurrency` |
-| `ServiceQuotationItem._SalesUnit` | `ServiceQuotationItem._SalesUnit` |
-| `ServiceQuotationItem._ServiceDocOvertimeCat` | `ServiceQuotationItem._ServiceDocOvertimeCat` |
-| `ServiceQuotationItem._ServiceDocItemCategory` | `ServiceQuotationItem._ServiceDocItemCategory` |
-| `ServiceQuotationItem._SrvcDocItmLifecycleStatus` | `ServiceQuotationItem._SrvcDocItmLifecycleStatus` |
-| `ServiceQuotationItem._ServiceDocItemRejectionReason` | `ServiceQuotationItem._ServiceDocItemRejectionReason` |
+| `SerialNumber` | `ServiceQtanItemRefObj.SerialNumber` |
+| `Equipment` | `ServiceQtanItemRefObj.Equipment` |
+| `SrvcQtanItemFunctionalLocation` | `cast(…)` |
+| `ProductID` | `ServiceQtanItemRefObj.ProductID` |
+| `_ServiceObjType` | *Association* |
+| `_ServiceDocumentType` | *Association* |
+| `_PaymentTerms` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `_SalesUnit` | *Association* |
+| `_ServiceDocOvertimeCat` | *Association* |
+| `_ServiceDocItemCategory` | *Association* |
+| `_SrvcDocItmLifecycleStatus` | *Association* |
+| `_ServiceDocItemRejectionReason` | *Association* |
 
 ## Associations
 

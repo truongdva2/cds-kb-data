@@ -30,17 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinManagementAreaVH'` | `name: 'I_CnsldtnFinManagementAreaVH'` |
-| `element: 'FinancialManagementArea'` | `element: 'FinancialManagementArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialmanagementarea preserving type )` | `cast (left(_Hierarchy.HierarchyClass, 4  )` |
-| `fincs_fundhierarchy preserving type )` | `cast(_Hierarchy.UniversalHierarchy` |
-| `key  _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `FinancialManagementArea` | `cast(…)` |
+| `CnsldtnFundHierarchy` | `cast(_Hierarchy.UniversalHierarchy as fincs_fundhierarchy preserving type )` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_FinancialManagementArea` | *Association* |
 | `_Text` | *Association* |
 

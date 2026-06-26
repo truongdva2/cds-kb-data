@@ -72,13 +72,12 @@ tags:
 | `LastChangedByUser` | `bom_header.LastChangedByUser` |
 | `BOMIsToBeDeleted` | `bom_header.BOMIsToBeDeleted` |
 | `DocumentIsCreatedByCAD` | `bom_header.DocumentIsCreatedByCAD` |
-| `bom_header.LaboratoryOrDesignOffice` | `bom_header.LaboratoryOrDesignOffice` |
-| `bom_header.LastChangeDateTime` | `bom_header.LastChangeDateTime` |
-| `bom_header.ProductDescription` | `bom_header.ProductDescription` |
-| `bom_header.PlantName` | `bom_header.PlantName` |
-| `bom_header.BillOfMaterialHdrDetailsText` | `bom_header.BillOfMaterialHdrDetailsText` |
+| `LaboratoryOrDesignOffice` | `bom_header.LaboratoryOrDesignOffice` |
+| `LastChangeDateTime` | `bom_header.LastChangeDateTime` |
+| `ProductDescription` | `bom_header.ProductDescription` |
+| `PlantName` | `bom_header.PlantName` |
+| `BillOfMaterialHdrDetailsText` | `bom_header.BillOfMaterialHdrDetailsText` |
 | `SelectedBillOfMaterialVersion` | `SelectedBillOfMaterialVersion` |
-| `_BillOfMaterialItem        : redirected to composition child I_BillOfMaterialItemTP_2` | *Association* |
 
 ## Associations
 

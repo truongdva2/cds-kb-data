@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurReqnDescription` | `PurReqnDescription` |
 | `PurchaseRequisitionType` | `PurchaseRequisitionType` |
 | `LastChangeDateTime` | `max( LastChangeDateTime )` |
-| `/* Associations */` | `/* Associations */` |
 | `_PurchaseRequisitionItem` | *Association* |
 
 ## Associations

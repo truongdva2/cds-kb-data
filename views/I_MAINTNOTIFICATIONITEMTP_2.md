@@ -32,7 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `MaintenanceNotification` | `MaintenanceNotification` |
+| `MaintenanceNotificationItem` | `MaintenanceNotificationItem` |
+| `MaintNotifItemText` | `MaintNotifItemText` |
+| `MaintNotifDamageCodeGroup` | `MaintNotifDamageCodeGroup` |
+| `MaintNotificationDamageCode` | `MaintNotificationDamageCode` |
+| `MaintNotifDamageCodeCatalog` | `MaintNotifDamageCodeCatalog` |
+| `MaintNotifObjPrtCodeGroup` | `MaintNotifObjPrtCodeGroup` |
+| `MaintNotifObjPrtCode` | `MaintNotifObjPrtCode` |
 | `MaintNotifObjPrtCodeCatalog` | `MaintNotifObjPrtCodeCatalog` |
 | `IsDeleted` | `IsDeleted` |
 | `_MaintNotifDamageCodeGroup` | *Association* |
@@ -40,9 +47,6 @@ tags:
 | `_MaintNotificationDamageCode` | *Association* |
 | `_MaintNotifObjPrtCode` | *Association* |
 | `_MaintenanceNotification` | *Association* |
-| `_Notif : redirected to parent I_MaintenanceNotificationTP_2` | *Association* |
-| `_ItemCause : redirected to composition child I_MaintNotificationItemCauseTP` | *Association* |
-| `_ItemActivity : redirected to composition child I_MaintNotifItemActivityTP` | *Association* |
 
 ## Associations
 

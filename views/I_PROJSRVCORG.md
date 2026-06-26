@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectServiceOrganizationUUID` | `ProjectServiceOrganizationUUID` |
+| `ProjectServiceOrganizationUUID` | `ProjectServiceOrganizationUUID` |
 | `ProjectServiceOrganization` | `ProjectServiceOrganization` |
 | `ProjectServiceOrganizationOID` | `ProjectServiceOrganizationOID` |
 | `ProjSrvcOrgIsTimePostingAllwd` | `ProjSrvcOrgIsTimePostingAllwd` |
@@ -54,6 +54,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CostCenter` | `I_ProjSrvcOrgCostCenter` | [1..*] |
 | `_Text` | `I_ProjSrvcOrgText` | [1..*] |
 
 ## Source Code

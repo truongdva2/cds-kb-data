@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `MaterialLotSizingProcedure` | `proc.disls` |
-| `vdm_losvf preserving type)` | `cast(proc.losvf` |
+| `LotSizingProcedureType` | `cast(proc.losvf as vdm_losvf preserving type)` |
 | `LotSizeType` | `proc.loskz` |
+| `NumberOfLotSizingPeriods` | `-- proc.peraz` |
 | `LotSizePeriodSchedulingType` | `proc.terbv` |
 | `LastLotIsPlannedExactly` | `proc.lastl` |
 | `UnderDeliveryTolIsChecked` | `proc.untkz` |

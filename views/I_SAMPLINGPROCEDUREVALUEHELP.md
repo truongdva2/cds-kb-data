@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SamplingProcedure.SamplingProcedure` | `I_SamplingProcedure.SamplingProcedure` |
-| `I_SamplingProcedure._Text[1:Language = $session.system_language].SamplingProcedureText` | `I_SamplingProcedure._Text[1:Language = $session.system_language].SamplingProcedureText` |
+| `SamplingProcedure` | `I_SamplingProcedure.SamplingProcedure` |
+| `SamplingProcedureText` | `expr(…)` |
 | `SamplingType` | `SamplingType` |
 | `SamplingValuationMode` | `SamplingValuationMode` |
 | `SamplingScheme` | `SamplingScheme` |

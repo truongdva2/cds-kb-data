@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DateFunction` | `DateFunction` |
-| `_Datefunction._DateFunctionText[1: Language = $session.system_language].DateFunctionName` | *Association* |
-| `_Datefunction._DateFunctionText[1: Language = $session.system_language].DateFunctionDescription` | *Association* |
+| `DateFunction` | `DateFunction` |
+| `DateFunctionName` | `expr(…)` |
+| `DateFunctionDescription` | `expr(…)` |
 | `DateFunctionStartDate` | `DateFunctionStartDate` |
 | `DateFunctionEndDate` | `DateFunctionEndDate` |
 

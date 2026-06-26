@@ -39,9 +39,9 @@ tags:
 | `BankName` | `bk.banka` |
 | `Region` | `bk.provz` |
 | `StreetName` | `bk.stras` |
-| `ShortStreetName, //successor for StreetName` | `bk.stras` |
+| `ShortStreetName` | `bk.stras` |
 | `CityName` | `bk.ort01` |
-| `ShortCityName, //successor for CityName` | `bk.ort01` |
+| `ShortCityName` | `bk.ort01` |
 | `SWIFTCode` | `bk.swift` |
 | `BankNetworkGrouping` | `bk.bgrup` |
 | `IsPostBankAccount` | `bk.xpgro` |
@@ -49,7 +49,7 @@ tags:
 | `Bank` | `bk.bnklz` |
 | `PostOfficeBankAccount` | `bk.pskto` |
 | `Branch` | `bk.brnch` |
-| `BankBranch, //successor for Branch` | `bk.brnch` |
+| `BankBranch` | `bk.brnch` |
 | `CheckDigitCalculationMethod` | `bk.chkme` |
 | `BankDataFileFormat` | `bk.vers` |
 | `AddressID` | `bk.adrnr` |

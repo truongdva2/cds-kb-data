@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `ChangeNumberFunction` | `ChangeNumberFunction` |
 | `ChangeNumberReleaseKey` | `ChangeNumberReleaseKey` |
 | `ReasonForChangeText` | `ReasonForChangeText` |
 | `ChangeNumberDescription` | `ChangeNumberDescription` |
-| `_LeadingChangeNumber.PackageChangeNumber as LeadingChangeNumber` | *Association* |
+| `LeadingChangeNumber` | `_LeadingChangeNumber.PackageChangeNumber` |
 | `ChangeNumberValidFromDate` | `ChangeNumberValidFromDate` |
 | `ChangeNumberCreationDate` | `ChangeNumberCreationDate` |
 | `ChangeNumberCreatedByUser` | `ChangeNumberCreatedByUser` |
@@ -49,16 +49,16 @@ tags:
 | `IsTechnicallyReleased` | `IsTechnicallyReleased` |
 | `IsUsedForDataDefinition` | `IsUsedForDataDefinition` |
 | `ChangeNumberIsMrkdForDeletion` | `ChangeNumberIsMrkdForDeletion` |
-| `_ChangeNumberReleaseKey.IsGloballyReleased` | *Association* |
-| `_ChangeNumberReleaseKey.IsReleasedForCosting` | *Association* |
-| `_ChangeNumberReleaseKey.IsReleasedForPlanning` | *Association* |
-| `_ChangeNumberReleaseKey.IsReleasedForProduction` | *Association* |
-| `_ChangeNumberReleaseKey.IsReleasedForSimulation` | *Association* |
-| `_ChangeNumberReleaseKey.IsDateShiftCreatedOCMPresel` | *Association* |
-| `_ChangeNumberReleaseKey.IsReleaseKeyCreatedOCMPresel` | *Association* |
-| `_ChangeNumberStatus.ChangeIsAllowed` | *Association* |
-| `_ChangeNumberStatus.DateChangeIsAllowed` | *Association* |
-| `_ChangeNumberStatus.DistributionIsLocked` | *Association* |
+| `IsGloballyReleased` | `_ChangeNumberReleaseKey.IsGloballyReleased` |
+| `IsReleasedForCosting` | `_ChangeNumberReleaseKey.IsReleasedForCosting` |
+| `IsReleasedForPlanning` | `_ChangeNumberReleaseKey.IsReleasedForPlanning` |
+| `IsReleasedForProduction` | `_ChangeNumberReleaseKey.IsReleasedForProduction` |
+| `IsReleasedForSimulation` | `_ChangeNumberReleaseKey.IsReleasedForSimulation` |
+| `IsDateShiftCreatedOCMPresel` | `_ChangeNumberReleaseKey.IsDateShiftCreatedOCMPresel` |
+| `IsReleaseKeyCreatedOCMPresel` | `_ChangeNumberReleaseKey.IsReleaseKeyCreatedOCMPresel` |
+| `ChangeIsAllowed` | `_ChangeNumberStatus.ChangeIsAllowed` |
+| `DateChangeIsAllowed` | `_ChangeNumberStatus.DateChangeIsAllowed` |
+| `DistributionIsLocked` | `_ChangeNumberStatus.DistributionIsLocked` |
 | `_ChangeNumberStatus` | *Association* |
 | `_ChangeNumberFunction` | *Association* |
 | `_ChangeNumberReleaseKey` | *Association* |

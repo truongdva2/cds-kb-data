@@ -33,15 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billingprocessdocumenttype preserving type )` | `cast( fkart` |
+| `BillingProcessDocumentType` | `cast( fkart as billingprocessdocumenttype preserving type )` |
 | `Language` | `spras` |
-| `billingprocessdocumenttypename preserving type )` | `cast( vtext` |
+| `BillingProcessDocumentTypeName` | `cast( vtext as billingprocessdocumenttypename preserving type )` |
 | `_Language` | *Association* |
 | `_BillingProcessDocumentType` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingProcessDocumentType` | `I_BillingProcessDocumentType` | — |
 
 ## Source Code
 

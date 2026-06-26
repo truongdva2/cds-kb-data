@@ -35,16 +35,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `PlainLongText` | `PlainLongText` |
 | `PurchaseOrderItemUniqueID` | `PurchaseOrderItemUniqueID` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
-| `_PurchaseOrder     : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_PurchaseOrderItem : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `WorkCenterPlant` | `tc28.werks` |
 | `WorkCenterLocationGroup` | `tc28.ortgr` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |

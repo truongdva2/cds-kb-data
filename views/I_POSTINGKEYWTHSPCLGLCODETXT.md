@@ -31,10 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `tbslt.spras` |
-| `fis_bschl preserving type)` | `cast(tbsl.bschl` |
-| `fac_umskz preserving type )` | `cast(tbslt.umskz` |
-| `farp_koart preserving type )` | `cast (tbsl.koart` |
-| `fis_bschl_name preserving type )` | `cast (tbslt.ltext` |
+| `PostingKey` | `cast(tbsl.bschl as fis_bschl preserving type)` |
+| `SpecialGLCode` | `cast(tbslt.umskz as fac_umskz preserving type )` |
+| `FinancialAccountType` | `cast (tbsl.koart as farp_koart preserving type )` |
+| `PostingKeyName` | `cast (tbslt.ltext as fis_bschl_name preserving type )` |
 | `_Language` | *Association* |
 | `_PostingKey` | *Association* |
 | `_SpecialGLCode` | *Association* |

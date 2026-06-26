@@ -32,7 +32,7 @@ tags:
 | `FinancialManagementAreaCrcy` | `waers` |
 | `FinMgmtAreaFiscalYearVariant` | `ca_periv` |
 | `CommitmentItemIsYearDependent` | `yearpos` |
-| `fmis_fc_time_dependent )` | `cast (yearctr` |
+| `FundsCenterIsTimeDependent` | `cast (yearctr as fmis_fc_time_dependent )` |
 | `_Currency` | *Association* |
 | `_FiscalYearVariant` | *Association* |
 | `_Text` | *Association* |

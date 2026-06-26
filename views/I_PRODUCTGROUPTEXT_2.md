@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productgroup preserving type )` | `cast(t023t.matkl` |
+| `ProductGroup` | `cast(t023t.matkl as productgroup preserving type )` |
 | `Language` | `t023t.spras` |
-| `productgroupname preserving type )` | `cast(t023t.wgbez` |
+| `ProductGroupName` | `cast(t023t.wgbez as productgroupname preserving type )` |
 | `ProductGroupText` | `t023t.wgbez60` |
 | `_ProductGroup` | *Association* |
 | `_Language` | *Association* |

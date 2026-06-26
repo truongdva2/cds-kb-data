@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qkzumfs preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `, _Text` | `, _Text` |
+| `SamplingProcedureMltplSamples` | `cast ( substring( domvalue_l, 1, 1 ) as qkzumfs preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

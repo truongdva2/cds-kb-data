@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `udm_coll_priority preserving type)` | `cast(priority` |
+| `CollectionPriority` | `cast(priority as udm_coll_priority preserving type)` |
 | `Language` | `lang` |
 | `CollectionPriorityName` | `priority_text` |
 | `_Language` | *Association* |

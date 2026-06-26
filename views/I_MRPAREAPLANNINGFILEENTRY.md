@@ -34,12 +34,13 @@ tags:
 | `MRPArea` | `d.berid` |
 | `MRPPlanningScenario` | `d.plscn` |
 | `MatlIsConsideredInNetChgPlng` | `d.gsaen` |
-| `vdm_rhytd preserving type)` | `cast(d.rhytd` |
+| `PlanningFileEntryCreationDate` | `-- d.erdat` |
+| `MatlNextTimePhasedPlanningDate` | `cast(d.rhytd as vdm_rhytd preserving type)` |
 | `MaterialLastMRPDateTime` | `d.dstmp` |
 | `MatlLastMRPRelevantChgDateTime` | `d.lstmp` |
 | `_Plant` | *Association* |
 | `_Material` | *Association* |
-| `_MaterialPlant,  // for DCLS` | *Association* |
+| `_MaterialPlant` | *Association* |
 | `_MRPArea` | *Association* |
 | `_PlanningScenario` | *Association* |
 

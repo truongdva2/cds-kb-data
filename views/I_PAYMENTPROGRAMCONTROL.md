@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentRunDate` | `PaymentRunDate` |
-| `key PaymentRunID` | `PaymentRunID` |
+| `PaymentRunDate` | `PaymentRunDate` |
+| `PaymentRunID` | `PaymentRunID` |
 | `ProposalRunIsCarriedOut` | `ProposalRunIsCarriedOut` |
 | `PaymentProposalIsRevised` | `PaymentProposalIsRevised` |
 | `PaymentRunIsCarriedOut` | `PaymentRunIsCarriedOut` |

@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_ktsch preserving type)` | `cast(t435.vlsch` |
+| `OperationStandardTextCode` | `cast(t435.vlsch as pph_ktsch preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

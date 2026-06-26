@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PrelimBillingDocument` | `PrelimBillingDocument` |
-| `key PrelimBillingDocumentItem` | `PrelimBillingDocumentItem` |
+| `PrelimBillingDocument` | `PrelimBillingDocument` |
+| `PrelimBillingDocumentItem` | `PrelimBillingDocumentItem` |
 | `BillingDocumentItemText` | `BillingDocumentItemText` |
 | `BillingDocumentType` | `BillingDocumentType` |
 | `SalesOrganization` | `SalesOrganization` |

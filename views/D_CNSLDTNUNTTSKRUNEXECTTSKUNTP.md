@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConsolidationUnit                     : fincs_consolidationunit;` | `ConsolidationUnit                     : fincs_consolidationunit;` |
-| `_ExecuteTask                          : association to parent D_CnsldtnUnitTskRunExectTaskP;` | *Association* |
+| `ConsolidationUnit` | `fincs_consolidationunit` |
+| `_ExecuteTask` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ExecuteTask` | `D_CnsldtnUnitTskRunExectTaskP` | — |
 
 ## Source Code
 

@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `key InspectionLot` | `InspectionLot` |
+| `InspectionLot` | `InspectionLot` |
 | `InspectionLotType` | `InspectionLotType` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `MatlQualityAuthorizationGroup` | `MatlQualityAuthorizationGroup` |

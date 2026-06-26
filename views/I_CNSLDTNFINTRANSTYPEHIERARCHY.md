@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_fintransactiontypehier preserving type )` | `cast(_Hierarchy.CnsldtnUniversalHierarchy` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `CnsldtnFinTransTypeHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 
 ## Associations

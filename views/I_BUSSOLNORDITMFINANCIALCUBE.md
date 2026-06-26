@@ -29,15 +29,47 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
-| `case when ServiceDocumentItemObjectType = 'BUS2000193' then` | `case when ServiceDocumentItemObjectType = 'BUS2000193' then` |
-| `EnterpriseProjectItemNetAmount` | `TotBusSolnOrdItmNetAmtPerPerd end` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `BusSolnOrdType` | `BusSolnOrdType` |
+| `BusSolnOrdDescription` | `BusSolnOrdDescription` |
+| `BusSolnOrdItmDescription` | `BusSolnOrdItmDescription` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOrganization` | `SalesOrganization` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SoldToParty` | `SoldToParty` |
+| `Country` | `Country` |
+| `Region` | `Region` |
+| `BusSolnOrdItmStatus` | `BusSolnOrdItmStatus` |
+| `DisplayCurrency` | `$parameters.P_DisplayCurrency` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `TotBusSolnOrdItmNetAmtPerPerd` | `TotBusSolnOrdItmNetAmtPerPerd` |
+| `ServiceDocumentItemObjectType` | `ServiceDocumentItemObjectType` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `RevenueAmountInCompanyCodeCrcy` | `RevenueAmountInCompanyCodeCrcy` |
+| `CostAmountInCompanyCodeCrcy` | `CostAmountInCompanyCodeCrcy` |
+| `RecognizedMarginAmtInCCCrcy` | `RecognizedMarginAmtInCCCrcy` |
+| `BusSolnOrdStatus` | `BusSolnOrdStatus` |
+| `ServiceDocItemCategory` | `ServiceDocItemCategory` |
+| `Product` | `Product` |
+| `ProductGroup` | `_Product.ProductGroup` |
+| `PostingDate` | `PostingDate` |
+| `SlsItmNetAmount` | `case…end` |
+| `ServiceContractItemNetAmount` | `case…end` |
+| `ExpnItmNetAmount` | `case…end` |
+| `SbscrBilgItmNetAmount` | `case…end` |
+| `SrvcPrtItmNetAmount` | `case…end` |
+| `SrvcItmNetAmount` | `case…end` |
+| `EnterpriseProjectItemNetAmount` | `case…end` |
 | `NrOfOpenBusSolnOrders` | `NrOfOpenBusSolnOrders` |
 | `NrOfReldBusSolnOrders` | `NrOfReldBusSolnOrders` |
 | `NrOfCmpltdBusSolnOrders` | `NrOfCmpltdBusSolnOrders` |
-| `_Period.CalendarQuarter            as BusSolnOrdCreationQuarter` | *Association* |
-| `_Period.CalendarMonth              as BusSolnOrdCreationMonth` | *Association* |
-| `_Period.CalendarYear               as BusSolnOrdCreationYear` | *Association* |
+| `BusSolnOrdCreationQuarter` | `_Period.CalendarQuarter` |
+| `BusSolnOrdCreationMonth` | `_Period.CalendarMonth` |
+| `BusSolnOrdCreationYear` | `_Period.CalendarYear` |
 | `ServiceDocItemCreationDate` | `ServiceDocItemCreationDate` |
 | `ServiceDocumentCreationDate` | `ServiceDocumentCreationDate` |
 | `_Period` | *Association* |
@@ -64,7 +96,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Period` | `I_CalendarDate` | [0..1] |
-| `_SolutionOrder` | `I_ServiceDocument` | [0..1] |
 
 ## Source Code
 

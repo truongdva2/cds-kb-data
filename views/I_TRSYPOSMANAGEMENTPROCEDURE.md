@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_pos_man_proc preserving type)` | `cast(TrsyPosManagementProcedure.pos_man_proc` |
+| `TrsyPosManagementProcedure` | `cast(…)` |
 | `TrsyLdgrPosMgmtCat` | `TrsyPosManagementProcedure.deriv_cat` |
 | `TrsyPosMgmtProcedStpCat1` | `TrsyPosManagementProcedure.step_cat_1` |
 | `TrsyPosMgmtProcedStpProced1` | `TrsyPosManagementProcedure.procedure_1` |

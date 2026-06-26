@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionUUID` | `LegalTransactionUUID` |
+| `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LegalTransaction` | `LegalTransaction` |
 | `LegalTransactionTitle` | `LegalTransactionTitle` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |

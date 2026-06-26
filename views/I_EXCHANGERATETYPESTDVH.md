@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ExchangeRateType` | `ExchangeRateType` |
+| `ExchangeRateType` | `ExchangeRateType` |
 | `_Text` | *Association* |
 
 ## Associations

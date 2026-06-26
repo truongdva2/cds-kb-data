@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `workdayrule preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `workdayrulename preserving type)` | `cast(txt.ddtext` |
+| `WorkDayRule` | `cast(substring(txt.domvalue_l, 1, 1) as workdayrule preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `WorkDayRuleName` | `cast(txt.ddtext as workdayrulename preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

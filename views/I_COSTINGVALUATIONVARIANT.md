@@ -30,12 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
 | `ValuationVariant` | `bwvar` |
 | `OverheadCostingSheet` | `kalsm` |
-| `fml_kalsm_raw preserving type)` | `cast(kalsm_raw` |
+| `ExtProcuredMatlOvhdCostingSht` | `cast(kalsm_raw as fml_kalsm_raw preserving type)` |
 | `_Text` | *Association* |
 | `_CostingSheetText` | *Association* |
 | `_CostingSheetExtText` | *Association* |

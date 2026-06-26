@@ -30,22 +30,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_torexe_db_key preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(parent_key` |
-| `/scmtms/vdm_event_id preserving type)` | `cast(execution_id` |
-| `/scmtms/vdm_tor_event_code preserving type )` | `cast(event_code` |
-| `/scmtms/event_revoked preserving type)` | `cast(event_revoked` |
-| `/scmtms/vdm_event_actl_dtetme preserving type)` | `cast(actual_date` |
-| `/scmtms/vdm_actual_timezone preserving type)` | `cast(actual_tzone` |
-| `/scmtms/vdm_estimated_datetime preserving type)` | `cast(estimated_date` |
-| `/scmtms/vdm_location_adtl_uuid preserving type)` | `cast (ext_loc_uuid` |
-| `/scmtms/vdm_tor_stop_db_key preserving type )` | `cast(torstopuuid` |
-| `/scmtms/vdm_tor_item_db_key preserving type )` | `cast(toritmuuid` |
-| `vdm_createdbyuserid preserving type )` | `cast(created_by` |
-| `/scmtms/vdm_creation_datetme preserving type)` | `cast(created_on` |
-| `vdm_lastchangedbyuserid preserving type )` | `cast(changed_by` |
-| `/scmtms/vdm_changed_datetme preserving type)` | `cast(changed_on` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationOrderEventUUID` | `cast(db_key as /scmtms/vdm_torexe_db_key preserving type )` |
+| `TransportationOrderUUID` | `cast(parent_key as /scmtms/vdm_tor_db_key preserving type)` |
+| `TransportationOrderEvent` | `cast(execution_id as /scmtms/vdm_event_id preserving type)` |
+| `TranspOrdEventCode` | `cast(event_code as /scmtms/vdm_tor_event_code preserving type )` |
+| `TranspOrdEventIsRecalled` | `cast(event_revoked as /scmtms/event_revoked preserving type)` |
+| `TranspOrdEvtActualDateTime` | `cast(actual_date as /scmtms/vdm_event_actl_dtetme preserving type)` |
+| `TranspOrdEvtActualDateTimeZone` | `cast(actual_tzone as /scmtms/vdm_actual_timezone preserving type)` |
+| `TranspOrdEvtEstimatedDateTime` | `cast(estimated_date as /scmtms/vdm_estimated_datetime preserving type)` |
+| `LocationAdditionalUUID` | `cast (ext_loc_uuid as /scmtms/vdm_location_adtl_uuid preserving type)` |
+| `TransportationOrderStopUUID` | `cast(torstopuuid as /scmtms/vdm_tor_stop_db_key preserving type )` |
+| `TransportationOrderItemUUID` | `cast(toritmuuid as /scmtms/vdm_tor_item_db_key preserving type )` |
+| `CreatedByUser` | `cast(created_by as vdm_createdbyuserid preserving type )` |
+| `CreationDateTime` | `cast(created_on as /scmtms/vdm_creation_datetme preserving type)` |
+| `LastChangedByUser` | `cast(changed_by as vdm_lastchangedbyuserid preserving type )` |
+| `ChangedDateTime` | `cast(changed_on as /scmtms/vdm_changed_datetme preserving type)` |
 | `_TransportationOrder` | *Association* |
 | `_TransportationOrderStop` | *Association* |
 | `_TransportationOrderItem` | *Association* |
@@ -59,6 +58,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrder` | `I_TransportationOrder_2` | — |
 | `_TransportationOrderStop` | `I_TransportationOrderStop_2` | [0..1] |
 | `_TransportationOrderItem` | `I_TransportationOrderItem_2` | [0..1] |
 | `_TranspOrdEventCode` | `I_TranspOrdEventCode_2` | [0..1] |

@@ -32,32 +32,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationPricingElement.SalesQuotation` | `SalesQuotationPricingElement.SalesQuotation` |
-| `key SalesQuotationPricingElement.PricingProcedureStep` | `SalesQuotationPricingElement.PricingProcedureStep` |
-| `key SalesQuotationPricingElement.PricingProcedureCounter` | `SalesQuotationPricingElement.PricingProcedureCounter` |
-| `SalesQuotationPricingElement.ConditionApplication` | `SalesQuotationPricingElement.ConditionApplication` |
-| `SalesQuotationPricingElement.ConditionType` | `SalesQuotationPricingElement.ConditionType` |
-| `SalesQuotationPricingElement.ConditionTypeName` | `SalesQuotationPricingElement.ConditionTypeName` |
-| `SalesQuotationPricingElement.ConditionCalculationType` | `SalesQuotationPricingElement.ConditionCalculationType` |
-| `SalesQuotationPricingElement.ConditionRateAmount` | `SalesQuotationPricingElement.ConditionRateAmount` |
-| `SalesQuotationPricingElement.ConditionCurrency` | `SalesQuotationPricingElement.ConditionCurrency` |
-| `SalesQuotationPricingElement.ConditionRateRatio` | `SalesQuotationPricingElement.ConditionRateRatio` |
-| `SalesQuotationPricingElement.ConditionRateRatioUnit` | `SalesQuotationPricingElement.ConditionRateRatioUnit` |
-| `SalesQuotationPricingElement.ConditionBaseAmount` | `SalesQuotationPricingElement.ConditionBaseAmount` |
-| `SalesQuotationPricingElement.ConditionAmount` | `SalesQuotationPricingElement.ConditionAmount` |
-| `SalesQuotationPricingElement.TransactionCurrency` | `SalesQuotationPricingElement.TransactionCurrency` |
-| `SalesQuotationPricingElement.ConditionBaseQuantity` | `SalesQuotationPricingElement.ConditionBaseQuantity` |
-| `SalesQuotationPricingElement.ConditionQuantity` | `SalesQuotationPricingElement.ConditionQuantity` |
-| `SalesQuotationPricingElement.ConditionQuantityUnit` | `SalesQuotationPricingElement.ConditionQuantityUnit` |
-| `SalesQuotationPricingElement.ConditionIsForStatistics` | `SalesQuotationPricingElement.ConditionIsForStatistics` |
-| `SalesQuotationPricingElement.ConditionIsManuallyChanged` | `SalesQuotationPricingElement.ConditionIsManuallyChanged` |
-| `SalesQuotationPricingElement.ConditionInactiveReason` | `SalesQuotationPricingElement.ConditionInactiveReason` |
-| `SalesQuotationPricingElement.ConditionOrigin` | `SalesQuotationPricingElement.ConditionOrigin` |
-| `SalesQuotationPricingElement.SalesQuotationType` | `SalesQuotationPricingElement.SalesQuotationType` |
-| `SalesQuotationPricingElement.SalesOrganization` | `SalesQuotationPricingElement.SalesOrganization` |
-| `SalesQuotationPricingElement.DistributionChannel` | `SalesQuotationPricingElement.DistributionChannel` |
-| `SalesQuotationPricingElement.OrganizationDivision` | `SalesQuotationPricingElement.OrganizationDivision` |
-| `_SalesQuotation : redirected to parent I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationPricingElement.SalesQuotation` |
+| `PricingProcedureStep` | `SalesQuotationPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SalesQuotationPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `SalesQuotationPricingElement.ConditionApplication` |
+| `ConditionType` | `SalesQuotationPricingElement.ConditionType` |
+| `ConditionTypeName` | `SalesQuotationPricingElement.ConditionTypeName` |
+| `ConditionCalculationType` | `SalesQuotationPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `SalesQuotationPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `SalesQuotationPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `SalesQuotationPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SalesQuotationPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SalesQuotationPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `SalesQuotationPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `SalesQuotationPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SalesQuotationPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SalesQuotationPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SalesQuotationPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SalesQuotationPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SalesQuotationPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SalesQuotationPricingElement.ConditionInactiveReason` |
+| `ConditionOrigin` | `SalesQuotationPricingElement.ConditionOrigin` |
+| `SalesQuotationType` | `SalesQuotationPricingElement.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationPricingElement.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationPricingElement.OrganizationDivision` |
 
 ## Associations
 

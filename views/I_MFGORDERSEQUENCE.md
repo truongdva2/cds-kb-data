@@ -29,13 +29,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` | `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` |
-| `affl.BillOfOperationsVariant` | `affl.BillOfOperationsVariant` |
-| `affl.SequenceSchedulingAlignment` | `affl.SequenceSchedulingAlignment` |
-| `affl.ObjectInternalID` | `affl.ObjectInternalID` |
-| `affl.BillOfOperationsUnit` | `affl.BillOfOperationsUnit` |
-| `affl.MinimumLotSizeQuantity` | `affl.MinimumLotSizeQuantity` |
-| `affl.MaximumLotSizeQuantity` | `affl.MaximumLotSizeQuantity` |
+| `ManufacturingOrder` | `cast(affl.OrderID as manufacturingorder preserving type)` |
+| `ManufacturingOrderSequence` | `cast(affl.Sequence as manufacturingordersequence preserving type)` |
+| `OrderInternalID` | `affl.OrderInternalID` |
+| `SequenceInternalID` | `affl.SequenceInternalID` |
+| `MfgOrderSequenceText` | `cast(affl.SequenceText as mfgordersequencetext preserving type)` |
+| `Language` | `affl.Language` |
+| `MfgOrderSequenceBrnchOperation` | `cast(vornr1.Operation as vornr1 preserving type)` |
+| `MfgOrderSqncBranchOperation_2` | `cast(vornr1.Operation_2 as vdm_vornr1 preserving type)` |
+| `MfgOrderSequenceRetOperation` | `cast(vornr2.Operation as vornr2 preserving type)` |
+| `MfgOrderSqncReturnOperation_2` | `cast(vornr2.Operation_2 as vdm_vornr2 preserving type)` |
+| `ManufacturingOrderCategory` | `cast(affl.OrderCategory as manufacturingordercategory preserving type)` |
+| `ManufacturingOrderType` | `cast(affl.OrderType as manufacturingordertype preserving type)` |
+| `MfgOrderSequenceCategory` | `affl.SequenceCategory` |
+| `ProductionPlant` | `affl.ProductionPlant` |
+| `ReferenceSequence` | `-- affl.ReferenceSequence` |
+| `BillOfOperationsType` | `affl.BillOfOperationsType` |
+| `BillOfOperations` | `affl.BillOfOperations` |
+| `BillOfOperationsGroup` | `affl.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `affl.BillOfOperationsVariant` |
+| `SequenceSchedulingAlignment` | `affl.SequenceSchedulingAlignment` |
+| `ObjectInternalID` | `affl.ObjectInternalID` |
+| `BillOfOperationsUnit` | `affl.BillOfOperationsUnit` |
+| `MinimumLotSizeQuantity` | `affl.MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `affl.MaximumLotSizeQuantity` |
 | `_MfgOrder` | *Association* |
 | `_ManufacturingOrder` | *Association* |
 | `_MfgOrderOperation` | *Association* |
@@ -43,20 +60,20 @@ tags:
 | `_MfgOrderCategory` | *Association* |
 | `_MfgOrderType` | *Association* |
 | `_ReferenceSequence` | *Association* |
-| `affl._StatusObject` | `affl._StatusObject` |
-| `affl._OrderInternalID` | `affl._OrderInternalID` |
-| `affl._SequenceCategory` | `affl._SequenceCategory` |
-| `affl._SequenceSchedulingAlignment` | `affl._SequenceSchedulingAlignment` |
-| `affl._Plant` | `affl._Plant` |
-| `affl._BillOfOperationsType` | `affl._BillOfOperationsType` |
+| `_StatusObject` | *Association* |
+| `_OrderInternalID` | *Association* |
+| `_SequenceCategory` | *Association* |
+| `_SequenceSchedulingAlignment` | *Association* |
+| `_Plant` | *Association* |
+| `_BillOfOperationsType` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsGroup2` | *Association* |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperations2` | *Association* |
-| `affl._BillOfOperationsVariant` | `affl._BillOfOperationsVariant` |
-| `affl._BillOfOperationsUnit` | `affl._BillOfOperationsUnit` |
-| `affl._LongText` | `affl._LongText` |
-| `affl._Language` | `affl._Language` |
+| `_BillOfOperationsVariant` | *Association* |
+| `_BillOfOperationsUnit` | *Association* |
+| `_LongText` | *Association* |
+| `_Language` | *Association* |
 | `_MfgOrderText` | *Association* |
 | `_ProductionPlantText` | *Association* |
 | `_StatusObjectText` | *Association* |

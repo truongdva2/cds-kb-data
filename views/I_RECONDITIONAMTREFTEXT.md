@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `recdvdmcondvaluerefer )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REConditionAmountReference` | `cast( dd07t.domvalue_l as recdvdmcondvaluerefer )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `REConditionAmountReferenceName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_REConditionAmountReference` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REConditionAmountReference` | `I_REConditionAmtRef` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

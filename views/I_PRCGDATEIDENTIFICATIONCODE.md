@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kprdt )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingDateIdentificationCode` | `cast ( substring( domvalue_l, 1, 1 ) as kprdt )` |
 | `_Text` | *Association* |
 
 ## Associations

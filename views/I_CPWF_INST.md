@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CpWfHandle` | `CpWfHandle` |
+| `CpWfHandle` | `CpWfHandle` |
 | `RetentionTime` | `RetentionTime` |
 | `CpWfDefId` | `CpWfDefId` |
 | `PaWfDefId` | `PaWfDefId` |

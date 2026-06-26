@@ -28,7 +28,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `BusinessSolutionOrder` | `ServiceDocument` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `BusinessSolutionOrderUUID` | `ServiceDocumentUUID` |
+| `ServiceDocumentCharUUID` | `cast( ServiceDocumentCharUUID as sysuuid_c preserving type )` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `BusSolnOrdDescription` | `ServiceDocumentDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
+| `BusSolnOrdNetAmount` | `ServiceDocNetAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `SoldToParty` | `SoldToParty` |

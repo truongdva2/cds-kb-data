@@ -31,8 +31,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MaintenanceOrder` | `afko.aufnr` |
-| `maintenanceorderoperation  preserving type )` | `cast (afvc.vornr` |
-| `maintenanceordersuboperation )` | `cast ( '0000'` |
+| `MaintenanceOrderOperation` | `cast (afvc.vornr as maintenanceorderoperation preserving type )` |
+| `MaintenanceOrderSubOperation` | `cast ( '0000' as maintenanceordersuboperation )` |
 | `MaintOrderRoutingNumber` | `afvc.aufpl` |
 | `MaintOrderOperationCounter` | `afvc.aplzl` |
 | `Plant` | `afvc.werks` |
@@ -41,7 +41,7 @@ tags:
 | `OperationControlKey` | `afvc.steus` |
 | `OperationDescription` | `afvc.ltxa1` |
 | `OperationStandardTextCode` | `afvc.ktsch` |
-| `spras preserving type )` | `cast(afvc.txtsp` |
+| `Language` | `cast(afvc.txtsp as spras preserving type )` |
 | `NumberOfTimeTickets` | `afvc.loanz` |
 | `OperationPurgInfoRecdSearchTxt` | `afvc.sortl` |
 | `OperationSupplier` | `afvc.lifnr` |
@@ -53,8 +53,8 @@ tags:
 | `PurchasingOrganization` | `afvc.ekorg` |
 | `PurchasingGroup` | `afvc.ekgrp` |
 | `MaterialGroup` | `afvc.matkl` |
-| `konnr preserving type )` | `cast (afvc.ebeln` |
-| `ktpnr preserving type)` | `cast (afvc.ebelp` |
+| `OpPurchaseOutlineAgreement` | `cast (afvc.ebeln as konnr preserving type )` |
+| `OpPurchaseOutlineAgreementItem` | `cast (afvc.ebelp as ktpnr preserving type)` |
 | `OperationRequisitionerName` | `afvc.afnam` |
 | `OperationTrackingNumber` | `afvc.bednr` |
 | `NumberOfCapacities` | `afvc.anzzl` |
@@ -66,14 +66,14 @@ tags:
 | `OperationUnloadingPointName` | `afvc.ablad` |
 | `OperationPersonResponsible` | `afvc.pernr` |
 | `Equipment` | `afvc.equnr` |
-| `vdm_eam_tplnr preserving type )` | `cast( afvc.tplnr` |
+| `FunctionalLocation` | `cast( afvc.tplnr as vdm_eam_tplnr preserving type )` |
 | `BusinessArea` | `afvc.gsber` |
 | `ProfitCenter` | `afvc.prctr` |
 | `CostingSheet` | `afvc.kalsm` |
 | `TaxJurisdiction` | `afvc.txjcd` |
 | `FunctionalArea` | `afvc.func_area` |
-| `Assembly, //long one - 40 char` | `afvc.istru` |
-| `eam_premainpost_cds preserving type )` | `cast( afvc.maintopexecutionphasecode` |
+| `Assembly` | `afvc.istru` |
+| `MaintOperationExecStageCode` | `cast( afvc.maintopexecutionphasecode as eam_premainpost_cds preserving type )` |
 | `CostCtrActivityType` | `afvc.larnt` |
 | `ReqgCostCenterControllingArea` | `afvc.anfkokrs` |
 | `CapacityRequirement` | `afvc.bedid` |
@@ -84,12 +84,8 @@ tags:
 | `MaintOrderConfirmation` | `afvc.rueck` |
 | `OperationMilestoneUsageCode` | `afvc.mlstn` |
 | `MaintOrderConfCntrValue` | `afvc.rmzhl` |
-| `cast (` | `cast (` |
-| `case afvc.txtsp` | `case afvc.txtsp` |
-| `when '' then ''` | `when '' then ''` |
-| `else 'X'` | `else 'X'` |
-| `xfeld preserving type)` | `end` |
-| `ControllingArea` | `aufk.kokrs` |
+| `OperationHasLongText` | `cast ( case afvc.txtsp when '' then '' else 'X' end as xfeld preserving type)` |
+| `ControllingArea` | `e.g. activity type aufk.kokrs` |
 | `MaintOrdOpProcessPhaseCode` | `afvc.maintordopprocessphasecode` |
 | `MaintOrdOpProcessSubPhaseCode` | `afvc.maintordopprocesssubphasecode` |
 | `MaintOperationalChecklistType` | `afvc.cl_type` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPoolAssignment` | `CashPoolAssignment` |
+| `CashPoolAssignment` | `CashPoolAssignment` |
 | `CashPoolAssignmentText` | `CashPoolAssignmentText` |
 | `CashPool` | `CashPool` |
 | `CashPoolAssgmtIsHeadBkAcct` | `CashPoolAssgmtIsHeadBkAcct` |
@@ -47,7 +47,7 @@ tags:
 | `LastChangedByUser` | `CashPoolLastChangedByUser` |
 | `CreationDateTime` | `CashPoolCreationDateTime` |
 | `LocalLastChangeDateTime` | `CashPoolLastChangeDateTime` |
-| `_BankAccount.BankAccountCurrency as BankAccountCurrency` | *Association* |
+| `BankAccountCurrency` | `_BankAccount.BankAccountCurrency` |
 | `_BankAccount` | *Association* |
 | `_IsDeletedText` | *Association* |
 

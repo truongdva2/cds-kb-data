@@ -56,8 +56,8 @@ tags:
 | `EWMStorageBinIsEmpty` | `kzler` |
 | `EWMStorageBinIsFull` | `kzvol` |
 | `EWMStorBinFreeDfndSectionText` | `binsc` |
-| `ewm_de_rem_bin_depth_no_conv)` | `cast(rem_bin_depth` |
-| `ewm_de_max_bin_depth_no_conv)` | `cast(max_bin_depth` |
+| `EWMStorageBinRemainDepthValue` | `cast(rem_bin_depth as ewm_de_rem_bin_depth_no_conv)` |
+| `EWMStorageBinMaxDepthValue` | `cast(max_bin_depth as ewm_de_max_bin_depth_no_conv)` |
 | `EWMStorBinWidthCoordinateValue` | `x_cord` |
 | `EWMStorBinLengthCoordinateVal` | `y_cord` |
 | `EWMStorBinHeightCoordinateVal` | `z_cord` |
@@ -67,8 +67,8 @@ tags:
 | `PhysicalInventoryItemNumber` | `ivpos` |
 | `PInvCountedUTCDateTime` | `idatu` |
 | `EWMStorageBinLastChangedByUser` | `uname` |
-| `timestamp preserving type)` | `cast(laedt` |
-| `/scwm/tanum_noconv preserving type)` | `cast(btanr` |
+| `EWMStorageBinLastChgDateTime` | `cast(laedt as timestamp preserving type)` |
+| `EWMStorageBinLastWarehouseTask` | `cast(btanr as /scwm/tanum_noconv preserving type)` |
 | `EWMStorageBinFirstPutawayDate` | `ptwy_date` |
 | `EWMStorageBinLastMvtDateTime` | `moved_at` |
 | `EWMStorageBinLastClrgDateTime` | `cleared_at` |

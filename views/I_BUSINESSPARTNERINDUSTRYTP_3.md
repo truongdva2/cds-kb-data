@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key IndustrySystemType` | `IndustrySystemType` |
-| `key IndustrySector` | `IndustrySector` |
+| `BusinessPartner` | `BusinessPartner` |
+| `IndustrySystemType` | `IndustrySystemType` |
+| `IndustrySector` | `IndustrySector` |
 | `IsStandardIndustry` | `IsStandardIndustry` |
 | `IndustrySystemTypeForEdit` | `IndustrySystemTypeForEdit` |
 | `IndSecTypeForEditValue` | `IndSecTypeForEditValue` |
@@ -51,8 +51,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 | `_BusPartIndustryKey` | *Association* |
 | `_BusPartIndustrySystem` | *Association* |
 

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    ChangeRecordReferenceTextUUID` | `ChangeRecordReferenceTextUUID` |
+| `ChangeRecordReferenceTextUUID` | `ChangeRecordReferenceTextUUID` |
 | `Language` | `Language` |
 | `ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
 | `ChangeRecordUUID` | `ChangeRecordUUID` |

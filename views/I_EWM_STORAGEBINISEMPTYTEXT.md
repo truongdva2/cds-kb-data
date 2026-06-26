@@ -35,7 +35,6 @@ tags:
 | `Language` | `ddlanguage` |
 | `StorageBinIsEmpty` | `domvalue_l` |
 | `StorageBinIsEmptyDescription` | `ddtext` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

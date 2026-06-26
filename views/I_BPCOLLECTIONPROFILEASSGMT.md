@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association: '_BusinessPartner' } }` | `association: '_BusinessPartner' } }` |
 | `BusinessPartner` | `partner` |
 | `BPCollPrflAssignmentValidTo` | `valid_until` |
 | `BPCollPrflAssignmentValidFrom` | `valid_from` |

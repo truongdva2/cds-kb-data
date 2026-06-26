@@ -32,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `SuplrQtnType` | `SuplrQtnType.PurchasingDocumentType` |
 | `_SupplierQuotationTypeText` | *Association* |
 

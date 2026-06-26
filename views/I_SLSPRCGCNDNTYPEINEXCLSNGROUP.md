@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionUsage` | `ConditionUsage` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key ConditionExclusionGroup` | `ConditionExclusionGroup` |
-| `key ConditionType` | `ConditionType` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionExclusionGroup` | `ConditionExclusionGroup` |
+| `ConditionType` | `ConditionType` |
 | `_SlsPrcgCndnExclusionGroup` | *Association* |
 
 ## Associations

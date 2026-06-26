@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LegalTransaction : lcm_legaltr_id;` | `LegalTransaction : lcm_legaltr_id;` |
+| `LegalTransaction` | `lcm_legaltr_id` |
 
 ## Associations
 

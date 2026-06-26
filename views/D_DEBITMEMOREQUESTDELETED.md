@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime      : vdm_lastchangedon;` | `EventRaisedDateTime      : vdm_lastchangedon;` |
-| `DebitMemoRequestType     : auart_unv;` | `DebitMemoRequestType     : auart_unv;` |
-| `SalesOrganization        : vkorg;` | `SalesOrganization        : vkorg;` |
-| `DistributionChannel      : vtweg;` | `DistributionChannel      : vtweg;` |
-| `OrganizationDivision     : spart;` | `OrganizationDivision     : spart;` |
-| `SoldToParty              : kunnr;` | `SoldToParty              : kunnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `DebitMemoRequestType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
 
 ## Associations
 

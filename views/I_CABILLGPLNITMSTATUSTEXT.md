@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bipitem_status_kk preserving type )` | `cast( substring(dd07t.domvalue_l, 1, 1)` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `bipitem_status_txt_gfn_kk preserving type )` | `cast( ddtext` |
+| `CABillgPlnItemStatus` | `cast( substring(dd07t.domvalue_l, 1, 1) as bipitem_status_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABillgPlnItmStatusText` | `cast( ddtext as bipitem_status_txt_gfn_kk preserving type )` |
 | `_CABillgPlnItmStatus` | *Association* |
 | `_Language` | *Association* |
 

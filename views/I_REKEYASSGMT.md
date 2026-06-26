@@ -33,16 +33,16 @@ tags:
 | `RealEstateObjectType` | `objtype` |
 | `REIdentificationKey` | `identkey` |
 | `REStatusObject` | `objnr` |
-| `recaimkeyfi preserving type )` | `cast(imkey` |
+| `REInternalFinNumber` | `cast(imkey as recaimkeyfi preserving type )` |
 | `CompanyCode` | `bukrs` |
-| `recnvdmcnnr preserving type )` | `cast(recnnr` |
-| `rebdvdmbeno  preserving type )` | `cast(swenr` |
-| `rebdvdmrono preserving type )` | `cast(smenr` |
-| `rebdvdmbuno preserving type )` | `cast(sgenr` |
-| `rebdvdmprno preserving type )` | `cast(sgrnr` |
+| `RealEstateContract` | `cast(recnnr as recnvdmcnnr preserving type )` |
+| `REBusinessEntity` | `cast(swenr as rebdvdmbeno preserving type )` |
+| `RERentalObject` | `cast(smenr as rebdvdmrono preserving type )` |
+| `RealEstateBuilding` | `cast(sgenr as rebdvdmbuno preserving type )` |
+| `RealEstateProperty` | `cast(sgrnr as rebdvdmprno preserving type )` |
 | `ArchitecturalObject` | `aoid` |
-| `rescvdmsckey preserving type )` | `cast(snksl` |
-| `rescvdmsuid preserving type )` | `cast(sempsl` |
+| `REServiceChargeKey` | `cast(snksl as rescvdmsckey preserving type )` |
+| `RESettlementUnitID` | `cast(sempsl as rescvdmsuid preserving type )` |
 | `_REObjectType` | *Association* |
 | `_CompanyCode` | *Association* |
 

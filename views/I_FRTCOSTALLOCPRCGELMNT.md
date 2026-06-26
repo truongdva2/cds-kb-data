@@ -29,19 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_FrtCostAllocDocStdVH', element: 'FreightCostAllocationDocument' } }]` | `name: 'I_FrtCostAllocDocStdVH', element: 'FreightCostAllocationDocument' } }]` |
-| `}` | `}` |
-| `key FreightCostAllocationDocument` | `FreightCostAllocationDocument` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `FreightCostAllocationDocument` | `FreightCostAllocationDocument` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
 | `ConditionCalculationType` | `ConditionCalculationType` |
-| `/* KAWRT split based on KRECH */` | `/* KAWRT split based on KRECH */` |
 | `ConditionBaseAmount` | `ConditionBaseAmount` |
 | `ConditionBaseQuantity` | `ConditionBaseQuantity` |
-| `/* KBETR split based on KRECH */` | `/* KBETR split based on KRECH */` |
 | `ConditionRateAmount` | `ConditionRateAmount` |
 | `ConditionRateRatio` | `ConditionRateRatio` |
 | `ConditionRateRatioUnit` | `ConditionRateRatioUnit` |
@@ -54,7 +50,6 @@ tags:
 | `CndnIsRelevantForInvoiceList` | `CndnIsRelevantForInvoiceList` |
 | `ConditionOrigin` | `ConditionOrigin` |
 | `IsGroupCondition` | `IsGroupCondition` |
-| `/* Condition Record */` | `/* Condition Record */` |
 | `ConditionRecord` | `ConditionRecord` |
 | `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `CndnRoundingOffDiffAmount` | `CndnRoundingOffDiffAmount` |
@@ -67,10 +62,8 @@ tags:
 | `FactorForConditionBasisValue` | `FactorForConditionBasisValue` |
 | `StructureCondition` | `StructureCondition` |
 | `PeriodFactorForCndnBasisValue` | `PeriodFactorForCndnBasisValue` |
-| `/* Scales */` | `/* Scales */` |
 | `PricingScaleType` | `PricingScaleType` |
 | `PricingScaleBasis` | `PricingScaleBasis` |
-| `/* KSTBS split based on KZBZG */` | `/* KSTBS split based on KZBZG */` |
 | `ConditionScaleBaseAmount` | `ConditionScaleBaseAmount` |
 | `ConditionScaleBaseQuantity` | `ConditionScaleBaseQuantity` |
 | `ConditionScaleBasisUnit` | `ConditionScaleBasisUnit` |
@@ -79,7 +72,6 @@ tags:
 | `ConditionIsManuallyChanged` | `ConditionIsManuallyChanged` |
 | `ConditionIsForConfiguration` | `ConditionIsForConfiguration` |
 | `VariantCondition` | `VariantCondition` |
-| `/* Associations */` | `/* Associations */` |
 | `_FrtCostAllocDoc` | *Association* |
 | `_ConditionApplication` | *Association* |
 | `_PricingConditionType` | *Association* |

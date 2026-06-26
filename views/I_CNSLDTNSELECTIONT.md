@@ -30,12 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` | `name: 'I_CnsldtnSelectionVH', element: 'ConsolidationSelection' } } ]` |
-| `fincs_consolidationselection preserving type)` | `cast(left(_Source.FinancialSelection, 20)` |
-| `fincs_cnsldtnselection_desc preserving type)` | `cast(_Source.FinancialSelectionText` |
-| `_Source.FinancialSelection` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_Source._Language` | *Association* |
+| `Language` | `_Source.Language` |
+| `ConsolidationSelection` | `cast(…)` |
+| `ConsolidationSelectionText` | `cast(…)` |
+| `FinancialSelection` | `_Source.FinancialSelection` |
+| `_Language` | *Association* |
 | `_Selection` | *Association* |
 
 ## Associations

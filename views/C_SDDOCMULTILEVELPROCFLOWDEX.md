@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  DocRelationshipUUID` | `DocRelationshipUUID` |
+| `DocRelationshipUUID` | `DocRelationshipUUID` |
 | `PrecedingDocument` | `PrecedingDocument` |
 | `PrecedingDocumentItem` | `PrecedingDocumentItem` |
 | `PrecedingDocumentCategory` | `PrecedingDocumentCategory` |

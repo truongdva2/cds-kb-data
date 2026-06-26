@@ -35,7 +35,6 @@ tags:
 | `SalesSpcfcProductGroup1` | `AdditionalMaterialGroup1` |
 | `Language` | `Language` |
 | `SalesSpcfcProductGroup1Name` | `AdditionalMaterialGroup1Name` |
-| `/* Associations */` | `/* Associations */` |
 | `_SalesSpcfcProductGroup1` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SalesSpcfcProductGroup1` | `I_SalesSpcfcProductGroup1` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

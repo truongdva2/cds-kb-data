@@ -32,18 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `ProductPlantMRPText` | `ProductPlantMRPText` |
 | `ProdLongTxtCreationDateTime` | `ProdLongTxtCreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `ProdLongTxtLastChangedDateTime` | `ProdLongTxtLastChangedDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
 
 ## Associations
 

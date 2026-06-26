@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key typet.CN_TaxInvcType` | `typet.CN_TaxInvcType` |
+| `CN_TaxInvcType` | `typet.CN_TaxInvcType` |
 | `_TaxInvcType` | *Association* |
-| `key typet.Language` | `typet.Language` |
+| `Language` | `typet.Language` |
 | `_Language` | *Association* |
-| `typet.CN_TaxInvcTypeTxt` | `typet.CN_TaxInvcTypeTxt` |
+| `CN_TaxInvcTypeTxt` | `typet.CN_TaxInvcTypeTxt` |
 
 ## Associations
 

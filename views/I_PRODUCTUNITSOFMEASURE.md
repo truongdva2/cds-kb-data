@@ -31,8 +31,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
-| `_Product.BaseUnit                                                  as BaseUnit` | *Association* |
+| `Product` | `cast ( marm.matnr as productnumber preserving type )` |
+| `AlternativeUnit` | `marm.meinh` |
+| `_AlternativeUnit` | *Association* |
+| `_AlternativeUnitText` | *Association* |
+| `QuantityNumerator` | `cast(marm.umrez as cmd_base_uom_cnvrsn_fctr preserving type)` |
+| `QuantityDenominator` | `cast(marm.umren as cmd_alt_uom_cnvrsn_fctr preserving type )` |
+| `MaterialVolume` | `marm.volum` |
+| `VolumeUnit` | `marm.voleh` |
+| `_QuantityUnitValueHelp` | *Association* |
+| `_VolumeUnitText` | *Association* |
+| `GrossWeight` | `marm.brgew` |
+| `WeightUnit` | `marm.gewei` |
+| `_WeightUnitValueHelp` | *Association* |
+| `_WeightUnitText` | *Association* |
+| `GlobalTradeItemNumber` | `marm.ean11` |
+| `GlobalTradeItemNumberCategory` | `cast(marm.numtp as internationalarticlenumbercat preserving type )` |
+| `_GlobalTradeItemNumber` | *Association* |
+| `_GlobalTradeItemNumberText` | *Association* |
+| `UnitSpecificProductLength` | `marm.laeng` |
+| `UnitSpecificProductWidth` | `marm.breit` |
+| `UnitSpecificProductHeight` | `marm.hoehe` |
+| `ProductMeasurementUnit` | `marm.meabm` |
+| `_ProductMeasurementUnit` | *Association* |
+| `_ProductMeasurementUnitText` | *Association* |
+| `LowerLevelPackagingUnit` | `marm.mesub` |
+| `_LowerLevelPackagingUnit` | *Association* |
+| `_LowerLevelPackagingUnitText` | *Association* |
+| `RemainingVolumeAfterNesting` | `marm.nest_ftr` |
+| `MaximumStackingFactor` | `marm.max_stack` |
+| `CapacityUsage` | `marm.capause` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `UnitOfMeasureCategory` | `marm.ty2tq` |
+| `ProductGTINVariant` | `marm.gtin_variant` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_ProductDescription_2` | *Association* |
 

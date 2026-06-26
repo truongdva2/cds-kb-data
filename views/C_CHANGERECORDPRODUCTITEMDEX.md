@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
+| `ChangeRecordReferenceUUID` | `ChangeRecordReferenceUUID` |
 
 ## Associations
 

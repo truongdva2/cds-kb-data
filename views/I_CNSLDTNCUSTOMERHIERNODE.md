@@ -32,14 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnCustomerVH'` | `name: 'I_CnsldtnCustomerVH'` |
-| `element: 'Customer'` | `element: 'Customer'` |
-| `}` | `}` |
-| `}]` | `}]` |
+| `ConsolidationCustomerHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
 | `Customer` | `Customer` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Customer` | *Association* |
 | `_Hierarchy` | *Association* |

@@ -46,6 +46,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInboundCall` | `I_JITInboundCall` | — |
 | `_JITReferenceType` | `I_JITReferenceType` | [0..1] |
 
 ## Source Code

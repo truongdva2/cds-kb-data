@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `workdayrule preserving type)` | `cast(substring(l.domvalue_l, 1, 1)` |
+| `WorkDayRule` | `cast(substring(l.domvalue_l, 1, 1) as workdayrule preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

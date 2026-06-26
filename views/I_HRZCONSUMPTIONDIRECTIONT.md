@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `horizontalconsumptiondirection preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `HorizontalConsumptionDirection` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `horizontalcnsmpndirectiondesc preserving type )` | `cast( ddtext` |
+| `HorizontalCnsmpnDirectionDesc` | `cast( ddtext as horizontalcnsmpndirectiondesc preserving type )` |
 | `_HrzConsumptionDirection` | *Association* |
 | `_Language` | *Association* |
 

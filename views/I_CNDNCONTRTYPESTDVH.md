@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CndnContrType` | `CndnContrType` |
-| `/* Associations */` | `/* Associations */` |
+| `CndnContrType` | `CndnContrType` |
 | `_Text` | *Association* |
 
 ## Associations

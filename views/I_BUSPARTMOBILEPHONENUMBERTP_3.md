@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressNumber` | `AddressNumber` |
-| `key Person` | `Person` |
-| `key OrdinalNumber` | `OrdinalNumber` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `Person` | `Person` |
+| `OrdinalNumber` | `OrdinalNumber` |
 | `OrdinalNumberForEdit` | `OrdinalNumberForEdit` |
 | `MobilePhoneCountry` | `MobilePhoneCountry` |
 | `IsDefaultPhoneNumber` | `IsDefaultPhoneNumber` |
@@ -62,9 +62,7 @@ tags:
 | `_PhoneNumberCountry` | *Association* |
 | `_PhoneNumberType` | *Association* |
 | `_AuthorizationGroup` | *Association* |
-| `_BusinessPartner : redirected to I_BusinessPartnerTP_3` | *Association* |
 | `_TelCountryPrefix` | *Association* |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
 
 ## Associations
 

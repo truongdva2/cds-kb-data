@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  FamilyNamePrefix` | `FamilyNamePrefix` |
+| `FamilyNamePrefix` | `FamilyNamePrefix` |
 | `FamilyNamePrefixName` | `FamilyNamePrefixName` |
 
 ## Associations

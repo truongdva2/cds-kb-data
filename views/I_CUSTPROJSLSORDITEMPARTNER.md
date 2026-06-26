@@ -32,33 +32,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CustomerProjectVH'` | `name:    'I_CustomerProjectVH'` |
-| `key CustProjSlsOrdItemPartner.CustomerProject` | `CustProjSlsOrdItemPartner.CustomerProject` |
-| `key SalesOrderItemPartner.PartnerFunction` | `SalesOrderItemPartner.PartnerFunction` |
-| `key SalesOrderItemPartner.SalesOrderItem` | `SalesOrderItemPartner.SalesOrderItem` |
-| `SalesOrderItemPartner.SalesOrder` | `SalesOrderItemPartner.SalesOrder` |
-| `SalesOrderItemPartner.Partner` | `SalesOrderItemPartner.Partner` |
-| `SalesOrderItemPartner.ContactPerson` | `SalesOrderItemPartner.ContactPerson` |
-| `SalesOrderItemPartner.AddressID` | `SalesOrderItemPartner.AddressID` |
-| `SalesOrderItemPartner.AddressPersonID` | `SalesOrderItemPartner.AddressPersonID` |
-| `SalesOrderItemPartner.AddressObjectType` | `SalesOrderItemPartner.AddressObjectType` |
-| `SalesOrderItemPartner.SDDocPartnerAddressRefType` | `SalesOrderItemPartner.SDDocPartnerAddressRefType` |
-| `SalesOrderItemPartner.ReferenceBusinessPartner` | `SalesOrderItemPartner.ReferenceBusinessPartner` |
-| `SalesOrderItemPartner.BPAddrDeterminationTransaction` | `SalesOrderItemPartner.BPAddrDeterminationTransaction` |
-| `SalesOrderItemPartner.BPRefAddressIDForDocSpcfcAddr` | `SalesOrderItemPartner.BPRefAddressIDForDocSpcfcAddr` |
-| `CustProjSlsOrdItemPartner.SalesOrderType` | `CustProjSlsOrdItemPartner.SalesOrderType` |
-| `CustProjSlsOrdItemPartner.OrganizationDivision` | `CustProjSlsOrdItemPartner.OrganizationDivision` |
-| `CustProjSlsOrdItemPartner.SalesOrganization` | `CustProjSlsOrdItemPartner.SalesOrganization` |
-| `CustProjSlsOrdItemPartner.DistributionChannel` | `CustProjSlsOrdItemPartner.DistributionChannel` |
+| `CustomerProject` | `CustProjSlsOrdItemPartner.CustomerProject` |
+| `PartnerFunction` | `SalesOrderItemPartner.PartnerFunction` |
+| `SalesOrderItem` | `SalesOrderItemPartner.SalesOrderItem` |
+| `SalesOrder` | `SalesOrderItemPartner.SalesOrder` |
+| `Partner` | `SalesOrderItemPartner.Partner` |
+| `ContactPerson` | `SalesOrderItemPartner.ContactPerson` |
+| `AddressID` | `SalesOrderItemPartner.AddressID` |
+| `AddressPersonID` | `SalesOrderItemPartner.AddressPersonID` |
+| `AddressObjectType` | `SalesOrderItemPartner.AddressObjectType` |
+| `SDDocPartnerAddressRefType` | `SalesOrderItemPartner.SDDocPartnerAddressRefType` |
+| `ReferenceBusinessPartner` | `SalesOrderItemPartner.ReferenceBusinessPartner` |
+| `BPAddrDeterminationTransaction` | `SalesOrderItemPartner.BPAddrDeterminationTransaction` |
+| `BPRefAddressIDForDocSpcfcAddr` | `SalesOrderItemPartner.BPRefAddressIDForDocSpcfcAddr` |
+| `SalesOrderType` | `CustProjSlsOrdItemPartner.SalesOrderType` |
+| `OrganizationDivision` | `CustProjSlsOrdItemPartner.OrganizationDivision` |
+| `SalesOrganization` | `CustProjSlsOrdItemPartner.SalesOrganization` |
+| `DistributionChannel` | `CustProjSlsOrdItemPartner.DistributionChannel` |
 | `_CustomerProject` | *Association* |
 | `_CustProjSlsOrdItem` | *Association* |
 | `_SalesOrderItem` | *Association* |
 | `_SalesOrder` | *Association* |
-| `SalesOrderItemPartner._PartnerFunction` | `SalesOrderItemPartner._PartnerFunction` |
-| `SalesOrderItemPartner._Address` | `SalesOrderItemPartner._Address` |
-| `SalesOrderItemPartner._DfltAddrRprstn` | `SalesOrderItemPartner._DfltAddrRprstn` |
-| `SalesOrderItemPartner._BusinessPartnerAddress` | `SalesOrderItemPartner._BusinessPartnerAddress` |
-| `SalesOrderItemPartner._BPRefAddressForDocSpcfcAddr` | `SalesOrderItemPartner._BPRefAddressForDocSpcfcAddr` |
+| `_PartnerFunction` | *Association* |
+| `_Address` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
 
 ## Associations
 

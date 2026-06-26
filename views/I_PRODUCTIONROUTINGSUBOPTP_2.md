@@ -33,20 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
-| `key ProdnRtgSubOpIntVersion` | `ProdnRtgSubOpIntVersion` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
+| `ProdnRtgSubOpIntVersion` | `ProdnRtgSubOpIntVersion` |
 | `SuperiorOperationInternalID` | `SuperiorOperationInternalID` |
-| `/* Operation Data */` | `/* Operation Data */` |
 | `Operation` | `Operation` |
 | `OperationText` | `OperationText` |
 | `LongTextLanguageCode` | `LongTextLanguageCode` |
-| `/* Work Center */` | `/* Work Center */` |
-| `WorkCenterTypeCode, // From Operation` | `WorkCenterTypeCode, // From Operation` |
-| `WorkCenterInternalID, // From Operation` | `WorkCenterInternalID, // From Operation` |
-| `/* Standard Value */` | `/* Standard Value */` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
 | `Plant` | `Plant` |
 | `OperationControlProfile` | `OperationControlProfile` |
 | `OperationStandardTextCode` | `OperationStandardTextCode` |
@@ -72,7 +69,6 @@ tags:
 | `StandardWorkQuantity6` | `StandardWorkQuantity6` |
 | `StandardWorkQuantityUnit6` | `StandardWorkQuantityUnit6` |
 | `CostCtrActivityType6` | `CostCtrActivityType6` |
-| `/* General Data */` | `/* General Data */` |
 | `NumberOfTimeTickets` | `NumberOfTimeTickets` |
 | `EmployeeWageType` | `EmployeeWageType` |
 | `EmployeeWageGroup` | `EmployeeWageGroup` |
@@ -95,7 +91,6 @@ tags:
 | `CostElement` | `CostElement` |
 | `OpExternalProcessingPrice` | `OpExternalProcessingPrice` |
 | `OpExternalProcessingCurrency` | `OpExternalProcessingCurrency` |
-| `/* Administrative Data */` | `/* Administrative Data */` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
@@ -110,10 +105,6 @@ tags:
 | `OperationScrapPercent` | `OperationScrapPercent` |
 | `ChangedDateTime` | `ChangedDateTime` |
 | `PlainLongText` | `PlainLongText` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqncTP  : redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_ProdnRtgTP : redirected to I_ProductionRoutingTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
 
 ## Associations
 

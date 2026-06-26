@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  PricingProcedure` | `PricingProcedure` |
+| `PricingProcedure` | `PricingProcedure` |
 | `ConditionUsage` | `ConditionUsage` |
 | `ConditionApplication` | `ConditionApplication` |
 | `_ConditionUsage` | *Association* |

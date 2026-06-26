@@ -35,23 +35,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderItemPartner.SalesOrder` | `SalesOrderItemPartner.SalesOrder` |
-| `key SalesOrderItemPartner.SalesOrderItem` | `SalesOrderItemPartner.SalesOrderItem` |
-| `key SalesOrderItemPartner.PartnerFunction` | `SalesOrderItemPartner.PartnerFunction` |
-| `SalesOrderItemPartner.PartnerFunctionForEdit` | `SalesOrderItemPartner.PartnerFunctionForEdit` |
-| `SalesOrderItemPartner.Customer` | `SalesOrderItemPartner.Customer` |
-| `SalesOrderItemPartner.Supplier` | `SalesOrderItemPartner.Supplier` |
-| `SalesOrderItemPartner.Personnel` | `SalesOrderItemPartner.Personnel` |
-| `SalesOrderItemPartner.ContactPerson` | `SalesOrderItemPartner.ContactPerson` |
-| `SalesOrderItemPartner.ReferenceBusinessPartner` | `SalesOrderItemPartner.ReferenceBusinessPartner` |
-| `SalesOrderItemPartner.Partner` | `SalesOrderItemPartner.Partner` |
-| `SalesOrderItemPartner.PartnerIsSpecificForSDDocItem` | `SalesOrderItemPartner.PartnerIsSpecificForSDDocItem` |
-| `SalesOrderItemPartner.SalesOrderType` | `SalesOrderItemPartner.SalesOrderType` |
-| `SalesOrderItemPartner.SalesOrganization` | `SalesOrderItemPartner.SalesOrganization` |
-| `SalesOrderItemPartner.DistributionChannel` | `SalesOrderItemPartner.DistributionChannel` |
-| `SalesOrderItemPartner.OrganizationDivision` | `SalesOrderItemPartner.OrganizationDivision` |
-| `_Item       : redirected to parent I_SalesOrderItemTP` | *Association* |
-| `_SalesOrder : redirected to I_SalesOrderTP` | *Association* |
+| `SalesOrder` | `SalesOrderItemPartner.SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItemPartner.SalesOrderItem` |
+| `PartnerFunction` | `SalesOrderItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesOrderItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesOrderItemPartner.Customer` |
+| `Supplier` | `SalesOrderItemPartner.Supplier` |
+| `Personnel` | `SalesOrderItemPartner.Personnel` |
+| `ContactPerson` | `SalesOrderItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesOrderItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesOrderItemPartner.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `SalesOrderItemPartner.PartnerIsSpecificForSDDocItem` |
+| `SalesOrderType` | `SalesOrderItemPartner.SalesOrderType` |
+| `SalesOrganization` | `SalesOrderItemPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderItemPartner.OrganizationDivision` |
 
 ## Associations
 

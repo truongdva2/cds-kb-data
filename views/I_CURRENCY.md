@@ -33,9 +33,9 @@ tags:
 |---|---|
 | `Currency` | `tcurc.waers` |
 | `_Text` | *Association* |
-| `currdec_cds)` | `cast(COALESCE(tcurx.currdec, 2)` |
-| `isocd_cds)` | `cast(tcurc.isocd` |
-| `altwr_cds)` | `cast(tcurc.altwr` |
+| `Decimals` | `cast(COALESCE(tcurx.currdec, 2) as currdec_cds)` |
+| `CurrencyISOCode` | `cast(tcurc.isocd as isocd_cds)` |
+| `AlternativeCurrencyKey` | `cast(tcurc.altwr as altwr_cds)` |
 | `IsPrimaryCurrencyForISOCrcy` | `tcurc.xprimary` |
 
 ## Associations

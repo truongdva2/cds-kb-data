@@ -32,34 +32,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceItem` | `MaintenanceItem` |
+| `MaintenanceItem` | `MaintenanceItem` |
 | `MaintenanceItemDescription` | `MaintenanceItemDescription` |
 | `MaintenanceStrategy` | `MaintenanceStrategy` |
 | `MaintenancePlanCategory` | `MaintenancePlanCategory` |
 | `MaintenancePlanCallObject` | `MaintenancePlanCallObject` |
 | `MaintItemCausesAreDisplayed` | `MaintItemCausesAreDisplayed` |
 | `MaintItemReasonsAreDisplayed` | `MaintItemReasonsAreDisplayed` |
-| `MaintenancePlan` | `MaintenancePlan` |
 | `MaintenancePlanItemPosition` | `MaintenancePlanItemPosition` |
 | `MaintenancePlanType` | `MaintenancePlanType` |
-| `FunctionalLocation` | `FunctionalLocation` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `Equipment` | `Equipment` |
 | `Assembly` | `Assembly` |
-| `TechObjIsEquipOrFuncnlLoc` | `TechObjIsEquipOrFuncnlLoc` |
 | `TechnicalObject` | `TechnicalObject` |
 | `TechnicalObjectLabel` | `TechnicalObjectLabel` |
 | `TechnicalObjectDescription` | `TechnicalObjectDescription` |
-| `MaintItemHasObjectList` | `MaintItemHasObjectList` |
 | `MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
-| `TaskListType` | `TaskListType` |
 | `TaskListGroup` | `TaskListGroup` |
 | `TaskListGroupCounter` | `TaskListGroupCounter` |
 | `OperationSystemCondition` | `OperationSystemCondition` |
 | `NumberOfTaskListExecutions` | `NumberOfTaskListExecutions` |
 | `TaskListKeyDate` | `TaskListKeyDate` |
 | `TaskList` | `TaskList` |
-| `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `MaintenanceOrderType` | `MaintenanceOrderType` |
 | `MaintenanceActivityType` | `MaintenanceActivityType` |
@@ -79,13 +73,11 @@ tags:
 | `MaintNotifTskIsAutomlyDtmnd` | `MaintNotifTskIsAutomlyDtmnd` |
 | `Material` | `Material` |
 | `SerialNumber` | `SerialNumber` |
-| `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceContract` | `ServiceContract` |
 | `ServiceContractItem` | `ServiceContractItem` |
 | `ServiceOrderTemplate` | `ServiceOrderTemplate` |
 | `ServiceDocumentPriority` | `ServiceDocumentPriority` |
 | `Product` | `Product` |
-| `MaintObjectLocAcctAssgmtNmbr` | `MaintObjectLocAcctAssgmtNmbr` |
 | `MaintenancePlant` | `MaintenancePlant` |
 | `AssetLocation` | `AssetLocation` |
 | `AssetRoom` | `AssetRoom` |
@@ -96,7 +88,6 @@ tags:
 | `LocAcctAssgmtWorkCtrTypeCode` | `LocAcctAssgmtWorkCtrTypeCode` |
 | `ABCIndicator` | `ABCIndicator` |
 | `MaintObjectFreeDefinedAttrib` | `MaintObjectFreeDefinedAttrib` |
-| `CompanyCode` | `CompanyCode` |
 | `MasterFixedAsset` | `MasterFixedAsset` |
 | `FixedAsset` | `FixedAsset` |
 | `LocAcctAssgmtBusinessArea` | `LocAcctAssgmtBusinessArea` |
@@ -106,22 +97,14 @@ tags:
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `StandingOrderNumber` | `StandingOrderNumber` |
 | `SettlementOrder` | `SettlementOrder` |
-| `CycleSetSequence` | `CycleSetSequence` |
 | `OrderCategoryScreenTypeCode` | `OrderCategoryScreenTypeCode` |
-| `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Association */` | `/* Association */` |
 | `_FunctionalLocation` | *Association* |
 | `_Equipment` | *Association* |
 | `_ServiceContract` | *Association* |
-| `/* Composition */` | `/* Composition */` |
-| `_MaintItemObjectListItem  : redirected to composition child I_MaintItemObjectListItemTP` | *Association* |
-| `_MaintenanceItemReason    : redirected to composition child I_MaintenanceItemReasonTP` | *Association* |
-| `_MaintenanceItemCause     : redirected to composition child I_MaintenanceItemCauseTP` | *Association* |
-| `_LongText                 : redirected to composition child I_MaintenanceItemTextTP` | *Association* |
 
 ## Associations
 

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_transfer )` | `cast ( domvalue_l` |
+| `SrvcDocTransferStatus` | `cast ( domvalue_l as crms4_stat_transfer )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ServiceDocTransferStatusText` | *Association* |
 

@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `manufacturingordertypename preserving type)` | `cast(txt.OrderTypeName` |
+| `ManufacturingOrderType` | `cast(txt.OrderType as manufacturingordertype preserving type)` |
+| `Language` | `cast(txt.Language as spras preserving type)` |
+| `ManufacturingOrderTypeName` | `cast(txt.OrderTypeName as manufacturingordertypename preserving type)` |
 | `_OrderType` | *Association* |
 | `_Language` | *Association* |
 

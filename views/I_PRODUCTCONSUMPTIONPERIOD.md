@@ -31,10 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
+| `PeriodType` | `cast ( domvalue_l as perkz )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

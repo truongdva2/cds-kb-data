@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `fis_datbi preserving type )` | `cast(hrrp_node_n.hryvalto` |
+| `ControllingArea` | `cast( hrrp_node_n.kokrs as fis_kokrs preserving type )` |
+| `CostCtrActivityTypeHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_cctracttytpe preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
 | `ParentNode` | `hrrp_node_n.parnode` |
-| `hryversn )` | `cast( '000000000000001'` |
-| `fis_datab preserving type )` | `cast(hrrp_node_n.hryvalfrom` |
+| `HierarchyVersion` | `cast( '000000000000001' as hryversn )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
 | `CostCtrActivityType` | `hrrp_node_n.lstar` |
-| `SequenceNumber, // do not use any longer, use HierarchyNodeSequence` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
+| `SequenceNumber` | `concat(hrrp_node_n.hryseqnbr, hrrp_node_n.hrynode)` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |
 | `NodeType` | `hrrp_node_n.nodetype` |

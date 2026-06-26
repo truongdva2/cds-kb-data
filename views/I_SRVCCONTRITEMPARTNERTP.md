@@ -31,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_BusinessPartnerVH', element: 'BusinessPartner' }` | `name: 'I_BusinessPartnerVH', element: 'BusinessPartner' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
-| `key  CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartFunctionCategory` | `CustMgmtPartFunctionCategory` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `/* Compositions */` | `/* Compositions */` |
 | `_SrvcMgmtPartnerFunctionText` | *Association* |
-| `_ServiceContractItemTP        : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP            : redirected to I_ServiceContractTP` | *Association* |
-| `_SrvcContrItmPartnerAddressTP : redirected to composition child I_SrvcContrItmPartnerAddressTP` | *Association* |
 
 ## Associations
 

@@ -30,15 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
-| `MnllyEnteredWhldgTxAmtInDocCry : wt_qbuihb_cs;` | `MnllyEnteredWhldgTxAmtInDocCry : wt_qbuihb_cs;` |
-| `WhldgTaxIsEnteredManually      : wt_amnman;` | `WhldgTaxIsEnteredManually      : wt_amnman;` |
-| `WhldgTaxBaseIsEnteredManually  : wt_basman;` | `WhldgTaxBaseIsEnteredManually  : wt_basman;` |
-| `_SupplierInvoice               : association to parent D_SuplrInvcCreateP;` | *Association* |
+| `WithholdingTaxType` | `witht` |
+| `WithholdingTaxCode` | `wt_withcd` |
+| `DocumentCurrency` | `waers` |
+| `WhldgTxBaseAmtInDocCry` | `wt_bs1_cs` |
+| `MnllyEnteredWhldgTxAmtInDocCry` | `wt_qbuihb_cs` |
+| `WhldgTaxIsEnteredManually` | `wt_amnman` |
+| `WhldgTaxBaseIsEnteredManually` | `wt_basman` |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplierInvoice` | `D_SuplrInvcCreateP` | — |
 
 ## Source Code
 

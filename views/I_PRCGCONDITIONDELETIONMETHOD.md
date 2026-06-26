@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kdele )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgConditionDeletionMethod` | `cast ( substring( domvalue_l, 1, 1 ) as kdele )` |
 | `_Text` | *Association* |
 
 ## Associations

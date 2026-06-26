@@ -31,7 +31,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DocInfoRecdIsMarkedForDeletion` | `substring( Domval.domvalue_l, 1, 1 )` |
-| `_Text` | *Association* |
 
 ## Associations
 

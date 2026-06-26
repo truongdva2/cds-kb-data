@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ExplainWithAIResultText : aifnd_xc_explanation;` | `ExplainWithAIResultText : aifnd_xc_explanation;` |
-| `CreationDateTime    : tzntstmps;` | `CreationDateTime    : tzntstmps;` |
+| `ExplainWithAIResultText` | `aifnd_xc_explanation` |
+| `CreationDateTime` | `tzntstmps` |
 
 ## Associations
 

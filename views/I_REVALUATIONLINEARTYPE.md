@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recestraightlinetype )` | `cast( dd07l.domvalue_l` |
+| `REValuationLinearType` | `cast( dd07l.domvalue_l as recestraightlinetype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REValuationLinearTypeText` | [0..*] |
 
 ## Source Code
 

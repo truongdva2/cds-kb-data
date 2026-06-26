@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_awtyp preserving type )` | `cast(awtyp` |
+| `ReferenceDocumentType` | `cast(awtyp as fis_awtyp preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

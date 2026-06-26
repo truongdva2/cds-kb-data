@@ -31,15 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSalesOrganizationVH'` | `name: 'I_CnsldtnSalesOrganizationVH'` |
-| `element: 'SalesOrganization'` | `element: 'SalesOrganization'` |
-| `}` | `}` |
-| `}]` | `}]` |
+| `CnsldtnSalesOrgHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
 | `SalesOrganization` | `SalesOrganization` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_Hierarchy` | *Association* |

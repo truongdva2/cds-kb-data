@@ -40,8 +40,8 @@ tags:
 | `AbsenceInHours` | `pTime.absencehours` |
 | `AttendanceHours` | `pTime.attendancehours` |
 | `OvertimeInHours` | `pTime.overtimehours` |
-| `AvailabilityInHours` | `( pTime.regularhours + pTime.overtimehours - pTime.absencehours - pTime.attendancehours )` |
-| `_PersonWorkAgrmtStatus.PersonWorkAgrmtAuthznGrpg` | *Association* |
+| `AvailabilityInHours` | `expr(…)` |
+| `PersonWorkAgrmtAuthznGrpg` | `_PersonWorkAgrmtStatus.PersonWorkAgrmtAuthznGrpg` |
 
 ## Associations
 

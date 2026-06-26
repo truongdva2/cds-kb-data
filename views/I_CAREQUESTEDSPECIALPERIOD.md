@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wnper_kk )` | `cast( left( dd07l.domvalue_l, 2 )` |
+| `CARequestedPeriodForGLTransfer` | `cast( left( dd07l.domvalue_l, 2 ) as wnper_kk )` |
 | `_Text` | *Association* |
 
 ## Associations

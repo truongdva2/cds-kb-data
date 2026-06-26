@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `credit_memo_request_type preserving type )` | `cast ( SalesDocumentType` |
+| `CreditMemoRequestType` | `cast ( SalesDocumentType as credit_memo_request_type preserving type )` |
 | `CreditMemoRequestProcgType` | `SalesDocumentProcessingType` |
 | `_Text` | *Association* |
 

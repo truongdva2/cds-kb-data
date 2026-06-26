@@ -33,16 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.association: null } // ATC error: Use of annotation OBJECTMODEL.TEXT.ASSOCIATION is not allowed for element ACTIVITYTYPE` | `text.association: null } // ATC error: Use of annotation OBJECTMODEL.TEXT.ASSOCIATION is not allowed for element ACTIVITYTYPE` |
+| `ProjectDemandWorkUUID` | `ProjectDemandWorkUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjectUUID` | `ProjectUUID` |
+| `ReferencedObjectUUID` | `ReferencedObjectUUID` |
+| `CostCenter` | `CostCenter` |
 | `ActivityType` | `ActivityType` |
 | `ProjDmndAssgmtStatus` | `ProjDmndAssgmtStatus` |
 | `ProjectElementWorkItem` | `ProjectElementWorkItem` |
 | `ProjDmndBillingControlCategory` | `ProjDmndBillingControlCategory` |
 | `ProjDmndRequestedDeliveryOrg` | `ProjDmndRequestedDeliveryOrg` |
-| `/* Associations */` | `/* Associations */` |
-| `_Root               : redirected to parent I_ProjectDemandTP_2` | *Association* |
-| `_ResourceAssignment : redirected to composition child I_ProjDmndRsceAssignmentTP_2` | *Association* |
-| `_ResourceRequest    : redirected to composition child I_ProjDmndResourceRequestTP` | *Association* |
 | `_CostCenterActType` | *Association* |
 | `_CostCenter` | *Association* |
 | `_CostCenterText` | *Association* |

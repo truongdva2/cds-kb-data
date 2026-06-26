@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChartOfAccounts` | `ChartOfAccounts` |
-| `key GLAccount` | `GLAccount` |
-| `fac_sakan )` | `cast( GLAccountExternal` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccount` | `GLAccount` |
+| `GLAccountExternal` | `cast( GLAccountExternal as fac_sakan )` |
 | `_Text` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 

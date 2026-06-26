@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_WorkflowTask.WorkflowTaskInternalID` | `I_WorkflowTask.WorkflowTaskInternalID` |
+| `WorkflowTaskInternalID` | `I_WorkflowTask.WorkflowTaskInternalID` |
 | `WorkflowInternalID` | `TopLevelWorkflowTask` |
 | `WorkflowTaskExternalStatus` | `WorkflowTaskStatus` |
 | `_WorkflowTaskExternalStatus` | *Association* |
@@ -50,7 +50,7 @@ tags:
 | `WorkflowScenarioDefinitionVers` | `WorkflowTaskDefinitionVersion` |
 | `_WorkflowRecipients` | *Association* |
 | `_WorkflowRecipients_2` | *Association* |
-| `WorkflowTaskResult.WorkflowTaskResult` | `WorkflowTaskResult.WorkflowTaskResult` |
+| `WorkflowTaskResult` | `WorkflowTaskResult.WorkflowTaskResult` |
 | `_WorkflowTaskStepResult` | *Association* |
 
 ## Associations

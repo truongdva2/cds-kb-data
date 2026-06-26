@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_CnsldtnVersionType.DomainValue // required for search` | *Association* |
+| `CnsldtnVersionType` | `_CnsldtnVersionType.CnsldtnVersionType` |
+| `CnsldtnVersionTypeText` | `expr(…)` |
+| `DomainValue` | `_CnsldtnVersionType.DomainValue` |
 
 ## Associations
 

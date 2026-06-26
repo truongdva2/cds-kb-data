@@ -31,7 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PurchaseContractStdVH'` | `name:    'I_PurchaseContractStdVH'` |
+| `Material` | `matnr` |
+| `Plant` | `werks` |
+| `SourceListRecord` | `zeord` |
+| `CreationDate` | `erdat` |
+| `CreatedByUserName` | `ernam` |
+| `ValidityStartDate` | `vdatu` |
+| `ValidityEndDate` | `bdatu` |
+| `Supplier` | `lifnr` |
+| `SupplierIsFixed` | `flifn` |
 | `PurchaseOutlineAgreement` | `ebeln` |
 | `PurchaseOutlineAgreementItem` | `ebelp` |
 | `PurOutlineAgreementIsFixed` | `febel` |
@@ -39,19 +47,18 @@ tags:
 | `IssgPlantIsFixed` | `fresw` |
 | `ManufacturerMaterial` | `ematn` |
 | `SourceOfSupplyIsBlocked` | `notkz` |
-| `flag )` | `cast( ''` |
-| `sl_status )` | `cast( ''` |
+| `SourceOfSupplyIsFixed` | `cast( '' as flag )` |
+| `SourceListStatus` | `cast( '' as sl_status )` |
 | `PurchasingOrganization` | `ekorg` |
 | `PurchasingDocumentCategory` | `vrtyp` |
 | `SourceListRecordCategory` | `eortp` |
 | `MRPSourcingControl` | `autet` |
-| `abap.char(10) )` | `cast(''` |
+| `MRPArea` | `cast('' as abap.char(10) )` |
 | `OrderQuantityUnit` | `meins` |
 | `OriginSystem` | `logsy` |
 | `InventorySpecialStockType` | `sobkz` |
 | `LastChangeDateTime` | `lastchangedatetime` |
 | `_MPPurchasingSource` | *Association* |
-| `/*Exposed Associations*/` | `/*Exposed Associations*/` |
 | `_Material` | *Association* |
 | `_Plant` | *Association* |
 | `_Supplier` | *Association* |

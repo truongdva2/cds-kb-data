@@ -34,20 +34,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnPartner.CustomerReturn` | `CustomerReturnPartner.CustomerReturn` |
-| `key CustomerReturnPartner.PartnerFunction` | `CustomerReturnPartner.PartnerFunction` |
-| `CustomerReturnPartner.PartnerFunctionForEdit` | `CustomerReturnPartner.PartnerFunctionForEdit` |
-| `CustomerReturnPartner.Customer` | `CustomerReturnPartner.Customer` |
-| `CustomerReturnPartner.Supplier` | `CustomerReturnPartner.Supplier` |
-| `CustomerReturnPartner.Personnel` | `CustomerReturnPartner.Personnel` |
-| `CustomerReturnPartner.ContactPerson` | `CustomerReturnPartner.ContactPerson` |
-| `CustomerReturnPartner.ReferenceBusinessPartner` | `CustomerReturnPartner.ReferenceBusinessPartner` |
-| `CustomerReturnPartner.Partner` | `CustomerReturnPartner.Partner` |
-| `CustomerReturnPartner.CustomerReturnType` | `CustomerReturnPartner.CustomerReturnType` |
-| `CustomerReturnPartner.SalesOrganization` | `CustomerReturnPartner.SalesOrganization` |
-| `CustomerReturnPartner.DistributionChannel` | `CustomerReturnPartner.DistributionChannel` |
-| `CustomerReturnPartner.OrganizationDivision` | `CustomerReturnPartner.OrganizationDivision` |
-| `_CustomerReturn : redirected to parent I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustomerReturnPartner.CustomerReturn` |
+| `PartnerFunction` | `CustomerReturnPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `CustomerReturnPartner.PartnerFunctionForEdit` |
+| `Customer` | `CustomerReturnPartner.Customer` |
+| `Supplier` | `CustomerReturnPartner.Supplier` |
+| `Personnel` | `CustomerReturnPartner.Personnel` |
+| `ContactPerson` | `CustomerReturnPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `CustomerReturnPartner.ReferenceBusinessPartner` |
+| `Partner` | `CustomerReturnPartner.Partner` |
+| `CustomerReturnType` | `CustomerReturnPartner.CustomerReturnType` |
+| `SalesOrganization` | `CustomerReturnPartner.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturnPartner.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturnPartner.OrganizationDivision` |
 
 ## Associations
 

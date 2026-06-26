@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionCatalog` | `InspectionCatalog` |
-| `key InspectionCodeGroup` | `InspectionCodeGroup` |
+| `InspectionCatalog` | `InspectionCatalog` |
+| `InspectionCodeGroup` | `InspectionCodeGroup` |
 | `_Text` | *Association* |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 | `_InspectionCatalog` | *Association* |

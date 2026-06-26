@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `CASecurityDepositRequestReason` | `reason` |
 | `Language` | `spras` |
-| `req_reason_txt_kk )` | `cast ( text` |
+| `CASecurityDepositReqReasonText` | `cast ( text as req_reason_txt_kk )` |
 | `_Language` | *Association* |
 | `_CASecurityDepositRequestRsn` | *Association* |
 

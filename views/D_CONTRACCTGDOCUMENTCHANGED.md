@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CAReconciliationKey  : fikey_kk;` | `CAReconciliationKey  : fikey_kk;` |
-| `CADocumentType       : blart_kk;` | `CADocumentType       : blart_kk;` |
-| `CADocumentOriginCode : herkf_kk;` | `CADocumentOriginCode : herkf_kk;` |
-| `DocumentDate         : bldat;` | `DocumentDate         : bldat;` |
-| `CAPostingDate        : budat_kk;` | `CAPostingDate        : budat_kk;` |
-| `CAReferenceDocument  : xblnr_kk;` | `CAReferenceDocument  : xblnr_kk;` |
+| `CAReconciliationKey` | `fikey_kk` |
+| `CADocumentType` | `blart_kk` |
+| `CADocumentOriginCode` | `herkf_kk` |
+| `DocumentDate` | `bldat` |
+| `CAPostingDate` | `budat_kk` |
+| `CAReferenceDocument` | `xblnr_kk` |
 
 ## Associations
 

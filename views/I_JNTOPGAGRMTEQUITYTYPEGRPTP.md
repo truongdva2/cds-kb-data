@@ -31,22 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JntOpgAgrmtEquityGrp.CompanyCode` | `JntOpgAgrmtEquityGrp.CompanyCode` |
-| `key JntOpgAgrmtEquityGrp.JntOpgAgrmt` | `JntOpgAgrmtEquityGrp.JntOpgAgrmt` |
-| `key JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrp` |
-| `JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrpText` | `JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrpText` |
-| `JntOpgAgrmtEquityGrp.JntVntrOperatedShare` | `JntOpgAgrmtEquityGrp.JntVntrOperatedShare` |
-| `JntOpgAgrmtEquityGrp.JntVntrNonOperatedShare` | `JntOpgAgrmtEquityGrp.JntVntrNonOperatedShare` |
-| `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsSuspended` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsSuspended` |
-| `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedPerd` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedPerd` |
-| `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedYr` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedYr` |
-| `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsNotSuspended` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsNotSuspended` |
-| `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedPerd` | `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedPerd` |
-| `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedYr` | `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedYr` |
-| `JntOpgAgrmtEquityGrp.JntVntrNetProfitIntrstGrp` | `JntOpgAgrmtEquityGrp.JntVntrNetProfitIntrstGrp` |
-| `JntOpgAgrmtEquityGrp.JointVentureType` | `JntOpgAgrmtEquityGrp.JointVentureType` |
-| `_JntOpgAgrmt        : redirected to parent I_JntOpgAgrmtTP` | *Association* |
-| `_JntOpgAgrmtPartShr : redirected to composition child I_JntOpgAgrmtPartShrTP` | *Association* |
+| `CompanyCode` | `JntOpgAgrmtEquityGrp.CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmtEquityGrp.JntOpgAgrmt` |
+| `JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrp` |
+| `JntOpgAgrmtEquityGrpText` | `JntOpgAgrmtEquityGrp.JntOpgAgrmtEquityGrpText` |
+| `JntVntrOperatedShare` | `JntOpgAgrmtEquityGrp.JntVntrOperatedShare` |
+| `JntVntrNonOperatedShare` | `JntOpgAgrmtEquityGrp.JntVntrNonOperatedShare` |
+| `JntVntrEquityGrpIsSuspended` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsSuspended` |
+| `JntVntrEquityGrpSuspendedPerd` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedPerd` |
+| `JntVntrEquityGrpSuspendedYr` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpSuspendedYr` |
+| `JntVntrEquityGrpIsNotSuspended` | `JntOpgAgrmtEquityGrp.JntVntrEquityGrpIsNotSuspended` |
+| `JntVntrGrpNotSuspendedPerd` | `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedPerd` |
+| `JntVntrGrpNotSuspendedYr` | `JntOpgAgrmtEquityGrp.JntVntrGrpNotSuspendedYr` |
+| `JntVntrNetProfitIntrstGrp` | `JntOpgAgrmtEquityGrp.JntVntrNetProfitIntrstGrp` |
+| `JointVentureType` | `JntOpgAgrmtEquityGrp.JointVentureType` |
 
 ## Associations
 

@@ -32,18 +32,18 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SalesDocument` | `PrecedingProcFlow.SubsequentDocument` |
-| `key PrecedingProcFlow.DocRelationshipUUID` | `PrecedingProcFlow.DocRelationshipUUID` |
-| `PrecedingProcFlow.PrecedingDocument` | `PrecedingProcFlow.PrecedingDocument` |
-| `PrecedingProcFlow.PrecedingDocumentCategory` | `PrecedingProcFlow.PrecedingDocumentCategory` |
+| `DocRelationshipUUID` | `PrecedingProcFlow.DocRelationshipUUID` |
+| `PrecedingDocument` | `PrecedingProcFlow.PrecedingDocument` |
+| `PrecedingDocumentCategory` | `PrecedingProcFlow.PrecedingDocumentCategory` |
 | `SDDocumentCategory` | `PrecedingProcFlow.SubsequentDocumentCategory` |
-| `PrecedingProcFlow.ProcessFlowLevel` | `PrecedingProcFlow.ProcessFlowLevel` |
-| `PrecedingProcFlow.CreationDate` | `PrecedingProcFlow.CreationDate` |
-| `PrecedingProcFlow.CreationTime` | `PrecedingProcFlow.CreationTime` |
-| `PrecedingProcFlow.LastChangeDate` | `PrecedingProcFlow.LastChangeDate` |
-| `SalesDocument.SalesDocumentType` | `SalesDocument.SalesDocumentType` |
-| `SalesDocument.SalesOrganization` | `SalesDocument.SalesOrganization` |
-| `SalesDocument.DistributionChannel` | `SalesDocument.DistributionChannel` |
-| `SalesDocument.OrganizationDivision` | `SalesDocument.OrganizationDivision` |
+| `ProcessFlowLevel` | `PrecedingProcFlow.ProcessFlowLevel` |
+| `CreationDate` | `PrecedingProcFlow.CreationDate` |
+| `CreationTime` | `PrecedingProcFlow.CreationTime` |
+| `LastChangeDate` | `PrecedingProcFlow.LastChangeDate` |
+| `SalesDocumentType` | `SalesDocument.SalesDocumentType` |
+| `SalesOrganization` | `SalesDocument.SalesOrganization` |
+| `DistributionChannel` | `SalesDocument.DistributionChannel` |
+| `OrganizationDivision` | `SalesDocument.OrganizationDivision` |
 | `_SalesDocument` | *Association* |
 
 ## Associations

@@ -38,8 +38,7 @@ tags:
 | `ContractAccountCategoryName` | `text` |
 | `_Language` | *Association* |
 | `_CAApplicationArea` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea as _ApplArea` | *Association* |
+| `_ApplArea` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaxCategory` | `TaxCategory` |
+| `TaxCategory` | `TaxCategory` |
 | `TaxRate` | `TaxRate` |
 | `IsDeleted` | `IsDeleted` |
 | `_Text` | *Association* |

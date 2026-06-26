@@ -33,33 +33,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `ebeln )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseOrder.PurchaseOrderType` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_PurchaseOrder.DocumentCurrency` | *Association* |
-| `mm_pur_order_tot_net_amount preserving type )` | `cast((_PurchaseOrderNetAmount.PurchaseOrderNetAmount)` |
-| `case _WorkitemDet.WorkflowTaskType` | `case _WorkitemDet.WorkflowTaskType` |
-| `when 'W' then case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` | `when 'W' then case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` |
-| `when 'requestApproved' then 'Approved'` | `when 'requestApproved' then 'Approved'` |
-| `when 'requestRejected' then 'Rejected'` | `when 'requestRejected' then 'Rejected'` |
-| `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` | `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` |
-| `when 'B' then 'Automatically Approved'` | `when 'B' then 'Automatically Approved'` |
-| `WorkflowTaskResult` | `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCompletionUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCompletionUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `_PurchaseOrder.Supplier` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_User.UserDescription` |
-| `_Supplier.SupplierName` | *Association* |
-| `_PurchaseOrderPlainLongText.PlainLongText                                                                       as POHeaderTextPlainLongText` | *Association* |
-| `_PurchaseOrderNoteLongText.PlainLongText                                                                        as POHeaderNotePlainLongText` | *Association* |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReasonText` | *Association* |
-| `case _WorkitemDet.WorkflowTaskType` | `case _WorkitemDet.WorkflowTaskType` |
-| `when 'B' then 'Automatically Approved'` | `when 'B' then 'Automatically Approved'` |
-| `mm_oa_user_fullname )   end` | `else cast(_ApproverUser.UserDescription` |
-| `_WorkflowTaskResultComment.WorkflowTaskResultComment                                                            as WorkflowTaskResultComment` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `PurchaseOrder` | `cast(…)` |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `DocumentCurrency` | `_PurchaseOrder.DocumentCurrency` |
+| `PurchaseOrderNetAmount` | `cast(…)` |
+| `WorkflowTaskResult` | `case…end` |
+| `PurOrdWrkflwTskCreationUTCDate` | `cast(…)` |
+| `PurOrdWrkflwTskCreationUTCTime` | `cast(…)` |
+| `PurOrdWrkflwTaskEndUTCDate` | `cast(…)` |
+| `PurOrdWrkflwTaskEndUTCTime` | `cast(…)` |
+| `Supplier` | `_PurchaseOrder.Supplier` |
+| `CreatedByUserName` | `cast(_User.UserDescription as mm_oa_user_fullname )` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `POHeaderTextPlainLongText` | `_PurchaseOrderPlainLongText.PlainLongText` |
+| `POHeaderNotePlainLongText` | `_PurchaseOrderNoteLongText.PlainLongText` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
+| `ApprovedByUserFullName` | `case…end` |
+| `WorkflowTaskResultComment` | `_WorkflowTaskResultComment.WorkflowTaskResultComment` |
 
 ## Associations
 

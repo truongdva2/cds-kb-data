@@ -30,11 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `fis_bukrs preserving type)` | `cast(bukrs` |
-| `farp_maber preserving type)` | `cast(maber` |
+| `CompanyCode` | `cast(bukrs as fis_bukrs preserving type)` |
+| `DunningArea` | `cast(maber as farp_maber preserving type)` |
 | `_CompanyCode` | *Association* |
 | `_Text` | *Association* |
 

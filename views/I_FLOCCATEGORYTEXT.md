@@ -32,14 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}  // Optimize Type ahead for value helps - 2302` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}  // Optimize Type ahead for value helps - 2302` |
+| `FunctionalLocationCategory` | `t370f_t.fltyp` |
+| `Language` | `t370f_t.spras` |
 | `FunctionalLocationCategoryDesc` | `t370f_t.typtx` |
 | `_FunctionalLocationCategory` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FunctionalLocationCategory` | `I_FunctionalLocationCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

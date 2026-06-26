@@ -30,30 +30,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'C_MM_CountryValueHelp', element : 'Country' } }]` | `name : 'C_MM_CountryValueHelp', element : 'Country' } }]` |
-| `mm_a_supplier_country )` | `cast( _Supplier.Country` |
-| `_Supplier._CountryText[1: Language = $session.system_language].CountryName` | *Association* |
-| `displaycurrency )` | `cast( :P_DisplayCurrency` |
-| `mm_pur_ana_de_pur_net_amount)` | `cast( PurchaseOrderAmount` |
-| `mm_pur_ana_de_invoice_amt)` | `cast( TotalInvoiceAmountInDisCrcy` |
-| `mm_a_numberofpurchasecontracts)` | `cast ( NumberOfContracts` |
+| `CalendarYear` | `CalendarYear` |
+| `CalendarMonth` | `CalendarMonth` |
+| `CalendarQuarter` | `CalendarQuarter` |
+| `CalendarWeek` | `CalendarWeek` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `Supplier` | `Supplier` |
+| `CompanyCode` | `P_PurchasingGroupAnalysis3.CompanyCode` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
+| `PurchasingDocumentStatus` | `PurchasingDocumentStatus` |
+| `GoodsReceiptQty` | `cast(RoughGoodsReceiptQty as wemng)` |
+| `PurchasingOrganizationName` | `_PurchasingOrganization.PurchasingOrganizationName` |
+| `PurchasingGroupName` | `_PurchasingGroup.PurchasingGroupName` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
+| `CountryName` | `_Supplier._CountryText[1: Language = $session.system_language].CountryName` |
+| `DisplayCurrency` | `cast( :P_DisplayCurrency as displaycurrency )` |
+| `PurchaseOrderAmount` | `cast( PurchaseOrderAmount as mm_pur_ana_de_pur_net_amount)` |
+| `InvoiceAmtInDisplayCurrency` | `cast( TotalInvoiceAmountInDisCrcy as mm_pur_ana_de_invoice_amt)` |
+| `NumberOfContracts` | `cast ( NumberOfContracts as mm_a_numberofpurchasecontracts)` |
 | `NumberOfContractItems` | `NumberOfContractItems` |
-| `mm_a_numberofpurchaseorders)` | `cast ( NumberOfPurchaseOrders` |
+| `NumberOfPurchaseOrders` | `cast ( NumberOfPurchaseOrders as mm_a_numberofpurchaseorders)` |
 | `NumberOfPurchaseOrderItems` | `NumberOfPurchaseOrderItems` |
 | `NumberOfQuotationItems` | `NumberOfQuotationItems` |
-| `case when PurchasingDocumentCategory = 'F'` | `case when PurchasingDocumentCategory = 'F'` |
-| `abap.int4 )` | `then cast(ScheduleLines` |
-| `else 0` | `else 0` |
-| `NumberOfPurOrderSchedgLines` | `end` |
-| `case when PurchasingDocumentCategory = 'L'` | `case when PurchasingDocumentCategory = 'L'` |
-| `then ScheduleLines` | `then ScheduleLines` |
-| `else 0` | `else 0` |
-| `NumberOfSchedgAgrmtSchedgLines` | `end` |
-| `mm_a_numberofschedulingagrmnts)` | `cast ( NumberOfSchedulingAgreements` |
+| `NumberOfPurOrderSchedgLines` | `case…end` |
+| `NumberOfSchedgAgrmtSchedgLines` | `case when PurchasingDocumentCategory = 'L' then ScheduleLines else 0 end` |
+| `NumberOfSchedulingAgreements` | `cast ( NumberOfSchedulingAgreements as mm_a_numberofschedulingagrmnts)` |
 | `NumberOfSchedgAgrmtItems` | `NumberOfSchedgAgrmtItems` |
 | `NumberOfRequestsForQuotation` | `NumberOfRequestsForQuotation` |
 | `NumberOfReqForQuotationItems` | `NumberOfReqForQuotationItems` |
-| `abap.int4)` | `cast(cast (NumberOfDeliveries` |
+| `NumberOfDeliveries` | `cast(cast (NumberOfDeliveries as abap.int4) as mm_a_numberofdeliveries)` |
 
 ## Associations
 

@@ -33,30 +33,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'BillingDocument'` | `localElement: 'BillingDocument'` |
-| `element: 'BillingDocument' }]` | `element: 'BillingDocument' }]` |
-| `}]` | `}]` |
-| `key BillingDocumentItem.BillingDocumentItem` | `BillingDocumentItem.BillingDocumentItem` |
-| `key Partner.PartnerFunction` | `Partner.PartnerFunction` |
-| `Partner.Customer` | `Partner.Customer` |
-| `Partner.Supplier` | `Partner.Supplier` |
-| `Partner.Personnel` | `Partner.Personnel` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.ContactPerson` | `Partner.ContactPerson` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
-| `Partner.ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
-| `Partner.BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
-| `Partner.SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
-| `Partner.AddressObjectType` | `Partner.AddressObjectType` |
-| `Partner.VATRegistration` | `Partner.VATRegistration` |
-| `Partner.UnloadingPointName` | `Partner.UnloadingPointName` |
+| `BillingDocument` | `cast(Partner.SDDocument as vbeln_vf preserving type )` |
+| `BillingDocumentItem` | `BillingDocumentItem.BillingDocumentItem` |
+| `PartnerFunction` | `Partner.PartnerFunction` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `AddressID` | `Partner.AddressID` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
+| `ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
+| `BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
+| `SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
+| `AddressObjectType` | `Partner.AddressObjectType` |
+| `VATRegistration` | `Partner.VATRegistration` |
+| `UnloadingPointName` | `Partner.UnloadingPointName` |
 | `_BillingDocumentBasic` | *Association* |
 | `_ItemBasic` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._BusinessPartnerAddress` | `Partner._BusinessPartnerAddress` |
-| `Partner._BPRefAddressForDocSpcfcAddr` | `Partner._BPRefAddressForDocSpcfcAddr` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
+| `_PartnerFunction` | *Association* |
+| `_Address` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
 
 ## Associations
 

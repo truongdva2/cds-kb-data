@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_interest_category preserving type)` | `cast(left(DomainValue.domvalue_l, 1)` |
+| `FixedVariableInterestRateCat` | `cast(left(DomainValue.domvalue_l, 1) as ftr_interest_category preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

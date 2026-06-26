@@ -42,7 +42,6 @@ tags:
 | `DunningLevel` | `lfb5.mahns` |
 | `DunningBlock` | `lfb5.mansp` |
 | `DunningClerk` | `lfb5.busab` |
-| `/*associations*/` | `/*associations*/` |
 | `_SupplierCompany` | *Association* |
 | `_Supplier` | *Association* |
 | `_DunningArea` | *Association* |

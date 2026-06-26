@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `logbr_vehicletype preserving type )` | `cast( tpveic` |
-| `logbr_vehicletypedescription preserving type )` | `cast( tpveict` |
+| `NFVehicleType` | `cast( tpveic as logbr_vehicletype preserving type )` |
+| `VehicleTypeDesc` | `cast( tpveict as logbr_vehicletypedescription preserving type )` |
 | `_BR_VehicleType` | *Association* |
 | `_Language` | *Association* |
 

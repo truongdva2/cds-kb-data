@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckWBSMappgInterBsc.CompanyCode` | `JVACtbckWBSMappgInterBsc.CompanyCode` |
-| `key JVACtbckWBSMappgInterBsc.JntVntrIntcoCode` | `JVACtbckWBSMappgInterBsc.JntVntrIntcoCode` |
-| `key JVACtbckWBSMappgInterBsc.JVAFromProject` | `JVACtbckWBSMappgInterBsc.JVAFromProject` |
-| `JVACtbckWBSMappgInterBsc.JVAToProject` | `JVACtbckWBSMappgInterBsc.JVAToProject` |
-| `JVACtbckWBSMappgInterBsc.JVACutbackCostCenter` | `JVACtbckWBSMappgInterBsc.JVACutbackCostCenter` |
-| `JVACtbckWBSMappgInterBsc.JVACutbackOrder` | `JVACtbckWBSMappgInterBsc.JVACutbackOrder` |
-| `JVACtbckWBSMappgInterBsc.JVACutbackWBS` | `JVACtbckWBSMappgInterBsc.JVACutbackWBS` |
-| `_CutbackWBSElement.WBSElementExternalID  as JVACutbackWBSExt` | *Association* |
-| `_InterCompanyCompanyCode.ControllingArea as JVAInterCompanyControllingArea` | *Association* |
+| `CompanyCode` | `JVACtbckWBSMappgInterBsc.CompanyCode` |
+| `JntVntrIntcoCode` | `JVACtbckWBSMappgInterBsc.JntVntrIntcoCode` |
+| `JVAFromProject` | `JVACtbckWBSMappgInterBsc.JVAFromProject` |
+| `JVAToProject` | `JVACtbckWBSMappgInterBsc.JVAToProject` |
+| `JVACutbackCostCenter` | `JVACtbckWBSMappgInterBsc.JVACutbackCostCenter` |
+| `JVACutbackOrder` | `JVACtbckWBSMappgInterBsc.JVACutbackOrder` |
+| `JVACutbackWBS` | `JVACtbckWBSMappgInterBsc.JVACutbackWBS` |
+| `JVACutbackWBSExt` | `_CutbackWBSElement.WBSElementExternalID` |
+| `JVAInterCompanyControllingArea` | `_InterCompanyCompanyCode.ControllingArea` |
 | `_CompanyCode` | *Association* |
 | `_InterCompanyCompanyCode` | *Association* |
 | `_JVAFromProject` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_model )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `BR_NFModel` | `cast ( substring( domvalue_l, 1, 2 ) as logbr_model )` |
 | `_Text` | *Association* |
 
 ## Associations

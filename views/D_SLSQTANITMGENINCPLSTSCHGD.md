@@ -29,16 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime                     : vdm_lastchangedon;` | `EventRaisedDateTime                     : vdm_lastchangedon;` |
-| `SalesQuotationType                      : auart_unv;` | `SalesQuotationType                      : auart_unv;` |
-| `SalesOrganization                       : vkorg;` | `SalesOrganization                       : vkorg;` |
-| `DistributionChannel                     : vtweg;` | `DistributionChannel                     : vtweg;` |
-| `OrganizationDivision                    : spart;` | `OrganizationDivision                    : spart;` |
-| `SoldToParty                             : kunnr;` | `SoldToParty                             : kunnr;` |
-| `SalesQuotationItemCategory              : pstyv;` | `SalesQuotationItemCategory              : pstyv;` |
-| `Product                                 : matnr;` | `Product                                 : matnr;` |
-| `ItemGeneralIncompletionStatus           : uvall_up;` | `ItemGeneralIncompletionStatus           : uvall_up;` |
-| `PreviousItmGenIncompltnSts              : uvall_up;` | `PreviousItmGenIncompltnSts              : uvall_up;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesQuotationType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `SalesQuotationItemCategory` | `pstyv` |
+| `Product` | `matnr` |
+| `ItemGeneralIncompletionStatus` | `uvall_up` |
+| `PreviousItmGenIncompltnSts` | `uvall_up` |
 
 ## Associations
 

@@ -34,11 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_JournalEntry.CompanyCode` | `I_JournalEntry.CompanyCode` |
-| `key I_JournalEntry.FiscalYear` | `I_JournalEntry.FiscalYear` |
-| `key I_JournalEntry.AccountingDocument` | `I_JournalEntry.AccountingDocument` |
-| `I_JournalEntry._CompanyCode` | `I_JournalEntry._CompanyCode` |
-| `I_JournalEntry._FiscalYear` | `I_JournalEntry._FiscalYear` |
+| `CompanyCode` | `I_JournalEntry.CompanyCode` |
+| `FiscalYear` | `I_JournalEntry.FiscalYear` |
+| `AccountingDocument` | `I_JournalEntry.AccountingDocument` |
+| `_CompanyCode` | *Association* |
+| `_FiscalYear` | *Association* |
 
 ## Associations
 

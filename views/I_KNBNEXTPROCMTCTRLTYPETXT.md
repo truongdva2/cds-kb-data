@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pksaf)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pksaf_text preserving type)` | `cast(ddtext` |
+| `KnbnCtrlCycExtProcmtCtrlType` | `cast(substring(domvalue_l, 1, 1) as pksaf)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KnbnExtProcmtCtrlTypeName` | `cast(ddtext as vdm_pksaf_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnExtProcmtCtrlType` | *Association* |
 | `_Language` | *Association* |

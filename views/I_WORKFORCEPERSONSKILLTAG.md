@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Person.WorkforcePersonExternalID` | `_Person.WorkforcePersonExternalID` |
+| `WorkforcePersonExternalID` | `_Person.WorkforcePersonExternalID` |
 | `WorkforcePersonSkillTagID` | `_SkillTag.EmployeeSkillTagID` |
-| `_Person.BusinessPartner` | *Association* |
-| `_SkillTag.EmployeeSkillTagName as WorkforcePersonTagText` | *Association* |
-| `/*Associations */` | `/*Associations */` |
+| `BusinessPartner` | `_Person.BusinessPartner` |
+| `WorkforcePersonTagText` | `_SkillTag.EmployeeSkillTagName` |
 | `_WorkforcePerson` | *Association* |
 | `_BusinessPartner` | *Association* |
 

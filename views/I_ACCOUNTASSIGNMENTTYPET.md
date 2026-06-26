@@ -31,10 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `j_obart preserving type )` | `cast(obart` |
-| `fis_accasty_txt20 preserving type )` | `cast(txt20` |
-| `fis_accasty_txt60 preserving type )` | `cast (txt60` |
-| `fis_j_obart3 preserving type )` | `cast(obart_ld` |
+| `AccountAssignmentType` | `cast(obart as j_obart preserving type )` |
+| `AccountAssignmentTypeName` | `cast(txt20 as fis_accasty_txt20 preserving type )` |
+| `AccountAssignmentTypeDesc` | `cast (txt60 as fis_accasty_txt60 preserving type )` |
+| `AcctAsgtTypeLanguageDependent` | `cast(obart_ld as fis_j_obart3 preserving type )` |
 
 ## Associations
 

@@ -34,7 +34,6 @@ tags:
 | `SettlmtDfltApplSts` | `default_estatus` |
 | `SettlmtApplStsGrp` | `status_group` |
 | `CndnContrApprvlProc` | `approval_process` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_CndnContrApprvlProc` | *Association* |
 | `_SettlmtApplSts` | *Association* |

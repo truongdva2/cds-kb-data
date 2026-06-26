@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ShiftDefinition` | `txt.kaptprog` |
+| `ShiftGrouping` | `txt.schgrup` |
+| `Language` | `txt.spras` |
 | `ShiftDefinitionName` | `txt.ktext` |
 | `_ShiftGrouping` | *Association* |
 | `_Language` | *Association* |

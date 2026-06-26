@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocType` | `LglCntntMDocType` |
-| `key Language` | `Language` |
+| `LglCntntMDocType` | `LglCntntMDocType` |
+| `Language` | `Language` |
 | `LglCntntMDocTypeText` | `LglCntntMDocTypeText` |
 
 ## Associations

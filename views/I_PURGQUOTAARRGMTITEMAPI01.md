@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QuotaArrangement` | `QuotaArrangement` |
-| `key QuotaArrangementItem` | `QuotaArrangementItem` |
+| `QuotaArrangement` | `QuotaArrangement` |
+| `QuotaArrangementItem` | `QuotaArrangementItem` |
 | `MaterialProcurementCategory` | `MaterialProcurementCategory` |
 | `MaterialProcurementType` | `MaterialProcurementType` |
 | `Supplier` | `Supplier` |
@@ -56,17 +56,17 @@ tags:
 | `MaterialBaseUnit` | `MaterialBaseUnit` |
 | `AuthorizationGroup` | `I_PurgQuotaArrgmtItem._Supplier.AuthorizationGroup` |
 | `IsBusinessPurposeCompleted` | `I_PurgQuotaArrgmtItem._Supplier.IsBusinessPurposeCompleted` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataControllerSet` | `I_PurgQuotaArrgmtItem._Supplier.DataControllerSet` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController1` | `I_PurgQuotaArrgmtItem._Supplier.DataController1` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController2` | `I_PurgQuotaArrgmtItem._Supplier.DataController2` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController3` | `I_PurgQuotaArrgmtItem._Supplier.DataController3` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController4` | `I_PurgQuotaArrgmtItem._Supplier.DataController4` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController5` | `I_PurgQuotaArrgmtItem._Supplier.DataController5` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController6` | `I_PurgQuotaArrgmtItem._Supplier.DataController6` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController7` | `I_PurgQuotaArrgmtItem._Supplier.DataController7` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController8` | `I_PurgQuotaArrgmtItem._Supplier.DataController8` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController9` | `I_PurgQuotaArrgmtItem._Supplier.DataController9` |
-| `I_PurgQuotaArrgmtItem._Supplier.DataController10` | `I_PurgQuotaArrgmtItem._Supplier.DataController10` |
+| `DataControllerSet` | `I_PurgQuotaArrgmtItem._Supplier.DataControllerSet` |
+| `DataController1` | `I_PurgQuotaArrgmtItem._Supplier.DataController1` |
+| `DataController2` | `I_PurgQuotaArrgmtItem._Supplier.DataController2` |
+| `DataController3` | `I_PurgQuotaArrgmtItem._Supplier.DataController3` |
+| `DataController4` | `I_PurgQuotaArrgmtItem._Supplier.DataController4` |
+| `DataController5` | `I_PurgQuotaArrgmtItem._Supplier.DataController5` |
+| `DataController6` | `I_PurgQuotaArrgmtItem._Supplier.DataController6` |
+| `DataController7` | `I_PurgQuotaArrgmtItem._Supplier.DataController7` |
+| `DataController8` | `I_PurgQuotaArrgmtItem._Supplier.DataController8` |
+| `DataController9` | `I_PurgQuotaArrgmtItem._Supplier.DataController9` |
+| `DataController10` | `I_PurgQuotaArrgmtItem._Supplier.DataController10` |
 | `_PurgQuotaArrgmt` | *Association* |
 
 ## Associations

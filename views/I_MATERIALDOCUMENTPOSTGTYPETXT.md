@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzsto)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_lkngseq_text preserving type)` | `cast(ddtext` |
+| `MaterialDocumentPostingType` | `cast(substring(domvalue_l, 1, 1) as kzsto)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `MaterialDocumentPostgTypeName` | `cast(ddtext as vdm_lkngseq_text preserving type)` |
 | `_MatlDocPostgType` | *Association* |
 | `_Language` | *Association* |
 

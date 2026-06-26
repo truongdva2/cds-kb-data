@@ -30,15 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSalesDistrictVH'` | `name: 'I_CnsldtnSalesDistrictVH'` |
-| `element: 'SalesDistrict'` | `element: 'SalesDistrict'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_HierarchyNode.SalesDistrict` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnSalesDistrictHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `SalesDistrict` | `_HierarchyNode.SalesDistrict` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_SalesDistrict` | *Association* |
 | `_Hierarchy` | *Association* |

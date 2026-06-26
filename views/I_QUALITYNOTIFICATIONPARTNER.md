@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key NotificationPartnerObject` | `NotificationPartnerObject` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key NotificationPartnerObjectNmbr` | `NotificationPartnerObjectNmbr` |
+| `NotificationPartnerObject` | `NotificationPartnerObject` |
+| `PartnerFunction` | `PartnerFunction` |
+| `NotificationPartnerObjectNmbr` | `NotificationPartnerObjectNmbr` |
 | `NotificationObjectType` | `NotificationObjectType` |
 | `Partner` | `Partner` |
 | `NotificationPartner` | `NotificationPartner` |

@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CostingValuationVariantStdVH' , element: 'ValuationVariant' }, useAsTemplate: true }]` | `name: 'I_CostingValuationVariantStdVH' , element: 'ValuationVariant' }, useAsTemplate: true }]` |
+| `CostingVersion` | `tvers` |
+| `CostingType` | `kalka` |
 | `ValuationVariant` | `bwvar` |
 | `ExchangeRateType` | `kurst` |
 | `_CostingVersionText` | *Association* |

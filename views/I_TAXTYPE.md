@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mwart)` | `cast(domvalue_l` |
+| `TaxType` | `cast(domvalue_l as mwart)` |
 | `_Text` | *Association* |
 
 ## Associations

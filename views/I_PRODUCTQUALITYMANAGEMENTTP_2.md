@@ -32,12 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
-| `key Product` | `Product` |
+| `Product` | `Product` |
 | `QltyMgmtInProcmtIsActive` | `QltyMgmtInProcmtIsActive` |
 | `CatalogProfile` | `CatalogProfile` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 | `_ProductDescription` | *Association* |
 
 ## Associations

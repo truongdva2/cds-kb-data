@@ -33,8 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `langu` |
-| `fis_custbttype preserving type )` | `cast(cbttype` |
-| `fins_custbttype_text preserving type)` | `cast(txt` |
+| `BusinessTransactionType` | `cast(cbttype as fis_custbttype preserving type )` |
+| `BusinessTransactionTypeName` | `cast(txt as fins_custbttype_text preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

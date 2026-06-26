@@ -33,16 +33,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Customer_VH'` | `name:    'I_Customer_VH'` |
-| `element: 'Customer' }` | `element: 'Customer' }` |
-| `}]` | `}]` |
+| `SalesDocument` | `SalesDocument` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `SalesDocumentType` | `SalesDocumentType` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `SoldToParty` | `SoldToParty` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
 | `CustomerCreditAccount` | `CustomerCreditAccount` |
 | `ReleasedCreditAmount` | `ReleasedCreditAmount` |
 | `ControllingAreaCurrency` | `ControllingAreaCurrency` |
 | `CreditBlockReleaseDate` | `CreditBlockReleaseDate` |
 | `NextShippingDate` | `NextShippingDate` |
 | `NextCreditCheckDate` | `NextCreditCheckDate` |
-| `abgru_va )` | `cast( '  '` |
+| `SalesDocumentRjcnReason` | `cast( ' ' as abgru_va )` |
 | `FinDocCreditCheckStatus` | `FinDocCreditCheckStatus` |
 | `TotalCreditCheckStatus` | `TotalCreditCheckStatus` |
 | `OverallSDProcessStatus` | `OverallSDProcessStatus` |

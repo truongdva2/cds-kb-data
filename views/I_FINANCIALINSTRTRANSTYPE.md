@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_transaction_type preserving type)` | `cast(FinancialInstrTransType.sfhaart` |
+| `FinancialInstrTransactionType` | `cast(…)` |
 | `FinancialInstrumentProductType` | `FinancialInstrTransType.sgsart` |
 | `FinInstrTransactionCategory` | `FinancialInstrTransType.sfgtyp` |
 | `TreasuryContractType` | `rantyp` |
@@ -42,6 +42,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_FinancialInstrTransTypeText` | [0..*] |
+| `_FinancialInstrProductType` | `I_FinancialinstrProductType` | — |
 
 ## Source Code
 

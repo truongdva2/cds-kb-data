@@ -31,12 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_accdoc_itemcat preserving type )` | `cast(t8g02.linetype` |
+| `AccountingDocumentItemCategory` | `cast(t8g02.linetype as fis_accdoc_itemcat preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_AccDocItemCategoryText` | [0..*] |
 
 ## Source Code
 

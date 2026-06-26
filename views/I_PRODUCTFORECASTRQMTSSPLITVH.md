@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key ProdFcstRequirementsSplitCode` | `ProdFcstRequirementsSplitCode` |
+| `Plant` | `Plant` |
+| `ForecastPeriodType` | `ForecastPeriodType` |
+| `ProdFcstRequirementsSplitCode` | `ProdFcstRequirementsSplitCode` |
 | `_Plant` | *Association* |
 | `_ForecastPeriodType` | *Association* |
 

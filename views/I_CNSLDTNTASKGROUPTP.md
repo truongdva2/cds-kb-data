@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConsolidationTaskGroup` | `ConsolidationTaskGroup` |
+| `ConsolidationTaskGroup` | `ConsolidationTaskGroup` |
 
 ## Associations
 

@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    _sernum.InspectionLot` | `_sernum.InspectionLot` |
-| `key    I_MaintenanceItemObject.MaintenanceItemObjectList` | `I_MaintenanceItemObject.MaintenanceItemObjectList` |
-| `key    I_MaintenanceItemObject.SerialNumber` | `I_MaintenanceItemObject.SerialNumber` |
-| `_sernum._InspectionLot.InspectionLotType` | *Association* |
-| `_sernum._InspectionLot.Plant` | *Association* |
-| `_sernum._InspectionLot` | *Association* |
+| `InspectionLot` | `_sernum.InspectionLot` |
+| `MaintenanceItemObjectList` | `I_MaintenanceItemObject.MaintenanceItemObjectList` |
+| `SerialNumber` | `I_MaintenanceItemObject.SerialNumber` |
+| `InspectionLotType` | `_sernum._InspectionLot.InspectionLotType` |
+| `Plant` | `_sernum._InspectionLot.Plant` |
+| `_InspectionLot` | *Association* |
 
 ## Associations
 

@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `eam_tech_obj_authzn_grp_desc)` | `cast (t370b_t.begtx` |
+| `TechObjAuthorizationGroup` | `t370b_t.begru` |
+| `Language` | `t370b_t.spras` |
+| `TechObjAuthorizationGroupDesc` | `cast (t370b_t.begtx as eam_tech_obj_authzn_grp_desc)` |
 | `_TechObjAuthznGrp` | *Association* |
 | `_Language` | *Association* |
 

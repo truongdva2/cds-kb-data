@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `key InspectionMethodVersion` | `InspectionMethodVersion` |
+| `InspectionMethodPlant` | `InspectionMethodPlant` |
+| `InspectionMethod` | `InspectionMethod` |
+| `InspectionMethodVersion` | `InspectionMethodVersion` |
 | `InspectionMethodStatus` | `InspectionMethodStatus` |
 | `QltyMstrDataAuthorizationGroup` | `QltyMstrDataAuthorizationGroup` |
 | `InspectionMethodValidFromDate` | `InspectionMethodValidFromDate` |

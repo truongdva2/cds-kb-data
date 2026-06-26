@@ -32,19 +32,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_WorkCenterStdVH', element: 'WorkCenterInternalID' } } ]` | `name: 'I_WorkCenterStdVH', element: 'WorkCenterInternalID' } } ]` |
-| `oper.WorkCenterInternalID` | `oper.WorkCenterInternalID` |
-| `pph_steus preserving type)` | `cast(oper.OperationControlProfile` |
-| `mlst.ScheduledBasicDate` | `mlst.ScheduledBasicDate` |
-| `mlst.FixedBasicDate` | `mlst.FixedBasicDate` |
-| `mlst.ActualEndDate` | `mlst.ActualEndDate` |
-| `mlst.ScheduledForecastedDate` | `mlst.ScheduledForecastedDate` |
+| `TriggerPointNumber` | `cast(mlst.ProjectMilestone as pph_mlst_zaehl preserving type)` |
+| `TriggerPointName` | `cast(mlst.MilestoneDescription as pph_mlst_ktext preserving type)` |
+| `OrderInternalID` | `oper.OrderInternalBillOfOperations` |
+| `OrderOperationInternalID` | `oper.OrderIntBillOfOperationsItem` |
+| `TriggerPointInternalID` | `cast(mlst.ProjectMilestoneInternalID as pph_mlst_intid preserving type)` |
+| `IsMarkedForDeletion` | `mlst.IsDeleted` |
+| `TriggerPointUsage` | `mlst.UsageCode` |
+| `CreationDate` | `mlst.CreationDate` |
+| `LastChangeDate` | `mlst.LastChangeDate` |
+| `CreatedByUser` | `mlst.CreatedByUser` |
+| `LastChangedByUser` | `mlst.LastChangedByUser` |
+| `ProductionOrder` | `cast(oper.ManufacturingOrder as vdm_manufacturingorder preserving type)` |
+| `ProductionOrderType` | `cast(oper.ManufacturingOrderType as vdm_prodnordertype preserving type)` |
+| `ProductionOrderSequence` | `cast(oper.ManufacturingOrderSequence as vdm_prodnordersequence preserving type)` |
+| `ProductionOrderOperation` | `cast(…)` |
+| `ProductionPlant` | `oper.ProductionPlant` |
+| `WorkCenterType` | `oper.WorkCenterTypeCode_2` |
+| `WorkCenterInternalID` | `oper.WorkCenterInternalID` |
+| `OperationControlProfile` | `cast(oper.OperationControlProfile as pph_steus preserving type)` |
+| `ScheduledBasicDate` | `mlst.ScheduledBasicDate` |
+| `FixedBasicDate` | `mlst.FixedBasicDate` |
+| `ActualEndDate` | `mlst.ActualEndDate` |
+| `ScheduledForecastedDate` | `mlst.ScheduledForecastedDate` |
 | `TrggrPtReleaseStopIsActive` | `mlst.MlstnReleaseStopIsActive` |
-| `vdm_pp_wflow preserving type)` | `cast(mlst.MlstnIsUsedforMlstnFunc` |
-| `vdm_pp_incnw preserving type)` | `cast(mlst.MlstnIsMarkedForCreateNtwk` |
-| `vdm_pp_incpn preserving type)` | `cast(mlst.MlstnIsMarkedForIncludeSubNtwk` |
-| `vdm_pp_incsn preserving type)` | `cast(mlst.MlstnIsMarkedForCreateSubNtwk` |
-| `vdm_pp_relsu preserving type)` | `cast(mlst.MlstnIsMarkedForRelFllwngActy` |
+| `TrggrPtIsUsedForTrggrPtFunc` | `cast(mlst.MlstnIsUsedforMlstnFunc as vdm_pp_wflow preserving type)` |
+| `TrggrPtIsMarkedForCreateOrder` | `cast(mlst.MlstnIsMarkedForCreateNtwk as vdm_pp_incnw preserving type)` |
+| `TrggrPtIsMarkedForInsertRefOp` | `cast(mlst.MlstnIsMarkedForIncludeSubNtwk as vdm_pp_incpn preserving type)` |
+| `TrggrPtIsMarkedForRelPrevOp` | `cast(mlst.MlstnIsMarkedForCreateSubNtwk as vdm_pp_incsn preserving type)` |
+| `TrggrPtIsMarkedForRelFllwngOp` | `cast(mlst.MlstnIsMarkedForRelFllwngActy as vdm_pp_relsu preserving type)` |
 | `TrggrPtIsMarkedForRelUpToStop` | `mlst.MlstnIsMarkedForRelUptoStopInd` |
 | `TrggrPtIsMrkdForStartWrkflwTsk` | `mlst.MlstnIsMarkedForStrtWrkflwTsk` |
 | `_OrderInternalID` | *Association* |
@@ -52,13 +68,12 @@ tags:
 | `_ProductionOrderHeader` | *Association* |
 | `_ProductionOrderSequence` | *Association* |
 | `_ProductionOrderOperation` | *Association* |
-| `oper._ProductionPlant` | `oper._ProductionPlant` |
-| `oper._OperationControlProfile` | `oper._OperationControlProfile` |
+| `_ProductionPlant` | *Association* |
+| `_OperationControlProfile` | *Association* |
 | `_WorkCenterType` | *Association* |
 | `_WorkCenter` | *Association* |
 | `_TriggerPointUsage` | *Association* |
 | `_TriggerPointText` | *Association* |
-| `_ProductionPlantText` | *Association* |
 | `_ProductionOrderText` | *Association* |
 | `_WorkCenterText` | *Association* |
 
@@ -74,6 +89,7 @@ tags:
 | `_TriggerPointText` | `I_TriggerPointText` | [0..*] |
 | `_ProductionOrderHeader` | `I_ProductionOrder` | [1..1] |
 | `_ProductionOrderSequence` | `I_ProductionOrderSequence` | [1..1] |
+| `_ProductionOrderOperation` | `I_ProductionOrderOperation_2` | — |
 | `_ProductionPlantText` | `I_Plant` | [1..1] |
 | `_ProductionOrderText` | `I_ProductionOrder` | [1..1] |
 | `_WorkCenterText` | `I_WorkCenterText` | [0..*] |

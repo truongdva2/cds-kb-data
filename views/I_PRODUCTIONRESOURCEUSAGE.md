@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `ProductionResourceUsage` | `planv` |
 | `_Text` | *Association* |
 

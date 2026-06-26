@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabmsd)` | `cast(substring(domvalue_l, 1, 1)` |
+| `JITCallUsageOfMsgDetn` | `cast(substring(domvalue_l, 1, 1) as pabmsd)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

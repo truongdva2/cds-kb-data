@@ -34,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `MaterialStatisticsGroup` | `stgma` |
+| `Language` | `spras` |
 | `MaterialStatisticsGroupDesc` | `bezei20` |
 | `_MaterialStatisticsGroup` | *Association* |
 | `_Language` | *Association* |

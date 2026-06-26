@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `manufacturingordertype     preserving type)` | `cast(typ.OrderType` |
-| `manufacturingordercategory preserving type)` | `cast(typ.OrderCategory` |
+| `ManufacturingOrderType` | `cast(typ.OrderType as manufacturingordertype preserving type)` |
+| `ManufacturingOrderCategory` | `cast(typ.OrderCategory as manufacturingordercategory preserving type)` |
 | `_MfgOrderCategory` | *Association* |
 | `_Text` | *Association* |
 

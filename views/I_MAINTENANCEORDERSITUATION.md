@@ -32,19 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
 | `MaintenanceOrderDesc` | `MaintenanceOrderDesc` |
 | `MaintenanceOrderType` | `MaintenanceOrderType` |
-| `_Order._OrderType._Text[1:Language = $session.system_language].OrderTypeName as MaintenanceOrderTypeName` | *Association* |
+| `MaintenanceOrderTypeName` | `_Order._OrderType._Text[1:Language = $session.system_language].OrderTypeName` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
-| `_MaintenancePlanPlant.PlantName1 as MaintenancePlanningPlantName` | *Association* |
+| `MaintenancePlanningPlantName` | `_MaintenancePlanPlant.PlantName1` |
 | `MaintPriority` | `MaintPriority` |
-| `_MaintenancePriority._Text[1:Language = $session.system_language].MaintPriorityDesc` | *Association* |
+| `MaintPriorityDesc` | `expr(…)` |
 | `MaintenanceActivityType` | `MaintenanceActivityType` |
-| `_MaintenanceActivityType._Text[1:Language = $session.system_language].MaintenanceActivityTypeName` | *Association* |
+| `MaintenanceActivityTypeName` | `expr(…)` |
 | `MaintenanceNotification` | `MaintenanceNotification` |
 | `Equipment` | `Equipment` |
-| `tplnr_unconverted)` | `cast(_LocationAccountAssignment.FunctionalLocation` |
+| `FunctionalLocation` | `cast(_LocationAccountAssignment.FunctionalLocation as tplnr_unconverted)` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
 | `MaintOrdBasicStartDate` | `MaintOrdBasicStartDate` |
@@ -52,7 +52,7 @@ tags:
 | `MaintOrdBasicEndDate` | `MaintOrdBasicEndDate` |
 | `MaintOrdBasicEndTime` | `MaintOrdBasicEndTime` |
 | `MaintOrderProcessingContext` | `MaintOrderProcessingContext` |
-| `_MaintOrdProcessingContextT[1:Language = $session.system_language].MaintOrdProcessingContextText` | *Association* |
+| `MaintOrdProcessingContextText` | `expr(…)` |
 | `WorkCenterInternalID` | `WorkCenterInternalID` |
 
 ## Associations

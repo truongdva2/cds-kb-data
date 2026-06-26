@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
 | `ServiceEntrySheetName` | `ServiceEntrySheetName` |
 | `Supplier` | `Supplier` |
 | `PurchaseOrder` | `PurchaseOrder` |

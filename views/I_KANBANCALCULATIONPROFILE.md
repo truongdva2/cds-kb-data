@@ -41,12 +41,12 @@ tags:
 | `SupplySourceShiftSequence` | `sprog` |
 | `SupplySourceFactoryCalendar` | `fabkl` |
 | `ReplnmtLeadTimeInWorkdays` | `kwbzd` |
-| `vdm_kwbzm preserving type)` | `cast(tpkbp.kwbzm` |
+| `ReplnmtLeadTimeInHoursAndMins` | `cast(tpkbp.kwbzm as vdm_kwbzm preserving type)` |
 | `ConsumerShiftGrouping` | `schgrupv` |
 | `ConsumerShiftSequence` | `sprogv` |
 | `ConsumerFactoryCalendar` | `fabklv` |
-| `vdm_pintvd preserving type)` | `cast(tpkbp.pintvd` |
-| `vdm_pintvm preserving type)` | `cast(tpkbp.pintvm` |
+| `PullIntervalInWorkdays` | `cast(tpkbp.pintvd as vdm_pintvd preserving type)` |
+| `PullIntervalInHoursAndMinutes` | `cast(tpkbp.pintvm as vdm_pintvm preserving type)` |
 | `KnbnCtnCalcRqmtBufferInPercent` | `kdmbuf` |
 | `KnbnCtnCalcSupplySrceBufInPct` | `kspbuf` |
 | `RqmtFluctuationsAreConsdrd` | `kdmvol` |

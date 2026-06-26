@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Plant` | `plant` |
 | `StorageLocation` | `stge_loc` |
-| `_Client.LogicalSystem as ERPLogicalSystem` | *Association* |
+| `ERPLogicalSystem` | `_Client.LogicalSystem` |
 | `EWMWarehouse` | `lgnum` |
 | `EWMAvailabilityGroup` | `avlgrp` |
 | `_Plant` | *Association* |

@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGScp2CntrctlInstrVH'` | `name: 'I_CnsldtnGHGScp2CntrctlInstrVH'` |
-| `element: 'GHGScope2ContractualInstrument'` | `element: 'GHGScope2ContractualInstrument'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgscp2cntrctlinstrument preserving type )` | `cast( _Source.GHGScope2ContractualInstrument` |
-| `fincs_ghgscp2cntrctlinstrname preserving type )` | `cast( _Source.GHGScp2CntrctlInstrName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GHGScope2ContractualInstrument` | `cast(…)` |
+| `GHGScp2CntrctlInstrName` | `cast(…)` |
 | `_Language` | *Association* |
 | `_GHGScp2ContractualInstrument` | *Association* |
 

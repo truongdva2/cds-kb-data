@@ -32,21 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_PurchaseContractHistory.PurchaseContract` | `I_PurchaseContractHistory.PurchaseContract` |
-| `key I_PurchaseContractHistory.PurchaseContractItem` | `I_PurchaseContractHistory.PurchaseContractItem` |
-| `key I_PurchaseContractHistory.ReleaseOrder` | `I_PurchaseContractHistory.ReleaseOrder` |
-| `key I_PurchaseContractHistory.ReleaseOrderItem` | `I_PurchaseContractHistory.ReleaseOrderItem` |
-| `I_PurchaseContractHistory.ReleaseOrderItemOrderQuantity` | `I_PurchaseContractHistory.ReleaseOrderItemOrderQuantity` |
-| `I_PurchaseContractHistory.ReleaseOrderItemNetAmount` | `I_PurchaseContractHistory.ReleaseOrderItemNetAmount` |
-| `I_PurchaseContractHistory.ReleaseOrderItemIsDeleted` | `I_PurchaseContractHistory.ReleaseOrderItemIsDeleted` |
-| `I_PurchaseContractHistory.ReleaseOrderDate` | `I_PurchaseContractHistory.ReleaseOrderDate` |
-| `I_PurchaseContractHistory.ReleaseOrderItemQuantityUnit` | `I_PurchaseContractHistory.ReleaseOrderItemQuantityUnit` |
-| `I_PurchaseContractHistory.ReleaseOrderCurrency` | `I_PurchaseContractHistory.ReleaseOrderCurrency` |
-| `I_PurchaseContractHistory.ReleaseOrderItemLastChgDate` | `I_PurchaseContractHistory.ReleaseOrderItemLastChgDate` |
-| `I_PurchaseContractHistory.ExchangeRate` | `I_PurchaseContractHistory.ExchangeRate` |
-| `I_PurchaseContractHistory.CompanyCode` | `I_PurchaseContractHistory.CompanyCode` |
-| `I_PurchaseContractHistory.Plant` | `I_PurchaseContractHistory.Plant` |
-| `I_PurchaseContractHistory.PurchasingOrganization` | `I_PurchaseContractHistory.PurchasingOrganization` |
+| `PurchaseContract` | `I_PurchaseContractHistory.PurchaseContract` |
+| `PurchaseContractItem` | `I_PurchaseContractHistory.PurchaseContractItem` |
+| `ReleaseOrder` | `I_PurchaseContractHistory.ReleaseOrder` |
+| `ReleaseOrderItem` | `I_PurchaseContractHistory.ReleaseOrderItem` |
+| `ReleaseOrderItemOrderQuantity` | `I_PurchaseContractHistory.ReleaseOrderItemOrderQuantity` |
+| `ReleaseOrderItemNetAmount` | `I_PurchaseContractHistory.ReleaseOrderItemNetAmount` |
+| `ReleaseOrderItemIsDeleted` | `I_PurchaseContractHistory.ReleaseOrderItemIsDeleted` |
+| `ReleaseOrderDate` | `I_PurchaseContractHistory.ReleaseOrderDate` |
+| `ReleaseOrderItemQuantityUnit` | `I_PurchaseContractHistory.ReleaseOrderItemQuantityUnit` |
+| `ReleaseOrderCurrency` | `I_PurchaseContractHistory.ReleaseOrderCurrency` |
+| `ReleaseOrderItemLastChgDate` | `I_PurchaseContractHistory.ReleaseOrderItemLastChgDate` |
+| `ExchangeRate` | `I_PurchaseContractHistory.ExchangeRate` |
+| `CompanyCode` | `I_PurchaseContractHistory.CompanyCode` |
+| `Plant` | `I_PurchaseContractHistory.Plant` |
+| `PurchasingOrganization` | `I_PurchaseContractHistory.PurchasingOrganization` |
 | `_PurchaseContractAPI01` | *Association* |
 | `_PurchaseContractItemAPI01` | *Association* |
 
@@ -54,6 +54,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurchaseContractAPI01` | `I_PurchaseContractAPI01` | [1..1] |
 | `_PurchaseContractItemAPI01` | `I_PurchaseContractItemAPI01` | [1..1] |
 
 ## Source Code

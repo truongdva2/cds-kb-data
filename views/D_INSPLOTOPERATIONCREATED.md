@@ -28,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `InspectionSubSystem         : qeifsubsys;` | `InspectionSubSystem         : qeifsubsys;` |
-| `InspPlanOperationInternalID : qlfnkn;` | `InspPlanOperationInternalID : qlfnkn;` |
-| `WorkCenterInternalID        : pph_arbid;` | `WorkCenterInternalID        : pph_arbid;` |
+| `InspectionSubSystem` | `qeifsubsys` |
+| `InspPlanOperationInternalID` | `qlfnkn` |
+| `WorkCenterInternalID` | `pph_arbid` |
 
 ## Associations
 

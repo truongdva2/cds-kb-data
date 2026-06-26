@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `externalproductgroup preserving type )` | `cast(extwg` |
+| `ExternalProductGroup` | `cast(extwg as externalproductgroup preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

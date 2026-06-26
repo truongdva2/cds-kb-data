@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_contract_type preserving type )` | `cast ( SalesDocumentType` |
+| `SalesContractType` | `cast ( SalesDocumentType as sales_contract_type preserving type )` |
 | `ScreenSequenceGroup` | `ScreenSequenceGroup` |
 | `_Text` | *Association* |
 

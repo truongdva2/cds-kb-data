@@ -30,19 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type)` | `cast(ranl` |
+| `SecurityClass` | `cast(ranl as ftr_gen_security_class preserving type)` |
 | `BondClassification` | `swpklass` |
 | `SecurityClassIssueStartDate` | `debeg` |
-| `case` | `case` |
-| `when sanlf = '040'` | `when sanlf = '040'` |
-| `then dendf` | `then dendf` |
-| `dendf )` | `else cast( '00000000'` |
-| `SecurityClassFinalDueDate` | `end` |
-| `case` | `case` |
-| `when sanlf = '042'` | `when sanlf = '042'` |
-| `then dendf` | `then dendf` |
-| `dendf )` | `else cast( '00000000'` |
-| `ScrtyClCompatibleTermEndDate` | `end` |
+| `SecurityClassFinalDueDate` | `case when sanlf = '040' then dendf else cast( '00000000' as dendf ) end` |
+| `ScrtyClCompatibleTermEndDate` | `case when sanlf = '042' then dendf else cast( '00000000' as dendf ) end` |
 | `BondCertificateNominalAmount` | `bnoms` |
 | `BondCertPerTrdgUnitNominalAmt` | `bnhae` |
 | `ScrtyClCalcPeriodStartDate` | `calc_begin` |
@@ -52,8 +44,8 @@ tags:
 | `SecurityClassAssetPool` | `pool_id` |
 | `ScrtyClCalculationRoundingRule` | `rounding_rule` |
 | `ScrtyClIntrstCalcCuttingDays` | `batrt` |
-| `ftr_sc_secondary_bond_ind preserving type )` | `cast(jnachr` |
-| `_SecurityClassBasic.IssueCurrency                          as IssueCurrency` | *Association* |
+| `SecurityClassIsSecondaryBond` | `cast(jnachr as ftr_sc_secondary_bond_ind preserving type )` |
+| `IssueCurrency` | `_SecurityClassBasic.IssueCurrency` |
 | `_SecurityClass` | *Association* |
 | `_BondClassification` | *Association* |
 

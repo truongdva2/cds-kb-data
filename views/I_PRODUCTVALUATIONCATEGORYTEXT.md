@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `InventoryValuationCategory` | `bwtty` |
 | `Language` | `t149t.spras` |
-| `inventoryvaluationcategoryname )` | `cast( t149t.btbez` |
+| `InventoryValuationCategoryName` | `cast( t149t.btbez as inventoryvaluationcategoryname )` |
 
 ## Associations
 

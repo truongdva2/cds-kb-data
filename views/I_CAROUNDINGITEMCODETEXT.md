@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rndps_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `rndps_text_kk preserving type )` | `cast( ddtext` |
+| `CARoundingItemCode` | `cast( left( dd07t.domvalue_l, 1 ) as rndps_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CARoundingItemCodeText` | `cast( ddtext as rndps_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -30,39 +30,123 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Supplier_VH'` | `name:    'I_Supplier_VH'` |
-| `element: 'Supplier' }` | `element: 'Supplier' }` |
-| `}]` | `}]` |
+| `InspectionLot` | `qals.prueflos` |
+| `Material` | `qals.matnr` |
+| `Batch` | `qals.charg` |
+| `Plant` | `qals.werk` |
+| `InspectionLotOrigin` | `cast( qals.herkunft as vdm_qherk preserving type )` |
+| `OrderInternalBillOfOperations` | `qals.aufpl` |
+| `ManufacturingOrder` | `cast( qals.aufnr as vdm_qm_fertaufnr preserving type )` |
+| `InspectionLotText` | `cast( qals.ktextlos as vdm_qplos_text preserving type )` |
+| `InspectionLotType` | `qals.art` |
+| `InspectionLotQuantity` | `cast( qals.losmenge as vdm_qlosmenge preserving type )` |
+| `InspectionLotActualQuantity` | `cast( qals.lmengeist as vdm_qlmengeist preserving type )` |
+| `InspectionLotDefectiveQuantity` | `cast( qals.lmengesch as vdm_qlmengesch preserving type )` |
+| `InspectionLotQuantityUnit` | `qals.mengeneinh` |
+| `InspLotCreatedOnLocalDate` | `qals.enstehdat` |
+| `InspSubsetFieldCombination` | `qals.slwbez` |
+| `InspLotNmbrOpenLongTermCharc` | `cast( qals.offen_lzmk as vdm_qoffelzmk preserving type )` |
+| `StatusObject` | `qals.objnr` |
+| `StatusObjectCategory` | `qals.obtyp` |
+| `InspectionLotObjectText` | `qals.ktextmat` |
+| `Equipment` | `qals.ls_equnr` |
+| `FunctionalLocation` | `qals.ls_tplnr` |
+| `StatusProfile` | `qals.stsma` |
+| `MatlQualityAuthorizationGroup` | `cast( qals.qmatauth as vdm_qmatauth preserving type )` |
+| `InspectionLotHasQuantity` | `cast( qals.insmk as vdm_qvinsmk preserving type )` |
+| `InspLotIsCreatedAutomatically` | `qals.stat01` |
+| `InspectionLotHasPartialLots` | `qals.stat02` |
+| `InspectionLotHasAppraisalCosts` | `qals.stat06` |
+| `InspLotHasSubsets` | `qals.stat07` |
+| `InspLotIsAutomUsgeDcsnPossible` | `cast( qals.stat08 as vdm_qauto_ve preserving type )` |
+| `PurchasingDocumentCategory` | `qals.stat09` |
+| `InspLotHasConfignSpecification` | `qals.stat10` |
+| `GoodsReceiptIsMovedToBlkdStock` | `qals.stat11` |
+| `InspLotSummaryControl` | `qals.stat18` |
+| `InspLotIsDocumentationRequired` | `cast( qals.stat19 as vdm_qstat19 preserving type )` |
+| `InspLotIsTaskListRequired` | `cast( qals.stat20 as vdm_qstat20 preserving type )` |
+| `InspLotHasManualSampleSize` | `qals.stat21` |
+| `InspLotHasMaterialSpec` | `cast( qals.stat22 as vdm_qspezueber preserving type )` |
+| `InspectionLotApproval` | `cast( qals.stat23 as vdm_qkzgenlos preserving type )` |
+| `InspLotDigitalSgntrResultsRecg` | `qals.stat24` |
+| `InspLotDigitalSgntrInUsgeDcsn` | `cast( qals.stat25 as vdm_qdgtlsgntrusgedcsn preserving type )` |
+| `InspLotIsBatchRequired` | `qals.stat26` |
+| `InspLotUsageInStabilityStudy` | `qals.stat32` |
+| `InspLotHasMultipleSpec` | `qals.stat33` |
+| `InspLotHasPrtlLotsToSplitQty` | `qals.stat36` |
+| `InspLotIsStockPostingCompleted` | `cast( qals.stat34 as vdm_qstat34 preserving type )` |
+| `InspectionLotHasUsageDecision` | `cast( qals.stat35 as vdm_qstat35 preserving type )` |
+| `NumberOfSerialNumbers` | `qals.anzsn` |
+| `InspLotIsSerialNmbrPossible` | `qals.ein` |
+| `InspectionLotIsSkipped` | `cast( qals.kzskiplot as vdm_qkzskiplot preserving type )` |
+| `InspectionLotIsFullInspection` | `qals.hpz` |
+| `InspectionLotDynamicLevel` | `cast( qals.dynhead as vdm_qdynhead preserving type )` |
+| `SamplingProcedure` | `qals.stprver` |
+| `InspLotCreatedOnLocalTime` | `cast( qals.entstezeit as vdm_qentstzeit preserving type )` |
+| `InspectionLotCreatedBy` | `qals.ersteller` |
+| `InspectionLotCreatedOn` | `qals.ersteldat` |
+| `InspectionLotCreatedOnTime` | `cast( qals.erstelzeit as vdm_qerstezeit preserving type )` |
+| `InspectionLotChangedBy` | `qals.aenderer` |
+| `InspectionLotChangeDate` | `qals.aenderdat` |
+| `InspectionLotChangeTime` | `cast( qals.aenderzeit as vdm_qaendezeit preserving type )` |
+| `ChangedDateTime` | `case…end` |
+| `InspectionLotStartDate` | `qals.pastrterm` |
+| `InspectionLotStartTime` | `cast( qals.pastrzeit as vdm_qstartzeit preserving type )` |
+| `InspectionLotEndDate` | `qals.paendterm` |
+| `InspectionLotEndTime` | `cast( qals.paendzeit as vdm_qendezeit preserving type )` |
+| `BillOfOperationsType` | `cast( qals.plnty as vdm_plnty preserving type )` |
+| `BillOfOperationsGroup` | `cast( qals.plnnr as vdm_plnnr preserving type )` |
+| `BillOfOperationsUsage` | `cast( qals.pplverw as vdm_pln_verwe preserving type )` |
+| `BillOfOperationsVariant` | `cast( qals.plnal as vdm_plnal preserving type )` |
+| `BillOfOperationsChangeStateID` | `qals.zaehl` |
+| `InspectionSubsetType` | `cast( qals.stat13 as vdm_qppkttyp preserving type )` |
+| `SmplDrawingProcedure` | `cast( qals.prbnaverf as vdm_qprziehver preserving type )` |
+| `SmplDrawingProcedureVersion` | `qals.prbnavv` |
+| `SmplDrwgProcedIsConfRequired` | `cast( qals.stat12 as vdm_qkzquit preserving type )` |
+| `InspLotSelectionMaterial` | `qals.selmatnr` |
+| `InspLotSelMatlRevisionLvl` | `qals.selrevlv` |
+| `InspLotSelectionPlant` | `qals.selwerk` |
+| `InspLotSelectionSupplier` | `qals.sellifnr` |
+| `InspLotSelectionManufacturer` | `qals.selherst` |
+| `InspLotSelectionCustomer` | `qals.selkunnr` |
+| `InspLotSelBillOfOperationsUsge` | `qals.selpplverw` |
+| `InspLotSelectionValidFromDate` | `qals.gueltigab` |
+| `ProductionVersion` | `qals.verid` |
+| `SalesOperationsPlanningOrder` | `cast( qals.sa_aufnr as vdm_sa_aufnr preserving type )` |
+| `IsBusinessPurposeCompleted` | `qals.cvp_xblck` |
+| `Customer` | `cast( qals.kunnr as vdm_qkunwe preserving type )` |
+| `Supplier` | `qals.lifnr` |
+| `BatchBySupplier` | `qals.lichn` |
 | `Manufacturer` | `qals.hersteller` |
-| `vdm_ematn preserving type )` | `cast( qals.ematnr` |
+| `ManufacturerPartNmbr` | `cast( qals.ematnr as vdm_ematn preserving type )` |
 | `MaterialRevisionLevel` | `qals.revlv` |
-| `vdm_xchpf preserving type )` | `cast( qals.xchpf` |
-| `vdm_qlgortchar preserving type )` | `cast( qals.lagortchrg` |
+| `MaterialIsBatchManaged` | `cast( qals.xchpf as vdm_xchpf preserving type )` |
+| `BatchStorageLocation` | `cast( qals.lagortchrg as vdm_qlgortchar preserving type )` |
 | `MaterialCompIsSpecialStock` | `qals.sobkz` |
-| `ekorg_ll preserving type )` | `cast( qals.ekorg` |
-| `fis_ebeln preserving type )` | `cast( qals.ebeln` |
-| `vdm_ebelp preserving type )` | `cast( qals.ebelp` |
+| `PurchasingOrganization` | `cast( qals.ekorg as ekorg_ll preserving type )` |
+| `PurchasingDocument` | `cast( qals.ebeln as fis_ebeln preserving type )` |
+| `PurchasingDocumentItem` | `cast( qals.ebelp as vdm_ebelp preserving type )` |
 | `ScheduleLine` | `qals.etenr` |
-| `vdm_blart preserving type )` | `cast( qals.blart` |
-| `vdm_mjahr preserving type )` | `cast( qals.mjahr` |
+| `AccountingDocumentType` | `cast( qals.blart as vdm_blart preserving type )` |
+| `MaterialDocumentYear` | `cast( qals.mjahr as vdm_mjahr preserving type )` |
 | `MaterialDocument` | `qals.mblnr` |
-| `vdm_mblpo preserving type )` | `cast( qals.zeile` |
+| `MaterialDocumentItem` | `cast( qals.zeile as vdm_mblpo preserving type )` |
 | `MatlDocLatestPostgDate` | `qals.budat` |
 | `GoodsMovementType` | `qals.bwart` |
-| `vdm_qwerkvorg preserving type )` | `cast( qals.werkvorg` |
-| `vdm_qlgortvorg preserving type )` | `cast( qals.lagortvorg` |
+| `InspectionLotPlant` | `cast( qals.werkvorg as vdm_qwerkvorg preserving type )` |
+| `InspectionLotStorageLocation` | `cast( qals.lagortvorg as vdm_qlgortvorg preserving type )` |
 | `Warehouse` | `qals.lgnum` |
 | `StorageType` | `qals.lgtyp` |
 | `StorageBin` | `qals.lgpla` |
 | `SalesOrder` | `qals.ls_kdauf` |
-| `vdm_kdpos preserving type )` | `cast( qals.ls_kdpos` |
-| `vdm_deliverydocument preserving type )` | `cast( qals.ls_vbeln` |
-| `vdm_posnr_vl preserving type )` | `cast( qals.ls_posnr` |
-| `DeliveryCategory, // wrong GFN --> deprecated! Replaced by InspectionDeliveryCategory` | `qals.ls_abrvw` |
+| `SalesOrderItem` | `cast( qals.ls_kdpos as vdm_kdpos preserving type )` |
+| `DeliveryDocument` | `cast( qals.ls_vbeln as vdm_deliverydocument preserving type )` |
+| `DeliveryDocumentItem` | `cast( qals.ls_posnr as vdm_posnr_vl preserving type )` |
+| `DeliveryCategory` | `qals.ls_abrvw` |
 | `InspectionDeliveryCategory` | `qals.ls_abrvw` |
 | `Route` | `qals.ls_route` |
 | `BillToPartyCountry` | `qals.ls_lland` |
-| `vdm_kunag preserving type )` | `cast( qals.ls_kunag` |
+| `SoldToParty` | `cast( qals.ls_kunag as vdm_kunag preserving type )` |
 | `SalesOrganization` | `qals.ls_vkorg` |
 | `MaterialByCustomer` | `qals.ls_kdmat` |
 | `Language` | `qals.sprache` |
@@ -71,26 +155,26 @@ tags:
 | `InspectionLotContainer` | `qals.anzgeb` |
 | `InspectionLotContainerUnit` | `qals.gebeh` |
 | `InspectionLotSampleQuantity` | `qals.gesstichpr` |
-| `vdm_qprobemgeh preserving type )` | `cast( qals.einhprobe` |
-| `vdm_qdynregel preserving type )` | `cast( qals.dynregel` |
+| `InspectionLotSampleUnit` | `cast( qals.einhprobe as vdm_qprobemgeh preserving type )` |
+| `InspLotDynamicRule` | `cast( qals.dynregel as vdm_qdynregel preserving type )` |
 | `InspLotDynamicTrggrPoint` | `qals.stat44` |
 | `InspectionDynamicStage` | `qals.prstufe` |
 | `InspectionSeverity` | `qals.prschaerfe` |
-| `vdm_qlmenge01f preserving type )` | `cast( qals.lmenge01` |
-| `vdm_qlmenge02f preserving type )` | `cast( qals.lmenge02` |
+| `InspLotQtyToFree` | `cast( qals.lmenge01 as vdm_qlmenge01f preserving type )` |
+| `InspLotQtyToScrap` | `cast( qals.lmenge02 as vdm_qlmenge02f preserving type )` |
 | `InspLotQtyToSample` | `qals.lmenge03` |
-| `vdm_qlmenge04f preserving type )` | `cast( qals.lmenge04` |
+| `InspLotQtyToBlocked` | `cast( qals.lmenge04 as vdm_qlmenge04f preserving type )` |
 | `InspLotQtyToReserves` | `qals.lmenge05` |
-| `vdm_qlmenge06f preserving type )` | `cast( qals.lmenge06` |
-| `vdm_qmatnrneu preserving type )` | `cast( qals.matnrneu` |
-| `vdm_qchargneu preserving type )` | `cast( qals.chargneu` |
-| `vdm_qlmenge07f preserving type )` | `cast( qals.lmenge07` |
-| `vdm_qlmenge08f preserving type )` | `cast( qals.lmenge08` |
-| `vdm_qlmenge09f preserving type )` | `cast( qals.lmenge09` |
-| `vdm_qlmengezub preserving type )` | `cast( qals.lmengezub` |
-| `vdm_qlmengelz preserving type )` | `cast( qals.lmengelz` |
-| `vdm_qlmengepr preserving type )` | `cast( qals.lmengepr` |
-| `vdm_qlmengezer preserving type )` | `cast( qals.lmengezer` |
+| `InspLotQtyToAnotherMaterial` | `cast( qals.lmenge06 as vdm_qlmenge06f preserving type )` |
+| `InspLotMaterialPostedTo` | `cast( qals.matnrneu as vdm_qmatnrneu preserving type )` |
+| `InspLotBatchTransferredTo` | `cast( qals.chargneu as vdm_qchargneu preserving type )` |
+| `InspLotQtyReturnedToSupplier` | `cast( qals.lmenge07 as vdm_qlmenge07f preserving type )` |
+| `InspLotQtyToSpecialStock` | `cast( qals.lmenge08 as vdm_qlmenge08f preserving type )` |
+| `InspLotQtyToOtherStock` | `cast( qals.lmenge09 as vdm_qlmenge09f preserving type )` |
+| `InspLotQtyToBePosted` | `cast( qals.lmengezub as vdm_qlmengezub preserving type )` |
+| `InspLotSmplQtyForLongTermChar` | `cast( qals.lmengelz as vdm_qlmengelz preserving type )` |
+| `InspLotQtyInspected` | `cast( qals.lmengepr as vdm_qlmengepr preserving type )` |
+| `InspLotQtyDestroyed` | `cast( qals.lmengezer as vdm_qlmengezer preserving type )` |
 | `InspectionLotScrapRatio` | `qals.anteil` |
 | `InspLotUsageDecisionTool` | `qals.stat03` |
 | `InspectionLotAllowedScrapRatio` | `qals.qpmatlos` |
@@ -106,11 +190,10 @@ tags:
 | `SalesOrdStockWBSElement` | `qals.ps_psp_pnr` |
 | `ProjectNetwork` | `qals.nplnr` |
 | `NetworkActivityInternalID` | `qals.aplzl` |
-| `vdm_mat_kdauf preserving type )` | `cast( qals.kdauf` |
+| `InventorySpclStkSalesDocument` | `cast( qals.kdauf as vdm_mat_kdauf preserving type )` |
 | `InventorySpclStkSalesDocItm` | `qals.kdpos` |
-| `cast( case when paobjnr > '9999999999' then '9999999999'` | `cast( case when paobjnr > '9999999999' then '9999999999'` |
-| `rkeobjnr_numc )` | `else lpad( qals.paobjnr, 10, '0' )  end` |
-| `rkeobjnr_char )` | `cast( qals.paobjnr` |
+| `ProfitabilitySegment` | `cast(…)` |
+| `ProfitabilitySegment_2` | `cast( qals.paobjnr as rkeobjnr_char )` |
 | `ProfitCenter` | `qals.prctr` |
 | `BusinessArea` | `qals.gsber` |
 | `GLAccount` | `qals.konto` |
@@ -120,15 +203,15 @@ tags:
 | `InspLotCostCollectorSalesOrder` | `qals.kont_kdauf` |
 | `InspLotCostCollectorSlsOrdItem` | `qals.kont_kdpos` |
 | `InspLotCostCollectorWBSElement` | `qals.kont_pspnr` |
-| `vdm_qinsp_doc_number preserving type )` | `cast( qals.insp_doc_number` |
+| `InspLotExternalNumber` | `cast( qals.insp_doc_number as vdm_qinsp_doc_number preserving type )` |
 | `InspectionLotPriorityPoints` | `qals.prio_punkte` |
 | `MaintenancePlan` | `qals.warpl` |
 | `MaintenancePlanItemIntID` | `qals.wapos` |
 | `MaintenanceStrategy` | `qals.strat` |
 | `InspLotForFirstArticleInsp` | `qals.stat43` |
 | `InspectionLotUUID` | `lot_guid` |
-| `vdm_qsign_type_ud preserving type )` | `cast( qals.sign_type_ud` |
-| `vdm_qsignstrat_ud preserving type )` | `cast( qals.signstrat_ud` |
+| `InspUsgeDcsnDgtlSgntrType` | `cast( qals.sign_type_ud as vdm_qsign_type_ud preserving type )` |
+| `InspUsgeDcsnDgtlSgntrStrgy` | `cast( qals.signstrat_ud as vdm_qsignstrat_ud preserving type )` |
 | `_InspLotUsageDecision` | *Association* |
 | `_InspectionLotType` | *Association* |
 | `_InspectionLotOrigin` | *Association* |

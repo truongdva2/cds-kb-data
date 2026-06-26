@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CADocumentNumber` | `CADocumentNumber` |
-| `key CARepetitionItemNumber` | `CARepetitionItemNumber` |
-| `key CABPItemNumber` | `CABPItemNumber` |
-| `key CASubItemNumber` | `CASubItemNumber` |
-| `key CABusinessProcess` | `CABusinessProcess` |
-| `key CABusinessLockReason` | `CABusinessLockReason` |
-| `key CABusinessLockValidFrom` | `CABusinessLockValidFrom` |
-| `key CABusinessLockValidTo` | `CABusinessLockValidTo` |
-| `/* Associations */` | `/* Associations */` |
-| `_DocHeader : redirected to I_CADocumentTP` | *Association* |
-| `_BPItem    : redirected to parent I_CADocumentBPItemTP` | *Association* |
+| `CADocumentNumber` | `CADocumentNumber` |
+| `CARepetitionItemNumber` | `CARepetitionItemNumber` |
+| `CABPItemNumber` | `CABPItemNumber` |
+| `CASubItemNumber` | `CASubItemNumber` |
+| `CABusinessProcess` | `CABusinessProcess` |
+| `CABusinessLockReason` | `CABusinessLockReason` |
+| `CABusinessLockValidFrom` | `CABusinessLockValidFrom` |
+| `CABusinessLockValidTo` | `CABusinessLockValidTo` |
 
 ## Associations
 

@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_calc_base preserving type)` | `cast(calc_base` |
+| `TransportationCalculationBase` | `cast(calc_base as /scmtms/vdm_tcm_calc_base preserving type)` |
 | `Language` | `language` |
-| `/scmtms/vdm_tcm_calc_base_text preserving type)` | `cast(description` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspCalculationBaseText` | `cast(description as /scmtms/vdm_tcm_calc_base_text preserving type)` |
 | `_TranspCalculationBase` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspCalculationBase` | `I_TranspCalculationBase` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

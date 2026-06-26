@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `_BR_NFDocumentTypeText.spras` |
 | `BR_NFDocumentType` | `_BR_NFDocumentTypeText.doctyp` |
-| `logbr_nf_doc_type_desc)` | `cast(_BR_NFDocumentTypeText.text` |
+| `BR_NFDocumentTypeDesc` | `cast(_BR_NFDocumentTypeText.text as logbr_nf_doc_type_desc)` |
 | `_BR_NFDocumentType` | *Association* |
 | `_Language` | *Association* |
 

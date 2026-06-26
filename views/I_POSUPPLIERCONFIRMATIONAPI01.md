@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierConfirmation.PurchaseOrder` | `SupplierConfirmation.PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key SequentialNmbrOfSuplrConf` | `SequentialNmbrOfSuplrConf` |
+| `PurchaseOrder` | `SupplierConfirmation.PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `SequentialNmbrOfSuplrConf` | `SequentialNmbrOfSuplrConf` |
 | `SupplierConfirmationCategory` | `SupplierConfirmationCategory` |
 | `DeliveryDate` | `DeliveryDate` |
 | `DelivDateCategory` | `DelivDateCategory` |
 | `DeliveryTime` | `DeliveryTime` |
-| `SupplierConfirmation.CreationDate` | `SupplierConfirmation.CreationDate` |
+| `CreationDate` | `SupplierConfirmation.CreationDate` |
 | `CreationTime` | `CreationTime` |
 | `ConfirmedQuantity` | `ConfirmedQuantity` |
 | `MRPRelevantQuantity` | `MRPRelevantQuantity` |

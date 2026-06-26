@@ -32,28 +32,28 @@ tags:
 | `InternalRealEstateNumber` | `_ValuationProcessStep.intreno` |
 | `REValuationRuleUUID` | `_ValuationProcessStep.ruleguid` |
 | `REValuationProcessUUID` | `_ValuationProcessStep.processguid` |
-| `_ValuationProcessStep.termno                                                        as RETermNumber` | *Association* |
-| `_ValuationProcessStep.processreason                                                 as REValuationProcessReason` | *Association* |
-| `_ValuationProcessStep.processbehavior                                               as REValuationBehavior` | *Association* |
-| `recevdmconsbeg   preserving type )` | `cast(_ValuationProcessStep.cefrom` |
-| `_ValuationProcessStep.processnote                                                   as REInfoText` | *Association* |
-| `_ValuationProcessStep.cnvalue                                                       as REContractValueAmount` | *Association* |
-| `_ValuationProcessStep.npv                                                           as RENetPresentValueAmount` | *Association* |
-| `_ValuationProcessStep.remainingcapital                                              as RERemainingCapitalAmount` | *Association* |
-| `_ValuationProcessStep.curr                                                          as Currency` | *Association* |
-| `_ValuationProcessStep.rerf                                                          as CreatedByUser` | *Association* |
-| `_ValuationProcessStep.derf                                                          as CreationDate` | *Association* |
-| `_ValuationProcessStep.terf                                                          as CreationTime` | *Association* |
-| `_ValuationProcessStep.reher                                                         as RESourceOfCreation` | *Association* |
-| `_ValuationProcessStep.rbear                                                         as LastChangedByUser` | *Association* |
-| `_ValuationProcessStep.dbear                                                         as LastChangeDate` | *Association* |
-| `_ValuationProcessStep.tbear                                                         as LastChangeTime` | *Association* |
-| `_ValuationProcessStep.rbher                                                         as RESourceOfChange` | *Association* |
-| `_ValuationProcessStep.isinitialprocess                                              as REValuationProcessIsInitial` | *Association* |
-| `recevdmslbegin preserving type )` | `cast(_ValuationProcessStep.slbegin` |
-| `recevdmprobableend   preserving type )` | `cast( _ValuationProcessStep.probableend` |
-| `recevdmabsoluteend preserving type )` | `cast( _ValuationProcessStep.absoluteend` |
-| `_ValuationProcessStep.valuationengine                                               as REValuationEngine` | *Association* |
+| `RETermNumber` | `_ValuationProcessStep.termno` |
+| `REValuationProcessReason` | `_ValuationProcessStep.processreason` |
+| `REValuationBehavior` | `_ValuationProcessStep.processbehavior` |
+| `REConsiderationStartDate` | `cast(_ValuationProcessStep.cefrom as recevdmconsbeg preserving type )` |
+| `REInfoText` | `_ValuationProcessStep.processnote` |
+| `REContractValueAmount` | `_ValuationProcessStep.cnvalue` |
+| `RENetPresentValueAmount` | `_ValuationProcessStep.npv` |
+| `RERemainingCapitalAmount` | `_ValuationProcessStep.remainingcapital` |
+| `Currency` | `_ValuationProcessStep.curr` |
+| `CreatedByUser` | `_ValuationProcessStep.rerf` |
+| `CreationDate` | `_ValuationProcessStep.derf` |
+| `CreationTime` | `_ValuationProcessStep.terf` |
+| `RESourceOfCreation` | `_ValuationProcessStep.reher` |
+| `LastChangedByUser` | `_ValuationProcessStep.rbear` |
+| `LastChangeDate` | `_ValuationProcessStep.dbear` |
+| `LastChangeTime` | `_ValuationProcessStep.tbear` |
+| `RESourceOfChange` | `_ValuationProcessStep.rbher` |
+| `REValuationProcessIsInitial` | `_ValuationProcessStep.isinitialprocess` |
+| `RELinearizationStartDate` | `cast(_ValuationProcessStep.slbegin as recevdmslbegin preserving type )` |
+| `REProbableEndDate` | `cast( _ValuationProcessStep.probableend as recevdmprobableend preserving type )` |
+| `REAbsoluteEndDate` | `cast( _ValuationProcessStep.absoluteend as recevdmabsoluteend preserving type )` |
+| `REValuationEngine` | `_ValuationProcessStep.valuationengine` |
 | `_ValuationBehavior` | *Association* |
 | `_ValuationProcessReason` | *Association* |
 | `_REValuation` | *Association* |

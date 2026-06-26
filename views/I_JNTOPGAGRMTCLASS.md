@@ -29,7 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Number Range' , quickInfo: 'Number Range' }` | `label: 'Number Range' , quickInfo: 'Number Range' }` |
+| `CompanyCode` | `bukrs` |
+| `JntOpgAgrmtClass` | `aclass` |
 | `JntOpgAgrmtNmbrRange` | `anrange` |
 | `_CompanyCode` | *Association* |
 | `_JntOpgAgrmtClassText` | *Association* |

@@ -29,32 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recaobjtype preserving type )` | `cast(obart` |
-| `cast (case obart` | `cast (case obart` |
-| `when 'IS' then 'REContract'   //Contract` | `when 'IS' then 'REContract'   //Contract` |
-| `when 'I3' then 'REContract'   //Search Request` | `when 'I3' then 'REContract'   //Search Request` |
-| `when 'I6' then 'REContract'   //Offered Object` | `when 'I6' then 'REContract'   //Offered Object` |
-| `when 'IW' then 'REMasterData' //Business Entity` | `when 'IW' then 'REMasterData' //Business Entity` |
-| `when 'IB' then 'REMasterData' //Building` | `when 'IB' then 'REMasterData' //Building` |
-| `when 'IG' then 'REMasterData' //Property` | `when 'IG' then 'REMasterData' //Property` |
-| `when 'IM' then 'REMasterData' //Rental Object` | `when 'IM' then 'REMasterData' //Rental Object` |
-| `when 'I0' then 'REMasterData' //Architectural Object` | `when 'I0' then 'REMasterData' //Architectural Object` |
-| `when 'I5' then 'REMasterData' //Offered Object` | `when 'I5' then 'REMasterData' //Offered Object` |
-| `when 'I2' then 'REThirdParty' //Mandate` | `when 'I2' then 'REThirdParty' //Mandate` |
-| `when 'I8' then 'RELandUse'    //Parcel of Land` | `when 'I8' then 'RELandUse'    //Parcel of Land` |
-| `when 'I9' then 'RELandUse'    //Public register` | `when 'I9' then 'RELandUse'    //Public register` |
-| `when 'J1' then 'RELandUse'    //Notice of Assessment` | `when 'J1' then 'RELandUse'    //Notice of Assessment` |
-| `when 'I1' then 'REServiceCharge' //Settlement Unit` | `when 'I1' then 'REServiceCharge' //Settlement Unit` |
-| `when 'I4' then 'REServiceCharge' //Participation Group` | `when 'I4' then 'REServiceCharge' //Participation Group` |
-| `when 'J5' then 'RealEstateIntegrationObject'` | `when 'J5' then 'RealEstateIntegrationObject'` |
-| `when 'AN' then 'FixedAsset'` | `when 'AN' then 'FixedAsset'` |
-| `when 'KS' then 'CostCenter'` | `when 'KS' then 'CostCenter'` |
-| `when 'PR' then 'WBSElement'` | `when 'PR' then 'WBSElement'` |
-| `when 'OR' then 'InternalOrder'` | `when 'OR' then 'InternalOrder'` |
-| `when 'IE' then 'Equipment'` | `when 'IE' then 'Equipment'` |
-| `when 'IF' then 'FunctionalLocation'` | `when 'IF' then 'FunctionalLocation'` |
-| `else ''` | `else ''` |
-| `char40 )` | `end` |
+| `RealEstateObjectType` | `cast(obart as recaobjtype preserving type )` |
+| `SemanticObject` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations
@@ -62,7 +38,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_REObjectTypeText` | [0..*] |
-| `_tivcaobjtype` | `tivcaobjtype` | [0..1] |
 
 ## Source Code
 

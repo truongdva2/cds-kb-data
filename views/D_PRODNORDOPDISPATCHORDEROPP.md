@@ -28,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SchedulingType        : ppopdispatchschedulingtype;` | `SchedulingType        : ppopdispatchschedulingtype;` |
-| `OperationDispatchDate : abap.dats;` | `OperationDispatchDate : abap.dats;` |
-| `OperationDispatchTime : abap.tims;` | `OperationDispatchTime : abap.tims;` |
+| `SchedulingType` | `ppopdispatchschedulingtype` |
+| `OperationDispatchDate` | `abap.dats` |
+| `OperationDispatchTime` | `abap.tims` |
 
 ## Associations
 

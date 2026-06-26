@@ -30,7 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `abap.char( 2 ))` | `cast(domvalue_l` |
+| `WarrantyClaimVersionCategory` | `cast(domvalue_l as abap.char( 2 ))` |
 | `WrntyClaimVersionCategoryText` | `ddtext` |
 | `_WrntyClaimCategory` | *Association* |
 | `_Language` | *Association* |

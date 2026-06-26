@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `IT_ElectronicDocRejectionCode` | `IT_ElectronicDocRejectionCode` |
+| `Language` | `Language` |
 | `IT_ElectronicDocRejectCodeText` | `IT_ElectronicDocRejectCodeText` |
 
 ## Associations

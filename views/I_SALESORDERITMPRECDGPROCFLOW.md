@@ -34,18 +34,18 @@ tags:
 |---|---|
 | `SalesOrder` | `PrecedingProcFlowItem.SalesDocument` |
 | `SalesOrderItem` | `PrecedingProcFlowItem.SalesDocumentItem` |
-| `key PrecedingProcFlowItem.DocRelationshipUUID` | `PrecedingProcFlowItem.DocRelationshipUUID` |
-| `PrecedingProcFlowItem.PrecedingDocument` | `PrecedingProcFlowItem.PrecedingDocument` |
-| `PrecedingProcFlowItem.PrecedingDocumentItem` | `PrecedingProcFlowItem.PrecedingDocumentItem` |
-| `PrecedingProcFlowItem.PrecedingDocumentCategory` | `PrecedingProcFlowItem.PrecedingDocumentCategory` |
-| `PrecedingProcFlowItem.ProcessFlowLevel` | `PrecedingProcFlowItem.ProcessFlowLevel` |
-| `PrecedingProcFlowItem.CreationDate` | `PrecedingProcFlowItem.CreationDate` |
-| `PrecedingProcFlowItem.CreationTime` | `PrecedingProcFlowItem.CreationTime` |
-| `PrecedingProcFlowItem.LastChangeDate` | `PrecedingProcFlowItem.LastChangeDate` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `DocRelationshipUUID` | `PrecedingProcFlowItem.DocRelationshipUUID` |
+| `PrecedingDocument` | `PrecedingProcFlowItem.PrecedingDocument` |
+| `PrecedingDocumentItem` | `PrecedingProcFlowItem.PrecedingDocumentItem` |
+| `PrecedingDocumentCategory` | `PrecedingProcFlowItem.PrecedingDocumentCategory` |
+| `ProcessFlowLevel` | `PrecedingProcFlowItem.ProcessFlowLevel` |
+| `CreationDate` | `PrecedingProcFlowItem.CreationDate` |
+| `CreationTime` | `PrecedingProcFlowItem.CreationTime` |
+| `LastChangeDate` | `PrecedingProcFlowItem.LastChangeDate` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
 

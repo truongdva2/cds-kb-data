@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key        TaskListType` | `TaskListType` |
-| `key        TaskListGroup` | `TaskListGroup` |
-| `key        TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key        TaskListSequence` | `TaskListSequence` |
-| `key        TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `key        TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
+| `TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
 | `SuccssrBOOGroup` | `SuccssrBOOGroup` |
 | `SuccssrBOOOpInternalID` | `SuccssrBOOOpInternalID` |
 | `MaintenanceTaskListOperation` | `MaintenanceTaskListOperation` |
@@ -51,9 +51,6 @@ tags:
 | `TimeIntvlBtwnRelshp` | `TimeIntvlBtwnRelshp` |
 | `TimeIntvlBtwnRelshpUnit` | `TimeIntvlBtwnRelshpUnit` |
 | `WorkCenterInternalID` | `WorkCenterInternalID` |
-| `_Header    : redirected to I_MaintenanceTaskListTP_2` | *Association* |
-| `_Operation : redirected to I_MaintTaskListOpBasicTP` | *Association* |
-| `_NonHistOp : redirected to parent I_MaintTaskListOperationTP_2` | *Association* |
 
 ## Associations
 

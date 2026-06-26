@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_simples_class )` | `cast ( domvalue_l` |
+| `BR_SIMPLESClassCode` | `cast ( domvalue_l as logbr_simples_class )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -30,13 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `fis_bukrs preserving type )` | `cast (bukrs` |
-| `farp_busab preserving type )` | `cast (busab` |
-| `farp_sname_001s preserving type )` | `cast (sname` |
-| `vdm_userid preserving type )` | `cast( usnam` |
+| `CompanyCode` | `cast (bukrs as fis_bukrs preserving type )` |
+| `AccountingClerk` | `cast (busab as farp_busab preserving type )` |
+| `AccountingClerkName` | `cast (sname as farp_sname_001s preserving type )` |
+| `UserID` | `cast( usnam as vdm_userid preserving type )` |
 | `_Company` | *Association* |
 
 ## Associations

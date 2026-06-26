@@ -32,13 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `fis_bukrs preserving type )` | `cast( I_CompanyCode.CompanyCode` |
-| `key I_FiscalCalendarDate.FiscalYear` | `I_FiscalCalendarDate.FiscalYear` |
-| `I_FiscalCalendarDate.FiscalYearStartDate` | `I_FiscalCalendarDate.FiscalYearStartDate` |
-| `I_FiscalCalendarDate.FiscalYearEndDate` | `I_FiscalCalendarDate.FiscalYearEndDate` |
+| `CompanyCode` | `cast( I_CompanyCode.CompanyCode as fis_bukrs preserving type )` |
+| `FiscalYear` | `I_FiscalCalendarDate.FiscalYear` |
+| `FiscalYearStartDate` | `I_FiscalCalendarDate.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `I_FiscalCalendarDate.FiscalYearEndDate` |
 | `_CompanyCode` | *Association* |
 
 ## Associations

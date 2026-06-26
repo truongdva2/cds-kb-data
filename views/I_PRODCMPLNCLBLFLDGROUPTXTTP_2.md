@@ -31,15 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
-| `key Language` | `Language` |
+| `ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
+| `Language` | `Language` |
 | `ProdCmplncLabelFieldGroupName` | `ProdCmplncLabelFieldGroupName` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_LabelFieldGroup : redirected to parent I_ProdCmplncLabelFldGroupTP_2` | *Association* |
 
 ## Associations
 

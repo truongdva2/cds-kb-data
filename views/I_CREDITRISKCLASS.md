@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_risk_class preserving type)` | `cast(risk_class` |
+| `CreditRiskClass` | `cast(risk_class as farp_risk_class preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

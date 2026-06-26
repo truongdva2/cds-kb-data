@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGCategory` | `_Source.GHGCategory` |
-| `_Source._Text[1: Language=$session.system_language].GHGCategoryName` | *Association* |
+| `GHGCategory` | `_Source.GHGCategory` |
+| `GHGCategoryName` | `_Source._Text[1: Language=$session.system_language].GHGCategoryName` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pksar)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KnbnCtrlCycInhProdnCtrlType` | `cast(substring(domvalue_l, 1, 1) as pksar)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

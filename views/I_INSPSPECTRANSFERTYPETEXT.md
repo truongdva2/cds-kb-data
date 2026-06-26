@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qvollst preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspSpecTransferType` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qvollst preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qvollst_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspSpecTransferType` | `,_InspSpecTransferType` |
-| `,_Language` | `,_Language` |
+| `InspSpecTransferTypeText` | `cast( ddtext as vdm_qvollst_text preserving type )` |
+| `_InspSpecTransferType` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

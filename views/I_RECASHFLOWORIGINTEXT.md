@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `reiscforigin )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RECashFlowOrigin` | `cast( dd07t.domvalue_l as reiscforigin )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `RECashFlowOriginName` | `dd07t.ddtext` |
 | `_RECashFlowOrigin` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RECashFlowOrigin` | `I_RECashFlowOrigin` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

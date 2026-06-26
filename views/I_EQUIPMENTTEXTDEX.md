@@ -39,8 +39,8 @@ tags:
 | `IsPrimaryLanguage` | `eqkt.txasp` |
 | `EquipmentHasLongText` | `eqkt.kzltx` |
 | `LastChangeDateTime` | `eqkt.textchangeddatetime` |
-| `_Equipment.CreationDate as ValidityStartDate` | *Association* |
-| `datbi )` | `cast( '99991231'` |
+| `ValidityStartDate` | `_Equipment.CreationDate` |
+| `ValidityEndDate` | `cast( '99991231' as datbi )` |
 | `_Equipment` | *Association* |
 | `_Language` | *Association* |
 

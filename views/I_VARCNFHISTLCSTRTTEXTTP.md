@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key VarCnfConstraintName` | `VarCnfConstraintName` |
-| `key LanguageCode` | `LanguageCode` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintName` | `VarCnfConstraintName` |
+| `LanguageCode` | `LanguageCode` |
+| `ChangeNumber` | `ChangeNumber` |
 | `VarCnfConstraintDescription` | `VarCnfConstraintDescription` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_Text          : redirected to parent I_VarCnfConstraintTextTP` | *Association* |
-| `_ConstraintNet : redirected to I_VarCnfConstraintNetTP` | *Association* |
 
 ## Associations
 

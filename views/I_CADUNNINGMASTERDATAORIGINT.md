@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dunn_par_orig_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `dunn_par_orig_text_kk preserving type )` | `cast( ddtext` |
+| `CAOriginOfDunningMasterData` | `cast( left( dd07t.domvalue_l, 1 ) as dunn_par_orig_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAOriginOfDunningMstrDataText` | `cast( ddtext as dunn_par_orig_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kmanu )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `CndnManualEntries` | `cast ( substring( domvalue_l, 1, 1 ) as kmanu )` |
 | `_Text` | *Association* |
 
 ## Associations

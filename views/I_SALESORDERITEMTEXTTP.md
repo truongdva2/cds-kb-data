@@ -35,19 +35,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderItemText.SalesOrder` | `SalesOrderItemText.SalesOrder` |
-| `key SalesOrderItemText.SalesOrderItem` | `SalesOrderItemText.SalesOrderItem` |
-| `key SalesOrderItemText.Language` | `SalesOrderItemText.Language` |
-| `key SalesOrderItemText.LongTextID` | `SalesOrderItemText.LongTextID` |
-| `SalesOrderItemText.LongTextIDForEdit` | `SalesOrderItemText.LongTextIDForEdit` |
-| `SalesOrderItemText.LanguageForEdit` | `SalesOrderItemText.LanguageForEdit` |
-| `SalesOrderItemText.LongText` | `SalesOrderItemText.LongText` |
-| `SalesOrderItemText.SalesOrderType` | `SalesOrderItemText.SalesOrderType` |
-| `SalesOrderItemText.SalesOrganization` | `SalesOrderItemText.SalesOrganization` |
-| `SalesOrderItemText.DistributionChannel` | `SalesOrderItemText.DistributionChannel` |
-| `SalesOrderItemText.OrganizationDivision` | `SalesOrderItemText.OrganizationDivision` |
-| `_Item       : redirected to parent I_SalesOrderItemTP` | *Association* |
-| `_SalesOrder : redirected to I_SalesOrderTP` | *Association* |
+| `SalesOrder` | `SalesOrderItemText.SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItemText.SalesOrderItem` |
+| `Language` | `SalesOrderItemText.Language` |
+| `LongTextID` | `SalesOrderItemText.LongTextID` |
+| `LongTextIDForEdit` | `SalesOrderItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesOrderItemText.LanguageForEdit` |
+| `LongText` | `SalesOrderItemText.LongText` |
+| `SalesOrderType` | `SalesOrderItemText.SalesOrderType` |
+| `SalesOrganization` | `SalesOrderItemText.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderItemText.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderItemText.OrganizationDivision` |
 
 ## Associations
 

@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceLogicalSystem : sdbil_odata_source_system; // Mandatory` | `ReferenceLogicalSystem : sdbil_odata_source_system; // Mandatory` |
-| `_BillableDocument      : association [1..*] to D_BlgDcCrteFrmExtBllbleDocIP on 1 = 0;` | *Association* |
+| `ReferenceLogicalSystem` | `sdbil_odata_source_system` |
+| `_BillableDocument` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillableDocument` | `D_BlgDcCrteFrmExtBllbleDocIP` | [1..*] |
 
 ## Source Code
 

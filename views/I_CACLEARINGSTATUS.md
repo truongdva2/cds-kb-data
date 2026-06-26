@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `augst_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CAClearingStatus` | `cast( left( domvalue_l, 1 ) as augst_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

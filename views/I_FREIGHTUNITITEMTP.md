@@ -33,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
+| `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItem` | `TranspOrdItem` |
 | `TranspOrdItemType` | `TranspOrdItemType` |
@@ -74,12 +73,11 @@ tags:
 | `TranspOrdItemNetWeight` | `TranspOrdItemNetWeight` |
 | `TranspOrdItemNetWeightUnit` | `TranspOrdItemNetWeightUnit` |
 | `TranspOrdItemDngrsGdsSts` | `TranspOrdItemDngrsGdsSts` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightUnit                  : redirected to parent I_FreightUnitTP` | `FreightUnitItem._TransportationOrder` |
-| `_FreightUnitItemDocRef        : redirected to composition child I_FreightUnitItemDocRefTP` | `FreightUnitItem._TranspOrdItemDocRef` |
-| `_FreightUnitItemCommodityCode : redirected to composition child I_FrtUnitItemCommodityCodeTP` | `FreightUnitItem._TranspOrdItemCommodityCode` |
-| `_FreightUnitItemSerialNumber  : redirected to composition child I_FrtUnitItemSerialNumberTP` | `FreightUnitItem._TranspOrdItemSerialNumber` |
-| `_FreightUnitItemBatch         : redirected to composition child I_FreightUnitItemBatchTP` | `FreightUnitItem._TranspOrdItemBatch` |
+| `_FreightUnit` | *Association* |
+| `_FreightUnitItemDocRef` | *Association* |
+| `_FreightUnitItemCommodityCode` | *Association* |
+| `_FreightUnitItemSerialNumber` | *Association* |
+| `_FreightUnitItemBatch` | *Association* |
 
 ## Associations
 

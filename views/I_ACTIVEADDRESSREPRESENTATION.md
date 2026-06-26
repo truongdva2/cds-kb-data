@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressRepresentation.AddressRepresentationCode` | `AddressRepresentation.AddressRepresentationCode` |
+| `AddressRepresentationCode` | `AddressRepresentation.AddressRepresentationCode` |
 | `_Text` | *Association* |
 
 ## Associations

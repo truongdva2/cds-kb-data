@@ -35,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocument` | `BillingDocument` |
+| `BillingDocument` | `BillingDocument` |
 | `BillingDocumentType` | `BillingDocumentType` |
 | `SalesOrganization` | `SalesOrganization` |
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PersonnelSettlementDocument` | `PersonnelSettlementDocument` |
-| `key PersSettlmtDocItem` | `PersSettlmtDocItem` |
+| `PersonnelSettlementDocument` | `PersonnelSettlementDocument` |
+| `PersSettlmtDocItem` | `PersSettlmtDocItem` |
 | `_PersSettlmtDoc` | *Association* |
 
 ## Associations

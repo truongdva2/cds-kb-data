@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bfwms )` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `nsdm_ewm_control_posting_text preserving type)` | `cast(ddtext` |
+| `CtrlPostgForExtWhseMgmtSyst` | `cast(substring(domvalue_l, 1, 1) as bfwms )` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `CtrlPostgForWhseMgmtSystName` | `cast(ddtext as nsdm_ewm_control_posting_text preserving type)` |
 | `_CtrlPostgExtWhseMgmtSyst` | *Association* |
 | `_Language` | *Association* |
 

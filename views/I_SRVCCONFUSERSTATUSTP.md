@@ -30,13 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
-| `_ServiceConfirmationTP : redirected to parent I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

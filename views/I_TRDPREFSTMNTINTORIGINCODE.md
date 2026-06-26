@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/sapsll/prene_r3)` | `cast(domvalue_l` |
+| `TrdPrefStmntInternalOriginCode` | `cast(domvalue_l as /sapsll/prene_r3)` |
 | `_Text` | *Association* |
 
 ## Associations

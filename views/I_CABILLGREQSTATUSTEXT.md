@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billreqstatus_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `descr_60_kk preserving type )` | `cast ( ddtext` |
+| `CABillgReqStatus` | `cast ( substring( dd07t.domvalue_l,1,1 ) as billreqstatus_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CABillgReqStatusText` | `cast ( ddtext as descr_60_kk preserving type )` |
 | `_CABillgReqStatus` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `mrpprocedurename preserving type)` | `cast(t.ddtext` |
+| `MRPProcedure` | `cast(substring(t.domvalue_l, 1, 1) as disvf preserving type)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `MRPProcedureName` | `cast(t.ddtext as mrpprocedurename preserving type)` |
 | `DomainValue` | `t.domvalue_l` |
 | `_MRPProcedure` | *Association* |
 | `_Language` | *Association* |

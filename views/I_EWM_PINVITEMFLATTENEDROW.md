@@ -31,10 +31,65 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'EWMPhysInvtryDiffQuantityUnit'}}` | `unitOfMeasure: 'EWMPhysInvtryDiffQuantityUnit'}}` |
-| `ewm_de_pi_differencequantity preserving type )` | `cast(_PIItemDiffQuan.EWMPhysInvtryDiffQuantity` |
-| `ewm_de_pi_differenceqtyuom preserving type )` | `cast(_PIItemDiffQuan.EWMPhysInvtryDiffQuantityUnit` |
-| `item.PhysicalInventoryStockUUID` | `item.PhysicalInventoryStockUUID` |
+| `EWMWarehouse` | `_PIHeader.EWMWarehouse` |
+| `PhysicalInventoryDocNumber` | `_PIHeader.PhysicalInventoryDocNumber` |
+| `PhysicalInventoryDocYear` | `_PIHeader.PhysicalInventoryDocYear` |
+| `PhysicalInventoryItemNumber` | `item.PhysicalInventoryItemNumber` |
+| `LineIndexOfPInvItem` | `item.LineIndexOfPInvItem` |
+| `EWMStorageType` | `_storagebin.EWMStorageType` |
+| `EWMStorageBin` | `_storagebin.EWMStorageBin` |
+| `EWMPhysicalInventoryStatus` | `item.EWMPhysicalInventoryStatus` |
+| `ActivityArea` | `_PIAreaMapping.ActivityArea` |
+| `EWMStorageBinIsEmpty` | `cast( _PIItemBinEmpty.EWMStorageBinIsEmpty as boole_d )` |
+| `HandlingUnitNumber` | `case…end` |
+| `HndlgUnitItemCountedIsComplete` | `case…end` |
+| `HndlgUnitItemCountedIsEmpty` | `case…end` |
+| `HndlgUnitItemCountedIsNotExist` | `case…end` |
+| `PackagingMaterial` | `_parent.PackagingMaterial` |
+| `HandlingUnitType` | `_parent.HandlingUnitType` |
+| `EWMPInvHasExtraHndlgUnitLevel` | `cast(…)` |
+| `Product` | `_PIItemBusKey.Product` |
+| `ProductUUID` | `_PIItemBusKey.ProductUUID` |
+| `Batch` | `_PIItemBusKey.Batch` |
+| `BatchUUID` | `_PIItemBusKey.BatchUUID` |
+| `SerialNumberRequiredLevel` | `_PIItemBusKey.SerialNumberRequiredLevel` |
+| `EWMStockType` | `_PIItemBusKey.EWMStockType` |
+| `EWMStockOwner` | `_PIItemBusKey.EWMStockOwner` |
+| `StockOwnerPartnerRole` | `_PIItemBusKey.StockOwnerPartnerRole` |
+| `EWMStockUsage` | `_PIItemBusKey.EWMStockUsage` |
+| `EntitledToDisposeParty` | `_PIItemBusKey.EntitledToDisposeParty` |
+| `EntitledToDisposePartnerRole` | `_PIItemBusKey.EntitledToDisposePartnerRole` |
+| `StockDocumentCategory` | `_PIItemBusKey.StockDocumentCategory` |
+| `WBSElementInternalID` | `_PIItemBusKey.WBSElementInternalID` |
+| `WBSElementExternalID` | `_PIItemBusKey.WBSElementExternalID` |
+| `SpecialStockIdfgSalesOrder` | `_PIItemBusKey.SpecialStockIdfgSalesOrder` |
+| `SpecialStockIdfgSalesOrderItem` | `_PIItemBusKey.SpecialStockIdfgSalesOrderItem` |
+| `WhseQualityInspectionType` | `item.WhseQualityInspectionType` |
+| `QualityInspectionDocUUID` | `item.QualityInspectionDocUUID` |
+| `QualityInspectionDocument` | `_QualityInspection.QualityInspectionDocument` |
+| `StockIdentificationNumber` | `item.StockIdentificationNumber` |
+| `EWMStockReferenceDocCategory` | `item.EWMStockReferenceDocCategory` |
+| `EWMStockRefDocumentUUID` | `item.EWMStockRefDocumentUUID` |
+| `EWMStockRefDocItemUUID` | `item.EWMStockRefDocItemUUID` |
+| `EWMStockReferenceDocument` | `case…end` |
+| `EWMStockReferenceDocumentItem` | `case…end` |
+| `EWMGoodsReceiptDateTime` | `item.EWMGoodsReceiptDateTime` |
+| `ShelfLifeExpirationDate` | `item.ShelfLifeExpirationDate` |
+| `CountryOfOrigin` | `item.CountryOfOrigin` |
+| `MatlBatchIsInRstrcdUseStock` | `item.MatlBatchIsInRstrcdUseStock` |
+| `PInvIsZeroCount` | `cast( _PIItemCountedQuan.PInvIsZeroCount as boole_d )` |
+| `PInvQuantitySequence` | `case…end` |
+| `EWMPhysInvtrySuggestedQty` | `cast(…)` |
+| `EWMPhysInvtrySuggestedQtyUnit` | `cast(…)` |
+| `EWMPhysInvtryBookQuantity` | `cast(…)` |
+| `EWMPhysInvtryBookQtyUnit` | `cast(…)` |
+| `EWMPhysInvtryCountedQuantity` | `cast(…)` |
+| `EWMPhysInvtryCountedQtyUnit` | `cast(…)` |
+| `EWMPhysInvtryEnteredQuantity` | `cast(…)` |
+| `EWMPhysInvtryEnteredQtyUnit` | `cast(…)` |
+| `EWMPhysInvtryDiffQuantity` | `cast(…)` |
+| `EWMPhysInvtryDiffQuantityUnit` | `cast(…)` |
+| `PhysicalInventoryStockUUID` | `item.PhysicalInventoryStockUUID` |
 
 ## Associations
 
@@ -56,7 +111,6 @@ tags:
 | `_PIItemCountedQuan` | `P_EWM_PInvDocBusItemQty` | [0..1] |
 | `_PIItemDiffQuan` | `P_EWM_PInvItemRow_DiffQty` | [0..1] |
 | `_PIItemBinEmpty` | `P_EWM_PhysInvtryStorBinIsEmpty` | [0..1] |
-| `_PIItemHasStock` | `P_EWM_PInvItemHasStock` | [0..1] |
 
 ## Source Code
 

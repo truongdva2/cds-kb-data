@@ -31,16 +31,16 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RuntimeHierarchy` | `hryid` |
-| `fis_datbi preserving type )` | `cast(hryvalto` |
+| `ValidityEndDate` | `cast(hryvalto as fis_datbi preserving type )` |
 | `HierarchyNode` | `hrynode` |
 | `HierarchyNodeClass` | `nodecls` |
 | `ParentNode` | `parnode` |
 | `Language` | `spras` |
 | `HierarchyType` | `hrytyp` |
-| `fis_datab preserving type)` | `cast(hryvalfrom` |
+| `ValidityStartDate` | `cast(hryvalfrom as fis_datab preserving type)` |
 | `HierarchyNodeText` | `nodetxt` |
-| `ControllingArea, //FIS_KOKRS` | `kokrs` |
-| `ChartOfAccounts, //FIS_KTOPL` | `ktopl` |
+| `ControllingArea` | `kokrs` |
+| `ChartOfAccounts` | `ktopl` |
 | `ConsolidationChartOfAccounts` | `itclg` |
 | `SubItemCategory` | `sityp` |
 | `ValidationScenarioID` | `scen_id` |

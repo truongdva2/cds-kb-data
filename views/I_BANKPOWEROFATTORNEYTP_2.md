@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
+| `BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
 | `BankPowerOfAttorney` | `BankPowerOfAttorney` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
@@ -50,13 +50,6 @@ tags:
 | `BkPOARtntnPeriodStartDateTime` | `BkPOARtntnPeriodStartDateTime` |
 | `BankPowerOfAttorneyIsBlocked` | `BankPowerOfAttorneyIsBlocked` |
 | `BankPowerOfAttorneyType` | `BankPowerOfAttorneyType` |
-| `/* Associations */` | `/* Associations */` |
-| `_BkPOAActivityAssignment: redirected to composition child I_BkPOAActivityAssignmentTP_2` | *Association* |
-| `_BkPOAAuthzdRepresentative: redirected to composition child I_BkPOAAuthzdRprstvTP_2` | *Association* |
-| `_BkPOABankAccount: redirected to composition child I_BkPOABankAccountTP_2` | *Association* |
-| `_BkPOABankAccountSelection: redirected to composition child I_BkPOABkAccountSelectionTP_2` | *Association* |
-| `_BkPOACompanyCode: redirected to composition child I_BkPOACompanyCodeTP_2` | *Association* |
-| `_BkPOAPredecessor: redirected to composition child I_BkPOAPredecessorTP_2` | *Association* |
 
 ## Associations
 

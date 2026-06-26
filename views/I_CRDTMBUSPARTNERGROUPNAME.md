@@ -32,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8` | `fuzzinessThreshold:   0.8` |
-| `ranking:              #LOW }` | `ranking:              #LOW }` |
+| `CrdtMgmtBusinessPartnerGroup` | `cred_group` |
+| `Language` | `langu` |
 | `CrdtMgmtBusPartnerGroupName` | `cred_group_txt` |
 | `_Language` | *Association* |
 

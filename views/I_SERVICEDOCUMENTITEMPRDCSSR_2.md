@@ -33,9 +33,8 @@ tags:
 |---|---|
 | `ServiceDocumentItmRelationUUID` | `relationid` |
 | `ServiceDocItmRltnSqncNumber` | `posno` |
-| `/* CRMT_BRELVONAI */` | `/* CRMT_BRELVONAI */` |
-| `crms4_object_charguid32 preserving type )` | `cast(objkey_a` |
-| `crms4_object_charguid32 preserving type )` | `cast(objkey_b` |
+| `ServiceDocItmPrdcssrCharUUID` | `cast(objkey_a as crms4_object_charguid32 preserving type )` |
+| `ServiceDocumentItemCharUUID` | `cast(objkey_b as crms4_object_charguid32 preserving type )` |
 | `ServiceDocumentItmRelationType` | `breltyp` |
 | `ServiceDocItmPrdcssrBusObjType` | `objtype_a` |
 | `ServiceDocumentItmRelationKind` | `vona_kind` |

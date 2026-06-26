@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CADocumentOriginCode` | `herkf` |
 | `Language` | `spras` |
-| `herkf_text_kk preserving type )` | `cast( htext` |
+| `CADocumentOriginCodeName` | `cast( htext as herkf_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

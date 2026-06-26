@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fac_rjet_end_by_type )` | `cast( substring( dd07l.domvalue_l, 1, 1 )` |
+| `RecurrenceEndType` | `cast( substring( dd07l.domvalue_l, 1, 1 ) as fac_rjet_end_by_type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

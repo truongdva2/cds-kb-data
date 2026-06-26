@@ -29,7 +29,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
 | `ServiceContrCancellationReason` | `canc_reason` |
 | `ServiceContractCanclnParty` | `cancparty` |
 | `_ServiceCanclnReasonText` | *Association* |

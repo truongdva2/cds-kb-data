@@ -32,7 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true }` | `hidden: true }` |
+| `MaintenanceNotification` | `MaintenanceNotification` |
+| `MaintenanceNotificationItem` | `MaintenanceNotificationItem` |
+| `MaintenanceNotificationCause` | `MaintenanceNotificationCause` |
+| `MaintNotifCauseText` | `MaintNotifCauseText` |
+| `MaintNotifCauseCodeGroup` | `MaintNotifCauseCodeGroup` |
+| `MaintNotificationCauseCode` | `MaintNotificationCauseCode` |
 | `MaintNotifCauseCodeCatalog` | `MaintNotifCauseCodeCatalog` |
 | `MaintNotificationRootCause` | `MaintNotificationRootCause` |
 | `IsDeleted` | `IsDeleted` |
@@ -40,8 +45,6 @@ tags:
 | `_MaintNotificationCauseCode` | *Association* |
 | `_MaintenanceNotification` | *Association* |
 | `_MaintNotificationRootCause` | *Association* |
-| `_Item: redirected to parent I_MaintNotificationItemTP_2` | *Association* |
-| `_Notif: redirected to I_MaintenanceNotificationTP_2` | *Association* |
 
 ## Associations
 

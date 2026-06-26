@@ -38,7 +38,7 @@ tags:
 | `IsStandardCard` | `ccdef` |
 | `CardDescription` | `ccaccname` |
 | `CollectionIsAuthorized` | `cc_coll_auth` |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_CardType` | *Association* |
 | `_BusinessPartner` | *Association* |
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `soptaus)` | `cast(DomainValue.domvalue_l` |
+| `OptionExerciseType` | `cast(DomainValue.domvalue_l as soptaus)` |
 | `_Text` | *Association* |
 
 ## Associations

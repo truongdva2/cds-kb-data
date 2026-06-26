@@ -29,133 +29,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'CustomerCreditMemoNetAmount_2' }` | `releaseState: #DEPRECATED, successor: 'CustomerCreditMemoNetAmount_2' }` |
-| `CustomerCreditMemoNetAmount` | `CustomerCreditMemoNetAmount` |
-| `CustomerCreditMemoNetAmount_2` | `CustomerCreditMemoNetAmount_2` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CustomerCreditMemoNetAmount_2` | `amount => CustomerCreditMemoNetAmount_2` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate` | `exchange_rate_date => PSA.CalendarDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `mc_gunetwr)` | `)` |
-| `CustCreditMemoQuantity` | `CustCreditMemoQuantity` |
-| `Subtotal1Amount` | `Subtotal1Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal1Amount` | `amount => Subtotal1Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount1_idc)` | `)` |
-| `Subtotal2Amount` | `Subtotal2Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal2Amount` | `amount => Subtotal2Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount2_idc)` | `)` |
-| `Subtotal3Amount` | `Subtotal3Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal3Amount` | `amount => Subtotal3Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount3_idc)` | `)` |
-| `Subtotal4Amount` | `Subtotal4Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal4Amount` | `amount => Subtotal4Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount4_idc)` | `)` |
-| `Subtotal5Amount` | `Subtotal5Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal5Amount` | `amount => Subtotal5Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount5_idc)` | `)` |
-| `Subtotal6Amount` | `Subtotal6Amount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => Subtotal6Amount` | `amount => Subtotal6Amount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate,       -- <---` | `exchange_rate_date => PSA.CalendarDate,       -- <---` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `subtotalamount6_idc)` | `)` |
-| `CustCrdtMemoPrftMargNetAmt,       -- AT 13.04.2018: added for CE1808` | `CustCrdtMemoPrftMargNetAmt,       -- AT 13.04.2018: added for CE1808` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CustCrdtMemoPrftMargNetAmt` | `amount => CustCrdtMemoPrftMargNetAmt` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => PSA.CalendarDate` | `exchange_rate_date => PSA.CalendarDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `cm_prf_marg_net_amt_idc)` | `)` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `TransactionCurrency` | `TransactionCurrency` |
-| `StatisticsCurrency` | `StatisticsCurrency` |
-| `BaseUnit` | `BaseUnit` |
-| `_BillingDocumentType` | *Association* |
-| `_SDDocumentObject` | *Association* |
-| `_DisplayCurrency` | *Association* |
-| `_StatisticsCurrency` | *Association* |
-| `_TransactionCurrency` | *Association* |
-| `_BaseUnit` | *Association* |
-| `_DistributionChannel` | *Association* |
-| `_Division` | *Association* |
-| `_Material` | *Association* |
-| `_Product` | *Association* |
-| `_MaterialGroup` | *Association* |
-| `_ProductGroup` | *Association* |
-| `_OriginallyRequestedMaterial` | *Association* |
-| `_SalesDistrict` | *Association* |
-| `_SalesOffice` | *Association* |
-| `_SalesGroup` | *Association* |
-| `_SalesOrganization` | *Association* |
-| `_SoldToParty` | *Association* |
-| `_ShippingPoint` | *Association* |
-| `_CustomerGroup` | *Association* |
-| `_Customer` | *Association* |
-| `_SDDocumentCategory` | *Association* |
-| `_BillingDocDateCalendarMonth` | *Association* |
-| `_BillingDocDateCalendarQuarter --` | *Association* |
+| `SalesDocumentItem` | `SalesDocumentItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `BillingPlan` | `BillingPlan` |
+| `BillingPlanItem` | `BillingPlanItem` |
+| `DeliveryDocument` | `DeliveryDocument` |
+| `DeliveryDocumentItem` | `DeliveryDocumentItem` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
+| `SoldToParty` | `SoldToParty` |
+| `SoldToPartyName` | `SoldToPartyName` |
+| `CustomerGroup` | `CustomerGroup` |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `_AdditionalCustomerGroup5` | *Association* |
+| `Customer` | `cast (SoldToParty as kunnr)` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `SDDocumentObject` | `SDDocumentObject` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `PartnerCompany` | `--CE2111 AT BK intro of dimension TradingPartner _SoldToParty.TradingPartner` |
+| `_GlobalCompany` | *Association* |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesDistrict` | `SalesDistrict` |
 
 ## Associations
 
@@ -170,7 +74,6 @@ tags:
 | `_ProductGroup` | `I_ProductGroup_2` | [0..1] |
 | `_BillingDocDateCalendarMonth` | `I_CalendarMonth` | [0..1] |
 | `_BillingDocDateCalendarQuarter` | `I_CalendarQuarter` | [0..1] |
-| `_BillingDocDateYearMonth` | `I_YearMonth` | [0..1] |
 | `_ProductHierarchyNode` | `I_ProductHierarchyNode` | [0..1] |
 | `_SalesDocumentType` | `I_SalesDocumentType` | [0..1] |
 | `_SalesDocument` | `I_SalesDocument` | [1..1] |

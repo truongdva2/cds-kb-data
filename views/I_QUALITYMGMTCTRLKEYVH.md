@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #LOW }` |
-| `_Text[1: Language = $session.system_language].QualityMgmtCtrlKeyText` | *Association* |
+| `QualityMgmtCtrlKey` | `QualityMgmtCtrlKey` |
+| `QualityMgmtCtrlKeyText` | `_Text[1: Language = $session.system_language].QualityMgmtCtrlKeyText` |
 
 ## Associations
 

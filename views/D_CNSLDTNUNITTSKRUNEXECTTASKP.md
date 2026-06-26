@@ -29,17 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConsolidationChartOfAccounts          : fincs_conschartofaccounts;` | `ConsolidationChartOfAccounts          : fincs_conschartofaccounts;` |
-| `ConsolidationVersion                  : fincs_consolidationversion;` | `ConsolidationVersion                  : fincs_consolidationversion;` |
-| `FiscalYear                            : fincs_fiscalyear;` | `FiscalYear                            : fincs_fiscalyear;` |
-| `FiscalPeriod                          : fincs_period;` | `FiscalPeriod                          : fincs_period;` |
-| `ConsolidationTask                     : fincs_tsk;` | `ConsolidationTask                     : fincs_tsk;` |
-| `ConsolidationGroup                    : fincs_congr;` | `ConsolidationGroup                    : fincs_congr;` |
-| `_ConsolidationUnit                    : composition [0..*] of D_CnsldtnUntTskRunExectTskUntP;` | *Association* |
+| `ConsolidationChartOfAccounts` | `fincs_conschartofaccounts` |
+| `ConsolidationVersion` | `fincs_consolidationversion` |
+| `FiscalYear` | `fincs_fiscalyear` |
+| `FiscalPeriod` | `fincs_period` |
+| `ConsolidationTask` | `fincs_tsk` |
+| `ConsolidationGroup` | `fincs_congr` |
+| `_ConsolidationUnit` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConsolidationUnit` | `D_CnsldtnUntTskRunExectTskUntP` | [0..*] |
 
 ## Source Code
 

@@ -41,7 +41,7 @@ tags:
 | `BankControlKey` | `bkont` |
 | `_Bank` | *Association* |
 | `_Country` | *Association* |
-| `_Supplier.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_Supplier.AuthorizationGroup` |
 | `_Supplier` | *Association* |
 | `_BankAccount` | *Association* |
 

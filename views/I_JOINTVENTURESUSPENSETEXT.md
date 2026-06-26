@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `jv_suspense_status_cds preserving type)` | `cast (left(domvalue_l, 1)` |
+| `JntVntrSuspenseStatus` | `cast (left(domvalue_l, 1) as jv_suspense_status_cds preserving type)` |
 | `Language` | `ddlanguage` |
-| `jv_suspsts_text_cds preserving type )` | `cast( ddtext` |
+| `JntVntrSuspenseStatusText` | `cast( ddtext as jv_suspsts_text_cds preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

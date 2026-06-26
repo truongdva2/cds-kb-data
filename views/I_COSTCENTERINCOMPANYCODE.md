@@ -34,43 +34,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_CostCenter.CompanyCode` | `I_CostCenter.CompanyCode` |
-| `key I_CostCenter.CostCenter` | `I_CostCenter.CostCenter` |
-| `key I_CostCenter.ValidityEndDate` | `I_CostCenter.ValidityEndDate` |
-| `I_CostCenter.ValidityStartDate` | `I_CostCenter.ValidityStartDate` |
-| `cast(` | `cast(` |
-| `case length( I_CostCenter.CompanyCode )` | `case length( I_CostCenter.CompanyCode )` |
-| `when 1 then   concat( I_SAPClient.LogicalSystem` | `when 1 then   concat( I_SAPClient.LogicalSystem` |
-| `concat(':'` | `concat(':'` |
-| `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 3 ) ,  I_CostCenter.CostCenter ) ) )` | `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 3 ) ,  I_CostCenter.CostCenter ) ) )` |
-| `when 2 then   concat( I_SAPClient.LogicalSystem` | `when 2 then   concat( I_SAPClient.LogicalSystem` |
-| `concat(':'` | `concat(':'` |
-| `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 2 ) ,  I_CostCenter.CostCenter ) ) )` | `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 2 ) ,  I_CostCenter.CostCenter ) ) )` |
-| `when 3 then   concat( I_SAPClient.LogicalSystem` | `when 3 then   concat( I_SAPClient.LogicalSystem` |
-| `concat(':'` | `concat(':'` |
-| `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 1 ) ,  I_CostCenter.CostCenter ) ) )` | `concat( concat_with_space(I_CostCenter.CompanyCode, ':', 1 ) ,  I_CostCenter.CostCenter ) ) )` |
-| `when 4 then   concat( I_SAPClient.LogicalSystem` | `when 4 then   concat( I_SAPClient.LogicalSystem` |
-| `concat(':'` | `concat(':'` |
-| `concat( concat(I_CostCenter.CompanyCode, ':' ) ,  I_CostCenter.CostCenter ) ) )` | `concat( concat(I_CostCenter.CompanyCode, ':' ) ,  I_CostCenter.CostCenter ) ) )` |
-| `fis_costcenter_oid )` | `end` |
-| `I_CostCenter.ControllingArea` | `I_CostCenter.ControllingArea` |
-| `I_CostCenter.IsBlkdForPrimaryCostsPosting` | `I_CostCenter.IsBlkdForPrimaryCostsPosting` |
-| `I_CostCenter.IsBlockedForPlanPrimaryCosts` | `I_CostCenter.IsBlockedForPlanPrimaryCosts` |
-| `I_CostCenter.CostCenterCategory` | `I_CostCenter.CostCenterCategory` |
-| `I_CostCenter.CostCtrResponsibleUser` | `I_CostCenter.CostCtrResponsibleUser` |
-| `I_CostCenter.CostCenterCreationDate` | `I_CostCenter.CostCenterCreationDate` |
-| `I_CostCenter.CostCenterCreatedByUser` | `I_CostCenter.CostCenterCreatedByUser` |
-| `I_CostCenter.IsBlkdForSecondaryCostsPosting` | `I_CostCenter.IsBlkdForSecondaryCostsPosting` |
-| `I_CostCenter.IsBlockedForRevenuePosting` | `I_CostCenter.IsBlockedForRevenuePosting` |
-| `I_CostCenter.IsBlockedForCommitmentPosting` | `I_CostCenter.IsBlockedForCommitmentPosting` |
-| `I_CostCenter.IsBlockedForPlanSecondaryCosts` | `I_CostCenter.IsBlockedForPlanSecondaryCosts` |
-| `I_CostCenter.IsBlockedForPlanRevenues` | `I_CostCenter.IsBlockedForPlanRevenues` |
-| `/* Associations */` | `/* Associations */` |
-| `I_CostCenter._CompanyCode` | `I_CostCenter._CompanyCode` |
-| `I_CostCenter._ControllingArea` | `I_CostCenter._ControllingArea` |
-| `I_CostCenter._CostCenterCategory` | `I_CostCenter._CostCenterCategory` |
-| `I_CostCenter._UserCrtedContactCard` | `I_CostCenter._UserCrtedContactCard` |
-| `I_CostCenter._UserRespContactCard` | `I_CostCenter._UserRespContactCard` |
+| `CompanyCode` | `I_CostCenter.CompanyCode` |
+| `CostCenter` | `I_CostCenter.CostCenter` |
+| `ValidityEndDate` | `I_CostCenter.ValidityEndDate` |
+| `ValidityStartDate` | `I_CostCenter.ValidityStartDate` |
+| `CostCenterOID` | `cast(…)` |
+| `ControllingArea` | `I_CostCenter.ControllingArea` |
+| `IsBlkdForPrimaryCostsPosting` | `I_CostCenter.IsBlkdForPrimaryCostsPosting` |
+| `IsBlockedForPlanPrimaryCosts` | `I_CostCenter.IsBlockedForPlanPrimaryCosts` |
+| `CostCenterCategory` | `I_CostCenter.CostCenterCategory` |
+| `CostCtrResponsibleUser` | `I_CostCenter.CostCtrResponsibleUser` |
+| `CostCenterCreationDate` | `I_CostCenter.CostCenterCreationDate` |
+| `CostCenterCreatedByUser` | `I_CostCenter.CostCenterCreatedByUser` |
+| `IsBlkdForSecondaryCostsPosting` | `I_CostCenter.IsBlkdForSecondaryCostsPosting` |
+| `IsBlockedForRevenuePosting` | `I_CostCenter.IsBlockedForRevenuePosting` |
+| `IsBlockedForCommitmentPosting` | `I_CostCenter.IsBlockedForCommitmentPosting` |
+| `IsBlockedForPlanSecondaryCosts` | `I_CostCenter.IsBlockedForPlanSecondaryCosts` |
+| `IsBlockedForPlanRevenues` | `I_CostCenter.IsBlockedForPlanRevenues` |
+| `_CompanyCode` | *Association* |
+| `_ControllingArea` | *Association* |
+| `_CostCenterCategory` | *Association* |
+| `_UserCrtedContactCard` | *Association* |
+| `_UserRespContactCard` | *Association* |
 
 ## Associations
 

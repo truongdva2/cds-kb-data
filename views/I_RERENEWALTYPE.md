@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `retmrntype )` | `cast( dd07l.domvalue_l` |
+| `RERenewalType` | `cast( dd07l.domvalue_l as retmrntype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RERenewalTypeText` | [0..*] |
 
 ## Source Code
 

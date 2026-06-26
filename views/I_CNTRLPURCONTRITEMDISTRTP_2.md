@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
-| `key DistributionKey` | `DistributionKey` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContractItem` | `CentralPurchaseContractItem` |
+| `DistributionKey` | `DistributionKey` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -85,10 +85,6 @@ tags:
 | `ProcmtHubCityName` | `ProcmtHubCityName` |
 | `ProcmtHubCountry` | `ProcmtHubCountry` |
 | `ProcmtHubRegion` | `ProcmtHubRegion` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurchaseContractItem : redirected to parent I_CntrlPurchaseContractItmTP_2` | *Association* |
-| `_CntrlPurContract          : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
-| `_CntrlPurContrItemPartner  : redirected to composition child I_CntrlPurContrItmDistPartTP_2` | *Association* |
 
 ## Associations
 

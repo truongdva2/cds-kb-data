@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `val_zero )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `CndnValueZeroProcgCode` | `cast ( substring( domvalue_l, 1, 1 ) as val_zero )` |
+| `CndnValZeroProcessingCodeText` | `cast ( ddtext as val_text )` |
 | `_CndnValueZeroProcessingCode` | *Association* |
 | `_Language` | *Association* |
 

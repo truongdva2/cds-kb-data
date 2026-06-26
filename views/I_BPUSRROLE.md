@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key BusinessPartnerRole` | `BusinessPartnerRole` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BusinessPartnerRole` | `BusinessPartnerRole` |
 | `BusinessPartnerRoleCategory` | `BusinessPartnerRoleCategory` |
 | `ValidFrom` | `ValidFrom` |
 | `ValidTo` | `ValidTo` |

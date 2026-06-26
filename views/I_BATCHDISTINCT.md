@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Material` | `Material` |
-| `key Batch` | `Batch` |
+| `Plant` | `Plant` |
+| `Material` | `Material` |
+| `Batch` | `Batch` |
 | `BatchIsMarkedForDeletion` | `BatchIsMarkedForDeletion` |
 | `MatlBatchIsInRstrcdUseStock` | `MatlBatchIsInRstrcdUseStock` |
 | `Supplier` | `Supplier` |

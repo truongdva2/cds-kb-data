@@ -30,10 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
+| `Language` | `spras` |
+| `ProductLogisticsHandlingGroup` | `loggr` |
 | `Name` | `ltext` |
 | `_Language` | *Association* |
 

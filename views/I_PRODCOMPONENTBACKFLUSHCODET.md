@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `ProductComponentBackflushCode` | `cast ( domvalue_l as rgekm )` |
+| `Name` | `cast ( ddtext as val_text )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key InspectionPlan` | `InspectionPlan` |
-| `key InspPlanMatlAssignment` | `InspPlanMatlAssignment` |
-| `key InspPlanMatlAssgmtIntVersion` | `InspPlanMatlAssgmtIntVersion` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `InspectionPlan` | `InspectionPlan` |
+| `InspPlanMatlAssignment` | `InspPlanMatlAssignment` |
+| `InspPlanMatlAssgmtIntVersion` | `InspPlanMatlAssgmtIntVersion` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ChangeNumber` | `ChangeNumber` |
@@ -52,8 +52,6 @@ tags:
 | `ChangedDateTime` | `ChangedDateTime` |
 | `_Customer` | *Association* |
 | `_Supplier` | *Association* |
-| `_InspPlan : redirected to parent I_InspectionPlanTP_2` | *Association* |
-| `_InspectionPlanVersion : redirected to I_InspectionPlanVersionTP_2` | *Association* |
 
 ## Associations
 

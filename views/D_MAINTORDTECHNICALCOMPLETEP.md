@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MainWrkCmpltdDateTimeIsUsed    : abap_boolean;` | `MainWrkCmpltdDateTimeIsUsed    : abap_boolean;` |
-| `MaintOrderReferenceDateTime    : timestamp;` | `MaintOrderReferenceDateTime    : timestamp;` |
-| `AssignedMaintNotifIsToBeClosed : abap_boolean;` | `AssignedMaintNotifIsToBeClosed : abap_boolean;` |
+| `MainWrkCmpltdDateTimeIsUsed` | `abap_boolean` |
+| `MaintOrderReferenceDateTime` | `timestamp` |
+| `AssignedMaintNotifIsToBeClosed` | `abap_boolean` |
 
 ## Associations
 

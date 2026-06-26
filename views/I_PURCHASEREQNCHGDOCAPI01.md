@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeDocObject` | `ChangeDocObject` |
-| `key ChangeDocObjectClass` | `ChangeDocObjectClass` |
-| `key ChangeDocument` | `ChangeDocument` |
+| `ChangeDocObject` | `ChangeDocObject` |
+| `ChangeDocObjectClass` | `ChangeDocObjectClass` |
+| `ChangeDocument` | `ChangeDocument` |
 | `CreatedByUser` | `CreatedByUser` |
 | `FullName` | `FullName` |
 | `FirstName` | `FirstName` |

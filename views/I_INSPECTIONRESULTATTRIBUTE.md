@@ -30,14 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qattributeisvalid preserving type )` | `' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `when '~' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `when '#' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `when 'U' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `when 'V' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `when 'W' then cast( 'X'` |
-| `vdm_qattributeisvalid preserving type )` | `else cast( ' '` |
-| `InspResultAttributeIsValid` | `end` |
+| `InspectionResultAttribute` | `tq77.attribut` |
+| `InspResultAttributeSortNmbr` | `tq77.sortnr` |
+| `InspResultAttributeIsValid` | `case…end` |
 | `_Text` | *Association* |
 
 ## Associations

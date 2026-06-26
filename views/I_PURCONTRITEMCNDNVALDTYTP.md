@@ -32,19 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionIsDeleted` | `ConditionIsDeleted` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ContractItem           : redirected to parent I_PurchaseContractItemTP` | *Association* |
-| `_PurContract            : redirected to I_PurchaseContractTP` | *Association* |
-| `_PurContrItemCndnAmount : redirected to composition child I_PurContrItemCndnAmountTP` | *Association* |
 
 ## Associations
 

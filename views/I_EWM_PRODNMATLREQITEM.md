@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       EWMProductionMaterialRequest` | `EWMProductionMaterialRequest` |
-| `key       EWMProductionMaterialReqItem` | `EWMProductionMaterialReqItem` |
+| `EWMProductionMaterialRequest` | `EWMProductionMaterialRequest` |
+| `EWMProductionMaterialReqItem` | `EWMProductionMaterialReqItem` |
 | `EWMProductionMaterialReqUUID` | `EWMProductionMaterialReqUUID` |
 | `EWMProductionMatlReqItemUUID` | `EWMProductionMatlReqItemUUID` |
-| `EWMWarehouse` | `EWMWarehouse` |
 | `EWMProdnMatlReqDocCategory` | `EWMProdnMatlReqDocCategory` |
 | `EWMProdnMatlReqItemCategory` | `EWMProdnMatlReqItemCategory` |
 | `EWMProductionMatlReqItemType` | `EWMProductionMatlReqItemType` |
@@ -43,8 +42,7 @@ tags:
 | `EWMProdnMatlReqCreatedByUser` | `EWMProdnMatlReqCreatedByUser` |
 | `EWMDelivLastChangeUTCDateTime` | `EWMDelivLastChangeUTCDateTime` |
 | `EWMProdnMatlReqLastChgdByUser` | `EWMProdnMatlReqLastChgdByUser` |
-| `_PlndCompRqmtStrtUTCDateTime.DeliveryRelatedStartDateTime                     as EWMPlndCompRqmtStrtUTCDateTime` | *Association* |
-| `Product` | `Product` |
+| `EWMPlndCompRqmtStrtUTCDateTime` | `_PlndCompRqmtStrtUTCDateTime.DeliveryRelatedStartDateTime` |
 | `ProductUUID` | `ProductUUID` |
 | `Batch` | `Batch` |
 | `ProductQuantity` | `ProductQuantity` |
@@ -52,17 +50,16 @@ tags:
 | `EWMStockUsage` | `EWMStockUsage` |
 | `EWMStockType` | `EWMStockType` |
 | `EntitledToDisposeParty` | `EntitledToDisposeParty` |
-| `_Entitled.BusinessPartnerName                                                 as EntitledToDisposePartyName` | *Association* |
+| `EntitledToDisposePartyName` | `_Entitled.BusinessPartnerName` |
 | `EWMStockOwner` | `EWMStockOwner` |
-| `_StockOwner.BusinessPartnerName                                               as EWMStockOwnerName` | *Association* |
-| `StockDocumentCategory` | `StockDocumentCategory` |
+| `EWMStockOwnerName` | `_StockOwner.BusinessPartnerName` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
 | `SpecialStockIdfgSalesOrder` | `SpecialStockIdfgSalesOrder` |
 | `SpecialStockIdfgSalesOrderItem` | `SpecialStockIdfgSalesOrderItem` |
-| `manufacturingorder )` | `cast( _ManufacturingOrder.EWMWhseReqRefDocumentNumber` |
-| `rsnum )` | `cast( ltrim( _Reservation.EWMWhseReqRefDocumentNumber, '0' )` |
-| `pph_rspos )` | `cast( ltrim( _Reservation.EWMWhseRequestRefDocumentItem, '0' )` |
+| `ManufacturingOrder` | `expr(…)` |
+| `Reservation` | `cast( ltrim( _Reservation.EWMWhseReqRefDocumentNumber, '0' ) as rsnum )` |
+| `ReservationItem` | `cast( ltrim( _Reservation.EWMWhseRequestRefDocumentItem, '0' ) as pph_rspos )` |
 | `ReservationType` | `ReservationType` |
 | `WarehouseProcessType` | `WarehouseProcessType` |
 | `EWMMovementControl` | `EWMMovementControl` |
@@ -76,7 +73,6 @@ tags:
 | `OperationDescription` | `OperationDescription` |
 | `WorkCenter` | `WorkCenter` |
 | `EWMProdnMatlReqItemIsDeleted` | `EWMProdnMatlReqItemIsDeleted` |
-| `GoodsIssueStatus` | `GoodsIssueStatus` |
 | `CompletionStatus` | `CompletionStatus` |
 | `EWMPlannedStagingStatus` | `EWMPlannedStagingStatus` |
 | `EWMStagingStatus` | `EWMStagingStatus` |
@@ -85,7 +81,6 @@ tags:
 | `EWMStagingLockStatus` | `EWMStagingLockStatus` |
 | `EWMItmInconsistencyBlockStatus` | `EWMItmInconsistencyBlockStatus` |
 | `OverallBlockStatus` | `OverallBlockStatus` |
-| `_Entitled` | *Association* |
 | `_StockOwner` | *Association* |
 | `_ManufacturingOrder` | *Association* |
 | `_Reservation` | *Association* |

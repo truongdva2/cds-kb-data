@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ParentChangeRecordUUID` | `ParentChangeRecordUUID` |
-| `key ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ParentChangeRecordUUID` | `ParentChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 
 ## Associations
 

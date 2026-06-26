@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `co_sobkz_d )` | `cast ( domvalue_l` |
+| `MaintOrdOpCompSpecialStockType` | `cast ( domvalue_l as co_sobkz_d )` |
 | `_Text` | *Association* |
 
 ## Associations

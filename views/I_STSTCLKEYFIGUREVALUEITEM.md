@@ -34,13 +34,13 @@ tags:
 | `ControllingArea` | `kokrs` |
 | `AccountingDocument` | `belnr` |
 | `AccountingDocumentItem` | `buzei` |
-| `fins_fiscalperiod preserving type )` | `cast(perio` |
-| `quan1_12)` | `cast(smebtr` |
-| `fis_ui_seinh preserving type )` | `cast(meinh` |
-| `sgtxt preserving type )` | `cast(sgtxt` |
+| `FiscalPeriod` | `cast(perio as fins_fiscalperiod preserving type )` |
+| `StatisticalKeyFigureQuantity` | `cast(smebtr as quan1_12)` |
+| `StstcKeyFigQuantityUnit` | `cast(meinh as fis_ui_seinh preserving type )` |
+| `DocumentItemText` | `cast(sgtxt as sgtxt preserving type )` |
 | `ControllingObject` | `objnr` |
 | `FiscalYear` | `gjahr` |
-| `fis_stagr preserving type )` | `cast(stagr` |
+| `StatisticalKeyFigure` | `cast(stagr as fis_stagr preserving type )` |
 | `ControllingBusTransacType` | `vrgng` |
 | `PersonnelNumber` | `pernr` |
 | `PartnerFunctionalArea` | `fkber` |
@@ -54,11 +54,11 @@ tags:
 | `ControllingDocumentHeaderText` | `bltxt` |
 | `IsReversalDocument` | `stflg` |
 | `IsReversed` | `stokz` |
-| `reversedreferencedocument preserving type )` | `cast(refbn` |
-| `fin_currconvdat preserving type )` | `cast(wsdat` |
+| `ReversedReferenceDocument` | `cast(refbn as reversedreferencedocument preserving type )` |
+| `ExchangeRateDate` | `cast(wsdat as fin_currconvdat preserving type )` |
 | `ExchangeRateType` | `kurst` |
 | `ControllingAreaCurrency` | `kwaer` |
-| `fis_awtyp preserving type )` | `cast(awtyp` |
+| `ReferenceDocumentType` | `cast(awtyp as fis_awtyp preserving type )` |
 | `SettlementReferenceDate` | `dabrz` |
 | `_ControllingArea` | *Association* |
 | `_StstcKeyFigQuantityUnit` | *Association* |

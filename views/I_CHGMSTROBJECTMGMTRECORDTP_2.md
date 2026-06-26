@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ChangeNumber` | `ChangeNumber` |
-| `key  SAPObjectType` | `SAPObjectType` |
-| `key  SAPObjectTechnicalID` | `SAPObjectTechnicalID` |
+| `ChangeNumber` | `ChangeNumber` |
+| `SAPObjectType` | `SAPObjectType` |
+| `SAPObjectTechnicalID` | `SAPObjectTechnicalID` |
 | `SAPObjectReadableID` | `SAPObjectReadableID` |
 | `ObjMgmtRecdObject` | `ObjMgmtRecdObject` |
 | `ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
@@ -52,8 +52,6 @@ tags:
 | `ChangeNumberObjectType` | `ChangeNumberObjectType` |
 | `ChgNmbrAlternativeDateCounter` | `ChgNmbrAlternativeDateCounter` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `_ChangeMaster        : redirected to parent I_ChangeMasterTP_2` | *Association* |
-| `_ChangeMasterAltDate : redirected to I_ChangeMasterAltDateTP_2` | *Association* |
 
 ## Associations
 

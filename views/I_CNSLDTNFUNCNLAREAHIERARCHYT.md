@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_functionalareahierarchy preserving type )` | `cast(_HierarchyText.CnsldtnUniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `_HierarchyText.UniversalHierarchyText                                                            as FunctionalAreaHierarchyName` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnFunctionalAreaHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `FunctionalAreaHierarchyName` | `_HierarchyText.UniversalHierarchyText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

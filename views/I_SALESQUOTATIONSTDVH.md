@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotation` | `SalesQuotation` |
+| `SalesQuotation` | `SalesQuotation` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
 | `SalesOrganization` | `SalesOrganization` |

@@ -33,11 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `BillOfMaterial` | `stlnr` |
+| `BillOfMaterialVariant` | `stlal` |
+| `Material` | `matnr` |
 | `Plant` | `werks` |
 | `BillOfMaterialVariantUsage` | `stlan` |
-| `stlty preserving type)` | `cast ('M'` |
+| `BillOfMaterialCategory` | `cast ('M' as stlty preserving type)` |
 | `MatFromLotSizeQuantity` | `losvn` |
 | `MaterialToLotSizeQuantity` | `losbs` |
 | `IsConfiguredMaterial` | `cslty` |

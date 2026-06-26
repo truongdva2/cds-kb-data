@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_trl_trans preserving type)` | `cast(transaction_oid` |
+| `TreasuryLedgerTransaction` | `cast(transaction_oid as ftr_gen_trl_trans preserving type)` |
 | `TreasuryLedgerFlow` | `trlflownumber` |
 | `TreasuryTransactionFlow` | `flownumber` |
 | `TrsyPosTransfSourceTargetCode` | `sourcetarget_flg` |
@@ -39,7 +39,7 @@ tags:
 | `TreasuryPositionTransferFactor` | `amount_factor` |
 | `TrsyPosQuantityChangeCategory` | `quant_cat` |
 | `TrsyPosAmountChangeCategory` | `amount_cat` |
-| `ftr_gen_quantity_in_units_l)` | `cast(units` |
+| `QuantityInPieces` | `cast(units as ftr_gen_quantity_in_units_l)` |
 | `NominalAmountInNominalCurrency` | `nominal_amt` |
 | `OriglNominalAmtInNominalCrcy` | `nominal_org_amt` |
 | `NominalCurrency` | `nominal_curr` |
@@ -58,7 +58,7 @@ tags:
 | `NextEffectiveInterestRate` | `eff_int_rate_n` |
 | `FixedRedemptionSchedule` | `sched_fix` |
 | `CalculationBasis` | `bbasis` |
-| `ftr_gen_position_uuid)` | `cast(position_oid` |
+| `TreasuryPosition` | `cast(position_oid as ftr_gen_position_uuid)` |
 | `TreasuryPositionLedgerDate` | `trldate` |
 | `TrsySubPosition` | `subposition_oid` |
 | `_PositionIdentifier` | *Association* |

@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `OutputScenario : ehdgm_output_scenario;  // Output scenario (mandatory)` | `OutputScenario : ehdgm_output_scenario;  // Output scenario (mandatory)` |
-| `CompanyCode    : bukrs;                  // Company Code` | `CompanyCode    : bukrs;                  // Company Code` |
-| `_Items         : composition [0..*] of D_PCLgsDcGetDaGdsDocInfoItemP; // ttyp  List of item IDs (optional)` | *Association* |
+| `OutputScenario` | `ehdgm_output_scenario` |
+| `CompanyCode` | `bukrs` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_PCLgsDcGetDaGdsDocInfoItemP` | [0..*] |
 
 ## Source Code
 

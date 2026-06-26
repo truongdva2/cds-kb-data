@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspAgrmtOrganizationUUID` | `TranspAgrmtOrganizationUUID` |
+| `TranspAgrmtOrganizationUUID` | `TranspAgrmtOrganizationUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TranspPurgOrgExtID` | `TranspPurgOrgExtID` |
-| `FreightAgreementOrganization._FreightAgreement : redirected to parent I_FreightAgreementTP` | `FreightAgreementOrganization._FreightAgreement : redirected to parent I_FreightAgreementTP` |
 
 ## Associations
 

@@ -30,7 +30,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceContractType` | `ServiceContractType` |
+| `ServiceContractDescription` | `ServiceContractDescription` |
+| `ServiceContractItemProduct` | `ServiceContractItemProduct` |
+| `ServiceContractItemStartDate` | `ServiceContractItemStartDate` |
+| `ServiceContractItemEndDate` | `ServiceContractItemEndDate` |
+| `SrvcContrStartMonth` | `_StartingPeriod.CalendarMonth` |
+| `SrvcContrStartQuarter` | `_StartingPeriod.CalendarQuarter` |
+| `SrvcContrStartYear` | `_StartingPeriod.CalendarYear` |
+| `SrvcContrEndMonth` | `_ExpiringPeriod.CalendarMonth` |
+| `SrvcContrEndQuarter` | `_ExpiringPeriod.CalendarQuarter` |
+| `SrvcContrEndYear` | `_ExpiringPeriod.CalendarYear` |
+| `ServiceDocItemCreationDate` | `ServiceDocItemCreationDate` |
+| `PostingDate` | `PostingDate` |
+| `ServiceContractItemStatus` | `ServiceContractItemStatus` |
+| `ServiceContractItemCanclnParty` | `ServiceContractItemCanclnParty` |
+| `ServiceContractItmCanclnReason` | `ServiceContractItmCanclnReason` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ControllingArea` | `ControllingArea` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `SoldToParty` | `SoldToParty` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `SoldToPartyCountry` | `SoldToPartyCountry` |
+| `SoldToPartyRegion` | `SoldToPartyRegion` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `DisplayCurrency` | `$parameters.P_DisplayCurrency` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceContractItemNetAmount` | `ServiceContractItemNetAmount` |
+| `NmbrOfServiceContractItems` | `NmbrOfServiceContractItems` |
+| `ExprdSrvcContrItemNetAmount` | `ExprdSrvcContrItemNetAmount` |
+| `ExprgSrvcContrItemNetAmount` | `ExprgSrvcContrItemNetAmount` |
+| `NrOfExprgServiceContractItems` | `NrOfExprgServiceContractItems` |
+| `CancldSrvcContrItemNetAmount` | `CancldSrvcContrItemNetAmount` |
+| `NrOfCancldServiceContractItems` | `NrOfCancldServiceContractItems` |
+| `SrvcContrItemLostNetAmount` | `SrvcContrItemLostNetAmount` |
 | `ReldServiceContractNetAmount` | `ReldServiceContractNetAmount` |
 | `NrOfReldServiceContractItems` | `NrOfReldServiceContractItems` |
 | `_ServiceDocument` | *Association* |
@@ -54,9 +96,9 @@ tags:
 | `_SalesOffice` | *Association* |
 | `_SalesGroup` | *Association* |
 | `_StartingPeriod` | *Association* |
-| `_StartingPeriod._CalendarMonth  as _StartingCalendarMonth` | *Association* |
+| `_StartingCalendarMonth` | *Association* |
 | `_ExpiringPeriod` | *Association* |
-| `_ExpiringPeriod._CalendarMonth  as _ExpiringCalendarMonth` | *Association* |
+| `_ExpiringCalendarMonth` | *Association* |
 | `_TransactionCurrency` | *Association* |
 
 ## Associations

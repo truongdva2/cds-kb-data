@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prefe)` | `cast(domvalue_l` |
+| `CustomsPreference` | `cast(domvalue_l as prefe)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `knega )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgConditionAmountSign` | `cast ( substring( domvalue_l, 1, 1 ) as knega )` |
 | `_Text` | *Association* |
 
 ## Associations

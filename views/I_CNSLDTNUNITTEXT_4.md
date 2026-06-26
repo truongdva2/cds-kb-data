@@ -31,13 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ranking: #MEDIUM` | `ranking: #MEDIUM` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_consolidationunittext preserving type )` | `cast(_fincs_bunitt.txtsh` |
-| `fincs_medium_text_30 preserving type )` | `cast(_fincs_bunitt.txtmi` |
-| `fincs_consunitlongtext preserving type )` | `cast(_fincs_bunitt.txtlg` |
-| `_Language, // required for value help retrieval` | *Association* |
+| `Language` | `_fincs_bunitt.langu` |
+| `ConsolidationUnit` | `cast(_fincs_bunitt.bunit as fincs_consolidationunit preserving type )` |
+| `ConsolidationUnitText` | `cast(_fincs_bunitt.txtsh as fincs_consolidationunittext preserving type )` |
+| `ConsolidationUnitMdmText` | `cast(_fincs_bunitt.txtmi as fincs_medium_text_30 preserving type )` |
+| `ConsolidationUnitLongText` | `cast(_fincs_bunitt.txtlg as fincs_consunitlongtext preserving type )` |
+| `_Language` | *Association* |
 | `_CnsldtnUnit` | *Association* |
 
 ## Associations

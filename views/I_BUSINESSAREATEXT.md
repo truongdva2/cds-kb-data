@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `BusinessArea` | `gsber` |
 | `Language` | `spras` |
-| `fis_gtext_vdm preserving type)` | `cast( gtext` |
+| `BusinessAreaName` | `cast( gtext as fis_gtext_vdm preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

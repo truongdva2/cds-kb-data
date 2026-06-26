@@ -31,16 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesPlanUUID` | `SalesPlanUUID` |
+| `SalesPlanUUID` | `SalesPlanUUID` |
 | `SalesPlan` | `SalesPlan` |
 | `SalesPlanDescription` | `SalesPlanDescription` |
 | `SalesPlanVersion` | `SalesPlanVersion` |
 | `SalesPlanVersionDescription` | `SalesPlanVersionDescription` |
 | `CreatedByUser` | `CreatedByUser` |
-| `sp_username preserving type )` | `cast( _CreatedByUser.UserDescription` |
-| `_SalesPlanStatus._Text[1: Language=$session.system_language].SalesPlanStatusDesc  as SalesPlanStatus` | *Association* |
-| `_SalesPlanPurposeText[1: Language=$session.system_language].SalesPlanPurposeDesc  as SalesPlanPurpose` | *Association* |
-| `_SalesPlanPeriodTypeText[1: Language=$session.system_language].SalesPlanPeriodTypeName  as SalesPlanPeriodTypeName` | *Association* |
+| `UserDescription` | `cast( _CreatedByUser.UserDescription as sp_username preserving type )` |
+| `SalesPlanStatus` | `_SalesPlanStatus._Text[1: Language=$session.system_language].SalesPlanStatusDesc` |
+| `SalesPlanPurpose` | `_SalesPlanPurposeText[1: Language=$session.system_language].SalesPlanPurposeDesc` |
+| `SalesPlanPeriodTypeName` | `expr(…)` |
 | `SalesPlanFrom` | `SalesPlanFrom` |
 | `SalesPlanTo` | `SalesPlanTo` |
 | `SalesPlanCurrency` | `SalesPlanCurrency` |

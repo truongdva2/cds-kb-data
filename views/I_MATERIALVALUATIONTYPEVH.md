@@ -36,7 +36,7 @@ tags:
 | `InventoryValuationType` | `vb.BWTAR` |
 | `Plant` | `vb.BWKEY` |
 | `InventoryValuationCategory` | `vb.BWTTY` |
-| `_InventoryValCategoryText.InventoryValuationCategoryName as InventoryValuationCategoryName` | *Association* |
+| `InventoryValuationCategoryName` | `_InventoryValCategoryText.InventoryValuationCategoryName` |
 | `ValuationArea` | `vb.BWKEY` |
 | `_Plant` | *Association* |
 

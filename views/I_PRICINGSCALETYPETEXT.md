@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `stfkz )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_scale_type_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PricingScaleType` | `cast ( substring( domvalue_l, 1, 1 ) as stfkz )` |
+| `PricingScaleTypeName` | `cast ( ddtext as price_element_scale_type_descr )` |
 | `_PricingScaleType` | *Association* |
 | `_Language` | *Association* |
 

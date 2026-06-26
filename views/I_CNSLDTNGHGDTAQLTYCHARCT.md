@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGDtaQltyCharcVH'` | `name: 'I_CnsldtnGHGDtaQltyCharcVH'` |
-| `element: 'GHGDataQualityCharacteristic'` | `element: 'GHGDataQualityCharacteristic'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgdtaqltycharc preserving type )` | `cast( _Source.GHGDataQualityCharacteristic` |
-| `fincs_ghgdtaqltycharcname preserving type )` | `cast( _Source.GHGDtaQltyCharacteristicName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GHGDataQualityCharacteristic` | `cast(…)` |
+| `GHGDtaQltyCharacteristicName` | `cast(…)` |
 | `_Language` | *Association* |
 | `_GHGDataQualityCharacteristic` | *Association* |
 

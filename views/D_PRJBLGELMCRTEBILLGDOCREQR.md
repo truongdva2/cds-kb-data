@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingDocumentRequest        : vbeln;` | `BillingDocumentRequest        : vbeln;` |
-| `ProjectBillingRequest         : bdr_ref;` | `ProjectBillingRequest         : bdr_ref;` |
-| `ProjBillgElmntEntrItmFlowUUID : pbee_uuid;` | `ProjBillgElmntEntrItmFlowUUID : pbee_uuid;` |
+| `BillingDocumentRequest` | `vbeln` |
+| `ProjectBillingRequest` | `bdr_ref` |
+| `ProjBillgElmntEntrItmFlowUUID` | `pbee_uuid` |
 
 ## Associations
 

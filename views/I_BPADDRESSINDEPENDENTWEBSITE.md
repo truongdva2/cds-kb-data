@@ -32,26 +32,25 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `_BusinessPartner.BusinessPartner` |
-| `key I_AddressURI.AddressID` | `I_AddressURI.AddressID` |
+| `AddressID` | `I_AddressURI.AddressID` |
 | `Person` | `I_AddressURI.AddressPersonID` |
 | `OrdinalNumber` | `I_AddressURI.CommMediumSequenceNumber` |
-| `abap.dats)` | `cast ( '00010101'` |
+| `ValidityStartDate` | `cast ( '00010101' as abap.dats)` |
 | `IsDefaultURLAddress` | `I_AddressURI.URLIsCurrentDefault` |
-| `ad_flnouse )` | `cast ( ''` |
+| `CommNumberIsNotUsed` | `cast ( '' as ad_flnouse )` |
 | `UniformResourceIdentifierType` | `I_AddressURI.AddressManagementURIType` |
-| `ad_uri2 )` | `cast ( ''` |
-| `abap.int4 )` | `cast ('00000'` |
+| `SearchURLAddress` | `cast ( '' as ad_uri2 )` |
+| `URLFieldLength` | `cast ('00000' as abap.int4 )` |
 | `WebsiteURL` | `I_AddressURI.UniformResourceIdentifier` |
 | `_BusinessPartner` | *Association* |
-| `I_AddressURI._AddressCommunicationRemark` | `I_AddressURI._AddressCommunicationRemark` |
-| `I_AddressURI._AddressManagementURIType` | `I_AddressURI._AddressManagementURIType` |
+| `_AddressCommunicationRemark` | *Association* |
+| `_AddressManagementURIType` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_BusinessPartner` | `I_BusinessPartner` | [1..1] |
-| `_BPDataControllerUsage` | `I_BPDataControllerUsage` | [0..*] |
 
 ## Source Code
 

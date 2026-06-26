@@ -33,13 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key StockTransportOrder` | `StockTransportOrder` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `PlainLongText` | `PlainLongText` |
-| `/* Composition */` | `/* Composition */` |
-| `_StockTransportOrder : redirected to parent I_StockTransportOrderTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -29,15 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key afrh.ConfirmationApplicationOrigin` | `afrh.ConfirmationApplicationOrigin` |
-| `key afrh.FailedOrderConfirmationGroup` | `afrh.FailedOrderConfirmationGroup` |
-| `afrh.FailedOrderConfirmationGrpText` | `afrh.FailedOrderConfirmationGrpText` |
-| `afrh.CreationDate` | `afrh.CreationDate` |
-| `afrh.CreatedByUser` | `afrh.CreatedByUser` |
-| `afrh.LastChangeDate` | `afrh.LastChangeDate` |
-| `afrh.LastChangedByUser` | `afrh.LastChangedByUser` |
-| `afrh.LastConfirmationDate` | `afrh.LastConfirmationDate` |
-| `afrh.LastConfirmedByUser` | `afrh.LastConfirmedByUser` |
+| `ConfirmationApplicationOrigin` | `afrh.ConfirmationApplicationOrigin` |
+| `FailedOrderConfirmationGroup` | `afrh.FailedOrderConfirmationGroup` |
+| `FailedOrderConfirmationGrpText` | `afrh.FailedOrderConfirmationGrpText` |
+| `CreationDate` | `afrh.CreationDate` |
+| `CreatedByUser` | `afrh.CreatedByUser` |
+| `LastChangeDate` | `afrh.LastChangeDate` |
+| `LastChangedByUser` | `afrh.LastChangedByUser` |
+| `LastConfirmationDate` | `-- afrh.LastConfirmationDate` |
+| `LastConfirmedByUser` | `-- afrh.LastConfirmedByUser` |
 | `_FailedOrderConfirmation` | *Association* |
 | `_ConfirmationApplOrigin` | *Association* |
 | `_CreatedByUser` | *Association* |

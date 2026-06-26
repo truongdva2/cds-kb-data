@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDateType` | `LglCntntMDateType` |
+| `LglCntntMDateType` | `LglCntntMDateType` |
 | `LglCntntMDateIsPeriod` | `LglCntntMDateIsPeriod` |
 | `_LglCntntMDateTypeText` | *Association* |
 

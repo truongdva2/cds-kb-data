@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_LedgerStdVH'` | `name:    'I_LedgerStdVH'` |
-| `element: 'Ledger' }` | `element: 'Ledger' }` |
-| `}]` | `}]` |
-| `fis_rldnr preserving type )` | `cast( finsc_ld_cmp.rldnr` |
-| `key I_FiscalYearPeriod.FiscalYear` | `I_FiscalYearPeriod.FiscalYear` |
-| `I_FiscalYearPeriod.FiscalYearVariant` | `I_FiscalYearPeriod.FiscalYearVariant` |
-| `I_FiscalYearPeriod.FiscalYearStartDate` | `I_FiscalYearPeriod.FiscalYearStartDate` |
-| `I_FiscalYearPeriod.FiscalYearEndDate` | `I_FiscalYearPeriod.FiscalYearEndDate` |
+| `CompanyCode` | `cast( finsc_ld_cmp.bukrs as fis_bukrs preserving type )` |
+| `Ledger` | `cast( finsc_ld_cmp.rldnr as fis_rldnr preserving type )` |
+| `FiscalYear` | `I_FiscalYearPeriod.FiscalYear` |
+| `FiscalYearVariant` | `I_FiscalYearPeriod.FiscalYearVariant` |
+| `FiscalYearStartDate` | `I_FiscalYearPeriod.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `I_FiscalYearPeriod.FiscalYearEndDate` |
 | `_FiscalYearVariant` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_Ledger` | *Association* |

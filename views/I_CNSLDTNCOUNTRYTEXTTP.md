@@ -33,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.Country` | `_Text.Country` |
-| `_Text.CountryName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Country as _Country : redirected to parent I_CnsldtnCountryTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `Country` | `_Text.Country` |
+| `CountryName` | `_Text.CountryName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Country` | *Association* |
 
 ## Associations
 

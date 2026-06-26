@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgReqCategory` | `billreqcat` |
 | `Language` | `langu` |
-| `billreqcat_txt_gfn_kk preserving type )` | `cast ( billreqcat_txt` |
+| `CABillgReqCategoryText` | `cast ( billreqcat_txt as billreqcat_txt_gfn_kk preserving type )` |
 | `_CABillgReqCategory` | *Association* |
 | `_Language` | *Association* |
 

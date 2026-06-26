@@ -33,43 +33,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true` | `text: true` |
-| `name.fullName: true` | `name.fullName: true` |
-| `}` | `}` |
-| `Partner.FullName` | `Partner.FullName` |
-| `Partner.ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
-| `Partner.AddressObjectType` | `Partner.AddressObjectType` |
-| `Partner.SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
-| `Partner.BPAddrDeterminationTransaction` | `Partner.BPAddrDeterminationTransaction` |
-| `Partner.BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
-| `Partner.SDDocPartnerAddrIsDocSpecific` | `Partner.SDDocPartnerAddrIsDocSpecific` |
-| `Partner.PartnerIsOneTimeAccount` | `Partner.PartnerIsOneTimeAccount` |
-| `Partner.VATRegistration` | `Partner.VATRegistration` |
-| `Partner.UnloadingPointName` | `Partner.UnloadingPointName` |
-| `Partner.CorrespondenceLanguage` | `Partner.CorrespondenceLanguage` |
-| `Partner.FormOfAddress` | `Partner.FormOfAddress` |
-| `Partner.InternationalPhoneNumber` | `Partner.InternationalPhoneNumber` |
-| `Partner.InternationalMobilePhoneNumber` | `Partner.InternationalMobilePhoneNumber` |
-| `Partner.InternationalFaxNumber` | `Partner.InternationalFaxNumber` |
-| `Partner.EmailAddress` | `Partner.EmailAddress` |
+| `SalesOrder` | `cast(Partner.SalesDocument as vdm_sales_order preserving type)` |
+| `PartnerFunction` | `Partner.PartnerFunction` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `Partner` | `Partner.Partner` |
+| `FullName` | `Partner.FullName` |
+| `ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
+| `AddressID` | `Partner.AddressID` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
+| `AddressObjectType` | `Partner.AddressObjectType` |
+| `SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
+| `BPAddrDeterminationTransaction` | `Partner.BPAddrDeterminationTransaction` |
+| `BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
+| `SDDocPartnerAddrIsDocSpecific` | `Partner.SDDocPartnerAddrIsDocSpecific` |
+| `PartnerIsOneTimeAccount` | `Partner.PartnerIsOneTimeAccount` |
+| `VATRegistration` | `Partner.VATRegistration` |
+| `UnloadingPointName` | `Partner.UnloadingPointName` |
+| `CorrespondenceLanguage` | `Partner.CorrespondenceLanguage` |
+| `FormOfAddress` | `Partner.FormOfAddress` |
+| `InternationalPhoneNumber` | `Partner.InternationalPhoneNumber` |
+| `InternationalMobilePhoneNumber` | `Partner.InternationalMobilePhoneNumber` |
+| `InternationalFaxNumber` | `Partner.InternationalFaxNumber` |
+| `EmailAddress` | `Partner.EmailAddress` |
 | `_SalesOrder` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._ContactPerson` | `Partner._ContactPerson` |
-| `Partner._WorkforcePersonMappings` | `Partner._WorkforcePersonMappings` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
-| `Partner._BusinessPartnerAddress` | `Partner._BusinessPartnerAddress` |
-| `Partner._BPRefAddressForDocSpcfcAddr` | `Partner._BPRefAddressForDocSpcfcAddr` |
-| `Partner._PersonAddress` | `Partner._PersonAddress` |
-| `Partner._PersonName` | `Partner._PersonName` |
-| `Partner._OrganizationAddress` | `Partner._OrganizationAddress` |
-| `Partner._OrgNamePostalAddress` | `Partner._OrgNamePostalAddress` |
+| `_PartnerFunction` | *Association* |
+| `_ContactPerson` | *Association* |
+| `_WorkforcePersonMappings` | *Association* |
+| `_Address` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
+| `_PersonAddress` | *Association* |
+| `_PersonName` | *Association* |
+| `_OrganizationAddress` | *Association* |
+| `_OrgNamePostalAddress` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesOrder` | `I_SalesOrder` | [1..1] |
 
 ## Source Code
 

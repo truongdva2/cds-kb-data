@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzbzg_long )` | `cast ( substring( domvalue_l, 1, 3 )` |
+| `PricingScaleBasis` | `cast ( substring( domvalue_l, 1, 3 ) as kzbzg_long )` |
 | `_Text` | *Association* |
 
 ## Associations

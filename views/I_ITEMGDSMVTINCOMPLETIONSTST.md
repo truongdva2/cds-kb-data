@@ -39,7 +39,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ItemGdsMvtIncompletionSts` | `I_ItemGdsMvtIncompletionSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

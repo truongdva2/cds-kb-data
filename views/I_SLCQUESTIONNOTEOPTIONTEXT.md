@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qst_notes)` | `cast( substring(  domvalue_l, 1, 1 )` |
+| `IsQuestionCommentEnabled` | `cast( substring( domvalue_l, 1, 1 ) as /srmsmc/qst_notes)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/type_descr preserving type)` | `cast(ddtext` |
+| `SLCQuestionCommentOptionName` | `cast(ddtext as /srmsmc/type_descr preserving type)` |
 | `_SLCQuestionNoteOption` | *Association* |
 | `_Language` | *Association* |
 

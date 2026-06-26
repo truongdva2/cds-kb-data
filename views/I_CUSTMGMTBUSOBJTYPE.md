@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
+| `BusinessObjectType` | `subobj_category` |
 | `_Text` | *Association* |
 
 ## Associations

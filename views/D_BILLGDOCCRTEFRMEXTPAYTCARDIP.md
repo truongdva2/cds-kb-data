@@ -28,23 +28,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ElectronicPaymentType          : vdm_epayt_type; //Mandatory` | `ElectronicPaymentType          : vdm_epayt_type; //Mandatory` |
-| `EPaytByDigitalPaymentSrvc      : vdm_epayt_token;` | `EPaytByDigitalPaymentSrvc      : vdm_epayt_token;` |
-| `ElectronicPayment              : vdm_epayt_number;` | `ElectronicPayment              : vdm_epayt_number;` |
-| `EPaytValidityStartDate         : vdm_epayt_validfrom;` | `EPaytValidityStartDate         : vdm_epayt_validfrom;` |
-| `EPaytValidityEndDate           : vdm_epayt_validto;` | `EPaytValidityEndDate           : vdm_epayt_validto;` |
-| `ElectronicPaymentHolderName    : vdm_epayt_holder;` | `ElectronicPaymentHolderName    : vdm_epayt_holder;` |
-| `AuthorizedAmountInAuthznCrcy   : vdm_epayt_authrdamount;` | `AuthorizedAmountInAuthznCrcy   : vdm_epayt_authrdamount;` |
-| `AuthorizationCurrency          : waers;` | `AuthorizationCurrency          : waers;` |
-| `AuthorizationDate              : vdm_epayt_authzndate;` | `AuthorizationDate              : vdm_epayt_authzndate;` |
-| `AuthorizationTime              : vdm_epayt_authzntime;` | `AuthorizationTime              : vdm_epayt_authzntime;` |
-| `AuthorizationByDigitalPaytSrvc : vdm_epayt_authznnumber;` | `AuthorizationByDigitalPaytSrvc : vdm_epayt_authznnumber;` |
-| `AuthorizationByAcquirer        : vdm_epayt_authrefcode;` | `AuthorizationByAcquirer        : vdm_epayt_authrefcode;` |
-| `MerchantByClearingHouse        : vdm_epayt_merchantid;` | `MerchantByClearingHouse        : vdm_epayt_merchantid;` |
-| `PreauthorizationIsRequested    : vdm_epayt_preauthorization;` | `PreauthorizationIsRequested    : vdm_epayt_preauthorization;` |
-| `PaymentServiceProvider         : dp_payment_service_provider;` | `PaymentServiceProvider         : dp_payment_service_provider;` |
-| `PaymentByPaymentServicePrvdr   : dp_payid;` | `PaymentByPaymentServicePrvdr   : dp_payid;` |
-| `TransactionByPaytSrvcPrvdr     : dp_psp_trans_id;` | `TransactionByPaytSrvcPrvdr     : dp_psp_trans_id;` |
+| `ElectronicPaymentType` | `vdm_epayt_type` |
+| `EPaytByDigitalPaymentSrvc` | `vdm_epayt_token` |
+| `ElectronicPayment` | `vdm_epayt_number` |
+| `EPaytValidityStartDate` | `vdm_epayt_validfrom` |
+| `EPaytValidityEndDate` | `vdm_epayt_validto` |
+| `ElectronicPaymentHolderName` | `vdm_epayt_holder` |
+| `AuthorizedAmountInAuthznCrcy` | `vdm_epayt_authrdamount` |
+| `AuthorizationCurrency` | `waers` |
+| `AuthorizationDate` | `vdm_epayt_authzndate` |
+| `AuthorizationTime` | `vdm_epayt_authzntime` |
+| `AuthorizationByDigitalPaytSrvc` | `vdm_epayt_authznnumber` |
+| `AuthorizationByAcquirer` | `vdm_epayt_authrefcode` |
+| `MerchantByClearingHouse` | `vdm_epayt_merchantid` |
+| `PreauthorizationIsRequested` | `vdm_epayt_preauthorization` |
+| `PaymentServiceProvider` | `dp_payment_service_provider` |
+| `PaymentByPaymentServicePrvdr` | `dp_payid` |
+| `TransactionByPaytSrvcPrvdr` | `dp_psp_trans_id` |
 
 ## Associations
 

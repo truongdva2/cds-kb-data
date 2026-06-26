@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDateType` | `LglCntntMDateType` |
-| `key Language` | `Language` |
+| `LglCntntMDateType` | `LglCntntMDateType` |
+| `Language` | `Language` |
 | `LglCntntMDateTypeName` | `LglCntntMDateTypeName` |
 
 ## Associations

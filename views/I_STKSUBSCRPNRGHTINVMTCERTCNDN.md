@@ -30,19 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_security_class preserving type)` | `cast(ranl` |
+| `SecurityClass` | `cast(ranl as ftr_gen_security_class preserving type)` |
 | `StockPartlyPaytEffctvFromDate` | `StkSubscrpnRghtInvmtCertCndn.dguel_kk` |
 | `ScrtyClDvdndEntlmntStartDate` | `StkSubscrpnRghtInvmtCertCndn.ddbab` |
-| `cast( case` | `cast( case` |
-| `when StkSubscrpnRghtInvmtCertCndn.jthesau = '1' then 'X'` | `when StkSubscrpnRghtInvmtCertCndn.jthesau = '1' then 'X'` |
-| `else ''` | `else ''` |
-| `ftr_sc_sthes preserving type )` | `end` |
+| `ScrtyClDistrIsReinvested` | `cast(…)` |
 | `DistrReinvestmentDiscInPct` | `StkSubscrpnRghtInvmtCertCndn.pwanlrab` |
 | `StockPartlyPayInRateInPercent` | `StkSubscrpnRghtInvmtCertCndn.kzahlakt` |
-| `ftr_sc_bzahlakt)` | `cast(StkSubscrpnRghtInvmtCertCndn.bzahlakt` |
+| `StockPartlyPaymentAmount` | `cast(StkSubscrpnRghtInvmtCertCndn.bzahlakt as ftr_sc_bzahlakt)` |
 | `StockPartlyPaymentDate` | `StkSubscrpnRghtInvmtCertCndn.drest` |
-| `_SecurityClassBasic.IssueCurrency                              as IssueCurrency` | *Association* |
-| `_SecurityClassBasic.FinancialInstrProductCategory              as FinancialInstrProductCategory` | *Association* |
+| `IssueCurrency` | `_SecurityClassBasic.IssueCurrency` |
+| `FinancialInstrProductCategory` | `_SecurityClassBasic.FinancialInstrProductCategory` |
 | `_SecurityClassBasic` | *Association* |
 
 ## Associations

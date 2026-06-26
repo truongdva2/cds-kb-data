@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key SerialNumber` | `SerialNumber` |
+| `Material` | `Material` |
+| `SerialNumber` | `SerialNumber` |
 | `Equipment` | `Equipment` |
 | `EquipmentCategory` | `EquipmentCategory` |
 | `UniqueItemIdentifier` | `UniqueItemIdentifier` |
@@ -89,14 +89,11 @@ tags:
 | `MatlSrlNmbrUUIDIsAttached` | `MatlSrlNmbrUUIDIsAttached` |
 | `MatlSrlNmbrUUIDIsSent` | `MatlSrlNmbrUUIDIsSent` |
 | `MatlSrlNmbrUUIDIsConfd` | `MatlSrlNmbrUUIDIsConfd` |
-| `/* Associations */` | `/* Associations */` |
 | `_Customer` | *Association* |
 | `_EquipmentCategory` | *Association* |
 | `_EquipmentText` | *Association* |
 | `_InventoryStockType` | *Association* |
 | `_Material` | *Association* |
-| `_Partner       : redirected to composition child I_EquipMatlSrlNmbrPrtnTP` | *Association* |
-| `_Warranty       : redirected to composition child I_EquipMatlSrlNmbrWarrantyTP` | *Association* |
 | `_Plant` | *Association* |
 | `_StorageLocation` | *Association* |
 | `_WBSElement` | *Association* |

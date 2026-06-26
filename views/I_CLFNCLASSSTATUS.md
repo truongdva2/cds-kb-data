@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `ClassType` | `ClassStatus.klart` |
 | `ClassStatus` | `ClassStatus.status` |
-| `classificationisallowed preserving type )` | `cast ( ClassStatus.klfkz` |
+| `ClassificationIsAllowed` | `cast ( ClassStatus.klfkz as classificationisallowed preserving type )` |
 | `_ClassType` | *Association* |
 | `_ClassStatusText` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ClassStatusText` | `I_ClfnClassStatusText` | [0..*] |
 | `_ClassType` | `I_ClfnClassTypeBasic` | [0..1] |
 
 ## Source Code

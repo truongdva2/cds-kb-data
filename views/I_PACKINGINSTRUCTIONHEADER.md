@@ -59,7 +59,7 @@ tags:
 | `ExcessWeightToleranceValue` | `tolewei` |
 | `PackingInstructionAllwdLoadQty` | `maxstwe` |
 | `HandlingUnitIsClosed` | `indclopa` |
-| `packing_instruction_component preserving type )` | `cast( mapaco_item` |
+| `LoadCarrierSystUUID` | `cast( mapaco_item as packing_instruction_component preserving type )` |
 | `PackingInstructionIsDeleted` | `inddel` |
 | `PackingInstructionCheckProfSts` | `checkprof` |
 | `StackingFactor` | `stfac` |

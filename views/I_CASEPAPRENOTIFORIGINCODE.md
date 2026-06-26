@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pnhkf_kk preserving type )` | `cast( left( domvalue_l, 2 )` |
+| `CASEPAPreNotifOriginCode` | `cast( left( domvalue_l, 2 ) as pnhkf_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingMatlAssgmt` | `ProductionRoutingMatlAssgmt` |
-| `key ProductionRtgMatlAssgmtIntVers` | `ProductionRtgMatlAssgmtIntVers` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingMatlAssgmt` | `ProductionRoutingMatlAssgmt` |
+| `ProductionRtgMatlAssgmtIntVers` | `ProductionRtgMatlAssgmtIntVers` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
@@ -48,9 +48,6 @@ tags:
 | `ChangedDateTime` | `ChangedDateTime` |
 | `SalesOrder` | `SalesOrder` |
 | `SalesOrderItem` | `SalesOrderItem` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdnRtgTP : redirected to parent I_ProductionRoutingTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
 
 ## Associations
 

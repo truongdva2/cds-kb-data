@@ -34,17 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractText.SalesContract` | `SalesContractText.SalesContract` |
-| `key SalesContractText.Language` | `SalesContractText.Language` |
-| `key SalesContractText.LongTextID` | `SalesContractText.LongTextID` |
-| `SalesContractText.LongTextIDForEdit` | `SalesContractText.LongTextIDForEdit` |
-| `SalesContractText.LanguageForEdit` | `SalesContractText.LanguageForEdit` |
-| `SalesContractText.LongText` | `SalesContractText.LongText` |
-| `SalesContractText.SalesContractType` | `SalesContractText.SalesContractType` |
-| `SalesContractText.SalesOrganization` | `SalesContractText.SalesOrganization` |
-| `SalesContractText.DistributionChannel` | `SalesContractText.DistributionChannel` |
-| `SalesContractText.OrganizationDivision` | `SalesContractText.OrganizationDivision` |
-| `_SalesContract : redirected to parent I_SalesContractTP` | *Association* |
+| `SalesContract` | `SalesContractText.SalesContract` |
+| `Language` | `SalesContractText.Language` |
+| `LongTextID` | `SalesContractText.LongTextID` |
+| `LongTextIDForEdit` | `SalesContractText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesContractText.LanguageForEdit` |
+| `LongText` | `SalesContractText.LongText` |
+| `SalesContractType` | `SalesContractText.SalesContractType` |
+| `SalesOrganization` | `SalesContractText.SalesOrganization` |
+| `DistributionChannel` | `SalesContractText.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractText.OrganizationDivision` |
 
 ## Associations
 

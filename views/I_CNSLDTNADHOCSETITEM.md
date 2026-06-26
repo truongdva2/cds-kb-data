@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_AdhocSetItem.adhocsetitemtext                                          as CnsldtnAdhocSetItemText` | *Association* |
+| `ConsolidationChartOfAccounts` | `cast(_AdhocSetItem.itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnAdhocSet` | `_AdhocSetItem.adhocset` |
+| `CnsldtnAdhocSetItem` | `_AdhocSetItem.adhocsetitem` |
+| `CnsldtnAdhocSetItemText` | `_AdhocSetItem.adhocsetitemtext` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_CnsldtnAdhocSet` | *Association* |
 

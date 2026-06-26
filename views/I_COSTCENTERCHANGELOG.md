@@ -31,46 +31,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeDocumentItem.ChangeDocumentControllingArea` | `ChangeDocumentItem.ChangeDocumentControllingArea` |
-| `kostl )` | `cast( ChangeDocumentItem.ChangeDocumentCostCenter` |
-| `costcentervalidityenddate )` | `cast( ChangeDocumentItem.ChangeDocumentValidityEndDate` |
-| `costcentervaliditystartdate )` | `cast( ChangeDocumentItem.ChangeDocValidityStartDate` |
-| `key ChangeDocumentItem.ChangeDocObject` | `ChangeDocumentItem.ChangeDocObject` |
-| `key ChangeDocumentItem.ChangeDocument` | `ChangeDocumentItem.ChangeDocument` |
-| `key ChangeDocumentItem.ChangeDocDatabaseTableField` | `ChangeDocumentItem.ChangeDocDatabaseTableField` |
-| `key ChangeDocumentItem.ChangeDocItemChangeType` | `ChangeDocumentItem.ChangeDocItemChangeType` |
-| `ChangeDocumentItem.ChangeDocObjectClass` | `ChangeDocumentItem.ChangeDocObjectClass` |
-| `ChangeDocumentItem.DatabaseTable` | `ChangeDocumentItem.DatabaseTable` |
-| `ChangeDocumentItem.ChangeDocTableKey` | `ChangeDocumentItem.ChangeDocTableKey` |
-| `ChangeDocumentItem.ChangeDocPreviousUnit` | `ChangeDocumentItem.ChangeDocPreviousUnit` |
-| `ChangeDocumentItem.ChangeDocNewUnit` | `ChangeDocumentItem.ChangeDocNewUnit` |
-| `ChangeDocumentItem.ChangeDocPreviousCurrency` | `ChangeDocumentItem.ChangeDocPreviousCurrency` |
-| `ChangeDocumentItem.ChangeDocNewCurrency` | `ChangeDocumentItem.ChangeDocNewCurrency` |
-| `ChangeDocumentItem.ChangeDocNewFieldValue` | `ChangeDocumentItem.ChangeDocNewFieldValue` |
-| `ChangeDocumentItem.ChangeDocPreviousFieldValue` | `ChangeDocumentItem.ChangeDocPreviousFieldValue` |
+| `ChangeDocumentControllingArea` | `ChangeDocumentItem.ChangeDocumentControllingArea` |
+| `ChangeDocumentCostCenter` | `cast( ChangeDocumentItem.ChangeDocumentCostCenter as kostl )` |
+| `ChangeDocumentValidityEndDate` | `cast(…)` |
+| `ChangeDocValidityStartDate` | `cast(…)` |
+| `ChangeDocObject` | `ChangeDocumentItem.ChangeDocObject` |
+| `ChangeDocument` | `ChangeDocumentItem.ChangeDocument` |
+| `ChangeDocDatabaseTableField` | `ChangeDocumentItem.ChangeDocDatabaseTableField` |
+| `ChangeDocItemChangeType` | `ChangeDocumentItem.ChangeDocItemChangeType` |
+| `ChangeDocObjectClass` | `ChangeDocumentItem.ChangeDocObjectClass` |
+| `DatabaseTable` | `ChangeDocumentItem.DatabaseTable` |
+| `ChangeDocTableKey` | `ChangeDocumentItem.ChangeDocTableKey` |
+| `ChangeDocPreviousUnit` | `ChangeDocumentItem.ChangeDocPreviousUnit` |
+| `ChangeDocNewUnit` | `ChangeDocumentItem.ChangeDocNewUnit` |
+| `ChangeDocPreviousCurrency` | `ChangeDocumentItem.ChangeDocPreviousCurrency` |
+| `ChangeDocNewCurrency` | `ChangeDocumentItem.ChangeDocNewCurrency` |
+| `ChangeDocNewFieldValue` | `ChangeDocumentItem.ChangeDocNewFieldValue` |
+| `ChangeDocPreviousFieldValue` | `ChangeDocumentItem.ChangeDocPreviousFieldValue` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
 | `ChangeDocLanguage` | `ChangeDocLanguage` |
-| `CostCenter.BusinessArea` | `CostCenter.BusinessArea` |
-| `CostCenter.CompanyCode` | `CostCenter.CompanyCode` |
-| `CostCenter.ControllingArea` | `CostCenter.ControllingArea` |
-| `CostCenter.CostCenter` | `CostCenter.CostCenter` |
-| `CostCenter.ValidityEndDate` | `CostCenter.ValidityEndDate` |
-| `CostCenter.ValidityStartDate` | `CostCenter.ValidityStartDate` |
-| `/* Associations */` | `/* Associations */` |
-| `ChangeDocumentItem._ChangeDocLongTableKey` | `ChangeDocumentItem._ChangeDocLongTableKey` |
-| `ChangeDocumentItem._ChangeDocument` | `ChangeDocumentItem._ChangeDocument` |
-| `ChangeDocumentItem._ChangeDocumentItemExtension` | `ChangeDocumentItem._ChangeDocumentItemExtension` |
-| `CostCenter._BusinessArea` | `CostCenter._BusinessArea` |
-| `CostCenter._CompanyCode` | `CostCenter._CompanyCode` |
-| `CostCenter._ControllingArea` | `CostCenter._ControllingArea` |
+| `BusinessArea` | `CostCenter.BusinessArea` |
+| `CompanyCode` | `CostCenter.CompanyCode` |
+| `ControllingArea` | `CostCenter.ControllingArea` |
+| `CostCenter` | `CostCenter.CostCenter` |
+| `ValidityEndDate` | `CostCenter.ValidityEndDate` |
+| `ValidityStartDate` | `CostCenter.ValidityStartDate` |
+| `_ChangeDocLongTableKey` | *Association* |
+| `_ChangeDocument` | *Association* |
+| `_ChangeDocumentItemExtension` | *Association* |
+| `_BusinessArea` | *Association* |
+| `_CompanyCode` | *Association* |
+| `_ControllingArea` | *Association* |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `CostCenter` | `I_CostCenter` | [0..1] |
+> No associations found.
 
 ## Source Code
 

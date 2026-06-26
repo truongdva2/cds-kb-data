@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key QltyInProcmtIntID` | `QltyInProcmtIntID` |
-| `key QltyInProcmt1stArticleInsp` | `QltyInProcmt1stArticleInsp` |
+| `Material` | `Material` |
+| `QltyInProcmtIntID` | `QltyInProcmtIntID` |
+| `QltyInProcmt1stArticleInsp` | `QltyInProcmt1stArticleInsp` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
 | `InspLotUsageDecisionValuation` | `InspLotUsageDecisionValuation` |
@@ -40,8 +40,6 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_QltyInProcurement : redirected to parent I_QualityInProcurementTP_2` | *Association* |
 
 ## Associations
 

@@ -33,12 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.SalesOrganization` | `_Text.SalesOrganization` |
-| `_Text.SalesOrganizationName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_SalesOrganization as _SalesOrganization : redirected to parent I_CnsldtnSalesOrganizationTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `SalesOrganization` | `_Text.SalesOrganization` |
+| `SalesOrganizationName` | `_Text.SalesOrganizationName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_SalesOrganization` | *Association* |
 
 ## Associations
 

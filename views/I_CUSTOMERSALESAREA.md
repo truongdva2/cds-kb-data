@@ -32,9 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Customer_VH'` | `name:    'I_Customer_VH'` |
-| `element: 'Customer' }` | `element: 'Customer' }` |
-| `}]` | `}]` |
 | `Customer` | `kunnr` |
 | `SalesOrganization` | `vkorg` |
 | `DistributionChannel` | `vtweg` |
@@ -55,14 +52,14 @@ tags:
 | `BillingIsBlockedForCustomer` | `faksd` |
 | `CustomerPaymentTerms` | `zterm` |
 | `CustomerAccountAssignmentGroup` | `ktgrd` |
-| `AccountByCustomer, //needed in customer_supplier app` | `eikto` |
-| `CustomerGroup, //gfn doubt //needed in customer_supplier app` | `kdgrp` |
-| `CustomerPricingProcedure, //needed in customer_supplier app` | `kalks` |
-| `OrderCombinationIsAllowed, //gfn doubt //needed in customer_supplier app` | `kzazu` |
-| `PartialDeliveryIsAllowed, //needed in customer_supplier app` | `kztlf` |
-| `InvoiceDate, //gfn doubt //needed in customer_supplier app` | `perfk` |
-| `PaymentTerms,              //needed in customer_supplier app` | `zterm` |
-| `IncotermsTransferLocation, //needed in customer_supplier app` | `inco2` |
+| `AccountByCustomer` | `eikto` |
+| `CustomerGroup` | `kdgrp` |
+| `CustomerPricingProcedure` | `kalks` |
+| `OrderCombinationIsAllowed` | `kzazu` |
+| `PartialDeliveryIsAllowed` | `kztlf` |
+| `InvoiceDate` | `perfk` |
+| `PaymentTerms` | `zterm` |
+| `IncotermsTransferLocation` | `inco2` |
 | `ItemOrderProbabilityInPercent` | `awahr` |
 | `IncotermsLocation2` | `inco3_l` |
 | `RecordCreatedDate` | `erdat` |
@@ -74,12 +71,12 @@ tags:
 | `IsBusinessPurposeCompleted` | `cvp_xblck_v` |
 | `SalesItemProposal` | `vsort` |
 | `CustProdProposalProcedure` | `pvksm` |
-| `abap.char(13) ), 6 )` | `cast( left( cast( div(podtg, 240000)` |
-| `cust_pod )` | `cast( division(podtg, 240000, 2 )` |
+| `ProofOfDeliveryTime` | `cast( left( cast( div(podtg, 240000) as abap.char(13) ), 6 ) as abap.tims )` |
+| `ProofOfDeliveryTimeValue` | `cast( division(podtg, 240000, 2 ) as cust_pod )` |
 | `MaxNmbrOfPartialDelivery` | `antlf` |
 | `UnderdelivTolrtdLmtRatioInPct` | `untto` |
 | `OverdelivTolrtdLmtRatioInPct` | `uebto` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `AdditionalCustomerGroup1` | `kvgr1` |
 | `AdditionalCustomerGroup2` | `kvgr2` |
 | `AdditionalCustomerGroup3` | `kvgr3` |
@@ -97,9 +94,9 @@ tags:
 | `CustomerIsRebateRelevant` | `bokre` |
 | `InspSbstHasNoTimeOrQuantity` | `prfre` |
 | `ManualInvoiceMaintIsRelevant` | `mrnkz` |
-| `/sapapo/location_uuid)` | `cast(   inco2_key` |
-| `/sapapo/location_uuid)` | `cast(   inco3_key` |
-| `/sapapo/location_uuid)` | `cast(   inco4_key` |
+| `IncotermsSupChnLoc1AddlUUID` | `cast( inco2_key as /sapapo/location_uuid)` |
+| `IncotermsSupChnLoc2AddlUUID` | `cast( inco3_key as /sapapo/location_uuid)` |
+| `IncotermsSupChnDvtgLocAddlUUID` | `cast( inco4_key as /sapapo/location_uuid)` |
 | `SalesBlockForCustomer` | `cassd` |
 | `CustomerStatisticsGroup` | `versg` |
 | `_Customer` | *Association* |
@@ -148,7 +145,6 @@ tags:
 | `_SalesAreaExt` | `E_BPSALESAREA_D` | [0..1] |
 | `_PaytGuarProcedVH` | `I_CustomerPaytGuarProced` | [0..1] |
 | `_SalesAreaAddr` | `I_CustSlsAreaAddrDepdntInfo` | [1..*] |
-| `_Tlocation1` | `I_TransportationLocation` | [0..1] |
 
 ## Source Code
 

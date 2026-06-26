@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `txprf )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgCndnAmountRoundingRule` | `cast ( substring( domvalue_l, 1, 1 ) as txprf )` |
 | `_Text` | *Association* |
 
 ## Associations

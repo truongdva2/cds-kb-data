@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
+| `CompanyCode` | `CompanyCode` |
 | `EG_EDocActiveDate` | `EG_EDocActiveDate` |
 
 ## Associations

@@ -34,13 +34,8 @@ tags:
 |---|---|
 | `SupplierAccountGroup` | `t077k.ktokk` |
 | `BPSchemaPurgOrganizationLevel` | `parge` |
-| `case when I_MdiOidConfiguration.Context is initial or I_MdiOidConfiguration.ComposeOid is initial then` | `case when I_MdiOidConfiguration.Context is initial or I_MdiOidConfiguration.ComposeOid is initial then` |
-| `supplieraccountgroup_oid )` | `cast( t077k.ktokk` |
-| `when I_MdiOidConfiguration.Context is not initial` | `when I_MdiOidConfiguration.Context is not initial` |
-| `and I_MdiOidConfiguration.ComposeOid is not initial then` | `and I_MdiOidConfiguration.ComposeOid is not initial then` |
-| `supplieraccountgroup_oid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), t077k.ktokk )` |
-| `SupplierAccountGroupOID` | `end` |
-| `_SupplierAccountGroupText //expose the association for use by consumers` | *Association* |
+| `SupplierAccountGroupOID` | `case…end` |
+| `_SupplierAccountGroupText` | *Association* |
 
 ## Associations
 

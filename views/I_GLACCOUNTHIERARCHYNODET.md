@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glaccthier preserving type )` | `cast ( hrrp_nodet_n.hryid_42` |
+| `GLAccountHierarchy` | `cast ( hrrp_nodet_n.hryid_42 as fis_glaccthier preserving type )` |
 | `HierarchyNode` | `hrrp_nodet_n.hrynode` |
 | `ValidityEndDate` | `hrrp_nodet_n.hryvalto` |
 | `Language` | `hrrp_nodet_n.spras` |

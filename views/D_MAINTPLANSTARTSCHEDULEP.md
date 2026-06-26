@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SchedulingStartDate            : stadt ;` | `SchedulingStartDate            : stadt ;` |
-| `SchedulingStartTime            : time_start ;` | `SchedulingStartTime            : time_start ;` |
-| `MaintPlanStartCntrReadingValue : szaehc ;` | `MaintPlanStartCntrReadingValue : szaehc ;` |
-| `MaintPlnSchedgCallObjUpToDte   : syst_datum;` | `MaintPlnSchedgCallObjUpToDte   : syst_datum;` |
+| `SchedulingStartDate` | `stadt` |
+| `SchedulingStartTime` | `time_start` |
+| `MaintPlanStartCntrReadingValue` | `szaehc` |
+| `MaintPlnSchedgCallObjUpToDte` | `syst_datum` |
 
 ## Associations
 

@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7}` |
-| `ddtext preserving type )` | `cast( ddtext` |
+| `MRPMasterDataIssueSource` | `cast( substring( domvalue_l, 1, 1 ) as pph_source_of_issue preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `DomainValue` | `domvalue_l` |
+| `MRPMasterDataIssueSourceName` | `cast( ddtext as ddtext preserving type )` |
 | `_MRPMasterDataIssueSource` | *Association* |
 | `_Language` | *Association* |
 

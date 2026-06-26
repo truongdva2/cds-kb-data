@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DateFunction` | `DateFunction` |
+| `DateFunction` | `DateFunction` |
 | `DateFunctionType` | `DateFunctionType` |
 | `DateFunctionGranularity` | `DateFunctionGranularity` |
 | `DateFunctionStartPoint` | `DateFunctionStartPoint` |

@@ -35,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectBillingRequestItemUUID` | `ProjectBillingRequestItemUUID` |
+| `ProjectBillingRequestItemUUID` | `ProjectBillingRequestItemUUID` |
 | `ProjBillgElmntEntrItmUUID` | `ProjBillgElmntEntrItmUUID` |
 | `ProjectBillingRequestUUID` | `ProjectBillingRequestUUID` |
 | `ProjectBillingElementUUID` | `ProjectBillingElementUUID` |
@@ -77,9 +77,8 @@ tags:
 | `ProjectBillingRequestItemDesc` | `ProjectBillingRequestItemDesc` |
 | `ProjectBillingCategory` | `ProjectBillingCategory` |
 | `ManualBillgSelForPrjBlgReqItem` | `ManualBillgSelForPrjBlgReqItem` |
-| `/*Associations */` | `/*Associations */` |
 | `_PrjBlgElmEntrJrnlEntrLink` | *Association* |
-| `ProjectBillingRequestItem._ProjectBillingRequest` | `ProjectBillingRequestItem._ProjectBillingRequest` |
+| `_ProjectBillingRequest` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_ProjectCurrency` | *Association* |
 | `_GlobalCurrency` | *Association* |
@@ -92,7 +91,6 @@ tags:
 | `_DocumentCurrencyText` | *Association* |
 | `_ProjectBillingCategoryText` | *Association* |
 | `_ProjBillgReqItmSrceTypeText` | *Association* |
-| `_ProjectBillingRequestTP : redirected to parent I_ProjectBillingRequestTP_2` | *Association* |
 
 ## Associations
 

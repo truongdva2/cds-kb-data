@@ -33,17 +33,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 90 } ] }` | `position: 90 } ] }` |
+| `BankCountry` | `BankCountry` |
+| `BankInternalID` | `BankInternalID` |
+| `LongBankName` | `LongBankName` |
+| `LongBankBranch` | `LongBankBranch` |
+| `SWIFTCode` | `SWIFTCode` |
+| `BankCode` | `cast(BankNumber as bf_bank_bankcode preserving type )` |
+| `BankCategoryDescription` | `_BankCategoryText.BankCategoryDescription` |
+| `BankCategory` | `BankCategory` |
+| `BankNetworkGrouping` | `BankNetworkGrouping` |
+| `StreetName` | `StreetName` |
+| `CityName` | `CityName` |
 | `AddressRegion` | `AddressRegion` |
 | `ShortStreetName` | `ShortStreetName` |
 | `ShortCityName` | `ShortCityName` |
 | `Region` | `Region` |
 | `BankName` | `BankName` |
 | `BankBranch` | `BankBranch` |
-| `cast( case` | `cast( case` |
-| `when BankCategory <> '4' or BankCategory is null then 'X'` | `when BankCategory <> '4' or BankCategory is null then 'X'` |
-| `else ' '` | `else ' '` |
-| `bf_is_not_sepa_bank_category preserving type )` | `end` |
+| `NotSglEuroPaytsAreaBkCat` | `cast(…)` |
 | `IsPostBankAccount` | `IsPostBankAccount` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |

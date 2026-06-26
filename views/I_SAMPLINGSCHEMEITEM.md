@@ -33,7 +33,6 @@ tags:
 | `SamplingScheme` | `stprplan` |
 | `SmplgSchmItemSequentialNumber` | `zaehlpos` |
 | `SmplgSchmAccptblQltyLevelPct` | `aqlwert` |
-| `/* Associations */` | `/* Associations */` |
 | `_SamplingScheme` | *Association* |
 
 ## Associations

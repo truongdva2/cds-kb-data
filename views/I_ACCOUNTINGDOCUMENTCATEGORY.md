@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_bstat_d )` | `cast( domvalue_l` |
+| `AccountingDocumentCategory` | `cast( domvalue_l as farp_bstat_d )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

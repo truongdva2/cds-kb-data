@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionUUID` | `LegalTransactionUUID` |
+| `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LegalTransaction` | `LegalTransaction` |
 | `LegalTransactionTitle` | `LegalTransactionTitle` |
 | `LglCntntMLanguage` | `LglCntntMLanguage` |
@@ -49,17 +49,6 @@ tags:
 | `LglCntntMMainOrgSalesOrg` | `LglCntntMMainOrgSalesOrg` |
 | `LglCntntMMainOrgPurOrg` | `LglCntntMMainOrgPurOrg` |
 | `LglCntntMIntegrationType` | `LglCntntMIntegrationType` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransCategoryGroup   : redirected to composition child I_LegalTransCategoryGroupTP_2` | *Association* |
-| `_LegalTransDate            : redirected to composition child I_LegalTransDateTP_2` | *Association* |
-| `_LegalTransDocLink         : redirected to composition child I_LegalTransDocLinkTP_2` | *Association* |
-| `_LegalTransEntity          : redirected to composition child I_LegalTransEntityTP_2` | *Association* |
-| `_LegalTransExternalContact : redirected to composition child I_LegalTransExtContactTP_2` | *Association* |
-| `_LegalTransInternalContact : redirected to composition child I_LegalTransIntContactTP_2` | *Association* |
-| `_LegalTransLinkedObjects   : redirected to composition child I_LegalTransLinkedObjectsTP_2` | *Association* |
-| `_LegalTransRelationship    : redirected to composition child I_LegalTransRelationshipTP_2` | *Association* |
-| `_LegalTransRnwlAndTermn    : redirected to composition child I_LegalTransRnwlAndTermnTP_2` | *Association* |
-| `_LegalTransactionReminder  : redirected to composition child I_LegalTransactionReminderTP_2` | *Association* |
 
 ## Associations
 

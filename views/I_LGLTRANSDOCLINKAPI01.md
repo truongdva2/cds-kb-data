@@ -29,10 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionDocLinkUUID` | `LegalTransactionDocLinkUUID` |
+| `LegalTransactionDocLinkUUID` | `LegalTransactionDocLinkUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMDocument` | `LglCntntMDocument` |
-| `/* Associations */` | `/* Associations */` |
 | `_LegalTransaction` | *Association* |
 | `_LegalDocument` | *Association* |
 

@@ -34,8 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' } } ]` | `name: 'I_ProductStdVH', element: 'Product' } } ]` |
-| `productnumber preserving type )` | `cast( matnr` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Customer` | `kunnr` |
+| `Product` | `cast( matnr as productnumber preserving type )` |
 | `MaterialByCustomer` | `kdmat` |
 | `MaterialDescriptionByCustomer` | `postx` |
 | `RoundingProfile` | `rdprf` |
@@ -54,10 +56,7 @@ tags:
 | `SalesQtyToBaseQtyDnmntr` | `umvkn_t` |
 | `SalesQtyToBaseQtyNmrtr` | `umvkz_t` |
 | `LastChangedByUser` | `last_changed_by_user` |
-| `abap.dec(15,0)))` | `case tstmp_is_valid(cast(upd_tmstmp` |
-| `last_changed_date_time )` | `when 0 then cast( dats_tims_to_tstmp( erdat, '000000', 'UTC', $session.client, 'NULL' )` |
-| `last_changed_date_time )` | `else cast( upd_tmstmp` |
-| `LastChangeDateTime` | `end` |
+| `LastChangeDateTime` | `case…end` |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |
 | `_Customer` | *Association* |

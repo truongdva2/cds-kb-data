@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenancePlan` | `MaintenancePlan` |
-| `key MaintenancePlanCycle` | `MaintenancePlanCycle` |
+| `MaintenancePlan` | `MaintenancePlan` |
+| `MaintenancePlanCycle` | `MaintenancePlanCycle` |
 | `MaintenanceStrategy` | `MaintenanceStrategy` |
 | `MaintPlanCycRcrrcIntervalQty` | `MaintPlanCycRcrrcIntervalQty` |
 | `MaintPlanCycRcrrcIntervalUnit` | `MaintPlanCycRcrrcIntervalUnit` |
@@ -46,8 +46,6 @@ tags:
 | `CycleSetSequenceRepeatFactor` | `CycleSetSequenceRepeatFactor` |
 | `MaintPlnStrtBufDurationInDays` | `MaintPlnStrtBufDurationInDays` |
 | `CharcValueUnit` | `CharcValueUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_MaintenancePlan : redirected to parent I_MaintenancePlanTP_2` | *Association* |
 
 ## Associations
 

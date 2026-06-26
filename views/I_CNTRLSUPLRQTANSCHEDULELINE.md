@@ -31,19 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralSupplierQuotation` | `CentralSupplierQuotation` |
-| `key CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `CentralSupplierQuotation` | `CentralSupplierQuotation` |
+| `CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
+| `ScheduleLine` | `ScheduleLine` |
 | `DelivDateCategory` | `DelivDateCategory` |
-| `R_CntrlSuplrQtanScheduleLine.ScheduleLineDeliveryDate` | `R_CntrlSuplrQtanScheduleLine.ScheduleLineDeliveryDate` |
+| `ScheduleLineDeliveryDate` | `R_CntrlSuplrQtanScheduleLine.ScheduleLineDeliveryDate` |
 | `SchedLineStscDeliveryDate` | `SchedLineStscDeliveryDate` |
 | `ScheduleLineDeliveryTime` | `ScheduleLineDeliveryTime` |
 | `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
 | `RoughGoodsReceiptQty` | `RoughGoodsReceiptQty` |
-| `R_CntrlSuplrQtanScheduleLine.AwardedQuantity` | `R_CntrlSuplrQtanScheduleLine.AwardedQuantity` |
+| `AwardedQuantity` | `R_CntrlSuplrQtanScheduleLine.AwardedQuantity` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
-| `R_CntrlSuplrQtanScheduleLine.PerformancePeriodStartDate` | `R_CntrlSuplrQtanScheduleLine.PerformancePeriodStartDate` |
-| `R_CntrlSuplrQtanScheduleLine.PerformancePeriodEndDate` | `R_CntrlSuplrQtanScheduleLine.PerformancePeriodEndDate` |
+| `PerformancePeriodStartDate` | `R_CntrlSuplrQtanScheduleLine.PerformancePeriodStartDate` |
+| `PerformancePeriodEndDate` | `R_CntrlSuplrQtanScheduleLine.PerformancePeriodEndDate` |
 | `_CentralSupplierQuotation` | *Association* |
 | `_CntrlSupplierQuotationItem` | *Association* |
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InventorySpecialStockType` | `InventorySpecialStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
 | `_Text` | *Association* |
 
 ## Associations

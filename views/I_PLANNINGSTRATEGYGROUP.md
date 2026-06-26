@@ -29,10 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `PlanningStrategyGroup` | `grp.strgr` |
 | `MainPlanningStrategy` | `grp.hptst` |
 | `_Text` | *Association* |
-| `_MainPlanningStrategy` | *Association* |
 
 ## Associations
 

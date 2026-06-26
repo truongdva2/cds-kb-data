@@ -29,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wfbsk )` | `cast(dd07t.domvalue_l` |
+| `PersSettlmtAcctgTransfSts` | `cast(dd07t.domvalue_l as wfbsk )` |
 | `Language` | `dd07t.ddlanguage` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wlf_rfbsk_name preserving type)` | `cast( dd07t.ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `PersSettlmtAcctgTransfStsName` | `cast( dd07t.ddtext as wlf_rfbsk_name preserving type)` |
 | `_PersSettlmtAcctgTransfSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PersSettlmtAcctgTransfSts` | `I_PersSettlmtAcctgTransfSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_dlv_goods_mvt_sts preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdGoodsMovementStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_goodsmvmt_sts_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdGoodsMvtStatusDesc` | `cast(ddtext as /scmtms/vdm_goodsmvmt_sts_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdGoodsMvtStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdGoodsMvtStatus` | `I_TranspOrdGoodsMvtStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

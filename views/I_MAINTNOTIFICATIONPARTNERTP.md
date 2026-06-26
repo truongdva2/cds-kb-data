@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceNotification` | `MaintenanceNotification` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key NotificationPartnerObjectNmbr` | `NotificationPartnerObjectNmbr` |
+| `MaintenanceNotification` | `MaintenanceNotification` |
+| `PartnerFunction` | `PartnerFunction` |
+| `NotificationPartnerObjectNmbr` | `NotificationPartnerObjectNmbr` |
 | `Partner` | `Partner` |
 | `MaintenancePartner` | `MaintenancePartner` |
 | `_ContactPerson` | *Association* |
@@ -42,7 +42,6 @@ tags:
 | `_Employee` | *Association* |
 | `_Supplier` | *Association* |
 | `_PartnerFunction` | *Association* |
-| `_Notif : redirected to parent I_MaintenanceNotificationTP_2` | *Association* |
 
 ## Associations
 

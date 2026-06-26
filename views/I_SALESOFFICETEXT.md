@@ -34,13 +34,16 @@ tags:
 |---|---|
 | `SalesOffice` | `vkbur` |
 | `Language` | `spras` |
-| `salesofficename preserving type)` | `cast(bezei` |
+| `SalesOfficeName` | `cast(bezei as salesofficename preserving type)` |
 | `_SalesOffice` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesOffice` | `I_SalesOffice` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

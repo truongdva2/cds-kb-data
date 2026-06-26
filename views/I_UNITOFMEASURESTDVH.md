@@ -33,11 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key UnitOfMeasure` | `UnitOfMeasure` |
-| `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E` | *Association* |
-| `_Text[ 1: Language = $session.system_language ].UnitOfMeasureLongName` | *Association* |
+| `UnitOfMeasure` | `UnitOfMeasure` |
+| `UnitOfMeasure_E` | `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E` |
+| `UnitOfMeasureLongName` | `_Text[ 1: Language = $session.system_language ].UnitOfMeasureLongName` |
 | `UnitOfMeasureDimension` | `UnitOfMeasureDimension` |
-| `_DimensionText[ 1: Language = $session.system_language ].UnitOfMeasureDimensionName` | *Association* |
+| `UnitOfMeasureDimensionName` | `expr(…)` |
 
 ## Associations
 

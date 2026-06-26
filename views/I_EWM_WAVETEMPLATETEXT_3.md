@@ -33,8 +33,8 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `EWMWarehouse` | `lgnum` |
-| `ewm_de_wavetemplate )` | `cast( tmplt` |
-| `EWMWaveTemplateName, //WaveTemplateName，` | `text` |
+| `EWMWaveTemplate` | `cast( tmplt as ewm_de_wavetemplate )` |
+| `EWMWaveTemplateName` | `text` |
 | `_Warehouse` | *Association* |
 
 ## Associations

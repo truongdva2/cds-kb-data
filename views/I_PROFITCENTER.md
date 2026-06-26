@@ -32,9 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_SegmentStdVH'` | `name:    'I_SegmentStdVH'` |
-| `element: 'Segment' }` | `element: 'Segment' }` |
-| `}]` | `}]` |
+| `ControllingArea` | `kokrs` |
+| `ProfitCenter` | `prctr` |
+| `ValidityEndDate` | `datbi` |
+| `ProfitCtrResponsiblePersonName` | `verak` |
+| `CompanyCode` | `bukrs` |
+| `ProfitCtrResponsibleUser` | `verak_user` |
+| `ValidityStartDate` | `datab` |
+| `Department` | `abtei` |
+| `ProfitCenterStandardHierarchy` | `khinr` |
 | `Segment` | `segment` |
 | `ProfitCenterIsBlocked` | `lock_ind` |
 | `FormulaPlanningTemplate` | `pca_template` |

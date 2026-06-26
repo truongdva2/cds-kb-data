@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `calendarmonth )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `CalendarMonth` | `cast ( substring( domvalue_l, 1, 2 ) as calendarmonth )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

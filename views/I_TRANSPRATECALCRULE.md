@@ -29,13 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transprt_cal_rule_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transprate_val_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/transpratetable_uuid preserving type)` | `cast(root_key` |
-| `/scmtms/vdm_rt_calc_base preserving type)` | `cast(calc_base_code` |
-| `/scmtms/vdm_tcc_calc_rule_unit preserving type)` | `cast(qty_unit_c` |
-| `/scmtms/vdm_rt_clcrl_qty preserving type)` | `cast(qty_value` |
-| `/*Associations*/` | `/*Associations*/` |
+| `TranspRateCalculationRuleUUID` | `cast(db_key as /scmtms/transprt_cal_rule_uuid preserving type)` |
+| `TranspRateValidityUUID` | `cast(parent_key as /scmtms/transprate_val_uuid preserving type)` |
+| `TransportationRateUUID` | `cast(root_key as /scmtms/transpratetable_uuid preserving type)` |
+| `TranspRateCalculationBase` | `cast(calc_base_code as /scmtms/vdm_rt_calc_base preserving type)` |
+| `TranspRateCalcRuleQtyUnit` | `cast(qty_unit_c as /scmtms/vdm_tcc_calc_rule_unit preserving type)` |
+| `TranspRateCalcRuleQuantity` | `cast(qty_value as /scmtms/vdm_rt_clcrl_qty preserving type)` |
 | `_TransportationRate` | *Association* |
 | `_TransportationRateValidity` | *Association* |
 | `_TranspRateCalcRuleQtyUnit` | *Association* |
@@ -45,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationRateValidity` | `I_TransportationRateValidity_2` | — |
 | `_TransportationRate` | `I_TransportationRate` | [1..1] |
 | `_TranspRateCalcRuleQtyUnit` | `I_UnitOfMeasure` | [1..1] |
 | `_TranspRateCalculationBase` | `I_TranspCalculationBase` | [1..1] |

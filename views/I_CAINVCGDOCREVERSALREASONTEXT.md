@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CAInvcgDocumentReversalReason` | `_tfk2661t.revreason` |
 | `Language` | `_tfk2661t.langu` |
-| `revreason_txt_gfn_kk preserving type )` | `cast( _tfk2661t.text` |
+| `CAInvcgDocReversalReasonText` | `cast( _tfk2661t.text as revreason_txt_gfn_kk preserving type )` |
 | `_CAInvcgDocReversalReason` | *Association* |
 | `_Language` | *Association* |
 

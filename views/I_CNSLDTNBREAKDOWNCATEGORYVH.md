@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `fincs_description_text_30 preserving type )` | `cast(_BreakdownCategory._Text[1: Language=$session.system_language].CnsldtnBreakdownCategoryText` |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `ConsolidationBreakdownCategory` | `ConsolidationBreakdownCategory` |
+| `CnsldtnBreakdownCategoryText` | `cast(…)` |
 
 ## Associations
 

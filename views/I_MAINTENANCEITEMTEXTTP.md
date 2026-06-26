@@ -33,19 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceItem` | `MaintenanceItem` |
-| `key Language` | `Language` |
+| `MaintenanceItem` | `MaintenanceItem` |
+| `Language` | `Language` |
 | `TextObjectKey` | `TextObjectKey` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `TextObjectType` | `TextObjectType` |
 | `MaintenanceItemLongText` | `MaintenanceItemLongText` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_LongText` | *Association* |
 | `_TextObjectCategory` | *Association* |
 | `_TextObjectType` | *Association* |
-| `/* Local Associations */` | `/* Local Associations */` |
-| `_MaintenanceItem : redirected to parent I_MaintenanceItemTP_2` | *Association* |
 
 ## Associations
 

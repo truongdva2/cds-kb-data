@@ -31,18 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGLChartOfAccountsVH'` | `name: 'I_CnsldtnGLChartOfAccountsVH'` |
-| `element: 'ChartOfAccounts'` | `element: 'ChartOfAccounts'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key  _HierarchyNodeText.ChartOfAccounts` | `_HierarchyNodeText.ChartOfAccounts` |
-| `fincs_glaccounthierarchy preserving type )` | `cast(_HierarchyNodeText.UniversalHierarchy` |
-| `key  _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key  _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `ChartOfAccounts` | `_HierarchyNodeText.ChartOfAccounts` |
+| `CnsldtnGLAccountHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_Hierarchy` | *Association* |

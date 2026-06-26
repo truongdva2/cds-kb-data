@@ -31,18 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `land1_gp)` | `cast(t007k.land1` |
+| `Country` | `cast(t007k.land1 as land1_gp)` |
 | `TaxItemGroupingVersion` | `t007k.version` |
-| `fis_mwskz)` | `cast(t007k.mwskz` |
-| `fac_ktosl)` | `cast(t007k.ktosl` |
-| `fis_shkzg)` | `cast(t007k.shkzg_umsv` |
-| `fis_taxbasbalgrp)` | `cast(t007k.basgruno` |
-| `txgrpgopera)` | `cast(t007k.opera` |
-| `case opera` | `case opera` |
-| `when '-'` | `when '-'` |
-| `oper_type preserving type )` | `then cast ( 'X'` |
-| `oper_type preserving type )` | `else cast (''` |
-| `HasNegativeSign` | `end` |
+| `TaxCode` | `cast(t007k.mwskz as fis_mwskz)` |
+| `TransactionTypeDetermination` | `cast(t007k.ktosl as fac_ktosl)` |
+| `DebitCreditCode` | `cast(t007k.shkzg_umsv as fis_shkzg)` |
+| `TaxBaseAmountGroupNumber` | `cast(t007k.basgruno as fis_taxbasbalgrp)` |
+| `TaxGroupOperation` | `cast(t007k.opera as txgrpgopera)` |
+| `HasNegativeSign` | `case…end` |
 
 ## Associations
 

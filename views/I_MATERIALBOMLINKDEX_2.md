@@ -34,11 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BillOfMaterialVariantUsage` | `BillOfMaterialVariantUsage` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BOMHeaderBaseUnit` | `BOMHeaderBaseUnit` |
 | `MatFromLotSizeQuantity` | `MatFromLotSizeQuantity` |

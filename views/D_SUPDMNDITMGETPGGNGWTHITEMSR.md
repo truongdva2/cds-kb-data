@@ -28,15 +28,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material                     : matnr;` | `Material                     : matnr;` |
-| `MRPPlant                     : werks_d;` | `MRPPlant                     : werks_d;` |
-| `MRPArea                      : berid;` | `MRPArea                      : berid;` |
-| `_SupplyDemandItemGetItemR    : composition [0..*] of D_SupplyDemandItemGetItemR;` | *Association* |
-| `_SupplyDemandItemGetPeggingR : composition [0..*] of D_SupplyDemandItemGetPeggingR;` | *Association* |
+| `Material` | `matnr` |
+| `MRPPlant` | `werks_d` |
+| `MRPArea` | `berid` |
+| `_SupplyDemandItemGetItemR` | *Association* |
+| `_SupplyDemandItemGetPeggingR` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplyDemandItemGetItemR` | `D_SupplyDemandItemGetItemR` | [0..*] |
+| `_SupplyDemandItemGetPeggingR` | `D_SupplyDemandItemGetPeggingR` | [0..*] |
 
 ## Source Code
 

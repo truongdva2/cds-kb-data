@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_bill_lading_type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_BillOfLadingType` | `cast ( substring( domvalue_l, 1, 2 ) as logbr_bill_lading_type )` |
 | `BR_BillOfLadingTypeDesc` | `ddtext` |
 | `_BR_BillOfLadingType` | *Association* |
 | `_Language` | *Association* |

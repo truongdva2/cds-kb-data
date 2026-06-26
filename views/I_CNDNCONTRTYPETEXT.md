@@ -32,12 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CndnContrTypeStdVH', element: 'CndnContrType' } }]` | `name: 'I_CndnContrTypeStdVH', element: 'CndnContrType' } }]` |
-| `}` | `}` |
-| `key CndnContrType` | `CndnContrType` |
-| `key Language` | `Language` |
+| `CndnContrType` | `CndnContrType` |
+| `Language` | `Language` |
 | `CndnContrTypeDesc` | `CndnContrTypeDesc` |
-| `/* Associations */` | `/* Associations */` |
 | `_CndnContrType` | *Association* |
 | `_Language` | *Association* |
 

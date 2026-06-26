@@ -30,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `fincs_rptdfindatauploadmethod preserving type )` | `cast ( _Source.meth` |
-| `/* Associations */` | `/* Associations */` |
+| `CnsldtnRptdFinDataUploadMethod` | `cast ( _Source.meth as fincs_rptdfindatauploadmethod preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

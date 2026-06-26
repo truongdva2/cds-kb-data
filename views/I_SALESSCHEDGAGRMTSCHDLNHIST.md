@@ -38,7 +38,7 @@ tags:
 | `SalesDelivDateCategory` | `prgrs` |
 | `ConfirmedDeliveryDate` | `edatu` |
 | `OrderQuantity` | `wmeng` |
-| `_SalesSchedgAgrmtItem.OrderQuantityUnit as OrderQuantityUnit` | *Association* |
+| `OrderQuantityUnit` | `_SalesSchedgAgrmtItem.OrderQuantityUnit` |
 | `_SalesSchedgAgrmt` | *Association* |
 | `_SalesSchedgAgrmtItem` | *Association* |
 | `_SalesSchedgAgrmtDelivSched` | *Association* |

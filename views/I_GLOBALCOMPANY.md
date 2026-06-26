@@ -30,16 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` |
-| `fis_company_name preserving type )` | `cast(name1` |
+| `Company` | `rcomp` |
+| `CompanyName` | `cast(name1 as fis_company_name preserving type )` |
 | `CompanyCurrency` | `curr` |
 | `CompanyLanguage` | `langu` |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_GlobalCompanyHierNode` | `I_GlobalCompanyHierNode` | [0..*] |
+> No associations found.
 
 ## Source Code
 

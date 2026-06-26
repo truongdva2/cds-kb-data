@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocconsistencystatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocConsistencyStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodallocconsistencystatusdesc preserving type )` | `cast( ddtext` |
-| `_ProdAllocConsistencyStatus, //decomment only if no problems in analytics` | *Association* |
+| `ProdAllocConstcyStatusDesc` | `cast( ddtext as prodallocconsistencystatusdesc preserving type )` |
+| `_ProdAllocConsistencyStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

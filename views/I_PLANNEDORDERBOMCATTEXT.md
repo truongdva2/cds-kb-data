@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_stlty)` | `cast (dd07t.domvalue_l` |
+| `Language` | `dd07t.ddlanguage` |
+| `BillOfMaterialCategory` | `cast (dd07t.domvalue_l as pph_stlty)` |
 | `BillOfMaterialCategoryDesc` | `dd07t.ddtext` |
 | `_Language` | *Association* |
 

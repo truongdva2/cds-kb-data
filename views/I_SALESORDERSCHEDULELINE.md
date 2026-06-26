@@ -33,72 +33,72 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SalesDocumentScheduleLine.SalesDocument` |
-| `sales_order_item preserving type)` | `cast(SalesDocumentScheduleLine.SalesDocumentItem` |
-| `key SalesDocumentScheduleLine.ScheduleLine` | `SalesDocumentScheduleLine.ScheduleLine` |
-| `SalesDocumentScheduleLine.ScheduleLineCategory` | `SalesDocumentScheduleLine.ScheduleLineCategory` |
-| `SalesDocumentScheduleLine.OrderQuantityUnit` | `SalesDocumentScheduleLine.OrderQuantityUnit` |
-| `SalesDocumentScheduleLine.OrderToBaseQuantityDnmntr` | `SalesDocumentScheduleLine.OrderToBaseQuantityDnmntr` |
-| `SalesDocumentScheduleLine.OrderToBaseQuantityNmrtr` | `SalesDocumentScheduleLine.OrderToBaseQuantityNmrtr` |
-| `SalesDocumentScheduleLine.BaseUnit` | `SalesDocumentScheduleLine.BaseUnit` |
-| `SalesDocumentScheduleLine.DeliveryDate` | `SalesDocumentScheduleLine.DeliveryDate` |
-| `reqd_deliv)` | `cast(SalesDocumentScheduleLine.IsRequestedDelivSchedLine` |
-| `reqd_deliv_date)` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate` |
-| `SalesDocumentScheduleLine.RequestedDeliveryTime` | `SalesDocumentScheduleLine.RequestedDeliveryTime` |
-| `SalesDocumentScheduleLine.ScheduleLineOrderQuantity` | `SalesDocumentScheduleLine.ScheduleLineOrderQuantity` |
-| `SalesDocumentScheduleLine.CorrectedQtyInOrderQtyUnit` | `SalesDocumentScheduleLine.CorrectedQtyInOrderQtyUnit` |
-| `confd_deliv)` | `cast(SalesDocumentScheduleLine.IsConfirmedDelivSchedLine` |
-| `confd_deliv_date)` | `cast(SalesDocumentScheduleLine.ConfirmedDeliveryDate` |
-| `SalesDocumentScheduleLine.ConfirmedDeliveryTime` | `SalesDocumentScheduleLine.ConfirmedDeliveryTime` |
-| `SalesDocumentScheduleLine.ConfdOrderQtyByMatlAvailCheck` | `SalesDocumentScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
-| `SalesDocumentScheduleLine.ConfdSchedLineReqdDelivDate` | `SalesDocumentScheduleLine.ConfdSchedLineReqdDelivDate` |
-| `SalesDocumentScheduleLine.ProductAvailabilityDate` | `SalesDocumentScheduleLine.ProductAvailabilityDate` |
-| `SalesDocumentScheduleLine.ProductAvailabilityTime` | `SalesDocumentScheduleLine.ProductAvailabilityTime` |
-| `SalesDocumentScheduleLine.ProductAvailCheckRqmtDate` | `SalesDocumentScheduleLine.ProductAvailCheckRqmtDate` |
-| `SalesDocumentScheduleLine.ProdAvailabilityCheckRqmtType` | `SalesDocumentScheduleLine.ProdAvailabilityCheckRqmtType` |
-| `SalesDocumentScheduleLine.ProdAvailyCheckPlanningType` | `SalesDocumentScheduleLine.ProdAvailyCheckPlanningType` |
-| `SalesDocumentScheduleLine.ScheduleLineConfirmationStatus` | `SalesDocumentScheduleLine.ScheduleLineConfirmationStatus` |
-| `SalesDocumentScheduleLine.OrderSchedulingGroup` | `SalesDocumentScheduleLine.OrderSchedulingGroup` |
-| `SalesDocumentScheduleLine.PlannedOrder` | `SalesDocumentScheduleLine.PlannedOrder` |
-| `SalesDocumentScheduleLine.OrderID` | `SalesDocumentScheduleLine.OrderID` |
-| `SalesDocumentScheduleLine.PurchaseRequisition` | `SalesDocumentScheduleLine.PurchaseRequisition` |
-| `SalesDocumentScheduleLine.PurchaseRequisitionItem` | `SalesDocumentScheduleLine.PurchaseRequisitionItem` |
-| `SalesDocumentScheduleLine.PurchasingOrderType` | `SalesDocumentScheduleLine.PurchasingOrderType` |
-| `SalesDocumentScheduleLine.PurchasingDocumentCategory` | `SalesDocumentScheduleLine.PurchasingDocumentCategory` |
-| `SalesDocumentScheduleLine.DeliveryCreationDate` | `SalesDocumentScheduleLine.DeliveryCreationDate` |
-| `SalesDocumentScheduleLine.TransportationPlanningDate` | `SalesDocumentScheduleLine.TransportationPlanningDate` |
-| `SalesDocumentScheduleLine.TransportationPlanningTime` | `SalesDocumentScheduleLine.TransportationPlanningTime` |
-| `SalesDocumentScheduleLine.GoodsIssueDate` | `SalesDocumentScheduleLine.GoodsIssueDate` |
-| `SalesDocumentScheduleLine.LoadingDate` | `SalesDocumentScheduleLine.LoadingDate` |
-| `SalesDocumentScheduleLine.GoodsIssueTime` | `SalesDocumentScheduleLine.GoodsIssueTime` |
-| `SalesDocumentScheduleLine.LoadingTime` | `SalesDocumentScheduleLine.LoadingTime` |
-| `SalesDocumentScheduleLine.ItemIsDeliveryRelevant` | `SalesDocumentScheduleLine.ItemIsDeliveryRelevant` |
-| `SalesDocumentScheduleLine.DelivBlockReasonForSchedLine` | `SalesDocumentScheduleLine.DelivBlockReasonForSchedLine` |
-| `SalesDocumentScheduleLine.OpenReqdDelivQtyInOrdQtyUnit` | `SalesDocumentScheduleLine.OpenReqdDelivQtyInOrdQtyUnit` |
-| `SalesDocumentScheduleLine.OpenReqdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenReqdDelivQtyInBaseUnit` |
-| `SalesDocumentScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
-| `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` |
-| `SalesDocumentScheduleLine.DeliveredQtyInOrderQtyUnit` | `SalesDocumentScheduleLine.DeliveredQtyInOrderQtyUnit` |
-| `SalesDocumentScheduleLine.DeliveredQuantityInBaseUnit` | `SalesDocumentScheduleLine.DeliveredQuantityInBaseUnit` |
-| `SalesDocumentScheduleLine.RequestedRqmtQtyInBaseUnit` | `SalesDocumentScheduleLine.RequestedRqmtQtyInBaseUnit` |
-| `SalesDocumentScheduleLine.ConfirmedRqmtQtyInBaseUnit` | `SalesDocumentScheduleLine.ConfirmedRqmtQtyInBaseUnit` |
-| `SalesDocumentScheduleLine.GoodsMovementType` | `SalesDocumentScheduleLine.GoodsMovementType` |
-| `SalesDocumentScheduleLine.OpenDeliveryNetAmount` | `SalesDocumentScheduleLine.OpenDeliveryNetAmount` |
-| `SalesDocumentScheduleLine.TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
-| `SalesDocumentScheduleLine.TradeCmplncLegalCtrlChkSts` | `SalesDocumentScheduleLine.TradeCmplncLegalCtrlChkSts` |
+| `SalesOrder` | `cast(SalesDocumentScheduleLine.SalesDocument as vdm_sales_order preserving type)` |
+| `SalesOrderItem` | `cast(…)` |
+| `ScheduleLine` | `SalesDocumentScheduleLine.ScheduleLine` |
+| `ScheduleLineCategory` | `SalesDocumentScheduleLine.ScheduleLineCategory` |
+| `OrderQuantityUnit` | `SalesDocumentScheduleLine.OrderQuantityUnit` |
+| `OrderToBaseQuantityDnmntr` | `SalesDocumentScheduleLine.OrderToBaseQuantityDnmntr` |
+| `OrderToBaseQuantityNmrtr` | `SalesDocumentScheduleLine.OrderToBaseQuantityNmrtr` |
+| `BaseUnit` | `SalesDocumentScheduleLine.BaseUnit` |
+| `DeliveryDate` | `SalesDocumentScheduleLine.DeliveryDate` |
+| `IsRequestedDelivSchedLine` | `cast(SalesDocumentScheduleLine.IsRequestedDelivSchedLine as reqd_deliv)` |
+| `RequestedDeliveryDate` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate as reqd_deliv_date)` |
+| `RequestedDeliveryTime` | `SalesDocumentScheduleLine.RequestedDeliveryTime` |
+| `ScheduleLineOrderQuantity` | `SalesDocumentScheduleLine.ScheduleLineOrderQuantity` |
+| `CorrectedQtyInOrderQtyUnit` | `SalesDocumentScheduleLine.CorrectedQtyInOrderQtyUnit` |
+| `IsConfirmedDelivSchedLine` | `cast(SalesDocumentScheduleLine.IsConfirmedDelivSchedLine as confd_deliv)` |
+| `ConfirmedDeliveryDate` | `cast(SalesDocumentScheduleLine.ConfirmedDeliveryDate as confd_deliv_date)` |
+| `ConfirmedDeliveryTime` | `SalesDocumentScheduleLine.ConfirmedDeliveryTime` |
+| `ConfdOrderQtyByMatlAvailCheck` | `SalesDocumentScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
+| `ConfdSchedLineReqdDelivDate` | `SalesDocumentScheduleLine.ConfdSchedLineReqdDelivDate` |
+| `ProductAvailabilityDate` | `SalesDocumentScheduleLine.ProductAvailabilityDate` |
+| `ProductAvailabilityTime` | `SalesDocumentScheduleLine.ProductAvailabilityTime` |
+| `ProductAvailCheckRqmtDate` | `SalesDocumentScheduleLine.ProductAvailCheckRqmtDate` |
+| `ProdAvailabilityCheckRqmtType` | `SalesDocumentScheduleLine.ProdAvailabilityCheckRqmtType` |
+| `ProdAvailyCheckPlanningType` | `SalesDocumentScheduleLine.ProdAvailyCheckPlanningType` |
+| `ScheduleLineConfirmationStatus` | `SalesDocumentScheduleLine.ScheduleLineConfirmationStatus` |
+| `OrderSchedulingGroup` | `SalesDocumentScheduleLine.OrderSchedulingGroup` |
+| `PlannedOrder` | `SalesDocumentScheduleLine.PlannedOrder` |
+| `OrderID` | `SalesDocumentScheduleLine.OrderID` |
+| `PurchaseRequisition` | `SalesDocumentScheduleLine.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `SalesDocumentScheduleLine.PurchaseRequisitionItem` |
+| `PurchasingOrderType` | `SalesDocumentScheduleLine.PurchasingOrderType` |
+| `PurchasingDocumentCategory` | `SalesDocumentScheduleLine.PurchasingDocumentCategory` |
+| `DeliveryCreationDate` | `SalesDocumentScheduleLine.DeliveryCreationDate` |
+| `TransportationPlanningDate` | `SalesDocumentScheduleLine.TransportationPlanningDate` |
+| `TransportationPlanningTime` | `SalesDocumentScheduleLine.TransportationPlanningTime` |
+| `GoodsIssueDate` | `SalesDocumentScheduleLine.GoodsIssueDate` |
+| `LoadingDate` | `SalesDocumentScheduleLine.LoadingDate` |
+| `GoodsIssueTime` | `SalesDocumentScheduleLine.GoodsIssueTime` |
+| `LoadingTime` | `SalesDocumentScheduleLine.LoadingTime` |
+| `ItemIsDeliveryRelevant` | `SalesDocumentScheduleLine.ItemIsDeliveryRelevant` |
+| `DelivBlockReasonForSchedLine` | `SalesDocumentScheduleLine.DelivBlockReasonForSchedLine` |
+| `OpenReqdDelivQtyInOrdQtyUnit` | `SalesDocumentScheduleLine.OpenReqdDelivQtyInOrdQtyUnit` |
+| `OpenReqdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenReqdDelivQtyInBaseUnit` |
+| `OpenConfdDelivQtyInOrdQtyUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInOrdQtyUnit` |
+| `OpenConfdDelivQtyInBaseUnit` | `SalesDocumentScheduleLine.OpenConfdDelivQtyInBaseUnit` |
+| `DeliveredQtyInOrderQtyUnit` | `SalesDocumentScheduleLine.DeliveredQtyInOrderQtyUnit` |
+| `DeliveredQuantityInBaseUnit` | `SalesDocumentScheduleLine.DeliveredQuantityInBaseUnit` |
+| `RequestedRqmtQtyInBaseUnit` | `SalesDocumentScheduleLine.RequestedRqmtQtyInBaseUnit` |
+| `ConfirmedRqmtQtyInBaseUnit` | `SalesDocumentScheduleLine.ConfirmedRqmtQtyInBaseUnit` |
+| `GoodsMovementType` | `SalesDocumentScheduleLine.GoodsMovementType` |
+| `OpenDeliveryNetAmount` | `SalesDocumentScheduleLine.OpenDeliveryNetAmount` |
+| `TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
+| `TradeCmplncLegalCtrlChkSts` | `SalesDocumentScheduleLine.TradeCmplncLegalCtrlChkSts` |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
-| `SalesDocumentScheduleLine._ScheduleLineCategory` | `SalesDocumentScheduleLine._ScheduleLineCategory` |
-| `SalesDocumentScheduleLine._ProdAvailabilityCheckRqmtType` | `SalesDocumentScheduleLine._ProdAvailabilityCheckRqmtType` |
-| `SalesDocumentScheduleLine._ScheduleLineConfStatus` | `SalesDocumentScheduleLine._ScheduleLineConfStatus` |
-| `SalesDocumentScheduleLine._TransactionCurrency` | `SalesDocumentScheduleLine._TransactionCurrency` |
-| `SalesDocumentScheduleLine._OrderID` | `SalesDocumentScheduleLine._OrderID` |
-| `SalesDocumentScheduleLine._ManufacturingOrder` | `SalesDocumentScheduleLine._ManufacturingOrder` |
-| `SalesDocumentScheduleLine._OrderQuantityUnit` | `SalesDocumentScheduleLine._OrderQuantityUnit` |
-| `SalesDocumentScheduleLine._BaseUnit` | `SalesDocumentScheduleLine._BaseUnit` |
-| `SalesDocumentScheduleLine._DelivBlockReasonForSchedLine` | `SalesDocumentScheduleLine._DelivBlockReasonForSchedLine` |
-| `SalesDocumentScheduleLine._GoodsMovementType` | `SalesDocumentScheduleLine._GoodsMovementType` |
-| `SalesDocumentScheduleLine._TradeCmplncLegalCtrlChkSts` | `SalesDocumentScheduleLine._TradeCmplncLegalCtrlChkSts` |
+| `_ScheduleLineCategory` | *Association* |
+| `_ProdAvailabilityCheckRqmtType` | *Association* |
+| `_ScheduleLineConfStatus` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `_OrderID` | *Association* |
+| `_ManufacturingOrder` | *Association* |
+| `_OrderQuantityUnit` | *Association* |
+| `_BaseUnit` | *Association* |
+| `_DelivBlockReasonForSchedLine` | *Association* |
+| `_GoodsMovementType` | *Association* |
+| `_TradeCmplncLegalCtrlChkSts` | *Association* |
 
 ## Associations
 

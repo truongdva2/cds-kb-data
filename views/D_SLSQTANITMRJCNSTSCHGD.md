@@ -29,17 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime                     : vdm_lastchangedon;` | `EventRaisedDateTime                     : vdm_lastchangedon;` |
-| `SalesQuotationType                      : auart_unv;` | `SalesQuotationType                      : auart_unv;` |
-| `SalesOrganization                       : vkorg;` | `SalesOrganization                       : vkorg;` |
-| `DistributionChannel                     : vtweg;` | `DistributionChannel                     : vtweg;` |
-| `OrganizationDivision                    : spart;` | `OrganizationDivision                    : spart;` |
-| `SoldToParty                             : kunnr;` | `SoldToParty                             : kunnr;` |
-| `SalesQuotationItemCategory              : pstyv;` | `SalesQuotationItemCategory              : pstyv;` |
-| `Product                                 : matnr;` | `Product                                 : matnr;` |
-| `SDDocumentRejectionStatus               : absta_vb;` | `SDDocumentRejectionStatus               : absta_vb;` |
-| `PreviousSDDocRejectionStatus            : absta_vb;` | `PreviousSDDocRejectionStatus            : absta_vb;` |
-| `SalesDocumentRjcnReason                 : abgru_va;` | `SalesDocumentRjcnReason                 : abgru_va;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesQuotationType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `SalesQuotationItemCategory` | `pstyv` |
+| `Product` | `matnr` |
+| `SDDocumentRejectionStatus` | `absta_vb` |
+| `PreviousSDDocRejectionStatus` | `absta_vb` |
+| `SalesDocumentRjcnReason` | `abgru_va` |
 
 ## Associations
 

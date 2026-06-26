@@ -31,10 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CAProviderContract` | `ProviderContract` |
-| `key CATechnicalResourceGroup` | `CATechnicalResourceGroup` |
-| `key CATechnicalResourceIDType` | `CATechnicalResourceIDType` |
-| `key CATechnicalResourceID` | `CATechnicalResourceID` |
-| `key CATechRsceValidFromDateTime` | `CATechRsceValidFromDateTime` |
+| `CATechnicalResourceGroup` | `CATechnicalResourceGroup` |
+| `CATechnicalResourceIDType` | `CATechnicalResourceIDType` |
+| `CATechnicalResourceID` | `CATechnicalResourceID` |
+| `CATechRsceValidFromDateTime` | `CATechRsceValidFromDateTime` |
 | `CATechRsceValidToDateTime` | `CATechRsceValidToDateTime` |
 | `CANormalizedTechnicalResource` | `CANormalizedTechnicalResource` |
 | `CreationDate` | `CreationDate` |

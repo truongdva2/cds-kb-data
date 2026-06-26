@@ -30,15 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_entity_guid preserving type )` | `cast( Auth.AccCtrlReferencedObjectUUID` |
-| `key case Auth.AccessControlRestrictionCode` | `case Auth.AccessControlRestrictionCode` |
-| `aco_actvt  )` | `when 'READ'     then cast( 'Read'` |
-| `aco_actvt  )` | `when 'WRITE'    then cast( 'Write'` |
-| `aco_actvt  )` | `when 'ADMIN'    then cast( 'Admin'` |
-| `aco_actvt  )` | `when 'FINANCL'  then cast( 'Financials'` |
-| `Activity` | `end` |
-| `aco_user_id preserving type )` | `cast( Auth.UserID` |
-| `aco_object_type )` | `cast( 'DPO'` |
+| `ReferencedObjectUUID` | `cast(…)` |
+| `Activity` | `case…end` |
+| `UserID` | `cast( Auth.UserID as aco_user_id preserving type )` |
+| `ObjectType` | `cast( 'DPO' as aco_object_type )` |
 
 ## Associations
 

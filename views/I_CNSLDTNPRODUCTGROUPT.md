@@ -31,11 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( _Source.AdditionalMasterDataSource` |
-| `fincs_productgroupname preserving type )` | `cast( _Source.ProductGroupName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `ProductGroup` | `cast( _Source.ProductGroup as fincs_productgroup preserving type )` |
+| `AdditionalMasterDataText` | `cast( _Source.ProductGroupName as fincs_description_text_20 preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `ProductGroupName` | `cast( _Source.ProductGroupName as fincs_productgroupname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_ProductGroup` | *Association* |
 

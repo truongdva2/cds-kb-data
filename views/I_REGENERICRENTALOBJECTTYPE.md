@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `regoobjtype )` | `cast( dd07l.domvalue_l` |
+| `REGenericRentalObjectType` | `cast( dd07l.domvalue_l as regoobjtype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REGenericRentalObjectTypeTxt` | [0..*] |
 
 ## Source Code
 

@@ -67,7 +67,7 @@ tags:
 | `RequisitionerName` | `RequisitionerName` |
 | `CreatedByUser` | `CreatedByUser` |
 | `PurReqCreationDate` | `PurReqCreationDate` |
-| `adrn2_ll preserving type)` | `cast ( DeliveryAddressID` |
+| `DeliveryAddressID` | `cast ( DeliveryAddressID as adrn2_ll preserving type)` |
 | `ManualDeliveryAddressID` | `ManualDeliveryAddressID` |
 | `PurReqnItemCurrency` | `PurReqnItemCurrency` |
 | `MaterialPlannedDeliveryDurn` | `MaterialPlannedDeliveryDurn` |
@@ -90,7 +90,7 @@ tags:
 | `IsClosed` | `IsClosed` |
 | `ReleaseIsNotCompleted` | `ReleaseIsNotCompleted` |
 | `ServicePerformer` | `ServicePerformer` |
-| `abap.char(4))` | `cast(ProductType` |
+| `ProductType` | `cast(ProductType as abap.char(4))` |
 | `PurchaseRequisitionStatus` | `PurchaseRequisitionStatus` |
 | `ReleaseStrategy` | `ReleaseStrategy` |
 | `PerformancePeriodStartDate` | `PerformancePeriodStartDate` |

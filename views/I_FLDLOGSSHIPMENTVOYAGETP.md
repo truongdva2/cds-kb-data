@@ -32,12 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true,ranking: #HIGH}` | `defaultSearchElement: true,ranking: #HIGH}` |
-| `_Stage           : redirected to composition child I_FldLogsShipmentVoyageStageTP` | *Association* |
-| `_PackggAssgmt    : redirected to composition child I_FldLogsShptVoyPackggAssgmtTP` | *Association* |
-| `_CtnAssgmt       : redirected to composition child I_FldLogsShptVoyCtnAssgmtTP` | *Association* |
-| `_ItmAssgmt       : redirected to composition child I_FldLogsShptVoyItmAssgmtTP` | *Association* |
-| `_HndlgUnitAssgmt : redirected to composition child I_FldLogsVoyHndlgUnitAssgmtTP` | *Association* |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsShptVoyageNumber` | `FldLogsShptVoyageNumber` |
+| `FldLogsShptVoyageTypeCode` | `FldLogsShptVoyageTypeCode` |
+| `FldLogsShptVoyageVehicleNumber` | `FldLogsShptVoyageVehicleNumber` |
+| `FldLogsShptVoyageVehicleName` | `FldLogsShptVoyageVehicleName` |
+| `FldLogsShptVoyageStatusCode` | `FldLogsShptVoyageStatusCode` |
+| `FldLogsVoyageChangeDateTime` | `FldLogsVoyageChangeDateTime` |
+| `FldLogsVoyLastChangeDateTime` | `FldLogsVoyLastChangeDateTime` |
+| `FldLogsShptVoyIsExternallyMngd` | `FldLogsShptVoyIsExternallyMngd` |
+| `Country` | `Country` |
+| `FldLogsVoyageCarrierID` | `FldLogsVoyageCarrierID` |
+| `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 
 ## Associations
 

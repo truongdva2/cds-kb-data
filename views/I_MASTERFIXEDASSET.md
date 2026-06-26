@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CompanyCodeStdVH', element: 'CompanyCode' } } ]` | `name: 'I_CompanyCodeStdVH', element: 'CompanyCode' } } ]` |
 | `CompanyCode` | `root.comp_code` |
 | `MasterFixedAsset` | `root.asset_no` |
-| `anlhtxt)` | `cast(main.description` |
-| `faa_authcntxt)` | `cast('NEW'` |
+| `MasterFixedAssetDescription` | `cast(main.description as anlhtxt)` |
+| `AssetAuthorizationContext` | `cast('NEW' as faa_authcntxt)` |
 | `_CompanyCode` | *Association* |
 | `_FixedAsset` | *Association* |
 

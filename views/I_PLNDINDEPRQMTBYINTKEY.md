@@ -33,29 +33,26 @@ tags:
 | `PlndIndepRqmtVersion` | `versb` |
 | `Product` | `matnr` |
 | `Plant` | `werks` |
-| `MRPArea` | `berid` |
-| `pph_bedae preserving type)` | `cast(bedae` |
+| `MRPArea` | `cast(werks as berid)` |
+| `PlndIndepRqmtType` | `cast(bedae as pph_bedae preserving type)` |
 | `RequirementPlan` | `pbdnr` |
 | `ExternalRequirementPlan` | `pbdnr_ext` |
 | `RequirementSegment` | `sgt_rcat` |
 | `PlndIndepRqmtConsumptionStrgy` | `zuvkz` |
-| `pph_vervs preserving type)` | `cast(vervs` |
-| `pph_vervp preserving type)` | `cast(verkz` |
+| `PlndIndepRqmtIsActive` | `cast(vervs as pph_vervs preserving type)` |
+| `PlndIndepRqmtConsumptionAssgmt` | `cast(verkz as pph_vervp preserving type)` |
 | `PlndIndepRqmtUsage` | `plnkz` |
-| `cast(case loevr` | `cast(case loevr` |
-| `when '' then ''` | `when '' then ''` |
-| `else 'X'` | `else 'X'` |
-| `pph_loevr preserving type)` | `end` |
+| `PlndIndepRqmtIsToBeDeleted` | `cast(case loevr when '' then '' else 'X' end as pph_loevr preserving type)` |
 | `PlannedIndepRqmtDeletionCode` | `loevr` |
 | `SalesOrder` | `kdauf` |
-| `co_kdpos  preserving type)` | `cast(kdpos` |
-| `WBSElementInternalID,   // with conv. exit` | `pspel` |
-| `ps_s4_pspnr preserving type)` | `cast(pspel` |
-| `pph_sobkz preserving type)` | `cast(sobkz` |
-| `pph_kzbws preserving type)` | `cast(kzbws` |
-| `pph_kzvbr preserving type)` | `cast(kzvbr` |
-| `pph_knttp preserving type)` | `cast(knttp` |
-| `vdm_lastchangedatetime preserving type)` | `cast(lastchangedts` |
+| `SalesOrderItem` | `cast(kdpos as co_kdpos preserving type)` |
+| `WBSElementInternalID` | `pspel` |
+| `WBSElementInternalID_2` | `cast(pspel as ps_s4_pspnr preserving type)` |
+| `InventorySpecialStockType` | `cast(sobkz as pph_sobkz preserving type)` |
+| `InventorySpecialStockValnType` | `cast(kzbws as pph_kzbws preserving type)` |
+| `ConsumptionPosting` | `cast(kzvbr as pph_kzvbr preserving type)` |
+| `AccountAssignmentCategory` | `cast(knttp as pph_knttp preserving type)` |
+| `PlndIndepRqmtLastChgdDateTime` | `cast(lastchangedts as vdm_lastchangedatetime preserving type)` |
 | `_Plant` | *Association* |
 | `_Product` | *Association* |
 | `_ProductPlant` | *Association* |
@@ -77,22 +74,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_PlndIndepRqmtItem` | `I_PlndIndepRqmtItemByIntKey` | [0..*] |
-| `_Plant` | `I_Plant` | [1..1] |
-| `_Product` | `I_Product` | [1..1] |
-| `_ProductPlant` | `I_ProductPlant` | [0..1] |
-| `_ProductPlant2` | `I_ProductPlantBasic` | [0..1] |
-| `_ProductMRPArea` | `I_ProductMRPArea` | [0..1] |
-| `_MRPArea` | `I_MRPArea` | [0..1] |
-| `_PlndIndepRqmtType` | `I_PlndIndepRqmtType` | [1..1] |
-| `_SalesOrder` | `I_SalesOrder` | [0..1] |
-| `_SalesOrderItem` | `I_SalesOrderItem` | [0..1] |
-| `_WBSElement` | `I_WBSElementBasicData` | [0..1] |
-| `_WBSElementBasic` | `I_WBSElementBasicData` | [0..1] |
-| `_InventorySpecialStockType` | `I_InventorySpecialStockType` | [0..1] |
-| `_InventorySpecialStockValnType` | `I_InvtrySpecialStockValnType` | [0..1] |
-| `_ConsumptionPosting` | `I_ConsumptionPosting` | [0..1] |
-| `_AccountAssignmentCategory` | `I_AccountAssignmentCategory` | [0..1] |
 | `_PlndIndepRqmtItem` | `I_PlndIndepRqmtItemByIntKey` | [0..*] |
 | `_Plant` | `I_Plant` | [1..1] |
 | `_Product` | `I_Product` | [1..1] |

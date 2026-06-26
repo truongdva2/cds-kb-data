@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Country` | `Country` |
-| `key WithholdingTaxType` | `WithholdingTaxType` |
-| `key WithholdingTaxCode` | `WithholdingTaxCode` |
+| `Country` | `Country` |
+| `WithholdingTaxType` | `WithholdingTaxType` |
+| `WithholdingTaxCode` | `WithholdingTaxCode` |
 | `OfficialWhldgTaxCode` | `OfficialWhldgTaxCode` |
 | `WhldgTaxRelevantPercent` | `WhldgTaxRelevantPercent` |
 | `WithholdingTaxPercent` | `WithholdingTaxPercent` |
@@ -55,7 +55,6 @@ tags:
 |---|---|---|
 | `_Country` | `I_Country` | [1] |
 | `_TaxCodeText` | `I_ExtendedWhldgTaxCodeText` | [1..*] |
-| `_TaxKey` | `I_OfficialWithholdingTaxKey` | [1..1] |
 | `_RegionText` | `I_RegionText` | [1..1] |
 | `_IncomeTypeText` | `I_WithholdingTaxIncomeTypeText` | [1..1] |
 

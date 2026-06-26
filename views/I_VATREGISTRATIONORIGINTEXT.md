@@ -32,16 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `stceg_h preserving type)` | `cast(SUBSTRING(domvalue_l, 1, 1)` |
+| `VATRegistrationOrigin` | `cast(SUBSTRING(domvalue_l, 1, 1) as stceg_h preserving type)` |
 | `Language` | `ddlanguage` |
-| `stceg_h_text preserving type)` | `cast(ddtext` |
+| `VATRegistrationOriginName` | `cast(ddtext as stceg_h_text preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_VATRegistrationOrigin` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_VATRegistrationOrigin` | `I_VATRegistrationOrigin` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

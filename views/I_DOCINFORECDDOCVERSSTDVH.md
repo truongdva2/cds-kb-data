@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
-| `key DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
-| `key DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 

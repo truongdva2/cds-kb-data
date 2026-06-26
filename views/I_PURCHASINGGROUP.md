@@ -29,7 +29,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PurchasingGroup` | `t024.ekgrp` |
-| `mm_a_purg_grp_name preserving type )` | `cast(t024.eknam` |
+| `PurchasingGroupName` | `cast(t024.eknam as mm_a_purg_grp_name preserving type )` |
 | `PurchasingGroupPhoneNumber` | `t024.ektel` |
 | `FaxNumber` | `t024.telfx` |
 | `PhoneNumber` | `t024.tel_number` |

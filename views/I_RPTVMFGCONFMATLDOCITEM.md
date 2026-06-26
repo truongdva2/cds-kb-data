@@ -30,54 +30,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key conf.RepetitiveMfgConfirmation` | `conf.RepetitiveMfgConfirmation` |
-| `key mseg.MaterialDocument` | `mseg.MaterialDocument` |
-| `key mseg.MaterialDocumentYear` | `mseg.MaterialDocumentYear` |
-| `key mseg.MaterialDocumentItem` | `mseg.MaterialDocumentItem` |
-| `mseg.PostingDate` | `mseg.PostingDate` |
-| `mseg.DocumentDate` | `mseg.DocumentDate` |
-| `ernam preserving type)` | `cast(mseg.CreatedByUser` |
-| `pwwrk preserving type)` | `cast(conf.Plant` |
-| `conf.ReportingPointOperation` | `conf.ReportingPointOperation` |
-| `conf.RepetitiveMfgConfScenario` | `conf.RepetitiveMfgConfScenario` |
-| `conf.RptvMfgConfProcessingType` | `conf.RptvMfgConfProcessingType` |
-| `conf.RptvMfgConfReversedCode` | `conf.RptvMfgConfReversedCode` |
-| `co_matnr preserving type)` | `cast(mseg.Material` |
+| `RepetitiveMfgConfirmation` | `conf.RepetitiveMfgConfirmation` |
+| `MaterialDocument` | `afwi.MaterialDocument` |
+| `MaterialDocumentYear` | `afwi.MaterialDocumentYear` |
+| `MaterialDocumentItem` | `afwi.MaterialDocumentItem` |
+| `PostingDate` | `mseg.PostingDate` |
+| `DocumentDate` | `mseg.DocumentDate` |
+| `CreatedByUser` | `cast(mseg.CreatedByUser as ernam preserving type)` |
+| `ConfirmationPlant` | `cast(conf.Plant as pwwrk preserving type)` |
+| `ReportingPointOperation` | `conf.ReportingPointOperation` |
+| `RepetitiveMfgConfScenario` | `conf.RepetitiveMfgConfScenario` |
+| `RptvMfgConfProcessingType` | `conf.RptvMfgConfProcessingType` |
+| `RptvMfgConfReversedCode` | `conf.RptvMfgConfReversedCode` |
+| `Material` | `cast(mseg.Material as co_matnr preserving type)` |
 | `Plant` | `mseg.Plant` |
 | `Reservation` | `mseg.Reservation` |
 | `ReservationItem` | `mseg.ReservationItem` |
 | `ReservationRecordType` | `mseg.ReservationRecordType` |
-| `pph_lgort preserving type)` | `cast(mseg.StorageLocation` |
+| `StorageLocation` | `cast(mseg.StorageLocation as pph_lgort preserving type)` |
 | `Batch` | `mseg.Batch` |
-| `pph_bwtar preserving type)` | `cast(mseg.InventoryValuationType` |
-| `pph_kzvbr preserving type)` | `cast(mseg.ConsumptionPosting` |
-| `pph_shkzg preserving type)` | `cast(mseg.DebitCreditCode` |
-| `pph_bwart preserving type)` | `cast(mseg.GoodsMovementType` |
+| `InventoryValuationType` | `cast(mseg.InventoryValuationType as pph_bwtar preserving type)` |
+| `ConsumptionPosting` | `cast(mseg.ConsumptionPosting as pph_kzvbr preserving type)` |
+| `DebitCreditCode` | `cast(mseg.DebitCreditCode as pph_shkzg preserving type)` |
+| `GoodsMovementType` | `cast(mseg.GoodsMovementType as pph_bwart preserving type)` |
 | `GoodsMovementReasonCode` | `mseg.GoodsMovementReasonCode` |
 | `GoodsMovementRefDocType` | `mseg.GoodsMovementRefDocType` |
-| `inventoryusabilitycode preserving type)` | `cast(mseg.InventoryUsabilityCode` |
-| `pph_sobkz preserving type)` | `cast(mseg.InventorySpecialStockType` |
-| `pph_kzbws preserving type)` | `cast(mseg.InventorySpecialStockValnType` |
-| `co_kdauf preserving type)` | `cast(mseg.SalesOrder` |
-| `co_kdpos preserving type)` | `cast(mseg.SalesOrderItem` |
-| `ps_s4_pspnr preserving type)` | `cast(mseg.WBSElementInternalID` |
+| `InventoryUsabilityCode` | `cast(mseg.InventoryUsabilityCode as inventoryusabilitycode preserving type)` |
+| `InventorySpecialStockType` | `cast(mseg.InventorySpecialStockType as pph_sobkz preserving type)` |
+| `InventorySpecialStockValnType` | `cast(mseg.InventorySpecialStockValnType as pph_kzbws preserving type)` |
+| `SalesOrder` | `cast(mseg.SalesOrder as co_kdauf preserving type)` |
+| `SalesOrderItem` | `cast(mseg.SalesOrderItem as co_kdpos preserving type)` |
+| `WBSElementInternalID` | `cast(mseg.WBSElementInternalID as ps_s4_pspnr preserving type)` |
 | `Supplier` | `mseg.Supplier` |
 | `Customer` | `mseg.Customer` |
-| `pph_wempf preserving type)` | `cast(mseg.GoodsRecipientName` |
-| `ablad preserving type)` | `cast(mseg.UnloadingPointName` |
-| `mseg.ReservationIsFinallyIssued` | `mseg.ReservationIsFinallyIssued` |
-| `mseg.IsCompletelyDelivered` | `mseg.IsCompletelyDelivered` |
-| `mseg.ShelfLifeExpirationDate` | `mseg.ShelfLifeExpirationDate` |
-| `mseg.ManufactureDate` | `mseg.ManufactureDate` |
-| `mseg.StorageType` | `mseg.StorageType` |
-| `mseg.StorageBin` | `mseg.StorageBin` |
+| `GoodsRecipientName` | `cast(mseg.GoodsRecipientName as pph_wempf preserving type)` |
+| `UnloadingPointName` | `cast(mseg.UnloadingPointName as ablad preserving type)` |
+| `ReservationIsFinallyIssued` | `mseg.ReservationIsFinallyIssued` |
+| `IsCompletelyDelivered` | `mseg.IsCompletelyDelivered` |
+| `ShelfLifeExpirationDate` | `mseg.ShelfLifeExpirationDate` |
+| `ManufactureDate` | `mseg.ManufactureDate` |
+| `StorageType` | `mseg.StorageType` |
+| `StorageBin` | `mseg.StorageBin` |
 | `EWMWarehouse` | `mseg.EWMWarehouse` |
-| `EWMStorageBin` | `mseg.EWMStorageBin` |
+| `EWMStorageBin` | `-- mseg.EWMStorageBin` |
 | `HandlingUnitExternalID` | `mseg.HandlingUnitExternalID` |
 | `BaseUnit` | `mseg.MaterialBaseUnit` |
 | `QuantityInBaseUnit` | `mseg.QuantityInBaseUnit` |
 | `EntryUnit` | `mseg.EntryUnit` |
-| `pph_erfmg preserving type)` | `cast(mseg.QuantityInEntryUnit` |
+| `QuantityInEntryUnit` | `cast(mseg.QuantityInEntryUnit as pph_erfmg preserving type)` |
 | `_RepetitiveMfgConfirmation` | *Association* |
 | `_MaterialDocumentHeader` | *Association* |
 | `_MaterialDocumentYear` | *Association* |
@@ -86,10 +86,10 @@ tags:
 | `_PostingDate` | *Association* |
 | `_ShelfLifeExpirationDate` | *Association* |
 | `_ManufactureDate` | *Association* |
-| `_ConfirmationPlant` | `conf._Plant` |
-| `conf._RepetitiveMfgScenario` | `conf._RepetitiveMfgScenario` |
-| `_ProcessingType` | `conf._RptvMfgConfProcessingType` |
-| `_ReversalType` | `conf._RptvMfgConfRevesalType` |
+| `_ConfirmationPlant` | *Association* |
+| `_RepetitiveMfgScenario` | *Association* |
+| `_ProcessingType` | *Association* |
+| `_ReversalType` | *Association* |
 | `_Material` | *Association* |
 | `_Plant` | *Association* |
 | `_Reservation` | *Association* |
@@ -124,41 +124,6 @@ tags:
 |---|---|---|
 | `_RepetitiveMfgConfirmation` | `I_RepetitiveMfgConfirmation` | [1..1] |
 | `_MaterialDocumentHeader` | `I_MaterialDocumentHeader_2` | [1..1] |
-| `_DocumentDate` | `I_CalendarDate` | [0..1] |
-| `_PostingDate` | `I_CalendarDate` | [0..1] |
-| `_ShelfLifeExpirationDate` | `I_CalendarDate` | [0..1] |
-| `_ManufactureDate` | `I_CalendarDate` | [0..1] |
-| `_Reservation` | `I_ReservationDocumentHeader` | [0..1] |
-| `_ReservationItem` | `I_ReservationDocumentItem` | [0..1] |
-| `_ReservationRecordType` | `I_ReservationDocRecordType` | [0..1] |
-| `_Plant` | `I_Plant` | [1..1] |
-| `_Material` | `I_Material` | [1..1] |
-| `_BaseUnit` | `I_UnitOfMeasure` | [1..1] |
-| `_EntryUnit` | `I_UnitOfMeasure` | [1..1] |
-| `_GoodsMovementType` | `I_GoodsMovementType` | [1..1] |
-| `_GoodsMovementReason` | `I_PhysInvtryReasonCode` | [0..1] |
-| `_GoodsMovementRefDocType` | `I_GoodsMovementRefDocType` | [0..1] |
-| `_InventorySpecialStockType` | `I_InventorySpecialStockType` | [0..1] |
-| `_InventorySpecialStockValnType` | `I_InvtrySpecialStockValnType` | [0..1] |
-| `_InventoryValuationType` | `I_InventoryValuationType` | [0..1] |
-| `_ConsumptionPosting` | `I_ConsumptionPosting` | [0..1] |
-| `_DebitCreditCode` | `I_DebitCreditCode` | [0..1] |
-| `_InventoryUsabilityCode` | `I_StockType_2` | [0..1] |
-| `_StorageLocation` | `I_StorageLocation` | [0..1] |
-| `_Batch` | `I_Batch` | [0..1] |
-| `_SalesOrder` | `I_SalesOrder` | [0..1] |
-| `_SalesOrderItem` | `I_SalesOrderItem` | [0..1] |
-| `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
-| `_Supplier` | `I_Supplier` | [0..1] |
-| `_Customer` | `I_Customer` | [0..1] |
-| `_SupplierCompanyByPlant` | `I_SupplierCompanyByPlant` | [0..1] |
-| `_CustomerCompanyByPlant` | `I_CustomerCompanyByPlant` | [0..1] |
-| `_EWMWarehouse` | `I_EWM_WarehouseNumber_2` | [0..1] |
-| `_EWMStorageBin` | `I_EWM_StorageBin_2` | [0..1] |
-| `_RepetitiveMfgConfirmation` | `I_RepetitiveMfgConfirmation` | [1..1] |
-| `_MaterialDocumentHeader` | `I_MaterialDocumentHeader_2` | [1..1] |
-| `_MaterialDocumentItem` | `I_MaterialDocumentItem_2` | [1..1] |
-| `_MaterialDocumentYear` | `I_MaterialDocumentYear` | [1..1] |
 | `_DocumentDate` | `I_CalendarDate` | [0..1] |
 | `_PostingDate` | `I_CalendarDate` | [0..1] |
 | `_ShelfLifeExpirationDate` | `I_CalendarDate` | [0..1] |

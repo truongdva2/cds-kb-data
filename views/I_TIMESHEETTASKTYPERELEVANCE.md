@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `TimeSheetTaskTypeRelevanceCode` | `cast(dd07l.domvalue_l as catsxt_tasktype_relevance)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

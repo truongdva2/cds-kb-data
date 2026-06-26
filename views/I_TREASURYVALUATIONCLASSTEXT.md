@@ -34,11 +34,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TreasuryValuationArea` | `TreasuryValuationClassText.valuation_area` |
-| `ftr_gen_valuation_class preserving type)` | `cast(TreasuryValuationClassText.valuation_class` |
-| `as TreasuryValuationClass` | `as TreasuryValuationClass` |
+| `TreasuryValuationClass` | `cast(…)` |
 | `Language` | `TreasuryValuationClassText.spras` |
-| `ftr_gen_valuation_class_name preserving type )` | `cast(TreasuryValuationClassText.val_class_name` |
-| `as TreasuryValuationClassName` | `as TreasuryValuationClassName` |
+| `TreasuryValuationClassName` | `cast(…)` |
 | `_TreasuryValuationClass` | *Association* |
 | `_TreasuryValuationArea` | *Association* |
 | `_Language` | *Association* |
@@ -49,6 +47,7 @@ tags:
 |---|---|---|
 | `_TreasuryValuationClass` | `I_TreasuryValuationClass` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
+| `_TreasuryValuationArea` | `I_TreasuryValuationArea` | — |
 
 ## Source Code
 

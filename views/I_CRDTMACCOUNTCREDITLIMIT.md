@@ -31,20 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   BusinessPartner` | `BusinessPartner` |
-| `key   CreditSegment` | `CreditSegment` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CreditSegment` | `CreditSegment` |
 | `CreditSegmentCurrency` | `CreditSegmentCurrency` |
-| `cast( ( CustomerCreditLimitAmount` | `cast( ( CustomerCreditLimitAmount` |
-| `+ SgmSecuredCreditLimitAmount + SgmInsuredCreditLimitAmount + SgmTempIncreasedCreditLmtAmt` | `+ SgmSecuredCreditLimitAmount + SgmInsuredCreditLimitAmount + SgmTempIncreasedCreditLmtAmt` |
-| `+ ProfSecLimitAmount + ProfInsLimitAmount + ProfTmpIncrLimitAmount` | `+ ProfSecLimitAmount + ProfInsLimitAmount + ProfTmpIncrLimitAmount` |
-| `ukm_effectivetotalcrdlimitamt )` | `)` |
+| `EffectiveTotalCreditLimitAmt` | `cast(…)` |
 | `CustomerCreditLimitAmount` | `CustomerCreditLimitAmount` |
-| `cast( ( SgmSecuredCreditLimitAmount + ProfSecLimitAmount` | `cast( ( SgmSecuredCreditLimitAmount + ProfSecLimitAmount` |
-| `ukm_securedcreditlimitamt )` | `)` |
-| `cast( ( SgmInsuredCreditLimitAmount + ProfInsLimitAmount` | `cast( ( SgmInsuredCreditLimitAmount + ProfInsLimitAmount` |
-| `ukm_insuredcreditlimitamt )` | `)` |
-| `cast( ( SgmTempIncreasedCreditLmtAmt + ProfTmpIncrLimitAmount` | `cast( ( SgmTempIncreasedCreditLmtAmt + ProfTmpIncrLimitAmount` |
-| `ukm_tmpincreasedcrdlimitamt )` | `)` |
+| `SecuredCreditLimitAmount` | `cast(…)` |
+| `InsuredCreditLimitAmount` | `cast(…)` |
+| `TemporaryIncreasedCreditLmtAmt` | `cast(…)` |
 | `_BusinessPartner` | *Association* |
 | `_CreditManagementSegment` | *Association* |
 

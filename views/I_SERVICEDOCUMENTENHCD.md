@@ -30,7 +30,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceDocumentUUID` | `ServiceDocumentUUID` |
+| `ServiceDocumentCharUUID` | `ServiceDocumentCharUUID` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocumentTemplateType` | `ServiceDocumentTemplateType` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreationDate` | `cast(…)` |
+| `ServiceDocumentChangedDate` | `cast(…)` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingProcedure` | `PricingProcedure` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `SrvcDocIsMaintServiceOrder` | `SrvcDocIsMaintServiceOrder` |
+| `BusinessActivityCategory` | `BusinessActivityCategory` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `SoldToParty` | `SoldToParty` |
 | `SoldToPartyCountry` | `SoldToPartyCountry` |
@@ -53,30 +75,12 @@ tags:
 | `SrvcDocTmplValdtyStartDateTime` | `SrvcDocTmplValdtyStartDateTime` |
 | `SrvcDocTmplValdtyEndDateTime` | `SrvcDocTmplValdtyEndDateTime` |
 | `SrvcDocTemplateSearchTermText` | `SrvcDocTemplateSearchTermText` |
-| `cast( tstmp_to_dats( RequestedServiceStartDateTime` | `cast( tstmp_to_dats( RequestedServiceStartDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_created_on preserving type )` | `'NULL' )` |
-| `cast( tstmp_to_dats( RequestedServiceEndDateTime` | `cast( tstmp_to_dats( RequestedServiceEndDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_changed_on preserving type )` | `'NULL' )` |
-| `cast( tstmp_to_dats( ServiceContractStartDateTime` | `cast( tstmp_to_dats( ServiceContractStartDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_created_on preserving type )` | `'NULL' )` |
-| `cast( tstmp_to_dats( ServiceContractEndDateTime` | `cast( tstmp_to_dats( ServiceContractEndDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_changed_on preserving type )` | `'NULL' )` |
-| `cast( tstmp_to_dats( SrvcQtanValidityStartDateTime` | `cast( tstmp_to_dats( SrvcQtanValidityStartDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_created_on preserving type )` | `'NULL' )` |
-| `cast( tstmp_to_dats( SrvcQtanValidityEndDateTime` | `cast( tstmp_to_dats( SrvcQtanValidityEndDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `crms4_changed_on preserving type )` | `'NULL' )` |
+| `RequestedServiceStartDate` | `cast(…)` |
+| `RequestedServiceEndDate` | `cast(…)` |
+| `ServiceContractStartDate` | `cast(…)` |
+| `ServiceContractEndDate` | `cast(…)` |
+| `SrvcQuotationValidityStartDate` | `cast(…)` |
+| `SrvcQuotationValidityEndDate` | `cast(…)` |
 | `PaymentTerms` | `PaymentTerms` |
 | `PaymentMethod` | `PaymentMethod` |
 | `SrvcSEPAMandateRelevance` | `SrvcSEPAMandateRelevance` |
@@ -156,7 +160,7 @@ tags:
 | `DeliveryPriority` | `DeliveryPriority` |
 | `IncotermsPart1` | `IncotermsPart1` |
 | `IncotermsPart2` | `IncotermsPart2` |
-| `_StatusObjectWithUUID.StatusProfile` | *Association* |
+| `StatusProfile` | `_StatusObjectWithUUID.StatusProfile` |
 | `_ServiceObjType` | *Association* |
 | `_ServiceDocumentType` | *Association* |
 | `_SoldToParty` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_sprgrd )` | `cast( dd07l.domvalue_l` |
+| `TreasuryPaymentRequestGrouping` | `cast( dd07l.domvalue_l as tb_sprgrd )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

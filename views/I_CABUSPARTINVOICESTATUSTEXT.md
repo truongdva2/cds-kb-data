@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_status_dc_kk preserving type )` | `cast( left( dd07t.domvalue_l,2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `inv_status_dc_text_kk preserving type )` | `cast( ddtext` |
+| `CABusPartnerInvoiceStatus` | `cast( left( dd07t.domvalue_l,2 ) as inv_status_dc_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABusPartnerInvoiceStatusText` | `cast( ddtext as inv_status_dc_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

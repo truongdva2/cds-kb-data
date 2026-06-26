@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _SupplierInvoiceStsAndOrign.SupplierInvoice` | `_SupplierInvoiceStsAndOrign.SupplierInvoice` |
-| `key _SupplierInvoiceStsAndOrign.FiscalYear` | `_SupplierInvoiceStsAndOrign.FiscalYear` |
-| `_SupplierInvoiceStsAndOrign.InvoiceStatusAndOrigin` | *Association* |
+| `SupplierInvoice` | `_SupplierInvoiceStsAndOrign.SupplierInvoice` |
+| `FiscalYear` | `_SupplierInvoiceStsAndOrign.FiscalYear` |
+| `InvoiceStatusAndOrigin` | `_SupplierInvoiceStsAndOrign.InvoiceStatusAndOrigin` |
 | `_SupplierInvoiceAPI01` | *Association* |
 | `_SuplrInvcStsOrignTxtAPI01` | *Association* |
 

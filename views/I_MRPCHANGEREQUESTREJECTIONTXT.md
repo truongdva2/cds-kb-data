@@ -38,6 +38,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MRPRequestRejection` | `I_MRPChangeRequestRejection` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

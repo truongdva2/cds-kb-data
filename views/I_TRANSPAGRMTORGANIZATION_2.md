@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_org_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(parent_key` |
+| `TranspAgrmtOrganizationUUID` | `cast(db_key as /scmtms/vdm_fag_org_uuid preserving type)` |
+| `TransportationAgreementUUID` | `cast(parent_key as /scmtms/transpagrmt_uuid preserving type)` |
 | `TranspPurgOrg` | `purch_org` |
 | `_TransportationAgreement` | *Association* |
 | `_PurchasingOrg` | *Association* |
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationAgreement` | `I_TransportationAgreement` | — |
 | `_PurchasingOrg` | `I_TranspPurgOrg` | [1..1] |
 
 ## Source Code

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurCatMaterialGroupUUID` | `PurCatMaterialGroupUUID` |
+| `PurCatMaterialGroupUUID` | `PurCatMaterialGroupUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `MaterialGroup` | `MaterialGroup` |
 | `_PurchasingCategory` | *Association* |

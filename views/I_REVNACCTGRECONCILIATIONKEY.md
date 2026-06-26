@@ -31,7 +31,7 @@ tags:
 |---|---|
 | `CompanyCode` | `company_code` |
 | `AccountingPrinciple` | `acct_principle` |
-| `farr_cds_contract_id preserving type)` | `cast(contract_id` |
+| `RevenueAccountingContract` | `cast(contract_id as farr_cds_contract_id preserving type)` |
 | `RevnAcctgReconciliationKey` | `recon_key` |
 | `FiscalYearPeriod` | `substring(recon_key, 1, 7)` |
 | `FiscalYear` | `gjahr` |

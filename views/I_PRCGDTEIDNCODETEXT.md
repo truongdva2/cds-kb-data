@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kprdt )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PricingDateIdentificationCode` | `cast ( substring( domvalue_l, 1, 1 ) as kprdt )` |
+| `PrcgDateIdentificationCodeText` | `cast ( ddtext as val_text )` |
 | `_PrcgDateIdentificationCode` | *Association* |
 | `_Language` | *Association* |
 

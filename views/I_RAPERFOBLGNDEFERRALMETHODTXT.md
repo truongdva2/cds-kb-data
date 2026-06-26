@@ -31,7 +31,7 @@ tags:
 |---|---|
 | `Language` | `_DeferralMethodText.langu` |
 | `PerfObligationDeferralMethod` | `_BADIFilterCondition.value1` |
-| `_DeferralMethodText.text    as PerfOblgnDeferralMethodText` | *Association* |
+| `PerfOblgnDeferralMethodText` | `_DeferralMethodText.text` |
 | `_DeferralMethod` | *Association* |
 | `_Language` | *Association* |
 

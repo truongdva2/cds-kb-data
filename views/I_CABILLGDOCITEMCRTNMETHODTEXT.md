@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `billitem_crmet_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,2 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `billitem_crmet_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CABillgDocItemCrtnMethod` | `cast ( substring( dd07t.domvalue_l,1,2 ) as billitem_crmet_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CABillgDocItemCrtnMethodText` | `cast ( ddtext as billitem_crmet_txt_gfn_kk preserving type )` |
 | `_CABillgDocItemCrtnMethod` | *Association* |
 | `_Language` | *Association* |
 

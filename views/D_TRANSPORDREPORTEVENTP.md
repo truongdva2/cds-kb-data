@@ -29,15 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspOrdEventCode              : /scmtms/tor_event;` | `TranspOrdEventCode              : /scmtms/tor_event;` |
-| `TransportationOrderStopUUID     : /scmtms/torstopuuid;` | `TransportationOrderStopUUID     : /scmtms/torstopuuid;` |
-| `TranspOrdEvtActualDateTime      : /scmtms/vdm_event_actl_dtetme;` | `TranspOrdEvtActualDateTime      : /scmtms/vdm_event_actl_dtetme;` |
-| `TranspOrdEvtEstimatedDateTime   : /scmtms/vdm_estimated_datetime;` | `TranspOrdEvtEstimatedDateTime   : /scmtms/vdm_estimated_datetime;` |
-| `_TransportationOrderItems       : association [0..*] to D_TranspOrdReportEventItemP on 1 = 0;` | *Association* |
+| `TranspOrdEventCode` | `/scmtms/tor_event` |
+| `TransportationOrderStopUUID` | `/scmtms/torstopuuid` |
+| `TranspOrdEvtActualDateTime` | `/scmtms/vdm_event_actl_dtetme` |
+| `TranspOrdEvtEstimatedDateTime` | `/scmtms/vdm_estimated_datetime` |
+| `_TransportationOrderItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransportationOrderItems` | `D_TranspOrdReportEventItemP` | [0..*] |
 
 ## Source Code
 

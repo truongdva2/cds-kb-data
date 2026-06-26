@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdokukz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspResultIsDocumentationRqd` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qdokukz preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qdokukz_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
-| `,_InspResultDocuRequired` | `,_InspResultDocuRequired` |
-| `,_Language` | `,_Language` |
+| `InspResultIsDocnRqdText` | `cast( ddtext as vdm_qdokukz_text preserving type )` |
+| `_InspResultDocuRequired` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

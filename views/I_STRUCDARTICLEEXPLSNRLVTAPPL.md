@@ -30,14 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `keytr)` | `cast( dd07l.domvalue_l` |
+| `StrucdArticleExplsnRlvtAppl` | `cast( dd07l.domvalue_l as keytr)` |
 | `_MatSplitTypeText` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_MatSplitTypeText` | `I_StrucdArticlExplsnRlvApplTxt` | [1] |
 | `_MatSplitTypeText` | `I_StrucdArticleExplsnRlvtApplT` | [1] |
 
 ## Source Code

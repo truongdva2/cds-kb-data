@@ -32,11 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
 | `ControllingArea` | `hrrp_dirt_n.hrycls` |
-| `fis_hryid_cctracttytpe)` | `cast(hrrp_dirt_n.hryid` |
+| `CostCtrActivityTypeHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_cctracttytpe)` |
 | `ValidityEndDate` | `hrrp_dirt_n.hryvalto` |
 | `Language` | `spras` |
 | `ValidityStartDate` | `hrrp_dirt_n.hryvalfrom` |

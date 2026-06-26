@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `strum )` | `cast(dd07l.domvalue_l` |
+| `SlsDocBOMExplsnStrucScp` | `cast(dd07l.domvalue_l as strum )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConsolidationAnswer` | `ConsolidationAnswer` |
-| `_Text[1: Language=$session.system_language].ConsolidationAnswerText` | *Association* |
+| `ConsolidationAnswer` | `ConsolidationAnswer` |
+| `ConsolidationAnswerText` | `_Text[1: Language=$session.system_language].ConsolidationAnswerText` |
 
 ## Associations
 

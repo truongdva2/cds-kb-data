@@ -32,7 +32,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `EntitledToDisposeParty` | `EntitledToDisposeParty` |
+| `EWMStorageType` | `EWMStorageType` |
+| `ProductInternalUUID` | `ProductInternalUUID` |
+| `SupplyChainUnitUUID` | `SupplyChainUnitUUID` |
+| `EWMPartyEntitledToDisposeUUID` | `EWMPartyEntitledToDisposeUUID` |
+| `EWMStorageSectionMethod` | `EWMStorageSectionMethod` |
+| `EWMStorageBinType` | `EWMStorageBinType` |
+| `EWMMaximumNumberOfBins` | `EWMMaximumNumberOfBins` |
+| `EWMMaximumStorageQuantity` | `EWMMaximumStorageQuantity` |
+| `EWMMaxStorQuantityBaseUnit` | `EWMMaxStorQuantityBaseUnit` |
+| `EWMMaxStorQuantityDisplayUnit` | `EWMMaxStorQuantityDisplayUnit` |
+| `EWMMinimumStorageQuantity` | `EWMMinimumStorageQuantity` |
+| `EWMMinStorQuantityBaseUnit` | `EWMMinStorQuantityBaseUnit` |
+| `EWMMinStorQuantityDisplayUnit` | `EWMMinStorQuantityDisplayUnit` |
+| `EWMMinReplnmtQuantity` | `EWMMinReplnmtQuantity` |
+| `EWMMinReplnmtQtyBaseUnit` | `EWMMinReplnmtQtyBaseUnit` |
 | `EWMMinReplnmtQtyDisplayUnit` | `EWMMinReplnmtQtyDisplayUnit` |
 | `EWMMinStorQtyOfMaxStorQtyInPct` | `EWMMinStorQtyOfMaxStorQtyInPct` |
 | `EWMSpltPtwyThresholdInPercent` | `EWMSpltPtwyThresholdInPercent` |
@@ -43,9 +60,6 @@ tags:
 | `EWMProdQuantityClassification` | `EWMProdQuantityClassification` |
 | `EWMProdPtwyQtyClassification` | `EWMProdPtwyQtyClassification` |
 | `EWMPtwySequence` | `EWMPtwySequence` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductEWMWarehouse : redirected to parent I_ProductEWMWarehouseTP_2` | *Association* |
-| `_Product             : redirected to I_ProductTP_2` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |
 | `_MaxStorageQtyDisplayUnitText` | *Association* |

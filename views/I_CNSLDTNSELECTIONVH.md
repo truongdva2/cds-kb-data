@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConsolidationSelection` | `ConsolidationSelection` |
+| `ConsolidationSelection` | `ConsolidationSelection` |
 | `FinancialSelection` | `FinancialSelection` |
-| `fincs_description_text_80 preserving type )` | `cast(_Text[1: Language=$session.system_language].ConsolidationSelectionText` |
+| `ConsolidationSelectionText` | `cast(…)` |
 
 ## Associations
 

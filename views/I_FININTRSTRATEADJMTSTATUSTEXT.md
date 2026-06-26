@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tb_ira_registration_state )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinInterestRateAdjmtStatus` | `cast( dd07t.domvalue_l as tb_ira_registration_state )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tb_ira_registration_state_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinInterestRateAdjmtStatusName` | `cast( dd07t.ddtext as tb_ira_registration_state_name preserving type )` |
 | `_AdjustmentStatus` | *Association* |
 | `_Language` | *Association* |
 

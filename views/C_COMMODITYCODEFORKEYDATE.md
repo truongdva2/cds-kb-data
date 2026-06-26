@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
-| `key CommodityCode` | `CommodityCode` |
+| `TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
+| `CommodityCode` | `CommodityCode` |
 | `TrdClassfctnNmbrSchmCntnt` | `TrdClassfctnNmbrSchmCntnt` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |

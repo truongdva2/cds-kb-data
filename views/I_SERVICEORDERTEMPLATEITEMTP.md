@@ -32,7 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'QuantityUnit'} }` | `unitOfMeasure: 'QuantityUnit'} }` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
+| `ServiceOrderTemplateItemUUID` | `ServiceOrderTemplateItemUUID` |
+| `SrvcOrdTmplItmDescription` | `SrvcOrdTmplItmDescription` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `SrvcOrdTmplItmCategory` | `SrvcOrdTmplItmCategory` |
+| `ServiceDocumentItemObjectType` | `ServiceDocumentItemObjectType` |
+| `Language` | `Language` |
+| `SrvcOrdTmplItmValdtyStrtDteTme` | `SrvcOrdTmplItmValdtyStrtDteTme` |
+| `SrvcOrdTmplItmValdtyEndDteTme` | `SrvcOrdTmplItmValdtyEndDteTme` |
+| `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
+| `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
+| `ServiceDocItemCreatedByUser` | `ServiceDocItemCreatedByUser` |
+| `ServiceDocItemChangedByUser` | `ServiceDocItemChangedByUser` |
+| `Product` | `Product` |
 | `Quantity` | `Quantity` |
 | `QuantityUnit` | `QuantityUnit` |
 | `ParentServiceOrderTemplateItem` | `ParentServiceOrderTemplateItem` |
@@ -47,13 +61,6 @@ tags:
 | `_ServiceDocument` | *Association* |
 | `_SrvcOrdTmplItmStatus` | *Association* |
 | `_Product` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceOrderTemplateTP       : redirected to parent I_ServiceOrderTemplateTP` | *Association* |
-| `_SrvcOrdTmplItmRefObjectTP    : redirected to composition child I_SrvcOrdTmplItmRefObjectTP` | *Association* |
-| `_SrvcOrdTmplItemUserStatusTP  : redirected to composition child I_SrvcOrdTmplItemUserStatusTP` | *Association* |
-| `_SrvcOrdTmplItemLongTextTP    : redirected to composition child I_SrvcOrdTmplItemLongTextTP` | *Association* |
-| `_SrvcOrdTmplItemAppointmentTP : redirected to composition child I_SrvcOrdTmplItemAppointmentTP` | *Association* |
-| `_SrvcOrdTmplItemDurationTP    : redirected to composition child I_SrvcOrdTmplItemDurationTP` | *Association* |
 
 ## Associations
 

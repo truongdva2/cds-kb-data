@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tfm_calculation_category preserving type )` | `cast( CashFlowCalcCategoryText.sberfima` |
+| `CashFlowCalculationCategory` | `cast(…)` |
 | `Language` | `CashFlowCalcCategoryText.spras` |
-| `tfm_calculation_category_name preserving type )` | `cast( CashFlowCalcCategoryText.xberfima` |
+| `CashFlowCalcCategoryName` | `cast(…)` |
 | `_ValueHelp` | *Association* |
 | `_Language` | *Association* |
 

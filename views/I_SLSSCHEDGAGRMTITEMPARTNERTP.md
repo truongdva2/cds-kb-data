@@ -33,22 +33,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedgAgrmtItemPartner.SalesSchedulingAgreement` | `SalesSchedgAgrmtItemPartner.SalesSchedulingAgreement` |
-| `key SalesSchedgAgrmtItemPartner.SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItemPartner.SalesSchedulingAgreementItem` |
-| `key SalesSchedgAgrmtItemPartner.PartnerFunction` | `SalesSchedgAgrmtItemPartner.PartnerFunction` |
-| `SalesSchedgAgrmtItemPartner.PartnerFunctionForEdit` | `SalesSchedgAgrmtItemPartner.PartnerFunctionForEdit` |
-| `SalesSchedgAgrmtItemPartner.Customer` | `SalesSchedgAgrmtItemPartner.Customer` |
-| `SalesSchedgAgrmtItemPartner.Supplier` | `SalesSchedgAgrmtItemPartner.Supplier` |
-| `SalesSchedgAgrmtItemPartner.Personnel` | `SalesSchedgAgrmtItemPartner.Personnel` |
-| `SalesSchedgAgrmtItemPartner.ContactPerson` | `SalesSchedgAgrmtItemPartner.ContactPerson` |
-| `SalesSchedgAgrmtItemPartner.ReferenceBusinessPartner` | `SalesSchedgAgrmtItemPartner.ReferenceBusinessPartner` |
-| `SalesSchedgAgrmtItemPartner.Partner` | `SalesSchedgAgrmtItemPartner.Partner` |
-| `SalesSchedgAgrmtItemPartner.SalesSchedgAgrmtType` | `SalesSchedgAgrmtItemPartner.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtItemPartner.SalesOrganization` | `SalesSchedgAgrmtItemPartner.SalesOrganization` |
-| `SalesSchedgAgrmtItemPartner.DistributionChannel` | `SalesSchedgAgrmtItemPartner.DistributionChannel` |
-| `SalesSchedgAgrmtItemPartner.OrganizationDivision` | `SalesSchedgAgrmtItemPartner.OrganizationDivision` |
-| `_Item                     : redirected to parent I_SlsSchedulingAgreementItemTP` | *Association* |
-| `_SalesSchedulingAgreement : redirected to I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedgAgrmtItemPartner.SalesSchedulingAgreement` |
+| `SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItemPartner.SalesSchedulingAgreementItem` |
+| `PartnerFunction` | `SalesSchedgAgrmtItemPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesSchedgAgrmtItemPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesSchedgAgrmtItemPartner.Customer` |
+| `Supplier` | `SalesSchedgAgrmtItemPartner.Supplier` |
+| `Personnel` | `SalesSchedgAgrmtItemPartner.Personnel` |
+| `ContactPerson` | `SalesSchedgAgrmtItemPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesSchedgAgrmtItemPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesSchedgAgrmtItemPartner.Partner` |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtItemPartner.SalesSchedgAgrmtType` |
+| `SalesOrganization` | `SalesSchedgAgrmtItemPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedgAgrmtItemPartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesSchedgAgrmtItemPartner.OrganizationDivision` |
 
 ## Associations
 

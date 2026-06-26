@@ -31,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
-| `key ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
-| `key Country` | `Country` |
+| `ProdCmplncLogsDocumentUUID` | `ProdCmplncLogsDocumentUUID` |
+| `ProdCmplncLogsDocumentStage` | `ProdCmplncLogsDocumentStage` |
+| `Country` | `Country` |
 | `CreationDateTime` | `CreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document : redirected to I_ProdCmplncLogsDocumentTP` | *Association* |
-| `_Stage    : redirected to parent I_ProdCmplncLogsDocStageTP` | *Association* |
 
 ## Associations
 

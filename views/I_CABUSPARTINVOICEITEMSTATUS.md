@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_item_status_dc_kk preserving type )` | `cast( left( dd07l.domvalue_l,2 )` |
+| `CABusPartnerInvoiceItemStatus` | `cast( left( dd07l.domvalue_l,2 ) as inv_item_status_dc_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

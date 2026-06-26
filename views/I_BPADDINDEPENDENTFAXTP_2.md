@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressNumber` | `AddressNumber` |
-| `key Person` | `Person` |
-| `key OrdinalNumber` | `OrdinalNumber` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `Person` | `Person` |
+| `OrdinalNumber` | `OrdinalNumber` |
 | `OrdinalNumberForEdit` | `OrdinalNumberForEdit` |
 | `FaxNumberCountry` | `FaxNumberCountry` |
 | `FaxAreaCodeSubscriberNumber` | `FaxAreaCodeSubscriberNumber` |
@@ -54,10 +54,8 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 | `_FaxNumberCountry` | *Association* |
 
 ## Associations

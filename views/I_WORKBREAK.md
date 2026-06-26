@@ -30,7 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `break.schgrup` |
+| `WorkBreakSchedule` | `break.paplan` |
 | `WorkBreakNumber` | `break.paunr` |
 | `WorkBreakStartTime` | `break.paubeg` |
 | `WorkBreakEndTime` | `break.pauend` |

@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `pct.langu` |
-| `aps_userid preserving type )` | `cast( pc.UserID` |
+| `UserID` | `cast( pc.UserID as aps_userid preserving type )` |
 | `BusinessUserPriceCategory` | `pct.usrprc_id` |
 | `BusinessUserPriceCategoryName` | `pct.text` |
 | `_Language` | *Association* |
@@ -41,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BusinessUserPriceCategory` | `I_IAMBusinessUserPriceCategory` | — |
+| `_Language` | `I_Language` | — |
 
 ## Source Code
 

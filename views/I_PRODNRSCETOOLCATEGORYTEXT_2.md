@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProdnRsceToolCategory` | `cast(fhmar as mpe_fhmar preserving type)` |
+| `Language` | `spras` |
 | `ProdnRsceToolCategoryName` | `faktx` |
 | `ProdnRsceToolCategoryExtCode` | `fhmar_ext` |
 | `_Language` | *Association* |

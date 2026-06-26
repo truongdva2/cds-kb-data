@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ChgNmbrAlternativeDateID : cc_aedtn;` | `ChgNmbrAlternativeDateID : cc_aedtn;` |
+| `ChgNmbrAlternativeDateID` | `cc_aedtn` |
 
 ## Associations
 

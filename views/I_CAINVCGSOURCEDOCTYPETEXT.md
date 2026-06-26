@@ -35,7 +35,7 @@ tags:
 | `CAInvcgSourceDocumentType` | `_tfk2605sct.srcdoctype` |
 | `CAInvcgSourceDocumentCat` | `_tfk2605sct.srcdoccat` |
 | `Language` | `_tfk2605sct.langu` |
-| `srcdoctype_txt_gfn_kk preserving type )` | `cast( _tfk2605sct.text` |
+| `CAInvcgSourceDocTypeText` | `cast( _tfk2605sct.text as srcdoctype_txt_gfn_kk preserving type )` |
 | `_CAInvcgSourceDocCat` | *Association* |
 | `_CAInvcgSourceDocType` | *Association* |
 | `_Language` | *Association* |

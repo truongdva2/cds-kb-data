@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `audisp_plus )` | `cast ( domvalue_l` |
+| `PurReqnOrResvnGeneration` | `cast ( domvalue_l as audisp_plus )` |
 | `PurReqnOrResvnGenerationName` | `dd07t.ddtext` |
 | `_PurReqnOrResvnGeneration` | *Association* |
 | `_Language` | *Association* |

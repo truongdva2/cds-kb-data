@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `sd_debit_memo_req_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `DebitMemoRequestType` | `DebitMemoRequestType.DebitMemoRequestType` |
+| `Language` | `Text.Language` |
+| `DebitMemoRequestTypeName` | `cast(…)` |
 | `_DebitMemoRequestType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

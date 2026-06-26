@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `logbr_vehiclerestriction preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_vehiclerestrictiondesc preserving type )` | `cast( ddtext` |
-| `_VehicleRestriction, //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
-| `_Language //Comment this association in order to hide it if this association causes issues in analytical consumption` | *Association* |
+| `Language` | `cast( ddlanguage as spras )` |
+| `VehicleRestriction` | `cast(…)` |
+| `VehicleRestrictionDesc` | `cast( ddtext as logbr_vehiclerestrictiondesc preserving type )` |
+| `_VehicleRestriction` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

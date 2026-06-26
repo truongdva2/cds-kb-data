@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `Language` | `dd07t.ddlanguage` |
+| `TimeSheetTaskTypeRelevanceCode` | `cast(dd07t.domvalue_l as catsxt_tasktype_relevance)` |
+| `DomainValue` | `dd07t.domvalue_l` |
 | `TimeSheetTaskTypeRelevanceText` | `dd07t.ddtext` |
 | `_TimeSheetTaskTypeRelevance` | *Association* |
 | `_Language` | *Association* |

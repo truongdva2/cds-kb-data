@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_lcm_status preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_lcm_status_text preserving type)` | `cast(ddtext` |
+| `KanbanCtrlCycleLifeCycleStatus` | `cast(substring(domvalue_l, 1, 1) as vdm_lcm_status preserving type)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KnbnCtrlCycLifeCycStsText` | `cast(ddtext as vdm_lcm_status_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnControlCycLifeCycSts` | *Association* |
 | `_Language` | *Association* |

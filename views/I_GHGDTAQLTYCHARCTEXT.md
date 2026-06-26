@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `sufnd_vdm_ghgdtaqltycharc )` | `cast( dd07t.domvalue_l` |
-| `sufnd_vdm_ghgdtaqltycharcname preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `GHGDataQualityCharacteristic` | `cast( dd07t.domvalue_l as sufnd_vdm_ghgdtaqltycharc )` |
+| `GHGDtaQltyCharacteristicName` | `cast( dd07t.ddtext as sufnd_vdm_ghgdtaqltycharcname preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnSalesDistrict.SalesDistrict` | `_CnsldtnSalesDistrict.SalesDistrict` |
-| `_CnsldtnSalesDistrict.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnSalesDistrictTextTP` | *Association* |
+| `SalesDistrict` | `_CnsldtnSalesDistrict.SalesDistrict` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnSalesDistrict.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

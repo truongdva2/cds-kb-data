@@ -30,16 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSubassignmentVH', element: 'CnsldtnSubassignment' } }]` | `name: 'I_CnsldtnSubassignmentVH', element: 'CnsldtnSubassignment' } }]` |
-| `key cast(case rollname` | `cast(case rollname` |
-| `when 'RTCUR' then  'TransactionCurrency'` | `when 'RTCUR' then  'TransactionCurrency'` |
-| `when 'FC_BUPTR' then  'PartnerConsolidationUnit'` | `when 'FC_BUPTR' then  'PartnerConsolidationUnit'` |
-| `when 'FC_SITYP' then  'SubItemCategory'` | `when 'FC_SITYP' then  'SubItemCategory'` |
-| `when 'FC_SITEM' then 'SubItem'` | `when 'FC_SITEM' then 'SubItem'` |
-| `when 'MEINS' then 'BaseUnit'` | `when 'MEINS' then 'BaseUnit'` |
-| `else ''` | `else ''` |
-| `fincs_subassignment )` | `end` |
-| `fincs_subassignmenttext preserving type )` | `cast ( scrtext_l` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `CnsldtnSubassignment` | `cast(…)` |
+| `CnsldtnSubassignmentText` | `cast ( scrtext_l as fincs_subassignmenttext preserving type )` |
 | `_CnsldtnSubassignment` | *Association* |
 | `_Language` | *Association* |
 

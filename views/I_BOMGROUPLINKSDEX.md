@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BOMLinkUUID` | `BOMLinkUUID` |
+| `BOMLinkUUID` | `BOMLinkUUID` |
 | `BOMGroupUUID` | `BOMGroupUUID` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BillOfMaterial` | `BillOfMaterial` |

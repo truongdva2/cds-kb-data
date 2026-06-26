@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_trmodcode preserving type )` | `cast(vktra` |
-| `/scmtms/vdm_tor_trmod_cat preserving type)` | `cast(trmodcat` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationMode` | `cast(vktra as /scmtms/vdm_tor_trmodcode preserving type )` |
+| `TransportationModeCategory` | `cast(trmodcat as /scmtms/vdm_tor_trmod_cat preserving type)` |
 | `_Text` | *Association* |
 | `_TransportationModeCategory` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TransportationModeText_2` | [0..*] |
 | `_TransportationModeCategory` | `I_TransportationModeCategory` | [0..1] |
 
 ## Source Code

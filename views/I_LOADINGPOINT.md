@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` | `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` |
 | `ShippingPoint` | `vstel` |
 | `LoadingPoint` | `lstel` |
 | `_Text` | *Association* |

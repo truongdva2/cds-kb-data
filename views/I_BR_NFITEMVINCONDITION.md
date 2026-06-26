@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicleconditionvin preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFItemVINCondition` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalRspPartyUUID` | `SuplrEvalRspPartyUUID` |
+| `SuplrEvalRspPartyUUID` | `SuplrEvalRspPartyUUID` |
 | `SuplrEvalRspUUID` | `SuplrEvalRspUUID` |
 | `BusinessPartner` | `BusinessPartner` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

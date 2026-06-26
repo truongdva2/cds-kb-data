@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardQnaireUUID` | `SuplrEvalScorecardQnaireUUID` |
+| `SuplrEvalScorecardQnaireUUID` | `SuplrEvalScorecardQnaireUUID` |
 | `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
 | `MinimalScore` | `MinimalScore` |
 | `TargetScore` | `TargetScore` |

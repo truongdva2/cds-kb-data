@@ -37,7 +37,6 @@ tags:
 | `EntProjServicePostingIsBlkd` | `EntProjServicePostingIsBlkd` |
 | `EntProjOtherExpensePostgIsBlkd` | `EntProjOtherExpensePostgIsBlkd` |
 | `EntProjPurchasingIsBlkd` | `EntProjPurchasingIsBlkd` |
-| `/* Associations */` | `/* Associations */` |
 | `_EnterpriseProject` | *Association* |
 | `_EnterpriseProjectElement` | *Association* |
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tv_proj_dmnd_source_of_supply )` | `cast( substring(domvalue_l, 1, 2 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjectDemandSourceOfSupply` | `cast( substring(domvalue_l, 1, 2 ) as tv_proj_dmnd_source_of_supply )` |
 | `ProjDmndSourceOfSupplyText` | `dd07t.ddtext` |
 | `_SourceOfSupply` | *Association* |
 | `_Language` | *Association* |
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SourceOfSupply` | `I_ProjDmndSourceOfSupply` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

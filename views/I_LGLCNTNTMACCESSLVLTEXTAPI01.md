@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
-| `key Language` | `Language` |
+| `LglCntntMAccessLvl` | `LglCntntMAccessLvl` |
+| `Language` | `Language` |
 | `LglCntntMAccessLvlName` | `LglCntntMAccessLvlName` |
 
 ## Associations

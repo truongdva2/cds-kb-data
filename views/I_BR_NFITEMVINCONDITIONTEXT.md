@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `logbr_vehicleconditionvin preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_vehicleconditionvindesc preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_NFItemVINCondition` | `cast(…)` |
+| `BR_NFItemVINConditionDesc` | `cast( ddtext as logbr_vehicleconditionvindesc preserving type )` |
 | `_BR_NFItemVINCondition` | *Association* |
 | `_Language` | *Association* |
 

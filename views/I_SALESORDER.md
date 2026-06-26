@@ -32,9 +32,112 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessSolutionOrderStdVH'` | `name:    'I_BusinessSolutionOrderStdVH'` |
-| `element: 'BusinessSolutionOrder' }` | `element: 'BusinessSolutionOrder' }` |
-| `}]` | `}]` |
+| `SalesOrder` | `cast(SalesDocument as vdm_sales_order preserving type)` |
+| `SalesOrderType` | `cast( SalesDocumentType as sales_order_type preserving type )` |
+| `SalesOrderProcessingType` | `SalesDocumentProcessingType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `SenderBusinessSystemName` | `SenderBusinessSystemName` |
+| `ExternalDocumentID` | `ExternalDocumentID` |
+| `ExternalDocLastChangeDateTime` | `ExternalDocLastChangeDateTime` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `SoldToParty` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `SlsDocIsRlvtForProofOfDeliv` | `SlsDocIsRlvtForProofOfDeliv` |
+| `CreditControlArea` | `CreditControlArea` |
+| `CustomerRebateAgreement` | `CustomerRebateAgreement` |
+| `SalesOrderDate` | `SalesDocumentDate` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `SDDocumentCollectiveNumber` | `SDDocumentCollectiveNumber` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SalesDistrict` |
+| `StatisticsCurrency` | `StatisticsCurrency` |
+| `ProductCatalog` | `ProductCatalog` |
+| `NextCreditCheckDate` | `NextCreditCheckDate` |
+| `LastCustomerContactDate` | `LastCustomerContactDate` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `RetailPromotion` | `RetailPromotion` |
+| `SalesOrderCondition` | `SalesDocumentCondition` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `PriceListType` | `PriceListType` |
+| `BillingPlan` | `BillingPlan` |
+| `CustomerTaxClassification1` | `CustomerTaxClassification1` |
+| `CustomerTaxClassification2` | `CustomerTaxClassification2` |
+| `CustomerTaxClassification3` | `CustomerTaxClassification3` |
+| `CustomerTaxClassification4` | `CustomerTaxClassification4` |
+| `CustomerTaxClassification5` | `CustomerTaxClassification5` |
+| `CustomerTaxClassification6` | `CustomerTaxClassification6` |
+| `CustomerTaxClassification7` | `CustomerTaxClassification7` |
+| `CustomerTaxClassification8` | `CustomerTaxClassification8` |
+| `CustomerTaxClassification9` | `CustomerTaxClassification9` |
+| `TaxDepartureCountry` | `TaxDepartureCountry` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `RequestedDeliveryDate` | `RequestedDeliveryDate` |
+| `DeliveryDateTypeRule` | `DeliveryDateTypeRule` |
+| `ShippingType` | `ShippingType` |
+| `ShippingCondition` | `ShippingCondition` |
+| `ReceivingPoint` | `ReceivingPoint` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `CompleteDeliveryIsDefined` | `CompleteDeliveryIsDefined` |
+| `OrderCombinationIsAllowed` | `OrderCombinationIsAllowed` |
+| `DeliveryBlockReason` | `DeliveryBlockReason` |
+| `FashionCancelDate` | `FashionCancelDate` |
+| `SalesOrderApprovalReason` | `SalesDocApprovalReason` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingCompanyCode` | `BillingCompanyCode` |
+| `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FixedValueDate` | `FixedValueDate` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `AccountingExchangeRate` | `AccountingExchangeRate` |
+| `BusinessArea` | `BusinessArea` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `CostCenterBusinessArea` | `CostCenterBusinessArea` |
+| `CostCenter` | `CostCenter` |
+| `ControllingArea` | `ControllingArea` |
+| `OrderID` | `OrderID` |
+| `ControllingObject` | `ControllingObject` |
+| `AssignmentReference` | `AssignmentReference` |
+| `PaymentPlan` | `PaymentPlan` |
+| `ContractAccount` | `ContractAccount` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `CustomerCreditAccount` | `CustomerCreditAccount` |
+| `ReferenceSDDocument` | `ReferenceSDDocument` |
+| `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `CorrespncExtRefByShipToParty` | `CorrespncExtRefByShipToParty` |
+| `AccountingDocExternalReference` | `AccountingDocExternalReference` |
+| `EntProjTypeCustomerProject` | `EntProjTypeCustomerProject` |
 | `BusinessSolutionOrder` | `BusinessSolutionOrder` |
 | `SlsContrAutoAssgmtIDForSlsOrd` | `SlsContrAutoAssgmtIDForSlsOrd` |
 | `OverallSDProcessStatus` | `OverallSDProcessStatus` |
@@ -171,7 +274,6 @@ tags:
 | `_PrecedingProcFlowDoc` | *Association* |
 | `_SubsequentProcFlowDoc` | *Association* |
 
-
 ## Associations
 
 | Alias | Target View | Cardinality |
@@ -188,7 +290,6 @@ tags:
 | `_PrecedingProcFlowDoc` | `I_SalesOrderPrecdgProcFlow` | [0..*] |
 | `_SubsequentProcFlowDoc` | `I_SalesOrderSubsqntProcFlow` | [0..*] |
 | `_Extension` | `E_SalesDocumentBasic` | [0..1] |
-
 
 ## Source Code
 

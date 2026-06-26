@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceItem` | `MaintenanceItem` |
-| `key MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
-| `key MaintenanceObjectListItem` | `MaintenanceObjectListItem` |
+| `MaintenanceItem` | `MaintenanceItem` |
+| `MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
+| `MaintenanceObjectListItem` | `MaintenanceObjectListItem` |
 | `MaintenanceObjectListUsageCode` | `MaintenanceObjectListUsageCode` |
 | `Equipment` | `Equipment` |
 | `FunctionalLocation` | `FunctionalLocation` |
@@ -52,18 +52,14 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `MaintObjectListItemSequence` | `MaintObjectListItemSequence` |
 | `MaintObjListEntryIsProcessed` | `MaintObjListEntryIsProcessed` |
-| `ServiceReferenceProduct` | `ServiceReferenceProduct` |
-| `/* Needed for authorization */` | `/* Needed for authorization */` |
 | `MaintenancePlanCallObject` | `MaintenancePlanCallObject` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
 | `MaintenancePlannerGroup` | `MaintenancePlannerGroup` |
 | `MaintenancePlant` | `MaintenancePlant` |
 | `ControllingArea` | `ControllingArea` |
 | `CostCenter` | `CostCenter` |
-| `/* Local Association */` | `/* Local Association */` |
 | `_Equipment` | *Association* |
 | `_FunctionalLocation` | *Association* |
-| `_MaintenanceItemTP : redirected to parent I_MaintenanceItemTP_2` | *Association* |
 
 ## Associations
 

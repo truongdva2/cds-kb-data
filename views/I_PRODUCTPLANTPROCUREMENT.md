@@ -33,16 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlantProc.Product` | `PlantProc.Product` |
-| `key PlantProc.Plant` | `PlantProc.Plant` |
-| `PlantProc.IsAutoPurOrdCreationAllowed` | `PlantProc.IsAutoPurOrdCreationAllowed` |
-| `PlantProc.IsSourceListRequired` | `PlantProc.IsSourceListRequired` |
-| `PlantProc.IsPurgAcrossPurgGroup` | `PlantProc.IsPurgAcrossPurgGroup` |
-| `PlantProc.SourceOfSupplyCategory` | `PlantProc.SourceOfSupplyCategory` |
-| `PlantProc.PurchasingGroup` | `PlantProc.PurchasingGroup` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `PlantProc.ProposedProductSupplyArea` | `PlantProc.ProposedProductSupplyArea` |
-| `PlantProc.ItmIsRlvtToJITDelivSchedules` | `PlantProc.ItmIsRlvtToJITDelivSchedules` |
+| `Product` | `PlantProc.Product` |
+| `Plant` | `PlantProc.Plant` |
+| `IsAutoPurOrdCreationAllowed` | `PlantProc.IsAutoPurOrdCreationAllowed` |
+| `IsSourceListRequired` | `PlantProc.IsSourceListRequired` |
+| `IsPurgAcrossPurgGroup` | `PlantProc.IsPurgAcrossPurgGroup` |
+| `SourceOfSupplyCategory` | `PlantProc.SourceOfSupplyCategory` |
+| `PurchasingGroup` | `PlantProc.PurchasingGroup` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `ProposedProductSupplyArea` | `PlantProc.ProposedProductSupplyArea` |
+| `ItmIsRlvtToJITDelivSchedules` | `PlantProc.ItmIsRlvtToJITDelivSchedules` |
 | `_SourceOfSupplyCategory` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_Product` | *Association* |

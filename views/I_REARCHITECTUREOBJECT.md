@@ -38,15 +38,14 @@ tags:
 | `REArchitectureObjectNumber` | `obnr` |
 | `REArchtrObjectAlternativeID` | `alternativeid` |
 | `REArchitectureObjectName` | `name` |
-| `_REArchitectureObjectNode.REArchitectureObjectParentOID    as REArchitectureObjectParentOID` | *Association* |
-| `_REKeyAssgmt.REIdentificationKey                           as REIdentificationKey` | *Association* |
+| `REArchitectureObjectParentOID` | `_REArchitectureObjectNode.REArchitectureObjectParentOID` |
+| `REIdentificationKey` | `_REKeyAssgmt.REIdentificationKey` |
 | `ValidityStartDate` | `validfrom` |
 | `ValidityEndDate` | `validto` |
 | `REAuthorizationGroup` | `authgrp` |
 | `CreationDateTime` | `creationdatetime` |
 | `LastChangeDateTime` | `lastchangedatetime` |
 | `LocalLastChangeDateTime` | `locallastchangedatetime` |
-| `/* Associations */` | `/* Associations */` |
 | `_REKeyAssgmt` | *Association* |
 | `_REAuthorizationGroup` | *Association* |
 | `_REArchitectureObjectType` | *Association* |

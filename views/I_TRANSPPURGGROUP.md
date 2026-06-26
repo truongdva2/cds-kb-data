@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/purch_grp preserving type )` | `cast( PurchasingGroup` |
-| `/scmtms/purch_grp_name preserving type )` | `cast( PurchasingGroupName` |
+| `TranspPurgGroup` | `cast( PurchasingGroup as /scmtms/purch_grp preserving type )` |
+| `TranspPurgGroupName` | `cast( PurchasingGroupName as /scmtms/purch_grp_name preserving type )` |
 
 ## Associations
 

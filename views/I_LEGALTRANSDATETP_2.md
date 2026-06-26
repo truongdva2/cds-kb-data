@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionDateUUID` | `LegalTransactionDateUUID` |
+| `LegalTransactionDateUUID` | `LegalTransactionDateUUID` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglCntntMFromDate` | `LglCntntMFromDate` |
 | `LglCntntMToDate` | `LglCntntMToDate` |
@@ -39,8 +39,6 @@ tags:
 | `LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
 | `LglCntntMIsAddedByIntegVarbl` | `LglCntntMIsAddedByIntegVarbl` |
-| `/* Associations */` | `/* Associations */` |
-| `_LegalTransaction : redirected to parent I_LegalTransactionTP_2` | *Association* |
 
 ## Associations
 

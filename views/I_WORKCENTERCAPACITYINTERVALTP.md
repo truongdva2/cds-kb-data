@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
-| `key CapacityInternalID` | `CapacityInternalID` |
-| `key CapacityActiveVersion` | `CapacityActiveVersion` |
-| `key IntervalEndDate` | `IntervalEndDate` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
+| `CapacityInternalID` | `CapacityInternalID` |
+| `CapacityActiveVersion` | `CapacityActiveVersion` |
+| `IntervalEndDate` | `IntervalEndDate` |
 | `IntervalStartDate` | `IntervalStartDate` |
 | `StdAvailableCapacityIsValid` | `StdAvailableCapacityIsValid` |
 | `AvailableCapacityIntervalDurn` | `AvailableCapacityIntervalDurn` |
@@ -47,9 +47,6 @@ tags:
 | `CapacityNumberOfCapacities` | `CapacityNumberOfCapacities` |
 | `CapacityPlanUtilizationPercent` | `CapacityPlanUtilizationPercent` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `_CapHeader: redirected to parent I_WorkCenterCapacityTP` | *Association* |
-| `_Shift: redirected to composition child I_WorkCenterCapacityShiftTP` | *Association* |
-| `_Header : redirected to I_WorkCenterTP` | *Association* |
 
 ## Associations
 

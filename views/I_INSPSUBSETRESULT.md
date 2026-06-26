@@ -44,14 +44,14 @@ tags:
 | `InspectionValuationResult` | `qasr.mbewertg` |
 | `InspResultDynModifValuation` | `qasr.dbewertg` |
 | `InspectionResultMeanValue` | `qasr.mittelwert` |
-| `qninitial preserving type )` | `cast(case qasr.mittelwni when '*' then 'X' else qasr.mittelwni end` |
-| `InspectionResultMaximumValue, //Maximum value, single/Summary at  header level` | `qasr.maxwert` |
-| `qninitial preserving type )` | `cast(case qasr.maxwertni when '*' then 'X' else qasr.maxwertni end` |
-| `InspectionResultMinimumValue, //Minimum value, single/Summary at  header level` | `qasr.minwert` |
-| `qninitial preserving type )` | `cast(case qasr.minwertni when '*' then 'X' else qasr.minwertni end` |
+| `InspectionResultHasMeanValue` | `cast(…)` |
+| `InspectionResultMaximumValue` | `qasr.maxwert` |
+| `InspResultHasMaximumValue` | `cast(…)` |
+| `InspectionResultMinimumValue` | `qasr.minwert` |
+| `InspResultHasMinimumValue` | `cast(…)` |
 | `InspectionResultOriginalValue` | `qasr.original_input` |
 | `InspResultValidValuesNumber` | `qasr.anzwertg` |
-| `vdm_qinspectionsamplresultdesc preserving type )` | `cast( qasr.pruefbemkt` |
+| `InspectionResultText` | `cast( qasr.pruefbemkt as vdm_qinspectionsamplresultdesc preserving type )` |
 | `InspectionResultHasLongText` | `qasr.prltextkz` |
 | `Language` | `qasr.ltextspr` |
 | `InspRsltFreeDefinedTestEquip` | `qasr.maschine` |
@@ -63,7 +63,7 @@ tags:
 | `InspRsltAboveToleranceFraction` | `qasr.anteilo` |
 | `InspRsltBelowToleranceFraction` | `qasr.anteilu` |
 | `InspResultVariance` | `qasr.varianz` |
-| `vdm_varianzni preserving type )` | `cast(case qasr.varianzni when '*' then 'X' else qasr.varianzni end` |
+| `InspResultHasVariance` | `cast(…)` |
 | `CharcAttributeCodeVers` | `qasr.version1` |
 | `InspectionResultCode2Vers` | `qasr.version2` |
 | `InspectionResultCode3Vers` | `qasr.version3` |
@@ -89,9 +89,7 @@ tags:
 | `CreationDate` | `qasr.erstelldat` |
 | `LastChangedByUser` | `qasr.aenderer` |
 | `LastChangeDate` | `qasr.aenderdat` |
-| `case qasr.changeddatetime` | `case qasr.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qasr.changeddatetime end` |
+| `ChangedDateTime` | `case…end` |
 | `ChangedTime` | `qasr.zeitaend` |
 | `CreationTime` | `qasr.zeiterstl` |
 | `InspResultNrOfAddlDcmlsPlaces` | `qasr.diff_dec_places` |

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ddlxg_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADirectDebitLimitCalcMode` | `cast( left( dd07l.domvalue_l, 1 ) as ddlxg_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

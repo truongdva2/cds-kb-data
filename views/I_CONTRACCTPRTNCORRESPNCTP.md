@@ -30,20 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ContractAccount` | `ContractAccount` |
-| `key BusinessPartner` | `BusinessPartner` |
-| `key ContrAcctPrtnCorrespncUUID` | `ContrAcctPrtnCorrespncUUID` |
+| `ContractAccount` | `ContractAccount` |
+| `BusinessPartner` | `BusinessPartner` |
+| `ContrAcctPrtnCorrespncUUID` | `ContrAcctPrtnCorrespncUUID` |
 | `AddrIDOfCorrespncRcpnt` | `AddrIDOfCorrespncRcpnt` |
 | `CorrespncRcpntAddrIsSpecified` | `CorrespncRcpntAddrIsSpecified` |
 | `CACorrespondenceType` | `CACorrespondenceType` |
 | `CorrespondenceRole` | `CorrespondenceRole` |
 | `CorrespondenceRecipient` | `CorrespondenceRecipient` |
 | `CAOriglPartIsNotRcvgCorrespnc` | `CAOriglPartIsNotRcvgCorrespnc` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CACorrespondenceType` | *Association* |
-| `_ContractAccount: redirected to I_ContractAccountTP` | *Association* |
-| `_ContractAccountPartner: redirected to parent I_ContractAccountPartnerTP` | *Association* |
 | `_CorrespncRole` | *Association* |
 | `_CorrespondenceRecipient` | *Association* |
 

@@ -29,34 +29,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FinTransFlowCreationDate       : tb_crdat;` | `FinTransFlowCreationDate       : tb_crdat;` |
-| `FinTransFlowCreationTime       : ftr_flow_creation_time;` | `FinTransFlowCreationTime       : ftr_flow_creation_time;` |
-| `FinTransFlowNumber             : tb_rfhazb;` | `FinTransFlowNumber             : tb_rfhazb;` |
-| `FinancialInstrumentActivity    : tb_rfhazu;` | `FinancialInstrumentActivity    : tb_rfhazu;` |
-| `FinTransFlowType               : tb_sfhazba;` | `FinTransFlowType               : tb_sfhazba;` |
-| `FinTransFlowPaymentDate        : ftr_flow_payment_date;` | `FinTransFlowPaymentDate        : ftr_flow_payment_date;` |
-| `FinTransFlowPaytAmt            : ftr_payment_amount;` | `FinTransFlowPaytAmt            : ftr_payment_amount;` |
-| `FinTransFlowPaytAmtCrcy        : tb_wzbetr;` | `FinTransFlowPaytAmtCrcy        : tb_wzbetr;` |
-| `FinTransFlowLoclCrcyCnvrsnRate : ftr_flow_rate_in_locl_crcy;` | `FinTransFlowLoclCrcyCnvrsnRate : ftr_flow_rate_in_locl_crcy;` |
-| `FinTransFlowInLoclCrcyPaytAmt  : ftr_payt_amt_in_local_currency;` | `FinTransFlowInLoclCrcyPaytAmt  : ftr_payt_amt_in_local_currency;` |
-| `LocalCurrency                  : waers;` | `LocalCurrency                  : waers;` |
-| `AmtInLoclCrcyIsCnvrtdByCurRate : ftr_local_amt_in_cur_rate_ind;` | `AmtInLoclCrcyIsCnvrtdByCurRate : ftr_local_amt_in_cur_rate_ind;` |
-| `AmtInLoclCrcyIsCnvrtdByFxdRate : ftr_local_amt_in_fxd_rate_ind;` | `AmtInLoclCrcyIsCnvrtdByFxdRate : ftr_local_amt_in_fxd_rate_ind;` |
-| `AmountInLocalCurrencyIsFixed   : ftr_local_amt_fxd_ind;` | `AmountInLocalCurrencyIsFixed   : ftr_local_amt_fxd_ind;` |
-| `AssignmentReference            : fis_zuonr;` | `AssignmentReference            : fis_zuonr;` |
-| `FinTransFlowCalculationDate    : ftr_flow_calculation_date;` | `FinTransFlowCalculationDate    : ftr_flow_calculation_date;` |
-| `FinTransFlowNomAmt             : ftr_nominal_amount;` | `FinTransFlowNomAmt             : ftr_nominal_amount;` |
-| `FinTransFlowNomAmtCrcy         : ftr_flow_norminal_amount_crcy;` | `FinTransFlowNomAmtCrcy         : ftr_flow_norminal_amount_crcy;` |
-| `PositionCurrency               : ftr_gen_position_crcy;` | `PositionCurrency               : ftr_gen_position_crcy;` |
-| `AmountInPositionCurrency       : ftr_amt_in_position_currency;` | `AmountInPositionCurrency       : ftr_amt_in_position_currency;` |
-| `PaymentWithAccruedIntrstAmount : ftr_payt_accrued_intrst_amount;` | `PaymentWithAccruedIntrstAmount : ftr_payt_accrued_intrst_amount;` |
-| `FlowCalcDateIsExclusive        : tb_nomsexcl;` | `FlowCalcDateIsExclusive        : tb_nomsexcl;` |
-| `FlowCalcDateIsMonthEnd         : tb_nomsvult;` | `FlowCalcDateIsMonthEnd         : tb_nomsvult;` |
-| `_IntrstRateInstr              : association to parent D_IntrstRateInstrChangeP;` | *Association* |
+| `FinTransFlowCreationDate` | `tb_crdat` |
+| `FinTransFlowCreationTime` | `ftr_flow_creation_time` |
+| `FinTransFlowNumber` | `tb_rfhazb` |
+| `FinancialInstrumentActivity` | `tb_rfhazu` |
+| `FinTransFlowType` | `tb_sfhazba` |
+| `FinTransFlowPaymentDate` | `ftr_flow_payment_date` |
+| `FinTransFlowPaytAmt` | `ftr_payment_amount` |
+| `FinTransFlowPaytAmtCrcy` | `tb_wzbetr` |
+| `FinTransFlowLoclCrcyCnvrsnRate` | `ftr_flow_rate_in_locl_crcy` |
+| `FinTransFlowInLoclCrcyPaytAmt` | `ftr_payt_amt_in_local_currency` |
+| `LocalCurrency` | `waers` |
+| `AmtInLoclCrcyIsCnvrtdByCurRate` | `ftr_local_amt_in_cur_rate_ind` |
+| `AmtInLoclCrcyIsCnvrtdByFxdRate` | `ftr_local_amt_in_fxd_rate_ind` |
+| `AmountInLocalCurrencyIsFixed` | `ftr_local_amt_fxd_ind` |
+| `AssignmentReference` | `fis_zuonr` |
+| `FinTransFlowCalculationDate` | `ftr_flow_calculation_date` |
+| `FinTransFlowNomAmt` | `ftr_nominal_amount` |
+| `FinTransFlowNomAmtCrcy` | `ftr_flow_norminal_amount_crcy` |
+| `PositionCurrency` | `ftr_gen_position_crcy` |
+| `AmountInPositionCurrency` | `ftr_amt_in_position_currency` |
+| `PaymentWithAccruedIntrstAmount` | `ftr_payt_accrued_intrst_amount` |
+| `FlowCalcDateIsExclusive` | `tb_nomsexcl` |
+| `FlowCalcDateIsMonthEnd` | `tb_nomsvult` |
+| `_IntrstRateInstr` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_IntrstRateInstr` | `D_IntrstRateInstrChangeP` | — |
 
 ## Source Code
 

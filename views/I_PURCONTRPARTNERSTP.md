@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key SupplierSubrange` | `SupplierSubrange` |
-| `key Plant` | `Plant` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key PartnerCounter` | `PartnerCounter` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `Plant` | `Plant` |
+| `PartnerFunction` | `PartnerFunction` |
+| `PartnerCounter` | `PartnerCounter` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -51,8 +51,6 @@ tags:
 | `PurchasingDocumentPartner` | `PurchasingDocumentPartner` |
 | `PurchasingDocumentPartnerName` | `PurchasingDocumentPartnerName` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContract : redirected to parent I_PurchaseContractTP` | *Association* |
 
 ## Associations
 

@@ -29,13 +29,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchasingDocumentType : esart;` | `PurchasingDocumentType : esart;` |
-| `CompanyCode            : bukrs;` | `CompanyCode            : bukrs;` |
-| `PurchasingOrganization : ekorg;` | `PurchasingOrganization : ekorg;` |
-| `PurchasingGroup        : bkgrp;` | `PurchasingGroup        : bkgrp;` |
-| `Supplier               : md_supplier;` | `Supplier               : md_supplier;` |
-| `ValidityStartDate      : kdatb;` | `ValidityStartDate      : kdatb;` |
-| `ValidityEndDate        : kdate;` | `ValidityEndDate        : kdate;` |
+| `PurchasingDocumentType` | `esart` |
+| `CompanyCode` | `bukrs` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchasingGroup` | `bkgrp` |
+| `Supplier` | `md_supplier` |
+| `ValidityStartDate` | `kdatb` |
+| `ValidityEndDate` | `kdate` |
 
 ## Associations
 

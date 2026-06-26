@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoiceUploadFileUUID` | `SupplierInvoiceUploadFileUUID` |
+| `SupplierInvoiceUploadFileUUID` | `SupplierInvoiceUploadFileUUID` |
 | `SupplierInvoiceUploadUUID` | `SupplierInvoiceUploadUUID` |
 | `UploadedSupplierInvoiceUUID` | `UploadedSupplierInvoiceUUID` |
 | `SuplrInvcUpldFileLifeCycStatus` | `SuplrInvcUpldFileLifeCycStatus` |
 | `FileName` | `FileName` |
-| `_Upload.CompanyCode` | *Association* |
+| `CompanyCode` | `_Upload.CompanyCode` |
 | `_UploadedSupplierInvoiceAPI01` | *Association* |
 | `_SupplierInvoiceUploadAPI01` | *Association* |
 | `_LifecycleStatusText` | *Association* |

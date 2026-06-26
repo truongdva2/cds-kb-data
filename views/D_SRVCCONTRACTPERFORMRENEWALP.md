@@ -28,12 +28,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `NewServiceContractIsCreated   : crmt_boolean;` | `NewServiceContractIsCreated   : crmt_boolean;` |
-| `SrvcTransChgReqRcvdOnDateTime : timestamp;` | `SrvcTransChgReqRcvdOnDateTime : timestamp;` |
-| `SrvcContrDuration             : timedura;` | `SrvcContrDuration             : timedura;` |
-| `SrvcContrDurationUnit         : timeunitdu;` | `SrvcContrDurationUnit         : timeunitdu;` |
-| `PurchaseOrderByCustomer       : crmt_po_number_sold;` | `PurchaseOrderByCustomer       : crmt_po_number_sold;` |
-| `ServiceContractIsReleased     : crms4_stat_released;` | `ServiceContractIsReleased     : crms4_stat_released;` |
+| `NewServiceContractIsCreated` | `crmt_boolean` |
+| `SrvcTransChgReqRcvdOnDateTime` | `timestamp` |
+| `SrvcContrDuration` | `timedura` |
+| `SrvcContrDurationUnit` | `timeunitdu` |
+| `PurchaseOrderByCustomer` | `crmt_po_number_sold` |
+| `ServiceContractIsReleased` | `crms4_stat_released` |
 
 ## Associations
 

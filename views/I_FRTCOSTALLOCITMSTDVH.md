@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 1.0, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 1.0, ranking: #LOW }` |
-| `key FrtCostAllocDocumentItem` | `FrtCostAllocDocumentItem` |
-| `/* Required for DCL */` | `/* Required for DCL */` |
+| `FreightCostAllocationDocument` | `FreightCostAllocationDocument` |
+| `FrtCostAllocDocumentItem` | `FrtCostAllocDocumentItem` |
 | `_FrtCostAllocDoc` | *Association* |
 
 ## Associations

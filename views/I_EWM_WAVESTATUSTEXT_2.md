@@ -32,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scwm/de_stwave )as EWMWaveStatus` | `cast( Domain.domvalue_l` |
 | `Language` | `Domain.ddlanguage` |
 | `EWMWaveStatusName` | `Domain.ddtext` |
 

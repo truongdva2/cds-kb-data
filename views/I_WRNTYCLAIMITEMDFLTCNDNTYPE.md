@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WrntyControllingItemType` | `WrntyControllingItemType` |
+| `WrntyControllingItemType` | `WrntyControllingItemType` |
 | `MatlItmCndnTypeInbFrmRmbsr` | `MatlItmCndnTypeInbFrmRmbsr` |
 | `MatlItmCndnTypeOutbToRmbsr` | `MatlItmCndnTypeOutbToRmbsr` |
 | `LabItmCndnTypeInbFrmRmbsr` | `LabItmCndnTypeInbFrmRmbsr` |

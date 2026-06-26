@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMDocFileFrmt : lcm_doc_dms_file_format;` | `LglCntntMDocFileFrmt : lcm_doc_dms_file_format;` |
+| `LglCntntMDocFileFrmt` | `lcm_doc_dms_file_format` |
 
 ## Associations
 

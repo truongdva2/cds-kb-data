@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaskListType` | `TaskListType` |
-| `key TaskListGroup` | `TaskListGroup` |
-| `key TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key TaskListSequence` | `TaskListSequence` |
-| `key TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `key TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
+| `TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
 | `MaintOperationExecStageCode` | `MaintOperationExecStageCode` |
 | `MaintenanceTaskListOperation` | `MaintenanceTaskListOperation` |
 | `WorkCenter` | `WorkCenter` |
@@ -67,8 +67,6 @@ tags:
 | `OpExternalProcessingPrice` | `OpExternalProcessingPrice` |
 | `OpExternalProcessingCurrency` | `OpExternalProcessingCurrency` |
 | `OperationCostingRelevancyType` | `OperationCostingRelevancyType` |
-| `_Header    : redirected to I_MaintenanceTaskListTP_2` | *Association* |
-| `_NonHistOp : redirected to parent I_MaintTaskListOperationTP_2` | *Association* |
 
 ## Associations
 

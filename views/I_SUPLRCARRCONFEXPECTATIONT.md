@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `/spe/carrier_cnf preserving type )` | `cast( left(dd07t.domvalue_l, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `SuplrCarrierConfExpectation` | `cast( left(dd07t.domvalue_l, 1 ) as /spe/carrier_cnf preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `SuplrCarrConfExpectationName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SuplrCarrierConfExpectation` | `I_SuplrCarrConfExpectation` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

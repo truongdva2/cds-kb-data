@@ -29,15 +29,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `crms4_stat_lifecycle preserving type )` | `cast(SrvcLifeCycleSystemStatus` |
+| `ServiceDocumentStatus` | `cast(CustMgmtLifecycleUserStatus as crms4_stat_lifecycle preserving type )` |
 | `_ServiceDocumentStatusText` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_ServiceDocumentStatusText` | `I_SrvcDocLifecycleStatusText` | [1..*] |
 | `_ServiceDocumentStatusText` | `I_SrvcDocLifecycleStatusText` | [1..*] |
 
 ## Source Code

@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `ObjValDetnActivationStatus` | `cast ( domvalue_l as ovd_activation_status )` |
+| `DomainValue` | `domvalue_l` |
 | `ObjValDetnActivationStatusDesc` | `ddtext` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_Status` | *Association* |
 
@@ -45,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Status` | `I_ObjValDetnActivationStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

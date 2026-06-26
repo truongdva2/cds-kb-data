@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `retmrntype )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `RERenewalType` | `cast( dd07t.domvalue_l as retmrntype )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `RERenewalTypeName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_RERenewalType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RERenewalType` | `I_RERenewalType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

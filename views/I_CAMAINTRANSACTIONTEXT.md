@@ -34,7 +34,7 @@ tags:
 | `CAApplicationArea` | `applk` |
 | `CAMainTransaction` | `hvorg` |
 | `Language` | `spras` |
-| `hvorg_text_kk  preserving type )` | `cast( txt30` |
+| `CAMainTransactionName` | `cast( txt30 as hvorg_text_kk preserving type )` |
 | `_Language` | *Association* |
 | `_ApplArea` | *Association* |
 

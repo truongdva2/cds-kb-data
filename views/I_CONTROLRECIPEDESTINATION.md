@@ -29,7 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Plant` | `tc52.werks` |
+| `ControlRecipeDestination` | `cast(tc52.phseq as vdm_phseq preserving type)` |
+| `ControlRecipeDestinationType` | `tc52.comty` |
 | `ControlRecipeDestinationName` | `tc52.sebez` |
 | `DigitalSignatureIsRequired` | `tc52.elec_sign` |
 | `NumberOfPhasesDisplayed` | `tc52.vis_phases` |

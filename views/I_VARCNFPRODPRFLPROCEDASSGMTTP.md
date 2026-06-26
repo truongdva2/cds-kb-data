@@ -31,19 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key VarConfigurationProfileName` | `VarConfigurationProfileName` |
-| `key ObjectDependencyName` | `ObjectDependencyName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `Product` | `Product` |
+| `VarConfigurationProfileName` | `VarConfigurationProfileName` |
+| `ObjectDependencyName` | `ObjectDependencyName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ObjDpnProcessingSequenceValue` | `ObjDpnProcessingSequenceValue` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `IsDeleted` | `IsDeleted` |
 | `ObjDpnAssignmentNumber` | `ObjDpnAssignmentNumber` |
 | `ValidityEndDate` | `ValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
-| `_Profile : redirected to parent I_VarCnfProductProfileTP` | *Association* |
-| `_HistoricalProfile : redirected to I_VarCnfHistlProductProfileTP` | *Association* |
 
 ## Associations
 

@@ -34,20 +34,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderPartner.SalesOrder` | `SalesOrderPartner.SalesOrder` |
-| `key SalesOrderPartner.PartnerFunction` | `SalesOrderPartner.PartnerFunction` |
-| `SalesOrderPartner.PartnerFunctionForEdit` | `SalesOrderPartner.PartnerFunctionForEdit` |
-| `SalesOrderPartner.Customer` | `SalesOrderPartner.Customer` |
-| `SalesOrderPartner.Supplier` | `SalesOrderPartner.Supplier` |
-| `SalesOrderPartner.Personnel` | `SalesOrderPartner.Personnel` |
-| `SalesOrderPartner.ContactPerson` | `SalesOrderPartner.ContactPerson` |
-| `SalesOrderPartner.ReferenceBusinessPartner` | `SalesOrderPartner.ReferenceBusinessPartner` |
-| `SalesOrderPartner.Partner` | `SalesOrderPartner.Partner` |
-| `SalesOrderPartner.SalesOrderType` | `SalesOrderPartner.SalesOrderType` |
-| `SalesOrderPartner.SalesOrganization` | `SalesOrderPartner.SalesOrganization` |
-| `SalesOrderPartner.DistributionChannel` | `SalesOrderPartner.DistributionChannel` |
-| `SalesOrderPartner.OrganizationDivision` | `SalesOrderPartner.OrganizationDivision` |
-| `_SalesOrder : redirected to parent I_SalesOrderTP` | *Association* |
+| `SalesOrder` | `SalesOrderPartner.SalesOrder` |
+| `PartnerFunction` | `SalesOrderPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesOrderPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesOrderPartner.Customer` |
+| `Supplier` | `SalesOrderPartner.Supplier` |
+| `Personnel` | `SalesOrderPartner.Personnel` |
+| `ContactPerson` | `SalesOrderPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesOrderPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesOrderPartner.Partner` |
+| `SalesOrderType` | `SalesOrderPartner.SalesOrderType` |
+| `SalesOrganization` | `SalesOrderPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderPartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesOrderPartner.OrganizationDivision` |
 
 ## Associations
 

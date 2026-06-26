@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fis_fiscal_quarter )` | `cast ( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FiscalQuarter` | `cast ( dd07t.domvalue_l as fis_fiscal_quarter )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fis_fiscal_quarter_name )` | `cast( dd07t.ddtext` |
+| `FiscalQuarterName` | `cast( dd07t.ddtext as fis_fiscal_quarter_name )` |
 | `_Language` | *Association* |
 
 ## Associations

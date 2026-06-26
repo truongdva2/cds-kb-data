@@ -30,13 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_bp_db_key preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(parent_key` |
-| `bu_partner_guid preserving type)` | `cast(party_uuid` |
-| `bu_partner preserving type)` | `cast(party_id` |
-| `/scmtms/vdm_partner_function preserving type )` | `cast(party_rco` |
+| `TransportationOrderBusPartUUID` | `cast(db_key as /scmtms/vdm_tor_bp_db_key preserving type )` |
+| `TransportationOrderUUID` | `cast(parent_key as /scmtms/vdm_tor_db_key preserving type)` |
+| `BusinessPartnerUUID` | `cast(party_uuid as bu_partner_guid preserving type)` |
+| `BusinessPartner` | `cast(party_id as bu_partner preserving type)` |
+| `TranspOrdBizPartnerFunction` | `cast(party_rco as /scmtms/vdm_partner_function preserving type )` |
 | `TranspOrdBizPartnerAddressID` | `address_id` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationOrder` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_PartnerFunction` | *Association* |
@@ -45,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrder` | `I_TransportationOrder_2` | — |
 | `_BusinessPartner` | `I_BusinessPartner` | [0..1] |
 | `_PartnerFunction` | `I_PartnerFunction` | [0..1] |
 

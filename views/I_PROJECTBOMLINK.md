@@ -33,13 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `WBSElementInternalID` | `pspnr` |
+| `Material` | `matnr` |
 | `Plant` | `werks` |
 | `BillOfMaterialVariantUsage` | `stlan` |
 | `BillOfMaterial` | `stlnr` |
 | `BillOfMaterialVariant` | `stlal` |
-| `stlty preserving type)` | `cast ('P'` |
+| `BillOfMaterialCategory` | `cast ('P' as stlty preserving type)` |
 | `_BillOfMaterialUsage` | *Association* |
 
 ## Associations

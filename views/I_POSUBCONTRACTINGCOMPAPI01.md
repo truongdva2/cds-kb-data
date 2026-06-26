@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key PurchaseOrderScheduleLine` | `PurchaseOrderScheduleLine` |
-| `key ReservationItem` | `ReservationItem` |
-| `key RecordType` | `RecordType` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PurchaseOrderScheduleLine` | `PurchaseOrderScheduleLine` |
+| `ReservationItem` | `ReservationItem` |
+| `RecordType` | `RecordType` |
 | `Reservation` | `Reservation` |
 | `Material` | `Material` |
 | `BaseUnit` | `BaseUnit` |
@@ -48,7 +48,7 @@ tags:
 | `LatestRequirementDate` | `LatestRequirementDate` |
 | `OrderLevelValue` | `OrderLevelValue` |
 | `OrderPathValue` | `OrderPathValue` |
-| `aposn preserving type )` | `cast (BillOfMaterialItemNumber` |
+| `BillOfMaterialItemNumber` | `cast (BillOfMaterialItemNumber as aposn preserving type )` |
 | `BillOfMaterialItemNumber_2` | `BillOfMaterialItemNumber` |
 | `SortField` | `SortField` |
 | `BOMItemCategory` | `BOMItemCategory` |
@@ -74,7 +74,7 @@ tags:
 | `IsNetScrap` | `IsNetScrap` |
 | `LeadTimeOffset` | `LeadTimeOffset` |
 | `QuantityDistributionKey` | `QuantityDistributionKey` |
-| `revlv preserving type )` | `cast (MaterialRevisionLevel` |
+| `MaterialRevisionLevel` | `cast (MaterialRevisionLevel as revlv preserving type )` |
 | `MaterialRevisionLevel_2` | `MaterialRevisionLevel` |
 | `MaterialCompIsVariableSized` | `MaterialCompIsVariableSized` |
 | `NumberOfVariableSizeComponents` | `NumberOfVariableSizeComponents` |

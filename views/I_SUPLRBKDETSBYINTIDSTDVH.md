@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Supplier` | `Supplier` |
-| `key BPBankAccountInternalID` | `BPBankAccountInternalID` |
+| `Supplier` | `Supplier` |
+| `BPBankAccountInternalID` | `BPBankAccountInternalID` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `BankCountry` | `BankCountry` |
 | `_Supplier` | *Association* |

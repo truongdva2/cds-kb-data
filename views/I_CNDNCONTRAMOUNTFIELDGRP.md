@@ -31,7 +31,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `AmountFieldGroup` | `AmountFieldGroup.af_group` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

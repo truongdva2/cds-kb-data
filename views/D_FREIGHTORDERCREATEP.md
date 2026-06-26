@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrder     : /scmtms/tor_id;` | `TransportationOrder     : /scmtms/tor_id;` |
-| `TransportationOrderType : /scmtms/tor_type;` | `TransportationOrderType : /scmtms/tor_type;` |
+| `TransportationOrder` | `/scmtms/tor_id` |
+| `TransportationOrderType` | `/scmtms/tor_type` |
 
 ## Associations
 

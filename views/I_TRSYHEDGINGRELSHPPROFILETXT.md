@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hdgg_profile      preserving type)` | `cast(TrsyHedgingRelshpProfileTxt.hrel_profl` |
+| `HedgingProfile` | `cast(…)` |
 | `Language` | `TrsyHedgingRelshpProfileTxt.spras` |
-| `ftr_gen_hdgg_profile_name preserving type)` | `cast(TrsyHedgingRelshpProfileTxt.hrel_profl_descr` |
+| `TrsyHedgingRelshpProfileName` | `cast(…)` |
 | `_TrsyHedgingRelshpProfile` | *Association* |
 | `_Language` | *Association* |
 

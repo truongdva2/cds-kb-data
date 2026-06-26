@@ -32,9 +32,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `t009c.spras` |
-| `fis_periv preserving type )` | `cast( t009c.periv` |
+| `FiscalYearVariant` | `cast( t009c.periv as fis_periv preserving type )` |
 | `FiscalPeriod` | `t009c.poper` |
-| `gjahr preserving type )` | `cast( t009c.bdatj` |
+| `FiscalYear` | `cast( t009c.bdatj as gjahr preserving type )` |
 | `FiscalPeriodShortName` | `t009c.ktext` |
 | `FiscalPeriodName` | `t009c.ltext` |
 | `_FiscalYearVariant` | *Association* |
@@ -45,7 +45,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_FiscalYearVariant` | `I_FiscalYearVariant` | [0..1] |
-| `_FiscalYear` | `I_FiscalYear` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

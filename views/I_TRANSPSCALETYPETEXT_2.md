@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/scatyp preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationScaleType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/scatyp preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_scale_type_name preserving type)` | `cast(ddtext` |
+| `TransportationScaleTypeName` | `cast(ddtext as /scmtms/vdm_scale_type_name preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationScaleType` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationScaleType` | `I_TransportationScaleType_2` | — |
 | `_Language` | `I_Language` | [1..1] |
 
 ## Source Code

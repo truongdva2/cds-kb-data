@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzbed )` | `cast ( dd07l.domvalue_l` |
+| `ProductRequirementsGrouping` | `cast ( dd07l.domvalue_l as kzbed )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

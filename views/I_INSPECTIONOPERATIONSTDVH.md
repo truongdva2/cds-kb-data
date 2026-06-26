@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionOperation` | `InspectionOperation` |
 | `OperationText` | `OperationText` |
 | `InspectionOperationPlant` | `InspectionOperationPlant` |
 | `_InspectionLot` | *Association* |

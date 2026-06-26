@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_LogisticalRoundingUoMGroup` | `I_LogisticalRoundingUoMGroup` | — |
 | `_UnitOfMeasure` | `I_UnitOfMeasure` | [1..1] |
 
 ## Source Code

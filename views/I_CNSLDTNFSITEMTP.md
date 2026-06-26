@@ -32,20 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `key _Source.CnsldtnFinancialStatementItem` | `_Source.CnsldtnFinancialStatementItem` |
-| `_Source.ConsolidationFSItemType` | *Association* |
-| `_Source.ConsolidationBreakdownCategory` | *Association* |
-| `_Source.CnsldtnFSItemIsForCnsldtnOnly` | *Association* |
-| `_Source.CnsldtnFSItemPostingIsBlocked` | *Association* |
-| `_Source.CnsldtnFSItemIsNetBalCarryFwd` | *Association* |
-| `_Source.CnsldtnFSItemLink` | *Association* |
-| `_Source.CnsldtnFSItemLinkLabel` | *Association* |
-| `_Source.CnsldtnSignLogicIsFSItemSpcfc` | *Association* |
-| `_Source.ConsolidationSignLogicType` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text                       : redirected to composition child I_CnsldtnFSItemTextTP` | *Association* |
-| `_CnsldtnFSItemByTimeVersion : redirected to composition child I_CnsldtnFSItemByTimeVersionTP` | *Association* |
+| `ConsolidationChartOfAccounts` | `_Source.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `_Source.CnsldtnFinancialStatementItem` |
+| `ConsolidationFSItemType` | `_Source.ConsolidationFSItemType` |
+| `ConsolidationBreakdownCategory` | `_Source.ConsolidationBreakdownCategory` |
+| `CnsldtnFSItemIsForCnsldtnOnly` | `_Source.CnsldtnFSItemIsForCnsldtnOnly` |
+| `CnsldtnFSItemPostingIsBlocked` | `_Source.CnsldtnFSItemPostingIsBlocked` |
+| `CnsldtnFSItemIsNetBalCarryFwd` | `_Source.CnsldtnFSItemIsNetBalCarryFwd` |
+| `CnsldtnFSItemLink` | `_Source.CnsldtnFSItemLink` |
+| `CnsldtnFSItemLinkLabel` | `_Source.CnsldtnFSItemLinkLabel` |
+| `CnsldtnSignLogicIsFSItemSpcfc` | `_Source.CnsldtnSignLogicIsFSItemSpcfc` |
+| `ConsolidationSignLogicType` | `_Source.ConsolidationSignLogicType` |
 
 ## Associations
 

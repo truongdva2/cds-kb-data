@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfirmationGroup` | `ConfirmationGroup` |
-| `key ConfirmationCount` | `ConfirmationCount` |
+| `ConfirmationGroup` | `ConfirmationGroup` |
+| `ConfirmationCount` | `ConfirmationCount` |
 | `OrderID` | `OrderID` |
 | `OrderOperation` | `OrderOperation` |
 | `OrderSuboperation` | `OrderSuboperation` |
@@ -47,7 +47,7 @@ tags:
 | `OpenReservationsIsCleared` | `OpenReservationsIsCleared` |
 | `IsReversed` | `IsReversed` |
 | `IsReversal` | `IsReversal` |
-| `APIConfHasNoGoodsMovements, // always true to avoid automatic backflush` | `APIConfHasNoGoodsMovements, // always true to avoid automatic backflush` |
+| `APIConfHasNoGoodsMovements` | `APIConfHasNoGoodsMovements` |
 | `OrderConfirmationRecordType` | `OrderConfirmationRecordType` |
 | `ConfirmationEntryDate` | `ConfirmationEntryDate` |
 | `ConfirmationEntryTime` | `ConfirmationEntryTime` |
@@ -128,7 +128,6 @@ tags:
 | `NoFurtherBusinessProcQtyIsExpd` | `NoFurtherBusinessProcQtyIsExpd` |
 | `ShiftGrouping` | `ShiftGrouping` |
 | `ShiftDefinition` | `ShiftDefinition` |
-| `_ProcOrdConfMatlDocItm : redirected to composition child I_ProcOrdConfMatlDocItemTP` | *Association* |
 
 ## Associations
 

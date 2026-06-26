@@ -33,8 +33,68 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` |
-| `_Product.BaseUnit  as BaseUnit` | *Association* |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `CountryOfOrigin` | `CountryOfOrigin` |
+| `RegionOfOrigin` | `RegionOfOrigin` |
+| `ProductionInvtryManagedLoc` | `ProductionInvtryManagedLoc` |
+| `ProfileCode` | `ProfileCode` |
+| `ProfileValidityStartDate` | `ProfileValidityStartDate` |
+| `AvailabilityCheckType` | `AvailabilityCheckType` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `PeriodType` | `PeriodType` |
+| `ProfitCenter` | `ProfitCenter` |
+| `GoodsReceiptDuration` | `GoodsReceiptDuration` |
+| `MaintenanceStatusName` | `MaintenanceStatus` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `MRPType` | `MRPType` |
+| `MRPResponsible` | `MRPResponsible` |
+| `ABCIndicator` | `ABCIndicator` |
+| `MinimumLotSizeQuantity` | `MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `MaximumLotSizeQuantity` |
+| `FixedLotSizeQuantity` | `FixedLotSizeQuantity` |
+| `ConsumptionTaxCtrlCode` | `ConsumptionTaxCtrlCode` |
+| `IsCoProduct` | `IsCoProduct` |
+| `ConfigurableProduct` | `ConfigurableProduct` |
+| `StockDeterminationGroup` | `StockDeterminationGroup` |
+| `HasPostToInspectionStock` | `HasPostToInspectionStock` |
+| `IsBatchManagementRequired` | `IsBatchManagementRequired` |
+| `SerialNumberProfile` | `SerialNumberProfile` |
+| `IsNegativeStockAllowed` | `IsNegativeStockAllowed` |
+| `HasConsignmentCtrl` | `ConsignmentControl` |
+| `IsPurgAcrossPurgGroup` | `IsPurgAcrossPurgGroup` |
+| `IsInternalBatchManaged` | `IsInternalBatchManaged` |
+| `ProductCFOPCategory` | `ProductCFOPCategory` |
+| `ProductIsExciseTaxRelevant` | `ProductIsExciseTaxRelevant` |
+| `OverDelivToleranceLimit` | `OverDelivToleranceLimit` |
+| `ProcurementType` | `ProcurementType` |
+| `SpecialProcurementType` | `ProcurementSubType` |
+| `ProductionSchedulingProfile` | `ProductionSchedulingProfile` |
+| `ProductionSupervisor` | `ProductionSupervisor` |
+| `SafetyStockQuantity` | `SafetyStockQuantity` |
+| `GoodsIssueUnit` | `GoodsIssueUnit` |
+| `SourceOfSupplyCategory` | `SourceOfSupplyCategory` |
+| `ConsumptionReferenceProduct` | `ConsumptionReferenceProduct` |
+| `ConsumptionReferencePlant` | `ConsumptionReferencePlant` |
+| `ConsumptionRefUsageEndDate` | `ConsumptionRefUsageEndDate` |
+| `ConsumptionQtyMultiplier` | `ConsumptionQtyMultiplier` |
+| `ProductUnitGroup` | `ProductUnitGroup` |
+| `DistrCntrDistributionProfile` | `DistrCntrDistributionProfile` |
+| `ConsignmentControl` | `ConsignmentControl` |
+| `GoodIssueProcessingDays` | `GoodIssueProcessingDays` |
+| `PlannedDeliveryDurationInDays` | `PlannedDeliveryDurationInDays` |
+| `ProductIsCriticalPrt` | `ProductIsCriticalPrt` |
+| `ProductLogisticsHandlingGroup` | `ProductLogisticsHandlingGroup` |
+| `MaterialFreightGroup` | `MaterialFreightGroup` |
+| `OriginalBatchReferenceMaterial` | `OriginalBatchReferenceMaterial` |
+| `OriglBatchManagementIsRequired` | `OriglBatchManagementIsRequired` |
+| `ProductConfiguration` | `ProductConfiguration` |
+| `ProductMinControlTemperature` | `ProductMinControlTemperature` |
+| `ProductMaxControlTemperature` | `ProductMaxControlTemperature` |
+| `ProductControlTemperatureUnit` | `ProductControlTemperatureUnit` |
+| `ValuationCategory` | `ValuationCategory` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `ItemUniqueIdentifierIsRelevant` | `ItemUniqueIdentifierIsRelevant` |
 | `ItemUniqueIdentifierType` | `ItemUniqueIdentifierType` |
 | `ExtAllocOfItmUnqIdtIsRelevant` | `ExtAllocOfItmUnqIdtIsRelevant` |
@@ -140,7 +200,6 @@ tags:
 | `_DistributionProfile` | `I_ProductDistributionProfile` | [0..1] |
 | `_DistributionProfileText` | `I_ProductDistributionProfileT` | [0..*] |
 | `_PlantESPP` | `I_ProductPlantESPP` | [0..1] |
-| `_PlantReference` | `P_Productplantreferences` | [0..1] |
 | `_ProdControlTemperatureUnit` | `I_UnitOfMeasure` | [0..1] |
 | `_ProdCtrlTemperatureUnitText` | `I_UnitOfMeasureText` | [0..*] |
 | `_ProductFreightGroup` | `I_MaterialFreightGroup` | [0..1] |

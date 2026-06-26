@@ -31,47 +31,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     keymap.WorkforcePersonExternalID` | `keymap.WorkforcePersonExternalID` |
+| `WorkforcePersonExternalID` | `keymap.WorkforcePersonExternalID` |
 | `AddressNumber` | `EmployeeAddress.AddressID` |
-| `keymap.BusinessPartner` | `keymap.BusinessPartner` |
-| `cast (tstmp_to_dats( EmployeeAddress.ValidityStartDate` | `cast (tstmp_to_dats( EmployeeAddress.ValidityStartDate` |
-| `vdm_v_start_date)` | `abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' )` |
-| `cast (tstmp_to_dats( EmployeeAddress.ValidityEndDate` | `cast (tstmp_to_dats( EmployeeAddress.ValidityEndDate` |
-| `vdm_v_end_date)` | `abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' )` |
-| `EmployeeAddress._AddressDefaultRepresentation.Country` | `EmployeeAddress._AddressDefaultRepresentation.Country` |
-| `EmployeeAddress._AddressDefaultRepresentation.PostalCode` | `EmployeeAddress._AddressDefaultRepresentation.PostalCode` |
-| `EmployeeAddress._AddressDefaultRepresentation.Region` | `EmployeeAddress._AddressDefaultRepresentation.Region` |
-| `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegion` | `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegion` |
-| `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegionName` | `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegionName` |
-| `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegion` | `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegion` |
-| `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegionName` | `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegionName` |
-| `EmployeeAddress._AddressDefaultRepresentation.CityName` | `EmployeeAddress._AddressDefaultRepresentation.CityName` |
-| `EmployeeAddress._AddressDefaultRepresentation.DistrictName` | `EmployeeAddress._AddressDefaultRepresentation.DistrictName` |
-| `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName1` | `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName1` |
-| `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName2` | `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName2` |
-| `EmployeeAddress._AddressDefaultRepresentation.StreetName` | `EmployeeAddress._AddressDefaultRepresentation.StreetName` |
-| `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName1` | `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName1` |
-| `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName2` | `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName2` |
-| `EmployeeAddress._AddressDefaultRepresentation.HouseNumber` | `EmployeeAddress._AddressDefaultRepresentation.HouseNumber` |
-| `EmployeeAddress._AddressDefaultRepresentation.HouseNumberSupplementText` | `EmployeeAddress._AddressDefaultRepresentation.HouseNumberSupplementText` |
-| `EmployeeAddress._AddressDefaultRepresentation.Floor` | `EmployeeAddress._AddressDefaultRepresentation.Floor` |
-| `EmployeeAddress._AddressDefaultRepresentation.RoomNumber` | `EmployeeAddress._AddressDefaultRepresentation.RoomNumber` |
-| `EmployeeAddress._AddressDefaultRepresentation.CareOfName` | `EmployeeAddress._AddressDefaultRepresentation.CareOfName` |
-| `EmployeeAddress._AddressDefaultRepresentation.POBoxPostalCode` | `EmployeeAddress._AddressDefaultRepresentation.POBoxPostalCode` |
-| `_BP.IsBusinessPurposeCompleted` | *Association* |
-| `_BP.DataControllerSet` | *Association* |
-| `_BP.DataController1` | *Association* |
-| `_BP.DataController2` | *Association* |
-| `_BP.DataController3` | *Association* |
-| `_BP.DataController4` | *Association* |
-| `_BP.DataController5` | *Association* |
-| `_BP.DataController6` | *Association* |
-| `_BP.DataController7` | *Association* |
-| `_BP.DataController8` | *Association* |
-| `_BP.DataController9` | *Association* |
-| `_BP.DataController10` | *Association* |
-| `_BP.AuthorizationGroup` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `BusinessPartner` | `keymap.BusinessPartner` |
+| `StartDate` | `cast(…)` |
+| `EndDate` | `cast(…)` |
+| `Country` | `EmployeeAddress._AddressDefaultRepresentation.Country` |
+| `PostalCode` | `EmployeeAddress._AddressDefaultRepresentation.PostalCode` |
+| `Region` | `EmployeeAddress._AddressDefaultRepresentation.Region` |
+| `SecondaryRegion` | `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegion` |
+| `SecondaryRegionName` | `EmployeeAddress._AddressDefaultRepresentation.SecondaryRegionName` |
+| `TertiaryRegion` | `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegion` |
+| `TertiaryRegionName` | `EmployeeAddress._AddressDefaultRepresentation.TertiaryRegionName` |
+| `CityName` | `EmployeeAddress._AddressDefaultRepresentation.CityName` |
+| `DistrictName` | `EmployeeAddress._AddressDefaultRepresentation.DistrictName` |
+| `StreetPrefixName1` | `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName1` |
+| `StreetPrefixName2` | `EmployeeAddress._AddressDefaultRepresentation.StreetPrefixName2` |
+| `StreetName` | `EmployeeAddress._AddressDefaultRepresentation.StreetName` |
+| `StreetSuffixName1` | `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName1` |
+| `StreetSuffixName2` | `EmployeeAddress._AddressDefaultRepresentation.StreetSuffixName2` |
+| `HouseNumber` | `EmployeeAddress._AddressDefaultRepresentation.HouseNumber` |
+| `HouseNumberSupplementText` | `EmployeeAddress._AddressDefaultRepresentation.HouseNumberSupplementText` |
+| `Floor` | `EmployeeAddress._AddressDefaultRepresentation.Floor` |
+| `RoomNumber` | `EmployeeAddress._AddressDefaultRepresentation.RoomNumber` |
+| `CareOfName` | `EmployeeAddress._AddressDefaultRepresentation.CareOfName` |
+| `POBoxPostalCode` | `EmployeeAddress._AddressDefaultRepresentation.POBoxPostalCode` |
+| `IsBusinessPurposeCompleted` | `_BP.IsBusinessPurposeCompleted` |
+| `DataControllerSet` | `_BP.DataControllerSet` |
+| `DataController1` | `_BP.DataController1` |
+| `DataController2` | `_BP.DataController2` |
+| `DataController3` | `_BP.DataController3` |
+| `DataController4` | `_BP.DataController4` |
+| `DataController5` | `_BP.DataController5` |
+| `DataController6` | `_BP.DataController6` |
+| `DataController7` | `_BP.DataController7` |
+| `DataController8` | `_BP.DataController8` |
+| `DataController9` | `_BP.DataController9` |
+| `DataController10` | `_BP.DataController10` |
+| `AuthorizationGroup` | `_BP.AuthorizationGroup` |
 | `_BPProtectedAddress` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

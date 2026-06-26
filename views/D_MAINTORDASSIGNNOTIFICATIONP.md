@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MaintenanceNotification: qmnum;` | `MaintenanceNotification: qmnum;` |
-| `NotificationIsHeaderNotif: eams_flag_header_notif;` | `NotificationIsHeaderNotif: eams_flag_header_notif;` |
+| `MaintenanceNotification` | `qmnum` |
+| `NotificationIsHeaderNotif` | `eams_flag_header_notif` |
 
 ## Associations
 

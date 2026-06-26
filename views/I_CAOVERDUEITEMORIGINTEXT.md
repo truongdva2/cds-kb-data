@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `overdue_item_origin_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `overdue_item_origin_text_kk preserving type )` | `cast( ddtext` |
+| `CAOverdueItemOrigin` | `cast( left( dd07t.domvalue_l, 1 ) as overdue_item_origin_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAOverdueItemOriginText` | `cast( ddtext as overdue_item_origin_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

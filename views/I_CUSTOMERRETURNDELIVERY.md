@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `customer_return_delivery)` | `cast(DeliveryDocument` |
-| `DeliveryDocument, // Required for association to _MaterialDocumentHeader` | `DeliveryDocument, // Required for association to _MaterialDocumentHeader` |
+| `CustomerReturnDelivery` | `cast(DeliveryDocument as customer_return_delivery)` |
+| `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentType` | `DeliveryDocumentType` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
@@ -203,6 +203,9 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Item` | `I_CustomerReturnDeliveryItem` | [0..*] |
+| `_OverallPutawayStatus` | `I_PutawayStatus` | [0..1] |
+| `_Partner` | `I_SDDocumentPartner` | [1..*] |
 | `_Extension` | `E_DeliveryDocument` | [0..1] |
 
 ## Source Code

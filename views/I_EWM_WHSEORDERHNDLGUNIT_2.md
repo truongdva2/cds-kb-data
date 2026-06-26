@@ -31,10 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `whohu.lgnum` |
-| `/scwm/de_who_conv_alpha preserving type )` | `cast ( whohu.who` |
+| `WarehouseOrder` | `cast ( whohu.who as /scwm/de_who_conv_alpha preserving type )` |
 | `EWMWhseOrderNmbrOfHndlgUnits` | `whohu.hukng` |
-| `matid_no_conv preserving type )` | `cast(whohu.pmat_guid` |
-| `_Material.Product                                             as PackagingMaterial` | *Association* |
+| `PackagingMaterialUUID` | `cast(whohu.pmat_guid as matid_no_conv preserving type )` |
+| `PackagingMaterial` | `_Material.Product` |
 | `HandlingUnitUUID` | `whohu.huid` |
 | `HandlingUnitNumber` | `whohu.huident` |
 | `HndlgUnitIsShippingHndlgUnit` | `whohu.shiphu` |

@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qtxt_code preserving type )` | `cast( kurztext` |
+| `UsageDecisionCodeGroup` | `qpct.codegruppe` |
+| `UsageDecisionCode` | `qpct.code` |
+| `Language` | `sprache` |
+| `UsageDecisionCodeText` | `cast( kurztext as vdm_qtxt_code preserving type )` |
 | `_UsageDecisionCodeGroup` | *Association* |
 
 ## Associations

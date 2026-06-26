@@ -34,17 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnText.CustomerReturn` | `CustomerReturnText.CustomerReturn` |
-| `key CustomerReturnText.Language` | `CustomerReturnText.Language` |
-| `key CustomerReturnText.LongTextID` | `CustomerReturnText.LongTextID` |
-| `CustomerReturnText.LongTextIDForEdit` | `CustomerReturnText.LongTextIDForEdit` |
-| `CustomerReturnText.LanguageForEdit` | `CustomerReturnText.LanguageForEdit` |
-| `CustomerReturnText.LongText` | `CustomerReturnText.LongText` |
-| `CustomerReturnText.CustomerReturnType` | `CustomerReturnText.CustomerReturnType` |
-| `CustomerReturnText.SalesOrganization` | `CustomerReturnText.SalesOrganization` |
-| `CustomerReturnText.DistributionChannel` | `CustomerReturnText.DistributionChannel` |
-| `CustomerReturnText.OrganizationDivision` | `CustomerReturnText.OrganizationDivision` |
-| `_CustomerReturn : redirected to parent I_CustomerReturnTP` | *Association* |
+| `CustomerReturn` | `CustomerReturnText.CustomerReturn` |
+| `Language` | `CustomerReturnText.Language` |
+| `LongTextID` | `CustomerReturnText.LongTextID` |
+| `LongTextIDForEdit` | `CustomerReturnText.LongTextIDForEdit` |
+| `LanguageForEdit` | `CustomerReturnText.LanguageForEdit` |
+| `LongText` | `CustomerReturnText.LongText` |
+| `CustomerReturnType` | `CustomerReturnText.CustomerReturnType` |
+| `SalesOrganization` | `CustomerReturnText.SalesOrganization` |
+| `DistributionChannel` | `CustomerReturnText.DistributionChannel` |
+| `OrganizationDivision` | `CustomerReturnText.OrganizationDivision` |
 
 ## Associations
 

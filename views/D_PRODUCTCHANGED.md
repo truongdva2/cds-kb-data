@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductType                    : producttype  ;` | `ProductType                    : producttype  ;` |
-| `ProductCategory                : prodcategory ;` | `ProductCategory                : prodcategory ;` |
+| `ProductType` | `producttype` |
+| `ProductCategory` | `prodcategory` |
 
 ## Associations
 

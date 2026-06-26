@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `ScrtyClassGenClassification` | `alwpkl` |
-| `ftr_gen_gen_secu_class_name preserving type)` | `cast (xlangbez` |
+| `ScrtyClassGenClassfctnName` | `cast (xlangbez as ftr_gen_gen_secu_class_name preserving type)` |
 | `_Language` | *Association* |
 | `_SecurityClassGenClassfctn` | *Association* |
 

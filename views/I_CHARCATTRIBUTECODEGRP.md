@@ -30,10 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CharacteristicAttributeCodeGrp` | `qpgr.codegruppe` |
-| `case qpgr.inaktiv` | `case qpgr.inaktiv` |
-| `vdm_qm_codegroupisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codegroupisinactive preserving type )` | `else cast( 'X'` |
-| `CodeGroupIsInactive` | `end` |
+| `CodeGroupIsInactive` | `case…end` |
 | `CodeGroupStatus` | `qpgr.status` |
 | `CharcAttribCodeGroupCrtedBy` | `qpgr.ersteller` |
 | `CharcAttribCodeGroupCrtedOn` | `qpgr.e_datum` |

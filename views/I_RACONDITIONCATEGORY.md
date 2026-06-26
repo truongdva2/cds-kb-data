@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `RevnAcctgConditionCategory` | `cast(dd07l.domvalue_l as farr_condition_category)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_RAConditionCategoryText` | [0..*] |
 
 ## Source Code
 

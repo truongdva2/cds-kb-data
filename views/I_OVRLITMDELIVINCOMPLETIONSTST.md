@@ -32,13 +32,16 @@ tags:
 |---|---|
 | `OvrlItmDelivIncompletionSts` | `statu` |
 | `Language` | `spras` |
-| `ovrlitmdelivincompltnstsdesc)` | `cast(bezei` |
+| `OvrlItmDelivIncompltnStsDesc` | `cast(bezei as ovrlitmdelivincompltnstsdesc)` |
 | `_OvrlItmDelivIncompletionSts` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OvrlItmDelivIncompletionSts` | `I_OvrlItmDelivIncompletionSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

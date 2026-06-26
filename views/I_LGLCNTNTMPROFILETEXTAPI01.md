@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMProfile` | `LglCntntMProfile` |
-| `key Language` | `Language` |
-| `LglCntntMProfileName` | `LglCntntMProfileName` |
+| `LglCntntMProfile` | `LglCntntMProfile` |
+| `Language` | `Language` |
 
 ## Associations
 

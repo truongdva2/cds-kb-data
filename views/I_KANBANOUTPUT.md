@@ -33,24 +33,24 @@ tags:
 | `Language` | `Language.Language` |
 | `KanbanControlCycle` | `KanbanContainer.KanbanControlCycle` |
 | `KanbanControlCycleItem` | `KanbanContainer.KanbanControlCycleItem` |
-| `KanbanControlCycle.Plant` | `KanbanControlCycle.Plant` |
+| `Plant` | `KanbanControlCycle.Plant` |
 | `KanbanQuantity` | `KanbanControlCycle.KanbanContainerQuantityInBsUnt` |
 | `BaseUnit` | `KanbanControlCycle.BaseUnit` |
 | `ProductionSupplyArea` | `KanbanControlCycle.ProductionSupplyArea` |
-| `_ProductionSupplyAreaText.ProductionSupplyAreaName                          as ProductionSupplyAreaName` | *Association* |
+| `ProductionSupplyAreaName` | `_ProductionSupplyAreaText.ProductionSupplyAreaName` |
 | `Material` | `KanbanControlCycle.Product` |
-| `_ProductText.ProductName                                                    as MaterialName` | *Association* |
-| `pk_barcode_waiting)` | `cast(concat(KanbanContainer.KanbanContainer, '1')` |
-| `pk_barcode_empty)` | `cast(concat(KanbanContainer.KanbanContainer, '2')` |
-| `pk_barcode_in_process)` | `cast(concat(KanbanContainer.KanbanContainer, '3')` |
-| `pk_barcode_in_transit)` | `cast(concat(KanbanContainer.KanbanContainer, '4')` |
-| `pk_barcode_full)` | `cast(concat(KanbanContainer.KanbanContainer, '5')` |
-| `pk_barcode_in_use)` | `cast(concat(KanbanContainer.KanbanContainer, '6')` |
-| `KanbanContainer.Supplier` | `KanbanContainer.Supplier` |
+| `MaterialName` | `_ProductText.ProductName` |
+| `SetKanbanStatusWaitingBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '1') as pk_barcode_waiting)` |
+| `SetKanbanStatusEmptyBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '2') as pk_barcode_empty)` |
+| `SetKanbanStatusProcessBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '3') as pk_barcode_in_process)` |
+| `SetKanbanStatusTransitBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '4') as pk_barcode_in_transit)` |
+| `SetKanbanStatusFullBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '5') as pk_barcode_full)` |
+| `SetKanbanStatusInUseBarCode` | `cast(concat(KanbanContainer.KanbanContainer, '6') as pk_barcode_in_use)` |
+| `Supplier` | `KanbanContainer.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 | `_UnitOfMeasure` | *Association* |
-| `KanbanContainer._KanbanControlCycle` | `KanbanContainer._KanbanControlCycle` |
+| `_KanbanControlCycle` | *Association* |
 | `_KanbanContainer` | *Association* |
 | `_KnbnCtrlCycProdMstrDta` | *Association* |
 

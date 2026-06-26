@@ -31,13 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspCalculationSheetUUID` | `TranspCalculationSheetUUID` |
+| `TranspCalculationSheetUUID` | `TranspCalculationSheetUUID` |
 | `TransportationCalculationSheet` | `TransportationCalculationSheet` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TranspAgreementItemUUID` | `TranspAgreementItemUUID` |
-| `FreightAgrmtCalculationSheet._FreightAgreement : redirected to I_FreightAgreementTP` | `FreightAgrmtCalculationSheet._FreightAgreement : redirected to I_FreightAgreementTP` |
-| `FreightAgrmtCalculationSheet._FrtAgrmtCalcSheetItem : redirected to composition child I_FrtAgrmtCalcSheetItemTP` | `FreightAgrmtCalculationSheet._FrtAgrmtCalcSheetItem : redirected to composition child I_FrtAgrmtCalcSheetItemTP` |
-| `FreightAgrmtCalculationSheet._FreightAgreementItem : redirected to parent I_FreightAgreementItemTP` | `FreightAgrmtCalculationSheet._FreightAgreementItem : redirected to parent I_FreightAgreementItemTP` |
 
 ## Associations
 

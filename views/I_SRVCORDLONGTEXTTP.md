@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
-| `key SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
+| `ServiceOrder` | `ServiceOrder` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
+| `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
 | `ServiceObjectType` | `ServiceObjectType` |
@@ -45,8 +45,6 @@ tags:
 | `SrvcDocLongTextCreatedByUser` | `SrvcDocLongTextCreatedByUser` |
 | `SrvcDocLongTextChangedDateTime` | `SrvcDocLongTextChangedDateTime` |
 | `SrvcDocLongTextChangedByUser` | `SrvcDocLongTextChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTP : redirected to parent I_ServiceOrderTP` | *Association* |
 
 ## Associations
 

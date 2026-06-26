@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDelivery` | `OutboundDelivery` |
+| `OutboundDelivery` | `OutboundDelivery` |
 | `ShipToParty` | `ShipToParty` |
 | `SoldToParty` | `SoldToParty` |
 | `Supplier` | `Supplier` |
@@ -133,10 +133,6 @@ tags:
 | `OvrlItmDelivIncompletionSts` | `OvrlItmDelivIncompletionSts` |
 | `OvrlItmGdsMvtIncompletionSts` | `OvrlItmGdsMvtIncompletionSts` |
 | `DeliveryIsInPlant` | `DeliveryIsInPlant` |
-| `/* Associations */` | `/* Associations */` |
-| `_Item    : redirected to composition child I_OutboundDeliveryItemTP` | *Association* |
-| `_Partner : redirected to composition child I_OutboundDeliveryPartnerTP` | *Association* |
-| `_Text    : redirected to composition child I_OutboundDeliveryTextTP` | *Association* |
 
 ## Associations
 

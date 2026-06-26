@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_fhori preserving type)` | `cast(fhori` |
+| `Plant` | `werks` |
+| `SchedulingFloatProfile` | `cast(fhori as vdm_fhori preserving type)` |
 | `OpeningPeriodInWorkDays` | `erhor` |
-| `vdm_freiz preserving type)` | `cast(freiz` |
-| `vdm_sichz preserving type)` | `cast(sichz` |
-| `vdm_vorgz preserving type)` | `cast(vorgz` |
+| `ReleasePeriodInWorkDays` | `cast(freiz as vdm_freiz preserving type)` |
+| `FloatAfterProductionInWorkDays` | `cast(sichz as vdm_sichz preserving type)` |
+| `FloatBeforeProductionInWrkDays` | `cast(vorgz as vdm_vorgz preserving type)` |
 | `_Plant` | *Association* |
 
 ## Associations

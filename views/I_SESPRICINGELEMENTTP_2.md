@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
-| `key PricingDocument` | `PricingDocument` |
-| `key PricingDocumentItem` | `PricingDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
@@ -109,9 +109,6 @@ tags:
 | `SuperordinateDocument` | `SuperordinateDocument` |
 | `SuperordinateDocumentItem` | `SuperordinateDocumentItem` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheetItem : redirected to parent I_ServiceEntrySheetItemTP_2` | *Association* |
-| `_SESHeader             : redirected to I_ServiceEntrySheetTP_2` | *Association* |
 
 ## Associations
 

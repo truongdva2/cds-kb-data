@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `CostingType` | `kalka` |
-| `fpc_costing_type_name preserving type)` | `cast(txkla` |
+| `CostingTypeName` | `cast(txkla as fpc_costing_type_name preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

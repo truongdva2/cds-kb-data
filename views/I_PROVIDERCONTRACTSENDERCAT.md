@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sendercat_kk preserving type )` | `cast( left ( dd07l.domvalue_l,1 )` |
-| `/* Associations */` | `/* Associations */` |
+| `CAProviderContractSenderCat` | `cast( left ( dd07l.domvalue_l,1 ) as sendercat_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bltyp_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADocumentClass` | `cast( left( dd07l.domvalue_l, 1 ) as bltyp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

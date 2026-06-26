@@ -33,19 +33,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlantQualityMgmt.Product` | `PlantQualityMgmt.Product` |
-| `key PlantQualityMgmt.Plant` | `PlantQualityMgmt.Plant` |
-| `PlantQualityMgmt.MaximumStoragePeriod` | `PlantQualityMgmt.MaximumStoragePeriod` |
-| `PlantQualityMgmt.QualityMgmtCtrlKey` | `PlantQualityMgmt.QualityMgmtCtrlKey` |
+| `Product` | `PlantQualityMgmt.Product` |
+| `Plant` | `PlantQualityMgmt.Plant` |
+| `MaximumStoragePeriod` | `PlantQualityMgmt.MaximumStoragePeriod` |
+| `QualityMgmtCtrlKey` | `PlantQualityMgmt.QualityMgmtCtrlKey` |
 | `_QualityMgmtCtrlKey` | *Association* |
-| `PlantQualityMgmt.MatlQualityAuthorizationGroup` | `PlantQualityMgmt.MatlQualityAuthorizationGroup` |
-| `PlantQualityMgmt. HasPostToInspectionStock` | `PlantQualityMgmt. HasPostToInspectionStock` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `PlantQualityMgmt.InspLotDocumentationIsRequired` | `PlantQualityMgmt.InspLotDocumentationIsRequired` |
-| `PlantQualityMgmt.SuplrQualityManagementSystem` | `PlantQualityMgmt.SuplrQualityManagementSystem` |
-| `PlantQualityMgmt.RecrrgInspIntervalTimeInDays` | `PlantQualityMgmt.RecrrgInspIntervalTimeInDays` |
-| `PlantQualityMgmt.ProductQualityCertificateType` | `PlantQualityMgmt.ProductQualityCertificateType` |
-| `PlantQualityMgmt.ProductPlantHasInspectionSetup` | `PlantQualityMgmt.ProductPlantHasInspectionSetup` |
+| `MatlQualityAuthorizationGroup` | `PlantQualityMgmt.MatlQualityAuthorizationGroup` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `InspLotDocumentationIsRequired` | `PlantQualityMgmt.InspLotDocumentationIsRequired` |
+| `SuplrQualityManagementSystem` | `PlantQualityMgmt.SuplrQualityManagementSystem` |
+| `RecrrgInspIntervalTimeInDays` | `PlantQualityMgmt.RecrrgInspIntervalTimeInDays` |
+| `ProductQualityCertificateType` | `PlantQualityMgmt.ProductQualityCertificateType` |
+| `ProductPlantHasInspectionSetup` | `PlantQualityMgmt.ProductPlantHasInspectionSetup` |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |
 | `_ProductDescription` | *Association* |

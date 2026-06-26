@@ -31,18 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key SerialNumber` | `SerialNumber` |
-| `key Equipment` | `Equipment` |
-| `key WarrantyCategory` | `WarrantyCategory` |
+| `Material` | `Material` |
+| `SerialNumber` | `SerialNumber` |
+| `Equipment` | `Equipment` |
+| `WarrantyCategory` | `WarrantyCategory` |
 | `WarrantyType` | `WarrantyType` |
 | `MasterWarranty` | `MasterWarranty` |
 | `WarrantyStartDate` | `WarrantyStartDate` |
 | `WarrantyEndDate` | `WarrantyEndDate` |
 | `WrntyIsInhtdFromSuperiorObject` | `WrntyIsInhtdFromSuperiorObject` |
 | `WrntyIsPassedOnToChildObject` | `WrntyIsPassedOnToChildObject` |
-| `/* Associations */` | `/* Associations */` |
-| `_EquipmentMaterialSerialNumber: redirected to parent I_EquipMatlSerialNumberTP` | *Association* |
 
 ## Associations
 

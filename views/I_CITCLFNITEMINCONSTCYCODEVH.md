@@ -32,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ficite_amnt_inconsistency)` | `cast(dd07l.domvalue_l` |
+| `CITClassfctnItemInconstcyCode` | `cast(dd07l.domvalue_l as ficite_amnt_inconsistency)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CITClfnItemInconstcyCodeText` | [0..*] |
 
 ## Source Code
 

@@ -33,13 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaskListType` | `TaskListType` |
-| `key TaskListGroup` | `TaskListGroup` |
-| `key TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key TaskListSequence` | `TaskListSequence` |
-| `key TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `key TaskListOpBOMItmInternalID` | `TaskListOpBOMItmInternalID` |
-| `key TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
+| `TaskListOpBOMItmInternalID` | `TaskListOpBOMItmInternalID` |
+| `TaskListOpBOMItmIntVersCounter` | `TaskListOpBOMItmIntVersCounter` |
 | `MaintenanceTaskListOperation` | `MaintenanceTaskListOperation` |
 | `Material` | `Material` |
 | `MaterialName` | `MaterialName` |
@@ -61,8 +61,6 @@ tags:
 | `ControllingArea` | `ControllingArea` |
 | `CostCenter` | `CostCenter` |
 | `MaintenancePlant` | `MaintenancePlant` |
-| `_Header    : redirected to I_MaintenanceTaskListTP_2` | *Association* |
-| `_NonHistOp : redirected to parent I_MaintTaskListOperationTP_2` | *Association* |
 
 ## Associations
 

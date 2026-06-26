@@ -33,13 +33,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `EWMWarehouse` | `EWMWarehouse` |
+| `EntitledToDisposeParty` | `EntitledToDisposeParty` |
+| `ProductInternalUUID` | `ProductInternalUUID` |
+| `SupplyChainUnitUUID` | `SupplyChainUnitUUID` |
+| `EWMPartyEntitledToDisposeUUID` | `EWMPartyEntitledToDisposeUUID` |
+| `BaseUnit` | `BaseUnit` |
+| `EWMProductProcessBlockProfile` | `EWMProductProcessBlockProfile` |
+| `EWMProcessTypeControlCode` | `EWMProcessTypeControlCode` |
+| `EWMProductLoadCategory` | `EWMProductLoadCategory` |
+| `EWMStggAreaDeterminationGroup` | `EWMStggAreaDeterminationGroup` |
+| `EWMIsCnsmpnRlvtForValAddedSrvc` | `EWMIsCnsmpnRlvtForValAddedSrvc` |
+| `RequiredMinShelfLife` | `RequiredMinShelfLife` |
+| `EWMPtwyControlStrategy` | `EWMPtwyControlStrategy` |
+| `EWMStorageSectionMethod` | `EWMStorageSectionMethod` |
+| `EWMStorageBinType` | `EWMStorageBinType` |
+| `EWMBulkStorageMethod` | `EWMBulkStorageMethod` |
+| `EWMStockRemovalControlStrategy` | `EWMStockRemovalControlStrategy` |
+| `EWMStockDeterminationGroup` | `EWMStockDeterminationGroup` |
+| `EWMProdTwoStepPickingRelevant` | `EWMProdTwoStepPickingRelevant` |
+| `EWMSltgRequirementQuantity` | `EWMSltgRequirementQuantity` |
+| `EWMSltgNumberOfSalesOrderItems` | `EWMSltgNumberOfSalesOrderItems` |
+| `EWMSltgRecmddStorageQuantity` | `EWMSltgRecmddStorageQuantity` |
+| `EWMSlottingWeightSizeCode` | `EWMSlottingWeightSizeCode` |
+| `EWMSlottingVolumeSizeCode` | `EWMSlottingVolumeSizeCode` |
+| `EWMSlottingLengthSizeCode` | `EWMSlottingLengthSizeCode` |
+| `EWMSlottingWidthSizeCode` | `EWMSlottingWidthSizeCode` |
+| `EWMSlottingHeightSizeCode` | `EWMSlottingHeightSizeCode` |
+| `EWMPhysInventoryCountingCycle` | `EWMPhysInventoryCountingCycle` |
+| `EWMProdBackflushWthdrwlMethod` | `EWMProdBackflushWthdrwlMethod` |
+| `EWMKitQuantityCorrelation` | `EWMKitQuantityCorrelation` |
+| `EWMQuantityAdjustmentProfile` | `EWMQuantityAdjustmentProfile` |
+| `EWMMrchdsDistrQtyClassfctn` | `EWMMrchdsDistrQtyClassfctn` |
 | `EWMPreferredUnit` | `EWMPreferredUnit` |
 | `EWMQualityInspectionGroup` | `EWMQualityInspectionGroup` |
-| `/*Associations*/` | `/*Associations*/` |
 | `_BusinessPartner` | *Association* |
-| `_Product               : redirected to parent I_ProductTP_2` | *Association* |
-| `_ProductEWMStorageType : redirected to composition child I_ProductEWMStorageTypeTP_2` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |
 | `_UnitOfMeasureText_2` | *Association* |
 

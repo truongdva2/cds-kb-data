@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qfecod_text preserving type )` | `cast( qpct.kurztext` |
+| `DefectCodeGroup` | `cast( qpct.codegruppe as vdm_qfegrp preserving type )` |
+| `DefectCode` | `cast( qpct.code as vdm_qfecod preserving type )` |
+| `Language` | `qpct.sprache` |
+| `DefectCodeText` | `cast( qpct.kurztext as vdm_qfecod_text preserving type )` |
 | `_DefectCodeGroup` | *Association* |
 | `_DefectCode` | *Association* |
 

@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JntOpgAgrmt` | `JntOpgAgrmt` |
-| `key JntVntrProducingStstclRatioID` | `JntVntrProducingStstclRatioID` |
+| `CompanyCode` | `CompanyCode` |
+| `JntOpgAgrmt` | `JntOpgAgrmt` |
+| `JntVntrProducingStstclRatioID` | `JntVntrProducingStstclRatioID` |
 | `JntVntrDrillingFromDepth` | `JntVntrDrillingFromDepth` |
 | `JntVntrDrillingToDepth` | `JntVntrDrillingToDepth` |
 | `_CompanyCode` | *Association* |
 | `_JntVntrProdgStstclRatio` | *Association* |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
 
 ## Associations
 

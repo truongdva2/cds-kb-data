@@ -30,9 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_DocInfoRecdDocTypeStdVH'` | `name:    'I_DocInfoRecdDocTypeStdVH'` |
-| `element: 'DocumentInfoRecordDocType' }` | `element: 'DocumentInfoRecordDocType' }` |
-| `}]` | `}]` |
 | `DocumentInfoRecordDocType` | `document.dokar` |
 | `DocumentInfoRecordDocNumber` | `document.doknr` |
 | `_DocType` | *Association* |

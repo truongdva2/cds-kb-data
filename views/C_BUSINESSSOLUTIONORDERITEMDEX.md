@@ -30,39 +30,113 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
-| `SolutionOrderItem.ServiceDocItemGrossAmount` | `SolutionOrderItem.ServiceDocItemGrossAmount` |
-| `/* Item Product */` | `/* Item Product */` |
-| `SolutionOrderItem.SrvcMaterialPricingGroup` | `SolutionOrderItem.SrvcMaterialPricingGroup` |
-| `SolutionOrderItem.ProductGroup1` | `SolutionOrderItem.ProductGroup1` |
-| `SolutionOrderItem.ProductGroup2` | `SolutionOrderItem.ProductGroup2` |
-| `SolutionOrderItem.ProductGroup3` | `SolutionOrderItem.ProductGroup3` |
-| `SolutionOrderItem.ProductGroup4` | `SolutionOrderItem.ProductGroup4` |
-| `SolutionOrderItem.ProductGroup5` | `SolutionOrderItem.ProductGroup5` |
-| `prodh_d )` | `cast( SolutionOrderItem.ProductHierarchy` |
-| `/* Reference Object Details */` | `/* Reference Object Details */` |
-| `SolutionOrdItemRefObj.SrvcRefObjIsMainObject` | `SolutionOrdItemRefObj.SrvcRefObjIsMainObject` |
-| `SolutionOrdItemRefObj.ProductUUID` | `SolutionOrdItemRefObj.ProductUUID` |
-| `SolutionOrdItemRefObj.SerialNumber` | `SolutionOrdItemRefObj.SerialNumber` |
-| `SolutionOrdItemRefObj.Equipment` | `SolutionOrdItemRefObj.Equipment` |
-| `SolutionOrdItemRefObj.ServiceRefObjectSequenceNumber` | `SolutionOrdItemRefObj.ServiceRefObjectSequenceNumber` |
-| `SolutionOrdItemRefObj.ServiceReferenceObjectType` | `SolutionOrdItemRefObj.ServiceReferenceObjectType` |
-| `SolutionOrdItemRefObj.ServiceReferenceObjectUUID` | `SolutionOrdItemRefObj.ServiceReferenceObjectUUID` |
-| `vdm_eam_tplnr )` | `cast( SolutionOrdItemRefObj.FunctionalLocation` |
-| `/* Project Specific Fields */` | `/* Project Specific Fields */` |
-| `tstmp_to_dats( SolutionDocumentProjStart.SrvcDocApptStartDateTime` | `tstmp_to_dats( SolutionDocumentProjStart.SrvcDocApptStartDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `ProjectStartDate` | `'NULL' )` |
-| `tstmp_to_dats( SolutionDocumentProjEnd.SrvcDocApptStartDateTime` | `tstmp_to_dats( SolutionDocumentProjEnd.SrvcDocApptStartDateTime` |
-| `abap_system_timezone( $session.client,'NULL' )` | `abap_system_timezone( $session.client,'NULL' )` |
-| `$session.client` | `$session.client` |
-| `ProjectEndDate` | `'NULL' )` |
-| `SolutionOrderItem.ResponsibleCostCenter` | `SolutionOrderItem.ResponsibleCostCenter` |
-| `SolutionOrderItem.EnterpriseProjectServiceOrg` | `SolutionOrderItem.EnterpriseProjectServiceOrg` |
-| `/* Subscription Billing Specific Fields */` | `/* Subscription Billing Specific Fields */` |
-| `sc_tstfro )` | `cast( SolutionOrderItem.ServiceContrItemStartDateTime` |
-| `sc_tstto )` | `cast( SolutionOrderItem.ServiceContrItemEndDateTime` |
+| `ServiceObjectType` | `SolutionOrderItem.ServiceObjectType` |
+| `ServiceDocument` | `SolutionOrderItem.ServiceDocument` |
+| `ServiceDocumentItem` | `SolutionOrderItem.ServiceDocumentItem` |
+| `ServiceDocumentUUID` | `SolutionOrder.ServiceDocumentUUID` |
+| `ServiceDocumentCharUUID` | `SolutionOrder.ServiceDocumentCharUUID` |
+| `ServiceDocumentDescription` | `SolutionOrder.ServiceDocumentDescription` |
+| `ServiceDocNetAmount` | `SolutionOrder.ServiceDocNetAmount` |
+| `PurchaseOrderByCustomer` | `SolutionOrder.PurchaseOrderByCustomer` |
+| `ServiceDocumentStatus` | `SolutionOrder.ServiceDocumentStatus` |
+| `ServiceDocumentIsReleased` | `SolutionOrder.ServiceDocumentIsReleased` |
+| `ServiceDocumentIsOpen` | `SolutionOrder.ServiceDocumentIsOpen` |
+| `ServiceDocumentHasError` | `SolutionOrder.ServiceDocumentHasError` |
+| `ServiceDocumentIsRejected` | `SolutionOrder.ServiceDocumentIsRejected` |
+| `ServiceDocChangedDateTime` | `SolutionOrder.ServiceDocChangedDateTime` |
+| `ServiceDocCreationDateTime` | `SolutionOrder.ServiceDocCreationDateTime` |
+| `ServiceDocumentType` | `SolutionOrderItem.ServiceDocumentType` |
+| `ServiceDocumentItemObjectType` | `SolutionOrderItem.ServiceDocumentItemObjectType` |
+| `ServiceDocumentItemUUID` | `SolutionOrderItem.ServiceDocumentItemUUID` |
+| `ServiceDocumentItemCharUUID` | `SolutionOrderItem.ServiceDocumentItemCharUUID` |
+| `PostingDate` | `SolutionOrderItem.PostingDate` |
+| `ProfitCenter` | `SolutionOrderItem.ProfitCenter` |
+| `ControllingArea` | `SolutionOrderItem.ControllingArea` |
+| `ProfitCenterDeterminationDate` | `SolutionOrderItem.ProfitCenterDeterminationDate` |
+| `ParentServiceDocumentItemUUID` | `SolutionOrderItem.ParentServiceDocumentItemUUID` |
+| `ServiceDocItemCategory` | `SolutionOrderItem.ServiceDocItemCategory` |
+| `OriginallyRequestedProduct` | `SolutionOrderItem.OriginallyRequestedProduct` |
+| `ProductID` | `SolutionOrderItem.Product` |
+| `ServiceDocumentItemQuantity` | `SolutionOrderItem.ServiceDocumentItemQuantity` |
+| `SrvcDocItmOrdToBaseQtyNmrtr` | `SolutionOrderItem.SrvcDocItmOrdToBaseQtyNmrtr` |
+| `SrvcDocItmOrdToBaseQtyDnmntr` | `SolutionOrderItem.SrvcDocItmOrdToBaseQtyDnmntr` |
+| `OrderToBaseQuantityExponent` | `SolutionOrderItem.OrderToBaseQuantityExponent` |
+| `ServiceDocItemQuantityUnit` | `SolutionOrderItem.ServiceDocItemQuantityUnit` |
+| `SrvcDocItemBaseQuantityUnit` | `SolutionOrderItem.SrvcDocItemBaseQuantityUnit` |
+| `Plant` | `SolutionOrderItem.Plant` |
+| `IncotermsPart1` | `SolutionOrderItem.IncotermsPart1` |
+| `IncotermsPart2` | `SolutionOrderItem.IncotermsPart2` |
+| `DeliveryPriority` | `SolutionOrderItem.DeliveryPriority` |
+| `PartialDeliveryIsAllowed` | `SolutionOrderItem.PartialDeliveryIsAllowed` |
+| `OrderCombinationIsAllowed` | `SolutionOrderItem.OrderCombinationIsAllowed` |
+| `DeliveryBlockReason` | `SolutionOrderItem.DeliveryBlockReason` |
+| `RequestedDeliveryUTCDateTime` | `SolutionOrderItem.RequestedDeliveryUTCDateTime` |
+| `SoldToParty` | `SolutionOrderItem.SoldToParty` |
+| `ServiceTeam` | `SolutionOrderItem.ServiceTeam` |
+| `SoldToPartyCountry` | `SolutionOrderItem.SoldToPartyCountry` |
+| `SoldToPartyRegion` | `SolutionOrderItem.SoldToPartyRegion` |
+| `ResponsibleEmployee` | `cast( SolutionOrderItem.ResponsibleEmployee as resp_empl )` |
+| `ContactPerson` | `cast( SolutionOrderItem.ContactPerson as parnr )` |
+| `ShipToParty` | `SolutionOrderItem.ShipToParty` |
+| `BillToParty` | `SolutionOrderItem.BillToParty` |
+| `PayerParty` | `SolutionOrderItem.PayerParty` |
+| `ProjectManager` | `SolutionCustmMgmtPartner.CustMgmtBusinessPartner` |
+| `BillableControl` | `SolutionOrderItem.BillableControl` |
+| `TransactionCurrency` | `SolutionOrderItem.TransactionCurrency` |
+| `ReferenceCurrency` | `SolutionOrderItem.StatisticsCurrency` |
+| `ExchangeRateType` | `SolutionOrderItem.ExchangeRateType` |
+| `ExchangeRateDate` | `SolutionOrderItem.ExchangeRateDate` |
+| `AccountingExchangeRate` | `cast(…)` |
+| `CustomerGroup` | `SolutionOrderItem.CustomerGroup` |
+| `PaymentTerms` | `SolutionOrderItem.PaymentTerms` |
+| `BillingBlockReason` | `SolutionOrderItem.BillingBlockReason` |
+| `AdditionalCustomerGroup1` | `SolutionOrderItem.AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `SolutionOrderItem.AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `SolutionOrderItem.AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `SolutionOrderItem.AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `SolutionOrderItem.AdditionalCustomerGroup5` |
+| `ServiceDocItemRejectionReason` | `SolutionOrderItem.ServiceDocItemRejectionReason` |
+| `SalesOrganizationOrgUnitID` | `SolutionOrderItem.SalesOrganizationOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SolutionOrderItem.SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SolutionOrderItem.SalesGroupOrgUnitID` |
+| `DistributionChannel` | `SolutionOrderItem.DistributionChannel` |
+| `Division` | `SolutionOrderItem.Division` |
+| `ServiceOrganization` | `SolutionOrderItem.ServiceOrganization` |
+| `SalesOrganization` | `SolutionOrderItem.SalesOrganization` |
+| `SalesOffice` | `SolutionOrderItem.SalesOffice` |
+| `SalesGroup` | `SolutionOrderItem.SalesGroup` |
+| `CompanyCode` | `SolutionSalesOrganization.CompanyCode` |
+| `ServiceDocumentItemStatus` | `SolutionOrderItem.ServiceDocumentItemStatus` |
+| `ServiceDocumentItemIsReleased` | `SolutionOrderItem.ServiceDocumentItemIsReleased` |
+| `ServiceDocumentItemHasError` | `SolutionOrderItem.ServiceDocumentItemHasError` |
+| `SrvcDocItmDeliveryStatus` | `SolutionOrderItem.SrvcDocItmDeliveryStatus` |
+| `ServiceDocItemBillingStatus` | `SolutionOrderItem.ServiceDocItemBillingStatus` |
+| `ServiceDocumentItemIsRejected` | `SolutionOrderItem.ServiceDocumentItemIsRejected` |
+| `ServiceDocumentItemIsOpen` | `SolutionOrderItem.ServiceDocumentItemIsOpen` |
+| `SrvcDocItemCreditStatus` | `SolutionOrderItem.SrvcDocItemCreditStatus` |
+| `ServiceDocumentItemNetAmount` | `SolutionOrderItem.ServiceDocumentItemNetAmount` |
+| `ServiceDocItemGrossAmount` | `SolutionOrderItem.ServiceDocItemGrossAmount` |
+| `SrvcMaterialPricingGroup` | `SolutionOrderItem.SrvcMaterialPricingGroup` |
+| `ProductGroup1` | `SolutionOrderItem.ProductGroup1` |
+| `ProductGroup2` | `SolutionOrderItem.ProductGroup2` |
+| `ProductGroup3` | `SolutionOrderItem.ProductGroup3` |
+| `ProductGroup4` | `SolutionOrderItem.ProductGroup4` |
+| `ProductGroup5` | `SolutionOrderItem.ProductGroup5` |
+| `ProductHierarchy` | `cast( SolutionOrderItem.ProductHierarchy as prodh_d )` |
+| `SrvcRefObjIsMainObject` | `SolutionOrdItemRefObj.SrvcRefObjIsMainObject` |
+| `ProductUUID` | `SolutionOrdItemRefObj.ProductUUID` |
+| `SerialNumber` | `SolutionOrdItemRefObj.SerialNumber` |
+| `Equipment` | `SolutionOrdItemRefObj.Equipment` |
+| `ServiceRefObjectSequenceNumber` | `SolutionOrdItemRefObj.ServiceRefObjectSequenceNumber` |
+| `ServiceReferenceObjectType` | `SolutionOrdItemRefObj.ServiceReferenceObjectType` |
+| `ServiceReferenceObjectUUID` | `SolutionOrdItemRefObj.ServiceReferenceObjectUUID` |
+| `FunctionalLocation` | `cast( SolutionOrdItemRefObj.FunctionalLocation as vdm_eam_tplnr )` |
+| `ProjectStartDate` | `tstmp_to_dats(…)` |
+| `ProjectEndDate` | `tstmp_to_dats(…)` |
+| `ResponsibleCostCenter` | `SolutionOrderItem.ResponsibleCostCenter` |
+| `EnterpriseProjectServiceOrg` | `SolutionOrderItem.EnterpriseProjectServiceOrg` |
+| `ServiceContrItemStartDateTime` | `cast( SolutionOrderItem.ServiceContrItemStartDateTime as sc_tstfro )` |
+| `ServiceContrItemEndDateTime` | `cast( SolutionOrderItem.ServiceContrItemEndDateTime as sc_tstto )` |
 | `SubscrpnBillgItmPrcgDateTime` | `SolutionSubsPrcgDate.SrvcDocApptStartDateTime` |
 | `SubscrpnWithdrawalPeriod` | `SolutionDurationSubsWitPer.SrvcDocDurationValue` |
 | `SubscriptionFixedTerm` | `SolutionDurationSubsFixTer.SrvcDocDurationValue` |
@@ -70,23 +144,16 @@ tags:
 | `SubscriptionMinimumTerm` | `SolutionDurationSubsMinTer.SrvcDocDurationValue` |
 | `SubscriptionRenewalPeriod` | `SolutionDurationSubsRenTer.SrvcDocDurationValue` |
 | `SubscriptionExpectedTerm` | `SolutionDurationSubsDefTer.SrvcDocDurationValue` |
-| `SolutionOrderItem.MidBillgCycExprtnIsAllowed` | `SolutionOrderItem.MidBillgCycExprtnIsAllowed` |
-| `SolutionOrderItem.SubscrpnContrTrmsAreSpecified` | `SolutionOrderItem.SubscrpnContrTrmsAreSpecified` |
-| `SolutionOrderItem.SubscriptionBillingCycle` | `SolutionOrderItem.SubscriptionBillingCycle` |
-| `/* Enhancement Solution Order */` | `/* Enhancement Solution Order */` |
-| `SolutionOrderItem.SubscrpnBillgRatePlanCharUUID` | `SolutionOrderItem.SubscrpnBillgRatePlanCharUUID` |
-| `/* Enhancement Solution Order */` | `/* Enhancement Solution Order */` |
-| `/* Project Details related to Solution Order */` | `/* Project Details related to Solution Order */` |
-| `SolutionOrderProjLink.ProjectUUID` | `SolutionOrderProjLink.ProjectUUID` |
-| `SolutionOrderProjLink._EnterpriseProject.ProjectInternalID` | `SolutionOrderProjLink._EnterpriseProject.ProjectInternalID` |
-| `/*  Associations  */` | `/*  Associations  */` |
-| `/* Keys */` | `/* Keys */` |
+| `MidBillgCycExprtnIsAllowed` | `SolutionOrderItem.MidBillgCycExprtnIsAllowed` |
+| `SubscrpnContrTrmsAreSpecified` | `SolutionOrderItem.SubscrpnContrTrmsAreSpecified` |
+| `SubscriptionBillingCycle` | `SolutionOrderItem.SubscriptionBillingCycle` |
+| `SubscrpnBillgRatePlanCharUUID` | `SolutionOrderItem.SubscrpnBillgRatePlanCharUUID` |
+| `ProjectUUID` | `SolutionOrderProjLink.ProjectUUID` |
+| `ProjectInternalID` | `SolutionOrderProjLink._EnterpriseProject.ProjectInternalID` |
 | `_ServiceObjType` | *Association* |
 | `_ServiceDocument` | *Association* |
-| `/* Item - Product */` | `/* Item - Product */` |
 | `_BaseUnit_2` | *Association* |
 | `_SalesUnit` | *Association* |
-| `/* Pricing Parameter Set */` | `/* Pricing Parameter Set */` |
 | `_TransactionCurrency` | *Association* |
 
 ## Associations

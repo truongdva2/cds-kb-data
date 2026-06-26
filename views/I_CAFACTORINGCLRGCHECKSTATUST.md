@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pasta_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `pasta_text_kk preserving type )` | `cast( ddtext` |
+| `CAFactoringCheckStsForClrgInfo` | `cast( left( dd07t.domvalue_l, 1 ) as pasta_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAFactoringClrgCheckStatusText` | `cast( ddtext as pasta_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

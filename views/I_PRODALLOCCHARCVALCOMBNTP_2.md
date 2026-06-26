@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcValueCombinationUUID` | `CharcValueCombinationUUID` |
+| `CharcValueCombinationUUID` | `CharcValueCombinationUUID` |
 | `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
 | `ProductAllocationObject` | `ProductAllocationObject` |
 | `ProdAllocCharc01` | `ProdAllocCharc01` |
@@ -48,8 +48,6 @@ tags:
 | `ProdAllocCharcConstraintStatus` | `ProdAllocCharcConstraintStatus` |
 | `ProdAllocationActivationStatus` | `ProdAllocationActivationStatus` |
 | `CharcValAuthznGroup` | `CharcValAuthznGroup` |
-| `_ProdAllocationObjectTP: redirected to parent I_ProdAllocationObjectTP_2` | *Association* |
-| `_ProdAllocObjTimeSeriesTP: redirected to composition child I_ProdAllocObjTimeSeriesTP_2` | *Association* |
 
 ## Associations
 

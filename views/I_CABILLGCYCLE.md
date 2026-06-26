@@ -31,9 +31,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABillgCycle` | `_tfk2607.cycle` |
-| `_tfk2607.cycle_day       as CALastDayOfBillingPeriod` | *Association* |
-| `_tfk2607.cycle_periodcat as CABillgCyclePeriodCategory` | *Association* |
-| `_tfk2607.individual      as CABillgCycleIsIndividual` | *Association* |
+| `CALastDayOfBillingPeriod` | `_tfk2607.cycle_day` |
+| `CABillgCyclePeriodCategory` | `_tfk2607.cycle_periodcat` |
+| `CABillgCycleIsIndividual` | `_tfk2607.individual` |
 | `_CALastDayOfBillingPeriod` | *Association* |
 | `_CABillgCycleText` | *Association* |
 

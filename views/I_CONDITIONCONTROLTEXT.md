@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `ksteu )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_control_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionControl` | `cast ( substring( domvalue_l, 1, 1 ) as ksteu )` |
+| `ConditionControlName` | `cast ( ddtext as price_element_control_descr )` |
 | `_ConditionControl` | *Association* |
 | `_Language` | *Association* |
 

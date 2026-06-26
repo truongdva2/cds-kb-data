@@ -30,7 +30,6 @@ tags:
 |---|---|
 | `TranspOrdStageType` | `stage_type` |
 | `TranspOrdStageCategory` | `stage_cat` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_TranspOrdStageCategory` | *Association* |
 
@@ -38,6 +37,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TranspOrdStageTypeText_2` | [0..*] |
 | `_TranspOrdStageCategory` | `I_TranspOrdStageCategory_2` | [0..1] |
 
 ## Source Code

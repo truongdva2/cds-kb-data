@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentTerms.PaymentTerms` | `PaymentTerms.PaymentTerms` |
+| `PaymentTerms` | `PaymentTerms.PaymentTerms` |
 | `_Text` | *Association* |
 
 ## Associations

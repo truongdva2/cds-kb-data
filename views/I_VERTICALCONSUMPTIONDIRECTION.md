@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `verticalconsumptiondirection preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `, _Text` | `, _Text` |
+| `VerticalConsumptionDirection` | `cast(…)` |
+| `_Text` | *Association* |
 
 ## Associations
 

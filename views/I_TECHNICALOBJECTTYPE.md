@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TechnicalObjectType` | `t370k.eqart` |
-| `technicalobjecttype_oid )` | `cast( t370k.eqart` |
+| `EAMTechnicalObjectTypeOID` | `cast( t370k.eqart as technicalobjecttype_oid )` |
 | `_Text` | *Association* |
 
 ## Associations

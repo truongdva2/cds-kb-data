@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_order_without_charge preserving type)` | `cast(SalesDocument` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `SalesOrderWithoutCharge` | `cast(SalesDocument as sales_order_without_charge preserving type)` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |

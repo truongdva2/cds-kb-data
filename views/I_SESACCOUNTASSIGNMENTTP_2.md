@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
-| `key ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
-| `key AccountAssignment` | `AccountAssignment` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `ServiceEntrySheetItem` |
+| `AccountAssignment` | `AccountAssignment` |
 | `RefDocAccountAssignment` | `RefDocAccountAssignment` |
 | `IsDeleted` | `IsDeleted` |
 | `QuantityUnit` | `QuantityUnit` |
@@ -89,9 +89,6 @@ tags:
 | `Currency` | `Currency` |
 | `CompanyCode` | `CompanyCode` |
 | `ChartOfAccounts` | `ChartOfAccounts` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheetItem : redirected to parent I_ServiceEntrySheetItemTP_2` | *Association* |
-| `_SESHeader             : redirected to I_ServiceEntrySheetTP_2` | *Association* |
 
 ## Associations
 

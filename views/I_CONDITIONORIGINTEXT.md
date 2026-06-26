@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kherk )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_origin_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionOrigin` | `cast ( substring( domvalue_l, 1, 1 ) as kherk )` |
+| `ConditionOriginName` | `cast ( ddtext as price_element_origin_descr )` |
 | `_ConditionOrigin` | *Association* |
 | `_Language` | *Association* |
 

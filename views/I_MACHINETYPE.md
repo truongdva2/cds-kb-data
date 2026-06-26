@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `MachineType` | `typ.matyp` |
 | `_Text` | *Association* |
 

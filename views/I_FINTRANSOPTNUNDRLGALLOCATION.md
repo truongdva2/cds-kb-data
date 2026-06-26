@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinTransOptionNumber` | `optnr` |
-| `option_underlying_transaction preserving type )` | `cast( rfha` |
+| `OptionUnderlyingTransaction` | `cast( rfha as option_underlying_transaction preserving type )` |
 | `FinancialTransactionFromExer` | `vrfha` |
 | `_FinTrans` | *Association* |
 

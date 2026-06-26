@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/sep_lifecycle_stat_cd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrEvalTemplateLifecycleSts` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type)` | `cast(ddtext` |
+| `SuplrEvalTmplLifecycleStsName` | `cast(ddtext as /srmsmc/status_descr preserving type)` |
 | `_SuplrEvalTmplLifecycleSts` | *Association* |
 | `_Language` | *Association* |
 

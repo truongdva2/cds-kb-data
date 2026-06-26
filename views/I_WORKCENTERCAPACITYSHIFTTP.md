@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
-| `key CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
-| `key CapacityInternalID` | `CapacityInternalID` |
-| `key CapacityActiveVersion` | `CapacityActiveVersion` |
-| `key IntervalEndDate` | `IntervalEndDate` |
-| `key WeekDay` | `WeekDay` |
-| `key AvailableCapacityShift` | `AvailableCapacityShift` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `CapacityCategoryAllocation` | `CapacityCategoryAllocation` |
+| `CapacityInternalID` | `CapacityInternalID` |
+| `CapacityActiveVersion` | `CapacityActiveVersion` |
+| `IntervalEndDate` | `IntervalEndDate` |
+| `WeekDay` | `WeekDay` |
+| `AvailableCapacityShift` | `AvailableCapacityShift` |
 | `IntervalStartDate` | `IntervalStartDate` |
 | `WorkDayRule` | `WorkDayRule` |
 | `ShiftDefinition` | `ShiftDefinition` |
@@ -53,8 +53,6 @@ tags:
 | `OperatingDurationInSeconds` | `OperatingDurationInSeconds` |
 | `TotOperatingDurationInSeconds` | `TotOperatingDurationInSeconds` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `_Header : redirected to I_WorkCenterTP` | *Association* |
-| `_Interval: redirected to parent I_WorkCenterCapacityIntervalTP` | *Association* |
 
 ## Associations
 

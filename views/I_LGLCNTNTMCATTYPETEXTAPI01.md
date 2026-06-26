@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCatType` | `LglCntntMCatType` |
+| `LglCntntMCatType` | `LglCntntMCatType` |
 | `LglCntntMCatTypeName` | `LglCntntMCatTypeName` |
 
 ## Associations

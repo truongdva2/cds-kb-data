@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMGovLaw` | `LglCntntMGovLaw` |
+| `LglCntntMGovLaw` | `LglCntntMGovLaw` |
 | `_LglCntntMGovLawTextAPI01` | *Association* |
 
 ## Associations

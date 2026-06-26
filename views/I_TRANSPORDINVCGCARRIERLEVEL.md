@@ -28,14 +28,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/pymt_ind preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdInvoicingCarrierLevel` | `cast(substring(domvalue_l, 1, 2) as /scmtms/pymt_ind preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdInvcgCarrierLvlT` | [0..*] |
 
 ## Source Code
 

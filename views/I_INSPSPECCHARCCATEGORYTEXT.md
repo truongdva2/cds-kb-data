@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qrzwang preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspSpecCharcCategory` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qrzwang preserving type )` |
 | `Language` | `ddlanguage` |
-| `vdm_qrzwang_text preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspSpecCharcCategory, //decomment only if no problems in analytics` | *Association* |
+| `InspSpecCharcCategoryText` | `cast( ddtext as vdm_qrzwang_text preserving type )` |
+| `_InspSpecCharcCategory` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

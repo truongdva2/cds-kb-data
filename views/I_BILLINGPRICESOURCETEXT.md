@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `prsqu1 )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_price_srce_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `BillingPriceSource` | `cast ( substring( domvalue_l, 1, 1 ) as prsqu1 )` |
+| `BillingPriceSourceName` | `cast ( ddtext as price_element_price_srce_descr )` |
 | `_BillingPriceSource` | *Association* |
 | `_Language` | *Association* |
 

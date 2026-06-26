@@ -30,13 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
-| `fis_kokrs preserving type )` | `cast( hrrp_dir_n.kokrs` |
+| `ControllingArea` | `cast( hrrp_dir_n.kokrs as fis_kokrs preserving type )` |
 | `StatisticalKeyFigureHierarchy` | `hrrp_dir_n.hryid_42` |
-| `fis_datbi preserving type )` | `cast(hrrp_dir_n.hryvalto` |
-| `fis_datab preserving type )` | `cast(hrrp_dir_n.hryvalfrom` |
+| `ValidityEndDate` | `cast(hrrp_dir_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_dir_n.hryvalfrom as fis_datab preserving type )` |
 | `LastChangedByUser` | `hrrp_dir_n.upduser` |
 | `LastChangeDateTime` | `hrrp_dir_n.updtime` |
 | `HierarchyShortID` | `hrrp_dir_n.hrysid` |

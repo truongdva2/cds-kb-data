@@ -33,12 +33,8 @@ tags:
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `RealEstateObjectType` | `RealEstateObjectType` |
 | `REIdentificationKey` | `REIdentificationKey` |
-| `cast(` | `cast(` |
-| `concat_with_space(_REObjectTypeText.REObjectTypePrefix` | `concat_with_space(_REObjectTypeText.REObjectTypePrefix` |
-| `recaident)` | `REIdentificationKey,1 )` |
-| `cast(` | `cast(` |
-| `concat_with_space(_REObjectTypeText.RealEstateObjectTypeName` | `concat_with_space(_REObjectTypeText.RealEstateObjectTypeName` |
-| `recaident)` | `REIdentificationKey,1 )` |
+| `REIdentification` | `cast(…)` |
+| `REAccountingObjectName` | `cast(…)` |
 | `_REKeyAssgmt` | *Association* |
 | `_REContract` | *Association* |
 | `_REBusinessEntity` | *Association* |

@@ -32,12 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` | `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `_HierarchyNode.CostCenter` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `ControllingArea` | `_HierarchyNode.ControllingArea` |
+| `CnsldtnCostCenterHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `CostCenter` | `_HierarchyNode.CostCenter` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_CostCenter` | *Association* |
 | `_Hierarchy` | *Association* |

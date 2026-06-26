@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_proid_kk preserving type )` | `cast( left( dd07t.domvalue_l, 8 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `evl_proid_text_kk preserving type )` | `cast( ddtext` |
+| `CABusinessTransactionProcess` | `cast( left( dd07t.domvalue_l, 8 ) as evl_proid_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABusTransProcessName` | `cast( ddtext as evl_proid_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

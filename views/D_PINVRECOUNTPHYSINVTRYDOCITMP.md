@@ -29,18 +29,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PhysInventoryPlannedCountDate : gidat;` | `PhysInventoryPlannedCountDate : gidat;` |
-| `DocumentDate                  : bldat;` | `DocumentDate                  : bldat;` |
-| `PostingIsBlockedForPhysInvtry : isper;` | `PostingIsBlockedForPhysInvtry : isper;` |
-| `PhysInvtryDocHasQtySnapshot   : pi_book_inventory_freeze;` | `PhysInvtryDocHasQtySnapshot   : pi_book_inventory_freeze;` |
-| `PhysicalInventoryNumber       : pi_number;` | `PhysicalInventoryNumber       : pi_number;` |
-| `PhysInventoryReferenceNumber  : pi_reference;` | `PhysInventoryReferenceNumber  : pi_reference;` |
-| `PhysicalInventoryDocumentDesc : im_pi_doc_description;` | `PhysicalInventoryDocumentDesc : im_pi_doc_description;` |
-| `_Items       : composition [0..*] of D_PInvDocRecountItemKeysP;` | *Association* |
+| `PhysInventoryPlannedCountDate` | `gidat` |
+| `DocumentDate` | `bldat` |
+| `PostingIsBlockedForPhysInvtry` | `isper` |
+| `PhysInvtryDocHasQtySnapshot` | `pi_book_inventory_freeze` |
+| `PhysicalInventoryNumber` | `pi_number` |
+| `PhysInventoryReferenceNumber` | `pi_reference` |
+| `PhysicalInventoryDocumentDesc` | `im_pi_doc_description` |
+| `_Items` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Items` | `D_PInvDocRecountItemKeysP` | [0..*] |
 
 ## Source Code
 

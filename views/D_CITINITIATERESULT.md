@@ -29,11 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FromReportingDate: abap.dats;` | `FromReportingDate: abap.dats;` |
-| `ToReportingDate: abap.dats;` | `ToReportingDate: abap.dats;` |
-| `CompanyCode : bukrs;` | `CompanyCode : bukrs;` |
-| `CorporateIncomeTaxHierarchy : ficite_hryid;` | `CorporateIncomeTaxHierarchy : ficite_hryid;` |
-| `SourceLedger: fins_ledger;` | `SourceLedger: fins_ledger;` |
+| `FromReportingDate` | `abap.dats` |
+| `ToReportingDate` | `abap.dats` |
+| `CompanyCode` | `bukrs` |
+| `CorporateIncomeTaxHierarchy` | `ficite_hryid` |
+| `SourceLedger` | `fins_ledger` |
 
 ## Associations
 

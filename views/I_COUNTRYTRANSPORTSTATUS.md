@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ehdgm_country_transport_status preserving type )` | `cast( left( dd07l.domvalue_l, 2)` |
+| `CountryTransportStatus` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

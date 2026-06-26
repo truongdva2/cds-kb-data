@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
 | `TaskListType` | `TaskListOpBasic.BillOfOperationsType` |
 | `TaskListGroup` | `TaskListOpBasic.BillOfOperationsGroup` |
 | `TaskListOperationInternalId` | `TaskListOpBasic.BOOOperationInternalID` |
@@ -40,77 +39,62 @@ tags:
 | `TaskListSequence` | `plas.BillOfOperationsSequence` |
 | `BOOOperationInternalID` | `plas.BOOOperationInternalID` |
 | `TaskListOpBOMItmIntVersCounter` | `plas.BOOSqncOpAssgmtIntVersionCntr` |
-| `TaskListOpBasic.SuperiorOperationInternalID` | `TaskListOpBasic.SuperiorOperationInternalID` |
-| `plas.CreationDate` | `plas.CreationDate` |
-| `plas.LastChangeDate` | `plas.LastChangeDate` |
-| `case when superior.Operation_2 is not null` | `case when superior.Operation_2 is not null` |
-| `then superior.Operation_2` | `then superior.Operation_2` |
-| `else TaskListOpBasic.Operation_2` | `else TaskListOpBasic.Operation_2` |
-| `MaintenanceTaskListOperation` | `end` |
-| `case when TaskListOpBasic.SuperiorOperationInternalID <> '00000000'` | `case when TaskListOpBasic.SuperiorOperationInternalID <> '00000000'` |
-| `then TaskListOpBasic.Operation_2` | `then TaskListOpBasic.Operation_2` |
-| `else ''` | `else ''` |
-| `MaintTaskListSubOperation` | `end` |
-| `TaskListOpBasic.OperationText` | `TaskListOpBasic.OperationText` |
-| `TaskListOpBasic.OperationControlProfile` | `TaskListOpBasic.OperationControlProfile` |
-| `TaskListOpBasic.WorkCenterInternalID` | `TaskListOpBasic.WorkCenterInternalID` |
-| `TaskListOpBasic.WorkCenterTypeCode` | `TaskListOpBasic.WorkCenterTypeCode` |
-| `TaskListOpBasic.Plant` | `TaskListOpBasic.Plant` |
-| `TaskListOpBasic.OpPlannedWorkQuantity` | `TaskListOpBasic.OpPlannedWorkQuantity` |
-| `TaskListOpBasic.OpWorkQuantityUnit` | `TaskListOpBasic.OpWorkQuantityUnit` |
-| `TaskListOpBasic.ChangeNumber` | `TaskListOpBasic.ChangeNumber` |
-| `cast ( case when plas.IsDeleted = 'X' then plas.ValidityStartDate` | `cast ( case when plas.IsDeleted = 'X' then plas.ValidityStartDate` |
-| `else TaskListOpBasic.ValidityStartDate` | `else TaskListOpBasic.ValidityStartDate` |
-| `vdm_v_validity_start_date preserving type )` | `end` |
-| `cast ( case when plas.ValidityEndDate <= TaskListOpBasic.ValidityEndDate then plas.ValidityEndDate` | `cast ( case when plas.ValidityEndDate <= TaskListOpBasic.ValidityEndDate then plas.ValidityEndDate` |
-| `else TaskListOpBasic.ValidityEndDate` | `else TaskListOpBasic.ValidityEndDate` |
-| `vdm_v_validity_end_date preserving type )` | `end` |
-| `TaskListOpBasic.OperationStandardTextCode` | `TaskListOpBasic.OperationStandardTextCode` |
-| `TaskListOpBasic.PurchasingInfoRecdAddlGrpgName` | `TaskListOpBasic.PurchasingInfoRecdAddlGrpgName` |
-| `TaskListOpBasic.OpExternalProcessingPrice` | `TaskListOpBasic.OpExternalProcessingPrice` |
-| `TaskListOpBasic.NumberOfOperationPriceUnits` | `TaskListOpBasic.NumberOfOperationPriceUnits` |
-| `TaskListOpBasic.OpExternalProcessingCurrency` | `TaskListOpBasic.OpExternalProcessingCurrency` |
-| `TaskListOpBasic.PurchasingInfoRecord` | `TaskListOpBasic.PurchasingInfoRecord` |
-| `TaskListOpBasic.Supplier` | `TaskListOpBasic.Supplier` |
-| `TaskListOpBasic.PurchaseContract` | `TaskListOpBasic.PurchaseContract` |
-| `TaskListOpBasic.PurchaseContractItem` | `TaskListOpBasic.PurchaseContractItem` |
-| `TaskListOpBasic.OperationStandardDuration` | `TaskListOpBasic.OperationStandardDuration` |
-| `TaskListOpBasic.OperationStandardDurationUnit` | `TaskListOpBasic.OperationStandardDurationUnit` |
-| `TaskListOpBasic.NumberOfCapacities` | `TaskListOpBasic.NumberOfCapacities` |
-| `TaskListOpBasic.OperationSystemCondition` | `TaskListOpBasic.OperationSystemCondition` |
-| `TaskListOpBasic.CostCtrActivityType` | `TaskListOpBasic.CostCtrActivityType` |
-| `TaskListOpBasic.OperationCalculationControl` | `TaskListOpBasic.OperationCalculationControl` |
-| `TaskListOpBasic.Assembly` | `TaskListOpBasic.Assembly` |
-| `TaskListOpBasic.PurchaseOrderQty` | `TaskListOpBasic.PurchaseOrderQty` |
-| `TaskListOpBasic.PurchaseOrderQuantityUnit` | `TaskListOpBasic.PurchaseOrderQuantityUnit` |
-| `ps_s4_tplnr preserving type )` | `cast( TaskListOpBasic.FunctionalLocation` |
-| `TaskListOpBasic.Equipment` | `TaskListOpBasic.Equipment` |
-| `TaskListOpBasic.PurchasingInfoRecordCategory` | `TaskListOpBasic.PurchasingInfoRecordCategory` |
-| `TaskListOpBasic.PurchasingOrganization` | `TaskListOpBasic.PurchasingOrganization` |
-| `case when plas.IsDeleted = 'X'` | `case when plas.IsDeleted = 'X'` |
-| `then plas.IsDeleted` | `then plas.IsDeleted` |
-| `else TaskListOpBasic.IsDeleted` | `else TaskListOpBasic.IsDeleted` |
-| `end` | `end` |
-| `as IsDeleted` | `as IsDeleted` |
-| `plas.IsImplicitlyDeleted` | `plas.IsImplicitlyDeleted` |
-| `TaskListOpBasic.OperationUnit` | `TaskListOpBasic.OperationUnit` |
-| `TaskListOpBasic.OpQtyToBaseQtyDnmntr` | `TaskListOpBasic.OpQtyToBaseQtyDnmntr` |
-| `TaskListOpBasic.OpQtyToBaseQtyNmrtr` | `TaskListOpBasic.OpQtyToBaseQtyNmrtr` |
-| `TaskListOpBasic.OperationReferenceQuantity` | `TaskListOpBasic.OperationReferenceQuantity` |
-| `TaskListOpBasic.PlannedDeliveryDuration` | `TaskListOpBasic.PlannedDeliveryDuration` |
-| `TaskListOpBasic.CostElement` | `TaskListOpBasic.CostElement` |
-| `TaskListOpBasic.PurchasingGroup` | `TaskListOpBasic.PurchasingGroup` |
-| `TaskListOpBasic.MaterialGroup` | `TaskListOpBasic.MaterialGroup` |
-| `TaskListOpBasic.OperationCostingRelevancyType` | `TaskListOpBasic.OperationCostingRelevancyType` |
-| `TaskListOpBasic.MinimumDuration` | `TaskListOpBasic.MinimumDuration` |
-| `TaskListOpBasic.MinimumDurationUnit` | `TaskListOpBasic.MinimumDurationUnit` |
-| `TaskListOpBasic.OperationWorkPercent` | `TaskListOpBasic.OperationWorkPercent` |
-| `TaskListOpBasic.CapRqmtsDistributionFunction` | `TaskListOpBasic.CapRqmtsDistributionFunction` |
-| `TaskListOpBasic.CompanyCode` | `TaskListOpBasic.CompanyCode` |
-| `TaskListOpBasic.FactoryCalendar` | `TaskListOpBasic.FactoryCalendar` |
-| `TaskListOpBasic.CapacityRequirementDistrKey` | `TaskListOpBasic.CapacityRequirementDistrKey` |
-| `TaskListOpBasic.MaintOperationExecStageCode` | `TaskListOpBasic.MaintOperationExecStageCode` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
+| `SuperiorOperationInternalID` | `TaskListOpBasic.SuperiorOperationInternalID` |
+| `CreationDate` | `plas.CreationDate` |
+| `LastChangeDate` | `plas.LastChangeDate` |
+| `MaintenanceTaskListOperation` | `case…end` |
+| `MaintTaskListSubOperation` | `case…end` |
+| `OperationText` | `TaskListOpBasic.OperationText` |
+| `OperationControlProfile` | `TaskListOpBasic.OperationControlProfile` |
+| `WorkCenterInternalID` | `TaskListOpBasic.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `TaskListOpBasic.WorkCenterTypeCode` |
+| `Plant` | `TaskListOpBasic.Plant` |
+| `OpPlannedWorkQuantity` | `TaskListOpBasic.OpPlannedWorkQuantity` |
+| `OpWorkQuantityUnit` | `TaskListOpBasic.OpWorkQuantityUnit` |
+| `ChangeNumber` | `TaskListOpBasic.ChangeNumber` |
+| `ValidityStartDate` | `cast(…)` |
+| `ValidityEndDate` | `cast(…)` |
+| `OperationStandardTextCode` | `TaskListOpBasic.OperationStandardTextCode` |
+| `PurchasingInfoRecdAddlGrpgName` | `TaskListOpBasic.PurchasingInfoRecdAddlGrpgName` |
+| `OpExternalProcessingPrice` | `TaskListOpBasic.OpExternalProcessingPrice` |
+| `NumberOfOperationPriceUnits` | `TaskListOpBasic.NumberOfOperationPriceUnits` |
+| `OpExternalProcessingCurrency` | `TaskListOpBasic.OpExternalProcessingCurrency` |
+| `PurchasingInfoRecord` | `TaskListOpBasic.PurchasingInfoRecord` |
+| `Supplier` | `TaskListOpBasic.Supplier` |
+| `PurchaseContract` | `TaskListOpBasic.PurchaseContract` |
+| `PurchaseContractItem` | `TaskListOpBasic.PurchaseContractItem` |
+| `OperationStandardDuration` | `TaskListOpBasic.OperationStandardDuration` |
+| `OperationStandardDurationUnit` | `TaskListOpBasic.OperationStandardDurationUnit` |
+| `NumberOfCapacities` | `TaskListOpBasic.NumberOfCapacities` |
+| `OperationSystemCondition` | `TaskListOpBasic.OperationSystemCondition` |
+| `CostCtrActivityType` | `TaskListOpBasic.CostCtrActivityType` |
+| `OperationCalculationControl` | `TaskListOpBasic.OperationCalculationControl` |
+| `Assembly` | `TaskListOpBasic.Assembly` |
+| `PurchaseOrderQty` | `TaskListOpBasic.PurchaseOrderQty` |
+| `PurchaseOrderQuantityUnit` | `TaskListOpBasic.PurchaseOrderQuantityUnit` |
+| `FunctionalLocation` | `cast( TaskListOpBasic.FunctionalLocation as ps_s4_tplnr preserving type )` |
+| `Equipment` | `TaskListOpBasic.Equipment` |
+| `PurchasingInfoRecordCategory` | `TaskListOpBasic.PurchasingInfoRecordCategory` |
+| `PurchasingOrganization` | `TaskListOpBasic.PurchasingOrganization` |
+| `IsDeleted` | `case…end` |
+| `IsImplicitlyDeleted` | `plas.IsImplicitlyDeleted` |
+| `OperationUnit` | `TaskListOpBasic.OperationUnit` |
+| `OpQtyToBaseQtyDnmntr` | `TaskListOpBasic.OpQtyToBaseQtyDnmntr` |
+| `OpQtyToBaseQtyNmrtr` | `TaskListOpBasic.OpQtyToBaseQtyNmrtr` |
+| `OperationReferenceQuantity` | `TaskListOpBasic.OperationReferenceQuantity` |
+| `PlannedDeliveryDuration` | `TaskListOpBasic.PlannedDeliveryDuration` |
+| `CostElement` | `TaskListOpBasic.CostElement` |
+| `PurchasingGroup` | `TaskListOpBasic.PurchasingGroup` |
+| `MaterialGroup` | `TaskListOpBasic.MaterialGroup` |
+| `OperationCostingRelevancyType` | `TaskListOpBasic.OperationCostingRelevancyType` |
+| `MinimumDuration` | `TaskListOpBasic.MinimumDuration` |
+| `MinimumDurationUnit` | `TaskListOpBasic.MinimumDurationUnit` |
+| `OperationWorkPercent` | `TaskListOpBasic.OperationWorkPercent` |
+| `CapRqmtsDistributionFunction` | `TaskListOpBasic.CapRqmtsDistributionFunction` |
+| `CompanyCode` | `TaskListOpBasic.CompanyCode` |
+| `FactoryCalendar` | `TaskListOpBasic.FactoryCalendar` |
+| `CapacityRequirementDistrKey` | `TaskListOpBasic.CapacityRequirementDistrKey` |
+| `MaintOperationExecStageCode` | `TaskListOpBasic.MaintOperationExecStageCode` |
 | `_MaintenanceTaskList` | *Association* |
 | `_TaskListType` | *Association* |
 

@@ -30,13 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
-| `fis_kokrs preserving type )` | `cast( cskr.kokrs` |
-| `fis_co_resource preserving type )` | `cast( cskr.resrc` |
-| `fis_datbi preserving type )` | `cast( cskr.datbi` |
-| `fis_datab preserving type )` | `cast( cskr.datab` |
+| `ControllingArea` | `cast( cskr.kokrs as fis_kokrs preserving type )` |
+| `CostAnalysisResource` | `cast( cskr.resrc as fis_co_resource preserving type )` |
+| `ValidityEndDate` | `cast( cskr.datbi as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast( cskr.datab as fis_datab preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Text` | *Association* |
 | `_ControllingAreaText` | *Association* |

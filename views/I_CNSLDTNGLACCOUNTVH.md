@@ -32,13 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGLChartOfAccountsVH'` | `name: 'I_CnsldtnGLChartOfAccountsVH'` |
-| `element: 'ChartOfAccounts'` | `element: 'ChartOfAccounts'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key ChartOfAccounts` | `ChartOfAccounts` |
-| `key GLAccount` | `GLAccount` |
-| `_Text[1: Language=$session.system_language].GLAccountName` | *Association* |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccount` | `GLAccount` |
+| `GLAccountName` | `_Text[1: Language=$session.system_language].GLAccountName` |
 
 ## Associations
 

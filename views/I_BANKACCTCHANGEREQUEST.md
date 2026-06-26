@@ -35,9 +35,9 @@ tags:
 | `BankAccountChangeRequest` | `cr.request_id` |
 | `BankAcctChangeReqHeadingText` | `cr.title` |
 | `BankAccountAction` | `cr.account_action` |
-| `_actionText.BankAccountActionText                                                          as BankAccountActionText` | *Association* |
+| `BankAccountActionText` | `_actionText.BankAccountActionText` |
 | `BankAccountChangeRequestStatus` | `cr.request_status` |
-| `_requestStatusText.BankAccountReqStatusText                                                as BankAccountReqStatusText` | *Association* |
+| `BankAccountReqStatusText` | `_requestStatusText.BankAccountReqStatusText` |
 | `CreatedByUser` | `cr.created_by` |
 | `CreationDate` | `cr.created_on` |
 | `BankAcctChangeRequestDueDate` | `cr.duedate` |
@@ -48,7 +48,7 @@ tags:
 | `LastChangeTime` | `cr.lastchged_tm` |
 | `CreationTime` | `cr.created_tm` |
 | `ChangeRequestIsBypassCheck` | `cr.bypass_check_mass` |
-| `boolean preserving type )` | `cast ( case when bypass_check_mass = 'X' then '' else 'X' end` |
+| `ChgReqBypassChkIsHidn` | `cast(…)` |
 | `_Bankaccount` | *Association* |
 
 ## Associations

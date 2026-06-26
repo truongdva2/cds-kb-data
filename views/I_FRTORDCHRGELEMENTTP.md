@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspChargeItemElementUUID` | `TranspChargeItemElementUUID` |
+| `TranspChargeItemElementUUID` | `TranspChargeItemElementUUID` |
 | `TranspChargeItemUUID` | `TranspChargeItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationRateUUID` | `TransportationRateUUID` |
@@ -62,12 +62,11 @@ tags:
 | `TranspCalculationMethodName` | `TranspCalculationMethodName` |
 | `TranspChargeCalcStatus` | `TranspChargeCalcStatus` |
 | `TranspChargePostingStatus` | `TranspChargePostingStatus` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TranspOrderChargeItem      as _FreightOrderChargeItem  : redirected to parent I_FreightOrderChargeItemTP` | *Association* |
-| `_TranspOrdChrgCalcBase      as _FrtOrdChrgCalcBase      : redirected to composition child I_FrtOrdChrgCalcBaseTP` | *Association* |
-| `_TranspOrdChrgCalcRule      as _FrtOrdChrgCalcRule      : redirected to composition child I_FrtOrdChrgCalcRuleTP` | *Association* |
-| `_TranspOrdChrgElmntExchRate as _FrtOrdChrgElmntExchRate : redirected to composition child I_FrtOrdChrgElmntExchRateTP` | *Association* |
-| `_TransportationOrder        as _FreightOrder            : redirected to I_FreightOrderTP` | *Association* |
+| `_FreightOrderChargeItem` | *Association* |
+| `_FrtOrdChrgCalcBase` | *Association* |
+| `_FrtOrdChrgCalcRule` | *Association* |
+| `_FrtOrdChrgElmntExchRate` | *Association* |
+| `_FreightOrder` | *Association* |
 
 ## Associations
 

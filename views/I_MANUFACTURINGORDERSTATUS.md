@@ -30,20 +30,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key jest.StatusCode` | `jest.StatusCode` |
-| `j_objnr preserving type)` | `cast(jest.StatusObject` |
-| `jest.StatusProfile` | `jest.StatusProfile` |
-| `vdm_j_isuserstatus   preserving type)` | `cast(jest.IsUserStatus` |
-| `vdm_j_statusisactive preserving type)` | `cast(jest.StatusIsActive` |
-| `jest.StatusIsInactive` | `jest.StatusIsInactive` |
+| `ManufacturingOrder` | `cast(aufk.OrderID as manufacturingorder preserving type)` |
+| `StatusCode` | `jest.StatusCode` |
+| `StatusObject` | `cast(jest.StatusObject as j_objnr preserving type)` |
+| `StatusProfile` | `jest.StatusProfile` |
+| `IsUserStatus` | `cast(jest.IsUserStatus as vdm_j_isuserstatus preserving type)` |
+| `StatusIsActive` | `cast(jest.StatusIsActive as vdm_j_statusisactive preserving type)` |
+| `StatusIsInactive` | `jest.StatusIsInactive` |
 | `ManufacturingOrderCategory` | `aufk.OrderCategory` |
 | `_ManufacturingOrder` | *Association* |
-| `_Text` | *Association* |
 | `_MfgOrderCategory` | *Association* |
-| `jest._StatusObject` | `jest._StatusObject` |
-| `jest._StatusCode` | `jest._StatusCode` |
-| `jest._StatusProfile` | `jest._StatusProfile` |
+| `_StatusObject` | *Association* |
+| `_StatusCode` | *Association* |
+| `_StatusProfile` | *Association* |
 
 ## Associations
 

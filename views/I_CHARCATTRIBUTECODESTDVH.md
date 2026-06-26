@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
-| `key CharacteristicAttributeCode` | `CharacteristicAttributeCode` |
+| `CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
+| `CharacteristicAttributeCode` | `CharacteristicAttributeCode` |
 | `_Text` | *Association* |
 | `_CharcAttributeCodeGrp` | *Association* |
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kcgla preserving type)` | `cast ( right(domvalue_l, 1)` |
+| `KanbanCalculationSmoothingType` | `cast ( right(domvalue_l, 1) as kcgla preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

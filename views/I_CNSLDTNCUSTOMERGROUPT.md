@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CustomerGroupName' }` | `status: #DEPRECATED, successor: 'CustomerGroupName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.CustomerGroupName` |
-| `fincs_customergroupname preserving type )` | `cast( _Source.CustomerGroupName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `CustomerGroup` | `cast( _Source.CustomerGroup as fincs_customergroup preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.CustomerGroupName as fincs_description_text_20 preserving type )` |
+| `CustomerGroupName` | `cast( _Source.CustomerGroupName as fincs_customergroupname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_CustomerGroup` | *Association* |
 

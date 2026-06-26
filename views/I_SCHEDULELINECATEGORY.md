@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sd_schedule_line_cat preserving type )` | `cast (ettyp` |
+| `ScheduleLineCategory` | `cast (ettyp as vdm_sd_schedule_line_cat preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

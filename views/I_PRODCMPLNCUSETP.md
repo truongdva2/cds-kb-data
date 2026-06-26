@@ -31,16 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncUseUUID` | `ProdCmplncUseUUID` |
+| `ProdCmplncUseUUID` | `ProdCmplncUseUUID` |
 | `ChmlCmplncInfoUUID` | `ChmlCmplncInfoUUID` |
-| `/**** Content ****/` | `/**** Content ****/` |
 | `ProdCmplncLegalArea` | `ProdCmplncLegalArea` |
 | `ProdCmplncUseProcgSts` | `ProdCmplncUseProcgSts` |
 | `ValidityStartDateTime` | `ValidityStartDateTime` |
 | `ValidityEndDateTime` | `ValidityEndDateTime` |
-| `_ProdCmplncWayOfAppl                        : redirected to composition child I_ProdCmplncWayOfApplTP` | *Association* |
-| `_ProdCmplncRstrcdUse                        : redirected to composition child I_ProdCmplncRstrcdUseTP` | *Association* |
-| `_ProdCmplncSpcfcUse as _ProdCmplncRecmddUse : redirected to composition child I_ProdCmplncRecmddUseTP` | *Association* |
+| `_ProdCmplncRecmddUse` | *Association* |
 | `_ChmlCmplncInfo` | *Association* |
 
 ## Associations

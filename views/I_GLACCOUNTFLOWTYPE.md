@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glaccount_flow_type )` | `cast( dd07l.domvalue_l` |
+| `GLAccountFlowType` | `cast( dd07l.domvalue_l as fis_glaccount_flow_type )` |
 | `_Text` | *Association* |
 
 ## Associations

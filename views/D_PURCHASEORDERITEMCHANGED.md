@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurchaseOrderType : bsart;` | `PurchaseOrderType : bsart;` |
-| `PurchasingOrganization : ekorg;` | `PurchasingOrganization : ekorg;` |
-| `PurchasingGroup : ekgrp;` | `PurchasingGroup : ekgrp;` |
-| `Supplier : lifnr;` | `Supplier : lifnr;` |
-| `PurchaseOrderItemCategory : pstyp;` | `PurchaseOrderItemCategory : pstyp;` |
-| `Plant : vdm_werks_d;` | `Plant : vdm_werks_d;` |
-| `Product : matnr;` | `Product : matnr;` |
+| `PurchaseOrderType` | `bsart` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchasingGroup` | `ekgrp` |
+| `Supplier` | `lifnr` |
+| `PurchaseOrderItemCategory` | `pstyp` |
+| `Plant` | `vdm_werks_d` |
+| `Product` | `matnr` |
 
 ## Associations
 

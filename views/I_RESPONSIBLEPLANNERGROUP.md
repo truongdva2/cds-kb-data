@@ -30,8 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `disptxt preserving type)` | `cast(t024a.txt` |
+| `Plant` | `t024a.werks` |
+| `ResponsiblePlannerGroup` | `cast(t024a.fevor as vagrp preserving type)` |
+| `ResponsiblePlannerGroupName` | `cast(t024a.txt as disptxt preserving type)` |
 | `_Plant` | *Association* |
 
 ## Associations

@@ -32,57 +32,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DebitMemoRequestItem.DebitMemoRequest` | `DebitMemoRequestItem.DebitMemoRequest` |
-| `key DebitMemoRequestItem.DebitMemoRequestItem` | `DebitMemoRequestItem.DebitMemoRequestItem` |
-| `DebitMemoRequestItem.HigherLevelItem` | `DebitMemoRequestItem.HigherLevelItem` |
-| `DebitMemoRequestItem.DebitMemoRequestItemCategory` | `DebitMemoRequestItem.DebitMemoRequestItemCategory` |
-| `DebitMemoRequestItem.DebitMemoRequestItemText` | `DebitMemoRequestItem.DebitMemoRequestItemText` |
-| `DebitMemoRequestItem.PurchaseOrderByCustomer` | `DebitMemoRequestItem.PurchaseOrderByCustomer` |
-| `DebitMemoRequestItem.Product` | `DebitMemoRequestItem.Product` |
-| `DebitMemoRequestItem.MaterialByCustomer` | `DebitMemoRequestItem.MaterialByCustomer` |
-| `DebitMemoRequestItem.ProductGroup` | `DebitMemoRequestItem.ProductGroup` |
-| `DebitMemoRequestItem.MaterialPricingGroup` | `DebitMemoRequestItem.MaterialPricingGroup` |
-| `DebitMemoRequestItem.Batch` | `DebitMemoRequestItem.Batch` |
-| `DebitMemoRequestItem.PricingDate` | `DebitMemoRequestItem.PricingDate` |
-| `DebitMemoRequestItem.RequestedQuantity` | `DebitMemoRequestItem.RequestedQuantity` |
-| `DebitMemoRequestItem.RequestedQuantityUnit` | `DebitMemoRequestItem.RequestedQuantityUnit` |
-| `DebitMemoRequestItem.NetAmount` | `DebitMemoRequestItem.NetAmount` |
-| `DebitMemoRequestItem.TransactionCurrency` | `DebitMemoRequestItem.TransactionCurrency` |
-| `DebitMemoRequestItem.ItemBillingBlockReason` | `DebitMemoRequestItem.ItemBillingBlockReason` |
-| `DebitMemoRequestItem.Plant` | `DebitMemoRequestItem.Plant` |
-| `DebitMemoRequestItem.TargetQuantity` | `DebitMemoRequestItem.TargetQuantity` |
-| `DebitMemoRequestItem.TargetQuantityUnit` | `DebitMemoRequestItem.TargetQuantityUnit` |
-| `DebitMemoRequestItem.ItemGrossWeight` | `DebitMemoRequestItem.ItemGrossWeight` |
-| `DebitMemoRequestItem.ItemNetWeight` | `DebitMemoRequestItem.ItemNetWeight` |
-| `DebitMemoRequestItem.ItemWeightUnit` | `DebitMemoRequestItem.ItemWeightUnit` |
-| `DebitMemoRequestItem.ItemVolume` | `DebitMemoRequestItem.ItemVolume` |
-| `DebitMemoRequestItem.ItemVolumeUnit` | `DebitMemoRequestItem.ItemVolumeUnit` |
-| `DebitMemoRequestItem.ServicesRenderedDate` | `DebitMemoRequestItem.ServicesRenderedDate` |
-| `DebitMemoRequestItem.SalesDocumentRjcnReason` | `DebitMemoRequestItem.SalesDocumentRjcnReason` |
-| `DebitMemoRequestItem.TaxAmount` | `DebitMemoRequestItem.TaxAmount` |
-| `DebitMemoRequestItem.IncotermsClassification` | `DebitMemoRequestItem.IncotermsClassification` |
-| `DebitMemoRequestItem.IncotermsLocation1` | `DebitMemoRequestItem.IncotermsLocation1` |
-| `DebitMemoRequestItem.IncotermsLocation2` | `DebitMemoRequestItem.IncotermsLocation2` |
-| `DebitMemoRequestItem.IncotermsVersion` | `DebitMemoRequestItem.IncotermsVersion` |
-| `DebitMemoRequestItem.BillingDocumentDate` | `DebitMemoRequestItem.BillingDocumentDate` |
-| `DebitMemoRequestItem.CustomerPaymentTerms` | `DebitMemoRequestItem.CustomerPaymentTerms` |
-| `DebitMemoRequestItem.ProfitCenter` | `DebitMemoRequestItem.ProfitCenter` |
-| `DebitMemoRequestItem.ReferenceSDDocument` | `DebitMemoRequestItem.ReferenceSDDocument` |
-| `DebitMemoRequestItem.ReferenceSDDocumentItem` | `DebitMemoRequestItem.ReferenceSDDocumentItem` |
-| `DebitMemoRequestItem.SDProcessStatus` | `DebitMemoRequestItem.SDProcessStatus` |
-| `DebitMemoRequestItem.OrderRelatedBillingStatus` | `DebitMemoRequestItem.OrderRelatedBillingStatus` |
-| `DebitMemoRequestItem.BillingBlockStatus` | `DebitMemoRequestItem.BillingBlockStatus` |
-| `DebitMemoRequestItem.ItemGeneralIncompletionStatus` | `DebitMemoRequestItem.ItemGeneralIncompletionStatus` |
-| `DebitMemoRequestItem.SDDocumentRejectionStatus` | `DebitMemoRequestItem.SDDocumentRejectionStatus` |
-| `DebitMemoRequestItem.TotalSDDocReferenceStatus` | `DebitMemoRequestItem.TotalSDDocReferenceStatus` |
-| `DebitMemoRequestItem.DebitMemoRequestType` | `DebitMemoRequestItem.DebitMemoRequestType` |
-| `DebitMemoRequestItem.OrganizationDivision` | `DebitMemoRequestItem.OrganizationDivision` |
-| `DebitMemoRequestItem.SalesOrganization` | `DebitMemoRequestItem.SalesOrganization` |
-| `DebitMemoRequestItem.DistributionChannel` | `DebitMemoRequestItem.DistributionChannel` |
-| `_DebitMemoRequest   : redirected to parent I_DebitMemoRequestTP` | *Association* |
-| `_ItemPartner        : redirected to composition child I_DebitMemoReqItemPartnerTP` | *Association* |
-| `_ItemText           : redirected to composition child I_DebitMemoRequestItemTextTP` | *Association* |
-| `_ItemPricingElement : redirected to composition child I_DebitMemoReqItmPrgElmTP` | *Association* |
+| `DebitMemoRequest` | `DebitMemoRequestItem.DebitMemoRequest` |
+| `DebitMemoRequestItem` | `DebitMemoRequestItem.DebitMemoRequestItem` |
+| `HigherLevelItem` | `DebitMemoRequestItem.HigherLevelItem` |
+| `DebitMemoRequestItemCategory` | `DebitMemoRequestItem.DebitMemoRequestItemCategory` |
+| `DebitMemoRequestItemText` | `DebitMemoRequestItem.DebitMemoRequestItemText` |
+| `PurchaseOrderByCustomer` | `DebitMemoRequestItem.PurchaseOrderByCustomer` |
+| `Product` | `DebitMemoRequestItem.Product` |
+| `MaterialByCustomer` | `DebitMemoRequestItem.MaterialByCustomer` |
+| `ProductGroup` | `DebitMemoRequestItem.ProductGroup` |
+| `MaterialPricingGroup` | `DebitMemoRequestItem.MaterialPricingGroup` |
+| `Batch` | `DebitMemoRequestItem.Batch` |
+| `PricingDate` | `DebitMemoRequestItem.PricingDate` |
+| `RequestedQuantity` | `DebitMemoRequestItem.RequestedQuantity` |
+| `RequestedQuantityUnit` | `DebitMemoRequestItem.RequestedQuantityUnit` |
+| `NetAmount` | `DebitMemoRequestItem.NetAmount` |
+| `TransactionCurrency` | `DebitMemoRequestItem.TransactionCurrency` |
+| `ItemBillingBlockReason` | `DebitMemoRequestItem.ItemBillingBlockReason` |
+| `Plant` | `DebitMemoRequestItem.Plant` |
+| `TargetQuantity` | `DebitMemoRequestItem.TargetQuantity` |
+| `TargetQuantityUnit` | `DebitMemoRequestItem.TargetQuantityUnit` |
+| `ItemGrossWeight` | `DebitMemoRequestItem.ItemGrossWeight` |
+| `ItemNetWeight` | `DebitMemoRequestItem.ItemNetWeight` |
+| `ItemWeightUnit` | `DebitMemoRequestItem.ItemWeightUnit` |
+| `ItemVolume` | `DebitMemoRequestItem.ItemVolume` |
+| `ItemVolumeUnit` | `DebitMemoRequestItem.ItemVolumeUnit` |
+| `ServicesRenderedDate` | `DebitMemoRequestItem.ServicesRenderedDate` |
+| `SalesDocumentRjcnReason` | `DebitMemoRequestItem.SalesDocumentRjcnReason` |
+| `TaxAmount` | `DebitMemoRequestItem.TaxAmount` |
+| `IncotermsClassification` | `DebitMemoRequestItem.IncotermsClassification` |
+| `IncotermsLocation1` | `DebitMemoRequestItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `DebitMemoRequestItem.IncotermsLocation2` |
+| `IncotermsVersion` | `DebitMemoRequestItem.IncotermsVersion` |
+| `BillingDocumentDate` | `DebitMemoRequestItem.BillingDocumentDate` |
+| `CustomerPaymentTerms` | `DebitMemoRequestItem.CustomerPaymentTerms` |
+| `ProfitCenter` | `DebitMemoRequestItem.ProfitCenter` |
+| `ReferenceSDDocument` | `DebitMemoRequestItem.ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `DebitMemoRequestItem.ReferenceSDDocumentItem` |
+| `SDProcessStatus` | `DebitMemoRequestItem.SDProcessStatus` |
+| `OrderRelatedBillingStatus` | `DebitMemoRequestItem.OrderRelatedBillingStatus` |
+| `BillingBlockStatus` | `DebitMemoRequestItem.BillingBlockStatus` |
+| `ItemGeneralIncompletionStatus` | `DebitMemoRequestItem.ItemGeneralIncompletionStatus` |
+| `SDDocumentRejectionStatus` | `DebitMemoRequestItem.SDDocumentRejectionStatus` |
+| `TotalSDDocReferenceStatus` | `DebitMemoRequestItem.TotalSDDocReferenceStatus` |
+| `DebitMemoRequestType` | `DebitMemoRequestItem.DebitMemoRequestType` |
+| `OrganizationDivision` | `DebitMemoRequestItem.OrganizationDivision` |
+| `SalesOrganization` | `DebitMemoRequestItem.SalesOrganization` |
+| `DistributionChannel` | `DebitMemoRequestItem.DistributionChannel` |
 
 ## Associations
 

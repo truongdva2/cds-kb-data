@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/s4ppm/tv_solo_link_uuid preserving type )` | `cast( EntProjBusSolnOrderLinkUUID` |
-| `/s4ppm/tv_project_uuid preserving type )` | `cast( ProjectUUID` |
-| `/s4ppm/tv_objectlink_guid preserving type )` | `cast( EntProjectObjectLinkUUID` |
+| `EntProjBusSolnOrderLinkUUID` | `cast( EntProjBusSolnOrderLinkUUID as /s4ppm/tv_solo_link_uuid preserving type )` |
+| `ProjectUUID` | `cast( ProjectUUID as /s4ppm/tv_project_uuid preserving type )` |
+| `EntProjectObjectLinkUUID` | `cast( EntProjectObjectLinkUUID as /s4ppm/tv_objectlink_guid preserving type )` |
 | `BusinessSolutionOrder` | `BusinessSolutionOrder` |
 | `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
 | `_EntProjectProjectObjectLink` | *Association* |

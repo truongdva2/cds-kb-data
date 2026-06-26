@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_processorigin preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_NFReferencedProcessOrigin` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_processorigin preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

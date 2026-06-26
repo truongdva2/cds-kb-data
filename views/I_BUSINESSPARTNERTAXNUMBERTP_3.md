@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key BPTaxType` | `BPTaxType` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BPTaxType` | `BPTaxType` |
 | `BPTaxNumber` | `BPTaxNumber` |
 | `BPTaxLongNumber` | `BPTaxLongNumber` |
 | `BPTaxNumberForEditValue` | `BPTaxNumberForEditValue` |
@@ -53,7 +53,6 @@ tags:
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
 | `_BusinessPartnerTaxType` | *Association* |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 
 ## Associations
 

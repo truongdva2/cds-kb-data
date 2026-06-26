@@ -31,15 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_sls_propagate_paobjnr_bom preserving type )` | `cast ( substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast( ddlanguage` |
+| `PropagatePrftbltySgmt2BOM` | `cast(…)` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
 | `PropagatePrftbltySgmt2BOMText` | `ddtext` |
 | `_PropagatePrftbltySgmt2BOM` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PropagatePrftbltySgmt2BOM` | `I_PropagatePrftbltySgmt2BOM` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

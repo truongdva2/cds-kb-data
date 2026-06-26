@@ -32,15 +32,18 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `fis_kokrs preserving type )` | `cast(kokrs` |
-| `fis_stagr preserving type )` | `cast(stagr` |
-| `fis_ui_stagr_text preserving type )` | `cast(bezei` |
+| `ControllingArea` | `cast(kokrs as fis_kokrs preserving type )` |
+| `StatisticalKeyFigure` | `cast(stagr as fis_stagr preserving type )` |
+| `StatisticalKeyFigureName` | `cast(bezei as fis_ui_stagr_text preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ControllingArea` | `I_ControllingArea` | [1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

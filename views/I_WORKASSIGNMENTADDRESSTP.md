@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
-| `key WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
-| `key Country2DigitISOCode` | `Country2DigitISOCode` |
-| `key WorkAssignmentStartDate` | `WorkAssignmentStartDate` |
-| `key AddressNumber` | `AddressNumber` |
+| `WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
+| `WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `Country2DigitISOCode` |
+| `WorkAssignmentStartDate` | `WorkAssignmentStartDate` |
+| `AddressNumber` | `AddressNumber` |
 | `BusinessPartner` | `BusinessPartner` |
 | `WorkAssignmentEndDate` | `WorkAssignmentEndDate` |
 | `Country` | `Country` |
@@ -73,10 +73,7 @@ tags:
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
-| `/* Associations */` | `/* Associations */` |
 | `_BPProtectedAddress` | *Association* |
-| `_WorkAssignment  : redirected to parent I_WorkAssignmentTP_1` | *Association* |
-| `_WorkforcePerson : redirected to I_WorkforcePersonTP_1` | *Association* |
 
 ## Associations
 

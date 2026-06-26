@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectBillingRequestUUID` | `ProjectBillingRequestUUID` |
+| `ProjectBillingRequestUUID` | `ProjectBillingRequestUUID` |
 | `ProjectBillingRequest` | `ProjectBillingRequest` |
 | `ProjectBillingRequestStatus` | `ProjectBillingRequestStatus` |
 | `ProjBillgReqApprovalStatus` | `ProjBillgReqApprovalStatus` |
@@ -44,7 +44,7 @@ tags:
 | `ProjBillgReqCreatedBy` | `ProjBillgReqCreatedBy` |
 | `ProjBillgReqCreatedAtDteTme` | `ProjBillgReqCreatedAtDteTme` |
 | `ProjectBillingCategory` | `ProjectBillingCategory` |
-| `ProjectBillingRequest.ProjectInternalID` | `ProjectBillingRequest.ProjectInternalID` |
+| `ProjectInternalID` | `ProjectBillingRequest.ProjectInternalID` |
 | `_EnterpriseProject` | *Association* |
 | `_SalesDocument` | *Association* |
 | `_ProjectBillingCategory` | *Association* |
@@ -53,8 +53,6 @@ tags:
 | `_ProjectBillingReqStatusText` | *Association* |
 | `_ProjBillgReqApprovalStatus` | *Association* |
 | `_ProjBillgReqApprvlStatusText` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ProjectBillingReqItemTP : redirected to composition child I_ProjectBillingReqItemTP_2` | *Association* |
 
 ## Associations
 

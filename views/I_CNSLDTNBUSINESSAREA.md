@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( max ( AdditionalMasterDataSource )` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `BusinessArea` | `cast( BusinessArea as fincs_businessarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 | `_BusAreaHierNode` | *Association* |
 | `_MDSource` | *Association* |

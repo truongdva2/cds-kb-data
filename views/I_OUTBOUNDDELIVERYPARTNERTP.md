@@ -33,16 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDelivery` | `OutboundDelivery` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `OutboundDelivery` | `OutboundDelivery` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
 | `AddressID` | `AddressID` |
 | `AddressPersonID` | `AddressPersonID` |
 | `ContactPerson` | `ContactPerson` |
-| `/* Associations */` | `/* Associations */` |
-| `_Delivery : redirected to parent I_OutboundDeliveryTP` | *Association* |
 
 ## Associations
 

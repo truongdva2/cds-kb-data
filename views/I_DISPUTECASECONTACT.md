@@ -29,7 +29,11 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `UserID` | `UserID` |
+| `FullName` | `FullName` |
+| `AuthorizationGroup` | `AuthorizationGroup` |
 
 ## Associations
 

@@ -29,7 +29,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `QualityControlChartType` | `qrkart` |
 | `ControlChartAxisType` | `xgroup` |
 | `_Text` | *Association* |

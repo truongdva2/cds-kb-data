@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rgekm )` | `cast ( dd07l.domvalue_l` |
+| `ProductComponentBackflushCode` | `cast ( dd07l.domvalue_l as rgekm )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

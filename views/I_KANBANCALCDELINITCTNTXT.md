@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `loewg preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_delinitctns_text preserving type)` | `cast(ddtext` |
+| `KanbanCalcDelInitCtns` | `cast(substring(domvalue_l, 1, 1) as loewg preserving type)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KanbanCalcDelInitCtnsName` | `cast(ddtext as vdm_delinitctns_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnCalcDelInitialCtn` | *Association* |
 | `_Language` | *Association* |

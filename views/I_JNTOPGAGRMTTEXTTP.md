@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JntOpgAgrmtText.CompanyCode` | `JntOpgAgrmtText.CompanyCode` |
-| `key JntOpgAgrmtText.Language` | `JntOpgAgrmtText.Language` |
-| `key JntOpgAgrmtText.JntOpgAgrmt` | `JntOpgAgrmtText.JntOpgAgrmt` |
-| `JntOpgAgrmtText.JntOpgAgrmtText` | `JntOpgAgrmtText.JntOpgAgrmtText` |
-| `JntOpgAgrmtText.JntOpgAgrmtLongText` | `JntOpgAgrmtText.JntOpgAgrmtLongText` |
-| `_JntOpgAgrmt : redirected to parent I_JntOpgAgrmtTP` | *Association* |
+| `CompanyCode` | `JntOpgAgrmtText.CompanyCode` |
+| `Language` | `JntOpgAgrmtText.Language` |
+| `JntOpgAgrmt` | `JntOpgAgrmtText.JntOpgAgrmt` |
+| `JntOpgAgrmtText` | `JntOpgAgrmtText.JntOpgAgrmtText` |
+| `JntOpgAgrmtLongText` | `JntOpgAgrmtText.JntOpgAgrmtLongText` |
 
 ## Associations
 

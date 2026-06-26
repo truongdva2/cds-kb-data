@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
-| `key VarConfignTblValAssgmtAltvID` | `VarConfignTblValAssgmtAltvID` |
-| `/* Associations */` | `/* Associations */` |
-| `_Item: redirected to composition child I_VarCnfTblVlAsgtAltvItmTP` | *Association* |
-| `_Table : redirected to parent I_VarConfignTableTP` | *Association* |
+| `VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblValAssgmtAltvID` | `VarConfignTblValAssgmtAltvID` |
 
 ## Associations
 

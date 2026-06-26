@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `fincs_consolidationunittext preserving type )` | `cast ( _Source.ConsolidationUnitText` |
-| `_Source.ConsolidationUnitMdmText` | *Association* |
-| `fincs_consunitlongtext preserving type )` | `cast ( _Source.ConsolidationUnitLongText` |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnUnit                                                                          as _CnsldtnUnit : redirected to parent I_CnsldtnUnitTP` | *Association* |
+| `Language` | `_Source.Language` |
+| `ConsolidationUnit` | `cast ( _Source.ConsolidationUnit as fincs_consolidationunit preserving type )` |
+| `ConsolidationUnitText` | `cast(…)` |
+| `ConsolidationUnitMdmText` | `_Source.ConsolidationUnitMdmText` |
+| `ConsolidationUnitLongText` | `cast(…)` |
+| `_CnsldtnUnit` | *Association* |
 
 ## Associations
 

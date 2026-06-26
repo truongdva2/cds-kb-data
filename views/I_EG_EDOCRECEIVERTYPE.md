@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EG_EDocSalesOrg` | `EG_EDocSalesOrg` |
+| `EG_EDocSalesOrg` | `EG_EDocSalesOrg` |
 | `EG_EDocPartnerFunction` | `EG_EDocPartnerFunction` |
 
 ## Associations

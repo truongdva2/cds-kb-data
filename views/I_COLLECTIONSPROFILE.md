@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association: '_Text' } }` | `association: '_Text' } }` |
 | `CollectionProfile` | `coll_profile` |
 | `_Text` | *Association* |
 

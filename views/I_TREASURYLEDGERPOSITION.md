@@ -33,8 +33,8 @@ tags:
 |---|---|
 | `TreasuryPosition` | `trlt_position.os_guid` |
 | `TreasuryPositionZeroDate` | `trlt_position.zero_pos_date` |
-| `ftr_gen_asset_liab_indicator preserving type)` | `cast(trlt_position.active_passive` |
-| `ftr_gen_pos_man_proc preserving type)` | `cast(trlt_position.pos_man_proc` |
+| `TreasuryPosAssetLiabilityCode` | `cast(…)` |
+| `TrsyPosManagementProcedure` | `cast(trlt_position.pos_man_proc as ftr_gen_pos_man_proc preserving type)` |
 | `PositionCurrency` | `position_curr` |
 | `ValuationCurrency` | `valuation_curr` |
 | `CreatedByUser` | `rerf` |

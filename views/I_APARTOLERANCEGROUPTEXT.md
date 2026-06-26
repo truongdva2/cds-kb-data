@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bukrs )` | `cast( bukrs` |
+| `CompanyCode` | `cast( bukrs as fis_bukrs )` |
 | `Language` | `spras` |
-| `farp_togru )` | `cast( togru` |
+| `APARToleranceGroup` | `cast( togru as farp_togru )` |
 | `APARToleranceGroupName` | `txt30` |
 | `_CompanyCode` | *Association* |
 | `_Language` | *Association* |

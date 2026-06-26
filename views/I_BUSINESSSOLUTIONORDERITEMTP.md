@@ -30,33 +30,103 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ServiceDocumentType' , element:'ServiceDocumentType'}, useAsTemplate: true  }]` | `name: 'I_ServiceDocumentType' , element:'ServiceDocumentType'}, useAsTemplate: true  }]` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `ParentBusSolnOrdItem` | `ParentBusSolnOrdItem` |
+| `BusSolnOrdItmCategory` | `BusSolnOrdItmCategory` |
+| `BusinessSolutionOrderItemUUID` | `BusinessSolutionOrderItemUUID` |
+| `ServiceDocumentItemCharUUID` | `ServiceDocumentItemCharUUID` |
+| `BusSolnOrdItmDescription` | `BusSolnOrdItmDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `PlannedServiceStartDateTime` | `PlannedServiceStartDateTime` |
+| `PlannedServiceEndDateTime` | `PlannedServiceEndDateTime` |
+| `RequestedServiceStartDateTime` | `RequestedServiceStartDateTime` |
+| `RequestedServiceEndDateTime` | `RequestedServiceEndDateTime` |
+| `RequestedDeliveryUTCDateTime` | `RequestedDeliveryUTCDateTime` |
+| `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
+| `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
+| `ServiceDocItemCreatedByUser` | `ServiceDocItemCreatedByUser` |
+| `ServiceDocItemChangedByUser` | `ServiceDocItemChangedByUser` |
+| `BusSolnOrdExtReference` | `BusSolnOrdExtReference` |
+| `BusSolnOrdItmExtReference` | `BusSolnOrdItmExtReference` |
+| `Product` | `Product` |
+| `SrvcDocItemCumulatedNetAmount` | `SrvcDocItemCumulatedNetAmount` |
+| `Quantity` | `Quantity` |
+| `QuantityUnit` | `QuantityUnit` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `ProjectManager` | `ProjectManager` |
+| `ServicePerformer` | `ServicePerformer` |
+| `BusSolnOrdItmIsNew` | `BusSolnOrdItmIsNew` |
+| `BusSolnOrdItmIsInProcess` | `BusSolnOrdItmIsInProcess` |
+| `BusSolnOrdItmIsReleased` | `BusSolnOrdItmIsReleased` |
+| `BusSolnOrdItmIsCompleted` | `BusSolnOrdItmIsCompleted` |
+| `BusSolnOrdItmStatus` | `BusSolnOrdItmStatus` |
+| `BusSolnOrdItmIsRejected` | `BusSolnOrdItmIsRejected` |
+| `ServiceDocItemBillingStatus` | `ServiceDocItemBillingStatus` |
+| `SrvcDocItmDeliveryStatus` | `SrvcDocItmDeliveryStatus` |
+| `SrvcDocItemTransferStatus` | `SrvcDocItemTransferStatus` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `ResponsibleCostCenter` | `ResponsibleCostCenter` |
+| `EnterpriseProjectServiceOrg` | `EnterpriseProjectServiceOrg` |
+| `ReferenceServiceContract` | `ReferenceServiceContract` |
+| `ReferenceServiceContractItem` | `ReferenceServiceContractItem` |
+| `SrvcContrDetnIsSpprsd` | `SrvcContrDetnIsSpprsd` |
+| `BillingBlockReason` | `BillingBlockReason` |
+| `BusSolnOrdItmRjcnReason` | `BusSolnOrdItmRjcnReason` |
+| `MaterialPricingGroup` | `MaterialPricingGroup` |
+| `PartialDeliveryIsAllowed` | `PartialDeliveryIsAllowed` |
+| `PaymentTerms` | `PaymentTerms` |
+| `ProfitCenter` | `ProfitCenter` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `TimeSheetOvertimeCategory` | `TimeSheetOvertimeCategory` |
+| `SrvcContrItemRnwlDuration` | `SrvcContrItemRnwlDuration` |
+| `SrvcContrItemRnwlDurationUnit` | `SrvcContrItemRnwlDurationUnit` |
+| `SrvcContrItemExtensionDuration` | `SrvcContrItemExtensionDuration` |
+| `SrvcContrItemExtnDurationUnit` | `SrvcContrItemExtnDurationUnit` |
+| `SrvcMgmtBillgPlanBillgDateRule` | `SrvcMgmtBillgPlanBillgDateRule` |
+| `SettlementPeriodRule` | `SettlementPeriodRule` |
+| `SubscrpnContrTrmsAreSpecified` | `SubscrpnContrTrmsAreSpecified` |
+| `MidBillgCycExprtnIsAllowed` | `MidBillgCycExprtnIsAllowed` |
+| `SubscrpnContrAutoRnwlIsActv` | `SubscrpnContrAutoRnwlIsActv` |
+| `SubscriptionBillingCycle` | `SubscriptionBillingCycle` |
+| `SubscrpnOrdIsPending` | `SubscrpnOrdIsPending` |
+| `NrOfBillgCyclesBilledTogether` | `NrOfBillgCyclesBilledTogether` |
+| `SubscrpnBillgRatePlanUUID` | `SubscrpnBillgRatePlanUUID` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocumentItemNetAmount` | `ServiceDocumentItemNetAmount` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `DeliveryBlockReason` | `DeliveryBlockReason` |
+| `ItemOrderProbabilityInPercent` | `ItemOrderProbabilityInPercent` |
+| `IncotermsPart1` | `IncotermsPart1` |
+| `IncotermsPart2` | `IncotermsPart2` |
+| `OrderCombinationIsAllowed` | `OrderCombinationIsAllowed` |
+| `DeliveryGroup` | `DeliveryGroup` |
+| `DeliveryPriority` | `DeliveryPriority` |
+| `Plant` | `Plant` |
+| `ContractAccount` | `ContractAccount` |
+| `ResponseProfile` | `ResponseProfile` |
+| `ServiceProfile` | `ServiceProfile` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `ServiceOrganization` | `ServiceOrganization` |
 | `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
 | `SrvcDocItmApptRefObjectUUID` | `SrvcDocItmApptRefObjectUUID` |
-| `_BusinessSolutionOrder        : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
-| `_BusSolnOrdItmRefObjectTP     : redirected to composition child I_BusSolnOrdItmRefObjectTP` | *Association* |
-| `_BusSolnOrdItmPriceElementTP  : redirected to composition child I_BusSolnOrdItmPriceElementTP` | *Association* |
-| `_BusSolnOrdItmProductTP       : redirected to composition child I_BusSolnOrdItmProductTP` | *Association* |
-| `_BusSolnOrdItmUserStatusTP    : redirected to composition child I_BusSolnOrdItmUserStatusTP` | *Association* |
-| `_BusSolnOrdItmPartnerTP       : redirected to composition child I_BusSolnOrdItmPartnerTP` | *Association* |
-| `_BSOrdItmRateElementTP        : redirected to composition child I_BSOrdItmRateElementTP` | *Association* |
-| `_BSOrdItmSubscrpnParameterTP  : redirected to composition child I_BSOrdItmSubscrpnParameterTP` | *Association* |
-| `_BSOrdItmSubscrpnParameter2TP : redirected to composition child I_BSOrdItmSubscrpnParamTP_2` | *Association* |
-| `_BSOrdItmSubscrpnPriceParamTP : redirected to composition child I_BSOrdItmSubscrpnPriceParamTP` | *Association* |
-| `_BusSolnOrdItmFUPSalesOrderTP : redirected to composition child I_BusSolnOrdItmFUPSalesOrderTP` | *Association* |
-| `_BusSolnOrdItmFUPSrvcOrdTP    : redirected to composition child I_BusSolnOrdItmFUPSrvcOrdTP` | *Association* |
-| `_BusSolnOrdItmFUPSrvcContrTP  : redirected to composition child I_BusSolnOrdItmFUPSrvcContrTP` | *Association* |
-| `_BusSolnOrdItmFUPSubscrpnTP   : redirected to composition child I_BusSolnOrdItmFUPSubscrpnTP` | *Association* |
-| `_BusSolnOrdItmFUPEntProjectTP : redirected to composition child I_BusSolnOrdItmFUPEntProjectTP` | *Association* |
-| `_BusSolnOrdItmAppointmentTP   : redirected to composition child I_BusSolnOrdItmAppointmentTP` | *Association* |
-| `_BusSolnOrdItmDurationTP      : redirected to composition child I_BusSolnOrdItmDurationTP` | *Association* |
-| `_BSOrdItmPrdcssrSrvcContrTP   : redirected to composition child I_BSOrdItmPrdcssrSrvcContrTP` | *Association* |
-| `_BusSolnOrdItmScheduleLineTP  : redirected to composition child I_BusSolnOrdItmScheduleLineTP` | *Association* |
-| `_BSOrdItmSubscrpnPriceAgrmtTP : redirected to composition child I_BSOrdItmSubscrpnPriceAgrmtTP` | *Association* |
-| `_BusSolnOrdItmConfigurationTP : redirected to composition child I_BusSolnOrdItmConfigurationTP` | *Association* |
-| `_BusSolnOrdItemLongTextTP     : redirected to composition child I_BusSolnOrdItemLongTextTP` | *Association* |
 | `_SoldToParty` | *Association* |
 | `_ShipToParty` | *Association* |
 | `_BillToParty` | *Association* |

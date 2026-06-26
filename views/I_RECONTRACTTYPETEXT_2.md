@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `REContractType` | `smvart` |
 | `Language` | `spras` |
-| `recnvdmcnttypetxt preserving type )` | `cast( xmbez` |
+| `REContractTypeName` | `cast( xmbez as recnvdmcnttypetxt preserving type )` |
 | `_REContractType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REContractType` | `I_REContractType_2` | — |
 | `_Language` | `I_Language` | [1..1] |
 
 ## Source Code

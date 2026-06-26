@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  AddresssMainWebsiteURL.AddressID` | `AddresssMainWebsiteURL.AddressID` |
-| `key  AddresssMainWebsiteURL.AddressPersonID` | `AddresssMainWebsiteURL.AddressPersonID` |
-| `AddresssMainWebsiteURL.CommMediumSequenceNumber` | `AddresssMainWebsiteURL.CommMediumSequenceNumber` |
-| `AddresssMainWebsiteURL.UniformResourceIdentifier` | `AddresssMainWebsiteURL.UniformResourceIdentifier` |
+| `AddressID` | `AddresssMainWebsiteURL.AddressID` |
+| `AddressPersonID` | `AddresssMainWebsiteURL.AddressPersonID` |
+| `CommMediumSequenceNumber` | `AddresssMainWebsiteURL.CommMediumSequenceNumber` |
+| `UniformResourceIdentifier` | `AddresssMainWebsiteURL.UniformResourceIdentifier` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
 

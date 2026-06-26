@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `AssetAcctTransClassfctn` | `movcat` |
 | `Language` | `langu` |
-| `faa_movcat_text)` | `cast (description` |
+| `AssetAcctTransClassfctnName` | `cast (description as faa_movcat_text)` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -30,17 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SupplierInvoiceItem            : rblgp;//not changeable` | `SupplierInvoiceItem            : rblgp;//not changeable` |
-| `SuplrInvcIsSubsqntDebitCrdt    : tbtkz;` | `SuplrInvcIsSubsqntDebitCrdt    : tbtkz;` |
-| `SupplierInvoiceItemText        : sgtxt;` | `SupplierInvoiceItemText        : sgtxt;` |
-| `IsNotCashDiscountLiable        : xskrl;` | `IsNotCashDiscountLiable        : xskrl;` |
-| `IsFinallyInvoiced              : erekz;` | `IsFinallyInvoiced              : erekz;` |
-| `_AccountAssignments            : composition [0..*] of D_SuplrInvcChangeAccAssgmtP;` | *Association* |
-| `_SupplierInvoice               : association to parent D_SuplrInvcChangeP;` | *Association* |
+| `SupplierInvoiceItem` | `rblgp` |
+| `SuplrInvcIsSubsqntDebitCrdt` | `tbtkz` |
+| `SupplierInvoiceItemText` | `sgtxt` |
+| `IsNotCashDiscountLiable` | `xskrl` |
+| `IsFinallyInvoiced` | `erekz` |
+| `_AccountAssignments` | *Association* |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AccountAssignments` | `D_SuplrInvcChangeAccAssgmtP` | [0..*] |
+| `_SupplierInvoice` | `D_SuplrInvcChangeP` | — |
 
 ## Source Code
 

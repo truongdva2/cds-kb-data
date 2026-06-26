@@ -30,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
+| `ChartOfAccounts` | `cast( ktopl as fis_ktopl preserving type)` |
 | `CorporateGroupChartOfAccounts` | `kktpl` |
 | `ChartOfAcctsIsBlocked` | `xsper` |
 | `MaintenanceLanguage` | `dspra` |

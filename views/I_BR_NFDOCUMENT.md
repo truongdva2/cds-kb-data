@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_docnum preserving type)` | `cast(j_1bnfdoc.docnum` |
+| `BR_NotaFiscal` | `cast(j_1bnfdoc.docnum as logbr_docnum preserving type)` |
 | `BR_NFPartnerFunction` | `j_1bnfdoc.parvw` |
 | `BR_NFPartner` | `j_1bnfdoc.parid` |
 | `BR_NFPartnerName1` | `j_1bnfdoc.name1` |
@@ -39,7 +39,7 @@ tags:
 | `BR_NFPartnerName3` | `j_1bnfdoc.name3` |
 | `BR_NFPartnerName4` | `j_1bnfdoc.name4` |
 | `PartnerIsOneTimeAccount` | `j_1bnfdoc.parxcpdk` |
-| `logbr_nfpartnertype preserving type)` | `cast(j_1bnfdoc.partyp` |
+| `BR_NFPartnerType` | `cast(j_1bnfdoc.partyp as logbr_nfpartnertype preserving type)` |
 | `BR_NFPartnerStreetName` | `j_1bnfdoc.stras` |
 | `BusinessPartnerHouseNumber` | `j_1bnfdoc.house_num1` |
 | `BPHsNmbrSuplmntTxt` | `j_1bnfdoc.house_num2` |
@@ -48,13 +48,10 @@ tags:
 | `BR_NFPartnerDistrictName` | `j_1bnfdoc.ort02` |
 | `BR_NFPartnerCountryCode` | `j_1bnfdoc.land1` |
 | `BR_NFPartnerPostalCode` | `j_1bnfdoc.pstlz` |
-| `logbr_nfnaturalperson preserving type)` | `cast(j_1bnfdoc.stkzn` |
-| `cast(case` | `cast(case` |
-| `when j_1bnfdoc.cgc > '99999999999999'` | `when j_1bnfdoc.cgc > '99999999999999'` |
-| `then '00000000000000'` | `then '00000000000000'` |
-| `logbr_cnpj_numc )` | `else j_1bnfdoc.cgc end` |
-| `logbr_nfpartnercnpj preserving type)` | `cast(j_1bnfdoc.cgc` |
-| `logbr_nfpartnercpf preserving type)` | `cast(j_1bnfdoc.cpf` |
+| `BR_NFPartnerIsNaturalPerson` | `cast(j_1bnfdoc.stkzn as logbr_nfnaturalperson preserving type)` |
+| `BR_NFPartnerCNPJ` | `cast(…)` |
+| `BR_NFPartnerCNPJ_2` | `cast(j_1bnfdoc.cgc as logbr_nfpartnercnpj preserving type)` |
+| `BR_NFPartnerCPF` | `cast(j_1bnfdoc.cpf as logbr_nfpartnercpf preserving type)` |
 | `PhoneNumber` | `j_1bnfdoc.telf1` |
 | `BR_NFPartnerStateTaxNumber` | `j_1bnfdoc.stains` |
 | `BR_NFPartnerMunicipalTaxNumber` | `j_1bnfdoc.munins` |
@@ -67,154 +64,140 @@ tags:
 | `ReportingIncgOrOutgDate` | `j_1bnfdoc.itmf_repdat` |
 | `BR_NFPartnerTaxJurisdiction` | `j_1bnfdoc.txjcd` |
 | `BR_NFObservationText` | `j_1bnfdoc.observat` |
-| `logbr_traty preserving type)` | `cast(j_1bnfdoc.traty` |
-| `logbr_traid preserving type)` | `cast(j_1bnfdoc.traid` |
+| `MeansOfTransportType` | `cast(j_1bnfdoc.traty as logbr_traty preserving type)` |
+| `MeansOfTransport` | `cast(j_1bnfdoc.traid as logbr_traid preserving type)` |
 | `IncotermsClassification` | `j_1bnfdoc.inco1` |
 | `IncotermsTransferLocation` | `j_1bnfdoc.inco2` |
 | `ShippingPoint` | `j_1bnfdoc.vstel` |
-| `logbr_shpmrk preserving type)` | `cast(j_1bnfdoc.shpmrk` |
-| `logbr_shpnum preserving type)` | `cast(j_1bnfdoc.shpnum` |
-| `logbr_anzpk preserving type)` | `cast(j_1bnfdoc.anzpk` |
-| `logbr_shpunt preserving type)` | `cast(j_1bnfdoc.shpunt` |
+| `BR_NFShippingUnitBrand` | `cast(j_1bnfdoc.shpmrk as logbr_shpmrk preserving type)` |
+| `BR_NFShippingUnitNumber` | `cast(j_1bnfdoc.shpnum as logbr_shpnum preserving type)` |
+| `BR_NFNumberOfPackages` | `cast(j_1bnfdoc.anzpk as logbr_anzpk preserving type)` |
+| `BR_NFShippingUnit` | `cast(j_1bnfdoc.shpunt as logbr_shpunt preserving type)` |
 | `BR_NFArrivalOrDepartureDate` | `j_1bnfdoc.dsaient` |
 | `HeaderWeightUnit` | `j_1bnfdoc.gewei` |
-| `logbr_ntgew_15 preserving type)` | `cast(j_1bnfdoc.ntgew` |
-| `logbr_brgew_15 preserving type)` | `cast(j_1bnfdoc.brgew` |
-| `logbr_dep_arr_time preserving type)` | `cast(j_1bnfdoc.hsaient` |
-| `logbr_transport_whldg_cfop preserving type)` | `cast(j_1bnfdoc.rettransp_cfop` |
+| `HeaderNetWeight` | `cast(j_1bnfdoc.ntgew as logbr_ntgew_15 preserving type)` |
+| `HeaderGrossWeight` | `cast(j_1bnfdoc.brgew as logbr_brgew_15 preserving type)` |
+| `BR_NFArrivalOrDepartureTime` | `cast(j_1bnfdoc.hsaient as logbr_dep_arr_time preserving type)` |
+| `BR_WhldgICMSForTranspCFOP` | `cast(j_1bnfdoc.rettransp_cfop as logbr_transport_whldg_cfop preserving type)` |
 | `BR_WhldgICMSForTranspCity` | `j_1bnfdoc.rettransp_cmunfg` |
-| `logbr_crenam preserving type)` | `cast(j_1bnfdoc.crenam` |
-| `logbr_credat preserving type)` | `cast(j_1bnfdoc.credat` |
-| `logbr_cretim preserving type)` | `cast(j_1bnfdoc.cretim` |
-| `logbr_logsystem preserving type)` | `cast(j_1bnfdoc.awsys` |
-| `logbr_chanam preserving type)` | `cast(j_1bnfdoc.chanam` |
-| `logbr_chadat preserving type)` | `cast(j_1bnfdoc.chadat` |
-| `logbr_chatim preserving type)` | `cast(j_1bnfdoc.chatim` |
-| `logbr_dzterm preserving type)` | `cast(j_1bnfdoc.zterm` |
-| `logbr_nfprinted preserving type)` | `cast(j_1bnfdoc.printd` |
-| `logbr_manual preserving type)` | `cast(j_1bnfdoc.manual` |
+| `CreatedByUser` | `cast(j_1bnfdoc.crenam as logbr_crenam preserving type)` |
+| `CreationDate` | `cast(j_1bnfdoc.credat as logbr_credat preserving type)` |
+| `CreationTime` | `cast(j_1bnfdoc.cretim as logbr_cretim preserving type)` |
+| `LogicalSystem` | `cast(j_1bnfdoc.awsys as logbr_logsystem preserving type)` |
+| `LastChangedByUser` | `cast(j_1bnfdoc.chanam as logbr_chanam preserving type)` |
+| `LastChangeDate` | `cast(j_1bnfdoc.chadat as logbr_chadat preserving type)` |
+| `LastChangeTime` | `cast(j_1bnfdoc.chatim as logbr_chatim preserving type)` |
+| `PaymentTerms` | `cast(j_1bnfdoc.zterm as logbr_dzterm preserving type)` |
+| `BR_NFIsPrinted` | `cast(j_1bnfdoc.printd as logbr_nfprinted preserving type)` |
+| `BR_NFIsCreatedManually` | `cast(j_1bnfdoc.manual as logbr_manual preserving type)` |
 | `BR_NFIsIncomingIssdByCust` | `j_1bnfdoc.entrad` |
-| `logbr_nfcancelled preserving type)` | `cast(j_1bnfdoc.cancel` |
-| `logbr_nffatura preserving type)` | `cast(j_1bnfdoc.fatura` |
-| `logbr_nfdirection preserving type)` | `cast(j_1bnfdoc.direct` |
-| `logbr_nftype preserving type)` | `cast(j_1bnfdoc.nftype` |
-| `logbr_nfdocumenttype preserving type)` | `cast(j_1bnfdoc.doctyp` |
-| `logbr_model preserving type)` | `cast(j_1bnfdoc.model` |
-| `logbr_nfnumb)` | `cast(ltrim(j_1bnfdoc.nfnum, '0')` |
-| `logbr_nf_series preserving type)` | `cast(j_1bnfdoc.series` |
+| `BR_NFIsCanceled` | `cast(j_1bnfdoc.cancel as logbr_nfcancelled preserving type)` |
+| `BR_NFIsChargingInvoice` | `cast(j_1bnfdoc.fatura as logbr_nffatura preserving type)` |
+| `BR_NFDirection` | `cast(j_1bnfdoc.direct as logbr_nfdirection preserving type)` |
+| `BR_NFType` | `cast(j_1bnfdoc.nftype as logbr_nftype preserving type)` |
+| `BR_NFDocumentType` | `cast(j_1bnfdoc.doctyp as logbr_nfdocumenttype preserving type)` |
+| `BR_NFModel` | `cast(j_1bnfdoc.model as logbr_model preserving type)` |
+| `BR_NFNumber` | `cast(ltrim(j_1bnfdoc.nfnum, '0') as logbr_nfnumb)` |
+| `BR_NFSeries` | `cast(j_1bnfdoc.series as logbr_nf_series preserving type)` |
 | `BR_NFSubSeries` | `j_1bnfdoc.subser` |
 | `BR_NFSituationCode` | `j_1bnfdoc.cod_sit` |
-| `logbr_nfissuer preserving type)` | `cast(j_1bnfdoc.ind_emit` |
-| `logbr_nfcontingency preserving type)` | `cast(j_1bnfdoc.conting` |
+| `BR_NFIssuedBy` | `cast(j_1bnfdoc.ind_emit as logbr_nfissuer preserving type)` |
+| `BR_NFIsContingency` | `cast(j_1bnfdoc.conting as logbr_nfcontingency preserving type)` |
 | `BR_NFAuthznProtocolNumber` | `j_1bnfdoc.authcod` |
 | `BR_NFAuthznProtocolNumber16` | `j_1bnfdoc.authcod16` |
-| `logbr_authdate preserving type)` | `cast(j_1bnfdoc.authdate` |
-| `logbr_authtime preserving type)` | `cast(j_1bnfdoc.authtime` |
+| `BR_NFAuthenticationDate` | `cast(j_1bnfdoc.authdate as logbr_authdate preserving type)` |
+| `BR_NFAuthenticationTime` | `cast(j_1bnfdoc.authtime as logbr_authtime preserving type)` |
 | `BR_NFeXMLVersion` | `j_1bnfdoc.xmlvers` |
 | `SupplierInvoice` | `j_1bnfdoc.nfat` |
-| `logbr_invoiceoriginalamount)` | `cast(j_1bnfdoc.vorig` |
-| `logbr_invoicediscountamount)` | `cast(j_1bnfdoc.vdesc` |
-| `logbr_invoicenetamount)` | `cast(j_1bnfdoc.vliq` |
+| `BR_NFOriginalAmount` | `cast(j_1bnfdoc.vorig as logbr_invoiceoriginalamount)` |
+| `BR_NFDiscountAmount` | `cast(j_1bnfdoc.vdesc as logbr_invoicediscountamount)` |
+| `BR_NFNetAmount` | `cast(j_1bnfdoc.vliq as logbr_invoicenetamount)` |
 | `BR_NFCommitmentNote` | `j_1bnfdoc.xnemp` |
-| `logbr_harvest_id preserving type)` | `cast(j_1bnfdoc.safra` |
-| `logbr_ref_month_year preserving type)` | `cast(j_1bnfdoc.ref_month_year` |
-| `msehi)` | `cast('kg'` |
-| `logbr_currentmonthamount)` | `cast(j_1bnfdoc.qtotmes` |
-| `msehi)` | `cast('kg'` |
-| `logbr_lastmonthamount)` | `cast(j_1bnfdoc.qtotant` |
-| `msehi)` | `cast('kg'` |
-| `logbr_sumofbothmonths)` | `cast(j_1bnfdoc.qtotger` |
-| `logbr_suppliesamount)` | `cast(j_1bnfdoc.vfor` |
-| `logbr_totaldeduction)` | `cast(j_1bnfdoc.vtotded` |
-| `logbr_suppliesnetamount)` | `cast(j_1bnfdoc.vliqfor` |
-| `logbr_nfedocstatus preserving type)` | `cast(j_1bnfdoc.docstat` |
+| `SugarcaneHarvest` | `cast(j_1bnfdoc.safra as logbr_harvest_id preserving type)` |
+| `SugarcaneRefMonthYear` | `cast(j_1bnfdoc.ref_month_year as logbr_ref_month_year preserving type)` |
+| `SugarcaneCurMnthQtyUnit` | `cast('kg' as msehi)` |
+| `SugarcaneCurrentMonthQty` | `cast(j_1bnfdoc.qtotmes as logbr_currentmonthamount)` |
+| `SugarcaneLastMnthQtyUnit` | `cast('kg' as msehi)` |
+| `SugarcaneLastMnthQuantity` | `cast(j_1bnfdoc.qtotant as logbr_lastmonthamount)` |
+| `SugarcaneSumBothMnthsQtyUnit` | `cast('kg' as msehi)` |
+| `SugarcaneSumBothMonthsQty` | `cast(j_1bnfdoc.qtotger as logbr_sumofbothmonths)` |
+| `SugarcaneSuppliesAmount` | `cast(j_1bnfdoc.vfor as logbr_suppliesamount)` |
+| `SugarcaneTotalDeductionAmount` | `cast(j_1bnfdoc.vtotded as logbr_totaldeduction)` |
+| `SugarcaneSuppliesNetAmt` | `cast(j_1bnfdoc.vliqfor as logbr_suppliesnetamount)` |
+| `BR_NFeDocumentStatus` | `cast(j_1bnfdoc.docstat as logbr_nfedocstatus preserving type)` |
 | `BR_NFIsFinalConsumer` | `j_1bnfdoc.ind_final` |
-| `logbr_nfe_indpres preserving type)` | `cast(j_1bnfdoc.ind_pres` |
-| `logbr_nfe_iddest preserving type)` | `cast(j_1bnfdoc.id_dest` |
+| `BR_NFeCustomerPresence` | `cast(j_1bnfdoc.ind_pres as logbr_nfe_indpres preserving type)` |
+| `BR_NFeDestination` | `cast(j_1bnfdoc.id_dest as logbr_nfe_iddest preserving type)` |
 | `CompanyCode` | `j_1bnfdoc.bukrs` |
-| `logbr_pstdat preserving type)` | `cast(j_1bnfdoc.pstdat` |
-| `logbr_branc_ preserving type)` | `cast(j_1bnfdoc.branch` |
-| `cast(case` | `cast(case` |
-| `when j_1bnfdoc.cnpj_bupla > '99999999999999'` | `when j_1bnfdoc.cnpj_bupla > '99999999999999'` |
-| `then '00000000000000'` | `then '00000000000000'` |
-| `logbr_cnpj_numc )` | `else j_1bnfdoc.cnpj_bupla end` |
-| `logbr_cnpj_bupla preserving type)` | `cast(j_1bnfdoc.cnpj_bupla` |
-| `logbr_stains_bupla preserving type)` | `cast(j_1bnfdoc.ie_bupla` |
-| `logbr_staist_bupla preserving type)` | `cast(j_1bnfdoc.iest_bupla` |
-| `logbr_munins_bupla preserving type)` | `cast(j_1bnfdoc.im_bupla` |
-| `logbr_cnae_bupla preserving type)` | `cast(j_1bnfdoc.cnae_bupla` |
-| `logbr_crt_bupla preserving type)` | `cast(j_1bnfdoc.crt_bupla` |
+| `BR_NFPostingDate` | `cast(j_1bnfdoc.pstdat as logbr_pstdat preserving type)` |
+| `BusinessPlace` | `cast(j_1bnfdoc.branch as logbr_branc_ preserving type)` |
+| `BR_BusinessPlaceCNPJ` | `cast(…)` |
+| `BR_BusinessPlaceCNPJ_2` | `cast(j_1bnfdoc.cnpj_bupla as logbr_cnpj_bupla preserving type)` |
+| `BusinessPlaceStateTaxNumber` | `cast(j_1bnfdoc.ie_bupla as logbr_stains_bupla preserving type)` |
+| `BR_BusPlaceStateTaxNumberST` | `cast(j_1bnfdoc.iest_bupla as logbr_staist_bupla preserving type)` |
+| `BusPlaceMunicipalTaxNumber` | `cast(j_1bnfdoc.im_bupla as logbr_munins_bupla preserving type)` |
+| `BR_BusinessPlaceCNAE` | `cast(j_1bnfdoc.cnae_bupla as logbr_cnae_bupla preserving type)` |
+| `BusinessPlaceTaxRegimenCode` | `cast(j_1bnfdoc.crt_bupla as logbr_crt_bupla preserving type)` |
 | `BR_NFTotalAmount` | `j_1bnfdoc.nftot` |
 | `SalesDocumentCurrency` | `j_1bnfdoc.waerk` |
-| `logbr_belnr_d preserving type)` | `cast(j_1bnfdoc.belnr` |
+| `AccountingDocument` | `cast(j_1bnfdoc.belnr as logbr_belnr_d preserving type)` |
 | `BR_NFFiscalYear` | `j_1bnfdoc.gjahr` |
-| `logbr_withholding_amount preserving type)` | `cast(j_1bnfdoc.witha` |
-| `j_1bnfe_indpag preserving type)` | `cast(j_1bnfdoc.indpag` |
-| `logbr_freight_mode preserving type)` | `cast(j_1bnfdoc.modfrete` |
-| `logbr_nat_cargo_carrier preserving type)` | `cast(j_1bnfdoc.rntc` |
-| `logbr_nfnum9 preserving type)` | `cast(ltrim(j_1bnfdoc.nfenum, '0')` |
-| `logbr_wagon_id preserving type)` | `cast(j_1bnfdoc.vagao` |
-| `logbr_ferryboad_id preserving type)` | `cast(j_1bnfdoc.balsa` |
+| `BR_NFWithholdingAmount` | `cast(j_1bnfdoc.witha as logbr_withholding_amount preserving type)` |
+| `BR_PaymentForm` | `cast(j_1bnfdoc.indpag as j_1bnfe_indpag preserving type)` |
+| `FreightPayer` | `cast(j_1bnfdoc.modfrete as logbr_freight_mode preserving type)` |
+| `BR_ANTTCarrierRegistration` | `cast(j_1bnfdoc.rntc as logbr_nat_cargo_carrier preserving type)` |
+| `BR_NFeNumber` | `cast(ltrim(j_1bnfdoc.nfenum, '0') as logbr_nfnum9 preserving type)` |
+| `WagonID` | `cast(j_1bnfdoc.vagao as logbr_wagon_id preserving type)` |
+| `FerryBoatID` | `cast(j_1bnfdoc.balsa as logbr_ferryboad_id preserving type)` |
 | `BR_NFExportShipmentPlace` | `j_1bnfdoc.xlocembarq` |
-| `logbr_shipment_place_uf preserving type)` | `cast(j_1bnfdoc.ufembarq` |
-| `logbr_nfe_dispatch preserving type)` | `cast(j_1bnfdoc.xlocdespacho` |
-| `logbr_docdat preserving type)` | `cast(j_1bnfdoc.docdat` |
-| `logbr_municipal preserving type)` | `cast(municipal` |
-| `logbr_op_nature_desc preserving type)` | `cast(j_1bnfdoc.natop` |
-| `logbr_nfe preserving type)` | `cast(j_1bnfdoc.nfe` |
-| `logbr_candat preserving type)` | `cast(j_1bnfdoc.candat` |
-| `logbr_subseq preserving type)` | `cast(j_1bnfdoc.subseq` |
+| `BR_NFExportShipmentRegion` | `cast(j_1bnfdoc.ufembarq as logbr_shipment_place_uf preserving type)` |
+| `BR_NFExportDispatchLocation` | `cast(j_1bnfdoc.xlocdespacho as logbr_nfe_dispatch preserving type)` |
+| `BR_NFIssueDate` | `cast(j_1bnfdoc.docdat as logbr_docdat preserving type)` |
+| `BR_NFIsMunicipal` | `cast(municipal as logbr_municipal preserving type)` |
+| `BR_NFOperationTypeDesc` | `cast(j_1bnfdoc.natop as logbr_op_nature_desc preserving type)` |
+| `BR_IsNFe` | `cast(j_1bnfdoc.nfe as logbr_nfe preserving type)` |
+| `BR_NFCancellationDate` | `cast(j_1bnfdoc.candat as logbr_candat preserving type)` |
+| `BR_NFHasFollowOnDocument` | `cast(j_1bnfdoc.subseq as logbr_subseq preserving type)` |
 | `BR_NFReferenceDocument` | `ltrim(j_1bnfdoc.docref, '0')` |
 | `LicensePlate` | `j_1bnfdoc.placa` |
 | `VehicleRegion` | `j_1bnfdoc.uf1` |
-| `logbr_nfnum)` | `cast(ltrim(j_1bnfdoc.nfnum_utilities, '0')` |
-| `logbr_part_role preserving type)` | `cast(j_1bnfdoc.partner_role` |
-| `logbr_vtroco)` | `cast(j_1bnfdoc.v_troco` |
-| `BR_NFFiscalCouponDocModel, //2723214` | `j_1bnfdoc.mod` |
-| `BR_NFOperationOrderNumber, //2723214` | `j_1bnfdoc.ncoo` |
-| `logbr_foreignid preserving type)` | `cast(j_1bnfdoc.foreignid` |
-| `logbr_tax_service_calculated preserving type )` | `cast(j_1bnfdoc.tax_services_calc` |
-| `logbr_nfe_indintermed preserving type )` | `cast(j_1bnfdoc.indintermed` |
-| `logbr_nfe_idcadinttran preserving type )` | `cast(j_1bnfdoc.idcadinttran` |
-| `cast(case` | `cast(case` |
-| `when j_1bnfdoc.cnpjintermed > '99999999999999'` | `when j_1bnfdoc.cnpjintermed > '99999999999999'` |
-| `then '00000000000000'` | `then '00000000000000'` |
-| `logbr_cnpj_numc )` | `else j_1bnfdoc.cnpjintermed end` |
-| `logbr_nfe_cnpjintermed preserving type )` | `cast(j_1bnfdoc.cnpjintermed` |
-| `logbr_type_cte preserving type)` | `cast(j_1bnfdoc.cte_type` |
-| `logbr_main_prod_cte preserving type)` | `cast(j_1bnfdoc.main_product` |
-| `logbr_goods_total_amnt_cte preserving type)` | `cast(j_1bnfdoc.total_ref_amt` |
+| `BR_UtilsNFNumber` | `cast(ltrim(j_1bnfdoc.nfnum_utilities, '0') as logbr_nfnum)` |
+| `BR_NFPartnerPlaceType` | `cast(j_1bnfdoc.partner_role as logbr_part_role preserving type)` |
+| `ChangeAmount` | `cast(j_1bnfdoc.v_troco as logbr_vtroco)` |
+| `BR_NFFiscalCouponDocModel` | `j_1bnfdoc.mod` |
+| `BR_NFOperationOrderNumber` | `j_1bnfdoc.ncoo` |
+| `BR_NFPartnerForeignIdn` | `cast(j_1bnfdoc.foreignid as logbr_foreignid preserving type)` |
+| `BR_NFIsCalculatedByTaxService` | `cast(…)` |
+| `BR_NFeIntermediatorTransaction` | `cast(j_1bnfdoc.indintermed as logbr_nfe_indintermed preserving type )` |
+| `BR_NFeIntermediatorRegistry` | `cast(j_1bnfdoc.idcadinttran as logbr_nfe_idcadinttran preserving type )` |
+| `BR_NFeIntermediatorCNPJ` | `cast(…)` |
+| `BR_NFeIntermediatorCNPJ_2` | `cast(j_1bnfdoc.cnpjintermed as logbr_nfe_cnpjintermed preserving type )` |
+| `BR_CTeDocumentType` | `----- CTE ----- cast(j_1bnfdoc.cte_type as logbr_type_cte preserving type)` |
+| `BR_CTeMainProductTransported` | `cast(j_1bnfdoc.main_product as logbr_main_prod_cte preserving type)` |
+| `BR_CTeTotalGoodsAmount` | `cast(j_1bnfdoc.total_ref_amt as logbr_goods_total_amnt_cte preserving type)` |
 | `BR_CTePartnerServiceTaker` | `j_1bnfdoc.cte_serv_taker` |
 | `BR_CTeFiscalDocumentPartner` | `j_1bnfdoc.cte_partner` |
 | `BR_CTeServiceType` | `j_1bnfdoc.serv_tp` |
-| `logbr_transportation_mode preserving type)` | `cast(j_1bnfdoc.transp_mode` |
+| `BR_CTeTransportationMode` | `cast(j_1bnfdoc.transp_mode as logbr_transportation_mode preserving type)` |
 | `BR_CTeEstimatedDeliveryDate` | `j_1bnfdoc.pln_dt_dlv` |
 | `BR_CTeIsTruckFullyLoaded` | `j_1bnfdoc.ftl_ind` |
 | `BR_CTeJurisdictionCodeOrigin` | `j_1bnfdoc.cte_strt_lct` |
 | `BR_CTeJurisdictionCodeDest` | `j_1bnfdoc.cte_end_lct` |
-| `logbr_nfs_verification_code preserving type)` | `cast(j_1bnfdoc.checod` |
+| `BR_NFSVerificationCode` | `expr(…)` |
 | `BR_NFSNumber` | `j_1bnfdoc.prefno` |
 | `BR_NFHasServiceItem` | `j_1bnfdoc.nfesrv` |
-| `logbr_tpguia preserving type)` | `cast(j_1bnfdoc.tpguia` |
-| `logbr_ufguia preserving type)` | `cast(j_1bnfdoc.ufguia` |
-| `logbr_serieguia preserving type)` | `cast(j_1bnfdoc.serieguia` |
-| `logbr_nguia preserving type)` | `cast(j_1bnfdoc.nguia` |
-| `logbr_tpnfdebito preserving type)` | `cast(j_1bnfdoc.tpnfdebito` |
-| `logbr_tpnfcredito preserving type)` | `cast(j_1bnfdoc.tpnfcredito` |
+| `BR_TransportPermitGuideType` | `expr(…)` |
+| `BR_TransportPermitIssuingState` | `cast(j_1bnfdoc.ufguia as logbr_ufguia preserving type)` |
+| `BR_TransportPermitGuideSeries` | `cast(j_1bnfdoc.serieguia as logbr_serieguia preserving type)` |
+| `BR_TransportPermitGuideNumber` | `cast(j_1bnfdoc.nguia as logbr_nguia preserving type)` |
+| `BR_DebitNFType` | `expr(…)` |
+| `BR_CreditNFType` | `cast(j_1bnfdoc.tpnfcredito as logbr_tpnfcredito preserving type)` |
 | `BR_GovernmentEntityType` | `j_1bnfdoc.tpentegov` |
 | `BR_GovPurRateReducnPercent` | `j_1bnfdoc.predutor` |
 | `BR_GvmntEntityOperationType` | `j_1bnfdoc.tpopergov` |
-| `case` | `case` |
-| `when _Vendor.IsBusinessPurposeCompleted  = 'X' or` | `when _Vendor.IsBusinessPurposeCompleted  = 'X' or` |
-| `_Customer.IsBusinessPurposeCompleted = 'X' or` | *Association* |
-| `_BR_NFPartnerBusProposeCpl.IsBusinessPurposeCompleted = 'X'` | *Association* |
-| `then 'X'` | `then 'X'` |
-| `IsBusinessPurposeCompleted` | `else '' end` |
-| `case` | `case` |
-| `when j_1bnfdoc.partyp = 'V' then  _Vendor.AuthorizationGroup` | `when j_1bnfdoc.partyp = 'V' then  _Vendor.AuthorizationGroup` |
-| `else _Customer.AuthorizationGroup` | `else _Customer.AuthorizationGroup` |
-| `BR_NFPartnerAuthorizationGroup` | `end` |
-| `j_1b_dpreventregadisp preserving type)` | `cast(j_1bnfdoc.dpreventrega` |
+| `IsBusinessPurposeCompleted` | `expr(…)` |
+| `BR_NFPartnerAuthorizationGroup` | `expr(…)` |
+| `BR_GoodsDeliveryEstimatedDate` | `cast(j_1bnfdoc.dpreventrega as j_1b_dpreventregadisp preserving type)` |
 | `_SugarcaneCurMnthQtyUnit` | *Association* |
 | `_SugarcaneLastMnthQtyUnit` | *Association* |
 | `_SugarcaneSumBothMnthsQtyUnit` | *Association* |
@@ -227,7 +210,7 @@ tags:
 | `_BR_NFeDocumentStatus` | *Association* |
 | `_BR_NFeDestination` | *Association* |
 | `_BR_NFeIntermediatorTrans` | *Association* |
-| `_CompanyCode.CompanyCodeName` | *Association* |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
 | `_BR_NFPartnerType` | *Association* |
 | `_BR_PartnerPlaceType` | *Association* |
 | `_BR_NFeCustomerPresence` | *Association* |
@@ -244,10 +227,10 @@ tags:
 | `_Vendor` | *Association* |
 | `_Customer` | *Association* |
 | `_BR_NFDocumentType` | *Association* |
-| `_CountryText.CountryShortName` | *Association* |
-| `_IncotermsClassificationText.IncotermsClassificationName` | *Association* |
-| `_CurrencyText.CurrencyName` | *Association* |
-| `_CFOPText.BR_CFOPDesc` | *Association* |
+| `CountryShortName` | `_CountryText.CountryShortName` |
+| `IncotermsClassificationName` | `_IncotermsClassificationText.IncotermsClassificationName` |
+| `CurrencyName` | `_CurrencyText.CurrencyName` |
+| `BR_CFOPDesc` | `_CFOPText.BR_CFOPDesc` |
 
 ## Associations
 

@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/calc_level preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspChargeCalcLevel` | `cast(substring(domvalue_l, 1, 1) as /scmtms/calc_level preserving type)` |
 | `Language` | `ddlanguage` |
-| `val_text preserving type )` | `cast(ddtext` |
+| `TranspChargeCalcLevelDesc` | `cast(ddtext as val_text preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspChargeCalcLevel` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargeCalcLevel` | `I_TranspChargeCalcLevel` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

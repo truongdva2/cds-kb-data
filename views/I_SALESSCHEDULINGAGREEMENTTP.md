@@ -31,46 +31,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedulingAgreement.SalesSchedulingAgreement` | `SalesSchedulingAgreement.SalesSchedulingAgreement` |
-| `SalesSchedulingAgreement.SalesSchedgAgrmtType` | `SalesSchedulingAgreement.SalesSchedgAgrmtType` |
-| `SalesSchedulingAgreement.SalesOrganization` | `SalesSchedulingAgreement.SalesOrganization` |
-| `SalesSchedulingAgreement.DistributionChannel` | `SalesSchedulingAgreement.DistributionChannel` |
-| `SalesSchedulingAgreement.OrganizationDivision` | `SalesSchedulingAgreement.OrganizationDivision` |
-| `SalesSchedulingAgreement.SoldToParty` | `SalesSchedulingAgreement.SoldToParty` |
-| `SalesSchedulingAgreement.CustomerGroup` | `SalesSchedulingAgreement.CustomerGroup` |
-| `SalesSchedulingAgreement.PurchaseOrderByCustomer` | `SalesSchedulingAgreement.PurchaseOrderByCustomer` |
-| `SalesSchedulingAgreement.AgrmtValdtyStartDate` | `SalesSchedulingAgreement.AgrmtValdtyStartDate` |
-| `SalesSchedulingAgreement.AgrmtValdtyEndDate` | `SalesSchedulingAgreement.AgrmtValdtyEndDate` |
-| `SalesSchedulingAgreement.SalesSchedgAgrmtDate` | `SalesSchedulingAgreement.SalesSchedgAgrmtDate` |
-| `SalesSchedulingAgreement.SDDocumentReason` | `SalesSchedulingAgreement.SDDocumentReason` |
-| `SalesSchedulingAgreement.IncotermsClassification` | `SalesSchedulingAgreement.IncotermsClassification` |
-| `SalesSchedulingAgreement.IncotermsTransferLocation` | `SalesSchedulingAgreement.IncotermsTransferLocation` |
-| `SalesSchedulingAgreement.IncotermsLocation1` | `SalesSchedulingAgreement.IncotermsLocation1` |
-| `SalesSchedulingAgreement.IncotermsLocation2` | `SalesSchedulingAgreement.IncotermsLocation2` |
-| `SalesSchedulingAgreement.IncotermsVersion` | `SalesSchedulingAgreement.IncotermsVersion` |
-| `SalesSchedulingAgreement.CustomerPaymentTerms` | `SalesSchedulingAgreement.CustomerPaymentTerms` |
-| `SalesSchedulingAgreement.PaymentMethod` | `SalesSchedulingAgreement.PaymentMethod` |
-| `SalesSchedulingAgreement.PricingDate` | `SalesSchedulingAgreement.PricingDate` |
-| `SalesSchedulingAgreement.SalesGroup` | `SalesSchedulingAgreement.SalesGroup` |
-| `SalesSchedulingAgreement.SalesOffice` | `SalesSchedulingAgreement.SalesOffice` |
-| `SalesSchedulingAgreement.SalesDistrict` | `SalesSchedulingAgreement.SalesDistrict` |
-| `SalesSchedulingAgreement.CreatedByUser` | `SalesSchedulingAgreement.CreatedByUser` |
-| `SalesSchedulingAgreement.LastChangedByUser` | `SalesSchedulingAgreement.LastChangedByUser` |
-| `SalesSchedulingAgreement.SalesDocumentCreationDateTime` | `SalesSchedulingAgreement.SalesDocumentCreationDateTime` |
-| `SalesSchedulingAgreement.CreationDate` | `SalesSchedulingAgreement.CreationDate` |
-| `SalesSchedulingAgreement.CreationTime` | `SalesSchedulingAgreement.CreationTime` |
-| `SalesSchedulingAgreement.LastChangeDate` | `SalesSchedulingAgreement.LastChangeDate` |
-| `SalesSchedulingAgreement.LastChangeDateTime` | `SalesSchedulingAgreement.LastChangeDateTime` |
-| `SalesSchedulingAgreement.OverallSDDocumentRejectionSts` | `SalesSchedulingAgreement.OverallSDDocumentRejectionSts` |
-| `SalesSchedulingAgreement.OverallSDProcessStatus` | `SalesSchedulingAgreement.OverallSDProcessStatus` |
-| `SalesSchedulingAgreement.DelivSchedTypeMRPRlvnceCode` | `SalesSchedulingAgreement.DelivSchedTypeMRPRlvnceCode` |
-| `SalesSchedulingAgreement.MatlUsageIndicator` | `SalesSchedulingAgreement.MatlUsageIndicator` |
-| `SalesSchedulingAgreement.TotalNetAmount` | `SalesSchedulingAgreement.TotalNetAmount` |
-| `SalesSchedulingAgreement.TransactionCurrency` | `SalesSchedulingAgreement.TransactionCurrency` |
-| `_Item           : redirected to composition child I_SlsSchedulingAgreementItemTP` | *Association* |
-| `_Partner        : redirected to composition child I_SlsSchedgAgrmtPartnerTP` | *Association* |
-| `_Text           : redirected to composition child I_SlsSchedgAgrmtTextTP` | *Association* |
-| `_PricingElement : redirected to composition child I_SlsSchedgAgrmtPrcgElmntTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedulingAgreement.SalesSchedulingAgreement` |
+| `SalesSchedgAgrmtType` | `SalesSchedulingAgreement.SalesSchedgAgrmtType` |
+| `SalesOrganization` | `SalesSchedulingAgreement.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedulingAgreement.DistributionChannel` |
+| `OrganizationDivision` | `SalesSchedulingAgreement.OrganizationDivision` |
+| `SoldToParty` | `SalesSchedulingAgreement.SoldToParty` |
+| `CustomerGroup` | `SalesSchedulingAgreement.CustomerGroup` |
+| `PurchaseOrderByCustomer` | `SalesSchedulingAgreement.PurchaseOrderByCustomer` |
+| `AgrmtValdtyStartDate` | `SalesSchedulingAgreement.AgrmtValdtyStartDate` |
+| `AgrmtValdtyEndDate` | `SalesSchedulingAgreement.AgrmtValdtyEndDate` |
+| `SalesSchedgAgrmtDate` | `SalesSchedulingAgreement.SalesSchedgAgrmtDate` |
+| `SDDocumentReason` | `SalesSchedulingAgreement.SDDocumentReason` |
+| `IncotermsClassification` | `SalesSchedulingAgreement.IncotermsClassification` |
+| `IncotermsTransferLocation` | `SalesSchedulingAgreement.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `SalesSchedulingAgreement.IncotermsLocation1` |
+| `IncotermsLocation2` | `SalesSchedulingAgreement.IncotermsLocation2` |
+| `IncotermsVersion` | `SalesSchedulingAgreement.IncotermsVersion` |
+| `CustomerPaymentTerms` | `SalesSchedulingAgreement.CustomerPaymentTerms` |
+| `PaymentMethod` | `SalesSchedulingAgreement.PaymentMethod` |
+| `PricingDate` | `SalesSchedulingAgreement.PricingDate` |
+| `SalesGroup` | `SalesSchedulingAgreement.SalesGroup` |
+| `SalesOffice` | `SalesSchedulingAgreement.SalesOffice` |
+| `SalesDistrict` | `SalesSchedulingAgreement.SalesDistrict` |
+| `CreatedByUser` | `SalesSchedulingAgreement.CreatedByUser` |
+| `LastChangedByUser` | `SalesSchedulingAgreement.LastChangedByUser` |
+| `SalesDocumentCreationDateTime` | `SalesSchedulingAgreement.SalesDocumentCreationDateTime` |
+| `CreationDate` | `SalesSchedulingAgreement.CreationDate` |
+| `CreationTime` | `SalesSchedulingAgreement.CreationTime` |
+| `LastChangeDate` | `SalesSchedulingAgreement.LastChangeDate` |
+| `LastChangeDateTime` | `SalesSchedulingAgreement.LastChangeDateTime` |
+| `OverallSDDocumentRejectionSts` | `SalesSchedulingAgreement.OverallSDDocumentRejectionSts` |
+| `OverallSDProcessStatus` | `SalesSchedulingAgreement.OverallSDProcessStatus` |
+| `DelivSchedTypeMRPRlvnceCode` | `SalesSchedulingAgreement.DelivSchedTypeMRPRlvnceCode` |
+| `MatlUsageIndicator` | `SalesSchedulingAgreement.MatlUsageIndicator` |
+| `TotalNetAmount` | `SalesSchedulingAgreement.TotalNetAmount` |
+| `TransactionCurrency` | `SalesSchedulingAgreement.TransactionCurrency` |
 
 ## Associations
 

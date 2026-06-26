@@ -30,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'DocumentInfoRecordDocType'` | `localElement: 'DocumentInfoRecordDocType'` |
-| `element: 'DocumentInfoRecordDocType' }]` | `element: 'DocumentInfoRecordDocType' }]` |
-| `}]` | `}]` |
+| `DocumentInfoRecordDocType` | `document.dokar` |
 | `DocumentInfoRecordDocNumber` | `document.doknr` |
 | `DocumentInfoRecordDocVersion` | `document.dokvr` |
 | `_DocType` | *Association* |

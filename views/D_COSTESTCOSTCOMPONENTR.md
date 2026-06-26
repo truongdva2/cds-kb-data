@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CostComponent     : ck_element;` | `CostComponent     : ck_element;` |
-| `CostComponentName : ck_txele;` | `CostComponentName : ck_txele;` |
-| `TotalAmountInCoCodeCrcy : total_amt;` | `TotalAmountInCoCodeCrcy : total_amt;` |
-| `FixedAmountInCoCodeCrcy : total_amt;` | `FixedAmountInCoCodeCrcy : total_amt;` |
-| `TotalAmountInCtrlgAreaCrcy : total_amt;` | `TotalAmountInCtrlgAreaCrcy : total_amt;` |
-| `FixedAmountInCtrlgAreaCrcy : total_amt;` | `FixedAmountInCtrlgAreaCrcy : total_amt;` |
+| `CostComponent` | `ck_element` |
+| `CostComponentName` | `ck_txele` |
+| `TotalAmountInCoCodeCrcy` | `total_amt` |
+| `FixedAmountInCoCodeCrcy` | `total_amt` |
+| `TotalAmountInCtrlgAreaCrcy` | `total_amt` |
+| `FixedAmountInCtrlgAreaCrcy` | `total_amt` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QualityProcurementCertificate` | `QualityProcurementCertificate` |
+| `QualityProcurementCertificate` | `QualityProcurementCertificate` |
 | `QualityCertificateType` | `QualityCertificateType` |
 | `QltyProcmtCertStatus` | `QltyProcmtCertStatus` |
 | `PurchaseOrder` | `PurchaseOrder` |

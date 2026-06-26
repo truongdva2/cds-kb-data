@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
-| `key TaskListType` | `TaskListType` |
-| `key TaskListGroup` | `TaskListGroup` |
-| `key TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key TaskListVersionCounter` | `TaskListVersionCounter` |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListVersionCounter` | `TaskListVersionCounter` |
 | `TaskListDesc` | `TaskListDesc` |
 | `ControllingArea` | `ControllingArea` |
 | `MaintenancePlanningPlant` | `MaintenancePlanningPlant` |
@@ -53,13 +52,12 @@ tags:
 | `CreationDate` | `CreationDate` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_WorkCenter.WorkCenter` | *Association* |
-| `_WorkCenter.Plant  as WorkCenterPlant` | *Association* |
+| `WorkCenter` | `_WorkCenter.WorkCenter` |
+| `WorkCenterPlant` | `_WorkCenter.Plant` |
 | `Equipment` | `Equipment` |
-| `ps_s4_tplnr preserving type )` | `cast( FunctionalLocation` |
+| `FunctionalLocation` | `cast( FunctionalLocation as ps_s4_tplnr preserving type )` |
 | `TechnicalObject` | `TechnicalObject` |
 | `TechObjIsEquipOrFuncnlLoc` | `TechObjIsEquipOrFuncnlLoc` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
 | `_Assembly` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_Equipment` | *Association* |
@@ -77,8 +75,8 @@ tags:
 | `_TaskListGroup` | *Association* |
 | `_TaskListGroupCounter` | *Association* |
 | `_TaskListUsage` | *Association* |
-| `_WorkCenter._WorkCenter` | *Association* |
-| `_WorkCenter._Plant                                                 as _WorkCenterPlant` | *Association* |
+| `_WorkCenter` | *Association* |
+| `_WorkCenterPlant` | *Association* |
 | `_TechnicalObject` | *Association* |
 
 ## Associations

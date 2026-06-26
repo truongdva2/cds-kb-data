@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key project_id` | `project_id` |
+| `project_id` | `project_id` |
 | `description` | `description` |
 | `atc_run_series` | `atc_run_series` |
 | `_atc_result_headers` | *Association* |

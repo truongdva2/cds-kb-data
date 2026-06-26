@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `InventoryUsabilityCode` | `cast ( cast ( substring( domvalue_l, 1, 1 ) as abap.char( 1 ) ) as insmk )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

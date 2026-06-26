@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspAgrmtBusinessPartnerUUID` | `TranspAgrmtBusinessPartnerUUID` |
+| `TranspAgrmtBusinessPartnerUUID` | `TranspAgrmtBusinessPartnerUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `BusinessPartner` | `BusinessPartner` |
-| `FreightAgreementParty._FreightAgreement : redirected to parent I_FreightAgreementTP` | `FreightAgreementParty._FreightAgreement : redirected to parent I_FreightAgreementTP` |
 
 ## Associations
 

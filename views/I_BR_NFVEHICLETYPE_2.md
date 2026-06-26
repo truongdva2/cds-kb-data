@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicletype preserving type )` | `cast( tpveic` |
+| `NFVehicleType` | `cast( tpveic as logbr_vehicletype preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

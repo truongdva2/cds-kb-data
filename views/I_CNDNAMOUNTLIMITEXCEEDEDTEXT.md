@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kmxwr )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_amtlmtexed_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionAmountLimitExceeded` | `cast ( substring( domvalue_l, 1, 1 ) as kmxwr )` |
+| `CndnAmountLimitExceededName` | `cast ( ddtext as price_element_amtlmtexed_descr )` |
 | `_ConditionAmountLimitExceeded` | *Association* |
 | `_Language` | *Association* |
 

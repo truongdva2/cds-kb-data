@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ditrsn_gfn_kk preserving type )` | `cast( _tfk8240t.dittype` |
+| `CADependentItemType` | `cast( _tfk8240t.dittype as ditrsn_gfn_kk preserving type )` |
 | `Language` | `_tfk8240t.langu` |
-| `_tfk8240t.text    as CADependentItemTypeText` | *Association* |
+| `CADependentItemTypeText` | `_tfk8240t.text` |
 | `_CADependentItemType` | *Association* |
 | `_Language` | *Association* |
 

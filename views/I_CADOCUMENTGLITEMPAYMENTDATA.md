@@ -92,7 +92,6 @@ tags:
 | `_CompanyCode` | *Association* |
 | `_SettlementCurrency` | *Association* |
 | `_TransactionCurrency` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
 | `MerchantByClearingHouse` | `merch` |
 
 ## Associations
@@ -108,7 +107,6 @@ tags:
 | `_TransactionCurrency` | `I_Currency` | [1..1] |
 | `_SettlementCurrency` | `I_Currency` | [1..1] |
 | `_CompanyCode` | `I_CompanyCode` | [1..1] |
-| `_PaymentServiceProvider` | `I_PaytServiceProviderIdn` | [1..1] |
 
 ## Source Code
 

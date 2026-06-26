@@ -31,12 +31,20 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `ProjectBillingRequestType` | `cast( substring( domvalue_l, 1, 4 ) as pbr_doc_type preserving type )` |
+| `DomainValue` | `domvalue_l` |
+| `ProjectBillingRequestTypeTxt` | `ddtext` |
+| `_ProjectBillingRequestType` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjectBillingRequestType` | `I_ProjectBillingRequestType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

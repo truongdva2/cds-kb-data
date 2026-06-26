@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tpm_trea_clearing_opt )` | `cast( dd07l.domvalue_l` |
+| `FinTransCentralClearingOption` | `cast( dd07l.domvalue_l as tpm_trea_clearing_opt )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

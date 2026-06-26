@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char( 2 ) )` | `cast( cast ( substring( dd07l.domvalue_l, 1, 2 )` |
+| `PubSecBudgetCnsmpnTypeGroup` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PubSecBudgetCnsmpnTypeGroupT` | [0..*] |
 
 ## Source Code
 

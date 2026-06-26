@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomFieldID` | `CustomFieldID` |
+| `CustomFieldID` | `CustomFieldID` |
 | `Code` | `Code` |
-| `_CodeListDescription[1: Language = $session.system_language].Description as Description` | *Association* |
+| `Description` | `_CodeListDescription[1: Language = $session.system_language].Description` |
 
 ## Associations
 

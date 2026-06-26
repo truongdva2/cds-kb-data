@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
-| `key BOOOperationPRTInternalID` | `BOOOperationPRTInternalID` |
-| `key BOOOperationPRTIntVersCounter` | `BOOOperationPRTIntVersCounter` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
+| `BOOOperationPRTInternalID` | `BOOOperationPRTInternalID` |
+| `BOOOperationPRTIntVersCounter` | `BOOOperationPRTIntVersCounter` |
 | `ProductionResourceType` | `ProductionResourceType` |
 | `ProductionResourceInternalID` | `ProductionResourceInternalID` |
 | `Material` | `Material` |
@@ -59,10 +59,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqncTP  : redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_Header     : redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_ProdnRtgTP : redirected to I_ProductionRoutingTP_2` | *Association* |
 
 ## Associations
 

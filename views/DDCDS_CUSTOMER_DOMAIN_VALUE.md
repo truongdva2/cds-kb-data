@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(30))` | `cast( dd07l.domname` |
-| `abap.numc(4))` | `cast( dd07l.valpos` |
+| `domain_name` | `cast( dd07l.domname as abap.char(30))` |
+| `value_position` | `cast( dd07l.valpos as abap.numc(4))` |
 | `value_low` | `dd07l.domvalue_l` |
 | `value_high` | `dd07l.domvalue_h` |
 

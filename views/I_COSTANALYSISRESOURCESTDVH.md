@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position:1}]` | `position:1}]` |
-| `key I_CostAnalysisResource.CostAnalysisResource` | `I_CostAnalysisResource.CostAnalysisResource` |
-| `key I_CostAnalysisResource.ValidityEndDate` | `I_CostAnalysisResource.ValidityEndDate` |
-| `I_CostAnalysisResource.ValidityStartDate` | `I_CostAnalysisResource.ValidityStartDate` |
-| `I_CostAnalysisResource._Text` | `I_CostAnalysisResource._Text` |
-| `I_CostAnalysisResource._ControllingArea` | `I_CostAnalysisResource._ControllingArea` |
+| `ControllingArea` | `I_CostAnalysisResource.ControllingArea` |
+| `CostAnalysisResource` | `I_CostAnalysisResource.CostAnalysisResource` |
+| `ValidityEndDate` | `I_CostAnalysisResource.ValidityEndDate` |
+| `ValidityStartDate` | `I_CostAnalysisResource.ValidityStartDate` |
+| `_Text` | *Association* |
+| `_ControllingArea` | *Association* |
 
 ## Associations
 

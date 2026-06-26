@@ -31,38 +31,38 @@ tags:
 |---|---|
 | `InternalRealEstateNumber` | `_ValuationTerm.intreno` |
 | `REValuationRuleUUID` | `_ValuationTerm.ruleguid` |
-| `_ValuationTerm.termno                                                           as RETermNumber` | *Association* |
-| `_ValuationTerm.termtype                                                         as RETermType` | *Association* |
-| `rebdvdmvalidfrom preserving type )` | `cast( _ValuationTerm.validfrom` |
-| `rebdvdmvalidto   preserving type )` | `cast( _ValuationTerm.validto` |
-| `_ValuationTerm.objnr                                                            as REStatusObject` | *Association* |
-| `rebdvdmrelvalidfrom preserving type )` | `cast(_ValuationTerm.objvalidfrom` |
-| `_ValuationTerm.cerule                                                           as REValuationRule` | *Association* |
-| `recevdmconsbeg   preserving type )` | `cast(_ValuationTerm.consbeg` |
-| `recevdmpostbeg preserving type )` | `cast(_ValuationTerm.postbeg` |
-| `recevdmasobjnr preserving type )` | `cast(_ValuationTerm.assetobjnr` |
-| `_ValuationTerm.cesltype                                                         as REValuationClassification` | *Association* |
-| `_ValuationTerm.interestrate                                                     as REInterestRate` | *Association* |
-| `_ValuationTerm.termnorh                                                         as REFrequencyTerm` | *Association* |
-| `_ValuationTerm.distrule                                                         as REDistributionRule` | *Association* |
-| `_ValuationTerm.distrulepara1                                                    as REDistributionRuleParam1` | *Association* |
-| `_ValuationTerm.distrulepara2                                                    as REDistributionRuleParam2` | *Association* |
-| `recevdmprobableend   preserving type )` | `cast( _ValuationTerm.probableend` |
-| `recevdmusefullifeend preserving type )` | `cast( _ValuationTerm.usefullifeend` |
-| `recevdmstatusrule    preserving type )` | `cast( _ValuationTerm.statusrule` |
-| `recevdmstatusevaluation preserving type )` | `cast( _ValuationTerm.statuseval` |
-| `recevdmstatusreason preserving type )` | `cast( _ValuationTerm.statusreason` |
-| `_ValuationTerm.processbehavior                                                  as REValuationBehavior` | *Association* |
-| `_ValuationTerm.taxtype                                                          as RETaxType` | *Association* |
-| `_ValuationTerm.taxgroup                                                         as TaxGroup` | *Association* |
-| `recevdmacctobjnr preserving type )` | `cast(_ValuationTerm.acctobjnr` |
-| `_ValuationTerm.note                                                             as REInfoText` | *Association* |
-| `_ValuationTerm.scopenum                                                         as REValuationFactorNumerator` | *Association* |
-| `_ValuationTerm.scopedenom                                                       as REValuationFactorDenominator` | *Association* |
-| `recevdmrulecurr preserving type )` | `cast(_ValuationTerm.rulecurr` |
-| `_ValuationTerm.queryguid                                                        as REValuationQuestionnaireUUID` | *Association* |
-| `_REContract._CompanyCode.Country as Country` | *Association* |
-| `_REContract._CompanyCode._Country` | *Association* |
+| `RETermNumber` | `_ValuationTerm.termno` |
+| `RETermType` | `_ValuationTerm.termtype` |
+| `ValidityStartDate` | `cast( _ValuationTerm.validfrom as rebdvdmvalidfrom preserving type )` |
+| `ValidityEndDate` | `cast( _ValuationTerm.validto as rebdvdmvalidto preserving type )` |
+| `REStatusObject` | `_ValuationTerm.objnr` |
+| `ObjectValidFrom` | `cast(_ValuationTerm.objvalidfrom as rebdvdmrelvalidfrom preserving type )` |
+| `REValuationRule` | `_ValuationTerm.cerule` |
+| `REConsiderationStartDate` | `cast(_ValuationTerm.consbeg as recevdmconsbeg preserving type )` |
+| `RECashFlowPostingFromDate` | `cast(_ValuationTerm.postbeg as recevdmpostbeg preserving type )` |
+| `REStatusObjectAsset` | `cast(_ValuationTerm.assetobjnr as recevdmasobjnr preserving type )` |
+| `REValuationClassification` | `_ValuationTerm.cesltype` |
+| `REInterestRate` | `_ValuationTerm.interestrate` |
+| `REFrequencyTerm` | `_ValuationTerm.termnorh` |
+| `REDistributionRule` | `_ValuationTerm.distrule` |
+| `REDistributionRuleParam1` | `_ValuationTerm.distrulepara1` |
+| `REDistributionRuleParam2` | `_ValuationTerm.distrulepara2` |
+| `REProbableEndDate` | `cast( _ValuationTerm.probableend as recevdmprobableend preserving type )` |
+| `REAssetRightOfUseEndDate` | `cast( _ValuationTerm.usefullifeend as recevdmusefullifeend preserving type )` |
+| `REValuationRuleStatus` | `cast( _ValuationTerm.statusrule as recevdmstatusrule preserving type )` |
+| `REValuationStatus` | `cast( _ValuationTerm.statuseval as recevdmstatusevaluation preserving type )` |
+| `REValuationStatusReason` | `cast( _ValuationTerm.statusreason as recevdmstatusreason preserving type )` |
+| `REValuationBehavior` | `_ValuationTerm.processbehavior` |
+| `RETaxType` | `_ValuationTerm.taxtype` |
+| `TaxGroup` | `_ValuationTerm.taxgroup` |
+| `REAccountingObject` | `cast(_ValuationTerm.acctobjnr as recevdmacctobjnr preserving type )` |
+| `REInfoText` | `_ValuationTerm.note` |
+| `REValuationFactorNumerator` | `_ValuationTerm.scopenum` |
+| `REValuationFactorDenominator` | `_ValuationTerm.scopedenom` |
+| `REValuationCurrency` | `cast(_ValuationTerm.rulecurr as recevdmrulecurr preserving type )` |
+| `REValuationQuestionnaireUUID` | `_ValuationTerm.queryguid` |
+| `Country` | `_REContract._CompanyCode.Country` |
+| `_Country` | *Association* |
 | `_REContract` | *Association* |
 | `_RETerm` | *Association* |
 | `_RETermType` | *Association* |
@@ -101,11 +101,7 @@ tags:
 | `_REValuationBehavior` | `I_REValuationBehavior` | [0..1] |
 | `_RETaxType` | `I_RETaxType` | [0..1] |
 | `_RETaxGroup` | `I_RETaxGroup` | [0..1] |
-| `_REAccountingObject` | `I_REAccountingObject` | [0..1] |
 | `_Currency` | `I_Currency` | [0..1] |
-| `_CostCenter` | `I_CostCenter` | [0..1] |
-| `_WBSElement` | `I_WBSElementBasicData` | [0..1] |
-| `_InternalOrder` | `I_InternalOrder` | [0..1] |
 
 ## Source Code
 

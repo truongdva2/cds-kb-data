@@ -30,46 +30,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PRT.ProductionResourceType` | `PRT.ProductionResourceType` |
-| `key PRT.ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
-| `cast(` | `cast(` |
-| `case PRT.ProdnRsceToolCategory` | `case PRT.ProdnRsceToolCategory` |
-| `when 'M' then crvm_a.Material` | `when 'M' then crvm_a.Material` |
-| `when 'E' then crve_a.Equipment` | `when 'E' then crve_a.Equipment` |
-| `when 'S' then crvs_a.MiscProductionResourceTool` | `when 'S' then crvs_a.MiscProductionResourceTool` |
-| `when 'D' then concat_with_space(concat_with_space(concat_with_space(` | `when 'D' then concat_with_space(concat_with_space(concat_with_space(` |
-| `crvd_a.DocumentInfoRecord, crvd_a.DocumentType, 1), crvd_a.DocumentPart, 1), crvd_a.DocumentVersion, 1)` | `crvd_a.DocumentInfoRecord, crvd_a.DocumentType, 1), crvd_a.DocumentPart, 1), crvd_a.DocumentVersion, 1)` |
-| `when 'P' then crvp_a.MeasuringPoint` | `when 'P' then crvp_a.MeasuringPoint` |
-| `else PRT.ProdnRsceToolCategory` | `else PRT.ProdnRsceToolCategory` |
-| `pph_fhmnr preserving type)` | `end` |
-| `PRT.ProdnRsceToolCategory` | `PRT.ProdnRsceToolCategory` |
-| `PRT.ProdnRsceToolCategory_2` | `PRT.ProdnRsceToolCategory_2` |
-| `crvm_a.Plant` | `crvm_a.Plant` |
-| `crvm_a.Material` | `crvm_a.Material` |
-| `crve_a.Equipment` | `crve_a.Equipment` |
-| `crvs_a.MiscProductionResourceTool` | `crvs_a.MiscProductionResourceTool` |
-| `crvd_a.DocumentType` | `crvd_a.DocumentType` |
-| `crvd_a.DocumentInfoRecord` | `crvd_a.DocumentInfoRecord` |
-| `crvd_a.DocumentVersion` | `crvd_a.DocumentVersion` |
-| `crvd_a.DocumentPart` | `crvd_a.DocumentPart` |
-| `crvp_a.MeasuringPoint` | `crvp_a.MeasuringPoint` |
-| `_ProductionResourceType` | `PRT._ProductionResourceType` |
-| `_ProdnRsceToolCategory` | `PRT._ProdnRsceToolCategory` |
-| `_ProdnRsceToolCategory_2` | `PRT._ProdnRsceToolCategory_2` |
-| `_ProdnRsceToolCategory_3` | `PRT._ProdnRsceToolCategory_3` |
-| `crvm_a._Material` | `crvm_a._Material` |
-| `crvm_a._Plant` | `crvm_a._Plant` |
-| `crve_a._Equipment` | `crve_a._Equipment` |
+| `ProductionResourceType` | `PRT.ProductionResourceType` |
+| `ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
+| `ProductionResourceTool` | `cast(…)` |
+| `ProdnRsceToolCategory` | `PRT.ProdnRsceToolCategory` |
+| `ProdnRsceToolCategory_2` | `PRT.ProdnRsceToolCategory_2` |
+| `Plant` | `crvm_a.Plant` |
+| `Material` | `crvm_a.Material` |
+| `Equipment` | `crve_a.Equipment` |
+| `MiscProductionResourceTool` | `crvs_a.MiscProductionResourceTool` |
+| `DocumentType` | `crvd_a.DocumentType` |
+| `DocumentInfoRecord` | `crvd_a.DocumentInfoRecord` |
+| `DocumentVersion` | `crvd_a.DocumentVersion` |
+| `DocumentPart` | `crvd_a.DocumentPart` |
+| `MeasuringPoint` | `crvp_a.MeasuringPoint` |
+| `_ProductionResourceType` | *Association* |
+| `_ProdnRsceToolCategory` | *Association* |
+| `_ProdnRsceToolCategory_2` | *Association* |
+| `_ProdnRsceToolCategory_3` | *Association* |
+| `_Material` | *Association* |
+| `_Plant` | *Association* |
+| `_Equipment` | *Association* |
 | `_ProdnRsceToolText` | *Association* |
 | `_MaterialProdnRsceTool` | *Association* |
 | `_EquipmentProdnRsceTool` | *Association* |
 | `_MiscProdnRsceTool` | *Association* |
-| `_DocumentType` | `crvd_a._DocumentType` |
-| `_DocumentNumber` | `crvd_a._DocumentNumber` |
-| `_DocumentVersion` | `crvd_a._DocumentVersion` |
+| `_DocumentType` | *Association* |
+| `_DocumentNumber` | *Association* |
+| `_DocumentVersion` | *Association* |
 | `_DocumentProdnRsceTool` | *Association* |
 | `_MsrgPointProdnRsceTool` | *Association* |
-| `crvp_a._MeasuringPoint` | `crvp_a._MeasuringPoint` |
+| `_MeasuringPoint` | *Association* |
 
 ## Associations
 

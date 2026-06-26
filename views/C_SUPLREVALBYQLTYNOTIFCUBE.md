@@ -31,52 +31,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_SuplrEvalByQltyNotif.PurchaseOrder` | `P_SuplrEvalByQltyNotif.PurchaseOrder` |
-| `key P_SuplrEvalByQltyNotif.PurchaseOrderItem` | `P_SuplrEvalByQltyNotif.PurchaseOrderItem` |
-| `key PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
-| `key SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
-| `P_SuplrEvalByQltyNotif.Supplier` | `P_SuplrEvalByQltyNotif.Supplier` |
-| `mm_a_supplier_country )` | `cast( _Supplier.Country` |
+| `PurchaseOrder` | `P_SuplrEvalByQltyNotif.PurchaseOrder` |
+| `PurchaseOrderItem` | `P_SuplrEvalByQltyNotif.PurchaseOrderItem` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
+| `SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
+| `Supplier` | `P_SuplrEvalByQltyNotif.Supplier` |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `CompanyCode` | `CompanyCode` |
-| `_Supplier.Region` | *Association* |
-| `P_SuplrEvalByQltyNotif.PurchasingOrganization` | `P_SuplrEvalByQltyNotif.PurchasingOrganization` |
-| `P_SuplrEvalByQltyNotif.Plant` | `P_SuplrEvalByQltyNotif.Plant` |
-| `P_SuplrEvalByQltyNotif.Material` | `P_SuplrEvalByQltyNotif.Material` |
+| `Region` | `_Supplier.Region` |
+| `PurchasingOrganization` | `P_SuplrEvalByQltyNotif.PurchasingOrganization` |
+| `Plant` | `P_SuplrEvalByQltyNotif.Plant` |
+| `Material` | `P_SuplrEvalByQltyNotif.Material` |
 | `MaterialGroup` | `MaterialGroup` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
-| `P_SuplrEvalByQltyNotif.PurchasingCategory` | `P_SuplrEvalByQltyNotif.PurchasingCategory` |
+| `PurchasingCategory` | `P_SuplrEvalByQltyNotif.PurchasingCategory` |
 | `PurgCatName` | `PurgCatName` |
-| `_Date.CalendarYear` | *Association* |
-| `_Date.CalendarQuarter` | *Association* |
-| `_Date.CalendarMonth` | *Association* |
-| `_Date.CalendarWeek` | *Association* |
-| `_CompanyCode.CompanyCodeName` | *Association* |
-| `P_SuplrEvalByQltyNotif.PurchaseOrderDate` | `P_SuplrEvalByQltyNotif.PurchaseOrderDate` |
-| `/* ***************************Fields used to calculate measure********************************/` | `/* ***************************Fields used to calculate measure********************************/` |
-| `/* Number of PO's having QN */` | `/* Number of PO's having QN */` |
-| `case when Scoring.SuplrEvalCriterion is null then 0 else` | `case when Scoring.SuplrEvalCriterion is null then 0 else` |
-| `NmbrOfPOItemWithQltyNotifScr` | `POWithQualityNotif end` |
-| `/* Identifier to count POI's having GR */` | `/* Identifier to count POI's having GR */` |
+| `CalendarYear` | `_Date.CalendarYear` |
+| `CalendarQuarter` | `_Date.CalendarQuarter` |
+| `CalendarMonth` | `_Date.CalendarMonth` |
+| `CalendarWeek` | `_Date.CalendarWeek` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `PurchaseOrderDate` | `P_SuplrEvalByQltyNotif.PurchaseOrderDate` |
+| `NmbrOfPOItemWithQltyNotifScr` | `case when Scoring.SuplrEvalCriterion is null then 0 else POWithQualityNotif end` |
 | `PurchaseOrderItemUniqueID` | `PurchaseOrderItemUniqueID` |
-| `/* Number of POI's having GR */` | `/* Number of POI's having GR */` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast(1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast(1` |
-| `/*  Idetifier for PO's having GR */` | `/*  Idetifier for PO's having GR */` |
+| `NmbrOfPurchaseOrderItemsWithGR` | `cast(1 as mm_pur_ana_numbrofpurorditms )` |
+| `NumberOfPurchaseOrderItems` | `cast(1 as mm_pur_ana_numbrofpurorditms )` |
 | `UniqueIntSourcingRequest` | `UniqueIntSourcingRequest` |
-| `/* Number of PO's having GR */` | `/* Number of PO's having GR */` |
-| `mm_pur_ana_numbrofpurords )` | `cast(1` |
-| `P_SuplrEvalByQltyNotif.QualityNotificationCount` | `P_SuplrEvalByQltyNotif.QualityNotificationCount` |
-| `/* Quality Notification Score */` | `/* Quality Notification Score */` |
-| `cast( case` | `cast( case` |
-| `when UpdatedScore.IsScoreChanged = 'X'` | `when UpdatedScore.IsScoreChanged = 'X'` |
-| `then UpdatedScore.QualityNotificationScore` | `then UpdatedScore.QualityNotificationScore` |
-| `when Scoring.SuplrEvalCriterion is null and QualityNotificationCount = 0` | `when Scoring.SuplrEvalCriterion is null and QualityNotificationCount = 0` |
-| `then 100` | `then 100` |
-| `when Scoring.SuplrEvalCriterion is null` | `when Scoring.SuplrEvalCriterion is null` |
-| `then 0` | `then 0` |
-| `else SupplierEvaluationScore` | `else SupplierEvaluationScore` |
-| `/srmsmc/calculated_score )` | `end` |
+| `NumberOfPurchaseOrders` | `cast(1 as mm_pur_ana_numbrofpurords )` |
+| `QualityNotificationCount` | `P_SuplrEvalByQltyNotif.QualityNotificationCount` |
+| `SuplrEvalCalculatedScoreValue` | `cast(…)` |
 | `_Supplier` | *Association* |
 | `_Country` | *Association* |
 | `_Region` | *Association* |

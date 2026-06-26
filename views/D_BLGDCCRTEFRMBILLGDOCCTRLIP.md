@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AutomPostingToAcctgIsDisabled : rfbfk;` | `AutomPostingToAcctgIsDisabled : rfbfk;` |
-| `_DummyAssociation             : association to parent D_BillgDocCrteFrmBillgDocIP;` | *Association* |
+| `AutomPostingToAcctgIsDisabled` | `rfbfk` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_BillgDocCrteFrmBillgDocIP` | — |
 
 ## Source Code
 

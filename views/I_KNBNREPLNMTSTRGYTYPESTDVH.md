@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanReplenishmentStrgyType` | `KanbanReplenishmentStrgyType` |
+| `KanbanReplenishmentStrgyType` | `KanbanReplenishmentStrgyType` |
 | `_Text` | *Association* |
 
 ## Associations

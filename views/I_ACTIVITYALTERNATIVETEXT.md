@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_actxkt preserving type)` | `cast(txt.actxkt` |
+| `CostCenterActivityAltvDescID` | `cast(txt.actxk as pph_actxk preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `CostCenterActivityAltvDesc` | `cast(txt.actxkt as pph_actxkt preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

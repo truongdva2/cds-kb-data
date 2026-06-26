@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key DeliveryAddressID` | `DeliveryAddressID` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `DeliveryAddressID` | `DeliveryAddressID` |
 | `AddressID` | `AddressID` |
 | `AddressPersonID` | `AddressPersonID` |
 | `AddressRepresentationCode` | `AddressRepresentationCode` |
@@ -81,7 +81,6 @@ tags:
 | `AddressTimeZone` | `AddressTimeZone` |
 | `EmailAddress` | `EmailAddress` |
 | `RegionalStructureCheckStatus` | `RegionalStructureCheckStatus` |
-| `/* Associations */` | `/* Associations */` |
 | `_Country` | *Association* |
 | `_CurrentDfltEmailAddress` | *Association* |
 | `_CurrentDfltFaxNumber` | *Association* |
@@ -91,8 +90,6 @@ tags:
 | `_EmailAddress` | *Association* |
 | `_FaxNumber` | *Association* |
 | `_PhoneNumber` | *Association* |
-| `_PurchaseOrder     : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_PurchaseOrderItem : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
 | `_Region` | *Association* |
 
 ## Associations

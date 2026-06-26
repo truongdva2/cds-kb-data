@@ -32,8 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `crtx.WorkCenterText` | `crtx.WorkCenterText` |
+| `WorkCenter` | `crhd.WorkCenter` |
+| `Plant` | `crhd.Plant` |
+| `Language` | `crtx.Language` |
+| `WorkCenterTypeCode` | `crhd.WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `crhd.WorkCenterInternalID` |
+| `WorkCenterCategoryCode` | `-- crhd.WorkCenterCategoryCode` |
+| `WorkCenterText` | `crtx.WorkCenterText` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |
 | `_WorkCenterCategory` | *Association* |

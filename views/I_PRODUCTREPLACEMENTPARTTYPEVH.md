@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `atpkz)` | `cast ( dd07l.domvalue_l` |
+| `ReplacementPartType` | `cast ( dd07l.domvalue_l as atpkz)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

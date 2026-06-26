@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast(t.ddlanguage` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
 | `PMRPConstraintPeriodType` | `t.domvalue_l` |
 | `DomainValue` | `t.domvalue_l` |
 | `PMRPConstraintPeriodTypeText` | `t.ddtext` |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PMRPFlxblCstrtPeriodType` | `I_PMRPFlxblCstrtPeriodType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

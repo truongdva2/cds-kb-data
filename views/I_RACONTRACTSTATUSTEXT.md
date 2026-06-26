@@ -33,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `farr_cds_contr_status_text preserving type)` | `cast(dd07t.ddtext` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RevnAcctgContractStatus` | `dd07t.domvalue_l` |
+| `RevnAcctgContractStatusName` | `cast(dd07t.ddtext as farr_cds_contr_status_text preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAContractStatus` | *Association* |
 | `_Language` | *Association* |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAContractStatus` | `I_RAContractStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

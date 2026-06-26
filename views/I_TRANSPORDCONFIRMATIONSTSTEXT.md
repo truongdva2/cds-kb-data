@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_confirm_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderConfSts` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_confirm_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_confirm_sts_desc preserving type )` | `cast(ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationOrderConfStsDesc` | `cast(ddtext as /scmtms/vdm_confirm_sts_desc preserving type )` |
 | `_TranspOrdConfirmationStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdConfirmationStatus` | `I_TranspOrdConfirmationStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

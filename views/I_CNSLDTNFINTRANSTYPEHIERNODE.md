@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinTransTypeVH'` | `name: 'I_CnsldtnFinTransTypeVH'` |
-| `element: 'FinancialTransactionType'` | `element: 'FinancialTransactionType'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_financialtransactiontype preserving type )` | `cast(left( _HierarchyNode.UniversalHierarchyLeafValue, 3 )` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `CnsldtnFinTransTypeHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `FinancialTransactionType` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_FinTransType` | *Association* |
 | `_Hierarchy` | *Association* |

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_icms_base_det preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_icmsbasedetermination preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_ICMSBaseDetn` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_icms_base_det preserving type )` |
+| `BR_ICMSBaseDetnDesc` | `cast( ddtext as logbr_icmsbasedetermination preserving type )` |
 | `_BR_ICMSBaseDetn` | *Association* |
 | `_Language` | *Association* |
 

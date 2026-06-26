@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key ExtSourceSystem` | `ExtSourceSystem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ExtSourceSystem` | `ExtSourceSystem` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `DocumentCurrency` | `DocumentCurrency` |
 | `PurchasingDocumentDeletionCode` | `PurchasingDocumentDeletionCode` |

@@ -30,23 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassCharc.ClassInternalID` | `ClassCharc.ClassInternalID` |
-| `key ClassCharc.CharcPositionNumber` | `ClassCharc.CharcPositionNumber` |
-| `key ClassCharc.ValidityEndDate` | `ClassCharc.ValidityEndDate` |
-| `ClassCharc.TimeIntervalNumber` | `ClassCharc.TimeIntervalNumber` |
-| `ClassCharc.CharcInternalID` | `ClassCharc.CharcInternalID` |
-| `ClassCharc.OverwrittenCharcInternalID` | `ClassCharc.OverwrittenCharcInternalID` |
-| `ClassCharc.ClfnOrganizationalArea` | `ClassCharc.ClfnOrganizationalArea` |
-| `ClassCharc.ClassType` | `ClassCharc.ClassType` |
-| `ClassCharc.ChangeNumber` | `ClassCharc.ChangeNumber` |
-| `ClassCharc.ValidityStartDate` | `ClassCharc.ValidityStartDate` |
-| `ClassCharc.IsDeleted` | `ClassCharc.IsDeleted` |
-| `ClassCharc.CharcOriginText` | `ClassCharc.CharcOriginText` |
-| `ClassCharc.CharcIsProposalRelevant` | `ClassCharc.CharcIsProposalRelevant` |
-| `ClassCharc.CharcIsPrptnOrProdUnitRelevant` | `ClassCharc.CharcIsPrptnOrProdUnitRelevant` |
-| `ClassCharc.CharcIsPrintRelevant` | `ClassCharc.CharcIsPrintRelevant` |
-| `ClassCharc.CharcIsSearchRelevant` | `ClassCharc.CharcIsSearchRelevant` |
-| `ClassCharc.CharcIsDisplayRelevant` | `ClassCharc.CharcIsDisplayRelevant` |
+| `ClassInternalID` | `ClassCharc.ClassInternalID` |
+| `CharcPositionNumber` | `ClassCharc.CharcPositionNumber` |
+| `ValidityEndDate` | `ClassCharc.ValidityEndDate` |
+| `TimeIntervalNumber` | `ClassCharc.TimeIntervalNumber` |
+| `CharcInternalID` | `ClassCharc.CharcInternalID` |
+| `OverwrittenCharcInternalID` | `ClassCharc.OverwrittenCharcInternalID` |
+| `ClfnOrganizationalArea` | `ClassCharc.ClfnOrganizationalArea` |
+| `ClassType` | `ClassCharc.ClassType` |
+| `ChangeNumber` | `ClassCharc.ChangeNumber` |
+| `ValidityStartDate` | `ClassCharc.ValidityStartDate` |
+| `IsDeleted` | `ClassCharc.IsDeleted` |
+| `CharcOriginText` | `ClassCharc.CharcOriginText` |
+| `CharcIsProposalRelevant` | `ClassCharc.CharcIsProposalRelevant` |
+| `CharcIsPrptnOrProdUnitRelevant` | `ClassCharc.CharcIsPrptnOrProdUnitRelevant` |
+| `CharcIsPrintRelevant` | `ClassCharc.CharcIsPrintRelevant` |
+| `CharcIsSearchRelevant` | `ClassCharc.CharcIsSearchRelevant` |
+| `CharcIsDisplayRelevant` | `ClassCharc.CharcIsDisplayRelevant` |
 | `_Class` | *Association* |
 
 ## Associations

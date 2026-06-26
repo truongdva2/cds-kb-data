@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_bdtxt preserving type)` | `cast(txt.bdtxt` |
+| `PlndIndepRqmtType` | `txt.bedae` |
+| `Language` | `txt.spras` |
+| `PlndIndepRqmtTypeName` | `cast(txt.bdtxt as pph_bdtxt preserving type)` |
 | `_PlndIndepRqmtType` | *Association* |
 | `_Language` | *Association* |
 

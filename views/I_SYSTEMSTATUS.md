@@ -37,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SystemStatusText` | `I_SystemStatusText` | [0..*] |
 
 ## Source Code
 

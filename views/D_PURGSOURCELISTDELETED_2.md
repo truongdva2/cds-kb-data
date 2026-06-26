@@ -29,14 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SourceListRecord        : dzeord;` | `SourceListRecord        : dzeord;` |
-| `SourceListCreationDate  : erdat;` | `SourceListCreationDate  : erdat;` |
-| `SourceListCreatedByUser : ernam;` | `SourceListCreatedByUser : ernam;` |
-| `ValidityStartDate       : bdatu;` | `ValidityStartDate       : bdatu;` |
-| `ValidityEndDate         : bdatu;` | `ValidityEndDate         : bdatu;` |
-| `Supplier                : lifnr;` | `Supplier                : lifnr;` |
-| `PurchasingOrganization  : ekorg;` | `PurchasingOrganization  : ekorg;` |
-| `PurchaseOrderUnit       : meins;` | `PurchaseOrderUnit       : meins;` |
+| `SourceListRecord` | `dzeord` |
+| `SourceListCreationDate` | `erdat` |
+| `SourceListCreatedByUser` | `ernam` |
+| `ValidityStartDate` | `bdatu` |
+| `ValidityEndDate` | `bdatu` |
+| `Supplier` | `lifnr` |
+| `PurchasingOrganization` | `ekorg` |
+| `PurchaseOrderUnit` | `meins` |
 
 ## Associations
 

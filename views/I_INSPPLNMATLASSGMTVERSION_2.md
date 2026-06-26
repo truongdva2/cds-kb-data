@@ -29,25 +29,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_BOOMaterialAssgmtChangeState.Material` | `I_BOOMaterialAssgmtChangeState.Material` |
-| `key I_BOOMaterialAssgmtChangeState.Plant` | `I_BOOMaterialAssgmtChangeState.Plant` |
+| `Material` | `I_BOOMaterialAssgmtChangeState.Material` |
+| `Plant` | `I_BOOMaterialAssgmtChangeState.Plant` |
 | `InspectionPlanGroup` | `I_BOOMaterialAssgmtChangeState.BillOfOperationsGroup` |
 | `InspectionPlan` | `I_BOOMaterialAssgmtChangeState.BillOfOperationsVariant` |
 | `InspPlanMatlAssignment` | `I_BOOMaterialAssgmtChangeState.BOOToMaterialInternalID` |
 | `InspPlanMatlAssgmtIntVersion` | `I_BOOMaterialAssgmtChangeState.BOOMatlInternalVersionCounter` |
-| `I_BOOMaterialAssgmtChangeState.BillOfOperationsType` | `I_BOOMaterialAssgmtChangeState.BillOfOperationsType` |
-| `I_BOOMaterialAssgmtChangeState.ValidityStartDate` | `I_BOOMaterialAssgmtChangeState.ValidityStartDate` |
-| `I_BOOMaterialAssgmtChangeState.ValidityEndDate` | `I_BOOMaterialAssgmtChangeState.ValidityEndDate` |
-| `I_BOOMaterialAssgmtChangeState.ChangeNumber` | `I_BOOMaterialAssgmtChangeState.ChangeNumber` |
-| `I_BOOMaterialAssgmtChangeState.CreationDate` | `I_BOOMaterialAssgmtChangeState.CreationDate` |
-| `I_BOOMaterialAssgmtChangeState.CreatedByUser` | `I_BOOMaterialAssgmtChangeState.CreatedByUser` |
-| `I_BOOMaterialAssgmtChangeState.LastChangeDate` | `I_BOOMaterialAssgmtChangeState.LastChangeDate` |
-| `I_BOOMaterialAssgmtChangeState.LastChangedByUser` | `I_BOOMaterialAssgmtChangeState.LastChangedByUser` |
-| `I_BOOMaterialAssgmtChangeState.IsDeleted` | `I_BOOMaterialAssgmtChangeState.IsDeleted` |
-| `I_BOOMaterialAssgmtChangeState.IsImplicitlyDeleted` | `I_BOOMaterialAssgmtChangeState.IsImplicitlyDeleted` |
-| `I_BOOMaterialAssgmtChangeState.Supplier` | `I_BOOMaterialAssgmtChangeState.Supplier` |
-| `I_BOOMaterialAssgmtChangeState.Customer` | `I_BOOMaterialAssgmtChangeState.Customer` |
-| `I_BOOMaterialAssgmtChangeState.BOOSearchText` | `I_BOOMaterialAssgmtChangeState.BOOSearchText` |
+| `BillOfOperationsType` | `I_BOOMaterialAssgmtChangeState.BillOfOperationsType` |
+| `ValidityStartDate` | `I_BOOMaterialAssgmtChangeState.ValidityStartDate` |
+| `ValidityEndDate` | `I_BOOMaterialAssgmtChangeState.ValidityEndDate` |
+| `ChangeNumber` | `I_BOOMaterialAssgmtChangeState.ChangeNumber` |
+| `CreationDate` | `I_BOOMaterialAssgmtChangeState.CreationDate` |
+| `CreatedByUser` | `I_BOOMaterialAssgmtChangeState.CreatedByUser` |
+| `LastChangeDate` | `I_BOOMaterialAssgmtChangeState.LastChangeDate` |
+| `LastChangedByUser` | `I_BOOMaterialAssgmtChangeState.LastChangedByUser` |
+| `IsDeleted` | `I_BOOMaterialAssgmtChangeState.IsDeleted` |
+| `IsImplicitlyDeleted` | `I_BOOMaterialAssgmtChangeState.IsImplicitlyDeleted` |
+| `Supplier` | `I_BOOMaterialAssgmtChangeState.Supplier` |
+| `Customer` | `I_BOOMaterialAssgmtChangeState.Customer` |
+| `BOOSearchText` | `I_BOOMaterialAssgmtChangeState.BOOSearchText` |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsType` | *Association* |
 | `_InspectionPlanVersion` | *Association* |

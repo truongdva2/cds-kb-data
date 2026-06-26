@@ -46,10 +46,10 @@ tags:
 | `Currency` | `currency` |
 | `ReferenceDocument` | `awref` |
 | `BalanceCarryforwardStatus` | `bcf` |
-| `creation_date_time preserving type )` | `cast(created_at` |
-| `cruser preserving type )` | `cast (created_by` |
-| `last_changed_date_time preserving type )` | `cast (changed_at` |
-| `last_changed_by_user preserving type )` | `cast (changed_by` |
+| `CreationDateTime` | `cast(created_at as creation_date_time preserving type )` |
+| `CreatedByUserName` | `cast (created_by as cruser preserving type )` |
+| `ChangedDateTime` | `cast (changed_at as last_changed_date_time preserving type )` |
+| `LastChangedByUserName` | `cast (changed_by as last_changed_by_user preserving type )` |
 
 ## Associations
 

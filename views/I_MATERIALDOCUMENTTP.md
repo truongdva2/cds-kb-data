@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
-| `key MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
 | `DocumentDate` | `DocumentDate` |
 | `PostingDate` | `PostingDate` |
 | `GoodsMovementCode` | `GoodsMovementCode` |
@@ -46,7 +46,6 @@ tags:
 | `ReferenceDocument` | `ReferenceDocument` |
 | `ManualPrintIsTriggered` | `ManualPrintIsTriggered` |
 | `VersionForPrintingSlip` | `VersionForPrintingSlip` |
-| `_MaterialDocumentItem: redirected to composition child I_MaterialDocumentItemTP` | *Association* |
 
 ## Associations
 

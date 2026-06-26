@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CAInvoicingDocument` | `CAInvoicingDocument` |
-| `key CAInvcgDocItem` | `CAInvcgDocItem` |
+| `CAInvoicingDocument` | `CAInvoicingDocument` |
+| `CAInvcgDocItem` | `CAInvcgDocItem` |
 | `CAInvcgDocumentItemType` | `CAInvcgDocumentItemType` |
 | `CompanyCode` | `CompanyCode` |
 | `Division` | `Division` |
@@ -115,7 +115,6 @@ tags:
 | `CABllbleItmDiscountKey` | `CABllbleItmDiscountKey` |
 | `CABllbleItmDiscountVersion` | `CABllbleItmDiscountVersion` |
 | `CAInvcgCorrectionCategory` | `CAInvcgCorrectionCategory` |
-| `_CAInvcgDocument : redirected to parent I_CAInvcgDocumentTP` | *Association* |
 | `CABillToParty` | `CABillToParty` |
 | `CABillToRegion` | `CABillToRegion` |
 | `CABillFromRegion` | `CABillFromRegion` |

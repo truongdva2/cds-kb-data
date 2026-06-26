@@ -33,8 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ti_sputcal)` | `cast(dd07t.domvalue_l` |
-| `ftr_gen_opt_put_call_code_name preserving type )` | `cast(dd07t.ddtext` |
+| `OptionPutCallCode` | `cast(dd07t.domvalue_l as ti_sputcal)` |
+| `OptionPutCallCodeName` | `cast(dd07t.ddtext as ftr_gen_opt_put_call_code_name preserving type )` |
 | `_OptionPutCallCode` | *Association* |
 | `_Language` | *Association* |
 

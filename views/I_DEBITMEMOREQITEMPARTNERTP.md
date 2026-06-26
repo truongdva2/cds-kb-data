@@ -33,23 +33,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DebitMemoReqItemPartnerTP.DebitMemoRequest` | `DebitMemoReqItemPartnerTP.DebitMemoRequest` |
-| `key DebitMemoReqItemPartnerTP.DebitMemoRequestItem` | `DebitMemoReqItemPartnerTP.DebitMemoRequestItem` |
-| `key DebitMemoReqItemPartnerTP.PartnerFunction` | `DebitMemoReqItemPartnerTP.PartnerFunction` |
-| `DebitMemoReqItemPartnerTP.PartnerFunctionForEdit` | `DebitMemoReqItemPartnerTP.PartnerFunctionForEdit` |
-| `DebitMemoReqItemPartnerTP.Customer` | `DebitMemoReqItemPartnerTP.Customer` |
-| `DebitMemoReqItemPartnerTP.Supplier` | `DebitMemoReqItemPartnerTP.Supplier` |
-| `DebitMemoReqItemPartnerTP.Personnel` | `DebitMemoReqItemPartnerTP.Personnel` |
-| `DebitMemoReqItemPartnerTP.ContactPerson` | `DebitMemoReqItemPartnerTP.ContactPerson` |
-| `DebitMemoReqItemPartnerTP.ReferenceBusinessPartner` | `DebitMemoReqItemPartnerTP.ReferenceBusinessPartner` |
-| `DebitMemoReqItemPartnerTP.Partner` | `DebitMemoReqItemPartnerTP.Partner` |
-| `DebitMemoReqItemPartnerTP.PartnerIsSpecificForSDDocItem` | `DebitMemoReqItemPartnerTP.PartnerIsSpecificForSDDocItem` |
-| `DebitMemoReqItemPartnerTP.DebitMemoRequestType` | `DebitMemoReqItemPartnerTP.DebitMemoRequestType` |
-| `DebitMemoReqItemPartnerTP.SalesOrganization` | `DebitMemoReqItemPartnerTP.SalesOrganization` |
-| `DebitMemoReqItemPartnerTP.DistributionChannel` | `DebitMemoReqItemPartnerTP.DistributionChannel` |
-| `DebitMemoReqItemPartnerTP.OrganizationDivision` | `DebitMemoReqItemPartnerTP.OrganizationDivision` |
-| `_Item             : redirected to parent I_DebitMemoRequestItemTP` | *Association* |
-| `_DebitMemoRequest : redirected to        I_DebitMemoRequestTP` | *Association* |
+| `DebitMemoRequest` | `DebitMemoReqItemPartnerTP.DebitMemoRequest` |
+| `DebitMemoRequestItem` | `DebitMemoReqItemPartnerTP.DebitMemoRequestItem` |
+| `PartnerFunction` | `DebitMemoReqItemPartnerTP.PartnerFunction` |
+| `PartnerFunctionForEdit` | `DebitMemoReqItemPartnerTP.PartnerFunctionForEdit` |
+| `Customer` | `DebitMemoReqItemPartnerTP.Customer` |
+| `Supplier` | `DebitMemoReqItemPartnerTP.Supplier` |
+| `Personnel` | `DebitMemoReqItemPartnerTP.Personnel` |
+| `ContactPerson` | `DebitMemoReqItemPartnerTP.ContactPerson` |
+| `ReferenceBusinessPartner` | `DebitMemoReqItemPartnerTP.ReferenceBusinessPartner` |
+| `Partner` | `DebitMemoReqItemPartnerTP.Partner` |
+| `PartnerIsSpecificForSDDocItem` | `DebitMemoReqItemPartnerTP.PartnerIsSpecificForSDDocItem` |
+| `DebitMemoRequestType` | `DebitMemoReqItemPartnerTP.DebitMemoRequestType` |
+| `SalesOrganization` | `DebitMemoReqItemPartnerTP.SalesOrganization` |
+| `DistributionChannel` | `DebitMemoReqItemPartnerTP.DistributionChannel` |
+| `OrganizationDivision` | `DebitMemoReqItemPartnerTP.OrganizationDivision` |
 
 ## Associations
 

@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/calc_level preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspChargeCalcLevel` | `cast(substring(domvalue_l, 1, 1) as /scmtms/calc_level preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspChargeCalcLevelText` | [0..*] |
 
 ## Source Code
 

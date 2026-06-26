@@ -30,19 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
 | `ValuationClass` | `t025.bklas` |
 | `AcctCategoryRef` | `t025.kkref` |
-| `case when I_MdiOidConfiguration.Context is initial` | `case when I_MdiOidConfiguration.Context is initial` |
-| `or I_MdiOidConfiguration.ComposeOid is initial then` | `or I_MdiOidConfiguration.ComposeOid is initial then` |
-| `valuationclass_oid )` | `cast( t025.bklas` |
-| `when I_MdiOidConfiguration.Context is not initial` | `when I_MdiOidConfiguration.Context is not initial` |
-| `and I_MdiOidConfiguration.ComposeOid is not initial then` | `and I_MdiOidConfiguration.ComposeOid is not initial then` |
-| `valuationclass_oid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), t025.bklas )` |
-| `ProductValuationClassOID` | `end` |
+| `ProductValuationClassOID` | `case…end` |
 | `_ValuationClassText` | *Association* |
 
 ## Associations

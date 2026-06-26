@@ -32,12 +32,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `partner` |
-| `_BusinessPartner.BusinessPartnerName` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `BusinessPartnerName` | `_BusinessPartner.BusinessPartnerName` |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `CreditCheckRule` | `check_rule` |
 | `CreditScoreAndLimitCalcRule` | `limit_rule` |
 | `CreditRiskClass` | `risk_class` |
-| `CreditAccountGroup, //obsolete, wrong GFN used` | `credit_group` |
+| `CreditAccountGroup` | `credit_group` |
 | `CrdtMgmtBusinessPartnerGroup` | `credit_group` |
 | `_BusinessPartner` | *Association* |
 | `_CreditRiskClass` | *Association* |

@@ -28,14 +28,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/stg_pymt_ind preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStgeInvcgCarrLvl` | `cast(substring(domvalue_l, 1, 2) as /scmtms/stg_pymt_ind preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdStgeInvcgCarrLvlT` | [0..*] |
 
 ## Source Code
 

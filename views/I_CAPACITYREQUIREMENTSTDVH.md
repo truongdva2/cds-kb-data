@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityRequirement` | `CapacityRequirement` |
+| `CapacityRequirement` | `CapacityRequirement` |
 
 ## Associations
 

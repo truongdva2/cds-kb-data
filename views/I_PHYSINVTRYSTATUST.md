@@ -36,7 +36,7 @@ tags:
 | `PhysInvtryDifferenceIsPosted` | `xdiff` |
 | `PhysInvtryItemIsRecounted` | `xnzae` |
 | `PhysInvtryItemIsDeleted` | `xloek` |
-| `pi_item_status preserving type)` | `cast(stext` |
+| `PhysicalInventoryStatusText` | `cast(stext as pi_item_status preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

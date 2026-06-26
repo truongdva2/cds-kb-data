@@ -30,15 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcDocDurationType', element: 'SrvcDocDurationType' }` | `name: 'I_SrvcDocDurationType', element: 'SrvcDocDurationType' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_DurationText` | *Association* |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
 
 ## Associations
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CABillgDocument` | `CABillgDocument` |
-| `key CABillgDocItem` | `CABillgDocItem` |
+| `CABillgDocument` | `CABillgDocument` |
+| `CABillgDocItem` | `CABillgDocItem` |
 | `CAIsDocItemSimulated` | `CAIsDocItemSimulated` |
 | `CABillgDocumentItemType` | `CABillgDocumentItemType` |
 | `CAContract` | `CAContract` |
@@ -102,8 +102,6 @@ tags:
 | `CADependentItemType` | `CADependentItemType` |
 | `ConditionType` | `ConditionType` |
 | `CAAltvMDOriginalIsEnbld` | `CAAltvMDOriginalIsEnbld` |
-| `/* Associations */` | `/* Associations */` |
-| `_CABillgDocument : redirected to parent I_CABillgDocumentTP` | *Association* |
 | `CAInvcgOffsettingReferenceKey` | `CAInvcgOffsettingReferenceKey` |
 | `CAInvcgOffsettingCategory` | `CAInvcgOffsettingCategory` |
 | `CAInvcgOffsettingProcedure` | `CAInvcgOffsettingProcedure` |

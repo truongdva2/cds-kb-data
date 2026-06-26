@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
+| `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
 | `_EarmarkedFundsDocumentItem` | *Association* |
 | `EarmarkedFundsDocumentType` | `EarmarkedFundsDocumentType` |
 | `EarmarkedFundsDocumentCategory` | `EarmarkedFundsDocumentCategory` |

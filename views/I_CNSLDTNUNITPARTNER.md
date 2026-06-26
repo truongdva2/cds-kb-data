@@ -31,11 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_unitpartner preserving type )` | `cast( _UnitAttributeValue.CnsldtnUnitAttributeValue` |
+| `ConsolidationUnitPartner` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

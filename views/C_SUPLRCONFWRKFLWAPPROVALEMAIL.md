@@ -33,29 +33,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `_SupplierConfirmation.SupplierConfirmation` | *Association* |
-| `_PurchaseOrderNetAmount.DocumentCurrency` | *Association* |
-| `mm_pur_order_tot_net_amount )` | `cast((_PurchaseOrderNetAmount.PurchaseOrderNetAmount)` |
-| `_SupplierConfirmation.SuplrConfRefPurchaseOrder                                        as PurchaseOrder` | *Association* |
-| `mm_oa_user_fullname )` | `cast(_User.UserDescription` |
-| `_SupplierConfirmation.Supplier` | *Association* |
-| `_Supplier.SupplierName` | *Association* |
-| `_SupplierConfirmation.PurchasingDocumentType` | *Association* |
-| `_SupplierConfirmation.CreationDate` | *Association* |
-| `_PurDocType._Text[1:Language=$session.system_language].PurchasingDocumentTypeName` | *Association* |
-| `_Workflowtask._WorkflowTaskResult._WorkflowTaskResultReason._WorkflowTaskResultReasonText[1:Language=$session.system_language].WorkflowTaskResultReasonText` | *Association* |
-| `case _WorkitemDet.WorkflowTaskType` | `case _WorkitemDet.WorkflowTaskType` |
-| `when 'W' then case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` | `when 'W' then case _Workflowtask._WorkflowTaskResult.WorkflowTaskResult` |
-| `when 'SupplierConfirmationApproved' then 'Approved'` | `when 'SupplierConfirmationApproved' then 'Approved'` |
-| `when 'SupplierConfirmationRejected' then 'Rejected'` | `when 'SupplierConfirmationRejected' then 'Rejected'` |
-| `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` | `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` |
-| `when 'B' then 'Automatically Approved'` | `when 'B' then 'Automatically Approved'` |
-| `WorkflowTaskResult` | `else _Workflowtask._WorkflowTaskResult.WorkflowTaskResult end` |
-| `case _WorkitemDet.WorkflowTaskType` | `case _WorkitemDet.WorkflowTaskType` |
-| `when 'B' then 'Automatically Approved'` | `when 'B' then 'Automatically Approved'` |
-| `mm_oa_user_fullname )   end` | `else cast(_ApproverUser.UserDescription` |
-| `_WorkitemDet.WorkflowTaskInternalID                                                    as LastStepWorkflowTaskInternalID` | *Association* |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `SupplierConfirmation` | `_SupplierConfirmation.SupplierConfirmation` |
+| `DocumentCurrency` | `_PurchaseOrderNetAmount.DocumentCurrency` |
+| `PurchaseOrderNetAmount` | `cast(…)` |
+| `PurchaseOrder` | `_SupplierConfirmation.SuplrConfRefPurchaseOrder` |
+| `CreatedByUserName` | `cast(_User.UserDescription as mm_oa_user_fullname )` |
+| `Supplier` | `_SupplierConfirmation.Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `PurchasingDocumentType` | `_SupplierConfirmation.PurchasingDocumentType` |
+| `CreationDate` | `_SupplierConfirmation.CreationDate` |
+| `PurchasingDocumentTypeName` | `expr(…)` |
+| `WorkflowTaskResultReasonText` | `expr(…)` |
+| `WorkflowTaskResult` | `case…end` |
+| `ApprovedByUserFullName` | `case…end` |
+| `LastStepWorkflowTaskInternalID` | `_WorkitemDet.WorkflowTaskInternalID` |
 | `_WorkflowTaskResultComment` | *Association* |
 
 ## Associations

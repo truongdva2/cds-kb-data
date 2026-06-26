@@ -31,17 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLabelFieldVersionID` | `ProdCmplncLabelFieldVersionID` |
-| `key Language` | `Language` |
+| `ProdCmplncLabelFieldVersionID` | `ProdCmplncLabelFieldVersionID` |
+| `Language` | `Language` |
 | `ProdCmplncLabelFieldName` | `ProdCmplncLabelFieldName` |
 | `ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_LabelFieldGroup : redirected to I_ProdCmplncLabelFldGroupTP_2` | *Association* |
-| `_LabelFieldVersion :redirected to parent I_ProdCmplncLblFldVersionTP_2` | *Association* |
 
 ## Associations
 

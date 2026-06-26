@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `recdvdmmonthfrom )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REFrequencyStart` | `cast( dd07t.domvalue_l as recdvdmmonthfrom )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `REFrequencyStartName` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_REFrequencyStart` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REFrequencyStart` | `I_REFrequencyStart` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

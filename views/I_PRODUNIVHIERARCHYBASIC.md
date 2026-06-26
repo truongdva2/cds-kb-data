@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prod_hier_id )` | `cast(substring( hryid, 6, 26 )` |
-| `prodhierarchyvalidityenddate preserving type )` | `cast(hryvalto` |
-| `prodhierarchyvaliditystartdate preserving type )` | `cast(hryvalfrom` |
+| `ProdUnivHierarchy` | `cast(substring( hryid, 6, 26 ) as prod_hier_id )` |
+| `ProdHierarchyValidityEndDate` | `cast(hryvalto as prodhierarchyvalidityenddate preserving type )` |
+| `ProdHierarchyValidityStartDate` | `cast(hryvalfrom as prodhierarchyvaliditystartdate preserving type )` |
 | `LastChangedByUser` | `upduser` |
 | `ProdUnivHierLastChangeDateTime` | `updtime` |
 | `HierarchyType` | `hrytyp` |

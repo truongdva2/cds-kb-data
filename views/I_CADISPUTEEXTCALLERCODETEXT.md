@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `calld_kk preserving type )` | `cast( left( dd07t.domvalue_l, 3 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `calld_text_kk preserving type )` | `cast( ddtext` |
+| `CADisputeExternalCallerCode` | `cast( left( dd07t.domvalue_l, 3 ) as calld_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADisputeExtCallerCodeText` | `cast( ddtext as calld_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

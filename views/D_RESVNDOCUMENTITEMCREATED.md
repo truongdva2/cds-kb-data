@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReservationItem : rspos;` | `ReservationItem : rspos;` |
-| `RecordType: rsart;` | `RecordType: rsart;` |
+| `ReservationItem` | `rspos` |
+| `RecordType` | `rsart` |
 
 ## Associations
 

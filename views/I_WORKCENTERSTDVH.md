@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkCenterInternalID` | `WorkCenterInternalID` |
-| `key WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
 | `_Text` | *Association* |
 | `Plant` | `Plant` |
 | `WorkCenter` | `WorkCenter` |

@@ -32,9 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true` | `text: true` |
-| `name.fullName: true` | `name.fullName: true` |
-| `}` | `}` |
+| `SalesQuotation` | `cast(SalesDocument as sales_quotation preserving type)` |
+| `PartnerFunction` | `PartnerFunction` |
+| `Customer` | `Customer` |
+| `Supplier` | `Supplier` |
+| `Personnel` | `Personnel` |
+| `AddressID` | `AddressID` |
+| `ContactPerson` | `ContactPerson` |
+| `Partner` | `Partner` |
 | `FullName` | `FullName` |
 | `AddressPersonID` | `AddressPersonID` |
 | `AddressObjectType` | `AddressObjectType` |
@@ -64,7 +69,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesQuotation` | `I_SalesQuotation` | [1..1] |
 
 ## Source Code
 

@@ -33,15 +33,15 @@ tags:
 |---|---|
 | `BR_NotaFiscal` | `j_1bnfe_export.docnum` |
 | `BR_NotaFiscalItem` | `j_1bnfe_export.itmnum` |
-| `logbr_nfe_expseq preserving type)` | `cast(j_1bnfe_export.exp_seq` |
-| `_BR_NFItemBaseUnit.BaseUnit                                           as BaseUnit` | *Association* |
+| `BR_NFItemExprtSqncNumber` | `cast(j_1bnfe_export.exp_seq as logbr_nfe_expseq preserving type)` |
+| `BaseUnit` | `_BR_NFItemBaseUnit.BaseUnit` |
 | `_BR_NotaFiscalItem` | *Association* |
 | `_BaseUnit` | *Association* |
-| `logbr_nfe_nre preserving type)` | `cast(j_1bnfe_export.nre` |
-| `logbr_nfe_chnfe preserving type)` | `cast(j_1bnfe_export.chnfe` |
-| `logbr_nfe_qexport preserving type)` | `cast(j_1bnfe_export.qexport` |
-| `j_1bnfe_exp_draw_back)` | `cast(''` |
-| `logbr_nfe_exp_draw_back preserving type)` | `cast(j_1bnfe_export.ndraw` |
+| `BR_NFItemExprtRegNumber` | `cast(j_1bnfe_export.nre as logbr_nfe_nre preserving type)` |
+| `BR_NFItemExprtNFeAccessKey` | `cast(j_1bnfe_export.chnfe as logbr_nfe_chnfe preserving type)` |
+| `BR_NFItemExportRealQty` | `cast(j_1bnfe_export.qexport as logbr_nfe_qexport preserving type)` |
+| `BR_NFItmExprtDrwbkConcession` | `cast('' as j_1bnfe_exp_draw_back)` |
+| `BR_NFExportDrawbackConcession` | `cast(j_1bnfe_export.ndraw as logbr_nfe_exp_draw_back preserving type)` |
 
 ## Associations
 

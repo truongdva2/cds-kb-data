@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'ChartOfAccountsName' }` | `status: #DEPRECATED, successor: 'ChartOfAccountsName' }` |
-| `fincs_description_text_50 preserving type )` | `cast( _Source.ChartOfAccountsName` |
-| `fincs_chartofaccountsname preserving type )` | `cast( _Source.ChartOfAccountsName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `ChartOfAccounts` | `cast( _Source.ChartOfAccounts as fincs_chartofaccounts preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.ChartOfAccountsName as fincs_description_text_50 preserving type )` |
+| `ChartOfAccountsName` | `cast( _Source.ChartOfAccountsName as fincs_chartofaccountsname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 

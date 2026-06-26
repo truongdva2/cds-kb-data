@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CnsldtnSubassignment` | `CnsldtnSubassignment` |
-| `fincs_description_text_40 preserving type )` | `cast(_SubAssignment._Text[1: Language=$session.system_language].CnsldtnSubassignmentText` |
+| `CnsldtnSubassignment` | `CnsldtnSubassignment` |
+| `CnsldtnSubassignmentText` | `cast(…)` |
 
 ## Associations
 

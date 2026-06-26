@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ContractAccount` | `ContractAccount` |
+| `ContractAccount` | `ContractAccount` |
 | `ContractAccountForEdit` | `ContractAccountForEdit` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
@@ -47,9 +47,6 @@ tags:
 | `PlannedChangeValidityDate` | `PlannedChangeValidityDate` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ContractAccountPartner: redirected to composition child I_ContractAccountPartnerTP` | *Association* |
-| `_ContractAccountTaxExemption: redirected to composition child I_ContrAcctTaxExemptionTP` | *Association* |
 | `_ContractAccountChangeDocument` | *Association* |
 | `_CreatedByContactCard` | *Association* |
 | `_LastChangedByContactCard` | *Association* |

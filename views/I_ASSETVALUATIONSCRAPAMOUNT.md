@@ -57,7 +57,6 @@ tags:
 | `FreeDefinedCurrency7` | `FreeDefinedCurrency7` |
 | `ScrapAmountInFreeDefinedCrcy8` | `ScrapAmountInFreeDefinedCrcy8` |
 | `FreeDefinedCurrency8` | `FreeDefinedCurrency8` |
-| `/* Associations */` | `/* Associations */` |
 | `_CompanyCode` | *Association* |
 | `_MasterFixedAsset` | *Association* |
 | `_FixedAsset` | *Association* |

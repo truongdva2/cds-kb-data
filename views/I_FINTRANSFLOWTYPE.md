@@ -33,8 +33,7 @@ tags:
 | `TreasuryContractType` | `FlowType.rantyp` |
 | `FinTransFlowType` | `FlowType.sbewart` |
 | `CashFlowCalculationCategory` | `FlowType.sberfima` |
-| `ftr_flow_category preserving type )` | `cast( FlowTypeSupplement.sbktyp` |
-| `as FinTransFlowCategory` | `as FinTransFlowCategory` |
+| `FinTransFlowCategory` | `cast( FlowTypeSupplement.sbktyp as ftr_flow_category preserving type )` |
 | `TransFlowTypeIsRelevantForFee` | `FlowTypeSupplement.sfee` |
 | `_Text` | *Association* |
 | `_TreasuryContractType` | *Association* |

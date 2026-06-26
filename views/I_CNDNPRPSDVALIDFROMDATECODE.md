@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dtvob )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgCndnPrpsdValidFromDateCode` | `cast ( substring( domvalue_l, 1, 1 ) as dtvob )` |
 | `_Text` | *Association* |
 
 ## Associations

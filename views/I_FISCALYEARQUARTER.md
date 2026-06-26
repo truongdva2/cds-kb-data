@@ -30,22 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_FiscalYearQuarter.FiscalYearVariant` | `P_FiscalYearQuarter.FiscalYearVariant` |
-| `key P_FiscalYearQuarter.FiscalYear` | `P_FiscalYearQuarter.FiscalYear` |
-| `key P_FiscalYearQuarter.FiscalQuarter` | `P_FiscalYearQuarter.FiscalQuarter` |
-| `P_FiscalYearQuarter.FiscalYearStartDate` | `P_FiscalYearQuarter.FiscalYearStartDate` |
-| `P_FiscalYearQuarter.FiscalYearEndDate` | `P_FiscalYearQuarter.FiscalYearEndDate` |
-| `P_FiscalYearQuarter.FiscalYearQuarter` | `P_FiscalYearQuarter.FiscalYearQuarter` |
-| `P_FiscalYearQuarter.FiscalQuarterStartDate` | `P_FiscalYearQuarter.FiscalQuarterStartDate` |
-| `P_FiscalYearQuarter.FiscalQuarterEndDate` | `P_FiscalYearQuarter.FiscalQuarterEndDate` |
-| `P_FiscalYearQuarter.FiscalQuarterConsecutiveNumber` | `P_FiscalYearQuarter.FiscalQuarterConsecutiveNumber` |
-| `fins_next_fiscalquarter preserving type )` | `cast( P_FiscalYearQuarter.NextFiscalQuarter` |
-| `abap.numc(4) )` | `cast( cast( substring(P_FiscalYearQuarter.NextFiscalYearQuarter,1,4)` |
-| `fins_next_fyearquarter preserving type )` | `cast( P_FiscalYearQuarter.NextFiscalYearQuarter` |
-| `fins_next_fquarter_startdate preserving type )` | `cast( P_FiscalYearQuarter.NextFiscalQuarterStartDate` |
-| `fins_next_fquarter_enddate preserving type )` | `cast( P_FiscalYearQuarter.NextFiscalQuarterEndDate` |
-| `fins_next_fyearquarter_i preserving type )` | `cast( P_FiscalYearQuarter.NextFsclQuarterConsecutiveNmbr` |
-| `P_FiscalYearQuarter._FiscalYearVariant` | `P_FiscalYearQuarter._FiscalYearVariant` |
+| `FiscalYearVariant` | `P_FiscalYearQuarter.FiscalYearVariant` |
+| `FiscalYear` | `P_FiscalYearQuarter.FiscalYear` |
+| `FiscalQuarter` | `P_FiscalYearQuarter.FiscalQuarter` |
+| `FiscalYearStartDate` | `P_FiscalYearQuarter.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `P_FiscalYearQuarter.FiscalYearEndDate` |
+| `FiscalYearQuarter` | `P_FiscalYearQuarter.FiscalYearQuarter` |
+| `FiscalQuarterStartDate` | `P_FiscalYearQuarter.FiscalQuarterStartDate` |
+| `FiscalQuarterEndDate` | `P_FiscalYearQuarter.FiscalQuarterEndDate` |
+| `FiscalQuarterConsecutiveNumber` | `P_FiscalYearQuarter.FiscalQuarterConsecutiveNumber` |
+| `NextFiscalQuarter` | `cast(…)` |
+| `NextFiscalYear` | `cast(…)` |
+| `NextFiscalYearQuarter` | `cast(…)` |
+| `NextFiscalQuarterStartDate` | `cast(…)` |
+| `NextFiscalQuarterEndDate` | `cast(…)` |
+| `NextFsclQuarterConsecutiveNmbr` | `cast(…)` |
+| `_FiscalYearVariant` | *Association* |
 | `_FiscalYear` | *Association* |
 
 ## Associations

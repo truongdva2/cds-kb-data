@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bstat_grp )` | `cast( dd07t.domvalue_l` |
-| `spras )` | `cast( dd07t.ddlanguage` |
-| `fis_bstat_grp_name)` | `cast(dd07t.ddtext` |
+| `AccountingDocumentCatGroup` | `cast( dd07t.domvalue_l as fis_bstat_grp )` |
+| `Language` | `cast( dd07t.ddlanguage as spras )` |
+| `AccountingDocumentCatGroupName` | `cast(dd07t.ddtext as fis_bstat_grp_name)` |
 | `_Language` | *Association* |
 
 ## Associations

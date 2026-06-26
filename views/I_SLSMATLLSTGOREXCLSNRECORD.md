@@ -62,14 +62,14 @@ tags:
 | `PayerParty` | `sdmd_lstg_exclsn.knrze` |
 | `SalesEmployee` | `sdmd_lstg_exclsn.vrtnr` |
 | `ForwardingAgent` | `sdmd_lstg_exclsn.spdnr` |
-| `productnumber preserving type)` | `cast (sdmd_lstg_exclsn.matnr` |
-| `productgroup preserving type)` | `cast (sdmd_lstg_exclsn.matkl` |
+| `Product` | `cast (sdmd_lstg_exclsn.matnr as productnumber preserving type)` |
+| `ProductGroup` | `cast (sdmd_lstg_exclsn.matkl as productgroup preserving type)` |
 | `AdditionalMaterialGroup1` | `sdmd_lstg_exclsn.mvgr1` |
 | `AdditionalMaterialGroup2` | `sdmd_lstg_exclsn.mvgr2` |
 | `AdditionalMaterialGroup3` | `sdmd_lstg_exclsn.mvgr3` |
 | `AdditionalMaterialGroup4` | `sdmd_lstg_exclsn.mvgr4` |
 | `AdditionalMaterialGroup5` | `sdmd_lstg_exclsn.mvgr5` |
-| `producttype preserving type )` | `cast (sdmd_lstg_exclsn.mtart` |
+| `ProductType` | `cast (sdmd_lstg_exclsn.mtart as producttype preserving type )` |
 | `MaterialPricingGroup` | `sdmd_lstg_exclsn.kondm` |
 | `OriginallyRequestedMaterial` | `sdmd_lstg_exclsn.matwa` |
 | `PricingReferenceMaterial` | `sdmd_lstg_exclsn.pmatn` |

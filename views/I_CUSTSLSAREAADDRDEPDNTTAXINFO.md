@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Customer, -- Customer Number` | `knvi_addr.kunnr` |
-| `SalesOrganization, -- Sales Organization` | `SalesAreaTax.SalesOrganization` |
-| `DistributionChannel, -- Distribution Channel` | `SalesAreaTax.DistributionChannel` |
-| `Division,  -- Division` | `SalesAreaTax.Division` |
-| `AddressID, -- Address number` | `knvi_addr.adrnr` |
-| `DepartureCountry, -- Departure Country` | `knvi_addr.aland` |
-| `CustomerTaxCategory, -- Tax Category` | `knvi_addr.tatyp` |
-| `CustomerTaxClassification, -- Tax Classification` | `knvi_addr.taxkd` |
-| `_CustomerSalesArea` | *Association* |
+| `Customer` | `knvi_addr.kunnr` |
+| `SalesOrganization` | `-- Customer Number key SalesAreaTax.SalesOrganization` |
+| `DistributionChannel` | `-- Sales Organization key SalesAreaTax.DistributionChannel` |
+| `Division` | `-- Distribution Channel key SalesAreaTax.Division` |
+| `AddressID` | `-- Division key knvi_addr.adrnr` |
+| `DepartureCountry` | `-- Address number key knvi_addr.aland` |
+| `CustomerTaxCategory` | `-- Departure Country key knvi_addr.tatyp` |
+| `CustomerTaxClassification` | `-- Tax Category knvi_addr.taxkd` |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |
 | `_Division` | *Association* |

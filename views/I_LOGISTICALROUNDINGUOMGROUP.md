@@ -36,7 +36,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_LogisticalRoundingUoMGrpUoM` | `I_LogisticalRoundingUoMGrpUoM` | [1..*] |
 
 ## Source Code
 

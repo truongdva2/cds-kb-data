@@ -31,7 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'OneStopShopTaxReportingCountry' }` | `releaseState: #DEPRECATED, successor: 'OneStopShopTaxReportingCountry' }` |
+| `TaxCalculationProcedure` | `kalsm` |
+| `TaxCode` | `cast(mwskz as fis_mwskz preserving type)` |
+| `TaxType` | `mwart` |
+| `TargetTaxCode` | `cast(zmwsk as farp_dzmwsk preserving type)` |
+| `EUTaxClassification` | `egrkz` |
+| `IsSalesTaxes` | `xslta` |
+| `TaxCategory` | `cast(txind as smwsk)` |
+| `UnitedStatesTaxCategory` | `cast(txind as txind_007a preserving type)` |
+| `TaxReturnCountry` | `lstml` |
+| `TaxTolerancePercent` | `cast(tolerance as fot_tax_tolerance preserving type)` |
+| `EUAcqnInputTaxCode` | `zmwsk_ese` |
+| `EUAcqnOutputTaxCode` | `zmwsk_esa` |
+| `TaxCodeIsInactive` | `xinact` |
 | `MiniOneStopShopTxRptgCntry` | `mossc` |
 | `OneStopShopTaxReportingCountry` | `mossc` |
 | `OneStopShopScheme` | `oss_classification` |

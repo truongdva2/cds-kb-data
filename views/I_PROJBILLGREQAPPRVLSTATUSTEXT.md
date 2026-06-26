@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `pbr_apprvl_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjBillgReqApprovalStatus` | `cast( substring( domvalue_l, 1, 1 ) as pbr_apprvl_status preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `ProjBillgReqApprovalStatusText` | `ddtext` |
 | `_ProjBillgReqApprovalStatus` | *Association* |
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjBillgReqApprovalStatus` | `I_ProjBillgReqApprovalStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

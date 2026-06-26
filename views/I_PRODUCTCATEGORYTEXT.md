@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `articlecategorytext preserving type )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `ProductCategory` | `cast ( domvalue_l as articlecategory )` |
+| `Name` | `cast ( ddtext as articlecategorytext preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations
@@ -45,7 +43,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
-| `_ProductCategory` | `I_ProductCategory` | [0..1] |
 
 ## Source Code
 

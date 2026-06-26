@@ -32,12 +32,7 @@ tags:
 |---|---|
 | `ServiceDocItemCategory` | `itm_type` |
 | `ItemIsBillingRelevant` | `billing_relevant` |
-| `case is_quotation` | `case is_quotation` |
-| `when '0' then ' '` | `when '0' then ' '` |
-| `when '2' then 'X'` | `when '2' then 'X'` |
-| `when '3' then ' '` | `when '3' then ' '` |
-| `else ' '` | `else ' '` |
-| `SrvcDocItemCategoryIsQuotation` | `end` |
+| `SrvcDocItemCategoryIsQuotation` | `case…end` |
 | `SrvcDocQuotationItemIsCopied` | `copy_quote` |
 | `_ServiceDocItemCategory` | *Association* |
 

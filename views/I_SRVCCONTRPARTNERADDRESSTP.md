@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceContract` | `ServiceContract` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceContract` | `ServiceContract` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CityName` | `CityName` |
 | `Country` | `Country` |
 | `EmailAddress` | `EmailAddress` |
@@ -54,9 +54,6 @@ tags:
 | `Region` | `Region` |
 | `StreetName` | `StreetName` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
-| `/* Associations */` | `/* Associations */` |
-| `_SrvcContrPartnerTP : redirected to parent I_SrvcContrPartnerTP` | *Association* |
-| `_ServiceContractTP  : redirected to I_ServiceContractTP` | *Association* |
 
 ## Associations
 

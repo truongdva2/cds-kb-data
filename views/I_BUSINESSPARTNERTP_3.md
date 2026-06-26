@@ -34,8 +34,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_AcademicTitleValueHelp'` | `foreignKey.association: '_AcademicTitleValueHelp'` |
-| `}` | `}` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BusinessPartnerUUID` | `BusinessPartnerUUID` |
+| `FullName` | `FullName` |
+| `BusinessPartnerForEdit` | `BusinessPartnerForEdit` |
+| `BusinessPartnerGrouping` | `BusinessPartnerGrouping` |
+| `BusinessPartnerCategory` | `BusinessPartnerCategory` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeTime` | `LastChangeTime` |
+| `FormOfAddress` | `FormOfAddress` |
+| `FormOfAddressPerson` | `FormOfAddressPerson` |
+| `FirstName` | `FirstName` |
+| `LastName` | `LastName` |
+| `AdditionalLastName` | `AdditionalLastName` |
+| `BusinessPartnerBirthName` | `BusinessPartnerBirthName` |
+| `MiddleName` | `MiddleName` |
 | `AcademicTitle` | `AcademicTitle` |
 | `AcademicTitle2` | `AcademicTitle2` |
 | `BusinessPartnerSupplementName` | `BusinessPartnerSupplementName` |
@@ -44,7 +61,7 @@ tags:
 | `PersonFullName` | `PersonFullName` |
 | `BusinessPartnerNicknameLabel` | `BusinessPartnerNicknameLabel` |
 | `Initials` | `Initials` |
-| `boole_d preserving type )` | `cast( IsNaturalPerson` |
+| `IsNaturalPerson` | `cast( IsNaturalPerson as boole_d preserving type )` |
 | `Language` | `Language` |
 | `CorrespondenceLanguage` | `CorrespondenceLanguage` |
 | `BirthDate` | `BirthDate` |
@@ -63,7 +80,6 @@ tags:
 | `NonResidentCompanyOriginCntry` | `NonResidentCompanyOriginCntry` |
 | `NaturalPersonEmployerName` | `NaturalPersonEmployerName` |
 | `BusinessPartnerSalutation` | `BusinessPartnerSalutation` |
-| `/* Organization Data */` | `/* Organization Data */` |
 | `FormOfAddressOrganization` | `FormOfAddressOrganization` |
 | `OrganizationBPName1` | `OrganizationBPName1` |
 | `OrganizationBPName2` | `OrganizationBPName2` |
@@ -77,7 +93,6 @@ tags:
 | `InternationalLocationNumber2` | `InternationalLocationNumber2` |
 | `InternationalLocationNumber3` | `InternationalLocationNumber3` |
 | `ETag` | `ETag` |
-| `/* Group Data */` | `/* Group Data */` |
 | `FormOfAddressGroup` | `FormOfAddressGroup` |
 | `GroupBusinessPartnerName1` | `GroupBusinessPartnerName1` |
 | `GroupBusinessPartnerName2` | `GroupBusinessPartnerName2` |
@@ -124,18 +139,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `_BusinessPartnerAddress        : redirected to composition child I_BusinessPartnerAddressTP_3` | *Association* |
-| `_BusinessPartnerRole           : redirected to composition child I_BusinessPartnerRoleTP_3` | *Association* |
-| `_BusinessPartnerTaxNumber      : redirected to composition child I_BusinessPartnerTaxNumberTP_3` | *Association* |
-| `_BusinessPartnerIdentification : redirected to composition child I_BusPartIdentificationTP_3` | *Association* |
-| `_BusinessPartnerIndustry       : redirected to composition child I_BusinessPartnerIndustryTP_3` | *Association* |
-| `_BusinessPartnerBank           : redirected to composition child I_BusinessPartnerBankTP_3` | *Association* |
-| `_BPAddrIndependentPhone        : redirected to composition child I_BPAddrIndependentPhoneTP_3` | *Association* |
-| `_BPAddrIndependentMobile       : redirected to composition child I_BPAddrIndependentMobileTP_3` | *Association* |
-| `_BPAddrIndependentEmail        : redirected to composition child I_BPAddrIndependentEmailTP_3` | *Association* |
-| `_BPAddIndependentWebsite       : redirected to composition child I_BPAddIndependentWebsiteTP_2` | *Association* |
-| `_BPAddIndependentFax           : redirected to composition child I_BPAddIndependentFaxTP_2` | *Association* |
-| `_BPDataController              : redirected to composition child I_BPDataControllerTP_3` | *Association* |
 
 ## Associations
 

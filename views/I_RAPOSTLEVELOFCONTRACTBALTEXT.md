@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `RAPostLevelOfContractBalance` | `cast(dd07t.domvalue_l as farr_liability_post_mode)` |
 | `PostLevelOfContractBalanceText` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAPostLevelOfContractBalance` | *Association* |
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAPostLevelOfContractBalance` | `I_RAPostLevelOfContractBalance` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recnntparty)` | `cast(domvalue_l` |
+| `REContractNoticeParty` | `cast(domvalue_l as recnntparty)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REContractNoticePartyText` | [0..*] |
 
 ## Source Code
 

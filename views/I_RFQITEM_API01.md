@@ -32,28 +32,27 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RequestForQuotation` | `I_PurchasingDocumentItem.PurchasingDocument` |
-| `vdm_requestforquotationitem preserving type)` | `cast (I_PurchasingDocumentItem.PurchasingDocumentItem` |
-| `I_PurchasingDocumentItem.PurchasingDocumentCategory` | `I_PurchasingDocumentItem.PurchasingDocumentCategory` |
-| `I_PurchasingDocumentItem.PurchasingDocumentItemText` | `I_PurchasingDocumentItem.PurchasingDocumentItemText` |
-| `I_PurchasingDocumentItem.Material` | `I_PurchasingDocumentItem.Material` |
-| `I_PurchasingDocumentItem.ManufacturerMaterial` | `I_PurchasingDocumentItem.ManufacturerMaterial` |
-| `I_PurchasingDocumentItem.ManufacturerPartNmbr` | `I_PurchasingDocumentItem.ManufacturerPartNmbr` |
-| `I_PurchasingDocumentItem.Manufacturer` | `I_PurchasingDocumentItem.Manufacturer` |
-| `I_PurchasingDocumentItem.MaterialGroup` | `I_PurchasingDocumentItem.MaterialGroup` |
-| `I_PurchasingDocumentItem.Plant` | `I_PurchasingDocumentItem.Plant` |
-| `I_PurchasingDocumentItem.ManualDeliveryAddressID` | `I_PurchasingDocumentItem.ManualDeliveryAddressID` |
-| `I_PurchasingDocumentItem.ReferenceDeliveryAddressID` | `I_PurchasingDocumentItem.ReferenceDeliveryAddressID` |
-| `I_PurchasingDocumentItem.IncotermsClassification` | `I_PurchasingDocumentItem.IncotermsClassification` |
-| `I_PurchasingDocumentItem.IncotermsTransferLocation` | `I_PurchasingDocumentItem.IncotermsTransferLocation` |
-| `I_PurchasingDocumentItem.IncotermsLocation1` | `I_PurchasingDocumentItem.IncotermsLocation1` |
-| `I_PurchasingDocumentItem.IncotermsLocation2` | `I_PurchasingDocumentItem.IncotermsLocation2` |
-| `I_PurchasingDocumentItem.OrderQuantityUnit` | `I_PurchasingDocumentItem.OrderQuantityUnit` |
-| `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyNmrtr` | `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyNmrtr` |
-| `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyDnmntr` | `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyDnmntr` |
-| `I_PurchasingDocumentItem.BaseUnit` | `I_PurchasingDocumentItem.BaseUnit` |
-| `I_PurchasingDocumentItem.PurchaseRequisition` | `I_PurchasingDocumentItem.PurchaseRequisition` |
-| `I_PurchasingDocumentItem.PurchaseRequisitionItem` | `I_PurchasingDocumentItem.PurchaseRequisitionItem` |
-| `/*Associations*/` | `/*Associations*/` |
+| `RequestForQuotationItem` | `cast(…)` |
+| `PurchasingDocumentCategory` | `I_PurchasingDocumentItem.PurchasingDocumentCategory` |
+| `PurchasingDocumentItemText` | `I_PurchasingDocumentItem.PurchasingDocumentItemText` |
+| `Material` | `I_PurchasingDocumentItem.Material` |
+| `ManufacturerMaterial` | `I_PurchasingDocumentItem.ManufacturerMaterial` |
+| `ManufacturerPartNmbr` | `I_PurchasingDocumentItem.ManufacturerPartNmbr` |
+| `Manufacturer` | `I_PurchasingDocumentItem.Manufacturer` |
+| `MaterialGroup` | `I_PurchasingDocumentItem.MaterialGroup` |
+| `Plant` | `I_PurchasingDocumentItem.Plant` |
+| `ManualDeliveryAddressID` | `I_PurchasingDocumentItem.ManualDeliveryAddressID` |
+| `ReferenceDeliveryAddressID` | `I_PurchasingDocumentItem.ReferenceDeliveryAddressID` |
+| `IncotermsClassification` | `I_PurchasingDocumentItem.IncotermsClassification` |
+| `IncotermsTransferLocation` | `I_PurchasingDocumentItem.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `I_PurchasingDocumentItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `I_PurchasingDocumentItem.IncotermsLocation2` |
+| `OrderQuantityUnit` | `I_PurchasingDocumentItem.OrderQuantityUnit` |
+| `OrderItemQtyToBaseQtyNmrtr` | `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyNmrtr` |
+| `OrderItemQtyToBaseQtyDnmntr` | `I_PurchasingDocumentItem.OrderItemQtyToBaseQtyDnmntr` |
+| `BaseUnit` | `I_PurchasingDocumentItem.BaseUnit` |
+| `PurchaseRequisition` | `I_PurchasingDocumentItem.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `I_PurchasingDocumentItem.PurchaseRequisitionItem` |
 | `_RequestForQuotation` | *Association* |
 
 ## Associations

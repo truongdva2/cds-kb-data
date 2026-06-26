@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key seq.OrderInternalID` | `seq.OrderInternalID` |
-| `key seq.SequenceInternalID` | `seq.SequenceInternalID` |
-| `pph_longtextlang preserving type)` | `cast(seq.Language` |
-| `manufacturingorder preserving type)` | `cast(seq.OrderID` |
-| `manufacturingordersequence preserving type)` | `cast(seq.Sequence` |
+| `OrderInternalID` | `seq.OrderInternalID` |
+| `SequenceInternalID` | `seq.SequenceInternalID` |
+| `LongTextLanguage` | `cast(seq.Language as pph_longtextlang preserving type)` |
+| `ManufacturingOrder` | `cast(seq.OrderID as manufacturingorder preserving type)` |
+| `ManufacturingOrderSequence` | `cast(seq.Sequence as manufacturingordersequence preserving type)` |
 | `MfgOrderSequenceText` | `seq.SequenceText` |
-| `text.OrderSequenceLongText` | `text.OrderSequenceLongText` |
+| `OrderSequenceLongText` | `text.OrderSequenceLongText` |
 | `_MfgOrder` | *Association* |
 | `_MfgOrderSequence` | *Association* |
 | `_LongTextLanguage` | *Association* |

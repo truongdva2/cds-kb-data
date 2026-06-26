@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SustainabilityModeOfTransport` | `SustainabilityModeOfTransport` |
+| `SustainabilityModeOfTransport` | `SustainabilityModeOfTransport` |
 | `_Text` | *Association* |
 
 ## Associations

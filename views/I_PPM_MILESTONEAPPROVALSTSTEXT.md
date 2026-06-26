@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `/s4ppm/tv_mlstn_apprvl_status )` | `cast ( substring( domvalue_l, 1, 5 )` |
-| `/s4ppm/tv_mlstn_apprvl_sts_txt )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `MilestoneApprovalStatus` | `cast ( substring( domvalue_l, 1, 5 ) as /s4ppm/tv_mlstn_apprvl_status )` |
+| `MilestoneApprovalStatusText` | `cast ( ddtext as /s4ppm/tv_mlstn_apprvl_sts_txt )` |
 | `_MilestoneApprovalStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MilestoneApprovalStatus` | `I_PPM_MilestoneApprovalStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -30,27 +30,120 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' } } ]` | `name: 'I_ProductStdVH', element: 'Product' } } ]` |
-| `pph_nomat preserving type)` | `cast(resb.nomat` |
-| `pph_nafkz preserving type)` | `cast(resb.nafkz` |
-| `pph_nafkz preserving type)` | `cast(resb.nafkz` |
-| `cast(case resb.kzaus` | `cast(case resb.kzaus` |
-| `when '5' then resb.splrv` | `when '5' then resb.splrv` |
-| `else '0000'` | `else '0000'` |
-| `vdm_splrv_dis preserving type)` | `end` |
-| `vdm_beikz preserving type)` | `cast(resb.beikz` |
-| `vdm_erskz preserving type)` | `cast(resb.erskz` |
-| `pph_nlfzt preserving type)` | `cast(resb.nlfzt` |
-| `pph_nlfmv preserving type)` | `cast(resb.nlfmv` |
-| `pph_nlfzv preserving type)` | `cast(resb.nlfzv` |
+| `Reservation` | `resb.rsnum` |
+| `ReservationItem` | `cast(resb.rspos as pph_rspos preserving type)` |
+| `RecordType` | `cast(resb.rsart as pph_rsart preserving type)` |
+| `PlannedOrder` | `plaf.PlannedOrder` |
+| `PlannedOrderType` | `plaf.PlannedOrderType` |
+| `MatlCompRequirementDate` | `cast(resb.bdter as pph_bdter preserving type)` |
+| `MatlCompRequirementTime` | `cast(resb.bdztp as pph_bdztp preserving type)` |
+| `ReservationIsFinallyIssued` | `resb.kzear` |
+| `MatlCompIsMarkedForDeletion` | `cast(resb.xloek as pph_xloek preserving type)` |
+| `MaterialComponentIsMissing` | `resb.xfehl` |
+| `IsBulkMaterialComponent` | `resb.schgt` |
+| `MatlCompIsMarkedForBackflush` | `resb.rgekz` |
+| `MatlCompIsTextItem` | `resb.txtps` |
+| `MatlCompIsConfigurable` | `resb.kfpos` |
+| `RequirementType` | `cast(resb.bdart as pph_bdart preserving type)` |
+| `MaterialGroup` | `resb.matkl` |
+| `Material` | `resb.matnr` |
+| `Plant` | `resb.werks` |
+| `MRPArea` | `plaf.MRPArea` |
+| `MRPController` | `plaf.MRPController` |
+| `ProductionSupervisor` | `plaf.ProductionSupervisor` |
+| `ProductionVersion` | `plaf.ProductionVersion` |
+| `RequirementPlan` | `-- resb.pbdnr` |
+| `SalesOrder` | `cast(resb.kdauf as co_kdauf preserving type)` |
+| `SalesOrderItem` | `cast(resb.kdpos as co_kdpos preserving type)` |
+| `WBSElementInternalID` | `cast(resb.pspel as pph_pspel preserving type)` |
+| `WBSElementInternalID_2` | `cast(resb.pspel as ps_s4_pspnr preserving type)` |
+| `ProductConfiguration` | `resb.cuobj` |
+| `ChangeNumber` | `cast(resb.aennr as changenumber preserving type)` |
+| `SortField` | `resb.sortf` |
+| `MatlCompFreeDefinedAttribute` | `resb.sortf` |
+| `MaterialRevisionLevel` | `cast(resb.revlv as vdm_qm_revlv preserving type)` |
+| `MaterialPlanningRelevance` | `cast(resb.no_disp as vdm_no_disp preserving type)` |
+| `BillOfMaterialCategory` | `cast(resb.stlty as pph_stlty preserving type)` |
+| `BillOfMaterialInternalID` | `resb.stlnr` |
+| `BillOfMaterialInternalID_2` | `cast(resb.stlnr as pph_stnum preserving type)` |
+| `BillOfMaterialVariant` | `resb.stlal` |
+| `BOMItem` | `cast(resb.stlkn as pph_stlkn preserving type)` |
+| `BOMItemInternalChangeCount` | `resb.stpoz` |
+| `BOMItemCategory` | `cast(resb.postp as pph_postp preserving type)` |
+| `BillOfMaterialItemNumber` | `resb.posnr` |
+| `BillOfMaterialItemNumber_2` | `cast(resb.posnr as vdm_sposn preserving type)` |
+| `BOMItemDescription` | `resb.potx1` |
+| `BOMItemText2` | `resb.potx2` |
+| `BOMExplosion` | `cast(resb.sernr as pph_sernr preserving type)` |
+| `PurchasingInfoRecord` | `-- cast(resb.infnr as pph_infnr preserving type)` |
+| `PurchasingGroup` | `cast(resb.ekgrp as pph_ekgrp preserving type)` |
+| `PurchaseRequisition` | `-- cast(resb.banfn as co_banfn preserving type)` |
+| `PurchaseRequisitionItem` | `-- cast(resb.bnfpo as co_bnfpo preserving type)` |
+| `PurchaseOrder` | `-- cast(resb.ebeln as vdm_purchaseorder preserving type)` |
+| `PurchaseOrderItem` | `-- cast(resb.ebelp as vdm_purchaseorderitem preserving type)` |
+| `Supplier` | `resb.lifnr` |
+| `DeliveryDurationInDays` | `cast(resb.lifzt as pph_lifzt preserving type)` |
+| `GoodsMovementIsAllowed` | `resb.xwaok` |
+| `StorageLocation` | `cast(resb.lgort as pph_lgort preserving type)` |
+| `Batch` | `resb.charg` |
+| `DebitCreditCode` | `cast(resb.shkzg as pph_shkzg preserving type)` |
+| `GoodsMovementType` | `resb.bwart` |
+| `InventorySpecialStockType` | `cast(resb.sobkz as inventoryspecialstocktype preserving type)` |
+| `InventorySpecialStockValnType` | `cast(resb.kzbws as pph_kzbws preserving type)` |
+| `ConsumptionPosting` | `cast(resb.kzvbr as pph_kzvbr preserving type)` |
+| `SupplyArea` | `cast(resb.prvbe as pph_prvbe preserving type)` |
+| `MaterialStaging` | `resb.berkz` |
+| `Warehouse` | `resb.lgnum` |
+| `StorageType` | `resb.lgtyp` |
+| `StorageBin` | `resb.lgpla` |
+| `BusinessArea` | `resb.gsber` |
+| `GLAccount` | `resb.saknr` |
+| `AccountAssignmentCategory` | `cast(resb.knttp as pph_knttp preserving type)` |
+| `CommitmentItem` | `cast(resb.fipos as bbpfipos preserving type)` |
+| `CommitmentItemShortID` | `cast(resb.fipos as fmis_ci_internalname preserving type)` |
+| `FundsCenter` | `cast(resb.fistl as bbpfistl preserving type)` |
+| `MaterialCompIsVariableSized` | `resb.rohps` |
+| `NumberOfVariableSizeComponents` | `cast(resb.roanz as vdm_roanz)` |
+| `VariableSizeComponentUnit` | `cast(resb.rokme as pph_rokme preserving type)` |
+| `VariableSizeComponentQuantity` | `cast(resb.romen as pph_romen preserving type)` |
+| `VariableSizeDimensionUnit` | `resb.romei` |
+| `VariableSizeDimension1` | `resb.roms1` |
+| `VariableSizeDimension2` | `resb.roms2` |
+| `VariableSizeDimension3` | `resb.roms3` |
+| `FormulaKey` | `resb.rform` |
+| `MaterialCompIsAlternativeItem` | `resb.alpos` |
+| `AlternativeItemGroup` | `cast(resb.alpgr as pph_alpgr preserving type)` |
+| `AlternativeItemStrategy` | `cast(resb.alpst as pph_alpst preserving type)` |
+| `AlternativeItemPriority` | `cast(resb.alprf as pph_alprf preserving type)` |
+| `UsageProbabilityPercent` | `resb.ewahr` |
+| `AlternativeMstrReservationItem` | `cast(…)` |
+| `MaterialComponentIsPhantomItem` | `cast(resb.dumps as pph_dumps preserving type)` |
+| `OrderPathValue` | `resb.aufwg` |
+| `OrderLevelValue` | `resb.aufst` |
+| `Assembly` | `resb.baugr` |
+| `AssemblyOrderPathValue` | `resb.bauwg` |
+| `AssemblyOrderLevelValue` | `resb.baust` |
+| `DiscontinuationGroup` | `cast(resb.nfeag as pph_nfeag preserving type)` |
+| `MatlCompDiscontinuationType` | `resb.kzaus` |
+| `MatlCompIsFollowUpMaterial` | `cast(resb.nfpkz as pph_kznfp preserving type)` |
+| `FollowUpGroup` | `cast(resb.nfgrp as pph_nfgrp preserving type)` |
+| `FollowUpMaterial` | `cast(resb.nomat as pph_nomat preserving type)` |
+| `FollowUpMaterialIsNotActive` | `cast(resb.nafkz as pph_nafkz preserving type)` |
+| `FollowUpMaterialIsActive` | `cast(resb.nafkz as pph_nafkz preserving type)` |
+| `DiscontinuationMasterResvnItem` | `cast(…)` |
+| `MaterialProvisionType` | `cast(resb.beikz as vdm_beikz preserving type)` |
+| `MatlComponentSparePartType` | `cast(resb.erskz as vdm_erskz preserving type)` |
+| `LeadTimeOffset` | `cast(resb.nlfzt as pph_nlfzt preserving type)` |
+| `OperationLeadTimeOffsetUnit` | `cast(resb.nlfmv as pph_nlfmv preserving type)` |
+| `OperationLeadTimeOffset` | `cast(resb.nlfzv as pph_nlfzv preserving type)` |
 | `QuantityIsFixed` | `resb.fmeng` |
 | `ComponentScrapInPercent` | `resb.ausch` |
-| `BaseUnit` | `resb.meins` |
-| `requirementquantity preserving type)` | `cast(resb.bdmng` |
-| `pph_enmng preserving type)` | `cast(resb.enmng` |
-| `pph_vmeng preserving type)` | `cast(resb.vmeng` |
-| `EntryUnit` | `resb.erfme` |
-| `pph_erfmg preserving type)` | `cast(resb.erfmg` |
+| `BaseUnit` | `-- Base unit resb.meins` |
+| `RequiredQuantity` | `cast(resb.bdmng as requirementquantity preserving type)` |
+| `WithdrawnQuantity` | `cast(resb.enmng as pph_enmng preserving type)` |
+| `ConfirmedAvailableQuantity` | `cast(resb.vmeng as pph_vmeng preserving type)` |
+| `EntryUnit` | `-- Entry unit resb.erfme` |
+| `GoodsMovementEntryQty` | `cast(resb.erfmg as pph_erfmg preserving type)` |
 | `Currency` | `resb.waers` |
 | `WithdrawnQuantityAmount` | `resb.enwrt` |
 | `StockSegment` | `resb.sgt_scat` |

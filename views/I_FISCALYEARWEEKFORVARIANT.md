@@ -30,21 +30,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_FiscalYearWeek.FiscalYearVariant` | `P_FiscalYearWeek.FiscalYearVariant` |
-| `key P_FiscalYearWeek.FiscalYearWeek` | `P_FiscalYearWeek.FiscalYearWeek` |
-| `P_FiscalYearWeek.FiscalYear` | `P_FiscalYearWeek.FiscalYear` |
-| `P_FiscalYearWeek.FiscalYearStartDate` | `P_FiscalYearWeek.FiscalYearStartDate` |
-| `P_FiscalYearWeek.FiscalYearEndDate` | `P_FiscalYearWeek.FiscalYearEndDate` |
-| `P_FiscalYearWeek.FiscalWeek` | `P_FiscalYearWeek.FiscalWeek` |
-| `P_FiscalYearWeek.FiscalWeekStartDate` | `P_FiscalYearWeek.FiscalWeekStartDate` |
-| `P_FiscalYearWeek.FiscalWeekEndDate` | `P_FiscalYearWeek.FiscalWeekEndDate` |
-| `P_FiscalYearWeek.FiscalWeekConsecutiveNumber` | `P_FiscalYearWeek.FiscalWeekConsecutiveNumber` |
-| `P_FiscalYearWeek.NextFiscalYearWeek` | `P_FiscalYearWeek.NextFiscalYearWeek` |
-| `P_FiscalYearWeek.NextFiscalWeek` | `P_FiscalYearWeek.NextFiscalWeek` |
-| `P_FiscalYearWeek.NextFiscalWeekStartDate` | `P_FiscalYearWeek.NextFiscalWeekStartDate` |
-| `P_FiscalYearWeek.NextFiscalWeekEndDate` | `P_FiscalYearWeek.NextFiscalWeekEndDate` |
-| `P_FiscalYearWeek.NextFsclWeekConsecutiveNmbr` | `P_FiscalYearWeek.NextFsclWeekConsecutiveNmbr` |
-| `P_FiscalYearWeek._FiscalYearVariant` | `P_FiscalYearWeek._FiscalYearVariant` |
+| `FiscalYearVariant` | `P_FiscalYearWeek.FiscalYearVariant` |
+| `FiscalYearWeek` | `P_FiscalYearWeek.FiscalYearWeek` |
+| `FiscalYear` | `P_FiscalYearWeek.FiscalYear` |
+| `FiscalYearStartDate` | `P_FiscalYearWeek.FiscalYearStartDate` |
+| `FiscalYearEndDate` | `P_FiscalYearWeek.FiscalYearEndDate` |
+| `FiscalWeek` | `P_FiscalYearWeek.FiscalWeek` |
+| `FiscalWeekStartDate` | `P_FiscalYearWeek.FiscalWeekStartDate` |
+| `FiscalWeekEndDate` | `P_FiscalYearWeek.FiscalWeekEndDate` |
+| `FiscalWeekConsecutiveNumber` | `P_FiscalYearWeek.FiscalWeekConsecutiveNumber` |
+| `NextFiscalYearWeek` | `P_FiscalYearWeek.NextFiscalYearWeek` |
+| `NextFiscalWeek` | `P_FiscalYearWeek.NextFiscalWeek` |
+| `NextFiscalWeekStartDate` | `P_FiscalYearWeek.NextFiscalWeekStartDate` |
+| `NextFiscalWeekEndDate` | `P_FiscalYearWeek.NextFiscalWeekEndDate` |
+| `NextFsclWeekConsecutiveNmbr` | `P_FiscalYearWeek.NextFsclWeekConsecutiveNmbr` |
+| `_FiscalYearVariant` | *Association* |
 | `_FiscalYear` | *Association* |
 
 ## Associations

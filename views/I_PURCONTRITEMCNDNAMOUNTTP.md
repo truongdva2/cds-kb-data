@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseContract` | `PurchaseContract` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
+| `PurchaseContract` | `PurchaseContract` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumberShort` | `ConditionSequentialNumberShort` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -72,10 +72,6 @@ tags:
 | `MaximumConditionAmount` | `MaximumConditionAmount` |
 | `ConditionReleaseStatus` | `ConditionReleaseStatus` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurContrItemCndnValdty          : redirected to parent I_PurContrItemCndnValdtyTP` | *Association* |
-| `_PurContract                     : redirected to I_PurchaseContractTP` | *Association* |
-| `_PurContrItmScales               : redirected to composition child I_PurContrItemCndnScaleTP` | *Association* |
 
 ## Associations
 

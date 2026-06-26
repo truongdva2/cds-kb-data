@@ -33,12 +33,14 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `TimeSheetRejectionReason` | `reason` |
-| `catsrejetext preserving type )` | `cast(text` |
+| `TimeSheetRejectionReasonText` | `cast(text as catsrejetext preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

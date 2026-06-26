@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `loewn preserving type)` | `cast ( right(domvalue_l, 1)` |
+| `KanbanCalcDelInitCtns` | `cast ( right(domvalue_l, 1) as loewn preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

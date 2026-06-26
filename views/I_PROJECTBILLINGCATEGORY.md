@@ -33,13 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prflcat preserving type )` | `cast( substring( domvalue_l, 1, 4 )` |
+| `ProjectBillingCategory` | `cast( substring( domvalue_l, 1, 4 ) as prflcat preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProjectBillingCategoryText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProjectBillingCategoryText` | `I_ProjectBillingCategoryText` | [0..*] |
 
 ## Source Code
 

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `AddressID` | `AddressID` |
 | `AddressPersonID` | `AddressPersonID` |
 | `AddressObjectType` | `AddressObjectType` |
@@ -70,9 +70,6 @@ tags:
 | `StreetSuffixName2` | `StreetSuffixName2` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
 | `TransportZone` | `TransportZone` |
-| `/* associations */` | `/* associations */` |
-| `_BusinessSolutionOrderTP : redirected to I_BusinessSolutionOrderTP` | *Association* |
-| `_BusSolnOrdPartnerTP     : redirected to parent I_BusSolnOrdPartnerTP` | *Association* |
 
 ## Associations
 

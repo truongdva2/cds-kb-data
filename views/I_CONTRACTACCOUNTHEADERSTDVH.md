@@ -33,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `ContractAccount` | `ContractAccount` |
+| `ContractAccountName` | `ContractAccountName` |
 | `ContractAccountCategory` | `ContractAccountCategory` |
 
 ## Associations

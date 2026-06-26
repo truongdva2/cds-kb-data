@@ -35,7 +35,7 @@ tags:
 | `Language` | `_tfk2617t.langu` |
 | `CAApplicationArea` | `_tfk2617t.applk` |
 | `CAInvcgChargeAndDiscountKey` | `_tfk2617t.chgkey` |
-| `_tfk2617t.text   as CAInvcgChrgAndDiscKeyText` | *Association* |
+| `CAInvcgChrgAndDiscKeyText` | `_tfk2617t.text` |
 | `_CAInvcgChrgAndDiscKey` | *Association* |
 | `_ApplArea` | *Association* |
 | `_Language` | *Association* |

@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 10 }]` | `position: 10 }]` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |

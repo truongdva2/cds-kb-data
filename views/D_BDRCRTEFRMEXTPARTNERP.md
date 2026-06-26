@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PartnerFunction               : parvw_unv;` | `PartnerFunction               : parvw_unv;` |
-| `Customer                      : kunnr;` | `Customer                      : kunnr;` |
-| `BusinessPartnerAddressUUID    : bu_address_guid;` | `BusinessPartnerAddressUUID    : bu_address_guid;` |
-| `ContactPerson                 : parnr;` | `ContactPerson                 : parnr;` |
-| `Personnel                     : pernr_d;` | `Personnel                     : pernr_d;` |
-| `Supplier                      : lifnr;` | `Supplier                      : lifnr;` |
+| `PartnerFunction` | `parvw_unv` |
+| `Customer` | `kunnr` |
+| `BusinessPartnerAddressUUID` | `bu_address_guid` |
+| `ContactPerson` | `parnr` |
+| `Personnel` | `pernr_d` |
+| `Supplier` | `lifnr` |
 
 ## Associations
 

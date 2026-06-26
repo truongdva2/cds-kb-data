@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabzus)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pabzus_text preserving type)` | `cast(ddtext` |
+| `JITCallSummarizationStrategy` | `cast(substring(domvalue_l, 1, 1) as pabzus)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `JITCallSummarizationStrgyName` | `cast(ddtext as vdm_pabzus_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_JITCallSummarizationStrategy` | *Association* |
 | `_Language` | *Association* |

@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FinancialServicesProductGroup` | `_Text.FinancialServicesProductGroup` |
-| `_Text.FinServicesProductGroupName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_FinancialServicesProductGroup as _FinancialServicesProductGroup : redirected to parent I_CnsldtnFinSrvcsProdGroupTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FinancialServicesProductGroup` | `_Text.FinancialServicesProductGroup` |
+| `FinServicesProductGroupName` | `_Text.FinServicesProductGroupName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_FinancialServicesProductGroup` | *Association* |
 
 ## Associations
 

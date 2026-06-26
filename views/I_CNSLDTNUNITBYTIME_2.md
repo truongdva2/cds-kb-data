@@ -30,8 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Globalcompany', element: 'Company' } }]` | `name: 'I_Globalcompany', element: 'Company' } }]` |
-| `fincs_company preserving type )` | `cast(Company` |
+| `ConsolidationUnit` | `cast(ConsolidationUnit as fincs_consolidationunit preserving type )` |
+| `FromFiscalYearPeriod` | `cast(FromFiscalYearPeriod as fincs_fromfiscalyearperiod)` |
+| `ToFiscalYearPeriod` | `cast(ToFiscalYearPeriod as fincs_tofiscalyearperiod)` |
+| `ConsolidationUnitLocalCurrency` | `cast(ConsolidationUnitLocalCurrency as fincs_unitlocalcurrency preserving type )` |
+| `Company` | `cast(Company as fincs_company preserving type )` |
 | `_Currency` | *Association* |
 | `_Company` | *Association* |
 

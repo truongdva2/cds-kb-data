@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_rfq_lfst_cd )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `RFQLifecycleStatus` | `cast ( substring( domvalue_l, 1, 2 ) as vdm_rfq_lfst_cd )` |
 | `_Text` | *Association* |
 
 ## Associations

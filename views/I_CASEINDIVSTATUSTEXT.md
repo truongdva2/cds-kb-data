@@ -46,7 +46,6 @@ tags:
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
 | `_CaseStatusProfile` | `I_CaseStatProfile` | [0..1] |
-| `_CaseIndividual` | `I_Caseindstatus` | [0..1] |
 
 ## Source Code
 

@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialServicesBranch` | `_Source.FinancialServicesBranch` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnFinSrvcsBranchTextTP` | *Association* |
+| `FinancialServicesBranch` | `_Source.FinancialServicesBranch` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -34,49 +34,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SalesDocument` |
-| `key    SalesDocumentBillingPlanItem.BillingPlan` | `SalesDocumentBillingPlanItem.BillingPlan` |
-| `key    SalesDocumentBillingPlanItem.BillingPlanItem` | `SalesDocumentBillingPlanItem.BillingPlanItem` |
-| `SalesDocumentBillingPlanItem.BillingPlanBillingDate` | `SalesDocumentBillingPlanItem.BillingPlanBillingDate` |
-| `SalesDocumentBillingPlanItem.BillingPlanServiceStartDate` | `SalesDocumentBillingPlanItem.BillingPlanServiceStartDate` |
-| `SalesDocumentBillingPlanItem.BillingPlanServiceEndDate` | `SalesDocumentBillingPlanItem.BillingPlanServiceEndDate` |
-| `SalesDocumentBillingPlanItem.BillingPlanAmount` | `SalesDocumentBillingPlanItem.BillingPlanAmount` |
-| `SalesDocumentBillingPlanItem.TransactionCurrency` | `SalesDocumentBillingPlanItem.TransactionCurrency` |
-| `SalesDocumentBillingPlanItem.BillingBlockReason` | `SalesDocumentBillingPlanItem.BillingBlockReason` |
-| `SalesDocumentBillingPlanItem.BillingPlanRelatedBillgStatus` | `SalesDocumentBillingPlanItem.BillingPlanRelatedBillgStatus` |
-| `SalesDocumentBillingPlanItem.BillingPlanType` | `SalesDocumentBillingPlanItem.BillingPlanType` |
-| `SalesDocumentBillingPlanItem.BillingPlanDateCategory` | `SalesDocumentBillingPlanItem.BillingPlanDateCategory` |
-| `SalesDocumentBillingPlanItem.CustomerPaymentTerms` | `SalesDocumentBillingPlanItem.CustomerPaymentTerms` |
-| `SalesDocumentBillingPlanItem.ProposedBillingDocumentType` | `SalesDocumentBillingPlanItem.ProposedBillingDocumentType` |
-| `SalesDocumentBillingPlanItem.AdoptingBillingDateID` | `SalesDocumentBillingPlanItem.AdoptingBillingDateID` |
-| `SalesDocumentBillingPlanItem.BillingPlanBillingRule` | `SalesDocumentBillingPlanItem.BillingPlanBillingRule` |
-| `SalesDocumentBillingPlanItem.BillingPlanDateDescriptionCode` | `SalesDocumentBillingPlanItem.BillingPlanDateDescriptionCode` |
-| `SalesDocumentBillingPlanItem.BillingPlanMilestoneUsage` | `SalesDocumentBillingPlanItem.BillingPlanMilestoneUsage` |
-| `SalesDocumentBillingPlanItem.BillingPlanAmountPercent` | `SalesDocumentBillingPlanItem.BillingPlanAmountPercent` |
-| `SalesDocumentBillingPlanItem.BillgPlnDteCorrectionRfndType` | `SalesDocumentBillingPlanItem.BillgPlnDteCorrectionRfndType` |
-| `SalesDocumentBillingPlanItem.AccountingExchangeRate` | `SalesDocumentBillingPlanItem.AccountingExchangeRate` |
-| `SalesDocumentBillingPlanItem.PostponementReason` | `SalesDocumentBillingPlanItem.PostponementReason` |
-| `SalesDocumentBillingPlanItem.BillingPlanItemUsage` | `SalesDocumentBillingPlanItem.BillingPlanItemUsage` |
-| `SalesDocumentBillingPlanItem.BillingPlanItemDescription` | `SalesDocumentBillingPlanItem.BillingPlanItemDescription` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `SalesOrder` | `cast(SalesDocument as vdm_sales_order preserving type)` |
+| `BillingPlan` | `SalesDocumentBillingPlanItem.BillingPlan` |
+| `BillingPlanItem` | `SalesDocumentBillingPlanItem.BillingPlanItem` |
+| `BillingPlanBillingDate` | `SalesDocumentBillingPlanItem.BillingPlanBillingDate` |
+| `BillingPlanServiceStartDate` | `SalesDocumentBillingPlanItem.BillingPlanServiceStartDate` |
+| `BillingPlanServiceEndDate` | `SalesDocumentBillingPlanItem.BillingPlanServiceEndDate` |
+| `BillingPlanAmount` | `SalesDocumentBillingPlanItem.BillingPlanAmount` |
+| `TransactionCurrency` | `SalesDocumentBillingPlanItem.TransactionCurrency` |
+| `BillingBlockReason` | `SalesDocumentBillingPlanItem.BillingBlockReason` |
+| `BillingPlanRelatedBillgStatus` | `SalesDocumentBillingPlanItem.BillingPlanRelatedBillgStatus` |
+| `BillingPlanType` | `SalesDocumentBillingPlanItem.BillingPlanType` |
+| `BillingPlanDateCategory` | `SalesDocumentBillingPlanItem.BillingPlanDateCategory` |
+| `CustomerPaymentTerms` | `SalesDocumentBillingPlanItem.CustomerPaymentTerms` |
+| `ProposedBillingDocumentType` | `SalesDocumentBillingPlanItem.ProposedBillingDocumentType` |
+| `AdoptingBillingDateID` | `SalesDocumentBillingPlanItem.AdoptingBillingDateID` |
+| `BillingPlanBillingRule` | `SalesDocumentBillingPlanItem.BillingPlanBillingRule` |
+| `BillingPlanDateDescriptionCode` | `SalesDocumentBillingPlanItem.BillingPlanDateDescriptionCode` |
+| `BillingPlanMilestoneUsage` | `SalesDocumentBillingPlanItem.BillingPlanMilestoneUsage` |
+| `BillingPlanAmountPercent` | `SalesDocumentBillingPlanItem.BillingPlanAmountPercent` |
+| `BillgPlnDteCorrectionRfndType` | `SalesDocumentBillingPlanItem.BillgPlnDteCorrectionRfndType` |
+| `AccountingExchangeRate` | `SalesDocumentBillingPlanItem.AccountingExchangeRate` |
+| `PostponementReason` | `SalesDocumentBillingPlanItem.PostponementReason` |
+| `BillingPlanItemUsage` | `SalesDocumentBillingPlanItem.BillingPlanItemUsage` |
+| `BillingPlanItemDescription` | `SalesDocumentBillingPlanItem.BillingPlanItemDescription` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderBillingPlan` | *Association* |
-| `SalesDocumentBillingPlanItem._TransactionCurrency` | `SalesDocumentBillingPlanItem._TransactionCurrency` |
-| `SalesDocumentBillingPlanItem._BillingBlockReason` | `SalesDocumentBillingPlanItem._BillingBlockReason` |
-| `SalesDocumentBillingPlanItem._BillingPlanRelatedBillgSts` | `SalesDocumentBillingPlanItem._BillingPlanRelatedBillgSts` |
-| `SalesDocumentBillingPlanItem._BillingPlanType` | `SalesDocumentBillingPlanItem._BillingPlanType` |
-| `SalesDocumentBillingPlanItem._BillingPlanDateCategory` | `SalesDocumentBillingPlanItem._BillingPlanDateCategory` |
-| `SalesDocumentBillingPlanItem._CustomerPaymentTerms` | `SalesDocumentBillingPlanItem._CustomerPaymentTerms` |
-| `SalesDocumentBillingPlanItem._BillingDocumentType` | `SalesDocumentBillingPlanItem._BillingDocumentType` |
-| `SalesDocumentBillingPlanItem._AdoptingBillingDateID` | `SalesDocumentBillingPlanItem._AdoptingBillingDateID` |
-| `SalesDocumentBillingPlanItem._BillingPlanBillingRule` | `SalesDocumentBillingPlanItem._BillingPlanBillingRule` |
-| `SalesDocumentBillingPlanItem._BillgPlnDteDescCode` | `SalesDocumentBillingPlanItem._BillgPlnDteDescCode` |
-| `SalesDocumentBillingPlanItem._BillingPlanMilestoneUsage` | `SalesDocumentBillingPlanItem._BillingPlanMilestoneUsage` |
-| `SalesDocumentBillingPlanItem._BillgPlanItemUsage` | `SalesDocumentBillingPlanItem._BillgPlanItemUsage` |
-| `SalesDocumentBillingPlanItem._BillgPlnDteCrrtnRfndType` | `SalesDocumentBillingPlanItem._BillgPlnDteCrrtnRfndType` |
+| `_TransactionCurrency` | *Association* |
+| `_BillingBlockReason` | *Association* |
+| `_BillingPlanRelatedBillgSts` | *Association* |
+| `_BillingPlanType` | *Association* |
+| `_BillingPlanDateCategory` | *Association* |
+| `_CustomerPaymentTerms` | *Association* |
+| `_BillingDocumentType` | *Association* |
+| `_AdoptingBillingDateID` | *Association* |
+| `_BillingPlanBillingRule` | *Association* |
+| `_BillgPlnDteDescCode` | *Association* |
+| `_BillingPlanMilestoneUsage` | *Association* |
+| `_BillgPlanItemUsage` | *Association* |
+| `_BillgPlnDteCrrtnRfndType` | *Association* |
 
 ## Associations
 

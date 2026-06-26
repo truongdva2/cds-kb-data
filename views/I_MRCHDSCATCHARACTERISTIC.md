@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdscategory   )` | `cast (MrchdsCategory.class` |
+| `MerchandiseCategory` | `cast (MrchdsCategory.class as rfm_mrchdscategory )` |
 | `Characteristic` | `Characteristic.atnam` |
-| `atinn_no_conv preserving type  )` | `cast (Characteristic.atinn` |
-| `/* Associations */` | `/* Associations */` |
+| `CharcInternalID` | `cast (Characteristic.atinn as atinn_no_conv preserving type )` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicDesc` | *Association* |
 | `_MerchandiseCategory` | *Association* |

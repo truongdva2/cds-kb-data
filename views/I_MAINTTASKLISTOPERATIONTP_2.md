@@ -31,17 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     TaskListType` | `TaskListType` |
-| `key     TaskListGroup` | `TaskListGroup` |
-| `key     TaskListGroupCounter` | `TaskListGroupCounter` |
-| `key     TaskListSequence` | `TaskListSequence` |
-| `key     TaskListOperationInternalId` | `TaskListOperationInternalId` |
-| `_Header     : redirected to parent I_MaintenanceTaskListTP_2` | *Association* |
-| `_Operation  : redirected to composition child I_MaintTaskListOpBasicTP` | *Association* |
-| `_OpMaterial : redirected to composition child I_MaintTaskListOpMaterialTP` | *Association* |
-| `_OpRelation : redirected to composition child I_MaintTaskListOpRelshpTP` | *Association* |
-| `_SubOp      : redirected to composition child I_MaintTaskListSubOpTP` | *Association* |
-| `_OpLongText : redirected to composition child I_MaintTaskListOpLongTextTP` | *Association* |
+| `TaskListType` | `TaskListType` |
+| `TaskListGroup` | `TaskListGroup` |
+| `TaskListGroupCounter` | `TaskListGroupCounter` |
+| `TaskListSequence` | `TaskListSequence` |
+| `TaskListOperationInternalId` | `TaskListOperationInternalId` |
 
 ## Associations
 

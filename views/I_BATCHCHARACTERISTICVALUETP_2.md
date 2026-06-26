@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
-| `key Batch` | `Batch` |
-| `key CharcInternalID` | `CharcInternalID` |
-| `key ClfnCharcValuePositionNumber` | `ClfnCharcValuePositionNumber` |
+| `Material` | `Material` |
+| `BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
+| `Batch` | `Batch` |
+| `CharcInternalID` | `CharcInternalID` |
+| `ClfnCharcValuePositionNumber` | `ClfnCharcValuePositionNumber` |
 | `CharcValueIntervalType` | `CharcValueIntervalType` |
 | `CharcValue` | `CharcValue` |
 | `CharcFromNumericValue` | `CharcFromNumericValue` |
@@ -54,10 +54,6 @@ tags:
 | `CharcToTime` | `CharcToTime` |
 | `CharcAuthor` | `CharcAuthor` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_BatchCharacteristicTP : redirected to parent I_BatchCharacteristicTP_2` | *Association* |
-| `/* DCL */` | `/* DCL */` |
-| `_BatchTP : redirected to I_BatchTP_2` | *Association* |
 | `ClassType` | `ClassType` |
 | `_ClfnCharacteristic` | *Association* |
 

@@ -33,15 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _MaintenanceObjectListItem.Equipment` | `_MaintenanceObjectListItem.Equipment` |
-| `key _MaintObjListSalesOrder.SalesOrder` | `_MaintObjListSalesOrder.SalesOrder` |
-| `key _MaintObjListSalesOrder.SalesOrderItem` | `_MaintObjListSalesOrder.SalesOrderItem` |
-| `_MaintenanceObjectListItem.Material` | *Association* |
-| `_MaintenanceObjectListItem.SerialNumber` | *Association* |
-| `_MaintenanceObjectListItem._Equipment` | *Association* |
-| `_MaintObjListSalesOrder._SalesOrder` | *Association* |
-| `_MaintObjListSalesOrder._SalesOrderItem` | *Association* |
-| `_MaintenanceObjectListItem._Product` | *Association* |
+| `Equipment` | `_MaintenanceObjectListItem.Equipment` |
+| `SalesOrder` | `_MaintObjListSalesOrder.SalesOrder` |
+| `SalesOrderItem` | `_MaintObjListSalesOrder.SalesOrderItem` |
+| `Material` | `_MaintenanceObjectListItem.Material` |
+| `SerialNumber` | `_MaintenanceObjectListItem.SerialNumber` |
+| `_Equipment` | *Association* |
+| `_SalesOrder` | *Association* |
+| `_SalesOrderItem` | *Association* |
+| `_Product` | *Association* |
 
 ## Associations
 

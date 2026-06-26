@@ -35,7 +35,7 @@ tags:
 | `Language` | `langu` |
 | `EWMWarehouse` | `lgnum` |
 | `EWMStorageBinAccessType` | `bin_at` |
-| `ewm_de_storbinaccesstypedesc preserving type)` | `cast(text` |
+| `EWMStorageBinAccessTypeDesc` | `cast(text as ewm_de_storbinaccesstypedesc preserving type)` |
 | `_Warehouse` | *Association* |
 
 ## Associations

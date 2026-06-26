@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfent)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KanbanCalcUnlockingSequence` | `cast(substring(domvalue_l, 1, 1) as rfent)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

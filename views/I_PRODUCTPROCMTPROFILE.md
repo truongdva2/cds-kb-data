@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sobsl preserving type )` | `cast ( MaterialProcurementProfile` |
+| `ProcurementSubType` | `cast ( MaterialProcurementProfile as sobsl preserving type )` |
 | `Plant` | `Plant` |
 | `_Text` | *Association* |
 | `_Plant` | *Association* |

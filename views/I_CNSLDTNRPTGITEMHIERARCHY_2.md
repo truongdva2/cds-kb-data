@@ -31,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CnsldtnChartOfAccounts'` | `foreignKey.association: '_CnsldtnChartOfAccounts'` |
-| `sapObjectNodeTypeReference: 'ConsolidationChartOfAccounts' }` | `sapObjectNodeTypeReference: 'ConsolidationChartOfAccounts' }` |
-| `fincs_conschartofaccounts preserving type )` | `cast( left( _Hierarchy.HierarchyClass, 2)` |
-| `fincs_reportingitemhierarchy preserving type )` | `cast( substring( _Hierarchy.UniversalHierHierarchyID, 9, 10 )` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `ConsolidationChartOfAccounts` | `cast(…)` |
+| `ConsolidationReportingItemHier` | `cast(…)` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 | `_CnsldtnChartOfAccounts` | *Association* |
 

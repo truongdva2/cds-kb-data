@@ -32,15 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
-| `key MaintOrderComponentInternalID` | `MaintOrderComponentInternalID` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `MaintOrderComponentInternalID` | `MaintOrderComponentInternalID` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `OrderComponentLongText` | `OrderComponentLongText` |
-| `_MaintenanceOrder          : redirected to I_MaintenanceOrderTP` | *Association* |
-| `_MaintenanceOrderComponent : redirected to parent I_MaintOrderOpComponentTP_2` | *Association* |
 
 ## Associations
 

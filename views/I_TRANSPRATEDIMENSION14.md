@@ -29,26 +29,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transprate_dim_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transprate_val_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/transpratetable_uuid preserving type)` | `cast(root_key` |
-| `/scmtms/vdm_sc_item_01_uuid preserving type)` | `cast(scale_item_key01` |
-| `/scmtms/vdm_sc_item_02_uuid preserving type)` | `cast(scale_item_key02` |
-| `/scmtms/vdm_sc_item_03_uuid preserving type)` | `cast(scale_item_key03` |
-| `/scmtms/vdm_sc_item_04_uuid preserving type)` | `cast(scale_item_key04` |
-| `/scmtms/vdm_sc_item_05_uuid preserving type)` | `cast(scale_item_key05` |
-| `/scmtms/vdm_sc_item_06_uuid preserving type)` | `cast(scale_item_key06` |
-| `/scmtms/vdm_sc_item_07_uuid preserving type)` | `cast(scale_item_key07` |
-| `/scmtms/vdm_sc_item_08_uuid preserving type)` | `cast(scale_item_key08` |
-| `/scmtms/vdm_sc_item_09_uuid preserving type)` | `cast(scale_item_key09` |
-| `/scmtms/vdm_sc_item_10_uuid preserving type)` | `cast(scale_item_key10` |
-| `/scmtms/vdm_sc_item_11_uuid preserving type)` | `cast(scale_item_key11` |
-| `/scmtms/vdm_sc_item_12_uuid preserving type)` | `cast(scale_item_key12` |
-| `/scmtms/vdm_sc_item_13_uuid preserving type)` | `cast(scale_item_key13` |
-| `/scmtms/vdm_sc_item_14_uuid preserving type)` | `cast(scale_item_key14` |
+| `TranspRateDimensionUUID` | `cast(db_key as /scmtms/transprate_dim_uuid preserving type)` |
+| `TranspRateValidityUUID` | `cast(parent_key as /scmtms/transprate_val_uuid preserving type)` |
+| `TransportationRateUUID` | `cast(root_key as /scmtms/transpratetable_uuid preserving type)` |
+| `TranspRateDimnScaleItem01UUID` | `cast(scale_item_key01 as /scmtms/vdm_sc_item_01_uuid preserving type)` |
+| `TranspRateDimnScaleItem02UUID` | `cast(scale_item_key02 as /scmtms/vdm_sc_item_02_uuid preserving type)` |
+| `TranspRateDimnScaleItem03UUID` | `cast(scale_item_key03 as /scmtms/vdm_sc_item_03_uuid preserving type)` |
+| `TranspRateDimnScaleItem04UUID` | `cast(scale_item_key04 as /scmtms/vdm_sc_item_04_uuid preserving type)` |
+| `TranspRateDimnScaleItem05UUID` | `cast(scale_item_key05 as /scmtms/vdm_sc_item_05_uuid preserving type)` |
+| `TranspRateDimnScaleItem06UUID` | `cast(scale_item_key06 as /scmtms/vdm_sc_item_06_uuid preserving type)` |
+| `TranspRateDimnScaleItem07UUID` | `cast(scale_item_key07 as /scmtms/vdm_sc_item_07_uuid preserving type)` |
+| `TranspRateDimnScaleItem08UUID` | `cast(scale_item_key08 as /scmtms/vdm_sc_item_08_uuid preserving type)` |
+| `TranspRateDimnScaleItem09UUID` | `cast(scale_item_key09 as /scmtms/vdm_sc_item_09_uuid preserving type)` |
+| `TranspRateDimnScaleItem10UUID` | `cast(scale_item_key10 as /scmtms/vdm_sc_item_10_uuid preserving type)` |
+| `TranspRateDimnScaleItem11UUID` | `cast(scale_item_key11 as /scmtms/vdm_sc_item_11_uuid preserving type)` |
+| `TranspRateDimnScaleItem12UUID` | `cast(scale_item_key12 as /scmtms/vdm_sc_item_12_uuid preserving type)` |
+| `TranspRateDimnScaleItem13UUID` | `cast(scale_item_key13 as /scmtms/vdm_sc_item_13_uuid preserving type)` |
+| `TranspRateDimnScaleItem14UUID` | `cast(scale_item_key14 as /scmtms/vdm_sc_item_14_uuid preserving type)` |
 | `TransportationRateCurrency` | `rate_curr` |
-| `abap.dec(31,6) ) * 10000` | `cast(cast( rate` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspRateAmountInRateCrcy` | `cast(cast( rate as abap.dec(31,6) ) * 10000 as /scmtms/vdm_rt_amt_in_rt_curr)` |
 | `_TransportationRateValidity` | *Association* |
 | `_TransportationRate` | *Association* |
 | `_TransportationRateCurrency` | *Association* |
@@ -57,6 +56,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationRateValidity` | `I_TransportationRateValidity_2` | — |
 | `_TransportationRateCurrency` | `I_Currency` | [1..1] |
 | `_TransportationRate` | `I_TransportationRate` | [1..1] |
 

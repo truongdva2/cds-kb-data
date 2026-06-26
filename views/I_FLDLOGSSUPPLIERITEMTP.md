@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsSuplrItemUUID` | `FldLogsSuplrItemUUID` |
+| `FldLogsSuplrItemUUID` | `FldLogsSuplrItemUUID` |
 | `FldLogsSuplrItemType` | `FldLogsSuplrItemType` |
 | `FldLogsSuplrParentItemUUID` | `FldLogsSuplrParentItemUUID` |
 | `FldLogsSuplrItemSerialNumber` | `FldLogsSuplrItemSerialNumber` |
@@ -135,7 +135,6 @@ tags:
 | `FldLogsSuplrItmIsAttchAssigned` | `FldLogsSuplrItmIsAttchAssigned` |
 | `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
 | `MaintenanceOrderComponent` | `MaintenanceOrderComponent` |
-| `/* Associations */` | `/* Associations */` |
 | `_BasePlantText` | *Association* |
 | `_DngrsGdsText` | *Association* |
 | `_HandlingUnit` | *Association* |

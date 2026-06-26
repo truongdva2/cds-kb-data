@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_reportingperiodname preserving type)` | `cast(t.ddtext` |
+| `ReportingPeriod` | `cast(…)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `ReportingPeriodName` | `cast(t.ddtext as pph_reportingperiodname preserving type)` |
 | `DomainValue` | `t.domvalue_l` |
 | `_ReportingPeriod` | *Association* |
 | `_Language` | *Association* |

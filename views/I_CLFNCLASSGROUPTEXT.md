@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ClassGroup` | `I_ClfnClassGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

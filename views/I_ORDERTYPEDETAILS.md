@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `typ.werks` |
 | `OrderType` | `typ.auart` |
-| `pph_autyp preserving type)` | `cast(typ.autyp` |
-| `billofoperationstype preserving type)` | `cast(typ.plnty` |
+| `OrderCategory` | `cast(typ.autyp as pph_autyp preserving type)` |
+| `BillOfOperationsType` | `cast(typ.plnty as billofoperationstype preserving type)` |
 | `SettlementDefaultRule` | `typ.dfreg` |
 | `VarianceKey` | `typ.awsls` |
 | `InspectionLotType` | `typ.pruefart` |
@@ -47,10 +47,10 @@ tags:
 | `ProductCostCollectorIsCostObj` | `typ.pkosa` |
 | `ProductionVersionSelection` | `typ.pvsel` |
 | `EventBasedProcessingKey` | `typ.ebw_key` |
-| `vdm_chgkz_h preserving type)` | `cast(chgkz_head` |
-| `vdm_chgkz_o preserving type)` | `cast(chgkz_opr` |
-| `vdm_chgkz_c preserving type)` | `cast(chgkz_cmp` |
-| `vdm_chgkz_p preserving type)` | `cast(chgkz_prt` |
+| `StsChgDocIsActiveForHeader` | `cast(chgkz_head as vdm_chgkz_h preserving type)` |
+| `StsChgDocIsActiveForOperation` | `cast(chgkz_opr as vdm_chgkz_o preserving type)` |
+| `StsChgDocIsActiveForComponent` | `cast(chgkz_cmp as vdm_chgkz_c preserving type)` |
+| `StsChgDocIsActiveForPRT` | `cast(chgkz_prt as vdm_chgkz_p preserving type)` |
 | `_Plant` | *Association* |
 | `_OrderCategory` | *Association* |
 | `_BillOfOperationsType` | *Association* |

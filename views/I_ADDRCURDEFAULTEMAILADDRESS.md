@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
 | `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `EmailAddress` | `EmailAddress` |
 | `ValidityStartDate` | `ValidityStartDate` |

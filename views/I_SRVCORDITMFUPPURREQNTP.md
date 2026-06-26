@@ -29,13 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `key PurchaseRequisition` | `PurchaseRequisition` |
-| `key PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderItem : redirected to parent I_ServiceOrderItemTP` | *Association* |
-| `_ServiceOrderTP   : redirected to I_ServiceOrderTP` | *Association* |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 
 ## Associations
 

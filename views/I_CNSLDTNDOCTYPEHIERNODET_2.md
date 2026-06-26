@@ -31,14 +31,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `_HierarchyNodeText.spras` |
-| `fincs_doctypehierarchy preserving type )` | `cast(_HierarchyNodeText.hryid` |
-| `fincs_hierarchynode preserving type )` | `cast(_HierarchyNode.hrynode` |
-| `fincs_validityenddate preserving type )` | `cast(_HierarchyNodeText.hryvalto` |
-| `fincs_validitystartdate preserving type )` | `cast(_HierarchyNodeText.hryvalfrom` |
-| `fincs_parentnode preserving type )` | `cast(_HierarchyNodeText.parnode` |
-| `fincs_hierarchyversion preserving type )` | `cast(_HierarchyNodeText.hryver` |
-| `fincs_hierarchynodetext preserving type )` | `cast(_HierarchyNodeText.nodetxt` |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationDocTypeHierarchy` | `cast(_HierarchyNodeText.hryid as fincs_doctypehierarchy preserving type )` |
+| `HierarchyNode` | `cast(_HierarchyNode.hrynode as fincs_hierarchynode preserving type )` |
+| `ValidityEndDate` | `cast(_HierarchyNodeText.hryvalto as fincs_validityenddate preserving type )` |
+| `ValidityStartDate` | `cast(_HierarchyNodeText.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ParentNode` | `cast(_HierarchyNodeText.parnode as fincs_parentnode preserving type )` |
+| `HierarchyVersion` | `cast(_HierarchyNodeText.hryver as fincs_hierarchyversion preserving type )` |
+| `HierarchyNodeText` | `cast(_HierarchyNodeText.nodetxt as fincs_hierarchynodetext preserving type )` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

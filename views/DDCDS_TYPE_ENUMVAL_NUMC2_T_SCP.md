@@ -29,18 +29,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(30) )` | `cast( enum_t.simpleType` |
-| `abap.char(30) )` | `cast( enum_t.enumIdentifier` |
-| `abap.numc(2) )` | `cast( enum_t.enumValue` |
-| `key enum_t.language` | `enum_t.language` |
-| `abap.char(240) )` | `cast( enum_t.enumTextName` |
-| `abap.char(255) )` | `cast( enum_t.enumText` |
+| `simpleType` | `cast( enum_t.simpleType as abap.char(30) )` |
+| `enumIdentifier` | `cast( enum_t.enumIdentifier as abap.char(30) )` |
+| `enumValue` | `cast( enum_t.enumValue as abap.numc(2) )` |
+| `language` | `enum_t.language` |
+| `enumTextName` | `cast( enum_t.enumTextName as abap.char(240) )` |
+| `enumText` | `cast( enum_t.enumText as abap.char(255) )` |
 | `_EnumValue` | *Association* |
-| `enum_t._Language` | `enum_t._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_EnumValue` | `ddcds_type_enumval_numc2_scp` | — |
 
 ## Source Code
 

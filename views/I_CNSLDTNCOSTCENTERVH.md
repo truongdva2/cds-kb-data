@@ -33,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `_CnsldtnCostCenter._Text[1: Language=$session.system_language].CostCenterName` | *Association* |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `CostCenterName` | `_CnsldtnCostCenter._Text[1: Language=$session.system_language].CostCenterName` |
 
 ## Associations
 

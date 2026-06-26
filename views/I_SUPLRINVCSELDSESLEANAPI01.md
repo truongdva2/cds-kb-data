@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrInvcSeldSrvcEntrShtLean.SupplierInvoice` | `I_SuplrInvcSeldSrvcEntrShtLean.SupplierInvoice` |
-| `key I_SuplrInvcSeldSrvcEntrShtLean.FiscalYear` | `I_SuplrInvcSeldSrvcEntrShtLean.FiscalYear` |
-| `key I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheet` | `I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheet` |
-| `key I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheetItem` | `I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheetItem` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `I_SuplrInvcSeldSrvcEntrShtLean.SupplierInvoice` |
+| `FiscalYear` | `I_SuplrInvcSeldSrvcEntrShtLean.FiscalYear` |
+| `ServiceEntrySheet` | `I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheet` |
+| `ServiceEntrySheetItem` | `I_SuplrInvcSeldSrvcEntrShtLean.ServiceEntrySheetItem` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

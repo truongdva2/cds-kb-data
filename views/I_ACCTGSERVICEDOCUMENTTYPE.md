@@ -32,10 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
 | `ServiceDocumentTypeName` | `ServiceDocumentTypeName` |
 
 ## Associations

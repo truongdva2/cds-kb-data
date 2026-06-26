@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key typ.MaterialProcurementExtType` | `typ.MaterialProcurementExtType` |
+| `MaterialProcurementExtType` | `typ.MaterialProcurementExtType` |
 | `_Text` | *Association* |
 
 ## Associations

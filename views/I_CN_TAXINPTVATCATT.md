@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key text.TaxCategory` | `text.TaxCategory` |
-| `key text.Language` | `text.Language` |
-| `text.CategoryDescription` | `text.CategoryDescription` |
+| `TaxCategory` | `text.TaxCategory` |
+| `Language` | `text.Language` |
+| `CategoryDescription` | `text.CategoryDescription` |
 | `_TaxCategory` | *Association* |
 | `_Language` | *Association* |
 

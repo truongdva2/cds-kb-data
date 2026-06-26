@@ -35,14 +35,10 @@ tags:
 |---|---|
 | `ConditionUsage` | `t681.kvewe` |
 | `ConditionApplication` | `t681.kappl` |
-| `char03 )` | `cast ( t681.kotabnr` |
+| `ConditionTable` | `cast ( t681.kotabnr as char03 )` |
 | `PricingConditionField` | `dd03l.fieldname` |
 | `PrcgCndnTableFieldIsKey` | `dd03l.keyflag` |
-| `cast (` | `cast (` |
-| `case` | `case` |
-| `when t681e.fsetyp = 'B' then 'X'` | `when t681e.fsetyp = 'B' then 'X'` |
-| `else ' '` | `else ' '` |
-| `dzeifd )` | `end` |
+| `PrcgCndnTableFieldIsItem` | `cast ( case when t681e.fsetyp = 'B' then 'X' else ' ' end as dzeifd )` |
 | `PrcgCndnTableFieldHasText` | `t681e.fsetxt` |
 | `_PricingConditionTable` | *Association* |
 

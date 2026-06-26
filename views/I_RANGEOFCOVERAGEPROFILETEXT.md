@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_rwprotxt preserving type)` | `cast(txt.text40` |
+| `Plant` | `werks` |
+| `RangeOfCoverageProfile` | `cast(rwpro as pph_rwpro preserving type)` |
+| `Language` | `txt.spras` |
+| `RangeOfCoverageProfileName` | `cast(txt.text40 as pph_rwprotxt preserving type)` |
 | `_Profile` | *Association* |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

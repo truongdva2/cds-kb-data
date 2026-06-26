@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ico_type_gfn_kk preserving type)` | `cast(_tfk8250s.ico_type` |
-| `ico_subtype_gfn_kk preserving type)` | `cast(_tfk8250s.ico_subtype` |
+| `CAIntcoType` | `cast(_tfk8250s.ico_type as ico_type_gfn_kk preserving type)` |
+| `CAIntcoSubtype` | `cast(_tfk8250s.ico_subtype as ico_subtype_gfn_kk preserving type)` |
 | `_CAIntcoType` | *Association* |
 | `_CAIntcoSubtypeText` | *Association* |
 

@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
 | `MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
 | `MaintenanceOrderRoutingNode` | `MaintenanceOrderRoutingNode` |
 | `SuperiorOperationInternalID` | `SuperiorOperationInternalID` |
@@ -143,13 +143,6 @@ tags:
 | `_OperationWorkCenter` | *Association* |
 | `_Supplier` | *Association* |
 | `_PersonResponsible` | *Association* |
-| `_MaintenanceOrder          : redirected to parent I_MaintenanceOrderTP` | *Association* |
-| `_MaintOrderOpLongText      : redirected to composition child I_MaintOrderOpLongTextTP` | *Association* |
-| `_MaintOrderOpRelationship  : redirected to composition child I_MaintOrderOpRelationshipTP` | *Association* |
-| `_MaintOrderOpProdnRsceTool : redirected to composition child I_MaintOrderOpProdnRsceToolTP` | *Association* |
-| `_MaintOrderOpPhaseControl  : redirected to composition child I_MaintOrderOpPhaseControlTP` | *Association* |
-| `_MaintOrderOpComponent     : redirected to composition child I_MaintOrderOpComponentTP` | *Association* |
-| `_MaintOrderOpComponent_2   : redirected to composition child I_MaintOrderOpComponentTP_2` | *Association* |
 
 ## Associations
 

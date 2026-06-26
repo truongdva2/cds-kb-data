@@ -32,13 +32,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RealEstateRentableObjectUUID` | `REGenericRentalObjectUUID` |
-| `key StatusProfile` | `StatusProfile` |
-| `key StatusCode` | `StatusCode` |
-| `_RERentableObject.InternalRealEstateNumber` | *Association* |
+| `StatusProfile` | `StatusProfile` |
+| `StatusCode` | `StatusCode` |
+| `InternalRealEstateNumber` | `_RERentableObject.InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |
 | `IsUserStatus` | `IsUserStatus` |
 | `StatusIsInactive` | `StatusIsInactive` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
 | `_RERentableObject` | *Association* |

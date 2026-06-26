@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountAssignmentNumber` | `AccountAssignmentNumber` |
-| `key PurchaseContractItem` | `PurchaseContractItem` |
-| `key PurchaseContract` | `PurchaseContract` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `PurchaseContractItem` | `PurchaseContractItem` |
+| `PurchaseContract` | `PurchaseContract` |
 | `CostCenter` | `CostCenter` |
 | `MasterFixedAsset` | `MasterFixedAsset` |
 | `ProjectNetwork` | `ProjectNetwork` |
@@ -80,9 +80,6 @@ tags:
 | `EarmarkedFundsDocument` | `EarmarkedFundsDocument` |
 | `ValidityDate` | `ValidityDate` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContractItem : redirected to parent I_PurchaseContractItemTP` | *Association* |
-| `_PurContract          : redirected to I_PurchaseContractTP` | *Association* |
 
 ## Associations
 

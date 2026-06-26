@@ -30,45 +30,42 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QualityNotificationTask.QualityNotification` | `_QualityNotificationTask.QualityNotification` |
-| `key _QualityNotificationTask.NotificationTask` | `_QualityNotificationTask.NotificationTask` |
-| `_QualityNotificationTask.NotificationTaskText` | *Association* |
-| `_QualityNotificationTask.IsDeleted` | *Association* |
-| `_QualityNotificationTask.NotifTaskPlannedStartDate` | *Association* |
-| `_QualityNotificationTask.NotifTaskPlannedStartTime` | *Association* |
-| `_QualityNotificationTask.NotifTaskPlannedEndDate` | *Association* |
-| `_QualityNotificationTask.NotifTaskPlannedEndTime` | *Association* |
-| `_QualityNotificationTask.StatusObject` | *Association* |
-| `_QualityNotificationTask.NotifTaskCompletedByUser` | *Association* |
-| `_QualityNotificationTask.NotifTaskCompletionDate` | *Association* |
-| `_QualityNotificationTask.NotifTaskCompletionTime` | *Association* |
-| `_QualityNotificationTask.ResponsiblePersonFunctionCode` | *Association* |
-| `_QualityNotificationTask.PersonResponsible` | *Association* |
-| `_QualityNotificationTask.NotificationTaskSortNumber` | *Association* |
-| `_QualityNotificationTask.NotificationItem` | *Association* |
-| `_QualityNotificationTask.NotificationCauseID` | *Association* |
-| `_QualityNotificationTask.QualityTaskCodeCatalog` | *Association* |
-| `_QualityNotificationTask.QualityTaskCodeGroup` | *Association* |
-| `_QualityNotificationTask.QualityTaskCode` | *Association* |
-| `_QualityNotificationTask.QltyTaskTimeBasedEffort` | *Association* |
-| `_QualityNotificationTask.QltyTaskTimeBasedEffortUoM` | *Association* |
-| `_QualityNotificationTask.CreatedByUser` | *Association* |
-| `_QualityNotificationTask.CreationDate` | *Association* |
-| `_QualityNotificationTask.CreationTime` | *Association* |
-| `_QualityNotificationTask.LastChangedByUser` | *Association* |
-| `_QualityNotificationTask.LastChangeDate` | *Association* |
-| `_QualityNotificationTask.LastChangeTime` | *Association* |
-| `_QualityNotificationTask.NotificationType` | *Association* |
-| `_QualityNotificationTask.Plant` | *Association* |
-| `_QualityNotificationTask.IsBusinessPurposeCompleted` | *Association* |
-| `_QualityNotificationTask._QltyNotification             : redirected to parent            I_QltyNotificationTP` | *Association* |
-| `_QualityNotificationTask._QltyNotificationTaskLongText : redirected to composition child I_QltyNotifTaskLongTextTP` | *Association* |
-| `/* Associations *///Only included because of authorization check with DPP` | `/* Associations *///Only included because of authorization check with DPP` |
-| `_QualityNotificationTask._PartnerFunction` | *Association* |
-| `_QualityNotificationTask._ContactPerson` | *Association* |
-| `_QualityNotificationTask._Employee` | *Association* |
-| `_QualityNotificationTask._Customer` | *Association* |
-| `_QualityNotificationTask._Supplier` | *Association* |
+| `QualityNotification` | `_QualityNotificationTask.QualityNotification` |
+| `NotificationTask` | `_QualityNotificationTask.NotificationTask` |
+| `NotificationTaskText` | `_QualityNotificationTask.NotificationTaskText` |
+| `IsDeleted` | `_QualityNotificationTask.IsDeleted` |
+| `NotifTaskPlannedStartDate` | `_QualityNotificationTask.NotifTaskPlannedStartDate` |
+| `NotifTaskPlannedStartTime` | `_QualityNotificationTask.NotifTaskPlannedStartTime` |
+| `NotifTaskPlannedEndDate` | `_QualityNotificationTask.NotifTaskPlannedEndDate` |
+| `NotifTaskPlannedEndTime` | `_QualityNotificationTask.NotifTaskPlannedEndTime` |
+| `StatusObject` | `_QualityNotificationTask.StatusObject` |
+| `NotifTaskCompletedByUser` | `_QualityNotificationTask.NotifTaskCompletedByUser` |
+| `NotifTaskCompletionDate` | `_QualityNotificationTask.NotifTaskCompletionDate` |
+| `NotifTaskCompletionTime` | `_QualityNotificationTask.NotifTaskCompletionTime` |
+| `ResponsiblePersonFunctionCode` | `_QualityNotificationTask.ResponsiblePersonFunctionCode` |
+| `PersonResponsible` | `_QualityNotificationTask.PersonResponsible` |
+| `NotificationTaskSortNumber` | `_QualityNotificationTask.NotificationTaskSortNumber` |
+| `NotificationItem` | `_QualityNotificationTask.NotificationItem` |
+| `NotificationCauseID` | `_QualityNotificationTask.NotificationCauseID` |
+| `QualityTaskCodeCatalog` | `_QualityNotificationTask.QualityTaskCodeCatalog` |
+| `QualityTaskCodeGroup` | `_QualityNotificationTask.QualityTaskCodeGroup` |
+| `QualityTaskCode` | `_QualityNotificationTask.QualityTaskCode` |
+| `QltyTaskTimeBasedEffort` | `_QualityNotificationTask.QltyTaskTimeBasedEffort` |
+| `QltyTaskTimeBasedEffortUoM` | `_QualityNotificationTask.QltyTaskTimeBasedEffortUoM` |
+| `CreatedByUser` | `_QualityNotificationTask.CreatedByUser` |
+| `CreationDate` | `_QualityNotificationTask.CreationDate` |
+| `CreationTime` | `_QualityNotificationTask.CreationTime` |
+| `LastChangedByUser` | `_QualityNotificationTask.LastChangedByUser` |
+| `LastChangeDate` | `_QualityNotificationTask.LastChangeDate` |
+| `LastChangeTime` | `_QualityNotificationTask.LastChangeTime` |
+| `NotificationType` | `_QualityNotificationTask.NotificationType` |
+| `Plant` | `_QualityNotificationTask.Plant` |
+| `IsBusinessPurposeCompleted` | `_QualityNotificationTask.IsBusinessPurposeCompleted` |
+| `_PartnerFunction` | *Association* |
+| `_ContactPerson` | *Association* |
+| `_Employee` | *Association* |
+| `_Customer` | *Association* |
+| `_Supplier` | *Association* |
 
 ## Associations
 

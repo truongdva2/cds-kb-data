@@ -39,7 +39,6 @@ tags:
 | `MaintPackageHierarchyShortText` | `ktxhi` |
 | `MaintenanceCycleShortText` | `kzyk1` |
 | `StartOffsetShortText` | `koff1` |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
 | `_Language` | *Association* |
 | `_MaintenancePackage` | *Association* |
 | `_MaintenanceStrategy` | *Association* |

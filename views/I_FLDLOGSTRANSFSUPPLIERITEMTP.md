@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsSuplrItemUUID` | `FldLogsSuplrItemUUID` |
+| `FldLogsSuplrItemUUID` | `FldLogsSuplrItemUUID` |
 | `FldLogsSuplrItemType` | `FldLogsSuplrItemType` |
 | `FldLogsSuplrParentItemUUID` | `FldLogsSuplrParentItemUUID` |
 | `FldLogsSuplrItemSerialNumber` | `FldLogsSuplrItemSerialNumber` |
@@ -95,7 +95,6 @@ tags:
 | `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `ReferenceDocumentItem` | `ReferenceDocumentItem` |
 | `Material` | `Material` |
-| `/* Associations */` | `/* Associations */` |
 | `_BasePlantText` | *Association* |
 | `_CancelGRDoc` | *Association* |
 | `_DeliveryDocumentItem` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ksteu )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionControl` | `cast ( substring( domvalue_l, 1, 1 ) as ksteu )` |
 | `_Text` | *Association* |
 
 ## Associations

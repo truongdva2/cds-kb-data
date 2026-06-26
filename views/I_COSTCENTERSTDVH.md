@@ -33,7 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ValidityStartDate` | `ValidityStartDate` |
 | `CompanyCode` | `CompanyCode` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |

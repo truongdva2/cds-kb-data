@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `abap.char( 2 ) )` | `cast ( cast ( substring( domvalue_l, 1, 2 )` |
-| `nsdm_stock_change_cat_name )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `StockChangeCategory` | `cast(…)` |
+| `StockChangeCategoryName` | `cast ( substring ( ddtext, 1, 60 ) as nsdm_stock_change_cat_name )` |
 | `_Language` | *Association* |
 | `_StockChangeCategory` | *Association* |
 

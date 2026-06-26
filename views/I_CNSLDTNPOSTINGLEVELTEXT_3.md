@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `_Source.DomainValueText                                                   as ConsolidationPostingLevelText` | *Association* |
-| `_Source.DomainValue` | *Association* |
-| `_Source._Language` | *Association* |
+| `Language` | `cast(_Source.Language as spras preserving type )` |
+| `ConsolidationPostingLevel` | `cast(left(_Source.DomainValue, 2) as fincs_postinglevel preserving type )` |
+| `ConsolidationPostingLevelText` | `_Source.DomainValueText` |
+| `DomainValue` | `_Source.DomainValue` |
+| `_Language` | *Association* |
 | `_PostingLevel` | *Association* |
 
 ## Associations

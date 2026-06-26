@@ -31,66 +31,66 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productnumber preserving type)` | `cast (Consumption.matnr` |
+| `Product` | `cast (Consumption.matnr as productnumber preserving type)` |
 | `Plant` | `Consumption.werks` |
 | `PostingFiscalYear` | `Consumption.gjahr` |
 | `PeriodType` | `Consumption.perkz` |
 | `NumberOfFollowOnRecords` | `Consumption.zahlr` |
-| `gsvbr1 preserving type)` | `cast (Consumption.gsv01` |
-| `gsvbr2 preserving type)` | `cast (Consumption.gsv02` |
-| `gsvbr3 preserving type)` | `cast (Consumption.gsv03` |
-| `gsvbr4 preserving type)` | `cast (Consumption.gsv04` |
-| `gsvbr5 preserving type)` | `cast (Consumption.gsv05` |
-| `gsvbr6 preserving type)` | `cast (Consumption.gsv06` |
-| `gsvbr7 preserving type)` | `cast (Consumption.gsv07` |
-| `gsvbr8 preserving type)` | `cast (Consumption.gsv08` |
-| `gsvbr9 preserving type)` | `cast (Consumption.gsv09` |
-| `gsvbr10 preserving type)` | `cast (Consumption.gsv10` |
-| `gsvbr11 preserving type)` | `cast (Consumption.gsv11` |
-| `gsvbr12 preserving type)` | `cast (Consumption.gsv12` |
-| `gsvbr13 preserving type)` | `cast (Consumption.gsv13` |
-| `unvbr1 preserving type)` | `cast (Consumption.unv01` |
-| `unvbr2 preserving type)` | `cast (Consumption.unv02` |
-| `unvbr3 preserving type)` | `cast (Consumption.unv03` |
-| `unvbr4 preserving type)` | `cast (Consumption.unv04` |
-| `unvbr5 preserving type)` | `cast (Consumption.unv05` |
-| `unvbr6 preserving type)` | `cast (Consumption.unv06` |
-| `unvbr7 preserving type)` | `cast (Consumption.unv07` |
-| `unvbr8 preserving type)` | `cast (Consumption.unv08` |
-| `unvbr9 preserving type)` | `cast (Consumption.unv09` |
-| `unvbr10 preserving type)` | `cast (Consumption.unv10` |
-| `unvbr11 preserving type)` | `cast (Consumption.unv11` |
-| `unvbr12 preserving type)` | `cast (Consumption.unv12` |
-| `unvbr13 preserving type)` | `cast (Consumption.unv13` |
-| `mgvbr1 preserving type)` | `cast (Consumption.mgv01` |
-| `mgvbr2 preserving type)` | `cast (Consumption.mgv02` |
-| `mgvbr3 preserving type)` | `cast (Consumption.mgv03` |
-| `mgvbr4 preserving type)` | `cast (Consumption.mgv04` |
-| `mgvbr5 preserving type)` | `cast (Consumption.mgv05` |
-| `mgvbr6 preserving type)` | `cast (Consumption.mgv06` |
-| `mgvbr7 preserving type)` | `cast (Consumption.mgv07` |
-| `mgvbr8 preserving type)` | `cast (Consumption.mgv08` |
-| `mgvbr9 preserving type)` | `cast (Consumption.mgv09` |
-| `mgvbr10 preserving type)` | `cast (Consumption.mgv10` |
-| `mgvbr11 preserving type)` | `cast (Consumption.mgv11` |
-| `mgvbr12 preserving type)` | `cast (Consumption.mgv12` |
-| `mgvbr13 preserving type)` | `cast (Consumption.mgv13` |
-| `muvbr1 preserving type)` | `cast (Consumption.muv01` |
-| `muvbr2 preserving type)` | `cast (Consumption.muv02` |
-| `muvbr3 preserving type)` | `cast (Consumption.muv03` |
-| `muvbr4 preserving type)` | `cast (Consumption.muv04` |
-| `muvbr5 preserving type)` | `cast (Consumption.muv05` |
-| `muvbr6 preserving type)` | `cast (Consumption.muv06` |
-| `muvbr7 preserving type)` | `cast (Consumption.muv07` |
-| `muvbr8 preserving type)` | `cast (Consumption.muv08` |
-| `muvbr9 preserving type)` | `cast (Consumption.muv09` |
-| `muvbr10 preserving type)` | `cast (Consumption.muv10` |
-| `muvbr11 preserving type)` | `cast (Consumption.muv11` |
-| `muvbr12 preserving type)` | `cast (Consumption.muv12` |
-| `muvbr13 preserving type)` | `cast (Consumption.muv13` |
-| `_Product.BaseUnit                                         as BaseUnit` | *Association* |
+| `TotalConsumption1Quantity` | `cast (Consumption.gsv01 as gsvbr1 preserving type)` |
+| `TotalConsumption2Quantity` | `cast (Consumption.gsv02 as gsvbr2 preserving type)` |
+| `TotalConsumption3Quantity` | `cast (Consumption.gsv03 as gsvbr3 preserving type)` |
+| `TotalConsumption4Quantity` | `cast (Consumption.gsv04 as gsvbr4 preserving type)` |
+| `TotalConsumption5Quantity` | `cast (Consumption.gsv05 as gsvbr5 preserving type)` |
+| `TotalConsumption6Quantity` | `cast (Consumption.gsv06 as gsvbr6 preserving type)` |
+| `TotalConsumption7Quantity` | `cast (Consumption.gsv07 as gsvbr7 preserving type)` |
+| `TotalConsumption8Quantity` | `cast (Consumption.gsv08 as gsvbr8 preserving type)` |
+| `TotalConsumption9Quantity` | `cast (Consumption.gsv09 as gsvbr9 preserving type)` |
+| `TotalConsumption10Quantity` | `cast (Consumption.gsv10 as gsvbr10 preserving type)` |
+| `TotalConsumption11Quantity` | `cast (Consumption.gsv11 as gsvbr11 preserving type)` |
+| `TotalConsumption12Quantity` | `cast (Consumption.gsv12 as gsvbr12 preserving type)` |
+| `TotalConsumption13Quantity` | `cast (Consumption.gsv13 as gsvbr13 preserving type)` |
+| `UnplannedConsumption1Quantity` | `cast (Consumption.unv01 as unvbr1 preserving type)` |
+| `UnplannedConsumption2Quantity` | `cast (Consumption.unv02 as unvbr2 preserving type)` |
+| `UnplannedConsumption3Quantity` | `cast (Consumption.unv03 as unvbr3 preserving type)` |
+| `UnplannedConsumption4Quantity` | `cast (Consumption.unv04 as unvbr4 preserving type)` |
+| `UnplannedConsumption5Quantity` | `cast (Consumption.unv05 as unvbr5 preserving type)` |
+| `UnplannedConsumption6Quantity` | `cast (Consumption.unv06 as unvbr6 preserving type)` |
+| `UnplannedConsumption7Quantity` | `cast (Consumption.unv07 as unvbr7 preserving type)` |
+| `UnplannedConsumption8Quantity` | `cast (Consumption.unv08 as unvbr8 preserving type)` |
+| `UnplannedConsumption9Quantity` | `cast (Consumption.unv09 as unvbr9 preserving type)` |
+| `UnplannedConsumption10Quantity` | `cast (Consumption.unv10 as unvbr10 preserving type)` |
+| `UnplannedConsumption11Quantity` | `cast (Consumption.unv11 as unvbr11 preserving type)` |
+| `UnplannedConsumption12Quantity` | `cast (Consumption.unv12 as unvbr12 preserving type)` |
+| `UnplannedConsumption13Quantity` | `cast (Consumption.unv13 as unvbr13 preserving type)` |
+| `MnllyCrrtdTotCnsmpn1Quantity` | `cast (Consumption.mgv01 as mgvbr1 preserving type)` |
+| `MnllyCrrtdTotCnsmpn2Quantity` | `cast (Consumption.mgv02 as mgvbr2 preserving type)` |
+| `MnllyCrrtdTotCnsmpn3Quantity` | `cast (Consumption.mgv03 as mgvbr3 preserving type)` |
+| `MnllyCrrtdTotCnsmpn4Quantity` | `cast (Consumption.mgv04 as mgvbr4 preserving type)` |
+| `MnllyCrrtdTotCnsmpn5Quantity` | `cast (Consumption.mgv05 as mgvbr5 preserving type)` |
+| `MnllyCrrtdTotCnsmpn6Quantity` | `cast (Consumption.mgv06 as mgvbr6 preserving type)` |
+| `MnllyCrrtdTotCnsmpn7Quantity` | `cast (Consumption.mgv07 as mgvbr7 preserving type)` |
+| `MnllyCrrtdTotCnsmpn8Quantity` | `cast (Consumption.mgv08 as mgvbr8 preserving type)` |
+| `MnllyCrrtdTotCnsmpn9Quantity` | `cast (Consumption.mgv09 as mgvbr9 preserving type)` |
+| `MnllyCrrtdTotCnsmpn10Quantity` | `cast (Consumption.mgv10 as mgvbr10 preserving type)` |
+| `MnllyCrrtdTotCnsmpn11Quantity` | `cast (Consumption.mgv11 as mgvbr11 preserving type)` |
+| `MnllyCrrtdTotCnsmpn12Quantity` | `cast (Consumption.mgv12 as mgvbr12 preserving type)` |
+| `MnllyCrrtdTotCnsmpn13Quantity` | `cast (Consumption.mgv13 as mgvbr13 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn1Qty` | `cast (Consumption.muv01 as muvbr1 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn2Qty` | `cast (Consumption.muv02 as muvbr2 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn3Qty` | `cast (Consumption.muv03 as muvbr3 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn4Qty` | `cast (Consumption.muv04 as muvbr4 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn5Qty` | `cast (Consumption.muv05 as muvbr5 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn6Qty` | `cast (Consumption.muv06 as muvbr6 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn7Qty` | `cast (Consumption.muv07 as muvbr7 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn8Qty` | `cast (Consumption.muv08 as muvbr8 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn9Qty` | `cast (Consumption.muv09 as muvbr9 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn10Qty` | `cast (Consumption.muv10 as muvbr10 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn11Qty` | `cast (Consumption.muv11 as muvbr11 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn12Qty` | `cast (Consumption.muv12 as muvbr12 preserving type)` |
+| `MnllyCrrtdUnplndCnsmpn13Qty` | `cast (Consumption.muv13 as muvbr13 preserving type)` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
-| `_Product._BaseUnitOfMeasure` | *Association* |
+| `_BaseUnitOfMeasure` | *Association* |
 
 ## Associations
 

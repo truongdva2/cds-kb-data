@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH}` | `defaultSearchElement: true, ranking: #HIGH}` |
+| `KanbanCtrlCycleLifeCycleStatus` | `cast ( right(domvalue_l, 1) as vdm_lcm_status preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

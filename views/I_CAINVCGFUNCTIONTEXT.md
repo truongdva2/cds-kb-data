@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CAInvcgFunction` | `_tfk2601t.inv_function` |
 | `Language` | `_tfk2601t.langu` |
-| `_tfk2601t.text         as CAInvcgFunctionText` | *Association* |
+| `CAInvcgFunctionText` | `_tfk2601t.text` |
 | `_CAInvcgFunction` | *Association* |
 | `_Language` | *Association* |
 

@@ -30,12 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_periodcategory preserving type )` | `cast( pertp` |
-| `fincs_periodcategory_forml preserving type )` | `cast( forml` |
+| `ConsolidationPeriodCategory` | `cast( pertp as fincs_periodcategory preserving type )` |
+| `CnsldtnPerdCatFormulaValue` | `cast( forml as fincs_periodcategory_forml preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

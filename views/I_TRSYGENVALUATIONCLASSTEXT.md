@@ -34,8 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `ftr_gen_fin_instr_val_class)` | `cast(com_val_class` |
-| `ftr_gen_fin_instr_val_cls_name)` | `cast(com_val_cl_name` |
+| `TreasuryGeneralValuationClass` | `cast(com_val_class as ftr_gen_fin_instr_val_class)` |
+| `TrsyGeneralValuationClassName` | `cast(com_val_cl_name as ftr_gen_fin_instr_val_cls_name)` |
 | `_GeneralValuationClass` | *Association* |
 | `_Language` | *Association* |
 

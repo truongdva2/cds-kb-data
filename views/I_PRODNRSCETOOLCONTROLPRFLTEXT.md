@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProdnRsceToolControlProfile` | `txt.steuf` |
+| `Language` | `txt.spras` |
 | `ProdnRsceToolControlPrflName` | `txt.stftxt` |
 | `_Language` | *Association* |
 

@@ -31,8 +31,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `lgnum` |
-| `/scwm/tanum_noconv preserving type )` | `cast( tanum` |
-| `/scwm/tapos_noconv preserving type )` | `cast( tapos` |
+| `WarehouseTask` | `cast( tanum as /scwm/tanum_noconv preserving type )` |
+| `WarehouseTaskItem` | `cast( tapos as /scwm/tapos_noconv preserving type )` |
 | `WarehouseTaskExceptionCode` | `exccode` |
 | `BusinessContext` | `buscon` |
 | `BusinessContextExecutionStep` | `exec_step` |

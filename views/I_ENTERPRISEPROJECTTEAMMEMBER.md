@@ -39,7 +39,6 @@ tags:
 | `CreationDateTime` | `created_on` |
 | `LastChangedByUser` | `changed_by` |
 | `LastChangeDateTime` | `changed_on` |
-| `/* Associations */` | `/* Associations */` |
 | `_Project` | *Association* |
 | `_Entitlement` | *Association* |
 
@@ -49,7 +48,6 @@ tags:
 |---|---|---|
 | `_Project` | `I_EnterpriseProject` | [1..1] |
 | `_Entitlement` | `I_EntProjectEntitlement` | [0..*] |
-| `_BusinessPartner` | `I_BusinessPartner` | [1..1] |
 
 ## Source Code
 

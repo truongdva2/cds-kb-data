@@ -30,30 +30,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SupplierInvoiceItem       : cobl_nr;` | `SupplierInvoiceItem       : cobl_nr;` |
-| `GLAccount                 : saknr;` | `GLAccount                 : saknr;` |
-| `CompanyCode               : bukrs;` | `CompanyCode               : bukrs;` |
-| `SupplierInvoiceItemText   : sgtxt;` | `SupplierInvoiceItemText   : sgtxt;` |
-| `CostCenter                : kostl;` | `CostCenter                : kostl;` |
-| `SalesOrder                : vbeln;` | `SalesOrder                : vbeln;` |
-| `SalesOrderItem            : vbelp;` | `SalesOrderItem            : vbelp;` |
-| `InternalOrder             : aufnr;` | `InternalOrder             : aufnr;` |
-| `ProfitCenter              : prctr;` | `ProfitCenter              : prctr;` |
-| `BusinessArea              : gsber;` | `BusinessArea              : gsber;` |
-| `CostObject                : kstrg;` | `CostObject                : kstrg;` |
-| `WBSElementInternalID      : ps_s4_pspnr;` | `WBSElementInternalID      : ps_s4_pspnr;` |
-| `CostCtrActivityType       : lstar;` | `CostCtrActivityType       : lstar;` |
-| `PersonnelNumber           : pernr_d;` | `PersonnelNumber           : pernr_d;` |
-| `BusinessProcess           : co_prznr;` | `BusinessProcess           : co_prznr;` |
-| `AssignmentReference       : dzuonr;` | `AssignmentReference       : dzuonr;` |
-| `IsNotCashDiscountLiable   : xskrl;` | `IsNotCashDiscountLiable   : xskrl;` |
-| `WorkItem                  : /cpd/pfp_workitem_id;` | `WorkItem                  : /cpd/pfp_workitem_id;` |
-| `FinancialTransactionType  : rmvct;` | `FinancialTransactionType  : rmvct;` |
-| `_SupplierInvoice          : association to parent D_SuplrInvcChangeP;` | *Association* |
+| `SupplierInvoiceItem` | `cobl_nr` |
+| `GLAccount` | `saknr` |
+| `CompanyCode` | `bukrs` |
+| `SupplierInvoiceItemText` | `sgtxt` |
+| `CostCenter` | `kostl` |
+| `SalesOrder` | `vbeln` |
+| `SalesOrderItem` | `vbelp` |
+| `InternalOrder` | `aufnr` |
+| `ProfitCenter` | `prctr` |
+| `BusinessArea` | `gsber` |
+| `CostObject` | `kstrg` |
+| `WBSElementInternalID` | `ps_s4_pspnr` |
+| `CostCtrActivityType` | `lstar` |
+| `PersonnelNumber` | `pernr_d` |
+| `BusinessProcess` | `co_prznr` |
+| `AssignmentReference` | `dzuonr` |
+| `IsNotCashDiscountLiable` | `xskrl` |
+| `WorkItem` | `/cpd/pfp_workitem_id` |
+| `FinancialTransactionType` | `rmvct` |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplierInvoice` | `D_SuplrInvcChangeP` | — |
 
 ## Source Code
 

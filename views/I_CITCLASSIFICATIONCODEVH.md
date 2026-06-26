@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CorporateIncomeTaxHierarchy` | `CorporateIncomeTaxHierarchy` |
-| `key HierarchyNode` | `HierarchyNode` |
-| `key CITClassificationCode` | `CITClassificationCode` |
+| `CorporateIncomeTaxHierarchy` | `CorporateIncomeTaxHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `CITClassificationCode` | `CITClassificationCode` |
 | `ParentNode` | `ParentNode` |
 | `NodeType` | `NodeType` |
 | `CITClassificationCodeDesc` | `CITClassificationCodeDesc` |

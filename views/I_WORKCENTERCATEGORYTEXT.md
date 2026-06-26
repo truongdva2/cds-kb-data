@@ -33,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `pph_apverwetxt preserving type)` | `cast(txt.ktext` |
+| `WorkCenterCategoryCode` | `txt.verwe` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `WorkCenterCategoryName` | `cast(txt.ktext as pph_apverwetxt preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

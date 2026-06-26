@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SLCQnaireUUID,  //fix wrong mapping in underlying views, adapt if underlying view is corrected` | `SLCQnairePurgCategoryUUID` |
-| `SLCQnairePurgCategoryUUID,    //fix wrong mapping in underlying views, adapt if underlying view is corrected` | `SLCQnaireUUID` |
+| `SLCQnaireUUID` | `SLCQnairePurgCategoryUUID` |
+| `SLCQnairePurgCategoryUUID` | `SLCQnaireUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 
 ## Associations

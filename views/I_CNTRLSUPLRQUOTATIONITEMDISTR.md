@@ -31,36 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotation` | `R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotation` |
-| `key R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotationItem` | `R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotationItem` |
-| `key R_CntrlSuplrQuotationItemDistr.DistributionKey` | `R_CntrlSuplrQuotationItemDistr.DistributionKey` |
-| `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentCategory` | `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentCategory` |
-| `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentType` | `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentType` |
-| `R_CntrlSuplrQuotationItemDistr.PurchasingOrganization` | `R_CntrlSuplrQuotationItemDistr.PurchasingOrganization` |
-| `R_CntrlSuplrQuotationItemDistr.CompanyCode` | `R_CntrlSuplrQuotationItemDistr.CompanyCode` |
-| `R_CntrlSuplrQuotationItemDistr.Plant` | `R_CntrlSuplrQuotationItemDistr.Plant` |
-| `R_CntrlSuplrQuotationItemDistr.LogicalSystem` | `R_CntrlSuplrQuotationItemDistr.LogicalSystem` |
-| `R_CntrlSuplrQuotationItemDistr.DocumentCurrency` | `R_CntrlSuplrQuotationItemDistr.DocumentCurrency` |
-| `R_CntrlSuplrQuotationItemDistr.Currency` | `R_CntrlSuplrQuotationItemDistr.Currency` |
-| `R_CntrlSuplrQuotationItemDistr.PurchasingGroup` | `R_CntrlSuplrQuotationItemDistr.PurchasingGroup` |
-| `R_CntrlSuplrQuotationItemDistr.StorageLocation` | `R_CntrlSuplrQuotationItemDistr.StorageLocation` |
-| `R_CntrlSuplrQuotationItemDistr.CntrlPurgDistributionInPercent` | `R_CntrlSuplrQuotationItemDistr.CntrlPurgDistributionInPercent` |
-| `R_CntrlSuplrQuotationItemDistr.TargetQuantity` | `R_CntrlSuplrQuotationItemDistr.TargetQuantity` |
-| `R_CntrlSuplrQuotationItemDistr.TargetAmount` | `R_CntrlSuplrQuotationItemDistr.TargetAmount` |
-| `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistributionStatus` | `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistributionStatus` |
-| `R_CntrlSuplrQuotationItemDistr.IsDeleted` | `R_CntrlSuplrQuotationItemDistr.IsDeleted` |
-| `R_CntrlSuplrQuotationItemDistr.PurgDocItmDistrLineDeltnCode` | `R_CntrlSuplrQuotationItemDistr.PurgDocItmDistrLineDeltnCode` |
-| `R_CntrlSuplrQuotationItemDistr.OrderQuantityUnit` | `R_CntrlSuplrQuotationItemDistr.OrderQuantityUnit` |
-| `R_CntrlSuplrQuotationItemDistr.DistributionType` | `R_CntrlSuplrQuotationItemDistr.DistributionType` |
-| `R_CntrlSuplrQuotationItemDistr.DistrResponseMessageUUID` | `R_CntrlSuplrQuotationItemDistr.DistrResponseMessageUUID` |
-| `R_CntrlSuplrQuotationItemDistr.ItemDistributionIsRelevant` | `R_CntrlSuplrQuotationItemDistr.ItemDistributionIsRelevant` |
-| `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistrRelevanceCode` | `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistrRelevanceCode` |
-| `R_CntrlSuplrQuotationItemDistr.ReferenceHeaderDistributionKey` | `R_CntrlSuplrQuotationItemDistr.ReferenceHeaderDistributionKey` |
-| `R_CntrlSuplrQuotationItemDistr.ProcurementHubSourceSystem` | `R_CntrlSuplrQuotationItemDistr.ProcurementHubSourceSystem` |
-| `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurchaseRequisition` | `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurchaseRequisition` |
-| `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurRequisitionItem` | `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurRequisitionItem` |
-| `R_CntrlSuplrQuotationItemDistr.PurReqnReleaseStatus` | `R_CntrlSuplrQuotationItemDistr.PurReqnReleaseStatus` |
-| `/* Associations */` | `/* Associations */` |
+| `CentralSupplierQuotation` | `R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotation` |
+| `CentralSupplierQuotationItem` | `R_CntrlSuplrQuotationItemDistr.CentralSupplierQuotationItem` |
+| `DistributionKey` | `R_CntrlSuplrQuotationItemDistr.DistributionKey` |
+| `PurchasingDocumentCategory` | `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentCategory` |
+| `PurchasingDocumentType` | `R_CntrlSuplrQuotationItemDistr.PurchasingDocumentType` |
+| `PurchasingOrganization` | `R_CntrlSuplrQuotationItemDistr.PurchasingOrganization` |
+| `CompanyCode` | `R_CntrlSuplrQuotationItemDistr.CompanyCode` |
+| `Plant` | `R_CntrlSuplrQuotationItemDistr.Plant` |
+| `LogicalSystem` | `R_CntrlSuplrQuotationItemDistr.LogicalSystem` |
+| `DocumentCurrency` | `R_CntrlSuplrQuotationItemDistr.DocumentCurrency` |
+| `Currency` | `R_CntrlSuplrQuotationItemDistr.Currency` |
+| `PurchasingGroup` | `R_CntrlSuplrQuotationItemDistr.PurchasingGroup` |
+| `StorageLocation` | `R_CntrlSuplrQuotationItemDistr.StorageLocation` |
+| `CntrlPurgDistributionInPercent` | `R_CntrlSuplrQuotationItemDistr.CntrlPurgDistributionInPercent` |
+| `TargetQuantity` | `R_CntrlSuplrQuotationItemDistr.TargetQuantity` |
+| `TargetAmount` | `R_CntrlSuplrQuotationItemDistr.TargetAmount` |
+| `PurgDocItemDistributionStatus` | `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistributionStatus` |
+| `IsDeleted` | `R_CntrlSuplrQuotationItemDistr.IsDeleted` |
+| `PurgDocItmDistrLineDeltnCode` | `R_CntrlSuplrQuotationItemDistr.PurgDocItmDistrLineDeltnCode` |
+| `OrderQuantityUnit` | `R_CntrlSuplrQuotationItemDistr.OrderQuantityUnit` |
+| `DistributionType` | `R_CntrlSuplrQuotationItemDistr.DistributionType` |
+| `DistrResponseMessageUUID` | `R_CntrlSuplrQuotationItemDistr.DistrResponseMessageUUID` |
+| `ItemDistributionIsRelevant` | `R_CntrlSuplrQuotationItemDistr.ItemDistributionIsRelevant` |
+| `PurgDocItemDistrRelevanceCode` | `R_CntrlSuplrQuotationItemDistr.PurgDocItemDistrRelevanceCode` |
+| `ReferenceHeaderDistributionKey` | `R_CntrlSuplrQuotationItemDistr.ReferenceHeaderDistributionKey` |
+| `ProcurementHubSourceSystem` | `R_CntrlSuplrQuotationItemDistr.ProcurementHubSourceSystem` |
+| `ProcmtHubPurchaseRequisition` | `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurchaseRequisition` |
+| `ProcmtHubPurRequisitionItem` | `R_CntrlSuplrQuotationItemDistr.ProcmtHubPurRequisitionItem` |
+| `PurReqnReleaseStatus` | `R_CntrlSuplrQuotationItemDistr.PurReqnReleaseStatus` |
 | `_CentralSupplierQuotation` | *Association* |
 | `_CntrlSupplierQuotationItem` | *Association* |
 

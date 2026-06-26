@@ -33,15 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ArchitecturalObjectNumber` | `ArchitecturalObjectNumber` |
-| `key TechnicalObjectType` | `TechnicalObjectType` |
-| `key DocumentText` | `DocumentText` |
-| `key Language` | `Language` |
-| `key PurchaseContract` | `PurchaseContract` |
+| `ArchitecturalObjectNumber` | `ArchitecturalObjectNumber` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `DocumentText` | `DocumentText` |
+| `Language` | `Language` |
+| `PurchaseContract` | `PurchaseContract` |
 | `NoteDescription` | `NoteDescription` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseContract : redirected to parent I_PurchaseContractTP` | *Association* |
 
 ## Associations
 

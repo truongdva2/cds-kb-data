@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMStatus` | `LglCntntMStatus` |
-| `key Language` | `Language` |
-| `LglCntntMStatusName` | `LglCntntMStatusName` |
+| `LglCntntMStatus` | `LglCntntMStatus` |
+| `Language` | `Language` |
 
 ## Associations
 

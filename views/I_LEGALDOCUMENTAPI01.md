@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
+| `LglCntntMDocumentUUID` | `LglCntntMDocumentUUID` |
 | `LglCntntMDocument` | `LglCntntMDocument` |
 | `LglCntntMDocumentIsTopVersion` | `LglCntntMDocumentIsTopVersion` |
 | `LegalTransaction` | `LegalTransaction` |
@@ -42,12 +42,11 @@ tags:
 | `DocumentDescription` | `DocumentDescription` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
 | `DocumentVersion` | `DocumentVersion` |
-| `LegalDocumentVersion, //new field for document version number(NUMC4)` | `LegalDocumentVersion, //new field for document version number(NUMC4)` |
+| `LegalDocumentVersion` | `LegalDocumentVersion` |
 | `LglCntntMChangedByUser` | `LglCntntMChangedByUser` |
 | `LglCntntMChangedUTCDateTime` | `LglCntntMChangedUTCDateTime` |
 | `LglCntntMCreatedByUser` | `LglCntntMCreatedByUser` |
 | `LglCntntMCreatedUTCDateTime` | `LglCntntMCreatedUTCDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_LegalTransaction` | *Association* |
 
 ## Associations

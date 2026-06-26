@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Workflowtask.WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
-| `banfn )` | `cast(substring(_WorkflowTaskApplObject.TechnicalWrkflwObject, 1 , 10 )` |
-| `_PurchaseRequisition.ProcmtHubPurRequisitionType                                                              as ProcmtHubPurRequisitionType` | *Association* |
-| `_PurchaseRequisition.ProcurementHubSourceSystem                                                               as ProcurementHubSourceSystem` | *Association* |
-| `sww_lsd )` | `cast(tstmp_to_dats( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_lst )` | `cast(tstmp_to_tims( _Workflowtask.WrkflwTskCreationUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_led )` | `cast(tstmp_to_dats( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
-| `sww_let )` | `cast(tstmp_to_tims( _TaskDueDate.WorkflowTaskDueUTCDateTime, 'UTC', $session.client, 'NULL' )` |
+| `WorkflowTaskInternalID` | `_Workflowtask.WorkflowTaskInternalID` |
+| `ProcmtHubPurchaseRequisition` | `cast(…)` |
+| `ProcmtHubPurRequisitionType` | `_PurchaseRequisition.ProcmtHubPurRequisitionType` |
+| `ProcurementHubSourceSystem` | `_PurchaseRequisition.ProcurementHubSourceSystem` |
+| `PrmtHbWrkflwTskCrtnUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskCrtnUTCTme` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCDte` | `cast(…)` |
+| `PrmtHbWrkflwTskDuUTCTme` | `cast(…)` |
 
 ## Associations
 

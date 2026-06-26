@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `EG_EDocCancellationCode` | `EG_EDocCancellationCode` |
+| `EG_EDocLanguage` | `EG_EDocLanguage` |
 | `EG_EDocCanclnReasonText` | `EG_EDocCanclnReasonText` |
 
 ## Associations

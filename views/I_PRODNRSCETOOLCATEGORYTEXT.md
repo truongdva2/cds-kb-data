@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ProdnRsceToolCategory` | `fhmar` |
+| `Language` | `spras` |
 | `ProdnRsceToolCategoryName` | `faktx` |
 | `ProdnRsceToolCategoryExtCode` | `fhmar_ext` |
 | `_Language` | *Association* |

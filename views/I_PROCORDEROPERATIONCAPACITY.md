@@ -29,44 +29,58 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` | `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` |
-| `CapReq.CapacityInternalID` | `CapReq.CapacityInternalID` |
-| `CapReq.CapacityRequirementDistrKey` | `CapReq.CapacityRequirementDistrKey` |
-| `CapReq.SuperiorOperationInternalID` | `CapReq.SuperiorOperationInternalID` |
-| `CapReq.CapacityRequirementUnit` | `CapReq.CapacityRequirementUnit` |
-| `CapReq.ScheduledCapReqOpSegProcgDurn` | `CapReq.ScheduledCapReqOpSegProcgDurn` |
-| `CapReq.RemainingCapReqOpSegProcgDurn` | `CapReq.RemainingCapReqOpSegProcgDurn` |
-| `CapReq.OperationEarliestStartDate` | `CapReq.OperationEarliestStartDate` |
-| `CapReq.OperationEarliestStartTime` | `CapReq.OperationEarliestStartTime` |
-| `CapReq.OperationEarliestEndDate` | `CapReq.OperationEarliestEndDate` |
-| `CapReq.OperationEarliestEndTime` | `CapReq.OperationEarliestEndTime` |
-| `CapReq.OperationLatestStartDate` | `CapReq.OperationLatestStartDate` |
-| `CapReq.OperationLatestStartTime` | `CapReq.OperationLatestStartTime` |
-| `CapReq.OperationLatestEndDate` | `CapReq.OperationLatestEndDate` |
-| `CapReq.OperationLatestEndTime` | `CapReq.OperationLatestEndTime` |
-| `CapReq.ActualStartDate` | `CapReq.ActualStartDate` |
-| `CapReq.ActualStartTime` | `CapReq.ActualStartTime` |
-| `CapReq.ActualEndDate` | `CapReq.ActualEndDate` |
-| `CapReq.ActualEndTime` | `CapReq.ActualEndTime` |
-| `CapReq.ErlstSchedldProcStrtDte` | `CapReq.ErlstSchedldProcStrtDte` |
-| `CapReq.ErlstSchedldProcStrtTime` | `CapReq.ErlstSchedldProcStrtTime` |
-| `CapReq.ErlstSchedldTrdwnStrtDte` | `CapReq.ErlstSchedldTrdwnStrtDte` |
-| `CapReq.ErlstSchedldTrdwnStrtTime` | `CapReq.ErlstSchedldTrdwnStrtTime` |
-| `CapReq.LtstSchedldProcStrtDte` | `CapReq.LtstSchedldProcStrtDte` |
-| `CapReq.LtstSchedldProcStrtTime` | `CapReq.LtstSchedldProcStrtTime` |
-| `CapReq.LtstSchedldTrdwnStrtDte` | `CapReq.LtstSchedldTrdwnStrtDte` |
-| `CapReq.LtstSchedldTrdwnStrtTime` | `CapReq.LtstSchedldTrdwnStrtTime` |
+| `CapacityRequirement` | `CapReq.CapacityRequirement` |
+| `CapacityRequirementItem` | `CapReq.CapacityRequirementItem` |
+| `CapacityRqmtItemCapacity` | `-- representative key key CapReq.CapacityRqmtItemCapacity` |
+| `ProcessOrder` | `cast(MfgOrderOperation.ManufacturingOrder as co_bid preserving type)` |
+| `OrderInternalID` | `MfgOrderOperation.OrderInternalBillOfOperations` |
+| `OrderOperationInternalID` | `MfgOrderOperation.OrderIntBillOfOperationsItem` |
+| `ManufacturingOrderCategory` | `MfgOrderOperation.ManufacturingOrderCategory` |
+| `ProcessOrderType` | `MfgOrderOperation.ManufacturingOrderType` |
+| `Plant` | `MfgOrderOperation.ProductionPlant` |
+| `ProcessOrderOperation` | `MfgOrderOperation.ManufacturingOrderOperation_2` |
+| `OperationIsPhase` | `MfgOrderOperation.MfgOrderOperationIsPhase` |
+| `SuperiorOperationIntIDOfPhase` | `MfgOrderOperation.SuperiorOperationIntIDOfPhase` |
+| `WorkCenterInternalID` | `MfgOrderOperation.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `MfgOrderOperation.WorkCenterTypeCode_2` |
+| `CapacityRqmtConfirmation` | `CapReq.CapacityRqmtConfirmation` |
+| `CapacityInternalID` | `CapReq.CapacityInternalID` |
+| `CapacityRequirementDistrKey` | `CapReq.CapacityRequirementDistrKey` |
+| `SuperiorOperationInternalID` | `CapReq.SuperiorOperationInternalID` |
+| `CapacityRequirementUnit` | `CapReq.CapacityRequirementUnit` |
+| `ScheduledCapReqOpSegProcgDurn` | `CapReq.ScheduledCapReqOpSegProcgDurn` |
+| `RemainingCapReqOpSegProcgDurn` | `CapReq.RemainingCapReqOpSegProcgDurn` |
+| `OperationEarliestStartDate` | `CapReq.OperationEarliestStartDate` |
+| `OperationEarliestStartTime` | `CapReq.OperationEarliestStartTime` |
+| `OperationEarliestEndDate` | `CapReq.OperationEarliestEndDate` |
+| `OperationEarliestEndTime` | `CapReq.OperationEarliestEndTime` |
+| `OperationLatestStartDate` | `CapReq.OperationLatestStartDate` |
+| `OperationLatestStartTime` | `CapReq.OperationLatestStartTime` |
+| `OperationLatestEndDate` | `CapReq.OperationLatestEndDate` |
+| `OperationLatestEndTime` | `CapReq.OperationLatestEndTime` |
+| `ActualStartDate` | `CapReq.ActualStartDate` |
+| `ActualStartTime` | `CapReq.ActualStartTime` |
+| `ActualEndDate` | `CapReq.ActualEndDate` |
+| `ActualEndTime` | `CapReq.ActualEndTime` |
+| `ErlstSchedldProcStrtDte` | `CapReq.ErlstSchedldProcStrtDte` |
+| `ErlstSchedldProcStrtTime` | `CapReq.ErlstSchedldProcStrtTime` |
+| `ErlstSchedldTrdwnStrtDte` | `CapReq.ErlstSchedldTrdwnStrtDte` |
+| `ErlstSchedldTrdwnStrtTime` | `CapReq.ErlstSchedldTrdwnStrtTime` |
+| `LtstSchedldProcStrtDte` | `CapReq.LtstSchedldProcStrtDte` |
+| `LtstSchedldProcStrtTime` | `CapReq.LtstSchedldProcStrtTime` |
+| `LtstSchedldTrdwnStrtDte` | `CapReq.LtstSchedldTrdwnStrtDte` |
+| `LtstSchedldTrdwnStrtTime` | `CapReq.LtstSchedldTrdwnStrtTime` |
 | `_ProcessOrder` | *Association* |
 | `_OrderInternalID` | *Association* |
 | `_ProcessOrderType` | *Association* |
 | `_ProcessOrderOperation` | *Association* |
 | `_Plant` | *Association* |
 | `_WorkCenter` | *Association* |
-| `CapReq._CapacityRequirement` | `CapReq._CapacityRequirement` |
-| `CapReq._CapacityRequirementItem` | `CapReq._CapacityRequirementItem` |
-| `CapReq._CapacityRequirementConf` | `CapReq._CapacityRequirementConf` |
-| `CapReq._Capacity` | `CapReq._Capacity` |
-| `CapReq._UnitOfMeasure` | `CapReq._UnitOfMeasure` |
+| `_CapacityRequirement` | *Association* |
+| `_CapacityRequirementItem` | *Association* |
+| `_CapacityRequirementConf` | *Association* |
+| `_Capacity` | *Association* |
+| `_UnitOfMeasure` | *Association* |
 
 ## Associations
 

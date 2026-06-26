@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `cf_ktsch preserving type)` | `cast(t435.vlsch` |
+| `ProdnRsceToolStandardTextCode` | `cast(t435.vlsch as cf_ktsch preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

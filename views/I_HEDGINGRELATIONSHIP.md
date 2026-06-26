@@ -30,21 +30,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hrel_uuid              preserving type)` | `cast(hrel.os_guid` |
-| `HedgingRelationship, //HedgingRelationshipNumber` | `hrel.hrel_number` |
-| `ftr_gen_hrel_fiscal_year       preserving type)` | `cast(hrel.fiscal_year` |
-| `tpm_hrel_descr                 preserving type)` | `cast(hrel.description` |
-| `bukrs                          preserving type)` | `cast(hrel.tr_acc_code` |
-| `tpm_val_area                   preserving type)` | `cast(hrel.valuation_area` |
-| `ftr_gen_hrel_status            preserving type)` | `cast(hrel.hrel_status` |
-| `ftr_gen_hdgg_profile           preserving type)` | `cast(hrel.hrel_profile` |
-| `ftr_gen_hrel_risk_currency     preserving type)` | `cast(hrel.hrel_risk_curr` |
-| `ftr_gen_cost_hres_calc_rule    preserving type)` | `cast(hrel.hres_calc_rule` |
+| `HedgingRelationshipUUID` | `cast(hrel.os_guid as ftr_gen_hrel_uuid preserving type)` |
+| `HedgingRelationship` | `hrel.hrel_number` |
+| `HedgingRelationshipFiscalYear` | `cast(hrel.fiscal_year as ftr_gen_hrel_fiscal_year preserving type)` |
+| `HedgingRelationshipName` | `cast(hrel.description as tpm_hrel_descr preserving type)` |
+| `CompanyCode` | `cast(hrel.tr_acc_code as bukrs preserving type)` |
+| `TreasuryValuationArea` | `cast(hrel.valuation_area as tpm_val_area preserving type)` |
+| `HedgingRelationshipStatus` | `cast(hrel.hrel_status as ftr_gen_hrel_status preserving type)` |
+| `HedgingProfile` | `cast(hrel.hrel_profile as ftr_gen_hdgg_profile preserving type)` |
+| `TrsyHedgingRelshpRiskCurrency` | `cast(hrel.hrel_risk_curr as ftr_gen_hrel_risk_currency preserving type)` |
+| `TrsyCostHdggRsrvCalcRule` | `cast(hrel.hres_calc_rule as ftr_gen_cost_hres_calc_rule preserving type)` |
 | `HedgingArea` | `hrel.hrel_hedging_area` |
 | `FinNetOpenExposureSnapshot` | `hrel.hrel_snapshot_id` |
 | `TrsyHdggRelshpDsgntnSplitID` | `hrel.hrel_split_id` |
-| `ftr_gen_hrel_bal_sht_recgn_dte preserving type)` | `cast(hrel.hrel_bal_sheet_rec_date` |
-| `ftr_gen_hrel_altv_reclass_date preserving type)` | `cast(hrel.hrel_reclass_st_date` |
+| `TrsyHdggRelshpBalShtRecgnDate` | `cast(…)` |
+| `TrsyAltvReclassificationDate` | `cast(…)` |
 | `_TrsyHedgingRelshpProfile` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_FiscalYear` | *Association* |
@@ -54,6 +54,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TrsyHedgingRelshpProfile` | `I_TrsyHedgingRelshpProfile` | [0..1] |
 | `_CompanyCode` | `I_CompanyCode` | [0..1] |
 | `_FiscalYear` | `I_FiscalYearForCompanyCode` | [0..1] |
 | `_TreasuryValuationArea` | `I_TreasuryValuationArea` | [0..1] |

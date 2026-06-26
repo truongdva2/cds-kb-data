@@ -32,9 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` | `name: 'I_MfgBillOfOperationsStdVH', element: 'BillOfOperationsVariant' } } ]` |
-| `key mapl.BillOfOperationsVariant` | `mapl.BillOfOperationsVariant` |
-| `key mapl.BOOToMaterialInternalID` | `mapl.BOOToMaterialInternalID` |
+| `Product` | `mapl.Material` |
+| `Plant` | `mapl.Plant` |
+| `BillOfOperationsType` | `mapl.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `mapl.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `mapl.BillOfOperationsVariant` |
+| `BOOToMaterialInternalID` | `-- Representative Key key mapl.BOOToMaterialInternalID` |
 | `_Product` | *Association* |
 | `_ProductPlant` | *Association* |
 | `_ProductPlant2` | *Association* |

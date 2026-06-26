@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `lgnum` |
-| `ewm_de_wavetemplate )` | `cast( tmplt` |
+| `EWMWaveTemplate` | `cast( tmplt as ewm_de_wavetemplate )` |
 | `EWMWaveReleaseMethod` | `rls_mthd` |
 | `EWMWaveType` | `wave_type` |
 | `EWMWaveCategory` | `wave_cat` |

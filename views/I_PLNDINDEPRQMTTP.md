@@ -31,13 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key MRPArea` | `MRPArea` |
-| `key PlndIndepRqmtType` | `PlndIndepRqmtType` |
-| `key PlndIndepRqmtVersion` | `PlndIndepRqmtVersion` |
-| `key RequirementPlan` | `RequirementPlan` |
-| `key RequirementSegment` | `RequirementSegment` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `MRPArea` | `MRPArea` |
+| `PlndIndepRqmtType` | `PlndIndepRqmtType` |
+| `PlndIndepRqmtVersion` | `PlndIndepRqmtVersion` |
+| `RequirementPlan` | `RequirementPlan` |
+| `RequirementSegment` | `RequirementSegment` |
 | `RequirementPlanIsExternal` | `RequirementPlanIsExternal` |
 | `PlndIndepRqmtInternalID` | `PlndIndepRqmtInternalID` |
 | `PlndIndepRqmtIsActive` | `PlndIndepRqmtIsActive` |
@@ -49,7 +49,6 @@ tags:
 | `InventorySpecialStockValnType` | `InventorySpecialStockValnType` |
 | `PlndIndepRqmtOwningApplication` | `PlndIndepRqmtOwningApplication` |
 | `PlndIndepRqmtLastChgdDateTime` | `PlndIndepRqmtLastChgdDateTime` |
-| `_PlndIndepRqmtItem : redirected to composition child I_PlndIndepRqmtItemTP` | *Association* |
 
 ## Associations
 

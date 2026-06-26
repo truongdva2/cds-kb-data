@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProcessingStatus : dpr_tv_proc_status_sup;` | `ProcessingStatus : dpr_tv_proc_status_sup;` |
+| `ProcessingStatus` | `dpr_tv_proc_status_sup` |
 
 ## Associations
 

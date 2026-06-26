@@ -32,9 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingAreaStdVH'` | `name:    'I_ControllingAreaStdVH'` |
-| `element: 'ControllingArea' }` | `element: 'ControllingArea' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `t001.bukrs` |
+| `CompanyCodeName` | `t001.butxt` |
+| `CityName` | `t001.ort01` |
+| `Country` | `t001.land1` |
+| `Currency` | `t001.waers` |
+| `Language` | `t001.spras` |
+| `ChartOfAccounts` | `t001.ktopl` |
+| `FiscalYearVariant` | `t001.periv` |
+| `Company` | `t001.rcomp` |
+| `CreditControlArea` | `t001.kkber` |
+| `CountryChartOfAccounts` | `t001.ktop2` |
+| `FinancialManagementArea` | `t001.fikrs` |
+| `AddressID` | `t001.adrnr` |
+| `TaxableEntity` | `t001.umkrs` |
+| `VATRegistration` | `t001.stceg` |
+| `ExtendedWhldgTaxIsActive` | `t001.wt_newwt` |
 | `ControllingArea` | `tka02.kokrs` |
 | `FieldStatusVariant` | `t001.fstva` |
 | `NonTaxableTransactionTaxCode` | `t001.mwska` |

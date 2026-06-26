@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `association : '_CentralReqForQuotationItem' }` | `association : '_CentralReqForQuotationItem' }` |
-| `key CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
-| `key DistributionKey` | `DistributionKey` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
+| `DistributionKey` | `DistributionKey` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -55,9 +55,6 @@ tags:
 | `ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
 | `PurReqnReleaseStatus` | `PurReqnReleaseStatus` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralReqForQuotationItem : redirected to parent I_CntrlReqForQuotationItemTP_2` | *Association* |
-| `_CntrlRFQ                   : redirected to I_CntrlRequestForQuotationTP_2` | *Association* |
 
 ## Associations
 

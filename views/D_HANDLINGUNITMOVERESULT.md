@@ -29,21 +29,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key HandlingUnitExternalID        : exidv;` | `HandlingUnitExternalID        : exidv;` |
-| `Warehouse                     : lgnum;` | `Warehouse                     : lgnum;` |
-| `HandlingUnitCharUUID          : lo_hu_uuid_char32;` | `HandlingUnitCharUUID          : lo_hu_uuid_char32;` |
-| `PackagingMaterial             : vhilm;` | `PackagingMaterial             : vhilm;` |
-| `PackagingMaterialType         : vhart;` | `PackagingMaterialType         : vhart;` |
-| `HandlingUnitReferenceDocument : vpobjkey;` | `HandlingUnitReferenceDocument : vpobjkey;` |
-| `ParentHandlingUnitNumber      : ewm_de_hu_no_conv; // /scwm/de_huident has BADI in conversion exit that not allowed in RAP` | `ParentHandlingUnitNumber      : ewm_de_hu_no_conv; // /scwm/de_huident has BADI in conversion exit that not allowed in RAP` |
-| `HandlingUnitInternalStatus    : hu_status;` | `HandlingUnitInternalStatus    : hu_status;` |
-| `GrossWeight                   : brgew_vekp;` | `GrossWeight                   : brgew_vekp;` |
-| `WeightUnit                    : gewei;` | `WeightUnit                    : gewei;` |
-| `CreatedByUser                 : ernam;` | `CreatedByUser                 : ernam;` |
-| `CreationDateTime              : vdm_creationdatetime;` | `CreationDateTime              : vdm_creationdatetime;` |
-| `Plant                         : hum_werks;` | `Plant                         : hum_werks;` |
-| `ReceivingStorageLocation      : umlgo;` | `ReceivingStorageLocation      : umlgo;` |
-| `ReceivingStorageBin           : /scwm/lgpla;` | `ReceivingStorageBin           : /scwm/lgpla;` |
+| `HandlingUnitExternalID` | `exidv` |
+| `Warehouse` | `lgnum` |
+| `HandlingUnitCharUUID` | `lo_hu_uuid_char32` |
+| `PackagingMaterial` | `vhilm` |
+| `PackagingMaterialType` | `vhart` |
+| `HandlingUnitReferenceDocument` | `vpobjkey` |
+| `ParentHandlingUnitNumber` | `ewm_de_hu_no_conv` |
+| `HandlingUnitInternalStatus` | `hu_status` |
+| `GrossWeight` | `brgew_vekp` |
+| `WeightUnit` | `gewei` |
+| `CreatedByUser` | `ernam` |
+| `CreationDateTime` | `vdm_creationdatetime` |
+| `Plant` | `hum_werks` |
+| `ReceivingStorageLocation` | `umlgo` |
+| `ReceivingStorageBin` | `/scwm/lgpla` |
 
 ## Associations
 

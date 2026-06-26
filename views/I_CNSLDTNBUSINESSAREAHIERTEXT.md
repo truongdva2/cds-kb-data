@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_businessareahierarchy preserving type )` | `cast(_HierarchyText.UniversalHierHierarchyID` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_description_text_50 preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnBusinessAreaHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnBusinessAreaHierText` | `cast(…)` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

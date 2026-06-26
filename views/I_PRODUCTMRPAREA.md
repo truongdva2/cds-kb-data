@@ -30,12 +30,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` | `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` |
-| `vdm_lgfsb preserving type)` | `cast(lgfsb` |
-| `pph_rwpro preserving type)` | `cast(rwpro` |
-| `pph_shpro preserving type)` | `cast(shpro` |
-| `pph_shflg preserving type)` | `cast(shflg` |
-| `pph_ahdis preserving type)` | `cast(ahdis` |
+| `Product` | `cast(matnr as productnumber preserving type)` |
+| `MRPArea` | `-- representative key key berid` |
+| `MRPPlant` | `werks` |
+| `MRPGroup` | `disgr` |
+| `MRPType` | `dismm` |
+| `MRPController` | `cast(dispo as pph_dispo preserving type)` |
+| `MRPProfile` | `cast(dispr as vdm_dispr preserving type)` |
+| `LotSizingProcedure` | `disls` |
+| `MRPPlanningCalendar` | `mrppp` |
+| `MRPPlanningCycle` | `lfrhy` |
+| `MRPSafetyStockMethod` | `sfty_stk_meth` |
+| `MaterialProcurementProfile` | `cast(sobsl as pph_sobsl preserving type)` |
+| `ProductionStorageLocation` | `cast(lgpro as vdm_lgpro preserving type)` |
+| `DfltStorLocForExtProcmt` | `-- cast(lgfsb as vdm_lgfsb preserving type)` |
+| `RangeOfCoverageProfile` | `cast(rwpro as pph_rwpro preserving type)` |
+| `SafetyTimePeriodProfile` | `cast(shpro as pph_shpro preserving type)` |
+| `ProductSafetyTimeMRPRelevance` | `cast(shflg as pph_shflg preserving type)` |
+| `DependentRqmtMRPRelevance` | `cast(ahdis as pph_ahdis preserving type)` |
 | `StorageCostsPercentageCode` | `lagpr` |
 | `RoundingProfile` | `rdprf` |
 | `MaintenanceStatus` | `pstat` |
@@ -44,15 +56,15 @@ tags:
 | `LastChangeDate` | `aedat` |
 | `LastChangeTime` | `aezeit` |
 | `PlannedDeliveryDurationInDays` | `plifz` |
-| `vdm_fxhor preserving type)` | `cast(fxhor` |
+| `PlanningTimeFenceInDays` | `cast(fxhor as vdm_fxhor preserving type)` |
 | `RqmtQtyRcptTaktTmeInWrkgDays` | `takzt` |
 | `AssemblyScrapPercent` | `ausss` |
-| `_Product.BaseUnit                            as BaseUnit` | *Association* |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `MinimumLotSizeQuantity` | `bstmi` |
 | `MaximumLotSizeQuantity` | `bstma` |
 | `MaterialMaxStockLevelQuantity` | `mabst` |
 | `SafetyStockQuantity` | `eisbe` |
-| `vdm_bstrf preserving type)` | `cast(bstrf` |
+| `LotSizeRoundingQuantity` | `cast(bstrf as vdm_bstrf preserving type)` |
 | `ReorderThresholdQuantity` | `minbe` |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |

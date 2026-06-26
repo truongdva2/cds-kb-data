@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspLotDynamicRule` | `InspLotDynamicRule` |
+| `InspLotDynamicRule` | `InspLotDynamicRule` |
 | `_Text` | *Association* |
 
 ## Associations

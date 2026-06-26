@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `secdep_doci_status_kk )` | `cast( left( domvalue_l,1)` |
+| `CAScrtyDepDocBPItemStatus` | `cast( left( domvalue_l,1) as secdep_doci_status_kk )` |
 | `_Text` | *Association* |
 
 ## Associations

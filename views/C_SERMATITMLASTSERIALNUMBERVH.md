@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material.Material` | `Material.Material` |
-| `LastSerialNumber.EquipMaterialLastSerialNumber` | `LastSerialNumber.EquipMaterialLastSerialNumber` |
-| `Material.AuthorizationGroup` | `Material.AuthorizationGroup` |
-| `Material.MaterialGroup` | `Material.MaterialGroup` |
-| `Material.MaterialType` | `Material.MaterialType` |
-| `Material._MaterialType` | `Material._MaterialType` |
-| `Material._MaterialGroup` | `Material._MaterialGroup` |
-| `Material._Text` | `Material._Text` |
+| `Material` | `Material.Material` |
+| `EquipMaterialLastSerialNumber` | `LastSerialNumber.EquipMaterialLastSerialNumber` |
+| `AuthorizationGroup` | `Material.AuthorizationGroup` |
+| `MaterialGroup` | `Material.MaterialGroup` |
+| `MaterialType` | `Material.MaterialType` |
+| `_MaterialType` | *Association* |
+| `_MaterialGroup` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -32,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
 | `TreasuryGLAccountAssignmentRef` | `TreasuryGLAccountAssignRef.aa_ref` |
 | `_Text` | *Association* |
 

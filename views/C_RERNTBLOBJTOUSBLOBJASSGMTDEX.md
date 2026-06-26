@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RERntblObjToUsblObjAssgmtUUID` | `RERntblObjToUsblObjAssgmtUUID` |
+| `RERntblObjToUsblObjAssgmtUUID` | `RERntblObjToUsblObjAssgmtUUID` |
 | `RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
 | `RealEstateUsableObjectUUID` | `RealEstateUsableObjectUUID` |
-| `_REUsableObject.RealEstateUsableObjectNumber as RealEstateUsableObjectNumber` | *Association* |
+| `RealEstateUsableObjectNumber` | `_REUsableObject.RealEstateUsableObjectNumber` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `_RERentableObject` | *Association* |
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RERentableObject` | `I_RERentableObject` | — |
 | `_REUsableObject` | `I_REUsableObject` | [1..1] |
 
 ## Source Code

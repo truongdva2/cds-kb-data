@@ -32,37 +32,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankCountry` | `BankCountry` |
-| `key BankInternalID` | `BankInternalID` |
-| `case` | `case` |
-| `when ( _BankAddress.LongBankName is null or` | `when ( _BankAddress.LongBankName is null or` |
-| `_BankAddress.LongBankName is initial ) then BankName` | *Association* |
-| `else _BankAddress.LongBankName` | `else _BankAddress.LongBankName` |
-| `LongBankName` | `end` |
-| `case` | `case` |
-| `when ( _BankAddress.LongBankBranch is null or` | `when ( _BankAddress.LongBankBranch is null or` |
-| `_BankAddress.LongBankBranch is initial ) then BankBranch` | *Association* |
-| `else _BankAddress.LongBankBranch` | `else _BankAddress.LongBankBranch` |
-| `LongBankBranch` | `end` |
-| `case` | `case` |
-| `when ( _BankAddress.StreetName is null or` | `when ( _BankAddress.StreetName is null or` |
-| `_BankAddress.StreetName is initial ) then ShortStreetName` | *Association* |
-| `else _BankAddress.StreetName` | `else _BankAddress.StreetName` |
-| `StreetName` | `end` |
-| `case` | `case` |
-| `when ( _BankAddress.CityName is null or` | `when ( _BankAddress.CityName is null or` |
-| `_BankAddress.CityName is initial ) then ShortCityName` | *Association* |
-| `else _BankAddress.CityName` | `else _BankAddress.CityName` |
-| `CityName` | `end` |
-| `case` | `case` |
-| `when ( _BankAddress.Region is null or` | `when ( _BankAddress.Region is null or` |
-| `_BankAddress.Region is initial ) then Region` | *Association* |
-| `else _BankAddress.Region` | `else _BankAddress.Region` |
-| `AddressRegion` | `end` |
-| `bf_bank_category preserving type)` | `cast(BankCategory` |
+| `BankCountry` | `BankCountry` |
+| `BankInternalID` | `BankInternalID` |
+| `LongBankName` | `case…end` |
+| `LongBankBranch` | `case…end` |
+| `StreetName` | `case…end` |
+| `CityName` | `case…end` |
+| `AddressRegion` | `case…end` |
+| `BankCategory` | `cast(BankCategory as bf_bank_category preserving type)` |
 | `BankNumber` | `Bank` |
 | `SWIFTCode` | `SWIFTCode` |
-| `bf_bank_banknetworkgrouping preserving type)` | `cast(BankNetworkGrouping` |
+| `BankNetworkGrouping` | `cast(BankNetworkGrouping as bf_bank_banknetworkgrouping preserving type)` |
 | `IsPostBankAccount` | `IsPostBankAccount` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `PostOfficeBankAccount` | `PostOfficeBankAccount` |

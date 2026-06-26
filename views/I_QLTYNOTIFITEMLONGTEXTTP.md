@@ -32,20 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QltyNotifItemLongText.QualityNotification` | `_QltyNotifItemLongText.QualityNotification` |
-| `key _QltyNotifItemLongText.NotificationItem` | `_QltyNotifItemLongText.NotificationItem` |
-| `key _QltyNotifItemLongText.LongTextInternalNumber` | `_QltyNotifItemLongText.LongTextInternalNumber` |
-| `key _QltyNotifItemLongText.Language` | `_QltyNotifItemLongText.Language` |
-| `_QltyNotifItemLongText.LongTextID` | *Association* |
-| `_QltyNotifItemLongText.NotificationItemLongText` | *Association* |
-| `_QltyNotifItemLongText.LongTextCreatedByUser` | *Association* |
-| `_QltyNotifItemLongText.LongTextCreatedAt` | *Association* |
-| `_QltyNotifItemLongText.LongTextLastChangedByUser` | *Association* |
-| `_QltyNotifItemLongText.LongTextLastChangedAt` | *Association* |
-| `_QltyNotifItemLongText._QualityNotificationItem : redirected to parent I_QualityNotificationItemTP` | *Association* |
-| `_QltyNotifItemLongText._QltyNotification        : redirected to        I_QltyNotificationTP` | *Association* |
-| `_QltyNotifItemLongText._Language` | *Association* |
-| `_QltyNotifItemLongText._Notification` | *Association* |
+| `QualityNotification` | `_QltyNotifItemLongText.QualityNotification` |
+| `NotificationItem` | `_QltyNotifItemLongText.NotificationItem` |
+| `LongTextInternalNumber` | `_QltyNotifItemLongText.LongTextInternalNumber` |
+| `Language` | `_QltyNotifItemLongText.Language` |
+| `LongTextID` | `_QltyNotifItemLongText.LongTextID` |
+| `NotificationItemLongText` | `_QltyNotifItemLongText.NotificationItemLongText` |
+| `LongTextCreatedByUser` | `_QltyNotifItemLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `_QltyNotifItemLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `_QltyNotifItemLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `_QltyNotifItemLongText.LongTextLastChangedAt` |
+| `_Language` | *Association* |
+| `_Notification` | *Association* |
 
 ## Associations
 

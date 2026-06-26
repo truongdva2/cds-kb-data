@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgPlnItmType` | `tfk8213t.bipitemtype` |
 | `Language` | `langu` |
-| `bipitemtype_txt_gfn_kk preserving type )` | `cast( text` |
+| `CABillgPlnItmTypeText` | `cast( text as bipitemtype_txt_gfn_kk preserving type )` |
 | `_CABillgPlnItmType` | *Association* |
 | `_Language` | *Association* |
 

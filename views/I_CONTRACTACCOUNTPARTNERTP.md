@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ContractAccount` | `ContractAccount` |
-| `key BusinessPartner` | `BusinessPartner` |
+| `ContractAccount` | `ContractAccount` |
+| `BusinessPartner` | `BusinessPartner` |
 | `BusinessPartnerForEdit` | `BusinessPartnerForEdit` |
 | `ContractAccountName` | `ContractAccountName` |
 | `CreationDate` | `CreationDate` |
@@ -125,11 +125,6 @@ tags:
 | `Country` | `Country` |
 | `ContractAccountingPayer` | `ContractAccountingPayer` |
 | `ContractAccountingPayee` | `ContractAccountingPayee` |
-| `/* Associations */` | `/* Associations */` |
-| `_ContractAccount : redirected to parent I_ContractAccountTP` | *Association* |
-| `_ContrAcctPrtnBusinessLock: redirected to composition child I_ContrAcctPrtnBusinessLockTP` | *Association* |
-| `_ContrAcctPrtnCorrespnc: redirected to composition child I_ContrAcctPrtnCorrespncTP` | *Association* |
-| `_ContrAcctPrtnInvcgChrgAndDisc: redirected to composition child I_ConAcctPrtnInvcgChrgDscTP` | *Association* |
 | `_Address` | *Association* |
 | `_AcctDetnCode` | *Association* |
 | `_AlternativePayee` | *Association* |

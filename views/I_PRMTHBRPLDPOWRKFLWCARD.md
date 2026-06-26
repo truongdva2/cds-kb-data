@@ -31,17 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `amount.currencyCode: 'DocumentCurrency' }` | `amount.currencyCode: 'DocumentCurrency' }` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `ExtSourceSystem` | `ExtSourceSystem` |
+| `PurchaseOrderType` | `PurchaseOrderType` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `Supplier` | `Supplier` |
+| `DocumentCurrency` | `DocumentCurrency` |
 | `PurchaseOrderNetAmount` | `PurchaseOrderNetAmount` |
-| `PurchaseOrder.PurchaseOrderDate` | `PurchaseOrder.PurchaseOrderDate` |
-| `ekorg_ll preserving type )` | `cast (PurchaseOrder.PurchasingOrganization` |
-| `as PurchasingOrganization` | `as PurchasingOrganization` |
-| `case  when _ProcmtHubSupplier.ProcmtHubSupplierName = '' or _ProcmtHubSupplier.ProcmtHubSupplierName is null then PurchaseOrder.Supplier` | `case  when _ProcmtHubSupplier.ProcmtHubSupplierName = '' or _ProcmtHubSupplier.ProcmtHubSupplierName is null then PurchaseOrder.Supplier` |
-| `else _ProcmtHubSupplier.ProcmtHubSupplierName` | `else _ProcmtHubSupplier.ProcmtHubSupplierName` |
-| `ProcmtHubSupplierName` | `end` |
-| `case  when _PurchasingGrp.PurchasingGroupName = '' or _PurchasingGrp.PurchasingGroupName is null then PurchaseOrder.PurchasingGroup` | `case  when _PurchasingGrp.PurchasingGroupName = '' or _PurchasingGrp.PurchasingGroupName is null then PurchaseOrder.PurchasingGroup` |
-| `else _PurchasingGrp.PurchasingGroupName` | `else _PurchasingGrp.PurchasingGroupName` |
-| `PurchasingGroupName` | `end` |
+| `PurchaseOrderDate` | `PurchaseOrder.PurchaseOrderDate` |
+| `PurchasingOrganization` | `cast (PurchaseOrder.PurchasingOrganization as ekorg_ll preserving type )` |
+| `ProcmtHubSupplierName` | `case…end` |
+| `PurchasingGroupName` | `case…end` |
 
 ## Associations
 

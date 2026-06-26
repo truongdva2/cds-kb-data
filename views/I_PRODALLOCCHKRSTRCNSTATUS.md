@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocchkrstrcnstatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocChkRstrcnStatus` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProdAllocChkRstrcnStatusT` | [0..*] |
 
 ## Source Code
 

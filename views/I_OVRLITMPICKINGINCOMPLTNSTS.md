@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `uvpik_su preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OvrlItmPickingIncompletionSts` | `cast(left(dd07l.domvalue_l, 1 ) as uvpik_su preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

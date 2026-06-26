@@ -52,25 +52,25 @@ tags:
 | `Plant` | `Plant` |
 | `EvaldRcptSettlmtIsAllowed` | `EvaldRcptSettlmtIsAllowed` |
 | `TargetAmount` | `TargetAmount` |
-| `_PurchaseContractAPI01.PurchaseContractType                                      as PurchaseContractType` | *Association* |
-| `_PurchaseContractAPI01.PurchasingDocumentCategory                                as PurchasingDocumentCategory` | *Association* |
-| `_PurchaseContractAPI01.PurchasingGroup                                           as PurchasingGroup` | *Association* |
-| `_PurchaseContractAPI01.PurchasingOrganization                                    as PurchasingOrganization` | *Association* |
-| `_PurchaseContractAPI01.ValidityStartDate                                         as ValidityStartDate` | *Association* |
-| `_PurchaseContractAPI01.ValidityEndDate                                           as ValidityEndDate` | *Association* |
-| `_PurchaseContractAPI01.Supplier                                                  as Supplier` | *Association* |
-| `_PurchaseContractAPI01.InvoicingParty                                            as InvoicingParty` | *Association* |
-| `_PurchaseContractAPI01.SupplyingSupplier                                         as SupplyingSupplier` | *Association* |
-| `_PurchaseContractAPI01.CreationDate                                              as CreationDate` | *Association* |
-| `_PurchaseContractAPI01.LastChangeDateTime                                        as LastChangeDateTime` | *Association* |
-| `fis_exchange_rate preserving type)` | `cast ( _PurchaseContractAPI01.ExchangeRate` |
+| `PurchaseContractType` | `_PurchaseContractAPI01.PurchaseContractType` |
+| `PurchasingDocumentCategory` | `_PurchaseContractAPI01.PurchasingDocumentCategory` |
+| `PurchasingGroup` | `_PurchaseContractAPI01.PurchasingGroup` |
+| `PurchasingOrganization` | `_PurchaseContractAPI01.PurchasingOrganization` |
+| `ValidityStartDate` | `_PurchaseContractAPI01.ValidityStartDate` |
+| `ValidityEndDate` | `_PurchaseContractAPI01.ValidityEndDate` |
+| `Supplier` | `_PurchaseContractAPI01.Supplier` |
+| `InvoicingParty` | `_PurchaseContractAPI01.InvoicingParty` |
+| `SupplyingSupplier` | `_PurchaseContractAPI01.SupplyingSupplier` |
+| `CreationDate` | `_PurchaseContractAPI01.CreationDate` |
+| `LastChangeDateTime` | `_PurchaseContractAPI01.LastChangeDateTime` |
+| `ExchangeRate` | `cast ( _PurchaseContractAPI01.ExchangeRate as fis_exchange_rate preserving type)` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
 | `VolumeUnit` | `VolumeUnit` |
 | `Customer` | `Customer` |
 | `Subcontractor` | `Subcontractor` |
 | `ReferenceDeliveryAddressID` | `ReferenceDeliveryAddressID` |
 | `ManualDeliveryAddressID` | `ManualDeliveryAddressID` |
-| `adrn2_ll preserving type)` | `cast ( DeliveryAddressID` |
+| `DeliveryAddressID` | `cast ( DeliveryAddressID as adrn2_ll preserving type)` |
 | `AccountAssignmentCategory` | `AccountAssignmentCategory` |
 | `MultipleAcctAssgmtDistribution` | `MultipleAcctAssgmtDistribution` |
 | `OrdPriceUnitToOrderUnitDnmntr` | `OrdPriceUnitToOrderUnitDnmntr` |
@@ -99,12 +99,11 @@ tags:
 | `ServicePerformer` | `ServicePerformer` |
 | `ProductTypeCode` | `ProductTypeCode` |
 | `MaterialType` | `MaterialType` |
-| `mm_pur_ctr_itm_frmtd preserving type)` | `cast ( PurchaseContractItemFormatted` |
+| `PurchaseContractItemFormatted` | `cast ( PurchaseContractItemFormatted as mm_pur_ctr_itm_frmtd preserving type)` |
 | `PurchasingContractDeletionCode` | `PurchasingContractDeletionCode` |
 | `PurchaseContractItemUniqueID` | `PurchaseContractItemUniqueID` |
 | `PurchasingCategory` | `PurchasingCategory` |
 | `PurgCatName` | `PurgCatName` |
-| `#TO_COMPOSITION_PARENT ]` | `#TO_COMPOSITION_PARENT ]` |
 | `_PurchaseContractDEX` | *Association* |
 | `_DocumentCurrency` | *Association* |
 | `_OrderQuantityUnit` | *Association* |

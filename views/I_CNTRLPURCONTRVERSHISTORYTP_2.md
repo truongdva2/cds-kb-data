@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `Supplier` | `Supplier` |
@@ -69,8 +69,6 @@ tags:
 | `CreationTime` | `CreationTime` |
 | `PurchasingDocVersionReasonCode` | `PurchasingDocVersionReasonCode` |
 | `PurchasingDocVersionStatus` | `PurchasingDocVersionStatus` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurContr : redirected to parent I_CntrlPurchaseContractTP_2` | *Association* |
 
 ## Associations
 

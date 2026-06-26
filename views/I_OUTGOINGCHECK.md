@@ -28,11 +28,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentCompanyCode` | `PaymentCompanyCode` |
-| `key HouseBank` | `HouseBank` |
-| `key HouseBankAccount` | `HouseBankAccount` |
-| `key PaymentMethod` | `PaymentMethod` |
-| `key OutgoingCheque` | `OutgoingCheque` |
+| `PaymentCompanyCode` | `PaymentCompanyCode` |
+| `HouseBank` | `HouseBank` |
+| `HouseBankAccount` | `HouseBankAccount` |
+| `PaymentMethod` | `PaymentMethod` |
+| `OutgoingCheque` | `OutgoingCheque` |
 | `IsIntercompanyPayment` | `IsIntercompanyPayment` |
 | `ChequeIsManuallyIssued` | `ChequeIsManuallyIssued` |
 | `ChequebookFirstCheque` | `ChequebookFirstCheque` |
@@ -69,9 +69,9 @@ tags:
 | `VoidedChequeUsage` | `VoidedChequeUsage` |
 | `ChequeStatus` | `ChequeStatus` |
 | `ChequeIssuingType` | `ChequeIssuingType` |
-| `_HouseBank._Bank.BankName` | *Association* |
-| `_Company.Country as CompanyCodeCountry` | *Association* |
-| `_Company.CompanyCodeName` | *Association* |
+| `BankName` | `_HouseBank._Bank.BankName` |
+| `CompanyCodeCountry` | `_Company.Country` |
+| `CompanyCodeName` | `_Company.CompanyCodeName` |
 | `_Country` | *Association* |
 | `_Company` | *Association* |
 | `_Supplier` | *Association* |

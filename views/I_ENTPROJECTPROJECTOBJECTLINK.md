@@ -32,16 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EntProjectObjectLinkUUID` | `EntProjectObjectLinkUUID` |
-| `/s4ppm/tv_project_uuid preserving type )` | `cast( ProjectUUID` |
-| `/s4ppm/tv_project_element_uuid preserving type )` | `cast( ProjectElementUUID` |
+| `EntProjectObjectLinkUUID` | `EntProjectObjectLinkUUID` |
+| `ProjectUUID` | `cast( ProjectUUID as /s4ppm/tv_project_uuid preserving type )` |
+| `ProjectElementUUID` | `cast( ProjectElementUUID as /s4ppm/tv_project_element_uuid preserving type )` |
 | `EntProjectObjectLinkType` | `EntProjectObjectLinkType` |
-| `/s4ppm/tv_ref_object_uuid preserving type )` | `cast( ReferencedObjectUUID` |
+| `ReferencedObjectUUID` | `cast( ReferencedObjectUUID as /s4ppm/tv_ref_object_uuid preserving type )` |
 | `ReferencedObjectIdentifier` | `ReferencedObjectIdentifier` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
-| `/s4ppm/tv_changed_by preserving type )` | `cast( LastChangedByUser` |
-| `abp_lastchange_tstmpl preserving type )` | `cast( LastChangeDateTime` |
+| `LastChangedByUser` | `cast( LastChangedByUser as /s4ppm/tv_changed_by preserving type )` |
+| `LastChangeDateTime` | `cast( LastChangeDateTime as abp_lastchange_tstmpl preserving type )` |
 | `_EnterpriseProject` | *Association* |
 | `_ObjectLinkType` | *Association* |
 | `_ObjectLinkTypeText` | *Association* |
@@ -51,8 +51,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_EnterpriseProject` | `I_EnterpriseProject` | [1..1] |
-| `_ObjectLinkType` | `I_PPM_ObjectLinkType` | [1] |
-| `_ObjectLinkTypeText` | `I_PPM_ObjectLinkTypeText` | [1] |
 | `_ObjectLinkType` | `I_EntProjectObjectLinkType` | [1] |
 | `_ObjectLinkTypeText` | `I_EntProjectObjectLinkTypeText` | [1] |
 

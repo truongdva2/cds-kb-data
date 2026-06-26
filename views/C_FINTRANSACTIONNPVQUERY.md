@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `targetElement:   'CalendarDate',               type: #SYSTEM_FIELD, value: '#SYSTEM_DATE' } ] }` | `targetElement:   'CalendarDate',               type: #SYSTEM_FIELD, value: '#SYSTEM_DATE' } ] }` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
+| `FinancialTransactionNPVType` | `FinancialTransactionNPVType` |
 | `NetPresentValueValidityDate` | `NetPresentValueValidityDate` |
 | `Counterparty` | `Counterparty` |
 | `FinancialInstrProductCategory` | `FinancialInstrProductCategory` |
@@ -39,52 +41,15 @@ tags:
 | `FinancialInstrTransactionType` | `FinancialInstrTransactionType` |
 | `NetPresentValueAmountInNPVCrcy` | `curr_to_decfloat_amount( NetPresentValueAmountInNPVCrcy )` |
 | `NetPresentValueCurrency` | `NetPresentValueCurrency` |
-| `cast( currency_conversion( amount             => NetPresentValueAmountInNPVCrcy` | `cast( currency_conversion( amount             => NetPresentValueAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType        )` |
-| `cast( currency_conversion( amount             => IntrinsicValueAmountInNPVCrcy` | `cast( currency_conversion( amount             => IntrinsicValueAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_intrinsic_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `cast( currency_conversion( amount             => TimeValueAmountInNPVCrcy` | `cast( currency_conversion( amount             => TimeValueAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_time_value_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `cast( currency_conversion( amount             =>  CleanPriceAmountInNPVCrcy` | `cast( currency_conversion( amount             =>  CleanPriceAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_clean_price_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType         )` |
-| `cast( currency_conversion( amount             => IncomingNPVAmountInNPVCrcy` | `cast( currency_conversion( amount             => IncomingNPVAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_incoming_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `cast( currency_conversion( amount             => OutgoingNPVAmountInNPVCrcy` | `cast( currency_conversion( amount             => OutgoingNPVAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_outgoing_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `cast( currency_conversion( amount             => RiskFreeNPVAmountInNPVCrcy` | `cast( currency_conversion( amount             => RiskFreeNPVAmountInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_riskfree_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType         )` |
-| `cast( currency_conversion( amount             => CreditValueAdjmtAmtInNPVCrcy` | `cast( currency_conversion( amount             => CreditValueAdjmtAmtInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_cva_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `cast( currency_conversion( amount             => DebitValueAdjmtAmtInNPVCrcy` | `cast( currency_conversion( amount             => DebitValueAdjmtAmtInNPVCrcy` |
-| `source_currency    => NetPresentValueCurrency` | `source_currency    => NetPresentValueCurrency` |
-| `target_currency    => $parameters.P_DisplayCurrency` | `target_currency    => $parameters.P_DisplayCurrency` |
-| `exchange_rate_date => NetPresentValueValidityDate` | `exchange_rate_date => NetPresentValueValidityDate` |
-| `ftr_npv_dva_dsp_crcy preserving type )` | `exchange_rate_type => $parameters.P_ExchangeRateType          )` |
-| `virtual DisplayCurrency : vdm_v_display_currency` | `virtual DisplayCurrency : vdm_v_display_currency` |
+| `NetPresentValueAmountInDspCrcy` | `cast(…)` |
+| `IntrinsicValueAmountInDspCrcy` | `cast(…)` |
+| `TimeValueAmountInDspCrcy` | `cast(…)` |
+| `CleanPriceAmountInDisplayCrcy` | `cast(…)` |
+| `IncomingNPVAmountInDspCrcy` | `cast(…)` |
+| `OutgoingNPVAmountInDspCrcy` | `cast(…)` |
+| `RiskFreeNPVAmountInDspCrcy` | `cast(…)` |
+| `CreditValueAdjmtAmtInDspCrcy` | `cast(…)` |
+| `DebitValueAdjmtAmtInDspCrcy` | `cast(…)` |
 | `_CompanyCode` | *Association* |
 | `_FinancialTransaction` | *Association* |
 | `_Counterparty` | *Association* |

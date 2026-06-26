@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `entobj_function_id )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `EnterpriseProjectBlockFunction` | `cast( dd07t.domvalue_l as entobj_function_id )` |
 | `DomainValueLow` | `dd07t.domvalue_l` |
 | `EntProjectBlockFunctionText` | `dd07t.ddtext` |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EntProjectBlockFunction` | `I_EntProjBlkFunctionCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

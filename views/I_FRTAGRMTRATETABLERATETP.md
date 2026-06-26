@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableRateUUID` | `TranspRateTableRateUUID` |
+| `TranspRateTableRateUUID` | `TranspRateTableRateUUID` |
 | `TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
@@ -49,26 +49,24 @@ tags:
 | `TransportationCalcBase13` | `TransportationCalcBase13` |
 | `TransportationCalcBase14` | `TransportationCalcBase14` |
 | `TransportationRateCurrency` | `TransportationRateCurrency` |
-| `/scmtms/rate_amount preserving type )` | `cast( TransportationRateAmount` |
+| `TransportationRateAmount` | `cast( TransportationRateAmount as /scmtms/rate_amount preserving type )` |
 | `TransportationRatePctUnit` | `TransportationRatePctUnit` |
-| `/scmtms/rate_amount_pct preserving type )` | `cast( TransportationRateAmountPct` |
-| `/scmtms/tcm_rate_dimension preserving type )` | `cast( TranspRateTableDimensionIndex` |
-| `/scmtms/scale_item01_value preserving type )` | `cast( TransportationScaleItem01Value` |
-| `/scmtms/scale_item02_value preserving type )` | `cast( TransportationScaleItem02Value` |
-| `/scmtms/scale_item03_value preserving type )` | `cast( TransportationScaleItem03Value` |
-| `/scmtms/scale_item04_value preserving type )` | `cast( TransportationScaleItem04Value` |
-| `/scmtms/scale_item05_value preserving type )` | `cast( TransportationScaleItem05Value` |
-| `/scmtms/scale_item06_value preserving type )` | `cast( TransportationScaleItem06Value` |
-| `/scmtms/scale_item07_value preserving type )` | `cast( TransportationScaleItem07Value` |
-| `/scmtms/scale_item08_value preserving type )` | `cast( TransportationScaleItem08Value` |
-| `/scmtms/scale_item09_value preserving type )` | `cast( TransportationScaleItem09Value` |
-| `/scmtms/scale_item10_value preserving type )` | `cast( TransportationScaleItem10Value` |
-| `/scmtms/scale_item11_value preserving type )` | `cast( TransportationScaleItem11Value` |
-| `/scmtms/scale_item12_value preserving type )` | `cast( TransportationScaleItem12Value` |
-| `/scmtms/scale_item13_value preserving type )` | `cast( TransportationScaleItem13Value` |
-| `/scmtms/scale_item14_value preserving type )` | `cast( TransportationScaleItem14Value` |
-| `FrtAgrmtRateTableRate._FreightAgreement          : redirected to I_FreightAgreementTP` | `FrtAgrmtRateTableRate._FreightAgreement          : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtRateTableRate._FrtAgrmtRateTableValidity : redirected to parent I_FrtAgrmtRateTableValidityTP` | `FrtAgrmtRateTableRate._FrtAgrmtRateTableValidity : redirected to parent I_FrtAgrmtRateTableValidityTP` |
+| `TransportationRateAmountPct` | `cast( TransportationRateAmountPct as /scmtms/rate_amount_pct preserving type )` |
+| `TranspRateTableDimensionIndex` | `cast(…)` |
+| `TransportationScaleItem01Value` | `cast(…)` |
+| `TransportationScaleItem02Value` | `cast(…)` |
+| `TransportationScaleItem03Value` | `cast(…)` |
+| `TransportationScaleItem04Value` | `cast(…)` |
+| `TransportationScaleItem05Value` | `cast(…)` |
+| `TransportationScaleItem06Value` | `cast(…)` |
+| `TransportationScaleItem07Value` | `cast(…)` |
+| `TransportationScaleItem08Value` | `cast(…)` |
+| `TransportationScaleItem09Value` | `cast(…)` |
+| `TransportationScaleItem10Value` | `cast(…)` |
+| `TransportationScaleItem11Value` | `cast(…)` |
+| `TransportationScaleItem12Value` | `cast(…)` |
+| `TransportationScaleItem13Value` | `cast(…)` |
+| `TransportationScaleItem14Value` | `cast(…)` |
 
 ## Associations
 

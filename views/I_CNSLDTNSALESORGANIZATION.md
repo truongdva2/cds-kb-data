@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( max ( AdditionalMasterDataSource )` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `SalesOrganization` | `cast( SalesOrganization as fincs_salesorganization preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_MDSource` | *Association* |
 | `_Text` | *Association* |
 | `_SalesOrgHierNode` | *Association* |

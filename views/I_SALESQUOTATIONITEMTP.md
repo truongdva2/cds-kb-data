@@ -33,53 +33,49 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationItem.SalesQuotation` | `SalesQuotationItem.SalesQuotation` |
-| `key SalesQuotationItem.SalesQuotationItem` | `SalesQuotationItem.SalesQuotationItem` |
-| `SalesQuotationItem.HigherLevelItem` | `SalesQuotationItem.HigherLevelItem` |
-| `SalesQuotationItem.SalesQuotationItemCategory` | `SalesQuotationItem.SalesQuotationItemCategory` |
-| `SalesQuotationItem.SalesQuotationItemText` | `SalesQuotationItem.SalesQuotationItemText` |
-| `SalesQuotationItem.Product` | `SalesQuotationItem.Product` |
-| `SalesQuotationItem.ProductGroup` | `SalesQuotationItem.ProductGroup` |
-| `SalesQuotationItem.MaterialByCustomer` | `SalesQuotationItem.MaterialByCustomer` |
-| `SalesQuotationItem.PurchaseOrderByCustomer` | `SalesQuotationItem.PurchaseOrderByCustomer` |
-| `SalesQuotationItem.ItemOrderProbabilityInPercent` | `SalesQuotationItem.ItemOrderProbabilityInPercent` |
-| `SalesQuotationItem.RequestedQuantity` | `SalesQuotationItem.RequestedQuantity` |
-| `SalesQuotationItem.RequestedQuantityUnit` | `SalesQuotationItem.RequestedQuantityUnit` |
-| `SalesQuotationItem.ItemGrossWeight` | `SalesQuotationItem.ItemGrossWeight` |
-| `SalesQuotationItem.ItemNetWeight` | `SalesQuotationItem.ItemNetWeight` |
-| `SalesQuotationItem.ItemWeightUnit` | `SalesQuotationItem.ItemWeightUnit` |
-| `SalesQuotationItem.ItemVolume` | `SalesQuotationItem.ItemVolume` |
-| `SalesQuotationItem.ItemVolumeUnit` | `SalesQuotationItem.ItemVolumeUnit` |
-| `SalesQuotationItem.AlternativeToItem` | `SalesQuotationItem.AlternativeToItem` |
-| `SalesQuotationItem.Batch` | `SalesQuotationItem.Batch` |
-| `SalesQuotationItem.Plant` | `SalesQuotationItem.Plant` |
-| `SalesQuotationItem.IncotermsClassification` | `SalesQuotationItem.IncotermsClassification` |
-| `SalesQuotationItem.IncotermsLocation1` | `SalesQuotationItem.IncotermsLocation1` |
-| `SalesQuotationItem.IncotermsLocation2` | `SalesQuotationItem.IncotermsLocation2` |
-| `SalesQuotationItem.IncotermsVersion` | `SalesQuotationItem.IncotermsVersion` |
-| `SalesQuotationItem.CustomerPaymentTerms` | `SalesQuotationItem.CustomerPaymentTerms` |
-| `SalesQuotationItem.MaterialPricingGroup` | `SalesQuotationItem.MaterialPricingGroup` |
-| `SalesQuotationItem.SalesDocumentRjcnReason` | `SalesQuotationItem.SalesDocumentRjcnReason` |
-| `SalesQuotationItem.TransactionCurrency` | `SalesQuotationItem.TransactionCurrency` |
-| `SalesQuotationItem.ProfitCenter` | `SalesQuotationItem.ProfitCenter` |
-| `SalesQuotationItem.PricingDate` | `SalesQuotationItem.PricingDate` |
-| `SalesQuotationItem.ReferenceSDDocument` | `SalesQuotationItem.ReferenceSDDocument` |
-| `SalesQuotationItem.ReferenceSDDocumentItem` | `SalesQuotationItem.ReferenceSDDocumentItem` |
-| `SalesQuotationItem.NetAmount` | `SalesQuotationItem.NetAmount` |
-| `SalesQuotationItem.SDProcessStatus` | `SalesQuotationItem.SDProcessStatus` |
-| `SalesQuotationItem.SDDocumentRejectionStatus` | `SalesQuotationItem.SDDocumentRejectionStatus` |
-| `SalesQuotationItem.ItemGeneralIncompletionStatus` | `SalesQuotationItem.ItemGeneralIncompletionStatus` |
-| `SalesQuotationItem.TotalSDDocReferenceStatus` | `SalesQuotationItem.TotalSDDocReferenceStatus` |
-| `SalesQuotationItem.SDDocReferenceStatus` | `SalesQuotationItem.SDDocReferenceStatus` |
-| `SalesQuotationItem.PricingIncompletionStatus` | `SalesQuotationItem.PricingIncompletionStatus` |
-| `SalesQuotationItem.SalesQuotationType` | `SalesQuotationItem.SalesQuotationType` |
-| `SalesQuotationItem.SalesOrganization` | `SalesQuotationItem.SalesOrganization` |
-| `SalesQuotationItem.DistributionChannel` | `SalesQuotationItem.DistributionChannel` |
-| `SalesQuotationItem.OrganizationDivision` | `SalesQuotationItem.OrganizationDivision` |
-| `_SalesQuotation : redirected to parent I_SalesQuotationTP` | *Association* |
-| `_ItemPartner    : redirected to composition child I_SalesQuotationItemPartnerTP` | *Association* |
-| `_ItemText       : redirected to composition child I_SalesQuotationItemTextTP` | *Association* |
-| `_ItemPricingElement : redirected to composition child I_SlsQtanItemPricingElementTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationItem.SalesQuotation` |
+| `SalesQuotationItem` | `SalesQuotationItem.SalesQuotationItem` |
+| `HigherLevelItem` | `SalesQuotationItem.HigherLevelItem` |
+| `SalesQuotationItemCategory` | `SalesQuotationItem.SalesQuotationItemCategory` |
+| `SalesQuotationItemText` | `SalesQuotationItem.SalesQuotationItemText` |
+| `Product` | `SalesQuotationItem.Product` |
+| `ProductGroup` | `SalesQuotationItem.ProductGroup` |
+| `MaterialByCustomer` | `SalesQuotationItem.MaterialByCustomer` |
+| `PurchaseOrderByCustomer` | `SalesQuotationItem.PurchaseOrderByCustomer` |
+| `ItemOrderProbabilityInPercent` | `SalesQuotationItem.ItemOrderProbabilityInPercent` |
+| `RequestedQuantity` | `SalesQuotationItem.RequestedQuantity` |
+| `RequestedQuantityUnit` | `SalesQuotationItem.RequestedQuantityUnit` |
+| `ItemGrossWeight` | `SalesQuotationItem.ItemGrossWeight` |
+| `ItemNetWeight` | `SalesQuotationItem.ItemNetWeight` |
+| `ItemWeightUnit` | `SalesQuotationItem.ItemWeightUnit` |
+| `ItemVolume` | `SalesQuotationItem.ItemVolume` |
+| `ItemVolumeUnit` | `SalesQuotationItem.ItemVolumeUnit` |
+| `AlternativeToItem` | `SalesQuotationItem.AlternativeToItem` |
+| `Batch` | `SalesQuotationItem.Batch` |
+| `Plant` | `SalesQuotationItem.Plant` |
+| `IncotermsClassification` | `SalesQuotationItem.IncotermsClassification` |
+| `IncotermsLocation1` | `SalesQuotationItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `SalesQuotationItem.IncotermsLocation2` |
+| `IncotermsVersion` | `SalesQuotationItem.IncotermsVersion` |
+| `CustomerPaymentTerms` | `SalesQuotationItem.CustomerPaymentTerms` |
+| `MaterialPricingGroup` | `SalesQuotationItem.MaterialPricingGroup` |
+| `SalesDocumentRjcnReason` | `SalesQuotationItem.SalesDocumentRjcnReason` |
+| `TransactionCurrency` | `SalesQuotationItem.TransactionCurrency` |
+| `ProfitCenter` | `SalesQuotationItem.ProfitCenter` |
+| `PricingDate` | `SalesQuotationItem.PricingDate` |
+| `ReferenceSDDocument` | `SalesQuotationItem.ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `SalesQuotationItem.ReferenceSDDocumentItem` |
+| `NetAmount` | `SalesQuotationItem.NetAmount` |
+| `SDProcessStatus` | `SalesQuotationItem.SDProcessStatus` |
+| `SDDocumentRejectionStatus` | `SalesQuotationItem.SDDocumentRejectionStatus` |
+| `ItemGeneralIncompletionStatus` | `SalesQuotationItem.ItemGeneralIncompletionStatus` |
+| `TotalSDDocReferenceStatus` | `SalesQuotationItem.TotalSDDocReferenceStatus` |
+| `SDDocReferenceStatus` | `SalesQuotationItem.SDDocReferenceStatus` |
+| `PricingIncompletionStatus` | `SalesQuotationItem.PricingIncompletionStatus` |
+| `SalesQuotationType` | `SalesQuotationItem.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationItem.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationItem.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationItem.OrganizationDivision` |
 
 ## Associations
 

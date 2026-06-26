@@ -32,11 +32,7 @@ tags:
 | `QualityMgmtCtrlKey` | `tq08.qm_pur` |
 | `SupplierReleaseIsRequired` | `tq08.lieffrei` |
 | `QualityCertificateIsRequired` | `tq08.zgerf` |
-| `case when I_MdiOidConfiguration.Context is initial then` | `case when I_MdiOidConfiguration.Context is initial then` |
-| `qualitymanagementcontrolkeyoid )` | `cast( tq08.qm_pur` |
-| `when I_MdiOidConfiguration.Context is not initial then` | `when I_MdiOidConfiguration.Context is not initial then` |
-| `qualitymanagementcontrolkeyoid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), tq08.qm_pur )` |
-| `QualityManagementControlKeyOID` | `end` |
+| `QualityManagementControlKeyOID` | `case…end` |
 | `_Text` | *Association* |
 
 ## Associations

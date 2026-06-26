@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `_CnsldtnFSItem._Text[1: Language=$session.system_language].CnsldtnFSItemText` | *Association* |
+| `ConsolidationChartOfAccounts` | `_CnsldtnFSItem.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `_CnsldtnFSItem.CnsldtnFinancialStatementItem` |
+| `CnsldtnFSItemText` | `_CnsldtnFSItem._Text[1: Language=$session.system_language].CnsldtnFSItemText` |
 
 ## Associations
 

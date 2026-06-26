@@ -33,8 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `mmpur_ana_de_se_outp_status_t)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `SuplrEvalScoreOutputStatus` | `cast( domvalue_l as mmpur_ana_de_se_output_status)` |
+| `SuplrEvalScoreOutputStatusText` | `cast(ddtext as mmpur_ana_de_se_outp_status_t)` |
 | `_OutputStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_OutputStatus` | `I_SuplrEvalScoreOutputStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

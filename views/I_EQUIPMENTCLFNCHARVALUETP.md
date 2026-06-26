@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Equipment` | `Equipment` |
-| `key  ClassType` | `ClassType` |
-| `key  ClfnCharcValuePositionNumber` | `ClfnCharcValuePositionNumber` |
-| `key  CharcInternalID` | `CharcInternalID` |
+| `Equipment` | `Equipment` |
+| `ClassType` | `ClassType` |
+| `ClfnCharcValuePositionNumber` | `ClfnCharcValuePositionNumber` |
+| `CharcInternalID` | `CharcInternalID` |
 | `Characteristic` | `Characteristic` |
 | `CharcDataType` | `CharcDataType` |
 | `ClassInternalID` | `ClassInternalID` |
@@ -60,8 +60,6 @@ tags:
 | `CharcMaintAuthGrp` | `CharcMaintAuthGrp` |
 | `ClassMaintAuthGrp` | `ClassMaintAuthGrp` |
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
-| `_Characteristic : redirected to parent I_EquipmentClfnClassCharTP` | *Association* |
-| `_Equipment   : redirected to I_EquipmentTP` | *Association* |
 
 ## Associations
 

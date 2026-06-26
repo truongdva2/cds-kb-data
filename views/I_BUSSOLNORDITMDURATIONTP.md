@@ -29,15 +29,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcDocDurationType' , element:'SrvcDocDurationType'}, useAsTemplate: true  }]` | `name: 'I_SrvcDocDurationType' , element:'SrvcDocDurationType'}, useAsTemplate: true  }]` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_UnitOfMeasureText` | *Association* |
 | `_DurationText` | *Association* |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP : redirected to I_BusinessSolutionOrderTP` | *Association* |
 
 ## Associations
 

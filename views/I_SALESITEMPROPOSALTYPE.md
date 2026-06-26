@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_item_proposal_type preserving type )` | `cast( SalesDocumentType` |
+| `SalesItemProposalType` | `cast( SalesDocumentType as sales_item_proposal_type preserving type )` |
 | `SalesItemProposalProcgType` | `SalesDocumentProcessingType` |
 | `_Text` | *Association* |
 

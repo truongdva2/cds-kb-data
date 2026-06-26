@@ -35,7 +35,7 @@ tags:
 | `CreatedByUser` | `createdbyuser` |
 | `LastChangeUTCDateTime` | `lastchangeutcdatetime` |
 | `LastChangedByUser` | `lastchangedbyuser` |
-| `ehfnd_internal_nr_nc preserving type )` | `cast( chmlcmplncidfrparentid` |
+| `ChmlCmplncIdfrParentID` | `cast( chmlcmplncidfrparentid as ehfnd_internal_nr_nc preserving type )` |
 | `ChmlCmplncIdfrParentUUID` | `chmlcmplncidfrparentuuid` |
 | `ChmlCmplncIdfrParentType` | `chmlcmplncidfrparenttype` |
 | `ChmlCmplncIdfrProcgStatus` | `chmlcmplncidfrprocgstatus` |
@@ -43,7 +43,6 @@ tags:
 | `ChmlCmplncIdfrReldByUser` | `chmlcmplncidfrreldbyuser` |
 | `ValidityStartDateTime` | `validitystartdatetime` |
 | `ValidityEndDateTime` | `validityenddatetime` |
-| `/* Associations */` | `/* Associations */` |
 | `_ChmlCmplncIdfrValue` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_LastChangedByUser` | *Association* |
@@ -55,6 +54,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ChmlCmplncIdfrValue` | `I_ChmlCmplncIdfrValue` | [0..*] |
 | `_CreatedByUser` | `I_User` | [0..1] |
 | `_LastChangedByUser` | `I_User` | [0..1] |
 | `_ChmlCmplncInfo` | `I_ChmlCmplncInfo` | [0..1] |

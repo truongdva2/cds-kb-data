@@ -31,25 +31,23 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinancialStatementHierarchy` | `hrrp_dir_n.hryid_42` |
-| `fis_datbi preserving type )` | `cast(hrrp_dir_n.hryvalto` |
-| `case when hrrp_dir_n.hrysource = 'UH'` | `case when hrrp_dir_n.hrysource = 'UH'` |
-| `then hrrp_dir_n.hryvalfrom  //for FSV from Global Hierarchy` | `then hrrp_dir_n.hryvalfrom  //for FSV from Global Hierarchy` |
-| `fis_datab ) end` | `else cast( '19000101'` |
+| `ValidityEndDate` | `cast(hrrp_dir_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `case…end` |
 | `HierarchyType` | `hrrp_dir_n.hrytyp` |
 | `LastChangedByUser` | `hrrp_dir_n.upduser` |
 | `LastChangeTime` | `hrrp_dir_n.updtime` |
 | `LastChangeDateTime` | `hrrp_dir_n.updtime` |
 | `_Text` | *Association* |
-| `char80 )` | `cast( hrrp_dir_n.ktopl` |
-| `char80 )` | `cast( hrrp_dir_n.aktva` |
-| `char80 )` | `cast( hrrp_dir_n.pssva` |
-| `char80 )` | `cast( hrrp_dir_n.ergak` |
-| `char80 )` | `cast( hrrp_dir_n.ergpa` |
-| `char80 )` | `cast( hrrp_dir_n.erggv` |
-| `char80 )` | `cast( hrrp_dir_n.zuord` |
-| `char80 )` | `cast( hrrp_dir_n.anhng` |
-| `char80 )` | `cast( hrrp_dir_n.xergs` |
-| `char80 )` | `cast( hrrp_dir_n.funareaassigned` |
+| `ChartOfAccounts` | `cast( hrrp_dir_n.ktopl as char80 )` |
+| `FinancialStatementAssetsItem` | `cast( hrrp_dir_n.aktva as char80 )` |
+| `FinStatementLiabilitiesItem` | `cast( hrrp_dir_n.pssva as char80 )` |
+| `FinancialStatementNetLossItem` | `cast( hrrp_dir_n.ergak as char80 )` |
+| `FinStatementNetProfitItem` | `cast( hrrp_dir_n.ergpa as char80 )` |
+| `FinStatementProfitAndLossItem` | `cast( hrrp_dir_n.erggv as char80 )` |
+| `FinancialStatementOrphansItem` | `cast( hrrp_dir_n.zuord as char80 )` |
+| `FinancialStatementNotesItem` | `cast( hrrp_dir_n.anhng as char80 )` |
+| `GroupChartOfAccountIsUsed` | `cast( hrrp_dir_n.xergs as char80 )` |
+| `FunctionalAreaIsUsed` | `cast( hrrp_dir_n.funareaassigned as char80 )` |
 
 ## Associations
 

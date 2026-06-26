@@ -31,10 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `tfm_calculation_category preserving type )` | `cast( CashFlowCalcCategory.sberfima` |
+| `CashFlowCalculationCategory` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

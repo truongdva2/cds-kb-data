@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceSDDocument             : vgbel;` | `ReferenceSDDocument             : vgbel;` |
-| `ReferenceSDDocumentItem         : vgpos;` | `ReferenceSDDocumentItem         : vgpos;` |
+| `ReferenceSDDocument` | `vgbel` |
+| `ReferenceSDDocumentItem` | `vgpos` |
 
 ## Associations
 

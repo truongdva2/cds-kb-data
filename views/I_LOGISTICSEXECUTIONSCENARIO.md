@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/spe/le_scenario)` | `cast( dd07l.domvalue_l` |
+| `LogisticsExecutionScenario` | `cast( dd07l.domvalue_l as /spe/le_scenario)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_LogisticsExecutionScenarioT` | [0..*] |
 
 ## Source Code
 

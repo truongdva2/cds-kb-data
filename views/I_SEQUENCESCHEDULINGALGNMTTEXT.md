@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `SequenceSchedulingAlignment` | `auschl` |
+| `Language` | `spras` |
 | `SequenceSchedulingAlgnmtName` | `ausch_ltxt` |
 | `_Language` | *Association* |
 

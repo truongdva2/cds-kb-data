@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key Project` | `Project` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `Project` | `Project` |
 | `BusSolnOrderItemCharUUID` | `BusSolnOrderItemCharUUID` |
-| `_BusinessSolutionOrder     : redirected to I_BusinessSolutionOrderTP` | *Association* |
-| `_BusinessSolutionOrderItem : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
 | `_BusSolnOrdItem` | *Association* |
 
 ## Associations

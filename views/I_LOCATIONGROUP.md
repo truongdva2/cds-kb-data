@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `LocationGroup` | `tc28.ortgr` |
 | `Plant` | `tc28.werks` |
 | `_Plant` | *Association* |

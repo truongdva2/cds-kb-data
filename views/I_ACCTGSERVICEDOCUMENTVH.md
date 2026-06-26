@@ -33,7 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
+| `ServiceDocument` | `ServiceDocument` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `ServiceDocumentTypeName` | `ServiceDocumentTypeName` |
+| `CompanyCode` | `CompanyCode` |
 | `ProfitCenter` | `ProfitCenter` |
 
 ## Associations

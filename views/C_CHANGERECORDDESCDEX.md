@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ChangeRecordUUID` | `ChangeRecordReferenceTextUUID` |
-| `key Language` | `Language` |
+| `Language` | `Language` |
 | `ChgRecordDescriptionText` | `ChgRecordDescriptionText` |
 
 ## Associations

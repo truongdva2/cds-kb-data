@@ -32,39 +32,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesSchedgAgrmtItem.SalesSchedulingAgreement` | `SalesSchedgAgrmtItem.SalesSchedulingAgreement` |
-| `key SalesSchedgAgrmtItem.SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItem.SalesSchedulingAgreementItem` |
-| `SalesSchedgAgrmtItem.Product` | `SalesSchedgAgrmtItem.Product` |
-| `SalesSchedgAgrmtItem.ProductGroup` | `SalesSchedgAgrmtItem.ProductGroup` |
-| `SalesSchedgAgrmtItem.MaterialByCustomer` | `SalesSchedgAgrmtItem.MaterialByCustomer` |
-| `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemCategory` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemCategory` |
-| `SalesSchedgAgrmtItem.MaterialPricingGroup` | `SalesSchedgAgrmtItem.MaterialPricingGroup` |
-| `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemType` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemType` |
-| `SalesSchedgAgrmtItem.PlngDelivSchedInstrn` | `SalesSchedgAgrmtItem.PlngDelivSchedInstrn` |
-| `SalesSchedgAgrmtItem.Plant` | `SalesSchedgAgrmtItem.Plant` |
-| `SalesSchedgAgrmtItem.StorageLocation` | `SalesSchedgAgrmtItem.StorageLocation` |
-| `SalesSchedgAgrmtItem.PurchaseOrderByCustomer` | `SalesSchedgAgrmtItem.PurchaseOrderByCustomer` |
-| `SalesSchedgAgrmtItem.OrderQuantity` | `SalesSchedgAgrmtItem.OrderQuantity` |
-| `SalesSchedgAgrmtItem.OrderQuantityUnit` | `SalesSchedgAgrmtItem.OrderQuantityUnit` |
-| `SalesSchedgAgrmtItem.TargetQuantity` | `SalesSchedgAgrmtItem.TargetQuantity` |
-| `SalesSchedgAgrmtItem.TargetQuantityUnit` | `SalesSchedgAgrmtItem.TargetQuantityUnit` |
-| `SalesSchedgAgrmtItem.Batch` | `SalesSchedgAgrmtItem.Batch` |
-| `SalesSchedgAgrmtItem.ItemGrossWeight` | `SalesSchedgAgrmtItem.ItemGrossWeight` |
-| `SalesSchedgAgrmtItem.ItemNetWeight` | `SalesSchedgAgrmtItem.ItemNetWeight` |
-| `SalesSchedgAgrmtItem.ItemWeightUnit` | `SalesSchedgAgrmtItem.ItemWeightUnit` |
-| `SalesSchedgAgrmtItem.ItemVolume` | `SalesSchedgAgrmtItem.ItemVolume` |
-| `SalesSchedgAgrmtItem.ItemVolumeUnit` | `SalesSchedgAgrmtItem.ItemVolumeUnit` |
-| `SalesSchedgAgrmtItem.NetAmount` | `SalesSchedgAgrmtItem.NetAmount` |
-| `SalesSchedgAgrmtItem.TransactionCurrency` | `SalesSchedgAgrmtItem.TransactionCurrency` |
-| `SalesSchedgAgrmtItem.SDProcessStatus` | `SalesSchedgAgrmtItem.SDProcessStatus` |
-| `SalesSchedgAgrmtItem.SalesSchedgAgrmtType` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtType` |
-| `SalesSchedgAgrmtItem.OrganizationDivision` | `SalesSchedgAgrmtItem.OrganizationDivision` |
-| `SalesSchedgAgrmtItem.SalesOrganization` | `SalesSchedgAgrmtItem.SalesOrganization` |
-| `SalesSchedgAgrmtItem.DistributionChannel` | `SalesSchedgAgrmtItem.DistributionChannel` |
-| `_SalesSchedulingAgreement : redirected to parent I_SalesSchedulingAgreementTP` | *Association* |
-| `_ItemPartner              : redirected to composition child I_SlsSchedgAgrmtItemPartnerTP` | *Association* |
-| `_ItemText                 : redirected to composition child I_SlsSchedgAgrmtItemTextTP` | *Association* |
-| `_ItemPricingElement       : redirected to composition child I_SlsSchedgAgrmtItmPrcgElmntTP` | *Association* |
+| `SalesSchedulingAgreement` | `SalesSchedgAgrmtItem.SalesSchedulingAgreement` |
+| `SalesSchedulingAgreementItem` | `SalesSchedgAgrmtItem.SalesSchedulingAgreementItem` |
+| `Product` | `SalesSchedgAgrmtItem.Product` |
+| `ProductGroup` | `SalesSchedgAgrmtItem.ProductGroup` |
+| `MaterialByCustomer` | `SalesSchedgAgrmtItem.MaterialByCustomer` |
+| `SalesSchedgAgrmtItemCategory` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemCategory` |
+| `MaterialPricingGroup` | `SalesSchedgAgrmtItem.MaterialPricingGroup` |
+| `SalesSchedgAgrmtItemType` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtItemType` |
+| `PlngDelivSchedInstrn` | `SalesSchedgAgrmtItem.PlngDelivSchedInstrn` |
+| `Plant` | `SalesSchedgAgrmtItem.Plant` |
+| `StorageLocation` | `SalesSchedgAgrmtItem.StorageLocation` |
+| `PurchaseOrderByCustomer` | `SalesSchedgAgrmtItem.PurchaseOrderByCustomer` |
+| `OrderQuantity` | `SalesSchedgAgrmtItem.OrderQuantity` |
+| `OrderQuantityUnit` | `SalesSchedgAgrmtItem.OrderQuantityUnit` |
+| `TargetQuantity` | `SalesSchedgAgrmtItem.TargetQuantity` |
+| `TargetQuantityUnit` | `SalesSchedgAgrmtItem.TargetQuantityUnit` |
+| `Batch` | `SalesSchedgAgrmtItem.Batch` |
+| `ItemGrossWeight` | `SalesSchedgAgrmtItem.ItemGrossWeight` |
+| `ItemNetWeight` | `SalesSchedgAgrmtItem.ItemNetWeight` |
+| `ItemWeightUnit` | `SalesSchedgAgrmtItem.ItemWeightUnit` |
+| `ItemVolume` | `SalesSchedgAgrmtItem.ItemVolume` |
+| `ItemVolumeUnit` | `SalesSchedgAgrmtItem.ItemVolumeUnit` |
+| `NetAmount` | `SalesSchedgAgrmtItem.NetAmount` |
+| `TransactionCurrency` | `SalesSchedgAgrmtItem.TransactionCurrency` |
+| `SDProcessStatus` | `SalesSchedgAgrmtItem.SDProcessStatus` |
+| `SalesSchedgAgrmtType` | `SalesSchedgAgrmtItem.SalesSchedgAgrmtType` |
+| `OrganizationDivision` | `SalesSchedgAgrmtItem.OrganizationDivision` |
+| `SalesOrganization` | `SalesSchedgAgrmtItem.SalesOrganization` |
+| `DistributionChannel` | `SalesSchedgAgrmtItem.DistributionChannel` |
 
 ## Associations
 

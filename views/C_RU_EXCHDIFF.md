@@ -30,47 +30,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Sum.CompanyCode` | `_Sum.CompanyCode` |
-| `key _Sum.AccountingDocument` | `_Sum.AccountingDocument` |
-| `key _Sum.FiscalYear` | `_Sum.FiscalYear` |
-| `key _Sum.AccountingDocumentItem` | `_Sum.AccountingDocumentItem` |
-| `key _Sum.ControllingAreaCurrencyRole` | `_Sum.ControllingAreaCurrencyRole` |
-| `key _Sum.ActiveValuationArea` | `_Sum.ActiveValuationArea` |
-| `StartingBalanceAmtInCoCodeCrcy` | `0.0` |
-| `case` | `case` |
-| `when _Sum.FrgnCrcyValnDeltaLogicIsActive = ''` | `when _Sum.FrgnCrcyValnDeltaLogicIsActive = ''` |
-| `then` | `then` |
-| `case` | `case` |
-| `when _Sum.EvaluationKeyDate = $parameters.P_ToPostingDate then _Sum.ValuationDiffAmtInCoCodeCrcy` | `when _Sum.EvaluationKeyDate = $parameters.P_ToPostingDate then _Sum.ValuationDiffAmtInCoCodeCrcy` |
-| `else 0.0` | `else 0.0` |
-| `end` | `end` |
-| `else` | `else` |
-| `sum(_Sum.ValuationDiffAmtInCoCodeCrcy)` | `sum(_Sum.ValuationDiffAmtInCoCodeCrcy)` |
-| `EndingBalanceAmtInCoCodeCrcy` | `end` |
-| `_Sum.CompanyCodeCurrency` | *Association* |
-| `_Sum.FrgnCrcyValnDeltaLogicIsActive` | *Association* |
-| `_Sum.AssignmentReference` | *Association* |
-| `_Sum.Creditor` | *Association* |
-| `_Sum.Debtor` | *Association* |
-| `_Sum.BusinessPartner` | *Association* |
-| `_Sum.PostingDate` | *Association* |
-| `_Sum.CndnContrType` | *Association* |
-| `_Sum.AuthorizationGroup` | *Association* |
-| `_Sum.SupplierFinsAuthorizationGrp` | *Association* |
-| `_Sum.CustomerFinsAuthorizationGrp` | *Association* |
+| `CompanyCode` | `_Sum.CompanyCode` |
+| `AccountingDocument` | `_Sum.AccountingDocument` |
+| `FiscalYear` | `_Sum.FiscalYear` |
+| `AccountingDocumentItem` | `_Sum.AccountingDocumentItem` |
+| `ControllingAreaCurrencyRole` | `_Sum.ControllingAreaCurrencyRole` |
+| `ActiveValuationArea` | `_Sum.ActiveValuationArea` |
+| `StartingBalanceAmtInCoCodeCrcy` | `case…end` |
+| `EndingBalanceAmtInCoCodeCrcy` | `0.0` |
+| `CompanyCodeCurrency` | `_Sum.CompanyCodeCurrency` |
+| `FrgnCrcyValnDeltaLogicIsActive` | `_Sum.FrgnCrcyValnDeltaLogicIsActive` |
+| `AssignmentReference` | `_Sum.AssignmentReference` |
+| `Creditor` | `_Sum.Creditor` |
+| `Debtor` | `_Sum.Debtor` |
+| `BusinessPartner` | `_Sum.BusinessPartner` |
+| `PostingDate` | `_Sum.PostingDate` |
+| `CndnContrType` | `_Sum.CndnContrType` |
+| `AuthorizationGroup` | `_Sum.AuthorizationGroup` |
+| `SupplierFinsAuthorizationGrp` | `_Sum.SupplierFinsAuthorizationGrp` |
+| `CustomerFinsAuthorizationGrp` | `_Sum.CustomerFinsAuthorizationGrp` |
 | `SupplierCompanyAuthznGroup` | `SupplierCompany.AuthorizationGroup` |
 | `CustomerCompanyAuthznGroup` | `CustomerCompany.AuthorizationGroup` |
-| `BusinessPartner.DataControllerSet` | `BusinessPartner.DataControllerSet` |
-| `BusinessPartner.DataController1` | `BusinessPartner.DataController1` |
-| `BusinessPartner.DataController2` | `BusinessPartner.DataController2` |
-| `BusinessPartner.DataController3` | `BusinessPartner.DataController3` |
-| `BusinessPartner.DataController4` | `BusinessPartner.DataController4` |
-| `BusinessPartner.DataController5` | `BusinessPartner.DataController5` |
-| `BusinessPartner.DataController6` | `BusinessPartner.DataController6` |
-| `BusinessPartner.DataController7` | `BusinessPartner.DataController7` |
-| `BusinessPartner.DataController8` | `BusinessPartner.DataController8` |
-| `BusinessPartner.DataController9` | `BusinessPartner.DataController9` |
-| `BusinessPartner.DataController10` | `BusinessPartner.DataController10` |
+| `DataControllerSet` | `BusinessPartner.DataControllerSet` |
+| `DataController1` | `BusinessPartner.DataController1` |
+| `DataController2` | `BusinessPartner.DataController2` |
+| `DataController3` | `BusinessPartner.DataController3` |
+| `DataController4` | `BusinessPartner.DataController4` |
+| `DataController5` | `BusinessPartner.DataController5` |
+| `DataController6` | `BusinessPartner.DataController6` |
+| `DataController7` | `BusinessPartner.DataController7` |
+| `DataController8` | `BusinessPartner.DataController8` |
+| `DataController9` | `BusinessPartner.DataController9` |
+| `DataController10` | `BusinessPartner.DataController10` |
 
 ## Associations
 

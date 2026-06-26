@@ -30,15 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnQuestionVH'` | `name: 'I_CnsldtnQuestionVH'` |
-| `element: 'ConsolidationQuestion'` | `element: 'ConsolidationQuestion'` |
-| `}` | `}` |
-| `}]` | `}]` |
 | `ConsolidationQuestion` | `_Source.question` |
-| `_Source.question_type                as ConsolidationQuestionType` | *Association* |
-| `_Source.are_multiple_answers_allowed as CnsldtnQstnAreMultiAnswAllowed` | *Association* |
-| `_Source.max_allowed_answers          as CnsldtnQstnMaxNrOfAllwdAnswers` | *Association* |
-| `_Source.min_required_answers         as CnsldtnQstnMinNrOfRqdAnswers` | *Association* |
+| `ConsolidationQuestionType` | `_Source.question_type` |
+| `CnsldtnQstnAreMultiAnswAllowed` | `_Source.are_multiple_answers_allowed` |
+| `CnsldtnQstnMaxNrOfAllwdAnswers` | `_Source.max_allowed_answers` |
+| `CnsldtnQstnMinNrOfRqdAnswers` | `_Source.min_required_answers` |
 | `_Text` | *Association* |
 | `_AnswerAssignment` | *Association* |
 

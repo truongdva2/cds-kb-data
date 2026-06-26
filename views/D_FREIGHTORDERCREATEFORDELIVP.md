@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrderType : /scmtms/tor_type;` | `TransportationOrderType : /scmtms/tor_type;` |
-| `_FreightBookingItems    : association [0..*] to D_FreightOrdCrteForDelivItmP on 1 = 0;` | *Association* |
+| `TransportationOrderType` | `/scmtms/tor_type` |
+| `_FreightBookingItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FreightBookingItems` | `D_FreightOrdCrteForDelivItmP` | [0..*] |
 
 ## Source Code
 

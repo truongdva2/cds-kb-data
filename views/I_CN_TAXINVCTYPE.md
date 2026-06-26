@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key type.CN_TaxInvcType` | `type.CN_TaxInvcType` |
+| `CN_TaxInvcType` | `type.CN_TaxInvcType` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -32,16 +32,12 @@ tags:
 | `CAServiceDisconnectionRequest` | `dscpnr` |
 | `CASrvcDisconncnReqIsInvalid` | `xdpinv` |
 | `CASrvcDisconncnReqIsObsolete` | `xiobs` |
-| `cast( case` | `cast( case` |
-| `when xdpinv = 'X' then 'I'` | `when xdpinv = 'X' then 'I'` |
-| `when xiobs = 'X' then 'O'` | `when xiobs = 'X' then 'O'` |
-| `else 'V'` | `else 'V'` |
-| `disreq_status_kk preserving type )` | `end` |
+| `CASrvcDisconncnReqStatus` | `cast(…)` |
 | `CAMassRunDate` | `laufd` |
 | `CAMassRunID` | `laufi` |
-| `bu_partner preserving type )` | `cast( gpart` |
-| `vkont_gfn_kk preserving type )` | `cast( vkont` |
-| `vtref_kk preserving type )` | `cast( vtref` |
+| `BusinessPartner` | `cast( gpart as bu_partner preserving type )` |
+| `ContractAccount` | `cast( vkont as vkont_gfn_kk preserving type )` |
+| `CAContract` | `cast( vtref as vtref_kk preserving type )` |
 | `CASubApplication` | `subap` |
 | `CompanyCode` | `bukrs` |
 | `Division` | `spart` |
@@ -50,7 +46,6 @@ tags:
 | `CreatedByUser` | `uname` |
 | `CreationDate` | `crdate` |
 | `CreationTime` | `crtime` |
-| `/* associations */` | `/* associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CAProviderContract` | *Association* |
 | `_CASrvcDisconncnReqStatus` | *Association* |

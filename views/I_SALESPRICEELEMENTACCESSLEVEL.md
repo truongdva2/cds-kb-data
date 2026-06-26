@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PriceElementAccessLevel` | `PriceElementAccessLevel` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PriceElementAccessLevel` | `PriceElementAccessLevel` |
 | `_ConditionApplication` | *Association* |
 | `_Text` | *Association* |
 

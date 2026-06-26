@@ -31,27 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMProductionMaterialRequest` | `EWMProductionMaterialRequest` |
+| `EWMProductionMaterialRequest` | `EWMProductionMaterialRequest` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `EWMProdnMatlReqDocCategory` | `EWMProdnMatlReqDocCategory` |
 | `EWMProdnMatlReqDocumentType` | `EWMProdnMatlReqDocumentType` |
-| `manufacturingorder )` | `cast( _ManufacturingOrder.EWMWhseReqRefDocumentNumber` |
+| `ManufacturingOrder` | `cast( _ManufacturingOrder.EWMWhseReqRefDocumentNumber as manufacturingorder )` |
 | `EWMProductionInformation` | `EWMProductionInformation` |
 | `EWMProdnMatlReqPriority` | `EWMProdnMatlReqPriority` |
-| `/*  Status */` | `/*  Status */` |
 | `EWMManufacturingOrderStatus` | `EWMManufacturingOrderStatus` |
 | `EWMInconsistencyBlockStatus` | `EWMInconsistencyBlockStatus` |
 | `EWMArchivingStatus` | `EWMArchivingStatus` |
-| `/* Administrative Fields  */` | `/* Administrative Fields  */` |
 | `EWMProdnMatlReqCrtnUTCDateTime` | `EWMProdnMatlReqCrtnUTCDateTime` |
 | `EWMProdnMatlReqCreatedByUser` | `EWMProdnMatlReqCreatedByUser` |
 | `EWMProdnMatlReqLstChgUTCDteTme` | `EWMProdnMatlReqLstChgUTCDteTme` |
 | `EWMProdnMatlReqLastChgdByUser` | `EWMProdnMatlReqLastChgdByUser` |
-| `/* Production related date time */` | `/* Production related date time */` |
-| `_EWMPlndProdnStartUTCDateTime.DeliveryRelatedStartDateTime                    as EWMPlndProdnStartUTCDateTime` | *Association* |
-| `_EWMPlndProdnEndUTCDateTime.DeliveryRelatedEndDateTime                        as EWMPlndProdnEndUTCDateTime` | *Association* |
+| `EWMPlndProdnStartUTCDateTime` | `_EWMPlndProdnStartUTCDateTime.DeliveryRelatedStartDateTime` |
+| `EWMPlndProdnEndUTCDateTime` | `_EWMPlndProdnEndUTCDateTime.DeliveryRelatedEndDateTime` |
 | `EWMProductionMaterialReqUUID` | `EWMProductionMaterialReqUUID` |
-| `/* Associations */` | `/* Associations */` |
 | `_ManufacturingOrder` | *Association* |
 | `_EWMManufacturingOrdStatusTxt` | *Association* |
 | `_EWMInconstcyBlockStatusTxt` | *Association* |

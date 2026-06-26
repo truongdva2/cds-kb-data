@@ -39,8 +39,8 @@ tags:
 | `CABillgFirstDate` | `bill_first` |
 | `CATaxIsIncluded` | `tax_included` |
 | `CABllbleItmClass` | `bitcat` |
-| `srctatype_gfn_kk preserving type )` | `cast( srctatype` |
-| `srctaid_gfn_kk preserving type )` | `cast( srctaid` |
+| `CABllbleItmSourceTransType` | `cast( srctatype as srctatype_gfn_kk preserving type )` |
+| `CABllbleItmSourceTransId` | `cast( srctaid as srctaid_gfn_kk preserving type )` |
 | `CABllbleItmPackageUUID` | `bitpackuuid` |
 | `CABllbleItmPackNo` | `bitpackcno` |
 | `CABllbleItmCreationDate` | `bitcrdate` |

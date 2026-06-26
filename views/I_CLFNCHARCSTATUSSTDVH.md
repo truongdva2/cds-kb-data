@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcStatus` | `CharcStatus` |
-| `_CharacteristicStatusText as _Text` | *Association* |
+| `CharcStatus` | `CharcStatus` |
+| `_Text` | *Association* |
 
 ## Associations
 

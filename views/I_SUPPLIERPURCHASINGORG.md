@@ -32,9 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Supplier_VH'` | `name:    'I_Supplier_VH'` |
-| `element: 'Supplier' }` | `element: 'Supplier' }` |
-| `}]` | `}]` |
 | `Supplier` | `lifnr` |
 | `PurchasingOrganization` | `ekorg` |
 | `PurchasingGroup` | `ekgrp` |
@@ -72,7 +69,7 @@ tags:
 | `ProductUnitGroup` | `megru` |
 | `RoundingProfile` | `rdprf` |
 | `PlanningCycle` | `lfrhy` |
-| `xfeld preserving type )` | `cast ( nrgew` |
+| `SuplrDiscountInKindIsGranted` | `cast ( nrgew as xfeld preserving type )` |
 | `SuplrIsRlvtForSettlmtMgmt` | `agrel` |
 | `InvoiceIsMMServiceEntryBased` | `lebre` |
 | `ProdStockAndSlsDataTransfPrfl` | `paprf` |
@@ -83,19 +80,18 @@ tags:
 | `MaximumHandlingSurchargeAmt` | `hscmax` |
 | `AutomDebitCrtnIsEnbldOnGI` | `aubel` |
 | `SupplierIsReturnsSupplier` | `kzret` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `/sapapo/location_uuid)` | `cast(   inco2_key` |
-| `/sapapo/location_uuid)` | `cast(   inco3_key` |
-| `/sapapo/location_uuid)` | `cast(   inco4_key` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `IncotermsSupChnLoc1AddlUUID` | `cast( inco2_key as /sapapo/location_uuid)` |
+| `IncotermsSupChnLoc2AddlUUID` | `cast( inco3_key as /sapapo/location_uuid)` |
+| `IncotermsSupChnDvtgLocAddlUUID` | `cast( inco4_key as /sapapo/location_uuid)` |
 | `_IncotermsClassification` | *Association* |
-| `_Supplier.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_Supplier.AuthorizationGroup` |
 | `_Supplier` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_TargetPublicBasicViewNameWithoutPrefix` | `I_TargetPublicBasicViewNameWithoutPrefix` | [0..1] |
 | `_IncotermsClassification` | `I_IncotermsClassification` | [0..1] |
 | `_Supplier` | `I_Supplier` | [1..1] |
 | `_PurgOrgExt` | `E_BPPURORG_D` | [0..1] |

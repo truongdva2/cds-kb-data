@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'DistributionChannelName' }` | `status: #DEPRECATED, successor: 'DistributionChannelName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.DistributionChannelName` |
-| `fincs_distributionchannelname preserving type )` | `cast( _Source.DistributionChannelName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `DistributionChannel` | `cast( _Source.DistributionChannel as fincs_distributionchannel preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast(…)` |
+| `DistributionChannelName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_DistributionChannel` | *Association* |
 

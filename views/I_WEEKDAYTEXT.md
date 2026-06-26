@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_weekday )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `spras)` | `cast(ddlanguage` |
+| `WeekDay` | `cast ( substring( dd07t.domvalue_l, 1, 1 ) as vdm_weekday )` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `WeekDayName` | `dd07t.ddtext` |
 | `_WeekDay` | *Association* |
 | `_Language` | *Association* |

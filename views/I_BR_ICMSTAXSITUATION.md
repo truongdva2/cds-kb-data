@@ -31,11 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cast(case substring( domvalue_l, 1, 1 )` | `cast(case substring( domvalue_l, 1, 1 )` |
-| `when 'A' then '41'` | `when 'A' then '41'` |
-| `when 'B' then '51'` | `when 'B' then '51'` |
-| `else concat(substring( domvalue_l, 1, 1 ), '0')` | `else concat(substring( domvalue_l, 1, 1 ), '0')` |
-| `logbr_taxsit)` | `end` |
+| `BR_ICMSTaxSituation` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

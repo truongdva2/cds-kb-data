@@ -29,10 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_SalesDocRepricingPricingType'` | `name:    'I_SalesDocRepricingPricingType'` |
-| `element: 'PricingType' }` | `element: 'PricingType' }` |
-| `}]` | `}]` |
-| `PricingType : knprs;` | `PricingType : knprs;` |
+| `PricingType` | `knprs` |
 
 ## Associations
 

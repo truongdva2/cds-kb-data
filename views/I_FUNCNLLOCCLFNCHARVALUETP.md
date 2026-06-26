@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
-| `key ClassType` | `ClassType` |
-| `key CharcValuePositionNumber` | `CharcValuePositionNumber` |
-| `key CharcInternalID` | `CharcInternalID` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `ClassType` | `ClassType` |
+| `CharcValuePositionNumber` | `CharcValuePositionNumber` |
+| `CharcInternalID` | `CharcInternalID` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `Characteristic` | `Characteristic` |
 | `CharcDataType` | `CharcDataType` |
@@ -59,8 +59,6 @@ tags:
 | `CharcMaintAuthGrp` | `CharcMaintAuthGrp` |
 | `ClassMaintAuthGrp` | `ClassMaintAuthGrp` |
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
-| `_Characteristic: redirected to parent I_FuncnlLocClfnClassCharTP` | *Association* |
-| `_FunctionalLocation: redirected to I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

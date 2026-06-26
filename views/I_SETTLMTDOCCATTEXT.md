@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wlf_settlmt_doc_cat )` | `cast( dd07t.domvalue_l` |
+| `SettlmtDocCat` | `cast( dd07t.domvalue_l as wlf_settlmt_doc_cat )` |
 | `Language` | `dd07t.ddlanguage` |
-| `wlf_lftyp_name  preserving type)` | `cast( dd07t.ddtext` |
+| `SettlmtDocCatName` | `cast( dd07t.ddtext as wlf_lftyp_name preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtDocCat` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SettlmtDocCat` | `I_SettlmtDocCat` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

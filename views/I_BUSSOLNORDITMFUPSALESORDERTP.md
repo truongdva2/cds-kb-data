@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key SalesOrder` | `SalesOrder` |
-| `key SalesOrderItem` | `SalesOrderItem` |
-| `_BusinessSolutionOrderItemTP : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
-| `_BusinessSolutionOrderTP     : redirected to I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
 
 ## Associations
 

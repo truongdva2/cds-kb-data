@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
+| `MaintPriority` | `t356.priok` |
 | `MaintPriorityType` | `artpr` |
-| `abap.int1)` | `cast (priocc` |
+| `MaintPriorityColorCode` | `cast (priocc as abap.int1)` |
 | `_Text` | *Association* |
 | `_PMNotificationPriorityType` | *Association* |
 

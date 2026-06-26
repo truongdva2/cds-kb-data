@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key PricingDocument` | `PricingDocument` |
-| `key PricingDocumentItem` | `PricingDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
@@ -112,10 +112,6 @@ tags:
 | `PricingProcedure` | `PricingProcedure` |
 | `SuperordinateDocument` | `SuperordinateDocument` |
 | `SuperordinateDocumentItem` | `SuperordinateDocumentItem` |
-| `/* Composition */` | `/* Composition */` |
-| `_PurchaseOrderItem : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
-| `_PurchaseOrder     : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_BillingPriceSource` | *Association* |
 | `_ConditionAcctAssgmtRelevance` | *Association* |
 | `_ConditionAlternativeCurrency` | *Association* |

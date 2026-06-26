@@ -32,9 +32,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `abap.numc( 3 ) )` | `cast ( cast ( substring( domvalue_l, 1, 3 )` |
+| `EarmarkedFundsDocumentCategory` | `cast(…)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fmis_efd_doccategorytext preserving type )` | `cast ( ddtext` |
+| `EarmarkedFundsDocCategoryText` | `cast ( ddtext as fmis_efd_doccategorytext preserving type )` |
 | `_EarmarkedFundsDocCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EarmarkedFundsDocCategory` | `I_EarmarkedFunds_DocCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

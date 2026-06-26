@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fins_rfpro )` | `cast( rfpro` |
+| `UserToleranceGroup` | `cast( rfpro as fins_rfpro )` |
 | `CompanyCode` | `bukrs` |
 | `MaxPaymentDiffRevenueAmount` | `betrs` |
 | `MaxPaymentDiffExpenseAmount` | `betrh` |
@@ -41,7 +41,7 @@ tags:
 | `MaxJrnlEntrPostgAmtInCCCrcy` | `maxbt` |
 | `MaxJrnlEntrItmPostgAmtInCCCrcy` | `maxeb` |
 | `MaximumCashDiscountPercent` | `maxsk` |
-| `_CompanyCode.Currency       as CompanyCodeCurrency` | *Association* |
+| `CompanyCodeCurrency` | `_CompanyCode.Currency` |
 | `_CompanyCode` | *Association* |
 
 ## Associations

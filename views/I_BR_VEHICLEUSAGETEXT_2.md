@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `logbr_vehicleusage preserving type )` | `cast( espveic` |
-| `logbr_vehicleusagedescription preserving type )` | `cast( espveict` |
+| `VehicleUsage` | `cast( espveic as logbr_vehicleusage preserving type )` |
+| `VehicleUsageDesc` | `cast( espveict as logbr_vehicleusagedescription preserving type )` |
 | `_VehicleUsage` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,14 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_logitemtype_text preserving type )` | `cast(_DomainT.DomainValueText` |
-| `_DomainT.DomainValue` | *Association* |
+| `Language` | `cast(_DomainT.Language as spras preserving type )` |
+| `CnsldtnTaskLogItemType` | `cast(left(_DomainT.DomainValue, 2) as fincs_lineitemtype preserving type )` |
+| `CnsldtnTaskLogItemTypeText` | `cast(_DomainT.DomainValueText as fincs_logitemtype_text preserving type )` |
+| `DomainValue` | `_DomainT.DomainValue` |
 | `_TaskLogItemType` | *Association* |
-| `_DomainT._Language` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

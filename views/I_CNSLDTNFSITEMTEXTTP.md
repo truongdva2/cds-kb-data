@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_Source.CnsldtnFSItemText` | *Association* |
-| `_Source.CnsldtnFSItemMediumText` | *Association* |
-| `_Source.CnsldtnFSItemLongText` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnFSItem : redirected to parent I_CnsldtnFSItemTP` | *Association* |
+| `Language` | `_Source.Language` |
+| `ConsolidationChartOfAccounts` | `_Source.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `_Source.CnsldtnFinancialStatementItem` |
+| `CnsldtnFSItemText` | `_Source.CnsldtnFSItemText` |
+| `CnsldtnFSItemMediumText` | `_Source.CnsldtnFSItemMediumText` |
+| `CnsldtnFSItemLongText` | `_Source.CnsldtnFSItemLongText` |
 
 ## Associations
 

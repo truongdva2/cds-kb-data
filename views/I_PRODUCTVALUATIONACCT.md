@@ -31,43 +31,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ValuationAccount.Product` | `ValuationAccount.Product` |
-| `key ValuationAccount.ValuationArea` | `ValuationAccount.ValuationArea` |
-| `key ValuationAccount.ValuationType` | `ValuationAccount.ValuationType` |
-| `ValuationAccount.CommercialPrice1InCoCodeCrcy` | `ValuationAccount.CommercialPrice1InCoCodeCrcy` |
-| `ValuationAccount.CommercialPrice2InCoCodeCrcy` | `ValuationAccount.CommercialPrice2InCoCodeCrcy` |
-| `ValuationAccount.CommercialPrice3InCoCodeCrcy` | `ValuationAccount.CommercialPrice3InCoCodeCrcy` |
-| `ValuationAccount.DevaluationYearCount` | `ValuationAccount.DevaluationYearCount` |
+| `Product` | `ValuationAccount.Product` |
+| `ValuationArea` | `ValuationAccount.ValuationArea` |
+| `ValuationType` | `ValuationAccount.ValuationType` |
+| `CommercialPrice1InCoCodeCrcy` | `ValuationAccount.CommercialPrice1InCoCodeCrcy` |
+| `CommercialPrice2InCoCodeCrcy` | `ValuationAccount.CommercialPrice2InCoCodeCrcy` |
+| `CommercialPrice3InCoCodeCrcy` | `ValuationAccount.CommercialPrice3InCoCodeCrcy` |
+| `DevaluationYearCount` | `ValuationAccount.DevaluationYearCount` |
 | `FutureEvaluatedAmountValue` | `ValuationAccount.FuturePrice` |
-| `ValuationAccount.FuturePriceValidityStartDate` | `ValuationAccount.FuturePriceValidityStartDate` |
-| `ValuationAccount.IsLIFOAndFIFORelevant` | `ValuationAccount.IsLIFOAndFIFORelevant` |
-| `ValuationAccount.LIFOValuationPoolNumber` | `ValuationAccount.LIFOValuationPoolNumber` |
-| `ValuationAccount.StandardPricePrevYear` | `ValuationAccount.StandardPricePrevYear` |
-| `ValuationAccount.TaxPricel1InCoCodeCrcy` | `ValuationAccount.TaxPricel1InCoCodeCrcy` |
-| `ValuationAccount.TaxPrice2InCoCodeCrcy` | `ValuationAccount.TaxPrice2InCoCodeCrcy` |
-| `ValuationAccount.TaxPrice3InCoCodeCrcy` | `ValuationAccount.TaxPrice3InCoCodeCrcy` |
-| `ValuationAccount.TaxBasedPricesPriceUnitQty` | `ValuationAccount.TaxBasedPricesPriceUnitQty` |
+| `FuturePriceValidityStartDate` | `ValuationAccount.FuturePriceValidityStartDate` |
+| `IsLIFOAndFIFORelevant` | `ValuationAccount.IsLIFOAndFIFORelevant` |
+| `LIFOValuationPoolNumber` | `ValuationAccount.LIFOValuationPoolNumber` |
+| `StandardPricePrevYear` | `ValuationAccount.StandardPricePrevYear` |
+| `TaxPricel1InCoCodeCrcy` | `ValuationAccount.TaxPricel1InCoCodeCrcy` |
+| `TaxPrice2InCoCodeCrcy` | `ValuationAccount.TaxPrice2InCoCodeCrcy` |
+| `TaxPrice3InCoCodeCrcy` | `ValuationAccount.TaxPrice3InCoCodeCrcy` |
+| `TaxBasedPricesPriceUnitQty` | `ValuationAccount.TaxBasedPricesPriceUnitQty` |
 | `CompanyCode` | `t001k.bukrs` |
 | `Currency` | `t001.waers` |
-| `ValuationAccount.ProdCostEstNumber` | `ValuationAccount.ProdCostEstNumber` |
-| `ValuationAccount.MLIsActiveAtProductLevel` | `ValuationAccount.MLIsActiveAtProductLevel` |
-| `ValuationAccount.ValuationCategory` | `ValuationAccount.ValuationCategory` |
-| `ValuationAccount.ProdPrcControlInPreviousPeriod` | `ValuationAccount.ProdPrcControlInPreviousPeriod` |
-| `ValuationAccount.MvgAvgPriceInPreviousPeriod` | `ValuationAccount.MvgAvgPriceInPreviousPeriod` |
-| `ValuationAccount.StandardPriceInPreviousPeriod` | `ValuationAccount.StandardPriceInPreviousPeriod` |
-| `ValuationAccount.ProdPrcUntQtyInPreviousPeriod` | `ValuationAccount.ProdPrcUntQtyInPreviousPeriod` |
-| `ValuationAccount.ValuationClassPreviousPeriod` | `ValuationAccount.ValuationClassPreviousPeriod` |
-| `ValuationAccount.ProdPriceControlInPreviousYear` | `ValuationAccount.ProdPriceControlInPreviousYear` |
-| `ValuationAccount.MvgAveragePriceInPreviousYear` | `ValuationAccount.MvgAveragePriceInPreviousYear` |
-| `ValuationAccount.ProdPrcUntQtyInPreviousYear` | `ValuationAccount.ProdPrcUntQtyInPreviousYear` |
-| `ValuationAccount.ValuationClassPreviousYear` | `ValuationAccount.ValuationClassPreviousYear` |
-| `_Product.BaseUnit` | *Association* |
+| `ProdCostEstNumber` | `ValuationAccount.ProdCostEstNumber` |
+| `MLIsActiveAtProductLevel` | `ValuationAccount.MLIsActiveAtProductLevel` |
+| `ValuationCategory` | `ValuationAccount.ValuationCategory` |
+| `ProdPrcControlInPreviousPeriod` | `ValuationAccount.ProdPrcControlInPreviousPeriod` |
+| `MvgAvgPriceInPreviousPeriod` | `ValuationAccount.MvgAvgPriceInPreviousPeriod` |
+| `StandardPriceInPreviousPeriod` | `ValuationAccount.StandardPriceInPreviousPeriod` |
+| `ProdPrcUntQtyInPreviousPeriod` | `ValuationAccount.ProdPrcUntQtyInPreviousPeriod` |
+| `ValuationClassPreviousPeriod` | `ValuationAccount.ValuationClassPreviousPeriod` |
+| `ProdPriceControlInPreviousYear` | `ValuationAccount.ProdPriceControlInPreviousYear` |
+| `MvgAveragePriceInPreviousYear` | `ValuationAccount.MvgAveragePriceInPreviousYear` |
+| `ProdPrcUntQtyInPreviousYear` | `ValuationAccount.ProdPrcUntQtyInPreviousYear` |
+| `ValuationClassPreviousYear` | `ValuationAccount.ValuationClassPreviousYear` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |
 | `_InvtryValnProcedPrevPerd` | *Association* |
 | `_InvtryValnProcedLastYr` | *Association* |
 | `_CurrencyText` | *Association* |
-| `_Product._BaseUnitOfMeasureText` | *Association* |
+| `_BaseUnitOfMeasureText` | *Association* |
 | `_ProductDescription` | *Association* |
 
 ## Associations

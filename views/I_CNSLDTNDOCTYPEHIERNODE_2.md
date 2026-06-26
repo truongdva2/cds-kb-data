@@ -30,12 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_DocumentType'` | `foreignKey.association: '_DocumentType'` |
-| `sapObjectNodeTypeReference: 'ConsolidationDocumentType' }` | `sapObjectNodeTypeReference: 'ConsolidationDocumentType' }` |
-| `fincs_documenttype preserving type )` | `cast( left(_HierarchyNode.leafvalue, 2)` |
-| `_HierarchyNode.hryseqnbr                                                        as HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.hrylevel                                                         as HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.nodetype                                                         as NodeType` | *Association* |
+| `ConsolidationDocTypeHierarchy` | `cast(_HierarchyNode.hryid as fincs_doctypehierarchy preserving type )` |
+| `HierarchyNode` | `cast(_HierarchyNode.hrynode as fincs_hierarchynode preserving type )` |
+| `ValidityEndDate` | `cast(_HierarchyNode.hryvalto as fincs_validityenddate preserving type )` |
+| `ValidityStartDate` | `cast(_HierarchyNode.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ParentNode` | `cast(_HierarchyNode.parnode as fincs_parentnode preserving type )` |
+| `HierarchyVersion` | `cast(_HierarchyNode.hryver as fincs_hierarchyversion preserving type )` |
+| `ConsolidationDocumentType` | `cast( left(_HierarchyNode.leafvalue, 2) as fincs_documenttype preserving type )` |
+| `HierarchyNodeSequence` | `_HierarchyNode.hryseqnbr` |
+| `HierarchyNodeLevel` | `_HierarchyNode.hrylevel` |
+| `NodeType` | `_HierarchyNode.nodetype` |
 | `_DocumentType` | *Association* |
 | `_Text` | *Association* |
 | `_Hierarchy` | *Association* |

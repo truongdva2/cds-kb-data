@@ -34,20 +34,19 @@ tags:
 | `PredecessorObjectName` | `predecessor.sub_object_name` |
 | `PredecessorObjectDirectoryType` | `predecessor.object_type` |
 | `PredecessorObjectDirectoryName` | `predecessor.object_name` |
-| `SuccessorObjectType` | `''` |
-| `SuccessorObjectName` | `''` |
-| `SuccessorObjectDirectoryType` | `''` |
-| `SuccessorObjectDirectoryName` | `''` |
+| `SuccessorObjectType` | `successor.successor_object_type` |
+| `SuccessorObjectName` | `successor.successor_object_key` |
+| `SuccessorObjectDirectoryType` | `successor.successor_tadir_object` |
+| `SuccessorObjectDirectoryName` | `successor.successor_tadir_obj_name` |
 | `SuccessorConceptName` | `predecessor.successor_concept_name` |
-| `ars_successor_category preserving type)` | `cast('C'` |
+| `SuccessorCategory` | `cast('O' as ars_successor_category preserving type)` |
 | `PredecessorReleaseState` | `predecessor.release_state` |
-| `_text.description                                   as PredecessorReleaseStateDescr` | *Association* |
+| `PredecessorReleaseStateDescr` | `_text.description` |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_text` | `v_ars_release_state` | [0..1] |
 | `_text` | `v_ars_release_state` | [0..1] |
 
 ## Source Code

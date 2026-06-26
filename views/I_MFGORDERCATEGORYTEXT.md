@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `manufacturingordercategoryname preserving type)` | `cast(t.ddtext` |
+| `ManufacturingOrderCategory` | `cast(…)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `ManufacturingOrderCategoryName` | `cast(t.ddtext as manufacturingordercategoryname preserving type)` |
 | `DomainValue` | `t.domvalue_l` |
 | `_MfgOrderCategory` | *Association* |
 | `_Language` | *Association* |

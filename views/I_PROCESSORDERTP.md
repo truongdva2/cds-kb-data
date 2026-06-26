@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProcessOrder` | `ProcessOrder` |
-| `ManufacturingOrderCategory, // for DCLS` | `ManufacturingOrderCategory, // for DCLS` |
+| `ProcessOrder` | `ProcessOrder` |
+| `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProcessOrderType` | `ProcessOrderType` |
 | `ProcessOrderText` | `ProcessOrderText` |
 | `OrderHasLongText` | `OrderHasLongText` |
@@ -145,13 +145,6 @@ tags:
 | `OrderConfirmedScrapQty` | `OrderConfirmedScrapQty` |
 | `ExpectedDeviationQuantity` | `ExpectedDeviationQuantity` |
 | `ActualDeliveredQuantity` | `ActualDeliveredQuantity` |
-| `_Item                   : redirected to composition child I_ProcessOrderItemTP` | *Association* |
-| `_Operation              : redirected to composition child I_ProcessOrderOperationTP` | *Association* |
-| `_Component              : redirected to composition child I_ProcessOrderComponentTP` | *Association* |
-| `_SerialNumber           : redirected to I_ProcOrderItemSerialNumberTP` | *Association* |
-| `_PostingRule            : redirected to I_EventBasedOrderPostingRuleTP` | *Association* |
-| `_OrderOperationCapacity : redirected to I_ProcOrdOperationCapacityTP` | *Association* |
-| `_OrderPhaseCapacity     : redirected to I_ProcessOrderPhaseCapacityTP` | *Association* |
 
 ## Associations
 

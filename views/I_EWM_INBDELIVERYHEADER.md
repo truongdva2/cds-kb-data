@@ -32,30 +32,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMInboundDelivery` | `EWMInboundDelivery` |
+| `EWMInboundDelivery` | `EWMInboundDelivery` |
 | `InboundDeliveryUUID` | `InboundDeliveryUUID` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `EWMDeliveryDocumentCategory` | `DeliveryDocumentCategory` |
 | `EWMDeliveryDocumentType` | `InboundDeliveryDocumentType` |
 | `ShipFromParty` | `ShipFromParty` |
-| `ewm_de_ship_from_party_name preserving type)` | `cast(ShipFromPartyName` |
+| `ShipFromPartyName` | `cast(ShipFromPartyName as ewm_de_ship_from_party_name preserving type)` |
 | `EWMShipFromIsBusPurposeCmpltd` | `EWMShipFromIsBusPurposeCmpltd` |
 | `Carrier` | `Carrier` |
-| `ewm_de_carrier_name preserving type)` | `cast(CarrierName` |
+| `CarrierName` | `cast(CarrierName as ewm_de_carrier_name preserving type)` |
 | `EWMCarrierIsBusPurposeCmpltd` | `EWMCarrierIsBusPurposeCmpltd` |
 | `AdvancedShippingNotification` | `AdvancedShippingNotification` |
-| `/scwm/sp_docno_erp)` | `cast(_Reference.EWMRefDeliveryDocumentNumber` |
-| `_PlannedDeliveryDateTime.DeliveryRelatedStartDateTime                  as PlannedDeliveryUTCDateTime` | *Association* |
+| `InboundDelivery` | `cast(_Reference.EWMRefDeliveryDocumentNumber as /scwm/sp_docno_erp)` |
+| `PlannedDeliveryUTCDateTime` | `_PlannedDeliveryDateTime.DeliveryRelatedStartDateTime` |
 | `ReceivingOffice` | `ReceivingOffice` |
-| `_HUExists.EWMWhseReqHasHandlingUnit` | *Association* |
-| `/* ETag Handling */` | `/* ETag Handling */` |
+| `EWMWhseReqHasHandlingUnit` | `_HUExists.EWMWhseReqHasHandlingUnit` |
 | `EWMDeliveryCreationUTCDateTime` | `EWMDeliveryCreationUTCDateTime` |
-| `case` | `case` |
-| `tzntstmps preserving type)` | `when EWMDelivLastChangeUTCDateTime is initial then cast(EWMDeliveryCreationUTCDateTime` |
-| `tzntstmps preserving type)` | `else cast(EWMDelivLastChangeUTCDateTime` |
-| `EWMDelivLastChangeUTCDateTime` | `end` |
-| `_WarehouseTimezone.TimeZoneID                                          as WarehouseTimeZone` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `EWMDelivLastChangeUTCDateTime` | `case…end` |
+| `WarehouseTimeZone` | `_WarehouseTimezone.TimeZoneID` |
 | `_InboundDeliveryHdrTypeText` | *Association* |
 | `_WarehouseText` | *Association* |
 

@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Producttypecodevh', element: 'ProductTypeCode' }, useAsTemplate: true    }]` | `name: 'I_Producttypecodevh', element: 'ProductTypeCode' }, useAsTemplate: true    }]` |
+| `ProductType` | `cast(t134.mtart as producttype preserving type )` |
 | `ProductTypeCode` | `prod_type_code` |
 | `AuthorizationGroup` | `t134.begru` |
-| `externalnr preserving type )` | `cast(t134.numke` |
-| `internalnr preserving type )` | `cast(t134.numki` |
-| `producttype_oid )` | `cast( t134.mtart` |
+| `NumberRangeForExtIDAssignment` | `cast(t134.numke as externalnr preserving type )` |
+| `NumberRangeForIntIDAssignment` | `cast(t134.numki as internalnr preserving type )` |
+| `ProductTypeOID` | `cast( t134.mtart as producttype_oid )` |
 | `_Text` | *Association* |
 | `_ProductTypeCode` | *Association* |
 | `_ProductTypeCodeText` | *Association* |

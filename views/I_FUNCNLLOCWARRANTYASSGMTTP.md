@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
-| `key WarrantyType` | `WarrantyType` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `WarrantyType` | `WarrantyType` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `MasterWarranty` | `MasterWarranty` |
 | `WarrantyStartDate` | `WarrantyStartDate` |
 | `WarrantyEndDate` | `WarrantyEndDate` |
 | `WrntyIsInhtdFromSuperiorObject` | `WrntyIsInhtdFromSuperiorObject` |
 | `WrntyIsPassedOnToChildObject` | `WrntyIsPassedOnToChildObject` |
-| `_FunctionalLocation: redirected to parent I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

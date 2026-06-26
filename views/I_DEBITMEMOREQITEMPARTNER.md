@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `debit_memo_request preserving type)` | `cast(SalesDocument` |
-| `debit_memo_request_item preserving type)` | `cast(SalesDocumentItem` |
-| `key PartnerFunction` | `PartnerFunction` |
+| `DebitMemoRequest` | `cast(SalesDocument as debit_memo_request preserving type)` |
+| `DebitMemoRequestItem` | `cast(SalesDocumentItem as debit_memo_request_item preserving type)` |
+| `PartnerFunction` | `PartnerFunction` |
 | `Customer` | `Customer` |
 | `Supplier` | `Supplier` |
 | `Personnel` | `Personnel` |
@@ -56,7 +56,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DebitMemoRequest` | `I_DebitMemoRequest` | [1..1] |
+| `_DebitMemoRequestItem` | `I_DebitMemoRequestItem` | [1..1] |
 
 ## Source Code
 

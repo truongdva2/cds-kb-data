@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `cats_ssc_wrkloctext preserving type )` | `cast( tswlt.text` |
+| `Language` | `tswlt.langu` |
+| `TimeSheetWrkLocCode` | `cast( tswlt.wrkloc as cats_ssc_wrkloc preserving type )` |
+| `TimeSheetWrkLocEndDate` | `tswlt.endda` |
+| `TimeSheetWrkLocCodeName` | `cast( tswlt.text as cats_ssc_wrkloctext preserving type )` |
 | `_TimeSheetWrkLoc` | *Association* |
 | `_Language` | *Association* |
 

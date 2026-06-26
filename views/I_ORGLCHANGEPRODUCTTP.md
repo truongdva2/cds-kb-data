@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key         OrganizationalChange` | `OrganizationalChange` |
-| `key         Product` | `Product` |
-| `key         Plant` | `Plant` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
 | `ProductForEdit` | `ProductForEdit` |
 | `PlantForEdit` | `PlantForEdit` |
 | `ControllingArea` | `ControllingArea` |
@@ -42,7 +42,6 @@ tags:
 | `ProfitCenterByOrglChange` | `ProfitCenterByOrglChange` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

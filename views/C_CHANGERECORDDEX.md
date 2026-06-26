@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key       ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 | `ChangeRecord` | `ChangeRecord` |
 | `ChangeRecordType` | `ChangeRecordType` |
 | `ParentChangeRecordUUID` | `ParentChangeRecordUUID` |

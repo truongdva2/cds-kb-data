@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
+| `Language` | `SlsContractApprovalReasonText.Language` |
 | `SalesContractApprovalReason` | `SlsContractApprovalReasonText.SalesDocApprovalReason` |
 | `SlsContractApprovalReasonName` | `SlsContractApprovalReasonText.SalesDocApprovalReasonName` |
 | `_SalesContractApprovalReason` | *Association* |
-| `SlsContractApprovalReasonText._Language` | `SlsContractApprovalReasonText._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

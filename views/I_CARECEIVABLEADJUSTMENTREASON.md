@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `grund_kk preserving type )` | `cast( grund` |
+| `CAReceivableAdjustmentReason` | `cast( grund as grund_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

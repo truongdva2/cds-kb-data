@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `md_substn_status_text  preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `cast(ddlanguage as spras preserving type )` |
+| `MDSubstnStatus` | `cast ( domvalue_l as md_substn_status )` |
+| `DomainValue` | `domvalue_l` |
+| `MDSubstnStatusDescription` | `cast( ddtext as md_substn_status_text preserving type )` |
 | `_Language` | *Association* |
 | `_Status` | *Association* |
 
@@ -45,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Status` | `I_MDSubstnSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

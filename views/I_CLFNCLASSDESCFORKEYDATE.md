@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassInternalID` | `ClassInternalID` |
-| `key Language` | `Language` |
+| `ClassInternalID` | `ClassInternalID` |
+| `Language` | `Language` |
 | `ClassDescription` | `ClassDescription` |
 | `_Class` | *Association* |
 

@@ -42,19 +42,9 @@ tags:
 | `BusinessPartnerRatingComment` | `bp1012.text` |
 | `BusinessPartnerRatingIsAllowed` | `bp1012.flg_permit` |
 | `BPRatingLongComment` | `bp1012.longtext` |
-| `cast (  case` | `cast (  case` |
-| `when bp1012.date_to >= tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ),  $session.client, 'NULL')` | `when bp1012.date_to >= tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ),  $session.client, 'NULL')` |
-| `and bp1012.date_from <=tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ),  $session.client, 'NULL')` | `and bp1012.date_from <=tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ),  $session.client, 'NULL')` |
-| `then 'X'` | `then 'X'` |
-| `else ''` | `else ''` |
-| `bp_rat_valid preserving type)` | `end` |
-| `bp_rat_key_date preserving type)` | `cast ( tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ),  $session.client, 'NULL')` |
-| `cast ( case left(cast(( dats_days_between(bp1012.date_to, tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' ))` | `cast ( case left(cast(( dats_days_between(bp1012.date_to, tstmp_to_dats( tstmp_current_utctimestamp(), abap_system_timezone( $session.client,'NULL' ), $session.client, 'NULL' ))` |
-| `abap.int4) )` | `- cast(_BPRatingProcedure.BPRatingStandardAccessDays` |
-| `when '-' then '' // date_to in the future` | `when '-' then '' // date_to in the future` |
-| `when '0' then '' // date_to = today` | `when '0' then '' // date_to = today` |
-| `else 'X'         // date_to in the past and lower than threshold of grade method` | `else 'X'         // date_to in the past and lower than threshold of grade method` |
-| `bp_rat_expired preserving type)` | `end` |
+| `BPRatingIsValidOnKeyDate` | `cast(…)` |
+| `BusinessPartnerRatingKeyDate` | `cast(…)` |
+| `BusinessPartnerRatingIsExpired` | `cast(…)` |
 | `_BPRatingProcedure` | *Association* |
 | `_BPRatingProcedureGrade` | *Association* |
 | `_BPRatingTrend` | *Association* |

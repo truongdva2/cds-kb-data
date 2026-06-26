@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   ParentHandlingUnitUUID` | `ParentHandlingUnitUUID` |
-| `key   StockItemUUID` | `StockItemUUID` |
+| `ParentHandlingUnitUUID` | `ParentHandlingUnitUUID` |
+| `StockItemUUID` | `StockItemUUID` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `Product` | `Product` |
 | `EWMStockType` | `EWMStockType` |
@@ -40,30 +40,15 @@ tags:
 | `EWMStockUsage` | `EWMStockUsage` |
 | `Batch` | `Batch` |
 | `StockDocumentCategory` | `StockDocumentCategory` |
-| `( case StockDocumentCategory` | `( case StockDocumentCategory` |
-| `/scwm/de_stock_docno preserving type )` | `when 'SOS' then cast( ltrim( StockDocumentNumber, '0' )` |
-| `when 'PJS' then _WBSElement.WBSElementExternalID` | `when 'PJS' then _WBSElement.WBSElementExternalID` |
-| `ExternalStockDocumentNumber` | `else '' end )` |
+| `ExternalStockDocumentNumber` | `expr(…)` |
 | `StockItemNumber` | `StockItemNumber` |
 | `EWMWorkInProcess` | `EWMWorkInProcess` |
 | `EWMStockReferenceDocCategory` | `EWMStockReferenceDocCategory` |
-| `case EWMStockReferenceDocCategory` | `case EWMStockReferenceDocCategory` |
-| `ewm_de_referencedocument preserving type )` | `when 'PDI' then cast(_WarehouseRequestInbHdr.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'PDO' then cast(_WarehouseRequestOutHdr.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'SPC' then cast(_WarehouseRequestOutHdr.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'WMR' then cast(_WarehouseRequestOutHdr.EWMWarehouseRequest` |
-| `ewm_de_referencedocument preserving type )` | `when 'PWR' then cast(_WhseReqProdnMatlReqHdr.EWMWarehouseRequest` |
-| `EWMStockReferenceDocument` | `end` |
-| `case EWMStockReferenceDocCategory` | `case EWMStockReferenceDocCategory` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PDI' then cast(_InbDeliveryItem.EWMInboundDeliveryItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PDO' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'SPC' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'WMR' then cast(_WarehouseRequestOutItem.EWMWarehouseRequestItem` |
-| `ewm_de_referencedocumentitem preserving type )` | `when 'PWR' then cast(_WhseReqProdnMatlReqItem.EWMWarehouseRequestItem` |
-| `EWMStockReferenceDocumentItem` | `end` |
+| `EWMStockReferenceDocument` | `case…end` |
+| `EWMStockReferenceDocumentItem` | `case…end` |
 | `StockIdentificationNumber` | `StockIdentificationNumber` |
 | `WhseQualityInspectionType` | `WhseQualityInspectionType` |
-| `_QualityInspection.QualityInspectionDocument                                                       as QualityInspectionDocument` | *Association* |
+| `QualityInspectionDocument` | `_QualityInspection.QualityInspectionDocument` |
 | `EWMStorageBin` | `EWMStorageBin` |
 | `HandlingUnitNumber` | `HandlingUnitNumber` |
 | `EWMResource` | `EWMResource` |
@@ -92,9 +77,9 @@ tags:
 | `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
 | `CountryOfOrigin` | `CountryOfOrigin` |
 | `EWMBatchIsInRestrictedUseStock` | `EWMBatchIsInRestrictedUseStock` |
-| `P_EWM_PhysStockProd03.StockSegment` | `P_EWM_PhysStockProd03.StockSegment` |
+| `StockSegment` | `P_EWM_PhysStockProd03.StockSegment` |
 | `QualityInspectionDocUUID` | `QualityInspectionDocUUID` |
-| `_QualityInspection.InspectionPartialLot                                                            as InspectionPartialLot` | *Association* |
+| `InspectionPartialLot` | `_QualityInspection.InspectionPartialLot` |
 | `EWMStockRefDocumentUUID` | `EWMStockRefDocumentUUID` |
 | `EWMStockRefDocItemUUID` | `EWMStockRefDocItemUUID` |
 | `EWMValuationQuantity` | `EWMValuationQuantity` |
@@ -108,14 +93,13 @@ tags:
 | `EWMGoodsReceiptDateTime` | `EWMGoodsReceiptDateTime` |
 | `WarehouseTimeZone` | `WarehouseTimeZone` |
 | `EWMStorageType` | `EWMStorageType` |
-| `_StorageBin.EWMStorageSection                                                                      as EWMStorageSection` | *Association* |
-| `ewm_de_binblockedforputaway preserving type )` | `cast( _StorageBin.EWMStorBinIsBlockedForPutaway` |
-| `ewm_de_binblockedforremoval preserving type )` | `cast( _StorageBin.EWMStorBinIsBlockedForRemoval` |
-| `ewm_de_storbinisblkdduetopinv preserving type )` | `cast( _StorageBin.EWMStorBinIsBlockedDueToPInv` |
+| `EWMStorageSection` | `_StorageBin.EWMStorageSection` |
+| `EWMStorBinIsBlockedForPutaway` | `cast(…)` |
+| `EWMStorBinIsBlockedForRemoval` | `cast(…)` |
+| `EWMStorBinIsBlockedDueToPInv` | `cast(…)` |
 | `EWMHghstLvlHandlingUnitNumber` | `EWMHghstLvlHandlingUnitNumber` |
 | `EWMLocationType` | `EWMLocationType` |
 | `EWMParentLocationIndexCode` | `EWMParentLocationIndexCode` |
-| `/* Associations */` | `/* Associations */` |
 | `_CountryText` | *Association* |
 | `_EWMDocumentCategoryText` | *Association* |
 | `_EWMEntitledToDisposePartyText` | *Association* |

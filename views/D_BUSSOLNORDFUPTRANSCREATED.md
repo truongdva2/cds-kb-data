@@ -27,12 +27,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ServiceDocumentItemObjectType : crmt_swo_objtyp_process_item;` | `ServiceDocumentItemObjectType : crmt_swo_objtyp_process_item;` |
-| `ServiceDocSuccessor           : crmt_object_id_db;` | `ServiceDocSuccessor           : crmt_object_id_db;` |
-| `ServiceDocumentSuccessorUUID  : crmt_object_guid;` | `ServiceDocumentSuccessorUUID  : crmt_object_guid;` |
-| `ServiceDocumentItemSuccessor  : crms4_successor_document;` | `ServiceDocumentItemSuccessor  : crms4_successor_document;` |
-| `ServiceDocItmSuccessorUUID    : crmt_pred_item_guid;` | `ServiceDocItmSuccessorUUID    : crmt_pred_item_guid;` |
-| `BSOrdFollowUpSAPObjectType    : followupsapobjecttype;` | `BSOrdFollowUpSAPObjectType    : followupsapobjecttype;` |
+| `ServiceDocumentItemObjectType` | `crmt_swo_objtyp_process_item` |
+| `ServiceDocSuccessor` | `crmt_object_id_db` |
+| `ServiceDocumentSuccessorUUID` | `crmt_object_guid` |
+| `ServiceDocumentItemSuccessor` | `crms4_successor_document` |
+| `ServiceDocItmSuccessorUUID` | `crmt_pred_item_guid` |
+| `BSOrdFollowUpSAPObjectType` | `followupsapobjecttype` |
 
 ## Associations
 

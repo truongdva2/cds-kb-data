@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBAccount.IHBAccountUUID` | `IHBAccount.IHBAccountUUID` |
+| `IHBAccountUUID` | `IHBAccount.IHBAccountUUID` |
 | `IHBAccountReferenceUUID` | `IHBAccountReferenceUUID` |
 | `IHBBankArea` | `IHBBankArea` |
 | `IHBAccountNumber` | `IHBAccountNumber` |
@@ -110,10 +110,6 @@ tags:
 | `IHBAccountExcelRowNumber` | `IHBAccountExcelRowNumber` |
 | `IHBAccountUploadIsInProgress` | `IHBAccountUploadIsInProgress` |
 | `ApplicationLogHandle` | `ApplicationLogHandle` |
-| `_IHBAccountBPBalNotifTP           : redirected to composition child I_IHBAccountBPBalNotifTP` | *Association* |
-| `_IHBAccountBPBkStmntTP            : redirected to composition child I_IHBAccountBPBkStmntTP` | *Association* |
-| `_IHBAccountBPIntrstScNotifTP      : redirected to composition child I_IHBAccountBPIntrstScNotifTP` | *Association* |
-| `_IHBAccountTTP                    : redirected to composition child I_IHBAccountTextTP` | *Association* |
 
 ## Associations
 

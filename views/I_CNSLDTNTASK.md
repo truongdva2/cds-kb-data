@@ -30,12 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_tsk preserving type )` | `cast( cacti` |
-| `fincs_taskcategory preserving type )` | `cast( cactt` |
+| `ConsolidationTask` | `cast( cacti as fincs_tsk preserving type )` |
+| `ConsolidationTaskCategory` | `cast( cactt as fincs_taskcategory preserving type )` |
 | `CnsldtnTskDocValdtnIsActive` | `docval_active` |
 | `CnsldtnBalValdtnCrcyCategory` | `curr_type` |
 | `_CnsldtnTaskCategory` | *Association* |

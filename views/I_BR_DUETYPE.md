@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_due_type preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `BR_DUEType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_due_type preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

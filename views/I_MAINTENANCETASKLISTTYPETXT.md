@@ -28,9 +28,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TaskListType` | `TaskListType` |
-| `key _Text.Language` | `_Text.Language` |
-| `_Text.BillOfOperationsTypeName` | *Association* |
+| `TaskListType` | `TaskListType` |
+| `Language` | `_Text.Language` |
+| `BillOfOperationsTypeName` | `_Text.BillOfOperationsTypeName` |
 
 ## Associations
 

@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_NPVType` | `I_FinancialTransactionNPVType` | — |
 | `_Language` | `I_Language` | [1..1] |
 
 ## Source Code

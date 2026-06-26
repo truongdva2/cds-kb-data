@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ExtTxCalcInternalCodeValue` | `ExtTxCalcInternalCodeValue` |
-| `txs_intcode_desc )` | `cast ( max( ExtTxCalcInternalCodeText )` |
+| `ExtTxCalcInternalCodeValue` | `ExtTxCalcInternalCodeValue` |
+| `ExtTxCalcInternalCodeText` | `cast ( max( ExtTxCalcInternalCodeText ) as txs_intcode_desc )` |
 
 ## Associations
 

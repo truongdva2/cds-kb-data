@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialManagementArea` | `_Source.FinancialManagementArea` |
-| `_Source._Text[1: Language=$session.system_language].FinancialManagementAreaName` | *Association* |
+| `FinancialManagementArea` | `_Source.FinancialManagementArea` |
+| `FinancialManagementAreaName` | `_Source._Text[1: Language=$session.system_language].FinancialManagementAreaName` |
 
 ## Associations
 

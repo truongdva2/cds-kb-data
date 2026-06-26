@@ -52,9 +52,9 @@ tags:
 | `PayerParty` | `kondd.knrze` |
 | `SalesEmployee` | `kondd.vrtnr` |
 | `ForwardingAgent` | `kondd.spdnr` |
-| `productnumber preserving type )` | `cast( kondd.matnr` |
-| `producttype preserving type )` | `cast (kondd.mtart` |
-| `productgroup preserving type )` | `cast( kondd.matkl` |
+| `Product` | `cast( kondd.matnr as productnumber preserving type )` |
+| `ProductType` | `cast (kondd.mtart as producttype preserving type )` |
+| `ProductGroup` | `cast( kondd.matkl as productgroup preserving type )` |
 | `MaterialPricingGroup` | `kondd.kondm` |
 | `OriginallyRequestedMaterial` | `kondd.matwa` |
 | `PricingReferenceMaterial` | `kondd.pmatn` |

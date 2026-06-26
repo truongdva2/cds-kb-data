@@ -30,7 +30,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MfgOrdNonMatRcvrAcctDetnMeth', element: 'MfgOrdNonMatlRcvrAcctDetnMeth' } } ]` | `name: 'I_MfgOrdNonMatRcvrAcctDetnMeth', element: 'MfgOrdNonMatlRcvrAcctDetnMeth' } } ]` |
+| `EventBasedDistrPostingRuleUUID` | `EventBasedDistrPostingRuleUUID` |
+| `OrderID` | `OrderID` |
+| `OrderItem` | `OrderItem` |
+| `EventBasedDistributionRuleSqnc` | `EventBasedDistributionRuleSqnc` |
+| `CompanyCode` | `_ManufacturingOrder.CompanyCode` |
+| `ProductionPlant` | `_ManufacturingOrder.ProductionPlant` |
+| `EventBasedDistributionType` | `EventBasedDistributionType` |
+| `EvtBsdDistrSourceStructure` | `EvtBsdDistrSourceStructure` |
+| `EvtBsdDistrSourceAssignment` | `EvtBsdDistrSourceAssignment` |
+| `EventBasedDistrRateInPercent` | `EventBasedDistrRateInPercent` |
+| `EvtBsdDistrEquivalenceFactor` | `EvtBsdDistrEquivalenceFactor` |
+| `EventBasedDistributionDfltRule` | `EventBasedDistributionDfltRule` |
+| `OrderCategory` | `OrderCategory` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementExternalID` | `_WBSElementBasicData.WBSElementExternalID` |
+| `PartnerControllingObjectType` | `PartnerControllingObjectType` |
+| `EvtBsdPostingRuleReceiver` | `EvtBsdPostingRuleReceiver` |
+| `EvtBsdPostingRuleReceiverText` | `EvtBsdPostingRuleReceiverText` |
+| `EvtBsdDistrTracingFctrDetnMeth` | `EvtBsdDistrTracingFctrDetnMeth` |
 | `MfgOrdNonMatlRcvrAcctDetnMeth` | `MfgOrdNonMatlRcvrAcctDetnMeth` |
 | `EnteredByUser` | `EnteredByUser` |
 | `CreationDate` | `CreationDate` |
@@ -38,13 +58,13 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `RecentlyChangedDateTime` | `RecentlyChangedDateTime` |
-| `_ManufacturingOrder.MfgOrderHasMultipleItems` | *Association* |
-| `_ManufacturingOrder.ManufacturingOrderText` | *Association* |
-| `_SalesOrderItem.SalesOrderItemText` | *Association* |
-| `_WBSElementBasicData.WBSDescription` | *Association* |
-| `_MfgOrdNonMatRcvrAcctDetnMeth.MfgOrdNonMatlRcvrDetnMethName` | *Association* |
-| `_ManufacturingOrder._CompanyCodeText` | *Association* |
-| `_ManufacturingOrder._ProductionPlantText` | *Association* |
+| `MfgOrderHasMultipleItems` | `_ManufacturingOrder.MfgOrderHasMultipleItems` |
+| `ManufacturingOrderText` | `_ManufacturingOrder.ManufacturingOrderText` |
+| `SalesOrderItemText` | `_SalesOrderItem.SalesOrderItemText` |
+| `WBSDescription` | `_WBSElementBasicData.WBSDescription` |
+| `MfgOrdNonMatlRcvrDetnMethName` | `_MfgOrdNonMatRcvrAcctDetnMeth.MfgOrdNonMatlRcvrDetnMethName` |
+| `_CompanyCodeText` | *Association* |
+| `_ProductionPlantText` | *Association* |
 | `_ManufacturingOrder` | *Association* |
 | `_ManufacturingOrderItem` | *Association* |
 | `_OrderCategory` | *Association* |
@@ -60,14 +80,12 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_ControllingObject` | `I_ControllingObject` | [1..1] |
 | `_ManufacturingOrder` | `I_ManufacturingOrder` | [1..1] |
 | `_ManufacturingOrderItem` | `I_ManufacturingOrderItem` | [0..1] |
 | `_OrderCategory` | `I_OrderCategory` | [1..1] |
 | `_OrderCategoryText` | `I_OrderCategoryText` | [0..1] |
 | `_SalesOrder` | `I_SalesOrder` | [0..1] |
 | `_SalesOrderItem` | `I_SalesOrderItem` | [0..1] |
-| `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
 | `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
 | `_EnteredByUser` | `I_User` | [1..1] |
 | `_LastChangedByUser` | `I_User` | [0..1] |

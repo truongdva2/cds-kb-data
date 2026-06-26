@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label :'Delivery Document',quickInfo: 'Delivery Document'}` | `label :'Delivery Document',quickInfo: 'Delivery Document'}` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
 | `FldLogsShptItmOutbDelivItmID` | `FldLogsShptItmOutbDelivItmID` |
@@ -62,8 +63,6 @@ tags:
 | `FldLogsShptItemActualWeight` | `FldLogsShptItemActualWeight` |
 | `FldLogsShptItemActlWeightUnit` | `FldLogsShptItemActlWeightUnit` |
 | `FieldLogisticsKitIdentifier` | `FieldLogisticsKitIdentifier` |
-| `/* Associations */` | `/* Associations */` |
-| `_ShptCtnUnit : redirected to parent I_FldLogsDelivContainerUnitTP` | *Association* |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bemot preserving type )` | `cast( bemot` |
+| `BillableControl` | `cast( bemot as fis_bemot preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnTaskCategoryVH'` | `name: 'I_CnsldtnTaskCategoryVH'` |
-| `element: 'ConsolidationTaskCategory' } }]` | `element: 'ConsolidationTaskCategory' } }]` |
-| `fincs_taskcategory preserving type )` | `cast(cactt` |
+| `ConsolidationMethod` | `cast(cmeth as fincs_method preserving type )` |
+| `ConsolidationTaskCategory` | `cast(cactt as fincs_taskcategory preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

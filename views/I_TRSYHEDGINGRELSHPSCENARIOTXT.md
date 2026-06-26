@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_hrel_scenario      preserving type)` | `cast(TrsyHedgingRelshpScenarioTxt.hrel_scene_cat` |
+| `TrsyHedgingRelshpScenario` | `cast(…)` |
 | `Language` | `TrsyHedgingRelshpScenarioTxt.lang_id` |
-| `ftr_gen_hrel_scenario_name preserving type)` | `cast(TrsyHedgingRelshpScenarioTxt.text` |
+| `TrsyHedgingRelshpScenarioName` | `cast(…)` |
 | `_TrsyHedgingRelshpScenario` | *Association* |
 | `_Language` | *Association* |
 

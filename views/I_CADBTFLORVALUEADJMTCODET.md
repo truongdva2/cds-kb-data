@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `infoz_kk )` | `cast( left( dd07t.domvalue_l, 3 )` |
-| `spras preserving type )` | `cast ( ddlanguage` |
-| `infoz_text_kk preserving type )` | `cast ( ddtext` |
+| `CADoubtfulOrValueAdjmtCode` | `cast( left( dd07t.domvalue_l, 3 ) as infoz_kk )` |
+| `Language` | `cast ( ddlanguage as spras preserving type )` |
+| `CADoubtfulOrValueAdjmtCodeName` | `cast ( ddtext as infoz_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -31,35 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
 | `ProductFieldNameWithTable` | `t130f.fname` |
 | `ProductFieldSelectionGroup` | `t130f.fgrup` |
 | `MaintenanceStatus` | `t130f.pstat` |
 | `ProdSpecialFieldSelectionGroup` | `t130f.sfgru` |
-| `/*   Since Customer can influence T130F_C which will overwrite T130F entries` | `/*   Since Customer can influence T130F_C which will overwrite T130F entries` |
-| `Below mentioned CASE statement is written.` | `Below mentioned CASE statement is written.` |
-| `*/` | `*/` |
-| `case t130f_c.fname` | `case t130f_c.fname` |
-| `when t130f.fname then` | `when t130f.fname then` |
-| `t130f_c.kzref` | `t130f_c.kzref` |
-| `else` | `else` |
-| `t130f.kzref` | `t130f.kzref` |
-| `FldCntntIsPrpsdFrmRefProduct` | `end` |
-| `case t130f_c.fname` | `case t130f_c.fname` |
-| `when t130f.fname then` | `when t130f.fname then` |
-| `t130f_c.kzcpy` | `t130f_c.kzcpy` |
-| `else` | `else` |
-| `t130f.kzcpy` | `t130f.kzcpy` |
-| `FldCntntIsCopiedFrmRefProduct` | `end` |
-| `case t130f_c.fname` | `case t130f_c.fname` |
-| `when t130f.fname then` | `when t130f.fname then` |
-| `t130f_c.rfini` | `t130f_c.rfini` |
-| `else` | `else` |
-| `t130f.rfini` | `t130f.rfini` |
-| `InitFldCntntIsPrpsdFrmRefProd` | `end` |
+| `FldCntntIsPrpsdFrmRefProduct` | `case t130f_c.fname when t130f.fname then t130f_c.kzref else t130f.kzref end` |
+| `FldCntntIsCopiedFrmRefProduct` | `case t130f_c.fname when t130f.fname then t130f_c.kzcpy else t130f.kzcpy end` |
+| `InitFldCntntIsPrpsdFrmRefProd` | `case t130f_c.fname when t130f.fname then t130f_c.rfini else t130f.rfini end` |
 
 ## Associations
 

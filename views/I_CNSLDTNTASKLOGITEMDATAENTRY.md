@@ -31,21 +31,113 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CnsldtnSalesDistrict'` | `foreignKey.association: '_CnsldtnSalesDistrict'` |
-| `sapObjectNodeTypeReference: 'CnsldtnSalesDistrict' }` | `sapObjectNodeTypeReference: 'CnsldtnSalesDistrict' }` |
-| `item.SalesDistrict` | `item.SalesDistrict` |
-| `item.SalesOrganization` | `item.SalesOrganization` |
-| `item.ShipToParty` | `item.ShipToParty` |
-| `item.Supplier` | `item.Supplier` |
-| `item.GHGDataQualityCharacteristic` | `item.GHGDataQualityCharacteristic` |
-| `item.GHGEnergyClassification` | `item.GHGEnergyClassification` |
-| `item.GHGEnergyMix` | `item.GHGEnergyMix` |
-| `item.GHGEnergySourcingType` | `item.GHGEnergySourcingType` |
-| `item.WBSElementInternalID` | `item.WBSElementInternalID` |
-| `item.ProjectExternalID` | `item.ProjectExternalID` |
-| `item.CnsldtnAdhocItem` | `item.CnsldtnAdhocItem` |
-| `item.CnsldtnAdhocSet` | `item.CnsldtnAdhocSet` |
-| `item.CnsldtnAdhocSetItem` | `item.CnsldtnAdhocSetItem` |
+| `CnsldtnTaskLogUUID` | `item.CnsldtnTaskLogUUID` |
+| `CnsldtnTaskLogItemUUID` | `item.CnsldtnTaskLogItemUUID` |
+| `CnsldtnTaskLogItemType` | `item.CnsldtnTaskLogItemType` |
+| `AssignmentReference` | `item.AssignmentReference` |
+| `PostingFiscalYear` | `item.PostingFiscalYear` |
+| `ConsolidationDocumentNumber` | `item.ConsolidationDocumentNumber` |
+| `ConsolidationVersion` | `item.ConsolidationVersion` |
+| `CnsldtnJrnlEntryAmtLoclCrcy` | `item.CnsldtnJrnlEntryAmtLoclCrcy` |
+| `CnsldtnJrnlEntryAmtInLoclCrcy` | `item.CnsldtnJrnlEntryAmtInLoclCrcy` |
+| `CnsldtnJrnlEntryAmtGrpCrcy` | `item.CnsldtnJrnlEntryAmtGrpCrcy` |
+| `CnsldtnJrnlEntryAmtInGrpCrcy` | `item.CnsldtnJrnlEntryAmtInGrpCrcy` |
+| `CnsldtnJrnlEntryAmtTransCrcy` | `item.CnsldtnJrnlEntryAmtTransCrcy` |
+| `CnsldtnJrnlEntryAmtInTransCrcy` | `item.CnsldtnJrnlEntryAmtInTransCrcy` |
+| `CnsldtnJrnlEntryQtyBaseUnit` | `item.CnsldtnJrnlEntryQtyBaseUnit` |
+| `CnsldtnJrnlEntryQtyInBsUnt` | `item.CnsldtnJrnlEntryQtyInBsUnt` |
+| `CnsldtnTriggeringAmtLoclCrcy` | `item.CnsldtnTriggeringAmtLoclCrcy` |
+| `CnsldtnTriggeringAmtInLoclCrcy` | `item.CnsldtnTriggeringAmtInLoclCrcy` |
+| `CnsldtnTriggeringAmtGrpCrcy` | `item.CnsldtnTriggeringAmtGrpCrcy` |
+| `CnsldtnTriggeringAmtInGrpCrcy` | `item.CnsldtnTriggeringAmtInGrpCrcy` |
+| `CnsldtnTriggeringAmtTransCrcy` | `item.CnsldtnTriggeringAmtTransCrcy` |
+| `CnsldtnTriggeringAmtInTC` | `item.CnsldtnTriggeringAmtInTC` |
+| `CnsldtnTriggeringQtyBaseUnit` | `item.CnsldtnTriggeringQtyBaseUnit` |
+| `CnsldtnTriggeringQtyInBsUnt` | `item.CnsldtnTriggeringQtyInBsUnt` |
+| `ConsolidationUnit` | `item.ConsolidationUnit` |
+| `ConsolidationChartOfAccounts` | `item.ConsolidationChartOfAccounts` |
+| `CnsldtnFinancialStatementItem` | `item.CnsldtnFinancialStatementItem` |
+| `PartnerConsolidationUnit` | `item.PartnerConsolidationUnit` |
+| `ConsolidationGroup` | `item.ConsolidationGroup` |
+| `CompanyCode` | `item.CompanyCode` |
+| `SubItemCategory` | `item.SubItemCategory` |
+| `SubItem` | `item.SubItem` |
+| `PostingLevel` | `item.PostingLevel` |
+| `ConsolidationApportionment` | `item.ConsolidationApportionment` |
+| `CurrencyConversionsDiffType` | `item.CurrencyConversionsDiffType` |
+| `ConsolidationDocumentType` | `item.ConsolidationDocumentType` |
+| `InvesteeConsolidationUnit` | `item.InvesteeConsolidationUnit` |
+| `InvestmentActivityType` | `item.InvestmentActivityType` |
+| `InvestmentActivity` | `item.InvestmentActivity` |
+| `PostingDate` | `item.PostingDate` |
+| `PartnerCostCenter` | `item.PartnerCostCenter` |
+| `FinancialTransactionType` | `item.FinancialTransactionType` |
+| `CustomerGroup` | `item.CustomerGroup` |
+| `CnsldtnTskLgItmRowNmbr` | `item.CnsldtnTskLgItmRowNmbr` |
+| `FiscalPeriod` | `item.FiscalPeriod` |
+| `FinancialServicesBranch` | `item.FinancialServicesBranch` |
+| `GHGScope2CalculationMethod` | `item.GHGScope2CalculationMethod` |
+| `CashLedgerAccount` | `item.CashLedgerAccount` |
+| `CnsldtnCashLedgerChartOfAccts` | `item.CnsldtnCashLedgerChartOfAccts` |
+| `GHGScope2ContractualInstrument` | `item.GHGScope2ContractualInstrument` |
+| `CustomerSupplierCountry` | `item.CustomerSupplierCountry` |
+| `FinancialDataSource` | `item.FinancialDataSource` |
+| `CnsldtnLogHeaderDateTime` | `item.CnsldtnLogHeaderDateTime` |
+| `Fund` | `item.Fund` |
+| `GHGCategory` | `item.GHGCategory` |
+| `GHGScope` | `item.GHGScope` |
+| `GrantID` | `item.GrantID` |
+| `SustainabilityModeOfTransport` | `item.SustainabilityModeOfTransport` |
+| `FinancialServicesProductGroup` | `item.FinancialServicesProductGroup` |
+| `SoldProduct` | `item.SoldProduct` |
+| `SoldProductGroup` | `item.SoldProductGroup` |
+| `WBSElementExternalID` | `item.WBSElementExternalID` |
+| `ConsolidationLedger` | `item.ConsolidationLedger` |
+| `BillingDocumentType` | `item.BillingDocumentType` |
+| `BillToParty` | `item.BillToParty` |
+| `BusinessArea` | `item.BusinessArea` |
+| `ChartOfAccounts` | `item.ChartOfAccounts` |
+| `Customer` | `item.Customer` |
+| `Material` | `item.Material` |
+| `Plant` | `item.Plant` |
+| `Segment` | `item.Segment` |
+| `CnsldtnTaskLogItemLatestRecord` | `item.CnsldtnTaskLogItemLatestRecord` |
+| `CnsldtnTskLgNode` | `item.CnsldtnTskLgNode` |
+| `CnsldtnTskLgParNode` | `item.CnsldtnTskLgParNode` |
+| `ConsolidationAcquisitionPeriod` | `item.ConsolidationAcquisitionPeriod` |
+| `ConsolidationAcquisitionYear` | `item.ConsolidationAcquisitionYear` |
+| `ConsolidationDimension` | `item.ConsolidationDimension` |
+| `ControllingArea` | `item.ControllingArea` |
+| `CostCenter` | `item.CostCenter` |
+| `CustomerSupplierCorporateGroup` | `item.CustomerSupplierCorporateGroup` |
+| `CustomerSupplierIndustry` | `item.CustomerSupplierIndustry` |
+| `DistributionChannel` | `item.DistributionChannel` |
+| `FinancialManagementArea` | `item.FinancialManagementArea` |
+| `FunctionalArea` | `item.FunctionalArea` |
+| `GLAccount` | `item.GLAccount` |
+| `MaterialGroup` | `item.MaterialGroup` |
+| `OrderID` | `item.OrderID` |
+| `Division` | `item.Division` |
+| `PartnerBusinessArea` | `item.PartnerBusinessArea` |
+| `PartnerCompany` | `item.PartnerCompany` |
+| `PartnerFunctionalArea` | `item.PartnerFunctionalArea` |
+| `PartnerProfitCenter` | `item.PartnerProfitCenter` |
+| `PartnerSegment` | `item.PartnerSegment` |
+| `PartnerWBSElementExternalID` | `item.PartnerWBSElementExternalID` |
+| `ProfitCenter` | `item.ProfitCenter` |
+| `SalesDistrict` | `item.SalesDistrict` |
+| `SalesOrganization` | `item.SalesOrganization` |
+| `ShipToParty` | `item.ShipToParty` |
+| `Supplier` | `item.Supplier` |
+| `GHGDataQualityCharacteristic` | `item.GHGDataQualityCharacteristic` |
+| `GHGEnergyClassification` | `item.GHGEnergyClassification` |
+| `GHGEnergyMix` | `item.GHGEnergyMix` |
+| `GHGEnergySourcingType` | `item.GHGEnergySourcingType` |
+| `WBSElementInternalID` | `item.WBSElementInternalID` |
+| `ProjectExternalID` | `item.ProjectExternalID` |
+| `CnsldtnAdhocItem` | `item.CnsldtnAdhocItem` |
+| `CnsldtnAdhocSet` | `item.CnsldtnAdhocSet` |
+| `CnsldtnAdhocSetItem` | `item.CnsldtnAdhocSetItem` |
 | `_ConsolidationTaskLog` | *Association* |
 | `_ConsolidationTaskLogMessage` | *Association* |
 | `_CnsldtnVersion` | *Association* |
@@ -115,24 +207,6 @@ tags:
 | `_CnsldtnGHGEngyClassification` | *Association* |
 | `_CnsldtnGHGEnergyMix` | *Association* |
 | `_CnsldtnGHGEnergySourcingType` | *Association* |
-| `/*` | `/*` |
-| `_CnsldtnTaskLogItemTypeT` | *Association* |
-| `_CnsldtnUnitText` | *Association* |
-| `_CnsldtnFinancialDataSourceT` | *Association* |
-| `_CnsldtnFinManagementAreaT` | *Association* |
-| `_CnsldtnFinServicesBranchT` | *Association* |
-| `_CnsldtnFSItemText` | *Association* |
-| `_CnsldtnFundT` | *Association* |
-| `_CnsldtnGHGCategoryT` | *Association* |
-| `_CnsldtnGHGScp2CalcMethodT` | *Association* |
-| `_CnsldtnGHGScopeT` | *Association* |
-| `_CnsldtnGHGScp2CntrctlInstrT` | *Association* |
-| `_CnsldtnGrantT` | *Association* |
-| `_CnsldtnUnitTextPartner` | *Association* |
-| `_CnsldtnSubitemCategoryText` | *Association* |
-| `_CnsldtnSubitemText` | *Association* |
-| `_CnsldtnSustModeOfTransportT` | *Association* |
-| `*/` | `*/` |
 
 ## Associations
 
@@ -208,22 +282,6 @@ tags:
 | `_CnsldtnGHGEnergyMix` | `I_CnsldtnGHGEnergyMix` | [0..1] |
 | `_CnsldtnGHGEnergySourcingType` | `I_CnsldtnGHGEnergySourcingType` | [0..1] |
 | `_Extension` | `E_CnsldtnTaskLogItemDataInput` | [1..1] |
-| `_CnsldtnTaskLogItemTypeT` | `I_CnsldtnTaskLogItemTypeT` | [0..*] |
-| `_CnsldtnUnitText` | `I_CnsldtnUnitText_4` | [0..*] |
-| `_CnsldtnFinancialDataSourceT` | `I_CnsldtnFinancialDataSourceT` | [0..*] |
-| `_CnsldtnFinManagementAreaT` | `I_CnsldtnFinManagementAreaT` | [0..*] |
-| `_CnsldtnFinServicesBranchT` | `I_CnsldtnFinServicesBranchT` | [0..*] |
-| `_CnsldtnFSItemText` | `I_CnsldtnFSItemText_2` | [0..*] |
-| `_CnsldtnFundT` | `I_CnsldtnFundT` | [0..*] |
-| `_CnsldtnGHGCategoryT` | `I_CnsldtnGHGCategoryT` | [0..*] |
-| `_CnsldtnGHGScp2CalcMethodT` | `I_CnsldtnGHGScp2CalcMethodT` | [0..*] |
-| `_CnsldtnGHGScopeT` | `I_CnsldtnGHGScopeT` | [0..*] |
-| `_CnsldtnGHGScp2CntrctlInstrT` | `I_CnsldtnGHGScp2CntrctlInstrT` | [0..*] |
-| `_CnsldtnGrantT` | `I_CnsldtnGrantT` | [0..*] |
-| `_CnsldtnUnitTextPartner` | `I_CnsldtnUnitText_4` | [0..*] |
-| `_CnsldtnSubitemCategoryText` | `I_CnsldtnSubitemCategoryText_2` | [0..*] |
-| `_CnsldtnSubitemText` | `I_CnsldtnSubitemText_2` | [0..*] |
-| `_CnsldtnSustModeOfTransportT` | `I_CnsldtnSustModeOfTransportT` | [0..*] |
 
 ## Source Code
 

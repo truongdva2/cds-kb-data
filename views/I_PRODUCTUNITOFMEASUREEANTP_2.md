@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_INTNTNLARTNMBCAT', element : 'InternationalArticleNumberCat'} , useAsTemplate: true }]` | `name: 'I_INTNTNLARTNMBCAT', element : 'InternationalArticleNumberCat'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `AlternativeUnit` | `AlternativeUnit` |
+| `ConsecutiveNumber` | `ConsecutiveNumber` |
+| `ProductStandardID` | `ProductStandardID` |
 | `InternationalArticleNumberCat` | `InternationalArticleNumberCat` |
 | `IsMainGlobalTradeItemNumber` | `IsMainGlobalTradeItemNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProductUnitOfMeasure : redirected to parent I_ProductUnitOfMeasureTP_2` | *Association* |
-| `_Product              : redirected to I_ProductTP_2` | *Association* |
 | `_IntlArticleNumberCatText` | *Association* |
 | `_AlternativeUnitText` | *Association* |
 | `_ProductDescription_2` | *Association* |

@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerAccountGroup` | `CustomerAccountGroup` |
+| `CustomerAccountGroup` | `CustomerAccountGroup` |
 | `_CustomerAccountGroupText` | *Association* |
 
 ## Associations

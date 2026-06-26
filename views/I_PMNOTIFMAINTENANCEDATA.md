@@ -30,10 +30,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_MaintActyTypeStdVH'` | `name:    'I_MaintActyTypeStdVH'` |
-| `element: 'MaintenanceActivityType' }` | `element: 'MaintenanceActivityType' }` |
-| `}]` | `}]` |
-| `eam_maint_activity_type)` | `cast(qmih.ilart` |
+| `MaintenanceNotification` | `qmih.qmnum` |
+| `MaintObjectLocAcctAssgmtNmbr` | `qmih.iloan` |
+| `MalfunctionEffect` | `qmih.auswk` |
+| `Equipment` | `qmih.equnr` |
+| `Assembly` | `qmih.bautl` |
+| `MaintenancePlanningPlant` | `qmih.iwerk` |
+| `MaintenancePlannerGroup` | `qmih.ingrp` |
+| `LocationDescription` | `qmih.loc_desc` |
+| `MaintenanceObjectIsDown` | `qmih.msaus` |
+| `MalfunctionStartDate` | `qmih.ausvn` |
+| `MalfunctionEndDate` | `qmih.ausbs` |
+| `MalfunctionStartTime` | `qmih.auztv` |
+| `MalfunctionEndTime` | `qmih.auztb` |
+| `InspectionDate` | `qmih.datan` |
+| `InspectedByUser` | `qmih.inspk` |
+| `MaintenanceRevision` | `qmih.revnr` |
+| `MaintObjectDowntimeDuration` | `qmih.auszt` |
+| `MaintObjDowntimeDurationUnit` | `qmih.maueh` |
+| `SalesDocument` | `qmih.kdauf` |
+| `SalesDocumentItem` | `qmih.kdpos` |
+| `MaintenancePlan` | `qmih.warpl` |
+| `MaintenanceItem` | `qmih.wapos` |
+| `MaintenanceActivityType` | `cast(qmih.ilart as eam_maint_activity_type)` |
 | `RelevantFunctionalLocation` | `qmih.btpln` |
 | `RelevantEquipment` | `qmih.bequi` |
 | `AvailyBeforeMalfunctionPercent` | `qmih.verfv` |
@@ -42,7 +61,7 @@ tags:
 | `SystConditionBeforeMalfunction` | `qmih.anlzv` |
 | `SystConditionAfterMalfunction` | `qmih.anlzn` |
 | `SystConditionAfterCompletion` | `qmih.anlze` |
-| `vdm_lacd_date preserving type)` | `cast(qmih.lacd_date` |
+| `LatestAcceptableCompletionDate` | `cast(qmih.lacd_date as vdm_lacd_date preserving type)` |
 | `NotificationPersonResponsible` | `qmih.notificationpersonresponsible` |
 | `MaintNotifProcessPhaseCode` | `qmih.maintnotifovrlprocphase` |
 | `MaintNotifProcessSubPhaseCode` | `qmih.maintnotifovrlprocsubphase` |
@@ -62,7 +81,7 @@ tags:
 | `_MalfunctionEffect` | *Association* |
 | `_MaintenanceObjectIsDown` | *Association* |
 | `_UnitOfMeasure` | *Association* |
-| `_MaintenancePlanningPlant, //Obsolete` | *Association* |
+| `_MaintenancePlanningPlant` | *Association* |
 | `_MaintenancePlanPlant` | *Association* |
 | `_InspectedByUser` | *Association* |
 | `_MaintenancePlannerGroup` | *Association* |
@@ -94,7 +113,6 @@ tags:
 | `_Assembly` | `I_Material` | [0..1] |
 | `_MaintenanceNotification` | `I_MaintenanceNotification` | [1..1] |
 | `_MaintenancePlan` | `I_MaintenancePlan` | [0..1] |
-| `_MaintenanceItem` | `I_MaintenanceItem` | [0..1] |
 | `_MaintenanceItem` | `I_MaintenanceItem` | [0..1] |
 | `_MaintenanceActivityType` | `I_MaintenanceActivityType` | [0..1] |
 | `_MaintenanceRevision` | `I_MaintenanceRevision` | [0..1] |

@@ -31,14 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `ftr_gen_valuation_class preserving type)` | `cast(TreasuryValuationClass.valuation_class` |
+| `TreasuryValuationArea` | `TreasuryValuationClass.valuation_area` |
+| `TreasuryValuationClass` | `cast(…)` |
 | `_TreasuryValuationArea` | *Association* |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TreasuryValuationArea` | `I_TreasuryValuationArea` | — |
+| `_Text` | `I_TreasuryValuationClassText` | [0..*] |
 
 ## Source Code
 

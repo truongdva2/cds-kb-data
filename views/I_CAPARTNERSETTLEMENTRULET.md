@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( langu` |
+| `Language` | `cast( langu as spras preserving type )` |
 | `CAPartnerSettlementRule` | `ptsrl` |
 | `CAPartnerSettlementRuleText` | `text` |
 | `_CAPartnerSettlementRule` | *Association* |

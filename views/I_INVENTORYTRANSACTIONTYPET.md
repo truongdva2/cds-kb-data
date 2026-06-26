@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `InventoryTransactionType` | `vgart` |
 | `Language` | `spras` |
-| `pi_transaction_type_text preserving type )` | `cast ( ltext` |
+| `InventoryTransactionTypeText` | `cast ( ltext as pi_transaction_type_text preserving type )` |
 | `_InventoryTransactionType` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `availablecapacitytypename preserving type)` | `cast(txt.txt` |
+| `AvailableCapacityType` | `cast(txt.versn as availablecapacitytype preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `AvailableCapacityTypeName` | `cast(txt.txt as availablecapacitytypename preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

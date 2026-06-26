@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `knprs preserving type)` | `cast ( SUBSTRING( domvalue_l, 1, 1)` |
-| `knprs_text preserving type )` | `cast( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `PricingType` | `cast ( SUBSTRING( domvalue_l, 1, 1) as knprs preserving type)` |
+| `PricingTypeDesc` | `cast( ddtext as knprs_text preserving type )` |
 | `_PricingType` | *Association* |
 | `_Language` | *Association* |
 

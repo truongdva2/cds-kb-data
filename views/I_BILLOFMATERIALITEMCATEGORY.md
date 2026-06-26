@@ -35,86 +35,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BillOfMaterialItemCategory` | `ItemCategory.postp` |
-| `_ItemCategoryT[1: Language = $session.system_language].BillOfMaterialItemCategoryDesc` | *Association* |
-| `case when ItemCategory.btpos = ''   and` | `case when ItemCategory.btpos = ''   and` |
-| `ItemCategory.dkpos = 'X'` | `ItemCategory.dkpos = 'X'` |
-| `postp preserving type)` | `then cast( 'D'` |
-| `when ItemCategory.btpos = ''   and` | `when ItemCategory.btpos = ''   and` |
-| `ItemCategory.klpos = 'X'` | `ItemCategory.klpos = 'X'` |
-| `postp preserving type)` | `then cast( 'K'` |
-| `when ItemCategory.matin <> '-'    and` | `when ItemCategory.matin <> '-'    and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''  and` | `ItemCategory.inpos = ''  and` |
-| `ItemCategory.btpos = ''  and` | `ItemCategory.btpos = ''  and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = 'X'  and` | `ItemCategory.kzbsf = 'X'  and` |
-| `ItemCategory.cs_nonplant = ''` | `ItemCategory.cs_nonplant = ''` |
-| `postp preserving type)` | `then cast( 'L'` |
-| `when ItemCategory.txpos = 'X' and` | `when ItemCategory.txpos = 'X' and` |
-| `ItemCategory.btpos = ''` | `ItemCategory.btpos = ''` |
-| `postp preserving type)` | `then cast('T'` |
-| `when ItemCategory.btpos = ''  and` | `when ItemCategory.btpos = ''  and` |
-| `ItemCategory.rtpos = 'X' and` | `ItemCategory.rtpos = 'X' and` |
-| `ItemCategory.matin = '+' and` | `ItemCategory.matin = '+' and` |
-| `ItemCategory.kzbsf = 'X' and` | `ItemCategory.kzbsf = 'X' and` |
-| `ItemCategory.mngvz = '+'` | `ItemCategory.mngvz = '+'` |
-| `postp preserving type)` | `then cast ('R'` |
-| `when ItemCategory.btpos = 'X' and` | `when ItemCategory.btpos = 'X' and` |
-| `ItemCategory.matin = '+' and` | `ItemCategory.matin = '+' and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''  and` | `ItemCategory.inpos = ''  and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''  and` | `ItemCategory.kzbsf = ''  and` |
-| `postp preserving type)` | `ItemCategory.mngvz = '+' then cast ('I'` |
-| `when ItemCategory.matin = '.'  and` | `when ItemCategory.matin = '.'  and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''   and` | `ItemCategory.inpos = ''   and` |
-| `ItemCategory.btpos = ''   and` | `ItemCategory.btpos = ''   and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''   and` | `ItemCategory.kzbsf = ''   and` |
-| `ItemCategory.mngvz = '+'  and` | `ItemCategory.mngvz = '+'  and` |
-| `ItemCategory.itmcatserviceprocmtusagecode = 'X'` | `ItemCategory.itmcatserviceprocmtusagecode = 'X'` |
-| `postp preserving type)` | `then cast( 'Y'` |
-| `when  ItemCategory.matin = '.'  and` | `when  ItemCategory.matin = '.'  and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''   and` | `ItemCategory.inpos = ''   and` |
-| `ItemCategory.btpos = ''   and` | `ItemCategory.btpos = ''   and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''   and` | `ItemCategory.kzbsf = ''   and` |
-| `ItemCategory.mngvz = '+'  and` | `ItemCategory.mngvz = '+'  and` |
-| `ItemCategory.itemcatisusedforenhancedlimits = 'X'` | `ItemCategory.itemcatisusedforenhancedlimits = 'X'` |
-| `postp preserving type)` | `then cast( 'Z'` |
-| `when ItemCategory.matin = '.' and` | `when ItemCategory.matin = '.' and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''   and` | `ItemCategory.inpos = ''   and` |
-| `ItemCategory.btpos = ''   and` | `ItemCategory.btpos = ''   and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''   and` | `ItemCategory.kzbsf = ''   and` |
-| `ItemCategory.cs_preliminary = 'X'` | `ItemCategory.cs_preliminary = 'X'` |
-| `postp preserving type)` | `then cast( 'P'` |
-| `when ItemCategory.matin = '.' and` | `when ItemCategory.matin = '.' and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''   and` | `ItemCategory.inpos = ''   and` |
-| `ItemCategory.btpos = ''   and` | `ItemCategory.btpos = ''   and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''` | `ItemCategory.kzbsf = ''` |
-| `postp preserving type)` | `then cast( 'N'` |
-| `when ItemCategory.matin = '+' and` | `when ItemCategory.matin = '+' and` |
-| `ItemCategory.rtpos = ''   and` | `ItemCategory.rtpos = ''   and` |
-| `ItemCategory.inpos = ''   and` | `ItemCategory.inpos = ''   and` |
-| `ItemCategory.btpos = ''   and` | `ItemCategory.btpos = ''   and` |
-| `ItemCategory.txpos = ''   and` | `ItemCategory.txpos = ''   and` |
-| `ItemCategory.dkpos = ''   and` | `ItemCategory.dkpos = ''   and` |
-| `ItemCategory.kzbsf = ''   and` | `ItemCategory.kzbsf = ''   and` |
-| `ItemCategory.cs_nonplant = 'X'` | `ItemCategory.cs_nonplant = 'X'` |
-| `postp preserving type)` | `then cast( 'S'` |
-| `FixedItemCategory` | `end` |
+| `BillOfMaterialItemCategoryDesc` | `expr(…)` |
+| `FixedItemCategory` | `case…end` |
 | `BOMIsSubItemSupported` | `ItemCategory.kzups` |
 | `_ItemCategoryT` | *Association* |
 

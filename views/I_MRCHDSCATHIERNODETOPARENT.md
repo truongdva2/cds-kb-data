@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdcathiernode preserving type )` | `cast(MrchdsCatHiernode .class` |
+| `MrchdsCategoryHierarchyNode` | `cast(MrchdsCatHiernode .class as rfm_mrchdcathiernode preserving type )` |
 | `ParentMrchdsCatHierarchyNode` | `ParentMrchdsCatHiernode.class` |
 | `_MrchdsCategoryHierarchyNode` | *Association* |
 

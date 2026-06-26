@@ -30,9 +30,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
+| `EmrkdFndsDecisionReasonType` | `cast(…)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fmis_efd_decisionreasontypetxt preserving type )` | `cast ( ddtext` |
+| `EmrkdFndsDecisionReasonTypeTxt` | `cast ( ddtext as fmis_efd_decisionreasontypetxt preserving type )` |
 | `_EarmarkedFundsDcsnRsnType` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_EarmarkedFundsDcsnRsnType` | `I_EarmarkedFundsDcsnRsnType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

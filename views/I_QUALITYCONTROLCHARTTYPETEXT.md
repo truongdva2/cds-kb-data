@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` |
-| `vdm_qrkart_text preserving type )` | `cast(qrktxt` |
+| `Language` | `sprache` |
+| `QualityControlChartType` | `qrkart` |
+| `QualityControlChartTypeText` | `cast(qrktxt as vdm_qrkart_text preserving type )` |
 | `_QualityControlChartType` | *Association* |
 | `_Language` | *Association* |
 

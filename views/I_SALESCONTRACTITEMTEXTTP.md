@@ -35,19 +35,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractItemText.SalesContract` | `SalesContractItemText.SalesContract` |
-| `key SalesContractItemText.SalesContractItem` | `SalesContractItemText.SalesContractItem` |
-| `key SalesContractItemText.Language` | `SalesContractItemText.Language` |
-| `key SalesContractItemText.LongTextID` | `SalesContractItemText.LongTextID` |
-| `SalesContractItemText.LongTextIDForEdit` | `SalesContractItemText.LongTextIDForEdit` |
-| `SalesContractItemText.LanguageForEdit` | `SalesContractItemText.LanguageForEdit` |
-| `SalesContractItemText.LongText` | `SalesContractItemText.LongText` |
-| `SalesContractItemText.SalesContractType` | `SalesContractItemText.SalesContractType` |
-| `SalesContractItemText.SalesOrganization` | `SalesContractItemText.SalesOrganization` |
-| `SalesContractItemText.DistributionChannel` | `SalesContractItemText.DistributionChannel` |
-| `SalesContractItemText.OrganizationDivision` | `SalesContractItemText.OrganizationDivision` |
-| `_Item          : redirected to parent I_SalesContractItemTP` | *Association* |
-| `_SalesContract : redirected to I_SalesContractTP` | *Association* |
+| `SalesContract` | `SalesContractItemText.SalesContract` |
+| `SalesContractItem` | `SalesContractItemText.SalesContractItem` |
+| `Language` | `SalesContractItemText.Language` |
+| `LongTextID` | `SalesContractItemText.LongTextID` |
+| `LongTextIDForEdit` | `SalesContractItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SalesContractItemText.LanguageForEdit` |
+| `LongText` | `SalesContractItemText.LongText` |
+| `SalesContractType` | `SalesContractItemText.SalesContractType` |
+| `SalesOrganization` | `SalesContractItemText.SalesOrganization` |
+| `DistributionChannel` | `SalesContractItemText.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractItemText.OrganizationDivision` |
 
 ## Associations
 

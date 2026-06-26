@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp` |
-| `key JointVenturePartner` | `JointVenturePartner` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JntOpgAgrmtEquityGrp` | `JntOpgAgrmtEquityGrp` |
+| `JointVenturePartner` | `JointVenturePartner` |
 | `JointVenturePartnerShortText` | `JointVenturePartnerShortText` |
 | `JointVenturePartnerLongText` | `JointVenturePartnerLongText` |
 | `JntVntrEquityShare` | `JntVntrEquityShare` |
@@ -53,9 +53,6 @@ tags:
 | `JntVntrCarriedIntrstGrp` | `JntVntrCarriedIntrstGrp` |
 | `JntVntrNetProfitIntrstGrp` | `JntVntrNetProfitIntrstGrp` |
 | `JntVntrOperatorAddressArea` | `JntVntrOperatorAddressArea` |
-| `_JointVentureEquityGroup : redirected to parent I_JointVentureEquityGroupTP` | *Association* |
-| `_JointVenture            : redirected to I_JointVentureTP` | *Association* |
-| `_JVACarriedInterest      : redirected to composition child I_JVACarriedInterestTP` | *Association* |
 
 ## Associations
 

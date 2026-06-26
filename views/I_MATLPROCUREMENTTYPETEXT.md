@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `materialprocurementtypename preserving type)` | `cast(txt.ddtext` |
+| `MaterialProcurementType` | `cast(substring(txt.domvalue_l, 1, 1) as pph_sobes preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `MaterialProcurementTypeName` | `cast(txt.ddtext as materialprocurementtypename preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Type` | *Association* |
 | `_Language` | *Association* |

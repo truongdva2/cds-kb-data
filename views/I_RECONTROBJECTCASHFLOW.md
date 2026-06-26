@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REObjectCashFlowRecordUUID` | `REObjectCashFlowRecordUUID` |
+| `REObjectCashFlowRecordUUID` | `REObjectCashFlowRecordUUID` |
 | `REConditionUUID` | `REConditionUUID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `REDocumentReferenceUUID` | `REDocumentReferenceUUID` |
@@ -110,10 +110,7 @@ tags:
 | `REOriglActlTranslationDate` | `REOriglActlTranslationDate` |
 | `REIsTranslationDateFrmCashFlow` | `REIsTranslationDateFrmCashFlow` |
 | `REStatusObject` | `REStatusObject` |
-| `case when _REFlowType.DebitCreditCode = 'H'` | `case when _REFlowType.DebitCreditCode = 'H'` |
-| `then RECashFlowPositionAmount * ( -1 )` | `then RECashFlowPositionAmount * ( -1 )` |
-| `else RECashFlowPositionAmount` | `else RECashFlowPositionAmount` |
-| `RECashFlowPositionAmount` | `end` |
+| `RECashFlowPositionAmount` | `case…end` |
 | `_REContract` | *Association* |
 | `_RECondition` | *Association* |
 | `_REConditionType` | *Association* |

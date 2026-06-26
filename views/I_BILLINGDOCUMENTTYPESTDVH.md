@@ -35,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentType` | `BillingDocumentType` |
+| `BillingDocumentType` | `BillingDocumentType` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzsto)` | `cast(substring(domvalue_l, 1, 1)` |
+| `MaterialDocumentPostingType` | `cast(substring(domvalue_l, 1, 1) as kzsto)` |
 | `_Text` | *Association* |
 
 ## Associations

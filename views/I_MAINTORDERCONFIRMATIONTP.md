@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintOrderConf` | `MaintOrderConf` |
-| `key MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
+| `MaintOrderConf` | `MaintOrderConf` |
+| `MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
 | `MaintenanceOrder` | `MaintenanceOrder` |
 | `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
 | `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
@@ -65,7 +65,6 @@ tags:
 | `IsReversed` | `IsReversed` |
 | `IsReversal` | `IsReversal` |
 | `CancldMaintOrderConfCntrValue` | `CancldMaintOrderConfCntrValue` |
-| `_LongText : redirected to composition child I_MaintOrdConfLongTextTP` | *Association* |
 
 ## Associations
 

@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcDesc.CharcInternalID` | `CharcDesc.CharcInternalID` |
-| `key CharcDesc.Language` | `CharcDesc.Language` |
-| `key CharcDesc.ValidityEndDate` | `CharcDesc.ValidityEndDate` |
-| `CharcDesc.TimeIntervalNumber` | `CharcDesc.TimeIntervalNumber` |
-| `CharcDesc.ChangeNumber` | `CharcDesc.ChangeNumber` |
-| `CharcDesc.CharcDescription` | `CharcDesc.CharcDescription` |
-| `CharcDesc.ValidityStartDate` | `CharcDesc.ValidityStartDate` |
-| `CharcDesc.IsDeleted` | `CharcDesc.IsDeleted` |
+| `CharcInternalID` | `CharcDesc.CharcInternalID` |
+| `Language` | `CharcDesc.Language` |
+| `ValidityEndDate` | `CharcDesc.ValidityEndDate` |
+| `TimeIntervalNumber` | `CharcDesc.TimeIntervalNumber` |
+| `ChangeNumber` | `CharcDesc.ChangeNumber` |
+| `CharcDescription` | `CharcDesc.CharcDescription` |
+| `ValidityStartDate` | `CharcDesc.ValidityStartDate` |
+| `IsDeleted` | `CharcDesc.IsDeleted` |
 | `_Language` | *Association* |
 | `_Characteristic` | *Association* |
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_ira_registration_state )` | `cast( dd07l.domvalue_l` |
+| `FinInterestRateAdjmtStatus` | `cast( dd07l.domvalue_l as tb_ira_registration_state )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

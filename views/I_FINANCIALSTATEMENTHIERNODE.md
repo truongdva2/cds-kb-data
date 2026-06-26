@@ -30,19 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `key  ValidityEndDate` | `ValidityEndDate` |
+| `FinancialStatementHierarchy` | `FinancialStatementHierarchy` |
+| `HierarchyNode` | `HierarchyNode` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ParentNode` | `ParentNode` |
 | `HierarchyVersion` | `HierarchyVersion` |
 | `FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
-| `SequenceNumber, // used for sorting` | `SequenceNumber, // used for sorting` |
+| `SequenceNumber` | `SequenceNumber` |
 | `SignIsInverted` | `SignIsInverted` |
 | `ChartOfAccounts` | `ChartOfAccounts` |
 | `FinancialStatementNodeType` | `FinancialStatementNodeType` |
 | `FinStmntNodeFormattedID` | `FinStmntNodeFormattedID` |
 | `HierarchyNodeVal` | `HierarchyNodeVal` |
-| `HierarchyNodeSequence, //sequence in num6` | `HierarchyNodeSequence, //sequence in num6` |
+| `HierarchyNodeSequence` | `HierarchyNodeSequence` |
 | `HierarchyLevel` | `HierarchyLevel` |
 | `DebitCreditCode` | `DebitCreditCode` |
 | `_Text` | *Association* |

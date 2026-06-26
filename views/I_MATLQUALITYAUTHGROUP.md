@@ -29,13 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qmatauth preserving type )` | `cast( tq01b.qmatauth` |
-| `case when I_MdiOidConfiguration.Context is initial then` | `case when I_MdiOidConfiguration.Context is initial then` |
-| `matlqmauthorizationgroupoid )` | `cast( tq01b.qmatauth` |
-| `when I_MdiOidConfiguration.Context is not initial then` | `when I_MdiOidConfiguration.Context is not initial then` |
-| `matlqmauthorizationgroupoid )` | `cast( concat( concat( I_MdiOidConfiguration.Context, ':' ), tq01b.qmatauth )` |
-| `MatlQMAuthorizationGroupOID` | `end` |
+| `MatlQualityAuthorizationGroup` | `cast( tq01b.qmatauth as vdm_qmatauth preserving type )` |
+| `MatlQMAuthorizationGroupOID` | `case…end` |
 | `_Text` | *Association* |
 
 ## Associations

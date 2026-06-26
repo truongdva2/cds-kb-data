@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CABillgDocument` | `CABillgDocument` |
+| `CABillgDocument` | `CABillgDocument` |
 | `BusinessPartner` | `BusinessPartner` |
 | `ContractAccount` | `ContractAccount` |
 | `CABillgType` | `CABillgType` |
@@ -86,9 +86,7 @@ tags:
 | `CAInvcgCreationDate` | `CAInvcgCreationDate` |
 | `CASubAreaForParallelization` | `CASubAreaForParallelization` |
 | `CAAltvMDOriginalIsIncluded` | `CAAltvMDOriginalIsIncluded` |
-| `/* Associations */` | `/* Associations */` |
 | `_ContractAccountPartner` | *Association* |
-| `_CABillgDocItem : redirected to composition child I_CABillgDocItemTP` | *Association* |
 
 ## Associations
 

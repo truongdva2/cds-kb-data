@@ -36,11 +36,11 @@ tags:
 | `CostCtrActivityType` | `onrkl.lstar` |
 | `SalesDocument` | `onrvb.vbeln` |
 | `SalesDocumentItem` | `onrvb.posnr` |
-| `fis_kokrs )` | `cast ( COALESCE ( COALESCE( COALESCE(onrks.kokrs, onrbp.kokrs ),   onrkl.kokrs), '')` |
-| `fis_kostl )` | `cast( COALESCE(onrks.kostl, onrkl.kostl)` |
-| `fis_wbsint_no_conv preserving type )` | `cast( onrpr.pspnr` |
-| `fis_projectint_no_conv preserving type)` | `cast( onrpd.pspnr` |
-| `j_obart)` | `cast ( SUBSTRING( onr00.objnr, 1, 2)` |
+| `ControllingArea` | `cast(…)` |
+| `CostCenter` | `cast( COALESCE(onrks.kostl, onrkl.kostl) as fis_kostl )` |
+| `WBSElementInternalID` | `cast( onrpr.pspnr as fis_wbsint_no_conv preserving type )` |
+| `ProjectInternalID` | `cast( onrpd.pspnr as fis_projectint_no_conv preserving type)` |
+| `ControllingObjectType` | `cast ( SUBSTRING( onr00.objnr, 1, 2) as j_obart)` |
 | `_ControllingArea` | *Association* |
 | `_CostCenter` | *Association* |
 | `_CostCtrActivityType` | *Association* |
@@ -49,7 +49,9 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ControllingArea` | `I_ControllingArea` | [1] |
 | `_CostCenter` | `I_CostCenter` | [0..*] |
+| `_CostCtrActivityType` | `I_CostCenterActivityType` | [0..*] |
 
 ## Source Code
 

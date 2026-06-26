@@ -32,14 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
+| `FunctionalLocation` | `FunctionalLocation` |
 | `Language` | `Language` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
-| `tplnr_unconverted preserving type)` | `cast(TextObjectKey` |
+| `TextObjectKey` | `cast(TextObjectKey as tplnr_unconverted preserving type)` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `TextObjectType` | `TextObjectType` |
 | `FuncnlLocLongText` | `FuncnlLocLongText` |
-| `_FunctionalLocation: redirected to parent I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

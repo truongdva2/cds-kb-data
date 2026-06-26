@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hidden: true } }` | `hidden: true } }` |
-| `maxst)` | `cast(maxst` |
+| `DunningKey` | `cast( mschl as farp_mschl )` |
+| `MaximumDunningLevel` | `cast(maxst as maxst)` |
 | `_Text` | *Association* |
 
 ## Associations

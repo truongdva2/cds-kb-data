@@ -34,11 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     MaintenanceOrder` | `MaintenanceOrder` |
-| `key     TextObjectType` | `TextObjectType` |
-| `key     Language` | `Language` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `MaintenanceOrderLongText` | `MaintenanceOrderLongText` |
-| `_MaintenanceOrder          : redirected to parent I_MaintenanceOrderTP` | *Association* |
 
 ## Associations
 

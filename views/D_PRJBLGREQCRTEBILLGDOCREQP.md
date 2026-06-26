@@ -29,8 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `exclude: true  }]` | `exclude: true  }]` |
-| `ProjBillgAdhcBillgPlnItmIsCrtd: boolean;` | `ProjBillgAdhcBillgPlnItmIsCrtd: boolean;` |
+| `Action` | `abap.string` |
+| `OnAccountItemsAreIncluded` | `boolean` |
+| `ProjBillgAdhcBillgPlnItmIsCrtd` | `boolean` |
 
 ## Associations
 

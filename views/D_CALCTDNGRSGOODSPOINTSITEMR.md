@@ -30,17 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProdCmplncLogsDocumentItem : ehfnd_log_doc_posnr;` | `ProdCmplncLogsDocumentItem : ehfnd_log_doc_posnr;` |
-| `Product : ehfnd_mat_id;` | `Product : ehfnd_mat_id;` |
-| `DngrsGdsCalculatedEnclosureQty : dngrsgdscalculatedenclosureqty;` | `DngrsGdsCalculatedEnclosureQty : dngrsgdscalculatedenclosureqty;` |
-| `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` | `DangerousGoodsEnclosureSapUnit : ehfnd_vdm_component_unit_sap;` |
-| `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` | `DangerousGoodsEnclosureISOUnit : ehfnd_vdm_component_unit_iso;` |
-| `_Document : association to parent D_CalctDangerousGoodsPointsR;` | *Association* |
-| `_ItemRegulation : composition [0..*] of D_CalctDngrsGdsPtsItmRglnR;` | *Association* |
+| `ProdCmplncLogsDocumentItem` | `ehfnd_log_doc_posnr` |
+| `Product` | `ehfnd_mat_id` |
+| `DngrsGdsCalculatedEnclosureQty` | `dngrsgdscalculatedenclosureqty` |
+| `DangerousGoodsEnclosureSapUnit` | `ehfnd_vdm_component_unit_sap` |
+| `DangerousGoodsEnclosureISOUnit` | `ehfnd_vdm_component_unit_iso` |
+| `_Document` | *Association* |
+| `_ItemRegulation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Document` | `D_CalctDangerousGoodsPointsR` | — |
+| `_ItemRegulation` | `D_CalctDngrsGdsPtsItmRglnR` | [0..*] |
 
 ## Source Code
 

@@ -30,14 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspCalcSheetItmCalcRuleUUID` | `TranspCalcSheetItmCalcRuleUUID` |
+| `TranspCalcSheetItmCalcRuleUUID` | `TranspCalcSheetItmCalcRuleUUID` |
 | `TranspCalcSheetItemUUID` | `TranspCalcSheetItemUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TransportationCalculationBase` | `TransportationCalculationBase` |
 | `TranspChrgCalcRuleUnit` | `TranspChrgCalcRuleUnit` |
-| `/scmtms/rttable_calcrule_price preserving type )` | `cast( TranspChrgPricePerQuantity` |
-| `FrtAgrmtCalcSheetItmCalcRule._FreightAgreement      : redirected to I_FreightAgreementTP` | `FrtAgrmtCalcSheetItmCalcRule._FreightAgreement      : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtCalcSheetItmCalcRule._FrtAgrmtCalcSheetItem : redirected to parent I_FrtAgrmtCalcSheetItemTP` | `FrtAgrmtCalcSheetItmCalcRule._FrtAgrmtCalcSheetItem : redirected to parent I_FrtAgrmtCalcSheetItemTP` |
+| `TranspChrgPricePerQuantity` | `cast(…)` |
 
 ## Associations
 

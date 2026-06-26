@@ -33,82 +33,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true` | `text: true` |
-| `name.fullName: true` | `name.fullName: true` |
-| `}` | `}` |
-| `cast(` | `cast(` |
-| `case SDPartner.AddressID` | `case SDPartner.AddressID` |
-| `when ''` | `when ''` |
-| `then` | `then` |
-| `case` | `case` |
-| `when SDPartner.Personnel != '00000000'` | `when SDPartner.Personnel != '00000000'` |
-| `then coalesce(_WorkAssignment.PersonFullName` | `then coalesce(_WorkAssignment.PersonFullName` |
-| `_WorkAssignment._BusinessPartner.LastName)` | *Association* |
-| `end` | `end` |
-| `else` | `else` |
-| `case` | `case` |
-| `when SDPartner.AddressObjectType = '1'` | `when SDPartner.AddressObjectType = '1'` |
-| `then` | `then` |
-| `case` | `case` |
-| `when SDPartner.ContactPerson != '0000000000'` | `when SDPartner.ContactPerson != '0000000000'` |
-| `then` | `then` |
-| `cast(substring(replace(concat(SDPartner._ContactPerson.FirstName` | `cast(substring(replace(concat(SDPartner._ContactPerson.FirstName` |
-| `ad_namtext )` | `concat(' &@', SDPartner._ContactPerson.LastName) ), '&@', '') ,1,80)` |
-| `when SDPartner.Personnel != '00000000'` | `when SDPartner.Personnel != '00000000'` |
-| `then _OrganizationAddress.AddresseeName1  //Document specific personnel` | `then _OrganizationAddress.AddresseeName1  //Document specific personnel` |
-| `else` | `else` |
-| `cast(concat_with_space(_OrganizationAddress.AddresseeName1` | `cast(concat_with_space(_OrganizationAddress.AddresseeName1` |
-| `_OrganizationAddress.AddresseeName2, 1) as ad_namtext )` | *Association* |
-| `end` | `end` |
-| `when SDPartner.AddressObjectType = '2'` | `when SDPartner.AddressObjectType = '2'` |
-| `then _PersonAddress.PersonFullName` | `then _PersonAddress.PersonFullName` |
-| `when SDPartner.AddressObjectType = '3'` | `when SDPartner.AddressObjectType = '3'` |
-| `then _PersonWorkplaceAddress.PersonFullName` | `then _PersonWorkplaceAddress.PersonFullName` |
-| `end` | `end` |
-| `ad_namtext )` | `end` |
-| `SDPartner.Customer` | `SDPartner.Customer` |
-| `SDPartner.Supplier` | `SDPartner.Supplier` |
-| `SDPartner.Personnel` | `SDPartner.Personnel` |
-| `SDPartner.ContactPerson` | `SDPartner.ContactPerson` |
-| `SDPartner.AddressID` | `SDPartner.AddressID` |
-| `SDPartner.AddressPersonID` | `SDPartner.AddressPersonID` |
-| `SDPartner.AddressObjectType` | `SDPartner.AddressObjectType` |
-| `SDPartner.SDDocPartnerAddressRefType` | `SDPartner.SDDocPartnerAddressRefType` |
-| `SDPartner.BPAddrDeterminationTransaction` | `SDPartner.BPAddrDeterminationTransaction` |
-| `SDPartner.BPRefAddressIDForDocSpcfcAddr` | `SDPartner.BPRefAddressIDForDocSpcfcAddr` |
-| `SDPartner.SDDocPartnerAddrIsDocSpecific` | `SDPartner.SDDocPartnerAddrIsDocSpecific` |
-| `SDPartner.ReferenceBusinessPartner` | `SDPartner.ReferenceBusinessPartner` |
-| `SDPartner.VATRegistration` | `SDPartner.VATRegistration` |
+| `SalesContract` | `SDPartner.SalesContract` |
+| `PartnerFunction` | `SDPartner.PartnerFunction` |
+| `SDDocPartnerSequenceNumber` | `SDPartner.SDDocPartnerSequenceNumber` |
+| `Partner` | `SDPartner.Partner` |
+| `FullName` | `cast(…)` |
+| `Customer` | `SDPartner.Customer` |
+| `Supplier` | `SDPartner.Supplier` |
+| `Personnel` | `SDPartner.Personnel` |
+| `ContactPerson` | `SDPartner.ContactPerson` |
+| `AddressID` | `SDPartner.AddressID` |
+| `AddressPersonID` | `SDPartner.AddressPersonID` |
+| `AddressObjectType` | `SDPartner.AddressObjectType` |
+| `SDDocPartnerAddressRefType` | `SDPartner.SDDocPartnerAddressRefType` |
+| `BPAddrDeterminationTransaction` | `SDPartner.BPAddrDeterminationTransaction` |
+| `BPRefAddressIDForDocSpcfcAddr` | `SDPartner.BPRefAddressIDForDocSpcfcAddr` |
+| `SDDocPartnerAddrIsDocSpecific` | `SDPartner.SDDocPartnerAddrIsDocSpecific` |
+| `ReferenceBusinessPartner` | `SDPartner.ReferenceBusinessPartner` |
+| `VATRegistration` | `SDPartner.VATRegistration` |
 | `UnloadingPointName` | `UnloadingPointName` |
-| `coalesce(_PersonName.FormOfAddress` | `coalesce(_PersonName.FormOfAddress` |
-| `_OrgNamePostalAddress.FormOfAddress )          as FormOfAddress` | *Association* |
-| `coalesce(_PersonName.CorrespondenceLanguage` | `coalesce(_PersonName.CorrespondenceLanguage` |
-| `_OrgNamePostalAddress.CorrespondenceLanguage ) as CorrespondenceLanguage` | *Association* |
-| `/* Communication Related Data */` | `/* Communication Related Data */` |
-| `cast(` | `cast(` |
-| `case AddressID` | `case AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkAssignment._WorkplaceAddress.NormalizedPhoneNumber` | `then _WorkAssignment._WorkplaceAddress.NormalizedPhoneNumber` |
-| `else _CurrentDfltLandlinePhoneNmbr.InternationalPhoneNumber` | `else _CurrentDfltLandlinePhoneNmbr.InternationalPhoneNumber` |
-| `ad_telnrlg preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case AddressID` | `case AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkAssignment._WorkplaceAddress.MblNormalizedPhoneNumber` | `then _WorkAssignment._WorkplaceAddress.MblNormalizedPhoneNumber` |
-| `else _CurrentDfltMobilePhoneNumber.InternationalPhoneNumber` | `else _CurrentDfltMobilePhoneNumber.InternationalPhoneNumber` |
-| `ad_telnrlg preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case AddressID` | `case AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkAssignment._WorkplaceAddress.InternationalFaxNumber` | `then _WorkAssignment._WorkplaceAddress.InternationalFaxNumber` |
-| `else _CurrentDfltFaxNumber.InternationalFaxNumber` | `else _CurrentDfltFaxNumber.InternationalFaxNumber` |
-| `ad_fxnrlng preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case AddressID` | `case AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkAssignment._WorkplaceAddress.DefaultEmailAddress` | `then _WorkAssignment._WorkplaceAddress.DefaultEmailAddress` |
-| `else _CurrentDfltEmailAddress.EmailAddress` | `else _CurrentDfltEmailAddress.EmailAddress` |
-| `vdm_sd_ad_smtpadr preserving type )` | `end` |
+| `FormOfAddress` | `coalesce(_PersonName.FormOfAddress, _OrgNamePostalAddress.FormOfAddress )` |
+| `CorrespondenceLanguage` | `coalesce(…)` |
+| `InternationalPhoneNumber` | `cast(…)` |
+| `InternationalMobilePhoneNumber` | `cast(…)` |
+| `InternationalFaxNumber` | `cast(…)` |
+| `EmailAddress` | `cast(…)` |
 | `_PartnerFunction` | *Association* |
 | `_Address` | *Association* |
 | `_SalesContract` | *Association* |

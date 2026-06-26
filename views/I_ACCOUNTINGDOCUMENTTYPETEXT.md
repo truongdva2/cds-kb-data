@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_blart preserving type )` | `cast ( blart` |
+| `AccountingDocumentType` | `cast ( blart as farp_blart preserving type )` |
 | `Language` | `spras` |
-| `farp_ltext_003t preserving type )` | `cast ( ltext` |
+| `AccountingDocumentTypeName` | `cast ( ltext as farp_ltext_003t preserving type )` |
 | `_DocumentType` | *Association* |
 | `_Language` | *Association* |
 

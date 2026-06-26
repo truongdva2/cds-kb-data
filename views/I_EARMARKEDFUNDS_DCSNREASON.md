@@ -40,6 +40,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_EarmarkedFundsDcsnRsnType` | `I_EarmarkedFundsDcsnRsnType` | [0..1] |
+| `_Text` | `I_EarmarkedFunds_DcsnReasonTxt` | [0..*] |
 
 ## Source Code
 

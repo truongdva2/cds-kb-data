@@ -32,7 +32,6 @@ tags:
 | `TranspMeansOfTransport` | `ttype` |
 | `TransportationMode` | `trmodcode` |
 | `MeansOfTransportIsPassive` | `passive` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_TransportationMode` | *Association* |
 
@@ -40,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TranspMeansOfTransportT` | [0..*] |
 | `_TransportationMode` | `I_TransportationMode_2` | [0..1] |
 
 ## Source Code

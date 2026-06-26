@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
-| `key    Language` | `Language` |
+| `FinancialStatementLeafItem` | `FinancialStatementLeafItem` |
+| `Language` | `Language` |
 | `FinancialStatementLeafItemName` | `FinancialStatementLeafItemName` |
 | `FinStmntLeafItmLongName` | `FinStmntLeafItmLongName` |
 | `_Language` | *Association* |

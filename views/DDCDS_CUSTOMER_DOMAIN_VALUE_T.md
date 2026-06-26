@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(30))` | `cast(dd07t.domname` |
-| `abap.numc(4))` | `cast(dd07t.valpos` |
+| `domain_name` | `cast(dd07t.domname as abap.char(30))` |
+| `value_position` | `cast(dd07t.valpos as abap.numc(4))` |
 | `language` | `dd07t.ddlanguage` |
 | `value_low` | `dd07t.domvalue_l` |
 | `text` | `dd07t.ddtext` |

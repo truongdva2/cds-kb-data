@@ -30,28 +30,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
-| `SupplierInvoiceItemAmount      : wrbtr_cs;` | `SupplierInvoiceItemAmount      : wrbtr_cs;` |
-| `PurchaseOrderQuantityUnit      : bstme;` | `PurchaseOrderQuantityUnit      : bstme;` |
-| `QuantityInPurchaseOrderUnit    : menge_d;` | `QuantityInPurchaseOrderUnit    : menge_d;` |
-| `PurchaseOrderPriceUnit         : bprme;` | `PurchaseOrderPriceUnit         : bprme;` |
-| `QtyInPurchaseOrderPriceUnit    : bpmng;` | `QtyInPurchaseOrderPriceUnit    : bpmng;` |
-| `SuplrInvcDeliveryCostCndnType  : kschl;` | `SuplrInvcDeliveryCostCndnType  : kschl;` |
-| `SuplrInvcDeliveryCostCndnStep  : stunr;` | `SuplrInvcDeliveryCostCndnStep  : stunr;` |
-| `SuplrInvcDeliveryCostCndnCount : dzaehk;` | `SuplrInvcDeliveryCostCndnCount : dzaehk;` |
-| `FreightSupplier                : lifnr;` | `FreightSupplier                : lifnr;` |
-| `ServiceEntrySheet              : lblni;` | `ServiceEntrySheet              : lblni;` |
-| `ServiceEntrySheetItem          : extrow;` | `ServiceEntrySheetItem          : extrow;` |
-| `SupplierInvoiceItemText        : sgtxt;` | `SupplierInvoiceItemText        : sgtxt;` |
-| `IsNotCashDiscountLiable        : xskrl;` | `IsNotCashDiscountLiable        : xskrl;` |
-| `TaxCountry                     : fot_tax_country;` | `TaxCountry                     : fot_tax_country;` |
-| `IsFinallyInvoiced              : erekz;` | `IsFinallyInvoiced              : erekz;` |
-| `_AccountAssignments            : composition [0..*] of D_SuplrInvcCreateAccAssgmtP;` | *Association* |
-| `_SupplierInvoice               : association to parent D_SuplrInvcCreateP;` | *Association* |
+| `SupplierInvoiceItem` | `rblgp` |
+| `PurchaseOrder` | `ebeln` |
+| `PurchaseOrderItem` | `ebelp` |
+| `ReferenceDocument` | `lfbnr` |
+| `ReferenceDocumentFiscalYear` | `lfgja` |
+| `ReferenceDocumentItem` | `lfpos` |
+| `SuplrInvcIsSubsqntDebitCrdt` | `tbtkz` |
+| `TaxCode` | `mwskz` |
+| `TaxJurisdiction` | `txjcd` |
+| `DocumentCurrency` | `waers` |
+| `SupplierInvoiceItemAmount` | `wrbtr_cs` |
+| `PurchaseOrderQuantityUnit` | `bstme` |
+| `QuantityInPurchaseOrderUnit` | `menge_d` |
+| `PurchaseOrderPriceUnit` | `bprme` |
+| `QtyInPurchaseOrderPriceUnit` | `bpmng` |
+| `SuplrInvcDeliveryCostCndnType` | `kschl` |
+| `SuplrInvcDeliveryCostCndnStep` | `stunr` |
+| `SuplrInvcDeliveryCostCndnCount` | `dzaehk` |
+| `FreightSupplier` | `lifnr` |
+| `ServiceEntrySheet` | `lblni` |
+| `ServiceEntrySheetItem` | `extrow` |
+| `SupplierInvoiceItemText` | `sgtxt` |
+| `IsNotCashDiscountLiable` | `xskrl` |
+| `TaxCountry` | `fot_tax_country` |
+| `IsFinallyInvoiced` | `erekz` |
+| `_AccountAssignments` | *Association* |
+| `_SupplierInvoice` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AccountAssignments` | `D_SuplrInvcCreateAccAssgmtP` | [0..*] |
+| `_SupplierInvoice` | `D_SuplrInvcCreateP` | — |
 
 ## Source Code
 

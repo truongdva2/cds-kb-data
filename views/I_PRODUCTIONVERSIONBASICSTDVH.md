@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' } } ]` | `name: 'I_ProductStdVH', element: 'Product' } } ]` |
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
-| `key ProductionVersion` | `ProductionVersion` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `ProductionVersion` | `ProductionVersion` |
 | `ProductionVersionText` | `ProductionVersionText` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ValidityStartDate` | `ValidityStartDate` |

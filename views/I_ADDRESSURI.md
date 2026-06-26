@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AddressID` | `AddressID` |
-| `key AddressPersonID` | `AddressPersonID` |
-| `key CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
+| `AddressID` | `AddressID` |
+| `AddressPersonID` | `AddressPersonID` |
+| `CommMediumSequenceNumber` | `CommMediumSequenceNumber` |
 | `AddressManagementURIType` | `AddressManagementURIType` |
 | `URLIsCurrentDefault` | `URLIsCurrentDefault` |
 | `UniformResourceIdentifier` | `UniformResourceIdentifier` |

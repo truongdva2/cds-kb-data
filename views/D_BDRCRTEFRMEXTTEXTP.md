@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LongTextID  : tdid;` | `LongTextID  : tdid;` |
-| `Language    : spras;` | `Language    : spras;` |
-| `LongText    : systring;` | `LongText    : systring;` |
+| `LongTextID` | `tdid` |
+| `Language` | `spras` |
+| `LongText` | `systring` |
 
 ## Associations
 

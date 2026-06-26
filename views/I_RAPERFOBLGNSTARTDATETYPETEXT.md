@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
+| `Language` | `cast(dd07t.ddlanguage as spras preserving type)` |
+| `PerfOblgnStartDateType` | `cast(dd07t.domvalue_l as farr_start_date_type)` |
 | `PerfOblgnStartDateTypeText` | `dd07t.ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_RAStartDateType` | *Association* |
@@ -41,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RAStartDateType` | `I_RAPerfOblgnStartDateType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

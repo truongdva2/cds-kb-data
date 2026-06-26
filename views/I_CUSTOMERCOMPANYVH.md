@@ -33,15 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #MEDIUM` | `ranking: #MEDIUM` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `key CompanyCode` | `CompanyCode` |
+| `Customer` | `Customer` |
+| `CompanyCode` | `CompanyCode` |
 | `_Customer` | *Association* |
-| `_Customer.Country` | *Association* |
-| `_Customer.BPCustomerName` | *Association* |
-| `_CompanyCode.CompanyCodeName` | *Association* |
+| `Country` | `_Customer.Country` |
+| `BPCustomerName` | `_Customer.BPCustomerName` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
 | `_CompanyCode` | *Association* |
 
 ## Associations

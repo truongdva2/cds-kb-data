@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderItemTP : redirected to parent I_ServiceOrderItemTP` | *Association* |
-| `_ServiceOrderTP     : redirected to I_ServiceOrderTP` | *Association* |
 
 ## Associations
 

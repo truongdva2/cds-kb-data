@@ -30,13 +30,52 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceQuotationType` | `ServiceQuotationType` |
+| `ServiceQuotationUUID` | `ServiceQuotationUUID` |
+| `ServiceQuotationDescription` | `ServiceQuotationDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `ServiceOrganization` | `ServiceOrganization` |
+| `RespyMgmtServiceTeam` | `RespyMgmtServiceTeam` |
+| `RespyMgmtGlobalTeamID` | `RespyMgmtGlobalTeamID` |
+| `ServiceQuotationIsNew` | `ServiceQuotationIsNew` |
+| `ServiceQuotationIsInProcess` | `ServiceQuotationIsInProcess` |
+| `ServiceQuotationIsReleased` | `ServiceQuotationIsReleased` |
+| `ServiceQuotationIsCompleted` | `ServiceQuotationIsCompleted` |
+| `ServiceQuotationStatus` | `ServiceQuotationStatus` |
+| `ServiceQuotationHasError` | `ServiceQuotationHasError` |
+| `SrvcDocRejectionStatus` | `SrvcDocRejectionStatus` |
+| `RequestedServiceStartDateTime` | `RequestedServiceStartDateTime` |
+| `RequestedServiceEndDateTime` | `RequestedServiceEndDateTime` |
+| `SrvcQtanValidityStartDateTime` | `SrvcQtanValidityStartDateTime` |
+| `SrvcQtanValidityEndDateTime` | `SrvcQtanValidityEndDateTime` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `PricingDocument` | `PricingDocument` |
 | `SrvcQuotationRejectionReason` | `SrvcQuotationRejectionReason` |
 | `ServiceQtanExtReference` | `ServiceQtanExtReference` |
 | `ReferenceServiceContract` | `ReferenceServiceContract` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceObjType` | *Association* |
 | `_ServiceDocumentType` | *Association* |
 | `_SoldToParty` | *Association* |
@@ -57,15 +96,6 @@ tags:
 | `_ServiceDocumentPriority` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_SrvcDocumentRejectionReason` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceQuotationItemTP    : redirected to composition child I_ServiceQuotationItemTP` | *Association* |
-| `_SrvcQtanReferenceObjectTP : redirected to composition child I_SrvcQtanReferenceObjectTP` | *Association* |
-| `_SrvcQtanPriceElementTP    : redirected to composition child I_SrvcQtanPriceElementTP` | *Association* |
-| `_SrvcQtanAppointmentTP     : redirected to composition child I_SrvcQtanAppointmentTP` | *Association* |
-| `_SrvcQtanDurationTP        : redirected to composition child I_SrvcQtanDurationTP` | *Association* |
-| `_SrvcQtanFUPSrvcOrdTP      : redirected to composition child I_SrvcQtanFUPSrvcOrdTP` | *Association* |
-| `_SrvcQtanLongTextTP        : redirected to composition child I_SrvcQtanLongTextTP` | *Association* |
-| `_SrvcQtanPartnerTP         : redirected to composition child I_SrvcQtanPartnerTP` | *Association* |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGScope2ContractualInstrument` | `GHGScope2ContractualInstrument` |
+| `GHGScope2ContractualInstrument` | `GHGScope2ContractualInstrument` |
 | `_Text` | *Association* |
 
 ## Associations

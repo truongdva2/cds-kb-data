@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `MaintNotifDetectionCatalog` | `eam_detcat_t.detectioncatalog` |
 | `Language` | `eam_detcat_t.language` |
-| `detectioncatalogtext preserving type )` | `cast( eam_detcat_t.detectioncatalogtext` |
+| `MaintNotifDetectionCatalogText` | `cast(…)` |
 
 ## Associations
 

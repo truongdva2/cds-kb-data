@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
-| `key Material` | `Material` |
+| `ChangeNumber` | `ChangeNumber` |
+| `Material` | `Material` |
 | `ChgNmbrAlternativeDateID` | `ChgNmbrAlternativeDateID` |
 | `SAPObjectTechnicalID` | `SAPObjectTechnicalID` |
 | `ObjMgmtRecdDescription` | `ObjMgmtRecdDescription` |
@@ -50,9 +50,6 @@ tags:
 | `ObjMgmtRecdObjRevisionLevel` | `ObjMgmtRecdObjRevisionLevel` |
 | `ChgNmbrAlternativeDateCounter` | `ChgNmbrAlternativeDateCounter` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_ChangeMaster        : redirected to parent I_ChangeMasterTP_2` | *Association* |
-| `_ChangeMasterAltDate : redirected to I_ChangeMasterAltDateTP_2` | *Association* |
 
 ## Associations
 

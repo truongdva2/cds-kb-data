@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fkkdm_int_reason preserving type )` | `cast( left( dd07t.domvalue_l, 4 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `fkkdm_int_text_reason preserving type )` | `cast( ddtext` |
+| `CADisputeType` | `cast( left( dd07t.domvalue_l, 4 ) as fkkdm_int_reason preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADisputeTypeName` | `cast( ddtext as fkkdm_int_text_reason preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

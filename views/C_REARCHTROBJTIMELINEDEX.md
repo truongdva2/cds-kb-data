@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REArchitectureObjTimelineUUID` | `REArchitectureObjTimelineUUID` |
+| `REArchitectureObjTimelineUUID` | `REArchitectureObjTimelineUUID` |
 | `REArchitectureObjectUUID` | `REArchitectureObjectUUID` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |

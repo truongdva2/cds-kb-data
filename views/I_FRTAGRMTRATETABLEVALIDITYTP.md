@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
+| `TranspRateTableValidityUUID` | `TranspRateTableValidityUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TranspRateTblValidityCurrency` | `TranspRateTblValidityCurrency` |
@@ -38,10 +38,6 @@ tags:
 | `TranspRateTblValidityStartDate` | `TranspRateTblValidityStartDate` |
 | `TranspRateTblValidityEndDate` | `TranspRateTblValidityEndDate` |
 | `TranspRateTblValidityPctUnit` | `TranspRateTblValidityPctUnit` |
-| `FrtAgrmtRateTableValidity._FreightAgreement          : redirected to I_FreightAgreementTP` | `FrtAgrmtRateTableValidity._FreightAgreement          : redirected to I_FreightAgreementTP` |
-| `FrtAgrmtRateTableValidity._FrtAgrmtRateTableRate     : redirected to composition child I_FrtAgrmtRateTableRateTP` | `FrtAgrmtRateTableValidity._FrtAgrmtRateTableRate     : redirected to composition child I_FrtAgrmtRateTableRateTP` |
-| `FrtAgrmtRateTableValidity._FrtAgrmtRateTableCalcRule : redirected to composition child I_FrtAgrmtRateTableCalcRuleTP` | `FrtAgrmtRateTableValidity._FrtAgrmtRateTableCalcRule : redirected to composition child I_FrtAgrmtRateTableCalcRuleTP` |
-| `FrtAgrmtRateTableValidity._FreightAgreementRateTable : redirected to parent I_FreightAgreementRateTableTP` | `FrtAgrmtRateTableValidity._FreightAgreementRateTable : redirected to parent I_FreightAgreementRateTableTP` |
 
 ## Associations
 

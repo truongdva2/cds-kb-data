@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionUsage` | `ConditionUsage` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key ConditionExclusionGroup` | `ConditionExclusionGroup` |
+| `Language` | `Language` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `ConditionExclusionGroup` | `ConditionExclusionGroup` |
 | `ConditionExclusionGroupText` | `ConditionExclusionGroupText` |
 | `_SlsPrcgCndnExclusionGroup` | *Association* |
 

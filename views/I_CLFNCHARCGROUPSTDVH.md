@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcGroup` | `CharcGroup` |
-| `_CharacteristicGroupText as _Text` | *Association* |
+| `CharcGroup` | `CharcGroup` |
+| `_Text` | *Association* |
 
 ## Associations
 

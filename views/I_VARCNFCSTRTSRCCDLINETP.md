@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key VarCnfConstraintName` | `VarCnfConstraintName` |
-| `key ChangeNumber` | `ChangeNumber` |
-| `key VarCnfConstraintCodeLineNumber` | `VarCnfConstraintCodeLineNumber` |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintName` | `VarCnfConstraintName` |
+| `ChangeNumber` | `ChangeNumber` |
+| `VarCnfConstraintCodeLineNumber` | `VarCnfConstraintCodeLineNumber` |
 | `VarCnfConstraintCodeLineText` | `VarCnfConstraintCodeLineText` |
-| `/* Associations */` | `/* Associations */` |
-| `_SourceCode    : redirected to parent I_VarCnfCstrtSourceCodeTP` | *Association* |
-| `_ConstraintNet : redirected to I_VarCnfConstraintNetTP` | *Association* |
 
 ## Associations
 

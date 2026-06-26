@@ -30,7 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_Text_2'}` | `releaseState: #DEPRECATED, successor: '_Text_2'}` |
+| `Segment` | `Segment` |
+| `_SegmentHierNode_2` | *Association* |
+| `_SegmentHierNode` | *Association* |
+| `_Text_2` | *Association* |
 | `_Text` | *Association* |
 | `_TmprlNde` | *Association* |
 

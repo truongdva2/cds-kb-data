@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfspr)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KanbanCalcLockingSequence` | `cast(substring(domvalue_l, 1, 1) as rfspr)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

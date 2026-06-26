@@ -32,11 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CostCenterName' }` | `status: #DEPRECATED, successor: 'CostCenterName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.CostCenterName` |
-| `fincs_costcentername preserving type )` | `cast( _Source.CostCenterName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `CostCenter` | `cast( _Source.CostCenter as fincs_costcenter preserving type )` |
+| `ControllingArea` | `cast( _Source.ControllingArea as fincs_controllingarea preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.CostCenterName as fincs_description_text_20 preserving type )` |
+| `CostCenterName` | `cast( _Source.CostCenterName as fincs_costcentername preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_CostCenter` | *Association* |

@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `txt.schgrup` |
+| `ShiftSequence` | `txt.sprog` |
+| `Language` | `txt.spras` |
 | `ShiftSequenceName` | `txt.ktext` |
 | `_ShiftGrouping` | *Association* |
 | `_Language` | *Association* |

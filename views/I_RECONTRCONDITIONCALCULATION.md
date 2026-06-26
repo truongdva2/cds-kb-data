@@ -37,8 +37,8 @@ tags:
 | `REStatusObjectCalculation` | `objnr` |
 | `REConditionType` | `condtype` |
 | `REConditionValidityStartDate` | `condvalidfrom` |
-| `rebdvdmvalidfrom preserving type)` | `cast(valuevalidfrom` |
-| `rebdvdmvalidto preserving type)` | `cast(valuevalidto` |
+| `ValidityStartDate` | `cast(valuevalidfrom as rebdvdmvalidfrom preserving type)` |
+| `ValidityEndDate` | `cast(valuevalidto as rebdvdmvalidto preserving type)` |
 | `REConditionCalculationFactor` | `calcvalue` |
 | `REConditionItemAmount` | `condvalue` |
 | `REConditionItemTaxAmount` | `taxvalue` |

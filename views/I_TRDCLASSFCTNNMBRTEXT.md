@@ -32,9 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `TrdClassfctnNmbrSchmCntnt` | `nosct` |
+| `TrdClassfctnNmbr` | `ccngn` |
+| `ValidityStartDate` | `datab` |
+| `TrdClassfctnNmbrTextType` | `ctstt` |
+| `Language` | `langu` |
+| `ValidityEndDate` | `datbi` |
+| `TrdClassfctnNmbrName` | `text` |
 | `TrdClassfctnNmbrText` | `text` |
-| `_Content.TrdClassfctnNmbrSchmType` | *Association* |
+| `TrdClassfctnNmbrSchmType` | `_Content.TrdClassfctnNmbrSchmType` |
 | `_TrdClassfctnNmbrSchmCntnt` | *Association* |
 | `_TrdClassfctnNmbrTextType` | *Association* |
 | `_Date` | *Association* |
@@ -45,7 +51,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_TrdClassfctnNmbrSchmCntnt` | `I_TrdClassfctnNmbrSchmCntnt` | [0..1] |
-| `_TrdClassfctnNmbr` | `I_TrdClassfctnNmbr` | [0..1] |
 | `_TrdClassfctnNmbrTextType` | `I_TrdClassfctnNmbrTextType` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 | `_Date` | `I_CalendarDate` | [0..1] |

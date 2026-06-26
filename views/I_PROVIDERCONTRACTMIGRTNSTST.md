@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `migst_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `migst_text_kk preserving type )` | `cast( ddtext` |
+| `CAProviderContractMigrtnStatus` | `cast( left( dd07t.domvalue_l, 1 ) as migst_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAProviderContrMigrtnStsText` | `cast( ddtext as migst_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

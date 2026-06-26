@@ -33,9 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Material` | `Material` |
-| `key Batch` | `Batch` |
+| `Material` | `Material` |
+| `Batch` | `Batch` |
 | `_Plant` | *Association* |
 | `_Product` | *Association* |
 | `_Material` | *Association* |

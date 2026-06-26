@@ -29,10 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key ServiceOrder` | `ServiceOrder` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationTP  : redirected to parent I_ServiceQuotationTP` | *Association* |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceOrder` | `ServiceOrder` |
 
 ## Associations
 

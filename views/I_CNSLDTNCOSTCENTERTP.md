@@ -33,11 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnCostCenter.ControllingArea` | `_CnsldtnCostCenter.ControllingArea` |
-| `key _CnsldtnCostCenter.CostCenter` | `_CnsldtnCostCenter.CostCenter` |
-| `_CnsldtnCostCenter.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnCostCenterTextTP` | *Association* |
+| `ControllingArea` | `_CnsldtnCostCenter.ControllingArea` |
+| `CostCenter` | `_CnsldtnCostCenter.CostCenter` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnCostCenter.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

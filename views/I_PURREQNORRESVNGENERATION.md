@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `audisp_plus )` | `cast ( domvalue_l` |
+| `PurReqnOrResvnGeneration` | `cast ( domvalue_l as audisp_plus )` |
 | `_PurReqnOrResvnGenerationText` | *Association* |
 
 ## Associations

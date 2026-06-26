@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PostingKey` | `PostingKey` |
-| `key SpecialGLCode` | `SpecialGLCode` |
+| `PostingKey` | `PostingKey` |
+| `SpecialGLCode` | `SpecialGLCode` |
 | `_Text` | *Association* |
 | `_PostingKey` | *Association* |
 

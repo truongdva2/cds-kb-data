@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SLCQnaireUUID` | `SLCQnaireUUID` |
+| `SLCQnaireUUID` | `SLCQnaireUUID` |
 | `SLCQnairePartyUUID` | `SLCQnairePartyUUID` |
 | `UserID` | `UserID` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |

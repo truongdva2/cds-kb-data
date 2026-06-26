@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key UserID` | `UserID` |
+| `UserID` | `UserID` |
 | `UserName` | `UserName` |
 | `UserGroup` | `UserGroup` |
 | `UserValidFrom` | `ValidFrom` |

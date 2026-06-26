@@ -32,7 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'BalanceTransactionCurrency'} }` | `currencyCode: 'BalanceTransactionCurrency'} }` |
+| `CompanyCode` | `CompanyCode` |
+| `AccountingDocument` | `AccountingDocument` |
+| `Ledger` | `Ledger` |
+| `FiscalYear` | `FiscalYear` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `PostingDate` | `PostingDate` |
+| `CreationDate` | `CreationDate` |
+| `CreationDateTime` | `CreationDateTime` |
+| `AccountingDocumentType` | `AccountingDocumentType` |
+| `AccountingDocCreatedByUser` | `AccountingDocCreatedByUser` |
+| `GLAccount` | `GLAccount` |
+| `GLAccountName` | `_GLAccountInChartOfAccounts._Text[1:Language = :P_Language].GLAccountName` |
+| `PostingKey` | `PostingKey` |
+| `FinancialTransactionType` | `FinancialTransactionType` |
+| `Segment` | `Segment` |
+| `ProfitCenter` | `ProfitCenter` |
+| `BalanceTransactionCurrency` | `BalanceTransactionCurrency` |
+| `CompanyCodeCurrency` | `CompanyCodeCurrency` |
+| `DebitAmountInCoCodeCrcy` | `DebitAmountInCoCodeCrcy` |
+| `CreditAmountInCoCodeCrcy` | `CreditAmountInCoCodeCrcy` |
+| `FunctionalCurrency` | `FunctionalCurrency` |
+| `DebitAmountInFunctionalCrcy` | `DebitAmountInFunctionalCrcy` |
+| `CreditAmountInFunctionalCrcy` | `CreditAmountInFunctionalCrcy` |
+| `DebitAmountInTransCrcy` | `DebitAmountInTransCrcy` |
+| `CreditAmountInTransCrcy` | `CreditAmountInTransCrcy` |
+| `CreditAmountInBalanceTransCrcy` | `CreditAmountInBalanceTransCrcy` |
 | `DebitAmountInBalanceTransCrcy` | `DebitAmountInBalanceTransCrcy` |
 | `BaseUnit` | `BaseUnit` |
 | `TransactionCurrency` | `TransactionCurrency` |
@@ -179,8 +205,8 @@ tags:
 | `SpecialGLCode` | `SpecialGLCode` |
 | `SalesOrganization` | `SalesOrganization` |
 | `SettlementReferenceDate` | `SettlementReferenceDate` |
-| `_Segment._Text[1:Language = :P_Language].SegmentName` | *Association* |
-| `_AccountingDocumentType._Text[1:Language = :P_Language].AccountingDocumentTypeName` | *Association* |
+| `SegmentName` | `_Segment._Text[1:Language = :P_Language].SegmentName` |
+| `AccountingDocumentTypeName` | `expr(…)` |
 | `TransactionTypeDetermination` | `TransactionTypeDetermination` |
 | `TaxCode` | `TaxCode` |
 | `ValuationArea` | `ValuationArea` |
@@ -191,15 +217,15 @@ tags:
 | `InvtrySpclStockWBSElmntExtID` | `InvtrySpclStockWBSElmntExtID` |
 | `ProjectExternalID` | `ProjectExternalID` |
 | `PartnerWBSElementExternalID` | `PartnerWBSElementExternalID` |
-| `fis_cctr_hrynid_50)` | `cast(''` |
-| `fis_cctr_hryid_42)` | `cast(''` |
-| `fis_glacct_hrynid_50)` | `cast(''` |
-| `fis_glaccthier)` | `cast(''` |
-| `fis_cctr_hrynid_50)` | `cast(''` |
-| `fis_prctr_hryid_42 )` | `cast(''` |
-| `_JournalEntry.DocumentReferenceID` | *Association* |
+| `CostCenterHierarchyNode` | `cast('' as fis_cctr_hrynid_50)` |
+| `CostCenterHierarchy` | `cast('' as fis_cctr_hryid_42)` |
+| `GLAccountHierarchyNode` | `cast('' as fis_glacct_hrynid_50)` |
+| `GLAccountHierarchy` | `cast('' as fis_glaccthier)` |
+| `ProfitCenterHierarchyNode` | `cast('' as fis_cctr_hrynid_50)` |
+| `ProfitCenterHierarchy` | `cast('' as fis_prctr_hryid_42 )` |
+| `DocumentReferenceID` | `_JournalEntry.DocumentReferenceID` |
 | `_Ledger` | *Association* |
-| `_JournalEntry.AccountingDocumentHeaderText` | *Association* |
+| `AccountingDocumentHeaderText` | `_JournalEntry.AccountingDocumentHeaderText` |
 | `_JournalEntry` | *Association* |
 | `_FiscalYear` | *Association* |
 | `_CompanyCode` | *Association* |

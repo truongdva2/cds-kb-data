@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `bp_solvncy )` | `cast ( dd07t.domvalue_l` |
+| `BusPartCreditStanding` | `cast ( dd07t.domvalue_l as bp_solvncy )` |
 | `BPCreditStandingDescription` | `dd07t.ddtext` |
 | `_BPCreditStanding` | *Association* |
 | `_Language` | *Association* |

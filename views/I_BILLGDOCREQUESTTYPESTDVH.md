@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequestType` | `BillingDocumentRequestType` |
+| `BillingDocumentRequestType` | `BillingDocumentRequestType` |
 | `_Text` | *Association* |
 
 ## Associations

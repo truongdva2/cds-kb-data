@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rotation_date)` | `cast ( dd07l.domvalue_l` |
+| `WrhsMgmtPtwyAndStkRemovalStrgy` | `cast ( dd07l.domvalue_l as rotation_date)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

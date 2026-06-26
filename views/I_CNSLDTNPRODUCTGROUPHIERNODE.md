@@ -31,15 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnProductGroupVH'` | `name: 'I_CnsldtnProductGroupVH'` |
-| `element: 'ProductGroup'` | `element: 'ProductGroup'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_HierarchyNode.ProductGroup` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnProductGroupHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `ProductGroup` | `_HierarchyNode.ProductGroup` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_ProductGroup` | *Association* |
 | `_Hierarchy` | *Association* |

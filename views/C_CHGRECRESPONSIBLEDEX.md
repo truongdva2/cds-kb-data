@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeRecordUUID` | `ChangeRecordUUID` |
+| `ChangeRecordUUID` | `ChangeRecordUUID` |
 | `ParentChangeRecordUUID` | `ParentChangeRecordUUID` |
 | `Partner` | `Partner` |
 

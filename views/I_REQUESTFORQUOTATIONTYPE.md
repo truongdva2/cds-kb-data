@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `RFQType` | `RFQType.PurchasingDocumentType` |
 | `_RFQTypeText` | *Association* |
 

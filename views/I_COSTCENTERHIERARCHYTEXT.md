@@ -34,7 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `ControllingArea` | `hrrp_dirt_n.hrycls` |
+| `CostCenterHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_cctr preserving type )` |
+| `ValidityEndDate` | `hrrp_dirt_n.hryvalto` |
+| `Language` | `hrrp_dirt_n.spras` |
+| `ValidityStartDate` | `hrrp_dirt_n.hryvalfrom` |
 | `CostCenterHierarchyName` | `hrrp_dirt_n.hrytxt` |
 | `_ControllingArea` | *Association* |
 | `_Language` | *Association* |

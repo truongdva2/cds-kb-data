@@ -30,7 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABusinessProcess` | `proid` |
-| `applk_kk preserving type )` | `cast( applkc` |
+| `CAApplicationArea` | `cast( applkc as applk_kk preserving type )` |
 | `_Text` | *Association* |
 | `_ApplArea` | *Association* |
 

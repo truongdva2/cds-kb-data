@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `FunctionalLocationCategory` | `t370f.fltyp` |
 | `TechObjInspectionLevelCode` | `t370f.idms_type` |
-| `functionallocationcategory_oid )` | `cast( t370f.fltyp` |
+| `FunctionalLocationCategoryOID` | `cast( t370f.fltyp as functionallocationcategory_oid )` |
 | `_Text` | *Association* |
 | `_InspectionLevelText` | *Association* |
 

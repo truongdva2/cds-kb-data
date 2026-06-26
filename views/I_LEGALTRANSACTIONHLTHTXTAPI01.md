@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionHealth` | `LegalTransactionHealth` |
-| `key Language` | `Language` |
-| `LegalTransactionHealthName` | `LegalTransactionHealthName` |
+| `LegalTransactionHealth` | `LegalTransactionHealth` |
+| `Language` | `Language` |
 
 ## Associations
 

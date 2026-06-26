@@ -29,9 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
 | `QltyMstrDataAuthorizationGroup` | `tq01d.qmastauth` |
-| `/* Associations */` | `/* Associations */` |
 | `_QltyMstrDataAuthznGroupTxt` | *Association* |
 
 ## Associations

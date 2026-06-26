@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `billofoperationsusage preserving type)` | `cast(t411.verwe` |
+| `BillOfOperationsUsage` | `cast(t411.verwe as billofoperationsusage preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

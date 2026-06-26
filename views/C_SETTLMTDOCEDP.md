@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtDoc` | `SettlmtDoc` |
+| `SettlmtDoc` | `SettlmtDoc` |
 | `SettlmtDocType` | `SettlmtDocType` |
 | `SettlmtDocCat` | `SettlmtDocCat` |
 | `SettlmtProcessType` | `SettlmtProcessType` |
@@ -113,8 +113,6 @@ tags:
 | `CndnContrProcessCategory` | `CndnContrProcessCategory` |
 | `SettlmtApplStsGrp` | `SettlmtApplStsGrp` |
 | `SettlmtDocAuthznCat` | `SettlmtDocAuthznCat` |
-| `/* Entity Tag */` | `/* Entity Tag */` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtDocPartner` | *Association* |
 | `_SettlmtDocBankData` | *Association* |
 | `_SettlmtDocSuplrPrcgElmnt` | *Association* |

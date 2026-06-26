@@ -31,8 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_etxdc_region )` | `cast ( Region` |
-| `/* Associations */` | `/* Associations */` |
+| `US_TaxState` | `cast ( Region as fis_etxdc_region )` |
 | `_Text` | *Association* |
 
 ## Associations

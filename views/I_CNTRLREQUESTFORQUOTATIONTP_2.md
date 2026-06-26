@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -68,9 +68,6 @@ tags:
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
 | `PurContrValidityStartDate` | `PurContrValidityStartDate` |
 | `PurContrValidityEndDate` | `PurContrValidityEndDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralReqForQuotationItem : redirected to composition child I_CntrlReqForQuotationItemTP_2` | *Association* |
-| `_CntrlReqForQuotationBidder : redirected to composition child I_CntrlRequestForQtnBidderTP_2` | *Association* |
 
 ## Associations
 

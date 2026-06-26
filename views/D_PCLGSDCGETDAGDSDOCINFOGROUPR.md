@@ -29,15 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DangerousGoodsGroupingText : dangerousgoodsgroupingtext; // string e.g. UN 1090 ACETONE,3, II` | `DangerousGoodsGroupingText : dangerousgoodsgroupingtext; // string e.g. UN 1090 ACETONE,3, II` |
-| `DangerousGoodsGroupingQty  : dangerousgoodsgroupingqty;  // meng15  The Mass or the Volume of a group of Dangerous Goods that are contained on a Transport Order (e.g. 30)` | `DangerousGoodsGroupingQty  : dangerousgoodsgroupingqty;  // meng15  The Mass or the Volume of a group of Dangerous Goods that are contained on a Transport Order (e.g. 30)` |
-| `DngrsGdsGroupingQtySAPUnit : dngrsgdsgroupingqtysapunit; // ehfnd_unit_code_nce SAP Unit of Measurement for Quantity of a group of Dangerous Goods that are contained on a Transport Order. (e.g. L)` | `DngrsGdsGroupingQtySAPUnit : dngrsgdsgroupingqtysapunit; // ehfnd_unit_code_nce SAP Unit of Measurement for Quantity of a group of Dangerous Goods that are contained on a Transport Order. (e.g. L)` |
-| `DngrsGdsGroupingQtyISOUnit : dngrsgdsgroupingqtyisounit; // isocd_unit ISO Unit of Measurement for Quantity of a group of Dangerous Goods that are contained on a Transport Order. (e.g. L)` | `DngrsGdsGroupingQtyISOUnit : dngrsgdsgroupingqtyisounit; // isocd_unit ISO Unit of Measurement for Quantity of a group of Dangerous Goods that are contained on a Transport Order. (e.g. L)` |
-| `_Root                      : association to parent D_PCLgsDcGetDngrsGdsDocInfoR;` | *Association* |
+| `DangerousGoodsGroupingText` | `dangerousgoodsgroupingtext` |
+| `DangerousGoodsGroupingQty` | `dangerousgoodsgroupingqty` |
+| `DngrsGdsGroupingQtySAPUnit` | `dngrsgdsgroupingqtysapunit` |
+| `DngrsGdsGroupingQtyISOUnit` | `dngrsgdsgroupingqtyisounit` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetDngrsGdsDocInfoR` | — |
 
 ## Source Code
 

@@ -30,36 +30,41 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'DocumentCurrency'} }` | `currencyCode: 'DocumentCurrency'} }` |
-| `SuplrInvcAcctAssignmentAmount : wrbtr_cs;` | `SuplrInvcAcctAssignmentAmount : wrbtr_cs;` |
-| `PurchaseOrderQuantityUnit     : bstme;` | `PurchaseOrderQuantityUnit     : bstme;` |
-| `QuantityInPurchaseOrderUnit   : menge_d;` | `QuantityInPurchaseOrderUnit   : menge_d;` |
-| `PurchaseOrderPriceUnit        : bprme;` | `PurchaseOrderPriceUnit        : bprme;` |
-| `QtyInPurchaseOrderPriceUnit   : bpmng;` | `QtyInPurchaseOrderPriceUnit   : bpmng;` |
-| `GLAccount                     : saknr;` | `GLAccount                     : saknr;` |
-| `CostCenter                    : kostl;` | `CostCenter                    : kostl;` |
-| `SalesOrder                    : vbeln;` | `SalesOrder                    : vbeln;` |
-| `SalesOrderItem                : vbelp;` | `SalesOrderItem                : vbelp;` |
-| `MasterFixedAsset              : anln1;` | `MasterFixedAsset              : anln1;` |
-| `FixedAsset                    : anln2;` | `FixedAsset                    : anln2;` |
-| `InternalOrder                 : aufnr;` | `InternalOrder                 : aufnr;` |
-| `CommitmentItemShortID         : fmis_ci_internalname;` | `CommitmentItemShortID         : fmis_ci_internalname;` |
-| `FundsCenter                   : fistl;` | `FundsCenter                   : fistl;` |
-| `FunctionalArea                : fkber;` | `FunctionalArea                : fkber;` |
-| `Fund                          : bp_geber;` | `Fund                          : bp_geber;` |
-| `BusinessArea                  : gsber;` | `BusinessArea                  : gsber;` |
-| `ControllingArea               : kokrs; //to be checked if this works in BOPF (direct input)` | `ControllingArea               : kokrs; //to be checked if this works in BOPF (direct input)` |
-| `CostObject                    : kstrg;` | `CostObject                    : kstrg;` |
-| `WBSElementInternalID          : ps_s4_pspnr;` | `WBSElementInternalID          : ps_s4_pspnr;` |
-| `GrantID                       : gm_grant_nbr;` | `GrantID                       : gm_grant_nbr;` |
-| `SupplierInvoiceItemText       : sgtxt; //needs to be enabled in BOPF first` | `SupplierInvoiceItemText       : sgtxt; //needs to be enabled in BOPF first` |
-| `TaxCountry                    : fot_tax_country;` | `TaxCountry                    : fot_tax_country;` |
-| `BudgetPeriod                  : fm_budget_period;` | `BudgetPeriod                  : fm_budget_period;` |
-| `_SupplierInvoiceItemPurOrdRef : association to parent D_SuplrInvcCreatePOItemP;` | *Association* |
+| `OrdinalNumber` | `cobl_nr` |
+| `TaxCode` | `mwskz` |
+| `TaxJurisdiction` | `txjcd` |
+| `DocumentCurrency` | `waers` |
+| `SuplrInvcAcctAssignmentAmount` | `wrbtr_cs` |
+| `PurchaseOrderQuantityUnit` | `bstme` |
+| `QuantityInPurchaseOrderUnit` | `menge_d` |
+| `PurchaseOrderPriceUnit` | `bprme` |
+| `QtyInPurchaseOrderPriceUnit` | `bpmng` |
+| `GLAccount` | `saknr` |
+| `CostCenter` | `kostl` |
+| `SalesOrder` | `vbeln` |
+| `SalesOrderItem` | `vbelp` |
+| `MasterFixedAsset` | `anln1` |
+| `FixedAsset` | `anln2` |
+| `InternalOrder` | `aufnr` |
+| `CommitmentItemShortID` | `fmis_ci_internalname` |
+| `FundsCenter` | `fistl` |
+| `FunctionalArea` | `fkber` |
+| `Fund` | `bp_geber` |
+| `BusinessArea` | `gsber` |
+| `ControllingArea` | `kokrs` |
+| `CostObject` | `kstrg` |
+| `WBSElementInternalID` | `ps_s4_pspnr` |
+| `GrantID` | `gm_grant_nbr` |
+| `SupplierInvoiceItemText` | `sgtxt` |
+| `TaxCountry` | `fot_tax_country` |
+| `BudgetPeriod` | `fm_budget_period` |
+| `_SupplierInvoiceItemPurOrdRef` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SupplierInvoiceItemPurOrdRef` | `D_SuplrInvcCreatePOItemP` | — |
 
 ## Source Code
 

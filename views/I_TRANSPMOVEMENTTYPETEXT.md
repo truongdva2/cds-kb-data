@@ -32,8 +32,7 @@ tags:
 |---|---|
 | `MovementType` | `movem_type` |
 | `Language` | `langu` |
-| `/scmtms/vdm_movement_type_desc preserving type )` | `cast( description_s` |
-| `/* Associations */` | `/* Associations */` |
+| `MovementTypeDescription` | `cast( description_s as /scmtms/vdm_movement_type_desc preserving type )` |
 | `_MovementType` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MovementType` | `I_TranspMovementType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -31,23 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lookupEntity: 'F_SuplrEvalDocCatConfign'` | `lookupEntity: 'F_SuplrEvalDocCatConfign'` |
-| `resultElement: 'SuplrEvalRelevantDocCategory'` | `resultElement: 'SuplrEvalRelevantDocCategory'` |
-| `}` | `}` |
-| `}` | `}` |
+| `PurchasingDocument` | `cast( PurchaseOrder as mm_a_purchasing_document preserving type )` |
+| `PurchasingDocumentItem` | `cast( PurchaseOrderItem as mm_a_purchasing_document_item preserving type )` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
+| `SuplrEvalCritraDelivCompleted` | `SuplrEvalCritraDelivCompleted` |
 | `SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
-| `_Calendar.CalendarYear` | *Association* |
-| `_Calendar.CalendarQuarter` | *Association* |
-| `_Calendar.CalendarMonth` | *Association* |
-| `_Calendar.CalendarWeek` | *Association* |
+| `CalendarYear` | `_Calendar.CalendarYear` |
+| `CalendarQuarter` | `_Calendar.CalendarQuarter` |
+| `CalendarMonth` | `_Calendar.CalendarMonth` |
+| `CalendarWeek` | `_Calendar.CalendarWeek` |
 | `PurchaseOrderDate` | `PurchaseOrderDate` |
-| `/* Org data */` | `/* Org data */` |
 | `PurchasingOrganization` | `VendorEval.PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `CompanyCode` | `CompanyCode` |
 | `Supplier` | `Supplier` |
-| `_Supplier.Region` | *Association* |
-| `mm_a_supplier_country )` | `cast( _Supplier.Country` |
+| `Region` | `_Supplier.Region` |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
 | `Plant` | `Plant` |
 | `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
@@ -56,48 +55,23 @@ tags:
 | `PurgCatName` | `PurgCatName` |
 | `DisplayCurrency` | `DisplayCurrency` |
 | `PurchaseOrderNetPriceAmount` | `PurchaseOrderNetPriceAmount` |
-| `/* Criterion Scores*/` | `/* Criterion Scores*/` |
-| `mm_a_time_variance_score )` | `cast ( VendorEval.TimeVarianceScore` |
-| `mm_a_price_variance_score )` | `cast( VendorEval.PriceVarianceScore` |
-| `mm_a_quantity_var_score )` | `cast( VendorEval.QuantityVarianceScore` |
-| `mm_a_quality_variance_score )` | `cast( VendorEval.InspectionLotQualityScore` |
-| `mm_a_quality_notif_score )` | `cast( VendorEval.QualityNotificationScore` |
+| `TimeVarianceScore` | `cast ( VendorEval.TimeVarianceScore as mm_a_time_variance_score )` |
+| `PriceVarianceScore` | `cast( VendorEval.PriceVarianceScore as mm_a_price_variance_score )` |
+| `QuantityVarianceScore` | `cast( VendorEval.QuantityVarianceScore as mm_a_quantity_var_score )` |
+| `InspectionLotQualityScore` | `cast( VendorEval.InspectionLotQualityScore as mm_a_quality_variance_score )` |
+| `QualityNotificationScore` | `cast( VendorEval.QualityNotificationScore as mm_a_quality_notif_score )` |
 | `NmbrOfPOWithPriceVariance` | `PriceVarianceCount` |
 | `NmbrOfPOWithQuantityVariance` | `QuantityVarianceCount` |
 | `NmbrOfPOWithTimeVariance` | `TimeVarianceCount` |
 | `NmbrOfPOWithQualityVariance` | `InspectionLotQualityCount` |
 | `QualityNotificationCount` | `QualityNotificationCount` |
-| `cast(` | `cast(` |
-| `(  QuantityVarianceScore1     * evaluationquantityweight    +` | `(  QuantityVarianceScore1     * evaluationquantityweight    +` |
-| `PriceVarianceScore1        * evaluationpriceweight       +` | `PriceVarianceScore1        * evaluationpriceweight       +` |
-| `TimeVarianceScore1         * evaluationtimeweight        +` | `TimeVarianceScore1         * evaluationtimeweight        +` |
-| `InspectionLotQualityScore1 * evaluationqualityweight     +` | `InspectionLotQualityScore1 * evaluationqualityweight     +` |
-| `QualityNotificationScore1  * evaluationqualitynotifweight )   *` | `QualityNotificationScore1  * evaluationqualitynotifweight )   *` |
-| `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualityweight + evaluationqualitynotifweight ) , 8 )` | `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualityweight + evaluationqualitynotifweight ) , 8 )` |
-| `SupplierOperationalScore` | `as mm_a_supplier_opl_score  )` |
-| `case` | `case` |
-| `when InspectionLotQualityScore1 = 0             //3326174` | `when InspectionLotQualityScore1 = 0             //3326174` |
-| `then cast(` | `then cast(` |
-| `round((  QuantityVarianceScore1     * evaluationquantityweight    +` | `round((  QuantityVarianceScore1     * evaluationquantityweight    +` |
-| `PriceVarianceScore1        * evaluationpriceweight       +` | `PriceVarianceScore1        * evaluationpriceweight       +` |
-| `TimeVarianceScore1         * evaluationtimeweight        +` | `TimeVarianceScore1         * evaluationtimeweight        +` |
-| `QualityNotificationScore1  * evaluationqualitynotifweight )   *` | `QualityNotificationScore1  * evaluationqualitynotifweight )   *` |
-| `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualitynotifweight ) , 8 ), 1)` | `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualitynotifweight ) , 8 ), 1)` |
-| `as mm_pur_ana_suplreval_opl_score     )` | `as mm_pur_ana_suplreval_opl_score     )` |
-| `else` | `else` |
-| `cast(` | `cast(` |
-| `round(( QuantityVarianceScore1     * evaluationquantityweight    +` | `round(( QuantityVarianceScore1     * evaluationquantityweight    +` |
-| `PriceVarianceScore1        * evaluationpriceweight       +` | `PriceVarianceScore1        * evaluationpriceweight       +` |
-| `TimeVarianceScore1         * evaluationtimeweight        +` | `TimeVarianceScore1         * evaluationtimeweight        +` |
-| `InspectionLotQualityScore1 * evaluationqualityweight     +` | `InspectionLotQualityScore1 * evaluationqualityweight     +` |
-| `QualityNotificationScore1  * evaluationqualitynotifweight )   *` | `QualityNotificationScore1  * evaluationqualitynotifweight )   *` |
-| `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualityweight + evaluationqualitynotifweight ) , 8 ), 1)` | `division( 1, (evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualityweight + evaluationqualitynotifweight ) , 8 ), 1)` |
-| `SuplrEvalOplScoreValue` | `as mm_pur_ana_suplreval_opl_score    ) end` |
-| `mm_weighting )` | `cast(evaluationquantityweight + evaluationpriceweight + evaluationtimeweight + evaluationqualityweight + evaluationqualitynotifweight` |
-| `mm_pur_ana_numbrofpurords )` | `cast( 1` |
-| `mm_pur_ana_numbrofscoredsuplrs )` | `cast( 1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast( 1` |
-| `mm_classification )` | `cast( ''` |
+| `SupplierOperationalScore` | `cast(…)` |
+| `SuplrEvalOplScoreValue` | `case…end` |
+| `SupplierEvalQualityWeighting` | `cast(…)` |
+| `NumberOfPurchaseOrders` | `cast( 1 as mm_pur_ana_numbrofpurords )` |
+| `NmbrOfScoredSuppliers` | `cast( 1 as mm_pur_ana_numbrofscoredsuplrs )` |
+| `NumberOfPurchaseOrderItems` | `cast( 1 as mm_pur_ana_numbrofpurorditms )` |
+| `SupplierClassification` | `cast( '' as mm_classification )` |
 | `_PurchasingOrganization` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_Country` | *Association* |

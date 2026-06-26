@@ -32,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbr_apprvl_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ProjBillgReqApprovalStatus` | `cast( substring( domvalue_l, 1, 1 ) as pbr_apprvl_status preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProjBillgReqApprvlStatusText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProjBillgReqApprvlStatusText` | `I_ProjBillgReqApprvlStatusText` | [0..*] |
 
 ## Source Code
 

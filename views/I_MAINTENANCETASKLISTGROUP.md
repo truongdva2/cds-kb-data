@@ -28,8 +28,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfOperationsType` | `BillOfOperationsType` |
-| `key BillOfOperationsGroup` | `BillOfOperationsGroup` |
+| `BillOfOperationsType` | `BillOfOperationsType` |
+| `BillOfOperationsGroup` | `BillOfOperationsGroup` |
 | `_BillOfOperationsType` | *Association* |
 
 ## Associations

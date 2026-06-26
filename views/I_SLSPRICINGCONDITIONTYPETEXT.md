@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionType` | `ConditionType` |
+| `Language` | `Language` |
+| `ConditionType` | `ConditionType` |
 | `ConditionTypeName` | `ConditionTypeName` |
 | `_SlsPricingConditionType` | *Association* |
 

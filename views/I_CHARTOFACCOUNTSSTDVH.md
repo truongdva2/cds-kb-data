@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChartOfAccounts` | `ChartOfAccounts` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
 | `_Text` | *Association* |
 
 ## Associations

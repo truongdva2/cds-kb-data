@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `Country` | `land1` |
 | `RU_AssetOKOF` | `okof` |
 | `_Country` | *Association* |
 | `_CountryText` | *Association* |

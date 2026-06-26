@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TextObjectKey` | `TextObjectKey` |
-| `key TextObjectType` | `TextObjectType` |
-| `key TextObjectCategory` | `TextObjectCategory` |
-| `key Language` | `Language` |
+| `TextObjectKey` | `TextObjectKey` |
+| `TextObjectType` | `TextObjectType` |
+| `TextObjectCategory` | `TextObjectCategory` |
+| `Language` | `Language` |
 | `ServiceDocumentItemUUID` | `ServiceDocumentItemUUID` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
@@ -42,8 +42,7 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
-| `_inotetemp.text               as ServiceOrderNoteText` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ServiceOrderNoteText` | `_inotetemp.text` |
 | `_Language` | *Association* |
 | `_TextObjectCategory` | *Association* |
 | `_TextObjectType` | *Association* |

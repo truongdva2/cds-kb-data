@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msehiunit preserving type )` | `cast ( msehi` |
+| `UnitOfMeasure` | `cast ( msehi as msehiunit preserving type )` |
 | `_Text` | *Association* |
-| `meinsint )` | `cast ( msehi` |
+| `UnitOfMeasureSAPCode` | `cast ( msehi as meinsint )` |
 | `UnitOfMeasureISOCode` | `isocode` |
 | `_ISOCode` | *Association* |
 | `_ISOCodeText` | *Association* |
 | `IsPrimaryUnitForISOCode` | `primary` |
-| `UnitOfMeasureNumberOfDecimals, // for rounding` | `andec` |
+| `UnitOfMeasureNumberOfDecimals` | `andec` |
 | `UnitOfMeasureIsCommercial` | `kzkeh` |
 | `UnitOfMeasureDimension` | `dimid` |
 | `_Dimension` | *Association* |
@@ -48,12 +48,12 @@ tags:
 | `SIUnitCnvrsnRateExponent` | `exp10` |
 | `SIUnitCnvrsnAdditiveValue` | `addko` |
 | `UnitOfMeasureDspExponent` | `expon` |
-| `UnitOfMeasureDspNmbrOfDcmls,   // for number display` | `decan` |
+| `UnitOfMeasureDspNmbrOfDcmls` | `decan` |
 | `UnitOfMeasureTemperature` | `temp_value` |
 | `UnitOfMeasureTemperatureUnit` | `temp_unit` |
 | `UnitOfMeasurePressure` | `press_val` |
 | `UnitOfMeasurePressureUnit` | `press_unit` |
-| `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E as UnitOfMeasure_E` | *Association* |
+| `UnitOfMeasure_E` | `_Text[ 1: Language = $session.system_language ].UnitOfMeasure_E` |
 
 ## Associations
 

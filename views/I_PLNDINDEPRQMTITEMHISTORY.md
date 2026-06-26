@@ -30,31 +30,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MRPAreaVH', element: 'MRPArea' } } ]` | `name: 'I_MRPAreaVH', element: 'MRPArea' } } ]` |
-| `head.MRPArea` | `head.MRPArea` |
-| `head.PlndIndepRqmtType` | `head.PlndIndepRqmtType` |
-| `head.RequirementPlan` | `head.RequirementPlan` |
-| `head.ExternalRequirementPlan` | `head.ExternalRequirementPlan` |
-| `head.RequirementSegment` | `head.RequirementSegment` |
-| `head.PlndIndepRqmtConsumptionStrgy` | `head.PlndIndepRqmtConsumptionStrgy` |
-| `head.PlndIndepRqmtIsActive` | `head.PlndIndepRqmtIsActive` |
-| `head.PlndIndepRqmtConsumptionAssgmt` | `head.PlndIndepRqmtConsumptionAssgmt` |
-| `head.PlndIndepRqmtUsage` | `head.PlndIndepRqmtUsage` |
-| `head.PlndIndepRqmtIsToBeDeleted` | `head.PlndIndepRqmtIsToBeDeleted` |
-| `head.PlannedIndepRqmtDeletionCode` | `head.PlannedIndepRqmtDeletionCode` |
-| `head.PlndIndepRqmtLastChgdDateTime` | `head.PlndIndepRqmtLastChgdDateTime` |
+| `PlndIndepRqmtInternalID` | `head.PlndIndepRqmtInternalID` |
+| `ForecastYearMonth` | `hist._OrderEndDate.YearMonth` |
+| `OrderEndDate` | `hist.OrderEndDate` |
+| `LastChangeDate` | `hist.LastChangeDate` |
+| `LastChangeTime` | `hist.LastChangeTime` |
+| `LastChangedByUser` | `hist.LastChangedByUser` |
+| `ForecastPeriodType` | `hist.ForecastPeriodType` |
+| `DeliveryDate` | `cast(coalesce(hist.OrderEndDate,'00000000') as lfdat_v preserving type)` |
+| `ForecastPeriodStartDate` | `cast(…)` |
+| `ForecastYearQuarter` | `hist._OrderEndDate.YearQuarter` |
+| `BaseUnit` | `hist.BaseUnit` |
+| `PlannedQuantity` | `cast(coalesce(hist.PlannedQuantity, 0) as pph_plan_qty preserving type)` |
+| `WithdrawalQuantity` | `cast(coalesce(hist.WithdrawalQuantity, 0) as entmg preserving type)` |
+| `Product` | `head.Product` |
+| `Plant` | `head.Plant` |
+| `MRPArea` | `head.MRPArea` |
+| `PlndIndepRqmtType` | `head.PlndIndepRqmtType` |
+| `RequirementPlan` | `head.RequirementPlan` |
+| `ExternalRequirementPlan` | `head.ExternalRequirementPlan` |
+| `RequirementSegment` | `head.RequirementSegment` |
+| `PlndIndepRqmtConsumptionStrgy` | `head.PlndIndepRqmtConsumptionStrgy` |
+| `PlndIndepRqmtIsActive` | `head.PlndIndepRqmtIsActive` |
+| `PlndIndepRqmtConsumptionAssgmt` | `head.PlndIndepRqmtConsumptionAssgmt` |
+| `PlndIndepRqmtUsage` | `head.PlndIndepRqmtUsage` |
+| `PlndIndepRqmtIsToBeDeleted` | `head.PlndIndepRqmtIsToBeDeleted` |
+| `PlannedIndepRqmtDeletionCode` | `head.PlannedIndepRqmtDeletionCode` |
+| `PlndIndepRqmtLastChgdDateTime` | `head.PlndIndepRqmtLastChgdDateTime` |
 | `_PlndIndepRqmt` | *Association* |
 | `_PlndIndepRqmtItem` | *Association* |
 | `_DeliveryDate` | *Association* |
 | `_PeriodStartDate` | *Association* |
-| `hist._ForecastPeriodType` | `hist._ForecastPeriodType` |
-| `hist._UnitOfMeasure` | `hist._UnitOfMeasure` |
-| `head._Plant` | `head._Plant` |
-| `head._Product` | `head._Product` |
-| `head._ProductPlant` | `head._ProductPlant` |
-| `head._ProductPlant2` | `head._ProductPlant2` |
-| `head._MRPArea` | `head._MRPArea` |
-| `head._PlndIndepRqmtType` | `head._PlndIndepRqmtType` |
+| `_ForecastPeriodType` | *Association* |
+| `_UnitOfMeasure` | *Association* |
+| `_Plant` | *Association* |
+| `_Product` | *Association* |
+| `_ProductPlant` | *Association* |
+| `_ProductPlant2` | *Association* |
+| `_MRPArea` | *Association* |
+| `_PlndIndepRqmtType` | *Association* |
 
 ## Associations
 

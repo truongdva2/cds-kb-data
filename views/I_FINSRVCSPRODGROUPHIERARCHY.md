@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ffs_hryid_product_group preserving type )` | `cast( HierDirectory.HierarchyShortID` |
+| `FinSrvcsProductGroupHierarchy` | `cast(…)` |
 | `ValidityEndDate` | `HierDirectory.ValidityEndDate` |
 | `ValidityStartDate` | `HierDirectory.ValidityStartDate` |
 | `LastChangedByUser` | `HierDirectory.LastChangedByUser` |
@@ -39,7 +39,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FinSrvcsProdGrpHierarchyT` | [0..*] |
 
 ## Source Code
 

@@ -30,191 +30,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BusinessAreaStdVH'` | `name:    'I_BusinessAreaStdVH'` |
-| `BusinessArea` | `BusinessArea` |
-| `_BusinessArea` | *Association* |
-| `ProfitCenter` | `ProfitCenter` |
-| `WBSElement` | `WBSElement` |
-| `WBSElementInternalID` | `WBSElementInternalID` |
-| `_WBSElementBasicData_2` | *Association* |
-| `WBSElementExternalID` | `SDIA._WBSElementBasicData_2.WBSElementExternalID` |
-| `_WBSElementExternalID` | *Association* |
-| `SDIA.OrderID` | `SDIA.OrderID` |
-| `controlling_object)` | `cast(ControllingObject` |
-| `ProfitabilitySegment` | `ProfitabilitySegment` |
-| `ProfitabilitySegment_2` | `ProfitabilitySegment_2` |
-| `OriginSDDocument` | `OriginSDDocument` |
-| `origin_sd_document_item)` | `cast(OriginSDDocumentItem` |
-| `ReferenceSDDocument` | `ReferenceSDDocument` |
-| `_ReferenceSDDocument` | *Association* |
-| `ReferenceSDDocumentItem` | `ReferenceSDDocumentItem` |
-| `_ReferenceSDDocumentItem` | *Association* |
-| `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
-| `_ReferenceSDDocumentCategory` | *Association* |
-| `HigherLevelItem` | `HigherLevelItem` |
-| `SDIA.BusinessSolutionOrder,  --AT15.05.2020 Solution Order References Added` | `SDIA.BusinessSolutionOrder,  --AT15.05.2020 Solution Order References Added` |
-| `SDIA._SolutionOrder` | `SDIA._SolutionOrder` |
-| `overall_sd_process_status preserving type)` | `cast(OverallSDProcessStatus` |
-| `_OverallSDProcessStatus` | *Association* |
-| `overall_purchase_conf_status preserving type)` | `cast(OverallPurchaseConfStatus` |
-| `_OverallPurchaseConfStatus` | *Association* |
-| `ovrl_sd_doc_rejection_status preserving type)` | `cast(OverallSDDocumentRejectionSts` |
-| `_OverallSDDocumentRejectionSts` | *Association* |
-| `TotalBlockStatus` | `TotalBlockStatus` |
-| `_TotalBlockStatus` | *Association* |
-| `overall_delivery_conf_status preserving type)` | `cast(OverallDelivConfStatus` |
-| `_OverallDelivConfStatus` | *Association* |
-| `itms_ovrl_delivery_status preserving type)` | `cast(OverallTotalDeliveryStatus` |
-| `_OverallTotalDeliveryStatus` | *Association* |
-| `overall_delivery_status preserving type)` | `cast(OverallDeliveryStatus` |
-| `_OverallDeliveryStatus` | *Association* |
-| `overall_delivery_block_status preserving type)` | `cast(OverallDeliveryBlockStatus` |
-| `_OverallDeliveryBlockStatus` | *Association* |
-| `ovrl_ord_rel_billg_status preserving type)` | `cast(OverallOrdReltdBillgStatus` |
-| `_OverallOrdReltdBillgStatus` | *Association* |
-| `overall_billing_block_status preserving type)` | `cast(OverallBillingBlockStatus` |
-| `_OverallBillingBlockStatus` | *Association* |
-| `ovrl_reference_status preserving type)` | `cast(OverallTotalSDDocRefStatus` |
-| `_OverallTotalSDDocRefStatus` | *Association* |
-| `ovrl_sd_doc_reference_status preserving type)` | `cast(OverallSDDocReferenceStatus` |
-| `_OverallSDDocReferenceStatus` | *Association* |
-| `TotalCreditCheckStatus` | `TotalCreditCheckStatus` |
-| `_TotalCreditCheckStatus` | *Association* |
-| `MaxDocValueCreditCheckStatus` | `MaxDocValueCreditCheckStatus` |
-| `_MaxDocValueCreditCheckStatus` | *Association* |
-| `payt_terms_credit_check_status preserving type)` | `cast(PaymentTermCreditCheckStatus` |
-| `_PaymentTermCreditCheckStatus` | *Association* |
-| `FinDocCreditCheckStatus` | `FinDocCreditCheckStatus` |
-| `_FinDocCreditCheckStatus` | *Association* |
-| `ExprtInsurCreditCheckStatus` | `ExprtInsurCreditCheckStatus` |
-| `_ExprtInsurCreditCheckStatus` | *Association* |
-| `PaytAuthsnCreditCheckSts` | `PaytAuthsnCreditCheckSts` |
-| `_PaytAuthsnCreditCheckSts` | *Association* |
-| `central_credit_check_status preserving type)` | `cast(CentralCreditCheckStatus` |
-| `_CentralCreditCheckStatus` | *Association* |
-| `centrl_crdt_chck_tech_err_sts preserving type)` | `cast(CentralCreditChkTechErrSts` |
-| `_CentralCreditChkTechErrSts` | *Association* |
-| `hdr_general_incompltn_status preserving type)` | `cast(HdrGeneralIncompletionStatus` |
-| `_HdrGeneralIncompletionStatus` | *Association* |
-| `ovrl_pricing_incompletion_sts preserving type)` | `cast(OverallPricingIncompletionSts` |
-| `_OverallPricingIncompletionSts` | *Association* |
-| `hdrdelivincompletionstatus preserving type )` | `cast(HeaderDelivIncompletionStatus` |
-| `_HeaderDelivIncompletionStatus` | *Association* |
-| `hdrbillgincompletionstatus preserving type )` | `cast(HeaderBillgIncompletionStatus` |
-| `_HeaderBillgIncompletionStatus` | *Association* |
-| `itms_ovrl_incompletion_status preserving type)` | `cast(OvrlItmGeneralIncompletionSts` |
-| `_OvrlItmGeneralIncompletionSts` | *Association* |
-| `ovrl_itms_incompltn_sts_billg preserving type)` | `cast(OvrlItmBillingIncompletionSts` |
-| `_OvrlItmBillingIncompletionSts` | *Association* |
-| `ovrl_items_dlv_incompltn_sts preserving type)` | `cast(OvrlItmDelivIncompletionSts` |
-| `_OvrlItmDelivIncompletionSts` | *Association* |
-| `sd_doc_process_status preserving type)` | `cast(SDProcessStatus` |
-| `_SDProcessStatus` | *Association* |
-| `delivery_confirmation_status preserving type)` | `cast(DeliveryConfirmationStatus` |
-| `_DeliveryConfirmationStatus` | *Association* |
-| `purchase_confirmation_status preserving type)` | `cast(PurchaseConfirmationStatus` |
-| `_PurchaseConfirmationStatus` | *Association* |
-| `TotalDeliveryStatus` | `TotalDeliveryStatus` |
-| `_TotalDeliveryStatus` | *Association* |
-| `DeliveryStatus` | `DeliveryStatus` |
-| `_DeliveryStatus` | *Association* |
-| `DeliveryBlockStatus` | `DeliveryBlockStatus` |
-| `_DeliveryBlockStatus` | *Association* |
-| `OrderRelatedBillingStatus` | `OrderRelatedBillingStatus` |
-| `_OrderRelatedBillingStatus` | *Association* |
-| `BillingBlockStatus` | `BillingBlockStatus` |
-| `_BillingBlockStatus` | *Association* |
-| `item_general_incompletion_sts preserving type)` | `cast(ItemGeneralIncompletionStatus` |
-| `_ItemGeneralIncompletionStatus` | *Association* |
-| `itms_incompltn_sts_billg preserving type)` | `cast(ItemBillingIncompletionStatus` |
-| `_ItemBillingIncompletionStatus` | *Association* |
-| `pricing_incompletion_status preserving type)` | `cast(PricingIncompletionStatus` |
-| `_PricingIncompletionStatus` | *Association* |
-| `itm_deliv_incompletion_status preserving type)` | `cast(ItemDeliveryIncompletionStatus` |
-| `_ItemDelivIncompletionSts` | *Association* |
-| `sd_doc_rejection_status preserving type)` | `cast(SDDocumentRejectionStatus` |
-| `_SDDocumentRejectionStatus` | *Association* |
-| `TotalSDDocReferenceStatus` | `TotalSDDocReferenceStatus` |
-| `_TotalSDDocReferenceStatus` | *Association* |
-| `SlsDocItmSchdLnConfdQty,   --Quantity Confirmed In Time (CiTQ)` | `SlsDocItmSchdLnConfdQty,   --Quantity Confirmed In Time (CiTQ)` |
-| `SlsDocItmSchdLnDlydQty,    --Quantity Confirmed With Delay (CwDQ = CumCQ – CiTQ )` | `SlsDocItmSchdLnDlydQty,    --Quantity Confirmed With Delay (CwDQ = CumCQ – CiTQ )` |
-| `SlsDocItmSchdLnUnconfdQty, -- Quantity Not Confirmed   ( NCQ = CumReqQ – CumCQ )` | `SlsDocItmSchdLnUnconfdQty, -- Quantity Not Confirmed   ( NCQ = CumReqQ – CumCQ )` |
-| `SlsDocItmSchdLnConfdAmt,   --Value Confirmed in Time (CiTV = CiTV = GesamtWert * CiTQ / CumReqQ )` | `SlsDocItmSchdLnConfdAmt,   --Value Confirmed in Time (CiTV = CiTV = GesamtWert * CiTQ / CumReqQ )` |
-| `SlsDocItmSchdLnDlydAmt,    -- Value Confirmed With Delay (Ges.W. * CwDQ / CumReqQ)` | `SlsDocItmSchdLnDlydAmt,    -- Value Confirmed With Delay (Ges.W. * CwDQ / CumReqQ)` |
-| `SlsDocItmSchdLnUnconfdAmt, -- Value Not Confirmed (Ges.W. * NCQ / CumReqQ)` | `SlsDocItmSchdLnUnconfdAmt, -- Value Not Confirmed (Ges.W. * NCQ / CumReqQ)` |
-| `AvgDelayOfSchdLnConfdToReqdDte,   --AvgDelay` | `AvgDelayOfSchdLnConfdToReqdDte,   --AvgDelay` |
-| `TotDelayOfSchdLnConfdToReqdDte,   --SumDelay` | `TotDelayOfSchdLnConfdToReqdDte,   --SumDelay` |
-| `MaxDelayOfSchdLnConfdToReqdDte,   --MaxDelay` | `MaxDelayOfSchdLnConfdToReqdDte,   --MaxDelay` |
-| `MinDelayOfSchdLnConfdToReqdDte,   --MINDelay` | `MinDelayOfSchdLnConfdToReqdDte,   --MINDelay` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => SlsDocItmSchdLnConfdAmt` | `amount => SlsDocItmSchdLnConfdAmt` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` | `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `ovr_conf_so_sl_amt_idc)` | `)` |
-| `as         SlsDocItmSchdLnConfdAmtInDC` | `as         SlsDocItmSchdLnConfdAmtInDC` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => SlsDocItmSchdLnDlydAmt` | `amount => SlsDocItmSchdLnDlydAmt` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` | `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `ovr_conf_delayed_so_sl_amt_idc)` | `)` |
-| `as         SlsDocItmSchdLnDlydAmtInDC` | `as         SlsDocItmSchdLnDlydAmtInDC` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => SlsDocItmSchdLnUnconfdAmt` | `amount => SlsDocItmSchdLnUnconfdAmt` |
-| `source_currency => SDIA.TransactionCurrency` | `source_currency => SDIA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` | `exchange_rate_date => SalesDocumentDate,  -- check vbak-audat` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `ovr_unconf_so_sl_amt_idc)` | `)` |
-| `as         SlsDocItmSchdLnUnconfdAmtInDC` | `as         SlsDocItmSchdLnUnconfdAmtInDC` |
-| `case when SlsDocItmSchdLnConfdQty = RequestedQuantityInBaseUnit    --CiTQ = CumReqQ` | `case when SlsDocItmSchdLnConfdQty = RequestedQuantityInBaseUnit    --CiTQ = CumReqQ` |
-| `req_conf_so_itm_no)` | `then cast(1` |
-| `req_conf_so_itm_no)` | `else cast(0` |
-| `NmbrOfSlsDocItemsConfdAsReqd` | `end` |
-| `case when SlsDocItmSchdLnDlydQty   != 0 and SlsDocItmSchdLnUnconfdQty = 0     --CwDQ > 0 and NCQ = 0` | `case when SlsDocItmSchdLnDlydQty   != 0 and SlsDocItmSchdLnUnconfdQty = 0     --CwDQ > 0 and NCQ = 0` |
-| `req_conf_delayed_so_itm_no)` | `then cast(1` |
-| `req_conf_delayed_so_itm_no)` | `else cast(0` |
-| `NmbrOfSlsDocItemsConfdDlyd` | `end` |
-| `case when RequestedQuantityInBaseUnit > ConfdDeliveryQtyInBaseUnit and ConfdDeliveryQtyInBaseUnit != 0  --if CumReqQ > CumCQ and CumCq > 0` | `case when RequestedQuantityInBaseUnit > ConfdDeliveryQtyInBaseUnit and ConfdDeliveryQtyInBaseUnit != 0  --if CumReqQ > CumCQ and CumCq > 0` |
-| `req_part_conf_so_itm_no)` | `then cast(1` |
-| `req_part_conf_so_itm_no)` | `else cast(0` |
-| `NmbrOfSlsDocItemsConfdPrtly` | `end` |
-| `case when  ConfdDeliveryQtyInBaseUnit = 0  --CumCQ = 0)` | `case when  ConfdDeliveryQtyInBaseUnit = 0  --CumCQ = 0)` |
-| `req_unconf_so_itm_no)` | `then cast(1` |
-| `req_unconf_so_itm_no)` | `else cast(0` |
-| `NmbrOfSlsDocItemsUnconfd` | `end` |
-| `cast(` | `cast(` |
-| `case when SlsDocItmSchdLnConfdQty = RequestedQuantityInBaseUnit` | `case when SlsDocItmSchdLnConfdQty = RequestedQuantityInBaseUnit` |
-| `then '1'            ---> 1 = Confirmed` | `then '1'            ---> 1 = Confirmed` |
-| `else` | `else` |
-| `(case when SlsDocItmSchdLnDlydQty != 0 and SlsDocItmSchdLnUnconfdQty = 0` | `(case when SlsDocItmSchdLnDlydQty != 0 and SlsDocItmSchdLnUnconfdQty = 0` |
-| `then '2'        --> 2 = Delayed` | `then '2'        --> 2 = Delayed` |
-| `else` | `else` |
-| `(case when RequestedQuantityInBaseUnit > ConfdDeliveryQtyInBaseUnit and ConfdDeliveryQtyInBaseUnit != 0` | `(case when RequestedQuantityInBaseUnit > ConfdDeliveryQtyInBaseUnit and ConfdDeliveryQtyInBaseUnit != 0` |
-| `then '3'   --> 3 = Partially Confirmed` | `then '3'   --> 3 = Partially Confirmed` |
-| `else  '0'   --> 0 = Not Confirmed` | `else  '0'   --> 0 = Not Confirmed` |
-| `end)` | `end)` |
-| `end)` | `end)` |
-| `sls_ord_itm_conf_sts` | `end` |
-| `SlsDocItmReqdDelivConfSts` | `)` |
-| `deliv_block_reason_schedline preserving type)` | `cast(DelivBlockReasonForSchedLine` |
-| `_DelivBlockReasonForSchedLine` | *Association* |
-| `_SlsDocItmReqdDelivConfSts` | *Association* |
+| `SalesOrder` | `cast( SDIA.SalesDocument as vdm_sales_order preserving type )` |
+| `_SalesOrder` | *Association* |
+| `SalesOrderItem` | `cast( SDIA.SalesDocumentItem as sales_order_item preserving type )` |
+| `_ScheduleLine` | *Association* |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `_SDDocumentCategory` | *Association* |
+| `SalesOrderType` | `SalesDocumentType` |
+| `_SalesOrderType` | *Association* |
+| `SalesOrderItemCategory` | `cast(SalesDocumentItemCategory as sales_order_item_category preserving type)` |
+| `_ItemCategory` | *Association* |
+| `SalesOrderItemType` | `cast(SalesDocumentItemType as sales_order_item_type)` |
+| `IsReturnsItem` | `cast(IsReturnsItem as returns_item_flag)` |
+| `CreatedByUser` | `CreatedByUser` |
+| `_CreatedByUser` | *Association* |
+| `CreatedByUserName` | `cast(_CreatedByUser.UserDescription as created_by_user_name preserving type )` |
+| `CreationTime` | `cast(CreationTime as creation_time)` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `LastChangeDate` | `LastChangeDate` |
+| `SalesOrderDateYear` | `cast(CalendarDateSalesOrder.CalendarYear as sales_order_date_year)` |
+| `SalesOrderDateYearQuarter` | `cast(CalendarDateSalesOrder.YearQuarter as sales_order_date_year_quarter)` |
+| `SalesOrderDateYearMonth` | `cast(CalendarDateSalesOrder.YearMonth as sales_order_date_year_month)` |
+| `SalesOrderDateYearWeek` | `cast(CalendarDateSalesOrder.YearWeek as sales_order_date_year_week)` |
+| `SalesOrganization` | `SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `cast(OrganizationDivision as organization_division preserving type )` |
+| `_OrganizationDivision` | *Association* |
+| `SalesGroup` | `SalesGroup` |
+| `_SalesGroup` | *Association* |
+| `SalesOffice` | `SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `Division` | `Division` |
+| `_Division` | *Association* |
+| `PartnerCompany` | `expr(…)` |
+| `_GlobalCompany` | *Association* |
 
 ## Associations
 
@@ -233,9 +86,6 @@ tags:
 | `_SalesEmployee_2` | `I_PersonWorkAgreement_1` | [0..1] |
 | `_ResponsibleEmployee_2` | `I_PersonWorkAgreement_1` | [0..1] |
 | `_SlsDocItmReqdDelivConfSts` | `I_SlsDocItmReqdDelivConfSts` | [0..1] |
-| `_Product` | `I_Product` | [0..1] |
-| `_MaterialText` | `I_MaterialText` | [0..*] |
-| `_OrigMaterialText` | `I_MaterialText` | [0..*] |
 | `_WBSElementExternalID` | `I_WBSElementByExternalID` | [0..1] |
 | `_Extension` | `E_SalesDocumentItemBasic` | [0..1] |
 

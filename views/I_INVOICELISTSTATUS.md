@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `relik)` | `cast(dd07l.domvalue_l` |
+| `InvoiceListStatus` | `cast(dd07l.domvalue_l as relik)` |
 | `_Text` | *Association* |
 
 ## Associations

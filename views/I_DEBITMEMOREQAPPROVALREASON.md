@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `DebitMemoReqApprovalReason` | `SlsDocApprovalReason.SalesDocApprovalReason` |
-| `SlsDocApprovalReason._SDApprovalReason` | `SlsDocApprovalReason._SDApprovalReason` |
-| `SlsDocApprovalReason._SDApprovalReasonT` | `SlsDocApprovalReason._SDApprovalReasonT` |
+| `_SDApprovalReason` | *Association* |
+| `_SDApprovalReasonT` | *Association* |
 
 ## Associations
 

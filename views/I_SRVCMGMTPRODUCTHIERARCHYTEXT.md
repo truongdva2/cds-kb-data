@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(20) )` | `cast ( ProductHierarchy` |
-| `key Language` | `Language` |
+| `SrvcProductHierarchy` | `cast ( ProductHierarchy as abap.char(20) )` |
+| `Language` | `Language` |
 | `SrvcProductHierarchyText` | `ProductHierarchyText` |
 | `_SrvcMgmtProductHierarchy` | *Association* |
 | `_Language` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzech )` | `cast ( dd07l.domvalue_l` |
+| `ProductionOrderBatchCode` | `cast ( dd07l.domvalue_l as kzech )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

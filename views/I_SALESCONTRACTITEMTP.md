@@ -34,36 +34,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractItem.SalesContract` | `SalesContractItem.SalesContract` |
-| `key SalesContractItem.SalesContractItem` | `SalesContractItem.SalesContractItem` |
-| `SalesContractItem.SalesContractItemCategory` | `SalesContractItem.SalesContractItemCategory` |
-| `SalesContractItem.Product` | `SalesContractItem.Product` |
-| `SalesContractItem.ProductGroup` | `SalesContractItem.ProductGroup` |
-| `SalesContractItem.MaterialByCustomer` | `SalesContractItem.MaterialByCustomer` |
-| `SalesContractItem.PurchaseOrderByCustomer` | `SalesContractItem.PurchaseOrderByCustomer` |
-| `SalesContractItem.RequestedQuantity` | `SalesContractItem.RequestedQuantity` |
-| `SalesContractItem.RequestedQuantityUnit` | `SalesContractItem.RequestedQuantityUnit` |
-| `SalesContractItem.TargetQuantity` | `SalesContractItem.TargetQuantity` |
-| `SalesContractItem.TargetQuantityUnit` | `SalesContractItem.TargetQuantityUnit` |
-| `SalesContractItem.ItemGrossWeight` | `SalesContractItem.ItemGrossWeight` |
-| `SalesContractItem.ItemNetWeight` | `SalesContractItem.ItemNetWeight` |
-| `SalesContractItem.ItemWeightUnit` | `SalesContractItem.ItemWeightUnit` |
-| `SalesContractItem.ItemVolume` | `SalesContractItem.ItemVolume` |
-| `SalesContractItem.ItemVolumeUnit` | `SalesContractItem.ItemVolumeUnit` |
-| `SalesContractItem.Plant` | `SalesContractItem.Plant` |
-| `SalesContractItem.StorageLocation` | `SalesContractItem.StorageLocation` |
-| `SalesContractItem.MaterialPricingGroup` | `SalesContractItem.MaterialPricingGroup` |
-| `SalesContractItem.SDProcessStatus` | `SalesContractItem.SDProcessStatus` |
-| `SalesContractItem.NetAmount` | `SalesContractItem.NetAmount` |
-| `SalesContractItem.TransactionCurrency` | `SalesContractItem.TransactionCurrency` |
-| `SalesContractItem.SalesContractType` | `SalesContractItem.SalesContractType` |
-| `SalesContractItem.SalesOrganization` | `SalesContractItem.SalesOrganization` |
-| `SalesContractItem.DistributionChannel` | `SalesContractItem.DistributionChannel` |
-| `SalesContractItem.OrganizationDivision` | `SalesContractItem.OrganizationDivision` |
-| `_SalesContract      : redirected to parent I_SalesContractTP` | *Association* |
-| `_ItemText           : redirected to composition child I_SalesContractItemTextTP` | *Association* |
-| `_ItemPricingElement : redirected to composition child I_SlsContrItemPricingElementTP` | *Association* |
-| `_ItemBillingPlan    : redirected to composition child I_SlsContractItemBillingPlanTP` | *Association* |
+| `SalesContract` | `SalesContractItem.SalesContract` |
+| `SalesContractItem` | `SalesContractItem.SalesContractItem` |
+| `SalesContractItemCategory` | `SalesContractItem.SalesContractItemCategory` |
+| `Product` | `SalesContractItem.Product` |
+| `ProductGroup` | `SalesContractItem.ProductGroup` |
+| `MaterialByCustomer` | `SalesContractItem.MaterialByCustomer` |
+| `PurchaseOrderByCustomer` | `SalesContractItem.PurchaseOrderByCustomer` |
+| `RequestedQuantity` | `SalesContractItem.RequestedQuantity` |
+| `RequestedQuantityUnit` | `SalesContractItem.RequestedQuantityUnit` |
+| `TargetQuantity` | `SalesContractItem.TargetQuantity` |
+| `TargetQuantityUnit` | `SalesContractItem.TargetQuantityUnit` |
+| `ItemGrossWeight` | `SalesContractItem.ItemGrossWeight` |
+| `ItemNetWeight` | `SalesContractItem.ItemNetWeight` |
+| `ItemWeightUnit` | `SalesContractItem.ItemWeightUnit` |
+| `ItemVolume` | `SalesContractItem.ItemVolume` |
+| `ItemVolumeUnit` | `SalesContractItem.ItemVolumeUnit` |
+| `Plant` | `SalesContractItem.Plant` |
+| `StorageLocation` | `SalesContractItem.StorageLocation` |
+| `MaterialPricingGroup` | `SalesContractItem.MaterialPricingGroup` |
+| `SDProcessStatus` | `SalesContractItem.SDProcessStatus` |
+| `NetAmount` | `SalesContractItem.NetAmount` |
+| `TransactionCurrency` | `SalesContractItem.TransactionCurrency` |
+| `SalesContractType` | `SalesContractItem.SalesContractType` |
+| `SalesOrganization` | `SalesContractItem.SalesOrganization` |
+| `DistributionChannel` | `SalesContractItem.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractItem.OrganizationDivision` |
 
 ## Associations
 

@@ -32,7 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_ProfitCenterHierNode_2'}` | `releaseState: #DEPRECATED, successor: '_ProfitCenterHierNode_2'}` |
+| `ControllingArea` | `cast( ControllingArea as fincs_controllingarea preserving type )` |
+| `ProfitCenter` | `cast( ProfitCenter as fincs_elim_profitcenter preserving type )` |
+| `_ControllingArea` | *Association* |
+| `_Text_2` | *Association* |
+| `_ProfitCenterHierNode_2` | *Association* |
+| `_TmprlNde` | *Association* |
+| `_Text` | *Association* |
 | `_ProfitCenterHierNode` | *Association* |
 
 ## Associations

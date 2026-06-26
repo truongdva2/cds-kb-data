@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spinf )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PurchasingInfoRecordUpdateCode` | `cast ( substring( domvalue_l, 1, 1 ) as spinf )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PurgInfoRecordUpdateCodeT` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PurgInfoRecordUpdateCodeT` | `I_PurgInfoRecordUpdateCodeT` | [0..*] |
 
 ## Source Code
 

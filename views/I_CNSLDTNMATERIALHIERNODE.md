@@ -32,14 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnMaterialVH'` | `name: 'I_CnsldtnMaterialVH'` |
-| `element: 'Material'` | `element: 'Material'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_material preserving type )` | `cast( left(_HierarchyNode.UniversalHierarchyLeafValue, 40)` |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
+| `ConsolidationMaterialHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `Material` | `cast(…)` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_Material` | *Association* |
 | `_Hierarchy` | *Association* |

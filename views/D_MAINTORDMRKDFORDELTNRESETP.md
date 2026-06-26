@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AssgdMaintNotifIsToBeResetDel : abap_boolean;` | `AssgdMaintNotifIsToBeResetDel : abap_boolean;` |
+| `AssgdMaintNotifIsToBeResetDel` | `abap_boolean` |
 
 ## Associations
 

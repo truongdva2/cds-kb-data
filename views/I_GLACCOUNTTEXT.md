@@ -33,14 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
 | `ChartOfAccounts` | `ktopl` |
 | `GLAccount` | `saknr` |
-| `Language, //as Language` | `spras` |
-| `fis_txt20_skat_20 preserving type )` | `cast( txt20` |
-| `fis_txt50_skat preserving type )` | `cast( txt50` |
+| `Language` | `spras` |
+| `GLAccountName` | `cast( txt20 as fis_txt20_skat_20 preserving type )` |
+| `GLAccountLongName` | `cast( txt50 as fis_txt50_skat preserving type )` |
 | `LastChangeDateTime` | `last_changed_ts` |
 | `_Language` | *Association* |
 | `_ChartOfAccounts` | *Association* |

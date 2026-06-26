@@ -30,51 +30,58 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `AccountingDocument           : belnr_d;` | `AccountingDocument           : belnr_d;` |
-| `BusinessTransactionType      : glvor;` | `BusinessTransactionType      : glvor;` |
-| `AccountingDocumentType       : blart;` | `AccountingDocumentType       : blart;` |
-| `LedgerGroup                  : fagl_ldgrp;` | `LedgerGroup                  : fagl_ldgrp;` |
-| `DocumentReferenceID          : xblnr;` | `DocumentReferenceID          : xblnr;` |
-| `AccountingDocumentHeaderText : bktxt;` | `AccountingDocumentHeaderText : bktxt;` |
-| `InvoiceReferenceDocument     : awkey_reb;` | `InvoiceReferenceDocument     : awkey_reb;` |
-| `CreatedByUser                : usnam;` | `CreatedByUser                : usnam;` |
-| `CompanyCode                  : bukrs;` | `CompanyCode                  : bukrs;` |
-| `DocumentDate                 : bldat;` | `DocumentDate                 : bldat;` |
-| `PostingDate                  : budat;` | `PostingDate                  : budat;` |
-| `TaxReportingDate             : vatdate;` | `TaxReportingDate             : vatdate;` |
-| `TaxDeterminationDate         : txdat;` | `TaxDeterminationDate         : txdat;` |
-| `TaxFulfillmentDate           : fot_fulfilldate;` | `TaxFulfillmentDate           : fot_fulfilldate;` |
-| `InvoiceReceiptDate           : reindat;` | `InvoiceReceiptDate           : reindat;` |
-| `ExchangeRateDate             : wwert_d;` | `ExchangeRateDate             : wwert_d;` |
-| `IsNegativePosting            : xnegp;` | `IsNegativePosting            : xnegp;` |
-| `PostingFiscalPeriod          : monat;` | `PostingFiscalPeriod          : monat;` |
-| `Reference1InDocumentHeader   : fins_xref1_hd;` | `Reference1InDocumentHeader   : fins_xref1_hd;` |
-| `Reference2InDocumentHeader   : fins_xref2_hd;` | `Reference2InDocumentHeader   : fins_xref2_hd;` |
-| `JrnlEntryCntrySpecificRef1   : fac_glo_ref1_hd;` | `JrnlEntryCntrySpecificRef1   : fac_glo_ref1_hd;` |
-| `JrnlEntryCntrySpecificDate1  : fac_glo_dat1_hd;` | `JrnlEntryCntrySpecificDate1  : fac_glo_dat1_hd;` |
-| `JrnlEntryCntrySpecificRef2   : fac_glo_ref2_hd;` | `JrnlEntryCntrySpecificRef2   : fac_glo_ref2_hd;` |
-| `JrnlEntryCntrySpecificDate2  : fac_glo_dat2_hd;` | `JrnlEntryCntrySpecificDate2  : fac_glo_dat2_hd;` |
-| `JrnlEntryCntrySpecificRef3   : fac_glo_ref3_hd;` | `JrnlEntryCntrySpecificRef3   : fac_glo_ref3_hd;` |
-| `JrnlEntryCntrySpecificDate3  : fac_glo_dat3_hd;` | `JrnlEntryCntrySpecificDate3  : fac_glo_dat3_hd;` |
-| `JrnlEntryCntrySpecificRef4   : fac_glo_ref4_hd;` | `JrnlEntryCntrySpecificRef4   : fac_glo_ref4_hd;` |
-| `JrnlEntryCntrySpecificDate4  : fac_glo_dat4_hd;` | `JrnlEntryCntrySpecificDate4  : fac_glo_dat4_hd;` |
-| `JrnlEntryCntrySpecificRef5   : fac_glo_ref5_hd;` | `JrnlEntryCntrySpecificRef5   : fac_glo_ref5_hd;` |
-| `JrnlEntryCntrySpecificDate5  : fac_glo_dat5_hd;` | `JrnlEntryCntrySpecificDate5  : fac_glo_dat5_hd;` |
-| `JrnlEntryCntrySpecificBP1    : fac_glo_bp1_hd;` | `JrnlEntryCntrySpecificBP1    : fac_glo_bp1_hd;` |
-| `JrnlEntryCntrySpecificBP2    : fac_glo_bp2_hd;` | `JrnlEntryCntrySpecificBP2    : fac_glo_bp2_hd;` |
-| `ReversalReferenceDocumentKey : awkey_rev;` | `ReversalReferenceDocumentKey : awkey_rev;` |
-| `ReversalReason               : acpi_stgrd;` | `ReversalReason               : acpi_stgrd;` |
-| `PlannedReversalDate          : fis_stodt;` | `PlannedReversalDate          : fis_stodt;` |
-| `_OneTimeCustomerSupplier     : composition [0..1] of D_JournalEntryPostCPDP;` | *Association* |
-| `_GLItems                     : composition [0..*] of D_JournalEntryPostGLItemP;` | *Association* |
-| `_ARItems                     : composition [0..*] of D_JournalEntryPostARItemP;` | *Association* |
-| `_APItems                     : composition [0..*] of D_JournalEntryPostAPItemP;` | *Association* |
-| `_TaxItems                    : composition [0..*] of D_JournalEntryPostTaxItemP;` | *Association* |
-| `_WithHoldingTaxItems         : composition [0..*] of D_JournalEntryPostWhgdItemP;` | *Association* |
+| `AccountingDocument` | `belnr_d` |
+| `BusinessTransactionType` | `glvor` |
+| `AccountingDocumentType` | `blart` |
+| `LedgerGroup` | `fagl_ldgrp` |
+| `DocumentReferenceID` | `xblnr` |
+| `AccountingDocumentHeaderText` | `bktxt` |
+| `InvoiceReferenceDocument` | `awkey_reb` |
+| `CreatedByUser` | `usnam` |
+| `CompanyCode` | `bukrs` |
+| `DocumentDate` | `bldat` |
+| `PostingDate` | `budat` |
+| `TaxReportingDate` | `vatdate` |
+| `TaxDeterminationDate` | `txdat` |
+| `TaxFulfillmentDate` | `fot_fulfilldate` |
+| `InvoiceReceiptDate` | `reindat` |
+| `ExchangeRateDate` | `wwert_d` |
+| `IsNegativePosting` | `xnegp` |
+| `PostingFiscalPeriod` | `monat` |
+| `Reference1InDocumentHeader` | `fins_xref1_hd` |
+| `Reference2InDocumentHeader` | `fins_xref2_hd` |
+| `JrnlEntryCntrySpecificRef1` | `fac_glo_ref1_hd` |
+| `JrnlEntryCntrySpecificDate1` | `fac_glo_dat1_hd` |
+| `JrnlEntryCntrySpecificRef2` | `fac_glo_ref2_hd` |
+| `JrnlEntryCntrySpecificDate2` | `fac_glo_dat2_hd` |
+| `JrnlEntryCntrySpecificRef3` | `fac_glo_ref3_hd` |
+| `JrnlEntryCntrySpecificDate3` | `fac_glo_dat3_hd` |
+| `JrnlEntryCntrySpecificRef4` | `fac_glo_ref4_hd` |
+| `JrnlEntryCntrySpecificDate4` | `fac_glo_dat4_hd` |
+| `JrnlEntryCntrySpecificRef5` | `fac_glo_ref5_hd` |
+| `JrnlEntryCntrySpecificDate5` | `fac_glo_dat5_hd` |
+| `JrnlEntryCntrySpecificBP1` | `fac_glo_bp1_hd` |
+| `JrnlEntryCntrySpecificBP2` | `fac_glo_bp2_hd` |
+| `ReversalReferenceDocumentKey` | `awkey_rev` |
+| `ReversalReason` | `acpi_stgrd` |
+| `PlannedReversalDate` | `fis_stodt` |
+| `_OneTimeCustomerSupplier` | *Association* |
+| `_GLItems` | *Association* |
+| `_ARItems` | *Association* |
+| `_APItems` | *Association* |
+| `_TaxItems` | *Association* |
+| `_WithHoldingTaxItems` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OneTimeCustomerSupplier` | `D_JournalEntryPostCPDP` | [0..1] |
+| `_GLItems` | `D_JournalEntryPostGLItemP` | [0..*] |
+| `_ARItems` | `D_JournalEntryPostARItemP` | [0..*] |
+| `_APItems` | `D_JournalEntryPostAPItemP` | [0..*] |
+| `_TaxItems` | `D_JournalEntryPostTaxItemP` | [0..*] |
+| `_WithHoldingTaxItems` | `D_JournalEntryPostWhgdItemP` | [0..*] |
 
 ## Source Code
 

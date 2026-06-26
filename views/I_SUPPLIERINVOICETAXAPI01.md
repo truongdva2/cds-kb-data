@@ -33,11 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierInvoiceTax.SupplierInvoice` | `I_SupplierInvoiceTax.SupplierInvoice` |
-| `key I_SupplierInvoiceTax.FiscalYear` | `I_SupplierInvoiceTax.FiscalYear` |
-| `key TaxCode` | `TaxCode` |
-| `key SupplierInvoiceTaxCounter` | `SupplierInvoiceTaxCounter` |
-| `I_SupplierInvoiceTax.DocumentCurrency` | `I_SupplierInvoiceTax.DocumentCurrency` |
+| `SupplierInvoice` | `I_SupplierInvoiceTax.SupplierInvoice` |
+| `FiscalYear` | `I_SupplierInvoiceTax.FiscalYear` |
+| `TaxCode` | `TaxCode` |
+| `SupplierInvoiceTaxCounter` | `SupplierInvoiceTaxCounter` |
+| `DocumentCurrency` | `I_SupplierInvoiceTax.DocumentCurrency` |
 | `TaxAmount` | `TaxAmount` |
 | `TaxCalculationProcedure` | `TaxCalculationProcedure` |
 | `TaxBaseAmountInTransCrcy` | `TaxBaseAmountInTransCrcy` |
@@ -45,8 +45,7 @@ tags:
 | `CompanyCodeCurrency` | `CompanyCodeCurrency` |
 | `TaxAmountInCoCodeCrcy` | `TaxAmountInCoCodeCrcy` |
 | `TaxBaseAmountInCoCodeCrcy` | `TaxBaseAmountInCoCodeCrcy` |
-| `I_SupplierInvoiceTax.TaxCountry` | `I_SupplierInvoiceTax.TaxCountry` |
-| `/* Associations */` | `/* Associations */` |
+| `TaxCountry` | `I_SupplierInvoiceTax.TaxCountry` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

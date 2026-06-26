@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REInvoiceUUID` | `REInvoiceUUID` |
-| `key REInvoiceItemNumber` | `REInvoiceItemNumber` |
+| `REInvoiceUUID` | `REInvoiceUUID` |
+| `REInvoiceItemNumber` | `REInvoiceItemNumber` |
 | `REStatusObjectCalculation` | `REStatusObjectCalculation` |
 | `REConditionType` | `REConditionType` |
 | `REFlowType` | `REFlowType` |

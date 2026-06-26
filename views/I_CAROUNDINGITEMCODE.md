@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rndps_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CARoundingItemCode` | `cast( left( domvalue_l, 1 ) as rndps_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

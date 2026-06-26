@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `techdoctype_gfn_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CAInvcgTechnicalDocumentType` | `cast ( substring( dd07l.domvalue_l,1,1 ) as techdoctype_gfn_kk preserving type )` |
 | `_CAInvcgDocTechDocTypeText` | *Association* |
 
 ## Associations

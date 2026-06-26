@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InternalDocumentStatus` | `InternalDocumentStatus` |
-| `key Language` | `Language` |
-| `LglCntntMDocStatusName` | `LglCntntMDocStatusName` |
+| `InternalDocumentStatus` | `InternalDocumentStatus` |
+| `Language` | `Language` |
 
 ## Associations
 

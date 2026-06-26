@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceOrderTemplateTP : redirected to parent I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

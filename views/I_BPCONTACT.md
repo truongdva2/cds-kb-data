@@ -37,7 +37,6 @@ tags:
 | `ValidityStartDate` | `date_from` |
 | `IsStandardRelationship` | `xdfrel` |
 | `RelationshipCategory` | `reltyp` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartnerCompany` | *Association* |
 | `_BusinessPartnerPerson` | *Association* |
 | `_ContactAddress` | *Association* |

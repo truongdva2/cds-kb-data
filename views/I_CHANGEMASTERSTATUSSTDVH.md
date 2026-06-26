@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `_Text` | *Association* |
 
 ## Associations

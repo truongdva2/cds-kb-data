@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_block_planning preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdPlanningBlock` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_block_planning preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_block_planng_desc preserving type )` | `cast(ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdPlanningBlockDesc` | `cast(ddtext as /scmtms/vdm_block_planng_desc preserving type )` |
 | `_TranspOrdPlanningBlock` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdPlanningBlock` | `I_TranspOrdPlanningBlock` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

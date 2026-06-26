@@ -29,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/item_category preserving type)` | `cast(substring(domvalue_l, 1, 3)` |
+| `TranspOrdItemCategory` | `cast(substring(domvalue_l, 1, 3) as /scmtms/item_category preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_itm_category_descr preserving type)` | `cast(ddtext` |
+| `TranspOrdItemCategoryDesc` | `cast(ddtext as /scmtms/vdm_itm_category_descr preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdItemCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdItemCategory` | `I_TranspOrdItemCategory_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

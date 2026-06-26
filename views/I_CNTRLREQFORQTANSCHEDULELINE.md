@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CentralReqForQuotationItem' }` | `foreignKey.association: '_CentralReqForQuotationItem' }` |
-| `key CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
+| `ScheduleLine` | `ScheduleLine` |
 | `DelivDateCategory` | `DelivDateCategory` |
 | `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
 | `SchedLineStscDeliveryDate` | `SchedLineStscDeliveryDate` |
@@ -43,7 +43,6 @@ tags:
 | `PerformancePeriodStartDate` | `PerformancePeriodStartDate` |
 | `PerformancePeriodEndDate` | `PerformancePeriodEndDate` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_CentralRequestForQuotation` | *Association* |
 | `_CentralReqForQuotationItem` | *Association* |
 

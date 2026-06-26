@@ -30,11 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ConditionContractStdVH', element: 'ConditionContract' } }]` | `name: 'I_ConditionContractStdVH', element: 'ConditionContract' } }]` |
-| `}` | `}` |
-| `key ConditionContract` | `ConditionContract` |
-| `key SettlmtDate` | `SettlmtDate` |
-| `key SettlmtDateSequentialID` | `SettlmtDateSequentialID` |
+| `ConditionContract` | `ConditionContract` |
+| `SettlmtDate` | `SettlmtDate` |
+| `SettlmtDateSequentialID` | `SettlmtDateSequentialID` |
 | `SettlmtDateCat` | `SettlmtDateCat` |
 | `CndnContrCalItemUUID` | `CndnContrCalItemUUID` |
 | `RefSettlmtDate` | `RefSettlmtDate` |

@@ -31,10 +31,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `_HierarchyText.spras` |
-| `fincs_doctypehierarchy preserving type )` | `cast(_HierarchyText.hryid` |
-| `fincs_validityenddate preserving type )` | `cast(_HierarchyText.hryvalto` |
-| `fincs_validitystartdate preserving type )` | `cast(_HierarchyText.hryvalfrom` |
-| `fincs_hierarchytext preserving type )` | `cast(_HierarchyText.hrytxt` |
+| `ConsolidationDocTypeHierarchy` | `cast(_HierarchyText.hryid as fincs_doctypehierarchy preserving type )` |
+| `ValidityEndDate` | `cast(_HierarchyText.hryvalto as fincs_validityenddate preserving type )` |
+| `ValidityStartDate` | `cast(_HierarchyText.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ConsolidationDocTypeHierTxt` | `cast(_HierarchyText.hrytxt as fincs_hierarchytext preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

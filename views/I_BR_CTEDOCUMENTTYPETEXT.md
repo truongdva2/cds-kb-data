@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_type_cte preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_CTeDocumentType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_type_cte preserving type )` |
 | `BR_CTeDocumentTypeDesc` | `ddtext` |
 | `_BR_CTeDocumentType` | *Association* |
 | `_Language` | *Association* |

@@ -29,16 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_UsageDecisionCodeGroupStdVH'` | `name:    'I_UsageDecisionCodeGroupStdVH'` |
-| `element: 'UsageDecisionCodeGroup' }` | `element: 'UsageDecisionCodeGroup' }` |
-| `}]` | `}]` |
 | `UsageDecisionCodeGroup` | `qpcd.codegruppe` |
 | `UsageDecisionCode` | `qpcd.code` |
-| `_Text[1:Language = $session.system_language].UsageDecisionCodeText` | *Association* |
-| `case qpcd.inaktiv` | `case qpcd.inaktiv` |
-| `vdm_qm_codeisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codeisinactive preserving type )` | `else cast( 'X'` |
-| `CodeIsInactive` | `end` |
+| `UsageDecisionCodeText` | `_Text[1:Language = $session.system_language].UsageDecisionCodeText` |
+| `CodeIsInactive` | `case…end` |
 | `UsgeDcsnCodeCreatedBy` | `qpcd.ersteller` |
 | `UsgeDcsnCodeCreatedOn` | `qpcd.e_datum` |
 | `UsgeDcsnCodeLastChangedBy` | `qpcd.aenderer` |

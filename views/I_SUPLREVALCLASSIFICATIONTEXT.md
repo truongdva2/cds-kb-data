@@ -34,8 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `dd07t.ddlanguage` |
-| `mm_classification )` | `cast( dd07t.domvalue_l` |
-| `mm_classifciation_text )` | `cast (dd07t.ddtext` |
+| `SupplierClassification` | `cast( dd07t.domvalue_l as mm_classification )` |
+| `SupplierClfnName` | `cast (dd07t.ddtext as mm_classifciation_text )` |
 | `_Classification` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Classification` | `I_SuplrEvalClassification` | [1..1] |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

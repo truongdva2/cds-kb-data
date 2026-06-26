@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ManufacturingOrder` | `ManufacturingOrder` |
+| `ManufacturingOrder` | `ManufacturingOrder` |
 | `ManufacturingOrderText` | `ManufacturingOrderText` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ManufacturingOrderType` | `ManufacturingOrderType` |

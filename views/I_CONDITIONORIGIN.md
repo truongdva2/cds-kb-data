@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kherk )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionOrigin` | `cast ( substring( domvalue_l, 1, 1 ) as kherk )` |
 | `_Text` | *Association* |
 
 ## Associations

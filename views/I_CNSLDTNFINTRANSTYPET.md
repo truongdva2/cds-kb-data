@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'FinancialTransactionTypeName' }` | `status: #DEPRECATED, successor: 'FinancialTransactionTypeName' }` |
-| `fincs_description_text_20 preserving type )` | `cast ( _Source.FinancialTransactionTypeName` |
-| `fincs_financialtranstype_desc preserving type )` | `cast( _Source.FinancialTransactionTypeName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `_Source.Language` |
+| `FinancialTransactionType` | `cast(…)` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast(…)` |
+| `FinancialTransactionTypeName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_FinTransType` | *Association* |
 

@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `_BreakdownType.DomainValue // required for search` | *Association* |
+| `ConsolidationBreakdownType` | `ConsolidationBreakdownType` |
+| `ConsolidationBreakdownTypeText` | `cast(…)` |
+| `DomainValue` | `_BreakdownType.DomainValue` |
 
 ## Associations
 

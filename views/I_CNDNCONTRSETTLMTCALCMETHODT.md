@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wb2_settlmt_calc_method )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `CndnContrSettlmtCalcMethod` | `cast( dd07t.domvalue_l as wb2_settlmt_calc_method )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `wb2_settlmt_calc_method_descr preserving type )` | `cast( dd07t.ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `CndnContrSettlmtCalcMethodName` | `cast( dd07t.ddtext as wb2_settlmt_calc_method_descr preserving type )` |
 | `_CndnContrSettlmtCalcMethod` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CndnContrSettlmtCalcMethod` | `I_CndnContrSettlmtCalcMethod` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostingType` | `CostingType` |
-| `_CostingTypeText.CostingTypeName` | *Association* |
+| `CostingType` | `CostingType` |
+| `CostingTypeName` | `_CostingTypeText.CostingTypeName` |
 | `_CostingTypeText` | *Association* |
 
 ## Associations

@@ -31,25 +31,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Class.TrdClassfctnNmbrSchm` | `Class.TrdClassfctnNmbrSchm` |
-| `key Class.TrdClassfctnNmbrSchmCntnt` | `Class.TrdClassfctnNmbrSchmCntnt` |
-| `key Class.Product` | `Class.Product` |
-| `key Class.ValidityStartDate` | `Class.ValidityStartDate` |
-| `Class.ValidityEndDate` | `Class.ValidityEndDate` |
-| `/sapsll/comco)` | `cast (_CommodityCode.TrdClassfctnNmbr` |
-| `_TrdClassfctnNmbrSchmUsge.Country` | *Association* |
-| `_CommodityCode.CustomsUnitOfMeasure` | *Association* |
-| `_CommodityCode.UnitOfMeasureSystem` | *Association* |
-| `_CommodityCode.SecondCustomsUnitOfMeasure` | *Association* |
-| `_CommodityCode.SecondSupplementaryUnit` | *Association* |
-| `_CommodityCode.SupplementaryUnit` | *Association* |
+| `TrdClassfctnNmbrSchm` | `Class.TrdClassfctnNmbrSchm` |
+| `TrdClassfctnNmbrSchmCntnt` | `Class.TrdClassfctnNmbrSchmCntnt` |
+| `Product` | `Class.Product` |
+| `ValidityStartDate` | `Class.ValidityStartDate` |
+| `ValidityEndDate` | `Class.ValidityEndDate` |
+| `CommodityCode` | `cast (_CommodityCode.TrdClassfctnNmbr as /sapsll/comco)` |
+| `Country` | `_TrdClassfctnNmbrSchmUsge.Country` |
+| `CustomsUnitOfMeasure` | `_CommodityCode.CustomsUnitOfMeasure` |
+| `UnitOfMeasureSystem` | `_CommodityCode.UnitOfMeasureSystem` |
+| `SecondCustomsUnitOfMeasure` | `_CommodityCode.SecondCustomsUnitOfMeasure` |
+| `SecondSupplementaryUnit` | `_CommodityCode.SecondSupplementaryUnit` |
+| `SupplementaryUnit` | `_CommodityCode.SupplementaryUnit` |
 | `_TrdClassfctnNmbrSchm` | *Association* |
-| `_CommodityCode._CustomsUnitOfMeasure` | *Association* |
-| `_CommodityCode._SecondCustomsUnitOfMeasure` | *Association* |
+| `_CustomsUnitOfMeasure` | *Association* |
+| `_SecondCustomsUnitOfMeasure` | *Association* |
 | `_CommodityCodeText` | *Association* |
 | `_Country` | *Association* |
-| `_CommodityCode._SupplementaryUnit` | *Association* |
-| `_CommodityCode._SecondSupplementaryUnit` | *Association* |
+| `_SupplementaryUnit` | *Association* |
+| `_SecondSupplementaryUnit` | *Association* |
 | `_Product` | *Association* |
 
 ## Associations

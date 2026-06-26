@@ -35,7 +35,6 @@ tags:
 | `TreasuryEvaluationType` | `KeyFigureSet.eval_type` |
 | `MarketDataScenario` | `KeyFigureSet.md_scenario` |
 | `MarketDataShift` | `KeyFigureSet.md_shift_id` |
-| `/* Associations */` | `/* Associations */` |
 | `_KeyFigureSetText` | *Association* |
 
 ## Associations

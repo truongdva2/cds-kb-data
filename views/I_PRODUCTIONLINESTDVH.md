@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionLine` | `ProductionLine` |
-| `key Plant` | `Plant` |
+| `ProductionLine` | `ProductionLine` |
+| `Plant` | `Plant` |
 | `_WorkCenterTextBySemanticKey` | *Association* |
 | `_Plant` | *Association* |
 

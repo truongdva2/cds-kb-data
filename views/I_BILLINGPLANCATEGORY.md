@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fptyp_fp )` | `cast( dd07l.domvalue_l` |
+| `BillingPlanCategory` | `cast( dd07l.domvalue_l as fptyp_fp )` |
 | `_Text` | *Association* |
 
 ## Associations

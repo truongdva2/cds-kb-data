@@ -43,7 +43,7 @@ tags:
 | `CAInvcgDocumentReqd` | `invdocno_req` |
 | `CAItemReqdPeriodStartDate` | `date_from_req` |
 | `CAItemReqdPeriodEndDate` | `date_to_req` |
-| `opbel_gfn_kk preserving type )` | `cast(opbel_req` |
+| `CADocumentNumberReqd` | `cast(opbel_req as opbel_gfn_kk preserving type )` |
 | `CARepetitionItemNumberReqd` | `opupw_req` |
 | `CABusinessPartnerItemNmbrReqd` | `opupk_req` |
 | `_CAInvcgDocHeader` | *Association* |

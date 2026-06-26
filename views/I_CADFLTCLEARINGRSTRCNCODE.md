@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `augrs_def_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADefaultClearingRstrcnCode` | `cast( left( dd07l.domvalue_l, 1 ) as augrs_def_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

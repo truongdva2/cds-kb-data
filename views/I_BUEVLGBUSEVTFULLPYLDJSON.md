@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessEventUUID` | `BusinessEventUUID` |
-| `key SAPObjectType` | `SAPObjectType` |
+| `BusinessEventUUID` | `BusinessEventUUID` |
+| `SAPObjectType` | `SAPObjectType` |
 | `BusEvtLogPayloadJSONString` | `BusEvtLogPayloadJSONString` |
 | `BusEvtLogLastChangedDateTime` | `BusEvtLogLastChangedDateTime` |
 

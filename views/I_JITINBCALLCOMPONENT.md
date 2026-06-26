@@ -75,6 +75,11 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInbCallCompDocReference` | `I_JITInbCallCompDocReference` | [0..*] |
+| `_JITInbCallCompMessage` | `I_JITInbCallCompMessage` | [0..*] |
+| `_JITInbCallCompRawMaterial` | `I_JITInbCallCompRawMaterial` | [0..*] |
+| `_JITInbCallCompRefText` | `I_JITInbCallCompRefText` | [0..*] |
+| `_JITInboundCall` | `I_JITInboundCall` | — |
 | `_JITInbCallComponentGroup` | `I_JITInbCallComponentGroup` | [1..1] |
 | `_ProductCompMatl` | `I_Product` | [1..1] |
 | `_Division` | `I_Division` | [0..1] |

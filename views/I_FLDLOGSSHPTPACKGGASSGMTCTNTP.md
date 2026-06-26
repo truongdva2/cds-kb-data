@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
+| `FldLogsContainerUnitUUID` | `FldLogsContainerUnitUUID` |
 | `FldLogsContainerUUID` | `FldLogsContainerUUID` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
 | `FldLogsShipmentID` | `FldLogsShipmentID` |
@@ -84,7 +84,6 @@ tags:
 | `FldLogsShptLocationID` | `FldLogsShptLocationID` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `SuplrCoIsBusPrpsCmpltd` | `SuplrCoIsBusPrpsCmpltd` |
-| `_ShptCtnUnit : redirected to parent I_FldLogsDelivContainerUnitTP` | *Association* |
 
 ## Associations
 

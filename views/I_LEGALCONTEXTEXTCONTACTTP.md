@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     LglCntntMCntxtExtCntctUUID` | `LglCntntMCntxtExtCntctUUID` |
+| `LglCntntMCntxtExtCntctUUID` | `LglCntntMCntxtExtCntctUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMRank` | `LglCntntMRank` |
 | `LglCntntMExtCntctBP` | `LglCntntMExtCntctBP` |
 | `LglCntntMExtCntctType` | `LglCntntMExtCntctType` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
-| `_LCMContextTP : redirected to parent I_LegalContextTP` | *Association* |
 
 ## Associations
 

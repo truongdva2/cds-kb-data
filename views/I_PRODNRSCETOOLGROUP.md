@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_prtgroup preserving type)` | `cast(fgrua` |
+| `ProductionResourceToolGroup` | `cast(fgrua as vdm_prtgroup preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

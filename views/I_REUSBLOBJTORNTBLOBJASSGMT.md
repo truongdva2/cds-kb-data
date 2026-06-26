@@ -36,7 +36,6 @@ tags:
 | `ValidityStartDate` | `validfrom` |
 | `ValidityEndDate` | `validto` |
 | `REIsAssignmentFromUsableObj` | `assignmentfromusable` |
-| `/* Associations */` | `/* Associations */` |
 | `_RERentableObject` | *Association* |
 | `_REUsableObject` | *Association* |
 

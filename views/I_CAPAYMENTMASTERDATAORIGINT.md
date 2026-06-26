@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pay_par_orig_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `pay_par_orig_text_kk preserving type )` | `cast( ddtext` |
+| `CAOriginOfPaymentMasterData` | `cast( left( dd07t.domvalue_l, 1 ) as pay_par_orig_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAOriginOfPaymentMasterDataTxt` | `cast( ddtext as pay_par_orig_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

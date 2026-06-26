@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfirmationGroup` | `ConfirmationGroup` |
-| `key ConfirmationCount` | `ConfirmationCount` |
-| `key MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
+| `ConfirmationGroup` | `ConfirmationGroup` |
+| `ConfirmationCount` | `ConfirmationCount` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
 | `OrderType` | `OrderType` |
 | `OrderID` | `OrderID` |
 | `OrderItem` | `OrderItem` |
@@ -69,9 +69,7 @@ tags:
 | `EntryUnitISOCode` | `EntryUnitISOCode` |
 | `EntryUnitSAPCode` | `EntryUnitSAPCode` |
 | `QuantityInEntryUnit` | `QuantityInEntryUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_Customer` | *Association* |
-| `_ProdnOrdConf : redirected to parent I_ProductionOrdConfirmationTP` | *Association* |
 | `_Supplier` | *Association* |
 
 ## Associations

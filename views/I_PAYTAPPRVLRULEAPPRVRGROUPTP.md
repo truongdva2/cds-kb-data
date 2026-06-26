@@ -31,17 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentApprovalRule` | `PaymentApprovalRule` |
-| `key PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
-| `key PaymentApproverGroupNumber` | `PaymentApproverGroupNumber` |
+| `PaymentApprovalRule` | `PaymentApprovalRule` |
+| `PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
+| `PaymentApproverGroupNumber` | `PaymentApproverGroupNumber` |
 | `PaymentApproverGroup` | `PaymentApproverGroup` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PaymentApprovalRule : redirected to I_PaymentApprovalRuleTP` | *Association* |
-| `_PaymentApprovalRuleItem : redirected to parent I_PaymentApprovalRuleItemTP` | *Association* |
 
 ## Associations
 

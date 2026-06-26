@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Equipment` | `Equipment` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key EquipmentPartnerObjectNmbr` | `EquipmentPartnerObjectNmbr` |
+| `Equipment` | `Equipment` |
+| `PartnerFunction` | `PartnerFunction` |
+| `EquipmentPartnerObjectNmbr` | `EquipmentPartnerObjectNmbr` |
 | `EquipmentPartner` | `EquipmentPartner` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
@@ -59,7 +59,6 @@ tags:
 | `SupplierIsBusPrpsCmpltd` | `SupplierIsBusPrpsCmpltd` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `SupplierAuthznGrp` | `SupplierAuthznGrp` |
-| `_Equipment  : redirected to parent I_EquipmentTP` | *Association* |
 
 ## Associations
 

@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_indpag preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_indpagdesc preserving type )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `PaymentForm` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_indpag preserving type )` |
+| `PaymentFormDescription` | `cast ( substring ( ddtext, 1, 60 ) as logbr_indpagdesc preserving type )` |
 | `_PaymentForm` | *Association* |
 | `_Language` | *Association* |
 

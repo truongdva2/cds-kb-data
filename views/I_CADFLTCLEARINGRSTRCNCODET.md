@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `augrs_def_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `augrs_def_text_kk preserving type )` | `cast( ddtext` |
+| `CADefaultClearingRstrcnCode` | `cast( left( dd07t.domvalue_l, 1 ) as augrs_def_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADefaultClearingRstrcnCodText` | `cast( ddtext as augrs_def_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

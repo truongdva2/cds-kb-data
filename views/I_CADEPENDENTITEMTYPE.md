@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ditrsn_gfn_kk preserving type )` | `cast( _tfk8240.dittype` |
+| `CADependentItemType` | `cast( _tfk8240.dittype as ditrsn_gfn_kk preserving type )` |
 | `_CADependentItemTypeText` | *Association* |
 
 ## Associations

@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `ktrel )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `price_element_accassrelv_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `ConditionAcctAssgmtRelevance` | `cast ( substring( domvalue_l, 1, 1 ) as ktrel )` |
+| `CndnAcctAssgmtRelevanceName` | `cast ( ddtext as price_element_accassrelv_descr )` |
 | `_ConditionAcctAssgmtRelevance` | *Association* |
 | `_Language` | *Association* |
 

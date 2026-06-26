@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CityName` | `CityName` |
 | `CorrespondenceLanguage` | `CorrespondenceLanguage` |
 | `Country` | `Country` |
@@ -65,9 +65,6 @@ tags:
 | `StreetSuffixName2` | `StreetSuffixName2` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
 | `TransportZone` | `TransportZone` |
-| `/* Associations */` | `/* Associations */` |
-| `_SrvcOrdTmplPartnerTP : redirected to parent I_SrvcOrdTmplPartnerTP` | *Association* |
-| `_ServiceOrderTemplateTP : redirected to I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

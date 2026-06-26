@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocSequenceGroupUUID` | `ProdAllocSequenceGroupUUID` |
-| `key Language` | `Language` |
+| `ProdAllocSequenceGroupUUID` | `ProdAllocSequenceGroupUUID` |
+| `Language` | `Language` |
 | `ProdAllocSequenceGroupDesc` | `ProdAllocSequenceGroupDesc` |
 | `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
-| `_ProdAllocationSequenceTP: redirected to  I_ProdAllocationSequenceTP_2` | *Association* |
-| `_ProdAllocSqncGroupTP: redirected to parent I_ProdAllocSqncGroupTP_2` | *Association* |
 
 ## Associations
 

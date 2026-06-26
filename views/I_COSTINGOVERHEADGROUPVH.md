@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostingOverheadGroup` | `CostingOverheadGroup` |
-| `key ValuationArea` | `ValuationArea` |
+| `CostingOverheadGroup` | `CostingOverheadGroup` |
+| `ValuationArea` | `ValuationArea` |
 | `CostingOverhead` | `OverheadCode` |
 | `_ValuationArea` | *Association* |
 

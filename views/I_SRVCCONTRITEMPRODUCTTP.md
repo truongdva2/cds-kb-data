@@ -31,13 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' }` | `name: 'I_ProductStdVH', element: 'Product' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `ServiceProductListItem` | `ServiceProductListItem` |
 | `SrvcContrProdListProduct` | `SrvcContrProdListProduct` |
-| `/* Associations */` | `/* Associations */` |
 | `_ProductText` | *Association* |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
 
 ## Associations
 

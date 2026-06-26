@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ControllingArea` | `ControllingArea` |
-| `_Text[1: Language=$session.system_language].ControllingAreaName` | *Association* |
+| `ControllingArea` | `ControllingArea` |
+| `ControllingAreaName` | `_Text[1: Language=$session.system_language].ControllingAreaName` |
 
 ## Associations
 

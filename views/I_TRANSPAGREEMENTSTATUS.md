@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/fag_root_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationAgreementStatus` | `cast(substring(domvalue_l, 1, 2) as /scmtms/fag_root_status preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspAgreementStatusText_2` | [0..*] |
 
 ## Source Code
 

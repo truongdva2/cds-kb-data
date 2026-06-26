@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharcRestriction.CharcInternalID` | `CharcRestriction.CharcInternalID` |
-| `key CharcRestriction.ClassType` | `CharcRestriction.ClassType` |
+| `CharcInternalID` | `CharcRestriction.CharcInternalID` |
+| `ClassType` | `CharcRestriction.ClassType` |
 | `_ClassType` | *Association* |
 
 ## Associations

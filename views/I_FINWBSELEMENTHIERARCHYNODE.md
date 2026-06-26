@@ -32,18 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hryid preserving type)` | `cast('WBSELEMENTHIERARCHY                       '` |
-| `HierarchyNode` | `_WBSElement.WBSElement` |
-| `fis_datbi )` | `cast('99991231'` |
-| `_Parent.WBSElement                                                                          as ParentNode` | *Association* |
-| `HierarchyVersion` | `'000000000000001'` |
-| `fis_datab )` | `cast('19000101'` |
-| `fis_wbsext_no_conv preserving type )` | `cast(coalesce(_WBSElement.WBSElementExternalID, '')` |
-| `_WBSElement.WBSElement                                                                      as WBSElement` | *Association* |
-| `fis_parent_wbsext_no_conv preserving type)` | `cast(_Parent.WBSElementExternalID` |
-| `NodeType` | `'L'` |
-| `hryseqnbr preserving type )` | `cast ('000000'` |
-| `hrylevel preserving type )` | `cast ('000000'` |
+| `WBSElementHierarchy` | `R_FinWBSElementHierarchyNode.WBSElementHierarchy` |
+| `HierarchyNode` | `R_FinWBSElementHierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `R_FinWBSElementHierarchyNode.ValidityEndDate` |
+| `ParentNode` | `R_FinWBSElementHierarchyNode.ParentNode` |
+| `HierarchyVersion` | `R_FinWBSElementHierarchyNode.HierarchyVersion` |
+| `ValidityStartDate` | `R_FinWBSElementHierarchyNode.ValidityStartDate` |
+| `WBSElementExternalID` | `R_FinWBSElementHierarchyNode.WBSElementExternalID` |
+| `WBSElement` | `R_FinWBSElementHierarchyNode.WBSElement` |
+| `ParentWBSElementExternalID` | `R_FinWBSElementHierarchyNode.ParentWBSElementExternalID` |
+| `NodeType` | `R_FinWBSElementHierarchyNode.NodeType` |
+| `HierarchyNodeSequence` | `R_FinWBSElementHierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `R_FinWBSElementHierarchyNode.HierarchyNodeLevel` |
 | `_Hierarchy` | *Association* |
 | `_WBSElementByExternalID` | *Association* |
 | `_Text` | *Association* |
@@ -53,11 +53,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_WBSElementBasicData` | `I_WBSElementBasicData` | [0..1] |
-| `_Hierarchy` | `I_FinWBSElementHierarchy` | [1..1] |
-| `_Text` | `I_FinWBSElementHierarchyNodeT` | [0..*] |
-| `_WBSElementByExternalID` | `I_WBSElementByExternalID` | [0..1] |
-| `_WBSElement` | `I_WBSElementBasicData` | [0..1] |
-| `_Parent` | `I_WBSElementBasicData` | [0..1] |
 | `_Hierarchy` | `I_FinWBSElementHierarchy` | [1..1] |
 | `_Text` | `I_FinWBSElementHierarchyNodeT` | [0..*] |
 | `_WBSElementByExternalID` | `I_WBSElementByExternalID` | [0..1] |

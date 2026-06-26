@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `maintorderprocessingcontext )` | `cast( dd07l.domvalue_l` |
+| `MaintOrderProcessingContext` | `cast( dd07l.domvalue_l as maintorderprocessingcontext )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `rantyp )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `TreasuryContractType` | `cast( dd07t.domvalue_l as rantyp )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `rantyp_name preserving type )` | `cast( dd07t.ddtext` |
+| `TreasuryContractTypeName` | `cast( dd07t.ddtext as rantyp_name preserving type )` |
 | `_ContractType` | *Association* |
 | `_Language` | *Association* |
 

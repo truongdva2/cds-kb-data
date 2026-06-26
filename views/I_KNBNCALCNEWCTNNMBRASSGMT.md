@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `nknum)` | `cast(substring(domvalue_l, 1, 1)` |
+| `KnbnCalcNewCtnNmbrAssgmt` | `cast(substring(domvalue_l, 1, 1) as nknum)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

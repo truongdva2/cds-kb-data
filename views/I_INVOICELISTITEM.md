@@ -31,7 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } } ]` | `name: 'I_Customer_VH', element: 'Customer' } } ]` |
+| `InvoiceList` | `vbeln` |
+| `InvoiceListItem` | `posnr` |
+| `BillingDocument` | `vbeln_vf` |
+| `NetAmount` | `netwr` |
+| `TaxAmount` | `mwsbp` |
+| `GrossAmount` | `cast(netwr + mwsbp + kwert_rl + mwsbp_rl as brtwert_rl)` |
+| `RemunerationNetAmount` | `kwert_rl` |
+| `RemunerationTaxAmount` | `mwsbp_rl` |
+| `TransactionCurrency` | `_BillingDocument.TransactionCurrency` |
+| `PricingIsIncomplete` | `uvprs` |
 | `SoldToParty` | `kunag` |
 | `LogicalSystem` | `logsys` |
 | `_InvoiceList` | *Association* |

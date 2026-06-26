@@ -33,8 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pvbtx preserving type)` | `cast(pvkt.pvbtx` |
+| `ProductionSupplyArea` | `pvkt.prvbe` |
+| `Plant` | `pvkt.werks` |
+| `Language` | `pvkt.spras` |
+| `ProductionSupplyAreaName` | `cast(pvkt.pvbtx as vdm_pvbtx preserving type)` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |
 

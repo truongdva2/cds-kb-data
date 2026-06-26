@@ -33,14 +33,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjectUUID` | `ProjectUUID` |
+| `ProjectUUID` | `ProjectUUID` |
 | `ParentObjectUUID` | `ParentObjectUUID` |
 | `EntProjTimeRecgIsBlkd` | `EntProjTimeRecgIsBlkd` |
 | `EntProjStaffExpensePostgIsBlkd` | `EntProjStaffExpensePostgIsBlkd` |
 | `EntProjServicePostingIsBlkd` | `EntProjServicePostingIsBlkd` |
 | `EntProjOtherExpensePostgIsBlkd` | `EntProjOtherExpensePostgIsBlkd` |
 | `EntProjPurchasingIsBlkd` | `EntProjPurchasingIsBlkd` |
-| `_EnterpriseProject : redirected to parent I_EnterpriseProjectTP_3` | *Association* |
 | `_EnterpriseProjectForUser` | *Association* |
 
 ## Associations

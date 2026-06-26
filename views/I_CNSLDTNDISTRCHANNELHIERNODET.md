@@ -30,16 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _HierarchyNodeText.Language` | `_HierarchyNodeText.Language` |
-| `fincs_distrchannelhierarchy preserving type )` | `cast(_HierarchyNodeText.UniversalHierarchy` |
-| `key _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyNodeText._Language` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `CnsldtnDistrChannelHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

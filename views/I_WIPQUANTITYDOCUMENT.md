@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ControllingDocument` | `ControllingDocument` |
-| `key  Plant` | `Plant` |
-| `key  CostEstimate` | `CostEstimate` |
-| `key  FiscalYear` | `FiscalYear` |
-| `key  FiscalPeriod` | `FiscalPeriod` |
+| `ControllingDocument` | `ControllingDocument` |
+| `Plant` | `Plant` |
+| `CostEstimate` | `CostEstimate` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
 | `FiscalYearPeriod` | `FiscalYearPeriod` |
 | `ObjectInternalID` | `ObjectInternalID` |
 | `OrderID` | `OrderID` |

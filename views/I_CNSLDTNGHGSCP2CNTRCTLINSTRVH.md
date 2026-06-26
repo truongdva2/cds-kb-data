@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGScope2ContractualInstrument` | `_Source.GHGScope2ContractualInstrument` |
-| `_Source._Text[1: Language=$session.system_language].GHGScp2CntrctlInstrName` | *Association* |
+| `GHGScope2ContractualInstrument` | `_Source.GHGScope2ContractualInstrument` |
+| `GHGScp2CntrctlInstrName` | `_Source._Text[1: Language=$session.system_language].GHGScp2CntrctlInstrName` |
 
 ## Associations
 

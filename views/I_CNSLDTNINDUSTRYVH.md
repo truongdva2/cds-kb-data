@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Industry.Industry` | `_Industry.Industry` |
-| `_Industry._Text[1: Language=$session.system_language].IndustryName` | *Association* |
+| `Industry` | `_Industry.Industry` |
+| `IndustryName` | `_Industry._Text[1: Language=$session.system_language].IndustryName` |
 
 ## Associations
 

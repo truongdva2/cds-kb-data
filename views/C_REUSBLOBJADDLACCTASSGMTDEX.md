@@ -32,33 +32,33 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RealEstateUsableObjectUUID` | `_REUsableObjectData.RealEstateUsableObjectUUID` |
-| `key _REObjectAssgmt.REStatusObjectSource` | `_REObjectAssgmt.REStatusObjectSource` |
-| `key _REObjectAssgmt.REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
-| `key _REObjectAssgmt.REStatusObjectTarget` | `_REObjectAssgmt.REStatusObjectTarget` |
+| `REStatusObjectSource` | `_REObjectAssgmt.REStatusObjectSource` |
+| `REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
+| `REStatusObjectTarget` | `_REObjectAssgmt.REStatusObjectTarget` |
 | `ValidityStartDate` | `_REObjectAssgmt.ValidityStartDate` |
-| `_REObjectAssgmt.ValidityEndDate` | *Association* |
-| `_REObjectAssgmt.REOnlyInfoAssgmt` | *Association* |
-| `_REObjectAssgmt.REStatusObjectSourceIsArchived` | *Association* |
-| `_REObjectAssgmt.REGenerationType` | *Association* |
-| `_REObjectAssgmt.REIsMainAsset` | *Association* |
-| `_REObjectAssgmt.REAssignmentHasMultiple` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionStartDate` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionEndDate` | *Association* |
-| `_REObjectAssgmt.REIsLeadingObject` | *Association* |
-| `reipvdmbusobjtypecn preserving type )` | `cast( left(_REObjectAssgmt.REStatusObjectTarget,2)` |
-| `_REObjectAssgmt._CostCenter[1:ValidityStartDate <= $projection.validitystartdate and ValidityEndDate >= $projection.validitystartdate ].CostCenter` | *Association* |
-| `_REObjectAssgmt._CostCenter[1:ValidityStartDate <= $projection.validitystartdate and ValidityEndDate >= $projection.validitystartdate ].ControllingArea` | *Association* |
-| `_REObjectAssgmt._InternalOrder.InternalOrder` | *Association* |
-| `_REObjectAssgmt._WBSElement.WBSElementExternalID` | *Association* |
-| `_REObjectAssgmt._CostCenter` | *Association* |
-| `_REObjectAssgmt._FixedAsset` | *Association* |
-| `_REObjectAssgmt._InternalOrder` | *Association* |
-| `_REObjectAssgmt._REContractSubject` | *Association* |
-| `_REObjectAssgmt._REGenerationType` | *Association* |
-| `_REObjectAssgmt._REObjectGroup` | *Association* |
-| `_REObjectAssgmt._REObjectTypeDetails` | *Association* |
-| `_REObjectAssgmt._TechnicalObject` | *Association* |
-| `_REObjectAssgmt._WBSElement` | *Association* |
+| `ValidityEndDate` | `_REObjectAssgmt.ValidityEndDate` |
+| `REOnlyInfoAssgmt` | `_REObjectAssgmt.REOnlyInfoAssgmt` |
+| `REStatusObjectSourceIsArchived` | `_REObjectAssgmt.REStatusObjectSourceIsArchived` |
+| `REGenerationType` | `_REObjectAssgmt.REGenerationType` |
+| `REIsMainAsset` | `_REObjectAssgmt.REIsMainAsset` |
+| `REAssignmentHasMultiple` | `_REObjectAssgmt.REAssignmentHasMultiple` |
+| `REObjectPossessionStartDate` | `_REObjectAssgmt.REObjectPossessionStartDate` |
+| `REObjectPossessionEndDate` | `_REObjectAssgmt.REObjectPossessionEndDate` |
+| `REIsLeadingObject` | `_REObjectAssgmt.REIsLeadingObject` |
+| `REObjectTypeTarget` | `cast(…)` |
+| `CostCenter` | `expr(…)` |
+| `ControllingArea` | `expr(…)` |
+| `InternalOrder` | `_REObjectAssgmt._InternalOrder.InternalOrder` |
+| `WBSElementExternalID` | `_REObjectAssgmt._WBSElement.WBSElementExternalID` |
+| `_CostCenter` | *Association* |
+| `_FixedAsset` | *Association* |
+| `_InternalOrder` | *Association* |
+| `_REContractSubject` | *Association* |
+| `_REGenerationType` | *Association* |
+| `_REObjectGroup` | *Association* |
+| `_REObjectTypeDetails` | *Association* |
+| `_TechnicalObject` | *Association* |
+| `_WBSElement` | *Association* |
 | `_REUsableObject` | *Association* |
 | `_REObjectTypeTarget` | *Association* |
 
@@ -66,6 +66,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REUsableObject` | `I_REUsableObject` | — |
 | `_REObjectTypeTarget` | `I_REObjectType` | [1..1] |
 
 ## Source Code

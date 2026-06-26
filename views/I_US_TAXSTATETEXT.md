@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_etxdc_region )` | `cast ( Region` |
-| `key Language` | `Language` |
+| `US_TaxState` | `cast ( Region as fis_etxdc_region )` |
+| `Language` | `Language` |
 | `US_TaxStateName` | `RegionName` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

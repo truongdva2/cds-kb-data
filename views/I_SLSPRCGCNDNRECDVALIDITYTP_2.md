@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -150,7 +150,6 @@ tags:
 | `BillingDocumentType` | `BillingDocumentType` |
 | `MatlAccountAssignmentGroup` | `MatlAccountAssignmentGroup` |
 | `Route` | `Route` |
-| `_ConditionRecord : redirected to parent I_SlsPrcgConditionRecordTP_2` | *Association* |
 
 ## Associations
 

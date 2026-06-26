@@ -35,8 +35,7 @@ tags:
 | `TreasuryContractType` | `FinTransFlowTypeText.rantyp` |
 | `FinTransFlowType` | `FinTransFlowTypeText.sbewart` |
 | `Language` | `FinTransFlowTypeText.sspras` |
-| `ftr_flow_type_name preserving type )` | `cast( FinTransFlowTypeText.xbewart` |
-| `as FinTransFlowTypeName` | `as FinTransFlowTypeName` |
+| `FinTransFlowTypeName` | `cast( FinTransFlowTypeText.xbewart as ftr_flow_type_name preserving type )` |
 | `_Language` | *Association* |
 | `_FinTransFlowType` | *Association* |
 | `_TreasuryContractType` | *Association* |

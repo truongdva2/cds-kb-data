@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invoice_inbound_entry_type )` | `cast( dd07l.domvalue_l` |
+| `InvoiceInboundEntryType` | `cast( dd07l.domvalue_l as invoice_inbound_entry_type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

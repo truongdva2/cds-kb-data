@@ -31,9 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ProductStdVH'` | `name:    'I_ProductStdVH'` |
-| `element: 'Product' }` | `element: 'Product' }` |
-| `}]` | `}]` |
+| `CustomerProject` | `CustProjSlsOrd.CustomerProject` |
+| `SalesOrderItem` | `SalesOrderItem.SalesOrderItem` |
+| `SalesOrder` | `SalesOrderItem.SalesOrder` |
+| `SalesOrderItemCategory` | `SalesOrderItemCategory` |
+| `Material` | `Material` |
 | `Product` | `Product` |
 | `SalesOrderItemText` | `SalesOrderItemText` |
 | `ProfitCenter` | `ProfitCenter` |
@@ -41,22 +43,22 @@ tags:
 | `CappedNetAmtAlertThldInPct` | `CappedNetAmtAlertThldInPct` |
 | `MaterialByCustomer` | `MaterialByCustomer` |
 | `NetAmount` | `NetAmount` |
-| `SalesOrderItem.TransactionCurrency` | `SalesOrderItem.TransactionCurrency` |
+| `TransactionCurrency` | `SalesOrderItem.TransactionCurrency` |
 | `WBSElement` | `WBSElement` |
-| `SalesOrderItem.WBSElementInternalID` | `SalesOrderItem.WBSElementInternalID` |
-| `SalesOrderItem.PurchaseOrderByCustomer` | `SalesOrderItem.PurchaseOrderByCustomer` |
-| `SalesOrderItem.UnderlyingPurchaseOrderItem` | `SalesOrderItem.UnderlyingPurchaseOrderItem` |
-| `SalesOrderItem.CustomerPaymentTerms` | `SalesOrderItem.CustomerPaymentTerms` |
+| `WBSElementInternalID` | `SalesOrderItem.WBSElementInternalID` |
+| `PurchaseOrderByCustomer` | `SalesOrderItem.PurchaseOrderByCustomer` |
+| `UnderlyingPurchaseOrderItem` | `SalesOrderItem.UnderlyingPurchaseOrderItem` |
+| `CustomerPaymentTerms` | `SalesOrderItem.CustomerPaymentTerms` |
 | `BillingPlan` | `BillingPlan` |
 | `TotalStandAloneSellingPrice` | `TotalStandAloneSellingPrice` |
 | `SalesDocumentRjcnReason` | `SalesDocumentRjcnReason` |
 | `SDDocumentRejectionStatus` | `SDDocumentRejectionStatus` |
 | `SDProcessStatus` | `SDProcessStatus` |
-| `SalesOrderItem.ItemBillingBlockReason` | `SalesOrderItem.ItemBillingBlockReason` |
-| `CustProjSlsOrd.SalesOrderType` | `CustProjSlsOrd.SalesOrderType` |
-| `CustProjSlsOrd.OrganizationDivision` | `CustProjSlsOrd.OrganizationDivision` |
-| `CustProjSlsOrd.SalesOrganization` | `CustProjSlsOrd.SalesOrganization` |
-| `CustProjSlsOrd.DistributionChannel` | `CustProjSlsOrd.DistributionChannel` |
+| `ItemBillingBlockReason` | `SalesOrderItem.ItemBillingBlockReason` |
+| `SalesOrderType` | `CustProjSlsOrd.SalesOrderType` |
+| `OrganizationDivision` | `CustProjSlsOrd.OrganizationDivision` |
+| `SalesOrganization` | `CustProjSlsOrd.SalesOrganization` |
+| `DistributionChannel` | `CustProjSlsOrd.DistributionChannel` |
 | `_CustomerProject` | *Association* |
 | `_SalesOrder` | *Association* |
 | `_CustProjSlsOrd` | *Association* |
@@ -64,12 +66,12 @@ tags:
 | `_CustProjSlsOrdItmBillgPlnItm` | *Association* |
 | `_Material` | *Association* |
 | `_Product` | *Association* |
-| `SalesOrderItem._CustomerPaymentTerms` | `SalesOrderItem._CustomerPaymentTerms` |
-| `SalesOrderItem._TransactionCurrency` | `SalesOrderItem._TransactionCurrency` |
-| `SalesOrderItem._SalesDocumentRjcnReason` | `SalesOrderItem._SalesDocumentRjcnReason` |
-| `SalesOrderItem._SDDocumentRejectionStatus` | `SalesOrderItem._SDDocumentRejectionStatus` |
-| `SalesOrderItem._SDProcessStatus` | `SalesOrderItem._SDProcessStatus` |
-| `SalesOrderItem._ItemBillingBlockReason` | `SalesOrderItem._ItemBillingBlockReason` |
+| `_CustomerPaymentTerms` | *Association* |
+| `_TransactionCurrency` | *Association* |
+| `_SalesDocumentRjcnReason` | *Association* |
+| `_SDDocumentRejectionStatus` | *Association* |
+| `_SDProcessStatus` | *Association* |
+| `_ItemBillingBlockReason` | *Association* |
 
 ## Associations
 

@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_trmod_cat preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationModeCategory` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_tor_trmod_cat preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_trmod_cat_desc preserving type )` | `cast ( ddtext` |
+| `TransportationModeCategoryDesc` | `cast ( ddtext as /scmtms/vdm_tor_trmod_cat_desc preserving type )` |
 | `DomainValue` | `domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationModeCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationModeCategory` | `I_TransportationModeCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

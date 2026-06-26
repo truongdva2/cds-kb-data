@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
 | `SerialNumber` | `SerialNumber` |
 | `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
 | `ManufacturerSerialNumber` | `ManufacturerSerialNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationItemTP : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

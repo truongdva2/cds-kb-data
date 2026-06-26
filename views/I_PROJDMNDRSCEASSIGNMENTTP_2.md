@@ -31,7 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'ProjDmndRsceAssgmtQuantityUnit'} }` | `unitOfMeasure: 'ProjDmndRsceAssgmtQuantityUnit'} }` |
+| `ProjDmndRsceAssgmtUUID` | `ProjDmndRsceAssgmtUUID` |
+| `ProjectDemandWorkUUID` | `ProjectDemandWorkUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjDmndRsceAssgmt` | `ProjDmndRsceAssgmt` |
 | `ProjDmndRsceAssgmtQuantity` | `ProjDmndRsceAssgmtQuantity` |
 | `ProjDmndRsceAssgmtQuantityUnit` | `ProjDmndRsceAssgmtQuantityUnit` |
 | `ProjectUUID` | `ProjectUUID` |
@@ -48,11 +51,7 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Root               : redirected to I_ProjectDemandTP_2` | *Association* |
-| `_Work               : redirected to parent I_ProjectDemandResourceTP` | *Association* |
 | `_RsceAssgmtQuantityUnit` | *Association* |
-| `_AssgmtDistribution : redirected to composition child I_ProjDmndRsceAssgmtDistrTP` | *Association* |
 | `_PersonWorkAgreement` | *Association* |
 
 ## Associations

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ScheduleLine` | `ScheduleLine` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ScheduleLine` | `ScheduleLine` |
 | `DelivDateCategory` | `DelivDateCategory` |
 | `ScheduleLineDeliveryDate` | `ScheduleLineDeliveryDate` |
 | `SchedLineStscDeliveryDate` | `SchedLineStscDeliveryDate` |
@@ -48,10 +48,6 @@ tags:
 | `SourceOfCreation` | `SourceOfCreation` |
 | `ScheduleLineOpenQuantity` | `ScheduleLineOpenQuantity` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItm           : redirected to parent I_SchedgAgrmtItmTP_2` | *Association* |
-| `_SchedgAgrmtSubcontrgComp : redirected to composition child I_SchedgAgrmtSubcontrgCompTP_2` | *Association* |
-| `_PurSchedgAgrmt           : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

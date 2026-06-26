@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InsurClmDamageCategory` | `InsurClmDamageCategory` |
+| `InsurClmDamageCategory` | `InsurClmDamageCategory` |
 | `InsurClmInsuredObjectCategory` | `InsurClmInsuredObjectCategory` |
 | `_InsurClmDamageCatT` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_InsurClmDamageCatT` | `I_InsurClmDamageCatT` | [0..*] |
 
 ## Source Code
 

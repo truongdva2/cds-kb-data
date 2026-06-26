@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_nfedocstatus preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFeDocumentStatus` | `cast( substring( domvalue_l, 1, 1 ) as logbr_nfedocstatus preserving type )` |
 | `BR_NFeDocumentStatusDesc` | `ddtext` |
 | `_BR_NFeDocumentStatus` | *Association* |
 | `_Language` | *Association* |

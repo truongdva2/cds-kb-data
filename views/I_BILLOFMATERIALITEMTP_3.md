@@ -35,12 +35,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key BillOfMaterialVersion` | `BillOfMaterialVersion` |
+| `BillOfMaterialVersion` | `BillOfMaterialVersion` |
 | `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
-| `key HeaderChangeDocument` | `HeaderChangeDocument` |
+| `HeaderChangeDocument` | `HeaderChangeDocument` |
 | `Material` | `Material` |
 | `Plant` | `Plant` |
 | `BillOfMaterialItemUUID` | `BillOfMaterialItemUUID` |
@@ -144,8 +144,6 @@ tags:
 | `DocumentItemDetailsIsHidden` | `DocumentItemDetailsIsHidden` |
 | `_MaterialPlant` | *Association* |
 | `_BOMItemCategory` | *Association* |
-| `_MatBOMHeader  : redirected to parent I_BillOfMaterialTP_3` | *Association* |
-| `_MatBOMSubitem : redirected to composition child I_BillOfMaterialSubItemTP_3` | *Association* |
 
 ## Associations
 

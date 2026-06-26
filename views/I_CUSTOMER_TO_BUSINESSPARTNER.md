@@ -38,7 +38,7 @@ tags:
 | `BusinessPartnerUUID` | `partner_guid` |
 | `Customer` | `customer` |
 | `_Customer` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

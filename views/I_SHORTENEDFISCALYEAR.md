@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_periv preserving type )` | `cast( t009y.periv` |
+| `FiscalYearVariant` | `cast( t009y.periv as fis_periv preserving type )` |
 | `FiscalYear` | `t009y.gjahr` |
 | `PostingPeriodsNumberVal` | `t009y.anzbp` |
 | `NumberOfSpecialPeriods` | `t009y.anzsp` |

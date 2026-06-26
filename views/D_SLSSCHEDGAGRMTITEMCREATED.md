@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime          : vdm_lastchangedon;` | `EventRaisedDateTime          : vdm_lastchangedon;` |
-| `SalesSchedgAgrmtType         : vdm_sales_schedg_agrmt_type;` | `SalesSchedgAgrmtType         : vdm_sales_schedg_agrmt_type;` |
-| `SalesOrganization            : vkorg;` | `SalesOrganization            : vkorg;` |
-| `DistributionChannel          : vtweg;` | `DistributionChannel          : vtweg;` |
-| `OrganizationDivision         : spart;` | `OrganizationDivision         : spart;` |
-| `SoldToParty                  : kunnr;` | `SoldToParty                  : kunnr;` |
-| `SalesSchedgAgrmtItemCategory : pstyv;` | `SalesSchedgAgrmtItemCategory : pstyv;` |
-| `Product                      : matnr;` | `Product                      : matnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `SalesSchedgAgrmtType` | `vdm_sales_schedg_agrmt_type` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `SalesSchedgAgrmtItemCategory` | `pstyv` |
+| `Product` | `matnr` |
 
 ## Associations
 

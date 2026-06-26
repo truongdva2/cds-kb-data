@@ -31,17 +31,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_RFQScheduleLine.RequestForQuotation` | `I_RFQScheduleLine.RequestForQuotation` |
-| `key I_RFQScheduleLine.RequestForQuotationItem` | `I_RFQScheduleLine.RequestForQuotationItem` |
-| `key I_RFQScheduleLine.ScheduleLine` | `I_RFQScheduleLine.ScheduleLine` |
-| `I_RFQScheduleLine.DelivDateCategory` | `I_RFQScheduleLine.DelivDateCategory` |
-| `I_RFQScheduleLine.ScheduleLineDeliveryDate` | `I_RFQScheduleLine.ScheduleLineDeliveryDate` |
-| `I_RFQScheduleLine.SchedLineStscDeliveryDate` | `I_RFQScheduleLine.SchedLineStscDeliveryDate` |
-| `I_RFQScheduleLine.ScheduleLineDeliveryTime` | `I_RFQScheduleLine.ScheduleLineDeliveryTime` |
-| `I_RFQScheduleLine.ScheduleLineOrderQuantity` | `I_RFQScheduleLine.ScheduleLineOrderQuantity` |
-| `I_RFQScheduleLine.RoughGoodsReceiptQty` | `I_RFQScheduleLine.RoughGoodsReceiptQty` |
-| `I_RFQScheduleLine.OrderQuantityUnit` | `I_RFQScheduleLine.OrderQuantityUnit` |
-| `/*Associations*/` | `/*Associations*/` |
+| `RequestForQuotation` | `I_RFQScheduleLine.RequestForQuotation` |
+| `RequestForQuotationItem` | `I_RFQScheduleLine.RequestForQuotationItem` |
+| `ScheduleLine` | `I_RFQScheduleLine.ScheduleLine` |
+| `DelivDateCategory` | `I_RFQScheduleLine.DelivDateCategory` |
+| `ScheduleLineDeliveryDate` | `I_RFQScheduleLine.ScheduleLineDeliveryDate` |
+| `SchedLineStscDeliveryDate` | `I_RFQScheduleLine.SchedLineStscDeliveryDate` |
+| `ScheduleLineDeliveryTime` | `I_RFQScheduleLine.ScheduleLineDeliveryTime` |
+| `ScheduleLineOrderQuantity` | `I_RFQScheduleLine.ScheduleLineOrderQuantity` |
+| `RoughGoodsReceiptQty` | `I_RFQScheduleLine.RoughGoodsReceiptQty` |
+| `OrderQuantityUnit` | `I_RFQScheduleLine.OrderQuantityUnit` |
 | `_RequestForQuotation` | *Association* |
 | `_RequestForQuotationItem` | *Association* |
 

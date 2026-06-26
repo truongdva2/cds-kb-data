@@ -31,16 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.ConsolidationGroup` | `_Source.ConsolidationGroup` |
-| `key _Source.ConsolidationUnit` | `_Source.ConsolidationUnit` |
-| `key _Source.ConsolidationVersion` | `_Source.ConsolidationVersion` |
-| `key _Source.GroupStrucFromFiscalYearPeriod` | `_Source.GroupStrucFromFiscalYearPeriod` |
-| `key _Source.MethAssgmtFromFiscalYearPeriod` | `_Source.MethAssgmtFromFiscalYearPeriod` |
-| `_Source.MethAssgmtToFiscalYearPeriod` | *Association* |
-| `_Source.ConsolidationInvestmentMethod` | *Association* |
-| `_Source.MethChangeIsAtBeginOfPeriod` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CnsldtnGroupStructure as _CnsldtnGroupStructure : redirected to parent I_CnsldtnGroupStructureTP` | *Association* |
+| `ConsolidationGroup` | `_Source.ConsolidationGroup` |
+| `ConsolidationUnit` | `_Source.ConsolidationUnit` |
+| `ConsolidationVersion` | `_Source.ConsolidationVersion` |
+| `GroupStrucFromFiscalYearPeriod` | `_Source.GroupStrucFromFiscalYearPeriod` |
+| `MethAssgmtFromFiscalYearPeriod` | `_Source.MethAssgmtFromFiscalYearPeriod` |
+| `MethAssgmtToFiscalYearPeriod` | `_Source.MethAssgmtToFiscalYearPeriod` |
+| `ConsolidationInvestmentMethod` | `_Source.ConsolidationInvestmentMethod` |
+| `MethChangeIsAtBeginOfPeriod` | `_Source.MethChangeIsAtBeginOfPeriod` |
+| `_CnsldtnGroupStructure` | *Association* |
 
 ## Associations
 

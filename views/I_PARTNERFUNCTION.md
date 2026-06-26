@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `parvw_unv)` | `cast(parvw` |
+| `PartnerFunction` | `cast(parvw as parvw_unv)` |
 | `SDDocumentPartnerType` | `nrart` |
 | `_Text` | *Association* |
 | `_PartnerFunctionLangDepdnt` | *Association* |

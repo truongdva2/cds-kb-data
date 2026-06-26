@@ -32,39 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PRT.ProductionResourceType` | `PRT.ProductionResourceType` |
-| `key PRT.ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
-| `key I_Language.Language` | `I_Language.Language` |
-| `cast(` | `cast(` |
-| `case PRT.ProdnRsceToolCategory` | `case PRT.ProdnRsceToolCategory` |
-| `when 'M' then I_MaterialText.MaterialName` | `when 'M' then I_MaterialText.MaterialName` |
-| `when 'E' then I_EquipmentText.EquipmentName` | `when 'E' then I_EquipmentText.EquipmentName` |
-| `when 'S' then I_MiscProdnRsceToolText.MiscProductionResourceToolDesc` | `when 'S' then I_MiscProdnRsceToolText.MiscProductionResourceToolDesc` |
-| `when 'D' then I_DocumentInfoRecordDesc.DocumentDescription` | `when 'D' then I_DocumentInfoRecordDesc.DocumentDescription` |
-| `when 'P' then I_MeasuringPoint.MeasuringPointDescription` | `when 'P' then I_MeasuringPoint.MeasuringPointDescription` |
-| `else ' '` | `else ' '` |
-| `fhktx preserving type)` | `end` |
-| `cast(` | `cast(` |
-| `case PRT.ProdnRsceToolCategory` | `case PRT.ProdnRsceToolCategory` |
-| `when 'M' then PRT.Material` | `when 'M' then PRT.Material` |
-| `when 'E' then PRT.Equipment` | `when 'E' then PRT.Equipment` |
-| `when 'S' then PRT.MiscProductionResourceTool` | `when 'S' then PRT.MiscProductionResourceTool` |
-| `when 'D' then concat_with_space(concat_with_space(concat_with_space(` | `when 'D' then concat_with_space(concat_with_space(concat_with_space(` |
-| `PRT.DocumentInfoRecord, PRT.DocumentType, 1), PRT.DocumentPart, 1), PRT.DocumentVersion, 1)` | `PRT.DocumentInfoRecord, PRT.DocumentType, 1), PRT.DocumentPart, 1), PRT.DocumentVersion, 1)` |
-| `when 'P' then PRT.MeasuringPoint` | `when 'P' then PRT.MeasuringPoint` |
-| `else ' '` | `else ' '` |
-| `pph_fhmnr preserving type)` | `end` |
-| `mpe_fhmar preserving type)` | `cast(PRT.ProdnRsceToolCategory` |
-| `PRT.DocumentType` | `PRT.DocumentType` |
-| `PRT.DocumentInfoRecord` | `PRT.DocumentInfoRecord` |
-| `PRT.DocumentVersion` | `PRT.DocumentVersion` |
-| `PRT.DocumentPart` | `PRT.DocumentPart` |
+| `ProductionResourceType` | `PRT.ProductionResourceType` |
+| `ProductionResourceInternalID` | `PRT.ProductionResourceInternalID` |
+| `Language` | `I_Language.Language` |
+| `ProductionResourceToolDesc` | `cast(…)` |
+| `ProductionResourceTool` | `cast(…)` |
+| `ProdnRsceToolCategory` | `cast(PRT.ProdnRsceToolCategory as mpe_fhmar preserving type)` |
+| `DocumentType` | `PRT.DocumentType` |
+| `DocumentInfoRecord` | `PRT.DocumentInfoRecord` |
+| `DocumentVersion` | `PRT.DocumentVersion` |
+| `DocumentPart` | `PRT.DocumentPart` |
 | `_ProductionResourceType` | *Association* |
-| `PRT._ProdnRsceToolCategory` | `PRT._ProdnRsceToolCategory` |
-| `PRT._DocumentType` | `PRT._DocumentType` |
-| `PRT._DocumentNumber` | `PRT._DocumentNumber` |
-| `PRT._DocumentVersion` | `PRT._DocumentVersion` |
-| `PRT._DocumentProdnRsceTool` | `PRT._DocumentProdnRsceTool` |
+| `_ProdnRsceToolCategory` | *Association* |
+| `_DocumentType` | *Association* |
+| `_DocumentNumber` | *Association* |
+| `_DocumentVersion` | *Association* |
+| `_DocumentProdnRsceTool` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

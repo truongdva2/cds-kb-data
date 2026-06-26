@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditControlArea` | `CreditControlArea` |
+| `CreditControlArea` | `CreditControlArea` |
 | `_Text` | *Association* |
 
 ## Associations

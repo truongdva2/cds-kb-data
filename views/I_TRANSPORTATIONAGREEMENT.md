@@ -30,23 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/vdm_fag_id preserving type)` | `cast(fagrmntid044` |
-| `/scmtms/vdm_fag_ext_id preserving type)` | `cast(external_fa_id` |
-| `/scmtms/vdm_fag_valdty_strt_dt preserving type)` | `cast(validity_start` |
-| `/scmtms/vdm_fag_valdty_end_dt preserving type)` | `cast(validity_end` |
-| `/scmtms/vdm_fag_doc_currency preserving type)` | `cast(doc_currency` |
-| `/scmtms/vdm_fag_root_status  preserving type)` | `cast(status` |
+| `TransportationAgreementUUID` | `cast(db_key as /scmtms/transpagrmt_uuid preserving type)` |
+| `TransportationAgreement` | `cast(fagrmntid044 as /scmtms/vdm_fag_id preserving type)` |
+| `TranspExternalAgreement` | `cast(external_fa_id as /scmtms/vdm_fag_ext_id preserving type)` |
+| `TranspAgreementValidFromDate` | `cast(validity_start as /scmtms/vdm_fag_valdty_strt_dt preserving type)` |
+| `TranspAgreementValidToDate` | `cast(validity_end as /scmtms/vdm_fag_valdty_end_dt preserving type)` |
+| `TransportationAgreementDocCrcy` | `cast(doc_currency as /scmtms/vdm_fag_doc_currency preserving type)` |
+| `TransportationAgreementStatus` | `cast(status as /scmtms/vdm_fag_root_status preserving type)` |
 | `TranspDimnWeightProfile` | `dim_wt_profile` |
 | `TransportationMode` | `mode_of_transp` |
 | `TransportationShippingType` | `shipping_type` |
-| `log_created_on preserving type)` | `cast(created_on` |
-| `vdm_createdbyuserid preserving type)` | `cast(created_by` |
-| `/scmtms/vdm_tm_tstmp_cht preserving type)` | `cast(changed_on` |
-| `vdm_lastchangedbyuserid preserving type)` | `cast(changed_by` |
-| `/scmtms/vdm_fag_tzone preserving type)` | `cast(timezone` |
+| `CreationDateTime` | `cast(created_on as log_created_on preserving type)` |
+| `CreatedByUser` | `cast(created_by as vdm_createdbyuserid preserving type)` |
+| `ChangedDateTime` | `cast(changed_on as /scmtms/vdm_tm_tstmp_cht preserving type)` |
+| `LastChangedByUser` | `cast(changed_by as vdm_lastchangedbyuserid preserving type)` |
+| `TranspAgreementTimeZone` | `cast(timezone as /scmtms/vdm_fag_tzone preserving type)` |
 | `TransportationAgreementType` | `fagtypeid103` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspAgreementItem` | *Association* |
 | `_TranspAgrmtOrganization` | *Association* |
 | `_TranspAgreementParty` | *Association* |
@@ -64,6 +63,10 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspAgreementItem` | `I_TranspAgreementItem_2` | [0..*] |
+| `_TranspAgrmtOrganization` | `I_TranspAgrmtOrganization_2` | [1..1] |
+| `_TranspAgreementParty` | `I_TranspAgreementParty_2` | [1..1] |
+| `_TranspAgreementDescription` | `I_TranspAgreementDescription_2` | [0..1] |
 | `_TranspAgrmtCurrency` | `I_Currency` | [1..1] |
 | `_TranspAgrmtCreatedBy` | `I_User` | [0..1] |
 | `_TranspAgrmtChangedBy` | `I_User` | [0..1] |

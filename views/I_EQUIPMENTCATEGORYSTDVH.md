@@ -33,8 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8} // Optimize Type ahead for value helps - 2302` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8} // Optimize Type ahead for value helps - 2302` |
-| `key EquipmentCategory` | `EquipmentCategory` |
+| `EquipmentCategory` | `EquipmentCategory` |
 | `EquipmentCategoryStatusProfile` | `EquipmentCategoryStatusProfile` |
 | `EquipmentCategoryViewProfile` | `EquipmentCategoryViewProfile` |
 | `EquipCatHasLinearAttributes` | `EquipCatHasLinearAttributes` |

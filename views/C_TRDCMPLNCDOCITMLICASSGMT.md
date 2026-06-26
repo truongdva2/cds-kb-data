@@ -30,22 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Item.TrdCmplncDocItemUUID` | `Item.TrdCmplncDocItemUUID` |
-| `key TrdCmplncLicenseUUID` | `TrdCmplncLicenseUUID` |
-| `_DocItem.ReferenceDocumentCategory` | *Association* |
-| `_DocItem.ReferenceDocument` | *Association* |
-| `_DocItem.ReferenceDocumentItem` | *Association* |
-| `_DocItem.CompanyCode` | *Association* |
-| `_License.LegalRegulation` | *Association* |
-| `_License.TrdCmplncLicenseType` | *Association* |
-| `_License.TrdCmplncLicenseOwner` | *Association* |
-| `_License.TrdCmplncLicenseCategory` | *Association* |
-| `_License.TrdCmplncLicense` | *Association* |
-| `_License.ExtTrdCmplncLicense` | *Association* |
-| `_License.TrdCmplncLicenseRemark` | *Association* |
-| `_License.TrdCmplncLicenseStatus` | *Association* |
-| `_License.ValidityStartDate` | *Association* |
-| `_License.ValidityEndDate` | *Association* |
+| `TrdCmplncDocItemUUID` | `Item.TrdCmplncDocItemUUID` |
+| `TrdCmplncLicenseUUID` | `TrdCmplncLicenseUUID` |
+| `ReferenceDocumentCategory` | `_DocItem.ReferenceDocumentCategory` |
+| `ReferenceDocument` | `_DocItem.ReferenceDocument` |
+| `ReferenceDocumentItem` | `_DocItem.ReferenceDocumentItem` |
+| `CompanyCode` | `_DocItem.CompanyCode` |
+| `LegalRegulation` | `_License.LegalRegulation` |
+| `TrdCmplncLicenseType` | `_License.TrdCmplncLicenseType` |
+| `TrdCmplncLicenseOwner` | `_License.TrdCmplncLicenseOwner` |
+| `TrdCmplncLicenseCategory` | `_License.TrdCmplncLicenseCategory` |
+| `TrdCmplncLicense` | `_License.TrdCmplncLicense` |
+| `ExtTrdCmplncLicense` | `_License.ExtTrdCmplncLicense` |
+| `TrdCmplncLicenseRemark` | `_License.TrdCmplncLicenseRemark` |
+| `TrdCmplncLicenseStatus` | `_License.TrdCmplncLicenseStatus` |
+| `ValidityStartDate` | `_License.ValidityStartDate` |
+| `ValidityEndDate` | `_License.ValidityEndDate` |
 | `_DocItem` | *Association* |
 | `_License` | *Association* |
 

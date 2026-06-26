@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConcurSystemKey` | `ConcurSystemKey` |
-| `key ConcurDocumentType` | `ConcurDocumentType` |
-| `key ConcurDocumentID` | `ConcurDocumentID` |
-| `key ConcurDocumentRevisionNumber` | `ConcurDocumentRevisionNumber` |
-| `key ConcurEntryIdentifier` | `ConcurEntryIdentifier` |
-| `key CompanyCode` | `CompanyCode` |
-| `key JournalEntry` | `JournalEntry` |
-| `key ConcurDocumentFiscalYear` | `ConcurDocumentFiscalYear` |
-| `key ReferenceDocumentItem` | `ReferenceDocumentItem` |
+| `ConcurSystemKey` | `ConcurSystemKey` |
+| `ConcurDocumentType` | `ConcurDocumentType` |
+| `ConcurDocumentID` | `ConcurDocumentID` |
+| `ConcurDocumentRevisionNumber` | `ConcurDocumentRevisionNumber` |
+| `ConcurEntryIdentifier` | `ConcurEntryIdentifier` |
+| `CompanyCode` | `CompanyCode` |
+| `JournalEntry` | `JournalEntry` |
+| `ConcurDocumentFiscalYear` | `ConcurDocumentFiscalYear` |
+| `ReferenceDocumentItem` | `ReferenceDocumentItem` |
 
 ## Associations
 

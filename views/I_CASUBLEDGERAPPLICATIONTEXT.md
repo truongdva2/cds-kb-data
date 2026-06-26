@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `trsla_kk preserving type )` | `cast( left( dd07t.domvalue_l, 5 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `trsla_text_kk preserving type )` | `cast( ddtext` |
+| `CASubledgerApplication` | `cast( left( dd07t.domvalue_l, 5 ) as trsla_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CASubledgerApplicationText` | `cast( ddtext as trsla_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_lifecycle )` | `cast( ServiceDocumentStatus` |
+| `ServiceContractStatus` | `cast( ServiceDocumentStatus as crms4_stat_lifecycle )` |
 | `ServiceContractStatusName` | `ServiceDocumentStatusName` |
 
 ## Associations

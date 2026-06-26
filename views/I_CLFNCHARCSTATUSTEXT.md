@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CharcStatus` | `I_ClfnCharcStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

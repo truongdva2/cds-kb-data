@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vvgidtype_at )` | `cast ( dd07l.domvalue_l` |
+| `BPGroupAssignmentCategory` | `cast ( dd07l.domvalue_l as vvgidtype_at )` |
 | `_Text` | *Association* |
 
 ## Associations

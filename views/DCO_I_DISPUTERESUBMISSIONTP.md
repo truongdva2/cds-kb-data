@@ -32,9 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dateTime: true }` | `dateTime: true }` |
+| `DCoDisputeUUID` | `DCoDisputeUUID` |
+| `DCoDisputeResubmissionUUID` | `DCoDisputeResubmissionUUID` |
+| `DCoDisputeResubmissionDueDate` | `DCoDisputeResubmissionDueDate` |
+| `DCoDisputeResubmissionActivity` | `DCoDisputeResubmissionActivity` |
+| `DCoDisputeResubmissionStatus` | `DCoDisputeResubmissionStatus` |
+| `DCoDisputeResubmissionNoteText` | `DCoDisputeResubmissionNoteText` |
+| `DCoDisputeResubmsnCreationUser` | `DCoDisputeResubmsnCreationUser` |
+| `DCoDsputResubmsnCrtnDateTime` | `DCoDsputResubmsnCrtnDateTime` |
+| `DCoDsputResubmsnLastChgdByUsr` | `DCoDsputResubmsnLastChgdByUsr` |
+| `DCoDsputResubmsnLstChgDateTime` | `DCoDsputResubmsnLstChgDateTime` |
+| `DCoDisputeResubmsnClosedByUser` | `DCoDisputeResubmsnClosedByUser` |
 | `DCoDsputResubmsnClsgDateTime` | `DCoDsputResubmsnClsgDateTime` |
-| `_Dispute : redirected to parent /DCO/I_DisputeTP` | *Association* |
 
 ## Associations
 

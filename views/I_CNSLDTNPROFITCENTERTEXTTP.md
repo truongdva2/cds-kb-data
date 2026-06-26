@@ -34,13 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.ControllingArea` | `_Text.ControllingArea` |
-| `key _Text.ProfitCenter` | `_Text.ProfitCenter` |
-| `_Text.ProfitCenterName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_ProfitCenter as _ProfitCenter : redirected to parent I_CnsldtnProfitCenterTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `ControllingArea` | `_Text.ControllingArea` |
+| `ProfitCenter` | `_Text.ProfitCenter` |
+| `ProfitCenterName` | `_Text.ProfitCenterName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_ProfitCenter` | *Association* |
 
 ## Associations
 

@@ -35,14 +35,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenancePlan` | `MaintenancePlan` |
-| `key Language` | `Language` |
+| `MaintenancePlan` | `MaintenancePlan` |
+| `Language` | `Language` |
 | `TextObjectKey` | `TextObjectKey` |
 | `TextObjectType` | `TextObjectType` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `MaintenancePlanLongText` | `MaintenancePlanLongText` |
-| `/* Local Associations */` | `/* Local Associations */` |
-| `_MaintenancePlan : redirected to parent I_MaintenancePlanTP_2` | *Association* |
 
 ## Associations
 

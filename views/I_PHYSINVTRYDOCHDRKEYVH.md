@@ -32,14 +32,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
-| `key FiscalYear` | `FiscalYear` |
+| `PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
+| `FiscalYear` | `FiscalYear` |
 | `Plant` | `Plant` |
 | `_PhysInvtryDocHdrFiscalYearVH` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PhysInvtryDocHdrFiscalYearVH` | `I_PhysInvtryDocHdrFiscalYearVH` | [1..1] |
 
 ## Source Code
 

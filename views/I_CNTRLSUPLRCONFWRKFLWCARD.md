@@ -31,20 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralSupplierConfirmation` | `CentralSupplierConfirmation` |
+| `CentralSupplierConfirmation` | `CentralSupplierConfirmation` |
 | `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingGroup` | `PurchasingGroup` |
-| `case  when _ProcmtHubSupplier.ProcmtHubSupplierName = '' or _ProcmtHubSupplier.ProcmtHubSupplierName is null then Supplier` | `case  when _ProcmtHubSupplier.ProcmtHubSupplierName = '' or _ProcmtHubSupplier.ProcmtHubSupplierName is null then Supplier` |
-| `else _ProcmtHubSupplier.ProcmtHubSupplierName` | `else _ProcmtHubSupplier.ProcmtHubSupplierName` |
-| `SupplierName` | `end` |
-| `_SupplierConfirmationItem.DocumentCurrency as DocumentCurrency` | *Association* |
-| `sum(case when _SupplierConfirmationItem.SupplierConfirmedNetPrice = 0 then` | `sum(case when _SupplierConfirmationItem.SupplierConfirmedNetPrice = 0 then` |
-| `division(_SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceAmount * _SupplierConfirmationItem._SupplierConfirmationLine.ConfirmedQuantity *_SupplierConfirmationItem._CentralPurchaseOrderItem.OrderPriceUnitToOrderUnitNmrtr , ( _SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceQuantity * _SupplierConfirmationItem._CentralPurchaseOrderItem.OrdPriceUnitToOrderUnitDnmntr),2 )` | `division(_SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceAmount * _SupplierConfirmationItem._SupplierConfirmationLine.ConfirmedQuantity *_SupplierConfirmationItem._CentralPurchaseOrderItem.OrderPriceUnitToOrderUnitNmrtr , ( _SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceQuantity * _SupplierConfirmationItem._CentralPurchaseOrderItem.OrdPriceUnitToOrderUnitDnmntr),2 )` |
-| `else   division(_SupplierConfirmationItem.SupplierConfirmedNetPrice * _SupplierConfirmationItem._SupplierConfirmationLine.ConfirmedQuantity *_SupplierConfirmationItem._CentralPurchaseOrderItem.OrderPriceUnitToOrderUnitNmrtr , ( _SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceQuantity * _SupplierConfirmationItem._CentralPurchaseOrderItem.OrdPriceUnitToOrderUnitDnmntr), 2 )` | `else   division(_SupplierConfirmationItem.SupplierConfirmedNetPrice * _SupplierConfirmationItem._SupplierConfirmationLine.ConfirmedQuantity *_SupplierConfirmationItem._CentralPurchaseOrderItem.OrderPriceUnitToOrderUnitNmrtr , ( _SupplierConfirmationItem._CentralPurchaseOrderItem.NetPriceQuantity * _SupplierConfirmationItem._CentralPurchaseOrderItem.OrdPriceUnitToOrderUnitDnmntr), 2 )` |
-| `end` | `end` |
-| `SupplierConfirmedNetPrice` | `)` |
+| `SupplierName` | `case…end` |
+| `DocumentCurrency` | `_SupplierConfirmationItem.DocumentCurrency` |
+| `SupplierConfirmedNetPrice` | `sum(…)` |
 
 ## Associations
 

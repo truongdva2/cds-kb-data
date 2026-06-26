@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FactoryCalendarID` | `FactoryCalendarID` |
+| `FactoryCalendarID` | `FactoryCalendarID` |
 | `FactoryCalendarLegacyID` | `FactoryCalendarLegacyID` |
 | `PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
 | `FctryCalMondayIsWorkingDay` | `FctryCalMondayIsWorkingDay` |

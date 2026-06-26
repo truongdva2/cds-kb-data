@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_cndn_condition_category preserving type )` | `cast( sbktyp` |
+| `FinConditionConditionCategory` | `cast( sbktyp as ftr_cndn_condition_category preserving type )` |
 | `_ConditionCategoryText` | *Association* |
 
 ## Associations

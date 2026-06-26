@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sufnd_vdm_susmodeoftransport )` | `cast( dd07l.domvalue_l` |
-| `DomainValue, //Needed for optimized access according VDM guideline` | `dd07l.domvalue_l` |
+| `SustainabilityModeOfTransport` | `cast( dd07l.domvalue_l as sufnd_vdm_susmodeoftransport )` |
+| `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations

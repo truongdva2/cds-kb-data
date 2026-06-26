@@ -32,9 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `txt.werks` |
+| `OperationSetupGroupCategory` | `cast(txt.rfgrp as vdm_ruefagrp preserving type)` |
+| `Language` | `txt.spras` |
 | `OperationSetupGroupCatName` | `txt.txt` |
-| `_Plant` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

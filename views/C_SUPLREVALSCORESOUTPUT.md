@@ -30,9 +30,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_Currency', element : 'Currency' } }]` | `name : 'I_Currency', element : 'Currency' } }]` |
-| `waers)` | `cast(''` |
-| `/* Associations */` | `/* Associations */` |
+| `SuplrEvalScoresOutputUUID` | `SuplrEvalScoresOutputUUID` |
+| `Supplier` | `Supplier` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `IdentifierOfScoreHistoryJobRun` | `IdentifierOfScoreHistoryJobRun` |
+| `SuplrEvalScoreOutputActionType` | `SuplrEvalScoreOutputActionType` |
+| `SuplrEvalScoreOutpActnTypeText` | `expr(…)` |
+| `SuplrEvalScoreOutputStatus` | `SuplrEvalScoreOutputStatus` |
+| `SuplrEvalScoreOutputStatusText` | `expr(…)` |
+| `StartDate` | `StartDate` |
+| `EndDate` | `EndDate` |
+| `SuplrEvalScoreOutpTriggerDate` | `SuplrEvalScoreOutpTriggerDate` |
+| `CreatedByUser` | `UserDescription` |
+| `SuplrEvalScoreOutpCreationDate` | `SuplrEvalScoreOutpCreationDate` |
+| `DisplayCurrency` | `cast('' as waers)` |
 | `_OutputScoreTypeText` | *Association* |
 | `_OutputStatusText` | *Association* |
 

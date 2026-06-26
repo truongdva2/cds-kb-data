@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierInvoiceItemGLAcct.SupplierInvoice` | `I_SupplierInvoiceItemGLAcct.SupplierInvoice` |
-| `key I_SupplierInvoiceItemGLAcct.FiscalYear` | `I_SupplierInvoiceItemGLAcct.FiscalYear` |
+| `SupplierInvoice` | `I_SupplierInvoiceItemGLAcct.SupplierInvoice` |
+| `FiscalYear` | `I_SupplierInvoiceItemGLAcct.FiscalYear` |
 | `SupplierInvoiceItem` | `OrdinalNumber` |
 | `CostCenter` | `CostCenter` |
 | `ControllingArea` | `ControllingArea` |
@@ -51,7 +51,7 @@ tags:
 | `BusinessProcess` | `BusinessProcess` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementInternalID_2` | `WBSElementInternalID_2` |
-| `I_SupplierInvoiceItemGLAcct.DocumentCurrency` | `I_SupplierInvoiceItemGLAcct.DocumentCurrency` |
+| `DocumentCurrency` | `I_SupplierInvoiceItemGLAcct.DocumentCurrency` |
 | `SupplierInvoiceItemAmount` | `SupplierInvoiceItemAmount` |
 | `TaxCode` | `TaxCode` |
 | `PersonnelNumber` | `PersonnelNumber` |
@@ -59,7 +59,7 @@ tags:
 | `DebitCreditCode` | `DebitCreditCode` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
 | `SupplierInvoiceItemText` | `SupplierInvoiceItemText` |
-| `I_SupplierInvoiceItemGLAcct.AssignmentReference` | `I_SupplierInvoiceItemGLAcct.AssignmentReference` |
+| `AssignmentReference` | `I_SupplierInvoiceItemGLAcct.AssignmentReference` |
 | `IsNotCashDiscountLiable` | `IsNotCashDiscountLiable` |
 | `InternalOrder` | `InternalOrder` |
 | `CommitmentItem` | `CommitmentItem` |
@@ -73,11 +73,10 @@ tags:
 | `ServiceDocument` | `ServiceDocument` |
 | `ServiceDocumentItem` | `ServiceDocumentItem` |
 | `ServiceDocumentType` | `ServiceDocumentType` |
-| `I_SupplierInvoiceItemGLAcct.CompanyCode` | `I_SupplierInvoiceItemGLAcct.CompanyCode` |
-| `I_SupplierInvoiceItemGLAcct.TaxCountry` | `I_SupplierInvoiceItemGLAcct.TaxCountry` |
-| `/* Associations */` | `/* Associations */` |
+| `CompanyCode` | `I_SupplierInvoiceItemGLAcct.CompanyCode` |
+| `TaxCountry` | `I_SupplierInvoiceItemGLAcct.TaxCountry` |
 | `_SupplierInvoiceAPI01` | *Association* |
-| `I_SupplierInvoiceItemGLAcct._Currency` | `I_SupplierInvoiceItemGLAcct._Currency` |
+| `_Currency` | *Association* |
 | `_UnitOfMeasure` | *Association* |
 | `_WBSElementBasicData` | *Association* |
 

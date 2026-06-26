@@ -32,24 +32,24 @@ tags:
 | Field | Data Source |
 |---|---|
 | `MaterialDocument` | `MaterialDocument` |
-| `key MaterialDocumentItem` | `MaterialDocumentItem` |
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
 | `Supplier` | `Supplier` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
 | `Plant` | `Plant` |
-| `_Supplier.Region as Region` | *Association* |
-| `_Supplier.Country as Country` | *Association* |
+| `Region` | `_Supplier.Region` |
+| `Country` | `_Supplier.Country` |
 | `PurchasingCategory` | `PurchasingCategory` |
 | `PurgCatName` | `PurgCatName` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
-| `_CalendarDate.CalendarMonth` | *Association* |
-| `_CalendarDate.CalendarYear` | *Association* |
-| `_CalendarDate.CalendarWeek` | *Association* |
-| `_CalendarDate.CalendarQuarter` | *Association* |
+| `CalendarMonth` | `_CalendarDate.CalendarMonth` |
+| `CalendarYear` | `_CalendarDate.CalendarYear` |
+| `CalendarWeek` | `_CalendarDate.CalendarWeek` |
+| `CalendarQuarter` | `_CalendarDate.CalendarQuarter` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `GoodsMovementType` | `GoodsMovementType` |
 | `PostingDate` | `PostingDate` |

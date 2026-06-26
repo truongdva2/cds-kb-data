@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tv_proj_dmnd_upd_source )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProjectDemandLastUpdateSource` | `cast ( substring( domvalue_l, 1, 2 ) as tv_proj_dmnd_upd_source )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_LastUpdateSourceTxt` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_LastUpdateSourceTxt` | `I_ProjDmndLastUpdtSourceTxt` | [0..*] |
 
 ## Source Code
 

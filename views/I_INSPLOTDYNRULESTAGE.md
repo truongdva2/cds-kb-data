@@ -29,10 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_InspLotDynamicRuleStdVH'` | `name:    'I_InspLotDynamicRuleStdVH'` |
-| `element: 'InspLotDynamicRule' }` | `element: 'InspLotDynamicRule' }` |
-| `}]` | `}]` |
-| `vdm_qdynregel preserving type )` | `cast( dynregel` |
+| `InspLotDynamicRule` | `cast( dynregel as vdm_qdynregel preserving type )` |
 | `InspLotDynRuleStage` | `prstufe` |
 | `InspectionSeverity` | `prschaerfe` |
 | `InspectionLotIsSkipped` | `kzskip` |

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ManufacturingOrder          : manufacturingorder;` | `ManufacturingOrder          : manufacturingorder;` |
-| `ProductionOrderType         : aufart;` | `ProductionOrderType         : aufart;` |
-| `ProductionPlant             : werks_d;` | `ProductionPlant             : werks_d;` |
+| `ManufacturingOrder` | `manufacturingorder` |
+| `ProductionOrderType` | `aufart` |
+| `ProductionPlant` | `werks_d` |
 
 ## Associations
 

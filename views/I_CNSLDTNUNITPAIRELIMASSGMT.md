@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_hryid_consunit )` | `cast ( _Source.hryid` |
-| `fincs_validityenddate preserving type )` | `cast ( _Source.hryvalto` |
-| `fincs_consolidationunit preserving type )` | `cast ( _Source.rbunit` |
-| `fincs_partnerconsolidationunit preserving type )` | `cast ( _Source.rbuptr` |
-| `fincs_validitystartdate preserving type )` | `cast ( _Source.hryvalfrom` |
-| `fincs_consolidationunitforelim preserving type )` | `cast ( _Source.rbunit_eliminated` |
+| `ConsolidationUnitHierarchy` | `cast ( _Source.hryid as fincs_hryid_consunit )` |
+| `ValidityEndDate` | `cast ( _Source.hryvalto as fincs_validityenddate preserving type )` |
+| `ConsolidationUnit` | `cast ( _Source.rbunit as fincs_consolidationunit preserving type )` |
+| `PartnerConsolidationUnit` | `cast ( _Source.rbuptr as fincs_partnerconsolidationunit preserving type )` |
+| `ValidityStartDate` | `cast ( _Source.hryvalfrom as fincs_validitystartdate preserving type )` |
+| `ConsolidationUnitForElim` | `cast(…)` |
 
 ## Associations
 

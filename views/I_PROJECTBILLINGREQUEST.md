@@ -33,9 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ProjectBillingCategory'` | `name:    'I_ProjectBillingCategory'` |
-| `element: 'ProjectBillingCategory' }` | `element: 'ProjectBillingCategory' }` |
-| `}]` | `}]` |
+| `ProjectBillingRequestUUID` | `projectbillingrequestuuid` |
+| `ProjectBillingRequest` | `projectbillingrequest` |
+| `ProjectBillingRequestStatus` | `projectbillingrequeststatus` |
+| `ProjBillgReqApprovalStatus` | `projbillgreqapprovalstatus` |
+| `ProjectBillingRequestType` | `projectbillingrequesttype` |
+| `SalesDocument` | `salesdocument` |
 | `ProjectBillingCategory` | `projectbillingcategory` |
 | `ProjBillgReqLastChgdBy` | `projbillgreqlastchgdby` |
 | `ProjBillgReqLastChgdAtDteTme` | `projbillgreqlastchgdatdtetme` |
@@ -69,7 +72,6 @@ tags:
 | `_ProjectBillingRequestTypeTxt` | `I_ProjectBillingRequestTypeTxt` | [1..*] |
 | `_SalesDocument` | `I_SalesDocument` | [0..1] |
 | `_EnterpriseProject` | `I_EnterpriseProject` | [1..1] |
-| `_ProjectBasicData` | `I_ProjectBasicData` | [1..1] |
 
 ## Source Code
 

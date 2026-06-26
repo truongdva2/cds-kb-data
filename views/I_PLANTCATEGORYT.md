@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vlfkz)` | `cast(substring( domvalue_l, 1, 1 )` |
+| `PlantCategory` | `cast(substring( domvalue_l, 1, 1 ) as vlfkz)` |
 | `Language` | `ddlanguage` |
 | `PlantCategoryName` | `ddtext` |
 | `_Language` | *Association* |

@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionOrder` | `ProductionOrder` |
-| `key ProductionOrderItem` | `ProductionOrderItem` |
+| `ProductionOrder` | `ProductionOrder` |
+| `ProductionOrderItem` | `ProductionOrderItem` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProductionOrderType` | `ProductionOrderType` |
 | `OrderIsReleased` | `OrderIsReleased` |
@@ -117,10 +117,7 @@ tags:
 | `Plant` | `Plant` |
 | `CombinedOrderOriginalOrder` | `CombinedOrderOriginalOrder` |
 | `CombinedOrderItemConfQuantity` | `CombinedOrderItemConfQuantity` |
-| `_ProductionOrder : redirected to parent I_ProductionOrderTP` | *Association* |
 | `_CoProductReservationItem` | *Association* |
-| `_SerialNumber : redirected to composition child I_ProdnOrderItemSerialNumberTP` | *Association* |
-| `_PostingRule : redirected to I_EventBasedOrderPostingRuleTP` | *Association* |
 
 ## Associations
 

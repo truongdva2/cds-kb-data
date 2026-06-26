@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralRequestForQuotation` | `CentralRequestForQuotation` |
-| `key CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
-| `key DistributionKey` | `DistributionKey` |
+| `CentralRequestForQuotation` | `CentralRequestForQuotation` |
+| `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
+| `DistributionKey` | `DistributionKey` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
@@ -72,7 +72,6 @@ tags:
 | `ProcmtHubPurRequisitionItem` | `ProcmtHubPurRequisitionItem` |
 | `PurReqnReleaseStatus` | `PurReqnReleaseStatus` |
 | `NetPriceAmount` | `NetPriceAmount` |
-| `/* Associations */` | `/* Associations */` |
 | `_CentralRequestForQuotation` | *Association* |
 | `_CentralReqForQuotationItem` | *Association* |
 

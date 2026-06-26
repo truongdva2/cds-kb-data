@@ -32,14 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `EquipmentCategory` | `t370u.eqtyp` |
+| `Language` | `t370u.spras` |
 | `EquipmentCategoryDesc` | `t370u.typtx` |
 | `_EquipmentCategory` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_EquipmentCategory` | `I_EquipmentCategory` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CityName` | `CityName` |
 | `CorrespondenceLanguage` | `CorrespondenceLanguage` |
 | `Country` | `Country` |
@@ -65,9 +65,6 @@ tags:
 | `StreetSuffixName2` | `StreetSuffixName2` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
 | `TransportZone` | `TransportZone` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationTP : redirected to I_ServiceQuotationTP` | *Association* |
-| `_SrvcQtanPartnerTP : redirected to parent I_SrvcQtanPartnerTP` | *Association* |
 
 ## Associations
 

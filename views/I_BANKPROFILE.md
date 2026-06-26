@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Bank.Bank` | `Bank.Bank` |
-| `key Bank.BankCountry` | `Bank.BankCountry` |
+| `Bank` | `Bank.Bank` |
+| `BankCountry` | `Bank.BankCountry` |
 | `BankName` | `BankName` |
 | `CreditRating` | `CreditRating` |
 | `NumberOfBankAccounts` | `NumberOfBankAccounts` |

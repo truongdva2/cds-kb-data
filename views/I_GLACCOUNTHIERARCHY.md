@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_glaccthier preserving type )` | `cast ( hrrp_dir_n.hryid_42` |
+| `GLAccountHierarchy` | `cast ( hrrp_dir_n.hryid_42 as fis_glaccthier preserving type )` |
 | `ValidityEndDate` | `hrrp_dir_n.hryvalto` |
 | `ValidityStartDate` | `hrrp_dir_n.hryvalfrom` |
 | `HierarchyType` | `hrrp_dir_n.hrytyp` |

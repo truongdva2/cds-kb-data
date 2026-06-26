@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `WorkCenterPlant` | `t499s.Plant` |
+| `WorkCenterLocation` | `t499s.Location` |
+| `AddressID` | `t499s.AddressID` |
 | `WorkCenterLocationName` | `t499s.LocationName` |
 | `_Plant` | *Association* |
 | `_Address` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_fin_instr_val_class)` | `cast(com_val_class` |
+| `TreasuryGeneralValuationClass` | `cast(com_val_class as ftr_gen_fin_instr_val_class)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalRspPartyUUID` | `SuplrEvalRspPartyUUID` |
+| `SuplrEvalRspPartyUUID` | `SuplrEvalRspPartyUUID` |
 | `SuplrEvalRspUUID` | `SuplrEvalRspUUID` |
 | `UserID` | `UserID` |
 | `AuthorizationGroup` | `AuthorizationGroup` |

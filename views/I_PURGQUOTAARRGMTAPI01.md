@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key QuotaArrangement` | `QuotaArrangement` |
+| `QuotaArrangement` | `QuotaArrangement` |
 | `Material` | `Material` |
 | `Plant` | `Plant` |
 | `ValidityEndDate` | `ValidityEndDate` |

@@ -30,8 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_sntxt preserving type)` | `cast(s.sntxt` |
+| `BOMExplosionDateID` | `cast(s.sernr as pph_sernr preserving type)` |
+| `BOMExplosionFixedKeyDate` | `s.brutr` |
+| `Material` | `s.matnr` |
+| `Plant` | `s.werks` |
+| `BOMExplosionDateText` | `cast(s.sntxt as pph_sntxt preserving type)` |
 | `IsDeleted` | `s.xloek` |
 | `EffectivityParameterVariant` | `s.techs` |
 | `_Material` | *Association* |

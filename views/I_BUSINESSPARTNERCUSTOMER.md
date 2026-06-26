@@ -35,15 +35,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_BillingBlockReasonValueHelp'` | `foreignKey.association: '_BillingBlockReasonValueHelp'` |
-| `}` | `}` |
+| `Customer` | `kna1.kunnr` |
+| `BusinessPartner` | `but000.partner` |
+| `BusinessPartnerUUID` | `cvi_cust_link.partner_guid` |
+| `CustomerAccountGroup` | `kna1.ktokd` |
+| `AlternativePayerAccount` | `kna1.knrza` |
+| `DataMediumExchangeIndicator` | `kna1.dtams` |
+| `Supplier` | `kna1.lifnr` |
+| `CustomerClassification` | `kna1.kukla` |
+| `VATLiability` | `kna1.stkzu` |
+| `PostingIsBlocked` | `kna1.sperr` |
+| `DeliveryIsBlocked` | `kna1.lifsd` |
 | `BillingIsBlockedForCustomer` | `kna1.faksd` |
 | `OrderIsBlockedForCustomer` | `kna1.aufsd` |
 | `IsNaturalPerson` | `kna1.stkzn` |
 | `BusinessPartnerGrouping` | `but000.bu_group` |
 | `AuthorizationGroup` | `kna1.begru` |
 | `DeliveryDateTypeRule` | `kna1.delivery_date_rule` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `ExpressTrainStationName` | `kna1.bahne` |
 | `TrainStationName` | `kna1.bahns` |
 | `CityLocationCoordinatesCode` | `kna1.locco` |
@@ -64,21 +73,21 @@ tags:
 | `CustomerConditionGroup3` | `kna1.kdkg3` |
 | `CustomerConditionGroup4` | `kna1.kdkg4` |
 | `CustomerConditionGroup5` | `kna1.kdkg5` |
-| `AddressID,                   //LOB adoption changes - start` | `kna1.adrnr` |
+| `AddressID` | `kna1.adrnr` |
 | `InternationalLocationNumber1` | `kna1.bbbnr` |
 | `InternationalLocationNumber2` | `kna1.bbsnr` |
 | `InternationalLocationNumber3` | `kna1.bubkz` |
 | `CityCode` | `kna1.cityc` |
 | `County` | `kna1.counc` |
 | `CustomerHasUnloadingPoint` | `kna1.exabl` |
-| `CustomerWorkingTimeCalendar, // LOB adoption changes - end` | `kna1.knazk` |
+| `CustomerWorkingTimeCalendar` | `kna1.knazk` |
 | `IsBusinessPurposeCompleted` | `kna1.cvp_xblck` |
-| `xfeld preserving type)` | `cast (kna1.stkza` |
+| `BPIsEqualizationTaxSubject` | `cast (kna1.stkza as xfeld preserving type)` |
 | `Country` | `kna1.land1` |
 | `Region` | `kna1.regio` |
 | `DeletionIndicator` | `kna1.loevm` |
 | `Language` | `kna1.spras` |
-| `abap.char(1))` | `cast (kna1.cassd` |
+| `SalesIsBlockedForCustomer` | `cast (kna1.cassd as abap.char(1))` |
 | `PaymentReason` | `kna1.paytrsn` |
 | `CustomerCentralDeletionIsBlock` | `kna1.nodel` |
 | `AlternativePayerIsAllowed` | `kna1.xzemp` |

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rantyp )` | `cast( dd07l.domvalue_l` |
+| `TreasuryContractType` | `cast( dd07l.domvalue_l as rantyp )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

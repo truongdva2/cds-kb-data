@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( max ( AdditionalMasterDataSource )` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( CnsldtnIsAdditionalMasterData )` |
-| `fincs_creationdatetime preserving type )` | `cast( min ( CreationDateTime )` |
-| `/* associations */` | `/* associations */` |
+| `Product` | `cast( Product as fincs_product preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
+| `CreationDateTime` | `cast( min ( CreationDateTime ) as fincs_creationdatetime preserving type )` |
 | `_Text` | *Association* |
 | `_MDSource` | *Association* |
 | `_ProductHierNode` | *Association* |

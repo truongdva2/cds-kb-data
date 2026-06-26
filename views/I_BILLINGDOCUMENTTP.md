@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocument` | `BillingDocument` |
+| `BillingDocument` | `BillingDocument` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `BillingDocumentCategory` | `BillingDocumentCategory` |
 | `BillingDocumentType` | `BillingDocumentType` |
@@ -132,9 +132,6 @@ tags:
 | `InvoiceClearingStatus` | `InvoiceClearingStatus` |
 | `InvoiceListType` | `InvoiceListType` |
 | `InvoiceListBillingDate` | `InvoiceListBillingDate` |
-| `_Item    : redirected to composition child I_BillingDocumentItemTP` | *Association* |
-| `_Partner : redirected to composition child I_BillingDocumentPartnerTP` | *Association* |
-| `_Text    : redirected to composition child I_BillingDocumentTextTP` | *Association* |
 
 ## Associations
 

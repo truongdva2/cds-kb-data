@@ -30,7 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `C1` | `name: 'I_StdLdgrWthoutShadowVH', element: 'Ledger' }, useAsTemplate: true } ] // TODO: VH not released` |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `CompanyCode` | `CompanyCode` |
+| `CostCenter` | `CostCenter` |
+| `ActivityType` | `ActivityType` |
+| `Currency` | `Currency` |
+| `ControllingArea` | `ControllingArea` |
+| `CurrencyRole` | `CurrencyRole` |
+| `ValidityStartFiscalYear` | `ValidityStartFiscalYear` |
+| `ValidityStartFiscalPeriod` | `ValidityStartFiscalPeriod` |
+| `ValidityEndFiscalYear` | `ValidityEndFiscalYear` |
+| `ValidityEndFiscalPeriod` | `ValidityEndFiscalPeriod` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `CostRateFixedAmount` | `CostRateFixedAmount` |
+| `CostRateVarblAmount` | `CostRateVarblAmount` |
+| `CostRateScaleFactor` | `CostRateScaleFactor` |
+| `CostCtrActivityTypeQtyUnit` | `CostCtrActivityTypeQtyUnit` |
 | `Ledger` | `Ledger` |
 | `CostRateIsOverwriteMode` | `CostRateIsOverwriteMode` |
 | `_CostCenter` | *Association* |

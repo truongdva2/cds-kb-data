@@ -42,7 +42,6 @@ tags:
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `BankNumber` | `BankNumber` |
 | `BankCategory` | `BankCategory` |
-| `Bank._BankAddress : redirected to composition child I_BankAddressTP` | `Bank._BankAddress : redirected to composition child I_BankAddressTP` |
 
 ## Associations
 

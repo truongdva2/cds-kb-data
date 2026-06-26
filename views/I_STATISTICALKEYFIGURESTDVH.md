@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement:  true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `_StatisticalKeyFigureCat._Text[1:Language = $session.system_language].StstcKeyFigCategoryDesc` | *Association* |
+| `StatisticalKeyFigure` | `StatisticalKeyFigure` |
+| `ControllingArea` | `ControllingArea` |
+| `StstcKeyFigCategory` | `cast(StstcKeyFigCategory as fis_ui_grtyp preserving type)` |
+| `StstcKeyFigCategoryDesc` | `expr(…)` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |
 

@@ -34,14 +34,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` | `name: 'I_ProductStdVH', element : 'Product'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `ConsumptionRefUsageEndDate` | `ConsumptionRefUsageEndDate` |
+| `CnsmpnQuantityMultiplierValue` | `CnsmpnQuantityMultiplierValue` |
 | `ConsumptionReferenceProduct` | `ConsumptionReferenceProduct` |
 | `ConsumptionReferencePlant` | `ConsumptionReferencePlant` |
 | `CorrectionFactorIsRequired` | `CorrectionFactorIsRequired` |
 | `ForecastModelIsReset` | `ForecastModelIsReset` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product      : redirected to I_ProductTP_2` | *Association* |
-| `_ProductPlant : redirected to parent I_ProductPlantTP_2` | *Association* |
 | `_ConsumptionReferenceProduct` | *Association* |
 | `_ProductDescription` | *Association* |
 | `_CnsmpnRefProductDescription` | *Association* |

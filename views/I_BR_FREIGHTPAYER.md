@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_freight_mode preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `FreightPayer` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_freight_mode preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

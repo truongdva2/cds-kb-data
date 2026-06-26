@@ -32,7 +32,7 @@ tags:
 |---|---|
 | `CentralPurchaseContract` | `PurchasingDocument` |
 | `CntrlPurContrDistrMsgSqncNmbr` | `SequenceNumber` |
-| `key DistrResponseMessageUUID` | `DistrResponseMessageUUID` |
+| `DistrResponseMessageUUID` | `DistrResponseMessageUUID` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `ExtContractForPurg` | `ExtContractForPurg` |
 | `LogicalSystem` | `LogicalSystem` |
@@ -45,10 +45,10 @@ tags:
 | `SystemMessageVariable4` | `SystemMessageVariable4` |
 | `SystemMessageText` | `SystemMessageText` |
 | `DistrResponseReceivedDateTime` | `DistrResponseReceivedDateTime` |
-| `_CentralPurchaseContract.IsEndOfPurposeBlocked` | *Association* |
-| `_CentralPurchaseContract.PurchasingOrganization` | *Association* |
-| `_CentralPurchaseContract.PurchasingGroup` | *Association* |
-| `_CentralPurchaseContract.PurchaseContractType` | *Association* |
+| `IsEndOfPurposeBlocked` | `_CentralPurchaseContract.IsEndOfPurposeBlocked` |
+| `PurchasingOrganization` | `_CentralPurchaseContract.PurchasingOrganization` |
+| `PurchasingGroup` | `_CentralPurchaseContract.PurchasingGroup` |
+| `PurchaseContractType` | `_CentralPurchaseContract.PurchaseContractType` |
 
 ## Associations
 

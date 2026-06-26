@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pkbst preserving type)` | `cast ( right(domvalue_l, 1)` |
+| `KanbanContainerStatus` | `cast ( right(domvalue_l, 1) as pkbst preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

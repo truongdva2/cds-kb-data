@@ -32,13 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_planthierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_planthierarchytext  preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyText._Language` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnPlantHierarchy` | `cast(_HierarchyText.UniversalHierarchy as fincs_planthierarchy preserving type )` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnPlantHierarchyText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

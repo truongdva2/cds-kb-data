@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionType` | `ConditionType` |
+| `ConditionType` | `ConditionType` |
 | `AccessSequence` | `AccessSequence` |
 | `ConditionClass` | `ConditionClass` |
 | `ConditionCalculationType` | `ConditionCalculationType` |

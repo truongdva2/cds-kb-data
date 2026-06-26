@@ -34,8 +34,8 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `SecurityClassTransferType` | `swerttyp` |
-| `ftr_gen_security_typ_id_name preserving type)` | `cast (xkurzbez` |
-| `ftr_gen_security_typ_id_lname preserving type)` | `cast (xlangbez` |
+| `SecurityClassTransferTypeName` | `cast (xkurzbez as ftr_gen_security_typ_id_name preserving type)` |
+| `ScrtyClTransfTypeDescription` | `cast (xlangbez as ftr_gen_security_typ_id_lname preserving type)` |
 | `_Language` | *Association* |
 | `_SecurityClassTransferType` | *Association* |
 

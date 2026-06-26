@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FinancialManagementArea` | `FinancialManagementArea` |
-| `key CommitmentItemFiscalYear` | `CommitmentItemFiscalYear` |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `CommitmentItemFiscalYear` | `CommitmentItemFiscalYear` |
 | `_FinMgmtArea` | *Association* |
 
 ## Associations

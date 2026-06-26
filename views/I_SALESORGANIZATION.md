@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Customer_VH', element: 'Customer' } } ]` | `name: 'I_Customer_VH', element: 'Customer' } } ]` |
+| `SalesOrganization` | `tvko.vkorg` |
+| `SalesOrganizationCurrency` | `tvko.waers` |
+| `CompanyCode` | `tvko.bukrs` |
 | `IntercompanyBillingCustomer` | `tvko.kunnr` |
 | `ArgentinaDeliveryDateEvent` | `j_1anutime` |
 | `AddressID` | `tvko.adrnr` |

@@ -35,7 +35,6 @@ tags:
 | `Plant` | `werks` |
 | `MRPArea` | `berid` |
 | `AvailabilityChangeLogCategory` | `netchgcategory` |
-| `/* Associations */` | `/* Associations */` |
 | `_AvailyChgLogCat` | *Association* |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |

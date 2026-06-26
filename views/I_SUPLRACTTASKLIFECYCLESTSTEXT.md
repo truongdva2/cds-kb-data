@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/tsk_lifecycle_stat_cd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SuplrActyTaskLifecycleStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
 | `SuplrActyTaskLifecycleStsName` | `ddtext` |
 | `_SuplrActTaskLifecycleSts` | *Association* |

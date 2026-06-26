@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `InventoryValuationType` | `coalesce( ValType.InventoryValuationType, mbew.InventoryValuationType )` |
-| `AcctCategoryRef` | `coalesce( ValType.AcctCategoryRef, '')` |
-| `InternalPurchasingRule` | `coalesce( ValType.InternalPurchasingRule, '')` |
-| `ExternalPurchasingRule` | `coalesce( ValType.ExternalPurchasingRule, '')` |
+| `InventoryValuationType` | `InventoryValuationType` |
+| `AcctCategoryRef` | `AcctCategoryRef` |
+| `InternalPurchasingRule` | `InternalPurchasingRule` |
+| `ExternalPurchasingRule` | `ExternalPurchasingRule` |
 
 ## Associations
 

@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `key ServiceOrder` | `ServiceOrder` |
-| `key ServiceOrderItem` | `ServiceOrderItem` |
-| `_BusinessSolutionOrder     : redirected to I_BusinessSolutionOrderTP` | *Association* |
-| `_BusinessSolutionOrderItem : redirected to parent I_BusinessSolutionOrderItemTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
+| `ServiceOrder` | `ServiceOrder` |
+| `ServiceOrderItem` | `ServiceOrderItem` |
 
 ## Associations
 

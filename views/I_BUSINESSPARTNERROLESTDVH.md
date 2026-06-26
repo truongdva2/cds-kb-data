@@ -35,7 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartnerRole` | `BusinessPartnerRole` |
+| `BusinessPartnerRole` | `BusinessPartnerRole` |
 | `RoleCategory` | `RoleCategory` |
 | `_BusinessPartnerRoleText` | *Association* |
 

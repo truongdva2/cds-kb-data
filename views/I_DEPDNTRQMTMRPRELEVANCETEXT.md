@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Language` | `t.ddlanguage` |
+| `DependentRqmtMRPRelevance` | `cast(substring(t.domvalue_l, 1, 1) as pph_ahdis preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
 | `DependentRqmtMRPRelevanceName` | `t.ddtext` |
 | `_DependentRqmtMRPRelevance` | *Association* |
 | `_Language` | *Association* |
@@ -40,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DependentRqmtMRPRelevance` | `I_DepdntRqmtMRPRelevance` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

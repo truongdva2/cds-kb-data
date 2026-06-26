@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
+| `BusinessPartner` | `BusinessPartner` |
 | `CAManualCreditWorthinessValue` | `CAManualCreditWorthinessValue` |
 | `CACreditWorthinessFactorInPct` | `CACreditWorthinessFactorInPct` |
 | `CAManualCreditWorthinessDate` | `CAManualCreditWorthinessDate` |
-| `case CACreditWorthinessIsFrozen` | `case CACreditWorthinessIsFrozen` |
-| `when 'X' then CAFrozenCreditWorthinessValue` | `when 'X' then CAFrozenCreditWorthinessValue` |
-| `else '0000'` | `else '0000'` |
-| `CAFrozenCreditWorthinessValue` | `end` |
+| `CAFrozenCreditWorthinessValue` | `case…end` |
 | `CAFrozenCreditWorthinessDate` | `CAFrozenCreditWorthinessDate` |
 | `CAUnfrozenCreditWorthinessDate` | `CAUnfrozenCreditWorthinessDate` |
 | `CAExternalCreditWorthinessVal` | `CAExternalCreditWorthinessVal` |
@@ -48,7 +45,6 @@ tags:
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
 | `CACreditWorthinessIsFrozen` | `CACreditWorthinessIsFrozen` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

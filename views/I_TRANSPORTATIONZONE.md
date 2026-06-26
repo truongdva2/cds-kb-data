@@ -34,7 +34,7 @@ tags:
 | `TransportZone` | `tzone.zone1` |
 | `CountryCode` | `tzone.land1` |
 | `_Country` | *Association* |
-| `, _Text` | `, _Text` |
+| `_Text` | *Association* |
 
 ## Associations
 

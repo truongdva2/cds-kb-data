@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_dzterm preserving type )` | `cast( zterm` |
+| `PaymentTerms` | `cast( zterm as farp_dzterm preserving type )` |
 | `PaymentTermsValidityMonthDay` | `ztagg` |
 | `Language` | `spras` |
-| `fis_payment_terms_cndns_desc preserving type )` | `cast( text1` |
+| `PaymentTermsConditionDesc` | `cast( text1 as fis_payment_terms_cndns_desc preserving type )` |
 | `_PaymentTerms` | *Association* |
 | `_PaymentTermsConditions` | *Association* |
 | `_Language` | *Association* |

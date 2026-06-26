@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_selected_currency_branch)` | `cast(domvalue_l` |
+| `SelectedCurrencyBranch` | `cast(domvalue_l as fis_selected_currency_branch)` |
 | `_Text` | *Association* |
 
 ## Associations

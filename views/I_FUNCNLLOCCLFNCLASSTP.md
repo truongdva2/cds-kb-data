@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FunctionalLocation` | `FunctionalLocation` |
-| `key ClassInternalID` | `ClassInternalID` |
-| `key ClassType` | `ClassType` |
+| `FunctionalLocation` | `FunctionalLocation` |
+| `ClassInternalID` | `ClassInternalID` |
+| `ClassType` | `ClassType` |
 | `FunctionalLocationLabelName` | `FunctionalLocationLabelName` |
 | `KeyDate` | `KeyDate` |
 | `Class` | `Class` |
@@ -44,8 +44,6 @@ tags:
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ClassMaintAuthGrp` | `ClassMaintAuthGrp` |
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
-| `_Characteristic: redirected to composition child I_FuncnlLocClfnClassCharTP` | *Association* |
-| `_FunctionalLocation: redirected to parent I_FunctionalLocationTP` | *Association* |
 
 ## Associations
 

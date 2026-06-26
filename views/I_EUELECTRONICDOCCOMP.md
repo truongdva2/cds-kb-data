@@ -30,9 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name   : 'I_EUElectronicDocCommChannelVH'` | `name   : 'I_EUElectronicDocCommChannelVH'` |
-| `element: 'EU_EDocCommChannel' }` | `element: 'EU_EDocCommChannel' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
 | `EU_EDocCommChannel` | `comm_channel` |
 | `ElectronicDocPartyIdType` | `party_id_type` |
 | `_CompanyCode` | *Association* |

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionOrder` | `ProductionOrder` |
-| `key ProductionOrderSequence` | `ProductionOrderSequence` |
+| `ProductionOrder` | `ProductionOrder` |
+| `ProductionOrderSequence` | `ProductionOrderSequence` |
 | `OrderInternalID` | `OrderInternalID` |
 | `SequenceInternalID` | `SequenceInternalID` |
 | `SequenceText` | `SequenceText` |
@@ -49,8 +49,6 @@ tags:
 | `BillOfOperationsUnit` | `BillOfOperationsUnit` |
 | `MinimumLotSizeQuantity` | `MinimumLotSizeQuantity` |
 | `MaximumLotSizeQuantity` | `MaximumLotSizeQuantity` |
-| `_ProductionOrder: redirected to parent I_ProductionOrderTP` | *Association* |
-| `_Operation: redirected to composition child I_ProductionOrderOperationTP` | *Association* |
 
 ## Associations
 

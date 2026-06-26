@@ -30,88 +30,87 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `vdm_pknum preserving type)` | `cast(pkhd.pknum` |
-| `vdm_rkstat preserving type)` | `cast(pkhd.rksta` |
-| `productnumber preserving type)` | `cast(pkhd.matnr` |
-| `vdm_werks_d preserving type)` | `cast(pkhd.werks` |
-| `vdm_verid preserving type)` | `cast(pkhd.verid` |
-| `vdm_prvbe preserving type)` | `cast(pkhd.prvbe` |
-| `vdm_quver preserving type)` | `cast(pkhd.rgver` |
-| `pph_lgort preserving type)` | `cast(pkhd.umlgo` |
+| `KanbanControlCycle` | `cast(pkhd.pknum as vdm_pknum preserving type)` |
+| `KanbanControlCycleCategory` | `cast(pkhd.rksta as vdm_rkstat preserving type)` |
+| `Product` | `cast(pkhd.matnr as productnumber preserving type)` |
+| `Plant` | `cast(pkhd.werks as vdm_werks_d preserving type)` |
+| `ProductionVersion` | `cast(pkhd.verid as vdm_verid preserving type)` |
+| `ProductionSupplyArea` | `cast(pkhd.prvbe as vdm_prvbe preserving type)` |
+| `SupplySourceResponsiblePerson` | `cast(pkhd.rgver as vdm_quver preserving type)` |
+| `StorageLocation` | `cast(pkhd.umlgo as pph_lgort preserving type)` |
 | `StoringPositionName` | `pkhd.ablad` |
-| `pph_pkadr preserving type)` | `cast(pkhd.pkadr` |
-| `vdm_pkosa_d preserving type)` | `cast(pkhd.pkosa` |
+| `KanbanContainerDeliveryAddress` | `cast(pkhd.pkadr as pph_pkadr preserving type)` |
+| `ProductCostCollector` | `cast(pkhd.pkosa as vdm_pkosa_d preserving type)` |
 | `Supplier` | `pkhd.lifnr` |
-| `pph_ekorg preserving type)` | `cast(pkhd.ekorg` |
-| `PurchaseOutlineAgreement` | `pkhd.ebeln` |
-| `vdm_evrtp preserving type)` | `cast(pkhd.ebelp` |
-| `vdm_lgnum preserving type)` | `cast(pkhd.lgnum` |
-| `vdm_lgtyp preserving type)` | `cast(pkhd.lgtyp` |
-| `vdm_lgpla preserving type)` | `cast(pkhd.lgpla` |
-| `vdm_meins preserving type)` | `cast(pkhd.meins` |
-| `vdm_behmg preserving type)` | `cast(pkhd.behmg` |
-| `vdm_behaz preserving type)` | `cast(pkhd.behaz` |
-| `vdm_sigaz preserving type)` | `cast(pkhd.sigaz` |
-| `vdm_pkste preserving type)` | `cast(pkhd.pkste` |
-| `vdm_berkz preserving type)` | `cast(pkhd.berkz` |
-| `vdm_t333_nkdyn preserving type)` | `cast(pkhd.nkdyn` |
-| `vdm_pkstf preserving type)` | `cast(pkhd.pkstf` |
-| `vdm_pkstu preserving type)` | `cast(pkhd.pkstu` |
-| `vdm_answb preserving type)` | `cast(pkhd.answb` |
-| `vdm_pkbht preserving type)` | `cast(pkhd.pkbht` |
-| `vdm_qufkt preserving type)` | `cast(pkhd.qufkt` |
-| `vdm_kostl preserving type)` | `cast(pkhd.kostl` |
-| `vdm_pkumw preserving type)` | `cast(pkhd.pkumw` |
-| `vdm_pksfg preserving type)` | `cast(pkhd.pksfg` |
-| `vdm_pklog preserving type)` | `cast(pkhd.pklog` |
-| `vdm_alsmg preserving type)` | `cast(pkhd.alsmg` |
-| `vdm_kcart preserving type)` | `cast(pkhd.kcart` |
-| `vdm_kcsaf preserving type)` | `cast(pkhd.kcsaf` |
-| `vdm_kccon preserving type)` | `cast(pkhd.kccon` |
-| `vdm_pkrmg preserving type)` | `cast(pkhd.pkrmg` |
-| `vdm_pkfmg preserving type)` | `cast(pkhd.pkfmg` |
-| `vdm_kcprf preserving type)` | `cast(pkhd.kcprf` |
-| `vdm_kwbzd preserving type)` | `cast(pkhd.kwbzd` |
-| `vdm_kwbzm preserving type)` | `cast(pkhd.kwbzm` |
-| `vdm_vbeln_pk preserving type)` | `cast(pkhd.vbeln` |
-| `vdm_vbelp_pk preserving type)` | `cast(pkhd.vbelp` |
-| `vdm_qupvb preserving type)` | `cast(pkhd.qupvb` |
-| `vdm_pabprf preserving type)` | `cast(pkhd.pabprf` |
-| `vdm_pl_packnr preserving type)` | `cast(pkhd.packv` |
-| `vdm_anzlt preserving type)` | `cast(pkhd.anzlt` |
-| `vdm_sa_zpunkt preserving type)` | `cast(pkhd.zpunkt` |
-| `vdm_lcm_status preserving type)` | `cast(pkhd.lcm_status` |
-| `vdm_cre_date preserving type)` | `cast(pkhd.cre_date` |
-| `vdm_rls_date preserving type)` | `cast(pkhd.rls_date` |
+| `PurchasingOrganization` | `cast(pkhd.ekorg as pph_ekorg preserving type)` |
+| `PurchaseOutlineAgreement` | `-- pkhd.ebeln` |
+| `PurchaseOutlineAgreementItem` | `-- cast(pkhd.ebelp as vdm_evrtp preserving type)` |
+| `Warehouse` | `cast(pkhd.lgnum as vdm_lgnum preserving type)` |
+| `StorageType` | `cast(pkhd.lgtyp as vdm_lgtyp preserving type)` |
+| `StorageBin` | `cast(pkhd.lgpla as vdm_lgpla preserving type)` |
+| `BaseUnit` | `cast(pkhd.meins as vdm_meins preserving type)` |
+| `KanbanContainerQuantityInBsUnt` | `cast(pkhd.behmg as vdm_behmg preserving type)` |
+| `NumberOfKanbanContainers` | `cast(pkhd.behaz as vdm_behaz preserving type)` |
+| `MaxNrOfEmptyKanbanContainers` | `cast(pkhd.sigaz as vdm_sigaz preserving type)` |
+| `InHouseProductionReplnmtStrgy` | `cast(pkhd.pkste as vdm_pkste preserving type)` |
+| `MaterialStaging` | `cast(pkhd.berkz as vdm_berkz preserving type)` |
+| `DestinationBinIsDynamic` | `cast(pkhd.nkdyn as vdm_t333_nkdyn preserving type)` |
+| `ExtProcurementReplnmtStrgy` | `cast(pkhd.pkstf as vdm_pkstf preserving type)` |
+| `StockTransferReplnmtStrategy` | `cast(pkhd.pkstu as vdm_pkstu preserving type)` |
+| `ReplnmtIsCtrldBySupplySource` | `cast(pkhd.answb as vdm_answb preserving type)` |
+| `KanbanContainerPackggProduct` | `cast(pkhd.pkbht as vdm_pkbht preserving type)` |
+| `SeparateGRIsNeededIfSetToFull` | `cast(pkhd.qufkt as vdm_qufkt preserving type)` |
+| `CostCenter` | `cast(pkhd.kostl as vdm_kostl preserving type)` |
+| `SupplySourcePlant` | `cast(pkhd.pkumw as vdm_pkumw preserving type)` |
+| `KanbanContainerStatusSequence` | `cast(pkhd.pksfg as vdm_pksfg preserving type)` |
+| `KanbanCtnReplnmtTriggerLogic` | `cast(pkhd.pklog as vdm_pklog preserving type)` |
+| `KnbnCtnReplnmtTrggrQtyInBsUnt` | `cast(pkhd.alsmg as vdm_alsmg preserving type)` |
+| `KanbanContainerCalculationType` | `cast(pkhd.kcart as vdm_kcart preserving type)` |
+| `KanbanCtnCalcSafetyFactor` | `cast(pkhd.kcsaf as vdm_kcsaf preserving type)` |
+| `KanbanCtnCalculationConstant` | `cast(pkhd.kccon as vdm_kccon preserving type)` |
+| `KanbanCtnRoundingQtyInBsUnt` | `cast(pkhd.pkrmg as vdm_pkrmg preserving type)` |
+| `FixedKanbanContainerQtyInBsUnt` | `cast(pkhd.pkfmg as vdm_pkfmg preserving type)` |
+| `KanbanContainerCalcProfile` | `cast(pkhd.kcprf as vdm_kcprf preserving type)` |
+| `ReplnmtLeadTimeInWorkdays` | `cast(pkhd.kwbzd as vdm_kwbzd preserving type)` |
+| `ReplnmtLeadTimeInHoursAndMins` | `cast(pkhd.kwbzm as vdm_kwbzm preserving type)` |
+| `SalesSchedulingAgreement` | `cast(pkhd.vbeln as vdm_vbeln_pk preserving type)` |
+| `SalesSchedulingAgreementItem` | `cast(pkhd.vbelp as vdm_vbelp_pk preserving type)` |
+| `SourceProductionSupplyArea` | `cast(pkhd.qupvb as vdm_qupvb preserving type)` |
+| `JITCallProfile` | `cast(pkhd.pabprf as vdm_pabprf preserving type)` |
+| `PackingInstruction` | `cast(pkhd.packv as vdm_pl_packnr preserving type)` |
+| `NumberOfLoadCarriers` | `cast(pkhd.anzlt as vdm_anzlt preserving type)` |
+| `BackflushReportingPoint` | `cast(pkhd.zpunkt as vdm_sa_zpunkt preserving type)` |
+| `KanbanCtrlCycleLifeCycleStatus` | `cast(pkhd.lcm_status as vdm_lcm_status preserving type)` |
+| `CreationDate` | `cast(pkhd.cre_date as vdm_cre_date preserving type)` |
+| `ReleaseDate` | `cast(pkhd.rls_date as vdm_rls_date preserving type)` |
 | `LockDate` | `pkhd.obs_date` |
-| `vdm_pintvd preserving type)` | `cast(pkhd.pintvd` |
-| `vdm_pintvm preserving type)` | `cast(pkhd.pintvm` |
-| `vdm_knfzd preserving type)` | `cast(pkhd.knfzd` |
-| `vdm_knfzm preserving type)` | `cast(pkhd.knfzm` |
-| `vdm_kwtzd preserving type)` | `cast(pkhd.kwtzd` |
-| `vdm_kwtzm preserving type)` | `cast(pkhd.kwtzm` |
-| `vdm_kitzd preserving type)` | `cast(pkhd.kitzd` |
-| `vdm_kitzm preserving type)` | `cast(pkhd.kitzm` |
-| `vdm_kdmbuf preserving type)` | `cast(pkhd.kdmbuf` |
-| `vdm_kspbuf preserving type)` | `cast(pkhd.kspbuf` |
-| `vdm_ntrel preserving type)` | `cast(pkhd.ntrel` |
+| `PullIntervalInWorkdays` | `cast(pkhd.pintvd as vdm_pintvd preserving type)` |
+| `PullIntervalInHoursAndMinutes` | `cast(pkhd.pintvm as vdm_pintvm preserving type)` |
+| `KanbanCtnRefillTimeInDays` | `cast(pkhd.knfzd as vdm_knfzd preserving type)` |
+| `KanbanCtnRefillTmeInHrsAndMins` | `cast(pkhd.knfzm as vdm_knfzm preserving type)` |
+| `KanbanCtnWaitTimeInDays` | `cast(pkhd.kwtzd as vdm_kwtzd preserving type)` |
+| `KanbanCtnWaitTimeInHrsAndMins` | `cast(pkhd.kwtzm as vdm_kwtzm preserving type)` |
+| `KanbanCtnTransportTimeInDays` | `cast(pkhd.kitzd as vdm_kitzd preserving type)` |
+| `KnbnCtnTransptTmeInHrsAndMins` | `cast(pkhd.kitzm as vdm_kitzm preserving type)` |
+| `KnbnCtnCalcRqmtBufferInPercent` | `cast(pkhd.kdmbuf as vdm_kdmbuf preserving type)` |
+| `KnbnCtnCalcSupplySrceBufInPct` | `cast(pkhd.kspbuf as vdm_kspbuf preserving type)` |
+| `NrOfKanbanCtnsFlaggedToUnlock` | `cast(pkhd.ntrel as vdm_ntrel preserving type)` |
 | `NrOfWaitingKnbnCtnsBfrReplnmt` | `pkhd.trigaz` |
 | `KanbanCtrlCycReplnmtTriggerGrp` | `pkhd.triggr` |
 | `PlanningWorkCenter` | `pkhd.capa_wrkct` |
-| `vdm_fazus preserving type)` | `cast(pkhd.fazus` |
+| `ProductionOrdersAreCombined` | `cast(pkhd.fazus as vdm_fazus preserving type)` |
 | `EWMWarehouse` | `pkhd.lgnum_ewm` |
 | `DestinationStorageBin` | `pkhd.nlpla` |
 | `SourceStorageBin` | `pkhd.vlpla` |
 | `WarehouseProcessType` | `pkhd.prcty` |
 | `KanbanCardPrintControl` | `pkhd.pkdrs` |
-| `rspopshort preserving type)` | `cast(pkhd.vbprn` |
-| `vdm_kanbancardprintqueue preserving type)` | `cast(pkhd.vbque` |
-| `vdm_controlcycleprintqueue preserving type)` | `cast(pkhd.cc_print_queue` |
-| `vdm_kanbancardformtemplate preserving type)` | `cast(pkhd.kbform` |
+| `ProdnSupplySpoolOutputDevice` | `cast(pkhd.vbprn as rspopshort preserving type)` |
+| `KanbanCardPrintQueue` | `cast(pkhd.vbque as vdm_kanbancardprintqueue preserving type)` |
+| `ControlCyclePrintQueue` | `cast(pkhd.cc_print_queue as vdm_controlcycleprintqueue preserving type)` |
+| `KanbanCardFormTemplate` | `cast(pkhd.kbform as vdm_kanbancardformtemplate preserving type)` |
 | `ControlCycleSAPScriptForm` | `pkhd.rkform` |
-| `vdm_controlcycleformtemplate preserving type)` | `cast(pkhd.cc_print_form` |
-| `vdm_lastchangedatetime preserving type)` | `cast(pkhd.lastchange_datetime` |
+| `ControlCyclePrintFormTemplate` | `cast(pkhd.cc_print_form as vdm_controlcycleformtemplate preserving type)` |
+| `LastChangeDateTime` | `cast(pkhd.lastchange_datetime as vdm_lastchangedatetime preserving type)` |
 | `_KanbanControlCycleCategory` | *Association* |
 | `_Product` | *Association* |
 | `_Plant` | *Association* |

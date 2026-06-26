@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_weblnr preserving type)` | `cast(affw.GoodsMovementException` |
-| `pph_autyp  preserving type)` | `cast(affw.OrderCategory` |
+| `FailedGoodsMovement` | `cast(affw.GoodsMovementException as pph_weblnr preserving type)` |
+| `OrderCategory` | `cast(affw.OrderCategory as pph_autyp preserving type)` |
 | `_FailedGoodsMovementItem` | *Association* |
 | `_OrderCategory` | *Association* |
 

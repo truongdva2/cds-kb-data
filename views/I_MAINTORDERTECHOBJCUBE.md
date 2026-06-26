@@ -31,150 +31,125 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_MaintOrderHistTechObj.MaintenanceOrder` | `I_MaintOrderHistTechObj.MaintenanceOrder` |
-| `eam_is_historical_order preserving type )` | `cast( 'X'` |
-| `I_MaintOrderHistTechObj.MaintenanceOrderType` | `I_MaintOrderHistTechObj.MaintenanceOrderType` |
-| `I_MaintOrderHistTechObj.MaintenanceOrderDesc` | `I_MaintOrderHistTechObj.MaintenanceOrderDesc` |
-| `I_MaintOrderHistTechObj.MaintPriority` | `I_MaintOrderHistTechObj.MaintPriority` |
-| `I_MaintOrderHistTechObj.MaintPriorityType` | `I_MaintOrderHistTechObj.MaintPriorityType` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.FunctionalLocation` | `I_MaintOrderHistTechObj._LocationAccountAssignment.FunctionalLocation` |
-| `I_MaintOrderHistTechObj.Equipment` | `I_MaintOrderHistTechObj.Equipment` |
-| `I_MaintOrderHistTechObj.Assembly` | `I_MaintOrderHistTechObj.Assembly` |
-| `I_MaintOrderHistTechObj._Equipment.Material` | `I_MaintOrderHistTechObj._Equipment.Material` |
-| `I_MaintOrderHistTechObj.SerialNumber` | `I_MaintOrderHistTechObj.SerialNumber` |
-| `I_MaintOrderHistTechObj.MaintenanceNotification` | `I_MaintOrderHistTechObj.MaintenanceNotification` |
-| `I_MaintOrderHistTechObj.LeadingOrder` | `I_MaintOrderHistTechObj.LeadingOrder` |
-| `I_MaintOrderHistTechObj.MaintenancePlannerGroup` | `I_MaintOrderHistTechObj.MaintenancePlannerGroup` |
-| `I_MaintOrderHistTechObj.MaintenancePlanningPlant` | `I_MaintOrderHistTechObj.MaintenancePlanningPlant` |
-| `I_MaintOrderHistTechObj.MaintOrdPersonResponsible` | `I_MaintOrderHistTechObj.MaintOrdPersonResponsible` |
-| `I_MaintOrderHistTechObj.MaintenanceRevision` | `I_MaintOrderHistTechObj.MaintenanceRevision` |
-| `I_MaintOrderHistTechObj.MaintenancePlan` | `I_MaintOrderHistTechObj.MaintenancePlan` |
-| `I_MaintOrderHistTechObj.MaintenanceItem` | `I_MaintOrderHistTechObj.MaintenanceItem` |
-| `TaskListType` | `I_MaintOrderHistTechObj.BillOfOperationsType` |
-| `TaskListGroup` | `I_MaintOrderHistTechObj.BillOfOperations` |
-| `TaskListGroupCounter` | `I_MaintOrderHistTechObj.BillOfOperationsVariant` |
-| `I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode` | `I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode` |
-| `I_MaintOrderHistTechObj.MaintenanceActivityType` | `I_MaintOrderHistTechObj.MaintenanceActivityType` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.ABCIndicator` | `I_MaintOrderHistTechObj._LocationAccountAssignment.ABCIndicator` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.MaintenancePlant` | `I_MaintOrderHistTechObj._LocationAccountAssignment.MaintenancePlant` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.AssetLocation` | `I_MaintOrderHistTechObj._LocationAccountAssignment.AssetLocation` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.AssetRoom` | `I_MaintOrderHistTechObj._LocationAccountAssignment.AssetRoom` |
-| `I_MaintOrderHistTechObj.MaintenanceProcessingPhase` | `I_MaintOrderHistTechObj.MaintenanceProcessingPhase` |
-| `I_MaintOrderHistTechObj.OperationSystemCondition` | `I_MaintOrderHistTechObj.OperationSystemCondition` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.PlantSection` | `I_MaintOrderHistTechObj._LocationAccountAssignment.PlantSection` |
-| `MainWorkCenter` | `I_MaintOrderHistTechObj._MainWorkCenter.WorkCenter` |
-| `MainWorkCenterPlant` | `I_MaintOrderHistTechObj._MainWorkCenter.Plant` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._WorkCenter.WorkCenter` | `I_MaintOrderHistTechObj._LocationAccountAssignment._WorkCenter.WorkCenter` |
-| `WorkCenterPlant` | `I_MaintOrderHistTechObj._LocationAccountAssignment._WorkCenter.Plant` |
-| `ReferenceElement` | `''` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.CostCenter` | `I_MaintOrderHistTechObj._LocationAccountAssignment.CostCenter` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.ControllingArea` | `I_MaintOrderHistTechObj._LocationAccountAssignment.ControllingArea` |
-| `SuperiorProjectNetwork` | `''` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.CompanyCode` | `I_MaintOrderHistTechObj._LocationAccountAssignment.CompanyCode` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.BusinessArea` | `I_MaintOrderHistTechObj._LocationAccountAssignment.BusinessArea` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.WBSElementInternalID` | `I_MaintOrderHistTechObj._LocationAccountAssignment.WBSElementInternalID` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.MasterFixedAsset` | `I_MaintOrderHistTechObj._LocationAccountAssignment.MasterFixedAsset` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.FixedAsset` | `I_MaintOrderHistTechObj._LocationAccountAssignment.FixedAsset` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.SettlementOrder` | `I_MaintOrderHistTechObj._LocationAccountAssignment.SettlementOrder` |
-| `I_MaintOrderHistTechObj.MaintenanceOrderInternalID` | `I_MaintOrderHistTechObj.MaintenanceOrderInternalID` |
-| `I_MaintOrderHistTechObj.IsMarkedForDeletion` | `I_MaintOrderHistTechObj.IsMarkedForDeletion` |
-| `I_MaintOrderHistTechObj.CreationDate` | `I_MaintOrderHistTechObj.CreationDate` |
-| `CreationTime` | `'000000'` |
-| `I_MaintOrderHistTechObj.LastChangeDate` | `I_MaintOrderHistTechObj.LastChangeDate` |
-| `LastChangeTime` | `'000000'` |
-| `PlannedStartDate` | `I_MaintOrderHistTechObj.MaintOrdBasicStartDate` |
-| `PlannedStartTime` | `'000000'` |
-| `PlannedEndDate` | `I_MaintOrderHistTechObj.MaintOrdBasicEndDate` |
-| `PlannedEndTime` | `'000000'` |
-| `ScheduledBasicStartDate` | `'00000000'` |
-| `ScheduledBasicStartTime` | `'000000'` |
-| `ScheduledBasicEndDate` | `'00000000'` |
-| `ScheduledBasicEndTime` | `'000000'` |
-| `I_MaintOrderHistTechObj.ActualStartDate` | `I_MaintOrderHistTechObj.ActualStartDate` |
-| `ActualStartTime` | `'000000'` |
-| `I_MaintOrderHistTechObj.ConfirmedEndDate` | `I_MaintOrderHistTechObj.ConfirmedEndDate` |
-| `ConfirmedEndTime` | `'000000'` |
-| `I_MaintOrderHistTechObj.MaintOrderReferenceDate` | `I_MaintOrderHistTechObj.MaintOrderReferenceDate` |
-| `abap.tims), abap_system_timezone( $session.client,'NULL' )` | `cast( dats_tims_to_tstmp( CreationDate, cast('000000'` |
-| `creation_timestamp )` | `$session.client, 'NULL' )` |
-| `abap.tims), abap_system_timezone( $session.client,'NULL' )` | `cast( dats_tims_to_tstmp( CreationDate, cast('000000'` |
-| `rslastchangedat preserving type )` | `$session.client, 'NULL' )` |
-| `abap.dats), cast('000000'` | `cast( dats_tims_to_tstmp( cast('00000000'` |
-| `sched_basic_end_timestamp )` | `$session.client, 'NULL' )` |
-| `abap.tims), abap_system_timezone( $session.client,'NULL' )` | `cast( dats_tims_to_tstmp( ConfirmedEndDate, cast('000000'` |
-| `conf_end_timestamp )` | `$session.client, 'NULL' )` |
-| `I_MaintOrderHistTechObj.CreatedByUser` | `I_MaintOrderHistTechObj.CreatedByUser` |
-| `I_MaintOrderHistTechObj.LastChangedByUser` | `I_MaintOrderHistTechObj.LastChangedByUser` |
-| `/****************************************************************************************************` | `/****************************************************************************************************` |
-| `* Technical Object` | `* Technical Object` |
-| `****************************************************************************************************/` | `****************************************************************************************************/` |
-| `I_MaintOrderHistTechObj.TechnicalObject` | `I_MaintOrderHistTechObj.TechnicalObject` |
-| `I_MaintOrderHistTechObj._TechnicalObject.TechnicalObjectType` | `I_MaintOrderHistTechObj._TechnicalObject.TechnicalObjectType` |
-| `I_MaintOrderHistTechObj.TechObjIsEquipOrFuncnlLoc` | `I_MaintOrderHistTechObj.TechObjIsEquipOrFuncnlLoc` |
-| `/****************************************************************************************************` | `/****************************************************************************************************` |
-| `* Measures` | `* Measures` |
-| `****************************************************************************************************/` | `****************************************************************************************************/` |
-| `eam_order_leadtime_in_workdays)` | `cast (0` |
-| `eam_order_runtime_in_cal_days)` | `cast (0` |
-| `qeinhtag )` | `cast( 'TAG'` |
-| `eam_num_orders_created )` | `cast( 1` |
-| `cast( case when I_MaintOrderHistTechObj.IsMarkedForDeletion != 'X' then 1` | `cast( case when I_MaintOrderHistTechObj.IsMarkedForDeletion != 'X' then 1` |
-| `eam_num_orders )` | `else 0 end` |
-| `cast( case when I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '3'` | `cast( case when I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '3'` |
-| `or ( I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '4'` | `or ( I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '4'` |
-| `and (I_MaintOrderHistTechObj._StatusObjectStatus[1: IsUserStatus='' and StatusIsActive='X' and StatusCode = 'I0015' ].StatusCode is null ) )` | `and (I_MaintOrderHistTechObj._StatusObjectStatus[1: IsUserStatus='' and StatusIsActive='X' and StatusCode = 'I0015' ].StatusCode is null ) )` |
-| `or I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '5'` | `or I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '5'` |
-| `then 1` | `then 1` |
-| `eam_num_orders_compl )` | `else 0 end` |
-| `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = '1' then 1` | `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = '1' then 1` |
-| `eam_num_orders_planned )` | `else 0 end` |
-| `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = ' ' then 1` | `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = ' ' then 1` |
-| `eam_num_orders_unplanned )` | `else 0 end` |
-| `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = '2' then 1` | `cast( case when I_MaintOrderHistTechObj.MaintenanceOrderPlanningCode = '2' then 1` |
-| `eam_num_orders_immediate )` | `else 0 end` |
-| `cast( case when ( I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '4'` | `cast( case when ( I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '4'` |
-| `and I_MaintOrderHistTechObj._StatusObjectStatus[1: IsUserStatus='' and StatusIsActive='X' and StatusCode = 'I0015' ].StatusCode != '' )` | `and I_MaintOrderHistTechObj._StatusObjectStatus[1: IsUserStatus='' and StatusIsActive='X' and StatusCode = 'I0015' ].StatusCode != '' )` |
-| `then 1` | `then 1` |
-| `eam_num_orders_not_to_be_exec )` | `else 0 end` |
-| `cast( case when I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '0'` | `cast( case when I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '0'` |
-| `or I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '2'` | `or I_MaintOrderHistTechObj.MaintenanceProcessingPhase = '2'` |
-| `then 1` | `then 1` |
-| `eam_num_orders_outstanding )` | `else 0 end` |
-| `eam_num_orders_compl_on_time)` | `cast( 0` |
-| `eam_num_orders_historical)` | `cast( 1` |
-| `eam_ostat_phase )` | `cast( ''` |
-| `eam_ostat_sphase )` | `cast( ''` |
-| `vdm_lacd_date )` | `cast( ''` |
-| `lacd_old )` | `cast( ''` |
-| `maintorderprocessingcontext )` | `cast( ''` |
-| `MainWorkCenterInternalID` | `I_MaintOrderHistTechObj.WorkCenterInternalID` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment.WorkCenterInternalID` | `I_MaintOrderHistTechObj._LocationAccountAssignment.WorkCenterInternalID` |
-| `I_MaintOrderHistTechObj.WorkCenterTypeCode` | `I_MaintOrderHistTechObj.WorkCenterTypeCode` |
-| `I_MaintOrderHistTechObj._MaintenanceOrderType` | `I_MaintOrderHistTechObj._MaintenanceOrderType` |
-| `I_MaintOrderHistTechObj._Equipment` | `I_MaintOrderHistTechObj._Equipment` |
-| `I_MaintOrderHistTechObj._Assembly` | `I_MaintOrderHistTechObj._Assembly` |
-| `I_MaintOrderHistTechObj._MaintenanceItem` | `I_MaintOrderHistTechObj._MaintenanceItem` |
-| `I_MaintOrderHistTechObj._MaintenanceNotification` | `I_MaintOrderHistTechObj._MaintenanceNotification` |
-| `I_MaintOrderHistTechObj._MaintenancePlannerGroup` | `I_MaintOrderHistTechObj._MaintenancePlannerGroup` |
-| `I_MaintOrderHistTechObj._MaintenancePlanningPlant` | `I_MaintOrderHistTechObj._MaintenancePlanningPlant` |
+| `MaintenanceOrder` | `I_MaintenanceOrder.MaintenanceOrder` |
+| `MaintenanceOrderIsHistorical` | `cast( ' ' as eam_is_historical_order preserving type )` |
+| `MaintenanceOrderType` | `I_MaintenanceOrder.MaintenanceOrderType` |
+| `MaintenanceOrderDesc` | `I_MaintenanceOrder.MaintenanceOrderDesc` |
+| `MaintPriority` | `I_MaintenanceOrder.MaintPriority` |
+| `MaintPriorityType` | `I_MaintenanceOrder.MaintPriorityType` |
+| `FunctionalLocation` | `I_MaintenanceOrder._LocationAccountAssignment.FunctionalLocation` |
+| `Equipment` | `I_MaintenanceOrder.Equipment` |
+| `Assembly` | `I_MaintenanceOrder.Assembly` |
+| `Material` | `I_MaintenanceOrder._Equipment.Material` |
+| `SerialNumber` | `I_MaintenanceOrder.SerialNumber` |
+| `MaintenanceNotification` | `I_MaintenanceOrder.MaintenanceNotification` |
+| `LeadingOrder` | `I_MaintenanceOrder._Order.LeadingOrder` |
+| `MaintenancePlannerGroup` | `I_MaintenanceOrder.MaintenancePlannerGroup` |
+| `MaintenancePlanningPlant` | `I_MaintenanceOrder.MaintenancePlanningPlant` |
+| `MaintOrdPersonResponsible` | `cast( '' as i_parnr_vera )` |
+| `MaintenanceRevision` | `I_MaintenanceOrder.MaintenanceRevision` |
+| `MaintenancePlan` | `I_MaintenanceOrder.MaintenancePlan` |
+| `MaintenanceItem` | `I_MaintenanceOrder.MaintenanceItem` |
+| `TaskListType` | `I_MaintenanceOrder._Order.BillOfOperationsType` |
+| `TaskListGroup` | `I_MaintenanceOrder._Order.BillOfOperations` |
+| `TaskListGroupCounter` | `I_MaintenanceOrder._Order.BillOfOperationsVariant` |
+| `MaintenanceOrderPlanningCode` | `I_MaintenanceOrder.MaintenanceOrderPlanningCode` |
+| `MaintenanceActivityType` | `I_MaintenanceOrder.MaintenanceActivityType` |
+| `ABCIndicator` | `I_MaintenanceOrder._LocationAccountAssignment.ABCIndicator` |
+| `MaintenancePlant` | `I_MaintenanceOrder._LocationAccountAssignment.MaintenancePlant` |
+| `AssetLocation` | `I_MaintenanceOrder._LocationAccountAssignment.AssetLocation` |
+| `AssetRoom` | `I_MaintenanceOrder._LocationAccountAssignment.AssetRoom` |
+| `MaintenanceProcessingPhase` | `I_MaintenanceOrder.MaintenanceProcessingPhase` |
+| `OperationSystemCondition` | `I_MaintenanceOrder.OperationSystemCondition` |
+| `PlantSection` | `I_MaintenanceOrder._LocationAccountAssignment.PlantSection` |
+| `MainWorkCenter` | `cast( I_MaintenanceOrder._MainWorkCenter.WorkCenter as gewrk preserving type )` |
+| `MainWorkCenterPlant` | `cast( I_MaintenanceOrder._MainWorkCenter.Plant as wergw preserving type )` |
+| `WorkCenter` | `I_MaintenanceOrder._LocationAccountAssignment._WorkCenter.WorkCenter` |
+| `WorkCenterPlant` | `I_MaintenanceOrder._LocationAccountAssignment._WorkCenter.Plant` |
+| `ReferenceElement` | `I_MaintenanceOrder.ReferenceElement` |
+| `CostCenter` | `I_MaintenanceOrder._LocationAccountAssignment.CostCenter` |
+| `ControllingArea` | `I_MaintenanceOrder._LocationAccountAssignment.ControllingArea` |
+| `SuperiorProjectNetwork` | `I_MaintenanceOrder._Order.SuperiorProjectNetwork` |
+| `CompanyCode` | `I_MaintenanceOrder._LocationAccountAssignment.CompanyCode` |
+| `BusinessArea` | `I_MaintenanceOrder._LocationAccountAssignment.BusinessArea` |
+| `WBSElementInternalID` | `I_MaintenanceOrder._LocationAccountAssignment.WBSElementInternalID` |
+| `MasterFixedAsset` | `I_MaintenanceOrder._LocationAccountAssignment.MasterFixedAsset` |
+| `FixedAsset` | `I_MaintenanceOrder._LocationAccountAssignment.FixedAsset` |
+| `SettlementOrder` | `I_MaintenanceOrder._LocationAccountAssignment.SettlementOrder` |
+| `MaintenanceOrderInternalID` | `I_MaintenanceOrder.MaintenanceOrderInternalID` |
+| `IsMarkedForDeletion` | `I_MaintenanceOrder._Order.IsMarkedForDeletion` |
+| `CreationDate` | `I_MaintenanceOrder._Order.CreationDate` |
+| `CreationTime` | `I_MaintenanceOrder._Order.CreationTime` |
+| `LastChangeDate` | `I_MaintenanceOrder._Order.LastChangeDate` |
+| `LastChangeTime` | `I_MaintenanceOrder._Order.LastChangeTime` |
+| `PlannedStartDate` | `-- I_MaintenanceOrder._Order.PlannedStartDate` |
+| `PlannedStartTime` | `I_MaintenanceOrder._Order.PlannedStartTime` |
+| `PlannedEndDate` | `-- I_MaintenanceOrder._Order.PlannedEndDate` |
+| `PlannedEndTime` | `I_MaintenanceOrder._Order.PlannedEndTime` |
+| `ScheduledBasicStartDate` | `-- I_MaintenanceOrder._Order.ScheduledBasicStartDate` |
+| `ScheduledBasicStartTime` | `I_MaintenanceOrder._Order.ScheduledBasicStartTime` |
+| `ScheduledBasicEndDate` | `-- I_MaintenanceOrder._Order.ScheduledBasicEndDate` |
+| `ScheduledBasicEndTime` | `I_MaintenanceOrder._Order.ScheduledBasicEndTime` |
+| `ActualStartDate` | `-- I_MaintenanceOrder._Order.ActualStartDate` |
+| `ActualStartTime` | `I_MaintenanceOrder._Order.ActualStartTime` |
+| `ConfirmedEndDate` | `-- I_MaintenanceOrder._Order.ConfirmedEndDate` |
+| `ConfirmedEndTime` | `I_MaintenanceOrder._Order.ConfirmedEndTime` |
+| `MaintOrderReferenceDate` | `I_MaintenanceOrder.MaintOrderReferenceDate` |
+| `CreationDateTime` | `cast(…)` |
+| `LastChangeDateTime` | `cast( I_MaintenanceOrder.LastChangeDateTime as rslastchangedat preserving type )` |
+| `ScheduledBasicEndDateTime` | `cast(…)` |
+| `ConfirmedEndDateTime` | `cast(…)` |
+| `CreatedByUser` | `I_MaintenanceOrder._Order.CreatedByUser` |
+| `LastChangedByUser` | `I_MaintenanceOrder._Order.LastChangedByUser` |
+| `TechnicalObject` | `case…end` |
+| `TechnicalObjectType` | `coalesce(…)` |
+| `TechObjIsEquipOrFuncnlLoc` | `cast(…)` |
+| `OrderLeadTimeDuration` | `durn.DLZNetto` |
+| `OrderRuntimeDuration` | `durn.DLZBrutto` |
+| `OrderDurationUnit` | `cast( 'TAG' as qeinhtag )` |
+| `NumberOfCreatedMaintOrders` | `cast( 1 as eam_num_orders_created )` |
+| `NumberOfOrders` | `cast(…)` |
+| `NumberOfCompletedMaintOrders` | `cast(…)` |
+| `NumberOfPlannedMaintOrders` | `cast(…)` |
+| `NumberOfUnplannedMaintOrders` | `cast(…)` |
+| `NumberOfImmediateMaintOrders` | `cast(…)` |
+| `NmbrOfMaintOrdsNotToBeExecuted` | `cast(…)` |
+| `NmbrOfOutstandingMaintOrders` | `cast(…)` |
+| `NmbrOfMaintOrdsCompletedOnTime` | `cast(…)` |
+| `NmbrOfHistoricalOrders` | `cast( 0 as eam_num_orders_historical)` |
+| `MaintOrdProcessPhaseCode` | `I_MaintenanceOrder.MaintOrdProcessPhaseCode` |
+| `MaintOrdProcessSubPhaseCode` | `I_MaintenanceOrder.MaintOrdProcessSubPhaseCode` |
+| `LatestAcceptableCompletionDate` | `I_MaintenanceOrder.LatestAcceptableCompletionDate` |
+| `PrevLtstAccptblCompletionDate` | `I_MaintenanceOrder.PrevLtstAccptblCompletionDate` |
+| `MaintOrderProcessingContext` | `I_MaintenanceOrder.MaintOrderProcessingContext` |
+| `MainWorkCenterInternalID` | `I_MaintenanceOrder.WorkCenterInternalID` |
+| `WorkCenterInternalID` | `I_MaintenanceOrder._LocationAccountAssignment.WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `I_MaintenanceOrder.WorkCenterTypeCode` |
+| `_MaintenanceOrderType` | *Association* |
+| `_Equipment` | *Association* |
+| `_Assembly` | *Association* |
+| `_MaintenanceItem` | *Association* |
+| `_MaintenanceNotification` | *Association* |
+| `_MaintenancePlannerGroup` | *Association* |
+| `_MaintenancePlanningPlant` | *Association* |
 | `_MaintenancePlanPlant` | *Association* |
-| `I_MaintOrderHistTechObj._MaintenancePlan` | `I_MaintOrderHistTechObj._MaintenancePlan` |
-| `I_MaintOrderHistTechObj._BillOfOperationsType` | `I_MaintOrderHistTechObj._BillOfOperationsType` |
-| `I_MaintOrderHistTechObj._BillOfOperationsGroup` | `I_MaintOrderHistTechObj._BillOfOperationsGroup` |
-| `I_MaintOrderHistTechObj._MaintenanceActivityType` | `I_MaintOrderHistTechObj._MaintenanceActivityType` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._ABCIndicator` | `I_MaintOrderHistTechObj._LocationAccountAssignment._ABCIndicator` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._CompanyCode` | `I_MaintOrderHistTechObj._LocationAccountAssignment._CompanyCode` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._MaintenancePlant` | `I_MaintOrderHistTechObj._LocationAccountAssignment._MaintenancePlant` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._Location` | `I_MaintOrderHistTechObj._LocationAccountAssignment._Location` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._PlantSection` | `I_MaintOrderHistTechObj._LocationAccountAssignment._PlantSection` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._FunctionalLocation` | `I_MaintOrderHistTechObj._LocationAccountAssignment._FunctionalLocation` |
-| `_WorkCenterPlant` | `I_MaintOrderHistTechObj._LocationAccountAssignment._WorkCenter._Plant` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._CostCenter` | `I_MaintOrderHistTechObj._LocationAccountAssignment._CostCenter` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._ControllingArea` | `I_MaintOrderHistTechObj._LocationAccountAssignment._ControllingArea` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._BusinessArea` | `I_MaintOrderHistTechObj._LocationAccountAssignment._BusinessArea` |
-| `I_MaintOrderHistTechObj._MainWorkCenter` | `I_MaintOrderHistTechObj._MainWorkCenter` |
-| `_MainWorkCenterPlant` | `I_MaintOrderHistTechObj._MainWorkCenter._Plant` |
-| `I_MaintOrderHistTechObj._LocationAccountAssignment._WBSElementBasicData` | `I_MaintOrderHistTechObj._LocationAccountAssignment._WBSElementBasicData` |
+| `_MaintenancePlan` | *Association* |
+| `_BillOfOperationsType` | *Association* |
+| `_BillOfOperationsGroup` | *Association* |
+| `_MaintenanceActivityType` | *Association* |
+| `_ABCIndicator` | *Association* |
+| `_CompanyCode` | *Association* |
+| `_MaintenancePlant` | *Association* |
+| `_Location` | *Association* |
+| `_PlantSection` | *Association* |
+| `_FunctionalLocation` | *Association* |
+| `_WorkCenterPlant` | *Association* |
+| `_CostCenter` | *Association* |
+| `_ControllingArea` | *Association* |
+| `_BusinessArea` | *Association* |
+| `_MainWorkCenter` | *Association* |
+| `_MainWorkCenterPlant` | *Association* |
+| `_WBSElementBasicData` | *Association* |
 | `_TechnicalObjectType` | *Association* |
 | `_TechObjIsEquipOrFuncnlLoc` | *Association* |
 | `_MainWorkCenterBySemanticKey` | *Association* |
@@ -198,15 +173,6 @@ tags:
 | `_WorkCenter` | `I_WorkCenter` | [0..1] |
 | `_MaintenancePlanPlant` | `I_MaintenancePlanPlant` | [0..1] |
 | `_MaintenanceOrderExtension` | `E_MaintenanceOrder` | [0..1] |
-| `_TechObjIsEquipOrFuncnlLoc` | `I_TechObjIsEquipOrFuncnlLoc` | [0..1] |
-| `_TechnicalObjectType` | `I_TechnicalObjectType` | [0..1] |
-| `_MainWorkCenterBySemanticKey` | `I_WorkCenterBySemanticKey` | [0..1] |
-| `_WorkCenterBySemanticKey` | `I_WorkCenterBySemanticKey` | [0..1] |
-| `_EquipmentData` | `I_EquipmentData` | [0..*] |
-| `_FunctionalLocationData` | `I_FunctionalLocationData` | [0..1] |
-| `_OrderDurationUnit` | `I_UnitOfMeasure` | [0..1] |
-| `_WorkCenter` | `I_WorkCenter` | [0..1] |
-| `_MaintenancePlanPlant` | `I_MaintenancePlanPlant` | [0..1] |
 
 ## Source Code
 

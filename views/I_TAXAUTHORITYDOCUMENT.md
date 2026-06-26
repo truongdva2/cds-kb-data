@@ -48,8 +48,7 @@ tags:
 | `EDCCreatedOnDateTime` | `created_on` |
 | `EDCChangedByUser` | `changed_by` |
 | `EDCChangedOnDateTime` | `changed_on` |
-| `_TaxAuthDocumentStatusText.EDCTaxAuthStatusText` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `EDCTaxAuthStatusText` | `_TaxAuthDocumentStatusText.EDCTaxAuthStatusText` |
 | `_TaxAuthDocHis` | *Association* |
 
 ## Associations

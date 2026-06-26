@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationOrderBusPartUUID` | `TransportationOrderBusPartUUID` |
-| `key AddressRepresentationCode` | `AddressRepresentationCode` |
+| `TransportationOrderBusPartUUID` | `TransportationOrderBusPartUUID` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `AddressID` | `AddressID` |
 | `AddresseeFullName` | `AddresseeFullName` |
@@ -43,9 +43,8 @@ tags:
 | `Country` | `Country` |
 | `Region` | `Region` |
 | `_AddressRepresentationCode` | *Association* |
-| `/* Redirections */` | `/* Redirections */` |
-| `_TransportationOrder        as _FreightBooking         : redirected to I_FreightBookingTP` | *Association* |
-| `_TranspOrdBPAddrDfltRprstn  as _FrtBkgBPAddrDfltRprstn : redirected to parent I_FrtBkgBPAddrDfltRprstnTP` | *Association* |
+| `_FreightBooking` | *Association* |
+| `_FrtBkgBPAddrDfltRprstn` | *Association* |
 
 ## Associations
 

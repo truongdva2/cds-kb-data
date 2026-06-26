@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kofiz_kk preserving type )` | `cast( kofiz` |
+| `CAAccountDeterminationCode` | `cast( kofiz as kofiz_kk preserving type )` |
 | `Language` | `spras` |
 | `CAAccountDeterminationCodeName` | `text50` |
 | `_Language` | *Association* |

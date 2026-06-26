@@ -32,16 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key  ConditionRecord` | `ConditionRecord` |
-| `key  ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionIsDeleted` | `ConditionIsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlPurContrHdrCndnAmount : redirected to composition child I_CntrlPurContrHdrCndnAmtTP_2` | *Association* |
-| `_CentralPurchaseContract    : redirected to parent I_CntrlPurchaseContractTP_2` | *Association* |
 
 ## Associations
 

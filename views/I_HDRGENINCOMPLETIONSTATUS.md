@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hdr_general_incompltn_status preserving type )` | `cast( substring (dd07l.domvalue_l, 1, 1)` |
+| `HdrGeneralIncompletionStatus` | `cast(…)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

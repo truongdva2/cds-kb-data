@@ -47,7 +47,6 @@ tags:
 | `CAWriteOffIsReversed` | `xrvsd` |
 | `CAMassRunDate` | `laufd` |
 | `CAMassRunID` | `laufi` |
-| `/* associations */` | `/* associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CADocument` | *Association* |
 | `_CADocumentBPItem` | *Association* |

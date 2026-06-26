@@ -33,19 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlantSales.Product` | `PlantSales.Product` |
-| `key PlantSales.Plant` | `PlantSales.Plant` |
-| `PlantSales.LoadingGroup` | `PlantSales.LoadingGroup` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `PlantSales.CapPlanningQuantityInBaseUoM` | `PlantSales.CapPlanningQuantityInBaseUoM` |
-| `PlantSales.ProductShippingProcessingTime` | `PlantSales.ProductShippingProcessingTime` |
-| `PlantSales.WrkCentersShipgSetupTimeInDays` | `PlantSales.WrkCentersShipgSetupTimeInDays` |
-| `PlantSales.ReplacementPartType` | `PlantSales.ReplacementPartType` |
-| `PlantSales.AvailabilityCheckType` | `PlantSales.AvailabilityCheckType` |
-| `_Product.BaseUnit                               as BaseUnit` | *Association* |
+| `Product` | `PlantSales.Product` |
+| `Plant` | `PlantSales.Plant` |
+| `LoadingGroup` | `PlantSales.LoadingGroup` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `CapPlanningQuantityInBaseUoM` | `PlantSales.CapPlanningQuantityInBaseUoM` |
+| `ProductShippingProcessingTime` | `PlantSales.ProductShippingProcessingTime` |
+| `WrkCentersShipgSetupTimeInDays` | `PlantSales.WrkCentersShipgSetupTimeInDays` |
+| `ReplacementPartType` | `PlantSales.ReplacementPartType` |
+| `AvailabilityCheckType` | `PlantSales.AvailabilityCheckType` |
+| `BaseUnit` | `_Product.BaseUnit` |
 | `_Product` | *Association* |
 | `_LoadingGroupText` | *Association* |
-| `_Product._BaseUnitOfMeasure` | *Association* |
+| `_BaseUnitOfMeasure` | *Association* |
 | `_AvailabilityCheckType` | *Association* |
 | `_AvailabilityCheckType_2` | *Association* |
 | `_ProductReplacementPartTypeT` | *Association* |

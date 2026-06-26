@@ -82,7 +82,6 @@ tags:
 | `_REMsmtUsageForBuilding` | `I_REMsmtAllowedUsages` | [0..1] |
 | `_REMsmtUsageForContract` | `I_REMsmtAllowedUsages` | [0..1] |
 | `_REMsmtUsageForParcels` | `I_REMsmtAllowedUsages` | [0..1] |
-| `_REMsmtUsageForIntegObject` | `I_REMsmtAllowedUsages` | [0..1] |
 | `_REDifferingMeasurement` | `I_REDifferingMeasurement` | [0..1] |
 
 ## Source Code

@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABllbleItmDiscountKey` | `_tfk8117t.disckey` |
 | `Language` | `_tfk8117t.langu` |
-| `disckey_txt_gfn_kk preserving type )` | `cast(_tfk8117t.text` |
+| `CABllbleItmDiscountKeyText` | `cast(_tfk8117t.text as disckey_txt_gfn_kk preserving type )` |
 | `_CABllbleItmDiscountKey` | *Association* |
 | `_Language` | *Association* |
 

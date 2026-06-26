@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesDocument` | `SalesDocument` |
+| `SalesDocument` | `SalesDocument` |
 | `DistributionChannel` | `DistributionChannel` |
 | `OrganizationDivision` | `OrganizationDivision` |
 | `SalesDocumentType` | `SalesDocumentType` |

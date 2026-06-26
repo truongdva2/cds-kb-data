@@ -30,12 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FinMgmtAreaStdVH'` | `name:    'I_FinMgmtAreaStdVH'` |
-| `element: 'FinancialManagementArea' }` | `element: 'FinancialManagementArea' }` |
-| `}]` | `}]` |
+| `Language` | `langu` |
 | `FinancialManagementArea` | `fm_area` |
 | `FundType` | `fund_type` |
-| `fmis_fundtypet preserving type )` | `cast( fund_typet` |
+| `FundTypeDescription` | `cast( fund_typet as fmis_fundtypet preserving type )` |
 | `_FinMgmtArea` | *Association* |
 | `_FundType` | *Association* |
 | `_Language` | *Association* |
@@ -44,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_FundType` | `I_FundType` | — |
 | `_FinMgmtArea` | `I_FinancialManagementArea` | [1..1] |
 | `_Language` | `I_Language` | [0..1] |
 

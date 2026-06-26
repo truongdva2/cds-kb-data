@@ -43,12 +43,12 @@ tags:
 | `SumzdJITCallPlndDelivDateTime` | `pabtim` |
 | `GoodsReceiptIsExisting` | `pabwef` |
 | `GoodsReceiptQtyInBaseUnit` | `pabwem` |
-| `_SummarizedJITCall.Plant` | *Association* |
+| `Plant` | `_SummarizedJITCall.Plant` |
 | `_SummarizedJITCall` | *Association* |
-| `_SummarizedJITCall.Supplier` | *Association* |
+| `Supplier` | `_SummarizedJITCall.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
-| `_SummarizedJITCall.OutputPartnerForSumzdJITCall` | *Association* |
+| `OutputPartnerForSumzdJITCall` | `_SummarizedJITCall.OutputPartnerForSumzdJITCall` |
 | `_OutputPartner` | *Association* |
 | `_OutputPartnerCompanyByPlant` | *Association* |
 

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassType` | `ClassType` |
-| `_ClassTypeText as _Text` | *Association* |
+| `ClassType` | `ClassType` |
+| `_Text` | *Association* |
 
 ## Associations
 

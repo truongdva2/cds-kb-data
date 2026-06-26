@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key InvoicingPlanItem` | `InvoicingPlanItem` |
-| `key InvoicingPlan` | `InvoicingPlan` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `InvoicingPlanItem` | `InvoicingPlanItem` |
+| `InvoicingPlan` | `InvoicingPlan` |
 | `InvoicingPlanSettlementFromDte` | `InvoicingPlanSettlementFromDte` |
 | `InvoicingPlanSettlementToDte` | `InvoicingPlanSettlementToDte` |
 | `InvoicingPlanInvoicingDate` | `InvoicingPlanInvoicingDate` |
@@ -45,10 +45,6 @@ tags:
 | `PurchasingGroup` | `PurchasingGroup` |
 | `PurchaseOrderType` | `PurchaseOrderType` |
 | `Plant` | `Plant` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseOrder : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_PurchaseOrderItem: redirected to I_PurchaseOrderItemTP_2` | *Association* |
-| `_PurchaseOrderInvoicingPlan  : redirected to parent I_PurOrderInvoicingPlanTP_2` | *Association* |
 
 ## Associations
 

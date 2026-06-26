@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GrantID` | `_Source.GrantID` |
-| `_Source._Text[1: Language=$session.system_language].GrantName` | *Association* |
+| `GrantID` | `_Source.GrantID` |
+| `GrantName` | `_Source._Text[1: Language=$session.system_language].GrantName` |
 
 ## Associations
 

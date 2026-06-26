@@ -30,10 +30,55 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PersSettlmtBusProcCat', element: 'PersSettlmtBusProcCat' }, useAsTemplate: true }]` | `name: 'I_PersSettlmtBusProcCat', element: 'PersSettlmtBusProcCat' }, useAsTemplate: true }]` |
-| `}` | `}` |
+| `PersonnelSettlementDocument` | `PersonnelSettlementDocument` |
+| `SettlmtDocType` | `SettlmtDocType` |
+| `SettlmtDocCat` | `SettlmtDocCat` |
+| `SettlmtProcessType` | `SettlmtProcessType` |
+| `SettlmtProcessCat` | `SettlmtProcessCat` |
+| `LogisticsDataEntryCat` | `LogisticsDataEntryCat` |
+| `PostingDate` | `PostingDate` |
+| `PersSettlmtAcctgTransfSts` | `PersSettlmtAcctgTransfSts` |
+| `DocumentDate` | `DocumentDate` |
+| `DocumentReferenceID` | `DocumentReferenceID` |
+| `AssignmentReference` | `AssignmentReference` |
+| `SettlmtApplSts` | `SettlmtApplSts` |
+| `SettlmtApplStsGrp` | `SettlmtApplStsGrp` |
+| `PricingProcedure` | `PricingProcedure` |
+| `PricingDocument` | `PricingDocument` |
+| `PersonWorkAgreement` | `PersonWorkAgreement` |
+| `PersonnelCostCenter` | `PersonnelCostCenter` |
+| `PersonnelControllingArea` | `PersonnelControllingArea` |
+| `CompanyCode` | `CompanyCode` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `PersSettlmtDocCurrency` | `PersSettlmtDocCurrency` |
+| `ExchangeRate` | `ExchangeRate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `PersSettlmtDocIsReversed` | `PersSettlmtDocIsReversed` |
+| `RvsdPersSettlmtDoc` | `RvsdPersSettlmtDoc` |
+| `PersSettlmtDocActivityReason` | `PersSettlmtDocActivityReason` |
+| `PaymentReference` | `PaymentReference` |
+| `CndnContrType` | `CndnContrType` |
+| `SettlmtReltdCndnContr` | `SettlmtReltdCndnContr` |
+| `CndnContrProcVar` | `CndnContrProcVar` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `SettlmtDateCat` | `SettlmtDateCat` |
+| `ActualSettlmtDate` | `ActualSettlmtDate` |
+| `SettlmtDateSequentialID` | `SettlmtDateSequentialID` |
+| `SettlmtDate` | `SettlmtDate` |
+| `PersSettlmtDocIncmpltnsRsn` | `PersSettlmtDocIncmpltnsRsn` |
+| `SettlmtBusProcVar` | `SettlmtBusProcVar` |
 | `SettlmtBusProcCat` | `SettlmtBusProcCat` |
-| `/* Units */` | `/* Units */` |
 | `TotalSettlmtQuantity` | `TotalSettlmtQuantity` |
 | `TotalSettlmtQuantityUnit` | `TotalSettlmtQuantityUnit` |
 | `TotalSettlmtNetWeight` | `TotalSettlmtNetWeight` |
@@ -45,17 +90,13 @@ tags:
 | `SettlmtPeriodEndDate` | `SettlmtPeriodEndDate` |
 | `CndnContrProcessCategory` | `CndnContrProcessCategory` |
 | `PostingPartnerCat` | `PostingPartnerCat` |
-| `/* Journal Entry related fields */` | `/* Journal Entry related fields */` |
 | `JournalEntryCreationDate` | `JournalEntryCreationDate` |
 | `JournalEntryCreationTime` | `JournalEntryCreationTime` |
 | `SettlmtCompensationReason` | `SettlmtCompensationReason` |
 | `SettlmtCompnVar` | `SettlmtCompnVar` |
 | `ApplElmntBehaviorGrp` | `ApplElmntBehaviorGrp` |
-| `/* Entity Tag */` | `/* Entity Tag */` |
 | `PersSettlmtDocChangeState` | `PersSettlmtDocChangeState` |
 | `_PersonWorkAgreement` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_PersSettlmtDocItem : redirected to composition child I_PersSettlmtDocItemTP` | *Association* |
 
 ## Associations
 

@@ -28,18 +28,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrder        : /scmtms/tor_id;` | `TransportationOrder        : /scmtms/tor_id;` |
-| `TransportationOrderType    : /scmtms/tor_type;` | `TransportationOrderType    : /scmtms/tor_type;` |
-| `TransportationMode         : /scmtms/trmodcode;` | `TransportationMode         : /scmtms/trmodcode;` |
-| `TransportationShippingType : /scmtms/shipping_type;` | `TransportationShippingType : /scmtms/shipping_type;` |
-| `Carrier                    : /scmtms/pty_carrier;` | `Carrier                    : /scmtms/pty_carrier;` |
-| `TranspPurgOrgExtID         : /scmtms/vdm_pur_org_ext_id;` | `TranspPurgOrgExtID         : /scmtms/vdm_pur_org_ext_id;` |
-| `TransportationOrderExecSts : /scmtms/tor_execution_status;` | `TransportationOrderExecSts : /scmtms/tor_execution_status;` |
-| `__before                   : composition [1..1] of D_TranspOrdExecutionStsBfr;` | *Association* |
+| `TransportationOrder` | `/scmtms/tor_id` |
+| `TransportationOrderType` | `/scmtms/tor_type` |
+| `TransportationMode` | `/scmtms/trmodcode` |
+| `TransportationShippingType` | `/scmtms/shipping_type` |
+| `Carrier` | `/scmtms/pty_carrier` |
+| `TranspPurgOrgExtID` | `/scmtms/vdm_pur_org_ext_id` |
+| `TransportationOrderExecSts` | `/scmtms/tor_execution_status` |
+| `__before` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `__before` | `D_TranspOrdExecutionStsBfr` | [1..1] |
 
 ## Source Code
 

@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key     BOOOperationInternalID` | `BOOOperationInternalID` |
-| `key     BOOCharacteristic` | `BOOCharacteristic` |
-| `key     BOOCharacteristicVersion` | `BOOCharacteristicVersion` |
-| `key     InspectionPlan` | `InspectionPlan` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `BOOOperationInternalID` | `BOOOperationInternalID` |
+| `BOOCharacteristic` | `BOOCharacteristic` |
+| `BOOCharacteristicVersion` | `BOOCharacteristicVersion` |
+| `InspectionPlan` | `InspectionPlan` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `ChangeNumber` | `ChangeNumber` |
@@ -50,7 +50,7 @@ tags:
 | `InspectionSpecificationPlant` | `InspectionSpecificationPlant` |
 | `BOOCharcHasInspSpecReference` | `BOOCharcHasInspSpecReference` |
 | `InspSpecControlIndicators` | `InspSpecControlIndicators` |
-| `qkzqunmk preserving type )` | `cast ( InspSpecIsQuantitative` |
+| `InspSpecIsQuantitative` | `cast ( InspSpecIsQuantitative as qkzqunmk preserving type )` |
 | `InspSpecIsMeasuredValueRqd` | `InspSpecIsMeasuredValueRqd` |
 | `InspSpecIsSelectedSetRequired` | `InspSpecIsSelectedSetRequired` |
 | `InspSpecIsUpperLimitRequired` | `InspSpecIsUpperLimitRequired` |
@@ -136,11 +136,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `BillOfOperationsVersion` | `BillOfOperationsVersion` |
-| `_InspectionPlanVersion : redirected to I_InspectionPlanVersionTP_2` | *Association* |
-| `_InspPlanOpVersion : redirected to I_InspPlanOperationVersTP_2` | *Association* |
-| `_InspPlanDepdntCharVers : redirected to I_InspPlanDepdntCharcVersTP_2` | *Association* |
-| `_InspPlanOperation : redirected to parent I_InspPlanOperationTP_2` | *Association* |
-| `_InspPlan : redirected to I_InspectionPlanTP_2` | *Association* |
 
 ## Associations
 

@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocationlifecyclestatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocationLifecycleStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodalloclifecyclestatusdesc preserving type )` | `cast( ddtext` |
-| `_ProdAllocLifecycleStatus, //decomment only if no problems in analytics` | *Association* |
+| `ProdAllocLifecycleStatusDesc` | `cast( ddtext as prodalloclifecyclestatusdesc preserving type )` |
+| `_ProdAllocLifecycleStatus` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

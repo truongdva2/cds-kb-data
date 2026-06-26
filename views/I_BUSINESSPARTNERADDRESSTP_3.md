@@ -35,7 +35,52 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'BPCountyText' }` | `releaseState: #DEPRECATED, successor: 'BPCountyText' }` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `AddressIDForEdit` | `AddressIDForEdit` |
+| `BusinessPartnerAddressUUID` | `BusinessPartnerAddressUUID` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `CareOfName` | `CareOfName` |
+| `StreetPrefixName` | `StreetPrefixName` |
+| `AdditionalStreetPrefixName` | `AdditionalStreetPrefixName` |
+| `HouseNumber` | `HouseNumber` |
+| `StreetName` | `StreetName` |
+| `HouseNumberSupplementText` | `HouseNumberSupplementText` |
+| `StreetSuffixName` | `StreetSuffixName` |
+| `AdditionalStreetSuffixName` | `AdditionalStreetSuffixName` |
+| `HomeCityName` | `HomeCityName` |
+| `District` | `District` |
+| `DistrictName` | `DistrictName` |
+| `PostalCode` | `PostalCode` |
+| `CityName` | `CityName` |
+| `Country` | `Country` |
+| `Region` | `Region` |
+| `AddressTimeZone` | `AddressTimeZone` |
+| `TransportZone` | `TransportZone` |
+| `TaxJurisdiction` | `TaxJurisdiction` |
+| `CompanyPostalCode` | `CompanyPostalCode` |
+| `DeliveryServiceTypeCode` | `DeliveryServiceTypeCode` |
+| `DeliveryServiceNumber` | `DeliveryServiceNumber` |
+| `POBox` | `POBox` |
+| `POBoxIsWithoutNumber` | `POBoxIsWithoutNumber` |
+| `POBoxPostalCode` | `POBoxPostalCode` |
+| `POBoxLobbyName` | `POBoxLobbyName` |
+| `POBoxDeviatingCityName` | `POBoxDeviatingCityName` |
+| `POBoxDeviatingRegion` | `POBoxDeviatingRegion` |
+| `POBoxDeviatingCountry` | `POBoxDeviatingCountry` |
+| `CorrespondenceLanguage` | `CorrespondenceLanguage` |
+| `PrfrdCommMediumType` | `PrfrdCommMediumType` |
+| `AddressLine1Text` | `AddressLine1Text` |
+| `FormattedAddress` | `FormattedAddress` |
+| `CompleteAddress` | `CompleteAddress` |
+| `BPAddressIsProtected` | `BPAddressIsProtected` |
+| `StandardUsage` | `StandardUsage` |
+| `AddressNonDeliverableReason` | `AddressNonDeliverableReason` |
+| `PostBoxNonDeliverableReason` | `PostBoxNonDeliverableReason` |
+| `Building` | `Building` |
+| `Floor` | `Floor` |
+| `RoomNumber` | `RoomNumber` |
 | `County` | `County` |
 | `BPCountyText` | `BPCountyText` |
 | `DataControllerSet` | `DataControllerSet` |
@@ -49,23 +94,7 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
 | `_BPProtectedAddress` | *Association* |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
-| `_BusinessPartnerAddressUsage : redirected to composition child I_BusinessPartnerAddrUsageTP_3` | *Association* |
-| `_BusinessPartnerPhoneNumber : redirected to composition child I_BusPartTelephoneNumberTP_3` | *Association* |
-| `_BusPartMobileNumber : redirected to composition child I_BusPartMobilePhoneNumberTP_3` | *Association* |
-| `_BusPartFaxNumber : redirected to composition child I_BusPartFaxNumberTP_3` | *Association* |
-| `_BusinessPartnerEmailAddress : redirected to composition child I_BusPartEmailAddressTP_3` | *Association* |
-| `_BusPartWebsiteURL : redirected to composition child I_BusPartWebsiteTP_3` | *Association* |
-| `_BusPartScriptedOrgAddress : redirected to composition child I_BusPartScriptedOrgAddrTP_2` | *Association* |
-| `_BusPartScriptedPersonAddress : redirected to composition child I_BusPartScriptPersonAddrTP_2` | *Association* |
-| `_BusPartScriptedGroupAddress : redirected to composition child I_BusPartScriptGroupAddrTP_2` | *Association* |
-| `_StandardPhoneNumber : redirected to I_BusPartTelephoneNumberTP_3` | *Association* |
-| `_StandardMobileNumber : redirected to I_BusPartMobilePhoneNumberTP_3` | *Association* |
-| `_StandardFaxNumber : redirected to I_BusPartFaxNumberTP_3` | *Association* |
-| `_StandardEmailAddress : redirected to I_BusPartEmailAddressTP_3` | *Association* |
-| `_StandardWebsiteURL : redirected to I_BusPartWebsiteTP_3` | *Association* |
 | `_CountryText` | *Association* |
 
 ## Associations

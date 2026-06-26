@@ -30,22 +30,24 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DummyKey                       : abap.char(1);` | `DummyKey                       : abap.char(1);` |
-| `FiscalYear                     : gjahr;` | `FiscalYear                     : gjahr;` |
-| `ConsolidationVersion           : fc_rvers;` | `ConsolidationVersion           : fc_rvers;` |
-| `FiscalPeriod                   : poper;` | `FiscalPeriod                   : poper;` |
-| `ConsolidationChartOfAccounts   : fc_itclg;` | `ConsolidationChartOfAccounts   : fc_itclg;` |
-| `ConsolidationDocumentType      : fc_docty;` | `ConsolidationDocumentType      : fc_docty;` |
-| `DocumentItemText               : sgtxt;` | `DocumentItemText               : sgtxt;` |
-| `ConsolidationUnit              : fincs_consolidationunit;` | `ConsolidationUnit              : fincs_consolidationunit;` |
-| `ConsolidationGroup             : fc_congr;` | `ConsolidationGroup             : fc_congr;` |
-| `ConsolidationUnit1             : fc_bunit1;` | `ConsolidationUnit1             : fc_bunit1;` |
-| `ConsolidationUnit2             : fc_bunit2;` | `ConsolidationUnit2             : fc_bunit2;` |
-| `_Item                          : composition [1..*] of D_CnsldtnGrpJrnlEntrPostItemP;` | *Association* |
+| `DummyKey` | `abap.char(1)` |
+| `FiscalYear` | `gjahr` |
+| `ConsolidationVersion` | `fc_rvers` |
+| `FiscalPeriod` | `poper` |
+| `ConsolidationChartOfAccounts` | `fc_itclg` |
+| `ConsolidationDocumentType` | `fc_docty` |
+| `DocumentItemText` | `sgtxt` |
+| `ConsolidationUnit` | `fincs_consolidationunit` |
+| `ConsolidationGroup` | `fc_congr` |
+| `ConsolidationUnit1` | `fc_bunit1` |
+| `ConsolidationUnit2` | `fc_bunit2` |
+| `_Item` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_CnsldtnGrpJrnlEntrPostItemP` | [1..*] |
 
 ## Source Code
 

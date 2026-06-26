@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `langu` |
-| `fis_rmvct preserving type )` | `cast( trtyp` |
+| `FinancialTransactionType` | `cast( trtyp as fis_rmvct preserving type )` |
 | `FinancialTransactionTypeName` | `txt` |
 | `_Language` | *Association* |
 

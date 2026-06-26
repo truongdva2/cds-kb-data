@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_actxy preserving type)` | `cast(substring(t.domvalue_l, 1, 1)` |
+| `ActivityDescOriginType` | `cast(substring(t.domvalue_l, 1, 1) as pph_actxy preserving type)` |
 | `Language` | `t.ddlanguage` |
 | `ActivityDescOriginTypeName` | `t.ddtext` |
 | `_Language` | *Association* |

@@ -30,7 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeVH', element: 'CompanyCode' }, useAsTemplate: true }]` | `name:    'I_CompanyCodeVH', element: 'CompanyCode' }, useAsTemplate: true }]` |
+| `ElectronicDocUUID` | `ElectronicDocUUID` |
+| `IT_EDocProgressiveNumber` | `IT_EDocProgressiveNumber` |
+| `IT_ElectronicDocRequestID` | `IT_ElectronicDocRequestID` |
+| `IT_ElectronicDocPartnerStatus` | `IT_ElectronicDocPartnerStatus` |
+| `IT_ElectronicDocSenderCtryCode` | `IT_ElectronicDocSenderCtryCode` |
+| `IT_ElectronicDocSenderTaxID` | `IT_ElectronicDocSenderTaxID` |
+| `ElectronicDocBPType` | `ElectronicDocBPType` |
+| `ElectronicDocBPTypeText` | `ElectronicDocBPTypeText` |
+| `IT_ElectronicDocCustEmailAddr` | `IT_ElectronicDocCustEmailAddr` |
+| `IT_ElectronicDocODN` | `IT_ElectronicDocODN` |
+| `CAOfficialDocumentNumber` | `CAOfficialDocumentNumber` |
+| `ElectronicDocProcess` | `ElectronicDocProcess` |
 | `ElectronicDocCompanyCode` | `ElectronicDocCompanyCode` |
 | `_EDCDocPartnerStatText` | *Association* |
 | `_ElectronicDocProcessText` | *Association* |

@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
-| `key PurchasingHistoryDocumentType` | `PurchasingHistoryDocumentType` |
-| `key PurchasingHistoryDocumentYear` | `PurchasingHistoryDocumentYear` |
-| `key PurchasingHistoryDocument` | `PurchasingHistoryDocument` |
-| `key PurchasingHistoryDocumentItem` | `PurchasingHistoryDocumentItem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PurchasingHistoryDocumentType` | `PurchasingHistoryDocumentType` |
+| `PurchasingHistoryDocumentYear` | `PurchasingHistoryDocumentYear` |
+| `PurchasingHistoryDocument` | `PurchasingHistoryDocument` |
+| `PurchasingHistoryDocumentItem` | `PurchasingHistoryDocumentItem` |
 | `PurchasingHistoryCategory` | `PurchasingHistoryCategory` |
 | `PostingDate` | `PostingDate` |
 | `Quantity` | `Quantity` |
@@ -48,7 +48,7 @@ tags:
 | `GRIRAcctClrgAmtInCoCodeCrcy` | `GRIRAcctClrgAmtInCoCodeCrcy` |
 | `DebitCreditCode` | `DebitCreditCode` |
 | `DocumentReferenceID` | `DocumentReferenceID` |
-| `HistoryDeliveryCost.Supplier` | `HistoryDeliveryCost.Supplier` |
+| `Supplier` | `HistoryDeliveryCost.Supplier` |
 | `PurgHistDocumentCreationDate` | `PurgHistDocumentCreationDate` |
 | `PurgHistDocumentCreationTime` | `PurgHistDocumentCreationTime` |
 | `InvoiceAmtInCoCodeCrcy` | `InvoiceAmtInCoCodeCrcy` |

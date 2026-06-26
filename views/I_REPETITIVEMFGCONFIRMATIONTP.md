@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RepetitiveMfgConfirmation` | `RepetitiveMfgConfirmation` |
+| `RepetitiveMfgConfirmation` | `RepetitiveMfgConfirmation` |
 | `RepetitiveMfgConfirmationItem` | `RepetitiveMfgConfirmationItem` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
@@ -78,10 +78,6 @@ tags:
 | `CostCenter` | `CostCenter` |
 | `EWMWarehouse` | `EWMWarehouse` |
 | `DestinationStorageBin` | `DestinationStorageBin` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_RptvMfgConfMatlDocItemTP : redirected to composition child I_RptvMfgConfMatlDocItemTP` | *Association* |
-| `_RptvMfgConfMatlDocHndlgUntTP : redirected to composition child I_RptvMfgConfMatlDocHndlgUntTP` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_EntryUnit` | *Association* |
 
 ## Associations

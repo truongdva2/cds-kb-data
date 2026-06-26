@@ -30,29 +30,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key plfl.BillOfOperationsType` | `plfl.BillOfOperationsType` |
-| `key plfl.BillOfOperationsGroup` | `plfl.BillOfOperationsGroup` |
-| `key plfl.BillOfOperationsVariant` | `plfl.BillOfOperationsVariant` |
-| `key plfl.BillOfOperationsSequence` | `plfl.BillOfOperationsSequence` |
-| `key plfl.BOOSqncInternalVersionCounter` | `plfl.BOOSqncInternalVersionCounter` |
-| `plfl.IsDeleted` | `plfl.IsDeleted` |
-| `plfl.IsImplicitlyDeleted` | `plfl.IsImplicitlyDeleted` |
-| `plfl.ChangeNumber` | `plfl.ChangeNumber` |
-| `plfl.ValidityStartDate` | `plfl.ValidityStartDate` |
-| `plfl. ValidityEndDate` | `plfl. ValidityEndDate` |
-| `plfl.CreationDate` | `plfl.CreationDate` |
-| `plfl.CreatedByUser` | `plfl.CreatedByUser` |
-| `plfl.LastChangeDate` | `plfl.LastChangeDate` |
-| `plfl.LastChangedByUser` | `plfl.LastChangedByUser` |
-| `plfl.SequenceText` | `plfl.SequenceText` |
+| `BillOfOperationsType` | `plfl.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plfl.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `plfl.BillOfOperationsVariant` |
+| `BillOfOperationsSequence` | `plfl.BillOfOperationsSequence` |
+| `BOOSqncInternalVersionCounter` | `plfl.BOOSqncInternalVersionCounter` |
+| `IsDeleted` | `plfl.IsDeleted` |
+| `IsImplicitlyDeleted` | `plfl.IsImplicitlyDeleted` |
+| `ChangeNumber` | `plfl.ChangeNumber` |
+| `ValidityStartDate` | `plfl.ValidityStartDate` |
+| `CreationDate` | `plfl.CreationDate` |
+| `CreatedByUser` | `plfl.CreatedByUser` |
+| `LastChangeDate` | `plfl.LastChangeDate` |
+| `LastChangedByUser` | `plfl.LastChangedByUser` |
+| `SequenceText` | `-- Sequence plfl.SequenceText` |
 | `SequenceCategory` | `plfl.BillOfOperationsSequenceCat` |
-| `plfl.SequenceSchedulingAlignment` | `plfl.SequenceSchedulingAlignment` |
-| `plfl.BillOfOperationsRefSequence` | `plfl.BillOfOperationsRefSequence` |
-| `plfl.BOOSqncBranchOpInternalID` | `plfl.BOOSqncBranchOpInternalID` |
-| `plfl.BOOSqncReturnOpInternalID` | `plfl.BOOSqncReturnOpInternalID` |
-| `BillOfOperationsUnit` | `BillOfOperationsUnit` |
-| `plfl.MinimumLotSizeQuantity` | `plfl.MinimumLotSizeQuantity` |
-| `plfl.MaximumLotSizeQuantity` | `plfl.MaximumLotSizeQuantity` |
+| `SequenceSchedulingAlignment` | `plfl.SequenceSchedulingAlignment` |
+| `BillOfOperationsRefSequence` | `-- Reference plfl.BillOfOperationsRefSequence` |
+| `BOOSqncBranchOpInternalID` | `plfl.BOOSqncBranchOpInternalID` |
+| `BOOSqncReturnOpInternalID` | `plfl.BOOSqncReturnOpInternalID` |
+| `MinimumLotSizeQuantity` | `plfl.MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `plfl.MaximumLotSizeQuantity` |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsRefSequence` | *Association* |

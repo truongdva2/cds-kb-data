@@ -31,20 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JointVentureEquityGroup` | `JointVentureEquityGroup` |
-| `key JointVentureCarriedPartner` | `JointVentureCarriedPartner` |
-| `key JointVentureCarryingPartner` | `JointVentureCarryingPartner` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureEquityGroup` | `JointVentureEquityGroup` |
+| `JointVentureCarriedPartner` | `JointVentureCarriedPartner` |
+| `JointVentureCarryingPartner` | `JointVentureCarryingPartner` |
 | `JVACarriedSharePercent` | `JVACarriedSharePercent` |
 | `_CompanyCode` | *Association* |
 | `_JointVentureMasterFld` | *Association* |
 | `_JntVntrEquityGrp` | *Association* |
 | `_JVACarriedPartner` | *Association* |
 | `_JVACarryOwner` | *Association* |
-| `_JointVenturePartnerShare : redirected to parent I_JntVntrPartEquityShrTP` | *Association* |
-| `_JointVentureEquityGroup  : redirected to I_JointVentureEquityGroupTP` | *Association* |
-| `_JointVenture             : redirected to I_JointVentureTP` | *Association* |
 
 ## Associations
 

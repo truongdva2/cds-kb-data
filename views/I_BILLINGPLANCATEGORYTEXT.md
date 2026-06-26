@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fptyp_fp )` | `cast( dd07t.domvalue_l` |
+| `BillingPlanCategory` | `cast( dd07t.domvalue_l as fptyp_fp )` |
 | `Language` | `ddlanguage` |
 | `BillingPlanCategoryName` | `ddtext` |
 | `_BillingPlanCategory` | *Association* |

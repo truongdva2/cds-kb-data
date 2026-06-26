@@ -30,7 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'ProjDmndRsceAssgmtQuantityUnit'} }` | `unitOfMeasure: 'ProjDmndRsceAssgmtQuantityUnit'} }` |
+| `ProjDmndRsceAssgmtUUID` | `ProjDmndRsceAssgmtUUID` |
+| `ProjectDemandWorkUUID` | `ProjectDemandWorkUUID` |
+| `ProjectDemandUUID` | `ProjectDemandUUID` |
+| `ProjDmndRsceAssgmt` | `ProjDmndRsceAssgmt` |
 | `ProjDmndRsceAssgmtQuantity` | `ProjDmndRsceAssgmtQuantity` |
 | `ProjDmndRsceAssgmtQuantityUnit` | `ProjDmndRsceAssgmtQuantityUnit` |
 | `ProjectDemandSupplyDeliveryOrg` | `ProjectDemandSupplyDeliveryOrg` |
@@ -42,7 +45,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_Root` | *Association* |
 | `_Work` | *Association* |
 | `_AssgmtDistribution` | *Association* |

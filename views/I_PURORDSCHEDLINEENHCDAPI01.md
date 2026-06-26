@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ProcurementHubSourceSystem` | `ProcurementHubSourceSystem` |
 | `ScheduleLineUniqueID` | `ScheduleLineUniqueID` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |

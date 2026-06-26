@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_itm_serial_nr_uuid preserving type)` | `cast(TranspOrdItemSerialNumber.db_key` |
-| `/scmtms/vdm_tor_db_key preserving type)` | `cast(TranspOrdItemSerialNumber.root_key` |
-| `/scmtms/vdm_tor_item_db_key preserving type)` | `cast(TranspOrdItemSerialNumber.parent_key` |
-| `/scmtms/vdm_itm_serial_nr_id preserving type)` | `cast(TranspOrdItemSerialNumber.serial_id` |
+| `TranspOrdItemSerialNumberUUID` | `cast(…)` |
+| `TransportationOrderUUID` | `cast(…)` |
+| `TransportationOrderItemUUID` | `cast(…)` |
+| `TranspOrdItemSerialNumber` | `cast(…)` |
 | `_TransportationOrder` | *Association* |
 | `_TransportationOrderItem` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderItem` | `I_TransportationOrderItem_2` | — |
 | `_TransportationOrder` | `I_TransportationOrder_2` | [1..1] |
 
 ## Source Code

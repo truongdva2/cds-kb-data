@@ -29,11 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType        : lfart;` | `DeliveryDocumentType        : lfart;` |
-| `DeliveryBlockReason         : lifsk;` | `DeliveryBlockReason         : lifsk;` |
-| `PreviousDeliveryBlockReason : lifsk;` | `PreviousDeliveryBlockReason : lifsk;` |
-| `SalesOrganization           : vkorg;` | `SalesOrganization           : vkorg;` |
-| `SDDocumentCategory          : vbtypl;` | `SDDocumentCategory          : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `DeliveryBlockReason` | `lifsk` |
+| `PreviousDeliveryBlockReason` | `lifsk` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

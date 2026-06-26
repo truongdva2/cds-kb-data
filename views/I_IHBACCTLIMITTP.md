@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBLimitUUID` | `IHBLimitUUID` |
+| `IHBLimitUUID` | `IHBLimitUUID` |
 | `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBLimitRefUUID` | `IHBLimitRefUUID` |
 | `IHBLimitAmount` | `IHBLimitAmount` |
@@ -43,7 +43,6 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `_IHBMasterDataObjectTP : redirected to parent I_IHBAcctLimitObjectTP` | *Association* |
 
 ## Associations
 

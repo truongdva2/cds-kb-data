@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `rstyp )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ResvnAcctAssgmtCategory` | `cast( dd07t.domvalue_l as rstyp )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `imrs_acct_assgmt_cat_name )` | `cast( dd07t.ddtext` |
+| `ResvnAcctAssgmtCategoryName` | `cast( dd07t.ddtext as imrs_acct_assgmt_cat_name )` |
 | `_ResvnAcctAssgmtCategory` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ResvnAcctAssgmtCategory` | `I_ResvnAcctAssgmtCategory` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

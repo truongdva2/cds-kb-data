@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_fag_desc_uuid preserving type)` | `cast(db_key` |
-| `/scmtms/transpagrmt_uuid preserving type)` | `cast(parent_key` |
-| `/scmtms/vdm_fag_desc preserving type)` | `cast(description` |
+| `TranspAgreementDescUUID` | `cast(db_key as /scmtms/vdm_fag_desc_uuid preserving type)` |
+| `TransportationAgreementUUID` | `cast(parent_key as /scmtms/transpagrmt_uuid preserving type)` |
+| `TransportationAgreementDesc` | `cast(description as /scmtms/vdm_fag_desc preserving type)` |
 | `_TransportationAgreement` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_TransportationAgreement` | `I_TransportationAgreement` | — |
 
 ## Source Code
 

@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `parvw_unv)` | `cast(parvw` |
+| `PartnerFunction` | `cast(parvw as parvw_unv)` |
 | `Language` | `spras` |
 | `PartnerFunctionName` | `vtext` |
 | `_PartnerFunction` | *Association* |
@@ -41,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PartnerFunction` | `I_PartnerFunction` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

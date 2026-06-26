@@ -34,7 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `ftr_cndn_condition_category preserving type )` | `cast( sbktyp` |
+| `FinConditionConditionCategory` | `cast( sbktyp as ftr_cndn_condition_category preserving type )` |
 | `FinCndnConditionCategoryName` | `xbktyp` |
 | `_Language` | *Association* |
 | `_ConditionCategory` | *Association* |

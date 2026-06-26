@@ -40,7 +40,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesContractCanclnReason` | `I_SalesContractCanclnReason` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

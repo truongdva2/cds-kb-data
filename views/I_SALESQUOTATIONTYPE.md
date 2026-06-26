@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_quotation_type preserving type )` | `cast( SalesDocumentType` |
+| `SalesQuotationType` | `cast( SalesDocumentType as sales_quotation_type preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

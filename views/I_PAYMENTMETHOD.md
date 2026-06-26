@@ -32,12 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Country` | `t042z.land1` |
-| `farp_schzw_bseg )` | `cast( t042z.zlsch` |
-| `cast( case` | `cast( case` |
-| `when t042zt.text2 is null or t042zt.text2 = ''` | `when t042zt.text2 is null or t042zt.text2 = ''` |
-| `then t042z.text1` | `then t042z.text1` |
-| `else t042zt.text2` | `else t042zt.text2` |
-| `farp_schzw_text)` | `end` |
+| `PaymentMethod` | `cast( t042z.zlsch as farp_schzw_bseg )` |
+| `PaymentMethodName` | `cast(…)` |
 | `PaymentMethodIsUsedForCheck` | `xschk` |
 | `PaytMethIsUsdForBillOfExchange` | `xwech` |
 | `PaytMethIsUsdForChkBillOfExch` | `xswec` |

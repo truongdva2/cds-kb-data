@@ -30,16 +30,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_InspLotDynamicRuleStdVH', element: 'InspLotDynamicRule' } } ]` | `name: 'I_InspLotDynamicRuleStdVH', element: 'InspLotDynamicRule' } } ]` |
-| `plko.InspLotDynamicRule` | `plko.InspLotDynamicRule` |
-| `plko.InspExternalNumberingOfValues` | `plko.InspExternalNumberingOfValues` |
-| `plko.BillOfOperationsUnit` | `plko.BillOfOperationsUnit` |
-| `plko.MinimumLotSizeQuantity` | `plko.MinimumLotSizeQuantity` |
-| `plko.MaximumLotSizeQuantity` | `plko.MaximumLotSizeQuantity` |
-| `plko.OperationReferenceQuantity` | `plko.OperationReferenceQuantity` |
-| `plko.OperationUnit` | `plko.OperationUnit` |
-| `plko.OpQtyToBaseQtyNmrtr` | `plko.OpQtyToBaseQtyNmrtr` |
-| `plko.OpQtyToBaseQtyDnmntr` | `plko.OpQtyToBaseQtyDnmntr` |
+| `BillOfOperationsType` | `plko.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plko.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `plko.BillOfOperationsVariant` |
+| `BOOInternalVersionCounter` | `plko.BOOInternalVersionCounter` |
+| `CreationDate` | `-- Administrative Data plko.CreationDate` |
+| `CreatedByUser` | `plko.CreatedByUser` |
+| `LastChangeDate` | `plko.LastChangeDate` |
+| `LastChangedByUser` | `plko.LastChangedByUser` |
+| `ChangedDateTime` | `plko.ChangedDateTime` |
+| `ChangeNumber` | `-- Validity plko.ChangeNumber` |
+| `ValidityStartDate` | `plko.ValidityStartDate` |
+| `ValidityEndDate` | `plko.ValidityEndDate` |
+| `LastReorganizationDate` | `-- Additional Data plko.LastReorganizationDate` |
+| `LastUsageDate` | `plko.LastUsageDate` |
+| `NumberOfUsages` | `plko.NumberOfUsages` |
+| `BillOfOperationsDateTime` | `plko.BillOfOperationsDateTime` |
+| `IsDeleted` | `plko.IsDeleted` |
+| `IsImplicitlyDeleted` | `plko.IsImplicitlyDeleted` |
+| `IsMarkedForDeletion` | `plko.IsMarkedForDeletion` |
+| `ReplacedBillOfOperations` | `plko.ReplacedBillOfOperations` |
+| `BillOfOperationsDesc` | `plko.BillOfOperationsDesc` |
+| `LongTextLanguageCode` | `plko.LongTextLanguageCode` |
+| `WorkCenterTypeCode` | `plko.WorkCenterTypeCode` |
+| `WorkCenterInternalID` | `plko.WorkCenterInternalID` |
+| `Plant` | `plko.Plant` |
+| `BillOfOperationsUsage` | `plko.BillOfOperationsUsage` |
+| `BillOfOperationsStatus` | `plko.BillOfOperationsStatus` |
+| `BillOfOperationsProfile` | `plko.BillOfOperationsProfile` |
+| `ResponsiblePlannerGroup` | `plko.ResponsiblePlannerGroup` |
+| `LineHierarchyInternalID` | `plko.LineHierarchyInternalID` |
+| `InspSubsetFieldCombination` | `plko.InspSubsetFieldCombination` |
+| `InspectionPartialLot` | `plko.InspectionPartialLot` |
+| `SmplDrawingProcedure` | `plko.SmplDrawingProcedure` |
+| `SmplDrawingProcedureVersion` | `plko.SmplDrawingProcedureVersion` |
+| `InspectionLotDynamicLevel` | `plko.InspectionLotDynamicLevel` |
+| `InspLotDynamicRule` | `plko.InspLotDynamicRule` |
+| `InspExternalNumberingOfValues` | `plko.InspExternalNumberingOfValues` |
+| `BillOfOperationsUnit` | `plko.BillOfOperationsUnit` |
+| `MinimumLotSizeQuantity` | `plko.MinimumLotSizeQuantity` |
+| `MaximumLotSizeQuantity` | `plko.MaximumLotSizeQuantity` |
+| `OperationReferenceQuantity` | `plko.OperationReferenceQuantity` |
+| `OperationUnit` | `plko.OperationUnit` |
+| `OpQtyToBaseQtyNmrtr` | `plko.OpQtyToBaseQtyNmrtr` |
+| `OpQtyToBaseQtyDnmntr` | `plko.OpQtyToBaseQtyDnmntr` |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperationsStatus` | *Association* |

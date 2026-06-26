@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderID` | `OrderID` |
-| `_CnsldtnOrder._Text[1: Language=$session.system_language].OrderDescription` | *Association* |
+| `OrderID` | `OrderID` |
+| `OrderDescription` | `_CnsldtnOrder._Text[1: Language=$session.system_language].OrderDescription` |
 
 ## Associations
 

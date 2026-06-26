@@ -31,16 +31,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:'I_CnsldtnSignLogicTypeVH'` | `name:'I_CnsldtnSignLogicTypeVH'` |
-| `element:'ConsolidationSignLogicType' }` | `element:'ConsolidationSignLogicType' }` |
-| `} ]` | `} ]` |
-| `cast( case` | `cast( case` |
-| `when _GlobalSetting.CnsldtnCustomSignLogicIsActive = 'X'` | `when _GlobalSetting.CnsldtnCustomSignLogicIsActive = 'X'` |
-| `and is_sign_item_specific = 'X'` | `and is_sign_item_specific = 'X'` |
-| `then sign` | `then sign` |
-| `else` | `else` |
-| `_CnsldtnFSItemTypeSignLogic.ConsolidationSignLogicType` | *Association* |
-| `fincs_signlogictype preserving type )` | `end` |
+| `ConsolidationChartOfAccounts` | `cast( itclg as fincs_conschartofaccounts preserving type )` |
+| `CnsldtnFinancialStatementItem` | `cast ( item as fincs_consolidationfsitem preserving type )` |
+| `ConsolidationFSItemType` | `cast ( itclass as fincs_fsitemtype preserving type )` |
+| `ConsolidationBreakdownCategory` | `cast( itbrkdwn as fincs_consbreakdowncategory preserving type )` |
+| `CnsldtnFSItemIsForCnsldtnOnly` | `cast( itcitem as fincs_fsitemisforcnsldtnonly preserving type )` |
+| `CnsldtnFSItemPostingIsBlocked` | `cast( itblkd as fincs_fsitempostingisblocked preserving type )` |
+| `CnsldtnFSItemIsNetBalCarryFwd` | `cast (itnbcf as fincs_fsitemisnetbalcarryfwd preserving type )` |
+| `CnsldtnFSItemLink` | `cast( link as fincs_md_link preserving type )` |
+| `CnsldtnFSItemLinkLabel` | `cast( linklabel as fincs_md_link_label preserving type )` |
+| `ETag` | `etag` |
+| `CreationDateTime` | `created_at` |
+| `CnsldtnSignLogicIsFSItemSpcfc` | `cast(…)` |
+| `ConsolidationSignLogicType` | `cast(…)` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Text` | *Association* |
 | `_HierarchyNode` | *Association* |

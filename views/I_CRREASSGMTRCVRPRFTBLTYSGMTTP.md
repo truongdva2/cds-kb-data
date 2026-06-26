@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FiscalYear` | `FiscalYear` |
-| `key ReferenceDocument` | `ReferenceDocument` |
-| `key ControllingArea` | `ControllingArea` |
-| `key ReferenceDocumentItem` | `ReferenceDocumentItem` |
-| `key LedgerGLLineItem` | `LedgerGLLineItem` |
-| `key ReferenceDocumentType` | `ReferenceDocumentType` |
-| `key ReferenceDocumentContext` | `ReferenceDocumentContext` |
-| `key AccountingDocument` | `AccountingDocument` |
+| `FiscalYear` | `FiscalYear` |
+| `ReferenceDocument` | `ReferenceDocument` |
+| `ControllingArea` | `ControllingArea` |
+| `ReferenceDocumentItem` | `ReferenceDocumentItem` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
+| `ReferenceDocumentType` | `ReferenceDocumentType` |
+| `ReferenceDocumentContext` | `ReferenceDocumentContext` |
+| `AccountingDocument` | `AccountingDocument` |
 | `TransactionSubitem` | `TransactionSubitem` |
 | `CompanyCode` | `CompanyCode` |
 | `SourceLedger` | `SourceLedger` |
@@ -64,8 +64,6 @@ tags:
 | `PartnerProfitCenter` | `PartnerProfitCenter` |
 | `FunctionalArea` | `FunctionalArea` |
 | `ControllingBusTransacType` | `ControllingBusTransacType` |
-| `_Item : redirected to parent I_CostAndRevnReassgmtItemTP` | *Association* |
-| `_CRReassgmt : redirected to I_CostAndRevenueReassignmentTP` | *Association* |
 
 ## Associations
 

@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralSupplierQuotation` | `CentralSupplierQuotation` |
-| `key CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
-| `key PricingDocument` | `PricingDocument` |
-| `key PricingDocumentItem` | `PricingDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `CentralSupplierQuotation` | `CentralSupplierQuotation` |
+| `CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
+| `PricingDocument` | `PricingDocument` |
+| `PricingDocumentItem` | `PricingDocumentItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
@@ -100,9 +100,6 @@ tags:
 | `ConfigblParametersAndFormulas` | `ConfigblParametersAndFormulas` |
 | `ConditionAdjustedQuantity` | `ConditionAdjustedQuantity` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CntrlSupplierQuotationItem : redirected to parent I_CntrlSuplrQuotationItemTP_2` | *Association* |
-| `_CntrlQtan                  : redirected to I_CentralSupplierQuotationTP_2` | *Association* |
 
 ## Associations
 

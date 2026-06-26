@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `logbr_vehiclefueltype preserving type )` | `cast ( tpcomb` |
-| `logbr_vehiclefueldescription preserving type )` | `cast( tpcombt` |
+| `VehicleFuelType` | `cast ( tpcomb as logbr_vehiclefueltype preserving type )` |
+| `VehicleFuelTypeDesc` | `cast( tpcombt as logbr_vehiclefueldescription preserving type )` |
 | `_VehicleFuelType` | *Association* |
 | `_Language` | *Association* |
 

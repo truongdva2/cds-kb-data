@@ -30,14 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Assignment.WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
-| `key _Assignment.Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
-| `key _SrvcCostLvl.StartDate` | `_SrvcCostLvl.StartDate` |
-| `_Assignment.WorkforcePersonExternalID` | *Association* |
-| `_SrvcCostLvl.EndDate` | *Association* |
-| `_SrvcCostLvl.ServiceCostLevel` | *Association* |
-| `_Assignment.IsBlocked` | *Association* |
-| `/*Association */` | `/*Association */` |
+| `WorkAssignmentExternalID` | `_Assignment.WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `_Assignment.Country2DigitISOCode` |
+| `StartDate` | `_SrvcCostLvl.StartDate` |
+| `WorkforcePersonExternalID` | `_Assignment.WorkforcePersonExternalID` |
+| `EndDate` | `_SrvcCostLvl.EndDate` |
+| `ServiceCostLevel` | `_SrvcCostLvl.ServiceCostLevel` |
+| `IsBlocked` | `_Assignment.IsBlocked` |
 | `_WorkAssignment` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

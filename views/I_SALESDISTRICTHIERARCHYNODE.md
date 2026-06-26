@@ -30,9 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` | `mandatory : true, selectionType : #SINGLE, multipleSelections : false }` |
-| `fis_datbi preserving type )` | `cast(hrrp_node_n.hryvalto` |
-| `fis_datab preserving type )` | `cast(hrrp_node_n.hryvalfrom` |
+| `SalesDistrictHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_salesdistrict preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
 | `ParentNode` | `hrrp_node_n.parnode` |
 | `SalesDistrict` | `hrrp_node_n.bzirk` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |

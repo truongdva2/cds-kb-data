@@ -35,7 +35,7 @@ tags:
 | `ConditionApplication` | `kappl` |
 | `AccessSequence` | `kozgf` |
 | `AccessNumberOfAccessSequence` | `kolnr` |
-| `char03 )` | `cast ( kotabnr` |
+| `ConditionTable` | `cast ( kotabnr as char03 )` |
 | `ConditionRequirement` | `kobed` |
 | `PrcgConditionAccessIsExclusive` | `kzexl` |
 | `_PricingAccessSequence` | *Association* |

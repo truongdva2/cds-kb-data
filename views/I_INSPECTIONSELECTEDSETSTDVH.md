@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SelectedCodeSetPlant` | `SelectedCodeSetPlant` |
-| `key InspectionCatalog` | `InspectionCatalog` |
-| `key SelectedCodeSet` | `SelectedCodeSet` |
+| `SelectedCodeSetPlant` | `SelectedCodeSetPlant` |
+| `InspectionCatalog` | `InspectionCatalog` |
+| `SelectedCodeSet` | `SelectedCodeSet` |
 | `InspectionSelectedSetStatus` | `InspectionSelectedSetStatus` |
 | `_SelectedCodeSetPlant` | *Association* |
 | `_InspectionCatalog` | *Association* |

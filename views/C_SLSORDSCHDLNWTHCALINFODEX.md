@@ -30,34 +30,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesOrderScheduleLine.SalesOrder` | `SalesOrderScheduleLine.SalesOrder` |
-| `key SalesOrderScheduleLine.SalesOrderItem` | `SalesOrderScheduleLine.SalesOrderItem` |
-| `key SalesOrderScheduleLine.ScheduleLine` | `SalesOrderScheduleLine.ScheduleLine` |
-| `SalesOrderItem.SalesDocumentType` | `SalesOrderItem.SalesDocumentType` |
-| `SalesOrderItem.SalesOrganization` | `SalesOrderItem.SalesOrganization` |
-| `SalesOrderItem.DistributionChannel` | `SalesOrderItem.DistributionChannel` |
-| `SalesOrderItem.Division` | `SalesOrderItem.Division` |
-| `SalesOrderItem.SoldToParty` | `SalesOrderItem.SoldToParty` |
-| `SalesOrderItem.ShipToParty` | `SalesOrderItem.ShipToParty` |
-| `SalesOrderItem.Product` | `SalesOrderItem.Product` |
-| `SalesOrderItem.Plant` | `SalesOrderItem.Plant` |
-| `SalesOrderItem.TransitPlant` | `SalesOrderItem.TransitPlant` |
-| `SalesOrderScheduleLine.IsRequestedDelivSchedLine` | `SalesOrderScheduleLine.IsRequestedDelivSchedLine` |
-| `SalesOrderScheduleLine.IsConfirmedDelivSchedLine` | `SalesOrderScheduleLine.IsConfirmedDelivSchedLine` |
-| `SalesOrderScheduleLine.ScheduleLineOrderQuantity` | `SalesOrderScheduleLine.ScheduleLineOrderQuantity` |
-| `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` | `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
-| `SalesOrderScheduleLine.DeliveredQuantityInBaseUnit` | `SalesOrderScheduleLine.DeliveredQuantityInBaseUnit` |
-| `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` | `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` |
-| `SalesOrderItem.ValueChainCategory` | `SalesOrderItem.ValueChainCategory` |
-| `SalesOrderScheduleLine.RequestedDeliveryDate` | `SalesOrderScheduleLine.RequestedDeliveryDate` |
-| `SalesOrderScheduleLine.ConfirmedDeliveryDate` | `SalesOrderScheduleLine.ConfirmedDeliveryDate` |
-| `SalesOrderScheduleLine.DeliveryDate` | `SalesOrderScheduleLine.DeliveryDate` |
-| `DeliveryDate.FirstDayOfWeekDate` | `DeliveryDate.FirstDayOfWeekDate` |
-| `DeliveryDate.FirstDayOfMonthDate` | `DeliveryDate.FirstDayOfMonthDate` |
-| `SalesOrderScheduleLine.OrderQuantityUnit` | `SalesOrderScheduleLine.OrderQuantityUnit` |
-| `SalesOrderScheduleLine.BaseUnit` | `SalesOrderScheduleLine.BaseUnit` |
-| `SalesOrderItem.OrderToBaseQuantityDnmntr` | `SalesOrderItem.OrderToBaseQuantityDnmntr` |
-| `SalesOrderItem.OrderToBaseQuantityNmrtr` | `SalesOrderItem.OrderToBaseQuantityNmrtr` |
+| `SalesOrder` | `SalesOrderScheduleLine.SalesOrder` |
+| `SalesOrderItem` | `SalesOrderScheduleLine.SalesOrderItem` |
+| `ScheduleLine` | `SalesOrderScheduleLine.ScheduleLine` |
+| `SalesDocumentType` | `SalesOrderItem.SalesDocumentType` |
+| `SalesOrganization` | `SalesOrderItem.SalesOrganization` |
+| `DistributionChannel` | `SalesOrderItem.DistributionChannel` |
+| `Division` | `SalesOrderItem.Division` |
+| `SoldToParty` | `SalesOrderItem.SoldToParty` |
+| `ShipToParty` | `SalesOrderItem.ShipToParty` |
+| `Product` | `SalesOrderItem.Product` |
+| `Plant` | `SalesOrderItem.Plant` |
+| `TransitPlant` | `SalesOrderItem.TransitPlant` |
+| `IsRequestedDelivSchedLine` | `SalesOrderScheduleLine.IsRequestedDelivSchedLine` |
+| `IsConfirmedDelivSchedLine` | `SalesOrderScheduleLine.IsConfirmedDelivSchedLine` |
+| `ScheduleLineOrderQuantity` | `SalesOrderScheduleLine.ScheduleLineOrderQuantity` |
+| `ConfdOrderQtyByMatlAvailCheck` | `SalesOrderScheduleLine.ConfdOrderQtyByMatlAvailCheck` |
+| `DeliveredQuantityInBaseUnit` | `SalesOrderScheduleLine.DeliveredQuantityInBaseUnit` |
+| `DeliveredQtyInOrderQtyUnit` | `SalesOrderScheduleLine.DeliveredQtyInOrderQtyUnit` |
+| `ValueChainCategory` | `SalesOrderItem.ValueChainCategory` |
+| `RequestedDeliveryDate` | `SalesOrderScheduleLine.RequestedDeliveryDate` |
+| `ConfirmedDeliveryDate` | `SalesOrderScheduleLine.ConfirmedDeliveryDate` |
+| `DeliveryDate` | `SalesOrderScheduleLine.DeliveryDate` |
+| `FirstDayOfWeekDate` | `DeliveryDate.FirstDayOfWeekDate` |
+| `FirstDayOfMonthDate` | `DeliveryDate.FirstDayOfMonthDate` |
+| `OrderQuantityUnit` | `SalesOrderScheduleLine.OrderQuantityUnit` |
+| `BaseUnit` | `SalesOrderScheduleLine.BaseUnit` |
+| `OrderToBaseQuantityDnmntr` | `SalesOrderItem.OrderToBaseQuantityDnmntr` |
+| `OrderToBaseQuantityNmrtr` | `SalesOrderItem.OrderToBaseQuantityNmrtr` |
 | `OrderQuantityUnitSAPCode` | `OrderQuantityUnitofMeasure.UnitOfMeasureSAPCode` |
 | `OrderQuantityUnitISOCode` | `OrderQuantityUnitofMeasure.UnitOfMeasureISOCode` |
 | `BaseUnitSAPCode` | `BaseUnitofMeasure.UnitOfMeasureSAPCode` |

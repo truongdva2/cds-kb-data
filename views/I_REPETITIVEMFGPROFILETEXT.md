@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `RepetitiveManufacturingProfile` | `txt.sfpro` |
+| `Language` | `txt.spras` |
 | `RepetitiveMfgProfileName` | `txt.spbez` |
 | `_Profile` | *Association* |
 | `_Language` | *Association* |

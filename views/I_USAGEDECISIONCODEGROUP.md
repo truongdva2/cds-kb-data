@@ -30,16 +30,12 @@ tags:
 | Field | Data Source |
 |---|---|
 | `UsageDecisionCodeGroup` | `qpgr.codegruppe` |
-| `case qpgr.inaktiv` | `case qpgr.inaktiv` |
-| `vdm_qm_codegroupisinactive preserving type )` | `when ' ' then cast( ' '` |
-| `vdm_qm_codegroupisinactive preserving type )` | `else cast( 'X'` |
-| `CodeGroupIsInactive` | `end` |
+| `CodeGroupIsInactive` | `case…end` |
 | `CodeGroupStatus` | `qpgr.status` |
 | `UsgeDcsnCodeGroupCreatedBy` | `qpgr.ersteller` |
 | `UsgeDcsnCodeGroupCreatedOn` | `qpgr.e_datum` |
 | `UsgeDcsnCodeGroupLastChgdBy` | `qpgr.aenderer` |
 | `UsgeDcsnCodeGroupLastChgdOn` | `qpgr.a_datum` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

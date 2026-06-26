@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CAInvcgDocItemTypeCust.CAInvcgDocumentItemType` | `_CAInvcgDocItemTypeCust.CAInvcgDocumentItemType` |
+| `CAInvcgDocumentItemType` | `_CAInvcgDocItemType0.CAInvcgDocumentItemType` |
 | `_CAInvcgDocItemTypeText` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_CAInvcgDocItemTypeText` | `I_CAInvcgDocItemTypeText` | [0..*] |
 | `_CAInvcgDocItemTypeText` | `I_CAInvcgDocItemTypeText` | [0..*] |
 
 ## Source Code

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBConditionUUID` | `IHBConditionUUID` |
+| `IHBConditionUUID` | `IHBConditionUUID` |
 | `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBConditionRefUUID` | `IHBConditionRefUUID` |
 | `IHBConditionInterestType` | `IHBConditionInterestType` |
@@ -56,8 +56,6 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_IHBMasterDataObjectTP : redirected to parent I_IHBConditionObjectTP` | *Association* |
 
 ## Associations
 

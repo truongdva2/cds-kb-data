@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocSequenceGroupUUID` | `ProdAllocSequenceGroupUUID` |
+| `ProdAllocSequenceGroupUUID` | `ProdAllocSequenceGroupUUID` |
 | `ProductAllocationSequenceGroup` | `ProductAllocationSequenceGroup` |
 | `ProductAllocationSequence` | `ProductAllocationSequence` |
 | `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
@@ -44,9 +44,6 @@ tags:
 | `OnlyOverlappingQtyIsConsumed` | `OnlyOverlappingQtyIsConsumed` |
 | `ProdAllocSqncGrpCnsmpnUnit` | `ProdAllocSqncGrpCnsmpnUnit` |
 | `IsDeleted` | `IsDeleted` |
-| `_ProdAllocationSequenceTP : redirected to parent I_ProdAllocationSequenceTP_2` | *Association* |
-| `_ProdAllocSqncGroupTTP : redirected to composition child I_ProdAllocSqncGroupTxtTP_2` | *Association* |
-| `_ProdAllocSqncCstrtTP: redirected to composition child I_ProdAllocSqncCstrtTP_2` | *Association* |
 
 ## Associations
 

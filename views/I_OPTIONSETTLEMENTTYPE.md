@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `option_settlement_type)` | `cast(DomainValue.domvalue_l` |
+| `OptionSettlementType` | `cast(DomainValue.domvalue_l as option_settlement_type)` |
 | `_Text` | *Association* |
 
 ## Associations

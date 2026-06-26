@@ -35,8 +35,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingDocumentRequest` | `BillingDocumentRequest` |
-| `key BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
+| `BillingDocumentRequest` | `BillingDocumentRequest` |
+| `BillingDocumentRequestItem` | `BillingDocumentRequestItem` |
 | `BillingDocumentRequestItemText` | `BillingDocumentRequestItemText` |
 | `BillingDocumentRequestType` | `BillingDocumentRequestType` |
 | `SalesOrganization` | `SalesOrganization` |

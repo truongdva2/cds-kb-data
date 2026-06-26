@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CndnContrType` | `CndnContrType` |
+| `CndnContrType` | `CndnContrType` |
 | `CndnContrTypeBlockUsage` | `CndnContrTypeBlockUsage` |
 | `CndnContrPartnerCat` | `CndnContrPartnerCat` |
 | `CndnContrEligibleCat` | `CndnContrEligibleCat` |

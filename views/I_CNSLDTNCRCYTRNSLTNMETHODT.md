@@ -30,10 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #LOW }` |
-| `fincs_crcy_trnsltn_method_text preserving type )` | `cast ( _MethodText.ConsolidationMethodText` |
-| `_Language, // required for value help retrieval` | *Association* |
-| `_CnsldtnCrcyTrnsltnMethod // required for value help retrieval and navigation` | *Association* |
+| `Language` | `_MethodText.Language` |
+| `CnsldtnCrcyTranslationMethod` | `cast(…)` |
+| `CnsldtnCrcyTrnsltnMethodText` | `cast(…)` |
+| `_Language` | *Association* |
+| `_CnsldtnCrcyTrnsltnMethod` | *Association* |
 
 ## Associations
 

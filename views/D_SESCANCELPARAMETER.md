@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate : mmpur_ses_posting_date ;` | `PostingDate : mmpur_ses_posting_date ;` |
+| `PostingDate` | `mmpur_ses_posting_date` |
 
 ## Associations
 

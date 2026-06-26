@@ -33,108 +33,43 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vbeln_va preserving type)` | `cast(Partner.SDDocument` |
-| `key SalesDocumentItem.SalesDocumentItem` | `SalesDocumentItem.SalesDocumentItem` |
-| `key Partner.PartnerFunction` | `Partner.PartnerFunction` |
-| `Partner.Customer` | `Partner.Customer` |
-| `Partner.Supplier` | `Partner.Supplier` |
-| `Partner.Personnel` | `Partner.Personnel` |
-| `Partner.ContactPerson` | `Partner.ContactPerson` |
-| `Partner.ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
-| `Partner.AddressObjectType` | `Partner.AddressObjectType` |
-| `Partner.SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
-| `Partner.BPAddrDeterminationTransaction` | `Partner.BPAddrDeterminationTransaction` |
-| `Partner.BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
-| `Partner.SDDocPartnerAddrIsDocSpecific` | `Partner.SDDocPartnerAddrIsDocSpecific` |
-| `Partner.PartnerIsOneTimeAccount` | `Partner.PartnerIsOneTimeAccount` |
-| `SalesDocument.SDDocumentCategory` | `SalesDocument.SDDocumentCategory` |
-| `Partner.VATRegistration` | `Partner.VATRegistration` |
-| `Partner.UnloadingPointName` | `Partner.UnloadingPointName` |
-| `case` | `case` |
-| `when Partner.Customer != ''` | `when Partner.Customer != ''` |
-| `then Partner.Customer` | `then Partner.Customer` |
-| `when Partner.Supplier != ''` | `when Partner.Supplier != ''` |
-| `then Partner.Supplier` | `then Partner.Supplier` |
-| `when Partner.Personnel != '00000000'` | `when Partner.Personnel != '00000000'` |
-| `kunnr)` | `then cast(Partner.Personnel` |
-| `when Partner.ContactPerson != '0000000000'` | `when Partner.ContactPerson != '0000000000'` |
-| `kunnr)` | `then cast(Partner.ContactPerson` |
-| `else` | `else` |
-| `''` | `''` |
-| `Partner` | `end` |
-| `cast(` | `cast(` |
-| `case Partner.AddressID` | `case Partner.AddressID` |
-| `when ''` | `when ''` |
-| `then` | `then` |
-| `case` | `case` |
-| `when Partner.Personnel != '00000000'` | `when Partner.Personnel != '00000000'` |
-| `then coalesce(_WorkAssignment.PersonFullName` | `then coalesce(_WorkAssignment.PersonFullName` |
-| `_WorkAssignment._BusinessPartner.LastName)` | *Association* |
-| `end` | `end` |
-| `else` | `else` |
-| `case` | `case` |
-| `when Partner.AddressObjectType = '1'` | `when Partner.AddressObjectType = '1'` |
-| `then` | `then` |
-| `case` | `case` |
-| `when Partner.ContactPerson != '0000000000'` | `when Partner.ContactPerson != '0000000000'` |
-| `then` | `then` |
-| `cast(substring(replace(concat(_ContactPerson.FirstName` | `cast(substring(replace(concat(_ContactPerson.FirstName` |
-| `ad_namtext )` | `concat(' &@', _ContactPerson.LastName) ), '&@', '') ,1,80)` |
-| `when Partner.Personnel != '00000000'` | `when Partner.Personnel != '00000000'` |
-| `then _OrganizationAddress.AddresseeName1  //Document specific personnel` | `then _OrganizationAddress.AddresseeName1  //Document specific personnel` |
-| `else` | `else` |
-| `cast(concat_with_space(_OrganizationAddress.AddresseeName1` | `cast(concat_with_space(_OrganizationAddress.AddresseeName1` |
-| `_OrganizationAddress.AddresseeName2, 1) as ad_namtext )` | *Association* |
-| `end` | `end` |
-| `when Partner.AddressObjectType = '2'` | `when Partner.AddressObjectType = '2'` |
-| `then _PersonAddress.PersonFullName` | `then _PersonAddress.PersonFullName` |
-| `when Partner.AddressObjectType = '3'` | `when Partner.AddressObjectType = '3'` |
-| `then _PersonWorkplaceAddress.PersonFullName` | `then _PersonWorkplaceAddress.PersonFullName` |
-| `end` | `end` |
-| `ad_namtext )` | `end` |
-| `_OrgNamePostalAddress.Country` | *Association* |
-| `cast(` | `cast(` |
-| `coalesce( _PersonName.FormOfAddress` | `coalesce( _PersonName.FormOfAddress` |
-| `_OrgNamePostalAddress.FormOfAddress )` | *Association* |
-| `FormOfAddress` | `as ad_title preserving type )` |
-| `coalesce( _PersonName.CorrespondenceLanguage` | `coalesce( _PersonName.CorrespondenceLanguage` |
-| `_OrgNamePostalAddress.CorrespondenceLanguage ) as CorrespondenceLanguage` | *Association* |
-| `/* Communication Related Data */` | `/* Communication Related Data */` |
-| `cast(` | `cast(` |
-| `case Partner.AddressID` | `case Partner.AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkPlaceAddress.NormalizedPhoneNumber` | `then _WorkPlaceAddress.NormalizedPhoneNumber` |
-| `else _CurrentDfltLandlinePhoneNmbr.InternationalPhoneNumber` | `else _CurrentDfltLandlinePhoneNmbr.InternationalPhoneNumber` |
-| `vdm_sd_sls_phone preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case Partner.AddressID` | `case Partner.AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkPlaceAddress.MblNormalizedPhoneNumber` | `then _WorkPlaceAddress.MblNormalizedPhoneNumber` |
-| `else _CurrentDfltMobilePhoneNumber.InternationalPhoneNumber` | `else _CurrentDfltMobilePhoneNumber.InternationalPhoneNumber` |
-| `vdm_sd_sls_mobile preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case Partner.AddressID` | `case Partner.AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkPlaceAddress.InternationalFaxNumber` | `then _WorkPlaceAddress.InternationalFaxNumber` |
-| `else _CurrentDfltFaxNumber.InternationalFaxNumber` | `else _CurrentDfltFaxNumber.InternationalFaxNumber` |
-| `vdm_sd_sls_fax preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case Partner.AddressID` | `case Partner.AddressID` |
-| `when ''` | `when ''` |
-| `then _WorkPlaceAddress.DefaultEmailAddress` | `then _WorkPlaceAddress.DefaultEmailAddress` |
-| `else _CurrentDfltEmailAddress.EmailAddress` | `else _CurrentDfltEmailAddress.EmailAddress` |
-| `vdm_sd_sls_email preserving type )` | `end` |
+| `SalesDocument` | `cast(Partner.SDDocument as vbeln_va preserving type)` |
+| `SalesDocumentItem` | `SalesDocumentItem.SalesDocumentItem` |
+| `PartnerFunction` | `Partner.PartnerFunction` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
+| `AddressID` | `Partner.AddressID` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
+| `AddressObjectType` | `Partner.AddressObjectType` |
+| `SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
+| `BPAddrDeterminationTransaction` | `Partner.BPAddrDeterminationTransaction` |
+| `BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
+| `SDDocPartnerAddrIsDocSpecific` | `Partner.SDDocPartnerAddrIsDocSpecific` |
+| `PartnerIsOneTimeAccount` | `Partner.PartnerIsOneTimeAccount` |
+| `SDDocumentCategory` | `SalesDocument.SDDocumentCategory` |
+| `VATRegistration` | `Partner.VATRegistration` |
+| `UnloadingPointName` | `Partner.UnloadingPointName` |
+| `Partner` | `case…end` |
+| `FullName` | `cast(…)` |
+| `Country` | `_OrgNamePostalAddress.Country` |
+| `FormOfAddress` | `cast(…)` |
+| `CorrespondenceLanguage` | `coalesce(…)` |
+| `InternationalPhoneNumber` | `cast(…)` |
+| `InternationalMobilePhoneNumber` | `cast(…)` |
+| `InternationalFaxNumber` | `cast(…)` |
+| `EmailAddress` | `cast(…)` |
 | `_SalesDocument` | *Association* |
 | `_SalesDocumentItem` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._WorkforcePersonMappings` | `Partner._WorkforcePersonMappings` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
-| `Partner._BusinessPartnerAddress` | `Partner._BusinessPartnerAddress` |
-| `Partner._BPRefAddressForDocSpcfcAddr` | `Partner._BPRefAddressForDocSpcfcAddr` |
-| `SalesDocument._SDDocumentCategory` | `SalesDocument._SDDocumentCategory` |
+| `_PartnerFunction` | *Association* |
+| `_WorkforcePersonMappings` | *Association* |
+| `_Address` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
+| `_SDDocumentCategory` | *Association* |
 | `SalesDocumentItemText` | `SalesDocumentItemText` |
 | `_PersonAddress` | *Association* |
 | `_PersonName` | *Association* |

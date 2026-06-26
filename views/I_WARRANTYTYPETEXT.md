@@ -35,7 +35,6 @@ tags:
 | `WarrantyType` | `gaart` |
 | `Language` | `langu` |
 | `WarrantyTypeName` | `ktext` |
-| `/* Associations */` | `/* Associations */` |
 | `_WarrantyType` | *Association* |
 | `_Language` | *Association* |
 

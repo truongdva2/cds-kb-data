@@ -32,9 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CentralSupplierQuotation' }` | `foreignKey.association: '_CentralSupplierQuotation' }` |
-| `key CentralSupplierQuotation` | `CentralSupplierQuotation` |
-| `key CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
+| `CentralSupplierQuotation` | `CentralSupplierQuotation` |
+| `CentralSupplierQuotationItem` | `CentralSupplierQuotationItem` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentItemText` | `PurchasingDocumentItemText` |
 | `PurchasingCentralMaterial` | `PurchasingCentralMaterial` |
@@ -79,10 +78,6 @@ tags:
 | `CentralRequestForQuotationItem` | `CentralRequestForQuotationItem` |
 | `PurchasingDocumentItemCategory` | `PurchasingDocumentItemCategory` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralSupplierQuotation     : redirected to parent I_CentralSupplierQuotationTP_2` | *Association* |
-| `_CntrlSupplierQtanItemPricing : redirected to composition child I_CntrlSuplrQtnItemPricingTP_2` | *Association* |
-| `_CntrlSuplrQuotationItemDistr : redirected to composition child I_CntrlSuplrQtnItemDistrTP_2` | *Association* |
 
 ## Associations
 

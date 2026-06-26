@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_koart )` | `cast( substring( domvalue_l, 1, 1)` |
+| `FinancialAccountType` | `cast( substring( domvalue_l, 1, 1) as farp_koart )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -47,7 +47,6 @@ tags:
 | `ExemptionDateEnd` | `wt_exdt` |
 | `ExemptionReason` | `wt_wtexrs` |
 | `RecipientType` | `qsrec` |
-| `/*associations*/` | `/*associations*/` |
 | `_CustomerCompany` | *Association* |
 | `_CompanyCode` | *Association* |
 | `_Customer` | *Association* |

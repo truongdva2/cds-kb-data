@@ -32,13 +32,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LoadingGroup', element : 'LoadingGroup'} , useAsTemplate: true }]` | `name: 'I_LoadingGroup', element : 'LoadingGroup'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `SalesStatus` | `SalesStatus` |
+| `SalesStatusValidityDate` | `SalesStatusValidityDate` |
+| `TransportationGroup` | `TransportationGroup` |
+| `PackagingProductType` | `PackagingProductType` |
+| `AllowedPackagingWeightQty` | `AllowedPackagingWeightQty` |
+| `AllowedPackagingWeightQtyUnit` | `AllowedPackagingWeightQtyUnit` |
+| `AllowedPackagingVolumeQty` | `AllowedPackagingVolumeQty` |
+| `AllowedPackagingVolumeQtyUnit` | `AllowedPackagingVolumeQtyUnit` |
+| `MaximumLevelByVolumeInPercent` | `MaximumLevelByVolumeInPercent` |
+| `ExcessWeightToleranceValue` | `ExcessWeightToleranceValue` |
+| `PackggProductIsClosedPackaging` | `PackggProductIsClosedPackaging` |
+| `ProductStackingFactor` | `ProductStackingFactor` |
+| `ProdExcessVolumeToleranceValue` | `ProdExcessVolumeToleranceValue` |
+| `ProductTaxClassification` | `ProductTaxClassification` |
+| `PricingReferenceProduct` | `PricingReferenceProduct` |
 | `LoadingGroup` | `LoadingGroup` |
 | `StoreSaleEndDate` | `StoreSaleEndDate` |
 | `DistributionCenterSaleEndDate` | `DistributionCenterSaleEndDate` |
 | `StoreSaleStartDate` | `StoreSaleStartDate` |
 | `DistrCenterSaleStartDate` | `DistrCenterSaleStartDate` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 | `_TransportationGroupText` | *Association* |
 | `_ProductRetail` | *Association* |
 | `_TaxClass` | *Association* |

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `pi_actblkdflag preserving type )` | `cast ( substring( domvalue_l, 1, 3 )` |
-| `val_text preserving type )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `PhysicalInventoryActvBlkdStat` | `cast ( substring( domvalue_l, 1, 3 ) as pi_actblkdflag preserving type )` |
+| `PhysInventoryActvBlkdStatTxt` | `cast ( substring ( ddtext, 1, 60 ) as val_text preserving type )` |
 | `_Language` | *Association* |
 | `_PhysicalInvtryIsActvBlkd` | *Association* |
 

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierAddressID` | `SupplierAddressID` |
-| `key PurchaseOrder` | `PurchaseOrder` |
+| `SupplierAddressID` | `SupplierAddressID` |
+| `PurchaseOrder` | `PurchaseOrder` |
 | `AddressID` | `AddressID` |
 | `AddressPersonID` | `AddressPersonID` |
 | `AddressRepresentationCode` | `AddressRepresentationCode` |
@@ -80,7 +80,6 @@ tags:
 | `AddressTimeZone` | `AddressTimeZone` |
 | `EmailAddress` | `EmailAddress` |
 | `RegionalStructureCheckStatus` | `RegionalStructureCheckStatus` |
-| `/* Associations */` | `/* Associations */` |
 | `_Country` | *Association* |
 | `_CurrentDfltEmailAddress` | *Association* |
 | `_CurrentDfltFaxNumber` | *Association* |
@@ -89,7 +88,6 @@ tags:
 | `_EmailAddress` | *Association* |
 | `_FaxNumber` | *Association* |
 | `_PhoneNumber` | *Association* |
-| `_PurchaseOrderTP : redirected to parent I_PurchaseOrderTP_2` | *Association* |
 | `_Region` | *Association* |
 
 ## Associations

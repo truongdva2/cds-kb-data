@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_bal_flg )` | `cast ( dd07l.domvalue_l` |
+| `BPBalanceSheetDisplayType` | `cast ( dd07l.domvalue_l as bp_bal_flg )` |
 | `_Text` | *Association* |
 
 ## Associations

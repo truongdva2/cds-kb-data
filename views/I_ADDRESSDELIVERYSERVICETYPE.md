@@ -35,7 +35,6 @@ tags:
 |---|---|
 | `DeliveryServiceTypeCode` | `deli_serv_type` |
 | `DeliveryServiceTypeName` | `deli_serv_text` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

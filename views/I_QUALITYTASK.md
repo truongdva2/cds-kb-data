@@ -29,25 +29,25 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.element:  [ 'QualityTaskText' ] }` | `text.element:  [ 'QualityTaskText' ] }` |
-| `qtaskid preserving type )` | `cast( substring(qmsm.qmnum,2,11)` |
+| `QualityTaskInternalId` | `cast( qmsm.qmnum as qtaskinternalid preserving type )` |
+| `QualityTask` | `cast( substring(qmsm.qmnum,2,11) as qtaskid preserving type )` |
 | `QualityTaskOrigin` | `qmsm.taskorigin` |
 | `QualityTaskType` | `qmsm.tasktype` |
-| `vdm_qtaskdesc preserving type )` | `cast( qmsm.matxt` |
+| `QualityTaskText` | `cast( qmsm.matxt as vdm_qtaskdesc preserving type )` |
 | `IsDeleted` | `qmsm.kzloesch` |
 | `QualityTaskProcessor` | `qmsm.processor` |
 | `MasterLanguage` | `qmsm.kzmla` |
 | `QualityTaskCodeCatalog` | `qmsm.mnkat` |
-| `vdm_qtaskcodegrp preserving type )` | `cast( qmsm.mngrp` |
+| `QualityTaskCodeGroup` | `cast( qmsm.mngrp as vdm_qtaskcodegrp preserving type )` |
 | `QualityTaskCode` | `qmsm.mncod` |
 | `NotifTaskTimeZone` | `qmsm.tzonsm` |
-| `vdm_qtaskplannedenddate preserving type )` | `cast( qmsm.peter` |
-| `vdm_qtaskplannedendtime preserving type )` | `cast( qmsm.petur` |
-| `vdm_qtaskcompletiondate preserving type )` | `cast( qmsm.erldat` |
-| `vdm_qtaskcompletiontime preserving type )` | `cast( qmsm.erlzeit` |
+| `NotifTaskPlannedEndDate` | `cast( qmsm.peter as vdm_qtaskplannedenddate preserving type )` |
+| `NotifTaskPlannedEndTime` | `cast( qmsm.petur as vdm_qtaskplannedendtime preserving type )` |
+| `NotifTaskCompletionDate` | `cast( qmsm.erldat as vdm_qtaskcompletiondate preserving type )` |
+| `NotifTaskCompletionTime` | `cast( qmsm.erlzeit as vdm_qtaskcompletiontime preserving type )` |
 | `NotifTaskResubmissionDate` | `qmsm.wdvdat` |
 | `NotifTaskResubmissionTime` | `qmsm.wdvzeit` |
-| `vdm_qtaskcompletedby preserving type )` | `cast( qmsm.erlnam` |
+| `NotifTaskCompletedByUser` | `cast( qmsm.erlnam as vdm_qtaskcompletedby preserving type )` |
 | `DefectInternalID` | `qmsm.defectinternalid` |
 | `ProbSolvingProc` | `qmsm.probsolvingprocess` |
 | `ProbSolvingProcStp` | `qmsm.probsolvingprocessstep` |
@@ -59,11 +59,11 @@ tags:
 | `QltyTaskFllwUpActionSts` | `qmsm.statfoa` |
 | `CreatedByUser` | `qmsm.ernam` |
 | `CreationDate` | `qmsm.erdat` |
-| `vdm_qerstezeit preserving type )` | `cast( qmsm.erzeit` |
+| `CreationTime` | `cast( qmsm.erzeit as vdm_qerstezeit preserving type )` |
 | `ChangedDateTime` | `qmsm.changeddatetime` |
 | `LastChangedByUser` | `qmsm.aenam` |
 | `LastChangeDate` | `qmsm.aedat` |
-| `vdm_qaendezeit preserving type )` | `cast( qmsm.aezeit` |
+| `LastChangeTime` | `cast( qmsm.aezeit as vdm_qaendezeit preserving type )` |
 | `QltyTskProcgIsCtrldByTskOrigin` | `qmsm.taskiscontrolledbyorigin` |
 | `QltyTaskTimeBasedEffort` | `qmsm.timebasedeffort` |
 | `QltyTaskTimeBasedEffortUoM` | `qmsm.timebasedeffortuom` |
@@ -77,7 +77,6 @@ tags:
 | `_QualityTaskProcessor` | *Association* |
 | `_QualityTaskStatus` | *Association* |
 | `_QltyTaskArchivingStatus` | *Association* |
-| `/*_QaulityTaskTimeZone*/` | `/*_QaulityTaskTimeZone*/` |
 | `_QltyTaskFollowUpAction` | *Association* |
 | `_QltyTaskFllwUpActionSts` | *Association* |
 | `_QualityTaskCodeCatalog` | *Association* |
@@ -113,7 +112,6 @@ tags:
 | `_QltyTaskArchivingStatus` | `I_QltyTaskArchivingStatus` | [1..1] |
 | `_QltyTaskFllwUpActionSts` | `I_QltyTaskFllwUpActionSts` | [0..1] |
 | `_QltyTskProcTimeUnit` | `I_UnitOfMeasure` | [0..1] |
-| `_QaulityTaskTimeZone` | `I_TimeZone` | [0..1] |
 | `_Extension` | `E_NotificationTask` | [1..1] |
 
 ## Source Code

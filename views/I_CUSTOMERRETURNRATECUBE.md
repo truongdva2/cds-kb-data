@@ -32,136 +32,106 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CRRA.SalesDocument` | `CRRA.SalesDocument` |
-| `key CRRA.SalesDocumentItem` | `CRRA.SalesDocumentItem` |
-| `CRRA._SalesDocument` | `CRRA._SalesDocument` |
-| `CRRA.CustomerReturn` | `CRRA.CustomerReturn` |
-| `CRRA.CustomerReturnItem` | `CRRA.CustomerReturnItem` |
-| `CRRA.SDDocumentCategory` | `CRRA.SDDocumentCategory` |
-| `CRRA._SDDocumentCategory` | `CRRA._SDDocumentCategory` |
-| `CRRA.SalesDocumentType` | `CRRA.SalesDocumentType` |
-| `CRRA._SalesDocumentType` | `CRRA._SalesDocumentType` |
-| `CRRA.CreationDate` | `CRRA.CreationDate` |
-| `creation_date_year_month)` | `cast(CalendarDate.YearMonth` |
-| `creation_date_year_quarter)` | `cast(CalendarDate.YearQuarter` |
-| `creation_date_year)` | `cast(CalendarDate.CalendarYear` |
-| `CRRA.ReferenceSDDocument` | `CRRA.ReferenceSDDocument` |
-| `CRRA._ReferenceSDDocument` | `CRRA._ReferenceSDDocument` |
-| `CRRA.ReferenceSDDocumentItem` | `CRRA.ReferenceSDDocumentItem` |
-| `CRRA._ReferenceSDDocumentItem` | `CRRA._ReferenceSDDocumentItem` |
-| `CRRA.ReferenceSDDocumentCategory` | `CRRA.ReferenceSDDocumentCategory` |
-| `CRRA._ReferenceSDDocumentCategory` | `CRRA._ReferenceSDDocumentCategory` |
-| `CRRA.SalesOrganization` | `CRRA.SalesOrganization` |
-| `CRRA._SalesOrganization` | `CRRA._SalesOrganization` |
-| `CRRA.DistributionChannel` | `CRRA.DistributionChannel` |
-| `CRRA._DistributionChannel` | `CRRA._DistributionChannel` |
-| `CRRA.OrganizationDivision` | `CRRA.OrganizationDivision` |
-| `CRRA._OrganizationDivision` | `CRRA._OrganizationDivision` |
-| `CRRA.SalesOffice` | `CRRA.SalesOffice` |
-| `CRRA._SalesOffice` | `CRRA._SalesOffice` |
-| `CRRA.SalesGroup` | `CRRA.SalesGroup` |
-| `CRRA._SalesGroup` | `CRRA._SalesGroup` |
+| `SalesDocument` | `CRRA.SalesDocument` |
+| `SalesDocumentItem` | `CRRA.SalesDocumentItem` |
+| `_SalesDocument` | *Association* |
+| `CustomerReturn` | `CRRA.CustomerReturn` |
+| `CustomerReturnItem` | `CRRA.CustomerReturnItem` |
+| `SDDocumentCategory` | `CRRA.SDDocumentCategory` |
+| `_SDDocumentCategory` | *Association* |
+| `SalesDocumentType` | `CRRA.SalesDocumentType` |
+| `_SalesDocumentType` | *Association* |
+| `CreationDate` | `CRRA.CreationDate` |
+| `CreationDateYearMonth` | `cast(CalendarDate.YearMonth as creation_date_year_month)` |
+| `CreationDateYearQuarter` | `cast(CalendarDate.YearQuarter as creation_date_year_quarter)` |
+| `CreationDateYear` | `cast(CalendarDate.CalendarYear as creation_date_year)` |
+| `ReferenceSDDocument` | `CRRA.ReferenceSDDocument` |
+| `_ReferenceSDDocument` | *Association* |
+| `ReferenceSDDocumentItem` | `CRRA.ReferenceSDDocumentItem` |
+| `_ReferenceSDDocumentItem` | *Association* |
+| `ReferenceSDDocumentCategory` | `CRRA.ReferenceSDDocumentCategory` |
+| `_ReferenceSDDocumentCategory` | *Association* |
+| `SalesOrganization` | `CRRA.SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `CRRA.DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `CRRA.OrganizationDivision` |
+| `_OrganizationDivision` | *Association* |
+| `SalesOffice` | `CRRA.SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `SalesGroup` | `CRRA.SalesGroup` |
+| `_SalesGroup` | *Association* |
 | `PartnerCompany` | `CRRA._SoldToParty.TradingPartner` |
-| `CRRA._SoldToParty._GlobalCompany` | `CRRA._SoldToParty._GlobalCompany` |
-| `CRRA.SoldToParty` | `CRRA.SoldToParty` |
-| `CRRA._SoldToParty` | `CRRA._SoldToParty` |
-| `CRRA.CustomerGroup` | `CRRA.CustomerGroup` |
-| `CRRA._CustomerGroup` | `CRRA._CustomerGroup` |
-| `CRRA.ShipToParty` | `CRRA.ShipToParty` |
-| `CRRA._ShipToParty` | `CRRA._ShipToParty` |
-| `CRRA.BillToParty` | `CRRA.BillToParty` |
-| `CRRA._BillToParty` | `CRRA._BillToParty` |
-| `CRRA.PayerParty` | `CRRA.PayerParty` |
-| `CRRA._PayerParty` | `CRRA._PayerParty` |
-| `CRRA.AdditionalCustomerGroup1` | `CRRA.AdditionalCustomerGroup1` |
-| `CRRA._AdditionalCustomerGroup1` | `CRRA._AdditionalCustomerGroup1` |
-| `CRRA.AdditionalCustomerGroup2` | `CRRA.AdditionalCustomerGroup2` |
-| `CRRA._AdditionalCustomerGroup2` | `CRRA._AdditionalCustomerGroup2` |
-| `CRRA.AdditionalCustomerGroup3` | `CRRA.AdditionalCustomerGroup3` |
-| `CRRA._AdditionalCustomerGroup3` | `CRRA._AdditionalCustomerGroup3` |
-| `CRRA.AdditionalCustomerGroup4` | `CRRA.AdditionalCustomerGroup4` |
-| `CRRA._AdditionalCustomerGroup4` | `CRRA._AdditionalCustomerGroup4` |
-| `CRRA.AdditionalCustomerGroup5` | `CRRA.AdditionalCustomerGroup5` |
-| `CRRA._AdditionalCustomerGroup5` | `CRRA._AdditionalCustomerGroup5` |
-| `CRRA.Product` | `CRRA.Product` |
-| `CRRA._Product` | `CRRA._Product` |
-| `CRRA.ProductGroup` | `CRRA.ProductGroup` |
-| `CRRA._ProductGroup` | `CRRA._ProductGroup` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `CRRA.SoldToParty` |
+| `_SoldToParty` | *Association* |
+| `CustomerGroup` | `CRRA.CustomerGroup` |
+| `_CustomerGroup` | *Association* |
+| `ShipToParty` | `CRRA.ShipToParty` |
+| `_ShipToParty` | *Association* |
+| `BillToParty` | `CRRA.BillToParty` |
+| `_BillToParty` | *Association* |
+| `PayerParty` | `CRRA.PayerParty` |
+| `_PayerParty` | *Association* |
+| `AdditionalCustomerGroup1` | `CRRA.AdditionalCustomerGroup1` |
+| `_AdditionalCustomerGroup1` | *Association* |
+| `AdditionalCustomerGroup2` | `CRRA.AdditionalCustomerGroup2` |
+| `_AdditionalCustomerGroup2` | *Association* |
+| `AdditionalCustomerGroup3` | `CRRA.AdditionalCustomerGroup3` |
+| `_AdditionalCustomerGroup3` | *Association* |
+| `AdditionalCustomerGroup4` | `CRRA.AdditionalCustomerGroup4` |
+| `_AdditionalCustomerGroup4` | *Association* |
+| `AdditionalCustomerGroup5` | `CRRA.AdditionalCustomerGroup5` |
+| `_AdditionalCustomerGroup5` | *Association* |
+| `Product` | `CRRA.Product` |
+| `_Product` | *Association* |
+| `ProductGroup` | `CRRA.ProductGroup` |
+| `_ProductGroup` | *Association* |
 | `MaterialByCustomer` | `MaterialByCustomer` |
-| `CRRA.Division` | `CRRA.Division` |
-| `CRRA._Division` | `CRRA._Division` |
-| `CRRA.AdditionalMaterialGroup1` | `CRRA.AdditionalMaterialGroup1` |
-| `CRRA._AdditionalMaterialGroup1` | `CRRA._AdditionalMaterialGroup1` |
-| `CRRA.AdditionalMaterialGroup2` | `CRRA.AdditionalMaterialGroup2` |
-| `CRRA._AdditionalMaterialGroup2` | `CRRA._AdditionalMaterialGroup2` |
-| `CRRA.AdditionalMaterialGroup3` | `CRRA.AdditionalMaterialGroup3` |
-| `CRRA._AdditionalMaterialGroup3` | `CRRA._AdditionalMaterialGroup3` |
-| `CRRA.AdditionalMaterialGroup4` | `CRRA.AdditionalMaterialGroup4` |
-| `CRRA._AdditionalMaterialGroup4` | `CRRA._AdditionalMaterialGroup4` |
-| `CRRA.AdditionalMaterialGroup5` | `CRRA.AdditionalMaterialGroup5` |
-| `CRRA._AdditionalMaterialGroup5` | `CRRA._AdditionalMaterialGroup5` |
-| `CRRA.ProductHierarchyNode` | `CRRA.ProductHierarchyNode` |
-| `CRRA.Plant` | `CRRA.Plant` |
-| `CRRA._Plant` | `CRRA._Plant` |
-| `CRRA.ReturnReason` | `CRRA.ReturnReason` |
-| `CRRA._ReturnReason` | `CRRA._ReturnReason` |
-| `CRRA.BillingCompanyCode` | `CRRA.BillingCompanyCode` |
-| `CRRA._BillingCompanyCode` | `CRRA._BillingCompanyCode` |
-| `CRRA.SalesDistrict` | `CRRA.SalesDistrict` |
-| `CRRA._SalesDistrict` | `CRRA._SalesDistrict` |
-| `CRRA.ProfitCenter` | `CRRA.ProfitCenter` |
-| `CRRA._ProfitCenter` | `CRRA._ProfitCenter` |
-| `CRRA.CostCenter` | `CRRA.CostCenter` |
-| `CRRA.ControllingArea` | `CRRA.ControllingArea` |
-| `CRRA._ControllingArea` | `CRRA._ControllingArea` |
-| `CRRA.BusinessArea` | `CRRA.BusinessArea` |
-| `CRRA._BusinessArea` | `CRRA._BusinessArea` |
-| `CRRA.TransactionCurrency` | `CRRA.TransactionCurrency` |
-| `CRRA._TransactionCurrency` | `CRRA._TransactionCurrency` |
-| `CRRA.ReferenceSlsDocItmTransCrcy` | `CRRA.ReferenceSlsDocItmTransCrcy` |
-| `vdm_v_display_currency)` | `cast(:P_DisplayCurrency` |
-| `CRRA.BaseUnit` | `CRRA.BaseUnit` |
-| `CRRA._BaseUnit` | `CRRA._BaseUnit` |
-| `CRRA.ReferenceSlsDocItmBaseUnit` | `CRRA.ReferenceSlsDocItmBaseUnit` |
-| `CRRA.ReferenceSlsDocItmNetAmount` | `CRRA.ReferenceSlsDocItmNetAmount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CRRA.ReferenceSlsDocItmNetAmount` | `amount => CRRA.ReferenceSlsDocItmNetAmount` |
-| `source_currency => CRRA.ReferenceSlsDocItmTransCrcy` | `source_currency => CRRA.ReferenceSlsDocItmTransCrcy` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CRRA.ReferenceSDDocumentDate` | `exchange_rate_date => CRRA.ReferenceSDDocumentDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `ref_sls_doc_itm_net_amt_in_dc )` | `)` |
-| `CRRA.ReferenceSlsDocItmQuantity` | `CRRA.ReferenceSlsDocItmQuantity` |
-| `CRRA.IncomingSalesOrdersNetAmount` | `CRRA.IncomingSalesOrdersNetAmount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CRRA.IncomingSalesOrdersNetAmount` | `amount => CRRA.IncomingSalesOrdersNetAmount` |
-| `source_currency => CRRA.TransactionCurrency` | `source_currency => CRRA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CRRA.CreationDate` | `exchange_rate_date => CRRA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `incg_sls_ords_net_amt_in_dc)` | `)` |
-| `CRRA.IncomingSalesOrdersQuantity` | `CRRA.IncomingSalesOrdersQuantity` |
-| `CRRA.IncomingCustReturnsNetAmount` | `CRRA.IncomingCustReturnsNetAmount` |
-| `cast ( currency_conversion(` | `cast ( currency_conversion(` |
-| `amount => CRRA.IncomingCustReturnsNetAmount` | `amount => CRRA.IncomingCustReturnsNetAmount` |
-| `source_currency => CRRA.TransactionCurrency` | `source_currency => CRRA.TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CRRA.CreationDate` | `exchange_rate_date => CRRA.CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `incg_cust_rets_net_amt_in_dc)` | `)` |
-| `CRRA.IncomingCustReturnsQuantity` | `CRRA.IncomingCustReturnsQuantity` |
+| `Division` | `CRRA.Division` |
+| `_Division` | *Association* |
+| `AdditionalMaterialGroup1` | `CRRA.AdditionalMaterialGroup1` |
+| `_AdditionalMaterialGroup1` | *Association* |
+| `AdditionalMaterialGroup2` | `CRRA.AdditionalMaterialGroup2` |
+| `_AdditionalMaterialGroup2` | *Association* |
+| `AdditionalMaterialGroup3` | `CRRA.AdditionalMaterialGroup3` |
+| `_AdditionalMaterialGroup3` | *Association* |
+| `AdditionalMaterialGroup4` | `CRRA.AdditionalMaterialGroup4` |
+| `_AdditionalMaterialGroup4` | *Association* |
+| `AdditionalMaterialGroup5` | `CRRA.AdditionalMaterialGroup5` |
+| `_AdditionalMaterialGroup5` | *Association* |
+| `ProductHierarchyNode` | `CRRA.ProductHierarchyNode` |
+| `Plant` | `CRRA.Plant` |
+| `_Plant` | *Association* |
+| `ReturnReason` | `CRRA.ReturnReason` |
+| `_ReturnReason` | *Association* |
+| `BillingCompanyCode` | `CRRA.BillingCompanyCode` |
+| `_BillingCompanyCode` | *Association* |
+| `SalesDistrict` | `CRRA.SalesDistrict` |
+| `_SalesDistrict` | *Association* |
+| `ProfitCenter` | `CRRA.ProfitCenter` |
+| `_ProfitCenter` | *Association* |
+| `CostCenter` | `CRRA.CostCenter` |
+| `ControllingArea` | `CRRA.ControllingArea` |
+| `_ControllingArea` | *Association* |
+| `BusinessArea` | `CRRA.BusinessArea` |
+| `_BusinessArea` | *Association* |
+| `TransactionCurrency` | `CRRA.TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
+| `ReferenceSlsDocItmTransCrcy` | `CRRA.ReferenceSlsDocItmTransCrcy` |
+| `DisplayCurrency` | `cast(:P_DisplayCurrency as vdm_v_display_currency)` |
+| `BaseUnit` | `CRRA.BaseUnit` |
+| `_BaseUnit` | *Association* |
+| `ReferenceSlsDocItmBaseUnit` | `CRRA.ReferenceSlsDocItmBaseUnit` |
+| `ReferenceSlsDocItmNetAmount` | `CRRA.ReferenceSlsDocItmNetAmount` |
+| `ReferenceSlsDocItmNetAmtInDC` | `cast(…)` |
+| `ReferenceSlsDocItmQuantity` | `CRRA.ReferenceSlsDocItmQuantity` |
+| `IncomingSalesOrdersNetAmount` | `CRRA.IncomingSalesOrdersNetAmount` |
+| `IncomingSalesOrdersNetAmtInDC` | `cast(…)` |
+| `IncomingSalesOrdersQuantity` | `CRRA.IncomingSalesOrdersQuantity` |
+| `IncomingCustReturnsNetAmount` | `CRRA.IncomingCustReturnsNetAmount` |
+| `IncomingCustReturnsNetAmtInDC` | `cast(…)` |
+| `IncomingCustReturnsQuantity` | `CRRA.IncomingCustReturnsQuantity` |
 | `NumberOfIncomingCustRetItems` | `NumberOfIncomingCustRetItems` |
 
 ## Associations

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_doc_type)` | `cast( substring(dd07t.domvalue_l, 1, 2)` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `ReturnsDocumentType` | `cast( substring(dd07t.domvalue_l, 1, 2) as msr_doc_type)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `ReturnsDocumentTypeName` | `dd07t.ddtext` |
 | `_ReturnsDocumentType` | *Association* |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_ReturnsDocumentType` | `I_ReturnsDocumentType` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

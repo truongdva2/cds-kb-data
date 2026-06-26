@@ -38,7 +38,7 @@ tags:
 | `BusinessPartnerUUID` | `partner_guid` |
 | `Supplier` | `cvi_vend_link.vendor` |
 | `_Supplier` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

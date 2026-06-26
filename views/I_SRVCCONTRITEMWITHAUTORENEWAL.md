@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceContract` | `ServiceContract` |
-| `key ServiceContractItem` | `ServiceContractItem` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
 | `ServiceObjectType` | `ServiceObjectType` |
 | `ServiceContractItemDescription` | `ServiceContractItemDescription` |
 | `ServiceDocumentType` | `ServiceDocumentType` |

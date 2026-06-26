@@ -31,13 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdUnivHierarchy` | `ProdUnivHierarchy` |
-| `key ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
+| `ProdUnivHierarchy` | `ProdUnivHierarchy` |
+| `ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
 | `ProdHierarchyValidityStartDate` | `ProdHierarchyValidityStartDate` |
 | `ProdUnivHierLastChangeDateTime` | `ProdUnivHierLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Text                     : redirected to composition child I_ProdUniversalHierarchyTextTP` | *Association* |
-| `_ProdUnivHierNodeByHierID : redirected to composition child I_ProdUnivHierNdesByHierIDTP` | *Association* |
 
 ## Associations
 

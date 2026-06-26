@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REConditionGroup` | `I_REConditionGroup` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

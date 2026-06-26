@@ -33,12 +33,11 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `_HierarchyText.Language` |
-| `fincs_materialgrouphierarchy preserving type )` | `cast( _HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_materialgrouphiertext preserving type )` | `cast( _HierarchyText.UniversalHierarchyText` |
-| `/* associations */` | `/* associations */` |
-| `_HierarchyText._Language` | *Association* |
+| `CnsldtnMaterialGroupHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnMaterialGroupHierText` | `cast(…)` |
+| `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 
 ## Associations

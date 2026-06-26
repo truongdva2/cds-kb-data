@@ -32,10 +32,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true } ]` | `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true } ]` |
+| `CompanyCode` | `HouseBankAccount.bukrs` |
+| `HouseBank` | `hbkid` |
+| `HouseBankAccount` | `hktid` |
+| `BankAccountInternalID` | `acc_id` |
+| `BankInternalID` | `_HouseBank.BankInternalID` |
+| `BankCountry` | `_HouseBank.BankCountry` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `SWIFTCode` | `_HouseBank._Bank.SWIFTCode` |
+| `BankName` | `_HouseBank._Bank.BankName` |
+| `BankNumber` | `_HouseBank._Bank.Bank` |
+| `BankAccount` | `bankn` |
+| `BankAccountAlternative` | `bnkn2` |
+| `ReferenceInfo` | `refzl` |
+| `BankControlKey` | `bkont` |
+| `BankAccountCurrency` | `waers` |
+| `IBAN` | `_BankAccount.IBAN` |
+| `BankAccountDescription` | `expr(…)` |
 | `GLAccount` | `hkont` |
-| `_BankAccount.BankAccountHolderName` | *Association* |
-| `_BankAccount.BankAccountNumber` | *Association* |
+| `BankAccountHolderName` | `_BankAccount.BankAccountHolderName` |
+| `BankAccountNumber` | `_BankAccount.BankAccountNumber` |
 | `_CompanyCode` | *Association* |
 | `_HouseBank` | *Association* |
 | `_BankAccount` | *Association* |

@@ -31,15 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JointVentureEquityGroup` | `JointVentureEquityGroup` |
-| `key JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureEquityGroup` | `JointVentureEquityGroup` |
+| `JointVentureRecoveryCode` | `JointVentureRecoveryCode` |
 | `JntVntrSubstituteCostCtr` | `JntVntrSubstituteCostCtr` |
 | `JntVntrSubstituteWBSElmntIntID` | `JntVntrSubstituteWBSElmntIntID` |
 | `JointVentureSubstituteOrder` | `JointVentureSubstituteOrder` |
-| `_JointVentureEquityGroup : redirected to parent I_JointVentureEquityGroupTP` | *Association* |
-| `_JointVenture            : redirected to I_JointVentureTP` | *Association* |
 
 ## Associations
 

@@ -30,8 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 30, importance: #HIGH }]` | `position: 30, importance: #HIGH }]` |
-| `_PaymentMethod.PaymentMethodName` | *Association* |
+| `BillingCompanyCode` | `_CompanyCode.CompanyCode` |
+| `PaymentMethod` | `_PaymentMethod.PaymentMethod` |
+| `PaymentMethodDescription` | `expr(…)` |
+| `PaymentMethodName` | `_PaymentMethod.PaymentMethodName` |
 
 ## Associations
 

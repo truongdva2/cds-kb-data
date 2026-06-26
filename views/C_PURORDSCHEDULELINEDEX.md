@@ -42,43 +42,43 @@ tags:
 | `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 | `Batch` | `Batch` |
 | `PurchasingSchdLnNrOfReminders` | `NoOfRemindersOfScheduleLine` |
-| `_PurchaseOrderItem.RequisitionerName                                              as RequisitionerName` | *Association* |
-| `_PurchaseOrderItem.RetailPromotion                                                as RetailPromotion` | *Association* |
-| `_PurchaseOrderItem.ArticleCategory                                                as ArticleCategory` | *Association* |
-| `_PurchaseOrderItem.PurchasingOrderReason                                          as PurchasingOrderReason` | *Association* |
-| `_PurchaseOrderItem.IsCompletelyDelivered                                          as IsCompletelyDelivered` | *Association* |
-| `_PurchaseOrderItem.ManufacturerMaterial                                           as ManufacturerMaterial` | *Association* |
-| `_PurchaseOrderItem.IsFinallyInvoiced                                              as IsFinallyInvoiced` | *Association* |
-| `_PurchaseOrderItem.PurchaseContract                                               as PurchaseContract` | *Association* |
-| `_PurchaseOrderItem.PurchaseContractItem                                           as PurchaseContractItem` | *Association* |
-| `_PurchaseOrderItem.StorageLocation                                                as StorageLocation` | *Association* |
-| `_PurchaseOrderItem.BaseUnit                                                       as BaseUnit` | *Association* |
-| `_PurchaseOrderItem.MaterialGroup                                                  as MaterialGroup` | *Association* |
-| `_PurchaseOrderItem.Material                                                       as Material` | *Association* |
-| `_PurchaseOrderItem.PurchaseOrderQuantityUnit                                      as PurchaseOrderQuantityUnit` | *Association* |
-| `_PurchaseOrderItem.PurchaseOrderItemCategory                                      as PurchaseOrderItemCategory` | *Association* |
-| `_PurchaseOrderItem.IssuingStorageLocation                                         as IssuingStorageLocation` | *Association* |
-| `_PurchaseOrderItem.PurchaseOrderItemText                                          as PurchaseOrderItemText` | *Association* |
-| `_PurchaseOrderItem.PurchasingParentItem                                           as PurchasingParentItem` | *Association* |
-| `_PurchaseOrderItem.OrderItemQtyToBaseQtyDnmntr                                    as OrderItemQtyToBaseQtyDnmntr` | *Association* |
-| `umbsz_ll preserving type)` | `cast ( _PurchaseOrderItem.OrderItemQtyToBaseQtyNmrtr` |
-| `_PurchaseOrderItem.InvoiceIsGoodsReceiptBased                                     as InvoiceIsGoodsReceiptBased` | *Association* |
-| `_PurchaseOrderItem.GoodsReceiptIsExpected                                         as GoodsReceiptIsExpected` | *Association* |
-| `_PurchaseOrderItem.Plant                                                          as Plant` | *Association* |
-| `_PurchaseOrderItem.EvaldRcptSettlmtIsAllowed                                      as EvaldRcptSettlmtIsAllowed` | *Association* |
-| `_PurchaseOrder.PurchaseOrderDate                                                  as PurchaseOrderDate` | *Association* |
-| `_PurchaseOrder.PurchaseOrderType                                                  as PurchaseOrderType` | *Association* |
-| `_PurchaseOrder.PurchasingGroup                                                    as PurchasingGroup` | *Association* |
-| `_PurchaseOrder.PurchasingOrganization                                             as PurchasingOrganization` | *Association* |
-| `_PurchaseOrder.ValidityStartDate                                                  as ValidityStartDate` | *Association* |
-| `_PurchaseOrder.ValidityEndDate                                                    as ValidityEndDate` | *Association* |
-| `_PurchaseOrder.Supplier                                                           as Supplier` | *Association* |
-| `_PurchaseOrder.InvoicingParty                                                     as InvoicingParty` | *Association* |
-| `_PurchaseOrder.SupplyingSupplier                                                  as SupplyingSupplier` | *Association* |
-| `_PurchaseOrder.SupplyingPlant                                                     as SupplyingPlant` | *Association* |
-| `_PurchaseOrder.PurchasingDocumentOrigin                                           as PurchasingDocumentOrigin` | *Association* |
-| `_PurchaseOrder.DocumentCurrency                                                   as DocumentCurrency` | *Association* |
-| `fis_exchange_rate preserving type)` | `cast ( _PurchaseOrder.ExchangeRate` |
+| `RequisitionerName` | `_PurchaseOrderItem.RequisitionerName` |
+| `RetailPromotion` | `_PurchaseOrderItem.RetailPromotion` |
+| `ArticleCategory` | `_PurchaseOrderItem.ArticleCategory` |
+| `PurchasingOrderReason` | `_PurchaseOrderItem.PurchasingOrderReason` |
+| `IsCompletelyDelivered` | `_PurchaseOrderItem.IsCompletelyDelivered` |
+| `ManufacturerMaterial` | `_PurchaseOrderItem.ManufacturerMaterial` |
+| `IsFinallyInvoiced` | `_PurchaseOrderItem.IsFinallyInvoiced` |
+| `PurchaseContract` | `_PurchaseOrderItem.PurchaseContract` |
+| `PurchaseContractItem` | `_PurchaseOrderItem.PurchaseContractItem` |
+| `StorageLocation` | `_PurchaseOrderItem.StorageLocation` |
+| `BaseUnit` | `_PurchaseOrderItem.BaseUnit` |
+| `MaterialGroup` | `_PurchaseOrderItem.MaterialGroup` |
+| `Material` | `_PurchaseOrderItem.Material` |
+| `PurchaseOrderQuantityUnit` | `_PurchaseOrderItem.PurchaseOrderQuantityUnit` |
+| `PurchaseOrderItemCategory` | `_PurchaseOrderItem.PurchaseOrderItemCategory` |
+| `IssuingStorageLocation` | `_PurchaseOrderItem.IssuingStorageLocation` |
+| `PurchaseOrderItemText` | `_PurchaseOrderItem.PurchaseOrderItemText` |
+| `PurchasingParentItem` | `_PurchaseOrderItem.PurchasingParentItem` |
+| `OrderItemQtyToBaseQtyDnmntr` | `_PurchaseOrderItem.OrderItemQtyToBaseQtyDnmntr` |
+| `OrderItemQtyToBaseQtyNmrtr` | `cast(…)` |
+| `InvoiceIsGoodsReceiptBased` | `_PurchaseOrderItem.InvoiceIsGoodsReceiptBased` |
+| `GoodsReceiptIsExpected` | `_PurchaseOrderItem.GoodsReceiptIsExpected` |
+| `Plant` | `_PurchaseOrderItem.Plant` |
+| `EvaldRcptSettlmtIsAllowed` | `_PurchaseOrderItem.EvaldRcptSettlmtIsAllowed` |
+| `PurchaseOrderDate` | `_PurchaseOrder.PurchaseOrderDate` |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `PurchasingGroup` | `_PurchaseOrder.PurchasingGroup` |
+| `PurchasingOrganization` | `_PurchaseOrder.PurchasingOrganization` |
+| `ValidityStartDate` | `_PurchaseOrder.ValidityStartDate` |
+| `ValidityEndDate` | `_PurchaseOrder.ValidityEndDate` |
+| `Supplier` | `_PurchaseOrder.Supplier` |
+| `InvoicingParty` | `_PurchaseOrder.InvoicingParty` |
+| `SupplyingSupplier` | `_PurchaseOrder.SupplyingSupplier` |
+| `SupplyingPlant` | `_PurchaseOrder.SupplyingPlant` |
+| `PurchasingDocumentOrigin` | `_PurchaseOrder.PurchasingDocumentOrigin` |
+| `DocumentCurrency` | `_PurchaseOrder.DocumentCurrency` |
+| `ExchangeRate` | `cast ( _PurchaseOrder.ExchangeRate as fis_exchange_rate preserving type)` |
 | `DelivDateCategory` | `DelivDateCategory` |
 | `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
 | `PrevDelivQtyOfScheduleLine` | `PrevDelivQtyOfScheduleLine` |
@@ -99,28 +99,17 @@ tags:
 | `GoodsIssueTime` | `GoodsIssueTime` |
 | `STOLatestPossibleGRDate` | `STOLatestPossibleGRDate` |
 | `STOLatestPossibleGRTime` | `STOLatestPossibleGRTime` |
-| `case` | `case` |
-| `when (  _PurchaseOrderItem.OrderQuantity = 0 ) // prevent division by 0` | `when (  _PurchaseOrderItem.OrderQuantity = 0 ) // prevent division by 0` |
-| `then` | `then` |
-| `0` | `0` |
-| `else` | `else` |
-| `cast((  ScheduleLineOrderQuantity - RoughGoodsReceiptQty) *` | `cast((  ScheduleLineOrderQuantity - RoughGoodsReceiptQty) *` |
-| `division( _PurchaseOrderItem.NetAmount , _PurchaseOrderItem.OrderQuantity, 3 )` | `division( _PurchaseOrderItem.NetAmount , _PurchaseOrderItem.OrderQuantity, 3 )` |
-| `as abap.curr( 21, 2))` | `as abap.curr( 21, 2))` |
-| `OpenPurchaseOrderNetAmount` | `end` |
-| `_PurchaseOrderItem.IsReturnsItem                                                  as IsReturnsItem` | *Association* |
-| `_PurchaseOrder.CompanyCode                                                        as CompanyCode` | *Association* |
-| `_PurchaseOrderItem.ProductType                                                    as ProductTypeCode` | *Association* |
-| `_PurchaseOrder.PurchasingDocumentDeletionCode                                     as PurchasingDocumentDeletionCode` | *Association* |
-| `_PurchaseOrderItem.PurchasingDocumentDeletionCode                                 as PurgDocumentItemDeletionCode` | *Association* |
-| `_PurchaseOrder.ReleaseIsNotCompleted                                              as ReleaseIsNotCompleted` | *Association* |
-| `_PurchaseOrder.PurchasingCompletenessStatus                                       as PurchasingCompletenessStatus` | *Association* |
-| `_PurchaseOrderItem.SupplierConfirmationControlKey                                 as SupplierConfirmationControlKey` | *Association* |
-| `_PurchaseOrderItem.IsStatisticalItem                                              as IsStatisticalItem` | *Association* |
-| `case when RoughGoodsReceiptQty is null` | `case when RoughGoodsReceiptQty is null` |
-| `then ScheduleLineOrderQuantity` | `then ScheduleLineOrderQuantity` |
-| `else ScheduleLineOrderQuantity - RoughGoodsReceiptQty` | `else ScheduleLineOrderQuantity - RoughGoodsReceiptQty` |
-| `ScheduleLineOpenQuantity` | `end` |
+| `OpenPurchaseOrderNetAmount` | `case…end` |
+| `IsReturnsItem` | `_PurchaseOrderItem.IsReturnsItem` |
+| `CompanyCode` | `_PurchaseOrder.CompanyCode` |
+| `ProductTypeCode` | `_PurchaseOrderItem.ProductType` |
+| `PurchasingDocumentDeletionCode` | `_PurchaseOrder.PurchasingDocumentDeletionCode` |
+| `PurgDocumentItemDeletionCode` | `_PurchaseOrderItem.PurchasingDocumentDeletionCode` |
+| `ReleaseIsNotCompleted` | `_PurchaseOrder.ReleaseIsNotCompleted` |
+| `PurchasingCompletenessStatus` | `_PurchaseOrder.PurchasingCompletenessStatus` |
+| `SupplierConfirmationControlKey` | `_PurchaseOrderItem.SupplierConfirmationControlKey` |
+| `IsStatisticalItem` | `_PurchaseOrderItem.IsStatisticalItem` |
+| `ScheduleLineOpenQuantity` | `case…end` |
 | `_PurchaseOrderDEX` | *Association* |
 | `_PurchaseOrderItemDEX` | *Association* |
 | `_CompanyCode` | *Association* |

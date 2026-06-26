@@ -29,10 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_ksaar preserving type)` | `cast(prof.ksart` |
-| `nsdm_gi_bwart preserving type)` | `cast(prof.bwawa` |
-| `nsdm_gr_bwart preserving type)` | `cast(prof.bwawe` |
+| `RepetitiveManufacturingProfile` | `prof.sfpro` |
+| `RepetitiveMfgProductionType` | `prof.auart` |
+| `ProductCostCtrlgOrderType` | `cast(prof.ksart as pph_ksaar preserving type)` |
+| `GoodsIssueMovementType` | `cast(prof.bwawa as nsdm_gi_bwart preserving type)` |
+| `GoodsReceiptMovementType` | `cast(prof.bwawe as nsdm_gr_bwart preserving type)` |
 | `_OrderType` | *Association* |
 | `_ProductionType` | *Association* |
 | `_GoodsIssueMovementType` | *Association* |

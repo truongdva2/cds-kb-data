@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #LOW }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #LOW }` |
-| `fincs_rptdfindatauploadmethtxt preserving type )` | `cast ( _Source.txt` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `_Source.langu` |
+| `CnsldtnRptdFinDataUploadMethod` | `cast ( _Source.meth as fincs_rptdfindatauploadmethod preserving type )` |
+| `CnsldtnRptdFinDataUpldMethText` | `cast ( _Source.txt as fincs_rptdfindatauploadmethtxt preserving type )` |
 | `_Language` | *Association* |
 | `_CnsldtnRptdFinDataUpldMeth` | *Association* |
 

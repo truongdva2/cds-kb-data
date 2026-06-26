@@ -34,13 +34,16 @@ tags:
 |---|---|
 | `ABCIndicator` | `t370c_t.abckz` |
 | `Language` | `t370c_t.spras` |
-| `eams_abctx preserving type )` | `cast( t370c_t.abctx` |
+| `ABCIndicatorDesc` | `cast( t370c_t.abctx as eams_abctx preserving type )` |
 | `_ABCIndicator` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ABCIndicator` | `I_ABCIndicator` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

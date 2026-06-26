@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergyClassification` | `GHGEnergyClassification` |
+| `GHGEnergyClassification` | `GHGEnergyClassification` |
 | `_Text` | *Association* |
 
 ## Associations

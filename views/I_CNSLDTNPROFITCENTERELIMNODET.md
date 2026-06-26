@@ -32,13 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnControllingAreaVH'` | `name: 'I_CnsldtnControllingAreaVH'` |
-| `element: 'ControllingArea'` | `element: 'ControllingArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_controllingarea preserving type )` | `cast(_nodet.kokrs` |
-| `fincs_elim_profitcenter preserving type )` | `cast(left(_nodet.nodevalue, 25)` |
-| `fincs_profitcenter_desc preserving type )` | `cast(left(_nodet.nodetxt, 50)` |
+| `Language` | `_nodet.spras` |
+| `ControllingArea` | `cast(_nodet.kokrs as fincs_controllingarea preserving type )` |
+| `ProfitCenter` | `cast(left(_nodet.nodevalue, 25) as fincs_elim_profitcenter preserving type )` |
+| `ProfitCenterName` | `cast(left(_nodet.nodetxt, 50) as fincs_profitcenter_desc preserving type )` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_ProfitCenter` | *Association* |

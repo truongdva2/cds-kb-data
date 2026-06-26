@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `HeaderValidityEndDate       : datub;` | `HeaderValidityEndDate       : datub;` |
-| `HeaderValidityStartDate     : datuv;` | `HeaderValidityStartDate     : datuv;` |
-| `BillOfMaterialComponent     : idnrk;` | `BillOfMaterialComponent     : idnrk;` |
-| `BillOfMaterialVariant       : stalt;` | `BillOfMaterialVariant       : stalt;` |
-| `BillOfMaterialVersion       : bom_version;` | `BillOfMaterialVersion       : bom_version;` |
-| `BillOfMaterialCategory      : stlty;` | `BillOfMaterialCategory      : stlty;` |
-| `Plant                       : werks_d;` | `Plant                       : werks_d;` |
+| `HeaderValidityEndDate` | `datub` |
+| `HeaderValidityStartDate` | `datuv` |
+| `BillOfMaterialComponent` | `idnrk` |
+| `BillOfMaterialVariant` | `stalt` |
+| `BillOfMaterialVersion` | `bom_version` |
+| `BillOfMaterialCategory` | `stlty` |
+| `Plant` | `werks_d` |
 
 ## Associations
 

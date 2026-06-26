@@ -30,8 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8,ranking: #HIGH}` | `defaultSearchElement: true, fuzzinessThreshold: 0.8,ranking: #HIGH}` |
-| `pph_rfsch preserving type)` | `cast(rfsch` |
+| `Plant` | `werks` |
+| `OperationSetupGroupCategory` | `cast(rfgrp as pph_rfgrp preserving type)` |
+| `OperationSetupGroup` | `cast(rfsch as pph_rfsch preserving type)` |
 | `_Plant` | *Association* |
 | `_OperationSetupGroupCategory` | *Association* |
 | `_Text` | *Association* |

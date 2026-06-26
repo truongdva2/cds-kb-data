@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bipitem_status_kk preserving type )` | `cast( substring(dd07l.domvalue_l, 1, 1)` |
+| `CABillgPlnItemStatus` | `cast( substring(dd07l.domvalue_l, 1, 1) as bipitem_status_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

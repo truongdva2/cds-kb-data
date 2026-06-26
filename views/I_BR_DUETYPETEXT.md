@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_due_type preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_DUEType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_due_type preserving type )` |
 | `BR_DUETypeDesc` | `ddtext` |
 | `_BR_DUEType` | *Association* |
 | `_Language` | *Association* |

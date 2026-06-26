@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenancePlan` | `MaintenancePlan` |
+| `MaintenancePlan` | `MaintenancePlan` |
 | `MaintenancePlanDesc` | `MaintenancePlanDesc` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
@@ -75,10 +75,6 @@ tags:
 | `MaintenanceLeadFloatInDays` | `MaintenanceLeadFloatInDays` |
 | `MaintenancePlanCallObject` | `MaintenancePlanCallObject` |
 | `SystemStatus` | `SystemStatus` |
-| `/* Associations */` | `/* Associations */` |
-| `_MaintenanceCycle : redirected to composition child I_MaintenancePlanCycleTP` | *Association* |
-| `_Item             : redirected to I_MaintenanceItemTP_2` | *Association* |
-| `_LongText         : redirected to composition child I_MaintenancePlanTextTP` | *Association* |
 
 ## Associations
 

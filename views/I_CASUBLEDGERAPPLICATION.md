@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `trsla_kk preserving type )` | `cast( left( dd07l.domvalue_l, 5 )` |
+| `CASubledgerApplication` | `cast( left( dd07l.domvalue_l, 5 ) as trsla_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

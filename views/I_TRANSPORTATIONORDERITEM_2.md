@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
 | `TransportationOrderItemUUID` | `TransportationOrderItemUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TranspOrdItem` | `TranspOrdItem` |
@@ -98,7 +97,6 @@ tags:
 | `TranspOrdItemInsurableValAmt` | `TranspOrdItemInsurableValAmt` |
 | `TranspOrdItemInsurableValCrcy` | `TranspOrdItemInsurableValCrcy` |
 | `TranspOrdItemDngrsGdsSts` | `TranspOrdItemDngrsGdsSts` |
-| `/* Associations */` | `/* Associations */` |
 | `_TransportationOrder` | *Association* |
 | `_TranspOrdItemSeal` | *Association* |
 | `_TranspOrdItemDocRef` | *Association* |
@@ -138,6 +136,12 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrder` | `I_TransportationOrder_2` | — |
+| `_TranspOrdItemSeal` | `I_TranspOrdItemSeal` | [0..*] |
+| `_TranspOrdItemDocRef` | `I_TranspOrdItemDocRef` | [0..*] |
+| `_TranspOrdItemCommodityCode` | `I_TranspOrdItemCommodityCode` | [0..*] |
+| `_TranspOrdItemBatch` | `I_TranspOrdItemBatch` | [0..*] |
+| `_TranspOrdItemSerialNumber` | `I_TranspOrdItemSerialNumber` | [0..*] |
 | `_PrdcssrTransportationOrder` | `I_TransportationOrder_2` | [0..1] |
 | `_PrdcssrTranspOrderItemUUID` | `I_TransportationOrderItem_2` | [0..1] |
 | `_FreightUnit` | `I_TransportationOrder_2` | [0..1] |

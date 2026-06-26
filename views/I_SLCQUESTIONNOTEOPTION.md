@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qst_notes)` | `cast( substring(  domvalue_l, 1, 1 )` |
+| `IsQuestionCommentEnabled` | `cast( substring( domvalue_l, 1, 1 ) as /srmsmc/qst_notes)` |
 | `_SLCQuestionNoteOptionText` | *Association* |
 
 ## Associations

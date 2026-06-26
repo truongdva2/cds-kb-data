@@ -32,14 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `EventRaisedDateTime          : vdm_lastchangedon;` | `EventRaisedDateTime          : vdm_lastchangedon;` |
-| `CustomerReturnType           : auart_unv;` | `CustomerReturnType           : auart_unv;` |
-| `SalesOrganization            : vkorg;` | `SalesOrganization            : vkorg;` |
-| `DistributionChannel          : vtweg;` | `DistributionChannel          : vtweg;` |
-| `OrganizationDivision         : spart;` | `OrganizationDivision         : spart;` |
-| `SoldToParty                  : kunnr;` | `SoldToParty                  : kunnr;` |
-| `CustomerReturnItemCategory   : pstyv;` | `CustomerReturnItemCategory   : pstyv;` |
-| `Product                      : matnr;` | `Product                      : matnr;` |
+| `EventRaisedDateTime` | `vdm_lastchangedon` |
+| `CustomerReturnType` | `auart_unv` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `OrganizationDivision` | `spart` |
+| `SoldToParty` | `kunnr` |
+| `CustomerReturnItemCategory` | `pstyv` |
+| `Product` | `matnr` |
 
 ## Associations
 

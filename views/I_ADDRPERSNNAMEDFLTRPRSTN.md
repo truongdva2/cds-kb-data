@@ -30,32 +30,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Person.AddressPersonID` | `Person.AddressPersonID` |
-| `Person.AddressRepresentationCode` | `Person.AddressRepresentationCode` |
-| `Person.FormOfAddress` | `Person.FormOfAddress` |
-| `Person.GivenName` | `Person.GivenName` |
-| `Person.FamilyName` | `Person.FamilyName` |
-| `Person.PersonBirthName` | `Person.PersonBirthName` |
-| `Person.PersonMiddleName` | `Person.PersonMiddleName` |
-| `Person.SecondFamilyName` | `Person.SecondFamilyName` |
-| `Person.AcademicTitle` | `Person.AcademicTitle` |
-| `Person.AcademicTitle2` | `Person.AcademicTitle2` |
-| `Person.FamilyNamePrefix` | `Person.FamilyNamePrefix` |
-| `Person.FamilyNameSecondPrefix` | `Person.FamilyNameSecondPrefix` |
-| `Person.PersonNameSupplementCode` | `Person.PersonNameSupplementCode` |
-| `Person.PersonNickname` | `Person.PersonNickname` |
-| `Person.NameInitials` | `Person.NameInitials` |
-| `Person.PersonFullName` | `Person.PersonFullName` |
-| `Person.CorrespondenceLanguage` | `Person.CorrespondenceLanguage` |
-| `Person.AddressPersonSearchTerm1` | `Person.AddressPersonSearchTerm1` |
-| `Person.AddressPersonSearchTerm2` | `Person.AddressPersonSearchTerm2` |
-| `Person._AcademicTitle` | `Person._AcademicTitle` |
-| `Person._AcademicTitle2` | `Person._AcademicTitle2` |
-| `Person._AddressRepresentationCode` | `Person._AddressRepresentationCode` |
-| `Person._FamilyNamePrefix` | `Person._FamilyNamePrefix` |
-| `Person._FamilyNameSecondPrefix` | `Person._FamilyNameSecondPrefix` |
-| `Person._FormOfAddress` | `Person._FormOfAddress` |
-| `Person._NameSupplement` | `Person._NameSupplement` |
+| `AddressPersonID` | `Person.AddressPersonID` |
+| `AddressRepresentationCode` | `Person.AddressRepresentationCode` |
+| `FormOfAddress` | `Person.FormOfAddress` |
+| `GivenName` | `Person.GivenName` |
+| `FamilyName` | `Person.FamilyName` |
+| `PersonBirthName` | `Person.PersonBirthName` |
+| `PersonMiddleName` | `Person.PersonMiddleName` |
+| `SecondFamilyName` | `Person.SecondFamilyName` |
+| `AcademicTitle` | `Person.AcademicTitle` |
+| `AcademicTitle2` | `Person.AcademicTitle2` |
+| `FamilyNamePrefix` | `Person.FamilyNamePrefix` |
+| `FamilyNameSecondPrefix` | `Person.FamilyNameSecondPrefix` |
+| `PersonNameSupplementCode` | `Person.PersonNameSupplementCode` |
+| `PersonNickname` | `Person.PersonNickname` |
+| `NameInitials` | `Person.NameInitials` |
+| `PersonFullName` | `Person.PersonFullName` |
+| `CorrespondenceLanguage` | `Person.CorrespondenceLanguage` |
+| `AddressPersonSearchTerm1` | `Person.AddressPersonSearchTerm1` |
+| `AddressPersonSearchTerm2` | `Person.AddressPersonSearchTerm2` |
+| `_AcademicTitle` | *Association* |
+| `_AcademicTitle2` | *Association* |
+| `_AddressRepresentationCode` | *Association* |
+| `_FamilyNamePrefix` | *Association* |
+| `_FamilyNameSecondPrefix` | *Association* |
+| `_FormOfAddress` | *Association* |
+| `_NameSupplement` | *Association* |
 | `_DfltRprstnPerson` | *Association* |
 
 ## Associations

@@ -34,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Tax Category Description'}]` | `label: 'Tax Category Description'}]` |
+| `Language` | `spras` |
+| `BPTaxType` | `taxtype` |
 | `TaxTypeName` | `text` |
 
 ## Associations

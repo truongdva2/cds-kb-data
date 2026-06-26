@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key ServiceQuotationItem` | `ServiceQuotationItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceQuotationItem` | `ServiceQuotationItem` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `PrcgProcedureCounterForHeader` | `PrcgProcedureCounterForHeader` |
 | `ConditionType` | `ConditionType` |
 | `ConditionRateValue` | `ConditionRateValue` |
@@ -41,11 +41,8 @@ tags:
 | `ConditionQuantity` | `ConditionQuantity` |
 | `ConditionQuantityUnit` | `ConditionQuantityUnit` |
 | `ConditionInactiveReason` | `ConditionInactiveReason` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionQuantityUnit` | *Association* |
 | `_ConditionInactiveReason` | *Association* |
-| `_ServiceQuotationItemTP : redirected to parent I_ServiceQuotationItemTP` | *Association* |
-| `_ServiceQuotationTP     : redirected to I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

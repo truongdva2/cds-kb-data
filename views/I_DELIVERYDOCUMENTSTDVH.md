@@ -36,7 +36,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DeliveryDocument` | `DeliveryDocument` |
+| `DeliveryDocument` | `DeliveryDocument` |
 | `ShippingPoint` | `ShippingPoint` |
 
 ## Associations

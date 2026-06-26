@@ -30,29 +30,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Worker.WorkforcePersonExternalID` | `Worker.WorkforcePersonExternalID` |
-| `Worker.BusinessPartner` | `Worker.BusinessPartner` |
-| `BusinessPartner.FirstName` | `BusinessPartner.FirstName` |
-| `BusinessPartner.MiddleName` | `BusinessPartner.MiddleName` |
-| `BusinessPartner.LastName` | `BusinessPartner.LastName` |
+| `WorkforcePersonExternalID` | `Worker.WorkforcePersonExternalID` |
+| `BusinessPartner` | `Worker.BusinessPartner` |
+| `FirstName` | `BusinessPartner.FirstName` |
+| `MiddleName` | `BusinessPartner.MiddleName` |
+| `LastName` | `BusinessPartner.LastName` |
 | `FullName` | `BusinessPartner.PersonFullName` |
 | `BirthName` | `BusinessPartner.BusinessPartnerBirthName` |
-| `BusinessPartner.Initials` | `BusinessPartner.Initials` |
+| `Initials` | `BusinessPartner.Initials` |
 | `NativePreferredLanguage` | `BusinessPartner.CorrespondenceLanguage` |
-| `BusinessPartner.IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
-| `BusinessPartner.DataControllerSet` | `BusinessPartner.DataControllerSet` |
-| `BusinessPartner.DataController1` | `BusinessPartner.DataController1` |
-| `BusinessPartner.DataController2` | `BusinessPartner.DataController2` |
-| `BusinessPartner.DataController3` | `BusinessPartner.DataController3` |
-| `BusinessPartner.DataController4` | `BusinessPartner.DataController4` |
-| `BusinessPartner.DataController5` | `BusinessPartner.DataController5` |
-| `BusinessPartner.DataController6` | `BusinessPartner.DataController6` |
-| `BusinessPartner.DataController7` | `BusinessPartner.DataController7` |
-| `BusinessPartner.DataController8` | `BusinessPartner.DataController8` |
-| `BusinessPartner.DataController9` | `BusinessPartner.DataController9` |
-| `BusinessPartner.DataController10` | `BusinessPartner.DataController10` |
-| `BusinessPartner.AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
-| `/*Associations */` | `/*Associations */` |
+| `IsBusinessPurposeCompleted` | `BusinessPartner.IsBusinessPurposeCompleted` |
+| `DataControllerSet` | `BusinessPartner.DataControllerSet` |
+| `DataController1` | `BusinessPartner.DataController1` |
+| `DataController2` | `BusinessPartner.DataController2` |
+| `DataController3` | `BusinessPartner.DataController3` |
+| `DataController4` | `BusinessPartner.DataController4` |
+| `DataController5` | `BusinessPartner.DataController5` |
+| `DataController6` | `BusinessPartner.DataController6` |
+| `DataController7` | `BusinessPartner.DataController7` |
+| `DataController8` | `BusinessPartner.DataController8` |
+| `DataController9` | `BusinessPartner.DataController9` |
+| `DataController10` | `BusinessPartner.DataController10` |
+| `AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
 | `_WorkAssignment` | *Association* |
 
 ## Associations

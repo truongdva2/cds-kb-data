@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingInternalVers` | `ProductionRoutingInternalVers` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingInternalVers` | `ProductionRoutingInternalVers` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `BillOfOperationsDesc` | `BillOfOperationsDesc` |
 | `Plant` | `Plant` |
@@ -57,10 +57,6 @@ tags:
 | `PlainLongText` | `PlainLongText` |
 | `PlanningWorkCenter` | `PlanningWorkCenter` |
 | `ReplacedBillOfOperations` | `ReplacedBillOfOperations` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdnRtgTP : redirected to parent I_ProductionRoutingTP_2` | *Association* |
-| `_MatlAssgmt : redirected to I_ProdnRoutingMatlAssgmtTP_2` | *Association* |
-| `_Sequence   : redirected to I_ProdnRoutingSequenceTP_2` | *Association* |
 
 ## Associations
 

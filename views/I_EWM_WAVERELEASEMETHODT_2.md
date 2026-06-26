@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scwm/de_rls_mthd)as EWMWaveReleaseMethod` | `cast( Domain.domvalue_l` |
 | `Language` | `Domain.ddlanguage` |
 | `EWMWaveReleaseMethodName` | `Domain.ddtext` |
 

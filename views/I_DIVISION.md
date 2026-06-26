@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Division` | `spart` |
-| `division_oid )` | `cast( spart` |
+| `DivisionOID` | `cast( spart as division_oid )` |
 | `_DivisionHierarchyNode` | *Association* |
 | `_Text` | *Association* |
 

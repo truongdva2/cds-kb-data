@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qst_dtyp_format_code)` | `cast( substring( domvalue_l, 1, 2)` |
+| `SLCQuestionType` | `cast( substring( domvalue_l, 1, 2) as /srmsmc/qst_dtyp_format_code)` |
 | `_SLCQuestionTypeText` | *Association* |
 
 ## Associations

@@ -31,13 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinManagementAreaVH'` | `name: 'I_CnsldtnFinManagementAreaVH'` |
-| `element: 'FinancialManagementArea'` | `element: 'FinancialManagementArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key FinancialManagementArea` | `FinancialManagementArea` |
-| `key Fund` | `Fund` |
-| `_Text[1: Language=$session.system_language].FundName` | *Association* |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `Fund` | `Fund` |
+| `FundName` | `_Text[1: Language=$session.system_language].FundName` |
 
 ## Associations
 

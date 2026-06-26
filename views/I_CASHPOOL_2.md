@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPool` | `CashPool` |
+| `CashPool` | `CashPool` |
 | `CashPoolIsDeleted` | `CashPoolIsDeleted` |
 | `CashPoolType` | `CashPoolType` |
 | `CashPoolTransfDrctn` | `CashPoolTransfDrctn` |

@@ -35,13 +35,12 @@ tags:
 | `CAMainTransaction` | `hvorg` |
 | `CASubTransaction` | `tvorg` |
 | `Language` | `spras` |
-| `tvorg_text_kk  preserving type )` | `cast( txt30` |
+| `CASubTransactionName` | `cast( txt30 as tvorg_text_kk preserving type )` |
 | `_CAApplicationArea` | *Association* |
 | `_CAMainTransaction` | *Association* |
 | `_Language` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea                              as _ApplArea` | *Association* |
-| `_CAMainTransaction                              as _MainTransaction` | *Association* |
+| `_ApplArea` | *Association* |
+| `_MainTransaction` | *Association* |
 
 ## Associations
 

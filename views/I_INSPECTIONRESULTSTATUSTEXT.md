@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `tq76t.sprache` |
 | `InspectionResultStatus` | `tq76t.status` |
-| `vdm_qinspresultstatus_text preserving type  )` | `cast( tq76t.kurztext` |
+| `InspectionResultStatusText` | `cast( tq76t.kurztext as vdm_qinspresultstatus_text preserving type )` |
 
 ## Associations
 

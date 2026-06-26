@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Country                    : land1;` | `Country                    : land1;` |
-| `_Root : association to parent D_PCLgsDcGetMxdLdgIcmtsP;` | *Association* |
+| `Country` | `land1` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetMxdLdgIcmtsP` | — |
 
 ## Source Code
 

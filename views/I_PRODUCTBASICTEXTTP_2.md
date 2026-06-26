@@ -33,16 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
+| `Product` | `Product` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
 | `ProductLongText` | `ProductLongText` |
 | `ProdLongTxtCreationDateTime` | `ProdLongTxtCreationDateTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `ProdLongTxtLastChangedDateTime` | `ProdLongTxtLastChangedDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 
 ## Associations
 

@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DeliveryDocumentType         : lfart;` | `DeliveryDocumentType         : lfart;` |
-| `OverallPickingStatus         : kostk;` | `OverallPickingStatus         : kostk;` |
-| `PreviousOverallPickingStatus : kostk;` | `PreviousOverallPickingStatus : kostk;` |
-| `OverallPickingConfStatus     : koquk;` | `OverallPickingConfStatus     : koquk;` |
-| `PrevOverallPickingConfStatus : koquk;` | `PrevOverallPickingConfStatus : koquk;` |
-| `SalesOrganization            : vkorg;` | `SalesOrganization            : vkorg;` |
-| `SDDocumentCategory           : vbtypl;` | `SDDocumentCategory           : vbtypl;` |
+| `DeliveryDocumentType` | `lfart` |
+| `OverallPickingStatus` | `kostk` |
+| `PreviousOverallPickingStatus` | `kostk` |
+| `OverallPickingConfStatus` | `koquk` |
+| `PrevOverallPickingConfStatus` | `koquk` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

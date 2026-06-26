@@ -31,15 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
 | `MaterialForEdit` | `MaterialForEdit` |
 | `PlantForEdit` | `PlantForEdit` |
 | `MaterialName` | `MaterialName` |
 | `_Material` | *Association* |
 | `_MaterialText` | *Association* |
 | `_Plant` | *Association* |
-| `_PurchasingSourceItem : redirected to composition child I_PurchasingSourceListItemTP` | *Association* |
 
 ## Associations
 

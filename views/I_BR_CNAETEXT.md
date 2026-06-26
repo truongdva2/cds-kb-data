@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `_BR_CNAEText.spras` |
 | `BR_CNAE` | `_BR_CNAEText.j_1bcnae` |
-| `logbr_cnae_desc)` | `cast(_BR_CNAEText.j_1bcnaex` |
+| `BR_CNAEDesc` | `cast(_BR_CNAEText.j_1bcnaex as logbr_cnae_desc)` |
 | `_BR_CNAE` | *Association* |
 | `_Language` | *Association* |
 

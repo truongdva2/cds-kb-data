@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `crms4_stat_credit_i )` | `cast ( domvalue_l` |
+| `SrvcDocItemCreditStatus` | `cast ( domvalue_l as crms4_stat_credit_i )` |
 | `DomainValue` | `domvalue_l` |
 | `_SrvcDocItemCreditStatusText` | *Association* |
 

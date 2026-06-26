@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vf_status preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `OverallBillingStatus` | `cast(substring(domvalue_l, 1, 1) as vf_status preserving type)` |
 | `Language` | `ddlanguage` |
 | `OverallBillingStatusDesc` | `ddtext` |
 | `_OverallBillingStatus` | *Association* |
@@ -42,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OverallBillingStatus` | `I_OverallBillingStatus` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

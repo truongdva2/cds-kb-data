@@ -31,12 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_DocInfoRecdDocTypeStdVH'` | `name:    'I_DocInfoRecdDocTypeStdVH'` |
-| `element: 'DocumentInfoRecordDocType' }` | `element: 'DocumentInfoRecordDocType' }` |
-| `}]` | `}]` |
 | `DocumentInfoRecordDocType` | `status.dokar` |
 | `InternalDocumentStatus` | `status.dokst` |
-| `DocInfoRecdStatusType, //added by IH to retrieve status` | `status.dosar` |
+| `DocInfoRecdStatusType` | `status.dosar` |
 | `_DocType` | *Association* |
 | `_Text` | *Association* |
 | `_DocTypeText` | *Association* |

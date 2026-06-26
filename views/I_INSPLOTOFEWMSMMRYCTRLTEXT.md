@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
-| `qlot_control_origin_17_text preserving type )` | `cast( ddtext` |
+| `InspLotOfEWMSummaryControl` | `cast (substring ( domvalue_l, 1, 1) as qlot_control_origin_17 preserving type )` |
+| `Language` | `ddlanguage` |
+| `InspLotOfEWMSummaryControlText` | `cast( ddtext as qlot_control_origin_17_text preserving type )` |
 
 ## Associations
 

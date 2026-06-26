@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `pbr_apprvl_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProjBillgReqItmSourceType` | `cast( substring( domvalue_l, 1, 1 ) as pbr_apprvl_status preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `ProjBillgReqItmSourceTypeText` | `ddtext` |
 | `_ProjBillgReqItmSrceType` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProjBillgReqItmSrceType` | `I_ProjBillgReqItmSrceType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

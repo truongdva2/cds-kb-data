@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationTP : redirected to parent I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

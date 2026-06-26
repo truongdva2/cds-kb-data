@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BPCompanyRelationship` | `BPCompanyRelationship` |
+| `BPCompanyRelationship` | `BPCompanyRelationship` |
 | `_Text` | *Association* |
-| `_Text[1:Language = $session.system_language ].BPCompanyRelationshipDesc` | *Association* |
+| `BPCompanyRelationshipDesc` | `_Text[1:Language = $session.system_language ].BPCompanyRelationshipDesc` |
 
 ## Associations
 

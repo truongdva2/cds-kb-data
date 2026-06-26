@@ -31,12 +31,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinancialDataSource` | `datasource_id` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_FinancialDataSourceT` | [0..*] |
 
 ## Source Code
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH}` | `defaultSearchElement: true, ranking: #HIGH}` |
+| `SumzdJITCallMessageIsProcessed` | `cast(substring(l.domvalue_l, 1, 1) as pabdkz preserving type)` |
 | `DomainValue` | `l.domvalue_l` |
 | `_Text` | *Association* |
 

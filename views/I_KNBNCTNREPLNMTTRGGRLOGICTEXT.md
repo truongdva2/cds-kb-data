@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pklog preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `vdm_knbnreplnmttriggerlgcname preserving type)` | `cast(txt.ddtext` |
+| `KanbanCtnReplnmtTriggerLogic` | `cast(substring(txt.domvalue_l, 1, 1) as pklog preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `KnbnCtnReplnmtTriggerLogicName` | `cast(txt.ddtext as vdm_knbnreplnmttriggerlgcname preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Language` | *Association* |
 | `_KnbnCtnReplnmtTrggrLogic` | *Association* |

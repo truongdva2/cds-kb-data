@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tatyp_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `tatyp_text_kk preserving type )` | `cast( ddtext` |
+| `CADocumentTransactionClass` | `cast( left( domvalue_l, 1 ) as tatyp_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CADocumentTransactionClassText` | `cast( ddtext as tatyp_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

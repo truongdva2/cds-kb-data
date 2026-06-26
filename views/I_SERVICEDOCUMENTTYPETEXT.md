@@ -32,10 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
+| `ServiceDocumentType` | `process_type` |
+| `Language` | `langu` |
 | `ServiceDocumentTypeName` | `p_description` |
 | `ServiceDocumentTypeShortName` | `p_description_20` |
 | `_ServiceDocumentType` | *Association* |

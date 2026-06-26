@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/spe/le_scenario )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `LogisticsExecutionScenario` | `cast( dd07t.domvalue_l as /spe/le_scenario )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `vdm_le_scenario_text preserving type )` | `cast( dd07t.ddtext` |
+| `LogisticsExecutionScenarioName` | `cast( dd07t.ddtext as vdm_le_scenario_text preserving type )` |
 | `_LogisticsExecutionScenario` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_LogisticsExecutionScenario` | `I_LogisticsExecutionScenario` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

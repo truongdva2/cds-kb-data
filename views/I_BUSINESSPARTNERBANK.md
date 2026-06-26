@@ -38,33 +38,18 @@ tags:
 | `BusinessPartner` | `BusinessPartnerBank.partner` |
 | `BankIdentification` | `BusinessPartnerBank.bkvid` |
 | `BankCountryKey` | `BusinessPartnerBank.banks` |
-| `_Bank.BankName                                                         as  BankName` | *Association* |
+| `BankName` | `_Bank.BankName` |
 | `BankNumber` | `BusinessPartnerBank.bankl` |
-| `_Bank.SWIFTCode                                                        as  SWIFTCode` | *Association* |
+| `SWIFTCode` | `_Bank.SWIFTCode` |
 | `BankControlKey` | `BusinessPartnerBank.bkont` |
 | `BankAccountHolderName` | `BusinessPartnerBank.koinh` |
 | `BankAccountName` | `BusinessPartnerBank.accname` |
 | `ValidityStartDate` | `BusinessPartnerBank.bk_valid_from` |
 | `ValidityEndDate` | `BusinessPartnerBank.bk_valid_to` |
-| `case` | `case` |
-| `when BusinessPartnerBank.bk_valid_from <= tstmp_current_utctimestamp()` | `when BusinessPartnerBank.bk_valid_from <= tstmp_current_utctimestamp()` |
-| `and BusinessPartnerBank.bk_valid_to >= tstmp_current_utctimestamp()` | `and BusinessPartnerBank.bk_valid_to >= tstmp_current_utctimestamp()` |
-| `boole_d)` | `then cast('X'` |
-| `boole_d)` | `else cast(' '` |
-| `IsActualDate` | `end` |
-| `case` | `case` |
-| `when BusinessPartnerBank.bk_valid_from <= tstmp_current_utctimestamp()` | `when BusinessPartnerBank.bk_valid_from <= tstmp_current_utctimestamp()` |
-| `and BusinessPartnerBank.bk_valid_to >= tstmp_current_utctimestamp()` | `and BusinessPartnerBank.bk_valid_to >= tstmp_current_utctimestamp()` |
-| `boole_d)` | `then cast('X'` |
-| `boole_d)` | `else cast(' '` |
-| `BPIsActualDate` | `end` |
-| `case` | `case` |
-| `when BusinessPartnerBank.bankn <> ''` | `when BusinessPartnerBank.bankn <> ''` |
-| `then _IBAN.IBAN` | `then _IBAN.IBAN` |
-| `else` | `else` |
-| `BusinessPartnerBank.iban` | `BusinessPartnerBank.iban` |
-| `IBAN` | `end` |
-| `_IBAN.IBANValidityStartDate                                            as  IBANValidityStartDate` | *Association* |
+| `IsActualDate` | `case…end` |
+| `BPIsActualDate` | `case…end` |
+| `IBAN` | `case…end` |
+| `IBANValidityStartDate` | `_IBAN.IBANValidityStartDate` |
 | `BankAccount` | `BusinessPartnerBank.bankn` |
 | `BankAccountReferenceText` | `BusinessPartnerBank.bkref` |
 | `CollectionAuthInd` | `BusinessPartnerBank.xezer` |
@@ -73,12 +58,12 @@ tags:
 | `BPBankDetailsChangeTargetID` | `BusinessPartnerBank.move_bkvid` |
 | `BPBankIsProtected` | `BusinessPartnerBank.protect` |
 | `BPBankUUID` | `BusinessPartnerBank.bp_bank_guid` |
-| `_Bank.CityName                                                         as  CityName` | *Association* |
+| `CityName` | `_Bank.CityName` |
 | `_Bank` | *Association* |
 | `_IBAN` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_BusinessPartnerBankAlias` | *Association* |
-| `_BusinessPartner.AuthorizationGroup` | *Association* |
+| `AuthorizationGroup` | `_BusinessPartner.AuthorizationGroup` |
 
 ## Associations
 
@@ -86,7 +71,6 @@ tags:
 |---|---|---|
 | `_BusinessPartner` | `I_BusinessPartner` | [1..1] |
 | `_Bank` | `I_Bank` | [1..1] |
-| `_IBAN` | `tiban` | [1..1] |
 | `_IBAN` | `I_Iban` | [1..1] |
 | `_BusinessPartnerBankAlias` | `I_BusinessPartnerBankAlias` | [1..1] |
 

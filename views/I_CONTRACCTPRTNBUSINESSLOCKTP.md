@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ContractAccount` | `ContractAccount` |
-| `key BusinessPartner` | `BusinessPartner` |
-| `key CABusinessProcess` | `CABusinessProcess` |
-| `key CABusinessLockReason` | `CABusinessLockReason` |
-| `key CABusinessLockValidFrom` | `CABusinessLockValidFrom` |
-| `key CABusinessLockValidTo` | `CABusinessLockValidTo` |
+| `ContractAccount` | `ContractAccount` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CABusinessProcess` | `CABusinessProcess` |
+| `CABusinessLockReason` | `CABusinessLockReason` |
+| `CABusinessLockValidFrom` | `CABusinessLockValidFrom` |
+| `CABusinessLockValidTo` | `CABusinessLockValidTo` |
 | `CABusinessLockText` | `CABusinessLockText` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
@@ -44,12 +44,9 @@ tags:
 | `CABusinessLockReasonForEdit` | `CABusinessLockReasonForEdit` |
 | `CABusinessLockValidFromForEdit` | `CABusinessLockValidFromForEdit` |
 | `CABusinessLockValidToForEdit` | `CABusinessLockValidToForEdit` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CABusinessLockReason` | *Association* |
 | `_CABusinessProcess` | *Association* |
-| `_ContractAccount: redirected to I_ContractAccountTP` | *Association* |
-| `_ContractAccountPartner: redirected to parent I_ContractAccountPartnerTP` | *Association* |
 
 ## Associations
 

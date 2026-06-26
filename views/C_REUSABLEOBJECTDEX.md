@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RealEstateUsableObjectUUID` | `RealEstateUsableObjectUUID` |
+| `RealEstateUsableObjectUUID` | `RealEstateUsableObjectUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |

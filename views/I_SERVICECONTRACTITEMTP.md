@@ -32,14 +32,59 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'C_SrvcContrPaymentMethodVH' , element:'PaymentMethod'}, useAsTemplate: true  }]` | `name: 'C_SrvcContrPaymentMethodVH' , element:'PaymentMethod'}, useAsTemplate: true  }]` |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContractItemCategory` | `ServiceContractItemCategory` |
+| `ServiceContractItemUUID` | `ServiceContractItemUUID` |
+| `ServiceContractItemDescription` | `ServiceContractItemDescription` |
+| `Language` | `Language` |
+| `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
+| `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
+| `ServiceDocItemCreatedByUser` | `ServiceDocItemCreatedByUser` |
+| `ServiceDocItemChangedByUser` | `ServiceDocItemChangedByUser` |
+| `Product` | `Product` |
+| `Quantity` | `Quantity` |
+| `QuantityUnit` | `QuantityUnit` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `ServiceContractItemIsNew` | `ServiceContractItemIsNew` |
+| `ServiceContractItemIsInProcess` | `ServiceContractItemIsInProcess` |
+| `ServiceContractItemIsReleased` | `ServiceContractItemIsReleased` |
+| `ServiceContractItemIsCompleted` | `ServiceContractItemIsCompleted` |
+| `ServiceContractItemStatus` | `ServiceContractItemStatus` |
+| `ServiceContrItemBillingStatus` | `ServiceContrItemBillingStatus` |
+| `ServiceContractItemIsRejected` | `ServiceContractItemIsRejected` |
+| `ServiceContractItemHasError` | `ServiceContractItemHasError` |
+| `SrvcDocItemTransferStatus` | `SrvcDocItemTransferStatus` |
+| `ServiceContrItemStartDateTime` | `ServiceContrItemStartDateTime` |
+| `ServiceContrItemEndDateTime` | `ServiceContrItemEndDateTime` |
+| `SrvcContrItemRnwlDuration` | `SrvcContrItemRnwlDuration` |
+| `SrvcContrItemRnwlDurationUnit` | `SrvcContrItemRnwlDurationUnit` |
+| `SrvcContrItemExtensionDuration` | `SrvcContrItemExtensionDuration` |
+| `SrvcContrItemExtnDurationUnit` | `SrvcContrItemExtnDurationUnit` |
+| `ServiceDocItemGrossAmount` | `ServiceDocItemGrossAmount` |
+| `ServiceDocumentItemNetAmount` | `ServiceDocumentItemNetAmount` |
+| `ServiceDocumentItemTaxAmount` | `ServiceDocumentItemTaxAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceContractItemCanclnParty` | `ServiceContractItemCanclnParty` |
+| `ServiceContractItmCanclnReason` | `ServiceContractItmCanclnReason` |
+| `SettlementPeriodRuleUUID` | `SettlementPeriodRuleUUID` |
+| `SettlementPeriodRule` | `SettlementPeriodRule` |
+| `BillingPlanBillingDateRuleUUID` | `BillingPlanBillingDateRuleUUID` |
+| `SrvcMgmtBillgPlanBillgDateRule` | `SrvcMgmtBillgPlanBillgDateRule` |
+| `BillingBlockReason` | `BillingBlockReason` |
+| `PaymentTerms` | `PaymentTerms` |
 | `PaymentMethod` | `PaymentMethod` |
 | `SrvcContrExternalReference` | `SrvcContrExternalReference` |
 | `SrvcContrItmExternalReference` | `SrvcContrItmExternalReference` |
 | `ServiceQtanExtReference` | `ServiceQtanExtReference` |
 | `ServiceQtanItemExtReference` | `ServiceQtanItemExtReference` |
 | `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
-| `/* Associations */` | `/* Associations */` |
 | `_ServiceDocument` | *Association* |
 | `_ServiceObjType` | *Association* |
 | `_Product` | *Association* |
@@ -60,18 +105,6 @@ tags:
 | `_SettlementPeriodRuleText` | *Association* |
 | `_ServiceCancellationPartyText` | *Association* |
 | `_ServiceCanclnReasonText` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceContractTP          : redirected to parent I_ServiceContractTP` | *Association* |
-| `_SrvcContrItemRefObjectTP   : redirected to composition child I_SrvcContrItemRefObjectTP` | *Association* |
-| `_SrvcContrItmPriceElementTP : redirected to composition child I_SrvcContrItemPriceElementTP` | *Association* |
-| `_SrvcContrItemUserStatusTP  : redirected to composition child I_SrvcContrItemUserStatusTP` | *Association* |
-| `_SrvcContrItemAppointmentTP : redirected to composition child I_SrvcContrItemAppointmentTP` | *Association* |
-| `_SrvcContrItemDurationTP    : redirected to composition child I_SrvcContrItemDurationTP` | *Association* |
-| `_SrvcContrItemProductTP     : redirected to composition child I_SrvcContrItemProductTP` | *Association* |
-| `_SrvcContrItmBillgReqItemTP : redirected to composition child I_SrvcContrItmBillgReqItemTP` | *Association* |
-| `_SrvcContrItmFUPBillgDocTP  : redirected to composition child I_SrvcContrItmFUPBillgDocTP` | *Association* |
-| `_SrvcContrItmFUPSrvcOrdTP   : redirected to composition child I_SrvcContrItmFUPSrvcOrdTP` | *Association* |
-| `_SrvcContrItmPartnerTP      : redirected to composition child I_SrvcContrItemPartnerTP` | *Association* |
 
 ## Associations
 

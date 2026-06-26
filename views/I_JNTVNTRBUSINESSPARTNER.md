@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVenturePartnerValueHelp'` | `name:    'I_JointVenturePartnerValueHelp'` |
-| `element: 'JointVenturePartner' }` | `element: 'JointVenturePartner' }` |
-| `}]` | `}]` |
-| `jv_part_cds preserving type )` | `cast( jvp.partn` |
-| `jv_part_nm preserving type )` | `cast( left(_BusinessPartner.BusinessPartnerName, 35)` |
-| `jva_partner_name preserving type )` | `cast( left(_BusinessPartner.BusinessPartnerName, 40)` |
+| `CompanyCode` | `jvp.bukrs` |
+| `JointVenturePartner` | `cast( jvp.partn as jv_part_cds preserving type )` |
+| `JointVenturePartnerShortText` | `cast(…)` |
+| `JointVenturePartner2ShortText` | `cast(…)` |
 | `JntVntrIntcoCode` | `jvp.intcocd` |
 | `JntVntrCashCallThld` | `jvp.ccthresh` |
 | `JntVntrHardCopyBillgIsSupp` | `jvp.paper` |
@@ -55,7 +53,7 @@ tags:
 | `PhoneNumber` | `jvp.telfn` |
 | `ContactPhoneNumber` | `jvp.telfn` |
 | `JntVntrGeneratedExpndtrSet` | `jvp.t819_only` |
-| `_CompanyCode.Currency                                                                      as Currency` | *Association* |
+| `Currency` | `_CompanyCode.Currency` |
 | `JntVntrBillgThldDebit` | `jvp.billthres` |
 | `JntVntrBillgThldCredit` | `jvp.billthresc` |
 | `JntVntrBillgThldIsActive` | `jvp.billthresa` |

@@ -32,10 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `StorageConditions` | `StorageConditions` |
+| `ProdTemperatureConditionCode` | `ProdTemperatureConditionCode` |
+| `HazardousProduct` | `HazardousProduct` |
+| `NmbrOfGROrGISlipsToPrintQty` | `NmbrOfGROrGISlipsToPrintQty` |
+| `LabelType` | `LabelType` |
+| `LabelForm` | `LabelForm` |
+| `MinRemainingShelfLife` | `MinRemainingShelfLife` |
+| `ProductExpirationDateType` | `ProductExpirationDateType` |
+| `StorageBinInstruction` | `StorageBinInstruction` |
+| `ShelfLifeExpirationDatePeriod` | `ShelfLifeExpirationDatePeriod` |
+| `ShelfLifeExprtnDateRndngRule` | `ShelfLifeExprtnDateRndngRule` |
+| `TotalShelfLifeStoragePercent` | `TotalShelfLifeStoragePercent` |
+| `TotalShelfLife` | `TotalShelfLife` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 | `_TemperatureConditionText` | *Association* |
 | `_LabelType` | *Association* |
 | `_LabelForm` | *Association* |

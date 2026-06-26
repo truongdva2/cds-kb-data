@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
-| `key PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
-| `key PurchasingOrganization` | `PurchasingOrganization` |
-| `key Plant` | `Plant` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingInfoRecordCategory` | `PurchasingInfoRecordCategory` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `Plant` | `Plant` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
 | `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -74,10 +74,6 @@ tags:
 | `PricingScaleLine` | `PricingScaleLine` |
 | `ConditionReleaseStatus` | `ConditionReleaseStatus` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_PurgInfoRecdPrcgCndnValdty : redirected to parent I_PurgInfoRecdPrcgCndnValdtyTP` | *Association* |
-| `_PurgInfoRecd : redirected to I_PurchasingInfoRecordTP` | *Association* |
-| `_PurgInfoRecdOrgPlntData : redirected to I_PurgInfoRecdOrgPlntDataTP` | *Association* |
-| `_PurgInfoRecdCndnSuplmnt : redirected to composition child I_PurgInfoRecdCndnSuplmntTP` | *Association* |
 | `_AlternativeCurrency` | *Association* |
 | `_PurgPricingCndnRecdScale` | *Association* |
 | `_QuantityUnit` | *Association* |

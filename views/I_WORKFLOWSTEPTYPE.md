@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkflowStepType` | `WorkflowStepType` |
-| `key WrkflwScen` | `WrkflwScen` |
-| `key WrkflwScenVers` | `WrkflwScenVers` |
+| `WorkflowStepType` | `WorkflowStepType` |
+| `WrkflwScen` | `WrkflwScen` |
+| `WrkflwScenVers` | `WrkflwScenVers` |
 | `WorkflowStepIsSystemTask` | `WorkflowStepIsSystemTask` |
 | `WorkflowStepTypeClassfctn` | `WorkflowStepTypeClassfctn` |
 | `_WorkflowTaskStepTypeText` | *Association* |

@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintenanceOrder` | `MaintenanceOrder` |
-| `key MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
-| `key MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
-| `key MaintOrderComponentInternalID` | `MaintOrderComponentInternalID` |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
+| `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
+| `MaintOrderComponentInternalID` | `MaintOrderComponentInternalID` |
 | `MaintenanceOrderComponent` | `MaintenanceOrderComponent` |
 | `Reservation` | `Reservation` |
 | `ReservationItem` | `ReservationItem` |
@@ -127,9 +127,6 @@ tags:
 | `_UnitOfMeasure` | *Association* |
 | `_UnitOfMeasureEntry` | *Association* |
 | `_Supplier` | *Association* |
-| `_MaintenanceOrder          : redirected to I_MaintenanceOrderTP` | *Association* |
-| `_MaintenanceOrderOperation : redirected to parent I_MaintenanceOrderOperationTP` | *Association* |
-| `_MaintOrderOpCompLongText  : redirected to composition child I_MaintOrderOpCompLongTextTP` | *Association* |
 
 ## Associations
 

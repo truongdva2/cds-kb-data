@@ -33,28 +33,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key item.SupplierInvoice` | `item.SupplierInvoice` |
-| `key item.FiscalYear` | `item.FiscalYear` |
-| `key item.SupplierInvoiceItem` | `item.SupplierInvoiceItem` |
-| `item.Material` | `item.Material` |
-| `item.ValuationArea` | `item.ValuationArea` |
-| `item.CompanyCode` | `item.CompanyCode` |
+| `SupplierInvoice` | `item.SupplierInvoice` |
+| `FiscalYear` | `item.FiscalYear` |
+| `SupplierInvoiceItem` | `item.SupplierInvoiceItem` |
+| `Material` | `item.Material` |
+| `ValuationArea` | `item.ValuationArea` |
+| `CompanyCode` | `item.CompanyCode` |
 | `Plant` | `item.SuplrInvcItemMaterialPlant` |
-| `item.InventoryValuationType` | `item.InventoryValuationType` |
-| `item.DebitCreditCode` | `item.DebitCreditCode` |
-| `item.IsNotCashDiscountLiable` | `item.IsNotCashDiscountLiable` |
-| `item.TaxCode` | `item.TaxCode` |
-| `item.TaxJurisdiction` | `item.TaxJurisdiction` |
-| `item.TaxCountry` | `item.TaxCountry` |
-| `item.TaxDeterminationDate` | `item.TaxDeterminationDate` |
-| `item.DocumentCurrency` | `item.DocumentCurrency` |
-| `item.SupplierInvoiceItemAmount` | `item.SupplierInvoiceItemAmount` |
-| `item.QuantityUnit` | `item.QuantityUnit` |
-| `item.Quantity` | `item.Quantity` |
-| `/* Associations */` | `/* Associations */` |
+| `InventoryValuationType` | `item.InventoryValuationType` |
+| `DebitCreditCode` | `item.DebitCreditCode` |
+| `IsNotCashDiscountLiable` | `item.IsNotCashDiscountLiable` |
+| `TaxCode` | `item.TaxCode` |
+| `TaxJurisdiction` | `item.TaxJurisdiction` |
+| `TaxCountry` | `item.TaxCountry` |
+| `TaxDeterminationDate` | `item.TaxDeterminationDate` |
+| `DocumentCurrency` | `item.DocumentCurrency` |
+| `SupplierInvoiceItemAmount` | `item.SupplierInvoiceItemAmount` |
+| `QuantityUnit` | `item.QuantityUnit` |
+| `Quantity` | `item.Quantity` |
 | `_SupplierInvoiceAPI01` | *Association* |
-| `item._UnitOfMeasure` | `item._UnitOfMeasure` |
-| `item._Currency` | `item._Currency` |
+| `_UnitOfMeasure` | *Association* |
+| `_Currency` | *Association* |
 
 ## Associations
 

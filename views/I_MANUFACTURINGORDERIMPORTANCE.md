@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key ManufacturingOrderImportance` | `ManufacturingOrderImportance` |
+| `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
+| `ManufacturingOrderImportance` | `ManufacturingOrderImportance` |
 | `_MfgOrderCategory` | *Association* |
 
 ## Associations

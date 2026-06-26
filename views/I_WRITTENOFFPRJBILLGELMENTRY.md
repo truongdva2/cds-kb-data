@@ -30,12 +30,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_UnitOfMeasure'` | `name:    'I_UnitOfMeasure'` |
-| `element: 'UnitOfMeasure' }` | `element: 'UnitOfMeasure' }` |
-| `}]` | `}]` |
+| `ProjBillgElmntEntrItmUUID` | `ProjBillgElmntEntrItmUUID` |
+| `ProjectBillingRequestUUID` | `ProjectBillingRequestUUID` |
+| `ProjectInternalID` | `ProjectInternalID` |
+| `Ledger` | `_PrjBlgElmEntrJrnlEntrLink.Ledger` |
+| `CompanyCode` | `_PrjBlgElmEntrJrnlEntrLink.CompanyCode` |
+| `AccountingDocument` | `_PrjBlgElmEntrJrnlEntrLink.AccountingDocument` |
+| `LedgerGLLineItem` | `_PrjBlgElmEntrJrnlEntrLink.LedgerGLLineItem` |
+| `FiscalYear` | `_PrjBlgElmEntrJrnlEntrLink.FiscalYear` |
+| `Material` | `_ProjBillElementEntry.Material` |
+| `WBSElement` | `_ProjBillElementEntry._WBSElement.WBSElementExternalID` |
+| `ServicesRenderedDate` | `_ProjBillElementEntry.ServicesRenderedDate` |
+| `OpenAmountInTransCrcy` | `_ProjBillElementEntry.OriginalAmountInTransacCrcy` |
+| `WrittenOffQuantity` | `cast(WrittenOffQuantity as pbee_wrtnoffqty preserving type)` |
+| `WrittenOffAmtInTransacCrcy` | `cast(WrittenOffAmtInTransacCrcy as pbee_wrtnofftranscrcy preserving type)` |
+| `WrittenOffRevenueAmtInDocCrcy` | `cast(…)` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `DocumentCurrency` | `DocumentCurrency` |
 | `QuantityUnit` | `QuantityUnit` |
 | `_ProjectBillingRequestTP` | *Association* |
-| `WrittenOffPrjBlgElmEntrDets._EnterpriseProject` | `WrittenOffPrjBlgElmEntrDets._EnterpriseProject` |
+| `_EnterpriseProject` | *Association* |
 | `_Ledger` | *Association* |
 | `_LedgerText` | *Association* |
 | `_CompanyCode` | *Association* |

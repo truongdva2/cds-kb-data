@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SuplrInvcSeldInbDeliveryNote.SupplierInvoice` | `I_SuplrInvcSeldInbDeliveryNote.SupplierInvoice` |
-| `key I_SuplrInvcSeldInbDeliveryNote.FiscalYear` | `I_SuplrInvcSeldInbDeliveryNote.FiscalYear` |
-| `key I_SuplrInvcSeldInbDeliveryNote.InboundDeliveryNote` | `I_SuplrInvcSeldInbDeliveryNote.InboundDeliveryNote` |
-| `/* Associations */` | `/* Associations */` |
+| `SupplierInvoice` | `I_SuplrInvcSeldInbDeliveryNote.SupplierInvoice` |
+| `FiscalYear` | `I_SuplrInvcSeldInbDeliveryNote.FiscalYear` |
+| `InboundDeliveryNote` | `I_SuplrInvcSeldInbDeliveryNote.InboundDeliveryNote` |
 | `_SupplierInvoiceAPI01` | *Association* |
 
 ## Associations

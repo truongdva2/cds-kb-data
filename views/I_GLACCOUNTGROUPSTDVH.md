@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChartOfAccounts` | `ChartOfAccounts` |
-| `key GLAccountGroup` | `GLAccountGroup` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `GLAccountGroup` | `GLAccountGroup` |
 | `_GLAccountGroupText` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 

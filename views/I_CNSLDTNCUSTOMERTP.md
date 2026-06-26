@@ -33,10 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnCustomer.Customer` | `_CnsldtnCustomer.Customer` |
-| `_CnsldtnCustomer.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnCustomerTextTP` | *Association* |
+| `Customer` | `_CnsldtnCustomer.Customer` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnCustomer.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

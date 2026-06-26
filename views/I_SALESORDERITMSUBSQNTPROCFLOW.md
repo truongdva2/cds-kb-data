@@ -34,21 +34,21 @@ tags:
 |---|---|
 | `SalesOrder` | `SubsequentProcFlowItem.SalesDocument` |
 | `SalesOrderItem` | `SubsequentProcFlowItem.SalesDocumentItem` |
-| `key SubsequentProcFlowItem.DocRelationshipUUID` | `SubsequentProcFlowItem.DocRelationshipUUID` |
-| `SubsequentProcFlowItem.SubsequentDocument` | `SubsequentProcFlowItem.SubsequentDocument` |
-| `SubsequentProcFlowItem.SubsequentDocumentItem` | `SubsequentProcFlowItem.SubsequentDocumentItem` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory` | `SubsequentProcFlowItem.SubsequentDocumentCategory` |
-| `SubsequentProcFlowItem.ProcessFlowLevel` | `SubsequentProcFlowItem.ProcessFlowLevel` |
+| `DocRelationshipUUID` | `SubsequentProcFlowItem.DocRelationshipUUID` |
+| `SubsequentDocument` | `SubsequentProcFlowItem.SubsequentDocument` |
+| `SubsequentDocumentItem` | `SubsequentProcFlowItem.SubsequentDocumentItem` |
+| `SubsequentDocumentCategory` | `SubsequentProcFlowItem.SubsequentDocumentCategory` |
+| `ProcessFlowLevel` | `SubsequentProcFlowItem.ProcessFlowLevel` |
 | `SubsqntDocItmPrecdgDocument` | `SubsqntDocItmPrecdgDocument` |
 | `SubsqntDocItmPrecdgDocItem` | `SubsqntDocItmPrecdgDocItem` |
 | `SubsqntDocItmPrecdgDocCategory` | `SubsqntDocItmPrecdgDocCategory` |
-| `SubsequentProcFlowItem.CreationDate` | `SubsequentProcFlowItem.CreationDate` |
-| `SubsequentProcFlowItem.CreationTime` | `SubsequentProcFlowItem.CreationTime` |
-| `SubsequentProcFlowItem.LastChangeDate` | `SubsequentProcFlowItem.LastChangeDate` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `CreationDate` | `SubsequentProcFlowItem.CreationDate` |
+| `CreationTime` | `SubsequentProcFlowItem.CreationTime` |
+| `LastChangeDate` | `SubsequentProcFlowItem.LastChangeDate` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 | `_SalesOrderItem` | *Association* |
 

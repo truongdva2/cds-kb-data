@@ -27,7 +27,24 @@ tags:
 
 ## Fields
 
-> No fields found or could not parse.
+| Field | Data Source |
+|---|---|
+| `PersonWorkAgreement` | `HrPersonWorkAgreement.PersonWorkAgreement` |
+| `Person` | `BusinessPartner.BusinessPartner` |
+| `AuthorizationGroup` | `BusinessPartner.AuthorizationGroup` |
+| `PersonFullName` | `BusinessPartner.PersonFullName` |
+| `_PersonWrkAgrmtForKeyDate` | *Association* |
+| `_PersonWorkAgrmtToExternalID` | *Association* |
+| `_BusinessPartner` | *Association* |
+| `_WorkforcePerson` | *Association* |
+| `_PersonWorkAgrmtOrglDetails` | *Association* |
+| `_PersonWorkAgrmtStatus` | *Association* |
+| `_PersonWorkAgrmtPlndWrkgTime` | *Association* |
+| `_PersonWorkAgrmtSrvcCostLevel` | *Association* |
+| `_PersWrkAgrmtManagerForKeyDte` | *Association* |
+| `_PersonWorkAgreementType` | *Association* |
+| `_WorkforcePersonImageURL` | *Association* |
+| `DataControllerSet` | `BusinessPartner.DataControllerSet` |
 
 ## Associations
 
@@ -44,26 +61,6 @@ tags:
 | `_PersWrkAgrmtManagerForKeyDte` | `I_PersWrkAgrmtManagerForKeyDte` | [0..*] |
 | `_PersonWorkAgreementType` | `I_PersonWorkAgreementType` | [1] |
 | `_WorkforcePersonImageURL` | `I_WorkforcePersonImageURL` | [0..1] |
-| `_BusinessPartner` | `I_BusinessPartner` | [1] |
-| `_PersonWrkAgrmtForKeyDate` | `I_PersonWorkAgrmtForKeyDate` | [1] |
-| `_WorkforcePerson` | `I_WorkforcePerson` | [1] |
-| `_PersonWorkAgrmtToExternalID` | `I_PersonWorkAgrmtToExternalID` | [1..1] |
-| `_PersonWorkAgrmtOrglDetails` | `I_PersonWorkAgrmtOrglDetails` | [1..*] |
-| `_PersonWorkAgrmtStatus` | `I_PersonWorkAgrmtStatus` | [1..*] |
-| `_PersonWorkAgrmtPlndWrkgTime` | `I_PersonWorkAgrmtPlndWrkgTime` | [0..*] |
-| `_PersonWorkAgrmtSrvcCostLevel` | `I_PersonWorkAgrmtSrvcCostLevel` | [0..*] |
-| `_PersWrkAgrmtManagerForKeyDte` | `I_PersWrkAgrmtManagerForKeyDte` | [0..*] |
-| `_PersonWorkAgreementType` | `I_PersonWorkAgreementType` | [1] |
-| `_BusinessPartner` | `I_BusinessPartner` | [1] |
-| `_PersonWrkAgrmtForKeyDate` | `I_PersonWorkAgrmtForKeyDate` | [1] |
-| `_WorkforcePerson` | `I_WorkforcePerson` | [1] |
-| `_PersonWorkAgrmtToExternalID` | `I_PersonWorkAgrmtToExternalID` | [1..1] |
-| `_PersonWorkAgrmtOrglDetails` | `I_PersonWorkAgrmtOrglDetails` | [1..*] |
-| `_PersonWorkAgrmtStatus` | `I_PersonWorkAgrmtStatus` | [1..*] |
-| `_PersonWorkAgrmtPlndWrkgTime` | `I_PersonWorkAgrmtPlndWrkgTime` | [0..*] |
-| `_PersonWorkAgrmtSrvcCostLevel` | `I_PersonWorkAgrmtSrvcCostLevel` | [0..*] |
-| `_PersWrkAgrmtManagerForKeyDte` | `I_PersWrkAgrmtManagerForKeyDte` | [0..*] |
-| `_PersonWorkAgreementType` | `I_PersonWorkAgreementType` | [1] |
 
 ## Source Code
 

@@ -31,9 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
-| `vdm_qmerknr_text preserving type )` | `cast( qpmt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `InspectionSpecificationPlant` | `qpmt.zaehler` |
+| `InspectionSpecification` | `cast( qpmt.mkmnr as vdm_qmerknr preserving type )` |
+| `InspectionSpecificationVersion` | `qpmt.version` |
+| `Language` | `qpmt.sprache` |
+| `InspectionSpecificationText` | `cast( qpmt.kurztext as vdm_qmerknr_text preserving type )` |
 | `_InspSpecificationVersion` | *Association* |
 | `_InspSpecificationPlant` | *Association* |
 | `_InspectionSpecification` | *Association* |

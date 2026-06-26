@@ -42,7 +42,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_AdditionalCustomerGroup3` | `I_AdditionalCustomerGroup3` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

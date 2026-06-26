@@ -40,7 +40,6 @@ tags:
 | `CAInstallmentPlanStartDate` | `sttdt` |
 | `CAInstallmentPlanEndDate` | `enddt` |
 | `CANumberOfInstallments` | `ninst` |
-| `/* organizational and master data */` | `/* organizational and master data */` |
 | `ContractAccount` | `vkont` |
 | `BusinessPartner` | `gpart` |
 | `CAContract` | `vtref` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `datvo )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgCndnPrpsdValidToDateCode` | `cast ( substring( domvalue_l, 1, 1 ) as datvo )` |
 | `_Text` | *Association* |
 
 ## Associations

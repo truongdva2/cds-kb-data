@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_rksta preserving type)` | `cast(substring(l.domvalue_l, 1, 1)` |
+| `KanbanControlCycleCategory` | `cast(substring(l.domvalue_l, 1, 1) as pph_rksta preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

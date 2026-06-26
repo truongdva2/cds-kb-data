@@ -30,13 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnVersionVH'` | `name: 'I_CnsldtnVersionVH'` |
-| `element: 'ConsolidationVersion' } }]` | `element: 'ConsolidationVersion' } }]` |
-| `fincs_consolidationversion preserving type )` | `cast( ConsolidationVersion` |
-| `fincs_doctype_fromyear preserving type )` | `cast( CnsldtnDocTypeValdFrmFsclYear` |
-| `fincs_doctype_fromperiod preserving type )` | `cast( CnsldtnDocTypeValdFrmFsclPerd` |
-| `fincs_doctype_sequence preserving type )` | `cast( CnsldtnDocTypeSequenceValue` |
-| `fincs_documenttype preserving type )` | `cast( ConsolidationDocumentType` |
+| `ConsolidationTask` | `cast( ConsolidationTask as fincs_tsk preserving type )` |
+| `ConsolidationVersion` | `cast( ConsolidationVersion as fincs_consolidationversion preserving type )` |
+| `CnsldtnDocTypeValdFrmFsclYear` | `cast( CnsldtnDocTypeValdFrmFsclYear as fincs_doctype_fromyear preserving type )` |
+| `CnsldtnDocTypeValdFrmFsclPerd` | `cast(…)` |
+| `CnsldtnDocTypeSequenceValue` | `cast( CnsldtnDocTypeSequenceValue as fincs_doctype_sequence preserving type )` |
+| `ConsolidationDocumentType` | `cast( ConsolidationDocumentType as fincs_documenttype preserving type )` |
 | `_CnsldtnTask` | *Association* |
 | `_CnsldtnVersion` | *Association* |
 | `_CnsldtnDocumentType` | *Association* |

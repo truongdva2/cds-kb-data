@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BOMIsSuccessfulDeleted :  boolean;` | `BOMIsSuccessfulDeleted :  boolean;` |
+| `BOMIsSuccessfulDeleted` | `boolean` |
 
 ## Associations
 

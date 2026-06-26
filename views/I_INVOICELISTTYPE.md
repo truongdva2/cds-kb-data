@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invoicelisttype preserving type)` | `cast(BillingProcessDocumentType` |
+| `InvoiceListType` | `cast(BillingProcessDocumentType as invoicelisttype preserving type)` |
 | `SDDocumentCategory` | `SDDocumentCategory` |
 | `IncrementItemNumber` | `IncrementItemNumber` |
 | `BillingDocumentCategory` | `BillingDocumentCategory` |

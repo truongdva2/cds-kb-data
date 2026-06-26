@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mm_a_output_channel_type )` | `cast ( dd07l.domvalue_l` |
+| `PurchaseOrderOutputIsAutomated` | `cast ( dd07l.domvalue_l as mm_a_output_channel_type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

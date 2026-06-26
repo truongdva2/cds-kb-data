@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_periv preserving type )` | `cast( t009b.periv` |
+| `FiscalYearVariant` | `cast( t009b.periv as fis_periv preserving type )` |
 | `FiscalPeriodEndYear` | `t009b.bdatj` |
 | `FiscalPeriodEndMonth` | `t009b.bumon` |
 | `FiscalPeriodEndDay` | `t009b.butag` |

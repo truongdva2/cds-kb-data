@@ -30,14 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcc_calc_rule_uuid preserving type )` | `cast(db_key` |
-| `/scmtms/vdm_transpcharge_uuid preserving type )` | `cast(root_key` |
-| `/scmtms/vdm_chrg_element_uuid preserving type )` | `cast(parent_key` |
+| `TranspChrgCalcRuleUUID` | `cast(db_key as /scmtms/vdm_tcc_calc_rule_uuid preserving type )` |
+| `TransportationChargeUUID` | `cast(root_key as /scmtms/vdm_transpcharge_uuid preserving type )` |
+| `TranspChargeElementUUID` | `cast(parent_key as /scmtms/vdm_chrg_element_uuid preserving type )` |
 | `TransportationCalculationBase` | `calc_base_code` |
 | `TranspChrgCalcRuleUnit` | `qty_unit_c` |
-| `/scmtms/vdm_tcc_qty_val preserving type)` | `cast(qty_value` |
-| `/scmtms/vdm_tcc_dsrc_qty preserving type)` | `cast(quantity` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspChrgPricePerQuantity` | `cast(qty_value as /scmtms/vdm_tcc_qty_val preserving type)` |
+| `TranspChrgDataSourceQuantity` | `cast(quantity as /scmtms/vdm_tcc_dsrc_qty preserving type)` |
 | `_TranspChrgCalcRuleQtyUnit` | *Association* |
 | `_TranspCalculationBase` | *Association* |
 | `_TransportationCharge` | *Association* |
@@ -47,6 +46,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationChargeElement` | `I_TransportationChargeElement` | — |
 | `_TransportationCharge` | `I_TransportationCharge` | [1..1] |
 | `_TranspCalculationBase` | `I_TranspCalculationBase` | [0..1] |
 | `_TranspChrgCalcRuleQtyUnit` | `I_UnitOfMeasure` | [0..1] |

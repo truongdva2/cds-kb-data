@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanCtrlCycleLifeCycleStatus` | `KanbanCtrlCycleLifeCycleStatus` |
+| `KanbanCtrlCycleLifeCycleStatus` | `KanbanCtrlCycleLifeCycleStatus` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key ServiceQuotationItem` | `ServiceQuotationItem` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
-| `key SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceQuotationItem` | `ServiceQuotationItem` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
+| `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
 | `SrvcQtanItemLongText` | `SrvcQtanItemLongText` |
@@ -49,14 +49,11 @@ tags:
 | `SrvcDocLongTextCreatedByUser` | `SrvcDocLongTextCreatedByUser` |
 | `SrvcDocLongTextChangedDateTime` | `SrvcDocLongTextChangedDateTime` |
 | `SrvcDocLongTextChangedByUser` | `SrvcDocLongTextChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_ReferenceTextObjectCategory` | *Association* |
 | `_ReferenceTextObjectType` | *Association* |
 | `_TextObjectCategory` | *Association* |
 | `_TextObjectType` | *Association* |
-| `_ServiceQuotationItemTP : redirected to parent I_ServiceQuotationItemTP` | *Association* |
-| `_ServiceQuotationTP     : redirected to I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

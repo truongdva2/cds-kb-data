@@ -28,12 +28,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrderExecSts : /scmtms/tor_execution_status;` | `TransportationOrderExecSts : /scmtms/tor_execution_status;` |
-| `_DummyAssociation           : association to parent D_TranspOrdExecutionStsChgd;` | *Association* |
+| `TransportationOrderExecSts` | `/scmtms/tor_execution_status` |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DummyAssociation` | `D_TranspOrdExecutionStsChgd` | — |
 
 ## Source Code
 

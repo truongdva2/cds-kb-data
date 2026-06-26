@@ -41,7 +41,7 @@ tags:
 | `LastChangedByUser` | `Deliverable.changed_by` |
 | `LastChangeDateTime` | `Deliverable.changed_on` |
 | `_EnterpriseProject` | *Association* |
-| `_EnterpriseProjectElement, // Make association public` | *Association* |
+| `_EnterpriseProjectElement` | *Association* |
 | `_EntProjElmntDlvDistr` | *Association* |
 
 ## Associations

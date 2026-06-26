@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ComponentBreakdownMethod` | `ComponentBreakdownMethod` |
+| `ComponentBreakdownMethod` | `ComponentBreakdownMethod` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -30,15 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGroupVH'` | `name: 'I_CnsldtnGroupVH'` |
-| `element: 'ConsolidationGroup'` | `element: 'ConsolidationGroup'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `ConsolidationGroup` | `ConsolidationGroup` |
-| `_CnsldtnUnit` | *Association* |
-| `_CnsldtnGroup` | *Association* |
-| `_Text` | *Association* |
-| `_Hierarchy` | *Association* |
+| `ConsolidationUnitHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
 
 ## Associations
 

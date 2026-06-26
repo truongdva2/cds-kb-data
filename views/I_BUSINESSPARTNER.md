@@ -33,12 +33,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_AcademicTitleValueHelp'` | `foreignKey.association: '_AcademicTitleValueHelp'` |
-| `}` | `}` |
-| `AcademicTitle, //GFN not available` | `but000.title_aca1` |
+| `BusinessPartner` | `but000.partner` |
+| `BusinessPartnerCategory` | `but000.type` |
+| `AuthorizationGroup` | `but000.augrp` |
+| `BusinessPartnerUUID` | `but000.partner_guid` |
+| `PersonNumber` | `but000.persnumber` |
+| `ETag` | `case…end` |
+| `BusinessPartnerName` | `case…end` |
+| `BusinessPartnerFullName` | `case…end` |
+| `CreatedByUser` | `but000.crusr` |
+| `CreationDate` | `but000.crdat` |
+| `CreationTime` | `but000.crtim` |
+| `LastChangedByUser` | `but000.chusr` |
+| `LastChangeDate` | `but000.chdat` |
+| `LastChangeTime` | `but000.chtim` |
+| `BusinessPartnerIsBlocked` | `but000.xblck` |
+| `IsBusinessPurposeCompleted` | `but000.xpcpt` |
+| `FirstName` | `but000.name_first` |
+| `LastName` | `but000.name_last` |
+| `PersonFullName` | `but000.name1_text` |
+| `OrganizationBPName1` | `but000.name_org1` |
+| `OrganizationBPName2` | `but000.name_org2` |
+| `OrganizationBPName3` | `but000.name_org3` |
+| `OrganizationBPName4` | `but000.name_org4` |
+| `InternationalLocationNumber1` | `but000.location_1` |
+| `InternationalLocationNumber2` | `but000.location_2` |
+| `InternationalLocationNumber3` | `but000.location_3` |
+| `LegalForm` | `but000.legal_enty` |
+| `OrganizationFoundationDate` | `but000.found_dat` |
+| `OrganizationLiquidationDate` | `but000.liquid_dat` |
+| `Industry` | `but000.ind_sector` |
+| `IsNaturalPerson` | `but000.natpers` |
+| `IsFemale` | `but000.xsexf` |
+| `IsMale` | `but000.xsexm` |
+| `IsSexUnknown` | `but000.xsexu` |
+| `FormOfAddress` | `but000.title` |
+| `AcademicTitle` | `but000.title_aca1` |
 | `AcademicTitle2` | `but000.title_aca2` |
-| `NameFormat,    //GFN not available` | `but000.nameformat` |
-| `NameCountry,   //GFN not available` | `but000.namcountry` |
+| `NameFormat` | `but000.nameformat` |
+| `NameCountry` | `but000.namcountry` |
 | `BusinessPartnerGrouping` | `but000.bu_group` |
 | `BusinessPartnerType` | `but000.bpkind` |
 | `MiddleName` | `but000.namemiddle` |
@@ -53,8 +86,8 @@ tags:
 | `BPFirstNameSearchHelp` | `but000.mc_name2` |
 | `BusinessPartnerNicknameLabel` | `but000.nickname` |
 | `IndependentAddressID` | `but000.addrcomm` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
-| `BirthDate, //newly added` | `but000.birthdt` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `BirthDate` | `but000.birthdt` |
 | `IsMarkedForArchiving` | `but000.xdele` |
 | `ContactPermission` | `but000.contact` |
 | `BusinessPartnerIDByExtSystem` | `but000.bpext` |
@@ -91,14 +124,11 @@ tags:
 | `DataController9` | `but000.data_ctrlr9` |
 | `DataController10` | `but000.data_ctrlr10` |
 | `BPDataControllerIsNotRequired` | `but000.dc_not_req` |
-| `_DefaultAddress // all default addresses over time (to-n) to be used instead of _DefaultAddresses` | *Association* |
-| `` | `` |
-| `_CurrentDefaultAddress //single current default address (to-1) exposed for use in customer object page` | *Association* |
-| `` | `` |
+| `_DefaultAddress` | *Association* |
+| `_CurrentDefaultAddress` | *Association* |
 | `_BusinessPartnerRole` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_LastChangedByUser` | *Association* |
-| `` | `` |
 | `_AddressIndependentEmail` | *Association* |
 | `_BPAddressIndependentEmail` | *Association* |
 | `_AddressIndependentFax` | *Association* |
@@ -122,7 +152,6 @@ tags:
 | `_BPDataController` | *Association* |
 | `_FormOfAddress` | *Association* |
 | `_Paymentcard` | *Association* |
-
 
 ## Associations
 
@@ -153,12 +182,10 @@ tags:
 | `_AcademicTitleValueHelp` | `I_AcademicTitle` | [0..1] |
 | `_BPFinancialServicesExt` | `I_BPFinancialServicesExtn` | [0..1] |
 | `_BuPaIdentification` | `I_BuPaIdentification` | [0..*] |
-| `_BPRelationship` | `I_BPRelationship` | [0..*] |
 | `_BPRelationship` | `I_BPRelationship_2` | [0..*] |
 | `_FormOfAddress` | `I_FormOfAddress` | [0..1] |
 | `_Paymentcard` | `I_Paymentcard` | [0..*] |
 | `_BPDataController` | `I_BPDataController` | [0..*] |
-
 
 ## Source Code
 

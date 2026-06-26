@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `transaction_type)` | `cast(domvalue_l` |
-| `spras)` | `cast(ddlanguage` |
+| `BusinessTransactionType` | `cast(domvalue_l as transaction_type)` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `BusinessTransactionTypeName` | `ddtext` |
 | `_Language` | *Association* |
 

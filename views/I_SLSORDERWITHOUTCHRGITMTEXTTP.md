@@ -32,19 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsOrderWithoutChargeItemText. SalesOrderWithoutCharge` | `SlsOrderWithoutChargeItemText. SalesOrderWithoutCharge` |
-| `key SlsOrderWithoutChargeItemText. SalesOrderWithoutChargeItem` | `SlsOrderWithoutChargeItemText. SalesOrderWithoutChargeItem` |
-| `key SlsOrderWithoutChargeItemText.Language` | `SlsOrderWithoutChargeItemText.Language` |
-| `key SlsOrderWithoutChargeItemText.LongTextID` | `SlsOrderWithoutChargeItemText.LongTextID` |
-| `SlsOrderWithoutChargeItemText.LongTextIDForEdit` | `SlsOrderWithoutChargeItemText.LongTextIDForEdit` |
-| `SlsOrderWithoutChargeItemText.LanguageForEdit` | `SlsOrderWithoutChargeItemText.LanguageForEdit` |
-| `SlsOrderWithoutChargeItemText.LongText` | `SlsOrderWithoutChargeItemText.LongText` |
-| `SlsOrderWithoutChargeItemText.SalesOrderWithoutChargeType` | `SlsOrderWithoutChargeItemText.SalesOrderWithoutChargeType` |
-| `SlsOrderWithoutChargeItemText.SalesOrganization` | `SlsOrderWithoutChargeItemText.SalesOrganization` |
-| `SlsOrderWithoutChargeItemText.DistributionChannel` | `SlsOrderWithoutChargeItemText.DistributionChannel` |
-| `SlsOrderWithoutChargeItemText.OrganizationDivision` | `SlsOrderWithoutChargeItemText.OrganizationDivision` |
-| `_Item       : redirected to parent I_SlsOrderWithoutChargeItemTP` | *Association* |
-| `_SalesOrderWithoutCharge : redirected to I_SalesOrderWithoutChargeTP` | *Association* |
+| `Language` | `SlsOrderWithoutChargeItemText.Language` |
+| `LongTextID` | `SlsOrderWithoutChargeItemText.LongTextID` |
+| `LongTextIDForEdit` | `SlsOrderWithoutChargeItemText.LongTextIDForEdit` |
+| `LanguageForEdit` | `SlsOrderWithoutChargeItemText.LanguageForEdit` |
+| `LongText` | `SlsOrderWithoutChargeItemText.LongText` |
+| `SalesOrderWithoutChargeType` | `SlsOrderWithoutChargeItemText.SalesOrderWithoutChargeType` |
+| `SalesOrganization` | `SlsOrderWithoutChargeItemText.SalesOrganization` |
+| `DistributionChannel` | `SlsOrderWithoutChargeItemText.DistributionChannel` |
+| `OrganizationDivision` | `SlsOrderWithoutChargeItemText.OrganizationDivision` |
 
 ## Associations
 

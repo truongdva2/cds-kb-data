@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `knega )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `val_text )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PrcgConditionAmountSign` | `cast ( substring( domvalue_l, 1, 1 ) as knega )` |
+| `PricingConditionAmountSignText` | `cast ( ddtext as val_text )` |
 | `_PricingConditionAmountSign` | *Association* |
 | `_Language` | *Association* |
 

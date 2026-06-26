@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehicleusage preserving type )` | `cast ( espveic` |
+| `VehicleUsage` | `cast ( espveic as logbr_vehicleusage preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -31,32 +31,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreement` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreement` |
-| `key SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreementItem` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreementItem` |
-| `key SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureStep` | `SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureStep` |
-| `key SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureCounter` | `SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureCounter` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionApplication` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionApplication` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionType` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionType` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionCalculationType` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionCalculationType` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateAmount` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionCurrency` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionCurrency` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatio` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatio` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatioUnit` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatioUnit` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseAmount` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionAmount` |
-| `SlsSchedgAgrmtItemPrcgElmnt.TransactionCurrency` | `SlsSchedgAgrmtItemPrcgElmnt.TransactionCurrency` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseQuantity` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseQuantity` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantity` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantity` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantityUnit` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantityUnit` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsForStatistics` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsForStatistics` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsManuallyChanged` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsManuallyChanged` |
-| `SlsSchedgAgrmtItemPrcgElmnt.ConditionInactiveReason` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionInactiveReason` |
-| `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedgAgrmtType` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedgAgrmtType` |
-| `SlsSchedgAgrmtItemPrcgElmnt.OrganizationDivision` | `SlsSchedgAgrmtItemPrcgElmnt.OrganizationDivision` |
-| `SlsSchedgAgrmtItemPrcgElmnt.SalesOrganization` | `SlsSchedgAgrmtItemPrcgElmnt.SalesOrganization` |
-| `SlsSchedgAgrmtItemPrcgElmnt.DistributionChannel` | `SlsSchedgAgrmtItemPrcgElmnt.DistributionChannel` |
-| `_Item                     : redirected to parent I_SlsSchedulingAgreementItemTP` | *Association* |
-| `_SalesSchedulingAgreement : redirected to I_SalesSchedulingAgreementTP` | *Association* |
+| `SalesSchedulingAgreement` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreement` |
+| `SalesSchedulingAgreementItem` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedulingAgreementItem` |
+| `PricingProcedureStep` | `SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SlsSchedgAgrmtItemPrcgElmnt.PricingProcedureCounter` |
+| `ConditionApplication` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionApplication` |
+| `ConditionType` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionType` |
+| `ConditionCalculationType` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionCalculationType` |
+| `ConditionRateAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateAmount` |
+| `ConditionCurrency` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionCurrency` |
+| `ConditionRateRatio` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseAmount` |
+| `ConditionAmount` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionAmount` |
+| `TransactionCurrency` | `SlsSchedgAgrmtItemPrcgElmnt.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SlsSchedgAgrmtItemPrcgElmnt.ConditionInactiveReason` |
+| `SalesSchedgAgrmtType` | `SlsSchedgAgrmtItemPrcgElmnt.SalesSchedgAgrmtType` |
+| `OrganizationDivision` | `SlsSchedgAgrmtItemPrcgElmnt.OrganizationDivision` |
+| `SalesOrganization` | `SlsSchedgAgrmtItemPrcgElmnt.SalesOrganization` |
+| `DistributionChannel` | `SlsSchedgAgrmtItemPrcgElmnt.DistributionChannel` |
 
 ## Associations
 

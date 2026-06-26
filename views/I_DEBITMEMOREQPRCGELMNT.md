@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `debit_memo_request preserving type)` | `cast(SalesDocument` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `DebitMemoRequest` | `cast(SalesDocument as debit_memo_request preserving type)` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PricingDateTime` | `PricingDateTime` |
@@ -98,7 +98,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_DebitMemoRequest` | `I_DebitMemoRequest` | [1..1] |
 
 ## Source Code
 

@@ -33,14 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
 | `TaxCalculationProcedure` | `kalsm` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
-| `fis_mwskz preserving type)` | `cast(mwskz` |
-| `/* start suppress warning shlporigin_not_inherited */` | `/* start suppress warning shlporigin_not_inherited */` |
+| `TaxCode` | `cast(mwskz as fis_mwskz preserving type)` |
 | `Language` | `spras` |
-| `/* end suppress warning shlporigin_not_inherited */` | `/* end suppress warning shlporigin_not_inherited */` |
-| `fis_mwskz_name preserving type)` | `cast(text1` |
+| `TaxCodeName` | `cast(text1 as fis_mwskz_name preserving type)` |
 | `_TaxCalculationProcedure` | *Association* |
 | `_Language` | *Association* |
 

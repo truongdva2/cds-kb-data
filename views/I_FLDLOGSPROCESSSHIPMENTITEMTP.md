@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
-| `key FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
-| `key DispatchedStartDate` | `DispatchedStartDate` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
+| `DispatchedStartDate` | `DispatchedStartDate` |
 | `Material` | `Material` |
 | `RetblQtyInOrderUnit` | `RetblQtyInOrderUnit` |
 | `RetblQtyOrderUnit` | `RetblQtyOrderUnit` |
@@ -109,7 +109,7 @@ tags:
 | `InventorySpecialStockType` | `InventorySpecialStockType` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
-| `WarehouseStorageBin, //Destination Storage Bin` | `WarehouseStorageBin, //Destination Storage Bin` |
+| `WarehouseStorageBin` | `WarehouseStorageBin` |
 | `PurchasingDocumentItem` | `PurchasingDocumentItem` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `FldLogsItmActualReceivingPlant` | `FldLogsItmActualReceivingPlant` |
@@ -119,7 +119,6 @@ tags:
 | `InspectionLot` | `InspectionLot` |
 | `GoodsReceivingPoint` | `GoodsReceivingPoint` |
 | `ShippingPoint` | `ShippingPoint` |
-| `/* Associations */` | `/* Associations */` |
 | `_ActionText` | *Association* |
 | `_DestinationStorageLocationTxt` | *Association* |
 | `_DispatchPlantText` | *Association* |

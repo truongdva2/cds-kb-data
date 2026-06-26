@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sendercat_kk preserving type )` | `cast( left( dd07t.domvalue_l,1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `sendercat_text_kk preserving type )` | `cast( ddtext` |
+| `CAProviderContractSenderCat` | `cast( left( dd07t.domvalue_l,1 ) as sendercat_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAProviderContractSenderCatTxt` | `cast( ddtext as sendercat_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

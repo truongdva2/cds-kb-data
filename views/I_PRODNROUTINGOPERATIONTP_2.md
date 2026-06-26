@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionRoutingGroup` | `ProductionRoutingGroup` |
-| `key ProductionRouting` | `ProductionRouting` |
-| `key ProductionRoutingSequence` | `ProductionRoutingSequence` |
-| `key ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
-| `key ProductionRoutingOpIntVersion` | `ProductionRoutingOpIntVersion` |
-| `pph_vornr preserving type)` | `cast(Operation` |
+| `ProductionRoutingGroup` | `ProductionRoutingGroup` |
+| `ProductionRouting` | `ProductionRouting` |
+| `ProductionRoutingSequence` | `ProductionRoutingSequence` |
+| `ProductionRoutingOpIntID` | `ProductionRoutingOpIntID` |
+| `ProductionRoutingOpIntVersion` | `ProductionRoutingOpIntVersion` |
+| `Operation` | `cast(Operation as pph_vornr preserving type)` |
 | `CreationDate` | `CreationDate` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
@@ -153,17 +153,6 @@ tags:
 | `FactoryCalendar` | `FactoryCalendar` |
 | `ChangedDateTime` | `ChangedDateTime` |
 | `PlainLongText` | `PlainLongText` |
-| `/* Associations */` | `/* Associations */` |
-| `_NonSqncTP: redirected to parent I_ProdnRtgNonHistoricSqncTP_2` | *Association* |
-| `_ProdnRtgTP: redirected to I_ProductionRoutingTP_2` | *Association* |
-| `_Header: redirected to I_ProductionRoutingHeaderTP_2` | *Association* |
-| `_OpCompAlloc: redirected to I_ProdnRoutingOpCompAllocTP_2` | *Association* |
-| `_OpDocPRTAssgmt: redirected to I_ProdnRtgOpDocPRTAssgmtTP_2` | *Association* |
-| `_OpEquipPRTAssgmt: redirected to I_ProdnRtgOpEquipPRTAssgmtTP_2` | *Association* |
-| `_OpMatlPRTAssgmt: redirected to I_ProdnRtgOpMatlPRTAssgmtTP_2` | *Association* |
-| `_OpMiscPRTAssgmt: redirected to I_ProdnRtgOpMiscPRTAssgmtTP_2` | *Association* |
-| `_OpInspCharcsAssgmt: redirected to I_ProdnRtgInspCharcsAssgmtTP_2` | *Association* |
-| `_SubOp: redirected to I_ProductionRoutingSubopTP_2` | *Association* |
 
 ## Associations
 

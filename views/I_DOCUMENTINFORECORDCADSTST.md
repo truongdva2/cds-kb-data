@@ -33,7 +33,6 @@ tags:
 | `Language` | `Value.ddlanguage` |
 | `IsDocInfoRecdCreatedFromCAD` | `Value.domvalue_l` |
 | `CADStatusDescription` | `ddtext` |
-| `_Language` | *Association* |
 | `_DocumentInfoRecordCADSts` | *Association* |
 
 ## Associations

@@ -31,54 +31,38 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDeliveryOrder` | `OutboundDeliveryOrder` |
-| `_Warehouse.EWMWarehouse` | *Association* |
+| `OutboundDeliveryOrder` | `OutboundDeliveryOrder` |
+| `EWMWarehouse` | `_Warehouse.EWMWarehouse` |
 | `EWMOutboundDeliveryOrder` | `OutboundDeliveryOrder` |
 | `EWMDeliveryDocumentCategory` | `DeliveryCategory` |
 | `EWMDeliveryDocumentType` | `DeliveryType` |
-| `/* Business Partner */` | `/* Business Partner */` |
 | `ShipToParty` | `pdo_h._BPShipTo.BusinessPartner` |
-| `ewm_de_ship_to_party_name preserving type )` | `cast( ShipToPartyName` |
+| `ShipToPartyName` | `cast( ShipToPartyName as ewm_de_ship_to_party_name preserving type )` |
 | `EWMShipToIsBusPurposeCmpltd` | `EWMShipToIsBusPurposeCmpltd` |
 | `Carrier` | `pdo_h._BPCarrier.BusinessPartner` |
-| `ewm_de_carrier_name preserving type )` | `cast( CarrierName` |
+| `CarrierName` | `cast( CarrierName as ewm_de_carrier_name preserving type )` |
 | `EWMCarrierIsBusPurposeCmpltd` | `EWMCarrierIsBusPurposeCmpltd` |
-| `/* Reference Documents */` | `/* Reference Documents */` |
-| `/scwm/sp_docno_erp )` | `cast(_Reference.EWMRefDeliveryDocumentNumber` |
-| `_Reference.BusinessSystemName` | *Association* |
-| `/* TM References*/` | `/* TM References*/` |
-| `ewm_de_freightorder_alpha_conv preserving type )` | `cast(  _FreightOrderRefTM.TransportationOrder` |
-| `cast( case when _BillOfLadingRefEWM.DeliveryUUID is null` | `cast( case when _BillOfLadingRefEWM.DeliveryUUID is null` |
-| `then _BillOfLadingRefTM.MasterBillOfLading` | `then _BillOfLadingRefTM.MasterBillOfLading` |
-| `/scwm/sp_docno_bol preserving type )` | `else _BillOfLadingRefEWM.EWMRefDeliveryDocumentNumber end` |
-| `/scwm/de_docno_ecn preserving type )` | `cast( _ExtConsignmentOrderRefTM.TranspOrdPartnerReference` |
-| `/* Status */` | `/* Status */` |
-| `ewm_de_ship_readiness_status preserving type )` | `cast( _DSHStatus.EWMOutboundDeliveryOrderStatus` |
-| `/* DateTime */` | `/* DateTime */` |
-| `_PlannedDeliveryDateTime.DeliveryRelatedStartDateTime                                                              as PlannedDeliveryUTCDateTime` | *Association* |
-| `_PlndDeliveryOutOfYardDateTime.DeliveryRelatedStartDateTime                                                        as PlannedOutOfYardUTCDateTime` | *Association* |
-| `_WarehouseTimezone.TimeZoneID                                                                                      as WarehouseTimeZone` | *Association* |
-| `/* IncoTerms */` | `/* IncoTerms */` |
+| `OutboundDelivery` | `cast(_Reference.EWMRefDeliveryDocumentNumber as /scwm/sp_docno_erp )` |
+| `BusinessSystemName` | `_Reference.BusinessSystemName` |
+| `FreightOrder` | `cast(…)` |
+| `MasterBillOfLading` | `cast(…)` |
+| `TranspOrdPartnerReference` | `cast(…)` |
+| `EWMShippingReadinessStatus` | `cast(…)` |
+| `PlannedDeliveryUTCDateTime` | `_PlannedDeliveryDateTime.DeliveryRelatedStartDateTime` |
+| `PlannedOutOfYardUTCDateTime` | `_PlndDeliveryOutOfYardDateTime.DeliveryRelatedStartDateTime` |
+| `WarehouseTimeZone` | `_WarehouseTimezone.TimeZoneID` |
 | `IncotermsPart1` | `IncotermsPart1` |
 | `IncotermsPart2` | `IncotermsPart2` |
-| `/* Transportation & Location */` | `/* Transportation & Location */` |
 | `EWMRoute` | `Route` |
 | `EWMMeansOfTransport` | `EWMMeansOfTransport` |
 | `EWMMeansOfTransportType` | `EWMMeansOfTransportType` |
-| `ewm_de_transp_plng_type preserving type )` | `cast( EWMTranspPlanningType` |
+| `EWMTranspPlanningType` | `cast( EWMTranspPlanningType as ewm_de_transp_plng_type preserving type )` |
 | `SalesOrganization` | `SalesOrganization` |
 | `ShippingOffice` | `ShippingOffice` |
-| `ewm_de_whsereq_production_code preserving type )` | `cast( EWMWhseReqProductionCode` |
-| `/* ETag Handling */` | `/* ETag Handling */` |
+| `EWMWhseReqProductionCode` | `cast(…)` |
 | `EWMDeliveryCreationUTCDateTime` | `EWMDeliveryCreationUTCDateTime` |
-| `case` | `case` |
-| `when EWMDelivLastChangeUTCDateTime is initial then EWMDeliveryCreationUTCDateTime` | `when EWMDelivLastChangeUTCDateTime is initial then EWMDeliveryCreationUTCDateTime` |
-| `else EWMDelivLastChangeUTCDateTime` | `else EWMDelivLastChangeUTCDateTime` |
-| `EWMDelivLastChangeUTCDateTime` | `end` |
-| `/* Warehouse Tasks Exists*/` | `/* Warehouse Tasks Exists*/` |
-| `case when _WarehouseTasksExists.EWMWarehouseRequestUUID is not null` | `case when _WarehouseTasksExists.EWMWarehouseRequestUUID is not null` |
-| `then 'X'` | `then 'X'` |
-| `ewm_de_whsereq_has_wt  )  end` | `else cast( ''` |
+| `EWMDelivLastChangeUTCDateTime` | `case…end` |
+| `EWMWhseReqHasWarehouseTask` | `case…end` |
 | `OutboundDeliveryOrderUUID` | `OutboundDeliveryOrderUUID` |
 
 ## Associations

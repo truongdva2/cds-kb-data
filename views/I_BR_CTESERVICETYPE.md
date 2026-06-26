@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_srv_typ_cte preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `BR_CTeServiceType` | `cast( substring(domvalue_l, 1, 1) as logbr_srv_typ_cte preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

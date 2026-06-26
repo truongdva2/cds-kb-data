@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InvoiceStatusAndOrigin` | `InvoiceStatusAndOrigin` |
-| `key Language` | `Language` |
+| `InvoiceStatusAndOrigin` | `InvoiceStatusAndOrigin` |
+| `Language` | `Language` |
 | `InvoiceStatusAndOriginDesc` | `InvoiceStatusAndOriginDesc` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

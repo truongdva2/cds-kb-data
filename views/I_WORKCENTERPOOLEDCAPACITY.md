@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
+| `CapacityInternalID` | `CapacityInternalID` |
 | `Plant` | `Plant` |
 | `Capacity` | `Capacity` |
 | `CapacityCategoryCode` | `CapacityCategoryCode` |

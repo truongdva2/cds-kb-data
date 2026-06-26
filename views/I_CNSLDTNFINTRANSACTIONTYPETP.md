@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnFinTransType.FinancialTransactionType` | `_CnsldtnFinTransType.FinancialTransactionType` |
-| `_CnsldtnFinTransType.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnFinTransTypeTextTP` | *Association* |
+| `FinancialTransactionType` | `_CnsldtnFinTransType.FinancialTransactionType` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnFinTransType.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

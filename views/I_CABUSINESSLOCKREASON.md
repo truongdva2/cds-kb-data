@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusProc.CABusinessProcess` | `BusProc.CABusinessProcess` |
-| `CABusinessLockReason` | `InvocgLockRsn.CAInvcgLockReason` |
-| `CAAuthorizationGroup` | `InvocgLockRsn.CAAuthorizationGroup` |
+| `CABusinessProcess` | `BusProc.CABusinessProcess` |
+| `CABusinessLockReason` | `DunLockRsn.CADunningLockReason` |
+| `CAAuthorizationGroup` | `DunLockRsn.CAAuthorizationGroup` |
 | `_BusProcess` | *Association* |
 | `_Text` | *Association* |
 
@@ -39,16 +39,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Text` | `I_CABusinessLockReasonText` | [0..*] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Text` | `I_CABusinessLockReasonText` | [0..*] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Text` | `I_CABusinessLockReasonText` | [0..*] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Text` | `I_CABusinessLockReasonText` | [0..*] |
-| `_BusProcess` | `I_CABusinessProcess` | [1..1] |
-| `_Text` | `I_CABusinessLockReasonText` | [0..*] |
 | `_BusProcess` | `I_CABusinessProcess` | [1..1] |
 | `_Text` | `I_CABusinessLockReasonText` | [0..*] |
 

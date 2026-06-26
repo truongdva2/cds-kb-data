@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Field list */` | `/* Field list */` |
-| `key ResultId` | `ResultId` |
+| `ResultId` | `ResultId` |
 | `IsActiveResult` | `IsActiveResult` |
 | `IsInBaseline` | `IsInBaseline` |
 | `IsCentralRun` | `IsCentralRun` |
@@ -50,7 +49,7 @@ tags:
 | `AddedToBaselineBy` | `AddedToBaselineBy` |
 | `CheckVariant` | `CheckVariant` |
 | `Configuration` | `Configuration` |
-| `I_SATC_API_PCPH preserving type )` | `cast( PseudoCommentPragmaHandling` |
+| `PseudoCommentPragmaHandling` | `cast( PseudoCommentPragmaHandling as I_SATC_API_PCPH preserving type )` |
 | `ChangedOnTimestamp` | `ChangedOnTimestamp` |
 | `UniqueSystemId` | `UniqueSystemId` |
 | `IsComplete` | `IsComplete` |

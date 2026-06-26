@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   CostEstimate` | `CostEstimate` |
-| `key   CurrencyRole` | `CurrencyRole` |
+| `CostEstimate` | `CostEstimate` |
+| `CurrencyRole` | `CurrencyRole` |
 | `Ledger` | `Ledger` |
 | `FiscalPeriod` | `FiscalPeriod` |
 | `FiscalYear` | `FiscalYear` |
@@ -58,7 +58,7 @@ tags:
 | `CurrencyRoleName` | `CurrencyRoleName` |
 | `LegalCurrencyRole` | `LegalCurrencyRole` |
 | `LegalCurrencyRoleName` | `LegalCurrencyRoleName` |
-| `fins_valutyp)` | `cast(AccountingValuationView` |
+| `AccountingValuationView` | `cast(AccountingValuationView as fins_valutyp)` |
 | `AcctgValnVwSubviewCombinedName` | `AcctgValnVwSubviewCombinedName` |
 | `LedgerValnCrcyRoleIsUsedInLogs` | `LedgerValnCrcyRoleIsUsedInLogs` |
 | `_Ledger` | *Association* |

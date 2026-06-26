@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_tf_cat)` | `cast(DomainValue.domvalue_l` |
+| `TradeFinanceCategory` | `cast(DomainValue.domvalue_l as ftr_tf_cat)` |
 | `_Text` | *Association* |
 
 ## Associations

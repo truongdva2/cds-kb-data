@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfirmationGroup` | `ConfirmationGroup` |
-| `key ConfirmationCount` | `ConfirmationCount` |
+| `ConfirmationGroup` | `ConfirmationGroup` |
+| `ConfirmationCount` | `ConfirmationCount` |
 | `OrderID` | `OrderID` |
 | `Sequence` | `Sequence` |
 | `OrderOperation` | `OrderOperation` |
@@ -131,8 +131,6 @@ tags:
 | `NoFurtherBusinessProcQtyIsExpd` | `NoFurtherBusinessProcQtyIsExpd` |
 | `ShiftGrouping` | `ShiftGrouping` |
 | `ShiftDefinition` | `ShiftDefinition` |
-| `/* Associations */` | `/* Associations */` |
-| `_ProdnOrdConfMatlDocItm : redirected to composition child I_ProdnOrdConfMatlDocItemTP` | *Association* |
 
 ## Associations
 

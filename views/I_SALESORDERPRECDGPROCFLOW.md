@@ -33,17 +33,17 @@ tags:
 | Field | Data Source |
 |---|---|
 | `SalesOrder` | `PrecedingProcFlow.SalesDocument` |
-| `key PrecedingProcFlow.DocRelationshipUUID` | `PrecedingProcFlow.DocRelationshipUUID` |
-| `PrecedingProcFlow.PrecedingDocument` | `PrecedingProcFlow.PrecedingDocument` |
-| `PrecedingProcFlow.PrecedingDocumentCategory` | `PrecedingProcFlow.PrecedingDocumentCategory` |
-| `PrecedingProcFlow.ProcessFlowLevel` | `PrecedingProcFlow.ProcessFlowLevel` |
-| `PrecedingProcFlow.CreationDate` | `PrecedingProcFlow.CreationDate` |
-| `PrecedingProcFlow.CreationTime` | `PrecedingProcFlow.CreationTime` |
-| `PrecedingProcFlow.LastChangeDate` | `PrecedingProcFlow.LastChangeDate` |
-| `_SalesOrder.SalesOrderType` | *Association* |
-| `_SalesOrder.SalesOrganization` | *Association* |
-| `_SalesOrder.DistributionChannel` | *Association* |
-| `_SalesOrder.OrganizationDivision` | *Association* |
+| `DocRelationshipUUID` | `PrecedingProcFlow.DocRelationshipUUID` |
+| `PrecedingDocument` | `PrecedingProcFlow.PrecedingDocument` |
+| `PrecedingDocumentCategory` | `PrecedingProcFlow.PrecedingDocumentCategory` |
+| `ProcessFlowLevel` | `PrecedingProcFlow.ProcessFlowLevel` |
+| `CreationDate` | `PrecedingProcFlow.CreationDate` |
+| `CreationTime` | `PrecedingProcFlow.CreationTime` |
+| `LastChangeDate` | `PrecedingProcFlow.LastChangeDate` |
+| `SalesOrderType` | `_SalesOrder.SalesOrderType` |
+| `SalesOrganization` | `_SalesOrder.SalesOrganization` |
+| `DistributionChannel` | `_SalesOrder.DistributionChannel` |
+| `OrganizationDivision` | `_SalesOrder.OrganizationDivision` |
 | `_SalesOrder` | *Association* |
 
 ## Associations

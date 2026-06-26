@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
-| `key FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
+| `FldLogsShptVoyageUUID` | `FldLogsShptVoyageUUID` |
+| `FldLogsVoyStgeAssgmtUUID` | `FldLogsVoyStgeAssgmtUUID` |
 | `FldLogsVoyStgeAssgmtSqncID` | `FldLogsVoyStgeAssgmtSqncID` |
 | `FldLogsShipmentItemTypeCode` | `FldLogsShipmentItemTypeCode` |
 | `FldLogsShptVoyageNumber` | `FldLogsShptVoyageNumber` |
@@ -45,7 +45,6 @@ tags:
 | `FldLogsVoyageSrceStage` | `FldLogsVoyageSrceStage` |
 | `FldLogsVoyageDestStage` | `FldLogsVoyageDestStage` |
 | `FldLogsShptAssignmentStatus` | `FldLogsShptAssignmentStatus` |
-| `_ShptStgeItm : redirected to parent I_FldLogsDeliveryItemTP` | *Association* |
 
 ## Associations
 

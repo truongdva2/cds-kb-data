@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMProfile` | `LglCntntMProfile` |
+| `LglCntntMProfile` | `LglCntntMProfile` |
 | `_LglCntntMProfileTextAPI01` | *Association* |
 
 ## Associations

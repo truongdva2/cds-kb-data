@@ -30,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_res_base preserving type)` | `cast(resolution_base` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspChargeCalcReslnBase` | `cast(resolution_base as /scmtms/vdm_tcm_res_base preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspChargeCalcReslnBaseT` | [0..*] |
 
 ## Source Code
 

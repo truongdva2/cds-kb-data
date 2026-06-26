@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnGLChartOfAccounts.ChartOfAccounts` | `_CnsldtnGLChartOfAccounts.ChartOfAccounts` |
-| `_CnsldtnGLChartOfAccounts.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnGLChartOfAcctsTextTP` | *Association* |
+| `ChartOfAccounts` | `_CnsldtnGLChartOfAccounts.ChartOfAccounts` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnGLChartOfAccounts.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

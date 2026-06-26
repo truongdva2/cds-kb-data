@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lsstk_g preserving type )` | `cast ( substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallDeliveryBlockStatus` | `cast ( substring(dd07l.domvalue_l, 1, 1) as lsstk_g preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

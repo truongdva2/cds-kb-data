@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qsptp_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CAWithholdingTaxCategory` | `cast( left( domvalue_l, 1 ) as qsptp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

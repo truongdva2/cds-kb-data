@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PaymentReason` | `payt_rsn` |
-| `_Text // Make association public` | *Association* |
+| `_Text` | *Association* |
 
 ## Associations
 

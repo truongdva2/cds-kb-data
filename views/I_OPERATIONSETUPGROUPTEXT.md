@@ -32,7 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8,ranking: #HIGH}` | `defaultSearchElement: true, fuzzinessThreshold: 0.8,ranking: #HIGH}` |
+| `Plant` | `txt.werks` |
+| `OperationSetupGroupCategory` | `cast(txt.rfgrp as pph_rfgrp preserving type)` |
+| `OperationSetupGroup` | `cast(txt.rfsch as pph_rfsch preserving type)` |
+| `Language` | `txt.spras` |
 | `OperationSetupGroupName` | `txt.txt` |
 | `_Plant` | *Association* |
 | `_OperationSetupGroupCategory` | *Association* |

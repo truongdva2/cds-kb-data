@@ -29,8 +29,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: '_UsageDcsnSelectedCodeSet' }` | `releaseState: #DEPRECATED, successor: '_UsageDcsnSelectedCodeSet' }` |
-| `_InspLotUsgeDcsnSelectedSet, // DEPRECATED; do not use any longer, use _UsageDcsn_SelectedCodeSet instead` | *Association* |
+| `InspectionLot` | `qave.prueflos` |
+| `InspLotUsageDecisionLevel` | `qave.kzart` |
+| `InspLotUsageDecisionInternalID` | `qave.zaehler` |
+| `InspectionLotQualityScore` | `qave.qkennzahl` |
+| `InspLotUsageDecisionCatalog` | `qave.vkatart` |
+| `SelectedCodeSetPlant` | `qave.vwerks` |
+| `InspLotUsgeDcsnSelectedSet` | `qave.vauswahlmg` |
+| `InspLotUsageDecisionCodeGroup` | `cast( qave.vcodegrp as vdm_qvgruppe preserving type )` |
+| `InspectionLotUsageDecisionCode` | `qave.vcode` |
+| `InspLotUsgeDcsnDynValuation` | `qave.dbewertung` |
+| `InspLotUsageDecisionValuation` | `qave.vbewertung` |
+| `InspLotUsgeDcsnFollowUpAction` | `qave.vfolgeakti` |
+| `InspectionLotUsageDecidedBy` | `cast( qave.vname as vdm_qvname preserving type )` |
+| `InspectionLotUsageDecidedOn` | `cast( qave.vdatum as vdm_qvedatum preserving type )` |
+| `InspLotUsageDecisionTime` | `cast( qave.vezeiterf as vdm_qvezeiterf preserving type )` |
+| `InspLotUsageDecisionChangedBy` | `cast( qave.vaename as vdm_qvaename preserving type )` |
+| `InspLotUsageDecisionChangedOn` | `cast( qave.vaedatum as vdm_qvaedatum preserving type )` |
+| `InspLotUsgeDcsnChangedTime` | `cast( qave.vezeitaen as vdm_qvezeitaen preserving type )` |
+| `InspLotUsgeDcsnHasLongText` | `cast( qave.ltextkz as vdm_qltextave preserving type )` |
+| `_InspectionLot` | *Association* |
+| `_InspLotUsgeDcsnLongText` | *Association* |
+| `_UsageDecisionCodeGroup` | *Association* |
+| `_UsageDecisionCode` | *Association* |
+| `_InspectionLotUsageDecidedBy` | *Association* |
+| `_InspLotUsageDecisionChangedBy` | *Association* |
+| `_UsgeDecidedByUserContactCard` | *Association* |
+| `_UsgeDcsnChgdByUserContactCard` | *Association* |
+| `_UsageDecisionValuation` | *Association* |
+| `_UsgeDcsnValuationText` | *Association* |
+| `_SelectedCodeSetPlant` | *Association* |
+| `_InspLotUsgeDcsnSelectedSet` | *Association* |
 | `_UsageDcsnSelectedCodeSet` | *Association* |
 | `_InspLotUsgeDcsnHasLongText` | *Association* |
 

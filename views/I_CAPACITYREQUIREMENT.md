@@ -29,14 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` | `name: 'I_LogisticsOrderStdVH', element: 'OrderID' } } ]` |
+| `CapacityRequirement` | `kbko.bedid` |
+| `CapacityRequirementOrigin` | `cast(kbko.typkz as capacityrequirementorigin preserving type)` |
+| `PlannedOrder` | `kbko.plnum` |
 | `OrderID` | `afko.aufnr` |
-| `pph_aufpl preserving type)` | `cast(kbko.aufpl` |
+| `OrderInternalID` | `cast(kbko.aufpl as pph_aufpl preserving type)` |
 | `SalesOperationsPlanningOrder` | `kbko.safnr` |
 | `BillOfOperationsType` | `kbko.plnty` |
 | `BillOfOperationsGroup` | `kbko.plnnr` |
 | `BillOfOperations` | `kbko.plnal` |
-| `pph_termkz preserving type)` | `cast(kbko.terkz` |
+| `SchedulingType` | `cast(kbko.terkz as pph_termkz preserving type)` |
 | `ScheduledBasicStartDate` | `kbko.gstrs` |
 | `ScheduledBasicStartTime` | `kbko.gsuzs` |
 | `ScheduledBasicEndDate` | `kbko.gltrs` |

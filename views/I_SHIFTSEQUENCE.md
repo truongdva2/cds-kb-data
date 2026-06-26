@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `ShiftGrouping` | `seq.schgrup` |
 | `ShiftSequence` | `seq.sprog` |
 | `_ShiftGrouping` | *Association* |
 | `_Text` | *Association* |

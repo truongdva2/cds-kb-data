@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgDocumentReversalReason` | `_tfk2646t.bill_revreason` |
 | `Language` | `_tfk2646t.langu` |
-| `bill_revreason_txt_gfn_kk preserving type )` | `cast( _tfk2646t.text` |
+| `CABillgDocReversalReasonText` | `cast( _tfk2646t.text as bill_revreason_txt_gfn_kk preserving type )` |
 | `_CABillgDocReversalReason` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
+| `FldLogsShptItemUUID` | `FldLogsShptItemUUID` |
 | `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
 | `FldLogsReferenceDocCategory` | `FldLogsReferenceDocCategory` |
 | `DeliveryDocument` | `DeliveryDocument` |
@@ -68,7 +68,6 @@ tags:
 | `HandlingUnitQuantity` | `HandlingUnitQuantity` |
 | `HandlingUnitQuantityUnit` | `HandlingUnitQuantityUnit` |
 | `FldLogsShptLocationID` | `FldLogsShptLocationID` |
-| `_ShptPackggUnit : redirected to parent I_FldLogsShptPackggUnitTP` | *Association* |
 
 ## Associations
 

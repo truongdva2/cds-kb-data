@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fkkdm_int_reason preserving type )` | `cast( left( dd07l.domvalue_l, 4 )` |
+| `CADisputeType` | `cast( left( dd07l.domvalue_l, 4 ) as fkkdm_int_reason preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

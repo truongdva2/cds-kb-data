@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
-| `key Language` | `Language` |
+| `LegalTransactionMandatoryFlag` | `LegalTransactionMandatoryFlag` |
+| `Language` | `Language` |
 | `LglCntntMLglTransMandFlagText` | `LglCntntMLglTransMandFlagText` |
 
 ## Associations

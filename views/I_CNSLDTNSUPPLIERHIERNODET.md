@@ -33,13 +33,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `_HierarchyNodeText.Language` |
-| `fincs_supplierhierarchy preserving type )` | `cast(_HierarchyNodeText.UniversalHierarchy` |
-| `key    _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `key    _HierarchyNodeText.ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
-| `_HierarchyNodeText.ValidityStartDate` | *Association* |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `ConsolidationSupplierHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNodeText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNodeText.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

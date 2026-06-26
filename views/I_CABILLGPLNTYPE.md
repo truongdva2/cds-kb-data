@@ -32,8 +32,8 @@ tags:
 |---|---|
 | `CABillgPlnType` | `_tfk8211.biptype` |
 | `_CABillgPlnTypeText` | *Association* |
-| `_tfk8211.bipcat  as CABillgPlnCategory` | *Association* |
-| `_tfk8211.xnoedit as CABillgPlnIsNotEditable` | *Association* |
+| `CABillgPlnCategory` | `_tfk8211.bipcat` |
+| `CABillgPlnIsNotEditable` | `_tfk8211.xnoedit` |
 
 ## Associations
 

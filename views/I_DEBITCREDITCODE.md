@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_shkzg )` | `cast( domvalue_l` |
+| `DebitCreditCode` | `cast( domvalue_l as fis_shkzg )` |
 | `_Text` | *Association* |
 
 ## Associations

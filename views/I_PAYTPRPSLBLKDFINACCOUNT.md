@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_koart  preserving type )` | `cast(koart` |
-| `fis_bukrs preserving type )` | `cast(bukrs` |
-| `farp_blocked_acc preserving type )` | `cast(konko` |
+| `FinancialAccountType` | `cast(koart as farp_koart preserving type )` |
+| `CompanyCode` | `cast(bukrs as fis_bukrs preserving type )` |
+| `BlockedFinancialAccount` | `cast(konko as farp_blocked_acc preserving type )` |
 | `PaymentRunDate` | `laufd` |
-| `farp_laufi preserving type )` | `cast(laufi` |
+| `PaymentRunID` | `cast(laufi as farp_laufi preserving type )` |
 | `ConsideredSpecialGLCodes` | `umskl` |
 | `_CompanyCode` | *Association* |
 | `_FinancialAccountType` | *Association* |

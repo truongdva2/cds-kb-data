@@ -30,13 +30,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceContract` | `ServiceDocument` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceContractUUID` | `ServiceDocumentUUID` |
+| `ServiceContractCharUUID` | `cast( ServiceDocumentCharUUID as sysuuid_c preserving type )` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceContractDescription` | `ServiceDocumentDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
+| `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
+| `ServiceDocumentCreatedByUser` | `ServiceDocumentCreatedByUser` |
+| `ServiceDocumentChangedByUser` | `ServiceDocumentChangedByUser` |
+| `PricingDocument` | `PricingDocument` |
+| `RefBusinessSolutionOrder` | `RefBusinessSolutionOrder` |
+| `ServiceContractNetAmount` | `ServiceDocNetAmount` |
+| `ServiceContractGrossAmount` | `ServiceDocGrossAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `SoldToParty` | `SoldToParty` |
 | `SoldToPartyRegion` | `SoldToPartyRegion` |
 | `SoldToPartyCountry` | `SoldToPartyCountry` |
-| `crmt_person_resp preserving type )` | `cast( ResponsibleEmployee` |
-| `crmt_contact_person preserving type )` | `cast( ContactPerson` |
+| `RespEmployeeBusinessPartnerId` | `cast( ResponsibleEmployee as crmt_person_resp preserving type )` |
+| `ContactPersonBusinessPartnerId` | `cast( ContactPerson as crmt_contact_person preserving type )` |
 | `ShipToParty` | `ShipToParty` |
 | `BillToParty` | `BillToParty` |
 | `PayerParty` | `PayerParty` |

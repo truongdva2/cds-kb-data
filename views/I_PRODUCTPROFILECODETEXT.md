@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `mmsta preserving type )` | `cast( t141t.mmsta` |
-| `spras preserving type )` | `cast( spras` |
-| `crossplantstatustext preserving type )` | `cast(t141t.mtstb` |
+| `ProductProfileCode` | `cast( t141t.mmsta as mmsta preserving type )` |
+| `Language` | `cast( spras as spras preserving type )` |
+| `ProductProfileCodeName` | `cast(t141t.mtstb as crossplantstatustext preserving type )` |
 
 ## Associations
 

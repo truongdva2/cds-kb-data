@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `trsta preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `TransportationPlanningStatus` | `cast(left(dd07l.domvalue_l, 1 ) as trsta preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

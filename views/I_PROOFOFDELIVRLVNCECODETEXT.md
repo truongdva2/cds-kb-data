@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `podrel preserving type )` | `cast( left(dd07t.domvalue_l, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProofOfDeliveryRelevanceCode` | `cast( left(dd07t.domvalue_l, 1 ) as podrel preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `ProofOfDelivRlvnceCodeName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProofOfDelivRlvnceCode` | `I_ProofOfDelivRlvnceCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

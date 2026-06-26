@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InvoiceListType` | `InvoiceListType` |
+| `InvoiceListType` | `InvoiceListType` |
 | `_Text` | *Association* |
 
 ## Associations

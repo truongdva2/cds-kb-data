@@ -45,14 +45,12 @@ tags:
 | `MinNrOfMonthsForContractPeriod` | `MinNrOfMonthsForContractPeriod` |
 | `NrOfMonthsForContractRenewal` | `NrOfMonthsForContractRenewal` |
 | `NrOfDaysForContrNoticePeriod` | `NrOfDaysForContrNoticePeriod` |
-| `/* Administrative Data */` | `/* Administrative Data */` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessPartner` | *Association* |
 | `_CompCode` | *Association* |
 | `_CreatedByUser` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
+| `PublicHolidayCalendarID` | `PublicHolidayCalendarID` |
 | `PublicHolidayCalendarLegacyID` | `PublicHolidayCalendarLegacyID` |
 | `PublHldayCalValidityStartDate` | `PublHldayCalValidityStartDate` |
 | `PublHldayCalValidityEndDate` | `PublHldayCalValidityEndDate` |

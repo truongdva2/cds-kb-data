@@ -32,14 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `key CompanyCode` | `CompanyCode` |
-| `key HouseBank` | `HouseBank` |
+| `CompanyCode` | `CompanyCode` |
+| `HouseBank` | `HouseBank` |
 | `BankCountry` | `BankCountry` |
 | `BankInternalID` | `BankInternalID` |
-| `_Bank.BankName` | *Association* |
+| `BankName` | `_Bank.BankName` |
 | `_Bank` | *Association* |
 | `_CompanyCode` | *Association* |
 

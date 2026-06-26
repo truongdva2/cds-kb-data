@@ -39,7 +39,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProjectDemandTypeText` | [0..*] |
+| `_ProjectDemandCategory` | `I_ProjectDemandCategory` | — |
 
 ## Source Code
 

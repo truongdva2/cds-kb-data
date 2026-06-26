@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `_Text[1:Language = $session.system_language].GrantName as GrantName` | *Association* |
+| `GrantID` | `GrantID` |
+| `GrantName` | `_Text[1:Language = $session.system_language].GrantName` |
 | `GranteeMgmtSponsor` | `GranteeMgmtSponsor` |
-| `_Sponsor.BusinessPartnerName` | *Association* |
+| `BusinessPartnerName` | `_Sponsor.BusinessPartnerName` |
 | `GrantIsNotRelevantGrant` | `GrantIsNotRelevantGrant` |
 | `GrantAuthznGrp` | `GrantAuthznGrp` |
 | `GrantLfcycStatusForAuthzn` | `GrantLfcycStatusForAuthzn` |

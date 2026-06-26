@@ -35,7 +35,6 @@ tags:
 | `Language` | `spras` |
 | `MarketRiskKeyFigureSet` | `mra_kf_set` |
 | `MarketRiskKeyFigureSetName` | `text` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 
 ## Associations

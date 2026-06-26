@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialManagementArea` | `_Source.FinancialManagementArea` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child i_cnsldtnfinmgmtareatexttp` | *Association* |
+| `FinancialManagementArea` | `_Source.FinancialManagementArea` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

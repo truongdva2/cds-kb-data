@@ -32,8 +32,7 @@ tags:
 |---|---|
 | `TranspOrdItemType` | `item_type` |
 | `Language` | `langu` |
-| `/scmtms/vdm_tor_itm_type_descr preserving type)` | `cast (description_s` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrdItemTypeDesc` | `cast (description_s as /scmtms/vdm_tor_itm_type_descr preserving type)` |
 | `_TranspOrdItemType` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdItemType` | `I_TranspOrdItemType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

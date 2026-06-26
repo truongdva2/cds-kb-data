@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_planthierarchy preserving type )` | `cast(_Hierarchy.UniversalHierarchy` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnPlantHierarchy` | `cast(_Hierarchy.UniversalHierarchy as fincs_planthierarchy preserving type )` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 
 ## Associations

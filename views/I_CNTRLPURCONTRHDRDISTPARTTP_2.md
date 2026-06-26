@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CentralPurchaseContract` | `CentralPurchaseContract` |
-| `key DistributionKey` | `DistributionKey` |
-| `key PartnerCounter` | `PartnerCounter` |
+| `CentralPurchaseContract` | `CentralPurchaseContract` |
+| `DistributionKey` | `DistributionKey` |
+| `PartnerCounter` | `PartnerCounter` |
 | `PartnerFunction` | `PartnerFunction` |
 | `ExtPlantForPurg` | `ExtPlantForPurg` |
 | `Supplier` | `Supplier` |
 | `SupplierSubrange` | `SupplierSubrange` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
-| `/* Associations */` | `/* Associations */` |
-| `_CentralPurchaseContrHdrDist : redirected to parent I_CntrlPurContrHdrDistrTP_2` | *Association* |
-| `_CentralPurchaseContract     : redirected to I_CntrlPurchaseContractTP_2` | *Association* |
 
 ## Associations
 

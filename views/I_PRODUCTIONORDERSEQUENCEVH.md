@@ -33,7 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `OrderInternalID` | `OrderInternalID` |
+| `SequenceInternalID` | `SequenceInternalID` |
+| `ProductionOrder` | `ProductionOrder` |
+| `ProductionOrderSequence` | `ProductionOrderSequence` |
 | `ProductionOrderSequenceText` | `ProductionOrderSequenceText` |
 | `SequenceCategory` | `SequenceCategory` |
 | `ProductionOrderType` | `ProductionOrderType` |

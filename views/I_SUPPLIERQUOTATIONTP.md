@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierQuotation` | `SupplierQuotation` |
+| `SupplierQuotation` | `SupplierQuotation` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -74,8 +74,6 @@ tags:
 | `QtnLifecycleStatus` | `QtnLifecycleStatus` |
 | `FollowOnDocumentCategory` | `FollowOnDocumentCategory` |
 | `PurgDocFollowOnDocumentType` | `PurgDocFollowOnDocumentType` |
-| `/* Associations */` | `/* Associations */` |
-| `_SupplierQuotationItem : redirected to composition child I_SupplierQuotationItemTP` | *Association* |
 
 ## Associations
 

@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionSequentialNumber` | `ConditionSequentialNumber` |
-| `key Language` | `Language` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `Language` | `Language` |
 | `ConditionText` | `ConditionText` |
-| `_Supplement : redirected to parent I_SlsPrcgCndnRecdSuplmntTP_2` | *Association* |
-| `_ConditionRecord : redirected to I_SlsPrcgConditionRecordTP_2` | *Association* |
 
 ## Associations
 

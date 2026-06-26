@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `Language` | `t356_t.spras` |
+| `GenericPriorityType` | `t356_t.artpr` |
+| `PriorityCode` | `t356_t.priok` |
 | `GenericPriorityDesc` | `t356_t.priokx` |
 | `_GenericPriority` | *Association* |
 | `_GenericPriorityType` | *Association* |

@@ -32,19 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key DocumentText` | `DocumentText` |
-| `key TechnicalObjectType` | `TechnicalObjectType` |
-| `key ArchObjectNumber` | `ArchObjectNumber` |
-| `key SchedulingAgreement` | `SchedulingAgreement` |
+| `Language` | `Language` |
+| `DocumentText` | `DocumentText` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `ArchObjectNumber` | `ArchObjectNumber` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
 | `NoteDescription` | `NoteDescription` |
 | `FixedIndicator` | `FixedIndicator` |
 | `DisplayModeOfTextTypeInPurg` | `DisplayModeOfTextTypeInPurg` |
 | `TextIsAdoptedFromReference` | `TextIsAdoptedFromReference` |
 | `_SchedgAgrmtHdr` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingDocumentType` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingOrganization` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingGroup` | *Association* |
+| `PurchasingDocumentType` | `_SchedgAgrmtHdr.PurchasingDocumentType` |
+| `PurchasingOrganization` | `_SchedgAgrmtHdr.PurchasingOrganization` |
+| `PurchasingGroup` | `_SchedgAgrmtHdr.PurchasingGroup` |
 
 ## Associations
 

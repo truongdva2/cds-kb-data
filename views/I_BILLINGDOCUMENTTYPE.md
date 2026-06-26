@@ -38,8 +38,8 @@ tags:
 | `SDDocumentCategory` | `vbtyp` |
 | `IncrementItemNumber` | `incpo` |
 | `BillingDocumentCategory` | `fktyp` |
-| `billg_proc_doc_text_detn_head preserving type)` | `cast(txtgr` |
-| `billg_proc_doc_text_detn_item preserving type)` | `cast(txtgr_p` |
+| `BillgProcDocTxtDetnProcedure` | `cast(txtgr as billg_proc_doc_text_detn_head preserving type)` |
+| `BillgProcDocItmTxtDetnProced` | `cast(txtgr_p as billg_proc_doc_text_detn_item preserving type)` |
 | `_Text` | *Association* |
 | `_SDDocumentCategory` | *Association* |
 | `_BillingDocumentCategory` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nf_texttype preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `BR_NFTextType` | `cast( substring(domvalue_l, 1, 1) as logbr_nf_texttype preserving type )` |
 | `_BR_NFTextTypeDesc` | *Association* |
 
 ## Associations

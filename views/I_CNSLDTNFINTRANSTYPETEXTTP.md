@@ -32,12 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.FinancialTransactionType` | `_Text.FinancialTransactionType` |
-| `_Text.FinancialTransactionTypeName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_FinancialTransactionType as _FinancialTransactionType : redirected to parent I_CnsldtnFinTransactionTypeTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `FinancialTransactionType` | `_Text.FinancialTransactionType` |
+| `FinancialTransactionTypeName` | `_Text.FinancialTransactionTypeName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_FinancialTransactionType` | *Association* |
 
 ## Associations
 

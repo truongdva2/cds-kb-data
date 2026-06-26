@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `t041ct.spras` |
 | `ReversalReason` | `t041ct.stgrd` |
-| `fac_rvsl_rsn_name preserving type )` | `cast ( t041ct.txt40` |
+| `ReversalReasonName` | `cast ( t041ct.txt40 as fac_rvsl_rsn_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

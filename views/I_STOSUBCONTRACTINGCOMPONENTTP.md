@@ -32,7 +32,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_UnitOfMeasureStdVH', element: 'UnitOfMeasure' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `StockTransportOrderItem` | `StockTransportOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ReservationItem` | `ReservationItem` |
+| `RecordType` | `RecordType` |
+| `Reservation` | `Reservation` |
+| `Product` | `Product` |
+| `BaseUnit` | `BaseUnit` |
+| `RequiredQuantity` | `RequiredQuantity` |
+| `RequirementDate` | `RequirementDate` |
+| `RequirementTime` | `RequirementTime` |
+| `Plant` | `Plant` |
+| `LatestRequirementDate` | `LatestRequirementDate` |
+| `OrderLevelValue` | `OrderLevelValue` |
+| `OrderPathValue` | `OrderPathValue` |
+| `BillOfMaterialItemNumber` | `BillOfMaterialItemNumber` |
+| `BOMItemCategory` | `BOMItemCategory` |
+| `MaterialComponentIsPhantomItem` | `MaterialComponentIsPhantomItem` |
+| `IsBulkMaterialComponent` | `IsBulkMaterialComponent` |
+| `AccountAssignmentCategory` | `AccountAssignmentCategory` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `ConsumptionPosting` | `ConsumptionPosting` |
+| `InventorySpecialStockValnType` | `InventorySpecialStockValnType` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `ReservationIsFinallyIssued` | `ReservationIsFinallyIssued` |
+| `QuantityInEntryUnit` | `QuantityInEntryUnit` |
 | `EntryUnit` | `EntryUnit` |
 | `MaterialQtyToBaseQtyNmrtr` | `MaterialQtyToBaseQtyNmrtr` |
 | `MaterialQtyToBaseQtyDnmntr` | `MaterialQtyToBaseQtyDnmntr` |
@@ -58,16 +83,11 @@ tags:
 | `BOMItemDescription` | `BOMItemDescription` |
 | `BOMItemText2` | `BOMItemText2` |
 | `ChangeNumber` | `ChangeNumber` |
-| `/* Composition */` | `/* Composition */` |
-| `_ScheduleLine            : redirected to parent I_STOScheduleLineTP` | *Association* |
-| `_StockTransportOrderItem : redirected to I_StockTransportOrderItemTP` | *Association* |
-| `_StockTransportOrder     : redirected to I_StockTransportOrderTP` | *Association* |
 | `_Material` | *Association* |
 | `_VariableSize1To3Unit` | *Association* |
 | `_Product` | *Association* |
 | `_BaseUnit` | *Association* |
 | `_EntryUnit` | *Association* |
-| `/* Text associations for CustomUI */` | `/* Text associations for CustomUI */` |
 | `_ProductText` | *Association* |
 | `_BaseUnitText` | *Association* |
 | `_EntryUnitText` | *Association* |

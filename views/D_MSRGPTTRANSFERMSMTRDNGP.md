@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `MsmtRdngIntervalStartDate    : imrc_idat1;` | `MsmtRdngIntervalStartDate    : imrc_idat1;` |
-| `MsmtRdngIntervalStartTime    : imrc_itim1;` | `MsmtRdngIntervalStartTime    : imrc_itim1;` |
-| `MsmtRdngIntervalEndDate      : imrc_idate;` | `MsmtRdngIntervalEndDate      : imrc_idate;` |
-| `MsmtRdngIntervalEndTime      : imrc_itime;` | `MsmtRdngIntervalEndTime      : imrc_itime;` |
-| `MsmtRdngSourceMeasuringPoint : imrc_trans;` | `MsmtRdngSourceMeasuringPoint : imrc_trans;` |
-| `MsmtRdngTransferMode         : imrc_modtr;` | `MsmtRdngTransferMode         : imrc_modtr;` |
+| `MsmtRdngIntervalStartDate` | `imrc_idat1` |
+| `MsmtRdngIntervalStartTime` | `imrc_itim1` |
+| `MsmtRdngIntervalEndDate` | `imrc_idate` |
+| `MsmtRdngIntervalEndTime` | `imrc_itime` |
+| `MsmtRdngSourceMeasuringPoint` | `imrc_trans` |
+| `MsmtRdngTransferMode` | `imrc_modtr` |
 
 ## Associations
 

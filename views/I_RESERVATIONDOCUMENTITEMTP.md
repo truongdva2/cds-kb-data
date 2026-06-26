@@ -33,7 +33,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true } ]` | `name: 'I_GLAccountStdVH', element: 'GLAccount' }, useAsTemplate: true } ]` |
+| `Reservation` | `Reservation` |
+| `ReservationItem` | `ReservationItem` |
+| `RecordType` | `RecordType` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `ValuationType` | `ValuationType` |
+| `EntryUnit` | `EntryUnit` |
+| `ResvnItmRequiredQtyInEntryUnit` | `ResvnItmRequiredQtyInEntryUnit` |
+| `MatlCompRequirementDate` | `MatlCompRequirementDate` |
 | `GLAccount` | `GLAccount` |
 | `ResvnAccountIsEnteredManually` | `ResvnAccountIsEnteredManually` |
 | `ReservationItemText` | `ReservationItemText` |
@@ -53,7 +63,6 @@ tags:
 | `_Product` | *Association* |
 | `_GoodsMovementType` | *Association* |
 | `_RecipientLocationCode` | *Association* |
-| `_ReservationDocumentHeaderTP : redirected to parent I_ReservationDocumentTP` | *Association* |
 
 ## Associations
 

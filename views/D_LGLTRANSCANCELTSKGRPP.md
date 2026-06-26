@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglTransWrkflwModInstance : sibfboriid;` | `LglTransWrkflwModInstance : sibfboriid;` |
+| `LglTransWrkflwModInstance` | `sibfboriid` |
 
 ## Associations
 

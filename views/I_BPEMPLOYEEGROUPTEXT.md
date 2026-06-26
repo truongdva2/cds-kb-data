@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `langu preserving type)` | `cast(tp05t.langu` |
-| `bp_staff_g preserving type)` | `cast(tp05t.staff_grp` |
+| `Language` | `cast(tp05t.langu as langu preserving type)` |
+| `BusinessPartnerEmployeeGroup` | `cast(tp05t.staff_grp as bp_staff_g preserving type)` |
 | `BPEmployeeGroupDescription` | `tp05t.staff_gr_t` |
 | `_BusinessPartnerEmployeeGroup` | *Association* |
 | `_Language` | *Association* |

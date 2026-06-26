@@ -31,31 +31,31 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Reservation` | `Reservation` |
-| `key ReservationItem` | `ReservationItem` |
-| `key ReservationType` | `ReservationType` |
+| `Reservation` | `Reservation` |
+| `ReservationItem` | `ReservationItem` |
+| `ReservationType` | `ReservationType` |
 | `MaintenanceOrder` | `MaintenanceOrder` |
 | `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
 | `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
 | `MaintOrderComponentInternalID` | `MaintOrderComponentInternalID` |
 | `MaintenanceOrderComponent` | `MaintenanceOrderComponent` |
 | `ResvnPurchasingDocumentNumber` | `ResvnPurchasingDocumentNumber` |
-| `_MaintenanceOrderDEX.FunctionalLocation                                           as FunctionalLocation` | *Association* |
-| `_MaintenanceOrderDEX.Equipment                                                    as Equipment` | *Association* |
-| `_MaintenanceOrderDEX.Assembly                                                     as Assembly` | *Association* |
-| `_MaintenanceOrderDEX.MaintenanceActivityType                                      as MaintenanceActivityType` | *Association* |
-| `_MaintenanceOrderDEX.MaintenancePlannerGroup                                      as MaintenancePlannerGroup` | *Association* |
-| `_MaintenanceOrderDEX.MaintenancePlanningPlant                                     as MaintenancePlanningPlant` | *Association* |
-| `_MaintenanceOrderDEX.MaintenanceOrderType                                         as MaintenanceOrderType` | *Association* |
-| `_MaintenanceOrderDEX.MaintenancePlant                                             as MaintenancePlant` | *Association* |
-| `_MaintenanceOrderDEX.MaintObjectLocAcctAssgmtNmbr                                 as MaintObjectLocAcctAssgmtNmbr` | *Association* |
-| `_MaintenanceOrder._Order.CreationDate` | *Association* |
-| `_MaintenanceOrderDEX.LastChangeDateTime` | *Association* |
-| `_MaintenanceOrderDEX.MaintOrdProcessPhaseCode                                        as MaintOrdProcessPhaseCode` | *Association* |
-| `_MaintenanceOrderDEX.MaintOrdProcessSubPhaseCode                                     as MaintOrdProcessSubPhaseCode` | *Association* |
-| `_MaintenanceOrderDEX.LatestAcceptableCompletionDate                                  as LatestAcceptableCompletionDate` | *Association* |
-| `_MaintenanceOrder.PrevLtstAccptblCompletionDate                                   as PrevLtstAccptblCompletionDate` | *Association* |
-| `_MaintenanceOrderDEX.MaintOrderProcessingContext                                     as MaintOrderProcessingContext` | *Association* |
+| `FunctionalLocation` | `_MaintenanceOrderDEX.FunctionalLocation` |
+| `Equipment` | `_MaintenanceOrderDEX.Equipment` |
+| `Assembly` | `_MaintenanceOrderDEX.Assembly` |
+| `MaintenanceActivityType` | `_MaintenanceOrderDEX.MaintenanceActivityType` |
+| `MaintenancePlannerGroup` | `_MaintenanceOrderDEX.MaintenancePlannerGroup` |
+| `MaintenancePlanningPlant` | `_MaintenanceOrderDEX.MaintenancePlanningPlant` |
+| `MaintenanceOrderType` | `_MaintenanceOrderDEX.MaintenanceOrderType` |
+| `MaintenancePlant` | `_MaintenanceOrderDEX.MaintenancePlant` |
+| `MaintObjectLocAcctAssgmtNmbr` | `_MaintenanceOrderDEX.MaintObjectLocAcctAssgmtNmbr` |
+| `CreationDate` | `_MaintenanceOrder._Order.CreationDate` |
+| `LastChangeDateTime` | `_MaintenanceOrderDEX.LastChangeDateTime` |
+| `MaintOrdProcessPhaseCode` | `_MaintenanceOrderDEX.MaintOrdProcessPhaseCode` |
+| `MaintOrdProcessSubPhaseCode` | `_MaintenanceOrderDEX.MaintOrdProcessSubPhaseCode` |
+| `LatestAcceptableCompletionDate` | `_MaintenanceOrderDEX.LatestAcceptableCompletionDate` |
+| `PrevLtstAccptblCompletionDate` | `_MaintenanceOrder.PrevLtstAccptblCompletionDate` |
+| `MaintOrderProcessingContext` | `_MaintenanceOrderDEX.MaintOrderProcessingContext` |
 | `ReservationIsFinallyIssued` | `ReservationIsFinallyIssued` |
 | `Plant` | `Plant` |
 | `StorageLocation` | `StorageLocation` |
@@ -99,7 +99,7 @@ tags:
 | `MaintOrdOpCompIsBulkProduct` | `MaintOrdOpCompIsBulkProduct` |
 | `MaterialProvisionType` | `MaterialProvisionType` |
 | `MaintOrdOpCompAssgdWBSElmntInt` | `MaintOrdOpCompAssgdWBSElmntInt` |
-| `vdm_ps_posid preserving type )` | `cast ( _MaintenanceOrder._WBSElement.WBSElement` |
+| `WBSElement` | `cast(…)` |
 | `MaintOrderOpComponentPrice` | `MaintOrderOpComponentPrice` |
 | `MaintOrdOpCompPriceUnitQty` | `MaintOrdOpCompPriceUnitQty` |
 | `MatlCompIsMarkedForBackflush` | `MatlCompIsMarkedForBackflush` |
@@ -114,8 +114,8 @@ tags:
 | `ResponsiblePurchaseOrg` | `ResponsiblePurchaseOrg` |
 | `MaintOrdCompPurOutlineAgrmtItm` | `MaintOrdCompPurOutlineAgrmtItm` |
 | `IsDeleted` | `IsDeleted` |
-| `_MaintenanceOrderDEX.ControllingArea` | *Association* |
-| `_MaintenanceOrderDEX.ResponsibleCostCenter` | *Association* |
+| `ControllingArea` | `_MaintenanceOrderDEX.ControllingArea` |
+| `ResponsibleCostCenter` | `_MaintenanceOrderDEX.ResponsibleCostCenter` |
 | `OverallLimitAmount` | `OverallLimitAmount` |
 | `ExpectedOverallLimitAmount` | `ExpectedOverallLimitAmount` |
 | `QuantityIsFixed` | `QuantityIsFixed` |
@@ -138,7 +138,7 @@ tags:
 | `MaintOrdOpCompProcmtCatalogItm` | `MaintOrdOpCompProcmtCatalogItm` |
 | `QuantityWithdrawnInBaseUnit` | `QuantityWithdrawnInBaseUnit` |
 | `ConfirmedAvailableQuantity` | `ConfirmedAvailableQuantity` |
-| `_ReservationItem.RecipientLocationCode` | *Association* |
+| `RecipientLocationCode` | `_ReservationItem.RecipientLocationCode` |
 | `_MaintenanceOrderDEX` | *Association* |
 
 ## Associations

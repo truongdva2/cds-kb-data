@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Segment` | `Segment` |
+| `Segment` | `Segment` |
 | `_Text` | *Association* |
 
 ## Associations

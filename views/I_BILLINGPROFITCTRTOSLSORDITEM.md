@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vbeln_va preserving type)` | `cast(kdauf` |
-| `posnr_va preserving type)` | `cast(kdpos` |
+| `SalesDocument` | `cast(kdauf as vbeln_va preserving type)` |
+| `SalesDocumentItem` | `cast(kdpos as posnr_va preserving type)` |
 | `ValidityStartDate` | `valid_from` |
 | `ValidityEndDate` | `valid_to` |
 | `ControllingArea` | `kokrs` |

@@ -32,12 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerID` | `FldLogsContainerID` |
-| `key DispatchedStartDate` | `DispatchedStartDate` |
-| `key FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
-| `key NumberOfCtnTripsPerDay` | `NumberOfCtnTripsPerDay` |
-| `key FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
-| `key FldLogsShptItmHndlgUnitID` | `FldLogsShptItmHndlgUnitID` |
+| `FldLogsContainerID` | `FldLogsContainerID` |
+| `DispatchedStartDate` | `DispatchedStartDate` |
+| `FldLogsDispatchPlant` | `FldLogsDispatchPlant` |
+| `NumberOfCtnTripsPerDay` | `NumberOfCtnTripsPerDay` |
+| `FldLogsReferenceDocumentNumber` | `FldLogsReferenceDocumentNumber` |
+| `FldLogsShptItmHndlgUnitID` | `FldLogsShptItmHndlgUnitID` |
 | `Material` | `Material` |
 | `RetblQtyInOrderUnit` | `RetblQtyInOrderUnit` |
 | `RetblQtyOrderUnit` | `RetblQtyOrderUnit` |
@@ -123,7 +123,6 @@ tags:
 | `InspectionLot` | `InspectionLot` |
 | `GoodsReceivingPoint` | `GoodsReceivingPoint` |
 | `ShippingPoint` | `ShippingPoint` |
-| `_RcvdPackgg : redirected to parent I_FldLogsRcvdPackagingTP` | *Association* |
 
 ## Associations
 

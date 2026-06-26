@@ -36,7 +36,7 @@ tags:
 |---|---|
 | `SalesOrganization` | `vkorg` |
 | `Language` | `spras` |
-| `salesorganizationname preserving type)` | `cast(vtext` |
+| `SalesOrganizationName` | `cast(vtext as salesorganizationname preserving type)` |
 | `_SalesOrganization` | *Association* |
 | `_Language` | *Association* |
 

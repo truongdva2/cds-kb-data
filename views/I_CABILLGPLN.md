@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CABillgPlnNumber` | `billplanno` |
-| `bipcat_gfn_kk preserving type )` | `cast(bipcat` |
+| `CABillgPlnCategory` | `cast(bipcat as bipcat_gfn_kk preserving type )` |
 | `CABillgPlnType` | `biptype` |
 | `CABillgPlnStatus` | `status` |
 | `CABillgPlnStartDate` | `valid_from` |
@@ -42,13 +42,13 @@ tags:
 | `CABillgPlnExternalReference` | `bipref` |
 | `LogicalSystem` | `logsys` |
 | `CAApplicationArea` | `applk` |
-| `bu_partner preserving type )` | `cast(gpart` |
+| `BusinessPartner` | `cast(gpart as bu_partner preserving type )` |
 | `ContractAccount` | `vkont` |
 | `CAInvcgMasterDataType` | `mdcat` |
 | `CAContract` | `vtref` |
 | `CAProviderContractItemUUID` | `vtpid` |
 | `CASubApplication` | `subap` |
-| `CAMasterAgreement` | `makey` |
+| `CAMasterAgreement` | `-- makey` |
 | `CAInvcgOffsettingReferenceKey` | `offset_refid` |
 | `CABillgPlnCreatedByUser` | `crname` |
 | `CABillgPlnCreationDate` | `crdate` |

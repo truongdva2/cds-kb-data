@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `MaintenancePlanSortField` | `plan_sort` |
 | `_Text` | *Association* |
 

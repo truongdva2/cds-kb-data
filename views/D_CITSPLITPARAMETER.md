@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `CITClassificationCode          : ficite_clsfcode;` | `CITClassificationCode          : ficite_clsfcode;` |
-| `CITItemAmountInDisplayCurrency : ficite_amnt;` | `CITItemAmountInDisplayCurrency : ficite_amnt;` |
-| `Currency                       : ficite_curr;` | `Currency                       : ficite_curr;` |
+| `CITClassificationCode` | `ficite_clsfcode` |
+| `CITItemAmountInDisplayCurrency` | `ficite_amnt` |
+| `Currency` | `ficite_curr` |
 
 ## Associations
 

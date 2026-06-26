@@ -30,16 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `ServiceRefObjectSequenceNumber` | `ServiceRefObjectSequenceNumber` |
 | `SerialNumber` | `SerialNumber` |
 | `ServiceReferenceEquipment` | `ServiceReferenceEquipment` |
 | `ServiceRefFunctionalLocation` | `ServiceRefFunctionalLocation` |
 | `ServiceReferenceProduct` | `ServiceReferenceProduct` |
 | `SrvcRefObjIsMainObject` | `SrvcRefObjIsMainObject` |
-| `_ServiceConfirmationItemTP : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_SrvcConfTP : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

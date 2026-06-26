@@ -33,10 +33,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `}` | `}` |
 | `SalesOrderApprovalReason` | `SalesDocApprovalReason` |
 | `_SDApprovalReason` | *Association* |
 | `_SDApprovalReasonT` | *Association* |

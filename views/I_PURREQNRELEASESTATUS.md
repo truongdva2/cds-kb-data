@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `banpr)` | `cast(domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
+| `PurReqnReleaseStatus` | `cast(domvalue_l as banpr)` |
 | `_Text` | *Association* |
 
 ## Associations

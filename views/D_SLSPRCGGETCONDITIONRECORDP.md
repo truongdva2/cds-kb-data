@@ -30,14 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ConditionValidityStartDate     : datab;` | `ConditionValidityStartDate     : datab;` |
-| `ConditionValidityEndDate       : datbi;` | `ConditionValidityEndDate       : datbi;` |
-| `DeltdConditionRecordIsExcluded : loevm_ko;` | `DeltdConditionRecordIsExcluded : loevm_ko;` |
-| `_ConditionRecordCriteriaItem   : composition [0..*] of D_ConditionRecordCriteriaItemP;` | *Association* |
+| `ConditionValidityStartDate` | `datab` |
+| `ConditionValidityEndDate` | `datbi` |
+| `DeltdConditionRecordIsExcluded` | `loevm_ko` |
+| `_ConditionRecordCriteriaItem` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ConditionRecordCriteriaItem` | `D_ConditionRecordCriteriaItemP` | [0..*] |
 
 ## Source Code
 

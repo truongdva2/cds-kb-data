@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `intbu_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `intbu_text_kk preserving type )` | `cast( ddtext` |
+| `CAInternalPostingReasonCode` | `cast( left( dd07t.domvalue_l, 1 ) as intbu_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAInternalPostingReasonCodeTxt` | `cast( ddtext as intbu_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

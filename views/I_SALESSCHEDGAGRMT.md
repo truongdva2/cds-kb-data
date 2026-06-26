@@ -30,9 +30,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
+| `SalesSchedulingAgreement` | `cast(SalesDocument as vdm_sales_schedg_agrmt preserving type)` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `SalesSchedgAgrmtType` | `cast(SalesDocumentType as vdm_sales_schedg_agrmt_type preserving type)` |
+| `SalesSchedgAgrmtProcessingType` | `SalesDocumentProcessingType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `cast( SoldToParty as sd_schedg_agrmt_sold_to_party preserving type )` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `SalesSchedgAgrmtDate` | `SalesDocumentDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SalesDistrict` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `PricingDate` | `PricingDate` |
+| `PriceDetnExchangeRate` | `PriceDetnExchangeRate` |
+| `SalesSchedgAgrmtCondition` | `SalesDocumentCondition` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `RequestedDeliveryDate` | `RequestedDeliveryDate` |
+| `ShippingType` | `ShippingType` |
+| `ShippingCondition` | `ShippingCondition` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `DeliveryBlockReason` | `DeliveryBlockReason` |
+| `DelivSchedTypeMRPRlvnceCode` | `DelivSchedTypeMRPRlvnceCode` |
+| `AgrmtValdtyStartDate` | `cast(AgrmtValdtyStartDate as sd_schedg_agrmt_valid_from preserving type )` |
+| `AgrmtValdtyEndDate` | `cast(AgrmtValdtyEndDate as sd_schedg_agrmt_valid_to preserving type )` |
+| `MatlUsageIndicator` | `MatlUsageIndicator` |
 | `BillingCompanyCode` | `BillingCompanyCode` |
 | `BillingDocumentDate` | `BillingDocumentDate` |
 | `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |

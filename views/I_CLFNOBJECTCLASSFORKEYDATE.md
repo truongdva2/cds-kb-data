@@ -29,19 +29,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectClass.ClfnObjectID` | `ObjectClass.ClfnObjectID` |
-| `key ObjectClass.ClfnObjectTable` | `ObjectClass.ClfnObjectTable` |
-| `key ObjectClass.ClassInternalID` | `ObjectClass.ClassInternalID` |
-| `key ObjectClass.ClassType` | `ObjectClass.ClassType` |
-| `ObjectClass.ClfnObjectInternalID` | `ObjectClass.ClfnObjectInternalID` |
-| `ObjectClass.ClfnStatus` | `ObjectClass.ClfnStatus` |
-| `ObjectClass.ClassPositionNumber` | `ObjectClass.ClassPositionNumber` |
-| `ObjectClass.ClassIsStandardClass` | `ObjectClass.ClassIsStandardClass` |
-| `ObjectClass.BOMIsRecursive` | `ObjectClass.BOMIsRecursive` |
-| `ObjectClass.ChangeNumber` | `ObjectClass.ChangeNumber` |
-| `ObjectClass.ValidityStartDate` | `ObjectClass.ValidityStartDate` |
-| `ObjectClass.ValidityEndDate` | `ObjectClass.ValidityEndDate` |
-| `ObjectClass.LastChangeDateTime` | `ObjectClass.LastChangeDateTime` |
+| `ClfnObjectID` | `ObjectClass.ClfnObjectID` |
+| `ClfnObjectTable` | `ObjectClass.ClfnObjectTable` |
+| `ClassInternalID` | `ObjectClass.ClassInternalID` |
+| `ClassType` | `ObjectClass.ClassType` |
+| `ClfnObjectInternalID` | `ObjectClass.ClfnObjectInternalID` |
+| `ClfnStatus` | `ObjectClass.ClfnStatus` |
+| `ClassPositionNumber` | `ObjectClass.ClassPositionNumber` |
+| `ClassIsStandardClass` | `ObjectClass.ClassIsStandardClass` |
+| `BOMIsRecursive` | `ObjectClass.BOMIsRecursive` |
+| `ChangeNumber` | `ObjectClass.ChangeNumber` |
+| `ValidityStartDate` | `ObjectClass.ValidityStartDate` |
+| `ValidityEndDate` | `ObjectClass.ValidityEndDate` |
+| `LastChangeDateTime` | `ObjectClass.LastChangeDateTime` |
 | `_Class` | *Association* |
 
 ## Associations

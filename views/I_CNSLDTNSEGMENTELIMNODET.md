@@ -31,8 +31,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `_nodet.spras` |
-| `fincs_elim_segment preserving type )` | `cast(left(_nodet.nodevalue, 25)` |
-| `fincs_description_text_50 preserving type )` | `cast(left(_nodet.nodetxt, 50)` |
+| `Segment` | `cast(left(_nodet.nodevalue, 25) as fincs_elim_segment preserving type )` |
+| `SegmentName` | `cast(left(_nodet.nodetxt, 50) as fincs_description_text_50 preserving type )` |
 | `_Language` | *Association* |
 | `_Segment` | *Association* |
 

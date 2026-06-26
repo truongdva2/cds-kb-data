@@ -30,7 +30,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'CustomerDisputedCurrency' } }` | `currencyCode: 'CustomerDisputedCurrency' } }` |
+| `DisputeCaseUUID` | `DisputeCaseUUID` |
+| `DisputeCaseCoordinator` | `DisputeCaseCoordinator` |
+| `DisputeCaseRootCause` | `DisputeCaseRootCause` |
+| `CaseProcessingDeadlineDate` | `CaseProcessingDeadlineDate` |
+| `OriginalAmount` | `OriginalAmount` |
+| `DisputedAmount` | `DisputedAmount` |
+| `PaidAmount` | `PaidAmount` |
+| `CreditedAmount` | `CreditedAmount` |
+| `WriteOffAmount` | `WriteOffAmount` |
+| `ManuallyClearedAmount` | `ManuallyClearedAmount` |
+| `DisputeCaseCurrency` | `DisputeCaseCurrency` |
 | `CustomerDisputedAmount` | `CustomerDisputedAmount` |
 | `CustomerDisputedCurrency` | `CustomerDisputedCurrency` |
 | `ContactPersonName` | `ContactPersonName` |

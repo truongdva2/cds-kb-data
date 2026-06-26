@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pbr_doc_status preserving type )` | `cast( substring( domvalue_l, 1, 1 )` |
+| `ManualBillgSelForPrjBlgReqItem` | `cast( substring( domvalue_l, 1, 1 ) as pbr_doc_status preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_PrjBlgReqItmMnlBillgSelText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PrjBlgReqItmMnlBillgSelText` | `I_PrjBlgReqItmMnlBillgSelText` | [0..*] |
 
 ## Source Code
 

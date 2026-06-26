@@ -33,57 +33,53 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditMemoRequestItem.CreditMemoRequest` | `CreditMemoRequestItem.CreditMemoRequest` |
-| `key CreditMemoRequestItem.CreditMemoRequestItem` | `CreditMemoRequestItem.CreditMemoRequestItem` |
-| `CreditMemoRequestItem.HigherLevelItem` | `CreditMemoRequestItem.HigherLevelItem` |
-| `CreditMemoRequestItem.CreditMemoRequestItemCategory` | `CreditMemoRequestItem.CreditMemoRequestItemCategory` |
-| `CreditMemoRequestItem.CreditMemoRequestItemText` | `CreditMemoRequestItem.CreditMemoRequestItemText` |
-| `CreditMemoRequestItem.PurchaseOrderByCustomer` | `CreditMemoRequestItem.PurchaseOrderByCustomer` |
-| `CreditMemoRequestItem.Product` | `CreditMemoRequestItem.Product` |
-| `CreditMemoRequestItem.MaterialByCustomer` | `CreditMemoRequestItem.MaterialByCustomer` |
-| `CreditMemoRequestItem.ProductGroup` | `CreditMemoRequestItem.ProductGroup` |
-| `CreditMemoRequestItem.MaterialPricingGroup` | `CreditMemoRequestItem.MaterialPricingGroup` |
-| `CreditMemoRequestItem.Batch` | `CreditMemoRequestItem.Batch` |
-| `CreditMemoRequestItem.PricingDate` | `CreditMemoRequestItem.PricingDate` |
-| `CreditMemoRequestItem.RequestedQuantity` | `CreditMemoRequestItem.RequestedQuantity` |
-| `CreditMemoRequestItem.RequestedQuantityUnit` | `CreditMemoRequestItem.RequestedQuantityUnit` |
-| `CreditMemoRequestItem.NetAmount` | `CreditMemoRequestItem.NetAmount` |
-| `CreditMemoRequestItem.TransactionCurrency` | `CreditMemoRequestItem.TransactionCurrency` |
-| `CreditMemoRequestItem.ItemBillingBlockReason` | `CreditMemoRequestItem.ItemBillingBlockReason` |
-| `CreditMemoRequestItem.Plant` | `CreditMemoRequestItem.Plant` |
-| `CreditMemoRequestItem.TargetQuantity` | `CreditMemoRequestItem.TargetQuantity` |
-| `CreditMemoRequestItem.TargetQuantityUnit` | `CreditMemoRequestItem.TargetQuantityUnit` |
-| `CreditMemoRequestItem.ItemGrossWeight` | `CreditMemoRequestItem.ItemGrossWeight` |
-| `CreditMemoRequestItem.ItemNetWeight` | `CreditMemoRequestItem.ItemNetWeight` |
-| `CreditMemoRequestItem.ItemWeightUnit` | `CreditMemoRequestItem.ItemWeightUnit` |
-| `CreditMemoRequestItem.ItemVolume` | `CreditMemoRequestItem.ItemVolume` |
-| `CreditMemoRequestItem.ItemVolumeUnit` | `CreditMemoRequestItem.ItemVolumeUnit` |
-| `CreditMemoRequestItem.ServicesRenderedDate` | `CreditMemoRequestItem.ServicesRenderedDate` |
-| `CreditMemoRequestItem.SalesDocumentRjcnReason` | `CreditMemoRequestItem.SalesDocumentRjcnReason` |
-| `CreditMemoRequestItem.TaxAmount` | `CreditMemoRequestItem.TaxAmount` |
-| `CreditMemoRequestItem.IncotermsClassification` | `CreditMemoRequestItem.IncotermsClassification` |
-| `CreditMemoRequestItem.IncotermsLocation1` | `CreditMemoRequestItem.IncotermsLocation1` |
-| `CreditMemoRequestItem.IncotermsLocation2` | `CreditMemoRequestItem.IncotermsLocation2` |
-| `CreditMemoRequestItem.IncotermsVersion` | `CreditMemoRequestItem.IncotermsVersion` |
-| `CreditMemoRequestItem.BillingDocumentDate` | `CreditMemoRequestItem.BillingDocumentDate` |
-| `CreditMemoRequestItem.CustomerPaymentTerms` | `CreditMemoRequestItem.CustomerPaymentTerms` |
-| `CreditMemoRequestItem.ProfitCenter` | `CreditMemoRequestItem.ProfitCenter` |
-| `CreditMemoRequestItem.ReferenceSDDocument` | `CreditMemoRequestItem.ReferenceSDDocument` |
-| `CreditMemoRequestItem.ReferenceSDDocumentItem` | `CreditMemoRequestItem.ReferenceSDDocumentItem` |
-| `CreditMemoRequestItem.SDProcessStatus` | `CreditMemoRequestItem.SDProcessStatus` |
-| `CreditMemoRequestItem.OrderRelatedBillingStatus` | `CreditMemoRequestItem.OrderRelatedBillingStatus` |
-| `CreditMemoRequestItem.BillingBlockStatus` | `CreditMemoRequestItem.BillingBlockStatus` |
-| `CreditMemoRequestItem.ItemGeneralIncompletionStatus` | `CreditMemoRequestItem.ItemGeneralIncompletionStatus` |
-| `CreditMemoRequestItem.SDDocumentRejectionStatus` | `CreditMemoRequestItem.SDDocumentRejectionStatus` |
-| `CreditMemoRequestItem.TotalSDDocReferenceStatus` | `CreditMemoRequestItem.TotalSDDocReferenceStatus` |
-| `CreditMemoRequestItem.CreditMemoRequestType` | `CreditMemoRequestItem.CreditMemoRequestType` |
-| `CreditMemoRequestItem.OrganizationDivision` | `CreditMemoRequestItem.OrganizationDivision` |
-| `CreditMemoRequestItem.SalesOrganization` | `CreditMemoRequestItem.SalesOrganization` |
-| `CreditMemoRequestItem.DistributionChannel` | `CreditMemoRequestItem.DistributionChannel` |
-| `_CreditMemoRequest  : redirected to parent I_CreditMemoRequestTP` | *Association* |
-| `_ItemPartner        : redirected to composition child I_CreditMemoReqItemPartnerTP` | *Association* |
-| `_ItemText           : redirected to composition child I_CreditMemoRequestItemTextTP` | *Association* |
-| `_ItemPricingElement : redirected to composition child I_CrdtMemoReqItmPrcgElmntTP` | *Association* |
+| `CreditMemoRequest` | `CreditMemoRequestItem.CreditMemoRequest` |
+| `CreditMemoRequestItem` | `CreditMemoRequestItem.CreditMemoRequestItem` |
+| `HigherLevelItem` | `CreditMemoRequestItem.HigherLevelItem` |
+| `CreditMemoRequestItemCategory` | `CreditMemoRequestItem.CreditMemoRequestItemCategory` |
+| `CreditMemoRequestItemText` | `CreditMemoRequestItem.CreditMemoRequestItemText` |
+| `PurchaseOrderByCustomer` | `CreditMemoRequestItem.PurchaseOrderByCustomer` |
+| `Product` | `CreditMemoRequestItem.Product` |
+| `MaterialByCustomer` | `CreditMemoRequestItem.MaterialByCustomer` |
+| `ProductGroup` | `CreditMemoRequestItem.ProductGroup` |
+| `MaterialPricingGroup` | `CreditMemoRequestItem.MaterialPricingGroup` |
+| `Batch` | `CreditMemoRequestItem.Batch` |
+| `PricingDate` | `CreditMemoRequestItem.PricingDate` |
+| `RequestedQuantity` | `CreditMemoRequestItem.RequestedQuantity` |
+| `RequestedQuantityUnit` | `CreditMemoRequestItem.RequestedQuantityUnit` |
+| `NetAmount` | `CreditMemoRequestItem.NetAmount` |
+| `TransactionCurrency` | `CreditMemoRequestItem.TransactionCurrency` |
+| `ItemBillingBlockReason` | `CreditMemoRequestItem.ItemBillingBlockReason` |
+| `Plant` | `CreditMemoRequestItem.Plant` |
+| `TargetQuantity` | `CreditMemoRequestItem.TargetQuantity` |
+| `TargetQuantityUnit` | `CreditMemoRequestItem.TargetQuantityUnit` |
+| `ItemGrossWeight` | `CreditMemoRequestItem.ItemGrossWeight` |
+| `ItemNetWeight` | `CreditMemoRequestItem.ItemNetWeight` |
+| `ItemWeightUnit` | `CreditMemoRequestItem.ItemWeightUnit` |
+| `ItemVolume` | `CreditMemoRequestItem.ItemVolume` |
+| `ItemVolumeUnit` | `CreditMemoRequestItem.ItemVolumeUnit` |
+| `ServicesRenderedDate` | `CreditMemoRequestItem.ServicesRenderedDate` |
+| `SalesDocumentRjcnReason` | `CreditMemoRequestItem.SalesDocumentRjcnReason` |
+| `TaxAmount` | `CreditMemoRequestItem.TaxAmount` |
+| `IncotermsClassification` | `CreditMemoRequestItem.IncotermsClassification` |
+| `IncotermsLocation1` | `CreditMemoRequestItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `CreditMemoRequestItem.IncotermsLocation2` |
+| `IncotermsVersion` | `CreditMemoRequestItem.IncotermsVersion` |
+| `BillingDocumentDate` | `CreditMemoRequestItem.BillingDocumentDate` |
+| `CustomerPaymentTerms` | `CreditMemoRequestItem.CustomerPaymentTerms` |
+| `ProfitCenter` | `CreditMemoRequestItem.ProfitCenter` |
+| `ReferenceSDDocument` | `CreditMemoRequestItem.ReferenceSDDocument` |
+| `ReferenceSDDocumentItem` | `CreditMemoRequestItem.ReferenceSDDocumentItem` |
+| `SDProcessStatus` | `CreditMemoRequestItem.SDProcessStatus` |
+| `OrderRelatedBillingStatus` | `CreditMemoRequestItem.OrderRelatedBillingStatus` |
+| `BillingBlockStatus` | `CreditMemoRequestItem.BillingBlockStatus` |
+| `ItemGeneralIncompletionStatus` | `CreditMemoRequestItem.ItemGeneralIncompletionStatus` |
+| `SDDocumentRejectionStatus` | `CreditMemoRequestItem.SDDocumentRejectionStatus` |
+| `TotalSDDocReferenceStatus` | `CreditMemoRequestItem.TotalSDDocReferenceStatus` |
+| `CreditMemoRequestType` | `CreditMemoRequestItem.CreditMemoRequestType` |
+| `OrganizationDivision` | `CreditMemoRequestItem.OrganizationDivision` |
+| `SalesOrganization` | `CreditMemoRequestItem.SalesOrganization` |
+| `DistributionChannel` | `CreditMemoRequestItem.DistributionChannel` |
 
 ## Associations
 

@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_wh_procg_status preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdWhseProcessingStatus` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_wh_procg_status preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_wh_procg_sts_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdWhseProcgStatusDesc` | `cast(ddtext as /scmtms/vdm_wh_procg_sts_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdWhseProcgStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdWhseProcgStatus` | `I_TranspOrdWhseProcgStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

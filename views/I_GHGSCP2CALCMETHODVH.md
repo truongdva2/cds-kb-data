@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGScope2CalculationMethod` | `GHGScope2CalculationMethod` |
+| `GHGScope2CalculationMethod` | `GHGScope2CalculationMethod` |
 | `_Text` | *Association* |
 
 ## Associations

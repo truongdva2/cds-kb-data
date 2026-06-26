@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
-| `key InspectionCharacteristic` | `InspectionCharacteristic` |
+| `InspectionLot` | `InspectionLot` |
+| `InspPlanOperationInternalID` | `InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `InspectionCharacteristic` |
 | `InspectionSpecificationText` | `InspectionSpecificationText` |
 | `HasInspCharcPrtlSmpl` | `HasInspCharcPrtlSmpl` |
 | `InspSpecIsQuantitative` | `InspSpecIsQuantitative` |
@@ -112,10 +112,6 @@ tags:
 | `ProductionOrderOpActyVers` | `ProductionOrderOpActyVers` |
 | `InspCharcConfirmationNumber` | `InspCharcConfirmationNumber` |
 | `InspCharcCreationDate` | `InspCharcCreationDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot       : redirected to I_InspectionLotTP_2` | *Association* |
-| `_InspectionOperation : redirected to parent I_InspectionOperationTP_2` | *Association* |
-| `_InspectionResult    : redirected to composition child I_InspectionResultTP_2` | *Association* |
 
 ## Associations
 

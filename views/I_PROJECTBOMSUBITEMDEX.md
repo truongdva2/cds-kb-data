@@ -35,11 +35,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialCategory` | `BillOfMaterialCategory` |
-| `key BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
-| `key BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
-| `key BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
+| `BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
+| `BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
 | `BillOfMaterialItemUnit` | `BillOfMaterialItemUnit` |
 | `BillOfMaterialSubItemQuantity` | `BillOfMaterialSubItemQuantity` |
 | `BOMSubItemInstallationPoint` | `BOMSubItemInstallationPoint` |

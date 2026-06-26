@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSegmentForElimVH'` | `name: 'I_CnsldtnSegmentForElimVH'` |
-| `element: 'Segment'` | `element: 'Segment'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key           Segment` | `Segment` |
+| `Language` | `Language` |
+| `Segment` | `Segment` |
 | `SegmentName` | `SegmentName` |
-| `/* associations */` | `/* associations */` |
 | `_Segment` | *Association* |
 | `_Language` | *Association* |
 

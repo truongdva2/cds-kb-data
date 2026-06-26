@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key Plant` | `Plant` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
 | `ProfileCode` | `ProfileCode` |
 | `ProfileValidityStartDate` | `ProfileValidityStartDate` |
 | `FiscalYearVariant` | `FiscalYearVariant` |
@@ -59,23 +59,6 @@ tags:
 | `ProductMaxControlTemperature` | `ProductMaxControlTemperature` |
 | `ProductControlTemperatureUnit` | `ProductControlTemperatureUnit` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product                       : redirected to parent I_ProductTP_2` | *Association* |
-| `_ProductPlantWorkScheduling    : redirected to composition child I_ProdPlantWorkSchedulingTP_2` | *Association* |
-| `_ProductPlantCosting           : redirected to composition child I_ProductPlantCostingTP_2` | *Association* |
-| `_ProductPlantSupplyPlanning    : redirected to composition child I_ProdPlantSupplyPlanningTP_2` | *Association* |
-| `_ProductPlantPurchaseTax       : redirected to composition child I_ProductPlantPurchaseTaxTP_2` | *Association* |
-| `_ProductPlantQualityManagement : redirected to composition child I_ProdPlntQltyManagementTP_2` | *Association* |
-| `_ProductPlantProcurement       : redirected to composition child I_ProductPlantProcurementTP_2` | *Association* |
-| `_ProductPlantSales             : redirected to composition child I_ProductPlantSalesTP_2` | *Association* |
-| `_ProdPlantInternationalTrade   : redirected to composition child I_ProdPlntIntlTradeTP_2` | *Association* |
-| `_ProductPlantForecast          : redirected to composition child I_ProductPlantForecastTP_2` | *Association* |
-| `_ProductPlantStorage           : redirected to composition child I_ProductPlantStorageTP_2` | *Association* |
-| `_ProductPlantStorageLocation   : redirected to composition child I_ProdPlantStorageLocationTP_2` | *Association* |
-| `_ProductPlantMRP               : redirected to composition child I_ProductPlantMRPTP_2` | *Association* |
-| `_ProductPlantInspTypeSetting   : redirected to composition child I_ProdPlntInspTypeSettingTP_2` | *Association* |
-| `_ProductPlantPlanning          : redirected to composition child I_ProductPlantPlanningTP_2` | *Association* |
-| `_ProdPlntMRPText               : redirected to composition child I_ProdPlntMRPTextTP_2` | *Association* |
 
 ## Associations
 

@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceOrderTemplate` | `ServiceOrderTemplate` |
-| `key ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `ServiceOrderTemplateItem` | `ServiceOrderTemplateItem` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
-| `_ServiceOrderTemplateItemTP : redirected to parent I_ServiceOrderTemplateItemTP` | *Association* |
-| `_ServiceOrderTemplateTP     : redirected to I_ServiceOrderTemplateTP` | *Association* |
 
 ## Associations
 

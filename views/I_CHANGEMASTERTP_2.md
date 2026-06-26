@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ChangeNumberStatus` | `ChangeNumberStatus` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `ChangeNumberFunction` | `ChangeNumberFunction` |
@@ -49,12 +49,6 @@ tags:
 | `ChangeNumberIsMrkdForDeletion` | `ChangeNumberIsMrkdForDeletion` |
 | `ChangeNumberLastChgdDateTime` | `ChangeNumberLastChgdDateTime` |
 | `_ChangeNumberStatus` | *Association* |
-| `_AlternativeDate             : redirected to composition child I_ChangeMasterAltDateTP_2` | *Association* |
-| `_ObjTypeAssignment           : redirected to composition child I_ChgMstrObjTypeAssgmtTP_2` | *Association* |
-| `_ChangeMstrObjectMgmtRecord  : redirected to composition child I_ChgMstrObjectMgmtRecordTP_2` | *Association* |
-| `_ChangeMstrObMgReMaterial    : redirected to composition child I_ChgMstrObMgReMaterialTP_2` | *Association* |
-| `_ChangeMstrObMgReMatlBOM     : redirected to composition child I_ChgMstrObMgReMatlBOMTP_2` | *Association* |
-| `_ChangeMstrObMgReDocInfoRecd : redirected to composition child I_ChgMstrObMgReDocInfoRecdTP_2` | *Association* |
 | `_LogAccMObjectTypeActive` | *Association* |
 | `_LogAccMObjectUserAuthzn` | *Association* |
 | `_LogAccMObjSecureIDAssgmt` | *Association* |

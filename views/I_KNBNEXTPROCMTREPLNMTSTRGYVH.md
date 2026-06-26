@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `key Plant` | `Plant` |
+| `ExtProcurementReplnmtStrgy` | `ExtProcurementReplnmtStrgy` |
+| `Plant` | `Plant` |
 | `_Text` | *Association* |
 | `_Plant` | *Association* |
 

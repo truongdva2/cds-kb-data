@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `UniqueItemIdentifier : vdm_uii_char72;` | `UniqueItemIdentifier : vdm_uii_char72;` |
+| `UniqueItemIdentifier` | `vdm_uii_char72` |
 
 ## Associations
 

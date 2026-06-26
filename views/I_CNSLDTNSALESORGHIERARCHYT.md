@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   _HierarchyText.Language` | `_HierarchyText.Language` |
-| `fincs_salesorghierarchy preserving type )` | `cast(_HierarchyText.UniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `fincs_salesorghierarchytext preserving type )` | `cast(_HierarchyText.UniversalHierarchyText` |
+| `Language` | `_HierarchyText.Language` |
+| `CnsldtnSalesOrgHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnSalesOrgHierarchyText` | `cast(…)` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

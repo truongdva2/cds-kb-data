@@ -33,34 +33,32 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SlsQtanItemPricingElement.SalesQuotation` | `SlsQtanItemPricingElement.SalesQuotation` |
-| `key SlsQtanItemPricingElement.SalesQuotationItem` | `SlsQtanItemPricingElement.SalesQuotationItem` |
-| `key SlsQtanItemPricingElement.PricingProcedureStep` | `SlsQtanItemPricingElement.PricingProcedureStep` |
-| `key SlsQtanItemPricingElement.PricingProcedureCounter` | `SlsQtanItemPricingElement.PricingProcedureCounter` |
-| `SlsQtanItemPricingElement.ConditionApplication` | `SlsQtanItemPricingElement.ConditionApplication` |
-| `SlsQtanItemPricingElement.ConditionType` | `SlsQtanItemPricingElement.ConditionType` |
-| `SlsQtanItemPricingElement.ConditionTypeName` | `SlsQtanItemPricingElement.ConditionTypeName` |
-| `SlsQtanItemPricingElement.ConditionCalculationType` | `SlsQtanItemPricingElement.ConditionCalculationType` |
-| `SlsQtanItemPricingElement.ConditionRateAmount` | `SlsQtanItemPricingElement.ConditionRateAmount` |
-| `SlsQtanItemPricingElement.ConditionCurrency` | `SlsQtanItemPricingElement.ConditionCurrency` |
-| `SlsQtanItemPricingElement.ConditionRateRatio` | `SlsQtanItemPricingElement.ConditionRateRatio` |
-| `SlsQtanItemPricingElement.ConditionRateRatioUnit` | `SlsQtanItemPricingElement.ConditionRateRatioUnit` |
-| `SlsQtanItemPricingElement.ConditionBaseAmount` | `SlsQtanItemPricingElement.ConditionBaseAmount` |
-| `SlsQtanItemPricingElement.ConditionAmount` | `SlsQtanItemPricingElement.ConditionAmount` |
-| `SlsQtanItemPricingElement.TransactionCurrency` | `SlsQtanItemPricingElement.TransactionCurrency` |
-| `SlsQtanItemPricingElement.ConditionBaseQuantity` | `SlsQtanItemPricingElement.ConditionBaseQuantity` |
-| `SlsQtanItemPricingElement.ConditionQuantity` | `SlsQtanItemPricingElement.ConditionQuantity` |
-| `SlsQtanItemPricingElement.ConditionQuantityUnit` | `SlsQtanItemPricingElement.ConditionQuantityUnit` |
-| `SlsQtanItemPricingElement.ConditionIsForStatistics` | `SlsQtanItemPricingElement.ConditionIsForStatistics` |
-| `SlsQtanItemPricingElement.ConditionIsManuallyChanged` | `SlsQtanItemPricingElement.ConditionIsManuallyChanged` |
-| `SlsQtanItemPricingElement.ConditionInactiveReason` | `SlsQtanItemPricingElement.ConditionInactiveReason` |
-| `SlsQtanItemPricingElement.ConditionOrigin` | `SlsQtanItemPricingElement.ConditionOrigin` |
-| `SlsQtanItemPricingElement.SalesQuotationType` | `SlsQtanItemPricingElement.SalesQuotationType` |
-| `SlsQtanItemPricingElement.SalesOrganization` | `SlsQtanItemPricingElement.SalesOrganization` |
-| `SlsQtanItemPricingElement.DistributionChannel` | `SlsQtanItemPricingElement.DistributionChannel` |
-| `SlsQtanItemPricingElement.OrganizationDivision` | `SlsQtanItemPricingElement.OrganizationDivision` |
-| `_Item           : redirected to parent I_SalesQuotationItemTP` | *Association* |
-| `_SalesQuotation : redirected to I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SlsQtanItemPricingElement.SalesQuotation` |
+| `SalesQuotationItem` | `SlsQtanItemPricingElement.SalesQuotationItem` |
+| `PricingProcedureStep` | `SlsQtanItemPricingElement.PricingProcedureStep` |
+| `PricingProcedureCounter` | `SlsQtanItemPricingElement.PricingProcedureCounter` |
+| `ConditionApplication` | `SlsQtanItemPricingElement.ConditionApplication` |
+| `ConditionType` | `SlsQtanItemPricingElement.ConditionType` |
+| `ConditionTypeName` | `SlsQtanItemPricingElement.ConditionTypeName` |
+| `ConditionCalculationType` | `SlsQtanItemPricingElement.ConditionCalculationType` |
+| `ConditionRateAmount` | `SlsQtanItemPricingElement.ConditionRateAmount` |
+| `ConditionCurrency` | `SlsQtanItemPricingElement.ConditionCurrency` |
+| `ConditionRateRatio` | `SlsQtanItemPricingElement.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `SlsQtanItemPricingElement.ConditionRateRatioUnit` |
+| `ConditionBaseAmount` | `SlsQtanItemPricingElement.ConditionBaseAmount` |
+| `ConditionAmount` | `SlsQtanItemPricingElement.ConditionAmount` |
+| `TransactionCurrency` | `SlsQtanItemPricingElement.TransactionCurrency` |
+| `ConditionBaseQuantity` | `SlsQtanItemPricingElement.ConditionBaseQuantity` |
+| `ConditionQuantity` | `SlsQtanItemPricingElement.ConditionQuantity` |
+| `ConditionQuantityUnit` | `SlsQtanItemPricingElement.ConditionQuantityUnit` |
+| `ConditionIsForStatistics` | `SlsQtanItemPricingElement.ConditionIsForStatistics` |
+| `ConditionIsManuallyChanged` | `SlsQtanItemPricingElement.ConditionIsManuallyChanged` |
+| `ConditionInactiveReason` | `SlsQtanItemPricingElement.ConditionInactiveReason` |
+| `ConditionOrigin` | `SlsQtanItemPricingElement.ConditionOrigin` |
+| `SalesQuotationType` | `SlsQtanItemPricingElement.SalesQuotationType` |
+| `SalesOrganization` | `SlsQtanItemPricingElement.SalesOrganization` |
+| `DistributionChannel` | `SlsQtanItemPricingElement.DistributionChannel` |
+| `OrganizationDivision` | `SlsQtanItemPricingElement.OrganizationDivision` |
 
 ## Associations
 

@@ -31,27 +31,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductionOrderTypeStdVH', element: 'ProductionOrderType' } } ]` | `name: 'I_ProductionOrderTypeStdVH', element: 'ProductionOrderType' } } ]` |
-| `item.ProductionOrderType` | `item.ProductionOrderType` |
-| `item.SerialNumberProfile` | `item.SerialNumberProfile` |
-| `sern.SerialNumberAssignmentDate` | `sern.SerialNumberAssignmentDate` |
+| `ProductionOrder` | `item.ProductionOrder` |
+| `ProductionOrderItem` | `item.ProductionOrderItem` |
+| `SerialNumber` | `-- representative key key cast(objk.SerialNumber as gernr preserving type)` |
+| `MaintenanceItemObjectList` | `objk.MaintenanceItemObjectList` |
+| `MaintenanceItemObject` | `objk.MaintenanceItemObject` |
+| `Equipment` | `cast(objk.Equipment as equnr preserving type)` |
+| `Product` | `item.Product` |
+| `ProductionPlant` | `item.ProductionPlant` |
+| `PlanningPlant` | `item.PlanningPlant` |
+| `ProductionOrderType` | `item.ProductionOrderType` |
+| `SerialNumberProfile` | `-- item.SerialNumberProfile` |
+| `SerialNumberAssignmentDate` | `sern.SerialNumberAssignmentDate` |
 | `_ProductionOrder` | *Association* |
 | `_ProductionOrderItem` | *Association* |
 | `_Equipment` | *Association* |
-| `item._ProductionOrderType` | `item._ProductionOrderType` |
-| `item._Product` | `item._Product` |
-| `item._ProductionPlant` | `item._ProductionPlant` |
-| `item._PlanningPlant` | `item._PlanningPlant` |
-| `item._SerialNumberProfile` | `item._SerialNumberProfile` |
-| `_EquipmentText` | *Association* |
-| `item._ProductText` | `item._ProductText` |
-| `item._ProductionPlantText` | `item._ProductionPlantText` |
-| `item._PlanningPlantText` | `item._PlanningPlantText` |
+| `_ProductionOrderType` | *Association* |
+| `_Product` | *Association* |
+| `_ProductionPlant` | *Association* |
+| `_PlanningPlant` | *Association* |
+| `_SerialNumberProfile` | *Association* |
+| `_ProductText` | *Association* |
+| `_ProductionPlantText` | *Association* |
+| `_PlanningPlantText` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProductionOrderItem` | `I_ProductionOrderItem` | — |
 | `_ProductionOrder` | `I_ProductionOrder` | [1..1] |
 | `_Equipment` | `I_Equipment` | [1..1] |
 | `_EquipmentText` | `I_EquipmentText` | [0..*] |

@@ -32,23 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _QualityNotificationPartner.QualityNotification` | `_QualityNotificationPartner.QualityNotification` |
-| `key _QualityNotificationPartner.PartnerFunction` | `_QualityNotificationPartner.PartnerFunction` |
-| `key _QualityNotificationPartner.NotificationPartnerObjectNmbr` | `_QualityNotificationPartner.NotificationPartnerObjectNmbr` |
-| `_QualityNotificationPartner.NotificationPartnerObject` | *Association* |
-| `_QualityNotificationPartner.NotificationObjectType` | *Association* |
-| `_QualityNotificationPartner.NotificationPartner` | *Association* |
-| `_QualityNotificationPartner.CreatedByUser` | *Association* |
-| `_QualityNotificationPartner.CreationDate` | *Association* |
-| `_QualityNotificationPartner.CreationTime` | *Association* |
-| `_QualityNotificationPartner.LastChangedByUser` | *Association* |
-| `_QualityNotificationPartner.LastChangeTime` | *Association* |
-| `_QualityNotificationPartner.LastChangeDate` | *Association* |
-| `_QualityNotificationPartner.IsDeleted` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_QualityNotificationPartner._QltyNotification : redirected to parent I_QltyNotificationTP` | *Association* |
-| `_QualityNotificationPartner._Notification` | *Association* |
-| `_QualityNotificationPartner._PartnerFunction` | *Association* |
+| `QualityNotification` | `_QualityNotificationPartner.QualityNotification` |
+| `PartnerFunction` | `_QualityNotificationPartner.PartnerFunction` |
+| `NotificationPartnerObjectNmbr` | `_QualityNotificationPartner.NotificationPartnerObjectNmbr` |
+| `NotificationPartnerObject` | `_QualityNotificationPartner.NotificationPartnerObject` |
+| `NotificationObjectType` | `_QualityNotificationPartner.NotificationObjectType` |
+| `NotificationPartner` | `_QualityNotificationPartner.NotificationPartner` |
+| `CreatedByUser` | `_QualityNotificationPartner.CreatedByUser` |
+| `CreationDate` | `_QualityNotificationPartner.CreationDate` |
+| `CreationTime` | `_QualityNotificationPartner.CreationTime` |
+| `LastChangedByUser` | `_QualityNotificationPartner.LastChangedByUser` |
+| `LastChangeTime` | `_QualityNotificationPartner.LastChangeTime` |
+| `LastChangeDate` | `_QualityNotificationPartner.LastChangeDate` |
+| `IsDeleted` | `_QualityNotificationPartner.IsDeleted` |
+| `_Notification` | *Association* |
+| `_PartnerFunction` | *Association* |
 
 ## Associations
 

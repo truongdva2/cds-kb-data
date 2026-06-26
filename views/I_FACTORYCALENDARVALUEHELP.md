@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  FactoryCalendarID` | `FactoryCalendarID` |
+| `FactoryCalendarID` | `FactoryCalendarID` |
 | `FactoryCalendarLegacyID` | `FactoryCalendarLegacyID` |
 | `FctryCalendarValidityStartDate` | `FctryCalendarValidityStartDate` |
 | `FactoryCalendarValidityEndDate` | `FactoryCalendarValidityEndDate` |

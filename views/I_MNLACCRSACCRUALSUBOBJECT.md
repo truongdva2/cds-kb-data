@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Accrual.AccrualEngineAccrualObjectType` | `_Accrual.AccrualEngineAccrualObjectType` |
-| `key _Accrual.AccrualObjectLogicalSystem` | `_Accrual.AccrualObjectLogicalSystem` |
+| `AccrualEngineAccrualObjectType` | `_Accrual.AccrualEngineAccrualObjectType` |
+| `AccrualObjectLogicalSystem` | `_Accrual.AccrualObjectLogicalSystem` |
 | `CompanyCode` | `_Accrual.CompanyCode` |
 | `AccrualObject` | `_Accrual.AccrualObject` |
 | `AccrualSubobject` | `_ManualAccrual.ref_subkey` |
@@ -41,26 +41,24 @@ tags:
 | `AccrualObjectDescription` | `text` |
 | `PersonResponsible` | `acac_resperson` |
 | `PersonResponsibleName` | `acac_resperson` |
-| `_Accrual.AccrualObjectInternalID` | *Association* |
-| `_Accrual.AccrualSubobjectInternalID` | *Association* |
-| `_Accrual.AccrSubobjPrematureFinishDate` | *Association* |
-| `_Accrual.AccrSubobjPauseDate` | *Association* |
-| `_Accrual.AccrSubobjSuspensionDate` | *Association* |
-| `_Accrual.AccrSubobjectLifeCycleStatus` | *Association* |
-| `/* admin infor */` | `/* admin infor */` |
-| `_Accrual.AccrualSubobjectCreatedByUser` | *Association* |
-| `_Accrual.AccrualSubobjectCreationDate` | *Association* |
-| `_Accrual.AccrualSubobjectCreationTime` | *Association* |
-| `_Accrual.AccrSubobjLastChangedByUser` | *Association* |
-| `_Accrual.AccrualSubobjectLastChangeDate` | *Association* |
-| `_Accrual.AccrualSubobjectLastChangeTime` | *Association* |
-| `/*Etag */` | `/*Etag */` |
-| `_Accrual.AccrSubobjLastChangeDateTime` | *Association* |
-| `_Accrual._AccrLifeCycleStatus` | *Association* |
-| `_Accrual._AccrObjectType` | *Association* |
-| `_Accrual._AccrLogicalSystem` | *Association* |
-| `_Accrual._AccrCompanyCode` | *Association* |
-| `_Accrual._AccrObj` | *Association* |
+| `AccrualObjectInternalID` | `_Accrual.AccrualObjectInternalID` |
+| `AccrualSubobjectInternalID` | `_Accrual.AccrualSubobjectInternalID` |
+| `AccrSubobjPrematureFinishDate` | `_Accrual.AccrSubobjPrematureFinishDate` |
+| `AccrSubobjPauseDate` | `_Accrual.AccrSubobjPauseDate` |
+| `AccrSubobjSuspensionDate` | `_Accrual.AccrSubobjSuspensionDate` |
+| `AccrSubobjectLifeCycleStatus` | `_Accrual.AccrSubobjectLifeCycleStatus` |
+| `AccrualSubobjectCreatedByUser` | `_Accrual.AccrualSubobjectCreatedByUser` |
+| `AccrualSubobjectCreationDate` | `_Accrual.AccrualSubobjectCreationDate` |
+| `AccrualSubobjectCreationTime` | `_Accrual.AccrualSubobjectCreationTime` |
+| `AccrSubobjLastChangedByUser` | `_Accrual.AccrSubobjLastChangedByUser` |
+| `AccrualSubobjectLastChangeDate` | `_Accrual.AccrualSubobjectLastChangeDate` |
+| `AccrualSubobjectLastChangeTime` | `_Accrual.AccrualSubobjectLastChangeTime` |
+| `AccrSubobjLastChangeDateTime` | `_Accrual.AccrSubobjLastChangeDateTime` |
+| `_AccrLifeCycleStatus` | *Association* |
+| `_AccrObjectType` | *Association* |
+| `_AccrLogicalSystem` | *Association* |
+| `_AccrCompanyCode` | *Association* |
+| `_AccrObj` | *Association* |
 
 ## Associations
 

@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DerivativeContrSpecification` | `DerivativeContrSpecification` |
-| `key MarketIdentifierCode` | `MarketIdentifierCode` |
-| `key MaturityKeyDate` | `MaturityKeyDate` |
-| `key PriceQuotationType` | `PriceQuotationType` |
-| `key PriceQuotationDate` | `PriceQuotationDate` |
-| `key PriceQuotationTime` | `PriceQuotationTime` |
-| `key ValidityStartUTCDateTime` | `ValidityStartUTCDateTime` |
+| `DerivativeContrSpecification` | `DerivativeContrSpecification` |
+| `MarketIdentifierCode` | `MarketIdentifierCode` |
+| `MaturityKeyDate` | `MaturityKeyDate` |
+| `PriceQuotationType` | `PriceQuotationType` |
+| `PriceQuotationDate` | `PriceQuotationDate` |
+| `PriceQuotationTime` | `PriceQuotationTime` |
+| `ValidityStartUTCDateTime` | `ValidityStartUTCDateTime` |
 | `TimeToMaturity` | `TimeToMaturity` |
 | `PriceQuotation` | `PriceQuotation` |
 | `UnitOfMeasure` | `UnitOfMeasure` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_vehiclefueltype preserving type )` | `cast ( tpcomb` |
+| `VehicleFuelType` | `cast ( tpcomb as logbr_vehiclefueltype preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CADocumentNumber` | `CADocumentNumber` |
+| `CADocumentNumber` | `CADocumentNumber` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
@@ -67,8 +67,6 @@ tags:
 | `CADocumentVersion` | `CADocumentVersion` |
 | `IsIndividualPosting` | `IsIndividualPosting` |
 | `CADocumentIsAged` | `CADocumentIsAged` |
-| `/* Associations */` | `/* Associations */` |
-| `_BPItem : redirected to composition child I_CADocumentBPItemTP` | *Association* |
 
 ## Associations
 

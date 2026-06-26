@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdvdmcalcmethper )` | `cast( dd07l.domvalue_l` |
+| `REProRataMethodCalc` | `cast( dd07l.domvalue_l as recdvdmcalcmethper )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REProRataMethodCalcText` | [0..*] |
 
 ## Source Code
 

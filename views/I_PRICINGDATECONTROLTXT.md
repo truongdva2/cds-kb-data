@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `meprf )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `PricingDateControl` | `cast ( substring( domvalue_l, 1, 1 ) as meprf )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `PricingDateControlText` | `dd07t.ddtext` |
 | `_PricingDateControl` | *Association* |
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PricingDateControl` | `I_PricingDateControl` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

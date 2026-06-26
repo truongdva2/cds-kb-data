@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnProductGroup.ProductGroup` | `_CnsldtnProductGroup.ProductGroup` |
-| `_CnsldtnProductGroup.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnProductGroupTextTP` | *Association* |
+| `ProductGroup` | `_CnsldtnProductGroup.ProductGroup` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnProductGroup.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

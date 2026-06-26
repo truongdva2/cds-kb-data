@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, fuzzinessThreshold: 0.8}` |
 | `MRPProfile` | `dispr` |
 | `_Text` | *Association* |
 

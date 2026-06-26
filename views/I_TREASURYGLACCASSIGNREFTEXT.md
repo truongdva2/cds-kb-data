@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `TreasuryGLAccountAssignmentRef` | `TreasuryGLAccAssignRefText.aa_ref` |
 | `Language` | `TreasuryGLAccAssignRefText.spras` |
-| `ftr_gen_accnt_assign_ref_name preserving type)` | `cast(TreasuryGLAccAssignRefText.aa_ref_name` |
+| `TreasuryGLAccountAssignRefName` | `cast(…)` |
 | `_TreasuryGLAccountAssignRef` | *Association* |
 | `_Language` | *Association* |
 

@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_nfpartnertype preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_nfpartnertypedescription preserving type )` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFPartnerType` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_nfpartnertype preserving type )` |
+| `BR_NFPartnerTypeDesc` | `cast(ddtext as logbr_nfpartnertypedescription preserving type )` |
 | `_BR_NFPartnerType` | *Association* |
 | `_Language` | *Association* |
 

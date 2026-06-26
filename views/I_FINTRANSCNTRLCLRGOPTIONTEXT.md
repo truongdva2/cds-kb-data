@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `tpm_trea_clearing_opt )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `FinTransCentralClearingOption` | `cast( dd07t.domvalue_l as tpm_trea_clearing_opt )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `tpm_trea_clearing_opt_name preserving type )` | `cast( dd07t.ddtext` |
+| `FinTransCntrlClrgOptionName` | `cast( dd07t.ddtext as tpm_trea_clearing_opt_name preserving type )` |
 | `_CentralClearingOption` | *Association* |
 | `_Language` | *Association* |
 

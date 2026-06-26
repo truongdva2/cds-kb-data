@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_auskt preserving type)` | `cast(auskt` |
-| `vdm_aspri preserving type)` | `cast(aspri` |
-| `selgp     preserving type)` | `cast(selgp` |
+| `MRPExceptionMessage` | `cast(aussl as vdm_aussl preserving type)` |
+| `MRPExceptionMessageNumber` | `cast(auskt as vdm_auskt preserving type)` |
+| `MRPExceptionMessagePriority` | `cast(aspri as vdm_aspri preserving type)` |
+| `MRPExcptnMessageSelGroup` | `cast(selgp as selgp preserving type)` |
 | `MRPListIsToBeCreated` | `erdis` |
 | `_Text` | *Association* |
 | `_MRPExcptnMessageSelGroup` | *Association* |
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_MRPExceptionMessageText` | [0..*] |
 | `_MRPExcptnMessageSelGroup` | `I_MRPExcptnMessageSelGroup` | [0..1] |
 
 ## Source Code

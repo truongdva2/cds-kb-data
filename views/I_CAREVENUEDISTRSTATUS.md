@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rdstat_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CARevenueDistributionStatus` | `cast( left( dd07l.domvalue_l, 1 ) as rdstat_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

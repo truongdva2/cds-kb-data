@@ -31,13 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8, ranking: #HIGH }` |
+| `CABillgDocumentInvcgStatus` | `cast( dd07l.domvalue_l as invstatus_kk )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_CABillgDocInvcgStatusText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CABillgDocInvcgStatusText` | `I_CABillgDocInvcgStatusText` | [0..*] |
 
 ## Source Code
 

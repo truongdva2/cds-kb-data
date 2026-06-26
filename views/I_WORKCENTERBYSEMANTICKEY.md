@@ -31,7 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` | `name: 'I_CapacityStdVH', element: 'CapacityInternalID' } } ]` |
+| `Plant` | `Plant` |
+| `WorkCenter` | `WorkCenter` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `WorkCenterTypeCode` | `WorkCenterTypeCode` |
+| `WorkCenterIsToBeDeleted` | `WorkCenterIsToBeDeleted` |
+| `WorkCenterIsLocked` | `WorkCenterIsLocked` |
+| `WorkCenterIsMntndForCosting` | `WorkCenterIsMntndForCosting` |
+| `WorkCenterIsMntndForScheduling` | `WorkCenterIsMntndForScheduling` |
+| `NumberOfConfirmationSlips` | `NumberOfConfirmationSlips` |
+| `AdvancedPlanningIsSupported` | `AdvancedPlanningIsSupported` |
+| `LaborTrackingIsRequired` | `LaborTrackingIsRequired` |
+| `WorkCenterCategoryCode` | `WorkCenterCategoryCode` |
+| `WorkCenterLocation` | `WorkCenterLocation` |
+| `WorkCenterLocationGroup` | `WorkCenterLocationGroup` |
+| `WorkCenterUsage` | `WorkCenterUsage` |
+| `WorkCenterResponsible` | `WorkCenterResponsible` |
+| `SupplyArea` | `SupplyArea` |
 | `CapacityInternalID` | `CapacityInternalID` |
 | `MachineType` | `MachineType` |
 | `OperationControlProfile` | `OperationControlProfile` |
@@ -65,7 +81,7 @@ tags:
 | `WorkCenterStandardWorkQtyUnit4` | `WorkCenterStandardWorkQtyUnit4` |
 | `WorkCenterStandardWorkQtyUnit5` | `WorkCenterStandardWorkQtyUnit5` |
 | `WorkCenterStandardWorkQtyUnit6` | `WorkCenterStandardWorkQtyUnit6` |
-| `StandardWorkQuantityUnit, // for PM and PS` | `StandardWorkQuantityUnit, // for PM and PS` |
+| `StandardWorkQuantityUnit` | `StandardWorkQuantityUnit` |
 | `StandardWorkFormulaParamGroup` | `StandardWorkFormulaParamGroup` |
 | `WrkCtrStdValMaintRule1` | `WrkCtrStdValMaintRule1` |
 | `WrkCtrStdValMaintRule2` | `WrkCtrStdValMaintRule2` |

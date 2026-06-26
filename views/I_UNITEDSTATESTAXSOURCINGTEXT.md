@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_etxdc_sourcing)` | `cast(domvalue_l` |
-| `spras)` | `cast(ddlanguage` |
+| `UnitedStatesTaxSourcing` | `cast(domvalue_l as fis_etxdc_sourcing)` |
+| `Language` | `cast(ddlanguage as spras)` |
 | `UnitedStatesTaxSourcingName` | `ddtext` |
 | `_Language` | *Association* |
 

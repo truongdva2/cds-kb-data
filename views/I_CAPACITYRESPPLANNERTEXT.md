@@ -32,8 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `kapplanername preserving type)` | `cast(txt.txt` |
+| `CapacityResponsiblePlanner` | `cast(txt.planr as kapplaner preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `CapacityResponsiblePlannerName` | `cast(txt.txt as kapplanername preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

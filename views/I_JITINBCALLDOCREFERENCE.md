@@ -52,6 +52,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInboundCall` | `I_JITInboundCall` | — |
 | `_DeliveryDocumentItem` | `I_DeliveryDocumentItem` | [1..1] |
 | `_JITHandlingUnitHeader` | `I_JITHandlingUnitHeader` | [1..1] |
 | `_JITBusTransDocType` | `I_JITBusTransDocType` | [0..1] |

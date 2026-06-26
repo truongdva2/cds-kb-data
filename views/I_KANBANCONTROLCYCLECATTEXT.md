@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_rksta preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `controlcyclecategoryname preserving type)` | `cast(txt.ddtext` |
+| `KanbanControlCycleCategory` | `cast(substring(txt.domvalue_l, 1, 1) as pph_rksta preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `KanbanControlCycleCategoryName` | `cast(txt.ddtext as controlcyclecategoryname preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

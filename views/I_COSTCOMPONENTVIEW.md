@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostComponentView` | `CostComponentView` |
+| `CostComponentView` | `CostComponentView` |
 | `CostCompIsForSalesAndAdminCost` | `CostCompIsForSalesAndAdminCost` |
 | `CostCompIsForCOGM` | `CostCompIsForCOGM` |
 | `CostCompIsForInvtryValuation` | `CostCompIsForInvtryValuation` |

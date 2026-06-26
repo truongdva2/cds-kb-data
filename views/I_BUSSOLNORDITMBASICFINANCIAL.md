@@ -28,7 +28,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'ServiceDocItemQuantityUnit'} }` | `unitOfMeasure: 'ServiceDocItemQuantityUnit'} }` |
+| `BusinessSolutionOrder` | `ServiceDocument` |
+| `BusinessSolutionOrderItem` | `ServiceDocumentItem` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `PostingDate` | `PostingDate` |
+| `BusinessSolutionOrderItemUUID` | `ServiceDocumentItemUUID` |
+| `ServiceDocumentItemObjectType` | `ServiceDocumentItemObjectType` |
+| `BusinessSolutionOrderUUID` | `ServiceDocumentUUID` |
+| `ParentServiceDocumentItemUUID` | `ParentServiceDocumentItemUUID` |
+| `ServiceDocumentItemDescription` | `ServiceDocumentItemDescription` |
+| `Language` | `Language` |
+| `OriginallyRequestedProduct` | `OriginallyRequestedProduct` |
+| `ServiceDocItemCategory` | `ServiceDocItemCategory` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ControllingArea` | `ControllingArea` |
+| `ServiceDocumentItemNetAmount` | `ServiceDocumentItemNetAmount` |
+| `ServiceDocumentItemTaxAmount` | `ServiceDocumentItemTaxAmount` |
+| `ServiceDocItemGrossAmount` | `ServiceDocItemGrossAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
 | `ServiceDocumentItemQuantity` | `ServiceDocumentItemQuantity` |
 | `ServiceDocItemQuantityUnit` | `ServiceDocItemQuantityUnit` |
 | `RequestedServiceStartDateTime` | `RequestedServiceStartDateTime` |

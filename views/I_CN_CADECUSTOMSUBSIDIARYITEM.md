@@ -36,7 +36,7 @@ tags:
 | `CN_CADENatlStdRelVersion` | `cade_natl_std_rel_ver` |
 | `CN_CADEArchive` | `cade_archive_code` |
 | `CN_CADEArchiveDesc` | `cade_archive_desc` |
-| `abap_boolean  )` | `cast ( cade_archive_hierarchy` |
+| `CN_CADEArchiveHasHier` | `cast ( cade_archive_hierarchy as abap_boolean )` |
 | `CN_CADEArchiveCodeRule` | `cade_archive_num_rule` |
 | `CN_CADESubsidiaryItemSqncValue` | `cade_archive_sqnc_nmbr` |
 

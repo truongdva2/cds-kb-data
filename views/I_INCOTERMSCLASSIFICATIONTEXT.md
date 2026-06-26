@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `IncotermsClassification` | `inco1` |
 | `Language` | `spras` |
-| `incoterms_classification_name preserving type )` | `cast(bezei` |
+| `IncotermsClassificationName` | `cast(bezei as incoterms_classification_name preserving type )` |
 | `_IncotermsClassification` | *Association* |
 | `_Language` | *Association* |
 

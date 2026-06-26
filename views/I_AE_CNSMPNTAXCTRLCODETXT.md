@@ -41,7 +41,7 @@ tags:
 | `ConsumptionTaxCtrlCodeText5` | `text5` |
 | `_Language` | *Association* |
 | `_Country` | *Association* |
-| `_ControlCode //Make association public` | *Association* |
+| `_ControlCode` | *Association* |
 
 ## Associations
 

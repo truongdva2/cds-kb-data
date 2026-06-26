@@ -35,22 +35,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key    BillOfMaterial` | `BillOfMaterial` |
-| `key    BillOfMaterialCategory` | `BillOfMaterialCategory` |
-| `key    BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key    BillOfMaterialVersion` | `BillOfMaterialVersion` |
-| `key    BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
-| `key    HeaderChangeDocument` | `HeaderChangeDocument` |
-| `key    Material` | `Material` |
-| `key    Plant` | `Plant` |
-| `key    BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
-| `key    BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `BillOfMaterialVersion` | `BillOfMaterialVersion` |
+| `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
+| `HeaderChangeDocument` | `HeaderChangeDocument` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
+| `BOMSubItemNumberValue` | `BOMSubItemNumberValue` |
 | `BillOfMaterialItemUnit` | `BillOfMaterialItemUnit` |
 | `BillOfMaterialSubItemQuantity` | `BillOfMaterialSubItemQuantity` |
 | `BOMSubItemInstallationPoint` | `BOMSubItemInstallationPoint` |
 | `BillOfMaterialSubItemText` | `BillOfMaterialSubItemText` |
-| `_MatBOMItem : redirected to parent I_BillOfMaterialItemTP_3` | *Association* |
-| `_MatBOMHeader : redirected to I_BillOfMaterialTP_3` | *Association* |
 
 ## Associations
 

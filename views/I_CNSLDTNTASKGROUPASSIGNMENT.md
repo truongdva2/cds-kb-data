@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_consolidationversion preserving type )` | `cast( rvers` |
-| `fincs_taskgroup_fromyear preserving type )` | `cast( ryear` |
-| `fincs_taskgroup_fromperiod preserving type )` | `cast( perid` |
-| `fincs_periodcategory preserving type )` | `cast( pertp` |
-| `fincs_taskgroup_datamon preserving type )` | `cast( cacgr1` |
-| `fincs_taskgroup_consmon preserving type )` | `cast( cacgr2` |
+| `ConsolidationVersion` | `cast( rvers as fincs_consolidationversion preserving type )` |
+| `CnsldtnTskGrpAssgmtFrmFsclYear` | `cast( ryear as fincs_taskgroup_fromyear preserving type )` |
+| `CnsldtnTskGrpAssgmtFrmFsclPerd` | `cast( perid as fincs_taskgroup_fromperiod preserving type )` |
+| `ConsolidationPeriodCategory` | `cast( pertp as fincs_periodcategory preserving type )` |
+| `CnsldtnTaskGroupDataMonitor` | `cast( cacgr1 as fincs_taskgroup_datamon preserving type )` |
+| `CnsldtnTskGrpCnsldtnMonitor` | `cast( cacgr2 as fincs_taskgroup_consmon preserving type )` |
 | `_CnsldtnVersion` | *Association* |
 | `_CnsldtnPeriodCategory` | *Association* |
 | `_CnsldtnTaskGroupDataMonitor` | *Association* |

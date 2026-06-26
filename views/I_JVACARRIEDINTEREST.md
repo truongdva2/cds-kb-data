@@ -29,9 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JointVenturePartnerValueHelp'` | `name:    'I_JointVenturePartnerValueHelp'` |
-| `element: 'JointVenturePartner' }` | `element: 'JointVenturePartner' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `JointVenture` | `vname` |
+| `JointVentureEquityGroup` | `egrup` |
+| `JointVentureCarriedPartner` | `carrowner` |
 | `JointVentureCarryingPartner` | `carryowner` |
 | `JVACarriedSharePercent` | `carrshare` |
 | `_CompanyCode` | *Association* |

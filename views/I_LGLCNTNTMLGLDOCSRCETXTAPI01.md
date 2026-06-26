@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LegalDocumentSource` | `LegalDocumentSource` |
-| `key Language` | `Language` |
+| `LegalDocumentSource` | `LegalDocumentSource` |
+| `Language` | `Language` |
 | `LglCntntMDocumentSourceText` | `LglCntntMDocumentSourceText` |
 
 ## Associations

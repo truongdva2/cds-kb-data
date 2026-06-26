@@ -33,13 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
-| `key Batch` | `Batch` |
-| `key Language` | `Language` |
+| `Material` | `Material` |
+| `BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
+| `Batch` | `Batch` |
+| `Language` | `Language` |
 | `BatchDescription` | `BatchDescription` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_BatchTP : redirected to parent I_BatchTP_2` | *Association* |
 
 ## Associations
 

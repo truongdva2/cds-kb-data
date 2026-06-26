@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FreightUnitUUID : /scmtms/vdm_freight_unit_uuid;` | `FreightUnitUUID : /scmtms/vdm_freight_unit_uuid;` |
-| `_FreightUnits   : composition [0..*] of D_FreightUnitUnassignParameter;` | *Association* |
+| `FreightUnitUUID` | `/scmtms/vdm_freight_unit_uuid` |
+| `_FreightUnits` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_FreightUnits` | `D_FreightUnitUnassignParameter` | [0..*] |
 
 ## Source Code
 

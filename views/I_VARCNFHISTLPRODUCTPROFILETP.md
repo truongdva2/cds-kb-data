@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Product` | `Product` |
-| `key VarConfigurationProfileName` | `VarConfigurationProfileName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `Product` | `Product` |
+| `VarConfigurationProfileName` | `VarConfigurationProfileName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ClassType` | `ClassType` |
 | `VarConfigurationProfileStatus` | `VarConfigurationProfileStatus` |
 | `ValidityStartDate` | `ValidityStartDate` |
@@ -50,12 +50,7 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
-| `_Profile                       : redirected to parent I_VarCnfProductProfileTP` | *Association* |
-| `_CharacteristicGroupAssignment : redirected to composition child I_VarCnfProdPrflChGrpAsgtTP` | *Association* |
-| `_ProcedureAssignment           : redirected to I_VarCnfProdPrflProcedAssgmtTP` | *Association* |
-| `_ConstraintNetAssignment       : redirected to I_VarCnfProdPrflCstrtNetAsgtTP` | *Association* |
 
 ## Associations
 

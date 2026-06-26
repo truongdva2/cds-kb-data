@@ -30,9 +30,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `id: [ 'FINS_FS_ACCDIM' ]}]` | `id: [ 'FINS_FS_ACCDIM' ]}]` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `GLAccount` | `GLAccount` |
+| `PostingDate` | `PostingDate` |
+| `FiscalYear` | `FiscalYear` |
+| `LedgerFiscalYear` | `LedgerFiscalYear` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ProfitCenterName` | `expr(…)` |
+| `ControllingArea` | `ControllingArea` |
+| `ControllingAreaName` | `_ControllingArea.ControllingAreaName` |
+| `Segment` | `Segment` |
+| `SegmentName` | `_Segment._Text.SegmentName` |
+| `CostCenter` | `CostCenter` |
+| `CostCenterName` | `expr(…)` |
+| `PartnerProfitCenter` | `PartnerProfitCenter` |
+| `PartnerProfitCenterName` | `expr(…)` |
+| `PartnerFunctionalArea` | `PartnerFunctionalArea` |
+| `PartnerFunctionalAreaName` | `_PartnerFunctionalArea._Text.FunctionalAreaName` |
+| `PartnerCompany` | `PartnerCompany` |
+| `PartnerSegment` | `PartnerSegment` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `FinancialServicesProductGroup` | `FinancialServicesProductGroup` |
+| `FinancialServicesBranch` | `FinancialServicesBranch` |
+| `FinancialDataSource` | `FinancialDataSource` |
+| `CustomerGroup` | `CustomerGroup` |
+| `CustomerSupplierCountry` | `CustomerSupplierCountry` |
 | `CustomerSupplierIndustry` | `CustomerSupplierIndustry` |
-| `virtual BalanceTransactionCurrency : abap.cuky` | `virtual BalanceTransactionCurrency : abap.cuky` |
+| `cuky` | `BalanceTransactionCurrency : abap.cuky` |
 | `AmountInBalanceTransacCrcy` | `curr_to_decfloat_amount( AmountInBalanceTransacCrcy )` |
 | `PriorDayBalInBalTransCrcy` | `PriorDayBalInBalTransCrcy` |
 | `CurDayActyAmtInBalTransCrcy` | `CurDayActyAmtInBalTransCrcy` |
@@ -44,7 +71,7 @@ tags:
 | `YTDAvgDailyBalInBalTransCrcy` | `YTDAvgDailyBalInBalTransCrcy` |
 | `MTDAvgActyAmtInBalTransCrcy` | `MTDAvgActyAmtInBalTransCrcy` |
 | `QTDActyAmtInBalTransCrcy` | `QTDActyAmtInBalTransCrcy` |
-| `virtual CompanyCodeCurrency        : abap.cuky` | `virtual CompanyCodeCurrency        : abap.cuky` |
+| `cuky` | `CompanyCodeCurrency : abap.cuky` |
 | `AmountInCompanyCodeCurrency` | `curr_to_decfloat_amount( AmountInCompanyCodeCurrency )` |
 | `PriorDayBalInCCCrcy` | `PriorDayBalInCCCrcy` |
 | `CurDayActyAmtInCCCrcy` | `CurDayActyAmtInCCCrcy` |
@@ -56,7 +83,7 @@ tags:
 | `YTDAvgDailyBalInCCCrcy` | `YTDAvgDailyBalInCCCrcy` |
 | `MTDAvgActyAmtInCCCrcy` | `MTDAvgActyAmtInCCCrcy` |
 | `QTDActyAmtInCCCrcy` | `QTDActyAmtInCCCrcy` |
-| `virtual GlobalCurrency             : abap.cuky` | `virtual GlobalCurrency             : abap.cuky` |
+| `cuky` | `GlobalCurrency : abap.cuky` |
 | `AmountInGlobalCurrency` | `curr_to_decfloat_amount( AmountInGlobalCurrency )` |
 | `PriorDayBalInGlobCrcy` | `PriorDayBalInGlobCrcy` |
 | `CurDayActyAmtInGlobCrcy` | `CurDayActyAmtInGlobCrcy` |
@@ -68,7 +95,7 @@ tags:
 | `YTDAvgDailyBalInGlobCrcy` | `YTDAvgDailyBalInGlobCrcy` |
 | `MTDAvgActyAmtInGlobCrcy` | `MTDAvgActyAmtInGlobCrcy` |
 | `QTDActyAmtInGlobCrcy` | `QTDActyAmtInGlobCrcy` |
-| `virtual FunctionalCurrency         : abap.cuky` | `virtual FunctionalCurrency         : abap.cuky` |
+| `cuky` | `FunctionalCurrency : abap.cuky` |
 | `AmountInFunctionalCurrency` | `curr_to_decfloat_amount( AmountInFunctionalCurrency )` |
 | `PriorDayBalInFuncnlCrcy` | `PriorDayBalInFuncnlCrcy` |
 | `CurDayActyAmtInFuncnlCrcy` | `CurDayActyAmtInFuncnlCrcy` |
@@ -80,7 +107,7 @@ tags:
 | `YTDAvgDailyBalInFuncnlCrcy` | `YTDAvgDailyBalInFuncnlCrcy` |
 | `MTDAvgActyAmtInFuncnlCrcy` | `MTDAvgActyAmtInFuncnlCrcy` |
 | `QTDActyAmtInFuncnlCrcy` | `QTDActyAmtInFuncnlCrcy` |
-| `virtual FreeDefinedCurrency1       : abap.cuky` | `virtual FreeDefinedCurrency1       : abap.cuky` |
+| `cuky` | `FreeDefinedCurrency1 : abap.cuky` |
 | `AmountInFreeDefinedCurrency1` | `curr_to_decfloat_amount( AmountInFreeDefinedCurrency1 )` |
 | `PriorDayBalInFDCrcy1` | `PriorDayBalInFDCrcy1` |
 | `CurDayActyAmtInFDCrcy1` | `CurDayActyAmtInFDCrcy1` |
@@ -92,7 +119,7 @@ tags:
 | `YTDAvgDailyBalInFDCrcy1` | `YTDAvgDailyBalInFDCrcy1` |
 | `MTDAvgActyAmtInFDCrcy1` | `MTDAvgActyAmtInFDCrcy1` |
 | `QTDActyAmtInFDCrcy1` | `QTDActyAmtInFDCrcy1` |
-| `virtual FreeDefinedCurrency2       : abap.cuky` | `virtual FreeDefinedCurrency2       : abap.cuky` |
+| `cuky` | `FreeDefinedCurrency2 : abap.cuky` |
 | `AmountInFreeDefinedCurrency2` | `curr_to_decfloat_amount( AmountInFreeDefinedCurrency2 )` |
 | `PriorDayBalInFDCrcy2` | `PriorDayBalInFDCrcy2` |
 | `CurDayActyAmtInFDCrcy2` | `CurDayActyAmtInFDCrcy2` |

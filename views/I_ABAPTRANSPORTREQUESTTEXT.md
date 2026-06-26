@@ -33,16 +33,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportRequestID` | `TransportRequestID` |
-| `key Language` | `Language` |
-| `as4text preserving type )` | `cast( substring( RelevantText, 2, 60 )` |
+| `TransportRequestID` | `TransportRequestID` |
+| `Language` | `Language` |
+| `TransportRequestDescription` | `cast( substring( RelevantText, 2, 60 ) as as4text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_TransportRequestHeader` | `I_RequestsHeader` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

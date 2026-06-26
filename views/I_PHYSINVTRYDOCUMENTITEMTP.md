@@ -33,12 +33,59 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductStdVH', element: 'Product' }, useAsTemplate: true } ] }` | `name: 'I_ProductStdVH', element: 'Product' }, useAsTemplate: true } ] }` |
+| `FiscalYear` | `FiscalYear` |
+| `PhysicalInventoryDocument` | `PhysicalInventoryDocument` |
+| `PhysicalInventoryDocumentItem` | `PhysicalInventoryDocumentItem` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `ValuationType` | `ValuationType` |
+| `PhysicalInventoryStockType` | `PhysicalInventoryStockType` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `Supplier` | `Supplier` |
+| `Customer` | `Customer` |
+| `StockOwner` | `StockOwner` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `LastChangeDate` | `LastChangeDate` |
+| `CountedByUser` | `CountedByUser` |
+| `PhysicalInventoryLastCountDate` | `PhysicalInventoryLastCountDate` |
+| `AdjustmentPostingMadeByUser` | `AdjustmentPostingMadeByUser` |
+| `PostingDate` | `PostingDate` |
+| `PhysicalInventoryItemIsCounted` | `PhysicalInventoryItemIsCounted` |
+| `PhysInvtryDifferenceIsPosted` | `PhysInvtryDifferenceIsPosted` |
+| `PhysInvtryItemIsRecounted` | `PhysInvtryItemIsRecounted` |
+| `PhysInvtryItemIsDeleted` | `PhysInvtryItemIsDeleted` |
+| `IsHandledInAltvUnitOfMsr` | `IsHandledInAltvUnitOfMsr` |
+| `BookQtyBfrCountInMatlBaseUnit` | `BookQtyBfrCountInMatlBaseUnit` |
+| `PhysicalInventoryItemIsZero` | `PhysicalInventoryItemIsZero` |
+| `Quantity` | `Quantity` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `QuantityInUnitOfEntry` | `QuantityInUnitOfEntry` |
+| `UnitOfEntry` | `UnitOfEntry` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `PhysInvtryRecountDocument` | `PhysInvtryRecountDocument` |
+| `DifferenceAmountInCoCodeCrcy` | `DifferenceAmountInCoCodeCrcy` |
+| `Currency` | `Currency` |
+| `CycleCountType` | `CycleCountType` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `SlsPrcAmtInclVATInCoCodeCrcy` | `SlsPrcAmtInclVATInCoCodeCrcy` |
+| `SlsPrcAmtExclVATInCoCodeCrcy` | `SlsPrcAmtExclVATInCoCodeCrcy` |
+| `DiffAmountOnCountEntryInCCCrcy` | `DiffAmountOnCountEntryInCCCrcy` |
+| `EnteredSlsAmtInCoCodeCrcy` | `EnteredSlsAmtInCoCodeCrcy` |
+| `SlsPriceAmountInCoCodeCrcy` | `SlsPriceAmountInCoCodeCrcy` |
+| `IsValueOnlyMaterial` | `IsValueOnlyMaterial` |
+| `PhysInvtryCtAmtInCoCodeCrcy` | `PhysInvtryCtAmtInCoCodeCrcy` |
+| `BookQtyAmountInCoCodeCrcy` | `BookQtyAmountInCoCodeCrcy` |
+| `ProductCategory` | `ProductCategory` |
+| `ReasonForPhysInvtryDifference` | `ReasonForPhysInvtryDifference` |
 | `CrossPlantConfigurableMaterial` | `CrossPlantConfigurableMaterial` |
 | `PhysInvtryDiffIsDistributed` | `PhysInvtryDiffIsDistributed` |
-| `_PhysicalInventoryDocument : redirected to parent I_PhysicalInventoryDocumentTP` | *Association* |
-| `_CountSerialNumber : redirected to composition child I_PhysInvtryCountSerialNmbrTP` | *Association* |
-| `_BookSerialNumber : redirected to composition child I_PhysInvtryBookSerialNmbrTP` | *Association* |
 | `_Supplier` | *Association* |
 | `_Customer` | *Association* |
 | `_ProductText` | *Association* |

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_Datefunctiontext.DateFunction` | `I_Datefunctiontext.DateFunction` |
-| `key Language` | `Language` |
+| `DateFunction` | `I_Datefunctiontext.DateFunction` |
+| `Language` | `Language` |
 | `DateFunctionName` | `DateFunctionName` |
 | `DateFunctionDescription` | `DateFunctionDescription` |
 | `_Language` | *Association* |

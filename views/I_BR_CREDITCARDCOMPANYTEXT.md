@@ -34,8 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `logbr_tband preserving type)` | `cast (t_band` |
-| `logbr_tbanddesc preserving type )` | `cast(t_bandt` |
+| `CreditCardBrand` | `cast (t_band as logbr_tband preserving type)` |
+| `CreditCardBrandDesc` | `cast(t_bandt as logbr_tbanddesc preserving type )` |
 | `_BR_CreditCardCompany` | *Association* |
 | `_Language` | *Association* |
 

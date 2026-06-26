@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnOrder.OrderID` | `_CnsldtnOrder.OrderID` |
-| `_CnsldtnOrder.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnOrderTextTP` | *Association* |
+| `OrderID` | `_CnsldtnOrder.OrderID` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnOrder.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

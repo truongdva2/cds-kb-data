@@ -32,12 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
-| `key Language` | `Language` |
+| `CapacityInternalID` | `CapacityInternalID` |
+| `Language` | `Language` |
 | `CapacityText` | `CapacityText` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header : redirected to parent I_WorkCenterPooledCapacityTP` | *Association* |
 
 ## Associations
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PersonNameSupplementCode` | `PersonNameSupplementCode` |
+| `PersonNameSupplementCode` | `PersonNameSupplementCode` |
 | `NameSupplement` | `NameSupplement` |
 | `_Text` | *Association* |
 

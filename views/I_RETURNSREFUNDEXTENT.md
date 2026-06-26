@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `returns_refund_extent)` | `cast (returns_refund` |
+| `ReturnsRefundExtent` | `cast (returns_refund as returns_refund_extent)` |
 | `_Text` | *Association* |
 
 ## Associations

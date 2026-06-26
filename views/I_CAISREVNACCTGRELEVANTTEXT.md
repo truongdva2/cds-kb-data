@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rarel_kk preserving type )` | `cast ( substring( dd07t.domvalue_l,1,1 )` |
-| `spras preserving type)` | `cast ( ddlanguage` |
-| `rarel_det_type_txt_gfn_kk preserving type )` | `cast ( ddtext` |
+| `CAIsRevenueAccountingRelevant` | `cast ( substring( dd07t.domvalue_l,1,1 ) as rarel_kk preserving type )` |
+| `Language` | `cast ( ddlanguage as spras preserving type)` |
+| `CAIsRevnAcctgRelevantText` | `cast ( ddtext as rarel_det_type_txt_gfn_kk preserving type )` |
 | `_CAIsRevnAcctgRelevant` | *Association* |
 | `_Language` | *Association* |
 

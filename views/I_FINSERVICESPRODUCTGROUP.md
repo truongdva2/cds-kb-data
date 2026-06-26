@@ -33,7 +33,6 @@ tags:
 | Field | Data Source |
 |---|---|
 | `FinancialServicesProductGroup` | `fs_product_group` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_FinSrvcsProdGrpHierNode` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_FinServicesProductGroupT` | [0..*] |
 | `_FinSrvcsProdGrpHierNode` | `I_FinSrvcsProdGrpHierNode` | [0..*] |
 
 ## Source Code

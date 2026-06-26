@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key REGenericRentalObjectUUID` | `REGenericRentalObjectUUID` |
+| `REGenericRentalObjectUUID` | `REGenericRentalObjectUUID` |
 | `REGenericRentalObjectType` | `REGenericRentalObjectType` |
 | `InternalRealEstateNumber` | `InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |

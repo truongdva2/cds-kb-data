@@ -34,9 +34,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_DeliveryDocumentStdVH'` | `name:    'I_DeliveryDocumentStdVH'` |
-| `element: 'DeliveryDocument' }` | `element: 'DeliveryDocument' }` |
-| `}]` | `}]` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `DocumentDate` | `DocumentDate` |
+| `PostingDate` | `PostingDate` |
+| `AccountingDocumentType` | `AccountingDocumentType` |
+| `InventoryTransactionType` | `InventoryTransactionType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `MaterialDocumentHeaderText` | `MaterialDocumentHeaderText` |
 | `DeliveryDocument` | `DeliveryInMatlDocumentHeader` |
 | `ReferenceDocument` | `ReferenceDocument` |
 | `BillOfLading` | `BillOfLading` |

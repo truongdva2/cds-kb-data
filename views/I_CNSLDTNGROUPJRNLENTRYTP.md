@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FiscalYear` | `FiscalYear` |
-| `key ConsolidationDocumentNumber` | `ConsolidationDocumentNumber` |
+| `FiscalYear` | `FiscalYear` |
+| `ConsolidationDocumentNumber` | `ConsolidationDocumentNumber` |
 | `ConsolidationVersion` | `ConsolidationVersion` |
 | `FiscalPeriod` | `FiscalPeriod` |
 | `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |

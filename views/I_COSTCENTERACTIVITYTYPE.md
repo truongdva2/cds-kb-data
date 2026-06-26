@@ -31,7 +31,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'CostCtrActivityTypeQtyUnit'} }` | `unitOfMeasure: 'CostCtrActivityTypeQtyUnit'} }` |
+| `ControllingArea` | `cast( kokrs as fis_kokrs preserving type )` |
+| `CostCtrActivityType` | `lstar` |
+| `ValidityEndDate` | `datbi` |
+| `ValidityStartDate` | `datab` |
+| `CostCtrActivityTypeQtyUnit` | `leinh` |
+| `CostCtrActivityTypeCategory` | `latyp` |
+| `AllocationCostElement` | `vksta` |
+| `CostCtrActivityTypeOutpQtyUnit` | `auseh` |
+| `CreationDate` | `ersda` |
+| `EnteredByUser` | `usnam` |
+| `CostOriginGroup` | `hrkft` |
+| `ActlPostgCostCenterActyTypeCat` | `latypi` |
 | `OutputQuantityFactor` | `ausfk` |
 | `ActivityTypeIsBlocked` | `sprkz` |
 | `FixedCostIsPredistributed` | `fixvo` |
@@ -57,7 +68,10 @@ tags:
 |---|---|---|
 | `_ControllingAreaText` | `I_ControllingArea` | [0..1] |
 | `_Text` | `I_CostCenterActivityTypeText` | [0..*] |
+| `_ControllingArea` | `I_ControllingArea` | [1] |
 | `_CostCenterCategory` | `I_CostCtrActytypeCostCtrCat` | [0..*] |
+| `_CostCtrActivityTypeCategory` | `I_CostCenterActivityTypeCat` | [0..1] |
+| `_UnitOfMeasure` | `I_UnitOfMeasure` | [1] |
 | `_CostCtrActivityTypeHierNode` | `I_CostCtrActivityTypeHierNode` | [0..*] |
 
 ## Source Code

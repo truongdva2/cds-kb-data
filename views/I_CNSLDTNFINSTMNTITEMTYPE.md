@@ -31,9 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnFinStmntItemTypeVH', element: 'ConsolidationFSItemType' } }]` | `name: 'I_CnsldtnFinStmntItemTypeVH', element: 'ConsolidationFSItemType' } }]` |
-| `fincs_fsitemtype preserving type )` | `cast ( _Domain.DomainValue` |
-| `/* associations */` | `/* associations */` |
+| `ConsolidationFSItemType` | `cast ( _Domain.DomainValue as fincs_fsitemtype preserving type )` |
 | `_Text` | *Association* |
 | `_FSItemTypeSignLogic` | *Association* |
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SerialNumberProfile` | `SerialNumberProfile` |
-| `_Text[ Language = $session.system_language ].SerialNumberProfileDescription` | *Association* |
+| `SerialNumberProfile` | `SerialNumberProfile` |
+| `SerialNumberProfileDescription` | `_Text[ Language = $session.system_language ].SerialNumberProfileDescription` |
 
 ## Associations
 

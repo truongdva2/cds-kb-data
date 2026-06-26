@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bstat_grp )` | `cast( dd07l.domvalue_l` |
+| `AccountingDocumentCatGroup` | `cast( dd07l.domvalue_l as fis_bstat_grp )` |
 | `_Text` | *Association* |
 
 ## Associations

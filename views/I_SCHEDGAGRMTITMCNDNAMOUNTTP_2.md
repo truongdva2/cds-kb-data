@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SchedulingAgreement` | `SchedulingAgreement` |
-| `key SchedulingAgreementItem` | `SchedulingAgreementItem` |
-| `key ConditionRecord` | `ConditionRecord` |
-| `key ConditionValidityEndDate` | `ConditionValidityEndDate` |
-| `key ConditionSequentialNumber` | `ConditionSequentialNumber` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `ConditionRecord` | `ConditionRecord` |
+| `ConditionValidityEndDate` | `ConditionValidityEndDate` |
+| `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionValidityStartDate` | `ConditionValidityStartDate` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
@@ -62,9 +62,6 @@ tags:
 | `MaximumConditionAmount` | `MaximumConditionAmount` |
 | `ConditionReleaseStatus` | `ConditionReleaseStatus` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_SchedgAgrmtItmCndnValdty : redirected to parent I_SchedgAgrmtItmCndnValdtyTP_2` | *Association* |
-| `_PurSchedgAgrmt           : redirected to I_SchedgAgrmtHdrTP_2` | *Association* |
 
 ## Associations
 

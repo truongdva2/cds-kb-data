@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgcase_type preserving type )` | `cast( case_type` |
-| `udm_root_ccode preserving type )` | `cast( root_ccode` |
+| `CaseType` | `cast( case_type as scmgcase_type preserving type )` |
+| `DisputeCaseRootCause` | `cast( root_ccode as udm_root_ccode preserving type )` |
 | `Language` | `langu` |
 | `CaseRootCauseDescription` | `description` |
 | `_Language` | *Association* |

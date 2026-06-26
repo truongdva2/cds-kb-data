@@ -31,7 +31,30 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProfitCenterVH', element: 'ProfitCenter' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_ProfitCenterVH', element: 'ProfitCenter' }, useAsTemplate: true }]       //CustomUI` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `AccountAssignmentNumber` | `AccountAssignmentNumber` |
+| `CostCenter` | `CostCenter` |
+| `MasterFixedAsset` | `MasterFixedAsset` |
+| `ProjectNetwork` | `ProjectNetwork` |
+| `NetworkActivity` | `NetworkActivity` |
+| `OrderQuantityUnit` | `OrderQuantityUnit` |
+| `Quantity` | `Quantity` |
+| `MultipleAcctAssgmtDistrPercent` | `MultipleAcctAssgmtDistrPercent` |
+| `DocumentCurrency` | `DocumentCurrency` |
+| `PurgDocNetAmount` | `PurgDocNetAmount` |
+| `IsDeleted` | `IsDeleted` |
+| `GLAccount` | `GLAccount` |
+| `BusinessArea` | `BusinessArea` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
+| `FixedAsset` | `FixedAsset` |
+| `OrderID` | `OrderID` |
+| `UnloadingPointName` | `UnloadingPointName` |
+| `ControllingArea` | `ControllingArea` |
+| `CostObject` | `CostObject` |
+| `ProfitabilitySegment` | `ProfitabilitySegment` |
 | `ProfitCenter` | `ProfitCenter` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
@@ -67,10 +90,6 @@ tags:
 | `IsAcctLineFinal` | `IsAcctLineFinal` |
 | `AcctLineFinalReason` | `AcctLineFinalReason` |
 | `CompanyCode` | `CompanyCode` |
-| `/* Composition */` | `/* Composition */` |
-| `_PurchaseOrderItem : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
-| `_PurchaseOrder     : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessArea` | *Association* |
 | `_BusinessAreaText` | *Association* |
 | `_BusinessProcess` | *Association* |

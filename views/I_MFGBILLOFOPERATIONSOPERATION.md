@@ -30,16 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key plas.BillOfOperationsType` | `plas.BillOfOperationsType` |
-| `key plas.BillOfOperationsGroup` | `plas.BillOfOperationsGroup` |
-| `key plas.BillOfOperationsVariant` | `plas.BillOfOperationsVariant` |
-| `key plas.BillOfOperationsSequence` | `plas.BillOfOperationsSequence` |
-| `key plas.BOOOperationInternalID` | `plas.BOOOperationInternalID` |
+| `BillOfOperationsType` | `plas.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `plas.BillOfOperationsGroup` |
+| `BillOfOperationsVariant` | `plas.BillOfOperationsVariant` |
+| `BillOfOperationsSequence` | `plas.BillOfOperationsSequence` |
+| `BOOOperationInternalID` | `plas.BOOOperationInternalID` |
 | `_BillOfOperationsType` | *Association* |
 | `_BillOfOperationsGroup` | *Association* |
 | `_BillOfOperations` | *Association* |
 | `_BillOfOperationsSequence` | *Association* |
-| `_BOOOperationChangeState` | *Association* |
 
 ## Associations
 

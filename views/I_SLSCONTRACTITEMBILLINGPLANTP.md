@@ -36,20 +36,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesContractItemBillingPlan.SalesContract` | `SalesContractItemBillingPlan.SalesContract` |
-| `key SalesContractItemBillingPlan.SalesContractItem` | `SalesContractItemBillingPlan.SalesContractItem` |
-| `key SalesContractItemBillingPlan.BillingPlan` | `SalesContractItemBillingPlan.BillingPlan` |
-| `SalesContractItemBillingPlan.BillingPlanType` | `SalesContractItemBillingPlan.BillingPlanType` |
-| `SalesContractItemBillingPlan.BillingPlanStartDate` | `SalesContractItemBillingPlan.BillingPlanStartDate` |
-| `SalesContractItemBillingPlan.BillingPlanStartDateRule` | `SalesContractItemBillingPlan.BillingPlanStartDateRule` |
-| `SalesContractItemBillingPlan.ReferenceBillingPlan` | `SalesContractItemBillingPlan.ReferenceBillingPlan` |
-| `SalesContractItemBillingPlan.SalesContractType` | `SalesContractItemBillingPlan.SalesContractType` |
-| `SalesContractItemBillingPlan.SalesOrganization` | `SalesContractItemBillingPlan.SalesOrganization` |
-| `SalesContractItemBillingPlan.DistributionChannel` | `SalesContractItemBillingPlan.DistributionChannel` |
-| `SalesContractItemBillingPlan.OrganizationDivision` | `SalesContractItemBillingPlan.OrganizationDivision` |
-| `_Item                : redirected to parent I_SalesContractItemTP` | *Association* |
-| `_SalesContract       : redirected to I_SalesContractTP` | *Association* |
-| `_ItemBillingPlanItem : redirected to composition child I_SlsContrItmBillingPlanItemTP` | *Association* |
+| `SalesContract` | `SalesContractItemBillingPlan.SalesContract` |
+| `SalesContractItem` | `SalesContractItemBillingPlan.SalesContractItem` |
+| `BillingPlan` | `SalesContractItemBillingPlan.BillingPlan` |
+| `BillingPlanType` | `SalesContractItemBillingPlan.BillingPlanType` |
+| `BillingPlanStartDate` | `SalesContractItemBillingPlan.BillingPlanStartDate` |
+| `BillingPlanStartDateRule` | `SalesContractItemBillingPlan.BillingPlanStartDateRule` |
+| `ReferenceBillingPlan` | `SalesContractItemBillingPlan.ReferenceBillingPlan` |
+| `SalesContractType` | `SalesContractItemBillingPlan.SalesContractType` |
+| `SalesOrganization` | `SalesContractItemBillingPlan.SalesOrganization` |
+| `DistributionChannel` | `SalesContractItemBillingPlan.DistributionChannel` |
+| `OrganizationDivision` | `SalesContractItemBillingPlan.OrganizationDivision` |
 
 ## Associations
 

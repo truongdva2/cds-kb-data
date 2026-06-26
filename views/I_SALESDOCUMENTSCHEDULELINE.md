@@ -35,52 +35,24 @@ tags:
 | `SalesDocument` | `vbep.vbeln` |
 | `SalesDocumentItem` | `posnr` |
 | `ScheduleLine` | `etenr` |
-| `vdm_sd_schedule_line_cat preserving type )` | `cast(ettyp` |
+| `ScheduleLineCategory` | `cast(ettyp as vdm_sd_schedule_line_cat preserving type )` |
 | `OrderQuantityUnit` | `vrkme` |
 | `OrderToBaseQuantityDnmntr` | `umvkn` |
 | `OrderToBaseQuantityNmrtr` | `umvkz` |
 | `BaseUnit` | `meins` |
 | `DeliveryDate` | `edatu` |
 | `DelivDateCategory` | `prgrs` |
-| `case when` | `case when` |
-| `vbep.wmeng != 0` | `vbep.wmeng != 0` |
-| `then` | `then` |
-| `'X'` | `'X'` |
-| `else` | `else` |
-| `''` | `''` |
-| `IsRequestedDelivSchedLine` | `end` |
-| `case when` | `case when` |
-| `vbep.wmeng != 0` | `vbep.wmeng != 0` |
-| `then` | `then` |
-| `vbep.edatu` | `vbep.edatu` |
-| `RequestedDeliveryDate` | `end` |
-| `case when` | `case when` |
-| `vbep.wmeng != 0` | `vbep.wmeng != 0` |
-| `then` | `then` |
-| `vbep.ezeit` | `vbep.ezeit` |
-| `RequestedDeliveryTime` | `end` |
+| `IsRequestedDelivSchedLine` | `case when vbep.wmeng != 0 then 'X' else '' end` |
+| `RequestedDeliveryDate` | `that is needed by ODATA end` |
+| `RequestedDeliveryTime` | `that is needed by ODATA end` |
 | `ScheduleLineOrderQuantity` | `vbep.wmeng` |
 | `CorrectedQtyInOrderQtyUnit` | `vbep.cmeng` |
-| `case when` | `case when` |
-| `vbep.bmeng != 0` | `vbep.bmeng != 0` |
-| `then` | `then` |
-| `'X'` | `'X'` |
-| `else` | `else` |
-| `''` | `''` |
-| `IsConfirmedDelivSchedLine` | `end` |
-| `case when` | `case when` |
-| `vbep.bmeng != 0` | `vbep.bmeng != 0` |
-| `then` | `then` |
-| `vbep.edatu` | `vbep.edatu` |
-| `ConfirmedDeliveryDate` | `end` |
-| `case when` | `case when` |
-| `vbep.bmeng != 0` | `vbep.bmeng != 0` |
-| `then` | `then` |
-| `vbep.ezeit` | `vbep.ezeit` |
-| `ConfirmedDeliveryTime` | `end` |
+| `IsConfirmedDelivSchedLine` | `case when vbep.bmeng != 0 then 'X' else '' end` |
+| `ConfirmedDeliveryDate` | `that is needed by ODATA end` |
+| `ConfirmedDeliveryTime` | `that is needed by ODATA end` |
 | `ConfdOrderQtyByMatlAvailCheck` | `vbep.bmeng` |
 | `ConfdSchedLineReqdDelivDate` | `vbep.req_dlvdate` |
-| `vdm_sd_prod_availy_date preserving type )` | `cast(mbdat` |
+| `ProductAvailabilityDate` | `cast(mbdat as vdm_sd_prod_availy_date preserving type )` |
 | `ProductAvailabilityTime` | `mbuhr` |
 | `ProductAvailCheckRqmtDate` | `bddat` |
 | `ProdAvailabilityCheckRqmtType` | `bdart` |
@@ -93,12 +65,12 @@ tags:
 | `ScheduleLineByForecastDelivery` | `abruf` |
 | `OrderSchedulingGroup` | `fsh_os_id` |
 | `CustEngineeringChgStatus` | `aeskd` |
-| `vdm_purchaserequisition preserving type )` | `cast(banfn` |
-| `mm_a_purchaserequisitionitem preserving type)` | `cast(bnfpo` |
+| `PurchaseRequisition` | `cast(banfn as vdm_purchaserequisition preserving type )` |
+| `PurchaseRequisitionItem` | `cast(bnfpo as mm_a_purchaserequisitionitem preserving type)` |
 | `PurchasingOrderType` | `bsart` |
 | `PurchasingDocumentCategory` | `bstyp` |
 | `DeliveryCreationDate` | `crea_dlvdate` |
-| `tddat_plan preserving type )` | `cast(tddat` |
+| `TransportationPlanningDate` | `cast(tddat as tddat_plan preserving type )` |
 | `TransportationPlanningTime` | `tduhr` |
 | `GoodsIssueDate` | `wadat` |
 | `LoadingDate` | `lddat` |

@@ -53,8 +53,8 @@ tags:
 | `IsBlkdForSecondaryCostsPosting` | `bkzks` |
 | `IsBlockedForRevenuePosting` | `bkzer` |
 | `IsBlockedForCommitmentPosting` | `bkzob` |
-| `fis_pkzks preserving type)` | `cast(pkzks` |
-| `fis_pkzer preserving type)` | `cast(pkzer` |
+| `IsBlockedForPlanSecondaryCosts` | `cast(pkzks as fis_pkzks preserving type)` |
+| `IsBlockedForPlanRevenues` | `cast(pkzer as fis_pkzer preserving type)` |
 | `CostCenterAllocationMethod` | `vmeth` |
 | `ConsumptionQtyIsRecorded` | `mgefl` |
 | `Department` | `abtei` |
@@ -87,7 +87,7 @@ tags:
 | `CostCenterStandardHierArea` | `khinr` |
 | `CostCollector` | `cckey` |
 | `CostCenterIsComplete` | `kompl` |
-| `fins_xkostl_stat preserving type)` | `cast(stakz` |
+| `IsStatisticalCostCenter` | `cast(stakz as fins_xkostl_stat preserving type)` |
 | `ObjectInternalID` | `objnr` |
 | `CostCenterFunction` | `funkt` |
 | `CostCenterAlternativeFunction` | `afunk` |

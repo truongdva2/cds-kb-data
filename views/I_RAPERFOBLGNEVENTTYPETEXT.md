@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `Language` | `language` |
 | `PerfOblgnEventType` | `event_type` |
-| `farr_cds_event_type_name preserving type)` | `cast(description` |
+| `PerfOblgnEventTypeText` | `cast(description as farr_cds_event_type_name preserving type)` |
 | `_Language` | *Association* |
 | `_RAPerfOblgnEventType` | *Association* |
 

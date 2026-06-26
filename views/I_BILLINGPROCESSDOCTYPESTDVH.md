@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingProcessDocumentType` | `BillingProcessDocumentType` |
+| `BillingProcessDocumentType` | `BillingProcessDocumentType` |
 | `_Text` | *Association* |
 
 ## Associations

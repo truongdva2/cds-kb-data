@@ -48,18 +48,18 @@ tags:
 | `InspSubsetUsageDcsnCodeGroup` | `vcodegrp` |
 | `InspSubsetUsageDcsnCode` | `vcode` |
 | `InspSubsetUsageDcsnValuation` | `vbewertung` |
-| `vdm_qusrtims   preserving type )` | `cast( usert1` |
+| `InspectionSubsetTime` | `cast( usert1 as vdm_qusrtims preserving type )` |
 | `InspSbstTimeFldProperty` | `usert1akt` |
-| `vdm_qusrdats   preserving type )` | `cast( userd1` |
+| `InspectionSubsetDate` | `cast( userd1 as vdm_qusrdats preserving type )` |
 | `InspSbstDateFldProperty` | `userd1akt` |
 | `InspectionSubsetTimeZone` | `usrtimezone` |
-| `vdm_qusrnumc10 preserving type )` | `cast( usern1` |
+| `InspSubsetLongNumericKey` | `cast( usern1 as vdm_qusrnumc10 preserving type )` |
 | `InspSbstLongNmbrFldProperty` | `usern1akt` |
-| `vdm_qusrnumc3  preserving type )` | `cast( usern2` |
+| `InspSubsetShortNumericKey` | `cast( usern2 as vdm_qusrnumc3 preserving type )` |
 | `InspSbstShrtNmbrFldProperty` | `usern2akt` |
-| `vdm_qusrchar18 preserving type )` | `cast( userc1` |
+| `InspectionSubsetLongCharKey` | `cast( userc1 as vdm_qusrchar18 preserving type )` |
 | `InspSbstLongTxtFldProperty` | `userc1akt` |
-| `vdm_qusrchar10 preserving type )` | `cast( userc2` |
+| `InspectionSubsetShortCharKey` | `cast( userc2 as vdm_qusrchar10 preserving type )` |
 | `InspSbstShrtTxtFldProperty` | `userc2akt` |
 | `InspectionPartialLot` | `teillos` |
 | `InspectionSubsetYieldQty` | `menge` |
@@ -69,13 +69,11 @@ tags:
 | `Inspector` | `pruefer` |
 | `CreatedByUser` | `ersteller` |
 | `CreationDate` | `ersteldat` |
-| `vdm_qzeiterstl preserving type )` | `cast( erstelzeit` |
+| `CreationTime` | `cast( erstelzeit as vdm_qzeiterstl preserving type )` |
 | `LastChangedByUser` | `aenderer` |
 | `LastChangeDate` | `aenderdat` |
-| `vdm_qzeitaend preserving type )` | `cast( aenderzeit` |
-| `case qapp.changeddatetime` | `case qapp.changeddatetime` |
-| `tzntstmps )` | `when 0 then cast( '19000101010101'` |
-| `ChangedDateTime` | `else qapp.changeddatetime                      end` |
+| `LastChangeTime` | `cast( aenderzeit as vdm_qzeitaend preserving type )` |
+| `ChangedDateTime` | `case…end` |
 | `_InspectionLot` | *Association* |
 | `_InspectionOperation` | *Association* |
 | `_InspectionSubsetInternalID` | *Association* |

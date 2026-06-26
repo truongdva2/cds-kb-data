@@ -35,7 +35,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Plant` | `werks` |
-| `werks_name)` | `cast(name1` |
+| `PlantName` | `cast(name1 as werks_name)` |
 
 ## Associations
 

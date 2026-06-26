@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_doc_type)` | `cast( substring(dd07l.domvalue_l, 1, 2)` |
+| `ReturnsDocumentType` | `cast( substring(dd07l.domvalue_l, 1, 2) as msr_doc_type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

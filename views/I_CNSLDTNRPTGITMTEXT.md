@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ConsolidationChartOfAccounts` | `fincs_fsitemt.itclg` |
-| `fc_item)` | `cast( fincs_fsitemt.item` |
+| `ConsolidationReportingItem` | `cast( fincs_fsitemt.item as fc_item)` |
 | `Language` | `langu` |
 | `ConsolidationReportingItemText` | `txtsh` |
 | `ConsolidationRptgItemMdmText` | `txtmi` |

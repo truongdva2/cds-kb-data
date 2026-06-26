@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `cpost_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADunChrgAndIntrstPostgCode` | `cast( left( dd07l.domvalue_l, 1 ) as cpost_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

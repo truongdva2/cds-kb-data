@@ -31,10 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text.element: [ 'BusinessPartnerRatingTrendDesc' ]` | `text.element: [ 'BusinessPartnerRatingTrendDesc' ]` |
-| `foreignKey.association: '_BPRatingTrend'` | `foreignKey.association: '_BPRatingTrend'` |
-| `}` | `}` |
-| `bp_tendency )` | `cast ( dd07t.domvalue_l` |
+| `Language` | `dd07t.ddlanguage` |
+| `BusinessPartnerRatingTrend` | `cast ( dd07t.domvalue_l as bp_tendency )` |
 | `BusinessPartnerRatingTrendDesc` | `dd07t.ddtext` |
 | `_BPRatingTrend` | *Association* |
 | `_Language` | *Association* |

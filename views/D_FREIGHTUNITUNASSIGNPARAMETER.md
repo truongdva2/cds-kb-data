@@ -29,12 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FreightUnitUUID             : /scmtms/vdm_freight_unit_uuid;` | `FreightUnitUUID             : /scmtms/vdm_freight_unit_uuid;` |
-| `_Parent                     : association to parent D_TranspOrdUnassignFrtUnitP on _Parent.FreightUnitUUID = $projection.FreightUnitUUID;` | *Association* |
+| `FreightUnitUUID` | `/scmtms/vdm_freight_unit_uuid` |
+| `_Parent` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Parent` | `D_TranspOrdUnassignFrtUnitP` | — |
 
 ## Source Code
 

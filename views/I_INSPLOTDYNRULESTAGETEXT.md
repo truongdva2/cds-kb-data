@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdynregel preserving type )` | `cast( dynregel` |
+| `InspLotDynamicRule` | `cast( dynregel as vdm_qdynregel preserving type )` |
 | `InspLotDynRuleStage` | `prstufe` |
 | `Language` | `sprache` |
 | `InspLotDynRuleStageText` | `kurztext` |

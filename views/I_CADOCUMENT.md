@@ -75,7 +75,6 @@ tags:
 | `CA1stCountrySpecificReference` | `glo_ref1_hd` |
 | `CAFirstCountrySpecificDate` | `glo_dat1_hd` |
 | `CAClassificationKey` | `opord` |
-| `/* associations */` | `/* associations */` |
 | `_AccountingDocType` | *Association* |
 | `_CAApplicationArea` | *Association* |
 | `_CAClearingInformation` | *Association* |

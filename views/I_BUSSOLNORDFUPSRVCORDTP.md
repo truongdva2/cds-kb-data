@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key ServiceOrder` | `ServiceOrder` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `ServiceOrder` | `ServiceOrder` |
 
 ## Associations
 

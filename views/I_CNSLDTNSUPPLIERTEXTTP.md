@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.Supplier` | `_Text.Supplier` |
-| `_Text.SupplierName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Supplier as _Supplier : redirected to parent I_CnsldtnSupplierTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `Supplier` | `_Text.Supplier` |
+| `SupplierName` | `_Text.SupplierName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_Supplier` | *Association* |
 
 ## Associations
 

@@ -34,13 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.ControllingArea` | `_Text.ControllingArea` |
-| `key _Text.CostCenter` | `_Text.CostCenter` |
-| `_Text.CostCenterName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_CostCenter as _CostCenter : redirected to parent I_CnsldtnCostCenterTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `ControllingArea` | `_Text.ControllingArea` |
+| `CostCenter` | `_Text.CostCenter` |
+| `CostCenterName` | `_Text.CostCenterName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_CostCenter` | *Association* |
 
 ## Associations
 

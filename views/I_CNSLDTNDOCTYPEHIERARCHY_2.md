@@ -30,12 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_doctypehierarchy preserving type )` | `cast(_Hierarchy.hryid` |
+| `ConsolidationDocTypeHierarchy` | `cast(_Hierarchy.hryid as fincs_doctypehierarchy preserving type )` |
 | `ValidityEndDate` | `_Hierarchy.hryvalto` |
-| `_Hierarchy.hryvalfrom                                                 as ValidityStartDate` | *Association* |
-| `fincs_lastchangedbyuser preserving type )` | `cast(_Hierarchy.upduser` |
-| `fincs_lastchangedatetime preserving type )` | `cast(_Hierarchy.updtime` |
-| `/* Associations */` | `/* Associations */` |
+| `ValidityStartDate` | `_Hierarchy.hryvalfrom` |
+| `LastChangedByUser` | `cast(_Hierarchy.upduser as fincs_lastchangedbyuser preserving type )` |
+| `LastChangeDateTime` | `cast(_Hierarchy.updtime as fincs_lastchangedatetime preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

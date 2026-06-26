@@ -35,7 +35,7 @@ tags:
 | `ConfigurableCodesCodeGroup` | `codegruppe` |
 | `ConfigurableCodesCode` | `code` |
 | `Language` | `sprache` |
-| `vdm_qtxt_code preserving type )` | `cast( kurztext` |
+| `ConfigurableCodesCodeText` | `cast( kurztext as vdm_qtxt_code preserving type )` |
 | `_ConfigurableCodesCatalog` | *Association* |
 | `_ConfigurableCodesCodeGroup` | *Association* |
 | `_ConfigurableCodesCode` | *Association* |

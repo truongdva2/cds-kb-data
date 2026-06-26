@@ -29,12 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JntVntrEquityGroupValueHelp'` | `name:    'I_JntVntrEquityGroupValueHelp'` |
-| `element: 'JntOpgAgrmtEquityGrp' }` | `element: 'JntOpgAgrmtEquityGrp' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `JointVenture` | `cast( vname as jv_name preserving type )` |
 | `JntOpgAgrmtEquityGrp` | `egrup` |
-| `coalesce( _JntVntrEquityGrpText[1:Language = $session.system_language ].JntOpgAgrmtEquityGrpText` | `coalesce( _JntVntrEquityGrpText[1:Language = $session.system_language ].JntOpgAgrmtEquityGrpText` |
-| `_JntVntrEquityGrpText[1:Language = 'E' ].JntOpgAgrmtEquityGrpText ) as JntOpgAgrmtEquityGrpText` | *Association* |
+| `JntOpgAgrmtEquityGrpText` | `coalesce(…)` |
 | `JntVntrOperatedShare` | `opshare` |
 | `JntVntrNonOperatedShare` | `nopshare` |
 | `JointVentureEquityGroupActive` | `egroupact` |
@@ -45,7 +43,7 @@ tags:
 | `JntVntrGrpNotSuspendedPerd` | `grpususper` |
 | `JntVntrGrpNotSuspendedYr` | `grpususyer` |
 | `JntVntrNetProfitIntrstGrp` | `npigroup` |
-| `_JointVentureMasterFld._JointVentureDesc[1:Language = $session.system_language].JointVentureName` | *Association* |
+| `JointVentureName` | `expr(…)` |
 | `_CompanyCode` | *Association* |
 | `_JointVentureMasterFld` | *Association* |
 | `_JntVntrEquityGrpText` | *Association* |

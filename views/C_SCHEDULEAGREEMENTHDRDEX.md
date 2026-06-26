@@ -52,7 +52,7 @@ tags:
 | `CashDiscount2Percent` | `CashDiscount2Percent` |
 | `NetPaymentDays` | `NetPaymentDays` |
 | `TargetAmount` | `TargetAmount` |
-| `fis_exchange_rate preserving type)` | `cast ( ExchangeRate` |
+| `ExchangeRate` | `cast ( ExchangeRate as fis_exchange_rate preserving type)` |
 | `ExchangeRateIsFixed` | `ExchangeRateIsFixed` |
 | `IncotermsLocation1` | `IncotermsLocation1` |
 | `IncotermsLocation2` | `IncotermsLocation2` |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergySourcingType` | `GHGEnergySourcingType` |
+| `GHGEnergySourcingType` | `GHGEnergySourcingType` |
 | `_Text` | *Association* |
 
 ## Associations

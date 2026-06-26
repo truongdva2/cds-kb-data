@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_description_text_30 preserving type )` | `cast(txt` |
+| `SubItemCategory` | `cast(sityp as fincs_subitemcategory preserving type )` |
+| `Language` | `cast(langu as spras preserving type )` |
+| `SubItemCategoryText` | `cast(txt as fincs_description_text_30 preserving type )` |
 | `_Language` | *Association* |
 | `_SubItemCategory` | *Association* |
 

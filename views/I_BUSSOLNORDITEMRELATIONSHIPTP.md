@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcItemRelationshipType' , element:'SrvcItemRelshpType'}, useAsTemplate: true  }]` | `name: 'I_SrvcItemRelationshipType' , element:'SrvcItemRelshpType'}, useAsTemplate: true  }]` |
-| `key SrvcItemRelshpType` | `SrvcItemRelshpType` |
-| `key SrvcItemRelshpToItemNumber` | `SrvcItemRelshpToItemNumber` |
-| `_BusinessSolutionOrder : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `SrvcItemRelshpFromItemNumber` | `SrvcItemRelshpFromItemNumber` |
+| `SrvcItemRelshpType` | `SrvcItemRelshpType` |
+| `SrvcItemRelshpToItemNumber` | `SrvcItemRelshpToItemNumber` |
 | `_ItemRelationshipTypeText` | *Association* |
 
 ## Associations

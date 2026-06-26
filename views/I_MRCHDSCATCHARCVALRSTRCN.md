@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdscategory)` | `cast (MrchdsCategory.class` |
+| `MerchandiseCategory` | `cast (MrchdsCategory.class as rfm_mrchdscategory)` |
 | `Characteristic` | `Characteristic.atnam` |
 | `ClfnCharcValuePositionNumber` | `CharcValRestriction.CharcValuePositionNumber` |
-| `atinn_no_conv preserving type  )` | `cast (Characteristic.atinn` |
+| `CharcInternalID` | `cast (Characteristic.atinn as atinn_no_conv preserving type )` |
 | `ClfnObjectID` | `CharcValRestriction.ClfnObjectID` |
 | `CharcValue` | `CharcValRestriction.CharcValue` |
 | `CharcFromNumericValue` | `CharcValRestriction.CharcFromNumericValue` |
@@ -51,7 +51,6 @@ tags:
 | `CharcToDate` | `CharcValRestriction.CharcToDate` |
 | `CharcFromTime` | `CharcValRestriction.CharcFromTime` |
 | `CharcToTime` | `CharcValRestriction.CharcToTime` |
-| `/* Associations */` | `/* Associations */` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicDesc` | *Association* |
 | `_MerchandiseCategory` | *Association* |

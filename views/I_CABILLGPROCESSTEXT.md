@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgProcess` | `_tfk8110t.bill_process` |
 | `Language` | `_tfk8110t.langu` |
-| `bill_process_txt_gfn_kk preserving type )` | `cast( _tfk8110t.text` |
+| `CABillgProcessText` | `cast( _tfk8110t.text as bill_process_txt_gfn_kk preserving type )` |
 | `_CABillgProcess` | *Association* |
 | `_Language` | *Association* |
 

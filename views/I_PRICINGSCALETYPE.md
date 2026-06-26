@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `stfkz )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingScaleType` | `cast ( substring( domvalue_l, 1, 1 ) as stfkz )` |
 | `_Text` | *Association* |
 
 ## Associations

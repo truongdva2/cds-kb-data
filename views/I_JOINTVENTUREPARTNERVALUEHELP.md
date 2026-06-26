@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true , fuzzinessThreshold: 0.8 , ranking: #HIGH }` | `defaultSearchElement: true , fuzzinessThreshold: 0.8 , ranking: #HIGH }` |
 | `CompanyCode` | `jvp.bukrs` |
-| `jv_part_cds preserving type )` | `cast( jvp.partn` |
-| `jv_part_nm preserving type )` | `cast( left(_BusinessPartner.BusinessPartnerName, 35)` |
-| `jva_partner_name preserving type )` | `cast( left(_BusinessPartner.BusinessPartnerName, 40)` |
+| `JointVenturePartner` | `cast( jvp.partn as jv_part_cds preserving type )` |
+| `JointVenturePartnerShortText` | `cast(…)` |
+| `JointVenturePartner2ShortText` | `cast(…)` |
 | `JntVntrIntcoCode` | `jvp.intcocd` |
 | `_CompanyCode` | *Association* |
 | `_BusinessPartner` | *Association* |

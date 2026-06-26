@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_indpag preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PaymentForm` | `cast ( substring( domvalue_l, 1, 1 ) as logbr_indpag preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

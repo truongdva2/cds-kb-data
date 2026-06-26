@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key JointVenture` | `JointVenture` |
-| `key JointVentureEquityType` | `JointVentureEquityType` |
-| `key JntVntrEquityFundingDateValue` | `JntVntrEquityFundingDateValue` |
+| `CompanyCode` | `CompanyCode` |
+| `JointVenture` | `JointVenture` |
+| `JointVentureEquityType` | `JointVentureEquityType` |
+| `JntVntrEquityFundingDateValue` | `JntVntrEquityFundingDateValue` |
 | `JointVentureEquityGroup` | `JointVentureEquityGroup` |
 | `JointVentureEquityGroupActive` | `JointVentureEquityGroupActive` |
 | `JointVentureDefBillCurrency` | `JointVentureDefBillCurrency` |
-| `_JointVenture : redirected to parent I_JointVentureTP` | *Association* |
 
 ## Associations
 

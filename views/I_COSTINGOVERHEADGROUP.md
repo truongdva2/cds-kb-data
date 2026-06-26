@@ -30,7 +30,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ProductValuationAreaVH' , element: 'ValuationArea' }, useAsTemplate: true }]` | `name: 'I_ProductValuationAreaVH' , element: 'ValuationArea' }, useAsTemplate: true }]` |
 | `ValuationArea` | `bwkey` |
 | `CostingOverheadGroup` | `kosgr` |
 | `OverheadCode` | `zschl` |

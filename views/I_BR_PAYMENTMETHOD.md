@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_tpag preserving type )` | `cast ( t_pag` |
+| `PaymentMethod` | `cast ( t_pag as logbr_tpag preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

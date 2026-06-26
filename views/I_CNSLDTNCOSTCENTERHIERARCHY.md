@@ -32,16 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnControllingAreaVH'` | `name: 'I_CnsldtnControllingAreaVH'` |
-| `element: 'ControllingArea'` | `element: 'ControllingArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key ControllingArea` | `ControllingArea` |
-| `fincs_costcenterhierarchy preserving type )` | `cast(_Hierarchy.CnsldtnUniversalHierarchy` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `ControllingArea` | `ControllingArea` |
+| `CnsldtnCostCenterHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |
 

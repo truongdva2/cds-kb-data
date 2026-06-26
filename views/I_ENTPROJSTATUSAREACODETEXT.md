@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Key` | `I_EntProjectStatusAreaCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

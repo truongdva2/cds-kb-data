@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kmxaw )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `ConditionBasisLimitExceeded` | `cast ( substring( domvalue_l, 1, 1 ) as kmxaw )` |
 | `_ConditionAmountLimitExceeded` | *Association* |
 
 ## Associations

@@ -33,21 +33,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_SupplierQuotationItem.SupplierQuotation` | `I_SupplierQuotationItem.SupplierQuotation` |
-| `key I_SupplierQuotationItem.SupplierQuotationItem` | `I_SupplierQuotationItem.SupplierQuotationItem` |
-| `I_SupplierQuotationItem.PurchasingDocumentCategory` | `I_SupplierQuotationItem.PurchasingDocumentCategory` |
-| `I_SupplierQuotationItem.PurchasingDocumentItemText` | `I_SupplierQuotationItem.PurchasingDocumentItemText` |
-| `I_SupplierQuotationItem.Material` | `I_SupplierQuotationItem.Material` |
-| `I_SupplierQuotationItem.ManufacturerMaterial` | `I_SupplierQuotationItem.ManufacturerMaterial` |
-| `I_SupplierQuotationItem.SupplierMaterialNumber` | `I_SupplierQuotationItem.SupplierMaterialNumber` |
-| `I_SupplierQuotationItem.ManufacturerPartNmbr` | `I_SupplierQuotationItem.ManufacturerPartNmbr` |
-| `I_SupplierQuotationItem.Manufacturer` | `I_SupplierQuotationItem.Manufacturer` |
-| `I_SupplierQuotationItem.MaterialGroup` | `I_SupplierQuotationItem.MaterialGroup` |
-| `I_SupplierQuotationItem.Plant` | `I_SupplierQuotationItem.Plant` |
-| `I_SupplierQuotationItem.IncotermsClassification` | `I_SupplierQuotationItem.IncotermsClassification` |
-| `I_SupplierQuotationItem.IncotermsTransferLocation` | `I_SupplierQuotationItem.IncotermsTransferLocation` |
-| `I_SupplierQuotationItem.IncotermsLocation1` | `I_SupplierQuotationItem.IncotermsLocation1` |
-| `I_SupplierQuotationItem.IncotermsLocation2` | `I_SupplierQuotationItem.IncotermsLocation2` |
+| `SupplierQuotation` | `I_SupplierQuotationItem.SupplierQuotation` |
+| `SupplierQuotationItem` | `I_SupplierQuotationItem.SupplierQuotationItem` |
+| `PurchasingDocumentCategory` | `I_SupplierQuotationItem.PurchasingDocumentCategory` |
+| `PurchasingDocumentItemText` | `I_SupplierQuotationItem.PurchasingDocumentItemText` |
+| `Material` | `I_SupplierQuotationItem.Material` |
+| `ManufacturerMaterial` | `I_SupplierQuotationItem.ManufacturerMaterial` |
+| `SupplierMaterialNumber` | `I_SupplierQuotationItem.SupplierMaterialNumber` |
+| `ManufacturerPartNmbr` | `I_SupplierQuotationItem.ManufacturerPartNmbr` |
+| `Manufacturer` | `I_SupplierQuotationItem.Manufacturer` |
+| `MaterialGroup` | `I_SupplierQuotationItem.MaterialGroup` |
+| `Plant` | `I_SupplierQuotationItem.Plant` |
+| `IncotermsClassification` | `I_SupplierQuotationItem.IncotermsClassification` |
+| `IncotermsTransferLocation` | `I_SupplierQuotationItem.IncotermsTransferLocation` |
+| `IncotermsLocation1` | `I_SupplierQuotationItem.IncotermsLocation1` |
+| `IncotermsLocation2` | `I_SupplierQuotationItem.IncotermsLocation2` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
 | `OrderPriceUnitToOrderUnitNmrtr` | `OrderPriceUnitToOrderUnitNmrtr` |
 | `OrdPriceUnitToOrderUnitDnmntr` | `OrdPriceUnitToOrderUnitDnmntr` |
@@ -60,12 +60,11 @@ tags:
 | `NetAmount` | `NetAmount` |
 | `NetPriceAmount` | `NetPriceAmount` |
 | `NetPriceQuantity` | `NetPriceQuantity` |
-| `I_SupplierQuotationItem.DocumentCurrency` | `I_SupplierQuotationItem.DocumentCurrency` |
-| `I_SupplierQuotationItem.PurchaseRequisition` | `I_SupplierQuotationItem.PurchaseRequisition` |
-| `I_SupplierQuotationItem.PurchaseRequisitionItem` | `I_SupplierQuotationItem.PurchaseRequisitionItem` |
-| `I_SupplierQuotationItem.RequestForQuotation` | `I_SupplierQuotationItem.RequestForQuotation` |
-| `I_SupplierQuotationItem.RequestForQuotationItem` | `I_SupplierQuotationItem.RequestForQuotationItem` |
-| `/*Association*/` | `/*Association*/` |
+| `DocumentCurrency` | `I_SupplierQuotationItem.DocumentCurrency` |
+| `PurchaseRequisition` | `I_SupplierQuotationItem.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `I_SupplierQuotationItem.PurchaseRequisitionItem` |
+| `RequestForQuotation` | `I_SupplierQuotationItem.RequestForQuotation` |
+| `RequestForQuotationItem` | `I_SupplierQuotationItem.RequestForQuotationItem` |
 | `_SupplierQuotation` | *Association* |
 
 ## Associations

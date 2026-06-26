@@ -31,11 +31,9 @@ tags:
 |---|---|
 | `CAApplicationArea` | `tfkhvo.applk` |
 | `CAMainTransaction` | `tfkhvo.hvorg` |
-| `/* associations */` | `/* associations */` |
 | `_CAApplicationArea` | *Association* |
 | `_Text` | *Association* |
-| `/* deprecated fields */` | `/* deprecated fields */` |
-| `_CAApplicationArea as _ApplArea` | *Association* |
+| `_ApplArea` | *Association* |
 
 ## Associations
 

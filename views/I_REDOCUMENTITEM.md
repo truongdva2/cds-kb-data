@@ -36,7 +36,7 @@ tags:
 | `RealEstateDocumentItem` | `itemno` |
 | `REReferenceDocumentItem` | `refitemno` |
 | `CompanyCode` | `bukrs` |
-| `_CompanyCode.ControllingArea                               as ControllingArea` | *Association* |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
 | `REDocumentItemType` | `itemtype` |
 | `SettlementReferenceDate` | `refdate` |
 | `REProcessType` | `process` |
@@ -55,14 +55,13 @@ tags:
 | `RETaxCalcDate` | `taxdate` |
 | `BusinessArea` | `gsber` |
 | `ProfitCenter` | `prctr` |
-| `bp_geber )` | `cast( fund` |
-| `fm_fictr )` | `cast( fundscenter` |
-| `fm_fipex preserving type )` | `cast( commitmentitem` |
-| `fm_farea )` | `cast( functionalarea` |
-| `reravdmgrantnumber preserving type)` | `cast( grantnumber` |
+| `Fund` | `cast( fund as bp_geber )` |
+| `FundsCenter` | `cast( fundscenter as fm_fictr )` |
+| `CommitmentItem` | `cast( commitmentitem as fm_fipex preserving type )` |
+| `FunctionalArea` | `cast( functionalarea as fm_farea )` |
+| `REFundsManagementGrantID` | `cast( grantnumber as reravdmgrantnumber preserving type)` |
 | `REStatusObjectAsset` | `assetobjnr` |
 | `REValnIsCompleteRetirement` | `iscompleteretirement` |
-| `/* Associations */` | `/* Associations */` |
 | `_REDocumentHeader` | *Association* |
 | `_BusinessArea` | *Association* |
 | `_ProfitCenter` | *Association* |

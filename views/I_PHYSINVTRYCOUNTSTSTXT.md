@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `pi_hdr_count_status_code )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `val_text )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PhysicalInventoryCountStatus` | `cast ( substring( domvalue_l, 1, 2 ) as pi_hdr_count_status_code )` |
+| `PhysicalInventoryCountStsTxt` | `cast ( substring ( ddtext, 1, 60 ) as val_text )` |
 | `_Language` | *Association* |
 | `_PhysInvtryCountSts` | *Association* |
 

@@ -31,9 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `EU_EDocDocCategory` | `cast(dd07t.domvalue_l as edoc_eu_doc_category)` |
+| `Language` | `ddlanguage` |
 | `EU_EDocDocCategoryText` | `ddtext` |
 | `_Language` | *Association* |
 

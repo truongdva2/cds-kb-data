@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoiceStatus` | `SupplierInvoiceStatus` |
-| `key Language` | `Language` |
+| `SupplierInvoiceStatus` | `SupplierInvoiceStatus` |
+| `Language` | `Language` |
 | `DomainValue` | `DomainValue` |
 | `SupplierInvoiceStatusDesc` | `SupplierInvoiceStatusDesc` |
 | `_Language` | *Association* |

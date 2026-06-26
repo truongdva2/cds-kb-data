@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wty_poskt )` | `cast( domvalue_l` |
+| `WrntyControllingItemType` | `cast( domvalue_l as wty_poskt )` |
 | `Language` | `ddlanguage` |
 | `WrntyControllingItemTypeText` | `ddtext` |
 | `_Language` | *Association* |

@@ -28,15 +28,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_stop_role preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStopRole` | `cast(substring(domvalue_l, 1, 2) as /scmtms/tor_stop_role preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdStopRoleT_2` | [0..*] |
 
 ## Source Code
 

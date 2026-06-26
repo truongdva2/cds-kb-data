@@ -32,14 +32,14 @@ tags:
 | Field | Data Source |
 |---|---|
 | `JITCallNumber` | `pabnum` |
-| `njit_call_item_num preserving type)` | `cast(pabpos` |
+| `JITCallItemNumber` | `cast(pabpos as njit_call_item_num preserving type)` |
 | `DeliveryDocument` | `vbeln` |
 | `DeliveryDocumentItem` | `posnr` |
 | `JITCallGoodsReceiptQuantity` | `pabavm` |
-| `_SummarizedJITCallItem.BaseUnit as BaseUnit` | *Association* |
+| `BaseUnit` | `_SummarizedJITCallItem.BaseUnit` |
 | `JITCallGoodsReceiptIsPosted` | `partgr` |
-| `_SummarizedJITCall.Plant` | *Association* |
-| `_DeliveryDocument.Supplier` | *Association* |
+| `Plant` | `_SummarizedJITCall.Plant` |
+| `Supplier` | `_DeliveryDocument.Supplier` |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |
 | `_SummarizedJITCall` | *Association* |

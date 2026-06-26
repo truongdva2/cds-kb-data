@@ -36,21 +36,7 @@ tags:
 | `LocationUUID` | `LocationUUID` |
 | `LocationAdditionalUUID` | `LocationAdditionalUUID` |
 | `Location` | `Location` |
-| `/* we will use the assiciation _PostalAddrDftlReprstn which directly selects from the adrc table` | `/* we will use the assiciation _PostalAddrDftlReprstn which directly selects from the adrc table` |
-| `and avoids the association to the union view I_ADDRESS_2, which will cause a performance issue` | `and avoids the association to the union view I_ADDRESS_2, which will cause a performance issue` |
-| `when consumed in views with multiple locations */` | `when consumed in views with multiple locations */` |
-| `case when loc_basic._Text[1: Language = $session.system_language ].LocationDescription is not initial` | `case when loc_basic._Text[1: Language = $session.system_language ].LocationDescription is not initial` |
-| `then concat_with_space(      // Combintion of location description and address data` | `then concat_with_space(      // Combintion of location description and address data` |
-| `concat_with_space(` | `concat_with_space(` |
-| `concat_with_space( loc_basic._Text[1: Language = $session.system_language ].LocationDescription, '/' , 1)` | `concat_with_space( loc_basic._Text[1: Language = $session.system_language ].LocationDescription, '/' , 1)` |
-| `concat_with_space(` | `concat_with_space(` |
-| `concat_with_space( loc_basic._PostalAddrDfltRprstn.StreetName, loc_basic._PostalAddrDfltRprstn.HouseNumber , 1)` | `concat_with_space( loc_basic._PostalAddrDfltRprstn.StreetName, loc_basic._PostalAddrDfltRprstn.HouseNumber , 1)` |
-| `concat_with_space( '/' , concat_with_space( loc_basic._PostalAddrDfltRprstn.PostalCode , loc_basic._PostalAddrDfltRprstn.CityName, 1), 1), 1), 3 )` | `concat_with_space( '/' , concat_with_space( loc_basic._PostalAddrDfltRprstn.PostalCode , loc_basic._PostalAddrDfltRprstn.CityName, 1), 1), 1), 3 )` |
-| `concat( concat( '(' ,  loc_basic.Location) , ')' ), 1 ) //Location ID in ()` | `concat( concat( '(' ,  loc_basic.Location) , ')' ), 1 ) //Location ID in ()` |
-| `else concat_with_space(      // Only address data` | `else concat_with_space(      // Only address data` |
-| `concat_with_space(loc_basic._PostalAddrDfltRprstn.PostalCode, loc_basic._PostalAddrDfltRprstn.CityName, 1)` | `concat_with_space(loc_basic._PostalAddrDfltRprstn.PostalCode, loc_basic._PostalAddrDfltRprstn.CityName, 1)` |
-| `concat( concat( '(' ,  loc_basic.Location) , ')' ), 1 ) //Location ID in ()` | `concat( concat( '(' ,  loc_basic.Location) , ')' ), 1 ) //Location ID in ()` |
-| `LocationAddressDataText` | `end` |
+| `LocationAddressDataText` | `case…end` |
 | `BusinessPartnerUUID` | `loc_basic.BusinessPartnerUUID` |
 | `IsBusinessPurposeCompleted` | `loc_basic.IsBusinessPurposeCompleted` |
 | `_BusinessPartner` | *Association* |

@@ -32,29 +32,29 @@ tags:
 | Field | Data Source |
 |---|---|
 | `REContractType` | `_ContractType.smvart` |
-| `_ContractType.condgroup        as REConditionGroup` | *Association* |
-| `_ContractType.adjustnumberbeg  as REAdjustNumberGroup` | *Association* |
-| `_ContractType.adjustnumberstep as REAdjustNumber` | *Association* |
-| `_ContractType.bproletype1      as REBusinessPartnerRole1` | *Association* |
-| `_ContractType.bproletype2      as REBusinessPartnerRole2` | *Association* |
-| `_ContractType.usersupplier     as REContractUserSupplier` | *Association* |
-| `_ContractType.category         as REContractCategory` | *Association* |
-| `_ContractType.cfperiod         as RECashFlowPeriod` | *Association* |
-| `_ContractType.taxtype          as RETaxType` | *Association* |
-| `_ContractType.taxgroup         as TaxGroup` | *Association* |
-| `_ContractType.cntypedeposit    as REContractDepositType` | *Association* |
-| `_ContractType.istaxfree        as REContractIsTaxFree` | *Association* |
-| `_ContractType.ntprocdefault    as RENoticeProcedure` | *Association* |
-| `_ContractType.cntypeusageind   as REInfluenceHoldings` | *Association* |
-| `_ContractType.cmcflevel        as REFinanceDepositLevel` | *Association* |
-| `_ContractType.ispossdenabled   as REIsPossessionDate` | *Association* |
-| `_ContractType.condgroupsum     as REConditionGroupTotal` | *Association* |
-| `_ContractType.cuexcludeassign  as REIsExclForNewAssgmt` | *Association* |
-| `_ContractTypeFndn.NumberRangeInterval` | *Association* |
-| `_ContractTypeFndn.REUsageType` | *Association* |
-| `_ContractTypeFndn.REContractTypeCategory` | *Association* |
-| `_ContractTypeFndn.REIsAreaBasedRent` | *Association* |
-| `_ContractTypeFndn.REHasDistributionOnObject` | *Association* |
+| `REConditionGroup` | `_ContractType.condgroup` |
+| `REAdjustNumberGroup` | `_ContractType.adjustnumberbeg` |
+| `REAdjustNumber` | `_ContractType.adjustnumberstep` |
+| `REBusinessPartnerRole1` | `_ContractType.bproletype1` |
+| `REBusinessPartnerRole2` | `_ContractType.bproletype2` |
+| `REContractUserSupplier` | `_ContractType.usersupplier` |
+| `REContractCategory` | `_ContractType.category` |
+| `RECashFlowPeriod` | `_ContractType.cfperiod` |
+| `RETaxType` | `_ContractType.taxtype` |
+| `TaxGroup` | `_ContractType.taxgroup` |
+| `REContractDepositType` | `_ContractType.cntypedeposit` |
+| `REContractIsTaxFree` | `_ContractType.istaxfree` |
+| `RENoticeProcedure` | `_ContractType.ntprocdefault` |
+| `REInfluenceHoldings` | `_ContractType.cntypeusageind` |
+| `REFinanceDepositLevel` | `_ContractType.cmcflevel` |
+| `REIsPossessionDate` | `_ContractType.ispossdenabled` |
+| `REConditionGroupTotal` | `_ContractType.condgroupsum` |
+| `REIsExclForNewAssgmt` | `_ContractType.cuexcludeassign` |
+| `NumberRangeInterval` | `_ContractTypeFndn.NumberRangeInterval` |
+| `REUsageType` | `_ContractTypeFndn.REUsageType` |
+| `REContractTypeCategory` | `_ContractTypeFndn.REContractTypeCategory` |
+| `REIsAreaBasedRent` | `_ContractTypeFndn.REIsAreaBasedRent` |
+| `REHasDistributionOnObject` | `_ContractTypeFndn.REHasDistributionOnObject` |
 | `_RETaxType` | *Association* |
 | `_RETaxGroup` | *Association* |
 | `_REFinanceDepositLevel` | *Association* |
@@ -64,6 +64,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_REContractTypeText_2` | [0..*] |
 | `_RETaxType` | `I_RETaxType` | [1..*] |
 | `_RETaxGroup` | `I_RETaxGroup` | [0..1] |
 | `_REFinanceDepositLevel` | `I_PlanningLevel` | [0..1] |

@@ -32,9 +32,9 @@ tags:
 | `ClassInternalID` | `ClassCharc.clint` |
 | `CharcPositionNumber` | `ClassCharc.posnr` |
 | `TimeIntervalNumber` | `ClassCharc.adzhl` |
-| `atinn_no_conv preserving type )` | `cast ( ClassCharc.imerk` |
-| `atinn_no_conv preserving type )` | `cast ( ClassCharc.omerk` |
-| `clfnorganizationalarea preserving type )` | `cast ( ClassCharc.abtei` |
+| `CharcInternalID` | `cast ( ClassCharc.imerk as atinn_no_conv preserving type )` |
+| `OverwrittenCharcInternalID` | `cast ( ClassCharc.omerk as atinn_no_conv preserving type )` |
+| `ClfnOrganizationalArea` | `cast ( ClassCharc.abtei as clfnorganizationalarea preserving type )` |
 | `ClassType` | `ClassCharc.klart` |
 | `ChangeNumber` | `ClassCharc.aennr` |
 | `ValidityStartDate` | `ClassCharc.datuv` |
@@ -43,60 +43,9 @@ tags:
 | `CharcOriginText` | `ClassCharc.herku` |
 | `CharcIsProposalRelevant` | `ClassCharc.prop_rel` |
 | `CharcIsPrptnOrProdUnitRelevant` | `ClassCharc.pprel` |
-| `cast ( case` | `cast ( case` |
-| `when ClassCharc.amerk = '1000000000' then 'X'` | `when ClassCharc.amerk = '1000000000' then 'X'` |
-| `when ClassCharc.amerk = '1200000000' then 'X'` | `when ClassCharc.amerk = '1200000000' then 'X'` |
-| `when ClassCharc.amerk = '1300000000' then 'X'` | `when ClassCharc.amerk = '1300000000' then 'X'` |
-| `when ClassCharc.amerk = '1400000000' then 'X'` | `when ClassCharc.amerk = '1400000000' then 'X'` |
-| `when ClassCharc.amerk = '1230000000' then 'X'` | `when ClassCharc.amerk = '1230000000' then 'X'` |
-| `when ClassCharc.amerk = '1240000000' then 'X'` | `when ClassCharc.amerk = '1240000000' then 'X'` |
-| `when ClassCharc.amerk = '1340000000' then 'X'` | `when ClassCharc.amerk = '1340000000' then 'X'` |
-| `when ClassCharc.amerk = '1234000000' then 'X'` | `when ClassCharc.amerk = '1234000000' then 'X'` |
-| `when not ( ClassCharc.amerk = '1000000000' and` | `when not ( ClassCharc.amerk = '1000000000' and` |
-| `ClassCharc.amerk = '1200000000' and` | `ClassCharc.amerk = '1200000000' and` |
-| `ClassCharc.amerk = '1300000000' and` | `ClassCharc.amerk = '1300000000' and` |
-| `ClassCharc.amerk = '1400000000' and` | `ClassCharc.amerk = '1400000000' and` |
-| `ClassCharc.amerk = '1230000000' and` | `ClassCharc.amerk = '1230000000' and` |
-| `ClassCharc.amerk = '1240000000' and` | `ClassCharc.amerk = '1240000000' and` |
-| `ClassCharc.amerk = '1340000000' and` | `ClassCharc.amerk = '1340000000' and` |
-| `ClassCharc.amerk = '1234000000' ) then ''` | `ClassCharc.amerk = '1234000000' ) then ''` |
-| `charcisprintrelevant preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ClassCharc.amerk = '2000000000' then 'X'` | `when ClassCharc.amerk = '2000000000' then 'X'` |
-| `when ClassCharc.amerk = '1200000000' then 'X'` | `when ClassCharc.amerk = '1200000000' then 'X'` |
-| `when ClassCharc.amerk = '2300000000' then 'X'` | `when ClassCharc.amerk = '2300000000' then 'X'` |
-| `when ClassCharc.amerk = '2400000000' then 'X'` | `when ClassCharc.amerk = '2400000000' then 'X'` |
-| `when ClassCharc.amerk = '1230000000' then 'X'` | `when ClassCharc.amerk = '1230000000' then 'X'` |
-| `when ClassCharc.amerk = '1240000000' then 'X'` | `when ClassCharc.amerk = '1240000000' then 'X'` |
-| `when ClassCharc.amerk = '2340000000' then 'X'` | `when ClassCharc.amerk = '2340000000' then 'X'` |
-| `when ClassCharc.amerk = '1234000000' then 'X'` | `when ClassCharc.amerk = '1234000000' then 'X'` |
-| `when not ( ClassCharc.amerk = '2000000000' and` | `when not ( ClassCharc.amerk = '2000000000' and` |
-| `ClassCharc.amerk = '1200000000' and` | `ClassCharc.amerk = '1200000000' and` |
-| `ClassCharc.amerk = '2300000000' and` | `ClassCharc.amerk = '2300000000' and` |
-| `ClassCharc.amerk = '2400000000' and` | `ClassCharc.amerk = '2400000000' and` |
-| `ClassCharc.amerk = '1230000000' and` | `ClassCharc.amerk = '1230000000' and` |
-| `ClassCharc.amerk = '1240000000' and` | `ClassCharc.amerk = '1240000000' and` |
-| `ClassCharc.amerk = '2340000000' and` | `ClassCharc.amerk = '2340000000' and` |
-| `ClassCharc.amerk = '1234000000' ) then ''` | `ClassCharc.amerk = '1234000000' ) then ''` |
-| `charcissearchrelevant preserving type )` | `end` |
-| `cast ( case` | `cast ( case` |
-| `when ClassCharc.amerk = '3000000000' then 'X'` | `when ClassCharc.amerk = '3000000000' then 'X'` |
-| `when ClassCharc.amerk = '1300000000' then 'X'` | `when ClassCharc.amerk = '1300000000' then 'X'` |
-| `when ClassCharc.amerk = '2300000000' then 'X'` | `when ClassCharc.amerk = '2300000000' then 'X'` |
-| `when ClassCharc.amerk = '3400000000' then 'X'` | `when ClassCharc.amerk = '3400000000' then 'X'` |
-| `when ClassCharc.amerk = '1230000000' then 'X'` | `when ClassCharc.amerk = '1230000000' then 'X'` |
-| `when ClassCharc.amerk = '1340000000' then 'X'` | `when ClassCharc.amerk = '1340000000' then 'X'` |
-| `when ClassCharc.amerk = '2340000000' then 'X'` | `when ClassCharc.amerk = '2340000000' then 'X'` |
-| `when ClassCharc.amerk = '1234000000' then 'X'` | `when ClassCharc.amerk = '1234000000' then 'X'` |
-| `when not ( ClassCharc.amerk = '3000000000' and` | `when not ( ClassCharc.amerk = '3000000000' and` |
-| `ClassCharc.amerk = '1300000000' and` | `ClassCharc.amerk = '1300000000' and` |
-| `ClassCharc.amerk = '2300000000' and` | `ClassCharc.amerk = '2300000000' and` |
-| `ClassCharc.amerk = '3400000000' and` | `ClassCharc.amerk = '3400000000' and` |
-| `ClassCharc.amerk = '1230000000' and` | `ClassCharc.amerk = '1230000000' and` |
-| `ClassCharc.amerk = '1340000000' and` | `ClassCharc.amerk = '1340000000' and` |
-| `ClassCharc.amerk = '2340000000' and` | `ClassCharc.amerk = '2340000000' and` |
-| `ClassCharc.amerk = '1234000000' ) then ''` | `ClassCharc.amerk = '1234000000' ) then ''` |
-| `charcisdisplayrelevant preserving type )` | `end` |
+| `CharcIsPrintRelevant` | `cast(…)` |
+| `CharcIsSearchRelevant` | `cast(…)` |
+| `CharcIsDisplayRelevant` | `cast(…)` |
 | `_Class` | *Association* |
 
 ## Associations

@@ -33,9 +33,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Customer` | `SEPAMandateSender` |
-| `key SEPAMandate` | `SEPAMandate` |
-| `key SEPAMandateSenderIBAN` | `SEPAMandateSenderIBAN` |
-| `key SEPAMandateVersion` | `SEPAMandateVersion` |
+| `SEPAMandate` | `SEPAMandate` |
+| `SEPAMandateSenderIBAN` | `SEPAMandateSenderIBAN` |
+| `SEPAMandateVersion` | `SEPAMandateVersion` |
 | `SEPAMandateSenderBankSWIFTCode` | `SEPAMandateSenderBankSWIFTCode` |
 | `SEPAMandateUUID` | `SEPAMandateUUID` |
 | `ValidityStartDate` | `ValidityStartDate` |
@@ -59,7 +59,7 @@ tags:
 | `SEPAMandateLastUseObjTypeCode` | `SEPAMandateLastUseObjTypeCode` |
 | `SEPAMandateLastUsePaymentDoc` | `SEPAMandateLastUsePaymentDoc` |
 | `SEPAMandateFirstUsePaymentRun` | `SEPAMandateFirstUsePaymentRun` |
-| `_Customer.IsBusinessPurposeCompleted` | *Association* |
+| `IsBusinessPurposeCompleted` | `_Customer.IsBusinessPurposeCompleted` |
 | `_Customer` | *Association* |
 
 ## Associations

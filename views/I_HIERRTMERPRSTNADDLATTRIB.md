@@ -29,7 +29,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RuntimeHierarchy` | `hryid` |
-| `fis_datbi preserving type )` | `cast(hryvalto` |
+| `ValidityEndDate` | `cast(hryvalto as fis_datbi preserving type )` |
 | `HierarchyAttributeName` | `hryattrname` |
 | `HierAttributeRangeFromVal` | `hryattrvalue` |
 | `HierarchyType` | `hrytyp` |

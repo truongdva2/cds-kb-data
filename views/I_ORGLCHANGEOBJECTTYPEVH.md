@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  case when _Text[1:Language=$session.system_language].OrglChangeObjectTypeName is null` | `case when _Text[1:Language=$session.system_language].OrglChangeObjectTypeName is null` |
-| `then  _Text[1:Language='E'].OrglChangeObjectTypeName` | `then  _Text[1:Language='E'].OrglChangeObjectTypeName` |
-| `else  _Text[1:Language=$session.system_language].OrglChangeObjectTypeName` | `else  _Text[1:Language=$session.system_language].OrglChangeObjectTypeName` |
-| `OrglChangeObjectTypeName` | `end` |
-| `key  OrganizationalChangeObjectType` | `OrganizationalChangeObjectType` |
+| `OrglChangeObjectTypeName` | `case…end` |
+| `OrganizationalChangeObjectType` | `OrganizationalChangeObjectType` |
 
 ## Associations
 

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `debit_memo_request_type preserving type )` | `cast(SalesDocumentType` |
+| `DebitMemoRequestType` | `cast(SalesDocumentType as debit_memo_request_type preserving type )` |
 | `DebitMemoRequestProcessingType` | `SalesDocumentProcessingType` |
 | `_Text` | *Association* |
 

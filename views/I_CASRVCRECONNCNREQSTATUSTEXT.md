@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recreq_stat_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `recreq_stat_text_kk preserving type )` | `cast( ddtext` |
+| `CASrvcReconncnReqStatus` | `cast( left( dd07t.domvalue_l, 1 ) as recreq_stat_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CASrvcReconncnReqStatusText` | `cast( ddtext as recreq_stat_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

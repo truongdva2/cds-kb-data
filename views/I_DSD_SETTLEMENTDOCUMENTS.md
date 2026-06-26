@@ -35,8 +35,8 @@ tags:
 | `DSD_CancellationDocumentType` | `_Documents.doc_type` |
 | `DSD_ExtDeliveryOrOrderNumber` | `_Documents.hh_ref_no` |
 | `DSD_ExtDocSequentialNumber` | `_Documents.counter` |
-| `_Documents.be_vbeln  as SDDocument` | *Association* |
-| `_Header.plant as Plant` | *Association* |
+| `SDDocument` | `_Documents.be_vbeln` |
+| `Plant` | `_Header.plant` |
 | `_CancellationDocumentType` | *Association* |
 | `_SalesDocument` | *Association* |
 

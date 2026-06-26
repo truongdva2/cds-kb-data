@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProjectElementUUID : /s4ppm/tv_entity_guid;` | `ProjectElementUUID : /s4ppm/tv_entity_guid;` |
-| `ProjectElement : /s4ppm/tv_external_id;` | `ProjectElement : /s4ppm/tv_external_id;` |
+| `ProjectElementUUID` | `/s4ppm/tv_entity_guid` |
+| `ProjectElement` | `/s4ppm/tv_external_id` |
 
 ## Associations
 

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabart)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_pabart_text preserving type)` | `cast(ddtext` |
+| `JITCallOutboundType` | `cast(substring(domvalue_l, 1, 1) as pabart)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `JITCallOutboundTypeName` | `cast(ddtext as vdm_pabart_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_JITCallOutboundType` | *Association* |
 | `_Language` | *Association* |

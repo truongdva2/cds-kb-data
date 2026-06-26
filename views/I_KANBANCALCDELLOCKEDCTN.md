@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `loewg preserving type)` | `cast ( right(domvalue_l, 1)` |
+| `KanbanCalcDelLockedCtns` | `cast ( right(domvalue_l, 1) as loewg preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

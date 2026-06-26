@@ -30,10 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `fincs_investmentmethod preserving type )` | `cast(_Source.coimeth` |
-| `fincs_accountingtechnique preserving type )` | `cast(_Source.coitp` |
-| `/* Associations */` | `/* Associations */` |
+| `ConsolidationInvestmentMethod` | `cast(_Source.coimeth as fincs_investmentmethod preserving type )` |
+| `AccountingTechnique` | `cast(_Source.coitp as fincs_accountingtechnique preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

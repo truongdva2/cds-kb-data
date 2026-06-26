@@ -28,7 +28,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `BusinessSolutionOrder` | `ServiceDocument` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `BusinessSolutionOrderUUID` | `ServiceDocumentUUID` |
+| `ServiceDocumentType` | `ServiceDocumentType` |
+| `ServiceDocumentDescription` | `ServiceDocumentDescription` |
+| `Language` | `Language` |
+| `PostingDate` | `PostingDate` |
+| `ServiceDocNetAmount` | `ServiceDocNetAmount` |
+| `ServiceDocGrossAmount` | `ServiceDocGrossAmount` |
 | `ServiceDocTaxAmount` | `ServiceDocTaxAmount` |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `SoldToParty` | `SoldToParty` |

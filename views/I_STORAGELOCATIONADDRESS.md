@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_StorageLocationStdVH', element: 'StorageLocation' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_StorageLocationStdVH', element: 'StorageLocation' }, useAsTemplate: true }]       //CustomUI` |
+| `Plant` | `werks` |
 | `StorageLocation` | `lgort` |
 | `StorLocAddressSequenceNumber` | `lfdnr` |
 | `AddressID` | `adrnr` |

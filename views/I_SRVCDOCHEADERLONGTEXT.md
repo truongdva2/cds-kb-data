@@ -31,7 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Long Text', quickInfo: 'Long Text' }` | `label: 'Long Text', quickInfo: 'Long Text' }` |
+| `ServiceDocumentLongTextUUID` | `ServiceDocumentText.text_uuid` |
+| `TextObjectCategory` | `ServiceDocumentText.text_object` |
+| `TextObjectType` | `ServiceDocumentText.text_id` |
+| `Language` | `ServiceDocumentText.language` |
+| `ServiceObjectType` | `ServiceDocumentText.objtype_h` |
+| `ServiceDocument` | `ServiceDocumentText.object_id` |
 | `ServiceDocumentLongText` | `ServiceDocumentText.text_content` |
 | `SrvcDocLongTextMimeType` | `ServiceDocumentText.mimetype` |
 | `_TextObjectCategory` | *Association* |

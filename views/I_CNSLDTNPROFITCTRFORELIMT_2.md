@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` | `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `key ProfitCenter` | `ProfitCenter` |
-| `fincs_elim_profitcentername preserving type )` | `cast( _Source.ProfitCenterName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `Language` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
+| `ProfitCenterName` | `cast( _Source.ProfitCenterName as fincs_elim_profitcentername preserving type )` |
 | `_ControllingArea` | *Association* |
 | `_ProfitCenterForElim` | *Association* |
 | `_Language` | *Association* |

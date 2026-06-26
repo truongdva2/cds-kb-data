@@ -31,17 +31,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   CostEstimate` | `CostEstimate` |
-| `key   CurrencyRole` | `CurrencyRole` |
-| `key   Ledger` | `Ledger` |
-| `fins_fyearperiod )` | `cast( FiscalYearPeriod` |
-| `key   MaterialLedgerCategory` | `MaterialLedgerCategory` |
-| `key   ProcessCategory` | `ProcessCategory` |
-| `key   MatlLdgrDocIsCostingRelevant` | `MatlLdgrDocIsCostingRelevant` |
-| `key   ProcurementAlternative` | `ProcurementAlternative` |
-| `key   ProductionProcess` | `ProductionProcess` |
-| `key   MovementType` | `MovementType` |
-| `key   GLAccount` | `GLAccount` |
+| `CostEstimate` | `CostEstimate` |
+| `CurrencyRole` | `CurrencyRole` |
+| `Ledger` | `Ledger` |
+| `FiscalYearPeriod` | `cast( FiscalYearPeriod as fins_fyearperiod )` |
+| `MaterialLedgerCategory` | `MaterialLedgerCategory` |
+| `ProcessCategory` | `ProcessCategory` |
+| `MatlLdgrDocIsCostingRelevant` | `MatlLdgrDocIsCostingRelevant` |
+| `ProcurementAlternative` | `ProcurementAlternative` |
+| `ProductionProcess` | `ProductionProcess` |
+| `MovementType` | `MovementType` |
+| `GLAccount` | `GLAccount` |
 | `PriceDeterminationControl` | `PriceDeterminationControl` |
 | `ValuationArea` | `ValuationArea` |
 | `Material` | `Material` |

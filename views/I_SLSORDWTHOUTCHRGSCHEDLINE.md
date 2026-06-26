@@ -30,22 +30,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SalesDocumentScheduleLine.SalesDocument` |
-| `sales_order_item preserving type)` | `cast(SalesDocumentScheduleLine.SalesDocumentItem` |
-| `key SalesDocumentScheduleLine.ScheduleLine` | `SalesDocumentScheduleLine.ScheduleLine` |
+| `SalesOrderWithoutCharge` | `cast(SalesDocumentScheduleLine.SalesDocument as vdm_sales_order preserving type)` |
+| `SalesOrderWithoutChargeItem` | `cast(…)` |
+| `ScheduleLine` | `SalesDocumentScheduleLine.ScheduleLine` |
 | `ScheduleLineCategory` | `ScheduleLineCategory` |
 | `OrderQuantityUnit` | `OrderQuantityUnit` |
 | `OrderToBaseQuantityDnmntr` | `OrderToBaseQuantityDnmntr` |
 | `OrderToBaseQuantityNmrtr` | `OrderToBaseQuantityNmrtr` |
 | `BaseUnit` | `BaseUnit` |
-| `SalesDocumentScheduleLine.DeliveryDate` | `SalesDocumentScheduleLine.DeliveryDate` |
-| `reqd_deliv)` | `cast(IsRequestedDelivSchedLine` |
-| `reqd_deliv_date)` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate` |
+| `DeliveryDate` | `SalesDocumentScheduleLine.DeliveryDate` |
+| `IsRequestedDelivSchedLine` | `cast(IsRequestedDelivSchedLine as reqd_deliv)` |
+| `RequestedDeliveryDate` | `cast(SalesDocumentScheduleLine.RequestedDeliveryDate as reqd_deliv_date)` |
 | `RequestedDeliveryTime` | `RequestedDeliveryTime` |
 | `ScheduleLineOrderQuantity` | `ScheduleLineOrderQuantity` |
 | `CorrectedQtyInOrderQtyUnit` | `CorrectedQtyInOrderQtyUnit` |
-| `confd_deliv)` | `cast(IsConfirmedDelivSchedLine` |
-| `confd_deliv_date)` | `cast(ConfirmedDeliveryDate` |
+| `IsConfirmedDelivSchedLine` | `cast(IsConfirmedDelivSchedLine as confd_deliv)` |
+| `ConfirmedDeliveryDate` | `cast(ConfirmedDeliveryDate as confd_deliv_date)` |
 | `ConfirmedDeliveryTime` | `ConfirmedDeliveryTime` |
 | `ConfdOrderQtyByMatlAvailCheck` | `ConfdOrderQtyByMatlAvailCheck` |
 | `ConfdSchedLineReqdDelivDate` | `ConfdSchedLineReqdDelivDate` |
@@ -56,7 +56,7 @@ tags:
 | `ProdAvailyCheckPlanningType` | `ProdAvailyCheckPlanningType` |
 | `ScheduleLineConfirmationStatus` | `ScheduleLineConfirmationStatus` |
 | `PlannedOrder` | `PlannedOrder` |
-| `SalesDocumentScheduleLine.OrderID` | `SalesDocumentScheduleLine.OrderID` |
+| `OrderID` | `SalesDocumentScheduleLine.OrderID` |
 | `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
 | `PurchasingOrderType` | `PurchasingOrderType` |
@@ -78,13 +78,13 @@ tags:
 | `DeliveredQuantityInBaseUnit` | `DeliveredQuantityInBaseUnit` |
 | `GoodsMovementType` | `GoodsMovementType` |
 | `OpenDeliveryNetAmount` | `OpenDeliveryNetAmount` |
-| `SalesDocumentScheduleLine.TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
+| `TransactionCurrency` | `SalesDocumentScheduleLine.TransactionCurrency` |
 | `_SalesOrderWithoutCharge` | *Association* |
 | `_SalesOrderWithoutChargeItem` | *Association* |
 | `_ScheduleLineCategory` | *Association* |
 | `_ProdAvailabilityCheckRqmtType` | *Association* |
 | `_ScheduleLineConfStatus` | *Association* |
-| `SalesDocumentScheduleLine._TransactionCurrency` | `SalesDocumentScheduleLine._TransactionCurrency` |
+| `_TransactionCurrency` | *Association* |
 | `_OrderID` | *Association* |
 | `_OrderQuantityUnit` | *Association* |
 | `_BaseUnit` | *Association* |

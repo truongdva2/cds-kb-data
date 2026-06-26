@@ -32,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `dp_payment_type )` | `cast( dd07l.domvalue_l` |
+| `DigitalPaymentType` | `cast( dd07l.domvalue_l as dp_payment_type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_DigitalPaymentTypeText` | [0..*] |
 
 ## Source Code
 

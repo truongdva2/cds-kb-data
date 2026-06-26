@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qdokukz preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Associations */` | `/* Associations */` |
-| `, _Text` | `, _Text` |
+| `InspResultIsDocumentationRqd` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qdokukz preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -34,7 +34,6 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `Segment` | `segment` |
-| `fis_segment_name preserving type )as SegmentName` | `cast (name` |
 | `_Language` | *Association* |
 
 ## Associations

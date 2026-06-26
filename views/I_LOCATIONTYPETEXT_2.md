@@ -31,11 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/sapapo/c_loctype )` | `cast( domvalue_l` |
+| `LocationType` | `cast( domvalue_l as /sapapo/c_loctype )` |
 | `Language` | `ddlanguage` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/scmtms/vdm_loc_type_desc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `LocationTypeDesc` | `cast( ddtext as /scmtms/vdm_loc_type_desc preserving type )` |
 | `_LocationType` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_LocationType` | `I_LocationType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

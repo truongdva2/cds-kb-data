@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LanguageVH', element : 'Language'} , useAsTemplate: true }]` | `name: 'I_LanguageVH', element : 'Language'} , useAsTemplate: true }]` |
-| `key Language` | `Language` |
-| `key ProdUnivHierarchy` | `ProdUnivHierarchy` |
-| `key ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
+| `Language` | `Language` |
+| `ProdUnivHierarchy` | `ProdUnivHierarchy` |
+| `ProdHierarchyValidityEndDate` | `ProdHierarchyValidityEndDate` |
 | `ProdHierarchyValidityStartDate` | `ProdHierarchyValidityStartDate` |
 | `ProdUnivHierarchyText` | `ProdUnivHierarchyText` |
-| `_ProdUniversalHierarchy : redirected to parent I_ProdUniversalHierarchyTP` | *Association* |
 | `_LanguageText` | *Association* |
 
 ## Associations

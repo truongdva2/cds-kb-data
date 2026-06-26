@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_auarttext preserving type)` | `cast(txt.txt` |
+| `OrderType` | `cast(txt.auart as aufart preserving type)` |
+| `Language` | `cast(txt.spras as spras preserving type)` |
+| `OrderTypeName` | `cast(txt.txt as pph_auarttext preserving type)` |
 | `_OrderType` | *Association* |
 | `_Language` | *Association* |
 

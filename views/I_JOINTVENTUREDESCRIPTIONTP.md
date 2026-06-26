@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key Language` | `Language` |
-| `key JointVenture` | `JointVenture` |
+| `CompanyCode` | `CompanyCode` |
+| `Language` | `Language` |
+| `JointVenture` | `JointVenture` |
 | `JointVentureName` | `JointVentureName` |
-| `_JointVenture : redirected to parent I_JointVentureTP` | *Association* |
 
 ## Associations
 

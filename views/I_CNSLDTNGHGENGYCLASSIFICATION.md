@@ -31,12 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGEngyClassfctnVH'` | `name: 'I_CnsldtnGHGEngyClassfctnVH'` |
-| `element: 'GHGEnergyClassification'` | `element: 'GHGEnergyClassification'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgenergyclassification preserving type )` | `cast( _Source.GHGEnergyClassification` |
-| `/* associations */` | `/* associations */` |
+| `GHGEnergyClassification` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

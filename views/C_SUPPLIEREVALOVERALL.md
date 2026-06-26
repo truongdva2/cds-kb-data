@@ -32,29 +32,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lookupEntity: 'F_SuplrEvalCriteriaGenConfign'` | `lookupEntity: 'F_SuplrEvalCriteriaGenConfign'` |
-| `resultElement: 'SuplrEvalCritraDelivCompleted'` | `resultElement: 'SuplrEvalCritraDelivCompleted'` |
-| `}` | `}` |
-| `}` | `}` |
+| `Supplier` | `OverallScore.Supplier` |
+| `PurchasingCategory` | `PurchasingCategory` |
+| `PurgCatName` | `PurgCatName` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
 | `SuplrEvalCritraDelivCompleted` | `SuplrEvalCritraDelivCompleted` |
 | `SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
-| `OverallScore.CalendarYear` | `OverallScore.CalendarYear` |
-| `OverallScore.CalendarMonth` | `OverallScore.CalendarMonth` |
-| `OverallScore.CalendarQuarter` | `OverallScore.CalendarQuarter` |
-| `OverallScore.CalendarWeek` | `OverallScore.CalendarWeek` |
-| `_Supplier.Country as Country` | *Association* |
-| `_Supplier.Region as Region` | *Association* |
+| `CalendarYear` | `OverallScore.CalendarYear` |
+| `CalendarMonth` | `OverallScore.CalendarMonth` |
+| `CalendarQuarter` | `OverallScore.CalendarQuarter` |
+| `CalendarWeek` | `OverallScore.CalendarWeek` |
+| `Country` | `_Supplier.Country` |
+| `Region` | `_Supplier.Region` |
 | `SupplierClassification` | `SupplierClassification` |
 | `IsCriteriaActive` | `IsCriteriaActive` |
 | `OperationalSupplierEvalTotWgtg` | `OperationalSupplierEvalTotWgtg` |
-| `max(   case when IsSupplierEvalSwitchActive = 'X' then 1` | `max(   case when IsSupplierEvalSwitchActive = 'X' then 1` |
-| `IsSupplierEvalSwitchActive` | `else 0 end )` |
+| `IsSupplierEvalSwitchActive` | `max( case when IsSupplierEvalSwitchActive = 'X' then 1 else 0 end )` |
 | `WeightingFactor` | `WeightingFactor` |
 | `DisplayCurrency` | `DisplayCurrency` |
-| `total_spend_amount)` | `cast(sum(OverallScore.PurchaseOrderNetPriceAmount)` |
-| `mm_a_calculatedoplscore)` | `cast(sum(OverallScore.OperationalScore )` |
+| `TotalSpendAmount` | `cast(sum(OverallScore.PurchaseOrderNetPriceAmount) as total_spend_amount)` |
+| `CalculatedOperationalScore` | `cast(sum(OverallScore.OperationalScore ) as mm_a_calculatedoplscore)` |
 | `OperationalScoreCount` | `sum(OverallScore.OperationalScoreCount)` |
-| `questionnairescore )` | `cast( sum( OverallScore.SuplrEvalCalculatedScoreValue)` |
+| `SuplrEvalCalculatedScoreValue` | `cast( sum( OverallScore.SuplrEvalCalculatedScoreValue) as questionnairescore )` |
 | `SupplierEvalScoreTargetValue` | `sum( OverallScore.SupplierEvalScoreTargetValue )` |
 | `NumberOfResponses` | `sum( OverallScore.NumberOfResponses )` |
 | `SuplrEvalUsrDfndCriteria1Score` | `sum(OverallScore.SuplrEvalUsrDfndCriteria1Score )` |
@@ -78,7 +77,7 @@ tags:
 | `SupplierEvalUsrCriteria4Wgtg` | `max(SupplierEvalUsrCriteria4Wgtg)` |
 | `SupplierEvalUsrCriteria5Wgtg` | `max(SupplierEvalUsrCriteria5Wgtg)` |
 | `SuplrEvalUsrCriteria6WgtgValue` | `max(SuplrEvalUsrCriteria6WgtgValue)` |
-| `NmbrOfSuplrEvalQnaire,      //3210207` | `sum(NmbrOfSuplrEvalQnaire)` |
+| `NmbrOfSuplrEvalQnaire` | `sum(NmbrOfSuplrEvalQnaire)` |
 | `_Supplier` | *Association* |
 | `_Country` | *Association* |
 | `_Region` | *Association* |

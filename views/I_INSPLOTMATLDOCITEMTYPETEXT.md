@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `qambtype )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `InspLotMatlDocItemType` | `cast ( substring( domvalue_l, 1, 1 ) as qambtype )` |
 | `Language` | `ddlanguage` |
-| `val_text )` | `cast( ddtext` |
+| `InspLotMatlDocItemTypeText` | `cast( ddtext as val_text )` |
 | `_InspLotMatlDocItemType` | *Association* |
 | `_Language` | *Association* |
 

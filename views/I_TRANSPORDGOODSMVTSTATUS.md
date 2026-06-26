@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_dlv_goods_mvt_sts preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdGoodsMovementStatus` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdGoodsMvtStsText` | [0..*] |
 
 ## Source Code
 

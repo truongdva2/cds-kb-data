@@ -30,8 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `foreignKey.association: '_CntctPersnDeptValueHelp'` | `foreignKey.association: '_CntctPersnDeptValueHelp'` |
-| `}` | `}` |
+| `RelationshipNumber` | `but051.relnr` |
+| `BusinessPartnerCompany` | `but051.partner1` |
+| `BusinessPartnerPerson` | `but051.partner2` |
+| `ValidityEndDate` | `but051.date_to` |
+| `ValidityStartDate` | `_BPContact.ValidityStartDate` |
+| `ContactPersonFunction` | `but051.pafkt` |
+| `BPContactPersonFunction` | `but051.pafkt` |
+| `ContactPersonFunctionName` | `but051.fnctn` |
 | `ContactPersonDepartment` | `but051.abtnr` |
 | `ContactPersonDepartmentName` | `but051.dprtmnt` |
 | `ContactPersonAuthorityType` | `but051.paauth` |

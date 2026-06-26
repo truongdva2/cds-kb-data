@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
+| `Language` | `langu` |
+| `TimeSheetOvertimeCategory` | `overtimecat` |
 | `TimeSheetOvertimeCategoryText` | `text` |
 
 ## Associations

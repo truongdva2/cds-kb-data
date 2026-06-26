@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_nfissuer preserving type)` | `cast( substring(domvalue_l, 1, 1 )` |
+| `BR_NFIssuedBy` | `cast( substring(domvalue_l, 1, 1 ) as logbr_nfissuer preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

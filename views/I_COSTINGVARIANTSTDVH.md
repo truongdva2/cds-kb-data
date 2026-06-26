@@ -32,7 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CostingTypeStdVH' , element: 'CostingType' }, useAsTemplate: true }]` | `name: 'I_CostingTypeStdVH' , element: 'CostingType' }, useAsTemplate: true }]` |
+| `CostingVariant` | `CostingVariant` |
+| `CostingVariantName` | `_CostingVariantText.CostingVariantName` |
+| `ValuationVariant` | `ValuationVariant` |
+| `ValuationVariantName` | `_CostingValuationVarText.ValuationVariantName` |
 | `CostingType` | `CostingType` |
 | `CostingReferenceObject` | `CostingReferenceObject` |
 | `_CostingVariantText` | *Association* |

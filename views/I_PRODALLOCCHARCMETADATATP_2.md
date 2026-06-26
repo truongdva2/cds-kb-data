@@ -31,12 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicsMetaDataUUID` | `CharacteristicsMetaDataUUID` |
+| `CharacteristicsMetaDataUUID` | `CharacteristicsMetaDataUUID` |
 | `ProductAllocationObjectUUID` | `ProductAllocationObjectUUID` |
 | `ProdAllocCharcCtlgPathIntID` | `ProdAllocCharcPathDescComIntID` |
 | `ProdAllocCharcCtlgPathUUID` | `ProdAllocCharcCtlgPathUUID` |
 | `ProdAllocOrdinalNumberValue` | `ProdAllocOrdinalNumberValue` |
-| `_ProdAllocationObjectTP: redirected to parent I_ProdAllocationObjectTP_2 //` | *Association* |
 
 ## Associations
 

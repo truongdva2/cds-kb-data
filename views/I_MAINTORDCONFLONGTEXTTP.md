@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintOrderConf` | `MaintOrderConf` |
-| `key MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
+| `MaintOrderConf` | `MaintOrderConf` |
+| `MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
 | `TextObjectKey` | `TextObjectKey` |
 | `MaintOrderConfLongText` | `MaintOrderConfLongText` |
 | `Language` | `Language` |
-| `/* Associations */` | `/* Associations */` |
-| `_MaintOrderConfirmation : redirected to parent I_MaintOrderConfirmationTP` | *Association* |
 
 ## Associations
 

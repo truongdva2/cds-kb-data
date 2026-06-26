@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_ProductTypeCode.ProductTypeCode` | `I_ProductTypeCode.ProductTypeCode` |
-| `I_ProductTypeCode._Text` | `I_ProductTypeCode._Text` |
+| `ProductTypeCode` | `I_ProductTypeCode.ProductTypeCode` |
+| `_Text` | *Association* |
 
 ## Associations
 

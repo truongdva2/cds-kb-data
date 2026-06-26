@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras )` | `cast( ddlanguage` |
-| `kzbzg_long )` | `cast ( substring( domvalue_l, 1, 3 )` |
-| `price_element_scbasetype_descr )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras )` |
+| `PricingScaleBasis` | `cast ( substring( domvalue_l, 1, 3 ) as kzbzg_long )` |
+| `PricingScaleBasisName` | `cast ( ddtext as price_element_scbasetype_descr )` |
 | `_PricingScaleBasis` | *Association* |
 | `_Language` | *Association* |
 

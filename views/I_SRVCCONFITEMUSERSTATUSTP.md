@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key UserStatus` | `UserStatus` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `/* Associations */` | `/* Associations */` |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
-| `_ServiceConfirmationItemTP : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP     : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

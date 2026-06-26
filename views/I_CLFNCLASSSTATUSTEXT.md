@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ClassStatus` | `I_ClfnClassStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 | `_ClassType` | `I_ClfnClassTypeBasic` | [0..1] |
 

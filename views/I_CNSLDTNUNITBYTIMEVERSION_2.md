@@ -30,16 +30,28 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnUnitValidationVH'` | `name: 'I_CnsldtnUnitValidationVH'` |
-| `element: 'ConsolidationUnitValidation'` | `element: 'ConsolidationUnitValidation'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_UnitByTimeVersion.ConsolidationUnitValidation` | *Association* |
-| `_UnitByTimeVersion._CnsldtnVersion` | *Association* |
-| `_UnitByTimeVersion._CnsldtnUnitDataColl` | *Association* |
-| `_UnitByTimeVersion._CnsldtnUnitPartner` | *Association* |
-| `_UnitByTimeVersion._CnsldtnUnitPostingRule` | *Association* |
-| `_UnitByTimeVersion._CnsldtnUnitValidation` | *Association* |
+| `ConsolidationUnit` | `_UnitByTimeVersion.ConsolidationUnit` |
+| `ConsolidationVersion` | `_UnitByTimeVersion.ConsolidationVersion` |
+| `FromFiscalYearPeriod` | `_UnitByTimeVersion.FromFiscalYearPeriod` |
+| `ToFiscalYearPeriod` | `ToFiscalYearPeriod` |
+| `ConsolidationUnitIsPartnerOnly` | `ConsolidationUnitIsPartnerOnly` |
+| `CnsldtnCrcyTranslationMethod` | `CnsldtnCrcyTranslationMethod` |
+| `CnsldtnTaxRate` | `CnsldtnTaxRate` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `CnsldtnUnivJournalIntegType` | `CnsldtnUnivJournalIntegType` |
+| `CnsldtnGroupCrcyIsLeadingCrcy` | `CnsldtnGroupCrcyIsLeadingCrcy` |
+| `CnsldtnUnitLocalCrcySource` | `CnsldtnUnitLocalCrcySource` |
+| `CnsldtnUnitGroupCrcySource` | `CnsldtnUnitGroupCrcySource` |
+| `CnsldtnUploadMethod` | `CnsldtnUploadMethod` |
+| `CnsldtnUnitDataCollection` | `_UnitByTimeVersion.CnsldtnUnitDataCollection` |
+| `ConsolidationUnitPartner` | `_UnitByTimeVersion.ConsolidationUnitPartner` |
+| `ConsolidationUnitPostingRule` | `_UnitByTimeVersion.ConsolidationUnitPostingRule` |
+| `ConsolidationUnitValidation` | `_UnitByTimeVersion.ConsolidationUnitValidation` |
+| `_CnsldtnVersion` | *Association* |
+| `_CnsldtnUnitDataColl` | *Association* |
+| `_CnsldtnUnitPartner` | *Association* |
+| `_CnsldtnUnitPostingRule` | *Association* |
+| `_CnsldtnUnitValidation` | *Association* |
 
 ## Associations
 

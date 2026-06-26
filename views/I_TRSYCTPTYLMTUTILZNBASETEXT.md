@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `LimitUtilizationBase` | `sli` |
-| `ftr_cra_lmt_utilzn_base_name preserving type )` | `cast( text` |
+| `LimitUtilizationBaseName` | `cast( text as ftr_cra_lmt_utilzn_base_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

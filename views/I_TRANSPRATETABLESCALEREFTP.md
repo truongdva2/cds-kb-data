@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TranspRateTableScaleRefUUID` | `TranspRateTableScaleRefUUID` |
+| `TranspRateTableScaleRefUUID` | `TranspRateTableScaleRefUUID` |
 | `TransportationRateTableUUID` | `TransportationRateTableUUID` |
 | `TransportationScaleUUID` | `TransportationScaleUUID` |
 | `TransportationCalculationBase` | `TransportationCalculationBase` |
@@ -45,7 +45,6 @@ tags:
 | `TranspRateTableDimensionIndex` | `TranspRateTableDimensionIndex` |
 | `TranspRateTblScRefNoValIsSupp` | `TranspRateTblScRefNoValIsSupp` |
 | `TranspCmmdtyCodeNmbrngSchm` | `TranspCmmdtyCodeNmbrngSchm` |
-| `TranspRateTableScaleRef._TransportationRateTable : redirected to parent I_TransportationRateTableTP` | `TranspRateTableScaleRef._TransportationRateTable : redirected to parent I_TransportationRateTableTP` |
 
 ## Associations
 

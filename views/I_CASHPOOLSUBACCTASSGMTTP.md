@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPoolAssignment` | `CashPoolAssignment` |
+| `CashPoolAssignment` | `CashPoolAssignment` |
 | `CashPoolAssignmentText` | `CashPoolAssignmentText` |
 | `CashPool` | `CashPool` |
 | `CashPoolAssgmtIsHeadBkAcct` | `CashPoolAssgmtIsHeadBkAcct` |
@@ -49,7 +49,6 @@ tags:
 | `LastChangedByUser` | `LastChangedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `_GeneralInfo: redirected to parent I_CashPoolTP` | *Association* |
 
 ## Associations
 

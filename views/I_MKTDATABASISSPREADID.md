@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_mdm_mkt_data_bsprd_id preserving type )` | `cast( BasisSpreadID.bsprd_id` |
+| `MktDataBasisSpreadID` | `cast( BasisSpreadID.bsprd_id as ftr_mdm_mkt_data_bsprd_id preserving type )` |
 | `TextDescription` | `BasisSpreadID.text_long` |
 
 ## Associations

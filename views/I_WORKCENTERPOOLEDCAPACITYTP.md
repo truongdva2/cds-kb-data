@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
+| `CapacityInternalID` | `CapacityInternalID` |
 | `Plant` | `Plant` |
 | `Capacity` | `Capacity` |
 | `CapacityCategoryCode` | `CapacityCategoryCode` |
@@ -56,9 +56,6 @@ tags:
 | `CapacityQuantityUnit` | `CapacityQuantityUnit` |
 | `CapacityBaseQtyUnit` | `CapacityBaseQtyUnit` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Interval    : redirected to composition child I_WrkCtrPooledCapIntervalTP` | *Association* |
-| `_Description : redirected to composition child I_WorkCtrPooledCapacityTextTP` | *Association* |
 
 ## Associations
 

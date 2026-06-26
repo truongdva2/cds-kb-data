@@ -34,15 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnControllingAreaVH'` | `name: 'I_CnsldtnControllingAreaVH'` |
-| `element: 'ControllingArea'` | `element: 'ControllingArea'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `key   ControllingArea` | `ControllingArea` |
-| `fincs_profitcenterhierarchy preserving type )` | `cast(_HierarchyText.CnsldtnUniversalHierarchy` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `_HierarchyText.UniversalHierarchyText                                                          as CnsldtnProfitCenterHierText` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `ControllingArea` | `ControllingArea` |
+| `ConsolidationPrftCtrHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnProfitCenterHierText` | `_HierarchyText.UniversalHierarchyText` |
 | `_Language` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_Hierarchy` | *Association* |

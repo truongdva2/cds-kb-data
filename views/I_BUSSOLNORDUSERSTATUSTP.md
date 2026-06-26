@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key UserStatus` | `UserStatus` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `UserStatus` | `UserStatus` |
 | `StatusProfile` | `StatusProfile` |
-| `_BusinessSolutionOrderTP : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
 | `_StatusCode` | *Association* |
 | `_StatusProfile` | *Association* |
 | `_UserStatusText` | *Association* |

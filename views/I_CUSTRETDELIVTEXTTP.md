@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
-| `key Language` | `Language` |
-| `key LongTextID` | `LongTextID` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `Language` | `Language` |
+| `LongTextID` | `LongTextID` |
 | `LongText` | `LongText` |
-| `_Delivery : redirected to parent I_CustomerReturnsDeliveryTP` | *Association* |
 
 ## Associations
 

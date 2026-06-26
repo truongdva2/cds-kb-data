@@ -30,9 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CustomerSupplierIndustryVH'` | `name:    'I_CustomerSupplierIndustryVH'` |
-| `element: 'Industry' }` | `element: 'Industry' }` |
-| `}]` | `}]` |
+| `IndustryHierarchy` | `cast(hrrp_node_n.hryid as fis_hryid_industry preserving type )` |
+| `HierarchyNode` | `hrrp_node_n.hrynode` |
+| `ValidityEndDate` | `cast(hrrp_node_n.hryvalto as fis_datbi preserving type )` |
+| `ValidityStartDate` | `cast(hrrp_node_n.hryvalfrom as fis_datab preserving type )` |
+| `ParentNode` | `hrrp_node_n.parnode` |
 | `Industry` | `hrrp_node_n.brsch` |
 | `HierarchyNodeSequence` | `hrrp_node_n.hryseqnbr` |
 | `HierarchyNodeLevel` | `hrrp_node_n.hrylevel` |

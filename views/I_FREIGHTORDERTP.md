@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderUUID` | `TransportationOrderUUID` |
+| `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrder` | `TransportationOrder` |
 | `TransportationOrderType` | `TransportationOrderType` |
 | `TransportationOrderCategory` | `TransportationOrderCategory` |
@@ -76,19 +75,17 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightOrderBusinessPartner   : redirected to composition child I_FreightOrderBPTP` | `FreightOrder._TransportationOrderBP` |
-| `_FreightOrderDocumentReference : redirected to composition child I_FreightOrderDocRefTP` | `FreightOrder._TranspOrdDocumentReference` |
-| `_FreightOrderItem              : redirected to composition child I_FreightOrderItemTP` | `FreightOrder._TransportationOrderItem` |
-| `_FreightOrderStop              : redirected to composition child I_FreightOrderStopTP` | `FreightOrder._TransportationOrderStop` |
-| `_FreightOrderEvent             : redirected to composition child I_FreightOrderEventTP` | `FreightOrder._TransportationOrderEvent` |
-| `_FreightOrderCharge            : redirected to composition child I_FreightOrderChargeTP` | `FreightOrder._TransportationOrderCharge` |
-| `_FrtOrdMainBPAddrDfltRprstn    : redirected to composition child I_FrtOrdMainBPAddrDfltRprstnTP` | `FreightOrder._TrOrdMainBPAddrDfltRprstn` |
-| `/* Association redirections */` | `/* Association redirections */` |
-| `_CarrierAddrDfltRprstn         : redirected to I_FrtOrdMainBPAddrDfltRprstnTP` | `FreightOrder._CarrierAddrDfltRprstn` |
-| `_ShipperAddrDfltRprstn         : redirected to I_FrtOrdMainBPAddrDfltRprstnTP` | `FreightOrder._ShipperAddrDfltRprstn` |
-| `_ConsigneeAddrDfltRprstn       : redirected to I_FrtOrdMainBPAddrDfltRprstnTP` | `FreightOrder._ConsigneeAddrDfltRprstn` |
-| `_ExectgCarrierAddrDfltRprstn   : redirected to I_FrtOrdMainBPAddrDfltRprstnTP` | `FreightOrder._ExectgCarrierAddrDfltRprstn` |
+| `_FreightOrderBusinessPartner` | *Association* |
+| `_FreightOrderDocumentReference` | *Association* |
+| `_FreightOrderItem` | *Association* |
+| `_FreightOrderStop` | *Association* |
+| `_FreightOrderEvent` | *Association* |
+| `_FreightOrderCharge` | *Association* |
+| `_FrtOrdMainBPAddrDfltRprstn` | *Association* |
+| `_CarrierAddrDfltRprstn` | *Association* |
+| `_ShipperAddrDfltRprstn` | *Association* |
+| `_ConsigneeAddrDfltRprstn` | *Association* |
+| `_ExectgCarrierAddrDfltRprstn` | *Association* |
 
 ## Associations
 

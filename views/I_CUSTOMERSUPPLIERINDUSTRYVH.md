@@ -35,8 +35,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Industry` | `Industry` |
-| `/* Associations */` | `/* Associations */` |
+| `Industry` | `Industry` |
 | `_Text` | *Association* |
 
 ## Associations

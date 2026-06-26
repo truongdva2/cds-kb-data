@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ClassInternalID` | `ClassInternalID` |
-| `key CharcInternalID` | `CharcInternalID` |
+| `ClassInternalID` | `ClassInternalID` |
+| `CharcInternalID` | `CharcInternalID` |
 | `CharcPositionNumber` | `CharcPositionNumber` |
 | `Characteristic` | `Characteristic` |
 | `AncestorClassInternalID` | `AncestorClassInternalID` |

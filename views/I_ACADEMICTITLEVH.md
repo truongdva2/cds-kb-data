@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AcademicTitle` | `AcademicTitle` |
+| `AcademicTitle` | `AcademicTitle` |
 | `AcademicTitleName` | `AcademicTitleName` |
 | `_Text` | *Association* |
 

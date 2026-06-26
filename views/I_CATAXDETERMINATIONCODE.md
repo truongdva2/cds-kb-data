@@ -35,8 +35,7 @@ tags:
 | `CATaxDetnCodeValidFromDate` | `ab` |
 | `CATaxDetnCodeValidToDate` | `bis` |
 | `TaxCode` | `mwskz` |
-| `_Country.TaxCalculationProcedure as TaxCalculationProcedure` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `TaxCalculationProcedure` | `_Country.TaxCalculationProcedure` |
 | `_Country` | *Association* |
 | `_TaxCalculationProcedure` | *Association* |
 | `_TaxCode` | *Association* |

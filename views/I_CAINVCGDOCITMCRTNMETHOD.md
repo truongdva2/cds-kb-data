@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invitem_crmet_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CAInvcgDocItemCrtnMethod` | `cast ( substring( dd07l.domvalue_l,1,1 ) as invitem_crmet_kk preserving type )` |
 | `_CAInvcgDocItmCrtnMethodText` | *Association* |
 
 ## Associations

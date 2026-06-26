@@ -31,8 +31,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CAInvcgOffsettingCategory` | `offset_cat` |
-| `spras preserving type )` | `cast( langu` |
-| `inv_offset_cat_txt_gfn_kk preserving type )` | `cast( text` |
+| `Language` | `cast( langu as spras preserving type )` |
+| `CAInvcgOffsettingCategoryTxt` | `cast( text as inv_offset_cat_txt_gfn_kk preserving type )` |
 | `_CAInvcgOffsettingCategory` | *Association* |
 | `_Language` | *Association* |
 

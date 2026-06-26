@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abstk preserving type )` | `cast (substring(dd07l.domvalue_l, 1, 1)` |
+| `OverallSDDocumentRejectionSts` | `cast (substring(dd07l.domvalue_l, 1, 1) as abstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

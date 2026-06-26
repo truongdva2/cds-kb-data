@@ -30,20 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `StatryRptgEntity              : srf_reporting_entity ;` | `StatryRptgEntity              : srf_reporting_entity ;` |
-| `StatryRptCategory             : srf_rep_cat_id;` | `StatryRptCategory             : srf_rep_cat_id;` |
-| `StatryRptTaskStatus           : srf_reporting_status;  --NOS/INP/CMP (NOS(Not Started)/GOD(In Process)/SOK(Completed) )` | `StatryRptTaskStatus           : srf_reporting_status;  --NOS/INP/CMP (NOS(Not Started)/GOD(In Process)/SOK(Completed) )` |
-| `StatryRptTaskStatusText       : srf_task_status_text;  --‘Not Started’/ ‘In Process’ / ‘Completed’` | `StatryRptTaskStatusText       : srf_task_status_text;  --‘Not Started’/ ‘In Process’ / ‘Completed’` |
-| `StatryRptTaskDueDate          : srf_due_date;` | `StatryRptTaskDueDate          : srf_due_date;` |
-| `StatryRptTaskPeriodStartDate  : srf_rpg_period_start_date;` | `StatryRptTaskPeriodStartDate  : srf_rpg_period_start_date;` |
-| `StatryRptTaskPeriodEndDate    : srf_rpg_period_end_date;` | `StatryRptTaskPeriodEndDate    : srf_rpg_period_end_date;` |
-| `StatryRptgReportingYear       : srf_reporting_year;` | `StatryRptgReportingYear       : srf_reporting_year;` |
-| `StatryRptClassificationId     : srf_classification_id;` | `StatryRptClassificationId     : srf_classification_id;` |
-| `StatryRptActivityPhase        : srf_rep_cat_phase;` | `StatryRptActivityPhase        : srf_rep_cat_phase;` |
-| `Country                       : land1;` | `Country                       : land1;` |
-| `Region                        : regio;` | `Region                        : regio;` |
-| `StatryRptAgencyID             : srf_agency_id;` | `StatryRptAgencyID             : srf_agency_id;` |
-| `StatryRptIntegScenario        : srf_ext_integration_scenario;` | `StatryRptIntegScenario        : srf_ext_integration_scenario;` |
+| `StatryRptgEntity` | `srf_reporting_entity` |
+| `StatryRptCategory` | `srf_rep_cat_id` |
+| `StatryRptTaskStatus` | `srf_reporting_status` |
+| `StatryRptTaskPeriodStartDate` | `srf_rpg_period_start_date` |
+| `StatryRptTaskPeriodEndDate` | `srf_rpg_period_end_date` |
+| `StatryRptgReportingYear` | `srf_reporting_year` |
+| `StatryRptClassificationId` | `srf_classification_id` |
+| `StatryRptActivityPhase` | `srf_rep_cat_phase` |
+| `Country` | `land1` |
+| `Region` | `regio` |
+| `StatryRptAgencyID` | `srf_agency_id` |
+| `StatryRptIntegScenario` | `srf_ext_integration_scenario` |
 
 ## Associations
 

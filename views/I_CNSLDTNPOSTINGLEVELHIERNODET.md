@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  _HierarchyNodeText.Language` | `_HierarchyNodeText.Language` |
-| `fincs_postinglevelhierarchy preserving type  )` | `cast( _HierarchyNodeText.UniversalHierarchy` |
-| `key  _HierarchyNodeText.HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
-| `_HierarchyNodeText.ParentNode` | *Association* |
-| `_HierarchyNodeText.HierarchyVersion` | *Association* |
-| `_HierarchyNodeText.HierarchyNodeText` | *Association* |
+| `Language` | `_HierarchyNodeText.Language` |
+| `ConsolidationPostgLevelHier` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNodeText.HierarchyNode` |
+| `ParentNode` | `_HierarchyNodeText.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNodeText.HierarchyVersion` |
+| `HierarchyNodeText` | `_HierarchyNodeText.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

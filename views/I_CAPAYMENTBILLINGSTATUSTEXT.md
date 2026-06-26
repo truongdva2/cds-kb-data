@@ -34,9 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xsett_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `xsett_text_kk preserving type )` | `cast( ddtext` |
+| `CAPaymentBillingStatus` | `cast( left( dd07t.domvalue_l, 1 ) as xsett_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAPaymentBillingStatusText` | `cast( ddtext as xsett_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

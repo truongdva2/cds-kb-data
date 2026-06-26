@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.7 }` |
+| `InspectorQualification` | `tq11t.prfql` |
+| `Language` | `tq11t.sprsl` |
 | `InspectorQualificationText` | `tq11t.pqtxt` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_InspectorQualification` | *Association* |
 

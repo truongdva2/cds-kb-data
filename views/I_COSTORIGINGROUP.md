@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_kokrs preserving type )` | `cast( kokrs` |
+| `ControllingArea` | `cast( kokrs as fis_kokrs preserving type )` |
 | `CostOriginType` | `koaty` |
 | `CostOriginGroup` | `hrkft` |
 | `_Text` | *Association* |

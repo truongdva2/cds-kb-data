@@ -30,7 +30,26 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceObjectType` | `objtype_h` |
+| `ServiceDocument` | `object_id` |
+| `ServiceDocumentUUID` | `header_guid` |
+| `ServiceDocumentCharUUID` | `cast(header_guid_char as sysuuid_c preserving type )` |
+| `ServiceDocumentType` | `process_type` |
+| `ServiceDocumentDescription` | `description_h` |
+| `Language` | `descr_language` |
+| `PostingDate` | `posting_date` |
+| `ServiceDocumentTemplateType` | `template_type` |
+| `ServiceDocCreationDateTime` | `created_at_h` |
+| `ServiceDocChangedDateTime` | `changed_at_h` |
+| `ServiceDocumentCreatedByUser` | `created_by_h` |
+| `ServiceDocumentChangedByUser` | `changed_by_h` |
+| `PricingDocument` | `pricing_document` |
+| `PricingProcedure` | `pricing_procedure` |
+| `RefBusinessSolutionOrder` | `refbussolnord` |
+| `BusinessActivityCategory` | `category` |
+| `ServiceDocumentPriority` | `priority` |
+| `ServiceDocNetAmount` | `net_value_h` |
+| `ServiceDocGrossAmount` | `gross_value_h` |
 | `ServiceDocTaxAmount` | `tax_amount_h` |
 | `SoldToParty` | `sold_to_party` |
 | `SoldToPartyRegion` | `sold_to_region` |
@@ -41,16 +60,16 @@ tags:
 | `ShipToParty` | `ship_to_party` |
 | `BillToParty` | `bill_to_party` |
 | `PayerParty` | `payer` |
-| `crms4_template_start preserving type )` | `cast( valid_from` |
-| `crms4_template_end preserving type )` | `cast( valid_to` |
+| `SrvcDocTmplValdtyStartDateTime` | `cast( valid_from as crms4_template_start preserving type )` |
+| `SrvcDocTmplValdtyEndDateTime` | `cast( valid_to as crms4_template_end preserving type )` |
 | `RequestedServiceStartDateTime` | `srv_cust_beg` |
 | `RequestedServiceEndDateTime` | `srv_cust_end` |
 | `ServiceContractStartDateTime` | `contstart` |
 | `ServiceContractEndDateTime` | `contend` |
 | `SrvcContrEarliestStartDateTime` | `sc_earliest_start_date` |
 | `SrvcContrLatestEndDateTime` | `sc_latest_end_date` |
-| `crms4_cont_start preserving type )` | `cast( quot_start` |
-| `crms4_cont_end preserving type )` | `cast( quot_end` |
+| `SrvcQtanValidityStartDateTime` | `cast( quot_start as crms4_cont_start preserving type )` |
+| `SrvcQtanValidityEndDateTime` | `cast( quot_end as crms4_cont_end preserving type )` |
 | `PaymentTerms` | `pmnttrms` |
 | `PaymentMethod` | `payment_method` |
 | `SrvcSEPAMandateRelevance` | `sepa_on` |
@@ -88,7 +107,7 @@ tags:
 | `BillingBlockReason` | `billing_block` |
 | `ServiceFirstResponseByDateTime` | `srv_rfirst` |
 | `ServiceDueByDateTime` | `due_on` |
-| `tzntstmps preserving type )` | `cast(req_dlv_date_h` |
+| `ErlstRequestedDeliveryDateTime` | `cast(req_dlv_date_h as tzntstmps preserving type )` |
 | `ServiceDocumentCanclnParty` | `cancparty` |
 | `ServiceDocumentCanclnReason` | `canc_reason` |
 | `ReferenceInHouseRepair` | `ref_inhouse_repair` |

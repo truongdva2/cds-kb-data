@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReversalReason  : stgrd;` | `ReversalReason  : stgrd;` |
-| `PostingDate     : budat;` | `PostingDate     : budat;` |
+| `ReversalReason` | `stgrd` |
+| `PostingDate` | `budat` |
 
 ## Associations
 

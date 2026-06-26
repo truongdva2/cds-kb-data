@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BillingWBSElementInternalID : ps_s4_pspnr;` | `BillingWBSElementInternalID : ps_s4_pspnr;` |
-| `OnAccountItemsAreIncluded   : boolean;` | `OnAccountItemsAreIncluded   : boolean;` |
+| `BillingWBSElementInternalID` | `ps_s4_pspnr` |
+| `OnAccountItemsAreIncluded` | `boolean` |
 
 ## Associations
 

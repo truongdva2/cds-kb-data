@@ -30,11 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_calc_date_type preserving type)` | `cast(domvalue_l` |
+| `TranspCalculationDateType` | `cast(domvalue_l as /scmtms/vdm_tcm_calc_date_type preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tcm_calc_dte_typt preserving type)` | `cast(ddtext` |
+| `TranspCalculationDateTypeDesc` | `cast(ddtext as /scmtms/vdm_tcm_calc_dte_typt preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspCalculationDateType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspCalculationDateType` | `I_TranspCalculationDateType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

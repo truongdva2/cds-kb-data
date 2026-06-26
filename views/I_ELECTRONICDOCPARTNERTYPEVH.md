@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `ElectronicDocBPType` | `cast(domvalue_l as edoc_partner_type)` |
+| `ElectronicDocBPTypeDesc` | `cast( dd07t.ddtext as val_text preserving type )` |
 
 ## Associations
 

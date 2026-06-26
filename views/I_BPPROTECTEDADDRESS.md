@@ -31,14 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressID` | `AddressID` |
-| `case` | `case` |
-| `when BPProtectedAddrUsageCount > 0` | `when BPProtectedAddrUsageCount > 0` |
-| `bu_protected)` | `then cast('E'` |
-| `when BPProtectedAddrUsageCount = 0` | `when BPProtectedAddrUsageCount = 0` |
-| `bu_protected)` | `then cast(' '` |
-| `BPAddressIsProtected` | `end` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressID` | `AddressID` |
+| `BPAddressIsProtected` | `case…end` |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

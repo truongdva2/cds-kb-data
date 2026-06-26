@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `DlvTypeCode.Language` |
-| `/s4ppm/tv_entprojdlvbrltype preserving type )` | `cast ( substring( ResourceID.resource_id, 1, 6 )` |
+| `EntProjElmntDeliverableType` | `cast(…)` |
 | `EntProjElmntDlvbrlTypeText` | `DlvTypeCode.Ktext` |
 | `_DeliverableType` | *Association* |
 | `_Language` | *Association* |
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DeliverableType` | `I_EntProjElmntDlvbrlType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

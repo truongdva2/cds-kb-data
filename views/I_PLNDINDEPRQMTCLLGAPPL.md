@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pph_pir_calling_appl )` | `cast( dd07l.domvalue_l` |
+| `PlndIndepRqmtCllgAppl` | `cast( dd07l.domvalue_l as pph_pir_calling_appl )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PlndIndepRqmtCllgApplTxt` | [0..*] |
 
 ## Source Code
 

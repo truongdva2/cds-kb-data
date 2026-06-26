@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #MEDIUM, fuzzinessThreshold: 0.8 }` |
-| `vdm_qbewmod_text preserving type )` | `cast( qdbmt.kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `Language` | `qdbmt.sprache` |
+| `SamplingValuationMode` | `qdbmt.bewertmod` |
+| `SamplingValuationModeText` | `cast( qdbmt.kurztext as vdm_qbewmod_text preserving type )` |
 | `_SamplingValuationMode` | *Association* |
 | `_Language` | *Association* |
 

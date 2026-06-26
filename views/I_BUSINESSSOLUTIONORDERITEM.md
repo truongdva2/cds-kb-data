@@ -31,7 +31,7 @@ tags:
 |---|---|
 | `BusinessSolutionOrder` | `ServiceDocument` |
 | `BusinessSolutionOrderItem` | `ServiceDocumentItem` |
-| `ServiceObjectType, // Not a key field because the selection limits the values to 'BUS2000172'` | `ServiceObjectType, // Not a key field because the selection limits the values to 'BUS2000172'` |
+| `ServiceObjectType` | `ServiceObjectType` |
 | `BusinessSolutionOrderUUID` | `ServiceDocumentUUID` |
 | `ServiceDocumentType` | `ServiceDocumentType` |
 | `BusinessSolutionOrderItemUUID` | `ServiceDocumentItemUUID` |
@@ -41,7 +41,7 @@ tags:
 | `BusSolnOrdDescription` | `ServiceDocumentDescription` |
 | `BusSolnOrdItmCategory` | `ServiceDocItemCategory` |
 | `ParentServiceDocumentItemUUID` | `ParentServiceDocumentItemUUID` |
-| `sysuuid_c preserving type )` | `cast( ServiceDocumentItemCharUUID` |
+| `BusSolnOrderItemCharUUID` | `cast( ServiceDocumentItemCharUUID as sysuuid_c preserving type )` |
 | `PostingDate` | `PostingDate` |
 | `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
 | `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
@@ -79,7 +79,7 @@ tags:
 | `ReferenceCurrency` | `StatisticsCurrency` |
 | `ExchangeRateType` | `ExchangeRateType` |
 | `ExchangeRateDate` | `ExchangeRateDate` |
-| `fis_exchange_rate preserving type )` | `cast( AccountingExchangeRate` |
+| `AccountingExchangeRate` | `cast( AccountingExchangeRate as fis_exchange_rate preserving type )` |
 | `CustomerGroup` | `CustomerGroup` |
 | `PaymentTerms` | `PaymentTerms` |
 | `PaymentMethod` | `PaymentMethod` |
@@ -123,7 +123,7 @@ tags:
 | `SrvcContrItemRnwlDurationUnit` | `SrvcContrItemRnwlDurationUnit` |
 | `SrvcContrItemExtensionDuration` | `SrvcContrItemExtensionDuration` |
 | `SrvcContrItemExtnDurationUnit` | `SrvcContrItemExtnDurationUnit` |
-| `sysuuid_c preserving type )` | `cast( SubscrpnBillgRatePlanCharUUID` |
+| `SubscrpnBillgRatePlanCharUUID` | `cast( SubscrpnBillgRatePlanCharUUID as sysuuid_c preserving type )` |
 | `PlannedServiceStartDateTime` | `PlannedServiceStartDateTime` |
 | `PlannedServiceEndDateTime` | `PlannedServiceEndDateTime` |
 | `ItemGrossWeight` | `ItemGrossWeight` |
@@ -139,7 +139,7 @@ tags:
 | `_BusinessSolutionOrder` | *Association* |
 | `_ServiceObjType` | *Association* |
 | `_ServiceDocumentType` | *Association* |
-| `_ServiceDocItemCategory                                             as _BusSolnOrdItmCategory` | *Association* |
+| `_BusSolnOrdItmCategory` | *Association* |
 | `_Product` | *Association* |
 | `_ProfitCenter` | *Association* |
 | `_ControllingArea` | *Association* |
@@ -155,7 +155,7 @@ tags:
 | `_PaymentTerms` | *Association* |
 | `_PaymentMethod` | *Association* |
 | `_SalesOrganization` | *Association* |
-| `_ServiceDocItemHasError                                             as _BusSolnOrdItmHasError` | *Association* |
+| `_BusSolnOrdItmHasError` | *Association* |
 | `_ServiceDocumentIsOpen` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_BillingBlockReason` | *Association* |
@@ -163,7 +163,7 @@ tags:
 | `_SalesUnit` | *Association* |
 | `_VolumeUnit` | *Association* |
 | `_WeightUnit` | *Association* |
-| `_ServiceDocItemRejectionReason                                      as _BusSolnOrdItmRjcnReason` | *Association* |
+| `_BusSolnOrdItmRjcnReason` | *Association* |
 | `_DistributionChannel` | *Association* |
 | `_Division` | *Association* |
 | `_SalesOffice` | *Association* |

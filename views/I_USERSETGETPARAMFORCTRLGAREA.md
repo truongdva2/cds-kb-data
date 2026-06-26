@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_Usersetgetparamforctrlgarea.BusinessUser` | `P_Usersetgetparamforctrlgarea.BusinessUser` |
-| `P_Usersetgetparamforctrlgarea.ControllingArea` | `P_Usersetgetparamforctrlgarea.ControllingArea` |
-| `I_ControllingArea.CtrlgStdFinStatementVersion` | `I_ControllingArea.CtrlgStdFinStatementVersion` |
-| `I_ControllingArea.FiscalYearVariant` | `I_ControllingArea.FiscalYearVariant` |
+| `BusinessUser` | `P_Usersetgetparamforctrlgarea.BusinessUser` |
+| `ControllingArea` | `P_Usersetgetparamforctrlgarea.ControllingArea` |
+| `CtrlgStdFinStatementVersion` | `I_ControllingArea.CtrlgStdFinStatementVersion` |
+| `FiscalYearVariant` | `I_ControllingArea.FiscalYearVariant` |
 
 ## Associations
 

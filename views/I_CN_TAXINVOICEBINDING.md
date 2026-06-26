@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ficntaxinvc_bnd_uuid preserving type )` | `cast( _item.CN_TaxInvcBindgUUID` |
-| `key _item.CN_TaxInvcBindgItmUUID` | `_item.CN_TaxInvcBindgItmUUID` |
-| `ficntaxinvc_uuid preserving type)` | `cast( _item.CN_TaxInvcUUID` |
-| `_item.CN_TaxEntityID` | *Association* |
-| `ficntaxinvc_bnd_src_bo_type preserving type)` | `cast( _head.CN_TaxInvcBindgSrceBusObjType` |
-| `_head.CN_TaxInvcBindgSrceBusObjKey           as CN_TaxInvcBindgSrceBusObjKey` | *Association* |
+| `CN_TaxInvcBindgUUID` | `cast( _item.CN_TaxInvcBindgUUID as ficntaxinvc_bnd_uuid preserving type )` |
+| `CN_TaxInvcBindgItmUUID` | `_item.CN_TaxInvcBindgItmUUID` |
+| `CN_TaxInvcUUID` | `cast( _item.CN_TaxInvcUUID as ficntaxinvc_uuid preserving type)` |
+| `CN_TaxEntityID` | `_item.CN_TaxEntityID` |
+| `CN_TaxInvcBindgSrceBusObjType` | `cast(…)` |
+| `CN_TaxInvcBindgSrceBusObjKey` | `_head.CN_TaxInvcBindgSrceBusObjKey` |
 
 ## Associations
 

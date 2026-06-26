@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key IHBGroupAssignmentUUID` | `IHBGroupAssignmentUUID` |
+| `IHBGroupAssignmentUUID` | `IHBGroupAssignmentUUID` |
 | `IHBObjectUUID` | `IHBObjectUUID` |
 | `IHBGroupAssignmentRefUUID` | `IHBGroupAssignmentRefUUID` |
 | `IHBObjectCategory` | `IHBObjectCategory` |
@@ -45,9 +45,7 @@ tags:
 | `IHBObjectCreatedByUser` | `IHBObjectCreatedByUser` |
 | `IHBObjectChangedDateTime` | `IHBObjectChangedDateTime` |
 | `IHBObjectChangedByUser` | `IHBObjectChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_IHBAccount` | *Association* |
-| `_IHBMasterDataObjectTP : redirected to parent I_IHBAcctIntrstCompnObjTP` | *Association* |
 
 ## Associations
 

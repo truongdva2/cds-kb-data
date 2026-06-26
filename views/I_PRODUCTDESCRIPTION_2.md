@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productnumber preserving type )` | `cast(makt.matnr` |
+| `Product` | `cast(makt.matnr as productnumber preserving type )` |
 | `Language` | `makt.spras` |
-| `productdescription preserving type )` | `cast(makt.maktx` |
-| `languageisocode preserving type )` | `cast(_Language.LanguageISOCode` |
+| `ProductDescription` | `cast(makt.maktx as productdescription preserving type )` |
+| `LanguageISOCode` | `cast(_Language.LanguageISOCode as languageisocode preserving type )` |
 | `_Product` | *Association* |
 | `_Language` | *Association* |
 

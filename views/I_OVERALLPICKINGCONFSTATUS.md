@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `koquk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallPickingConfStatus` | `cast(left(dd07l.domvalue_l, 1 ) as koquk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

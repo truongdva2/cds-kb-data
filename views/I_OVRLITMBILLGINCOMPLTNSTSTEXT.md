@@ -34,13 +34,16 @@ tags:
 |---|---|
 | `OvrlItmBillingIncompletionSts` | `statu` |
 | `Language` | `spras` |
-| `ovrlitmbillgincompltnstsdesc preserving type)` | `cast(bezei` |
+| `OvrlItmBillgIncompltnStsDesc` | `cast(bezei as ovrlitmbillgincompltnstsdesc preserving type)` |
 | `_OvrlItmBillingIncompletionSts` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_OvrlItmBillingIncompletionSts` | `I_OvrlItmBillgIncompltnSts` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

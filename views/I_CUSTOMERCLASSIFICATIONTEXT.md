@@ -37,13 +37,16 @@ tags:
 |---|---|
 | `CustomerClassification` | `kukla` |
 | `Language` | `spras` |
-| `customerclassificationdesc preserving type)` | `cast(vtext` |
+| `CustomerClassificationDesc` | `cast(vtext as customerclassificationdesc preserving type)` |
 | `_CustomerClassification` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CustomerClassification` | `I_CustomerClassification` | [0..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

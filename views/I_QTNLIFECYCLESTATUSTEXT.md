@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qtn_lfst_cd )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `QtnLifecycleStatus` | `cast ( substring( domvalue_l, 1, 2 ) as vdm_qtn_lfst_cd )` |
 | `Language` | `ddlanguage` |
-| `vdm_qtn_lfst_descr )` | `cast( ddtext` |
+| `QtnLifecycleStatusName` | `cast( ddtext as vdm_qtn_lfst_descr )` |
 | `_Language` | *Association* |
 
 ## Associations
@@ -43,7 +43,6 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Language` | `I_Language` | [0..1] |
-| `_DomainGlobalFieldName` | `I_DomainGlobalFieldName` | [1..1] |
 
 ## Source Code
 

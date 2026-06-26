@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `pph_aueru_txt preserving type)` | `cast(txt.ddtext` |
+| `FinalConfirmationType` | `cast(substring(txt.domvalue_l, 1, 1) as pph_aueru preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `DomainValue` | `txt.domvalue_l` |
+| `FinalConfirmationTypeName` | `cast(txt.ddtext as pph_aueru_txt preserving type)` |
 | `_FinalConfirmationType` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.7 }` |
-| `_Text[1: Language=$session.system_language].SubItemCategoryText` | *Association* |
+| `SubItemCategory` | `SubItemCategory` |
+| `SubItemCategoryText` | `_Text[1: Language=$session.system_language].SubItemCategoryText` |
 
 ## Associations
 

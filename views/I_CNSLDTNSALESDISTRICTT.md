@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'SalesDistrictName' }` | `status: #DEPRECATED, successor: 'SalesDistrictName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.SalesDistrictName` |
-| `fincs_salesdistrictname preserving type )` | `cast( _Source.SalesDistrictName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `SalesDistrict` | `cast( _Source.SalesDistrict as fincs_salesdistrict preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.SalesDistrictName as fincs_description_text_20 preserving type )` |
+| `SalesDistrictName` | `cast( _Source.SalesDistrictName as fincs_salesdistrictname preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_SalesDistrict` | *Association* |
 

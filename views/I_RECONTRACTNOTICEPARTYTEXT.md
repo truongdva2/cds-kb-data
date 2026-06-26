@@ -34,9 +34,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `recnntparty)` | `cast(domvalue_l` |
+| `REContractNoticeParty` | `cast(domvalue_l as recnntparty)` |
 | `DomainValue` | `domvalue_l` |
-| `recavdmdesc60 preserving type )` | `cast( ddtext` |
+| `REContractNoticePartyName` | `cast( ddtext as recavdmdesc60 preserving type )` |
 | `_REContractNoticeParty` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REContractNoticeParty` | `I_REContractNoticeParty` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

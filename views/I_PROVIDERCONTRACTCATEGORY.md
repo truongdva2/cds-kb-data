@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vtcat_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAProviderContractCategory` | `cast( left( dd07l.domvalue_l, 1 ) as vtcat_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

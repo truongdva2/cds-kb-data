@@ -34,31 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PurchaseOrder` | `header.PurchaseOrder` |
-| `case header.PurchasingDocumentDeletionCode` | `case header.PurchasingDocumentDeletionCode` |
-| `mmpur_doc_status)` | `when 'X' then cast('10'` |
-| `mmpur_doc_status)` | `when 'L' then cast('10'` |
-| `else case header.PurchasingCompletenessStatus` | `else case header.PurchasingCompletenessStatus` |
-| `mmpur_doc_status)` | `when 'X' then cast('01'` |
-| `else case header.PurchasingProcessingStatus` | `else case header.PurchasingProcessingStatus` |
-| `mmpur_doc_status)` | `when '08' then cast('38'` |
-| `else case header.ReleaseIsNotCompleted` | `else case header.ReleaseIsNotCompleted` |
-| `mmpur_doc_status)` | `when 'X' then cast('02'` |
-| `else case when (om_error.appl_object_id is null) then     // ^2879307` | `else case when (om_error.appl_object_id is null) then     // ^2879307` |
-| `case when (pos_ekbe.PurchaseOrder is null) then` | `case when (pos_ekbe.PurchaseOrder is null) then` |
-| `case when (om_new.appl_object_id is null) then` | `case when (om_new.appl_object_id is null) then` |
-| `mmpur_doc_status)` | `case when (om_old.objky is null) then cast('03'` |
-| `mmpur_doc_status)` | `else cast('04'` |
-| `end` | `end` |
-| `mmpur_doc_status)` | `else cast('04'` |
-| `end` | `end` |
-| `mmpur_doc_status)                      // v2879307` | `else cast('05'` |
-| `end` | `end` |
-| `mmpur_doc_status)` | `else cast('37'` |
-| `end` | `end` |
-| `end` | `end` |
-| `end` | `end` |
-| `end` | `end` |
-| `PurchasingDocumentStatus` | `end` |
+| `PurchasingDocumentStatus` | `case…end` |
 | `PurchaseOrderType` | `PurchaseOrderType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |

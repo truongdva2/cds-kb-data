@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ServiceContractItemUUID : crmt_object_guid;` | `ServiceContractItemUUID : crmt_object_guid;` |
-| `ServiceContractItemCategory : crmt_item_type_db;` | `ServiceContractItemCategory : crmt_item_type_db;` |
-| `ServiceContractItemDescription : crmt_prshtextx_db;` | `ServiceContractItemDescription : crmt_prshtextx_db;` |
+| `ServiceContractItemUUID` | `crmt_object_guid` |
+| `ServiceContractItemCategory` | `crmt_item_type_db` |
+| `ServiceContractItemDescription` | `crmt_prshtextx_db` |
 
 ## Associations
 

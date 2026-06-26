@@ -38,7 +38,7 @@ tags:
 | `DocFlowSubsequentDocumentItem` | `_DocumentFlow.fol_doc_item` |
 | `DSD_TourNumber` | `_DocumentFlow.tour_id` |
 | `DSD_RouteAccountingVisitNumber` | `_DocumentFlow.visit_id` |
-| `_Header.plant              as Plant` | *Association* |
+| `Plant` | `_Header.plant` |
 | `_PrecedingDocumentType` | *Association* |
 | `_SubsequentDocumentType` | *Association* |
 

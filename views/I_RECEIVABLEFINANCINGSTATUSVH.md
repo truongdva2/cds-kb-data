@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true }` | `defaultSearchElement: true }` |
-| `key ReceivableFinancingStatus` | `ReceivableFinancingStatus` |
+| `ReceivableFinancingStatus` | `ReceivableFinancingStatus` |
 | `_Text` | *Association* |
 
 ## Associations

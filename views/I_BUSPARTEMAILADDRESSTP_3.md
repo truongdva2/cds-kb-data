@@ -35,10 +35,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key AddressNumber` | `AddressNumber` |
-| `key OrdinalNumber` | `OrdinalNumber` |
-| `key Person` | `Person` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `OrdinalNumber` | `OrdinalNumber` |
+| `Person` | `Person` |
 | `OrdinalNumberForEdit` | `OrdinalNumberForEdit` |
 | `IsDefaultEmailAddress` | `IsDefaultEmailAddress` |
 | `EmailAddress` | `EmailAddress` |
@@ -56,10 +56,7 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
 | `_BPProtectedAddress` | *Association* |
-| `_BusinessPartner : redirected to I_BusinessPartnerTP_3` | *Association* |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |
 | `_AuthorizationGroup` | *Association* |

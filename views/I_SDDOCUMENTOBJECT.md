@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sd_doc_object preserving type )` | `cast(SUBSTRING(dd07l.domvalue_l, 1, 1)` |
+| `SDDocumentObject` | `cast(SUBSTRING(dd07l.domvalue_l, 1, 1) as sd_doc_object preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

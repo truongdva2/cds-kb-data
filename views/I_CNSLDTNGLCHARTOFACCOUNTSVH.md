@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_chartofaccounts preserving type )` | `cast(ChartOfAccounts` |
-| `_Text[1: Language=$session.system_language].ChartOfAccountsName` | *Association* |
+| `ChartOfAccounts` | `cast(ChartOfAccounts as fincs_chartofaccounts preserving type )` |
+| `ChartOfAccountsName` | `_Text[1: Language=$session.system_language].ChartOfAccountsName` |
 
 ## Associations
 

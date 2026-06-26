@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position : 1 }]` | `position : 1 }]` |
+| `CompanyCode` | `bukrs` |
 | `Portfolio` | `rportb` |
 | `_CompanyCode` | *Association* |
 | `_TreasuryPortfolioText` | *Association* |
@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CompanyCode` | `I_CompanyCode` | — |
 | `_TreasuryPortfolioText` | `I_TreasuryPortfolioText` | [0..*] |
 
 ## Source Code

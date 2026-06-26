@@ -30,9 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qppkttyp preserving type )` | `cast ( substring( domvalue_l, 1, 1 )` |
-| `/* Accociations */` | `/* Accociations */` |
-| `, _Text` | `, _Text` |
+| `InspectionSubsetType` | `cast ( substring( domvalue_l, 1, 1 ) as vdm_qppkttyp preserving type )` |
+| `_Text` | *Association* |
 
 ## Associations
 

@@ -30,11 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'IndustryName' }` | `status: #DEPRECATED, successor: 'IndustryName' }` |
-| `fincs_description_text_20 preserving type )` | `cast( _Source.IndustryName` |
-| `fincs_industry_desc preserving type )` | `cast( _Source.IndustryName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `Industry` | `cast( _Source.Industry as fincs_industry preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.IndustryName as fincs_description_text_20 preserving type )` |
+| `IndustryName` | `cast( _Source.IndustryName as fincs_industry_desc preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Industry` | *Association* |
 

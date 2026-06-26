@@ -37,9 +37,6 @@ tags:
 | `LglCntntMEntity` | `LglCntntMEntity` |
 | `LglCntntMEntityType` | `LglCntntMEntityType` |
 | `LglCntntMTechEntityType` | `LglCntntMTechEntityType` |
-| `/* Associations */` | `/* Associations */` |
-| `_Document           : redirected to I_LegalDocumentTP` | *Association* |
-| `_LegalDocObligation : redirected to parent I_LegalDocObligationTP` | *Association* |
 
 ## Associations
 

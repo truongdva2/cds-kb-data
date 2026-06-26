@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ValidityStartDate : cc_ccdat;` | `ValidityStartDate : cc_ccdat;` |
+| `ValidityStartDate` | `cc_ccdat` |
 
 ## Associations
 

@@ -66,6 +66,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_JITInbCallComponentGroup` | `I_JITInbCallComponentGroup` | — |
 | `_JITInboundCall` | `I_JITInboundCall` | [1..1] |
 | `_ProcessedByUser` | `I_UserContactCard` | [0..1] |
 | `_JITAction` | `I_JITAction` | [0..1] |

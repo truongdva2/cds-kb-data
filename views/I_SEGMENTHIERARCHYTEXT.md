@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_segment preserving type )` | `cast(hrrp_dirt_n.hryid` |
+| `SegmentHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_segment preserving type )` |
 | `ValidityEndDate` | `hrrp_dirt_n.hryvalto` |
 | `Language` | `spras` |
 | `ValidityStartDate` | `hrrp_dirt_n.hryvalfrom` |
-| `fis_hryn_segment preserving type )` | `cast(hrytxt` |
+| `SegmentHierarchyName` | `cast(hrytxt as fis_hryn_segment preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

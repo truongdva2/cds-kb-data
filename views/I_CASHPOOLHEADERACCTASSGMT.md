@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CashPoolAssignment` | `CashPoolAssignment` |
+| `CashPoolAssignment` | `CashPoolAssignment` |
 | `CashPoolAssignmentText` | `CashPoolAssignmentText` |
 | `CashPool` | `CashPool` |
 | `CashPoolAssgmtIsHeadBkAcct` | `CashPoolAssgmtIsHeadBkAcct` |

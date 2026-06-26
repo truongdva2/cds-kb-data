@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `podrel  preserving type )` | `cast (left(dd07l.domvalue_l, 1 )` |
+| `ProofOfDeliveryRelevanceCode` | `cast (left(dd07l.domvalue_l, 1 ) as podrel preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_ProofOfDelivRlvnceCodeText` | [0..*] |
 
 ## Source Code
 

@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position : 1 }]` | `position : 1 }]` |
 | `TreasuryReferenceCategory` | `reftyp` |
 | `_Text` | *Association* |
 

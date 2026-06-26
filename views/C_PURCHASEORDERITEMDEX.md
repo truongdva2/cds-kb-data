@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key item.PurchaseOrder` | `item.PurchaseOrder` |
-| `key item.PurchaseOrderItem` | `item.PurchaseOrderItem` |
+| `PurchaseOrder` | `item.PurchaseOrder` |
+| `PurchaseOrderItem` | `item.PurchaseOrderItem` |
 | `PurchaseOrderType` | `item._PurchaseOrder.PurchaseOrderType` |
 | `PurchasingGroup` | `item._PurchaseOrder.PurchasingGroup` |
 | `PurchasingOrganization` | `item._PurchaseOrder.PurchasingOrganization` |
@@ -79,7 +79,7 @@ tags:
 | `IsFinallyInvoiced` | `item.IsFinallyInvoiced` |
 | `InvoiceIsExpected` | `item.InvoiceIsExpected` |
 | `OrderItemQtyToBaseQtyDnmntr` | `item.OrderItemQtyToBaseQtyDnmntr` |
-| `umbsz_ll preserving type)` | `cast ( item.OrderItemQtyToBaseQtyNmrtr` |
+| `OrderItemQtyToBaseQtyNmrtr` | `cast ( item.OrderItemQtyToBaseQtyNmrtr as umbsz_ll preserving type)` |
 | `InvoiceIsGoodsReceiptBased` | `item.InvoiceIsGoodsReceiptBased` |
 | `GoodsReceiptIsExpected` | `item.GoodsReceiptIsExpected` |
 | `EvaldRcptSettlmtIsAllowed` | `item.EvaldRcptSettlmtIsAllowed` |
@@ -105,8 +105,7 @@ tags:
 | `PurchaseRequisitionItem` | `item.PurchaseRequisitionItem` |
 | `SupplierConfirmationControlKey` | `item.SupplierConfirmationControlKey` |
 | `PurchasingDocumentDeletionCode` | `item._PurchaseOrder.PurchasingDocumentDeletionCode` |
-| `item._PurchaseOrder` | `item._PurchaseOrder` |
-| `#TO_COMPOSITION_ROOT]` | `#TO_COMPOSITION_ROOT]` |
+| `_PurchaseOrder` | *Association* |
 | `_PurchaseOrderDEX` | *Association* |
 | `_ScheduleLineDEX` | *Association* |
 | `_AccountAssignmentDEX` | *Association* |
@@ -139,9 +138,7 @@ tags:
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_CompanyCode` | `I_CompanyCode` | [0..1] |
+> No associations found.
 
 ## Source Code
 

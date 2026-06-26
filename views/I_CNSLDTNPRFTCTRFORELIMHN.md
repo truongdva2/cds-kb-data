@@ -30,17 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` | `localElement: 'ControllingArea', element: 'ControllingArea', usage: #FILTER_AND_RESULT }]` |
-| `}]` | `}]` |
-| `cast ( case NodeType` | `cast ( case NodeType` |
-| `when 'L' then` | `when 'L' then` |
-| `case replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(ProfitCenter` | `case replace(replace(replace(replace(replace(replace(replace(replace(replace(replace(ProfitCenter` |
-| `'0', ''), '1', ''), '2', ''), '3', ''), '4', ''), '5', ''), '6', ''), '7', ''), '8', ''), '9', '')` | `'0', ''), '1', ''), '2', ''), '3', ''), '4', ''), '5', ''), '6', ''), '7', ''), '8', ''), '9', '')` |
-| `when  ''` | `when  ''` |
-| `then lpad(ProfitCenter, 25, '0')` | `then lpad(ProfitCenter, 25, '0')` |
-| `else ProfitCenter` | `else ProfitCenter` |
-| `end` | `end` |
-| `when '
+| `ControllingArea` | `ControllingArea` |
+| `ConsolidationPrftCtrHierarchy` | `cast( CnsldtnUniversalHierarchy as fincs_profitcenterhierarchy preserving type )` |
+| `HierarchyNode` | `HierarchyNode` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ParentNode` | `ParentNode` |
+| `fincs_elim_profitcenter` | `cast(…)` |
 
 ## Associations
 

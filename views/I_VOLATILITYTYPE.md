@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_volart)` | `cast(atvo1.volart` |
+| `VolatilityType` | `cast(atvo1.volart as tb_volart)` |
 | `_Text` | *Association* |
 
 ## Associations

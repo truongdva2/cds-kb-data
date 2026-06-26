@@ -29,21 +29,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectHeader.ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
-| `key ObjectHeader.ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
-| `key ObjectClassBasic.ClassInternalID` | `ObjectClassBasic.ClassInternalID` |
-| `key ObjectClassBasic.ClassType` | `ObjectClassBasic.ClassType` |
-| `key ObjectClassBasic.TimeIntervalNumber` | `ObjectClassBasic.TimeIntervalNumber` |
-| `ObjectHeader.ClfnObjectInternalID` | `ObjectHeader.ClfnObjectInternalID` |
-| `ObjectClassBasic.ClfnStatus` | `ObjectClassBasic.ClfnStatus` |
-| `ObjectClassBasic.ClassPositionNumber` | `ObjectClassBasic.ClassPositionNumber` |
-| `ObjectClassBasic.ClassIsStandardClass` | `ObjectClassBasic.ClassIsStandardClass` |
-| `ObjectClassBasic.BOMIsRecursive` | `ObjectClassBasic.BOMIsRecursive` |
-| `ObjectClassBasic.IsDeleted` | `ObjectClassBasic.IsDeleted` |
-| `ObjectClassBasic.ChangeNumber` | `ObjectClassBasic.ChangeNumber` |
-| `ObjectClassBasic.ValidityStartDate` | `ObjectClassBasic.ValidityStartDate` |
-| `ObjectClassBasic.ValidityEndDate` | `ObjectClassBasic.ValidityEndDate` |
-| `ObjectHeader.LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
+| `ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
+| `ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
+| `ClassInternalID` | `ObjectClassBasic.ClassInternalID` |
+| `ClassType` | `ObjectClassBasic.ClassType` |
+| `TimeIntervalNumber` | `ObjectClassBasic.TimeIntervalNumber` |
+| `ClfnObjectInternalID` | `ObjectHeader.ClfnObjectInternalID` |
+| `ClfnStatus` | `ObjectClassBasic.ClfnStatus` |
+| `ClassPositionNumber` | `ObjectClassBasic.ClassPositionNumber` |
+| `ClassIsStandardClass` | `ObjectClassBasic.ClassIsStandardClass` |
+| `BOMIsRecursive` | `ObjectClassBasic.BOMIsRecursive` |
+| `IsDeleted` | `ObjectClassBasic.IsDeleted` |
+| `ChangeNumber` | `ObjectClassBasic.ChangeNumber` |
+| `ValidityStartDate` | `ObjectClassBasic.ValidityStartDate` |
+| `ValidityEndDate` | `ObjectClassBasic.ValidityEndDate` |
+| `LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
 | `_Class` | *Association* |
 
 ## Associations

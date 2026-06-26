@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pnctr_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `pnctr_text_kk preserving type )` | `cast( ddtext` |
+| `CASEPAPreNotificationRqmtCode` | `cast( left( domvalue_l, 1 ) as pnctr_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CASEPAPreNotifRqmtCodeText` | `cast( ddtext as pnctr_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

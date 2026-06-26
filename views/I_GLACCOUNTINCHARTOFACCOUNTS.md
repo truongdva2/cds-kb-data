@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'ChartOfAccounts'` | `localElement: 'ChartOfAccounts'` |
-| `element: 'ChartOfAccounts' }]` | `element: 'ChartOfAccounts' }]` |
-| `}]` | `}]` |
+| `ChartOfAccounts` | `ska1.ktopl` |
+| `GLAccount` | `ska1.saknr` |
+| `IsBalanceSheetAccount` | `cast( ska1.xbilk as isbalancesheetaccount )` |
 | `GLAccountGroup` | `ska1.ktoks` |
-| `_ChartOfAccounts.CorporateGroupChartOfAccounts as CorporateGroupChartOfAccounts` | *Association* |
+| `CorporateGroupChartOfAccounts` | `_ChartOfAccounts.CorporateGroupChartOfAccounts` |
 | `CorporateGroupAccount` | `ska1.bilkt` |
 | `ProfitLossAccountType` | `ska1.gvtyp` |
 | `SampleGLAccount` | `ska1.mustr` |
@@ -50,13 +50,9 @@ tags:
 | `LastChangeDateTime` | `ska1.last_changed_ts` |
 | `GLAccountType` | `ska1.glaccount_type` |
 | `GLAccountSubtype` | `ska1.glaccount_subtype` |
-| `fac_sakan )` | `cast( ska1.sakan` |
+| `GLAccountExternal` | `cast( ska1.sakan as fac_sakan )` |
 | `BankReconciliationAccount` | `ska1.main_saknr` |
-| `cast(case when ska1.xbilk = 'X' then` | `cast(case when ska1.xbilk = 'X' then` |
-| `' '` | `' '` |
-| `else` | `else` |
-| `'X'` | `'X'` |
-| `xbilk)` | `end` |
+| `IsProfitLossAccount` | `cast(case when ska1.xbilk = 'X' then ' ' else 'X' end as xbilk)` |
 | `_User` | *Association* |
 | `_ChartOfAccounts` | *Association* |
 | `_Text` | *Association* |
@@ -74,7 +70,6 @@ tags:
 | `_GLAccountGroupText` | *Association* |
 | `_CorporateGroupChartOfAccounts` | *Association* |
 | `_CorporateGroupAccount` | *Association* |
-
 
 ## Associations
 
@@ -97,7 +92,6 @@ tags:
 | `_PublicSector` | `I_GLAccountForPublicSector` | [0..1] |
 | `_CorporateGroupChartOfAccounts` | `I_ChartOfAccounts` | [0..1] |
 | `_CorporateGroupAccount` | `I_GLAccountInChartOfAccounts` | [0..1] |
-
 
 ## Source Code
 

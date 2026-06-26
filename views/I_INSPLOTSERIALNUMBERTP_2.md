@@ -31,12 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
-| `key MaintenanceItemObject` | `MaintenanceItemObject` |
+| `InspectionLot` | `InspectionLot` |
+| `MaintenanceItemObjectList` | `MaintenanceItemObjectList` |
+| `MaintenanceItemObject` | `MaintenanceItemObject` |
 | `SerialNumber` | `SerialNumber` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot : redirected to parent I_InspectionLotTP_2` | *Association* |
 
 ## Associations
 

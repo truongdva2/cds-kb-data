@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
-| `key BkPOABankAccountUUID` | `BkPOABankAccountUUID` |
+| `BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
+| `BkPOABankAccountUUID` | `BkPOABankAccountUUID` |
 | `BankAccountInternalID` | `BankAccountInternalID` |
 | `BkPOABkAcctAssignmentDateTime` | `BkPOABkAcctAssignmentDateTime` |
 | `BkPOABkAcctRemovalDateTime` | `BkPOABkAcctRemovalDateTime` |
@@ -42,8 +42,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_BankPowerOfAttorney: redirected to parent I_BankPowerOfAttorneyTP_2` | *Association* |
 
 ## Associations
 

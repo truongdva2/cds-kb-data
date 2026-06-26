@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_kkber preserving type)` | `cast(kkber` |
+| `CreditControlArea` | `cast(kkber as farp_kkber preserving type)` |
 | `Language` | `spras` |
 | `CreditControlAreaName` | `kkbtx` |
 | `_Language` | *Association* |

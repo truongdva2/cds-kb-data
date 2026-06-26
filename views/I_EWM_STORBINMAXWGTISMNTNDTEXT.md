@@ -33,9 +33,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `ewm_de_storbinmaxweightismaint preserving type )` | `cast ( substring( dd07t.domvalue_l, 1, 1 )` |
-| `ewm_de_storbinmaxwgtmaintdesc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `EWMStorageBinMaxWeightIsMntnd` | `cast(…)` |
+| `EWMStorBinMaxWeightMntndDesc` | `cast( ddtext as ewm_de_storbinmaxwgtmaintdesc preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

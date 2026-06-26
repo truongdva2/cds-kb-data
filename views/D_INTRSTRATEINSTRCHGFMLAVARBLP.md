@@ -29,18 +29,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `FinancialTransactionDirection  : tb_rkondgr;` | `FinancialTransactionDirection  : tb_rkondgr;` |
-| `FinConditionItem               : tb_kond;` | `FinConditionItem               : tb_kond;` |
-| `ConditionItemValidityStartDate : dguel_kp;` | `ConditionItemValidityStartDate : dguel_kp;` |
-| `FinCndnFormulaVariable         : tb_varname;` | `FinCndnFormulaVariable         : tb_varname;` |
-| `FinInstrConditionLogicGroup    : ftr_instr_cndn_logic_group;` | `FinInstrConditionLogicGroup    : ftr_instr_cndn_logic_group;` |
-| `ConditionPercentageRate        : pkond;` | `ConditionPercentageRate        : pkond;` |
-| `ReferenceInterestRate          : szsref;` | `ReferenceInterestRate          : szsref;` |
-| `_Condition : association to parent D_IntrstRateInstrChgCndnP;` | *Association* |
+| `FinancialTransactionDirection` | `tb_rkondgr` |
+| `FinConditionItem` | `tb_kond` |
+| `ConditionItemValidityStartDate` | `dguel_kp` |
+| `FinCndnFormulaVariable` | `tb_varname` |
+| `FinInstrConditionLogicGroup` | `ftr_instr_cndn_logic_group` |
+| `ConditionPercentageRate` | `pkond` |
+| `ReferenceInterestRate` | `szsref` |
+| `_Condition` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Condition` | `D_IntrstRateInstrChgCndnP` | — |
 
 ## Source Code
 

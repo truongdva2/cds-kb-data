@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  CompanyCode` | `CompanyCode` |
-| `key  FinancialTransaction` | `FinancialTransaction` |
+| `CompanyCode` | `CompanyCode` |
+| `FinancialTransaction` | `FinancialTransaction` |
 | `TreasuryFinancialObject` | `TreasuryFinancialObject` |
 | `CreatedByUser` | `CreatedByUser` |
 | `FinTransCreationDate` | `FinTransCreationDate` |

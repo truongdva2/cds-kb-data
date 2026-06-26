@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `auf_plknz)` | `cast(dd07t.domvalue_l` |
+| `MaintenanceOrderPlanningCode` | `cast(dd07t.domvalue_l as auf_plknz)` |
 | `Language` | `dd07t.ddlanguage` |
 | `MaintOrderPlanningCodeName` | `dd07t.ddtext` |
 | `_Language` | *Association* |

@@ -27,11 +27,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SrvcTransChgReqRcvdOnDateTime : timestamp;` | `SrvcTransChgReqRcvdOnDateTime : timestamp;` |
-| `EffectiveDate                 : datum;` | `EffectiveDate                 : datum;` |
-| `SoldToParty                   : crmt_sold_to_part;` | `SoldToParty                   : crmt_sold_to_part;` |
-| `PurchaseOrderByCustomer       : crmt_po_number_sold;` | `PurchaseOrderByCustomer       : crmt_po_number_sold;` |
-| `ServiceContractIsReleased     : crms4_stat_released;` | `ServiceContractIsReleased     : crms4_stat_released;` |
+| `SrvcTransChgReqRcvdOnDateTime` | `timestamp` |
+| `EffectiveDate` | `datum` |
+| `SoldToParty` | `crmt_sold_to_part` |
+| `PurchaseOrderByCustomer` | `crmt_po_number_sold` |
+| `ServiceContractIsReleased` | `crms4_stat_released` |
 
 ## Associations
 

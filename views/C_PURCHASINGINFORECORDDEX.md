@@ -39,7 +39,7 @@ tags:
 | `IsDeleted` | `IsDeleted` |
 | `PurchasingInfoRecordDesc` | `PurchasingInfoRecordDesc` |
 | `PurgDocOrderQuantityUnit` | `PurgDocOrderQuantityUnit` |
-| `umbsz_ll preserving type)` | `cast ( OrderItemQtyToBaseQtyNmrtr` |
+| `OrderItemQtyToBaseQtyNmrtr` | `cast ( OrderItemQtyToBaseQtyNmrtr as umbsz_ll preserving type)` |
 | `OrderItemQtyToBaseQtyDnmntr` | `OrderItemQtyToBaseQtyDnmntr` |
 | `SupplierMaterialNumber` | `SupplierMaterialNumber` |
 | `SupplierRespSalesPersonName` | `SupplierRespSalesPersonName` |

@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `maintordcancellationaction )` | `cast( dd07t.domvalue_l` |
-| `maintordcancellationactiontxt preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `MaintOrdCancellationAction` | `cast( dd07t.domvalue_l as maintordcancellationaction )` |
+| `MaintOrdCancellationActionTxt` | `cast( dd07t.ddtext as maintordcancellationactiontxt preserving type )` |
 | `_MaintOrdCancellationAction` | *Association* |
 | `_Language` | *Association* |
 
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_MaintOrdCancellationAction` | `I_MaintOrdCancellationAction` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

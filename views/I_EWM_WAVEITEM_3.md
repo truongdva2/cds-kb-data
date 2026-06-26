@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `EWMWarehouse` | `lgnum` |
-| `ewm_de_wave )` | `cast( wave` |
-| `ewm_de_waveitem )` | `cast( wave_itm` |
+| `EWMWave` | `cast( wave as ewm_de_wave )` |
+| `EWMWaveItem` | `cast( wave_itm as ewm_de_waveitem )` |
 | `WarehouseTaskCreationStatus` | `stat_cr` |
 | `ItemWeight` | `weight` |
 | `ItemWeightUnit` | `unit_w` |
@@ -50,7 +50,7 @@ tags:
 | `ReferenceDocumentUUID` | `rdocid` |
 | `ReferenceDocumentItemUUID` | `ritmid` |
 | `EWMWaveSplitNumber` | `split_id` |
-| `ewm_de_ref_dlv_no_conv preserving type)` | `cast(docno` |
+| `EWMRefDeliveryDocumentNumber` | `cast(docno as ewm_de_ref_dlv_no_conv preserving type)` |
 | `EWMRefDeliveryDocumentItem` | `itemno` |
 | `EWMWaveItemErrorStatus` | `wv_error` |
 | `EWMRoute` | `route_id` |

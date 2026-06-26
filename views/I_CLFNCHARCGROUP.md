@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `charcgroup preserving type )` | `cast ( CharacteristicGroup.atkla` |
+| `CharcGroup` | `cast ( CharacteristicGroup.atkla as charcgroup preserving type )` |
 | `ConfigurationDeprecationCode` | `CharacteristicGroup.configurationdeprecationcode` |
 | `_CharacteristicGroupText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CharacteristicGroupText` | `I_ClfnCharcGroupText` | [0..*] |
 
 ## Source Code
 

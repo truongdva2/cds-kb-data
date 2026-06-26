@@ -36,7 +36,6 @@ tags:
 | `BillOfOperationsType` | `BillOfOperationsType` |
 | `IsDeleted` | `IsDeleted` |
 | `IsImplicitlyDeleted` | `IsImplicitlyDeleted` |
-| `BillOfOperationsDesc` | `BillOfOperationsDesc` |
 | `Plant` | `Plant` |
 | `BillOfOperationsUsage` | `BillOfOperationsUsage` |
 | `BillOfOperationsStatus` | `BillOfOperationsStatus` |
@@ -46,7 +45,6 @@ tags:
 | `BillOfOperationsUnit` | `BillOfOperationsUnit` |
 | `ReplacedBillOfOperations` | `ReplacedBillOfOperations` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
-| `InspSubsetFieldCombination` | `InspSubsetFieldCombination` |
 | `InspectionPartialLotAssignment` | `InspectionPartialLot` |
 | `SmplDrawingProcedure` | `SmplDrawingProcedure` |
 | `SmplDrawingProcedureVersion` | `SmplDrawingProcedureVersion` |
@@ -55,11 +53,10 @@ tags:
 | `InspExternalNumberingOfValues` | `InspExternalNumberingOfValues` |
 | `InspLotDynamicCriteria` | `InspLotDynamicCriteria` |
 | `InspPlanHasMultipleSpec` | `InspPlanHasMultipleSpec` |
-| `qmatkz preserving type )` | `cast( substring(InspLotDynamicCriteria,1,1)` |
-| `qlifkz preserving type )` | `cast( substring(InspLotDynamicCriteria,2,1)` |
-| `qherstkz preserving type )` | `cast( substring(InspLotDynamicCriteria,3,1)` |
-| `qkundkz preserving type )` | `cast( substring(InspLotDynamicCriteria,4,1)` |
-| `CreationDate` | `CreationDate` |
+| `MatlIsConsideredForDynModif` | `cast( substring(InspLotDynamicCriteria,1,1) as qmatkz preserving type )` |
+| `SuplrIsConsideredForDynModif` | `cast( substring(InspLotDynamicCriteria,2,1) as qlifkz preserving type )` |
+| `MfrIsConsideredForDynModif` | `cast( substring(InspLotDynamicCriteria,3,1) as qherstkz preserving type )` |
+| `CustIsConsideredForDynModif` | `cast( substring(InspLotDynamicCriteria,4,1) as qkundkz preserving type )` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |

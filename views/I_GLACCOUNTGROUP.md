@@ -31,9 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
 | `ChartOfAccounts` | `ktopl` |
 | `GLAccountGroup` | `ktoks` |
 | `_ChartOfAccountsText` | *Association* |

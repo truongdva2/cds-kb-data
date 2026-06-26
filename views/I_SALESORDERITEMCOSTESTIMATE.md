@@ -33,60 +33,60 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  CostEst.CostingReferenceObject` | `CostEst.CostingReferenceObject` |
-| `key  CostEst.CostEstimate` | `CostEst.CostEstimate` |
-| `key  CostEst.CostingType` | `CostEst.CostingType` |
-| `key  CostEst.CostingDate` | `CostEst.CostingDate` |
-| `key  CostEst.CostingVersion` | `CostEst.CostingVersion` |
-| `key  CostEst.ValuationVariant` | `CostEst.ValuationVariant` |
-| `key  CostEst.CostIsEnteredManually` | `CostEst.CostIsEnteredManually` |
-| `CostEst.Product` | `CostEst.Product` |
-| `CostEst.ValuationType` | `CostEst.ValuationType` |
-| `CostEst.CostingVariant` | `CostEst.CostingVariant` |
-| `ValArea.CompanyCode` | `ValArea.CompanyCode` |
-| `CostEst.Plant` | `CostEst.Plant` |
-| `CostEst.ControllingArea` | `CostEst.ControllingArea` |
-| `CostEst.Ledger` | `CostEst.Ledger` |
-| `CostEst.ProfitCenter` | `CostEst.ProfitCenter` |
-| `CostEst.CostEstimateValidityStartDate` | `CostEst.CostEstimateValidityStartDate` |
-| `CostEst.CostEstimateValidityEndDate` | `CostEst.CostEstimateValidityEndDate` |
-| `CostEst.ValuationDate` | `CostEst.ValuationDate` |
-| `CostEst.QuantityStructureDate` | `CostEst.QuantityStructureDate` |
-| `CostEst.CostingLotSize` | `CostEst.CostingLotSize` |
-| `CostEst.ValuationQuantityUnit` | `CostEst.ValuationQuantityUnit` |
-| `CostEst.CostEstimateCreationDate` | `CostEst.CostEstimateCreationDate` |
-| `CostEst.CostEstimateStatus` | `CostEst.CostEstimateStatus` |
-| `CostEst.ProductionVersion` | `CostEst.ProductionVersion` |
-| `CostEst.ProductValuationStrategy` | `CostEst.ProductValuationStrategy` |
-| `CostEst.ProductValnPurgInfoRecdStrgy` | `CostEst.ProductValnPurgInfoRecdStrgy` |
-| `CostEst.ReferenceLedger` | `CostEst.ReferenceLedger` |
-| `CostEst.ComponentBreakdown` | `CostEst.ComponentBreakdown` |
-| `CostEst.PostingPeriod` | `CostEst.PostingPeriod` |
-| `CostEst.PostingFiscalYear` | `CostEst.PostingFiscalYear` |
-| `CostEst.CostingItemIsProductComp` | `CostEst.CostingItemIsProductComp` |
-| `CostEst.CostEstimateTransferControl` | `CostEst.CostEstimateTransferControl` |
-| `vdm_sales_order preserving type )` | `cast( CostEst.SalesDocument` |
-| `sales_order_item preserving type )` | `cast( CostEst.SalesDocumentItem` |
-| `CostEst.BillOfMaterial` | `CostEst.BillOfMaterial` |
-| `CostEst.ProductBOMUsage` | `CostEst.ProductBOMUsage` |
-| `CostEst.AlternativeBillOfMaterial` | `CostEst.AlternativeBillOfMaterial` |
-| `CostEst.TaskListGroup` | `CostEst.TaskListGroup` |
-| `CostEst.TaskListType` | `CostEst.TaskListType` |
-| `CostEst.TaskListGroupCounter` | `CostEst.TaskListGroupCounter` |
-| `CostEst.SpecialProcurementType` | `CostEst.SpecialProcurementType` |
-| `CostEst.ProductProcurementType` | `CostEst.ProductProcurementType` |
-| `CostEst.SpecialProcurementPlant` | `CostEst.SpecialProcurementPlant` |
-| `CostEst.CostingSheet` | `CostEst.CostingSheet` |
-| `CostEst.CostingOverheadGroup` | `CostEst.CostingOverheadGroup` |
-| `CostEst.CostingOverhead` | `CostEst.CostingOverhead` |
-| `CostEst.ConfiguredProduct` | `CostEst.ConfiguredProduct` |
-| `CostEst.CostEstimateCostingLevel` | `CostEst.CostEstimateCostingLevel` |
-| `CostEst.CostComponentStructure` | `CostEst.CostComponentStructure` |
-| `CostEst.CostEstimateCreatedByUser` | `CostEst.CostEstimateCreatedByUser` |
-| `CostEst.CostEstimateMarkedByUser` | `CostEst.CostEstimateMarkedByUser` |
-| `CostEst.CostEstimateMarkingDate` | `CostEst.CostEstimateMarkingDate` |
-| `CostEst.ValuationArea` | `CostEst.ValuationArea` |
-| `CostEst.CompanyCodeCurrency` | `CostEst.CompanyCodeCurrency` |
+| `CostingReferenceObject` | `CostEst.CostingReferenceObject` |
+| `CostEstimate` | `CostEst.CostEstimate` |
+| `CostingType` | `CostEst.CostingType` |
+| `CostingDate` | `CostEst.CostingDate` |
+| `CostingVersion` | `CostEst.CostingVersion` |
+| `ValuationVariant` | `CostEst.ValuationVariant` |
+| `CostIsEnteredManually` | `CostEst.CostIsEnteredManually` |
+| `Product` | `CostEst.Product` |
+| `ValuationType` | `CostEst.ValuationType` |
+| `CostingVariant` | `CostEst.CostingVariant` |
+| `CompanyCode` | `ValArea.CompanyCode` |
+| `Plant` | `CostEst.Plant` |
+| `ControllingArea` | `CostEst.ControllingArea` |
+| `Ledger` | `CostEst.Ledger` |
+| `ProfitCenter` | `CostEst.ProfitCenter` |
+| `CostEstimateValidityStartDate` | `CostEst.CostEstimateValidityStartDate` |
+| `CostEstimateValidityEndDate` | `CostEst.CostEstimateValidityEndDate` |
+| `ValuationDate` | `CostEst.ValuationDate` |
+| `QuantityStructureDate` | `CostEst.QuantityStructureDate` |
+| `CostingLotSize` | `CostEst.CostingLotSize` |
+| `ValuationQuantityUnit` | `CostEst.ValuationQuantityUnit` |
+| `CostEstimateCreationDate` | `CostEst.CostEstimateCreationDate` |
+| `CostEstimateStatus` | `CostEst.CostEstimateStatus` |
+| `ProductionVersion` | `CostEst.ProductionVersion` |
+| `ProductValuationStrategy` | `CostEst.ProductValuationStrategy` |
+| `ProductValnPurgInfoRecdStrgy` | `CostEst.ProductValnPurgInfoRecdStrgy` |
+| `ReferenceLedger` | `CostEst.ReferenceLedger` |
+| `ComponentBreakdown` | `CostEst.ComponentBreakdown` |
+| `PostingPeriod` | `CostEst.PostingPeriod` |
+| `PostingFiscalYear` | `CostEst.PostingFiscalYear` |
+| `CostingItemIsProductComp` | `CostEst.CostingItemIsProductComp` |
+| `CostEstimateTransferControl` | `CostEst.CostEstimateTransferControl` |
+| `SalesOrder` | `cast( CostEst.SalesDocument as vdm_sales_order preserving type )` |
+| `SalesOrderItem` | `cast( CostEst.SalesDocumentItem as sales_order_item preserving type )` |
+| `BillOfMaterial` | `CostEst.BillOfMaterial` |
+| `ProductBOMUsage` | `CostEst.ProductBOMUsage` |
+| `AlternativeBillOfMaterial` | `CostEst.AlternativeBillOfMaterial` |
+| `TaskListGroup` | `CostEst.TaskListGroup` |
+| `TaskListType` | `CostEst.TaskListType` |
+| `TaskListGroupCounter` | `CostEst.TaskListGroupCounter` |
+| `SpecialProcurementType` | `CostEst.SpecialProcurementType` |
+| `ProductProcurementType` | `CostEst.ProductProcurementType` |
+| `SpecialProcurementPlant` | `CostEst.SpecialProcurementPlant` |
+| `CostingSheet` | `CostEst.CostingSheet` |
+| `CostingOverheadGroup` | `CostEst.CostingOverheadGroup` |
+| `CostingOverhead` | `CostEst.CostingOverhead` |
+| `ConfiguredProduct` | `CostEst.ConfiguredProduct` |
+| `CostEstimateCostingLevel` | `CostEst.CostEstimateCostingLevel` |
+| `CostComponentStructure` | `CostEst.CostComponentStructure` |
+| `CostEstimateCreatedByUser` | `CostEst.CostEstimateCreatedByUser` |
+| `CostEstimateMarkedByUser` | `CostEst.CostEstimateMarkedByUser` |
+| `CostEstimateMarkingDate` | `CostEst.CostEstimateMarkingDate` |
+| `ValuationArea` | `CostEst.ValuationArea` |
+| `CompanyCodeCurrency` | `CostEst.CompanyCodeCurrency` |
 | `GlobalCurrency` | `CostEst.ControllingAreaCurrency` |
 | `_SalesOrderItemCostEstItem` | *Association* |
 | `_Product` | *Association* |

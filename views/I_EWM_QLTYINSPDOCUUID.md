@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key P_EWM_QltyInspectionEmbedded.QualityInspectionDocUUID` | `P_EWM_QltyInspectionEmbedded.QualityInspectionDocUUID` |
-| `P_EWM_QltyInspectionEmbedded.QualityInspectionDocument` | `P_EWM_QltyInspectionEmbedded.QualityInspectionDocument` |
-| `P_EWM_QltyInspectionEmbedded.InspectionPartialLot` | `P_EWM_QltyInspectionEmbedded.InspectionPartialLot` |
+| `QualityInspectionDocUUID` | `P_EWM_QltyInspectionEmbedded.QualityInspectionDocUUID` |
+| `QualityInspectionDocument` | `P_EWM_QltyInspectionEmbedded.QualityInspectionDocument` |
+| `InspectionPartialLot` | `P_EWM_QltyInspectionEmbedded.InspectionPartialLot` |
 
 ## Associations
 

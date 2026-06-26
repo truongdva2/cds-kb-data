@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `mm_classification )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `SupplierClassification` | `cast( dd07t.domvalue_l as mm_classification )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `mm_classifciation_text )` | `cast (dd07t.ddtext` |
+| `SupplierClfnName` | `cast (dd07t.ddtext as mm_classifciation_text )` |
 | `_Code` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Code` | `I_SuplrEvalClassfctnCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

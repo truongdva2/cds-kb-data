@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `meprocstate)` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PurchasingProcessingStatus` | `cast( dd07t.domvalue_l as meprocstate)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `purchasingprocessingstatusname preserving type )` | `cast( dd07t.ddtext` |
+| `PurchasingProcessingStatusName` | `cast( dd07t.ddtext as purchasingprocessingstatusname preserving type )` |
 | `_PurchasingProcessingStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurchasingProcessingStatus` | `I_PurchasingProcessingStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

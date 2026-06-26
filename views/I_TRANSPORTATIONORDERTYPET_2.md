@@ -29,10 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_type preserving type )` | `cast(type` |
+| `TransportationOrderType` | `cast(type as /scmtms/vdm_tor_type preserving type )` |
 | `Language` | `langu` |
-| `/scmtms/vdm_tor_type_desc preserving type )` | `cast ( descr` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationOrderTypeDesc` | `cast ( descr as /scmtms/vdm_tor_type_desc preserving type )` |
 | `_TransportationOrderType` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationOrderType` | `I_TransportationOrderType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

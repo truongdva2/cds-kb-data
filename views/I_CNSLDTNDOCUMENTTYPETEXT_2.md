@@ -32,11 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `}` | `}` |
-| `fincs_description_text_30 preserving type )` | `cast(txt` |
+| `Language` | `cast(langu as spras preserving type )` |
+| `ConsolidationDocumentType` | `cast(docty as fincs_documenttype preserving type )` |
+| `ConsolidationDocumentTypeText` | `cast(txt as fincs_description_text_30 preserving type )` |
 | `_Language` | *Association* |
 | `_DocumentType` | *Association* |
 

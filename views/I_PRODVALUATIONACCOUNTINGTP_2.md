@@ -31,11 +31,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` | `name: 'I_UNITOFMEASURESTDVH', element : 'UnitOfMeasure'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `ValuationArea` | `ValuationArea` |
+| `ValuationType` | `ValuationType` |
+| `CommercialPrice1InCoCodeCrcy` | `CommercialPrice1InCoCodeCrcy` |
+| `CommercialPrice2InCoCodeCrcy` | `CommercialPrice2InCoCodeCrcy` |
+| `CommercialPrice3InCoCodeCrcy` | `CommercialPrice3InCoCodeCrcy` |
+| `DevaluationYearCount` | `DevaluationYearCount` |
+| `FuturePrice` | `FuturePrice` |
+| `FuturePriceValidityStartDate` | `FuturePriceValidityStartDate` |
+| `LIFOValuationPoolNumber` | `LIFOValuationPoolNumber` |
+| `TaxPricel1InCoCodeCrcy` | `TaxPricel1InCoCodeCrcy` |
+| `TaxPrice2InCoCodeCrcy` | `TaxPrice2InCoCodeCrcy` |
+| `TaxPrice3InCoCodeCrcy` | `TaxPrice3InCoCodeCrcy` |
+| `TaxBasedPricesPriceUnitQty` | `TaxBasedPricesPriceUnitQty` |
+| `IsLIFOAndFIFORelevant` | `IsLIFOAndFIFORelevant` |
+| `Currency` | `Currency` |
 | `BaseUnit` | `BaseUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product          : redirected to I_ProductTP_2` | *Association* |
-| `_ProductValuation : redirected to parent I_ProductValuationTP_2` | *Association* |
 | `_CurrencyText` | *Association* |
 | `_BaseUnitOfMeasure` | *Association* |
 | `_BaseUnitOfMeasureText` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scdst_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CADunningValuationStatus` | `cast( left( dd07l.domvalue_l, 1 ) as scdst_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

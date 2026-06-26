@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Plant : werks_d;` | `Plant : werks_d;` |
+| `Plant` | `werks_d` |
 
 ## Associations
 

@@ -32,25 +32,22 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BR_NotaFiscal` | `NFImportDocument.docnum` |
-| `logbr_nfimportdocument preserving type)` | `cast(NFImportDocument.ndi` |
-| `logbr_nfregistrationdate preserving type)` | `cast(NFImportDocument.ddi` |
-| `logbr_customsclearance preserving type)` | `cast(NFImportDocument.xlocdesemb` |
-| `logbr_impdoc_clearance_region preserving type)` | `cast(NFImportDocument.ufdesemb` |
-| `logbr_impdoc_clearance_date preserving type)` | `cast(NFImportDocument.ddesemb` |
-| `logbr_nfe_exporter_code preserving type)` | `cast(NFImportDocument.cexportador` |
-| `logbr_declarationtype preserving type)` | `cast(NFImportDocument.cod_doc_imp` |
+| `BR_NFImportDocument` | `cast(NFImportDocument.ndi as logbr_nfimportdocument preserving type)` |
+| `BR_NFImportDocRegistrationDate` | `cast(NFImportDocument.ddi as logbr_nfregistrationdate preserving type)` |
+| `BR_NFCustomsClearanceDesc` | `cast(NFImportDocument.xlocdesemb as logbr_customsclearance preserving type)` |
+| `BR_NFCustomsClearanceTaxRegion` | `cast(NFImportDocument.ufdesemb as logbr_impdoc_clearance_region preserving type)` |
+| `BR_NFCustomsClearanceDate` | `cast(NFImportDocument.ddesemb as logbr_impdoc_clearance_date preserving type)` |
+| `BR_NFExporter` | `cast(NFImportDocument.cexportador as logbr_nfe_exporter_code preserving type)` |
+| `BR_NFImportDeclarationType` | `cast(NFImportDocument.cod_doc_imp as logbr_declarationtype preserving type)` |
 | `BR_NFImpDocMeansOfTransport` | `NFImportDocument.transport_mode` |
 | `BR_NFMaritimeFreightAmount` | `NFImportDocument.maritime_freight` |
 | `BR_NFIntermediateMode` | `NFImportDocument.intermediate_mode` |
-| `cast(case` | `cast(case` |
-| `when NFImportDocument.cnpj > '99999999999999'` | `when NFImportDocument.cnpj > '99999999999999'` |
-| `then '00000000000000'` | `then '00000000000000'` |
-| `logbr_cnpj_numc )` | `else NFImportDocument.cnpj end` |
-| `logbr_imp_cnpj preserving type)` | `cast(NFImportDocument.cnpj` |
+| `BR_NFBuyerRequesterCNPJ` | `cast(…)` |
+| `BR_NFBuyerRequesterCNPJ_2` | `cast(NFImportDocument.cnpj as logbr_imp_cnpj preserving type)` |
 | `BR_NFThirdPartyRegion` | `NFImportDocument.regio` |
-| `logbr_nfmaritimefreightnntotal preserving type)` | `cast(NFImportDocument.mfreight_nftotal` |
-| `logbr_imp_cpf preserving type)` | `cast(NFImportDocument.cpf` |
-| `_BR_NFDocumentCurrency.SalesDocumentCurrency                                                      as SalesDocumentCurrency` | *Association* |
+| `BR_NFIsMaritimeFrtInTotalAmt` | `cast(…)` |
+| `BR_CPFBuyer` | `cast(NFImportDocument.cpf as logbr_imp_cpf preserving type)` |
+| `SalesDocumentCurrency` | `_BR_NFDocumentCurrency.SalesDocumentCurrency` |
 | `_BR_NotaFiscal` | *Association* |
 | `_SalesDocumentCurrency` | *Association* |
 

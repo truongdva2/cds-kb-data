@@ -31,14 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key      OrganizationalChange` | `OrganizationalChange` |
-| `key      ControllingArea` | `ControllingArea` |
-| `key      ProfitCenter` | `ProfitCenter` |
+| `OrganizationalChange` | `OrganizationalChange` |
+| `ControllingArea` | `ControllingArea` |
+| `ProfitCenter` | `ProfitCenter` |
 | `ControllingAreaForEdit` | `ControllingAreaForEdit` |
 | `ProfitCenterForEdit` | `ProfitCenterForEdit` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_OrganizationalChange : redirected to parent I_OrganizationalChangeTP` | *Association* |
 
 ## Associations
 

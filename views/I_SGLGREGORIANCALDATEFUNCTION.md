@@ -30,21 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DateFunction` | `DateFunction` |
-| `SystemDateFunctionValue.DateFunctionStartDate` | `SystemDateFunctionValue.DateFunctionStartDate` |
-| `SystemDateFunctionValue.DateFunctionEndDate` | `SystemDateFunctionValue.DateFunctionEndDate` |
-| `abap.tims)` | `dats_tims_to_tstmp(DateFunctionStartDate, cast( '000000'` |
-| `abap_user_timezone($session.user, $session.client, 'FAIL')` | `abap_user_timezone($session.user, $session.client, 'FAIL')` |
-| `DateFunctionStartDateTime` | `$session.client,    'FAIL' )` |
-| `abap.tims)` | `dats_tims_to_tstmp(DateFunctionEndDate, cast( '235959'` |
-| `abap_user_timezone($session.user, $session.client, 'FAIL')` | `abap_user_timezone($session.user, $session.client, 'FAIL')` |
-| `DateFunctionEndDateTime` | `$session.client,    'FAIL' )` |
+| `DateFunction` | `DateFunction` |
+| `DateFunctionStartDate` | `SystemDateFunctionValue.DateFunctionStartDate` |
+| `DateFunctionEndDate` | `SystemDateFunctionValue.DateFunctionEndDate` |
+| `DateFunctionStartDateTime` | `dats_tims_to_tstmp(…)` |
+| `DateFunctionEndDateTime` | `dats_tims_to_tstmp(…)` |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `SystemDateFunctionValue` | `I_DateFunctionValue` | [1] |
+> No associations found.
 
 ## Source Code
 

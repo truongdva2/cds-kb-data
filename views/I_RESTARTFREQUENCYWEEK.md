@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `recdvdmweekfrom )` | `cast( dd07l.domvalue_l` |
+| `REStartFrequencyWeek` | `cast( dd07l.domvalue_l as recdvdmweekfrom )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REStartFrequencyWeekText` | [0..*] |
 
 ## Source Code
 

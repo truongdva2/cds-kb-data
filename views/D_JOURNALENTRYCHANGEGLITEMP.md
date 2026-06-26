@@ -31,20 +31,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `GLAccountLineItem             :docln6;` | `GLAccountLineItem             :docln6;` |
-| `DocumentItemText              :sgtxt;` | `DocumentItemText              :sgtxt;` |
-| `AssignmentReference           :dzuonr;` | `AssignmentReference           :dzuonr;` |
-| `StateCentralBankPaymentReason :lzbkz;` | `StateCentralBankPaymentReason :lzbkz;` |
-| `SupplyingCountry              :landl;` | `SupplyingCountry              :landl;` |
-| `Reference1IDByBusinessPartner :xref1;` | `Reference1IDByBusinessPartner :xref1;` |
-| `Reference2IDByBusinessPartner :xref2;` | `Reference2IDByBusinessPartner :xref2;` |
-| `Reference3IDByBusinessPartner :xref3;` | `Reference3IDByBusinessPartner :xref3;` |
-| `PaymentDifferenceReason       :rstgr;` | `PaymentDifferenceReason       :rstgr;` |
-| `_JournalEntryChange           : association to parent D_JournalEntryChangeParameter;` | *Association* |
+| `GLAccountLineItem` | `docln6` |
+| `DocumentItemText` | `sgtxt` |
+| `AssignmentReference` | `dzuonr` |
+| `StateCentralBankPaymentReason` | `lzbkz` |
+| `SupplyingCountry` | `landl` |
+| `Reference1IDByBusinessPartner` | `xref1` |
+| `Reference2IDByBusinessPartner` | `xref2` |
+| `Reference3IDByBusinessPartner` | `xref3` |
+| `PaymentDifferenceReason` | `rstgr` |
+| `_JournalEntryChange` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_JournalEntryChange` | `D_JournalEntryChangeParameter` | — |
 
 ## Source Code
 

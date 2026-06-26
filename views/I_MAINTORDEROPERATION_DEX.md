@@ -31,46 +31,45 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
-| `operationinternalid preserving type )` | `cast( MaintenanceOrderRoutingNode` |
+| `MaintOrderRoutingNumber` | `MaintOrderRoutingNumber` |
+| `MaintenanceOrderRoutingNode` | `cast( MaintenanceOrderRoutingNode as operationinternalid preserving type )` |
 | `MaintenanceOrder` | `MaintenanceOrder` |
 | `BillOfOperationsApplication` | `BillOfOperationsApplication` |
-| `_MaintenanceOrder._LocationAccountAssignment.FunctionalLocation            as FunctionalLocation` | *Association* |
-| `_MaintenanceOrder.Equipment                                                as Equipment` | *Association* |
-| `_MaintenanceOrder.Assembly                                                 as Assembly` | *Association* |
-| `_MaintenanceOrder.MaintenanceActivityType                                  as MaintenanceActivityType` | *Association* |
-| `_MaintenanceOrder.MaintenancePlannerGroup                                  as MaintenancePlannerGroup` | *Association* |
-| `_MaintenanceOrder.MaintenancePlanningPlant                                 as MaintenancePlanningPlant` | *Association* |
-| `_MaintenanceOrder.MaintenanceOrderType                                     as MaintenanceOrderType` | *Association* |
-| `_MaintenanceOrder.MaintenancePlant                                         as MaintenancePlant` | *Association* |
-| `_MaintenanceOrder.MaintObjectLocAcctAssgmtNmbr                             as MaintObjectLocAcctAssgmtNmbr` | *Association* |
-| `_MaintenanceOrder._Order.CreationDate` | *Association* |
-| `_MaintenanceOrder.LastChangeDateTime` | *Association* |
-| `_MaintenanceOrder.MaintOrdProcessPhaseCode                                 as MaintOrdProcessPhaseCode` | *Association* |
-| `_MaintenanceOrder.MaintOrdProcessSubPhaseCode                              as MaintOrdProcessSubPhaseCode` | *Association* |
-| `_MaintenanceOrder.LatestAcceptableCompletionDate                           as LatestAcceptableCompletionDate` | *Association* |
-| `_MaintenanceOrder.PrevLtstAccptblCompletionDate                            as PrevLtstAccptblCompletionDate` | *Association* |
-| `_MaintenanceOrder.MaintOrderProcessingContext                              as MaintOrderProcessingContext` | *Association* |
+| `FunctionalLocation` | `_MaintenanceOrder._LocationAccountAssignment.FunctionalLocation` |
+| `Equipment` | `_MaintenanceOrder.Equipment` |
+| `Assembly` | `_MaintenanceOrder.Assembly` |
+| `MaintenanceActivityType` | `_MaintenanceOrder.MaintenanceActivityType` |
+| `MaintenancePlannerGroup` | `_MaintenanceOrder.MaintenancePlannerGroup` |
+| `MaintenancePlanningPlant` | `_MaintenanceOrder.MaintenancePlanningPlant` |
+| `MaintenanceOrderType` | `_MaintenanceOrder.MaintenanceOrderType` |
+| `MaintenancePlant` | `_MaintenanceOrder.MaintenancePlant` |
+| `MaintObjectLocAcctAssgmtNmbr` | `_MaintenanceOrder.MaintObjectLocAcctAssgmtNmbr` |
+| `CreationDate` | `_MaintenanceOrder._Order.CreationDate` |
+| `LastChangeDateTime` | `_MaintenanceOrder.LastChangeDateTime` |
+| `MaintOrdProcessPhaseCode` | `_MaintenanceOrder.MaintOrdProcessPhaseCode` |
+| `MaintOrdProcessSubPhaseCode` | `_MaintenanceOrder.MaintOrdProcessSubPhaseCode` |
+| `LatestAcceptableCompletionDate` | `_MaintenanceOrder.LatestAcceptableCompletionDate` |
+| `PrevLtstAccptblCompletionDate` | `_MaintenanceOrder.PrevLtstAccptblCompletionDate` |
+| `MaintOrderProcessingContext` | `_MaintenanceOrder.MaintOrderProcessingContext` |
 | `MaintenanceOrderOperation` | `MaintenanceOrderOperation` |
 | `MaintenanceOrderSubOperation` | `MaintenanceOrderSubOperation` |
 | `OperationPersonResponsible` | `OperationPersonResponsible` |
 | `OperationControlKey` | `OperationControlKey` |
 | `OperationDescription` | `OperationDescription` |
-| `_WorkCenter.WorkCenter` | *Association* |
-| `_WorkCenter.Plant                                                          as WorkCenterPlant` | *Association* |
-| `_OperationPlanningValues.OperationPlannedWork` | *Association* |
-| `_OperationPlanningValues.OperationPlannedWorkUnit` | *Association* |
-| `_OperationPlanningValues.ConfirmationTotalQuantity` | *Association* |
-| `_OperationPlanningValues.OperationQuantity` | *Association* |
-| `_OperationPlanningValues.OperationQuantityUnit` | *Association* |
+| `WorkCenter` | `_WorkCenter.WorkCenter` |
+| `WorkCenterPlant` | `_WorkCenter.Plant` |
+| `OperationPlannedWork` | `_OperationPlanningValues.OperationPlannedWork` |
+| `OperationPlannedWorkUnit` | `_OperationPlanningValues.OperationPlannedWorkUnit` |
+| `ConfirmationTotalQuantity` | `_OperationPlanningValues.ConfirmationTotalQuantity` |
+| `OperationQuantity` | `_OperationPlanningValues.OperationQuantity` |
+| `OperationQuantityUnit` | `_OperationPlanningValues.OperationQuantityUnit` |
 | `OperationAssembly` | `Assembly` |
 | `CostCtrActivityType` | `CostCtrActivityType` |
 | `CostElement` | `CostElement` |
 | `MaterialGroup` | `MaterialGroup` |
 | `OperationUnloadingPointName` | `OperationUnloadingPointName` |
 | `PurchaseRequisition` | `PurchaseRequisition` |
-| `cast( case when _StatusObjectActiveStatus[ StatusCode = 'I0013' ].StatusCode is not null` | `cast( case when _StatusObjectActiveStatus[ StatusCode = 'I0013' ].StatusCode is not null` |
-| `eam_is_deleted preserving type )` | `then 'X' else ' ' end` |
+| `IsDeleted` | `cast(…)` |
 | `MaintOrderConfirmation` | `MaintOrderConfirmation` |
 | `MaintOrdOperationStatusObject` | `MaintOrdOperationStatusObject` |
 | `SuperiorOperationInternalID` | `SuperiorOperationInternalID` |
@@ -101,50 +100,32 @@ tags:
 | `ActivityType` | `CostCtrActivityType` |
 | `OperationSystemCondition` | `OperationSystemCondition` |
 | `OperationGoodsRecipientName` | `OperationGoodsRecipientName` |
-| `_OperationPlanningValues.OpPlndDeliveryDurationInDays                      as DeliveryTimeInDays` | *Association* |
-| `_OperationPlanningValues.OperationDuration                                 as MaintOrderOperationDuration` | *Association* |
-| `_OperationPlanningValues.OperationDurationUnit                             as MaintOrdOperationDurationUnit` | *Association* |
-| `_OperationPlanningValues.OpErlstSchedldExecStrtDte                         as OpErlstSchedldExecStrtDte` | *Association* |
-| `_OperationPlanningValues.OpErlstSchedldExecStrtTme                         as OpErlstSchedldExecStrtTme` | *Association* |
-| `_OperationPlanningValues.OpErlstSchedldExecEndDte                          as OpErlstSchedldExecEndDte` | *Association* |
-| `_OperationPlanningValues.OpErlstSchedldExecEndTme                          as OpErlstSchedldExecEndTme` | *Association* |
-| `_OperationPlanningValues.OpLtstSchedldExecStrtDte                          as OpLtstSchedldExecStrtDte` | *Association* |
-| `_OperationPlanningValues.OpLtstSchedldExecStrtTme                          as OpLtstSchedldExecStrtTme` | *Association* |
-| `_OperationPlanningValues.OpLtstSchedldExecEndDte                           as OpLtstSchedldExecEndDte` | *Association* |
-| `_OperationPlanningValues.OpLtstSchedldExecEndTme                           as OpLtstSchedldExecEndTme` | *Association* |
-| `_OperationPlanningValues.OpActualExecutionStartDate                        as OpActualExecutionStartDate` | *Association* |
-| `_OperationPlanningValues.OpActualExecutionStartTime                        as OpActualExecutionStartTime` | *Association* |
-| `_OperationPlanningValues.OpActualExecutionEndDate                          as OpActualExecutionEndDate` | *Association* |
-| `_OperationPlanningValues.OpActualExecutionEndTime                          as OpActualExecutionEndTime` | *Association* |
-| `_OperationPlanningValues.ActyConfFcstdEndDate                              as ActyConfFcstdEndDate` | *Association* |
-| `_OperationPlanningValues.ActyConfFcstdEndTime                              as ActyConfFcstdEndTime` | *Association* |
-| `_OperationPlanningValues.OpBscStartDateConstraintType                      as OpBscStartDateConstraintType` | *Association* |
-| `_OperationPlanningValues.OpBscEndDateConstraintType                        as OpBscEndDateConstraintType` | *Association* |
-| `_OperationPlanningValues.OperationPlannedWork                              as MaintOrdOperationWorkDuration` | *Association* |
-| `_OperationPlanningValues.OperationPlannedWorkUnit                          as MaintOrdOpWorkDurationUnit` | *Association* |
-| `case` | `case` |
-| `when _OperationPlanningValues.ConstraintTimeForBscStartTime = '240000' and` | `when _OperationPlanningValues.ConstraintTimeForBscStartTime = '240000' and` |
-| `_OperationPlanningValues.ConstraintDateForBscStartDate <> '00000000'` | *Association* |
-| `then dats_add_days(_OperationPlanningValues.ConstraintDateForBscStartDate,1,'NULL')` | `then dats_add_days(_OperationPlanningValues.ConstraintDateForBscStartDate,1,'NULL')` |
-| `else _OperationPlanningValues.ConstraintDateForBscStartDate` | `else _OperationPlanningValues.ConstraintDateForBscStartDate` |
-| `ConstraintDateForBscStartDate` | `end` |
-| `case` | `case` |
-| `when _OperationPlanningValues.ConstraintTimeForBscStartTime = '240000'` | `when _OperationPlanningValues.ConstraintTimeForBscStartTime = '240000'` |
-| `then '000000'` | `then '000000'` |
-| `else _OperationPlanningValues.ConstraintTimeForBscStartTime` | `else _OperationPlanningValues.ConstraintTimeForBscStartTime` |
-| `ConstraintTimeForBscStartTime` | `end` |
-| `case` | `case` |
-| `when _OperationPlanningValues.ConstraintTimeForBscFinishTime = '240000' and` | `when _OperationPlanningValues.ConstraintTimeForBscFinishTime = '240000' and` |
-| `_OperationPlanningValues.ConstraintDateForBscFinishDate <> '00000000'` | *Association* |
-| `then dats_add_days(_OperationPlanningValues.ConstraintDateForBscFinishDate,1,'NULL')` | `then dats_add_days(_OperationPlanningValues.ConstraintDateForBscFinishDate,1,'NULL')` |
-| `else _OperationPlanningValues.ConstraintDateForBscFinishDate` | `else _OperationPlanningValues.ConstraintDateForBscFinishDate` |
-| `ConstraintDateForBscFinishDate` | `end` |
-| `case` | `case` |
-| `when _OperationPlanningValues.ConstraintTimeForBscFinishTime = '240000'` | `when _OperationPlanningValues.ConstraintTimeForBscFinishTime = '240000'` |
-| `then '000000'` | `then '000000'` |
-| `else _OperationPlanningValues.ConstraintTimeForBscFinishTime` | `else _OperationPlanningValues.ConstraintTimeForBscFinishTime` |
-| `ConstraintTimeForBscFinishTime` | `end` |
-| `_OperationPlanningValues.MaintOrdOperationExecutionRate                    as MaintOrdOperationExecutionRate` | *Association* |
+| `DeliveryTimeInDays` | `_OperationPlanningValues.OpPlndDeliveryDurationInDays` |
+| `MaintOrderOperationDuration` | `_OperationPlanningValues.OperationDuration` |
+| `MaintOrdOperationDurationUnit` | `_OperationPlanningValues.OperationDurationUnit` |
+| `OpErlstSchedldExecStrtDte` | `_OperationPlanningValues.OpErlstSchedldExecStrtDte` |
+| `OpErlstSchedldExecStrtTme` | `_OperationPlanningValues.OpErlstSchedldExecStrtTme` |
+| `OpErlstSchedldExecEndDte` | `_OperationPlanningValues.OpErlstSchedldExecEndDte` |
+| `OpErlstSchedldExecEndTme` | `_OperationPlanningValues.OpErlstSchedldExecEndTme` |
+| `OpLtstSchedldExecStrtDte` | `_OperationPlanningValues.OpLtstSchedldExecStrtDte` |
+| `OpLtstSchedldExecStrtTme` | `_OperationPlanningValues.OpLtstSchedldExecStrtTme` |
+| `OpLtstSchedldExecEndDte` | `_OperationPlanningValues.OpLtstSchedldExecEndDte` |
+| `OpLtstSchedldExecEndTme` | `_OperationPlanningValues.OpLtstSchedldExecEndTme` |
+| `OpActualExecutionStartDate` | `_OperationPlanningValues.OpActualExecutionStartDate` |
+| `OpActualExecutionStartTime` | `_OperationPlanningValues.OpActualExecutionStartTime` |
+| `OpActualExecutionEndDate` | `_OperationPlanningValues.OpActualExecutionEndDate` |
+| `OpActualExecutionEndTime` | `_OperationPlanningValues.OpActualExecutionEndTime` |
+| `ActyConfFcstdEndDate` | `_OperationPlanningValues.ActyConfFcstdEndDate` |
+| `ActyConfFcstdEndTime` | `_OperationPlanningValues.ActyConfFcstdEndTime` |
+| `OpBscStartDateConstraintType` | `_OperationPlanningValues.OpBscStartDateConstraintType` |
+| `OpBscEndDateConstraintType` | `_OperationPlanningValues.OpBscEndDateConstraintType` |
+| `MaintOrdOperationWorkDuration` | `_OperationPlanningValues.OperationPlannedWork` |
+| `MaintOrdOpWorkDurationUnit` | `_OperationPlanningValues.OperationPlannedWorkUnit` |
+| `ConstraintDateForBscStartDate` | `case…end` |
+| `ConstraintTimeForBscStartTime` | `case…end` |
+| `ConstraintDateForBscFinishDate` | `case…end` |
+| `ConstraintTimeForBscFinishTime` | `case…end` |
+| `MaintOrdOperationExecutionRate` | `_OperationPlanningValues.MaintOrdOperationExecutionRate` |
 | `BusinessArea` | `BusinessArea` |
 | `ProfitCenter` | `ProfitCenter` |
 | `CostingSheet` | `CostingSheet` |
@@ -153,26 +134,24 @@ tags:
 | `MaintControllingObjectClass` | `MaintControllingObjectClass` |
 | `WrkCtrIntCapRqmtsDistr` | `WrkCtrIntCapRqmtsDistr` |
 | `MaintOrdOperationOverheadCode` | `MaintOrdOperationOverheadCode` |
-| `_OperationPlanningValues.OperationQuantity                                 as MaintOrderOperationQuantity` | *Association* |
-| `_OperationPlanningValues.OperationQuantityUnit                             as MaintOrdOperationQuantityUnit` | *Association* |
+| `MaintOrderOperationQuantity` | `_OperationPlanningValues.OperationQuantity` |
+| `MaintOrdOperationQuantityUnit` | `_OperationPlanningValues.OperationQuantityUnit` |
 | `MaintOrdOpAssgdWBSElmntInt` | `MaintOrdOpAssgdWBSElmntInt` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
 | `PurchaseRequisitionItem` | `PurchaseRequisitionItem` |
-| `_OperationPlanningValues.ForecastedWorkQty                                 as ForecastWorkQuantity` | *Association* |
+| `ForecastWorkQuantity` | `_OperationPlanningValues.ForecastedWorkQty` |
 | `AllMaintOrdCompCmtdQtsAreKept` | `AllMaintOrdCompCmtdQtsAreKept` |
 | `MaintOrderConfCntrValue` | `MaintOrderConfCntrValue` |
 | `MaintOrdOpHasNoRemainingWork` | `MaintOrdOpHasNoRemainingWork` |
 | `MaintOrdOpHasLeanServices` | `MaintOrdOpHasLeanServices` |
 | `TaskListType` | `TaskListType` |
-| `_MaintenanceOrder.ControllingArea                                          as ControllingArea` | *Association* |
+| `ControllingArea` | `_MaintenanceOrder.ControllingArea` |
 | `MaintOrdOpDelivDateAdjustment` | `MaintOrdOpDelivDateAdjustment` |
 | `TaskListGroup` | `TaskListGroup` |
 | `TaskListGroupCounter` | `TaskListGroupCounter` |
-| `/* Get Execution stage  Exact value*/` | `/* Get Execution stage  Exact value*/` |
-| `_MaintOperationExecStageCode.MaintOpExecStageGroupCode` | *Association* |
-| `/* Associations */` | `/* Associations */` |
-| `_OperationPlanningValues._PlannedWorkUnitOfMeasure` | *Association* |
-| `_OperationPlanningValues._OperationQtyUnitOfMeasure` | *Association* |
+| `MaintOpExecStageGroupCode` | `_MaintOperationExecStageCode.MaintOpExecStageGroupCode` |
+| `_PlannedWorkUnitOfMeasure` | *Association* |
+| `_OperationQtyUnitOfMeasure` | *Association* |
 | `_PersonResponsible` | *Association* |
 | `_Order` | *Association* |
 | `_Equipment` | *Association* |

@@ -33,11 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `ranking:#LOW` | `ranking:#LOW` |
-| `fuzzinessThreshold: 0.7` | `fuzzinessThreshold: 0.7` |
-| `}` | `}` |
-| `fincs_taskrun_status_txt preserving type )` | `cast( DomainText.ddtext` |
+| `Language` | `cast( DomainText.ddlanguage as spras preserving type )` |
+| `ConsolidationTaskRunStatus` | `cast( left( DomainText.domvalue_l,2 ) as fincs_taskrun_status preserving type )` |
+| `ConsolidationTaskRunStatusText` | `cast( DomainText.ddtext as fincs_taskrun_status_txt preserving type )` |
 | `DomainValue` | `DomainText.domvalue_l` |
 | `_CnsldtnTaskRunStatus` | *Association* |
 | `_Language` | *Association* |

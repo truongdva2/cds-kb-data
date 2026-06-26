@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
+| `CompanyCode` | `CompanyCode` |
+| `SuplrInvcVerificatTolGroup` | `SuplrInvcVerificatTolGroup` |
 | `APARToleranceGroupName` | `APARToleranceGroupName` |
 
 ## Associations

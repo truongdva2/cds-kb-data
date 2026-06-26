@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RequestForQuotation` | `RequestForQuotation` |
+| `RequestForQuotation` | `RequestForQuotation` |
 | `CompanyCode` | `CompanyCode` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentType` | `PurchasingDocumentType` |
@@ -68,9 +68,6 @@ tags:
 | `PurContrValidityEndDate` | `PurContrValidityEndDate` |
 | `PurchasingDocumentDeletionCode` | `PurchasingDocumentDeletionCode` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
-| `/* Associations */` | `/* Associations */` |
-| `_RequestForQuotationItem   : redirected to composition child I_RequestForQuotationItemTP` | *Association* |
-| `_RequestForQuotationBidder : redirected to composition child I_RequestForQuotationBidderTP` | *Association* |
 
 ## Associations
 

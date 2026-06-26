@@ -32,11 +32,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PRODEXTASSTMTPRIORITY', element : 'ProdExtAssortmentPriority'} , useAsTemplate: true }]` | `name: 'I_PRODEXTASSTMTPRIORITY', element : 'ProdExtAssortmentPriority'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
+| `VarblPurOrdUnitStatus` | `VarblPurOrdUnitStatus` |
+| `PurchasingAcknProfile` | `PurchasingAcknProfile` |
+| `SourceOfSupplyCategory` | `SourceOfSupplyCategory` |
+| `ProcurementRule` | `ProcurementRule` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `StoreListingEndDate` | `StoreListingEndDate` |
+| `DistrCenterListingEndDate` | `DistrCenterListingEndDate` |
+| `StoreListingStartDate` | `StoreListingStartDate` |
+| `DistrCenterListingStartDate` | `DistrCenterListingStartDate` |
+| `StoreListingProcedure` | `StoreListingProcedure` |
+| `DistrCenterListingProcedure` | `DistrCenterListingProcedure` |
 | `ProdExtAssortmentPriority` | `ProdExtAssortmentPriority` |
 | `AssortmentGrade` | `AssortmentGrade` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product : redirected to parent I_ProductTP_2` | *Association* |
 | `_ProdExtAssortmentPriorityText` | *Association* |
 | `_PurchaseOrderUnitText` | *Association* |
 | `_ProductDescription` | *Association* |

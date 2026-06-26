@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #HIGH }` | `defaultSearchElement: true, fuzzinessThreshold: 0.7, ranking: #HIGH }` |
-| `_QltyMgmtSystemForSupplierTxt[1: Language = $session.system_language].QltyMgmtSystemForSupplierText` | *Association* |
+| `QualityMgmtSystemForSupplier` | `QualityMgmtSystemForSupplier` |
+| `QltyMgmtSystemForSupplierText` | `expr(…)` |
 
 ## Associations
 

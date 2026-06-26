@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
+| `CharacteristicAttributeCodeGrp` | `CharacteristicAttributeCodeGrp` |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 
 ## Associations

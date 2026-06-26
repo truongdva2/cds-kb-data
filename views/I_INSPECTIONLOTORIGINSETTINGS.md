@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_qherk preserving type )` | `cast( tq33.herkunft` |
-| `vdm_plnty preserving type )` | `cast( tq33.plnty` |
-| `vdm_qplnst preserving type )` | `cast( tq33.plnst` |
-| `/* Associations */` | `/* Associations */` |
+| `InspectionLotOrigin` | `cast( tq33.herkunft as vdm_qherk preserving type )` |
+| `BillOfOperationsType` | `cast( tq33.plnty as vdm_plnty preserving type )` |
+| `BillOfOperationsStatus` | `cast( tq33.plnst as vdm_qplnst preserving type )` |
 | `_InspectionLotOrigin` | *Association* |
 | `_BillOfOperationsType` | *Association* |
 | `_BillOfOperationsStatus` | *Association* |

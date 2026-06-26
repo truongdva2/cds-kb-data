@@ -32,13 +32,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `prod_hier_id )` | `cast(substring( nodet.hryid, 6, 26 )` |
+| `ProdUnivHierarchy` | `cast(substring( nodet.hryid, 6, 26 ) as prod_hier_id )` |
 | `HierarchyNode` | `nodet.hrynode` |
-| `prodhierarchyvalidityenddate preserving type )` | `cast(nodet.hryvalto` |
-| `prodhierarchyvaliditystartdate preserving type )` | `cast(nodet.hryvalfrom` |
-| `prod_hier_node_value_text)` | `cast(nodetxt` |
+| `ProdHierarchyValidityEndDate` | `cast(nodet.hryvalto as prodhierarchyvalidityenddate preserving type )` |
+| `ProdHierarchyValidityStartDate` | `cast(nodet.hryvalfrom as prodhierarchyvaliditystartdate preserving type )` |
+| `ProdUnivHierarchyNodeText` | `cast(nodetxt as prod_hier_node_value_text)` |
 | `_ProductHierarchy` | *Association* |
-| `_ProductHierarchyNode // Make association public` | *Association* |
+| `_ProductHierarchyNode` | *Association* |
 
 ## Associations
 

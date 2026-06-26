@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `packing_instruction_component preserving type )` | `cast( packitemid` |
-| `packing_instruction_number preserving type )` | `cast( packnr` |
-| `/* annotations at element level */` | `/* annotations at element level */` |
+| `PackingInstructionItemSystUUID` | `cast( packitemid as packing_instruction_component preserving type )` |
+| `PackingInstructionSystemUUID` | `cast( packnr as packing_instruction_number preserving type )` |
 | `PackingInstructionItem` | `packitem` |
 | `PackingInstructionItemCategory` | `paitemtype` |
 | `Material` | `matnr` |

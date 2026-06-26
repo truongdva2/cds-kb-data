@@ -30,13 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_dg_status preserving type )` | `cast(substring(domvalue_l, 1, 1)` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrderDngrsGdsSts` | `cast(substring(domvalue_l, 1, 1) as /scmtms/vdm_tor_dg_status preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdDngrsGdsStatusText` | [0..*] |
 
 ## Source Code
 

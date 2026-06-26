@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_vehiclecolorcode preserving type )` | `cast( substring(domvalue_l, 1 , 2 )` |
-| `logbr_vehiclecolordescription preserving type)` | `cast(ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFeVehicleDENATRANColor` | `cast( substring(domvalue_l, 1 , 2 ) as logbr_vehiclecolorcode preserving type )` |
+| `BR_NFeVehDENATRANColorDesc` | `cast(ddtext as logbr_vehiclecolordescription preserving type)` |
 | `_BR_NFeVehicleDENATRANColor` | *Association* |
 | `_Language` | *Association* |
 

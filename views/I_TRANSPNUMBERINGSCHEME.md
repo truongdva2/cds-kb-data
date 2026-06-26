@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
+| `TrdClassfctnNmbrSchm` | `TrdClassfctnNmbrSchm` |
 | `TrdClassfctnNmbrSchmType` | `TrdClassfctnNmbrSchmType` |
 
 ## Associations

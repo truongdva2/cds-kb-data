@@ -35,14 +35,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillOfMaterial` | `BillOfMaterial` |
-| `key BillOfMaterialCategory` | `BillOfMaterialCategory` |
-| `key BillOfMaterialVariant` | `BillOfMaterialVariant` |
-| `key BillOfMaterialVersion` | `BillOfMaterialVersion` |
-| `key BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
-| `key HeaderChangeDocument` | `HeaderChangeDocument` |
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
+| `BillOfMaterial` | `BillOfMaterial` |
+| `BillOfMaterialCategory` | `BillOfMaterialCategory` |
+| `BillOfMaterialVariant` | `BillOfMaterialVariant` |
+| `BillOfMaterialVersion` | `BillOfMaterialVersion` |
+| `BillOfMaterialItemNodeNumber` | `BillOfMaterialItemNodeNumber` |
+| `HeaderChangeDocument` | `HeaderChangeDocument` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
 | `BillOfMaterialItemUUID` | `BillOfMaterialItemUUID` |
 | `BillOfMaterialHeaderUUID` | `BillOfMaterialHeaderUUID` |
 | `BOMItemInternalChangeCount` | `BOMItemInternalChangeCount` |
@@ -145,7 +145,6 @@ tags:
 | `NonStockItemDetailsIsHidden` | `NonStockItemDetailsIsHidden` |
 | `DocumentItemDetailsIsHidden` | `DocumentItemDetailsIsHidden` |
 | `IsItemDraftModified` | `IsItemDraftModified` |
-| `_BillOfMaterial: redirected to parent I_SalesOrderBillOfMaterialTP_3` | *Association* |
 | `_BOMItemCategory` | *Association* |
 
 ## Associations

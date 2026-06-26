@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessEventUUID` | `BusinessEventUUID` |
-| `key SAPObjectType` | `SAPObjectType` |
-| `key BusEvtLogFieldName` | `BusEvtLogFieldName` |
+| `BusinessEventUUID` | `BusinessEventUUID` |
+| `SAPObjectType` | `SAPObjectType` |
+| `BusEvtLogFieldName` | `BusEvtLogFieldName` |
 | `BusEvtLogOldFieldValue` | `BusEvtLogOldFieldValue` |
 | `BusEvtLogOldFieldUnit` | `BusEvtLogOldFieldUnit` |
 | `BusEvtLogNewFieldValue` | `BusEvtLogNewFieldValue` |

@@ -33,13 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CompanyCode` | `TreasuryPortfolioText.bukrs` |
 | `Portfolio` | `TreasuryPortfolioText.rportb` |
 | `Language` | `TreasuryPortfolioText.spras` |
-| `ftr_gen_portfolio_name preserving type)` | `cast(TreasuryPortfolioText.xportb` |
+| `PortfolioName` | `cast(TreasuryPortfolioText.xportb as ftr_gen_portfolio_name preserving type)` |
 | `_TreasuryPortfolio` | *Association* |
 | `_Language` | *Association* |
 | `_CompanyCode` | *Association* |
@@ -50,6 +47,7 @@ tags:
 |---|---|---|
 | `_TreasuryPortfolio` | `I_TreasuryPortfolio` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
+| `_CompanyCode` | `I_CompanyCode` | — |
 
 ## Source Code
 

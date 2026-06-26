@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialShortageProfile` | `MaterialShortageProfile` |
-| `key MaterialShortageProfileCount` | `MaterialShortageProfileCount` |
+| `MaterialShortageProfile` | `MaterialShortageProfile` |
+| `MaterialShortageProfileCount` | `MaterialShortageProfileCount` |
 | `MaterialShortageDefinition` | `concat(MaterialShortageProfile, MaterialShortageProfileCount)` |
 | `DemandCategoryGroup` | `DemandCategoryGroup` |
 | `ReceiptCategoryGroup` | `ReceiptCategoryGroup` |

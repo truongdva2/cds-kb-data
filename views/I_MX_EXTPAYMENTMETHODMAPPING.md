@@ -33,7 +33,7 @@ tags:
 |---|---|
 | `PaymentMethod` | `zlsch` |
 | `MX_ExternalPaymentMethod` | `ext_payt_meth` |
-| `_Text[1:Language = $session.system_language].DomainText as MX_ExtPaymentMethodDescription` | *Association* |
+| `MX_ExtPaymentMethodDescription` | `_Text[1:Language = $session.system_language].DomainText` |
 
 ## Associations
 

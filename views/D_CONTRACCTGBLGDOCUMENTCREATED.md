@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ContractAccount : vkont_kk;` | `ContractAccount : vkont_kk;` |
-| `_SourceTransaction : composition [0..*] of D_CABillgDocCreatedSourceTrans;` | *Association* |
+| `ContractAccount` | `vkont_kk` |
+| `_SourceTransaction` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SourceTransaction` | `D_CABillgDocCreatedSourceTrans` | [0..*] |
 
 ## Source Code
 

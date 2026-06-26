@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanContainerStatus` | `KanbanContainerStatus` |
+| `KanbanContainerStatus` | `KanbanContainerStatus` |
 | `_Text` | *Association* |
 
 ## Associations

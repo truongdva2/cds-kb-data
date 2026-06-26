@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TmeSersWthAssgmtIsDeltd : tmeserswthassgmtisdeltd;` | `TmeSersWthAssgmtIsDeltd : tmeserswthassgmtisdeltd;` |
+| `TmeSersWthAssgmtIsDeltd` | `tmeserswthassgmtisdeltd` |
 
 ## Associations
 

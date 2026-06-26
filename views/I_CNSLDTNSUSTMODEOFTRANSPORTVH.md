@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.SustainabilityModeOfTransport` | `_Source.SustainabilityModeOfTransport` |
-| `_Source._Text[1: Language=$session.system_language].SustModeOfTransportName` | *Association* |
+| `SustainabilityModeOfTransport` | `_Source.SustainabilityModeOfTransport` |
+| `SustModeOfTransportName` | `_Source._Text[1: Language=$session.system_language].SustModeOfTransportName` |
 
 ## Associations
 

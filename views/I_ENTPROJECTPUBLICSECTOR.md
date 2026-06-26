@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `ProjectUUID` | `project.guid` |
 | `ProjectSummaryTaskUUID` | `task.guid` |
-| `ps_s4_pspnr preserving type )` | `cast( prps.pspnr` |
+| `WBSElementInternalID` | `cast( prps.pspnr as ps_s4_pspnr preserving type )` |
 | `Fund` | `prps.rfund` |
 | `FundIsFixAssigned` | `prps.fund_fix_assign` |
 | `FunctionalAreaIsFixAssigned` | `prps.func_area_fix_assigned` |

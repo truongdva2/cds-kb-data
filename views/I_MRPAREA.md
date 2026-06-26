@@ -29,7 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` | `name: 'I_StorageLocationStdVH', element: 'StorageLocation' } } ]` |
+| `MRPArea` | `mdlv.berid` |
+| `MRPAreaCategory` | `cast(mdlv.berty as mrpareacategory preserving type)` |
+| `MRPAreaPlant` | `cast(mdlv.werzg as werzg preserving type)` |
+| `MRPAreaText` | `mdlv.bertx` |
 | `ReceivingStorageLocation` | `mdlv.ortzg` |
 | `MRPAreaBusinessType` | `mdlv.spe_bntyp` |
 | `MRPAreaProfile` | `mdlv.mdma_profile` |

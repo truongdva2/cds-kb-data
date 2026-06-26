@@ -37,7 +37,7 @@ tags:
 | `ConditionUsage` | `kvewe` |
 | `ConditionApplication` | `kappl` |
 | `ConditionType` | `kschl` |
-| `vtxtm )` | `cast(vtext` |
+| `ConditionTypeName` | `cast(vtext as vtxtm )` |
 | `_ConditionUsage` | *Association* |
 | `_ConditionApplication` | *Association* |
 

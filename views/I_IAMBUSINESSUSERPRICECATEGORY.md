@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `aps_userid preserving type )` | `cast( bu_weight.UserID` |
+| `UserID` | `cast( bu_weight.UserID as aps_userid preserving type )` |
 | `BusinessUserPriceCategory` | `price_tag.usrprc_id` |
 | `_BusinessUser` | *Association* |
 | `_Text` | *Association* |

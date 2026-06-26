@@ -34,8 +34,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `BillOfMaterialComponent` | `stpo.idnrk` |
+| `BillOfMaterialCategory` | `stpo.stlty` |
+| `BillOfMaterial` | `stpo.stlnr` |
+| `BillOfMaterialItemNodeNumber` | `stpo.stlkn` |
+| `BOMItemInternalChangeCount` | `stpo.stpoz` |
+| `BillOfMaterialItemUUID` | `stpo.guidx` |
+| `InheritedNodeNumberForBOMItem` | `stpo.stvkn` |
+| `InheritedNodeNumberVersionBOM` | `stpo.stvkn_versn` |
+| `BillOfMaterialVersion` | `-- stas.bom_versn` |
+| `ValidityStartDate` | `stpo.datuv` |
+| `ValidityEndDate` | `case…end` |
+| `EngineeringChangeDocument` | `stpo.aennr` |
+| `ChgToEngineeringChgDocument` | `stpo.ecn_to` |
+| `BOMItemRecordCreationDate` | `stpo.andat` |
+| `BOMItemCreatedByUser` | `stpo.annam` |
+| `BOMItemLastChangeDate` | `stpo.aedat` |
+| `BOMItemLastChangedByUser` | `stpo.aenam` |
+| `BillOfMaterialComponent` | `-- stpo.idnrk` |
 | `BillOfMaterialItemCategory` | `stpo.postp` |
 | `BillOfMaterialItemNumber` | `stpo.posnr` |
 | `BillOfMaterialItemUnit` | `stpo.meins` |
@@ -54,7 +69,7 @@ tags:
 | `NumberOfVariableSizeItem` | `stpo.roanz` |
 | `QuantityVariableSizeItem` | `stpo.romen` |
 | `FormulaKey` | `stpo.rform` |
-| `BOMItemText1, // To be changed to BOMItemText1` | `stpo.potx1` |
+| `BOMItemText1` | `stpo.potx1` |
 | `BOMItemText2` | `stpo.potx2` |
 | `MaterialGroup` | `stpo.matkl` |
 | `DocumentType` | `stpo.dokar` |

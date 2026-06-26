@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_dg_status)` | `cast(domvalue_l` |
+| `TranspOrderDngrsGdsSts` | `cast(domvalue_l as /scmtms/vdm_tor_dg_status)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_dg_status_desc preserving type )` | `cast( ddtext` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspOrderDngrsGdsStsDesc` | `cast( ddtext as /scmtms/vdm_tor_dg_status_desc preserving type )` |
 | `_TranspOrdDngrsGdsStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdDngrsGdsStatus` | `I_TranspOrdDngrsGdsStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

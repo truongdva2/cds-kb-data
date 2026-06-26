@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `CostCenterCategory` | `kosar` |
-| `fis_kosar_name)` | `cast(ktext` |
+| `CostCenterCategoryName` | `cast(ktext as fis_kosar_name)` |
 | `_Language` | *Association* |
 
 ## Associations

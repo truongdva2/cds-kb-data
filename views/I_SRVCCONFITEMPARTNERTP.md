@@ -31,14 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ServiceConfirmation` | `ServiceConfirmation` |
-| `key  ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key  CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key  CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `_SrvcConfItemPartnerAddressTP : redirected to composition child I_SrvcConfItemPartnerAddressTP` | *Association* |
-| `_ServiceConfirmationItemTP    : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP        : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

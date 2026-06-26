@@ -29,12 +29,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TranspSCACCode` | `scac` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspSCACCodeText` | [0..*] |
 
 ## Source Code
 

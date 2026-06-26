@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCategory` | `LglCntntMCategory` |
+| `LglCntntMCategory` | `LglCntntMCategory` |
 | `LglCntntMCatLevel` | `LglCntntMCatLevel` |
 | `LglCntntMCatType` | `LglCntntMCatType` |
 | `LglCntntMCatIsSelect` | `LglCntntMCatIsSelect` |

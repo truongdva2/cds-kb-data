@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `invlock_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CABillgLockedForInvoicing` | `cast ( substring( dd07l.domvalue_l,1,1 ) as invlock_kk preserving type )` |
 | `_CABillgLockedForInvcgText` | *Association* |
 
 ## Associations

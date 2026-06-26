@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceEntrySheet` | `ServiceEntrySheet` |
+| `ServiceEntrySheet` | `ServiceEntrySheet` |
 | `ServiceEntrySheetName` | `ServiceEntrySheetName` |
 | `Supplier` | `Supplier` |
 | `SupplierName` | `SupplierName` |
@@ -60,9 +60,6 @@ tags:
 | `PricingDocument` | `PricingDocument` |
 | `TotalNetAmount` | `TotalNetAmount` |
 | `TotalSESNetAmountInclSalesTax` | `TotalSESNetAmountInclSalesTax` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceEntrySheetItem : redirected to composition child I_ServiceEntrySheetItemTP_2` | *Association* |
-| `_ServiceEntrySheetNote : redirected to composition child I_ServiceEntrySheetNoteTP` | *Association* |
 
 ## Associations
 

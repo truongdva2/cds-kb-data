@@ -32,23 +32,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
-| `key Batch` | `Batch` |
-| `key Supplier` | `Supplier` |
-| `key SDDocument` | `SDDocument` |
-| `key SDDocumentItem` | `SDDocumentItem` |
-| `ps_s4_pspnr preserving type )` | `cast ( WBSElementInternalID` |
-| `key Customer` | `Customer` |
-| `key SpecialStockIdfgStockOwner` | `SpecialStockIdfgStockOwner` |
-| `key InventoryStockType` | `InventoryStockType` |
-| `key InventorySpecialStockType` | `InventorySpecialStockType` |
-| `key FiscalYearVariant` | `FiscalYearVariant` |
-| `key MatlDocLatestPostgDate` | `MatlDocLatestPostgDate` |
-| `key MaterialBaseUnit` | `MaterialBaseUnit` |
-| `key CostEstimate` | `CostEstimate` |
-| `key ResourceID` | `ResourceID` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `Batch` | `Batch` |
+| `Supplier` | `Supplier` |
+| `SDDocument` | `SDDocument` |
+| `SDDocumentItem` | `SDDocumentItem` |
+| `WBSElementInternalID` | `cast ( WBSElementInternalID as ps_s4_pspnr preserving type )` |
+| `Customer` | `Customer` |
+| `SpecialStockIdfgStockOwner` | `SpecialStockIdfgStockOwner` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `MatlDocLatestPostgDate` | `MatlDocLatestPostgDate` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `CostEstimate` | `CostEstimate` |
+| `ResourceID` | `ResourceID` |
 | `CompanyCode` | `CompanyCode` |
 | `MatlWrhsStkQtyInMatlBaseUnit` | `MatlWrhsStkQtyInMatlBaseUnit` |
 | `MatlCnsmpnQtyInMatlBaseUnit` | `MatlCnsmpnQtyInMatlBaseUnit` |

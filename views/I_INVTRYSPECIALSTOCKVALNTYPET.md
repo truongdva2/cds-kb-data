@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `fis_inventoryspclstockvalntype )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `InventorySpecialStockValnType` | `cast( dd07t.domvalue_l as fis_inventoryspclstockvalntype )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `fis_invtryspclstkvalntypename preserving type )` | `cast( dd07t.ddtext` |
+| `InventorySpclStkValnTypeName` | `cast( dd07t.ddtext as fis_invtryspclstkvalntypename preserving type )` |
 | `_InvtrySpecialStockValnType` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_InvtrySpecialStockValnType` | `I_InvtrySpecialStockValnType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

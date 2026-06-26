@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionPlanGroup` | `InspectionPlanGroup` |
-| `key InspectionPlan` | `InspectionPlan` |
-| `key InspectionPlanInternalVersion` | `InspectionPlanInternalVersion` |
+| `InspectionPlanGroup` | `InspectionPlanGroup` |
+| `InspectionPlan` | `InspectionPlan` |
+| `InspectionPlanInternalVersion` | `InspectionPlanInternalVersion` |
 | `BillOfOperationsStatus` | `BillOfOperationsStatus` |
 | `BillOfOperationsUsage` | `BillOfOperationsUsage` |
 | `BillOfOperationsDesc` | `BillOfOperationsDesc` |
@@ -61,9 +61,6 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `_InspPlan : redirected to parent I_InspectionPlanTP_2` | *Association* |
-| `_InspPlanMatlAssgmtVers : redirected to I_InspPlanMatlAssgmtVersTP_2` | *Association* |
-| `_InspPlanOpVersion : redirected to I_InspPlanOperationVersTP_2` | *Association* |
 
 ## Associations
 

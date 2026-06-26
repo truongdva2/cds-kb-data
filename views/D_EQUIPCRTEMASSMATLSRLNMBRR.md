@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SerialNumber: gernr;` | `SerialNumber: gernr;` |
+| `SerialNumber` | `gernr` |
 
 ## Associations
 

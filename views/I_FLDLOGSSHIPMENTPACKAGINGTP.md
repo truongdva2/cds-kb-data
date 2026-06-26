@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerUUID` | `FldLogsContainerUUID` |
+| `FldLogsContainerUUID` | `FldLogsContainerUUID` |
 | `FldLogsContainerID` | `FldLogsContainerID` |
 | `Equipment` | `Equipment` |
 | `EquipmentType` | `EquipmentType` |

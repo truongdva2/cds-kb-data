@@ -33,11 +33,11 @@ tags:
 | `CompanyCode` | `bukrs` |
 | `CN_CADENatlStdRelVersion` | `cade_natl_std_rel_ver` |
 | `CN_CADEReportType` | `cade_report_type` |
-| `key _StatutoryReportDesc.Language` | `_StatutoryReportDesc.Language` |
+| `Language` | `_StatutoryReportDesc.Language` |
 | `FinStmntFormStruc` | `idcn_fsckey` |
 | `FinancialStatementVariant` | `versn_011` |
 | `ProductHierarchyName` | `fclm_hier_name` |
-| `_StatutoryReportDesc.DomainText as ReportingName` | *Association* |
+| `ReportingName` | `_StatutoryReportDesc.DomainText` |
 
 ## Associations
 

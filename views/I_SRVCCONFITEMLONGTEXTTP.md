@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key ServiceConfirmationItem` | `ServiceConfirmationItem` |
-| `key TextObjectType` | `TextObjectType` |
-| `key Language` | `Language` |
-| `key SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `TextObjectType` | `TextObjectType` |
+| `Language` | `Language` |
+| `SrvcDocLogTextIdentifier` | `SrvcDocLogTextIdentifier` |
 | `TextObjectCategory` | `TextObjectCategory` |
 | `SrvcDocLongTextMimeType` | `SrvcDocLongTextMimeType` |
 | `SrvcConfItemLongText` | `SrvcConfItemLongText` |
@@ -49,14 +49,11 @@ tags:
 | `SrvcDocLongTextCreatedByUser` | `SrvcDocLongTextCreatedByUser` |
 | `SrvcDocLongTextChangedDateTime` | `SrvcDocLongTextChangedDateTime` |
 | `SrvcDocLongTextChangedByUser` | `SrvcDocLongTextChangedByUser` |
-| `/* Associations */` | `/* Associations */` |
 | `_Language` | *Association* |
 | `_ReferenceTextObjectCategory` | *Association* |
 | `_ReferenceTextObjectType` | *Association* |
 | `_TextObjectCategory` | *Association* |
 | `_TextObjectType` | *Association* |
-| `_ServiceConfirmationItemTP : redirected to parent I_ServiceConfirmationItemTP` | *Association* |
-| `_ServiceConfirmationTP     : redirected to I_ServiceConfirmationTP` | *Association* |
 
 ## Associations
 

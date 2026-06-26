@@ -34,8 +34,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `BillOfMaterial` | `bom_header.BillOfMaterial` |
+| `BillOfMaterialCategory` | `bom_header.BillOfMaterialCategory` |
+| `BillOfMaterialVariant` | `bom_header.BillOfMaterialVariant` |
+| `BillOfMaterialVersion` | `bom_header.BillOfMaterialVersion` |
+| `EngineeringChangeDocument` | `bom_header.EngineeringChangeDocument` |
+| `Material` | `bom_header.Material` |
 | `Plant` | `bom_header.Plant` |
 | `BillOfMaterialHeaderUUID` | `bom_header.BillOfMaterialHeaderUUID` |
 | `BillOfMaterialVariantUsage` | `bom_header.BillOfMaterialVariantUsage` |
@@ -68,12 +72,11 @@ tags:
 | `BOMIsToBeDeleted` | `bom_header.BOMIsToBeDeleted` |
 | `IndicatorIsBOMChangedWithHist` | `bom_header.IndicatorIsBOMChangedWithHist` |
 | `DocumentIsCreatedByCAD` | `bom_header.DocumentIsCreatedByCAD` |
-| `bom_header.LaboratoryOrDesignOffice` | `bom_header.LaboratoryOrDesignOffice` |
-| `bom_header.LastChangeDateTime` | `bom_header.LastChangeDateTime` |
-| `bom_header.ProductDescription` | `bom_header.ProductDescription` |
-| `bom_header.PlantName` | `bom_header.PlantName` |
-| `bom_header.BillOfMaterialHdrDetailsText` | `bom_header.BillOfMaterialHdrDetailsText` |
-| `_BillOfMaterialItem        : redirected to composition child I_BillOfMaterialItemTP_3` | *Association* |
+| `LaboratoryOrDesignOffice` | `bom_header.LaboratoryOrDesignOffice` |
+| `LastChangeDateTime` | `bom_header.LastChangeDateTime` |
+| `ProductDescription` | `bom_header.ProductDescription` |
+| `PlantName` | `bom_header.PlantName` |
+| `BillOfMaterialHdrDetailsText` | `bom_header.BillOfMaterialHdrDetailsText` |
 
 ## Associations
 

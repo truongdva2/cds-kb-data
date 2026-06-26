@@ -33,17 +33,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CreditMemoRequestText.CreditMemoRequest` | `CreditMemoRequestText.CreditMemoRequest` |
-| `key CreditMemoRequestText.Language` | `CreditMemoRequestText.Language` |
-| `key CreditMemoRequestText.LongTextID` | `CreditMemoRequestText.LongTextID` |
-| `CreditMemoRequestText.LongTextIDForEdit` | `CreditMemoRequestText.LongTextIDForEdit` |
-| `CreditMemoRequestText.LanguageForEdit` | `CreditMemoRequestText.LanguageForEdit` |
-| `CreditMemoRequestText.LongText` | `CreditMemoRequestText.LongText` |
-| `CreditMemoRequestText.CreditMemoRequestType` | `CreditMemoRequestText.CreditMemoRequestType` |
-| `CreditMemoRequestText.SalesOrganization` | `CreditMemoRequestText.SalesOrganization` |
-| `CreditMemoRequestText.DistributionChannel` | `CreditMemoRequestText.DistributionChannel` |
-| `CreditMemoRequestText.OrganizationDivision` | `CreditMemoRequestText.OrganizationDivision` |
-| `_CreditMemoRequest : redirected to parent I_CreditMemoRequestTP` | *Association* |
+| `CreditMemoRequest` | `CreditMemoRequestText.CreditMemoRequest` |
+| `Language` | `CreditMemoRequestText.Language` |
+| `LongTextID` | `CreditMemoRequestText.LongTextID` |
+| `LongTextIDForEdit` | `CreditMemoRequestText.LongTextIDForEdit` |
+| `LanguageForEdit` | `CreditMemoRequestText.LanguageForEdit` |
+| `LongText` | `CreditMemoRequestText.LongText` |
+| `CreditMemoRequestType` | `CreditMemoRequestText.CreditMemoRequestType` |
+| `SalesOrganization` | `CreditMemoRequestText.SalesOrganization` |
+| `DistributionChannel` | `CreditMemoRequestText.DistributionChannel` |
+| `OrganizationDivision` | `CreditMemoRequestText.OrganizationDivision` |
 
 ## Associations
 

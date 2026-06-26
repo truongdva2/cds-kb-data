@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocationlifecyclestatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocationLifecycleStatus` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

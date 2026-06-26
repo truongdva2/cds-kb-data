@@ -31,12 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PredecessorOrderInternalID` | `PredecessorOrderInternalID` |
-| `key PredecessorPhaseInternalID` | `PredecessorPhaseInternalID` |
-| `key SuccessorOrderInternalID` | `SuccessorOrderInternalID` |
-| `key SuccessorPhaseInternalID` | `SuccessorPhaseInternalID` |
-| `key OrderPhaseRelationshipIntType` | `OrderPhaseRelationshipIntType` |
-| `key MaxTimeIntvlIsUsedForSchedg` | `MaxTimeIntvlIsUsedForSchedg` |
+| `PredecessorOrderInternalID` | `PredecessorOrderInternalID` |
+| `PredecessorPhaseInternalID` | `PredecessorPhaseInternalID` |
+| `SuccessorOrderInternalID` | `SuccessorOrderInternalID` |
+| `SuccessorPhaseInternalID` | `SuccessorPhaseInternalID` |
+| `OrderPhaseRelationshipIntType` | `OrderPhaseRelationshipIntType` |
+| `MaxTimeIntvlIsUsedForSchedg` | `MaxTimeIntvlIsUsedForSchedg` |
 | `PredecessorOrder` | `PredecessorOrder` |
 | `PredecessorOrderPhase` | `PredecessorOrderPhase` |
 | `SuccessorOrder` | `SuccessorOrder` |
@@ -48,15 +48,11 @@ tags:
 | `TimeIntvlBtwnRelshpInPct` | `TimeIntvlBtwnRelshpInPct` |
 | `TimeInterval` | `TimeInterval` |
 | `ObjectInternalID` | `ObjectInternalID` |
-| `ObjectIsDeleted, // not changeable - deprecate/remove in subsequent version` | `ObjectIsDeleted, // not changeable - deprecate/remove in subsequent version` |
+| `ObjectIsDeleted` | `ObjectIsDeleted` |
 | `FactoryCalendar` | `FactoryCalendar` |
 | `Plant` | `Plant` |
 | `ProductionResourceInternalID` | `ProductionResourceInternalID` |
 | `ProductionResource` | `ProductionResource` |
-| `_SuccessorPhase   : redirected to parent I_ProcessOrderPhaseTP` | *Association* |
-| `_SuccessorOrder   : redirected to I_ProcessOrderTP` | *Association* |
-| `_PredecessorPhase : redirected to I_ProcessOrderPhaseTP` | *Association* |
-| `_PredecessorOrder : redirected to I_ProcessOrderTP` | *Association* |
 
 ## Associations
 

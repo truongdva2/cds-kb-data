@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnCountry.Country` | `_CnsldtnCountry.Country` |
-| `_CnsldtnCountry.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnCountryTextTP` | *Association* |
+| `Country` | `_CnsldtnCountry.Country` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnCountry.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

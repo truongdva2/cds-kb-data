@@ -31,16 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
-| `key BkPOAAuthzdRepresentativeUUID` | `BkPOAAuthzdRepresentativeUUID` |
+| `BankPowerOfAttorneyUUID` | `BankPowerOfAttorneyUUID` |
+| `BkPOAAuthzdRepresentativeUUID` | `BkPOAAuthzdRepresentativeUUID` |
 | `BkPOAAuthzdRepresentative` | `BkPOAAuthzdRepresentative` |
 | `PaymentApproverGroup` | `PaymentApproverGroup` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_BankPowerOfAttorney : redirected to parent I_BankPowerOfAttorneyTP_2` | *Association* |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

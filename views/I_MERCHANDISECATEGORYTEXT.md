@@ -37,7 +37,6 @@ tags:
 | `MerchandiseCategoryName` | `MerchandiseCategoryText.wgbez` |
 | `MerchandiseCategoryText` | `MerchandiseCategoryText.wgbez60` |
 | `ClassInternalID` | `MrchdsCategory.clint` |
-| `/* Associations */` | `/* Associations */` |
 | `_MerchandiseCategory` | *Association* |
 | `_Language` | *Association* |
 

@@ -32,8 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderEventUUID` | `TransportationOrderEventUUID` |
+| `TransportationOrderEventUUID` | `TransportationOrderEventUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `TransportationOrderEvent` | `TransportationOrderEvent` |
 | `TranspOrdEventCode` | `TranspOrdEventCode` |
@@ -46,8 +45,7 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `ChangedDateTime` | `ChangedDateTime` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBooking : redirected to parent I_FreightBookingTP` | `FreightBookingEvent._TransportationOrder` |
+| `_FreightBooking` | *Association* |
 
 ## Associations
 

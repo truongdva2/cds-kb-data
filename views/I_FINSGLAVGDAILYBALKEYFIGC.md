@@ -30,11 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Ledger` | `Ledger` |
-| `key CompanyCode` | `CompanyCode` |
-| `key FiscalYear` | `FiscalYear` |
-| `key AccountingDocument` | `AccountingDocument` |
-| `key LedgerGLLineItem` | `LedgerGLLineItem` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `LedgerGLLineItem` | `LedgerGLLineItem` |
 | `LedgerFiscalYear` | `LedgerFiscalYear` |
 | `GLRecordType` | `GLRecordType` |
 | `GLAccount` | `GLAccount` |

@@ -30,8 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_LedgerStdVH', element: 'Ledger' }` | `name: 'I_LedgerStdVH', element: 'Ledger' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
+| `CostingType` | `kalka` |
+| `ControllingValuationType` | `valuation` |
+| `CostingReferenceObject` | `bzobj` |
 | `Ledger` | `rldnr` |
 | `_CostingTypeText` | *Association* |
 | `_Ledger` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key AccountingCostRateUUID` | `AccountingCostRateUUID` |
+| `AccountingCostRateUUID` | `AccountingCostRateUUID` |
 | `CurrencyRole` | `CurrencyRole` |
 | `Ledger` | `Ledger` |
 | `CompanyCode` | `CompanyCode` |

@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtApplSts` | `SettlmtApplSts` |
-| `key Language` | `Language` |
+| `SettlmtApplSts` | `SettlmtApplSts` |
+| `Language` | `Language` |
 | `SettlmtApplStsDesc` | `SettlmtApplStsDesc` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtApplSts` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SettlmtApplSts` | `I_SettlmtApplSts` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

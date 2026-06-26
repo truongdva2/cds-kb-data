@@ -30,13 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGCategoryVH'` | `name: 'I_CnsldtnGHGCategoryVH'` |
-| `element: 'GHGCategory'` | `element: 'GHGCategory'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgcategory preserving type )` | `cast( _Source.GHGCategory` |
-| `fincs_ghgcategoryname preserving type )` | `cast( _Source.GHGCategoryName` |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `GHGCategory` | `cast( _Source.GHGCategory as fincs_ghgcategory preserving type )` |
+| `GHGCategoryName` | `cast( _Source.GHGCategoryName as fincs_ghgcategoryname preserving type )` |
 | `_Language` | *Association* |
 | `_GHGCategory` | *Association* |
 

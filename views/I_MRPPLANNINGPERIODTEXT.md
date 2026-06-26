@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `vdm_pptxt preserving type)` | `cast(txt.pptxt` |
+| `MRPPlant` | `txt.werks` |
+| `MRPPlanningCalendar` | `txt.mrppp` |
+| `Language` | `txt.spras` |
+| `MRPPlanningCalendarName` | `cast(txt.pptxt as vdm_pptxt preserving type)` |
 | `_Calendar` | *Association* |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

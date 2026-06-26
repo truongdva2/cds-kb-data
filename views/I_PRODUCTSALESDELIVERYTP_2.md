@@ -33,13 +33,62 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CompetitionPressureCategory', element : 'CompetitionPressureCategory'} , useAsTemplate: true }]` | `name: 'I_CompetitionPressureCategory', element : 'CompetitionPressureCategory'} , useAsTemplate: true }]` |
+| `Product` | `Product` |
+| `ProductSalesOrg` | `ProductSalesOrg` |
+| `ProductDistributionChnl` | `ProductDistributionChnl` |
+| `MinimumOrderQuantity` | `MinimumOrderQuantity` |
+| `SupplyingPlant` | `SupplyingPlant` |
+| `PriceSpecificationProductGroup` | `PriceSpecificationProductGroup` |
+| `AccountDetnProductGroup` | `AccountDetnProductGroup` |
+| `DeliveryNoteProcMinDelivQty` | `DeliveryNoteProcMinDelivQty` |
+| `ItemCategoryGroup` | `ItemCategoryGroup` |
+| `DeliveryQuantityUnit` | `DeliveryQuantityUnit` |
+| `DeliveryQuantity` | `DeliveryQuantity` |
+| `ProductSalesStatus` | `ProductSalesStatus` |
+| `ProductSalesStatusValidityDate` | `ProductSalesStatusValidityDate` |
+| `SalesMeasureUnit` | `SalesMeasureUnit` |
+| `IsMarkedForDeletion` | `IsMarkedForDeletion` |
+| `FirstSalesSpecProductGroup` | `FirstSalesSpecProductGroup` |
+| `SecondSalesSpecProductGroup` | `SecondSalesSpecProductGroup` |
+| `ThirdSalesSpecProductGroup` | `ThirdSalesSpecProductGroup` |
+| `FourthSalesSpecProductGroup` | `FourthSalesSpecProductGroup` |
+| `FifthSalesSpecProductGroup` | `FifthSalesSpecProductGroup` |
+| `LogisticsStatisticsGroup` | `LogisticsStatisticsGroup` |
+| `VolumeRebateGroup` | `VolumeRebateGroup` |
+| `CashDiscountIsDeductible` | `CashDiscountIsDeductible` |
+| `ProductCommissionGroup` | `ProductCommissionGroup` |
+| `PricingReferenceProduct` | `PricingReferenceProduct` |
+| `RoundingProfile` | `RoundingProfile` |
+| `VariableSalesUnitIsNotAllowed` | `VariableSalesUnitIsNotAllowed` |
+| `ProductHasAttributeID01` | `ProductHasAttributeID01` |
+| `ProductHasAttributeID02` | `ProductHasAttributeID02` |
+| `ProductHasAttributeID03` | `ProductHasAttributeID03` |
+| `ProductHasAttributeID04` | `ProductHasAttributeID04` |
+| `ProductHasAttributeID05` | `ProductHasAttributeID05` |
+| `ProductHasAttributeID06` | `ProductHasAttributeID06` |
+| `ProductHasAttributeID07` | `ProductHasAttributeID07` |
+| `ProductHasAttributeID08` | `ProductHasAttributeID08` |
+| `ProductHasAttributeID09` | `ProductHasAttributeID09` |
+| `ProductHasAttributeID10` | `ProductHasAttributeID10` |
+| `ProdIsEntlmntRlvt` | `ProdIsEntlmntRlvt` |
+| `BaseUnit` | `BaseUnit` |
+| `ProductHierarchy` | `ProductHierarchy` |
+| `ProdExtAssortmentPriority` | `ProdExtAssortmentPriority` |
+| `AssortmentGrade` | `AssortmentGrade` |
+| `StoreListingProcedure` | `StoreListingProcedure` |
+| `DistrCenterListingProcedure` | `DistrCenterListingProcedure` |
+| `StoreListingStartDate` | `StoreListingStartDate` |
+| `StoreListingEndDate` | `StoreListingEndDate` |
+| `DistrCenterListingStartDate` | `DistrCenterListingStartDate` |
+| `DistrCenterListingEndDate` | `DistrCenterListingEndDate` |
+| `StoreSaleStartDate` | `StoreSaleStartDate` |
+| `StoreSaleEndDate` | `StoreSaleEndDate` |
+| `DistrCenterSaleStartDate` | `DistrCenterSaleStartDate` |
+| `DistributionCenterSaleEndDate` | `DistributionCenterSaleEndDate` |
+| `ProductUnitGroup` | `ProductUnitGroup` |
+| `StoreOrderMaxDelivQty` | `StoreOrderMaxDelivQty` |
+| `PriceFixingCategory` | `PriceFixingCategory` |
 | `CompetitionPressureCategory` | `CompetitionPressureCategory` |
-| `/* Associations */` | `/* Associations */` |
-| `_Product                   : redirected to parent I_ProductTP_2` | *Association* |
-| `_ProdSalesDeliverySalesTax : redirected to composition child I_ProdSlsDeliverySalesTaxTP_2` | *Association* |
-| `_ProdSlsDelivPointOfSale   : redirected to composition child I_ProdSlsDelivPointOfSaleTP_2` | *Association* |
-| `_ProductSalesDeliveryText  : redirected to composition child I_ProductSalesDeliveryTextTP_2` | *Association* |
 | `_ProductDescription_2` | *Association* |
 | `_DeliveryQuantityUnitText` | *Association* |
 | `_SalesUnitText` | *Association* |

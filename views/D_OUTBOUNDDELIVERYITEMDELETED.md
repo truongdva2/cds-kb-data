@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `DocumentItemNumber          : posnr;` | `DocumentItemNumber          : posnr;` |
-| `OutboundDeliveryItem        : outbound_delivery_item;` | `OutboundDeliveryItem        : outbound_delivery_item;` |
-| `DeliveryDocumentType        : lfart;` | `DeliveryDocumentType        : lfart;` |
-| `SalesOrganization           : vkorg;` | `SalesOrganization           : vkorg;` |
-| `SDDocumentCategory          : vbtypl;` | `SDDocumentCategory          : vbtypl;` |
+| `DocumentItemNumber` | `posnr` |
+| `OutboundDeliveryItem` | `outbound_delivery_item` |
+| `DeliveryDocumentType` | `lfart` |
+| `SalesOrganization` | `vkorg` |
+| `SDDocumentCategory` | `vbtypl` |
 
 ## Associations
 

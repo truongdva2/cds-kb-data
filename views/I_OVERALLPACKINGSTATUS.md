@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pkstk preserving type )` | `cast(left(dd07l.domvalue_l, 1 )` |
+| `OverallPackingStatus` | `cast(left(dd07l.domvalue_l, 1 ) as pkstk preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

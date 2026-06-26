@@ -34,12 +34,12 @@ tags:
 | `REConditionUUID` | `condguid` |
 | `InternalRealEstateNumber` | `intreno` |
 | `REConditionType` | `condtype` |
-| `recdvdmobjnr preserving type )` | `cast(objnr` |
-| `rebdvdmvalidfrom preserving type )` | `cast (condvalidfrom` |
-| `recdvdmobjnrdist preserving type )` | `cast(objnrdist` |
-| `recdvdmobjtypedist preserving type )` | `cast(objtypedistdist` |
-| `recdvdmtermnopy preserving type )` | `cast(objtypedistpost` |
-| `rebdvdmvalidto preserving type )` | `cast ( condvalidto` |
+| `REStatusObjectCalculation` | `cast(objnr as recdvdmobjnr preserving type )` |
+| `ValidityStartDate` | `cast (condvalidfrom as rebdvdmvalidfrom preserving type )` |
+| `REStatusObjectDistribution` | `cast(objnrdist as recdvdmobjnrdist preserving type )` |
+| `REObjectTypeDistribution` | `cast(objtypedistdist as recdvdmobjtypedist preserving type )` |
+| `REObjectTypePosting` | `cast(objtypedistpost as recdvdmtermnopy preserving type )` |
+| `ValidityEndDate` | `cast ( condvalidto as rebdvdmvalidto preserving type )` |
 | `CreatedByUser` | `rerf` |
 | `CreationDate` | `derf` |
 | `CreationTime` | `terf` |
@@ -49,27 +49,27 @@ tags:
 | `LastChangeTime` | `tbear` |
 | `RESourceOfChange` | `rbher` |
 | `REIsOneTimeCondition` | `uniquecond` |
-| `recdvdminfocond preserving type )` | `cast(infocond` |
+| `REConditionIsStatistical` | `cast(infocond as recdvdminfocond preserving type )` |
 | `REPostingTerm` | `termnopy` |
-| `recdvdmtermnrhy preserving type )` | `cast(termnorh` |
+| `RERhythmTerm` | `cast(termnorh as recdvdmtermnrhy preserving type )` |
 | `REAdjustmentNumber` | `termnoaj` |
-| `recdvdmtermnooa preserving type )` | `cast(termnooa` |
+| `REOrglAssignmentTerm` | `cast(termnooa as recdvdmtermnooa preserving type )` |
 | `RESalesTerm` | `termnosr` |
 | `REPeakSalesTerm` | `termnomr` |
 | `RESrvcChrgSettlementPostingTrm` | `termnopyscs` |
 | `REWithholdingTaxTerm` | `termnowt` |
 | `RECalculationRule` | `calcrule` |
 | `REUnitPrice` | `unitprice` |
-| `recdvdmcondcurr preserving type )` | `cast(condcurr` |
+| `REConditionCurrency` | `cast(condcurr as recdvdmcondcurr preserving type )` |
 | `RECalculationRuleParam1` | `calcrulepara1` |
 | `RECalculationRuleParam2` | `calcrulepara2` |
-| `recdvdmdistrule preserving type )` | `cast(distrule` |
+| `REDistributionRule` | `cast(distrule as recdvdmdistrule preserving type )` |
 | `REDistributionRuleParam1` | `distrulepara1` |
 | `REDistributionRuleParam2` | `distrulepara2` |
-| `recdvdmcondpurposeext preserving type )` | `cast(condpurposeext` |
+| `REExtConditionPurpose` | `cast(condpurposeext as recdvdmcondpurposeext preserving type )` |
 | `REReasonForChange` | `chgreason` |
-| `recdvdmobjnrparacalc preserving type )` | `cast( objnrcalcpara` |
-| `recdvdmobjnrparadist preserving type )` | `cast( objnrdistpara` |
+| `REStsObjectParamCalculation` | `cast( objnrcalcpara as recdvdmobjnrparacalc preserving type )` |
+| `REStsObjectParamDistribution` | `cast( objnrdistpara as recdvdmobjnrparadist preserving type )` |
 | `REDueDateTotNumberOfCrrtnDays` | `duedatecorr` |
 | `REDueDateNumberOfCrrtnDays` | `duedatecorrday` |
 | `REDueDateNumberOfCrrtnMonths` | `duedatecorrmonth` |
@@ -80,8 +80,8 @@ tags:
 | `REDistributionIsInvalid` | `invaliddist` |
 | `REServiceChrgSettlementIsActv` | `termnopyscsact` |
 | `REConditionIsToBeDeleted` | `conddelete` |
-| `rebdbusobjtypecn preserving type )` | `cast( left(objnr,2)` |
-| `rebdbusobjtypecn preserving type )` | `cast( left(objnrdist,2)` |
+| `REConditionObjTypeCalculation` | `cast( left(objnr,2) as rebdbusobjtypecn preserving type )` |
+| `REConditionObjTypeDistribution` | `cast( left(objnrdist,2) as rebdbusobjtypecn preserving type )` |
 | `_Currency` | *Association* |
 | `_CreatedByUser` | *Association* |
 | `_ChangedByUser` | *Association* |

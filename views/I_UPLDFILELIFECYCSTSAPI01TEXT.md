@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrInvcUpldFileLifeCycStatus` | `SuplrInvcUpldFileLifeCycStatus` |
-| `key Language` | `Language` |
+| `SuplrInvcUpldFileLifeCycStatus` | `SuplrInvcUpldFileLifeCycStatus` |
+| `Language` | `Language` |
 | `SuplrInvcUpldFileLfcycStsDesc` | `SuplrInvcUpldFileLfcycStsDesc` |
 | `_Language` | *Association* |
 

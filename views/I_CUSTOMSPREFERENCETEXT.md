@@ -34,8 +34,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `ddlanguage` |
-| `prefe)` | `cast(domvalue_l` |
-| `/sapsll/prefe_desc_r3)` | `cast(ddtext` |
+| `CustomsPreference` | `cast(domvalue_l as prefe)` |
+| `CustomsPreferenceDescription` | `cast(ddtext as /sapsll/prefe_desc_r3)` |
 | `_Language` | *Association* |
 | `_CustomsPreference` | *Association* |
 

@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `kzwiw )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PrcgProcedItemSubtotal` | `cast ( substring( domvalue_l, 1, 1 ) as kzwiw )` |
 | `_Text` | *Association* |
 
 ## Associations

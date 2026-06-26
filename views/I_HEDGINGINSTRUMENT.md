@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `ftr_gen_hinst_number      preserving type)` | `cast(hinst.hinst_number` |
-| `ftr_gen_hinst_fiscal_year preserving type)` | `cast(hinst.fiscal_year` |
-| `bukrs                     preserving type)` | `cast(hinst.tr_acc_code` |
-| `tpm_val_area              preserving type)` | `cast(hinst.valuation_area` |
-| `ftr_gen_hinst_descr       preserving type)` | `cast(hinst.description` |
-| `ftr_gen_hrel_uuid         preserving type)` | `cast(hinst.hrel_oid` |
+| `HedgingInstrumentUUID` | `cast(hinst.os_guid as ftr_gen_hinst preserving type)` |
+| `HedgingInstr` | `cast(hinst.hinst_number as ftr_gen_hinst_number preserving type)` |
+| `HedgingInstrumentFiscalYear` | `cast(hinst.fiscal_year as ftr_gen_hinst_fiscal_year preserving type)` |
+| `CompanyCode` | `cast(hinst.tr_acc_code as bukrs preserving type)` |
+| `TreasuryValuationArea` | `cast(hinst.valuation_area as tpm_val_area preserving type)` |
+| `HedgingInstrumentName` | `cast(hinst.description as ftr_gen_hinst_descr preserving type)` |
+| `HedgingRelationshipUUID` | `cast(hinst.hrel_oid as ftr_gen_hrel_uuid preserving type)` |
 | `_HedgingRelationship` | *Association* |
 | `_FiscalYear` | *Association* |
 | `_CompanyCode` | *Association* |

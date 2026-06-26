@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key WorkCenter` | `WorkCenter` |
+| `Plant` | `Plant` |
+| `WorkCenter` | `WorkCenter` |
 | `_WorkCenterTextBySemanticKey` | *Association* |
 | `WorkCenterCategoryCode` | `WorkCenterCategoryCode` |
 | `WorkCenterInternalID` | `WorkCenterInternalID` |

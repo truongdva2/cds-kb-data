@@ -32,19 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hryid preserving type)` | `cast('WBSELEMENTHIERARCHY                       '` |
-| `fis_datbi )` | `cast('99991231'` |
-| `fis_datbi )` | `cast('19000101'` |
-| `hrytype )` | `cast ('0110'` |
-| `upnam )` | `cast ('SAP         '` |
-| `hryupdtime  )` | `cast ( tstmp_current_utctimestamp()` |
+| `WBSElementHierarchy` | `R_FinWBSElementHierarchy.WBSElementHierarchy` |
+| `ValidityEndDate` | `R_FinWBSElementHierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `R_FinWBSElementHierarchy.ValidityStartDate` |
+| `HierarchyType` | `R_FinWBSElementHierarchy.HierarchyType` |
+| `LastChangedByUser` | `R_FinWBSElementHierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `R_FinWBSElementHierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_Text` | `I_FinWBSElementHierarchyText` | [0..*] |
 | `_Text` | `I_FinWBSElementHierarchyText` | [0..*] |
 
 ## Source Code

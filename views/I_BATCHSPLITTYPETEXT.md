@@ -32,7 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `BatchSplitType` | `cast(substring( domvalue_l, 1, 1) as vdm_chsplit preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
 | `BatchSplitTypeName` | `t.ddtext` |
 | `_BatchSplitType` | *Association* |
 | `_Language` | *Association* |
@@ -41,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_BatchSplitType` | `I_BatchSplitType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

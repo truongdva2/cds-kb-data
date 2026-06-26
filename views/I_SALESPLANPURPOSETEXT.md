@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `sales_plan_purpose )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SalesPlanPurpose` | `cast ( substring( domvalue_l, 1, 1 ) as sales_plan_purpose )` |
 | `Language` | `ddlanguage` |
-| `sp_purpose_text )` | `cast( ddtext` |
+| `SalesPlanPurposeDesc` | `cast( ddtext as sp_purpose_text )` |
 | `_SalesPlanPurpose` | *Association* |
 | `_Language` | *Association* |
 

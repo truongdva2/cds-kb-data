@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_flow_category preserving type )` | `cast( sbktyp` |
+| `FinTransFlowCategory` | `cast( sbktyp as ftr_flow_category preserving type )` |
 | `_FlowCategoryText` | *Association* |
 
 ## Associations

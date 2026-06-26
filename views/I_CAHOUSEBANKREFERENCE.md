@@ -31,13 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CAPaymentCompanyCode` | `bukrs` |
 | `CAHouseBankReference` | `eigbv` |
-| `farp_hbkid preserving type)` | `cast(hbkid` |
-| `fac_hktid preserving type)` | `cast(hktid` |
+| `HouseBank` | `cast(hbkid as farp_hbkid preserving type)` |
+| `HouseBankAccount` | `cast(hktid as fac_hktid preserving type)` |
 | `UserCodeAtBank` | `bnkid` |
 | `CARegisteredNameOfPayerAtBank` | `aufbz` |
 | `_Text` | *Association* |

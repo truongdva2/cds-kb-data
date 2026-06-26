@@ -32,17 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ConfignDeprecationCode'` | `name: 'I_ConfignDeprecationCode'` |
-| `element: 'ConfigurationDeprecationCode'                 // old GFN` | `element: 'ConfigurationDeprecationCode'                 // old GFN` |
-| `}` | `}` |
-| `}` | `}` |
-| `]` | `]` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `StorageLocationName` | `StorageLocationName` |
 | `ConfigDeprecationCode` | `ConfigDeprecationCode` |
-| `_ConfigDeprecationCode._Text[1:Language=$session.system_language].ConfignDeprecationCodeName` | *Association* |
-| `_Plant.PlantName` | *Association* |
-| `_Plant.SalesOrganization` | *Association* |
-| `_Plant._ValuationArea.CompanyCode` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `ConfignDeprecationCodeName` | `expr(…)` |
+| `PlantName` | `_Plant.PlantName` |
+| `SalesOrganization` | `_Plant.SalesOrganization` |
+| `CompanyCode` | `_Plant._ValuationArea.CompanyCode` |
 | `_Plant` | *Association* |
 | `_ConfigDeprecationCode` | *Association* |
 

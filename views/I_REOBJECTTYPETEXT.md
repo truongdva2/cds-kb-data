@@ -32,10 +32,10 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `recaobjtype preserving type )` | `cast(obart` |
+| `RealEstateObjectType` | `cast(obart as recaobjtype preserving type )` |
 | `REObjectTypePrefix` | `obart_ld` |
-| `recavdmxobjtype preserving type )` | `cast(txt20` |
-| `recadesc60 preserving type )` | `cast (txt60` |
+| `RealEstateObjectTypeName` | `cast(txt20 as recavdmxobjtype preserving type )` |
+| `RealEstateObjectTypeDesc` | `cast (txt60 as recadesc60 preserving type )` |
 | `_REObjectType` | *Association* |
 | `_Language` | *Association* |
 

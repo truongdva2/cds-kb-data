@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `xsett_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `CAPaymentBillingStatus` | `cast( left( dd07l.domvalue_l, 1 ) as xsett_kk preserving type )` |
 | `_CAPaymentBillingStatusText` | *Association* |
 
 ## Associations

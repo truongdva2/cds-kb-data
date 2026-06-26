@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type)` | `cast( ddlanguage` |
-| `abap.char( 1 ) )` | `cast ( cast ( substring( domvalue_l, 1, 1 )` |
-| `logbr_srv_taker_cte_descr preserving type )` | `cast ( ddtext` |
+| `Language` | `cast( ddlanguage as spras preserving type)` |
+| `BR_CTePartnerServiceTaker` | `cast(…)` |
+| `BR_CTePartnerServiceTakerDesc` | `cast ( ddtext as logbr_srv_taker_cte_descr preserving type )` |
 | `_BR_CTePartnerServiceTaker` | *Association* |
 | `_Language` | *Association* |
 

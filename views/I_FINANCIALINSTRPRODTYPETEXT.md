@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `FinancialInstrProdTypeText.spras` |
 | `FinancialInstrumentProductType` | `FinancialInstrProdTypeText.gsart` |
-| `ftr_gen_product_type_name preserving type)` | `cast(FinancialInstrProdTypeText.ltx` |
+| `FinancialInstrProdTypeName` | `cast(…)` |
 | `_FinancialInstrProductType` | *Association* |
 | `_Language` | *Association* |
 

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdCmplncLabelFieldVersionID` | `ProdCmplncLabelFieldVersionID` |
+| `ProdCmplncLabelFieldVersionID` | `ProdCmplncLabelFieldVersionID` |
 | `ProdCmplncLabelFieldID` | `ProdCmplncLabelFieldID` |
 | `ProdCmplncLblFldVersionStatus` | `ProdCmplncLblFldVersionStatus` |
 | `ProdCmplncLabelFieldGroupID` | `ProdCmplncLabelFieldGroupID` |
@@ -40,9 +40,6 @@ tags:
 | `ProdCmplncLblFieldCardinality` | `ProdCmplncLblFieldCardinality` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_LabelFieldGroup :  redirected to parent I_ProdCmplncLabelFldGroupTP_2` | *Association* |
-| `_Texts : redirected to composition child I_ProdCmplncLblFldVersTxtTP_2` | *Association* |
 
 ## Associations
 

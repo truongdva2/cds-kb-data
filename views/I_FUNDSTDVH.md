@@ -30,8 +30,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8 }` |
-| `_FundPeriodicity._Text[1:Language = $session.system_language].FundPeriodicityText as FundPeriodicityText` | *Association* |
+| `Fund` | `Fund` |
+| `FinancialManagementArea` | `FinancialManagementArea` |
+| `FundName` | `_Text[1:Language = $session.system_language].FundName` |
+| `FundDescription` | `_Text[1:Language = $session.system_language].FundDescription` |
+| `FundAuthznGrp` | `FundAuthznGrp` |
+| `FundFinMgmtAreaForAuthzn` | `FundFinMgmtAreaForAuthzn` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `FundPeriodicity` | `FundPeriodicity` |
+| `GranteeMgmtFundTypeName` | `expr(…)` |
+| `GrnteMgmtFundTypeNameSearchTxt` | `expr(…)` |
+| `FundPeriodicityText` | `expr(…)` |
 | `_FinMgmtArea` | *Association* |
 | `_Text` | *Association* |
 

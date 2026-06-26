@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `productionresourcetype preserving type)` | `cast(substring(typ.domvalue_l, 1, 2)` |
+| `ProductionResourceType` | `cast(substring(typ.domvalue_l, 1, 2) as productionresourcetype preserving type)` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -34,7 +34,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `PurchaseOrder` | `PurchaseOrder` |
-| `vdm_purchaseorderitem preserving type )` | `cast ( PurchaseOrderItem` |
+| `PurchaseOrderItem` | `cast ( PurchaseOrderItem as vdm_purchaseorderitem preserving type )` |
 | `AccountAssignmentNumber` | `AccountAssignmentNumber` |
 | `PurchasingHistoryDocumentType` | `PurchasingHistoryDocumentType` |
 | `PurchasingHistoryDocumentYear` | `PurchasingHistoryDocumentYear` |
@@ -57,7 +57,7 @@ tags:
 | `InventoryValuationType` | `InventoryValuationType` |
 | `DocumentReferenceID` | `DocumentReferenceID` |
 | `DeliveryQuantityUnit` | `DeliveryQuantityUnit` |
-| `ematn preserving type )` | `cast ( ManufacturerMaterial` |
+| `ManufacturerMaterial` | `cast ( ManufacturerMaterial as ematn preserving type )` |
 | `AccountingDocumentCreationDate` | `AccountingDocumentCreationDate` |
 | `Quantity` | `Quantity` |
 | `PurOrdAmountInCompanyCodeCrcy` | `PurOrdAmountInCompanyCodeCrcy` |
@@ -80,38 +80,37 @@ tags:
 | `ExchangeRateDifferenceAmount` | `ExchangeRateDifferenceAmount` |
 | `ExchangeRate` | `ExchangeRate` |
 | `DeliveryDocument` | `DeliveryDocument` |
-| `vdm_posnr_vl preserving type )` | `cast ( DeliveryDocumentItem` |
+| `DeliveryDocumentItem` | `cast ( DeliveryDocumentItem as vdm_posnr_vl preserving type )` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `BaseUnit` | `BaseUnit` |
-| `vdm_documentcurrency preserving type )` | `cast ( DocumentCurrency` |
-| `fis_hwaer preserving type )` | `cast ( CompanyCodeCurrency` |
-| `_PurchaseOrderItem.ProductType                    as ProductTypeCode` | *Association* |
-| `_PurchaseOrderItem.IsStatisticalItem              as IsStatisticalItem` | *Association* |
-| `_PurchaseOrderItem.IsReturnsItem                  as IsReturnsItem` | *Association* |
-| `_PurchaseOrderItem.GoodsReceiptIsExpected         as GoodsReceiptIsExpected` | *Association* |
-| `_PurchaseOrderItem.GoodsReceiptIsNonValuated      as GoodsReceiptIsNonValuated` | *Association* |
-| `_PurchaseOrderItem.IsFinallyInvoiced              as IsFinallyInvoiced` | *Association* |
-| `_PurchaseOrderItem.InvoiceIsExpected              as InvoiceIsExpected` | *Association* |
-| `_PurchaseOrderItem.PurchaseContract               as PurchaseContract` | *Association* |
-| `_PurchaseOrderItem.PurchaseContractItem           as PurchaseContractItem` | *Association* |
-| `_PurchaseOrderItem.AccountAssignmentCategory      as AccountAssignmentCategory` | *Association* |
-| `_PurchaseOrderItem.PurchaseRequisition            as PurchaseRequisition` | *Association* |
-| `_PurchaseOrderItem.PurchaseRequisitionItem        as PurchaseRequisitionItem` | *Association* |
-| `_PurchaseOrderItem.PurchaseOrderItemCategory      as PurchaseOrderItemCategory` | *Association* |
-| `_PurchaseOrderItem.ServicePerformer               as ServicePerformer` | *Association* |
-| `_PurchaseOrderItem.MaterialGroup                  as ProductGroup` | *Association* |
-| `_PurchaseOrderItem.MultipleAcctAssgmtDistribution as MultipleAcctAssgmtDistribution` | *Association* |
-| `_PurchaseOrderItem.PurchasingDocumentDeletionCode as PurgDocumentItemDeletionCode` | *Association* |
-| `_PurchaseOrder.Supplier                           as Supplier` | *Association* |
-| `_PurchaseOrder.PurchasingOrganization             as PurchasingOrganization` | *Association* |
-| `_PurchaseOrder.PurchasingGroup                    as PurchasingGroup` | *Association* |
-| `_PurchaseOrder.CompanyCode                        as CompanyCode` | *Association* |
-| `_PurchaseOrder.PurchaseOrderType                  as PurchaseOrderType` | *Association* |
-| `_PurchaseOrder.PurchasingDocumentDeletionCode     as PurchasingDocumentDeletionCode` | *Association* |
-| `_PurchaseOrder.ReleaseIsNotCompleted              as ReleaseIsNotCompleted` | *Association* |
-| `_PurchaseOrder.PurchasingCompletenessStatus       as PurchasingCompletenessStatus` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `DocumentCurrency` | `cast ( DocumentCurrency as vdm_documentcurrency preserving type )` |
+| `CompanyCodeCurrency` | `cast ( CompanyCodeCurrency as fis_hwaer preserving type )` |
+| `ProductTypeCode` | `_PurchaseOrderItem.ProductType` |
+| `IsStatisticalItem` | `_PurchaseOrderItem.IsStatisticalItem` |
+| `IsReturnsItem` | `_PurchaseOrderItem.IsReturnsItem` |
+| `GoodsReceiptIsExpected` | `_PurchaseOrderItem.GoodsReceiptIsExpected` |
+| `GoodsReceiptIsNonValuated` | `_PurchaseOrderItem.GoodsReceiptIsNonValuated` |
+| `IsFinallyInvoiced` | `_PurchaseOrderItem.IsFinallyInvoiced` |
+| `InvoiceIsExpected` | `_PurchaseOrderItem.InvoiceIsExpected` |
+| `PurchaseContract` | `_PurchaseOrderItem.PurchaseContract` |
+| `PurchaseContractItem` | `_PurchaseOrderItem.PurchaseContractItem` |
+| `AccountAssignmentCategory` | `_PurchaseOrderItem.AccountAssignmentCategory` |
+| `PurchaseRequisition` | `_PurchaseOrderItem.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `_PurchaseOrderItem.PurchaseRequisitionItem` |
+| `PurchaseOrderItemCategory` | `_PurchaseOrderItem.PurchaseOrderItemCategory` |
+| `ServicePerformer` | `_PurchaseOrderItem.ServicePerformer` |
+| `ProductGroup` | `_PurchaseOrderItem.MaterialGroup` |
+| `MultipleAcctAssgmtDistribution` | `_PurchaseOrderItem.MultipleAcctAssgmtDistribution` |
+| `PurgDocumentItemDeletionCode` | `_PurchaseOrderItem.PurchasingDocumentDeletionCode` |
+| `Supplier` | `_PurchaseOrder.Supplier` |
+| `PurchasingOrganization` | `_PurchaseOrder.PurchasingOrganization` |
+| `PurchasingGroup` | `_PurchaseOrder.PurchasingGroup` |
+| `CompanyCode` | `_PurchaseOrder.CompanyCode` |
+| `PurchaseOrderType` | `_PurchaseOrder.PurchaseOrderType` |
+| `PurchasingDocumentDeletionCode` | `_PurchaseOrder.PurchasingDocumentDeletionCode` |
+| `ReleaseIsNotCompleted` | `_PurchaseOrder.ReleaseIsNotCompleted` |
+| `PurchasingCompletenessStatus` | `_PurchaseOrder.PurchasingCompletenessStatus` |
 | `_PurchaseOrder` | *Association* |
 | `_PurchaseOrderItem` | *Association* |
 | `_PurchaseOrderDEX` | *Association* |

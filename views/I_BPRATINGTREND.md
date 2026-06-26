@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bp_tendency )` | `cast ( dd07l.domvalue_l` |
+| `BusinessPartnerRatingTrend` | `cast ( dd07l.domvalue_l as bp_tendency )` |
 | `_Text` | *Association* |
 
 ## Associations

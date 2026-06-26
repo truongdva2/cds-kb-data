@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanControlCycleCategory` | `KanbanControlCycleCategory` |
+| `KanbanControlCycleCategory` | `KanbanControlCycleCategory` |
 | `_Text` | *Association* |
 
 ## Associations

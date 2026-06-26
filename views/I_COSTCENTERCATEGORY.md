@@ -37,9 +37,9 @@ tags:
 | `IsBlockedForRevenuePosting` | `bkzer` |
 | `IsBlockedForCommitmentPosting` | `bkzob` |
 | `IsBlockedForPlanPrimaryCosts` | `pkzkp` |
-| `fis_pkzks)` | `cast(pkzks` |
-| `fis_pkzer)` | `cast(pkzer` |
-| `fis_vmeth)` | `cast(vmeth` |
+| `IsBlockedForPlanSecondaryCosts` | `cast(pkzks as fis_pkzks)` |
+| `IsBlockedForPlanRevenues` | `cast(pkzer as fis_pkzer)` |
+| `CostCenterAllocationMethod` | `cast(vmeth as fis_vmeth)` |
 | `ConsumptionQtyIsRecorded` | `mgefl` |
 | `FunctionalArea` | `func_area` |
 | `_Text` | *Association* |

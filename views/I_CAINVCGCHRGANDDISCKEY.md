@@ -34,7 +34,7 @@ tags:
 | `CAInvcgChargeAndDiscountKey` | `_tfk2617.chgkey` |
 | `_ApplArea` | *Association* |
 | `_CAInvcgChrgAndDiscKeyText` | *Association* |
-| `_tfk2617.chgindiv as CAInvcgChrgAndDiscIsIndividual` | *Association* |
+| `CAInvcgChrgAndDiscIsIndividual` | `_tfk2617.chgindiv` |
 
 ## Associations
 

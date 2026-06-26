@@ -34,12 +34,14 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `FunctionalArea` | `fkber` |
-| `fis_fkbtx )` | `cast( fkbtx` |
+| `FunctionalAreaName` | `cast( fkbtx as fis_fkbtx )` |
 | `_Language` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

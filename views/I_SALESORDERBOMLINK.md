@@ -33,13 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' } }]` | `element: 'Plant' } }]` |
+| `BillOfMaterial` | `stlnr` |
+| `BillOfMaterialVariant` | `stlal` |
+| `Material` | `matnr` |
 | `Plant` | `werks` |
 | `BillOfMaterialVariantUsage` | `stlan` |
 | `SalesOrder` | `vbeln` |
 | `SalesOrderItem` | `vbpos` |
-| `stlty preserving type)` | `cast ('K'` |
+| `BillOfMaterialCategory` | `cast ('K' as stlty preserving type)` |
 | `_BillOfMaterialUsage` | *Association* |
 
 ## Associations

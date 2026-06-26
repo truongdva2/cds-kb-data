@@ -31,7 +31,6 @@ tags:
 |---|---|
 | `TranspOrdItemType` | `item_type` |
 | `TranspOrdItemCategory` | `item_cat` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 | `_TranspOrdItemCategory` | *Association* |
 
@@ -39,6 +38,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_Text` | `I_TranspOrdItemTypeText_2` | [0..1] |
 | `_TranspOrdItemCategory` | `I_TranspOrdItemCategory_2` | [0..1] |
 
 ## Source Code

@@ -33,8 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PlantToBeAssigned : werks_d;` | `PlantToBeAssigned : werks_d;` |
-| `BillOfMaterialVariantUsage : stlan;` | `BillOfMaterialVariantUsage : stlan;` |
+| `PlantToBeAssigned` | `werks_d` |
+| `BillOfMaterialVariantUsage` | `stlan` |
 
 ## Associations
 

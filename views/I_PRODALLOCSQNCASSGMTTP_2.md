@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProdAllocSqncAssignmentUUID` | `ProdAllocSqncAssignmentUUID` |
+| `ProdAllocSqncAssignmentUUID` | `ProdAllocSqncAssignmentUUID` |
 | `ProductAllocationSequenceUUID` | `ProductAllocationSequenceUUID` |
 | `ProductAllocationSequence` | `ProductAllocationSequence` |
 | `Material` | `Material` |
@@ -41,7 +41,6 @@ tags:
 | `ValidityEndUTCDateTime` | `ValidityEndUTCDateTime` |
 | `ValidityEndTimeZone` | `ValidityEndTimeZone` |
 | `IsDeleted` | `IsDeleted` |
-| `_ProdAllocationSequenceTP: redirected to parent I_ProdAllocationSequenceTP_2` | *Association* |
 
 ## Associations
 

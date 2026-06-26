@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spinf )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PurchasingInfoRecordUpdateCode` | `cast ( substring( domvalue_l, 1, 1 ) as spinf )` |
 | `Language` | `ddlanguage` |
 | `PurchasingInfoRecordDesc` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
@@ -39,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PurgInfoRecordUpdateCode` | `I_PurgInfoRecordUpdateCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

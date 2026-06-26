@@ -31,9 +31,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` | `name: 'I_UnitOfMeasureStdVH', element : 'UnitOfMeasure'}, useAsTemplate: true }]` |
-| `_Product.BaseUnit` | *Association* |
-| `Valuation.MLIsActiveAtProductLevel` | `Valuation.MLIsActiveAtProductLevel` |
+| `Product` | `Valuation.Product` |
+| `ValuationArea` | `Valuation.ValuationArea` |
+| `ValuationType` | `Valuation.ValuationType` |
+| `ValuationClass` | `Valuation.ValuationClass` |
+| `PriceDeterminationControl` | `Valuation.PriceDeterminationControl` |
+| `FiscalMonthCurrentPeriod` | `marv.lfmon` |
+| `FiscalYearCurrentPeriod` | `marv.lfgja` |
+| `StandardPrice` | `Valuation.StandardPrice` |
+| `PriceUnitQty` | `Valuation.PriceUnitQty` |
+| `InventoryValuationProcedure` | `Valuation.InventoryValuationProcedure` |
+| `FuturePriceValidityStartDate` | `Valuation.FuturePriceValidityStartDate` |
+| `PrevInvtryPriceInCoCodeCrcy` | `Valuation.PrevInvtryPriceInCoCodeCrcy` |
+| `MovingAveragePrice` | `Valuation.MovingAveragePrice` |
+| `ValuationCategory` | `Valuation.ValuationCategory` |
+| `ProductUsageType` | `Valuation.ProductUsageType` |
+| `ProductOriginType` | `Valuation.ProductOriginType` |
+| `IsProducedInhouse` | `Valuation.IsProducedInhouse` |
+| `ProdCostEstNumber` | `Valuation.ProdCostEstNumber` |
+| `IsMarkedForDeletion` | `Valuation.IsMarkedForDeletion` |
+| `ValuationMargin` | `Valuation.ValuationMargin` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
+| `CompanyCode` | `t001k.bukrs` |
+| `ValuationClassSalesOrderStock` | `Valuation.ValuationClassSalesOrderStock` |
+| `ProjectStockValuationClass` | `Valuation.ProjectStockValuationClass` |
+| `TaxBasedPricesPriceUnitQty` | `Valuation.TaxBasedPricesPriceUnitQty` |
+| `PriceLastChangeDate` | `Valuation.PriceLastChangeDate` |
+| `FuturePrice` | `Valuation.FuturePrice` |
+| `MaintenanceStatus` | `Valuation.MaintenanceStatus` |
+| `Currency` | `t001.waers` |
+| `BaseUnit` | `_Product.BaseUnit` |
+| `MLIsActiveAtProductLevel` | `Valuation.MLIsActiveAtProductLevel` |
 | `_Product` | *Association* |
 | `_ValuationClass` | *Association* |
 | `_ValnClassSalesOrderStock` | *Association* |

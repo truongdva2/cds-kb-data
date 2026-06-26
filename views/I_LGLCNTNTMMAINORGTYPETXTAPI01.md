@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMMainOrgType` | `LglCntntMMainOrgType` |
-| `key Language` | `Language` |
+| `LglCntntMMainOrgType` | `LglCntntMMainOrgType` |
+| `Language` | `Language` |
 | `LglCntntMMainOrgTypeName` | `LglCntntMMainOrgTypeName` |
 
 ## Associations

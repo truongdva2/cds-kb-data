@@ -32,18 +32,18 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentRunDate` | `PaymentRunDate` |
-| `key PaymentRunID` | `PaymentRunID` |
-| `key PaymentRunIsProposal` | `PaymentRunIsProposal` |
-| `key PayingCompanyCode` | `PayingCompanyCode` |
-| `key Supplier` | `Supplier` |
-| `key Customer` | `Customer` |
-| `key PaymentRecipient` | `PaymentRecipient` |
-| `key PaymentDocument` | `PaymentDocument` |
-| `key CompanyCode` | `CompanyCode` |
-| `key AccountingDocument` | `AccountingDocument` |
-| `key FiscalYear` | `FiscalYear` |
-| `key AccountingDocumentItem` | `AccountingDocumentItem` |
+| `PaymentRunDate` | `PaymentRunDate` |
+| `PaymentRunID` | `PaymentRunID` |
+| `PaymentRunIsProposal` | `PaymentRunIsProposal` |
+| `PayingCompanyCode` | `PayingCompanyCode` |
+| `Supplier` | `Supplier` |
+| `Customer` | `Customer` |
+| `PaymentRecipient` | `PaymentRecipient` |
+| `PaymentDocument` | `PaymentDocument` |
+| `CompanyCode` | `CompanyCode` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocumentItem` | `AccountingDocumentItem` |
 | `BranchAccount` | `BranchAccount` |
 | `BusinessArea` | `BusinessArea` |
 | `AccountingDocumentType` | `AccountingDocumentType` |
@@ -80,18 +80,8 @@ tags:
 | `HeaderAmtInCoCodeCurrency` | `HeaderAmtInCoCodeCurrency` |
 | `MaxCshDiscAmtInCoCodeCrcy` | `MaxCshDiscAmtInCoCodeCrcy` |
 | `FunctionalCurrency` | `FunctionalCurrency` |
-| `cast(` | `cast(` |
-| `case FunctionalCurrency` | `case FunctionalCurrency` |
-| `when CompanyCodeCurrency then HeaderAmtInCoCodeCurrency` | `when CompanyCodeCurrency then HeaderAmtInCoCodeCurrency` |
-| `when AdditionalCurrency1 then AmountInAdditionalCurrency1` | `when AdditionalCurrency1 then AmountInAdditionalCurrency1` |
-| `when AdditionalCurrency2 then AmountInAdditionalCurrency2` | `when AdditionalCurrency2 then AmountInAdditionalCurrency2` |
-| `fins_vfccur12 preserving type )` | `end` |
-| `cast(` | `cast(` |
-| `case FunctionalCurrency` | `case FunctionalCurrency` |
-| `when CompanyCodeCurrency then CashDiscountAmtInTransacCrcy` | `when CompanyCodeCurrency then CashDiscountAmtInTransacCrcy` |
-| `when AdditionalCurrency1 then CashDiscountAmtInAddlCrcy1` | `when AdditionalCurrency1 then CashDiscountAmtInAddlCrcy1` |
-| `when AdditionalCurrency2 then CashDiscountAmtInAddlCrcy2` | `when AdditionalCurrency2 then CashDiscountAmtInAddlCrcy2` |
-| `farp_cash_disc_fcsl preserving type )` | `end` |
+| `AmountInFunctionalCurrency` | `cast(…)` |
+| `CashDiscountAmountInFuncnlCrcy` | `cast(…)` |
 | `CashDiscount1Days` | `CashDiscount1Days` |
 | `CashDiscount2Days` | `CashDiscount2Days` |
 | `CashDiscount1Percent` | `CashDiscount1Percent` |
@@ -122,7 +112,7 @@ tags:
 | `_PaymentCurrency` | *Association* |
 | `_CompanyCodeCurrency` | *Association* |
 | `_FunctionalCurrency` | *Association* |
-| `_PaymentProposalPayment, //  _PaymentProposalHeader` | *Association* |
+| `_PaymentProposalPayment` | *Association* |
 | `_OperationalAcctgDocItem` | *Association* |
 | `_BusinessArea` | *Association* |
 | `_AccountingDocumentType` | *Association* |

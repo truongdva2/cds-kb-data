@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `corrcat_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,2 )` |
+| `CAInvcgCorrectionCategory` | `cast ( substring( dd07l.domvalue_l,1,2 ) as corrcat_kk preserving type )` |
 | `_CAInvcgCorrectionCatText` | *Association* |
 
 ## Associations

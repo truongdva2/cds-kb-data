@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgSubprocess` | `_tfk8104t.subprocess` |
 | `Language` | `_tfk8104t.langu` |
-| `subprocess_txt_gfn_kk preserving type )` | `cast( _tfk8104t.text` |
+| `CABillgSubprocessText` | `cast( _tfk8104t.text as subprocess_txt_gfn_kk preserving type )` |
 | `_CABillgSubprocess` | *Association* |
 | `_Language` | *Association* |
 

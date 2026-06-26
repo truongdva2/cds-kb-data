@@ -30,15 +30,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnBillingDocumentTypeVH'` | `name: 'I_CnsldtnBillingDocumentTypeVH'` |
-| `element: 'BillingDocumentType'` | `element: 'BillingDocumentType'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `_HierarchyNode.BillingDocumentType` | *Association* |
-| `_HierarchyNode.HierarchyNodeSequence` | *Association* |
-| `_HierarchyNode.HierarchyNodeLevel` | *Association* |
-| `_HierarchyNode.NodeType` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `CnsldtnBillingDocTypeHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_HierarchyNode.HierarchyNode` |
+| `ValidityEndDate` | `_HierarchyNode.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyNode.ValidityStartDate` |
+| `ParentNode` | `_HierarchyNode.ParentNode` |
+| `HierarchyVersion` | `_HierarchyNode.HierarchyVersion` |
+| `BillingDocumentType` | `_HierarchyNode.BillingDocumentType` |
+| `HierarchyNodeSequence` | `_HierarchyNode.HierarchyNodeSequence` |
+| `HierarchyNodeLevel` | `_HierarchyNode.HierarchyNodeLevel` |
+| `NodeType` | `_HierarchyNode.NodeType` |
 | `_Text` | *Association* |
 | `_BillingDocumentType` | *Association* |
 | `_Hierarchy` | *Association* |

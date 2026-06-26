@@ -29,10 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
 | `InspToleranceSpecification` | `tq29.toleranzsl` |
-| `/* Associations */` | `/* Associations */` |
-| `,_Text` | `,_Text` |
+| `_Text` | *Association* |
 
 ## Associations
 

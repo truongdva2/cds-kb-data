@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tb_saktiv )` | `cast( dd07l.domvalue_l` |
+| `FinancialInstrumentStatus` | `cast( dd07l.domvalue_l as tb_saktiv )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

@@ -31,55 +31,54 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PlannedOrderComponent.PlannedOrder` | `PlannedOrderComponent.PlannedOrder` |
-| `key PlannedOrderComponent.Reservation` | `PlannedOrderComponent.Reservation` |
-| `key PlannedOrderComponent.ReservationItem` | `PlannedOrderComponent.ReservationItem` |
-| `PlannedOrderComponent.BOMItem` | `PlannedOrderComponent.BOMItem` |
-| `PlannedOrderComponent.BOMItemDescription` | `PlannedOrderComponent.BOMItemDescription` |
-| `PlannedOrderComponent.BOMItemDescriptionLine2, //potx2` | `PlannedOrderComponent.BOMItemDescriptionLine2, //potx2` |
-| `PlannedOrderComponent.BillOfMaterialCategory` | `PlannedOrderComponent.BillOfMaterialCategory` |
-| `PlannedOrderComponent.BOMItemSorter` | `PlannedOrderComponent.BOMItemSorter` |
-| `PlannedOrderComponent.BillOfMaterialItemNumber` | `PlannedOrderComponent.BillOfMaterialItemNumber` |
-| `PlannedOrderComponent.BillOfMaterialInternalID` | `PlannedOrderComponent.BillOfMaterialInternalID` |
-| `PlannedOrderComponent.BillOfMaterialVariant` | `PlannedOrderComponent.BillOfMaterialVariant` |
-| `PlannedOrderComponent.BOMItemCategory` | `PlannedOrderComponent.BOMItemCategory` |
-| `PlannedOrderComponent.Material` | `PlannedOrderComponent.Material` |
-| `PlannedOrderComponent.MatlCompRequirementDate` | `PlannedOrderComponent.MatlCompRequirementDate` |
-| `PlannedOrderComponent.GoodsMovementEntryQty` | `PlannedOrderComponent.GoodsMovementEntryQty` |
-| `PlannedOrderComponent.EntryUnit` | `PlannedOrderComponent.EntryUnit` |
-| `PlannedOrderComponent.RequiredQuantity` | `PlannedOrderComponent.RequiredQuantity` |
-| `PlannedOrderComponent.BaseUnit` | `PlannedOrderComponent.BaseUnit` |
-| `PlannedOrderComponent.DebitCreditCode` | `PlannedOrderComponent.DebitCreditCode` |
-| `PlannedOrderComponent.ComponentScrapInPercent` | `PlannedOrderComponent.ComponentScrapInPercent` |
-| `PlannedOrderComponent.QuantityIsFixed` | `PlannedOrderComponent.QuantityIsFixed` |
-| `PlannedOrderComponent.Plant` | `PlannedOrderComponent.Plant` |
-| `PlannedOrderComponent.StorageLocation` | `PlannedOrderComponent.StorageLocation` |
-| `PlannedOrderComponent.SupplyArea` | `PlannedOrderComponent.SupplyArea` |
-| `PlannedOrderComponent.MRPController` | `PlannedOrderComponent.MRPController` |
-| `PlannedOrderComponent.MaterialComponentIsPhantomItem` | `PlannedOrderComponent.MaterialComponentIsPhantomItem` |
-| `PlannedOrderComponent.OrderPathValue` | `PlannedOrderComponent.OrderPathValue` |
-| `PlannedOrderComponent.OrderLevelValue` | `PlannedOrderComponent.OrderLevelValue` |
-| `PlannedOrderComponent.Assembly` | `PlannedOrderComponent.Assembly` |
-| `PlannedOrderComponent.AssemblyOrderPathValue` | `PlannedOrderComponent.AssemblyOrderPathValue` |
-| `PlannedOrderComponent.AssemblyOrderLevelValue` | `PlannedOrderComponent.AssemblyOrderLevelValue` |
-| `PlannedOrderComponent.DiscontinuationGroup` | `PlannedOrderComponent.DiscontinuationGroup` |
-| `PlannedOrderComponent.MatlCompDiscontinuationType` | `PlannedOrderComponent.MatlCompDiscontinuationType` |
-| `PlannedOrderComponent.MatlCompIsFollowUpMaterial` | `PlannedOrderComponent.MatlCompIsFollowUpMaterial` |
-| `PlannedOrderComponent.FollowUpGroup` | `PlannedOrderComponent.FollowUpGroup` |
-| `PlannedOrderComponent.FollowUpMaterial` | `PlannedOrderComponent.FollowUpMaterial` |
-| `PlannedOrderComponent.FollowUpMaterialIsNotActive` | `PlannedOrderComponent.FollowUpMaterialIsNotActive` |
-| `PlannedOrderComponent.PlannedOrderLastChangeDateTime` | `PlannedOrderComponent.PlannedOrderLastChangeDateTime` |
-| `PlannedOrderComponent.ProductName` | `PlannedOrderComponent.ProductName` |
-| `PlannedOrderComponent.MRPControllerName` | `PlannedOrderComponent.MRPControllerName` |
-| `PlannedOrderComponent.StorageLocationName` | `PlannedOrderComponent.StorageLocationName` |
-| `PlannedOrderComponent.ProductionSupplyAreaName` | `PlannedOrderComponent.ProductionSupplyAreaName` |
-| `PlannedOrderComponent.PlantName` | `PlannedOrderComponent.PlantName` |
-| `PlannedOrderComponent.FollowUpMaterialText` | `PlannedOrderComponent.FollowUpMaterialText` |
-| `PlannedOrderComponent.DebitCreditCodeName` | `PlannedOrderComponent.DebitCreditCodeName` |
-| `PlannedOrderComponent.AssemblyProductText` | `PlannedOrderComponent.AssemblyProductText` |
-| `PlannedOrderComponent.BillOfMaterialItemCategoryDesc` | `PlannedOrderComponent.BillOfMaterialItemCategoryDesc` |
-| `PlannedOrderComponent.BillOfMaterialCategoryDesc` | `PlannedOrderComponent.BillOfMaterialCategoryDesc` |
-| `PlannedOrderComponent._PlannedOrder : redirected to parent I_PlannedOrderTP` | `PlannedOrderComponent._PlannedOrder : redirected to parent I_PlannedOrderTP` |
+| `PlannedOrder` | `PlannedOrderComponent.PlannedOrder` |
+| `Reservation` | `PlannedOrderComponent.Reservation` |
+| `ReservationItem` | `PlannedOrderComponent.ReservationItem` |
+| `BOMItem` | `PlannedOrderComponent.BOMItem` |
+| `BOMItemDescription` | `PlannedOrderComponent.BOMItemDescription` |
+| `BOMItemDescriptionLine2` | `PlannedOrderComponent.BOMItemDescriptionLine2` |
+| `BillOfMaterialCategory` | `PlannedOrderComponent.BillOfMaterialCategory` |
+| `BOMItemSorter` | `PlannedOrderComponent.BOMItemSorter` |
+| `BillOfMaterialItemNumber` | `PlannedOrderComponent.BillOfMaterialItemNumber` |
+| `BillOfMaterialInternalID` | `PlannedOrderComponent.BillOfMaterialInternalID` |
+| `BillOfMaterialVariant` | `PlannedOrderComponent.BillOfMaterialVariant` |
+| `BOMItemCategory` | `PlannedOrderComponent.BOMItemCategory` |
+| `Material` | `PlannedOrderComponent.Material` |
+| `MatlCompRequirementDate` | `PlannedOrderComponent.MatlCompRequirementDate` |
+| `GoodsMovementEntryQty` | `PlannedOrderComponent.GoodsMovementEntryQty` |
+| `EntryUnit` | `PlannedOrderComponent.EntryUnit` |
+| `RequiredQuantity` | `PlannedOrderComponent.RequiredQuantity` |
+| `BaseUnit` | `PlannedOrderComponent.BaseUnit` |
+| `DebitCreditCode` | `PlannedOrderComponent.DebitCreditCode` |
+| `ComponentScrapInPercent` | `PlannedOrderComponent.ComponentScrapInPercent` |
+| `QuantityIsFixed` | `PlannedOrderComponent.QuantityIsFixed` |
+| `Plant` | `PlannedOrderComponent.Plant` |
+| `StorageLocation` | `PlannedOrderComponent.StorageLocation` |
+| `SupplyArea` | `PlannedOrderComponent.SupplyArea` |
+| `MRPController` | `PlannedOrderComponent.MRPController` |
+| `MaterialComponentIsPhantomItem` | `PlannedOrderComponent.MaterialComponentIsPhantomItem` |
+| `OrderPathValue` | `PlannedOrderComponent.OrderPathValue` |
+| `OrderLevelValue` | `PlannedOrderComponent.OrderLevelValue` |
+| `Assembly` | `PlannedOrderComponent.Assembly` |
+| `AssemblyOrderPathValue` | `PlannedOrderComponent.AssemblyOrderPathValue` |
+| `AssemblyOrderLevelValue` | `PlannedOrderComponent.AssemblyOrderLevelValue` |
+| `DiscontinuationGroup` | `PlannedOrderComponent.DiscontinuationGroup` |
+| `MatlCompDiscontinuationType` | `PlannedOrderComponent.MatlCompDiscontinuationType` |
+| `MatlCompIsFollowUpMaterial` | `PlannedOrderComponent.MatlCompIsFollowUpMaterial` |
+| `FollowUpGroup` | `PlannedOrderComponent.FollowUpGroup` |
+| `FollowUpMaterial` | `PlannedOrderComponent.FollowUpMaterial` |
+| `FollowUpMaterialIsNotActive` | `PlannedOrderComponent.FollowUpMaterialIsNotActive` |
+| `PlannedOrderLastChangeDateTime` | `PlannedOrderComponent.PlannedOrderLastChangeDateTime` |
+| `ProductName` | `PlannedOrderComponent.ProductName` |
+| `MRPControllerName` | `PlannedOrderComponent.MRPControllerName` |
+| `StorageLocationName` | `PlannedOrderComponent.StorageLocationName` |
+| `ProductionSupplyAreaName` | `PlannedOrderComponent.ProductionSupplyAreaName` |
+| `PlantName` | `PlannedOrderComponent.PlantName` |
+| `FollowUpMaterialText` | `PlannedOrderComponent.FollowUpMaterialText` |
+| `DebitCreditCodeName` | `PlannedOrderComponent.DebitCreditCodeName` |
+| `AssemblyProductText` | `PlannedOrderComponent.AssemblyProductText` |
+| `BillOfMaterialItemCategoryDesc` | `PlannedOrderComponent.BillOfMaterialItemCategoryDesc` |
+| `BillOfMaterialCategoryDesc` | `PlannedOrderComponent.BillOfMaterialCategoryDesc` |
 
 ## Associations
 

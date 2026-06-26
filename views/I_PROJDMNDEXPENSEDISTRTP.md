@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProjDmndExpnDistributionUUID` | `ProjDmndExpnDistributionUUID` |
+| `ProjDmndExpnDistributionUUID` | `ProjDmndExpnDistributionUUID` |
 | `ProjectDemandExpenseUUID` | `ProjectDemandExpenseUUID` |
 | `ProjectDemandUUID` | `ProjectDemandUUID` |
 | `ProjDmndReferencedPlanDataUUID` | `ProjDmndReferencedPlanDataUUID` |
@@ -47,8 +47,6 @@ tags:
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_ProjectDemandExpense : redirected to parent I_ProjectDemandExpenseTP` | *Association* |
-| `_Root                 : redirected to I_ProjectDemandTP_2` | *Association* |
 
 ## Associations
 

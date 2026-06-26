@@ -31,12 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_PlantStdVH'` | `name:    'I_PlantStdVH'` |
-| `element: 'Plant' }` | `element: 'Plant' }` |
-| `useAsTemplate: true` | `useAsTemplate: true` |
-| `}]` | `}]` |
-| `key Plant` | `Plant` |
-| `key StorageLocation` | `StorageLocation` |
+| `Product` | `Product` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
 | `WarehouseStorageBin` | `WarehouseStorageBin` |
 | `MaintenanceStatus` | `MaintenanceStatus` |
 | `IsMarkedForDeletion` | `IsMarkedForDeletion` |
@@ -54,11 +51,11 @@ tags:
 | `HasInvtryBlockStockPrevPeriod` | `HasInvtryBlockStockPrevPeriod` |
 | `FiscalYearCurrentInvtryPeriod` | `FiscalYearCurrentInvtryPeriod` |
 | `LeanWrhsManagementPickingArea` | `LeanWrhsManagementPickingArea` |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `_Product` | *Association* |
 | `_Stock` | *Association* |
 | `_Plant` | *Association* |
-| `_StorageLocation, //ESH related associations` | *Association* |
+| `_StorageLocation` | *Association* |
 | `_MaterialStock` | *Association* |
 | `_ProductDescription_2` | *Association* |
 

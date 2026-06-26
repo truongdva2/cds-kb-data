@@ -55,8 +55,8 @@ tags:
 | `BOMVersionStatus` | `bom_header.BOMVersionStatus` |
 | `IsVersionBillOfMaterial` | `bom_header.IsVersionBillOfMaterial` |
 | `IsLatestBOMVersion` | `bom_header.IsLatestBOMVersion` |
-| `IsConfiguredMaterial, -- MAST-KZKFG` | `bom_header.IsConfiguredMaterial` |
-| `BOMTechnicalType` | `bom_header.BOMTechnicalType` |
+| `IsConfiguredMaterial` | `bom_header.IsConfiguredMaterial` |
+| `BOMTechnicalType` | `-- MAST-KZKFG bom_header.BOMTechnicalType` |
 | `BOMGroup` | `bom_header.BOMGroup` |
 | `BOMHeaderText` | `bom_header.BOMHeaderText` |
 | `BOMAlternativeText` | `bom_header.BOMAlternativeText` |
@@ -78,7 +78,7 @@ tags:
 | `DocumentIsCreatedByCAD` | `bom_header.DocumentIsCreatedByCAD` |
 | `LaboratoryOrDesignOffice` | `bom_header.LaboratoryOrDesignOffice` |
 | `BOMAssetNtwkHndovrIsRelevant` | `bom_header.BOMAssetNtwkHndovrIsRelevant` |
-| `bom_header.LastChangeDateTime` | `bom_header.LastChangeDateTime` |
+| `LastChangeDateTime` | `bom_header.LastChangeDateTime` |
 | `SoldToParty` | `bom_header.SoldToParty` |
 | `PurchaseOrderByCustomer` | `bom_header.PurchaseOrderByCustomer` |
 | `IndicatorIsBOMWithDateHistory` | `bom_header.IndicatorIsBOMWithDateHistory` |
@@ -95,13 +95,12 @@ tags:
 | `MaterialType` | `bom_header.MaterialType` |
 | `MaterialName` | `bom_header.MaterialName` |
 | `MaterialBOMObjectID` | `bom_header.MaterialBOMObjectID` |
-| `bom_header.LongTextLanguage` | `bom_header.LongTextLanguage` |
-| `bom_header.BOMPrioritizedVersion` | `bom_header.BOMPrioritizedVersion` |
+| `LongTextLanguage` | `bom_header.LongTextLanguage` |
+| `BOMPrioritizedVersion` | `bom_header.BOMPrioritizedVersion` |
 | `BOMPredecessorVersion` | `bom_header.BOMPredecessorVersion` |
-| `bom_header.BOMIsConfigurable` | `bom_header.BOMIsConfigurable` |
-| `bom_header.BOMIsArchivedForDeletion` | `bom_header.BOMIsArchivedForDeletion` |
+| `BOMIsConfigurable` | `bom_header.BOMIsConfigurable` |
+| `BOMIsArchivedForDeletion` | `bom_header.BOMIsArchivedForDeletion` |
 | `_BillOfMaterialUsage` | *Association* |
-| `_BillOfMaterialItem:  redirected to composition child I_SlsOrdBillOfMaterialItemTP_3` | *Association* |
 
 ## Associations
 

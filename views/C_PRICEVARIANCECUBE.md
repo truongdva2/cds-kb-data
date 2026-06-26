@@ -31,43 +31,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Keys */` | `/* Keys */` |
-| `vdm_purchaseorder )` | `cast( PriceVariance.PurchaseOrder` |
-| `vdm_purchaseorderitem)` | `cast(PriceVariance.PurchaseOrderItem` |
-| `key PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
-| `key SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
+| `PurchaseOrder` | `cast( PriceVariance.PurchaseOrder as vdm_purchaseorder )` |
+| `PurchaseOrderItem` | `cast(PriceVariance.PurchaseOrderItem as vdm_purchaseorderitem)` |
+| `PurgDocMigrtnIsCmpltdForAnlyts` | `PurgDocMigrtnIsCmpltdForAnlyts` |
+| `SuplrEvalRelevantDocCategory` | `SuplrEvalRelevantDocCategory` |
 | `PurchaseOrderDate` | `PurchaseOrderDate` |
-| `_Calendar.CalendarYear` | *Association* |
-| `_Calendar.CalendarQuarter` | *Association* |
-| `_Calendar.CalendarMonth` | *Association* |
-| `_Calendar.CalendarWeek` | *Association* |
-| `/* Org Data */` | `/* Org Data */` |
-| `PriceVariance.PurchasingOrganization` | `PriceVariance.PurchasingOrganization` |
+| `CalendarYear` | `_Calendar.CalendarYear` |
+| `CalendarQuarter` | `_Calendar.CalendarQuarter` |
+| `CalendarMonth` | `_Calendar.CalendarMonth` |
+| `CalendarWeek` | `_Calendar.CalendarWeek` |
+| `PurchasingOrganization` | `PriceVariance.PurchasingOrganization` |
 | `PurchasingGroup` | `PurchasingGroup` |
 | `CompanyCode` | `CompanyCode` |
 | `Supplier` | `Supplier` |
-| `mm_a_supplier_country )` | `cast( _Supplier.Country` |
-| `_Supplier.Region` | *Association* |
+| `SupplierCountry` | `cast( _Supplier.Country as mm_a_supplier_country )` |
+| `Region` | `_Supplier.Region` |
 | `Plant` | `Plant` |
 | `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
 | `PurchasingCategory` | `PriceVariance.PurchasingCategory` |
 | `PurgCatName` | `PurgCatName` |
-| `PriceVariance.PurchasingDocumentCategory` | `PriceVariance.PurchasingDocumentCategory` |
+| `PurchasingDocumentCategory` | `PriceVariance.PurchasingDocumentCategory` |
 | `Currency` | `Currency` |
 | `PurchaseOrderQuantityUnit` | `PurchaseOrderQuantityUnit` |
 | `OrderPriceUnit` | `OrderPriceUnit` |
 | `DisplayCurrency` | `DisplayCurrency` |
-| `/* Measures */` | `/* Measures */` |
-| `mm_ana_price_var_pct)` | `cast(PriceVarianceInPct` |
-| `abap.curr(13,3))` | `cast(PriceVarianceAmount` |
-| `abap.curr(13,3))` | `cast(PurchaseOrderNetPriceAmount` |
-| `abap.curr(13,3))` | `cast(InvoicePrice` |
+| `PriceVarianceInPct` | `cast(PriceVarianceInPct as mm_ana_price_var_pct)` |
+| `PriceVarianceAmount` | `cast(PriceVarianceAmount as abap.curr(13,3))` |
+| `PurchaseOrderNetPriceAmount` | `cast(PurchaseOrderNetPriceAmount as abap.curr(13,3))` |
+| `InvoicePrice` | `cast(InvoicePrice as abap.curr(13,3))` |
 | `DeliveredQuantity` | `DeliveredQuantity` |
 | `OrderedQuantity` | `OrderedQuantity` |
 | `PriceVarianceScore` | `PriceVarianceScore` |
-| `mm_pur_ana_numbrofpurords )` | `cast( 1` |
-| `mm_pur_ana_numbrofpurorditms )` | `cast( 1` |
+| `NumberOfPurchaseOrders` | `cast( 1 as mm_pur_ana_numbrofpurords )` |
+| `NumberOfPurchaseOrderItems` | `cast( 1 as mm_pur_ana_numbrofpurorditms )` |
 | `_PurchasingOrganization` | *Association* |
 | `_PurchasingGroup` | *Association* |
 | `_Country` | *Association* |

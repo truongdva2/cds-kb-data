@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderInternalID` | `OrderInternalID` |
-| `key OrderOperationInternalID` | `OrderOperationInternalID` |
+| `OrderInternalID` | `OrderInternalID` |
+| `OrderOperationInternalID` | `OrderOperationInternalID` |
 | `ProcessOrder` | `ProcessOrder` |
 | `ProcessOrderSequence` | `ProcessOrderSequence` |
 | `ProcessOrderOperation` | `ProcessOrderOperation` |
@@ -40,7 +40,7 @@ tags:
 | `OperationHasLongText` | `OperationHasLongText` |
 | `LongTextLanguage` | `LongTextLanguage` |
 | `OperationStandardTextCode` | `OperationStandardTextCode` |
-| `OperationIsToBeDeleted, // not changeable - deprecate/remove in subsequent version` | `OperationIsToBeDeleted, // not changeable - deprecate/remove in subsequent version` |
+| `OperationIsToBeDeleted` | `OperationIsToBeDeleted` |
 | `Plant` | `Plant` |
 | `ProductionResource` | `ProductionResource` |
 | `ProductionResourceInternalID` | `ProductionResourceInternalID` |
@@ -54,10 +54,10 @@ tags:
 | `Reservation` | `Reservation` |
 | `NumberOfConfirmationSlips` | `NumberOfConfirmationSlips` |
 | `CostElement` | `CostElement` |
-| `EmployeeSuitability, // not changeable - deprecate/remove in subsequent version` | `EmployeeSuitability, // not changeable - deprecate/remove in subsequent version` |
-| `EmployeeWageType,    // not changeable - deprecate/remove in subsequent version` | `EmployeeWageType,    // not changeable - deprecate/remove in subsequent version` |
-| `EmployeeWageGroup,   // not changeable - deprecate/remove in subsequent version` | `EmployeeWageGroup,   // not changeable - deprecate/remove in subsequent version` |
-| `NumberOfEmployees,   // not changeable - deprecate/remove in subsequent version` | `NumberOfEmployees,   // not changeable - deprecate/remove in subsequent version` |
+| `EmployeeSuitability` | `EmployeeSuitability` |
+| `EmployeeWageType` | `EmployeeWageType` |
+| `EmployeeWageGroup` | `EmployeeWageGroup` |
+| `NumberOfEmployees` | `NumberOfEmployees` |
 | `NumberOfTimeTickets` | `NumberOfTimeTickets` |
 | `OperationSetupGroupCategory` | `OperationSetupGroupCategory` |
 | `OperationSetupGroup` | `OperationSetupGroup` |
@@ -83,7 +83,7 @@ tags:
 | `OpExternalProcessingCurrency` | `OpExternalProcessingCurrency` |
 | `OpExternalProcessingPrice` | `OpExternalProcessingPrice` |
 | `NumberOfOperationPriceUnits` | `NumberOfOperationPriceUnits` |
-| `CompanyCode, // remove in new version` | `CompanyCode, // remove in new version` |
+| `CompanyCode` | `CompanyCode` |
 | `BusinessArea` | `BusinessArea` |
 | `ProfitCenter` | `ProfitCenter` |
 | `RequestingCostCenter` | `RequestingCostCenter` |
@@ -158,11 +158,6 @@ tags:
 | `NoFurtherBusinessProcQtyIsExpd` | `NoFurtherBusinessProcQtyIsExpd` |
 | `BusinessProcRemainingQtyUnit` | `BusinessProcRemainingQtyUnit` |
 | `BusinessProcessRemainingQty` | `BusinessProcessRemainingQty` |
-| `_Order     : redirected to parent I_ProcessOrderTP` | *Association* |
-| `_Phase     : redirected to composition child I_ProcessOrderPhaseTP` | *Association* |
-| `_Component : redirected to I_ProcessOrderComponentTP` | *Association* |
-| `_OperationCapacity : redirected to composition child I_ProcOrdOperationCapacityTP` | *Association* |
-| `_PhaseCapacity : redirected to I_ProcessOrderPhaseCapacityTP` | *Association* |
 
 ## Associations
 

@@ -32,25 +32,25 @@ tags:
 |---|---|
 | `KeyDate` | `key_date` |
 | `TreasuryValuationArea` | `valuation_area` |
-| `ftr_gen_valuation_class preserving type )` | `cast( valuation_class` |
+| `TreasuryValuationClass` | `cast( valuation_class as ftr_gen_valuation_class preserving type )` |
 | `CompanyCode` | `company_code` |
-| `ftr_gen_security_account preserving type )` | `cast(security_account` |
-| `ftr_gen_security_class preserving type )` | `cast(security_id` |
+| `SecurityAccount` | `cast(security_account as ftr_gen_security_account preserving type )` |
+| `SecurityClass` | `cast(security_id as ftr_gen_security_class preserving type )` |
 | `Portfolio` | `portfolio` |
-| `ftr_gen_sec_account_group preserving type )` | `cast( account_group` |
+| `SecurityAccountGroup` | `cast( account_group as ftr_gen_sec_account_group preserving type )` |
 | `TreasuryPositionLotUUID` | `lot_id` |
 | `FinancialTransaction` | `deal_number` |
 | `Fund` | `fund` |
 | `GrantID` | `grant_nbr` |
-| `ps_s4_pspnr preserving type)` | `cast(wbs_element` |
+| `WBSElementInternalID` | `cast(wbs_element as ps_s4_pspnr preserving type)` |
 | `CostCenter` | `cost_center` |
 | `ProfitCenter` | `profit_center` |
 | `FunctionalArea` | `functional_area` |
-| `tpm_cust_diff_term_1_value preserving type )` | `cast(custom_diff_term_1` |
-| `tpm_cust_diff_term_2_value preserving type )` | `cast(custom_diff_term_2` |
-| `tpm_cust_diff_term_3_value preserving type )` | `cast( custom_diff_term_3` |
-| `tpm_cust_diff_term_4_value preserving type )` | `cast(custom_diff_term_4` |
-| `tpm_cust_diff_term_5_value preserving type )` | `cast(custom_diff_term_5` |
+| `TrsyPosCustomDiffntnTerm1` | `cast(custom_diff_term_1 as tpm_cust_diff_term_1_value preserving type )` |
+| `TrsyPosCustomDiffntnTerm2` | `cast(custom_diff_term_2 as tpm_cust_diff_term_2_value preserving type )` |
+| `TrsyPosCustomDiffntnTerm3` | `cast( custom_diff_term_3 as tpm_cust_diff_term_3_value preserving type )` |
+| `TrsyPosCustomDiffntnTerm4` | `cast(custom_diff_term_4 as tpm_cust_diff_term_4_value preserving type )` |
+| `TrsyPosCustomDiffntnTerm5` | `cast(custom_diff_term_5 as tpm_cust_diff_term_5_value preserving type )` |
 | `CostExcldBookValueAmtInPosCrcy` | `obv_ec_pc` |
 | `PositionCurrency` | `position_curr` |
 | `CostExcldBookValAmtInValnCrcy` | `obv_ec_vc` |

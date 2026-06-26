@@ -32,14 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
-| `key Batch` | `Batch` |
+| `Material` | `Material` |
+| `BatchIdentifyingPlant` | `BatchIdentifyingPlant` |
+| `Batch` | `Batch` |
 | `ClassInternalID` | `ClassInternalID` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Compositions */` | `/* Compositions */` |
-| `_BatchTP : redirected to parent I_BatchTP_2` | *Association* |
-| `/* DCL */` | `/* DCL */` |
 | `ClassType` | `ClassType` |
 | `_Class` | *Association* |
 

@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ico_type_gfn_kk preserving type )` | `cast( _tfk8250st.ico_type` |
-| `ico_subtype_gfn_kk preserving type )` | `cast( _tfk8250st.ico_subtype` |
+| `CAIntcoType` | `cast( _tfk8250st.ico_type as ico_type_gfn_kk preserving type )` |
+| `CAIntcoSubtype` | `cast( _tfk8250st.ico_subtype as ico_subtype_gfn_kk preserving type )` |
 | `Language` | `_tfk8250st.langu` |
-| `ico_subtype_txt_gfn_kk preserving type )` | `cast( _tfk8250st.text` |
+| `CAIntcoSubtypeText` | `cast( _tfk8250st.text as ico_subtype_txt_gfn_kk preserving type )` |
 | `_CAIntcoType` | *Association* |
 | `_Language` | *Association* |
 

@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CompanyCode` | `CompanyCode` |
-| `key TR_EDocBusinessPartnerAlias` | `TR_EDocBusinessPartnerAlias` |
-| `key TR_ElectronicDocumentUnivCode` | `TR_ElectronicDocumentUnivCode` |
-| `key TR_EDocNumberRange` | `TR_EDocNumberRange` |
+| `CompanyCode` | `CompanyCode` |
+| `TR_EDocBusinessPartnerAlias` | `TR_EDocBusinessPartnerAlias` |
+| `TR_ElectronicDocumentUnivCode` | `TR_ElectronicDocumentUnivCode` |
+| `TR_EDocNumberRange` | `TR_EDocNumberRange` |
 | `TR_EDocUnivCodeText` | `TR_EDocUnivCodeText` |
-| `_CompanyCode.CompanyCode as TR_ElectronicDocCompanyCode` | *Association* |
+| `TR_ElectronicDocCompanyCode` | `_CompanyCode.CompanyCode` |
 
 ## Associations
 

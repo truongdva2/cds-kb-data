@@ -35,15 +35,15 @@ tags:
 | `ProductInternalUUID` | `ProductEWMWarehouse.matid` |
 | `SupplyChainUnitUUID` | `ProductEWMWarehouse.scuguid` |
 | `EWMPartyEntitledToDisposeUUID` | `ProductEWMWarehouse.entitled_id` |
-| `_Product[inner].Product` | *Association* |
-| `_BusinessPartner[inner].BusinessPartner` | *Association* |
-| `_AssgWhseBusinessPartner[inner].EWMWarehouse                                         as EWMWarehouse` | *Association* |
+| `Product` | `_Product[inner].Product` |
+| `BusinessPartner` | `_BusinessPartner[inner].BusinessPartner` |
+| `EWMWarehouse` | `_AssgWhseBusinessPartner[inner].EWMWarehouse` |
 | `EWMProductProcessBlockProfile` | `ProductEWMWarehouse.procprfl` |
 | `EWMWarehouseProcessType` | `ProductEWMWarehouse.ptdetind` |
 | `EWMProcessTypeControlCode` | `ProductEWMWarehouse.ptdetind` |
 | `EWMProductLoadCategory` | `ProductEWMWarehouse.wrkldgr` |
 | `EWMPhysInventoryCountingCycle` | `ProductEWMWarehouse.ccind` |
-| `cmd_prd_shelf_life_req_min_n preserving type )` | `cast( ProductEWMWarehouse.slrq_min` |
+| `RequiredMinShelfLife` | `cast(…)` |
 | `EWMProdBackflushWthdrwlMethod` | `ProductEWMWarehouse.backflush_prod` |
 | `EWMKitQuantityCorrelation` | `ProductEWMWarehouse.kit_fixed_quan` |
 | `EWMIsCnsmpnRlvtForValAddedSrvc` | `ProductEWMWarehouse.vasvcp` |
@@ -60,8 +60,8 @@ tags:
 | `EWMStockDeterminationGroup` | `ProductEWMWarehouse.stckdetgr` |
 | `EWMProdTwoStepPickingRelevant` | `ProductEWMWarehouse.l2skr` |
 | `EWMStggAreaDeterminationGroup` | `ProductEWMWarehouse.drdetgr` |
-| `_Product[inner].BaseUnit                                                             as BaseUnit` | *Association* |
-| `_Product[inner]._BaseUnitOfMeasure` | *Association* |
+| `BaseUnit` | `_Product[inner].BaseUnit` |
+| `_BaseUnitOfMeasure` | *Association* |
 | `EWMSltgRequirementQuantity` | `ProductEWMWarehouse.demqty` |
 | `EWMSltgNumberOfSalesOrderItems` | `ProductEWMWarehouse.nosoi` |
 | `EWMSltgRecmddStorageQuantity` | `ProductEWMWarehouse.rsqty` |

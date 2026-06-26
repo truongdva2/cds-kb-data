@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurgCatPlndSpendUUID` | `PurgCatPlndSpendUUID` |
+| `PurgCatPlndSpendUUID` | `PurgCatPlndSpendUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `PurgCatPlndSpendValidFromDate` | `PurgCatPlndSpendValidFromDate` |
 | `PurgCatPlndSpendValidToDate` | `PurgCatPlndSpendValidToDate` |

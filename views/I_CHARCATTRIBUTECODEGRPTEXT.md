@@ -33,8 +33,7 @@ tags:
 |---|---|
 | `CharacteristicAttributeCodeGrp` | `qpgt.codegruppe` |
 | `Language` | `sprache` |
-| `vdm_qktextgr preserving type )` | `cast( kurztext` |
-| `/* Associations */` | `/* Associations */` |
+| `CharacteristicAttribCodeGrpTxt` | `cast( kurztext as vdm_qktextgr preserving type )` |
 | `_CharcAttributeCodeGrp` | *Association* |
 | `_Language` | *Association* |
 

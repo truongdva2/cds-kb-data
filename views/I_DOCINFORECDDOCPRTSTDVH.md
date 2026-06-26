@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
-| `key DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
-| `key DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
-| `key DocumentInfoRecordDocPart` | `DocumentInfoRecordDocPart` |
+| `DocumentInfoRecordDocType` | `DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `DocumentInfoRecordDocVersion` |
+| `DocumentInfoRecordDocPart` | `DocumentInfoRecordDocPart` |
 | `_DocType` | *Association* |
 | `_DocNumber` | *Association* |
 | `_DocVersion` | *Association* |

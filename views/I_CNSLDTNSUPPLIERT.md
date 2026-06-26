@@ -32,11 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'SupplierName' }` | `status: #DEPRECATED, successor: 'SupplierName' }` |
-| `fincs_description_text_80 preserving type )` | `cast( _Source.SupplierName` |
-| `fincs_suppliername preserving type )` | `cast( _Source.SupplierName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `Supplier` | `cast( _Source.Supplier as fincs_supplier preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `AdditionalMasterDataText` | `cast( _Source.SupplierName as fincs_description_text_80 preserving type )` |
+| `SupplierName` | `cast( _Source.SupplierName as fincs_suppliername preserving type )` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_Supplier` | *Association* |
 

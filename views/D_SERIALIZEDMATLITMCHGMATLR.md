@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Material     : matnr;` | `Material     : matnr;` |
-| `SerialNumber : gernr;` | `SerialNumber : gernr;` |
+| `Material` | `matnr` |
+| `SerialNumber` | `gernr` |
 
 ## Associations
 

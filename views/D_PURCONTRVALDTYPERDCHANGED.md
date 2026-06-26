@@ -29,10 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PurContrValidityStartDate : kdatb;` | `PurContrValidityStartDate : kdatb;` |
-| `PurContrValidityEndDate : kdate;` | `PurContrValidityEndDate : kdate;` |
-| `PurContrPrevValidityStartDate : kdatb;` | `PurContrPrevValidityStartDate : kdatb;` |
-| `PurContrPrevValidityEndDate : kdate;` | `PurContrPrevValidityEndDate : kdate;` |
+| `PurContrValidityStartDate` | `kdatb` |
+| `PurContrValidityEndDate` | `kdate` |
+| `PurContrPrevValidityStartDate` | `kdatb` |
+| `PurContrPrevValidityEndDate` | `kdate` |
 
 ## Associations
 

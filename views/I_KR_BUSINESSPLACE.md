@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'I_CompanyCodeVH', element: 'CompanyCode'}, useAsTemplate : true }]` | `name : 'I_CompanyCodeVH', element: 'CompanyCode'}, useAsTemplate : true }]` |
-| `key CompanyCode` | `CompanyCode` |
+| `Branch` | `Branch` |
+| `CompanyCode` | `CompanyCode` |
 | `TaxNumber1` | `TaxNumber1` |
 | `VATRegistration` | `TaxNumber2` |
 | `CompanyName` | `CompanyName` |
@@ -42,7 +42,7 @@ tags:
 | `DistrictTaxOffice` | `DistrictTaxOffice` |
 | `BusinessPlaceName` | `BusinessPlaceName` |
 | `PostalCode` | `PostalCode` |
-| `idkr_addressname)` | `cast( AddressName` |
+| `AddressName` | `cast( AddressName as idkr_addressname)` |
 | `PhoneNumber` | `PhoneNumber` |
 | `CityName` | `CityName` |
 | `StreetName` | `StreetName` |
@@ -55,8 +55,8 @@ tags:
 | `TaxInvoiceRepresentativeName1` | `TaxInvoiceRepresentativeName1` |
 | `IndustryTypeList` | `IndustryTypeList` |
 | `BusinessTypeList` | `BusinessTypeList` |
-| `MobilePhoneNumber, //CE 2208 General VAT Form` | `MobilePhoneNumber, //CE 2208 General VAT Form` |
-| `KR_TaxBusinessCode //CE2308 General taxpayer VAT report txt file` | `KR_TaxBusinessCode //CE2308 General taxpayer VAT report txt file` |
+| `MobilePhoneNumber` | `MobilePhoneNumber` |
+| `KR_TaxBusinessCode` | `KR_TaxBusinessCode` |
 
 ## Associations
 

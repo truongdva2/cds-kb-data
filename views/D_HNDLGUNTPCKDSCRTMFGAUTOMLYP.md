@@ -29,12 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ProductionOrder : aufnr;` | `ProductionOrder : aufnr;` |
-| `Quantity : vemng;` | `Quantity : vemng;` |
-| `UnitOfMeasure : vemeh;` | `UnitOfMeasure : vemeh;` |
-| `StorageLocation : lgort_d;` | `StorageLocation : lgort_d;` |
-| `Batch : charg_d ;` | `Batch : charg_d ;` |
-| `PackingInstructionNumber : pl_pobjid;` | `PackingInstructionNumber : pl_pobjid;` |
+| `ProductionOrder` | `aufnr` |
+| `Quantity` | `vemng` |
+| `UnitOfMeasure` | `vemeh` |
+| `StorageLocation` | `lgort_d` |
+| `Batch` | `charg_d` |
+| `PackingInstructionNumber` | `pl_pobjid` |
 
 ## Associations
 

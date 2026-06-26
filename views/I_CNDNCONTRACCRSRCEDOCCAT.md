@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wcb_accdoc_category )` | `cast( dd07l.domvalue_l` |
+| `AccrSrceDocCategory` | `cast( dd07l.domvalue_l as wcb_accdoc_category )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CndnContrAccrSrceDocCatTxt` | [0..*] |
 
 ## Source Code
 

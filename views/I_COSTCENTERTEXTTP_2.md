@@ -34,15 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ControllingArea` | `ControllingArea` |
-| `key CostCenter` | `CostCenter` |
-| `key ValidityEndDate` | `ValidityEndDate` |
+| `Language` | `Language` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `ValidityEndDate` | `ValidityEndDate` |
 | `LanguageForEdit` | `LanguageForEdit` |
 | `CostCenterName` | `CostCenterName` |
 | `CostCenterDescription` | `CostCenterDescription` |
-| `/* Associations */` | `/* Associations */` |
-| `_CostCenterTP : redirected to parent I_CostCenterTP_2` | *Association* |
 
 ## Associations
 

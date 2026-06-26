@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ConditionUsage` | `ConditionUsage` |
-| `key  ConditionApplication` | `ConditionApplication` |
-| `key  PricingProcedure` | `PricingProcedure` |
+| `ConditionUsage` | `ConditionUsage` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PricingProcedure` | `PricingProcedure` |
 | `_ConditionUsage` | *Association* |
 | `_ConditionApplication` | *Association* |
 | `_Text` | *Association* |

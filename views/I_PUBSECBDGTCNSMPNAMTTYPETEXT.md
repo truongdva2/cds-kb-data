@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key cast( cast ( substring( dd07t.domvalue_l, 1, 4 )` | `cast( cast ( substring( dd07t.domvalue_l, 1, 4 )` |
-| `psm_bdgt_cnsmpn_amount_type )` | `as abap.char( 4 ) )` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `psm_bdgt_cnsmpn_amt_type_text preserving type )` | `cast ( dd07t.ddtext` |
+| `PubSecBudgetCnsmpnAmtType` | `cast(…)` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `PubSecBdgtCnsmpnAmtTypeText` | `cast ( dd07t.ddtext as psm_bdgt_cnsmpn_amt_type_text preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `_PubSecBdgtCnsmpnAmtType` | *Association* |
 | `_Language` | *Association* |
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PubSecBdgtCnsmpnAmtType` | `I_PubSecBdgtCnsmpnAmtType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

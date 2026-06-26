@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `Item  : ehfnd_log_doc_posnr; // Item position Number` | `Item  : ehfnd_log_doc_posnr; // Item position Number` |
-| `_Root : association to parent D_PCLgsDcGetDngrsGoodsEDIInfoP;` | *Association* |
+| `Item` | `ehfnd_log_doc_posnr` |
+| `_Root` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Root` | `D_PCLgsDcGetDngrsGoodsEDIInfoP` | — |
 
 ## Source Code
 

@@ -35,7 +35,7 @@ tags:
 |---|---|
 | `Product` | `makt.matnr` |
 | `Language` | `makt.spras` |
-| `productdescription preserving type )` | `cast(makt.maktx` |
+| `ProductName` | `cast(makt.maktx as productdescription preserving type )` |
 | `_Product` | *Association* |
 
 ## Associations

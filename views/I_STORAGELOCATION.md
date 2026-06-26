@@ -30,7 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ConfignDeprecationCode', element: 'ConfigurationDeprecationCode' }, useAsTemplate: true    }]` | `name:    'I_ConfignDeprecationCode', element: 'ConfigurationDeprecationCode' }, useAsTemplate: true    }]` |
+| `Plant` | `werks` |
+| `StorageLocation` | `lgort` |
+| `StorageLocationName` | `cast(lgobe as lgort_name)` |
+| `SalesOrganization` | `vkorg` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `IsStorLocAuthznCheckActive` | `xblgo` |
+| `HandlingUnitIsRequired` | `xhupf` |
 | `ConfigDeprecationCode` | `configdeprecationcode` |
 | `_Plant` | *Association* |
 | `_ConfignDeprecationCode` | *Association* |

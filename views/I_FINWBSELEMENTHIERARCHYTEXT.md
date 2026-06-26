@@ -34,18 +34,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `WBSElementHierarchy` | `R_WBSElementHierarchyText.WBSElementHierarchy` |
-| `key  Language` | `Language` |
-| `key  ValidityEndDate` | `ValidityEndDate` |
-| `ValidityStartDate` | `ValidityStartDate` |
-| `WBSElementHierarchyText` | `WBSElementHierarchyText` |
+| `WBSElementHierarchy` | `R_FinWBSElementHierarchyText.WBSElementHierarchy` |
+| `Language` | `R_FinWBSElementHierarchyText.Language` |
+| `ValidityEndDate` | `R_FinWBSElementHierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `R_FinWBSElementHierarchyText.ValidityStartDate` |
+| `WBSElementHierarchyText` | `R_FinWBSElementHierarchyText.WBSElementHierarchyText` |
 | `_Language` | *Association* |
 
 ## Associations
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_Language` | `I_Language` | [0..1] |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

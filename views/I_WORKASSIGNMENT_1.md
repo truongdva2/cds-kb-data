@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkAssignmentKeymap.WorkAssignmentExternalID` | `WorkAssignmentKeymap.WorkAssignmentExternalID` |
-| `key WorkAssignmentKeymap.Country2DigitISOCode` | `WorkAssignmentKeymap.Country2DigitISOCode` |
-| `WorkAssignmentKeymap.WorkforcePersonExternalID` | `WorkAssignmentKeymap.WorkforcePersonExternalID` |
-| `WorkAssignmentKeymap.WorkAssignmentStartDate` | `WorkAssignmentKeymap.WorkAssignmentStartDate` |
-| `WorkAssignmentKeymap.WorkAssignmentEndDate` | `WorkAssignmentKeymap.WorkAssignmentEndDate` |
-| `WorkAssignmentKeymap.IsContingentWorker` | `WorkAssignmentKeymap.IsContingentWorker` |
-| `WorkAssignmentKeymap.IsBlocked` | `WorkAssignmentKeymap.IsBlocked` |
+| `WorkAssignmentExternalID` | `WorkAssignmentKeymap.WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `WorkAssignmentKeymap.Country2DigitISOCode` |
+| `WorkforcePersonExternalID` | `WorkAssignmentKeymap.WorkforcePersonExternalID` |
+| `WorkAssignmentStartDate` | `WorkAssignmentKeymap.WorkAssignmentStartDate` |
+| `WorkAssignmentEndDate` | `WorkAssignmentKeymap.WorkAssignmentEndDate` |
+| `IsContingentWorker` | `WorkAssignmentKeymap.IsContingentWorker` |
+| `IsBlocked` | `WorkAssignmentKeymap.IsBlocked` |
 | `_WorkAssignmentDetail` | *Association* |
 | `_WorkforcePerson` | *Association* |
 

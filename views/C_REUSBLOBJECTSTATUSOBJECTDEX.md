@@ -33,9 +33,9 @@ tags:
 | Field | Data Source |
 |---|---|
 | `RealEstateUsableObjectUUID` | `REGenericRentalObjectUUID` |
-| `key StatusProfile` | `StatusProfile` |
-| `key StatusCode` | `StatusCode` |
-| `_REUsableObject.InternalRealEstateNumber` | *Association* |
+| `StatusProfile` | `StatusProfile` |
+| `StatusCode` | `StatusCode` |
+| `InternalRealEstateNumber` | `_REUsableObject.InternalRealEstateNumber` |
 | `REStatusObject` | `REStatusObject` |
 | `IsUserStatus` | `IsUserStatus` |
 | `StatusIsInactive` | `StatusIsInactive` |
@@ -45,7 +45,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_REUsableObject` | `I_REUsableObject` | — |
 
 ## Source Code
 

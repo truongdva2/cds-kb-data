@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
 
 ## Associations
 

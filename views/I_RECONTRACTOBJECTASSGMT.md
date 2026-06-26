@@ -31,29 +31,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _REObjectAssgmt.REStatusObjectSource` | `_REObjectAssgmt.REStatusObjectSource` |
-| `key _REObjectAssgmt.REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
-| `key _REObjectAssgmt.REStatusObjectTarget` | `_REObjectAssgmt.REStatusObjectTarget` |
-| `key _REObjectAssgmt.ValidityStartDate` | `_REObjectAssgmt.ValidityStartDate` |
-| `_REObjectAssgmt.ValidityEndDate` | *Association* |
-| `_REObjectAssgmt.REOnlyInfoAssgmt` | *Association* |
-| `_REObjectAssgmt.REStatusObjectSourceIsArchived` | *Association* |
-| `_REObjectAssgmt.REGenerationType` | *Association* |
-| `_REObjectAssgmt.REIsMainAsset` | *Association* |
-| `_REObjectAssgmt.REAssignmentHasMultiple` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionStartDate` | *Association* |
-| `_REObjectAssgmt.REObjectPossessionEndDate` | *Association* |
-| `_REObjectAssgmt.REIsLeadingObject` | *Association* |
-| `_REObjectAssgmt._CostCenter` | *Association* |
-| `_REObjectAssgmt._FixedAsset` | *Association* |
-| `_REObjectAssgmt._InternalOrder` | *Association* |
-| `_REObjectAssgmt._REContractSubject` | *Association* |
-| `_REObjectAssgmt._REGenerationType` | *Association* |
-| `_REObjectAssgmt._REObjectAssignmentType` | *Association* |
-| `_REObjectAssgmt._REObjectGroup` | *Association* |
-| `_REObjectAssgmt._REObjectTypeDetails` | *Association* |
-| `_REObjectAssgmt._TechnicalObject` | *Association* |
-| `_REObjectAssgmt._WBSElement` | *Association* |
+| `REStatusObjectSource` | `_REObjectAssgmt.REStatusObjectSource` |
+| `REObjectAssignmentType` | `_REObjectAssgmt.REObjectAssignmentType` |
+| `REStatusObjectTarget` | `_REObjectAssgmt.REStatusObjectTarget` |
+| `ValidityStartDate` | `_REObjectAssgmt.ValidityStartDate` |
+| `ValidityEndDate` | `_REObjectAssgmt.ValidityEndDate` |
+| `REOnlyInfoAssgmt` | `_REObjectAssgmt.REOnlyInfoAssgmt` |
+| `REStatusObjectSourceIsArchived` | `_REObjectAssgmt.REStatusObjectSourceIsArchived` |
+| `REGenerationType` | `_REObjectAssgmt.REGenerationType` |
+| `REIsMainAsset` | `_REObjectAssgmt.REIsMainAsset` |
+| `REAssignmentHasMultiple` | `_REObjectAssgmt.REAssignmentHasMultiple` |
+| `REObjectPossessionStartDate` | `_REObjectAssgmt.REObjectPossessionStartDate` |
+| `REObjectPossessionEndDate` | `_REObjectAssgmt.REObjectPossessionEndDate` |
+| `REIsLeadingObject` | `_REObjectAssgmt.REIsLeadingObject` |
+| `_CostCenter` | *Association* |
+| `_FixedAsset` | *Association* |
+| `_InternalOrder` | *Association* |
+| `_REContractSubject` | *Association* |
+| `_REGenerationType` | *Association* |
+| `_REObjectAssignmentType` | *Association* |
+| `_REObjectGroup` | *Association* |
+| `_REObjectTypeDetails` | *Association* |
+| `_TechnicalObject` | *Association* |
+| `_WBSElement` | *Association* |
 | `_REContract` | *Association* |
 
 ## Associations

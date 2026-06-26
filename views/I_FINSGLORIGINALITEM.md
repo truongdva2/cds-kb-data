@@ -36,7 +36,7 @@ tags:
 | `LedgerGroup` | `ldgrp` |
 | `CompanyCode` | `bukrs` |
 | `AccountingDocument` | `belnr` |
-| `fis_gjahr_no_conv )` | `cast( gjahr` |
+| `FiscalYear` | `cast( gjahr as fis_gjahr_no_conv )` |
 | `PostingDate` | `budat` |
 | `GLAccount` | `hkont` |
 | `PartnerCompany` | `vbund` |

@@ -32,36 +32,36 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `equnr )` | `cast( Valuation.ClfnObjectID` |
-| `key Valuation.ClassType` | `Valuation.ClassType` |
+| `Equipment` | `cast( Valuation.ClfnObjectID as equnr )` |
+| `ClassType` | `Valuation.ClassType` |
 | `ClfnCharcValuePositionNumber` | `Valuation.CharcValuePositionNumber` |
-| `key Valuation.CharcInternalID` | `Valuation.CharcInternalID` |
-| `Valuation.ClfnObjectID` | `Valuation.ClfnObjectID` |
-| `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` | `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
-| `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` | `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` |
+| `CharcInternalID` | `Valuation.CharcInternalID` |
+| `ClfnObjectID` | `Valuation.ClfnObjectID` |
+| `Characteristic` | `Valuation._Characteristic(P_KeyDate: $session.system_date).Characteristic` |
+| `CharcDataType` | `Valuation._Characteristic(P_KeyDate: $session.system_date).CharcDataType` |
 | `KeyDate` | `$session.system_date` |
-| `Valuation.ChangeNumber` | `Valuation.ChangeNumber` |
+| `ChangeNumber` | `Valuation.ChangeNumber` |
 | `CharcValueIntervalType` | `Valuation.CharcValueDependency` |
-| `Valuation.CharcValue` | `Valuation.CharcValue` |
-| `Valuation.CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
-| `Valuation.CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
-| `Valuation.CharcToNumericValue` | `Valuation.CharcToNumericValue` |
-| `Valuation.CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
-| `Valuation.CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
-| `Valuation.CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
-| `Valuation.CharcFromAmount` | `Valuation.CharcFromAmount` |
-| `Valuation.CharcToAmount` | `Valuation.CharcToAmount` |
-| `Valuation.Currency` | `Valuation.Currency` |
-| `Valuation.CharcFromDate` | `Valuation.CharcFromDate` |
-| `Valuation.CharcToDate` | `Valuation.CharcToDate` |
-| `Valuation.CharcFromTime` | `Valuation.CharcFromTime` |
-| `Valuation.CharcToTime` | `Valuation.CharcToTime` |
-| `_Equipment.LastChangeDateTime` | *Association* |
-| `_Equipment.EquipmentCategory` | *Association* |
-| `_Equipment._CurrentTimeSegment.MaintenancePlanningPlant` | *Association* |
-| `_Equipment._CurrentTimeSegment._LocationAccountAssignment.CompanyCode` | *Association* |
-| `_Equipment._CurrentTimeSegment._LocationAccountAssignment.MaintenancePlant` | *Association* |
-| `Valuation._Characteristic` | `Valuation._Characteristic` |
+| `CharcValue` | `Valuation.CharcValue` |
+| `CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
+| `CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
+| `CharcToNumericValue` | `Valuation.CharcToNumericValue` |
+| `CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
+| `CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
+| `CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
+| `CharcFromAmount` | `Valuation.CharcFromAmount` |
+| `CharcToAmount` | `Valuation.CharcToAmount` |
+| `Currency` | `Valuation.Currency` |
+| `CharcFromDate` | `Valuation.CharcFromDate` |
+| `CharcToDate` | `Valuation.CharcToDate` |
+| `CharcFromTime` | `Valuation.CharcFromTime` |
+| `CharcToTime` | `Valuation.CharcToTime` |
+| `LastChangeDateTime` | `_Equipment.LastChangeDateTime` |
+| `EquipmentCategory` | `_Equipment.EquipmentCategory` |
+| `MaintenancePlanningPlant` | `_Equipment._CurrentTimeSegment.MaintenancePlanningPlant` |
+| `CompanyCode` | `_Equipment._CurrentTimeSegment._LocationAccountAssignment.CompanyCode` |
+| `MaintenancePlant` | `_Equipment._CurrentTimeSegment._LocationAccountAssignment.MaintenancePlant` |
+| `_Characteristic` | *Association* |
 | `_Equipment` | *Association* |
 
 ## Associations

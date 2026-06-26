@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ra_oi_orig_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `ra_oi_orig_text_kk preserving type )` | `cast( ddtext` |
+| `CARevnAcctgTransfRecordOrigin` | `cast( left( domvalue_l, 1 ) as ra_oi_orig_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CARevnAcctgTransfRecdOrignText` | `cast( ddtext as ra_oi_orig_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

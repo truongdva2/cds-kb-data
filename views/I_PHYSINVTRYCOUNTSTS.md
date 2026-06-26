@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pi_hdr_count_status_code )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PhysicalInventoryCountStatus` | `cast ( substring( domvalue_l, 1, 1 ) as pi_hdr_count_status_code )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

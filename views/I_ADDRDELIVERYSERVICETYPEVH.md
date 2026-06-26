@@ -33,9 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DeliveryServiceTypeCode` | `DeliveryServiceTypeCode` |
+| `DeliveryServiceTypeCode` | `DeliveryServiceTypeCode` |
 | `DeliveryServiceTypeName` | `DeliveryServiceTypeName` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations

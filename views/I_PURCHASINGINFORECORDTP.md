@@ -31,14 +31,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchasingInfoRecord` | `PurchasingInfoRecord` |
+| `PurchasingInfoRecord` | `PurchasingInfoRecord` |
 | `Supplier` | `Supplier` |
 | `Material` | `Material` |
 | `MaterialGroup` | `MaterialGroup` |
 | `CreationDate` | `CreationDate` |
 | `IsDeleted` | `IsDeleted` |
 | `PurchasingInfoRecordDesc` | `PurchasingInfoRecordDesc` |
-| `PurgInfoRecNonStockItmSortTerm, //Introducing Sort Term field in 2508CE` | `PurgInfoRecNonStockItmSortTerm, //Introducing Sort Term field in 2508CE` |
+| `PurgInfoRecNonStockItmSortTerm` | `PurgInfoRecNonStockItmSortTerm` |
 | `PurgDocOrderQuantityUnit` | `PurgDocOrderQuantityUnit` |
 | `OrderItemQtyToBaseQtyNmrtr` | `OrderItemQtyToBaseQtyNmrtr` |
 | `OrderItemQtyToBaseQtyDnmntr` | `OrderItemQtyToBaseQtyDnmntr` |
@@ -50,7 +50,7 @@ tags:
 | `PriorSupplier` | `PriorSupplier` |
 | `AvailabilityStartDate` | `AvailabilityStartDate` |
 | `AvailabilityEndDate` | `AvailabilityEndDate` |
-| `VarblPurOrdUnitIsActive,  // replace with VarblPurOrdUnitActvtnStatus` | `VarblPurOrdUnitIsActive,  // replace with VarblPurOrdUnitActvtnStatus` |
+| `VarblPurOrdUnitIsActive` | `VarblPurOrdUnitIsActive` |
 | `Manufacturer` | `Manufacturer` |
 | `IsRegularSupplier` | `IsRegularSupplier` |
 | `SupplierSubrange` | `SupplierSubrange` |
@@ -62,13 +62,11 @@ tags:
 | `SupplierSubrangeSortNumber` | `SupplierSubrangeSortNumber` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
-| `/* Associations */` | `/* Associations */` |
 | `_BaseUnit` | *Association* |
 | `_Material` | *Association* |
 | `_MaterialGroup` | *Association* |
 | `_PurgDocOrderQuantityUnit` | *Association* |
 | `_Supplier` | *Association* |
-| `_PurgInfoRecdOrgPlntData : redirected to composition child I_PurgInfoRecdOrgPlntDataTP` | *Association* |
 
 ## Associations
 

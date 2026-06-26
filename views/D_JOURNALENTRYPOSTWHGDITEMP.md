@@ -31,17 +31,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `GLAccountLineItem             :docln6;` | `GLAccountLineItem             :docln6;` |
-| `WithholdingTaxType            :witht;` | `WithholdingTaxType            :witht;` |
-| `WithholdingTaxCode            :wt_withcd;` | `WithholdingTaxCode            :wt_withcd;` |
-| `WhldgTaxBaseIsEnteredManually :wt_basman;` | `WhldgTaxBaseIsEnteredManually :wt_basman;` |
-| `WhldgTaxIsEnteredManually     :wt_amnman;` | `WhldgTaxIsEnteredManually     :wt_amnman;` |
-| `_CurrencyAmount               : association [0..*] to D_JournalEntryPostCurrencyAmtP on 1 = 1;` | *Association* |
-| `_JournalEntryPost             : association to parent D_JournalEntryPostParameter ;` | *Association* |
+| `GLAccountLineItem` | `docln6` |
+| `WithholdingTaxType` | `witht` |
+| `WithholdingTaxCode` | `wt_withcd` |
+| `WhldgTaxBaseIsEnteredManually` | `wt_basman` |
+| `WhldgTaxIsEnteredManually` | `wt_amnman` |
+| `_CurrencyAmount` | *Association* |
+| `_JournalEntryPost` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CurrencyAmount` | `D_JournalEntryPostCurrencyAmtP` | [0..*] |
+| `_JournalEntryPost` | `D_JournalEntryPostParameter` | — |
 
 ## Source Code
 

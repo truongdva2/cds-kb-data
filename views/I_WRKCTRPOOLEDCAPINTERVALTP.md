@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
-| `key CapacityActiveVersion` | `CapacityActiveVersion` |
-| `key IntervalEndDate` | `IntervalEndDate` |
+| `CapacityInternalID` | `CapacityInternalID` |
+| `CapacityActiveVersion` | `CapacityActiveVersion` |
+| `IntervalEndDate` | `IntervalEndDate` |
 | `IntervalStartDate` | `IntervalStartDate` |
 | `StdAvailableCapacityIsValid` | `StdAvailableCapacityIsValid` |
 | `AvailableCapacityIntervalDurn` | `AvailableCapacityIntervalDurn` |
@@ -43,9 +43,6 @@ tags:
 | `CapacityNumberOfCapacities` | `CapacityNumberOfCapacities` |
 | `CapacityPlanUtilizationPercent` | `CapacityPlanUtilizationPercent` |
 | `CapacityLastChangeDateTime` | `CapacityLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Header : redirected to parent I_WorkCenterPooledCapacityTP` | *Association* |
-| `_Shift  : redirected to composition child I_WorkCenterPooledCapShiftTP` | *Association* |
 
 ## Associations
 

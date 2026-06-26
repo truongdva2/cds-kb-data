@@ -30,9 +30,78 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ControllingObjectStdVH'` | `name:    'I_ControllingObjectStdVH'` |
-| `element: 'ControllingObject' }` | `element: 'ControllingObject' }` |
-| `}]` | `}]` |
+| `DebitMemoRequest` | `cast(SalesDocument as debit_memo_request preserving type)` |
+| `DebitMemoRequestType` | `cast(SalesDocumentType as debit_memo_request_type preserving type )` |
+| `DebitMemoRequestProcessingType` | `SalesDocumentProcessingType` |
+| `CreatedByUser` | `CreatedByUser` |
+| `LastChangedByUser` | `LastChangedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `SoldToParty` | `SoldToParty` |
+| `CustomerGroup` | `CustomerGroup` |
+| `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
+| `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
+| `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
+| `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
+| `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
+| `CreditControlArea` | `CreditControlArea` |
+| `DebitMemoRequestDate` | `SalesDocumentDate` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SDDocumentReason` | `SDDocumentReason` |
+| `CorrespncExternalReference` | `CorrespncExternalReference` |
+| `PurchaseOrderByShipToParty` | `PurchaseOrderByShipToParty` |
+| `CorrespncExtRefByShipToParty` | `CorrespncExtRefByShipToParty` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerPurchaseOrderType` | `CustomerPurchaseOrderType` |
+| `CustPurOrdTypeByShipToParty` | `CustPurOrdTypeByShipToParty` |
+| `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
+| `CustomerPurchaseOrderSuplmnt` | `CustomerPurchaseOrderSuplmnt` |
+| `SalesDistrict` | `SalesDistrict` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `PriceListType` | `PriceListType` |
+| `PricingDate` | `PricingDate` |
+| `DebitMemoRequestCondition` | `SalesDocumentCondition` |
+| `CustomerTaxClassification1` | `CustomerTaxClassification1` |
+| `CustomerTaxClassification2` | `CustomerTaxClassification2` |
+| `CustomerTaxClassification3` | `CustomerTaxClassification3` |
+| `CustomerTaxClassification4` | `CustomerTaxClassification4` |
+| `CustomerTaxClassification5` | `CustomerTaxClassification5` |
+| `CustomerTaxClassification6` | `CustomerTaxClassification6` |
+| `CustomerTaxClassification7` | `CustomerTaxClassification7` |
+| `CustomerTaxClassification8` | `CustomerTaxClassification8` |
+| `CustomerTaxClassification9` | `CustomerTaxClassification9` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `DebitMemoReqApprovalReason` | `cast(SalesDocApprovalReason as sd_dmr_approval_reason)` |
+| `BillingDocumentDate` | `BillingDocumentDate` |
+| `BillingCompanyCode` | `BillingCompanyCode` |
+| `HeaderBillingBlockReason` | `HeaderBillingBlockReason` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `FiscalYear` | `FiscalYear` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `AccountingExchangeRate` | `cast(AccountingExchangeRate as kurrf_not_converted preserving type )` |
+| `BusinessArea` | `BusinessArea` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `CostCenterBusinessArea` | `CostCenterBusinessArea` |
+| `CostCenter` | `CostCenter` |
+| `ControllingArea` | `ControllingArea` |
+| `OrderID` | `OrderID` |
 | `ControllingObject` | `ControllingObject` |
 | `ReferenceSDDocument` | `ReferenceSDDocument` |
 | `ReferenceSDDocumentCategory` | `ReferenceSDDocumentCategory` |
@@ -133,7 +202,11 @@ tags:
 | `_BusinessAreaText` | `I_BusinessAreaText` | [0..*] |
 | `_CostCenterBusinessAreaText` | `I_BusinessAreaText` | [0..*] |
 | `_CreditControlAreaText` | `I_CreditControlAreaText` | [0..*] |
+| `_Item` | `I_DebitMemoRequestItem` | [0..*] |
+| `_DebitMemoRequestType` | `I_DebitMemoRequestType` | [0..1] |
+| `_Partner` | `I_DebitMemoReqPartner` | [1..*] |
 | `_DebitMemoReqApprovalReason` | `I_DebitMemoReqApprovalReason` | [0..1] |
+| `_PricingElement` | `I_DebitMemoReqPrcgElmnt` | [0..*] |
 | `_Extension` | `E_SalesDocumentBasic` | [0..1] |
 
 ## Source Code

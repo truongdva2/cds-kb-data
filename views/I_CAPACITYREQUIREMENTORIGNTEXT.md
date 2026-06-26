@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `capacityrequirementoriginname preserving type)` | `cast(txt.ddtext` |
+| `CapacityRequirementOrigin` | `cast(…)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `CapacityRequirementOriginName` | `cast(txt.ddtext as capacityrequirementoriginname preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Language` | *Association* |
 | `_CapacityRequirementOrigin` | *Association* |

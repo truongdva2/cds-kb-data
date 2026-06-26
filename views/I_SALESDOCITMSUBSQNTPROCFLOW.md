@@ -31,42 +31,22 @@ tags:
 |---|---|
 | `SalesDocument` | `SubsequentProcFlowItem.PrecedingDocument` |
 | `SalesDocumentItem` | `SubsequentProcFlowItem.PrecedingDocumentItem` |
-| `key  case when` | `case when` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'M'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'M'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'M' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'M' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'P' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'P' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'O' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'O' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'PBD'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'S' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'O'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'S' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'O'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'P'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = 'N' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = 'P'` |
-| `or` | `or` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory = '6' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = '5'` | `SubsequentProcFlowItem.SubsequentDocumentCategory = '6' and _SDDocMultiLevelProcFlow.PrecedingDocumentCategory = '5'` |
-| `then` | `then` |
-| `_SDDocMultiLevelProcFlow.DocRelationshipUUID` | *Association* |
-| `else` | `else` |
-| `SubsequentProcFlowItem.DocRelationshipUUID` | `SubsequentProcFlowItem.DocRelationshipUUID` |
-| `DocRelationshipUUID` | `end` |
+| `DocRelationshipUUID` | `case…end` |
 | `SDDocumentCategory` | `SubsequentProcFlowItem.PrecedingDocumentCategory` |
-| `SubsequentProcFlowItem.SubsequentDocument` | `SubsequentProcFlowItem.SubsequentDocument` |
-| `SubsequentProcFlowItem.SubsequentDocumentItem` | `SubsequentProcFlowItem.SubsequentDocumentItem` |
-| `SubsequentProcFlowItem.SubsequentDocumentCategory` | `SubsequentProcFlowItem.SubsequentDocumentCategory` |
-| `SubsequentProcFlowItem.ProcessFlowLevel` | `SubsequentProcFlowItem.ProcessFlowLevel` |
-| `_SDDocMultiLevelProcFlow.PrecedingDocument         as SubsqntDocItmPrecdgDocument` | *Association* |
-| `_SDDocMultiLevelProcFlow.PrecedingDocumentItem     as SubsqntDocItmPrecdgDocItem` | *Association* |
-| `_SDDocMultiLevelProcFlow.PrecedingDocumentCategory as SubsqntDocItmPrecdgDocCategory` | *Association* |
-| `SubsequentProcFlowItem.CreationDate` | `SubsequentProcFlowItem.CreationDate` |
-| `SubsequentProcFlowItem.CreationTime` | `SubsequentProcFlowItem.CreationTime` |
-| `SubsequentProcFlowItem.LastChangeDate` | `SubsequentProcFlowItem.LastChangeDate` |
-| `SalesDocumentItem.SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
-| `SalesDocumentItem.SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
-| `SalesDocumentItem.DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
-| `SalesDocumentItem.OrganizationDivision` | `SalesDocumentItem.OrganizationDivision` |
+| `SubsequentDocument` | `SubsequentProcFlowItem.SubsequentDocument` |
+| `SubsequentDocumentItem` | `SubsequentProcFlowItem.SubsequentDocumentItem` |
+| `SubsequentDocumentCategory` | `SubsequentProcFlowItem.SubsequentDocumentCategory` |
+| `ProcessFlowLevel` | `SubsequentProcFlowItem.ProcessFlowLevel` |
+| `SubsqntDocItmPrecdgDocument` | `_SDDocMultiLevelProcFlow.PrecedingDocument` |
+| `SubsqntDocItmPrecdgDocItem` | `_SDDocMultiLevelProcFlow.PrecedingDocumentItem` |
+| `SubsqntDocItmPrecdgDocCategory` | `_SDDocMultiLevelProcFlow.PrecedingDocumentCategory` |
+| `CreationDate` | `SubsequentProcFlowItem.CreationDate` |
+| `CreationTime` | `SubsequentProcFlowItem.CreationTime` |
+| `LastChangeDate` | `SubsequentProcFlowItem.LastChangeDate` |
+| `SalesDocumentType` | `SalesDocumentItem.SalesDocumentType` |
+| `SalesOrganization` | `SalesDocumentItem.SalesOrganization` |
+| `DistributionChannel` | `SalesDocumentItem.DistributionChannel` |
+| `OrganizationDivision` | `SalesDocumentItem.OrganizationDivision` |
 | `_SalesDocument` | *Association* |
 | `_SalesDocumentItem` | *Association* |
 

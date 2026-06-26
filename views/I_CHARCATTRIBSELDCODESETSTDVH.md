@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `key SelectedCodeSet` | `SelectedCodeSet` |
+| `SelectedCodeSetPlant` | `SelectedCodeSetPlant` |
+| `SelectedCodeSet` | `SelectedCodeSet` |
 | `SelectedCodeSetText` | `SelectedCodeSetText` |
 | `InspectionSelectedSetStatus` | `InspectionSelectedSetStatus` |
 | `_SelectedCodeSetPlant` | *Association* |

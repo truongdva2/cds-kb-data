@@ -31,16 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
-| `key VarCnfConstraintName` | `VarCnfConstraintName` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `VarCnfConstraintNetName` | `VarCnfConstraintNetName` |
+| `VarCnfConstraintName` | `VarCnfConstraintName` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `IsDeleted` | `IsDeleted` |
-| `/* Associations */` | `/* Associations */` |
-| `_Constraint     : redirected to parent I_VarCnfConstraintTP` | *Association* |
-| `_ConstraintNet  : redirected to I_VarCnfConstraintNetTP` | *Association* |
-| `_SourceCodeLine : redirected to composition child I_VarCnfCstrtSrcCdLineTP` | *Association* |
 
 ## Associations
 

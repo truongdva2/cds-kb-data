@@ -33,9 +33,9 @@ tags:
 |---|---|
 | `EWMOutboundDeliveryOrder` | `_WhseOutbDeliveryOrderItem.EWMOutboundDeliveryOrder` |
 | `EWMOutboundDeliveryOrderItem` | `_WhseOutbDeliveryOrderItem.EWMOutboundDeliveryOrderItem` |
-| `ewm_de_serialnumber )` | `cast( _SerialNumber.EWMSerialNumber` |
-| `_WhseOutbDeliveryOrderItem.EWMWarehouse                      as EWMWarehouse` | *Association* |
-| `_WhseOutbDeliveryOrderItem.EWMDeliveryDocumentCategory       as EWMDeliveryDocumentCategory` | *Association* |
+| `EWMSerialNumber` | `cast( _SerialNumber.EWMSerialNumber as ewm_de_serialnumber )` |
+| `EWMWarehouse` | `_WhseOutbDeliveryOrderItem.EWMWarehouse` |
+| `EWMDeliveryDocumentCategory` | `_WhseOutbDeliveryOrderItem.EWMDeliveryDocumentCategory` |
 
 ## Associations
 

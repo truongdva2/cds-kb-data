@@ -34,12 +34,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.9` | `fuzzinessThreshold: 0.9` |
-| `ranking: #LOW }` | `ranking: #LOW }` |
-| `sd_sales_contract_type_name preserving type )` | `cast( Text.SalesDocumentTypeName` |
+| `SalesContractType` | `SalesContractType.SalesContractType` |
+| `Language` | `Text.Language` |
+| `SalesContractTypeName` | `cast(…)` |
 | `_SalesContractType` | *Association* |
-| `Text._Language` | `Text._Language` |
+| `_Language` | *Association* |
 
 ## Associations
 

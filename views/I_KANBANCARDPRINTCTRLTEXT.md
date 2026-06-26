@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pkdrs preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `vdm_knbacardprintcontrolname preserving type)` | `cast(txt.ddtext` |
+| `KanbanCardPrintControl` | `cast(substring(txt.domvalue_l, 1, 1) as pkdrs preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `KanbanCardPrintControlName` | `cast(txt.ddtext as vdm_knbacardprintcontrolname preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Language` | *Association* |
 | `_KanbanCardPrintCtrl` | *Association* |

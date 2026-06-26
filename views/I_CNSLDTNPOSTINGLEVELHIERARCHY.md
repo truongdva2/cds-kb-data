@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_postinglevelhierarchy  preserving type )` | `cast( _Hierarchy.UniversalHierarchy` |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `ConsolidationPostgLevelHier` | `cast(…)` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 
 ## Associations

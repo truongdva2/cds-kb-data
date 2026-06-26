@@ -32,7 +32,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `ConsolidationChartOfAccounts` | `itclg` |
-| `fc_item )` | `cast( item` |
+| `ConsolidationReportingItem` | `cast( item as fc_item )` |
 | `_ConsChartOfAccounts` | *Association* |
 | `_RptgItmHierNode` | *Association* |
 | `_Text` | *Association* |

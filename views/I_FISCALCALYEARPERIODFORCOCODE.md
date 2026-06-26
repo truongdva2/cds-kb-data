@@ -30,10 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
-| `fis_bukrs preserving type )` | `cast( I_CompanyCode.CompanyCode` |
+| `CompanyCode` | `cast( I_CompanyCode.CompanyCode as fis_bukrs preserving type )` |
 | `FiscalYearPeriod` | `P_FiscalYearPeriod.fiscal_year_period` |
 | `FiscalYear` | `P_FiscalYearPeriod.fiscal_year` |
 | `FiscalPeriod` | `P_FiscalYearPeriod.fiscal_period` |

@@ -32,7 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `MRPPlanningScenarioStatus` | `cast( substring(txt.domvalue_l, 1, 1) as psact preserving type)` |
+| `Language` | `txt.ddlanguage` |
 | `MRPPlanningScenarioStatusName` | `txt.ddtext` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_PlanningScenarioStatus` | *Association* |

@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/party_type )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `SLCPartyType` | `cast ( substring( domvalue_l, 1, 1 ) as /srmsmc/party_type )` |
 | `Language` | `ddlanguage` |
 | `SLCPartyTypeName` | `ddtext` |
 | `_SLCPartyType` | *Association* |

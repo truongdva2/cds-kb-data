@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `scmgcase_type preserving type )` | `cast( case_type` |
+| `CaseType` | `cast( case_type as scmgcase_type preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

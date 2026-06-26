@@ -30,7 +30,81 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CreditControlAreaStdVH', element: 'CreditControlArea' } } ]` | `name: 'I_CreditControlAreaStdVH', element: 'CreditControlArea' } } ]` |
+| `InvoiceList` | `cast(BillingDocument as vbeln_rl preserving type)` |
+| `SDDocumentCategory` | `SDDocumentCategory` |
+| `InvoiceListType` | `cast(BillingDocumentType as invoicelisttype preserving type)` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `LastChangeDate` | `LastChangeDate` |
+| `LastChangeDateTime` | `LastChangeDateTime` |
+| `LogicalSystem` | `LogicalSystem` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `InvoiceListBillingDate` | `BillingDocumentDate` |
+| `InvoiceListIsCancelled` | `cast(BillingDocumentIsCancelled as invoice_list_is_canceled preserving type)` |
+| `CancelledInvoiceList` | `cast(CancelledBillingDocument as canceled_invoice_list preserving type)` |
+| `InvoiceListCombinationCriteria` | `cast(…)` |
+| `TotalNetAmount` | `TotalNetAmount` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `StatisticsCurrency` | `StatisticsCurrency` |
+| `TotalTaxAmount` | `TotalTaxAmount` |
+| `CustomerPriceGroup` | `CustomerPriceGroup` |
+| `PriceListType` | `PriceListType` |
+| `TaxDepartureCountry` | `TaxDepartureCountry` |
+| `VATRegistration` | `VATRegistration` |
+| `VATRegistrationOrigin` | `VATRegistrationOrigin` |
+| `VATRegistrationCountry` | `VATRegistrationCountry` |
+| `CustomerTaxClassification1` | `CustomerTaxClassification1` |
+| `CustomerTaxClassification2` | `CustomerTaxClassification2` |
+| `CustomerTaxClassification3` | `CustomerTaxClassification3` |
+| `CustomerTaxClassification4` | `CustomerTaxClassification4` |
+| `CustomerTaxClassification5` | `CustomerTaxClassification5` |
+| `CustomerTaxClassification6` | `CustomerTaxClassification6` |
+| `CustomerTaxClassification7` | `CustomerTaxClassification7` |
+| `CustomerTaxClassification8` | `CustomerTaxClassification8` |
+| `CustomerTaxClassification9` | `CustomerTaxClassification9` |
+| `IsEUTriangularDeal` | `IsEUTriangularDeal` |
+| `SDPricingProcedure` | `SDPricingProcedure` |
+| `ShippingCondition` | `ShippingCondition` |
+| `IncotermsVersion` | `IncotermsVersion` |
+| `IncotermsClassification` | `IncotermsClassification` |
+| `IncotermsTransferLocation` | `IncotermsTransferLocation` |
+| `IncotermsLocation1` | `IncotermsLocation1` |
+| `IncotermsLocation2` | `IncotermsLocation2` |
+| `PayerParty` | `PayerParty` |
+| `ContractAccount` | `ContractAccount` |
+| `CustomerPaymentTerms` | `CustomerPaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `PaymentReference` | `PaymentReference` |
+| `FixedValueDate` | `FixedValueDate` |
+| `AdditionalValueDays` | `AdditionalValueDays` |
+| `SEPAMandate` | `SEPAMandate` |
+| `CompanyCode` | `CompanyCode` |
+| `FiscalYear` | `FiscalYear` |
+| `AccountingDocument` | `AccountingDocument` |
+| `FiscalPeriod` | `FiscalPeriod` |
+| `CustomerAccountAssignmentGroup` | `CustomerAccountAssignmentGroup` |
+| `AccountingExchangeRateIsSet` | `AccountingExchangeRateIsSet` |
+| `AccountingExchangeRate` | `AccountingExchangeRate` |
+| `ExchangeRateDate` | `ExchangeRateDate` |
+| `ExchangeRateType` | `ExchangeRateType` |
+| `DocumentReferenceID` | `DocumentReferenceID` |
+| `AssignmentReference` | `AssignmentReference` |
+| `DunningArea` | `DunningArea` |
+| `DunningBlockingReason` | `DunningBlockingReason` |
+| `DunningKey` | `DunningKey` |
+| `InternalFinancialDocument` | `InternalFinancialDocument` |
+| `SoldToParty` | `SoldToParty` |
+| `PartnerCompany` | `PartnerCompany` |
+| `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
+| `CustomerGroup` | `CustomerGroup` |
+| `Country` | `Country` |
+| `CityCode` | `CityCode` |
+| `SalesDistrict` | `SalesDistrict` |
+| `Region` | `Region` |
+| `County` | `County` |
 | `CreditControlArea` | `CreditControlArea` |
 | `PricingDocument` | `PricingDocument` |
 | `OverallSDProcessStatus` | `OverallSDProcessStatus` |
@@ -74,9 +148,8 @@ tags:
 | `_CityCode` | *Association* |
 | `_SalesDistrict` | *Association* |
 | `_Region` | *Association* |
-| `_County_2                                                                         as _County` | *Association* |
+| `_County` | *Association* |
 | `_CreditControlArea` | *Association* |
-| `/* start suppress warning calculated_field_check */` | `/* start suppress warning calculated_field_check */` |
 | `_SDDocumentCategory` | *Association* |
 | `_VATRegistrationOrigin` | *Association* |
 | `_DunningKey` | *Association* |
@@ -86,7 +159,6 @@ tags:
 | `_AccountingTransferStatus` | *Association* |
 | `_OvrlItmGeneralIncompletionSts` | *Association* |
 | `_OverallPricingIncompletionSts` | *Association* |
-| `/* end suppress warning calculated_field_check */` | `/* end suppress warning calculated_field_check */` |
 | `_DunningAreaText` | *Association* |
 | `_CreditControlAreaText` | *Association* |
 

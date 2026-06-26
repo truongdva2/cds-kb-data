@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABllbleItmClass` | `_tfk8101t.bitcat` |
 | `Language` | `_tfk8101t.langu` |
-| `_tfk8101t.bitcat_txt as CABllbleItmClassText` | *Association* |
+| `CABllbleItmClassText` | `_tfk8101t.bitcat_txt` |
 | `_CABllbleItmClass` | *Association* |
 | `_Language` | *Association* |
 

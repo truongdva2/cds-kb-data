@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BillingPlan` | `BillingPlan` |
+| `BillingPlan` | `BillingPlan` |
 | `BillingPlanCategory` | `BillingPlanCategory` |
 | `BillingPlanUsageCategory` | `BillingPlanUsageCategory` |
 | `BillingPlanType` | `BillingPlanType` |

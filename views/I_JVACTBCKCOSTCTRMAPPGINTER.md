@@ -29,16 +29,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckCostCtrMappgInterBsc.CompanyCode` | `JVACtbckCostCtrMappgInterBsc.CompanyCode` |
-| `key JVACtbckCostCtrMappgInterBsc.JntVntrIntcoCode` | `JVACtbckCostCtrMappgInterBsc.JntVntrIntcoCode` |
-| `key JVACtbckCostCtrMappgInterBsc.JVAFromCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVAFromCostCenter` |
-| `JVACtbckCostCtrMappgInterBsc.JVAToCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVAToCostCenter` |
-| `JVACtbckCostCtrMappgInterBsc.JVACutbackCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVACutbackCostCenter` |
-| `JVACtbckCostCtrMappgInterBsc.JVACutbackOrder` | `JVACtbckCostCtrMappgInterBsc.JVACutbackOrder` |
-| `JVACtbckCostCtrMappgInterBsc.JVACutbackWBS` | `JVACtbckCostCtrMappgInterBsc.JVACutbackWBS` |
-| `_CutbackWBSElement.WBSElementExternalID  as JVACutbackWBSExt` | *Association* |
-| `_CompanyCode.ControllingArea             as ControllingArea` | *Association* |
-| `_InterCompanyCompanyCode.ControllingArea as JVAInterCompanyControllingArea` | *Association* |
+| `CompanyCode` | `JVACtbckCostCtrMappgInterBsc.CompanyCode` |
+| `JntVntrIntcoCode` | `JVACtbckCostCtrMappgInterBsc.JntVntrIntcoCode` |
+| `JVAFromCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVAFromCostCenter` |
+| `JVAToCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVAToCostCenter` |
+| `JVACutbackCostCenter` | `JVACtbckCostCtrMappgInterBsc.JVACutbackCostCenter` |
+| `JVACutbackOrder` | `JVACtbckCostCtrMappgInterBsc.JVACutbackOrder` |
+| `JVACutbackWBS` | `JVACtbckCostCtrMappgInterBsc.JVACutbackWBS` |
+| `JVACutbackWBSExt` | `_CutbackWBSElement.WBSElementExternalID` |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
+| `JVAInterCompanyControllingArea` | `_InterCompanyCompanyCode.ControllingArea` |
 | `_CompanyCode` | *Association* |
 | `_InterCompanyCompanyCode` | *Association* |
 | `_FromCostCenter` | *Association* |

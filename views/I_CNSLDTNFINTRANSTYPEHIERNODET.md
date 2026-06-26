@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.Language` | `_Source.Language` |
-| `fincs_fintransactiontypehier preserving type )` | `cast(_Source.CnsldtnUniversalHierarchy` |
-| `key _Source.HierarchyNode` | `_Source.HierarchyNode` |
-| `key _Source.ValidityEndDate` | `_Source.ValidityEndDate` |
-| `_Source.ValidityStartDate` | *Association* |
-| `_Source.ParentNode` | *Association* |
-| `_Source.HierarchyVersion` | *Association* |
-| `_Source.HierarchyNodeText` | *Association* |
+| `Language` | `_Source.Language` |
+| `CnsldtnFinTransTypeHierarchy` | `cast(…)` |
+| `HierarchyNode` | `_Source.HierarchyNode` |
+| `ValidityEndDate` | `_Source.ValidityEndDate` |
+| `ValidityStartDate` | `_Source.ValidityStartDate` |
+| `ParentNode` | `_Source.ParentNode` |
+| `HierarchyVersion` | `_Source.HierarchyVersion` |
+| `HierarchyNodeText` | `_Source.HierarchyNodeText` |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |
 

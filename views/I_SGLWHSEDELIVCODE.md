@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lnspl_likp  preserving type )` | `cast (left(dd07l.domvalue_l, 1 )` |
+| `SingleWarehouseDeliveryCode` | `cast (left(dd07l.domvalue_l, 1 ) as lnspl_likp preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_SglWhseDelivCodeText` | [0..*] |
 
 ## Source Code
 

@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `langu preserving type)` | `cast(tp18t.langu` |
-| `bp_unw_reason preserving type)` | `cast(tp18t.unw_reason` |
+| `Language` | `cast(tp18t.langu as langu preserving type)` |
+| `UndesirabilityReason` | `cast(tp18t.unw_reason as bp_unw_reason preserving type)` |
 | `UndesirabilityReasonDesc` | `tp18t.unw_text` |
 | `_BPUndesirabilityReason` | *Association* |
 | `_Language` | *Association* |

@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `recestatusreason )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `REValuationStatusReason` | `cast( dd07t.domvalue_l as recestatusreason )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `REValuationStatusReasonName` | `dd07t.ddtext` |
 | `_REValuationStatusReason` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_REValuationStatusReason` | `I_REValuationStatusReason` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

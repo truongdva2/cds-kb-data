@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
-| `key MRPType` | `MRPType` |
+| `MRPType` | `MRPType` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostOriginGroup` | `CostOriginGroup` |
-| `key CostOriginType` | `CostOriginType` |
-| `key ControllingArea` | `ControllingArea` |
+| `CostOriginGroup` | `CostOriginGroup` |
+| `CostOriginType` | `CostOriginType` |
+| `ControllingArea` | `ControllingArea` |
 | `_Text` | *Association* |
 | `_ControllingArea` | *Association* |
 | `_CostOriginType` | *Association* |

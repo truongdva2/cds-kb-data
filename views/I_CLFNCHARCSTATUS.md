@@ -37,7 +37,9 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_CharacteristicStatusText` | `I_ClfnCharcStatusText` | [0..*] |
 
 ## Source Code
 

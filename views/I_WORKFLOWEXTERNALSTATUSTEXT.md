@@ -34,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `text: true }` | `text: true }` |
+| `WorkflowExternalStatus` | `WorkflowTaskStatus` |
+| `Language` | `Language` |
 | `_Language` | *Association* |
 | `WorkflowExternalStatusDesc` | `WorkflowTaskStatusDesc` |
 

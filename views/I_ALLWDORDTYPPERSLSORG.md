@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `SalesOrganization` | `SalesArea.SalesOrganization` |
-| `DistributionChannel` | `SalesArea.DistributionChannel` |
-| `Division` | `SalesArea.Division` |
+| `SalesOrganization` | `MaintainedOrdTypePerSlsOrg.SalesOrganization` |
+| `DistributionChannel` | `MaintainedOrdTypePerSlsOrg.DistributionChannel` |
+| `Division` | `MaintainedOrdTypePerSlsOrg.Division` |
 | `SalesDocumentType` | `MaintainedOrdTypePerSlsOrg.SalesDocumentType` |
 | `_SalesOrganization` | *Association* |
 | `_DistributionChannel` | *Association* |
@@ -43,10 +43,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
-| `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
-| `_SalesDocumentType` | `I_SalesDocumentType` | [0..1] |
-| `_Division` | `I_Division` | [0..1] |
 | `_SalesOrganization` | `I_SalesOrganization` | [0..1] |
 | `_DistributionChannel` | `I_DistributionChannel` | [0..1] |
 | `_SalesDocumentType` | `I_SalesDocumentType` | [0..1] |

@@ -30,27 +30,61 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:'I_PersWrkAgrmtSrchHelp_1' , element: 'PersonWorkAgreement' } }]` | `name:'I_PersWrkAgrmtSrchHelp_1' , element: 'PersonWorkAgreement' } }]` |
-| `}` | `}` |
+| `ConditionContract` | `ConditionContract` |
+| `CndnContrBusVolUUID` | `CndnContrBusVolUUID` |
+| `BusVolFieldCombnType` | `BusVolFieldCombnType` |
+| `BusVolFldCombnGroup` | `BusVolFldCombnGroup` |
+| `CndnContrBusVolSign` | `CndnContrBusVolSign` |
+| `BusVolSelectionGroup` | `BusVolSelectionGroup` |
+| `CndnContrSupplier` | `CndnContrSupplier` |
+| `CndnContrCustomer` | `CndnContrCustomer` |
+| `CndnContrBusVolValidFrom` | `CndnContrBusVolValidFrom` |
+| `CndnContrBusVolValidTo` | `CndnContrBusVolValidTo` |
+| `Supplier` | `Supplier` |
+| `Customer` | `Customer` |
+| `CompanyCode` | `CompanyCode` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `SalesOrganization` | `SalesOrganization` |
+| `DistributionChannel` | `DistributionChannel` |
+| `Division` | `Division` |
+| `SalesOffice` | `SalesOffice` |
+| `SalesGroup` | `SalesGroup` |
+| `Plant` | `Plant` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `ProductGroup` | `ProductGroup` |
+| `Product` | `Product` |
+| `ProductType` | `ProductType` |
+| `CndnContrCustomerList` | `CndnContrCustomerList` |
+| `CndnContrSupplierList` | `CndnContrSupplierList` |
+| `CndnContrPlantList` | `CndnContrPlantList` |
+| `CustomerHierarchy` | `CustomerHierarchy` |
+| `ProductHierarchy` | `ProductHierarchy` |
+| `SalesSpcfcProductGroup1` | `SalesSpcfcProductGroup1` |
+| `SalesSpcfcProductGroup2` | `SalesSpcfcProductGroup2` |
+| `SalesSpcfcProductGroup3` | `SalesSpcfcProductGroup3` |
+| `SalesSpcfcProductGroup4` | `SalesSpcfcProductGroup4` |
+| `SalesSpcfcProductGroup5` | `SalesSpcfcProductGroup5` |
+| `CndnContrBusVolList` | `CndnContrBusVolList` |
+| `SalesOrderReason` | `SalesOrderReason` |
+| `Manufacturer` | `Manufacturer` |
+| `RoyaltyRecipient` | `RoyaltyRecipient` |
+| `CommissionRecipient` | `CommissionRecipient` |
 | `WorkerCommissionRecipient` | `WorkerCommissionRecipient` |
 | `ShipToParty` | `ShipToParty` |
 | `PayerParty` | `PayerParty` |
-| `/* Additional Customer Groups */` | `/* Additional Customer Groups */` |
 | `AdditionalCustomerGroup1` | `AdditionalCustomerGroup1` |
 | `AdditionalCustomerGroup2` | `AdditionalCustomerGroup2` |
 | `AdditionalCustomerGroup3` | `AdditionalCustomerGroup3` |
 | `AdditionalCustomerGroup4` | `AdditionalCustomerGroup4` |
 | `AdditionalCustomerGroup5` | `AdditionalCustomerGroup5` |
 | `CustomerGroup` | `CustomerGroup` |
-| `/* Customer Condition Groups */` | `/* Customer Condition Groups */` |
 | `CustomerConditionGroup1` | `CustomerConditionGroup1` |
 | `CustomerConditionGroup2` | `CustomerConditionGroup2` |
 | `CustomerConditionGroup3` | `CustomerConditionGroup3` |
 | `CustomerConditionGroup4` | `CustomerConditionGroup4` |
 | `CustomerConditionGroup5` | `CustomerConditionGroup5` |
-| `/* new Product Hierarchy */` | `/* new Product Hierarchy */` |
 | `ProdUnivHierarchyNode` | `ProdUnivHierarchyNode` |
-| `/* Country/Region */` | `/* Country/Region */` |
 | `Country` | `Country` |
 | `Region` | `Region` |
 | `ProductCommissionGroup` | `ProductCommissionGroup` |
@@ -62,12 +96,10 @@ tags:
 | `BizVolSelCndnContrProcVar` | `BizVolSelCndnContrProcVar` |
 | `BizVolSelConditionContract` | `BizVolSelConditionContract` |
 | `CndnContrSuplrInvcDlvCostCat` | `CndnContrSuplrInvcDlvCostCat` |
-| `/* Universal Customer Hierarchy */` | `/* Universal Customer Hierarchy */` |
 | `CustomerHierarchyRootNode` | `CustomerHierarchyRootNode` |
 | `CustomerHierarchyNodeID` | `CustomerHierarchyNodeID` |
 | `CustomerHierarchyNodeType` | `CustomerHierarchyNodeType` |
 | `CndnContrSourceBusVolUUID` | `CndnContrSourceBusVolUUID` |
-| `/* Associations */` | `/* Associations */` |
 | `_ConditionContract` | *Association* |
 | `_BusVolFieldCombnType` | *Association* |
 | `_CndnContrBusVolSign` | *Association* |
@@ -135,8 +167,6 @@ tags:
 | `_Division` | `I_Division` | [0..1] |
 | `_CompanyCode` | `I_CompanyCode` | [0..1] |
 | `_Plant` | `I_Plant` | [0..1] |
-| `_SupplierSubrange` | `I_SupplierSubrange` | [0..1] |
-| `_ProductGroup` | `I_ProductGroup` | [0..1] |
 | `_Product` | `I_Product` | [0..1] |
 | `_CustomerHierarchy` | `I_Customer` | [0..1] |
 | `_ProductHierarchy` | `I_ProductHierarchy` | [0..1] |

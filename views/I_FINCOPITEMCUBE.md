@@ -32,7 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `OriginSystem` | `flow.OriginSystem` |
+| `OriginApplication` | `flow.OriginApplication` |
+| `OriginDocument` | `flow.OriginDocument` |
+| `OriginTransaction` | `flow.OriginTransaction` |
+| `OriginTransactionQualifier` | `flow.OriginTransactionQualifier` |
+| `CashFlow` | `flow.CashFlow` |
+| `ValidFrom` | `flow.ValidFrom` |
+| `ValidTo` | `flow.ValidTo` |
+| `BankAccountInternalID` | `flow.BankAccountInternalID` |
+| `CompanyCode` | `CompanyCode` |
+| `CertaintyLevel` | `CertaintyLevel` |
+| `LiquidityItem` | `LiquidityItem` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `TransactionDate` | `TransactionDate` |
 | `AmountInTransactionCurrency` | `AmountInTransactionCurrency` |
 
 ## Associations

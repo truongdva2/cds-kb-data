@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tv_dmnd_date_maint preserving type )` | `cast( substring( domvalue_l, 1, 2 )` |
+| `ProjectDemandDateMaintenance` | `cast( substring( domvalue_l, 1, 2 ) as tv_dmnd_date_maint preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_ProjectDemandDateMaintText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ProjectDemandDateMaintText` | `I_ProjDmndDateMaintText_2` | [0..*] |
 
 ## Source Code
 

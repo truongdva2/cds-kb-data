@@ -29,14 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SrvcDocDurationType', element: 'SrvcDocDurationType' }` | `name: 'I_SrvcDocDurationType', element: 'SrvcDocDurationType' }` |
-| `useAsTemplate: true } ]` | `useAsTemplate: true } ]` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceContract` | `ServiceContract` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
 | `_DurationText` | *Association* |
-| `_ServiceContractTP : redirected to parent I_ServiceContractTP` | *Association* |
 
 ## Associations
 

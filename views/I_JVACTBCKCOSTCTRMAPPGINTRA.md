@@ -29,14 +29,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key JVACtbckCostCtrMappgIntraBsc.CompanyCode` | `JVACtbckCostCtrMappgIntraBsc.CompanyCode` |
-| `key JVACtbckCostCtrMappgIntraBsc.JVAFromCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVAFromCostCenter` |
-| `JVACtbckCostCtrMappgIntraBsc.JVAToCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVAToCostCenter` |
-| `JVACtbckCostCtrMappgIntraBsc.JVACutbackCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackCostCenter` |
-| `JVACtbckCostCtrMappgIntraBsc.JVACutbackOrder` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackOrder` |
-| `JVACtbckCostCtrMappgIntraBsc.JVACutbackWBS` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackWBS` |
-| `_CutbackWBS.WBSElementExternalID as JVACutbackWBSExt` | *Association* |
-| `_CompanyCode.ControllingArea     as ControllingArea` | *Association* |
+| `CompanyCode` | `JVACtbckCostCtrMappgIntraBsc.CompanyCode` |
+| `JVAFromCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVAFromCostCenter` |
+| `JVAToCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVAToCostCenter` |
+| `JVACutbackCostCenter` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackCostCenter` |
+| `JVACutbackOrder` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackOrder` |
+| `JVACutbackWBS` | `JVACtbckCostCtrMappgIntraBsc.JVACutbackWBS` |
+| `JVACutbackWBSExt` | `_CutbackWBS.WBSElementExternalID` |
+| `ControllingArea` | `_CompanyCode.ControllingArea` |
 | `_CompanyCode` | *Association* |
 | `_FromCostCenter` | *Association* |
 | `_ToCostCenter` | *Association* |

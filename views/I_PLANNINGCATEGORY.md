@@ -60,6 +60,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_PlanningCategoryText` | [0..*] |
+| `_VirtualPlanningCategory` | `I_VirtualPlanningCategory` | [0..*] |
 
 ## Source Code
 

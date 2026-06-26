@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fincs_supplierhierarchy preserving type )` | `cast(_Hierarchy.UniversalHierarchy` |
-| `key _Hierarchy.ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
-| `_Hierarchy.ValidityStartDate` | *Association* |
-| `_Hierarchy.LastChangedByUser` | *Association* |
-| `_Hierarchy.LastChangeDateTime` | *Association* |
+| `ConsolidationSupplierHierarchy` | `cast(_Hierarchy.UniversalHierarchy as fincs_supplierhierarchy preserving type )` |
+| `ValidityEndDate` | `_Hierarchy.ValidityEndDate` |
+| `ValidityStartDate` | `_Hierarchy.ValidityStartDate` |
+| `LastChangedByUser` | `_Hierarchy.LastChangedByUser` |
+| `LastChangeDateTime` | `_Hierarchy.LastChangeDateTime` |
 | `_Text` | *Association* |
 
 ## Associations

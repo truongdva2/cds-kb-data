@@ -30,13 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessSolutionOrder` | `BusinessSolutionOrder` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `BusinessSolutionOrder` | `BusinessSolutionOrder` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartFunctionCategory` | `CustMgmtPartFunctionCategory` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `_BusSolnOrdPartnerAddressTP : redirected to composition child I_BusSolnOrdPartnerAddressTP` | *Association* |
-| `_BusinessSolutionOrderTP    : redirected to parent I_BusinessSolutionOrderTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 | `_PartnerFunction` | *Association* |
 | `_SrvcMgmtPartnerFunctionText` | *Association* |

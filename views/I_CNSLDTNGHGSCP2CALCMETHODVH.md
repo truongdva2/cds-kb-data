@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.GHGScope2CalculationMethod` | `_Source.GHGScope2CalculationMethod` |
-| `_Source._Text[1: Language=$session.system_language].GHGScope2CalculationMethodName` | *Association* |
+| `GHGScope2CalculationMethod` | `_Source.GHGScope2CalculationMethod` |
+| `GHGScope2CalculationMethodName` | `expr(…)` |
 
 ## Associations
 

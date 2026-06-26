@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InvoiceList` | `InvoiceList` |
+| `InvoiceList` | `InvoiceList` |
 | `InvoiceListType` | `InvoiceListType` |
 | `SalesOrganization` | `SalesOrganization` |
 

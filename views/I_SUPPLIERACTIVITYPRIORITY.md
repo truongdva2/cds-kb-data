@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/act_priority )` | `cast(substring( domvalue_l, 1, 1 )` |
+| `SuplrActyPriority` | `cast(substring( domvalue_l, 1, 1 ) as /srmsmc/act_priority )` |
 | `_SupplierActivityPriorityText` | *Association* |
 | `_Text` | *Association* |
 

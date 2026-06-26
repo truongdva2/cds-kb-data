@@ -32,13 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ControllingArea` | `ControllingArea` |
-| `key StatisticalKeyFigure` | `StatisticalKeyFigure` |
+| `Language` | `Language` |
+| `ControllingArea` | `ControllingArea` |
+| `StatisticalKeyFigure` | `StatisticalKeyFigure` |
 | `LanguageForEdit` | `LanguageForEdit` |
 | `StatisticalKeyFigureName` | `StatisticalKeyFigureName` |
-| `/* Associations */` | `/* Associations */` |
-| `_StatisticalKeyFigureTP : redirected to parent I_StatisticalKeyFigureTP_2` | *Association* |
 
 ## Associations
 

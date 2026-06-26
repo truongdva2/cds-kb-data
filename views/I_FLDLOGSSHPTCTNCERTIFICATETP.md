@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FldLogsContainerUUID` | `FldLogsContainerUUID` |
-| `key FldLogsCertificateNumber` | `FldLogsCertificateNumber` |
+| `FldLogsContainerUUID` | `FldLogsContainerUUID` |
+| `FldLogsCertificateNumber` | `FldLogsCertificateNumber` |
 | `FldLogsCertNumberForEdit` | `FldLogsCertificateNumber` |
 | `FldLogsCertificateType` | `FldLogsCertificateType` |
 | `FldLogsCertStartDate` | `FldLogsCertStartDate` |
@@ -43,7 +43,6 @@ tags:
 | `FldLogsCtnCertLoclLstChgDteTme` | `FldLogsCtnCertLoclLstChgDteTme` |
 | `_CertificateTypeText` | *Association* |
 | `_CertText` | *Association* |
-| `_Container : redirected to parent I_FldLogsShipmentContainerTP` | *Association* |
 
 ## Associations
 

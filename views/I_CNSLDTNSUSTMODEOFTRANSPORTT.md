@@ -31,14 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnSustModeOfTransportVH'` | `name: 'I_CnsldtnSustModeOfTransportVH'` |
-| `element: 'SustainabilityModeOfTransport'` | `element: 'SustainabilityModeOfTransport'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_sustmodeoftransport preserving type )` | `cast( _Source.SustainabilityModeOfTransport` |
-| `fincs_sustmodeoftransportname preserving type )` | `cast( _Source.SustModeOfTransportName` |
-| `_Source.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations */` | `/* associations */` |
+| `Language` | `cast( _Source.Language as spras preserving type )` |
+| `SustainabilityModeOfTransport` | `cast(…)` |
+| `SustModeOfTransportName` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `_Source.CnsldtnIsAdditionalMasterData` |
 | `_Language` | *Association* |
 | `_SustainabilityModeOfTransport` | *Association* |
 

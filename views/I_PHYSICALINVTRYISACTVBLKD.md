@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pi_actblkdflag preserving type )` | `cast( substring( domvalue_l, 1, 3 )` |
+| `PhysicalInventoryActvBlkdStat` | `cast( substring( domvalue_l, 1, 3 ) as pi_actblkdflag preserving type )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

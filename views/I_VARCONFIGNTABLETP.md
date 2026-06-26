@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key VarConfignTblName` | `VarConfignTblName` |
+| `VarConfignTblName` | `VarConfignTblName` |
 | `VarConfignTblStatus` | `VarConfignTblStatus` |
 | `VarConfignTblGroup` | `VarConfignTblGroup` |
 | `VarConfignTblCustomStorageName` | `VarConfignTblCustomStorageName` |
@@ -46,10 +46,6 @@ tags:
 | `VarCnfTblCstmStorLnkLstChgTime` | `VarCnfTblCstmStorLnkLstChgTime` |
 | `VarCnfTblCstmStorLnkLastChgdBy` | `VarCnfTblCstmStorLnkLastChgdBy` |
 | `VarConfignTblLstChgDateTime` | `VarConfignTblLstChgDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_Column: redirected to composition child I_VarConfignTableColumnTP` | *Association* |
-| `_Text: redirected to composition child I_VarConfignTableTextTP` | *Association* |
-| `_ValueAssignmentAlternative: redirected to composition child I_VarCnfTblValAssgmtAltvTP` | *Association* |
 
 ## Associations
 

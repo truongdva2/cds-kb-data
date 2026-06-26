@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `soptaus)` | `cast(DomainText.domvalue_l` |
+| `OptionExerciseType` | `cast(DomainText.domvalue_l as soptaus)` |
 | `Language` | `DomainText.ddlanguage` |
-| `option_exercise_type_name preserving type )` | `cast(DomainText.ddtext` |
+| `OptionExerciseTypeName` | `cast(DomainText.ddtext as option_exercise_type_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

@@ -30,8 +30,57 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_GLAccountInCompanyCodeStdVH', element: 'GLAccount' } }]` | `name: 'I_GLAccountInCompanyCodeStdVH', element: 'GLAccount' } }]` |
-| `}` | `}` |
+| `PersonnelSettlementDocument` | `PersonnelSettlementDocument` |
+| `PersSettlmtDocItem` | `PersSettlmtDocItem` |
+| `PersSettlmtDocCurrency` | `PersSettlmtDocCurrency` |
+| `PricingDocument` | `PricingDocument` |
+| `Product` | `Product` |
+| `ProductGroup` | `ProductGroup` |
+| `Plant` | `Plant` |
+| `PricingDate` | `PricingDate` |
+| `SettlmtQuantity` | `SettlmtQuantity` |
+| `SettlmtQuantityUnit` | `SettlmtQuantityUnit` |
+| `NetPriceAmount` | `NetPriceAmount` |
+| `NetPriceQuantity` | `NetPriceQuantity` |
+| `NetPriceQuantityUnit` | `NetPriceQuantityUnit` |
+| `SettlmtToBaseQuantityNmrtr` | `SettlmtToBaseQuantityNmrtr` |
+| `SettlmtToBaseQuantityDnmntr` | `SettlmtToBaseQuantityDnmntr` |
+| `SettlmtToNetPriceQtyNmrtr` | `SettlmtToNetPriceQtyNmrtr` |
+| `SettlmtToNetPriceQtyDnmntr` | `SettlmtToNetPriceQtyDnmntr` |
+| `BaseUnit` | `BaseUnit` |
+| `ItemNetWeight` | `ItemNetWeight` |
+| `ItemGrossWeight` | `ItemGrossWeight` |
+| `ItemWeightUnit` | `ItemWeightUnit` |
+| `ItemVolume` | `ItemVolume` |
+| `ItemVolumeUnit` | `ItemVolumeUnit` |
+| `ItemNetAmount` | `PersSettlmtDocItemNetAmount` |
+| `Subtotal1Amount` | `PersSettlmtDocSubtotal1Amount` |
+| `Subtotal2Amount` | `PersSettlmtDocSubtotal2Amount` |
+| `Subtotal3Amount` | `PersSettlmtDocSubtotal3Amount` |
+| `Subtotal4Amount` | `PersSettlmtDocSubtotal4Amount` |
+| `Subtotal5Amount` | `PersSettlmtDocSubtotal5Amount` |
+| `Subtotal6Amount` | `PersSettlmtDocSubtotal6Amount` |
+| `RebateBasisAmount` | `PersSettlmtDocRbteBasisAmount` |
+| `SettlmtItmStatisticalPrpty` | `PersSettlmtDocItmStstclPrpty` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `CreationTime` | `CreationTime` |
+| `SettlmtItemActivityReason` | `PersSettlmtDocItmActyReason` |
+| `PersSettlmtDocItemText` | `PersSettlmtDocItemText` |
+| `BusinessArea` | `BusinessArea` |
+| `ControllingArea` | `ControllingArea` |
+| `CostCenter` | `CostCenter` |
+| `ProfitCenter` | `ProfitCenter` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `SettlementOrder` | `PersSettlmtDocOrder` |
+| `PrcDetnIsIncmplt` | `PrcDetnIsIncmplt` |
+| `PersSettlmtDocItemCat` | `PersSettlmtDocItemCat` |
+| `SettlmtItemReltdCndnContr` | `SettlmtItemReltdCndnContr` |
+| `PersSettlmtDocItemStatus` | `PersSettlmtDocItemStatus` |
+| `PersSettlmtDocItemRvsd` | `PersSettlmtDocItemRvsd` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `SettlementFiscalYear` | `SettlementFiscalYear` |
+| `CompanyCode` | `CompanyCode` |
 | `GLAccount` | `GLAccount` |
 | `ProductHierarchy` | `ProductHierarchy` |
 | `SalesSpcfcProductGroup1` | `SalesSpcfcProductGroup1` |
@@ -41,9 +90,7 @@ tags:
 | `SalesSpcfcProductGroup5` | `SalesSpcfcProductGroup5` |
 | `BusTransDocReferenceID` | `BusTransDocReferenceID` |
 | `BusTransDocReferenceItemID` | `BusTransDocReferenceItemID` |
-| `/* Entity Tag */` | `/* Entity Tag */` |
-| `wlf_change_state_item preserving type )` | `cast( '    '` |
-| `/* Associations */` | `/* Associations */` |
+| `PersSettlmtDocItemChangeState` | `cast( ' ' as wlf_change_state_item preserving type )` |
 | `_PersSettlmtDoc` | *Association* |
 | `_PersSettlmtDocItmPrcgElmnt` | *Association* |
 | `_PersSettlmtDocCurrency` | *Association* |

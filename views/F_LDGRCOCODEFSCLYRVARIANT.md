@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  Ledger` | `Ledger` |
-| `key  CompanyCode` | `CompanyCode` |
+| `Ledger` | `Ledger` |
+| `CompanyCode` | `CompanyCode` |
 | `FiscalYearVariant` | `FiscalYearVariant` |
 | `_Ledger` | *Association* |
 | `_CompanyCode` | *Association* |

@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pk_replenishment_type preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `vdm_repl_strategy_type_text preserving type)` | `cast(ddtext` |
+| `KanbanReplenishmentStrgyType` | `cast(substring(domvalue_l, 1, 1) as pk_replenishment_type preserving type)` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `KanbanReplnmtStrgyTypeText` | `cast(ddtext as vdm_repl_strategy_type_text preserving type)` |
 | `DomainValue` | `domvalue_l` |
 | `_KnbnReplnmtStrgyTypes` | *Association* |
 | `_Language` | *Association* |

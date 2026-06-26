@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `sufnd_vdm_ghgscope )` | `cast( dd07t.domvalue_l` |
-| `sufnd_vdm_ghgscopename preserving type )` | `cast( dd07t.ddtext` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `GHGScope` | `cast( dd07t.domvalue_l as sufnd_vdm_ghgscope )` |
+| `GHGScopeName` | `cast( dd07t.ddtext as sufnd_vdm_ghgscopename preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

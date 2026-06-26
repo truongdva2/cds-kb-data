@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TechnicalObjectType` | `TechnicalObjectType` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
 | `_Text` | *Association* |
 
 ## Associations

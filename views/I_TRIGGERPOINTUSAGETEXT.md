@@ -31,7 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `TriggerPointUsage` | `txt.UsageCode` |
+| `Language` | `txt.Language` |
 | `TriggerPointUsageName` | `txt.UsageCodeName` |
 | `_TriggerPointUsage` | *Association* |
 | `_Language` | *Association* |

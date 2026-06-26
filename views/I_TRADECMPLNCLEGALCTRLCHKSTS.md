@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `tdd_lccst preserving type )` | `cast( substring( dd07l.domvalue_l, 1, 1)` |
+| `TradeCmplncLegalCtrlChkSts` | `cast( substring( dd07l.domvalue_l, 1, 1) as tdd_lccst preserving type )` |
 | `DomainValue` | `domvalue_l` |
 | `_Text` | *Association* |
 

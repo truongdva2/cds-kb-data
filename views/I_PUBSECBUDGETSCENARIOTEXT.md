@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `psm_s4c_budget_scenario )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `BudgetScenario` | `cast( dd07t.domvalue_l as psm_s4c_budget_scenario )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `psm_s4c_budget_scenario_text preserving type )` | `cast ( dd07t.ddtext` |
+| `BudgetScenarioText` | `cast ( dd07t.ddtext as psm_s4c_budget_scenario_text preserving type )` |
 | `_PubSecBudgetScenario` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_PubSecBudgetScenario` | `I_PubSecBudgetScenario` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

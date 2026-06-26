@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _WorkflowTask.WorkflowTaskInternalID` | `_WorkflowTask.WorkflowTaskInternalID` |
+| `WorkflowTaskInternalID` | `_WorkflowTask.WorkflowTaskInternalID` |
 | `PaymentReleaseList` | `PaymentReleaseList` |
 | `Currency` | `Currency` |
 | `TotActualAmtInDisplayCurrency` | `TotActualAmtInDisplayCurrency` |
@@ -46,7 +46,7 @@ tags:
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `PaymentReleaseListApplication` | `PaymentReleaseListApplication` |
-| `_WorkflowTaskURL.WorkflowTaskURL` | *Association* |
+| `WorkflowTaskURL` | `_WorkflowTaskURL.WorkflowTaskURL` |
 
 ## Associations
 

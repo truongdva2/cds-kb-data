@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Language` | `Language` |
-| `key ConditionApplication` | `ConditionApplication` |
-| `key PriceElementAccessLevel` | `PriceElementAccessLevel` |
+| `Language` | `Language` |
+| `ConditionApplication` | `ConditionApplication` |
+| `PriceElementAccessLevel` | `PriceElementAccessLevel` |
 | `_ConditionApplication` | *Association* |
 | `PriceElementAccessLevelText` | `PriceElementAccessLevelText` |
 

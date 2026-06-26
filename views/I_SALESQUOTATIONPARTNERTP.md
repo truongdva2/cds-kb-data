@@ -33,20 +33,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SalesQuotationPartner.SalesQuotation` | `SalesQuotationPartner.SalesQuotation` |
-| `key SalesQuotationPartner.PartnerFunction` | `SalesQuotationPartner.PartnerFunction` |
-| `SalesQuotationPartner.PartnerFunctionForEdit` | `SalesQuotationPartner.PartnerFunctionForEdit` |
-| `SalesQuotationPartner.Customer` | `SalesQuotationPartner.Customer` |
-| `SalesQuotationPartner.Supplier` | `SalesQuotationPartner.Supplier` |
-| `SalesQuotationPartner.Personnel` | `SalesQuotationPartner.Personnel` |
-| `SalesQuotationPartner.ContactPerson` | `SalesQuotationPartner.ContactPerson` |
-| `SalesQuotationPartner.ReferenceBusinessPartner` | `SalesQuotationPartner.ReferenceBusinessPartner` |
-| `SalesQuotationPartner.Partner` | `SalesQuotationPartner.Partner` |
-| `SalesQuotationPartner.SalesQuotationType` | `SalesQuotationPartner.SalesQuotationType` |
-| `SalesQuotationPartner.SalesOrganization` | `SalesQuotationPartner.SalesOrganization` |
-| `SalesQuotationPartner.DistributionChannel` | `SalesQuotationPartner.DistributionChannel` |
-| `SalesQuotationPartner.OrganizationDivision` | `SalesQuotationPartner.OrganizationDivision` |
-| `_SalesQuotation : redirected to parent I_SalesQuotationTP` | *Association* |
+| `SalesQuotation` | `SalesQuotationPartner.SalesQuotation` |
+| `PartnerFunction` | `SalesQuotationPartner.PartnerFunction` |
+| `PartnerFunctionForEdit` | `SalesQuotationPartner.PartnerFunctionForEdit` |
+| `Customer` | `SalesQuotationPartner.Customer` |
+| `Supplier` | `SalesQuotationPartner.Supplier` |
+| `Personnel` | `SalesQuotationPartner.Personnel` |
+| `ContactPerson` | `SalesQuotationPartner.ContactPerson` |
+| `ReferenceBusinessPartner` | `SalesQuotationPartner.ReferenceBusinessPartner` |
+| `Partner` | `SalesQuotationPartner.Partner` |
+| `SalesQuotationType` | `SalesQuotationPartner.SalesQuotationType` |
+| `SalesOrganization` | `SalesQuotationPartner.SalesOrganization` |
+| `DistributionChannel` | `SalesQuotationPartner.DistributionChannel` |
+| `OrganizationDivision` | `SalesQuotationPartner.OrganizationDivision` |
 
 ## Associations
 

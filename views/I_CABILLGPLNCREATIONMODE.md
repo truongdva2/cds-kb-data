@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bip_crmode_kk preserving type)` | `cast ( substring( dd07l.domvalue_l,1,1 )` |
+| `CABillgPlnCreationMode` | `cast ( substring( dd07l.domvalue_l,1,1 ) as bip_crmode_kk preserving type)` |
 | `_CABillgPlnCreationModeText` | *Association* |
 
 ## Associations

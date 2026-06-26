@@ -28,10 +28,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `LglCntntMTaskGroupUUID : lcm_uuid;` | `LglCntntMTaskGroupUUID : lcm_uuid;` |
-| `LglCntntMWrkflwDocLink : lcm_lt_wrkflw_doclink;` | `LglCntntMWrkflwDocLink : lcm_lt_wrkflw_doclink;` |
-| `LglCntntMContextUUID   : lcm_uuid;` | `LglCntntMContextUUID   : lcm_uuid;` |
-| `LegalTransactionUUID   : lcm_uuid;` | `LegalTransactionUUID   : lcm_uuid;` |
+| `LglCntntMTaskGroupUUID` | `lcm_uuid` |
+| `LglCntntMWrkflwDocLink` | `lcm_lt_wrkflw_doclink` |
+| `LglCntntMContextUUID` | `lcm_uuid` |
+| `LegalTransactionUUID` | `lcm_uuid` |
 
 ## Associations
 

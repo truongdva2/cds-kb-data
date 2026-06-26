@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `PhysicalInventoryStockType` | `bstar` |
-| `pi_stock_type_name preserving type )` | `cast ( btext` |
+| `PhysicalInventoryStockTypeName` | `cast ( btext as pi_stock_type_name preserving type )` |
 | `_Language` | *Association* |
 | `_PhysicalInventoryStockType` | *Association* |
 

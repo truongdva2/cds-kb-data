@@ -40,7 +40,6 @@ tags:
 | `FollowUpFloat` | `puffn` |
 | `MaintPackagePeriodType` | `perkn` |
 | `CallHorizonInDays` | `eroef` |
-| `/* Associations - locally defined */` | `/* Associations - locally defined */` |
 | `_MaintenancePackageText` | *Association* |
 | `_MaintenanceStrategy` | *Association* |
 | `_MaintenancePackageUnit` | *Association* |

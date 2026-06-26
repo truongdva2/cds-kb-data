@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _CnsldtnSegment.Segment` | `_CnsldtnSegment.Segment` |
-| `_CnsldtnSegment.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_Text as _Text : redirected to composition child I_CnsldtnSegmentTextTP` | *Association* |
+| `Segment` | `_CnsldtnSegment.Segment` |
+| `CnsldtnIsAdditionalMasterData` | `_CnsldtnSegment.CnsldtnIsAdditionalMasterData` |
+| `_Text` | *Association* |
 
 ## Associations
 

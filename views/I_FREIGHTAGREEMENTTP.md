@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key TransportationAgreementUUID` | `TransportationAgreementUUID` |
+| `TransportationAgreementUUID` | `TransportationAgreementUUID` |
 | `TransportationAgreement` | `TransportationAgreement` |
 | `TransportationAgreementDesc` | `TransportationAgreementDesc` |
 | `TranspAgrmtChangedOnDateTime` | `TranspAgrmtChangedOnDateTime` |
@@ -48,9 +48,6 @@ tags:
 | `TransportationShippingType` | `TransportationShippingType` |
 | `TransportationMode` | `TransportationMode` |
 | `TransportationAgreementStatus` | `TransportationAgreementStatus` |
-| `FreightAgreement._FreightAgreementItem  : redirected to composition child I_FreightAgreementItemTP` | `FreightAgreement._FreightAgreementItem  : redirected to composition child I_FreightAgreementItemTP` |
-| `FreightAgreement._FreightAgreementOrganization  : redirected to composition child I_FrtAgrmtOrganizationTP` | `FreightAgreement._FreightAgreementOrganization  : redirected to composition child I_FrtAgrmtOrganizationTP` |
-| `FreightAgreement._FreightAgreementParty : redirected to composition child I_FreightAgreementPartyTP` | `FreightAgreement._FreightAgreementParty : redirected to composition child I_FreightAgreementPartyTP` |
 
 ## Associations
 

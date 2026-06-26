@@ -32,14 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `hierarchy.association: '_CustomerHierarchyNode'` | `hierarchy.association: '_CustomerHierarchyNode'` |
-| `}` | `}` |
-| `kunnr preserving type)` | `cast(kna1.kunnr` |
-| `md_customer_name)` | `cast(substring(rtrim(replace(concat(name1, concat(' &@', name2)), '&@', ''),' '),1,80)` |
-| `cast(concat( concat( concat( concat( concat( concat_with_space( anred, name1, 1 ), name2 ), name3 ), name4 ), '/' )` | `cast(concat( concat( concat( concat( concat( concat_with_space( anred, name1, 1 ), name2 ), name3 ), name4 ), '/' )` |
-| `md_customer_full_name)` | `concat_with_space(pstlz, ort01, 1 ) )` |
-| `customername_2)` | `cast(substring(rtrim(replace(concat(_AddressDefaultRepresentation.AddresseeName1, concat(' &@', _AddressDefaultRepresentation.AddresseeName2)), '&@', ''),' '),1,81)` |
-| `md_customer_full_name)` | `cast(concat( concat_with_space( concat_with_space( concat_with_space(_AddressDefaultRepresentation.AddresseeName1, _AddressDefaultRepresentation.AddresseeName2,1 ), _AddressDefaultRepresentation.AddresseeName3,1 ), _AddressDefaultRepresentation.AddresseeName4,1 ), ' ' )` |
+| `Customer` | `cast(kna1.kunnr as kunnr preserving type)` |
+| `CustomerName` | `cast(…)` |
+| `CustomerFullName` | `cast(…)` |
+| `BPCustomerName` | `cast(…)` |
+| `BPCustomerFullName` | `cast(…)` |
 | `CreatedByUser` | `kna1.ernam` |
 | `CreationDate` | `kna1.erdat` |
 | `AddressID` | `kna1.adrnr` |
@@ -49,15 +46,15 @@ tags:
 | `AuthorizationGroup` | `kna1.begru` |
 | `DeliveryIsBlocked` | `kna1.lifsd` |
 | `PostingIsBlocked` | `kna1.sperr` |
-| `BillingIsBlockedForCustomer, // Used in CDS based Customer Object Page` | `kna1.faksd` |
-| `OrderIsBlockedForCustomer, //Used in CDS based Customer Object Page` | `kna1.aufsd` |
-| `InternationalLocationNumber1, //Used in CDS based Customer Object Page` | `kna1.bbbnr` |
+| `BillingIsBlockedForCustomer` | `kna1.faksd` |
+| `OrderIsBlockedForCustomer` | `kna1.aufsd` |
+| `InternationalLocationNumber1` | `kna1.bbbnr` |
 | `IsOneTimeAccount` | `kna1.xcpdk` |
 | `TaxJurisdiction` | `kna1.txjcd` |
 | `Industry` | `kna1.brsch` |
 | `TaxNumberType` | `kna1.stcdt` |
-| `TaxNumber1, // same` | `kna1.stcd1` |
-| `TaxNumber2, // same` | `kna1.stcd2` |
+| `TaxNumber1` | `kna1.stcd1` |
+| `TaxNumber2` | `kna1.stcd2` |
 | `TaxNumber3` | `kna1.stcd3` |
 | `TaxNumber4` | `kna1.stcd4` |
 | `TaxNumber5` | `kna1.stcd5` |
@@ -137,17 +134,17 @@ tags:
 | `DataController8` | `kna1.data_ctrlr8` |
 | `DataController9` | `kna1.data_ctrlr9` |
 | `DataController10` | `kna1.data_ctrlr10` |
-| `_AddressDefaultRepresentation.AddresseeName1                                                                as BusinessPartnerName1` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName2                                                                as BusinessPartnerName2` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName3                                                                as BusinessPartnerName3` | *Association* |
-| `_AddressDefaultRepresentation.AddresseeName4                                                                as BusinessPartnerName4` | *Association* |
-| `_AddressDefaultRepresentation.CityName                                                                      as BPAddrCityName` | *Association* |
-| `_AddressDefaultRepresentation.StreetName                                                                    as BPAddrStreetName` | *Association* |
-| `_AddressDefaultRepresentation.AddressSearchTerm1                                                            as AddressSearchTerm1` | *Association* |
-| `_AddressDefaultRepresentation.AddressSearchTerm2                                                            as AddressSearchTerm2` | *Association* |
-| `_AddressDefaultRepresentation.DistrictName                                                                  as DistrictName` | *Association* |
-| `_AddressDefaultRepresentation.POBoxDeviatingCityName                                                        as POBoxDeviatingCityName` | *Association* |
-| `_AddressDefaultRepresentation.FormOfAddress                                                                 as BusinessPartnerFormOfAddress` | *Association* |
+| `BusinessPartnerName1` | `_AddressDefaultRepresentation.AddresseeName1` |
+| `BusinessPartnerName2` | `_AddressDefaultRepresentation.AddresseeName2` |
+| `BusinessPartnerName3` | `_AddressDefaultRepresentation.AddresseeName3` |
+| `BusinessPartnerName4` | `_AddressDefaultRepresentation.AddresseeName4` |
+| `BPAddrCityName` | `_AddressDefaultRepresentation.CityName` |
+| `BPAddrStreetName` | `_AddressDefaultRepresentation.StreetName` |
+| `AddressSearchTerm1` | `_AddressDefaultRepresentation.AddressSearchTerm1` |
+| `AddressSearchTerm2` | `_AddressDefaultRepresentation.AddressSearchTerm2` |
+| `DistrictName` | `_AddressDefaultRepresentation.DistrictName` |
+| `POBoxDeviatingCityName` | `_AddressDefaultRepresentation.POBoxDeviatingCityName` |
+| `BusinessPartnerFormOfAddress` | `_AddressDefaultRepresentation.FormOfAddress` |
 | `BR_ICMSTaxPayerType` | `kna1.icmstaxpay` |
 | `_CustomerToBusinessPartner` | *Association* |
 | `_StandardAddress` | *Association* |
@@ -166,7 +163,6 @@ tags:
 | `_ContactPerson` | *Association* |
 | `_CustomerHierarchyNode` | *Association* |
 | `_GlobalCompany` | *Association* |
-
 
 ## Associations
 
@@ -188,10 +184,8 @@ tags:
 | `_ContactPerson` | `I_ContactPerson` | [0..*] |
 | `_CustomerHierarchyNode` | `I_CustUnivHierarchyNode` | [0..*] |
 | `_GlobalCompany` | `I_Globalcompany` | [0..1] |
-| `_BusinessPartnerAddress` | `I_BusinessPartnerAddress` | [1..1] |
 | `_AddressDefaultRepresentation` | `I_OrganizationAddress` | [0..1] |
 | `_AddressRepresentation` | `I_Address_2` | [0..1] |
-
 
 ## Source Code
 

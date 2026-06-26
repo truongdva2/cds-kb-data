@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_res_base preserving type)` | `cast(resolution_base` |
+| `TranspChargeCalcReslnBase` | `cast(resolution_base as /scmtms/vdm_tcm_res_base preserving type)` |
 | `Language` | `language` |
-| `/scmtms/vdm_tcm_res_base_desc preserving type)` | `cast(description` |
-| `/* Associations */` | `/* Associations */` |
+| `TranspChargeCalcReslnBaseDesc` | `cast(description as /scmtms/vdm_tcm_res_base_desc preserving type)` |
 | `_TranspChargeCalcReslnBase` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspChargeCalcReslnBase` | `I_TranspChargeCalcReslnBase` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

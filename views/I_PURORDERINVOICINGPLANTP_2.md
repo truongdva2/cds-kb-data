@@ -33,9 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key InvoicingPlan` | `InvoicingPlan` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `InvoicingPlan` | `InvoicingPlan` |
 | `InvoicingPlanType` | `InvoicingPlanType` |
 | `InvoicingPlanStartDate` | `InvoicingPlanStartDate` |
 | `InvoicingPlanEndDate` | `InvoicingPlanEndDate` |
@@ -44,10 +44,6 @@ tags:
 | `PurchaseOrderType` | `PurchaseOrderType` |
 | `PurchasingOrganization` | `PurchasingOrganization` |
 | `Plant` | `Plant` |
-| `/* Composition */` | `/* Composition */` |
-| `_PurchaseOrder       : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_PurchaseOrderItem   : redirected to parent I_PurchaseOrderItemTP_2` | *Association* |
-| `_POInvoicingPlanItem : redirected to composition child I_POInvoicingPlanItemTP_2` | *Association* |
 
 ## Associations
 

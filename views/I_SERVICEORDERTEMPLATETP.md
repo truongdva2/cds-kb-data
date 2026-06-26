@@ -31,7 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_SalesOrganizationStdVH', element: 'SalesOrganization' },  useAsTemplate: true}]` | `name: 'I_SalesOrganizationStdVH', element: 'SalesOrganization' },  useAsTemplate: true}]` |
+| `ServiceOrderTemplate` | `ServiceOrderTemplate` |
+| `ServiceObjectType` | `ServiceObjectType` |
+| `ServiceOrderTemplateType` | `ServiceOrderTemplateType` |
+| `ServiceOrderTemplateUUID` | `ServiceOrderTemplateUUID` |
+| `SrvcOrdTmplDescription` | `SrvcOrdTmplDescription` |
+| `ServiceDocumentPriority` | `ServiceDocumentPriority` |
+| `SrvcDocTmplValdtyStartDateTime` | `SrvcDocTmplValdtyStartDateTime` |
+| `SrvcDocTmplValdtyEndDateTime` | `SrvcDocTmplValdtyEndDateTime` |
+| `SalesGroupOrgUnitID` | `SalesGroupOrgUnitID` |
+| `SalesOfficeOrgUnitID` | `SalesOfficeOrgUnitID` |
+| `SalesOrganizationOrgUnitID` | `SalesOrganizationOrgUnitID` |
+| `SalesGroup` | `SalesGroup` |
+| `SalesOffice` | `SalesOffice` |
+| `Division` | `Division` |
+| `DistributionChannel` | `DistributionChannel` |
 | `SalesOrganization` | `SalesOrganization` |
 | `ServiceDocCreationDateTime` | `ServiceDocCreationDateTime` |
 | `ServiceDocChangedDateTime` | `ServiceDocChangedDateTime` |
@@ -57,14 +71,6 @@ tags:
 | `_SalesGroup` | *Association* |
 | `_SalesOrganization` | *Association* |
 | `_SrvcOrdTmplStatus` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceOrderTemplateItemTP   : redirected to composition child I_ServiceOrderTemplateItemTP` | *Association* |
-| `_SrvcOrdTmplReferenceObjectTP : redirected to composition child I_SrvcOrdTmplRefObjectTP` | *Association* |
-| `_SrvcOrdTmplUserStatusTP      : redirected to composition child I_SrvcOrdTmplUserStatusTP` | *Association* |
-| `_SrvcOrdTmplLongTextTP        : redirected to composition child I_SrvcOrdTmplLongTextTP` | *Association* |
-| `_SrvcOrdTmplAppointmentTP     : redirected to composition child I_SrvcOrdTmplAppointmentTP` | *Association* |
-| `_SrvcOrdTmplDurationTP        : redirected to composition child I_SrvcOrdTmplDurationTP` | *Association* |
-| `_SrvcOrdTmplPartnerTP         : redirected to composition child I_SrvcOrdTmplPartnerTP` | *Association* |
 
 ## Associations
 

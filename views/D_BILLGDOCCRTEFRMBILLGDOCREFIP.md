@@ -28,13 +28,16 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ReferenceBillingDocument   : vbeln_vf;` | `ReferenceBillingDocument   : vbeln_vf;` |
-| `_Item               : composition [0..*] of D_BlgDcCrteFrmBillgDocRefItmIP;` | *Association* |
-| `_DummyAssociation   : association to parent D_BillgDocCrteFrmBillgDocIP;` | *Association* |
+| `ReferenceBillingDocument` | `vbeln_vf` |
+| `_Item` | *Association* |
+| `_DummyAssociation` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Item` | `D_BlgDcCrteFrmBillgDocRefItmIP` | [0..*] |
+| `_DummyAssociation` | `D_BillgDocCrteFrmBillgDocIP` | — |
 
 ## Source Code
 

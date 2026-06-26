@@ -30,14 +30,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceQuotation` | `ServiceQuotation` |
-| `key ServiceQuotationItem` | `ServiceQuotationItem` |
-| `key SrvcDocDurationType` | `SrvcDocDurationType` |
+| `ServiceQuotation` | `ServiceQuotation` |
+| `ServiceQuotationItem` | `ServiceQuotationItem` |
+| `SrvcDocDurationType` | `SrvcDocDurationType` |
 | `SrvcDocDurationValue` | `SrvcDocDurationValue` |
 | `SrvcDocDurationUnit` | `SrvcDocDurationUnit` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceQuotationItemTP : redirected to parent I_ServiceQuotationItemTP` | *Association* |
-| `_ServiceQuotationTP     : redirected to I_ServiceQuotationTP` | *Association* |
 
 ## Associations
 

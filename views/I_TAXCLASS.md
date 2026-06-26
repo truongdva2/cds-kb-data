@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TaxClassificationCategory, //_TaxClassification` | `tskm.tatyp` |
+| `TaxClassificationCategory` | `tskm.tatyp` |
 | `TaxClassification` | `tskm.taxkm` |
 | `_Text` | *Association* |
 | `_TaxClassificationCategory` | *Association* |

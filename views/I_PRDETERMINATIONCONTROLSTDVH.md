@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PriceDeterminationControl` | `PriceDeterminationControl` |
+| `PriceDeterminationControl` | `PriceDeterminationControl` |
 | `DomainValue` | `DomainValue` |
 | `_Text` | *Association* |
 

@@ -34,10 +34,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_sales_order preserving type)` | `cast(SalesDocument` |
-| `sales_order_item preserving type)` | `cast(SalesDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `SalesOrder` | `cast(SalesDocument as vdm_sales_order preserving type)` |
+| `SalesOrderItem` | `cast(SalesDocumentItem as sales_order_item preserving type)` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PricingDateTime` | `PricingDateTime` |
@@ -105,7 +105,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesOrder` | `I_SalesOrder` | [1..1] |
+| `_SalesOrderItem` | `I_SalesOrderItem` | [1..1] |
 
 ## Source Code
 

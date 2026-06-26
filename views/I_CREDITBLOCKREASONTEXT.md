@@ -33,9 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold:   0.8` | `fuzzinessThreshold:   0.8` |
-| `ranking:              #LOW }` | `ranking:              #LOW }` |
+| `CreditAccountBlockReason` | `block_reason` |
+| `Language` | `langu` |
 | `CrdtAcctBlockReasonDescription` | `block_reason_txt` |
 | `_Language` | *Association* |
 

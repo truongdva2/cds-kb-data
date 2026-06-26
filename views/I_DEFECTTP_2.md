@@ -30,54 +30,51 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Defect.DefectInternalID` | `_Defect.DefectInternalID` |
-| `_Defect.Defect` | *Association* |
-| `_Defect.DefectCategory` | *Association* |
-| `_Defect.CreatedByUser` | *Association* |
-| `_Defect.CreationDate` | *Association* |
-| `_Defect.CreationTime` | *Association* |
-| `_Defect.LastChangedByUser` | *Association* |
-| `_Defect.LastChangeDate` | *Association* |
-| `_Defect.LastChangeTime` | *Association* |
-| `_Defect.DefectText` | *Association* |
-| `_Defect.DefectCodeCatalog` | *Association* |
-| `_Defect.DefectCodeGroup` | *Association* |
-| `_Defect.DefectCode` | *Association* |
-| `_Defect.DefectLocationCatalog` | *Association* |
-| `_Defect.DefectLocationCodeGroup` | *Association* |
-| `_Defect.DefectLocationCode` | *Association* |
-| `_Defect.DefectiveQuantity` | *Association* |
-| `_Defect.DefectiveQuantityUnit` | *Association* |
-| `_Defect.ProductionOrder as ManufacturingOrder` | *Association* |
-| `_Defect.OrderInternalID` | *Association* |
-| `vdm_vornr preserving type )` | `cast( _Defect.ProductionOrderOperation` |
-| `_Defect.ProductionOrderSequence as ManufacturingOrderSequence` | *Association* |
-| `_Defect.DefectClass` | *Association* |
-| `_Defect.NumberOfDefects` | *Association* |
-| `_Defect.InspPlanOperationInternalID` | *Association* |
-| `_Defect.InspectionCharacteristic` | *Association* |
-| `_Defect.InspectionSubsetInternalID` | *Association* |
-| `_Defect.MaterialSample` | *Association* |
-| `_Defect.WorkCenterTypeCode` | *Association* |
-| `_Defect.MainWorkCenterInternalID` | *Association* |
-| `_Defect.MainWorkCenterPlant` | *Association* |
-| `_Defect.MainWorkCenter` | *Association* |
-| `_Defect.IsDeleted` | *Association* |
-| `_Defect.DefectOrigin` | *Association* |
-| `_Defect.Material` | *Association* |
-| `_Defect.Batch` | *Association* |
-| `_Defect.Plant` | *Association* |
-| `_Defect.InspectionLot` | *Association* |
-| `_Defect.ChangedDateTime` | *Association* |
-| `_Defect.DefectLifecycleStatus` | *Association* |
-| `_Defect.ProblemAnalysisStatus` | *Association* |
-| `_Defect.QualityIssueReference` | *Association* |
-| `_Defect.MasterLanguage` | *Association* |
-| `_Defect.DefectUUID` | *Association* |
-| `/* Association */` | `/* Association */` |
-| `_DefectLongText : redirected to composition child I_DefectLongTextTP_2` | *Association* |
-| `_DefectSerialNumber : redirected to composition child I_DefectSerialNumberTP_2` | *Association* |
-| `_Defect._InspectionLot as _InspectionLot` | *Association* |
+| `DefectInternalID` | `_Defect.DefectInternalID` |
+| `Defect` | `_Defect.Defect` |
+| `DefectCategory` | `_Defect.DefectCategory` |
+| `CreatedByUser` | `_Defect.CreatedByUser` |
+| `CreationDate` | `_Defect.CreationDate` |
+| `CreationTime` | `_Defect.CreationTime` |
+| `LastChangedByUser` | `_Defect.LastChangedByUser` |
+| `LastChangeDate` | `_Defect.LastChangeDate` |
+| `LastChangeTime` | `_Defect.LastChangeTime` |
+| `DefectText` | `_Defect.DefectText` |
+| `DefectCodeCatalog` | `_Defect.DefectCodeCatalog` |
+| `DefectCodeGroup` | `_Defect.DefectCodeGroup` |
+| `DefectCode` | `_Defect.DefectCode` |
+| `DefectLocationCatalog` | `_Defect.DefectLocationCatalog` |
+| `DefectLocationCodeGroup` | `_Defect.DefectLocationCodeGroup` |
+| `DefectLocationCode` | `_Defect.DefectLocationCode` |
+| `DefectiveQuantity` | `_Defect.DefectiveQuantity` |
+| `DefectiveQuantityUnit` | `_Defect.DefectiveQuantityUnit` |
+| `ManufacturingOrder` | `_Defect.ProductionOrder` |
+| `OrderInternalID` | `_Defect.OrderInternalID` |
+| `ManufacturingOrderOperation` | `cast( _Defect.ProductionOrderOperation as vdm_vornr preserving type )` |
+| `ManufacturingOrderSequence` | `_Defect.ProductionOrderSequence` |
+| `DefectClass` | `_Defect.DefectClass` |
+| `NumberOfDefects` | `_Defect.NumberOfDefects` |
+| `InspPlanOperationInternalID` | `_Defect.InspPlanOperationInternalID` |
+| `InspectionCharacteristic` | `_Defect.InspectionCharacteristic` |
+| `InspectionSubsetInternalID` | `_Defect.InspectionSubsetInternalID` |
+| `MaterialSample` | `_Defect.MaterialSample` |
+| `WorkCenterTypeCode` | `_Defect.WorkCenterTypeCode` |
+| `MainWorkCenterInternalID` | `_Defect.MainWorkCenterInternalID` |
+| `MainWorkCenterPlant` | `_Defect.MainWorkCenterPlant` |
+| `MainWorkCenter` | `_Defect.MainWorkCenter` |
+| `IsDeleted` | `_Defect.IsDeleted` |
+| `DefectOrigin` | `_Defect.DefectOrigin` |
+| `Material` | `_Defect.Material` |
+| `Batch` | `_Defect.Batch` |
+| `Plant` | `_Defect.Plant` |
+| `InspectionLot` | `_Defect.InspectionLot` |
+| `ChangedDateTime` | `_Defect.ChangedDateTime` |
+| `DefectLifecycleStatus` | `_Defect.DefectLifecycleStatus` |
+| `ProblemAnalysisStatus` | `_Defect.ProblemAnalysisStatus` |
+| `QualityIssueReference` | `_Defect.QualityIssueReference` |
+| `MasterLanguage` | `_Defect.MasterLanguage` |
+| `DefectUUID` | `_Defect.DefectUUID` |
+| `_InspectionLot` | *Association* |
 
 ## Associations
 

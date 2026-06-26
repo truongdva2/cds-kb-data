@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key InspectionLot` | `InspectionLot` |
-| `key InspLotMatlDocItem` | `InspLotMatlDocItem` |
+| `InspectionLot` | `InspectionLot` |
+| `InspLotMatlDocItem` | `InspLotMatlDocItem` |
 | `InspLotMatlDocItemType` | `InspLotMatlDocItemType` |
 | `InspLotMatlDocItmQtyUnit` | `InspLotMatlDocItmQtyUnit` |
 | `InspLotQtyPosted` | `InspLotQtyPosted` |
@@ -42,9 +42,6 @@ tags:
 | `MaterialDocumentItemText` | `MaterialDocumentItemText` |
 | `UsageDecisionStockType` | `UsageDecisionStockType` |
 | `CreationDate` | `CreationDate` |
-| `/* Associations */` | `/* Associations */` |
-| `_InspectionLot:           redirected to parent I_InspectionLotTP_2` | *Association* |
-| `_InspLotMatlDocItmSrlNmbr: redirected to composition child I_InspLotMatlDocItmSrlNmbrTP_2` | *Association* |
 
 ## Associations
 

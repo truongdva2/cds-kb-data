@@ -27,7 +27,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `BusSolnOrdDescription : crmt_process_description;` | `BusSolnOrdDescription : crmt_process_description;` |
+| `BusSolnOrdDescription` | `crmt_process_description` |
 
 ## Associations
 

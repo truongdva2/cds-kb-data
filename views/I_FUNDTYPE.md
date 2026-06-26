@@ -28,9 +28,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_FinMgmtAreaStdVH'` | `name:    'I_FinMgmtAreaStdVH'` |
-| `element: 'FinancialManagementArea' }` | `element: 'FinancialManagementArea' }` |
-| `}]` | `}]` |
 | `FinancialManagementArea` | `fm_area` |
 | `FundType` | `fund_type` |
 | `GranteeMgmtFundType` | `gm_fundtype` |
@@ -43,6 +40,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_FinMgmtArea` | `I_FinancialManagementArea` | [1..1] |
+| `_Text` | `I_FundTypeText` | [0..*] |
 | `_GranteeMgmtFundType` | `I_GranteeMgmtFundType` | [0..1] |
 
 ## Source Code

@@ -31,19 +31,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
-| `key WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
-| `key Country2DigitISOCode` | `Country2DigitISOCode` |
+| `WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
+| `WorkAssignmentExternalID` | `WorkAssignmentExternalID` |
+| `Country2DigitISOCode` | `Country2DigitISOCode` |
 | `WorkAssignmentStartDate` | `WorkAssignmentStartDate` |
 | `WorkAssignmentEndDate` | `WorkAssignmentEndDate` |
 | `IsContingentWorker` | `IsContingentWorker` |
 | `IsBlocked` | `IsBlocked` |
-| `_WorkforcePerson  : redirected to parent I_WorkforcePersonTP_1` | *Association* |
-| `_JobDetails       : redirected to composition child I_WorkAssignmentDetailTP_1` | *Association* |
-| `_ServiceCostLevel : redirected to composition child I_WrkAssgmtSrvcCostLvlTP_1` | *Association* |
-| `_AddressDetails   : redirected to composition child I_WorkAssignmentAddressTP` | *Association* |
-| `_WorkOrderDetails : redirected to composition child I_WrkAssgmtWrkOrdDetTP` | *Association* |
-| `_PaymentDetails   : redirected to composition child I_WrkAssgmtPaymentTP_1` | *Association* |
 
 ## Associations
 

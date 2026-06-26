@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `externalproductgroup preserving type )` | `cast(extwg` |
+| `ExternalProductGroup` | `cast(extwg as externalproductgroup preserving type )` |
 | `Language` | `spras` |
-| `externalproductgroupname preserving type )` | `cast(ewbez` |
+| `ExternalProductGroupName` | `cast(ewbez as externalproductgroupname preserving type )` |
 | `_ExternalProductGroup` | *Association* |
 | `_Language` | *Association* |
 

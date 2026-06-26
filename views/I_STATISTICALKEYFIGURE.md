@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_stagr preserving type )` | `cast(stagr` |
-| `fis_kokrs preserving type )` | `cast(kokrs` |
+| `StatisticalKeyFigure` | `cast(stagr as fis_stagr preserving type )` |
+| `ControllingArea` | `cast(kokrs as fis_kokrs preserving type )` |
 | `StstcKeyFigQuantityUnit` | `msehi` |
 | `StstcKeyFigCategory` | `grtyp` |
 | `StstclKeyFigCreatedAtDateTime` | `created_on` |
@@ -56,6 +56,7 @@ tags:
 | Alias | Target View | Cardinality |
 |---|---|---|
 | `_Text` | `I_StatisticalKeyFigureText` | [0..*] |
+| `_ControllingArea` | `I_ControllingArea` | [0..1] |
 | `_StatisticalKeyFigureCat` | `I_StatisticalKeyFigureCat` | [0..1] |
 | `_UnitOfMeasure` | `I_UnitOfMeasure` | [0..1] |
 | `_StstclKeyFigureHierNode` | `I_StstclKeyFigureHierNode` | [0..*] |

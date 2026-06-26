@@ -31,15 +31,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
-| `key REObjectAssignmentType` | `REObjectAssignmentType` |
-| `key CompanyCode` | `CompanyCode` |
-| `key RealEstateContract` | `RealEstateContract` |
-| `key ValidityStartEndDateValue` | `ValidityStartEndDateValue` |
+| `RealEstateRentableObjectUUID` | `RealEstateRentableObjectUUID` |
+| `REObjectAssignmentType` | `REObjectAssignmentType` |
+| `CompanyCode` | `CompanyCode` |
+| `RealEstateContract` | `RealEstateContract` |
+| `ValidityStartEndDateValue` | `ValidityStartEndDateValue` |
 | `REStatusObjectSource` | `REStatusObjectSource` |
 | `REStatusObjectTarget` | `REStatusObjectTarget` |
-| `rebdvdmvalidfrom )` | `cast( coalesce(ValidityStartDate, '00000000')` |
-| `rebdvdmvalidto )` | `cast( coalesce(ValidityEndDate, '99991231')` |
+| `ValidityStartDate` | `cast( coalesce(ValidityStartDate, '00000000') as rebdvdmvalidfrom )` |
+| `ValidityEndDate` | `cast( coalesce(ValidityEndDate, '99991231') as rebdvdmvalidto )` |
 | `REOnlyInfoAssgmt` | `REOnlyInfoAssgmt` |
 | `REStatusObjectSourceIsArchived` | `REStatusObjectSourceIsArchived` |
 | `REObjectPossessionStartDate` | `REObjectPossessionStartDate` |
@@ -53,6 +53,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_RERentableObject` | `I_RERentableObject` | — |
 | `_REContract` | `I_REContract` | [1..1] |
 
 ## Source Code

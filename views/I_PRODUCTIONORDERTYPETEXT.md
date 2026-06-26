@@ -34,7 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `ProductionOrderType` | `cast(txt.OrderType as vdm_prodnordertype preserving type)` |
+| `Language` | `cast(txt.Language as spras preserving type)` |
 | `ProductionOrderTypeName` | `txt.OrderTypeName` |
 | `_ProductionOrderType` | *Association* |
 | `_Language` | *Association* |
@@ -43,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ProductionOrderType` | `I_ProductionOrderType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

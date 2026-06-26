@@ -30,7 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_WorkforcePersonSrchHelp', element: 'ResponsibleEmployee' } } ]` | `name: 'I_WorkforcePersonSrchHelp', element: 'ResponsibleEmployee' } } ]` |
+| `SalesQuotation` | `SalesQuotation` |
+| `SalesQuotationItem` | `SalesQuotationItem` |
+| `SalesQuotationType` | `SalesQuotationType` |
+| `SalesOrganization` | `SalesOrganization` |
+| `_SalesOrganization` | *Association* |
+| `DistributionChannel` | `DistributionChannel` |
+| `_DistributionChannel` | *Association* |
+| `OrganizationDivision` | `OrganizationDivision` |
+| `_OrganizationDivision` | *Association* |
+| `SalesOffice` | `SalesOffice` |
+| `_SalesOffice` | *Association* |
+| `SalesGroup` | `SalesGroup` |
+| `_SalesGroup` | *Association* |
+| `PartnerCompany` | `_SoldToParty.TradingPartner` |
+| `_GlobalCompany` | *Association* |
+| `SoldToParty` | `SoldToParty` |
+| `_SoldToParty` | *Association* |
 | `ResponsibleEmployee` | `ResponsibleEmployee` |
 | `_ResponsibleEmployee` | *Association* |
 | `SalesEmployee` | `SalesEmployee` |
@@ -43,54 +59,16 @@ tags:
 | `_Product` | *Association* |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `_TransactionCurrency` | *Association* |
-| `vdm_v_display_currency )` | `cast( :P_DisplayCurrency` |
+| `DisplayCurrency` | `cast( :P_DisplayCurrency as vdm_v_display_currency )` |
 | `SalesQuotationNetAmount` | `SalesQuotationNetAmount` |
 | `CnvrtdSalesQuotationNetAmount` | `CnvrtdSalesQuotationNetAmount` |
-| `cast (currency_conversion(` | `cast (currency_conversion(` |
-| `amount => SalesQuotationNetAmount` | `amount => SalesQuotationNetAmount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CreationDate` | `exchange_rate_date => CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `sls_qtan_net_amt_in_dc)` | `)` |
-| `cast (currency_conversion(` | `cast (currency_conversion(` |
-| `amount =>  CnvrtdSalesQuotationNetAmount` | `amount =>  CnvrtdSalesQuotationNetAmount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CreationDate` | `exchange_rate_date => CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `cnvrtd_sls_qtan_net_amt_in_dc )` | `)` |
+| `SalesQuotationNetAmtInDspCrcy` | `cast(…)` |
+| `CnvrtdSalesQtanNetAmtInDspCrcy` | `cast(…)` |
 | `SlsQtanPeriodElapsedPercent` | `SlsQtanPeriodElapsedPercent` |
-| `cast(` | `cast(` |
-| `case when` | `case when` |
-| `SlsQtanPeriodDueDays > 999` | `SlsQtanPeriodDueDays > 999` |
-| `then` | `then` |
-| `999` | `999` |
-| `else` | `else` |
-| `SlsQtanPeriodDueDays` | `SlsQtanPeriodDueDays` |
-| `end` | `end` |
-| `SlsQtanPeriodDueDays` | `as due_days)` |
+| `SlsQtanPeriodDueDays` | `cast(…)` |
 | `PrdtvSlsQtanCnvrsnRate` | `PrdtvSlsQtanCnvrsnRate` |
 | `PrdtvSlsQtanCnvrsnAmount` | `PrdtvSlsQtanCnvrsnAmount` |
-| `cast( currency_conversion (` | `cast( currency_conversion (` |
-| `amount =>  PrdtvSlsQtanCnvrsnAmount` | `amount =>  PrdtvSlsQtanCnvrsnAmount` |
-| `source_currency => TransactionCurrency` | `source_currency => TransactionCurrency` |
-| `target_currency => :P_DisplayCurrency` | `target_currency => :P_DisplayCurrency` |
-| `exchange_rate_date => CreationDate` | `exchange_rate_date => CreationDate` |
-| `exchange_rate_type => :P_ExchangeRateType` | `exchange_rate_type => :P_ExchangeRateType` |
-| `error_handling => 'FAIL_ON_ERROR'` | `error_handling => 'FAIL_ON_ERROR'` |
-| `round => #CDSBoolean.true` | `round => #CDSBoolean.true` |
-| `decimal_shift => #CDSBoolean.true` | `decimal_shift => #CDSBoolean.true` |
-| `decimal_shift_back => #CDSBoolean.true` | `decimal_shift_back => #CDSBoolean.true` |
-| `cnvrtd_sls_qt_pr_net_amt_in_dc )` | `)` |
+| `PrdtvSlsQtanCnvrsnAmtInDspCrcy` | `cast(…)` |
 
 ## Associations
 

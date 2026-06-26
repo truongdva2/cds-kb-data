@@ -31,7 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `position: 40 }]` | `position: 40 }]` |
+| `CostingRunType` | `CostingRunType` |
+| `FiscalYear` | `cast( FiscalYear as fis_gjahr_no_conv preserving type )` |
+| `FiscalPeriod` | `cast( FiscalPeriod as fins_fiscalperiod preserving type )` |
+| `CostingRunTypeName` | `CostingRunTypeName` |
+| `CostingRunReferenceType` | `CostingRunReferenceType` |
 | `CostingRunReferenceTypeName` | `CostingRunReferenceTypeName` |
 
 ## Associations

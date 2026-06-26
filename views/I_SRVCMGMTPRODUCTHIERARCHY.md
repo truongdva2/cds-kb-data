@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(20) )` | `cast ( ProductHierarchy` |
+| `SrvcProductHierarchy` | `cast ( ProductHierarchy as abap.char(20) )` |
 | `_SrvcMgmtProductHierarchyText` | *Association* |
 
 ## Associations

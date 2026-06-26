@@ -30,13 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `einschre )` | `cast( dd07l.domvalue_l` |
+| `OpBscEndDateConstraintType` | `cast( dd07l.domvalue_l as einschre )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_OpBscEndDateConstraintTypeT` | [0..*] |
 
 ## Source Code
 

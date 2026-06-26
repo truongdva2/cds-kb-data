@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Currency` | `Currency` |
+| `Currency` | `Currency` |
 | `_Text` | *Association* |
 
 ## Associations

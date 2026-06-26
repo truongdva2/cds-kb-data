@@ -35,7 +35,60 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_DeliveryDocumentStdVH', element: 'DeliveryDocument' }, useAsTemplate: true }]` | `name: 'I_DeliveryDocumentStdVH', element: 'DeliveryDocument' }, useAsTemplate: true }]` |
+| `MaterialDocumentYear` | `MaterialDocumentYear` |
+| `MaterialDocument` | `MaterialDocument` |
+| `MaterialDocumentItem` | `MaterialDocumentItem` |
+| `MaterialDocumentLine` | `MaterialDocumentLine` |
+| `MaterialDocumentParentLine` | `MaterialDocumentParentLine` |
+| `GoodsMovementType` | `GoodsMovementType` |
+| `Material` | `Material` |
+| `Plant` | `Plant` |
+| `StorageLocation` | `StorageLocation` |
+| `InventoryUsabilityCode` | `InventoryUsabilityCode` |
+| `QuantityInEntryUnit` | `QuantityInEntryUnit` |
+| `EntryUnit` | `EntryUnit` |
+| `QuantityInBaseUnit` | `QuantityInBaseUnit` |
+| `MaterialBaseUnit` | `MaterialBaseUnit` |
+| `Batch` | `Batch` |
+| `ShelfLifeExpirationDate` | `ShelfLifeExpirationDate` |
+| `ManufactureDate` | `ManufactureDate` |
+| `InventorySpecialStockType` | `InventorySpecialStockType` |
+| `Customer` | `Customer` |
+| `Supplier` | `Supplier` |
+| `InventoryStockType` | `InventoryStockType` |
+| `InventoryValuationType` | `InventoryValuationType` |
+| `AccountAssignmentCategory` | `AccountAssignmentCategory` |
+| `ReversedMaterialDocumentYear` | `ReversedMaterialDocumentYear` |
+| `ReversedMaterialDocument` | `ReversedMaterialDocument` |
+| `ReversedMaterialDocumentItem` | `ReversedMaterialDocumentItem` |
+| `GoodsMovementIsCancelled` | `GoodsMovementIsCancelled` |
+| `FiscalYearPeriod` | `FiscalYearPeriod` |
+| `FiscalYearVariant` | `FiscalYearVariant` |
+| `IsAutomaticallyCreated` | `IsAutomaticallyCreated` |
+| `MaterialDocumentPostingType` | `MaterialDocumentPostingType` |
+| `ReservationItemRecordType` | `ReservationItemRecordType` |
+| `DebitCreditCode` | `DebitCreditCode` |
+| `IssgOrRcvgMaterial` | `IssgOrRcvgMaterial` |
+| `IssuingOrReceivingPlant` | `IssuingOrReceivingPlant` |
+| `IssuingOrReceivingStorageLoc` | `IssuingOrReceivingStorageLoc` |
+| `IssgOrRcvgBatch` | `IssgOrRcvgBatch` |
+| `IssgOrRcvgSpclStockInd` | `IssgOrRcvgSpclStockInd` |
+| `IssuingOrReceivingValType` | `IssuingOrReceivingValType` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `Reservation` | `Reservation` |
+| `ReservationItem` | `ReservationItem` |
+| `GoodsMovementRefDocType` | `GoodsMovementRefDocType` |
+| `GoodsMovementReasonCode` | `GoodsMovementReasonCode` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `IsCompletelyDelivered` | `IsCompletelyDelivered` |
+| `SerialNumbersAreCreatedAutomly` | `SerialNumbersAreCreatedAutomly` |
+| `CostCenter` | `CostCenter` |
+| `GLAccount` | `GLAccount` |
+| `ProfitCenter` | `ProfitCenter` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `SalesOrderScheduleLine` | `SalesOrderScheduleLine` |
 | `DeliveryDocument` | `DeliveryDocument` |
 | `DeliveryDocumentItem` | `DeliveryDocumentItem` |
 | `GoodsRecipientName` | `GoodsRecipientName` |
@@ -59,8 +112,6 @@ tags:
 | `_GoodsMovementReasonCode` | *Association* |
 | `_EntryUnit` | *Association* |
 | `_MaterialBaseUnit` | *Association* |
-| `_MaterialDocumentHeader : redirected to parent I_MaterialDocumentTP` | *Association* |
-| `_SerialNumber           : redirected to composition child I_MaterialDocItemSerialNoTP` | *Association* |
 
 ## Associations
 

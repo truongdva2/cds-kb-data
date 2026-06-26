@@ -32,8 +32,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `unitOfMeasure: 'UnitOfMeasure'} }` | `unitOfMeasure: 'UnitOfMeasure'} }` |
-| `fis_tgtqty_in_costsrceunit)` | `cast(TargetQtyInCostSourceUnit` |
+| `OrderID` | `OrderID` |
+| `OrderItem` | `OrderItem` |
+| `WorkCenterInternalID` | `WorkCenterInternalID` |
+| `OrderOperation` | `OrderOperation` |
+| `GLAccount` | `GLAccount` |
+| `PartnerCostCtrActivityType` | `PartnerCostCtrActivityType` |
+| `PartnerCostCenter` | `PartnerCostCenter` |
+| `Plant` | `Plant` |
+| `Product` | `Product` |
+| `UnitOfMeasure` | `UnitOfMeasure` |
+| `CurPlanProjSlsOrdValnStrategy` | `CurPlanProjSlsOrdValnStrategy` |
+| `Ledger` | `cast( :P_Ledger as fins_ledger )` |
+| `ControllingArea` | `ControllingArea` |
+| `CompanyCode` | `CompanyCode` |
+| `ProducedProduct` | `ProducedProduct` |
+| `SalesOrder` | `SalesOrder` |
+| `SalesOrderItem` | `SalesOrderItem` |
+| `WBSElementInternalID` | `WBSElementInternalID` |
+| `WBSElementExternalID` | `_WBSElement.WBSElementExternalID` |
+| `WorkCenter` | `_WorkCenter.WorkCenter` |
+| `ChartOfAccounts` | `ChartOfAccounts` |
+| `OrderType` | `OrderType` |
+| `OrderCategory` | `OrderCategory` |
+| `DisplayCurrency` | `DisplayCurrency` |
+| `OrderDescription` | `_Order.OrderDescription` |
+| `MfgOrderOperationText` | `_ManufacturingOrderOperation.MfgOrderOperationText` |
+| `PlantName` | `_Plant.PlantName` |
+| `ControllingAreaName` | `_ControllingArea.ControllingAreaName` |
+| `CompanyCodeName` | `_CompanyCode.CompanyCodeName` |
+| `SalesOrderItemText` | `_SalesOrderItem.SalesOrderItemText` |
+| `WBSDescription` | `_WBSElement.WBSDescription` |
+| `CreditActlCostInDspCrcy` | `cast(CreditActlCostInDisplayCrcy as fis_cr_actlcost_in_dspcrcy)` |
+| `DebitActlCostInDspCrcy` | `cast(DebitActlCostInDisplayCrcy as fis_dr_actlcost_in_dspcrcy)` |
+| `CrdtActlFxdCostInDspCrcy` | `cast(CrdtActlFixedCostInDspCrcy as fis_cr_actlfxdcost_in_dspcrcy)` |
+| `DebitActlFxdCostInDspCrcy` | `cast(DebitActlFixedCostInDspCrcy as fis_dr_actlfxdcost_in_dspcrcy)` |
+| `ActualQtyInCostSourceUnit` | `cast(ActualQtyInCostSourceUnit as fis_actlqty_in_costsrceunit)` |
+| `CreditPlanCostInDspCrcy` | `cast(CreditPlanCostInDisplayCrcy as fis_cr_plancost_in_dspcrcy)` |
+| `DebitPlanCostInDspCrcy` | `cast(DebitPlanCostInDisplayCrcy as fis_dr_plancost_in_dspcrcy)` |
+| `CrdtPlnFxdCostInDspCrcy` | `cast(CrdtPlanFixedCostInDspCrcy as fis_cr_plnfxdcost_in_dspcrcy)` |
+| `DebitPlnFxdCostInDspCrcy` | `cast(DebitPlanFixedCostInDspCrcy as fis_dr_plnfxdcost_in_dspcrcy)` |
+| `PlanQtyInCostSourceUnit` | `cast(PlanQtyInCostSourceUnit as fis_planqty_in_costsrceunit)` |
+| `CrdtTargetCostInDspCrcy` | `cast(CreditTgtCostInDisplayCrcy as fis_cr_tgtcost_in_dspcrcy)` |
+| `DebitTargetCostInDspCrcy` | `cast(DebitTgtCostInDisplayCrcy as fis_dr_tgtcost_in_dspcrcy)` |
+| `TargetQtyInCostSourceUnit` | `cast(TargetQtyInCostSourceUnit as fis_tgtqty_in_costsrceunit)` |
 | `_Order` | *Association* |
 | `_OrderItem` | *Association* |
 | `_ControllingArea` | *Association* |
@@ -84,10 +126,6 @@ tags:
 | `_ControllingArea` | `I_ControllingArea` | [0..1] |
 | `_WorkCenter` | `I_WorkCenter` | [0..1] |
 | `_WBSElement` | `I_WBSElementBasicData` | [0..1] |
-| `_OrderType` | `I_OrderType` | [0..1] |
-| `_OrderCategory` | `I_OrderCategory` | [0..1] |
-| `_Currency` | `I_Currency` | [0..1] |
-| `_Ledger` | `I_Ledger` | [0..1] |
 | `_ManufacturingOrderOperation` | `I_ManufacturingOrderOperation` | [0..1] |
 | `_PartnerCostCenterText` | `I_CostCenterText` | [0..*] |
 | `_WorkCenterText` | `I_WorkCenterText` | [0..*] |

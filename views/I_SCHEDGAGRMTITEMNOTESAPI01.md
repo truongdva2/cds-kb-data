@@ -32,19 +32,19 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key   Language` | `Language` |
-| `key   DocumentText` | `DocumentText` |
-| `key   TechnicalObjectType` | `TechnicalObjectType` |
-| `key   ArchObjectNumber` | `ArchObjectNumber` |
-| `key   SchedulingAgreement` | `SchedulingAgreement` |
-| `key   SchedulingAgreementItem` | `SchedulingAgreementItem` |
+| `Language` | `Language` |
+| `DocumentText` | `DocumentText` |
+| `TechnicalObjectType` | `TechnicalObjectType` |
+| `ArchObjectNumber` | `ArchObjectNumber` |
+| `SchedulingAgreement` | `SchedulingAgreement` |
+| `SchedulingAgreementItem` | `SchedulingAgreementItem` |
 | `NoteDescription` | `NoteDescription` |
 | `FixedIndicator` | `FixedIndicator` |
-| `_ScheduleAgreementItem.Plant` | *Association* |
-| `_ScheduleAgreementItem.StorageLocation` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingDocumentType` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingOrganization` | *Association* |
-| `_SchedgAgrmtHdr.PurchasingGroup` | *Association* |
+| `Plant` | `_ScheduleAgreementItem.Plant` |
+| `StorageLocation` | `_ScheduleAgreementItem.StorageLocation` |
+| `PurchasingDocumentType` | `_SchedgAgrmtHdr.PurchasingDocumentType` |
+| `PurchasingOrganization` | `_SchedgAgrmtHdr.PurchasingOrganization` |
+| `PurchasingGroup` | `_SchedgAgrmtHdr.PurchasingGroup` |
 | `_SchedgAgrmtHdr` | *Association* |
 | `_ScheduleAgreementItem` | *Association* |
 

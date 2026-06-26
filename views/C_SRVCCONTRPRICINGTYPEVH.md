@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  PricingType` | `PricingType` |
+| `PricingType` | `PricingType` |
 | `_Text` | *Association* |
 
 ## Associations

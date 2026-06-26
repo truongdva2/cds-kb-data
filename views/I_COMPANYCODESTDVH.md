@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW }` | `defaultSearchElement: true, ranking: #LOW }` |
+| `CompanyCode` | `t001.bukrs` |
 | `CompanyCodeName` | `t001.butxt` |
 
 ## Associations

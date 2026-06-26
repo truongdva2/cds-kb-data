@@ -33,7 +33,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `Language` | `spras` |
-| `ftr_flow_category preserving type )` | `cast( sbktyp` |
+| `FinTransFlowCategory` | `cast( sbktyp as ftr_flow_category preserving type )` |
 | `FinTransFlowCategoryName` | `xbktyp` |
 | `_Language` | *Association* |
 | `_FlowCategory` | *Association* |

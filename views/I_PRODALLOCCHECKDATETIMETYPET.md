@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccheckdatetimetype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocCheckDateTimeType` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `prodalloccheckdatetimetypedesc preserving type )` | `cast( ddtext` |
-| `_ProdAllocCheckDateTimeType, //decomment only if no problems in analytics` | *Association* |
+| `ProdAllocChkDateTimeTypeDesc` | `cast( ddtext as prodalloccheckdatetimetypedesc preserving type )` |
+| `_ProdAllocCheckDateTimeType` | *Association* |
 | `_Language` | *Association* |
 
 ## Associations

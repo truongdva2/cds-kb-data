@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialServicesBranch` | `_Source.FinancialServicesBranch` |
-| `_Source._Text[1: Language=$session.system_language].FinancialServicesBranchName` | *Association* |
+| `FinancialServicesBranch` | `_Source.FinancialServicesBranch` |
+| `FinancialServicesBranchName` | `_Source._Text[1: Language=$session.system_language].FinancialServicesBranchName` |
 
 ## Associations
 

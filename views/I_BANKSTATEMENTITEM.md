@@ -34,69 +34,46 @@ tags:
 | `BankStatementShortID` | `BankStmtItem.StatementShortID` |
 | `BankStatementItem` | `BankStmtItem.StatementItem` |
 | `CompanyCode` | `BankStmtHeader.CompanyCode` |
-| `farp_vgint )` | `cast ( BankStmtItem.PostingRule` |
-| `farp_vorgc )` | `cast ( BankStmtItem.PaymentTransaction` |
-| `BankStmtItem.InterpretationAlgorithm` | `BankStmtItem.InterpretationAlgorithm` |
-| `_MemoLine.MemoLine                                                 as MemoLine` | *Association* |
-| `farp_valut )` | `cast ( BankStmtItem.ValueDate` |
-| `farp_bvdat)` | `cast ( BankStmtItem.BankPostingDate` |
-| `BankStmtItem.PostingDate` | `BankStmtItem.PostingDate` |
-| `BankStmtItem.ValueDateTime` | `BankStmtItem.ValueDateTime` |
-| `BankStmtItem.TransactionCurrency` | `BankStmtItem.TransactionCurrency` |
-| `BankStmtItem.OriginalCurrency` | `BankStmtItem.OriginalCurrency` |
-| `cast ( case BankStmtItem.DebitCreditCode` | `cast ( case BankStmtItem.DebitCreditCode` |
-| `when 'D' then - abs(BankStmtItem.AmountInAccountCurrency)` | `when 'D' then - abs(BankStmtItem.AmountInAccountCurrency)` |
-| `when 'S' then - abs(BankStmtItem.AmountInAccountCurrency)` | `when 'S' then - abs(BankStmtItem.AmountInAccountCurrency)` |
-| `else BankStmtItem.AmountInAccountCurrency` | `else BankStmtItem.AmountInAccountCurrency` |
-| `kwbtr_eb)` | `end` |
-| `cast ( case BankStmtItem.DebitCreditCode` | `cast ( case BankStmtItem.DebitCreditCode` |
-| `when 'D' then - abs(BankStmtItem.ForeignCurrencyAmount)` | `when 'D' then - abs(BankStmtItem.ForeignCurrencyAmount)` |
-| `when 'S' then - abs(BankStmtItem.ForeignCurrencyAmount)` | `when 'S' then - abs(BankStmtItem.ForeignCurrencyAmount)` |
-| `else BankStmtItem.ForeignCurrencyAmount` | `else BankStmtItem.ForeignCurrencyAmount` |
-| `farp_fwbtr )` | `end` |
-| `far_curr_rate )` | `cast ( BankStmtItem.ExchangeRate` |
-| `BankStmtItem.FeeAmountInTransactionCrcy` | `BankStmtItem.FeeAmountInTransactionCrcy` |
-| `farp_spesf )` | `cast ( BankStmtItem.FeeAmountInOriginalCrcy` |
-| `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'K'` | `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'K'` |
-| `then BankStmtItem.PaymentAdviceAccount` | `then BankStmtItem.PaymentAdviceAccount` |
-| `lifnr   )` | `else '' end` |
-| `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'D'` | `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'D'` |
-| `then BankStmtItem.PaymentAdviceAccount` | `then BankStmtItem.PaymentAdviceAccount` |
-| `kunnr   )` | `else '' end` |
-| `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'S'` | `cast ( case when BankStmtItem.PaymentAdviceAccountType = 'S'` |
-| `then BankStmtItem.PaymentAdviceAccount` | `then BankStmtItem.PaymentAdviceAccount` |
-| `farp_hkont  )` | `else '' end` |
-| `farp_partn )` | `cast ( BankStmtItem.BusinessPartnerName` |
-| `far_vgman )` | `cast ( BankStmtItem.PaymentManualTransacType` |
-| `farp_vgext )` | `cast ( BankStmtItem.PaymentExternalTransacType` |
-| `BankStmtItem.PaymentAdvice` | `BankStmtItem.PaymentAdvice` |
-| `case when BankStmtItem.CheckType = 'C'         and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` | `case when BankStmtItem.CheckType = 'C'         and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` |
-| `when BankStmtItem.CheckType = 'C'         and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` | `when BankStmtItem.CheckType = 'C'         and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` |
-| `else ''` | `else ''` |
-| `Cheque` | `end` |
-| `cast (  case when BankStmtItem.CheckType = 'D' and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` | `cast (  case when BankStmtItem.CheckType = 'D' and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` |
-| `when BankStmtItem.CheckType = 'D' and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` | `when BankStmtItem.CheckType = 'D' and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` |
-| `else ''` | `else ''` |
-| `far_chect )` | `end` |
-| `cast ( case when BankStmtItem.CheckType = ''   and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` | `cast ( case when BankStmtItem.CheckType = ''   and BankStmtItem.CheckNumber is not initial then BankStmtItem.CheckNumber` |
-| `when BankStmtItem.CheckType = ''   and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` | `when BankStmtItem.CheckType = ''   and BankStmtItem.CheckNumber is initial     then BankStmtItem.Cheque` |
-| `else ''` | `else ''` |
-| `far_chect_orig )` | `end` |
-| `farp_belnr_bank_ledger )` | `cast ( BankStmtItem.BankLedgerDocument` |
-| `farp_nbbln )` | `cast ( BankStmtItem.SubledgerDocument` |
-| `farp_ak1bl )` | `cast ( BankStmtItem.BankLedgerOnAccountDocument` |
-| `farp_akbln )` | `cast ( BankStmtItem.SubledgerOnAccountDocument` |
-| `BankStmtItem.FiscalYear` | `BankStmtItem.FiscalYear` |
-| `farp_pabks )` | `cast ( BankStmtItem.PartnerBankCountry` |
-| `farp_pablz )` | `cast ( BankStmtItem.PartnerBank` |
-| `paswi_eb)` | `cast ( BankStmtItem.PartnerBankSWIFTCode` |
-| `farp_pakto )` | `cast ( BankStmtItem.PartnerBankAccount` |
+| `BankStatementPostingRule` | `cast ( BankStmtItem.PostingRule as farp_vgint )` |
+| `PaymentTransaction` | `cast ( BankStmtItem.PaymentTransaction as farp_vorgc )` |
+| `InterpretationAlgorithm` | `BankStmtItem.InterpretationAlgorithm` |
+| `MemoLine` | `_MemoLine.MemoLine` |
+| `ValueDate` | `cast ( BankStmtItem.ValueDate as farp_valut )` |
+| `BankPostingDate` | `cast ( BankStmtItem.BankPostingDate as farp_bvdat)` |
+| `PostingDate` | `BankStmtItem.PostingDate` |
+| `ValueDateTime` | `BankStmtItem.ValueDateTime` |
+| `TransactionCurrency` | `BankStmtItem.TransactionCurrency` |
+| `OriginalCurrency` | `BankStmtItem.OriginalCurrency` |
+| `AmountInTransactionCurrency` | `cast(…)` |
+| `AmountInOriginalCurrency` | `cast(…)` |
+| `ExchangeRate` | `cast ( BankStmtItem.ExchangeRate as far_curr_rate )` |
+| `FeeAmountInTransactionCrcy` | `BankStmtItem.FeeAmountInTransactionCrcy` |
+| `FeeAmountInOriginalCrcy` | `cast ( BankStmtItem.FeeAmountInOriginalCrcy as farp_spesf )` |
+| `Supplier` | `cast(…)` |
+| `Customer` | `cast(…)` |
+| `GLAccount` | `cast(…)` |
+| `BusinessPartnerName` | `cast ( BankStmtItem.BusinessPartnerName as farp_partn )` |
+| `PaymentManualTransacType` | `cast ( BankStmtItem.PaymentManualTransacType as far_vgman )` |
+| `PaymentExternalTransacType` | `cast ( BankStmtItem.PaymentExternalTransacType as farp_vgext )` |
+| `PaymentAdvice` | `BankStmtItem.PaymentAdvice` |
+| `Cheque` | `case…end` |
+| `PaymentMediumReference` | `cast(…)` |
+| `CustomerReferenceNumber` | `cast(…)` |
+| `BankLedgerDocument` | `cast ( BankStmtItem.BankLedgerDocument as farp_belnr_bank_ledger )` |
+| `SubledgerDocument` | `cast ( BankStmtItem.SubledgerDocument as farp_nbbln )` |
+| `BankLedgerOnAccountDocument` | `cast ( BankStmtItem.BankLedgerOnAccountDocument as farp_ak1bl )` |
+| `SubledgerOnAccountDocument` | `cast ( BankStmtItem.SubledgerOnAccountDocument as farp_akbln )` |
+| `FiscalYear` | `BankStmtItem.FiscalYear` |
+| `PartnerBankCountry` | `cast ( BankStmtItem.PartnerBankCountry as farp_pabks )` |
+| `PartnerBank` | `cast ( BankStmtItem.PartnerBank as farp_pablz )` |
+| `PartnerBankSWIFTCode` | `cast ( BankStmtItem.PartnerBankSWIFTCode as paswi_eb)` |
+| `PartnerBankAccount` | `cast ( BankStmtItem.PartnerBankAccount as farp_pakto )` |
 | `BankStatementItemDescription1` | `BankStmtItem.ItemDescription1` |
 | `BankStatementItemDescription2` | `BankStmtItem.ItemDescription2` |
-| `BankStmtItem.PartnerBankIBAN` | `BankStmtItem.PartnerBankIBAN` |
-| `BankStmtItem.DocumentItemText` | `BankStmtItem.DocumentItemText` |
-| `farp_vgref )` | `cast ( BankStmtItem.BankReference` |
-| `BankStmtItem.IsCompleted` | `BankStmtItem.IsCompleted` |
+| `PartnerBankIBAN` | `BankStmtItem.PartnerBankIBAN` |
+| `DocumentItemText` | `BankStmtItem.DocumentItemText` |
+| `BankReference` | `cast ( BankStmtItem.BankReference as farp_vgref )` |
+| `IsCompleted` | `BankStmtItem.IsCompleted` |
 | `_Currency` | *Association* |
 | `_OriginalCurrency` | *Association* |
 

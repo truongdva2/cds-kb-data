@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SuplrEvalScorecardPtyUUID` | `SuplrEvalScorecardPtyUUID` |
+| `SuplrEvalScorecardPtyUUID` | `SuplrEvalScorecardPtyUUID` |
 | `SuplrEvalScorecardUUID` | `SuplrEvalScorecardUUID` |
 | `UserID` | `UserID` |
 | `IsBusinessPurposeCompleted` | `IsBusinessPurposeCompleted` |

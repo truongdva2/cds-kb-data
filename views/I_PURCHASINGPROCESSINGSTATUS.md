@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `meprocstate )` | `cast ( domvalue_l` |
+| `PurchasingProcessingStatus` | `cast ( domvalue_l as meprocstate )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PurgProcessingStatusText` | [0..*] |
 
 ## Source Code
 

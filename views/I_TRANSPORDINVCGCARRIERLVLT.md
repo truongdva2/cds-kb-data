@@ -28,11 +28,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/pymt_ind  preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdInvoicingCarrierLevel` | `cast(substring(domvalue_l, 1, 2) as /scmtms/pymt_ind preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_tor_inv_car_l_desc preserving type)` | `cast(ddtext` |
+| `TranspOrdInvcgCarrLvlDesc` | `cast(ddtext as /scmtms/vdm_tor_inv_car_l_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspOrdInvcgCarrLvl` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +39,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspOrdInvcgCarrLvl` | `I_TranspOrdInvcgCarrierLevel` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

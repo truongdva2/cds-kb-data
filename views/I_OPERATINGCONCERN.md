@@ -31,7 +31,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `OperatingConcern` | `erkrs` |
-| `_Text[1:Language = $session.system_language].OperatingConcernName as OperatingConcernName` | *Association* |
+| `OperatingConcernName` | `_Text[1:Language = $session.system_language].OperatingConcernName` |
 | `_Text` | *Association* |
 
 ## Associations

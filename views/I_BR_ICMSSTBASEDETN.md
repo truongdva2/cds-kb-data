@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_icst_base_det preserving type )` | `cast( substring(domvalue_l, 1, 1)` |
+| `BR_ICMSSTBaseDetermination` | `cast( substring(domvalue_l, 1, 1) as logbr_icst_base_det preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

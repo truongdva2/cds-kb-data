@@ -28,14 +28,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/stop_category preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspOrdStopCategory` | `cast(substring(domvalue_l, 1, 1) as /scmtms/stop_category preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdStopCategoryT_2` | [0..*] |
 
 ## Source Code
 

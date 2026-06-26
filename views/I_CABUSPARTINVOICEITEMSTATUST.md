@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_item_status_dc_kk preserving type )` | `cast( left( dd07t.domvalue_l,2 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `inv_item_status_dc_text_kk preserving type )` | `cast( ddtext` |
+| `CABusPartnerInvoiceItemStatus` | `cast( left( dd07t.domvalue_l,2 ) as inv_item_status_dc_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABusPartnerInvoiceItemStsText` | `cast( ddtext as inv_item_status_dc_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

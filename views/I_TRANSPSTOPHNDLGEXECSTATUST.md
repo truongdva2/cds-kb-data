@@ -29,11 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_s_hdl_exec_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TranspOrdStopHndlgExecStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
 | `TranspOrdStopHndlgExecStsDesc` | `ddtext` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspStopHndlgExecStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -41,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspStopHndlgExecStatus` | `I_TranspStopHndlgExecStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `ddlanguage` |
 | `TimeSheetStatus` | `domvalue_l` |
-| `catsstatustext preserving type )` | `cast( ddtext` |
+| `TimeSheetStatusText` | `cast( ddtext as catsstatustext preserving type )` |
 
 ## Associations
 

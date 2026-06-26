@@ -32,10 +32,20 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED` | `status: #DEPRECATED` |
-| `successor: '_StandardOrganizationAddress'` | `successor: '_StandardOrganizationAddress'` |
-| `}` | `}` |
-| `}` | `}` |
+| `Plant` | `werks` |
+| `PlantName` | `cast(name1 as werks_name preserving type )` |
+| `ValuationArea` | `bwkey` |
+| `PlantCustomer` | `kunnr` |
+| `PlantSupplier` | `lifnr` |
+| `FactoryCalendar` | `fabkl` |
+| `DefaultPurchasingOrganization` | `ekorg` |
+| `SalesOrganization` | `vkorg` |
+| `AddressID` | `adrnr` |
+| `PlantCategory` | `vlfkz` |
+| `DistributionChannel` | `vtweg` |
+| `Division` | `spart` |
+| `Language` | `spras` |
+| `IsMarkedForArchiving` | `achvm` |
 | `_Address` | *Association* |
 | `_OrganizationAddress` | *Association* |
 | `_StandardOrganizationAddress` | *Association* |

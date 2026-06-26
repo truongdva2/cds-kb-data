@@ -32,13 +32,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `payreqn_stgy_status preserving type)` | `cast( substring( domvalue_l, 1, 2 )` |
+| `PaymentReqnStrategyStatus` | `cast( substring( domvalue_l, 1, 2 ) as payreqn_stgy_status preserving type)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_CN_PaytReqnStrategyStatusT` | [0..*] |
 
 ## Source Code
 

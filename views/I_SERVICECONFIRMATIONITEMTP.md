@@ -31,7 +31,50 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency'} }` | `currencyCode: 'TransactionCurrency'} }` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `ServiceConfirmationItem` | `ServiceConfirmationItem` |
+| `ServiceDocumentItemObjectType` | `ServiceDocumentItemObjectType` |
+| `ServiceConfItemCategory` | `ServiceConfItemCategory` |
+| `ServiceConfirmationItemUUID` | `ServiceConfirmationItemUUID` |
+| `ParentServiceConfItem` | `ParentServiceConfItem` |
+| `ServiceConfItemDescription` | `ServiceConfItemDescription` |
+| `Language` | `Language` |
+| `ServiceDocItemCreationDateTime` | `ServiceDocItemCreationDateTime` |
+| `ServiceDocItemChangedDateTime` | `ServiceDocItemChangedDateTime` |
+| `ServiceDocItemCreatedByUser` | `ServiceDocItemCreatedByUser` |
+| `ServiceDocItemChangedByUser` | `ServiceDocItemChangedByUser` |
+| `Product` | `Product` |
+| `Quantity` | `Quantity` |
+| `QuantityUnit` | `QuantityUnit` |
+| `SoldToParty` | `SoldToParty` |
+| `ShipToParty` | `ShipToParty` |
+| `BillToParty` | `BillToParty` |
+| `PayerParty` | `PayerParty` |
+| `ContactPersonBusinessPartnerId` | `ContactPersonBusinessPartnerId` |
+| `RespEmployeeBusinessPartnerId` | `RespEmployeeBusinessPartnerId` |
+| `ExecutingServiceEmployee` | `ExecutingServiceEmployee` |
+| `ServicePerformer` | `ServicePerformer` |
+| `RespyMgmtServiceTeam` | `RespyMgmtServiceTeam` |
+| `RespyMgmtGlobalTeamID` | `RespyMgmtGlobalTeamID` |
+| `PaymentTerms` | `PaymentTerms` |
+| `PaymentMethod` | `PaymentMethod` |
+| `SEPAMandate` | `SEPAMandate` |
+| `SrvcSEPAMandateRelevance` | `SrvcSEPAMandateRelevance` |
+| `SrvcConfItemIsNew` | `SrvcConfItemIsNew` |
+| `ServiceConfItemIsCompleted` | `ServiceConfItemIsCompleted` |
+| `ServiceConfirmationItemStatus` | `ServiceConfirmationItemStatus` |
+| `SrvcConfItmReldForBillgStatus` | `SrvcConfItmReldForBillgStatus` |
+| `SrvcConfItemBillingStatus` | `SrvcConfItemBillingStatus` |
+| `SrvcConfItemHasError` | `SrvcConfItemHasError` |
+| `ActualServiceStartDateTime` | `ActualServiceStartDateTime` |
+| `ActualServiceEndDateTime` | `ActualServiceEndDateTime` |
+| `ActualServiceDuration` | `ActualServiceDuration` |
+| `ActualServiceDurationUnit` | `ActualServiceDurationUnit` |
+| `ServicesRenderedDate` | `ServicesRenderedDate` |
+| `TimeSheetOvertimeCategory` | `TimeSheetOvertimeCategory` |
+| `TransactionCurrency` | `TransactionCurrency` |
+| `ServiceDocItemGrossAmount` | `ServiceDocItemGrossAmount` |
+| `ServiceDocumentItemNetAmount` | `ServiceDocumentItemNetAmount` |
 | `ServiceDocumentItemTaxAmount` | `ServiceDocumentItemTaxAmount` |
 | `BillableControl` | `BillableControl` |
 | `SrvcConfItemExtReference` | `SrvcConfItemExtReference` |
@@ -39,7 +82,6 @@ tags:
 | `ReferenceServiceOrder` | `ReferenceServiceOrder` |
 | `ReferenceServiceOrderItem` | `ReferenceServiceOrderItem` |
 | `WBSElementExternalID` | `WBSElementExternalID` |
-| `/* Associations */` | `/* Associations */` |
 | `_Product` | *Association* |
 | `_ContactPerson` | *Association* |
 | `_RespEmployee` | *Association* |
@@ -48,18 +90,6 @@ tags:
 | `_SrvcConfItmStatus` | *Association* |
 | `_TransactionCurrency` | *Association* |
 | `_BillableControl` | *Association* |
-| `/* Compositions */` | `/* Compositions */` |
-| `_ServiceConfirmationTP      : redirected to parent I_ServiceConfirmationTP` | *Association* |
-| `_SrvcConfItemPriceElementTP : redirected to composition child I_SrvcConfItemPriceElementTP` | *Association* |
-| `_SrvcConfItemPartnerTP      : redirected to composition child I_SrvcConfItemPartnerTP` | *Association* |
-| `_SrvcConfItemUserStatusTP   : redirected to composition child I_SrvcConfItemUserStatusTP` | *Association* |
-| `_SrvcConfItemRefObjTP       : redirected to composition child I_SrvcConfItemRefObjectTP` | *Association* |
-| `_SrvcConfItemAppointmentTP  : redirected to composition child I_SrvcConfItemAppointmentTP` | *Association* |
-| `_SrvcConfItemDurationTP     : redirected to composition child I_SrvcConfItemDurationTP` | *Association* |
-| `_SrvcConfItmFUPBillgDocTP   : redirected to composition child I_SrvcConfItmFUPBillgDocTP` | *Association* |
-| `_SrvcConfItmFUPTimeSheetTP  : redirected to composition child I_SrvcConfItmFUPTimeSheetTP` | *Association* |
-| `_SrvcConfItemLongTextTP     : redirected to composition child I_SrvcConfItemLongTextTP` | *Association* |
-| `_SrvcConfItemSerialNumberTP : redirected to composition child I_SrvcConfItemSerialNumberTP` | *Association* |
 
 ## Associations
 

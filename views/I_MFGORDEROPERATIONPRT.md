@@ -29,43 +29,68 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element: 'Plant' } } ]` | `name: 'I_PlantStdVH', element: 'Plant' } } ]` |
-| `pwwrk preserving type)` | `cast(prt.Plant` |
-| `pph_steus preserving type)` | `cast(opr.OperationControlProfile` |
-| `prt.BillOfOperationsType` | `prt.BillOfOperationsType` |
-| `prt.BillOfOperationsGroup` | `prt.BillOfOperationsGroup` |
-| `prt.EarliestSchedldUsageStartDate` | `prt.EarliestSchedldUsageStartDate` |
-| `prt.EarliestSchedldUsageStartTime` | `prt.EarliestSchedldUsageStartTime` |
-| `prt.EarliestSchedldUsageEndDate` | `prt.EarliestSchedldUsageEndDate` |
-| `prt.EarliestSchedldUsageEndTime` | `prt.EarliestSchedldUsageEndTime` |
-| `prt.LatestSchedldUsageStartDate` | `prt.LatestSchedldUsageStartDate` |
-| `prt.LatestSchedldUsageStartTime` | `prt.LatestSchedldUsageStartTime` |
-| `prt.LatestSchedldUsageEndDate` | `prt.LatestSchedldUsageEndDate` |
-| `prt.LatestSchedldUsageEndTime` | `prt.LatestSchedldUsageEndTime` |
-| `prt.ActualUsageStartDate` | `prt.ActualUsageStartDate` |
-| `prt.ActualUsageStartTime` | `prt.ActualUsageStartTime` |
-| `prt.ActualUsageEndDate` | `prt.ActualUsageEndDate` |
-| `prt.ActualUsageEndTime` | `prt.ActualUsageEndTime` |
-| `prt.ProdnRsceToolUsageDurnUnit` | `prt.ProdnRsceToolUsageDurnUnit` |
-| `prt.ProdnRsceToolUsageDuration` | `prt.ProdnRsceToolUsageDuration` |
-| `prt.ProdnRsceToolStdWorkQtyUnit` | `prt.ProdnRsceToolStdWorkQtyUnit` |
-| `prt.ProdnRsceToolStandardWorkQty` | `prt.ProdnRsceToolStandardWorkQty` |
-| `prt.PlannedProdnRsceToolQtyUnit` | `prt.PlannedProdnRsceToolQtyUnit` |
-| `prt.PlannedTotalProdnRsceToolQty` | `prt.PlannedTotalProdnRsceToolQty` |
-| `prt.ConfirmedProdnRsceToolQtyUnit` | `prt.ConfirmedProdnRsceToolQtyUnit` |
-| `prt.ConfirmedProdnRsceToolQty` | `prt.ConfirmedProdnRsceToolQty` |
-| `prt.RemainingProdnRsceToolQtyUnit` | `prt.RemainingProdnRsceToolQtyUnit` |
-| `prt.RemainingProdnRsceToolQty` | `prt.RemainingProdnRsceToolQty` |
-| `prt.ProdnRsceToolUsageQuantityUnit` | `prt.ProdnRsceToolUsageQuantityUnit` |
-| `prt.ProdnRsceToolUsageQuantity` | `prt.ProdnRsceToolUsageQuantity` |
-| `prt.PlndProdnRsceToolUsageQtyUnit` | `prt.PlndProdnRsceToolUsageQtyUnit` |
-| `prt.PlannedProdnRsceToolUsageQty` | `prt.PlannedProdnRsceToolUsageQty` |
-| `prt.ConfdProdnRsceToolUsageQtyUnit` | `prt.ConfdProdnRsceToolUsageQtyUnit` |
-| `prt.ConfirmedProdnRsceToolUsageQty` | `prt.ConfirmedProdnRsceToolUsageQty` |
-| `prt.RmngProdnRsceToolUsageQtyUnit` | `prt.RmngProdnRsceToolUsageQtyUnit` |
-| `prt.RemainingProdnRsceToolUsageQty` | `prt.RemainingProdnRsceToolUsageQty` |
-| `prt.ProdnRsceToolTotQtyCalcFormula` | `prt.ProdnRsceToolTotQtyCalcFormula` |
-| `prt.ProdnRsceToolUsageQtyCalcFmla` | `prt.ProdnRsceToolUsageQtyCalcFmla` |
+| `MfgOrderInternalID` | `prt.OrderInternalBillOfOperations` |
+| `MfgOrderOpProdnRsceToolIntID` | `prt.OrderProdnRsceToolInternalID` |
+| `IsDeleted` | `prt.IsDeleted` |
+| `CreationDate` | `prt.CreationDate` |
+| `CreatedByUser` | `prt.CreatedByUser` |
+| `LastChangeDate` | `prt.LastChangeDate` |
+| `LastChangedByUser` | `prt.LastChangedByUser` |
+| `MfgOrderOpProdnRsceToolText` | `prt.OrderProdnRsceToolText` |
+| `ProdnRsceToolHasLongText` | `prt.ProdnRsceToolHasLongText` |
+| `Language` | `prt.Language` |
+| `ProductionResourceType` | `prt.ProductionResourceType` |
+| `ProductionResourceInternalID` | `prt.ProductionResourceInternalID` |
+| `ProductionResourceTool` | `cast(…)` |
+| `ProdnRsceToolCategory` | `prt._ProdnRsceToolByInternalKey.ProdnRsceToolCategory` |
+| `ProdnRsceToolCategory_2` | `prt._ProdnRsceToolByInternalKey.ProdnRsceToolCategory_2` |
+| `ProdnRsceToolControlProfile` | `prt.ProdnRsceToolControlProfile` |
+| `ProdnRsceToolItemNumber` | `prt.ProdnRsceToolItemNumber` |
+| `ObjectInternalID` | `prt.ObjectInternalID` |
+| `OrderOperationInternalID` | `prt.OrderIntBillOfOperationsItem` |
+| `ManufacturingOrder` | `cast(prt.OrderID as manufacturingorder preserving type)` |
+| `ManufacturingOrderSequence` | `cast(opr.Sequence as manufacturingordersequence preserving type)` |
+| `ManufacturingOrderOperation` | `cast(opr.Operation as manufacturingorderoperation preserving type)` |
+| `ManufacturingOrderOperation_2` | `opr.Operation_2` |
+| `MfgOrderOperationIsPhase` | `opr.MfgOrderOperationIsPhase` |
+| `ManufacturingOrderCategory` | `cast(prt.OrderCategory as manufacturingordercategory preserving type)` |
+| `ManufacturingOrderType` | `cast(prt.OrderType as manufacturingordertype preserving type)` |
+| `ProductionPlant` | `cast(prt.Plant as pwwrk preserving type)` |
+| `OperationControlProfile` | `cast(opr.OperationControlProfile as pph_steus preserving type)` |
+| `BillOfOperationsType` | `prt.BillOfOperationsType` |
+| `BillOfOperationsGroup` | `prt.BillOfOperationsGroup` |
+| `EarliestSchedldUsageStartDate` | `prt.EarliestSchedldUsageStartDate` |
+| `EarliestSchedldUsageStartTime` | `prt.EarliestSchedldUsageStartTime` |
+| `EarliestSchedldUsageEndDate` | `prt.EarliestSchedldUsageEndDate` |
+| `EarliestSchedldUsageEndTime` | `prt.EarliestSchedldUsageEndTime` |
+| `LatestSchedldUsageStartDate` | `prt.LatestSchedldUsageStartDate` |
+| `LatestSchedldUsageStartTime` | `prt.LatestSchedldUsageStartTime` |
+| `LatestSchedldUsageEndDate` | `prt.LatestSchedldUsageEndDate` |
+| `LatestSchedldUsageEndTime` | `prt.LatestSchedldUsageEndTime` |
+| `ActualUsageStartDate` | `prt.ActualUsageStartDate` |
+| `ActualUsageStartTime` | `prt.ActualUsageStartTime` |
+| `ActualUsageEndDate` | `prt.ActualUsageEndDate` |
+| `ActualUsageEndTime` | `prt.ActualUsageEndTime` |
+| `ProdnRsceToolUsageDurnUnit` | `prt.ProdnRsceToolUsageDurnUnit` |
+| `ProdnRsceToolUsageDuration` | `prt.ProdnRsceToolUsageDuration` |
+| `ProdnRsceToolStdWorkQtyUnit` | `prt.ProdnRsceToolStdWorkQtyUnit` |
+| `ProdnRsceToolStandardWorkQty` | `prt.ProdnRsceToolStandardWorkQty` |
+| `PlannedProdnRsceToolQtyUnit` | `prt.PlannedProdnRsceToolQtyUnit` |
+| `PlannedTotalProdnRsceToolQty` | `prt.PlannedTotalProdnRsceToolQty` |
+| `ConfirmedProdnRsceToolQtyUnit` | `prt.ConfirmedProdnRsceToolQtyUnit` |
+| `ConfirmedProdnRsceToolQty` | `prt.ConfirmedProdnRsceToolQty` |
+| `RemainingProdnRsceToolQtyUnit` | `prt.RemainingProdnRsceToolQtyUnit` |
+| `RemainingProdnRsceToolQty` | `prt.RemainingProdnRsceToolQty` |
+| `ProdnRsceToolUsageQuantityUnit` | `prt.ProdnRsceToolUsageQuantityUnit` |
+| `ProdnRsceToolUsageQuantity` | `prt.ProdnRsceToolUsageQuantity` |
+| `PlndProdnRsceToolUsageQtyUnit` | `prt.PlndProdnRsceToolUsageQtyUnit` |
+| `PlannedProdnRsceToolUsageQty` | `prt.PlannedProdnRsceToolUsageQty` |
+| `ConfdProdnRsceToolUsageQtyUnit` | `prt.ConfdProdnRsceToolUsageQtyUnit` |
+| `ConfirmedProdnRsceToolUsageQty` | `prt.ConfirmedProdnRsceToolUsageQty` |
+| `RmngProdnRsceToolUsageQtyUnit` | `prt.RmngProdnRsceToolUsageQtyUnit` |
+| `RemainingProdnRsceToolUsageQty` | `prt.RemainingProdnRsceToolUsageQty` |
+| `ProdnRsceToolTotQtyCalcFormula` | `prt.ProdnRsceToolTotQtyCalcFormula` |
+| `ProdnRsceToolUsageQtyCalcFmla` | `prt.ProdnRsceToolUsageQtyCalcFmla` |
 | `_MfgOrderInternalID` | *Association* |
 | `_MfgOrder` | *Association* |
 | `_MfgOrderOperationPRTLongText` | *Association* |
@@ -79,31 +104,31 @@ tags:
 | `_MfgOrderType` | *Association* |
 | `_ProductionPlant` | *Association* |
 | `_OperationControlProfile` | *Association* |
-| `prt._ProdnRsceToolControlProfile` | `prt._ProdnRsceToolControlProfile` |
-| `prt._ProductionResourceType` | `prt._ProductionResourceType` |
-| `prt._ProdnRsceToolByInternalKey` | `prt._ProdnRsceToolByInternalKey` |
-| `prt._ProdnRsceToolMasterData` | `prt._ProdnRsceToolMasterData` |
+| `_ProdnRsceToolControlProfile` | *Association* |
+| `_ProductionResourceType` | *Association* |
+| `_ProdnRsceToolByInternalKey` | *Association* |
+| `_ProdnRsceToolMasterData` | *Association* |
 | `_ProdnRsceToolCategory` | *Association* |
 | `_ProdnRsceToolCategory_2` | *Association* |
-| `prt._CreatedByUser` | `prt._CreatedByUser` |
-| `prt._LastChangedByUser` | `prt._LastChangedByUser` |
-| `prt._Language` | `prt._Language` |
-| `prt._BillOfOperationsType` | `prt._BillOfOperationsType` |
-| `prt._BillOfOperationsGroup` | `prt._BillOfOperationsGroup` |
-| `prt._ProdnRsceToolUsageDurnUnit` | `prt._ProdnRsceToolUsageDurnUnit` |
-| `prt._ProdnRsceToolStdWorkQtyUnit` | `prt._ProdnRsceToolStdWorkQtyUnit` |
-| `prt._PlannedProdnRsceToolQtyUnit` | `prt._PlannedProdnRsceToolQtyUnit` |
-| `prt._ConfirmedProdnRsceToolQtyUnit` | `prt._ConfirmedProdnRsceToolQtyUnit` |
-| `prt._RemainingProdnRsceToolQtyUnit` | `prt._RemainingProdnRsceToolQtyUnit` |
-| `prt._ProdnRsceToolUsageQtyUnit` | `prt._ProdnRsceToolUsageQtyUnit` |
-| `prt._PlndProdnRsceToolUsageQtyUnit` | `prt._PlndProdnRsceToolUsageQtyUnit` |
-| `prt._ConfdProdnRsceToolUsgeQtyUnit` | `prt._ConfdProdnRsceToolUsgeQtyUnit` |
-| `prt._RmngProdnRsceToolUsageQtyUnit` | `prt._RmngProdnRsceToolUsageQtyUnit` |
-| `prt._StatusObject` | `prt._StatusObject` |
-| `prt._DocumentProdnRsceTool` | `prt._DocumentProdnRsceTool` |
-| `prt._EquipmentProdnRsceTool` | `prt._EquipmentProdnRsceTool` |
-| `prt._MaterialProdnRsceTool` | `prt._MaterialProdnRsceTool` |
-| `prt._MiscProdnRsceTool` | `prt._MiscProdnRsceTool` |
+| `_CreatedByUser` | *Association* |
+| `_LastChangedByUser` | *Association* |
+| `_Language` | *Association* |
+| `_BillOfOperationsType` | *Association* |
+| `_BillOfOperationsGroup` | *Association* |
+| `_ProdnRsceToolUsageDurnUnit` | *Association* |
+| `_ProdnRsceToolStdWorkQtyUnit` | *Association* |
+| `_PlannedProdnRsceToolQtyUnit` | *Association* |
+| `_ConfirmedProdnRsceToolQtyUnit` | *Association* |
+| `_RemainingProdnRsceToolQtyUnit` | *Association* |
+| `_ProdnRsceToolUsageQtyUnit` | *Association* |
+| `_PlndProdnRsceToolUsageQtyUnit` | *Association* |
+| `_ConfdProdnRsceToolUsgeQtyUnit` | *Association* |
+| `_RmngProdnRsceToolUsageQtyUnit` | *Association* |
+| `_StatusObject` | *Association* |
+| `_DocumentProdnRsceTool` | *Association* |
+| `_EquipmentProdnRsceTool` | *Association* |
+| `_MaterialProdnRsceTool` | *Association* |
+| `_MiscProdnRsceTool` | *Association* |
 
 ## Associations
 

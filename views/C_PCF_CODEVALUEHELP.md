@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key NodeName` | `NodeName` |
-| `key FieldName` | `FieldName` |
-| `key CodeValue` | `CodeValue` |
+| `NodeName` | `NodeName` |
+| `FieldName` | `FieldName` |
+| `CodeValue` | `CodeValue` |
 | `_Text` | *Association* |
 
 ## Associations

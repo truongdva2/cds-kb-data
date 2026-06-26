@@ -32,32 +32,37 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` | `name: 'I_ShippingPointStdVH', element: 'ShippingPoint' } } ]` |
-| `I_DeliveryDocument.ShippingPoint` | `I_DeliveryDocument.ShippingPoint` |
-| `I_DeliveryDocument.WarehouseGate` | `I_DeliveryDocument.WarehouseGate` |
-| `I_DeliveryDocument.WarehouseStagingArea` | `I_DeliveryDocument.WarehouseStagingArea` |
-| `I_DeliveryDocument.DeliveryDocumentBySupplier` | `I_DeliveryDocument.DeliveryDocumentBySupplier` |
-| `I_DeliveryDocument.Supplier` | `I_DeliveryDocument.Supplier` |
-| `I_DeliveryDocument.DeliveryDate` | `I_DeliveryDocument.DeliveryDate` |
-| `I_DeliveryDocument.SDDocumentCategory` | `I_DeliveryDocument.SDDocumentCategory` |
-| `I_DeliveryDocument.OverallGoodsMovementStatus` | `I_DeliveryDocument.OverallGoodsMovementStatus` |
-| `I_DeliveryDocument.OverallWarehouseActivityStatus` | `I_DeliveryDocument.OverallWarehouseActivityStatus` |
-| `I_DeliveryDocument.TotalCreditCheckStatus` | `I_DeliveryDocument.TotalCreditCheckStatus` |
-| `I_DeliveryDocument.TransactionCurrency` | `I_DeliveryDocument.TransactionCurrency` |
-| `I_DeliveryDocument.OverallPickingStatus` | `I_DeliveryDocument.OverallPickingStatus` |
-| `I_DeliveryDocument._ReceivingPlant.PlantName` | `I_DeliveryDocument._ReceivingPlant.PlantName` |
-| `I_DeliveryDocument.PlannedGoodsIssueDate` | `I_DeliveryDocument.PlannedGoodsIssueDate` |
-| `/* Associations */` | `/* Associations */` |
-| `I_DeliveryDocument._Item` | `I_DeliveryDocument._Item` |
-| `I_DeliveryDocument._ShipToParty` | `I_DeliveryDocument._ShipToParty` |
+| `DeliveryDocument` | `I_DeliveryDocument.DeliveryDocument` |
+| `PickedItemsLocation` | `I_DeliveryDocument.PickedItemsLocation` |
+| `HeaderGrossWeight` | `I_DeliveryDocument.HeaderGrossWeight` |
+| `HeaderWeightUnit` | `I_DeliveryDocument.HeaderWeightUnit` |
+| `PickingDate` | `I_DeliveryDocument.PickingDate` |
+| `ShipToParty` | `I_DeliveryDocument.ShipToParty` |
+| `LoadingDate` | `I_DeliveryDocument.LoadingDate` |
+| `DeliveryPriority` | `I_DeliveryDocument.DeliveryPriority` |
+| `ProposedDeliveryRoute` | `I_DeliveryDocument.ProposedDeliveryRoute` |
+| `HeaderVolumeUnit` | `I_DeliveryDocument.HeaderVolumeUnit` |
+| `HeaderVolume` | `I_DeliveryDocument.HeaderVolume` |
+| `ShippingPoint` | `I_DeliveryDocument.ShippingPoint` |
+| `WarehouseGate` | `I_DeliveryDocument.WarehouseGate` |
+| `WarehouseStagingArea` | `I_DeliveryDocument.WarehouseStagingArea` |
+| `DeliveryDocumentBySupplier` | `I_DeliveryDocument.DeliveryDocumentBySupplier` |
+| `Supplier` | `I_DeliveryDocument.Supplier` |
+| `DeliveryDate` | `I_DeliveryDocument.DeliveryDate` |
+| `SDDocumentCategory` | `I_DeliveryDocument.SDDocumentCategory` |
+| `OverallGoodsMovementStatus` | `I_DeliveryDocument.OverallGoodsMovementStatus` |
+| `OverallWarehouseActivityStatus` | `I_DeliveryDocument.OverallWarehouseActivityStatus` |
+| `TotalCreditCheckStatus` | `I_DeliveryDocument.TotalCreditCheckStatus` |
+| `TransactionCurrency` | `I_DeliveryDocument.TransactionCurrency` |
+| `OverallPickingStatus` | `I_DeliveryDocument.OverallPickingStatus` |
+| `PlantName` | `I_DeliveryDocument._ReceivingPlant.PlantName` |
+| `PlannedGoodsIssueDate` | `I_DeliveryDocument.PlannedGoodsIssueDate` |
+| `_Item` | *Association* |
+| `_ShipToParty` | *Association* |
 | `_DeliveryDocument` | *Association* |
 | `_DeliveryDocumentFlow` | *Association* |
 | `_DeliveryDocumentItem` | *Association* |
 | `_ShippingPoint` | *Association* |
-| `/*` | `/*` |
-| `How to determine correct language ? No spras column in I_ShippingPoint` | `How to determine correct language ? No spras column in I_ShippingPoint` |
-| `[1: inner where spras = $session.system_language]` | `[1: inner where spras = $session.system_language]` |
-| `*/` | `*/` |
 
 ## Associations
 

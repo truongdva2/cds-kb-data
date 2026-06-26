@@ -33,12 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OutboundDelivery` | `OutboundDelivery` |
-| `key Language` | `Language` |
-| `key LongTextID` | `LongTextID` |
+| `OutboundDelivery` | `OutboundDelivery` |
+| `Language` | `Language` |
+| `LongTextID` | `LongTextID` |
 | `LongText` | `LongText` |
-| `/* Associations */` | `/* Associations */` |
-| `_Delivery : redirected to parent I_OutboundDeliveryTP` | *Association* |
 
 ## Associations
 

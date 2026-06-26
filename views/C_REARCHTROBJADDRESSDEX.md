@@ -32,33 +32,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _REArchitectureObjectData.REArchitectureObjectUUID` | `_REArchitectureObjectData.REArchitectureObjectUUID` |
-| `_REObjectAddress.InternalRealEstateNumber` | *Association* |
-| `_REObjectAddress.AddressID` | *Association* |
-| `_REObjectAddress.REAddressObjType` | *Association* |
-| `_REObjectAddress._Address.StreetName, //street` | *Association* |
-| `_REObjectAddress._Address.HouseNumber, //house_num1` | *Association* |
-| `_REObjectAddress._Address.CityName, //city1` | *Association* |
-| `_REObjectAddress._Address.PostalCode, //post_code1` | *Association* |
-| `_REObjectAddress._Address.Country, //country` | *Association* |
-| `_REObjectAddress._Address.Region, //region` | *Association* |
-| `_REObjectAddress._Address.SecondaryRegionName, //secondaryRegion` | *Association* |
-| `_REObjectAddress._Address.StreetPrefixName1              as StreetPrefixName, //str_suppl1` | *Association* |
-| `_REObjectAddress._Address.StreetPrefixName2              as AdditionalStreetPrefixName, //str_suppl2` | *Association* |
-| `_REObjectAddress._Address.StreetSuffixName1              as StreetSuffixName, //str_suppl3` | *Association* |
-| `_REObjectAddress._Address.StreetSuffixName2              as AdditionalStreetSuffixName, //location` | *Association* |
-| `_REObjectAddress._Address.HouseNumberSupplementText, // house_num2` | *Association* |
-| `ort02_gp)` | `cast(_REObjectAddress._Address.DistrictName` |
-| `_REObjectAddress._Address.Building, //building` | *Association* |
-| `_REObjectAddress._Address.Floor, //floor` | *Association* |
-| `_REObjectAddress._Address.RoomNumber, //door` | *Association* |
-| `_REObjectAddress._Address.TertiaryRegionName` | *Association* |
-| `_REObjectAddress._Address` | *Association* |
+| `REArchitectureObjectUUID` | `_REArchitectureObjectData.REArchitectureObjectUUID` |
+| `InternalRealEstateNumber` | `_REObjectAddress.InternalRealEstateNumber` |
+| `AddressID` | `_REObjectAddress.AddressID` |
+| `REAddressObjType` | `_REObjectAddress.REAddressObjType` |
+| `StreetName` | `_REObjectAddress._Address.StreetName` |
+| `HouseNumber` | `_REObjectAddress._Address.HouseNumber` |
+| `CityName` | `_REObjectAddress._Address.CityName` |
+| `PostalCode` | `_REObjectAddress._Address.PostalCode` |
+| `Country` | `_REObjectAddress._Address.Country` |
+| `Region` | `_REObjectAddress._Address.Region` |
+| `SecondaryRegionName` | `_REObjectAddress._Address.SecondaryRegionName` |
+| `StreetPrefixName` | `_REObjectAddress._Address.StreetPrefixName1` |
+| `AdditionalStreetPrefixName` | `_REObjectAddress._Address.StreetPrefixName2` |
+| `StreetSuffixName` | `_REObjectAddress._Address.StreetSuffixName1` |
+| `AdditionalStreetSuffixName` | `_REObjectAddress._Address.StreetSuffixName2` |
+| `HouseNumberSupplementText` | `_REObjectAddress._Address.HouseNumberSupplementText` |
+| `District` | `cast(_REObjectAddress._Address.DistrictName as ort02_gp)` |
+| `Building` | `_REObjectAddress._Address.Building` |
+| `Floor` | `_REObjectAddress._Address.Floor` |
+| `RoomNumber` | `_REObjectAddress._Address.RoomNumber` |
+| `TertiaryRegionName` | `_REObjectAddress._Address.TertiaryRegionName` |
+| `_Address` | *Association* |
 | `_REArchitectureObject` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_REArchitectureObject` | `I_REArchitectureObject` | — |
 
 ## Source Code
 

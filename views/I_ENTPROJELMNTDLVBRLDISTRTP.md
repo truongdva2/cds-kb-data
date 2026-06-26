@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EntProjElmntDlvbrlDistrUUID` | `EntProjElmntDlvbrlDistrUUID` |
+| `EntProjElmntDlvbrlDistrUUID` | `EntProjElmntDlvbrlDistrUUID` |
 | `EntProjElmntDeliverableUUID` | `EntProjElmntDeliverableUUID` |
 | `ProjectElementUUID` | `ProjectElementUUID` |
 | `ProjectUUID` | `ProjectUUID` |
@@ -39,9 +39,6 @@ tags:
 | `EntProjElmntDlvbrlDistrPerdVal` | `EntProjElmntDlvbrlDistrPerdVal` |
 | `EntProjElmntDlvbrlDistrQty` | `EntProjElmntDlvbrlDistrQty` |
 | `EntProjElmntDlvbrlDistrQtyUnit` | `EntProjElmntDlvbrlDistrQtyUnit` |
-| `_EntProjElmntDlvbrl                : redirected to parent  I_EntProjElmntDlvbrlTP` | *Association* |
-| `_EnterpriseProject                 : redirected to I_EnterpriseProjectTP_3` | *Association* |
-| `_EnterpriseProjectElement          : redirected to I_EnterpriseProjectElementTP_3` | *Association* |
 
 ## Associations
 

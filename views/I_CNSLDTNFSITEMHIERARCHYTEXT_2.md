@@ -32,14 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnChartOfAccountsVH'` | `name: 'I_CnsldtnChartOfAccountsVH'` |
-| `element: 'ConsolidationChartOfAccounts' }` | `element: 'ConsolidationChartOfAccounts' }` |
-| `}]` | `}]` |
-| `key   ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
-| `fincs_fsitemhierarchy preserving type )` | `cast( substring(_HierarchyText.UniversalHierarchy, 9, 10 )` |
-| `key   _HierarchyText.ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
-| `_HierarchyText.ValidityStartDate` | *Association* |
-| `_HierarchyText.UniversalHierarchyText                                                                 as CnsldtnFSItemHierarchyText` | *Association* |
+| `Language` | `_HierarchyText.Language` |
+| `ConsolidationChartOfAccounts` | `ConsolidationChartOfAccounts` |
+| `CnsldtnFSItemHierarchy` | `cast(…)` |
+| `ValidityEndDate` | `_HierarchyText.ValidityEndDate` |
+| `ValidityStartDate` | `_HierarchyText.ValidityStartDate` |
+| `CnsldtnFSItemHierarchyText` | `_HierarchyText.UniversalHierarchyText` |
 | `_CnsldtnChartOfAccounts` | *Association* |
 | `_Language` | *Association* |
 | `_Hierarchy` | *Association* |

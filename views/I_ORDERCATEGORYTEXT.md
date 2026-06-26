@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `ordercategoryname preserving type)` | `cast(t.ddtext` |
+| `OrderCategory` | `cast(…)` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `OrderCategoryName` | `cast(t.ddtext as ordercategoryname preserving type)` |
 | `DomainValue` | `t.domvalue_l` |
 | `_OrderCategory` | *Association* |
 | `_Language` | *Association* |

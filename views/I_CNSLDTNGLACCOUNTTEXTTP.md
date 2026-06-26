@@ -33,13 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Text.Language` | `_Text.Language` |
-| `key _Text.ChartOfAccounts` | `_Text.ChartOfAccounts` |
-| `key _Text.GLAccount` | `_Text.GLAccount` |
-| `_Text.GLAccountName` | *Association* |
-| `_Text.CnsldtnIsAdditionalMasterData` | *Association* |
-| `/* associations for transactional processing */` | `/* associations for transactional processing */` |
-| `_GLAccount as _GLAccount : redirected to parent I_CnsldtnGLAccountTP` | *Association* |
+| `Language` | `_Text.Language` |
+| `ChartOfAccounts` | `_Text.ChartOfAccounts` |
+| `GLAccount` | `_Text.GLAccount` |
+| `GLAccountName` | `_Text.GLAccountName` |
+| `CnsldtnIsAdditionalMasterData` | `_Text.CnsldtnIsAdditionalMasterData` |
+| `_GLAccount` | *Association* |
 
 ## Associations
 

@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pabdkz preserving type)` | `cast(substring(txt.domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(txt.ddlanguage` |
-| `vdm_sumjitcallmsgisprocdname preserving type)` | `cast(txt.ddtext` |
+| `SumzdJITCallMessageIsProcessed` | `cast(substring(txt.domvalue_l, 1, 1) as pabdkz preserving type)` |
+| `Language` | `cast(txt.ddlanguage as spras preserving type)` |
+| `SumzdJITCallMsgProcessingName` | `cast(txt.ddtext as vdm_sumjitcallmsgisprocdname preserving type)` |
 | `DomainValue` | `txt.domvalue_l` |
 | `_Language` | *Association* |
 | `_SumzdJITCallMsgIsProcd` | *Association* |

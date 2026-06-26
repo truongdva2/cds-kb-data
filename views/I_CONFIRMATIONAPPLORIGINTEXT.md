@@ -31,8 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `confapploriginname preserving type)` | `cast(t.ddtext` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `ConfirmationApplicationOrigin` | `cast(substring(t.domvalue_l, 1, 1) as ru_orina preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
+| `ConfirmationApplOriginName` | `cast(t.ddtext as confapploriginname preserving type)` |
 | `_ConfirmationApplOrigin` | *Association* |
 | `_Language` | *Association* |
 
@@ -40,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ConfirmationApplOrigin` | `I_ConfirmationApplOrigin` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

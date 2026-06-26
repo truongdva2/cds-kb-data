@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8 }` |
-| `_Domain.DomainValue, // required for search` | *Association* |
+| `ConsolidationBreakdownType` | `cast(_Domain.DomainValue as fincs_breakdowntype )` |
+| `DomainValue` | `_Domain.DomainValue` |
 | `_Text` | *Association* |
 
 ## Associations

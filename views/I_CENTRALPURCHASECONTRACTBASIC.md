@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `vdm_centralpurchasecontract preserving type)` | `cast (ActivePurchasingDocument` |
+| `CentralPurchaseContract` | `cast (ActivePurchasingDocument as vdm_centralpurchasecontract preserving type)` |
 | `PurchaseContractType` | `PurchaseContractType` |
 | `PurchasingDocumentCategory` | `PurchasingDocumentCategory` |
 | `PurchasingDocumentSubtype` | `PurchasingDocumentSubtype` |

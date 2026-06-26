@@ -28,7 +28,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CurrencyField` | `CurrencyField` |
+| `CurrencyField` | `CurrencyField` |
 | `_Text` | *Association* |
 
 ## Associations

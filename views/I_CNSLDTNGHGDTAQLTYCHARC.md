@@ -30,12 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_CnsldtnGHGDtaQltyCharcVH'` | `name: 'I_CnsldtnGHGDtaQltyCharcVH'` |
-| `element: 'GHGDataQualityCharacteristic'` | `element: 'GHGDataQualityCharacteristic'` |
-| `}` | `}` |
-| `}]` | `}]` |
-| `fincs_ghgdtaqltycharc preserving type )` | `cast( _Source.GHGDataQualityCharacteristic` |
-| `/* associations */` | `/* associations */` |
+| `GHGDataQualityCharacteristic` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

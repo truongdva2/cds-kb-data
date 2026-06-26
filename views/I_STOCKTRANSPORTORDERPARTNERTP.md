@@ -33,17 +33,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` | `name: 'I_Supplier_VH', element: 'Supplier' }, useAsTemplate: true }]       //CustomUI` |
+| `StockTransportOrder` | `StockTransportOrder` |
+| `PartnerFunction` | `PartnerFunction` |
+| `SupplierSubrange` | `SupplierSubrange` |
+| `Plant` | `Plant` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PartnerCounter` | `PartnerCounter` |
+| `CreatedByUser` | `CreatedByUser` |
+| `CreationDate` | `CreationDate` |
+| `PurchasingDocumentPartnerType` | `PurchasingDocumentPartnerType` |
 | `Supplier` | `Supplier` |
 | `SupplierHierarchyCategory` | `SupplierHierarchyCategory` |
 | `SupplierContact` | `SupplierContact` |
 | `PersonWorkAgreement` | `PersonWorkAgreement` |
-| `/* Associations */` | `/* Associations */` |
 | `_PartnerFunction` | *Association* |
 | `_PartnerFunctionText` | *Association* |
 | `_PersonWorkAgreement` | *Association* |
 | `_Plant` | *Association* |
-| `_StockTransportOrder : redirected to parent I_StockTransportOrderTP` | *Association* |
 | `_PurchasingOrganization` | *Association* |
 | `_Supplier` | *Association* |
 | `_SupplierContact` | *Association* |

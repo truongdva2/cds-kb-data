@@ -31,8 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8 }` | `fuzzinessThreshold: 0.8 }` |
+| `Language` | `sprache` |
+| `InspectionLotOrigin` | `herkunft` |
+| `InspLotSummaryControl` | `einwelos` |
 | `InspLotSummaryControlTxt` | `kurztext` |
 | `_Language` | *Association* |
 | `_InspLotSummaryControl` | *Association* |

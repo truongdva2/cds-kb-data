@@ -29,12 +29,13 @@ tags:
 | Field | Data Source |
 |---|---|
 | `TranspOrdShippingType` | `shipping_type` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdShippingTypeT_2` | [0..*] |
 
 ## Source Code
 

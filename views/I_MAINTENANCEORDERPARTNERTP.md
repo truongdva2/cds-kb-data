@@ -34,10 +34,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  MaintenanceOrder` | `MaintenanceOrder` |
-| `key  PartnerFunction` | `PartnerFunction` |
-| `key  MaintenanceOrderPartner` | `MaintenanceOrderPartner` |
-| `_MaintenanceOrder : redirected to parent I_MaintenanceOrderTP` | *Association* |
+| `MaintenanceOrder` | `MaintenanceOrder` |
+| `PartnerFunction` | `PartnerFunction` |
+| `MaintenanceOrderPartner` | `MaintenanceOrderPartner` |
 
 ## Associations
 

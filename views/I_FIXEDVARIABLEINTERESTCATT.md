@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_interest_category)` | `cast(left(domvalue_l, 1)` |
+| `FixedVariableInterestRateCat` | `cast(left(domvalue_l, 1) as ftr_interest_category)` |
 | `Language` | `DomainText.ddlanguage` |
 | `FixedVariableInterestCatName` | `DomainText.ddtext` |
 | `_Language` | *Association* |

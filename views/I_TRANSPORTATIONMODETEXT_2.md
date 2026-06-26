@@ -32,10 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tor_trmodcode preserving type )` | `cast(vktra` |
+| `TransportationMode` | `cast(vktra as /scmtms/vdm_tor_trmodcode preserving type )` |
 | `Language` | `spras` |
-| `/scmtms/vdm_tor_trmodcode_desc preserving type )` | `cast (bezei` |
-| `/* Associations */` | `/* Associations */` |
+| `TransportationModeDesc` | `cast (bezei as /scmtms/vdm_tor_trmodcode_desc preserving type )` |
 | `_TransportationMode` | *Association* |
 | `_Language` | *Association* |
 
@@ -43,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TransportationMode` | `I_TransportationMode_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

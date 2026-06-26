@@ -31,7 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
+| `Language` | `cast(t.ddlanguage as spras preserving type)` |
+| `ForecastPeriodType` | `cast(substring(t.domvalue_l, 1, 1) as periotype preserving type)` |
+| `DomainValue` | `t.domvalue_l` |
 | `ForecastPeriodTypeName` | `t.ddtext` |
 | `_ForecastPeriodType` | *Association* |
 | `_Language` | *Association* |
@@ -40,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_ForecastPeriodType` | `I_ForecastPeriodType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

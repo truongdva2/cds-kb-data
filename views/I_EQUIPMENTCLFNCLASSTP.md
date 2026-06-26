@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Equipment` | `Equipment` |
-| `key  ClassInternalID` | `ClassInternalID` |
-| `key  ClassType` | `ClassType` |
+| `Equipment` | `Equipment` |
+| `ClassInternalID` | `ClassInternalID` |
+| `ClassType` | `ClassType` |
 | `KeyDate` | `KeyDate` |
 | `ChangeNumber` | `ChangeNumber` |
 | `ClfnStatus` | `ClfnStatus` |
@@ -46,8 +46,6 @@ tags:
 | `ClassMaintAuthGrp` | `ClassMaintAuthGrp` |
 | `ClassClassfctnAuthGrp` | `ClassClassfctnAuthGrp` |
 | `Class` | `Class` |
-| `_Characteristic: redirected to composition child I_EquipmentClfnClassCharTP` | *Association* |
-| `_Equipment  : redirected to parent I_EquipmentTP` | *Association* |
 
 ## Associations
 

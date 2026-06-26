@@ -32,14 +32,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseRequisition` | `PurchaseRequisition` |
+| `PurchaseRequisition` | `PurchaseRequisition` |
 | `PurchaseRequisitionType` | `PurchaseRequisitionType` |
 | `PurReqnDescription` | `PurReqnDescription` |
 | `SourceDetermination` | `SourceDetermination` |
 | `PurReqnDoOnlyValidation` | `PurReqnDoOnlyValidation` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PurchaseRequisitionItem : redirected to composition child I_PurchaseReqnItemTP` | *Association* |
 
 ## Associations
 

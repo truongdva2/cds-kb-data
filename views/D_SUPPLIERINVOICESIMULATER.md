@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SupplierInvoiceIsSimulated : mmiv_rap_action_result_ok;` | `SupplierInvoiceIsSimulated : mmiv_rap_action_result_ok;` |
+| `SupplierInvoiceIsSimulated` | `mmiv_rap_action_result_ok` |
 
 ## Associations
 

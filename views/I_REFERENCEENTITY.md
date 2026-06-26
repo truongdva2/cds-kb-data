@@ -30,6 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
+| `TreasuryReferenceEntity` | `RefEntity.ref_entity` |
 | `TextDescription` | `RefEntity.description` |
 | `BusinessPartner` | `RefEntityAttri.business_partner` |
 | `CompanyCode` | `RefEntityAttri.compcode` |

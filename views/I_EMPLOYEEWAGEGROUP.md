@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `Plant` | `werks` |
 | `EmployeeWageGroup` | `logrp` |
 | `_Plant` | *Association* |
 | `_Text` | *Association* |

@@ -33,30 +33,29 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_BillingDocumentRequestStdVH'` | `name:    'I_BillingDocumentRequestStdVH'` |
-| `element: 'BillingDocumentRequest' }` | `element: 'BillingDocumentRequest' }` |
-| `}]` | `}]` |
-| `vbeln_bdr preserving type )` | `cast( Partner.BillingDocument` |
-| `parvw_unv preserving type )` | `cast(Partner.PartnerFunction` |
-| `Partner.Customer` | `Partner.Customer` |
-| `Partner.Supplier` | `Partner.Supplier` |
-| `Partner.Personnel` | `Partner.Personnel` |
-| `Partner.AddressID` | `Partner.AddressID` |
-| `Partner.ContactPerson` | `Partner.ContactPerson` |
-| `Partner.AddressPersonID` | `Partner.AddressPersonID` |
-| `Partner.ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
-| `Partner.SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
-| `Partner.BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
+| `BillingDocumentRequest` | `cast( Partner.BillingDocument as vbeln_bdr preserving type )` |
+| `PartnerFunction` | `cast(Partner.PartnerFunction as parvw_unv preserving type )` |
+| `Customer` | `Partner.Customer` |
+| `Supplier` | `Partner.Supplier` |
+| `Personnel` | `Partner.Personnel` |
+| `AddressID` | `Partner.AddressID` |
+| `ContactPerson` | `Partner.ContactPerson` |
+| `AddressPersonID` | `Partner.AddressPersonID` |
+| `ReferenceBusinessPartner` | `Partner.ReferenceBusinessPartner` |
+| `SDDocPartnerAddressRefType` | `Partner.SDDocPartnerAddressRefType` |
+| `BPRefAddressIDForDocSpcfcAddr` | `Partner.BPRefAddressIDForDocSpcfcAddr` |
 | `_BillingDocumentRequest` | *Association* |
-| `Partner._PartnerFunction` | `Partner._PartnerFunction` |
-| `Partner._Address` | `Partner._Address` |
-| `Partner._BusinessPartnerAddress` | `Partner._BusinessPartnerAddress` |
-| `Partner._BPRefAddressForDocSpcfcAddr` | `Partner._BPRefAddressForDocSpcfcAddr` |
-| `Partner._DfltAddrRprstn` | `Partner._DfltAddrRprstn` |
+| `_PartnerFunction` | *Association* |
+| `_Address` | *Association* |
+| `_BusinessPartnerAddress` | *Association* |
+| `_BPRefAddressForDocSpcfcAddr` | *Association* |
+| `_DfltAddrRprstn` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_BillingDocumentRequest` | `I_BillingDocumentRequest` | [1..1] |
 
 ## Source Code
 

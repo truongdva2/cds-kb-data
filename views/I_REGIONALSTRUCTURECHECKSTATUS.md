@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ad_checkst )` | `cast ( domvalue_l` |
+| `RegionalStructureCheckStatus` | `cast ( domvalue_l as ad_checkst )` |
 | `_Text` | *Association* |
 
 ## Associations

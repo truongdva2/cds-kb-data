@@ -40,6 +40,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_DistributionInd` | `I_AcctAssgmtDistrIndicator` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

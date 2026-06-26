@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_scope_cv_conv_co )` | `cast( substring(dd07l.domvalue_l, 1, 2)` |
+| `ControllingObjectClass` | `cast( substring(dd07l.domvalue_l, 1, 2) as fis_scope_cv_conv_co )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

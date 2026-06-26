@@ -29,11 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_MaterialStdVH'` | `name: 'I_MaterialStdVH'` |
-| `element: 'Material' }` | `element: 'Material' }` |
-| `useForValidation : true` | `useForValidation : true` |
-| `}]` | `}]` |
-| `Material : matnr;` | `Material : matnr;` |
+| `Material` | `matnr` |
 
 ## Associations
 

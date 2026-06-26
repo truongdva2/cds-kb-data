@@ -32,16 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/* Attributes */` | `/* Attributes */` |
-| `key TransportationOrderBusPartUUID` | `TransportationOrderBusPartUUID` |
+| `TransportationOrderBusPartUUID` | `TransportationOrderBusPartUUID` |
 | `TransportationOrderUUID` | `TransportationOrderUUID` |
 | `BusinessPartnerUUID` | `BusinessPartnerUUID` |
 | `BusinessPartner` | `BusinessPartner` |
 | `TranspOrdBizPartnerFunction` | `TranspOrdBizPartnerFunction` |
 | `TranspOrdBizPartnerAddressID` | `TranspOrdBizPartnerAddressID` |
-| `/* Redirections */` | `/* Redirections */` |
-| `_FreightBooking         : redirected to parent I_FreightBookingTP` | `FreightBookingBusinessPartner._TransportationOrder` |
-| `_FrtBkgBPAddrDfltRprstn : redirected to composition child I_FrtBkgBPAddrDfltRprstnTP` | `FreightBookingBusinessPartner._TranspOrdBPAddrDfltRprstn` |
+| `_FreightBooking` | *Association* |
+| `_FrtBkgBPAddrDfltRprstn` | *Association* |
 
 ## Associations
 

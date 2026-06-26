@@ -31,10 +31,34 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_LoadingGroup'` | `name:    'I_LoadingGroup'` |
-| `element: 'LoadingGroup' }` | `element: 'LoadingGroup' }` |
-| `useAsTemplate: true` | `useAsTemplate: true` |
-| `}]` | `}]` |
+| `Product` | `cast (maw1.matnr as productnumber preserving type )` |
+| `ServiceAgreement` | `maw1.servv` |
+| `ConsumptionValueCategory` | `maw1.wmaab` |
+| `_ConsumptionValueCategory` | *Association* |
+| `_ConsumptionValueCategoryText` | *Association* |
+| `GoodsIssueUnit` | `maw1.wausm` |
+| `_GoodsIssueText` | *Association* |
+| `_GoodsIssueUnit` | *Association* |
+| `CountryOfOrigin` | `cast( maw1.wherl as cmd_prd_countryoforigin preserving type )` |
+| `_CountryText` | *Association* |
+| `RegionOfOrigin` | `maw1.wherr` |
+| `AssortmentGrade` | `maw1.sstuf` |
+| `StoreListingProcedure` | `maw1.lstfl` |
+| `DistrCntrListingProcedure` | `maw1.lstvz` |
+| `StoreListingStartDate` | `cast(maw1.ldvfl as storelistingstartdate )` |
+| `StoreListingEndDate` | `cast(maw1.ldbfl as storelistingenddate )` |
+| `DistrCntrListingStartDate` | `cast(maw1.ldvzl as distrcntrlistingstartdate )` |
+| `DistrCntrListingEndDate` | `cast(maw1.ldbzl as distrcntrlistingenddate )` |
+| `StoreSaleStartDate` | `cast(maw1.vdvfl as storesalestartdate )` |
+| `StoreSaleEndDate` | `cast(maw1.vdbfl as storesaleenddate )` |
+| `DistrCntrSaleStartDate` | `cast(maw1.vdvzl as distrcntrsalestartdate )` |
+| `DistrCntrSaleEndDate` | `cast(maw1.vdbzl as distrcntrsaleenddate )` |
+| `ValuationClass` | `maw1.wbkla` |
+| `CommodityCode` | `maw1.wstaw` |
+| `ValuationMargin` | `maw1.wbwsp` |
+| `CommoditiyCodeNumberUnit` | `maw1.wexpm` |
+| `SalesUnit` | `maw1.wvrkm` |
+| `PurchasingGroup` | `maw1.wekgr` |
 | `LoadingGroup` | `maw1.wladg` |
 | `ProdExtAssortmentPriority` | `maw1.pflks` |
 | `AssortmentListType` | `maw1.bbtyp` |

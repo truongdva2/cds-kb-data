@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `pdtyp_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CAPaymentSpecificationCategory` | `cast( left( domvalue_l, 1 ) as pdtyp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

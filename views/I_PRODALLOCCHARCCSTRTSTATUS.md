@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccharcconstraintstatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocCharcConstraintStatus` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

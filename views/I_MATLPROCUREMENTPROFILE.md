@@ -29,7 +29,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_PlantStdVH', element: 'Plant' } } ]` | `name: 'I_PlantStdVH', element: 'Plant' } } ]` |
+| `MaterialProcurementProfile` | `cast(prfl.sobsl as pph_sobsl preserving type)` |
+| `Plant` | `prfl.werks` |
+| `MaterialProcurementCategory` | `cast(prfl.beskz as pph_beskz preserving type)` |
+| `MaterialProcurementExtType` | `cast(prfl.sobes as pph_esobs preserving type)` |
+| `SupplyingOrProductionPlant` | `cast(prfl.wrk02 as vdm_wrk02 preserving type)` |
 | `IssuingPlant` | `prfl.rewrk` |
 | `Language` | `$session.system_language` |
 | `MaterialIsDirectlyProduced` | `prfl.clcor` |

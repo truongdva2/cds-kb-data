@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CapacityInternalID` | `CapacityInternalID` |
+| `CapacityInternalID` | `CapacityInternalID` |
 | `_Text` | *Association* |
 | `CapacityCategoryCode` | `CapacityCategoryCode` |
 | `Capacity` | `Capacity` |

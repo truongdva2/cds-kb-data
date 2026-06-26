@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMDocumentStamp` | `LglCntntMDocumentStamp` |
+| `LglCntntMDocumentStamp` | `LglCntntMDocumentStamp` |
 | `_LglCntntMDocStampTextAPI01` | *Association* |
 
 ## Associations

@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TransportationOrderItemUUID : /scmtms/toritmuuid;` | `TransportationOrderItemUUID : /scmtms/toritmuuid;` |
+| `TransportationOrderItemUUID` | `/scmtms/toritmuuid` |
 
 ## Associations
 

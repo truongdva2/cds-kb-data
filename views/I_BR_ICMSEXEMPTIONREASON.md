@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `logbr_icmsexemptionreason preserving type )` | `cast( substring(domvalue_l, 1, 2)` |
+| `BR_ICMSExemptionReason` | `cast( substring(domvalue_l, 1, 2) as logbr_icmsexemptionreason preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

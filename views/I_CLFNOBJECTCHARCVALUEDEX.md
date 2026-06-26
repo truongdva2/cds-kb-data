@@ -30,35 +30,35 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ObjectHeader.ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
-| `key Valuation.CharcInternalID` | `Valuation.CharcInternalID` |
+| `ClfnObjectID` | `ObjectHeader.ClfnObjectID` |
+| `CharcInternalID` | `Valuation.CharcInternalID` |
 | `ClfnCharcValuePositionNumber` | `Valuation.CharcValuePositionNumber` |
-| `key Valuation.ClfnObjectType` | `Valuation.ClfnObjectType` |
-| `key Valuation.ClassType` | `Valuation.ClassType` |
-| `key Valuation.TimeIntervalNumber` | `Valuation.TimeIntervalNumber` |
-| `ObjectHeader.ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
-| `Valuation.CharcValueIntervalType` | `Valuation.CharcValueIntervalType` |
-| `Valuation.CharcValue` | `Valuation.CharcValue` |
-| `Valuation.CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
-| `Valuation.CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
-| `Valuation.CharcToNumericValue` | `Valuation.CharcToNumericValue` |
-| `Valuation.CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
-| `Valuation.CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
-| `Valuation.CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
-| `Valuation.CharcFromAmount` | `Valuation.CharcFromAmount` |
-| `Valuation.CharcToAmount` | `Valuation.CharcToAmount` |
-| `Valuation.Currency` | `Valuation.Currency` |
-| `Valuation.CharcFromDate` | `Valuation.CharcFromDate` |
-| `Valuation.CharcToDate` | `Valuation.CharcToDate` |
-| `Valuation.CharcFromTime` | `Valuation.CharcFromTime` |
-| `Valuation.CharcToTime` | `Valuation.CharcToTime` |
+| `ClfnObjectType` | `Valuation.ClfnObjectType` |
+| `ClassType` | `Valuation.ClassType` |
+| `TimeIntervalNumber` | `Valuation.TimeIntervalNumber` |
+| `ClfnObjectTable` | `ObjectHeader.ClfnObjectTable` |
+| `CharcValueIntervalType` | `Valuation.CharcValueIntervalType` |
+| `CharcValue` | `Valuation.CharcValue` |
+| `CharcFromNumericValue` | `Valuation.CharcFromNumericValue` |
+| `CharcFromNumericValueUnit` | `Valuation.CharcFromNumericValueUnit` |
+| `CharcToNumericValue` | `Valuation.CharcToNumericValue` |
+| `CharcToNumericValueUnit` | `Valuation.CharcToNumericValueUnit` |
+| `CharcFromDecimalValue` | `Valuation.CharcFromDecimalValue` |
+| `CharcToDecimalValue` | `Valuation.CharcToDecimalValue` |
+| `CharcFromAmount` | `Valuation.CharcFromAmount` |
+| `CharcToAmount` | `Valuation.CharcToAmount` |
+| `Currency` | `Valuation.Currency` |
+| `CharcFromDate` | `Valuation.CharcFromDate` |
+| `CharcToDate` | `Valuation.CharcToDate` |
+| `CharcFromTime` | `Valuation.CharcFromTime` |
+| `CharcToTime` | `Valuation.CharcToTime` |
 | `CharcAuthor` | `Valuation.CharacteristicAuthor` |
-| `Valuation.IsDeleted` | `Valuation.IsDeleted` |
-| `Valuation.ChangeNumber` | `Valuation.ChangeNumber` |
-| `Valuation.CharcValueSortPosition` | `Valuation.CharcValueSortPosition` |
-| `Valuation.ValidityStartDate` | `Valuation.ValidityStartDate` |
-| `Valuation.ValidityEndDate` | `Valuation.ValidityEndDate` |
-| `ObjectHeader.LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
+| `IsDeleted` | `Valuation.IsDeleted` |
+| `ChangeNumber` | `Valuation.ChangeNumber` |
+| `CharcValueSortPosition` | `Valuation.CharcValueSortPosition` |
+| `ValidityStartDate` | `Valuation.ValidityStartDate` |
+| `ValidityEndDate` | `Valuation.ValidityEndDate` |
+| `LastChangeDateTime` | `ObjectHeader.LastChangeDateTime` |
 | `_Characteristic` | *Association* |
 
 ## Associations

@@ -29,13 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `receintegrationtype )` | `cast( dd07l.domvalue_l` |
+| `REValuationIntegrationType` | `cast( dd07l.domvalue_l as receintegrationtype )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_REValuationIntegTypeText` | [0..*] |
 
 ## Source Code
 

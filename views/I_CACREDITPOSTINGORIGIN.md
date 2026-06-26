@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `orig_credit_kk preserving type )` | `cast( left( dd07l.domvalue_l, 1 )` |
+| `OriginalSourceOfCredit` | `cast( left( dd07l.domvalue_l, 1 ) as orig_credit_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

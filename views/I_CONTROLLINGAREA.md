@@ -30,33 +30,27 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_ChartOfAccountsStdVH'` | `name:    'I_ChartOfAccountsStdVH'` |
-| `element: 'ChartOfAccounts' }` | `element: 'ChartOfAccounts' }` |
-| `}]` | `}]` |
-| `fis_ktopl preserving type )` | `cast( tka01.ktopl` |
+| `ControllingArea` | `cast( tka01.kokrs as fis_kokrs preserving type )` |
+| `FiscalYearVariant` | `cast( tka01.lmona as fis_periv preserving type )` |
+| `ControllingAreaName` | `cast( tka01.bezei as fis_kokrs_name preserving type )` |
+| `ControllingAreaCurrency` | `cast( tka01.waers as fis_kwaer preserving type )` |
+| `_Currency` | *Association* |
+| `ChartOfAccounts` | `cast( tka01.ktopl as fis_ktopl preserving type )` |
 | `_ChartOfAccounts` | *Association* |
-| `fis_ksthi preserving type )` | `cast( tka01.khinr` |
+| `CostCenterStandardHierarchy` | `cast( tka01.khinr as fis_ksthi preserving type )` |
 | `OperatingConcern` | `tka01.erkrs` |
-| `fis_prctr_std_hier preserving type )` | `cast( tka01.phinr` |
-| `fis_co_bphinr preserving type )` | `cast( tka01.bphinr` |
-| `fis_kstar_fin preserving type )` | `cast( tka01.kstar_fin` |
-| `fis_kstar_fid preserving type )` | `cast( tka01.kstar_fid` |
-| `fis_co_ctyp preserving type )` | `cast( tka01.ctyp` |
+| `ProfitCenterStandardHierarchy` | `cast( tka01.phinr as fis_prctr_std_hier preserving type )` |
+| `BusinessProcessStandardHier` | `cast( tka01.bphinr as fis_co_bphinr preserving type )` |
+| `CreditDownPaymentDefaultGLAcct` | `cast( tka01.kstar_fin as fis_kstar_fin preserving type )` |
+| `DebitDownPaymentDefaultGLAcct` | `cast( tka01.kstar_fid as fis_kstar_fid preserving type )` |
+| `ControllingAreaCurrencyRole` | `cast( tka01.ctyp as fis_co_ctyp preserving type )` |
 | `FinancialManagementArea` | `tka01.fikrs` |
-| `fis_co_vname preserving type )` | `cast( tka01.vname` |
-| `fis_defprctr preserving type )` | `cast( tka01.defprctr` |
-| `fis_leading_fsv preserving type )` | `cast( tka01.leading_fsv` |
+| `ControllingAreaResponsibleUser` | `cast( tka01.vname as fis_co_vname preserving type )` |
+| `DefaultProfitCenter` | `cast( tka01.defprctr as fis_defprctr preserving type )` |
+| `CtrlgStdFinStatementVersion` | `cast( tka01.leading_fsv as fis_leading_fsv preserving type )` |
 | `_FinancialStatementVersion` | *Association* |
 | `_FinancialStatementVersionText` | *Association* |
-| `case` | `case` |
-| `tka01.pcacurtp` | `tka01.pcacurtp` |
-| `when '20' then` | `when '20' then` |
-| `fis_pcacur preserving type )` | `cast( tka01.waers` |
-| `when '30' then` | `when '30' then` |
-| `fis_pcacur preserving type )` | `cast( I_SAPClient.GroupCurrency` |
-| `else` | `else` |
-| `fis_pcacur preserving type )` | `cast( tka01.pcacur` |
-| `ProfitCenterAccountingCurrency` | `end` |
+| `ProfitCenterAccountingCurrency` | `case…end` |
 | `_ChartOfAccountsText` | *Association* |
 
 ## Associations

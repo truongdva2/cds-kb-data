@@ -34,13 +34,13 @@ tags:
 | `ReturnsInspection` | `ReturnsInspection.InspectionDocument` |
 | `ReturnsDelivery` | `ReturnsInspection.DeliveryDocument` |
 | `ReturnsDeliveryItem` | `ReturnsInspection.DeliveryDocumentItem` |
-| `ReturnsInspection.RetsMgmtProcess` | `ReturnsInspection.RetsMgmtProcess` |
-| `ReturnsInspection.RetsMgmtInspPubgSts` | `ReturnsInspection.RetsMgmtInspPubgSts` |
-| `ReturnsInspection.InspectionDocumentIsCancelled` | `ReturnsInspection.InspectionDocumentIsCancelled` |
-| `ReturnsInspection.CreatedByUser` | `ReturnsInspection.CreatedByUser` |
-| `ReturnsInspection.CreationDateTime` | `ReturnsInspection.CreationDateTime` |
-| `ReturnsInspection.LastChangedByUser` | `ReturnsInspection.LastChangedByUser` |
-| `ReturnsInspection.LastChangeDateTime` | `ReturnsInspection.LastChangeDateTime` |
+| `RetsMgmtProcess` | `ReturnsInspection.RetsMgmtProcess` |
+| `RetsMgmtInspPubgSts` | `ReturnsInspection.RetsMgmtInspPubgSts` |
+| `InspectionDocumentIsCancelled` | `ReturnsInspection.InspectionDocumentIsCancelled` |
+| `CreatedByUser` | `ReturnsInspection.CreatedByUser` |
+| `CreationDateTime` | `ReturnsInspection.CreationDateTime` |
+| `LastChangedByUser` | `ReturnsInspection.LastChangedByUser` |
+| `LastChangeDateTime` | `ReturnsInspection.LastChangeDateTime` |
 
 ## Associations
 

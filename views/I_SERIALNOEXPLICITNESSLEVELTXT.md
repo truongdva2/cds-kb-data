@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `serlv preserving type )` | `cast(substring(domvalue_l, 1, 1)` |
-| `spras preserving type)` | `cast(ddlanguage` |
-| `val_text preserving type )` | `cast ( substring ( ddtext, 1, 60 )` |
+| `SerialNoExplicitnessLevel` | `cast(substring(domvalue_l, 1, 1) as serlv preserving type )` |
+| `Language` | `cast(ddlanguage as spras preserving type)` |
+| `SerialNoExplicitnessLevelText` | `cast ( substring ( ddtext, 1, 60 ) as val_text preserving type )` |
 | `_SerialNoExplicitnessLevel` | *Association* |
 | `_Language` | *Association* |
 

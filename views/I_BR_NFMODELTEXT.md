@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( ddlanguage` |
-| `logbr_model )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `BR_NFModel` | `cast ( substring( domvalue_l, 1, 2 ) as logbr_model )` |
 | `BR_NFModelDesc` | `ddtext` |
 | `_BR_NFModel` | *Association* |
 | `_Language` | *Association* |

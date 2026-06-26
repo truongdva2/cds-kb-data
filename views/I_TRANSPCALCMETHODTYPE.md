@@ -30,14 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/vdm_tcm_calc_mthd_type preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TranspCalculationMethodType` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspCalcMethodTypeText` | [0..*] |
 
 ## Source Code
 

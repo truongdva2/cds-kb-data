@@ -34,15 +34,14 @@ tags:
 | `ExchangeRateType` | `kurst` |
 | `SourceCurrency` | `fcurr` |
 | `TargetCurrency` | `tcurr` |
-| `key case gdatu` | `case gdatu` |
-| `abap.dats)` | `when '' then cast('00000000'` |
-| `abap.numc(8))` | `else cast(substring(cast(99999999 - cast(cast(gdatu` |
-| `ValidityStartDate` | `end` |
+| `ValidityStartDate` | `case…end` |
 | `NumberOfSourceCurrencyUnits` | `ffact` |
 | `NumberOfTargetCurrencyUnits` | `tfact` |
 | `AlternativeExchangeRateType` | `abwct` |
 | `AltvExchangeRateTypeValdtyDate` | `abwga` |
-| `_ExchangeRateType, _SourceCurrency, _TargetCurrency` | *Association* |
+| `_ExchangeRateType` | *Association* |
+| `_SourceCurrency` | *Association* |
+| `_TargetCurrency` | *Association* |
 
 ## Associations
 

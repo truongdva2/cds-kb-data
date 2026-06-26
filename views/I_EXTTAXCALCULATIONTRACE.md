@@ -38,7 +38,7 @@ tags:
 | `ExtTaxCalcDocumentNumber` | `doc_number` |
 | `ExtTaxCalculationFiscalYear` | `doc_fiscal_year` |
 | `ExtTaxCalculationItemNumber` | `doc_item` |
-| `tzntstmps preserving type)` | `cast(timestamp` |
+| `ExtTaxCalculationDateTime` | `cast(timestamp as tzntstmps preserving type)` |
 | `ConditionTaxCode` | `tax_type_code` |
 | `ExtTaxCalcTaxJurisdiction` | `tax_jurisdiction_code` |
 | `PricingDate` | `tax_date` |

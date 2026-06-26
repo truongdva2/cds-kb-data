@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_proid_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 8 )` |
+| `CABusinessTransactionProcess` | `cast ( left( dd07l.domvalue_l, 8 ) as evl_proid_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

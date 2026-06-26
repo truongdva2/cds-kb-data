@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `CABillgPlnCategory` | `_tfk8210t.bipcat` |
 | `Language` | `_tfk8210t.langu` |
-| `bipcat_txt_gfn_kk preserving type )` | `cast( _tfk8210t.text` |
+| `CABillgPlnCategoryText` | `cast( _tfk8210t.text as bipcat_txt_gfn_kk preserving type )` |
 | `_CABillgPlnCategory` | *Association* |
 | `_Language` | *Association* |
 

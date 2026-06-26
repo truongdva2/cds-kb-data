@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key FiscalYear` | `FiscalYear` |
+| `FiscalYear` | `FiscalYear` |
 
 ## Associations
 

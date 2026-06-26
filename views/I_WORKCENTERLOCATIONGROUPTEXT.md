@@ -33,7 +33,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
+| `WorkCenterLocationGroup` | `txt.ortgr` |
+| `WorkCenterPlant` | `txt.werks` |
+| `Language` | `txt.spras` |
 | `WorkCenterLocationGroupName` | `txt.txt` |
 | `_Plant` | *Association* |
 | `_Language` | *Association* |

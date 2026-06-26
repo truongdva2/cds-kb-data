@@ -33,7 +33,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.7 }` |
+| `SuplrActyType` | `act_type` |
+| `Language` | `langu` |
 | `SuplrActyTypeName` | `description` |
 | `_SupplierActivityType` | *Association* |
 | `_Language` | *Association* |

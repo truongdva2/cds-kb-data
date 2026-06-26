@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConditionRecord` | `ConditionRecord` |
+| `ConditionRecord` | `ConditionRecord` |
 | `ConditionSequentialNumber` | `ConditionSequentialNumber` |
 | `ConditionTable` | `ConditionTable` |
 | `ConditionApplication` | `ConditionApplication` |
@@ -81,10 +81,6 @@ tags:
 | `SalesPriceApprovalRequest` | `SalesPriceApprovalRequest` |
 | `PrevApprovedConditionRecord` | `PrevApprovedConditionRecord` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_Validity : redirected to composition child I_SlsPrcgCndnRecdValidityTP_2` | *Association* |
-| `_Supplement  : redirected to composition child I_SlsPrcgCndnRecdSuplmntTP_2` | *Association* |
-| `_Scale  : redirected to composition child I_SlsPrcgCndnRecordScaleTP_2` | *Association* |
-| `_Text   : redirected to composition child I_SlsPrcgCndnRecordTextTP_2` | *Association* |
 
 ## Associations
 

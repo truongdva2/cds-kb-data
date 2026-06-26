@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key KanbanContainer` | `KanbanContainer` |
+| `KanbanContainer` | `KanbanContainer` |
 | `KanbanControlCycle` | `KanbanControlCycle` |
 | `KanbanControlCycleItem` | `KanbanControlCycleItem` |
 | `KanbanContainerStatus` | `KanbanContainerStatus` |
@@ -76,7 +76,6 @@ tags:
 | `WhseGoodsMovementDocument` | `WhseGoodsMovementDocument` |
 | `WhseGoodsMovementDocumentItem` | `WhseGoodsMovementDocumentItem` |
 | `RepetitiveMfgConfirmation` | `RepetitiveMfgConfirmation` |
-| `_KanbanControlCycle: redirected to parent I_KanbanControlCycleTP` | *Association* |
 | `_Plant` | *Association* |
 | `_Supplier` | *Association* |
 | `_SupplierCompanyByPlant` | *Association* |

@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_exec_step_status)` | `cast( substring(dd07l.domvalue_l, 1, 1)` |
+| `RetsMgmtProcStepExecStatus` | `cast( substring(dd07l.domvalue_l, 1, 1) as msr_exec_step_status)` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

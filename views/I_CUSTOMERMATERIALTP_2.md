@@ -35,21 +35,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerMaterial.SalesOrganization` | `CustomerMaterial.SalesOrganization` |
-| `key CustomerMaterial.DistributionChannel` | `CustomerMaterial.DistributionChannel` |
-| `key CustomerMaterial.Customer` | `CustomerMaterial.Customer` |
-| `key CustomerMaterial.Product` | `CustomerMaterial.Product` |
+| `SalesOrganization` | `CustomerMaterial.SalesOrganization` |
+| `DistributionChannel` | `CustomerMaterial.DistributionChannel` |
+| `Customer` | `CustomerMaterial.Customer` |
+| `Product` | `CustomerMaterial.Product` |
 | `SalesOrganizationForEdit` | `SalesOrganizationForEdit` |
 | `DistributionChannelForEdit` | `DistributionChannelForEdit` |
 | `CustomerForEdit` | `CustomerForEdit` |
 | `ProductForEdit` | `ProductForEdit` |
-| `CustomerMaterial.MaterialByCustomer` | `CustomerMaterial.MaterialByCustomer` |
-| `CustomerMaterial.MaterialDescriptionByCustomer` | `CustomerMaterial.MaterialDescriptionByCustomer` |
+| `MaterialByCustomer` | `CustomerMaterial.MaterialByCustomer` |
+| `MaterialDescriptionByCustomer` | `CustomerMaterial.MaterialDescriptionByCustomer` |
 | `CustomerMaterialSearchTerm` | `CustomerMaterialSearchTerm` |
-| `CustomerMaterial.Plant` | `CustomerMaterial.Plant` |
-| `CustomerMaterial.DeliveryPriority` | `CustomerMaterial.DeliveryPriority` |
-| `CustomerMaterial.MinDeliveryQtyInBaseUnit` | `CustomerMaterial.MinDeliveryQtyInBaseUnit` |
-| `CustomerMaterial.BaseUnit` | `CustomerMaterial.BaseUnit` |
+| `Plant` | `CustomerMaterial.Plant` |
+| `DeliveryPriority` | `CustomerMaterial.DeliveryPriority` |
+| `MinDeliveryQtyInBaseUnit` | `CustomerMaterial.MinDeliveryQtyInBaseUnit` |
+| `BaseUnit` | `CustomerMaterial.BaseUnit` |
 | `PartialDeliveryIsAllowed` | `PartialDeliveryIsAllowed` |
 | `MaxNmbrOfPartialDelivery` | `MaxNmbrOfPartialDelivery` |
 | `UnderdelivTolrtdLmtRatioInPct` | `UnderdelivTolrtdLmtRatioInPct` |
@@ -61,7 +61,6 @@ tags:
 | `SalesQtyToBaseQtyNmrtr` | `SalesQtyToBaseQtyNmrtr` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `_Text : redirected to composition child I_CustomerMaterialTextTP` | *Association* |
 | `_Customer` | *Association* |
 
 ## Associations

@@ -31,9 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `label: 'Detailed Description'` | `label: 'Detailed Description'` |
-| `quickInfo: 'Detailed Description of Quality Notification'` | `quickInfo: 'Detailed Description of Quality Notification'` |
-| `}/* normally you should build a vdm_q* data element and cast the field to it to get the label, but casting of STRING is not allowed */` | `}/* normally you should build a vdm_q* data element and cast the field to it to get the label, but casting of STRING is not allowed */` |
+| `QualityNotification` | `qmnum` |
+| `ItemCounter` | `counter` |
+| `Language` | `langu` |
+| `LongTextID` | `textid` |
 | `QltyNotificationLongText` | `content` |
 | `LongTextCreatedByUser` | `created_by` |
 | `LongTextCreatedAt` | `created_at` |

@@ -32,9 +32,22 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: '_QualityNotificationItem' }` | `status: #DEPRECATED, successor: '_QualityNotificationItem' }` |
-| `I_NotificationItemLongText._NotificationItem` | `I_NotificationItemLongText._NotificationItem` |
-| `I_NotificationItemLongText._Language` | `I_NotificationItemLongText._Language` |
+| `QualityNotification` | `I_NotificationItemLongText.Notification` |
+| `NotificationItem` | `I_NotificationItemLongText.NotificationItem` |
+| `Language` | `I_NotificationItemLongText.Language` |
+| `LongTextInternalNumber` | `I_NotificationItemLongText.LongTextInternalNumber` |
+| `LongTextID` | `I_NotificationItemLongText.LongTextID` |
+| `NotificationItemLongText` | `I_NotificationItemLongText.NotificationItemLongText` |
+| `MimeType` | `cast( I_NotificationItemLongText.MimeType as w3conttype )` |
+| `LongTextCreatedByUser` | `I_NotificationItemLongText.LongTextCreatedByUser` |
+| `LongTextCreatedAt` | `I_NotificationItemLongText.LongTextCreatedAt` |
+| `LongTextLastChangedByUser` | `I_NotificationItemLongText.LongTextLastChangedByUser` |
+| `LongTextLastChangedAt` | `I_NotificationItemLongText.LongTextLastChangedAt` |
+| `_QltyNotification` | *Association* |
+| `_QualityNotificationItem` | *Association* |
+| `_Notification` | *Association* |
+| `_NotificationItem` | *Association* |
+| `_Language` | *Association* |
 
 ## Associations
 

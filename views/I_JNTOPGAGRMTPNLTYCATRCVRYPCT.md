@@ -29,14 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JntOpgAgrmtVH'` | `name:    'I_JntOpgAgrmtVH'` |
-| `element: 'JntOpgAgrmt' }` | `element: 'JntOpgAgrmt' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
 | `JntOpgAgrmt` | `joa` |
 | `JntVntrPenaltyCategory` | `pencat` |
 | `JntVntrNonSignatoryRcvryPct` | `nosigrp` |
 | `JntVntrNonConsentRcvryPnltyPct` | `noconrp` |
-| `_JntOpgAgrmt._JntOpgAgrmtText[1:Language = $session.system_language ].JntOpgAgrmtText` | *Association* |
+| `JntOpgAgrmtText` | `expr(…)` |
 | `_CompanyCode` | *Association* |
 | `_JntOpgAgrmt` | *Association* |
 | `_JntVntrPenaltyCategory` | *Association* |

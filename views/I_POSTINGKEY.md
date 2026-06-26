@@ -30,10 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_bschl preserving type)` | `cast(tbsl.bschl` |
-| `fis_shkzg preserving type )` | `cast(tbsl.shkzg` |
-| `farp_koart preserving type )` | `cast(tbsl.koart` |
-| `farp_xumsw preserving type)` | `cast(tbsl.xumsw` |
+| `PostingKey` | `cast(tbsl.bschl as fis_bschl preserving type)` |
+| `DebitCreditCode` | `cast(tbsl.shkzg as fis_shkzg preserving type )` |
+| `FinancialAccountType` | `cast(tbsl.koart as farp_koart preserving type )` |
+| `IsSalesRelated` | `cast(tbsl.xumsw as farp_xumsw preserving type)` |
 | `IsUsedInPaymentTransaction` | `tbsl.xzahl` |
 | `ReversalPostingKey` | `tbsl.stbsl` |
 | `IsSpecialGLTransaction` | `tbsl.xsonu` |

@@ -31,7 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` | `defaultSearchElement: true, fuzzinessThreshold: 0.8 }` |
+| `Country` | `land1` |
+| `RU_AssetOKOF` | `okof` |
+| `RU_AssetDepreciationGroup` | `depr_group` |
+| `Language` | `sprsl` |
 | `RU_AssetDepreciationGroupDesc` | `description` |
 | `_Country` | *Association* |
 | `_RU_AssetOKOF` | *Association* |

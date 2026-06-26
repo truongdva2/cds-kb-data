@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Country` | `Country` |
+| `Country` | `Country` |
 | `CAIncomingPaymentMethod` | `CAPaymentMethod` |
 | `BankDetailsOfBPAreRequired` | `BankDetailsOfBPAreRequired` |
 | `AddressDetailsAreRequired` | `AddressDetailsAreRequired` |
@@ -51,7 +51,6 @@ tags:
 | `CASEPAMandateIsRequired` | `CASEPAMandateIsRequired` |
 | `CASEPAPrenotificationIsCreated` | `CASEPAPrenotificationIsCreated` |
 | `CARealTimePaymentCategory` | `CARealTimePaymentCategory` |
-| `/* Associations */` | `/* Associations */` |
 | `_Country` | *Association* |
 | `_Text` | *Association* |
 

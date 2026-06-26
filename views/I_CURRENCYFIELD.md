@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_crcy_role_field )` | `cast( dd07l.domvalue_l` |
+| `CurrencyField` | `cast( dd07l.domvalue_l as fis_crcy_role_field )` |
 | `_Text` | *Association* |
 
 ## Associations

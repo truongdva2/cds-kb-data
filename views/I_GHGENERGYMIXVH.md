@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGEnergyMix` | `GHGEnergyMix` |
+| `GHGEnergyMix` | `GHGEnergyMix` |
 | `_Text` | *Association* |
 
 ## Associations

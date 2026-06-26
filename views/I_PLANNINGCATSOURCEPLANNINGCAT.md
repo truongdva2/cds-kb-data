@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fcom_category preserving type)` | `cast (PlanningCategory` |
-| `SourcePlanningCategory` | `PlanningCategory` |
+| `PlanningCategory` | `I_VirtualPlanningCategory.PlanningCategory` |
+| `SourcePlanningCategory` | `I_VirtualPlanningCategory.SourcePlanningCategory` |
 | `_PlanningCategory` | *Association* |
 | `_PlanningCategoryText` | *Association* |
 | `_SourcePlanningCategory` | *Association* |
@@ -41,10 +41,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_PlanningCategory` | `I_PlanningCategory` | [1..1] |
-| `_PlanningCategoryText` | `I_PlanningCategoryText` | [0..*] |
-| `_SourcePlanningCategory` | `I_PlanningCategory` | [1..1] |
-| `_SourcePlanningCategoryText` | `I_PlanningCategoryText` | [0..*] |
 | `_PlanningCategory` | `I_PlanningCategory` | [1..1] |
 | `_PlanningCategoryText` | `I_PlanningCategoryText` | [0..*] |
 | `_SourcePlanningCategory` | `I_PlanningCategory` | [1..1] |

@@ -30,42 +30,44 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `OneTimeBPFormOfAddress      : anred;` | `OneTimeBPFormOfAddress      : anred;` |
-| `Name                        : name1_gp;` | `Name                        : name1_gp;` |
-| `OneTimeBusinessPartnerName2 : name2_gp;` | `OneTimeBusinessPartnerName2 : name2_gp;` |
-| `OneTimeBusinessPartnerName3 : name3_gp;` | `OneTimeBusinessPartnerName3 : name3_gp;` |
-| `OneTimeBusinessPartnerName4 : name4_gp;` | `OneTimeBusinessPartnerName4 : name4_gp;` |
-| `BusinessPartnerStreetName   : stras_gp;` | `BusinessPartnerStreetName   : stras_gp;` |
-| `OneTimeBPPostOfficeBox      : pfach;` | `OneTimeBPPostOfficeBox      : pfach;` |
-| `PostOfficeBoxPostalCode     : pstl2;` | `PostOfficeBoxPostalCode     : pstl2;` |
-| `PostalCode                  : pstlz;` | `PostalCode                  : pstlz;` |
-| `BPIsEqualizationTaxSubject  : acpi_stkza;` | `BPIsEqualizationTaxSubject  : acpi_stkza;` |
-| `DataMediumExchangeKey       : dtaws;` | `DataMediumExchangeKey       : dtaws;` |
-| `DataMediumExchangeIndicator : dtams;` | `DataMediumExchangeIndicator : dtams;` |
-| `LanguageISOCode             : laiso;` | `LanguageISOCode             : laiso;` |
-| `BankCountry                 : banks;` | `BankCountry                 : banks;` |
-| `BankAccount                 : bankn;` | `BankAccount                 : bankn;` |
-| `BankControlKey              : bkont;` | `BankControlKey              : bkont;` |
-| `BankNumber                  : bankl;` | `BankNumber                  : bankl;` |
-| `CityName                    : ort01_gp;` | `CityName                    : ort01_gp;` |
-| `Country                     : land1_gp;` | `Country                     : land1_gp;` |
-| `TaxNumber1                  : stcd1;` | `TaxNumber1                  : stcd1;` |
-| `TaxNumber2                  : stcd2;` | `TaxNumber2                  : stcd2;` |
-| `TaxNumber3                  : stcd3;` | `TaxNumber3                  : stcd3;` |
-| `TaxNumber4                  : stcd4;` | `TaxNumber4                  : stcd4;` |
-| `TaxNumber5                  : stcd5;` | `TaxNumber5                  : stcd5;` |
-| `IsNaturalPerson             : stkzn;` | `IsNaturalPerson             : stkzn;` |
-| `Region                      : regio;` | `Region                      : regio;` |
-| `VATLiability                : stkzu;` | `VATLiability                : stkzu;` |
-| `TaxNumberType               : j_1atoid;` | `TaxNumberType               : j_1atoid;` |
-| `OneTimeBusinessPartnerEmail : intad;` | `OneTimeBusinessPartnerEmail : intad;` |
-| `AccountTaxType              : j_1afitp_d;` | `AccountTaxType              : j_1afitp_d;` |
-| `BankDetailReference         : bkref;` | `BankDetailReference         : bkref;` |
-| `_JournalEntryPost           : association to parent D_JournalEntryPostParameter;` | *Association* |
+| `OneTimeBPFormOfAddress` | `anred` |
+| `Name` | `name1_gp` |
+| `OneTimeBusinessPartnerName2` | `name2_gp` |
+| `OneTimeBusinessPartnerName3` | `name3_gp` |
+| `OneTimeBusinessPartnerName4` | `name4_gp` |
+| `BusinessPartnerStreetName` | `stras_gp` |
+| `OneTimeBPPostOfficeBox` | `pfach` |
+| `PostOfficeBoxPostalCode` | `pstl2` |
+| `PostalCode` | `pstlz` |
+| `BPIsEqualizationTaxSubject` | `acpi_stkza` |
+| `DataMediumExchangeKey` | `dtaws` |
+| `DataMediumExchangeIndicator` | `dtams` |
+| `LanguageISOCode` | `laiso` |
+| `BankCountry` | `banks` |
+| `BankAccount` | `bankn` |
+| `BankControlKey` | `bkont` |
+| `BankNumber` | `bankl` |
+| `CityName` | `ort01_gp` |
+| `Country` | `land1_gp` |
+| `TaxNumber1` | `stcd1` |
+| `TaxNumber2` | `stcd2` |
+| `TaxNumber3` | `stcd3` |
+| `TaxNumber4` | `stcd4` |
+| `TaxNumber5` | `stcd5` |
+| `IsNaturalPerson` | `stkzn` |
+| `Region` | `regio` |
+| `VATLiability` | `stkzu` |
+| `TaxNumberType` | `j_1atoid` |
+| `OneTimeBusinessPartnerEmail` | `intad` |
+| `AccountTaxType` | `j_1afitp_d` |
+| `BankDetailReference` | `bkref` |
+| `_JournalEntryPost` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_JournalEntryPost` | `D_JournalEntryPostParameter` | — |
 
 ## Source Code
 

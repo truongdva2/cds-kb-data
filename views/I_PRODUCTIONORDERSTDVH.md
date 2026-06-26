@@ -34,7 +34,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionOrder` | `ProductionOrder` |
+| `ProductionOrder` | `ProductionOrder` |
 | `ProductionOrderText` | `ProductionOrderText` |
 | `OrderCategory` | `OrderCategory` |
 | `ProductionOrderType` | `ProductionOrderType` |

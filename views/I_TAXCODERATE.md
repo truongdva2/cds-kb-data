@@ -34,11 +34,11 @@ tags:
 | `Country` | `R_TaxCodesPerCountry.Country` |
 | `TaxCalculationProcedure` | `R_TaxCodesPerCountry.TaxCalculationProcedure` |
 | `TaxCode` | `R_TaxCodesPerCountry.TaxCode` |
-| `CndnRecordValidityStartDate, // from A003 union A4AV` | `TAXCODECONDITIONRECORDS.CndnRecordValidityStartDate` |
+| `CndnRecordValidityStartDate` | `TAXCODECONDITIONRECORDS.CndnRecordValidityStartDate` |
 | `VATConditionType` | `TAXCODECONDITIONRECORDS.VATConditionType` |
-| `CndnRecordValidityEndDate, // from A003 union A4AV` | `TAXCODECONDITIONRECORDS.CndnRecordValidityEndDate` |
-| `_FinPrcgCndnRecordItem.ConditionRateRatio           as ConditionRateRatio` | *Association* |
-| `_FinPrcgCndnRecordItem.ConditionRateRatioUnit       as ConditionRateRatioUnit` | *Association* |
+| `CndnRecordValidityEndDate` | `TAXCODECONDITIONRECORDS.CndnRecordValidityEndDate` |
+| `ConditionRateRatio` | `_FinPrcgCndnRecordItem.ConditionRateRatio` |
+| `ConditionRateRatioUnit` | `_FinPrcgCndnRecordItem.ConditionRateRatioUnit` |
 | `ConditionStep` | `FinPricingProcedureItem.ConditionStep` |
 | `ConditionFromRefStep` | `FinPricingProcedureItem.ConditionFromRefStep` |
 | `AccountKeyForGLAccount` | `FinPricingProcedureItem.AccountKeyForGLAccount` |

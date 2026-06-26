@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH }` | `defaultSearchElement: true, ranking: #HIGH }` |
-| `_Text[1:Language = $session.system_language].IT_ElectronicDocPartStatText as IT_ElectronicDocPartStatText` | *Association* |
+| `IT_ElectronicDocPartStat` | `IT_ElectronicDocPartStat` |
+| `IT_ElectronicDocPartStatText` | `_Text[1:Language = $session.system_language].IT_ElectronicDocPartStatText` |
 
 ## Associations
 

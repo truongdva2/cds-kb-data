@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `RealEstateDocumentUUID` | `docguid` |
 | `REProcessUUID` | `processguid` |
-| `recavdmprocessid preserving type )` | `cast(processid` |
+| `RealEstateProcess` | `cast(processid as recavdmprocessid preserving type )` |
 | `FiscalYear` | `fisc_year` |
 | `PostingDate` | `pstngdate` |
 | `DocumentDate` | `docdate` |

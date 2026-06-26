@@ -30,15 +30,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `lcm_uuid_c32 )` | `cast( LglTransWrkFlwModInstce` |
+| `LglTransWrkFlwModInstce` | `cast( LglTransWrkFlwModInstce as lcm_uuid_c32 )` |
 | `LegalTransactionUUID` | `LegalTransactionUUID` |
 | `LglTransWrkFlwCreatedByUser` | `LglTransWrkFlwCreatedByUser` |
-| `_LegalTransaction.LglCntntMGovLaw               as LglCntntMGovLaw` | *Association* |
-| `_LegalTransaction.LglCntntMProfile              as LglCntntMProfile` | *Association* |
-| `_LegalTransaction.LglTransAccessLvl             as LglTransAccessLvl` | *Association* |
-| `_LegalTransaction.LglCntntMMainOrgCoCode        as LglCntntMMainOrgCoCode` | *Association* |
-| `_LegalTransaction.LglCntntMMainOrgSalesOrg      as LglCntntMMainOrgSalesOrg` | *Association* |
-| `_LegalTransaction.LglCntntMMainOrgPurOrg        as LglCntntMMainOrgPurOrg` | *Association* |
+| `LglCntntMGovLaw` | `_LegalTransaction.LglCntntMGovLaw` |
+| `LglCntntMProfile` | `_LegalTransaction.LglCntntMProfile` |
+| `LglTransAccessLvl` | `_LegalTransaction.LglTransAccessLvl` |
+| `LglCntntMMainOrgCoCode` | `_LegalTransaction.LglCntntMMainOrgCoCode` |
+| `LglCntntMMainOrgSalesOrg` | `_LegalTransaction.LglCntntMMainOrgSalesOrg` |
+| `LglCntntMMainOrgPurOrg` | `_LegalTransaction.LglCntntMMainOrgPurOrg` |
 | `_LegalTransaction` | *Association* |
 
 ## Associations

@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #HIGH` | `ranking: #HIGH` |
-| `}` | `}` |
-| `returns_refund_extent_desc)` | `cast (bezei` |
+| `ReturnsRefundExtent` | `cast (returns_refund as returns_refund_extent)` |
+| `Language` | `spras` |
+| `ReturnsRefundExtentDesc` | `cast (bezei as returns_refund_extent_desc)` |
 | `_ReturnsRefundExtent` | *Association* |
 | `_Language` | *Association* |
 

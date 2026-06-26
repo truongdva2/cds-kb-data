@@ -32,7 +32,33 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `releaseState: #DEPRECATED, successor: 'BPCountyText' }` | `releaseState: #DEPRECATED, successor: 'BPCountyText' }` |
+| `BusinessPartner` | `BusinessPartner` |
+| `AddressNumber` | `AddressNumber` |
+| `AddressRepresentationCode` | `AddressRepresentationCode` |
+| `AddrRepCodeForEditValue` | `AddrRepCodeForEditValue` |
+| `ValidityStartDate` | `ValidityStartDate` |
+| `ValidityEndDate` | `ValidityEndDate` |
+| `BusinessPartnerAddressUUID` | `BusinessPartnerAddressUUID` |
+| `CareOfName` | `CareOfName` |
+| `AdditionalStreetSuffixName` | `AdditionalStreetSuffixName` |
+| `CorrespondenceLanguage` | `CorrespondenceLanguage` |
+| `PrfrdCommMediumType` | `PrfrdCommMediumType` |
+| `POBoxLobbyName` | `POBoxLobbyName` |
+| `AddressTimeZone` | `AddressTimeZone` |
+| `FullName` | `FullName` |
+| `CityName` | `CityName` |
+| `District` | `District` |
+| `DistrictName` | `DistrictName` |
+| `HomeCityName` | `HomeCityName` |
+| `StreetName` | `StreetName` |
+| `StreetPrefixName` | `StreetPrefixName` |
+| `AdditionalStreetPrefixName` | `AdditionalStreetPrefixName` |
+| `StreetSuffixName` | `StreetSuffixName` |
+| `HouseNumber` | `HouseNumber` |
+| `HouseNumberSupplementText` | `HouseNumberSupplementText` |
+| `Building` | `Building` |
+| `Floor` | `Floor` |
+| `RoomNumber` | `RoomNumber` |
 | `County` | `County` |
 | `BPCountyText` | `BPCountyText` |
 | `FormattedAddress` | `FormattedAddress` |
@@ -54,8 +80,6 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `_BusinessPartner : redirected to I_BusinessPartnerTP_3` | *Association* |
-| `_BusinessPartnerAddress : redirected to parent I_BusinessPartnerAddressTP_3` | *Association* |
 | `_BPProtectedAddress` | *Association* |
 | `_AddressRepresentation` | *Association* |
 | `AuthorizationGroup` | `AuthorizationGroup` |

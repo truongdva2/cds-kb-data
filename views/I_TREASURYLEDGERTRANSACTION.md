@@ -31,21 +31,21 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_gen_trl_trans preserving type )` | `cast(os_guid` |
-| `ftr_gen_business_trans_categ   preserving type )` | `cast( bustranscat` |
+| `TreasuryLedgerTransaction` | `cast(os_guid as ftr_gen_trl_trans preserving type )` |
+| `TreasuryBusinessTransCategory` | `cast( bustranscat as ftr_gen_business_trans_categ preserving type )` |
 | `TreasuryPositionLedgerDate` | `trldate` |
-| `ftr_gen_business_transaction   preserving type )` | `cast( bustransid` |
-| `tpm_bt_create_date             preserving type )` | `cast( create_date` |
-| `tpm_bt_create_time             preserving type )` | `cast( create_time` |
-| `ftr_gen_trltranstate preserving type )` | `cast( bustransstate` |
-| `ftr_gen_trl_bookingstate       preserving type )` | `cast( booking_state` |
+| `TreasuryBusinessTransaction` | `cast( bustransid as ftr_gen_business_transaction preserving type )` |
+| `TrsyBusTransactionCreationDate` | `cast( create_date as tpm_bt_create_date preserving type )` |
+| `TrsyBusTransactionCreationTime` | `cast( create_time as tpm_bt_create_time preserving type )` |
+| `TrsyDerivedBusinessTransStatus` | `cast( bustransstate as ftr_gen_trltranstate preserving type )` |
+| `TreasuryBusinessTransStatus` | `cast( booking_state as ftr_gen_trl_bookingstate preserving type )` |
 | `TreasuryValuationArea` | `valuation_area` |
-| `bukrs                          preserving type )` | `cast( tr_acc_code` |
-| `ftr_gen_bustransid_orig        preserving type )` | `cast( refbustransid` |
+| `CompanyCode` | `cast( tr_acc_code as bukrs preserving type )` |
+| `OriglTrsyBusinessTransaction` | `cast( refbustransid as ftr_gen_bustransid_orig preserving type )` |
 | `PostingDate` | `fi_post_date` |
 | `PostingReversalDate` | `fi_rev_date` |
-| `ftr_gen_igt_status             preserving type )` | `cast( igt_status` |
-| `ftr_gen_user_data_guid         preserving type )` | `cast( user_data_oid` |
+| `TrsyIntragroupTransacStatus` | `cast( igt_status as ftr_gen_igt_status preserving type )` |
+| `TreasuryUserStatisticsUUID` | `cast( user_data_oid as ftr_gen_user_data_guid preserving type )` |
 | `_TrlFlow` | *Association* |
 
 ## Associations

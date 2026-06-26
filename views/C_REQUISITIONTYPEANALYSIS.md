@@ -30,19 +30,40 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name : 'C_MM_CompanyCodeValueHelp', element : 'CompanyCode' } }]` | `name : 'C_MM_CompanyCodeValueHelp', element : 'CompanyCode' } }]` |
-| `_PurReqValuationArea.CompanyCode, // changed as PR company code sould be from valuation area` | *Association* |
+| `PurchaseRequisition` | `RequisitionItem.PurchaseRequisition` |
+| `PurchaseRequisitionItem` | `RequisitionItem.PurchaseRequisitionItem` |
+| `PurchasingGroup` | `PurchasingGroup` |
+| `PurchasingGroupName` | `_PurchasingGroup.PurchasingGroupName` |
+| `PurchasingOrganization` | `PurchasingOrganization` |
+| `PurchasingOrganizationName` | `_PurchasingOrg.PurchasingOrganizationName` |
+| `FixedSupplier` | `cast(RequisitionItem.FixedSupplier as flief )` |
+| `SupplierName` | `_Supplier.SupplierName` |
+| `MaterialGroup` | `RequisitionItem.MaterialGroup` |
+| `MaterialGroupName` | `_MaterialGroup._Text[1: Language = $session.system_language].MaterialGroupName` |
+| `Material` | `Material` |
+| `MaterialName` | `_Material.MaterialName` |
+| `Plant` | `Plant` |
+| `PlantName` | `_Material.PlantName` |
+| `BaseUnit` | `BaseUnit` |
+| `RequestedQuantity` | `RequestedQuantity` |
+| `PurReqnPriceQuantity` | `PurReqnPriceQuantity` |
+| `PurReqnItemCurrency` | `PurReqnItemCurrency` |
+| `PurchaseRequisitionPrice` | `PurchaseRequisitionPrice` |
+| `PurchasingCategory` | `PurchasingCategoryMatlGroup._PurchasingCategory.PurchasingCategory` |
+| `PurgCatRelatedToMaterialGroup` | `cast(…)` |
+| `PurgCatName` | `PurchasingCategoryMatlGroup._PurchasingCategory.PurgCatName` |
+| `CompanyCode` | `_PurReqValuationArea.CompanyCode` |
 | `CreatedByUser` | `CreatedByUser` |
 | `PurReqnOrigin` | `PurReqnOrigin` |
-| `_PurReqnCreationInd._Text[1: Language = $session.system_language].PurReqnOriginDesc` | *Association* |
+| `PurReqnOriginDesc` | `expr(…)` |
 | `CreationDate` | `CreationDate` |
-| `RelevantDates.CalendarYear` | `RelevantDates.CalendarYear` |
-| `RelevantDates.CalendarQuarter` | `RelevantDates.CalendarQuarter` |
-| `RelevantDates.CalendarMonth` | `RelevantDates.CalendarMonth` |
-| `RelevantDates.CalendarWeek` | `RelevantDates.CalendarWeek` |
+| `CalendarYear` | `RelevantDates.CalendarYear` |
+| `CalendarQuarter` | `RelevantDates.CalendarQuarter` |
+| `CalendarMonth` | `RelevantDates.CalendarMonth` |
+| `CalendarWeek` | `RelevantDates.CalendarWeek` |
 | `PurReqnItemClassification` | `PurReqnItemClassification` |
-| `_PurReqnItemClassfctn._PurReqnItemClassfctnText[1:Language = $session.system_language].PurReqItemClassificationText` | *Association* |
-| `mm_a_purchasereqnitemcount )` | `cast(  1` |
+| `PurReqItemClassificationText` | `expr(…)` |
+| `PurchaseRequisitionItemCount` | `cast( 1 as mm_a_purchasereqnitemcount )` |
 | `NmbrOfFreeTxtItmCrtedFrmSSP` | `NmbrOfFreeTxtItmCrtedFrmSSP` |
 | `NmbrOfMaterialItmCrtedFrmSSP` | `NmbrOfMaterialItmCrtedFrmSSP` |
 | `NmbrOfCatalogItmCrtedFrmSSP` | `NmbrOfCatalogItmCrtedFrmSSP` |

@@ -32,8 +32,8 @@ tags:
 | Field | Data Source |
 |---|---|
 | `BusinessPartner` | `partner` |
-| `ukm_credit_sgmnt preserving type )` | `cast( credit_sgmnt` |
-| `_CreditSegment.CreditSegmentCurrency                      as CreditSegmentCurrency` | *Association* |
+| `CreditSegment` | `cast( credit_sgmnt as ukm_credit_sgmnt preserving type )` |
+| `CreditSegmentCurrency` | `_CreditSegment.CreditSegmentCurrency` |
 | `CustomerCreditLimitAmount` | `credit_limit` |
 | `CreditLimitCalculatedAmount` | `cred_lim_calc` |
 | `CreditLimitRequestedAmount` | `cred_lim_req` |
@@ -42,7 +42,7 @@ tags:
 | `CreditLimitLastChangeDate` | `limit_chg_date` |
 | `CreditCoordinator` | `coordinator` |
 | `CreditAccountResubmissionDate` | `follow_up_dt` |
-| `ukm_critical_account preserving type )` | `cast( xcritical` |
+| `BusinessPartnerIsCritical` | `cast( xcritical as ukm_critical_account preserving type )` |
 | `CreditLimitIsZero` | `x_limit_zero` |
 | `CreditAccountBlockReason` | `block_reason` |
 | `CrdtLmtIsReqdFrmAutomCalc` | `automatic_req` |

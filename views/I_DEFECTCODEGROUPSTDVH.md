@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true` | `defaultSearchElement: true` |
-| `fuzzinessThreshold: 0.8` | `fuzzinessThreshold: 0.8` |
-| `ranking: #LOW` | `ranking: #LOW` |
-| `}` | `}` |
-| `_Text[ 1:Language = $session.system_language ].DefectCodeGroupText` | *Association* |
+| `DefectCodeGroup` | `DefectCodeGroup` |
+| `DefectCodeGroupText` | `_Text[ 1:Language = $session.system_language ].DefectCodeGroupText` |
 | `_Text` | *Association* |
 | `CodeGroupStatus` | `CodeGroupStatus` |
 

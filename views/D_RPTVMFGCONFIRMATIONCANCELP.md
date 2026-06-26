@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `PostingDate           : budat;` | `PostingDate           : budat;` |
-| `PlantDataCollectionID : sa_bdenr;` | `PlantDataCollectionID : sa_bdenr;` |
+| `PostingDate` | `budat` |
+| `PlantDataCollectionID` | `sa_bdenr` |
 
 ## Associations
 

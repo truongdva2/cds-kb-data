@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `aginf_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `aginf_text_kk preserving type )` | `cast( ddtext` |
+| `CAClearingInformation` | `cast( left( dd07t.domvalue_l, 1 ) as aginf_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CAClearingInformationText` | `cast( ddtext as aginf_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

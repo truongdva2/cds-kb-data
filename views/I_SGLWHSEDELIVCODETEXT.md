@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `lnspl_likp preserving type )` | `cast( left(dd07t.domvalue_l, 1 )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `SingleWarehouseDeliveryCode` | `cast( left(dd07t.domvalue_l, 1 ) as lnspl_likp preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
 | `SglWarehouseDeliveryCodeName` | `dd07t.ddtext` |
 | `_Language` | *Association* |
@@ -43,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SglWhseDelivCode` | `I_SglWhseDelivCode` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

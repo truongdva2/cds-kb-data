@@ -29,9 +29,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `bpl_xpocl_kk preserving type )` | `cast( left( dd07t.domvalue_l, 1 )` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `bpl_xpocl_text_kk preserving type )` | `cast( ddtext` |
+| `CABusPartnerPostgLockExstcCode` | `cast( left( dd07t.domvalue_l, 1 ) as bpl_xpocl_kk preserving type )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `CABusPrtnPostgLockExstcCodText` | `cast( ddtext as bpl_xpocl_text_kk preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

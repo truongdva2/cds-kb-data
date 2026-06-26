@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key MemoRecord` | `MemoRecord` |
+| `MemoRecord` | `MemoRecord` |
 | `MemoRecordDescription` | `MemoRecordDescription` |
 | `CompanyCode` | `CompanyCode` |
 | `MemoRecordCategory` | `MemoRecordCategory` |
@@ -48,9 +48,9 @@ tags:
 | `CashFlowReconciliationBundle` | `CashFlowReconciliationBundle` |
 | `CashPlanningGroup` | `CashPlanningGroup` |
 | `LiquidityItem` | `LiquidityItem` |
-| `kukey_eb preserving type )` | `cast( BankStatementShortID` |
-| `aznum_lg_eb preserving type )` | `cast( BankStatement` |
-| `esnum_eb preserving type )` | `cast( BankStatementItem` |
+| `BankStatementShortID` | `cast( BankStatementShortID as kukey_eb preserving type )` |
+| `BankStatement` | `cast( BankStatement as aznum_lg_eb preserving type )` |
+| `BankStatementItem` | `cast( BankStatementItem as esnum_eb preserving type )` |
 | `ProfitCenter` | `ProfitCenter` |
 | `Fund` | `Fund` |
 | `GrantID` | `GrantID` |

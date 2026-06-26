@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `wfbsk )` | `cast (dd07l.domvalue_l` |
+| `PersSettlmtAcctgTransfSts` | `cast (dd07l.domvalue_l as wfbsk )` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_PersSettlmtAcctgTransfStsT` | [0..*] |
 
 ## Source Code
 

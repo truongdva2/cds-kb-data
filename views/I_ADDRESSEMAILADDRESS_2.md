@@ -37,16 +37,10 @@ tags:
 | `AddressPersonID` | `persnumber` |
 | `CommMediumSequenceNumber` | `consnumber` |
 | `EmailAddress` | `smtp_addr` |
-| `ad_emailcurdflt preserving type)` | `cast (flgdefault` |
-| `ad_commlinenotforunslctdcntct preserving type)` | `cast (flg_nouse` |
-| `case valid_from` | `case valid_from` |
-| `when '' then '00010101'` | `when '' then '00010101'` |
-| `abap.dats)` | `else cast( substring( valid_from,1,8)` |
-| `ValidityStartDate` | `end` |
-| `case valid_to` | `case valid_to` |
-| `when '' then '99991231'` | `when '' then '99991231'` |
-| `abap.dats)` | `else cast( substring( valid_to,1,8)` |
-| `ValidityEndDate` | `end` |
+| `EmailAddressIsCurrentDefault` | `cast (flgdefault as ad_emailcurdflt preserving type)` |
+| `CommLineNotForUnsolicitedCntct` | `cast (flg_nouse as ad_commlinenotforunslctdcntct preserving type)` |
+| `ValidityStartDate` | `case…end` |
+| `ValidityEndDate` | `case…end` |
 | `_AddressCommunicationRemark` | *Association* |
 | `_AddressCommunicationUsage` | *Association* |
 | `_OrgNamePostalAddress` | *Association* |

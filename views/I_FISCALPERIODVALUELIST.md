@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fins_fiscalperiod preserving type )` | `cast( '000'` |
+| `FiscalPeriod` | `I_FiscalYearPeriod.FiscalPeriod` |
 
 ## Associations
 

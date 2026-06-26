@@ -30,7 +30,7 @@ tags:
 | Field | Data Source |
 |---|---|
 | `CompanyCode` | `bukrs` |
-| `jv_name preserving type )` | `cast( vname` |
+| `JointVenture` | `cast( vname as jv_name preserving type )` |
 | `JointVentureEquityGroup` | `egrup` |
 | `JntVntrIntcoCode` | `intcocd` |
 | `JointVentureIntcoVenture` | `intcomvent` |

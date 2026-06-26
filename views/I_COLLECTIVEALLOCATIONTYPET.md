@@ -30,9 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `collectiveallocationtype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `CollectiveAllocationType` | `cast(…)` |
 | `Language` | `ddlanguage` |
-| `collectiveallocationtypedesc preserving type )` | `cast( ddtext` |
+| `CollectiveAllocationTypeDesc` | `cast( ddtext as collectiveallocationtypedesc preserving type )` |
 | `_CollectiveAllocationType` | *Association* |
 | `_Language` | *Association* |
 

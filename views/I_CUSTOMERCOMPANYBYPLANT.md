@@ -34,15 +34,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_Customer_VH'` | `name:    'I_Customer_VH'` |
-| `element: 'Customer' }` | `element: 'Customer' }` |
-| `}]` | `}]` |
-| `key I_CustomerCompany.Customer` | `I_CustomerCompany.Customer` |
-| `val.ValuationArea` | `val.ValuationArea` |
-| `val.CompanyCode` | `val.CompanyCode` |
-| `I_CustomerCompany.AuthorizationGroup` | `I_CustomerCompany.AuthorizationGroup` |
-| `I_CustomerCompany.IsBusinessPurposeCompleted` | `I_CustomerCompany.IsBusinessPurposeCompleted` |
-| `I_CustomerCompany._Customer` | `I_CustomerCompany._Customer` |
+| `Plant` | `plant.Plant` |
+| `Customer` | `I_CustomerCompany.Customer` |
+| `ValuationArea` | `val.ValuationArea` |
+| `CompanyCode` | `val.CompanyCode` |
+| `AuthorizationGroup` | `I_CustomerCompany.AuthorizationGroup` |
+| `IsBusinessPurposeCompleted` | `expr(…)` |
+| `_Customer` | *Association* |
 
 ## Associations
 

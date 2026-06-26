@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ded.CN_TaxInvcDeductionType` | `ded.CN_TaxInvcDeductionType` |
+| `CN_TaxInvcDeductionType` | `ded.CN_TaxInvcDeductionType` |
 | `StatusIsActive` | `ded.IsEnabled` |
 | `_Text` | *Association* |
 

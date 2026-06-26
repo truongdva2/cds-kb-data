@@ -32,11 +32,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurchaseOrder` | `PurchaseOrder` |
-| `key PurchaseOrderItem` | `PurchaseOrderItem` |
-| `key ScheduleLine` | `ScheduleLine` |
-| `key ReservationItem` | `ReservationItem` |
-| `key RecordType` | `RecordType` |
+| `PurchaseOrder` | `PurchaseOrder` |
+| `PurchaseOrderItem` | `PurchaseOrderItem` |
+| `ScheduleLine` | `ScheduleLine` |
+| `ReservationItem` | `ReservationItem` |
+| `RecordType` | `RecordType` |
 | `Material` | `Material` |
 | `IsMaterialProvision` | `IsMaterialProvision` |
 | `MaterialProvisionType` | `MaterialProvisionType` |
@@ -91,11 +91,6 @@ tags:
 | `BOMItemDescription` | `BOMItemDescription` |
 | `BOMItemText2` | `BOMItemText2` |
 | `ChangeNumber` | `ChangeNumber` |
-| `/* Composition */` | `/* Composition */` |
-| `_ScheduleLine      : redirected to parent I_PurchaseOrdScheduleLineTP_2` | *Association* |
-| `_PurchaseOrder     : redirected to I_PurchaseOrderTP_2` | *Association* |
-| `_PurchaseOrderItem : redirected to I_PurchaseOrderItemTP_2` | *Association* |
-| `/* Associations */` | `/* Associations */` |
 | `_BaseUnit` | *Association* |
 | `_EntryUnit` | *Association* |
 | `_Material` | *Association* |

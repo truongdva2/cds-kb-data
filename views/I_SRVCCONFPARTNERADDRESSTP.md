@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CityName` | `CityName` |
 | `CorrespondenceLanguage` | `CorrespondenceLanguage` |
 | `Country` | `Country` |
@@ -65,9 +65,6 @@ tags:
 | `StreetSuffixName2` | `StreetSuffixName2` |
 | `TaxJurisdiction` | `TaxJurisdiction` |
 | `TransportZone` | `TransportZone` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationTP : redirected to I_ServiceConfirmationTP` | *Association* |
-| `_SrvcConfPartnerTP     : redirected to parent I_SrvcConfPartnerTP` | *Association* |
 
 ## Associations
 

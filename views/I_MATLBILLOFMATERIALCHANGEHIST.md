@@ -33,12 +33,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeDocObject` | `ChangeDocObject` |
-| `key ChangeDocument` | `ChangeDocument` |
-| `key ChangeDocumentDatabaseTable` | `ChangeDocumentDatabaseTable` |
-| `key ChangeDocumentTableKey` | `ChangeDocumentTableKey` |
-| `key ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
-| `key ChangeDocItemChangeType` | `ChangeDocItemChangeType` |
+| `ChangeDocObject` | `ChangeDocObject` |
+| `ChangeDocument` | `ChangeDocument` |
+| `ChangeDocumentDatabaseTable` | `ChangeDocumentDatabaseTable` |
+| `ChangeDocumentTableKey` | `ChangeDocumentTableKey` |
+| `ChangeDocDatabaseTableField` | `ChangeDocDatabaseTableField` |
+| `ChangeDocItemChangeType` | `ChangeDocItemChangeType` |
 | `BillOfMaterialCategory` | `BillOfMaterialCategory` |
 | `BillOfMaterial` | `BillOfMaterial` |
 | `BillOfMaterialVariant` | `BillOfMaterialVariant` |

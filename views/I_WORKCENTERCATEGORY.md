@@ -31,7 +31,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #HIGH, fuzzinessThreshold: 0.8}` |
 | `WorkCenterCategoryCode` | `cat.verwe` |
 | `StatusProfile` | `cat.stsma` |
 | `_Text` | *Association* |

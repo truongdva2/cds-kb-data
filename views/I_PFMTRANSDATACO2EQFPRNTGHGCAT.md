@@ -30,12 +30,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PFMTransDataFprntQtyCompUUID` | `PFMTransDataFprntQtyCompUUID` |
+| `PFMTransDataFprntQtyCompUUID` | `PFMTransDataFprntQtyCompUUID` |
 | `PFMTransDataFootprintQtyUUID` | `PFMTransDataFootprintQtyUUID` |
 | `PFMTransDataFootprintUUID` | `PFMTransDataFootprintUUID` |
-| `sufnd_vdm_ghgcategory)` | `cast (PFMFootprintQtyComponentType` |
+| `GHGCategory` | `cast (PFMFootprintQtyComponentType as sufnd_vdm_ghgcategory)` |
 | `PFMFootprintQuantity` | `PFMFootprintQuantity` |
-| `pfmfootprintquantity_quan)` | `cast (PFMFootprintQuantity` |
+| `PFMFootprintFxdPtDcmlQuantity` | `cast (PFMFootprintQuantity as pfmfootprintquantity_quan)` |
 | `PFMFootprintUnit` | `PFMFootprintUnit` |
 | `_UnitOfMeasure` | *Association* |
 | `_GHGCategory` | *Association* |

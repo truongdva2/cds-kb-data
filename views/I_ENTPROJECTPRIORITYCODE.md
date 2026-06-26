@@ -32,12 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `abap.char(3)),3,'0')as abap.numc(3))` | `cast(lpad(cast(priority` |
+| `PriorityCode` | `cast(lpad(cast(priority as abap.char(3)),3,'0')as abap.numc(3))` |
 | `_PriorityCodeText` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_PriorityCodeText` | `I_EntProjectPriorityCodeText` | [0..*] |
 
 ## Source Code
 

@@ -29,14 +29,17 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `currencyCode: 'TransactionCurrency' } }` | `currencyCode: 'TransactionCurrency' } }` |
+| `BusinessPartner` | `BusinessPartner` |
+| `CreditSegment` | `CreditSegment` |
+| `CrdtAcctInformationCategory` | `CrdtAcctInformationCategory` |
+| `CrdtAcctInformationType` | `CrdtAcctInformationType` |
+| `AdditionalCreditDocSequence` | `cast ( SequenceNumber as bp_counter preserving type )` |
+| `ExceptionIsCreditCheckRelevant` | `ExceptionIsCreditCheckRelevant` |
 | `AddlCreditDocAmtInTransacCrcy` | `AddlCreditDocAmtInTransacCrcy` |
 | `TransactionCurrency` | `TransactionCurrency` |
 | `ValidityStartDate` | `ValidityStartDate` |
 | `ValidityEndDate` | `ValidityEndDate` |
 | `AdditionalCreditDocComment` | `AdditionalCreditDocComment` |
-| `_CreditMgmtAccountTP    : redirected to parent I_CreditMgmtAccountTP` | *Association* |
-| `_CrdtMBusinessPartnerTP : redirected to I_CrdtMBusinessPartnerTP` | *Association* |
 | `_BusinessPartner` | *Association* |
 
 ## Associations

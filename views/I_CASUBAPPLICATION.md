@@ -29,14 +29,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CASubApplication` | `CASubApplication` |
+| `CASubApplication` | `CASubApplication` |
 | `_CASubApplicationText` | *Association* |
 
 ## Associations
 
-| Alias | Target View | Cardinality |
-|---|---|---|
-| `_CASubApplicationText` | `I_CASubApplicationText` | [1..*] |
+> No associations found.
 
 ## Source Code
 

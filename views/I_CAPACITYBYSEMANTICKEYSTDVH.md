@@ -32,8 +32,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Plant` | `Plant` |
-| `key Capacity` | `Capacity` |
+| `Plant` | `Plant` |
+| `Capacity` | `Capacity` |
 | `_Text` | *Association* |
 | `CapacityInternalID` | `CapacityInternalID` |
 | `_Plant` | *Association* |

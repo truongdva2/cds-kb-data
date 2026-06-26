@@ -32,113 +32,74 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key EWMInboundDelivery, // A2X- Service only readable keys` | `EWMInboundDelivery, // A2X- Service only readable keys` |
-| `key EWMInboundDeliveryItem` | `EWMInboundDeliveryItem` |
+| `EWMInboundDelivery` | `EWMInboundDelivery` |
+| `EWMInboundDeliveryItem` | `EWMInboundDeliveryItem` |
 | `EWMWarehouse` | `EWMWarehouse` |
-| `_Header.WarehouseTimeZone                                                                                         as WarehouseTimeZone` | *Association* |
+| `WarehouseTimeZone` | `_Header.WarehouseTimeZone` |
 | `EWMDeliveryDocumentCategory` | `DeliveryDocumentCategory` |
 | `EWMInboundDeliveryItemCategory` | `DeliveryItemCategory` |
 | `EWMInboundDeliveryItemType` | `InboundDeliveryItemType` |
-| `/* Product */` | `/* Product */` |
-| `char40 preserving type)` | `cast(Product` |
+| `Product` | `cast(Product as char40 preserving type)` |
 | `ProductUUID` | `ProductUUID` |
-| `char40 preserving type)` | `cast(ProductExternalID` |
-| `charg_d)` | `cast(Batch` |
-| `_ExtProdBatch.EWMBatchBySupplierPlanned                                                                           as EWMBatchBySupplierPlanned` | *Association* |
-| `_ExtProdBatch.EWMProductBySupplier                                                                                as EWMProductBySupplier` | *Association* |
+| `ProductExternalID` | `cast(ProductExternalID as char40 preserving type)` |
+| `Batch` | `cast(Batch as charg_d)` |
+| `EWMBatchBySupplierPlanned` | `_ExtProdBatch.EWMBatchBySupplierPlanned` |
+| `EWMProductBySupplier` | `_ExtProdBatch.EWMProductBySupplier` |
 | `CountryOfOrigin` | `CountryOfOrigin` |
 | `ProductQuantity` | `ProductQuantity` |
-| `ewm_de_whsereqitmproductuiquan)` | `cast(ProductQuantity` |
-| `/scwm/de_base_uom preserving type)` | `cast(QuantityUnit` |
+| `EWMWhseReqItmProductUIQuantity` | `cast(ProductQuantity as ewm_de_whsereqitmproductuiquan)` |
+| `QuantityUnit` | `cast(QuantityUnit as /scwm/de_base_uom preserving type)` |
 | `SerialNumberRequiredLevel` | `SerialNumberRequiredLevel` |
 | `EWMWhseReqItmBBDSLEDUTCDteTme` | `EWMWhseReqItmBBDSLEDUTCDteTme` |
 | `EWMWhseReqItmProdnDteTme` | `EWMWhseReqItmProdnDteTme` |
-| `_UnitOfMeasure.UnitOfMeasureSAPCode                                                                               as EWMInbDelivItmQuantitySAPCode` | *Association* |
-| `_UnitOfMeasure.UnitOfMeasureISOCode                                                                               as EWMInbDelivItmQuantityISOCode` | *Association* |
-| `/*Batch Split Main Item: In case of hierarchies this is filled with the parent item or` | `/*Batch Split Main Item: In case of hierarchies this is filled with the parent item or` |
-| `in case of highest item in the hierarchy, the itemno itself will be used, if no hierarchy, field is empty*/` | `in case of highest item in the hierarchy, the itemno itself will be used, if no hierarchy, field is empty*/` |
-| `cast(case when _BatchSplitDetail.InboundDeliveryUUID is not null and _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem is null` | `cast(case when _BatchSplitDetail.InboundDeliveryUUID is not null and _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem is null` |
-| `then EWMInboundDeliveryItem` | `then EWMInboundDeliveryItem` |
-| `ewm_de_whsereqitmbatspltparitm preserving type)` | `else _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem end` |
-| `/*Batch Split Main Item for UI sorting: Will always be filled whether hierarchy is present or not` | `/*Batch Split Main Item for UI sorting: Will always be filled whether hierarchy is present or not` |
-| `either with the item itself, or with the real parent item*/` | `either with the item itself, or with the real parent item*/` |
-| `cast(case when _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem is not null` | `cast(case when _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem is not null` |
-| `then _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem` | `then _BatchSplitDetail.EWMWhseReqItmBatSpltParentItem` |
-| `ewm_de_whsereqitmhierparitm preserving type)` | `else EWMInboundDeliveryItem end` |
-| `/* Staging Information */` | `/* Staging Information */` |
+| `EWMInbDelivItmQuantitySAPCode` | `_UnitOfMeasure.UnitOfMeasureSAPCode` |
+| `EWMInbDelivItmQuantityISOCode` | `_UnitOfMeasure.UnitOfMeasureISOCode` |
+| `EWMWhseReqItmBatSpltParentItem` | `cast(…)` |
+| `EWMWhseReqItmHierParentItem` | `cast(…)` |
 | `StagingAreaGroup` | `StagingAreaGroup` |
 | `StagingArea` | `StagingArea` |
 | `StagingBay` | `StagingBay` |
-| `/* Status */` | `/* Status */` |
 | `GoodsReceiptStatus` | `GoodsReceiptStatus` |
-| `_ItemStatus[1: DeliveryStatusType = 'DDD'].Status                                                                 as EWMGoodsReceiptAndDistrStatus` | *Association* |
-| `_ItemStatus[1: DeliveryStatusType = 'DEU'].Status                                                                 as PlanningPutawayStatus` | *Association* |
-| `_ItemStatus[1: DeliveryStatusType = 'DAD'].Status                                                                 as EWMPlndPutawayAndDistrStatus` | *Association* |
-| `_ItemStatus[1: DeliveryStatusType = 'DPT'].Status                                                                 as PutawayStatus` | *Association* |
-| `_ItemStatus[1: DeliveryStatusType = 'DYD'].Status                                                                 as EWMPutawayAndDistrStatus` | *Association* |
-| `_ItemStatus[1: DeliveryStatusType = 'DBO'].Status                                                                 as OverallBlockStatus` | *Association* |
+| `EWMGoodsReceiptAndDistrStatus` | `_ItemStatus[1: DeliveryStatusType = 'DDD'].Status` |
+| `PlanningPutawayStatus` | `_ItemStatus[1: DeliveryStatusType = 'DEU'].Status` |
+| `EWMPlndPutawayAndDistrStatus` | `_ItemStatus[1: DeliveryStatusType = 'DAD'].Status` |
+| `PutawayStatus` | `_ItemStatus[1: DeliveryStatusType = 'DPT'].Status` |
+| `EWMPutawayAndDistrStatus` | `_ItemStatus[1: DeliveryStatusType = 'DYD'].Status` |
+| `OverallBlockStatus` | `_ItemStatus[1: DeliveryStatusType = 'DBO'].Status` |
 | `CompletionStatus` | `CompletionStatus` |
 | `FldLogsStatus` | `FldLogsStatus` |
 | `WarehouseProcessType` | `WarehouseProcessType` |
 | `GoodsMovementBin` | `GoodsMovementBin` |
 | `EWMProductionSupplyArea` | `EWMProductionSupplyArea` |
-| `case` | `case` |
-| `tzntstmps preserving type)` | `when EWMDelivLastChangeUTCDateTime is initial then cast(InbDelivItemCrtnUTCDateTime` |
-| `tzntstmps preserving type) end` | `else cast(EWMDelivLastChangeUTCDateTime` |
-| `/* Stock Information */` | `/* Stock Information */` |
+| `EWMDelivLastChangeUTCDateTime` | `case…end` |
 | `EntitledToDisposeParty` | `EntitledToDisposeParty` |
-| `case` | `case` |
-| `when (_EWMEntitledToDisposeDetails.IsBusinessPurposeCompleted <> 'X' or _EWMEntitledToDisposeDetails.IsBusinessPurposeCompleted is null)` | `when (_EWMEntitledToDisposeDetails.IsBusinessPurposeCompleted <> 'X' or _EWMEntitledToDisposeDetails.IsBusinessPurposeCompleted is null)` |
-| `then _EWMEntitledToDisposeDetails.BusinessPartnerName` | `then _EWMEntitledToDisposeDetails.BusinessPartnerName` |
-| `bu_nameor1) end` | `else cast(''` |
+| `EntitledToDisposePartyName` | `case…end` |
 | `EWMStockUsage` | `StockUsage` |
 | `EWMStockType` | `StockType` |
-| `char10 preserving type)` | `cast(StockOwner` |
+| `EWMStockOwner` | `cast(StockOwner as char10 preserving type)` |
 | `DeliveryItemStockTypeDetnCode` | `DeliveryItemStockTypeDetnCode` |
-| `case when (_EWMStockOwnerDetails.IsBusinessPurposeCompleted <> 'X' or _EWMStockOwnerDetails.IsBusinessPurposeCompleted is null)` | `case when (_EWMStockOwnerDetails.IsBusinessPurposeCompleted <> 'X' or _EWMStockOwnerDetails.IsBusinessPurposeCompleted is null)` |
-| `then _EWMStockOwnerDetails.BusinessPartnerName` | `then _EWMStockOwnerDetails.BusinessPartnerName` |
-| `bu_nameor1) end` | `else cast(''` |
+| `EWMStockOwnerName` | `case…end` |
 | `EWMGoodsRecipient` | `EWMGoodsRecipient` |
 | `EWMRecipientLocationName` | `EWMRecipientLocationName` |
-| `/scwm/de_qentity_extid preserving type)` | `cast(_QualityInspectionLot.QualityInspectionDocument` |
-| `/* Special Stock - Project Stock */` | `/* Special Stock - Project Stock */` |
-| `/*Merge Project and Sales Order Stock Reference for UI consumption*/` | `/*Merge Project and Sales Order Stock Reference for UI consumption*/` |
-| `cast(case StockDocumentCategory` | `cast(case StockDocumentCategory` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then _ProjectStockEmbedded.WBSElementExternalID` | `then _ProjectStockEmbedded.WBSElementExternalID` |
-| `ewm_de_stockdocumentnumber)` | `else StockDocumentNumber end` |
-| `ewm_de_stockdocumentcat preserving type)` | `cast(StockDocumentCategory` |
+| `QualityInspectionDocument` | `cast(…)` |
+| `ExternalStockDocumentNumber` | `cast(…)` |
+| `StockDocumentCategory` | `cast(StockDocumentCategory as ewm_de_stockdocumentcat preserving type)` |
 | `StockDocumentNumber` | `StockDocumentNumber` |
 | `StockItemNumber` | `StockItemNumber` |
-| `/* Move from Basic I-View, please check */` | `/* Move from Basic I-View, please check */` |
-| `/* Project Stock - WBS Internal */` | `/* Project Stock - WBS Internal */` |
-| `case StockDocumentCategory` | `case StockDocumentCategory` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then  _ProjectStockEmbedded.WBSElementInternalID // Embedded EWM` | `then  _ProjectStockEmbedded.WBSElementInternalID // Embedded EWM` |
-| `ps_s4_pspnr preserving type) end` | `else cast('00000000'` |
-| `/* Project Stock- WBS External */` | `/* Project Stock- WBS External */` |
-| `case StockDocumentCategory` | `case StockDocumentCategory` |
-| `when 'PJS'` | `when 'PJS'` |
-| `then  _ProjectStockEmbedded.WBSElementExternalID  // Embedded EWM` | `then  _ProjectStockEmbedded.WBSElementExternalID  // Embedded EWM` |
-| `ps_posid_edit preserving type) end` | `else cast('                        '` |
-| `ewm_de_special_stock_idfg_hdr)` | `cast(SpecialStockIdfgSalesOrder` |
-| `ewm_de_special_stock_idfg_item)` | `cast(SpecialStockIdfgSalesOrderItem` |
-| `/* Reference Documents */` | `/* Reference Documents */` |
-| `fis_ebeln)` | `cast(PurchasingDocument` |
-| `ewm_de_purchase_order_item)` | `cast(PurchasingDocumentItem` |
+| `WBSElementInternalID` | `case…end` |
+| `WBSElementExternalID` | `case…end` |
+| `SpecialStockIdfgSalesOrder` | `cast(SpecialStockIdfgSalesOrder as ewm_de_special_stock_idfg_hdr)` |
+| `SpecialStockIdfgSalesOrderItem` | `cast(SpecialStockIdfgSalesOrderItem as ewm_de_special_stock_idfg_item)` |
+| `PurchasingDocument` | `cast(PurchasingDocument as fis_ebeln)` |
+| `PurchasingDocumentItem` | `cast(PurchasingDocumentItem as ewm_de_purchase_order_item)` |
 | `PurchaseOrder` | `PurchaseOrder` |
 | `PurchaseOrderItem` | `PurchaseOrderItem` |
-| `manufacturingorder)` | `cast(_ManufacturingOrder.EWMRefDeliveryDocumentNumber` |
-| `/* Reference Documents */` | `/* Reference Documents */` |
-| `ewm_de_maintenance_order)` | `cast(_ReferenceDocuments[1: EWMReferenceDocumentCategory = 'PMO'].EWMRefDeliveryDocumentNumber` |
-| `as MaintenanceOrder` | `as MaintenanceOrder` |
-| `ewm_de_maintenance_order_op)` | `cast(_ReferenceDocuments[1: EWMReferenceDocumentCategory = 'POO'].EWMRefDeliveryDocumentItem` |
-| `as MaintenanceOrderOperation` | `as MaintenanceOrderOperation` |
-| `rsnum)` | `cast(_ReferenceDocuments[1: EWMReferenceDocumentCategory = 'RES'].EWMRefDeliveryDocumentNumber` |
-| `/scwm/sp_docno_erp)` | `cast(_ReferenceDocuments[1: EWMReferenceDocumentCategory = 'ERP'].EWMRefDeliveryDocumentNumber` |
-| `as InboundDelivery` | `as InboundDelivery` |
-| `abap.numc(10)), 5, 6)` | `cast(substring(cast(_ReferenceDocuments[1: EWMReferenceDocumentCategory = 'ERP'].EWMRefDeliveryDocumentItem` |
-| `as InboundDeliveryItem` | `as InboundDeliveryItem` |
+| `ManufacturingOrder` | `cast(_ManufacturingOrder.EWMRefDeliveryDocumentNumber as manufacturingorder)` |
+| `MaintenanceOrder` | `cast(…)` |
+| `MaintenanceOrderOperation` | `cast(…)` |
+| `Reservation` | `cast(…)` |
+| `InboundDelivery` | `cast(…)` |
+| `InboundDeliveryItem` | `cast(…)` |
 | `InboundDeliveryUUID` | `InboundDeliveryUUID` |
 | `InboundDeliveryItemUUID` | `InboundDeliveryItemUUID` |
 | `_WarehouseText` | *Association* |

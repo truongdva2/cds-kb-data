@@ -41,7 +41,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ISOCode` | `I_UnitOfMeasureISOCode` | [1..1] |
+| `_Language` | `I_Language` | [0..1] |
 
 ## Source Code
 

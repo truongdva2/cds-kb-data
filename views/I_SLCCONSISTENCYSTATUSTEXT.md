@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/consistency_stcd )` | `cast( domvalue_l` |
+| `SLCConsistencyStatus` | `cast( domvalue_l as /srmsmc/consistency_stcd )` |
 | `Language` | `ddlanguage` |
-| `/srmsmc/status_descr preserving type)` | `cast(ddtext` |
+| `SLCConsistencyStatusName` | `cast(ddtext as /srmsmc/status_descr preserving type)` |
 | `_SLCConsistencyStatus` | *Association* |
 | `_Language` | *Association* |
 

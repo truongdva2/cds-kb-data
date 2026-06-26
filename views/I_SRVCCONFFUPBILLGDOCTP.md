@@ -29,10 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceConfirmation` | `ServiceConfirmation` |
-| `key BillingDocument` | `BillingDocument` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceConfirmationTP : redirected to parent I_ServiceConfirmationTP` | *Association* |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `BillingDocument` | `BillingDocument` |
 
 ## Associations
 

@@ -31,13 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key LglCntntMCntxtRelshpUUID` | `LglCntntMCntxtRelshpUUID` |
+| `LglCntntMCntxtRelshpUUID` | `LglCntntMCntxtRelshpUUID` |
 | `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMRelshpType` | `LglCntntMRelshpType` |
 | `LglCntntMCntxtRelshpLglTrans` | `LglCntntMCntxtRelshpLglTrans` |
 | `LglCntntMIsMandatory` | `LglCntntMIsMandatory` |
 | `LglCntntMIsIntegRelevant` | `LglCntntMIsIntegRelevant` |
-| `_LCMContextTP : redirected to parent I_LegalContextTP` | *Association* |
 
 ## Associations
 

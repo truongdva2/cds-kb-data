@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `farp_credit_segment preserving type )` | `cast( credit_sgmnt` |
-| `farp_sgm_currency preserving type )` | `cast( currency` |
+| `CreditSegment` | `cast( credit_sgmnt as farp_credit_segment preserving type )` |
+| `CreditSegmentCurrency` | `cast( currency as farp_sgm_currency preserving type )` |
 | `ExchangeRateType` | `kurst` |
 | `CrdtSgmtIsMainCreditSegment` | `main_cred_sgmnt` |
 | `CrdtSgmtIsAddedToMainSgmt` | `main_credsgm_add` |

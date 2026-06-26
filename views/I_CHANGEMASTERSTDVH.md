@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumber` | `ChangeNumber` |
+| `ChangeNumber` | `ChangeNumber` |
 | `ChangeNumberDescription` | `ChangeNumberDescription` |
 | `AuthorizationGroup` | `AuthorizationGroup` |
 | `ChangeNumberFunction` | `ChangeNumberFunction` |

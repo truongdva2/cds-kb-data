@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` | `status: #DEPRECATED, successor: 'CnsldtnIsAdditionalMasterData' }` |
-| `fincs_masterdatasource preserving type )` | `cast( max ( AdditionalMasterDataSource )` |
-| `fincs_isadditionalmasterdata preserving type )` | `cast( max ( CnsldtnIsAdditionalMasterData )` |
-| `/* associations */` | `/* associations */` |
+| `OrderID` | `cast( OrderID as fincs_order preserving type )` |
+| `AdditionalMasterDataSource` | `cast(…)` |
+| `CnsldtnIsAdditionalMasterData` | `cast(…)` |
 | `_Text` | *Association* |
 | `_MDSource` | *Association* |
 

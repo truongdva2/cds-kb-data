@@ -33,10 +33,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `invstatus_kk )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `CABillgDocumentInvcgStatus` | `cast( dd07t.domvalue_l as invstatus_kk )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `invstatus_txt_gfn_kk preserving type )` | `cast( dd07t.ddtext` |
+| `CABillgDocumentInvcgStatusText` | `cast( dd07t.ddtext as invstatus_txt_gfn_kk preserving type )` |
 | `_CABillgDocInvcgStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +44,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CABillgDocInvcgStatus` | `I_CABillgDocInvcgStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

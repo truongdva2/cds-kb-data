@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/srmsmc/qnr_lifecycle_stat_cd preserving type)` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `SLCQnaireLifecycleStatus` | `cast(…)` |
 | `Language` | `ddlanguage` |
 | `SLCQnaireLifecycleStatusName` | `ddtext` |
-| `/* Associations */` | `/* Associations */` |
 | `_SLCQnaireLifecycleSts` | *Association* |
 | `_Language` | *Association* |
 

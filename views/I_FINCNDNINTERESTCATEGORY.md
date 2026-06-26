@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ftr_intcat )` | `cast( dd07l.domvalue_l` |
+| `FinConditionInterestCategory` | `cast( dd07l.domvalue_l as ftr_intcat )` |
 | `DomainValue` | `dd07l.domvalue_l` |
 | `_Text` | *Association* |
 

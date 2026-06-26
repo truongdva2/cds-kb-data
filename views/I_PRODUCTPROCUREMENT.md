@@ -37,15 +37,15 @@ tags:
 | `_PurchaseOrderQuantityUnit` | *Association* |
 | `VarblPurOrdUnitStatus` | `mara.vabme` |
 | `PurchasingAcknProfile` | `mara.ekwsl` |
-| `ProcurementRule, //pstat changes` | `mara.bwvor` |
-| `SourceOfSupplyCategory, // Ref Handling fields  for MARC` | `mara.bwscl` |
+| `ProcurementRule` | `mara.bwvor` |
+| `SourceOfSupplyCategory` | `mara.bwscl` |
 | `_SourceOfSupplyCategory` | *Association* |
 | `_SourceOfSupplyCategoryText` | *Association* |
-| `_ProductRetail.PurchasingGroup                  as PurchasingGroup, // ref. handling for MARC` | *Association* |
-| `_ProductRetail._PurchasingGroup` | *Association* |
-| `sdraft_is_active preserving type )` | `cast( 'X'` |
+| `PurchasingGroup` | `_ProductRetail.PurchasingGroup` |
+| `_PurchasingGroup` | *Association* |
+| `IsActiveEntity` | `cast( 'X' as sdraft_is_active preserving type )` |
 | `AuthorizationGroup` | `mara.begru` |
-| `_ProductRetail, //PSTAT Changes` | *Association* |
+| `_ProductRetail` | *Association* |
 | `_VarblPurOrdUnitActvStatus` | *Association* |
 | `_VarblPurOrdUnitActvStatusText` | *Association* |
 | `_Product` | *Association* |
@@ -62,7 +62,6 @@ tags:
 | `_PurchaseOrderUnitText` | `I_UnitOfMeasureText` | [0..*] |
 | `_SourceOfSupplyCategory` | `I_SourceOfSupplyCategory` | [0..1] |
 | `_SourceOfSupplyCategoryText` | `I_SourceOfSupplyCategoryT` | [0..*] |
-| `_PurchasingGroup` | `I_PurchasingGroup` | [0..1] |
 | `_VarblPurOrdUnitActvStatus` | `I_VarblPurOrdUnitActvStatus` | [0..1] |
 | `_VarblPurOrdUnitActvStatusText` | `I_VarblPurOrdUnitActvStatusTxt` | [0..*] |
 | `_ProductDescription` | `I_ProductDescription_2` | [0..*] |

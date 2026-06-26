@@ -30,8 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` | `defaultSearchElement: true, ranking: #LOW, fuzzinessThreshold: 0.8}` |
-| `locationname preserving type)` | `cast(loc.ktext` |
+| `Location` | `loc.stand` |
+| `Plant` | `loc.werks` |
+| `AddressID` | `loc.addrnum` |
+| `LocationName` | `cast(loc.ktext as locationname preserving type)` |
 | `_Plant` | *Association* |
 | `_Address` | *Association* |
 | `_Address_2` | *Association* |

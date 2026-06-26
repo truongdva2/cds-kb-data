@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `drukz )` | `cast ( substring( domvalue_l, 1, 1 )` |
+| `PricingProcedureItemPrintType` | `cast ( substring( domvalue_l, 1, 1 ) as drukz )` |
 | `_Text` | *Association* |
 
 ## Associations

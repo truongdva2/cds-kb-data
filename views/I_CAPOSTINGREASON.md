@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key DocOriginCode.CADocumentOriginCode` | `DocOriginCode.CADocumentOriginCode` |
-| `bugrd_kk preserving type )` | `cast( ReversalReason.CAReversalReason` |
+| `CADocumentOriginCode` | `DocOriginCode.CADocumentOriginCode` |
+| `CAPostingReason` | `cast( WriteOffReason.CAWriteOffReason as bugrd_kk preserving type )` |
 | `_DocOriginCode` | *Association* |
 | `_Text` | *Association* |
 
@@ -38,12 +38,6 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Text` | `I_CAPostingReasonText` | [0..*] |
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Text` | `I_CAPostingReasonText` | [0..*] |
-| `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
-| `_Text` | `I_CAPostingReasonText` | [0..*] |
 | `_DocOriginCode` | `I_CADocumentOriginCode` | [1..1] |
 | `_Text` | `I_CAPostingReasonText` | [0..*] |
 

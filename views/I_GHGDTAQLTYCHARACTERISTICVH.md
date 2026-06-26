@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGDataQualityCharacteristic` | `GHGDataQualityCharacteristic` |
+| `GHGDataQualityCharacteristic` | `GHGDataQualityCharacteristic` |
 | `_Text` | *Association* |
 
 ## Associations

@@ -29,9 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_JntVntrEquityTypeVH'` | `name:    'I_JntVntrEquityTypeVH'` |
-| `element: 'JointVentureEquityType' }` | `element: 'JointVentureEquityType' }` |
-| `}]` | `}]` |
+| `CompanyCode` | `bukrs` |
+| `Language` | `spras` |
 | `JointVentureEquityType` | `etype` |
 | `JointVentureEquityTypeName` | `etext` |
 | `_CompanyCode` | *Association* |

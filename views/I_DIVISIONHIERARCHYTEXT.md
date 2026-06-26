@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fis_hryid_division preserving type )` | `cast(hrrp_dirt_n.hryid` |
-| `fis_datbi preserving type )` | `cast(hrrp_dirt_n.hryvalto` |
+| `DivisionHierarchy` | `cast(hrrp_dirt_n.hryid as fis_hryid_division preserving type )` |
+| `ValidityEndDate` | `cast(hrrp_dirt_n.hryvalto as fis_datbi preserving type )` |
 | `Language` | `spras` |
-| `fis_datab preserving type )` | `cast(hrrp_dirt_n.hryvalfrom` |
+| `ValidityStartDate` | `cast(hrrp_dirt_n.hryvalfrom as fis_datab preserving type )` |
 | `DivisionHierarchyName` | `hrytxt` |
 | `_Language` | *Association* |
 

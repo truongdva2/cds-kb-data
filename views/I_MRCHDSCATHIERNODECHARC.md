@@ -30,10 +30,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `rfm_mrchdcathiernode preserving type )` | `cast(MrchdsCatHierNode.class` |
+| `MrchdsCategoryHierarchyNode` | `cast(MrchdsCatHierNode.class as rfm_mrchdcathiernode preserving type )` |
 | `Characteristic` | `Characteristic.atnam` |
-| `atinn_no_conv preserving type  )` | `cast (Characteristic.atinn` |
-| `/* Associations */` | `/* Associations */` |
+| `CharcInternalID` | `cast (Characteristic.atinn as atinn_no_conv preserving type )` |
 | `_Characteristic` | *Association* |
 | `_CharacteristicDesc` | *Association* |
 | `_MrchdsCategoryHierarchyNode` | *Association* |

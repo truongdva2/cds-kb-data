@@ -32,9 +32,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `fpc_val_strat_sls_order )` | `cast( domvalue_l` |
-| `spras preserving type )` | `cast( ddlanguage` |
-| `fpc_val_strat_sls_ord_name preserving type )` | `cast( ddtext` |
+| `SlsOrdProjValnStrategy` | `cast( domvalue_l as fpc_val_strat_sls_order )` |
+| `Language` | `cast( ddlanguage as spras preserving type )` |
+| `SlsOrdProjValnStrgyName` | `cast( ddtext as fpc_val_strat_sls_ord_name preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

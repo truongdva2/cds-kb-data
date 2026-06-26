@@ -33,59 +33,44 @@ tags:
 |---|---|
 | `SalesBillingProviderContract` | `ProviderContract` |
 | `SlsBillgProviderContractItem` | `ProviderContractItem` |
-| `/* General Data */` | `/* General Data */` |
 | `CAProviderContractItemUUID` | `CAProviderContractItemUUID` |
 | `CAPrvdrContrParentItemUUID` | `CAPrvdrContrParentItemUUID` |
 | `CAProviderContractStatus` | `CAProviderContractStatus` |
 | `CAProviderContractItemText` | `CAProviderContractItemText` |
 | `CASubscriptionChargeType` | `CASubscriptionChargeType` |
-| `/*-- Administrative Data */` | `/*-- Administrative Data */` |
 | `CreationDate` | `CreationDate` |
 | `CreationTime` | `CreationTime` |
 | `CreatedByUser` | `CreatedByUser` |
 | `LastChangeDate` | `LastChangeDate` |
 | `LastChangeTime` | `LastChangeTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
-| `/*-- Timestamps */` | `/*-- Timestamps */` |
-| `/*---- Validity */` | `/*---- Validity */` |
 | `CAPrvdrContrItmValidFromDteTme` | `CAPrvdrContrItmValidFromDteTme` |
 | `CAPrvdrContrItmValidToDateTime` | `CAPrvdrContrItmValidToDateTime` |
-| `/*---- Cancellation */` | `/*---- Cancellation */` |
 | `CAPrvdrContrItemCanclnDateTime` | `CAPrvdrContrItemCanclnDateTime` |
-| `/*---- Withdrawal */` | `/*---- Withdrawal */` |
 | `PrvdrContrItmWthdrwlDateTime` | `PrvdrContrItmWthdrwlDateTime` |
-| `/*---- Duration */` | `/*---- Duration */` |
 | `CAStartOfDurationDateTime` | `CAStartOfDurationDateTime` |
 | `CAEndOfDurationDateTime` | `CAEndOfDurationDateTime` |
-| `/* Product Information */` | `/* Product Information */` |
 | `CAProduct` | `CAProduct` |
 | `ProductConfiguration` | `ProductConfiguration` |
 | `SoldProduct` | `SoldProduct` |
-| `/*  Customer References (PEPPOL) */` | `/*  Customer References (PEPPOL) */` |
 | `PurchaseOrderByCustomer` | `PurchaseOrderByCustomer` |
 | `CustomerPurchaseOrderDate` | `CustomerPurchaseOrderDate` |
-| `/* Solution Order */` | `/* Solution Order */` |
 | `BusinessSolutionOrder` | `BusinessSolutionOrder` |
 | `BusinessSolutionOrderItem` | `BusinessSolutionOrderItem` |
-| `/* Organizational Data */` | `/* Organizational Data */` |
 | `SalesOrganization` | `SalesOrganization` |
 | `DistributionChannel` | `DistributionChannel` |
 | `Division` | `Division` |
 | `CAPrvdrContrSalesAreaAttrib1` | `CAPrvdrContrSalesAreaAttrib1` |
 | `CAPrvdrContrSalesAreaAttrib2` | `CAPrvdrContrSalesAreaAttrib2` |
-| `/* Derived Account Assigments */` | `/* Derived Account Assigments */` |
 | `CompanyCode` | `CompanyCode` |
 | `BusinessArea` | `BusinessArea` |
 | `Segment` | `Segment` |
 | `ProfitCenter` | `ProfitCenter` |
 | `CAStandardDivision` | `CAStandardDivision` |
-| `/* Other Account Assigments */` | `/* Other Account Assigments */` |
 | `WBSElementInternalID` | `WBSElementInternalID` |
 | `InternalOrder` | `InternalOrder` |
-| `/* Revenue Recognition */` | `/* Revenue Recognition */` |
 | `EBRRResultAnalysisInternalID` | `EBRRResultAnalysisInternalID` |
 | `EBRRIsBundleActive` | `EBRRIsBundleActive` |
-| `/* Associations */` | `/* Associations */` |
 | `_BusinessArea` | *Association* |
 | `_CompCode` | *Association* |
 | `_Division` | *Association* |

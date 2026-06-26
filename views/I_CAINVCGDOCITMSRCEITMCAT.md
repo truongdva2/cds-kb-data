@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `srcitemcat_kk preserving type )` | `cast ( substring( dd07l.domvalue_l,1,5 )` |
+| `CAInvcgDocItemSourceItmCat` | `cast ( substring( dd07l.domvalue_l,1,5 ) as srcitemcat_kk preserving type )` |
 | `_CAInvcgDocItmSrceItmCatText` | *Association* |
 
 ## Associations

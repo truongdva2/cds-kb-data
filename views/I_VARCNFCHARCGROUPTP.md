@@ -31,15 +31,12 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
-| `key ChangeNumber` | `ChangeNumber` |
+| `ConfignCharacteristicGroup` | `ConfignCharacteristicGroup` |
+| `ChangeNumber` | `ChangeNumber` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LastChangeDateTime` | `LastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_CharcAllocation : redirected to composition child I_VarCnfCharcGroupAllocTP` | *Association* |
-| `_Text            : redirected to composition child I_VarCnfCharcGroupTextTP` | *Association* |
 
 ## Associations
 

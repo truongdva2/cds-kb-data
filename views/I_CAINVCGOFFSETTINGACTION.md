@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `inv_offset_action_kk preserving type )` | `cast( substring( l.domvalue_l ,1,1 )` |
+| `CAInvcgOffsettingAction` | `cast( substring( l.domvalue_l ,1,1 ) as inv_offset_action_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

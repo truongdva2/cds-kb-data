@@ -31,11 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
-| `key WorkforcePersonSkillTagID` | `WorkforcePersonSkillTagID` |
+| `WorkforcePersonExternalID` | `WorkforcePersonExternalID` |
+| `WorkforcePersonSkillTagID` | `WorkforcePersonSkillTagID` |
 | `WorkforcePersonTagText` | `WorkforcePersonTagText` |
-| `/*  Associations */` | `/*  Associations */` |
-| `_WorkforcePerson : redirected to parent I_WorkforcePersonTP_1` | *Association* |
 
 ## Associations
 

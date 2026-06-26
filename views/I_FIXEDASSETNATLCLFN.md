@@ -32,7 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name: 'I_Country', element: 'Country' }, useAsTemplate: true }]` | `name: 'I_Country', element: 'Country' }, useAsTemplate: true }]` |
 | `Country` | `land` |
 | `NationalClassification` | `glo_natl_clfn_code` |
 | `_Country` | *Association* |

@@ -31,9 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `localElement: 'DocumentInfoRecordDocVersion'` | `localElement: 'DocumentInfoRecordDocVersion'` |
-| `element: 'DocumentInfoRecordDocVersion' }]` | `element: 'DocumentInfoRecordDocVersion' }]` |
-| `}]` | `}]` |
+| `DocumentInfoRecordDocType` | `document.DocumentInfoRecordDocType` |
+| `DocumentInfoRecordDocNumber` | `document.DocumentInfoRecordDocNumber` |
+| `DocumentInfoRecordDocVersion` | `document.DocumentInfoRecordDocVersion` |
 | `DocumentInfoRecordDocPart` | `document.DocumentInfoRecordDocPart` |
 | `ResponsiblePersonName` | `document.ResponsiblePersonName` |
 | `FirstName` | `UserDetail.name_first` |

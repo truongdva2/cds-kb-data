@@ -32,9 +32,6 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `name:    'I_CompanyCodeStdVH'` | `name:    'I_CompanyCodeStdVH'` |
-| `element: 'CompanyCode' }` | `element: 'CompanyCode' }` |
-| `}]` | `}]` |
 | `CompanyCode` | `t012.bukrs` |
 | `HouseBank` | `t012.hbkid` |
 | `BankCountry` | `t012.banks` |
@@ -59,12 +56,12 @@ tags:
 | `ChargeAccount` | `t012d.dtgbk` |
 | `ChargeAccountBank` | `t012d.dtglz` |
 | `OrderingCompanyByBank` | `t012d.dtfin` |
-| `_DefaultableBP.ValidTo               as DefaultPartnerValidToDate` | *Association* |
-| `_DefaultableBP.ValidFrom             as DefaultPartnerValidFromDate` | *Association* |
-| `_DefaultableBP.BusinessPartnerNumber as DefaultPartnerNo` | *Association* |
-| `_RiskBP.ValidTo                      as RiskPartnerValidToDate` | *Association* |
-| `_RiskBP.ValidFrom                    as RiskPartnerValidFromDate` | *Association* |
-| `_RiskBP.BusinessPartnerNumber        as RiskPartnerNo` | *Association* |
+| `DefaultPartnerValidToDate` | `_DefaultableBP.ValidTo` |
+| `DefaultPartnerValidFromDate` | `_DefaultableBP.ValidFrom` |
+| `DefaultPartnerNo` | `_DefaultableBP.BusinessPartnerNumber` |
+| `RiskPartnerValidToDate` | `_RiskBP.ValidTo` |
+| `RiskPartnerValidFromDate` | `_RiskBP.ValidFrom` |
+| `RiskPartnerNo` | `_RiskBP.BusinessPartnerNumber` |
 | `_Bank` | *Association* |
 | `_CompanyCode` | *Association* |
 | `DataExchangeInstructionKey` | `t012d.dtaws` |

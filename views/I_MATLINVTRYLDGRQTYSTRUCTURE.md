@@ -30,13 +30,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostEstimate` | `CostEstimate` |
-| `key CurrencyRole` | `CurrencyRole` |
-| `key Ledger` | `Ledger` |
-| `key MaterialLedgerCategory` | `MaterialLedgerCategory` |
-| `key ProcessCategory` | `ProcessCategory` |
-| `key ValuationArea` | `ValuationArea` |
-| `key PriceDeterminationControl` | `PriceDeterminationControl` |
+| `CostEstimate` | `CostEstimate` |
+| `CurrencyRole` | `CurrencyRole` |
+| `Ledger` | `Ledger` |
+| `MaterialLedgerCategory` | `MaterialLedgerCategory` |
+| `ProcessCategory` | `ProcessCategory` |
+| `ValuationArea` | `ValuationArea` |
+| `PriceDeterminationControl` | `PriceDeterminationControl` |
 | `Material` | `Material` |
 | `InventoryValuationType` | `InventoryValuationType` |
 | `SalesOrder` | `SalesOrder` |

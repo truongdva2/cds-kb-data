@@ -30,12 +30,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ServiceConfirmation` | `ServiceConfirmation` |
-| `key  CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
-| `key  CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
+| `ServiceConfirmation` | `ServiceConfirmation` |
+| `CustMgmtPartnerFunction` | `CustMgmtPartnerFunction` |
+| `CustMgmtBusinessPartner` | `CustMgmtBusinessPartner` |
 | `CustMgmtPartnerIsMainPartner` | `CustMgmtPartnerIsMainPartner` |
-| `_ServiceConfirmationTP    : redirected to parent I_ServiceConfirmationTP` | *Association* |
-| `_SrvcConfPartnerAddressTP : redirected to composition child I_SrvcConfPartnerAddressTP` | *Association* |
 
 ## Associations
 

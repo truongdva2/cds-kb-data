@@ -36,7 +36,7 @@ tags:
 |---|---|
 | `CustomerPurchaseOrderType` | `bsark` |
 | `Language` | `spras` |
-| `bezei20)` | `cast(vtext` |
+| `CustomerPurchaseOrderTypeDesc` | `cast(vtext as bezei20)` |
 | `_CustomerPurchaseOrderType` | *Association* |
 | `_Language` | *Association* |
 

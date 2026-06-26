@@ -31,8 +31,8 @@ tags:
 |---|---|
 | `ServiceContract` | `ServiceDocument` |
 | `ServiceContractItem` | `ServiceDocumentItem` |
-| `key PricingProcedureStep` | `PricingProcedureStep` |
-| `key PricingProcedureCounter` | `PricingProcedureCounter` |
+| `PricingProcedureStep` | `PricingProcedureStep` |
+| `PricingProcedureCounter` | `PricingProcedureCounter` |
 | `ConditionApplication` | `ConditionApplication` |
 | `ConditionType` | `ConditionType` |
 | `PriceConditionDeterminationDte` | `PriceConditionDeterminationDte` |
@@ -98,7 +98,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_ServiceContract` | `I_ServiceContract` | [1..1] |
+| `_ServiceContractItem` | `I_ServiceContractItem` | [1..1] |
 
 ## Source Code
 

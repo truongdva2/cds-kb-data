@@ -31,10 +31,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prlinv_status_kk )` | `cast( dd07t.domvalue_l` |
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
+| `CAPreliminaryInvcgDocStatus` | `cast( dd07t.domvalue_l as prlinv_status_kk )` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `prlinv_status_txt_gfn_kk preserving type )` | `cast( dd07t.ddtext` |
+| `CAPreliminaryInvcgDocStatusTxt` | `cast( dd07t.ddtext as prlinv_status_txt_gfn_kk preserving type )` |
 | `_CAPreliminaryInvcgDocStatus` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +42,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_CAPreliminaryInvcgDocStatus` | `I_CAPreliminaryInvcgDocStatus` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

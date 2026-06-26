@@ -29,14 +29,15 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/tor_execution_status preserving type)` | `cast(substring(domvalue_l, 1, 2)` |
+| `TransportationOrderExecSts` | `cast(…)` |
 | `DomainValue` | `dd07l.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_TranspOrdExecStatusText_2` | [0..*] |
 
 ## Source Code
 

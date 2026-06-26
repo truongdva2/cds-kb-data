@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `Language` | `spras` |
 | `ValuationVariant` | `bwvar` |
-| `fpc_valuation_variant_name preserving type)` | `cast(txbwv` |
+| `ValuationVariantName` | `cast(txbwv as fpc_valuation_variant_name preserving type)` |
 | `_Language` | *Association* |
 
 ## Associations

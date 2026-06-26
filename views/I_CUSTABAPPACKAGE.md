@@ -30,14 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key I_ABAPPackage.ABAPPackage` | `I_ABAPPackage.ABAPPackage` |
-| `I_ABAPPackage.ABAPPackageResponsibleUser` | `I_ABAPPackage.ABAPPackageResponsibleUser` |
-| `I_ABAPPackage.ABAPSoftwareComponent` | `I_ABAPPackage.ABAPSoftwareComponent` |
-| `I_ABAPPackage.ABAPNamespace` | `I_ABAPPackage.ABAPNamespace` |
-| `I_ABAPPackage.CreatedByUser` | `I_ABAPPackage.CreatedByUser` |
-| `I_ABAPPackage.CreationDate` | `I_ABAPPackage.CreationDate` |
-| `I_ABAPPackage.LastChangedByUser` | `I_ABAPPackage.LastChangedByUser` |
-| `I_ABAPPackage.LastChangeDate` | `I_ABAPPackage.LastChangeDate` |
+| `ABAPPackage` | `I_ABAPPackage.ABAPPackage` |
+| `ABAPPackageResponsibleUser` | `I_ABAPPackage.ABAPPackageResponsibleUser` |
+| `ABAPSoftwareComponent` | `I_ABAPPackage.ABAPSoftwareComponent` |
+| `ABAPNamespace` | `I_ABAPPackage.ABAPNamespace` |
+| `CreatedByUser` | `I_ABAPPackage.CreatedByUser` |
+| `CreationDate` | `I_ABAPPackage.CreationDate` |
+| `LastChangedByUser` | `I_ABAPPackage.LastChangedByUser` |
+| `LastChangeDate` | `I_ABAPPackage.LastChangeDate` |
 
 ## Associations
 

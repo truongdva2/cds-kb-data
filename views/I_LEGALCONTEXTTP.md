@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key     LglCntntMContextUUID` | `LglCntntMContextUUID` |
+| `LglCntntMContextUUID` | `LglCntntMContextUUID` |
 | `LglCntntMContext` | `LglCntntMContext` |
 | `LglCntntMContextVersion` | `LglCntntMContextVersion` |
 | `LglCntntMContextTitle` | `LglCntntMContextTitle` |
@@ -55,17 +55,6 @@ tags:
 | `LglCntntMChangedByUser` | `LglCntntMChangedByUser` |
 | `LglCntntMChangedUTCDateTime` | `LglCntntMChangedUTCDateTime` |
 | `IsEndOfPurposeBlocked` | `IsEndOfPurposeBlocked` |
-| `_LCMCtxExtContactTP           : redirected to composition child I_LegalContextExtContactTP` | *Association* |
-| `_LCMCtxIntContactTP           : redirected to composition child I_LegalContextIntContactTP` | *Association* |
-| `_LCMContextEntityTP           : redirected to composition child I_LegalContextEntityTP` | *Association* |
-| `_LCMContextRelationshipTP     : redirected to composition child I_LegalContextRelationshipTP` | *Association* |
-| `_LCMContextObjectLinksTP      : redirected to composition child I_LegalContextLinkedObjectTP` | *Association* |
-| `_LCMContextCategoryGroupTP    : redirected to composition child I_LegalContextCategoryGroupTP` | *Association* |
-| `_LCMContextDateTP             : redirected to composition child I_LegalContextDateTP` | *Association* |
-| `_LglCntntMContextDocTP        : redirected to composition child I_LegalContextDocumentTP` | *Association* |
-| `_LglCntntMCntxtRnwlAndTermnTP : redirected to composition child I_LegalContextRnwlAndTermnTP` | *Association* |
-| `_LglCntntMCntxtPhseTP         : redirected to composition child I_LegalContextPhaseTP` | *Association* |
-| `_LglCntntMCntxtRuleGroupTP    : redirected to composition child I_LegalContextRuleGroupTP` | *Association* |
 
 ## Associations
 

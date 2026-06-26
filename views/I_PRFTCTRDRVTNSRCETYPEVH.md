@@ -31,11 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  ProfitCenterDerivationSrceType` | `ProfitCenterDerivationSrceType` |
-| `key  case when _Text[1:Language=$session.system_language].ProfitCenterDrvtnSrceTypeName is null` | `case when _Text[1:Language=$session.system_language].ProfitCenterDrvtnSrceTypeName is null` |
-| `then  _Text[1:Language='E'].ProfitCenterDrvtnSrceTypeName` | `then  _Text[1:Language='E'].ProfitCenterDrvtnSrceTypeName` |
-| `else  _Text[1:Language=$session.system_language].ProfitCenterDrvtnSrceTypeName` | `else  _Text[1:Language=$session.system_language].ProfitCenterDrvtnSrceTypeName` |
-| `ProfitCenterDrvtnSrceTypeName` | `end` |
+| `ProfitCenterDerivationSrceType` | `ProfitCenterDerivationSrceType` |
+| `ProfitCenterDrvtnSrceTypeName` | `case…end` |
 
 ## Associations
 

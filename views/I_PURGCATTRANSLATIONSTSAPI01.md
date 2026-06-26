@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PurgCatTranslationUUID` | `PurgCatTranslationUUID` |
+| `PurgCatTranslationUUID` | `PurgCatTranslationUUID` |
 | `PurgCatUUID` | `PurgCatUUID` |
 | `PurgCatTranslationTgtLang` | `PurgCatTranslationTgtLang` |
 | `PurgCatTranslationTgtLangSts` | `PurgCatTranslationTgtLangSts` |

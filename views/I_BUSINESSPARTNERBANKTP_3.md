@@ -36,8 +36,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BusinessPartner` | `BusinessPartner` |
-| `key BankIdentification` | `BankIdentification` |
+| `BusinessPartner` | `BusinessPartner` |
+| `BankIdentification` | `BankIdentification` |
 | `BankIdnForEditValue` | `BankIdnForEditValue` |
 | `BankCountryKey` | `BankCountryKey` |
 | `BankName` | `BankName` |
@@ -70,9 +70,7 @@ tags:
 | `DataController8` | `DataController8` |
 | `DataController9` | `DataController9` |
 | `DataController10` | `DataController10` |
-| `/* Associations */` | `/* Associations */` |
 | `_Bank` | *Association* |
-| `_BusinessPartner : redirected to parent I_BusinessPartnerTP_3` | *Association* |
 | `_IBAN` | *Association* |
 
 ## Associations

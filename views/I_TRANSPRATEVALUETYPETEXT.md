@@ -32,11 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `/scmtms/value_indicator preserving type)` | `cast(substring(domvalue_l, 1, 1)` |
+| `TransportationRateValueType` | `cast(substring(domvalue_l, 1, 1) as /scmtms/value_indicator preserving type)` |
 | `Language` | `ddlanguage` |
-| `/scmtms/vdm_rate_val_type_desc preserving type)` | `cast(ddtext` |
+| `TranspRateValueTypeDesc` | `cast(ddtext as /scmtms/vdm_rate_val_type_desc preserving type)` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `/* Associations */` | `/* Associations */` |
 | `_TranspValueType` | *Association* |
 | `_Language` | *Association* |
 
@@ -44,6 +43,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_TranspValueType` | `I_TranspRateValueType_2` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

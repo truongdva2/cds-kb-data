@@ -36,7 +36,7 @@ tags:
 |---|---|
 | `Status` | `t141t.mmsta` |
 | `Language` | `spras` |
-| `crossplantstatustext preserving type )` | `cast(t141t.mtstb` |
+| `MaterialUsabilityProfileName` | `cast(t141t.mtstb as crossplantstatustext preserving type )` |
 
 ## Associations
 

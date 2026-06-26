@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key GHGCategory` | `GHGCategory` |
+| `GHGCategory` | `GHGCategory` |
 | `GHGScope` | `GHGScope` |
 | `_Text` | *Association* |
 | `_GHGScope` | *Association* |

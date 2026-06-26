@@ -30,8 +30,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodalloccheckdatetimetype preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
-| `, _Text` | `, _Text` |
+| `ProdAllocCheckDateTimeType` | `cast(…)` |
+| `_Text` | *Association* |
 
 ## Associations
 

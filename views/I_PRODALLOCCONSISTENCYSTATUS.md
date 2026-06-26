@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `prodallocconsistencystatus preserving type )` | `cast ( substring( domvalue_l, 1, 2 )` |
+| `ProdAllocConsistencyStatus` | `cast(…)` |
 | `_Text` | *Association* |
 
 ## Associations

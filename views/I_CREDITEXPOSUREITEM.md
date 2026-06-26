@@ -32,13 +32,13 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `ukm_contributing_partner preserving type )` | `cast( partner` |
-| `ukm_contributing_segment preserving type )` | `cast ( credit_sgmnt` |
-| `ukm_line_item preserving type )` | `cast( iguid` |
-| `_ext_guid.objkey                                                  as CreditMgmtLinkedLineItemKey` | *Association* |
-| `_ext_guid.objtype                                                 as BusinessObjectType` | *Association* |
-| `_ext_guid.logsys                                                  as LogicalSystem` | *Association* |
-| `tstrcreats preserving type )` | `cast( tmstmp` |
+| `BusinessPartner` | `cast( partner as ukm_contributing_partner preserving type )` |
+| `CreditSegment` | `cast ( credit_sgmnt as ukm_contributing_segment preserving type )` |
+| `CreditManagementLineItem` | `cast( iguid as ukm_line_item preserving type )` |
+| `CreditMgmtLinkedLineItemKey` | `_ext_guid.objkey` |
+| `BusinessObjectType` | `_ext_guid.objtype` |
+| `LogicalSystem` | `_ext_guid.logsys` |
+| `CreditExposureUTCDateTime` | `cast( tmstmp as tstrcreats preserving type )` |
 | `CreditExposureCategory` | `comm_typ` |
 | `ExposureAmount` | `amount` |
 | `HedgedAmount` | `amount_sec` |

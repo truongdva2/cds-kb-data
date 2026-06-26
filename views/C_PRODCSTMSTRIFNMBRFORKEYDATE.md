@@ -30,23 +30,23 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Class.TrdClassfctnNmbrSchm` | `Class.TrdClassfctnNmbrSchm` |
-| `key Class.TrdClassfctnNmbrSchmCntnt` | `Class.TrdClassfctnNmbrSchmCntnt` |
-| `key Class.Product` | `Class.Product` |
-| `key Class.ValidityStartDate` | `Class.ValidityStartDate` |
-| `Class.ValidityEndDate` | `Class.ValidityEndDate` |
-| `/sapsll/tarno)` | `cast (_CustomsTariffNumber.TrdClassfctnNmbr` |
-| `_TrdClassfctnNmbrSchmUsge.Country` | *Association* |
-| `_CustomsTariffNumber.CustomsUnitOfMeasure` | *Association* |
-| `_CustomsTariffNumber.UnitOfMeasureSystem` | *Association* |
-| `_CustomsTariffNumber.SecondCustomsUnitOfMeasure` | *Association* |
-| `_CustomsTariffNumber.SupplementaryUnit` | *Association* |
+| `TrdClassfctnNmbrSchm` | `Class.TrdClassfctnNmbrSchm` |
+| `TrdClassfctnNmbrSchmCntnt` | `Class.TrdClassfctnNmbrSchmCntnt` |
+| `Product` | `Class.Product` |
+| `ValidityStartDate` | `Class.ValidityStartDate` |
+| `ValidityEndDate` | `Class.ValidityEndDate` |
+| `CustomsTariffNumber` | `cast (_CustomsTariffNumber.TrdClassfctnNmbr as /sapsll/tarno)` |
+| `Country` | `_TrdClassfctnNmbrSchmUsge.Country` |
+| `CustomsUnitOfMeasure` | `_CustomsTariffNumber.CustomsUnitOfMeasure` |
+| `UnitOfMeasureSystem` | `_CustomsTariffNumber.UnitOfMeasureSystem` |
+| `SecondCustomsUnitOfMeasure` | `_CustomsTariffNumber.SecondCustomsUnitOfMeasure` |
+| `SupplementaryUnit` | `_CustomsTariffNumber.SupplementaryUnit` |
 | `_TrdClassfctnNmbrSchm` | *Association* |
 | `_Product` | *Association* |
-| `_CustomsTariffNumber._CustomsUnitOfMeasure` | *Association* |
-| `_CustomsTariffNumber._SecondCustomsUnitOfMeasure` | *Association* |
+| `_CustomsUnitOfMeasure` | *Association* |
+| `_SecondCustomsUnitOfMeasure` | *Association* |
 | `_Text` | *Association* |
-| `_CustomsTariffNumber._SupplementaryUnit` | *Association* |
+| `_SupplementaryUnit` | *Association* |
 
 ## Associations
 

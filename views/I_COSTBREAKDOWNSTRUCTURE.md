@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CostBreakdownStructure` | `CostBreakdownStructure` |
+| `CostBreakdownStructure` | `CostBreakdownStructure` |
 | `CostBreakdownType` | `CostBreakdownType` |
 | `_Text` | *Association* |
 

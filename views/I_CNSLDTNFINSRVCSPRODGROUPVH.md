@@ -31,8 +31,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key _Source.FinancialServicesProductGroup` | `_Source.FinancialServicesProductGroup` |
-| `_Source._Text[1: Language=$session.system_language].FinServicesProductGroupName` | *Association* |
+| `FinancialServicesProductGroup` | `_Source.FinancialServicesProductGroup` |
+| `FinServicesProductGroupName` | `_Source._Text[1: Language=$session.system_language].FinServicesProductGroupName` |
 
 ## Associations
 

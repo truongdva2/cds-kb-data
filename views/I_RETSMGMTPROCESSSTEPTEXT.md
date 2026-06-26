@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `msr_step_id preserving type )` | `cast( step_id` |
+| `RetsMgmtProcessStep` | `cast( step_id as msr_step_id preserving type )` |
 | `Language` | `spras` |
 | `RetsMgmtProcessStepDescription` | `step_text` |
 | `_ReturnsProcessStep` | *Association* |

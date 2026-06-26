@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `transaction_type)` | `cast(domvalue_l` |
+| `BusinessTransactionType` | `cast(domvalue_l as transaction_type)` |
 | `_Text` | *Association* |
 
 ## Associations

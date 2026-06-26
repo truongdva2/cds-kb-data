@@ -29,7 +29,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `evl_objrl_kk preserving type )` | `cast ( left( dd07l.domvalue_l, 2 )` |
+| `CABusTransRelationship` | `cast ( left( dd07l.domvalue_l, 2 ) as evl_objrl_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

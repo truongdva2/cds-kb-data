@@ -34,7 +34,7 @@ tags:
 |---|---|
 | `ProjectElementUUID` | `task.guid` |
 | `ProjectUUID` | `task.project_guid` |
-| `ps_s4_pspnr preserving type )` | `cast( prps.pspnr` |
+| `WBSElementInternalID` | `cast( prps.pspnr as ps_s4_pspnr preserving type )` |
 | `JointVenture` | `prps.vname` |
 | `JointVentureCostRecoveryCode` | `prps.recid` |
 | `JointVentureEquityType` | `prps.etype` |

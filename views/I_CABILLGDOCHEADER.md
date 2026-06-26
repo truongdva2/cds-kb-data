@@ -35,46 +35,46 @@ tags:
 | `BusinessPartner` | `gpart` |
 | `ContractAccount` | `vkont` |
 | `CABillgType` | `bill_type` |
-| `bill_period_from_gfn_kk preserving type )` | `cast(date_from` |
-| `bill_period_to_gfn_kk preserving type )` | `cast(date_to` |
+| `CABillgDocPeriodStartDate` | `cast(date_from as bill_period_from_gfn_kk preserving type )` |
+| `CABillgDocPeriodEndDate` | `cast(date_to as bill_period_to_gfn_kk preserving type )` |
 | `CABillgDocumentReversalReason` | `revreason` |
 | `CABillgIsDocumentSimulated` | `simulated` |
-| `refdocno_gfn_kk preserving type )` | `cast(refdocno` |
+| `CABillgDocumentExternal` | `cast(refdocno as refdocno_gfn_kk preserving type )` |
 | `LogicalSystem` | `log_system` |
 | `CAApplicationArea` | `applk` |
 | `CABillgDocOriginProcess` | `srcprocess` |
 | `CAInvcgSourceDocumentType` | `srcdoctype` |
-| `techdoctype_gfn_kk preserving type )` | `cast(techdoctype` |
+| `CAInvcgTechnicalDocumentType` | `cast(techdoctype as techdoctype_gfn_kk preserving type )` |
 | `CAInvcgDocumentType` | `doctype` |
 | `CAInvcgTargetProcess` | `targprocess` |
 | `CAInvcgMasterDataType` | `mdcat` |
-| `gpart_inv_gfn_kk preserving type )` | `cast(gpart_inv` |
-| `vkont_inv_gfn_kk preserving type )` | `cast(vkont_inv` |
+| `CAInvcgAltvBusinessPartner` | `cast(gpart_inv as gpart_inv_gfn_kk preserving type )` |
+| `CAInvcgAltvContractAccount` | `cast(vkont_inv as vkont_inv_gfn_kk preserving type )` |
 | `CABillgBaseDate` | `bill_basedate` |
 | `CABillgCurrency` | `bill_curr` |
-| `inv_curr_gfn_kk preserving type )` | `cast(inv_curr` |
+| `CAInvcgCurrency` | `cast(inv_curr as inv_curr_gfn_kk preserving type )` |
 | `CATaxDetnType` | `tax_det_type` |
 | `CATaxDateType` | `tax_date_type` |
 | `CAInvcgCategory` | `inv_category` |
-| `separate_inv_bitpack_gfn_kk preserving type )` | `cast(separate_inv` |
+| `CAInvcgControlOfInvoicingUnit` | `cast(separate_inv as separate_inv_bitpack_gfn_kk preserving type )` |
 | `CAInvcgFirstDate` | `invoice_first` |
-| `reversalbilldoc_gfn_kk preserving type )` | `cast(reversaldoc` |
-| `reversedbilldoc_gfn_kk preserving type )` | `cast(reverseddoc` |
-| `adjustmentbilldoc_gfn_kk preserving type )` | `cast(adjustmentdoc` |
+| `CABillgReversalDocument` | `cast(reversaldoc as reversalbilldoc_gfn_kk preserving type )` |
+| `CABillgReversedDocument` | `cast(reverseddoc as reversedbilldoc_gfn_kk preserving type )` |
+| `CABillgAdjustmentDocument` | `cast(adjustmentdoc as adjustmentbilldoc_gfn_kk preserving type )` |
 | `CABillgAdjustedDocument` | `adjusteddoc` |
-| `corrcat_gfn_kk preserving type )` | `cast(corrcat` |
-| `trigdeleted_gfn_kk preserving type )` | `cast(trigdeleted` |
+| `CAInvcgCorrectionCategory` | `cast(corrcat as corrcat_gfn_kk preserving type )` |
+| `CaInvcgIsOrderDeleted` | `cast(trigdeleted as trigdeleted_gfn_kk preserving type )` |
 | `CABillgHasAdditionalInvoice` | `xinfbill` |
-| `xbillac_gfn_kk preserving type )` | `cast(xbillac` |
+| `CAInvcgIsAccrualPostingRlvt` | `cast(xbillac as xbillac_gfn_kk preserving type )` |
 | `CABillgLockedForInvoicing` | `invlock` |
-| `add_group_gfn_kk preserving type )` | `cast(add_group` |
-| `xinvbill_x_gfn_kk preserving type )` | `cast(xinvbill_x` |
+| `CABillgGrpgOfAdditionalItems` | `cast(add_group as add_group_gfn_kk preserving type )` |
+| `CABillgDocHasRefObjects` | `cast(xinvbill_x as xinvbill_x_gfn_kk preserving type )` |
 | `CABillgDocumentNumberOfItems` | `recnum` |
-| `bit_number_gfn_kk preserving type )` | `cast(bit_number` |
+| `CABllbleItmNumber` | `cast(bit_number as bit_number_gfn_kk preserving type )` |
 | `CreatedByUser` | `crname` |
 | `CABillgDocCreationDate` | `crdate` |
 | `CABillgDocCreationTime` | `crtime` |
-| `billrunno_gfn_kk preserving type )` | `cast(billrunno` |
+| `CABillgDocInternalNumber` | `cast(billrunno as billrunno_gfn_kk preserving type )` |
 | `CABillgProcess` | `bill_process` |
 | `CABillgDocHasPrepaidItems` | `prepaid_incl` |
 | `CABillgDocHasRefillItems` | `pprefill_incl` |

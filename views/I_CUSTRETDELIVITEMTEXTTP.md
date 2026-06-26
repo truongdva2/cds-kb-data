@@ -33,13 +33,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key CustomerReturnDelivery` | `CustomerReturnDelivery` |
-| `key CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
-| `key Language` | `Language` |
-| `key LongTextID` | `LongTextID` |
+| `CustomerReturnDelivery` | `CustomerReturnDelivery` |
+| `CustomerReturnDeliveryItem` | `CustomerReturnDeliveryItem` |
+| `Language` | `Language` |
+| `LongTextID` | `LongTextID` |
 | `LongText` | `LongText` |
-| `_Delivery : redirected to I_CustomerReturnsDeliveryTP` | *Association* |
-| `_Item     : redirected to parent I_CustomerReturnsDelivItemTP` | *Association* |
 
 ## Associations
 

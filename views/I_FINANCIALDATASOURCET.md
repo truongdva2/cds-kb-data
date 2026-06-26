@@ -32,9 +32,8 @@ tags:
 |---|---|
 | `Language` | `langu` |
 | `FinancialDataSource` | `datasource_id` |
-| `ffs_vdm_datasource_tt preserving type )` | `cast( datasource_tt` |
-| `_Language._Text[Language = $session.system_language].LanguageName` | *Association* |
-| `/* Associations */` | `/* Associations */` |
+| `FinancialDataSourceName` | `cast( datasource_tt as ffs_vdm_datasource_tt preserving type )` |
+| `LanguageName` | `_Language._Text[Language = $session.system_language].LanguageName` |
 | `_FinancialDataSource` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_FinancialDataSource` | `I_FinancialDataSource` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

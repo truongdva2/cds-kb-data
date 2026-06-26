@@ -32,7 +32,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key BOMGroupUUID` | `BOMGroupUUID` |
+| `BOMGroupUUID` | `BOMGroupUUID` |
 | `ParentBOMGroupUUID` | `ParentBOMGroupUUID` |
 | `BOMGroupName` | `BOMGroupName` |
 | `BOMGroupDescription` | `BOMGroupDescription` |

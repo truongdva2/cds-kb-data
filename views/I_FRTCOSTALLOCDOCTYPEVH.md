@@ -30,8 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtDocType` | `SettlmtDocType` |
-| `/* Associations */` | `/* Associations */` |
+| `SettlmtDocType` | `SettlmtDocType` |
 | `_Text` | *Association* |
 
 ## Associations

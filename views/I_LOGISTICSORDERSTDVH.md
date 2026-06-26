@@ -31,7 +31,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key OrderID` | `OrderID` |
+| `OrderID` | `OrderID` |
 | `OrderDescription` | `OrderDescription` |
 | `MRPController` | `MRPController` |
 | `OrderCategory` | `OrderCategory` |

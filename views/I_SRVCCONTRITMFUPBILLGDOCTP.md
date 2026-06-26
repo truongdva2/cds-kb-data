@@ -29,13 +29,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ServiceContract` | `ServiceContract` |
-| `key ServiceContractItem` | `ServiceContractItem` |
-| `key BillingDocument` | `BillingDocument` |
-| `key BillingDocumentItem` | `BillingDocumentItem` |
-| `/* Associations */` | `/* Associations */` |
-| `_ServiceContractItemTP : redirected to parent I_ServiceContractItemTP` | *Association* |
-| `_ServiceContractTP     : redirected to I_ServiceContractTP` | *Association* |
+| `ServiceContract` | `ServiceContract` |
+| `ServiceContractItem` | `ServiceContractItem` |
+| `BillingDocument` | `BillingDocument` |
+| `BillingDocumentItem` | `BillingDocumentItem` |
 
 ## Associations
 

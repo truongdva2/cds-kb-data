@@ -32,10 +32,10 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `spras preserving type )` | `cast( dd07t.ddlanguage` |
-| `vrmod )` | `cast( dd07t.domvalue_l` |
+| `Language` | `cast( dd07t.ddlanguage as spras preserving type )` |
+| `ProdRqmtsConsumptionMode` | `cast( dd07t.domvalue_l as vrmod )` |
 | `DomainValue` | `dd07t.domvalue_l` |
-| `val_text preserving type )` | `cast( dd07t.ddtext` |
+| `Name` | `cast( dd07t.ddtext as val_text preserving type )` |
 | `_Language` | *Association* |
 
 ## Associations

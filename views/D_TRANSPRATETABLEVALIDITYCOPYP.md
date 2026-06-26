@@ -29,8 +29,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `TranspRateValidityCpyStartDate : /scmtms/val_date_from;` | `TranspRateValidityCpyStartDate : /scmtms/val_date_from;` |
-| `TranspRateValidityCpyEndDate   : /scmtms/val_date_to;` | `TranspRateValidityCpyEndDate   : /scmtms/val_date_to;` |
+| `TranspRateValidityCpyStartDate` | `/scmtms/val_date_from` |
+| `TranspRateValidityCpyEndDate` | `/scmtms/val_date_to` |
 
 ## Associations
 

@@ -31,11 +31,11 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key Material` | `Material` |
-| `key SerialNumber` | `SerialNumber` |
-| `key Equipment` | `Equipment` |
-| `key PartnerFunction` | `PartnerFunction` |
-| `key EquipmentPartnerObjectNmbr` | `EquipmentPartnerObjectNmbr` |
+| `Material` | `Material` |
+| `SerialNumber` | `SerialNumber` |
+| `Equipment` | `Equipment` |
+| `PartnerFunction` | `PartnerFunction` |
+| `EquipmentPartnerObjectNmbr` | `EquipmentPartnerObjectNmbr` |
 | `EquipmentPartner` | `EquipmentPartner` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDate` | `CreationDate` |
@@ -58,8 +58,6 @@ tags:
 | `SupplierIsBusPrpsCmpltd` | `SupplierIsBusPrpsCmpltd` |
 | `SupplierAccountGroup` | `SupplierAccountGroup` |
 | `SupplierAuthznGrp` | `SupplierAuthznGrp` |
-| `/* Associations */` | `/* Associations */` |
-| `_EquipmentMaterialSerialNumber: redirected to parent I_EquipMatlSerialNumberTP` | *Association* |
 
 ## Associations
 

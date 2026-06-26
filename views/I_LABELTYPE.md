@@ -30,12 +30,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `labeltype preserving type )` | `cast( etiar` |
+| `LabelType` | `cast( etiar as labeltype preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_Text` | `I_LabelTypeText` | [0..*] |
 
 ## Source Code
 

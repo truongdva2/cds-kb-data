@@ -32,16 +32,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ProductionOrder` | `ProductionOrder` |
-| `key ProductionOrderItem` | `ProductionOrderItem` |
-| `key SerialNumber.SerialNumber` | `SerialNumber.SerialNumber` |
+| `ProductionOrder` | `ProductionOrder` |
+| `ProductionOrderItem` | `ProductionOrderItem` |
+| `SerialNumber` | `SerialNumber.SerialNumber` |
 | `Product` | `Product` |
 | `ProductionPlant` | `ProductionPlant` |
 | `ManufacturingOrderCategory` | `ManufacturingOrderCategory` |
 | `ProductionOrderType` | `ProductionOrderType` |
 | `SerialNumberProfile` | `SerialNumberProfile` |
-| `_ProductionOrderItem : redirected to parent I_ProductionOrderItemTP` | *Association* |
-| `_ProductionOrder : redirected to I_ProductionOrderTP` | *Association* |
 
 ## Associations
 

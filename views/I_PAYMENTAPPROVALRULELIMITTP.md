@@ -33,17 +33,14 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key PaymentApprovalRule` | `PaymentApprovalRule` |
-| `key PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
-| `key PaytApprvlLimitCurrency` | `PaytApprvlLimitCurrency` |
+| `PaymentApprovalRule` | `PaymentApprovalRule` |
+| `PaymentApprovalRuleItem` | `PaymentApprovalRuleItem` |
+| `PaytApprvlLimitCurrency` | `PaytApprvlLimitCurrency` |
 | `PaytApprvlAmountInLmtCurrency` | `PaytApprvlAmountInLmtCurrency` |
 | `CreatedByUser` | `CreatedByUser` |
 | `CreationDateTime` | `CreationDateTime` |
 | `LastChangedByUser` | `LastChangedByUser` |
 | `LocalLastChangeDateTime` | `LocalLastChangeDateTime` |
-| `/* Associations */` | `/* Associations */` |
-| `_PaymentApprovalRule     : redirected to I_PaymentApprovalRuleTP` | *Association* |
-| `_PaymentApprovalRuleItem : redirected to parent I_PaymentApprovalRuleItemTP` | *Association* |
 
 ## Associations
 

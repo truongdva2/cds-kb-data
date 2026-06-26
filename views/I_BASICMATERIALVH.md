@@ -33,7 +33,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key  BasicMaterial` | `BasicMaterial` |
+| `BasicMaterial` | `BasicMaterial` |
 
 ## Associations
 

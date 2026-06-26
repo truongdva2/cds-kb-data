@@ -37,7 +37,10 @@ tags:
 
 ## Associations
 
-> No associations found.
+| Alias | Target View | Cardinality |
+|---|---|---|
+| `_SalesOffice` | `I_SalesOffice` | [0..1] |
+| `_SalesGroup` | `I_SalesGroup` | [0..1] |
 
 ## Source Code
 

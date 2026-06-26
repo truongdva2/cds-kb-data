@@ -31,10 +31,9 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key SettlmtProcessType` | `SettlmtProcessType` |
-| `key Language` | `Language` |
+| `SettlmtProcessType` | `SettlmtProcessType` |
+| `Language` | `Language` |
 | `SettlmtProcessTypeDesc` | `SettlmtProcessTypeDesc` |
-| `/* Associations */` | `/* Associations */` |
 | `_SettlmtProcessType` | *Association* |
 | `_Language` | *Association* |
 
@@ -42,6 +41,7 @@ tags:
 
 | Alias | Target View | Cardinality |
 |---|---|---|
+| `_SettlmtProcessType` | `I_SettlmtProcessType` | — |
 | `_Language` | `I_Language` | [0..1] |
 
 ## Source Code

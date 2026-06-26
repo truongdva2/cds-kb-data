@@ -30,7 +30,7 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `c4eyp_kk preserving type )` | `cast( left( domvalue_l, 1 )` |
+| `CAWorkflowCheckProcess` | `cast( left( domvalue_l, 1 ) as c4eyp_kk preserving type )` |
 | `_Text` | *Association* |
 
 ## Associations

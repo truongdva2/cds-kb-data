@@ -34,8 +34,8 @@ tags:
 
 | Field | Data Source |
 |---|---|
-| `key ChangeNumberStatus` | `ChangeNumberStatus` |
-| `key Language` | `Language` |
+| `ChangeNumberStatus` | `ChangeNumberStatus` |
+| `Language` | `Language` |
 | `ChangeNumberStatusText` | `ChangeNumberStatusText` |
 | `_Language` | *Association* |
 
