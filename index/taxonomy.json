@@ -7825,7 +7825,11 @@
       "Security",
       "ABAP Dictionary",
       "Middleware",
-      "CTS"
+      "CTS",
+      "Quản trị hệ thống",
+      "Bảo mật",
+      "Từ điển ABAP",
+      "Nền tảng"
     ],
     "lob:controlling": [
       "CO",
@@ -7835,7 +7839,14 @@
       "Product Costing",
       "Internal Orders",
       "PCA",
-      "CCA"
+      "CCA",
+      "Kế toán quản trị",
+      "Kiểm soát",
+      "Trung tâm chi phí",
+      "Trung tâm lợi nhuận",
+      "Phân tích lợi nhuận",
+      "Giá thành",
+      "Lệnh nội bộ"
     ],
     "lob:cross_application components": [
       "CA",
@@ -7843,7 +7854,12 @@
       "Business Partner",
       "Document Management",
       "Time Sheet",
-      "GTF"
+      "GTF",
+      "Liên ứng dụng",
+      "Đối tác kinh doanh",
+      "Quản lý tài liệu",
+      "Bảng chấm công",
+      "Dữ liệu chủ"
     ],
     "lob:finance": [
       "FI",
@@ -7855,7 +7871,17 @@
       "Bank Accounting",
       "Tax",
       "Journal Entry",
-      "Document"
+      "Document",
+      "Tài chính",
+      "Kế toán",
+      "Sổ cái",
+      "Công nợ phải trả",
+      "Công nợ phải thu",
+      "Tài sản cố định",
+      "Thuế",
+      "Bút toán",
+      "Ngân hàng",
+      "Chứng từ kế toán"
     ],
     "lob:logistics execution": [
       "LE",
@@ -7863,14 +7889,25 @@
       "Transportation",
       "Warehouse Management",
       "Delivery",
-      "EWM"
+      "EWM",
+      "Giao nhận",
+      "Giao hàng",
+      "Vận chuyển",
+      "Quản lý kho",
+      "Phiếu giao hàng",
+      "Kho"
     ],
     "lob:logistics general": [
       "LO",
       "Material Master",
       "Batch Management",
       "Handling Unit",
-      "Variant Configuration"
+      "Variant Configuration",
+      "Hậu cần chung",
+      "Vật tư",
+      "Dữ liệu chủ vật tư",
+      "Quản lý lô",
+      "Cấu hình biến thể"
     ],
     "lob:manufacturing": [
       "PP",
@@ -7879,10 +7916,18 @@
       "Routing",
       "Work Center",
       "MRP",
-      "Shop Floor Control"
+      "Shop Floor Control",
+      "Sản xuất",
+      "Kế hoạch sản xuất",
+      "Định mức vật tư",
+      "Quy trình sản xuất",
+      "Công đoạn",
+      "Lệnh sản xuất",
+      "Hoạch định nhu cầu vật tư"
     ],
     "lob:other": [
-      "Other"
+      "Other",
+      "Khác"
     ],
     "lob:plant maintenance": [
       "PM",
@@ -7890,14 +7935,24 @@
       "Functional Location",
       "Maintenance Order",
       "Notification",
-      "Task List"
+      "Task List",
+      "Bảo trì",
+      "Thiết bị",
+      "Vị trí chức năng",
+      "Lệnh bảo trì",
+      "Thông báo bảo trì"
     ],
     "lob:quality management": [
       "QM",
       "Inspection Lot",
       "Quality Notification",
       "Quality Certificate",
-      "Inspection Plan"
+      "Inspection Plan",
+      "Quản lý chất lượng",
+      "Lô kiểm tra",
+      "Kiểm tra chất lượng",
+      "Chứng nhận chất lượng",
+      "Quy trình kiểm tra"
     ],
     "lob:sales & distribution": [
       "SD",
@@ -7907,7 +7962,15 @@
       "Shipping",
       "Customer Master",
       "Quotation",
-      "Customer Return"
+      "Customer Return",
+      "Bán hàng",
+      "Phân phối",
+      "Đơn bán hàng",
+      "Hóa đơn",
+      "Định giá",
+      "Khách hàng",
+      "Báo giá",
+      "Trả hàng"
     ],
     "lob:sourcing & procurement": [
       "MM-PUR",
@@ -7916,19 +7979,32 @@
       "Supplier",
       "Invoice Verification",
       "Inventory Management",
-      "MM"
+      "MM",
+      "Mua sắm",
+      "Mua hàng",
+      "Đơn mua hàng",
+      "Đề nghị mua hàng",
+      "Nhà cung cấp",
+      "Kiểm tra hóa đơn",
+      "Quản lý tồn kho"
     ],
     "bo:asset": [
       "Fixed Asset",
       "FI-AA",
       "Depreciation",
-      "Asset Master"
+      "Asset Master",
+      "Tài sản cố định",
+      "Khấu hao",
+      "Dữ liệu chủ tài sản"
     ],
     "bo:bank": [
       "Bank Master",
       "House Bank",
       "Bank Account",
-      "FI-BL"
+      "FI-BL",
+      "Ngân hàng",
+      "Ngân hàng quản lý",
+      "Tài khoản ngân hàng"
     ],
     "bo:billingdocument": [
       "Invoice",
@@ -7936,7 +8012,12 @@
       "SD-BIL",
       "Credit Memo",
       "Debit Memo",
-      "VBRK"
+      "VBRK",
+      "Hóa đơn",
+      "Chứng từ hóa đơn",
+      "Lập hóa đơn",
+      "Giấy báo có",
+      "Giấy báo nợ"
     ],
     "bo:businesspartner": [
       "BP",
@@ -7944,31 +8025,48 @@
       "Customer",
       "Master Data",
       "CA-BP",
-      "BUT000"
+      "BUT000",
+      "Đối tác kinh doanh",
+      "Nhà cung cấp",
+      "Khách hàng",
+      "Dữ liệu chủ"
     ],
     "bo:companycode": [
       "Organizational Unit",
       "Legal Entity",
       "FI",
-      "T001"
+      "T001",
+      "Mã công ty",
+      "Đơn vị tổ chức",
+      "Pháp nhân"
     ],
     "bo:costcenter": [
       "CO-OM-CCA",
       "Overhead Cost",
       "Cost Object",
-      "CSKS"
+      "CSKS",
+      "Trung tâm chi phí",
+      "Chi phí chung",
+      "Đối tượng chi phí"
     ],
     "bo:customer": [
       "Customer Master",
       "KNA1",
       "FI-AR",
-      "SD-MD"
+      "SD-MD",
+      "Khách hàng",
+      "Dữ liệu chủ khách hàng",
+      "Công nợ phải thu"
     ],
     "bo:deliverydocument": [
       "Inbound Delivery",
       "Outbound Delivery",
       "LE-SHP",
-      "LIKP"
+      "LIKP",
+      "Phiếu giao hàng",
+      "Giao hàng đến",
+      "Giao hàng đi",
+      "Chứng từ giao nhận"
     ],
     "bo:inventory": [
       "Stock",
@@ -7976,93 +8074,137 @@
       "Material Movement",
       "Plant Stock",
       "MARD",
-      "MCHB"
+      "MCHB",
+      "Tồn kho",
+      "Luân chuyển vật tư",
+      "Quản lý kho",
+      "Tồn kho nhà máy"
     ],
     "bo:journalentry": [
       "Accounting Document",
       "FI-GL",
       "BKPF",
       "BSEG",
-      "ACDOCA"
+      "ACDOCA",
+      "Bút toán",
+      "Chứng từ kế toán",
+      "Sổ cái",
+      "Hạch toán"
     ],
     "bo:maintenanceorder": [
       "PM Order",
       "Work Order",
       "Plant Maintenance",
-      "AFIH"
+      "AFIH",
+      "Lệnh bảo trì",
+      "Đơn công việc",
+      "Bảo trì"
     ],
     "bo:material": [
       "Material Master",
       "MARA",
       "Product",
-      "LO-MD-MM"
+      "LO-MD-MM",
+      "Vật tư",
+      "Dữ liệu chủ vật tư",
+      "Sản phẩm"
     ],
     "bo:plant": [
       "Organizational Unit",
       "Factory",
       "Site",
       "LO-MD",
-      "T001W"
+      "T001W",
+      "Nhà máy",
+      "Cơ sở",
+      "Đơn vị tổ chức"
     ],
     "bo:pricingcondition": [
       "Condition Record",
       "Pricing",
       "SD-BF-PR",
       "KONV",
-      "KONP"
+      "KONP",
+      "Điều kiện giá",
+      "Bản ghi điều kiện",
+      "Định giá"
     ],
     "bo:productionorder": [
       "PP Order",
       "Manufacturing Order",
       "Shop Floor",
-      "AFKO"
+      "AFKO",
+      "Lệnh sản xuất",
+      "Sản xuất",
+      "Xưởng sản xuất"
     ],
     "bo:profitcenter": [
       "EC-PCA",
       "Profitability",
       "Organizational Unit",
-      "CEPC"
+      "CEPC",
+      "Trung tâm lợi nhuận",
+      "Phân tích lợi nhuận"
     ],
     "bo:project": [
       "PS",
       "WBS Element",
       "Project System",
       "Network",
-      "PROJ"
+      "PROJ",
+      "Dự án",
+      "Phần tử WBS",
+      "Hệ thống dự án"
     ],
     "bo:purchaseorder": [
       "PO",
       "MM-PUR",
       "Purchasing Document",
-      "EKKO"
+      "EKKO",
+      "Đơn mua hàng",
+      "Đơn đặt hàng mua",
+      "Chứng từ mua hàng"
     ],
     "bo:purchasingorganization": [
       "Organizational Unit",
       "Procurement",
-      "T024E"
+      "T024E",
+      "Tổ chức mua hàng",
+      "Mua sắm",
+      "Đơn vị tổ chức"
     ],
     "bo:salesorder": [
       "SO",
       "SD-SLS",
       "Customer Order",
-      "VBAK"
+      "VBAK",
+      "Đơn bán hàng",
+      "Đơn đặt hàng bán",
+      "Đơn hàng của khách"
     ],
     "bo:salesorganization": [
       "Organizational Unit",
       "SD",
-      "TVKO"
+      "TVKO",
+      "Tổ chức bán hàng",
+      "Đơn vị tổ chức"
     ],
     "bo:supplier": [
       "Vendor",
       "LFA1",
       "MM-PUR",
-      "FI-AP"
+      "FI-AP",
+      "Nhà cung cấp",
+      "Công nợ phải trả"
     ],
     "bo:wbs": [
       "Work Breakdown Structure",
       "PS",
       "Project task",
-      "PRPS"
+      "PRPS",
+      "Cấu trúc phân rã công việc",
+      "Phần tử WBS",
+      "Công việc dự án"
     ],
     "component:ac_int-2cl": [
       "Ac Int-2cl",
