@@ -1,6 +1,13 @@
 ---
 name: D_CUSTRETDLVCRTEDLVFRMSLSDOCP
 description: D Custretdlvcrtedlvfrmslsdocp
+semantic_en: "Customer return: create delivery from sales document action parameter — input structure with ShippingPoint, DeliverySelectionDate, DeliveryDocumentType, and reference SD document items."
+semantic_vi: "Trả hàng khách hàng: tham số hành động tạo giao hàng từ chứng từ bán hàng — cấu trúc đầu vào gồm điểm giao hàng, ngày chọn giao hàng, loại chứng từ giao hàng và các dòng chứng từ SD tham chiếu."
+keywords:
+  - trả hàng khách hàng
+  - tạo giao hàng
+  - điểm giao hàng
+  - chứng từ bán hàng
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

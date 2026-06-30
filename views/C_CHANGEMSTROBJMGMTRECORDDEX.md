@@ -1,6 +1,13 @@
 ---
 name: C_CHANGEMSTROBJMGMTRECORDDEX
 description: Changemstrobjmgmtrecorddex
+semantic_en: "Change master object management record data extraction — a DEX/dimension view exposing the objects managed under a change number (object type, internal ID, revision level, lock status, planned flag) with creation and change audit fields."
+semantic_vi: "Trích xuất bản ghi quản lý đối tượng lệnh thay đổi — view DEX/chiều hiển thị các đối tượng được quản lý theo số lệnh thay đổi (loại đối tượng, ID nội bộ, cấp độ phiên bản, trạng thái khóa, cờ lập kế hoạch) cùng các trường kiểm toán tạo và thay đổi."
+keywords:
+  - đối tượng lệnh thay đổi
+  - bản ghi quản lý đối tượng ECM
+  - phiên bản đối tượng kỹ thuật
+  - trích xuất ECM PLM đối tượng
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,14 @@
 ---
 name: C_MAINTENANCETASKLISTDEX
 description: Maintenancetasklistdex
+semantic_en: "Maintenance task list data extraction — master data header of a maintenance task list (equipment/functional location, planning plant, strategy, work center, validity, and deletion flags) for delta-enabled data extraction."
+semantic_vi: "Trích xuất dữ liệu danh mục công việc bảo trì — dữ liệu header của danh mục công việc bảo trì (thiết bị/vị trí chức năng, nhà máy lập kế hoạch, chiến lược bảo trì, trung tâm công việc, hiệu lực) dùng cho trích xuất dữ liệu delta."
+keywords:
+  - danh mục công việc bảo trì
+  - task list bảo trì
+  - trích xuất dữ liệu PM
+  - thiết bị bảo trì
+  - kế hoạch bảo trì
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

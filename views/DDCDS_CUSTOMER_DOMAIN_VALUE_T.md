@@ -1,6 +1,14 @@
 ---
 name: DDCDS_CUSTOMER_DOMAIN_VALUE_T
 description: Ddcds Customer Domain Value T
+semantic_en: "Customer ABAP domain fixed value texts — parameterized text view returning language-dependent descriptions (ddtext) for fixed values of a given customer-owned ABAP domain."
+semantic_vi: "Text giá trị cố định domain ABAP của khách hàng — view text có tham số trả về mô tả phụ thuộc ngôn ngữ (ddtext) cho các giá trị cố định của một domain ABAP do khách hàng sở hữu."
+keywords:
+  - text domain ABAP
+  - mô tả giá trị cố định
+  - domain value text
+  - đa ngôn ngữ domain
+  - nhãn domain khách hàng
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

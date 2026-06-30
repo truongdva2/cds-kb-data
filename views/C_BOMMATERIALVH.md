@@ -1,6 +1,13 @@
 ---
 name: C_BOMMATERIALVH
 description: Bommaterialvh
+semantic_en: "BOM material value help (VH) — provides a searchable list of materials (product number and description) for selection in the Bill of Materials application, filtered by product type and product group."
+semantic_vi: "Trợ giúp giá trị vật liệu BOM (VH) — cung cấp danh sách vật liệu có thể tìm kiếm (mã sản phẩm và mô tả) để chọn trong ứng dụng Danh mục vật liệu (BOM), lọc theo loại sản phẩm và nhóm sản phẩm."
+keywords:
+  - vật liệu BOM
+  - giá trị giúp đỡ vật liệu
+  - danh mục vật liệu
+  - tìm kiếm sản phẩm BOM
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

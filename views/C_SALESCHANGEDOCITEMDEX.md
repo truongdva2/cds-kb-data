@@ -1,6 +1,14 @@
 ---
 name: C_SALESCHANGEDOCITEMDEX
 description: Saleschangedocitemdex
+semantic_en: "Sales document change log item data extraction — records each field-level change made to a sales document (header, item, schedule line, partner, condition), capturing old/new values and the corresponding sales document and item reference."
+semantic_vi: "Trích xuất dữ liệu mục nhật ký thay đổi chứng từ bán hàng — ghi lại từng thay đổi cấp trường trên chứng từ bán hàng (header, dòng, lịch giao hàng, đối tác, điều kiện giá), lưu giá trị cũ/mới và tham chiếu chứng từ bán hàng tương ứng."
+keywords:
+  - nhật ký thay đổi bán hàng
+  - lịch sử thay đổi chứng từ SD
+  - change document bán hàng
+  - trích xuất thay đổi
+  - audit trail bán hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

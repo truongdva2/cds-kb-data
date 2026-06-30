@@ -1,6 +1,13 @@
 ---
 name: D_MATLSUPNDMNDVIEWITEMGETITEMP
 description: D Matlsupndmndviewitemgetitemp
+semantic_en: "Material supply and demand view item action parameter — input structure identifying a specific MRP item by Material, MRPPlant, MRPArea, planning segment, shortage definition, and supply/demand aggregation keys."
+semantic_vi: "Tham số hành động dòng xem cung cầu vật liệu — cấu trúc đầu vào xác định dòng MRP theo vật liệu, nhà máy MRP, vùng MRP, phân khúc lập kế hoạch, định nghĩa thiếu hụt và khóa tổng hợp cung/cầu."
+keywords:
+  - cung cầu vật liệu
+  - MRP
+  - lập kế hoạch sản xuất
+  - thiếu hụt vật tư
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

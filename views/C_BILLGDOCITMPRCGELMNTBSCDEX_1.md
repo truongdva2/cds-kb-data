@@ -1,6 +1,13 @@
 ---
 name: C_BILLGDOCITMPRCGELMNTBSCDEX_1
 description: Billgdocitmprcgelmntbscdex 1
+semantic_en: "Billing document item pricing element data extraction — a DEX view joining pricing condition records (PRCD_ELEMENTS) to billing document items, exposing condition type, condition amount, transaction currency, and billing/organization/partner attributes for BW extraction."
+semantic_vi: "Trích xuất dữ liệu yếu tố định giá dòng chứng từ hóa đơn — view DEX kết hợp bản ghi điều kiện giá (PRCD_ELEMENTS) với dòng chứng từ hóa đơn, cung cấp loại điều kiện, số tiền điều kiện, tiền tệ giao dịch và các thuộc tính tổ chức/đối tác để trích xuất BW."
+keywords:
+  - yếu tố định giá hóa đơn
+  - điều kiện giá hóa đơn
+  - trích xuất dữ liệu hóa đơn
+  - PRCD_ELEMENTS hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

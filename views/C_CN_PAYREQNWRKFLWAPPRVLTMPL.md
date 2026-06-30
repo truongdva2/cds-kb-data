@@ -1,6 +1,13 @@
 ---
 name: C_CN_PAYREQNWRKFLWAPPRVLTMPL
 description: CN Payreqnwrkflwapprvltmpl
+semantic_en: "China payment requisition workflow approval email template — supplies requisition details (requisition number, company code, supplier, amount, planned payment date, priority, status, approver note) to the email notification for payment requisition approval tasks."
+semantic_vi: "Mẫu email phê duyệt workflow yêu cầu thanh toán (Trung Quốc) — cung cấp thông tin yêu cầu thanh toán (số yêu cầu, mã công ty, nhà cung cấp, số tiền, ngày thanh toán dự kiến, ưu tiên, trạng thái, ghi chú phê duyệt) cho email thông báo phê duyệt."
+keywords:
+  - yêu cầu thanh toán Trung Quốc
+  - email phê duyệt thanh toán
+  - workflow thanh toán CN
+  - mẫu email phê duyệt tài chính
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

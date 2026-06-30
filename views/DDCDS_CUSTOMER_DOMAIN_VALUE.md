@@ -1,6 +1,14 @@
 ---
 name: DDCDS_CUSTOMER_DOMAIN_VALUE
 description: Ddcds Customer Domain Value
+semantic_en: "Customer ABAP domain fixed values — parameterized view returning the active fixed-value entries (low/high value and position) for a given ABAP domain name, scoped to customer-owned software components."
+semantic_vi: "Giá trị cố định domain ABAP của khách hàng — view có tham số trả về các bản ghi giá trị cố định đang hoạt động (giá trị thấp/cao và vị trí) cho một tên domain ABAP cho trước, giới hạn trong các thành phần phần mềm do khách hàng sở hữu."
+keywords:
+  - giá trị cố định domain
+  - ABAP domain value
+  - fixed value domain
+  - domain khách hàng
+  - cấu hình domain ABAP
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_FUNCNLLOCCLFNCHARCVALUEDEX
 description: Funcnllocclfncharcvaluedex
+semantic_en: "Functional location classification characteristic values data extraction — extracts all classification characteristic values assigned to functional location objects, including characteristic name, data type, value ranges, and associated maintenance plant and company code."
+semantic_vi: "Trích xuất dữ liệu giá trị đặc tính phân loại vị trí chức năng — trích xuất toàn bộ giá trị đặc tính phân loại gán cho đối tượng vị trí chức năng, bao gồm tên đặc tính, kiểu dữ liệu, khoảng giá trị, nhà máy bảo trì và mã công ty."
+keywords:
+  - vị trí chức năng bảo trì
+  - phân loại vị trí chức năng
+  - trích xuất dữ liệu PM
+  - đặc tính vị trí thiết bị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,14 @@
 ---
 name: D_BILLOFMATERIALCOMPAREBOMR
 description: D Bill of MaterialCOMPAREBOMR
+semantic_en: "BOM comparison action result structure — abstract entity defining the output of a BOM comparison, listing primary vs. secondary component differences (component number, material type, quantity, item category, description, price, and comparison result flag) per comparison UUID."
+semantic_vi: "Cấu trúc kết quả hành động so sánh BOM — thực thể trừu tượng định nghĩa đầu ra của phép so sánh BOM, liệt kê sự khác biệt giữa thành phần chính và phụ (số thành phần, loại vật tư, số lượng, loại dòng, mô tả, giá và cờ kết quả so sánh) theo UUID so sánh."
+keywords:
+  - kết quả so sánh BOM
+  - sự khác biệt thành phần BOM
+  - BOM comparison result
+  - so sánh danh mục vật liệu
+  - thành phần BOM khác biệt
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

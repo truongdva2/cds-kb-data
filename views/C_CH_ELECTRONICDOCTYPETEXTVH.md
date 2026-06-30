@@ -1,6 +1,13 @@
 ---
 name: C_CH_ELECTRONICDOCTYPETEXTVH
 description: CH Electronicdoctypetextvh
+semantic_en: "Switzerland electronic document type text value help (VH) — provides a searchable list of Swiss electronic accounting document type codes with their language-dependent description texts for use in F4 selection."
+semantic_vi: "Trợ giúp giá trị văn bản loại chứng từ điện tử Thụy Sĩ (VH) — cung cấp danh sách có thể tìm kiếm các mã loại chứng từ kế toán điện tử Thụy Sĩ cùng mô tả phụ thuộc ngôn ngữ để sử dụng trong tìm kiếm F4."
+keywords:
+  - loại chứng từ điện tử Thụy Sĩ
+  - giá trị giúp đỡ chứng từ điện tử
+  - e-document Switzerland
+  - mã chứng từ kế toán
 app_component: CA-GTF-CSC-EDO-CH
 software_component: SAPSCORE
 release_state: released

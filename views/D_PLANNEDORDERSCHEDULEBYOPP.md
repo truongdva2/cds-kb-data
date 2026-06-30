@@ -1,6 +1,13 @@
 ---
 name: D_PLANNEDORDERSCHEDULEBYOPP
 description: D Planned OrderSCHEDULEBYOPP
+semantic_en: "Schedule planned order operation action parameter — input structure carrying PlannedOrder, operation latest start/end date and time, scheduling direction, status, strategy, and WorkCenter."
+semantic_vi: "Tham số hành động lên lịch thao tác lệnh sản xuất theo kế hoạch — cấu trúc đầu vào mang lệnh sản xuất theo kế hoạch, ngày và giờ bắt đầu/kết thúc muộn nhất, hướng lập lịch, trạng thái, chiến lược và trung tâm làm việc."
+keywords:
+  - lệnh sản xuất theo kế hoạch
+  - lập lịch thao tác
+  - trung tâm làm việc
+  - sản xuất PP
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

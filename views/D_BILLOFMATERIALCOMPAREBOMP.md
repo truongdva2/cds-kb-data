@@ -1,6 +1,14 @@
 ---
 name: D_BILLOFMATERIALCOMPAREBOMP
 description: D Bill of MaterialCOMPAREBOMP
+semantic_en: "BOM comparison action parameter structure — abstract entity defining the input parameters for the BOM comparison action, specifying primary and secondary BOM identifiers (material, plant, variant, version, validity date) and comparison control options."
+semantic_vi: "Cấu trúc tham số đầu vào hành động so sánh BOM — thực thể trừu tượng định nghĩa các tham số đầu vào cho hành động so sánh BOM, xác định định danh BOM chính và phụ (vật tư, nhà máy, biến thể, phiên bản, ngày hiệu lực) và tùy chọn kiểm soát so sánh."
+keywords:
+  - tham số so sánh BOM
+  - so sánh danh mục vật liệu
+  - BOM comparison
+  - cấu trúc đầu vào BOM
+  - so sánh bill of material
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

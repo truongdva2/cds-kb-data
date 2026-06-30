@@ -1,6 +1,13 @@
 ---
 name: D_INSPLOTRECORDUSAGEDECISIONP
 description: D Insplotrecordusagedecisionp
+semantic_en: "Inspection lot record usage decision action parameter — input structure carrying the selected code set plant, usage decision selected set, code group, decision code, and forced-completion flag."
+semantic_vi: "Tham số hành động ghi quyết định sử dụng lô kiểm tra — cấu trúc đầu vào mang nhà máy bộ mã đã chọn, tập hợp quyết định sử dụng, nhóm mã, mã quyết định và cờ hoàn thành bắt buộc."
+keywords:
+  - quyết định sử dụng
+  - lô kiểm tra
+  - mã quyết định kiểm tra
+  - quản lý chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

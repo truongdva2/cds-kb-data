@@ -1,6 +1,13 @@
 ---
 name: C_BUSINESSSOLUTIONORDERITEMDEX
 description: Businesssolutionorderitemdex
+semantic_en: "Business solution order item data extraction — a DEX view for CRM service orders (object type BUS2000172) projecting item and header fields including product, quantity, partner, pricing, subscription terms, project dates, and reference object details for BW extraction."
+semantic_vi: "Trích xuất dữ liệu dòng đơn hàng giải pháp kinh doanh — view DEX cho đơn hàng dịch vụ CRM (loại đối tượng BUS2000172) chiếu các trường dòng và tiêu đề bao gồm sản phẩm, số lượng, đối tác, định giá, điều khoản đăng ký, ngày dự án và chi tiết đối tượng tham chiếu để trích xuất BW."
+keywords:
+  - đơn hàng giải pháp dịch vụ CRM
+  - trích xuất đơn hàng dịch vụ
+  - dòng đơn hàng dịch vụ
+  - đăng ký dịch vụ BUS2000172
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

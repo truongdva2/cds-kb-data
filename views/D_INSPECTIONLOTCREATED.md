@@ -1,6 +1,13 @@
 ---
 name: D_INSPECTIONLOTCREATED
 description: D Inspectionlotcreated
+semantic_en: "Inspection lot created event signature — abstract entity carrying Plant, BusinessObject, SAPBusinessObjectType, and BusinessObjectItem that define the payload when a new inspection lot is created."
+semantic_vi: "Chữ ký sự kiện tạo lô kiểm tra — thực thể trừu tượng mang Nhà máy, đối tượng nghiệp vụ, loại đối tượng SAP và dòng đối tượng nghiệp vụ xác định nội dung sự kiện khi lô kiểm tra mới được tạo."
+keywords:
+  - lô kiểm tra
+  - tạo lô kiểm tra
+  - sự kiện QM
+  - đối tượng nghiệp vụ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

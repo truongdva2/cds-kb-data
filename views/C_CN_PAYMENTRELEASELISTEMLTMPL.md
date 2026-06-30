@@ -1,6 +1,13 @@
 ---
 name: C_CN_PAYMENTRELEASELISTEMLTMPL
 description: CN Paymentreleaselistemltmpl
+semantic_en: "China payment release list workflow email template — supplies payment release list details (company code, total amount, number of items, status, processor) to the email notification for payment release list workflow approval tasks."
+semantic_vi: "Mẫu email workflow danh sách giải phóng thanh toán (Trung Quốc) — cung cấp thông tin danh sách giải phóng thanh toán (mã công ty, tổng số tiền, số mục, trạng thái, người xử lý) cho email thông báo phê duyệt workflow."
+keywords:
+  - email giải phóng thanh toán
+  - danh sách thanh toán Trung Quốc
+  - workflow phê duyệt thanh toán
+  - mẫu email tài chính CN
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

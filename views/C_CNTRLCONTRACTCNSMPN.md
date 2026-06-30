@@ -1,6 +1,14 @@
 ---
 name: C_CNTRLCONTRACTCNSMPN
 description: Cntrlcontractcnsmpn
+semantic_en: "Central contract consumption analytical cube — aggregates release order quantities, target amounts, and consumed amounts per central purchase contract item across supplier, material, plant, purchasing org, and calendar period dimensions."
+semantic_vi: "Khối phân tích tiêu thụ hợp đồng trung tâm — tổng hợp số lượng lệnh mua, số tiền mục tiêu và số tiền đã tiêu thụ theo từng dòng hợp đồng mua trung tâm, phân tích theo nhà cung cấp, vật tư, nhà máy, tổ chức mua và kỳ lịch."
+keywords:
+  - tiêu thụ hợp đồng mua
+  - hợp đồng trung tâm
+  - phân tích mua sắm
+  - số lượng lệnh mua
+  - trung tâm mua sắm
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

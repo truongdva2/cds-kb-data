@@ -1,6 +1,13 @@
 ---
 name: C_GREGORIANCALDATEFUNCVH
 description: Gregoriancaldatefuncvh
+semantic_en: "VH: Gregorian calendar date functions — value help listing all valid Gregorian calendar date functions (key, name, description, validity start/end date) active as of the current session date."
+semantic_vi: "VH: Hàm ngày lịch Gregorian — danh sách trợ giúp giá trị cho tất cả hàm ngày lịch Gregorian hợp lệ (mã, tên, mô tả, ngày hiệu lực) còn hiệu lực tại ngày phiên làm việc hiện tại."
+keywords:
+  - hàm ngày lịch Gregorian
+  - trợ giúp giá trị ngày
+  - lịch dương
+  - chức năng ngày tháng SAP
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_EQUIPMENTCLFNCHARCVALUEDEX
 description: Equipmentclfncharcvaluedex
+semantic_en: "Equipment classification characteristic values data extraction — extracts all classification characteristic values assigned to equipment objects, including characteristic name, data type, numeric/date/amount value ranges, and associated maintenance plant and company code."
+semantic_vi: "Trích xuất dữ liệu giá trị đặc tính phân loại thiết bị — trích xuất toàn bộ giá trị đặc tính phân loại gán cho đối tượng thiết bị, bao gồm tên đặc tính, kiểu dữ liệu, khoảng giá trị số/ngày/tiền tệ, nhà máy bảo trì và mã công ty."
+keywords:
+  - phân loại thiết bị
+  - đặc tính thiết bị PM
+  - trích xuất dữ liệu thiết bị
+  - giá trị đặc tính bảo trì
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

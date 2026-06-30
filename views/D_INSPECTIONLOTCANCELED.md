@@ -1,6 +1,13 @@
 ---
 name: D_INSPECTIONLOTCANCELED
 description: D Inspectionlotcanceled
+semantic_en: "Inspection lot canceled event signature — abstract entity carrying the Plant field that defines the payload when an inspection lot cancellation event is raised."
+semantic_vi: "Chữ ký sự kiện hủy lô kiểm tra — thực thể trừu tượng mang trường Nhà máy xác định nội dung sự kiện khi một lô kiểm tra bị hủy."
+keywords:
+  - lô kiểm tra
+  - hủy kiểm tra
+  - sự kiện QM
+  - quản lý chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_PLNDINDEPRQMTCREATED
 description: D Plndindeprqmtcreated
+semantic_en: "Planned independent requirement created event signature — abstract entity carrying the calling application and last-changed-by user that define the payload when a new planned independent requirement is created."
+semantic_vi: "Chữ ký sự kiện tạo nhu cầu độc lập theo kế hoạch — thực thể trừu tượng mang ứng dụng gọi và người thay đổi lần cuối xác định nội dung sự kiện khi nhu cầu độc lập theo kế hoạch mới được tạo."
+keywords:
+  - nhu cầu độc lập theo kế hoạch
+  - PIR
+  - sự kiện tạo mới
+  - lập kế hoạch nhu cầu
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_CABILLGREQWRKFLWEMLTMPL
 description: Cabillgreqwrkflwemltmpl
+semantic_en: "Contract accounts billing request workflow email template — an email output data provider view supplying workflow task ID, billing request details (type, reason, amount currency, creation date, description), and task URL for workflow notification emails."
+semantic_vi: "Mẫu email quy trình phê duyệt yêu cầu thanh toán tài khoản hợp đồng — view cung cấp dữ liệu đầu ra email bao gồm ID nhiệm vụ quy trình, chi tiết yêu cầu thanh toán (loại, lý do, tiền tệ, ngày tạo, mô tả) và URL nhiệm vụ để gửi thông báo email quy trình."
+keywords:
+  - mẫu email quy trình thanh toán
+  - yêu cầu thanh toán CA
+  - phê duyệt hóa đơn FI-CA
+  - thông báo quy trình tài khoản hợp đồng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

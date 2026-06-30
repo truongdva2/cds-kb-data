@@ -1,6 +1,13 @@
 ---
 name: C_CHANGEMASTERDEX_2
 description: Change MasterERDEX 2
+semantic_en: "Engineering change master data extraction — a DEX/dimension view projecting change number header attributes including status, function, release key, validity date, release flags (for costing/planning/production/simulation), and administrative fields for BW extraction."
+semantic_vi: "Trích xuất dữ liệu lệnh thay đổi kỹ thuật — view DEX/chiều chiếu các thuộc tính tiêu đề số lệnh thay đổi bao gồm trạng thái, chức năng, khóa phát hành, ngày hiệu lực, cờ phát hành (cho tính giá/lập kế hoạch/sản xuất/mô phỏng) và các trường quản trị để trích xuất BW."
+keywords:
+  - lệnh thay đổi kỹ thuật
+  - trạng thái lệnh thay đổi
+  - phát hành lệnh thay đổi
+  - trích xuất ECM PLM
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

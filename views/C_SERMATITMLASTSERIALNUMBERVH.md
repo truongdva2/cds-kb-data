@@ -1,6 +1,14 @@
 ---
 name: C_SERMATITMLASTSERIALNUMBERVH
 description: SERMATITMLASTSerial NumberVH
+semantic_en: "Last material serial number value help (VH) — provides a searchable list of materials joined with the last assigned equipment serial number, used to look up or prefill serial numbers in plant maintenance scenarios."
+semantic_vi: "Value help số serial vật tư cuối cùng (VH) — cung cấp danh sách vật tư kèm số serial thiết bị được gán gần nhất, dùng để tra cứu hoặc điền sẵn số serial trong các tình huống bảo trì nhà máy."
+keywords:
+  - số serial vật tư
+  - value help serial number
+  - serial bảo trì PM
+  - số serial cuối cùng
+  - thiết bị số serial
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,14 @@
 ---
 name: C_SALESDOCUMENTITEMDEX_1
 description: Salesdocumentitemdex 1
+semantic_en: "Sales document item data extraction — comprehensive line-level extract of a sales document item (product, quantities, pricing amounts, shipping, billing, accounting, and status fields) across inquiries, quotations, orders, contracts, returns, and credit/debit memo requests."
+semantic_vi: "Trích xuất dữ liệu dòng chứng từ bán hàng — trích xuất toàn diện cấp dòng của chứng từ bán hàng (sản phẩm, số lượng, giá trị, giao hàng, thanh toán, kế toán và trạng thái) trên các loại chứng từ báo giá, đơn hàng, hợp đồng, trả hàng, yêu cầu ghi có/nợ."
+keywords:
+  - dòng chứng từ bán hàng
+  - trích xuất dòng đơn hàng
+  - sales document item
+  - phân tích bán hàng SD
+  - order item analytics
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_GREGORIANCALSGLDATEFUNCVH
 description: Gregoriancalsgldatefuncvh
+semantic_en: "VH: Single Gregorian calendar date functions — value help listing only single-type (DateFunctionType = '01') Gregorian calendar date functions active as of the current session date."
+semantic_vi: "VH: Hàm ngày đơn lịch Gregorian — danh sách trợ giúp giá trị chỉ dành cho các hàm ngày lịch Gregorian thuộc loại đơn (DateFunctionType = '01') còn hiệu lực tại ngày phiên làm việc hiện tại."
+keywords:
+  - hàm ngày đơn lịch Gregorian
+  - trợ giúp giá trị ngày đơn
+  - lịch dương đơn
+  - chức năng ngày tháng SAP
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

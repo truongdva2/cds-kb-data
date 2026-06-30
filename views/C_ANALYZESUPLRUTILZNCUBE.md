@@ -1,6 +1,13 @@
 ---
 name: C_ANALYZESUPLRUTILZNCUBE
 description: Analyzesuplrutilzncube
+semantic_en: "Supplier utilization analytical cube — aggregates per supplier the total number of available suppliers and number of contracts, segmented by country, region, and supplier account group."
+semantic_vi: "Khối phân tích mức độ sử dụng nhà cung cấp — tổng hợp theo nhà cung cấp số lượng nhà cung cấp hiện có và số hợp đồng, phân loại theo quốc gia, khu vực và nhóm tài khoản nhà cung cấp."
+keywords:
+  - phân tích nhà cung cấp
+  - số lượng hợp đồng nhà cung cấp
+  - mức độ sử dụng nhà cung cấp
+  - mua sắm phân tích
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

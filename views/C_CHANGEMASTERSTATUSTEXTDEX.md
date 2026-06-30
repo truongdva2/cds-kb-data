@@ -1,6 +1,13 @@
 ---
 name: C_CHANGEMASTERSTATUSTEXTDEX
 description: Change MasterERSTATUSTEXTDEX
+semantic_en: "Engineering change master status text data extraction — a language-dependent text DEX view providing the description text for each change number status code, keyed by ChangeNumberStatus and Language."
+semantic_vi: "Trích xuất văn bản trạng thái lệnh thay đổi kỹ thuật — view DEX văn bản phụ thuộc ngôn ngữ cung cấp mô tả cho từng mã trạng thái số lệnh thay đổi, khóa theo ChangeNumberStatus và ngôn ngữ."
+keywords:
+  - văn bản trạng thái lệnh thay đổi
+  - mô tả trạng thái ECM
+  - đa ngôn ngữ lệnh thay đổi
+  - text trạng thái kỹ thuật
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,14 @@
 ---
 name: C_PCF_CODEVALUEHELP
 description: Pcf Codevaluehelp
+semantic_en: "Predefined fields code value help (VH) — provides selectable code values for predefined/extensible fields identified by NodeName and FieldName, with a text association for display."
+semantic_vi: "Value help mã giá trị trường định nghĩa sẵn (VH) — cung cấp danh sách mã giá trị có thể chọn cho các trường mở rộng/định nghĩa sẵn được xác định bởi NodeName và FieldName, kèm liên kết text để hiển thị."
+keywords:
+  - value help trường định nghĩa sẵn
+  - mã giá trị PCF
+  - trường mở rộng
+  - predefined fields
+  - code value help
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

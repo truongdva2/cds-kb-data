@@ -1,6 +1,14 @@
 ---
 name: C_COSTCENTERPLANACTUALQUERY
 description: Cost CenterPLANACTUALQUERY
+semantic_en: "Cost center plan versus actual analytical query — compares planned and actual costs by cost center and G/L account per fiscal period and year-to-date, exposing deviations and percentage differences in company-code and global currency."
+semantic_vi: "Truy vấn phân tích so sánh kế hoạch và thực tế trung tâm chi phí — so sánh chi phí kế hoạch và thực tế theo trung tâm chi phí, tài khoản G/L theo từng kỳ kế toán và lũy kế năm, hiển thị chênh lệch và tỷ lệ phần trăm sai lệch."
+keywords:
+  - so sánh kế hoạch thực tế
+  - trung tâm chi phí
+  - phân tích controlling
+  - kiểm soát ngân sách
+  - báo cáo CO
 app_component: CO-OM-CCA-2CL
 software_component: SAPSCORE
 release_state: released

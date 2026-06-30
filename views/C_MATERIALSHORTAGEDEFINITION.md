@@ -1,6 +1,14 @@
 ---
 name: C_MATERIALSHORTAGEDEFINITION
 description: Materialshortagedefinition
+semantic_en: "MRP material shortage definition — customizing view for shortage analysis profiles combining demand/receipt category groups, evaluation horizon, and uncovered demand flag; supports value-help lookup."
+semantic_vi: "Định nghĩa thiếu hụt vật tư MRP — view cấu hình hồ sơ phân tích thiếu hụt kết hợp nhóm danh mục nhu cầu/biên lai, chân trời đánh giá và cờ nhu cầu chưa được đáp ứng; hỗ trợ tra cứu value-help."
+keywords:
+  - thiếu hụt vật tư
+  - định nghĩa thiếu hụt MRP
+  - hồ sơ thiếu hụt
+  - nhu cầu chưa đáp ứng
+  - phân tích thiếu hụt
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

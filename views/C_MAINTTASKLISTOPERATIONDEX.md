@@ -1,6 +1,14 @@
 ---
 name: C_MAINTTASKLISTOPERATIONDEX
 description: Maintenance Task ListOPERATIONDEX
+semantic_en: "Maintenance task list operation data extraction — line-level operations and sub-operations of a maintenance task list (work center, planned work, external processing cost, purchasing data, validity) for delta-enabled extraction."
+semantic_vi: "Trích xuất dữ liệu công đoạn danh mục công việc bảo trì — dữ liệu từng công đoạn và công đoạn con trong danh mục công việc bảo trì (trung tâm công việc, công việc kế hoạch, chi phí gia công ngoài, dữ liệu mua hàng, hiệu lực) dùng cho trích xuất delta."
+keywords:
+  - công đoạn bảo trì
+  - thao tác task list
+  - trích xuất công đoạn PM
+  - sub-operation bảo trì
+  - công việc kế hoạch
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_CNTRLPURCONTRAPPROVALEMAIL
 description: Cntrlpurcontrapprovalemail
+semantic_en: "Central purchase contract workflow approval email template — supplies contract details (supplier, document currency, type, creation/due timestamps) to the email notification sent when a workflow approval task is raised for a central purchase contract."
+semantic_vi: "Mẫu email phê duyệt quy trình hợp đồng mua trung tâm — cung cấp thông tin hợp đồng (nhà cung cấp, loại hợp đồng, tiền tệ, thời gian tạo/hạn) cho thông báo email khi phát sinh nhiệm vụ phê duyệt workflow đối với hợp đồng mua trung tâm."
+keywords:
+  - email phê duyệt hợp đồng mua
+  - workflow hợp đồng trung tâm
+  - thông báo phê duyệt
+  - hợp đồng mua sắm tập trung
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_CUSTRETDLVCRTEFRMSLSDOCITEMP
 description: D Custretdlvcrtefrmslsdocitemp
+semantic_en: "Customer return: create delivery from sales document item action parameter — input structure identifying a specific sales document item by ReferenceSDDocument and ReferenceSDDocumentItem."
+semantic_vi: "Trả hàng khách hàng: tham số dòng chứng từ khi tạo giao hàng từ chứng từ bán hàng — cấu trúc đầu vào xác định dòng chứng từ bán hàng bằng số chứng từ và số dòng SD."
+keywords:
+  - trả hàng khách hàng
+  - dòng chứng từ bán hàng
+  - tạo giao hàng
+  - tham số dòng
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

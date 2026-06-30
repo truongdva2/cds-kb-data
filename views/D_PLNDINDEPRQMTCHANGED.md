@@ -1,6 +1,13 @@
 ---
 name: D_PLNDINDEPRQMTCHANGED
 description: D Plndindeprqmtchanged
+semantic_en: "Planned independent requirement changed event signature — abstract entity carrying the calling application and last-changed-by user that define the payload when a planned independent requirement is modified."
+semantic_vi: "Chữ ký sự kiện thay đổi nhu cầu độc lập theo kế hoạch — thực thể trừu tượng mang ứng dụng gọi và người thay đổi lần cuối xác định nội dung sự kiện khi nhu cầu độc lập theo kế hoạch được cập nhật."
+keywords:
+  - nhu cầu độc lập theo kế hoạch
+  - PIR
+  - sự kiện sản xuất
+  - lập kế hoạch nhu cầu
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_CITITEMCLASSIFICATIONTP
 description: Cititemclassificationtp
+semantic_en: "Corporate income tax item classification transactional processing view — exposes ledger line items with CIT classification code and description, CIT hierarchy, reporting date, and the item amount in display currency for the CIT classification Fiori app."
+semantic_vi: "View xử lý giao dịch phân loại dòng thuế thu nhập doanh nghiệp (CIT) — hiển thị các dòng sổ cái với mã phân loại CIT và mô tả, phân cấp CIT, ngày báo cáo và số tiền dòng theo đồng tiền hiển thị cho ứng dụng Fiori phân loại CIT."
+keywords:
+  - phân loại thuế thu nhập doanh nghiệp
+  - CIT dòng sổ cái
+  - phân loại CIT Fiori
+  - thuế doanh nghiệp FI
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

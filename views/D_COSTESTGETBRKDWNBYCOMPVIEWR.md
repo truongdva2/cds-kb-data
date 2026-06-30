@@ -1,6 +1,13 @@
 ---
 name: D_COSTESTGETBRKDWNBYCOMPVIEWR
 description: D Costestgetbrkdwnbycompviewr
+semantic_en: "Cost breakdown of cost estimate action result — output structure returning CompanyCodeCurrency, ControllingAreaCurrency, and the associated cost components."
+semantic_vi: "Kết quả hành động phân tích chi phí ước tính — cấu trúc đầu ra trả về đơn vị tiền tệ mã công ty, đơn vị tiền tệ vùng kiểm soát và các thành phần chi phí liên quan."
+keywords:
+  - phân tích chi phí
+  - kết quả ước tính giá thành
+  - thành phần chi phí
+  - đơn vị tiền tệ kiểm soát
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

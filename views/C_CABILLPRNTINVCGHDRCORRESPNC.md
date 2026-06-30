@@ -1,6 +1,13 @@
 ---
 name: C_CABILLPRNTINVCGHDRCORRESPNC
 description: Cabillprntinvcghdrcorrespnc
+semantic_en: "Contract accounts invoicing document print correspondence header — an output email data provider view combining correspondence header data with invoicing document header attributes, sender and recipient address details, for printing or emailing CA invoices."
+semantic_vi: "Tiêu đề chứng từ hóa đơn tài khoản hợp đồng dùng cho in thư tín — view cung cấp dữ liệu đầu ra kết hợp dữ liệu tiêu đề thư tín với thuộc tính tiêu đề chứng từ hóa đơn và chi tiết địa chỉ người gửi/người nhận để in hoặc gửi email hóa đơn CA."
+keywords:
+  - in hóa đơn tài khoản hợp đồng
+  - thư tín hóa đơn FI-CA
+  - địa chỉ người nhận hóa đơn
+  - chứng từ hóa đơn CA
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

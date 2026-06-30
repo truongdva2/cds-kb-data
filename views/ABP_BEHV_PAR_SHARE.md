@@ -1,6 +1,13 @@
 ---
 name: ABP_BEHV_PAR_SHARE
 description: Abp Behv Par Share
+semantic_en: "Draft share action parameter — a root abstract entity holding the ShareAll flag, IsDeltaUpdate indicator, and a composition of user access entries for the RAP draft Share action."
+semantic_vi: "Tham số hành động chia sẻ bản nháp — thực thể trừu tượng gốc chứa cờ ShareAll, chỉ báo IsDeltaUpdate và tập hợp các bản ghi quyền truy cập người dùng cho hành động Share trong RAP."
+keywords:
+  - chia sẻ bản nháp RAP
+  - tham số hành động nháp
+  - phân quyền chia sẻ
+  - RAP draft action
 app_component: BC-ABA-LA
 software_component: SAP_BASIS
 release_state: released

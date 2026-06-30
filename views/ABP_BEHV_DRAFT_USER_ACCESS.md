@@ -1,6 +1,13 @@
 ---
 name: ABP_BEHV_DRAFT_USER_ACCESS
 description: Abp Behv Draft User Access
+semantic_en: "Draft user access entry — an abstract entity defining UserID and UserAccessRole for controlling which users can access a shared RAP draft."
+semantic_vi: "Bản ghi quyền truy cập nháp — thực thể trừu tượng xác định UserID và vai trò truy cập (UserAccessRole) để kiểm soát người dùng nào được phép truy cập bản nháp RAP được chia sẻ."
+keywords:
+  - quyền truy cập bản nháp
+  - chia sẻ nháp RAP
+  - người dùng nháp
+  - kiểm soát truy cập
 app_component: BC-ABA-LA
 software_component: SAP_BASIS
 release_state: released

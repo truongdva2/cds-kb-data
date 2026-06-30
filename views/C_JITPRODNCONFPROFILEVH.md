@@ -1,6 +1,13 @@
 ---
 name: C_JITPRODNCONFPROFILEVH
 description: Jitprodnconfprofilevh
+semantic_en: "VH: JIT production confirmation profile — value help listing valid Just-in-Time production confirmation profiles with their language-dependent descriptions."
+semantic_vi: "VH: Hồ sơ xác nhận sản xuất JIT — danh sách trợ giúp giá trị cung cấp các hồ sơ xác nhận sản xuất Just-in-Time hợp lệ cùng mô tả theo ngôn ngữ."
+keywords:
+  - xác nhận sản xuất JIT
+  - Just-in-Time sản xuất
+  - hồ sơ xác nhận JIT
+  - trợ giúp giá trị logistics
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

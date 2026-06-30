@@ -1,6 +1,14 @@
 ---
 name: C_SALESDOCITMPRCGELMNTDEX_1
 description: Salesdocitmprcgelmntdex 1
+semantic_en: "Sales document item pricing element data extraction — one pricing condition record per sales document item (condition type, amount, currency, status) enriched with item and header attributes for analytics extraction across inquiries, quotations, orders, contracts, returns, and credit/debit memo requests."
+semantic_vi: "Trích xuất dữ liệu phần tử định giá dòng chứng từ bán hàng — một bản ghi điều kiện giá cho mỗi dòng chứng từ bán hàng (loại điều kiện, số tiền, tiền tệ, trạng thái) được làm giàu bởi thuộc tính dòng và header phục vụ phân tích trên các loại chứng từ báo giá, đơn hàng, hợp đồng, trả hàng, yêu cầu ghi có/nợ."
+keywords:
+  - phần tử định giá bán hàng
+  - điều kiện giá SD
+  - trích xuất định giá
+  - pricing element
+  - pricing condition bán hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

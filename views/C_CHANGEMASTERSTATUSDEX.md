@@ -1,6 +1,13 @@
 ---
 name: C_CHANGEMASTERSTATUSDEX
 description: Change MasterERSTATUSDEX
+semantic_en: "Engineering change master status data extraction — a DEX/dimension view projecting change number status customizing entries with flags for ChangeIsAllowed, DateChangeIsAllowed, and DistributionIsLocked."
+semantic_vi: "Trích xuất dữ liệu trạng thái lệnh thay đổi kỹ thuật — view DEX/chiều chiếu các mục tùy chỉnh trạng thái số lệnh thay đổi với các cờ cho phép thay đổi, cho phép thay đổi ngày và khóa phân phối."
+keywords:
+  - trạng thái lệnh thay đổi
+  - cho phép thay đổi kỹ thuật
+  - tùy chỉnh trạng thái ECM
+  - khóa phân phối lệnh thay đổi
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,14 @@
 ---
 name: C_COSTCENTERACTUALQUERY
 description: Cost CenterACTUALQUERY
+semantic_en: "Cost center actuals analytical query — reports actual costs by cost center, G/L account, and fiscal period with period-over-period, year-over-year, quarter-over-quarter, and year-to-date comparisons in company-code and global currency."
+semantic_vi: "Truy vấn phân tích chi phí thực tế trung tâm chi phí — báo cáo chi phí thực tế theo trung tâm chi phí, tài khoản G/L và kỳ kế toán với so sánh kỳ trước, năm trước, quý và lũy kế từ đầu năm theo đồng tiền công ty và đồng tiền toàn cầu."
+keywords:
+  - chi phí thực tế trung tâm chi phí
+  - phân tích controlling
+  - so sánh kỳ kế toán
+  - báo cáo CO
+  - truy vấn tài khoản chi phí
 app_component: CO-OM-CCA-2CL
 software_component: SAPSCORE
 release_state: released

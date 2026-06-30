@@ -1,6 +1,13 @@
 ---
 name: C_IT_ELECTRONICDOCPARTSTATVH
 description: IT Electronicdocpartstatvh
+semantic_en: "VH: Italy electronic document partner status — value help providing the list of valid partner statuses for Italian electronic documents, with code and language-dependent description text."
+semantic_vi: "VH: Trạng thái đối tác tài liệu điện tử Italy — danh sách trợ giúp giá trị cung cấp các mã trạng thái đối tác hợp lệ cho tài liệu điện tử Italy, kèm mã và mô tả theo ngôn ngữ."
+keywords:
+  - trạng thái tài liệu điện tử Italy
+  - e-document đối tác Italy
+  - hóa đơn điện tử Italy
+  - trợ giúp giá trị IT
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

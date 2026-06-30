@@ -1,6 +1,13 @@
 ---
 name: C_CNTRLSUPLRCONFWRKFLWAPRVEML
 description: Cntrlsuplrconfwrkflwaprveml
+semantic_en: "Central supplier confirmation workflow approval email template — supplies confirmation details (purchase order, net amount, supplier, creation date, approver, workflow result and reason) to the approval notification email for a central supplier confirmation."
+semantic_vi: "Mẫu email phê duyệt workflow xác nhận nhà cung cấp trung tâm — cung cấp thông tin xác nhận (đơn mua hàng, số tiền ròng, nhà cung cấp, ngày tạo, người phê duyệt, kết quả workflow) cho email thông báo phê duyệt xác nhận nhà cung cấp tập trung."
+keywords:
+  - email phê duyệt xác nhận nhà cung cấp
+  - workflow xác nhận nhà cung cấp
+  - thông báo phê duyệt mua hàng
+  - xác nhận tập trung
 app_component: MM-PUR-HUB-CSC-2CL
 software_component: SAPSCORE
 release_state: released

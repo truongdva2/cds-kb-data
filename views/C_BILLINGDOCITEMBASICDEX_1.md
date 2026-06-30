@@ -1,6 +1,14 @@
 ---
 name: C_BILLINGDOCITEMBASICDEX_1
 description: Billing DocumentITEMBASICDEX 1
+semantic_en: "Billing document item basic data extraction — a DEX view projecting billing document line-item fields including product, quantities, net/gross/tax amounts, organization, partner, accounting, and status attributes for BW delta extraction."
+semantic_vi: "Trích xuất dữ liệu cơ bản dòng chứng từ hóa đơn — view DEX chiếu các trường dòng chứng từ hóa đơn bao gồm sản phẩm, số lượng, số tiền thuần/gộp/thuế, tổ chức, đối tác, kế toán và trạng thái để trích xuất delta BW."
+keywords:
+  - dòng chứng từ hóa đơn
+  - trích xuất hóa đơn SD
+  - số tiền hóa đơn
+  - trích xuất BW hóa đơn
+  - dữ liệu cơ bản hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

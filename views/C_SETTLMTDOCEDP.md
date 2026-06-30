@@ -1,6 +1,14 @@
 ---
 name: C_SETTLMTDOCEDP
 description: Settlmtdocedp
+semantic_en: "Settlement document email data provider — root consumption view supplying settlement document header data (parties, amounts, payment terms, status, tax) to the output management email framework for generating settlement notifications."
+semantic_vi: "Nhà cung cấp dữ liệu email chứng từ quyết toán — view tiêu thụ gốc cung cấp dữ liệu header chứng từ quyết toán (đối tác, số tiền, điều khoản thanh toán, trạng thái, thuế) cho khung quản lý đầu ra email để tạo thông báo quyết toán."
+keywords:
+  - chứng từ quyết toán
+  - email quyết toán
+  - settlement document
+  - thông báo quyết toán
+  - output management quyết toán
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

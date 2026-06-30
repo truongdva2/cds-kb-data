@@ -1,6 +1,14 @@
 ---
 name: D_COSTESTCOSTCOMPONENTR
 description: D Costestcostcomponentr
+semantic_en: "Cost estimate cost component action result structure — abstract entity defining the output of a cost estimation action, returning cost component identifier, name, and total/fixed amounts in both company code and controlling area currencies."
+semantic_vi: "Cấu trúc kết quả hành động thành phần chi phí ước tính — thực thể trừu tượng định nghĩa đầu ra của hành động ước tính chi phí, trả về mã thành phần chi phí, tên và số tiền tổng/cố định theo cả đơn vị tiền tệ mã công ty và khu vực kiểm soát."
+keywords:
+  - thành phần chi phí
+  - ước tính giá thành
+  - cost component
+  - kết quả ước tính chi phí
+  - controlling chi phí sản phẩm
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

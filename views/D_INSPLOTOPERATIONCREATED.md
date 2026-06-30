@@ -1,6 +1,13 @@
 ---
 name: D_INSPLOTOPERATIONCREATED
 description: D Insplotoperationcreated
+semantic_en: "Inspection lot operation created event signature — abstract entity carrying InspectionSubSystem, InspPlanOperationInternalID, and WorkCenterInternalID that define the payload when a new inspection operation is created."
+semantic_vi: "Chữ ký sự kiện tạo thao tác kiểm tra — thực thể trừu tượng mang hệ thống con kiểm tra, mã nội bộ thao tác kế hoạch kiểm tra và mã nội bộ trung tâm làm việc xác định nội dung sự kiện khi thao tác kiểm tra mới được tạo."
+keywords:
+  - thao tác kiểm tra
+  - lô kiểm tra
+  - trung tâm làm việc
+  - sự kiện QM
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

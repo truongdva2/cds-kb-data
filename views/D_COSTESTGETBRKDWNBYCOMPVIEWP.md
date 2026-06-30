@@ -1,6 +1,13 @@
 ---
 name: D_COSTESTGETBRKDWNBYCOMPVIEWP
 description: D Costestgetbrkdwnbycompviewp
+semantic_en: "Cost breakdown by cost component view action parameter — input structure carrying the CostComponentView key used to request a cost estimate breakdown."
+semantic_vi: "Tham số hành động phân tích chi phí theo thành phần — cấu trúc đầu vào mang khóa CostComponentView để yêu cầu phân tích ước tính chi phí."
+keywords:
+  - phân tích chi phí
+  - thành phần chi phí
+  - ước tính giá thành
+  - kiểm soát chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

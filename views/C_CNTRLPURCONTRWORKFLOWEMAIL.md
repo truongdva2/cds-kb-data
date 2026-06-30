@@ -1,6 +1,13 @@
 ---
 name: C_CNTRLPURCONTRWORKFLOWEMAIL
 description: Cntrlpurcontrworkflowemail
+semantic_en: "Central purchase contract workflow deadline email template — supplies contract details (supplier, document currency, type, creation/due timestamps) to the email notification sent when a workflow deadline task is raised for a central purchase contract."
+semantic_vi: "Mẫu email nhắc hạn chót quy trình hợp đồng mua trung tâm — cung cấp thông tin hợp đồng cho thông báo email khi phát sinh nhiệm vụ nhắc deadline workflow đối với hợp đồng mua trung tâm."
+keywords:
+  - email nhắc hạn hợp đồng mua
+  - workflow deadline hợp đồng
+  - thông báo hạn chót phê duyệt
+  - hợp đồng mua sắm tập trung
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

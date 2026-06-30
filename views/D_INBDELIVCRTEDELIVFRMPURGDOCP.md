@@ -1,6 +1,13 @@
 ---
 name: D_INBDELIVCRTEDELIVFRMPURGDOCP
 description: D Inbdelivcrtedelivfrmpurgdocp
+semantic_en: "Inbound delivery: create delivery from purchasing document action parameter — input structure with Supplier, DeliveryDate, DeliveryTime, supplier delivery reference, means of transport, and reference purchasing document items."
+semantic_vi: "Nhận hàng nội bộ: tham số hành động tạo phiếu giao hàng từ chứng từ mua hàng — cấu trúc đầu vào gồm nhà cung cấp, ngày và giờ giao hàng, số tham chiếu giao hàng của nhà cung cấp, phương tiện vận tải và các dòng chứng từ mua tham chiếu."
+keywords:
+  - nhận hàng nội bộ
+  - tạo giao hàng từ mua hàng
+  - nhà cung cấp
+  - phương tiện vận tải
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

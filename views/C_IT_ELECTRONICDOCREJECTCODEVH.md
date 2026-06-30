@@ -1,6 +1,13 @@
 ---
 name: C_IT_ELECTRONICDOCREJECTCODEVH
 description: IT Electronicdocrejectcodevh
+semantic_en: "VH: Italy electronic document rejection codes — value help providing the list of rejection codes used for Italian electronic documents, with rejection code, language, and rejection reason text."
+semantic_vi: "VH: Mã từ chối tài liệu điện tử Italy — danh sách trợ giúp giá trị cung cấp các mã từ chối dùng cho tài liệu điện tử Italy, kèm mã từ chối, ngôn ngữ và mô tả lý do từ chối."
+keywords:
+  - mã từ chối tài liệu điện tử Italy
+  - từ chối e-document Italy
+  - hóa đơn điện tử bị từ chối
+  - trợ giúp giá trị từ chối IT
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released
