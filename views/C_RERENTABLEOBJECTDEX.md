@@ -1,6 +1,13 @@
 ---
 name: C_RERENTABLEOBJECTDEX
 description: Rerentableobjectdex
+semantic_en: "DEX — RE rentable object master data — exports name, number, OID, alternative ID, portfolio, usage category/type, validity dates, company code, and last-change timestamp for delta extraction."
+semantic_vi: "Trích xuất dữ liệu chủ đối tượng có thể cho thuê trong Bất động sản (RE-FX) — bao gồm tên, số, danh mục sử dụng, ngày hiệu lực và mốc thay đổi cuối để hỗ trợ trích xuất delta."
+keywords:
+  - đối tượng cho thuê bất động sản
+  - trích xuất dữ liệu RE
+  - rentable object
+  - RE-FX quản lý bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

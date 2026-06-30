@@ -1,6 +1,13 @@
 ---
 name: C_SCHEDULEAGREEMENTHDRDEX
 description: Scheduleagreementhdrdex
+semantic_en: "DEX — purchase scheduling agreement header — supplier, purchasing org/group, payment terms, incoterms, validity dates, and target amount for procurement analytics extraction."
+semantic_vi: "DEX — tiêu đề thỏa thuận lịch trình mua hàng — nhà cung cấp, tổ chức/nhóm mua hàng, điều kiện thanh toán, điều kiện giao hàng, thời hạn hiệu lực và giá trị mục tiêu cho trích xuất phân tích."
+keywords:
+  - thỏa thuận lịch trình mua hàng
+  - tiêu đề SA
+  - trích xuất dữ liệu mua hàng
+  - nhà cung cấp điều kiện thanh toán
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

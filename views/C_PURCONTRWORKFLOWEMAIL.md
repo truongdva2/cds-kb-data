@@ -1,6 +1,13 @@
 ---
 name: C_PURCONTRWORKFLOWEMAIL
 description: Purcontrworkflowemail
+semantic_en: "Purchase contract workflow deadline email data provider — supplies workflow task details (creation/due timestamps), contract type, supplier name, and creator for composing deadline notification emails for purchase contracts."
+semantic_vi: "Nguồn dữ liệu email nhắc nhở hạn chót quy trình hợp đồng mua hàng — cung cấp thông tin nhiệm vụ quy trình (thời gian tạo/đến hạn), loại hợp đồng, tên nhà cung cấp và người tạo để soạn email thông báo hạn chót hợp đồng mua."
+keywords:
+  - email hạn chót hợp đồng mua
+  - workflow deadline purchase contract
+  - nhắc nhở hợp đồng mua hàng
+  - email quy trình hợp đồng
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

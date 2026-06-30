@@ -1,6 +1,13 @@
 ---
 name: C_PURGINFORECDPRICECNDNDEX
 description: Purginforecdpricecndndex
+semantic_en: "Purchasing info record pricing condition data extraction (DEX) — exports price condition records linked to a purchasing info record: condition type, validity, rate value, quantity, currency, and base unit per org/plant/category combination."
+semantic_vi: "Trích xuất dữ liệu điều kiện giá của hồ sơ thông tin mua hàng (DEX) — xuất các bản ghi điều kiện giá liên kết với hồ sơ thông tin mua: loại điều kiện, hiệu lực, giá trị, số lượng, đồng tiền và đơn vị cơ sở theo tổ hợp tổ chức/nhà máy/phân loại."
+keywords:
+  - điều kiện giá hồ sơ thông tin mua
+  - pricing condition info record
+  - giá mua hàng theo điều kiện
+  - trích xuất điều kiện giá mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

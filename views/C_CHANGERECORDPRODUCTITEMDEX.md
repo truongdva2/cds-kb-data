@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDPRODUCTITEMDEX
 description: Change RecordPRODUCTITEMDEX
+semantic_en: "DEX — change record product item — delta-enabled extraction view for a product (material) referenced as an item of a change record, keyed by ChangeRecordReferenceUUID."
+semantic_vi: "Trích xuất dữ liệu — hạng mục sản phẩm của phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, đại diện cho sản phẩm (vật liệu) được tham chiếu là hạng mục trong phiếu thay đổi."
+keywords:
+  - hạng mục sản phẩm phiếu thay đổi
+  - vật liệu thay đổi
+  - trích xuất sản phẩm thay đổi
+  - DEX sản phẩm thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

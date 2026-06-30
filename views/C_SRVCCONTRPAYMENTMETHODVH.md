@@ -1,6 +1,12 @@
 ---
 name: C_SRVCCONTRPAYMENTMETHODVH
 description: Srvccontrpaymentmethodvh
+semantic_en: "VH — service contract payment method — value help listing available payment methods per billing company code with description and name for service contract input."
+semantic_vi: "VH — phương thức thanh toán hợp đồng dịch vụ — trợ giúp giá trị liệt kê các phương thức thanh toán có sẵn theo mã công ty thanh toán với mô tả và tên cho đầu vào hợp đồng dịch vụ."
+keywords:
+  - phương thức thanh toán hợp đồng dịch vụ
+  - trợ giúp giá trị thanh toán
+  - hợp đồng dịch vụ thanh toán
 app_component: CRM-S4-SRV-MC-2CL
 software_component: SAPSCORE
 release_state: released

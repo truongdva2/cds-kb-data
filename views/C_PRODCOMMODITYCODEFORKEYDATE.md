@@ -1,6 +1,13 @@
 ---
 name: C_PRODCOMMODITYCODEFORKEYDATE
 description: Prodcommoditycodeforkeydate
+semantic_en: "Product commodity code classification for key date (parameterized) — resolves a product's trade-classification number, commodity code, validity period, country, and customs units of measure as of a given key date."
+semantic_vi: "Phân loại mã hàng hóa của sản phẩm theo ngày hiệu lực (có tham số) — tra cứu mã phân loại thương mại, mã hàng hóa hải quan, thời hạn hiệu lực, quốc gia và đơn vị đo lường hải quan của sản phẩm theo ngày khóa."
+keywords:
+  - mã hàng hóa hải quan
+  - phân loại thương mại
+  - mã HS sản phẩm
+  - đơn vị đo lường hải quan
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

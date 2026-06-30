@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDEMAILTEMPLATE
 description: Change RecordEMAILTEMPLATE
+semantic_en: "Email template helper for change record — email/workflow template combining change record header, process route, type description, user status description, contact person, and expected completion date for outbound workflow emails."
+semantic_vi: "Mẫu email trợ lý cho phiếu thay đổi — mẫu email/quy trình kết hợp tiêu đề phiếu thay đổi, tuyến quy trình, mô tả loại, mô tả trạng thái người dùng, người liên lạc và ngày hoàn thành dự kiến để gửi email quy trình."
+keywords:
+  - mẫu email phiếu thay đổi
+  - thông báo quy trình thay đổi
+  - tuyến quy trình thay đổi
+  - trạng thái phiếu thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

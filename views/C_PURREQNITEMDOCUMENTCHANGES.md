@@ -1,6 +1,12 @@
 ---
 name: C_PURREQNITEMDOCUMENTCHANGES
 description: Purreqnitemdocumentchanges
+semantic_en: "Purchase requisition item document changes (parameterized) — change-document log for PR item fields covering previous/new values, change type, user, and date within a selectable date range."
+semantic_vi: "Lịch sử thay đổi dòng yêu cầu mua hàng — nhật ký tài liệu thay đổi cho các trường dòng đề nghị mua, bao gồm giá trị cũ/mới, loại thay đổi, người dùng và ngày trong khoảng thời gian chọn."
+keywords:
+  - lịch sử thay đổi đề nghị mua
+  - nhật ký thay đổi yêu cầu mua hàng
+  - tài liệu thay đổi PR
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

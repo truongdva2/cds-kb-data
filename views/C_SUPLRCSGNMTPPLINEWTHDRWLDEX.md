@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRCSGNMTPPLINEWTHDRWLDEX
 description: Suplrcsgnmtpplinewthdrwldex
+semantic_en: "DEX — supplier consignment and pipeline withdrawal document: material document item capturing withdrawal status, quantity, amount, GL account, tax, and profit center per supplier and plant."
+semantic_vi: "Trích xuất dữ liệu — chứng từ rút hàng ký gửi và đường ống của nhà cung cấp: mục chứng từ vật liệu ghi trạng thái rút hàng, số lượng, giá trị, tài khoản GL, thuế và trung tâm lợi nhuận theo nhà cung cấp và nhà máy."
+keywords:
+  - rút hàng ký gửi nhà cung cấp
+  - consignment pipeline withdrawal
+  - chứng từ vật liệu ký gửi
+  - trích xuất dữ liệu mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

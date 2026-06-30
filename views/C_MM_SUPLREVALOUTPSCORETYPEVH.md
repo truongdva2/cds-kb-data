@@ -1,6 +1,13 @@
 ---
 name: C_MM_SUPLREVALOUTPSCORETYPEVH
 description: MM Suplrevaloutpscoretypevh
+semantic_en: "Supplier evaluation output score action type — value help (VH) listing the valid score output action types and their texts for use in supplier evaluation analytics."
+semantic_vi: "Loại hành động điểm đầu ra đánh giá nhà cung cấp — trợ giúp giá trị (VH) liệt kê các loại hành động điểm đầu ra hợp lệ và văn bản tương ứng dùng trong phân tích đánh giá nhà cung cấp."
+keywords:
+  - đánh giá nhà cung cấp
+  - loại điểm đầu ra
+  - trợ giúp giá trị
+  - supplier evaluation
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

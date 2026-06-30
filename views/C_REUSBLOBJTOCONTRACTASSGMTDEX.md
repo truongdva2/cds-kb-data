@@ -1,6 +1,13 @@
 ---
 name: C_REUSBLOBJTOCONTRACTASSGMTDEX
 description: Reusblobjtocontractassgmtdex
+semantic_en: "DEX — contract assignment records for RE usable objects — links a usable object to a real estate contract with assignment type, company code, validity period, possession dates, and status objects."
+semantic_vi: "Trích xuất phân bổ hợp đồng cho đối tượng có thể sử dụng trong RE-FX — liên kết đối tượng sử dụng với hợp đồng bất động sản kèm loại phân bổ, mã công ty, kỳ hiệu lực và ngày chiếm hữu."
+keywords:
+  - phân bổ hợp đồng đối tượng sử dụng
+  - RE usable object contract
+  - hợp đồng bất động sản RE-FX
+  - trích xuất hợp đồng RE
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

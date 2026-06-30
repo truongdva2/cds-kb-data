@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDDEX
 description: Change RecordDEX
+semantic_en: "DEX — change record header — automatic-CDC data-extraction view exposing the full change record header: UUID, type, priority, status, lifecycle status, change number, category, application, digital signature status, and audit stamps."
+semantic_vi: "Trích xuất dữ liệu — tiêu đề phiếu thay đổi — view trích xuất (DEX) tự động CDC, cung cấp toàn bộ dữ liệu tiêu đề phiếu thay đổi: UUID, loại, ưu tiên, trạng thái, vòng đời, số thay đổi, danh mục, ứng dụng và trạng thái chữ ký số."
+keywords:
+  - trích xuất tiêu đề phiếu thay đổi
+  - phiếu thay đổi DEX
+  - trạng thái vòng đời thay đổi
+  - số thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

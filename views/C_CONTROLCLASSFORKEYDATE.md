@@ -1,6 +1,13 @@
 ---
 name: C_CONTROLCLASSFORKEYDATE
 description: Controlclassforkeydate
+semantic_en: "Control class for a key date (parameterized) — supplies the valid trade-classification-number scheme, content, validity dates, and official/concatenated descriptions for a legal regulation and control class as of a given date."
+semantic_vi: "Lớp kiểm soát theo ngày hiệu lực (tham số hóa) — cung cấp mã phân loại thương mại, nội dung sơ đồ, ngày hiệu lực và mô tả chính thức/ghép nối cho quy định pháp lý và lớp kiểm soát tại một ngày xác định."
+keywords:
+  - lớp kiểm soát
+  - phân loại thương mại
+  - ngày hiệu lực
+  - quy định pháp lý
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

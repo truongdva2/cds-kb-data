@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASEORDERDEX
 description: Purchase OrderDEX
+semantic_en: "Purchase order header data extraction (DEX) — exports the header of a purchase order: supplier, purchasing org/group, company code, document type, payment/incoterms, status flags, and currency, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu tiêu đề đơn đặt hàng mua (DEX) — xuất thông tin tiêu đề đơn mua: nhà cung cấp, tổ chức/nhóm mua hàng, mã công ty, loại tài liệu, điều khoản thanh toán/incoterms, cờ trạng thái và đồng tiền, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - đơn đặt hàng mua
+  - trích xuất đơn mua hàng
+  - purchase order DEX
+  - tiêu đề PO
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

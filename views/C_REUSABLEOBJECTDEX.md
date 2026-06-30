@@ -1,6 +1,13 @@
 ---
 name: C_REUSABLEOBJECTDEX
 description: Reusableobjectdex
+semantic_en: "DEX — RE usable object master data — exports name, number, OID, alternative ID, portfolio, ownership, usage category/type, validity dates, company code, and last-change timestamp for delta extraction."
+semantic_vi: "Trích xuất dữ liệu chủ đối tượng có thể sử dụng trong Bất động sản (RE-FX) — gồm tên, số, danh mục sử dụng, quyền sở hữu, ngày hiệu lực và mốc thay đổi cuối để hỗ trợ trích xuất delta."
+keywords:
+  - đối tượng sử dụng bất động sản
+  - usable object RE-FX
+  - trích xuất dữ liệu bất động sản
+  - quản lý bất động sản SAP
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

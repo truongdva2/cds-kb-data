@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASEREQUISITIONITEMDEX
 description: Purchase RequisitionUISITIONITEMDEX
+semantic_en: "Purchase requisition item data extraction (DEX) — exports line-level requisition data: material, requested quantity, price, plant, supplier, source of supply, release status, delivery date, account assignment, and procurement hub fields, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu dòng phiếu yêu cầu mua hàng (DEX) — xuất dữ liệu cấp dòng phiếu yêu cầu: vật tư, số lượng yêu cầu, giá, nhà máy, nhà cung cấp, nguồn cung, trạng thái phê duyệt, ngày giao hàng, phân bổ tài khoản và các trường trung tâm mua sắm, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - phiếu yêu cầu mua hàng
+  - purchase requisition item DEX
+  - trích xuất yêu cầu mua
+  - dòng PR mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

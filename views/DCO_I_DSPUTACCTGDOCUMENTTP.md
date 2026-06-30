@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_DSPUTACCTGDOCUMENTTP
 description: Dsputacctgdocumenttp
+semantic_en: "Dispute accounting document (transactional interface) — links a debt-collections dispute to a specific accounting document: disputed amount, amount to be collected, correction amount, write-off amount, document reason, decision, and category."
+semantic_vi: "Chứng từ kế toán tranh chấp (giao diện giao dịch) — liên kết tranh chấp thu hồi nợ với một chứng từ kế toán cụ thể: số tiền tranh chấp, số tiền cần thu, số tiền điều chỉnh, số tiền xóa nợ, lý do, quyết định và danh mục."
+keywords:
+  - chứng từ kế toán tranh chấp
+  - tranh chấp thu hồi nợ
+  - số tiền xóa nợ
+  - quyết định tranh chấp
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

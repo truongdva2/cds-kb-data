@@ -1,6 +1,13 @@
 ---
 name: C_PURCONTRAPPROVALEMAIL
 description: Purcontrapprovalemail
+semantic_en: "Purchase contract workflow approval email data provider — supplies approval-workflow task details (creation/completion/due timestamps, task result, rejection reason), contract type, supplier name, creator, and approver for composing approval notification emails."
+semantic_vi: "Nguồn dữ liệu email thông báo phê duyệt quy trình hợp đồng mua hàng — cung cấp thông tin nhiệm vụ quy trình phê duyệt (thời gian tạo/hoàn thành/đến hạn, kết quả, lý do từ chối), loại hợp đồng, tên nhà cung cấp, người tạo và người phê duyệt để soạn email thông báo phê duyệt."
+keywords:
+  - email phê duyệt hợp đồng mua
+  - workflow phê duyệt purchase contract
+  - thông báo kết quả phê duyệt
+  - email quy trình hợp đồng
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SERVICECONFIRMATIONITEMDEX
 description: Serviceconfirmationitemdex
+semantic_en: "DEX — service confirmation item — confirms actual service performed: product, actual duration, delivered/invoiced quantities, billing status, and reference to the originating service order for analytics extraction."
+semantic_vi: "DEX — mục xác nhận dịch vụ — xác nhận dịch vụ đã thực hiện: sản phẩm, thời gian thực tế, số lượng đã giao/xuất hóa đơn, trạng thái thanh toán và tham chiếu lệnh dịch vụ gốc cho trích xuất phân tích."
+keywords:
+  - xác nhận dịch vụ
+  - mục xác nhận dịch vụ
+  - trích xuất dịch vụ CRM
+  - thời gian thực hiện dịch vụ
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASEORDERITEMDEX
 description: Purchase OrderITEMDEX
+semantic_en: "Purchase order item data extraction (DEX) — exports line-level PO data: material, order quantity, net price, net amount, plant, account assignment, delivery/invoice flags, tolerance limits, and referenced contract/requisition, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu dòng đơn đặt hàng mua (DEX) — xuất dữ liệu cấp dòng PO: vật tư, số lượng đặt hàng, giá ròng, giá trị ròng, nhà máy, phân bổ tài khoản, cờ giao hàng/hóa đơn, ngưỡng dung sai và tham chiếu hợp đồng/phiếu yêu cầu mua, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - dòng đơn đặt hàng mua
+  - PO item DEX
+  - trích xuất dòng đơn mua
+  - số lượng giá trị đơn mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

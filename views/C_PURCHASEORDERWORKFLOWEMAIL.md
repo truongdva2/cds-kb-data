@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASEORDERWORKFLOWEMAIL
 description: Purchase OrderWORKFLOWEMAIL
+semantic_en: "Purchase order workflow deadline email data provider — supplies workflow task details (creation/due timestamps), PO type, net amount, supplier name, creator, and header text for composing deadline notification emails."
+semantic_vi: "Nguồn dữ liệu email nhắc nhở hạn chót quy trình duyệt đơn mua hàng — cung cấp thông tin nhiệm vụ quy trình (thời gian tạo/đến hạn), loại đơn mua, giá trị ròng, tên nhà cung cấp, người tạo và văn bản tiêu đề để soạn email thông báo hạn chót."
+keywords:
+  - email quy trình đơn mua hàng
+  - workflow deadline đơn mua
+  - thông báo hạn chót phê duyệt PO
+  - email nhắc nhở đơn mua
 app_component: MM-PUR-PO-WFL-2CL
 software_component: SAPSCORE
 release_state: released

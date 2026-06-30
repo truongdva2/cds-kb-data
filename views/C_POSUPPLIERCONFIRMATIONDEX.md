@@ -1,6 +1,13 @@
 ---
 name: C_POSUPPLIERCONFIRMATIONDEX
 description: Posupplierconfirmationdex
+semantic_en: "Purchase order supplier confirmation data extraction (DEX) — exposes supplier confirmation records per PO item with confirmed quantity, delivery date, MRP relevance, creation timestamps, batch, handover date, performance period, and service performer for delta extraction."
+semantic_vi: "Trích xuất dữ liệu xác nhận nhà cung cấp đơn mua hàng (DEX) — cung cấp bản ghi xác nhận nhà cung cấp theo dòng đơn mua với số lượng xác nhận, ngày giao hàng, liên quan MRP, mốc thời gian tạo, lô, ngày bàn giao, thời kỳ thực hiện và người thực hiện dịch vụ để trích xuất delta."
+keywords:
+  - xác nhận nhà cung cấp
+  - đơn mua hàng
+  - trích xuất dữ liệu
+  - supplier confirmation DEX
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

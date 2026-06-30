@@ -1,6 +1,13 @@
 ---
 name: C_PURORDWORKFLOWAPPROVALEMAIL
 description: Purordworkflowapprovalemail
+semantic_en: "Purchase order workflow approval email — email output data provider supplying PO header details (supplier, net amount, type, text notes), workflow task result, approver name, and timestamps for approval notification emails."
+semantic_vi: "Email phê duyệt quy trình làm việc đơn đặt hàng mua — nhà cung cấp dữ liệu email đầu ra cung cấp thông tin tiêu đề PO (nhà cung cấp, số tiền ròng, loại, ghi chú), kết quả tác vụ quy trình và tên người phê duyệt cho email thông báo phê duyệt."
+keywords:
+  - email phê duyệt đơn hàng mua
+  - quy trình phê duyệt PO
+  - thông báo phê duyệt workflow
+  - người phê duyệt đơn mua
 app_component: MM-PUR-PO-WFL-2CL
 software_component: SAPSCORE
 release_state: released

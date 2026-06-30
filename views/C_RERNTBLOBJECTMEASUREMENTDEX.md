@@ -1,6 +1,13 @@
 ---
 name: C_RERNTBLOBJECTMEASUREMENTDEX
 description: Rerntblobjectmeasurementdex
+semantic_en: "DEX — measurement records for RE rentable objects — joins rentable object to its measurement data exposing measurement type, validity, unit, quantity, and maximum quantity for data extraction."
+semantic_vi: "Trích xuất dữ liệu đo lường cho đối tượng cho thuê trong RE-FX — kết hợp đối tượng cho thuê với bản ghi đo lường gồm loại đo, đơn vị, số lượng và số lượng tối đa."
+keywords:
+  - đo lường bất động sản
+  - diện tích đối tượng cho thuê
+  - RE measurement
+  - trích xuất dữ liệu RE-FX
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

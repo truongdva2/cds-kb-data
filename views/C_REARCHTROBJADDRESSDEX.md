@@ -1,6 +1,12 @@
 ---
 name: C_REARCHTROBJADDRESSDEX
 description: Rearchtrobjaddressdex
+semantic_en: "Real estate architecture object address (DEX) — data-extraction view linking RE architecture objects to their postal addresses (street, house number, city, postal code, country, region, floor, room)."
+semantic_vi: "Địa chỉ đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu liên kết đối tượng kiến trúc RE với địa chỉ bưu chính (đường phố, số nhà, thành phố, mã bưu điện, quốc gia, khu vực, tầng, phòng)."
+keywords:
+  - địa chỉ đối tượng kiến trúc bất động sản
+  - địa chỉ RE-FX
+  - vị trí tòa nhà bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

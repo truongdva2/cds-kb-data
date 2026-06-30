@@ -1,6 +1,13 @@
 ---
 name: C_CHGRECRESPONSIBLEDEX
 description: Chgrecresponsibledex
+semantic_en: "DEX — change record responsible person — automatic-CDC extraction view exposing the responsible partner (UUID, parent UUID, Partner) assigned to a change record, with personal-data blocking on Partner."
+semantic_vi: "Trích xuất dữ liệu — người chịu trách nhiệm phiếu thay đổi — view trích xuất CDC tự động, cung cấp thông tin đối tác chịu trách nhiệm (UUID, UUID cha, Partner) của phiếu thay đổi, có chặn dữ liệu cá nhân trên trường Partner."
+keywords:
+  - người chịu trách nhiệm phiếu thay đổi
+  - đối tác phụ trách thay đổi
+  - trích xuất người phụ trách
+  - DEX responsible thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

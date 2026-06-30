@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDITEMDEX_2
 description: Change RecordITEMDEX 2
+semantic_en: "DEX (v2) — change record general item — delta-enabled extraction view for change record items, exposing the item reference UUID (ChangeRecordReferenceUUID) and parent change record UUID."
+semantic_vi: "Trích xuất dữ liệu (v2) — hạng mục chung của phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, cung cấp UUID tham chiếu hạng mục và UUID phiếu thay đổi cha."
+keywords:
+  - hạng mục phiếu thay đổi
+  - trích xuất hạng mục thay đổi
+  - DEX hạng mục thay đổi
+  - UUID hạng mục
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

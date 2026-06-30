@@ -1,6 +1,13 @@
 ---
 name: C_OVERDUEPO
 description: Overduepo
+semantic_en: "Overdue purchase order analytical cube — lists open purchase order items past their schedule-line delivery date with overdue days, open amounts and quantities, supplier confirmation status, and organizational dimensions."
+semantic_vi: "Khối phân tích đơn mua hàng quá hạn — liệt kê các dòng đơn mua hàng còn mở đã qua ngày giao hàng theo dòng lịch giao, kèm số ngày quá hạn, số tiền và số lượng còn mở, trạng thái xác nhận nhà cung cấp và chiều tổ chức."
+keywords:
+  - đơn mua hàng quá hạn
+  - giao hàng trễ
+  - phân tích mua hàng
+  - overdue PO
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

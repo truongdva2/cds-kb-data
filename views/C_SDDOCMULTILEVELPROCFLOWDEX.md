@@ -1,6 +1,13 @@
 ---
 name: C_SDDOCMULTILEVELPROCFLOWDEX
 description: Sddocmultilevelprocflowdex
+semantic_en: "DEX — SD multi-level process flow — tracks preceding/subsequent document relationships (order, delivery, billing) with quantities and net amounts for SD analytics extraction."
+semantic_vi: "DEX — luồng xử lý nhiều cấp trong chứng từ bán hàng SD — theo dõi quan hệ chứng từ trước/sau (đặt hàng, giao hàng, lập hóa đơn) với số lượng và giá trị ròng cho trích xuất phân tích SD."
+keywords:
+  - luồng xử lý bán hàng
+  - quan hệ chứng từ SD
+  - trích xuất dữ liệu bán hàng
+  - chứng từ trước sau
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_PRICEVARIANCECUBE
 description: Pricevariancecube
+semantic_en: "Price variance analytical cube — measures the difference between purchase order net price and invoice price per PO item, reporting variance amount, variance percentage, price variance score, delivered and ordered quantities by supplier, material, plant, and purchasing category."
+semantic_vi: "Khối phân tích biến động giá — đo lường chênh lệch giữa giá ròng đơn mua hàng và giá hóa đơn theo dòng đơn mua, báo cáo giá trị biến động, phần trăm biến động, điểm biến động giá, số lượng đã giao và đã đặt theo nhà cung cấp, vật tư, nhà máy và danh mục mua hàng."
+keywords:
+  - biến động giá mua
+  - đánh giá nhà cung cấp theo giá
+  - so sánh giá hóa đơn và đơn mua
+  - price variance
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

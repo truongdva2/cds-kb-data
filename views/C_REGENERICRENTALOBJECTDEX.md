@@ -1,6 +1,12 @@
 ---
 name: C_REGENERICRENTALOBJECTDEX
 description: Regenericrentalobjectdex
+semantic_en: "Real estate generic rental object (DEX) — data-extraction view for RE-FX generic rental objects exposing object type, usage category, company code, portfolio, ownership, validity period, and change timestamps."
+semantic_vi: "Đối tượng cho thuê chung bất động sản (DEX) — trích xuất dữ liệu đối tượng cho thuê chung RE-FX với loại đối tượng, danh mục sử dụng, mã công ty, danh mục đầu tư, quyền sở hữu và thời hạn hiệu lực."
+keywords:
+  - đối tượng cho thuê bất động sản
+  - trích xuất đối tượng RE-FX
+  - danh mục cho thuê bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

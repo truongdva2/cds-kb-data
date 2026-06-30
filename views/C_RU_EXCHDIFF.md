@@ -1,6 +1,13 @@
 ---
 name: C_RU_EXCHDIFF
 description: RU Exchdiff
+semantic_en: "Parameterized view (P_FromPostingDate, P_ToPostingDate) — FI Russia unrealized exchange-rate differences — computes starting and ending valuation-difference amounts in company-code currency per accounting document item, with delta-logic flag and business-partner data-controller fields for data privacy."
+semantic_vi: "View có tham số (từ ngày / đến ngày hạch toán) — chênh lệch tỷ giá chưa thực hiện theo quy định Nga (FI-LOC-RU) — tính số dư chênh lệch định giá đầu kỳ và cuối kỳ theo đồng tiền công ty cho từng khoản mục chứng từ kế toán."
+keywords:
+  - chênh lệch tỷ giá chưa thực hiện
+  - định giá lại ngoại tệ
+  - FI Russia exchange difference
+  - unrealized exchange rate FI-LOC
 app_component: FI-LOC-FI-RU
 software_component: SAPSCORE
 release_state: released

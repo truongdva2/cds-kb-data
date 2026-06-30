@@ -1,6 +1,13 @@
 ---
 name: C_MM_SUPLREVALSCOREOUTPSTATUS
 description: MM Suplrevalscoreoutpstatus
+semantic_en: "Supplier evaluation score output status — value help (VH) listing the valid score output statuses and their texts for use in supplier evaluation analytics."
+semantic_vi: "Trạng thái đầu ra điểm đánh giá nhà cung cấp — trợ giúp giá trị (VH) liệt kê các trạng thái đầu ra điểm hợp lệ và văn bản tương ứng dùng trong phân tích đánh giá nhà cung cấp."
+keywords:
+  - trạng thái điểm đánh giá nhà cung cấp
+  - đánh giá nhà cung cấp
+  - trợ giúp giá trị
+  - supplier evaluation status
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

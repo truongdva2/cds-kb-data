@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASINGSOURCEITEMDEX
 description: Purchasingsourceitemdex
+semantic_en: "Purchasing source list item data extraction (DEX) — exports source list entries per material and plant: supplier, outline agreement, supplying plant, validity period, fixed/blocked flags, MRP sourcing control, and special stock type, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu dòng danh sách nguồn cung ứng mua hàng (DEX) — xuất các mục danh sách nguồn cung theo vật tư và nhà máy: nhà cung cấp, thỏa thuận khung, nhà máy cung cấp, thời hạn hiệu lực, cờ cố định/bị chặn, kiểm soát MRP và loại hàng tồn kho đặc biệt, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - danh sách nguồn cung ứng
+  - source list mua hàng
+  - trích xuất nguồn cung vật tư
+  - nhà cung cấp ưu tiên
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

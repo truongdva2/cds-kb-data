@@ -1,6 +1,12 @@
 ---
 name: C_REARCHTROBJUSAGEDEX
 description: Rearchtrobjusagedex
+semantic_en: "Real estate architecture object usage (DEX) — data-extraction view for RE architecture objects used in usage tracking, exposing object type, identification, validity, authorization group, and change timestamps."
+semantic_vi: "Sử dụng đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu đối tượng kiến trúc RE dùng cho theo dõi sử dụng, với loại đối tượng, mã nhận dạng, thời hạn hiệu lực và dấu thời gian thay đổi."
+keywords:
+  - sử dụng đối tượng kiến trúc bất động sản
+  - theo dõi sử dụng RE-FX
+  - trích xuất đối tượng RE
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

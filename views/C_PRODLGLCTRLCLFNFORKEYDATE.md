@@ -1,6 +1,13 @@
 ---
 name: C_PRODLGLCTRLCLFNFORKEYDATE
 description: Prodlglctrlclfnforkeydate
+semantic_en: "Product legal control classification for key date (parameterized) — resolves a product's legal regulation, control class, control grouping, and trade compliance relevance as of a given key date."
+semantic_vi: "Phân loại kiểm soát pháp lý của sản phẩm theo ngày hiệu lực (có tham số) — tra cứu quy định pháp lý, lớp kiểm soát, nhóm kiểm soát và mức độ liên quan tuân thủ thương mại của sản phẩm theo ngày khóa."
+keywords:
+  - kiểm soát pháp lý sản phẩm
+  - tuân thủ thương mại
+  - legal control phân loại
+  - quy định xuất nhập khẩu
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

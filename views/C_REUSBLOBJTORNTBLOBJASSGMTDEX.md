@@ -1,6 +1,13 @@
 ---
 name: C_REUSBLOBJTORNTBLOBJASSGMTDEX
 description: Reusblobjtorntblobjassgmtdex
+semantic_en: "DEX — assignment records linking RE usable objects to rentable objects (usable-object-initiated assignments only) — exposes UUID, rentable/usable object UUIDs and rentable object number, validity, and assignment-direction flag."
+semantic_vi: "Trích xuất phân bổ từ đối tượng sử dụng đến đối tượng cho thuê trong RE-FX (chỉ phân bổ khởi tạo từ phía sử dụng) — bao gồm UUID, số đối tượng cho thuê và kỳ hiệu lực."
+keywords:
+  - phân bổ đối tượng sử dụng cho thuê
+  - usable to rentable object RE
+  - RE-FX object assignment
+  - trích xuất bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_POITEMCOUNTFORSUPLRCUBE
 description: Poitemcountforsuplrcube
+semantic_en: "PO and item count for total supplier analytical cube — counts distinct purchase orders and purchase order items per supplier, grouped by supplier country and region, for use in supplier spend and coverage analytics."
+semantic_vi: "Khối phân tích số lượng đơn mua hàng và dòng theo tổng nhà cung cấp — đếm số đơn mua hàng và dòng duy nhất theo nhà cung cấp, phân nhóm theo quốc gia và vùng của nhà cung cấp, phục vụ phân tích chi tiêu và độ bao phủ nhà cung cấp."
+keywords:
+  - số lượng đơn mua hàng
+  - nhà cung cấp
+  - phân tích mua hàng
+  - PO count supplier
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

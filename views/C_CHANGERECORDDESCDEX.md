@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDDESCDEX
 description: Change RecordDESCDEX
+semantic_en: "DEX — change record description text — delta-enabled data-extraction view exposing the multilingual short description (UUID, language, ChgRecordDescriptionText) of a change record."
+semantic_vi: "Trích xuất dữ liệu — mô tả phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, cung cấp văn bản mô tả ngắn đa ngôn ngữ của phiếu thay đổi theo UUID và ngôn ngữ."
+keywords:
+  - mô tả phiếu thay đổi
+  - văn bản phiếu thay đổi
+  - trích xuất mô tả
+  - DEX thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

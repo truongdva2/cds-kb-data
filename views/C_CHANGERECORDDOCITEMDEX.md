@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDDOCITEMDEX
 description: Change RecordDOCITEMDEX
+semantic_en: "DEX — change record document item — delta-enabled extraction view for a document info record referenced as an item of a change record, keyed by ChangeRecordReferenceUUID."
+semantic_vi: "Trích xuất dữ liệu — hạng mục tài liệu của phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, đại diện cho hồ sơ thông tin tài liệu được tham chiếu là hạng mục trong phiếu thay đổi."
+keywords:
+  - hạng mục tài liệu phiếu thay đổi
+  - trích xuất tài liệu thay đổi
+  - document info record thay đổi
+  - DEX thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

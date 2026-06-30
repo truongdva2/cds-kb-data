@@ -1,6 +1,12 @@
 ---
 name: C_PURORDERITEMDOCUMENTCHANGES
 description: Purorderitemdocumentchanges
+semantic_en: "Purchase order item document changes (parameterized) — change-document log for PO item fields covering previous/new values, change type, user, and date within a selectable date range."
+semantic_vi: "Lịch sử thay đổi dòng đơn đặt hàng mua — nhật ký tài liệu thay đổi cho các trường dòng đơn hàng mua, bao gồm giá trị cũ/mới, loại thay đổi, người dùng và ngày trong khoảng thời gian chọn."
+keywords:
+  - lịch sử thay đổi đơn hàng mua
+  - nhật ký thay đổi dòng PO
+  - tài liệu thay đổi mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

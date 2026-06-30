@@ -1,6 +1,13 @@
 ---
 name: C_SUPLREVALBYQNAIRECUBE
 description: Suplrevalbyqnairecube
+semantic_en: "Analytical cube (parameterized) — supplier evaluation by questionnaire: scorecard results per supplier with calculated score, target score, minimal score, and number of responses by purchasing category."
+semantic_vi: "Khối phân tích (có tham số) — đánh giá nhà cung cấp theo bảng câu hỏi: kết quả phiếu điểm theo nhà cung cấp với điểm tính toán, điểm mục tiêu, điểm tối thiểu và số lượng phản hồi theo danh mục mua hàng."
+keywords:
+  - đánh giá nhà cung cấp bảng câu hỏi
+  - phiếu điểm nhà cung cấp
+  - questionnaire scorecard
+  - điểm đánh giá mềm
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

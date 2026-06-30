@@ -1,6 +1,13 @@
 ---
 name: C_SUPLREVALBYQUANTITYCUBE
 description: Suplrevalbyquantitycube
+semantic_en: "Analytical cube (parameterized) — supplier evaluation by delivery quantity: ordered quantity versus goods receipt quantity variance with score per purchase order item, supplier, plant, and material."
+semantic_vi: "Khối phân tích (có tham số) — đánh giá nhà cung cấp theo số lượng giao hàng: sai lệch giữa số lượng đặt hàng và số lượng nhập kho với điểm đánh giá theo mục đơn hàng, nhà cung cấp, nhà máy và vật tư."
+keywords:
+  - đánh giá số lượng giao hàng nhà cung cấp
+  - sai lệch số lượng
+  - quantity variance score
+  - nhập kho so với đặt hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

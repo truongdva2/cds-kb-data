@@ -1,6 +1,13 @@
 ---
 name: C_CSTMSTRIFNMBRFORKEYDATE
 description: Cstmstrifnmbrforkeydate
+semantic_en: "Customs tariff number for a key date (parameterized) — supplies the tariff classification scheme, content, validity dates, official/concatenated descriptions, and supplementary units of measure for a customs tariff number as of a given date."
+semantic_vi: "Số danh mục hải quan theo ngày hiệu lực (tham số hóa) — cung cấp sơ đồ phân loại thuế quan, nội dung, ngày hiệu lực, mô tả chính thức/ghép nối và đơn vị đo bổ sung cho số danh mục hải quan tại một ngày xác định."
+keywords:
+  - số danh mục hải quan
+  - thuế quan
+  - phân loại thương mại
+  - ngày hiệu lực
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

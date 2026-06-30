@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDFLEXIBLEWORKFLOW
 description: Change RecordFLEXIBLEWORKFLOW
+semantic_en: "Flexible workflow view for change record — workflow-enabled view exposing change record header attributes (type, status, lifecycle, reason, detail description, timestamps) to support responsibility management and custom task attributes."
+semantic_vi: "View quy trình linh hoạt cho phiếu thay đổi — view hỗ trợ quy trình linh hoạt, cung cấp các thuộc tính tiêu đề phiếu thay đổi (loại, trạng thái, vòng đời, lý do, mô tả chi tiết, dấu thời gian) để quản lý trách nhiệm và thuộc tính nhiệm vụ tùy chỉnh."
+keywords:
+  - quy trình linh hoạt phiếu thay đổi
+  - phê duyệt phiếu thay đổi
+  - quản lý trách nhiệm thay đổi
+  - trạng thái vòng đời thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

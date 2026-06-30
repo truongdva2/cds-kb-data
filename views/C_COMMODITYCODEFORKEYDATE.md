@@ -1,6 +1,13 @@
 ---
 name: C_COMMODITYCODEFORKEYDATE
 description: Commoditycodeforkeydate
+semantic_en: "Parameterized view — commodity code for key date — returns valid commodity codes (classification scheme, code, description, validity dates, customs and supplementary units of measure) filtered to a given key date P_KeyDate."
+semantic_vi: "View tham số — mã hàng hóa theo ngày hiệu lực — trả về các mã hàng hóa hợp lệ (sơ đồ phân loại, mã, mô tả, ngày hiệu lực, đơn vị đo hải quan và bổ sung) theo ngày hiệu lực P_KeyDate được truyền vào."
+keywords:
+  - mã hàng hóa
+  - phân loại hải quan
+  - mã HS hàng hóa
+  - commodity code ngày hiệu lực
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

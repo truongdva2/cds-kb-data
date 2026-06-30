@@ -1,6 +1,13 @@
 ---
 name: C_SERVICEENTRYSHEETITEMDEX
 description: Serviceentrysheetitemdex
+semantic_en: "DEX — service entry sheet item — service performed, confirmed quantity, net amount, net price, service performer, purchase order/contract reference per line for procurement analytics extraction."
+semantic_vi: "DEX — mục phiếu nhập dịch vụ — dịch vụ đã thực hiện, số lượng xác nhận, giá trị ròng, giá ròng, người thực hiện dịch vụ, tham chiếu đơn mua hàng/hợp đồng mua hàng cho trích xuất phân tích."
+keywords:
+  - mục phiếu nhập dịch vụ
+  - dịch vụ xác nhận mua hàng
+  - số lượng dịch vụ
+  - trích xuất SES
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

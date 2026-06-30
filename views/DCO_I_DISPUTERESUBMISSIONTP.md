@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_DISPUTERESUBMISSIONTP
 description: Disputeresubmissiontp
+semantic_en: "Dispute resubmission (transactional interface) — a follow-up task on a debt-collections dispute: due date, activity type, status, note text, and lifecycle timestamps for creation, last change, and closing."
+semantic_vi: "Giao diện giao dịch tái trình tranh chấp thu hồi nợ — ghi nhận nhiệm vụ theo dõi cho một tranh chấp: ngày đến hạn, loại hoạt động, trạng thái, ghi chú và dấu thời gian vòng đời."
+keywords:
+  - tái trình tranh chấp
+  - thu hồi nợ
+  - tranh chấp FSCM
+  - hoạt động tranh chấp
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: C_SRVCCONTRPRICINGTYPEVH
 description: Srvccontrpricingtypevh
+semantic_en: "VH — service contract pricing type — value help limited to pricing types 'B' and 'C' (repricing pricing types applicable for service contracts)."
+semantic_vi: "VH — loại định giá hợp đồng dịch vụ — trợ giúp giá trị giới hạn ở loại định giá 'B' và 'C' (loại tái định giá áp dụng cho hợp đồng dịch vụ)."
+keywords:
+  - loại định giá hợp đồng dịch vụ
+  - tái định giá dịch vụ
+  - trợ giúp giá trị định giá
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

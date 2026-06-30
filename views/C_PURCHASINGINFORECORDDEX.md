@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASINGINFORECORDDEX
 description: Purchasinginforecorddex
+semantic_en: "Purchasing info record data extraction (DEX) — exports the general data of a purchasing info record: supplier, material, material group, unit of measure conversions, supplier material number, certificate of origin details, and reminder days, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu hồ sơ thông tin mua hàng (DEX) — xuất dữ liệu chung của hồ sơ thông tin mua: nhà cung cấp, vật tư, nhóm vật tư, hệ số chuyển đổi đơn vị, mã vật tư nhà cung cấp, chi tiết giấy chứng nhận xuất xứ và số ngày nhắc nhở, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - hồ sơ thông tin mua hàng
+  - purchasing info record DEX
+  - trích xuất thông tin nhà cung cấp vật tư
+  - inforecord mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

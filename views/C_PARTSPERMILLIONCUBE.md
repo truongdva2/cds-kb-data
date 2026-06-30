@@ -1,6 +1,13 @@
 ---
 name: C_PARTSPERMILLIONCUBE
 description: Partspermillioncube
+semantic_en: "Parts per million (PPM) analytical cube — measures supplier quality by tracking returned and received parts, goods receipt quantity, and complaint quantities from material documents and quality notifications per supplier, material, plant, and purchasing category."
+semantic_vi: "Khối phân tích phần triệu (PPM) — đo lường chất lượng nhà cung cấp qua số linh kiện trả lại và nhận vào, số lượng nhận hàng, số lượng khiếu nại từ tài liệu vật tư và thông báo chất lượng theo nhà cung cấp, vật tư, nhà máy và danh mục mua hàng."
+keywords:
+  - phần triệu PPM
+  - chất lượng nhà cung cấp
+  - linh kiện lỗi
+  - parts per million
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

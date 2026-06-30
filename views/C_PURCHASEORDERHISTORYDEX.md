@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASEORDERHISTORYDEX
 description: Purchase OrderHISTORYDEX
+semantic_en: "Purchase order history data extraction (DEX) — exports goods-receipt and invoice posting history per purchase order item: movement type, quantities in multiple units, amounts in multiple currencies, delivery document, and GR/IR clearing amounts, with delta change-data capture."
+semantic_vi: "Trích xuất lịch sử đơn đặt hàng mua (DEX) — xuất lịch sử nhận hàng và hóa đơn theo dòng đơn mua: loại chuyển động kho, số lượng nhiều đơn vị, giá trị nhiều đồng tiền, chứng từ giao hàng và số tiền bù trừ GR/IR, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - lịch sử đơn mua hàng
+  - lịch sử nhận hàng
+  - GR IR đơn mua
+  - purchase order history DEX
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

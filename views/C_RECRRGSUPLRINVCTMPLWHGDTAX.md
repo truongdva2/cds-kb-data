@@ -1,6 +1,12 @@
 ---
 name: C_RECRRGSUPLRINVCTMPLWHGDTAX
 description: Recrrgsuplrinvctmplwhgdtax
+semantic_en: "Recurring supplier invoice template withholding tax — withholding tax lines within a recurring AP invoice template, exposing tax type, tax code, base amount, and withholding tax amount in transaction currency."
+semantic_vi: "Khấu trừ thuế tại nguồn trong mẫu hóa đơn nhà cung cấp định kỳ — các dòng khấu trừ thuế tại nguồn trong mẫu hóa đơn AP định kỳ, gồm loại thuế, mã thuế, số tiền cơ sở và số tiền khấu trừ."
+keywords:
+  - khấu trừ thuế tại nguồn hóa đơn định kỳ
+  - thuế nhà thầu AP
+  - withholding tax mẫu hóa đơn
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released

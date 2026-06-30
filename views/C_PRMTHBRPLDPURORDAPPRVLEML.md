@@ -1,6 +1,13 @@
 ---
 name: C_PRMTHBRPLDPURORDAPPRVLEML
 description: Prmthbrpldpurordapprvleml
+semantic_en: "Procurement Hub replicated purchase order workflow approval email data provider — supplies workflow task ID, PO number, type, source system, task creation/due timestamps, and approval result reason text for generating workflow approval notification emails."
+semantic_vi: "Nhà cung cấp dữ liệu email phê duyệt quy trình đơn mua hàng sao chép từ Procurement Hub — cung cấp ID nhiệm vụ quy trình, số đơn mua, loại, hệ thống nguồn, mốc thời gian tạo/hạn nhiệm vụ và lý do kết quả phê duyệt để tạo email thông báo phê duyệt quy trình."
+keywords:
+  - phê duyệt đơn mua hàng
+  - email quy trình phê duyệt
+  - Procurement Hub
+  - workflow approval email
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

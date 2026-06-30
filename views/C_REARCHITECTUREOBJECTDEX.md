@@ -1,6 +1,12 @@
 ---
 name: C_REARCHITECTUREOBJECTDEX
 description: Rearchitectureobjectdex
+semantic_en: "Real estate architecture object (DEX) — data-extraction view for RE-FX architecture objects exposing object type, identification key, validity period, authorization group, and change timestamps."
+semantic_vi: "Đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu đối tượng kiến trúc RE-FX với loại đối tượng, mã nhận dạng, thời hạn hiệu lực, nhóm phân quyền và dấu thời gian thay đổi."
+keywords:
+  - đối tượng kiến trúc bất động sản
+  - trích xuất RE-FX
+  - kiến trúc RE SAP
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

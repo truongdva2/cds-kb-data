@@ -1,6 +1,13 @@
 ---
 name: C_SALESPLANCREATEDBYUSERVH
 description: Salesplancreatedbyuservh
+semantic_en: "VH — value help for sales plan created-by user — returns sales plan UUID, plan ID, version, creator user ID, and user description for fuzzy-search selection in sales planning UIs."
+semantic_vi: "Trợ giúp giá trị (value help) người tạo kế hoạch bán hàng — trả về UUID, mã kế hoạch, phiên bản, ID người dùng tạo và tên mô tả người dùng để hỗ trợ tìm kiếm trong giao diện lập kế hoạch bán hàng."
+keywords:
+  - value help người tạo kế hoạch bán hàng
+  - sales plan created by user
+  - trợ giúp giá trị kế hoạch SD
+  - lập kế hoạch bán hàng
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

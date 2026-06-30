@@ -1,6 +1,13 @@
 ---
 name: C_SUPLREVALBYQUALITYCUBE
 description: Suplrevalbyqualitycube
+semantic_en: "Analytical cube (parameterized) — supplier evaluation by quality: inspection lot quality score per purchase order item, supplier, plant, material, and material group within a date range."
+semantic_vi: "Khối phân tích (có tham số) — đánh giá nhà cung cấp theo chất lượng: điểm chất lượng lô kiểm tra theo mục đơn hàng mua, nhà cung cấp, nhà máy, vật tư và nhóm vật tư trong khoảng thời gian."
+keywords:
+  - đánh giá chất lượng nhà cung cấp
+  - lô kiểm tra
+  - inspection lot quality score
+  - điểm chất lượng nhà cung cấp
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

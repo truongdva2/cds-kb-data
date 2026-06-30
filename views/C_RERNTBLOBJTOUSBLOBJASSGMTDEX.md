@@ -1,6 +1,13 @@
 ---
 name: C_RERNTBLOBJTOUSBLOBJASSGMTDEX
 description: Rerntblobjtousblobjassgmtdex
+semantic_en: "DEX — assignment records linking RE rentable objects to usable objects — exposes UUID, rentable object UUID, usable object UUID and number, and validity period for data extraction."
+semantic_vi: "Trích xuất phân bổ giữa đối tượng cho thuê và đối tượng có thể sử dụng trong RE-FX — bao gồm UUID, số đối tượng sử dụng và kỳ hiệu lực."
+keywords:
+  - phân bổ đối tượng cho thuê sử dụng
+  - rentable usable object assignment
+  - RE-FX object link
+  - trích xuất RE bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

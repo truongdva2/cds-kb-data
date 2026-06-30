@@ -1,6 +1,13 @@
 ---
 name: C_PRMTHBRPLDPURREQNITMAPRVEML
 description: Prmthbrpldpurreqnitmaprveml
+semantic_en: "Procurement Hub replicated purchase requisition item workflow approval email data provider — supplies workflow task ID, requisition item details (type, source system, supplier name, creator description), task creation/due timestamps, and approval result reason text for item-level approval emails."
+semantic_vi: "Nhà cung cấp dữ liệu email phê duyệt quy trình dòng yêu cầu mua hàng sao chép từ Procurement Hub — cung cấp ID nhiệm vụ quy trình, chi tiết dòng yêu cầu mua (loại, hệ thống nguồn, tên nhà cung cấp, mô tả người tạo), mốc thời gian nhiệm vụ và lý do kết quả phê duyệt cho email phê duyệt cấp dòng."
+keywords:
+  - phê duyệt dòng yêu cầu mua hàng
+  - email phê duyệt quy trình
+  - Procurement Hub
+  - requisition item approval email
 app_component: MM-PUR-HUB-PR-2CL
 software_component: SAPSCORE
 release_state: released

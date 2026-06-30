@@ -1,6 +1,13 @@
 ---
 name: C_PURORDSCHEDLINEENHCDDEX
 description: Purordschedlineenhcddex
+semantic_en: "Purchase order schedule line enhanced (DEX) — data-extraction fact view for PO schedule lines with delivery dates, net/open amounts in multiple currencies, GR quantities, time-variance scores, and logistics dates."
+semantic_vi: "Dòng lịch giao hàng đơn đặt hàng mua nâng cao (DEX) — trích xuất dữ liệu dòng lịch giao hàng PO với ngày giao hàng, số tiền ròng/còn lại theo nhiều tiền tệ, số lượng nhận hàng, điểm sai lệch thời gian và ngày logistics."
+keywords:
+  - dòng lịch giao hàng đơn mua
+  - trích xuất lịch giao hàng PO
+  - sai lệch thời gian giao hàng
+  - số lượng nhận hàng PO
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

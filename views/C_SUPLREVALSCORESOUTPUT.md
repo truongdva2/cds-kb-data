@@ -1,6 +1,13 @@
 ---
 name: C_SUPLREVALSCORESOUTPUT
 description: Suplrevalscoresoutput
+semantic_en: "Supplier evaluation score output — list of score generation job runs per supplier with output action type, status, evaluation period, trigger date, and creator."
+semantic_vi: "Kết quả xuất điểm đánh giá nhà cung cấp — danh sách các lần chạy công việc tạo điểm theo nhà cung cấp với loại hành động xuất, trạng thái, kỳ đánh giá, ngày kích hoạt và người tạo."
+keywords:
+  - điểm đánh giá nhà cung cấp
+  - kết quả xuất điểm
+  - score output job
+  - lịch sử đánh giá nhà cung cấp
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

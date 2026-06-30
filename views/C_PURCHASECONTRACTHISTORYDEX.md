@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASECONTRACTHISTORYDEX
 description: Purchase ContractHISTORYDEX
+semantic_en: "Purchase contract history data extraction (DEX) — exports release-order history against contracts: release order, item, quantity, net amount, posting date, plant, and company code, with delta change-data capture."
+semantic_vi: "Trích xuất lịch sử đơn hàng phát hành theo hợp đồng mua (DEX) — xuất lịch sử các đơn hàng phát hành dựa trên hợp đồng: số đơn, dòng, số lượng, giá trị ròng, ngày hạch toán, nhà máy và mã công ty, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - lịch sử hợp đồng mua hàng
+  - release order hợp đồng
+  - trích xuất lịch sử mua hàng
+  - contract history DEX
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

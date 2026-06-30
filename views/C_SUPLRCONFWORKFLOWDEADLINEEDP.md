@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRCONFWORKFLOWDEADLINEEDP
 description: Suplrconfworkflowdeadlineedp
+semantic_en: "Email data provider — supplier confirmation workflow deadline — provides workflow task creation and due datetime, supplier confirmation details, supplier name, purchase order type, and net amount for deadline notification email generation."
+semantic_vi: "Nhà cung cấp dữ liệu email — thời hạn workflow xác nhận nhà cung cấp — cung cấp ngày/giờ tạo và đến hạn của nhiệm vụ workflow, chi tiết xác nhận nhà cung cấp, tên nhà cung cấp, loại đơn mua hàng và giá trị ròng để tạo email thông báo thời hạn."
+keywords:
+  - thời hạn workflow xác nhận nhà cung cấp
+  - email nhắc nhở xác nhận nhà cung cấp
+  - deadline phê duyệt mua hàng
+  - thông báo xác nhận đơn hàng
 app_component: MM-PUR-CNF-WFL-2CL
 software_component: SAPSCORE
 release_state: released

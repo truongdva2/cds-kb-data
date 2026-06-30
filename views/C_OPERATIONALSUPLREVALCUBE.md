@@ -1,6 +1,13 @@
 ---
 name: C_OPERATIONALSUPLREVALCUBE
 description: Operationalsuplrevalcube
+semantic_en: "Operational supplier evaluation analytical cube — combines purchase order items with time, price, quantity, quality notification, and inspection lot scores plus weighted operational score per supplier, plant, material, purchasing organization, and period."
+semantic_vi: "Khối phân tích đánh giá nhà cung cấp vận hành — kết hợp dòng đơn mua hàng với điểm về thời gian, giá, số lượng, thông báo chất lượng và lô kiểm tra cùng điểm vận hành có trọng số theo nhà cung cấp, nhà máy, vật tư và tổ chức mua hàng."
+keywords:
+  - đánh giá nhà cung cấp vận hành
+  - điểm nhà cung cấp
+  - phân tích mua hàng
+  - supplier evaluation score
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

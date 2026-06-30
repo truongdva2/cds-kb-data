@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDTEXTDEX
 description: Change RecordTEXTDEX
+semantic_en: "DEX — change record text — CDC-delta extraction view for change record short description texts, exposing reference text UUID, language, reference UUID, change record UUID, and description text."
+semantic_vi: "Trích xuất dữ liệu — văn bản phiếu thay đổi — view trích xuất CDC delta cho văn bản mô tả ngắn của phiếu thay đổi, cung cấp UUID văn bản tham chiếu, ngôn ngữ, UUID tham chiếu, UUID phiếu thay đổi và nội dung mô tả."
+keywords:
+  - văn bản phiếu thay đổi
+  - mô tả ngắn thay đổi
+  - trích xuất văn bản thay đổi
+  - DEX text thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

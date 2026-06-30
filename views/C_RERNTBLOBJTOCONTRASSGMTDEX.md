@@ -1,6 +1,13 @@
 ---
 name: C_RERNTBLOBJTOCONTRASSGMTDEX
 description: Rerntblobjtocontrassgmtdex
+semantic_en: "DEX — contract assignment records for RE rentable objects — links a rentable object to a real estate contract with assignment type, company code, validity period, possession dates, and status objects."
+semantic_vi: "Trích xuất phân bổ hợp đồng cho đối tượng cho thuê trong RE-FX — liên kết đối tượng cho thuê với hợp đồng bất động sản kèm loại phân bổ, mã công ty, kỳ hiệu lực và ngày chiếm hữu."
+keywords:
+  - phân bổ hợp đồng bất động sản
+  - rentable object contract assignment
+  - hợp đồng RE-FX
+  - trích xuất hợp đồng cho thuê
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

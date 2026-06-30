@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRINVCBLKDWRKFLWEMLDCSN
 description: Suplrinvcblkdwrkflwemldcsn
+semantic_en: "Email template data provider (workflow output) — approve or reject decision email for a blocked supplier invoice: workflow task details, invoice number, supplier, gross amount, approver, decision reason, and comment."
+semantic_vi: "Nguồn dữ liệu email quy trình làm việc — email quyết định chấp thuận hoặc từ chối cho hóa đơn nhà cung cấp bị chặn: chi tiết tác vụ quy trình, số hóa đơn, nhà cung cấp, tổng giá trị, người phê duyệt, lý do quyết định và ghi chú."
+keywords:
+  - email hóa đơn bị chặn
+  - phê duyệt hóa đơn nhà cung cấp
+  - workflow hóa đơn
+  - blocked invoice approval email
 app_component: MM-IV-INT-WF-2CL
 software_component: SAPSCORE
 release_state: released

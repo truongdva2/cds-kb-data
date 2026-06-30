@@ -1,6 +1,12 @@
 ---
 name: C_REARCHTROBJTIMELINEDEX
 description: Rearchtrobjtimelinedex
+semantic_en: "Real estate architecture object timeline (DEX) — data-extraction view for RE architecture object time slices showing status and active flag per validity period."
+semantic_vi: "Dòng thời gian đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu phân đoạn thời gian đối tượng kiến trúc RE với trạng thái và cờ hoạt động theo thời hạn hiệu lực."
+keywords:
+  - dòng thời gian đối tượng kiến trúc RE
+  - trạng thái đối tượng bất động sản
+  - lịch sử hiệu lực RE-FX
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

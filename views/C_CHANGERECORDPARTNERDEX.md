@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDPARTNERDEX
 description: Change RecordPARTNERDEX
+semantic_en: "DEX — change record partner/responsible person — extraction view for the responsible partner assigned to a change record, exposing ChangeRecordUUID as key."
+semantic_vi: "Trích xuất dữ liệu — đối tác/người chịu trách nhiệm phiếu thay đổi — view trích xuất cung cấp thông tin đối tác hoặc người phụ trách được giao cho phiếu thay đổi, với khóa là ChangeRecordUUID."
+keywords:
+  - đối tác phiếu thay đổi
+  - người chịu trách nhiệm thay đổi
+  - trích xuất đối tác thay đổi
+  - DEX người phụ trách
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

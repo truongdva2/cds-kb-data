@@ -1,6 +1,13 @@
 ---
 name: C_REUSBLOBJECTSTATUSOBJECTDEX
 description: Reusblobjectstatusobjectdex
+semantic_en: "DEX — active status records for RE usable objects — exposes status profile, status code, user-status flag, and internal real estate number for each active (non-inactive) status assigned to a usable object."
+semantic_vi: "Trích xuất trạng thái đang hoạt động của đối tượng có thể sử dụng trong RE-FX — bao gồm hồ sơ trạng thái, mã trạng thái và cờ trạng thái người dùng cho từng bản ghi trạng thái còn hiệu lực."
+keywords:
+  - trạng thái đối tượng sử dụng bất động sản
+  - RE usable object status
+  - status object RE-FX
+  - trích xuất trạng thái bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRINVCSUPLRTOLSTTGDEX
 description: Suplrinvcsuplrtolsttgdex
+semantic_en: "DEX analytical dimension — supplier invoice tolerance setting: tolerance group name per company code used in invoice verification."
+semantic_vi: "Chiều phân tích trích xuất dữ liệu — cài đặt nhóm dung sai hóa đơn nhà cung cấp: tên nhóm dung sai theo mã công ty dùng trong kiểm tra hóa đơn."
+keywords:
+  - nhóm dung sai hóa đơn nhà cung cấp
+  - tolerance group invoice
+  - cài đặt kiểm tra hóa đơn
+  - supplier invoice tolerance
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

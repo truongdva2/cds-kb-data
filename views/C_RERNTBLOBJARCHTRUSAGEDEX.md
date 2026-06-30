@@ -1,6 +1,13 @@
 ---
 name: C_RERNTBLOBJARCHTRUSAGEDEX
 description: Rerntblobjarchtrusagedex
+semantic_en: "DEX — architecture object usage assignment for RE rentable objects — links a rentable object (type 'R') to an architecture object with type, number, OID, validity period, and measurement-based flag."
+semantic_vi: "Trích xuất phân bổ đối tượng kiến trúc cho đối tượng cho thuê trong RE-FX — liên kết đối tượng cho thuê (loại R) với đối tượng kiến trúc kèm loại, số, OID và kỳ hiệu lực."
+keywords:
+  - đối tượng kiến trúc bất động sản
+  - phân bổ kiến trúc cho thuê
+  - RE architecture object usage
+  - trích xuất RE-FX
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

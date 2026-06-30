@@ -1,6 +1,13 @@
 ---
 name: /DCO/I_DISPUTETP
 description: Disputetp
+semantic_en: "Debt-collections dispute root entity (transactional interface) — the main dispute record: business partner, company code, process step and status, priority, escalation level, processor/coordinator, disputed and correction amounts, planned close date, and links to predecessor disputes, service requests, and bank statements."
+semantic_vi: "Thực thể gốc tranh chấp thu hồi nợ (giao diện giao dịch) — hồ sơ tranh chấp chính: đối tác kinh doanh, mã công ty, bước quy trình và trạng thái, mức ưu tiên, cấp độ leo thang, người xử lý/điều phối, số tiền tranh chấp và điều chỉnh, ngày đóng dự kiến."
+keywords:
+  - tranh chấp thu hồi nợ
+  - quản lý tranh chấp FSCM
+  - leo thang tranh chấp
+  - số tiền tranh chấp
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

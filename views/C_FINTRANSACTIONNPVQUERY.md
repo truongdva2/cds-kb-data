@@ -1,6 +1,13 @@
 ---
 name: C_FINTRANSACTIONNPVQUERY
 description: Fintransactionnpvquery
+semantic_en: "Financial transaction NPV analytical query — reports net present value, intrinsic value, time value, clean price, incoming/outgoing NPV, and credit/debit value adjustments per financial transaction, counterparty, product type, and NPV validity date, converted to a display currency."
+semantic_vi: "Truy vấn phân tích giá trị hiện tại thuần (NPV) giao dịch tài chính — báo cáo NPV, giá trị nội tại, giá trị thời gian, giá sạch, NPV vào/ra và điều chỉnh giá trị tín dụng/nợ theo giao dịch, đối tác, loại sản phẩm và ngày hiệu lực NPV, quy đổi sang tiền hiển thị."
+keywords:
+  - giá trị hiện tại thuần
+  - NPV giao dịch tài chính
+  - quản lý ngân quỹ
+  - phân tích tài chính phái sinh
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

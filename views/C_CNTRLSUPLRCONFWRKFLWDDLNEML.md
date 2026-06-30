@@ -1,6 +1,13 @@
 ---
 name: C_CNTRLSUPLRCONFWRKFLWDDLNEML
 description: Cntrlsuplrconfwrkflwddlneml
+semantic_en: "Email/workflow template — central supplier confirmation deadline notification — email data-provider view supplying workflow task ID, confirmation number, purchasing document type, source system, and task creation/due date-time for deadline reminder emails."
+semantic_vi: "Mẫu email/quy trình — thông báo hạn chót xác nhận nhà cung cấp trung tâm — view cung cấp dữ liệu email, gồm ID nhiệm vụ quy trình, số xác nhận, loại tài liệu mua hàng, hệ thống nguồn và ngày giờ tạo/hạn của nhiệm vụ cho email nhắc nhở hạn chót."
+keywords:
+  - thông báo hạn chót xác nhận nhà cung cấp
+  - email quy trình mua hàng
+  - xác nhận trung tâm
+  - nhắc nhở deadline mua hàng
 app_component: MM-PUR-HUB-CSC-2CL
 software_component: SAPSCORE
 release_state: released

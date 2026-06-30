@@ -1,6 +1,12 @@
 ---
 name: C_PURORDOUTPUTAUTOMNCUBE
 description: Purordoutputautomncube
+semantic_en: "Purchase order output automation cube (parameterized, analytical) — measures automated vs. manual output counts per PO and channel (print, email, XML, IDoc, EDI) by supplier, purchasing org/group, and date."
+semantic_vi: "Khối phân tích tự động hóa đầu ra đơn đặt hàng mua — đo lường số lượng đầu ra tự động và thủ công theo kênh (in, email, XML, IDoc, EDI) theo nhà cung cấp, tổ chức/nhóm mua hàng và ngày."
+keywords:
+  - tự động hóa đầu ra đơn hàng mua
+  - phân tích kênh đầu ra PO
+  - in email đơn mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

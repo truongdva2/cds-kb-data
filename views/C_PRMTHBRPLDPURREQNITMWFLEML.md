@@ -1,6 +1,13 @@
 ---
 name: C_PRMTHBRPLDPURREQNITMWFLEML
 description: Prmthbrpldpurreqnitmwfleml
+semantic_en: "Procurement Hub replicated purchase requisition item workflow deadline email data provider — supplies workflow task ID, requisition item details (type, source system, supplier name, creator description), and task creation/due timestamps for generating workflow deadline reminder emails at item level."
+semantic_vi: "Nhà cung cấp dữ liệu email nhắc nhở hạn chót quy trình dòng yêu cầu mua hàng sao chép từ Procurement Hub — cung cấp ID nhiệm vụ quy trình, chi tiết dòng yêu cầu mua (loại, hệ thống nguồn, tên nhà cung cấp, mô tả người tạo) và mốc thời gian nhiệm vụ để tạo email nhắc nhở hạn chót cấp dòng."
+keywords:
+  - email hạn chót dòng yêu cầu mua hàng
+  - quy trình phê duyệt
+  - Procurement Hub
+  - requisition item deadline email
 app_component: MM-PUR-HUB-PR-2CL
 software_component: SAPSCORE
 release_state: released

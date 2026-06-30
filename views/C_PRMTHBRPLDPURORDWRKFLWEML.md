@@ -1,6 +1,13 @@
 ---
 name: C_PRMTHBRPLDPURORDWRKFLWEML
 description: Prmthbrpldpurordwrkflweml
+semantic_en: "Procurement Hub replicated purchase order workflow deadline email data provider — supplies workflow task ID, PO header details (supplier, company code, purchasing org/group, currency, net amount, header text), and task creation/due timestamps for generating workflow deadline reminder emails."
+semantic_vi: "Nhà cung cấp dữ liệu email hạn chót quy trình đơn mua hàng sao chép từ Procurement Hub — cung cấp ID nhiệm vụ quy trình, thông tin tiêu đề đơn mua (nhà cung cấp, mã công ty, tổ chức/nhóm mua hàng, tiền tệ, giá trị ròng, văn bản tiêu đề) và mốc thời gian nhiệm vụ để tạo email nhắc nhở hạn chót quy trình."
+keywords:
+  - email nhắc nhở hạn chót quy trình
+  - đơn mua hàng
+  - Procurement Hub
+  - workflow deadline email
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

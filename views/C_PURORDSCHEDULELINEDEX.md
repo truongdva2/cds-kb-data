@@ -1,6 +1,13 @@
 ---
 name: C_PURORDSCHEDULELINEDEX
 description: PURORDSchedule LineDEX
+semantic_en: "Purchase order schedule line (DEX) — data-extraction view for PO schedule lines exposing delivery dates, ordered/open quantities, logistics timing (loading, transportation, goods issue), open net amount, and supplier confirmation."
+semantic_vi: "Dòng lịch giao hàng đơn đặt hàng mua (DEX) — trích xuất dữ liệu dòng lịch giao hàng PO với ngày giao hàng, số lượng đặt/còn lại, thời điểm logistics (bốc hàng, vận chuyển, xuất kho) và số tiền ròng còn lại."
+keywords:
+  - dòng lịch giao hàng đơn hàng
+  - trích xuất lịch PO
+  - ngày giao hàng đơn mua
+  - số lượng mở PO
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

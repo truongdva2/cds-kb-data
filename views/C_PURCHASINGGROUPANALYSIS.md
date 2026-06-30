@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASINGGROUPANALYSIS
 description: Purchasinggroupanalysis
+semantic_en: "Purchasing group analysis analytical cube (parameterized) — aggregates purchasing activity by group, organization, supplier, and time period: PO count/amount, contract count, scheduling agreement count, RFQ count, delivery count, and invoice amount in a display currency."
+semantic_vi: "Khối phân tích nhóm mua hàng (có tham số) — tổng hợp hoạt động mua theo nhóm mua, tổ chức mua, nhà cung cấp và kỳ thời gian: số lượng/giá trị đơn mua, số hợp đồng, số lượng thỏa thuận lịch trình, số RFQ, số lần giao hàng và giá trị hóa đơn theo đồng tiền hiển thị."
+keywords:
+  - phân tích nhóm mua hàng
+  - purchasing group phân tích
+  - hoạt động mua hàng theo nhóm
+  - số liệu mua hàng tổng hợp
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

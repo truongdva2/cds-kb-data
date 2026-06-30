@@ -1,6 +1,13 @@
 ---
 name: C_SALESORGANIZATIONDEX
 description: Sales OrganizationDEX
+semantic_en: "DEX — sales organization dimension master — exports sales organization currency, intercompany billing customer, company code, country, currency, and fiscal-year variant for analytics data extraction."
+semantic_vi: "Trích xuất dữ liệu chiều tổ chức bán hàng — bao gồm tiền tệ tổ chức bán hàng, khách hàng thanh toán liên công ty, mã công ty, quốc gia và biến thể năm tài chính phục vụ phân tích."
+keywords:
+  - tổ chức bán hàng
+  - sales organization dimension
+  - trích xuất SD analytics
+  - đơn vị kinh doanh bán hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

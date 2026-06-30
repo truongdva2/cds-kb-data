@@ -1,6 +1,13 @@
 ---
 name: C_SCHDAGRSCHDLNENHCDDEX
 description: Schdagrschdlnenhcddex
+semantic_en: "DEX — scheduling agreement enhanced schedule line — delivery dates, ordered/open/GR quantities, net amount, and price per line for procurement analytics extraction."
+semantic_vi: "DEX — dòng lịch giao hàng trong thỏa thuận lịch trình (mở rộng) — ngày giao, số lượng đặt/còn mở/nhận hàng, giá trị ròng cho trích xuất phân tích mua hàng."
+keywords:
+  - thỏa thuận lịch trình
+  - lịch giao hàng mua hàng
+  - trích xuất dữ liệu mua hàng
+  - số lượng tồn đọng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

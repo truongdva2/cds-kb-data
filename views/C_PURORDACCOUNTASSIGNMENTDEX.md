@@ -1,6 +1,13 @@
 ---
 name: C_PURORDACCOUNTASSIGNMENTDEX
 description: Purordaccountassignmentdex
+semantic_en: "Purchase order account assignment (DEX) — data-extraction fact view exposing cost object assignments (cost center, GL account, WBS, asset, fund, profit center) per PO item with net amount and tax fields."
+semantic_vi: "Phân bổ tài khoản đơn đặt hàng mua (DEX) — trích xuất dữ liệu phân bổ đối tượng chi phí (trung tâm chi phí, tài khoản GL, WBS, tài sản, quỹ, trung tâm lợi nhuận) theo dòng đơn hàng mua kèm số tiền ròng và thuế."
+keywords:
+  - phân bổ tài khoản đơn hàng mua
+  - trích xuất tài khoản mua hàng
+  - trung tâm chi phí đơn hàng
+  - WBS đơn đặt hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

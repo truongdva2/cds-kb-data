@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDHIERARCHYDEX
 description: Change RecordHIERARCHYDEX
+semantic_en: "DEX — change record hierarchy — delta-enabled extraction view capturing the parent-child relationship between change records via ParentChangeRecordUUID and ChangeRecordUUID."
+semantic_vi: "Trích xuất dữ liệu — phân cấp phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, nắm bắt quan hệ cha-con giữa các phiếu thay đổi qua ParentChangeRecordUUID và ChangeRecordUUID."
+keywords:
+  - phân cấp phiếu thay đổi
+  - quan hệ cha con phiếu thay đổi
+  - trích xuất phân cấp thay đổi
+  - DEX thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

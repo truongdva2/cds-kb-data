@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECDMAILTMPLFORAPPRVL
 description: Changerecdmailtmplforapprvl
+semantic_en: "Email template for change record approval — email/workflow template supplying workflow task, change record header fields (type, status, lifecycle, number), and recipient associations for approval notification emails."
+semantic_vi: "Mẫu email phê duyệt phiếu thay đổi — mẫu email/quy trình cung cấp thông tin nhiệm vụ quy trình, tiêu đề phiếu thay đổi (loại, trạng thái, vòng đời, số) và danh sách người nhận để gửi thông báo phê duyệt."
+keywords:
+  - mẫu email phê duyệt
+  - phiếu thay đổi
+  - quy trình phê duyệt
+  - thông báo quy trình
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

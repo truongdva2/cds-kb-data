@@ -1,6 +1,12 @@
 ---
 name: C_RECRRGSUPLRINVCTMPLINSTCE
 description: Recrrgsuplrinvctmplinstce
+semantic_en: "Recurring supplier invoice template instance — forecast line of a recurring AP invoice template, showing posting date, accounting document, fiscal year, amount, and instance status for each scheduled occurrence."
+semantic_vi: "Phiên bản mẫu hóa đơn nhà cung cấp định kỳ — dòng dự báo của mẫu hóa đơn AP định kỳ, hiển thị ngày hạch toán, chứng từ kế toán, năm tài chính, số tiền và trạng thái cho từng lần xuất hiện đã lên lịch."
+keywords:
+  - phiên bản hóa đơn định kỳ
+  - lịch hóa đơn AP định kỳ
+  - dự báo hóa đơn nhà cung cấp
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASECONTRACTDEX
 description: Purchase ContractDEX
+semantic_en: "Purchase contract header data extraction (DEX) — exports the header of a purchasing contract: supplier, purchasing org/group, validity period, target amount, payment terms, incoterms, and release status, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu tiêu đề hợp đồng mua hàng (DEX) — xuất thông tin tiêu đề hợp đồng mua: nhà cung cấp, tổ chức/nhóm mua hàng, thời hạn hiệu lực, giá trị mục tiêu, điều khoản thanh toán, incoterms và trạng thái phê duyệt, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - hợp đồng mua hàng
+  - trích xuất dữ liệu hợp đồng
+  - purchase contract DEX
+  - tiêu đề hợp đồng mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

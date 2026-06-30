@@ -1,6 +1,13 @@
 ---
 name: C_REQUESTFORQUOTATIONDEX
 description: Requestforquotationdex
+semantic_en: "Request for quotation (DEX) — data-extraction fact view for RFQ headers covering purchasing org/group, validity/submission dates, payment terms, Incoterms, target amount, lifecycle status, and follow-on document type."
+semantic_vi: "Yêu cầu báo giá (DEX) — trích xuất dữ liệu tiêu đề RFQ với tổ chức/nhóm mua hàng, ngày hiệu lực/nộp báo giá, điều khoản thanh toán, Incoterms, số tiền mục tiêu, trạng thái vòng đời và loại tài liệu tiếp theo."
+keywords:
+  - yêu cầu báo giá
+  - trích xuất RFQ mua hàng
+  - hồ sơ mời thầu
+  - ngày nộp báo giá
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

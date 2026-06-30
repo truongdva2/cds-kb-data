@@ -1,6 +1,13 @@
 ---
 name: C_SUPLREVALBYQLTYNOTIFCUBE
 description: Suplrevalbyqltynotifcube
+semantic_en: "Analytical cube (parameterized) — supplier evaluation by quality notification: purchase order items with quality notification count and calculated evaluation score by supplier, plant, material, and purchasing organization."
+semantic_vi: "Khối phân tích (có tham số) — đánh giá nhà cung cấp theo thông báo chất lượng: các mục đơn hàng mua với số lượng thông báo chất lượng và điểm đánh giá tính toán theo nhà cung cấp, nhà máy, vật tư và tổ chức mua hàng."
+keywords:
+  - đánh giá nhà cung cấp chất lượng
+  - thông báo chất lượng
+  - điểm đánh giá nhà cung cấp
+  - quality notification score
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

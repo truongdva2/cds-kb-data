@@ -1,6 +1,13 @@
 ---
 name: C_PURINFORECORDDOCUMENTCHANGES
 description: Purinforecorddocumentchanges
+semantic_en: "Purchase info record document changes (parameterized) — lists change document entries for purchasing info records within a date range: changed field, old/new values, change type, transaction code, user, and timestamp."
+semantic_vi: "Thay đổi tài liệu hồ sơ thông tin mua hàng (có tham số) — liệt kê các mục chứng từ thay đổi của hồ sơ thông tin mua trong khoảng thời gian: trường bị thay đổi, giá trị cũ/mới, loại thay đổi, mã giao dịch, người dùng và thời gian."
+keywords:
+  - thay đổi hồ sơ thông tin mua
+  - lịch sử thay đổi info record
+  - change document mua hàng
+  - nhật ký thay đổi dữ liệu mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASECONTRACTITEMDEX
 description: Purchase ContractITEMDEX
+semantic_en: "Purchase contract item data extraction (DEX) — exports line-level contract data: material, target quantity, net price, plant, account assignment, delivery tolerance, and header attributes, with delta change-data capture."
+semantic_vi: "Trích xuất dữ liệu dòng hợp đồng mua hàng (DEX) — xuất dữ liệu cấp dòng của hợp đồng: vật tư, số lượng mục tiêu, giá ròng, nhà máy, phân bổ tài khoản, dung sai giao hàng và các thuộc tính tiêu đề, hỗ trợ theo dõi thay đổi delta."
+keywords:
+  - dòng hợp đồng mua hàng
+  - contract item DEX
+  - trích xuất dòng hợp đồng
+  - giá ròng hợp đồng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

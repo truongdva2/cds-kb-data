@@ -1,6 +1,13 @@
 ---
 name: C_EWM_WHSEORDERPARAMDET
 description: Ewm Whseorderparamdet
+semantic_en: "EWM warehouse order output parameter determination data source (deprecated) — exposes warehouse order status, activity area, and storage type alongside empty placeholder fields for process type, work center, task event, and wave category used to derive output parameters."
+semantic_vi: "Nguồn dữ liệu xác định tham số đầu ra cho lệnh kho EWM (đã ngừng sử dụng) — cung cấp trạng thái lệnh kho, khu vực hoạt động, loại kho cùng các trường giả định cho loại quy trình, trung tâm làm việc và loại sóng để suy diễn tham số đầu ra."
+keywords:
+  - lệnh kho EWM
+  - xác định tham số đầu ra
+  - quản lý kho nâng cao
+  - warehouse order
 app_component: SCM-EWM-PRN-2CL
 software_component: SAPSCORE
 release_state: released

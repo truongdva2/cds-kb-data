@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASECONTRACTEXPIRY
 description: Purchase ContractEXPIRY
+semantic_en: "Purchase contract expiry analytical cube (parameterized) — aggregates expiring contracts by supplier, purchasing org/group, validity dates, and document type, showing target amount and release order net amount in a display currency."
+semantic_vi: "Khối phân tích hợp đồng mua hàng sắp hết hạn (có tham số) — tổng hợp các hợp đồng sắp hết hạn theo nhà cung cấp, tổ chức/nhóm mua hàng, ngày hiệu lực và loại tài liệu, hiển thị giá trị mục tiêu và giá trị đơn hàng phát hành theo đồng tiền hiển thị."
+keywords:
+  - hợp đồng hết hạn
+  - theo dõi ngày hết hạn hợp đồng
+  - contract expiry mua hàng
+  - phân tích hợp đồng mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_SUPCSGNMTPPLINEINVCHISTDEX
 description: Supcsgnmtpplineinvchistdex
+semantic_en: "DEX — supplier consignment and pipeline invoice settlement history — links material document, supplier invoice line, company code, and plant for consignment/pipeline invoice history extraction."
+semantic_vi: "DEX — lịch sử quyết toán hóa đơn ký gửi và đường ống nhà cung cấp — liên kết chứng từ vật tư, dòng hóa đơn nhà cung cấp, mã công ty và nhà máy cho trích xuất lịch sử quyết toán ký gửi/đường ống."
+keywords:
+  - lịch sử quyết toán ký gửi
+  - hóa đơn đường ống nhà cung cấp
+  - trích xuất ký gửi mua hàng
+  - chứng từ vật tư hóa đơn
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

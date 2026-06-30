@@ -1,6 +1,13 @@
 ---
 name: C_SERVICEENTRYSHEETDEX
 description: Serviceentrysheetdex
+semantic_en: "DEX — service entry sheet header — supplier, purchase order, approval status/datetime, responsible person, currency, and material document reference for procurement analytics extraction."
+semantic_vi: "DEX — tiêu đề phiếu nhập dịch vụ — nhà cung cấp, đơn mua hàng, trạng thái/ngày phê duyệt, người chịu trách nhiệm, tiền tệ và tham chiếu chứng từ vật tư cho trích xuất phân tích mua hàng."
+keywords:
+  - phiếu nhập dịch vụ
+  - xác nhận dịch vụ mua hàng
+  - phê duyệt phiếu dịch vụ
+  - trích xuất dữ liệu SES
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

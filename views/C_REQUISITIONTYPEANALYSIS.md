@@ -1,6 +1,13 @@
 ---
 name: C_REQUISITIONTYPEANALYSIS
 description: Requisitiontypeanalysis
+semantic_en: "Purchase requisition type analysis (parameterized, analytical cube) — measures PR item counts by creation origin (SSP free-text, catalog, material, manual, external source), purchasing group/org, supplier, material, and calendar period."
+semantic_vi: "Phân tích loại đề nghị mua hàng — khối phân tích đo lường số lượng dòng đề nghị mua theo nguồn tạo (tự mua sắm: văn bản tự do, danh mục, vật tư, thủ công, nguồn ngoài), nhóm/tổ chức mua hàng, nhà cung cấp và kỳ lịch."
+keywords:
+  - phân tích loại đề nghị mua hàng
+  - nguồn tạo yêu cầu mua
+  - thống kê đề nghị mua theo loại
+  - tự mua sắm SSP
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

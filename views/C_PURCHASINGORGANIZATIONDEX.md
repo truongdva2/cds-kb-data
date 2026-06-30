@@ -1,6 +1,13 @@
 ---
 name: C_PURCHASINGORGANIZATIONDEX
 description: Purchasingorganizationdex
+semantic_en: "Purchasing organization data extraction (DEX) — exports the master list of purchasing organizations with their names and associated company codes, as a dimension for analytics."
+semantic_vi: "Trích xuất dữ liệu tổ chức mua hàng (DEX) — xuất danh sách chính các tổ chức mua hàng cùng tên và mã công ty liên kết, dùng làm chiều dữ liệu phân tích."
+keywords:
+  - tổ chức mua hàng
+  - purchasing organization DEX
+  - danh sách tổ chức mua
+  - đơn vị mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

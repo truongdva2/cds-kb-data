@@ -1,6 +1,13 @@
 ---
 name: C_RERNTBLOBJECTSTATUSOBJECTDEX
 description: Rerntblobjectstatusobjectdex
+semantic_en: "DEX — active status records for RE rentable objects — exposes status profile, status code, user-status flag, and internal real estate number for each active (non-inactive) status assigned to a rentable object."
+semantic_vi: "Trích xuất trạng thái đang hoạt động của đối tượng cho thuê trong RE-FX — bao gồm hồ sơ trạng thái, mã trạng thái và cờ trạng thái người dùng cho từng bản ghi trạng thái còn hiệu lực."
+keywords:
+  - trạng thái đối tượng cho thuê
+  - status object bất động sản
+  - RE rentable object status
+  - trích xuất trạng thái RE-FX
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

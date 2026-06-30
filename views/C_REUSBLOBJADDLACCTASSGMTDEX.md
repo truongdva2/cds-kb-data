@@ -1,6 +1,13 @@
 ---
 name: C_REUSBLOBJADDLACCTASSGMTDEX
 description: Reusblobjaddlacctassgmtdex
+semantic_en: "DEX — additional (non-leading) account assignment records for RE usable objects — extracts object assignments of type 'IO' targeting cost center (KS), internal order (OR), or WBS (PR), excluding the leading account assignment."
+semantic_vi: "Trích xuất phân bổ tài khoản bổ sung (không phải chủ đạo) cho đối tượng sử dụng trong RE-FX — bao gồm trung tâm chi phí (KS), lệnh nội bộ (OR) và yếu tố WBS (PR) với loại phân bổ IO."
+keywords:
+  - phân bổ tài khoản bổ sung bất động sản
+  - tài khoản chi phí đối tượng sử dụng
+  - RE usable object account assignment
+  - trung tâm chi phí lệnh nội bộ WBS RE
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

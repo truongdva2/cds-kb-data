@@ -1,6 +1,13 @@
 ---
 name: C_SCHEDAGRMTSCHEDLINEDEX
 description: Schedagrmtschedlinedex
+semantic_en: "DEX — scheduling agreement release (schedule line) — delivery date, ordered quantity, rough GR quantity, and reminder count per line for procurement data extraction."
+semantic_vi: "DEX — dòng lịch giao hàng trong thỏa thuận lịch trình (phát hành) — ngày giao, số lượng đặt, số lượng nhận thô và số lần nhắc nhở cho trích xuất dữ liệu mua hàng."
+keywords:
+  - thỏa thuận lịch trình
+  - lịch giao hàng
+  - phát hành lịch trình
+  - trích xuất mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

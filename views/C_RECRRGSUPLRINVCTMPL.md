@@ -1,6 +1,13 @@
 ---
 name: C_RECRRGSUPLRINVCTMPL
 description: Recrrgsuplrinvctmpl
+semantic_en: "Recurring supplier invoice template — header of a recurring AP invoice template defining invoicing party, amounts, payment terms, recurrence pattern/interval/end type, tax, and withholding tax enablement."
+semantic_vi: "Mẫu hóa đơn nhà cung cấp định kỳ — tiêu đề mẫu hóa đơn AP định kỳ xác định bên lập hóa đơn, số tiền, điều khoản thanh toán, mẫu/chu kỳ/kiểu kết thúc lặp lại, thuế và khấu trừ thuế tại nguồn."
+keywords:
+  - mẫu hóa đơn nhà cung cấp định kỳ
+  - hóa đơn AP lặp lại
+  - điều khoản thanh toán định kỳ
+  - khấu trừ thuế tại nguồn AP
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released

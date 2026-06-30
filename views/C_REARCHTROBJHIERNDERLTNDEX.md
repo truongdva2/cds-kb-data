@@ -1,6 +1,12 @@
 ---
 name: C_REARCHTROBJHIERNDERLTNDEX
 description: Rearchtrobjhiernderltndex
+semantic_en: "Real estate architecture object hierarchy node relation (DEX) — data-extraction view representing parent-child relationships in the RE architecture object hierarchy with type, category, and validity period."
+semantic_vi: "Quan hệ phân cấp đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu quan hệ cha-con trong cây phân cấp đối tượng kiến trúc RE với loại, danh mục và thời hạn hiệu lực."
+keywords:
+  - phân cấp đối tượng kiến trúc bất động sản
+  - cấu trúc cây RE-FX
+  - quan hệ cha con bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

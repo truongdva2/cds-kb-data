@@ -1,6 +1,13 @@
 ---
 name: C_REUSBLOBJARCHTRUSAGEDEX
 description: Reusblobjarchtrusagedex
+semantic_en: "DEX — architecture object usage assignment for RE usable objects — links a usable object (type 'U') to an architecture object with type, number, OID, and validity period."
+semantic_vi: "Trích xuất phân bổ đối tượng kiến trúc cho đối tượng có thể sử dụng trong RE-FX — liên kết đối tượng sử dụng (loại U) với đối tượng kiến trúc kèm loại, số, OID và kỳ hiệu lực."
+keywords:
+  - đối tượng kiến trúc đối tượng sử dụng
+  - RE usable object architecture
+  - phân bổ kiến trúc RE-FX
+  - trích xuất dữ liệu bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

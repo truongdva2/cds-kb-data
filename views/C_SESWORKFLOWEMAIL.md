@@ -1,6 +1,13 @@
 ---
 name: C_SESWORKFLOWEMAIL
 description: Sesworkflowemail
+semantic_en: "Email template data provider — service entry sheet workflow approval/rejection — supplies workflow task, SES name, supplier, purchase order, net amount, approval status, approver, and creator details for output email generation."
+semantic_vi: "Nhà cung cấp dữ liệu mẫu email — phê duyệt/từ chối workflow phiếu nhập dịch vụ — cung cấp nhiệm vụ workflow, tên SES, nhà cung cấp, đơn mua hàng, giá trị ròng, trạng thái phê duyệt và thông tin người duyệt để tạo email đầu ra."
+keywords:
+  - email phê duyệt phiếu dịch vụ
+  - workflow phiếu nhập dịch vụ
+  - thông báo phê duyệt SES
+  - email mua hàng
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

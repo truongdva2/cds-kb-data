@@ -1,6 +1,13 @@
 ---
 name: C_SALESPLANVALUEHELP
 description: Salesplanvaluehelp
+semantic_en: "VH — value help for sales plan selection — returns plan UUID, ID, description, version, version description, creator, status, purpose, period type, validity range, and currency for fuzzy-searchable plan lookup in sales planning UIs."
+semantic_vi: "Trợ giúp giá trị (value help) kế hoạch bán hàng — trả về UUID, mô tả kế hoạch, phiên bản, trạng thái, mục đích, loại kỳ, khoảng thời gian và tiền tệ để hỗ trợ tìm kiếm kế hoạch trong giao diện lập kế hoạch bán hàng."
+keywords:
+  - value help kế hoạch bán hàng
+  - sales plan lookup
+  - trợ giúp giá trị SD analytics
+  - tìm kiếm kế hoạch doanh số
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

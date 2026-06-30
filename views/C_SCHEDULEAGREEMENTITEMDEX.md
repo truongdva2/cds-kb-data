@@ -1,6 +1,13 @@
 ---
 name: C_SCHEDULEAGREEMENTITEMDEX
 description: Scheduleagreementitemdex
+semantic_en: "DEX — purchase scheduling agreement item — material, plant, net price, target quantity, delivery tolerance, JIT/forecast schedule settings, and validity period per item for procurement analytics extraction."
+semantic_vi: "DEX — dòng mục thỏa thuận lịch trình mua hàng — vật liệu, nhà máy, giá ròng, số lượng mục tiêu, dung sai giao hàng và cài đặt JIT/dự báo cho trích xuất phân tích mua hàng."
+keywords:
+  - mục thỏa thuận lịch trình
+  - vật liệu kế hoạch giao hàng
+  - JIT mua hàng
+  - trích xuất dữ liệu SA
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

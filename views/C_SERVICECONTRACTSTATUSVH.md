@@ -1,6 +1,12 @@
 ---
 name: C_SERVICECONTRACTSTATUSVH
 description: Servicecontractstatusvh
+semantic_en: "VH — service contract lifecycle status — value help providing status code and description (text-only) for filtering or displaying service contract processing state."
+semantic_vi: "VH — trạng thái vòng đời hợp đồng dịch vụ — trợ giúp giá trị cung cấp mã trạng thái và mô tả để lọc hoặc hiển thị trạng thái xử lý hợp đồng dịch vụ."
+keywords:
+  - trạng thái hợp đồng dịch vụ
+  - trợ giúp giá trị trạng thái
+  - vòng đời hợp đồng dịch vụ
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

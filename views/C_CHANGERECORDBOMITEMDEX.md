@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDBOMITEMDEX
 description: Change RecordBOMITEMDEX
+semantic_en: "DEX — change record BOM item — delta-enabled data-extraction view exposing the reference UUID of a bill-of-materials item attached to a change record, keyed by ChangeRecordReferenceUUID."
+semantic_vi: "Trích xuất dữ liệu — hạng mục BOM của phiếu thay đổi — view trích xuất (DEX) hỗ trợ delta, cung cấp UUID tham chiếu của hạng mục danh sách vật liệu (BOM) gắn với phiếu thay đổi."
+keywords:
+  - trích xuất BOM phiếu thay đổi
+  - hạng mục danh sách vật liệu
+  - phiếu thay đổi BOM
+  - DEX thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

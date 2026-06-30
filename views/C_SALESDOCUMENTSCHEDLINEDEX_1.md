@@ -1,6 +1,13 @@
 ---
 name: C_SALESDOCUMENTSCHEDLINEDEX_1
 description: Salesdocumentschedlinedex 1
+semantic_en: "DEX — sales document schedule lines (inquiry, quotation, order, contract, returns, credit/debit memo request) — combines schedule-line delivery quantities and dates with item pricing, product, customer, shipping, and billing fields for delta-capable data extraction."
+semantic_vi: "Trích xuất dòng lịch giao hàng của chứng từ bán hàng (yêu cầu báo giá, báo giá, đơn hàng, hợp đồng, trả hàng, yêu cầu ghi có/ghi nợ) — bao gồm số lượng, ngày giao hàng, giá, sản phẩm, khách hàng và thông tin vận chuyển."
+keywords:
+  - dòng lịch giao hàng
+  - schedule line bán hàng
+  - trích xuất đơn hàng SD
+  - giao hàng xác nhận SD analytics
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

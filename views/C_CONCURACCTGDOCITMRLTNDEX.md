@@ -1,6 +1,13 @@
 ---
 name: C_CONCURACCTGDOCITMRLTNDEX
 description: Concuracctgdocitmrltndex
+semantic_en: "DEX — Concur accounting document item relation — delta extraction view linking a Concur travel and expense document entry to its SAP journal entry (company code, fiscal year, reference document item), supporting delete-detection."
+semantic_vi: "Trích xuất dữ liệu — quan hệ hạng mục chứng từ kế toán Concur — view trích xuất delta liên kết mục nhập tài liệu chi phí Concur với chứng từ kế toán SAP (mã công ty, năm tài chính, hạng mục tài liệu tham chiếu), hỗ trợ phát hiện bản ghi bị xóa."
+keywords:
+  - Concur chi phí
+  - chứng từ kế toán Concur
+  - trích xuất du lịch công tác
+  - tích hợp Concur SAP
 app_component: BNS-CON-SE-S4-FIN
 software_component: SAPSCORE
 release_state: released

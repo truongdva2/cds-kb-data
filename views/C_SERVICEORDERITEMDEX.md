@@ -1,6 +1,13 @@
 ---
 name: C_SERVICEORDERITEMDEX
 description: Service OrderITEMDEX
+semantic_en: "DEX — service order item — service order line with product, planned/actual service dates, quantities, net/gross amounts, SLA due date, billing status, and reference to preceding service contract for analytics extraction."
+semantic_vi: "DEX — mục lệnh dịch vụ — dòng lệnh dịch vụ với sản phẩm, ngày dịch vụ kế hoạch/thực tế, số lượng, giá trị ròng/gộp, hạn SLA, trạng thái thanh toán và tham chiếu hợp đồng dịch vụ trước đó."
+keywords:
+  - lệnh dịch vụ
+  - mục lệnh dịch vụ
+  - trích xuất dịch vụ CRM
+  - SLA dịch vụ
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

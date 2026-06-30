@@ -1,6 +1,13 @@
 ---
 name: C_SERVICEQUOTATIONITEMDEX
 description: Servicequotationitemdex
+semantic_en: "DEX — service quotation item — quoted service line with product, quantity, duration, net/gross/tax amounts, item status, sold-to/ship-to party, and reference to source service contract for analytics extraction."
+semantic_vi: "DEX — mục báo giá dịch vụ — dòng báo giá dịch vụ với sản phẩm, số lượng, thời gian, giá trị ròng/gộp/thuế, trạng thái dòng, bên mua/nhận hàng và tham chiếu hợp đồng dịch vụ nguồn."
+keywords:
+  - mục báo giá dịch vụ
+  - dòng báo giá dịch vụ
+  - trích xuất CRM dịch vụ
+  - số lượng thời gian dịch vụ
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

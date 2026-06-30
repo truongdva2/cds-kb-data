@@ -1,6 +1,13 @@
 ---
 name: C_SERVICECONTRACTITEMDEX
 description: Servicecontractitemdex
+semantic_en: "DEX — service contract item — contractual service line with validity dates, renewal/extension duration, service profile, billing status, pricing, sold-to party, and reference to preceding service quotation for analytics extraction."
+semantic_vi: "DEX — mục hợp đồng dịch vụ — dòng dịch vụ theo hợp đồng với thời hạn hiệu lực, thời gian gia hạn, hồ sơ dịch vụ, trạng thái thanh toán, định giá và tham chiếu báo giá dịch vụ trước đó."
+keywords:
+  - hợp đồng dịch vụ
+  - mục hợp đồng dịch vụ
+  - trích xuất hợp đồng dịch vụ
+  - gia hạn hợp đồng dịch vụ
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

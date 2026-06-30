@@ -1,6 +1,13 @@
 ---
 name: C_PRODCSTMSTRIFNMBRFORKEYDATE
 description: Prodcstmstrifnmbrforkeydate
+semantic_en: "Product customs tariff number classification for key date (parameterized) — resolves a product's customs tariff number, validity period, country, and customs units of measure as of a given key date."
+semantic_vi: "Phân loại số thuế quan hải quan của sản phẩm theo ngày hiệu lực (có tham số) — tra cứu số thuế quan hải quan, thời hạn hiệu lực, quốc gia và đơn vị đo lường hải quan của sản phẩm theo ngày khóa."
+keywords:
+  - số thuế quan hải quan
+  - tariff number sản phẩm
+  - phân loại hải quan
+  - mã thuế nhập khẩu
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

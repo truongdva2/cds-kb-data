@@ -1,6 +1,14 @@
 ---
 name: C_FINSGLAVGDAILYBALTRLBALQRY
 description: Finsglavgdailybaltrlbalqry
+semantic_en: "GL average daily balance analytical query — reports prior-day, prior-month, YTD, MTD/QTD/YTD average daily balances and activity amounts per G/L account, ledger, company code, profit center, cost center, and segment across up to six currencies."
+semantic_vi: "Truy vấn phân tích số dư bình quân ngày sổ cái tổng hợp — báo cáo số dư ngày trước, tháng trước, lũy kế năm (YTD), bình quân ngày tháng/quý/năm (MTD/QTD/YTD) theo tài khoản GL, sổ cái, mã công ty, trung tâm lợi nhuận, trung tâm chi phí và phân khúc trên tối đa sáu loại tiền."
+keywords:
+  - số dư bình quân ngày
+  - sổ cái tổng hợp
+  - phân tích tài chính
+  - average daily balance
+  - ADB
 app_component: FI-GL-GL-ADB-2CL
 software_component: SAPSCORE
 release_state: released

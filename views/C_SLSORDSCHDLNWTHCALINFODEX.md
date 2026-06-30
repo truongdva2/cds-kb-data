@@ -1,6 +1,13 @@
 ---
 name: C_SLSORDSCHDLNWTHCALINFODEX
 description: Slsordschdlnwthcalinfodex
+semantic_en: "DEX — sales order schedule line with calendar info — delivery dates (requested, confirmed, planned) enriched with week/month start dates, confirmed/delivered quantities, product, plant, and sales org for SD analytics extraction."
+semantic_vi: "DEX — dòng lịch giao hàng đơn bán hàng có thông tin lịch — ngày giao (yêu cầu, xác nhận, kế hoạch) được bổ sung ngày đầu tuần/tháng, số lượng xác nhận/đã giao, sản phẩm, nhà máy và tổ chức bán hàng cho trích xuất phân tích SD."
+keywords:
+  - lịch giao hàng đơn bán hàng
+  - xác nhận giao hàng SD
+  - trích xuất dữ liệu bán hàng
+  - ngày giao hàng lịch
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: C_CHANGERECORDDEX_2
 description: Change RecordDEX 2
+semantic_en: "DEX (v2) — change record header extraction — minimal delta-CDC extraction view for the change record header, exposing only the primary key ChangeRecordUUID."
+semantic_vi: "Trích xuất dữ liệu (v2) — tiêu đề phiếu thay đổi — view trích xuất tối giản hỗ trợ CDC delta, chỉ cung cấp khóa chính ChangeRecordUUID của phiếu thay đổi."
+keywords:
+  - trích xuất phiếu thay đổi
+  - DEX tiêu đề thay đổi
+  - UUID phiếu thay đổi
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

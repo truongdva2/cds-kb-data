@@ -1,6 +1,13 @@
 ---
 name: C_SUPLRCONFWRKFLWAPPROVALEMAIL
 description: Suplrconfwrkflwapprovalemail
+semantic_en: "Email template data provider — supplier confirmation workflow approval/rejection — supplies workflow task result (approved/rejected/auto-approved), approver name, supplier confirmation details, purchase order amount, and creator name for approval notification email."
+semantic_vi: "Nhà cung cấp dữ liệu mẫu email — phê duyệt/từ chối workflow xác nhận nhà cung cấp — cung cấp kết quả nhiệm vụ workflow (đã duyệt/từ chối/tự động duyệt), tên người duyệt, chi tiết xác nhận nhà cung cấp, giá trị đơn mua hàng và tên người tạo cho email thông báo phê duyệt."
+keywords:
+  - email phê duyệt xác nhận nhà cung cấp
+  - workflow xác nhận mua hàng
+  - thông báo phê duyệt đơn hàng
+  - kết quả phê duyệt nhà cung cấp
 app_component: MM-PUR-CNF-WFL-2CL
 software_component: SAPSCORE
 release_state: released

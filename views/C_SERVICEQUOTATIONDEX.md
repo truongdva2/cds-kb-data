@@ -1,6 +1,13 @@
 ---
 name: C_SERVICEQUOTATIONDEX
 description: Servicequotationdex
+semantic_en: "DEX — service quotation header — quoted service with validity/requested dates, sold-to/ship-to party, net/gross/tax amounts, lifecycle status, and reference equipment/functional location for analytics extraction."
+semantic_vi: "DEX — tiêu đề báo giá dịch vụ — dịch vụ báo giá với thời hạn hiệu lực/yêu cầu, bên mua/nhận hàng, giá trị ròng/gộp/thuế, trạng thái vòng đời và tham chiếu thiết bị/vị trí chức năng."
+keywords:
+  - báo giá dịch vụ
+  - tiêu đề báo giá dịch vụ
+  - trích xuất dịch vụ CRM
+  - trạng thái báo giá dịch vụ
 app_component: CRM-S4-ANA-BI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: C_REARCHTROBJUSGEMSMTDEX
 description: Rearchtrobjusgemsmtdex
+semantic_en: "Real estate architecture object usage measurement (DEX) — data-extraction view for measured-based usage of RE architecture objects, exposing rental object reference, measurement type, unit, and quantity per validity period."
+semantic_vi: "Đo lường sử dụng đối tượng kiến trúc bất động sản (DEX) — trích xuất dữ liệu sử dụng theo đo lường của đối tượng kiến trúc RE, với tham chiếu đối tượng cho thuê, loại đo lường, đơn vị và số lượng theo thời hạn hiệu lực."
+keywords:
+  - đo lường sử dụng đối tượng RE
+  - diện tích sử dụng bất động sản
+  - đo lường RE-FX
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

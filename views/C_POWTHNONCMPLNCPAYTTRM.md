@@ -1,6 +1,13 @@
 ---
 name: C_POWTHNONCMPLNCPAYTTRM
 description: Powthnoncmplncpayttrm
+semantic_en: "Purchase orders with non-compliant payment terms analytical cube — identifies PO items whose payment terms do not comply with sourcing agreements, reporting counts and net amounts per supplier, purchasing organization, incoterms, and calendar year."
+semantic_vi: "Khối phân tích đơn mua hàng có điều khoản thanh toán không tuân thủ — xác định các dòng đơn mua có điều khoản thanh toán không phù hợp với thỏa thuận tìm nguồn cung, báo cáo số lượng và giá trị ròng theo nhà cung cấp, tổ chức mua hàng, điều kiện giao hàng và năm dương lịch."
+keywords:
+  - điều khoản thanh toán không tuân thủ
+  - đơn mua hàng
+  - tuân thủ mua hàng
+  - non-compliant payment terms
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

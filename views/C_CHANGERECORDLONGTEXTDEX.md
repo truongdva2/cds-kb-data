@@ -1,6 +1,13 @@
 ---
 name: C_CHANGERECORDLONGTEXTDEX
 description: Change RecordLONGTEXTDEX
+semantic_en: "DEX — change record long text — extraction view delivering the free-text detail description (ChangeRecordDetailDescription) of a change record, keyed by ChangeRecordReferenceTextUUID."
+semantic_vi: "Trích xuất dữ liệu — văn bản dài phiếu thay đổi — view trích xuất cung cấp nội dung mô tả chi tiết dạng văn bản tự do (ChangeRecordDetailDescription) của phiếu thay đổi."
+keywords:
+  - mô tả chi tiết phiếu thay đổi
+  - văn bản dài thay đổi
+  - trích xuất văn bản thay đổi
+  - long text DEX
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: C_CHGRECHDREXTENSIONDEX
 description: Chgrechdrextensiondex
+semantic_en: "DEX — change record header extension — automatic-CDC extraction view for the extended header attributes of a change record: reason, change status, expected/engineering/manufacturing effective dates, profile, detail description, and item edit mode."
+semantic_vi: "Trích xuất dữ liệu — phần mở rộng tiêu đề phiếu thay đổi — view trích xuất CDC tự động, cung cấp các thuộc tính mở rộng của tiêu đề phiếu thay đổi: lý do, trạng thái thay đổi, ngày hiệu lực kỹ thuật/sản xuất, hồ sơ cấu hình và chế độ chỉnh sửa hạng mục."
+keywords:
+  - mở rộng tiêu đề phiếu thay đổi
+  - ngày hiệu lực thay đổi
+  - trích xuất mở rộng thay đổi
+  - DEX header extension
 app_component: PLM-CR-2CL
 software_component: SAPSCORE
 release_state: released

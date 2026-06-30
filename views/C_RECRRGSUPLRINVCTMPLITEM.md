@@ -1,6 +1,12 @@
 ---
 name: C_RECRRGSUPLRINVCTMPLITEM
 description: Recrrgsuplrinvctmplitem
+semantic_en: "Recurring supplier invoice template G/L item — G/L line items within a recurring AP invoice template, capturing GL account, debit/credit code, amount, tax, and cost object assignments (cost center, profit center, WBS, fund)."
+semantic_vi: "Dòng khoản mục GL trong mẫu hóa đơn nhà cung cấp định kỳ — các dòng khoản mục tài khoản GL trong mẫu hóa đơn AP định kỳ, gồm tài khoản GL, mã nợ/có, số tiền, thuế và phân bổ đối tượng chi phí."
+keywords:
+  - dòng GL mẫu hóa đơn định kỳ
+  - khoản mục tài khoản hóa đơn AP
+  - phân bổ chi phí hóa đơn định kỳ
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released
