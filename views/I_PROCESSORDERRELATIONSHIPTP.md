@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERRELATIONSHIPTP
 description: Processorderrelationshiptp
+semantic_en: "process order relationship data extract — phase dependencies and scheduling time intervals between orders"
+semantic_vi: "trích xuất dữ liệu mối quan hệ lệnh quy trình — phụ thuộc pha và khoảng thời gian lập lịch giữa các lệnh"
+keywords:
+  - mối quan hệ pha
+  - lệnh quy trình
+  - lập lịch
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

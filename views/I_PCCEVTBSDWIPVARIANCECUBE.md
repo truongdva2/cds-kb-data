@@ -1,6 +1,12 @@
 ---
 name: I_PCCEVTBSDWIPVARIANCECUBE
 description: Pccevtbsdwipvariancecube
+semantic_en: "event-based process cost analysis cube — analytical aggregation of work-in-process and cost variance data across order, product, and ledger dimensions."
+semantic_vi: "khối phân tích chi phí xử lý theo sự kiện — tổng hợp phân tích dữ liệu công việc đang thực hiện và phương sai chi phí trên các chiều đơn hàng, sản phẩm và sổ cái."
+keywords:
+  - phân tích chi phí
+  - khối dữ liệu
+  - phương sai chi phí
 app_component: CO-PC-OBJ-PER-2CL
 software_component: SAPSCORE
 release_state: released

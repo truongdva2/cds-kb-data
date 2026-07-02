@@ -1,6 +1,12 @@
 ---
 name: I_PERSONWORKAGRMTTOEXTERNALID
 description: Personworkagrmttoexternalid
+semantic_en: "person work agreement to external ID mapping — mapping records linking internal work agreement identifiers to external system IDs by company code."
+semantic_vi: "ánh xạ hợp đồng làm việc của người sang ID bên ngoài — các bản ghi ánh xạ liên kết các định danh hợp đồng làm việc nội bộ với ID hệ thống bên ngoài theo mã công ty."
+keywords:
+  - hợp đồng làm việc
+  - ID bên ngoài
+  - ánh xạ
 app_component: CA-WFD
 software_component: SAPSCORE
 release_state: released

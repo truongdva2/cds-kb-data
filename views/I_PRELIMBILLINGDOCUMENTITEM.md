@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLINGDOCUMENTITEM
 description: PRELIMBilling DocumentUMENTITEM
+semantic_en: "preliminary billing document item master — captures detailed item-level information including material, category, and organizational context for preliminary billing document items."
+semantic_vi: "mục tài liệu lập hóa đơn sơ bộ chính — ghi lại thông tin chi tiết mục bao gồm vật liệu, loại và bối cảnh tổ chức cho các mục tài liệu lập hóa đơn sơ bộ."
+keywords:
+  - hóa đơn sơ bộ
+  - mục
+  - vật liệu
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRJMARGANLYSRPTCRCYFLDTXT
 description: Prjmarganlysrptcrcyfldtxt
+semantic_en: "currency field descriptions for project margin analysis reporting — multilingual text for currency field options"
+semantic_vi: "mô tả trường tiền tệ cho báo cáo phân tích lợi nhuận dự án — văn bản đa ngôn ngữ cho tùy chọn trường tiền tệ"
+keywords:
+  - tên trường tiền tệ
+  - lợi nhuận dự án
+  - mô tả tiền tệ
 app_component: CO-FIO-PA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTBUSPROCCAT
 description: Perssettlmtbusproccat
+semantic_en: "personnel settlement business process category — code domain for business process classification in personnel settlement operations."
+semantic_vi: "danh mục quy trình kinh doanh thanh lý nhân sự — miền mã cho phân loại quy trình kinh doanh trong các hoạt động thanh lý nhân sự."
+keywords:
+  - thanh lý nhân sự
+  - quy trình kinh doanh
+  - danh mục
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

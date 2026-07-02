@@ -1,6 +1,12 @@
 ---
 name: I_PRJMARGANLYSRPTCRCYFLD
 description: Prjmarganlysrptcrcyfld
+semantic_en: "currency field selection for project margin analysis reporting — projection view for currency field options"
+semantic_vi: "lựa chọn trường tiền tệ cho báo cáo phân tích lợi nhuận dự án — chế độ xem hình chiếu cho tùy chọn trường tiền tệ"
+keywords:
+  - trường tiền tệ
+  - lợi nhuận dự án
+  - báo cáo phân tích
 app_component: CO-FIO-PA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PPM_AUTHZNBYUSRGRPH
 description: Ppm Authznbyusrgrph
+semantic_en: "project authorization information by user group — maps users and their assigned project authorization groups to project objects."
+semantic_vi: "thông tin cấp phép dự án theo nhóm người dùng — ánh xạ người dùng và các nhóm cấp phép dự án được gán tới các đối tượng dự án."
+keywords:
+  - cấp phép dự án
+  - nhóm người dùng
+  - kiểm soát truy cập
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

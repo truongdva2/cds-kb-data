@@ -1,6 +1,12 @@
 ---
 name: I_PRDETERMINATIONCONTROLSTDVH
 description: Prdeterminationcontrolstdvh
+semantic_en: "value help view for price determination control — provides domain values and descriptions for controlling price determination in financial processes."
+semantic_vi: "view trợ giúp giá trị cho kiểm soát xác định giá — cung cấp giá trị miền và mô tả để kiểm soát xác định giá trong các quá trình tài chính."
+keywords:
+  - xác định giá
+  - kiểm soát
+  - trợ giúp giá trị
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

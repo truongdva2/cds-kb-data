@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERCAPACITY
 description: Planned OrderCAPACITY
+semantic_en: "Planned order capacity — capacity requirements for planned orders with operation and work center details."
+semantic_vi: "Công suất lệnh kế hoạch — yêu cầu công suất cho lệnh kế hoạch với chi tiết hoạt động và trung tâm làm việc."
+keywords:
+  - lệnh kế hoạch
+  - công suất
+  - hoạt động
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

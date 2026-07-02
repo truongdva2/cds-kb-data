@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGSTRATEGYGROUP
 description: Planningstrategygroup
+semantic_en: "planning strategy group — associates strategy groups with main planning strategies used in manufacturing planning"
+semantic_vi: "nhóm chiến lược lập kế hoạch — liên kết các nhóm chiến lược với chiến lược lập kế hoạch chính trong quy hoạch sản xuất"
+keywords:
+  - chiến lược hoạch định
+  - nhóm kế hoạch
+  - lập kế hoạch sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

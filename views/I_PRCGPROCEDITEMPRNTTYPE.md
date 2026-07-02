@@ -1,6 +1,12 @@
 ---
 name: I_PRCGPROCEDITEMPRNTTYPE
 description: Prcgproceditemprnttype
+semantic_en: "domain value list for pricing procedure item print types — captures codes for different print types used in pricing procedure lines."
+semantic_vi: "danh sách giá trị miền cho loại in của mục thủ tục định giá — chứa các mã loại in khác nhau được sử dụng trong các dòng thủ tục định giá."
+keywords:
+  - in
+  - thủ tục định giá
+  - loại
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGLEVELTEXT
 description: Planningleveltext
+semantic_en: "Planning level text — multilingual descriptions for cash flow planning levels."
+semantic_vi: "Văn bản cấp kế hoạch — mô tả đa ngôn ngữ cho các cấp kế hoạch dòng tiền."
+keywords:
+  - kế hoạch
+  - dòng tiền
+  - cấp độ
 app_component: FIN-FSCM-CLM-FQM-2CL
 software_component: SAPSCORE
 release_state: released

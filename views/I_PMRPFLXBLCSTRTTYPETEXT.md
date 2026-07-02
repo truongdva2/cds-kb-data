@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTTYPETEXT
 description: Pmrpflxblcstrttypetext
+semantic_en: "PMRP flexible constraint type text — multilingual descriptions of constraint types with language-specific type names and definitions"
+semantic_vi: "văn bản loại ràng buộc linh hoạt PMRP — tên loại ràng buộc theo ngôn ngữ khác nhau"
+keywords:
+  - tên loại ràng buộc
+  - mô tả ràng buộc
+  - nhãn loại PMRP
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

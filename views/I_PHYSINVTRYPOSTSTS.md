@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYPOSTSTS
 description: Physinvtrypoststs
+semantic_en: "Physical inventory posting status codes — domain values for adjustment posting statuses."
+semantic_vi: "Mã trạng thái ghi bút toán kiểm kê vật lý — giá trị miền cho trạng thái ghi bút toán điều chỉnh."
+keywords:
+  - kiểm kê
+  - ghi sổ
+  - trạng thái
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

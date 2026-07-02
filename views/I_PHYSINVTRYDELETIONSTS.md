@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDELETIONSTS
 description: Physinvtrydeletionsts
+semantic_en: "Physical inventory deletion status codes — domain values for deletion status."
+semantic_vi: "Mã trạng thái xóa kho kiểm kê — giá trị miền cho trạng thái xóa."
+keywords:
+  - xóa kiểm kê
+  - trạng thái xóa
+  - kho hàng
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

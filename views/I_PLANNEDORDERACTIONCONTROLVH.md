@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERACTIONCONTROLVH
 description: Planned OrderACTIONCONTROLVH
+semantic_en: "Planned order action control value help — mapping of action controls to processing and follow-up actions."
+semantic_vi: "Trợ giúp giá trị kiểm soát hành động lệnh kế hoạch — ánh xạ của kiểm soát hành động đến các hành động xử lý."
+keywords:
+  - lệnh kế hoạch
+  - hành động
+  - trợ giúp giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

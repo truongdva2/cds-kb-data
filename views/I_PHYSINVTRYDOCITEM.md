@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCITEM
 description: Physinvtrydocitem
+semantic_en: "Physical inventory document item — line items in physical inventory documents with material, plant, and batch details."
+semantic_vi: "Mục tài liệu kiểm kê vật lý — các mục dòng trong tài liệu kiểm kê với chi tiết vật liệu, nhà máy và lô hàng."
+keywords:
+  - kiểm kê
+  - mục tài liệu
+  - vật liệu
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

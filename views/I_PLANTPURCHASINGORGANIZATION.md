@@ -1,6 +1,12 @@
 ---
 name: I_PLANTPURCHASINGORGANIZATION
 description: Plantpurchasingorganization
+semantic_en: "responsible purchasing organization for plant — maps plants to their designated sourcing organizations for procurement"
+semantic_vi: "tổ chức mua hàng có trách nhiệm cho nhà máy — ánh xạ nhà máy tới tổ chức nguồn được chỉ định cho mua sắm"
+keywords:
+  - tổ chức mua hàng
+  - phân công mua sắm
+  - nhà máy trách nhiệm
 app_component: MM
 software_component: SAPSCORE
 release_state: released

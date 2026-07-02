@@ -1,6 +1,12 @@
 ---
 name: I_PL_SAFTGENERALSETTINGS
 description: PL Saftgeneralsettings
+semantic_en: "SAFT PL general settings — Polish tax compliance configuration with SAFT accounting view and entity registration data"
+semantic_vi: "cài đặt chung SAFT PL — cấu hình tuân thủ thuế Ba Lan với dữ liệu chế độ xem kế toán SAFT và đăng ký thực thể"
+keywords:
+  - cấu hình thuế Ba Lan
+  - báo cáo SAFT
+  - tuân thủ kế toán
 app_component: FI-LOC-SAF-PL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONTABLETEXT
 description: Pricing ConditionTABLETEXT
+semantic_en: "text descriptions of pricing condition tables — maps condition table codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các bảng điều kiện định giá — ánh xạ các mã bảng điều kiện tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - bảng
+  - điều kiện giá
+  - mô tả
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

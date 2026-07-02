@@ -1,6 +1,12 @@
 ---
 name: I_PRMTHBPURORDITMSCHDLNAPI01
 description: Prmthbpurorditmschdlnapi 01
+semantic_en: "purchase order schedule lines in procurement hub — extended details for delivery schedules and confirmation dates"
+semantic_vi: "dòng lịch biểu đơn đặt hàng trong trung tâm mua hàng — chi tiết mở rộng cho lịch biểu giao hàng và ngày xác nhận"
+keywords:
+  - lịch biểu đơn hàng
+  - ngày giao hàng
+  - trung tâm mua hàng
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

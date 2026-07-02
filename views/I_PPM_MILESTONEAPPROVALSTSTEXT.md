@@ -1,6 +1,12 @@
 ---
 name: I_PPM_MILESTONEAPPROVALSTSTEXT
 description: Ppm Milestoneapprovalststext
+semantic_en: "text descriptions of milestone approval statuses — maps status codes to localized milestone approval status text in multiple languages."
+semantic_vi: "mô tả văn bản của trạng thái phê duyệt mốc thời gian — ánh xạ các mã trạng thái tới văn bản trạng thái phê duyệt mốc thời gian được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - mốc thời gian
+  - phê duyệt
+  - văn bản trạng thái
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

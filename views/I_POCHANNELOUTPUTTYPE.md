@@ -1,6 +1,12 @@
 ---
 name: I_POCHANNELOUTPUTTYPE
 description: Pochanneloutputtype
+semantic_en: "PO output type automatic or manual — domain values indicating whether purchase order output channels are automated or manually managed"
+semantic_vi: "loại đầu ra PO tự động hoặc thủ công — giá trị miền chỉ định kênh đầu ra đơn đặt hàng tự động hay thủ công"
+keywords:
+  - loại đầu ra PO
+  - kênh đầu ra tự động
+  - đơn đặt hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFMAINTENANCEDATA
 description: Pmnotifmaintenancedata
+semantic_en: "notification maintenance data — maintenance-specific details including object location, malfunction timing, and equipment assignment"
+semantic_vi: "dữ liệu bảo trì thông báo — chi tiết cụ thể bảo trì bao gồm vị trí đối tượng, thời gian hỏng hóc và gán thiết bị"
+keywords:
+  - dữ liệu bảo trì
+  - vị trí thiết bị
+  - thời gian hỏng hóc
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

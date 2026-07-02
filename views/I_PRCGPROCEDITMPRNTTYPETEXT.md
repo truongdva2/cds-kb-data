@@ -1,6 +1,12 @@
 ---
 name: I_PRCGPROCEDITMPRNTTYPETEXT
 description: Prcgproceditmprnttypetext
+semantic_en: "text descriptions of pricing procedure item print types — maps print type codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của loại in của mục thủ tục định giá — ánh xạ các mã loại in tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - in
+  - thủ tục
+  - loại
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTUSRDFLTREQNGGRPSAPI01
 description: Procmtusrdfltreqnggrpsapi 01
+semantic_en: "default requisitioning groups personalization for users in procurement — group assignment with authorization and data control"
+semantic_vi: "cá nhân hóa nhóm yêu cầu mặc định cho người dùng trong mua hàng — gán nhóm với ủy quyền và kiểm soát dữ liệu"
+keywords:
+  - nhóm yêu cầu
+  - cá nhân hóa người dùng
+  - ủy quyền
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRICELISTTYPE
 description: Pricelisttype
+semantic_en: "domain value list for price list types — captures codes for different types of price lists used in sales operations."
+semantic_vi: "danh sách giá trị miền cho các loại bảng giá — chứa các mã loại bảng giá khác nhau được sử dụng trong các hoạt động bán hàng."
+keywords:
+  - bảng giá
+  - loại
+  - bán hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

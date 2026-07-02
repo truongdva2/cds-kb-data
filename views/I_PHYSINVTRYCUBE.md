@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYCUBE
 description: Physinvtrycube
+semantic_en: "physical inventory analytical cube — analytical aggregation of inventory count data across fiscal year, document, plant, location, material, and batch dimensions."
+semantic_vi: "khối phân tích kiểm kê hàng hóa — tổng hợp phân tích dữ liệu kiểm kê hàng hóa trên các chiều năm tài chính, tài liệu, nhà máy, vị trí, vật liệu và lô."
+keywords:
+  - kiểm kê hàng hóa
+  - khối dữ liệu
+  - phân tích
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

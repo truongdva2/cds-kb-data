@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALEBASIS
 description: Pricingscalebasis
+semantic_en: "pricing scale basis master data — domain value for PricingScaleBasis classification"
+semantic_vi: "dữ liệu cơ bản về cơ sở thang giá — giá trị miền để phân loại Cơ sở Thang Giá"
+keywords:
+  - thang giá cơ sở
+  - phân loại thang giá
+  - định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYCOUNTSTS
 description: Physinvtrycountsts
+semantic_en: "physical inventory count status — code domain for count completion states in physical inventory processing."
+semantic_vi: "trạng thái kiểm kê hàng hóa — miền mã cho các trạng thái hoàn thành kiểm kê trong xử lý kiểm kê hàng hóa."
+keywords:
+  - kiểm kê hàng hóa
+  - trạng thái
+  - hoàn thành
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

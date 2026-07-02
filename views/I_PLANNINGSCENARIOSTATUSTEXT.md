@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGSCENARIOSTATUSTEXT
 description: Planningscenariostatustext
+semantic_en: "MRP planning scenario status text — multilingual descriptions of scenario statuses with language-specific names and domain values"
+semantic_vi: "văn bản trạng thái kịch bản MRP — tên và mô tả trạng thái kịch bản theo ngôn ngữ khác nhau"
+keywords:
+  - tên trạng thái kịch bản
+  - mô tả MRP tình huống
+  - nhãn trạng thái quy hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

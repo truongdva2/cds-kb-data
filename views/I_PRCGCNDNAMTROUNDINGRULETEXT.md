@@ -1,6 +1,12 @@
 ---
 name: I_PRCGCNDNAMTROUNDINGRULETEXT
 description: Prcgcndnamtroundingruletext
+semantic_en: "text descriptions of pricing condition amount rounding rules — maps rounding rule codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của quy tắc làm tròn số tiền điều kiện định giá — ánh xạ các mã quy tắc làm tròn tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - làm tròn
+  - quy tắc
+  - định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

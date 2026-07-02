@@ -1,6 +1,12 @@
 ---
 name: I_PLANTCATEGORYT
 description: Plantcategoryt
+semantic_en: "plant category text — multilingual descriptions of plant classifications with language-specific category names"
+semantic_vi: "văn bản phân loại nhà máy — tên phân loại nhà máy theo ngôn ngữ khác nhau"
+keywords:
+  - loại nhà máy
+  - phân loại cơ sở
+  - tên công xưởng
 app_component: LO-MD-PL-2CL
 software_component: SAPSCORE
 release_state: released

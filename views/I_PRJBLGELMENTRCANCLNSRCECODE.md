@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRCANCLNSRCECODE
 description: Prjblgelmentrcanclnsrcecode
+semantic_en: "source code for cancelling project billing element entries — domain value classification for cancellation sources"
+semantic_vi: "mã nguồn để hủy bỏ mục nhập phần tử hóa đơn dự án — phân loại giá trị miền cho nguồn hủy bỏ"
+keywords:
+  - mã hủy bỏ
+  - nguồn phần tử
+  - hóa đơn dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

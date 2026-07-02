@@ -1,6 +1,12 @@
 ---
 name: I_PERSONADDRESS
 description: Personaddress
+semantic_en: "person address — address details for persons including name components, birth name, and correspondence language preferences."
+semantic_vi: "địa chỉ của người — chi tiết địa chỉ của người bao gồm thành phần tên, tên khai sinh và ưu tiên ngôn ngữ liên lạc."
+keywords:
+  - địa chỉ người
+  - tên
+  - thông tin liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

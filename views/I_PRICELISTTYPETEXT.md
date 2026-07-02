@@ -1,6 +1,12 @@
 ---
 name: I_PRICELISTTYPETEXT
 description: Pricelisttypetext
+semantic_en: "text descriptions of price list types — maps price list type codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các loại bảng giá — ánh xạ các mã loại bảng giá tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - bảng giá
+  - loại
+  - mô tả
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGDATECONTROL
 description: Pricingdatecontrol
+semantic_en: "domain value list for pricing date control — captures codes for controlling which date reference to use in pricing and procurement operations."
+semantic_vi: "danh sách giá trị miền cho kiểm soát ngày định giá — chứa các mã kiểm soát tham chiếu ngày nào được sử dụng trong các hoạt động định giá và mua sắm."
+keywords:
+  - ngày định giá
+  - kiểm soát
+  - định giá
 app_component: MM
 software_component: SAPSCORE
 release_state: released

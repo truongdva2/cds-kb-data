@@ -1,6 +1,12 @@
 ---
 name: I_PROCUREMENTBLOCK
 description: Procurementblock
+semantic_en: "procurement block master data — domain value for blocking procurement activities"
+semantic_vi: "dữ liệu cơ bản chặn mua hàng — giá trị miền để chặn các hoạt động mua hàng"
+keywords:
+  - chặn mua hàng
+  - mã chặn
+  - hạn chế mua
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

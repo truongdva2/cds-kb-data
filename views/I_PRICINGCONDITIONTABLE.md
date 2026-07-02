@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONTABLE
 description: Pricing ConditionTABLE
+semantic_en: "pricing condition table master — defines condition tables used for storing and accessing pricing conditions including validity and release control."
+semantic_vi: "bảng điều kiện định giá chính — xác định các bảng điều kiện được sử dụng để lưu trữ và truy cập các điều kiện định giá bao gồm kiểm soát hiệu lực và phát hành."
+keywords:
+  - bảng
+  - điều kiện giá
+  - định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

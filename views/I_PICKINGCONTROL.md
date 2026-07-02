@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGCONTROL
 description: Pickingcontrol
+semantic_en: "Picking control codes — domain values for picking process control types."
+semantic_vi: "Mã kiểm soát bộ lấy hàng — giá trị miền cho các loại kiểm soát quy trình bộ lấy."
+keywords:
+  - bộ lấy hàng
+  - kiểm soát
+  - quy trình
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

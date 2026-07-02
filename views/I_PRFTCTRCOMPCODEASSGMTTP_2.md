@@ -1,6 +1,12 @@
 ---
 name: I_PRFTCTRCOMPCODEASSGMTTP_2
 description: Prftctrcompcodeassgmttp 2
+semantic_en: "profit center company code assignment transactional projection — provides transactional view of profit center company code assignments with assignment status and joint venture details."
+semantic_vi: "phép chiếu giao dịch gán công ty trung tâm lợi nhuận — cung cấp chế độ xem giao dịch về các gán công ty trung tâm lợi nhuận với trạng thái gán và chi tiết liên doanh."
+keywords:
+  - trung tâm lợi nhuận
+  - công ty
+  - gán
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

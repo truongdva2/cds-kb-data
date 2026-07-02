@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYTYPETEXT
 description: Physinvtrytypetext
+semantic_en: "Physical inventory type text — multilingual descriptions for physical inventory type classifications."
+semantic_vi: "Văn bản loại kiểm kê vật lý — mô tả đa ngôn ngữ cho các phân loại loại kiểm kê."
+keywords:
+  - kiểm kê
+  - loại
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

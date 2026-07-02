@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERPROCGACTIONTEXT
 description: Planned OrderPROCGACTIONTEXT
+semantic_en: "Planned order processing action text — multilingual descriptions for planned order processing actions."
+semantic_vi: "Văn bản hành động xử lý lệnh kế hoạch — mô tả đa ngôn ngữ cho hành động xử lý lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - hành động
+  - xử lý
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

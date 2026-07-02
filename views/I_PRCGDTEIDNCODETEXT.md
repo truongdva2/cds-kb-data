@@ -1,6 +1,12 @@
 ---
 name: I_PRCGDTEIDNCODETEXT
 description: Prcgdteidncodetext
+semantic_en: "text descriptions of pricing date identification codes — maps date identification codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của mã định danh ngày định giá — ánh xạ các mã định danh ngày tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - ngày định giá
+  - mã định danh
+  - văn bản
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

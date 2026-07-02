@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERPROCGACTION
 description: Planned OrderPROCGACTION
+semantic_en: "Planned order processing action codes — codes for processing actions applied to planned orders."
+semantic_vi: "Mã hành động xử lý lệnh kế hoạch — mã cho hành động xử lý áp dụng cho lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - hành động
+  - xử lý
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

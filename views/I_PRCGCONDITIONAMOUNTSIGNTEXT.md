@@ -1,6 +1,12 @@
 ---
 name: I_PRCGCONDITIONAMOUNTSIGNTEXT
 description: Prcgconditionamountsigntext
+semantic_en: "text descriptions of pricing condition amount signs — maps amount sign codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của dấu số tiền điều kiện định giá — ánh xạ các mã dấu số tiền tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - dấu số tiền
+  - điều kiện
+  - định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

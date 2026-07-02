@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGACCESSSEQUENCETEXT
 description: Pricingaccesssequencetext
+semantic_en: "text descriptions of pricing access sequences — maps access sequence codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các chuỗi truy cập định giá — ánh xạ các mã chuỗi truy cập tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - chuỗi truy cập
+  - định giá
+  - mô tả
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

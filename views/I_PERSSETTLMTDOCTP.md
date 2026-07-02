@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTDOCTP
 description: Perssettlmtdoctp
+semantic_en: "personnel settlement document transaction data — settlement documents with type, category, process type, status, and audit trail information."
+semantic_vi: "dữ liệu giao dịch tài liệu thanh lý nhân sự — các tài liệu thanh lý có loại, danh mục, loại quy trình, trạng thái và thông tin dấu thời gian kiểm toán."
+keywords:
+  - tài liệu thanh lý
+  - dữ liệu giao dịch
+  - trạng thái
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

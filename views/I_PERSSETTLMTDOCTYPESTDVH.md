@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTDOCTYPESTDVH
 description: Perssettlmtdoctypestdvh
+semantic_en: "settlement document type standard value help — minimal projection of document type codes for settlement document classification."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn loại tài liệu thanh lý — phép chiếu tối thiểu của mã loại tài liệu để phân loại tài liệu thanh lý."
+keywords:
+  - loại tài liệu
+  - thanh lý
+  - mã
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

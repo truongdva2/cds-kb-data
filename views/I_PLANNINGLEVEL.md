@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGLEVEL
 description: Planninglevel
+semantic_en: "Planning level — cash flow planning levels with source symbols for hierarchical planning organization."
+semantic_vi: "Cấp kế hoạch — các cấp kế hoạch dòng tiền với các ký hiệu nguồn cho tổ chức kế hoạch phân cấp."
+keywords:
+  - kế hoạch
+  - dòng tiền
+  - cấp độ
 app_component: FIN-FSCM-CLM-FQM-2CL
 software_component: SAPSCORE
 release_state: released

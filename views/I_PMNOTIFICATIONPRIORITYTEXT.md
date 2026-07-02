@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFICATIONPRIORITYTEXT
 description: Pmnotificationprioritytext
+semantic_en: "notification priority text — multilingual descriptions of priority levels with language-specific priority descriptions"
+semantic_vi: "văn bản ưu tiên thông báo — mô tả mức ưu tiên theo ngôn ngữ khác nhau"
+keywords:
+  - mô tả mức ưu tiên
+  - tên ưu tiên
+  - nhãn mức độ
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

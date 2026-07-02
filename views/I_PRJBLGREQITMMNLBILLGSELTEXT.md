@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGREQITMMNLBILLGSELTEXT
 description: Prjblgreqitmmnlbillgseltext
+semantic_en: "project billing request item manual billing selection — multilingual text for manual billing selection options"
+semantic_vi: "lựa chọn hóa đơn thủ công mục yêu cầu hóa đơn dự án — văn bản đa ngôn ngữ cho tùy chọn lựa chọn hóa đơn thủ công"
+keywords:
+  - hóa đơn thủ công
+  - mục yêu cầu
+  - lựa chọn hóa đơn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

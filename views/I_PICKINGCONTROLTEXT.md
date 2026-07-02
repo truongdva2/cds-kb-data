@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGCONTROLTEXT
 description: Pickingcontroltext
+semantic_en: "Picking control text — multilingual descriptions for picking control types."
+semantic_vi: "Văn bản kiểm soát bộ lấy hàng — mô tả đa ngôn ngữ cho các loại kiểm soát bộ lấy."
+keywords:
+  - bộ lấy hàng
+  - kiểm soát
+  - mô tả
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

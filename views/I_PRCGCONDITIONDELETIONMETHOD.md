@@ -1,6 +1,12 @@
 ---
 name: I_PRCGCONDITIONDELETIONMETHOD
 description: Prcgconditiondeletionmethod
+semantic_en: "domain value list for condition record deletion indicators — captures codes for different deletion methods in pricing conditions."
+semantic_vi: "danh sách giá trị miền cho chỉ báo xóa bản ghi điều kiện — chứa các mã phương pháp xóa khác nhau trong điều kiện định giá."
+keywords:
+  - xóa
+  - điều kiện giá
+  - phương pháp
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

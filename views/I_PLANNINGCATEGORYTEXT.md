@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGCATEGORYTEXT
 description: Planningcategorytext
+semantic_en: "Planning category text — multilingual descriptions for planning categories."
+semantic_vi: "Văn bản danh mục kế hoạch — mô tả đa ngôn ngữ cho danh mục kế hoạch."
+keywords:
+  - danh mục kế hoạch
+  - mô tả
+  - kế hoạch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

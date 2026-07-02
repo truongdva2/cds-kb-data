@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERTYPETEXT
 description: Planned OrderTYPETEXT
+semantic_en: "Planned order type text — multilingual descriptions for planned order type classifications."
+semantic_vi: "Văn bản loại lệnh kế hoạch — mô tả đa ngôn ngữ cho các phân loại loại lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - loại
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

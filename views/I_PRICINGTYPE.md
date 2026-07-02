@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGTYPE
 description: Pricingtype
+semantic_en: "pricing type master data — domain value for PricingType classification"
+semantic_vi: "dữ liệu cơ bản loại định giá — giá trị miền để phân loại Loại Định Giá"
+keywords:
+  - loại định giá
+  - phân loại định giá
+  - cách tính giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

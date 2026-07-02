@@ -1,6 +1,12 @@
 ---
 name: I_PROCORDEROPERATIONCAPACITY
 description: Procorderoperationcapacity
+semantic_en: "individual capacity requirements for process order operations — capacity planning with work center and operation details"
+semantic_vi: "yêu cầu công suất riêng lẻ cho hoạt động lệnh quy trình — lập kế hoạch công suất với chi tiết trung tâm làm việc và hoạt động"
+keywords:
+  - công suất hoạt động
+  - lập kế hoạch
+  - trung tâm làm việc
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

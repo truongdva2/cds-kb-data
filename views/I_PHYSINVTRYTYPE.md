@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYTYPE
 description: Physinvtrytype
+semantic_en: "Physical inventory type codes — domain values for inventory type classifications."
+semantic_vi: "Mã loại kiểm kê vật lý — giá trị miền cho các phân loại kiểm kê."
+keywords:
+  - kiểm kê
+  - loại
+  - phân loại
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

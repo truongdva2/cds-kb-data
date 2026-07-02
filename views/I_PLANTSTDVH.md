@@ -1,6 +1,12 @@
 ---
 name: I_PLANTSTDVH
 description: Plantstdvh
+semantic_en: "plant by name value help — reference data for plant lookup and selection using plant name and identifier"
+semantic_vi: "trợ giúp giá trị tìm kiếm nhà máy theo tên — dữ liệu tham chiếu để tra cứu và lựa chọn nhà máy theo tên"
+keywords:
+  - tìm kiếm nhà máy
+  - lựa chọn công xưởng
+  - danh sách nhà máy
 app_component: LO-MD-PL-2CL
 software_component: SAPSCORE
 release_state: released

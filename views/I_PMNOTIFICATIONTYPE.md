@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFICATIONTYPE
 description: Pmnotificationtype
+semantic_en: "maintenance notification types — configuration of notification types with number ranges, origin, and catalog profiles for defects and damage codes"
+semantic_vi: "loại thông báo bảo trì — cấu hình loại thông báo với dãy số, nguồn gốc và hồ sơ danh mục cho mã lỗi và hỏng hóc"
+keywords:
+  - loại thông báo bảo trì
+  - dãy số thông báo
+  - hồ sơ danh mục
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

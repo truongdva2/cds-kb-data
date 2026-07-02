@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRDOCBILLGSTATUS
 description: Prjblgelmentrdocbillgstatus
+semantic_en: "document billing status for project billing elements — domain value for DocumentBillingStatus classification"
+semantic_vi: "trạng thái hóa đơn tài liệu cho phần tử hóa đơn dự án — giá trị miền để phân loại Trạng Thái Hóa Đơn"
+keywords:
+  - trạng thái hóa đơn
+  - tài liệu hóa đơn
+  - phần tử dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

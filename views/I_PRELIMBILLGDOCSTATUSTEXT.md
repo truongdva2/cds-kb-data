@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLGDOCSTATUSTEXT
 description: Prelimbillgdocstatustext
+semantic_en: "text descriptions of preliminary billing document statuses — maps status codes to localized status descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của trạng thái tài liệu lập hóa đơn sơ bộ — ánh xạ các mã trạng thái tới các mô tả trạng thái được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - hóa đơn sơ bộ
+  - trạng thái
+  - mô tả
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

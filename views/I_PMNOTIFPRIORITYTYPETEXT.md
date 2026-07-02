@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFPRIORITYTYPETEXT
 description: Pmnotifprioritytypetext
+semantic_en: "priority type text — multilingual descriptions of priority types with language-specific type descriptions"
+semantic_vi: "văn bản loại ưu tiên — mô tả loại ưu tiên theo ngôn ngữ khác nhau"
+keywords:
+  - tên loại ưu tiên
+  - mô tả loại ưu tiên
+  - nhãn phân loại
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

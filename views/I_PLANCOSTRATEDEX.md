@@ -1,6 +1,12 @@
 ---
 name: I_PLANCOSTRATEDEX
 description: Plancostratedex
+semantic_en: "Plan cost rate data extraction — structured extraction of plan cost rate data including validity periods and cost amounts."
+semantic_vi: "Trích xuất dữ liệu tỷ lệ chi phí kế hoạch — trích xuất có cấu trúc dữ liệu tỷ lệ chi phí kế hoạch bao gồm kỳ hạn hiệu lực."
+keywords:
+  - tỷ lệ chi phí
+  - kế hoạch
+  - trích xuất
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

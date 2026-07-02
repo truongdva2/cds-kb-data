@@ -1,6 +1,12 @@
 ---
 name: I_PAYTAUTHSNCREDITCHECKSTS
 description: Paytauthsncreditchecksts
+semantic_en: "payment authorization credit check status — code domain for credit validation states applied to payment authorization transactions."
+semantic_vi: "trạng thái kiểm tra tín dụng ủy quyền thanh toán — miền mã cho các trạng thái xác thực tín dụng áp dụng cho giao dịch ủy quyền thanh toán."
+keywords:
+  - ủy quyền thanh toán
+  - kiểm tra tín dụng
+  - trạng thái
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

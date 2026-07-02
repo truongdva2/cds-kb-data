@@ -1,6 +1,12 @@
 ---
 name: I_PCF_CODEVALUEHELPTEXT
 description: Pcf Codevaluehelptext
+semantic_en: "predefined custom fields code value text — multi-language descriptions for custom field code values keyed by node, field, language, and code."
+semantic_vi: "văn bản giá trị mã trợ giúp cho các trường tùy chỉnh được xác định trước — mô tả đa ngôn ngữ cho các giá trị mã trường tùy chỉnh được khóa theo nút, trường, ngôn ngữ và mã."
+keywords:
+  - trường tùy chỉnh
+  - mã
+  - mô tả
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

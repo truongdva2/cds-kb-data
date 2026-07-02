@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMSINSTALLMENTITEM
 description: Paymenttermsinstallmentitem
+semantic_en: "payment term installment items — installment item composition for payment terms including percentage allocation and linked payment terms."
+semantic_vi: "mục trả góp điều khoản thanh toán — thành phần mục trả góp cho điều khoản thanh toán bao gồm phân bổ phần trăm và điều khoản thanh toán được liên kết."
+keywords:
+  - trả góp
+  - điều khoản thanh toán
+  - phần trăm
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

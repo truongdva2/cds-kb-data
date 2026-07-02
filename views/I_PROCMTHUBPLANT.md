@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBPLANT
 description: Procmthubplant
+semantic_en: "plants in connected systems for central procurement — plant registration with unique identifiers and names"
+semantic_vi: "nhà máy trong các hệ thống được kết nối cho mua hàng tập trung — đăng ký nhà máy với các mã định danh duy nhất và tên"
+keywords:
+  - nhà máy
+  - mua hàng tập trung
+  - đăng ký nhà máy
 app_component: MM-PUR-HUB-FND-2CL
 software_component: SAPSCORE
 release_state: released

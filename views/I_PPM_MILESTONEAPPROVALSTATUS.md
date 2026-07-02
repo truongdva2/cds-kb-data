@@ -1,6 +1,12 @@
 ---
 name: I_PPM_MILESTONEAPPROVALSTATUS
 description: Ppm Milestoneapprovalstatus
+semantic_en: "domain value list for milestone approval status — captures codes for different approval statuses of project milestones."
+semantic_vi: "danh sách giá trị miền cho trạng thái phê duyệt mốc thời gian — chứa các mã trạng thái phê duyệt khác nhau của các mốc thời gian dự án."
+keywords:
+  - trạng thái phê duyệt
+  - mốc thời gian
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

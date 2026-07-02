@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTCLLGAPPL
 description: Plndindeprqmtcllgappl
+semantic_en: "PIR calling application code — domain values for identifying the external system or application creating planned independent requirements"
+semantic_vi: "mã ứng dụng gọi PIR — giá trị miền xác định hệ thống bên ngoài hoặc ứng dụng tạo nhu cầu độc lập dự kiến"
+keywords:
+  - mã ứng dụng
+  - hệ thống gọi
+  - tích hợp PIR
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

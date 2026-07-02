@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALEBASISSHORTTEXT
 description: Pricingscalebasisshorttext
+semantic_en: "pricing scale type descriptions — multilingual text for PricingScaleBasisShort with language and name fields"
+semantic_vi: "mô tả loại thang giá — văn bản đa ngôn ngữ cho loại thang giá viết tắt với trường ngôn ngữ và tên"
+keywords:
+  - mô tả loại thang
+  - văn bản thang giá
+  - dịch thang giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

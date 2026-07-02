@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGCONFIRMATIONSTATUST
 description: Pickingconfirmationstatust
+semantic_en: "Picking confirmation status text — multilingual descriptions for picking confirmation statuses."
+semantic_vi: "Văn bản trạng thái xác nhận bộ lấy hàng — mô tả đa ngôn ngữ cho trạng thái xác nhận bộ lấy."
+keywords:
+  - bộ lấy hàng
+  - xác nhận
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

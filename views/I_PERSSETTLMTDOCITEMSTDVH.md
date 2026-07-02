@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTDOCITEMSTDVH
 description: Perssettlmtdocitemstdvh
+semantic_en: "personnel settlement document item standard value help — minimal projection of settlement document items providing document and item identifiers."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn mục tài liệu thanh lý nhân sự — phép chiếu tối thiểu của các mục tài liệu thanh lý cung cấp định danh tài liệu và mục."
+keywords:
+  - mục tài liệu
+  - thanh lý
+  - định danh
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

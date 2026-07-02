@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERTP
 description: Planned OrderTP
+semantic_en: "Planned order third-party — extended planned order data including type, profile, and quantity details."
+semantic_vi: "Lệnh kế hoạch bên thứ ba — dữ liệu lệnh kế hoạch mở rộng bao gồm chi tiết loại, hồ sơ và số lượng."
+keywords:
+  - lệnh kế hoạch
+  - bên thứ ba
+  - số lượng
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

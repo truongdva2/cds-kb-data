@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGSTRATEGYGROUPVH
 description: Planningstrategygroupvh
+semantic_en: "planning strategy group value help — reference data supporting strategy group selection in planning configurations"
+semantic_vi: "trợ giúp giá trị nhóm chiến lược hoạch định — dữ liệu tham chiếu hỗ trợ lựa chọn nhóm chiến lược"
+keywords:
+  - lựa chọn chiến lược
+  - danh sách hoạch định
+  - trợ giúp giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

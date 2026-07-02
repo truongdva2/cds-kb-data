@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTACCTGTRANSFSTS
 description: Perssettlmtacctgtransfsts
+semantic_en: "personnel settlement accounting transfer status — code domain for transfer states in personnel settlement accounting processes."
+semantic_vi: "trạng thái chuyển giao kế toán thanh lý nhân sự — miền mã cho các trạng thái chuyển giao trong các quy trình kế toán thanh lý nhân sự."
+keywords:
+  - thanh lý nhân sự
+  - kế toán
+  - trạng thái
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

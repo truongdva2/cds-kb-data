@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRDOCBILLGSTSTXT
 description: Prjblgelmentrdocbillgststxt
+semantic_en: "document billing status descriptions — multilingual text for project billing element document status with language field"
+semantic_vi: "mô tả trạng thái hóa đơn tài liệu — văn bản đa ngôn ngữ cho trạng thái tài liệu hóa đơn phần tử dự án"
+keywords:
+  - mô tả trạng thái
+  - văn bản hóa đơn
+  - tài liệu dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

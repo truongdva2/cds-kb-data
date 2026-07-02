@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERCOMPONENTTP
 description: Planned OrderCOMPONENTTP
+semantic_en: "Planned order component third-party — assembly product components from planned order reservations and BOM data."
+semantic_vi: "Thành phần lệnh kế hoạch bên thứ ba — các thành phần sản phẩm lắp ráp từ dữ liệu đặt dự trữ và BOM lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - thành phần
+  - BOM
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

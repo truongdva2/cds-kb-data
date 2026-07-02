@@ -1,6 +1,12 @@
 ---
 name: I_PCF_CODEVALUEHELP
 description: Pcf Codevaluehelp
+semantic_en: "predefined custom fields code value help — value list entries for code fields in predefined custom field nodes."
+semantic_vi: "trợ giúp giá trị mã cho các trường tùy chỉnh được xác định trước — các mục danh sách giá trị cho các trường mã trong các nút trường tùy chỉnh được xác định trước."
+keywords:
+  - trường tùy chỉnh
+  - giá trị mã
+  - trợ giúp
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

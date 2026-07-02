@@ -1,6 +1,12 @@
 ---
 name: I_PERSONWORKPLACEADDRESS
 description: Personworkplaceaddress
+semantic_en: "person workplace address — corporate workplace location details for a person including name components and correspondence language."
+semantic_vi: "địa chỉ nơi làm việc của người — chi tiết vị trí nơi làm việc công ty của một người bao gồm thành phần tên và ngôn ngữ liên lạc."
+keywords:
+  - nơi làm việc
+  - địa chỉ
+  - công ty
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

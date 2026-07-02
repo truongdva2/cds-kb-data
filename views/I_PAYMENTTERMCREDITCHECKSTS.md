@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMCREDITCHECKSTS
 description: Paymenttermcreditchecksts
+semantic_en: "payment term credit check status — code domain for credit check validation states applied to payment terms conditions."
+semantic_vi: "trạng thái kiểm tra tín dụng của điều khoản thanh toán — miền mã cho các trạng thái xác thực kiểm tra tín dụng áp dụng cho điều kiện thanh toán."
+keywords:
+  - trạng thái kiểm tra tín dụng
+  - điều khoản thanh toán
+  - xác thực
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

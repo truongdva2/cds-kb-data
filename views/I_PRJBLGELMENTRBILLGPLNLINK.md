@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRBILLGPLNLINK
 description: Prjblgelmentrbillgplnlink
+semantic_en: "project billing element to billing plan linkage — associations between billing elements and billing plans with audit fields"
+semantic_vi: "liên kết từ phần tử hóa đơn dự án đến kế hoạch hóa đơn — liên kết giữa các phần tử hóa đơn và kế hoạch với trường kiểm toán"
+keywords:
+  - hóa đơn dự án
+  - kế hoạch hóa đơn
+  - liên kết phần tử
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

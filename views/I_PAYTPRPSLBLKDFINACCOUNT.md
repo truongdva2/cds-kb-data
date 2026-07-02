@@ -1,6 +1,12 @@
 ---
 name: I_PAYTPRPSLBLKDFINACCOUNT
 description: Paytprpslblkdfinaccount
+semantic_en: "payment proposal blocked financial accounts — financial accounts blocked from payment proposal processing for a payment run with special GL codes."
+semantic_vi: "tài khoản tài chính bị chặn trong đề xuất thanh toán — các tài khoản tài chính bị chặn không được xử lý đề xuất thanh toán cho lần chạy thanh toán với mã GL đặc biệt."
+keywords:
+  - đề xuất thanh toán
+  - tài khoản bị chặn
+  - tài khoản tài chính
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

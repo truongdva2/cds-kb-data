@@ -1,6 +1,12 @@
 ---
 name: I_PHYSICALINVENTORYDOCUMENTTP
 description: Physicalinventorydocumenttp
+semantic_en: "physical inventory document transaction data — inventory count document with transaction type, plant, storage location, count dates, and posting status."
+semantic_vi: "dữ liệu giao dịch tài liệu kiểm kê hàng hóa — tài liệu kiểm kê hàng hóa có loại giao dịch, nhà máy, vị trí lưu trữ, ngày kiểm kê và trạng thái hạch toán."
+keywords:
+  - kiểm kê hàng hóa
+  - tài liệu
+  - trạng thái
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROCORDERITEMSERIALNUMBERTP
 description: PROCORDERITEMSerial NumberTP
+semantic_en: "process order item serial numbers data extract — serial number tracking for manufactured items"
+semantic_vi: "trích xuất dữ liệu số seri mục lệnh quy trình — theo dõi số seri cho các mục được sản xuất"
+keywords:
+  - số seri
+  - lệnh quy trình
+  - sản xuất
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBPURORDHDRAPI01
 description: Procmthubpurordhdrapi 01
+semantic_en: "centrally managed purchase order headers — order metadata with creation date, processing status and release sequence"
+semantic_vi: "tiêu đề đơn đặt hàng được quản lý tập trung — siêu dữ liệu đơn hàng với ngày tạo, trạng thái xử lý và chuỗi phát hành"
+keywords:
+  - đơn đặt hàng
+  - trạng thái xử lý
+  - phát hành
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

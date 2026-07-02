@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTREASONTEXT
 description: Paymentreasontext
+semantic_en: "payment reason code text — multi-language descriptions for reason codes mapped to language and reason identifiers."
+semantic_vi: "mô tả văn bản lý do thanh toán — các mô tả đa ngôn ngữ cho mã lý do được ánh xạ theo ngôn ngữ và định danh lý do."
+keywords:
+  - lý do thanh toán
+  - văn bản mô tả
+  - ngôn ngữ
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

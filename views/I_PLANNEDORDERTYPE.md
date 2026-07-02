@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERTYPE
 description: Planned OrderTYPE
+semantic_en: "Planned order type codes — domain values for planned order type classifications."
+semantic_vi: "Mã loại lệnh kế hoạch — giá trị miền cho các phân loại loại lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - loại
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

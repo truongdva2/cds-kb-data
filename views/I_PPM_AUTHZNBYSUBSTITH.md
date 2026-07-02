@@ -1,6 +1,12 @@
 ---
 name: I_PPM_AUTHZNBYSUBSTITH
 description: Ppm Authznbysubstith
+semantic_en: "project authorization information by user substitution — maps substituted users and their delegated activities to project objects."
+semantic_vi: "thông tin cấp phép dự án theo sự thay thế người dùng — ánh xạ người dùng được thay thế và các hoạt động được ủy quyền của họ tới các đối tượng dự án."
+keywords:
+  - cấp phép dự án
+  - thay thế người dùng
+  - ủy quyền
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

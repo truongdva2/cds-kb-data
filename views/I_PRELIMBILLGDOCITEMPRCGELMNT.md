@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLGDOCITEMPRCGELMNT
 description: Prelimbillgdocitemprcgelmnt
+semantic_en: "preliminary billing document item pricing element details — maps pricing procedure steps and condition information to preliminary billing document items."
+semantic_vi: "chi tiết phần tử định giá mục tài liệu lập hóa đơn sơ bộ — ánh xạ các bước thủ tục định giá và thông tin điều kiện tới các mục tài liệu lập hóa đơn sơ bộ."
+keywords:
+  - định giá
+  - hóa đơn sơ bộ
+  - phần tử
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

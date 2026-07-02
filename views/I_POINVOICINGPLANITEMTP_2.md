@@ -1,6 +1,12 @@
 ---
 name: I_POINVOICINGPLANITEMTP_2
 description: Poinvoicingplanitemtp 2
+semantic_en: "purchase order invoicing plan item time-period view — invoice schedule line items with settlement dates and invoice amounts"
+semantic_vi: "chế độ xem kỳ thời gian mục kế hoạch hóa đơn PO — mục lịch biểu hóa đơn với ngày thanh toán và số tiền hóa đơn"
+keywords:
+  - kế hoạch hóa đơn
+  - lịch biểu thanh toán
+  - mục PO
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

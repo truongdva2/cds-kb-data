@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCFISCALYEAR
 description: Physinvtrydocfiscalyear
+semantic_en: "Physical inventory document fiscal years — list of years covered in physical inventory documents."
+semantic_vi: "Năm tài chính tài liệu kiểm kê — danh sách các năm được đề cập trong tài liệu kiểm kê."
+keywords:
+  - kiểm kê vật lý
+  - năm tài chính
+  - tài liệu
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

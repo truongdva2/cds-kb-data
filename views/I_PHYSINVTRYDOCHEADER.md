@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCHEADER
 description: Physinvtrydocheader
+semantic_en: "Physical inventory document header — core data for physical inventory transactions including document date, count date, and status."
+semantic_vi: "Tiêu đề tài liệu kiểm kê vật lý — dữ liệu cơ sở cho các giao dịch kiểm kê bao gồm ngày tài liệu, ngày kiểm kê và trạng thái."
+keywords:
+  - kiểm kê vật lý
+  - tiêu đề tài liệu
+  - ngày kiểm kê
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

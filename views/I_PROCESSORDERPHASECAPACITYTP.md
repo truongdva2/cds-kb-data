@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERPHASECAPACITYTP
 description: Processorderphasecapacitytp
+semantic_en: "process order phase capacity data extract — individual capacity requirements with work center and confirmation details"
+semantic_vi: "trích xuất dữ liệu công suất pha lệnh quy trình — yêu cầu công suất riêng lẻ với chi tiết trung tâm làm việc và xác nhận"
+keywords:
+  - công suất pha
+  - lệnh quy trình
+  - trung tâm làm việc
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

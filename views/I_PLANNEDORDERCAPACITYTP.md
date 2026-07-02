@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERCAPACITYTP
 description: Planned OrderCAPACITYTP
+semantic_en: "Planned order capacity third-party — capacity data including operation timing and MRP controller information."
+semantic_vi: "Công suất lệnh kế hoạch bên thứ ba — dữ liệu công suất bao gồm thời gian hoạt động và thông tin bộ điều khiển MRP."
+keywords:
+  - lệnh kế hoạch
+  - công suất
+  - MRP
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

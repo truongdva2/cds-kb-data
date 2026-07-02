@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGACCESS
 description: Pricingaccess
+semantic_en: "pricing condition access configuration — maps condition tables, requirements, and access sequences to define how pricing conditions are accessed."
+semantic_vi: "cấu hình truy cập điều kiện định giá — ánh xạ các bảng điều kiện, yêu cầu và chuỗi truy cập để xác định cách truy cập các điều kiện định giá."
+keywords:
+  - truy cập
+  - điều kiện giá
+  - bảng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

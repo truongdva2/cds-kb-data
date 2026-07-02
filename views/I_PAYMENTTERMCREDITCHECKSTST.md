@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMCREDITCHECKSTST
 description: Paymenttermcreditcheckstst
+semantic_en: "credit check status text — multi-language descriptions for credit check statuses keyed by status code and language."
+semantic_vi: "văn bản trạng thái kiểm tra tín dụng — mô tả đa ngôn ngữ cho các trạng thái kiểm tra tín dụng được khóa theo mã trạng thái và ngôn ngữ."
+keywords:
+  - trạng thái kiểm tra tín dụng
+  - mô tả
+  - ngôn ngữ
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

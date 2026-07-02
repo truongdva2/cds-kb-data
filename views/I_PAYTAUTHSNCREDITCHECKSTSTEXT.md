@@ -1,6 +1,12 @@
 ---
 name: I_PAYTAUTHSNCREDITCHECKSTSTEXT
 description: Paytauthsncreditcheckststext
+semantic_en: "payment authorization credit check status text — multi-language status descriptions for payment authorization credit checks keyed by status and language."
+semantic_vi: "văn bản trạng thái kiểm tra tín dụng ủy quyền thanh toán — mô tả trạng thái đa ngôn ngữ cho kiểm tra tín dụng ủy quyền thanh toán được khóa theo trạng thái và ngôn ngữ."
+keywords:
+  - ủy quyền thanh toán
+  - kiểm tra tín dụng
+  - mô tả
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

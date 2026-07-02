@@ -1,6 +1,12 @@
 ---
 name: I_PROCUREMENTBLOCKTEXT
 description: Procurementblocktext
+semantic_en: "procurement block descriptions — multilingual text for procurement block domain values"
+semantic_vi: "mô tả chặn mua hàng — văn bản đa ngôn ngữ cho các giá trị miền chặn mua hàng"
+keywords:
+  - mô tả chặn
+  - mã chặn
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

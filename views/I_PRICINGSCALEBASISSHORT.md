@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALEBASISSHORT
 description: Pricingscalebasisshort
+semantic_en: "pricing scale type short form — domain value for PricingScaleBasisShort classification"
+semantic_vi: "dạng viết tắt loại thang giá — giá trị miền để phân loại Loại Thang Giá Viết Tắt"
+keywords:
+  - loại thang giá
+  - viết tắt thang giá
+  - mã thang
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

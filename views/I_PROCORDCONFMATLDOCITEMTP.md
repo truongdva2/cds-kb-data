@@ -1,6 +1,12 @@
 ---
 name: I_PROCORDCONFMATLDOCITEMTP
 description: Procordconfmatldocitemtp
+semantic_en: "process order confirmation material document items data extract — document items with material and storage location information"
+semantic_vi: "trích xuất dữ liệu mục tài liệu vật liệu xác nhận lệnh quy trình — mục tài liệu với thông tin vật liệu và vị trí kho"
+keywords:
+  - mục tài liệu
+  - xác nhận lệnh quy trình
+  - vật liệu
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

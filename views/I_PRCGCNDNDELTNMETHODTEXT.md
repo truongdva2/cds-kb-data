@@ -1,6 +1,12 @@
 ---
 name: I_PRCGCNDNDELTNMETHODTEXT
 description: Prcgcndndeltnmethodtext
+semantic_en: "text descriptions of condition record deletion methods — maps deletion indicator codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của phương pháp xóa bản ghi điều kiện — ánh xạ các mã chỉ báo xóa tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - xóa bản ghi
+  - điều kiện
+  - phương pháp
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

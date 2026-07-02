@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTBUSPROCCATTEXT
 description: Perssettlmtbusproccattext
+semantic_en: "personnel settlement business process category text — multi-language descriptions for business process categories keyed by category and language."
+semantic_vi: "văn bản danh mục quy trình kinh doanh thanh lý nhân sự — mô tả đa ngôn ngữ cho các danh mục quy trình kinh doanh được khóa theo danh mục và ngôn ngữ."
+keywords:
+  - thanh lý nhân sự
+  - quy trình kinh doanh
+  - mô tả
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

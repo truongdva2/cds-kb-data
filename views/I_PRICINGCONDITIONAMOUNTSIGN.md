@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONAMOUNTSIGN
 description: Pricing ConditionAMOUNTSIGN
+semantic_en: "domain value list for pricing condition amount signs — captures codes for signs (positive/negative) applied to pricing condition amounts."
+semantic_vi: "danh sách giá trị miền cho dấu số tiền điều kiện định giá — chứa các mã dấu (dương/âm) áp dụng cho số tiền điều kiện định giá."
+keywords:
+  - dấu
+  - điều kiện giá
+  - số tiền
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

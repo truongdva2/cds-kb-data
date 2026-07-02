@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERPHASETP
 description: Processorderphasetp
+semantic_en: "process order phase data extract — phase details with superior operations and phase text information"
+semantic_vi: "trích xuất dữ liệu pha lệnh quy trình — chi tiết pha với thông tin hoạt động cấp cao hơn và văn bản pha"
+keywords:
+  - pha lệnh quy trình
+  - hoạt động cấp cao hơn
+  - nội dung pha
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

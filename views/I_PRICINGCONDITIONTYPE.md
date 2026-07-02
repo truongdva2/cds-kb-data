@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONTYPE
 description: Pricing ConditionTYPE
+semantic_en: "pricing condition type master — defines condition types and their properties including calculation method, category, and rounding rules for pricing determination."
+semantic_vi: "loại điều kiện định giá chính — xác định các loại điều kiện và các thuộc tính của chúng bao gồm phương pháp tính toán, danh mục và quy tắc làm tròn cho xác định giá."
+keywords:
+  - loại điều kiện
+  - định giá
+  - tính toán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYREASONCODE
 description: Physinvtryreasoncode
+semantic_en: "Physical inventory reason codes — goods movement types linked to physical inventory differences."
+semantic_vi: "Mã lý do kiểm kê vật lý — các loại chuyển động hàng hóa liên kết với các chênh lệch kiểm kê."
+keywords:
+  - kiểm kê
+  - lý do
+  - chênh lệch
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_POSTALCITY
 description: Postalcity
+semantic_en: "postal city — geographic reference data identifying cities by country and region codes for address management"
+semantic_vi: "thành phố bưu chính — dữ liệu tham chiếu địa lý xác định thành phố theo mã quốc gia và khu vực"
+keywords:
+  - thành phố bưu chính
+  - mã vùng
+  - quản lý địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

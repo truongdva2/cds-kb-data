@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDELETIONSTSTXT
 description: Physinvtrydeletionststxt
+semantic_en: "Physical inventory deletion status text — multilingual descriptions for deletion status codes."
+semantic_vi: "Văn bản trạng thái xóa kiểm kê — mô tả đa ngôn ngữ cho mã trạng thái xóa."
+keywords:
+  - xóa kiểm kê
+  - trạng thái xóa
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTPERIODTYPETEXT
 description: Pmrpflxblcstrtperiodtypetext
+semantic_en: "PMRP period type text — multilingual descriptions of period types with language-specific type names for constraint periods"
+semantic_vi: "văn bản loại kỳ PMRP — tên loại kỳ ràng buộc theo ngôn ngữ khác nhau"
+keywords:
+  - tên loại kỳ
+  - mô tả kỳ ràng buộc
+  - nhãn thời kỳ
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PCLGSDCITMPACKGINSTRUCTIONTP
 description: Pclgsdcitmpackginstructiontp
+semantic_en: "production compliance log document item packing instruction — transaction data recording packing instruction assignments with UUID and audit trail."
+semantic_vi: "hướng dẫn đóng gói mục tài liệu nhật ký tuân thủ sản xuất — dữ liệu giao dịch ghi nhận phân công hướng dẫn đóng gói có UUID và dấu thời gian kiểm toán."
+keywords:
+  - hướng dẫn đóng gói
+  - nhật ký tuân thủ
+  - sản xuất
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

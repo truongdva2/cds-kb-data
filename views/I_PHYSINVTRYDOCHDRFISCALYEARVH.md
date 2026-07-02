@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCHDRFISCALYEARVH
 description: Physinvtrydochdrfiscalyearvh
+semantic_en: "Physical inventory document header fiscal year value help — filtered fiscal years for document headers."
+semantic_vi: "Trợ giúp giá trị năm tài chính của tiêu đề kiểm kê — năm tài chính được lọc cho tiêu đề tài liệu."
+keywords:
+  - kiểm kê
+  - năm tài chính
+  - trợ giúp giá trị
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

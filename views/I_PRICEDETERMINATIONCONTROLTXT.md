@@ -1,6 +1,12 @@
 ---
 name: I_PRICEDETERMINATIONCONTROLTXT
 description: Pricedeterminationcontroltxt
+semantic_en: "text descriptions of price determination control codes — maps control codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các mã kiểm soát xác định giá — ánh xạ các mã kiểm soát tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - xác định giá
+  - kiểm soát
+  - mô tả
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

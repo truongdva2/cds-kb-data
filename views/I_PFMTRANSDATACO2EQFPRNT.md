@@ -1,6 +1,12 @@
 ---
 name: I_PFMTRANSDATACO2EQFPRNT
 description: Pfmtransdataco 2EQFPRNT
+semantic_en: "product footprint material transaction CO2e footprint unit — carbon footprint quantity data with unit of measure for a transaction."
+semantic_vi: "đơn vị dấu chân CO2e của giao dịch dữ liệu vật liệu dấu chân sản phẩm — dữ liệu số lượng dấu chân carbon với đơn vị đo lường cho một giao dịch."
+keywords:
+  - dấu chân carbon
+  - giao dịch
+  - đơn vị
 app_component: SUS-PFM-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTCATEGORY
 description: Pmrpflxblcstrtcategory
+semantic_en: "category for PMRP flexible constraint — domain values classifying constraint categories in predictive material resource planning"
+semantic_vi: "danh mục cho ràng buộc linh hoạt PMRP — giá trị miền phân loại danh mục ràng buộc trong lập kế hoạch tài nguyên vật liệu dự đoán"
+keywords:
+  - ràng buộc PMRP
+  - danh mục ràng buộc
+  - lập kế hoạch tài nguyên
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRFTCTRCOMPANYCODEASSIGNMENT
 description: PRFTCTRCompany CodeASSIGNMENT
+semantic_en: "profit center to company code assignment mapping — maps profit centers and their organizational context including joint venture details to company codes."
+semantic_vi: "ánh xạ gán trung tâm lợi nhuận tới mã công ty — ánh xạ các trung tâm lợi nhuận và bối cảnh tổ chức của chúng bao gồm chi tiết liên doanh tới các mã công ty."
+keywords:
+  - trung tâm lợi nhuận
+  - công ty
+  - liên doanh
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

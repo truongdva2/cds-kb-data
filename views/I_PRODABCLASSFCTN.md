@@ -1,6 +1,12 @@
 ---
 name: I_PRODABCLASSFCTN
 description: Prodabclassfctn
+semantic_en: "product ABC classification values — material consumption value categories for inventory segmentation"
+semantic_vi: "giá trị phân loại ABC sản phẩm — danh mục giá trị tiêu thụ vật liệu để phân khúc hàng tồn kho"
+keywords:
+  - phân loại ABC
+  - vật liệu
+  - hàng tồn kho
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

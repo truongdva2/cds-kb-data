@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGCONFIRMATIONSTATUS
 description: Pickingconfirmationstatus
+semantic_en: "Picking confirmation status codes — domain values for item picking confirmation statuses."
+semantic_vi: "Mã trạng thái xác nhận bộ lấy hàng — giá trị miền cho trạng thái xác nhận lấy mục."
+keywords:
+  - bộ lấy hàng
+  - xác nhận
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PFMTRANSDATACO2EQFPRNTGHGCAT
 description: Pfmtransdataco 2EQFPRNTGHGCAT
+semantic_en: "product footprint material transaction GHG category footprint — greenhouse gas emission quantity disaggregated by GHG category for transaction."
+semantic_vi: "dấu chân dạng khí nhà kính của giao dịch dữ liệu vật liệu dấu chân sản phẩm — số lượng phát thải khí nhà kính được chia theo danh mục khí nhà kính cho giao dịch."
+keywords:
+  - dấu chân carbon
+  - khí nhà kính
+  - giao dịch
 app_component: SUS-PFM-INT
 software_component: SAPSCORE
 release_state: released

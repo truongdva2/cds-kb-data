@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMSTEXT
 description: Paymenttermstext
+semantic_en: "payment terms text — parameterized multi-language payment terms names and descriptions keyed by language and terms code."
+semantic_vi: "văn bản điều khoản thanh toán — tên và mô tả điều khoản thanh toán đa ngôn ngữ tham số hóa được khóa theo ngôn ngữ và mã điều khoản."
+keywords:
+  - điều khoản thanh toán
+  - tên
+  - mô tả
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

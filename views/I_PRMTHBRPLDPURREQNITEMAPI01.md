@@ -1,6 +1,12 @@
 ---
 name: I_PRMTHBRPLDPURREQNITEMAPI01
 description: Prmthbrpldpurreqnitemapi 01
+semantic_en: "replicated purchase requisition items in procurement hub — item details with quantity, delivery date and product information"
+semantic_vi: "mục yêu cầu mua hàng được sao chép trong trung tâm mua hàng — chi tiết mục với số lượng, ngày giao hàng và thông tin sản phẩm"
+keywords:
+  - mục yêu cầu mua
+  - sản phẩm
+  - lượng yêu cầu
 app_component: MM-PUR-HUB-PR-2CL
 software_component: SAPSCORE
 release_state: released

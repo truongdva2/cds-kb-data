@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGINCOMPLETIONSTATUS
 description: Pricingincompletionstatus
+semantic_en: "domain value list for pricing incompletion status — captures codes for different incompletion statuses that indicate missing pricing information."
+semantic_vi: "danh sách giá trị miền cho trạng thái không hoàn chỉnh định giá — chứa các mã trạng thái không hoàn chỉnh khác nhau chỉ ra thông tin định giá thiếu."
+keywords:
+  - định giá
+  - trạng thái
+  - không hoàn chỉnh
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

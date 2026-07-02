@@ -1,6 +1,12 @@
 ---
 name: I_PLANTHIERARCHYNODETEXT
 description: Planthierarchynodetext
+semantic_en: "plant hierarchy node text — multilingual descriptions of hierarchy nodes with language-specific node names and texts"
+semantic_vi: "văn bản nút hệ thống phân cấp nhà máy — tên và mô tả nút phân cấp theo ngôn ngữ khác nhau"
+keywords:
+  - tên nút phân cấp
+  - mô tả hệ thống
+  - nhãn cấu trúc tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

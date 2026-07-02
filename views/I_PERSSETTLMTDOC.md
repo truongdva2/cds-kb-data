@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTDOC
 description: Perssettlmtdoc
+semantic_en: "personnel settlement document — settlement documents recording document type, category, process type, posting dates, and application status."
+semantic_vi: "tài liệu thanh lý nhân sự — các tài liệu thanh lý ghi nhận loại tài liệu, danh mục, loại quy trình, ngày hạch toán và trạng thái ứng dụng."
+keywords:
+  - tài liệu thanh lý
+  - nhân sự
+  - trạng thái
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

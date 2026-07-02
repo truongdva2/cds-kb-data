@@ -1,6 +1,12 @@
 ---
 name: I_POSTALCITYTEXT
 description: Postalcitytext
+semantic_en: "description of postal city — multilingual city names and descriptions linked to country and city codes"
+semantic_vi: "mô tả thành phố bưu chính — tên thành phố và mô tả theo ngôn ngữ khác nhau liên kết với mã quốc gia và mã thành phố"
+keywords:
+  - tên thành phố
+  - mô tả địa phương
+  - nhãn bưu chính
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

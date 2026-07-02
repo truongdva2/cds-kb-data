@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTITEMBYINTKEY
 description: Plndindeprqmtitembyintkey
+semantic_en: "planned independent requirement item by internal key — forecast line items with quantities and dates keyed to working day calendar"
+semantic_vi: "mục nhu cầu độc lập dự kiến theo khóa nội bộ — mục dòng dự báo với số lượng và ngày được sắp xếp theo lịch ngày làm việc"
+keywords:
+  - mục dự báo
+  - dòng dự kiến
+  - lịch làm việc
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

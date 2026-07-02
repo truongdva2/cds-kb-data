@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERCOMPONENTTP
 description: Processordercomponenttp
+semantic_en: "process order component data extract — material reservations for process orders with component text"
+semantic_vi: "trích xuất dữ liệu thành phần lệnh quy trình — đặt chỗ vật liệu cho các lệnh quy trình với văn bản thành phần"
+keywords:
+  - lệnh quy trình
+  - thành phần vật liệu
+  - đặt chỗ
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

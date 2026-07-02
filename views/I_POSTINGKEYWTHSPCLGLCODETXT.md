@@ -1,6 +1,12 @@
 ---
 name: I_POSTINGKEYWTHSPCLGLCODETXT
 description: Postingkeywthspclglcodetxt
+semantic_en: "posting key with special general ledger code text — multilingual descriptions mapping posting keys and special GL codes to financial account types"
+semantic_vi: "văn bản khóa ghi sổ có mã GL đặc biệt — tên khóa ghi sổ kết hợp mã GL đặc biệt và loại tài khoản theo ngôn ngữ khác nhau"
+keywords:
+  - khóa ghi sổ GL đặc biệt
+  - loại tài khoản ghi sổ
+  - mô tả GL
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

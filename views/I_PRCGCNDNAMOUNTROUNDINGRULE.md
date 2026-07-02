@@ -1,6 +1,12 @@
 ---
 name: I_PRCGCNDNAMOUNTROUNDINGRULE
 description: Prcgcndnamountroundingrule
+semantic_en: "domain value list for pricing condition amount rounding — captures codes for rounding rules applied to condition amounts in pricing."
+semantic_vi: "danh sách giá trị miền cho quy tắc làm tròn số tiền điều kiện định giá — chứa các mã quy tắc làm tròn áp dụng cho số tiền điều kiện trong định giá."
+keywords:
+  - làm tròn
+  - điều kiện giá
+  - số tiền
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

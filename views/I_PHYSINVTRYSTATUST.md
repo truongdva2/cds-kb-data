@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYSTATUST
 description: Physinvtrystatust
+semantic_en: "Physical inventory status text — multilingual descriptions combining count, posting, and deletion status flags."
+semantic_vi: "Văn bản trạng thái kiểm kê vật lý — mô tả đa ngôn ngữ kết hợp các cờ trạng thái kiểm kê, ghi sổ và xóa."
+keywords:
+  - kiểm kê
+  - trạng thái
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

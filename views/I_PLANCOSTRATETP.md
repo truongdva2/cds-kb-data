@@ -1,6 +1,12 @@
 ---
 name: I_PLANCOSTRATETP
 description: Plancostratetp
+semantic_en: "Plan cost rate third-party — extended cost rate data with fixed and variable cost components."
+semantic_vi: "Tỷ lệ chi phí kế hoạch bên thứ ba — dữ liệu tỷ lệ chi phí mở rộng với các thành phần chi phí cố định và biến đổi."
+keywords:
+  - tỷ lệ chi phí
+  - kế hoạch
+  - bên thứ ba
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

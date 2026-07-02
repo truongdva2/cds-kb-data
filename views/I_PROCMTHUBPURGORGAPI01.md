@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBPURGORGAPI01
 description: Procmthubpurgorgapi 01
+semantic_en: "purchasing organizations in connected systems for central procurement — organization registration with unique identifiers"
+semantic_vi: "tổ chức mua hàng trong các hệ thống được kết nối cho mua hàng tập trung — đăng ký tổ chức với các mã định danh duy nhất"
+keywords:
+  - tổ chức mua hàng
+  - mua hàng tập trung
+  - đăng ký tổ chức
 app_component: MM-PUR-HUB-FND-2CL
 software_component: SAPSCORE
 release_state: released

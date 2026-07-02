@@ -1,6 +1,12 @@
 ---
 name: I_PERSONWORKAGRMTPLNDWRKGTIME
 description: Personworkagrmtplndwrkgtime
+semantic_en: "person work agreement planned working time — scheduled work capacity parameters including working hours, working days, and time percentage."
+semantic_vi: "thời gian làm việc dự kiến trong hợp đồng làm việc của người — các tham số công suất làm việc dự kiến bao gồm giờ làm việc, ngày làm việc và phần trăm thời gian."
+keywords:
+  - thời gian làm việc
+  - dự kiến
+  - giờ làm
 app_component: CA-WFD
 software_component: SAPSCORE
 release_state: released

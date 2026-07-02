@@ -1,6 +1,12 @@
 ---
 name: I_POSTINGKEYTEXT
 description: Postingkeytext
+semantic_en: "posting key text — multilingual descriptions of posting keys with language-specific key names for GL transactions"
+semantic_vi: "văn bản khóa ghi sổ — tên khóa ghi sổ theo ngôn ngữ khác nhau cho các giao dịch GL"
+keywords:
+  - tên khóa ghi sổ
+  - mô tả ghi sổ
+  - nhãn giao dịch
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

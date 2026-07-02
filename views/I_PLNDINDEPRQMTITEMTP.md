@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTITEMTP
 description: Plndindeprqmtitemtp
+semantic_en: "planned independent requirement item time-period view — forecast items grouped by period type with period-specific quantity data"
+semantic_vi: "chế độ xem kỳ thời gian mục nhu cầu độc lập dự kiến — mục dự báo được nhóm theo loại kỳ với dữ liệu số lượng cụ thể cho kỳ"
+keywords:
+  - dự báo theo kỳ
+  - phân tích kỳ
+  - mục dòng theo thời gian
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

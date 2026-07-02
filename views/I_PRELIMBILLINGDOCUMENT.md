@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLINGDOCUMENT
 description: PRELIMBilling DocumentUMENT
+semantic_en: "preliminary billing document master — aggregates key attributes and document information for preliminary billing documents including creation metadata and organizational context."
+semantic_vi: "tài liệu lập hóa đơn sơ bộ chính — tổng hợp các thuộc tính chính và thông tin tài liệu cho tài liệu lập hóa đơn sơ bộ bao gồm siêu dữ liệu tạo và bối cảnh tổ chức."
+keywords:
+  - hóa đơn sơ bộ
+  - tài liệu
+  - bán hàng
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

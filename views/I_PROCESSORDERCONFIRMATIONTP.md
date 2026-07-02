@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERCONFIRMATIONTP
 description: Processorderconfirmationtp
+semantic_en: "process order confirmation data extract — confirmation details with material, quantity and final confirmation type"
+semantic_vi: "trích xuất dữ liệu xác nhận lệnh quy trình — chi tiết xác nhận với vật liệu, số lượng và loại xác nhận cuối cùng"
+keywords:
+  - xác nhận lệnh quy trình
+  - loại xác nhận
+  - vật liệu
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERCATEGORYTEXT
 description: Planned OrderCATEGORYTEXT
+semantic_en: "Planned order category text — multilingual descriptions for planned order categories."
+semantic_vi: "Văn bản danh mục lệnh kế hoạch — mô tả đa ngôn ngữ cho danh mục lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - danh mục
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

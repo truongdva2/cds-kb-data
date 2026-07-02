@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLINGDOCITEMPARTNER
 description: PRELIMBilling DocumentITEMPARTNER
+semantic_en: "preliminary billing document item partner — maps partners (customers, suppliers, personnel) and addresses to preliminary billing document items."
+semantic_vi: "đối tác mục tài liệu lập hóa đơn sơ bộ — ánh xạ các đối tác (khách hàng, nhà cung cấp, nhân viên) và địa chỉ tới các mục tài liệu lập hóa đơn sơ bộ."
+keywords:
+  - hóa đơn sơ bộ
+  - đối tác
+  - khách hàng
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

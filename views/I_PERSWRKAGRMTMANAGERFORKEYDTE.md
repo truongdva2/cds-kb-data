@@ -1,6 +1,12 @@
 ---
 name: I_PERSWRKAGRMTMANAGERFORKEYDTE
 description: Perswrkagrmtmanagerforkeydte
+semantic_en: "person work agreement manager for key date — manager work agreement retrieved for a given date based on position hierarchy."
+semantic_vi: "người quản lý hợp đồng làm việc của người cho ngày khóa — hợp đồng làm việc người quản lý được lấy cho một ngày nhất định dựa trên hệ thống cấp bậc vị trí."
+keywords:
+  - hợp đồng làm việc
+  - người quản lý
+  - ngày khóa
 app_component: CA-WFD
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALETYPETEXT
 description: Pricingscaletypetext
+semantic_en: "pricing scale type descriptions — multilingual text for PricingScaleType with language and name fields"
+semantic_vi: "mô tả loại thang giá — văn bản đa ngôn ngữ cho loại thang giá với trường ngôn ngữ và tên"
+keywords:
+  - tên loại thang
+  - mô tả thang giá
+  - dịch loại thang
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PLNDORDERPRODNSUPERVISORVH
 description: Plndorderprodnsupervisorvh
+semantic_en: "production supervisor value help — reference data for selecting production supervisors by plant with identifier and name"
+semantic_vi: "trợ giúp giá trị giám sát sản xuất — dữ liệu tham chiếu để lựa chọn giám sát sản xuất theo nhà máy"
+keywords:
+  - giám sát sản xuất
+  - quản lý nhà máy
+  - chọn giám sát
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

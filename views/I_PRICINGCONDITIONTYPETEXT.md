@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONTYPETEXT
 description: Pricing ConditionTYPETEXT
+semantic_en: "text descriptions of pricing condition types — maps condition type codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các loại điều kiện định giá — ánh xạ các mã loại điều kiện tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - loại điều kiện
+  - định giá
+  - mô tả
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYSTOCKTYPE
 description: Physinvtrystocktype
+semantic_en: "Physical inventory stock type codes — domain values for types of stock in physical inventory."
+semantic_vi: "Mã loại hàng tồn kho kiểm kê vật lý — giá trị miền cho các loại hàng tồn kho trong kiểm kê."
+keywords:
+  - kiểm kê
+  - hàng tồn kho
+  - loại
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

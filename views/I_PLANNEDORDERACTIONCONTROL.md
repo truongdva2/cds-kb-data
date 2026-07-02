@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERACTIONCONTROL
 description: Planned OrderACTIONCONTROL
+semantic_en: "Planned order action control codes — domain values for planned order processing actions and follow-up actions."
+semantic_vi: "Mã kiểm soát hành động lệnh kế hoạch — giá trị miền cho hành động xử lý lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - hành động
+  - kiểm soát
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

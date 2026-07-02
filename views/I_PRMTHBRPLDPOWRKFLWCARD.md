@@ -1,6 +1,12 @@
 ---
 name: I_PRMTHBRPLDPOWRKFLWCARD
 description: Prmthbrpldpowrkflwcard
+semantic_en: "procurement hub replicated purchase order workflow cards — todo workflow information with order and supplier details"
+semantic_vi: "thẻ quy trình công việc đơn đặt hàng được sao chép của trung tâm mua hàng — thông tin quy trình công việc cần làm với chi tiết đơn hàng và nhà cung cấp"
+keywords:
+  - quy trình đơn hàng
+  - nhà cung cấp
+  - thẻ công việc
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

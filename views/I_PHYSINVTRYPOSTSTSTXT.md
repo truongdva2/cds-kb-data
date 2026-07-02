@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYPOSTSTSTXT
 description: Physinvtrypostststxt
+semantic_en: "Physical inventory posting status text — multilingual descriptions for adjustment posting statuses."
+semantic_vi: "Văn bản trạng thái ghi bút toán kiểm kê vật lý — mô tả đa ngôn ngữ cho trạng thái ghi bút toán điều chỉnh."
+keywords:
+  - kiểm kê
+  - ghi sổ
+  - trạng thái
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

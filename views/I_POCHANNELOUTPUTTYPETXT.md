@@ -1,6 +1,12 @@
 ---
 name: I_POCHANNELOUTPUTTYPETXT
 description: Pochanneloutputtypetxt
+semantic_en: "output channel type text — multilingual descriptions of PO output channels with language-specific channel type names"
+semantic_vi: "văn bản loại kênh đầu ra — tên kênh đầu ra PO theo ngôn ngữ khác nhau"
+keywords:
+  - tên kênh đầu ra
+  - loại kênh PO
+  - mô tả đầu ra
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRJBILLGTRANSFCOSTQTYCODETXT
 description: Prjbillgtransfcostqtycodetxt
+semantic_en: "project billing transfer cost quantity code descriptions — multilingual text with ProjBillgTransfCostQtyCode and description"
+semantic_vi: "mô tả mã số lượng chi phí chuyển giao hóa đơn dự án — văn bản đa ngôn ngữ với mã và mô tả"
+keywords:
+  - mã chuyển chi phí
+  - số lượng hóa đơn
+  - dự án chi phí
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

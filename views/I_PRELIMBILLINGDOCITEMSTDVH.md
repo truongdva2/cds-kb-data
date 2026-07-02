@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLINGDOCITEMSTDVH
 description: PRELIMBilling DocumentITEMSTDVH
+semantic_en: "value help view for preliminary billing document items — provides standard information and references for preliminary billing document items."
+semantic_vi: "view trợ giúp giá trị cho các mục tài liệu lập hóa đơn sơ bộ — cung cấp thông tin tiêu chuẩn và tham chiếu cho các mục tài liệu lập hóa đơn sơ bộ."
+keywords:
+  - hóa đơn sơ bộ
+  - mục
+  - trợ giúp giá trị
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHONENUMBERTYPETEXT
 description: Phonenumbertypetext
+semantic_en: "phone number type text — multi-language descriptions for telephone number type codes keyed by type and language."
+semantic_vi: "văn bản loại số điện thoại — mô tả đa ngôn ngữ cho mã loại số điện thoại được khóa theo loại và ngôn ngữ."
+keywords:
+  - số điện thoại
+  - loại
+  - mô tả
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRSRCETYPETEXT
 description: Prjblgelmentrsrcetypetext
+semantic_en: "project billing element entry source type descriptions — multilingual text for entry source classifications"
+semantic_vi: "mô tả loại nguồn mục nhập phần tử hóa đơn dự án — văn bản đa ngôn ngữ cho phân loại nguồn mục nhập"
+keywords:
+  - loại nguồn mục nhập
+  - nguồn phần tử
+  - mô tả hóa đơn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

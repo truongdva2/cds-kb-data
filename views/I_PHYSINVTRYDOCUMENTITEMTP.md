@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCUMENTITEMTP
 description: Physinvtrydocumentitemtp
+semantic_en: "Physical inventory document item third-party — extended view including supplier information for third-party inventory items."
+semantic_vi: "Mục tài liệu kiểm kê vật lý bên thứ ba — chế độ xem mở rộng bao gồm thông tin nhà cung cấp cho mục hàng tồn kho bên thứ ba."
+keywords:
+  - kiểm kê
+  - nhà cung cấp
+  - bên thứ ba
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFICATIONPRIORITYTYPE
 description: Pmnotificationprioritytype
+semantic_en: "priority type — classification of maintenance priority types for notification categorization"
+semantic_vi: "loại ưu tiên — phân loại loại ưu tiên bảo trì để phân loại thông báo"
+keywords:
+  - loại ưu tiên
+  - phân loại mức độ
+  - ưu tiên bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

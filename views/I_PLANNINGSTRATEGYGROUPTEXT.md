@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGSTRATEGYGROUPTEXT
 description: Planningstrategygrouptext
+semantic_en: "planning strategy group text — multilingual descriptions of strategy groups with language-specific names"
+semantic_vi: "văn bản nhóm chiến lược lập kế hoạch — tên nhóm chiến lược theo các ngôn ngữ khác nhau"
+keywords:
+  - tên nhóm kế hoạch
+  - chiến lược lập kế hoạch
+  - mô tả chiến lược
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

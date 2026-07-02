@@ -1,6 +1,12 @@
 ---
 name: I_POSUBCONTRACTINGCOMPAPI01
 description: Posubcontractingcompapi 01
+semantic_en: "subcontracting component in purchase order — components to be provided by vendor with quantity tracking and requirement dates"
+semantic_vi: "thành phần gia công trong đơn đặt hàng — thành phần cung cấp bởi nhà cung cấp với theo dõi số lượng và ngày yêu cầu"
+keywords:
+  - thành phần gia công
+  - vật tư cung cấp
+  - ngày yêu cầu
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

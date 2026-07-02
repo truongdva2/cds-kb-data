@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERCATEGORY
 description: Planned OrderCATEGORY
+semantic_en: "Planned order category codes — domain values for planned order category classifications."
+semantic_vi: "Mã danh mục lệnh kế hoạch — giá trị miền cho các phân loại danh mục lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - danh mục
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMSCONDITIONSTEXT
 description: Paymenttermsconditionstext
+semantic_en: "payment terms conditions text — multi-language condition descriptions for payment terms keyed by terms code, validity month-day, and language."
+semantic_vi: "văn bản điều kiện thanh toán — mô tả điều kiện đa ngôn ngữ cho điều khoản thanh toán được khóa theo mã điều khoản, ngày tháng hiệu lực và ngôn ngữ."
+keywords:
+  - điều kiện thanh toán
+  - mô tả
+  - ngôn ngữ
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

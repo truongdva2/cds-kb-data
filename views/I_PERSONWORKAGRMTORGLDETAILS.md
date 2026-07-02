@@ -1,6 +1,12 @@
 ---
 name: I_PERSONWORKAGRMTORGLDETAILS
 description: Personworkagrmtorgldetails
+semantic_en: "person work agreement organization details — work assignment organization context including company code, cost center, job, and organizational unit."
+semantic_vi: "chi tiết tổ chức hợp đồng làm việc của người — bối cảnh tổ chức phân công làm việc bao gồm mã công ty, trung tâm chi phí, vị trí và đơn vị tổ chức."
+keywords:
+  - hợp đồng làm việc
+  - tổ chức
+  - chi tiết
 app_component: CA-WFD
 software_component: SAPSCORE
 release_state: released

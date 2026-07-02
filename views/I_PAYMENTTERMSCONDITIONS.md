@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTTERMSCONDITIONS
 description: Paymenttermsconditions
+semantic_en: "payment terms conditions — parameterized view projecting payment terms rules including baseline date calculation, payment blocking, and installment parameters."
+semantic_vi: "điều kiện thanh toán — chế độ xem tham số hóa chiếu các quy tắc thanh toán bao gồm tính toán ngày cơ bản, chặn thanh toán và tham số trả góp."
+keywords:
+  - điều khoản thanh toán
+  - điều kiện
+  - tham số
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

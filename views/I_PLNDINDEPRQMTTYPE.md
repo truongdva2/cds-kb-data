@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTTYPE
 description: Plndindeprqmttype
+semantic_en: "planned independent requirement type — classification of forecast types with associated requirements class linkage"
+semantic_vi: "loại nhu cầu độc lập dự kiến — phân loại các loại dự báo với liên kết lớp yêu cầu liên quan"
+keywords:
+  - loại dự báo
+  - phân loại nhu cầu
+  - lớp yêu cầu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

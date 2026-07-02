@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTUSERDFLTCATALOGSAPI01
 description: Procmtuserdfltcatalogsapi 01
+semantic_en: "default catalogs personalization for users in procurement — catalog assignment with business purpose and data controller tracking"
+semantic_vi: "cá nhân hóa danh mục mặc định cho người dùng trong mua hàng — gán danh mục với mục đích kinh doanh và theo dõi bộ điều khiển dữ liệu"
+keywords:
+  - danh mục mặc định
+  - cá nhân hóa người dùng
+  - mua hàng
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRJRNLENTRLINK
 description: Prjblgelmentrjrnlentrlink
+semantic_en: "project billing element to journal entry linkage — associations between billing elements and accounting entries with audit fields"
+semantic_vi: "liên kết từ phần tử hóa đơn dự án đến mục nhập sổ cái — liên kết giữa phần tử hóa đơn và mục nhập kế toán với trường kiểm toán"
+keywords:
+  - sổ cái kế toán
+  - hóa đơn dự án
+  - mục nhập ghi sổ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

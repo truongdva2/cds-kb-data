@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTITEMHISTORY
 description: Plndindeprqmtitemhistory
+semantic_en: "history of planned independent requirement items — audit trail and historical records of forecast item changes and consumptions"
+semantic_vi: "lịch sử mục nhu cầu độc lập dự kiến — bản ghi kiểm toán và lịch sử thay đổi và tiêu thụ mục dự báo"
+keywords:
+  - lịch sử dự báo
+  - theo dõi thay đổi
+  - hàng dự kiến cũ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

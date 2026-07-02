@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTTYPE
 description: Pmrpflxblcstrttype
+semantic_en: "type of PMRP flexible constraint — domain values for constraint type classification in predictive material resource planning"
+semantic_vi: "loại ràng buộc linh hoạt PMRP — giá trị miền cho phân loại loại ràng buộc trong lập kế hoạch tài nguyên vật liệu dự đoán"
+keywords:
+  - loại ràng buộc
+  - phân loại PMRP
+  - ràng buộc linh hoạt
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

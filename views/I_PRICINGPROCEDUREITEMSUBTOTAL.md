@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGPROCEDUREITEMSUBTOTAL
 description: Pricingprocedureitemsubtotal
+semantic_en: "domain value list for pricing procedure subtotal lines — captures codes for different subtotal line types in pricing procedures."
+semantic_vi: "danh sách giá trị miền cho các dòng tổng cộng con trong thủ tục định giá — chứa các mã loại dòng tổng cộng con khác nhau trong các thủ tục định giá."
+keywords:
+  - tổng cộng con
+  - thủ tục
+  - định giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

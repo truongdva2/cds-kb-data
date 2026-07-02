@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTCLLGAPPLTXT
 description: Plndindeprqmtcllgappltxt
+semantic_en: "PIR calling application code text — multilingual descriptions of calling application codes with language-specific labels"
+semantic_vi: "văn bản mã ứng dụng gọi PIR — mô tả mã ứng dụng theo ngôn ngữ khác nhau"
+keywords:
+  - tên ứng dụng
+  - nhãn hệ thống tích hợp
+  - mô tả nguồn gốc
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRELIMBILLGDOCSTATUS
 description: Prelimbillgdocstatus
+semantic_en: "domain value list for preliminary billing document status — captures codes for different statuses of preliminary billing documents."
+semantic_vi: "danh sách giá trị miền cho trạng thái tài liệu lập hóa đơn sơ bộ — chứa các mã trạng thái khác nhau của tài liệu lập hóa đơn sơ bộ."
+keywords:
+  - trạng thái
+  - hóa đơn sơ bộ
+  - tài liệu
 app_component: SD-BIL-PBD-2CL
 software_component: SAPSCORE
 release_state: released

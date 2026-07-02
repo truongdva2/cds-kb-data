@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGINCOMPLETIONSTATUST
 description: Pricingincompletionstatust
+semantic_en: "text descriptions of pricing incompletion statuses — maps incompletion status codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các trạng thái không hoàn chỉnh định giá — ánh xạ các mã trạng thái không hoàn chỉnh tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - định giá
+  - trạng thái
+  - không hoàn chỉnh
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

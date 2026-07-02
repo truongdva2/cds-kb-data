@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDEROPERATIONTP
 description: Processorderoperationtp
+semantic_en: "process order operation data extract — operation details with work center and operation control profile"
+semantic_vi: "trích xuất dữ liệu hoạt động lệnh quy trình — chi tiết hoạt động với trung tâm làm việc và hồ sơ kiểm soát hoạt động"
+keywords:
+  - hoạt động lệnh quy trình
+  - trung tâm làm việc
+  - tiêu chuẩn
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

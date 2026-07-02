@@ -1,6 +1,12 @@
 ---
 name: I_PRAACCTGDOCSMMRYACCTSRBL
 description: Praacctgdocsmmryacctsrbl
+semantic_en: "partnerized receivables accounting summary — aggregates accounts receivable positions by company code, product, and aging status for joint venture entities."
+semantic_vi: "tóm tắt kế toán phải thu có đối tác — tổng hợp các vị trí phải thu theo mã công ty, sản phẩm và trạng thái tuổi cho các thực thể liên doanh."
+keywords:
+  - phải thu
+  - công ty
+  - liên doanh
 app_component: IS-OIL-PRA
 software_component: SAPSCORE
 release_state: released

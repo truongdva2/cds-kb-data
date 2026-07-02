@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTCATEGORYTEXT
 description: Pmrpflxblcstrtcategorytext
+semantic_en: "category for PMRP flexible constraint text — multilingual descriptions of constraint categories with language-specific category names"
+semantic_vi: "danh mục cho văn bản ràng buộc linh hoạt PMRP — tên danh mục ràng buộc theo ngôn ngữ khác nhau"
+keywords:
+  - tên danh mục ràng buộc
+  - mô tả ràng buộc
+  - nhãn PMRP
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

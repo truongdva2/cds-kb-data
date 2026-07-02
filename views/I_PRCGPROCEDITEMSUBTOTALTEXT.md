@@ -1,6 +1,12 @@
 ---
 name: I_PRCGPROCEDITEMSUBTOTALTEXT
 description: Prcgproceditemsubtotaltext
+semantic_en: "text descriptions of pricing procedure subtotal lines — maps subtotal line codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các dòng tổng cộng con trong thủ tục định giá — ánh xạ các mã dòng tổng cộng con tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - tổng cộng con
+  - thủ tục
+  - định giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

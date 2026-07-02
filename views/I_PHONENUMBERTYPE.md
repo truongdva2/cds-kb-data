@@ -1,6 +1,12 @@
 ---
 name: I_PHONENUMBERTYPE
 description: Phonenumbertype
+semantic_en: "phone number type — code classification for telephone number types in system."
+semantic_vi: "loại số điện thoại — phân loại mã cho các loại số điện thoại trong hệ thống."
+keywords:
+  - số điện thoại
+  - loại
+  - phân loại
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

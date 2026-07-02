@@ -1,6 +1,12 @@
 ---
 name: I_PLANTHIERARCHY
 description: Planthierarchy
+semantic_en: "plant hierarchy — organizational structure data for plant grouping with validity dates and last change tracking"
+semantic_vi: "hệ thống phân cấp nhà máy — dữ liệu cấu trúc tổ chức để nhóm nhà máy cùng với ngày hiệu lực và theo dõi thay đổi"
+keywords:
+  - cơ cấu tổ chức
+  - hệ thống phân cấp
+  - nhà máy nhóm
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PERSSETTLMTACCTGTRANSFSTST
 description: Perssettlmtacctgtransfstst
+semantic_en: "personnel settlement accounting transfer status text — multi-language status descriptions for accounting transfer states keyed by status and language."
+semantic_vi: "văn bản trạng thái chuyển giao kế toán thanh lý nhân sự — mô tả trạng thái đa ngôn ngữ cho các trạng thái chuyển giao kế toán được khóa theo trạng thái và ngôn ngữ."
+keywords:
+  - thanh lý nhân sự
+  - kế toán
+  - mô tả
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PLANTHIERARCHYTEXT
 description: Planthierarchytext
+semantic_en: "plant hierarchy text — multilingual descriptions of plant hierarchies with language-specific hierarchy names"
+semantic_vi: "văn bản hệ thống phân cấp nhà máy — tên hệ thống phân cấp theo ngôn ngữ khác nhau"
+keywords:
+  - tên hệ thống phân cấp
+  - nhãn tổ chức nhà máy
+  - mô tả cơ cấu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

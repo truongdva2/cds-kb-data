@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTBYINTKEY
 description: Plndindeprqmtbyintkey
+semantic_en: "planned independent requirement by internal key — forecast data identified by internal key including consumption strategy and status"
+semantic_vi: "nhu cầu độc lập dự kiến theo khóa nội bộ — dữ liệu dự báo được xác định bằng khóa nội bộ bao gồm chiến lược tiêu thụ và trạng thái"
+keywords:
+  - nhu cầu dự báo
+  - lập kế hoạch độc lập
+  - tiêu thụ sản phẩm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

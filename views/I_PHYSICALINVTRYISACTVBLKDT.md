@@ -1,6 +1,12 @@
 ---
 name: I_PHYSICALINVTRYISACTVBLKDT
 description: Physicalinvtryisactvblkdt
+semantic_en: "physical inventory stock activity blocked status text — multi-language status descriptions for stock activity indicator keyed by status and language."
+semantic_vi: "văn bản trạng thái chặn hoạt động kho của kiểm kê hàng hóa — mô tả trạng thái đa ngôn ngữ cho chỉ báo hoạt động kho được khóa theo trạng thái và ngôn ngữ."
+keywords:
+  - kiểm kê hàng hóa
+  - kho
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

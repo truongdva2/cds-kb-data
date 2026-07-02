@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGACCESSSEQUENCE
 description: Pricingaccesssequence
+semantic_en: "pricing access sequence master — defines sequences that organize condition table accesses for pricing determination."
+semantic_vi: "chuỗi truy cập định giá chính — xác định các chuỗi tổ chức các quyền truy cập bảng điều kiện để xác định giá."
+keywords:
+  - chuỗi truy cập
+  - định giá
+  - bảng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

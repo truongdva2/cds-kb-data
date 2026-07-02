@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYBOOKSERIALNMBRTP
 description: Physinvtrybookserialnmbrtp
+semantic_en: "physical inventory book serial number transaction data — book inventory serial number records with equipment link and audit trail."
+semantic_vi: "dữ liệu giao dịch số sê ri sách kiểm kê hàng hóa — các bản ghi số sê ri sách kiểm kê với liên kết thiết bị và dấu thời gian kiểm toán."
+keywords:
+  - kiểm kê hàng hóa
+  - số sê ri
+  - sách
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

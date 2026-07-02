@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGSTATUS
 description: Pickingstatus
+semantic_en: "Picking status codes — domain values for item picking statuses."
+semantic_vi: "Mã trạng thái bộ lấy hàng — giá trị miền cho trạng thái lấy mục."
+keywords:
+  - bộ lấy hàng
+  - trạng thái
+  - mục
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

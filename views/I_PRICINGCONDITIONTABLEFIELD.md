@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGCONDITIONTABLEFIELD
 description: Pricing ConditionTABLEFIELD
+semantic_en: "pricing condition table field definitions — maps fields within pricing condition tables and their properties like key, item, and text indicators."
+semantic_vi: "định nghĩa trường bảng điều kiện định giá — ánh xạ các trường trong bảng điều kiện định giá và các thuộc tính của chúng như chỉ báo chính, mục và văn bản."
+keywords:
+  - trường
+  - bảng
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYCOUNTSTSTXT
 description: Physinvtrycountststxt
+semantic_en: "physical inventory count status text — multi-language descriptions for count status codes keyed by status and language."
+semantic_vi: "văn bản trạng thái kiểm kê hàng hóa — mô tả đa ngôn ngữ cho mã trạng thái kiểm kê được khóa theo trạng thái và ngôn ngữ."
+keywords:
+  - kiểm kê hàng hóa
+  - trạng thái
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

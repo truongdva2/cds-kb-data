@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERSTDVH
 description: Planned OrderSTDVH
+semantic_en: "Planned order standard value help — filtered list of planned orders with MRP controller and plant."
+semantic_vi: "Trợ giúp giá trị tiêu chuẩn lệnh kế hoạch — danh sách lệnh kế hoạch được lọc với bộ điều khiển MRP và nhà máy."
+keywords:
+  - lệnh kế hoạch
+  - MRP
+  - trợ giúp giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

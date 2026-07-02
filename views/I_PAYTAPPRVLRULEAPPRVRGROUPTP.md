@@ -1,6 +1,12 @@
 ---
 name: I_PAYTAPPRVLRULEAPPRVRGROUPTP
 description: Paytapprvlruleapprvrgrouptp
+semantic_en: "payment approval rule approver groups — transaction data recording approver group assignments to approval items with audit trail timestamps."
+semantic_vi: "nhóm người phê duyệt quy tắc phê duyệt thanh toán — dữ liệu giao dịch ghi nhận phân công nhóm người phê duyệt cho các mục phê duyệt có dấu thời gian kiểm toán."
+keywords:
+  - phê duyệt thanh toán
+  - nhóm người phê duyệt
+  - quy tắc
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

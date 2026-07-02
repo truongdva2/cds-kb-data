@@ -1,6 +1,12 @@
 ---
 name: I_PERSONWORKAGREEMENT_1
 description: Personworkagreement 1
+semantic_en: "person work agreement details — work assignment with person identification, authorization group, and full name."
+semantic_vi: "chi tiết hợp đồng làm việc của người — phân công làm việc với định danh người, nhóm ủy quyền và tên đầy đủ."
+keywords:
+  - hợp đồng làm việc
+  - phân công
+  - người
 app_component: CA-WFD
 software_component: SAPSCORE
 release_state: released

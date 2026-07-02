@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERITEMTP
 description: Processorderitemtp
+semantic_en: "process order item data extract — manufacturing order items with product, plant and MRP area information"
+semantic_vi: "trích xuất dữ liệu mục lệnh quy trình — mục lệnh sản xuất với thông tin sản phẩm, nhà máy và vùng MRP"
+keywords:
+  - mục lệnh sản xuất
+  - sản phẩm
+  - nhà máy
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

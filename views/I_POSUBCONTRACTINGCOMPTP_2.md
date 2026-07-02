@@ -1,6 +1,12 @@
 ---
 name: I_POSUBCONTRACTINGCOMPTP_2
 description: Posubcontractingcomptp 2
+semantic_en: "PO subcontracting components projection — vendor-supplied components with material properties and conversion factors for resource planning"
+semantic_vi: "hình chiếu thành phần gia công PO — thành phần do nhà cung cấp cung cấp với thuộc tính vật liệu và hệ số chuyển đổi"
+keywords:
+  - thành phần gia công
+  - thuộc tính vật liệu
+  - quy đổi số lượng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

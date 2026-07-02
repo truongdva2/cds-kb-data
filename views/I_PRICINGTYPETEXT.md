@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGTYPETEXT
 description: Pricingtypetext
+semantic_en: "pricing type descriptions — multilingual text for PricingType with language and description fields"
+semantic_vi: "mô tả loại định giá — văn bản đa ngôn ngữ cho loại định giá với trường ngôn ngữ và mô tả"
+keywords:
+  - mô tả định giá
+  - tên loại giá
+  - dịch loại định
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBPURORDITMAPI01
 description: Procmthubpurorditmapi 01
+semantic_en: "centrally managed purchase order items — item details with material, supplier information and document currency"
+semantic_vi: "mục đơn đặt hàng được quản lý tập trung — chi tiết mục với vật liệu, thông tin nhà cung cấp và tiền tệ tài liệu"
+keywords:
+  - mục đơn hàng
+  - vật liệu
+  - nhà cung cấp
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

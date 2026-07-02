@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGDATECONTROLTXT
 description: Pricingdatecontroltxt
+semantic_en: "text descriptions of pricing date control codes — maps control codes to localized descriptions in multiple languages."
+semantic_vi: "mô tả văn bản của các mã kiểm soát ngày định giá — ánh xạ các mã kiểm soát tới các mô tả được bản địa hóa theo nhiều ngôn ngữ."
+keywords:
+  - ngày định giá
+  - kiểm soát
+  - mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

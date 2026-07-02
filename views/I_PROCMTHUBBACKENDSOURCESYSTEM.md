@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBBACKENDSOURCESYSTEM
 description: Procmthubbackendsourcesystem
+semantic_en: "connected source systems in central procurement — system registration with logical and backend business system details"
+semantic_vi: "hệ thống nguồn được kết nối trong mua hàng tập trung — đăng ký hệ thống với chi tiết hệ thống kinh doanh back-end và logic"
+keywords:
+  - hệ thống nguồn
+  - mua hàng tập trung
+  - kết nối hệ thống
 app_component: MM-PUR-HUB-REQ-2CL
 software_component: SAPSCORE
 release_state: released

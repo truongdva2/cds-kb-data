@@ -1,6 +1,12 @@
 ---
 name: I_PCLGSDCMNLLYOVRWRTNADDRTP
 description: Pclgsdcmnllyovrwrtnaddrtp
+semantic_en: "production compliance log document manually overwritten address — transaction data recording manual address overrides with multi-line address fields and audit trail."
+semantic_vi: "địa chỉ được ghi đè thủ công trong tài liệu nhật ký tuân thủ sản xuất — dữ liệu giao dịch ghi nhận ghi đè địa chỉ thủ công với các trường địa chỉ nhiều dòng và dấu thời gian kiểm toán."
+keywords:
+  - địa chỉ ghi đè
+  - nhật ký tuân thủ
+  - sản xuất
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

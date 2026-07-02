@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALETYPE
 description: Pricingscaletype
+semantic_en: "pricing scale type master data — domain value for PricingScaleType classification"
+semantic_vi: "dữ liệu cơ bản loại thang giá — giá trị miền để phân loại Loại Thang Giá"
+keywords:
+  - loại thang giá
+  - phân loại thang
+  - định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

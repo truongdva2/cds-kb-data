@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGSCALEBASISTEXT
 description: Pricingscalebasistext
+semantic_en: "pricing scale basis descriptions — multilingual text for PricingScaleBasis with language and name fields"
+semantic_vi: "mô tả cơ sở thang giá — văn bản đa ngôn ngữ cho cơ sở thang giá với trường ngôn ngữ và tên"
+keywords:
+  - mô tả thang giá
+  - tên cơ sở thang
+  - văn bản định giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRFTCTRDRVTNSRCETYPEVH
 description: Prftctrdrvtnsrcetypevh
+semantic_en: "value help view for profit center derivation source types — provides domain values and descriptions for controlling profit center derivation logic."
+semantic_vi: "view trợ giúp giá trị cho các loại nguồn dẫn xuất trung tâm lợi nhuận — cung cấp giá trị miền và mô tả để kiểm soát logic dẫn xuất trung tâm lợi nhuận."
+keywords:
+  - trung tâm lợi nhuận
+  - dẫn xuất
+  - nguồn
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

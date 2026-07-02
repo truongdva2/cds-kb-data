@@ -1,6 +1,12 @@
 ---
 name: I_PHYSICALINVTRYISACTVBLKD
 description: Physicalinvtryisactvblkd
+semantic_en: "physical inventory stock activity blocked status — code domain for stock indicator states in physical inventory operations."
+semantic_vi: "trạng thái chặn hoạt động kho của kiểm kê hàng hóa — miền mã cho các trạng thái chỉ báo kho trong các hoạt động kiểm kê hàng hóa."
+keywords:
+  - kiểm kê hàng hóa
+  - kho
+  - trạng thái
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

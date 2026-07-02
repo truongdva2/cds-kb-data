@@ -1,6 +1,13 @@
 ---
 name: I_PRMTHBRPLDPURREQNEMAILPARAM
 description: Prmthbrpldpurreqnemailparam
+semantic_en: "email template parameters for replicated purchase requisitions in procurement hub — comment information with user tracking"
+semantic_vi: "tham số mẫu email cho yêu cầu mua hàng được sao chép trong trung tâm mua hàng — thông tin bình luận với theo dõi người dùng"
+keywords:
+  - mẫu email
+  - yêu cầu mua hàng
+  - bình luận
+  - người dùng
 app_component: MM-PUR-HUB-PR-2CL
 software_component: SAPSCORE
 release_state: released

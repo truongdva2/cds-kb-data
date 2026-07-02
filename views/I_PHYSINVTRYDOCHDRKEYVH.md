@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYDOCHDRKEYVH
 description: Physinvtrydochdrkeyvh
+semantic_en: "Physical inventory document header key value help — structured identifiers for physical inventory documents."
+semantic_vi: "Trợ giúp giá trị khóa tiêu đề kiểm kê — định danh cấu trúc cho tài liệu kiểm kê vật lý."
+keywords:
+  - kiểm kê
+  - khóa tài liệu
+  - trợ giúp giá trị
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

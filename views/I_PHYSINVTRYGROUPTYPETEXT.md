@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYGROUPTYPETEXT
 description: Physinvtrygrouptypetext
+semantic_en: "Physical inventory group type text — multilingual descriptions for inventory group types."
+semantic_vi: "Văn bản loại nhóm kiểm kê vật lý — mô tả đa ngôn ngữ cho các loại nhóm kiểm kê."
+keywords:
+  - kiểm kê
+  - nhóm
+  - loại
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

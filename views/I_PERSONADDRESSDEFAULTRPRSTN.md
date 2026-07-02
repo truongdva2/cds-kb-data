@@ -1,6 +1,12 @@
 ---
 name: I_PERSONADDRESSDEFAULTRPRSTN
 description: Personaddressdefaultrprstn
+semantic_en: "person address default representation — person address details using default representation code for primary identification."
+semantic_vi: "cách trình bày mặc định địa chỉ của người — chi tiết địa chỉ của người sử dụng mã trình bày mặc định để định danh chính."
+keywords:
+  - địa chỉ người
+  - cách trình bày
+  - mặc định
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

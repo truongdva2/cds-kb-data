@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYCOUNTSERIALNMBRTP
 description: Physinvtrycountserialnmbrtp
+semantic_en: "physical inventory count serial number transaction data — count inventory serial number records with equipment association and audit trail."
+semantic_vi: "dữ liệu giao dịch số sê ri kiểm kê hàng hóa — các bản ghi số sê ri kiểm kê với liên kết thiết bị và dấu thời gian kiểm toán."
+keywords:
+  - kiểm kê hàng hóa
+  - số sê ri
+  - kiểm kê
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

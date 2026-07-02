@@ -1,6 +1,12 @@
 ---
 name: I_PRCGDATEIDENTIFICATIONCODE
 description: Prcgdateidentificationcode
+semantic_en: "domain value list for pricing date identification codes — captures codes identifying which pricing date reference to use in pricing procedures."
+semantic_vi: "danh sách giá trị miền cho mã định danh ngày định giá — chứa các mã định danh tham chiếu ngày định giá nào được sử dụng trong các thủ tục định giá."
+keywords:
+  - ngày định giá
+  - mã định danh
+  - điều kiện giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

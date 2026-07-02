@@ -1,6 +1,12 @@
 ---
 name: I_PROCORDOPERATIONCAPACITYTP
 description: Procordoperationcapacitytp
+semantic_en: "process order operation capacity data extract — capacity requirements with distribution key and confirmation details"
+semantic_vi: "trích xuất dữ liệu công suất hoạt động lệnh quy trình — yêu cầu công suất với khóa phân phối và chi tiết xác nhận"
+keywords:
+  - công suất hoạt động
+  - phân phối
+  - lệnh quy trình
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYSPECIALSTOCKTYPEVH
 description: Physinvtryspecialstocktypevh
+semantic_en: "Physical inventory special stock type value help — filtered inventory special stock types."
+semantic_vi: "Trợ giúp giá trị loại hàng tồn kho đặc biệt kiểm kê — các loại hàng tồn kho đặc biệt được lọc."
+keywords:
+  - kiểm kê
+  - hàng tồn kho đặc biệt
+  - loại
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

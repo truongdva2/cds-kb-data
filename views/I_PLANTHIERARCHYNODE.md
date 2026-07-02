@@ -1,6 +1,12 @@
 ---
 name: I_PLANTHIERARCHYNODE
 description: Planthierarchynode
+semantic_en: "plant hierarchy node — hierarchical nodes organizing plants with parent-child relationships and node-level attributes"
+semantic_vi: "nút hệ thống phân cấp nhà máy — các nút phân cấp tổ chức nhà máy với mối quan hệ cha-con và thuộc tính mức nút"
+keywords:
+  - nút cấp bậc
+  - mối quan hệ cha-con
+  - tổ chức nhà máy
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

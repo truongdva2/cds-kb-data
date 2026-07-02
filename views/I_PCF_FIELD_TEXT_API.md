@@ -1,6 +1,12 @@
 ---
 name: I_PCF_FIELD_TEXT_API
 description: Pcf Field Text Api
+semantic_en: "predefined custom field texts API — multi-language field labels and tooltips for custom field nodes accessed through parameterized text function."
+semantic_vi: "API văn bản trường tùy chỉnh được xác định trước — nhãn trường và gợi ý đa ngôn ngữ cho các nút trường tùy chỉnh được truy cập qua hàm văn bản tham số hóa."
+keywords:
+  - trường tùy chỉnh
+  - nhãn
+  - gợi ý
 app_component: BC-SRV-APS-EXT-FLD
 software_component: SAP_BASIS
 release_state: released

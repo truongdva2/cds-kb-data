@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBPURGGROUPAPI01
 description: Procmthubpurggroupapi 01
+semantic_en: "purchasing groups in connected systems — group details with contact information phone and email"
+semantic_vi: "nhóm mua hàng trong các hệ thống được kết nối — chi tiết nhóm với thông tin liên hệ điện thoại và email"
+keywords:
+  - nhóm mua hàng
+  - thông tin liên hệ
+  - hệ thống kết nối
 app_component: MM-PUR-HUB-FND-2CL
 software_component: SAPSCORE
 release_state: released

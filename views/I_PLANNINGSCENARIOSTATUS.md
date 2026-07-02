@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGSCENARIOSTATUS
 description: Planningscenariostatus
+semantic_en: "MRP planning scenario status — provides domain values for classification of scenario execution states in master planning"
+semantic_vi: "trạng thái kịch bản lập kế hoạch MRP — giá trị miền phân loại các trạng thái thực thi kịch bản trong quy hoạch chính"
+keywords:
+  - trạng thái kịch bản
+  - MRP kế hoạch
+  - lập kế hoạch tình huống
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

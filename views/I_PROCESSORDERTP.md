@@ -1,6 +1,12 @@
 ---
 name: I_PROCESSORDERTP
 description: Processordertp
+semantic_en: "process order header data extract — manufacturing order details with importance and creation date"
+semantic_vi: "trích xuất dữ liệu tiêu đề lệnh quy trình — chi tiết lệnh sản xuất với mức độ quan trọng và ngày tạo"
+keywords:
+  - tiêu đề lệnh sản xuất
+  - lệnh quy trình
+  - ngày tạo
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

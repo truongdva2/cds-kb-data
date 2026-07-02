@@ -1,6 +1,12 @@
 ---
 name: I_PH_ALPHANUMERICTAXCODETEXT
 description: PH Alphanumerictaxcodetext
+semantic_en: "Philippines alphanumeric tax code text — multilingual descriptions of Philippine tax codes and industry keys."
+semantic_vi: "Văn bản mã thuế ký tự alphanumeric Philippines — mô tả đa ngôn ngữ của mã thuế và khóa ngành Philippines."
+keywords:
+  - Philippines
+  - mã thuế
+  - ngành công nghiệp
 app_component: FI-LOC-FI-PH
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYGROUPTYPE
 description: Physinvtrygrouptype
+semantic_en: "Physical inventory group type codes — domain values for inventory grouping types."
+semantic_vi: "Mã loại nhóm kiểm kê vật lý — giá trị miền cho các loại nhóm hàng tồn kho."
+keywords:
+  - kiểm kê
+  - nhóm
+  - loại
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

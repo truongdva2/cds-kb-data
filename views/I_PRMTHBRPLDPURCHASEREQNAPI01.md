@@ -1,6 +1,12 @@
 ---
 name: I_PRMTHBRPLDPURCHASEREQNAPI01
 description: PRMTHBRPLDPurchase RequisitionNAPI 01
+semantic_en: "replicated purchase requisitions in procurement hub — purchase requisition type and blocking status"
+semantic_vi: "yêu cầu mua hàng được sao chép trong trung tâm mua hàng — loại yêu cầu mua hàng và trạng thái chặn"
+keywords:
+  - yêu cầu mua hàng
+  - sao chép
+  - trung tâm mua hàng
 app_component: MM-PUR-HUB-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRJBLGELMENTRCANCLNSRCCDTEXT
 description: Prjblgelmentrcanclnsrccdtext
+semantic_en: "source codes cancelling project billing element entries — multilingual text descriptions for cancellation sources"
+semantic_vi: "mã nguồn hủy bỏ mục nhập phần tử hóa đơn dự án — mô tả văn bản đa ngôn ngữ cho nguồn hủy bỏ"
+keywords:
+  - hủy hóa đơn
+  - nguồn hủy bỏ
+  - mục nhập dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGPERIODSCHEDULELINE
 description: PLANNINGPERIODSchedule Line
+semantic_en: "schedule line for MRP planning period — describes effective dates and status flags for manufacturing planning calendar lines"
+semantic_vi: "dòng lịch biểu cho kỳ hoạch quy hoạch vật liệu — xác định ngày bắt đầu và kết thúc lịch biểu, ID nội bộ và cờ cố định để tối ưu hóa MRP"
+keywords:
+  - lịch hoạch MRP
+  - kỳ hoạch sản xuất
+  - dòng lịch biểu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

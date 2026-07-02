@@ -1,6 +1,12 @@
 ---
 name: I_PICKINGSTATUSTEXT
 description: Pickingstatustext
+semantic_en: "Picking status text — multilingual descriptions for item picking statuses."
+semantic_vi: "Văn bản trạng thái bộ lấy hàng — mô tả đa ngôn ngữ cho trạng thái lấy mục."
+keywords:
+  - bộ lấy hàng
+  - trạng thái
+  - mục
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

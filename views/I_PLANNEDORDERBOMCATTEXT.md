@@ -1,6 +1,12 @@
 ---
 name: I_PLANNEDORDERBOMCATTEXT
 description: Planned OrderBOMCATTEXT
+semantic_en: "Planned order BOM category text — multilingual descriptions for bill of material categories used in planned orders."
+semantic_vi: "Văn bản danh mục BOM lệnh kế hoạch — mô tả đa ngôn ngữ cho danh mục danh sách vật liệu trong lệnh kế hoạch."
+keywords:
+  - lệnh kế hoạch
+  - BOM
+  - danh mục
 app_component: PP-PLO-2CL
 software_component: SAPSCORE
 release_state: released

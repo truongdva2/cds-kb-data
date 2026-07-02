@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTREASON
 description: Paymentreason
+semantic_en: "payment reason code — primary identification for payment purpose classification."
+semantic_vi: "mã lý do thanh toán — định danh chính cho phân loại mục đích thanh toán."
+keywords:
+  - lý do thanh toán
+  - mã thanh toán
+  - phân loại thanh toán
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

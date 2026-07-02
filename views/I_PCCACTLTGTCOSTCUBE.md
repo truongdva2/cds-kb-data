@@ -1,6 +1,12 @@
 ---
 name: I_PCCACTLTGTCOSTCUBE
 description: Pccactltgtcostcube
+semantic_en: "period cost analysis cube — analytical query view aggregating actual and target cost data across order, cost center, and work center dimensions with activity type."
+semantic_vi: "khối phân tích chi phí kỳ — chế độ xem truy vấn phân tích tổng hợp dữ liệu chi phí thực tế và chi phí dự toán trên các chiều đơn hàng, trung tâm chi phí và trung tâm làm việc với loại hoạt động."
+keywords:
+  - phân tích chi phí
+  - khối dữ liệu
+  - trung tâm chi phí
 app_component: CO-PC-OBJ-PER-2CL
 software_component: SAPSCORE
 release_state: released

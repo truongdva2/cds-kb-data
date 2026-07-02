@@ -1,6 +1,12 @@
 ---
 name: I_PRICEDETERMINATIONCONTROL
 description: Pricedeterminationcontrol
+semantic_en: "domain value list for price determination control — captures codes for controlling how prices are determined in different business scenarios."
+semantic_vi: "danh sách giá trị miền cho kiểm soát xác định giá — chứa các mã kiểm soát cách xác định giá trong các tình huống kinh doanh khác nhau."
+keywords:
+  - xác định giá
+  - kiểm soát
+  - giá cả
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

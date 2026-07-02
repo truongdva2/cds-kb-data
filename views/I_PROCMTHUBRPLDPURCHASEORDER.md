@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBRPLDPURCHASEORDER
 description: PROCMTHUBRPLDPurchase Order
+semantic_en: "extensibility view for replicated purchase orders in procurement hub — order header with document origin and validity dates"
+semantic_vi: "chế độ xem khả năng mở rộng cho đơn đặt hàng được sao chép trong trung tâm mua hàng — tiêu đề đơn với nguồn gốc tài liệu và ngày hiệu lực"
+keywords:
+  - đơn đặt hàng
+  - sao chép
+  - mua hàng
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

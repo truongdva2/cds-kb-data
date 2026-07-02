@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTRELEASELISTITEMBASIC
 description: Paymentreleaselistitembasic
+semantic_en: "payment release list item — core attributes of payment release request items including UUID, status, approval level, and related accounting documents."
+semantic_vi: "mục danh sách phát hành thanh toán — các thuộc tính cơ bản của mục yêu cầu phát hành thanh toán bao gồm UUID, trạng thái, mức phê duyệt và tài liệu kế toán liên quan."
+keywords:
+  - phát hành thanh toán
+  - mục danh sách
+  - trạng thái phê duyệt
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

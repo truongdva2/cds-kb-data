@@ -1,6 +1,12 @@
 ---
 name: I_PHYSINVTRYREASONCODETEXT
 description: Physinvtryreasoncodetext
+semantic_en: "Physical inventory reason code text — multilingual descriptions for physical inventory difference reasons."
+semantic_vi: "Văn bản mã lý do kiểm kê vật lý — mô tả đa ngôn ngữ cho các lý do chênh lệch kiểm kê."
+keywords:
+  - kiểm kê
+  - lý do
+  - chênh lệch
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

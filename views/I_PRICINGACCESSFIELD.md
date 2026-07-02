@@ -1,6 +1,12 @@
 ---
 name: I_PRICINGACCESSFIELD
 description: Pricingaccessfield
+semantic_en: "pricing condition access field mapping — maps document structure fields and their properties to access sequence fields for condition table lookups."
+semantic_vi: "ánh xạ trường truy cập điều kiện định giá — ánh xạ các trường cấu trúc tài liệu và thuộc tính của chúng tới các trường chuỗi truy cập để tra cứu bảng điều kiện."
+keywords:
+  - truy cập
+  - trường
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

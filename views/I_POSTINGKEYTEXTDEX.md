@@ -1,6 +1,12 @@
 ---
 name: I_POSTINGKEYTEXTDEX
 description: Postingkeytextdex
+semantic_en: "posting key with special general ledger code text — multilingual descriptions of posting keys combined with special GL codes"
+semantic_vi: "văn bản khóa ghi sổ có mã GL đặc biệt — tên khóa ghi sổ kết hợp với mã GL đặc biệt theo ngôn ngữ khác nhau"
+keywords:
+  - khóa ghi sổ đặc biệt
+  - mã GL tùy chỉnh
+  - ghi sổ đặc biệt
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

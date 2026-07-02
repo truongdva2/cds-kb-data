@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGCATEGORY
 description: Planningcategory
+semantic_en: "Planning category — configuration for planning categories with usage, copy, deletion, and compression settings."
+semantic_vi: "Danh mục kế hoạch — cấu hình cho danh mục kế hoạch với cài đặt sử dụng, sao chép, xóa và nén."
+keywords:
+  - danh mục kế hoạch
+  - cấu hình
+  - kế hoạch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

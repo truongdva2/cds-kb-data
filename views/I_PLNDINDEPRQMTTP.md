@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTTP
 description: Plndindeprqmttp
+semantic_en: "planned independent requirement time-period view — forecast headers grouped by period type with scenario and account assignment data"
+semantic_vi: "chế độ xem kỳ thời gian nhu cầu độc lập dự kiến — tiêu đề dự báo được nhóm theo loại kỳ với dữ liệu kịch bản và phân bổ tài khoản"
+keywords:
+  - dự báo kỳ thời gian
+  - phân tích tình huống
+  - số dư hoạch định
 app_component: PP-MP-DEM-2CL
 software_component: SAPSCORE
 release_state: released

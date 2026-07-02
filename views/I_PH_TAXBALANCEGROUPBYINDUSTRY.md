@@ -1,6 +1,12 @@
 ---
 name: I_PH_TAXBALANCEGROUPBYINDUSTRY
 description: PH Taxbalancegroupbyindustry
+semantic_en: "Philippines tax balance grouped by industry — tax code assignments by industry with VAT coverage data."
+semantic_vi: "Số dư thuế Philippines được nhóm theo ngành — phân công mã thuế theo ngành có dữ liệu phạm vi VAT."
+keywords:
+  - Philippines
+  - thuế
+  - ngành công nghiệp
 app_component: FI-LOC-FI-PH
 software_component: SAPSCORE
 release_state: released

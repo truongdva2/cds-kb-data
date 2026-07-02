@@ -1,6 +1,12 @@
 ---
 name: I_PLANNINGCATSOURCEPLANNINGCAT
 description: Planningcatsourceplanningcat
+semantic_en: "Planning category source planning category — mapping of source categories to planning categories."
+semantic_vi: "Danh mục kế hoạch danh mục kế hoạch nguồn — ánh xạ của danh mục nguồn đến danh mục kế hoạch."
+keywords:
+  - danh mục kế hoạch
+  - danh mục nguồn
+  - ánh xạ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

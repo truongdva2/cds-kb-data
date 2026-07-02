@@ -1,6 +1,12 @@
 ---
 name: I_PPM_AUTHZNBYUSRH
 description: Ppm Authznbyusrh
+semantic_en: "project authorization information by user — maps individual users and their activities to referenced project objects."
+semantic_vi: "thông tin cấp phép dự án theo người dùng — ánh xạ người dùng riêng lẻ và các hoạt động của họ tới các đối tượng dự án được tham chiếu."
+keywords:
+  - cấp phép dự án
+  - người dùng
+  - kiểm soát quyền hạn
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

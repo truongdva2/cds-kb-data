@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFICATIONPRIORITY
 description: Pmnotificationpriority
+semantic_en: "notification priority — maintenance priority levels with priority type and color coding for plant maintenance alerts"
+semantic_vi: "ưu tiên thông báo — mức độ ưu tiên bảo trì với loại ưu tiên và mã màu cho cảnh báo bảo trì nhà máy"
+keywords:
+  - ưu tiên bảo trì
+  - mã màu ưu tiên
+  - thang ưu tiên
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

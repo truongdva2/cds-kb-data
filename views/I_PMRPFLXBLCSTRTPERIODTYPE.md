@@ -1,6 +1,12 @@
 ---
 name: I_PMRPFLXBLCSTRTPERIODTYPE
 description: Pmrpflxblcstrtperiodtype
+semantic_en: "PMRP period type — domain values for period classification in predictive material resource planning constraints"
+semantic_vi: "loại kỳ PMRP — giá trị miền cho phân loại kỳ trong ràng buộc lập kế hoạch tài nguyên vật liệu dự đoán"
+keywords:
+  - loại kỳ PMRP
+  - kỳ ràng buộc
+  - phân loại thời kỳ
 app_component: PP-PMR-ENG-2CL
 software_component: SAPSCORE
 release_state: released

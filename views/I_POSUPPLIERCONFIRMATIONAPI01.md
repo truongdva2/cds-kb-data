@@ -1,6 +1,12 @@
 ---
 name: I_POSUPPLIERCONFIRMATIONAPI01
 description: Posupplierconfirmationapi 01
+semantic_en: "supplier confirmation data in purchase order — vendor-provided confirmation of delivery dates and quantities with MRP relevance indicators"
+semantic_vi: "dữ liệu xác nhận nhà cung cấp trong đơn đặt hàng — xác nhận do nhà cung cấp cung cấp về ngày giao hàng và số lượng kèm chỉ số liên quan MRP"
+keywords:
+  - xác nhận nhà cung cấp
+  - ngày giao hàng
+  - số lượng xác nhận
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

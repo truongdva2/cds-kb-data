@@ -1,6 +1,12 @@
 ---
 name: I_PLNDINDEPRQMTTYPETEXT
 description: Plndindeprqmttypetext
+semantic_en: "planned independent requirement type text — multilingual descriptions of requirement types with language-specific names"
+semantic_vi: "văn bản loại nhu cầu độc lập dự kiến — tên loại dự báo theo ngôn ngữ khác nhau"
+keywords:
+  - tên loại dự báo
+  - phân loại nhu cầu
+  - mô tả loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PMNOTIFICATIONTYPETEXT
 description: Pmnotificationtypetext
+semantic_en: "notification type text — multilingual descriptions of notification types with language-specific type names"
+semantic_vi: "văn bản loại thông báo — tên loại thông báo theo ngôn ngữ khác nhau"
+keywords:
+  - tên loại thông báo
+  - mô tả loại
+  - nhãn phân loại
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

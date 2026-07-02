@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTHUBCOMPANYCODE
 description: PROCMTHUBCompany Code
+semantic_en: "company codes in connected systems for central procurement — company code registration with unique identifiers"
+semantic_vi: "mã công ty trong các hệ thống được kết nối cho mua hàng tập trung — đăng ký mã công ty với các mã định danh duy nhất"
+keywords:
+  - mã công ty
+  - mua hàng tập trung
+  - đăng ký công ty
 app_component: MM-PUR-HUB-FND-2CL
 software_component: SAPSCORE
 release_state: released

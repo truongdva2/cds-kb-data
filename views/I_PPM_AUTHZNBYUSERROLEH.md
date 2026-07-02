@@ -1,6 +1,12 @@
 ---
 name: I_PPM_AUTHZNBYUSERROLEH
 description: Ppm Authznbyuserroleh
+semantic_en: "project authorization information by user role — maps users and their assigned authorization roles to project objects."
+semantic_vi: "thông tin cấp phép dự án theo vai trò người dùng — ánh xạ người dùng và các vai trò cấp phép được gán tới các đối tượng dự án."
+keywords:
+  - cấp phép dự án
+  - vai trò người dùng
+  - phân quyền
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

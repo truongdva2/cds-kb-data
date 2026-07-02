@@ -1,6 +1,12 @@
 ---
 name: I_POSTINGKEY
 description: Postingkey
+semantic_en: "posting key — financial accounting configuration defining account type, transaction type and GL posting rules"
+semantic_vi: "khóa ghi sổ — cấu hình kế toán tài chính xác định loại tài khoản, loại giao dịch và quy tắc ghi sổ GL"
+keywords:
+  - khóa ghi sổ
+  - ghi sổ kế toán
+  - quy tắc ghi
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

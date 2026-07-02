@@ -1,6 +1,12 @@
 ---
 name: I_PROCMTUSRDFLTSETTINGSAPI01
 description: Procmtusrdfltsettingsapi 01
+semantic_en: "default settings personalization for users in procurement — user preferences for plant, account assignment and purchasing parameters"
+semantic_vi: "cá nhân hóa cài đặt mặc định cho người dùng trong mua hàng — tùy chọn người dùng cho nhà máy, gán tài khoản và tham số mua hàng"
+keywords:
+  - cài đặt mặc định
+  - tùy chọn người dùng
+  - nhóm mua hàng
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released
