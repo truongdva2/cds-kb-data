@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBASSIGNMENTT
 description: Cnsldtnsubassignmentt
+semantic_en: "text translations for consolidation subassignment codes across languages"
+semantic_vi: "Các bản dịch văn bản cho mã phân bổ phân tích hợp nhất theo các ngôn ngữ"
+keywords:
+  - dịch bản phân bổ
+  - văn bản consolidation
+  - quản lý ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

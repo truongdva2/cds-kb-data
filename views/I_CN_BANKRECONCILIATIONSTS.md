@@ -1,6 +1,12 @@
 ---
 name: I_CN_BANKRECONCILIATIONSTS
 description: CN Bankreconciliationsts
+semantic_en: "China bank reconciliation status domain — enumeration of valid status codes for bank reconciliation in Chinese company code operations."
+semantic_vi: "miền trạng thái đối sánh ngân hàng Trung Quốc — danh sách các mã trạng thái hợp lệ cho đối sánh ngân hàng trong hoạt động mã công ty Trung Quốc."
+keywords:
+  - đối sánh ngân hàng
+  - trạng thái
+  - Trung Quốc
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

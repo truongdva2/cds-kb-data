@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQNSTRATEGYSTATUSVH
 description: CN Paytreqnstrategystatusvh
+semantic_en: "payment requisition strategy status – value help for domain values of requisition strategy status."
+semantic_vi: "trợ giúp giá trị cho trạng thái chiến lược yêu cầu thanh toán – liệt kê các giá trị tên miền và mô tả trạng thái."
+keywords:
+  - trạng thái chiến lược yêu cầu
+  - thanh toán
+  - giá trị tên miền
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

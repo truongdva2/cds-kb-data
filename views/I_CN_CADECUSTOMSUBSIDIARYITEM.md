@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADECUSTOMSUBSIDIARYITEM
 description: CN Cadecustomsubsidiaryitem
+semantic_en: "China CADE customized subsidiary items — customized account subsidiary items for CADE reporting with hierarchical structure and coding rules."
+semantic_vi: "mục phụ được tùy chỉnh CADE Trung Quốc — các mục phụ tài khoản được tùy chỉnh cho báo cáo CADE với cấu trúc phân cấp và quy tắc mã hóa."
+keywords:
+  - CADE
+  - mục phụ
+  - tùy chỉnh
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKGROUP
 description: Cnsldtntaskgroup
+semantic_en: "consolidation task groups — logical grouping of related tasks for workflow management"
+semantic_vi: "Nhóm công việc consolidation — nhóm hợp lý các công việc liên quan để quản lý quy trình"
+keywords:
+  - nhóm task
+  - công việc liên quan
+  - quản lý workflow
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

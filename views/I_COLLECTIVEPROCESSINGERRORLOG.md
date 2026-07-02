@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIVEPROCESSINGERRORLOG
 description: Collectiveprocessingerrorlog
+semantic_en: "collective processing error log – error messages from batch processing of sales orders."
+semantic_vi: "nhật ký lỗi xử lý tập hợp – ghi nhận các lỗi hệ thống từ xử lý hàng loạt đơn bán hàng."
+keywords:
+  - nhật ký lỗi
+  - xử lý tập hợp
+  - đơn bán hàng
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

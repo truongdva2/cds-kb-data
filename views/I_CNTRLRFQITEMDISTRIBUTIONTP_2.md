@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLRFQITEMDISTRIBUTIONTP_2
 description: Cntrlrfqitemdistributiontp 2
+semantic_en: "central RFQ item distribution — distribution allocation records for RFQ line items across plants and organizational units with percentage splits."
+semantic_vi: "phân phối mục RFQ tập trung — bản ghi phân bổ phân phối cho các mục hàng RFQ trên các nhà máy và đơn vị tổ chức với phân tách phần trăm."
+keywords:
+  - yêu cầu báo giá
+  - phân phối
+  - nhà máy
+  - phần trăm
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

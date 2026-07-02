@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEHIERARCHY
 description: Company CodeHIERARCHY
+semantic_en: "company code hierarchy – organizational hierarchy definitions for company codes with validity dates."
+semantic_vi: "cấu trúc phân cấp mã công ty – định nghĩa tổ chức cấp bậc cho công ty với ngày hiệu lực."
+keywords:
+  - phân cấp
+  - mã công ty
+  - tổ chức
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

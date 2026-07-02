@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMVH
 description: Cnsldtnsubitemvh
+semantic_en: "consolidation subitem value-help — lookup with category, item code, and description"
+semantic_vi: "Danh sách giá trị trợ giúp cho mục con consolidation — tìm kiếm với danh mục, mã mục, và mô tả"
+keywords:
+  - tìm kiếm mục con
+  - dropdown item
+  - lookup consolidation
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKLGITMRCLASSFCTN
 description: Cnsldtntsklgitmrclassfctn
+semantic_en: "consolidation task log item reclassification — reclassification transaction records with consolidation method, apportionment, and currency conversion difference tracking"
+semantic_vi: "mục phân loại lại nhật ký hợp nhất — hồ sơ giao dịch phân loại lại với phương pháp hợp nhất, phân bổ và theo dõi chênh lệch quy đổi tiền tệ"
+keywords:
+  - phân loại lại hợp nhất
+  - quy đổi tiền tệ
+  - hợp nhất tài chính
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

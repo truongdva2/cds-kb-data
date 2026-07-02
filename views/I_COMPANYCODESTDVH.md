@@ -1,6 +1,11 @@
 ---
 name: I_COMPANYCODESTDVH
 description: Company CodeSTDVH
+semantic_en: "company code – standard value help for company codes."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn cho mã công ty – danh sách mã và tên gọi công ty."
+keywords:
+  - mã công ty
+  - giá trị tiêu chuẩn
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

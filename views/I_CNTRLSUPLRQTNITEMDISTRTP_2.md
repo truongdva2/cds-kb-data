@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPLRQTNITEMDISTRTP_2
 description: Cntrlsuplrqtnitemdistrtp 2
+semantic_en: "central supplier quotation item distribution — distribution records for supplier quotation items across plants with percentage and target quantity allocations."
+semantic_vi: "phân phối mục báo giá nhà cung cấp tập trung — bản ghi phân phối cho các mục báo giá nhà cung cấp trên các nhà máy với phân bổ phần trăm và số lượng mục tiêu."
+keywords:
+  - báo giá nhà cung cấp
+  - phân phối
+  - nhà máy
+  - mục tiêu
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRHDRDISTPARTTP_2
 description: Cntrlpurcontrhdrdistparttp 2
+semantic_en: "central contract header distribution partner with transfer pricing — partner assignments at header distribution level indicating suppliers and organizational units."
+semantic_vi: "đối tác phân phối tiêu đề hợp đồng tập trung với định giá chuyển nhượng — gán đối tác ở cấp độ phân phối tiêu đề chỉ ra nhà cung cấp và các đơn vị tổ chức."
+keywords:
+  - hợp đồng tập trung
+  - đối tác
+  - phân phối
+  - nhà cung cấp
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

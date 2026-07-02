@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITBYTIME_2
 description: Cnsldtnunitbytime 2
+semantic_en: "consolidation unit by time — projection of consolidation unit validity periods, local currency, and company links"
+semantic_vi: "đơn vị hợp nhất theo thời gian — phép chiếu thời kỳ hiệu lực đơn vị hợp nhất, tiền tệ địa phương và liên kết công ty"
+keywords:
+  - hiệu lực đơn vị
+  - công ty hợp nhất
+  - tiền tệ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

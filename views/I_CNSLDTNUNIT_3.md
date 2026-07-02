@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNIT_3
 description: Cnsldtnunit 3
+semantic_en: "consolidation unit — dimension master data for consolidation units with country, company, and navigation links including ETag"
+semantic_vi: "đơn vị hợp nhất — dữ liệu chính chiều cho các đơn vị hợp nhất với quốc gia, công ty và liên kết điều hướng bao gồm ETag"
+keywords:
+  - đơn vị hợp nhất
+  - quốc gia
+  - công ty
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

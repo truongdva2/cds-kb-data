@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRCHGREQSTATUSTXT
 description: Cntrlpurcontrchgreqstatustxt
+semantic_en: "central contract change request status text — localized status descriptions for change requests on central purchase contracts."
+semantic_vi: "văn bản trạng thái yêu cầu thay đổi hợp đồng tập trung — mô tả trạng thái được bản địa hóa cho các yêu cầu thay đổi trên hợp đồng mua tập trung."
+keywords:
+  - yêu cầu thay đổi
+  - trạng thái
+  - văn bản
+  - ngôn ngữ
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

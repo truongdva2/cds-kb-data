@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITFORELIMINATIONT_2
 description: Cnsldtnunitforeliminationt 2
+semantic_en: "consolidation unit for elimination — text labels and descriptions for consolidation units designated for elimination in multiple languages"
+semantic_vi: "đơn vị hợp nhất để loại bỏ — nhãn văn bản và mô tả cho các đơn vị hợp nhất được chỉ định loại bỏ theo ngôn ngữ"
+keywords:
+  - loại bỏ
+  - mô tả đơn vị
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

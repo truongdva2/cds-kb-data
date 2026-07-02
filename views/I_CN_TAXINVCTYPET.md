@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVCTYPET
 description: CN Taxinvctypet
+semantic_en: "tax invoice type – text descriptions of invoice types in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ loại hóa đơn thuế – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - loại hóa đơn
+  - thuế
+  - ngôn ngữ
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

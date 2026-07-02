@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITVALIDATION
 description: Cnsldtnunitvalidation
+semantic_en: "consolidation unit validation selection — list of validation rule categories for consolidation unit configuration"
+semantic_vi: "lựa chọn xác nhận đơn vị hợp nhất — danh sách các danh mục quy tắc xác nhận cho cấu hình đơn vị hợp nhất"
+keywords:
+  - xác nhận
+  - danh mục
+  - quy tắc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

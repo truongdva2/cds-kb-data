@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITELIMNODETEXT
 description: Cnsldtnunitelimnodetext
+semantic_en: "consolidation unit management elimination node — text labels for consolidation units designated for management elimination in multiple languages"
+semantic_vi: "nút loại bỏ quản lý đơn vị hợp nhất — nhãn văn bản cho các đơn vị hợp nhất được chỉ định loại bỏ quản lý theo ngôn ngữ"
+keywords:
+  - loại bỏ quản lý
+  - ngôn ngữ
+  - mô tả đơn vị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

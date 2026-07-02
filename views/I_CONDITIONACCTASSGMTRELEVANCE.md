@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONACCTASSGMTRELEVANCE
 description: Conditionacctassgmtrelevance
+semantic_en: "condition account assignment relevance – domain values classifying account assignment relevance for conditions."
+semantic_vi: "mức độ liên quan phân bổ tài khoản điều kiện – phân loại tính liên quan của phân bổ tài khoản."
+keywords:
+  - phân bổ tài khoản
+  - điều kiện
+  - liên quan
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

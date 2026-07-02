@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKLOGITEMTYPE
 description: Cnsldtntasklogitemtype
+semantic_en: "consolidation task log item type codes — domain values for categorizing log entry types"
+semantic_vi: "Mã loại mục log công việc consolidation — giá trị miền để phân loại các loại mục nhập log"
+keywords:
+  - loại log item
+  - mã phân loại
+  - phân loại log
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

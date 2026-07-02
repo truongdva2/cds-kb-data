@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKGRPTSKASSIGNMENT
 description: Cnsldtntskgrptskassignment
+semantic_en: "consolidation task group task assignment — sequencing tasks within groups with milestone and blocking flags"
+semantic_vi: "Phân công công việc nhóm công việc consolidation — sắp xếp công việc trong nhóm với cờ cột mốc"
+keywords:
+  - phân công task
+  - thứ tự công việc
+  - cột mốc milestone
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

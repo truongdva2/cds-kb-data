@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINPTVATCAT
 description: CN Taxinptvatcat
+semantic_en: "china input vat category – tax categories for incoming vat with rates and deletion flags."
+semantic_vi: "danh mục thuế giá trị gia tăng nhập vào – bao gồm mã danh mục, mức thuế suất và trạng thái xóa."
+keywords:
+  - thuế vat
+  - nhập vào
+  - danh mục
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

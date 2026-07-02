@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMHIERARCHY
 description: Cnsldtnsubitemhierarchy
+semantic_en: "consolidation subitem hierarchies — parent-child structures with validity dates and audit trail"
+semantic_vi: "Phân cấp mục con consolidation — cấu trúc cha-con với ngày hiệu lực và dấu vết kiểm tra"
+keywords:
+  - phân cấp mục
+  - khoảng thời gian
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

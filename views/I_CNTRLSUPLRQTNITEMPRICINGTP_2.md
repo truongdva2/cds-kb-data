@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPLRQTNITEMPRICINGTP_2
 description: Cntrlsuplrqtnitempricingtp 2
+semantic_en: "central supplier quotation item pricing — condition-based pricing details for supplier quotation items including condition type, calculation basis and rates."
+semantic_vi: "định giá mục báo giá nhà cung cấp tập trung — chi tiết định giá dựa trên điều kiện cho các mục báo giá nhà cung cấp bao gồm loại điều kiện, cơ sở tính toán và tỷ lệ."
+keywords:
+  - báo giá nhà cung cấp
+  - định giá
+  - điều kiện
+  - tỷ lệ
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

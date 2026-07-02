@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRITMCNDNAMTTP_2
 description: Cntrlpurcontritmcndnamttp 2
+semantic_en: "central contract item condition amount with transfer pricing — pricing conditions at item level showing condition types, rates and quantities for price determination."
+semantic_vi: "số tiền điều kiện mục hợp đồng tập trung với định giá chuyển nhượng — điều kiện giá tại cấp mục chỉ ra loại điều kiện, tỷ lệ và số lượng cho xác định giá cả."
+keywords:
+  - hợp đồng tập trung
+  - điều kiện giá
+  - mục hàng
+  - tỷ lệ
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

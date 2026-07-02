@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONTYPETEXT
 description: Cnsldtnversiontypetext
+semantic_en: "consolidation version type — text descriptions for version type values in multiple languages with domain references"
+semantic_vi: "loại phiên bản hợp nhất — mô tả văn bản cho các giá trị loại phiên bản theo ngôn ngữ có tham chiếu miền"
+keywords:
+  - mô tả loại
+  - ngôn ngữ
+  - miền
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

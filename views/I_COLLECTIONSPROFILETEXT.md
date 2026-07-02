@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONSPROFILETEXT
 description: Collectionsprofiletext
+semantic_en: "collections profile – text labels for profile names in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ hồ sơ thu nợ – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - hồ sơ thu nợ
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

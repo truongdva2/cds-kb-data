@@ -1,6 +1,12 @@
 ---
 name: I_CONACCTPRTNINVCGCHRGANDDISC
 description: Conacctprtninvcgchrganddisc
+semantic_en: "contract account partner invoicing charges and discounts – charges and discount rules for contract account invoicing."
+semantic_vi: "phí lập hóa đơn và chiết khấu theo đối tác tài khoản hợp đồng – quản lý phí và quy tắc chiết khấu."
+keywords:
+  - phí lập hóa đơn
+  - chiết khấu
+  - tài khoản hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

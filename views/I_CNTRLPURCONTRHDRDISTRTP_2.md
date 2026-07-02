@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRHDRDISTRTP_2
 description: Cntrlpurcontrhdrdistrtp 2
+semantic_en: "central contract header distribution with transfer pricing — header-level distribution records specifying purchasing, financial and organizational parameters for contract deployment."
+semantic_vi: "phân phối tiêu đề hợp đồng tập trung với định giá chuyển nhượng — bản ghi phân phối cấp tiêu đề chỉ định các tham số mua hàng, tài chính và tổ chức cho triển khai hợp đồng."
+keywords:
+  - hợp đồng tập trung
+  - phân phối tiêu đề
+  - điều khoản thanh toán
+  - chiết khấu
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVCDEDUCTIONTYPE
 description: CN Taxinvcdeductiontype
+semantic_en: "china tax invoice deduction type – deduction types for tax invoices with active status."
+semantic_vi: "loại khấu trừ hóa đơn thuế – các loại khấu trừ và trạng thái hoạt động của chúng."
+keywords:
+  - khấu trừ hóa đơn
+  - loại
+  - thuế
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

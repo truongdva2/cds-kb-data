@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQUISITIONTYPETEXT
 description: CN Paytrequisitiontypetext
+semantic_en: "payment requisition type – text labels for requisition type codes across languages."
+semantic_vi: "bản ghi mô tả loại yêu cầu thanh toán theo ngôn ngữ – tên gọi và mã tên miền."
+keywords:
+  - loại yêu cầu
+  - thanh toán
+  - ngôn ngữ
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

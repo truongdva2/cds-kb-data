@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUSTMODEOFTRANSPORT
 description: Cnsldtnsustmodeoftransport
+semantic_en: "consolidation sustainability mode of transport master data — transportation method codes with sustainability tracking"
+semantic_vi: "Dữ liệu chính phương thức vận chuyển bền vững consolidation — mã phương pháp vận chuyển với theo dõi bền vững"
+keywords:
+  - phương thức vận chuyển
+  - bền vững
+  - dữ liệu logistics
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

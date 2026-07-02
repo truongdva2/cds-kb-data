@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERTEXTTP
 description: Cnsldtnsuppliertexttp
+semantic_en: "consolidation supplier text TP projection — supplier names for third-party data processing"
+semantic_vi: "Phép chiếu TP văn bản nhà cung cấp consolidation — tên nhà cung cấp để xử lý dữ liệu bên thứ ba"
+keywords:
+  - supplier TP
+  - text projection
+  - bên thứ ba
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLREQFORQTANSCHEDULELINE
 description: CNTRLREQFORQTANSchedule Line
+semantic_en: "central RFQ item schedule line — delivery schedule details for central request for quotation items including dates, quantities and performance periods."
+semantic_vi: "dòng lịch trình mục yêu cầu báo giá tập trung — chi tiết lịch trình giao hàng cho các mục yêu cầu báo giá tập trung bao gồm ngày tháng, số lượng và kỳ hiệu suất."
+keywords:
+  - yêu cầu báo giá
+  - lịch trình giao hàng
+  - ngày giao
+  - số lượng
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

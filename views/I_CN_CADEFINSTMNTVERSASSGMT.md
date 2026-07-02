@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADEFINSTMNTVERSASSGMT
 description: CN Cadefinstmntversassgmt
+semantic_en: "China CADE financial statement version assignment — mapping of financial statement variants to CADE for Chinese reporting configuration."
+semantic_vi: "gán phiên bản báo cáo tài chính CADE Trung Quốc — ánh xạ các biến thể báo cáo tài chính cho CADE cho cấu hình báo cáo Trung Quốc."
+keywords:
+  - CADE
+  - báo cáo tài chính
+  - phiên bản
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

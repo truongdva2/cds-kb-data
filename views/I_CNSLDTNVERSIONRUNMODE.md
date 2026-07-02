@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONRUNMODE
 description: Cnsldtnversionrunmode
+semantic_en: "consolidation version run mode — domain values defining execution modes (such as plan or actual) for consolidation version processing"
+semantic_vi: "chế độ chạy phiên bản hợp nhất — giá trị miền định nghĩa các chế độ thực hiện (chẳng hạn như kế hoạch hoặc thực tế) để xử lý phiên bản hợp nhất"
+keywords:
+  - chế độ chạy
+  - phiên bản
+  - xử lý
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

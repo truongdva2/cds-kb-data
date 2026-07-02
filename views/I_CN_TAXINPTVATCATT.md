@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINPTVATCATT
 description: CN Taxinptvatcatt
+semantic_en: "china input vat category – text descriptions of vat input categories in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ danh mục thuế giá trị gia tăng nhập vào – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - thuế vat
+  - nhập vào
+  - đa ngôn ngữ
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIVEALLOCATIONTYPET
 description: Collectiveallocationtypet
+semantic_en: "collective allocation type – text descriptions of allocation types in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ loại phân bổ tập hợp – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - loại phân bổ
+  - mô tả
+  - ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADEEXCHANGERATE
 description: CN CADEExchange Rate
+semantic_en: "China CADE exchange rate — foreign exchange rates by type for CADE compliance in Chinese financial operations."
+semantic_vi: "tỷ giá hối đoái CADE Trung Quốc — tỷ giá hối đoái theo loại cho tuân thủ CADE trong hoạt động tài chính Trung Quốc."
+keywords:
+  - CADE
+  - tỷ giá hối đoái
+  - ngoại tệ
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

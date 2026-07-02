@@ -1,6 +1,13 @@
 ---
 name: I_CN_BANKRECONCILIATIONSTSTEXT
 description: CN Bankreconciliationststext
+semantic_en: "China bank reconciliation status text — localized status descriptions for bank reconciliation operations in China."
+semantic_vi: "văn bản trạng thái đối sánh ngân hàng Trung Quốc — mô tả trạng thái được bản địa hóa cho các hoạt động đối sánh ngân hàng ở Trung Quốc."
+keywords:
+  - đối sánh ngân hàng
+  - trạng thái
+  - văn bản
+  - Trung Quốc
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

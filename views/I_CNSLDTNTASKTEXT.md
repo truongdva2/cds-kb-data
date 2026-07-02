@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKTEXT
 description: Cnsldtntasktext
+semantic_en: "consolidation task text translations — multilingual task descriptions and labels"
+semantic_vi: "Dịch văn bản công việc consolidation — mô tả công việc và nhãn đa ngôn ngữ"
+keywords:
+  - dịch công việc
+  - mô tả task
+  - quản lý ngôn ngữ
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

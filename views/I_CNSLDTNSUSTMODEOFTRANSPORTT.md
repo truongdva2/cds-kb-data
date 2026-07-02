@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUSTMODEOFTRANSPORTT
 description: Cnsldtnsustmodeoftransportt
+semantic_en: "sustainability transport mode text translations — multilingual transportation method descriptions"
+semantic_vi: "Dịch văn bản phương thức vận chuyển bền vững — mô tả phương pháp vận chuyển đa ngôn ngữ"
+keywords:
+  - dịch vận chuyển
+  - mô tả phương thức
+  - logistics
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

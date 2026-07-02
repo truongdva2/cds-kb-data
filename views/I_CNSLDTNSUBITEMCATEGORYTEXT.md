@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMCATEGORYTEXT
 description: Cnsldtnsubitemcategorytext
+semantic_en: "text translations for consolidation subitem categories — descriptions in multiple languages"
+semantic_vi: "Các bản dịch văn bản cho danh mục mục con consolidation — mô tả theo các ngôn ngữ"
+keywords:
+  - dịch danh mục
+  - văn bản subitem
+  - quản lý đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

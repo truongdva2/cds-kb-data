@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKLOGITEMDATAPROCESS
 description: Cnsldtntsklogitemdataprocess
+semantic_en: "consolidation task log item data process — processing records for journal entry amounts across local, group, and transaction currencies with in-context variants"
+semantic_vi: "dữ liệu xử lý mục nhật ký hợp nhất — hồ sơ xử lý cho các số tiền nhập ký trên tiền tệ địa phương, nhóm và giao dịch với các biến thể trong bối cảnh"
+keywords:
+  - xử lý dữ liệu hợp nhất
+  - nhật ký tài chính
+  - tiền tệ hợp nhất
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

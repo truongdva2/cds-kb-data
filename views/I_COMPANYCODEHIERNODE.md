@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEHIERNODE
 description: Company CodeHIERNODE
+semantic_en: "company code hierarchy node – node definitions in organizational hierarchies with parent relationships and sequencing."
+semantic_vi: "nút cấu trúc phân cấp mã công ty – định nghĩa nút trong tổ chức cấp bậc với mối quan hệ cha-con."
+keywords:
+  - nút phân cấp
+  - mã công ty
+  - tổ chức
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

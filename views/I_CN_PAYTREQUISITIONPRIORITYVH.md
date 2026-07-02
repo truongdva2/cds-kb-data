@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQUISITIONPRIORITYVH
 description: CN Paytrequisitionpriorityvh
+semantic_en: "payment requisition priority description – value help for priority domain codes."
+semantic_vi: "trợ giúp giá trị cho các mã tên miền mức độ ưu tiên yêu cầu thanh toán."
+keywords:
+  - ưu tiên yêu cầu
+  - giá trị tên miền
+  - thanh toán
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

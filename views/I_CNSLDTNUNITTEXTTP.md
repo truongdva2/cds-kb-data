@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTEXTTP
 description: Cnsldtnunittexttp
+semantic_en: "consolidation unit — text TP reference for unit names and descriptions in multiple languages with MDM text variant"
+semantic_vi: "đơn vị hợp nhất — tham chiếu TP văn bản cho tên đơn vị và mô tả theo ngôn ngữ với biến thể văn bản MDM"
+keywords:
+  - mô tả đơn vị
+  - tham chiếu TP
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

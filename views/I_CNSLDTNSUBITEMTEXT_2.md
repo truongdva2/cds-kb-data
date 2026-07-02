@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMTEXT_2
 description: Cnsldtnsubitemtext 2
+semantic_en: "alternate text set for consolidation subitems — secondary description translations"
+semantic_vi: "Bộ văn bản thay thế cho mục con consolidation — dịch mô tả thứ cấp"
+keywords:
+  - dịch thay thế
+  - mô tả mục con
+  - văn bản phụ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

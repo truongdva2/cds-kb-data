@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIVEALLOCATIONTYPE
 description: Collectiveallocationtype
+semantic_en: "collective allocation type – classification of product collective allocation types."
+semantic_vi: "loại phân bổ tập hợp – phân loại loại phân bổ tập hợp sản phẩm."
+keywords:
+  - loại phân bổ
+  - tập hợp
+  - sản phẩm
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

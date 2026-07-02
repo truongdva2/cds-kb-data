@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONGROUP
 description: Collectiongroup
+semantic_en: "collections group – grouping of collections strategies for debt management."
+semantic_vi: "nhóm thu nợ – phân nhóm các chiến lược thu nợ và quản lý nợ phải thu."
+keywords:
+  - nhóm thu nợ
+  - chiến lược
+  - quản lý nợ
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

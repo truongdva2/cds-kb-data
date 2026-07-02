@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMCATEGORY
 description: Cnsldtnsubitemcategory
+semantic_en: "consolidation subitem categories — master list of main subitem classification codes"
+semantic_vi: "Danh mục mục con consolidation — danh sách chính các mã phân loại mục con"
+keywords:
+  - phân loại mục
+  - danh mục subitem
+  - mã phân loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

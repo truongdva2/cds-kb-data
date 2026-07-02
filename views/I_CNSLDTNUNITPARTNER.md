@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPARTNER
 description: Cnsldtnunitpartner
+semantic_en: "consolidation unit partner selection — list of consolidation unit partner categories available for intercompany elimination setup"
+semantic_vi: "lựa chọn đối tác đơn vị hợp nhất — danh sách các danh mục đối tác đơn vị hợp nhất sẵn có để thiết lập loại bỏ liên công ty"
+keywords:
+  - đối tác
+  - loại bỏ liên công ty
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

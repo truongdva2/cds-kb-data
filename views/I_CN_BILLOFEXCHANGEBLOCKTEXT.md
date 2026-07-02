@@ -1,6 +1,13 @@
 ---
 name: I_CN_BILLOFEXCHANGEBLOCKTEXT
 description: CN Billofexchangeblocktext
+semantic_en: "China bill of exchange block indicator text — localized descriptions for bill of exchange blocking status in Chinese finance."
+semantic_vi: "văn bản chỉ báo khối thương phiếu Trung Quốc — mô tả được bản địa hóa cho trạng thái khối thương phiếu trong tài chính Trung Quốc."
+keywords:
+  - thương phiếu
+  - khối
+  - chỉ báo
+  - Trung Quốc
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

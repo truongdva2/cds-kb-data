@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTEXT_3
 description: Cnsldtnunittext 3
+semantic_en: "consolidation unit — text descriptions for consolidation units with dimension and MDM variants in multiple languages"
+semantic_vi: "đơn vị hợp nhất — mô tả văn bản cho các đơn vị hợp nhất với các biến thể chiều và MDM theo ngôn ngữ"
+keywords:
+  - mô tả đơn vị
+  - chiều
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

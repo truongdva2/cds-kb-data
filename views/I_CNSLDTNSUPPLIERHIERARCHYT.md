@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERHIERARCHYT
 description: Cnsldtnsupplierhierarchyt
+semantic_en: "supplier hierarchy text translations — multilingual descriptions for vendor grouping structures"
+semantic_vi: "Dịch văn bản phân cấp nhà cung cấp — mô tả đa ngôn ngữ cho cấu trúc nhóm vendor"
+keywords:
+  - dịch phân cấp supplier
+  - văn bản cấu trúc
+  - mô tả nhóm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

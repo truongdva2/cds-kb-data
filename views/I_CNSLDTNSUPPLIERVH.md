@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERVH
 description: Cnsldtnsuppliervh
+semantic_en: "consolidation supplier value-help — lookup with supplier code and name for selection"
+semantic_vi: "Danh sách giá trị trợ giúp cho nhà cung cấp consolidation — tìm kiếm với mã và tên nhà cung cấp"
+keywords:
+  - tìm kiếm supplier
+  - dropdown vendor
+  - chọn nhà cung cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

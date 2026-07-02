@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLREQUESTFORQUOTATIONTP_2
 description: Cntrlrequestforquotationtp 2
+semantic_en: "central request for quotation header — master data for central RFQ including document type, organization, currency and incoterms configuration."
+semantic_vi: "tiêu đề yêu cầu báo giá tập trung — dữ liệu chính cho RFQ tập trung bao gồm loại tài liệu, tổ chức, tiền tệ và cấu hình incoterms."
+keywords:
+  - yêu cầu báo giá
+  - tiêu đề
+  - tổ chức
+  - incoterms
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

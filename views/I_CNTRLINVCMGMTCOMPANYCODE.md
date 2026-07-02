@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLINVCMGMTCOMPANYCODE
 description: CNTRLINVCMGMTCompany Code
+semantic_en: "company code for import operations — defines company code master data with fiscal period structure, tax configuration, and regional settings."
+semantic_vi: "mã công ty cho hoạt động nhập khẩu — xác định dữ liệu chính mã công ty với cấu trúc kỳ tài chính, cấu hình thuế và cài đặt khu vực."
+keywords:
+  - mã công ty
+  - nhập khẩu
+  - tiền tệ
+  - múi giờ
 app_component: MM-IV-HUB-CIM-2CL
 software_component: SAPSCORE
 release_state: released

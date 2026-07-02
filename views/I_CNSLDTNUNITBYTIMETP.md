@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITBYTIMETP
 description: Cnsldtnunitbytimetp
+semantic_en: "consolidation unit by time — TP reference mapping consolidation unit validity periods, local currency, and company assignments"
+semantic_vi: "đơn vị hợp nhất theo thời gian — ánh xạ tham chiếu TP với thời kỳ hiệu lực đơn vị hợp nhất, tiền tệ địa phương và gán công ty"
+keywords:
+  - đơn vị hợp nhất
+  - thời gian hiệu lực
+  - tiền tệ địa phương
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

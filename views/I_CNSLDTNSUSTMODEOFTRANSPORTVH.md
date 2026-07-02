@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUSTMODEOFTRANSPORTVH
 description: Cnsldtnsustmodeoftransportvh
+semantic_en: "sustainability transport mode value-help — lookup for transportation method selection with descriptions"
+semantic_vi: "Danh sách giá trị trợ giúp cho phương thức vận chuyển bền vững — tìm kiếm phương pháp vận chuyển"
+keywords:
+  - tìm kiếm vận chuyển
+  - dropdown phương thức
+  - chọn logistics
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

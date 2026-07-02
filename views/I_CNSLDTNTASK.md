@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASK
 description: Cnsldtntask
+semantic_en: "consolidation tasks — assignments with category, validation flags, and currency settings"
+semantic_vi: "Công việc consolidation — phân công với danh mục, cờ xác thực, và cài đặt tiền tệ"
+keywords:
+  - công việc consolidation
+  - phân công tác vụ
+  - quản lý task
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

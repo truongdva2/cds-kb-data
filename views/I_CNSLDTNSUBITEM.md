@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEM
 description: Cnsldtnsubitem
+semantic_en: "consolidation sub-items — child line items within broader subitem categories"
+semantic_vi: "Các mục con consolidation — các dòng con trong danh mục mục con rộng hơn"
+keywords:
+  - mục con tổng hợp
+  - subitem chi tiết
+  - phân loại mục
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

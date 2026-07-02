@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQUISITIONPRIORITYT
 description: CN Paytrequisitionpriorityt
+semantic_en: "payment requisition priority – text labels for requisition priority levels in multiple languages."
+semantic_vi: "mức độ ưu tiên yêu cầu thanh toán – bản ghi mô tả và tên gọi theo ngôn ngữ."
+keywords:
+  - ưu tiên yêu cầu
+  - thanh toán
+  - ngôn ngữ
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

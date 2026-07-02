@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONPRIORITYTEXT
 description: Collectionprioritytext
+semantic_en: "collections priority – text labels for priority levels in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ mức độ ưu tiên thu nợ – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - ưu tiên thu nợ
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

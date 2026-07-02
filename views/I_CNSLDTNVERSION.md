@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSION
 description: Cnsldtnversion
+semantic_en: "consolidation version — configuration records for consolidation versions including sub-versions for investments, structure, data entry, and ledger with fiscal year variant and group currency"
+semantic_vi: "phiên bản hợp nhất — hồ sơ cấu hình cho các phiên bản hợp nhất bao gồm các phiên bản phụ cho đầu tư, cấu trúc, nhập dữ liệu và sổ cái có biến thể năm tài chính và tiền tệ nhóm"
+keywords:
+  - phiên bản hợp nhất
+  - cấu hình
+  - tiền tệ nhóm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

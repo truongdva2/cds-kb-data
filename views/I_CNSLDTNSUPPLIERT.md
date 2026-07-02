@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERT
 description: Cnsldtnsuppliert
+semantic_en: "consolidation combined supplier text — multilingual supplier names and additional data attributes"
+semantic_vi: "Văn bản nhà cung cấp hợp nhất consolidation — tên nhà cung cấp và thuộc tính dữ liệu bổ sung"
+keywords:
+  - dịch supplier
+  - tên nhà cung cấp
+  - mô tả bổ sung
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPOSTINGRULE
 description: Cnsldtnunitpostingrule
+semantic_en: "consolidation unit posting rule selection — list of posting rule categories for consolidation journal entry generation"
+semantic_vi: "lựa chọn quy tắc hạch toán đơn vị hợp nhất — danh sách các danh mục quy tắc hạch toán để tạo nhập hợp nhất"
+keywords:
+  - quy tắc hạch toán
+  - danh mục
+  - nhập hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

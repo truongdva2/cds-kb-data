@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITFORELIMINATIONVH
 description: Cnsldtnunitforeliminationvh
+semantic_en: "consolidation unit for management elimination value help — reference values for units designated for management elimination with descriptions"
+semantic_vi: "trợ giúp giá trị đơn vị hợp nhất để loại bỏ quản lý — giá trị tham chiếu cho các đơn vị được chỉ định loại bỏ quản lý có mô tả"
+keywords:
+  - trợ giúp giá trị
+  - loại bỏ
+  - đơn vị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

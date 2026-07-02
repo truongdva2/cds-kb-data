@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITELIMNODE
 description: Cnsldtnunitelimnode
+semantic_en: "consolidation unit management elimination node — consolidation units designated for management elimination processing in hierarchies"
+semantic_vi: "nút loại bỏ quản lý đơn vị hợp nhất — các đơn vị hợp nhất được chỉ định cho xử lý loại bỏ quản lý trong phân cấp"
+keywords:
+  - loại bỏ quản lý
+  - đơn vị hợp nhất
+  - phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

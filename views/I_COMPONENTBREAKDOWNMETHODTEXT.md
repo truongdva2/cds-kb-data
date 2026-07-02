@@ -1,6 +1,12 @@
 ---
 name: I_COMPONENTBREAKDOWNMETHODTEXT
 description: Componentbreakdownmethodtext
+semantic_en: "component breakdown method – text descriptions of breakdown methods in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ phương pháp phân tích thành phần – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - phân tích thành phần
+  - mô tả
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

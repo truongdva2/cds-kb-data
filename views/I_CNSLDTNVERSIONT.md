@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONT
 description: Cnsldtnversiont
+semantic_en: "consolidation version — text descriptions for consolidation versions in multiple languages"
+semantic_vi: "phiên bản hợp nhất — mô tả văn bản cho các phiên bản hợp nhất theo ngôn ngữ"
+keywords:
+  - mô tả phiên bản
+  - ngôn ngữ
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

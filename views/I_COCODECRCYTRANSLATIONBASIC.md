@@ -1,6 +1,12 @@
 ---
 name: I_COCODECRCYTRANSLATIONBASIC
 description: Cocodecrcytranslationbasic
+semantic_en: "currency translation – exchange rate types and translation date types for company code currency conversions."
+semantic_vi: "chuyển đổi tiền tệ – quản lý loại tỷ giá hối đoái và loại ngày chuyển đổi cho công ty."
+keywords:
+  - tỷ giá hối đoái
+  - chuyển đổi tiền tệ
+  - mã công ty
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

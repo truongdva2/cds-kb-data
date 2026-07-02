@@ -1,6 +1,13 @@
 ---
 name: I_CN_BANKRECEIPT
 description: CN Bankreceipt
+semantic_en: "bank receipt information for China — localized bank receipt data capturing receipt numbers, statuses and bank details for Chinese finance operations."
+semantic_vi: "thông tin biên lai ngân hàng cho Trung Quốc — dữ liệu biên lai ngân hàng được bản địa hóa ghi lại số biên lai, trạng thái và chi tiết ngân hàng cho các hoạt động tài chính của Trung Quốc."
+keywords:
+  - biên lai ngân hàng
+  - Trung Quốc
+  - tài chính
+  - ngân hàng
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKLGITMCRCYTRNSLTN
 description: Cnsldtntsklgitmcrcytrnsltn
+semantic_en: "consolidation task log item currency translation — tracking journal amounts across local, group, and transaction currencies"
+semantic_vi: "Dịch tiền tệ mục log công việc consolidation — theo dõi số tiền nhật ký qua tiền tệ địa phương, nhóm, và giao dịch"
+keywords:
+  - dịch tiền tệ
+  - tiền tệ multiple
+  - dữ liệu log
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

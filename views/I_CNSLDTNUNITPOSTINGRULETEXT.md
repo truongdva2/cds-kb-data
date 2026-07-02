@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPOSTINGRULETEXT
 description: Cnsldtnunitpostingruletext
+semantic_en: "consolidation unit posting rule selection — text labels and descriptions for consolidation posting rule categories in multiple languages"
+semantic_vi: "lựa chọn quy tắc hạch toán đơn vị hợp nhất — nhãn văn bản và mô tả cho các danh mục quy tắc hạch toán hợp nhất theo ngôn ngữ"
+keywords:
+  - mô tả quy tắc
+  - danh mục ngôn ngữ
+  - hạch toán
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLINVCMGMTACCTGDOCTYPE
 description: Cntrlinvcmgmtacctgdoctype
+semantic_en: "accounting document type for import processing — describes permissible accounting document types with posting permissions for different account categories."
+semantic_vi: "loại tài liệu kế toán cho nhập khẩu — mô tả các loại tài liệu kế toán được phép cùng với các quyền hạn ghi sổ cho các danh mục tài khoản khác nhau."
+keywords:
+  - loại tài liệu kế toán
+  - nhập khẩu
+  - ghi sổ
+  - quyền hạn đăng ký
 app_component: MM-IV-HUB-CIM-2CL
 software_component: SAPSCORE
 release_state: released

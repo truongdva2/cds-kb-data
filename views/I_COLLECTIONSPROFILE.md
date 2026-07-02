@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONSPROFILE
 description: Collectionsprofile
+semantic_en: "collections profile – profile configurations for collections strategies."
+semantic_vi: "hồ sơ thu nợ – cấu hình hồ sơ cho các chiến lược thu nợ."
+keywords:
+  - hồ sơ thu nợ
+  - cấu hình
+  - chiến lược
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

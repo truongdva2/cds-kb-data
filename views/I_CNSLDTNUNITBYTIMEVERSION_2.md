@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITBYTIMEVERSION_2
 description: Cnsldtnunitbytimeversion 2
+semantic_en: "consolidation unit by time and version — projection of consolidation unit configuration across time periods and versions with currency translation and upload method settings"
+semantic_vi: "đơn vị hợp nhất theo thời gian và phiên bản — phép chiếu cấu hình đơn vị hợp nhất trên các kỳ và phiên bản với cài đặt dịch tiền tệ và phương pháp tải lên"
+keywords:
+  - cấu hình đơn vị hợp nhất
+  - phiên bản
+  - dữ liệu thu thập
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

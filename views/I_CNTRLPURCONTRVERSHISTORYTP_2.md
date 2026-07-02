@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRVERSHISTORYTP_2
 description: Cntrlpurcontrvershistorytp 2
+semantic_en: "central contract version history with transfer pricing — historical versions of central purchase contracts tracking changes in supplier, terms and payment conditions."
+semantic_vi: "lịch sử phiên bản hợp đồng tập trung với định giá chuyển nhượng — các phiên bản lịch sử của các hợp đồng mua tập trung theo dõi thay đổi về nhà cung cấp, điều khoản và điều kiện thanh toán."
+keywords:
+  - hợp đồng tập trung
+  - lịch sử phiên bản
+  - nhà cung cấp
+  - điều kiện
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

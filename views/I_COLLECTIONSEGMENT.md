@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONSEGMENT
 description: Collectionsegment
+semantic_en: "collections segment – classification segments for collections portfolio with release status."
+semantic_vi: "phân khúc thu nợ – phân loại phân khúc để quản lý danh mục thu nợ."
+keywords:
+  - phân khúc thu nợ
+  - danh mục
+  - trạng thái
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

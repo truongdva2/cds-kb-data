@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCHASECONTRACTTP_2
 description: CNTRLPurchase ContractTP 2
+semantic_en: "central purchase contract header with transfer pricing — master data for central purchase contracts including supplier, company, purchasing terms and payment conditions."
+semantic_vi: "tiêu đề hợp đồng mua hàng tập trung với định giá chuyển nhượng — dữ liệu chính cho các hợp đồng mua tập trung bao gồm nhà cung cấp, công ty, điều khoản mua và điều kiện thanh toán."
+keywords:
+  - hợp đồng mua tập trung
+  - nhà cung cấp
+  - điều kiện thanh toán
+  - tiêu đề
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

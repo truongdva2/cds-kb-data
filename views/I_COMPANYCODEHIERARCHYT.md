@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEHIERARCHYT
 description: Company CodeHIERARCHYT
+semantic_en: "company code hierarchy – text labels for hierarchy names in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ cấu trúc phân cấp mã công ty – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - phân cấp
+  - mã công ty
+  - ngôn ngữ
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

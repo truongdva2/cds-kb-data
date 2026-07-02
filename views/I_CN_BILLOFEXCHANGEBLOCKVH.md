@@ -1,6 +1,13 @@
 ---
 name: I_CN_BILLOFEXCHANGEBLOCKVH
 description: CN Billofexchangeblockvh
+semantic_en: "China bill of exchange block indicator value help — enumeration of block status codes for bill of exchange operations in China."
+semantic_vi: "trợ giúp giá trị chỉ báo khối thương phiếu Trung Quốc — danh sách các mã trạng thái khối cho các hoạt động thương phiếu ở Trung Quốc."
+keywords:
+  - thương phiếu
+  - khối
+  - giá trị
+  - Trung Quốc
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKLOGITEMDATAINPUT
 description: Cnsldtntasklogitemdatainput
+semantic_en: "consolidation task log item data input — base log entries capturing journal amounts and quantities for consolidation"
+semantic_vi: "Mục nhập dữ liệu log công việc consolidation — mục nhập log cơ sở ghi lại số tiền nhật ký và số lượng"
+keywords:
+  - nhập log
+  - bảng ghi nhật ký
+  - dữ liệu consolidation
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

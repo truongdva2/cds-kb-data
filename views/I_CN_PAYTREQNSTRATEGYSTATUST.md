@@ -1,6 +1,13 @@
 ---
 name: I_CN_PAYTREQNSTRATEGYSTATUST
 description: CN Paytreqnstrategystatust
+semantic_en: "China payment requisition strategy status text — localized status descriptions for payment requisition strategy execution in Chinese finance."
+semantic_vi: "văn bản trạng thái chiến lược yêu cầu thanh toán Trung Quốc — mô tả trạng thái được bản địa hóa cho thực hiện chiến lược yêu cầu thanh toán trong tài chính Trung Quốc."
+keywords:
+  - yêu cầu thanh toán
+  - chiến lược
+  - trạng thái
+  - Trung Quốc
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

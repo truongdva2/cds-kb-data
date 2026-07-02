@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYMARGINCUBEDST
 description: Companymargincubedst
+semantic_en: "company margin cube – analytical cube for company margin analysis with cost and sales variance metrics."
+semantic_vi: "khối dữ liệu phân tích lợi nhuận công ty – tính toán lợi nhuận và các chỉ số phân tích chi phí."
+keywords:
+  - lợi nhuận
+  - phân tích chi phí
+  - khối dữ liệu
 app_component: CO-FIO-PA-2CL
 software_component: SAPSCORE
 release_state: released

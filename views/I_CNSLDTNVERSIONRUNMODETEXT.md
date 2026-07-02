@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONRUNMODETEXT
 description: Cnsldtnversionrunmodetext
+semantic_en: "consolidation version run mode — text descriptions for run mode values in multiple languages with domain references"
+semantic_vi: "chế độ chạy phiên bản hợp nhất — mô tả văn bản cho các giá trị chế độ chạy theo ngôn ngữ có tham chiếu miền"
+keywords:
+  - mô tả chế độ chạy
+  - ngôn ngữ
+  - miền
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

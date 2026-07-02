@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPOSTINGRULEVH
 description: Cnsldtnunitpostingrulevh
+semantic_en: "consolidation unit posting rule selection value help — reference values for posting rule selection with descriptions for consolidation entries"
+semantic_vi: "trợ giúp giá trị lựa chọn quy tắc hạch toán đơn vị hợp nhất — giá trị tham chiếu cho lựa chọn quy tắc hạch toán có mô tả cho nhập hợp nhất"
+keywords:
+  - trợ giúp giá trị
+  - quy tắc hạch toán
+  - nhập
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

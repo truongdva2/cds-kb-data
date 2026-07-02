@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKLOGITEMDATAENTRY
 description: Cnsldtntasklogitemdataentry
+semantic_en: "consolidation task log item data entry — consolidated journal entries with amounts in multiple currencies and quantities"
+semantic_vi: "Mục nhập dữ liệu log công việc consolidation — các bảng ghi nhật ký hợp nhất với số tiền theo nhiều tiền tệ"
+keywords:
+  - nhập dữ liệu
+  - bảng ghi nhật ký
+  - tiền tệ multiple
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

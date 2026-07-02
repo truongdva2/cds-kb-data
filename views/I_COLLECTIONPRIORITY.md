@@ -1,6 +1,11 @@
 ---
 name: I_COLLECTIONPRIORITY
 description: Collectionpriority
+semantic_en: "collections priority – priority levels for collections with valuation thresholds."
+semantic_vi: "mức độ ưu tiên thu nợ – phân loại ưu tiên kết hợp với ngưỡng định giá."
+keywords:
+  - ưu tiên thu nợ
+  - ngưỡng định giá
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

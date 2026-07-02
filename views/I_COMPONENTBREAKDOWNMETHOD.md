@@ -1,6 +1,12 @@
 ---
 name: I_COMPONENTBREAKDOWNMETHOD
 description: Componentbreakdownmethod
+semantic_en: "component breakdown method – methods for breaking down costs and quantities by component with structure classification."
+semantic_vi: "phương pháp phân tích thành phần – các phương pháp phân tách chi phí và số lượng theo thành phần."
+keywords:
+  - phân tích thành phần
+  - phương pháp
+  - chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

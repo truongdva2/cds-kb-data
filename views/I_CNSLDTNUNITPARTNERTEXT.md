@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPARTNERTEXT
 description: Cnsldtnunitpartnertext
+semantic_en: "consolidation unit partner selection — text labels and descriptions for consolidation unit partner categories in multiple languages"
+semantic_vi: "lựa chọn đối tác đơn vị hợp nhất — nhãn văn bản và mô tả cho các danh mục đối tác đơn vị hợp nhất theo ngôn ngữ"
+keywords:
+  - mô tả đối tác
+  - danh mục ngôn ngữ
+  - loại bỏ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

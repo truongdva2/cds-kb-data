@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITHIERARCHY
 description: Cnsldtnunithierarchy
+semantic_en: "consolidation unit hierarchy — hierarchy structures for organizing consolidation units with validity tracking and change history"
+semantic_vi: "phân cấp đơn vị hợp nhất — cấu trúc phân cấp để tổ chức các đơn vị hợp nhất với theo dõi hiệu lực và lịch sử thay đổi"
+keywords:
+  - phân cấp đơn vị
+  - tổ chức
+  - lịch sử thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

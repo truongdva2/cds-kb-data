@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPLRCONFWRKFLWCARD
 description: Cntrlsuplrconfwrkflwcard
+semantic_en: "central supplier confirmation workflow card — net value summary for central supplier confirmations tracking confirmed pricing and organizational context."
+semantic_vi: "thẻ quy trình công việc xác nhận nhà cung cấp tập trung — tóm tắt giá trị ròng cho các xác nhận nhà cung cấp tập trung theo dõi giá cả xác nhận và bối cảnh tổ chức."
+keywords:
+  - xác nhận nhà cung cấp
+  - giá trị ròng
+  - quy trình công việc
+  - giá tệ
 app_component: MM-PUR-HUB-PO-2CL
 software_component: SAPSCORE
 release_state: released

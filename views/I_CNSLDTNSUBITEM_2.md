@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEM_2
 description: Cnsldtnsubitem 2
+semantic_en: "alternate consolidation subitem reference — second subitem master data variant"
+semantic_vi: "Tham chiếu mục con consolidation thay thế — biến thể dữ liệu chính thứ hai"
+keywords:
+  - mục con thay thế
+  - dữ liệu subitem
+  - biến thể item
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

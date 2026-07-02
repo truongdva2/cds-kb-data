@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMCATEGORYVH_2
 description: Cnsldtnsubitemcategoryvh 2
+semantic_en: "alternate consolidation subitem category value-help — second lookup variant for category selection"
+semantic_vi: "Danh sách giá trị trợ giúp thay thế cho danh mục mục con consolidation — biến thể lookup thứ hai"
+keywords:
+  - lookup danh mục
+  - chọn category
+  - dropdown thay thế
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEVH
 description: Company CodeVH
+semantic_en: "company code – comprehensive value help with address, financial, and organizational attributes."
+semantic_vi: "trợ giúp giá trị mã công ty – danh sách chi tiết bao gồm địa chỉ, thông tin tài chính và tổ chức."
+keywords:
+  - mã công ty
+  - địa chỉ
+  - thông tin tài chính
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

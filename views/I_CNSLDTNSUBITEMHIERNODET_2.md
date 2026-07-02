@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMHIERNODET_2
 description: Cnsldtnsubitemhiernodet 2
+semantic_en: "hierarchy node text translations — descriptions for hierarchy nodes in multiple languages"
+semantic_vi: "Dịch văn bản nút phân cấp — mô tả nút phân cấp theo các ngôn ngữ"
+keywords:
+  - dịch nút
+  - văn bản node
+  - mô tả cấp độ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

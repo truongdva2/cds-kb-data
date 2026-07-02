@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRITEMDISTRTP_2
 description: Cntrlpurcontritemdistrtp 2
+semantic_en: "central contract item distribution with transfer pricing — distribution records at line-item level showing plant, storage location and payment parameters for item deployment."
+semantic_vi: "phân phối mục hợp đồng tập trung với định giá chuyển nhượng — bản ghi phân phối ở cấp độ mục hàng hiển thị nhà máy, kho lưu trữ và tham số thanh toán cho triển khai mục."
+keywords:
+  - hợp đồng tập trung
+  - phân phối mục
+  - nhà máy
+  - kho lưu trữ
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

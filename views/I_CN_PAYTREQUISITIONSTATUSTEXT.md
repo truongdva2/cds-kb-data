@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQUISITIONSTATUSTEXT
 description: CN Paytrequisitionstatustext
+semantic_en: "payment requisition status – text descriptions of requisition status values in multiple languages."
+semantic_vi: "mô tả trạng thái yêu cầu thanh toán – bản ghi đa ngôn ngữ cho các giá trị trạng thái."
+keywords:
+  - trạng thái yêu cầu
+  - thanh toán
+  - đa ngôn ngữ
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

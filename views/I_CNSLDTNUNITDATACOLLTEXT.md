@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITDATACOLLTEXT
 description: Cnsldtnunitdatacolltext
+semantic_en: "consolidation unit data collection selection — text labels and descriptions for consolidation unit data collection categories in multiple languages"
+semantic_vi: "lựa chọn thu thập dữ liệu đơn vị hợp nhất — nhãn văn bản và mô tả cho các danh mục thu thập dữ liệu đơn vị hợp nhất theo các ngôn ngữ"
+keywords:
+  - mô tả dữ liệu
+  - danh mục ngôn ngữ
+  - thu thập dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

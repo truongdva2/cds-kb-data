@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITHIERNODE_3
 description: Cnsldtnunithiernode 3
+semantic_en: "consolidation unit hierarchy node — hierarchy node structure mapping consolidation units to parent nodes with sequence, level, and node type information"
+semantic_vi: "nút phân cấp đơn vị hợp nhất — cấu trúc nút phân cấp ánh xạ đơn vị hợp nhất thành các nút cha có thông tin thứ tự, mức và loại nút"
+keywords:
+  - nút phân cấp
+  - mối quan hệ cha
+  - loại nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIER
 description: Cnsldtnsupplier
+semantic_en: "consolidation combined supplier master data — vendors with additional data source attribution"
+semantic_vi: "Dữ liệu chính nhà cung cấp hợp nhất — nhà cung cấp với ghi chép nguồn dữ liệu bổ sung"
+keywords:
+  - nhà cung cấp consolidation
+  - dữ liệu chính nhà cung cấp
+  - quản lý vendor
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

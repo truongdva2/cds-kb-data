@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPPLIERQUOTATIONITEM
 description: Cntrlsupplierquotationitem
+semantic_en: "central supplier quotation item — supplier-provided quotation details for materials with product type, manufacturer and material group information."
+semantic_vi: "mục báo giá nhà cung cấp tập trung — chi tiết báo giá do nhà cung cấp cung cấp cho vật tư với thông tin loại sản phẩm, nhà sản xuất và nhóm vật tư."
+keywords:
+  - báo giá nhà cung cấp
+  - mục hàng
+  - vật tư
+  - loại sản phẩm
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

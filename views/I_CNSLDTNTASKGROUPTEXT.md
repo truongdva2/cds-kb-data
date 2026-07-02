@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKGROUPTEXT
 description: Cnsldtntaskgrouptext
+semantic_en: "task group text translations — multilingual descriptions for task group names"
+semantic_vi: "Dịch văn bản nhóm công việc — mô tả đa ngôn ngữ cho tên nhóm công việc"
+keywords:
+  - dịch nhóm task
+  - tên nhóm
+  - quản lý ngôn ngữ
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

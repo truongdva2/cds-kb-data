@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADEJOURNALENTRYDOCTYPE
 description: CN CADEJournal EntryDOCTYPE
+semantic_en: "China CADE journal entry document type — allowed journal entry document types for CADE reporting with default and list type indicators."
+semantic_vi: "loại tài liệu bút toán CADE Trung Quốc — loại tài liệu bút toán được phép cho báo cáo CADE với các chỉ báo loại mặc định và danh sách."
+keywords:
+  - CADE
+  - bút toán
+  - loại tài liệu
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

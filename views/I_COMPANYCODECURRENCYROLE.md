@@ -1,6 +1,11 @@
 ---
 name: I_COMPANYCODECURRENCYROLE
 description: Company CodeCURRENCYROLE
+semantic_en: "company code currency role – currency role classifications for company codes."
+semantic_vi: "vai trò tiền tệ mã công ty – phân loại vai trò tiền tệ cho các mã công ty."
+keywords:
+  - vai trò tiền tệ
+  - mã công ty
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

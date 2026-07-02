@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITVALIDATIONVH
 description: Cnsldtnunitvalidationvh
+semantic_en: "consolidation unit validation selection value help — reference values for validation rule selection with descriptions for consolidation units"
+semantic_vi: "trợ giúp giá trị lựa chọn xác nhận đơn vị hợp nhất — giá trị tham chiếu cho lựa chọn quy tắc xác nhận có mô tả cho đơn vị hợp nhất"
+keywords:
+  - trợ giúp giá trị
+  - xác nhận
+  - quy tắc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

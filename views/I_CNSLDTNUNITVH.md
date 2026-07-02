@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITVH
 description: Cnsldtnunitvh
+semantic_en: "consolidation unit value help — reference values for consolidation units with text descriptions for user selection"
+semantic_vi: "trợ giúp giá trị đơn vị hợp nhất — giá trị tham chiếu cho các đơn vị hợp nhất có mô tả văn bản để lựa chọn người dùng"
+keywords:
+  - trợ giúp giá trị
+  - đơn vị hợp nhất
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNTRLPURCONTRCHGREQSTATUS
 description: Cntrlpurcontrchgreqstatus
+semantic_en: "central contract change request status domain — enumeration of valid status values for central purchase contract change requests."
+semantic_vi: "miền trạng thái yêu cầu thay đổi hợp đồng tập trung — danh sách các giá trị trạng thái hợp lệ cho các yêu cầu thay đổi hợp đồng mua tập trung."
+keywords:
+  - yêu cầu thay đổi
+  - hợp đồng tập trung
+  - trạng thái
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRACTITEMBASIC
 description: Cntrlpurcontractitembasic
+semantic_en: "central purchase contract item basic view — simplified contract line item data with material, pricing, quantity and release order information."
+semantic_vi: "chế độ xem cơ bản mục hợp đồng mua tập trung — dữ liệu mục hàng hợp đồng được đơn giản hóa với vật tư, giá cả, số lượng và thông tin đơn hàng phát hành."
+keywords:
+  - hợp đồng mua tập trung
+  - mục hàng cơ bản
+  - giá cả
+  - số lượng
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITDATACOLLVH
 description: Cnsldtnunitdatacollvh
+semantic_en: "consolidation unit data collection selection value help — reference values for data collection selection with text descriptions"
+semantic_vi: "trợ giúp giá trị lựa chọn thu thập dữ liệu đơn vị hợp nhất — giá trị tham chiếu cho lựa chọn thu thập dữ liệu có mô tả văn bản"
+keywords:
+  - trợ giúp giá trị
+  - dữ liệu lựa chọn
+  - danh mục
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

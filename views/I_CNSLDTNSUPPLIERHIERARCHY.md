@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERHIERARCHY
 description: Cnsldtnsupplierhierarchy
+semantic_en: "consolidation supplier hierarchies — organizational structures for grouping vendors with validity dates"
+semantic_vi: "Phân cấp nhà cung cấp consolidation — cấu trúc tổ chức để nhóm nhà cung cấp với ngày hiệu lực"
+keywords:
+  - phân cấp supplier
+  - nhóm vendor
+  - cấu trúc tổ chức
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMVH_2
 description: Cnsldtnsubitemvh 2
+semantic_en: "alternate consolidation subitem value-help — second subitem lookup variant with text"
+semantic_vi: "Danh sách giá trị trợ giúp thay thế cho mục con consolidation — biến thể tìm kiếm thứ hai"
+keywords:
+  - lookup mục con
+  - dropdown thay thế
+  - chọn item
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

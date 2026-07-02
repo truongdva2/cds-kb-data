@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONRUNMODEVH
 description: Cnsldtnversionrunmodevh
+semantic_en: "consolidation version run mode value help — reference values for run mode selection with text descriptions for consolidation version processing"
+semantic_vi: "trợ giúp giá trị chế độ chạy phiên bản hợp nhất — giá trị tham chiếu cho lựa chọn chế độ chạy có mô tả văn bản để xử lý phiên bản hợp nhất"
+keywords:
+  - trợ giúp giá trị
+  - chế độ chạy
+  - phiên bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

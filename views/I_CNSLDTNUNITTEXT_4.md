@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTEXT_4
 description: Cnsldtnunittext 4
+semantic_en: "consolidation unit — text descriptions for consolidation units with MDM variants in multiple languages"
+semantic_vi: "đơn vị hợp nhất — mô tả văn bản cho các đơn vị hợp nhất với các biến thể MDM theo ngôn ngữ"
+keywords:
+  - mô tả đơn vị
+  - MDM
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

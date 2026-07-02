@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCHASECONTRACTITMTP_2
 description: CNTRLPurchase ContractITMTP 2
+semantic_en: "central purchase contract item with transfer pricing — line items in central contracts showing material, pricing and volume parameters for transfer pricing analysis."
+semantic_vi: "mục hợp đồng mua hàng tập trung với định giá chuyển nhượng — các mục hàng trong hợp đồng tập trung hiển thị tham số vật tư, giá cả và khối lượng cho phân tích định giá chuyển nhượng."
+keywords:
+  - hợp đồng mua hàng tập trung
+  - mục hàng
+  - định giá chuyển nhượng
+  - giá mua
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

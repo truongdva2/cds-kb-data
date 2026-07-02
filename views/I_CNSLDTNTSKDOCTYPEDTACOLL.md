@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKDOCTYPEDTACOLL
 description: Cnsldtntskdoctypedtacoll
+semantic_en: "consolidation task document type assignment — mapping tasks to document types with validity periods and sequences"
+semantic_vi: "Phân công loại tài liệu công việc consolidation — ánh xạ công việc thành loại tài liệu với kỳ hiệu lực"
+keywords:
+  - phân công loại tài liệu
+  - document type
+  - kỳ hạn
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

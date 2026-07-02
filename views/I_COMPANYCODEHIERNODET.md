@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEHIERNODET
 description: Company CodeHIERNODET
+semantic_en: "company code hierarchy node – text descriptions of hierarchy nodes in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ nút cấu trúc phân cấp – bao gồm tên gọi nút theo từng ngôn ngữ."
+keywords:
+  - nút phân cấp
+  - mô tả
+  - ngôn ngữ
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

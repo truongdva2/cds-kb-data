@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPLRQTANSCHEDULELINE
 description: CNTRLSUPLRQTANSchedule Line
+semantic_en: "central supplier quotation item schedule line — delivery schedule for supplier quotation items with dates, quantities and awarded quantity tracking."
+semantic_vi: "dòng lịch trình mục báo giá nhà cung cấp tập trung — lịch trình giao hàng cho các mục báo giá nhà cung cấp với ngày tháng, số lượng và theo dõi số lượng được trao."
+keywords:
+  - báo giá nhà cung cấp
+  - lịch trình giao hàng
+  - số lượng
+  - ngày giao
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

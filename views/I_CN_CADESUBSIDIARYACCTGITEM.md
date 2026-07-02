@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADESUBSIDIARYACCTGITEM
 description: CN Cadesubsidiaryacctgitem
+semantic_en: "China CADE subsidiary accounting item — subsidiary account items for CADE linked to general ledger accounts with debit/credit and account type classification."
+semantic_vi: "mục kế toán phụ CADE Trung Quốc — các mục tài khoản phụ cho CADE được liên kết với các tài khoản sổ cái tổng quát với phân loại nợ/có và loại tài khoản."
+keywords:
+  - CADE
+  - mục phụ
+  - sổ cái tổng quát
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

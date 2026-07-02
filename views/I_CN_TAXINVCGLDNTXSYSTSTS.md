@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVCGLDNTXSYSTSTS
 description: CN Taxinvcgldntxsyststs
+semantic_en: "golden tax system status – mapping of tax invoice status to golden tax system status with descriptions."
+semantic_vi: "trạng thái hệ thống Thuế Vàng – ánh xạ trạng thái hóa đơn thuế sang trạng thái hệ thống Thuế Vàng."
+keywords:
+  - hệ thống thuế vàng
+  - trạng thái
+  - hóa đơn
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

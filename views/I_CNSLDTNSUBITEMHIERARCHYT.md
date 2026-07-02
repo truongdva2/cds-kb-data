@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMHIERARCHYT
 description: Cnsldtnsubitemhierarchyt
+semantic_en: "hierarchy text translations for consolidation subitems — multilingual hierarchy descriptions"
+semantic_vi: "Dịch văn bản phân cấp cho mục con consolidation — mô tả phân cấp đa ngôn ngữ"
+keywords:
+  - dịch phân cấp
+  - văn bản hierarchy
+  - mô tả cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

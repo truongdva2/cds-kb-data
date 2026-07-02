@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVOICEHEADER
 description: CN Taxinvoiceheader
+semantic_en: "tax invoice header – master data and amounts for incoming tax invoices including invoice numbers, dates, and parties."
+semantic_vi: "đầu hóa đơn thuế – dữ liệu chính và số tiền cho hóa đơn thuế nhập vào bao gồm số, ngày và bên liên quan."
+keywords:
+  - hóa đơn thuế
+  - đầu hóa đơn
+  - ngôn ngữ kinh tế
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

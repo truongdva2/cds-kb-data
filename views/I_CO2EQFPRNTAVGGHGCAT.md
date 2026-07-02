@@ -1,6 +1,12 @@
 ---
 name: I_CO2EQFPRNTAVGGHGCAT
 description: CO 2EQFPRNTAVGGHGCAT
+semantic_en: "carbon footprint component by ghg category – average relative co2 equivalent footprint broken down by greenhouse gas categories."
+semantic_vi: "thành phần dấu chân carbon theo danh mục khí nhà kính – tính toán lượng khí thải co2 tương đương trung bình."
+keywords:
+  - dấu chân carbon
+  - khí nhà kính
+  - co2
 app_component: SUS-PFM-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITHIERNODETEXT_2
 description: Cnsldtnunithiernodetext 2
+semantic_en: "consolidation unit hierarchy node — text labels for hierarchy nodes with parent relationships and descriptions in multiple languages"
+semantic_vi: "nút phân cấp đơn vị hợp nhất — nhãn văn bản cho các nút phân cấp có mối quan hệ cha và mô tả theo ngôn ngữ"
+keywords:
+  - nút phân cấp
+  - mô tả nút
+  - ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

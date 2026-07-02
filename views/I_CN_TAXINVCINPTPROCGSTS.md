@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVCINPTPROCGSTS
 description: CN Taxinvcinptprocgsts
+semantic_en: "tax invoice incoming processing status – processing statuses for incoming tax invoices with multilingual descriptions."
+semantic_vi: "trạng thái xử lý hóa đơn thuế nhập vào – bao gồm mã trạng thái, mô tả đa ngôn ngữ."
+keywords:
+  - xử lý hóa đơn
+  - nhập vào
+  - trạng thái
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

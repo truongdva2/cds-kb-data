@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKGROUPASSIGNMENT
 description: Cnsldtntaskgroupassignment
+semantic_en: "consolidation task group assignments — linking task groups to periods and versions with monitoring flags"
+semantic_vi: "Phân công nhóm công việc consolidation — liên kết nhóm công việc với kỳ và phiên bản"
+keywords:
+  - phân công nhóm
+  - kỳ tài chính
+  - phiên bản consolidation
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

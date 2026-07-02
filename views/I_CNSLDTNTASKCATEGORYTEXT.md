@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKCATEGORYTEXT
 description: Cnsldtntaskcategorytext
+semantic_en: "task category text translations — multilingual descriptions for task type classifications"
+semantic_vi: "Dịch văn bản danh mục công việc — mô tả đa ngôn ngữ cho các phân loại loại công việc"
+keywords:
+  - dịch danh mục
+  - mô tả task
+  - quản lý ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

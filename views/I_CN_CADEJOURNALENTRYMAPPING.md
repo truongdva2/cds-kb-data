@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADEJOURNALENTRYMAPPING
 description: CN CADEJournal EntryMAPPING
+semantic_en: "China CADE journal entry mapping — transaction type mapping for CADE journal entries linking accounting document types to Chinese statutory categories (GB/T)."
+semantic_vi: "ánh xạ bút toán CADE Trung Quốc — ánh xạ loại giao dịch cho các bút toán CADE liên kết các loại tài liệu kế toán với các danh mục pháp định Trung Quốc (GB/T)."
+keywords:
+  - CADE
+  - bút toán
+  - ánh xạ
+  - GB/T
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

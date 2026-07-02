@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKLOGITEMTYPET
 description: Cnsldtntasklogitemtypet
+semantic_en: "task log item type text translations — descriptions for log entry types across languages"
+semantic_vi: "Dịch văn bản loại mục log công việc — mô tả loại mục nhập log theo các ngôn ngữ"
+keywords:
+  - dịch loại log
+  - mô tả item
+  - quản lý ngôn ngữ
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

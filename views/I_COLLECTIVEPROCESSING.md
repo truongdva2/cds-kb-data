@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIVEPROCESSING
 description: Collectiveprocessing
+semantic_en: "collective processing for sales orders – batch processing of sales orders with weights, volumes, and capacity metrics."
+semantic_vi: "xử lý tập hợp đơn bán hàng – quy tính đơn hàng theo lô bao gồm cân nặng, khối lượng và công suất."
+keywords:
+  - xử lý tập hợp
+  - đơn bán hàng
+  - công suất
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

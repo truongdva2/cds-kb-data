@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNIT_4
 description: Cnsldtnunit 4
+semantic_en: "consolidation unit — master data for consolidation units with country, company, and navigation links including creation date"
+semantic_vi: "đơn vị hợp nhất — dữ liệu chính cho các đơn vị hợp nhất với quốc gia, công ty và liên kết điều hướng bao gồm ngày tạo"
+keywords:
+  - đơn vị hợp nhất
+  - quốc gia
+  - công ty
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

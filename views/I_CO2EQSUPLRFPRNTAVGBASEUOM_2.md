@@ -1,6 +1,12 @@
 ---
 name: I_CO2EQSUPLRFPRNTAVGBASEUOM_2
 description: CO 2EQSUPLRFPRNTAVGBASEUOM 2
+semantic_en: "supplier carbon footprint – average relative co2 equivalent footprint from suppliers by product and plant."
+semantic_vi: "dấu chân carbon nhà cung cấp – tính toán lượng khí thải co2 tương đương từ nhà cung cấp theo sản phẩm và nhà máy."
+keywords:
+  - dấu chân carbon
+  - nhà cung cấp
+  - co2
 app_component: SUS-PFM-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSYSTEMMESSAGETYPE
 description: Cnsldtnsystemmessagetype
+semantic_en: "consolidation system message type codes — domain values for categorizing system messages"
+semantic_vi: "Mã loại tin nhắn hệ thống consolidation — giá trị miền để phân loại tin nhắn hệ thống"
+keywords:
+  - loại thông báo
+  - mã hệ thống
+  - phân loại message
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

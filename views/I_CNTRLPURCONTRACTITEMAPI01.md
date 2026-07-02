@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRACTITEMAPI01
 description: Cntrlpurcontractitemapi 01
+semantic_en: "central purchase contract item API view — line-level contract items with material grouping, quantity targets and net pricing details via API interface."
+semantic_vi: "chế độ xem API mục hợp đồng mua hàng tập trung — các mục hợp đồng cấp độ dòng với nhóm vật tư, mục tiêu số lượng và chi tiết giá ròng thông qua giao diện API."
+keywords:
+  - hợp đồng mua tập trung
+  - mục hàng
+  - API
+  - định giá ròng
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

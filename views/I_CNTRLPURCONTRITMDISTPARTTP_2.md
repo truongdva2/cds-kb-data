@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRITMDISTPARTTP_2
 description: Cntrlpurcontritmdistparttp 2
+semantic_en: "central contract item distribution partner with transfer pricing — partner assignments at item distribution level for specific plant and supplier allocation."
+semantic_vi: "đối tác phân phối mục hợp đồng tập trung với định giá chuyển nhượng — gán đối tác ở cấp độ phân phối mục cho phân bổ nhà máy và nhà cung cấp cụ thể."
+keywords:
+  - hợp đồng tập trung
+  - đối tác
+  - phân phối mục
+  - nhà cung cấp
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

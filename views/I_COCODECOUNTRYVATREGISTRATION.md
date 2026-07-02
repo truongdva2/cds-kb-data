@@ -1,6 +1,12 @@
 ---
 name: I_COCODECOUNTRYVATREGISTRATION
 description: Cocodecountryvatregistration
+semantic_en: "company code vat registration – vat registration numbers by country for company codes."
+semantic_vi: "đăng ký thuế vat theo quốc gia – quản lý số đăng ký thuế giá trị gia tăng cho mã công ty."
+keywords:
+  - đăng ký thuế vat
+  - quốc gia
+  - mã công ty
 app_component: FI-GL-GL-F-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRITEMNOTESTP_2
 description: Cntrlpurcontritemnotestp 2
+semantic_en: "central contract item notes with transfer pricing — document notes and attachments at line-item level for central purchase contracts with content and audit metadata."
+semantic_vi: "ghi chú mục hợp đồng tập trung với định giá chuyển nhượng — ghi chú tài liệu và tệp đính kèm ở cấp độ mục hàng cho các hợp đồng mua tập trung với siêu dữ liệu nội dung và kiểm toán."
+keywords:
+  - hợp đồng tập trung
+  - ghi chú mục
+  - tài liệu
+  - tệp đính kèm
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CN_RECONCILIATIONLEDGER
 description: CN Reconciliationledger
+semantic_en: "bank reconciliation ledger – company code and ledger assignments for bank reconciliation in china region."
+semantic_vi: "sổ cái ngân hàng cho đối soát – quản lý công ty và sổ cái liên quan đến đối soát ngân hàng."
+keywords:
+  - đối soát ngân hàng
+  - sổ cái
+  - mã công ty
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

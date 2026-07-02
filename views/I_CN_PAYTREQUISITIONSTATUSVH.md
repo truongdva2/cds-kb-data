@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYTREQUISITIONSTATUSVH
 description: CN Paytrequisitionstatusvh
+semantic_en: "payment requisition status description – value help for requisition status domain values."
+semantic_vi: "trợ giúp giá trị cho trạng thái yêu cầu thanh toán – danh sách mã tên miền và mô tả."
+keywords:
+  - trạng thái yêu cầu
+  - thanh toán
+  - giá trị
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

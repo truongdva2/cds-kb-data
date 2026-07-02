@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMHIERNODE_2
 description: Cnsldtnsubitemhiernode 2
+semantic_en: "consolidation subitem hierarchy nodes — individual elements in hierarchy structure with level and sequence"
+semantic_vi: "Nút phân cấp mục con consolidation — các phần tử riêng trong cấu trúc phân cấp với cấp độ và thứ tự"
+keywords:
+  - nút phân cấp
+  - vị trí cấp độ
+  - thứ tự nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

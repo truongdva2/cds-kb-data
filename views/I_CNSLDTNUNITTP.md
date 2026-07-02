@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTP
 description: Cnsldtnunittp
+semantic_en: "consolidation unit — TP reference mapping consolidation units to countries with links and navigation labels"
+semantic_vi: "đơn vị hợp nhất — tham chiếu TP ánh xạ đơn vị hợp nhất thành các quốc gia có liên kết và nhãn điều hướng"
+keywords:
+  - đơn vị hợp nhất
+  - quốc gia
+  - liên kết
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

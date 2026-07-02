@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITDATACOLL
 description: Cnsldtnunitdatacoll
+semantic_en: "consolidation unit data collection selection — list of consolidation unit data collection categories available for selection"
+semantic_vi: "lựa chọn thu thập dữ liệu đơn vị hợp nhất — danh sách các danh mục thu thập dữ liệu đơn vị hợp nhất sẵn có để lựa chọn"
+keywords:
+  - thu thập dữ liệu
+  - danh mục đơn vị
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONACCTPRTNINVCGCHRGDSCTP
 description: Conacctprtninvcgchrgdsctp
+semantic_en: "contract account partner invoicing charges and discounts – projected charges and discounts with future effective dates."
+semantic_vi: "phí lập hóa đơn và chiết khấu với ngày hiệu lực tương lai – dự báo phí và chiết khấu sắp tới."
+keywords:
+  - phí lập hóa đơn
+  - chiết khấu
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

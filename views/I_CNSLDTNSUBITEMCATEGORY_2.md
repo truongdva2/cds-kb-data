@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBITEMCATEGORY_2
 description: Cnsldtnsubitemcategory 2
+semantic_en: "alternate consolidation subitem category reference — second category master list variant"
+semantic_vi: "Tham chiếu danh mục mục con consolidation thay thế — biến thể danh sách chính thứ hai"
+keywords:
+  - danh mục mục con
+  - phân loại thay thế
+  - mã category
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

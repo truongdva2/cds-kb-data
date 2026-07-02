@@ -1,6 +1,12 @@
 ---
 name: I_CN_TAXINVOICEBINDING
 description: CN Taxinvoicebinding
+semantic_en: "tax invoice binding – relationships between tax invoices and source business documents."
+semantic_vi: "liên kết hóa đơn thuế – quản lý mối quan hệ giữa hóa đơn thuế và tài liệu kinh doanh nguồn."
+keywords:
+  - liên kết hóa đơn
+  - thuế
+  - tài liệu
 app_component: FI-LOC-TIM-CN
 software_component: SAPSCORE
 release_state: released

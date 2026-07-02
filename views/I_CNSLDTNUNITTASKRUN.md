@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTASKRUN
 description: Cnsldtnunittaskrun
+semantic_en: "consolidation unit task run — execution records for consolidation tasks including status, error counts, and change tracking"
+semantic_vi: "chạy tác vụ đơn vị hợp nhất — hồ sơ thực hiện cho các tác vụ hợp nhất bao gồm trạng thái, số lượng lỗi và theo dõi thay đổi"
+keywords:
+  - chạy tác vụ
+  - hợp nhất
+  - trạng thái
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

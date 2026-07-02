@@ -1,6 +1,13 @@
 ---
 name: I_CN_BANKRECNCLNMATCHTYPETEXT
 description: CN Bankrecnclnmatchtypetext
+semantic_en: "China bank reconciliation match type text — localized descriptions of bank reconciliation match type codes for Trung Quốc operations."
+semantic_vi: "văn bản loại khớp đối sánh ngân hàng Trung Quốc — mô tả được bản địa hóa của các mã loại khớp đối sánh ngân hàng cho các hoạt động Trung Quốc."
+keywords:
+  - đối sánh ngân hàng
+  - loại khớp
+  - văn bản
+  - Trung Quốc
 app_component: FI-LOC-EPI-CN
 software_component: SAPSCORE
 release_state: released

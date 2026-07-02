@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITBYTIMEVERSIONTP
 description: Cnsldtnunitbytimeversiontp
+semantic_en: "consolidation unit by time and version — TP reference for consolidation unit settings across time periods and versions including currency translation method and tax rate"
+semantic_vi: "đơn vị hợp nhất theo thời gian và phiên bản — tham chiếu TP cho cài đặt đơn vị hợp nhất trên các kỳ và phiên bản bao gồm phương pháp dịch tiền tệ và thuế suất"
+keywords:
+  - phiên bản hợp nhất
+  - dịch tiền tệ
+  - cấu hình đơn vị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

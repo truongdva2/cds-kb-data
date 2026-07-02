@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPAIRELIMASSGMT
 description: Cnsldtnunitpairelimassgmt
+semantic_en: "consolidation unit pair elimination assignment — pairings of consolidation units for elimination processing with validity periods and elimination unit assignment"
+semantic_vi: "gán loại bỏ cặp đơn vị hợp nhất — ghép cặp các đơn vị hợp nhất cho xử lý loại bỏ có thời kỳ hiệu lực và gán đơn vị loại bỏ"
+keywords:
+  - loại bỏ cặp
+  - gán đơn vị
+  - hiệu lực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

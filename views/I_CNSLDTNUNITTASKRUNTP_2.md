@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITTASKRUNTP_2
 description: Cnsldtnunittaskruntp 2
+semantic_en: "consolidation unit task run — TP reference for task execution records with status, error counts, and change tracking for consolidation processes"
+semantic_vi: "chạy tác vụ đơn vị hợp nhất — tham chiếu TP cho hồ sơ thực hiện tác vụ có trạng thái, số lượng lỗi và theo dõi thay đổi cho quy trình hợp nhất"
+keywords:
+  - chạy tác vụ
+  - tham chiếu TP
+  - trạng thái
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADESTATUTORYREPORTTYPE
 description: CN Cadestatutoryreporttype
+semantic_en: "China CADE statutory report type — statutory report types for CADE including financial statement variants and hierarchical naming structures."
+semantic_vi: "loại báo cáo pháp định CADE Trung Quốc — loại báo cáo pháp định cho CADE bao gồm các biến thể báo cáo tài chính và cấu trúc đặt tên phân cấp."
+keywords:
+  - CADE
+  - báo cáo pháp định
+  - loại báo cáo
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

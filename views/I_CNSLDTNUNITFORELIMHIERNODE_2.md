@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITFORELIMHIERNODE_2
 description: Cnsldtnunitforelimhiernode 2
+semantic_en: "consolidation unit for elimination — hierarchy node structure with parent relationships, validity dates, and version information for elimination units"
+semantic_vi: "đơn vị hợp nhất để loại bỏ — cấu trúc nút phân cấp có mối quan hệ cha, ngày hiệu lực và thông tin phiên bản cho các đơn vị loại bỏ"
+keywords:
+  - loại bỏ
+  - phân cấp nút
+  - ngày hiệu lực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

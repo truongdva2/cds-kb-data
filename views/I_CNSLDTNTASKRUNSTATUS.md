@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKRUNSTATUS
 description: Cnsldtntaskrunstatus
+semantic_en: "consolidation task run status codes — domain values for task execution state tracking"
+semantic_vi: "Mã trạng thái chạy công việc consolidation — giá trị miền để theo dõi trạng thái thực thi công việc"
+keywords:
+  - trạng thái task
+  - trạng thái chạy
+  - mã thực thi
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKLGITMMANUALPOSTING
 description: Cnsldtntsklgitmmanualposting
+semantic_en: "consolidation task log item manual posting — manual journal entry records including posting amounts in local, group, and transaction currencies with period and version tracking"
+semantic_vi: "mục nhập ký thủ công hợp nhất — hồ sơ bút toán ký thủ công bao gồm các số tiền hạch toán theo tiền tệ địa phương, nhóm và giao dịch với theo dõi kỳ và phiên bản"
+keywords:
+  - hạch toán ký thủ công
+  - nhập hợp nhất
+  - bút toán tài chính
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

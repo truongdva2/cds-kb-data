@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKCATEGORY
 description: Cnsldtntaskcategory
+semantic_en: "consolidation task categories — domain classification codes for task types"
+semantic_vi: "Danh mục công việc consolidation — mã phân loại miền cho các loại công việc"
+keywords:
+  - danh mục task
+  - phân loại công việc
+  - mã category
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

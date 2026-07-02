@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRHDRCNDNAMTTP_2
 description: Cntrlpurcontrhdrcndnamttp 2
+semantic_en: "central contract header condition amount with transfer pricing — pricing condition records at header level showing rates, quantities and conversion factors."
+semantic_vi: "số tiền điều kiện tiêu đề hợp đồng tập trung với định giá chuyển nhượng — bản ghi điều kiện giá tại cấp tiêu đề hiển thị tỷ lệ, số lượng và hệ số chuyển đổi."
+keywords:
+  - hợp đồng tập trung
+  - điều kiện giá
+  - tiêu đề
+  - tỷ lệ
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

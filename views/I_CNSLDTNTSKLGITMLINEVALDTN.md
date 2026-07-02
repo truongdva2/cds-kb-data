@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTSKLGITMLINEVALDTN
 description: Cnsldtntsklgitmlinevaldtn
+semantic_en: "consolidation task log item line validation — line-level validation data for journal entries with assignment reference, chart of accounts, and financial statement item mapping"
+semantic_vi: "dữ liệu xác nhận dòng mục nhật ký hợp nhất — thông tin xác thực từng dòng cho các bút toán với tham chiếu gán, biểu đồ tài khoản và ánh xạ mục báo cáo tài chính"
+keywords:
+  - xác nhận dòng hợp nhất
+  - nhật ký hợp nhất
+  - mục từng dòng
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

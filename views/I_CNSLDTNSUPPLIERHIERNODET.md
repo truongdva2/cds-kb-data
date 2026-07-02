@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERHIERNODET
 description: Cnsldtnsupplierhiernodet
+semantic_en: "supplier hierarchy node text translations — descriptions for supplier hierarchy positions in multiple languages"
+semantic_vi: "Dịch văn bản nút phân cấp nhà cung cấp — mô tả vị trí phân cấp supplier theo các ngôn ngữ"
+keywords:
+  - dịch nút supplier
+  - văn bản vị trí
+  - mô tả phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

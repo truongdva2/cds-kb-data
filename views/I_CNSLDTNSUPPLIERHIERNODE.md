@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUPPLIERHIERNODE
 description: Cnsldtnsupplierhiernode
+semantic_en: "consolidation supplier hierarchy nodes — individual suppliers positioned in organizational hierarchy"
+semantic_vi: "Nút phân cấp nhà cung cấp consolidation — các nhà cung cấp riêng lẻ được định vị trong phân cấp tổ chức"
+keywords:
+  - nút supplier
+  - vị trí vendor
+  - phân cấp tổ chức
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

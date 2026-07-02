@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADEDEPRECIATIONKEYINFO
 description: CN Cadedepreciationkeyinfo
+semantic_en: "China CADE depreciation key information — depreciation methods and formulas for fixed assets in Chinese accounting standards (CADE)."
+semantic_vi: "thông tin khóa khấu hao CADE Trung Quốc — phương pháp khấu hao và công thức cho tài sản cố định theo tiêu chuẩn kế toán Trung Quốc (CADE)."
+keywords:
+  - CADE
+  - khấu hao
+  - tài sản cố định
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released

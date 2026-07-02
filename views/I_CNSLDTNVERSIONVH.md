@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONVH
 description: Cnsldtnversionvh
+semantic_en: "consolidation version value help — reference values for consolidation versions with text descriptions for user selection"
+semantic_vi: "trợ giúp giá trị phiên bản hợp nhất — giá trị tham chiếu cho các phiên bản hợp nhất có mô tả văn bản để lựa chọn người dùng"
+keywords:
+  - trợ giúp giá trị
+  - phiên bản hợp nhất
+  - lựa chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

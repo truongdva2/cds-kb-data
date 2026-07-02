@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLREQUESTFORQTNBIDDERTP_2
 description: Cntrlrequestforqtnbiddertp 2
+semantic_en: "central request for quotation bidder view — suppliers invited to bid on central RFQ with last modification tracking for bidder roster management."
+semantic_vi: "chế độ xem nhà thầu yêu cầu báo giá tập trung — các nhà cung cấp được mời để thầu trên RFQ tập trung với theo dõi sửa đổi cuối cùng để quản lý danh sách nhà thầu."
+keywords:
+  - yêu cầu báo giá
+  - nhà thầu
+  - nhà cung cấp
+  - sửa đổi
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

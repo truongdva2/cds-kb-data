@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONGROUPTEXT
 description: Collectiongrouptext
+semantic_en: "collections group – text descriptions of collection groups in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ nhóm thu nợ – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - nhóm thu nợ
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

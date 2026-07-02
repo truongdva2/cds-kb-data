@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKCATEGORYVH
 description: Cnsldtntaskcategoryvh
+semantic_en: "task category value-help — lookup with category codes and descriptions for task assignment"
+semantic_vi: "Danh sách giá trị trợ giúp cho danh mục công việc — tìm kiếm mã danh mục và mô tả"
+keywords:
+  - tìm kiếm danh mục task
+  - dropdown category
+  - chọn loại công việc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

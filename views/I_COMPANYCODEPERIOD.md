@@ -1,6 +1,12 @@
 ---
 name: I_COMPANYCODEPERIOD
 description: Company CodePERIOD
+semantic_en: "company code period – current and previous fiscal periods and years for company codes."
+semantic_vi: "kỳ tính toán mã công ty – ghi lại kỳ tài chính hiện tại và trước đó cho công ty."
+keywords:
+  - kỳ tài chính
+  - mã công ty
+  - năm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

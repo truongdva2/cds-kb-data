@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITPARTNERVH
 description: Cnsldtnunitpartnervh
+semantic_en: "consolidation unit partner selection value help — reference values for partner unit selection with descriptions for intercompany elimination"
+semantic_vi: "trợ giúp giá trị lựa chọn đối tác đơn vị hợp nhất — giá trị tham chiếu cho lựa chọn đơn vị đối tác có mô tả loại bỏ liên công ty"
+keywords:
+  - trợ giúp giá trị
+  - đối tác
+  - loại bỏ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

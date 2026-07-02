@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKRUNSTATUSTEXT
 description: Cnsldtntaskrunstatustext
+semantic_en: "task run status text translations — multilingual descriptions for task execution states"
+semantic_vi: "Dịch văn bản trạng thái chạy công việc — mô tả đa ngôn ngữ cho các trạng thái thực thi công việc"
+keywords:
+  - dịch trạng thái
+  - mô tả task
+  - quản lý ngôn ngữ
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

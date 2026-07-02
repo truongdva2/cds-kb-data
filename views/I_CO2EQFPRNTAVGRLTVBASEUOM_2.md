@@ -1,6 +1,12 @@
 ---
 name: I_CO2EQFPRNTAVGRLTVBASEUOM_2
 description: CO 2EQFPRNTAVGRLTVBASEUOM 2
+semantic_en: "product and plant carbon footprint – average relative co2 equivalent footprint for products at specific plants."
+semantic_vi: "dấu chân carbon sản phẩm tại nhà máy – tính toán lượng khí thải co2 tương đương trung bình cho sản phẩm."
+keywords:
+  - dấu chân carbon
+  - sản phẩm
+  - nhà máy
 app_component: SUS-PFM-INT
 software_component: SAPSCORE
 release_state: released

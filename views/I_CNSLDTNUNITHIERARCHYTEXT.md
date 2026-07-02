@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITHIERARCHYTEXT
 description: Cnsldtnunithierarchytext
+semantic_en: "consolidation unit hierarchy — text labels for consolidation unit hierarchies with descriptions in multiple languages"
+semantic_vi: "phân cấp đơn vị hợp nhất — nhãn văn bản cho phân cấp đơn vị hợp nhất có mô tả theo ngôn ngữ"
+keywords:
+  - mô tả phân cấp
+  - ngôn ngữ
+  - đơn vị hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

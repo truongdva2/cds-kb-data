@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRHDRNOTESTP_2
 description: Cntrlpurcontrhdrnotestp 2
+semantic_en: "central contract header notes with transfer pricing — document notes and annotations at header level for central purchase contracts including creation/modification metadata."
+semantic_vi: "ghi chú tiêu đề hợp đồng tập trung với định giá chuyển nhượng — ghi chú tài liệu và chú thích ở cấp tiêu đề cho các hợp đồng mua tập trung bao gồm siêu dữ liệu tạo/sửa đổi."
+keywords:
+  - hợp đồng tập trung
+  - ghi chú
+  - tiêu đề
+  - tài liệu
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

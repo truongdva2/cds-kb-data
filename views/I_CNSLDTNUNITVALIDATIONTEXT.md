@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITVALIDATIONTEXT
 description: Cnsldtnunitvalidationtext
+semantic_en: "consolidation unit validation selection — text labels and descriptions for consolidation unit validation rule categories in multiple languages"
+semantic_vi: "lựa chọn xác nhận đơn vị hợp nhất — nhãn văn bản và mô tả cho các danh mục quy tắc xác nhận đơn vị hợp nhất theo ngôn ngữ"
+keywords:
+  - mô tả xác nhận
+  - danh mục ngôn ngữ
+  - quy tắc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

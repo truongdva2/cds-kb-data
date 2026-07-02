@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNVERSIONTYPE
 description: Cnsldtnversiontype
+semantic_en: "consolidation version type — domain values categorizing consolidation versions by type (such as standard or special)"
+semantic_vi: "loại phiên bản hợp nhất — giá trị miền phân loại các phiên bản hợp nhất theo loại (chẳng hạn như tiêu chuẩn hoặc đặc biệt)"
+keywords:
+  - loại phiên bản
+  - danh mục
+  - miền
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

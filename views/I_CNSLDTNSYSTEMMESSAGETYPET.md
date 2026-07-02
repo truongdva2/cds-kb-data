@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSYSTEMMESSAGETYPET
 description: Cnsldtnsystemmessagetypet
+semantic_en: "system message type text translations — descriptions for message types across languages"
+semantic_vi: "Dịch văn bản loại tin nhắn hệ thống — mô tả loại thông báo theo các ngôn ngữ"
+keywords:
+  - dịch thông báo
+  - mô tả message
+  - quản lý system
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNTASKGROUPTP
 description: Cnsldtntaskgrouptp
+semantic_en: "consolidation task group TP projection — task group reference for third-party processing"
+semantic_vi: "Phép chiếu TP nhóm công việc consolidation — tham chiếu nhóm công việc để xử lý bên thứ ba"
+keywords:
+  - task group TP
+  - dữ liệu bên thứ ba
+  - projection
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

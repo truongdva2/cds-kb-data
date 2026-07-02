@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLSUPLRQUOTATIONITEMDISTR
 description: Cntrlsuplrquotationitemdistr
+semantic_en: "central supplier quotation item distribution — allocation of quotation line items to plants and storage locations with percentage-based distribution."
+semantic_vi: "phân phối mục báo giá nhà cung cấp tập trung — phân bổ các mục hàng báo giá cho nhà máy và kho lưu trữ với phân phối dựa trên phần trăm."
+keywords:
+  - báo giá nhà cung cấp
+  - phân phối mục
+  - nhà máy
+  - kho lưu trữ
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

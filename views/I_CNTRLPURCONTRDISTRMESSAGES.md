@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLPURCONTRDISTRMESSAGES
 description: Cntrlpurcontrdistrmessages
+semantic_en: "central contract distribution messages — system integration messages sent during header distribution of central purchase contracts across systems."
+semantic_vi: "tin nhắn phân phối hợp đồng tập trung — tin nhắn tích hợp hệ thống được gửi trong quá trình phân phối tiêu đề của các hợp đồng mua tập trung trên các hệ thống."
+keywords:
+  - hợp đồng tập trung
+  - phân phối
+  - tin nhắn
+  - tích hợp
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

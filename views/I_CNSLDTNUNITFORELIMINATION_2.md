@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNUNITFORELIMINATION_2
 description: Cnsldtnunitforelimination 2
+semantic_en: "consolidation unit for elimination — projection of consolidation units designated for elimination processing"
+semantic_vi: "đơn vị hợp nhất để loại bỏ — phép chiếu của các đơn vị hợp nhất được chỉ định cho xử lý loại bỏ"
+keywords:
+  - loại bỏ
+  - đơn vị
+  - xử lý
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

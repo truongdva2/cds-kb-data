@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONACCTASSGMTRELEVTEXT
 description: Conditionacctassgmtrelevtext
+semantic_en: "condition account assignment relevance – text descriptions of relevance classifications in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ mức độ liên quan phân bổ tài khoản – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - phân bổ tài khoản
+  - mô tả
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

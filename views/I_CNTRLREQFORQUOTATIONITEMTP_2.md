@@ -1,6 +1,13 @@
 ---
 name: I_CNTRLREQFORQUOTATIONITEMTP_2
 description: Cntrlreqforquotationitemtp 2
+semantic_en: "central request for quotation item — line items in central RFQ with material, manufacturer, product type and delivery address specifications."
+semantic_vi: "mục yêu cầu báo giá tập trung — các mục hàng trong RFQ tập trung với vật tư, nhà sản xuất, loại sản phẩm và các thông số kỹ thuật địa chỉ giao hàng."
+keywords:
+  - yêu cầu báo giá
+  - mục hàng
+  - vật tư
+  - địa chỉ giao hàng
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

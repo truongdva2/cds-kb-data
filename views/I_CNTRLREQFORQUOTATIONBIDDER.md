@@ -1,6 +1,12 @@
 ---
 name: I_CNTRLREQFORQUOTATIONBIDDER
 description: Cntrlreqforquotationbidder
+semantic_en: "central request for quotation bidder — supplier roster for central RFQ indicating bidders and their partner functions in the quotation process."
+semantic_vi: "nhà thầu yêu cầu báo giá tập trung — danh sách nhà cung cấp cho RFQ tập trung chỉ ra những người tham gia thầu và chức năng đối tác của họ trong quá trình báo giá."
+keywords:
+  - yêu cầu báo giá
+  - nhà thầu
+  - nhà cung cấp
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

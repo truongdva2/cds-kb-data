@@ -1,6 +1,12 @@
 ---
 name: I_CN_PAYMENTREQUISITIONTYPEVH
 description: CN Payment RequestUISITIONTYPEVH
+semantic_en: "China payment requisition type value help — enumeration of payment requisition type codes for payment processing in Chinese operations."
+semantic_vi: "trợ giúp giá trị loại yêu cầu thanh toán Trung Quốc — danh sách các mã loại yêu cầu thanh toán cho xử lý thanh toán trong hoạt động Trung Quốc."
+keywords:
+  - yêu cầu thanh toán
+  - loại
+  - Trung Quốc
 app_component: FI-LOC-CM-CN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COMMITMENTITEMSHORTID
 description: Commitmentitemshortid
+semantic_en: "commitment item short id – mapping of short identifiers to full commitment item references."
+semantic_vi: "mã ngắn của mục cam kết – ánh xạ mã tạm thời sang mã tham chiếu mục cam kết đầy đủ."
+keywords:
+  - mã ngắn
+  - cam kết
+  - mục
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

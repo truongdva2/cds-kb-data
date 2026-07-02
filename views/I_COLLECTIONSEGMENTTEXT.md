@@ -1,6 +1,12 @@
 ---
 name: I_COLLECTIONSEGMENTTEXT
 description: Collectionsegmenttext
+semantic_en: "collections segment – text descriptions of collection segments in multiple languages."
+semantic_vi: "mô tả đa ngôn ngữ phân khúc thu nợ – bao gồm tên gọi theo từng ngôn ngữ."
+keywords:
+  - phân khúc thu nợ
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released
