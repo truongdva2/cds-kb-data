@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTDVTNPRFL
 description: Salesschedgagrmtdvtnprfl
+semantic_en: "deviation profile — thresholds for order quantity alerts and warnings relative to scheduling agreement commitments"
+semantic_vi: "hồ sơ độ lệch — ngưỡng cảnh báo và cảnh báo số lượng đơn hàng so với cam kết thỏa thuận"
+keywords:
+  - độ lệch cảnh báo
+  - giới hạn số lượng
+  - thỏa thuận lên lịch
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

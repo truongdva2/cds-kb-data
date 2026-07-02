@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP1
 description: Salesspcfcproductgroup 1
+semantic_en: "sales specific product group 1 — additional classification grouping for sales-related product categorization"
+semantic_vi: "nhóm sản phẩm cụ thể bán hàng 1 — phân loại bổ sung cho phân nhóm sản phẩm bán hàng"
+keywords:
+  - nhóm sản phẩm
+  - phân loại bán hàng
+  - nhóm 1
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

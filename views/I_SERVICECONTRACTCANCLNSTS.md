@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTCANCLNSTS
 description: Servicecontractcanclnsts
+semantic_en: "master data value help — cancellation status domain values for service contracts."
+semantic_vi: "danh sách giá trị cho trạng thái hủy hợp đồng dịch vụ."
+keywords:
+  - hủy hợp đồng
+  - trạng thái
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

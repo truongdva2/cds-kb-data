@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGTYPE
 description: Schedulingtype
+semantic_en: "scheduling type — defines scheduling method characteristics including forward/backward direction and time-based calculation."
+semantic_vi: "loại lập kế hoạch — xác định các đặc điểm phương pháp lập kế hoạch bao gồm hướng phía trước/phía sau và tính toán dựa trên thời gian."
+keywords:
+  - lập kế hoạch
+  - loại
+  - phương pháp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

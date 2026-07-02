@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTTYPESTDVH
 description: Servicecontracttypestdvh
+semantic_en: "master data value help — service document type classifications and their object types."
+semantic_vi: "danh sách giá trị cho loại chứng từ dịch vụ."
+keywords:
+  - loại chứng từ
+  - dịch vụ
+  - phân loại
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

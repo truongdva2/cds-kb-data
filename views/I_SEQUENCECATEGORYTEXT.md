@@ -1,6 +1,11 @@
 ---
 name: I_SEQUENCECATEGORYTEXT
 description: Sequencecategorytext
+semantic_en: "sequence category descriptions — Language, SequenceCategory, SequenceCategoryName"
+semantic_vi: "Mô tả loại trình tự — tên loại trình tự theo ngôn ngữ"
+keywords:
+  - tên loại trình tự
+  - mô tả trình tự
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

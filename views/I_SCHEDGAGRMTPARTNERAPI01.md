@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTPARTNERAPI01
 description: Schedgagrmtpartnerapi 01
+semantic_en: "scheduling agreement partners — third parties involved in agreement items including supplier, plant, and functional partner roles."
+semantic_vi: "đối tác hợp đồng lập kế hoạch — các bên thứ ba liên quan đến mục hợp đồng bao gồm nhà cung cấp, nhà máy, và vai trò đối tác chức năng."
+keywords:
+  - đối tác
+  - nhà cung cấp
+  - chức năng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_SELECTEDCURRENCYBRANCHTEXT
 description: Selectedcurrencybranchtext
+semantic_en: "selected currency branch descriptions — Language, SelectedCurrencyBranch, SelectedCurrencyBranchName"
+semantic_vi: "Mô tả nhánh tiền tệ được chọn — tên nhánh theo ngôn ngữ"
+keywords:
+  - tên nhánh tiền tệ
+  - mô tả nhánh tiền tệ được chọn
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

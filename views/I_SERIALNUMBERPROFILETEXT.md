@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERPROFILETEXT
 description: Serial NumberPROFILETEXT
+semantic_en: "text translation table — multilingual descriptions for serial number profile master records."
+semantic_vi: "bảng dịch ngôn ngữ cho các mô tả hồ sơ số seri."
+keywords:
+  - hồ sơ số seri
+  - văn bản
+  - dịch
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

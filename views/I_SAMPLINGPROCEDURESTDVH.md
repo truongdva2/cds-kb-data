@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGPROCEDURESTDVH
 description: Samplingprocedurestdvh
+semantic_en: "sampling procedure standard value help — reference for sampling procedure lookup"
+semantic_vi: "trợ giúp giá trị chuẩn thủ tục lấy mẫu — tra cứu thủ tục lấy mẫu"
+keywords:
+  - thủ tục lấy mẫu
+  - tra cứu
+  - giá trị tham chiếu
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOC
 description: Settlmtdoc
+semantic_en: "Settlement document — master settlement records capturing parties, document types, and accounting transaction status."
+semantic_vi: "Tài liệu quyết toán — bản ghi quyết toán chính ghi lại các bên liên quan, loại tài liệu và trạng thái giao dịch kế toán."
+keywords:
+  - tài liệu quyết toán
+  - giao dịch quyết toán
+  - trạng thái kế toán
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTSCHEDLINE
 description: Salesschedgagrmtschedline
+semantic_en: "schedule line of sales scheduling agreement — schedule line detail with requested and confirmed delivery dates and quantities"
+semantic_vi: "dòng lên lịch thỏa thuận bán hàng — chi tiết dòng lên lịch với ngày giao hàng yêu cầu và xác nhận"
+keywords:
+  - dòng lên lịch
+  - ngày giao hàng
+  - số lượng đơn hàng
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

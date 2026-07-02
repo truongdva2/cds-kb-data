@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTPREDECESSOR
 description: Service DocumentUMENTPREDECESSOR
+semantic_en: "Preceding service transaction — models predecessor relationships for service documents to support process workflows."
+semantic_vi: "Tài liệu dịch vụ tiền nhiệm — mô hình hóa mối quan hệ tiền nhiệm cho tài liệu dịch vụ để hỗ trợ quy trình công việc."
+keywords:
+  - tài liệu tiền nhiệm
+  - trình tự dịch vụ
+  - mối quan hệ dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

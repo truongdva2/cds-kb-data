@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTCATEGORY
 description: Sddocumentcategory
+semantic_en: "sales document category — domain values defining types of sales documents (quotations, orders, invoices, etc.)."
+semantic_vi: "danh mục tài liệu bán hàng — giá trị miền xác định các loại tài liệu bán hàng (báo giá, đơn hàng, hóa đơn, v.v.)."
+keywords:
+  - danh mục
+  - tài liệu bán
+  - loại
 app_component: SD-CRF-2CL
 software_component: SAPSCORE
 release_state: released

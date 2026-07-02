@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCBILLINGSTATUSTEXT
 description: Service DocumentBILLINGSTATUSTEXT
+semantic_en: "text translation table — multilingual billing status labels for service transactions."
+semantic_vi: "bảng dịch ngôn ngữ cho nhãn trạng thái lập hóa đơn."
+keywords:
+  - lập hóa đơn
+  - trạng thái
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETITEMAPI01
 description: Serviceentrysheetitemapi 01
+semantic_en: "Service entry sheet item — line items within service entry sheets capturing service details and performance dates."
+semantic_vi: "Mục phiếu ghi nhận dịch vụ — các mục dòng trong phiếu ghi nhận dịch vụ ghi lại chi tiết dịch vụ và ngày thực hiện."
+keywords:
+  - mục phiếu ghi nhận
+  - dịch vụ thực hiện
+  - ngày dịch vụ
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

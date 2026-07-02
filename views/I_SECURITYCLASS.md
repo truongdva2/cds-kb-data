@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASS
 description: Securityclass
+semantic_en: "security class master — includes SecurityClass, FinancialInstrProductCategory, FinancialInstrumentProductType, SecurityClassName, Issuer, IssueCurrency, SecurityClassStatus, and issue/classification attributes"
+semantic_vi: "Dữ liệu chính lớp chứng chỉ — bao gồm tên lớp, loại sản phẩm công cụ tài chính, nhà phát hành, tiền tệ phát hành, trạng thái lớp"
+keywords:
+  - lớp chứng chỉ
+  - nhà phát hành chứng chỉ
+  - loại sản phẩm công cụ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

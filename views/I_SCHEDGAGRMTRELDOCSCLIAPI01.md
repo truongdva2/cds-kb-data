@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTRELDOCSCLIAPI01
 description: Schedgagrmtreldocscliapi 01
+semantic_en: "scheduling line in related document of purchase scheduling agreement — schedule lines released from agreements with delivery dates and quantities."
+semantic_vi: "dòng lập kế hoạch trong tài liệu liên quan của hợp đồng lập kế hoạch mua — dòng lập kế hoạch được phát hành từ hợp đồng với ngày giao hàng và số lượng."
+keywords:
+  - dòng lập kế hoạch
+  - ngày giao hàng
+  - số lượng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

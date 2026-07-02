@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEORDERTEMPLATETP
 description: Service OrderTEMPLATETP
+semantic_en: "Service order template TP — master template for service orders with sales organization and priority settings."
+semantic_vi: "Mẫu lệnh dịch vụ TP — mẫu chính cho lệnh dịch vụ với cài đặt tổ chức bán hàng và ưu tiên."
+keywords:
+  - mẫu lệnh dịch vụ
+  - cài đặt bán hàng
+  - ưu tiên lệnh
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

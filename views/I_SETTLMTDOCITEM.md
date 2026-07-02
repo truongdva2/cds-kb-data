@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCITEM
 description: Settlmtdocitem
+semantic_en: "Settlement document item — line items capturing product, plant, and tax information for settlement processing."
+semantic_vi: "Mục tài liệu quyết toán — các mục dòng ghi lại sản phẩm, nhà máy và thông tin thuế cho xử lý quyết toán."
+keywords:
+  - mục tài liệu quyết toán
+  - chi tiết sản phẩm
+  - thông tin thuế
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

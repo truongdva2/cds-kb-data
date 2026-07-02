@@ -1,6 +1,12 @@
 ---
 name: I_SEGMENTHIERNODE
 description: Segmenthiernode
+semantic_en: "segment hierarchy node structure — SegmentHierarchy, HierarchyNode, ParentNode, Segment, HierarchyLevel, NodeType, SequenceNumber"
+semantic_vi: "Cấu trúc nút hệ thống phân cấp phân đoạn — nút, nút cha, phân đoạn, cấp phân cấp, loại nút"
+keywords:
+  - nút hệ thống phân cấp
+  - phân đoạn cha
+  - cấp phân cấp
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

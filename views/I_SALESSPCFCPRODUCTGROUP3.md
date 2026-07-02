@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP3
 description: Salesspcfcproductgroup 3
+semantic_en: "sales specific product group 3 — additional classification grouping for product categorization level 3"
+semantic_vi: "nhóm sản phẩm cụ thể bán hàng 3 — phân loại bổ sung cho phân nhóm sản phẩm cấp 3"
+keywords:
+  - nhóm sản phẩm
+  - phân loại bậc 3
+  - bán hàng
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

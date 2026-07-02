@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTPAYMENTCARDTYPET
 description: Sddocumentpaymentcardtypet
+semantic_en: "sales document payment card type text — localized payment card type names for sales transactions."
+semantic_vi: "văn bản loại thẻ thanh toán tài liệu bán hàng — tên loại thẻ thanh toán được bản địa hóa cho giao dịch bán hàng."
+keywords:
+  - thẻ thanh toán
+  - loại
+  - tên
 app_component: SD-BIL-IV-PC-2CL
 software_component: SAPSCORE
 release_state: released

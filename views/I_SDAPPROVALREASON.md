@@ -1,6 +1,12 @@
 ---
 name: I_SDAPPROVALREASON
 description: Sdapprovalreason
+semantic_en: "approval reason for sales document — reasons for workflow approvals in sales orders and related documents."
+semantic_vi: "lý do phê duyệt cho tài liệu bán hàng — lý do để phê duyệt quy trình công việc trong các đơn đặt hàng và tài liệu liên quan."
+keywords:
+  - phê duyệt
+  - lý do
+  - tài liệu bán
 app_component: SD-BF
 software_component: SAPSCORE
 release_state: released

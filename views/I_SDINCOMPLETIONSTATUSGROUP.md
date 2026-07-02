@@ -1,6 +1,12 @@
 ---
 name: I_SDINCOMPLETIONSTATUSGROUP
 description: Sdincompletionstatusgroup
+semantic_en: "incompletion status group for sales & distribution documents — indicating completion status for delivery, billing, pricing, goods movement, picking, and packing"
+semantic_vi: "Nhóm trạng thái hoàn thành của tài liệu bán hàng — cho biết trạng thái hoàn thành cho giao hàng, lập hóa đơn, định giá, chuyển động hàng hóa, chọn hàng và đóng gói"
+keywords:
+  - nhóm trạng thái hoàn thành
+  - bán hàng không hoàn thành
+  - giao hàng lập hóa đơn
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

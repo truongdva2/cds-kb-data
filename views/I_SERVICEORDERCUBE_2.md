@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEORDERCUBE_2
 description: Service OrderCUBE 2
+semantic_en: "Service order data cube — analytical view of service orders with status, dates, and business reference information."
+semantic_vi: "Khối dữ liệu lệnh dịch vụ — chế độ xem phân tích các lệnh dịch vụ với trạng thái, ngày tháng và thông tin tham chiếu kinh doanh."
+keywords:
+  - lệnh dịch vụ
+  - phân tích dịch vụ
+  - trạng thái lệnh
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

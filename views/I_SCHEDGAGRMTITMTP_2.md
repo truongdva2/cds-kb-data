@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITMTP_2
 description: Schedgagrmtitmtp 2
+semantic_en: "scheduling agreement item — transactional view of individual items with material sourcing and delivery specifications."
+semantic_vi: "mục hợp đồng lập kế hoạch — chế độ xem giao dịch của các mục riêng lẻ với thông số sourcing vật liệu và giao hàng."
+keywords:
+  - mục
+  - vật liệu
+  - kế hoạch
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

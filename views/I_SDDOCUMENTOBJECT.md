@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTOBJECT
 description: Sddocumentobject
+semantic_en: "sales document object — domain values for transaction object types in sales and distribution operations."
+semantic_vi: "đối tượng tài liệu bán hàng — giá trị miền cho các loại đối tượng giao dịch trong hoạt động bán hàng và phân phối."
+keywords:
+  - đối tượng
+  - tài liệu
+  - giao dịch
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

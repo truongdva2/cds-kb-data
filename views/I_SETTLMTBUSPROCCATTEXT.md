@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTBUSPROCCATTEXT
 description: Settlmtbusproccattext
+semantic_en: "Settlement business process category text — localized category names for settlement process types."
+semantic_vi: "Văn bản danh mục quy trình kinh doanh quyết toán — tên danh mục đã bản địa hóa cho các loại quy trình quyết toán."
+keywords:
+  - tên danh mục quy trình
+  - mô tả quy trình
+  - ngôn ngữ danh mục
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

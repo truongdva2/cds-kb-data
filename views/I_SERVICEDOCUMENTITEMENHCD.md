@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEMENHCD
 description: Service DocumentUMENTITEMENHCD
+semantic_en: "Service transaction item enhanced — enriched service item view with extended metadata and temporal validity windows."
+semantic_vi: "Mục giao dịch dịch vụ nâng cao — chế độ xem mục dịch vụ được nâng cao với siêu dữ liệu mở rộng và cửa sổ hiệu lực theo thời gian."
+keywords:
+  - mục dịch vụ nâng cao
+  - tính hiệu lực dịch vụ
+  - chi tiết mục dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

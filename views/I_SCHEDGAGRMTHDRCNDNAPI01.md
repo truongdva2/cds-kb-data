@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTHDRCNDNAPI01
 description: Schedgagrmthdrcndnapi 01
+semantic_en: "scheduling agreement header condition — pricing and validity conditions at agreement header level including rate, quantity, and application type."
+semantic_vi: "điều kiện tiêu đề hợp đồng lập kế hoạch — điều kiện định giá và hiệu lực ở mức tiêu đề hợp đồng bao gồm tỷ giá, số lượng, và loại áp dụng."
+keywords:
+  - điều kiện
+  - giá
+  - ngày hiệu lực
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SEGMENT
 description: Segment
+semantic_en: "segment master data — Segment identifiers for financial reporting"
+semantic_vi: "Dữ liệu chính phân đoạn — mã phân đoạn cho báo cáo tài chính"
+keywords:
+  - phân đoạn
+  - mã phân đoạn
+  - báo cáo tài chính
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

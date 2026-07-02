@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTREJECTIONSTATUST
 description: Sddocumentrejectionstatust
+semantic_en: "rejection status text for sales & distribution documents — SDDocumentRejectionStatus, Language, SDDocumentRejectionStatusDesc columns"
+semantic_vi: "Văn bản mô tả trạng thái từ chối của tài liệu bán hàng — cấp dữ liệu tham khảo cho SDDocumentRejectionStatus với ngôn ngữ và mô tả"
+keywords:
+  - trạng thái từ chối tài liệu
+  - bản mô tả từ chối
+  - tái liệu bán hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

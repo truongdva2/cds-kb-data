@@ -1,6 +1,12 @@
 ---
 name: I_SECONDARYREGIONTEXT
 description: Secondaryregiontext
+semantic_en: "secondary region descriptions — Language, Country, Region, SecondaryRegion, SecondaryRegionName"
+semantic_vi: "Mô tả vùng phụ — gồm ngôn ngữ, quốc gia, vùng và tên vùng phụ"
+keywords:
+  - tên vùng phụ
+  - mô tả vùng phụ
+  - khu vực
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

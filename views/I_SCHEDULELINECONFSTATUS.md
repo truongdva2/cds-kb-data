@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINECONFSTATUS
 description: Schedule LineCONFSTATUS
+semantic_en: "schedule line confirmation status — domain values for order confirmation status of sales schedule lines."
+semantic_vi: "trạng thái xác nhận dòng lập kế hoạch — giá trị miền cho trạng thái xác nhận đơn đặt hàng của dòng lập kế hoạch bán hàng."
+keywords:
+  - trạng thái
+  - xác nhận
+  - dòng lập kế hoạch
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

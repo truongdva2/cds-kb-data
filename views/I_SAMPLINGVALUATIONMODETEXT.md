@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGVALUATIONMODETEXT
 description: Samplingvaluationmodetext
+semantic_en: "valuation mode for inspection characteristic text — language-specific names for evaluation modes"
+semantic_vi: "văn bản chế độ định giá cho đặc tính kiểm tra — tên phương pháp đánh giá theo ngôn ngữ"
+keywords:
+  - tên chế độ định giá
+  - ngôn ngữ
+  - kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP2
 description: Salesspcfcproductgroup 2
+semantic_en: "sales specific product group 2 — additional classification grouping for product categorization level 2"
+semantic_vi: "nhóm sản phẩm cụ thể bán hàng 2 — phân loại bổ sung cho phân nhóm sản phẩm cấp 2"
+keywords:
+  - nhóm sản phẩm
+  - phân loại bậc 2
+  - bán hàng
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

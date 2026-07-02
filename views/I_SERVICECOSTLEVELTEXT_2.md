@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECOSTLEVELTEXT_2
 description: Servicecostleveltext 2
+semantic_en: "text translation table — multilingual names and descriptions for service cost levels with validity."
+semantic_vi: "bảng dịch ngôn ngữ cho tên mức chi phí dịch vụ."
+keywords:
+  - chi phí dịch vụ
+  - mức
+  - văn bản
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

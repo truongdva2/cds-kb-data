@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTAPPLSTSSTDVH
 description: Settlmtapplstsstdvh
+semantic_en: "Settlement application status standard value help — value helper for settlement application status codes."
+semantic_vi: "Trợ giúp giá trị tiêu chuẩn trạng thái ứng dụng quyết toán — trợ giúp giá trị cho mã trạng thái ứng dụng quyết toán."
+keywords:
+  - trợ giúp giá trị trạng thái
+  - mã trạng thái quyết toán
+  - danh sách trạng thái
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

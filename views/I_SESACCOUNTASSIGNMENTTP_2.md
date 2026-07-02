@@ -1,6 +1,12 @@
 ---
 name: I_SESACCOUNTASSIGNMENTTP_2
 description: Sesaccountassignmenttp 2
+semantic_en: "Service entry sheet account assignment TP — detailed cost allocation with distribution percentages and account references."
+semantic_vi: "Gán tài khoản phiếu ghi nhận dịch vụ TP — phân bổ chi phí chi tiết với tỷ lệ phân bổ và tham chiếu tài khoản."
+keywords:
+  - phân bổ chi phí dịch vụ
+  - tỷ lệ phân bổ
+  - gán tài khoản
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

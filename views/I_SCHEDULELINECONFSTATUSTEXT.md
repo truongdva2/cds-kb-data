@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINECONFSTATUSTEXT
 description: Schedule LineCONFSTATUSTEXT
+semantic_en: "schedule line confirmation status text — localized confirmation status descriptions for sales order schedule lines."
+semantic_vi: "văn bản trạng thái xác nhận dòng lập kế hoạch — mô tả trạng thái xác nhận được bản địa hóa cho dòng lập kế hoạch đơn đặt hàng."
+keywords:
+  - trạng thái xác nhận
+  - mô tả
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

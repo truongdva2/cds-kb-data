@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTITEM
 description: Salesschedgagrmtitem
+semantic_en: "sales scheduling agreement item — line item detailing material, product, and item category classification"
+semantic_vi: "mục mục thỏa thuận lên lịch bán hàng — chi tiết từng dòng vật liệu, sản phẩm, và phân loại mục"
+keywords:
+  - mục thỏa thuận
+  - vật liệu sản phẩm
+  - phân loại mục
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

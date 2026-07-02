@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTREASONTEXT
 description: Sddocumentreasontext
+semantic_en: "sales document reason text — localized descriptions of reasons for creating sales documents."
+semantic_vi: "văn bản lý do tài liệu bán hàng — mô tả các lý do tạo tài liệu bán hàng được bản địa hóa."
+keywords:
+  - lý do
+  - tài liệu bán
+  - mô tả
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

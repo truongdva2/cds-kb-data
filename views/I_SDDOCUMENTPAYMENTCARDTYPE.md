@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTPAYMENTCARDTYPE
 description: Sddocumentpaymentcardtype
+semantic_en: "sales document payment card type — payment card types with authorization period settings for SD transactions."
+semantic_vi: "loại thẻ thanh toán tài liệu bán hàng — các loại thẻ thanh toán với cài đặt kỳ hạn uỷ quyền cho giao dịch SD."
+keywords:
+  - thẻ thanh toán
+  - loại
+  - kỳ hạn
 app_component: SD-BIL-IV-PC-2CL
 software_component: SAPSCORE
 release_state: released

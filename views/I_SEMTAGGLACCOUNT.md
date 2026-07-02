@@ -1,6 +1,12 @@
 ---
 name: I_SEMTAGGLACCOUNT
 description: Semtaggl Account
+semantic_en: "general ledger account with semantic tag — GLAccountHierarchy, HierarchyNode, SemanticTag, GLAccount, FunctionalArea, permission indicators"
+semantic_vi: "Tài khoản cái với nhãn ngữ nghĩa — hệ thống phân cấp, nút, nhãn, tài khoản cái, lĩnh vực chức năng"
+keywords:
+  - tài khoản cái nhãn ngữ nghĩa
+  - lĩnh vực chức năng tài khoản
+  - hệ thống phân cấp cái
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

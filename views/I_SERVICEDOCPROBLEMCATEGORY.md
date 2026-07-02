@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCPROBLEMCATEGORY
 description: Service DocumentPROBLEMCATEGORY
+semantic_en: "master data — problem categories for service issue tracking and classification."
+semantic_vi: "dữ liệu chính danh mục vấn đề cho theo dõi sự cố dịch vụ."
+keywords:
+  - vấn đề
+  - danh mục
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

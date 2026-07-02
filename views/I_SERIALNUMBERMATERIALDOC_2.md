@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERMATERIALDOC_2
 description: Serial NumberMATERIALDOC 2
+semantic_en: "transaction data — serial numbers recorded in material movement documents with year and document references."
+semantic_vi: "dữ liệu về số seri trong các chứng từ vật liệu."
+keywords:
+  - số seri
+  - chứng từ vật liệu
+  - kiểm kê
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

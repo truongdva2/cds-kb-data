@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYACCOUNTTYPE
 description: Securityaccounttype
+semantic_en: "security account type master — SecurityAccountType, SecurityAccountCategory classification"
+semantic_vi: "Dữ liệu chính loại tài khoản chứng chỉ — loại tài khoản và phân loại danh mục"
+keywords:
+  - loại tài khoản chứng chỉ
+  - phân loại tài khoản
+  - mã loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

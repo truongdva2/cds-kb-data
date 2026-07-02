@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEQUOTATIONTP
 description: Servicequotationtp
+semantic_en: "Service quotation TP — master quotation document for service quotes with party and contact information."
+semantic_vi: "Báo giá dịch vụ TP — tài liệu báo giá chính cho báo giá dịch vụ với thông tin bên liên quan và liên hệ."
+keywords:
+  - báo giá dịch vụ
+  - thông tin khách hàng
+  - liên hệ dịch vụ
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

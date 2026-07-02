@@ -1,6 +1,11 @@
 ---
 name: I_SEQUENCECATEGORY
 description: Sequencecategory
+semantic_en: "sequence category enumeration — SequenceCategory codes for production sequences"
+semantic_vi: "Danh mục loại trình tự — mã loại trình tự sản xuất"
+keywords:
+  - loại trình tự
+  - loại trình tự sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

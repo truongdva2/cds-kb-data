@@ -1,6 +1,11 @@
 ---
 name: I_SEMANTICTAGTEXT
 description: Semantictagtext
+semantic_en: "semantic tag descriptions — Language, SemanticTag, SemanticTagName"
+semantic_vi: "Mô tả nhãn ngữ nghĩa — tên nhãn theo ngôn ngữ"
+keywords:
+  - tên nhãn ngữ nghĩa
+  - mô tả nhãn
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

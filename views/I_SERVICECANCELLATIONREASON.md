@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECANCELLATIONREASON
 description: Servicecancellationreason
+semantic_en: "master data — reasons for service contract cancellations by party type."
+semantic_vi: "dữ liệu chính cho lý do hủy hợp đồng dịch vụ."
+keywords:
+  - hủy hợp đồng
+  - lý do
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

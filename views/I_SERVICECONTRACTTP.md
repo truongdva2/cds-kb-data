@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTTP
 description: Servicecontracttp
+semantic_en: "transactional projection — service contract headers with party and date information."
+semantic_vi: "hình chiếu giao dịch cho tiêu đề hợp đồng dịch vụ."
+keywords:
+  - hợp đồng dịch vụ
+  - bên
+  - ngày tháng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

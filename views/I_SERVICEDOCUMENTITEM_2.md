@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEM_2
 description: Service DocumentUMENTITEM 2
+semantic_en: "Service transaction item v2 — alternative service item view with comprehensive line-level detail and validity windows."
+semantic_vi: "Mục giao dịch dịch vụ phiên bản 2 — chế độ xem mục dịch vụ thay thế với chi tiết mức dòng toàn diện và cửa sổ hiệu lực."
+keywords:
+  - mục dịch vụ v2
+  - chi tiết dịch vụ
+  - cửa sổ hiệu lực
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

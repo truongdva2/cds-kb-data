@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCREFERENCESTATUSTEXT
 description: Sddocreferencestatustext
+semantic_en: "sales document reference status text — localized status descriptions for sales document reference tracking."
+semantic_vi: "văn bản trạng thái tham chiếu tài liệu bán hàng — mô tả trạng thái được bản địa hóa cho theo dõi tham chiếu tài liệu bán hàng."
+keywords:
+  - tham chiếu
+  - trạng thái
+  - mô tả
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

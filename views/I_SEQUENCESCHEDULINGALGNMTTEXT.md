@@ -1,6 +1,11 @@
 ---
 name: I_SEQUENCESCHEDULINGALGNMTTEXT
 description: Sequenceschedulingalgnmttext
+semantic_en: "sequence scheduling alignment descriptions — Language, SequenceSchedulingAlignment, SequenceSchedulingAlgnmtName"
+semantic_vi: "Mô tả căn chỉnh lập lịch trình tự — tên căn chỉnh theo ngôn ngữ"
+keywords:
+  - căn chỉnh lập lịch trình tự
+  - tên căn chỉnh lập lịch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

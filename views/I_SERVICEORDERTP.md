@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEORDERTP
 description: Service OrderTP
+semantic_en: "Service order TP — master service order document with customer and party information across service lifecycle."
+semantic_vi: "Lệnh dịch vụ TP — tài liệu lệnh dịch vụ chính với thông tin khách hàng và bên liên quan trong vòng đời dịch vụ."
+keywords:
+  - lệnh dịch vụ
+  - khách hàng dịch vụ
+  - thông tin bên
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

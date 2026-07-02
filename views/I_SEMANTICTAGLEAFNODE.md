@@ -1,6 +1,11 @@
 ---
 name: I_SEMANTICTAGLEAFNODE
 description: Semantictagleafnode
+semantic_en: "hierarchy leaf node with semantic tag — GLAccountHierarchy, HierarchyNode, SemanticTag, GLAccount, FunctionalArea"
+semantic_vi: "Nút lá hệ thống phân cấp với nhãn ngữ nghĩa — tài khoản cái, nút hệ thống phân cấp, nhãn ngữ nghĩa, lĩnh vực chức năng"
+keywords:
+  - nút lá hệ thống phân cấp
+  - tài khoản cái nhãn ngữ nghĩa
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

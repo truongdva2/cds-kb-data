@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASSCONDITIONITEM
 description: Securityclassconditionitem
+semantic_en: "security class condition items — SecurityClass, ConditionType, FinConditionSubItem, FinConditionForm, interest calculation methods and rates"
+semantic_vi: "Mục điều kiện lớp chứng chỉ — kiểu điều kiện, mục con, phương pháp tính lãi suất"
+keywords:
+  - điều kiện chứng chỉ
+  - tính lãi suất
+  - loại điều kiện
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP4
 description: Salesspcfcproductgroup 4
+semantic_en: "sales specific product group 4 — additional classification grouping for product categorization level 4"
+semantic_vi: "nhóm sản phẩm cụ thể bán hàng 4 — phân loại bổ sung cho phân nhóm sản phẩm cấp 4"
+keywords:
+  - nhóm sản phẩm
+  - phân loại bậc 4
+  - bán hàng
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERHANDLINGUNIT
 description: Serial NumberHANDLINGUNIT
+semantic_en: "transaction data — serial numbers assigned to handling units with storage and movement details."
+semantic_vi: "dữ liệu về số seri trong các đơn vị xử lý và quản lý hàng hóa."
+keywords:
+  - số seri
+  - đơn vị xử lý
+  - vật liệu
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

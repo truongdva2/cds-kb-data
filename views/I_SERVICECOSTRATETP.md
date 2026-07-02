@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECOSTRATETP
 description: Servicecostratetp
+semantic_en: "transactional projection — service cost rates with validity periods and intercompany flags."
+semantic_vi: "hình chiếu giao dịch cho suất giá dịch vụ."
+keywords:
+  - suất giá dịch vụ
+  - chi phí
+  - hợp lệ
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

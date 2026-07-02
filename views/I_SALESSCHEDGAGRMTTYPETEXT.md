@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTTYPETEXT
 description: Salesschedgagrmttypetext
+semantic_en: "sales scheduling agreement type text — language-specific names for agreement types"
+semantic_vi: "văn bản loại thỏa thuận lên lịch — tên loại thỏa thuận theo ngôn ngữ"
+keywords:
+  - tên loại thỏa thuận
+  - ngôn ngữ
+  - phân loại
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

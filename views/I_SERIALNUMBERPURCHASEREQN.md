@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERPURCHASEREQN
 description: Serial NumberPurchase RequisitionN
+semantic_en: "transaction data — serial numbers referenced in purchase requisitions before order creation."
+semantic_vi: "dữ liệu về số seri trong các yêu cầu mua hàng."
+keywords:
+  - số seri
+  - yêu cầu mua
+  - đơn hàng
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

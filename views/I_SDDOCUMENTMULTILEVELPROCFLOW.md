@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTMULTILEVELPROCFLOW
 description: Sddocumentmultilevelprocflow
+semantic_en: "sales document multi-level process flow — tracks document relationships and quantity transformations across process levels in SD operations."
+semantic_vi: "luồng quy trình nhiều mức tài liệu bán hàng — theo dõi các mối quan hệ tài liệu và các phép biến đổi số lượng trên các mức quy trình trong hoạt động SD."
+keywords:
+  - luồng
+  - tài liệu
+  - mức
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

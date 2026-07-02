@@ -1,6 +1,12 @@
 ---
 name: I_SEGMENTSTDVH
 description: Segmentstdvh
+semantic_en: "segment value-help view — Segment enumeration for selection assistance"
+semantic_vi: "Xem trợ giúp giá trị phân đoạn — danh sách phân đoạn để hỗ trợ chọn"
+keywords:
+  - phân đoạn trợ giúp
+  - danh sách phân đoạn
+  - chọn phân đoạn
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

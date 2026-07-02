@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCBILLINGSTATUS
 description: Service DocumentBILLINGSTATUS
+semantic_en: "master data value help — billing status domain values for service transactions."
+semantic_vi: "danh sách giá trị cho trạng thái lập hóa đơn giao dịch dịch vụ."
+keywords:
+  - lập hóa đơn
+  - trạng thái
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

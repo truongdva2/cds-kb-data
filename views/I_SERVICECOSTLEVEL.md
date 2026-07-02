@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECOSTLEVEL
 description: Servicecostlevel
+semantic_en: "master data — service cost level configurations with validity dates for rate management."
+semantic_vi: "dữ liệu chính cho mức chi phí dịch vụ với ngày hiệu lực."
+keywords:
+  - chi phí dịch vụ
+  - mức
+  - suất giá
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

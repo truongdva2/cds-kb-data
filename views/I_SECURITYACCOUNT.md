@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYACCOUNT
 description: Securityaccount
+semantic_en: "securities account master — CompanyCode, SecurityAccount, SecurityAccountName, SecurityAccountGroup, SecurityAccountType, DepositoryBank"
+semantic_vi: "Dữ liệu chính tài khoản chứng chỉ — tên tài khoản, nhóm, loại và ngân hàng ký gửi"
+keywords:
+  - tài khoản chứng chỉ
+  - nhóm tài khoản
+  - ngân hàng ký gửi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

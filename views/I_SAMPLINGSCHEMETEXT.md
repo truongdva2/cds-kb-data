@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGSCHEMETEXT
 description: Samplingschemetext
+semantic_en: "sampling scheme text — language-specific textual names for sampling schemes"
+semantic_vi: "văn bản kế hoạch lấy mẫu — tên kế hoạch lấy mẫu theo ngôn ngữ"
+keywords:
+  - tên kế hoạch
+  - ngôn ngữ
+  - lấy mẫu
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

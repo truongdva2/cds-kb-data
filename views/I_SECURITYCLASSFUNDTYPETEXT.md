@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYCLASSFUNDTYPETEXT
 description: Securityclassfundtypetext
+semantic_en: "security class fund type descriptions — Language, SecurityClassFundType, SecurityClassFundTypeName, ScrtyClassFundTypeDescription"
+semantic_vi: "Mô tả loại quỹ lớp chứng chỉ — tên loại quỹ và mô tả theo ngôn ngữ"
+keywords:
+  - tên loại quỹ
+  - mô tả loại quỹ chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

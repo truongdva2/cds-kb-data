@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETITEMNOTETP
 description: Serviceentrysheetitemnotetp
+semantic_en: "Service entry sheet item note — text annotations and notes for service entry sheet items with deletion management."
+semantic_vi: "Ghi chú mục phiếu ghi nhận dịch vụ — chú thích văn bản và ghi chú cho các mục phiếu ghi nhận dịch vụ với quản lý xóa."
+keywords:
+  - ghi chú dịch vụ
+  - chú thích mục
+  - xóa mục
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

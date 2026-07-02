@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTITEMTP_2
 description: Servicecontractitemtp 2
+semantic_en: "transactional projection — service contract line items with product quantities and units."
+semantic_vi: "hình chiếu giao dịch cho dòng hợp đồng dịch vụ."
+keywords:
+  - hợp đồng dịch vụ
+  - dòng
+  - sản phẩm
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

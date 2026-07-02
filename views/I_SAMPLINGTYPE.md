@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGTYPE
 description: Samplingtype
+semantic_en: "sampling type — enumeration of inspection sampling types (attributes, variables, etc.)"
+semantic_vi: "loại lấy mẫu — danh mục loại lấy mẫu kiểm tra (thuộc tính, biến số, v.v.)"
+keywords:
+  - loại lấy mẫu
+  - kiểm tra
+  - phân loại
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLEDETERMINATIONRULE
 description: Sampledeterminationrule
+semantic_en: "sample determination rule — enumeration defining rules for selecting inspection samples"
+semantic_vi: "quy tắc xác định mẫu kiểm tra — danh mục quy tắc chọn mẫu kiểm tra chất lượng"
+keywords:
+  - mẫu kiểm tra
+  - quy tắc chọn mẫu
+  - chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

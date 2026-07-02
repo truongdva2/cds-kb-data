@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITMCNDNAMOUNTTP_2
 description: Schedgagrmtitmcndnamounttp 2
+semantic_en: "scheduling agreement item condition amount — pricing conditions at item level including rate values, quantities, and calculation types."
+semantic_vi: "điều kiện số tiền mục hợp đồng lập kế hoạch — điều kiện định giá ở mức mục bao gồm giá trị tỷ giá, số lượng, và loại tính toán."
+keywords:
+  - điều kiện giá
+  - tỷ giá
+  - số lượng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

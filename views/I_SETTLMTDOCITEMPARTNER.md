@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCITEMPARTNER
 description: Settlmtdocitempartner
+semantic_en: "Settlement document item partner — parties and contact information associated with settlement document line items."
+semantic_vi: "Bên liên quan mục tài liệu quyết toán — các bên liên quan và thông tin liên hệ liên quan đến các mục dòng tài liệu quyết toán."
+keywords:
+  - bên liên quan quyết toán
+  - thông tin liên hệ
+  - khách hàng quyết toán
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

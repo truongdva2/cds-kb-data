@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYCLASSQUOTATIONTEXT
 description: Securityclassquotationtext
+semantic_en: "security class quotation type descriptions — Language, SecurityClassQuotation, SecurityClassQuotationName"
+semantic_vi: "Mô tả loại báo giá lớp chứng chỉ — tên loại báo giá theo ngôn ngữ"
+keywords:
+  - tên loại báo giá
+  - mô tả báo giá chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

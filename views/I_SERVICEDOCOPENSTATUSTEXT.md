@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCOPENSTATUSTEXT
 description: Service DocumentOPENSTATUSTEXT
+semantic_en: "text translation table — multilingual open status names for service transactions."
+semantic_vi: "bảng dịch ngôn ngữ cho tên trạng thái mở giao dịch."
+keywords:
+  - trạng thái mở
+  - giao dịch
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

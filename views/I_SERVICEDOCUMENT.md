@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENT
 description: Service DocumentUMENT
+semantic_en: "Service transaction master — contains core service document details including type, description, creation and modification timestamps."
+semantic_vi: "Tài liệu dịch vụ chính — chứa thông tin cơ bản về giao dịch dịch vụ bao gồm loại, mô tả, ngày giờ tạo và chỉnh sửa."
+keywords:
+  - tài liệu dịch vụ
+  - giao dịch dịch vụ
+  - tạo dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

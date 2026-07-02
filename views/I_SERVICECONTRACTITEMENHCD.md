@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTITEMENHCD
 description: Servicecontractitemenhcd
+semantic_en: "transaction data — enhanced service contract items with additional character and category fields."
+semantic_vi: "dữ liệu giao dịch hợp đồng dịch vụ dòng mở rộng."
+keywords:
+  - hợp đồng dịch vụ
+  - dòng
+  - chi tiết
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

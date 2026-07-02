@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECOSTRATE_2
 description: Servicecostrate 2
+semantic_en: "transaction data — accounting cost rates for service allocations across organizations and activities."
+semantic_vi: "dữ liệu giao dịch suất giá chi phí dịch vụ."
+keywords:
+  - suất giá dịch vụ
+  - chi phí
+  - kế toán
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

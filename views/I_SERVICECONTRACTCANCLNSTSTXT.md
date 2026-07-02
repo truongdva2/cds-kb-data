@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTCANCLNSTSTXT
 description: Servicecontractcanclnststxt
+semantic_en: "text translation table — multilingual labels for service contract cancellation status values."
+semantic_vi: "bảng dịch ngôn ngữ cho nhãn trạng thái hủy hợp đồng."
+keywords:
+  - hủy hợp đồng
+  - trạng thái
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECANCLNREASONTEXT
 description: Servicecanclnreasontext
+semantic_en: "text translation table — multilingual descriptions of service contract cancellation reasons."
+semantic_vi: "bảng dịch ngôn ngữ cho mô tả lý do hủy hợp đồng."
+keywords:
+  - hủy hợp đồng
+  - lý do
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

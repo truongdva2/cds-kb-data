@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEM
 description: Service DocumentUMENTITEM
+semantic_en: "Service transaction item — captures individual line-level service items with priority, dates, and descriptions."
+semantic_vi: "Mục giao dịch dịch vụ — ghi lại các mục dịch vụ riêng lẻ ở mức dòng với ưu tiên, ngày tháng và mô tả."
+keywords:
+  - mục dịch vụ
+  - ưu tiên dịch vụ
+  - dòng dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

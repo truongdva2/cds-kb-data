@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTPARTNER
 description: Sddocumentpartner
+semantic_en: "sales document partner — document-level parties and their roles including customer, supplier, and business partner addresses."
+semantic_vi: "đối tác tài liệu bán hàng — các bên ở mức tài liệu và vai trò của họ bao gồm địa chỉ khách hàng, nhà cung cấp, và đối tác kinh doanh."
+keywords:
+  - đối tác
+  - tài liệu
+  - vai trò
 app_component: SD-BF-PD-2CL
 software_component: SAPSCORE
 release_state: released

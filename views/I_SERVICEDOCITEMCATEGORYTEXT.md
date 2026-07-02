@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCITEMCATEGORYTEXT
 description: Service DocumentITEMCATEGORYTEXT
+semantic_en: "text translation table — multilingual category names and abbreviations for service line items."
+semantic_vi: "bảng dịch ngôn ngữ cho tên danh mục dòng dịch vụ."
+keywords:
+  - loại dòng
+  - dịch vụ
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

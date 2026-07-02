@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERSTOCKSEGMENT
 description: Serial NumberSTOCKSEGMENT
+semantic_en: "transaction data — serial number inventory positions across plants, storage locations, and stock types."
+semantic_vi: "dữ liệu tồn kho của số seri theo nhà máy, kho và loại tồn kho."
+keywords:
+  - số seri
+  - tồn kho
+  - nhà máy
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNOEXPLICITNESSLEVELTXT
 description: Serialnoexplicitnessleveltxt
+semantic_en: "text translation table — multilingual descriptions for serial number explicitness level codes."
+semantic_vi: "bảng dịch ngôn ngữ cho các mã mức độ rõ ràng của số seri."
+keywords:
+  - số seri
+  - văn bản
+  - dịch
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

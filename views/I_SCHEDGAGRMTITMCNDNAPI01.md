@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITMCNDNAPI01
 description: Schedgagrmtitmcndnapi 01
+semantic_en: "scheduling agreement item condition — pricing and validity conditions at individual item level with rate and quantity specifications."
+semantic_vi: "điều kiện mục hợp đồng lập kế hoạch — điều kiện định giá và hiệu lực ở mức mục riêng lẻ với thông số tỷ giá và số lượng."
+keywords:
+  - điều kiện mục
+  - giá
+  - ngày hiệu lực
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

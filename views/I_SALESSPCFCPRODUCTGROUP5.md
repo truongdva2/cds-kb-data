@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP5
 description: Salesspcfcproductgroup 5
+semantic_en: "sales specific product group 5 — additional classification grouping for product categorization level 5"
+semantic_vi: "nhóm sản phẩm cụ thể bán hàng 5 — phân loại bổ sung cho phân nhóm sản phẩm cấp 5"
+keywords:
+  - nhóm sản phẩm
+  - phân loại bậc 5
+  - bán hàng
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

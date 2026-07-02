@@ -1,6 +1,12 @@
 ---
 name: I_SECURITIESACCTCLPOSMSTRDATA
 description: Securitiesacctclposmstrdata
+semantic_en: "securities account class position master data — SecurityAccount, SecurityClass, Portfolio position records with TreasuryFinancialObject"
+semantic_vi: "Dữ liệu chính vị trí lớp tài khoản chứng chỉ — bao gồm tài khoản chứng chỉ, lớp chứng chỉ, danh mục đầu tư"
+keywords:
+  - vị trí lớp chứng chỉ
+  - tài khoản chứng chỉ
+  - danh mục đầu tư
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

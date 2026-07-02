@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASSSECONDARYINDEX
 description: Securityclasssecondaryindex
+semantic_en: "security class secondary index — SecurityClass, ScrtyClSecondaryIndexNumber, ScrtyClSecdryIdxValIdentifier"
+semantic_vi: "Chỉ số phụ lớp chứng chỉ — mã chứng chỉ, số chỉ số phụ, định danh giá trị"
+keywords:
+  - chỉ số phụ chứng chỉ
+  - mã chỉ số
+  - định danh giá trị
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

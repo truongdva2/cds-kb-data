@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCOPENSTATUS
 description: Service DocumentOPENSTATUS
+semantic_en: "master data value help — open status domain values indicating transaction completion state."
+semantic_vi: "danh sách giá trị cho trạng thái mở giao dịch dịch vụ."
+keywords:
+  - trạng thái mở
+  - giao dịch
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

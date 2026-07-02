@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGVALUATIONMODE
 description: Samplingvaluationmode
+semantic_en: "valuation mode for inspection characteristic — enumeration of methods for evaluating inspection results (defects, deviation, tolerance)"
+semantic_vi: "chế độ định giá cho đặc tính kiểm tra — danh mục phương pháp đánh giá kết quả kiểm tra"
+keywords:
+  - chế độ định giá
+  - phương pháp đánh giá
+  - đặc tính kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

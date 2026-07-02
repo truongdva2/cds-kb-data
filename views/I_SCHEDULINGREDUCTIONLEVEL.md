@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGREDUCTIONLEVEL
 description: Schedulingreductionlevel
+semantic_en: "scheduling reduction level — domain values defining reduction levels in master production scheduling."
+semantic_vi: "mức giảm lập kế hoạch — giá trị miền xác định các mức giảm trong lập kế hoạch sản xuất chính."
+keywords:
+  - giảm
+  - mức
+  - lập kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASSSTOCK
 description: Securityclassstock
+semantic_en: "security class stock data — SecurityClass, SecurityClassStockCategory, SecurityClassFundType, number of issued stocks, nominal value per stock, issue date"
+semantic_vi: "Dữ liệu cổ phiếu lớp chứng chỉ — loại cổ phiếu, loại quỹ, số cổ phiếu phát hành, mệnh giá, ngày phát hành"
+keywords:
+  - cổ phiếu lớp chứng chỉ
+  - số cổ phiếu phát hành
+  - mệnh giá cổ phiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

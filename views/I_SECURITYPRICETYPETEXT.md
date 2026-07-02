@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYPRICETYPETEXT
 description: Securitypricetypetext
+semantic_en: "market data security price type descriptions — Language, PriceQuotationType, PriceQuotationTypeName"
+semantic_vi: "Mô tả loại giá chứng chỉ dữ liệu thị trường — tên loại báo giá theo ngôn ngữ"
+keywords:
+  - tên loại giá chứng chỉ
+  - mô tả loại báo giá giá
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

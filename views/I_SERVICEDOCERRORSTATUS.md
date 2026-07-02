@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCERRORSTATUS
 description: Service DocumentERRORSTATUS
+semantic_en: "master data value help — error status domain values indicating service transaction data quality."
+semantic_vi: "danh sách giá trị cho trạng thái lỗi giao dịch dịch vụ."
+keywords:
+  - lỗi
+  - trạng thái
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

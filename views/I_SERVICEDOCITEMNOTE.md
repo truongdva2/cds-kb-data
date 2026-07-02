@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCITEMNOTE
 description: Service DocumentITEMNOTE
+semantic_en: "transactional projection — service document item notes and text objects by language."
+semantic_vi: "hình chiếu giao dịch cho ghi chú dòng chứng từ dịch vụ."
+keywords:
+  - ghi chú
+  - dịch vụ
+  - chứng từ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

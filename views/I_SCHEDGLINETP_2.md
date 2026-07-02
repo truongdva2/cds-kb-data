@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGLINETP_2
 description: Schedglinetp 2
+semantic_en: "scheduling agreement schedule line — transactional schedule lines with fixed indicators and delivery tracking."
+semantic_vi: "dòng lập kế hoạch hợp đồng lập kế hoạch — dòng lập kế hoạch giao dịch với chỉ số cố định và theo dõi giao hàng."
+keywords:
+  - dòng lập kế hoạch
+  - giao hàng
+  - số lượng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

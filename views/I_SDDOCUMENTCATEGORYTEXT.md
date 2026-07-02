@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTCATEGORYTEXT
 description: Sddocumentcategorytext
+semantic_en: "sales document category text — localized category names for various sales document types."
+semantic_vi: "văn bản danh mục tài liệu bán hàng — tên danh mục được bản địa hóa cho các loại tài liệu bán hàng khác nhau."
+keywords:
+  - danh mục
+  - tài liệu
+  - tên
 app_component: SD-CRF-2CL
 software_component: SAPSCORE
 release_state: released

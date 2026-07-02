@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECOSTRATEDEX
 description: Servicecostratedex
+semantic_en: "data extraction view — service cost rates by company, cost center, activity, and resource."
+semantic_vi: "trích xuất dữ liệu suất giá dịch vụ theo công ty, trung tâm chi phí và hoạt động."
+keywords:
+  - suất giá dịch vụ
+  - chi phí
+  - trích xuất
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

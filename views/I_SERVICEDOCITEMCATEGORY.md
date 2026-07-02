@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCITEMCATEGORY
 description: Service DocumentITEMCATEGORY
+semantic_en: "master data — service transaction line item categories with billing relevance and workflow rules."
+semantic_vi: "dữ liệu chính cho danh mục dòng giao dịch dịch vụ."
+keywords:
+  - loại dòng
+  - dịch vụ
+  - lập hóa đơn
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_SEGMENTHIERARCHYTEXT
 description: Segmenthierarchytext
+semantic_en: "segment hierarchy descriptions — Language, SegmentHierarchy, ValidityDateRange, SegmentHierarchyName"
+semantic_vi: "Mô tả hệ thống phân cấp phân đoạn — tên hệ thống phân cấp theo ngôn ngữ và ngày hiệu lực"
+keywords:
+  - tên hệ thống phân cấp phân đoạn
+  - mô tả hệ thống phân cấp
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

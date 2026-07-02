@@ -1,6 +1,12 @@
 ---
 name: I_SAPGUIICONTEXT
 description: Sapguiicontext
+semantic_en: "SAP GUI icon text — language-specific icon names and descriptions"
+semantic_vi: "văn bản biểu tượng SAP GUI — tên và mô tả biểu tượng theo ngôn ngữ"
+keywords:
+  - tên biểu tượng
+  - ngôn ngữ
+  - GUI
 app_component: BC-ABA-SC
 software_component: SAP_BASIS
 release_state: released

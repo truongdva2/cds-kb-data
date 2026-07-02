@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTDELIVERYADDRTP_2
 description: Schedgagrmtdeliveryaddrtp 2
+semantic_en: "scheduling agreement delivery address — records delivery address details including address type, location, and contact information for scheduled purchases."
+semantic_vi: "địa chỉ giao hàng hợp đồng lập kế hoạch — lưu trữ thông tin chi tiết địa chỉ giao hàng bao gồm loại địa chỉ, vị trí, và thông tin liên hệ cho các lần giao hàng theo kế hoạch."
+keywords:
+  - địa chỉ giao hàng
+  - hợp đồng lập kế hoạch
+  - loại địa chỉ
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

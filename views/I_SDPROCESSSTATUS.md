@@ -1,6 +1,12 @@
 ---
 name: I_SDPROCESSSTATUS
 description: Sdprocessstatus
+semantic_en: "sales & distribution process status — enumeration of SD process status codes"
+semantic_vi: "Trạng thái quy trình bán hàng — danh sách mã trạng thái quy trình bán hàng"
+keywords:
+  - trạng thái quy trình bán hàng
+  - mã trạng thái SD
+  - quy trình bán hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

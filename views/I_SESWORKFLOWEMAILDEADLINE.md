@@ -1,6 +1,12 @@
 ---
 name: I_SESWORKFLOWEMAILDEADLINE
 description: Sesworkflowemaildeadline
+semantic_en: "Service entry sheet workflow task — workflow task status and deadline tracking for service entry sheet approval processes."
+semantic_vi: "Công việc quy trình công việc phiếu ghi nhận dịch vụ — theo dõi trạng thái công việc quy trình công việc và thời hạn cho quy trình phê duyệt phiếu ghi nhận dịch vụ."
+keywords:
+  - công việc quy trình
+  - thời hạn công việc
+  - phê duyệt công việc
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

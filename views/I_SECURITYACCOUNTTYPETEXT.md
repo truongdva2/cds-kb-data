@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYACCOUNTTYPETEXT
 description: Securityaccounttypetext
+semantic_en: "security account type descriptions — Language, SecurityAccountType, SecurityAccountTypeName"
+semantic_vi: "Mô tả loại tài khoản chứng chỉ — tên loại theo ngôn ngữ"
+keywords:
+  - tên loại tài khoản
+  - mô tả loại chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

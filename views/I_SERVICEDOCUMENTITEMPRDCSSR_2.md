@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEMPRDCSSR_2
 description: Service DocumentUMENTITEMPRDCSSR 2
+semantic_en: "Service item predecessor relationship — models preceding service transaction item relationships for workflow sequencing."
+semantic_vi: "Mối quan hệ mục dịch vụ tiền nhiệm — mô hình hóa mối quan hệ mục giao dịch dịch vụ trước đó để sắp xếp quy trình công việc."
+keywords:
+  - giao dịch tiền nhiệm
+  - trình tự dịch vụ
+  - mối quan hệ dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

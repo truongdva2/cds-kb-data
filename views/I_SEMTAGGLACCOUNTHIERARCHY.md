@@ -1,6 +1,12 @@
 ---
 name: I_SEMTAGGLACCOUNTHIERARCHY
 description: Semtaggl AccountHIERARCHY
+semantic_en: "general ledger account hierarchy master — GLAccountHierarchy, ValidityDateRange, HierarchyType, LastChangedByUser, LastChangeDateTime"
+semantic_vi: "Dữ liệu chính hệ thống phân cấp tài khoản cái — mã hệ thống phân cấp, loại hệ thống phân cấp, ngày hiệu lực"
+keywords:
+  - hệ thống phân cấp tài khoản cái
+  - mã hệ thống phân cấp
+  - loại hệ thống phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

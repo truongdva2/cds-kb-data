@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERINSPECTIONLOT
 description: Serial NumberINSPECTIONLOT
+semantic_en: "transaction data — serial numbers linked to inspection lots for quality control tracking."
+semantic_vi: "dữ liệu về số seri trong các lô kiểm tra chất lượng."
+keywords:
+  - số seri
+  - lô kiểm tra
+  - chất lượng
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEORDERITEMTP
 description: Service OrderITEMTP
+semantic_en: "Service order item TP — line items for service orders capturing product details and quantities with administrative metadata."
+semantic_vi: "Mục lệnh dịch vụ TP — các mục dòng cho lệnh dịch vụ ghi lại chi tiết sản phẩm và số lượng với siêu dữ liệu quản trị."
+keywords:
+  - mục lệnh dịch vụ
+  - chi tiết sản phẩm
+  - số lượng dịch vụ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

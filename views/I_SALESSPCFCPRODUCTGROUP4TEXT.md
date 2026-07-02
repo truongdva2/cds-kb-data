@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP4TEXT
 description: Salesspcfcproductgroup 4TEXT
+semantic_en: "sales specific product group 4 text — language-dependent names for additional product group 4"
+semantic_vi: "văn bản nhóm sản phẩm cụ thể bán hàng 4 — tên nhóm sản phẩm bổ sung cấp 4 theo ngôn ngữ"
+keywords:
+  - tên nhóm sản phẩm
+  - ngôn ngữ
+  - cấp 4
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

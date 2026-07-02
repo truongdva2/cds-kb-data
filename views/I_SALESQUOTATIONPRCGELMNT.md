@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONPRCGELMNT
 description: Salesquotationprcgelmnt
+semantic_en: "sales quotation pricing element — contains pricing procedure steps, condition types, and rates applied to quotations"
+semantic_vi: "thành phần định giá báo giá — lưu trữ các bước thủ tục định giá, loại điều kiện, và giá tính cước"
+keywords:
+  - định giá báo giá
+  - điều kiện giá
+  - tỷ lệ cước phí
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

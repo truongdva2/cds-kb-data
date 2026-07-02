@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTTYPETEXT
 description: Service DocumentUMENTTYPETEXT
+semantic_en: "Service transaction type text — localized names and descriptions for service document types across languages."
+semantic_vi: "Văn bản loại giao dịch dịch vụ — tên và mô tả đã bản địa hóa cho các loại tài liệu dịch vụ trên các ngôn ngữ."
+keywords:
+  - tên loại dịch vụ
+  - mô tả dịch vụ
+  - ngôn ngữ loại dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

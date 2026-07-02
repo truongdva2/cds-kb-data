@@ -1,6 +1,12 @@
 ---
 name: I_SEMANTICTAG
 description: Semantictag
+semantic_en: "semantic tag master — SemanticTag, ParentSemanticTag hierarchy, SemanticTagGroup classification"
+semantic_vi: "Dữ liệu chính nhãn ngữ nghĩa — mã nhãn, nhãn cha, nhóm nhãn"
+keywords:
+  - nhãn ngữ nghĩa
+  - nhóm nhãn
+  - phân cấp nhãn
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

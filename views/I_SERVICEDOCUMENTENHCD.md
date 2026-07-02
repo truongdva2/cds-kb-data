@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTENHCD
 description: Service DocumentUMENTENHCD
+semantic_en: "Service transaction enhanced — extends service document with formatted date fields and additional metadata for reporting."
+semantic_vi: "Tài liệu dịch vụ nâng cao — mở rộng tài liệu dịch vụ với các trường ngày tháng đã định dạng và siêu dữ liệu bổ sung cho báo cáo."
+keywords:
+  - dịch vụ nâng cao
+  - báo cáo dịch vụ
+  - thông tin dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

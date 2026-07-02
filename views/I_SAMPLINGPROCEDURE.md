@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGPROCEDURE
 description: Samplingprocedure
+semantic_en: "sampling procedure — procedure master defining inspection type, sampling scheme, and determination rule"
+semantic_vi: "thủ tục lấy mẫu — chủ thủ tục định nghĩa loại kiểm tra, kế hoạch lấy mẫu, và quy tắc xác định"
+keywords:
+  - thủ tục lấy mẫu
+  - kế hoạch lấy mẫu
+  - kiểm tra chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

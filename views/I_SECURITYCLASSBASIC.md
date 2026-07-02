@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASSBASIC
 description: Securityclassbasic
+semantic_en: "security class basic data — SecurityClass, FinancialInstrProductCategory, SecurityClassName, SecurityClassStatus, IssueCurrency, and basic classification attributes"
+semantic_vi: "Dữ liệu cơ bản lớp chứng chỉ — lớp chứng chỉ, loại sản phẩm, trạng thái, tiền tệ phát hành"
+keywords:
+  - lớp chứng chỉ cơ bản
+  - dữ liệu chứng chỉ
+  - phân loại chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

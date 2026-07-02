@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETAPI01
 description: Serviceentrysheetapi 01
+semantic_en: "Service entry sheet — procurement document for service confirmation with approval status and material document references."
+semantic_vi: "Phiếu ghi nhận dịch vụ — tài liệu mua hàng để xác nhận dịch vụ với trạng thái phê duyệt và tham chiếu tài liệu vật liệu."
+keywords:
+  - phiếu ghi nhận dịch vụ
+  - xác nhận dịch vụ
+  - phê duyệt mua hàng
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

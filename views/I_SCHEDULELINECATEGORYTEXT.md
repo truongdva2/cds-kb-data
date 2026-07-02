@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINECATEGORYTEXT
 description: Schedule LineCATEGORYTEXT
+semantic_en: "schedule line category text — localized descriptions of schedule line categories for multiple languages."
+semantic_vi: "văn bản danh mục dòng lập kế hoạch — mô tả các danh mục dòng lập kế hoạch được bản địa hóa cho nhiều ngôn ngữ."
+keywords:
+  - danh mục
+  - tên
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

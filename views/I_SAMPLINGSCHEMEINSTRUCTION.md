@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGSCHEMEINSTRUCTION
 description: Samplingschemeinstruction
+semantic_en: "sampling scheme instruction — detailed instruction records with lot size limits, sample size, acceptance, and rejection counts"
+semantic_vi: "hướng dẫn kế hoạch lấy mẫu — ghi nhận hướng dẫn chi tiết với giới hạn kích thước lô, kích thước mẫu, chấp nhận, từ chối"
+keywords:
+  - hướng dẫn lấy mẫu
+  - kích thước lô
+  - chấp nhận từ chối
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_SEGMENTHIERNODET
 description: Segmenthiernodet
+semantic_en: "segment hierarchy node descriptions — Language, SegmentHierarchy, HierarchyNode, ValidityDateRange, HierarchyNodeText"
+semantic_vi: "Mô tả nút hệ thống phân cấp phân đoạn — văn bản nút theo ngôn ngữ và ngày hiệu lực"
+keywords:
+  - văn bản nút phân cấp
+  - mô tả nút hệ thống phân cấp
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTTYPE
 description: Salesschedgagrmttype
+semantic_en: "sales scheduling agreement types — enumeration of agreement types with processing type classification"
+semantic_vi: "loại thỏa thuận lên lịch bán hàng — danh mục loại thỏa thuận với phân loại kiểu xử lý"
+keywords:
+  - loại thỏa thuận
+  - kiểu xử lý
+  - phân loại
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

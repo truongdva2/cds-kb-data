@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACT
 description: Servicecontract
+semantic_en: "transaction data — service contract master records with document type and pricing references."
+semantic_vi: "dữ liệu giao dịch của hợp đồng dịch vụ chính."
+keywords:
+  - hợp đồng dịch vụ
+  - định giá
+  - loại chứng từ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

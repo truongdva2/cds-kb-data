@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONTEXTTP
 description: Salesquotationtexttp
+semantic_en: "sales quotation text transposition — long text and language descriptions for quotations"
+semantic_vi: "văn bản báo giá transposition — mô tả chi tiết và tương ứng ngôn ngữ của báo giá"
+keywords:
+  - văn bản báo giá
+  - mô tả dài
+  - ngôn ngữ
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

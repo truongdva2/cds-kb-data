@@ -1,6 +1,12 @@
 ---
 name: I_SA_EDOCCRYPTOGRAPHICSTMPID
 description: SA Edoccryptographicstmpid
+semantic_en: "eDocument KSA cryptographic stamp identification — cryptographic sequence numbers, validity periods, and hashed certificate data for KSA compliance"
+semantic_vi: "xác định dấu mật mã eDocument KSA — số thứ tự mật mã, thời kỳ hiệu lực, và dữ liệu chứng chỉ băm"
+keywords:
+  - dấu mật mã
+  - xác thực
+  - KSA
 app_component: CA-GTF-CSC-EDO-SA
 software_component: SAPSCORE
 release_state: released

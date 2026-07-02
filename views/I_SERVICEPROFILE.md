@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEPROFILE
 description: Serviceprofile
+semantic_en: "Service profile — reference data defining service availability profiles for service management configuration."
+semantic_vi: "Hồ sơ dịch vụ — dữ liệu tham chiếu xác định các hồ sơ khả dụng dịch vụ cho cấu hình quản lý dịch vụ."
+keywords:
+  - hồ sơ dịch vụ
+  - khả dụng dịch vụ
+  - cấu hình dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

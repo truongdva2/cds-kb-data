@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEORDERTEMPLATEITEMTP
 description: Service OrderTEMPLATEITEMTP
+semantic_en: "Service order template item TP — template line items for service orders with validity periods and category definitions."
+semantic_vi: "Mục mẫu lệnh dịch vụ TP — các mục dòng mẫu cho lệnh dịch vụ với khoảng thời gian hiệu lực và định nghĩa danh mục."
+keywords:
+  - mẫu lệnh dịch vụ
+  - mục mẫu
+  - khoảng thời gian hiệu lực
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

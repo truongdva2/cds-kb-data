@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINECATEGORY
 description: Schedule LineCATEGORY
+semantic_en: "schedule line category — domain values defining types of schedule lines in sales operations."
+semantic_vi: "danh mục dòng lập kế hoạch — giá trị miền xác định các loại dòng lập kế hoạch trong hoạt động bán hàng."
+keywords:
+  - danh mục
+  - dòng lập kế hoạch
+  - loại
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

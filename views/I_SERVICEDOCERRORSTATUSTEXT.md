@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCERRORSTATUSTEXT
 description: Service DocumentERRORSTATUSTEXT
+semantic_en: "text translation table — multilingual error status names for service transactions."
+semantic_vi: "bảng dịch ngôn ngữ cho tên trạng thái lỗi."
+keywords:
+  - lỗi
+  - trạng thái
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

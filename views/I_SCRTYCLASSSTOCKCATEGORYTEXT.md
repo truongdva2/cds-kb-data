@@ -1,6 +1,12 @@
 ---
 name: I_SCRTYCLASSSTOCKCATEGORYTEXT
 description: Scrtyclassstockcategorytext
+semantic_en: "security class stock category text — localized descriptions of security stock categories."
+semantic_vi: "văn bản danh mục cổ phiếu lớp bảo mật — mô tả các danh mục cổ phiếu bảo mật được bản địa hóa."
+keywords:
+  - bảo mật
+  - danh mục
+  - cổ phiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

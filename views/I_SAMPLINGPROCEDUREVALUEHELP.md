@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGPROCEDUREVALUEHELP
 description: Samplingprocedurevaluehelp
+semantic_en: "sampling procedure value help — enriched sampling procedure reference with scheme and type details"
+semantic_vi: "trợ giúp giá trị thủ tục lấy mẫu — tra cứu thủ tục lấy mẫu với chi tiết kế hoạch và loại"
+keywords:
+  - thủ tục lấy mẫu
+  - kế hoạch lấy mẫu
+  - chi tiết tra cứu
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

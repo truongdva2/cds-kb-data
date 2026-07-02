@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTSCHDLNHIST
 description: Salesschedgagrmtschdlnhist
+semantic_en: "schedule line history of sales scheduling agreement — historical record of confirmed deliveries and order quantities"
+semantic_vi: "lịch sử dòng lên lịch thỏa thuận — ghi nhận lịch sử giao hàng xác nhận và số lượng đơn hàng"
+keywords:
+  - lịch sử giao hàng
+  - số lượng xác nhận
+  - dòng lên lịch
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

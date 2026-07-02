@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONPARTNERTP
 description: Salesquotationpartnertp
+semantic_en: "sales quotation partner transposition — tracks partner functions, customer, supplier, personnel, and contact person associations"
+semantic_vi: "thông tin đối tác báo giá bán hàng — ghi nhận chức năng đối tác, khách hàng, nhà cung cấp, nhân viên liên lạc"
+keywords:
+  - đối tác báo giá
+  - chức năng đối tác
+  - khách hàng nhà cung cấp
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTITEMCUBE
 description: Salesschedgagrmtitemcube
+semantic_en: "sales scheduling agreement item cube — analytical view with creation date dimensions for agreement items"
+semantic_vi: "khối mục thỏa thuận lên lịch — khối phân tích với các chiều ngày tạo cho các mục thỏa thuận"
+keywords:
+  - phân tích thỏa thuận
+  - thời gian tạo
+  - khoảng thời gian
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

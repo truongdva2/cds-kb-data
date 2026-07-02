@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTBUSPROCCAT
 description: Settlmtbusproccat
+semantic_en: "Settlement business process category — reference domain providing process categories for settlement management."
+semantic_vi: "Danh mục quy trình kinh doanh quyết toán — miền tham chiếu cung cấp danh mục quy trình cho quản lý quyết toán."
+keywords:
+  - danh mục quy trình
+  - quyết toán kinh doanh
+  - phân loại quy trình
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

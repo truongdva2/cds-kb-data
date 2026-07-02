@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGSCHEMEITEM
 description: Samplingschemeitem
+semantic_en: "sampling scheme item — detail line with quality level percentages for scheme items"
+semantic_vi: "mục kế hoạch lấy mẫu — dòng chi tiết với phần trăm mức chất lượng cho các mục kế hoạch"
+keywords:
+  - mục kế hoạch
+  - mức chất lượng
+  - phần trăm
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

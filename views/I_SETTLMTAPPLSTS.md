@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTAPPLSTS
 description: Settlmtapplsts
+semantic_en: "Settlement application status — reference data providing status codes for settlement application processing."
+semantic_vi: "Trạng thái ứng dụng quyết toán — dữ liệu tham chiếu cung cấp mã trạng thái cho xử lý ứng dụng quyết toán."
+keywords:
+  - trạng thái quyết toán
+  - mã ứng dụng
+  - xử lý quyết toán
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

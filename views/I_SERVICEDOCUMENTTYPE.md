@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTTYPE
 description: Service DocumentUMENTTYPE
+semantic_en: "Service transaction type — defines service document types with associated profiles and process configurations."
+semantic_vi: "Loại giao dịch dịch vụ — xác định các loại tài liệu dịch vụ với các hồ sơ liên quan và cấu hình quy trình."
+keywords:
+  - loại dịch vụ
+  - cấu hình dịch vụ
+  - hồ sơ dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

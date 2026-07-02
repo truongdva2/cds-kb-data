@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP3TEXT
 description: Salesspcfcproductgroup 3TEXT
+semantic_en: "sales specific product group 3 text — language-dependent names for additional product group 3"
+semantic_vi: "văn bản nhóm sản phẩm cụ thể bán hàng 3 — tên nhóm sản phẩm bổ sung cấp 3 theo ngôn ngữ"
+keywords:
+  - tên nhóm sản phẩm
+  - ngôn ngữ
+  - cấp 3
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

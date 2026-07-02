@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERDELIVERYDOCUMENT
 description: Serial NumberDelivery DocumentUMENT
+semantic_en: "transaction data — serial numbers linked to delivery documents and their line items."
+semantic_vi: "dữ liệu giao dịch liên quan đến số seri trong các chứng từ giao hàng."
+keywords:
+  - số seri
+  - chứng từ giao hàng
+  - vật liệu
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

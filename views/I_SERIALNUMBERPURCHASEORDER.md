@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERPURCHASEORDER
 description: Serial NumberPurchase Order
+semantic_en: "transaction data — serial numbers linked to purchase orders and line items."
+semantic_vi: "dữ liệu về số seri trong các đơn đặt hàng mua."
+keywords:
+  - số seri
+  - đơn mua hàng
+  - vật liệu
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

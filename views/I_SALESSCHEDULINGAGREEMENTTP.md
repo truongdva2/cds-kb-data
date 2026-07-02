@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDULINGAGREEMENTTP
 description: Salesschedulingagreementtp
+semantic_en: "sales scheduling agreement transposition — agreement detail with validity period, reason, incoterms, and customer attributes"
+semantic_vi: "thỏa thuận lên lịch bán hàng transposition — chi tiết thỏa thuận với thời kỳ hiệu lực, lý do, điều kiện giao nhập hàng"
+keywords:
+  - thỏa thuận lên lịch
+  - thời kỳ hiệu lực
+  - điều kiện giao nhập hàng
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

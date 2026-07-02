@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEMSUCCSSR_3
 description: Service DocumentUMENTITEMSUCCSSR 3
+semantic_en: "Service item successor relationship variant — tracks sequential relationships between service items with workflow timing information."
+semantic_vi: "Biến thể mối quan hệ mục dịch vụ kế tiếp — theo dõi mối quan hệ tuần tự giữa các mục dịch vụ với thông tin thời gian quy trình công việc."
+keywords:
+  - mục kế tiếp
+  - liên kết tuần tự
+  - dịch vụ tiếp theo
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

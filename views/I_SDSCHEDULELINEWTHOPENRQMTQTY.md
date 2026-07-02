@@ -1,6 +1,12 @@
 ---
 name: I_SDSCHEDULELINEWTHOPENRQMTQTY
 description: SDSchedule LineWTHOPENRQMTQTY
+semantic_en: "schedule line data with open requirement quantities — SalesDocument, SalesDocumentItem, ScheduleLine, Product, Plant, StorageLocation, and other ATP-relevant columns"
+semantic_vi: "Dữ liệu dòng lịch trình với số lượng yêu cầu mở — bao gồm tài liệu bán hàng, mặt hàng, sản phẩm, nhà máy và kho lưu trữ"
+keywords:
+  - dòng lịch trình mở
+  - yêu cầu số lượng
+  - lập kế hoạch bán hàng
 app_component: CA-ATP-2CL
 software_component: SAPSCORE
 release_state: released

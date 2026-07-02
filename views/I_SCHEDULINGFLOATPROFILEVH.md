@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGFLOATPROFILEVH
 description: Schedulingfloatprofilevh
+semantic_en: "scheduling float profile — value help view listing available scheduling float profiles for production planning."
+semantic_vi: "hồ sơ nổi lập kế hoạch — chế độ xem trợ giúp giá trị liệt kê các hồ sơ nổi lập kế hoạch có sẵn cho lập kế hoạch sản xuất."
+keywords:
+  - hồ sơ
+  - float
+  - lập kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

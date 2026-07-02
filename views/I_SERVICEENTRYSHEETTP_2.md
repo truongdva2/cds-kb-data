@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETTP_2
 description: Serviceentrysheettp 2
+semantic_en: "Service entry sheet header TP — master record for service entry sheets with supplier and approval information."
+semantic_vi: "Tiêu đề phiếu ghi nhận dịch vụ TP — bản ghi chính cho phiếu ghi nhận dịch vụ với thông tin nhà cung cấp và phê duyệt."
+keywords:
+  - tiêu đề phiếu dịch vụ
+  - thông tin nhà cung cấp
+  - phê duyệt dịch vụ
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

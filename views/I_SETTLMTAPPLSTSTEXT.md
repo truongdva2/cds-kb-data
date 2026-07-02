@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTAPPLSTSTEXT
 description: Settlmtapplststext
+semantic_en: "Settlement application status text — localized status descriptions for settlement application processing across languages."
+semantic_vi: "Văn bản trạng thái ứng dụng quyết toán — mô tả trạng thái đã bản địa hóa cho xử lý ứng dụng quyết toán trên các ngôn ngữ."
+keywords:
+  - mô tả trạng thái quyết toán
+  - ngôn ngữ trạng thái
+  - tên trạng thái
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

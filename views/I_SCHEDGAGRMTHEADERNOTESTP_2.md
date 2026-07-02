@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTHEADERNOTESTP_2
 description: Schedgagrmtheadernotestp 2
+semantic_en: "scheduling agreement header notes — transactional view of notes and text documentation for agreement headers with change tracking."
+semantic_vi: "ghi chú tiêu đề hợp đồng lập kế hoạch — chế độ xem giao dịch của ghi chú và tài liệu văn bản cho các tiêu đề hợp đồng với theo dõi thay đổi."
+keywords:
+  - ghi chú
+  - thay đổi
+  - tài liệu
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

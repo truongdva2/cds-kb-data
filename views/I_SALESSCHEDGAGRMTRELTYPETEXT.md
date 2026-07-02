@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTRELTYPETEXT
 description: Salesschedgagrmtreltypetext
+semantic_en: "sales scheduling agreement release type text — language-dependent descriptions of release types"
+semantic_vi: "văn bản loại phát hành thỏa thuận — mô tả loại phát hành theo ngôn ngữ"
+keywords:
+  - loại phát hành
+  - mô tả ngôn ngữ
+  - thỏa thuận
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

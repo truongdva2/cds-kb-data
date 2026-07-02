@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTPRIORITY
 description: Service DocumentUMENTPRIORITY
+semantic_en: "Service transaction priority — reference data providing priority codes for service documents."
+semantic_vi: "Ưu tiên giao dịch dịch vụ — dữ liệu tham chiếu cung cấp mã ưu tiên cho tài liệu dịch vụ."
+keywords:
+  - ưu tiên dịch vụ
+  - mã ưu tiên
+  - cấp độ dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

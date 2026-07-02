@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERPHYSINVENTORYDOC
 description: Serial NumberPHYSINVENTORYDOC
+semantic_en: "transaction data — serial numbers captured during physical inventory counts by fiscal period."
+semantic_vi: "dữ liệu về số seri trong các chứng từ kiểm kê vật lý."
+keywords:
+  - số seri
+  - kiểm kê vật lý
+  - tồn kho
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

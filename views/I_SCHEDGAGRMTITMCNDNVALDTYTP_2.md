@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITMCNDNVALDTYTP_2
 description: Schedgagrmtitmcndnvaldtytp 2
+semantic_en: "scheduling agreement item condition validity — tracks condition validity periods and deletion status for item-level pricing conditions."
+semantic_vi: "hiệu lực điều kiện mục hợp đồng lập kế hoạch — theo dõi các kỳ hiệu lực điều kiện và trạng thái xóa cho các điều kiện định giá mức mục."
+keywords:
+  - hiệu lực
+  - ngày bắt đầu
+  - ngày kết thúc
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

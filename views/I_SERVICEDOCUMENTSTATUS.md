@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTSTATUS
 description: Service DocumentUMENTSTATUS
+semantic_en: "Service document lifecycle status — reference data for document status codes supporting workflow states."
+semantic_vi: "Trạng thái vòng đời tài liệu dịch vụ — dữ liệu tham chiếu cho mã trạng thái tài liệu hỗ trợ các trạng thái quy trình công việc."
+keywords:
+  - trạng thái tài liệu
+  - vòng đời dịch vụ
+  - mã trạng thái
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTPRIORITYTEXT
 description: Service DocumentUMENTPRIORITYTEXT
+semantic_en: "Service transaction priority text — localized descriptions for priority codes used in service documents."
+semantic_vi: "Văn bản ưu tiên giao dịch dịch vụ — mô tả đã bản địa hóa cho mã ưu tiên được sử dụng trong tài liệu dịch vụ."
+keywords:
+  - tên ưu tiên
+  - mô tả ưu tiên
+  - ngôn ngữ ưu tiên
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

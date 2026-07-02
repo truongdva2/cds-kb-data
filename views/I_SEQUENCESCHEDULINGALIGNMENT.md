@@ -1,6 +1,11 @@
 ---
 name: I_SEQUENCESCHEDULINGALIGNMENT
 description: Sequenceschedulingalignment
+semantic_en: "sequence scheduling alignment enumeration — SequenceSchedulingAlignment codes"
+semantic_vi: "Danh mục căn chỉnh lập lịch trình tự — mã căn chỉnh lập lịch"
+keywords:
+  - căn chỉnh lập lịch trình tự
+  - mã căn chỉnh lập lịch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

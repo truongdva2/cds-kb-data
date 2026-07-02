@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGFLOATPROFILE
 description: Schedulingfloatprofile
+semantic_en: "scheduling float profile — production scheduling parameters including float periods and release windows for work days."
+semantic_vi: "hồ sơ nổi lập kế hoạch — các tham số lập kế hoạch sản xuất bao gồm kỳ nổi và cửa sổ phát hành cho ngày làm việc."
+keywords:
+  - lập kế hoạch
+  - float
+  - khoảng thời gian
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

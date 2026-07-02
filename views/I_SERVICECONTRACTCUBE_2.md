@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTCUBE_2
 description: Servicecontractcube 2
+semantic_en: "analytical cube — service contract business metrics including amounts, status, and currency."
+semantic_vi: "khối dữ liệu phân tích cho số liệu kinh doanh hợp đồng dịch vụ."
+keywords:
+  - hợp đồng dịch vụ
+  - phân tích
+  - số liệu
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

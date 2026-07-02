@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONTP
 description: Salesquotationtp
+semantic_en: "sales quotation transposition — quotation header with sold-to party, organization, and customer purchase order details"
+semantic_vi: "báo giá transposition — đầu mục báo giá với đối tượng bán, tổ chức, và thông tin đơn hàng khách hàng"
+keywords:
+  - báo giá bán hàng
+  - đơn vị tổ chức
+  - đơn hàng khách hàng
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTENHCD
 description: Servicecontractenhcd
+semantic_en: "transaction data — enhanced service contract master with detailed character and reference fields."
+semantic_vi: "dữ liệu giao dịch hợp đồng dịch vụ mở rộng."
+keywords:
+  - hợp đồng dịch vụ
+  - chi tiết
+  - tham chiếu
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

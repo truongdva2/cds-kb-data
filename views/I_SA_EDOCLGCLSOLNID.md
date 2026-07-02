@@ -1,6 +1,12 @@
 ---
 name: I_SA_EDOCLGCLSOLNID
 description: SA Edoclgclsolnid
+semantic_en: "eDocument KSA for logical solution unit — organization unit data, company code, industry classification, and cryptographic sequence for e-invoice registration"
+semantic_vi: "eDocument KSA cho đơn vị giải pháp logic — dữ liệu đơn vị tổ chức, mã công ty, phân loại ngành, và thứ tự mật mã"
+keywords:
+  - giải pháp logic
+  - mã công ty
+  - phân loại ngành
 app_component: CA-GTF-CSC-EDO-SA
 software_component: SAPSCORE
 release_state: released

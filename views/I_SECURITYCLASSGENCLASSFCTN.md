@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYCLASSGENCLASSFCTN
 description: Securityclassgenclassfctn
+semantic_en: "security class general classification enumeration — ScrtyClassGenClassification codes"
+semantic_vi: "Danh mục phân loại chung lớp chứng chỉ — mã phân loại chung"
+keywords:
+  - phân loại chung chứng chỉ
+  - mã phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

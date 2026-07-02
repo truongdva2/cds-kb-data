@@ -1,6 +1,12 @@
 ---
 name: I_SCHDAGRSCHDLNENHCDAPI01
 description: Schdagrschdlnenhcdapi 01
+semantic_en: "scheduling agreement with schedule line details enhanced API — agreement and line item details with procurement hub source system and unique identifier"
+semantic_vi: "thỏa thuận lên lịch với chi tiết dòng lên lịch API nâng cao — chi tiết thỏa thuận và mục dòng với hệ thống nguồn trung tâm mua hàng"
+keywords:
+  - thỏa thuận lên lịch
+  - chi tiết dòng
+  - trung tâm mua hàng
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

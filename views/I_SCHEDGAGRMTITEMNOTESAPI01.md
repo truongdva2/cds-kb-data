@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITEMNOTESAPI01
 description: Schedgagrmtitemnotesapi 01
+semantic_en: "scheduling agreement item notes — textual notes and documentation associated with individual agreement line items in multiple languages."
+semantic_vi: "ghi chú mục hợp đồng lập kế hoạch — ghi chú văn bản và tài liệu liên quan đến các mục dòng hợp đồng riêng lẻ bằng nhiều ngôn ngữ."
+keywords:
+  - ghi chú mục
+  - văn bản
+  - ngôn ngữ
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

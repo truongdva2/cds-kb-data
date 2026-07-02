@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERPROFILEVH
 description: Serial NumberPROFILEVH
+semantic_en: "master data value help — serial number profile descriptions for inventory configuration."
+semantic_vi: "danh sách giá trị cho hồ sơ số seri."
+keywords:
+  - hồ sơ số seri
+  - cấu hình
+  - tồn kho
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

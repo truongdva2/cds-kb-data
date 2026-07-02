@@ -1,6 +1,12 @@
 ---
 name: I_SAPGUIICON
 description: Sapguiicon
+semantic_en: "SAP GUI icon — icon master record mapping ASCII codes to graphical user interface symbols"
+semantic_vi: "biểu tượng SAP GUI — chủ biểu tượng ánh xạ mã ASCII tới ký hiệu giao diện người dùng"
+keywords:
+  - biểu tượng GUI
+  - mã ASCII
+  - giao diện
 app_component: BC-ABA-SC
 software_component: SAP_BASIS
 release_state: released

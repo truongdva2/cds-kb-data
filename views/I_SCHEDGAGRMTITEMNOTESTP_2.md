@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITEMNOTESTP_2
 description: Schedgagrmtitemnotestp 2
+semantic_en: "scheduling agreement item notes — transactional notes for individual agreement items with change audit trail."
+semantic_vi: "ghi chú mục hợp đồng lập kế hoạch — ghi chú giao dịch cho các mục hợp đồng riêng lẻ với đường dẫn kiểm toán thay đổi."
+keywords:
+  - ghi chú mục
+  - thay đổi
+  - mục
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

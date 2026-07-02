@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTSUCCESSOR
 description: Service DocumentUMENTSUCCESSOR
+semantic_en: "Follow-up service transaction — captures successor relationships between service documents for process continuity and traceability."
+semantic_vi: "Tài liệu dịch vụ kế tiếp — ghi lại mối quan hệ kế tiếp giữa các tài liệu dịch vụ để đảm bảo tính liên tục và khả năng truy xuất của quy trình."
+keywords:
+  - tài liệu kế tiếp
+  - liên kết dịch vụ
+  - mối quan hệ dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SESPRICINGELEMENTTP_2
 description: Sespricingelementtp 2
+semantic_en: "Service entry sheet pricing element TP — captures pricing procedure details including conditions and calculated values."
+semantic_vi: "Yếu tố định giá phiếu ghi nhận dịch vụ TP — ghi lại chi tiết thủ tục định giá bao gồm điều kiện và giá trị được tính."
+keywords:
+  - yếu tố định giá
+  - thủ tục định giá
+  - điều kiện giá
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

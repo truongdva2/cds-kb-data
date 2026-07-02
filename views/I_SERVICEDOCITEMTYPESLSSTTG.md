@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCITEMTYPESLSSTTG
 description: Service DocumentITEMTYPESLSSTTG
+semantic_en: "master data — sales settings for service line item categories including quotation handling."
+semantic_vi: "dữ liệu chính cài đặt bán hàng cho danh mục dòng dịch vụ."
+keywords:
+  - bán hàng
+  - danh mục dòng
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

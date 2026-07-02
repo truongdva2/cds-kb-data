@@ -1,6 +1,12 @@
 ---
 name: I_SCRTYCLASSGENCLASSFCTNTEXT
 description: Scrtyclassgenclassfctntext
+semantic_en: "security class general classification text — localized security classification names for securities."
+semantic_vi: "văn bản phân loại chung lớp bảo mật — tên phân loại bảo mật được bản địa hóa cho chứng chỉ."
+keywords:
+  - bảo mật
+  - phân loại
+  - chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

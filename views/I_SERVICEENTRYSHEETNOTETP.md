@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETNOTETP
 description: Serviceentrysheetnotetp
+semantic_en: "Service entry sheet note — master-level text notes and annotations for complete service entry sheets."
+semantic_vi: "Ghi chú phiếu ghi nhận dịch vụ — ghi chú văn bản và chú thích mức độ chính cho các phiếu ghi nhận dịch vụ hoàn chỉnh."
+keywords:
+  - ghi chú phiếu dịch vụ
+  - chú thích toàn bộ
+  - tài liệu dịch vụ
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

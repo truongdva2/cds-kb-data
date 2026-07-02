@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCITMCUSTPRCGELMNT
 description: Settlmtdocitmcustprcgelmnt
+semantic_en: "Settlement document item customer pricing element — line-level pricing details and conditions for customer settlement pricing."
+semantic_vi: "Yếu tố định giá khách hàng mục tài liệu quyết toán — chi tiết định giá mức dòng và điều kiện cho định giá quyết toán khách hàng."
+keywords:
+  - yếu tố định giá mục
+  - điều kiện giá dòng
+  - định giá chi tiết
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

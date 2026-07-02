@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTITMAPI01
 description: Schedgagrmtitmapi 01
+semantic_en: "purchase scheduling agreement item — individual line items in scheduling agreements with material, delivery location, and incoterms details."
+semantic_vi: "mục hợp đồng lập kế hoạch mua hàng — các mục dòng riêng lẻ trong hợp đồng lập kế hoạch với chi tiết vật liệu, vị trí giao hàng, và điều khoản Incoterms."
+keywords:
+  - mục hợp đồng
+  - vật liệu
+  - địa điểm giao hàng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

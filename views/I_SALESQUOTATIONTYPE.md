@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONTYPE
 description: Salesquotationtype
+semantic_en: "sales quotation types — enumeration of quotation document types supported in sales"
+semantic_vi: "loại báo giá bán hàng — danh mục các loại tài liệu báo giá"
+keywords:
+  - loại báo giá
+  - phân loại tài liệu
+  - bán hàng
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

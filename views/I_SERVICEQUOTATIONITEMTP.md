@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEQUOTATIONITEMTP
 description: Servicequotationitemtp
+semantic_en: "Service quotation item TP — line items within service quotations with product and parent-child hierarchy information."
+semantic_vi: "Mục báo giá dịch vụ TP — các mục dòng trong báo giá dịch vụ với thông tin sản phẩm và phân cấp cha-con."
+keywords:
+  - mục báo giá dịch vụ
+  - chi tiết sản phẩm
+  - phân cấp mục
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

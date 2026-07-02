@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTRELTYPE
 description: Salesschedgagrmtreltype
+semantic_en: "sales scheduling agreement release type — enumeration of release types for scheduling agreement schedule lines"
+semantic_vi: "loại phát hành thỏa thuận lên lịch — danh mục các loại phát hành cho dòng lên lịch"
+keywords:
+  - loại phát hành
+  - dòng lên lịch
+  - thỏa thuận
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

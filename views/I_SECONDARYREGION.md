@@ -1,6 +1,12 @@
 ---
 name: I_SECONDARYREGION
 description: Secondaryregion
+semantic_en: "secondary region master data — Country, Region, SecondaryRegion identifiers"
+semantic_vi: "Dữ liệu chính quản lý vùng phụ — bao gồm quốc gia, vùng và vùng phụ"
+keywords:
+  - vùng phụ
+  - khu vực thứ cấp
+  - quốc gia vùng
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

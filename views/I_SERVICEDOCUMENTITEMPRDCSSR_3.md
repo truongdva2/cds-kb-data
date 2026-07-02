@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEMPRDCSSR_3
 description: Service DocumentUMENTITEMPRDCSSR 3
+semantic_en: "Service item predecessor relationship variant — tracks sequential relationships between service items with workflow creation timestamps."
+semantic_vi: "Biến thể mối quan hệ mục dịch vụ tiền nhiệm — theo dõi mối quan hệ tuần tự giữa các mục dịch vụ với dấu thời gian tạo quy trình công việc."
+keywords:
+  - tiền nhiệm dịch vụ
+  - tuần tự mục dịch vụ
+  - lịch sử dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

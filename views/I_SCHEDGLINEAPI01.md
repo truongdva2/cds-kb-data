@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGLINEAPI01
 description: Schedglineapi 01
+semantic_en: "schedule line in purchase scheduling agreement — individual schedule line entries with delivery dates, quantities, and reminders."
+semantic_vi: "dòng lập kế hoạch trong hợp đồng lập kế hoạch mua — các mục dòng lập kế hoạch riêng lẻ với ngày giao hàng, số lượng, và nhắc nhở."
+keywords:
+  - dòng lập kế hoạch
+  - ngày giao hàng
+  - số lượng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

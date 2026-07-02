@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCCATTEXT
 description: Settlmtdoccattext
+semantic_en: "Settlement document category text — localized category descriptions for document types in settlement management."
+semantic_vi: "Văn bản danh mục tài liệu quyết toán — mô tả danh mục đã bản địa hóa cho các loại tài liệu trong quản lý quyết toán."
+keywords:
+  - mô tả danh mục tài liệu
+  - tên danh mục
+  - ngôn ngữ phân loại
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

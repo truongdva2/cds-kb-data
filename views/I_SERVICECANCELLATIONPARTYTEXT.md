@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECANCELLATIONPARTYTEXT
 description: Servicecancellationpartytext
+semantic_en: "text translation table — multilingual names for service cancellation party types."
+semantic_vi: "bảng dịch ngôn ngữ cho tên loại bên hủy hợp đồng."
+keywords:
+  - hủy hợp đồng
+  - bên
+  - văn bản
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

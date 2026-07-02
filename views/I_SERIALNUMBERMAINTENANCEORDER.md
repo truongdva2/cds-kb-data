@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERMAINTENANCEORDER
 description: Serial NumberMaintenance Order
+semantic_en: "transaction data — serial numbers of equipment referenced in maintenance orders."
+semantic_vi: "dữ liệu về số seri của thiết bị trong các đơn đặt hàng bảo trì."
+keywords:
+  - số seri
+  - bảo trì
+  - thiết bị
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYEXCHANGE
 description: Securityexchange
+semantic_en: "securities exchange master — SecurityExchange, Currency, CountryISOCode, SecurityExchangeShortName"
+semantic_vi: "Dữ liệu chính sàn giao dịch chứng chỉ — mã sàn, tiền tệ, quốc gia, tên viết tắt sàn"
+keywords:
+  - sàn giao dịch chứng chỉ
+  - mã sàn
+  - tiền tệ sàn giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

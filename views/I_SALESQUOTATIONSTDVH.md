@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONSTDVH
 description: Salesquotationstdvh
+semantic_en: "sales quotation standard value help — reference view for sales quotation lookup across sales organization and distribution channel"
+semantic_vi: "trợ giúp giá trị chuẩn báo giá bán hàng — cung cấp tra cứu báo giá theo tổ chức bán hàng"
+keywords:
+  - báo giá bán hàng
+  - tra cứu giá trị
+  - kênh phân phối
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

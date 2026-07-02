@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINEDATEKEY
 description: Schedule LineDATEKEY
+semantic_en: "schedule line date key — domain values representing date categories for schedule line delivery dates."
+semantic_vi: "khóa ngày dòng lập kế hoạch — giá trị miền đại diện cho các danh mục ngày cho ngày giao hàng dòng lập kế hoạch."
+keywords:
+  - ngày
+  - khóa
+  - danh mục
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

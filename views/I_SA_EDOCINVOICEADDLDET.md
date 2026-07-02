@@ -1,6 +1,12 @@
 ---
 name: I_SA_EDOCINVOICEADDLDET
 description: SA Edocinvoiceaddldet
+semantic_en: "eDocument KSA country/region specific data — invoice sequence, transaction code, QR code, and compliance details for electronic invoicing"
+semantic_vi: "dữ liệu cụ thể quốc gia/vùng eDocument KSA — thứ tự hoá đơn, mã giao dịch, mã QR, và chi tiết tuân thủ"
+keywords:
+  - hoá đơn điện tử
+  - mã QR
+  - tuân thủ
 app_component: CA-GTF-CSC-EDO-SA
 software_component: SAPSCORE
 release_state: released

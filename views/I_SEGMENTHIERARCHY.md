@@ -1,6 +1,12 @@
 ---
 name: I_SEGMENTHIERARCHY
 description: Segmenthierarchy
+semantic_en: "segment hierarchy master — SegmentHierarchy, ValidityDateRange, HierarchyShortID, change tracking metadata"
+semantic_vi: "Dữ liệu chính hệ thống phân cấp phân đoạn — mã hệ thống phân cấp, ngày hiệu lực, ID viết tắt"
+keywords:
+  - hệ thống phân cấp phân đoạn
+  - mã hệ thống phân cấp
+  - ngày hiệu lực
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

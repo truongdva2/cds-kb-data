@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTPARTNERTP_2
 description: Schedgagrmtpartnertp 2
+semantic_en: "scheduling agreement partner — transactional partner data with functional roles and creation audit for agreement items."
+semantic_vi: "đối tác hợp đồng lập kế hoạch — dữ liệu đối tác giao dịch với vai trò chức năng và kiểm toán tạo cho mục hợp đồng."
+keywords:
+  - đối tác
+  - vai trò
+  - nhà cung cấp
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

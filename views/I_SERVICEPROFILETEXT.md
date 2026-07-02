@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEPROFILETEXT
 description: Serviceprofiletext
+semantic_en: "Service profile text — localized names and descriptions for service availability profiles across languages."
+semantic_vi: "Văn bản hồ sơ dịch vụ — tên và mô tả đã bản địa hóa cho các hồ sơ khả dụng dịch vụ trên các ngôn ngữ."
+keywords:
+  - tên hồ sơ dịch vụ
+  - mô tả khả dụng
+  - ngôn ngữ hồ sơ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

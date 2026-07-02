@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTHDRAPI01
 description: Schedgagrmthdrapi 01
+semantic_en: "purchase scheduling agreement header — master document data for scheduling agreements including document type, currency, payment terms, and organizational context."
+semantic_vi: "tiêu đề hợp đồng lập kế hoạch mua hàng — dữ liệu tài liệu chính cho các hợp đồng lập kế hoạch bao gồm loại tài liệu, tiền tệ, điều khoản thanh toán, và ngữ cảnh tổ chức."
+keywords:
+  - hợp đồng lập kế hoạch
+  - đơn vị mua hàng
+  - tiền tệ tài liệu
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

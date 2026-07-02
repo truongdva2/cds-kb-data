@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTACCTTP_2
 description: Schedgagrmtaccttp 2
+semantic_en: "scheduling agreement account assignment — cost center, fixed asset, project, and activity allocation for agreement items"
+semantic_vi: "phân bổ tài khoản thỏa thuận lên lịch — phân bổ trung tâm chi phí, tài sản cố định, dự án, hoạt động cho mục thỏa thuận"
+keywords:
+  - phân bổ tài khoản
+  - trung tâm chi phí
+  - phân bổ dự án
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

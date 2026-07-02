@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMTDELIVSCHED
 description: Salesschedgagrmtdelivsched
+semantic_en: "delivery schedule of sales scheduling agreement — cumulative quantities, scheduled dates, and delivery milestones"
+semantic_vi: "lịch giao hàng theo thỏa thuận lên lịch — số lượng tích lũy, ngày lên lịch, và các mốc giao hàng"
+keywords:
+  - lịch giao hàng
+  - số lượng tích lũy
+  - ngày giao hàng
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

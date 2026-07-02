@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLEDETERMINATIONRULETEXT
 description: Sampledeterminationruletext
+semantic_en: "sample determination rule text — language-specific descriptions of sampling rules"
+semantic_vi: "văn bản quy tắc xác định mẫu — mô tả quy tắc chọn mẫu theo ngôn ngữ"
+keywords:
+  - quy tắc mẫu
+  - mô tả ngôn ngữ
+  - kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

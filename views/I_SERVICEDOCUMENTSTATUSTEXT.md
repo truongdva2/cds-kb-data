@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTSTATUSTEXT
 description: Service DocumentUMENTSTATUSTEXT
+semantic_en: "Service document status text — localized status names and descriptions for document lifecycle states."
+semantic_vi: "Văn bản trạng thái tài liệu dịch vụ — tên và mô tả trạng thái đã bản địa hóa cho các trạng thái vòng đời tài liệu."
+keywords:
+  - tên trạng thái
+  - mô tả vòng đời
+  - ngôn ngữ trạng thái
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

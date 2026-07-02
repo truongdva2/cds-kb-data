@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYCLASSTRANSFTYPETEXT
 description: Securityclasstransftypetext
+semantic_en: "security class transfer type descriptions — Language, SecurityClassTransferType, SecurityClassTransferTypeName, ScrtyClTransfTypeDescription"
+semantic_vi: "Mô tả loại chuyển nhượng lớp chứng chỉ — tên loại và mô tả theo ngôn ngữ"
+keywords:
+  - tên loại chuyển nhượng
+  - mô tả chuyển nhượng chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

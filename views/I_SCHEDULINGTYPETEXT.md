@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGTYPETEXT
 description: Schedulingtypetext
+semantic_en: "scheduling type text — localized names and descriptions of scheduling types for production planning methods."
+semantic_vi: "văn bản loại lập kế hoạch — tên và mô tả được bản địa hóa của các loại lập kế hoạch cho các phương pháp lập kế hoạch sản xuất."
+keywords:
+  - lập kế hoạch
+  - loại
+  - tên
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

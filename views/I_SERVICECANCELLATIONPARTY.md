@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECANCELLATIONPARTY
 description: Servicecancellationparty
+semantic_en: "master data value help — party roles authorized to cancel service contracts."
+semantic_vi: "danh sách giá trị cho các bên có thể hủy hợp đồng dịch vụ."
+keywords:
+  - hủy hợp đồng
+  - dịch vụ
+  - bên
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

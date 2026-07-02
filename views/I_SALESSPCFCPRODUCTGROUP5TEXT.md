@@ -1,6 +1,12 @@
 ---
 name: I_SALESSPCFCPRODUCTGROUP5TEXT
 description: Salesspcfcproductgroup 5TEXT
+semantic_en: "sales specific product group 5 text — language-dependent names for additional product group 5"
+semantic_vi: "văn bản nhóm sản phẩm cụ thể bán hàng 5 — tên nhóm sản phẩm bổ sung cấp 5 theo ngôn ngữ"
+keywords:
+  - tên nhóm sản phẩm
+  - ngôn ngữ
+  - cấp 5
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

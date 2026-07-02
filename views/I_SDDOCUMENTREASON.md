@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTREASON
 description: Sddocumentreason
+semantic_en: "sales document reason — reasons for sales orders with self-billing and retro-billing usage indicators."
+semantic_vi: "lý do tài liệu bán hàng — lý do cho đơn đặt hàng bán hàng với chỉ số sử dụng tự lập hóa đơn và lập hóa đơn hồi tố."
+keywords:
+  - lý do
+  - tài liệu bán
+  - đơn hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULINGREDUCTIONLEVELTEXT
 description: Schedulingreductionleveltext
+semantic_en: "scheduling reduction level text — localized descriptions of scheduling reduction levels used in MPS planning."
+semantic_vi: "văn bản mức giảm lập kế hoạch — mô tả các mức giảm lập kế hoạch được bản địa hóa được sử dụng trong lập kế hoạch MPS."
+keywords:
+  - giảm
+  - mức
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

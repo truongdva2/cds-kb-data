@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTHDRTP_2
 description: Schedgagrmthdrtp 2
+semantic_en: "scheduling agreement header — core agreement data with document classification, creation details, currency, and party organizational roles."
+semantic_vi: "tiêu đề hợp đồng lập kế hoạch — dữ liệu hợp đồng cốt lõi với phân loại tài liệu, chi tiết tạo, tiền tệ, và vai trò tổ chức của các bên."
+keywords:
+  - hợp đồng lập kế hoạch
+  - tiêu đề
+  - công ty
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

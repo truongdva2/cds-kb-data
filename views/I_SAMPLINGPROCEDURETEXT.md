@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGPROCEDURETEXT
 description: Samplingproceduretext
+semantic_en: "sampling procedure text — language-dependent textual descriptions for sampling procedures"
+semantic_vi: "văn bản thủ tục lấy mẫu — mô tả ngôn ngữ của thủ tục lấy mẫu"
+keywords:
+  - mô tả thủ tục
+  - ngôn ngữ
+  - lấy mẫu
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

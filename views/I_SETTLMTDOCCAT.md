@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCCAT
 description: Settlmtdoccat
+semantic_en: "Settlement document category — reference domain providing document classification for settlement processing."
+semantic_vi: "Danh mục tài liệu quyết toán — miền tham chiếu cung cấp phân loại tài liệu cho xử lý quyết toán."
+keywords:
+  - danh mục tài liệu
+  - phân loại quyết toán
+  - loại tài liệu
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

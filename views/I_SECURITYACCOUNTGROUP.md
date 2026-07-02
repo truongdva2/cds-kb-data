@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYACCOUNTGROUP
 description: Securityaccountgroup
+semantic_en: "securities account group master — CompanyCode, SecurityAccountGroup, SecurityAccountGroupName"
+semantic_vi: "Dữ liệu chính nhóm tài khoản chứng chỉ — mã nhóm và tên nhóm tài khoản"
+keywords:
+  - nhóm tài khoản chứng chỉ
+  - tên nhóm tài khoản
+  - công ty
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

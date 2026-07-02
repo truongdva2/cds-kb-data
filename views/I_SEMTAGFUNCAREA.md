@@ -1,6 +1,11 @@
 ---
 name: I_SEMTAGFUNCAREA
 description: Semtagfuncarea
+semantic_en: "functional area with semantic tag — GLAccountHierarchy, HierarchyNode, SemanticTag, ValidityDateRange, FunctionalArea"
+semantic_vi: "Lĩnh vực chức năng với nhãn ngữ nghĩa — hệ thống phân cấp, nút, nhãn, lĩnh vực chức năng"
+keywords:
+  - lĩnh vực chức năng nhãn ngữ nghĩa
+  - hệ thống phân cấp lĩnh vực
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

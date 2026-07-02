@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERSALESORDER
 description: Serial NumberSales Order
+semantic_en: "transaction data — serial numbers linked to sales orders and fulfillment items."
+semantic_vi: "dữ liệu về số seri trong các đơn đặt hàng bán."
+keywords:
+  - số seri
+  - đơn bán hàng
+  - vật liệu
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

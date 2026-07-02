@@ -1,6 +1,12 @@
 ---
 name: I_SALESSCHEDGAGRMT
 description: Salesschedgagrmt
+semantic_en: "sales scheduling agreement — header record tracking agreement type, processing status, and organizational details"
+semantic_vi: "thỏa thuận lên lịch bán hàng — ghi nhận kiểu thỏa thuận, trạng thái xử lý, và chi tiết tổ chức"
+keywords:
+  - thỏa thuận lên lịch
+  - lịch giao hàng
+  - tổ chức bán hàng
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

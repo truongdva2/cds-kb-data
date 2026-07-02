@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTSUBCONTRGCOMPTP_2
 description: Schedgagrmtsubcontrgcomptp 2
+semantic_en: "scheduling agreement subcontracting component — material requirements for subcontracting with reservation and requirement dates."
+semantic_vi: "thành phần gia công theo hợp đồng lập kế hoạch — yêu cầu vật liệu cho gia công với ngày đặt trữ và yêu cầu."
+keywords:
+  - gia công
+  - vật liệu
+  - yêu cầu
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

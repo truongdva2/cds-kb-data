@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTHEADERNOTESAPI01
 description: Schedgagrmtheadernotesapi 01
+semantic_en: "scheduling agreement header notes — textual notes and documentation attached to agreement headers in multiple languages."
+semantic_vi: "ghi chú tiêu đề hợp đồng lập kế hoạch — ghi chú văn bản và tài liệu đính kèm vào các tiêu đề hợp đồng bằng nhiều ngôn ngữ."
+keywords:
+  - ghi chú
+  - tài liệu
+  - ngôn ngữ
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

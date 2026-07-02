@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONFIRMATIONITEMTP
 description: Serviceconfirmationitemtp
+semantic_en: "transactional projection — service confirmation line items with product and quantity details."
+semantic_vi: "hình chiếu giao dịch cho các dòng xác nhận dịch vụ."
+keywords:
+  - xác nhận dịch vụ
+  - dòng
+  - sản phẩm
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

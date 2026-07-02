@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNOEXPLICITNESSLEVEL
 description: Serialnoexplicitnesslevel
+semantic_en: "master data value help — domain values for serial number explicitness levels used in inventory tracking."
+semantic_vi: "danh sách giá trị miền cho mức độ rõ ràng của số seri được sử dụng trong quản lý kho."
+keywords:
+  - số seri
+  - mức độ rõ ràng
+  - quản lý kho
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

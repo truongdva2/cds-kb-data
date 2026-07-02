@@ -1,6 +1,12 @@
 ---
 name: I_SERIALNUMBERMANUFACTURINGORD
 description: Serial NumberMANUFACTURINGORD
+semantic_en: "transaction data — serial numbers linked to manufacturing orders and work items."
+semantic_vi: "dữ liệu về số seri trong các lệnh sản xuất."
+keywords:
+  - số seri
+  - sản xuất
+  - đơn hàng
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

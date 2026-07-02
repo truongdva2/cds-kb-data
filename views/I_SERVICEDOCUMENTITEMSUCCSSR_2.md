@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTITEMSUCCSSR_2
 description: Service DocumentUMENTITEMSUCCSSR 2
+semantic_en: "Service item successor relationship — captures following service transaction item relationships for process continuity."
+semantic_vi: "Mối quan hệ mục dịch vụ kế tiếp — ghi lại mối quan hệ mục giao dịch dịch vụ tiếp theo để đảm bảo tính liên tục của quá trình."
+keywords:
+  - giao dịch kế tiếp
+  - liên kết dịch vụ
+  - mục tiếp theo
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

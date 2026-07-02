@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDGAGRMTRELEASEDOCAPI01
 description: Schedgagrmtreleasedocapi 01
+semantic_en: "release document of purchase scheduling agreement — released purchase orders from scheduling agreements with status and delivery information."
+semantic_vi: "tài liệu phát hành của hợp đồng lập kế hoạch mua — các đơn đặt hàng mua được phát hành từ hợp đồng lập kế hoạch với thông tin trạng thái và giao hàng."
+keywords:
+  - phát hành
+  - tài liệu
+  - trạng thái
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

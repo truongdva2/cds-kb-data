@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYCLASSBOND
 description: Securityclassbond
+semantic_en: "security class bond data — SecurityClass, BondClassification, issue dates, coupon amounts, and bond-specific calculation parameters"
+semantic_vi: "Dữ liệu lớp trái phiếu — phân loại trái phiếu, ngày phát hành, ngày đáo hạn, mệnh giá, chu kỳ tính lãi"
+keywords:
+  - lớp trái phiếu
+  - tính lãi trái phiếu
+  - ngày đáo hạn
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

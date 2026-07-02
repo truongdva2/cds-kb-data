@@ -1,6 +1,11 @@
 ---
 name: I_SECURITYCLASSSTOCKCATEGORY
 description: Securityclassstockcategory
+semantic_en: "security class stock category enumeration — SecurityClassStockCategory codes"
+semantic_vi: "Danh mục loại cổ phiếu lớp chứng chỉ — mã loại cổ phiếu"
+keywords:
+  - loại cổ phiếu chứng chỉ
+  - mã loại cổ phiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGTYPETEXT
 description: Samplingtypetext
+semantic_en: "sampling type text — language-dependent names for sampling types"
+semantic_vi: "văn bản loại lấy mẫu — tên loại lấy mẫu theo ngôn ngữ"
+keywords:
+  - tên loại lấy mẫu
+  - ngôn ngữ
+  - kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

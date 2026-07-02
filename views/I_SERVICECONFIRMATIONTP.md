@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONFIRMATIONTP
 description: Serviceconfirmationtp
+semantic_en: "transactional projection — service confirmation headers with parties and service dates."
+semantic_vi: "hình chiếu giao dịch cho tiêu đề xác nhận dịch vụ."
+keywords:
+  - xác nhận dịch vụ
+  - ngày tháng
+  - bên
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

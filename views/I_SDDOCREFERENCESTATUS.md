@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCREFERENCESTATUS
 description: Sddocreferencestatus
+semantic_en: "sales document reference status — domain values for document reference status tracking in sales operations."
+semantic_vi: "trạng thái tham chiếu tài liệu bán hàng — giá trị miền cho theo dõi trạng thái tham chiếu tài liệu trong hoạt động bán hàng."
+keywords:
+  - tham chiếu
+  - trạng thái
+  - tài liệu
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

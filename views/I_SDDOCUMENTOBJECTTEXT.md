@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTOBJECTTEXT
 description: Sddocumentobjecttext
+semantic_en: "sales document object text — localized names of transaction object types used in SD documents."
+semantic_vi: "văn bản đối tượng tài liệu bán hàng — tên các loại đối tượng giao dịch được bản địa hóa được sử dụng trong tài liệu SD."
+keywords:
+  - đối tượng
+  - tên
+  - tài liệu
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

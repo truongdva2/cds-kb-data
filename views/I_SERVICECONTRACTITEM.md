@@ -1,6 +1,12 @@
 ---
 name: I_SERVICECONTRACTITEM
 description: Servicecontractitem
+semantic_en: "transaction data — service contract line items with category and product descriptions."
+semantic_vi: "dữ liệu giao dịch cho dòng hợp đồng dịch vụ."
+keywords:
+  - hợp đồng dịch vụ
+  - dòng
+  - sản phẩm
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENTREFOBJECT
 description: Service DocumentUMENTREFOBJECT
+semantic_en: "Service reference object — links service items to products, equipment, and functional locations for reference tracking."
+semantic_vi: "Đối tượng tham chiếu dịch vụ — liên kết các mục dịch vụ với sản phẩm, thiết bị và vị trí chức năng để theo dõi tham chiếu."
+keywords:
+  - đối tượng tham chiếu
+  - sản phẩm dịch vụ
+  - thiết bị dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

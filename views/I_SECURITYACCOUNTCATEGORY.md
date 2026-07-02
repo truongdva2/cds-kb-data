@@ -1,6 +1,12 @@
 ---
 name: I_SECURITYACCOUNTCATEGORY
 description: Securityaccountcategory
+semantic_en: "security account category enumeration — SecurityAccountCategory codes"
+semantic_vi: "Danh mục loại tài khoản chứng chỉ — các mã phân loại tài khoản"
+keywords:
+  - loại tài khoản chứng chỉ
+  - phân loại tài khoản
+  - mã loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

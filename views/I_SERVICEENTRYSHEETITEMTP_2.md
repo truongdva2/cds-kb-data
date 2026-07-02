@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEENTRYSHEETITEMTP_2
 description: Serviceentrysheetitemtp 2
+semantic_en: "Service entry sheet item TP variant — line-item details with procurement and account assignment information for service confirmation."
+semantic_vi: "Biến thể mục phiếu ghi nhận dịch vụ TP — chi tiết mục dòng với thông tin mua hàng và gán tài khoản để xác nhận dịch vụ."
+keywords:
+  - mục phiếu ghi nhận TP
+  - gán tài khoản
+  - phục vụ thực hiện
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SERVICEDOCUMENT_2
 description: Service DocumentUMENT 2
+semantic_en: "Service transaction v2 — alternative service document master view with comprehensive header and administrative data."
+semantic_vi: "Tài liệu giao dịch dịch vụ phiên bản 2 — chế độ xem chính tài liệu dịch vụ thay thế với dữ liệu tiêu đề và quản trị toàn diện."
+keywords:
+  - tài liệu dịch vụ v2
+  - dữ liệu quản trị
+  - thông tin tiêu đề
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

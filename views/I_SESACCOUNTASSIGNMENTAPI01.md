@@ -1,6 +1,12 @@
 ---
 name: I_SESACCOUNTASSIGNMENTAPI01
 description: Sesaccountassignmentapi 01
+semantic_en: "Service entry sheet account assignment — allocations of service entry sheet costs to multiple accounts and cost centers."
+semantic_vi: "Gán tài khoản phiếu ghi nhận dịch vụ — phân bổ chi phí phiếu ghi nhận dịch vụ cho nhiều tài khoản và trung tâm chi phí."
+keywords:
+  - gán tài khoản dịch vụ
+  - phân bổ chi phí
+  - trung tâm chi phí
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

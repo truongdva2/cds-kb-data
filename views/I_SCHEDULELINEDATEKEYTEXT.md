@@ -1,6 +1,12 @@
 ---
 name: I_SCHEDULELINEDATEKEYTEXT
 description: Schedule LineDATEKEYTEXT
+semantic_en: "schedule line date key text — localized descriptions of date categories used in schedule line dating."
+semantic_vi: "văn bản khóa ngày dòng lập kế hoạch — mô tả các danh mục ngày được bản địa hóa được sử dụng trong xác định ngày dòng lập kế hoạch."
+keywords:
+  - ngày
+  - khóa
+  - mô tả
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

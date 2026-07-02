@@ -1,6 +1,12 @@
 ---
 name: I_SDAPPROVALREASONT
 description: Sdapprovalreasont
+semantic_en: "approval reason text for sales document — localized descriptions of sales document approval reasons."
+semantic_vi: "văn bản lý do phê duyệt cho tài liệu bán hàng — mô tả các lý do phê duyệt tài liệu bán hàng được bản địa hóa."
+keywords:
+  - phê duyệt
+  - lý do
+  - tên
 app_component: SD-BF
 software_component: SAPSCORE
 release_state: released

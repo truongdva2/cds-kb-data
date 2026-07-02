@@ -1,6 +1,12 @@
 ---
 name: I_SAMPLINGSCHEME
 description: Samplingscheme
+semantic_en: "sampling scheme — master record defining attribute and variable inspection schemes with quality level parameters"
+semantic_vi: "kế hoạch lấy mẫu — chủ bản ghi định nghĩa các kế hoạch kiểm tra thuộc tính và biến với tham số mức chất lượng"
+keywords:
+  - kế hoạch lấy mẫu
+  - kiểm tra chất lượng
+  - mức chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

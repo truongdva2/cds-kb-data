@@ -1,6 +1,12 @@
 ---
 name: I_SDDOCUMENTREJECTIONSTATUS
 description: Sddocumentrejectionstatus
+semantic_en: "sales document rejection status — domain values for rejection status tracking in sales order processing."
+semantic_vi: "trạng thái từ chối tài liệu bán hàng — giá trị miền cho theo dõi trạng thái từ chối trong xử lý đơn đặt hàng bán hàng."
+keywords:
+  - từ chối
+  - trạng thái
+  - tài liệu
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released
