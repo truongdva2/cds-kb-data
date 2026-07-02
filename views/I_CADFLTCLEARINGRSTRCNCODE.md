@@ -1,6 +1,12 @@
 ---
 name: I_CADFLTCLEARINGRSTRCNCODE
 description: Cadfltclearingrstrcncode
+semantic_en: "default clearing restriction — identifies default codes restricting clearing operations."
+semantic_vi: "hạn chế thanh toán mặc định — xác định các mã mặc định hạn chế các hoạt động thanh toán."
+keywords:
+  - hạn chế thanh toán
+  - mã mặc định
+  - clearing
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

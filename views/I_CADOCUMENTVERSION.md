@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTVERSION
 description: Cadocumentversion
+semantic_en: "contract accounting document version — version codes for document iterations and revisions."
+semantic_vi: "Phiên bản tài liệu kế toán hợp đồng — mã phiên bản cho lần lặp và sửa đổi tài liệu."
+keywords:
+  - Phiên bản tài liệu
+  - Sửa đổi
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

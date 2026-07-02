@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMAMTDETNTYPE
 description: Cabillgplnitmamtdetntype
+semantic_en: "billing plan item amount determination type — domain values for how item amounts are calculated (fixed, pro-rata, pro-rata with minimum, etc.)"
+semantic_vi: "loại xác định số tiền của mục kế hoạch hóa đơn — giá trị miền cho cách tính toán số tiền mục (cố định, tỷ lệ, tỷ lệ có mức tối thiểu, v.v.)"
+keywords:
+  - xác định số tiền
+  - kế hoạch hóa đơn
+  - phương pháp tính
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

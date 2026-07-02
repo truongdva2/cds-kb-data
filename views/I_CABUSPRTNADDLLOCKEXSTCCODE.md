@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPRTNADDLLOCKEXSTCCODE
 description: Cabusprtnaddllockexstccode
+semantic_en: "business partner additional lock existence codes — enumeration indicating presence/absence of additional business locks."
+semantic_vi: "mã tồn tại khóa bổ sung đối tác kinh doanh — liệt kê cho biết sự hiện diện/vắng mặt của khóa kinh doanh bổ sung."
+keywords:
+  - khóa bổ sung
+  - business partner
+  - mã tồn tại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

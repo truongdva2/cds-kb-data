@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLMASTERDATAGROUP
 description: Cacollmasterdatagroup
+semantic_en: "collection master data group — identifies master data groups for collections with authorization levels."
+semantic_vi: "nhóm dữ liệu chính thu hồi nợ — xác định các nhóm dữ liệu chính cho thu hồi nợ với các cấp phép."
+keywords:
+  - nhóm dữ liệu chính
+  - thu hồi nợ
+  - cấp phép
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

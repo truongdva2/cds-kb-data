@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMAMTDATETYPE
 description: Cabillgplnitmamtdatetype
+semantic_en: "billing plan item amount determination date type — domain values for how the amount determination date is sourced (contract start, billing date, etc.)"
+semantic_vi: "loại ngày xác định số tiền của mục kế hoạch hóa đơn — giá trị miền cho cách ngày xác định số tiền được lấy từ (ngày bắt đầu hợp đồng, ngày hóa đơn, v.v.)"
+keywords:
+  - ngày xác định
+  - số tiền
+  - kế hoạch hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

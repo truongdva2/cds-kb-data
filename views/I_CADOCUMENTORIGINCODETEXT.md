@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTORIGINCODETEXT
 description: Cadocumentorigincodetext
+semantic_en: "document origin code text — language-specific names of document origin codes."
+semantic_vi: "Văn bản mã nguồn tài liệu — tên mã nguồn tài liệu theo ngôn ngữ."
+keywords:
+  - Mã nguồn
+  - Văn bản
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

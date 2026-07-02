@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPRTNADDLLOCKEXSTCCODET
 description: Cabusprtnaddllockexstccodet
+semantic_en: "translated business partner additional lock existence code descriptions — multilingual text for additional lock codes."
+semantic_vi: "mô tả mã tồn tại khóa bổ sung đối tác dịch ngữ — văn bản đa ngôn ngữ cho mã khóa bổ sung."
+keywords:
+  - nhãn khóa bổ sung
+  - văn bản additional lock
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

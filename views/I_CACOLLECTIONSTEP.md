@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLECTIONSTEP
 description: Cacollectionstep
+semantic_en: "collection step — defines dunning procedure steps with calendars, credit ratings, and interest codes."
+semantic_vi: "bước thu hồi nợ — định nghĩa các bước thủ tục nhắc nhở với lịch, xếp hạng tín dụng và mã lãi."
+keywords:
+  - bước dunning
+  - thu hồi nợ
+  - nhắc nhở
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

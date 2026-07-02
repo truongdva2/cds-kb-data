@@ -1,6 +1,12 @@
 ---
 name: I_CACASHSECURITYDEPOSITSTSTEXT
 description: Cacashsecuritydepositststext
+semantic_en: "translated cash security deposit status descriptions — multilingual labels for deposit status codes."
+semantic_vi: "mô tả trạng thái ký quỹ tiền mặt dịch ngữ — nhãn đa ngôn ngữ cho mã trạng thái ký quỹ."
+keywords:
+  - nhãn trạng thái ký quỹ
+  - văn bản deposit status
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CACOMPANYCODEGROUP
 description: CACompany CodeGROUP
+semantic_en: "company code group — maps company code groups to payment company codes for contract accounting."
+semantic_vi: "nhóm mã công ty — ánh xạ nhóm mã công ty tới các mã công ty thanh toán cho kế toán hợp đồng."
+keywords:
+  - mã công ty
+  - nhóm công ty
+  - thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

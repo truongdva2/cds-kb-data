@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTBPITEM
 description: Cadocumentbpitem
+semantic_en: "document business partner item — business partner line items associated with contract accounting documents including company and profit center data."
+semantic_vi: "Mục đối tượng kinh doanh tài liệu — các mục dòng đối tượng kinh doanh liên quan tới tài liệu kế toán hợp đồng bao gồm dữ liệu công ty và trung tâm lợi nhuận."
+keywords:
+  - Mục đối tượng
+  - Kế toán hợp đồng
+  - Trung tâm lợi nhuận
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMAMTDETNTYPETEXT
 description: Cabillgplnitmamtdetntypetext
+semantic_en: "billing plan item amount determination type descriptions — multilingual labels for amount calculation methods"
+semantic_vi: "mô tả loại xác định số tiền của mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho phương pháp tính toán số tiền"
+keywords:
+  - mô tả loại xác định
+  - số tiền
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

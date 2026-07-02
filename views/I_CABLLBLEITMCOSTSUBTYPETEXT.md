@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMCOSTSUBTYPETEXT
 description: Cabllbleitmcostsubtypetext
+semantic_en: "translated billable item cost subtype descriptions — multilingual labels for cost subtype codes."
+semantic_vi: "mô tả loại phụ chi phí hàng hóa dịch ngữ — nhãn đa ngôn ngữ cho mã loại phụ chi phí."
+keywords:
+  - nhãn loại phụ chi phí
+  - văn bản chi phí
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

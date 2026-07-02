@@ -1,6 +1,12 @@
 ---
 name: I_CADOCTRANSACTIONCLASS
 description: Cadoctransactionclass
+semantic_en: "document transaction class — classification of transaction types for contract accounting documents."
+semantic_vi: "Loại giao dịch tài liệu — phân loại các loại giao dịch cho các tài liệu kế toán hợp đồng."
+keywords:
+  - Loại giao dịch
+  - Phân loại
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

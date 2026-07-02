@@ -1,6 +1,12 @@
 ---
 name: I_CADUNCHRGANDINTRSTPOSTGCODET
 description: Cadunchrgandintrstpostgcodet
+semantic_en: "dunning charge and interest posting code text — language-specific descriptions of dunning posting codes."
+semantic_vi: "Văn bản mã hạch toán phí thúc đẩy và lãi — mô tả mã hạch toán phí thúc đẩy theo ngôn ngữ."
+keywords:
+  - Mã hạch toán
+  - Phí thúc đẩy
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLMASTERDATAGROUPTEXT
 description: Cacollmasterdatagrouptext
+semantic_en: "collection master data group texts — provides multilingual names for master data groups."
+semantic_vi: "văn bản nhóm dữ liệu chính thu hồi nợ — cung cấp tên đa ngôn ngữ cho các nhóm dữ liệu chính."
+keywords:
+  - nhóm dữ liệu chính
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

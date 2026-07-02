@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMAMTDATETYPETEXT
 description: Cabillgplnitmamtdatetypetext
+semantic_en: "billing plan item amount date type descriptions — multilingual labels for amount determination date sources"
+semantic_vi: "mô tả loại ngày xác định số tiền của mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho các nguồn ngày xác định số tiền"
+keywords:
+  - mô tả loại ngày
+  - số tiền
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

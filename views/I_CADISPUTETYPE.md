@@ -1,6 +1,12 @@
 ---
 name: I_CADISPUTETYPE
 description: Cadisputetype
+semantic_en: "dispute type — defines types of disputes in contract accounting."
+semantic_vi: "loại tranh chấp — định nghĩa các loại tranh chấp trong kế toán hợp đồng."
+keywords:
+  - tranh chấp
+  - loại tranh chấp
+  - kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

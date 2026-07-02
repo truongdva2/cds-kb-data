@@ -1,6 +1,13 @@
 ---
 name: I_CABILLGPLNITEM
 description: Cabillgplnitem
+semantic_en: "billing plan line items — individual billing plan entries with amount, quantity, currency, tax code, and line description"
+semantic_vi: "dòng kế hoạch hóa đơn — các mục kế hoạch hóa đơn riêng lẻ với số tiền, số lượng, tiền tệ, mã thuế và mô tả dòng"
+keywords:
+  - dòng kế hoạch
+  - hóa đơn
+  - mục
+  - số tiền
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

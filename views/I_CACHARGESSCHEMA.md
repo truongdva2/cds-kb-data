@@ -1,6 +1,12 @@
 ---
 name: I_CACHARGESSCHEMA
 description: Cachargesschema
+semantic_en: "charges schema master data — identifies charge schemas and their key identifiers in contract accounting."
+semantic_vi: "dữ liệu chính lược đồ phí — xác định các lược đồ phí và các định danh chính của chúng trong kế toán hợp đồng."
+keywords:
+  - lược đồ phí
+  - master data phí
+  - contract accounting
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

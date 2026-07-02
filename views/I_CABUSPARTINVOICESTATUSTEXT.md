@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPARTINVOICESTATUSTEXT
 description: CABusiness PartnerINVOICESTATUSTEXT
+semantic_en: "translated business partner invoice status descriptions — multilingual labels for invoice status codes."
+semantic_vi: "mô tả trạng thái hóa đơn đối tác dịch ngữ — nhãn đa ngôn ngữ cho mã trạng thái hóa đơn."
+keywords:
+  - nhãn trạng thái hóa đơn
+  - văn bản invoice status
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

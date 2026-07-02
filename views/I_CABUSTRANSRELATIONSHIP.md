@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSRELATIONSHIP
 description: Cabustransrelationship
+semantic_en: "business transaction relationships — enumeration for relationship types between transaction entities."
+semantic_vi: "mối quan hệ giao dịch kinh doanh — liệt kê cho các loại mối quan hệ giữa các thực thể giao dịch."
+keywords:
+  - mối quan hệ giao dịch
+  - relationship type
+  - business transaction
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

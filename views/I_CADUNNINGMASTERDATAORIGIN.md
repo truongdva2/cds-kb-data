@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGMASTERDATAORIGIN
 description: Cadunningmasterdataorigin
+semantic_en: "dunning master data origin — source classification for dunning master data."
+semantic_vi: "Nguồn dữ liệu chính thúc đẩy — phân loại nguồn gốc cho dữ liệu chính thúc đẩy."
+keywords:
+  - Dữ liệu chính thúc đẩy
+  - Nguồn gốc
+  - Phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

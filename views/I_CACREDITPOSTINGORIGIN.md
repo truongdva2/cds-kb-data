@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITPOSTINGORIGIN
 description: Cacreditpostingorigin
+semantic_en: "credit posting origin domain values — identifies sources of credit postings."
+semantic_vi: "các giá trị nguồn gốc phát hành tín dụng — xác định các nguồn của các phát hành tín dụng."
+keywords:
+  - tín dụng
+  - nguồn gốc
+  - phát hành
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

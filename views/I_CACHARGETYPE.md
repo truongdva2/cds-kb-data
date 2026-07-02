@@ -1,6 +1,12 @@
 ---
 name: I_CACHARGETYPE
 description: Cachargetype
+semantic_en: "charge type master data — defines types of charges applied in contract accounting."
+semantic_vi: "dữ liệu chính loại phí — định nghĩa các loại phí áp dụng trong kế toán hợp đồng."
+keywords:
+  - loại phí
+  - master data
+  - kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

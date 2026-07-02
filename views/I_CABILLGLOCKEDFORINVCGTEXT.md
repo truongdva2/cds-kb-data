@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGLOCKEDFORINVCGTEXT
 description: Cabillglockedforinvcgtext
+semantic_en: "billing document invoice lock status descriptions — multilingual labels for invoicing lock states"
+semantic_vi: "mô tả trạng thái khóa hóa đơn — nhãn đa ngôn ngữ cho trạng thái khóa hóa đơn"
+keywords:
+  - mô tả khóa
+  - hóa đơn
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

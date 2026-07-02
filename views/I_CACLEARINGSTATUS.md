@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGSTATUS
 description: Caclearingstatus
+semantic_en: "document clearing status domain values — defines status values for cleared documents."
+semantic_vi: "các giá trị trạng thái thanh toán tài liệu — định nghĩa các giá trị trạng thái cho tài liệu đã thanh toán."
+keywords:
+  - trạng thái thanh toán
+  - tài liệu
+  - clearing
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

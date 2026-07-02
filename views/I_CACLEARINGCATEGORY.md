@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGCATEGORY
 description: Caclearingcategory
+semantic_en: "clearing category master data — identifies categories used to organize clearing activities."
+semantic_vi: "dữ liệu chính danh mục thanh toán — xác định các danh mục dùng để tổ chức các hoạt động thanh toán."
+keywords:
+  - danh mục thanh toán
+  - clearing
+  - master data
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

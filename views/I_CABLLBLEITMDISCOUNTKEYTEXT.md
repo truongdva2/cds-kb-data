@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMDISCOUNTKEYTEXT
 description: Cabllbleitmdiscountkeytext
+semantic_en: "translated billable item discount/surcharge key descriptions — multilingual labels for discount/surcharge keys."
+semantic_vi: "mô tả khóa giảm giá/phụ cấp hàng hóa dịch ngữ — nhãn đa ngôn ngữ cho khóa giảm giá/phụ cấp."
+keywords:
+  - nhãn khóa giảm giá
+  - văn bản phụ cấp
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

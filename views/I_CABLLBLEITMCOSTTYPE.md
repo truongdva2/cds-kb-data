@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMCOSTTYPE
 description: Cabllbleitmcosttype
+semantic_en: "billable item cost types — classification codes for cost types in contract accounting billing."
+semantic_vi: "loại chi phí hàng hóa có thể thanh toán — mã phân loại cho các loại chi phí trong lập hóa đơn kế toán hợp đồng."
+keywords:
+  - loại chi phí
+  - kostenart
+  - hàng hóa lập hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCHEADER
 description: Cabillgdocheader
+semantic_en: "billing document headers — main billing document records with partner, contract, type, period, and status attributes"
+semantic_vi: "tiêu đề tài liệu hóa đơn — bản ghi tài liệu hóa đơn chính với thuộc tính đối tác, hợp đồng, loại, kỳ và trạng thái"
+keywords:
+  - tài liệu hóa đơn
+  - tiêu đề
+  - kỳ hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

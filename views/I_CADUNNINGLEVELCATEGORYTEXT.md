@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGLEVELCATEGORYTEXT
 description: Cadunninglevelcategorytext
+semantic_en: "dunning level category text — language-specific names of dunning level categories."
+semantic_vi: "Văn bản danh mục cấp độ thúc đẩy — tên danh mục cấp độ thúc đẩy theo ngôn ngữ."
+keywords:
+  - Danh mục cấp độ
+  - Tên
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

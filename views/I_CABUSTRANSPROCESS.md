@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSPROCESS
 description: Cabustransprocess
+semantic_en: "business transaction processes — enumeration for process types in business transaction workflows."
+semantic_vi: "quy trình giao dịch kinh doanh — liệt kê cho các loại quy trình trong quy trình giao dịch kinh doanh."
+keywords:
+  - quy trình giao dịch
+  - business process
+  - loại giao dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

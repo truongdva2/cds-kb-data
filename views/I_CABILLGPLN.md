@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLN
 description: Cabillgpln
+semantic_en: "billing plan headers — master billing plan records with category, type, status, dates, and contract account linkage"
+semantic_vi: "tiêu đề kế hoạch hóa đơn — bản ghi kế hoạch hóa đơn chính với danh mục, loại, trạng thái, ngày và liên kết tài khoản hợp đồng"
+keywords:
+  - kế hoạch hóa đơn
+  - tiêu đề
+  - hợp đồng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

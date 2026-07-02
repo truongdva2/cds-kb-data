@@ -1,6 +1,12 @@
 ---
 name: I_CAINCOMINGPAYMENTMETHOD
 description: Caincomingpaymentmethod
+semantic_en: "incoming payment method — payment method configuration for customer deposits with bank and cheque requirements."
+semantic_vi: "Phương pháp thanh toán đến — cấu hình phương pháp thanh toán cho tiền gửi khách hàng với yêu cầu ngân hàng và séc."
+keywords:
+  - Phương pháp thanh toán
+  - Tiền gửi khách hàng
+  - Yêu cầu ngân hàng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

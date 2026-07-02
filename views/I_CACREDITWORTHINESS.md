@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITWORTHINESS
 description: Cacreditworthiness
+semantic_en: "contract accounting creditworthiness — parameterized projection extracting creditworthiness values across manual, frozen, and external sources with audit timestamps."
+semantic_vi: "tín dụng kế toán hợp đồng — chiếu dữ liệu có tham số trích xuất các giá trị tín dụng từ các nguồn thủ công, đã đóng băng và bên ngoài cùng với dấu thời gian kiểm toán."
+keywords:
+  - creditworthiness
+  - tín dụng
+  - kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

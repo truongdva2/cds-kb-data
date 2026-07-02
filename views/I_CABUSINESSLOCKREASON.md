@@ -1,6 +1,12 @@
 ---
 name: I_CABUSINESSLOCKREASON
 description: Cabusinesslockreason
+semantic_en: "business lock reasons — reasons why a business process is locked, with authorization group control."
+semantic_vi: "lý do khóa kinh doanh — lý do tại sao một quy trình kinh doanh bị khóa, với kiểm soát nhóm ủy quyền."
+keywords:
+  - lý do khóa kinh doanh
+  - khóa quá trình
+  - ủy quyền
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

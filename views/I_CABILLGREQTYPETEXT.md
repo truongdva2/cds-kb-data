@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQTYPETEXT
 description: Cabillgreqtypetext
+semantic_en: "translated billing request type descriptions — multilingual labels for billing request type codes."
+semantic_vi: "mô tả loại yêu cầu lập hóa đơn dịch ngữ — nhãn đa ngôn ngữ cho mã loại yêu cầu lập hóa đơn."
+keywords:
+  - nhãn loại yêu cầu
+  - văn bản abrechnungsaufträge
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

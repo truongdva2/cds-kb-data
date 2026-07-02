@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGVALUATIONSTATUS
 description: Cadunningvaluationstatus
+semantic_en: "dunning valuation status — status codes for dunning valuations."
+semantic_vi: "Trạng thái định giá thúc đẩy — mã trạng thái cho định giá thúc đẩy."
+keywords:
+  - Trạng thái định giá
+  - Thúc đẩy
+  - Mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

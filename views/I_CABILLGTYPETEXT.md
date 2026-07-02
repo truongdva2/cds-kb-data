@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGTYPETEXT
 description: Cabillgtypetext
+semantic_en: "translated billing type descriptions — multilingual labels for billing type codes."
+semantic_vi: "mô tả loại lập hóa đơn dịch ngữ — nhãn đa ngôn ngữ cho mã loại lập hóa đơn."
+keywords:
+  - nhãn loại lập hóa đơn
+  - văn bản abrechnungsarten
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

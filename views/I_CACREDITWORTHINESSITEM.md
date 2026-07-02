@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITWORTHINESSITEM
 description: Cacreditworthinessitem
+semantic_en: "creditworthiness item — tracks creditworthiness history entries with values, signs, reversal status and item text."
+semantic_vi: "mục tín dụng — theo dõi các mục lịch sử tín dụng với các giá trị, ký hiệu, trạng thái hoàn tác và văn bản mục."
+keywords:
+  - tín dụng
+  - lịch sử
+  - mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

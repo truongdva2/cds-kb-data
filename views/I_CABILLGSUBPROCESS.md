@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGSUBPROCESS
 description: Cabillgsubprocess
+semantic_en: "billing sub-processes — classification codes for sub-processes within billing (Teilprozess der Abrechnung)."
+semantic_vi: "các quy trình con lập hóa đơn — mã phân loại cho các quy trình con trong lập hóa đơn (Teilprozess der Abrechnung)."
+keywords:
+  - quy trình con lập hóa đơn
+  - teilprozess
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPONDENCETYPETEXT
 description: Cacorrespondencetypetext
+semantic_en: "correspondence type texts — provides multilingual names for correspondence types."
+semantic_vi: "văn bản loại thư từ — cung cấp tên đa ngôn ngữ cho các loại thư từ."
+keywords:
+  - loại thư từ
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

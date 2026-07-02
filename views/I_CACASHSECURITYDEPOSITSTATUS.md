@@ -1,6 +1,12 @@
 ---
 name: I_CACASHSECURITYDEPOSITSTATUS
 description: Cacashsecuritydepositstatus
+semantic_en: "cash security deposit status codes — enumeration for deposit lifecycle states."
+semantic_vi: "mã trạng thái ký quỹ tiền mặt — liệt kê cho các trạng thái vòng đời ký quỹ."
+keywords:
+  - trạng thái ký quỹ tiền mặt
+  - cash security
+  - mã trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

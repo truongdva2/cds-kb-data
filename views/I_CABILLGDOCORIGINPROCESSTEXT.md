@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCORIGINPROCESSTEXT
 description: Cabillgdocoriginprocesstext
+semantic_en: "billing document origin process descriptions — multilingual labels for document source processes"
+semantic_vi: "mô tả quy trình gốc tài liệu hóa đơn — nhãn đa ngôn ngữ cho các quy trình nguồn tài liệu"
+keywords:
+  - mô tả quy trình
+  - gốc
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

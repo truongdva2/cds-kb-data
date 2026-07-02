@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTSUPPLEMENT
 description: Cadocumentsupplement
+semantic_en: "document supplement — supplementary document type codes in contract accounting."
+semantic_vi: "Bổ sung tài liệu — mã loại tài liệu bổ sung trong kế toán hợp đồng."
+keywords:
+  - Bổ sung tài liệu
+  - Loại tài liệu
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTBPITEMTP
 description: Cadocumentbpitemtp
+semantic_en: "document business partner item transactional projection — partner company and personnel assignments for document business partner line items."
+semantic_vi: "Dự phóng giao dịch mục đối tượng kinh doanh tài liệu — phân công công ty đối tác và nhân sự cho các mục đối tượng tài liệu."
+keywords:
+  - Mục đối tượng
+  - Đối tác kinh doanh
+  - Phân công
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

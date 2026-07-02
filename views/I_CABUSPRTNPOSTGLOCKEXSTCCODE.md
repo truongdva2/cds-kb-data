@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPRTNPOSTGLOCKEXSTCCODE
 description: Cabusprtnpostglockexstccode
+semantic_en: "business partner posting lock existence codes — enumeration indicating presence/absence of posting locks."
+semantic_vi: "mã tồn tại khóa hạch toán đối tác kinh doanh — liệt kê cho biết sự hiện diện/vắng mặt của khóa hạch toán."
+keywords:
+  - khóa hạch toán
+  - business partner
+  - mã tồn tại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

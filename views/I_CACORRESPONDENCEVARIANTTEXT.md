@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPONDENCEVARIANTTEXT
 description: Cacorrespondencevarianttext
+semantic_en: "correspondence variant texts — provides multilingual names for correspondence variants."
+semantic_vi: "văn bản biến thể thư từ — cung cấp tên đa ngôn ngữ cho các biến thể thư từ."
+keywords:
+  - biến thể thư từ
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

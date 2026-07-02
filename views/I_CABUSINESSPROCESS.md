@@ -1,6 +1,12 @@
 ---
 name: I_CABUSINESSPROCESS
 description: Cabusinessprocess
+semantic_en: "business lock processes — process types associated with business locks, linked to application area."
+semantic_vi: "các quy trình khóa kinh doanh — các loại quy trình liên kết với khóa kinh doanh, liên kết với lĩnh vực ứng dụng."
+keywords:
+  - quy trình kinh doanh
+  - business process
+  - khóa quá trình
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

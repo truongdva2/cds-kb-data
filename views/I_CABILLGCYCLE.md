@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGCYCLE
 description: Cabillgcycle
+semantic_en: "billing cycle master data — period category, billing frequency, and interval definitions"
+semantic_vi: "dữ liệu chính chu kỳ hóa đơn — định nghĩa danh mục kỳ, tần suất hóa đơn và khoảng thời gian"
+keywords:
+  - chu kỳ hóa đơn
+  - tần suất
+  - kỳ thanh toán
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

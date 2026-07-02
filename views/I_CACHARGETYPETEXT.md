@@ -1,6 +1,12 @@
 ---
 name: I_CACHARGETYPETEXT
 description: Cachargetypetext
+semantic_en: "charge type texts — provides multilingual names and descriptions for charge types."
+semantic_vi: "văn bản loại phí — cung cấp tên và mô tả đa ngôn ngữ cho các loại phí."
+keywords:
+  - loại phí
+  - mô tả phí
+  - văn bản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

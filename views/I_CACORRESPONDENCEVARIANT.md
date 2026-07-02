@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPONDENCEVARIANT
 description: Cacorrespondencevariant
+semantic_en: "correspondence variant — identifies variants of correspondence definitions."
+semantic_vi: "biến thể thư từ — xác định các biến thể của các định nghĩa thư từ."
+keywords:
+  - biến thể thư từ
+  - correspondence
+  - variant
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

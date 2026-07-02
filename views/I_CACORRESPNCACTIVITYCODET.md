@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPNCACTIVITYCODET
 description: Cacorrespncactivitycodet
+semantic_en: "correspondence activity code texts — provides multilingual descriptions for activity codes."
+semantic_vi: "văn bản mã hoạt động thư từ — cung cấp mô tả đa ngôn ngữ cho các mã hoạt động."
+keywords:
+  - thư từ
+  - mã hoạt động
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

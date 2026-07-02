@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGTYPE
 description: Cabillgtype
+semantic_en: "billing types — classification codes for different billing arrangement types (Abrechnungsarten)."
+semantic_vi: "loại lập hóa đơn — mã phân loại cho các loại sắp xếp lập hóa đơn khác nhau (Abrechnungsarten)."
+keywords:
+  - loại lập hóa đơn
+  - abrechnungsarten
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

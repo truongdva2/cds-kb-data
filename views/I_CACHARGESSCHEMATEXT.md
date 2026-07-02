@@ -1,6 +1,12 @@
 ---
 name: I_CACHARGESSCHEMATEXT
 description: Cachargesschematext
+semantic_en: "charges schema texts — provides multilingual labels and descriptions for charge schemas."
+semantic_vi: "văn bản lược đồ phí — cung cấp nhãn và mô tả đa ngôn ngữ cho các lược đồ phí."
+keywords:
+  - lược đồ phí
+  - văn bản đa ngôn ngữ
+  - mô tả phí
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

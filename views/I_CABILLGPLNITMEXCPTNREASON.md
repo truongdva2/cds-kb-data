@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMEXCPTNREASON
 description: Cabillgplnitmexcptnreason
+semantic_en: "billing plan item exception reasons — domain values for why items are marked as exceptions or excluded"
+semantic_vi: "lý do ngoại lệ của mục kế hoạch hóa đơn — giá trị miền cho lý do các mục được đánh dấu là ngoại lệ hoặc loại trừ"
+keywords:
+  - lý do ngoại lệ
+  - mục kế hoạch
+  - loại trừ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

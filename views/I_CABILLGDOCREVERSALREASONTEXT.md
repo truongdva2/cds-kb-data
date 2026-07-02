@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCREVERSALREASONTEXT
 description: Cabillgdocreversalreasontext
+semantic_en: "billing document reversal reason descriptions — multilingual labels for reversal rationales"
+semantic_vi: "mô tả lý do phục hồi tài liệu hóa đơn — nhãn đa ngôn ngữ cho các lý do phục hồi"
+keywords:
+  - mô tả lý do
+  - phục hồi
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

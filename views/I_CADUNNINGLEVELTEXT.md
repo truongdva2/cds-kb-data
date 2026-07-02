@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGLEVELTEXT
 description: Cadunningleveltext
+semantic_en: "dunning level text — language-specific names of dunning levels with procedure reference."
+semantic_vi: "Văn bản cấp độ thúc đẩy — tên cấp độ thúc đẩy theo ngôn ngữ với tham chiếu quy trình."
+keywords:
+  - Cấp độ thúc đẩy
+  - Tên
+  - Quy trình
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADIRECTDEBITLIMITCALCMODE
 description: Cadirectdebitlimitcalcmode
+semantic_en: "direct debit limit calculation mode — defines modes for calculating direct debit limits."
+semantic_vi: "chế độ tính toán giới hạn trích nợ trực tiếp — định nghĩa các chế độ tính toán giới hạn trích nợ trực tiếp."
+keywords:
+  - trích nợ trực tiếp
+  - giới hạn
+  - tính toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

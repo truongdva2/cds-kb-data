@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGREASONTEXT
 description: Caclearingreasontext
+semantic_en: "clearing reason texts — provides multilingual names for clearing reasons."
+semantic_vi: "văn bản lý do thanh toán — cung cấp tên đa ngôn ngữ cho các lý do thanh toán."
+keywords:
+  - lý do thanh toán
+  - mô tả
+  - văn bản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

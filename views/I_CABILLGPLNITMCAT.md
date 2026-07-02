@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMCAT
 description: Cabillgplnitmcat
+semantic_en: "billing plan item category classifications — domain values for item types within a plan (periodic, milestone, event-based, etc.)"
+semantic_vi: "phân loại danh mục mục kế hoạch hóa đơn — giá trị miền cho loại mục trong kế hoạch (định kỳ, cột mốc, dựa trên sự kiện, v.v.)"
+keywords:
+  - danh mục mục
+  - kế hoạch hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAAUTHORIZATIONGROUPOBJECTT
 description: Caauthorizationgroupobjectt
+semantic_en: "authorization group object descriptions — multilingual labels for authorization group object types"
+semantic_vi: "mô tả đối tượng nhóm phép cấp quyền — nhãn đa ngôn ngữ cho các loại đối tượng nhóm phép cấp quyền"
+keywords:
+  - mô tả ủy quyền
+  - nhãn đối tượng
+  - đa ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

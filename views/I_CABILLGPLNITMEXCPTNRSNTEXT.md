@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMEXCPTNRSNTEXT
 description: Cabillgplnitmexcptnrsntext
+semantic_en: "billing plan item exception reason descriptions — multilingual labels for exception rationales"
+semantic_vi: "mô tả lý do ngoại lệ của mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho các lý do ngoại lệ"
+keywords:
+  - mô tả lý do
+  - ngoại lệ
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

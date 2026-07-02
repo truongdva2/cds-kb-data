@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLECTIONAGENCY
 description: Cacollectionagency
+semantic_en: "collection agency — identifies collection agencies managing contract accounts and dunning interest settings."
+semantic_vi: "cơ quan thu hồi nợ — xác định các cơ quan thu hồi nợ quản lý tài khoản hợp đồng và cài đặt lãi nhắc nhở."
+keywords:
+  - cơ quan thu hồi nợ
+  - collection
+  - tài khoản hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

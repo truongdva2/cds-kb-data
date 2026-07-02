@@ -1,6 +1,12 @@
 ---
 name: I_CAFACTORINGCLRGCHECKSTATUS
 description: Cafactoringclrgcheckstatus
+semantic_en: "factoring clearing check status — status codes for factoring clearing checks."
+semantic_vi: "Trạng thái kiểm tra xóa factoring — mã trạng thái cho kiểm tra xóa factoring."
+keywords:
+  - Factoring
+  - Kiểm tra xóa
+  - Trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

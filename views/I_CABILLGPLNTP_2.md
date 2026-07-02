@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNTP_2
 description: Cabillgplntp 2
+semantic_en: "billing plan headers (transfer pricing variant) — TP-adjusted master billing plan records with category, type, status, dates, and contract linkage"
+semantic_vi: "tiêu đề kế hoạch hóa đơn (biến thể giá chuyển nhượng) — bản ghi kế hoạch chính điều chỉnh TP với danh mục, loại, trạng thái, ngày và liên kết hợp đồng"
+keywords:
+  - giá chuyển nhượng
+  - kế hoạch hóa đơn
+  - tiêu đề
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAAUTHORIZATIONGROUPOBJECT
 description: Caauthorizationgroupobject
+semantic_en: "authorization group object classification — lookup of which business entities (contracts, accounts) are covered by an authorization group"
+semantic_vi: "phân loại đối tượng nhóm phép cấp quyền — tra cứu các đối tượng kinh doanh (hợp đồng, tài khoản) được phủ sóng bởi nhóm phép cấp quyền"
+keywords:
+  - đối tượng ủy quyền
+  - phân loại phối
+  - hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

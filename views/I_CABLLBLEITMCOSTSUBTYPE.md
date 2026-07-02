@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMCOSTSUBTYPE
 description: Cabllbleitmcostsubtype
+semantic_en: "billable item cost subtypes — linking cost types and subtypes for cost classification of billable items."
+semantic_vi: "các loại phụ chi phí hàng hóa có thể thanh toán — liên kết các loại chi phí và loại phụ cho phân loại chi phí của hàng hóa có thể thanh toán."
+keywords:
+  - loại phụ chi phí
+  - chi phí hàng hóa
+  - kostenunterart
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

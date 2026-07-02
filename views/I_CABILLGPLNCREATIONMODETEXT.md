@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNCREATIONMODETEXT
 description: Cabillgplncreationmodetext
+semantic_en: "billing plan creation mode descriptions — multilingual labels for plan creation approaches"
+semantic_vi: "mô tả chế độ tạo kế hoạch hóa đơn — nhãn đa ngôn ngữ cho các phương pháp tạo kế hoạch"
+keywords:
+  - mô tả chế độ
+  - tạo kế hoạch
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

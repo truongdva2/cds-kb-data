@@ -1,6 +1,12 @@
 ---
 name: I_CADISPUTEEXTCALLERCODETEXT
 description: Cadisputeextcallercodetext
+semantic_en: "dispute external caller code texts — provides multilingual names for external caller codes."
+semantic_vi: "văn bản mã người gọi bên ngoài tranh chấp — cung cấp tên đa ngôn ngữ cho các mã người gọi bên ngoài."
+keywords:
+  - tranh chấp
+  - người gọi bên ngoài
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

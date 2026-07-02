@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMDISCOUNTKEY
 description: Cabllbleitmdiscountkey
+semantic_en: "billable item discount/surcharge keys — codes defining discount or surcharge rules for billable items (Rabatt-/Zuschlagschlüssel)."
+semantic_vi: "khóa giảm giá/phụ cấp hàng hóa có thể thanh toán — mã định nghĩa các quy tắc giảm giá hoặc phụ cấp cho hàng hóa có thể thanh toán (Rabatt-/Zuschlagschlüssel)."
+keywords:
+  - khóa giảm giá
+  - phụ cấp
+  - rabatt-zuschlagschlüssel
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGINFORMATIONTEXT
 description: Caclearinginformationtext
+semantic_en: "clearing information texts — provides multilingual descriptions for clearing information values."
+semantic_vi: "văn bản thông tin thanh toán — cung cấp mô tả đa ngôn ngữ cho các giá trị thông tin thanh toán."
+keywords:
+  - thông tin thanh toán
+  - mô tả
+  - văn bản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

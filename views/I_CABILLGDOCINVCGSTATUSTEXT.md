@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCINVCGSTATUSTEXT
 description: Cabillgdocinvcgstatustext
+semantic_en: "billing document invoicing status descriptions — multilingual labels for document invoicing states"
+semantic_vi: "mô tả trạng thái hóa đơn tài liệu — nhãn đa ngôn ngữ cho các trạng thái hóa đơn tài liệu"
+keywords:
+  - mô tả trạng thái
+  - hóa đơn
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

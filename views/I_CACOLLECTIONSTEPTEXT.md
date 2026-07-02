@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLECTIONSTEPTEXT
 description: Cacollectionsteptext
+semantic_en: "collection step texts — provides multilingual names for collection procedure steps."
+semantic_vi: "văn bản bước thu hồi nợ — cung cấp tên đa ngôn ngữ cho các bước thủ tục thu hồi nợ."
+keywords:
+  - bước dunning
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

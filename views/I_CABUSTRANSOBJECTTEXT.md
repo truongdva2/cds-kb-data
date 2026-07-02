@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSOBJECTTEXT
 description: Cabustransobjecttext
+semantic_en: "translated business transaction object descriptions — multilingual labels for transaction object codes."
+semantic_vi: "mô tả đối tượng giao dịch kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã đối tượng giao dịch."
+keywords:
+  - nhãn đối tượng giao dịch
+  - văn bản object
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

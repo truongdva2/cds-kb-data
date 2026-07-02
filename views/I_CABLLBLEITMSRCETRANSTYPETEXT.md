@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMSRCETRANSTYPETEXT
 description: Cabllbleitmsrcetranstypetext
+semantic_en: "translated billable item source transaction type descriptions — multilingual labels for source transaction type codes."
+semantic_vi: "mô tả loại giao dịch nguồn hàng hóa dịch ngữ — nhãn đa ngôn ngữ cho mã loại giao dịch nguồn."
+keywords:
+  - nhãn loại giao dịch nguồn
+  - văn bản quellvorgangs
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

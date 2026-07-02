@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMSTATUSTEXT
 description: Cabillgplnitmstatustext
+semantic_en: "billing plan item status descriptions — multilingual labels for item lifecycle states"
+semantic_vi: "mô tả trạng thái mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho trạng thái vòng đời mục"
+keywords:
+  - mô tả trạng thái
+  - mục
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

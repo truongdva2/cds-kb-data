@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGPROCEDURE
 description: Cadunningprocedure
+semantic_en: "days in arrears and dunning cycle — dunning procedure master data with factory calendar and level reduction controls."
+semantic_vi: "Ngày quá hạn và chu kỳ thúc đẩy — dữ liệu chính quy trình thúc đẩy với lịch xưởng và kiểm soát giảm cấp độ."
+keywords:
+  - Quy trình thúc đẩy
+  - Ngày quá hạn
+  - Chu kỳ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGNOTICEGROUP
 description: Cadunningnoticegroup
+semantic_en: "dunning notice group — grouping classification for dunning notices."
+semantic_vi: "Nhóm thông báo thúc đẩy — phân loại nhóm cho thông báo thúc đẩy."
+keywords:
+  - Nhóm thông báo
+  - Thúc đẩy
+  - Phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

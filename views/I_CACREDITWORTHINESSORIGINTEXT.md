@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITWORTHINESSORIGINTEXT
 description: Cacreditworthinessorigintext
+semantic_en: "creditworthiness origin texts — provides multilingual descriptions for creditworthiness sources."
+semantic_vi: "văn bản nguồn gốc tín dụng — cung cấp mô tả đa ngôn ngữ cho các nguồn tín dụng."
+keywords:
+  - tín dụng
+  - nguồn gốc
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

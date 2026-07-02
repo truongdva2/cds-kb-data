@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCORIGINPROCESS
 description: Cabillgdocoriginprocess
+semantic_en: "billing document origin process — domain values for document source process (contract, order, etc.)"
+semantic_vi: "quy trình gốc tài liệu hóa đơn — giá trị miền cho quy trình nguồn tài liệu (hợp đồng, đơn hàng, v.v.)"
+keywords:
+  - quy trình gốc
+  - hóa đơn
+  - nguồn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

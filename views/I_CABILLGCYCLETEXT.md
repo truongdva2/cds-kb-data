@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGCYCLETEXT
 description: Cabillgcycletext
+semantic_en: "billing cycle descriptions — multilingual labels for billing cycle codes and periods"
+semantic_vi: "mô tả chu kỳ hóa đơn — nhãn đa ngôn ngữ cho mã chu kỳ hóa đơn và kỳ"
+keywords:
+  - mô tả chu kỳ
+  - hóa đơn
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

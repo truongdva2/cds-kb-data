@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGNOTICEGROUPTEXT
 description: Cadunningnoticegrouptext
+semantic_en: "dunning notice group text — language-specific names of dunning notice groups."
+semantic_vi: "Văn bản nhóm thông báo thúc đẩy — tên nhóm thông báo thúc đẩy theo ngôn ngữ."
+keywords:
+  - Nhóm thông báo
+  - Tên
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

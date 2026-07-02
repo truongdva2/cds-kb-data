@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGRESTRICTIONCODET
 description: Caclearingrestrictioncodet
+semantic_en: "clearing restriction code texts — provides multilingual names for restriction codes."
+semantic_vi: "văn bản mã hạn chế thanh toán — cung cấp tên đa ngôn ngữ cho các mã hạn chế."
+keywords:
+  - hạn chế thanh toán
+  - mã
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

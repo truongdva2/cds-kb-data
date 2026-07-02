@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCITEMCRTNMETHOD
 description: Cabillgdocitemcrtnmethod
+semantic_en: "billing document item creation method — domain values for how line items are generated (automatic, manual, etc.)"
+semantic_vi: "phương pháp tạo mục tài liệu hóa đơn — giá trị miền cho cách tạo dòng (tự động, thủ công, v.v.)"
+keywords:
+  - phương pháp tạo
+  - mục
+  - dòng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

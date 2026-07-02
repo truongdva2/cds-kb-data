@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMTYPE
 description: Cabillgplnitmtype
+semantic_en: "billing plan item type classifications — domain values for specific item types (standard, one-time, block, etc.)"
+semantic_vi: "phân loại loại mục kế hoạch hóa đơn — giá trị miền cho các loại mục cụ thể (tiêu chuẩn, một lần, khối, v.v.)"
+keywords:
+  - loại mục
+  - kế hoạch hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

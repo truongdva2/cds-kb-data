@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPARTINVOICESTATUS
 description: CABusiness PartnerINVOICESTATUS
+semantic_en: "business partner invoice status codes — enumeration for invoice-level lifecycle states."
+semantic_vi: "mã trạng thái hóa đơn đối tác kinh doanh — liệt kê cho các trạng thái vòng đời hóa đơn."
+keywords:
+  - trạng thái hóa đơn
+  - business partner
+  - mã trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

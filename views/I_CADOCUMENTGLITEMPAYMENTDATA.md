@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTGLITEMPAYMENTDATA
 description: Cadocumentglitempaymentdata
+semantic_en: "document G/L item payment data — payment card details and authorization information for document ledger postings."
+semantic_vi: "Dữ liệu thanh toán mục sổ cái tài liệu — chi tiết thẻ thanh toán và thông tin phê duyệt cho hạch toán sổ cái tài liệu."
+keywords:
+  - Thanh toán
+  - Thẻ thanh toán
+  - Phê duyệt
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

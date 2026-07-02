@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCUMENTITEMTYPE
 description: Cabillgdocumentitemtype
+semantic_en: "billing document item type classifications — enumeration of line item types (product, service, adjustment, etc.)"
+semantic_vi: "phân loại loại mục tài liệu hóa đơn — danh sách loại dòng (sản phẩm, dịch vụ, điều chỉnh, v.v.)"
+keywords:
+  - loại mục
+  - dòng hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

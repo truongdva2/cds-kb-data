@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNSTATUS
 description: Cabillgplnstatus
+semantic_en: "billing plan status — domain values for plan lifecycle state (active, paused, completed, cancelled, etc.)"
+semantic_vi: "trạng thái kế hoạch hóa đơn — giá trị miền cho trạng thái vòng đời kế hoạch (hoạt động, tạm dừng, hoàn tất, đã hủy, v.v.)"
+keywords:
+  - trạng thái kế hoạch
+  - hóa đơn
+  - lifecycle
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

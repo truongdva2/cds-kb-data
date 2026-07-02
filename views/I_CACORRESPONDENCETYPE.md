@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPONDENCETYPE
 description: Cacorrespondencetype
+semantic_en: "correspondence type — defines types of correspondence with application areas and periodicity settings."
+semantic_vi: "loại thư từ — định nghĩa các loại thư từ với các khu vực ứng dụng và cài đặt tính tuần hoàn."
+keywords:
+  - loại thư từ
+  - correspondence
+  - áp dụng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

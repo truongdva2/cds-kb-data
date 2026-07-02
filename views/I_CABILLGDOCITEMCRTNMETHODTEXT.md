@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCITEMCRTNMETHODTEXT
 description: Cabillgdocitemcrtnmethodtext
+semantic_en: "billing document item creation method descriptions — multilingual labels for item generation methods"
+semantic_vi: "mô tả phương pháp tạo mục tài liệu hóa đơn — nhãn đa ngôn ngữ cho phương pháp tạo mục"
+keywords:
+  - mô tả phương pháp
+  - tạo
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTVERSIONTEXT
 description: Cadocumentversiontext
+semantic_en: "contract accounting document version text — language-specific names of document versions."
+semantic_vi: "Văn bản phiên bản tài liệu kế toán hợp đồng — tên phiên bản tài liệu theo ngôn ngữ."
+keywords:
+  - Phiên bản tài liệu
+  - Tên
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

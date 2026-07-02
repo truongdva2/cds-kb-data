@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGSTATUSTEXT
 description: Caclearingstatustext
+semantic_en: "document clearing status texts — provides multilingual descriptions for clearing statuses."
+semantic_vi: "văn bản trạng thái thanh toán tài liệu — cung cấp mô tả đa ngôn ngữ cho các trạng thái thanh toán."
+keywords:
+  - trạng thái thanh toán
+  - tài liệu
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

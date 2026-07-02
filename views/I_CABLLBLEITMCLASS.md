@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMCLASS
 description: Cabllbleitmclass
+semantic_en: "billable item classes — codes for item classifications in contract accounting billing (Klassen der abr. Positionen)."
+semantic_vi: "các lớp hàng hóa có thể thanh toán — mã cho các phân loại hàng hóa trong lập hóa đơn kế toán hợp đồng (Klassen der abr. Positionen)."
+keywords:
+  - lớp hàng hóa
+  - hàng hóa lập hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

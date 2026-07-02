@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQREASON
 description: Cabillgreqreason
+semantic_en: "billing request reasons — codes defining why a billing request was created, linked to request type."
+semantic_vi: "lý do yêu cầu lập hóa đơn — mã xác định lý do tạo yêu cầu lập hóa đơn, liên kết với loại yêu cầu."
+keywords:
+  - lý do yêu cầu lập hóa đơn
+  - abrechnungsauftragsgrund
+  - mã nguyên nhân
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

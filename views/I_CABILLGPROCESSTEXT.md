@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPROCESSTEXT
 description: Cabillgprocesstext
+semantic_en: "translated descriptions of billing processes — multilingual labels for billing process codes."
+semantic_vi: "mô tả dịch ngữ của các quy trình lập hóa đơn — nhãn đa ngôn ngữ cho mã quy trình lập hóa đơn."
+keywords:
+  - nhãn quy trình lập hóa đơn
+  - văn bản abrechnungsprozesse
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

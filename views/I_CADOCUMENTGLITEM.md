@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTGLITEM
 description: Cadocumentglitem
+semantic_en: "document general ledger item — G/L account postings for contract accounting documents with currency and valuation details."
+semantic_vi: "Mục sổ cái chung tài liệu — hạch toán tài khoản sổ cái cho tài liệu kế toán hợp đồng với chi tiết tiền tệ và định giá."
+keywords:
+  - Mục sổ cái
+  - Hạch toán
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

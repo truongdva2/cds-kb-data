@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTALLMENTPLANCATEGORY
 description: Cainstallmentplancategory
+semantic_en: "installment plan category — master data for installment plan categories with interest and charge calculations."
+semantic_vi: "Danh mục kế hoạch phân kỳ — dữ liệu chính cho danh mục kế hoạch phân kỳ với tính toán lãi suất và phí."
+keywords:
+  - Kế hoạch phân kỳ
+  - Danh mục
+  - Tính toán phí lãi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

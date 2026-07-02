@@ -1,6 +1,12 @@
 ---
 name: I_CACRDTWORTHINESSITEMSTATUST
 description: Cacrdtworthinessitemstatust
+semantic_en: "creditworthiness item status texts — provides multilingual descriptions for item statuses."
+semantic_vi: "văn bản trạng thái mục tín dụng — cung cấp mô tả đa ngôn ngữ cho các trạng thái mục."
+keywords:
+  - tín dụng
+  - trạng thái mục
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

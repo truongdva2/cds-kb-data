@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGSUBPROCESSTEXT
 description: Cabillgsubprocesstext
+semantic_en: "translated billing sub-process descriptions — multilingual labels for billing sub-process codes."
+semantic_vi: "mô tả quy trình con lập hóa đơn dịch ngữ — nhãn đa ngôn ngữ cho mã quy trình con lập hóa đơn."
+keywords:
+  - nhãn quy trình con
+  - văn bản teilprozess
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

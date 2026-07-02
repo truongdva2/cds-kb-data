@@ -1,6 +1,12 @@
 ---
 name: I_CAEUROCONVERSIONSTATUSTEXT
 description: Caeuroconversionstatustext
+semantic_en: "euro conversion status text — language-specific descriptions of euro conversion statuses."
+semantic_vi: "Văn bản trạng thái chuyển đổi euro — mô tả trạng thái chuyển đổi euro theo ngôn ngữ."
+keywords:
+  - Chuyển đổi euro
+  - Mô tả
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

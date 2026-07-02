@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSACTIVITYTEXT
 description: Cabustransactivitytext
+semantic_en: "translated business transaction activity descriptions — multilingual labels for transaction activity codes."
+semantic_vi: "mô tả hoạt động giao dịch kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã hoạt động giao dịch."
+keywords:
+  - nhãn hoạt động giao dịch
+  - văn bản activity
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

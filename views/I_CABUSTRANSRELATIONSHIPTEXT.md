@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSRELATIONSHIPTEXT
 description: Cabustransrelationshiptext
+semantic_en: "translated business transaction relationship descriptions — multilingual labels for relationship type codes."
+semantic_vi: "mô tả mối quan hệ giao dịch kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã loại mối quan hệ."
+keywords:
+  - nhãn mối quan hệ giao dịch
+  - văn bản relationship
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

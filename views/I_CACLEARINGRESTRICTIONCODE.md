@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGRESTRICTIONCODE
 description: Caclearingrestrictioncode
+semantic_en: "clearing restriction code domain values — identifies codes restricting clearing operations."
+semantic_vi: "các giá trị mã hạn chế thanh toán — xác định các mã hạn chế các hoạt động thanh toán."
+keywords:
+  - hạn chế thanh toán
+  - mã
+  - clearing
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

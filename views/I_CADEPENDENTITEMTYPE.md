@@ -1,6 +1,12 @@
 ---
 name: I_CADEPENDENTITEMTYPE
 description: Cadependentitemtype
+semantic_en: "dependent item type — defines types of dependent line items in contract accounting."
+semantic_vi: "loại mục phụ thuộc — định nghĩa các loại mục dòng phụ thuộc trong kế toán hợp đồng."
+keywords:
+  - mục phụ thuộc
+  - loại mục
+  - kế toán hợp đồng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

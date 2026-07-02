@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSDOCUMENTTYPE
 description: Cabustransdocumenttype
+semantic_en: "business transaction document types — codes for document type categorization in transaction processing."
+semantic_vi: "loại tài liệu giao dịch kinh doanh — mã cho phân loại loại tài liệu trong xử lý giao dịch."
+keywords:
+  - loại tài liệu giao dịch
+  - document type
+  - business transaction
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

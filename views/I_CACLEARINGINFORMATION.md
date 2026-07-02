@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGINFORMATION
 description: Caclearinginformation
+semantic_en: "clearing information domain values — contains clearing-related information lookup values."
+semantic_vi: "các giá trị thông tin thanh toán — chứa các giá trị tra cứu liên quan đến thanh toán."
+keywords:
+  - thông tin thanh toán
+  - domain values
+  - clearing
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

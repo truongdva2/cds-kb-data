@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGLOCKEDFORINVCG
 description: Cabillglockedforinvcg
+semantic_en: "billing document invoice lock status — domain values indicating whether document is locked from invoicing"
+semantic_vi: "trạng thái khóa hóa đơn của tài liệu — giá trị miền cho biết tài liệu có bị khóa khỏi hóa đơn không"
+keywords:
+  - khóa hóa đơn
+  - tài liệu
+  - trạng thái
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

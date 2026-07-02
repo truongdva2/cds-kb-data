@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITEMTP_2
 description: Cabillgplnitemtp 2
+semantic_en: "billing plan line items (transfer pricing variant) — TP-adjusted billing plan entries with amounts and tax treatment"
+semantic_vi: "dòng kế hoạch hóa đơn (biến thể giá chuyển nhượng) — các mục kế hoạch điều chỉnh TP với số tiền và xử lý thuế"
+keywords:
+  - giá chuyển nhượng
+  - dòng kế hoạch
+  - mục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

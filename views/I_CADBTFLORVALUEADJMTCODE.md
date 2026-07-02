@@ -1,6 +1,12 @@
 ---
 name: I_CADBTFLORVALUEADJMTCODE
 description: Cadbtflorvalueadjmtcode
+semantic_en: "doubtful or value adjustment code — identifies codes for doubtful receivables or value adjustments."
+semantic_vi: "mã điều chỉnh giá trị hoặc khoản nợ khó đòi — xác định các mã cho khoản nợ khó đòi hoặc điều chỉnh giá trị."
+keywords:
+  - khoản nợ khó đòi
+  - điều chỉnh giá trị
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

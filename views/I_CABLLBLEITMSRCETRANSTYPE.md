@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMSRCETRANSTYPE
 description: Cabllbleitmsrcetranstype
+semantic_en: "billable item source transaction types — codes for source transaction categories and semantic objects."
+semantic_vi: "loại giao dịch nguồn hàng hóa có thể thanh toán — mã cho các danh mục giao dịch nguồn và đối tượng ngữ nghĩa."
+keywords:
+  - loại giao dịch nguồn
+  - quellvorgangs
+  - hàng hóa lập hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

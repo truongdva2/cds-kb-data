@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGLEVELCATEGORY
 description: Cadunninglevelcategory
+semantic_en: "dunning level category — categorization scheme for dunning levels."
+semantic_vi: "Danh mục cấp độ thúc đẩy — lược đồ phân loại cho cấp độ thúc đẩy."
+keywords:
+  - Cấp độ thúc đẩy
+  - Danh mục
+  - Phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

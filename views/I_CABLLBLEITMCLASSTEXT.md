@@ -1,6 +1,12 @@
 ---
 name: I_CABLLBLEITMCLASSTEXT
 description: Cabllbleitmclasstext
+semantic_en: "translated billable item class descriptions — multilingual labels for billable item class codes."
+semantic_vi: "mô tả lớp hàng hóa có thể thanh toán dịch ngữ — nhãn đa ngôn ngữ cho mã lớp hàng hóa có thể thanh toán."
+keywords:
+  - nhãn lớp hàng hóa
+  - văn bản phân loại
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTTYPE
 description: Cadocumenttype
+semantic_en: "document type — type master data for contract accounting documents with posting and negative posting rules."
+semantic_vi: "Loại tài liệu — dữ liệu chính loại cho tài liệu kế toán hợp đồng với quy tắc hạch toán và hạch toán âm."
+keywords:
+  - Loại tài liệu
+  - Hạch toán
+  - Quy tắc
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

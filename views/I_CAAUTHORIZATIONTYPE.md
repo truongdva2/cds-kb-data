@@ -1,6 +1,12 @@
 ---
 name: I_CAAUTHORIZATIONTYPE
 description: Caauthorizationtype
+semantic_en: "authorization type domain values — enumeration of contract account authorization classification types"
+semantic_vi: "giá trị miền loại phép cấp quyền — danh sách loại phân loại phép cấp quyền tài khoản hợp đồng"
+keywords:
+  - loại ủy quyền
+  - phân loại
+  - miền
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

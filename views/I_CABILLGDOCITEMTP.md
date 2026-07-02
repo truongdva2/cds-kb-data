@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCITEMTP
 description: Cabillgdocitemtp
+semantic_en: "billing document line items (transfer pricing variant) — TP-adjusted line entries with amounts and tax treatment"
+semantic_vi: "dòng tài liệu hóa đơn (biến thể giá chuyển nhượng) — các mục dòng điều chỉnh TP với số tiền và xử lý thuế"
+keywords:
+  - giá chuyển nhượng
+  - dòng hóa đơn
+  - mục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

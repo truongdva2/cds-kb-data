@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMSTATUS
 description: Cabillgplnitmstatus
+semantic_en: "billing plan item status — domain values for item lifecycle state (pending, invoiced, blocked, cancelled, etc.)"
+semantic_vi: "trạng thái mục kế hoạch hóa đơn — giá trị miền cho trạng thái vòng đời mục (chờ xử lý, đã hóa đơn, bị chặn, đã hủy, v.v.)"
+keywords:
+  - trạng thái mục
+  - kế hoạch hóa đơn
+  - lifecycle
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

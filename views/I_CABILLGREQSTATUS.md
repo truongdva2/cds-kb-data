@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQSTATUS
 description: Cabillgreqstatus
+semantic_en: "billing request status codes — enumeration values for billing request lifecycle states."
+semantic_vi: "mã trạng thái yêu cầu lập hóa đơn — các giá trị liệt kê cho các trạng thái vòng đời yêu cầu lập hóa đơn."
+keywords:
+  - trạng thái yêu cầu lập hóa đơn
+  - mã trạng thái
+  - vòng đời
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

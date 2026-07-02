@@ -1,6 +1,12 @@
 ---
 name: I_CACORRESPNCACTIVITYCODE
 description: Cacorrespncactivitycode
+semantic_en: "correspondence activity code — identifies codes for correspondence activities."
+semantic_vi: "mã hoạt động thư từ — xác định các mã cho các hoạt động thư từ."
+keywords:
+  - thư từ
+  - mã hoạt động
+  - correspondence
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

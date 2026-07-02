@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQUEST
 description: Cabillgrequest
+semantic_en: "contract account billing requests — header records with document, category, type, reason, partner, and amount details."
+semantic_vi: "yêu cầu lập hóa đơn cho tài khoản hợp đồng — bản ghi tiêu đề với chi tiết tài liệu, danh mục, loại, lý do, đối tác, và số tiền."
+keywords:
+  - yêu cầu lập hóa đơn
+  - billing request
+  - tài khoản hợp đồng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

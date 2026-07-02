@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMTYPETEXT
 description: Cabillgplnitmtypetext
+semantic_en: "billing plan item type descriptions — multilingual labels for item type classifications"
+semantic_vi: "mô tả loại mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho phân loại loại mục"
+keywords:
+  - mô tả loại
+  - mục kế hoạch
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

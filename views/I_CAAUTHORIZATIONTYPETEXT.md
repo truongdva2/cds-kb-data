@@ -1,6 +1,12 @@
 ---
 name: I_CAAUTHORIZATIONTYPETEXT
 description: Caauthorizationtypetext
+semantic_en: "authorization type descriptions — multilingual labels for authorization type domain values"
+semantic_vi: "mô tả loại phép cấp quyền — nhãn đa ngôn ngữ cho các giá trị miền loại phép cấp quyền"
+keywords:
+  - mô tả loại
+  - ủy quyền
+  - đa ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

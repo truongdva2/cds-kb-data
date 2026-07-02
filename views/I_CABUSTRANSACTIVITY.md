@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSACTIVITY
 description: Cabustransactivity
+semantic_en: "business transaction activities — enumeration for transaction activity types or statuses."
+semantic_vi: "hoạt động giao dịch kinh doanh — liệt kê cho các loại hoạt động giao dịch hoặc trạng thái."
+keywords:
+  - hoạt động giao dịch
+  - business transaction
+  - mã hoạt động
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

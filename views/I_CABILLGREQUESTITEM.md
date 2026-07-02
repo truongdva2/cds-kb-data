@@ -1,6 +1,13 @@
 ---
 name: I_CABILLGREQUESTITEM
 description: Cabillgrequestitem
+semantic_en: "billing request line items — detailed item records with amounts, dates, taxes, sources, and billable item classifications."
+semantic_vi: "các dòng yêu cầu lập hóa đơn — bản ghi chi tiết mục hàng với số tiền, ngày tháng, thuế, nguồn, và phân loại hàng hóa có thể thanh toán."
+keywords:
+  - dòng yêu cầu lập hóa đơn
+  - chi tiết hàng hóa
+  - số tiền
+  - ngày tháng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

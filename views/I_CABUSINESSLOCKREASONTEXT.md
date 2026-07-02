@@ -1,6 +1,12 @@
 ---
 name: I_CABUSINESSLOCKREASONTEXT
 description: Cabusinesslockreasontext
+semantic_en: "translated business lock reason descriptions — multilingual labels for business process lock reasons."
+semantic_vi: "mô tả lý do khóa kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho lý do khóa quá trình kinh doanh."
+keywords:
+  - nhãn lý do khóa
+  - văn bản business lock
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

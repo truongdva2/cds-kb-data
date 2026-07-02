@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNCREATIONMODE
 description: Cabillgplncreationmode
+semantic_en: "billing plan creation mode — domain values for how plans are created (automatic, manual, copy, etc.)"
+semantic_vi: "chế độ tạo kế hoạch hóa đơn — giá trị miền cho cách tạo kế hoạch (tự động, thủ công, sao chép, v.v.)"
+keywords:
+  - chế độ tạo
+  - kế hoạch hóa đơn
+  - phương pháp
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

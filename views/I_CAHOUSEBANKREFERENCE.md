@@ -1,6 +1,12 @@
 ---
 name: I_CAHOUSEBANKREFERENCE
 description: Cahousebankreference
+semantic_en: "house bank reference — bank and account mappings for contract accounting company payment processing."
+semantic_vi: "Tham chiếu ngân hàng nhà — ánh xạ ngân hàng và tài khoản cho xử lý thanh toán công ty kế toán hợp đồng."
+keywords:
+  - Ngân hàng nhà
+  - Tài khoản ngân hàng
+  - Thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

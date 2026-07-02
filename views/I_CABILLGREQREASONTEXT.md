@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQREASONTEXT
 description: Cabillgreqreasontext
+semantic_en: "translated billing request reason descriptions — multilingual labels for billing request reason codes."
+semantic_vi: "mô tả lý do yêu cầu lập hóa đơn dịch ngữ — nhãn đa ngôn ngữ cho mã lý do yêu cầu lập hóa đơn."
+keywords:
+  - nhãn lý do yêu cầu
+  - văn bản nguyên nhân
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

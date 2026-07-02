@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCREVERSALREASON
 description: Cabillgdocreversalreason
+semantic_en: "billing document reversal reasons — domain values for why documents are reversed or cancelled"
+semantic_vi: "lý do phục hồi tài liệu hóa đơn — giá trị miền cho lý do phục hồi hoặc hủy tài liệu"
+keywords:
+  - lý do phục hồi
+  - hóa đơn
+  - hủy
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

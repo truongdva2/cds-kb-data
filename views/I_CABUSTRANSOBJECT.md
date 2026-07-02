@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSOBJECT
 description: Cabustransobject
+semantic_en: "business transaction objects — enumeration for business object types involved in transactions."
+semantic_vi: "đối tượng giao dịch kinh doanh — liệt kê cho các loại đối tượng kinh doanh liên quan đến giao dịch."
+keywords:
+  - đối tượng giao dịch
+  - business object
+  - loại giao dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

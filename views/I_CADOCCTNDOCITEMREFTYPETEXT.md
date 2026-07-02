@@ -1,6 +1,12 @@
 ---
 name: I_CADOCCTNDOCITEMREFTYPETEXT
 description: Cadocctndocitemreftypetext
+semantic_en: "document container document item reference type text — language-specific naming text for document item reference types used in contract accounting."
+semantic_vi: "Văn bản loại tham chiếu mục mục vùng chứa tài liệu — mô tả tên loại tham chiếu mục tài liệu trong kế toán hợp đồng theo ngôn ngữ."
+keywords:
+  - Loại tham chiếu tài liệu
+  - Vùng chứa tài liệu
+  - Mục tài liệu
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

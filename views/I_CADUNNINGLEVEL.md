@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGLEVEL
 description: Cadunninglevel
+semantic_en: "dunning level — dunning configuration per level with frequency, payment deadline, interest and charge rules."
+semantic_vi: "Cấp độ thúc đẩy — cấu hình thúc đẩy theo cấp độ với tần suất, hạn chót thanh toán và quy tắc lãi suất phí."
+keywords:
+  - Cấp độ thúc đẩy
+  - Cấu hình
+  - Phí lãi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

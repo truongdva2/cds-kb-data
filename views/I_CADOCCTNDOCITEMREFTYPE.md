@@ -1,6 +1,12 @@
 ---
 name: I_CADOCCTNDOCITEMREFTYPE
 description: Cadocctndocitemreftype
+semantic_en: "document container document item reference type — identifies reference types for document container items."
+semantic_vi: "loại tham chiếu mục tài liệu bộ chứa tài liệu — xác định các loại tham chiếu cho các mục bộ chứa tài liệu."
+keywords:
+  - bộ chứa tài liệu
+  - tham chiếu
+  - loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

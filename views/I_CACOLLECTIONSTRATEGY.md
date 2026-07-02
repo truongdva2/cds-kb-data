@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLECTIONSTRATEGY
 description: Cacollectionstrategy
+semantic_en: "collection strategy master data — defines strategies for managing collections."
+semantic_vi: "dữ liệu chính chiến lược thu hồi nợ — định nghĩa các chiến lược quản lý thu hồi nợ."
+keywords:
+  - chiến lược thu hồi nợ
+  - collection
+  - strategy
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

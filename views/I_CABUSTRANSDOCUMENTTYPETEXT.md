@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSDOCUMENTTYPETEXT
 description: Cabustransdocumenttypetext
+semantic_en: "translated business transaction document type descriptions — multilingual labels for document type codes."
+semantic_vi: "mô tả loại tài liệu giao dịch kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã loại tài liệu."
+keywords:
+  - nhãn loại tài liệu giao dịch
+  - văn bản document type
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

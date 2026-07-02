@@ -1,6 +1,12 @@
 ---
 name: I_CACOLLECTIONSTRATEGYTEXT
 description: Cacollectionstrategytext
+semantic_en: "collection strategy texts — provides multilingual names for collection strategies."
+semantic_vi: "văn bản chiến lược thu hồi nợ — cung cấp tên đa ngôn ngữ cho các chiến lược thu hồi nợ."
+keywords:
+  - chiến lược thu hồi nợ
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

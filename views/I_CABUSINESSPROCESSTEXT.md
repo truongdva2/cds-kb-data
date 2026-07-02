@@ -1,6 +1,12 @@
 ---
 name: I_CABUSINESSPROCESSTEXT
 description: Cabusinessprocesstext
+semantic_en: "translated business process descriptions — multilingual labels for business process codes."
+semantic_vi: "mô tả quy trình kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã quy trình kinh doanh."
+keywords:
+  - nhãn quy trình kinh doanh
+  - văn bản business process
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

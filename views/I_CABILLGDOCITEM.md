@@ -1,6 +1,13 @@
 ---
 name: I_CABILLGDOCITEM
 description: Cabillgdocitem
+semantic_en: "billing document line items — individual line entries with amounts, taxes, transaction type, and contract references"
+semantic_vi: "dòng tài liệu hóa đơn — các mục dòng riêng lẻ với số tiền, thuế, loại giao dịch và tham chiếu hợp đồng"
+keywords:
+  - dòng hóa đơn
+  - mục
+  - số tiền
+  - thuế
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

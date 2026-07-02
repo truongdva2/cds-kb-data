@@ -1,6 +1,12 @@
 ---
 name: I_CADUNCHRGANDINTRSTPOSTGCODE
 description: Cadunchrgandintrstpostgcode
+semantic_en: "dunning charge and interest posting code — general ledger posting codes for dunning charges and interest calculations."
+semantic_vi: "Mã hạch toán phí thúc đẩy và lãi — mã hạch toán sổ cái cho phí thúc đẩy và tính toán lãi."
+keywords:
+  - Mã hạch toán
+  - Phí thúc đẩy
+  - Lãi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

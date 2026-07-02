@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTBPITEMBUSLOCKTP
 description: Cadocumentbpitembuslocktp
+semantic_en: "document business partner item business lock transactional projection — business lock data for document line items with valid date ranges and locking reasons."
+semantic_vi: "Khóa kinh doanh mục đối tượng kinh doanh tài liệu — dữ liệu khóa kinh doanh cho các mục tài liệu với phạm vi ngày hợp lệ và lý do khóa."
+keywords:
+  - Khóa kinh doanh
+  - Mục đối tượng
+  - Phạm vi ngày
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

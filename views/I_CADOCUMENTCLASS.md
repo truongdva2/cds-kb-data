@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTCLASS
 description: Cadocumentclass
+semantic_en: "document class — classification scheme for contract accounting documents."
+semantic_vi: "Loại tài liệu — lược đồ phân loại cho tài liệu kế toán hợp đồng."
+keywords:
+  - Loại tài liệu
+  - Phân loại
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

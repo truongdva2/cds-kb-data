@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITWORTHINESSORIGIN
 description: Cacreditworthinessorigin
+semantic_en: "creditworthiness origin master data — identifies sources of creditworthiness assessments."
+semantic_vi: "dữ liệu chính nguồn gốc tín dụng — xác định các nguồn của các đánh giá tín dụng."
+keywords:
+  - tín dụng
+  - nguồn gốc
+  - master data
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

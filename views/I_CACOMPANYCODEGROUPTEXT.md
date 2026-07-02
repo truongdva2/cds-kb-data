@@ -1,6 +1,12 @@
 ---
 name: I_CACOMPANYCODEGROUPTEXT
 description: CACompany CodeGROUPTEXT
+semantic_en: "company code group texts — provides multilingual names for company code groups."
+semantic_vi: "văn bản nhóm mã công ty — cung cấp tên đa ngôn ngữ cho các nhóm mã công ty."
+keywords:
+  - nhóm mã công ty
+  - tên
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

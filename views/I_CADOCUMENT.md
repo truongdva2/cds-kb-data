@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENT
 description: Cadocument
+semantic_en: "contract accounting document — master data for contract accounting documents with transaction currency, posting date, and reference information."
+semantic_vi: "Tài liệu kế toán hợp đồng — dữ liệu chính cho tài liệu kế toán hợp đồng bao gồm tiền tệ giao dịch, ngày hạch toán và thông tin tham chiếu."
+keywords:
+  - Tài liệu kế toán
+  - Hợp đồng
+  - Ngày hạch toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

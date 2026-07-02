@@ -1,6 +1,13 @@
 ---
 name: I_CAAUTHORIZATIONGROUP
 description: Caauthorizationgroup
+semantic_en: "Authorization groups in contract accounts — core authorization grouping identifier and membership mapping"
+semantic_vi: "nhóm phép cấp quyền trên tài khoản hợp đồng — định danh và liên kết nhóm phép cấp quyền cơ sở"
+keywords:
+  - phép cấp quyền
+  - nhóm ủy quyền
+  - tài khoản hợp đồng
+  - phân quyền
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGPROCEDURECATEGORYT
 description: Cadunningprocedurecategoryt
+semantic_en: "dunning procedure category text — language-specific names of dunning procedure categories."
+semantic_vi: "Văn bản danh mục quy trình thúc đẩy — tên danh mục quy trình thúc đẩy theo ngôn ngữ."
+keywords:
+  - Danh mục quy trình
+  - Tên
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

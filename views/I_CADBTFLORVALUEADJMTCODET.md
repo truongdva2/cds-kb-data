@@ -1,6 +1,12 @@
 ---
 name: I_CADBTFLORVALUEADJMTCODET
 description: Cadbtflorvalueadjmtcodet
+semantic_en: "doubtful or value adjustment code texts — provides multilingual names for adjustment codes."
+semantic_vi: "văn bản mã điều chỉnh giá trị hoặc khoản nợ khó đòi — cung cấp tên đa ngôn ngữ cho các mã điều chỉnh."
+keywords:
+  - khoản nợ khó đòi
+  - điều chỉnh giá trị
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

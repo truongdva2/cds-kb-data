@@ -1,6 +1,12 @@
 ---
 name: I_CAFACTORINGRECEIVABLESTATUST
 description: Cafactoringreceivablestatust
+semantic_en: "factoring receivable status text — language-specific descriptions of factoring receivable statuses."
+semantic_vi: "Văn bản trạng thái khoản phải thu factoring — mô tả trạng thái khoản phải thu factoring theo ngôn ngữ."
+keywords:
+  - Khoản phải thu
+  - Factoring
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

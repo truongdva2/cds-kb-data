@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGREASON
 description: Caclearingreason
+semantic_en: "clearing reason master data — defines reasons for clearing items with reversal eligibility flags."
+semantic_vi: "dữ liệu chính lý do thanh toán — định nghĩa các lý do thanh toán với cờ đủ điều kiện hoàn tác."
+keywords:
+  - lý do thanh toán
+  - clearing
+  - reversal
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

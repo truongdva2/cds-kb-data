@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCINVCGSTATUS
 description: Cabillgdocinvcgstatus
+semantic_en: "billing document invoicing status — domain values for document invoicing state (pending, invoiced, etc.)"
+semantic_vi: "trạng thái hóa đơn của tài liệu hóa đơn — giá trị miền cho trạng thái hóa đơn tài liệu (chờ xử lý, đã hóa đơn, v.v.)"
+keywords:
+  - trạng thái hóa đơn
+  - tài liệu
+  - miền
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

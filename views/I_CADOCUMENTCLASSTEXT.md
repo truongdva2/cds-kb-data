@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTCLASSTEXT
 description: Cadocumentclasstext
+semantic_en: "document class text — language-specific descriptions of document classes in contract accounting."
+semantic_vi: "Văn bản loại tài liệu — mô tả loại tài liệu trong kế toán hợp đồng theo ngôn ngữ."
+keywords:
+  - Loại tài liệu
+  - Văn bản phân loại
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPROCESS
 description: Cabillgprocess
+semantic_en: "collection agents' billing processes — codes for process types (Abrechnungsprozesse) used in contract accounting."
+semantic_vi: "tập hợp các quy trình lập hóa đơn — mã định danh cho các loại quy trình (Abrechnungsprozesse) được sử dụng trong kế toán hợp đồng."
+keywords:
+  - quy trình lập hóa đơn
+  - abrechnungsprozesse
+  - mã quy trình
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

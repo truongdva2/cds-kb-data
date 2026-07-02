@@ -1,6 +1,12 @@
 ---
 name: I_CABUSPRTNPOSTGLOCKEXSTCCODET
 description: Cabusprtnpostglockexstccodet
+semantic_en: "translated business partner posting lock existence code descriptions — multilingual text for posting lock codes."
+semantic_vi: "mô tả mã tồn tại khóa hạch toán đối tác dịch ngữ — văn bản đa ngôn ngữ cho mã khóa hạch toán."
+keywords:
+  - nhãn khóa hạch toán
+  - văn bản posting lock
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

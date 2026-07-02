@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCUMENTITEMTYPETEXT
 description: Cabillgdocumentitemtypetext
+semantic_en: "billing document item type descriptions — multilingual labels for line item type classifications"
+semantic_vi: "mô tả loại mục tài liệu hóa đơn — nhãn đa ngôn ngữ cho phân loại loại dòng"
+keywords:
+  - mô tả loại
+  - mục
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

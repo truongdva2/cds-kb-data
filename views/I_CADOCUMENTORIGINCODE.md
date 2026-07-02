@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTORIGINCODE
 description: Cadocumentorigincode
+semantic_en: "document origin code — source classification for contract accounting documents with posting and reversal rules."
+semantic_vi: "Mã nguồn tài liệu — phân loại nguồn gốc cho tài liệu kế toán hợp đồng với quy tắc hạch toán và đảo chiều."
+keywords:
+  - Mã nguồn
+  - Phân loại nguồn
+  - Hạch toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

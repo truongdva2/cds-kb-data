@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGPROCEDURECATEGORY
 description: Cadunningprocedurecategory
+semantic_en: "dunning procedure category — categorization of dunning procedures."
+semantic_vi: "Danh mục quy trình thúc đẩy — phân loại quy trình thúc đẩy."
+keywords:
+  - Quy trình thúc đẩy
+  - Danh mục
+  - Phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

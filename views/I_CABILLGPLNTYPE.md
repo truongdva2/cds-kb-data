@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNTYPE
 description: Cabillgplntype
+semantic_en: "billing plan type classifications — domain values for plan types (subscription, milestone, time-based, etc.)"
+semantic_vi: "phân loại loại kế hoạch hóa đơn — giá trị miền cho các loại kế hoạch (đăng ký, cột mốc, dựa trên thời gian, v.v.)"
+keywords:
+  - loại kế hoạch
+  - hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

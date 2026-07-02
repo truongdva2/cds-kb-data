@@ -1,6 +1,12 @@
 ---
 name: I_CACLEARINGCATEGORYTEXT
 description: Caclearingcategorytext
+semantic_en: "clearing category texts — provides multilingual names for clearing categories."
+semantic_vi: "văn bản danh mục thanh toán — cung cấp tên đa ngôn ngữ cho các danh mục thanh toán."
+keywords:
+  - danh mục thanh toán
+  - văn bản
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

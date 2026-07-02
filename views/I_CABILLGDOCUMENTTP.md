@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGDOCUMENTTP
 description: Cabillgdocumenttp
+semantic_en: "billing document headers (transfer pricing variant) — TP-adjusted document records with partner, contract, type, and period attributes"
+semantic_vi: "tiêu đề tài liệu hóa đơn (biến thể giá chuyển nhượng) — bản ghi tài liệu điều chỉnh TP với thuộc tính đối tác, hợp đồng, loại và kỳ"
+keywords:
+  - giá chuyển nhượng
+  - tài liệu hóa đơn
+  - tiêu đề
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

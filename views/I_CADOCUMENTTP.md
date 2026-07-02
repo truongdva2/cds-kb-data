@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTTP
 description: Cadocumenttp
+semantic_en: "document header transactional projection — tax company code and GL transfer control for contract accounting documents."
+semantic_vi: "Dự phóng giao dịch tiêu đề tài liệu — mã công ty thuế và kiểm soát chuyển sổ cái cho tài liệu kế toán hợp đồng."
+keywords:
+  - Tiêu đề tài liệu
+  - Mã công ty thuế
+  - Chuyển sổ cái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

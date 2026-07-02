@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQSTATUSTEXT
 description: Cabillgreqstatustext
+semantic_en: "translated billing request status descriptions — multilingual text labels for billing request status codes."
+semantic_vi: "mô tả trạng thái yêu cầu lập hóa đơn dịch ngữ — nhãn văn bản đa ngôn ngữ cho mã trạng thái yêu cầu lập hóa đơn."
+keywords:
+  - nhãn trạng thái yêu cầu
+  - văn bản trạng thái
+  - dịch ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

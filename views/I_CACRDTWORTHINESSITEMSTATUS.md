@@ -1,6 +1,12 @@
 ---
 name: I_CACRDTWORTHINESSITEMSTATUS
 description: Cacrdtworthinessitemstatus
+semantic_en: "creditworthiness item status domain values — defines status values for creditworthiness items."
+semantic_vi: "các giá trị trạng thái mục tín dụng — định nghĩa các giá trị trạng thái cho các mục tín dụng."
+keywords:
+  - tín dụng
+  - trạng thái mục
+  - creditworthiness
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

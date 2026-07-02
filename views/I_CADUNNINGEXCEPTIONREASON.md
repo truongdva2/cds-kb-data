@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGEXCEPTIONREASON
 description: Cadunningexceptionreason
+semantic_en: "dunning exception reason — reasons and error levels for exceptions in dunning process runs."
+semantic_vi: "Lý do ngoại lệ thúc đẩy — lý do và mức độ lỗi cho ngoại lệ trong quá trình chạy thúc đẩy."
+keywords:
+  - Ngoại lệ thúc đẩy
+  - Lý do
+  - Mức độ lỗi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

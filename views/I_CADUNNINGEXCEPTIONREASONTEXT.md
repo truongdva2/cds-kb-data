@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGEXCEPTIONREASONTEXT
 description: Cadunningexceptionreasontext
+semantic_en: "dunning exception reason text — language-specific names of dunning exception reasons."
+semantic_vi: "Văn bản lý do ngoại lệ thúc đẩy — tên lý do ngoại lệ thúc đẩy theo ngôn ngữ."
+keywords:
+  - Ngoại lệ thúc đẩy
+  - Tên lý do
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

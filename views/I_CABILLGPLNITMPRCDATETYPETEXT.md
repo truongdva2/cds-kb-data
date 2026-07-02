@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMPRCDATETYPETEXT
 description: Cabillgplnitmprcdatetypetext
+semantic_en: "billing plan item price date type descriptions — multilingual labels for price determination date sources"
+semantic_vi: "mô tả loại ngày xác định giá của mục kế hoạch hóa đơn — nhãn đa ngôn ngữ cho các nguồn ngày xác định giá"
+keywords:
+  - mô tả loại ngày
+  - giá
+  - đa ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADFLTCLEARINGRSTRCNCODET
 description: Cadfltclearingrstrcncodet
+semantic_en: "default clearing restriction texts — provides multilingual names for default restriction codes."
+semantic_vi: "văn bản hạn chế thanh toán mặc định — cung cấp tên đa ngôn ngữ cho các mã hạn chế mặc định."
+keywords:
+  - hạn chế thanh toán
+  - mã mặc định
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

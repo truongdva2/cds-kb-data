@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGREQCATEGORY
 description: Cabillgreqcategory
+semantic_en: "billing request categories — classification codes for types of billing requests (Abrechnungsauftragstypen)."
+semantic_vi: "các danh mục yêu cầu lập hóa đơn — mã phân loại cho các loại yêu cầu lập hóa đơn (Abrechnungsauftragstypen)."
+keywords:
+  - danh mục yêu cầu lập hóa đơn
+  - loại đơn hàng lập hóa đơn
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CADISPUTETYPETEXT
 description: Cadisputetypetext
+semantic_en: "dispute type texts — provides multilingual names for dispute types."
+semantic_vi: "văn bản loại tranh chấp — cung cấp tên đa ngôn ngữ cho các loại tranh chấp."
+keywords:
+  - tranh chấp
+  - loại tranh chấp
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

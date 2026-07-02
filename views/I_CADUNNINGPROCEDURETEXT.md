@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGPROCEDURETEXT
 description: Cadunningproceduretext
+semantic_en: "dunning procedure text — language-specific names of dunning procedures."
+semantic_vi: "Văn bản quy trình thúc đẩy — tên quy trình thúc đẩy theo ngôn ngữ."
+keywords:
+  - Quy trình thúc đẩy
+  - Tên
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

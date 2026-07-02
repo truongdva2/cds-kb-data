@@ -1,6 +1,12 @@
 ---
 name: I_CADOCCTNREFTYPETEXT
 description: Cadocctnreftypetext
+semantic_en: "document container reference type text — language-specific descriptions of reference types for documents in contract accounting containers."
+semantic_vi: "Văn bản loại tham chiếu vùng chứa tài liệu — mô tả loại tham chiếu tài liệu trong vùng chứa kế toán hợp đồng theo từng ngôn ngữ."
+keywords:
+  - Loại tham chiếu tài liệu
+  - Văn bản tham chiếu
+  - Kế toán hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

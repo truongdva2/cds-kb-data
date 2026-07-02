@@ -1,6 +1,12 @@
 ---
 name: I_CADOCUMENTSUPPLEMENTTEXT
 description: Cadocumentsupplementtext
+semantic_en: "document supplement text — language-specific descriptions of document supplement types."
+semantic_vi: "Văn bản bổ sung tài liệu — mô tả loại bổ sung tài liệu theo ngôn ngữ."
+keywords:
+  - Bổ sung tài liệu
+  - Mô tả
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

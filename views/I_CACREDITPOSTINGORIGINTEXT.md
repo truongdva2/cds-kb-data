@@ -1,6 +1,12 @@
 ---
 name: I_CACREDITPOSTINGORIGINTEXT
 description: Cacreditpostingorigintext
+semantic_en: "credit posting origin texts — provides multilingual descriptions for credit sources."
+semantic_vi: "văn bản nguồn gốc phát hành tín dụng — cung cấp mô tả đa ngôn ngữ cho các nguồn tín dụng."
+keywords:
+  - tín dụng
+  - nguồn gốc
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAAUTHORIZATIONGROUPTEXT
 description: Caauthorizationgrouptext
+semantic_en: "authorization group descriptions — multilingual text labels for authorization groups"
+semantic_vi: "mô tả nhóm phép cấp quyền — nhãn văn bản đa ngôn ngữ cho các nhóm phép cấp quyền"
+keywords:
+  - mô tả nhóm
+  - ủy quyền
+  - đa ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CABILLGPLNITMPRCDATETYPE
 description: Cabillgplnitmprcdatetype
+semantic_en: "billing plan item price determination date type — domain values for sourcing the price/cost determination date (contract start, billing date, etc.)"
+semantic_vi: "loại ngày xác định giá của mục kế hoạch hóa đơn — giá trị miền cho cách xác định ngày giá/chi phí (ngày bắt đầu hợp đồng, ngày hóa đơn, v.v.)"
+keywords:
+  - ngày xác định giá
+  - kế hoạch hóa đơn
+  - mục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

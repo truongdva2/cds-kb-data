@@ -1,6 +1,12 @@
 ---
 name: I_CADUNNINGMASTERDATAORIGINT
 description: Cadunningmasterdataorigint
+semantic_en: "dunning master data origin text — language-specific descriptions of dunning master data origins."
+semantic_vi: "Văn bản nguồn dữ liệu chính thúc đẩy — mô tả nguồn gốc dữ liệu chính thúc đẩy theo ngôn ngữ."
+keywords:
+  - Dữ liệu chính thúc đẩy
+  - Mô tả
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

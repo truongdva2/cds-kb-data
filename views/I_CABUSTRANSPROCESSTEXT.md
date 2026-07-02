@@ -1,6 +1,12 @@
 ---
 name: I_CABUSTRANSPROCESSTEXT
 description: Cabustransprocesstext
+semantic_en: "translated business transaction process descriptions — multilingual labels for transaction process codes."
+semantic_vi: "mô tả quy trình giao dịch kinh doanh dịch ngữ — nhãn đa ngôn ngữ cho mã quy trình giao dịch."
+keywords:
+  - nhãn quy trình giao dịch
+  - văn bản process
+  - dịch ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

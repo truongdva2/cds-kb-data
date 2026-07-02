@@ -1,6 +1,12 @@
 ---
 name: I_CAHOUSEBANKREFERENCETEXT
 description: Cahousebankreferencetext
+semantic_en: "house bank reference text — language-specific names of house bank references."
+semantic_vi: "Văn bản tham chiếu ngân hàng nhà — tên tham chiếu ngân hàng nhà theo ngôn ngữ."
+keywords:
+  - Ngân hàng nhà
+  - Tham chiếu
+  - Ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

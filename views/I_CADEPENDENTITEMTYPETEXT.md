@@ -1,6 +1,12 @@
 ---
 name: I_CADEPENDENTITEMTYPETEXT
 description: Cadependentitemtypetext
+semantic_en: "dependent item type texts — provides multilingual names for dependent item types."
+semantic_vi: "văn bản loại mục phụ thuộc — cung cấp tên đa ngôn ngữ cho các loại mục phụ thuộc."
+keywords:
+  - mục phụ thuộc
+  - loại mục
+  - tên
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released
