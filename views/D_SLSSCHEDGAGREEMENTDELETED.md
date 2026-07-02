@@ -1,6 +1,12 @@
 ---
 name: D_SLSSCHEDGAGREEMENTDELETED
 description: D Slsschedgagreementdeleted
+semantic_en: "business event signature for a deleted sales scheduling agreement — recording event timestamp, agreement type, sales organization, distribution channel, division, and customer identification"
+semantic_vi: "chữ ký sự kiện khi xóa thỏa thuận lên lịch bán — ghi nhận thời điểm sự kiện, loại thỏa thuận, tổ chức bán hàng, kênh phân phối, bộ phận tổ chức và thông tin khách hàng"
+keywords:
+  - thỏa thuận lên lịch bán xóa
+  - sự kiện xóa thỏa thuận
+  - kiểm toán xóa thỏa thuận
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

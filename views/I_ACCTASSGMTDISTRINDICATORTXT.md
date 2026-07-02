@@ -1,6 +1,12 @@
 ---
 name: I_ACCTASSGMTDISTRINDICATORTXT
 description: Acctassgmtdistrindicatortxt
+semantic_en: "text descriptions for account assignment distribution indicators by language — translates distribution key types to business language"
+semantic_vi: "mô tả văn bản cho chỉ báo phân phối gán tài khoản theo ngôn ngữ — dịch các loại khóa phân phối sang ngôn ngữ kinh doanh"
+keywords:
+  - mô tả phân phối
+  - chỉ báo phân phối tài khoản
+  - khóa phân phối
 app_component: MM-PUR-GF-MAS-2CL
 software_component: SAPSCORE
 release_state: released

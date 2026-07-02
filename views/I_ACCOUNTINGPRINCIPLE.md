@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGPRINCIPLE
 description: Accountingprinciple
+semantic_en: "master data for accounting principles — core classification for financial reporting standards and methods"
+semantic_vi: "dữ liệu chính về nguyên tắc kế toán — phân loại cơ bản cho các tiêu chuẩn và phương pháp báo cáo tài chính"
+keywords:
+  - nguyên tắc kế toán
+  - tiêu chuẩn tài chính
+  - phân loại kế toán
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

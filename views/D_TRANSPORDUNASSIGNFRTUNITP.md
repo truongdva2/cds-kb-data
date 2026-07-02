@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDUNASSIGNFRTUNITP
 description: D Transpordunassignfrtunitp
+semantic_en: "unassign freight unit action parameter — captures freight unit uuid for unassignment processing."
+semantic_vi: "tham số hành động gỡ bỏ phân công đơn vị hàng hóa — ghi lại uuid đơn vị hàng hóa để xử lý gỡ bỏ phân công."
+keywords:
+  - gỡ bỏ phân công
+  - đơn vị hàng hóa
+  - tham số
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

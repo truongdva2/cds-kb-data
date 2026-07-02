@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERRELEASEREVOKED
 description: D Service OrderRELEASEREVOKED
+semantic_en: "business event signature for a revoked service order release — recording event timestamp, customer management object type, order uuid, description, and order type"
+semantic_vi: "chữ ký sự kiện khi hủy phát hành đơn dịch vụ — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid đơn hàng và loại đơn hàng"
+keywords:
+  - hủy phát hành đơn dịch vụ
+  - sự kiện hủy phát hành
+  - theo dõi hủy phát hành
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

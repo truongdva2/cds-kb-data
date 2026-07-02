@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEQUOTATIONCREATED
 description: D Servicequotationcreated
+semantic_en: "business event signature for a created service quotation — capturing event timestamp, customer management object type, quotation uuid, description, and quotation type"
+semantic_vi: "chữ ký sự kiện khi tạo báo giá dịch vụ mới — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid báo giá và loại báo giá"
+keywords:
+  - báo giá dịch vụ mới
+  - sự kiện tạo báo giá dịch vụ
+  - thêm báo giá dịch vụ
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

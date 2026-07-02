@@ -1,6 +1,12 @@
 ---
 name: D_SLSQTANITMRJCNSTSCHGD
 description: D Slsqtanitmrjcnstschgd
+semantic_en: "business event signature for sales quotation item rejection status change — capturing timestamp, item context, product details, rejection status, and rejection reason"
+semantic_vi: "chữ ký sự kiện khi trạng thái từ chối dòng báo giá bán thay đổi — ghi nhận thời điểm sự kiện, bối cảnh dòng mục, chi tiết sản phẩm, trạng thái từ chối và lý do từ chối"
+keywords:
+  - trạng thái từ chối dòng báo giá thay đổi
+  - sự kiện từ chối dòng mục
+  - theo dõi trạng thái từ chối
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

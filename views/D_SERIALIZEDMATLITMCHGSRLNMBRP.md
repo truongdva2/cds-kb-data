@@ -1,6 +1,12 @@
 ---
 name: D_SERIALIZEDMATLITMCHGSRLNMBRP
 description: D Serializedmatlitmchgsrlnmbrp
+semantic_en: "parameter view for serialized material serial number changes — filtering by serial number identifier"
+semantic_vi: "chế độ xem tham số để thay đổi số seri vật liệu — lọc theo mã số seri"
+keywords:
+  - số seri vật liệu
+  - thay đổi số seri
+  - tham số số seri
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

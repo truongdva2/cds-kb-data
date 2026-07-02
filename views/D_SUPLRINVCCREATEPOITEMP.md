@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATEPOITEMP
 description: D Suplrinvccreatepoitemp
+semantic_en: "parameterized data-input view — supplier invoice item creation parameters with PO reference (item number, purchase order, PO item, reference document, fiscal year, reference item, subsequent debit/credit flag, tax code, jurisdiction, currency, item amount, units, quantity unit) for invoice items linked to purchase orders"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số tạo mục hóa đơn nhà cung cấp có tham chiếu PO (số mục, đơn đặt hàng, mục PO, tài liệu tham chiếu, năm tài chính, mục tham chiếu, cờ nợ/có sau, mã thuế, khu vực pháp lý, tiền tệ, số tiền mục, đơn vị, đơn vị số lượng) cho các mục hóa đơn được liên kết với đơn đặt hàng"
+keywords:
+  - mục hóa đơn
+  - tham chiếu đơn đặt hàng
+  - tạo hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_SALESQUOTATIONITEMDELETED
 description: D Salesquotationitemdeleted
+semantic_en: "business event signature for a deleted sales quotation line item — recording event timestamp, quotation context, and removed line item with category and product details"
+semantic_vi: "chữ ký sự kiện khi xóa dòng mục báo giá bán — ghi nhận thời điểm sự kiện, bối cảnh báo giá và thông tin dòng hàng bị xóa"
+keywords:
+  - dòng mục báo giá xóa
+  - sự kiện xóa dòng báo giá
+  - kiểm toán xóa dòng giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

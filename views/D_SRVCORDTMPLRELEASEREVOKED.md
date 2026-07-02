@@ -1,6 +1,12 @@
 ---
 name: D_SRVCORDTMPLRELEASEREVOKED
 description: D Srvcordtmplreleaserevoked
+semantic_en: "workflow event signature — service order template release revocation captured with customer management object type, template UUID, description, and template type"
+semantic_vi: "chữ ký sự kiện quy trình công việc — sự thu hồi phát hành mẫu đơn hàng dịch vụ được ghi lại với loại đối tượng quản lý khách hàng, UUID mẫu, mô tả và loại mẫu"
+keywords:
+  - mẫu đơn hàng dịch vụ
+  - thu hồi phát hành
+  - quy trình công việc
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

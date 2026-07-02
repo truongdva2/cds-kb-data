@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP4TEXT
 description: ADDITIONALMaterial Group 4TEXT
+semantic_en: "descriptions for fourth supplementary material group in all languages — provides complete multilingual material segment labels"
+semantic_vi: "mô tả cho nhóm vật liệu bổ sung thứ tư theo tất cả ngôn ngữ — cung cấp nhãn phân đoạn vật liệu đa ngôn ngữ đầy đủ"
+keywords:
+  - mô tả nhóm thứ tư
+  - nhãn vật liệu
+  - đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

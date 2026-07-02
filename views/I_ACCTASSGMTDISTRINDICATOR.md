@@ -1,6 +1,12 @@
 ---
 name: I_ACCTASSGMTDISTRINDICATOR
 description: Acctassgmtdistrindicator
+semantic_en: "domain values for multiple account assignment distribution indicators — classification for how costs are distributed across accounts"
+semantic_vi: "các giá trị miền cho chỉ báo phân phối gán tài khoản bội — phân loại cách chi phí được phân phối trên các tài khoản"
+keywords:
+  - phân phối gán tài khoản
+  - chỉ báo phân phối
+  - gán tài khoản
 app_component: MM-PUR-GF-MAS-2CL
 software_component: SAPSCORE
 release_state: released

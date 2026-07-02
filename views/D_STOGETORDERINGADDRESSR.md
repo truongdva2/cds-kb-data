@@ -1,6 +1,12 @@
 ---
 name: D_STOGETORDERINGADDRESSR
 description: D Stogetorderingaddressr
+semantic_en: "data-extraction projection — retrieves ordering/from-address details (ID, person, language, communication, name, organization, search terms, city) for stock transport orders"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất chi tiết địa chỉ đặt hàng/từ (ID, người, ngôn ngữ, liên lạc, tên, tổ chức, thuật ngữ tìm kiếm, thành phố) cho các đơn vận chuyển hàng dự trữ"
+keywords:
+  - địa chỉ đặt hàng
+  - đơn vận chuyển hàng
+  - chi tiết từ địa chỉ
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVITYDESCORIGINTYPE
 description: Activitydescorigintype
+semantic_en: "domain values for activity description origin types — classifies whether activity descriptions come from internal definitions or external sources"
+semantic_vi: "các giá trị miền cho các loại nguồn gốc mô tả hoạt động — phân loại xem liệu mô tả hoạt động có nguồn gốc từ các định nghĩa nội bộ hay nguồn bên ngoài"
+keywords:
+  - loại mô tả hoạt động
+  - nguồn gốc hoạt động
+  - phân loại mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

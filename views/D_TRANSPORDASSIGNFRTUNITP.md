@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDASSIGNFRTUNITP
 description: D Transpordassignfrtunitp
+semantic_en: "parameterized workflow view — assign freight unit action parameter carrying the transportation order item UUID"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số hành động gán đơn vị hàng hóa mang UUID mục đơn hàng vận chuyển"
+keywords:
+  - gán đơn vị hàng hóa
+  - đơn hàng vận chuyển
+  - quy trình công việc
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

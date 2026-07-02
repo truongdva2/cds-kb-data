@@ -1,6 +1,12 @@
 ---
 name: ICA_MATCHINGJOURNALENTRYITEM
 description: Ica MATCHINGJournal EntryITEM
+semantic_en: "matching journal entry item — captures journal entry details with matching method, record type, and financial classification."
+semantic_vi: "mục nhập ký ghi phù hợp — ghi lại chi tiết nhập ký ghi với phương pháp phù hợp, loại bản ghi và phân loại tài chính."
+keywords:
+  - nhập ký ghi
+  - phương pháp phù hợp
+  - tài chính
 app_component: FIN-CS-ICR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVECOMPLIANCERQMTVERSION
 description: Activecompliancerqmtversion
+semantic_en: "active versions of compliance requirements — tracks effective compliance requirement definitions with version history, build timestamps, and domains"
+semantic_vi: "các phiên bản hoạt động của các yêu cầu tuân thủ — theo dõi các định nghĩa yêu cầu tuân thủ hiệu lực với lịch sử phiên bản, dấu thời gian xây dựng và miền"
+keywords:
+  - yêu cầu tuân thủ
+  - phiên bản hiệu lực
+  - lịch sử tuân thủ
 app_component: EHS-SUS-CI
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP5
 description: Additionalcustomergroup 5
+semantic_en: "master data for fifth supplementary customer classification — provides maximum granularity for customer segmentation in analytics"
+semantic_vi: "dữ liệu chính cho phân loại khách hàng bổ sung thứ năm — cung cấp độ chi tiết tối đa cho phân đoạn khách hàng trong phân tích"
+keywords:
+  - nhóm khách hàng thứ năm
+  - phân loại khách hàng
+  - chi tiết segmentation
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

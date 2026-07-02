@@ -1,6 +1,12 @@
 ---
 name: I_ABAPTRANSPORTREQUESTTEXT
 description: Abaptransportrequesttext
+semantic_en: "abap transport request text description — provides multilingual descriptions for transport request identifiers."
+semantic_vi: "mô tả văn bản yêu cầu vận chuyển abap — cung cấp mô tả đa ngôn ngữ cho các mã định danh yêu cầu vận chuyển."
+keywords:
+  - yêu cầu vận chuyển
+  - mô tả
+  - ngôn ngữ
 app_component: BC-CTS-ORG
 software_component: SAP_BASIS
 release_state: released

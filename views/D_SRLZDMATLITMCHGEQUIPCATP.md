@@ -1,6 +1,12 @@
 ---
 name: D_SRLZDMATLITMCHGEQUIPCATP
 description: D Srlzdmatlitmchgequipcatp
+semantic_en: "parameterized change-document view — transmits the equipment category value for serialized material item changes during maintenance activities"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — truyền giá trị danh mục thiết bị cho những thay đổi mục vật liệu được sê-ri hóa trong các hoạt động bảo trì"
+keywords:
+  - danh mục thiết bị
+  - vật liệu sê-ri hóa
+  - bảo trì
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

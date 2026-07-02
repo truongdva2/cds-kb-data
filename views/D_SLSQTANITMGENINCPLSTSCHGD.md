@@ -1,6 +1,12 @@
 ---
 name: D_SLSQTANITMGENINCPLSTSCHGD
 description: D Slsqtanitmgenincplstschgd
+semantic_en: "business event signature for sales quotation item general incompleteness status change — capturing timestamp, item context, product details, and previous incompleteness status"
+semantic_vi: "chữ ký sự kiện khi trạng thái không hoàn chỉnh chung của dòng báo giá bán thay đổi — ghi nhận thời điểm sự kiện, bối cảnh dòng mục, chi tiết sản phẩm và trạng thái không hoàn chỉnh trước đó"
+keywords:
+  - trạng thái không hoàn chỉnh dòng báo giá thay đổi
+  - sự kiện hoàn chỉnh dòng mục
+  - theo dõi trạng thái hoàn chỉnh
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

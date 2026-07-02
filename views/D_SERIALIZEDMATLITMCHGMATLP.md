@@ -1,6 +1,12 @@
 ---
 name: D_SERIALIZEDMATLITMCHGMATLP
 description: D Serializedmatlitmchgmatlp
+semantic_en: "parameter view for serialized material item changes — filtering by material identifier"
+semantic_vi: "chế độ xem tham số cho thay đổi vật liệu được quản lý theo số seri — lọc theo mã vật liệu"
+keywords:
+  - vật liệu quản lý số seri
+  - thay đổi vật liệu
+  - tham số vật liệu
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

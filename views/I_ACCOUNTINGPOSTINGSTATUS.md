@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGPOSTINGSTATUS
 description: Accountingpostingstatus
+semantic_en: "accounting posting status — master data for billing document accounting posting status codes."
+semantic_vi: "trạng thái ghi sổ kế toán — dữ liệu chính cho các mã trạng thái ghi sổ kế toán tài liệu hóa đơn."
+keywords:
+  - trạng thái ghi sổ
+  - hóa đơn
+  - kế toán
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

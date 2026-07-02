@@ -1,6 +1,12 @@
 ---
 name: D_SUPPLIERINVOICEREVERSED
 description: D Supplier InvoiceREVERSED
+semantic_en: "business-event signature for supplier invoices — records invoice reversal event with supplier entity and fiscal year"
+semantic_vi: "chữ ký sự kiện kinh doanh cho hóa đơn nhà cung cấp — ghi lại sự kiện hoàn ngược hóa đơn với thực thể nhà cung cấp và năm tài chính"
+keywords:
+  - hóa đơn nhà cung cấp
+  - hoàn ngược hóa đơn
+  - sự kiện hoàn ngược
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

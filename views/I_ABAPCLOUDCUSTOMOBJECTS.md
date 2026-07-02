@@ -1,6 +1,12 @@
 ---
 name: I_ABAPCLOUDCUSTOMOBJECTS
 description: Abapcloudcustomobjects
+semantic_en: "abap cloud custom objects — catalogs custom abap objects by type and cloud categorization."
+semantic_vi: "các đối tượng tùy chỉnh abap cloud — liệt kê các đối tượng abap tùy chỉnh theo loại và phân loại đám mây."
+keywords:
+  - đối tượng tùy chỉnh
+  - abap cloud
+  - loại đối tượng
 app_component: BC-SRV-APS-EXT-REL
 software_component: SAP_BASIS
 release_state: released

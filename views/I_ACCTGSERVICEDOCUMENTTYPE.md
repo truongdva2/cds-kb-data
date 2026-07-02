@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSERVICEDOCUMENTTYPE
 description: ACCTGService DocumentUMENTTYPE
+semantic_en: "master data for service document types in accounting — lists valid document type codes and their descriptions"
+semantic_vi: "dữ liệu chính cho các loại tài liệu dịch vụ trong kế toán — liệt kê các mã loại tài liệu hợp lệ và mô tả của chúng"
+keywords:
+  - loại tài liệu dịch vụ
+  - mã tài liệu
+  - mô tả loại tài liệu
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

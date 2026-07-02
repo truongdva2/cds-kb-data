@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVITYALTERNATIVETEXT
 description: Activityalternativetext
+semantic_en: "alternative text labels for cost center activities in multiple languages — stores translated descriptions for activity type alternate names"
+semantic_vi: "nhãn văn bản thay thế cho các hoạt động trung tâm chi phí theo ngôn ngữ — lưu trữ mô tả dịch cho tên thay thế loại hoạt động"
+keywords:
+  - văn bản thay thế hoạt động
+  - mô tả hoạt động
+  - trung tâm chi phí
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

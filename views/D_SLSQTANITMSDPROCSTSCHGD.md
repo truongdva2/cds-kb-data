@@ -1,6 +1,12 @@
 ---
 name: D_SLSQTANITMSDPROCSTSCHGD
 description: D Slsqtanitmsdprocstschgd
+semantic_en: "business event signature for sales quotation item sales and distribution process status change — capturing timestamp, item context, product details, process status, and previous status"
+semantic_vi: "chữ ký sự kiện khi trạng thái quy trình bán hàng và phân phối của dòng báo giá thay đổi — ghi nhận thời điểm sự kiện, bối cảnh dòng mục, chi tiết sản phẩm và trạng thái trước đó"
+keywords:
+  - trạng thái quy trình dòng báo giá thay đổi
+  - sự kiện quy trình dòng mục
+  - theo dõi trạng thái quy trình
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

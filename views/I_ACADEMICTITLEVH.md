@@ -1,6 +1,12 @@
 ---
 name: I_ACADEMICTITLEVH
 description: Academictitlevh
+semantic_en: "academic title value help — value help projection providing academic title name selections."
+semantic_vi: "trợ giúp giá trị học vị — phép chiếu trợ giúp giá trị cung cấp lựa chọn tên học vị."
+keywords:
+  - trợ giúp giá trị
+  - học vị
+  - tên
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

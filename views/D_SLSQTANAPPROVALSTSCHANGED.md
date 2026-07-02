@@ -1,6 +1,12 @@
 ---
 name: D_SLSQTANAPPROVALSTSCHANGED
 description: D Slsqtanapprovalstschanged
+semantic_en: "business event signature for sales quotation approval status change — capturing timestamp, quotation context, current and previous approval status"
+semantic_vi: "chữ ký sự kiện khi trạng thái duyệt báo giá bán thay đổi — ghi nhận thời điểm sự kiện, bối cảnh báo giá và trạng thái duyệt hiện tại và trước đó"
+keywords:
+  - trạng thái duyệt báo giá thay đổi
+  - sự kiện duyệt báo giá
+  - theo dõi trạng thái duyệt
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

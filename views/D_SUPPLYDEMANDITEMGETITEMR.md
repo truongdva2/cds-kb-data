@@ -1,6 +1,12 @@
 ---
 name: D_SUPPLYDEMANDITEMGETITEMR
 description: D Supplydemanditemgetitemr
+semantic_en: "data-extraction projection — retrieves supply and demand item data (row index, material, MRP plant, area, segment type, segment, external ID, MRP element, schedule line, category, category short name, availability/requirement date, available quantity) for supply-demand matching"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất dữ liệu cung cầu (chỉ mục hàng, vật liệu, nhà máy quy hoạch tài nguyên, khu vực, loại phân đoạn, phân đoạn, ID bên ngoài, phần tử quy hoạch, dòng lịch, danh mục, tên viết tắt danh mục, ngày sẵn dùng/yêu cầu, số lượng sẵn dùng) để ghép cung cầu"
+keywords:
+  - ghép cung cầu
+  - quy hoạch vật liệu tài nguyên
+  - cung cấp vật liệu
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

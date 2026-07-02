@@ -1,6 +1,12 @@
 ---
 name: I_ACCRENGINEACCRUALSUBOBJECTVH
 description: Accrengineaccrualsubobjectvh
+semantic_en: "value help for accrual engine subobjects — lists accrual objects and subobjects scoped by company code and system"
+semantic_vi: "hỗ trợ giá trị cho các đối tượng con của công cụ ứng trước — liệt kê các đối tượng ứng trước và đối tượng con theo công ty và hệ thống"
+keywords:
+  - công cụ ứng trước
+  - đối tượng ứng trước
+  - giá trị hỗ trợ
 app_component: FI-GL-GL-ACE-2CL
 software_component: SAPSCORE
 release_state: released

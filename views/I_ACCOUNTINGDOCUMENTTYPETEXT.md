@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTTYPETEXT
 description: Accounting DocumentUMENTTYPETEXT
+semantic_en: "accounting document type text — multilingual names for accounting document types."
+semantic_vi: "văn bản loại tài liệu kế toán — tên đa ngôn ngữ cho các loại tài liệu kế toán."
+keywords:
+  - loại tài liệu
+  - tên
+  - kế toán
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

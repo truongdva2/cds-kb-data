@@ -1,6 +1,12 @@
 ---
 name: D_SERVICECONFIRMATIONCREATED
 description: D Serviceconfirmationcreated
+semantic_en: "business event signature for a created service confirmation — capturing event timestamp, customer management object type, confirmation uuid, description, and confirmation type"
+semantic_vi: "chữ ký sự kiện khi tạo xác nhận dịch vụ mới — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid xác nhận và loại xác nhận"
+keywords:
+  - xác nhận dịch vụ mới
+  - sự kiện tạo xác nhận
+  - thêm xác nhận dịch vụ
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

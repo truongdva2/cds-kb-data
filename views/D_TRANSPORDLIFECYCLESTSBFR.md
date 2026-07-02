@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDLIFECYCLESTSBFR
 description: D Transpordlifecyclestsbfr
+semantic_en: "transportation order lifecycle status — abstract entity capturing the preceding state before change."
+semantic_vi: "trạng thái vòng đời đơn hàng vận chuyển — thực thể trừu tượng ghi lại trạng thái trước khi thay đổi."
+keywords:
+  - trạng thái vòng đời
+  - đơn hàng vận chuyển
+  - STSBFR
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

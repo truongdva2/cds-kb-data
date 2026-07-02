@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP5TEXT
 description: ADDITIONALMaterial Group 5TEXT
+semantic_en: "text descriptions for fifth supplementary material group across all languages — supports comprehensive multilingual material classification"
+semantic_vi: "mô tả văn bản cho nhóm vật liệu bổ sung thứ năm trên tất cả ngôn ngữ — hỗ trợ phân loại vật liệu đa ngôn ngữ toàn diện"
+keywords:
+  - mô tả nhóm thứ năm
+  - phân loại vật liệu
+  - báo cáo đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

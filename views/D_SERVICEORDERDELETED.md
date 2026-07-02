@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERDELETED
 description: D Service OrderDELETED
+semantic_en: "business event signature for a deleted service order — recording event timestamp, customer management object type, order uuid, description, and order type"
+semantic_vi: "chữ ký sự kiện khi xóa đơn dịch vụ — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid đơn hàng và loại đơn hàng"
+keywords:
+  - đơn dịch vụ xóa
+  - sự kiện xóa đơn hàng
+  - kiểm toán xóa đơn hàng
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

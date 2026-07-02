@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERTMPLCREATED
 description: D Service OrderTMPLCREATED
+semantic_en: "business event signature for a created service order template — capturing event timestamp, customer management object type, template uuid, description, and template type"
+semantic_vi: "chữ ký sự kiện khi tạo mẫu đơn dịch vụ mới — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid mẫu và loại mẫu"
+keywords:
+  - mẫu đơn dịch vụ mới
+  - sự kiện tạo mẫu đơn hàng
+  - thêm mẫu đơn dịch vụ
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

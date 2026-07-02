@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDREPORTEVENTP
 description: D Transpordreporteventp
+semantic_en: "transportation order report event action parameter — captures event code, stop uuid, and datetime fields for event processing."
+semantic_vi: "tham số hành động sự kiện báo cáo đơn hàng vận chuyển — ghi lại mã sự kiện, uuid dừng và các trường datetime để xử lý sự kiện."
+keywords:
+  - sự kiện báo cáo
+  - tham số hành động
+  - ngày giờ
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

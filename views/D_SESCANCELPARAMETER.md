@@ -1,6 +1,12 @@
 ---
 name: D_SESCANCELPARAMETER
 description: D Sescancelparameter
+semantic_en: "parameter view for strategic execution system cancel operations — filtering by posting date for procurement sourcing events"
+semantic_vi: "chế độ xem tham số để hủy các hoạt động trong hệ thống thực thi chiến lược — lọc theo ngày ghi sổ cho các sự kiện cấu ứng"
+keywords:
+  - tham số hủy ses
+  - ngày ghi sổ
+  - hệ thống thực thi chiến lược
 app_component: MM-PUR-SVC-SES-2CL
 software_component: SAPSCORE
 release_state: released

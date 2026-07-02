@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTCATGROUP
 description: Accounting DocumentUMENTCATGROUP
+semantic_en: "category group of journal entry — master data for journal entry category grouping."
+semantic_vi: "nhóm loại nhập ký ghi — dữ liệu chính cho nhóm loại nhập ký ghi."
+keywords:
+  - nhóm loại
+  - nhập ký ghi
+  - phân loại
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

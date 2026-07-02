@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERCOMPLETED
 description: D Service OrderCOMPLETED
+semantic_en: "business event signature for a completed service order — recording event timestamp, customer management object type, order uuid, description, and order type"
+semantic_vi: "chữ ký sự kiện khi đơn dịch vụ hoàn thành — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid đơn hàng và loại đơn hàng"
+keywords:
+  - đơn dịch vụ hoàn thành
+  - sự kiện hoàn thành đơn hàng
+  - theo dõi hoàn thành
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTTYPE
 description: Accounting DocumentUMENTTYPE
+semantic_en: "journal entry type — captures document type with number range, authorization, and posting rules."
+semantic_vi: "loại nhập ký ghi — ghi lại loại tài liệu với phạm vi số, ủy quyền và quy tắc ghi sổ."
+keywords:
+  - loại nhập ký ghi
+  - phạm vi số
+  - ủy quyền
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

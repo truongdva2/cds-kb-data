@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP5
 description: ADDITIONALMaterial Group 5
+semantic_en: "master data for fifth supplementary material classification — provides maximum granularity for material segmentation in analytics"
+semantic_vi: "dữ liệu chính cho phân loại vật liệu bổ sung thứ năm — cung cấp độ chi tiết tối đa cho phân đoạn vật liệu trong phân tích"
+keywords:
+  - nhóm vật liệu thứ năm
+  - phân loại vật liệu
+  - chi tiết segmentation
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP3TEXT
 description: Additionalcustomergroup 3TEXT
+semantic_en: "descriptions for third supplementary customer group in multiple languages — stores translated group names for each language"
+semantic_vi: "mô tả cho nhóm khách hàng bổ sung thứ ba theo ngôn ngữ — lưu trữ tên nhóm dịch cho mỗi ngôn ngữ"
+keywords:
+  - mô tả nhóm thứ ba
+  - văn bản khách hàng
+  - phân loại đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

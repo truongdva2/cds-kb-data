@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGCLERK
 description: Accountingclerk
+semantic_en: "accounting clerk — captures accounting clerk details including name and associated user id."
+semantic_vi: "nhân viên kế toán — ghi lại chi tiết nhân viên kế toán bao gồm tên và id người dùng liên kết."
+keywords:
+  - nhân viên kế toán
+  - tên
+  - id người dùng
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

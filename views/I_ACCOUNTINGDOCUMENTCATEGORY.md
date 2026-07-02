@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTCATEGORY
 description: Accounting DocumentUMENTCATEGORY
+semantic_en: "accounting document category — master data for journal entry document type categories."
+semantic_vi: "loại tài liệu kế toán — dữ liệu chính cho các loại danh mục loại tài liệu nhập ký ghi."
+keywords:
+  - loại tài liệu
+  - kế toán
+  - phân loại
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

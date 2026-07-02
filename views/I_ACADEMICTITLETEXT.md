@@ -1,6 +1,12 @@
 ---
 name: I_ACADEMICTITLETEXT
 description: Academictitletext
+semantic_en: "academic title text — multilingual descriptions for academic title codes."
+semantic_vi: "văn bản học vị — mô tả đa ngôn ngữ cho các mã học vị."
+keywords:
+  - học vị
+  - mô tả
+  - ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

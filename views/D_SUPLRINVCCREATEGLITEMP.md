@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATEGLITEMP
 description: D Suplrinvccreateglitemp
+semantic_en: "parameterized data-input view — GL account posting parameters (supplier invoice item, GL account, currency, amount, debit/credit code, company code, tax code, jurisdiction, item text, cost center, sales order, internal order, profit center) for direct GL account postings during invoice creation"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số hạch toán tài khoản GL (mục hóa đơn nhà cung cấp, tài khoản GL, tiền tệ, số tiền, mã nợ/có, mã công ty, mã thuế, khu vực pháp lý, văn bản mục, trung tâm chi phí, đơn bán, đơn đặt hàng nội bộ, trung tâm lợi nhuận) cho hạch toán tài khoản GL trực tiếp trong quá trình tạo hóa đơn"
+keywords:
+  - hạch toán tài khoản GL
+  - tạo hóa đơn
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

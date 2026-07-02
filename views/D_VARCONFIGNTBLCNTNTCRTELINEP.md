@@ -1,6 +1,12 @@
 ---
 name: D_VARCONFIGNTBLCNTNTCRTELINEP
 description: D Varconfigntblcntntcrtelinep
+semantic_en: "variant configuration table content create line action parameter — captures line position, characteristics, values, intervals, and units."
+semantic_vi: "tham số hành động tạo hàng nội dung bảng cấu hình biến thể — ghi lại vị trí hàng, đặc điểm, giá trị, khoảng, và đơn vị."
+keywords:
+  - cấu hình biến thể
+  - bảng nội dung
+  - tạo hàng
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

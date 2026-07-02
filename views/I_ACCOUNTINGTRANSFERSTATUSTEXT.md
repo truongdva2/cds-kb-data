@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGTRANSFERSTATUSTEXT
 description: Accountingtransferstatustext
+semantic_en: "text descriptions for accounting transfer statuses by language — provides human-readable status names for billing document posting stages"
+semantic_vi: "mô tả văn bản cho trạng thái chuyển khoản kế toán theo ngôn ngữ — cung cấp tên trạng thái dễ đọc cho các giai đoạn ghi lại tài liệu hóa đơn"
+keywords:
+  - mô tả trạng thái chuyển khoản
+  - tên trạng thái
+  - văn bản kế toán
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

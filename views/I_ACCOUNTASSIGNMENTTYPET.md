@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTASSIGNMENTTYPET
 description: Accountassignmenttypet
+semantic_en: "account assignment type text — multilingual names and descriptions for account assignment types."
+semantic_vi: "văn bản loại gán tài khoản — tên và mô tả đa ngôn ngữ cho các loại gán tài khoản."
+keywords:
+  - loại gán tài khoản
+  - tên mô tả
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

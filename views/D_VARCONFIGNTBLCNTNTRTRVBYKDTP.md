@@ -1,6 +1,12 @@
 ---
 name: D_VARCONFIGNTBLCNTNTRTRVBYKDTP
 description: D Varconfigntblcntntrtrvbykdtp
+semantic_en: "variant configuration table content retrieve by key date parameter — captures key date for historical record retrieval."
+semantic_vi: "tham số truy xuất nội dung bảng cấu hình biến thể theo ngày khóa — ghi lại ngày khóa để truy xuất bản ghi lịch sử."
+keywords:
+  - truy xuất theo ngày
+  - cấu hình biến thể
+  - ngày khóa
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

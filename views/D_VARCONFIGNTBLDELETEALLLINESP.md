@@ -1,6 +1,12 @@
 ---
 name: D_VARCONFIGNTBLDELETEALLLINESP
 description: D Varconfigntbldeletealllinesp
+semantic_en: "variant configuration table delete all lines action parameter — captures change number for bulk line deletion."
+semantic_vi: "tham số hành động xóa tất cả hàng bảng cấu hình biến thể — ghi lại số thay đổi để xóa hàng hàng loạt."
+keywords:
+  - xóa hàng
+  - cấu hình biến thể
+  - thay đổi hàng loạt
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

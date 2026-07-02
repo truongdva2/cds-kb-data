@@ -1,6 +1,12 @@
 ---
 name: D_SALESQUOTATIONITEMCHANGED
 description: D Salesquotationitemchanged
+semantic_en: "business event signature for a modified sales quotation line item — tracking event timestamp, quotation context, and changed item with category and product details"
+semantic_vi: "chữ ký sự kiện khi dòng mục báo giá bán thay đổi — theo dõi thời điểm sự kiện, bối cảnh báo giá và thông tin dòng hàng bao gồm loại mục và sản phẩm"
+keywords:
+  - dòng mục báo giá thay đổi
+  - sự kiện dòng báo giá
+  - theo dõi thay đổi dòng giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

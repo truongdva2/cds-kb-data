@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGTRANSFERSTATUS
 description: Accountingtransferstatus
+semantic_en: "domain values for accounting transfer statuses — tracks whether billing document accounting has been posted or transferred"
+semantic_vi: "các giá trị miền cho trạng thái chuyển khoản kế toán — theo dõi xem liệu kế toán tài liệu hóa đơn đã được ghi lại hay chuyển giao"
+keywords:
+  - trạng thái chuyển khoản
+  - kế toán hóa đơn
+  - bút toán
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTJOURNAL
 description: Accounting DocumentUMENTJOURNAL
+semantic_en: "journal entry line items — analytical projection capturing posting details, gl account, and transaction classification."
+semantic_vi: "các mục hàng nhập ký ghi — phép chiếu phân tích ghi lại chi tiết ghi sổ, tài khoản sổ cái và phân loại giao dịch."
+keywords:
+  - nhập ký ghi
+  - sổ cái
+  - ghi sổ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

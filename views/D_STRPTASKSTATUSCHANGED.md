@@ -1,6 +1,12 @@
 ---
 name: D_STRPTASKSTATUSCHANGED
 description: D Strptaskstatuschanged
+semantic_en: "change-document signature for statutory reporting tasks — records status change with reporting entity, category, task status, period dates, reporting year, classification, activity phase, country, region, agency, and integration scenario"
+semantic_vi: "chữ ký thay đổi tài liệu cho các nhiệm vụ báo cáo theo quy định — ghi lại thay đổi trạng thái với thực thể báo cáo, danh mục, trạng thái nhiệm vụ, ngày kỳ, năm báo cáo, phân loại, giai đoạn hoạt động, quốc gia, vùng, cơ quan và kịch bản tích hợp"
+keywords:
+  - báo cáo theo quy định
+  - thay đổi trạng thái nhiệm vụ
+  - báo cáo thuế
 app_component: FI-LOC-SRF-RUN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP2TEXT
 description: ADDITIONALMaterial Group 2TEXT
+semantic_en: "translations for second supplementary material group by language — multilingual support for material segment classification"
+semantic_vi: "bản dịch cho nhóm vật liệu bổ sung thứ hai theo ngôn ngữ — hỗ trợ đa ngôn ngữ cho phân loại phân đoạn vật liệu"
+keywords:
+  - mô tả nhóm thứ hai
+  - bản dịch vật liệu
+  - phân loại
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

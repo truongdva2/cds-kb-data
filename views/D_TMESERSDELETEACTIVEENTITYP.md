@@ -1,6 +1,12 @@
 ---
 name: D_TMESERSDELETEACTIVEENTITYP
 description: D Tmesersdeleteactiveentityp
+semantic_en: "parameterized workflow view — time series delete operation parameter indicating whether time series with assignments is deleted"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số hoạt động xóa chuỗi thời gian cho biết chuỗi thời gian có gán được xóa hay không"
+keywords:
+  - xóa chuỗi thời gian
+  - gán chuỗi thời gian
+  - quy trình công việc
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

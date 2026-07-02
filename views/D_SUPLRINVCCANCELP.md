@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCANCELP
 description: D Suplrinvccancelp
+semantic_en: "parameterized workflow view — supplier invoice reversal parameters including reversal reason and posting date"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số hoàn ngược hóa đơn nhà cung cấp bao gồm lý do hoàn ngược và ngày hạch toán"
+keywords:
+  - hoàn ngược hóa đơn
+  - nhà cung cấp
+  - lý do hoàn ngược
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

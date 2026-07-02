@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCHANGEPOITEMP
 description: D Suplrinvcchangepoitemp
+semantic_en: "parameterized change-document view — supplier invoice item details with PO reference (item number, subsequent debit/credit flag, item text, cash discount liability, final invoice flag) for purchase order linked invoice modifications"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — chi tiết mục hóa đơn nhà cung cấp có tham chiếu PO (số mục, cờ nợ/có sau, văn bản mục, trách nhiệm chiết khấu tiền mặt, cờ hóa đơn cuối) cho những sửa đổi hóa đơn được liên kết với đơn đặt hàng"
+keywords:
+  - mục hóa đơn
+  - tham chiếu đơn đặt hàng
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

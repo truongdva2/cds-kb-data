@@ -1,6 +1,12 @@
 ---
 name: D_VARCONFIGNTBLCREATEVALUEP
 description: D Varconfigntblcreatevaluep
+semantic_en: "variant configuration table create value action parameter — captures line number, characteristics, values, intervals, and units for table creation."
+semantic_vi: "tham số hành động tạo giá trị bảng cấu hình biến thể — ghi lại số hàng, đặc điểm, giá trị, khoảng, và đơn vị để tạo bảng."
+keywords:
+  - cấu hình biến thể
+  - tạo giá trị
+  - bảng
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

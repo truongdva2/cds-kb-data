@@ -1,6 +1,12 @@
 ---
 name: D_SLSSCHEDGAGRMTITEMCREATED
 description: D Slsschedgagrmtitemcreated
+semantic_en: "change-document signature for sales scheduling agreement items — captures event timestamp, sales organization, distribution channel, division, sold-to party, item category, and product when new items are created"
+semantic_vi: "chữ ký thay đổi tài liệu cho các mục hợp đồng lên lịch bán hàng — ghi lại dấu thời gian sự kiện, tổ chức bán hàng, kênh phân phối, bộ phận, bên mua, danh mục mục và sản phẩm khi mục mới được tạo"
+keywords:
+  - hợp đồng lên lịch bán hàng
+  - tạo mục hàng
+  - sự kiện tạo
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

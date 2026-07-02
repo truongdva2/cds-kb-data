@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRQTANCRTEFRMRFQP
 description: D Suplrqtancrtefrmrfqp
+semantic_en: "parameterized data-input view — supplier quotation creation parameters (request for quotation ID, supplier ID, language, binding period validity end date, external quotation ID, submission date, follow-on document category, follow-on document type) for quote generation from RFQs"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số tạo báo giá nhà cung cấp (ID yêu cầu báo giá, ID nhà cung cấp, ngôn ngữ, ngày kết thúc kỳ hạn ràng buộc, ID báo giá bên ngoài, ngày gửi, danh mục tài liệu theo sau, loại tài liệu theo sau) để tạo báo giá từ các yêu cầu"
+keywords:
+  - báo giá nhà cung cấp
+  - yêu cầu báo giá
+  - tạo báo giá
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSERVICECONTRACTVH
 description: Acctgservicecontractvh
+semantic_en: "value help for service contracts from accounting perspective — enables lookup of service documents by type and object"
+semantic_vi: "hỗ trợ giá trị cho hợp đồng dịch vụ từ góc độ kế toán — cho phép tra cứu tài liệu dịch vụ theo loại và đối tượng"
+keywords:
+  - hợp đồng dịch vụ
+  - giá trị hỗ trợ
+  - tra cứu dịch vụ
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

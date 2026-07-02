@@ -1,6 +1,12 @@
 ---
 name: I_ACADEMICTITLE
 description: Academictitle
+semantic_en: "academic titles — master data for academic title codes and names."
+semantic_vi: "học vị — dữ liệu chính cho các mã học vị và tên."
+keywords:
+  - học vị
+  - mã
+  - dữ liệu chính
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

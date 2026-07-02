@@ -1,6 +1,12 @@
 ---
 name: D_SERVICECONTRACTITEMDELETED
 description: D Servicecontractitemdeleted
+semantic_en: "business event signature for a deleted service contract line item — recording event timestamp, item uuid, item category, and item description"
+semantic_vi: "chữ ký sự kiện khi xóa dòng mục hợp đồng dịch vụ — ghi nhận thời điểm sự kiện, uuid dòng mục, loại dòng mục và mô tả dòng mục"
+keywords:
+  - dòng mục hợp đồng dịch vụ xóa
+  - sự kiện xóa dòng hợp đồng
+  - kiểm toán xóa dòng mục
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

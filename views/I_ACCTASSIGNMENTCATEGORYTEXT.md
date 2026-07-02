@@ -1,6 +1,12 @@
 ---
 name: I_ACCTASSIGNMENTCATEGORYTEXT
 description: Acctassignmentcategorytext
+semantic_en: "descriptions for account assignment categories in multiple languages — provides translated names for cost allocation category types"
+semantic_vi: "mô tả cho các danh mục gán tài khoản theo ngôn ngữ — cung cấp tên dịch cho các loại danh mục phân bổ chi phí"
+keywords:
+  - danh mục gán tài khoản
+  - mô tả danh mục
+  - phân bổ chi phí
 app_component: MM
 software_component: SAPSCORE
 release_state: released

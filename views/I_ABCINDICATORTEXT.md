@@ -1,6 +1,12 @@
 ---
 name: I_ABCINDICATORTEXT
 description: Abcindicatortext
+semantic_en: "abc indicator text — provides multilingual descriptions for abc classification codes."
+semantic_vi: "văn bản chỉ báo abc — cung cấp mô tả đa ngôn ngữ cho các mã phân loại abc."
+keywords:
+  - chỉ báo abc
+  - mô tả
+  - phân loại
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

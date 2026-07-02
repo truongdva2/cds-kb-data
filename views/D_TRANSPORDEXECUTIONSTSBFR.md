@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDEXECUTIONSTSBFR
 description: D Transpordexecutionstsbfr
+semantic_en: "parameterized status-before signature — transportation order execution status state before change"
+semantic_vi: "chữ ký trạng thái trước được tham số hóa — trạng thái thực hiện đơn hàng vận chuyển trước khi thay đổi"
+keywords:
+  - thực hiện đơn hàng
+  - trạng thái thực hiện
+  - đơn hàng vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

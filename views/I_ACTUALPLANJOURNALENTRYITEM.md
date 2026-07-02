@@ -1,6 +1,12 @@
 ---
 name: I_ACTUALPLANJOURNALENTRYITEM
 description: ACTUALPLANJournal EntryITEM
+semantic_en: "actual and plan data for journal entry items — combines actual posting data with financial planning entries for variance reporting"
+semantic_vi: "dữ liệu thực tế và kế hoạch cho các mục nhập nhật ký — kết hợp dữ liệu bản ghi thực tế với các mục lập kế hoạch tài chính để báo cáo sai lệch"
+keywords:
+  - mục nhập nhật ký
+  - thực tế và kế hoạch
+  - báo cáo sai lệch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

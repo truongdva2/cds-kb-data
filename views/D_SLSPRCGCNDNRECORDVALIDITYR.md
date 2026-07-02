@@ -1,6 +1,12 @@
 ---
 name: D_SLSPRCGCNDNRECORDVALIDITYR
 description: D Slsprcgcndnrecordvalidityr
+semantic_en: "action result view for sales pricing condition records — returning comprehensive condition attributes including record, validity dates, application type, release status, and related document and filter dimensions"
+semantic_vi: "chế độ xem kết quả hành động cho bản ghi điều kiện giá bán — trả về các thuộc tính điều kiện đầy đủ bao gồm bản ghi, ngày có hiệu lực, loại ứng dụng, trạng thái phát hành và các kích thước tài liệu liên quan"
+keywords:
+  - bản ghi điều kiện giá
+  - hiệu lực điều kiện
+  - kích thước giá bán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

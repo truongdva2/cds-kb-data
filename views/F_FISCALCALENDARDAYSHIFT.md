@@ -1,6 +1,12 @@
 ---
 name: F_FISCALCALENDARDAYSHIFT
 description: Fiscalcalendardayshift
+semantic_en: "fiscal calendar day shift — projection of shifted fiscal calendar dates with shifted calendar date key."
+semantic_vi: "ngày dịch chuyển lịch tài chính — phép chiếu các ngày lịch tài chính dịch chuyển với khóa ngày lịch dịch chuyển."
+keywords:
+  - lịch tài chính
+  - ngày dịch chuyển
+  - lịch
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

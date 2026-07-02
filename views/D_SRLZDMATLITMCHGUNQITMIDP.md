@@ -1,6 +1,12 @@
 ---
 name: D_SRLZDMATLITMCHGUNQITMIDP
 description: D Srlzdmatlitmchgunqitmidp
+semantic_en: "parameterized change-document view — carries the unique item identifier for serialized material item changes"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — mang mã định danh mục hàng duy nhất cho những thay đổi mục vật liệu được sê-ri hóa"
+keywords:
+  - định danh mục hàng
+  - vật liệu sê-ri
+  - mã riêng
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

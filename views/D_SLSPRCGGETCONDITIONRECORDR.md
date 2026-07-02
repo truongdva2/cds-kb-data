@@ -1,6 +1,12 @@
 ---
 name: D_SLSPRCGGETCONDITIONRECORDR
 description: D SLSPRCGGETCondition RecordR
+semantic_en: "action result view for sales pricing condition records — returning condition record details including type, application, validity dates, sequence number, table, scale information, and creation metadata"
+semantic_vi: "chế độ xem kết quả hành động cho bản ghi điều kiện giá bán — trả về chi tiết bản ghi bao gồm loại, ứng dụng, ngày hiệu lực, số thứ tự, bảng và thông tin tỷ lệ"
+keywords:
+  - chi tiết bản ghi điều kiện
+  - loại điều kiện giá
+  - thông tin tỷ lệ giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP1TEXT
 description: ADDITIONALMaterial Group 1TEXT
+semantic_en: "descriptions for first supplementary material group in multiple languages — provides translated group names by language and code"
+semantic_vi: "mô tả cho nhóm vật liệu bổ sung đầu tiên theo ngôn ngữ — cung cấp tên nhóm dịch theo ngôn ngữ và mã"
+keywords:
+  - mô tả nhóm vật liệu
+  - phân loại bổ sung
+  - văn bản vật liệu
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

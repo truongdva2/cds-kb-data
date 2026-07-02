@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGPOSTINGSTATUSTEXT
 description: Accountingpostingstatustext
+semantic_en: "accounting posting status text — multilingual descriptions for accounting posting status codes."
+semantic_vi: "văn bản trạng thái ghi sổ kế toán — mô tả đa ngôn ngữ cho các mã trạng thái ghi sổ kế toán."
+keywords:
+  - trạng thái ghi sổ
+  - mô tả
+  - kế toán
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

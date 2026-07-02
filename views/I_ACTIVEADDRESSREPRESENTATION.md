@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVEADDRESSREPRESENTATION
 description: Activeaddressrepresentation
+semantic_en: "master data for address language script representations — defines how addresses are formatted in different language and character systems"
+semantic_vi: "dữ liệu chính cho các biểu diễn kịch bản ngôn ngữ địa chỉ — định nghĩa cách định dạng địa chỉ trong các hệ thống ngôn ngữ và ký tự khác nhau"
+keywords:
+  - biểu diễn địa chỉ
+  - kịch bản ngôn ngữ
+  - định dạng địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

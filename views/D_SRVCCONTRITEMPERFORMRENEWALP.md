@@ -1,6 +1,12 @@
 ---
 name: D_SRVCCONTRITEMPERFORMRENEWALP
 description: D Srvccontritemperformrenewalp
+semantic_en: "parameterized workflow view — parameters for renewing service contract items including change request receipt date, item duration, duration unit, purchase order, and item release status"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số để gia hạn các mục hợp đồng dịch vụ bao gồm ngày nhận yêu cầu thay đổi, kỳ hạn mục, đơn vị kỳ hạn, đơn đặt hàng và trạng thái phát hành mục"
+keywords:
+  - gia hạn mục hợp đồng dịch vụ
+  - kỳ hạn mục
+  - yêu cầu thay đổi
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

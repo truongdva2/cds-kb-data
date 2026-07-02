@@ -1,6 +1,12 @@
 ---
 name: I_ACTCOSTINGRUNTYPEVH
 description: Actcostingruntypevh
+semantic_en: "value help for costing run types in actual costing — enables selection of costing methods by fiscal period and run type reference"
+semantic_vi: "hỗ trợ giá trị cho các loại chạy định giá trong định giá thực tế — cho phép lựa chọn các phương pháp định giá theo kỳ tài chính và tham chiếu loại chạy"
+keywords:
+  - loại chạy định giá
+  - định giá thực tế
+  - chạy chi phí
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

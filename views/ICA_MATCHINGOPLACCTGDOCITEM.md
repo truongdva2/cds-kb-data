@@ -1,6 +1,12 @@
 ---
 name: ICA_MATCHINGOPLACCTGDOCITEM
 description: Ica Matchingoplacctgdocitem
+semantic_en: "matching operational accounting document item — captures operational posting details with matching method and clearing information."
+semantic_vi: "mục tài liệu kế toán hoạt động phù hợp — ghi lại chi tiết ghi sổ hoạt động với phương pháp phù hợp và thông tin dọn dẹp."
+keywords:
+  - tài liệu kế toán
+  - phương pháp phù hợp
+  - dọn dẹp
 app_component: FIN-CS-ICR-2CL
 software_component: SAPSCORE
 release_state: released

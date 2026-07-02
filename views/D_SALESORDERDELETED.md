@@ -1,6 +1,12 @@
 ---
 name: D_SALESORDERDELETED
 description: D Sales OrderDELETED
+semantic_en: "business event signature for a deleted sales order — capturing event timestamp, order type, sales organization, distribution channel, division, and customer identification"
+semantic_vi: "chữ ký sự kiện kinh doanh khi đơn hàng bán được xóa — ghi nhận thời điểm sự kiện, loại đơn hàng, tổ chức bán hàng, kênh phân phối, bộ phận tổ chức và thông tin khách hàng"
+keywords:
+  - đơn hàng bán xóa
+  - sự kiện đơn hàng
+  - kiểm toán xóa đơn hàng
 app_component: SD-SLS-GF-BET-2CL
 software_component: SAPSCORE
 release_state: released

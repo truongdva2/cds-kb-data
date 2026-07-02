@@ -1,6 +1,12 @@
 ---
 name: D_SUPDMNDITMGETPGGNGWTHITEMSP
 description: D Supdmnditmgetpggngwthitemsp
+semantic_en: "parameterized data-extraction view — supply and demand pegging parameters (material, MRP plant, MRP area) for matching supply with demand items"
+semantic_vi: "chế độ xem trích xuất dữ liệu được tham số hóa — tham số ghép cung cầu (vật liệu, nhà máy quy hoạch tài nguyên vật liệu, khu vực quy hoạch) để ghép cung với cầu"
+keywords:
+  - ghép cung cầu
+  - quy hoạch vật liệu tài nguyên
+  - cân bằng cung cầu
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

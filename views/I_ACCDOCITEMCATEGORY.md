@@ -1,6 +1,12 @@
 ---
 name: I_ACCDOCITEMCATEGORY
 description: Accdocitemcategory
+semantic_en: "accounting document item category — master data for journal entry line item categories."
+semantic_vi: "loại mục tài liệu kế toán — dữ liệu chính cho các loại mục hàng nhập ký ghi."
+keywords:
+  - loại mục
+  - tài liệu kế toán
+  - nhập ký ghi
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

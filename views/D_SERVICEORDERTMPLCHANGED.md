@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERTMPLCHANGED
 description: D Service OrderTMPLCHANGED
+semantic_en: "business event signature for a modified service order template — tracking event timestamp, customer management object type, template uuid, description, and template type"
+semantic_vi: "chữ ký sự kiện khi mẫu đơn dịch vụ thay đổi — theo dõi thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid mẫu và loại mẫu"
+keywords:
+  - mẫu đơn dịch vụ thay đổi
+  - sự kiện mẫu đơn hàng
+  - theo dõi thay đổi mẫu
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

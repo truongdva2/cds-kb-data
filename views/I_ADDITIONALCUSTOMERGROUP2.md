@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP2
 description: Additionalcustomergroup 2
+semantic_en: "master data for second supplementary customer classification — extends customer segmentation capabilities with additional grouping dimension"
+semantic_vi: "dữ liệu chính cho phân loại khách hàng bổ sung thứ hai — mở rộng khả năng phân đoạn khách hàng với chiều nhóm bổ sung"
+keywords:
+  - nhóm khách hàng bổ sung thứ hai
+  - phân loại khách hàng
+  - segmentation
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

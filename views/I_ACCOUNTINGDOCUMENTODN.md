@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGDOCUMENTODN
 description: Accounting DocumentUMENTODN
+semantic_en: "accounting document official document number — captures odn tracking with document type, country, and legal datetime."
+semantic_vi: "số tài liệu chính thức tài liệu kế toán — ghi lại theo dõi odn với loại tài liệu, quốc gia và ngày giờ pháp lý."
+keywords:
+  - số tài liệu chính thức
+  - tài liệu kế toán
+  - quốc gia
 app_component: FI-LOC-GEN
 software_component: SAPSCORE
 release_state: released

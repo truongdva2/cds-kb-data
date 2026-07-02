@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCHANGEACCASSGMTP
 description: D Suplrinvcchangeaccassgmtp
+semantic_en: "parameterized change-document view — account assignment details (ordinal, tax code, jurisdiction, currency, amount, units, GL account, cost center, sales order, asset) for supplier invoice modifications"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — chi tiết gán tài khoản (thứ tự, mã thuế, khu vực pháp lý, tiền tệ, số tiền, đơn vị, tài khoản GL, trung tâm chi phí, đơn bán, tài sản) cho những sửa đổi hóa đơn nhà cung cấp"
+keywords:
+  - gán tài khoản
+  - hóa đơn nhà cung cấp
+  - chi tiết sửa đổi
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

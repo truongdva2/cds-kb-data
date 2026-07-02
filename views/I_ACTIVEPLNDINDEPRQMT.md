@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVEPLNDINDEPRQMT
 description: Activeplndindeprqmt
+semantic_en: "active planned independent requirements — aggregates planned independent requirements scoped to plant, planning area, and special stock types"
+semantic_vi: "yêu cầu độc lập được lên kế hoạch hoạt động — tổng hợp các yêu cầu độc lập được lên kế hoạch theo nhà máy, khu vực lập kế hoạch và loại hàng tồn kho đặc biệt"
+keywords:
+  - yêu cầu độc lập lập kế hoạch
+  - kế hoạch sản xuất
+  - nhu cầu lập kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

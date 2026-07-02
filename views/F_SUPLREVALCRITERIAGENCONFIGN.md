@@ -1,6 +1,12 @@
 ---
 name: F_SUPLREVALCRITERIAGENCONFIGN
 description: Suplrevalcriteriagenconfign
+semantic_en: "supplier evaluation criteria general configuration — projection of supplier evaluation criteria configuration with delivery completed indicator."
+semantic_vi: "cấu hình chung tiêu chí đánh giá nhà cung cấp — phép chiếu cấu hình tiêu chí đánh giá nhà cung cấp với chỉ thị giao hàng hoàn tất."
+keywords:
+  - tiêu chí đánh giá
+  - nhà cung cấp
+  - cấu hình
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

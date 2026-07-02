@@ -1,6 +1,12 @@
 ---
 name: D_SLSPRCGGETCONDITIONRECORDP
 description: D SLSPRCGGETCondition RecordP
+semantic_en: "parameter view for sales pricing condition records — filtering by condition validity dates and exclusion flag for header-level filtering"
+semantic_vi: "chế độ xem tham số cho bản ghi điều kiện giá bán — lọc theo ngày hiệu lực điều kiện và cờ loại trừ cho lọc cấp tiêu đề"
+keywords:
+  - tham số điều kiện giá
+  - ngày hiệu lực
+  - lọc điều kiện giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDGOODSMVTSTSBFR
 description: D Transpordgoodsmvtstsbfr
+semantic_en: "parameterized status-before signature — transportation order goods movement status state before change"
+semantic_vi: "chữ ký trạng thái trước được tham số hóa — trạng thái chuyển động hàng hóa đơn hàng vận chuyển trước khi thay đổi"
+keywords:
+  - chuyển động hàng hóa
+  - trạng thái chuyển động
+  - đơn hàng vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

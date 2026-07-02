@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPRATETABLEVALIDITYCOPYP
 description: D Transpratetablevaliditycopyp
+semantic_en: "transportation rate validity copy action parameter — captures start and end dates for rate validity copying."
+semantic_vi: "tham số hành động sao chép hiệu lực bảng tỷ giá vận chuyển — ghi lại ngày bắt đầu và kết thúc để sao chép hiệu lực tỷ giá."
+keywords:
+  - sao chép tỷ giá
+  - hiệu lực tỷ giá
+  - ngày bắt đầu kết thúc
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

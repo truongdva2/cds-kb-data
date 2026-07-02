@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERRELEASED
 description: D Service OrderRELEASED
+semantic_en: "business event signature for a released service order — tracking event timestamp, customer management object type, order uuid, description, and order type"
+semantic_vi: "chữ ký sự kiện khi đơn dịch vụ được phát hành — theo dõi thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid đơn hàng và loại đơn hàng"
+keywords:
+  - đơn dịch vụ phát hành
+  - sự kiện phát hành đơn hàng
+  - theo dõi phát hành
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

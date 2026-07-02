@@ -1,6 +1,12 @@
 ---
 name: F_LDGRCOCODEFSCLYRVARIANT
 description: Ldgrcocodefsclyrvariant
+semantic_en: "fiscal year variant of ledger company code — projection of ledger company code roles with fiscal year variant key."
+semantic_vi: "biến thể năm tài chính của mã công ty sổ cái — phép chiếu các vai trò mã công ty sổ cái với khóa biến thể năm tài chính."
+keywords:
+  - biến thể năm tài chính
+  - sổ cái
+  - mã công ty
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

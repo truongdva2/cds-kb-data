@@ -1,6 +1,12 @@
 ---
 name: I_ABCINDICATOR
 description: Abcindicator
+semantic_en: "abc indicator — captures abc classification codes for inventory analysis."
+semantic_vi: "chỉ báo abc — ghi lại các mã phân loại abc cho phân tích tồn kho."
+keywords:
+  - chỉ báo abc
+  - phân loại
+  - tồn kho
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

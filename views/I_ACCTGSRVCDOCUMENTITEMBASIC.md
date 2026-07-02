@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSRVCDOCUMENTITEMBASIC
 description: Acctgsrvcdocumentitembasic
+semantic_en: "line item level detail for accounting service documents — captures service document items with controlling, profitability, and organizational attributes"
+semantic_vi: "chi tiết mức dòng cho tài liệu dịch vụ kế toán — nắm bắt các mục tài liệu dịch vụ với thuộc tính kiểm soát, lợi nhuận và tổ chức"
+keywords:
+  - dòng tài liệu dịch vụ
+  - chi tiết mục dịch vụ
+  - kiểm soát lợi nhuận
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

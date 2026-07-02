@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSERVICEDOCUMENTITEMVH
 description: ACCTGService DocumentUMENTITEMVH
+semantic_en: "value help for accounting service document items — lists service document line items with full context including product, dates, and confirmation flags"
+semantic_vi: "hỗ trợ giá trị cho các dòng tài liệu dịch vụ kế toán — liệt kê các mục dòng tài liệu dịch vụ với bối cảnh đầy đủ bao gồm sản phẩm, ngày tháng và cờ xác nhận"
+keywords:
+  - dòng tài liệu dịch vụ
+  - mục dịch vụ
+  - giá trị hỗ trợ tài liệu
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

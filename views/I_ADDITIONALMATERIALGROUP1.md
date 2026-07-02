@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP1
 description: ADDITIONALMaterial Group 1
+semantic_en: "master data for first supplementary material classification — enables segmentation of materials beyond primary material group"
+semantic_vi: "dữ liệu chính cho phân loại vật liệu bổ sung đầu tiên — cho phép phân đoạn vật liệu ngoài nhóm vật liệu chính"
+keywords:
+  - nhóm vật liệu bổ sung
+  - phân loại vật liệu
+  - segmentation sản phẩm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATEACCASSGMTP
 description: D Suplrinvccreateaccassgmtp
+semantic_en: "parameterized data-input view — account assignment parameters (ordinal, tax code, jurisdiction, currency, amount, units, GL account, cost center, sales order, asset) for creating supplier invoices with accounting entries"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số gán tài khoản (thứ tự, mã thuế, khu vực pháp lý, tiền tệ, số tiền, đơn vị, tài khoản GL, trung tâm chi phí, đơn bán, tài sản) để tạo hóa đơn nhà cung cấp với mục hạch toán"
+keywords:
+  - gán tài khoản
+  - tạo hóa đơn
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

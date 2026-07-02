@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGPRINCIPLETEXT
 description: Accountingprincipletext
+semantic_en: "description text for accounting principles in multiple languages — stores translated names by language and principle identifier"
+semantic_vi: "văn bản mô tả các nguyên tắc kế toán theo ngôn ngữ — lưu trữ tên dịch theo ngôn ngữ và mã nguyên tắc"
+keywords:
+  - tên nguyên tắc kế toán
+  - văn bản đa ngôn ngữ
+  - mô tả kế toán
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

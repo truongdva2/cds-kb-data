@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCHANGEGLITEMP
 description: D Suplrinvcchangeglitemp
+semantic_en: "parameterized change-document view — GL account posting details (supplier invoice item, GL account, company code, text, cost center, sales order, internal order, profit center, business area, cost object, WBS element, activity type, personnel) for direct GL postings"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — chi tiết hạch toán tài khoản GL (mục hóa đơn nhà cung cấp, tài khoản GL, mã công ty, văn bản, trung tâm chi phí, đơn bán, đơn đặt hàng nội bộ, trung tâm lợi nhuận, lĩnh vực kinh doanh, đối tượng chi phí, phần tử WBS, loại hoạt động, nhân viên) cho hạch toán GL trực tiếp"
+keywords:
+  - hạch toán tài khoản GL
+  - hóa đơn nhà cung cấp
+  - chi tiết hạch toán
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

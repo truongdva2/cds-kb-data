@@ -1,6 +1,12 @@
 ---
 name: I_ACTLCOSTGMATLVALUECHAINITEM
 description: Actlcostgmatlvaluechainitem
+semantic_en: "actual costing material value chain results — aggregates material value chain items with cost category, process, movement type, and account mapping"
+semantic_vi: "kết quả chuỗi giá trị vật liệu định giá thực tế — tổng hợp các mục chuỗi giá trị vật liệu với danh mục chi phí, quy trình, loại chuyển động và ánh xạ tài khoản"
+keywords:
+  - chuỗi giá trị vật liệu
+  - định giá thực tế
+  - ánh xạ tài khoản
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

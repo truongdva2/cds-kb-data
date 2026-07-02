@@ -1,6 +1,12 @@
 ---
 name: I_ACTPLNCOSTCENTERRPTGCUBE
 description: ACTPLNCost CenterRPTGCUBE
+semantic_en: "analytical cube for cost center actual vs. plan reporting — combines journal entry data with ledger information for variance analysis"
+semantic_vi: "khối phân tích cho báo cáo thực tế và kế hoạch trung tâm chi phí — kết hợp dữ liệu nhập nhật ký với thông tin sổ cái để phân tích sai lệch"
+keywords:
+  - khối báo cáo chi phí
+  - thực tế vs kế hoạch
+  - phân tích sai lệch
 app_component: CO-OM-CCA-2CL
 software_component: SAPSCORE
 release_state: released

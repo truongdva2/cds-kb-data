@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP2TEXT
 description: Additionalcustomergroup 2TEXT
+semantic_en: "descriptions for second supplementary customer group classification by language — translates group codes to customer-facing segment names"
+semantic_vi: "mô tả cho phân loại nhóm khách hàng bổ sung thứ hai theo ngôn ngữ — dịch mã nhóm thành tên phân đoạn hướng tới khách hàng"
+keywords:
+  - mô tả nhóm khách hàng thứ hai
+  - văn bản phân loại
+  - segmentation
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

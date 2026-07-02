@@ -1,6 +1,12 @@
 ---
 name: D_SUPPLIERINVOICEPOSTED
 description: D Supplier InvoicePOSTED
+semantic_en: "business-event signature for supplier invoices — records posting event with supplier entity and fiscal year"
+semantic_vi: "chữ ký sự kiện kinh doanh cho hóa đơn nhà cung cấp — ghi lại sự kiện hạch toán với thực thể nhà cung cấp và năm tài chính"
+keywords:
+  - hóa đơn nhà cung cấp
+  - hạch toán hóa đơn
+  - sự kiện hạch toán
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

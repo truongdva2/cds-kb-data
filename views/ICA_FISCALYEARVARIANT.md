@@ -1,6 +1,12 @@
 ---
 name: ICA_FISCALYEARVARIANT
 description: Ica Fiscalyearvariant
+semantic_en: "fiscal year variant — captures fiscal year variant configuration including period and quarter settings."
+semantic_vi: "biến thể năm tài chính — ghi lại cấu hình biến thể năm tài chính bao gồm cài đặt kỳ và quý."
+keywords:
+  - biến thể năm tài chính
+  - cài đặt kỳ
+  - quý
 app_component: FIN-CS-ICR-2CL
 software_component: SAPSCORE
 release_state: released

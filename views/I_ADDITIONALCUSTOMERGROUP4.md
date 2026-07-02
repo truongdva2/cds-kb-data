@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP4
 description: Additionalcustomergroup 4
+semantic_en: "master data for fourth supplementary customer classification — extends customer analysis with additional segmentation capability"
+semantic_vi: "dữ liệu chính cho phân loại khách hàng bổ sung thứ tư — mở rộng phân tích khách hàng với khả năng phân đoạn bổ sung"
+keywords:
+  - nhóm khách hàng thứ tư
+  - phân loại bổ sung
+  - phân tích khách hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

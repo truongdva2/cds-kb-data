@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP3
 description: Additionalcustomergroup 3
+semantic_en: "master data for third supplementary customer classification — provides additional customer grouping for business analytics and reporting"
+semantic_vi: "dữ liệu chính cho phân loại khách hàng bổ sung thứ ba — cung cấp nhóm khách hàng bổ sung cho phân tích kinh doanh và báo cáo"
+keywords:
+  - nhóm khách hàng bổ sung thứ ba
+  - phân loại khách hàng
+  - báo cáo
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

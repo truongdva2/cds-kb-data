@@ -1,6 +1,12 @@
 ---
 name: D_SRVCQTANAPPRVLWRKFLWSTARTED
 description: D Srvcqtanapprvlwrkflwstarted
+semantic_en: "workflow event signature — service quotation approval workflow initiation captured with customer management object type, quotation UUID, description, and quotation type"
+semantic_vi: "chữ ký sự kiện quy trình công việc — bắt đầu quy trình công việc phê duyệt báo giá dịch vụ được ghi lại với loại đối tượng quản lý khách hàng, UUID báo giá, mô tả và loại báo giá"
+keywords:
+  - báo giá dịch vụ
+  - phê duyệt quy trình
+  - bắt đầu quy trình
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

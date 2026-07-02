@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP4
 description: ADDITIONALMaterial Group 4
+semantic_en: "master data for fourth supplementary material classification — extends material analysis with additional segmentation"
+semantic_vi: "dữ liệu chính cho phân loại vật liệu bổ sung thứ tư — mở rộng phân tích vật liệu với phân đoạn bổ sung"
+keywords:
+  - nhóm vật liệu thứ tư
+  - phân loại bổ sung
+  - phân tích
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

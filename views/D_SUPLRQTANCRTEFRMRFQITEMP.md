@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRQTANCRTEFRMRFQITEMP
 description: D Suplrqtancrtefrmrfqitemp
+semantic_en: "parameterized data-input view — supplier quotation item creation parameters (RFQ item, order quantity, net price, currency, quantity unit, supplier material number, manufacturer, manufacturer part number, quantity unit) from individual RFQ items"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số tạo mục báo giá nhà cung cấp (mục yêu cầu báo giá, số lượng đặt hàng, giá ròng, tiền tệ, đơn vị số lượng, số vật liệu nhà cung cấp, nhà sản xuất, số bộ phận nhà sản xuất, đơn vị số lượng) từ các mục yêu cầu báo giá riêng lẻ"
+keywords:
+  - mục báo giá
+  - yêu cầu báo giá
+  - giá cả
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

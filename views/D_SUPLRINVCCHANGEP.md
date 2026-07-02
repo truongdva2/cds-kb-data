@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCHANGEP
 description: D Suplrinvcchangep
+semantic_en: "parameterized change-document view — supplier invoice header modification parameters including document date, posting date, invoice ID, invoicing party, receipt date, assignment reference, invoice reference, fiscal year, business area, change timestamp, reconciliation account, tax reporting, and payment terms"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — tham số sửa đổi tiêu đề hóa đơn nhà cung cấp bao gồm ngày tài liệu, ngày hạch toán, ID hóa đơn, bên phát hành hóa đơn, ngày nhận, tham chiếu gán, tham chiếu hóa đơn, năm tài chính, lĩnh vực kinh doanh, dấu thời gian thay đổi, tài khoản hoà trừ, báo cáo thuế và điều khoản thanh toán"
+keywords:
+  - sửa đổi hóa đơn
+  - hóa đơn nhà cung cấp
+  - tiêu đề hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

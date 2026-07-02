@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATEP
 description: D Suplrinvccreatep
+semantic_en: "parameterized data-input view — supplier invoice header creation parameters including credit memo flag, company code, document date, posting date, invoice ID, invoicing party, currency, gross amount, document type, receipt date, exchange rate, assignment reference, invoice reference, and fiscal year"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số tạo tiêu đề hóa đơn nhà cung cấp bao gồm cờ ghi nợ tín dụng, mã công ty, ngày tài liệu, ngày hạch toán, ID hóa đơn, bên phát hành hóa đơn, tiền tệ, số tiền gộp, loại tài liệu, ngày nhận, tỷ giá hối đoái, tham chiếu gán, tham chiếu hóa đơn và năm tài chính"
+keywords:
+  - tạo hóa đơn
+  - hóa đơn nhà cung cấp
+  - tiêu đề hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

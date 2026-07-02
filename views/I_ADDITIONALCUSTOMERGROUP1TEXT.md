@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP1TEXT
 description: Additionalcustomergroup 1TEXT
+semantic_en: "descriptions for first supplementary customer group classification in multiple languages — provides translated names by language and group code"
+semantic_vi: "mô tả cho phân loại nhóm khách hàng bổ sung đầu tiên theo ngôn ngữ — cung cấp tên dịch theo ngôn ngữ và mã nhóm"
+keywords:
+  - mô tả nhóm khách hàng
+  - phân loại bổ sung
+  - văn bản khách hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

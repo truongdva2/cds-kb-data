@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATETAXP
 description: D Suplrinvccreatetaxp
+semantic_en: "parameterized data-input view — tax calculation parameters (tax code, jurisdiction, country, document currency, company code currency, tax amounts, base amounts) for supplier invoice tax posting"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số tính toán thuế (mã thuế, khu vực pháp lý, quốc gia, tiền tệ tài liệu, tiền tệ mã công ty, số tiền thuế, số tiền cơ sở) cho hạch toán thuế hóa đơn nhà cung cấp"
+keywords:
+  - tính thuế
+  - hóa đơn nhà cung cấp
+  - chi tiết thuế
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

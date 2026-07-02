@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDLIFECYCLESTSCHGD
 description: D Transpordlifecyclestschgd
+semantic_en: "transportation order lifecycle status change signature — captures order, type, mode, shipping type, carrier, and status changes."
+semantic_vi: "chữ ký thay đổi trạng thái vòng đời đơn hàng vận chuyển — ghi lại đơn hàng, loại, chế độ vận chuyển, loại giao hàng, nhà vận chuyển và thay đổi trạng thái."
+keywords:
+  - thay đổi trạng thái vòng đời
+  - đơn hàng vận chuyển
+  - nhà vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

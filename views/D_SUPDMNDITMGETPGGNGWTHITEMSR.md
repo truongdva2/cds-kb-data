@@ -1,6 +1,12 @@
 ---
 name: D_SUPDMNDITMGETPGGNGWTHITEMSR
 description: D Supdmnditmgetpggngwthitemsr
+semantic_en: "data-extraction projection — retrieves supply and demand item and pegging data (material, MRP plant, MRP area) for matching requirements with available supply"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất cung cầu và dữ liệu ghép (vật liệu, nhà máy quy hoạch tài nguyên vật liệu, khu vực quy hoạch) để ghép nhu cầu với cung có sẵn"
+keywords:
+  - ghép cung cầu
+  - quy hoạch vật liệu tài nguyên
+  - dữ liệu cung cầu
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

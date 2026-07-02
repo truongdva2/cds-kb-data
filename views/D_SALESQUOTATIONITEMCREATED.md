@@ -1,6 +1,12 @@
 ---
 name: D_SALESQUOTATIONITEMCREATED
 description: D Salesquotationitemcreated
+semantic_en: "business event signature for a created sales quotation line item — capturing event timestamp, quotation context, and new line item with category and product identification"
+semantic_vi: "chữ ký sự kiện khi tạo dòng mục báo giá bán mới — ghi nhận thời điểm sự kiện, bối cảnh báo giá và thông tin dòng hàng mới"
+keywords:
+  - dòng mục báo giá mới
+  - sự kiện tạo dòng báo giá
+  - thêm dòng mục báo giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

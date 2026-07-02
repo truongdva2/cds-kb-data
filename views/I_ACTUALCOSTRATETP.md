@@ -1,6 +1,12 @@
 ---
 name: I_ACTUALCOSTRATETP
 description: Actualcostratetp
+semantic_en: "actual cost rate transfer posting view — enables posting and analysis of cost rates with fixed amounts by validity period"
+semantic_vi: "khom nhìn bản ghi chuyển tỷ lệ chi phí thực tế — cho phép bản ghi và phân tích tỷ lệ chi phí với các khoản cố định theo kỳ hạn hợp lệ"
+keywords:
+  - tỷ lệ chi phí bản ghi
+  - chi phí hoạt động
+  - khoản tiền cố định
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

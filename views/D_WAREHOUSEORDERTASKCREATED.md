@@ -1,6 +1,12 @@
 ---
 name: D_WAREHOUSEORDERTASKCREATED
 description: D Warehouse OrderTASKCREATED
+semantic_en: "warehouse task created event signature — captures task, item, status, process type, handling unit status, queue, and ewm reference."
+semantic_vi: "chữ ký sự kiện tạo nhiệm vụ kho — ghi lại nhiệm vụ, mục, trạng thái, loại quy trình, trạng thái đơn vị xử lý, hàng đợi và tham chiếu ewm."
+keywords:
+  - tạo nhiệm vụ
+  - kho hàng
+  - sự kiện
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

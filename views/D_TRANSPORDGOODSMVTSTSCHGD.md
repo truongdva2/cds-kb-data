@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDGOODSMVTSTSCHGD
 description: D Transpordgoodsmvtstschgd
+semantic_en: "change-document signature for transportation orders — records goods movement status change with order details (order number, type, mode, shipping type, carrier, procurement organization, goods movement status)"
+semantic_vi: "chữ ký thay đổi tài liệu cho các đơn hàng vận chuyển — ghi lại thay đổi trạng thái chuyển động hàng hóa với chi tiết đơn hàng (số đơn hàng, loại, chế độ, loại vận chuyển, nhà vận chuyển, tổ chức mua, trạng thái chuyển động)"
+keywords:
+  - đơn hàng vận chuyển
+  - chuyển động hàng hóa
+  - thay đổi trạng thái
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

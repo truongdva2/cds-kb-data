@@ -1,6 +1,12 @@
 ---
 name: ICA_FISCALCALENDARDATE
 description: Ica Fiscalcalendardate
+semantic_en: "fiscal calendar date mapping — correlates calendar dates with fiscal year, period, quarter, and week data."
+semantic_vi: "ánh xạ ngày lịch tài chính — liên hệ ngày lịch với dữ liệu năm tài chính, kỳ, quý và tuần."
+keywords:
+  - lịch tài chính
+  - ngày lịch
+  - năm tài chính
 app_component: FIN-CS-ICR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: F_VALUATIONAREATYPE
 description: Valuationareatype
+semantic_en: "valuation area type projection — indicates whether valuation area is plant or company code level."
+semantic_vi: "phép chiếu loại khu vực định giá — chỉ ra khu vực định giá ở mức nhà máy hay mã công ty."
+keywords:
+  - loại khu vực định giá
+  - nhà máy
+  - công ty
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

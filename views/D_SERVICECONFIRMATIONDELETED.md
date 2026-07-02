@@ -1,6 +1,12 @@
 ---
 name: D_SERVICECONFIRMATIONDELETED
 description: D Serviceconfirmationdeleted
+semantic_en: "business event signature for a deleted service confirmation — recording event timestamp, customer management object type, confirmation uuid, description, and confirmation type"
+semantic_vi: "chữ ký sự kiện khi xóa xác nhận dịch vụ — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid xác nhận và loại xác nhận"
+keywords:
+  - xác nhận dịch vụ xóa
+  - sự kiện xóa xác nhận
+  - kiểm toán xóa xác nhận
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

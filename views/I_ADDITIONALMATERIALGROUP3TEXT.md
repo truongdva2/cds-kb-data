@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP3TEXT
 description: ADDITIONALMaterial Group 3TEXT
+semantic_en: "text descriptions for third supplementary material group by language — stores translated group names for reporting"
+semantic_vi: "mô tả văn bản cho nhóm vật liệu bổ sung thứ ba theo ngôn ngữ — lưu trữ tên nhóm dịch để báo cáo"
+keywords:
+  - mô tả nhóm thứ ba
+  - phân loại đa ngôn ngữ
+  - báo cáo
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPRATETBLVALIDITYUPDATEP
 description: D Transpratetblvalidityupdatep
+semantic_en: "transportation rate validity update action parameter — captures percentage change, amount, currency, and sign for rate adjustments."
+semantic_vi: "tham số hành động cập nhật hiệu lực bảng tỷ giá vận chuyển — ghi lại thay đổi phần trăm, số tiền, tiền tệ và dấu để điều chỉnh tỷ giá."
+keywords:
+  - cập nhật tỷ giá
+  - điều chỉnh tỷ giá
+  - phần trăm thay đổi
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

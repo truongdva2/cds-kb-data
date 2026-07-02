@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDREPORTEVENTITEMP
 description: D Transpordreporteventitemp
+semantic_en: "transportation order report event item action parameter — captures freight unit uuid for event item processing."
+semantic_vi: "tham số hành động sự kiện báo cáo đơn hàng vận chuyển — ghi lại uuid mục đơn hàng vận chuyển để xử lý."
+keywords:
+  - sự kiện báo cáo
+  - đơn hàng vận chuyển
+  - tham số
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

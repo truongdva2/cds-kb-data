@@ -1,6 +1,12 @@
 ---
 name: D_STOGETDELIVERYADDRESSR
 description: D Stogetdeliveryaddressr
+semantic_en: "data-extraction projection — retrieves delivery address details (ID, person, language, communication, name, organization, search terms) for stock transport orders and items"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất chi tiết địa chỉ giao hàng (ID, người, ngôn ngữ, liên lạc, tên, tổ chức, thuật ngữ tìm kiếm) cho các đơn vận chuyển hàng dự trữ và các mục"
+keywords:
+  - địa chỉ giao hàng
+  - đơn vận chuyển hàng
+  - chi tiết địa chỉ
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

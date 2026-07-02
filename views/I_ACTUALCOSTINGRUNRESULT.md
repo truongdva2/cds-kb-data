@@ -1,6 +1,12 @@
 ---
 name: I_ACTUALCOSTINGRUNRESULT
 description: Actualcostingrunresult
+semantic_en: "aggregated actual costing run results — consolidates costing data by valuation area, material, inventory type, and supplier"
+semantic_vi: "kết quả chạy định giá thực tế tổng hợp — củng cố dữ liệu định giá theo khu vực định giá, vật liệu, loại tồn kho và nhà cung cấp"
+keywords:
+  - kết quả định giá
+  - chạy chi phí
+  - tổng hợp chi phí
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

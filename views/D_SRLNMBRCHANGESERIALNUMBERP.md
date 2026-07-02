@@ -1,6 +1,12 @@
 ---
 name: D_SRLNMBRCHANGESERIALNUMBERP
 description: D SRLNMBRCHANGESerial NumberP
+semantic_en: "parameterized change-document view — carries the new serial number value for serial number change actions on equipment or materials"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — mang giá trị số sê-ri mới cho các hành động thay đổi số sê-ri trên thiết bị hoặc vật liệu"
+keywords:
+  - số sê-ri mới
+  - thay đổi sê-ri
+  - tham số thay đổi
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

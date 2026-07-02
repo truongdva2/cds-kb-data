@@ -1,6 +1,12 @@
 ---
 name: D_SLSSCHEDGAGREEMENTCREATED
 description: D Slsschedgagreementcreated
+semantic_en: "business event signature for a created sales scheduling agreement — capturing event timestamp, agreement type, sales organization, distribution channel, division, and customer identification"
+semantic_vi: "chữ ký sự kiện khi tạo thỏa thuận lên lịch bán mới — ghi nhận thời điểm sự kiện, loại thỏa thuận, tổ chức bán hàng, kênh phân phối, bộ phận tổ chức và thông tin khách hàng"
+keywords:
+  - thỏa thuận lên lịch bán mới
+  - sự kiện tạo thỏa thuận
+  - thêm thỏa thuận lên lịch
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

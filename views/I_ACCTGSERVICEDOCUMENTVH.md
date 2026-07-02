@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSERVICEDOCUMENTVH
 description: ACCTGService DocumentUMENTVH
+semantic_en: "value help for service documents by header level — lists document identifiers with type, description, and organizational context"
+semantic_vi: "hỗ trợ giá trị cho các tài liệu dịch vụ theo mức tiêu đề — liệt kê các mã tài liệu với loại, mô tả và bối cảnh tổ chức"
+keywords:
+  - tài liệu dịch vụ
+  - giá trị hỗ trợ tài liệu
+  - mã tài liệu dịch vụ
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

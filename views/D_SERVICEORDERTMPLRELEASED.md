@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERTMPLRELEASED
 description: D Service OrderTMPLRELEASED
+semantic_en: "business event signature for a released service order template — tracking event timestamp, customer management object type, template uuid, description, and template type"
+semantic_vi: "chữ ký sự kiện khi mẫu đơn dịch vụ được phát hành — theo dõi thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid mẫu và loại mẫu"
+keywords:
+  - mẫu đơn dịch vụ phát hành
+  - sự kiện phát hành mẫu
+  - theo dõi phát hành mẫu
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

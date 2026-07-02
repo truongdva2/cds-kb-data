@@ -1,6 +1,12 @@
 ---
 name: D_SRLZDMATLITMCHGMAINTPLANTP
 description: D Srlzdmatlitmchgmaintplantp
+semantic_en: "parameterized change-document view — specifies the maintenance plant (maintenance location) for serialized material item changes"
+semantic_vi: "chế độ xem thay đổi tài liệu được tham số hóa — chỉ định nhà máy bảo trì (vị trí bảo trì) cho những thay đổi mục vật liệu được sê-ri hóa"
+keywords:
+  - nhà máy bảo trì
+  - vật liệu sê-ri
+  - kế hoạch bảo trì
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_SELECTCUSTOMIZINGTRANSPTREQP
 description: D Selectcustomizingtransptreqp
+semantic_en: "parameter view for customizing transport request selection — filtering by transport request identifier"
+semantic_vi: "chế độ xem tham số để chọn yêu cầu vận chuyển tùy chỉnh — lọc theo mã yêu cầu vận chuyển"
+keywords:
+  - yêu cầu vận chuyển tùy chỉnh
+  - tham số vận chuyển
+  - chọn yêu cầu vận chuyển
 app_component: BC-CUS-TOL-MBC
 software_component: SAP_BASIS
 release_state: released

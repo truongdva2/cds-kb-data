@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERTMPLCOMPLETED
 description: D Service OrderTMPLCOMPLETED
+semantic_en: "business event signature for a completed service order template — recording event timestamp, customer management object type, template uuid, description, and template type"
+semantic_vi: "chữ ký sự kiện khi mẫu đơn dịch vụ hoàn thành — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid mẫu và loại mẫu"
+keywords:
+  - mẫu đơn dịch vụ hoàn thành
+  - sự kiện hoàn thành mẫu
+  - theo dõi hoàn thành
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_VARCONFIGNTBLDELETELINEP
 description: D Varconfigntbldeletelinep
+semantic_en: "variant configuration table delete line action parameter — captures line number and change number for individual line deletion."
+semantic_vi: "tham số hành động xóa hàng bảng cấu hình biến thể — ghi lại số hàng và số thay đổi để xóa hàng riêng lẻ."
+keywords:
+  - xóa hàng
+  - cấu hình biến thể
+  - số hàng
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

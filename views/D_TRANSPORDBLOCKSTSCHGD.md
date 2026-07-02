@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDBLOCKSTSCHGD
 description: D Transpordblockstschgd
+semantic_en: "change-document signature for transportation orders — records execution block status change with order details (order number, type, mode, shipping type, carrier, procurement organization, block status)"
+semantic_vi: "chữ ký thay đổi tài liệu cho các đơn hàng vận chuyển — ghi lại thay đổi trạng thái khối thực hiện với chi tiết đơn hàng (số đơn hàng, loại, chế độ, loại vận chuyển, nhà vận chuyển, tổ chức mua, trạng thái khối)"
+keywords:
+  - đơn hàng vận chuyển
+  - khối thực hiện
+  - thay đổi trạng thái
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

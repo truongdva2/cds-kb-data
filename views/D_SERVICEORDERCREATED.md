@@ -1,6 +1,12 @@
 ---
 name: D_SERVICEORDERCREATED
 description: D Service OrderCREATED
+semantic_en: "business event signature for a created service order — capturing event timestamp, customer management object type, order uuid, description, and order type"
+semantic_vi: "chữ ký sự kiện khi tạo đơn dịch vụ mới — ghi nhận thời điểm sự kiện, loại đối tượng quản lý khách hàng, uuid đơn hàng và loại đơn hàng"
+keywords:
+  - đơn dịch vụ mới
+  - sự kiện tạo đơn hàng
+  - thêm đơn dịch vụ
 app_component: CRM-S4-BTX-2CL
 software_component: SAPSCORE
 release_state: released

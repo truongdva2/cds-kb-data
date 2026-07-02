@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDEXECUTIONSTSCHGD
 description: D Transpordexecutionstschgd
+semantic_en: "change-document signature for transportation orders — records execution status change with order details (order number, type, mode, shipping type, carrier, procurement organization, execution status)"
+semantic_vi: "chữ ký thay đổi tài liệu cho các đơn hàng vận chuyển — ghi lại thay đổi trạng thái thực hiện với chi tiết đơn hàng (số đơn hàng, loại, chế độ, loại vận chuyển, nhà vận chuyển, tổ chức mua, trạng thái thực hiện)"
+keywords:
+  - đơn hàng vận chuyển
+  - thực hiện đơn hàng
+  - thay đổi trạng thái
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

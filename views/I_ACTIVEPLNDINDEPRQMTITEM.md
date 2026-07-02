@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVEPLNDINDEPRQMTITEM
 description: Activeplndindeprqmtitem
+semantic_en: "line item quantities for active planned independent requirements — provides planned and withdrawal quantities by working day and period type"
+semantic_vi: "số lượng mục dòng cho các yêu cầu độc lập được lên kế hoạch hoạt động — cung cấp số lượng được lên kế hoạch và rút ra theo ngày làm việc và loại kỳ"
+keywords:
+  - số lượng lên kế hoạch
+  - yêu cầu độc lập
+  - dòng yêu cầu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

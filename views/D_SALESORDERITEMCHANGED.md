@@ -1,6 +1,12 @@
 ---
 name: D_SALESORDERITEMCHANGED
 description: D Sales OrderITEMCHANGED
+semantic_en: "business event signature for a sales order item change — tracking event timestamp, order context, and modified line item with category and product details"
+semantic_vi: "chữ ký sự kiện khi dòng mục đơn hàng bán thay đổi — theo dõi thời điểm sự kiện, bối cảnh đơn hàng và thông tin dòng hàng bao gồm loại mục và sản phẩm"
+keywords:
+  - dòng mục đơn hàng thay đổi
+  - sự kiện dòng hàng bán
+  - theo dõi thay đổi dòng mục
 app_component: SD-SLS-GF-BET-2CL
 software_component: SAPSCORE
 release_state: released

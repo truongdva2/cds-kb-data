@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP4TEXT
 description: Additionalcustomergroup 4TEXT
+semantic_en: "translations for fourth supplementary customer group by language — provides multilingual names for customer segment codes"
+semantic_vi: "bản dịch cho nhóm khách hàng bổ sung thứ tư theo ngôn ngữ — cung cấp tên đa ngôn ngữ cho mã phân đoạn khách hàng"
+keywords:
+  - mô tả nhóm thứ tư
+  - bản dịch khách hàng
+  - phân loại đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

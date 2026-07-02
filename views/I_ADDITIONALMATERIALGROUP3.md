@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALMATERIALGROUP3
 description: ADDITIONALMaterial Group 3
+semantic_en: "master data for third supplementary material classification — provides additional material grouping for product analytics"
+semantic_vi: "dữ liệu chính cho phân loại vật liệu bổ sung thứ ba — cung cấp nhóm vật liệu bổ sung cho phân tích sản phẩm"
+keywords:
+  - nhóm vật liệu thứ ba
+  - phân loại bổ sung
+  - báo cáo sản phẩm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

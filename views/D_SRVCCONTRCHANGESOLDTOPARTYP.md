@@ -1,6 +1,12 @@
 ---
 name: D_SRVCCONTRCHANGESOLDTOPARTYP
 description: D Srvccontrchangesoldtopartyp
+semantic_en: "parameterized workflow view — parameters for changing the sold-to party on service contracts including change request receipt date, effective date, party identifier, purchase order, and release status"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số để thay đổi bên mua trên các hợp đồng dịch vụ bao gồm ngày nhận yêu cầu thay đổi, ngày có hiệu lực, định danh bên, đơn đặt hàng và trạng thái phát hành"
+keywords:
+  - thay đổi bên mua
+  - hợp đồng dịch vụ
+  - đơn đặt hàng khách hàng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

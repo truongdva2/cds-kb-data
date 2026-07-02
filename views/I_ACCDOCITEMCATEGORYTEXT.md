@@ -1,6 +1,12 @@
 ---
 name: I_ACCDOCITEMCATEGORYTEXT
 description: Accdocitemcategorytext
+semantic_en: "accounting document item category text — multilingual names for accounting document item categories."
+semantic_vi: "văn bản loại mục tài liệu kế toán — tên đa ngôn ngữ cho các loại mục tài liệu kế toán."
+keywords:
+  - loại mục
+  - tài liệu kế toán
+  - tên
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

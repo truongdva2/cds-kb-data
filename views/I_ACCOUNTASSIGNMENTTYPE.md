@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTASSIGNMENTTYPE
 description: Accountassignmenttype
+semantic_en: "account assignment type — master data for account assignment classification."
+semantic_vi: "loại gán tài khoản — dữ liệu chính cho phân loại gán tài khoản."
+keywords:
+  - loại gán tài khoản
+  - phân loại
+  - tài khoản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

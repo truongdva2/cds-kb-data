@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTINGSERVICEDOCUMENT
 description: ACCOUNTINGService DocumentUMENT
+semantic_en: "accounting view of service documents and orders — combines service document headers, costing details, and responsible party information"
+semantic_vi: "khung nhìn kế toán của tài liệu và đơn đặt hàng dịch vụ — kết hợp tiêu đề tài liệu dịch vụ, chi tiết chi phí và thông tin bên chịu trách nhiệm"
+keywords:
+  - tài liệu dịch vụ
+  - kế toán dịch vụ
+  - đơn đặt hàng
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: ICA_GL_ACCOUNT_HIER_NODE
 description: Ica GL Account Hier Node
+semantic_en: "general ledger account hierarchy node — represents nodes in gl account hierarchy with parent node and account relationships."
+semantic_vi: "nút cấp bậc tài khoản sổ cái chung — biểu thị các nút trong cấp bậc tài khoản sổ cái với quan hệ nút cha và tài khoản."
+keywords:
+  - cấp bậc tài khoản
+  - sổ cái
+  - nút
 app_component: FIN-CS-ICR-2CL
 software_component: SAPSCORE
 release_state: released

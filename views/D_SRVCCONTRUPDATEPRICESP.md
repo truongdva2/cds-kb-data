@@ -1,6 +1,12 @@
 ---
 name: D_SRVCCONTRUPDATEPRICESP
 description: D Srvccontrupdatepricesp
+semantic_en: "parameterized workflow view — pricing type parameter for service contract price update operations"
+semantic_vi: "chế độ xem quy trình công việc được tham số hóa — tham số loại định giá cho các hoạt động cập nhật giá hợp đồng dịch vụ"
+keywords:
+  - loại định giá
+  - cập nhật giá
+  - hợp đồng dịch vụ
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

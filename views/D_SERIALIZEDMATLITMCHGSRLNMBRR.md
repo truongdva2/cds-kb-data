@@ -1,6 +1,12 @@
 ---
 name: D_SERIALIZEDMATLITMCHGSRLNMBRR
 description: D Serializedmatlitmchgsrlnmbrr
+semantic_en: "action result view for serialized material serial number changes — returning updated material and serial number after modification"
+semantic_vi: "chế độ xem kết quả hành động khi thay đổi số seri vật liệu — trả về vật liệu và số seri đã cập nhật"
+keywords:
+  - kết quả thay đổi số seri
+  - vật liệu số seri cập nhật
+  - kết quả hành động seri
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

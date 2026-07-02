@@ -1,6 +1,12 @@
 ---
 name: I_ACTIVITYDESCORIGINTYPETEXT
 description: Activitydescorigintypetext
+semantic_en: "text descriptions for activity description origin types by language — translates origin type classifications into user-readable format"
+semantic_vi: "mô tả văn bản cho các loại nguồn gốc mô tả hoạt động theo ngôn ngữ — dịch các phân loại loại nguồn gốc thành định dạng có thể đọc được"
+keywords:
+  - mô tả nguồn gốc hoạt động
+  - loại nguồn gốc
+  - văn bản phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

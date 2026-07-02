@@ -1,6 +1,12 @@
 ---
 name: I_ACCOUNTASSIGNMENTCATEGORY
 description: Accountassignmentcategory
+semantic_en: "account assignment category — captures consumption posting and inventory special stock type settings."
+semantic_vi: "loại gán tài khoản — ghi lại cài đặt ghi sổ tiêu thụ và loại tồn kho đặc biệt."
+keywords:
+  - gán tài khoản
+  - ghi sổ tiêu thụ
+  - tồn kho
 app_component: MM
 software_component: SAPSCORE
 release_state: released

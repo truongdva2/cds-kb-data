@@ -1,6 +1,12 @@
 ---
 name: D_SALESORDERITEMCREATED
 description: D Sales OrderITEMCREATED
+semantic_en: "business event signature for a created sales order item — capturing event timestamp, order context, and new line item with category and product identification"
+semantic_vi: "chữ ký sự kiện khi tạo dòng mục đơn hàng bán mới — ghi nhận thời điểm sự kiện, bối cảnh đơn hàng và thông tin dòng hàng mới"
+keywords:
+  - dòng mục đơn hàng mới
+  - sự kiện tạo dòng hàng
+  - thêm dòng mục bán
 app_component: SD-SLS-GF-BET-2CL
 software_component: SAPSCORE
 release_state: released

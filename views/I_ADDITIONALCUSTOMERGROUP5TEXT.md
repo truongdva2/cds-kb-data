@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP5TEXT
 description: Additionalcustomergroup 5TEXT
+semantic_en: "text descriptions for fifth supplementary customer group by language — supports multilingual customer segment classification reporting"
+semantic_vi: "mô tả văn bản cho nhóm khách hàng bổ sung thứ năm theo ngôn ngữ — hỗ trợ báo cáo phân loại phân đoạn khách hàng đa ngôn ngữ"
+keywords:
+  - mô tả nhóm thứ năm
+  - phân loại khách hàng
+  - báo cáo đa ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_SUPPLYDEMANDITEMGETPEGGINGR
 description: D Supplydemanditemgetpeggingr
+semantic_en: "data-extraction projection — retrieves supply and demand pegging details (material, MRP plant, area, demand MRP element data with index, item, schedule line, category, category short name, date, storage location, segment, special stock, dynamic pegging quantity) for demand-to-supply matching"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất chi tiết ghép cung cầu (vật liệu, nhà máy quy hoạch tài nguyên, khu vực, dữ liệu phần tử quy hoạch cầu với chỉ mục, mục, dòng lịch, danh mục, tên viết tắt danh mục, ngày, vị trí lưu trữ, phân đoạn, hàng dự trữ đặc biệt, số lượng ghép động) để ghép cầu với cung"
+keywords:
+  - ghép cung cầu
+  - quy hoạch vật liệu tài nguyên
+  - cầu vật liệu
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

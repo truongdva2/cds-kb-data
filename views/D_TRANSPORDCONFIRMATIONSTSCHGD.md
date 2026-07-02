@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDCONFIRMATIONSTSCHGD
 description: D Transpordconfirmationstschgd
+semantic_en: "change-document signature for transportation orders — records confirmation status change with order details (order number, type, mode, shipping type, carrier, procurement organization, confirmation status)"
+semantic_vi: "chữ ký thay đổi tài liệu cho các đơn hàng vận chuyển — ghi lại thay đổi trạng thái xác nhận với chi tiết đơn hàng (số đơn hàng, loại, chế độ, loại vận chuyển, nhà vận chuyển, tổ chức mua, trạng thái xác nhận)"
+keywords:
+  - đơn hàng vận chuyển
+  - xác nhận đơn hàng
+  - thay đổi trạng thái
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

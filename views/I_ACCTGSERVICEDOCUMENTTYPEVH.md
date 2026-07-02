@@ -1,6 +1,12 @@
 ---
 name: I_ACCTGSERVICEDOCUMENTTYPEVH
 description: ACCTGService DocumentUMENTTYPEVH
+semantic_en: "value help for service document types — enables dropdown selection of valid document type codes with names"
+semantic_vi: "hỗ trợ giá trị cho các loại tài liệu dịch vụ — cho phép lựa chọn thả xuống các mã loại tài liệu hợp lệ với tên"
+keywords:
+  - giá trị hỗ trợ loại tài liệu
+  - lựa chọn loại dịch vụ
+  - mã tài liệu
 app_component: CO-PC-OBJ-SRV-2CL
 software_component: SAPSCORE
 release_state: released

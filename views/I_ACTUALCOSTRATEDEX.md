@@ -1,6 +1,12 @@
 ---
 name: I_ACTUALCOSTRATEDEX
 description: Actualcostratedex
+semantic_en: "data extraction view for actual cost rates — enables rate lookups and reporting by cost center, activity type, validity period, and currency"
+semantic_vi: "khung nhìn trích xuất dữ liệu cho tỷ lệ chi phí thực tế — cho phép tra cứu tỷ lệ và báo cáo theo trung tâm chi phí, loại hoạt động, kỳ hạn hợp lệ và tiền tệ"
+keywords:
+  - tỷ lệ chi phí thực tế
+  - trích xuất dữ liệu
+  - hoạt động chi phí
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

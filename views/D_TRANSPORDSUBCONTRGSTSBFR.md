@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDSUBCONTRGSTSBFR
 description: D Transpordsubcontrgstsbfr
+semantic_en: "transportation order subcontracting status before change — abstract entity for prior state tracking."
+semantic_vi: "trạng thái phân thầu đơn hàng vận chuyển trước khi thay đổi — thực thể trừu tượng để theo dõi trạng thái trước đó."
+keywords:
+  - trạng thái phân thầu
+  - đơn hàng vận chuyển
+  - STSBFR
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

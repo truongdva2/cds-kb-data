@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRQTANCRTEFRMRFQPRCGITMP
 description: D Suplrqtancrtefrmrfqprcgitmp
+semantic_en: "parameterized data-input view — supplier quotation pricing parameters (condition type, condition rate value, condition currency) for pricing terms in quote generation from RFQs"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số định giá báo giá nhà cung cấp (loại điều kiện, giá trị tỷ lệ điều kiện, tiền tệ điều kiện) cho các điều khoản định giá trong quá trình tạo báo giá từ yêu cầu"
+keywords:
+  - định giá báo giá
+  - điều kiện giá
+  - yêu cầu báo giá
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

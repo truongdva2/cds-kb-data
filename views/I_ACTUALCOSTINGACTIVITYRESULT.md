@@ -1,6 +1,12 @@
 ---
 name: I_ACTUALCOSTINGACTIVITYRESULT
 description: Actualcostingactivityresult
+semantic_en: "actual costing run results by activity — breaks down costing results across production processes, materials, orders, and accounts"
+semantic_vi: "kết quả chạy định giá thực tế theo hoạt động — chia nhỏ kết quả định giá trên các quy trình sản xuất, vật liệu, đơn hàng và tài khoản"
+keywords:
+  - kết quả định giá hoạt động
+  - chạy định giá
+  - chi phí sản xuất
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

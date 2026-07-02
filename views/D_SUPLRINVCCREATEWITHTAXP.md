@@ -1,6 +1,12 @@
 ---
 name: D_SUPLRINVCCREATEWITHTAXP
 description: D Suplrinvccreatewithtaxp
+semantic_en: "parameterized data-input view — withholding tax parameters (withholding tax type, withholding tax code, currency, base amount, manually entered amounts, manual entry flags) for supplier invoices with withholding taxes"
+semantic_vi: "chế độ xem đầu vào dữ liệu được tham số hóa — tham số thuế khiếu trương (loại thuế khiếu trương, mã thuế khiếu trương, tiền tệ, số tiền cơ sở, số tiền nhập thủ công, cờ nhập thủ công) cho hóa đơn nhà cung cấp có thuế khiếu trương"
+keywords:
+  - thuế khiếu trương
+  - hóa đơn nhà cung cấp
+  - chi tiết thuế
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

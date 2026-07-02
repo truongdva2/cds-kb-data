@@ -1,6 +1,12 @@
 ---
 name: D_SUPPLIERINVOICESIMULATER
 description: D Supplier InvoiceSIMULATER
+semantic_en: "data-extraction projection — retrieves supplier invoice simulation result flag indicating whether the invoice was simulated"
+semantic_vi: "phép chiếu trích xuất dữ liệu — truy xuất cờ kết quả mô phỏng hóa đơn nhà cung cấp cho biết hóa đơn có được mô phỏng hay không"
+keywords:
+  - mô phỏng hóa đơn
+  - hóa đơn nhà cung cấp
+  - kết quả mô phỏng
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDITIONALCUSTOMERGROUP1
 description: Additionalcustomergroup 1
+semantic_en: "master data for first supplementary customer classification — enables segmentation of customers beyond primary customer group"
+semantic_vi: "dữ liệu chính cho phân loại khách hàng bổ sung đầu tiên — cho phép phân đoạn khách hàng ngoài nhóm khách hàng chính"
+keywords:
+  - nhóm khách hàng bổ sung
+  - phân loại khách hàng
+  - segmentation khách hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

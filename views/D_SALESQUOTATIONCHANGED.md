@@ -1,6 +1,12 @@
 ---
 name: D_SALESQUOTATIONCHANGED
 description: D Salesquotationchanged
+semantic_en: "business event signature for a modified sales quotation — tracking event timestamp, quotation type, sales organization, distribution channel, division, and customer identification"
+semantic_vi: "chữ ký sự kiện khi báo giá bán thay đổi — theo dõi thời điểm sự kiện, loại báo giá, tổ chức bán hàng, kênh phân phối, bộ phận tổ chức và thông tin khách hàng"
+keywords:
+  - báo giá bán thay đổi
+  - sự kiện báo giá
+  - theo dõi thay đổi báo giá
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_TRANSPORDCONFIRMATIONSTSBFR
 description: D Transpordconfirmationstsbfr
+semantic_en: "parameterized status-before signature — transportation order confirmation status state before change"
+semantic_vi: "chữ ký trạng thái trước được tham số hóa — trạng thái xác nhận đơn hàng vận chuyển trước khi thay đổi"
+keywords:
+  - xác nhận đơn hàng
+  - trạng thái xác nhận
+  - đơn hàng vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_WAREHOUSEORDERTASKCONFIRMED
 description: D Warehouse OrderTASKCONFIRMED
+semantic_en: "warehouse task confirmed event signature — captures task, item, process type, handling unit status, queue, and ewm reference."
+semantic_vi: "chữ ký sự kiện xác nhận nhiệm vụ kho — ghi lại nhiệm vụ, mục, loại quy trình, trạng thái đơn vị xử lý, hàng đợi và tham chiếu ewm."
+keywords:
+  - xác nhận nhiệm vụ
+  - kho hàng
+  - sự kiện
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

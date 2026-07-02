@@ -1,6 +1,12 @@
 ---
 name: D_SLSSCHEDGAGREEMENTCHANGED
 description: D Slsschedgagreementchanged
+semantic_en: "business event signature for a modified sales scheduling agreement — tracking event timestamp, agreement type, sales organization, distribution channel, division, and customer identification"
+semantic_vi: "chữ ký sự kiện khi thỏa thuận lên lịch bán thay đổi — theo dõi thời điểm sự kiện, loại thỏa thuận, tổ chức bán hàng, kênh phân phối, bộ phận tổ chức và thông tin khách hàng"
+keywords:
+  - thỏa thuận lên lịch bán thay đổi
+  - sự kiện thỏa thuận lên lịch
+  - theo dõi thay đổi thỏa thuận
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released
