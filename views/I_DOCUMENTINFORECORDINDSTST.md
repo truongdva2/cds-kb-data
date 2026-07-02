@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDINDSTST
 description: Documentinforecordindstst
+semantic_en: "indicator status text view — providing descriptions for document indicator combinations including CAD, structure, and deletion status"
+semantic_vi: "khung nhìn văn bản trạng thái chỉ báo — cung cấp mô tả cho các kết hợp chỉ báo tài liệu bao gồm trạng thái CAD, cấu trúc và xóa"
+keywords:
+  - mô tả chỉ báo
+  - trạng thái tài liệu
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

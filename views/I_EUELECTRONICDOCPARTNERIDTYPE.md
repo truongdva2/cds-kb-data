@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCPARTNERIDTYPE
 description: Euelectronicdocpartneridtype
+semantic_en: "non-tax related identifier types — classifies business partner identification types for electronic documents"
+semantic_vi: "các loại định danh không liên quan đến thuế — phân loại các loại định danh đối tác kinh doanh cho tài liệu điện tử"
+keywords:
+  - định danh đối tác
+  - loại định danh
+  - tài liệu điện tử
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

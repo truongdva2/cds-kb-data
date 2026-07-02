@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDOCUMENTTP
 description: Earmarkedfundsdocumenttp
+semantic_en: "earmarked funds document transactional posting — header-level document data with categories and reference fields."
+semantic_vi: "Tài liệu quỹ riêng - TP — dữ liệu tài liệu mức đầu với loại và trường tham chiếu."
+keywords:
+  - tài liệu
+  - quỹ riêng
+  - loại tài liệu
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

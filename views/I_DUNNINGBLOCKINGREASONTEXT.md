@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGBLOCKINGREASONTEXT
 description: Dunningblockingreasontext
+semantic_en: "dunning blocking reason text — language-specific descriptions of dunning blocking reasons."
+semantic_vi: "Văn bản lý do chặn thu nợ — mô tả lý do chặn quá trình thu nợ theo từng ngôn ngữ."
+keywords:
+  - lý do chặn
+  - thu nợ
+  - văn bản
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTROLETYPE
 description: Enterpriseprojectroletype
+semantic_en: "role type for enterprise projects — classification mapping partner functions to project role categories."
+semantic_vi: "Loại vai trò cho dự án cấp doanh nghiệp — ánh xạ phân loại chức năng đối tác."
+keywords:
+  - loại vai trò
+  - dự án
+  - chức năng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

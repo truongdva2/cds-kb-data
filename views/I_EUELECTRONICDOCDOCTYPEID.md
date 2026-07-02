@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCDOCTYPEID
 description: Euelectronicdocdoctypeid
+semantic_en: "document type identifier — maps document type codes to EU process identifiers and email document indicators"
+semantic_vi: "định danh loại tài liệu — ánh xạ các mã loại tài liệu thành các định danh quy trình EU và chỉ báo tài liệu email"
+keywords:
+  - loại tài liệu
+  - định danh
+  - quy trình
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

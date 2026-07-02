@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTBLOCKFUNCTP_3
 description: Entprojelmntblockfunctp 3
+semantic_en: "blocked functions of enterprise project element transient projection — indicates which functions are blocked for elements in time recording, expense, service, and purchasing"
+semantic_vi: "Hình chiếu thoáng qua hàm bị khóa của phần tử dự án cấp công ty — cho biết các hàm nào bị khóa cho phần tử trong ghi thời gian, chi phí, dịch vụ và mua hàng"
+keywords:
+  - hàm bị khóa
+  - phần tử dự án
+  - ghi thời gian
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

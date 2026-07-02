@@ -1,6 +1,13 @@
 ---
 name: I_ENTPROJECTBLOCKFUNCTIONTP_3
 description: Entprojectblockfunctiontp 3
+semantic_en: "blocked functions of enterprise project transient projection — shows which functions are blocked for time recording, expense posting, and purchasing at project level"
+semantic_vi: "Hình chiếu thoáng qua hàm bị khóa của dự án cấp công ty — hiển thị các hàm nào bị khóa đối với ghi thời gian, hạch toán chi phí và mua hàng ở cấp dự án"
+keywords:
+  - hàm bị khóa
+  - ghi thời gian
+  - chi phí
+  - mua hàng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

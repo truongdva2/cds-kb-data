@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTELEMENTTP_3
 description: Enterpriseprojectelementtp 3
+semantic_en: "enterprise project element transactional posting — WBS element hierarchy with status and cost center assignments."
+semantic_vi: "Yếu tố dự án cấp doanh nghiệp - TP — phân cấp yếu tố WBS với gán trung tâm chi phí."
+keywords:
+  - yếu tố WBS
+  - dự án
+  - chi phí
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

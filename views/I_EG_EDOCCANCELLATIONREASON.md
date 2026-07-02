@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCCANCELLATIONREASON
 description: EG Edoccancellationreason
+semantic_en: "Egypt eDocument cancellation reason — codes and language-specific descriptions for document cancellation."
+semantic_vi: "Lý do hủy eDocument Ai Cập — mã và mô tả lý do hủy tài liệu."
+keywords:
+  - hủy
+  - lý do
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

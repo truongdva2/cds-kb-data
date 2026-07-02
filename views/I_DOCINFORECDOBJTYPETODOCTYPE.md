@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECDOBJTYPETODOCTYPE
 description: Docinforecdobjtypetodoctype
+semantic_en: "configuration view linking document types to SAP object types — managing associations and deprecation status"
+semantic_vi: "khung nhìn cấu hình liên kết loại tài liệu với các loại đối tượng SAP — quản lý liên kết và trạng thái không dùng nữa"
+keywords:
+  - liên kết tài liệu
+  - loại đối tượng
+  - cấu hình
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

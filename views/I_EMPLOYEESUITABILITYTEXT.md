@@ -1,6 +1,12 @@
 ---
 name: I_EMPLOYEESUITABILITYTEXT
 description: Employeesuitabilitytext
+semantic_en: "employee suitability text — language-specific descriptions of employee suitability classifications by plant."
+semantic_vi: "Văn bản khả năng thích hợp nhân viên — mô tả phân loại khả năng thích hợp theo ngôn ngữ."
+keywords:
+  - khả năng thích hợp
+  - nhân viên
+  - văn bản
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

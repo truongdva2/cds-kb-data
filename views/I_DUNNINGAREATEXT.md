@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGAREATEXT
 description: Dunningareatext
+semantic_en: "text view providing localized dunning area descriptions by company code and language"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả khu vực theo dõi được bản địa hóa theo mã công ty và ngôn ngữ"
+keywords:
+  - mô tả khu vực
+  - theo dõi thanh toán
+  - bản địa hóa
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

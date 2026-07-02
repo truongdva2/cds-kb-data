@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGKEY
 description: Dunningkey
+semantic_en: "dunning key — core configuration of dunning levels and maximum dunning settings."
+semantic_vi: "Khóa thu nợ — cấu hình cấp độ thu nợ và mức tối đa cho quy trình thu nợ."
+keywords:
+  - khóa thu nợ
+  - cấp độ
+  - cấu hình
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

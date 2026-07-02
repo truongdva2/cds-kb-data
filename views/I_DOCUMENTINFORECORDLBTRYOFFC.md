@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDLBTRYOFFC
 description: Documentinforecordlbtryoffc
+semantic_en: "laboratory or design office reference view — listing valid laboratory and design office codes"
+semantic_vi: "khung nhìn tham chiếu phòng thí nghiệm hoặc phòng thiết kế — liệt kê các mã phòng thí nghiệm và phòng thiết kế hợp lệ"
+keywords:
+  - phòng thí nghiệm
+  - phòng thiết kế
+  - tham chiếu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

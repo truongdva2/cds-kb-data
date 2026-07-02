@@ -1,6 +1,12 @@
 ---
 name: I_EWM_INBDELIVERYHEADERTP
 description: Ewm Inbdeliveryheadertp
+semantic_en: "inbound delivery header interface technical profile — provides inbound shipment headers with warehouse and document type mapping"
+semantic_vi: "giao diện tiêu đề giao hàng đến với hồ sơ kỹ thuật — cung cấp tiêu đề lô hàng đến với ánh xạ kho và loại tài liệu"
+keywords:
+  - giao hàng đến
+  - giao diện
+  - hồ sơ kỹ thuật
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

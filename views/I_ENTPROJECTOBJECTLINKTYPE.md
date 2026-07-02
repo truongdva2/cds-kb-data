@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTOBJECTLINKTYPE
 description: Entprojectobjectlinktype
+semantic_en: "object link type for enterprise projects — defines relationship categories and groupings for project object links"
+semantic_vi: "Loại liên kết đối tượng cho dự án cấp công ty — xác định danh mục và nhóm mối quan hệ cho liên kết đối tượng dự án"
+keywords:
+  - loại liên kết
+  - liên kết đối tượng
+  - danh mục
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGAREA
 description: Dunningarea
+semantic_en: "dunning area master reference view — linking company code to dunning area assignments"
+semantic_vi: "khung nhìn tham chiếu chính khu vực theo dõi thanh toán — liên kết mã công ty tới gán khu vực theo dõi"
+keywords:
+  - khu vực theo dõi
+  - công ty
+  - tham chiếu
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

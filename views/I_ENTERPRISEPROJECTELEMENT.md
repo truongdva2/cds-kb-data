@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTELEMENT
 description: Enterpriseprojectelement
+semantic_en: "enterprise project element — work breakdown structure elements with scheduling, status, and milestone tracking."
+semantic_vi: "Yếu tố dự án cấp doanh nghiệp — yếu tố cấu trúc phân chia công việc với lịch trình."
+keywords:
+  - yếu tố dự án
+  - lịch trình
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

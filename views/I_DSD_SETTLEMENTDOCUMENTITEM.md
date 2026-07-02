@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTDOCUMENTITEM
 description: Dsd Settlementdocumentitem
+semantic_en: "settlement document item view — detailing tour documents and plant associations within settlement records"
+semantic_vi: "khung nhìn mục tài liệu thanh toán — chi tiết tài liệu tuyến đường và liên kết nhà máy trong bản ghi thanh toán"
+keywords:
+  - mục thanh toán
+  - tài liệu tuyến đường
+  - nhà máy
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDCADSTST
 description: Documentinforecordcadstst
+semantic_en: "text view providing localized descriptions of CAD creation status for document information records"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả được bản địa hóa của trạng thái tạo CAD cho bản ghi thông tin tài liệu"
+keywords:
+  - mô tả CAD
+  - trạng thái thiết kế
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

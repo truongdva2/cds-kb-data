@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECDDOCVERSSTDVH
 description: Docinforecddocversstdvh
+semantic_en: "value help for document information record document version — enabling selection of document type, number, and version combinations"
+semantic_vi: "trợ giúp giá trị cho phiên bản tài liệu của bản ghi thông tin tài liệu — cho phép chọn kết hợp loại tài liệu, số hiệu và phiên bản"
+keywords:
+  - phiên bản tài liệu
+  - bản ghi thông tin
+  - hỗ trợ giá trị
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTPUBLICSECTORTP_3
 description: Entprojelmntpublicsectortp 3
+semantic_en: "public sector data of enterprise project element transient projection — shows fund and grant allocations for project work breakdown structure elements"
+semantic_vi: "Hình chiếu thoáng qua dữ liệu khu vực công của phần tử dự án cấp công ty — hiển thị các phân bổ quỹ và trợ cấp cho phần tử cấu trúc phân tích công việc"
+keywords:
+  - khu vực công
+  - quỹ trợ cấp
+  - phần tử dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

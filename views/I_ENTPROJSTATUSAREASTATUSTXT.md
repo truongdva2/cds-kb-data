@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJSTATUSAREASTATUSTXT
 description: Entprojstatusareastatustxt
+semantic_en: "status area status description — multilingual names for project status values"
+semantic_vi: "Mô tả trạng thái khu vực trạng thái — tên đa ngôn ngữ dành cho giá trị trạng thái dự án"
+keywords:
+  - trạng thái
+  - mô tả
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

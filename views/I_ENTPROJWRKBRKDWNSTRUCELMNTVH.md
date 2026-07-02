@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJWRKBRKDWNSTRUCELMNTVH
 description: Entprojwrkbrkdwnstrucelmntvh
+semantic_en: "processing status text value-help — provides lookup of project elements with processing status text and organizational hierarchy context"
+semantic_vi: "Trợ giúp giá trị văn bản trạng thái xử lý — cung cấp tra cứu các phần tử dự án với văn bản trạng thái xử lý và bối cảnh phân cấp tổ chức"
+keywords:
+  - phần tử dự án
+  - trạng thái xử lý
+  - cấu trúc phân tích
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

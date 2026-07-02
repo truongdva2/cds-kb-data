@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJTEAMMBRENTLMNTTP_3
 description: Entprojteammbrentlmnttp 3
+semantic_en: "team member entitlement of enterprise project transient projection — shows role and authorization assignments for project team members"
+semantic_vi: "Hình chiếu thoáng qua quyền hạn thành viên nhóm của dự án cấp công ty — hiển thị các phân công vai trò và ủy quyền cho thành viên nhóm dự án"
+keywords:
+  - quyền hạn
+  - vai trò
+  - thành viên nhóm
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

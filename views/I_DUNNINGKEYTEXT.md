@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGKEYTEXT
 description: Dunningkeytext
+semantic_en: "dunning key text — language-specific descriptions of dunning keys and level descriptions."
+semantic_vi: "Văn bản khóa thu nợ — mô tả lý do cấp độ thu nợ theo từng ngôn ngữ."
+keywords:
+  - khóa thu nợ
+  - mô tả cấp độ
+  - văn bản
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

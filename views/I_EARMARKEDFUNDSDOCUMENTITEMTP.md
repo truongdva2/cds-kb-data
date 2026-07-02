@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDOCUMENTITEMTP
 description: Earmarkedfundsdocumentitemtp
+semantic_en: "earmarked funds document item transactional posting — detailed line-item data with posting dates and audit fields."
+semantic_vi: "Dòng tài liệu quỹ riêng - TP — dữ liệu chi tiết dòng tài liệu với ngày hạch toán và trường kiểm toán."
+keywords:
+  - dòng tài liệu
+  - quỹ riêng
+  - hạch toán
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

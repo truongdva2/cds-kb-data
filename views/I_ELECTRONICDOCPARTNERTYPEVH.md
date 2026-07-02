@@ -1,6 +1,12 @@
 ---
 name: I_ELECTRONICDOCPARTNERTYPEVH
 description: Electronicdocpartnertypevh
+semantic_en: "electronic document partner type value help — descriptions of business partner types for electronic documents."
+semantic_vi: "Trợ giúp giá trị loại đối tác tài liệu điện tử — mô tả loại đối tác kinh doanh."
+keywords:
+  - loại đối tác
+  - tài liệu điện tử
+  - giá trị
 app_component: CA-GTF-CSC-EDO
 software_component: SAPSCORE
 release_state: released

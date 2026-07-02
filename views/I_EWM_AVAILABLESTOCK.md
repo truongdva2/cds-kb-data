@@ -1,6 +1,12 @@
 ---
 name: I_EWM_AVAILABLESTOCK
 description: Ewm Availablestock
+semantic_en: "available stock in extended warehouse management — tracks product inventory by storage location and stock segment"
+semantic_vi: "kho hàng sẵn có trong quản lý kho mở rộng — theo dõi kho sản phẩm theo vị trí lưu trữ và phân khúc kho"
+keywords:
+  - kho hàng
+  - sản phẩm
+  - quản lý kho
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

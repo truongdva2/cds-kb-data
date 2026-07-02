@@ -1,6 +1,12 @@
 ---
 name: I_ENPRJELMDLVBRLDISTRREVN
 description: Enprjelmdlvbrldistrrevn
+semantic_en: "deliverable distribution with revenue — enterprise project element deliverable distributions split across periods with revenue."
+semantic_vi: "Phân bổ sản phẩm giao dịch với doanh thu — phân bổ sản phẩm giao dịch dự án theo kỳ kế toán."
+keywords:
+  - sản phẩm giao dịch
+  - doanh thu
+  - phân bổ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

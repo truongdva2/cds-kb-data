@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGBLOCKINGREASONCODE
 description: Dunningblockingreasoncode
+semantic_en: "dunning blocking reason code reference view — listing valid dunning blocking reason codes"
+semantic_vi: "khung nhìn tham chiếu mã lý do chặn theo dõi thanh toán — liệt kê các mã lý do chặn theo dõi hợp lệ"
+keywords:
+  - lý do chặn
+  - theo dõi thanh toán
+  - tham chiếu
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

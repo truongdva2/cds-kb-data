@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTPAYMENTDIFF
 description: Dsd Settlementpaymentdiff
+semantic_en: "settlement payment difference view — capturing payment method variances and tolerance analysis for settlement checkouts"
+semantic_vi: "khung nhìn khác biệt thanh toán thanh quyết — ghi lại phương thức thanh toán phương sai và phân tích dung sai cho thanh toán kiểm tra"
+keywords:
+  - khác biệt thanh toán
+  - dung sai
+  - phương thức thanh toán
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

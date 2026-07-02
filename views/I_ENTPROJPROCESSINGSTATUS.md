@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJPROCESSINGSTATUS
 description: Entprojprocessingstatus
+semantic_en: "processing status for enterprise projects — domain value set indicating project workflow processing states"
+semantic_vi: "Trạng thái xử lý cho dự án cấp công ty — tập giá trị miền cho biết trạng thái xử lý quy trình công việc dự án"
+keywords:
+  - trạng thái xử lý
+  - quy trình
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

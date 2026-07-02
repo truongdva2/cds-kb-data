@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJBUSSOLUTIONORDERLINK
 description: Entprojbussolutionorderlink
+semantic_en: "enterprise project link to solution order — projection relating enterprise projects to business solution orders and items via link UUID"
+semantic_vi: "Liên kết dự án cấp công ty với đơn hàng giải pháp — hình chiếu liên kết dự án cấp công ty với đơn hàng và mặt hàng giải pháp kinh doanh"
+keywords:
+  - đơn hàng giải pháp
+  - liên kết dự án
+  - mặt hàng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCRECEIVERTYPE
 description: EG Edocreceivertype
+semantic_en: "Egypt eDocument receiver type — sales organization and partner function mappings for document receivers."
+semantic_vi: "Loại người nhận eDocument Ai Cập — ánh xạ tổ chức bán hàng và chức năng đối tác."
+keywords:
+  - người nhận
+  - tổ chức bán hàng
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

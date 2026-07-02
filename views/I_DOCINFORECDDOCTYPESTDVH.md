@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECDDOCTYPESTDVH
 description: Docinforecddoctypestdvh
+semantic_en: "value help for document information record document type — providing lookup of valid document type codes"
+semantic_vi: "trợ giúp giá trị cho loại tài liệu của bản ghi thông tin tài liệu — cung cấp tra cứu các mã loại tài liệu hợp lệ"
+keywords:
+  - loại tài liệu
+  - bản ghi thông tin
+  - hỗ trợ tra cứu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

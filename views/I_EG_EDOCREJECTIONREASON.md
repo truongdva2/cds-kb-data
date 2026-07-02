@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCREJECTIONREASON
 description: EG Edocrejectionreason
+semantic_en: "Egypt eDocument rejection reason — codes and language-specific descriptions for document rejection."
+semantic_vi: "Lý do từ chối eDocument Ai Cập — mã và mô tả lý do từ chối tài liệu."
+keywords:
+  - từ chối
+  - lý do
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

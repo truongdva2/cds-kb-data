@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLTYPE
 description: Entprojelmntdlvbrltype
+semantic_en: "deliverable type for enterprise project elements — domain value set defining deliverable type classifications"
+semantic_vi: "Loại giao dịch cho phần tử dự án cấp công ty — tập giá trị miền xác định phân loại loại giao dịch"
+keywords:
+  - loại giao dịch
+  - giao dịch
+  - phân loại
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

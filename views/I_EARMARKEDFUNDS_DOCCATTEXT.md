@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DOCCATTEXT
 description: Earmarkedfunds Doccattext
+semantic_en: "earmarked funds document category text — language-specific category labels."
+semantic_vi: "Văn bản loại tài liệu quỹ riêng — nhãn loại tài liệu theo ngôn ngữ."
+keywords:
+  - loại tài liệu
+  - văn bản
+  - nhãn
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

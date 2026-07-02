@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDPROCESSINGKEY
 description: Eventbasedprocessingkey
+semantic_en: "event-based posting processing key — master configuration for event-triggered cost distribution calculation methods"
+semantic_vi: "khóa xử lý hạch toán dựa trên sự kiện — cấu hình chính cho các phương pháp tính toán phân phối chi phí được kích hoạt bằng sự kiện"
+keywords:
+  - xử lý sự kiện
+  - phương pháp tính toán
+  - hạch toán
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

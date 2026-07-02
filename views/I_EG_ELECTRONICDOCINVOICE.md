@@ -1,6 +1,12 @@
 ---
 name: I_EG_ELECTRONICDOCINVOICE
 description: EG Electronicdocinvoice
+semantic_en: "Egypt outgoing electronic invoice — metadata for issued electronic invoices with submission and approval tracking."
+semantic_vi: "Hóa đơn điện tử đi Ai Cập — siêu dữ liệu hóa đơn điện tử phát hành với theo dõi phê duyệt."
+keywords:
+  - hóa đơn
+  - tài liệu điện tử
+  - phát hành
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

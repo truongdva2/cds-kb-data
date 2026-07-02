@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCDOCTYPE
 description: Euelectronicdocdoctype
+semantic_en: "electronic document type — links document types to EU processing categories and identifiers"
+semantic_vi: "loại tài liệu điện tử — liên kết các loại tài liệu với các danh mục xử lý EU và các định danh"
+keywords:
+  - loại tài liệu
+  - tài liệu điện tử
+  - EU
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

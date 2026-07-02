@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTPARTNERTP
 description: Equipmentpartnertp
+semantic_en: "equipment partner with technical profile — tracks business partner assignments and contact relationships for equipment"
+semantic_vi: "đối tác thiết bị với hồ sơ kỹ thuật — theo dõi gán đối tác kinh doanh và mối quan hệ liên hệ cho thiết bị"
+keywords:
+  - đối tác thiết bị
+  - liên hệ
+  - kinh doanh
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

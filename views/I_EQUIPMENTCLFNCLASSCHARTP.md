@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTCLFNCLASSCHARTP
 description: Equipmentclfnclasschartp
+semantic_en: "equipment classification class characteristic with technical profile — links equipment to class characteristics and data types"
+semantic_vi: "đặc tính lớp phân loại thiết bị với hồ sơ kỹ thuật — liên kết thiết bị với đặc tính lớp và kiểu dữ liệu"
+keywords:
+  - phân loại
+  - lớp đặc tính
+  - thiết bị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

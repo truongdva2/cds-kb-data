@@ -1,6 +1,13 @@
 ---
 name: I_EQUIPMENTSTDVH
 description: Equipmentstdvh
+semantic_en: "equipment value helper — provides standardized list of equipment with customer and supplier relationships"
+semantic_vi: "trợ giúp giá trị thiết bị — cung cấp danh sách tiêu chuẩn thiết bị với mối quan hệ khách hàng và nhà cung cấp"
+keywords:
+  - thiết bị
+  - value help
+  - khách hàng
+  - nhà cung cấp
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTSTATUS
 description: Equipmentstatus
+semantic_en: "equipment status aggregation — provides consolidated status indicators for equipment availability, location, and installation state"
+semantic_vi: "tổng hợp trạng thái thiết bị — cung cấp các chỉ báo trạng thái hợp nhất cho tính khả dụng, vị trí và trạng thái lắp đặt"
+keywords:
+  - trạng thái thiết bị
+  - sẵn sàng
+  - vị trí
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

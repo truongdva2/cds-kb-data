@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJJNTVNTRACCTGTP_3
 description: Entprojjntvntracctgtp 3
+semantic_en: "joint venture accounting data of enterprise project transient projection — shows joint venture accounting configuration at project level"
+semantic_vi: "Hình chiếu thoáng qua dữ liệu kế toán liên doanh của dự án cấp công ty — hiển thị cấu hình kế toán liên doanh ở cấp dự án"
+keywords:
+  - liên doanh
+  - kế toán
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTROLECATEGORYTEXT
 description: Entprojectrolecategorytext
+semantic_en: "role category text for enterprise projects — multilingual role category descriptions"
+semantic_vi: "Văn bản danh mục vai trò cho dự án cấp công ty — mô tả danh mục vai trò đa ngôn ngữ"
+keywords:
+  - vai trò
+  - danh mục
+  - mô tả
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EDCJOURNALENTRYRECORDS
 description: EDCJournal EntryRECORDS
+semantic_en: "eDocument consistency journal entry records — accounting documents with eDocument tracking and audit fields."
+semantic_vi: "Hồ sơ bút toán được khiển đúng - dữ liệu chứng từ kế toán với theo dõi eDocument."
+keywords:
+  - bút toán
+  - eDocument
+  - kế toán
 app_component: CA-GTF-CSC-EDC
 software_component: SAPSCORE
 release_state: released

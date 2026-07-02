@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDELTNSTST
 description: Documentinforecorddeltnstst
+semantic_en: "text view providing localized descriptions of deletion status for document information records"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả được bản địa hóa của trạng thái xóa cho bản ghi thông tin tài liệu"
+keywords:
+  - mô tả trạng thái xóa
+  - xóa tài liệu
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

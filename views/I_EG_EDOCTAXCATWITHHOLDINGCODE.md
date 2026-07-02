@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCTAXCATWITHHOLDINGCODE
 description: EG Edoctaxcatwithholdingcode
+semantic_en: "Egypt eDocument tax category for withholding code — tax type and subtype classifications for withholding."
+semantic_vi: "Loại thuế eDocument cho mã khấu trừ Ai Cập — phân loại loại thuế để khấu trừ."
+keywords:
+  - khấu trừ
+  - loại thuế
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

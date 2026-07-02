@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTWORKITEMTP
 description: Entprojelmntworkitemtp
+semantic_en: "work item of enterprise project element transient projection — captures configured work items assigned to project elements with status and audit trail"
+semantic_vi: "Hình chiếu thoáng qua mục công việc của phần tử dự án cấp công ty — ghi lại mục công việc được cấu hình được gán cho các phần tử dự án"
+keywords:
+  - mục công việc
+  - phần tử dự án
+  - cấu hình
 app_component: PPM-SCL-PRS
 software_component: SAPSCORE
 release_state: released

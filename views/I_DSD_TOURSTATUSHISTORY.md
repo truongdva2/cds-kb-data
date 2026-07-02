@@ -1,6 +1,13 @@
 ---
 name: I_DSD_TOURSTATUSHISTORY
 description: Dsd Tourstatushistory
+semantic_en: "direct store delivery tour status history — sequential status changes for a delivery tour including creation timestamp, cancellation, and manual overrides"
+semantic_vi: "lịch sử trạng thái tuyến giao hàng trực tiếp (DSD) — các thay đổi trạng thái tuần tự của tuyến giao hàng bao gồm thời điểm tạo, hủy và ghi đè thủ công"
+keywords:
+  - lịch sử tuyến giao hàng
+  - trạng thái tuyến DSD
+  - giao hàng trực tiếp
+  - hủy tuyến giao hàng
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCCATEGORYVH
 description: Euelectronicdoccategoryvh
+semantic_en: "electronic document category value helper — provides standardized categories for EU electronic documents"
+semantic_vi: "trợ giúp giá trị danh mục tài liệu điện tử — cung cấp các danh mục tiêu chuẩn cho tài liệu điện tử EU"
+keywords:
+  - danh mục tài liệu
+  - tài liệu điện tử
+  - EU
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

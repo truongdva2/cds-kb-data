@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCNUMBER
 description: Documentinforecorddocnumber
+semantic_en: "document number reference view for document information records — mapping document type and number combinations"
+semantic_vi: "khung nhìn tham chiếu số tài liệu cho bản ghi thông tin tài liệu — ánh xạ kết hợp loại tài liệu và số"
+keywords:
+  - số tài liệu
+  - bản ghi thông tin
+  - tham chiếu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

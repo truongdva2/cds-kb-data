@@ -1,6 +1,13 @@
 ---
 name: I_ENTERPRISEPROJECTTP_3
 description: Enterpriseprojecttp 3
+semantic_en: "enterprise project — a transient projection showing project master data including category, type, dates, priority, customer, and service organization"
+semantic_vi: "Dự án cấp công ty — hình chiếu thoáng qua dữ liệu chính dự án bao gồm danh mục, loại, ngày, ưu tiên, khách hàng và tổ chức dịch vụ"
+keywords:
+  - dự án
+  - thông tin dự án
+  - ưu tiên
+  - khách hàng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

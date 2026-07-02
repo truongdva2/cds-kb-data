@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJCHGDOCUMENTDEX
 description: Entprojchgdocumentdex
+semantic_en: "data extraction for project change document — captures change document items for enterprise projects with field-level change history including unit and currency changes"
+semantic_vi: "Trích xuất dữ liệu cho tài liệu thay đổi dự án — ghi lại các mục tài liệu thay đổi cho dự án cấp công ty với lịch sử thay đổi cấp trường bao gồm thay đổi đơn vị và tiền tệ"
+keywords:
+  - tài liệu thay đổi
+  - lịch sử thay đổi
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

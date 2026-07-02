@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDACCMACTV
 description: Documentinforecordaccmactv
+semantic_en: "logging and access control view indicating whether log access module object types are active for document records"
+semantic_vi: "khung nhìn kiểm soát truy cập ghi nhật ký chỉ rõ liệu các loại đối tượng mô-đun truy cập nhật ký có hoạt động cho bản ghi tài liệu không"
+keywords:
+  - kiểm soát truy cập
+  - trạng thái hoạt động
+  - mô-đun ghi nhật ký
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

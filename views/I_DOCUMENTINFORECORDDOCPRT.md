@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCPRT
 description: Documentinforecorddocprt
+semantic_en: "document part description view — capturing description text for document parts linked to document type, number, and version"
+semantic_vi: "khung nhìn mô tả phần tài liệu — ghi lại văn bản mô tả cho các phần tài liệu được liên kết với loại tài liệu, số và phiên bản"
+keywords:
+  - phần tài liệu
+  - mô tả chi tiết
+  - tài liệu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

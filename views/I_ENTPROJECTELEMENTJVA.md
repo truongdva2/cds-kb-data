@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTELEMENTJVA
 description: Entprojectelementjva
+semantic_en: "joint venture accounting for project element — captures joint venture partnership configuration for work breakdown structure elements"
+semantic_vi: "Kế toán liên doanh cho phần tử dự án — ghi lại cấu hình kỳ hạn liên doanh cho các phần tử cấu trúc phân tích công việc"
+keywords:
+  - liên doanh
+  - kế toán
+  - phần tử dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJSTATUSAREASTATUS
 description: Entprojstatusareastatus
+semantic_en: "status of enterprise project status area — defines status value domain with criticality and sort order indicators"
+semantic_vi: "Trạng thái của khu vực trạng thái dự án cấp công ty — xác định miền giá trị trạng thái với các chỉ báo tính nghiêm trọng và thứ tự sắp xếp"
+keywords:
+  - trạng thái
+  - khu vực trạng thái
+  - mức độ tới hạn
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

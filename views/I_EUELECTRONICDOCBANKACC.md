@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCBANKACC
 description: Euelectronicdocbankacc
+semantic_en: "bank accounts for electronic documents — maps bank accounts and payment means to electronic document processing"
+semantic_vi: "tài khoản ngân hàng cho tài liệu điện tử — ánh xạ các tài khoản ngân hàng và phương tiện thanh toán để xử lý tài liệu điện tử"
+keywords:
+  - tài khoản ngân hàng
+  - tài liệu điện tử
+  - thanh toán
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

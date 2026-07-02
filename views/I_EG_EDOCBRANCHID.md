@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCBRANCHID
 description: EG Edocbranchid
+semantic_en: "Egypt eDocument branch ID — company code branch identification for Egyptian electronic documents."
+semantic_vi: "ID chi nhánh eDocument Ai Cập — mã định danh chi nhánh công ty cho tài liệu điện tử."
+keywords:
+  - chi nhánh
+  - Ai Cập
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

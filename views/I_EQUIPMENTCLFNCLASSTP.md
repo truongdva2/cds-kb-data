@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTCLFNCLASSTP
 description: Equipmentclfnclasstp
+semantic_en: "equipment classification class with technical profile — manages equipment class assignments and standard classifications"
+semantic_vi: "lớp phân loại thiết bị với hồ sơ kỹ thuật — quản lý gán lớp thiết bị và phân loại tiêu chuẩn"
+keywords:
+  - phân loại thiết bị
+  - lớp tiêu chuẩn
+  - gán lớp
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCPAYMENTMEANVH
 description: Euelectronicdocpaymentmeanvh
+semantic_en: "peppol payment means value helper — provides standardized payment methods for EU Peppol electronic documents"
+semantic_vi: "trợ giúp giá trị phương tiện thanh toán Peppol — cung cấp các phương pháp thanh toán tiêu chuẩn cho tài liệu Peppol EU"
+keywords:
+  - phương tiện thanh toán
+  - Peppol
+  - EU
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

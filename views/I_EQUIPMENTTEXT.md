@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTTEXT
 description: Equipmenttext
+semantic_en: "equipment description and naming — maintains equipment names and descriptions across multiple languages"
+semantic_vi: "mô tả và tên thiết bị — duy trì tên và mô tả thiết bị trên nhiều ngôn ngữ"
+keywords:
+  - tên thiết bị
+  - mô tả
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDAUTHZNGRP
 description: Documentinforecordauthzngrp
+semantic_en: "authorization group reference view for document information records — mapping authorization group to document info record authorization objects"
+semantic_vi: "khung nhìn tham chiếu nhóm ủy quyền cho bản ghi thông tin tài liệu — ánh xạ nhóm ủy quyền tới các đối tượng ủy quyền bản ghi thông tin tài liệu"
+keywords:
+  - nhóm ủy quyền
+  - bản ghi thông tin
+  - kiểm soát truy cập
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

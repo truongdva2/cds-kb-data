@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTJVA
 description: Enterpriseprojectjva
+semantic_en: "joint venture accounting for enterprise projects — joint venture cost allocation and equity tracking by project."
+semantic_vi: "Kế toán liên doanh cho dự án cấp doanh nghiệp — phân bổ chi phí liên doanh theo dự án."
+keywords:
+  - liên doanh
+  - dự án
+  - chi phí
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

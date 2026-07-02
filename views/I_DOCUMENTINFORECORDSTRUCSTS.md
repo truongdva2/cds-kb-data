@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDSTRUCSTS
 description: Documentinforecordstrucsts
+semantic_en: "value help domain view for document structure indicator — listing valid structure status codes"
+semantic_vi: "khung nhìn miền trợ giúp giá trị cho chỉ báo cấu trúc tài liệu — liệt kê các mã trạng thái cấu trúc hợp lệ"
+keywords:
+  - chỉ báo cấu trúc
+  - trạng thái cấu trúc
+  - hỗ trợ giá trị
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

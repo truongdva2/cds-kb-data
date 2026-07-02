@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDESC
 description: Documentinforecorddesc
+semantic_en: "document description text view — providing localized short text and description for document parts across languages"
+semantic_vi: "khung nhìn văn bản mô tả tài liệu — cung cấp văn bản ngắn và mô tả được bản địa hóa cho các phần tài liệu trên các ngôn ngữ"
+keywords:
+  - mô tả tài liệu
+  - văn bản ngắn
+  - đa ngôn ngữ
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

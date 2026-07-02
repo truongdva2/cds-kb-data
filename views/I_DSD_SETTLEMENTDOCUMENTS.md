@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTDOCUMENTS
 description: Dsd Settlementdocuments
+semantic_en: "merged settlement document view — consolidating tour and SD document linkage with cancellation and external reference tracking"
+semantic_vi: "khung nhìn tài liệu thanh toán hợp nhất — hợp nhất liên kết tuyến đường và tài liệu SD với theo dõi hủy bỏ và tham chiếu bên ngoài"
+keywords:
+  - tài liệu thanh toán
+  - tuyến đường
+  - tài liệu SD
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

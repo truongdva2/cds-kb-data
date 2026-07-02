@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDCADSTS
 description: Documentinforecordcadsts
+semantic_en: "value help domain view for document CAD creation status — listing valid CAD status codes"
+semantic_vi: "khung nhìn miền trợ giúp giá trị cho trạng thái tạo CAD tài liệu — liệt kê các mã trạng thái CAD hợp lệ"
+keywords:
+  - trạng thái CAD
+  - thiết kế
+  - hỗ trợ giá trị
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

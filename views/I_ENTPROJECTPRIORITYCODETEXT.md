@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTPRIORITYCODETEXT
 description: Entprojectprioritycodetext
+semantic_en: "priority code text for enterprise projects — multilingual names for project priority codes"
+semantic_vi: "Văn bản mã ưu tiên cho dự án cấp công ty — tên đa ngôn ngữ dành cho mã ưu tiên dự án"
+keywords:
+  - ưu tiên
+  - văn bản mã
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

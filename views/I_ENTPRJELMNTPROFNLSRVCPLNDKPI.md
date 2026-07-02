@@ -1,6 +1,12 @@
 ---
 name: I_ENTPRJELMNTPROFNLSRVCPLNDKPI
 description: Entprjelmntprofnlsrvcplndkpi
+semantic_en: "planned revenue — extraction of planned revenue amounts and effort quantities for professional service enterprise project elements with deliverable metrics"
+semantic_vi: "Doanh thu dự kiến — trích xuất các khoản doanh thu và số lượng nỗ lực dự kiến cho các phần tử dự án dịch vụ chuyên nghiệp với chỉ tiêu giao dịch"
+keywords:
+  - doanh thu dự kiến
+  - nỗ lực dự kiến
+  - giao dịch
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

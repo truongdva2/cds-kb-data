@@ -1,6 +1,12 @@
 ---
 name: I_EWM_DELIVERYTYPETEXT_2
 description: Ewm Deliverytypetext 2
+semantic_en: "warehouse delivery type description — provides multilingual names and descriptions for warehouse delivery types"
+semantic_vi: "mô tả loại giao hàng kho — cung cấp tên và mô tả đa ngôn ngữ cho các loại giao hàng kho"
+keywords:
+  - loại giao hàng
+  - kho
+  - mô tả
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

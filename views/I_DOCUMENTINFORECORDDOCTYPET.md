@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCTYPET
 description: Documentinforecorddoctypet
+semantic_en: "text view providing localized document type descriptions"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả loại tài liệu được bản địa hóa"
+keywords:
+  - mô tả loại tài liệu
+  - bản địa hóa
+  - loại tài liệu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

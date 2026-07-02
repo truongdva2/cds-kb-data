@@ -1,6 +1,12 @@
 ---
 name: I_ELECTRONICDOCPROCESSTEXT
 description: Electronicdocprocesstext
+semantic_en: "eDocument process text — language-specific descriptions of electronic document processing workflows."
+semantic_vi: "Văn bản quy trình eDocument — mô tả quy trình xử lý tài liệu điện tử theo ngôn ngữ."
+keywords:
+  - quy trình
+  - eDocument
+  - xử lý
 app_component: CA-GTF-CSC-EDO
 software_component: SAPSCORE
 release_state: released

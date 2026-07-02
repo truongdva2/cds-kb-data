@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCPARTNER
 description: Euelectronicdocpartner
+semantic_en: "electronic document business partner — defines trading partners and their electronic document communication preferences"
+semantic_vi: "đối tác kinh doanh tài liệu điện tử — xác định các đối tác giao dịch và tùy chọn giao tiếp tài liệu điện tử của họ"
+keywords:
+  - đối tác kinh doanh
+  - tài liệu điện tử
+  - giao tiếp
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

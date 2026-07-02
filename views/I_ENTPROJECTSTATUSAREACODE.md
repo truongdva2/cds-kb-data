@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTSTATUSAREACODE
 description: Entprojectstatusareacode
+semantic_en: "status area code for enterprise projects — defines status area domain values with sequence and overall status indicators"
+semantic_vi: "Mã khu vực trạng thái cho dự án cấp công ty — xác định giá trị miền khu vực trạng thái với chỉ số trình tự và chỉ báo trạng thái tổng thể"
+keywords:
+  - mã trạng thái
+  - khu vực trạng thái
+  - trình tự
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

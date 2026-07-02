@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECDDOCPRTSTDVH
 description: Docinforecddocprtstdvh
+semantic_en: "value help for document information record document part — enabling user selection of document type, number, version, and part identifiers"
+semantic_vi: "trợ giúp giá trị cho phần tài liệu bản ghi thông tin tài liệu — cho phép người dùng chọn loại tài liệu, số hiệu, phiên bản và định danh phần"
+keywords:
+  - hỗ trợ giá trị tài liệu
+  - phần tài liệu
+  - bản ghi thông tin
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

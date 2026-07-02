@@ -1,6 +1,12 @@
 ---
 name: I_EMRKDFUNDDOCMAILPARAM
 description: Emrkdfunddocmailparam
+semantic_en: "earmarked funds document email parameter — email notification data for earmarked fund documents."
+semantic_vi: "Tham số email tài liệu quỹ riêng — dữ liệu thông báo email cho tài liệu quỹ riêng."
+keywords:
+  - email
+  - thông báo
+  - quỹ riêng
 app_component: PSM-FM-PO-EF
 software_component: SAPSCORE
 release_state: released

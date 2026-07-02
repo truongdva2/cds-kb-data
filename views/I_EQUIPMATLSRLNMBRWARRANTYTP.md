@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMATLSRLNMBRWARRANTYTP
 description: Equipmatlsrlnmbrwarrantytp
+semantic_en: "equipment material serial number warranty — stores warranty coverage details for serialized material equipment"
+semantic_vi: "bảo hành số serial vật tư thiết bị — lưu trữ chi tiết bảo hiểm bảo hành cho thiết bị vật tư có số serial"
+keywords:
+  - bảo hành
+  - thiết bị
+  - serial number
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

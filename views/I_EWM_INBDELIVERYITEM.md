@@ -1,6 +1,12 @@
 ---
 name: I_EWM_INBDELIVERYITEM
 description: Ewm Inbdeliveryitem
+semantic_en: "warehouse inbound delivery item — tracks individual line items in inbound deliveries with product and batch details"
+semantic_vi: "mục giao hàng đến kho — theo dõi các mục dòng riêng lẻ trong các lô hàng đến với chi tiết sản phẩm và lô hàng"
+keywords:
+  - mục giao hàng
+  - sản phẩm
+  - lô hàng
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

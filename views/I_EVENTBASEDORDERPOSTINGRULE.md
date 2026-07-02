@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDORDERPOSTINGRULE
 description: Eventbasedorderpostingrule
+semantic_en: "event-based manufacturing order posting rule — defines cost distribution rules for event-triggered manufacturing order accounting"
+semantic_vi: "quy tắc hạch toán đơn hàng sản xuất dựa trên sự kiện — xác định quy tắc phân phối chi phí cho hạch toán đơn hàng sản xuất được kích hoạt bằng sự kiện"
+keywords:
+  - quy tắc hạch toán
+  - sự kiện
+  - đơn hàng sản xuất
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

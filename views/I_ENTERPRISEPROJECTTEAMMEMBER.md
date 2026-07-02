@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTTEAMMEMBER
 description: Enterpriseprojectteammember
+semantic_en: "enterprise project team member — relates business partners to projects as team participants with audit trail"
+semantic_vi: "Thành viên nhóm dự án cấp công ty — liên kết các đối tác kinh doanh với dự án dưới vai trò thành viên nhóm"
+keywords:
+  - thành viên nhóm
+  - đối tác kinh doanh
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

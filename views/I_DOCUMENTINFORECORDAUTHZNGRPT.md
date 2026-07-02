@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDAUTHZNGRPT
 description: Documentinforecordauthzngrpt
+semantic_en: "text view providing localized authorization group descriptions for document info record objects"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả nhóm ủy quyền được bản địa hóa cho các đối tượng bản ghi thông tin tài liệu"
+keywords:
+  - mô tả nhóm ủy quyền
+  - bản địa hóa
+  - bản ghi thông tin
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

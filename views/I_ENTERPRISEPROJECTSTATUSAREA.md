@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTSTATUSAREA
 description: Enterpriseprojectstatusarea
+semantic_en: "enterprise project status area — tracks project status dimensions including status value, trend, and notes with audit trail"
+semantic_vi: "Khu vực trạng thái của dự án cấp công ty — theo dõi các chiều trạng thái dự án bao gồm giá trị trạng thái, xu hướng và ghi chú với theo dõi kiểm toán"
+keywords:
+  - trạng thái dự án
+  - khu vực trạng thái
+  - theo dõi xu hướng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

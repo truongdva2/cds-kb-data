@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTDOCUMENTFLOW
 description: Dsd Settlementdocumentflow
+semantic_en: "settlement document flow view — tracking document flow relationships including tour numbers and accounting visit linkage"
+semantic_vi: "khung nhìn dòng chảy tài liệu thanh toán — theo dõi mối quan hệ dòng chảy tài liệu bao gồm liên kết số tuyến và lần thăm kế toán"
+keywords:
+  - dòng chảy tài liệu
+  - thanh toán
+  - tuyến đường
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

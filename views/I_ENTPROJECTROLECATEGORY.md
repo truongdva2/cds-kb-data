@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTROLECATEGORY
 description: Entprojectrolecategory
+semantic_en: "role category for enterprise projects — domain value set classifying project team member role categories"
+semantic_vi: "Danh mục vai trò cho dự án cấp công ty — tập giá trị miền phân loại danh mục vai trò thành viên nhóm dự án"
+keywords:
+  - danh mục vai trò
+  - vai trò
+  - nhóm dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

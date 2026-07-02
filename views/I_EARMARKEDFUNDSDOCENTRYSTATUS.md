@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDOCENTRYSTATUS
 description: Earmarkedfundsdocentrystatus
+semantic_en: "earmarked funds document entry status — domain values for document entry statuses."
+semantic_vi: "Trạng thái nhập liệu tài liệu quỹ riêng — các giá trị trạng thái nhập liệu."
+keywords:
+  - trạng thái
+  - nhập liệu
+  - tài liệu
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

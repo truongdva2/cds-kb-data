@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTPRODNRSCETOOL
 description: Equipmentprodnrscetool
+semantic_en: "equipment production resource tool — links equipment to production resource tools and manufacturing scheduling parameters"
+semantic_vi: "công cụ tài nguyên sản xuất thiết bị — liên kết thiết bị với công cụ tài nguyên sản xuất và tham số lập kế hoạch sản xuất"
+keywords:
+  - thiết bị sản xuất
+  - tài nguyên
+  - công cụ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

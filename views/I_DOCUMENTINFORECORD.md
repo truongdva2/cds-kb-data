@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORD
 description: Documentinforecord
+semantic_en: "core document information record details projection — comprehensive view of document metadata including status, authorization, and structure indicators"
+semantic_vi: "khung nhìn chiếu chi tiết bản ghi thông tin tài liệu cốt lõi — xem toàn diện siêu dữ liệu tài liệu bao gồm trạng thái, ủy quyền và chỉ báo cấu trúc"
+keywords:
+  - bản ghi thông tin tài liệu
+  - chi tiết tài liệu
+  - trạng thái
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

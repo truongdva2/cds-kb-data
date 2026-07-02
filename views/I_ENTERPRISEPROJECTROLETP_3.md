@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTROLETP_3
 description: Enterpriseprojectroletp 3
+semantic_en: "enterprise project role transactional posting — project role definitions with audit timestamps for role lifecycle."
+semantic_vi: "Vai trò dự án cấp doanh nghiệp - TP — định nghĩa vai trò dự án với dấu thời gian kiểm toán."
+keywords:
+  - vai trò
+  - dự án
+  - kiểm toán
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTTP
 description: Equipmenttp
+semantic_en: "equipment with technical profile — comprehensive equipment master with subordinate relationships and acquisition details"
+semantic_vi: "thiết bị với hồ sơ kỹ thuật — dữ liệu thiết bị chính toàn diện với mối quan hệ cấp dưới và chi tiết mua lại"
+keywords:
+  - thiết bị
+  - hồ sơ kỹ thuật
+  - quan hệ cấp dưới
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

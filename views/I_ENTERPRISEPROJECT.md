@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECT
 description: Enterpriseproject
+semantic_en: "enterprise project — master data for commercial projects including schedule, status, and customer references."
+semantic_vi: "Dự án cấp doanh nghiệp — dữ liệu chính dự án thương mại bao gồm lịch trình và tham chiếu khách hàng."
+keywords:
+  - dự án
+  - doanh nghiệp
+  - khách hàng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

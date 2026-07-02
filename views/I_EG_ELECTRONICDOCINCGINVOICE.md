@@ -1,6 +1,12 @@
 ---
 name: I_EG_ELECTRONICDOCINCGINVOICE
 description: EG Electronicdocincginvoice
+semantic_en: "Egypt incoming electronic documents — metadata for received electronic invoices with workflow and approval windows."
+semantic_vi: "Tài liệu điện tử đến Ai Cập — siêu dữ liệu hóa đơn điện tử nhận được với cửa sổ phê duyệt."
+keywords:
+  - hóa đơn
+  - tài liệu điện tử
+  - nhận
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

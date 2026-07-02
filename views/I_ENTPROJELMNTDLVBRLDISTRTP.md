@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLDISTRTP
 description: Entprojelmntdlvbrldistrtp
+semantic_en: "deliverable distribution of enterprise project element transient projection — shows periodic distribution of deliverable quantities"
+semantic_vi: "Hình chiếu thoáng qua phân phối giao dịch của phần tử dự án cấp công ty — hiển thị phân phối kỳ hạn của số lượng giao dịch"
+keywords:
+  - phân phối giao dịch
+  - kỳ hạn
+  - số lượng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

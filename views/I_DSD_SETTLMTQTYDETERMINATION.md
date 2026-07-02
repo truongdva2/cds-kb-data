@@ -1,6 +1,13 @@
 ---
 name: I_DSD_SETTLMTQTYDETERMINATION
 description: Dsd Settlmtqtydetermination
+semantic_en: "direct store delivery settlement quantity determination — target vs. actual loading, checkout, and reload quantities per settlement document, material, and batch"
+semantic_vi: "xác định số lượng thanh toán giao hàng trực tiếp (DSD) — số lượng mục tiêu so với thực tế khi nạp hàng, xuất kho và nạp lại theo chứng từ thanh toán, vật tư và lô"
+keywords:
+  - thanh toán DSD
+  - số lượng giao hàng trực tiếp
+  - chênh lệch số lượng
+  - nạp lại hàng
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

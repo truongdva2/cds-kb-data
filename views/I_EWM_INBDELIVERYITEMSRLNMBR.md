@@ -1,6 +1,12 @@
 ---
 name: I_EWM_INBDELIVERYITEMSRLNMBR
 description: Ewm Inbdeliveryitemsrlnmbr
+semantic_en: "warehouse inbound delivery item serial number — maintains serial number tracking for received goods in inbound deliveries"
+semantic_vi: "số serial mục giao hàng đến kho — duy trì theo dõi số serial cho hàng hoá nhận được trong các lô hàng đến"
+keywords:
+  - serial number
+  - giao hàng đến
+  - hàng hoá
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTCNFGRDWRKITMTXT
 description: Entprojelmntcnfgrdwrkitmtxt
+semantic_en: "enterprise project configured work item text — multilingual names for configured work item types"
+semantic_vi: "Văn bản mục công việc được cấu hình của dự án cấp công ty — tên đa ngôn ngữ dành cho loại mục công việc được cấu hình"
+keywords:
+  - mục công việc
+  - văn bản
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

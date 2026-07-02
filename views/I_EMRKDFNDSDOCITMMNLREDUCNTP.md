@@ -1,6 +1,12 @@
 ---
 name: I_EMRKDFNDSDOCITMMNLREDUCNTP
 description: Emrkdfndsdocitmmnlreducntp
+semantic_en: "earmarked funds document item manual reduction transactional posting — line-level manual reduction data with audit trail."
+semantic_vi: "Dòng giảm thủ công tài liệu quỹ riêng - TP — dữ liệu giảm thủ công mức dòng."
+keywords:
+  - giảm thủ công
+  - quỹ riêng
+  - dòng
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

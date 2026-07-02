@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTOBJECTLINKTYPETEXT
 description: Entprojectobjectlinktypetext
+semantic_en: "object link type text for enterprise projects — multilingual descriptions of object link type categories"
+semantic_vi: "Văn bản loại liên kết đối tượng cho dự án cấp công ty — mô tả đa ngôn ngữ về danh mục loại liên kết đối tượng"
+keywords:
+  - loại liên kết
+  - văn bản mô tả
+  - đa ngôn ngữ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

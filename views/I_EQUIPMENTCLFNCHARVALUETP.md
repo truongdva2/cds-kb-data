@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTCLFNCHARVALUETP
 description: Equipmentclfncharvaluetp
+semantic_en: "equipment classification characteristic value with technical profile — stores characteristic values and intervals for equipment classifications"
+semantic_vi: "giá trị đặc tính phân loại thiết bị với hồ sơ kỹ thuật — lưu trữ giá trị đặc tính và khoảng cho phân loại thiết bị"
+keywords:
+  - phân loại thiết bị
+  - đặc tính
+  - khoảng giá trị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

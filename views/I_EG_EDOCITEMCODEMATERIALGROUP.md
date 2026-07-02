@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCITEMCODEMATERIALGROUP
 description: EG EDOCITEMCODEMaterial Group
+semantic_en: "Egypt eDocument item code for material group — item code mappings for material groups with customs classification."
+semantic_vi: "Mã dòng eDocument cho nhóm vật liệu Ai Cập — ánh xạ mã dòng nhóm vật liệu."
+keywords:
+  - mã dòng
+  - nhóm vật liệu
+  - Ai Cập
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EDCRELATION
 description: Edcrelation
+semantic_en: "eDocument consistency relation record — eDocument representation keys and common key mappings."
+semantic_vi: "Bản ghi quan hệ đúng eDocument — khóa đại diện và ánh xạ khóa chung."
+keywords:
+  - eDocument
+  - quan hệ
+  - ánh xạ
 app_component: CA-GTF-CSC-EDC
 software_component: SAPSCORE
 release_state: released

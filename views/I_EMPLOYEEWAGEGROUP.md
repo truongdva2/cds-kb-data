@@ -1,6 +1,12 @@
 ---
 name: I_EMPLOYEEWAGEGROUP
 description: Employeewagegroup
+semantic_en: "employee wage group — plant-specific wage group classifications for employees."
+semantic_vi: "Nhóm tiền lương nhân viên — phân loại nhóm tiền lương nhân viên theo nhà máy."
+keywords:
+  - tiền lương
+  - nhân viên
+  - nhóm
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

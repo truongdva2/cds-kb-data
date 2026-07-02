@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DCSNREASON
 description: Earmarkedfunds Dcsnreason
+semantic_en: "earmarked funds decision reason — reason codes and finality indicators for earmarked fund decisions."
+semantic_vi: "Lý do quyết định quỹ riêng — mã lý do và chỉ báo tính chất cuối cùng của quyết định."
+keywords:
+  - lý do quyết định
+  - quỹ riêng
+  - mã
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

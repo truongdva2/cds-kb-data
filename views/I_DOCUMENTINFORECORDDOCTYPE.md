@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCTYPE
 description: Documentinforecorddoctype
+semantic_en: "document type reference view — capturing document type configuration including number assignment and range settings"
+semantic_vi: "khung nhìn tham chiếu loại tài liệu — ghi lại cấu hình loại tài liệu bao gồm cài đặt gán và phạm vi số"
+keywords:
+  - loại tài liệu
+  - cấu hình
+  - gán số
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

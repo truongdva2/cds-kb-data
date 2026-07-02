@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTWRNTYASSGMTTP
 description: Equipmentwrntyassgmttp
+semantic_en: "equipment warranty assignment with technical profile — manages warranty type assignments and inheritance for equipment"
+semantic_vi: "gán bảo hành thiết bị với hồ sơ kỹ thuật — quản lý gán loại bảo hành và kế thừa cho thiết bị"
+keywords:
+  - bảo hành
+  - thiết bị
+  - gán
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

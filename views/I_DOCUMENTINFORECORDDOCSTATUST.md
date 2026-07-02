@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCSTATUST
 description: Documentinforecorddocstatust
+semantic_en: "text view providing localized document status descriptions mapping internal and external status values"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả trạng thái tài liệu được bản địa hóa ánh xạ các giá trị trạng thái nội bộ và bên ngoài"
+keywords:
+  - mô tả trạng thái
+  - trạng thái tài liệu
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_FIXEDBINASSIGNMENT
 description: Ewm Fixedbinassignment
+semantic_en: "warehouse fixed bin assignment — defines maximum and minimum stock quantities for dedicated storage locations"
+semantic_vi: "gán thùng chứa cố định kho — xác định số lượng kho tối đa và tối thiểu cho các vị trí lưu trữ chuyên dụng"
+keywords:
+  - thùng chứa cố định
+  - kho
+  - số lượng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EMPLOYEEWAGEGROUPTEXT
 description: Employeewagegrouptext
+semantic_en: "employee wage group text — language-specific descriptions of wage groups by plant."
+semantic_vi: "Văn bản nhóm tiền lương nhân viên — mô tả nhóm tiền lương theo ngôn ngữ."
+keywords:
+  - tiền lương
+  - nhóm
+  - văn bản
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

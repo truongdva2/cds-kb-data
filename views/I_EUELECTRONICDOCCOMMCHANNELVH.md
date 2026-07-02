@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCCOMMCHANNELVH
 description: Euelectronicdoccommchannelvh
+semantic_en: "exchange channel value helper — provides communication channels for electronic document exchange"
+semantic_vi: "trợ giúp giá trị kênh trao đổi — cung cấp kênh truyền thông để trao đổi tài liệu điện tử"
+keywords:
+  - kênh giao dịch
+  - tài liệu điện tử
+  - truyền thông
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

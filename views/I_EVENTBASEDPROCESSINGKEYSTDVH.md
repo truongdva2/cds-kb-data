@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDPROCESSINGKEYSTDVH
 description: Eventbasedprocessingkeystdvh
+semantic_en: "event-based processing key value helper — provides standardized list of event-triggered cost processing configurations"
+semantic_vi: "trợ giúp giá trị khóa xử lý dựa trên sự kiện — cung cấp danh sách tiêu chuẩn các cấu hình xử lý chi phí được kích hoạt bằng sự kiện"
+keywords:
+  - khóa xử lý
+  - sự kiện
+  - giá trị
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

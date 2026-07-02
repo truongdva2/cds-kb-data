@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDUAUTHACCM
 description: Documentinforecorduauthaccm
+semantic_en: "user authorization and access control view for document information records — mapping user authorization objects, roles, and secure IDs with audit metadata"
+semantic_vi: "khung nhìn ủy quyền người dùng và kiểm soát truy cập cho bản ghi thông tin tài liệu — ánh xạ các đối tượng ủy quyền người dùng, vai trò và ID an toàn với siêu dữ liệu kiểm toán"
+keywords:
+  - ủy quyền người dùng
+  - kiểm soát truy cập
+  - vai trò
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

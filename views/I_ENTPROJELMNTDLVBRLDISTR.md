@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLDISTR
 description: Entprojelmntdlvbrldistr
+semantic_en: "deliverable distribution of enterprise project element — allocates deliverable quantities to periods and years at project element level"
+semantic_vi: "Phân phối giao dịch của phần tử dự án cấp công ty — cấp phát số lượng giao dịch cho các kỳ và năm ở cấp phần tử dự án"
+keywords:
+  - giao dịch
+  - phân phối
+  - kỳ năm
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

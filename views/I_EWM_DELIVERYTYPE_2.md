@@ -1,6 +1,12 @@
 ---
 name: I_EWM_DELIVERYTYPE_2
 description: Ewm Deliverytype 2
+semantic_en: "warehouse delivery type — categorizes inbound and outbound delivery document types in warehouse management"
+semantic_vi: "loại giao hàng kho — phân loại các loại tài liệu giao hàng đến và đi trong quản lý kho"
+keywords:
+  - loại giao hàng
+  - kho
+  - tài liệu
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

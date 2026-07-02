@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DCSNREASONTXT
 description: Earmarkedfunds Dcsnreasontxt
+semantic_en: "earmarked funds decision reason text — language-specific reason descriptions."
+semantic_vi: "Văn bản lý do quyết định quỹ riêng — mô tả lý do theo từng ngôn ngữ."
+keywords:
+  - lý do
+  - quyết định
+  - văn bản
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

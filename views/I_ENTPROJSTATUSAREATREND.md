@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJSTATUSAREATREND
 description: Entprojstatusareatrend
+semantic_en: "trend of enterprise project status area — defines trend value domain with criticality and sort order"
+semantic_vi: "Xu hướng của khu vực trạng thái dự án cấp công ty — xác định miền giá trị xu hướng với mức độ tới hạn và thứ tự sắp xếp"
+keywords:
+  - xu hướng
+  - khu vực trạng thái
+  - mức độ tới hạn
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

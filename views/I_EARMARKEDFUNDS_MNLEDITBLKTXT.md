@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_MNLEDITBLKTXT
 description: Earmarkedfunds Mnleditblktxt
+semantic_en: "manual editing block text — language-specific descriptions of editing block codes."
+semantic_vi: "Văn bản khóa chỉnh sửa thủ công — mô tả mã khóa chỉnh sửa theo ngôn ngữ."
+keywords:
+  - khóa chỉnh sửa
+  - văn bản
+  - mô tả
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLTYPETEXT
 description: Entprojelmntdlvbrltypetext
+semantic_en: "deliverable type text for enterprise project elements — multilingual names for deliverable type domain values"
+semantic_vi: "Văn bản loại giao dịch cho phần tử dự án cấp công ty — tên đa ngôn ngữ dành cho giá trị miền loại giao dịch"
+keywords:
+  - loại giao dịch
+  - văn bản
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

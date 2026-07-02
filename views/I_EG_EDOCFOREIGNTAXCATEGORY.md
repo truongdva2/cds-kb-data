@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCFOREIGNTAXCATEGORY
 description: EG Edocforeigntaxcategory
+semantic_en: "Egypt eDocument foreign tax category — tax categories for foreign business partners in Egypt."
+semantic_vi: "Loại thuế nước ngoài eDocument Ai Cập — loại thuế cho đối tác kinh doanh nước ngoài."
+keywords:
+  - loại thuế
+  - nước ngoài
+  - Ai Cập
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

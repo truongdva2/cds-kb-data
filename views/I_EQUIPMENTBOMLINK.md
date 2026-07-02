@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTBOMLINK
 description: Equipmentbomlink
+semantic_en: "equipment to bill of materials link — establishes relationships between equipment and their component BOMs"
+semantic_vi: "liên kết thiết bị đến danh sách vật tư — thiết lập quan hệ giữa thiết bị và các BOM thành phần của chúng"
+keywords:
+  - thiết bị
+  - BOM
+  - danh sách vật tư
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

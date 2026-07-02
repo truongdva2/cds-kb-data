@@ -1,6 +1,13 @@
 ---
 name: I_EQUIPMATLSERIALNUMBERTP
 description: EQUIPMATLSerial NumberTP
+semantic_en: "material serial number with technical profile — comprehensive equipment linking serial numbers to material identifiers and technical objects"
+semantic_vi: "số serial vật tư với hồ sơ kỹ thuật — liên kết danh sách các thiết bị với định danh vật tư và đối tượng kỹ thuật"
+keywords:
+  - serial number
+  - thiết bị
+  - vật tư
+  - hồ sơ kỹ thuật
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

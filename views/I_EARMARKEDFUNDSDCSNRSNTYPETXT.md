@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDCSNRSNTYPETXT
 description: Earmarkedfundsdcsnrsntypetxt
+semantic_en: "decision reason type text — language-specific labels for earmarked funds decision reason types."
+semantic_vi: "Văn bản loại lý do quyết định — nhãn lý do quyết định quỹ riêng theo ngôn ngữ."
+keywords:
+  - loại lý do
+  - quyết định
+  - văn bản
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

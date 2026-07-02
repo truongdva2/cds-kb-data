@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTQUANTITYDIFF
 description: Dsd Settlementquantitydiff
+semantic_en: "settlement quantity difference view — analyzing material quantity variances across checkout, delivery, return, and check-in phases"
+semantic_vi: "khung nhìn khác biệt số lượng thanh quyết — phân tích phương sai số lượng vật liệu trên các giai đoạn kiểm tra, giao hàng, hoàn trả và kiểm tra"
+keywords:
+  - khác biệt số lượng
+  - vật liệu
+  - giao hàng
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

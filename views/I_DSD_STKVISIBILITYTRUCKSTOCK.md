@@ -1,6 +1,13 @@
 ---
 name: I_DSD_STKVISIBILITYTRUCKSTOCK
 description: Dsd Stkvisibilitytruckstock
+semantic_en: "direct store delivery truck stock visibility — vehicle and storage location quantities by material, batch, and tour with stock visibility status"
+semantic_vi: "khả năng hiển thị tồn kho xe tải giao hàng trực tiếp (DSD) — số lượng trên xe và tại vị trí lưu kho theo vật tư, lô và tuyến giao hàng cùng trạng thái hiển thị tồn kho"
+keywords:
+  - tồn kho xe tải
+  - giao hàng trực tiếp DSD
+  - hiển thị tồn kho
+  - tuyến giao hàng
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTPRIORITYCODE
 description: Entprojectprioritycode
+semantic_en: "priority code for enterprise projects — domain value set for project priority ranking"
+semantic_vi: "Mã ưu tiên cho dự án cấp công ty — tập giá trị miền dành cho xếp hạng ưu tiên dự án"
+keywords:
+  - ưu tiên
+  - mã ưu tiên
+  - xếp hạng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

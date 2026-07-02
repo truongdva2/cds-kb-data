@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCINTEGRATIONDATE
 description: EG Edocintegrationdate
+semantic_en: "Egypt eDocument integration effective date — active dates for eDocument integration by company code."
+semantic_vi: "Ngày hiệu lực tích hợp eDocument Ai Cập — ngày kích hoạt tích hợp eDocument."
+keywords:
+  - ngày hiệu lực
+  - tích hợp
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

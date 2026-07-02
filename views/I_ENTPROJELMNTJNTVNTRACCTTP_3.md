@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTJNTVNTRACCTTP_3
 description: Entprojelmntjntvntraccttp 3
+semantic_en: "joint venture accounting data of enterprise project element transient projection — shows joint venture and cost recovery configuration for project elements"
+semantic_vi: "Hình chiếu thoáng qua dữ liệu kế toán liên doanh của phần tử dự án cấp công ty — hiển thị cấu hình liên doanh và khôi phục chi phí cho phần tử dự án"
+keywords:
+  - liên doanh
+  - kế toán
+  - phần tử dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

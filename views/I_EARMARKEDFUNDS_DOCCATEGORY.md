@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DOCCATEGORY
 description: Earmarkedfunds Doccategory
+semantic_en: "earmarked funds document category — domain values categorizing earmarked fund documents."
+semantic_vi: "Loại tài liệu quỹ riêng — các giá trị miền phân loại tài liệu quỹ riêng."
+keywords:
+  - loại tài liệu
+  - quỹ riêng
+  - phân loại
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

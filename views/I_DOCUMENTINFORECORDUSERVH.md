@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDUSERVH
 description: Documentinforecorduservh
+semantic_en: "user name value help view — providing creator and responsible person details for document information record parts"
+semantic_vi: "khung nhìn trợ giúp giá trị tên người dùng — cung cấp chi tiết người tạo và người chịu trách nhiệm cho các phần bản ghi thông tin tài liệu"
+keywords:
+  - tên người dùng
+  - người tạo
+  - tên đầy đủ
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

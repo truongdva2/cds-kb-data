@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELEMENTPUBLICSECTOR
 description: Entprojelementpublicsector
+semantic_en: "public sector management for project element — assigns fund, grant, and functional area to work breakdown structure elements in public sector projects"
+semantic_vi: "Quản lý khu vực công cho phần tử dự án — gán quỹ, trợ cấp và khu vực chức năng cho các phần tử cấu trúc phân tích công việc"
+keywords:
+  - khu vực công
+  - phần tử dự án
+  - quỹ trợ cấp
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

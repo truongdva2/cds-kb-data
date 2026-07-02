@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDOCENTRYSTSTXT
 description: Earmarkedfundsdocentryststxt
+semantic_en: "earmarked funds document entry status text — language-specific descriptions of entry statuses."
+semantic_vi: "Văn bản trạng thái nhập liệu tài liệu quỹ riêng — mô tả trạng thái theo ngôn ngữ."
+keywords:
+  - trạng thái nhập liệu
+  - văn bản
+  - tài liệu
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

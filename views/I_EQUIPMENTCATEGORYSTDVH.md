@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTCATEGORYSTDVH
 description: Equipmentcategorystdvh
+semantic_en: "equipment category value helper — provides standardized list of equipment categories with status and view profiles"
+semantic_vi: "trợ giúp giá trị danh mục thiết bị — cung cấp danh sách tiêu chuẩn các danh mục thiết bị với hồ sơ trạng thái"
+keywords:
+  - danh mục thiết bị
+  - value help
+  - phân loại
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

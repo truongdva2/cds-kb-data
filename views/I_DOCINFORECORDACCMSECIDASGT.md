@@ -1,6 +1,12 @@
 ---
 name: I_DOCINFORECORDACCMSECIDASGT
 description: Docinforecordaccmsecidasgt
+semantic_en: "logging and access control view for document information record secure ID assignments — tracking object security ID links with creation and change metadata"
+semantic_vi: "khung nhìn kiểm soát truy cập và ghi nhật ký cho gán SecureID của bản ghi thông tin tài liệu — theo dõi liên kết ID an toàn đối tượng với siêu dữ liệu tạo và thay đổi"
+keywords:
+  - kiểm soát truy cập
+  - SecureID
+  - bản ghi thông tin
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

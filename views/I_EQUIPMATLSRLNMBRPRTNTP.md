@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMATLSRLNMBRPRTNTP
 description: Equipmatlsrlnmbrprtntp
+semantic_en: "equipment material serial number partner — manages business partner relationships and contacts for serialized materials"
+semantic_vi: "đối tác số serial vật tư thiết bị — quản lý các mối quan hệ và liên hệ đối tác kinh doanh cho vật tư có số serial"
+keywords:
+  - đối tác
+  - liên hệ
+  - vật tư serial
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

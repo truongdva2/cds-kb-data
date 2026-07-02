@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDORDERPOSTINGRULETP
 description: Eventbasedorderpostingruletp
+semantic_en: "event-based manufacturing order posting rule technical profile — provides technical tracing and source assignment details for event-driven costing"
+semantic_vi: "hồ sơ kỹ thuật quy tắc hạch toán đơn hàng sản xuất dựa trên sự kiện — cung cấp chi tiết gán nguồn và theo dõi kỹ thuật cho định giá hướng sự kiện"
+keywords:
+  - quy tắc hạch toán
+  - sự kiện
+  - hồ sơ kỹ thuật
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTENTITLEMENT
 description: Entprojectentitlement
+semantic_en: "enterprise project entitlement — maps team members to project roles with authorization rights via entitlement UUID"
+semantic_vi: "Quyền hạn dự án cấp công ty — ánh xạ thành viên nhóm với vai trò dự án cùng quyền ủy quyền"
+keywords:
+  - quyền hạn
+  - vai trò dự án
+  - ủy quyền
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

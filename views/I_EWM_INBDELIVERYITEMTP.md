@@ -1,6 +1,12 @@
 ---
 name: I_EWM_INBDELIVERYITEMTP
 description: Ewm Inbdeliveryitemtp
+semantic_en: "inbound delivery item interface technical profile — provides inbound delivery line items with warehouse and product tracking data"
+semantic_vi: "giao diện mục giao hàng đến với hồ sơ kỹ thuật — cung cấp các mục dòng giao hàng đến với dữ liệu theo dõi sản phẩm và kho"
+keywords:
+  - giao hàng đến
+  - mục
+  - hồ sơ kỹ thuật
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

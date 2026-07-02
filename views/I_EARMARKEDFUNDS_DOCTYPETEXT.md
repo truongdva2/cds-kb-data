@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DOCTYPETEXT
 description: Earmarkedfunds Doctypetext
+semantic_en: "earmarked funds document type text — language-specific document type descriptions."
+semantic_vi: "Văn bản loại tài liệu quỹ riêng — mô tả loại tài liệu theo ngôn ngữ."
+keywords:
+  - loại tài liệu
+  - văn bản
+  - mô tả
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

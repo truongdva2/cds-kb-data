@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTBOMLINK
 description: Documentbomlink
+semantic_en: "document linkage view for bill of material — connecting BOM records to associated document parts and types"
+semantic_vi: "khung nhìn liên kết tài liệu cho bảng vật liệu — kết nối các bản ghi BOM với các phần tài liệu liên quan và loại"
+keywords:
+  - tài liệu BOM
+  - liên kết vật liệu
+  - kỹ thuật
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

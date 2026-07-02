@@ -1,6 +1,12 @@
 ---
 name: I_EQUICATEGORYTEXT
 description: Equicategorytext
+semantic_en: "equipment category text — multilingual descriptions for equipment maintenance category codes"
+semantic_vi: "Văn bản danh mục thiết bị — mô tả đa ngôn ngữ cho mã danh mục bảo trì thiết bị"
+keywords:
+  - danh mục thiết bị
+  - bảo trì
+  - mô tả
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

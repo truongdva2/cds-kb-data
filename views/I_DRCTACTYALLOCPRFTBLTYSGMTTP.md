@@ -1,6 +1,12 @@
 ---
 name: I_DRCTACTYALLOCPRFTBLTYSGMTTP
 description: Drctactyallocprftbltysgmttp
+semantic_en: "data extract for direct activity allocation to profitability segment transaction provider — enabling allocation analysis by customer and market segment"
+semantic_vi: "chiết xuất dữ liệu cho cấp phát hoạt động trực tiếp tới nhà cung cấp giao dịch phân khúc lợi nhuận — cho phép phân tích cấp phát theo khách hàng và phân khúc thị trường"
+keywords:
+  - phân khúc lợi nhuận
+  - cấp phát hoạt động
+  - khách hàng
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

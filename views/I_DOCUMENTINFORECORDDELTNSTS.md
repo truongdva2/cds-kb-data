@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDELTNSTS
 description: Documentinforecorddeltnsts
+semantic_en: "value help domain view for document deletion indicator — listing valid deletion status codes"
+semantic_vi: "khung nhìn miền trợ giúp giá trị cho chỉ báo xóa tài liệu — liệt kê các mã trạng thái xóa hợp lệ"
+keywords:
+  - chỉ báo xóa
+  - trạng thái xóa
+  - hỗ trợ giá trị
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCEMAILVH
 description: Euelectronicdocemailvh
+semantic_en: "electronic mail document value helper — provides email document options for EU electronic document processing"
+semantic_vi: "trợ giúp giá trị tài liệu email điện tử — cung cấp các tùy chọn tài liệu email để xử lý tài liệu điện tử EU"
+keywords:
+  - tài liệu email
+  - tài liệu điện tử
+  - EU
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMATLLASTSERIALNUMBER
 description: EQUIPMATLLASTSerial Number
+semantic_en: "equipment material last serial number — tracks the most recent serial number assigned to materials"
+semantic_vi: "số serial cuối cùng của vật tư thiết bị — theo dõi số serial mới nhất được gán cho các vật tư"
+keywords:
+  - serial number
+  - vật tư thiết bị
+  - số serial
 app_component: LO-MD-SN-2CL
 software_component: SAPSCORE
 release_state: released

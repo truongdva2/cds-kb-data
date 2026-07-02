@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTTEXTDEX
 description: Equipmenttextdex
+semantic_en: "equipment description data extract — provides extracted equipment names and text information for reporting and analysis"
+semantic_vi: "trích xuất dữ liệu mô tả thiết bị — cung cấp thông tin tên và văn bản thiết bị được trích xuất để báo cáo và phân tích"
+keywords:
+  - mô tả thiết bị
+  - trích xuất
+  - báo cáo
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

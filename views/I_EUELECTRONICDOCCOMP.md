@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCCOMP
 description: Euelectronicdoccomp
+semantic_en: "company identification for electronic documents — defines company identifiers and communication channels for EU e-documents"
+semantic_vi: "xác định công ty cho tài liệu điện tử — xác định các định danh công ty và kênh truyền thông cho e-documents EU"
+keywords:
+  - công ty
+  - định danh
+  - tài liệu điện tử
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

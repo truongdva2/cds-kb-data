@@ -1,6 +1,12 @@
 ---
 name: I_ENTERPRISEPROJECTROLE
 description: Enterpriseprojectrole
+semantic_en: "enterprise project role — project-level role definitions including type, category, and assignment tracking."
+semantic_vi: "Vai trò dự án cấp doanh nghiệp — định nghĩa vai trò dự án bao gồm loại và danh mục."
+keywords:
+  - vai trò
+  - dự án
+  - phân công
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

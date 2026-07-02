@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDOBJECTLINK
 description: Documentinforecordobjectlink
+semantic_en: "document object link projection — capturing SAP object associations to document parts with creation and change tracking"
+semantic_vi: "khung nhìn chiếu liên kết đối tượng tài liệu — ghi lại liên kết đối tượng SAP với các phần tài liệu có theo dõi tạo và thay đổi"
+keywords:
+  - liên kết đối tượng
+  - tài liệu
+  - liên kết SAP
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

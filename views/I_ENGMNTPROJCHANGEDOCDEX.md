@@ -1,6 +1,12 @@
 ---
 name: I_ENGMNTPROJCHANGEDOCDEX
 description: Engmntprojchangedocdex
+semantic_en: "change documents in engagement projects data extract — change document metadata including object, table, and change type."
+semantic_vi: "Trích xuất tài liệu thay đổi dự án hợp tác — siêu dữ liệu tài liệu thay đổi bao gồm loại thay đổi."
+keywords:
+  - tài liệu thay đổi
+  - dự án
+  - trích xuất
 app_component: CA-CPD-SS
 software_component: SAPSCORE
 release_state: released

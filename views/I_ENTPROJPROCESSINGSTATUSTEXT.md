@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJPROCESSINGSTATUSTEXT
 description: Entprojprocessingstatustext
+semantic_en: "processing status text for enterprise projects — multilingual descriptions of project processing states"
+semantic_vi: "Văn bản trạng thái xử lý cho dự án cấp công ty — mô tả đa ngôn ngữ về trạng thái xử lý dự án"
+keywords:
+  - trạng thái xử lý
+  - văn bản
+  - mô tả
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

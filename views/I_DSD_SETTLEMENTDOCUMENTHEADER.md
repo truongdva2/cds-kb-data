@@ -1,6 +1,12 @@
 ---
 name: I_DSD_SETTLEMENTDOCUMENTHEADER
 description: Dsd Settlementdocumentheader
+semantic_en: "settlement document header view — providing high-level settlement status and completion tracking for sales and distribution organization"
+semantic_vi: "khung nhìn tiêu đề tài liệu thanh toán — cung cấp trạng thái thanh toán cấp cao và theo dõi hoàn thành cho tổ chức bán hàng và phân phối"
+keywords:
+  - tiêu đề thanh toán
+  - trạng thái hoàn thành
+  - bán hàng phân phối
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

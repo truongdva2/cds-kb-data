@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLTP
 description: Entprojelmntdlvbrltp
+semantic_en: "deliverable of enterprise project element transient projection — shows deliverable quantities and types for project work breakdown structure elements"
+semantic_vi: "Hình chiếu thoáng qua giao dịch của phần tử dự án cấp công ty — hiển thị số lượng và loại giao dịch cho phần tử cấu trúc phân tích công việc"
+keywords:
+  - giao dịch
+  - phần tử dự án
+  - loại
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ES_EDOCVERIFACTUEXT
 description: ES Edocverifactuext
+semantic_en: "Spanish VeriFactu electronic documents — captures verified Spanish invoice data from electronic documents system"
+semantic_vi: "tài liệu điện tử VeriFactu Tây Ban Nha — ghi lại dữ liệu hóa đơn Tây Ban Nha đã xác minh từ hệ thống tài liệu điện tử"
+keywords:
+  - VeriFactu
+  - Tây Ban Nha
+  - hóa đơn điện tử
 app_component: CA-GTF-CSC-EDO-ES
 software_component: SAPSCORE
 release_state: released

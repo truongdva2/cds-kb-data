@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRLREVENUE
 description: Entprojelmntdlvbrlrevenue
+semantic_en: "deliverable of enterprise project element with revenue — captures deliverables linked to revenue amounts and currency for project elements"
+semantic_vi: "Giao dịch của phần tử dự án cấp công ty có doanh thu — ghi lại các giao dịch được liên kết với khoản doanh thu và tiền tệ cho các phần tử dự án"
+keywords:
+  - giao dịch
+  - doanh thu
+  - tiền tệ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

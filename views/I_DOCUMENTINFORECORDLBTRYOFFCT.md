@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDLBTRYOFFCT
 description: Documentinforecordlbtryoffct
+semantic_en: "text view providing localized laboratory and design office names for document structure links"
+semantic_vi: "khung nhìn văn bản cung cấp tên phòng thí nghiệm và phòng thiết kế được bản địa hóa cho các liên kết cấu trúc tài liệu"
+keywords:
+  - tên phòng
+  - phòng thí nghiệm
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

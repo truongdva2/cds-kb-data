@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCVERSIONFLAG
 description: EG Edocversionflag
+semantic_en: "Egypt eDocument active document version — version flags and active status for eDocument versions."
+semantic_vi: "Cờ phiên bản tài liệu hoạt động eDocument Ai Cập — cờ phiên bản và trạng thái hoạt động."
+keywords:
+  - phiên bản
+  - hoạt động
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

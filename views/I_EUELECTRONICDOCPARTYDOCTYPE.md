@@ -1,6 +1,12 @@
 ---
 name: I_EUELECTRONICDOCPARTYDOCTYPE
 description: Euelectronicdocpartydoctype
+semantic_en: "document type for business partner — maps partner-specific document type permissions and processing rules"
+semantic_vi: "loại tài liệu cho đối tác kinh doanh — ánh xạ quyền loại tài liệu và quy tắc xử lý theo đối tác"
+keywords:
+  - loại tài liệu
+  - đối tác
+  - quyền
 app_component: CA-GTF-CSC-EDO-PAP
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_INBDELIVERYHEADER
 description: Ewm Inbdeliveryheader
+semantic_en: "warehouse inbound delivery header — summarizes inbound shipments with carrier and supplier party information"
+semantic_vi: "tiêu đề giao hàng đến kho — tóm tắt các lô hàng đến với thông tin công ty vận chuyển và nhà cung cấp"
+keywords:
+  - giao hàng đến
+  - kho
+  - nhà cung cấp
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

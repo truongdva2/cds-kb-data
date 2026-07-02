@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTPRODNRSCETOOL
 description: Documentprodnrscetool
+semantic_en: "document production resource tool view — capturing resource tool linkages to document parts with authorization and status tracking"
+semantic_vi: "khung nhìn công cụ tài nguyên sản xuất tài liệu — ghi lại các liên kết công cụ tài nguyên với các phần tài liệu có ủy quyền và theo dõi trạng thái"
+keywords:
+  - tài nguyên sản xuất
+  - công cụ sản xuất
+  - tài liệu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

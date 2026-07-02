@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDOBJLINKT
 description: Documentinforecordobjlinkt
+semantic_en: "text view providing localized descriptions of SAP object types linked to documents"
+semantic_vi: "khung nhìn văn bản cung cấp mô tả được bản địa hóa của các loại đối tượng SAP được liên kết với tài liệu"
+keywords:
+  - mô tả đối tượng
+  - liên kết tài liệu
+  - bản địa hóa
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

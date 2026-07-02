@@ -1,6 +1,12 @@
 ---
 name: I_DRCTACTYALLOCATIONITEMTP_2
 description: Drctactyallocationitemtp 2
+semantic_en: "data extract for direct activity allocation item transaction provider — enabling allocation reporting by reference document and GL line items"
+semantic_vi: "chiết xuất dữ liệu cho mục cấp phát hoạt động trực tiếp nhà cung cấp giao dịch — cho phép báo cáo cấp phát theo tài liệu tham chiếu và các mục dòng GL"
+keywords:
+  - cấp phát hoạt động
+  - GL
+  - dữ liệu tài chính
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

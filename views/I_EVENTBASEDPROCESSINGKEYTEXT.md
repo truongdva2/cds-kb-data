@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDPROCESSINGKEYTEXT
 description: Eventbasedprocessingkeytext
+semantic_en: "event-based processing key text — maintains multilingual descriptions for event-triggered cost processing methods"
+semantic_vi: "văn bản khóa xử lý dựa trên sự kiện — duy trì mô tả đa ngôn ngữ cho các phương pháp xử lý chi phí được kích hoạt bằng sự kiện"
+keywords:
+  - phương pháp xử lý
+  - sự kiện
+  - ngôn ngữ
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

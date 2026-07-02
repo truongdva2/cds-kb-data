@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDSDCSNRSNTYPE
 description: Earmarkedfundsdcsnrsntype
+semantic_en: "earmarked funds decision reason type — domain values defining decision reason types for earmarked funds."
+semantic_vi: "Loại lý do quyết định quỹ riêng — các giá trị miền xác định loại lý do quyết định."
+keywords:
+  - quỹ riêng
+  - lý do quyết định
+  - loại
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

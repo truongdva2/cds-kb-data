@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCVERSION
 description: Documentinforecorddocversion
+semantic_en: "document version reference view — linking document type, number, and version combinations from document master data"
+semantic_vi: "khung nhìn tham chiếu phiên bản tài liệu — liên kết kết hợp loại tài liệu, số và phiên bản từ dữ liệu chính tài liệu"
+keywords:
+  - phiên bản tài liệu
+  - dữ liệu chính
+  - tham chiếu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

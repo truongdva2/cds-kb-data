@@ -1,6 +1,12 @@
 ---
 name: I_EVENTBASEDERRORSITUATION
 description: Eventbasederrorsituation
+semantic_en: "event-based product costing error situation — logs system errors and messages related to event-driven manufacturing cost accounting"
+semantic_vi: "tình huống lỗi định giá sản phẩm dựa trên sự kiện — ghi nhật ký các lỗi và thông báo hệ thống liên quan đến kế toán chi phí sản xuất hướng sự kiện"
+keywords:
+  - lỗi định giá
+  - sự kiện
+  - sản xuất
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

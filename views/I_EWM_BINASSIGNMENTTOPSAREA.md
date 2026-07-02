@@ -1,6 +1,12 @@
 ---
 name: I_EWM_BINASSIGNMENTTOPSAREA
 description: Ewm Binassignmenttopsarea
+semantic_en: "bin assignment to production supply area — maps warehouse storage bins to production supply areas for staged material handling"
+semantic_vi: "gán thùng chứa cho khu vực cung cấp sản xuất — ánh xạ các thùng chứa lưu trữ kho đến các khu vực cung cấp sản xuất để xử lý vật tư được giai đoạn"
+keywords:
+  - thùng chứa
+  - sản xuất
+  - cung cấp vật tư
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

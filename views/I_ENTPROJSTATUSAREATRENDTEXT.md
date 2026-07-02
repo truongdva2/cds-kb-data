@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJSTATUSAREATRENDTEXT
 description: Entprojstatusareatrendtext
+semantic_en: "status area trend description — multilingual names for project status trend values"
+semantic_vi: "Mô tả xu hướng khu vực trạng thái — tên đa ngôn ngữ dành cho giá trị xu hướng trạng thái dự án"
+keywords:
+  - xu hướng
+  - mô tả
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

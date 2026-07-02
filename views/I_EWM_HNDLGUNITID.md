@@ -1,6 +1,12 @@
 ---
 name: I_EWM_HNDLGUNITID
 description: Ewm Hndlgunitid
+semantic_en: "warehouse alternative handling unit identifier — manages alternative identification codes for material handling units"
+semantic_vi: "định danh đơn vị xử lý thay thế trong kho — quản lý các mã định danh thay thế cho các đơn vị xử lý vật tư"
+keywords:
+  - đơn vị xử lý
+  - định danh
+  - kho
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

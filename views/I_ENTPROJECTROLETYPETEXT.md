@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTROLETYPETEXT
 description: Entprojectroletypetext
+semantic_en: "role type text for enterprise projects — multilingual names for project team member role types"
+semantic_vi: "Văn bản loại vai trò cho dự án cấp công ty — tên đa ngôn ngữ dành cho loại vai trò thành viên nhóm dự án"
+keywords:
+  - loại vai trò
+  - thành viên nhóm
+  - tên
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

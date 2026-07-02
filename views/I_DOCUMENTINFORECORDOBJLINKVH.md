@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDOBJLINKVH
 description: Documentinforecordobjlinkvh
+semantic_en: "value help for document object links — enabling selection of document types and linked SAP object types"
+semantic_vi: "trợ giúp giá trị cho liên kết đối tượng tài liệu — cho phép chọn loại tài liệu và các loại đối tượng SAP được liên kết"
+keywords:
+  - liên kết đối tượng
+  - hỗ trợ giá trị
+  - loại đối tượng
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

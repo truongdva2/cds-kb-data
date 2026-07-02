@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTTEAMMEMBERTP_3
 description: Entprojectteammembertp 3
+semantic_en: "team member of enterprise project transient projection — shows project team member relationships with business partners and audit trail"
+semantic_vi: "Hình chiếu thoáng qua thành viên nhóm của dự án cấp công ty — hiển thị mối quan hệ thành viên nhóm dự án với đối tác kinh doanh"
+keywords:
+  - thành viên nhóm
+  - dự án
+  - đối tác
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

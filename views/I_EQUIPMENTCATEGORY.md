@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTCATEGORY
 description: Equipmentcategory
+semantic_en: "equipment category master — defines equipment classifications and organizational hierarchy for maintenance management"
+semantic_vi: "danh mục thiết bị chính — định nghĩa phân loại thiết bị và cấu trúc tổ chức cho quản lý bảo trì"
+keywords:
+  - danh mục thiết bị
+  - phân loại
+  - bảo trì
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

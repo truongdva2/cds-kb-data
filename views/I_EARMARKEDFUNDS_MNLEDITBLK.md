@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_MNLEDITBLK
 description: Earmarkedfunds Mnleditblk
+semantic_en: "earmarked funds manual editing block — control codes preventing manual modifications to earmarked funds."
+semantic_vi: "Khóa chỉnh sửa thủ công quỹ riêng — mã điều khiển ngăn chặn sửa đổi thủ công."
+keywords:
+  - khóa chỉnh sửa
+  - quỹ riêng
+  - thủ công
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

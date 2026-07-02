@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCITMCODE
 description: EG Edocitmcode
+semantic_en: "Egypt eDocument item code — item code mappings for individual materials in Egyptian documents."
+semantic_vi: "Mã dòng eDocument Ai Cập — ánh xạ mã dòng cho vật liệu riêng lẻ."
+keywords:
+  - mã dòng
+  - vật liệu
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJECTPROJECTOBJECTLINK
 description: Entprojectprojectobjectlink
+semantic_en: "object link of enterprise project — establishes typed references from projects or project elements to external business objects"
+semantic_vi: "Liên kết đối tượng của dự án cấp công ty — thiết lập các tham chiếu được nhập từ dự án hoặc phần tử dự án đến các đối tượng kinh doanh bên ngoài"
+keywords:
+  - liên kết đối tượng
+  - tham chiếu
+  - đối tượng kinh doanh
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

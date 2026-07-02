@@ -1,6 +1,12 @@
 ---
 name: I_EQUIPMENTLONGTEXTTP
 description: Equipmentlongtexttp
+semantic_en: "equipment long text with technical profile — maintains extended text descriptions for equipment in multiple languages"
+semantic_vi: "văn bản dài thiết bị với hồ sơ kỹ thuật — duy trì mô tả văn bản mở rộng cho thiết bị trong nhiều ngôn ngữ"
+keywords:
+  - mô tả thiết bị
+  - văn bản dài
+  - đa ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

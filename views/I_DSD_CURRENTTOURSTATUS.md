@@ -1,6 +1,12 @@
 ---
 name: I_DSD_CURRENTTOURSTATUS
 description: Dsd Currenttourstatus
+semantic_en: "current tour status snapshot view — capturing route delivery status with tour identification, shipments, and vehicle assignments"
+semantic_vi: "khung nhìn chụp nhanh trạng thái tuyến đường hiện tại — ghi lại trạng thái giao hàng tuyến đường với xác định tuyến, lô vận chuyển và gán xe"
+keywords:
+  - trạng thái tuyến
+  - giao hàng
+  - xe vận chuyển
 app_component: LE-DSD
 software_component: SAPSCORE
 release_state: released

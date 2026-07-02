@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTBLOCKFUNC_2
 description: Entprojelmntblockfunc 2
+semantic_en: "blocked function of enterprise project element — tracks individual function blocking status per project element via function UUID"
+semantic_vi: "Hàm bị khóa của phần tử dự án cấp công ty — theo dõi trạng thái khóa hàm riêng lẻ cho mỗi phần tử dự án"
+keywords:
+  - hàm bị khóa
+  - phần tử dự án
+  - trạng thái
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

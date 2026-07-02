@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTBLOCKFUNC_3
 description: Entprojelmntblockfunc 3
+semantic_en: "blocked functions by project element — aggregated view of which posting and time recording functions are blocked per project element"
+semantic_vi: "Các hàm bị khóa theo phần tử dự án — hình chiếu tổng hợp các hàm ghi nhập và ghi thời gian nào bị khóa cho mỗi phần tử dự án"
+keywords:
+  - hàm bị khóa
+  - phần tử dự án
+  - ghi thời gian
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

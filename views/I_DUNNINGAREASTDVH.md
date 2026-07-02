@@ -1,6 +1,12 @@
 ---
 name: I_DUNNINGAREASTDVH
 description: Dunningareastdvh
+semantic_en: "value help for dunning area — enabling user selection of valid dunning areas by company code"
+semantic_vi: "trợ giúp giá trị cho khu vực theo dõi thanh toán — cho phép người dùng chọn các khu vực theo dõi hợp lệ theo mã công ty"
+keywords:
+  - khu vực theo dõi
+  - hỗ trợ giá trị
+  - công ty
 app_component: FI-AR-AR-C-2CL
 software_component: SAPSCORE
 release_state: released

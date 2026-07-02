@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJBLKFUNCTIONCODE
 description: Entprojblkfunctioncode
+semantic_en: "blockable function for enterprise projects — domain value set defining which functions can be blocked at project level"
+semantic_vi: "Hàm khóa được cho phép trong dự án cấp công ty — tập giá trị miền xác định các hàm nào có thể bị khóa ở cấp dự án"
+keywords:
+  - hàm khóa
+  - chức năng
+  - dự án
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

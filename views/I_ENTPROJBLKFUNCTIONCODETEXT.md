@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJBLKFUNCTIONCODETEXT
 description: Entprojblkfunctioncodetext
+semantic_en: "blockable function code text — multilingual labels for blockable function domain values used in enterprise projects"
+semantic_vi: "Văn bản mã hàm khóa — các nhãn đa ngôn ngữ cho giá trị miền hàm khóa được sử dụng trong dự án cấp công ty"
+keywords:
+  - văn bản mã hàm
+  - hàm khóa
+  - nhãn
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

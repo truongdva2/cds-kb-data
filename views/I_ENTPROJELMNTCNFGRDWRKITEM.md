@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTCNFGRDWRKITEM
 description: Entprojelmntcnfgrdwrkitem
+semantic_en: "enterprise project configured work item — defines the set of work item types available for project elements"
+semantic_vi: "Mục công việc được cấu hình của dự án cấp công ty — xác định tập hợp các loại mục công việc có sẵn cho các phần tử dự án"
+keywords:
+  - mục công việc
+  - cấu hình
+  - loại
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

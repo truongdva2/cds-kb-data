@@ -1,6 +1,12 @@
 ---
 name: I_EARMARKEDFUNDS_DOCTYPE
 description: Earmarkedfunds Doctype
+semantic_en: "earmarked funds document type — mapping between document categories and document types."
+semantic_vi: "Loại tài liệu quỹ riêng — ánh xạ giữa loại tài liệu và loại tài liệu cụ thể."
+keywords:
+  - loại tài liệu
+  - ánh xạ
+  - quỹ riêng
 app_component: FI-FM
 software_component: SAPSCORE
 release_state: released

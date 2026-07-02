@@ -1,6 +1,12 @@
 ---
 name: I_ESTIMATEDCOSTCOSTINGRUNSTDVH
 description: Estimatedcostcostingrunstdvh
+semantic_en: "estimated cost costing run value helper — provides standardized list of costing runs with dates and versions"
+semantic_vi: "trợ giúp giá trị chạy định giá chi phí ước tính — cung cấp danh sách tiêu chuẩn các chạy định giá với ngày tháng và phiên bản"
+keywords:
+  - chi phí ước tính
+  - định giá
+  - chạy định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

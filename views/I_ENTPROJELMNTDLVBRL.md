@@ -1,6 +1,12 @@
 ---
 name: I_ENTPROJELMNTDLVBRL
 description: Entprojelmntdlvbrl
+semantic_en: "deliverable of enterprise project element — tracks deliverable items with type, quantity, and unit for project work breakdown structure elements"
+semantic_vi: "Giao dịch của phần tử dự án cấp công ty — theo dõi các mục giao dịch với loại, số lượng và đơn vị cho phần tử cấu trúc phân tích công việc"
+keywords:
+  - giao dịch
+  - phần tử dự án
+  - số lượng
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

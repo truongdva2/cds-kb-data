@@ -1,6 +1,12 @@
 ---
 name: I_DOCUMENTINFORECORDDOCSTATUS
 description: Documentinforecorddocstatus
+semantic_en: "document status reference view — mapping internal document status codes to document info record status types"
+semantic_vi: "khum nhìn tham chiếu trạng thái tài liệu — ánh xạ mã trạng thái tài liệu nội bộ tới các loại trạng thái bản ghi thông tin tài liệu"
+keywords:
+  - trạng thái tài liệu
+  - loại trạng thái
+  - tham chiếu
 app_component: CA-DMS
 software_component: SAPSCORE
 release_state: released

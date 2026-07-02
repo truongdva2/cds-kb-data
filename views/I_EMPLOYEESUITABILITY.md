@@ -1,6 +1,12 @@
 ---
 name: I_EMPLOYEESUITABILITY
 description: Employeesuitability
+semantic_en: "employee suitability — plant-specific employee suitability classification codes."
+semantic_vi: "Khả năng thích hợp nhân viên — mã phân loại khả năng thích hợp nhân viên theo nhà máy."
+keywords:
+  - nhân viên
+  - khả năng thích hợp
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

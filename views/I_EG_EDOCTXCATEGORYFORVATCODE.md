@@ -1,6 +1,12 @@
 ---
 name: I_EG_EDOCTXCATEGORYFORVATCODE
 description: EG Edoctxcategoryforvatcode
+semantic_en: "Egypt eDocument tax category for VAT code — tax category mappings for VAT tax codes."
+semantic_vi: "Loại thuế eDocument cho mã VAT Ai Cập — ánh xạ loại thuế cho mã thuế VAT."
+keywords:
+  - VAT
+  - loại thuế
+  - eDocument
 app_component: CA-GTF-CSC-EDO-EG
 software_component: SAPSCORE
 release_state: released
