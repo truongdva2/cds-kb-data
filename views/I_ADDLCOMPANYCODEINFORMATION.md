@@ -1,6 +1,12 @@
 ---
 name: I_ADDLCOMPANYCODEINFORMATION
 description: ADDLCompany CodeINFORMATION
+semantic_en: "additional company code parameters — stores company code parameter types and values for extended company code configuration"
+semantic_vi: "thông tin tham số bổ sung của công ty — lưu trữ các loại tham số công ty và giá trị tương ứng để cấu hình công ty mở rộng"
+keywords:
+  - tham số công ty
+  - cấu hình công ty
+  - thông tin bổ sung
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

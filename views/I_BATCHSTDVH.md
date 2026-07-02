@@ -1,6 +1,12 @@
 ---
 name: I_BATCHSTDVH
 description: Batchstdvh
+semantic_en: "batch information value help — value help list for batch master data with material and batch identifiers"
+semantic_vi: "trợ giúp giá trị thông tin lô — danh sách trợ giúp giá trị cho dữ liệu chính lô với định danh vật liệu và lô"
+keywords:
+  - trợ giúp giá trị lô
+  - danh sách lô
+  - vật liệu
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

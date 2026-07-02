@@ -1,6 +1,12 @@
 ---
 name: I_BANKADDRESSTP
 description: Bankaddresstp
+semantic_en: "bank address TP — bank address details with street, city, postal code, and correspondence language information"
+semantic_vi: "địa chỉ ngân hàng TP — chi tiết địa chỉ ngân hàng với thông tin đường phố, thành phố, mã bưu điện và ngôn ngữ giao tiếp"
+keywords:
+  - địa chỉ ngân hàng
+  - thông tin liên hệ
+  - mã bưu điện
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

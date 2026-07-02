@@ -1,6 +1,12 @@
 ---
 name: I_ADDRNONDELIVERABLEREASONVH
 description: Addrnondeliverablereasonvh
+semantic_en: "non-deliverable reason value help — lookup reference for address delivery failure reason codes"
+semantic_vi: "danh sách trợ giúp lý do không giao được — tham chiếu tra cứu cho mã lý do lỗi giao hàng"
+keywords:
+  - giao hàng
+  - lý do
+  - tra cứu
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

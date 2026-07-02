@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPLANRELATEDBILLGSTST
 description: Billingplanrelatedbillgstst
+semantic_en: "billing status for billing plan date text — language-specific descriptions of billing plan date statuses"
+semantic_vi: "nội dung trạng thái lập hóa đơn cho ngày kế hoạch — mô tả trạng thái ngày kế hoạch lập hóa đơn theo ngôn ngữ"
+keywords:
+  - kế hoạch lập hóa đơn
+  - trạng thái
+  - ngôn ngữ
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

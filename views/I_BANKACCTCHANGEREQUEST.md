@@ -1,6 +1,12 @@
 ---
 name: I_BANKACCTCHANGEREQUEST
 description: Bankacctchangerequest
+semantic_en: "bank account change request — change request records for bank account modifications with action text, status, and approval tracking"
+semantic_vi: "yêu cầu thay đổi tài khoản ngân hàng — bản ghi yêu cầu thay đổi cho sửa đổi tài khoản ngân hàng với văn bản hành động, trạng thái và theo dõi phê duyệt"
+keywords:
+  - thay đổi tài khoản
+  - yêu cầu thay đổi
+  - phê duyệt
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

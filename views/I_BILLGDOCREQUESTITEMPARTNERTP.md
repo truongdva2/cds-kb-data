@@ -1,6 +1,12 @@
 ---
 name: I_BILLGDOCREQUESTITEMPARTNERTP
 description: Billgdocrequestitempartnertp
+semantic_en: "billing request item partner transparent — partner functions and addresses for billing request line items."
+semantic_vi: "đối tác mục yêu cầu hóa đơn trong suốt — các chức năng đối tác và địa chỉ cho các mục dòng yêu cầu hóa đơn."
+keywords:
+  - đối tác
+  - yêu cầu hóa đơn
+  - chức năng
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

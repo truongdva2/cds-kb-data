@@ -1,6 +1,12 @@
 ---
 name: I_BANKPROFILE
 description: Bankprofile
+semantic_en: "bank profile — summary bank profile with credit rating and relationship statistics by country and bank"
+semantic_vi: "hồ sơ ngân hàng — hồ sơ ngân hàng tóm tắt với xếp hạng tín dụng và thống kê quan hệ theo quốc gia và ngân hàng"
+keywords:
+  - hồ sơ ngân hàng
+  - xếp hạng tín dụng
+  - thống kê
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

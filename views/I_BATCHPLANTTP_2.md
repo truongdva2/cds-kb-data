@@ -1,6 +1,12 @@
 ---
 name: I_BATCHPLANTTP_2
 description: Batchplanttp 2
+semantic_en: "plant-specific batch information — batch-level inventory classification by plant and valuation type"
+semantic_vi: "thông tin lô cụ thể nhà máy — phân loại kho cấp độ lô theo nhà máy và loại định giá"
+keywords:
+  - lô theo nhà máy
+  - phân loại kho
+  - định giá
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

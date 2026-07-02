@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSFAXNUMBER_2
 description: Addressfaxnumber 2
+semantic_en: "fax number details — fax numbers with country codes, extensions, validity periods and default flags"
+semantic_vi: "chi tiết số fax — các số fax với mã quốc gia, máy lẻ, kỳ hiệu lực và cờ mặc định"
+keywords:
+  - fax
+  - số fax
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

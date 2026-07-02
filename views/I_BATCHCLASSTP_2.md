@@ -1,6 +1,12 @@
 ---
 name: I_BATCHCLASSTP_2
 description: Batchclasstp 2
+semantic_en: "batch class assignment — classification assignments for batches by material, plant, and class type"
+semantic_vi: "chỉ định lớp lô — chỉ định phân loại cho lô theo vật liệu, nhà máy và loại lớp"
+keywords:
+  - phân loại lô
+  - chỉ định lớp
+  - vật liệu
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

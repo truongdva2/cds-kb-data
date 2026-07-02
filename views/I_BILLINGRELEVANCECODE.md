@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGRELEVANCECODE
 description: Billingrelevancecode
+semantic_en: "billing relevance code domain value — enumeration of codes indicating billing relevance for sales document items"
+semantic_vi: "giá trị miền mã liên quan lập hóa đơn — liệt kê mã chỉ ra tính liên quan của lập hóa đơn cho chi tiết tài liệu bán hàng"
+keywords:
+  - lập hóa đơn
+  - liên quan
+  - mã
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

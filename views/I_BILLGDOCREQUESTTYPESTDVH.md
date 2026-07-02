@@ -1,6 +1,12 @@
 ---
 name: I_BILLGDOCREQUESTTYPESTDVH
 description: Billgdocrequesttypestdvh
+semantic_en: "billing request type value help — selection list of billing document request type codes."
+semantic_vi: "trợ giúp tìm kiếm loại yêu cầu hóa đơn — danh sách tìm kiếm các mã loại yêu cầu tài liệu hóa đơn."
+keywords:
+  - loại yêu cầu
+  - hóa đơn
+  - danh sách tìm kiếm
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

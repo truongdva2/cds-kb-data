@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTPARTNER
 description: Billing DocumentUMENTPARTNER
+semantic_en: "billing document partner — document-level partner functions and VAT registration for invoices."
+semantic_vi: "đối tác tài liệu hóa đơn — chức năng đối tác cấp tài liệu và đăng ký VAT cho hóa đơn."
+keywords:
+  - đối tác
+  - hóa đơn
+  - VAT
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

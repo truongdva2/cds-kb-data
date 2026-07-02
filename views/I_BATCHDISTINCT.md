@@ -1,6 +1,12 @@
 ---
 name: I_BATCHDISTINCT
 description: Batchdistinct
+semantic_en: "batch information by batch key — comprehensive batch master data with shelf life, manufacture date, and goods receipt tracking"
+semantic_vi: "thông tin lô theo khóa lô — dữ liệu chính lô toàn diện với tuổi thọ kho, ngày sản xuất và theo dõi nhập kho"
+keywords:
+  - thông tin lô
+  - tuổi thọ kho
+  - ngày sản xuất
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

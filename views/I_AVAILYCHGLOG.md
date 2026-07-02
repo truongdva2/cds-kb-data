@@ -1,6 +1,12 @@
 ---
 name: I_AVAILYCHGLOG
 description: Availychglog
+semantic_en: "availability change log — transaction log of material-level availability changes across plants and MRP areas with change categories"
+semantic_vi: "nhật ký thay đổi tính khả dụng — nhật ký giao dịch thay đổi tính khả dụng ở cấp độ vật liệu trên các nhà máy và khu vực MRP với danh mục thay đổi"
+keywords:
+  - thay đổi tính khả dụng
+  - nhật ký MRP
+  - danh mục thay đổi
 app_component: CA-ATP-ACL-2CL
 software_component: SAPSCORE
 release_state: released

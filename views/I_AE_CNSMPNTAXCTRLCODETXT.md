@@ -1,6 +1,12 @@
 ---
 name: I_AE_CNSMPNTAXCTRLCODETXT
 description: AE Cnsmpntaxctrlcodetxt
+semantic_en: "consumption tax control code text — translated descriptions for UAE consumption tax control codes by language"
+semantic_vi: "mô tả mã kiểm soát thuế tiêu dùng — mô tả dịch cho mã kiểm soát thuế tiêu dùng UAE theo ngôn ngữ"
+keywords:
+  - thuế tiêu dùng
+  - mô tả
+  - UAE
 app_component: FI-LOC-LO-AE
 software_component: SAPSCORE
 release_state: released

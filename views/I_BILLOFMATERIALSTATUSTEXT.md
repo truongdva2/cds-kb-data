@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALSTATUSTEXT
 description: Bill of MaterialSTATUSTEXT
+semantic_en: "bill of material status text — language-specific descriptions of BOM status codes"
+semantic_vi: "nội dung trạng thái hóa chế độ — mô tả mã trạng thái hóa chế độ theo ngôn ngữ"
+keywords:
+  - hóa chế độ
+  - trạng thái
+  - ngôn ngữ
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

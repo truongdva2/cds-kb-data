@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGBLOCKREASON
 description: Billingblockreason
+semantic_en: "billing block reason — master data codes for reasons why invoicing is blocked."
+semantic_vi: "lý do chặn hóa đơn — dữ liệu mã chính cho những lý do tại sao hóa đơn bị chặn."
+keywords:
+  - chặn hóa đơn
+  - lý do
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_AVAILYCHGLOGCATTEXT
 description: Availychglogcattext
+semantic_en: "availability change log category text — descriptions of availability change categories in multiple languages"
+semantic_vi: "văn bản danh mục nhật ký thay đổi tính khả dụng — mô tả danh mục thay đổi tính khả dụng theo nhiều ngôn ngữ"
+keywords:
+  - mô tả danh mục
+  - phân loại thay đổi
+  - bản dịch
 app_component: CA-ATP-ACL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSPHONENUMBER_2
 description: Addressphonenumber 2
+semantic_en: "phone number details — phone numbers with country codes, extensions, SMS flags and default status by validity period"
+semantic_vi: "chi tiết số điện thoại — số điện thoại với mã quốc gia, máy lẻ, cờ SMS và trạng thái mặc định"
+keywords:
+  - điện thoại
+  - số điện thoại
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

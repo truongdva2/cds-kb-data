@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGPLANRULE
 description: Billingplanrule
+semantic_en: "billing plan rule domain value — enumeration of billing plan rules for determining billing methodology"
+semantic_vi: "giá trị miền quy tắc kế hoạch lập hóa đơn — liệt kê quy tắc kế hoạch lập hóa đơn để xác định phương pháp lập hóa đơn"
+keywords:
+  - kế hoạch lập hóa đơn
+  - quy tắc
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

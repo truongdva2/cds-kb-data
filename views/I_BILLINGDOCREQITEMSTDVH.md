@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCREQITEMSTDVH
 description: Billing DocumentREQITEMSTDVH
+semantic_en: "billing request item value help — selection list for billing request line items with type and organization."
+semantic_vi: "trợ giúp tìm kiếm mục yêu cầu hóa đơn — danh sách tìm kiếm cho mục dòng yêu cầu hóa đơn."
+keywords:
+  - mục yêu cầu
+  - hóa đơn
+  - danh sách tìm kiếm
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

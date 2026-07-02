@@ -1,6 +1,11 @@
 ---
 name: I_BILLGDOCREQUESTTYPETEXT
 description: Billgdocrequesttypetext
+semantic_en: "billing request type text — language-specific names for billing document request types."
+semantic_vi: "văn bản loại yêu cầu hóa đơn — tên đa ngôn ngữ cho loại yêu cầu tài liệu hóa đơn."
+keywords:
+  - loại yêu cầu
+  - mô tả
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BASICMATERIALVH
 description: Basicmaterialvh
+semantic_en: "basic material value help — value help list for basic material master data"
+semantic_vi: "trợ giúp giá trị vật liệu cơ bản — danh sách trợ giúp giá trị cho dữ liệu chính vật liệu cơ bản"
+keywords:
+  - vật liệu cơ bản
+  - trợ giúp giá trị
+  - danh sách
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

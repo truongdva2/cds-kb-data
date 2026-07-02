@@ -1,6 +1,12 @@
 ---
 name: I_AR_GROSSINCOMETAXCOEFFICIENT
 description: AR Grossincometaxcoefficient
+semantic_en: "gross income tax coefficient — region and employment tax distribution coefficients for gross income tax calculation by fiscal year"
+semantic_vi: "hệ số thuế thu nhập từ doanh thu — hệ số phân phối thuế lao động và vùng cho tính toán thuế thu nhập"
+keywords:
+  - thuế thu nhập
+  - hệ số
+  - năm tài chính
 app_component: FI-LOC-FI-AR-WHT
 software_component: SAPSCORE
 release_state: released

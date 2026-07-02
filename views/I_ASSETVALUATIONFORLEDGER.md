@@ -1,6 +1,12 @@
 ---
 name: I_ASSETVALUATIONFORLEDGER
 description: Assetvaluationforledger
+semantic_en: "fixed asset valuation for ledger — asset depreciation settings by ledger and depreciation area with key and period information"
+semantic_vi: "định giá tài sản cố định cho sổ cái — cài đặt khấu hao tài sản theo sổ cái và khu vực khấu hao với thông tin khóa và kỳ"
+keywords:
+  - khấu hao sổ cái
+  - định giá tài sản
+  - khu vực khấu hao
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

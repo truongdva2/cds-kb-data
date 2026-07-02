@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSCOMMUNICATIONMETHODVH
 description: Addresscommunicationmethodvh
+semantic_en: "communication method value help — lookup for available communication medium types for selection in address maintenance"
+semantic_vi: "danh sách trợ giúp phương thức liên lạc — tra cứu cho các loại phương thức liên lạc hợp lệ"
+keywords:
+  - phương thức liên lạc
+  - tra cứu
+  - giá trị
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

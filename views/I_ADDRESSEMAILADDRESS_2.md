@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSEMAILADDRESS_2
 description: Addressemailaddress 2
+semantic_en: "email address details — email addresses with validity periods, default flags and unsolicited contact markers"
+semantic_vi: "chi tiết địa chỉ email — các địa chỉ email với kỳ hiệu lực, cờ mặc định và đánh dấu liên lạc không được phép"
+keywords:
+  - email
+  - địa chỉ email
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

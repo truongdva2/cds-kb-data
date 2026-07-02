@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALITEMDEX_3
 description: Bill of MaterialITEMDEX 3
+semantic_en: "data extraction for BOM item — item-level bill of material data with versions and engineering change history"
+semantic_vi: "trích xuất dữ liệu chi tiết hóa chế độ — dữ liệu chi tiết hóa chế độ cấp chi tiết với phiên bản và lịch sử thay đổi kỹ thuật"
+keywords:
+  - hóa chế độ
+  - chi tiết
+  - dữ liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

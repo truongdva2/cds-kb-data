@@ -1,6 +1,12 @@
 ---
 name: I_BANKACCTREVEMAILTEMPLATE
 description: Bankacctrevemailtemplate
+semantic_en: "email template for bank account revision — email templates for bank account revisions with account and revision details"
+semantic_vi: "mẫu email cho bản sửa đổi tài khoản ngân hàng — mẫu email cho bản sửa đổi tài khoản ngân hàng với chi tiết tài khoản và bản sửa đổi"
+keywords:
+  - mẫu email
+  - bản sửa đổi tài khoản
+  - ngân hàng
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

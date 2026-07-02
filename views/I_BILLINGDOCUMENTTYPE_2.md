@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTYPE_2
 description: Billing DocumentUMENTTYPE 2
+semantic_en: "billing document type process configuration — process document type setup with text determination procedures"
+semantic_vi: "cấu hình quy trình loại hóa đơn — thiết lập loại tài liệu quy trình với quy trình xác định văn bản"
+keywords:
+  - loại hóa đơn
+  - quy trình
+  - cấu hình
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

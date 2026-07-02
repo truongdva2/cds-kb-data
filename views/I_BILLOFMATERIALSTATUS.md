@@ -1,6 +1,11 @@
 ---
 name: I_BILLOFMATERIALSTATUS
 description: Bill of MaterialSTATUS
+semantic_en: "bill of material status domain value — enumeration of BOM status codes for lifecycle management"
+semantic_vi: "giá trị miền trạng thái hóa chế độ — liệt kê mã trạng thái hóa chế độ để quản lý vòng đời"
+keywords:
+  - hóa chế độ
+  - trạng thái
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDRCURDFLTLANDLINEPHONENMBR
 description: Addrcurdfltlandlinephonenmbr
+semantic_en: "current default landline phone number — the active primary landline including international dialing and extension with validity dates"
+semantic_vi: "số điện thoại cố định mặc định hiện tại — số điện thoại cố định chính hoạt động bao gồm quốc tế và máy lẻ"
+keywords:
+  - điện thoại cố định
+  - số điện thoại
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

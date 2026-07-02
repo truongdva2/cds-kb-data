@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTTYPE
 description: Billing DocumentUMENTREQUESTTYPE
+semantic_en: "billing document request type configuration — defines document categories, item numbering, and text procedures for billing requests"
+semantic_vi: "cấu hình loại yêu cầu lập hóa đơn — định nghĩa danh mục tài liệu, đánh số dòng và quy trình văn bản"
+keywords:
+  - loại yêu cầu
+  - cấu hình
+  - đánh số dòng
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

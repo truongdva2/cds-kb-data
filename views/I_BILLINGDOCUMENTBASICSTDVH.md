@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTBASICSTDVH
 description: Billing DocumentUMENTBASICSTDVH
+semantic_en: "billing process document value help — selection list for billing documents by type and organization."
+semantic_vi: "trợ giúp tìm kiếm tài liệu quy trình hóa đơn — danh sách tìm kiếm hóa đơn theo loại và tổ chức."
+keywords:
+  - hóa đơn
+  - danh sách tìm kiếm
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

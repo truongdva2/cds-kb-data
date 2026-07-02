@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGBLOCKSTATUS
 description: Billingblockstatus
+semantic_en: "billing block status — domain values indicating whether an item is blocked from billing."
+semantic_vi: "trạng thái chặn hóa đơn — giá trị miền cho biết liệu một mục bị chặn hóa đơn hay không."
+keywords:
+  - chặn hóa đơn
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

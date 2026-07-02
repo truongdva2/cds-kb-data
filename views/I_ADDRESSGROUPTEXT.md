@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSGROUPTEXT
 description: Addressgrouptext
+semantic_en: "address group description — translated name and description for address group codes by language"
+semantic_vi: "mô tả nhóm địa chỉ — tên và mô tả dịch cho mã nhóm địa chỉ theo ngôn ngữ"
+keywords:
+  - nhóm địa chỉ
+  - mô tả
+  - danh mục
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

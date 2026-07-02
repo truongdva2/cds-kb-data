@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDUELISTITEM
 description: Billingduelistitem
+semantic_en: "billing due list item — outstanding billing records organized by document type, date, customer and delivery address"
+semantic_vi: "chi tiết danh sách hóa đơn phải thanh toán — bản ghi hóa đơn còn lại sắp xếp theo loại tài liệu, ngày tháng, khách hàng và địa chỉ giao hàng"
+keywords:
+  - hóa đơn phải thanh toán
+  - khách hàng
+  - danh sách
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

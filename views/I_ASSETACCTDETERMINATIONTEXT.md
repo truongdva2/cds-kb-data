@@ -1,6 +1,12 @@
 ---
 name: I_ASSETACCTDETERMINATIONTEXT
 description: Assetacctdeterminationtext
+semantic_en: "asset account determination text — translations and descriptions for asset account determination configurations"
+semantic_vi: "văn bản xác định tài khoản tài sản — bản dịch và mô tả cấu hình xác định tài khoản"
+keywords:
+  - mô tả tài khoản
+  - bản dịch tài sản
+  - cấu hình tài khoản
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

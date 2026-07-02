@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTYPEHIER
 description: Billing DocumentUMENTTYPEHIER
+semantic_en: "billing document type hierarchy — organizational structure of billing document types with validity dates and hierarchy identifiers"
+semantic_vi: "cấu trúc phân cấp loại hóa đơn — tổ chức cấu trúc loại hóa đơn với ngày hiệu lực và mã định danh phân cấp"
+keywords:
+  - loại hóa đơn
+  - phân cấp
+  - hiệu lực
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

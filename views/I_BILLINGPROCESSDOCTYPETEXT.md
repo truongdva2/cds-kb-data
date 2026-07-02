@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPROCESSDOCTYPETEXT
 description: Billingprocessdoctypetext
+semantic_en: "billing process document type text — language-specific names for billing process document types"
+semantic_vi: "nội dung loại tài liệu quy trình lập hóa đơn — tên loại tài liệu quy trình lập hóa đơn theo ngôn ngữ"
+keywords:
+  - quy trình lập hóa đơn
+  - loại tài liệu
+  - ngôn ngữ
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

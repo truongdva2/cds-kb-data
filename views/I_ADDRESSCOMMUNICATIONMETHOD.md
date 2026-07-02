@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSCOMMUNICATIONMETHOD
 description: Addresscommunicationmethod
+semantic_en: "communication method master — reference for valid communication medium types for address-based communications"
+semantic_vi: "danh mục phương thức liên lạc — tham chiếu cho các loại phương thức liên lạc hợp lệ dựa trên địa chỉ"
+keywords:
+  - phương thức liên lạc
+  - danh mục
+  - địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

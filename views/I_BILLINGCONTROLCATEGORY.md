@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGCONTROLCATEGORY
 description: Billingcontrolcategory
+semantic_en: "billing control category — classification codes for billing control categorization."
+semantic_vi: "phân loại kiểm soát hóa đơn — mã phân loại cho phân loại kiểm soát hóa đơn."
+keywords:
+  - kiểm soát hóa đơn
+  - phân loại
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

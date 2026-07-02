@@ -1,6 +1,11 @@
 ---
 name: I_BILLGDOCREQBILLGSTS
 description: Billgdocreqbillgsts
+semantic_en: "billing status codes — domain values for billing request document billing status."
+semantic_vi: "mã trạng thái hóa đơn — các giá trị miền cho trạng thái hóa đơn của yêu cầu tài liệu."
+keywords:
+  - trạng thái hóa đơn
+  - mã trạng thái
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

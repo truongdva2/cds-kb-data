@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALSUBITEMTP_2
 description: Bill of MaterialSUBITEMTP 2
+semantic_en: "bill of material sub item transaction package — component-level BOM transaction data with quantities and installation details"
+semantic_vi: "gói dữ liệu chi tiết phụ hóa chế độ — dữ liệu giao dịch chi tiết phụ hóa chế độ với số lượng và chi tiết lắp ráp"
+keywords:
+  - hóa chế độ
+  - chi tiết phụ
+  - gói giao dịch
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BANKCHANGEDOCUMENT
 description: Bankchangedocument
+semantic_en: "bank change document — change document log for bank master data with field-level change tracking including previous and new values"
+semantic_vi: "tài liệu thay đổi ngân hàng — nhật ký tài liệu thay đổi cho dữ liệu chính ngân hàng với theo dõi thay đổi cấp độ trường bao gồm giá trị cũ và mới"
+keywords:
+  - thay đổi ngân hàng
+  - dữ liệu chính
+  - nhật ký thay đổi
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

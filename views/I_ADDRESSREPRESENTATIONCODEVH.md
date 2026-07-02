@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSREPRESENTATIONCODEVH
 description: Addressrepresentationcodevh
+semantic_en: "address representation code value help — lookup for language script representation codes available in system"
+semantic_vi: "danh sách trợ giúp mã biểu diễn — tra cứu cho mã biểu diễn kịch tự có sẵn"
+keywords:
+  - biểu diễn
+  - tra cứu
+  - kịch tự
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

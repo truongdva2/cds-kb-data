@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCREQPRCGELMNT
 description: Billing DocumentREQPRCGELMNT
+semantic_en: "billing request pricing element — document-level pricing conditions and rates for billing requests."
+semantic_vi: "yếu tố định giá yêu cầu hóa đơn — điều kiện định giá cấp tài liệu và tỷ lệ cho yêu cầu hóa đơn."
+keywords:
+  - định giá
+  - yêu cầu hóa đơn
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

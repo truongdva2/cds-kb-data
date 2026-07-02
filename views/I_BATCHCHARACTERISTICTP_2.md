@@ -1,6 +1,12 @@
 ---
 name: I_BATCHCHARACTERISTICTP_2
 description: Batchcharacteristictp 2
+semantic_en: "batch characteristic TP — batch characteristics by material and plant with classification information"
+semantic_vi: "đặc tính lô TP — đặc tính lô theo vật liệu và nhà máy với thông tin phân loại"
+keywords:
+  - đặc tính lô
+  - vật liệu
+  - nhà máy
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

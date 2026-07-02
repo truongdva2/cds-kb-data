@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTITEM
 description: Billing DocumentUMENTREQUESTITEM
+semantic_en: "billing document request item — tracks item-level details including category, type, return processing, and material information"
+semantic_vi: "chi tiết từng dòng của yêu cầu lập hóa đơn — ghi nhận danh mục, loại, xử lý hàng trả lại và thông tin vật tư"
+keywords:
+  - yêu cầu lập hóa đơn
+  - chi tiết dòng
+  - xử lý hàng trả lại
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

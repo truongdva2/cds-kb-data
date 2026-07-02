@@ -1,6 +1,12 @@
 ---
 name: I_ALLWDORDTYPPERSLSORG
 description: Allwdordtypperslsorg
+semantic_en: "allowed order types per sales organization — mapping of valid sales document types for each sales organization and channel combination"
+semantic_vi: "loại đơn hàng được phép cho tổ chức bán hàng — ánh xạ các loại tài liệu bán hàng hợp lệ cho mỗi sự kết hợp tổ chức và kênh bán hàng"
+keywords:
+  - loại đơn hàng
+  - tổ chức bán hàng
+  - kênh phân phối
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

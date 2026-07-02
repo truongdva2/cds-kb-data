@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPROCESSDOCTYPESTDVH
 description: Billingprocessdoctypestdvh
+semantic_en: "billing process document type value help — standardized lookup for billing process document types"
+semantic_vi: "trợ giúp giá trị loại tài liệu quy trình lập hóa đơn — danh sách tra cứu tiêu chuẩn cho loại tài liệu quy trình"
+keywords:
+  - quy trình lập hóa đơn
+  - loại tài liệu
+  - tra cứu
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

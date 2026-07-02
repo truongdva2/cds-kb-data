@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTCATEGORYTEXT
 description: Billing DocumentUMENTCATEGORYTEXT
+semantic_en: "billing document category text — language descriptions for billing document category codes."
+semantic_vi: "văn bản danh mục tài liệu hóa đơn — mô tả ngôn ngữ cho mã danh mục tài liệu hóa đơn."
+keywords:
+  - danh mục hóa đơn
+  - mô tả
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

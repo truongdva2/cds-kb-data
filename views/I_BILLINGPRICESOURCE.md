@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPRICESOURCE
 description: Billingpricesource
+semantic_en: "billing price source domain value — enumeration of sources for billing prices"
+semantic_vi: "giá trị miền nguồn giá lập hóa đơn — liệt kê nguồn giá lập hóa đơn"
+keywords:
+  - lập hóa đơn
+  - giá
+  - nguồn
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

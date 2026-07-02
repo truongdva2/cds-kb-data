@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSDEFAULTREPRESENTATION
 description: Addressdefaultrepresentation
+semantic_en: "address default representation — master address data including names and representation codes in preferred language script"
+semantic_vi: "biểu diễn mặc định của địa chỉ — dữ liệu địa chỉ chính bao gồm tên và mã biểu diễn theo kịch tự ngôn ngữ ưu tiên"
+keywords:
+  - địa chỉ
+  - biểu diễn
+  - tên
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

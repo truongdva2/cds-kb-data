@@ -1,6 +1,12 @@
 ---
 name: I_ASSETREVALUATIONINDEX
 description: Assetrevaluationindex
+semantic_en: "asset revaluation index — master configuration for revaluation indices used to adjust asset values by period and country"
+semantic_vi: "chỉ số tái định giá tài sản — cấu hình chính cho chỉ số tái định giá để điều chỉnh giá trị tài sản theo kỳ và quốc gia"
+keywords:
+  - tái định giá
+  - chỉ số tài sản
+  - điều chỉnh giá trị
 app_component: FI-AA-AA-H-2CL
 software_component: SAPSCORE
 release_state: released

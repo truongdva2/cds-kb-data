@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPROFITCTRTOSLSORDITEM
 description: Billingprofitctrtoslsorditem
+semantic_en: "assignment of billing profit center to sales order item — maps profit centers to sales order items with organizational change tracking"
+semantic_vi: "gán trung tâm lợi nhuận lập hóa đơn cho chi tiết đơn hàng bán — ánh xạ trung tâm lợi nhuận cho chi tiết đơn hàng bán với theo dõi thay đổi tổ chức"
+keywords:
+  - trung tâm lợi nhuận
+  - lập hóa đơn
+  - đơn hàng bán
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

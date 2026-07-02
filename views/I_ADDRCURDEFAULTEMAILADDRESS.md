@@ -1,6 +1,12 @@
 ---
 name: I_ADDRCURDEFAULTEMAILADDRESS
 description: Addrcurdefaultemailaddress
+semantic_en: "current default email address — the active primary email address for a party with validity dates and sequence tracking"
+semantic_vi: "địa chỉ email mặc định hiện tại — địa chỉ email chính hoạt động với ngày hiệu lực và theo dõi thứ tự"
+keywords:
+  - email
+  - địa chỉ email
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

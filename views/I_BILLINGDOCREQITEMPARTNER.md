@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCREQITEMPARTNER
 description: Billing DocumentREQITEMPARTNER
+semantic_en: "billing request item partner — partner functions and addresses for billing request line items."
+semantic_vi: "đối tác mục yêu cầu hóa đơn — chức năng đối tác và địa chỉ cho các mục dòng yêu cầu hóa đơn."
+keywords:
+  - đối tác
+  - yêu cầu hóa đơn
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

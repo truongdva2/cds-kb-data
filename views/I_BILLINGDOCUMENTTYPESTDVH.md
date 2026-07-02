@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTTYPESTDVH
 description: Billing DocumentUMENTTYPESTDVH
+semantic_en: "billing document type value help — standardized lookup for billing document types"
+semantic_vi: "trợ giúp giá trị loại hóa đơn — danh sách tra cứu tiêu chuẩn cho loại hóa đơn"
+keywords:
+  - loại hóa đơn
+  - tra cứu
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

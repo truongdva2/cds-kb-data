@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSREPRESENTATIONTEXT
 description: Addressrepresentationtext
+semantic_en: "address representation description — translated descriptions for address language script representation codes by language"
+semantic_vi: "mô tả biểu diễn địa chỉ — mô tả dịch cho mã biểu diễn kịch tự theo ngôn ngữ"
+keywords:
+  - biểu diễn
+  - mô tả
+  - kịch tự
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

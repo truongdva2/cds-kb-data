@@ -1,6 +1,12 @@
 ---
 name: I_BANKSTATEMENTITEM
 description: Bankstatementitem
+semantic_en: "bank statement item — individual bank statement transaction items with amounts, currencies, and interpretation algorithm assignments"
+semantic_vi: "mục sao kê ngân hàng — mục giao dịch sao kê ngân hàng riêng lẻ với số tiền, tiền tệ và chỉ định thuật toán giải thích"
+keywords:
+  - mục giao dịch
+  - sao kê ngân hàng
+  - giải thích
 app_component: FI-FIO-AR-2CL
 software_component: SAPSCORE
 release_state: released

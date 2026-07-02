@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSURI
 description: Addressuri
+semantic_en: "URI address details — web addresses and URIs with type classification and default flags"
+semantic_vi: "chi tiết URI địa chỉ — các địa chỉ web và URI với phân loại loại và cờ mặc định"
+keywords:
+  - URI
+  - web
+  - địa chỉ web
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BANKGROUPPROFILE
 description: Bankgroupprofile
+semantic_en: "bank group profile — summary profile of bank groups with account and company code counts"
+semantic_vi: "hồ sơ nhóm ngân hàng — hồ sơ tóm tắt nhóm ngân hàng với số tài khoản và số mã công ty"
+keywords:
+  - nhóm ngân hàng
+  - hồ sơ
+  - thống kê tài khoản
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABLECAPACITYINTERVAL
 description: Availablecapacityinterval
+semantic_en: "available capacity interval — capacity planning intervals with shifts, work day rules, and utilization percentages by validity period"
+semantic_vi: "khoảng thời gian công suất khả dụng — khoảng thời gian lập kế hoạch công suất với ca làm việc, quy tắc ngày làm việc và tỷ lệ phần trăm sử dụng theo kỳ hiệu lực"
+keywords:
+  - công suất khả dụng
+  - lập kế hoạch công suất
+  - ca làm việc
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

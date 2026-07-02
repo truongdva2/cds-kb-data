@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALITEMBASIC
 description: Bill of MaterialITEMBASIC
+semantic_en: "bill of material item details — item-level BOM records with versions, validity periods, and engineering change tracking"
+semantic_vi: "chi tiết chi tiết hóa chế độ — bản ghi hóa chế độ cấp chi tiết với phiên bản, khoảng thời gian hiệu lực và theo dõi thay đổi kỹ thuật"
+keywords:
+  - hóa chế độ
+  - chi tiết
+  - phiên bản
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

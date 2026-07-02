@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSMANAGEMENTURITYPEVH
 description: Addressmanagementuritypevh
+semantic_en: "address management URI type value help — lookup for available URI type codes for web address classification"
+semantic_vi: "danh sách trợ giúp loại URI quản lý — tra cứu cho mã loại URI hợp lệ"
+keywords:
+  - URI
+  - tra cứu
+  - giá trị
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

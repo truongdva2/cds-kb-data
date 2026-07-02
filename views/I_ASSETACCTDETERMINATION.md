@@ -1,6 +1,12 @@
 ---
 name: I_ASSETACCTDETERMINATION
 description: Assetacctdetermination
+semantic_en: "asset account determination — master configuration for determining accounting treatment of fixed assets"
+semantic_vi: "xác định tài khoản tài sản — cấu hình chính cho xử lý kế toán của tài sản cố định"
+keywords:
+  - tài khoản tài sản
+  - xác định kế toán
+  - tài sản cố định
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

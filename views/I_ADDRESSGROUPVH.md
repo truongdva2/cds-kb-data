@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSGROUPVH
 description: Addressgroupvh
+semantic_en: "address group value help — lookup reference for available address group codes for selection"
+semantic_vi: "danh sách trợ giúp nhóm địa chỉ — tham chiếu tra cứu cho mã nhóm địa chỉ hợp lệ"
+keywords:
+  - nhóm địa chỉ
+  - tra cứu
+  - giá trị
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

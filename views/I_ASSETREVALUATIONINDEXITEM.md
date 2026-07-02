@@ -1,6 +1,12 @@
 ---
 name: I_ASSETREVALUATIONINDEXITEM
 description: Assetrevaluationindexitem
+semantic_en: "asset revaluation index item — individual revaluation index values valid for specific date ranges"
+semantic_vi: "mục chỉ số tái định giá tài sản — giá trị chỉ số tái định giá riêng lẻ có hiệu lực cho phạm vi ngày cụ thể"
+keywords:
+  - giá trị tái định giá
+  - kỳ hiệu lực
+  - chỉ số mục
 app_component: FI-AA-AA-H-2CL
 software_component: SAPSCORE
 release_state: released

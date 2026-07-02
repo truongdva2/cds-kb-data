@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSGROUP
 description: Addressgroup
+semantic_en: "address group master — reference for address grouping codes used for classification and organization"
+semantic_vi: "danh mục nhóm địa chỉ — tham chiếu cho mã nhóm địa chỉ dùng phân loại và tổ chức"
+keywords:
+  - nhóm địa chỉ
+  - danh mục
+  - phân loại
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

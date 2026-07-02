@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTYPETEXT
 description: Billing DocumentUMENTTYPETEXT
+semantic_en: "billing document type text — language-specific names and descriptions for billing document types"
+semantic_vi: "nội dung loại hóa đơn — tên và mô tả loại hóa đơn theo ngôn ngữ"
+keywords:
+  - loại hóa đơn
+  - ngôn ngữ
+  - mô tả
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALSUBITEMSBASIC
 description: Bill of MaterialSUBITEMSBASIC
+semantic_en: "bill of material sub items details — component-level BOM data including quantities, units, and installation points"
+semantic_vi: "chi tiết chi tiết phụ hóa chế độ — dữ liệu chi tiết hóa chế độ cấp thành phần bao gồm số lượng, đơn vị và điểm lắp ráp"
+keywords:
+  - hóa chế độ
+  - chi tiết phụ
+  - thành phần
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

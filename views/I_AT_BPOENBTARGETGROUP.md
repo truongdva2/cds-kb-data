@@ -1,6 +1,12 @@
 ---
 name: I_AT_BPOENBTARGETGROUP
 description: AT Bpoenbtargetgroup
+semantic_en: "target group according to OeNB — Austrian central bank classification of business partner customer segments"
+semantic_vi: "nhóm đối tượng theo OeNB — phân loại ngân hàng trung ương Áo về phân khúc khách hàng đối tác kinh doanh"
+keywords:
+  - phân loại OeNB
+  - nhóm đối tượng
+  - Áo
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

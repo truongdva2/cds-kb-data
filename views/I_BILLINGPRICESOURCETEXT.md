@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPRICESOURCETEXT
 description: Billingpricesourcetext
+semantic_en: "billing price source text — language-specific descriptions of billing price sources"
+semantic_vi: "nội dung nguồn giá lập hóa đơn — mô tả nguồn giá lập hóa đơn theo ngôn ngữ"
+keywords:
+  - lập hóa đơn
+  - giá
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

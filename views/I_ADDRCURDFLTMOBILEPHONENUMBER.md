@@ -1,6 +1,12 @@
 ---
 name: I_ADDRCURDFLTMOBILEPHONENUMBER
 description: Addrcurdfltmobilephonenumber
+semantic_en: "current default mobile phone number — the active primary mobile including international format with validity dates"
+semantic_vi: "số điện thoại di động mặc định hiện tại — số di động chính hoạt động bao gồm định dạng quốc tế"
+keywords:
+  - điện thoại di động
+  - số di động
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

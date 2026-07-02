@@ -1,6 +1,12 @@
 ---
 name: I_ADDRDELIVERYSERVICETYPETEXT
 description: Addrdeliveryservicetypetext
+semantic_en: "delivery service type description — text labels for various delivery service methods in address management"
+semantic_vi: "mô tả loại dịch vụ giao hàng — nhãn văn bản cho các loại dịch vụ giao hàng trong quản lý địa chỉ"
+keywords:
+  - dịch vụ giao hàng
+  - mô tả
+  - địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

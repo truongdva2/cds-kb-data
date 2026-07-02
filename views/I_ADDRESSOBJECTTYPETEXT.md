@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSOBJECTTYPETEXT
 description: Addressobjecttypetext
+semantic_en: "address object type text — translated names and descriptions for address object type codes by language"
+semantic_vi: "mô tả loại đối tượng địa chỉ — tên và mô tả dịch cho mã loại đối tượng theo ngôn ngữ"
+keywords:
+  - loại đối tượng
+  - mô tả
+  - địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

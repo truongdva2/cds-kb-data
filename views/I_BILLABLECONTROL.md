@@ -1,6 +1,11 @@
 ---
 name: I_BILLABLECONTROL
 description: Billablecontrol
+semantic_en: "billable control domain — code representing billing control classification."
+semantic_vi: "miền kiểm soát hóa đơn — mã phân loại kiểm soát hóa đơn."
+keywords:
+  - kiểm soát hóa đơn
+  - phân loại
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

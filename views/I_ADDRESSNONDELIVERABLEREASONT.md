@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSNONDELIVERABLEREASONT
 description: Addressnondeliverablereasont
+semantic_en: "non-deliverable reason description — translated text and descriptions for address delivery failure reasons by language"
+semantic_vi: "mô tả lý do không giao được — văn bản và mô tả dịch cho lý do lỗi giao hàng theo ngôn ngữ"
+keywords:
+  - giao hàng
+  - lý do
+  - mô tả
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

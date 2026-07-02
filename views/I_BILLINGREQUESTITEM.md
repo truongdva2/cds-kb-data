@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGREQUESTITEM
 description: Billingrequestitem
+semantic_en: "billing request line for service transaction — tracks billing requests for service documents with settlement dates, amounts, and status"
+semantic_vi: "dòng yêu cầu lập hóa đơn cho giao dịch dịch vụ — theo dõi yêu cầu lập hóa đơn cho tài liệu dịch vụ với ngày thanh toán, số tiền và trạng thái"
+keywords:
+  - yêu cầu lập hóa đơn
+  - dịch vụ
+  - thanh toán
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

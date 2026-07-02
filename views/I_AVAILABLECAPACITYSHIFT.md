@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABLECAPACITYSHIFT
 description: Availablecapacityshift
+semantic_en: "available capacity shift — shift-based capacity planning by work day and shift definition with duration and utilization metrics"
+semantic_vi: "ca làm việc công suất khả dụng — lập kế hoạch công suất dựa trên ca làm việc theo ngày làm việc với định nghĩa ca và các chỉ số thời gian làm việc"
+keywords:
+  - ca làm việc
+  - công suất
+  - lập kế hoạch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

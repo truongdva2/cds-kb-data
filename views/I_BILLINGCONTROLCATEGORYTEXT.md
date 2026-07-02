@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGCONTROLCATEGORYTEXT
 description: Billingcontrolcategorytext
+semantic_en: "billing control category text — language-specific category names and descriptions."
+semantic_vi: "văn bản phân loại kiểm soát hóa đơn — tên danh mục đa ngôn ngữ và mô tả."
+keywords:
+  - phân loại kiểm soát
+  - mô tả
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

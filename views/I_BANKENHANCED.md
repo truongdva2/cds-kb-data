@@ -1,6 +1,12 @@
 ---
 name: I_BANKENHANCED
 description: Bankenhanced
+semantic_en: "bank enhanced — enhanced bank master data with detailed names, branches, addresses, and network classifications"
+semantic_vi: "ngân hàng nâng cao — dữ liệu chính ngân hàng nâng cao với tên chi tiết, chi nhánh, địa chỉ và phân loại mạng"
+keywords:
+  - dữ liệu ngân hàng
+  - chi nhánh
+  - thông tin chi tiết
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

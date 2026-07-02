@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSMANAGEMENTURITYPE
 description: Addressmanagementuritype
+semantic_en: "address management URI type — codes for different URI and web address types in address data"
+semantic_vi: "loại URI quản lý địa chỉ — mã cho các loại URI và địa chỉ web khác nhau"
+keywords:
+  - URI
+  - loại
+  - quản lý
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESS_2
 description: Address 2
+semantic_en: "address master data — comprehensive address information including names, organization details and search terms"
+semantic_vi: "dữ liệu chính địa chỉ — thông tin địa chỉ toàn diện bao gồm tên, chi tiết tổ chức và điều khoản tìm kiếm"
+keywords:
+  - địa chỉ
+  - danh mục
+  - thông tin
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

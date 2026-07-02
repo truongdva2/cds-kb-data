@@ -1,6 +1,12 @@
 ---
 name: I_BATCHTEXTTP_2
 description: Batchtexttp 2
+semantic_en: "batch text TP — batch descriptions in multiple languages for multilingual batch identification"
+semantic_vi: "văn bản lô TP — mô tả lô theo nhiều ngôn ngữ cho xác định lô đa ngôn ngữ"
+keywords:
+  - mô tả lô
+  - bản dịch
+  - ngôn ngữ
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

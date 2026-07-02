@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSMANAGEMENTURITYPETEXT
 description: Addressmanagementuritypetext
+semantic_en: "address management URI type text — translated descriptions for URI type codes by language"
+semantic_vi: "mô tả loại URI quản lý địa chỉ — mô tả dịch cho mã loại URI theo ngôn ngữ"
+keywords:
+  - URI
+  - loại
+  - mô tả
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

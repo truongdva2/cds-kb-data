@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMBASIC
 description: Billing DocumentUMENTITEMBASIC
+semantic_en: "billing document item basic — invoice line items with product, category, and creation audit trail."
+semantic_vi: "mục tài liệu hóa đơn cơ bản — các mục dòng hóa đơn với sản phẩm, danh mục và dấu vết kiểm toán tạo."
+keywords:
+  - mục hóa đơn
+  - sản phẩm
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

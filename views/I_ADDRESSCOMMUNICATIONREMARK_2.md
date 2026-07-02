@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSCOMMUNICATIONREMARK_2
 description: Addresscommunicationremark 2
+semantic_en: "address communication remarks — notes and remarks associated with communication data by language and medium type"
+semantic_vi: "ghi chú liên lạc địa chỉ — ghi chú liên quan đến dữ liệu liên lạc theo ngôn ngữ và loại phương thức"
+keywords:
+  - ghi chú
+  - liên lạc
+  - địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

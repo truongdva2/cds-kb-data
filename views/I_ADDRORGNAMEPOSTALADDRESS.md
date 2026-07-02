@@ -1,6 +1,12 @@
 ---
 name: I_ADDRORGNAMEPOSTALADDRESS
 description: Addrorgnamepostaladdress
+semantic_en: "postal address details — street and PO box address data with non-deliverable reason codes and postal codes"
+semantic_vi: "chi tiết địa chỉ bưu chính — dữ liệu địa chỉ đường phố và hộp thư với mã lý do không giao được"
+keywords:
+  - địa chỉ
+  - bưu chính
+  - mã bưu chính
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

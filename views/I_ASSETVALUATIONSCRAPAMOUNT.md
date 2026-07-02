@@ -1,6 +1,12 @@
 ---
 name: I_ASSETVALUATIONSCRAPAMOUNT
 description: Assetvaluationscrapamount
+semantic_en: "fixed asset valuation scrap values — scrap value amounts and percentages by ledger and currency"
+semantic_vi: "giá trị phế liệu định giá tài sản cố định — số tiền và tỷ lệ phần trăm giá trị phế liệu theo sổ cái và tiền tệ"
+keywords:
+  - giá trị phế liệu
+  - giá trị thanh lý
+  - định giá tài sản
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

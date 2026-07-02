@@ -1,6 +1,12 @@
 ---
 name: I_ARDISPUTECASETP
 description: Ardisputecasetp
+semantic_en: "accounts receivable dispute case transactional posting — transactional view of dispute cases including amounts and status by currency"
+semantic_vi: "bút toán ghi chép giao dịch tranh chấp công nợ — dạng xem giao dịch của các trường hợp tranh chấp bao gồm số tiền và trạng thái"
+keywords:
+  - tranh chấp
+  - công nợ
+  - giao dịch
 app_component: FIN-FIO-CCD-COL-2CL
 software_component: SAPSCORE
 release_state: released

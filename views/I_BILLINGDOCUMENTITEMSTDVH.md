@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMSTDVH
 description: Billing DocumentUMENTITEMSTDVH
+semantic_en: "billing document item value help — selection list for invoice line items with document and type context."
+semantic_vi: "trợ giúp tìm kiếm mục tài liệu hóa đơn — danh sách tìm kiếm cho các mục dòng hóa đơn."
+keywords:
+  - mục hóa đơn
+  - danh sách tìm kiếm
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

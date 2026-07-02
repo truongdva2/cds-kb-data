@@ -1,6 +1,12 @@
 ---
 name: I_APISFORCLOUDDEVELOPMENT
 description: Apisforclouddevelopment
+semantic_en: "cloud development APIs — SAP APIs released for use in cloud development environments with release state and decommissioning dates"
+semantic_vi: "API phát triển đám mây — API SAP được phát hành để sử dụng trong môi trường phát triển đám mây"
+keywords:
+  - API
+  - phát triển
+  - đám mây
 app_component: BC-SRV-APS-EXT-REL
 software_component: SAP_BASIS
 release_state: released

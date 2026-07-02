@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALITEMCATEGORY
 description: Bill of MaterialITEMCATEGORY
+semantic_en: "item category description — categorizes bill of material items with indicator for sub-item support"
+semantic_vi: "mô tả danh mục chi tiết — phân loại chi tiết hóa chế độ với chỉ báo hỗ trợ chi tiết phụ"
+keywords:
+  - hóa chế độ
+  - danh mục chi tiết
+  - phân loại
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

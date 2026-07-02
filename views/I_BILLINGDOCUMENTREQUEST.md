@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTREQUEST
 description: Billing DocumentUMENTREQUEST
+semantic_en: "billing document request — billing request header with request type, organization and proposal data."
+semantic_vi: "yêu cầu tài liệu hóa đơn — tiêu đề yêu cầu hóa đơn với loại yêu cầu, tổ chức và dữ liệu đề xuất."
+keywords:
+  - yêu cầu hóa đơn
+  - tổ chức
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

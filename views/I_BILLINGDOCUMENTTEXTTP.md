@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTEXTTP
 description: Billing DocumentUMENTTEXTTP
+semantic_en: "billing document text transaction package — long text content for billing documents in multiple languages"
+semantic_vi: "gói dữ liệu văn bản hóa đơn — nội dung văn bản dài cho hóa đơn đa ngôn ngữ"
+keywords:
+  - hóa đơn
+  - văn bản dài
+  - đa ngôn ngữ
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

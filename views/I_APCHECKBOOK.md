@@ -1,6 +1,12 @@
 ---
 name: I_APCHECKBOOK
 description: Apcheckbook
+semantic_en: "cheque book master — check/cheque details including house bank, account, cheque ranges and payment method configuration"
+semantic_vi: "danh mục sổ séc — chi tiết séc bao gồm ngân hàng nhà, tài khoản, dãy séc và cấu hình phương thức thanh toán"
+keywords:
+  - séc
+  - sổ séc
+  - thanh toán
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released

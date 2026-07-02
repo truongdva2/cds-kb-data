@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTTP
 description: Billing DocumentUMENTREQUESTTP
+semantic_en: "billing document request transaction package — master request data including type, proposed billing document, and document dates"
+semantic_vi: "gói dữ liệu yêu cầu lập hóa đơn — dữ liệu yêu cầu chính bao gồm loại, hóa đơn đề xuất và ngày tháng tài liệu"
+keywords:
+  - yêu cầu lập hóa đơn
+  - gói giao dịch
+  - ngày tháng
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

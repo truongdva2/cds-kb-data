@@ -1,6 +1,12 @@
 ---
 name: I_BILLGDOCREQUESTITEMTEXTTP
 description: Billgdocrequestitemtexttp
+semantic_en: "billing request item text transparent — long text fields for billing request items in multiple languages."
+semantic_vi: "văn bản mục yêu cầu hóa đơn trong suốt — các trường văn bản dài cho mục yêu cầu hóa đơn đa ngôn ngữ."
+keywords:
+  - văn bản dài
+  - yêu cầu hóa đơn
+  - mục
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

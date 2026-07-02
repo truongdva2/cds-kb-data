@@ -1,6 +1,12 @@
 ---
 name: I_BILLABLECONTROLTEXT
 description: Billablecontroltext
+semantic_en: "billable control text translation — language-specific descriptions for billable control codes."
+semantic_vi: "bản dịch văn bản kiểm soát hóa đơn — mô tả đa ngôn ngữ cho các mã kiểm soát hóa đơn."
+keywords:
+  - kiểm soát hóa đơn
+  - mô tả
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

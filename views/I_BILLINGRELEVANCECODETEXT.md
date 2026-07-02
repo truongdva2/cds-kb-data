@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGRELEVANCECODETEXT
 description: Billingrelevancecodetext
+semantic_en: "billing relevance code text — language-specific descriptions of billing relevance codes"
+semantic_vi: "nội dung mã liên quan lập hóa đơn — mô tả mã liên quan lập hóa đơn theo ngôn ngữ"
+keywords:
+  - lập hóa đơn
+  - liên quan
+  - ngôn ngữ
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

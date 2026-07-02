@@ -1,6 +1,12 @@
 ---
 name: I_ASSETTRANSACTIONTYPE
 description: Assettransactiontype
+semantic_en: "asset transaction type — configuration for asset transaction types including depreciation methods, retirement revenue requirements"
+semantic_vi: "loại giao dịch tài sản — cấu hình loại giao dịch tài sản bao gồm phương pháp khấu hao, yêu cầu doanh thu thanh lý"
+keywords:
+  - loại giao dịch
+  - khấu hao tài sản
+  - thanh lý
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSPERSONNAME
 description: Addresspersonname
+semantic_en: "person name details — comprehensive person name data including titles, prefixes, middle names and nicknames"
+semantic_vi: "chi tiết tên người — dữ liệu tên người toàn diện bao gồm danh xưng, tiền tố, tên đệm và biệt danh"
+keywords:
+  - tên người
+  - địa chỉ
+  - tên
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

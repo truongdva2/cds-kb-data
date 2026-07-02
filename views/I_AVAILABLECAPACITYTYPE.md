@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABLECAPACITYTYPE
 description: Availablecapacitytype
+semantic_en: "available capacity type code — classification codes for types of available enterprise resource capacity"
+semantic_vi: "mã loại công suất khả dụng — mã phân loại cho các loại công suất tài nguyên doanh nghiệp khả dụng"
+keywords:
+  - loại công suất
+  - mã phân loại
+  - tài nguyên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

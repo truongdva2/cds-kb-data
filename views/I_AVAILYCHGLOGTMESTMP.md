@@ -1,6 +1,12 @@
 ---
 name: I_AVAILYCHGLOGTMESTMP
 description: Availychglogtmestmp
+semantic_en: "availability change log time stamp — date-time stamps for availability change log entries by UUID"
+semantic_vi: "dấu thời gian nhật ký thay đổi tính khả dụng — dấu ngày giờ cho mục nhập nhật ký thay đổi tính khả dụng theo UUID"
+keywords:
+  - dấu thời gian
+  - nhật ký thay đổi
+  - bản ghi
 app_component: CA-ATP-ACL-2CL
 software_component: SAPSCORE
 release_state: released

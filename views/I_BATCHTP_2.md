@@ -1,6 +1,12 @@
 ---
 name: I_BATCHTP_2
 description: Batchtp 2
+semantic_en: "batch master data — material identification, shelf life, manufacture and origin details."
+semantic_vi: "dữ liệu tổng hợp Lô hàng — xác định vật liệu, hạn sử dụng, ngày sản xuất và thông tin xuất xứ."
+keywords:
+  - lô hàng
+  - ngày sản xuất
+  - hạn sử dụng
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

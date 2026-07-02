@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSDELIVERYSERVICETYPE
 description: Addressdeliveryservicetype
+semantic_en: "delivery service type master — code and name reference for delivery service methods"
+semantic_vi: "danh mục loại dịch vụ giao hàng — tham chiếu mã và tên cho các loại dịch vụ giao hàng"
+keywords:
+  - dịch vụ giao hàng
+  - danh mục
+  - mã
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

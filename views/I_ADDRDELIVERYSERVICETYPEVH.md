@@ -1,6 +1,12 @@
 ---
 name: I_ADDRDELIVERYSERVICETYPEVH
 description: Addrdeliveryservicetypevh
+semantic_en: "delivery service types value help — lookup reference for available delivery service code and name pairs"
+semantic_vi: "danh sách trợ giúp loại dịch vụ giao hàng — tham chiếu tra cứu cho các cặp mã và tên dịch vụ giao hàng"
+keywords:
+  - dịch vụ giao hàng
+  - tra cứu
+  - giá trị
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

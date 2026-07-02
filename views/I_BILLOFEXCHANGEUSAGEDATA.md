@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFEXCHANGEUSAGEDATA
 description: Billofexchangeusagedata
+semantic_en: "bill of exchange usage data — financial instrument usage tracking with drawee information and acceptance status"
+semantic_vi: "dữ liệu sử dụng tờ phiếu — theo dõi sử dụng công cụ tài chính với thông tin người được phát hành và trạng thái chấp nhận"
+keywords:
+  - tờ phiếu
+  - sử dụng
+  - thanh toán
 app_component: FI-LOC-BOE
 software_component: SAPSCORE
 release_state: released

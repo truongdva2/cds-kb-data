@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABILITYCTRLPROFILETEXT
 description: Availabilityctrlprofiletext
+semantic_en: "budget availability control profile text — names and descriptions of availability control profiles in multiple languages"
+semantic_vi: "văn bản hồ sơ kiểm soát tính khả dụng ngân sách — tên và mô tả hồ sơ kiểm soát tính khả dụng theo nhiều ngôn ngữ"
+keywords:
+  - tên hồ sơ
+  - mô tả kiểm soát
+  - bản dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

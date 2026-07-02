@@ -1,6 +1,12 @@
 ---
 name: I_BATCHCHARACTERISTICVALUETP_2
 description: Batchcharacteristicvaluetp 2
+semantic_en: "batch characteristics valuation — characteristic values for batches with numeric ranges, decimal values, and amount specifications"
+semantic_vi: "định giá đặc tính lô — giá trị đặc tính cho lô với phạm vi số, giá trị thập phân và thông số tính toán tiền"
+keywords:
+  - đặc tính lô
+  - giá trị đặc tính
+  - định giá
 app_component: LO-BM-MD-2CL
 software_component: SAPSCORE
 release_state: released

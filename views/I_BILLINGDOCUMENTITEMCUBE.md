@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMCUBE
 description: Billing DocumentUMENTITEMCUBE
+semantic_en: "billing document item cube — analytical dataset for invoice items with statistical dimensions (deprecated)."
+semantic_vi: "khối mục tài liệu hóa đơn — tập dữ liệu phân tích cho mục hóa đơn (không dùng nữa)."
+keywords:
+  - mục hóa đơn
+  - phân tích
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

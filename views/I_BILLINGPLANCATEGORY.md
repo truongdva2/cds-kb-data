@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGPLANCATEGORY
 description: Billingplancategory
+semantic_en: "billing plan category domain value — enumeration of billing plan categories for classification"
+semantic_vi: "giá trị miền danh mục kế hoạch lập hóa đơn — liệt kê danh mục kế hoạch lập hóa đơn để phân loại"
+keywords:
+  - kế hoạch lập hóa đơn
+  - danh mục
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

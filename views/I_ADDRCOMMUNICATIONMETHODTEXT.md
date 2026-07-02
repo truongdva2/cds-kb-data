@@ -1,6 +1,12 @@
 ---
 name: I_ADDRCOMMUNICATIONMETHODTEXT
 description: Addrcommunicationmethodtext
+semantic_en: "communication method description — text labels for communication medium types used in address management"
+semantic_vi: "mô tả phương thức liên lạc — nhãn văn bản cho các loại phương thức liên lạc trong quản lý địa chỉ"
+keywords:
+  - phương thức liên lạc
+  - mô tả
+  - địa chỉ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

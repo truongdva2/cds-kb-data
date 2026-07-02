@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTBASIC
 description: Billing DocumentUMENTBASIC
+semantic_en: "billing process document — invoice header with document type, organization, and creation/change audit data."
+semantic_vi: "tài liệu quy trình hóa đơn — tiêu đề hóa đơn với loại tài liệu, tổ chức và dữ liệu kiểm toán tạo/thay đổi."
+keywords:
+  - hóa đơn
+  - tài liệu
+  - tổ chức bán hàng
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTITEMTP
 description: Billing DocumentUMENTREQUESTITEMTP
+semantic_en: "billing document request item transaction package — item-level request data with originally requested material tracking"
+semantic_vi: "gói dữ liệu yêu cầu lập hóa đơn cấp dòng — theo dõi chi tiết đơn vị với vật tư được yêu cầu ban đầu"
+keywords:
+  - yêu cầu lập hóa đơn
+  - gói giao dịch
+  - vật tư yêu cầu
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

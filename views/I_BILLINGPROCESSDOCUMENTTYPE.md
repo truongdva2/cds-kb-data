@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPROCESSDOCUMENTTYPE
 description: Billingprocessdocumenttype
+semantic_en: "billing process document type configuration — defines document categories and text procedures for billing process documents"
+semantic_vi: "cấu hình loại tài liệu quy trình lập hóa đơn — định nghĩa danh mục tài liệu và quy trình văn bản cho tài liệu quy trình"
+keywords:
+  - quy trình lập hóa đơn
+  - loại tài liệu
+  - cấu hình
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BANKTP
 description: Banktp
+semantic_en: "bank TP — trading partner bank master data with legal names, branches, and international identifiers"
+semantic_vi: "ngân hàng TP — dữ liệu chính ngân hàng đối tác thương mại với tên pháp lý, chi nhánh và định danh quốc tế"
+keywords:
+  - dữ liệu ngân hàng
+  - đối tác thương mại
+  - tên pháp lý
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTTEXTTP
 description: Billing DocumentUMENTREQUESTTEXTTP
+semantic_en: "billing document request text transaction package — long text content for requests in multiple languages"
+semantic_vi: "gói dữ liệu văn bản yêu cầu lập hóa đơn — nội dung văn bản dài cho yêu cầu đa ngôn ngữ"
+keywords:
+  - yêu cầu lập hóa đơn
+  - văn bản dài
+  - đa ngôn ngữ
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

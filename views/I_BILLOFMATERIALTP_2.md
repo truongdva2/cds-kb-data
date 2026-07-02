@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALTP_2
 description: Bill of MaterialTP 2
+semantic_en: "bill of material transaction package — master BOM transaction data with variants, change tracking, and prioritization"
+semantic_vi: "gói dữ liệu hóa chế độ — dữ liệu giao dịch hóa chế độ chính với biến thể, theo dõi thay đổi và ưu tiên"
+keywords:
+  - hóa chế độ
+  - gói giao dịch
+  - biến thể
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

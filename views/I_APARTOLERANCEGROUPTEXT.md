@@ -1,6 +1,12 @@
 ---
 name: I_APARTOLERANCEGROUPTEXT
 description: Apartolerancegrouptext
+semantic_en: "AP/AR tolerance group text — translated names and descriptions for AP/AR tolerance groups by company and language"
+semantic_vi: "mô tả nhóm dung sai AP/AR — tên và mô tả dịch cho nhóm dung sai AP/AR theo công ty và ngôn ngữ"
+keywords:
+  - dung sai
+  - nhóm
+  - mô tả
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

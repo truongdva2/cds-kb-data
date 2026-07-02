@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTODN
 description: Billing DocumentUMENTODN
+semantic_en: "official document number in billing — legal document number, country and type for tax compliance and tracking."
+semantic_vi: "số tài liệu chính thức trong hóa đơn — số tài liệu pháp lý, quốc gia và loại cho tuân thủ thuế và theo dõi."
+keywords:
+  - số tài liệu
+  - tuân thủ
+  - quốc gia
 app_component: FI-LOC-ODN
 software_component: SAPSCORE
 release_state: released

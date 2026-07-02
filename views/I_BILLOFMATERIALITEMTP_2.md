@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALITEMTP_2
 description: Bill of MaterialITEMTP 2
+semantic_en: "bill of material item transaction package — item-level BOM transaction data with plant and material mapping"
+semantic_vi: "gói dữ liệu chi tiết hóa chế độ — dữ liệu giao dịch chi tiết hóa chế độ với ánh xạ nhà máy và vật tư"
+keywords:
+  - hóa chế độ
+  - chi tiết
+  - gói giao dịch
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

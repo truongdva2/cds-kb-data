@@ -1,6 +1,12 @@
 ---
 name: I_BANKSCRIPTEDADDRESSTP
 description: Bankscriptedaddresstp
+semantic_en: "bank international address versions TP — bank addresses in scripted formats for international correspondence and payments"
+semantic_vi: "phiên bản địa chỉ quốc tế ngân hàng TP — địa chỉ ngân hàng ở định dạng kịch bản cho giao tiếp và thanh toán quốc tế"
+keywords:
+  - địa chỉ quốc tế
+  - định dạng kịch bản
+  - ngân hàng
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

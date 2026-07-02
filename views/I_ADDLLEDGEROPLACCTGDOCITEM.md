@@ -1,6 +1,12 @@
 ---
 name: I_ADDLLEDGEROPLACCTGDOCITEM
 description: Addlledgeroplacctgdocitem
+semantic_en: "additional ledger journal entry item details — extends core accounting document items with additional GL-specific posting details and clearing information"
+semantic_vi: "chi tiết mục nhập sổ cái bổ sung — mở rộng mục chứng từ kế toán cốt lõi với chi tiết hạch toán GL bổ sung và thông tin thanh toán"
+keywords:
+  - sổ cái
+  - nhập sổ
+  - bảng cân đối
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

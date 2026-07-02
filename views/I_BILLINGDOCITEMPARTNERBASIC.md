@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCITEMPARTNERBASIC
 description: Billing DocumentITEMPARTNERBASIC
+semantic_en: "billing document item partner basic — core partner and address data for invoice line items."
+semantic_vi: "dữ liệu cơ bản đối tác mục tài liệu hóa đơn — dữ liệu đối tác và địa chỉ cốt lõi cho các mục dòng hóa đơn."
+keywords:
+  - đối tác
+  - mục hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

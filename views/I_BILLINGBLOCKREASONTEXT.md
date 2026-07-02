@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGBLOCKREASONTEXT
 description: Billingblockreasontext
+semantic_en: "billing block reason text — language-specific descriptions for billing block reason codes."
+semantic_vi: "văn bản lý do chặn hóa đơn — mô tả đa ngôn ngữ cho mã lý do chặn hóa đơn."
+keywords:
+  - chặn hóa đơn
+  - mô tả
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

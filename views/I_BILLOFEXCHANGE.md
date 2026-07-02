@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFEXCHANGE
 description: Billofexchange
+semantic_en: "bill of exchange — financial instrument with issuer and drawee information including usage tracking and issue date"
+semantic_vi: "tờ phiếu — công cụ tài chính với thông tin người phát hành và người được phát hành bao gồm theo dõi sử dụng và ngày phát hành"
+keywords:
+  - tờ phiếu
+  - tài chính
+  - thanh toán
 app_component: FI-LOC-BOE
 software_component: SAPSCORE
 release_state: released

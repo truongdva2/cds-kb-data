@@ -1,6 +1,12 @@
 ---
 name: I_APARTOLERANCEGROUP
 description: Apartolerancegroup
+semantic_en: "AP/AR tolerance group — defines payment tolerance thresholds and cash discount rules by company code and group"
+semantic_vi: "nhóm dung sai AP/AR — xác định các ngưỡng dung sai thanh toán và quy tắc chiết khấu tiền mặt theo công ty"
+keywords:
+  - dung sai
+  - thanh toán
+  - công ty
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

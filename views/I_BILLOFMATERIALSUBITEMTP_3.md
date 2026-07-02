@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALSUBITEMTP_3
 description: Bill of MaterialSUBITEMTP 3
+semantic_en: "sub-item number value transaction package — material sub-item transaction data with component specifications"
+semantic_vi: "gói dữ liệu giá trị số chi tiết phụ — dữ liệu giao dịch chi tiết phụ vật tư với thông số kỹ thuật thành phần"
+keywords:
+  - hóa chế độ
+  - chi tiết phụ
+  - gói giao dịch
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

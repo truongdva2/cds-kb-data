@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSMAINWEBSITEURL
 description: Addressmainwebsiteurl
+semantic_en: "main website URL — primary web address for a party with valid sequence and URI details"
+semantic_vi: "URL trang web chính — địa chỉ web chính của một bên với chi tiết thứ tự và URI hợp lệ"
+keywords:
+  - website
+  - URL
+  - địa chỉ web
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

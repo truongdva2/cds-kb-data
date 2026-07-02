@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCPRCGELMNTBASIC
 description: Billing DocumentPRCGELMNTBASIC
+semantic_en: "billing document pricing element — document-level pricing conditions, rates and amounts for invoices."
+semantic_vi: "yếu tố định giá tài liệu hóa đơn — điều kiện định giá cấp tài liệu, tỷ lệ và số tiền cho hóa đơn."
+keywords:
+  - định giá
+  - tài liệu hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

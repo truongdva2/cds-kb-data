@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGBLOCKSTATUSTEXT
 description: Billingblockstatustext
+semantic_en: "billing block status text — language descriptions for billing block status codes."
+semantic_vi: "văn bản trạng thái chặn hóa đơn — mô tả ngôn ngữ cho các mã trạng thái chặn hóa đơn."
+keywords:
+  - chặn hóa đơn
+  - mô tả
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

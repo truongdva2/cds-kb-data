@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPLANCATEGORYTEXT
 description: Billingplancategorytext
+semantic_en: "billing plan category text — language-specific names for billing plan categories"
+semantic_vi: "nội dung danh mục kế hoạch lập hóa đơn — tên danh mục kế hoạch lập hóa đơn theo ngôn ngữ"
+keywords:
+  - kế hoạch lập hóa đơn
+  - danh mục
+  - ngôn ngữ
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

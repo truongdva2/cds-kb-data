@@ -1,6 +1,12 @@
 ---
 name: I_BATCHSPLITTYPE
 description: Batchsplittype
+semantic_en: "batch split type — domain values for batch split type classifications"
+semantic_vi: "loại chia lô — giá trị miền cho phân loại loại chia lô"
+keywords:
+  - chia lô
+  - loại chia
+  - miền giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

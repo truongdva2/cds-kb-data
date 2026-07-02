@@ -1,6 +1,12 @@
 ---
 name: I_BATCHSPLITTYPETEXT
 description: Batchsplittypetext
+semantic_en: "batch split type text — descriptions of batch split type classifications in multiple languages"
+semantic_vi: "văn bản loại chia lô — mô tả phân loại loại chia lô theo nhiều ngôn ngữ"
+keywords:
+  - mô tả chia lô
+  - loại chia
+  - bản dịch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

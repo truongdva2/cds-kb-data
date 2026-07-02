@@ -1,6 +1,12 @@
 ---
 name: I_BANKSTATEMENT
 description: Bankstatement
+semantic_en: "bank statement header — header-level bank statement data with opening and closing balances by currency and account"
+semantic_vi: "tiêu đề sao kê ngân hàng — dữ liệu sao kê ngân hàng cấp độ tiêu đề với số dư mở và đóng theo tiền tệ và tài khoản"
+keywords:
+  - sao kê ngân hàng
+  - số dư tài khoản
+  - tiền tệ
 app_component: FI-FIO-AR-2CL
 software_component: SAPSCORE
 release_state: released

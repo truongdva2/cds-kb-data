@@ -1,6 +1,12 @@
 ---
 name: I_BANKSTATEMENTITEMDETAIL
 description: Bankstatementitemdetail
+semantic_en: "bank statement item detail — detailed item-level information for bank statement transactions with SWIFT references and payment identifiers"
+semantic_vi: "chi tiết mục sao kê ngân hàng — thông tin chi tiết cấp độ mục cho giao dịch sao kê ngân hàng với tham chiếu SWIFT và định danh thanh toán"
+keywords:
+  - chi tiết mục giao dịch
+  - tham chiếu SWIFT
+  - thanh toán
 app_component: FI-FIO-AR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTAXCODETEXT
 description: Billing DocumentUMENTTAXCODETEXT
+semantic_en: "legal tax code text — tax code descriptions for billing documents with language-specific translations"
+semantic_vi: "nội dung mã thuế pháp lý — mô tả mã thuế cho hóa đơn với bản dịch theo ngôn ngữ"
+keywords:
+  - mã thuế
+  - hóa đơn
+  - ngôn ngữ
 app_component: FI-LOC-LO
 software_component: SAPSCORE
 release_state: released

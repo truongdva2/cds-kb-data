@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMTP
 description: Billing DocumentUMENTITEMTP
+semantic_en: "billing document item transparent — invoice line items with product, division and original material reference."
+semantic_vi: "mục tài liệu hóa đơn trong suốt — các mục dòng hóa đơn với sản phẩm, bộ phận và tham chiếu vật liệu gốc."
+keywords:
+  - mục hóa đơn
+  - sản phẩm
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

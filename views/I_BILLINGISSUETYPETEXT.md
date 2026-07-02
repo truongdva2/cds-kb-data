@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGISSUETYPETEXT
 description: Billingissuetypetext
+semantic_en: "billing issue type text — language-specific descriptions of billing issue types"
+semantic_vi: "nội dung loại vấn đề lập hóa đơn — mô tả loại vấn đề hóa đơn theo ngôn ngữ"
+keywords:
+  - vấn đề hóa đơn
+  - ngôn ngữ
+  - mô tả
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

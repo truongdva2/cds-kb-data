@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGPLANRULETEXT
 description: Billingplanruletext
+semantic_en: "billing plan rule text — language-specific names and descriptions for billing plan rules"
+semantic_vi: "nội dung quy tắc kế hoạch lập hóa đơn — tên và mô tả quy tắc kế hoạch lập hóa đơn theo ngôn ngữ"
+keywords:
+  - kế hoạch lập hóa đơn
+  - quy tắc
+  - ngôn ngữ
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

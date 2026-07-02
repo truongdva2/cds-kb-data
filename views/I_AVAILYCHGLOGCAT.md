@@ -1,6 +1,12 @@
 ---
 name: I_AVAILYCHGLOGCAT
 description: Availychglogcat
+semantic_en: "availability change log category — domain values for categorizing types of availability changes"
+semantic_vi: "danh mục nhật ký thay đổi tính khả dụng — giá trị miền để phân loại các loại thay đổi tính khả dụng"
+keywords:
+  - danh mục thay đổi
+  - phân loại
+  - miền giá trị
 app_component: CA-ATP-ACL-2CL
 software_component: SAPSCORE
 release_state: released

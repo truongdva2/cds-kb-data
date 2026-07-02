@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMTEXTTP
 description: Billing DocumentUMENTITEMTEXTTP
+semantic_en: "billing document item text transparent — long text and descriptions for invoice line items in multiple languages."
+semantic_vi: "văn bản mục tài liệu hóa đơn trong suốt — văn bản dài và mô tả cho mục dòng hóa đơn đa ngôn ngữ."
+keywords:
+  - văn bản dài
+  - mục hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

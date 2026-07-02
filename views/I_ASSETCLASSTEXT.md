@@ -1,6 +1,12 @@
 ---
 name: I_ASSETCLASSTEXT
 description: Assetclasstext
+semantic_en: "asset class text — translations and descriptions for asset classifications in multiple languages"
+semantic_vi: "văn bản lớp tài sản — bản dịch và mô tả phân loại tài sản theo nhiều ngôn ngữ"
+keywords:
+  - tên lớp tài sản
+  - mô tả lớp
+  - bản dịch
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

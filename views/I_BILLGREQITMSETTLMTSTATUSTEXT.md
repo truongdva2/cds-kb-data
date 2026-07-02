@@ -1,6 +1,11 @@
 ---
 name: I_BILLGREQITMSETTLMTSTATUSTEXT
 description: Billgreqitmsettlmtstatustext
+semantic_en: "billing request item settlement status text — language descriptions for request item billing status codes."
+semantic_vi: "văn bản trạng thái thanh toán mục yêu cầu hóa đơn — mô tả ngôn ngữ cho mã trạng thái thanh toán mục."
+keywords:
+  - trạng thái thanh toán
+  - mô tả
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

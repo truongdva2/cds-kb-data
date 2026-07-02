@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSOBJECTTYPE
 description: Addressobjecttype
+semantic_en: "address object type — classification codes for address entities (person, organization, location, etc)"
+semantic_vi: "loại đối tượng địa chỉ — mã phân loại cho các thực thể địa chỉ như người, tổ chức, địa điểm"
+keywords:
+  - loại đối tượng
+  - địa chỉ
+  - phân loại
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

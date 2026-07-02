@@ -1,6 +1,12 @@
 ---
 name: I_APISWITHCLOUDDEVSUCCESSOR
 description: Apiswithclouddevsuccessor
+semantic_en: "cloud development API successors — mapping of legacy APIs to their cloud development successor APIs with release state"
+semantic_vi: "API kế thừa phát triển đám mây — ánh xạ các API cũ sang API kế thừa phát triển đám mây với trạng thái phát hành"
+keywords:
+  - API
+  - kế thừa
+  - phát triển
 app_component: BC-SRV-APS-EXT-REL
 software_component: SAP_BASIS
 release_state: released

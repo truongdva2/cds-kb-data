@@ -1,6 +1,12 @@
 ---
 name: I_AR_GROSSINCOMETAXPERCENTAGE
 description: AR Grossincometaxpercentage
+semantic_en: "activity code validity for gross income tax — validates tax activity codes by country, region, and tax rate"
+semantic_vi: "tính hợp lệ mã hoạt động thuế thu nhập — xác thực mã hoạt động thuế theo quốc gia, khu vực và thuế suất"
+keywords:
+  - mã hoạt động thuế
+  - thuế thu nhập
+  - tính hợp lệ
 app_component: FI-LOC-FI-AR-WHT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ADDRCURDEFAULTFAXNUMBER
 description: Addrcurdefaultfaxnumber
+semantic_en: "current default fax number — the active primary fax number including country and extension details with validity dates"
+semantic_vi: "số fax mặc định hiện tại — số fax chính hoạt động bao gồm chi tiết quốc gia và máy lẻ với ngày hiệu lực"
+keywords:
+  - fax
+  - số fax
+  - liên lạc
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

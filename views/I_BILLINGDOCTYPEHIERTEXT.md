@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCTYPEHIERTEXT
 description: Billing DocumentTYPEHIERTEXT
+semantic_en: "billing document type hierarchy text — language-specific names for document type hierarchy structures."
+semantic_vi: "văn bản cấp bậc loại tài liệu hóa đơn — tên đa ngôn ngữ cho cấu trúc cấp bậc loại tài liệu."
+keywords:
+  - cấp bậc
+  - loại tài liệu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

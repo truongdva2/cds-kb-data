@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALITEMTP_3
 description: Bill of MaterialITEMTP 3
+semantic_en: "document item details transaction package — hidden material BOM item transaction data with header relationships"
+semantic_vi: "gói dữ liệu chi tiết tài liệu — dữ liệu giao dịch chi tiết hóa chế độ vật tư ẩn với mối quan hệ tiêu đề"
+keywords:
+  - hóa chế độ
+  - chi tiết
+  - tài liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

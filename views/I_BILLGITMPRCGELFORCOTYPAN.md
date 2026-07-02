@@ -1,6 +1,12 @@
 ---
 name: I_BILLGITMPRCGELFORCOTYPAN
 description: Billgitmprcgelforcotypan
+semantic_en: "billing item pricing element analytics — pricing conditions and rate details for analytical reporting on invoice items."
+semantic_vi: "phân tích yếu tố định giá mục hóa đơn — các điều kiện định giá và chi tiết tỷ lệ cho báo cáo phân tích trên mục hóa đơn."
+keywords:
+  - định giá
+  - mục hóa đơn
+  - phân tích
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

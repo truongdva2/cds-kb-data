@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTCATEGORY
 description: Billing DocumentUMENTCATEGORY
+semantic_en: "billing document category — domain values for document classification within the billing process."
+semantic_vi: "danh mục tài liệu hóa đơn — giá trị miền để phân loại tài liệu trong quy trình hóa đơn."
+keywords:
+  - danh mục hóa đơn
+  - phân loại
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

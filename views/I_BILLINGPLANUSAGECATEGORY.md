@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGPLANUSAGECATEGORY
 description: Billingplanusagecategory
+semantic_en: "billing plan usage category domain value — enumeration of usage categories for billing plans"
+semantic_vi: "giá trị miền danh mục sử dụng kế hoạch lập hóa đơn — liệt kê danh mục sử dụng cho kế hoạch lập hóa đơn"
+keywords:
+  - kế hoạch lập hóa đơn
+  - danh mục sử dụng
 app_component: SD-BIL-IV-BP-2CL
 software_component: SAPSCORE
 release_state: released

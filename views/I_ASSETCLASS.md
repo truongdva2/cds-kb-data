@@ -1,6 +1,12 @@
 ---
 name: I_ASSETCLASS
 description: Assetclass
+semantic_en: "asset class — master configuration for asset classes with account determination, cost allocation, and depreciation settings"
+semantic_vi: "lớp tài sản — cấu hình chính cho lớp tài sản với xác định tài khoản, phân bổ chi phí và cài đặt khấu hao"
+keywords:
+  - lớp tài sản
+  - khấu hao
+  - phân bổ chi phí
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALHEADERDEX_2
 description: Bill of MaterialHEADERDEX 2
+semantic_en: "data extraction for BOM header — bill of material master data including configuration, authorship, and classification"
+semantic_vi: "trích xuất dữ liệu tiêu đề hóa chế độ — dữ liệu chính hóa chế độ bao gồm cấu hình, tác quyền và phân loại"
+keywords:
+  - hóa chế độ
+  - tiêu đề
+  - dữ liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

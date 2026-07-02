@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSWORKPLACEDETAILS
 description: Addressworkplacedetails
+semantic_en: "workplace address details — extended workplace information including building, floor, room and department data"
+semantic_vi: "chi tiết địa chỉ nơi làm việc — thông tin nơi làm việc mở rộng bao gồm dữ liệu tòa nhà, tầng, phòng và bộ phận"
+keywords:
+  - nơi làm việc
+  - địa chỉ
+  - bộ phận
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

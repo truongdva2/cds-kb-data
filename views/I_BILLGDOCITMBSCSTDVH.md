@@ -1,6 +1,12 @@
 ---
 name: I_BILLGDOCITMBSCSTDVH
 description: Billgdocitmbscstdvh
+semantic_en: "billing document item value help — selection list of line items in billing documents with key identifiers."
+semantic_vi: "trợ giúp tìm kiếm mục hóa đơn — danh sách các mục dòng trong tài liệu hóa đơn với các định danh chính."
+keywords:
+  - mục hóa đơn
+  - danh sách tìm kiếm
+  - hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

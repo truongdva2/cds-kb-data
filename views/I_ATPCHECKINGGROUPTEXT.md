@@ -1,6 +1,12 @@
 ---
 name: I_ATPCHECKINGGROUPTEXT
 description: Atpcheckinggrouptext
+semantic_en: "ATP checking group text — descriptions of ATP checking groups in multiple languages"
+semantic_vi: "văn bản nhóm kiểm tra ATP — mô tả nhóm kiểm tra ATP theo nhiều ngôn ngữ"
+keywords:
+  - mô tả ATP
+  - nhóm kiểm tra
+  - bản dịch
 app_component: CA-ATP-2CL
 software_component: SAPSCORE
 release_state: released

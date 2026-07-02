@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSREMARK_2
 description: Addressremark 2
+semantic_en: "address remarks — multilingual notes and remarks associated with specific address representation"
+semantic_vi: "ghi chú địa chỉ — ghi chú đa ngôn ngữ liên kết với biểu diễn địa chỉ cụ thể"
+keywords:
+  - ghi chú
+  - địa chỉ
+  - mô tả
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

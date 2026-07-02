@@ -1,6 +1,12 @@
 ---
 name: I_BANK_2
 description: Bank 2
+semantic_en: "bank — bank master data with core identification, location, and network information"
+semantic_vi: "ngân hàng — dữ liệu chính ngân hàng với thông tin nhận dạng cốt lõi, vị trí và mạng"
+keywords:
+  - ngân hàng chính
+  - dữ liệu chính
+  - thông tin chi nhánh
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

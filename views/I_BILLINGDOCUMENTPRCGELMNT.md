@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTPRCGELMNT
 description: Billing DocumentUMENTPRCGELMNT
+semantic_en: "billing document pricing element — document-level pricing conditions, rates and surcharge/discount amounts."
+semantic_vi: "yếu tố định giá tài liệu hóa đơn — điều kiện định giá cấp tài liệu, tỷ lệ và số tiền phụ phí/chiết khấu."
+keywords:
+  - định giá
+  - tài liệu hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

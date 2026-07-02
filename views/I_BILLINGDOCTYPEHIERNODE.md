@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCTYPEHIERNODE
 description: Billing DocumentTYPEHIERNODE
+semantic_en: "billing document type hierarchy node — organizational structure nodes for billing document type classifications."
+semantic_vi: "nút cấp bậc loại tài liệu hóa đơn — các nút cấu trúc tổ chức để phân loại loại tài liệu hóa đơn."
+keywords:
+  - cấu trúc cấp bậc
+  - loại tài liệu
+  - hóa đơn
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

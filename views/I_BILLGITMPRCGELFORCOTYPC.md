@@ -1,6 +1,11 @@
 ---
 name: I_BILLGITMPRCGELFORCOTYPC
 description: Billgitmprcgelforcotypc
+semantic_en: "condition base quantity — pricing condition details with item category and processing type for billing."
+semantic_vi: "số lượng cơ sở điều kiện — chi tiết điều kiện định giá với loại danh mục mục và loại xử lý cho hóa đơn."
+keywords:
+  - điều kiện định giá
+  - số lượng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

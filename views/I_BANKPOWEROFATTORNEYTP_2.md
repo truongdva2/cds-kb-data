@@ -1,6 +1,12 @@
 ---
 name: I_BANKPOWEROFATTORNEYTP_2
 description: Bankpowerofattorneytp 2
+semantic_en: "bank power of attorney TP — bank power of attorney assignments with validity dates, authorization groups, and approval rules"
+semantic_vi: "quyền đại diện ngân hàng TP — chỉ định quyền đại diện ngân hàng với ngày hiệu lực, nhóm ủy quyền và quy tắc phê duyệt"
+keywords:
+  - quyền đại diện
+  - ủy quyền
+  - tài khoản ngân hàng
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

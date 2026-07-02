@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCTYPEHIERNODETXT
 description: Billing DocumentTYPEHIERNODETXT
+semantic_en: "billing document type hierarchy node text — language-specific descriptions for hierarchy node classifications."
+semantic_vi: "văn bản nút cấp bậc loại tài liệu hóa đơn — mô tả đa ngôn ngữ cho phân loại nút cấu trúc."
+keywords:
+  - cấp bậc
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

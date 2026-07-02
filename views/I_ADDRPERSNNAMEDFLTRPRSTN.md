@@ -1,6 +1,12 @@
 ---
 name: I_ADDRPERSNNAMEDFLTRPRSTN
 description: Addrpersnnamedfltrprstn
+semantic_en: "default person name representation — primary person name data in preferred language script representation"
+semantic_vi: "biểu diễn tên người mặc định — dữ liệu tên người chính trong biểu diễn kịch tự ngôn ngữ ưu tiên"
+keywords:
+  - tên người
+  - biểu diễn
+  - ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

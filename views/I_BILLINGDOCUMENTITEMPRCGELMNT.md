@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMPRCGELMNT
 description: Billing DocumentUMENTITEMPRCGELMNT
+semantic_en: "billing document item pricing element — itemized pricing conditions, rates and amounts for invoices."
+semantic_vi: "yếu tố định giá mục tài liệu hóa đơn — điều kiện định giá, tỷ lệ và số tiền cho hóa đơn."
+keywords:
+  - định giá
+  - mục hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

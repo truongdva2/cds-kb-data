@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABILITYCTRLPROFILE
 description: Availabilityctrlprofile
+semantic_en: "budget availability control profile — master configuration for budget availability checking with currency role and time range settings"
+semantic_vi: "hồ sơ kiểm soát tính khả dụng ngân sách — cấu hình chính cho kiểm tra tính khả dụng ngân sách với cài đặt vai trò tiền tệ và phạm vi thời gian"
+keywords:
+  - kiểm soát ngân sách
+  - tính khả dụng
+  - hồ sơ kiểm tra
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

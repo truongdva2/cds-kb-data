@@ -1,6 +1,12 @@
 ---
 name: I_AVAILABLECAPACITYTYPETEXT
 description: Availablecapacitytypetext
+semantic_en: "available capacity type text — names and descriptions of capacity type classifications in multiple languages"
+semantic_vi: "văn bản loại công suất khả dụng — tên và mô tả phân loại loại công suất theo nhiều ngôn ngữ"
+keywords:
+  - tên loại công suất
+  - mô tả loại
+  - bản dịch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

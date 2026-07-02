@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGISSUETYPE
 description: Billingissuetype
+semantic_en: "billing issue type domain value — enumeration of billing issue types for classification and tracking"
+semantic_vi: "giá trị miền loại vấn đề lập hóa đơn — liệt kê loại vấn đề hóa đơn để phân loại và theo dõi"
+keywords:
+  - vấn đề hóa đơn
+  - phân loại
+  - loại
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

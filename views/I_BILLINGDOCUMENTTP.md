@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTP
 description: Billing DocumentUMENTTP
+semantic_en: "billing document transaction package — master billing document data with categories, types, dates, and organizational details"
+semantic_vi: "gói dữ liệu hóa đơn — dữ liệu hóa đơn chính bao gồm danh mục, loại, ngày tháng và chi tiết tổ chức"
+keywords:
+  - hóa đơn
+  - gói giao dịch
+  - ngày tháng
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

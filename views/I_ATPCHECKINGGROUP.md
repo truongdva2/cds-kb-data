@@ -1,6 +1,12 @@
 ---
 name: I_ATPCHECKINGGROUP
 description: Atpcheckinggroup
+semantic_en: "advanced ATP checking group — configuration indicating whether advanced available-to-promise functionality is active"
+semantic_vi: "nhóm kiểm tra ATP nâng cao — cấu hình chỉ định xem chức năng cam kết cung cấp nâng cao có hoạt động hay không"
+keywords:
+  - ATP
+  - cam kết cung cấp
+  - kiểm tra tính khả dụng
 app_component: CA-ATP-2CL
 software_component: SAPSCORE
 release_state: released

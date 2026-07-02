@@ -1,6 +1,11 @@
 ---
 name: I_BILLGDOCREQBILLGSTSTEXT
 description: Billgdocreqbillgststext
+semantic_en: "billing status text — language-specific descriptions for billing request status codes."
+semantic_vi: "văn bản trạng thái hóa đơn — mô tả đa ngôn ngữ cho các mã trạng thái yêu cầu hóa đơn."
+keywords:
+  - trạng thái hóa đơn
+  - mô tả
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

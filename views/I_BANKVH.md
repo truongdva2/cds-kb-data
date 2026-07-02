@@ -1,6 +1,12 @@
 ---
 name: I_BANKVH
 description: Bankvh
+semantic_en: "bank value help — value help list for bank master data with detailed attributes for selection and search"
+semantic_vi: "trợ giúp giá trị ngân hàng — danh sách trợ giúp giá trị cho dữ liệu chính ngân hàng với thuộc tính chi tiết để chọn và tìm kiếm"
+keywords:
+  - trợ giúp giá trị
+  - danh sách ngân hàng
+  - tìm kiếm
 app_component: CA-BK-BNK-2CL
 software_component: SAP_BASIS
 release_state: released

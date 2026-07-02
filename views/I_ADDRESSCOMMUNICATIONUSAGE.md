@@ -1,6 +1,12 @@
 ---
 name: I_ADDRESSCOMMUNICATIONUSAGE
 description: Addresscommunicationusage
+semantic_en: "communication data usage — tracks validity and purpose flags for communication methods with effective dates"
+semantic_vi: "sử dụng dữ liệu liên lạc — theo dõi lá cờ hiệu lực và mục đích cho các phương thức liên lạc"
+keywords:
+  - liên lạc
+  - sử dụng
+  - ngày hiệu lực
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

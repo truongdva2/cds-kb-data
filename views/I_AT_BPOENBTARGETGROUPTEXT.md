@@ -1,6 +1,12 @@
 ---
 name: I_AT_BPOENBTARGETGROUPTEXT
 description: AT Bpoenbtargetgrouptext
+semantic_en: "target group according to OeNB text — multilingual descriptions of OeNB business partner target classifications"
+semantic_vi: "văn bản nhóm đối tượng theo OeNB — mô tả đa ngôn ngữ phân loại nhóm đối tượng OeNB"
+keywords:
+  - mô tả OeNB
+  - phân loại đối tác
+  - bản dịch
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

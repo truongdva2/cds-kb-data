@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTREQUESTSTDVH
 description: Billing DocumentUMENTREQUESTSTDVH
+semantic_en: "billing document request value help — standardized lookup for billing document requests by type and sales organization"
+semantic_vi: "trợ giúp giá trị yêu cầu lập hóa đơn — danh sách tra cứu tiêu chuẩn theo loại và đơn vị bán hàng"
+keywords:
+  - yêu cầu lập hóa đơn
+  - tra cứu
+  - bán hàng
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

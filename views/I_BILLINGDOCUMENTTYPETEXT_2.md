@@ -1,6 +1,12 @@
 ---
 name: I_BILLINGDOCUMENTTYPETEXT_2
 description: Billing DocumentUMENTTYPETEXT 2
+semantic_en: "billing document type text — process document type names with language translations"
+semantic_vi: "nội dung loại tài liệu quy trình hóa đơn — tên loại tài liệu quy trình với bản dịch ngôn ngữ"
+keywords:
+  - loại hóa đơn
+  - quy trình
+  - ngôn ngữ
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released

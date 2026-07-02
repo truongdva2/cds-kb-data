@@ -1,6 +1,11 @@
 ---
 name: I_BILLINGDOCUMENTITEMPARTNERTP
 description: Billing DocumentUMENTITEMPARTNERTP
+semantic_en: "billing document item partner transparent — partner functions and addresses for invoice line items."
+semantic_vi: "đối tác mục tài liệu hóa đơn trong suốt — chức năng đối tác và địa chỉ cho các mục dòng hóa đơn."
+keywords:
+  - đối tác
+  - mục hóa đơn
 app_component: SD-BIL-2CL
 software_component: SAPSCORE
 release_state: released
