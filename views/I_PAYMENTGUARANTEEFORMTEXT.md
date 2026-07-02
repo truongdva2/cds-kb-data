@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTGUARANTEEFORMTEXT
 description: Paymentguaranteeformtext
+semantic_en: "payment guarantee form text — language-dependent description of payment guarantee form types."
+semantic_vi: "văn bản hình bảo lãnh thanh toán — mô tả phụ thuộc ngôn ngữ về các loại hình bảo lãnh thanh toán."
+keywords:
+  - bảo lãnh thanh toán
+  - hình thức
+  - mô tả
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

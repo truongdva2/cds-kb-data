@@ -1,6 +1,12 @@
 ---
 name: I_PARTIALDELIVERYITEMTEXT
 description: Partialdeliveryitemtext
+semantic_en: "partial delivery control item text — language-dependent description of whether partial delivery is allowed."
+semantic_vi: "văn bản kiểm soát giao hàng một phần — mô tả phụ thuộc ngôn ngữ cho phép hay không giao hàng một phần."
+keywords:
+  - giao hàng một phần
+  - mô tả ngôn ngữ
+  - cho phép
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORGNAMEPOSTLADDRDFLTRPRSTN
 description: Orgnamepostladdrdfltrprstn
+semantic_en: "organization street address with non-deliverable reason — captures street-level postal details for delivery coordination."
+semantic_vi: "địa chỉ đường phố của tổ chức với lý do không giao được — ghi lại các chi tiết bưu chính ở cấp độ đường phố để phối hợp giao hàng."
+keywords:
+  - địa chỉ đường phố
+  - lý do không giao
+  - tổ chức
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

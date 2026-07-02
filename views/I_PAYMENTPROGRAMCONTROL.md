@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTPROGRAMCONTROL
 description: Paymentprogramcontrol
+semantic_en: "payment program control — payment run status and processing indicators including creation and posting phases."
+semantic_vi: "kiểm soát chương trình thanh toán — chỉ dấu trạng thái và xử lý chạy thanh toán bao gồm các giai đoạn tạo và khóa."
+keywords:
+  - chương trình thanh toán
+  - chạy thanh toán
+  - xử lý
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

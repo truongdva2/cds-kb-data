@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERCONFMATLDOCITEM
 description: Mfgorderconfmatldocitem
+semantic_en: "Material document items resulting from manufacturing order confirmations — links confirmation to inventory postings by material document and date."
+semantic_vi: "Các mục tài liệu vật liệu kết quả từ xác nhận lệnh sản xuất — liên kết xác nhận với ghi chép hàng tồn kho theo tài liệu vật liệu và ngày."
+keywords:
+  - xác nhận lệnh sản xuất
+  - tài liệu vật liệu
+  - ghi chép hàng tồn
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

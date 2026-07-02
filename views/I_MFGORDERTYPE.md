@@ -1,6 +1,11 @@
 ---
 name: I_MFGORDERTYPE
 description: Mfgordertype
+semantic_en: "Manufacturing order types — enumerates order type codes linked to order categories."
+semantic_vi: "Loại lệnh sản xuất — liệt kê mã loại lệnh được liên kết với danh mục lệnh."
+keywords:
+  - loại lệnh sản xuất
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

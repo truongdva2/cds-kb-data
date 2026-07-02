@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERFUNCTIONTEXT
 description: Partnerfunctiontext
+semantic_en: "partner function text — language-dependent description of partner function roles and names."
+semantic_vi: "văn bản chức năng đối tác — mô tả phụ thuộc ngôn ngữ về vai trò và tên chức năng đối tác."
+keywords:
+  - chức năng đối tác
+  - tên đối tác
+  - mô tả
 app_component: SD-BF-PD-2CL
 software_component: SAPSCORE
 release_state: released

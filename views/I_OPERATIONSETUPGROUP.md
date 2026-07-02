@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSETUPGROUP
 description: Operationsetupgroup
+semantic_en: "operation setup group — grouping of operations by setup category and plant"
+semantic_vi: "nhóm thiết lập hoạt động — nhóm các hoạt động theo danh mục thiết lập và nhà máy"
+keywords:
+  - nhóm thiết lập
+  - hoạt động
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

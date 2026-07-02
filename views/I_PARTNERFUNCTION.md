@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERFUNCTION
 description: Partnerfunction
+semantic_en: "partner function configuration — classification of partner types in sales and distribution documents."
+semantic_vi: "cấu hình chức năng đối tác — phân loại các loại đối tác trong tài liệu bán hàng và phân phối."
+keywords:
+  - chức năng đối tác
+  - loại đối tác
+  - bán hàng
 app_component: SD-BF-PD-2CL
 software_component: SAPSCORE
 release_state: released

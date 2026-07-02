@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERSEQUENCE
 description: Mfgordersequence
+semantic_en: "Manufacturing order sequences — records sequence text, branch and return operation links, and product plant details."
+semantic_vi: "Các chuỗi lệnh sản xuất — ghi lại văn bản chuỗi, liên kết công đoạn nhánh và trả lại, và chi tiết nhà máy sản phẩm."
+keywords:
+  - chuỗi lệnh sản xuất
+  - công đoạn
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

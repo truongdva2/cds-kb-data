@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDNONMATRCVRACCTDETNMETH
 description: Mfgordnonmatrcvracctdetnmeth
+semantic_en: "Non-material receiver account determination method — codifies rules for posting non-material costs."
+semantic_vi: "Phương pháp xác định tài khoản nhận không phải vật liệu — mã hóa quy tắc ghi chép chi phí không phải vật liệu."
+keywords:
+  - tài khoản nhận
+  - xác định phương pháp
+  - chi phí
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPACKINGSTATUS
 description: Overallpackingstatus
+semantic_en: "packing status reference — provides domain values for overall delivery packing completion states."
+semantic_vi: "tham chiếu trạng thái đóng gói — cung cấp các giá trị tên miền cho các trạng thái hoàn thành đóng gói giao tổng thể."
+keywords:
+  - trạng thái đóng gói
+  - giao
+  - hoàn thành
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MX_TRANSACTIONTYPETEXT
 description: MX Transactiontypetext
+semantic_en: "Mexico transaction type text — localized descriptions of business transaction types by language"
+semantic_vi: "văn bản loại giao dịch Mexico — mô tả các loại giao dịch kinh doanh theo ngôn ngữ"
+keywords:
+  - mô tả giao dịch
+  - giao dịch Mexico đa ngôn ngữ
+  - loại giao dịch
 app_component: FI-LOC-FI-MX
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONCONTROLPROFILETEXT
 description: Operationcontrolprofiletext
+semantic_en: "operation control profile text — localized names of operation control profiles"
+semantic_vi: "văn bản hồ sơ kiểm soát hoạt động — tên các hồ sơ kiểm soát hoạt động theo ngôn ngữ"
+keywords:
+  - hồ sơ kiểm soát đa ngôn ngữ
+  - tên
+  - kiểm soát
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERFUNCTIONLANGDEPDNT
 description: Partnerfunctionlangdepdnt
+semantic_en: "partner function language-dependent code — language-specific identifier for partner function classification."
+semantic_vi: "mã phụ thuộc ngôn ngữ của chức năng đối tác — mã định danh dành riêng cho ngôn ngữ để phân loại chức năng đối tác."
+keywords:
+  - chức năng đối tác
+  - mã ngôn ngữ
+  - phân loại
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

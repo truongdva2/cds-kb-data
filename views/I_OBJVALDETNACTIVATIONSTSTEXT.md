@@ -1,6 +1,12 @@
 ---
 name: I_OBJVALDETNACTIVATIONSTSTEXT
 description: Objvaldetnactivationststext
+semantic_en: "activation status text — localized descriptions of object validation determination activation statuses"
+semantic_vi: "văn bản trạng thái kích hoạt — mô tả trạng thái kích hoạt xác định giá trị đối tượng theo ngôn ngữ"
+keywords:
+  - trạng thái kích hoạt đa ngôn ngữ
+  - mô tả kích hoạt
+  - xác định
 app_component: CA-ATP-OVD-2CL
 software_component: SAPSCORE
 release_state: released

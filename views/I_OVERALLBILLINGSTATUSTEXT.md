@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLBILLINGSTATUSTEXT
 description: Overallbillingstatustext
+semantic_en: "billing status text — provides multilingual descriptions for overall billing statuses."
+semantic_vi: "văn bản trạng thái hóa đơn — cung cấp mô tả đa ngôn ngữ cho các trạng thái hóa đơn tổng thể."
+keywords:
+  - mô tả hóa đơn
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

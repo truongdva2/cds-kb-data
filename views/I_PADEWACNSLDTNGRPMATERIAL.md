@@ -1,6 +1,12 @@
 ---
 name: I_PADEWACNSLDTNGRPMATERIAL
 description: Padewacnsldtngrpmaterial
+semantic_en: "PaDeWa condition records for consolidation group and material — assigns packing instructions based on consolidation group and material combination"
+semantic_vi: "bản ghi điều kiện PaDeWa cho nhóm hợp nhất và vật liệu — gán hướng dẫn đóng gói dựa trên kết hợp nhóm hợp nhất và vật liệu"
+keywords:
+  - PaDeWa nhóm hợp nhất
+  - hướng dẫn đóng gói vật liệu
+  - điều kiện đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMPACKINGINCOMPLTNSTS
 description: Ovrlitmpackingincompltnsts
+semantic_en: "domain value mapping for overall item packing incompletion status — defines incompleteness states for item-level packing"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành đóng gói hàng hóa toàn bộ — xác định trạng thái chưa hoàn thành đóng gói ở cấp hàng"
+keywords:
+  - đóng gói không hoàn thành
+  - trạng thái đóng gói
+  - chưa hoàn thành đóng gói
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

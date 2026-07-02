@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERYPARTNERTP
 description: Outbound DeliveryPARTNERTP
+semantic_en: "transient projection of outbound delivery partner — links customer, supplier, and personnel to delivery transactions."
+semantic_vi: "phép chiếu tạm thời của đối tác giao đi — liên kết khách hàng, nhà cung cấp, và nhân sự với giao dịch giao hàng."
+keywords:
+  - đối tác giao
+  - khách hàng
+  - nhà cung cấp
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

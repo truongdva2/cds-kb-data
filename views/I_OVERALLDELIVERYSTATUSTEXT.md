@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVERYSTATUSTEXT
 description: Overalldeliverystatustext
+semantic_en: "delivery status text — provides multilingual descriptions for overall delivery statuses."
+semantic_vi: "văn bản trạng thái giao — cung cấp mô tả đa ngôn ngữ cho các trạng thái giao tổng thể."
+keywords:
+  - mô tả giao
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OPLACCTGDOCITEMFREEDFNDCRCY
 description: Oplacctgdocitemfreedfndcrcy
+semantic_en: "amount in freely defined currency — journal entry items with balances in freely defined currencies"
+semantic_vi: "số tiền trong tiền tệ được xác định tự do — các mục nhập ký yêu cầu với số dư trong tiền tệ được xác định tự do"
+keywords:
+  - tiền tệ tự do
+  - nhập ký yêu cầu
+  - số tiền
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

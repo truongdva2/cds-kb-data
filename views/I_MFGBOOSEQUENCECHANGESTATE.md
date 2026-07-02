@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOSEQUENCECHANGESTATE
 description: Mfgboosequencechangestate
+semantic_en: "Change state view for bill of operations sequences — tracks deletion status, change numbers, validity, and description text."
+semantic_vi: "Theo dõi trạng thái thay đổi chuỗi danh sách công đoạn — ghi lại trạng thái xóa, số thay đổi, hiệu lực, và văn bản mô tả."
+keywords:
+  - chuỗi công đoạn
+  - lịch sử thay đổi
+  - danh sách công đoạn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERFAILEDCONFGROUP
 description: Mfgorderfailedconfgroup
+semantic_en: "Failed order confirmation groups — records failed confirmation batches with creation, change, and confirmation dates."
+semantic_vi: "Các nhóm xác nhận lệnh thất bại — ghi lại các lô xác nhận thất bại với ngày tạo, thay đổi, và xác nhận."
+keywords:
+  - xác nhận thất bại
+  - nhóm xác nhận
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

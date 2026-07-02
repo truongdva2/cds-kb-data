@@ -1,6 +1,12 @@
 ---
 name: I_MX_EXTPAYMENTMETHODMAPPING
 description: MX Extpaymentmethodmapping
+semantic_en: "external payment method mapping for Mexico — linking payment methods to external system identifiers and descriptions"
+semantic_vi: "ánh xạ phương thức thanh toán bên ngoài cho Mexico — liên kết các phương thức thanh toán với mã số tương ứng và mô tả"
+keywords:
+  - thanh toán ngoài
+  - phương thức thanh toán Mexico
+  - ánh xạ thanh toán
 app_component: FI-LOC-FI-MX
 software_component: SAPSCORE
 release_state: released

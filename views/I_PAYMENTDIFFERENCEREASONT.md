@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTDIFFERENCEREASONT
 description: Paymentdifferencereasont
+semantic_en: "payment difference reason text — language-dependent description of reasons for payment differences."
+semantic_vi: "văn bản lý do chênh lệch thanh toán — mô tả phụ thuộc ngôn ngữ về lý do chênh lệch thanh toán."
+keywords:
+  - chênh lệch thanh toán
+  - lý do chênh lệch
+  - mô tả
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

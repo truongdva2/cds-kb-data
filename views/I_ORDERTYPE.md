@@ -1,6 +1,12 @@
 ---
 name: I_ORDERTYPE
 description: Ordertype
+semantic_en: "order type master data — encompasses type classification, commitments management, controlling settlement, and planning profiles."
+semantic_vi: "dữ liệu chính loại đơn hàng — bao gồm phân loại loại, quản lý cam kết, hồ sơ thay thế kiểm soát và hồ sơ kế hoạch."
+keywords:
+  - loại đơn hàng
+  - phân loại đơn hàng
+  - hồ sơ kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

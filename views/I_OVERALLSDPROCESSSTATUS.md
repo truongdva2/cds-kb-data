@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLSDPROCESSSTATUS
 description: Overallsdprocessstatus
+semantic_en: "domain value mapping for overall SD process status — defines execution states for sales and distribution processes"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái quy trình SD toàn bộ — xác định trạng thái thực thi quy trình bán hàng và phân phối"
+keywords:
+  - quy trình bán hàng
+  - trạng thái xử lý
+  - quy trình SD
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

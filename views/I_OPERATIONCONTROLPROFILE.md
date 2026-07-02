@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONCONTROLPROFILE
 description: Operationcontrolprofile
+semantic_en: "operation control profile — settings flags for operation scheduling, confirmation, costing, and printing"
+semantic_vi: "hồ sơ kiểm soát hoạt động — các cờ thiết lập cho lập kế hoạch, xác nhận, định giá và in"
+keywords:
+  - kiểm soát hoạt động
+  - hồ sơ
+  - cấu hình
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

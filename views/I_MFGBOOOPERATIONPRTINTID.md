@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOOPERATIONPRTINTID
 description: Mfgboooperationprtintid
+semantic_en: "Internal identifier mapping for bill of operations operation production resource tool assignments — provides sequence and component linkage."
+semantic_vi: "Ánh xạ định danh nội bộ cho gán công cụ tài nguyên sản xuất công đoạn — cung cấp liên kết chuỗi và thành phần."
+keywords:
+  - công cụ tài nguyên sản xuất
+  - định danh nội bộ
+  - công đoạn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

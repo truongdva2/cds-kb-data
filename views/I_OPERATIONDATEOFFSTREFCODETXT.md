@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONDATEOFFSTREFCODETXT
 description: Operationdateoffstrefcodetxt
+semantic_en: "operation date offset reference code text — localized names of operation date offset reference codes"
+semantic_vi: "văn bản mã tham chiếu chênh lệch ngày hoạt động — tên các mã tham chiếu chênh lệch ngày theo ngôn ngữ"
+keywords:
+  - chênh lệch ngày đa ngôn ngữ
+  - mã tham chiếu
+  - tên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

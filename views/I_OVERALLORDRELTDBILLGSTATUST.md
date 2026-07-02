@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLORDRELTDBILLGSTATUST
 description: Overallordreltdbillgstatust
+semantic_en: "order-related billing status text — provides multilingual descriptions for billing statuses linked to orders."
+semantic_vi: "văn bản trạng thái hóa đơn liên quan đến đơn hàng — cung cấp mô tả đa ngôn ngữ cho các trạng thái hóa đơn liên kết với đơn hàng."
+keywords:
+  - mô tả hóa đơn đơn hàng
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONCOMPONENT
 description: Mfgorderoperationcomponent
+semantic_en: "Components assigned to manufacturing order operations — includes reservation, material, plant, and category information per operation."
+semantic_vi: "Các thành phần được gán cho công đoạn lệnh sản xuất — bao gồm thông tin đặt chỗ, vật liệu, nhà máy, và danh mục trên mỗi công đoạn."
+keywords:
+  - thành phần công đoạn
+  - lệnh sản xuất
+  - vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

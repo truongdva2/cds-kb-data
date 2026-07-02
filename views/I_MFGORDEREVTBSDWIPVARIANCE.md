@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEREVTBSDWIPVARIANCE
 description: Mfgorderevtbsdwipvariance
+semantic_en: "Event-based work-in-process variance analysis for manufacturing orders — breaks down by ledger, cost center, cost object, and produced product."
+semantic_vi: "Phân tích phương sai công việc đang tiến hành dựa trên sự kiện cho lệnh sản xuất — phân tách theo sổ cái, trung tâm chi phí, đối tượng chi phí, và sản phẩm sản xuất."
+keywords:
+  - phương sai công việc đang tiến hành
+  - lệnh sản xuất
+  - phân tích chi phí
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

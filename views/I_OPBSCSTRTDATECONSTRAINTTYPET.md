@@ -1,6 +1,12 @@
 ---
 name: I_OPBSCSTRTDATECONSTRAINTTYPET
 description: Opbscstrtdateconstrainttypet
+semantic_en: "operation start date constraint type text — localized descriptions of start constraint types"
+semantic_vi: "văn bản loại ràng buộc ngày bắt đầu cơ bản của hoạt động — mô tả các loại ràng buộc bắt đầu theo ngôn ngữ"
+keywords:
+  - ràng buộc ngày bắt đầu đa ngôn ngữ
+  - mô tả
+  - loại
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

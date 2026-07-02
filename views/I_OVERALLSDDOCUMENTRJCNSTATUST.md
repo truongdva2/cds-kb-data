@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLSDDOCUMENTRJCNSTATUST
 description: Overallsddocumentrjcnstatust
+semantic_en: "text repository for overall SD document rejection status — contains language-specific descriptions of document rejection states"
+semantic_vi: "kho chứa mô tả trạng thái từ chối tài liệu SD toàn bộ theo từng ngôn ngữ"
+keywords:
+  - từ chối SD
+  - mô tả từ chối
+  - ngôn ngữ từ chối
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

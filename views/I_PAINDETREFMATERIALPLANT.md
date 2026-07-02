@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETREFMATERIALPLANT
 description: Paindetrefmaterialplant
+semantic_en: "packing instruction details by reference material and plant — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu tham chiếu và nhà máy — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu tham chiếu
+  - nhà máy
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

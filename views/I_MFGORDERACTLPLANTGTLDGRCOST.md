@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERACTLPLANTGTLDGRCOST
 description: Mfgorderactlplantgtldgrcost
+semantic_en: "Parameterized projection of manufacturing order actual and planned target costs by plant and general ledger account — segments by cost center activity and company."
+semantic_vi: "Phép chiếu tham số hóa chi phí thực tế và lập kế hoạch mục tiêu của lệnh sản xuất theo nhà máy và tài khoản sổ cái chung — phân đoạn theo hoạt động trung tâm chi phí và công ty."
+keywords:
+  - chi phí sản xuất
+  - tài khoản sổ cái
+  - nhà máy
 app_component: CO-PC-OBJ-ORD-2CL
 software_component: SAPSCORE
 release_state: released

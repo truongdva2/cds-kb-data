@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTMETHOD
 description: Paymentmethod
+semantic_en: "payment method by country — payment method configuration including check, bill of exchange, and direct debit usage flags."
+semantic_vi: "phương thức thanh toán theo quốc gia — cấu hình phương thức thanh toán bao gồm các cờ sử dụng chi phiếu, hối phiếu và ghi nợ trực tiếp."
+keywords:
+  - phương thức thanh toán
+  - quốc gia
+  - chi phiếu
 app_component: FI-AP-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONSETTLEMENTTYPETEXT
 description: Optionsettlementtypetext
+semantic_en: "option settlement type text — localized descriptions of option settlement types"
+semantic_vi: "văn bản loại quyết toán quyền — mô tả các loại quyết toán quyền theo ngôn ngữ"
+keywords:
+  - quyết toán quyền đa ngôn ngữ
+  - mô tả
+  - loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

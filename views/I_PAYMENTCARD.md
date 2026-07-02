@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTCARD
 description: Paymentcard
+semantic_en: "payment card master data — card details including type, number, holder information, and authorization settings."
+semantic_vi: "dữ liệu chính thẻ thanh toán — chi tiết thẻ bao gồm loại, số, thông tin chủ thẻ và cài đặt ủy quyền."
+keywords:
+  - thẻ thanh toán
+  - dữ liệu chính
+  - số thẻ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

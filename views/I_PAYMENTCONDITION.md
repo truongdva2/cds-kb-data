@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTCONDITION
 description: Paymentcondition
+semantic_en: "payment condition — payment terms configuration with terms of payment and factory calendar settings."
+semantic_vi: "điều kiện thanh toán — cấu hình điều khoản thanh toán với các khoản thanh toán và cài đặt lịch nhà máy."
+keywords:
+  - điều kiện thanh toán
+  - khoản thanh toán
+  - lịch nhà máy
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERCOMPANYGLACCTAUTHZN
 description: Partnercompanyglacctauthzn
+semantic_en: "GL account authorization object by partner company — authorization group and GL account assignment for companies."
+semantic_vi: "đối tượng ủy quyền tài khoản GL theo công ty đối tác — nhóm ủy quyền và phân công tài khoản GL cho các công ty."
+keywords:
+  - ủy quyền tài khoản GL
+  - công ty đối tác
+  - nhóm ủy quyền
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

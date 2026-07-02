@@ -1,6 +1,12 @@
 ---
 name: I_MX_SUPPLIERTRANSACTIONTYPE
 description: MX Suppliertransactiontype
+semantic_en: "supplier transaction type and version — capturing business type, tax grouping version, and order type for suppliers in Mexico"
+semantic_vi: "loại giao dịch nhà cung cấp và phiên bản — ghi nhận loại kinh doanh, phiên bản nhóm thuế và loại đơn hàng"
+keywords:
+  - giao dịch nhà cung cấp
+  - loại kinh doanh Mexico
+  - nhóm thuế
 app_component: FI-LOC-FI-MX
 software_component: SAPSCORE
 release_state: released

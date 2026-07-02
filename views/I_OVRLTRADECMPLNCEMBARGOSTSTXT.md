@@ -1,6 +1,12 @@
 ---
 name: I_OVRLTRADECMPLNCEMBARGOSTSTXT
 description: Ovrltradecmplncembargoststxt
+semantic_en: "text repository for embargo status in trade compliance — contains language-specific descriptions of embargo enforcement states"
+semantic_vi: "kho chứa mô tả trạng thái cấm vận trong tuân thủ thương mại theo từng ngôn ngữ"
+keywords:
+  - mô tả cấm vận
+  - ngôn ngữ tuân thủ
+  - trạng thái kiểm tra
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

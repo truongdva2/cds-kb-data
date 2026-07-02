@@ -1,6 +1,11 @@
 ---
 name: I_MFGORDERCATEGORYTEXT
 description: Mfgordercategorytext
+semantic_en: "Text descriptions for manufacturing order categories in multiple languages — provides localized category names."
+semantic_vi: "Mô tả văn bản cho các danh mục lệnh sản xuất trong nhiều ngôn ngữ — cung cấp tên danh mục địa phương hóa."
+keywords:
+  - danh mục lệnh sản xuất
+  - văn bản nhiều ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

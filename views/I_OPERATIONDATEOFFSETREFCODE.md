@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONDATEOFFSETREFCODE
 description: Operationdateoffsetrefcode
+semantic_en: "operation date offset reference code — master data code for operation scheduling offsets"
+semantic_vi: "mã tham chiếu chênh lệch ngày hoạt động — mã dữ liệu chính cho chênh lệch lập kế hoạch hoạt động"
+keywords:
+  - chênh lệch ngày hoạt động
+  - ngày lập kế hoạch
+  - mã tham chiếu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORDERCONFIRMATIONTYPE
 description: Orderconfirmationtype
+semantic_en: "order confirmation type — domain values for order confirmation classifications"
+semantic_vi: "loại xác nhận đơn hàng — giá trị miền cho phân loại xác nhận đơn hàng"
+keywords:
+  - xác nhận đơn hàng
+  - loại xác nhận
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

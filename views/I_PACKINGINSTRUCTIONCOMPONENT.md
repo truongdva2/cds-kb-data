@@ -1,6 +1,12 @@
 ---
 name: I_PACKINGINSTRUCTIONCOMPONENT
 description: Packinginstructioncomponent
+semantic_en: "packing instruction components — defines handling unit restrictions and consolidation rules for materials in packing operations"
+semantic_vi: "các thành phần hướng dẫn đóng gói — xác định các hạn chế đơn vị xử lý và quy tắc hợp nhất cho các vật liệu trong hoạt động đóng gói"
+keywords:
+  - hướng dẫn đóng gói
+  - thành phần vật liệu
+  - quy tắc đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

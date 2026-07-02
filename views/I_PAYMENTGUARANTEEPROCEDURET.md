@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTGUARANTEEPROCEDURET
 description: Paymentguaranteeproceduret
+semantic_en: "payment guarantee procedure text — language-dependent description of payment guarantee procedures."
+semantic_vi: "văn bản thủ tục bảo lãnh thanh toán — mô tả phụ thuộc ngôn ngữ về thủ tục bảo lãnh thanh toán."
+keywords:
+  - bảo lãnh thanh toán
+  - thủ tục
+  - mô tả
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

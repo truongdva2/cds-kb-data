@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMGENINCOMPLETIONSTS
 description: Ovrlitmgenincompletionsts
+semantic_en: "domain value mapping for overall item general incompletion status — categorizes general incompleteness states across items"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành chung hàng hóa toàn bộ — phân loại trạng thái chưa hoàn thành chung ở cấp hàng hóa"
+keywords:
+  - chưa hoàn thành chung
+  - trạng thái tổng quát
+  - hàng hóa không hoàn thành
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

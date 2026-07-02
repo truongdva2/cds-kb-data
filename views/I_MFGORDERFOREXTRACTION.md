@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERFOREXTRACTION
 description: Mfgorderforextraction
+semantic_en: "Manufacturing orders for data extraction — projects core order attributes including category, type, and completion status."
+semantic_vi: "Lệnh sản xuất để trích xuất dữ liệu — phát chiếu các thuộc tính cốt lõi của lệnh bao gồm danh mục, loại, và trạng thái hoàn thành."
+keywords:
+  - lệnh sản xuất
+  - trích xuất dữ liệu
+  - danh mục
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

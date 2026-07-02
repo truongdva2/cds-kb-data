@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONPUTCALLCODE
 description: Optionputcallcode
+semantic_en: "option put call code — domain values for put and call options classification"
+semantic_vi: "mã quyền mua bán — giá trị miền cho phân loại quyền bán và mua"
+keywords:
+  - quyền mua bán
+  - tùy chọn
+  - mã
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

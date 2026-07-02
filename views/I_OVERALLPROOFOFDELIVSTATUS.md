@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPROOFOFDELIVSTATUS
 description: Overallproofofdelivstatus
+semantic_en: "domain value mapping for proof of delivery status at document header level — defines completion states for delivery confirmation"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chứng minh giao hàng ở cấp đầu đơn — xác định các trạng thái hoàn thành xác nhận giao hàng"
+keywords:
+  - chứng minh giao hàng
+  - trạng thái giao hàng
+  - xác nhận đơn
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

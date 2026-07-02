@@ -1,6 +1,12 @@
 ---
 name: I_MRCHDSCATHIERNODECHARC
 description: Mrchdscathiernodecharc
+semantic_en: "Characteristics assigned to merchandise category hierarchy nodes — maps characteristics to hierarchy levels with internal identifiers."
+semantic_vi: "Các đặc tính được gán cho các nút bộ phận danh mục hàng hóa — ánh xạ đặc tính vào các mức bộ phận với định danh nội bộ."
+keywords:
+  - danh mục hàng hóa
+  - bộ phận phân cấp
+  - đặc tính
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

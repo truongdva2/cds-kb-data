@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERYTP
 description: Outbound DeliveryTP
+semantic_en: "transient projection of outbound delivery — captures shipment routing, warehouse staging, incoterms, and party details."
+semantic_vi: "phép chiếu tạm thời của giao đi — ghi lại định tuyến vận chuyển, khu vực ngoại của kho, incoterms, và chi tiết bên liên quan."
+keywords:
+  - giao đi
+  - vận chuyển
+  - incoterms
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

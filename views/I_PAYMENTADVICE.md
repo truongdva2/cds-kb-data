@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTADVICE
 description: Paymentadvice
+semantic_en: "payment advice header — payment document details including method, currency, amount, and bank information."
+semantic_vi: "tiêu đề thông báo thanh toán — chi tiết tài liệu thanh toán bao gồm phương thức, tiền tệ, số tiền và thông tin ngân hàng."
+keywords:
+  - thông báo thanh toán
+  - tài liệu thanh toán
+  - ngân hàng
 app_component: CA-GTF-FXU-FI-AR
 software_component: SAPSCORE
 release_state: released

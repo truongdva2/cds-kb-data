@@ -1,6 +1,12 @@
 ---
 name: I_ONETIMEACCOUNTCUSTOMER
 description: Onetimeaccountcustomer
+semantic_en: "one-time account data for customer — unstructured customer address details in accounting documents"
+semantic_vi: "dữ liệu tài khoản một lần cho khách hàng — chi tiết địa chỉ khách hàng không có cấu trúc trong tài liệu kế toán"
+keywords:
+  - tài khoản khách hàng
+  - một lần
+  - địa chỉ
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

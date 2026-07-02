@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERITEMSERIALNUMBER
 description: MFGORDERITEMSerial Number
+semantic_en: "Serial number assignments for manufacturing order items — maps equipment, product, and plant details with MRP controller assignment."
+semantic_vi: "Gán số sê-ri cho các mục lệnh sản xuất — ánh xạ chi tiết thiết bị, sản phẩm, nhà máy với gán bộ điều khiển MRP."
+keywords:
+  - số sê-ri
+  - lệnh sản xuất
+  - thiết bị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

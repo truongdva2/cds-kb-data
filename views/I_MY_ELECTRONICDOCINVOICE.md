@@ -1,6 +1,12 @@
 ---
 name: I_MY_ELECTRONICDOCINVOICE
 description: MY Electronicdocinvoice
+semantic_en: "eDocument Malaysia eInvoice — electronic invoice details including UUID, reference numbers, consolidation flags, and cancellation reasons"
+semantic_vi: "hóa đơn điện tử Malaysia — chi tiết hóa đơn điện tử bao gồm UUID, số tham chiếu và lý do hủy"
+keywords:
+  - hóa đơn điện tử Malaysia
+  - eInvoice
+  - e-hóa đơn
 app_component: CA-GTF-CSC-EDO-MY
 software_component: SAPSCORE
 release_state: released

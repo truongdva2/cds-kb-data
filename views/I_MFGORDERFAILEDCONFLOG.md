@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERFAILEDCONFLOG
 description: Mfgorderfailedconflog
+semantic_en: "Error log for failed manufacturing order confirmations — stores system messages and error variables."
+semantic_vi: "Nhật ký lỗi cho xác nhận lệnh sản xuất thất bại — lưu trữ thông báo hệ thống và biến lỗi."
+keywords:
+  - xác nhận thất bại
+  - nhật ký lỗi
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

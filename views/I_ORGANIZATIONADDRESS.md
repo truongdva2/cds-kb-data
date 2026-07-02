@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONADDRESS
 description: Organizationaddress
+semantic_en: "organization postal address — stores complete address details including city, postal code, and street information."
+semantic_vi: "địa chỉ bưu chính của tổ chức — lưu trữ chi tiết địa chỉ đầy đủ bao gồm thành phố, mã bưu chính và thông tin đường phố."
+keywords:
+  - địa chỉ bưu chính
+  - thông tin tổ chức
+  - mã bưu chính
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

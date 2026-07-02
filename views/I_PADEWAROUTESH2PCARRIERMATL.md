@@ -1,6 +1,12 @@
 ---
 name: I_PADEWAROUTESH2PCARRIERMATL
 description: Padewaroutesh 2PCARRIERMATL
+semantic_en: "PaDeWa condition records for route, ship-to-party, carrier and material — assigns packing instructions based on logistics routing and material attributes"
+semantic_vi: "bản ghi điều kiện PaDeWa cho tuyến đường, bên nhận hàng, nhà vận chuyển và vật liệu — gán hướng dẫn đóng gói dựa trên định tuyến hậu cần và thuộc tính vật liệu"
+keywords:
+  - PaDeWa tuyến đường
+  - nhà vận chuyển
+  - hướng dẫn đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MODELPRODUCTSPECIFICATIONTP
 description: Modelproductspecificationtp
+semantic_en: "Model product specification headers for templates — includes specification name, grouping code, and activation status."
+semantic_vi: "Tiêu đề thông số kỹ thuật sản phẩm mẫu cho mẫu — bao gồm tên thông số kỹ thuật, mã nhóm, và trạng thái kích hoạt."
+keywords:
+  - thông số kỹ thuật sản phẩm
+  - mẫu
+  - kích hoạt
 app_component: MM-PUR-MPS-2CL
 software_component: SAPSCORE
 release_state: released

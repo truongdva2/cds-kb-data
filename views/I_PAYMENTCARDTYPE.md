@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTCARDTYPE
 description: Paymentcardtype
+semantic_en: "payment card type master data — card type configuration including validity dates, issuing bank, and lock status."
+semantic_vi: "dữ liệu chính loại thẻ thanh toán — cấu hình loại thẻ bao gồm ngày hiệu lực, ngân hàng phát hành và trạng thái khóa."
+keywords:
+  - loại thẻ thanh toán
+  - dữ liệu chính
+  - ngân hàng phát hành
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

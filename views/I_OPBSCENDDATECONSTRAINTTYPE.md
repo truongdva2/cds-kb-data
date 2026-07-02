@@ -1,6 +1,12 @@
 ---
 name: I_OPBSCENDDATECONSTRAINTTYPE
 description: Opbscenddateconstrainttype
+semantic_en: "operation basic end date constraint type — code values for operation finish date constraints"
+semantic_vi: "loại ràng buộc ngày kết thúc cơ bản của hoạt động — giá trị mã cho ràng buộc ngày hoàn thành"
+keywords:
+  - ràng buộc ngày kết thúc
+  - hoạt động cơ bản
+  - loại ràng buộc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

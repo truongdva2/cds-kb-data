@@ -1,6 +1,12 @@
 ---
 name: I_MOVEMENTCATEGORY
 description: Movementcategory
+semantic_en: "Asset movement categories — classifies fixed asset accounting transactions by type."
+semantic_vi: "Danh mục chuyển động tài sản cố định — phân loại giao dịch kế toán tài sản cố định theo loại."
+keywords:
+  - chuyển động tài sản
+  - phân loại
+  - giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

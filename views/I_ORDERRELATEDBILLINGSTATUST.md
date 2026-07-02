@@ -1,6 +1,12 @@
 ---
 name: I_ORDERRELATEDBILLINGSTATUST
 description: Orderrelatedbillingstatust
+semantic_en: "order related billing status text — localized descriptions of order-related billing statuses"
+semantic_vi: "văn bản trạng thái lập hóa đơn liên quan đến đơn hàng — mô tả trạng thái lập hóa đơn liên quan theo ngôn ngữ"
+keywords:
+  - lập hóa đơn đa ngôn ngữ
+  - trạng thái
+  - đơn hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONTRGGRPOINT
 description: Mfgorderoperationtrggrpoint
+semantic_en: "Trigger points for manufacturing order operations — defines project milestones with usage codes and deletion status."
+semantic_vi: "Điểm kích hoạt cho công đoạn lệnh sản xuất — định nghĩa các mốc dự án với mã sử dụng và trạng thái xóa."
+keywords:
+  - điểm kích hoạt
+  - công đoạn lệnh sản xuất
+  - dự án
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

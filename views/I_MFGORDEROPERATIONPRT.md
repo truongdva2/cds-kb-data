@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONPRT
 description: Mfgorderoperationprt
+semantic_en: "Production resource tool assignments for manufacturing order operations — includes resource type, tool category, and text documentation."
+semantic_vi: "Gán công cụ tài nguyên sản xuất cho công đoạn lệnh sản xuất — bao gồm loại tài nguyên, danh mục công cụ, và tài liệu văn bản."
+keywords:
+  - công cụ tài nguyên sản xuất
+  - công đoạn lệnh sản xuất
+  - tài nguyên
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

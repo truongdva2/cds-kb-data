@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONPUTCALLCODETEXT
 description: Optionputcallcodetext
+semantic_en: "option put call code text — localized descriptions of put and call option codes"
+semantic_vi: "văn bản mã quyền mua bán — mô tả các mã quyền mua bán theo ngôn ngữ"
+keywords:
+  - quyền mua bán đa ngôn ngữ
+  - mô tả
+  - mã
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

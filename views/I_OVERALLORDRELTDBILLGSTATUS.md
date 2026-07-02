@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLORDRELTDBILLGSTATUS
 description: Overallordreltdbillgstatus
+semantic_en: "order-related billing status reference — provides domain values for billing status tied to sales order fulfillment."
+semantic_vi: "tham chiếu trạng thái hóa đơn liên quan đến đơn hàng — cung cấp các giá trị tên miền cho trạng thái hóa đơn liên kết với thực hiện đơn hàng bán."
+keywords:
+  - hóa đơn liên quan đơn hàng
+  - trạng thái
+  - đơn hàng bán
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

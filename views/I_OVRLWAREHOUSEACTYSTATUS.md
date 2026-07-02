@@ -1,6 +1,12 @@
 ---
 name: I_OVRLWAREHOUSEACTYSTATUS
 description: Ovrlwarehouseactystatus
+semantic_en: "domain value mapping for overall warehouse activity status — defines operational states of warehouse activities"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái hoạt động kho toàn bộ — xác định trạng thái hoạt động của các hoạt động kho"
+keywords:
+  - hoạt động kho
+  - trạng thái kho
+  - quản lý kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

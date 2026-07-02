@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLSDDOCUMENTRJCNSTATUS
 description: Overallsddocumentrjcnstatus
+semantic_en: "domain value mapping for overall SD document rejection status — categorizes rejection states for sales distribution documents"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái từ chối tài liệu SD toàn bộ — phân loại trạng thái từ chối đơn hàng"
+keywords:
+  - từ chối tài liệu
+  - trạng thái từ chối
+  - tài liệu SD
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

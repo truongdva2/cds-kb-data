@@ -1,6 +1,11 @@
 ---
 name: I_MISCPRODNRSCETOOL
 description: Miscprodnrscetool
+semantic_en: "Miscellaneous production resource tools — defines tools with usage, control profile, and quantity calculation formulas."
+semantic_vi: "Công cụ tài nguyên sản xuất khác — định nghĩa công cụ với sử dụng, hồ sơ kiểm soát, và công thức tính toán số lượng."
+keywords:
+  - công cụ tài nguyên sản xuất
+  - công thức tính toán
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

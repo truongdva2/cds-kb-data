@@ -1,6 +1,12 @@
 ---
 name: I_MX_TRANSACTIONTYPE
 description: MX Transactiontype
+semantic_en: "Mexico transaction type — domain value representing business transaction classifications"
+semantic_vi: "loại giao dịch Mexico — giá trị miền đại diện cho các phân loại giao dịch kinh doanh"
+keywords:
+  - loại giao dịch
+  - phân loại kinh doanh Mexico
+  - miền giao dịch
 app_component: FI-LOC-FI-MX
 software_component: SAPSCORE
 release_state: released

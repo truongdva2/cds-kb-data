@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETMATERIALPLANTSUPPLIER
 description: Paindetmaterialplantsupplier
+semantic_en: "packing instruction details by material, plant, and supplier — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu, nhà máy và nhà cung cấp — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu nhà máy
+  - nhà cung cấp
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGE
 description: Organizationalchange
+semantic_en: "organizational change record — tracks organizational structure modifications with status, effective dates, and user audit trails."
+semantic_vi: "bản ghi thay đổi tổ chức — theo dõi các sửa đổi cấu trúc tổ chức với trạng thái, ngày hiệu lực, và dấu vết kiểm toán của người dùng."
+keywords:
+  - thay đổi tổ chức
+  - cấu trúc tổ chức
+  - trạng thái xử lý
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OPERATINGCONCERNTEXT
 description: Operatingconcerntext
+semantic_en: "operating concern text — localized names of operating concerns by language"
+semantic_vi: "văn bản đơn vị kinh doanh — tên các đơn vị kinh doanh theo ngôn ngữ"
+keywords:
+  - đơn vị kinh doanh đa ngôn ngữ
+  - tên
+  - kinh doanh
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGETEXT
 description: Organizationalchangetext
+semantic_en: "organizational change description — provides multilingual names and labels for organizational changes."
+semantic_vi: "mô tả thay đổi tổ chức — cung cấp tên và nhãn đa ngôn ngữ cho các thay đổi tổ chức."
+keywords:
+  - tên thay đổi tổ chức
+  - mô tả đa ngôn ngữ
+  - thay đổi
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

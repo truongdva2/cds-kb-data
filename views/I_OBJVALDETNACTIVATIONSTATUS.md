@@ -1,6 +1,12 @@
 ---
 name: I_OBJVALDETNACTIVATIONSTATUS
 description: Objvaldetnactivationstatus
+semantic_en: "activation status — domain values representing object validation determination activation statuses"
+semantic_vi: "trạng thái kích hoạt — giá trị miền đại diện cho trạng thái kích hoạt xác định giá trị đối tượng"
+keywords:
+  - trạng thái kích hoạt
+  - kích hoạt đối tượng
+  - xác định giá trị
 app_component: CA-ATP-OVD-2CL
 software_component: SAPSCORE
 release_state: released

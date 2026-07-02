@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONLONGTEXT
 description: Mfgorderoperationlongtext
+semantic_en: "Long text descriptions for manufacturing order operations — stores detailed notes per operation in specified language."
+semantic_vi: "Mô tả văn bản dài cho công đoạn lệnh sản xuất — lưu trữ ghi chép chi tiết cho mỗi công đoạn bằng ngôn ngữ được chỉ định."
+keywords:
+  - công đoạn lệnh sản xuất
+  - văn bản dài
+  - ghi chép
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

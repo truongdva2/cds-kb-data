@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERCOMPANYCUSTOMERAUTHZN
 description: Partnercompanycustomerauthzn
+semantic_en: "customer authorization by partner company — authorization group assigned to customers within a partner company."
+semantic_vi: "ủy quyền khách hàng theo công ty đối tác — nhóm ủy quyền được gán cho khách hàng trong công ty đối tác."
+keywords:
+  - ủy quyền khách hàng
+  - công ty đối tác
+  - nhóm ủy quyền
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

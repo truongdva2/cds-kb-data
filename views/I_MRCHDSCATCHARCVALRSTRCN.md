@@ -1,6 +1,12 @@
 ---
 name: I_MRCHDSCATCHARCVALRSTRCN
 description: Mrchdscatcharcvalrstrcn
+semantic_en: "Characteristic value restrictions for merchandise categories — defines valid value ranges and intervals per characteristic."
+semantic_vi: "Hạn chế giá trị đặc tính cho danh mục hàng hóa — định nghĩa các phạm vi và khoảng giá trị hợp lệ trên mỗi đặc tính."
+keywords:
+  - danh mục hàng hóa
+  - hạn chế giá trị
+  - đặc tính
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

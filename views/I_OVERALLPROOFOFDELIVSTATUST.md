@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPROOFOFDELIVSTATUST
 description: Overallproofofdelivstatust
+semantic_en: "text repository for proof of delivery status at header level — provides language-specific text descriptions of delivery proof states"
+semantic_vi: "kho lưu trữ mô tả trạng thái chứng minh giao hàng ở cấp đầu — cung cấp mô tả văn bản theo từng ngôn ngữ"
+keywords:
+  - chứng minh giao
+  - mô tả giao hàng
+  - ngôn ngữ giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

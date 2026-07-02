@@ -1,6 +1,12 @@
 ---
 name: I_PACKINGINSTRUCTIONHEADER
 description: Packinginstructionheader
+semantic_en: "packing instruction headers — defines handling unit characteristics and dimensional specifications for packing operations"
+semantic_vi: "đầu hướng dẫn đóng gói — xác định đặc điểm đơn vị xử lý và thông số kỹ thuật kích thước cho hoạt động đóng gói"
+keywords:
+  - đơn vị xử lý
+  - kích thước đóng gói
+  - hướng dẫn gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

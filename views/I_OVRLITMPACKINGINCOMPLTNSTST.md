@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMPACKINGINCOMPLTNSTST
 description: Ovrlitmpackingincompltnstst
+semantic_en: "text repository for overall item packing incompletion status — contains language-specific descriptions of item packing incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành đóng gói hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả đóng gói
+  - ngôn ngữ đóng gói
+  - trạng thái đóng gói
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

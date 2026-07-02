@@ -1,6 +1,12 @@
 ---
 name: I_PADEWASUPPLIERMATERIAL
 description: Padewasuppliermaterial
+semantic_en: "PaDeWa condition records for supplier and material — assigns packing instructions based on supplier-material sourcing relationships"
+semantic_vi: "bản ghi điều kiện PaDeWa cho nhà cung cấp và vật liệu — gán hướng dẫn đóng gói dựa trên mối quan hệ tìm nguồn nhà cung cấp-vật liệu"
+keywords:
+  - PaDeWa nhà cung cấp
+  - vật liệu nguồn
+  - hướng dẫn đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

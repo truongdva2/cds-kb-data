@@ -1,6 +1,12 @@
 ---
 name: I_MNLACCRSACCRUALSUBOBJECT
 description: Mnlaccrsaccrualsubobject
+semantic_en: "Manual accruals by accrual subobject — tracks accrual objects, premature finish dates, and responsible persons."
+semantic_vi: "Các khoản dự phòng thủ công theo đối tượng dự phòng phụ — theo dõi các đối tượng dự phòng, ngày hoàn thành sớm, và người chịu trách nhiệm."
+keywords:
+  - dự phòng thủ công
+  - đối tượng dự phòng
+  - ngày hoàn thành
 app_component: FI-GL-GL-AAC
 software_component: SAPSCORE
 release_state: released

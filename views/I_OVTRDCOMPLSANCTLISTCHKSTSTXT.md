@@ -1,6 +1,12 @@
 ---
 name: I_OVTRDCOMPLSANCTLISTCHKSTSTXT
 description: Ovtrdcomplsanctlistchkststxt
+semantic_en: "text repository for sanctions list screening status in trade compliance — provides language-specific descriptions of sanctions screening verification"
+semantic_vi: "kho chứa mô tả trạng thái sàng lọc danh sách bị trừng phạt trong tuân thủ thương mại theo từng ngôn ngữ"
+keywords:
+  - sàng lọc danh sách
+  - mô tả sàng lọc
+  - ngôn ngữ trừng phạt
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

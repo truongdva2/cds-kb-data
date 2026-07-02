@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGEPRFTCTRSELECTIONTP
 description: Orglchangeprftctrselectiontp
+semantic_en: "organizational change profit center selection — maps profit centers to organizational changes by controlling area."
+semantic_vi: "lựa chọn trung tâm lợi nhuận thay đổi tổ chức — ánh xạ các trung tâm lợi nhuận tới các thay đổi tổ chức theo khu vực kiểm soát."
+keywords:
+  - trung tâm lợi nhuận
+  - lựa chọn
+  - kiểm soát
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

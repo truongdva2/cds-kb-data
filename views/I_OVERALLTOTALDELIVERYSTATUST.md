@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLTOTALDELIVERYSTATUST
 description: Overalltotaldeliverystatust
+semantic_en: "text repository for overall total delivery status — provides language-specific descriptions of total delivery completion states"
+semantic_vi: "kho chứa mô tả trạng thái giao hàng tổng thể toàn bộ theo từng ngôn ngữ"
+keywords:
+  - tổng giao
+  - mô tả giao hàng
+  - ngôn ngữ giao
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

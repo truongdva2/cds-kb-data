@@ -1,6 +1,11 @@
 ---
 name: I_MRCHDSCATCMPLTHIERARCHYNODE
 description: Mrchdscatcmplthierarchynode
+semantic_en: "Complete hierarchy nodes for merchandise categories — links parent and child category nodes."
+semantic_vi: "Các nút bộ phận hoàn chỉnh cho danh mục hàng hóa — liên kết các nút danh mục cha và con."
+keywords:
+  - danh mục hàng hóa
+  - bộ phận phân cấp
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OUTBDELIVITEMSERIALNUMBERTP
 description: OUTBDELIVITEMSerial NumberTP
+semantic_en: "transient projection of outbound delivery item serial numbers — tracks equipment and material serial identifiers."
+semantic_vi: "phép chiếu tạm thời của số seri mục vật tư giao đi — theo dõi các định danh số seri thiết bị và vật liệu."
+keywords:
+  - số seri
+  - giao đi
+  - vật tư
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

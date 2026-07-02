@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSETUPTYPETEXT
 description: Operationsetuptypetext
+semantic_en: "operation setup type text — localized names of operation setup types by plant and language"
+semantic_vi: "văn bản loại thiết lập hoạt động — tên các loại thiết lập hoạt động theo nhà máy và ngôn ngữ"
+keywords:
+  - loại thiết lập đa ngôn ngữ
+  - nhà máy
+  - tên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

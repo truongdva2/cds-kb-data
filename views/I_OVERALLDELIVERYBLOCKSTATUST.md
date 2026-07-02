@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVERYBLOCKSTATUST
 description: Overalldeliveryblockstatust
+semantic_en: "delivery block status text — provides multilingual descriptions for overall delivery block statuses."
+semantic_vi: "văn bản trạng thái khóa giao — cung cấp mô tả đa ngôn ngữ cho các trạng thái khóa giao tổng thể."
+keywords:
+  - mô tả khóa giao
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

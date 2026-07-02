@@ -1,6 +1,12 @@
 ---
 name: I_ORDERCATEGORYTEXT
 description: Ordercategorytext
+semantic_en: "order category text — localized descriptions of order categories"
+semantic_vi: "văn bản danh mục đơn hàng — mô tả các danh mục đơn hàng theo ngôn ngữ"
+keywords:
+  - danh mục đơn hàng đa ngôn ngữ
+  - mô tả
+  - loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

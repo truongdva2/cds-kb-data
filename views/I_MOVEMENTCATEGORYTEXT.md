@@ -1,6 +1,11 @@
 ---
 name: I_MOVEMENTCATEGORYTEXT
 description: Movementcategorytext
+semantic_en: "Text descriptions for asset movement categories in multiple languages — provides localized category names."
+semantic_vi: "Mô tả văn bản cho danh mục chuyển động tài sản trong nhiều ngôn ngữ — cung cấp tên danh mục địa phương hóa."
+keywords:
+  - danh mục chuyển động tài sản
+  - văn bản nhiều ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

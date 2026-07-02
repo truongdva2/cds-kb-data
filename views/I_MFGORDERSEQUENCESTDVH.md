@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERSEQUENCESTDVH
 description: Mfgordersequencestdvh
+semantic_en: "Value help for manufacturing order sequences — provides sequence lookup with basic text and category attributes."
+semantic_vi: "Trợ giúp giá trị cho các chuỗi lệnh sản xuất — cung cấp tra cứu chuỗi với văn bản cơ bản và thuộc tính danh mục."
+keywords:
+  - chuỗi lệnh sản xuất
+  - tra cứu
+  - giá trị trợ giúp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

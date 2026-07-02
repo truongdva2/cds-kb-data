@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERCOMPONENTWITHSTATUS
 description: Mfgordercomponentwithstatus
+semantic_en: "Manufacturing order components with current status — includes reservation, material, plant, and product details across order sequences and operations."
+semantic_vi: "Các thành phần lệnh sản xuất với trạng thái hiện tại — bao gồm chi tiết đặt chỗ, vật liệu, nhà máy, và sản phẩm trên các chuỗi và công đoạn lệnh."
+keywords:
+  - thành phần lệnh sản xuất
+  - trạng thái
+  - vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

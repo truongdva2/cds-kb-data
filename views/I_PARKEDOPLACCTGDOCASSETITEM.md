@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCASSETITEM
 description: Parkedoplacctgdocassetitem
+semantic_en: "parked asset item within an operational accounting document — asset-related posting details including company code, accounting document reference, and asset transaction key."
+semantic_vi: "mục tài sản đang chờ xử lý trong tài liệu kế toán hoạt động — chi tiết khóa tài sản bao gồm mã công ty, tham chiếu tài liệu kế toán và loại giao dịch tài sản."
+keywords:
+  - tài liệu kế toán
+  - tài sản
+  - chờ xử lý
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

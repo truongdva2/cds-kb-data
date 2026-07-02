@@ -1,6 +1,12 @@
 ---
 name: I_OVRLBILLINGDOCREQSTATUS
 description: OVRLBilling DocumentREQSTATUS
+semantic_en: "domain value mapping for overall billing document request status — defines request completion states for billing documents"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái yêu cầu tài liệu lập hóa đơn toàn bộ — xác định trạng thái hoàn thành yêu cầu lập hóa đơn"
+keywords:
+  - yêu cầu lập hóa đơn
+  - trạng thái lập hóa đơn
+  - tài liệu lập hóa đơn
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

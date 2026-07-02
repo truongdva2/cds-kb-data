@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONVH
 description: Mfgorderoperationvh
+semantic_en: "Value help for manufacturing order operations — provides lookup data for operation selection with order context."
+semantic_vi: "Trợ giúp giá trị cho công đoạn lệnh sản xuất — cung cấp dữ liệu tra cứu để chọn công đoạn với ngữ cảnh lệnh."
+keywords:
+  - công đoạn lệnh sản xuất
+  - tra cứu
+  - giá trị trợ giúp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

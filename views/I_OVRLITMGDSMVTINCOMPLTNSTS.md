@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMGDSMVTINCOMPLTNSTS
 description: Ovrlitmgdsmvtincompltnsts
+semantic_en: "domain value mapping for overall item goods movement incompletion status — defines incompleteness states for item-level inventory movements"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành chuyển động hàng hóa hàng hóa toàn bộ — xác định trạng thái chưa hoàn thành chuyển động kho ở cấp hàng"
+keywords:
+  - chuyển động hàng hóa
+  - trạng thái kho
+  - chưa hoàn thành kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

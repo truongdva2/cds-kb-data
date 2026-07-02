@@ -1,6 +1,12 @@
 ---
 name: I_OVTRDCMPLNCSNCTNDLISTCHKSTS
 description: Ovtrdcmplncsnctndlistchksts
+semantic_en: "domain value mapping for sanctions list screening status in trade compliance — defines verification states for sanctioned entities"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái sàng lọc danh sách bị trừng phạt trong tuân thủ thương mại — xác định trạng thái xác minh cho các thực thể bị trừng phạt"
+keywords:
+  - sàng lọc trừng phạt
+  - danh sách cấm
+  - tuân thủ thương mại
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

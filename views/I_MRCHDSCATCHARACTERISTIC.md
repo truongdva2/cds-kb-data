@@ -1,6 +1,12 @@
 ---
 name: I_MRCHDSCATCHARACTERISTIC
 description: Mrchdscatcharacteristic
+semantic_en: "Merchandise category characteristic assignments — maps characteristics to merchandise categories with internal identifiers."
+semantic_vi: "Gán đặc tính danh mục hàng hóa — ánh xạ đặc tính vào danh mục hàng hóa với định danh nội bộ."
+keywords:
+  - danh mục hàng hóa
+  - đặc tính
+  - gán
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

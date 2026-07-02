@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTBLOCKLEVELTEXT
 description: Paymentblockleveltext
+semantic_en: "payment block level text — language-dependent description of payment blocking scope levels."
+semantic_vi: "văn bản mức độ chặn thanh toán — mô tả phụ thuộc ngôn ngữ về mức phạm vi chặn thanh toán."
+keywords:
+  - chặn thanh toán
+  - mức độ
+  - mô tả
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

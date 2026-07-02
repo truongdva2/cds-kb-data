@@ -1,6 +1,12 @@
 ---
 name: I_OPERATINGCONCERN
 description: Operatingconcern
+semantic_en: "operating concern — master data for profitability analysis organization units"
+semantic_vi: "đơn vị kinh doanh — dữ liệu chính cho các đơn vị tổ chức phân tích lợi nhuận"
+keywords:
+  - đơn vị kinh doanh
+  - kinh doanh
+  - lợi nhuận
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

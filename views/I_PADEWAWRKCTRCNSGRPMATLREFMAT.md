@@ -1,6 +1,12 @@
 ---
 name: I_PADEWAWRKCTRCNSGRPMATLREFMAT
 description: Padewawrkctrcnsgrpmatlrefmat
+semantic_en: "PaDeWa condition records for work center, consolidation group, material and reference material — assigns packing instructions based on warehouse configuration and material attributes"
+semantic_vi: "bản ghi điều kiện PaDeWa cho trung tâm làm việc, nhóm hợp nhất, vật liệu và vật liệu tham chiếu — gán hướng dẫn đóng gói dựa trên cấu hình kho và thuộc tính vật liệu"
+keywords:
+  - PaDeWa trung tâm làm việc
+  - vật liệu tham chiếu
+  - nhóm hợp nhất
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

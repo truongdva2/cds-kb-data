@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGETEXTTP
 description: Organizationalchangetexttp
+semantic_en: "transient projection of organizational change text — stores language-dependent organizational change names."
+semantic_vi: "phép chiếu tạm thời của văn bản thay đổi tổ chức — lưu trữ tên thay đổi tổ chức phụ thuộc ngôn ngữ."
+keywords:
+  - tên thay đổi tổ chức
+  - văn bản tạm thời
+  - đa ngôn ngữ
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

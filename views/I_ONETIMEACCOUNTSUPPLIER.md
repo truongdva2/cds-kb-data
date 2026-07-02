@@ -1,6 +1,12 @@
 ---
 name: I_ONETIMEACCOUNTSUPPLIER
 description: Onetimeaccountsupplier
+semantic_en: "one-time account data for supplier — unstructured supplier address details in accounting documents"
+semantic_vi: "dữ liệu tài khoản một lần cho nhà cung cấp — chi tiết địa chỉ nhà cung cấp không có cấu trúc trong tài liệu kế toán"
+keywords:
+  - tài khoản nhà cung cấp
+  - một lần
+  - địa chỉ
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

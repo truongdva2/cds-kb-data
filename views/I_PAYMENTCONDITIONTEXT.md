@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTCONDITIONTEXT
 description: Paymentconditiontext
+semantic_en: "payment condition text — language-dependent description of payment terms and conditions."
+semantic_vi: "văn bản điều kiện thanh toán — mô tả phụ thuộc ngôn ngữ về khoản thanh toán và điều kiện."
+keywords:
+  - điều kiện thanh toán
+  - mô tả khoản thanh toán
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

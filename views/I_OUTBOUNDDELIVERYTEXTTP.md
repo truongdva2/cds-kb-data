@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERYTEXTTP
 description: Outbound DeliveryTEXTTP
+semantic_en: "transient projection of outbound delivery text — provides long text documentation for outbound shipments."
+semantic_vi: "phép chiếu tạm thời của văn bản giao đi — cung cấp tài liệu văn bản dài cho các lô hàng giao đi."
+keywords:
+  - văn bản giao đi
+  - tài liệu
+  - mô tả
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

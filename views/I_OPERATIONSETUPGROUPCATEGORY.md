@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSETUPGROUPCATEGORY
 description: Operationsetupgroupcategory
+semantic_en: "operation setup group category — classification categories for operation setup groups"
+semantic_vi: "danh mục nhóm thiết lập hoạt động — các danh mục phân loại cho nhóm thiết lập hoạt động"
+keywords:
+  - danh mục nhóm thiết lập
+  - hoạt động
+  - danh mục
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

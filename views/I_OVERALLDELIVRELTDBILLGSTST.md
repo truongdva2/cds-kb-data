@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVRELTDBILLGSTST
 description: Overalldelivreltdbillgstst
+semantic_en: "delivery-related billing status text — provides multilingual descriptions for billing statuses linked to delivery."
+semantic_vi: "văn bản trạng thái hóa đơn liên quan đến giao — cung cấp mô tả đa ngôn ngữ cho các trạng thái hóa đơn liên kết với giao."
+keywords:
+  - mô tả hóa đơn giao
+  - đa ngôn ngữ
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

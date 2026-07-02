@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMPICKINGINCOMPLTNSTS
 description: Ovrlitmpickingincompltnsts
+semantic_en: "domain value mapping for overall item picking incompletion status — categorizes picking incompleteness states at item level"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành lấy hàng hóa toàn bộ — phân loại trạng thái chưa hoàn thành lấy hàng ở cấp hàng hóa"
+keywords:
+  - lấy hàng không hoàn thành
+  - trạng thái lấy hàng
+  - chưa hoàn thành lấy
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

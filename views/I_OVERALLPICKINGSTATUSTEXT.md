@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPICKINGSTATUSTEXT
 description: Overallpickingstatustext
+semantic_en: "picking status text — provides multilingual descriptions for picking statuses."
+semantic_vi: "văn bản trạng thái chọn hàng — cung cấp mô tả đa ngôn ngữ cho các trạng thái chọn hàng."
+keywords:
+  - mô tả chọn hàng
+  - đa ngôn ngữ
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

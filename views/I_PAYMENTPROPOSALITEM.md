@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTPROPOSALITEM
 description: Paymentproposalitem
+semantic_en: "payment proposal line item — itemized proposal details including supplier, customer, accounting document reference, and amount calculations."
+semantic_vi: "mục dòng đề xuất thanh toán — chi tiết đề xuất chi tiết bao gồm nhà cung cấp, khách hàng, tham chiếu tài liệu kế toán và tính toán số tiền."
+keywords:
+  - đề xuất thanh toán
+  - mục đề xuất
+  - khoản thanh toán
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

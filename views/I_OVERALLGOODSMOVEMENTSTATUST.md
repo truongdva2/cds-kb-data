@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLGOODSMOVEMENTSTATUST
 description: OVERALLGoods MovementSTATUST
+semantic_en: "goods movement status text — provides multilingual descriptions for goods movement statuses."
+semantic_vi: "văn bản trạng thái chuyển động hàng hóa — cung cấp mô tả đa ngôn ngữ cho các trạng thái chuyển động hàng hóa."
+keywords:
+  - mô tả chuyển động hàng
+  - đa ngôn ngữ
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

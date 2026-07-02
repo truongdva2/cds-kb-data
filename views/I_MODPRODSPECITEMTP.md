@@ -1,6 +1,12 @@
 ---
 name: I_MODPRODSPECITEMTP
 description: Modprodspecitemtp
+semantic_en: "Model product specification items for templates — maps items to specification with purchasing category and material group."
+semantic_vi: "Các mục thông số kỹ thuật sản phẩm mẫu cho mẫu — ánh xạ mục vào thông số kỹ thuật với danh mục mua hàng và nhóm vật liệu."
+keywords:
+  - mục thông số kỹ thuật
+  - mẫu
+  - danh mục mua hàng
 app_component: MM-PUR-MPS-2CL
 software_component: SAPSCORE
 release_state: released

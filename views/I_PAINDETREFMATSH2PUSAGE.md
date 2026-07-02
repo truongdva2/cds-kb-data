@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETREFMATSH2PUSAGE
 description: Paindetrefmatsh 2PUSAGE
+semantic_en: "packing instruction details by reference material, ship-to party, and customer usage indication — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu tham chiếu, bên nhận hàng và chỉ dấu sử dụng khách hàng — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu tham chiếu
+  - khách hàng
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

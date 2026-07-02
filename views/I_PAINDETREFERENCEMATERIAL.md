@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETREFERENCEMATERIAL
 description: Paindetreferencematerial
+semantic_en: "packing instruction details by reference material — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu tham chiếu — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu tham chiếu
+  - điều kiện
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

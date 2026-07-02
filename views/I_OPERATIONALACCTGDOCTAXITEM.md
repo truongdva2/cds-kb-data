@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONALACCTGDOCTAXITEM
 description: Operationalacctgdoctaxitem
+semantic_en: "indirect tax items — tax details from accounting documents including codes, amounts, and currencies"
+semantic_vi: "mục thuế gián tiếp — chi tiết thuế từ tài liệu kế toán bao gồm mã, số tiền và tiền tệ"
+keywords:
+  - thuế gián tiếp
+  - hóa đơn kế toán
+  - thuế suất
 app_component: FI-LOC-VAT-GEN
 software_component: SAPSCORE
 release_state: released

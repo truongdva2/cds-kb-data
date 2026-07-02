@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLBILLINGBLOCKSTATUST
 description: Overallbillingblockstatust
+semantic_en: "billing block status text — provides multilingual descriptions for overall billing block statuses."
+semantic_vi: "văn bản trạng thái khóa hóa đơn — cung cấp mô tả đa ngôn ngữ cho các trạng thái khóa hóa đơn tổng thể."
+keywords:
+  - mô tả khóa hóa đơn
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

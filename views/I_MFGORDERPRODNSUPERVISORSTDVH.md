@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERPRODNSUPERVISORSTDVH
 description: Mfgorderprodnsupervisorstdvh
+semantic_en: "Value help for production supervisors by plant — provides supervisor lookup and identification data."
+semantic_vi: "Trợ giúp giá trị cho giám sát sản xuất theo nhà máy — cung cấp dữ liệu tra cứu và định danh giám sát."
+keywords:
+  - giám sát sản xuất
+  - nhà máy
+  - tra cứu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

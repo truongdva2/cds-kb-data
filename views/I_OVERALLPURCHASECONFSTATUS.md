@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPURCHASECONFSTATUS
 description: Overallpurchaseconfstatus
+semantic_en: "domain value mapping for overall purchase confirmation status — defines states indicating purchase order confirmation completeness"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái xác nhận mua hàng toàn bộ — xác định các trạng thái hoàn thành xác nhận đơn mua"
+keywords:
+  - xác nhận mua hàng
+  - trạng thái mua
+  - đơn mua
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

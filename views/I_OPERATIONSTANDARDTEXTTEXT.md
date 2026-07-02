@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSTANDARDTEXTTEXT
 description: Operationstandardtexttext
+semantic_en: "standard text for operation text — localized names of operation standard text codes by language"
+semantic_vi: "văn bản tiêu chuẩn cho hoạt động — tên các mã văn bản tiêu chuẩn hoạt động theo ngôn ngữ"
+keywords:
+  - văn bản tiêu chuẩn đa ngôn ngữ
+  - hoạt động
+  - mẫu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

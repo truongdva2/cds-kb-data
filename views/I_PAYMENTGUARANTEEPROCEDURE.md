@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTGUARANTEEPROCEDURE
 description: Paymentguaranteeprocedure
+semantic_en: "payment guarantee procedure — classification of payment guarantee processing methods or workflows."
+semantic_vi: "thủ tục bảo lãnh thanh toán — phân loại các phương pháp hoặc quy trình xử lý bảo lãnh thanh toán."
+keywords:
+  - bảo lãnh thanh toán
+  - thủ tục
+  - xử lý
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

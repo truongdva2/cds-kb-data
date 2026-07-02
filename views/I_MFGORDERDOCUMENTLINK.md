@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERDOCUMENTLINK
 description: Mfgorderdocumentlink
+semantic_en: "Document attachments for manufacturing orders — maps document records to production orders with change tracking."
+semantic_vi: "Tệp đính kèm tài liệu cho lệnh sản xuất — ánh xạ bản ghi tài liệu vào lệnh sản xuất với theo dõi thay đổi."
+keywords:
+  - tài liệu lệnh sản xuất
+  - liên kết tài liệu
+  - bản ghi thông tin
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

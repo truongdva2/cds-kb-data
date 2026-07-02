@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERWITHSTATUS
 description: Mfgorderwithstatus
+semantic_en: "Manufacturing orders with current status — includes completion tracking, hierarchy level, collection order links, and processing flexibility."
+semantic_vi: "Lệnh sản xuất với trạng thái hiện tại — bao gồm theo dõi hoàn thành, mức bộ phận, liên kết lệnh tập hợp, và tính linh hoạt xử lý."
+keywords:
+  - lệnh sản xuất
+  - trạng thái
+  - hoàn thành
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

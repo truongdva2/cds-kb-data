@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLBILLINGSTATUS
 description: Overallbillingstatus
+semantic_en: "billing status reference — provides domain values for overall billing document completion statuses."
+semantic_vi: "tham chiếu trạng thái hóa đơn — cung cấp các giá trị tên miền cho các trạng thái hoàn thành tài liệu hóa đơn tổng thể."
+keywords:
+  - trạng thái hóa đơn
+  - tài liệu
+  - hoàn thành
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

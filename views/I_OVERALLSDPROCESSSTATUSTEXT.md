@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLSDPROCESSSTATUSTEXT
 description: Overallsdprocessstatustext
+semantic_en: "text repository for overall SD process status — provides language-specific descriptions of SD process execution states"
+semantic_vi: "kho chứa mô tả trạng thái quy trình SD toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả quy trình
+  - trạng thái quy trình SD
+  - ngôn ngữ quy trình
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

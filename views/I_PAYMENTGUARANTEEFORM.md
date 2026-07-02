@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTGUARANTEEFORM
 description: Paymentguaranteeform
+semantic_en: "payment guarantee form type — classification of payment guarantee form formats or methods."
+semantic_vi: "loại hình bảo lãnh thanh toán — phân loại các định dạng hoặc phương pháp hình thức bảo lãnh thanh toán."
+keywords:
+  - bảo lãnh thanh toán
+  - loại hình
+  - thanh toán
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

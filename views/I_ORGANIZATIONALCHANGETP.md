@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGETP
 description: Organizationalchangetp
+semantic_en: "transient projection of organizational change — captures core change attributes with processing status and timestamps."
+semantic_vi: "phép chiếu tạm thời của thay đổi tổ chức — ghi lại các thuộc tính thay đổi cốt lõi với trạng thái xử lý và dấu thời gian."
+keywords:
+  - thay đổi tổ chức
+  - trạng thái xử lý
+  - dấu thời gian
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

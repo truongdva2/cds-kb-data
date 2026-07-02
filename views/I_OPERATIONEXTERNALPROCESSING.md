@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONEXTERNALPROCESSING
 description: Operationexternalprocessing
+semantic_en: "operation external processing — domain values for operation external processing status"
+semantic_vi: "xử lý ngoài của hoạt động — giá trị miền cho trạng thái xử lý ngoài hoạt động"
+keywords:
+  - xử lý ngoài
+  - hoạt động ngoài thầu
+  - trạng thái
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

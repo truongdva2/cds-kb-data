@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTMETHODTEXT
 description: Paymentmethodtext
+semantic_en: "payment method text — language-dependent description of payment methods available by country."
+semantic_vi: "văn bản phương thức thanh toán — mô tả phụ thuộc ngôn ngữ về phương thức thanh toán khả dụng theo quốc gia."
+keywords:
+  - phương thức thanh toán
+  - mô tả
+  - quốc gia
 app_component: FI-AP-IS-2CL
 software_component: SAPSCORE
 release_state: released

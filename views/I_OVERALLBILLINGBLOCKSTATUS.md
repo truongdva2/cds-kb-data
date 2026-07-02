@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLBILLINGBLOCKSTATUS
 description: Overallbillingblockstatus
+semantic_en: "billing block status reference — provides domain values for document-level billing block indicators."
+semantic_vi: "tham chiếu trạng thái khóa hóa đơn — cung cấp các giá trị tên miền cho các chỉ báo khóa hóa đơn cấp tài liệu."
+keywords:
+  - khóa hóa đơn
+  - trạng thái
+  - tài liệu
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

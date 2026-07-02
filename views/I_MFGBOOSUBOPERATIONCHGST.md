@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOSUBOPERATIONCHGST
 description: Mfgboosuboperationchgst
+semantic_en: "Change tracking for bill of operations sub-operations — records sub-operation identifiers, superior operation links, text, and audit information."
+semantic_vi: "Theo dõi thay đổi cho công đoạn phụ trong danh sách công đoạn — ghi lại định danh công đoạn phụ, liên kết công đoạn cấp cao hơn, văn bản, và thông tin kiểm toán."
+keywords:
+  - công đoạn phụ
+  - danh sách công đoạn
+  - lịch sử thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

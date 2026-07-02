@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERYITEMTP
 description: Outbound DeliveryITEMTP
+semantic_en: "transient projection of outbound delivery item — captures quantity details, units, and weight specifications for delivery items."
+semantic_vi: "phép chiếu tạm thời của mục vật tư giao đi — ghi lại chi tiết số lượng, đơn vị, và thông số kỹ thuật trọng lượng cho các mục vật tư giao."
+keywords:
+  - số lượng giao
+  - đơn vị
+  - trọng lượng
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

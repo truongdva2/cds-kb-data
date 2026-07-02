@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCGLITEM
 description: Parkedoplacctgdocglitem
+semantic_en: "parked general ledger item within an operational accounting document — GL account posting details including company code, posting key, and debit/credit code."
+semantic_vi: "mục sổ cái chung đang chờ xử lý trong tài liệu kế toán hoạt động — chi tiết khóa sổ cái bao gồm mã công ty, khóa khóa và mã nợ/có."
+keywords:
+  - sổ cái chung
+  - tài liệu kế toán
+  - chờ xử lý
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

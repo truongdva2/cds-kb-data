@@ -1,6 +1,12 @@
 ---
 name: I_PACKINGSTATUSTEXT
 description: Packingstatustext
+semantic_en: "text repository for packing status — provides language-specific descriptions of packing operation states"
+semantic_vi: "kho chứa mô tả trạng thái đóng gói theo từng ngôn ngữ — cung cấp mô tả hoạt động đóng gói"
+keywords:
+  - mô tả đóng gói
+  - ngôn ngữ đóng gói
+  - trạng thái hàng hóa
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

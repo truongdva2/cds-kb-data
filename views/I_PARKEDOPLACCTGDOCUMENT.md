@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCUMENT
 description: Parkedoplacctgdocument
+semantic_en: "parked accounting document — header details of a journal entry awaiting posting including document type, posting date, fiscal period, and currency exchange information."
+semantic_vi: "tài liệu kế toán đang chờ xử lý — chi tiết tiêu đề nhập ký bút nhật chờ khóa bao gồm loại tài liệu, ngày hạch toán, kỳ tài khóa và thông tin tỷ giá hối đoái."
+keywords:
+  - tài liệu kế toán
+  - nhập ký bút nhật
+  - chờ xử lý
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

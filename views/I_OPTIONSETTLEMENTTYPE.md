@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONSETTLEMENTTYPE
 description: Optionsettlementtype
+semantic_en: "option settlement type — domain values for option settlement methods"
+semantic_vi: "loại quyết toán quyền — giá trị miền cho các phương pháp quyết toán quyền"
+keywords:
+  - quyết toán quyền
+  - quyền tài chính
+  - loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

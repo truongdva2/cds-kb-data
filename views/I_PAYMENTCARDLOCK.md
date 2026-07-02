@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTCARDLOCK
 description: Paymentcardlock
+semantic_en: "payment card lock type — classification of card lock status or lock methods."
+semantic_vi: "loại khóa thẻ thanh toán — phân loại trạng thái khóa thẻ hoặc phương pháp khóa."
+keywords:
+  - thẻ thanh toán
+  - khóa thẻ
+  - trạng thái
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPURCHASECONFSTATUST
 description: Overallpurchaseconfstatust
+semantic_en: "text repository for overall purchase confirmation status — contains language-specific text for purchase confirmation states"
+semantic_vi: "kho chứa mô tả trạng thái xác nhận mua hàng toàn bộ theo từng ngôn ngữ — cung cấp mô tả văn bản xác nhận mua hàng"
+keywords:
+  - xác nhận mua
+  - mô tả mua hàng
+  - ngôn ngữ mua
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

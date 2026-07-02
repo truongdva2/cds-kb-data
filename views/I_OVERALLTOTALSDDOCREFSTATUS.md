@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLTOTALSDDOCREFSTATUS
 description: Overalltotalsddocrefstatus
+semantic_en: "domain value mapping for overall total SD document reference status — categorizes reference completion for all SD documents"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái tham chiếu tài liệu SD tổng thể toàn bộ — phân loại hoàn thành tham chiếu cho tất cả tài liệu SD"
+keywords:
+  - tham chiếu tổng SD
+  - trạng thái tham chiếu
+  - tài liệu SD
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

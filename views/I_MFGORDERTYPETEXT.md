@@ -1,6 +1,11 @@
 ---
 name: I_MFGORDERTYPETEXT
 description: Mfgordertypetext
+semantic_en: "Text descriptions for manufacturing order types in multiple languages — provides localized type names."
+semantic_vi: "Mô tả văn bản cho loại lệnh sản xuất trong nhiều ngôn ngữ — cung cấp tên loại địa phương hóa."
+keywords:
+  - loại lệnh sản xuất
+  - văn bản nhiều ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

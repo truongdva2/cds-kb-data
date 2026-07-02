@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLSDDOCREFERENCESTATUS
 description: Overallsddocreferencestatus
+semantic_en: "domain value mapping for overall SD document reference status — categorizes reference completion states for sales and distribution documents"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái tham chiếu tài liệu SD toàn bộ — phân loại trạng thái hoàn thành tham chiếu cho tài liệu bán hàng và phân phối"
+keywords:
+  - tài liệu SD
+  - tham chiếu
+  - trạng thái bán hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

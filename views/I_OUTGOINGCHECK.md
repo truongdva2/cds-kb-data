@@ -1,6 +1,12 @@
 ---
 name: I_OUTGOINGCHECK
 description: Outgoingcheck
+semantic_en: "data extraction of outgoing cheques — reports issued payment instruments with cheque dates and payment amounts."
+semantic_vi: "trích xuất dữ liệu séc gửi đi — báo cáo các công cụ thanh toán phát hành với ngày séc và số tiền thanh toán."
+keywords:
+  - séc phát hành
+  - thanh toán
+  - số tiền
 app_component: FI-FIO-AP-2CL
 software_component: SAPSCORE
 release_state: released

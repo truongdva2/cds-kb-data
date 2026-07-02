@@ -1,6 +1,12 @@
 ---
 name: I_OVRLTRADECMPLNCEMBARGOSTATUS
 description: Ovrltradecmplncembargostatus
+semantic_en: "domain value mapping for embargo status in trade compliance — defines embargo enforcement states for compliance screening"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái cấm vận trong tuân thủ thương mại — xác định trạng thái thực thi cấm vận cho sàng lọc tuân thủ"
+keywords:
+  - cấm vận
+  - thương mại tuân thủ
+  - trạng thái cấm
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

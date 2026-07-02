@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLTOTALDELIVERYSTATUS
 description: Overalltotaldeliverystatus
+semantic_en: "domain value mapping for overall total delivery status — categorizes completion states for document-level delivery fulfillment"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái giao hàng tổng thể toàn bộ — phân loại trạng thái hoàn thành giao hàng ở cấp tài liệu"
+keywords:
+  - tổng giao hàng
+  - trạng thái giao
+  - hoàn thành giao hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

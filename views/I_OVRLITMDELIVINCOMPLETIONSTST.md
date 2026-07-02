@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMDELIVINCOMPLETIONSTST
 description: Ovrlitmdelivincompletionstst
+semantic_en: "text repository for overall item delivery incompletion status — provides language-specific descriptions of item delivery incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành giao hàng hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả giao hàng chưa hoàn
+  - ngôn ngữ giao hàng
+  - trạng thái hàng hóa
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

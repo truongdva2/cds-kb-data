@@ -1,6 +1,12 @@
 ---
 name: I_OPLACCTGDOCITEMCLRGHIST
 description: Oplacctgdocitemclrghist
+semantic_en: "accounting document item clearing history — tracking cleared and clearing accounting document items with clearing types and currencies"
+semantic_vi: "lịch sử bù trừ mục tài liệu kế toán — theo dõi các mục tài liệu kế toán đã bù trừ và loại bù trừ"
+keywords:
+  - lịch sử bù trừ
+  - tài liệu kế toán
+  - bù trừ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

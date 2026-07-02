@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMDELIVINCOMPLETIONSTS
 description: Ovrlitmdelivincompletionsts
+semantic_en: "domain value mapping for overall item delivery incompletion status — categorizes delivery incompleteness states per item"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành giao hàng hàng hóa toàn bộ — phân loại trạng thái chưa hoàn thành giao hàng ở cấp hàng hóa"
+keywords:
+  - chưa hoàn thành giao
+  - trạng thái hàng hóa giao
+  - giao hàng không hoàn thành
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

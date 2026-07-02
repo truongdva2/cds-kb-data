@@ -1,6 +1,12 @@
 ---
 name: I_MPPURCHASINGSOURCEITEM
 description: Mppurchasingsourceitem
+semantic_en: "Purchasing source list items — records supplier assignments with validity dates and outline agreement references."
+semantic_vi: "Các mục danh sách nguồn mua hàng — ghi lại gán nhà cung cấp với ngày hiệu lực và tham chiếu thỏa thuận khái quát."
+keywords:
+  - danh sách nguồn mua hàng
+  - nhà cung cấp
+  - thỏa thuận khái quát
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTBLOCKLEVEL
 description: Paymentblocklevel
+semantic_en: "payment block level — classification levels for payment blocking scope or type."
+semantic_vi: "mức độ chặn thanh toán — mức phân loại cho phạm vi hoặc loại chặn thanh toán."
+keywords:
+  - chặn thanh toán
+  - mức độ
+  - phạm vi
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

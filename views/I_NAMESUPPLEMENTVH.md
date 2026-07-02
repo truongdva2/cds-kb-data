@@ -1,6 +1,12 @@
 ---
 name: I_NAMESUPPLEMENTVH
 description: Namesupplementvh
+semantic_en: "name supplement value help — lookup view for person name supplements"
+semantic_vi: "trợ giúp giá trị bổ sung tên — chế độ xem tra cứu cho bổ sung tên người"
+keywords:
+  - tra cứu tên
+  - bổ sung tên
+  - value help
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PADEWAMATERIALHNDLGUNITTYPE
 description: Padewamaterialhndlgunittype
+semantic_en: "PaDeWa condition records for material and handling unit type — assigns packing instructions based on material and handling unit type combination"
+semantic_vi: "bản ghi điều kiện PaDeWa cho vật liệu và loại đơn vị xử lý — gán hướng dẫn đóng gói dựa trên kết hợp vật liệu và loại đơn vị xử lý"
+keywords:
+  - PaDeWa vật liệu
+  - loại đơn vị xử lý
+  - hướng dẫn đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

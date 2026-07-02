@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDOPBYSEMANTICKEYSTDVH
 description: Mfgordopbysemantickeystdvh
+semantic_en: "Value help for manufacturing order operations by semantic key — lookup includes order text and product details."
+semantic_vi: "Trợ giúp giá trị cho công đoạn lệnh sản xuất theo khóa ngữ nghĩa — tra cứu bao gồm văn bản lệnh và chi tiết sản phẩm."
+keywords:
+  - công đoạn lệnh sản xuất
+  - khóa ngữ nghĩa
+  - tra cứu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

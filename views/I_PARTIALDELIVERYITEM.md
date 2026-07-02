@@ -1,6 +1,12 @@
 ---
 name: I_PARTIALDELIVERYITEM
 description: Partialdeliveryitem
+semantic_en: "partial delivery control configuration — whether partial delivery is allowed for order items."
+semantic_vi: "cấu hình kiểm soát giao hàng một phần — cho phép hay không giao hàng một phần cho các mục đơn hàng."
+keywords:
+  - giao hàng một phần
+  - kiểm soát đơn hàng
+  - cho phép
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

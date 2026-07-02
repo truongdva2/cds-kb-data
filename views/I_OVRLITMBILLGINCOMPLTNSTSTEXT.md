@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMBILLGINCOMPLTNSTSTEXT
 description: Ovrlitmbillgincompltnststext
+semantic_en: "text repository for overall item billing incompletion status — contains language-specific descriptions of item billing incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành lập hóa đơn hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - chưa hoàn thành hàng hóa
+  - mô tả lập hóa đơn
+  - ngôn ngữ hàng hóa
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERCOMPONENTLONGTEXT
 description: Mfgordercomponentlongtext
+semantic_en: "Long text descriptions for manufacturing order components — stores material component details and notes in specified language."
+semantic_vi: "Mô tả văn bản dài cho các thành phần lệnh sản xuất — lưu trữ chi tiết và ghi chú thành phần vật liệu bằng ngôn ngữ được chỉ định."
+keywords:
+  - thành phần lệnh sản xuất
+  - văn bản dài
+  - vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

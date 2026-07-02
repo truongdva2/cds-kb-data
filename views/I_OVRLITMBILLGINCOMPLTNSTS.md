@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMBILLGINCOMPLTNSTS
 description: Ovrlitmbillgincompltnsts
+semantic_en: "domain value mapping for overall item billing incompletion status — categorizes billing incompleteness states at item level"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái chưa hoàn thành lập hóa đơn hàng hóa toàn bộ — phân loại trạng thái chưa hoàn thành lập hóa đơn ở cấp hàng"
+keywords:
+  - chưa hoàn thành lập hóa đơn
+  - trạng thái hàng hóa
+  - lập hóa đơn hàng hóa
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGEWBSELEMENTTP
 description: Orglchangewbselementtp
+semantic_en: "organizational change wbs element assignment — links work breakdown structure elements to organizational changes."
+semantic_vi: "gán phần tử wbs thay đổi tổ chức — liên kết các phần tử cấu trúc phân tích công việc tới các thay đổi tổ chức."
+keywords:
+  - phần tử wbs
+  - cấu trúc công việc
+  - gán
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

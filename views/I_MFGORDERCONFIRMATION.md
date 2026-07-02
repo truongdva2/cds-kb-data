@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERCONFIRMATION
 description: Mfgorderconfirmation
+semantic_en: "Production order confirmations — records confirmation group, operation sequence, category type, and text documentation."
+semantic_vi: "Xác nhận lệnh sản xuất — ghi lại nhóm xác nhận, chuỗi công đoạn, loại danh mục, và tài liệu văn bản."
+keywords:
+  - xác nhận lệnh sản xuất
+  - công đoạn
+  - lệnh sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

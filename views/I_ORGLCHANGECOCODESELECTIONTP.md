@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGECOCODESELECTIONTP
 description: Orglchangecocodeselectiontp
+semantic_en: "organizational change company code selection — defines range selections for company codes in organizational changes."
+semantic_vi: "lựa chọn mã công ty thay đổi tổ chức — định nghĩa các lựa chọn phạm vi cho mã công ty trong các thay đổi tổ chức."
+keywords:
+  - lựa chọn mã công ty
+  - phạm vi
+  - thay đổi tổ chức
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

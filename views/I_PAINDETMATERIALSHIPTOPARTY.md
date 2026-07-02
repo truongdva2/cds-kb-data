@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETMATERIALSHIPTOPARTY
 description: Paindetmaterialshiptoparty
+semantic_en: "packing instruction details by material and ship-to party — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu và bên nhận hàng — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu
+  - bên nhận hàng
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

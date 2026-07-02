@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTADVICEITEM
 description: Paymentadviceitem
+semantic_en: "payment advice line item — itemized payment details including related documents and accounting references."
+semantic_vi: "mục dòng thông báo thanh toán — chi tiết thanh toán chi tiết bao gồm tài liệu liên quan và tham chiếu kế toán."
+keywords:
+  - thông báo thanh toán
+  - mục thanh toán
+  - tài liệu liên quan
 app_component: CA-GTF-FXU-FI-AR
 software_component: SAPSCORE
 release_state: released

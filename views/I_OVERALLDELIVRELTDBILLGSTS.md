@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVRELTDBILLGSTS
 description: Overalldelivreltdbillgsts
+semantic_en: "delivery-related billing status reference — provides domain values for billing status tied to delivery execution."
+semantic_vi: "tham chiếu trạng thái hóa đơn liên quan đến giao — cung cấp các giá trị tên miền cho trạng thái hóa đơn liên kết với thực thi giao."
+keywords:
+  - hóa đơn liên quan giao
+  - trạng thái
+  - giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

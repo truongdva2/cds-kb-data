@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLTOTALSDDOCREFSTATUST
 description: Overalltotalsddocrefstatust
+semantic_en: "text repository for overall total SD document reference status — contains language-specific descriptions of total SD document reference states"
+semantic_vi: "kho chứa mô tả trạng thái tham chiếu tài liệu SD tổng thể toàn bộ theo từng ngôn ngữ"
+keywords:
+  - tham chiếu tổng
+  - mô tả tài liệu SD
+  - ngôn ngữ tham chiếu
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

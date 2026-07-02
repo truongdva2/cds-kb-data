@@ -1,6 +1,12 @@
 ---
 name: I_ORDERTYPEVH
 description: Ordertypevh
+semantic_en: "value-help for order type — enables dropdown selection of order types with their categories."
+semantic_vi: "trợ giúp giá trị loại đơn hàng — cho phép chọn loại đơn hàng từ danh sách thả xuống với danh mục của chúng."
+keywords:
+  - chọn loại đơn hàng
+  - danh sách loại đơn hàng
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

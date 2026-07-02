@@ -1,6 +1,12 @@
 ---
 name: I_ORDERTYPEDETAILS
 description: Ordertypedetails
+semantic_en: "order type configuration — specifies bill of operations, settlement rules, variance keys, costing variants, and inspection parameters per plant."
+semantic_vi: "cấu hình loại đơn hàng — xác định danh sách hoạt động, quy tắc thanh toán, khóa phương sai, biến thể chi phí, và thông số kiểm tra theo nhà máy."
+keywords:
+  - cấu hình loại đơn hàng
+  - quy tắc thanh toán
+  - biến thể chi phí
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCRBLSITEM
 description: Parkedoplacctgdocrblsitem
+semantic_en: "parked accounts receivable item within an operational accounting document — customer posting details including company code, posting key, and special GL transaction type."
+semantic_vi: "mục phải thu đang chờ xử lý trong tài liệu kế toán hoạt động — chi tiết khóa khách hàng bao gồm mã công ty, khóa khóa và loại giao dịch GL đặc biệt."
+keywords:
+  - tài khoản phải thu
+  - khách hàng
+  - chờ xử lý
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

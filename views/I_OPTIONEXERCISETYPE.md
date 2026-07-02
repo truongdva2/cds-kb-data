@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONEXERCISETYPE
 description: Optionexercisetype
+semantic_en: "option exercise type — domain values for financial option exercise methods"
+semantic_vi: "loại hành động quyền — giá trị miền cho các phương pháp hành động quyền tài chính"
+keywords:
+  - hành động quyền
+  - quyền tài chính
+  - loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

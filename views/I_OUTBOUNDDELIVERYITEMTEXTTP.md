@@ -1,6 +1,12 @@
 ---
 name: I_OUTBOUNDDELIVERYITEMTEXTTP
 description: Outbound DeliveryITEMTEXTTP
+semantic_en: "transient projection of outbound delivery item text — stores long text descriptions for delivery items."
+semantic_vi: "phép chiếu tạm thời của văn bản mục vật tư giao đi — lưu trữ mô tả văn bản dài cho các mục vật tư giao."
+keywords:
+  - văn bản giao đi
+  - mô tả mục vật tư
+  - ghi chú
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

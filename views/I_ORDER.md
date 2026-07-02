@@ -1,6 +1,12 @@
 ---
 name: I_ORDER
 description: Order
+semantic_en: "order header — master data for manufacturing orders including order ID, category, type, plant, and controlling area"
+semantic_vi: "đầu tiên của đơn hàng — dữ liệu chính cho các đơn hàng sản xuất bao gồm ID, danh mục, loại và nhà máy"
+keywords:
+  - đơn hàng sản xuất
+  - đầu tiên
+  - loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

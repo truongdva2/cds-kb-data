@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPICKINGCONFSTATUSTEXT
 description: Overallpickingconfstatustext
+semantic_en: "picking confirmation status text — provides multilingual descriptions for picking confirmation statuses."
+semantic_vi: "văn bản trạng thái xác nhận chọn hàng — cung cấp mô tả đa ngôn ngữ cho các trạng thái xác nhận chọn hàng."
+keywords:
+  - mô tả xác nhận chọn
+  - đa ngôn ngữ
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

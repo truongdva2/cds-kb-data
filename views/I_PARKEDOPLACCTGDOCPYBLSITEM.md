@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCPYBLSITEM
 description: Parkedoplacctgdocpyblsitem
+semantic_en: "parked accounts payable item within an operational accounting document — supplier posting details including company code, posting key, and special GL transaction type."
+semantic_vi: "mục phải trả đang chờ xử lý trong tài liệu kế toán hoạt động — chi tiết khóa nhà cung cấp bao gồm mã công ty, khóa khóa và loại giao dịch GL đặc biệt."
+keywords:
+  - tài khoản phải trả
+  - nhà cung cấp
+  - chờ xử lý
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

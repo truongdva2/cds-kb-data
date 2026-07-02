@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPICKINGSTATUS
 description: Overallpickingstatus
+semantic_en: "picking status reference — provides domain values for warehouse picking completion states."
+semantic_vi: "tham chiếu trạng thái chọn hàng — cung cấp các giá trị tên miền cho các trạng thái hoàn thành chọn hàng kho."
+keywords:
+  - trạng thái chọn hàng
+  - kho
+  - hoàn thành
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

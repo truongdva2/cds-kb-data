@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVCONFSTATUSTEXT
 description: Overalldelivconfstatustext
+semantic_en: "delivery confirmation status text — provides multilingual descriptions for delivery confirmation statuses."
+semantic_vi: "văn bản trạng thái xác nhận giao — cung cấp mô tả đa ngôn ngữ cho các trạng thái xác nhận giao."
+keywords:
+  - mô tả xác nhận giao
+  - đa ngôn ngữ
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

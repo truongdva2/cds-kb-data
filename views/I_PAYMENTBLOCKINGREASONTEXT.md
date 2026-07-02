@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTBLOCKINGREASONTEXT
 description: Paymentblockingreasontext
+semantic_en: "payment blocking reason text — language-dependent description of reasons for blocking payments."
+semantic_vi: "văn bản lý do chặn thanh toán — mô tả phụ thuộc ngôn ngữ về lý do chặn thanh toán."
+keywords:
+  - chặn thanh toán
+  - lý do chặn
+  - mô tả
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

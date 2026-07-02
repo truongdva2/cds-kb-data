@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPACKINGSTATUSTEXT
 description: Overallpackingstatustext
+semantic_en: "packing status text — provides multilingual descriptions for packing statuses."
+semantic_vi: "văn bản trạng thái đóng gói — cung cấp mô tả đa ngôn ngữ cho các trạng thái đóng gói."
+keywords:
+  - mô tả đóng gói
+  - đa ngôn ngữ
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

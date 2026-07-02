@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTAPPROVALRULEITEMTP
 description: Paymentapprovalruleitemtp
+semantic_en: "payment approval rule item (transactional posting) — approval category and limit settings for payment authorization."
+semantic_vi: "mục quy tắc phê duyệt thanh toán (khóa ghi dạo) — danh mục phê duyệt và cài đặt giới hạn để ủy quyền thanh toán."
+keywords:
+  - phê duyệt thanh toán
+  - giới hạn phê duyệt
+  - luật tắc
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

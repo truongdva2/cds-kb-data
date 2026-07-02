@@ -1,6 +1,12 @@
 ---
 name: I_OVRLWAREHOUSEACTYSTATUST
 description: Ovrlwarehouseactystatust
+semantic_en: "text repository for overall warehouse activity status — provides language-specific descriptions of warehouse activity states"
+semantic_vi: "kho chứa mô tả trạng thái hoạt động kho toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả kho
+  - ngôn ngữ hoạt động
+  - trạng thái hoạt động
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

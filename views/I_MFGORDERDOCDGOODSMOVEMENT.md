@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERDOCDGOODSMOVEMENT
 description: MFGORDERDOCDGoods Movement
+semantic_en: "Documented goods movements for manufacturing orders — records material issuance, reservation, and storage location details."
+semantic_vi: "Các chuyển động hàng hoá được ghi chép cho lệnh sản xuất — ghi lại chi tiết phát hành vật liệu, đặt chỗ, và vị trí lưu trữ."
+keywords:
+  - chuyển động hàng hoá
+  - lệnh sản xuất
+  - vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

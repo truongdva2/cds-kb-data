@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOOPERATIONCHANGESTATE
 description: Mfgboooperationchangestate
+semantic_en: "Change tracking view for manufacturing bill of operations operations — records operation external ID, created user, last change date, and validity period."
+semantic_vi: "Theo dõi lịch sử thay đổi của các công đoạn trong danh sách công đoạn sản xuất — ghi lại ID công đoạn bên ngoài, người tạo, ngày thay đổi cuối cùng, và khoảng thời gian hiệu lực."
+keywords:
+  - danh sách công đoạn sản xuất
+  - lịch sử thay đổi
+  - công đoạn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

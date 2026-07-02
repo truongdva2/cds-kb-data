@@ -1,6 +1,11 @@
 ---
 name: I_MFGORDERCATEGORY
 description: Mfgordercategory
+semantic_en: "Domain value list for manufacturing order categories — enumerates order classification codes."
+semantic_vi: "Danh sách giá trị miền cho danh mục lệnh sản xuất — liệt kê mã phân loại lệnh."
+keywords:
+  - danh mục lệnh sản xuất
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_OPBSCSTARTDATECONSTRAINTTYPE
 description: Opbscstartdateconstrainttype
+semantic_en: "operation basic start date constraint type — code values for operation start date constraints"
+semantic_vi: "loại ràng buộc ngày bắt đầu cơ bản của hoạt động — giá trị mã cho ràng buộc ngày bắt đầu"
+keywords:
+  - ràng buộc ngày bắt đầu
+  - hoạt động cơ bản
+  - loại ràng buộc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

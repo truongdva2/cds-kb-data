@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVERYSTATUS
 description: Overalldeliverystatus
+semantic_en: "delivery status reference — provides domain values for overall sales order delivery completion statuses."
+semantic_vi: "tham chiếu trạng thái giao — cung cấp các giá trị tên miền cho các trạng thái hoàn thành giao của đơn hàng bán tổng thể."
+keywords:
+  - trạng thái giao
+  - đơn hàng bán
+  - hoàn thành
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

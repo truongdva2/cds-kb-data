@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDEROPERATIONWITHSTATUS
 description: Mfgorderoperationwithstatus
+semantic_en: "Manufacturing order operations with current status — includes operation hierarchy, supervisor, and product configuration."
+semantic_vi: "Các công đoạn lệnh sản xuất với trạng thái hiện tại — bao gồm bộ phận giám sát công đoạn, giám sát sản xuất, và cấu hình sản phẩm."
+keywords:
+  - công đoạn lệnh sản xuất
+  - trạng thái
+  - giám sát sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

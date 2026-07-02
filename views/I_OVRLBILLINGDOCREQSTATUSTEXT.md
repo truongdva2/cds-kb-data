@@ -1,6 +1,12 @@
 ---
 name: I_OVRLBILLINGDOCREQSTATUSTEXT
 description: OVRLBilling DocumentREQSTATUSTEXT
+semantic_en: "text repository for overall billing document request status — provides language-specific descriptions of billing request states"
+semantic_vi: "kho chứa mô tả trạng thái yêu cầu tài liệu lập hóa đơn toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả lập hóa đơn
+  - trạng thái yêu cầu
+  - ngôn ngữ hóa đơn
 app_component: SD-BIL-BDR-2CL
 software_component: SAPSCORE
 release_state: released

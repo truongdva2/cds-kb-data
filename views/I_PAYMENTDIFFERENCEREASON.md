@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTDIFFERENCEREASON
 description: Paymentdifferencereason
+semantic_en: "payment difference reason — classification reason for payment differences with dispute and GL account charge indicators."
+semantic_vi: "lý do chênh lệch thanh toán — lý do phân loại cho các chênh lệch thanh toán với chỉ dấu tranh chấp và tính phí tài khoản GL."
+keywords:
+  - chênh lệch thanh toán
+  - lý do chênh lệch
+  - tranh chấp
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

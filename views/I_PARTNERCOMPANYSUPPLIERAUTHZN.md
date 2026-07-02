@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERCOMPANYSUPPLIERAUTHZN
 description: Partnercompanysupplierauthzn
+semantic_en: "supplier authorization by partner company — authorization group assigned to suppliers within a partner company."
+semantic_vi: "ủy quyền nhà cung cấp theo công ty đối tác — nhóm ủy quyền được gán cho nhà cung cấp trong công ty đối tác."
+keywords:
+  - ủy quyền nhà cung cấp
+  - công ty đối tác
+  - nhóm ủy quyền
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETMATERIAL
 description: Paindetmaterial
+semantic_en: "PaInDet condition records for material — assigns packing instructions at material level for packing determination"
+semantic_vi: "bản ghi điều kiện PaInDet cho vật liệu — gán hướng dẫn đóng gói ở cấp vật liệu cho xác định đóng gói"
+keywords:
+  - PaInDet vật liệu
+  - xác định đóng gói
+  - hướng dẫn vật liệu
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

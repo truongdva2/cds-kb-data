@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPICKINGCONFSTATUS
 description: Overallpickingconfstatus
+semantic_en: "picking confirmation status reference — provides domain values for warehouse picking confirmation states."
+semantic_vi: "tham chiếu trạng thái xác nhận chọn hàng — cung cấp các giá trị tên miền cho các trạng thái xác nhận chọn hàng kho."
+keywords:
+  - xác nhận chọn hàng
+  - kho
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

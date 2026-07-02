@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLGOODSMOVEMENTSTATUS
 description: OVERALLGoods MovementSTATUS
+semantic_en: "goods movement status reference — provides domain values for overall delivery goods movement completion states."
+semantic_vi: "tham chiếu trạng thái chuyển động hàng hóa — cung cấp các giá trị tên miền cho các trạng thái hoàn thành chuyển động hàng hóa giao tổng thể."
+keywords:
+  - chuyển động hàng hóa
+  - trạng thái
+  - giao
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

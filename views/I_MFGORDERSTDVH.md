@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERSTDVH
 description: Mfgorderstdvh
+semantic_en: "Value help for manufacturing orders — provides order lookup with text, category, type, and plant."
+semantic_vi: "Trợ giúp giá trị cho lệnh sản xuất — cung cấp tra cứu lệnh với văn bản, danh mục, loại, và nhà máy."
+keywords:
+  - lệnh sản xuất
+  - tra cứu
+  - giá trị trợ giúp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MYSESSIONCONTEXT
 description: Mysessioncontext
+semantic_en: "session context of current user — capturing user ID, local date, and local time in Malaysia"
+semantic_vi: "bối cảnh phiên làm việc của người dùng hiện tại — ghi nhận ID người dùng, ngày giờ địa phương"
+keywords:
+  - phiên người dùng
+  - ngày giờ địa phương
+  - bối cảnh phiên
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

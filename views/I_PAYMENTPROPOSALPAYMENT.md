@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTPROPOSALPAYMENT
 description: Paymentproposalpayment
+semantic_en: "payment proposal payment detail — proposed payment details including amount, method, and direct debit configuration by company."
+semantic_vi: "chi tiết thanh toán đề xuất — chi tiết thanh toán đề xuất bao gồm số tiền, phương thức và cấu hình ghi nợ trực tiếp theo công ty."
+keywords:
+  - đề xuất thanh toán
+  - khoản thanh toán
+  - ghi nợ trực tiếp
 app_component: FI-AP-AP-B-2CL
 software_component: SAPSCORE
 release_state: released

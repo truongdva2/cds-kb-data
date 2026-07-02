@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMPICKINGINCOMPLTNSTST
 description: Ovrlitmpickingincompltnstst
+semantic_en: "text repository for overall item picking incompletion status — provides language-specific descriptions of item picking incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành lấy hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả lấy hàng
+  - ngôn ngữ lấy hàng
+  - trạng thái lấy
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

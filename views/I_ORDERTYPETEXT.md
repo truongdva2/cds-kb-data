@@ -1,6 +1,12 @@
 ---
 name: I_ORDERTYPETEXT
 description: Ordertypetext
+semantic_en: "order type description — provides translatable names for order types in multiple languages."
+semantic_vi: "mô tả loại đơn hàng — cung cấp tên có thể dịch được cho các loại đơn hàng trong nhiều ngôn ngữ."
+keywords:
+  - tên loại đơn hàng
+  - mô tả đa ngôn ngữ
+  - loại đơn hàng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

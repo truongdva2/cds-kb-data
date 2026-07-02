@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETREFMATPLANTSTORLOC
 description: Paindetrefmatplantstorloc
+semantic_en: "packing instruction details by reference material, plant, and storage location — condition type, validity dates, and system UUIDs."
+semantic_vi: "chi tiết hướng dẫn đóng gói theo vật liệu tham chiếu, nhà máy và địa điểm lưu trữ — loại điều kiện, ngày hiệu lực và UUID hệ thống."
+keywords:
+  - hướng dẫn đóng gói
+  - vật liệu tham chiếu
+  - lưu trữ
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

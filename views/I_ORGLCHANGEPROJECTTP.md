@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGEPROJECTTP
 description: Orglchangeprojecttp
+semantic_en: "organizational change project assignment — maps project ids to organizational changes with profit center and controlling area."
+semantic_vi: "gán dự án thay đổi tổ chức — ánh xạ các id dự án tới các thay đổi tổ chức với trung tâm lợi nhuận và khu vực kiểm soát."
+keywords:
+  - dự án
+  - gán
+  - thay đổi tổ chức
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

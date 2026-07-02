@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGEACTIVITYTP
 description: Orglchangeactivitytp
+semantic_en: "organizational change activity job tracking — monitors background job execution status, logs, and responsible person details."
+semantic_vi: "theo dõi hoạt động công việc thay đổi tổ chức — giám sát trạng thái thực thi công việc nền, nhật ký, và chi tiết người chịu trách nhiệm."
+keywords:
+  - công việc nền
+  - theo dõi hoạt động
+  - nhật ký lỗi
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

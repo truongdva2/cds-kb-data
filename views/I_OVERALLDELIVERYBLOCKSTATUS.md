@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVERYBLOCKSTATUS
 description: Overalldeliveryblockstatus
+semantic_en: "delivery block status reference — provides domain values for sales order delivery block indicators."
+semantic_vi: "tham chiếu trạng thái khóa giao — cung cấp các giá trị tên miền cho các chỉ báo khóa giao của đơn hàng bán."
+keywords:
+  - khóa giao
+  - đơn hàng bán
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

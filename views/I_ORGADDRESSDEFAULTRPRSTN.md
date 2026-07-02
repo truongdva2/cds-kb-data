@@ -1,6 +1,12 @@
 ---
 name: I_ORGADDRESSDEFAULTRPRSTN
 description: Orgaddressdefaultrprstn
+semantic_en: "organization po box address with non-deliverable reason — captures address fields for correspondence defaults."
+semantic_vi: "địa chỉ hộp thư của tổ chức với lý do không giao được — ghi lại các trường địa chỉ cho mặc định thư từ."
+keywords:
+  - địa chỉ tổ chức
+  - hộp thư
+  - lý do không giao được
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGEVH
 description: Organizationalchangevh
+semantic_en: "value-help for organizational change — enables dropdown selection of organizational changes with effective dates."
+semantic_vi: "trợ giúp giá trị thay đổi tổ chức — cho phép chọn các thay đổi tổ chức từ danh sách thả xuống với ngày hiệu lực."
+keywords:
+  - chọn thay đổi tổ chức
+  - danh sách thay đổi
+  - ngày hiệu lực
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

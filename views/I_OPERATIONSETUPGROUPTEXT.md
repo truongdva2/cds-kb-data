@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSETUPGROUPTEXT
 description: Operationsetupgrouptext
+semantic_en: "operation setup group text — localized names of operation setup groups by plant, category, and language"
+semantic_vi: "văn bản nhóm thiết lập hoạt động — tên các nhóm thiết lập hoạt động theo nhà máy, danh mục và ngôn ngữ"
+keywords:
+  - nhóm thiết lập đa ngôn ngữ
+  - nhà máy
+  - tên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

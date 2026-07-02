@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLDELIVCONFSTATUS
 description: Overalldelivconfstatus
+semantic_en: "delivery confirmation status reference — provides domain values for sales order delivery confirmation indicators."
+semantic_vi: "tham chiếu trạng thái xác nhận giao — cung cấp các giá trị tên miền cho các chỉ báo xác nhận giao của đơn hàng bán."
+keywords:
+  - xác nhận giao
+  - đơn hàng bán
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

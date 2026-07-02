@@ -1,6 +1,12 @@
 ---
 name: I_PARTNERCOMPANY
 description: Partnercompany
+semantic_en: "partner company master data — company name and language details for companies linked in the system."
+semantic_vi: "dữ liệu chính công ty đối tác — tên công ty và chi tiết ngôn ngữ cho các công ty được liên kết trong hệ thống."
+keywords:
+  - công ty đối tác
+  - dữ liệu chính
+  - tên công ty
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

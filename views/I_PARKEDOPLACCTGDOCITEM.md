@@ -1,6 +1,12 @@
 ---
 name: I_PARKEDOPLACCTGDOCITEM
 description: Parkedoplacctgdocitem
+semantic_en: "parked operational accounting document item — source document reference, asset contract details, budget period, and business area assignment."
+semantic_vi: "mục tài liệu kế toán hoạt động đang chờ xử lý — tham chiếu tài liệu nguồn, chi tiết hợp đồng tài sản, thời kỳ ngân sách và phân công lĩnh vực kinh doanh."
+keywords:
+  - tài liệu kế toán
+  - chờ xử lý
+  - giao dịch tài sản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

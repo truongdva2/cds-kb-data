@@ -1,6 +1,12 @@
 ---
 name: I_OPTIONEXERCISETYPETEXT
 description: Optionexercisetypetext
+semantic_en: "option exercise type text — localized descriptions of option exercise types"
+semantic_vi: "văn bản loại hành động quyền — mô tả các loại hành động quyền theo ngôn ngữ"
+keywords:
+  - hành động quyền đa ngôn ngữ
+  - mô tả
+  - loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

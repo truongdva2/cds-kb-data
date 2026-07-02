@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONEXTERNALPROCTEXT
 description: Operationexternalproctext
+semantic_en: "operation external processing text — localized descriptions of external processing codes"
+semantic_vi: "văn bản xử lý ngoài hoạt động — mô tả các mã xử lý ngoài theo ngôn ngữ"
+keywords:
+  - xử lý ngoài đa ngôn ngữ
+  - mô tả
+  - hoạt động
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

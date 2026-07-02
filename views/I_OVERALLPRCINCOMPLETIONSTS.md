@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPRCINCOMPLETIONSTS
 description: Overallprcincompletionsts
+semantic_en: "pricing incompletion status reference — provides domain values for sales document pricing completion indicators."
+semantic_vi: "tham chiếu trạng thái không hoàn thành định giá — cung cấp các giá trị tên miền cho các chỉ báo hoàn thành định giá tài liệu bán."
+keywords:
+  - định giá
+  - không hoàn thành
+  - tài liệu bán
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOOPPRODNRSCETOOLCHGST
 description: Mfgbooopprodnrscetoolchgst
+semantic_en: "Change state tracking for bill of operations operation production resource tool assignments — captures creation, modification, version control, and validity dates."
+semantic_vi: "Theo dõi trạng thái thay đổi gán công cụ tài nguyên sản xuất công đoạn — ghi lại ngày tạo, chỉnh sửa, kiểm soát phiên bản, và hiệu lực."
+keywords:
+  - công cụ tài nguyên sản xuất
+  - gán nhanh
+  - lịch sử thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

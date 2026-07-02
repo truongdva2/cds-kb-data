@@ -1,6 +1,12 @@
 ---
 name: I_OVRLTRDCMPLNCLEGALCTRLCHKSTS
 description: Ovrltrdcmplnclegalctrlchksts
+semantic_en: "domain value mapping for legal control check status in trade compliance — categorizes compliance verification states"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái kiểm tra kiểm soát pháp lý trong tuân thủ thương mại — phân loại trạng thái xác minh tuân thủ"
+keywords:
+  - kiểm tra pháp lý
+  - tuân thủ thương mại
+  - kiểm soát
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

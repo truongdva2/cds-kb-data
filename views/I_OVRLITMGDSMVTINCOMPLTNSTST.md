@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMGDSMVTINCOMPLTNSTST
 description: Ovrlitmgdsmvtincompltnstst
+semantic_en: "text repository for overall item goods movement incompletion status — contains language-specific descriptions of goods movement incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành chuyển động hàng hóa hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả chuyển động
+  - ngôn ngữ kho hàng
+  - chuyển động không hoàn thành
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

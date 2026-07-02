@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTAPPROVALRULELIMITTP
 description: Paymentapprovalrulelimittp
+semantic_en: "payment approval rule limit (transactional posting) — approver limits by currency for a payment approval item."
+semantic_vi: "giới hạn quy tắc phê duyệt thanh toán (khóa ghi dạo) — giới hạn của người phê duyệt theo tiền tệ cho mục phê duyệt thanh toán."
+keywords:
+  - giới hạn phê duyệt
+  - tiền tệ
+  - người phê duyệt
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

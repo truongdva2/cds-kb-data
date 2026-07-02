@@ -1,6 +1,11 @@
 ---
 name: I_MISCPRODNRSCETOOLTEXT
 description: Miscprodnrscetooltext
+semantic_en: "Text descriptions for miscellaneous production resource tools in multiple languages — provides localized tool names and authorization."
+semantic_vi: "Mô tả văn bản cho công cụ tài nguyên sản xuất khác trong nhiều ngôn ngữ — cung cấp tên công cụ và phép uỷ quyền địa phương hóa."
+keywords:
+  - công cụ tài nguyên sản xuất
+  - văn bản nhiều ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

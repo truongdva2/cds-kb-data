@@ -1,6 +1,12 @@
 ---
 name: I_PACKINGSTATUS
 description: Packingstatus
+semantic_en: "domain value mapping for packing status — categorizes completion states of item-level packing operations"
+semantic_vi: "ánh xạ giá trị miền cho trạng thái đóng gói — phân loại trạng thái hoàn thành hoạt động đóng gói ở cấp hàng hóa"
+keywords:
+  - trạng thái đóng gói
+  - hoàn thành đóng gói
+  - trạng thái hàng hóa
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

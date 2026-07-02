@@ -1,6 +1,12 @@
 ---
 name: I_ORDERCATEGORY
 description: Ordercategory
+semantic_en: "order category — domain values for order classification categories"
+semantic_vi: "danh mục đơn hàng — giá trị miền cho danh mục phân loại đơn hàng"
+keywords:
+  - danh mục đơn hàng
+  - loại đơn hàng
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

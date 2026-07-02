@@ -1,6 +1,12 @@
 ---
 name: I_OVTRDCOMPLLEGALCTRLCHKSTSTXT
 description: Ovtrdcompllegalctrlchkststxt
+semantic_en: "text repository for legal control check status in trade compliance — contains language-specific descriptions of legal control verification"
+semantic_vi: "kho chứa mô tả trạng thái kiểm tra kiểm soát pháp lý trong tuân thủ thương mại theo từng ngôn ngữ"
+keywords:
+  - kiểm tra pháp lý
+  - mô tả kiểm soát
+  - ngôn ngữ tuân thủ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

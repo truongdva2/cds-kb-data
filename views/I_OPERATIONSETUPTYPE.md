@@ -1,6 +1,12 @@
 ---
 name: I_OPERATIONSETUPTYPE
 description: Operationsetuptype
+semantic_en: "operation setup type — classification types for operation setups by plant"
+semantic_vi: "loại thiết lập hoạt động — các loại phân loại cho thiết lập hoạt động theo nhà máy"
+keywords:
+  - loại thiết lập
+  - hoạt động
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

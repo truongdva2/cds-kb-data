@@ -1,6 +1,13 @@
 ---
 name: I_ORGLCHANGEPRODUCTTP
 description: Orglchangeproducttp
+semantic_en: "organizational change product assignment — links products and plants to organizational changes with cost allocation details."
+semantic_vi: "gán sản phẩm thay đổi tổ chức — liên kết các sản phẩm và nhà máy tới các thay đổi tổ chức với chi tiết phân bổ chi phí."
+keywords:
+  - sản phẩm
+  - nhà máy
+  - gán
+  - thay đổi tổ chức
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_NAMESUPPLEMENT
 description: Namesupplement
+semantic_en: "name supplement text — code and text representation of person name supplements"
+semantic_vi: "văn bản bổ sung tên — mã và biểu diễn văn bản của bổ sung tên người"
+keywords:
+  - bổ sung tên
+  - mã tên
+  - văn bản tên
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

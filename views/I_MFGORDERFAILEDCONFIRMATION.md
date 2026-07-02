@@ -1,6 +1,12 @@
 ---
 name: I_MFGORDERFAILEDCONFIRMATION
 description: Mfgorderfailedconfirmation
+semantic_en: "Failed manufacturing order confirmations — captures confirmation entry details, record type, and final confirmation status."
+semantic_vi: "Xác nhận lệnh sản xuất thất bại — ghi lại chi tiết nhập xác nhận, loại bản ghi, và trạng thái xác nhận cuối cùng."
+keywords:
+  - xác nhận thất bại
+  - lệnh sản xuất
+  - loại bản ghi
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

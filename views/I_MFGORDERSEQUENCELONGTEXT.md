@@ -1,6 +1,11 @@
 ---
 name: I_MFGORDERSEQUENCELONGTEXT
 description: Mfgordersequencelongtext
+semantic_en: "Long text descriptions for manufacturing order sequences — stores detailed sequence notes in specified language."
+semantic_vi: "Mô tả văn bản dài cho các chuỗi lệnh sản xuất — lưu trữ ghi chép chuỗi chi tiết bằng ngôn ngữ được chỉ định."
+keywords:
+  - chuỗi lệnh sản xuất
+  - văn bản dài
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

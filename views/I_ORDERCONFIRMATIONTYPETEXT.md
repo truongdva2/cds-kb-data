@@ -1,6 +1,12 @@
 ---
 name: I_ORDERCONFIRMATIONTYPETEXT
 description: Orderconfirmationtypetext
+semantic_en: "order confirmation type text — localized descriptions of order confirmation types"
+semantic_vi: "văn bản loại xác nhận đơn hàng — mô tả các loại xác nhận đơn hàng theo ngôn ngữ"
+keywords:
+  - xác nhận đơn hàng đa ngôn ngữ
+  - mô tả
+  - loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

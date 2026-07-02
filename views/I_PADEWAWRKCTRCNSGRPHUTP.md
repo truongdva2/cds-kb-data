@@ -1,6 +1,12 @@
 ---
 name: I_PADEWAWRKCTRCNSGRPHUTP
 description: Padewawrkctrcnsgrphutp
+semantic_en: "PaDeWa condition records for work center, consolidation group and handling unit type — assigns packing instructions based on warehouse operations configuration"
+semantic_vi: "bản ghi điều kiện PaDeWa cho trung tâm làm việc, nhóm hợp nhất và loại đơn vị xử lý — gán hướng dẫn đóng gói dựa trên cấu hình hoạt động kho"
+keywords:
+  - PaDeWa trung tâm làm việc
+  - nhóm hợp nhất
+  - đơn vị xử lý
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

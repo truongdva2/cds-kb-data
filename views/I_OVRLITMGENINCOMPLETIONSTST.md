@@ -1,6 +1,12 @@
 ---
 name: I_OVRLITMGENINCOMPLETIONSTST
 description: Ovrlitmgenincompletionstst
+semantic_en: "text repository for overall item general incompletion status — provides language-specific descriptions of general item incompleteness"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành chung hàng hóa toàn bộ theo từng ngôn ngữ"
+keywords:
+  - mô tả tổng quát
+  - ngôn ngữ chung
+  - trạng thái hàng hóa
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

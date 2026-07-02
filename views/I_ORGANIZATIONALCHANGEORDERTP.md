@@ -1,6 +1,12 @@
 ---
 name: I_ORGANIZATIONALCHANGEORDERTP
 description: Organizationalchangeordertp
+semantic_en: "transient projection of organizational change orders — maps orders to cost centers and profit centers."
+semantic_vi: "phép chiếu tạm thời của các đơn hàng thay đổi tổ chức — ánh xạ các đơn hàng tới các trung tâm chi phí và trung tâm lợi nhuận."
+keywords:
+  - đơn hàng thay đổi
+  - trung tâm lợi nhuận
+  - trung tâm chi phí
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

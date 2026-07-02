@@ -1,6 +1,12 @@
 ---
 name: I_OFFSETTINGACCOUNT
 description: Offsettingaccount
+semantic_en: "offsetting account — counterparty account details including account type, name, and short name from projection"
+semantic_vi: "tài khoản bù trừ — chi tiết tài khoản đối ứng bao gồm loại, tên và tên ngắn"
+keywords:
+  - tài khoản bù trừ
+  - tài khoản đối ứng
+  - loại tài khoản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

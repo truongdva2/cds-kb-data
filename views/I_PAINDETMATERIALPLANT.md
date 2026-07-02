@@ -1,6 +1,12 @@
 ---
 name: I_PAINDETMATERIALPLANT
 description: Paindetmaterialplant
+semantic_en: "PaInDet condition records for material and plant — assigns packing instructions based on material-plant location combination for packing determination"
+semantic_vi: "bản ghi điều kiện PaInDet cho vật liệu và nhà máy — gán hướng dẫn đóng gói dựa trên kết hợp vị trí vật liệu-nhà máy cho xác định đóng gói"
+keywords:
+  - PaInDet nhà máy
+  - vật liệu nhà máy
+  - xác định đóng gói
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

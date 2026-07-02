@@ -1,6 +1,12 @@
 ---
 name: I_PAYMENTBLOCKINGREASON
 description: Paymentblockingreason
+semantic_en: "payment blocking reason code — classification reason for blocking a payment or invoice."
+semantic_vi: "mã lý do chặn thanh toán — lý do phân loại để chặn thanh toán hoặc hóa đơn."
+keywords:
+  - chặn thanh toán
+  - lý do chặn
+  - mã
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

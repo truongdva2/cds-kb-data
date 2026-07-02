@@ -1,6 +1,12 @@
 ---
 name: I_MKTDATABASISSPREADID
 description: Mktdatabasisspreadid
+semantic_en: "Market data basis spread identifier and description — reference for financial spread calculations."
+semantic_vi: "Định danh và mô tả cơ sở lệch thị trường tài chính — tham chiếu cho tính toán lệch tài chính."
+keywords:
+  - cơ sở lệch
+  - dữ liệu thị trường
+  - tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MRCHDSCATEGORYHIERARCHYNODE
 description: Mrchdscategoryhierarchynode
+semantic_en: "Merchandise category hierarchy nodes — tracks hierarchy level, classification internal ID, and last change timestamp."
+semantic_vi: "Các nút bộ phận danh mục hàng hóa — theo dõi mức bộ phận, định danh nội bộ phân loại, và dấu thời gian thay đổi cuối cùng."
+keywords:
+  - danh mục hàng hóa
+  - bộ phận phân cấp
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

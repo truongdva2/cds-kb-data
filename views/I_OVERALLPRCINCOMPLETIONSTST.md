@@ -1,6 +1,12 @@
 ---
 name: I_OVERALLPRCINCOMPLETIONSTST
 description: Overallprcincompletionstst
+semantic_en: "text repository for overall pricing incompletion status — contains language-specific descriptions of pricing incompleteness states"
+semantic_vi: "kho chứa mô tả trạng thái chưa hoàn thành về giá toàn bộ theo từng ngôn ngữ"
+keywords:
+  - trạng thái giá
+  - chưa hoàn thành giá
+  - mô tả giá
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

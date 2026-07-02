@@ -1,6 +1,12 @@
 ---
 name: I_ORGLCHANGEOBJECTTYPEVH
 description: Orglchangeobjecttypevh
+semantic_en: "value-help for organizational change object types — enables selection of object types affected by organizational changes."
+semantic_vi: "trợ giúp giá trị cho các loại đối tượng thay đổi tổ chức — cho phép lựa chọn các loại đối tượng bị ảnh hưởng bởi các thay đổi tổ chức."
+keywords:
+  - loại đối tượng
+  - thay đổi tổ chức
+  - lựa chọn
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released
