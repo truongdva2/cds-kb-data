@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLORIGINALITEM
 description: Finsgloriginalitem
+semantic_en: "GL original items before correction — posting data before error correction with original account and allocation"
+semantic_vi: "mục sổ cái gốc trước sửa chữa — dữ liệu ghi sổ trước sửa lỗi với tài khoản gốc và phân bổ"
+keywords:
+  - sổ cái gốc
+  - mục gốc
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

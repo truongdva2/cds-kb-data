@@ -1,6 +1,11 @@
 ---
 name: I_FINDOCCREDITCHECKSTATUS
 description: Findoccreditcheckstatus
+semantic_en: "credit check status domain — classification for financial document credit verification results"
+semantic_vi: "miền trạng thái kiểm tra tín dụng — phân loại kết quả xác minh tín dụng tài liệu tài chính"
+keywords:
+  - kiểm tra tín dụng
+  - trạng thái
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

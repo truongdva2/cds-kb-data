@@ -1,6 +1,12 @@
 ---
 name: I_EXTTAXCALCULATIONTRACE
 description: Exttaxcalculationtrace
+semantic_en: "external tax calculation engines trace — audit log of external tax calculation engine requests/responses with payloads, timestamps, and tax jurisdiction details"
+semantic_vi: "dấu vết công cụ tính thuế bên ngoài — nhật ký kiểm toán các yêu cầu/phản hồi công cụ tính thuế bên ngoài với tải trọng, dấu thời gian và chi tiết khu vực pháp lý"
+keywords:
+  - tính thuế bên ngoài
+  - công cụ tính thuế
+  - dấu vết thanh toán
 app_component: FI-LOC-TXS
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PLANTSTORLOCMAPTOWHSE
 description: Ewm Plantstorlocmaptowhse
+semantic_en: "mapping of plant and storage location to warehouse — links ERP plants and storage locations to warehouse identifiers."
+semantic_vi: "ánh xạ nhà máy và vị trí lưu kho tới kho hàng — liên kết các nhà máy ERP và vị trí lưu kho tới định danh kho hàng."
+keywords:
+  - ánh xạ kho hàng
+  - vị trí lưu kho
+  - nhà máy sản xuất
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

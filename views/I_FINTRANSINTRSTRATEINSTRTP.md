@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSINTRSTRATEINSTRTP
 description: Fintransintrstrateinstrtp
+semantic_en: "Interest rate instrument transaction projection — derivative transaction details with instrument category and type."
+semantic_vi: "Phép chiếu giao dịch công cụ lãi suất — chi tiết giao dịch phái sinh."
+keywords:
+  - công cụ lãi suất
+  - giao dịch phái sinh
+  - lãi suất
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

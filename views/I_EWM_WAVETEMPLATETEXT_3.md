@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVETEMPLATETEXT_3
 description: Ewm Wavetemplatetext 3
+semantic_en: "warehouse wave template text — provides translated names for wave template configurations."
+semantic_vi: "văn bản mẫu đợt giao nhận kho hàng — cung cấp tên đã dịch cho cấu hình mẫu đợt."
+keywords:
+  - mẫu đợt sóng
+  - tên mẫu
+  - ngôn ngữ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

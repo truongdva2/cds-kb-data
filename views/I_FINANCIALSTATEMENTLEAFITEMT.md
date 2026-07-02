@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTLEAFITEMT
 description: Financialstatementleafitemt
+semantic_en: "financial statement leaf item text — language-specific names and long descriptions for leaf items"
+semantic_vi: "văn bản mục lá báo cáo tài chính — tên cụ thể theo ngôn ngữ và mô tả dài cho các mục lá"
+keywords:
+  - mục lá
+  - tên mục
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

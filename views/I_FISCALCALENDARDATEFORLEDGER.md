@@ -1,6 +1,12 @@
 ---
 name: I_FISCALCALENDARDATEFORLEDGER
 description: Fiscalcalendardateforledger
+semantic_en: "Fiscal calendar dates for ledger — fiscal period mapping per company code and ledger."
+semantic_vi: "Ngày lịch tài chính cho sổ cái — ánh xạ kỳ tài chính theo công ty."
+keywords:
+  - ngày lịch
+  - sổ cái
+  - kỳ tài chính
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

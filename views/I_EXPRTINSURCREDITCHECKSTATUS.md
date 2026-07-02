@@ -1,6 +1,12 @@
 ---
 name: I_EXPRTINSURCREDITCHECKSTATUS
 description: Exprtinsurcreditcheckstatus
+semantic_en: "export credit insurance credit check status — domain values for credit check status codes used in export credit insurance"
+semantic_vi: "trạng thái kiểm tra tín dụng bảo hiểm tín dụng xuất khẩu — các giá trị miền cho các mã trạng thái kiểm tra tín dụng được sử dụng trong bảo hiểm tín dụng xuất khẩu"
+keywords:
+  - bảo hiểm tín dụng xuất khẩu
+  - kiểm tra tín dụng
+  - trạng thái xác nhận
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

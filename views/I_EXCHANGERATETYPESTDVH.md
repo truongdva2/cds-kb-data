@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATETYPESTDVH
 description: Exchange RateTYPESTDVH
+semantic_en: "exchange rate type standard value help — provides list of available exchange rate types for user selection."
+semantic_vi: "trợ giúp giá trị chuẩn loại tỷ giá hối đoái — cung cấp danh sách các loại tỷ giá hối đoái có sẵn để người dùng chọn."
+keywords:
+  - loại tỷ giá
+  - danh sách tỷ giá
+  - trợ giúp giá trị
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

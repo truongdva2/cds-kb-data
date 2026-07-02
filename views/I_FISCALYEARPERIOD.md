@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARPERIOD
 description: Fiscalyearperiod
+semantic_en: "Fiscal year period projection — complete fiscal period calendar with sequential and next-period tracking."
+semantic_vi: "Phép chiếu kỳ năm tài chính — lịch kỳ tài chính toàn diện."
+keywords:
+  - kỳ tài chính
+  - năm tài chính
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

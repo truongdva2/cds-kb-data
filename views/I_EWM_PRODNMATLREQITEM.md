@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PRODNMATLREQITEM
 description: Ewm Prodnmatlreqitem
+semantic_en: "warehouse production material request item — details material requirements per production order with batch and quantity information."
+semantic_vi: "dòng chi tiết yêu cầu vật liệu sản xuất kho hàng — chi tiết nhu cầu vật liệu theo lệnh sản xuất với thông tin lô hàng và số lượng."
+keywords:
+  - dòng yêu cầu vật liệu
+  - lô hàng sản xuất
+  - số lượng vật liệu
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

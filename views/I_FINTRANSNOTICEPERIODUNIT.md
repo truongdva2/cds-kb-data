@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSNOTICEPERIODUNIT
 description: Fintransnoticeperiodunit
+semantic_en: "Financial transaction notice period units — domain values for period measurement units."
+semantic_vi: "Đơn vị kỳ hạn thông báo giao dịch tài chính — giá trị miền cho đơn vị."
+keywords:
+  - kỳ hạn thông báo
+  - đơn vị
+  - giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

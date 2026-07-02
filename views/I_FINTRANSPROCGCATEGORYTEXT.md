@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSPROCGCATEGORYTEXT
 description: Fintransprocgcategorytext
+semantic_en: "Financial transaction processing category text — language-dependent processing category names."
+semantic_vi: "Văn bản danh mục xử lý giao dịch tài chính — tên danh mục theo ngôn ngữ."
+keywords:
+  - danh mục xử lý
+  - văn bản
+  - giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

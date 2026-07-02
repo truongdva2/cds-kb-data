@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONTYPET
 description: Financialtransactiontypet
+semantic_en: "transaction type text labels in multiple languages — names for financial transaction types"
+semantic_vi: "nhãn văn bản loại giao dịch theo ngôn ngữ — tên gọi loại giao dịch tài chính"
+keywords:
+  - loại giao dịch
+  - tên gọi
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWCATEGORYTEXT
 description: Fintransflowcategorytext
+semantic_en: "Financial transaction flow category names — language-dependent text labels for flow categories."
+semantic_vi: "Tên danh mục dòng giao dịch tài chính — nhãn văn bản theo ngôn ngữ."
+keywords:
+  - tên danh mục
+  - dòng giao dịch
+  - văn bản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

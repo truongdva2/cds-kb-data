@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVETYPETEXT_3
 description: Ewm Wavetypetext 3
+semantic_en: "warehouse wave type text — translates wave type codes into descriptive names."
+semantic_vi: "văn bản loại đợt giao nhận kho hàng — dịch mã loại đợt thành tên mô tả."
+keywords:
+  - loại đợt sóng
+  - mô tả loại
+  - ngôn ngữ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

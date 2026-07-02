@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLPOSTEDITEM
 description: Finsglposteditem
+semantic_en: "GL posted items in the system — journal entry items with posted ledger, account, and currency information"
+semantic_vi: "mục sổ cái đã ghi sổ trong hệ thống — mục nhập nhật ký với thông tin sổ cái đã ghi, tài khoản và tiền tệ"
+keywords:
+  - sổ cái ghi sổ
+  - nhập nhật ký
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

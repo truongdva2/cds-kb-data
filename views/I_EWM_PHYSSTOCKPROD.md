@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PHYSSTOCKPROD
 description: Ewm Physstockprod
+semantic_en: "physical stock for products in warehouse — shows product inventory by stock type, owner, disposal party, and document reference."
+semantic_vi: "tồn kho vật lý sản phẩm trong kho hàng — hiển thị tồn kho hàng hóa theo loại tồn kho, chủ sở hữu, bên được phép sử dụng và tham chiếu chứng từ."
+keywords:
+  - tồn kho sản phẩm
+  - loại tồn kho
+  - chủ sở hữu hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

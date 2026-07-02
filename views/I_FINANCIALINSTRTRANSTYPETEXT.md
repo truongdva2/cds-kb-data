@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRTRANSTYPETEXT
 description: Financialinstrtranstypetext
+semantic_en: "financial instrument transaction type text — language-specific names for financial instrument transaction types"
+semantic_vi: "văn bản loại giao dịch công cụ tài chính — tên cụ thể theo ngôn ngữ cho loại giao dịch công cụ tài chính"
+keywords:
+  - loại giao dịch
+  - tên giao dịch
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

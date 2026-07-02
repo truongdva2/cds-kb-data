@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALPLANNINGENTRYITEM
 description: Financialplanningentryitem
+semantic_en: "financial planning entry item — financial planning transaction entry details with controlling area, company code, ledger, account, fiscal year, and business transaction classification"
+semantic_vi: "mục mục nhập kế hoạch tài chính — chi tiết mục nhập giao dịch kế hoạch tài chính với vùng điều khiển, mã công ty, sổ cái, tài khoản, năm tài chính và phân loại giao dịch kinh doanh"
+keywords:
+  - kế hoạch tài chính
+  - mục nhập
+  - tài khoản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

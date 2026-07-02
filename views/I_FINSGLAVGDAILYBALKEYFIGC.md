@@ -1,6 +1,12 @@
 ---
 name: I_FINSGLAVGDAILYBALKEYFIGC
 description: Finsglavgdailybalkeyfigc
+semantic_en: "projection for ledger average daily balance calculation — balance data by ledger, fiscal year, and cost/profit center allocation"
+semantic_vi: "phép chiếu tính toán số dư trung bình hàng ngày sổ cái — dữ liệu số dư theo sổ cái, năm tài chính và phân bổ trung tâm chi phí/lợi nhuận"
+keywords:
+  - sổ cái
+  - số dư trung bình
+  - chi phí
 app_component: FI-GL-GL-ADB-2CL
 software_component: SAPSCORE
 release_state: released

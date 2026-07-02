@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PHYSINVTRYITEMROW
 description: Ewm Physinvtryitemrow
+semantic_en: "warehouse physical inventory item row with bin location — represents counted items by storage location with depth, status, and empty indicators."
+semantic_vi: "dòng hàng kiểm kê vật lý kho hàng với vị trí kệ — đại diện các dòng hàng đã đếm theo vị trí lưu kho với độ sâu, trạng thái và chỉ báo kệ trống."
+keywords:
+  - dòng kiểm kê
+  - vị trí kệ hàng
+  - trạng thái kho
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

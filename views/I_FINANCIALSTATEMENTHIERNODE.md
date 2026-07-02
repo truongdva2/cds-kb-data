@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTHIERNODE
 description: Financialstatementhiernode
+semantic_en: "financial statement hierarchy node — hierarchy node structure with parent reference, sequence, sign inversion, and leaf item mapping"
+semantic_vi: "nút hệ thống phân cấp báo cáo tài chính — cấu trúc nút phân cấp với tham chiếu cha, trình tự, đảo dấu và ánh xạ mục lá"
+keywords:
+  - nút phân cấp
+  - báo cáo tài chính
+  - mục lá
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

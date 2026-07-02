@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTION
 description: Financialtransaction
+semantic_en: "financial transaction — financial transactions with treasury object, contract type, product category, product type, and transaction category"
+semantic_vi: "giao dịch tài chính — giao dịch tài chính với đối tượng kho bạc, loại hợp đồng, danh mục sản phẩm, loại sản phẩm và danh mục giao dịch"
+keywords:
+  - giao dịch tài chính
+  - kho bạc
+  - công cụ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

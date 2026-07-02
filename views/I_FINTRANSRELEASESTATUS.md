@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSRELEASESTATUS
 description: Fintransreleasestatus
+semantic_en: "Financial transaction release status — domain codes for release process states."
+semantic_vi: "Trạng thái phát hành giao dịch tài chính — mã miền cho trạng thái quá trình."
+keywords:
+  - trạng thái phát hành
+  - giao dịch
+  - quá trình
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

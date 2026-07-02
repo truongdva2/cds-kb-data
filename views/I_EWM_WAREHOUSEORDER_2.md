@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAREHOUSEORDER_2
 description: Ewm Warehouse Order 2
+semantic_en: "warehouse order — represents pick/putaway tasks linked to warehouse orders with status and queue assignment."
+semantic_vi: "yêu cầu kho hàng — đại diện các tác vụ lấy hàng/đặt hàng liên kết với yêu cầu kho hàng với trạng thái và phân bổ hàng đợi."
+keywords:
+  - yêu cầu kho hàng
+  - tác vụ lấy hàng
+  - trạng thái yêu cầu
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

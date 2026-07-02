@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONDEX
 description: Financialtransactiondex
+semantic_en: "financial transaction data extract — financial transaction projection with enhanced terms, notice period, and product classification data"
+semantic_vi: "trích xuất dữ liệu giao dịch tài chính — phép chiếu giao dịch tài chính với dữ liệu điều khoản nâng cao, thời gian thông báo và phân loại sản phẩm"
+keywords:
+  - giao dịch tài chính
+  - trích xuất dữ liệu
+  - công cụ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

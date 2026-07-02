@@ -1,6 +1,12 @@
 ---
 name: I_EXTPRODGRP
 description: Extprodgrp
+semantic_en: "external product group — master data for external product group identifiers"
+semantic_vi: "nhóm sản phẩm bên ngoài — dữ liệu chính cho các định danh nhóm sản phẩm bên ngoài"
+keywords:
+  - nhóm sản phẩm
+  - sản phẩm bên ngoài
+  - phân loại sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINREMOVALBLOCKTEXT
 description: Ewm Storbinremovalblocktext
+semantic_en: "storage bin block indicator for removal text — describes block status for item removal operations."
+semantic_vi: "văn bản chỉ báo chặn kệ lưu kho cho lấy hàng — mô tả trạng thái chặn cho hoạt động lấy hàng."
+keywords:
+  - chặn lấy hàng
+  - kệ bị khóa
+  - hoạt động loại bỏ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

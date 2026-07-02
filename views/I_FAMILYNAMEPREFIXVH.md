@@ -1,6 +1,12 @@
 ---
 name: I_FAMILYNAMEPREFIXVH
 description: Familynameprefixvh
+semantic_en: "family name prefix value help — family name prefix lookup list for form dropdowns and searches"
+semantic_vi: "trợ giúp giá trị tiền tố họ — danh sách tra cứu tiền tố họ cho menu thả xuống biểu mẫu và tìm kiếm"
+keywords:
+  - tiền tố họ
+  - tìm kiếm
+  - giá trị trợ giúp
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

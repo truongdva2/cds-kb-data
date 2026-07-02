@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARPERIODFORCMPNYCODE
 description: Fiscalyearperiodforcmpnycode
+semantic_en: "Fiscal year period for company code — fiscal periods mapped to company code with next period tracking."
+semantic_vi: "Kỳ năm tài chính cho công ty — kỳ tài chính ánh xạ cho công ty."
+keywords:
+  - kỳ tài chính
+  - công ty
+  - lịch
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

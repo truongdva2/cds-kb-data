@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRUMENTSTATUS
 description: Fininstrumentstatus
+semantic_en: "financial instrument status domain — classification for instrument state in the system"
+semantic_vi: "miền trạng thái chứng chỉ tài chính — phân loại trạng thái công cụ trong hệ thống"
+keywords:
+  - trạng thái chứng chỉ
+  - chứng chỉ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

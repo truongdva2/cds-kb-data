@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRPRODTYPETEXT
 description: Financialinstrprodtypetext
+semantic_en: "financial instrument product type text — language-specific descriptions for financial instrument product types"
+semantic_vi: "văn bản loại sản phẩm công cụ tài chính — mô tả theo ngôn ngữ cho loại sản phẩm công cụ tài chính"
+keywords:
+  - loại sản phẩm
+  - công cụ tài chính
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

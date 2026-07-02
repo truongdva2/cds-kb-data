@@ -1,6 +1,12 @@
 ---
 name: I_FISCALWEEKFORVARIANT
 description: Fiscalweekforvariant
+semantic_en: "Fiscal week with next fiscal week projection — week periods with consecutive numbering across years."
+semantic_vi: "Phép chiếu tuần tài chính với tuần tiếp theo — kỳ tuần với đánh số tuần tự."
+keywords:
+  - tuần tài chính
+  - biến thể
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

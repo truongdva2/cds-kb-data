@@ -1,6 +1,11 @@
 ---
 name: I_FINCNDNCONDITIONCATEGORY
 description: Fincndnconditioncategory
+semantic_en: "financial condition category master data — classification for financial contract conditions"
+semantic_vi: "dữ liệu chính danh mục điều kiện tài chính — phân loại điều kiện hợp đồng tài chính"
+keywords:
+  - danh mục điều kiện
+  - điều kiện tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

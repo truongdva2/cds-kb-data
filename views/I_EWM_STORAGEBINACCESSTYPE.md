@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORAGEBINACCESSTYPE
 description: Ewm Storagebinaccesstype
+semantic_en: "storage bin access type — categorizes bin accessibility for warehouse operations."
+semantic_vi: "loại truy cập kệ lưu kho — phân loại khả năng tiếp cận kệ cho hoạt động kho hàng."
+keywords:
+  - loại truy cập kệ
+  - khả năng tiếp cận
+  - vị trí kệ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

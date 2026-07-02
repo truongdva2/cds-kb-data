@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBDELIVORDHDR
 description: Ewm Outbdelivordhdr
+semantic_en: "warehouse outbound delivery order header with business partner — aggregates shipment header, warehouse, delivery type, and carrier information."
+semantic_vi: "tiêu đề yêu cầu giao nhận hàng xuất kho cùng đối tác kinh doanh — tập hợp thông tin tiêu đề vận chuyển, kho hàng, loại giao nhận và dữ liệu nhà cung cấp vận tải."
+keywords:
+  - tiêu đề yêu cầu xuất
+  - thông tin giao nhận
+  - đối tác vận chuyển
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVEITEM_3
 description: Ewm Waveitem 3
+semantic_en: "warehouse wave item — represents line items within waves with weight, volume, and party-specific shipment information."
+semantic_vi: "dòng chi tiết đợt giao nhận kho hàng — đại diện các dòng hàng trong đợt với thông tin giao vận cụ thể trọng lượng, thể tích và bên liên quan."
+keywords:
+  - dòng hàng đợt
+  - giao vận hàng
+  - thông tin vận chuyển
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

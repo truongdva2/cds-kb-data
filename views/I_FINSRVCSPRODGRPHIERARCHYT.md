@@ -1,6 +1,11 @@
 ---
 name: I_FINSRVCSPRODGRPHIERARCHYT
 description: Finsrvcsprodgrphierarchyt
+semantic_en: "product group hierarchy text labels — localized names for hierarchy entities in multiple languages"
+semantic_vi: "nhãn văn bản phân cấp nhóm sản phẩm — tên gọi địa phương hóa cho thực thể phân cấp theo ngôn ngữ"
+keywords:
+  - phân cấp sản phẩm
+  - tên gọi
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

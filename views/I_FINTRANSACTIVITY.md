@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSACTIVITY
 description: Fintransactivity
+semantic_en: "financial instrument activity — records transaction lifecycle events with term dates, exercise dates, and rollover information"
+semantic_vi: "hoạt động chứng chỉ tài chính — ghi lại các sự kiện vòng đời giao dịch với ngày hạn, ngày thực hiện và thông tin tái ký"
+keywords:
+  - hoạt động chứng chỉ
+  - sự kiện giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

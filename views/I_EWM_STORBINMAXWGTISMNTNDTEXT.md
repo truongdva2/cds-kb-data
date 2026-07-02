@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINMAXWGTISMNTNDTEXT
 description: Ewm Storbinmaxwgtismntndtext
+semantic_en: "storage bin maximum weight is maintained text — translates weight capacity maintenance status."
+semantic_vi: "văn bản trọng lượng tối đa kệ lưu kho được duy trì — dịch trạng thái duy trì khả năng chứa trọng lượng."
+keywords:
+  - trọng lượng tối đa
+  - duy trì khối lượng
+  - giới hạn kho
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

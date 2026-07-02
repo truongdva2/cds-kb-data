@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSERVICESBRANCHT
 description: Financialservicesbrancht
+semantic_en: "financial services branch text — language-specific names for financial services branches"
+semantic_vi: "văn bản chi nhánh dịch vụ tài chính — tên cụ thể theo ngôn ngữ cho chi nhánh dịch vụ tài chính"
+keywords:
+  - chi nhánh dịch vụ
+  - tên chi nhánh
+  - ngôn ngữ
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

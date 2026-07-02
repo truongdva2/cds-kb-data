@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVESTATUSTEXT_2
 description: Ewm Wavestatustext 2
+semantic_en: "warehouse wave status name — translates wave status codes into business language."
+semantic_vi: "tên trạng thái đợt giao nhận kho hàng — dịch mã trạng thái đợt sang ngôn ngữ kinh doanh."
+keywords:
+  - trạng thái đợt sóng
+  - mô tả trạng thái
+  - ngôn ngữ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

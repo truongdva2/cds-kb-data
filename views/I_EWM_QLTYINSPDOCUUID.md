@@ -1,6 +1,12 @@
 ---
 name: I_EWM_QLTYINSPDOCUUID
 description: Ewm Qltyinspdocuuid
+semantic_en: "quality inspection document UUID mapping — links warehouse quality inspections to quality management documents by UUID."
+semantic_vi: "ánh xạ UUID chứng từ kiểm tra chất lượng — liên kết kiểm tra chất lượng kho hàng tới chứng từ quản lý chất lượng theo UUID."
+keywords:
+  - kiểm tra chất lượng
+  - lô hàng kiểm
+  - ánh xạ UUID
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

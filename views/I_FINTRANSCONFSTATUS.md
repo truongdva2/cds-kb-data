@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSCONFSTATUS
 description: Fintransconfstatus
+semantic_en: "transaction confirmation status domain — classification for confirmation states of financial transactions"
+semantic_vi: "miền trạng thái xác nhận giao dịch — phân loại trạng thái xác nhận giao dịch tài chính"
+keywords:
+  - xác nhận giao dịch
+  - trạng thái
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

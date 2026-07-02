@@ -1,6 +1,11 @@
 ---
 name: I_FINSTATISTICALKEYFIGUREITEM
 description: Finstatisticalkeyfigureitem
+semantic_en: "statistical key figure items by fiscal period — quantity metrics tracked across fiscal periods with fixed and sum quantities"
+semantic_vi: "mục chỉ số thống kê theo kỳ tài chính — chỉ số số lượng theo dõi qua các kỳ tài chính với số lượng cố định và tổng"
+keywords:
+  - chỉ số thống kê
+  - kỳ tài chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

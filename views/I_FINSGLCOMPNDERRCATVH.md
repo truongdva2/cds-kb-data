@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLCOMPNDERRCATVH
 description: Finsglcompnderrcatvh
+semantic_en: "value-help view for compound error category — classification for financial services GL compound errors"
+semantic_vi: "lựa chọn hỗ trợ cho danh mục lỗi ghép — phân loại cho lỗi ghép sổ cái dịch vụ tài chính"
+keywords:
+  - lỗi sổ cái
+  - danh mục lỗi
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

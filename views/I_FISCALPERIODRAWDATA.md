@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODRAWDATA
 description: Fiscalperiodrawdata
+semantic_en: "Fiscal period raw data — calendar period end dates with shift indicator."
+semantic_vi: "Dữ liệu thô kỳ tài chính — ngày kết thúc kỳ lịch với chỉ báo dịch."
+keywords:
+  - dữ liệu thô
+  - kỳ tài chính
+  - ngày kết thúc
 app_component: BC-SRV-ASF-FYV-2CL
 software_component: SAP_BASIS
 release_state: released

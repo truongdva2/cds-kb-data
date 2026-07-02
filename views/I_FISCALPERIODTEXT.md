@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODTEXT
 description: Fiscalperiodtext
+semantic_en: "Fiscal period text — language-dependent period names for fiscal calendar periods."
+semantic_vi: "Văn bản kỳ tài chính — tên kỳ theo ngôn ngữ cho kỳ lịch."
+keywords:
+  - kỳ tài chính
+  - văn bản
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

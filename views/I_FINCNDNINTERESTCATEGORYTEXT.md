@@ -1,6 +1,11 @@
 ---
 name: I_FINCNDNINTERESTCATEGORYTEXT
 description: Fincndninterestcategorytext
+semantic_en: "interest category text in multiple languages — localized names and descriptions for interest categories"
+semantic_vi: "văn bản danh mục lãi suất theo ngôn ngữ — tên gọi và mô tả địa phương hóa cho danh mục"
+keywords:
+  - danh mục lãi suất
+  - tên gọi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORAGEBIN_2
 description: Ewm Storagebin 2
+semantic_en: "warehouse storage bin master — defines bin identifiers, types, physical dimensions, and weight/volume capacities."
+semantic_vi: "dữ liệu tổng hợp kệ lưu kho — xác định định danh kệ, loại kệ, kích thước vật lý và khả năng chứa trọng lượng/thể tích."
+keywords:
+  - kệ lưu kho
+  - kích thước kệ
+  - dung tích kênh
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PRODNMATLREQHEADER
 description: Ewm Prodnmatlreqheader
+semantic_en: "warehouse production material request header — captures manufacturing order-based material requirements with priority and status."
+semantic_vi: "tiêu đề yêu cầu vật liệu sản xuất kho hàng — ghi nhận nhu cầu vật liệu dựa trên lệnh sản xuất với mức độ ưu tiên và trạng thái."
+keywords:
+  - yêu cầu vật liệu sản xuất
+  - lệnh sản xuất
+  - ưu tiên vật liệu
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

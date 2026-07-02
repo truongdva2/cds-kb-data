@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSCNTRLCLRGOPTION
 description: Fintranscntrlclrgoption
+semantic_en: "central clearing option domain — classification for central counterparty clearing preferences in transactions"
+semantic_vi: "miền tùy chọn thanh toán bù trừ tập trung — phân loại tùy chọn thanh toán bù trừ đối tác tập trung trong giao dịch"
+keywords:
+  - thanh toán bù trừ
+  - giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

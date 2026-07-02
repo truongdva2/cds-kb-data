@@ -1,6 +1,12 @@
 ---
 name: I_FISCALDATEFUNCTIONTEXT
 description: Fiscaldatefunctiontext
+semantic_en: "Fiscal date function text — language-dependent descriptions and names for date functions."
+semantic_vi: "Văn bản hàm ngày tài chính — mô tả và tên hàm theo ngôn ngữ."
+keywords:
+  - hàm ngày
+  - văn bản
+  - mô tả
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

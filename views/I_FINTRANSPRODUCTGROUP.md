@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSPRODUCTGROUP
 description: Fintransproductgroup
+semantic_en: "Financial transaction product groups — classification for transaction product groupings."
+semantic_vi: "Nhóm sản phẩm giao dịch tài chính — phân loại nhóm sản phẩm."
+keywords:
+  - nhóm sản phẩm
+  - giao dịch tài chính
+  - phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONNPVTYPET
 description: Financialtransactionnpvtypet
+semantic_en: "financial transaction net present value type text — language-specific descriptions for NPV type classifications"
+semantic_vi: "văn bản loại giá trị hiện tại ròng giao dịch tài chính — mô tả theo ngôn ngữ cho phân loại loại NPV"
+keywords:
+  - loại NPV
+  - mô tả NPV
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

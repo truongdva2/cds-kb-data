@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODTEXTRAWDATA
 description: Fiscalperiodtextrawdata
+semantic_en: "Fiscal period text raw data — language-specific period names and short names from base tables."
+semantic_vi: "Dữ liệu văn bản thô kỳ tài chính — tên kỳ theo ngôn ngữ."
+keywords:
+  - kỳ tài chính
+  - văn bản
+  - dữ liệu thô
 app_component: BC-SRV-ASF-FYV-2CL
 software_component: SAP_BASIS
 release_state: released

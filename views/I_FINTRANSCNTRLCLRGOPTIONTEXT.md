@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSCNTRLCLRGOPTIONTEXT
 description: Fintranscntrlclrgoptiontext
+semantic_en: "clearing option text labels — localized descriptions for central clearing options"
+semantic_vi: "nhãn văn bản tùy chọn thanh toán bù trừ — mô tả địa phương hóa cho tùy chọn bù trừ tập trung"
+keywords:
+  - thanh toán bù trừ
+  - tùy chọn
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

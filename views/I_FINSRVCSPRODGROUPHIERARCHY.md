@@ -1,6 +1,11 @@
 ---
 name: I_FINSRVCSPRODGROUPHIERARCHY
 description: Finsrvcsprodgrouphierarchy
+semantic_en: "product group hierarchy runtime representation — hierarchy structure with validity dates for product group organization"
+semantic_vi: "biểu diễn thời gian chạy phân cấp nhóm sản phẩm — cấu trúc phân cấp với ngày hiệu lực cho tổ chức nhóm sản phẩm"
+keywords:
+  - phân cấp sản phẩm
+  - nhóm sản phẩm
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

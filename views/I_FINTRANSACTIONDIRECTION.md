@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSACTIONDIRECTION
 description: Fintransactiondirection
+semantic_en: "financial transaction direction domain — classification for transaction flow direction in financial contracts"
+semantic_vi: "miền hướng giao dịch tài chính — phân loại hướng dòng giao dịch trong hợp đồng tài chính"
+keywords:
+  - hướng giao dịch
+  - giao dịch tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

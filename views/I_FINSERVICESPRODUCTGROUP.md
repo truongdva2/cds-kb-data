@@ -1,6 +1,11 @@
 ---
 name: I_FINSERVICESPRODUCTGROUP
 description: Finservicesproductgroup
+semantic_en: "financial services product group master — classification hierarchy for financial service products"
+semantic_vi: "danh mục chính nhóm sản phẩm dịch vụ tài chính — phân cấp phân loại cho sản phẩm dịch vụ tài chính"
+keywords:
+  - sản phẩm tài chính
+  - danh mục sản phẩm
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

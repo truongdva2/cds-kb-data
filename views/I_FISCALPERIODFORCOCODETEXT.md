@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODFORCOCODETEXT
 description: Fiscalperiodforcocodetext
+semantic_en: "Fiscal period for company code text — language-specific period names per company and fiscal year."
+semantic_vi: "Văn bản kỳ tài chính cho công ty — tên kỳ theo ngôn ngữ và công ty."
+keywords:
+  - kỳ tài chính
+  - công ty
+  - văn bản
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

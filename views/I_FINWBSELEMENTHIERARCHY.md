@@ -1,6 +1,12 @@
 ---
 name: I_FINWBSELEMENTHIERARCHY
 description: Finwbselementhierarchy
+semantic_en: "Financial WBS element hierarchy — work breakdown structure hierarchy definitions with validity dates."
+semantic_vi: "Cấu trúc phân cấp phần tử WBS tài chính — định nghĩa phân cấp cấu trúc phân tích công việc."
+keywords:
+  - WBS
+  - phân cấp
+  - định nghĩa
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

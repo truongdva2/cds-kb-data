@@ -1,6 +1,12 @@
 ---
 name: I_FINCNDNCONDITIONCATEGORYTEXT
 description: Fincndnconditioncategorytext
+semantic_en: "financial condition category text in multiple languages — localized names for condition categories"
+semantic_vi: "văn bản danh mục điều kiện tài chính theo ngôn ngữ — tên gọi địa phương hóa cho danh mục"
+keywords:
+  - danh mục điều kiện
+  - tên gọi
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

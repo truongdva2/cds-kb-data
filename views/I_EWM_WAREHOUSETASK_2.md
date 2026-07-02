@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAREHOUSETASK_2
 description: Ewm Warehousetask 2
+semantic_en: "warehouse task open and confirmed status — tracks active warehouse pick/putaway tasks with process type and executing resource."
+semantic_vi: "trạng thái yêu cầu kho hàng mở và xác nhận — theo dõi các tác vụ lấy hàng/đặt hàng kho hàng hoạt động với loại quy trình và tài nguyên thực thi."
+keywords:
+  - tác vụ kho hàng
+  - trạng thái tác vụ
+  - quy trình lấy hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

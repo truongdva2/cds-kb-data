@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINPUTAWAYBLOCKTEXT
 description: Ewm Storbinputawayblocktext
+semantic_en: "storage bin block indicator for putaway text — describes block status for putaway warehouse operations."
+semantic_vi: "văn bản chỉ báo chặn kệ lưu kho cho đặt hàng — mô tả trạng thái chặn cho hoạt động đặt hàng kho."
+keywords:
+  - chặn đặt hàng
+  - kệ khóa
+  - hoạt động xếp hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

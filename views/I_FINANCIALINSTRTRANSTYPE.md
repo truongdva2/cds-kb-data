@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRTRANSTYPE
 description: Financialinstrtranstype
+semantic_en: "financial instrument transaction type — treasury transaction types with product type, transaction category, and contract type reference"
+semantic_vi: "loại giao dịch công cụ tài chính — loại giao dịch kho bạc với tham chiếu loại sản phẩm, danh mục giao dịch và loại hợp đồng"
+keywords:
+  - loại giao dịch
+  - giao dịch tài chính
+  - kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

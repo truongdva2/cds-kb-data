@@ -1,6 +1,11 @@
 ---
 name: I_FINSRVCSPRODGRPHIERNODE
 description: Finsrvcsprodgrphiernode
+semantic_en: "hierarchy nodes for product group structure — node definitions with parent-child relationships and sequence ordering"
+semantic_vi: "nút phân cấp cho cấu trúc nhóm sản phẩm — định nghĩa nút với quan hệ cha-con và sắp xếp chuỗi"
+keywords:
+  - phân cấp sản phẩm
+  - nút cây
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

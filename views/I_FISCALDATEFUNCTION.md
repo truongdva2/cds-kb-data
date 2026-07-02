@@ -1,6 +1,12 @@
 ---
 name: I_FISCALDATEFUNCTION
 description: Fiscaldatefunction
+semantic_en: "Fiscal date function — parameterized date range function with relative and fixed date calculation."
+semantic_vi: "Hàm ngày tài chính — hàm khoảng ngày tham số với tính toán ngày."
+keywords:
+  - hàm ngày
+  - khoảng ngày
+  - tài chính
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

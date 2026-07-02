@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONNPV
 description: Financialtransactionnpv
+semantic_en: "financial transaction net present value — NPV calculations with intrinsic/time values, clean price, cash flows, and risk adjustments"
+semantic_vi: "giá trị hiện tại ròng giao dịch tài chính — tính toán NPV với giá trị nội tại/thời gian, giá sạch, dòng tiền và điều chỉnh rủi ro"
+keywords:
+  - giá trị hiện tại ròng
+  - NPV
+  - giao dịch tài chính
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

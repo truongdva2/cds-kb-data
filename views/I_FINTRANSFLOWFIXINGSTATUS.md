@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWFIXINGSTATUS
 description: Fintransflowfixingstatus
+semantic_en: "Financial transaction flow fixing status — domain codes for fixing process states."
+semantic_vi: "Trạng thái cố định dòng giao dịch tài chính — mã miền cho trạng thái quá trình."
+keywords:
+  - trạng thái cố định
+  - dòng giao dịch
+  - quá trình
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

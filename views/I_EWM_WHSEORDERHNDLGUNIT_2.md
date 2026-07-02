@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WHSEORDERHNDLGUNIT_2
 description: Ewm Whseorderhndlgunit 2
+semantic_en: "handling unit for warehouse order — maps packaging materials and handling units to warehouse orders."
+semantic_vi: "đơn vị xử lý cho yêu cầu kho hàng — ánh xạ vật liệu bao gói và đơn vị xử lý tới yêu cầu kho hàng."
+keywords:
+  - đơn vị xử lý
+  - bao gói hàng
+  - yêu cầu kho
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

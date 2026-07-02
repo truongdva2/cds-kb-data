@@ -1,6 +1,12 @@
 ---
 name: I_FAILEDMEASUREMENTREADINGTP
 description: Failedmeasurementreadingtp
+semantic_en: "failed measurement reading transformation proxy — measurement readings with failed transfer identification through measurement document source"
+semantic_vi: "proxy chuyển đổi kỳ đọc đo lường thất bại — kỳ đọc đo lường với định danh chuyển giao thất bại thông qua nguồn tài liệu đo lường"
+keywords:
+  - kỳ đọc đo lường
+  - chuyển giao lỗi
+  - điểm đo lường
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

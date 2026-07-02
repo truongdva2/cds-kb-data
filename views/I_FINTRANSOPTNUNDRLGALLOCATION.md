@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSOPTNUNDRLGALLOCATION
 description: Fintransoptnundrlgallocation
+semantic_en: "Financial transaction option underlying allocation — mapping of option numbers to underlying transactions."
+semantic_vi: "Phân bổ cơ sở công cụ tùy chọn giao dịch tài chính — ánh xạ để giao dịch cơ sở."
+keywords:
+  - công cụ tùy chọn
+  - giao dịch cơ sở
+  - phân bổ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

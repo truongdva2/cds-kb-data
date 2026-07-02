@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARFORCOMMITMENTITEM
 description: Fiscalyearforcommitmentitem
+semantic_en: "Fiscal years of commitment item — commitment item fiscal year ranges for financial management."
+semantic_vi: "Năm tài chính của mục cam kết — khoảng năm tài chính cho quản lý tài chính."
+keywords:
+  - năm tài chính
+  - cam kết
+  - quản lý tài chính
 app_component: PSM-FM-MD
 software_component: SAPSCORE
 release_state: released

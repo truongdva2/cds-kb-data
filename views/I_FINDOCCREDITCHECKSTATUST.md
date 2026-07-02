@@ -1,6 +1,12 @@
 ---
 name: I_FINDOCCREDITCHECKSTATUST
 description: Findoccreditcheckstatust
+semantic_en: "credit check status text labels — descriptions for credit verification statuses in multiple languages"
+semantic_vi: "nhãn văn bản trạng thái kiểm tra tín dụng — mô tả trạng thái xác minh tín dụng theo ngôn ngữ"
+keywords:
+  - kiểm tra tín dụng
+  - trạng thái
+  - mô tả
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

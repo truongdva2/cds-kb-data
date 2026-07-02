@@ -1,6 +1,12 @@
 ---
 name: I_FACTORYCALENDARBASICTEXT
 description: Factorycalendarbasictext
+semantic_en: "factory calendar text — language-specific descriptions for factory calendars"
+semantic_vi: "văn bản lịch nhà máy — mô tả theo ngôn ngữ cho các lịch nhà máy"
+keywords:
+  - lịch nhà máy
+  - mô tả
+  - ngôn ngữ
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

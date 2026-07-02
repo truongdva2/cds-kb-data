@@ -1,6 +1,11 @@
 ---
 name: I_FINSERVICESPRODUCTGROUPSTDVH
 description: Finservicesproductgroupstdvh
+semantic_en: "value-help view for financial services product groups — lookup data for product group selection"
+semantic_vi: "lựa chọn hỗ trợ cho nhóm sản phẩm dịch vụ tài chính — dữ liệu tra cứu để chọn nhóm sản phẩm"
+keywords:
+  - sản phẩm tài chính
+  - danh mục sản phẩm
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

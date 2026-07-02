@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSCNTRCONFSTATUSTEXT
 description: Fintranscntrconfstatustext
+semantic_en: "counterconfirmation status text — localized descriptions for counterconfirmation states"
+semantic_vi: "văn bản trạng thái xác nhận lại — mô tả địa phương hóa cho trạng thái xác nhận lại"
+keywords:
+  - xác nhận lại
+  - trạng thái
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSERVICESBRANCH
 description: Financialservicesbranch
+semantic_en: "financial services branch — financial services organization branch identifier"
+semantic_vi: "chi nhánh dịch vụ tài chính — định danh chi nhánh tổ chức dịch vụ tài chính"
+keywords:
+  - chi nhánh dịch vụ
+  - dịch vụ tài chính
+  - chi nhánh
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

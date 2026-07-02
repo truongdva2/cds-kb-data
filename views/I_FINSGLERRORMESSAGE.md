@@ -1,6 +1,12 @@
 ---
 name: I_FINSGLERRORMESSAGE
 description: Finsglerrormessage
+semantic_en: "GL error messages for validation failures — error message tracking with sequence and variable text for each error item"
+semantic_vi: "thông báo lỗi sổ cái cho lỗi xác nhận — theo dõi thông báo lỗi với chuỗi và văn bản biến cho mỗi mục lỗi"
+keywords:
+  - thông báo lỗi
+  - sổ cái
+  - xác nhận
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

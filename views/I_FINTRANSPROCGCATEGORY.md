@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSPROCGCATEGORY
 description: Fintransprocgcategory
+semantic_en: "Financial transaction processing categories — product and transaction category grouping."
+semantic_vi: "Danh mục xử lý giao dịch tài chính — nhóm danh mục sản phẩm và giao dịch."
+keywords:
+  - danh mục xử lý
+  - giao dịch
+  - sản phẩm
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

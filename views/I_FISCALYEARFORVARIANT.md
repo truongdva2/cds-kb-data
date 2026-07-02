@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARFORVARIANT
 description: Fiscalyearforvariant
+semantic_en: "Fiscal year for fiscal year variant — fiscal year calendar per fiscal year variant definition."
+semantic_vi: "Năm tài chính cho biến thể năm tài chính — lịch năm tài chính per biến thể."
+keywords:
+  - năm tài chính
+  - biến thể
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

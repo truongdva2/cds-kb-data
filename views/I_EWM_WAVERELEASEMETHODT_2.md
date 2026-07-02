@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVERELEASEMETHODT_2
 description: Ewm Wavereleasemethodt 2
+semantic_en: "warehouse wave release method name — provides translated descriptions of wave release strategies."
+semantic_vi: "tên phương pháp phát hành đợt giao nhận kho hàng — cung cấp mô tả được dịch của chiến lược phát hành đợt."
+keywords:
+  - phương pháp phát hành
+  - chiến lược đợt
+  - ngôn ngữ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

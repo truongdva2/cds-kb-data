@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTHIER
 description: Financialstatementhier
+semantic_en: "financial statement hierarchy — financial statement account hierarchy with chart of accounts, item assignments, and validity dates"
+semantic_vi: "hệ thống phân cấp báo cáo tài chính — hệ thống phân cấp tài khoản báo cáo tài chính với biểu đồ tài khoản, phân công mục và ngày có hiệu lực"
+keywords:
+  - báo cáo tài chính
+  - phân cấp tài khoản
+  - biểu đồ tài khoản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

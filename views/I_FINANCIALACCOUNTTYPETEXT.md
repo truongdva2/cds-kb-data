@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALACCOUNTTYPETEXT
 description: Financialaccounttypetext
+semantic_en: "financial account type text — language-specific descriptions for financial account types with domain values"
+semantic_vi: "văn bản loại tài khoản tài chính — mô tả theo ngôn ngữ cho các loại tài khoản tài chính với giá trị miền"
+keywords:
+  - loại tài khoản
+  - tên tài khoản
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

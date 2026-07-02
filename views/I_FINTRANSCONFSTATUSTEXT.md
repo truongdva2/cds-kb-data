@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSCONFSTATUSTEXT
 description: Fintransconfstatustext
+semantic_en: "Financial transaction confirmation status domain values — language-specific text for status codes in multiple languages."
+semantic_vi: "Văn bản trạng thái xác nhận giao dịch tài chính — giá trị miền cụ thể ngôn ngữ."
+keywords:
+  - trạng thái xác nhận
+  - giao dịch tài chính
+  - miền giá trị
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

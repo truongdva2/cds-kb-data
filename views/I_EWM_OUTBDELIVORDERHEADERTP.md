@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBDELIVORDERHEADERTP
 description: Ewm Outbdelivorderheadertp
+semantic_en: "warehouse outbound delivery order header with routing information — contains shipment details, carrier, delivery party, and warehouse outbound delivery order main attributes."
+semantic_vi: "tiêu đề yêu cầu giao nhận hàng xuất kho cùng thông tin định tuyến — chứa chi tiết vận chuyển, nhà cung cấp vận tải, bên nhận hàng và các thuộc tính chính của yêu cầu giao nhận hàng xuất kho."
+keywords:
+  - yêu cầu giao nhận xuất
+  - định tuyến giao hàng
+  - đơn vị vận tải
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

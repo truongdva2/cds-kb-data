@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVETYPE_3
 description: Ewm Wavetype 3
+semantic_en: "warehouse wave type — classifies different wave categories for warehouse operations."
+semantic_vi: "loại đợt giao nhận kho hàng — phân loại các danh mục đợt khác nhau cho hoạt động kho hàng."
+keywords:
+  - loại đợt
+  - danh mục đợt sóng
+  - phân loại
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

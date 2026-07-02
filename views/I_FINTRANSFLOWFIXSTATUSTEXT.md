@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWFIXSTATUSTEXT
 description: Fintransflowfixstatustext
+semantic_en: "Financial transaction flow fixing status text — language-specific status names for fixing states."
+semantic_vi: "Văn bản trạng thái cố định dòng giao dịch tài chính — tên trạng thái theo ngôn ngữ."
+keywords:
+  - trạng thái cố định
+  - văn bản
+  - dòng giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

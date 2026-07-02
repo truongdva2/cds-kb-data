@@ -1,6 +1,12 @@
 ---
 name: I_FAILEDGOODSMOVEMENTITEM
 description: FAILEDGoods MovementITEM
+semantic_en: "failed goods movement item — individual items of failed goods movements with error details, timestamps, and system messages"
+semantic_vi: "mục chuyển động hàng hóa thất bại — các mục riêng lẻ của chuyển động hàng hóa không thành công với chi tiết lỗi, dấu thời gian và thông báo hệ thống"
+keywords:
+  - mục chuyển động hàng hóa
+  - lỗi hệ thống
+  - dấu thời gian lỗi
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

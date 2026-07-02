@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARFORFINMGMTAREA
 description: Fiscalyearforfinmgmtarea
+semantic_en: "Fiscal year for financial management area — fiscal year calendar per financial management area."
+semantic_vi: "Năm tài chính cho khu vực quản lý tài chính — lịch năm tài chính per khu vực."
+keywords:
+  - năm tài chính
+  - quản lý tài chính
+  - khu vực
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

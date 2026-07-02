@@ -1,6 +1,12 @@
 ---
 name: I_FACTORYCALENDARVALUEHELP
 description: Factorycalendarvaluehelp
+semantic_en: "factory calendar value help — factory calendar selection list with legacy identifier and validity dates for dropdowns"
+semantic_vi: "trợ giúp giá trị lịch nhà máy — danh sách lựa chọn lịch nhà máy với định danh kế thừa và ngày có hiệu lực để tìm kiếm"
+keywords:
+  - lịch nhà máy
+  - giá trị trợ giúp
+  - tìm kiếm
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FISCALCALYEARPERIODFORCOCODE
 description: Fiscalcalyearperiodforcocode
+semantic_en: "Fiscal year period for company code projection — fiscal calendar periods with special period indicator."
+semantic_vi: "Phép chiếu kỳ năm tài chính cho công ty — kỳ lịch với chỉ báo kỳ đặc biệt."
+keywords:
+  - kỳ tài chính
+  - công ty
+  - lịch
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

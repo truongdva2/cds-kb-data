@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARFORCOMPANYCODE
 description: FISCALYEARFORCompany Code
+semantic_en: "Fiscal year for company code — fiscal year calendar mapping per company with date ranges."
+semantic_vi: "Năm tài chính cho công ty — ánh xạ lịch năm tài chính per công ty."
+keywords:
+  - năm tài chính
+  - công ty
+  - lịch
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

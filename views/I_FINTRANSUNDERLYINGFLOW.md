@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSUNDERLYINGFLOW
 description: Fintransunderlyingflow
+semantic_en: "Financial transaction underlying flows — option exercise flow details with creation and change tracking."
+semantic_vi: "Dòng cơ sở giao dịch tài chính — chi tiết dòng thực hiện công cụ tùy chọn."
+keywords:
+  - dòng cơ sở
+  - công cụ tùy chọn
+  - giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

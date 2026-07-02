@@ -1,6 +1,12 @@
 ---
 name: I_FINWBSELEMENTHIERARCHYTEXT
 description: Finwbselementhierarchytext
+semantic_en: "Financial WBS element hierarchy text — language-specific hierarchy descriptions and names."
+semantic_vi: "Văn bản phân cấp phần tử WBS tài chính — tên và mô tả phân cấp theo ngôn ngữ."
+keywords:
+  - WBS
+  - văn bản
+  - phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

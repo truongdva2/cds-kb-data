@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALACCOUNTTYPESTDVH
 description: Financialaccounttypestdvh
+semantic_en: "financial account type standard value help — financial account type selection list for dropdowns and searches"
+semantic_vi: "trợ giúp giá trị tiêu chuẩn loại tài khoản tài chính — danh sách lựa chọn loại tài khoản tài chính cho menu thả xuống"
+keywords:
+  - loại tài khoản
+  - tìm kiếm tài chính
+  - giá trị trợ giúp
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

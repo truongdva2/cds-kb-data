@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBDELIVORDITEMSRLNMBR
 description: Ewm Outbdelivorditemsrlnmbr
+semantic_en: "warehouse outbound delivery order item serial numbers — tracks serialized product components within warehouse outbound delivery operations."
+semantic_vi: "số seri dòng chi tiết yêu cầu giao nhận hàng xuất kho — theo dõi các thành phần sản phẩm có seri trong hoạt động giao nhận hàng xuất kho."
+keywords:
+  - số seri sản phẩm
+  - theo dõi hàng hóa
+  - yêu cầu giao nhận
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

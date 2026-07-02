@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORAGEBINISEMPTYTEXT
 description: Ewm Storagebinisemptytext
+semantic_en: "empty storage bin indicator text — translates empty bin status flags into business language."
+semantic_vi: "văn bản chỉ báo kệ lưu kho trống rỗng — dịch các cờ trạng thái kệ trống sang ngôn ngữ kinh doanh."
+keywords:
+  - kệ trống rỗng
+  - chỉ báo kho hàng
+  - mô tả trạng thái
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

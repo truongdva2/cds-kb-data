@@ -1,6 +1,11 @@
 ---
 name: I_FINCNDNCONDITIONTYPETEXT
 description: Fincndnconditiontypetext
+semantic_en: "financial condition type text labels — names for condition types in multiple languages"
+semantic_vi: "nhãn văn bản loại điều kiện tài chính — tên gọi loại điều kiện theo ngôn ngữ"
+keywords:
+  - loại điều kiện
+  - tên gọi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

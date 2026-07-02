@@ -1,6 +1,12 @@
 ---
 name: I_FISCALQUARTERTEXT
 description: Fiscalquartertext
+semantic_en: "Fiscal quarter text — language-specific names for fiscal quarter domain values."
+semantic_vi: "Văn bản quý tài chính — tên quý theo ngôn ngữ."
+keywords:
+  - quý tài chính
+  - văn bản
+  - miền
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

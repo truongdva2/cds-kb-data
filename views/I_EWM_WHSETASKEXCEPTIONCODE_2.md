@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WHSETASKEXCEPTIONCODE_2
 description: Ewm Whsetaskexceptioncode 2
+semantic_en: "exception code for warehouse task — records task exceptions with business context and execution step."
+semantic_vi: "mã ngoại lệ cho tác vụ kho hàng — ghi lại ngoại lệ tác vụ với ngữ cảnh kinh doanh và bước thực thi."
+keywords:
+  - mã ngoại lệ
+  - tác vụ lỗi
+  - ngữ cảnh kinh doanh
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

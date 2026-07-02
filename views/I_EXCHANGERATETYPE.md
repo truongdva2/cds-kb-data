@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATETYPE
 description: Exchange RateTYPE
+semantic_en: "exchange rate type master — defines reference currency, conversion methods, and calculation rules for FX types."
+semantic_vi: "dữ liệu tổng hợp loại tỷ giá hối đoái — xác định tiền tệ tham chiếu, phương pháp chuyển đổi và quy tắc tính toán cho loại ngoại tệ."
+keywords:
+  - loại tỷ giá
+  - tiền tệ tham chiếu
+  - quy tắc chuyển đổi
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

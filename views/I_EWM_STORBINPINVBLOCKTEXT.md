@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINPINVBLOCKTEXT
 description: Ewm Storbinpinvblocktext
+semantic_en: "storage bin block indicator for inventory text — describes block status for physical inventory operations."
+semantic_vi: "văn bản chỉ báo chặn kệ lưu kho cho kiểm kê — mô tả trạng thái chặn cho hoạt động kiểm kê vật lý."
+keywords:
+  - chặn kiểm kê
+  - kệ bị khóa
+  - hoạt động kiểm
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

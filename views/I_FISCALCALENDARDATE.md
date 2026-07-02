@@ -1,6 +1,12 @@
 ---
 name: I_FISCALCALENDARDATE
 description: Fiscalcalendardate
+semantic_en: "Fiscal calendar dates projection — comprehensive date mapping including fiscal year, period, quarter, and week dimensions."
+semantic_vi: "Phép chiếu ngày lịch tài chính — ánh xạ ngày toàn diện bao gồm kỳ, quý, tuần."
+keywords:
+  - lịch tài chính
+  - ngày tháng
+  - kỳ tài chính
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

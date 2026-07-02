@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRPRODCAT
 description: Financialinstrprodcat
+semantic_en: "financial instrument product category — treasury product categories with treasury contract type classification"
+semantic_vi: "danh mục sản phẩm công cụ tài chính — danh mục sản phẩm kho bạc với phân loại loại hợp đồng kho bạc"
+keywords:
+  - danh mục sản phẩm
+  - công cụ tài chính
+  - kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

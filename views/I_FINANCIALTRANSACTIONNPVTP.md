@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONNPVTP
 description: Financialtransactionnpvtp
+semantic_en: "financial transaction net present value transformation proxy — NPV data with valuation currency and component values for transformation processing"
+semantic_vi: "proxy chuyển đổi giá trị hiện tại ròng giao dịch tài chính — dữ liệu NPV với tiền tệ định giá và giá trị thành phần để xử lý chuyển đổi"
+keywords:
+  - giá trị hiện tại ròng
+  - chuyển đổi dữ liệu
+  - NPV
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

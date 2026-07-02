@@ -1,6 +1,12 @@
 ---
 name: I_FINSGLERRORITEMDETAIL
 description: Finsglerroritemdetail
+semantic_en: "GL error item detail records — error tracking with original posting data, account type, and error document references"
+semantic_vi: "chi tiết mục lỗi sổ cái — theo dõi lỗi với dữ liệu ghi sổ ban đầu, loại tài khoản và tham chiếu tài liệu lỗi"
+keywords:
+  - lỗi sổ cái
+  - chi tiết lỗi
+  - tài khoản
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

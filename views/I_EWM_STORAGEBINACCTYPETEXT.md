@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORAGEBINACCTYPETEXT
 description: Ewm Storagebinacctypetext
+semantic_en: "storage bin access type text — provides translated descriptions of bin access types."
+semantic_vi: "văn bản loại truy cập kệ lưu kho — cung cấp mô tả loại truy cập kệ đã dịch."
+keywords:
+  - mô tả loại truy cập
+  - văn bản kệ hàng
+  - ngôn ngữ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVETEMPLATE_3
 description: Ewm Wavetemplate 3
+semantic_en: "warehouse wave template — defines wave configuration with release method and type."
+semantic_vi: "mẫu đợt giao nhận kho hàng — xác định cấu hình đợt với phương pháp phát hành và loại."
+keywords:
+  - mẫu đợt
+  - cấu hình sóng
+  - phương pháp phát hành
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

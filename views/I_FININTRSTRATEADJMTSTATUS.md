@@ -1,6 +1,12 @@
 ---
 name: I_FININTRSTRATEADJMTSTATUS
 description: Finintrstrateadjmtstatus
+semantic_en: "interest rate adjustment status — classifies the state of interest rate adjustment processes"
+semantic_vi: "trạng thái điều chỉnh lãi suất — phân loại trạng thái quy trình điều chỉnh lãi suất"
+keywords:
+  - lãi suất
+  - điều chỉnh
+  - trạng thái
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

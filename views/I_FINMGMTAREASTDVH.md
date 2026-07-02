@@ -1,6 +1,12 @@
 ---
 name: I_FINMGMTAREASTDVH
 description: Finmgmtareastdvh
+semantic_en: "value-help view for financial management areas — lookup data for area name, currency, and fiscal period configuration"
+semantic_vi: "lựa chọn hỗ trợ cho lĩnh vực quản lý tài chính — dữ liệu tra cứu cho tên lĩnh vực, tiền tệ và cấu hình kỳ tài chính"
+keywords:
+  - lĩnh vực quản lý
+  - tiền tệ
+  - kỳ tài chính
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

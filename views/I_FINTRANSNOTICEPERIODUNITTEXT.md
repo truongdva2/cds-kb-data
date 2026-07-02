@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSNOTICEPERIODUNITTEXT
 description: Fintransnoticeperiodunittext
+semantic_en: "Financial transaction notice period unit text — language-specific names for period unit codes."
+semantic_vi: "Văn bản đơn vị kỳ hạn thông báo giao dịch tài chính — tên theo ngôn ngữ."
+keywords:
+  - kỳ hạn
+  - đơn vị
+  - văn bản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

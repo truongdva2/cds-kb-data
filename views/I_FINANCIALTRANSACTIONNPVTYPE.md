@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONNPVTYPE
 description: Financialtransactionnpvtype
+semantic_en: "financial transaction net present value type — NPV type classification identifiers"
+semantic_vi: "loại giá trị hiện tại ròng giao dịch tài chính — định danh phân loại loại NPV"
+keywords:
+  - loại NPV
+  - phân loại giá trị
+  - giao dịch tài chính
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATETYPETEXT
 description: Exchange RateTYPETEXT
+semantic_en: "exchange rate type text — language-specific descriptions of exchange rate types with name and language key"
+semantic_vi: "văn bản loại tỷ giá — mô tả các loại tỷ giá hối đoái theo ngôn ngữ cùng tên và khóa ngôn ngữ"
+keywords:
+  - loại tỷ giá hối đoái
+  - mô tả tỷ giá
+  - ngôn ngữ tỷ giá
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

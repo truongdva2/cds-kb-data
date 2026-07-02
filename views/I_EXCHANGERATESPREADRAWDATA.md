@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATESPREADRAWDATA
 description: Exchange RateSPREADRAWDATA
+semantic_en: "exchange rate spread raw data — currency conversion spread ratios for bid-ask pricing in FX operations."
+semantic_vi: "dữ liệu thô chênh lệch tỷ giá hối đoái — tỷ lệ chênh lệch chuyển đổi tiền tệ cho định giá bid-ask trong hoạt động ngoại tệ."
+keywords:
+  - chênh lệch tỷ giá
+  - giá bid-ask
+  - tỷ lệ chuyển đổi
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

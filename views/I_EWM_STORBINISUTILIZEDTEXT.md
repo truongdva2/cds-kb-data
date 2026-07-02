@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINISUTILIZEDTEXT
 description: Ewm Storbinisutilizedtext
+semantic_en: "storage bin is utilized indicator text — translates bin utilization status."
+semantic_vi: "văn bản chỉ báo kệ lưu kho được sử dụng — dịch trạng thái sử dụng kệ."
+keywords:
+  - kệ được sử dụng
+  - trạng thái sử dụng
+  - kho hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

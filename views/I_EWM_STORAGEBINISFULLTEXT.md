@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORAGEBINISFULLTEXT
 description: Ewm Storagebinisfulltext
+semantic_en: "full storage bin indicator text — provides translated descriptions of bin fullness status."
+semantic_vi: "văn bản chỉ báo kệ lưu kho đầy — cung cấp mô tả trạng thái đầu kệ đã dịch."
+keywords:
+  - kệ đầy đủ
+  - chỉ báo đầy
+  - trạng thái kệ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

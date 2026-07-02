@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTHIERNODET
 description: Financialstatementhiernodet
+semantic_en: "financial statement hierarchy node text — language-specific node descriptions and short text for hierarchy nodes"
+semantic_vi: "văn bản nút hệ thống phân cấp báo cáo tài chính — mô tả nút theo ngôn ngữ và văn bản tóm tắt cho các nút phân cấp"
+keywords:
+  - nút phân cấp
+  - mô tả nút
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

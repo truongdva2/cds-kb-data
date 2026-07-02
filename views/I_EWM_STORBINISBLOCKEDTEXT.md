@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINISBLOCKEDTEXT
 description: Ewm Storbinisblockedtext
+semantic_en: "storage bin is blocked indicator text — describes bin blocking status in translated terms."
+semantic_vi: "văn bản chỉ báo kệ lưu kho bị chặn — mô tả trạng thái chặn kệ bằng các từ đã dịch."
+keywords:
+  - kệ bị chặn
+  - chặn hoạt động
+  - trạng thái kệ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

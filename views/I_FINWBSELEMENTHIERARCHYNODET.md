@@ -1,6 +1,12 @@
 ---
 name: I_FINWBSELEMENTHIERARCHYNODET
 description: Finwbselementhierarchynodet
+semantic_en: "Financial WBS element hierarchy node text — language-dependent node descriptions in hierarchies."
+semantic_vi: "Văn bản nút phân cấp phần tử WBS tài chính — mô tả nút theo ngôn ngữ."
+keywords:
+  - nút WBS
+  - văn bản
+  - phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINCOPITEMCUBE
 description: Fincopitemcube
+semantic_en: "analytical cube for cash flow items — liquidity transactions with company code, currency, and certainty level analysis"
+semantic_vi: "khối lập phương phân tích cho các khoản dòng tiền — giao dịch thanh khoản với phân tích mã công ty, tiền tệ và mức độ chắc chắn"
+keywords:
+  - dòng tiền
+  - thanh khoản
+  - khối phân tích
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

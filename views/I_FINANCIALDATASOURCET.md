@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALDATASOURCET
 description: Financialdatasourcet
+semantic_en: "financial data source text — language-specific names for financial data sources"
+semantic_vi: "văn bản nguồn dữ liệu tài chính — tên cụ thể theo ngôn ngữ cho các nguồn dữ liệu tài chính"
+keywords:
+  - nguồn dữ liệu
+  - tên nguồn
+  - ngôn ngữ
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

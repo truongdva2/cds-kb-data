@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWFIXINGBLKGRSN
 description: Fintransflowfixingblkgrsn
+semantic_en: "Financial transaction flow fixing blocking reasons — domain values for blocking reason codes."
+semantic_vi: "Lý do chặn cố định dòng giao dịch tài chính — giá trị miền cho mã lý do."
+keywords:
+  - lý do chặn
+  - cố định
+  - dòng giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

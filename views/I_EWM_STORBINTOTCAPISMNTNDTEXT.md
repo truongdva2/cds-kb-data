@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINTOTCAPISMNTNDTEXT
 description: Ewm Storbintotcapismntndtext
+semantic_en: "storage bin total capacity is maintained text — translates total capacity maintenance status."
+semantic_vi: "văn bản dung tích tổng kệ lưu kho được duy trì — dịch trạng thái duy trì dung tích tổng."
+keywords:
+  - dung tích tổng
+  - duy trì khả năng
+  - giới hạn dung tích
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

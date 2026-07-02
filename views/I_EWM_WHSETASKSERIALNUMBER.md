@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WHSETASKSERIALNUMBER
 description: Ewm WHSETASKSerial Number
+semantic_en: "serial number for warehouse task — assigns serial numbers to warehouse tasks for tracking."
+semantic_vi: "số seri cho tác vụ kho hàng — gán số seri cho tác vụ kho hàng để theo dõi."
+keywords:
+  - số seri tác vụ
+  - theo dõi tác vụ
+  - kho hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWCATEGORY
 description: Fintransflowcategory
+semantic_en: "Financial transaction flow categories — classification hierarchy for transaction flow types."
+semantic_vi: "Danh mục dòng giao dịch tài chính — phân loại loại dòng giao dịch."
+keywords:
+  - danh mục dòng
+  - giao dịch tài chính
+  - phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

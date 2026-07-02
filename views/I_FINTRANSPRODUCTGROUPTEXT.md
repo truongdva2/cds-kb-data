@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSPRODUCTGROUPTEXT
 description: Fintransproductgrouptext
+semantic_en: "Financial transaction product group text — language-specific product group names."
+semantic_vi: "Văn bản nhóm sản phẩm giao dịch tài chính — tên nhóm theo ngôn ngữ."
+keywords:
+  - nhóm sản phẩm
+  - văn bản
+  - tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

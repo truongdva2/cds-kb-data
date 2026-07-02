@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWTYPE
 description: Fintransflowtype
+semantic_en: "Financial transaction flow types — treasury contract flow classification with fee relevance."
+semantic_vi: "Loại dòng giao dịch tài chính — phân loại dòng hợp đồng kho bạc."
+keywords:
+  - loại dòng
+  - giao dịch tài chính
+  - phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

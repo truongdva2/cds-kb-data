@@ -1,6 +1,12 @@
 ---
 name: I_EWM_WAVEHEADER_3
 description: Ewm Waveheader 3
+semantic_en: "warehouse wave header — organizes outbound tasks into waves with release methods and planned completion times."
+semantic_vi: "tiêu đề đợt giao nhận kho hàng — sắp xếp các tác vụ giao nhận thành các đợt với phương pháp phát hành và thời gian hoàn thành dự kiến."
+keywords:
+  - đợt giao nhận
+  - đợt sóng
+  - phối hợp giao hàng
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

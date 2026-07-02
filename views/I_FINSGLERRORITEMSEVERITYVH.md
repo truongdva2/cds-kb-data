@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLERRORITEMSEVERITYVH
 description: Finsglerroritemseverityvh
+semantic_en: "value-help view for GL error item severity — classification for error severity levels"
+semantic_vi: "lựa chọn hỗ trợ cho mức độ nghiêm trọng mục lỗi sổ cái — phân loại mức độ nghiêm trọng lỗi"
+keywords:
+  - lỗi sổ cái
+  - mức độ nghiêm trọng
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

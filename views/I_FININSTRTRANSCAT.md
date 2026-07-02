@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRTRANSCAT
 description: Fininstrtranscat
+semantic_en: "transaction category master data — classifies financial instrument transactions by product category"
+semantic_vi: "dữ liệu chính danh mục giao dịch — phân loại giao dịch chứng chỉ tài chính theo danh mục sản phẩm"
+keywords:
+  - danh mục giao dịch
+  - sản phẩm
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

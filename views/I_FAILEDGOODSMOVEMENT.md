@@ -1,6 +1,12 @@
 ---
 name: I_FAILEDGOODSMOVEMENT
 description: FAILEDGoods Movement
+semantic_en: "failed goods movement header — header record for goods movements that failed with failed movement identifier and order category"
+semantic_vi: "tiêu đề chuyển động hàng hóa thất bại — bản ghi tiêu đề cho chuyển động hàng hóa không thành công với định danh chuyển động thất bại và danh mục đơn hàng"
+keywords:
+  - chuyển động hàng hóa
+  - lỗi chuyển động
+  - phân loại đơn hàng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLERRITMPROCSTSVH
 description: Finsglerritmprocstsvh
+semantic_en: "value-help view for GL error item status — lookup data for error processing states"
+semantic_vi: "lựa chọn hỗ trợ cho trạng thái mục lỗi sổ cái — dữ liệu tra cứu cho trạng thái xử lý lỗi"
+keywords:
+  - lỗi sổ cái
+  - trạng thái xử lý
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONSTDVH
 description: Financialtransactionstdvh
+semantic_en: "value-help view for financial transactions — primary key fields for transaction lookup and user tracking"
+semantic_vi: "lựa chọn hỗ trợ cho giao dịch tài chính — các trường khóa chính để tra cứu giao dịch và theo dõi người dùng"
+keywords:
+  - giao dịch tài chính
+  - người dùng
+  - lịch sử thay đổi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

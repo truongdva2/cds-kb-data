@@ -1,6 +1,12 @@
 ---
 name: I_FINALCONFIRMATIONTYPE
 description: Finalconfirmationtype
+semantic_en: "final confirmation type — domain values for final confirmation types in order processing"
+semantic_vi: "loại xác nhận cuối cùng — các giá trị miền cho loại xác nhận cuối cùng trong xử lý đơn hàng"
+keywords:
+  - xác nhận cuối cùng
+  - loại xác nhận
+  - đơn hàng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

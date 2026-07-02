@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRTRANSCATTEXT
 description: Fininstrtranscattext
+semantic_en: "transaction category text labels — names for transaction categories in multiple languages"
+semantic_vi: "nhãn văn bản danh mục giao dịch — tên gọi danh mục giao dịch theo ngôn ngữ"
+keywords:
+  - danh mục giao dịch
+  - tên gọi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

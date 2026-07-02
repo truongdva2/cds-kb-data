@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRPRODUCTTYPE
 description: Financialinstrproducttype
+semantic_en: "financial instrument product type — treasury product types with contract type, category, and condition group allocation"
+semantic_vi: "loại sản phẩm công cụ tài chính — loại sản phẩm kho bạc với loại hợp đồng, danh mục và phân bổ nhóm điều kiện"
+keywords:
+  - loại sản phẩm
+  - kho bạc
+  - công cụ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

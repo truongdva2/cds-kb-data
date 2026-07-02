@@ -1,6 +1,12 @@
 ---
 name: I_FACTORYCALENDARBASIC
 description: Factorycalendarbasic
+semantic_en: "factory calendar — factory calendar master data with working day flags, holiday settings, validity dates, and legacy identifier"
+semantic_vi: "lịch nhà máy — dữ liệu chính lịch nhà máy với cờ ngày làm việc, cài đặt ngày lễ, ngày có hiệu lực và định danh kế thừa"
+keywords:
+  - lịch nhà máy
+  - ngày làm việc
+  - lịch công cộng
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

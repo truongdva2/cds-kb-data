@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PINVITEMFLATTENEDROW
 description: Ewm Pinvitemflattenedrow
+semantic_en: "flattened warehouse physical inventory item row — denormalizes physical inventory details by storage type, bin, and handling unit completion status."
+semantic_vi: "dòng hàng kiểm kê vật lý kho hàng được làm phẳng — chuẩn hóa lại chi tiết kiểm kê vật lý theo loại lưu kho, kệ và trạng thái hoàn thành đơn vị xử lý."
+keywords:
+  - kiểm kê làm phẳng
+  - dòng kho hàng
+  - trạng thái đơn vị
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

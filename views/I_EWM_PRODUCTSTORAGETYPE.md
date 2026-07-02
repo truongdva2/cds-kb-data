@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PRODUCTSTORAGETYPE
 description: Ewm Productstoragetype
+semantic_en: "product storage type configuration — defines storage strategy, bin type, and sequencing rules by product and warehouse."
+semantic_vi: "cấu hình loại lưu kho sản phẩm — xác định chiến lược lưu kho, loại kệ và quy tắc sắp xếp theo sản phẩm và kho hàng."
+keywords:
+  - loại lưu kho
+  - chiến lược kho hàng
+  - quy tắc sắp xếp
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

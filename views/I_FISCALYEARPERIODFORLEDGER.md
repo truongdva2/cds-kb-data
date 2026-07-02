@@ -1,6 +1,12 @@
 ---
 name: I_FISCALYEARPERIODFORLEDGER
 description: Fiscalyearperiodforledger
+semantic_en: "Fiscal year period for ledger — fiscal periods mapped to specific ledger and company code."
+semantic_vi: "Kỳ năm tài chính cho sổ cái — kỳ tài chính ánh xạ cho sổ cái."
+keywords:
+  - kỳ tài chính
+  - sổ cái
+  - công ty
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

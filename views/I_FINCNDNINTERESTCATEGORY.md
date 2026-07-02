@@ -1,6 +1,11 @@
 ---
 name: I_FINCNDNINTERESTCATEGORY
 description: Fincndninterestcategory
+semantic_en: "interest category master data — classification for financial condition interest types"
+semantic_vi: "dữ liệu chính danh mục lãi suất — phân loại loại lãi suất điều kiện tài chính"
+keywords:
+  - danh mục lãi suất
+  - lãi suất
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

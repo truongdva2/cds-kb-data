@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSRELEASESTATUSTEXT
 description: Fintransreleasestatustext
+semantic_en: "Financial transaction release status text — language-specific release status names."
+semantic_vi: "Văn bản trạng thái phát hành giao dịch tài chính — tên trạng thái theo ngôn ngữ."
+keywords:
+  - trạng thái phát hành
+  - văn bản
+  - giao dịch
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALMANAGEMENTAREA
 description: Financialmanagementarea
+semantic_en: "financial management area — financial management area master data with currency, fiscal year variant, commitment and funds center settings"
+semantic_vi: "khu vực quản lý tài chính — dữ liệu chính khu vực quản lý tài chính với tiền tệ, biến thể năm tài chính, cài đặt cam kết và trung tâm quỹ"
+keywords:
+  - khu vực quản lý
+  - tài chính
+  - tiền tệ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

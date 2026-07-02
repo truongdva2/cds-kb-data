@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBDELIVORDERITEMTP
 description: Ewm Outbdelivorderitemtp
+semantic_en: "warehouse outbound delivery order item with plant allocation — details individual line items including product, quantity, batch, and serial number requirements."
+semantic_vi: "dòng chi tiết yêu cầu giao nhận hàng xuất kho có phân bổ nhà máy — chi tiết các dòng hàng bao gồm hàng hóa, số lượng, lô hàng và yêu cầu số seri."
+keywords:
+  - dòng hàng xuất kho
+  - lô hàng sản phẩm
+  - số lượng giao nhận
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

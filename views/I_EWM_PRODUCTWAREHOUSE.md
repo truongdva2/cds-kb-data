@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PRODUCTWAREHOUSE
 description: Ewm Productwarehouse
+semantic_en: "product warehouse master data — establishes warehouse process controls, load categories, and inventory cycle parameters per product."
+semantic_vi: "dữ liệu tổng hợp sản phẩm kho hàng — thiết lập các điều khiển quy trình kho, danh mục tải và tham số chu kỳ tồn kho theo sản phẩm."
+keywords:
+  - dữ liệu sản phẩm kho
+  - điều khiển quy trình
+  - chu kỳ kiểm kê
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

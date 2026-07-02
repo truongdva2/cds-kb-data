@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWFIXBLKGRSNTXT
 description: Fintransflowfixblkgrsntxt
+semantic_en: "Financial transaction flow fixing blocking reason text — status explanation codes in multiple languages."
+semantic_vi: "Văn bản lý do chặn cố định dòng giao dịch tài chính — mã giải thích trạng thái."
+keywords:
+  - lý do chặn
+  - cố định dòng
+  - trạng thái
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

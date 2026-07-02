@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PHYSICALINVENTORYITEM
 description: Ewm Physicalinventoryitem
+semantic_en: "warehouse physical inventory item — records counted inventory items with status, document type, and counting audit trail."
+semantic_vi: "dòng hàng kiểm kê vật lý kho hàng — ghi lại các dòng hàng đã đếm với trạng thái, loại chứng từ và dấu vết kiểm toán đếm hàng."
+keywords:
+  - kiểm kê vật lý
+  - đếm hàng tồn kho
+  - dòng hàng kiểm
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

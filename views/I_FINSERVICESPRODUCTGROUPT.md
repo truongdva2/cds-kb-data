@@ -1,6 +1,11 @@
 ---
 name: I_FINSERVICESPRODUCTGROUPT
 description: Finservicesproductgroupt
+semantic_en: "product group text in multiple languages — localized names for financial services product groups"
+semantic_vi: "văn bản nhóm sản phẩm theo ngôn ngữ — tên gọi địa phương hóa cho nhóm sản phẩm dịch vụ tài chính"
+keywords:
+  - sản phẩm tài chính
+  - tên gọi
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

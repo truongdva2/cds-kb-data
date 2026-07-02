@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINMAXVOLISMNTNDTEXT
 description: Ewm Storbinmaxvolismntndtext
+semantic_en: "storage bin maximum volume is maintained text — describes volume capacity maintenance status in translations."
+semantic_vi: "văn bản thể tích tối đa kệ lưu kho được duy trì — mô tả trạng thái duy trì dung tích thể tích bằng các bản dịch."
+keywords:
+  - thể tích tối đa
+  - duy trì dung tích
+  - giới hạn kệ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

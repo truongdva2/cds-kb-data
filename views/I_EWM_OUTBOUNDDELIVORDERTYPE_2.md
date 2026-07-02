@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBOUNDDELIVORDERTYPE_2
 description: Ewm Outbounddelivordertype 2
+semantic_en: "warehouse outbound delivery order type — classifies warehouse outbound delivery document categories and types."
+semantic_vi: "loại yêu cầu giao nhận hàng xuất kho — phân loại các loại danh mục chứng từ giao nhận hàng xuất kho."
+keywords:
+  - phân loại yêu cầu xuất
+  - loại giao nhận
+  - chứng từ xuất
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

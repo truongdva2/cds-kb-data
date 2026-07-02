@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWACCTGPAYTINFO
 description: Fintransflowacctgpaytinfo
+semantic_en: "Accounting and payment information for financial transaction flows — treasury and accounting posting details."
+semantic_vi: "Thông tin kế toán và thanh toán cho dòng giao dịch tài chính — chi tiết ghi sổ kho bạc."
+keywords:
+  - thông tin thanh toán
+  - dòng giao dịch
+  - kế toán
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

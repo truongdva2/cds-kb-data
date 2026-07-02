@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRACTIVITYCATEGORYTEXT
 description: Fininstractivitycategorytext
+semantic_en: "activity category text in multiple languages — localized names for financial instrument activity classifications"
+semantic_vi: "văn bản danh mục hoạt động theo ngôn ngữ — tên gọi địa phương hóa cho phân loại hoạt động chứng chỉ"
+keywords:
+  - hoạt động chứng chỉ
+  - danh mục hoạt động
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

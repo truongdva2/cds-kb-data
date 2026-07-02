@@ -1,6 +1,11 @@
 ---
 name: I_FINSGLMODIFIEDITEM
 description: Finsglmodifieditem
+semantic_en: "GL items after correction — posting data after error correction with modified account, cost center, and profit center"
+semantic_vi: "mục sổ cái sau khi sửa chữa — dữ liệu ghi sổ sau sửa lỗi với tài khoản, trung tâm chi phí và trung tâm lợi nhuận được sửa đổi"
+keywords:
+  - sổ cái sửa chữa
+  - mục sửa đổi
 app_component: AC-INT-ECS-2CL
 software_component: SAPSCORE
 release_state: released

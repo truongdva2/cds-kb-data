@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALTRANSACTIONTYPE
 description: Financialtransactiontype
+semantic_en: "financial transaction type configuration — defines transaction type groups, carry-forward rules, and formula text for balance calculations"
+semantic_vi: "cấu hình loại giao dịch tài chính — xác định nhóm loại giao dịch, quy tắc chuyển tiếp năm, và công thức tính toán số dư"
+keywords:
+  - loại giao dịch
+  - chuyển năm
+  - công thức
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

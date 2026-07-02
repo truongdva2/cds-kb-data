@@ -1,6 +1,11 @@
 ---
 name: I_FINSTATISTICALKEYFIGITEMBSC
 description: Finstatisticalkeyfigitembsc
+semantic_en: "projection for statistical key figure items basic view — quantity-based metrics by company, cost center, and profit center"
+semantic_vi: "phép chiếu mục chỉ số thống kê dạng cơ bản — chỉ số dựa trên số lượng theo công ty, trung tâm chi phí và trung tâm lợi nhuận"
+keywords:
+  - chỉ số thống kê
+  - số lượng
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

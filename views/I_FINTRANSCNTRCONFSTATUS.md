@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSCNTRCONFSTATUS
 description: Fintranscntrconfstatus
+semantic_en: "counterconfirmation status domain — classification for counterparty confirmation states"
+semantic_vi: "miền trạng thái xác nhận lại — phân loại trạng thái xác nhận đối tác"
+keywords:
+  - xác nhận lại
+  - đối tác
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

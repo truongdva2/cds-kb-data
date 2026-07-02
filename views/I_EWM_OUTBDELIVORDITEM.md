@@ -1,6 +1,12 @@
 ---
 name: I_EWM_OUTBDELIVORDITEM
 description: Ewm Outbdelivorditem
+semantic_en: "warehouse outbound delivery order item — represents individual product lines with quantity, batch, and staging area placement."
+semantic_vi: "dòng chi tiết yêu cầu giao nhận hàng xuất kho — đại diện cho các dòng hàng hóa riêng lẻ với số lượng, lô hàng và vị trí sân khấu."
+keywords:
+  - dòng hàng sản phẩm
+  - lô hàng xuất
+  - khu vực chuẩn bị
 app_component: SCM-EWM-DLP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALMANAGEMENTAREATEXT
 description: Financialmanagementareatext
+semantic_en: "financial management area text — language-specific descriptions for financial management areas"
+semantic_vi: "văn bản khu vực quản lý tài chính — mô tả theo ngôn ngữ cho các khu vực quản lý tài chính"
+keywords:
+  - khu vực quản lý
+  - tên khu vực
+  - ngôn ngữ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

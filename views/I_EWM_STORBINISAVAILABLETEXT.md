@@ -1,6 +1,12 @@
 ---
 name: I_EWM_STORBINISAVAILABLETEXT
 description: Ewm Storbinisavailabletext
+semantic_en: "storage bin is available indicator text — translates bin availability status into descriptions."
+semantic_vi: "văn bản chỉ báo kệ lưu kho có sẵn — dịch trạng thái sẵn có kệ thành mô tả."
+keywords:
+  - kệ có sẵn
+  - trạng thái khả dụng
+  - mô tả kệ
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

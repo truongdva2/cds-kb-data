@@ -1,6 +1,11 @@
 ---
 name: I_FINSRVCSPRODGRPHIERNODET
 description: Finsrvcsprodgrphiernodet
+semantic_en: "hierarchy node text labels — localized node names and descriptions in multiple languages"
+semantic_vi: "nhãn văn bản nút phân cấp — tên gọi nút và mô tả địa phương hóa theo ngôn ngữ"
+keywords:
+  - phân cấp sản phẩm
+  - tên gọi nút
 app_component: FIN-IE-FS-2CL
 software_component: SAPSCORE
 release_state: released

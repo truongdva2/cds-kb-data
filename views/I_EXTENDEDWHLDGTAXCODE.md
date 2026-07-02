@@ -1,6 +1,12 @@
 ---
 name: I_EXTENDEDWHLDGTAXCODE
 description: Extendedwhldgtaxcode
+semantic_en: "extended withholding tax code — comprehensive withholding tax configuration with country, type, official codes, rates, formula usage, region, and posting rules"
+semantic_vi: "mã thuế tạm ứng mở rộng — cấu hình thuế tạm ứng toàn diện với quốc gia, loại, mã chính thức, tỷ lệ, sử dụng công thức, vùng và quy tắc hạch toán"
+keywords:
+  - thuế tạm ứng
+  - mã thuế
+  - tỷ lệ thuế tạm ứng
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

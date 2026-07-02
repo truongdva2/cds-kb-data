@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTHIERT
 description: Financialstatementhiert
+semantic_en: "financial statement hierarchy text — language-specific hierarchy name descriptions"
+semantic_vi: "văn bản hệ thống phân cấp báo cáo tài chính — mô tả tên hệ thống phân cấp theo ngôn ngữ"
+keywords:
+  - hệ thống phân cấp
+  - tên hệ thống
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

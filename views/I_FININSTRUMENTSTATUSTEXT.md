@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRUMENTSTATUSTEXT
 description: Fininstrumentstatustext
+semantic_en: "instrument status text labels — descriptions for financial instrument statuses in multiple languages"
+semantic_vi: "nhãn văn bản trạng thái chứng chỉ — mô tả trạng thái chứng chỉ tài chính theo ngôn ngữ"
+keywords:
+  - trạng thái chứng chỉ
+  - mô tả
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

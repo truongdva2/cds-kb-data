@@ -1,6 +1,12 @@
 ---
 name: I_EWM_PINVITEMROWSRLNMBR
 description: Ewm Pinvitemrowsrlnmbr
+semantic_en: "warehouse physical inventory item row serial numbers — maps serialized products in inventory counts with processing status."
+semantic_vi: "số seri dòng hàng kiểm kê vật lý kho hàng — ánh xạ sản phẩm có seri trong đếm tồn kho với trạng thái xử lý."
+keywords:
+  - số seri kiểm kê
+  - sản phẩm có seri
+  - trạng thái đếm
 app_component: SCM-EWM-WOP-2CL
 software_component: SAPSCORE
 release_state: released

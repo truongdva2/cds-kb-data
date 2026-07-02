@@ -1,6 +1,12 @@
 ---
 name: I_EXCHRATEQTANTYPERAWDATA
 description: Exchrateqtantyperawdata
+semantic_en: "exchange rate quotation type — raw currency pair quotation types with source/target currency, validity date, and quotation category"
+semantic_vi: "loại báo giá tỷ giá hối đoái — các loại báo giá cặp tiền tệ thô với tiền tệ gốc/đích, ngày có hiệu lực và danh mục báo giá"
+keywords:
+  - báo giá tỷ giá
+  - tiền tệ gốc đích
+  - loại báo giá
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

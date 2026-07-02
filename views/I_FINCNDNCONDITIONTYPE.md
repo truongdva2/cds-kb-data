@@ -1,6 +1,12 @@
 ---
 name: I_FINCNDNCONDITIONTYPE
 description: Fincndnconditiontype
+semantic_en: "financial condition type definition — maps treasury contract types to condition types with cash flow calculation categories"
+semantic_vi: "định nghĩa loại điều kiện tài chính — ánh xạ loại hợp đồng kho bạc tới loại điều kiện với danh mục tính toán dòng tiền"
+keywords:
+  - loại điều kiện
+  - dòng tiền
+  - hợp đồng kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

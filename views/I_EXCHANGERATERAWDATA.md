@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATERAWDATA
 description: Exchange RateRAWDATA
+semantic_en: "exchange rate raw data — daily FX rates by currency pair and exchange rate type for accounting periods."
+semantic_vi: "dữ liệu thô tỷ giá hối đoái — tỷ giá ngoại tệ hàng ngày theo cặp tiền tệ và loại tỷ giá cho các kỳ kế toán."
+keywords:
+  - tỷ giá ngoại tệ
+  - cặp tiền tệ
+  - dữ liệu FX
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

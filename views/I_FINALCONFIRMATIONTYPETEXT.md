@@ -1,6 +1,12 @@
 ---
 name: I_FINALCONFIRMATIONTYPETEXT
 description: Finalconfirmationtypetext
+semantic_en: "final confirmation type text — language-specific names for final confirmation types in manufacturing orders"
+semantic_vi: "văn bản loại xác nhận cuối cùng — tên cụ thể theo ngôn ngữ cho loại xác nhận cuối cùng trong đơn hàng sản xuất"
+keywords:
+  - xác nhận cuối cùng
+  - loại xác nhận
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

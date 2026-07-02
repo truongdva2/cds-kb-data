@@ -1,6 +1,12 @@
 ---
 name: I_FISCALDATEFUNCTIONVALUE
 description: Fiscaldatefunctionvalue
+semantic_en: "Fiscal date function values — computed date range results for fiscal calendar functions per variant."
+semantic_vi: "Giá trị hàm ngày tài chính — kết quả khoảng ngày tính toán cho hàm lịch."
+keywords:
+  - hàm ngày
+  - giá trị tính toán
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

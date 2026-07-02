@@ -1,6 +1,11 @@
 ---
 name: I_FININSTRACTIVITYCATEGORY
 description: Fininstractivitycategory
+semantic_en: "financial instrument activity category — classifies financial transaction activities by product and transaction type"
+semantic_vi: "danh mục hoạt động chứng chỉ tài chính — phân loại hoạt động giao dịch tài chính theo loại sản phẩm và giao dịch"
+keywords:
+  - hoạt động chứng chỉ
+  - danh mục hoạt động
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

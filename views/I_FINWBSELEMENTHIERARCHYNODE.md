@@ -1,6 +1,12 @@
 ---
 name: I_FINWBSELEMENTHIERARCHYNODE
 description: Finwbselementhierarchynode
+semantic_en: "Financial WBS element hierarchy nodes — individual nodes in WBS hierarchy with parent-child relationships."
+semantic_vi: "Nút phân cấp phần tử WBS tài chính — nút riêng lẻ trong phân cấp WBS."
+keywords:
+  - nút WBS
+  - phân cấp
+  - quan hệ cha-con
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODFORVARIANT
 description: Fiscalperiodforvariant
+semantic_en: "Fiscal period for fiscal year variant projection — calendar periods with sequential and special period tracking."
+semantic_vi: "Phép chiếu kỳ tài chính cho biến thể năm tài chính — kỳ lịch với theo dõi."
+keywords:
+  - kỳ tài chính
+  - biến thể
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

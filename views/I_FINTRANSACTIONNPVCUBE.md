@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSACTIONNPVCUBE
 description: Fintransactionnpvcube
+semantic_en: "analytical cube for transaction NPV analysis — net present value metrics with intrinsic, time, and clean price values"
+semantic_vi: "khối lập phương phân tích cho phân tích NPV giao dịch — chỉ số giá trị hiện tại ròng với giá trị nội tại, thời gian và giá sạch"
+keywords:
+  - giá trị hiện tại
+  - giao dịch tài chính
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

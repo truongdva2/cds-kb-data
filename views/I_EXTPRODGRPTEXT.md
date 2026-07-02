@@ -1,6 +1,12 @@
 ---
 name: I_EXTPRODGRPTEXT
 description: Extprodgrptext
+semantic_en: "external product group text — language-specific descriptions for external product groups"
+semantic_vi: "văn bản nhóm sản phẩm bên ngoài — mô tả theo ngôn ngữ cho các nhóm sản phẩm bên ngoài"
+keywords:
+  - nhóm sản phẩm
+  - tên nhóm
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

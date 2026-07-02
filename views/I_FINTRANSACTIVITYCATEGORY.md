@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSACTIVITYCATEGORY
 description: Fintransactivitycategory
+semantic_en: "transaction activity category — links financial transactions to activity and transaction category classifications"
+semantic_vi: "danh mục hoạt động giao dịch — liên kết giao dịch tài chính với phân loại hoạt động và giao dịch"
+keywords:
+  - hoạt động giao dịch
+  - danh mục
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

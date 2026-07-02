@@ -1,6 +1,12 @@
 ---
 name: I_FISCALQUARTERFORVARIANT
 description: Fiscalquarterforvariant
+semantic_en: "Fiscal quarter with next fiscal quarter projection — quarter periods with sequential tracking across years."
+semantic_vi: "Phép chiếu quý tài chính với quý tiếp theo — kỳ quý với theo dõi tuần tự."
+keywords:
+  - quý tài chính
+  - biến thể
+  - lịch
 app_component: CA-GTF-GL-CAL
 software_component: SAP_BASIS
 release_state: released

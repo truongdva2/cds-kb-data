@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALINSTRPRODCATTEXT
 description: Financialinstrprodcattext
+semantic_en: "financial instrument product category text — language-specific names for financial instrument product categories"
+semantic_vi: "văn bản danh mục sản phẩm công cụ tài chính — tên cụ thể theo ngôn ngữ cho danh mục sản phẩm công cụ tài chính"
+keywords:
+  - danh mục sản phẩm
+  - tên danh mục
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

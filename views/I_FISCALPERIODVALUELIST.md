@@ -1,6 +1,12 @@
 ---
 name: I_FISCALPERIODVALUELIST
 description: Fiscalperiodvaluelist
+semantic_en: "Fiscal period value list — distinct fiscal periods available for selection."
+semantic_vi: "Danh sách giá trị kỳ tài chính — kỳ tài chính riêng biệt."
+keywords:
+  - kỳ tài chính
+  - danh sách giá trị
+  - lựa chọn
 app_component: FI-GL-GL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALPOSITION
 description: Financialposition
+semantic_en: "financial position — financial status position definitions with group, data source, and asset/liability classification"
+semantic_vi: "vị trí tài chính — định nghĩa vị trí trạng thái tài chính với nhóm, nguồn dữ liệu và phân loại tài sản/nợ"
+keywords:
+  - vị trí tài chính
+  - trạng thái tài chính
+  - tài sản nợ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

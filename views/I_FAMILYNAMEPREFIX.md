@@ -1,6 +1,12 @@
 ---
 name: I_FAMILYNAMEPREFIX
 description: Familynameprefix
+semantic_en: "family name prefix — master data for family name prefixes with name descriptions"
+semantic_vi: "tiền tố họ — dữ liệu chính cho các tiền tố họ với mô tả tên"
+keywords:
+  - tiền tố họ
+  - họ
+  - tiền tố tên
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

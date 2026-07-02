@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTVERSIONT
 description: Financialstatementversiont
+semantic_en: "financial statement version text — language-specific names for financial statement variants/versions"
+semantic_vi: "văn bản phiên bản báo cáo tài chính — tên cụ thể theo ngôn ngữ cho các biến thể/phiên bản báo cáo tài chính"
+keywords:
+  - phiên bản báo cáo
+  - biến thể
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

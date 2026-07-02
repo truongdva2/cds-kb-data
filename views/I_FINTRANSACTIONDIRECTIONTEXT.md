@@ -1,6 +1,11 @@
 ---
 name: I_FINTRANSACTIONDIRECTIONTEXT
 description: Fintransactiondirectiontext
+semantic_en: "transaction direction text labels — descriptions for transaction directions in multiple languages"
+semantic_vi: "nhãn văn bản hướng giao dịch — mô tả hướng giao dịch theo ngôn ngữ"
+keywords:
+  - hướng giao dịch
+  - mô tả
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

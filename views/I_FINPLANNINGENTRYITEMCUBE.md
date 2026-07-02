@@ -1,6 +1,12 @@
 ---
 name: I_FINPLANNINGENTRYITEMCUBE
 description: Finplanningentryitemcube
+semantic_en: "analytical cube for financial planning entry items — budget planning data with document type, business area, and workflow status"
+semantic_vi: "khối lập phương phân tích cho mục nhập kế hoạch tài chính — dữ liệu lập kế hoạch ngân sách với loại tài liệu, lĩnh vực kinh doanh và trạng thái quy trình"
+keywords:
+  - kế hoạch tài chính
+  - ngân sách
+  - khối phân tích
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

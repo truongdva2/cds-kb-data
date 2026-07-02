@@ -1,6 +1,12 @@
 ---
 name: I_FINTRANSFLOWTYPETEXT
 description: Fintransflowtypetext
+semantic_en: "Financial transaction flow type names — language-dependent labels for transaction flow types."
+semantic_vi: "Tên loại dòng giao dịch tài chính — nhãn theo ngôn ngữ cho loại dòng."
+keywords:
+  - tên loại dòng
+  - giao dịch tài chính
+  - ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_EXCHANGERATEFACTORSRAWDATA
 description: Exchange RateFACTORSRAWDATA
+semantic_en: "exchange rate factors raw data — source currency unit factors and conversion ratios for FX calculations."
+semantic_vi: "dữ liệu thô các yếu tố tỷ giá hối đoái — hệ số đơn vị tiền tệ nguồn và tỷ lệ chuyển đổi cho tính toán ngoại tệ."
+keywords:
+  - tỷ giá hối đoái
+  - yếu tố chuyển đổi
+  - dữ liệu tiền tệ
 app_component: BC-SRV-BSF-CUR-2CL
 software_component: SAP_BASIS
 release_state: released

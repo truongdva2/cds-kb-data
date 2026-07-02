@@ -1,6 +1,12 @@
 ---
 name: I_FINANCIALSTATEMENTLEAFITEM
 description: Financialstatementleafitem
+semantic_en: "financial statement leaf item — financial statement leaf account item definitions with external identifier"
+semantic_vi: "mục lá báo cáo tài chính — định nghĩa mục tài khoản lá báo cáo tài chính với định danh bên ngoài"
+keywords:
+  - mục lá
+  - tài khoản
+  - báo cáo tài chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released
