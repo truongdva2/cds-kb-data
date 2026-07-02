@@ -1,6 +1,12 @@
 ---
 name: I_CAINTPOSTINGREASONCODETEXT
 description: Caintpostingreasoncodetext
+semantic_en: "internal posting reason code text — language-specific descriptions for internal posting reasons."
+semantic_vi: "Văn bản mã lý do ghi sổ nội bộ — mô tả các lý do ghi sổ nội bộ theo ngôn ngữ."
+keywords:
+  - ghi sổ nội bộ
+  - lý do
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

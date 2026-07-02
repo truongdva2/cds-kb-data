@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOPROCEDURE
 description: Caintcoprocedure
+semantic_en: "inter-company allocation procedure — master data for inter-company transaction allocation methods."
+semantic_vi: "Thủ tục phân bổ liên công ty — dữ liệu chính cho các phương pháp phân bổ giao dịch liên công ty."
+keywords:
+  - liên công ty
+  - phân bổ
+  - thủ tục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

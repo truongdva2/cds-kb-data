@@ -1,6 +1,12 @@
 ---
 name: I_CAPERIODCODE
 description: Caperiodcode
+semantic_en: "Period key — fiscal period codes for financial posting."
+semantic_vi: "Mã kỳ kế toán — mã kỳ tài chính cho hạch toán."
+keywords:
+  - kỳ kế toán
+  - mã
+  - tài chính
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPROMISETOPAYREASONTEXT
 description: Capromisetopayreasontext
+semantic_en: "Promise to pay reason text — language-specific descriptions of promise to pay reasons."
+semantic_vi: "Dữ liệu dịch lý do hứa hẹn thanh toán — mô tả đa ngôn ngữ cho các lý do."
+keywords:
+  - hứa hẹn thanh toán
+  - bản dịch
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

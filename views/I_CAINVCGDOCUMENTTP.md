@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCUMENTTP
 description: Cainvcgdocumenttp
+semantic_en: "invoicing document transactional posting — transactional posting view of invoicing documents with complete process and business partner information."
+semantic_vi: "Ghi sổ giao dịch tài liệu hóa đơn — khung nhìn ghi sổ giao dịch của tài liệu hóa đơn cùng đầy đủ thông tin quy trình và đối tác kinh doanh."
+keywords:
+  - hóa đơn
+  - tài liệu
+  - ghi sổ giao dịch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

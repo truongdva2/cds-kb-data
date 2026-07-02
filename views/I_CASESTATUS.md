@@ -1,6 +1,12 @@
 ---
 name: I_CASESTATUS
 description: Casestatus
+semantic_en: "case status — system status codes for dispute cases."
+semantic_vi: "trạng thái trường hợp — mã trạng thái hệ thống cho trường hợp tranh chấp."
+keywords:
+  - trường hợp
+  - trạng thái
+  - hệ thống
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

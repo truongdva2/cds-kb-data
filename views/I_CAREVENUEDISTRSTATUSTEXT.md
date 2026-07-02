@@ -1,6 +1,12 @@
 ---
 name: I_CAREVENUEDISTRSTATUSTEXT
 description: Carevenuedistrstatustext
+semantic_en: "revenue distribution status text — multilingual descriptions for revenue distribution statuses."
+semantic_vi: "văn bản trạng thái phân bổ doanh thu — mô tả đa ngôn ngữ cho các trạng thái phân bổ doanh thu."
+keywords:
+  - phân bổ doanh thu
+  - trạng thái
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

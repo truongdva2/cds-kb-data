@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTMETHOD
 description: Capaymentmethod
+semantic_en: "Payment method — payment method configuration by country with processing details and medium format."
+semantic_vi: "Phương thức thanh toán — cấu hình phương thức thanh toán theo quốc gia với chi tiết xử lý."
+keywords:
+  - phương thức thanh toán
+  - quốc gia
+  - cấu hình
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

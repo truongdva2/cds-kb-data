@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGSOURCEDOCCAT
 description: Cainvcgsourcedoccat
+semantic_en: "Source document categories or types for contract accounting invoicing."
+semantic_vi: "Các danh mục hoặc loại tài liệu nguồn cho hóa đơn kế toán hợp đồng."
+keywords:
+  - loại tài liệu nguồn
+  - danh mục tài liệu
+  - nguồn hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

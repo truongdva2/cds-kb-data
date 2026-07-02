@@ -1,6 +1,12 @@
 ---
 name: I_CAREVENUEACCOUNTINGREFTYPET
 description: Carevenueaccountingreftypet
+semantic_en: "revenue accounting reference type text — multilingual descriptions for revenue accounting reference types."
+semantic_vi: "văn bản kiểu tham chiếu kế toán doanh thu — mô tả đa ngôn ngữ cho các kiểu tham chiếu kế toán doanh thu."
+keywords:
+  - kế toán doanh thu
+  - mô tả
+  - đa ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

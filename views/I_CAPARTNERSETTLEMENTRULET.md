@@ -1,6 +1,12 @@
 ---
 name: I_CAPARTNERSETTLEMENTRULET
 description: Capartnersettlementrulet
+semantic_en: "Partner settlement rule text — language-specific names for settlement rules between partners."
+semantic_vi: "Dữ liệu dịch tên quy tắc giải quyết — tên đa ngôn ngữ cho các quy tắc thanh toán."
+keywords:
+  - giải quyết
+  - đối tác
+  - bản dịch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

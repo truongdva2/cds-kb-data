@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGCATEGORY
 description: Cainvcgoffsettingcategory
+semantic_en: "Categories of offsetting or crediting procedures in contract accounting invoicing."
+semantic_vi: "Các danh mục của các quy trình bù trừ hoặc ghi có trong hóa đơn kế toán hợp đồng."
+keywords:
+  - loại bù trừ
+  - danh mục bù trừ
+  - quy trình ghi có
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

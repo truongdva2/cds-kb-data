@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARQUARTERTEXT
 description: Calendarquartertext
+semantic_en: "Text descriptions of calendar quarters — multilingual quarter name labels."
+semantic_vi: "Mô tả văn bản của các quý lịch — nhãn tên quý đa ngôn ngữ."
+keywords:
+  - quý lịch
+  - tên quý
+  - văn bản quý
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

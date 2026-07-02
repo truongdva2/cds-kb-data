@@ -1,6 +1,12 @@
 ---
 name: I_CAPOSTINGREASONTEXT
 description: Capostingreasontext
+semantic_en: "Document posting reason text — language-specific descriptions of posting reasons."
+semantic_vi: "Dữ liệu dịch lý do hạch toán — mô tả đa ngôn ngữ cho các lý do hạch toán."
+keywords:
+  - lý do hạch toán
+  - bản dịch
+  - tài liệu
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

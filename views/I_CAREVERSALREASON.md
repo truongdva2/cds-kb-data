@@ -1,6 +1,12 @@
 ---
 name: I_CAREVERSALREASON
 description: Careversalreason
+semantic_en: "reversal reason codes — domain values defining reasons for financial transaction reversals."
+semantic_vi: "mã lý do đảo ngược — các giá trị miền xác định lý do đảo ngược giao dịch tài chính."
+keywords:
+  - đảo ngược
+  - lý do
+  - giao dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYSTDVH
 description: Capacitystdvh
+semantic_en: "Capacity standard value help — lookup for capacity headers with category and identification."
+semantic_vi: "Công cụ tìm kiếm chuẩn cho công suất — trợ giúp chọn công suất với danh mục và mã định danh."
+keywords:
+  - lookup
+  - công suất
+  - danh mục
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

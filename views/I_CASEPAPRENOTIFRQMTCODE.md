@@ -1,6 +1,12 @@
 ---
 name: I_CASEPAPRENOTIFRQMTCODE
 description: Casepaprenotifrqmtcode
+semantic_en: "SEPA prenotification requirement code — domain values for SEPA prenotification requirement levels."
+semantic_vi: "mã yêu cầu thông báo trước SEPA — các giá trị miền cho mức yêu cầu thông báo SEPA."
+keywords:
+  - SEPA
+  - thông báo trước
+  - yêu cầu
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

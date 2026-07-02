@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOTYPE
 description: Caintcotype
+semantic_en: "inter-company transaction type — classification hierarchy for inter-company transactions and allocations."
+semantic_vi: "Loại giao dịch liên công ty — phân cấp phân loại cho các giao dịch liên công ty và phân bổ."
+keywords:
+  - liên công ty
+  - loại giao dịch
+  - phân loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

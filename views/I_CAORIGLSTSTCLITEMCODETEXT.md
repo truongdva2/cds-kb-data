@@ -1,6 +1,12 @@
 ---
 name: I_CAORIGLSTSTCLITEMCODETEXT
 description: Caoriglststclitemcodetext
+semantic_en: "Text descriptions of original statistical item codes in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các mã mục thống kê gốc trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - mã mục thống kê
+  - mã gốc
+  - văn bản mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

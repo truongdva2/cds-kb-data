@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGSCHEDULETEXT
 description: Cainvcgscheduletext
+semantic_en: "Text descriptions of invoicing schedule controls in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các điều khiển lịch trình hóa đơn trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - lịch trình hóa đơn
+  - văn bản lịch
+  - kiểm soát thời gian
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

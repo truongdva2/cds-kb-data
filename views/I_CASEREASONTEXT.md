@@ -1,6 +1,12 @@
 ---
 name: I_CASEREASONTEXT
 description: Casereasontext
+semantic_en: "case reason text — multilingual descriptions for case reasons by case type."
+semantic_vi: "văn bản lý do trường hợp — mô tả đa ngôn ngữ cho lý do trường hợp theo loại trường hợp."
+keywords:
+  - trường hợp
+  - lý do
+  - mô tả
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

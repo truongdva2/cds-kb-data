@@ -1,6 +1,12 @@
 ---
 name: I_CAMAINTRANSACTIONTEXT
 description: Camaintransactiontext
+semantic_en: "Text descriptions of main transaction types in contract accounting — multilingual transaction labels."
+semantic_vi: "Mô tả văn bản của các loại giao dịch chính trong kế toán hợp đồng — nhãn giao dịch đa ngôn ngữ."
+keywords:
+  - giao dịch chính
+  - văn bản giao dịch
+  - mô tả loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

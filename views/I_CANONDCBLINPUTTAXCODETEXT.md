@@ -1,6 +1,12 @@
 ---
 name: I_CANONDCBLINPUTTAXCODETEXT
 description: Canondcblinputtaxcodetext
+semantic_en: "Text descriptions of non-deductible input tax codes in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các mã thuế đầu vào không được khấu trừ trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - thuế đầu vào không khấu trừ
+  - mã thuế
+  - văn bản thuế
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CASHFLOWCALCCATEGORYTEXT
 description: Cashflowcalccategorytext
+semantic_en: "cash flow calculation category text — multilingual descriptions for cash flow calculation categories."
+semantic_vi: "văn bản danh mục tính toán dòng tiền — mô tả đa ngôn ngữ cho danh mục tính toán dòng tiền."
+keywords:
+  - dòng tiền
+  - danh mục
+  - tính toán
 app_component: CA-FIM-FMA
 software_component: SAP_BASIS
 release_state: released

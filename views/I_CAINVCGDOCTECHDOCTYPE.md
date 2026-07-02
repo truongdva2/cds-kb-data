@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCTECHDOCTYPE
 description: Cainvcgdoctechdoctype
+semantic_en: "invoicing technical document type — classification of technical document types used in invoicing and billing processes."
+semantic_vi: "Loại tài liệu kỹ thuật hóa đơn — phân loại các loại tài liệu kỹ thuật dùng trong quy trình hóa đơn và thanh toán."
+keywords:
+  - hóa đơn
+  - tài liệu kỹ thuật
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

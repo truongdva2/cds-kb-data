@@ -1,6 +1,12 @@
 ---
 name: I_CASHPLANNINGGROUP
 description: Cashplanninggroup
+semantic_en: "cash planning group — master data for cash planning groups with planning hierarchy levels."
+semantic_vi: "nhóm lập kế hoạch tiền mặt — dữ liệu chính cho nhóm lập kế hoạch tiền mặt với mức phân cấp lập kế hoạch."
+keywords:
+  - lập kế hoạch tiền
+  - nhóm
+  - phân cấp
 app_component: FIN-FSCM-CLM-FQM-2CL
 software_component: SAPSCORE
 release_state: released

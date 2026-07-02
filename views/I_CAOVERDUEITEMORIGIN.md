@@ -1,6 +1,12 @@
 ---
 name: I_CAOVERDUEITEMORIGIN
 description: Caoverdueitemorigin
+semantic_en: "Origin or source classification codes for overdue items in contract accounting."
+semantic_vi: "Các mã phân loại nguồn gốc hoặc nguồn cho các khoản mục quá hạn trong kế toán hợp đồng."
+keywords:
+  - khoản mục quá hạn
+  - mã nguồn gốc
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

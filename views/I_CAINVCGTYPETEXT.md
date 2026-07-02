@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGTYPETEXT
 description: Cainvcgtypetext
+semantic_en: "Text descriptions of invoicing types in contract accounting — multilingual invoice type labels."
+semantic_vi: "Mô tả văn bản của các loại hóa đơn trong kế toán hợp đồng — nhãn loại hóa đơn đa ngôn ngữ."
+keywords:
+  - loại hóa đơn
+  - văn bản loại
+  - mô tả hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

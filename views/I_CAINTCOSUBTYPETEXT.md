@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOSUBTYPETEXT
 description: Caintcosubtypetext
+semantic_en: "inter-company subtype text — language-specific descriptions for inter-company transaction subtypes."
+semantic_vi: "Văn bản loại con liên công ty — mô tả các loại con giao dịch liên công ty theo ngôn ngữ."
+keywords:
+  - liên công ty
+  - loại con
+  - mô tả
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

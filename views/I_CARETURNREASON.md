@@ -1,6 +1,12 @@
 ---
 name: I_CARETURNREASON
 description: Careturnreason
+semantic_en: "Return reason — reason codes for returned payments with return types, credit worthiness rating, and cheque handling."
+semantic_vi: "Mã lý do trả lại thanh toán — các lý do trả lại kèm loại trả lại và xếp hạng tín dụng."
+keywords:
+  - trả lại thanh toán
+  - lý do
+  - loại trả lại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARMONTHTEXT
 description: Calendarmonthtext
+semantic_en: "Text descriptions of calendar months — multilingual month name labels."
+semantic_vi: "Mô tả văn bản của các tháng lịch — nhãn tên tháng đa ngôn ngữ."
+keywords:
+  - tháng lịch
+  - tên tháng
+  - văn bản tháng
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCHEADER
 description: Cainvcgdocheader
+semantic_en: "invoicing document header — master data for invoicing documents including process type, target process, and document references."
+semantic_vi: "Tiêu đề tài liệu hóa đơn — dữ liệu chính cho tài liệu hóa đơn gồm loại quy trình, quy trình đích và tham chiếu tài liệu."
+keywords:
+  - hóa đơn
+  - tiêu đề
+  - tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

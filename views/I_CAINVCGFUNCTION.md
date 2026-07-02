@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGFUNCTION
 description: Cainvcgfunction
+semantic_en: "invoicing function — master data for invoicing functions and processing capabilities."
+semantic_vi: "Chức năng hóa đơn — dữ liệu chính cho các chức năng hóa đơn và khả năng xử lý."
+keywords:
+  - hóa đơn
+  - chức năng
+  - dữ liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

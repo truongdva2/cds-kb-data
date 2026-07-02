@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLHEADERACCTASSGMT
 description: Cashpoolheaderacctassgmt
+semantic_en: "cash pool header account assignment — mapping of cash pool headers to bank accounts with validity dates and assignment metadata."
+semantic_vi: "gán tài khoản tiêu đề nhóm tiền mặt — ánh xạ tiêu đề nhóm tiền mặt với tài khoản ngân hàng và siêu dữ liệu gán."
+keywords:
+  - nhóm tiền
+  - tài khoản ngân hàng
+  - gán
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINTERESTCODE
 description: Cainterestcode
+semantic_en: "interest code — configuration for interest calculation parameters including tolerance, frequency, and calculation rules."
+semantic_vi: "Mã lãi suất — cấu hình cho các thông số tính lãi suất gồm dung sai, tần suất và quy tắc tính toán."
+keywords:
+  - lãi suất
+  - tính toán
+  - cấu hình
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

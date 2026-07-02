@@ -1,6 +1,12 @@
 ---
 name: I_CANONDCBLINPUTTAXCODE
 description: Canondcblinputtaxcode
+semantic_en: "Codes for non-deductible input tax treatment in contract accounting."
+semantic_vi: "Các mã cho xử lý thuế đầu vào không được khấu trừ trong kế toán hợp đồng."
+keywords:
+  - thuế đầu vào không khấu trừ
+  - mã thuế
+  - xử lý thuế
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

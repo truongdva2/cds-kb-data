@@ -1,6 +1,12 @@
 ---
 name: I_CAOVERDUEITEMORIGINTEXT
 description: Caoverdueitemorigintext
+semantic_en: "Text descriptions of overdue item origin codes in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các mã nguồn gốc khoản mục quá hạn trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - khoản mục quá hạn
+  - mã nguồn gốc
+  - văn bản mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

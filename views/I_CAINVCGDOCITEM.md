@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITEM
 description: Cainvcgdocitem
+semantic_en: "invoicing document item — line-level details of invoicing documents including transaction types, contract references, and item classification."
+semantic_vi: "Mục tài liệu hóa đơn — chi tiết từng dòng của tài liệu hóa đơn gồm loại giao dịch, tham chiếu hợp đồng và phân loại mục."
+keywords:
+  - hóa đơn
+  - mục
+  - giao dịch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

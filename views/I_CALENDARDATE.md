@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARDATE
 description: Calendardate
+semantic_en: "Calendar dates with associated fiscal year, quarter, month, week, and day attributes."
+semantic_vi: "Các ngày lịch với các thuộc tính năm tài khóa, quý, tháng, tuần và ngày liên quan."
+keywords:
+  - ngày lịch
+  - năm tài khóa
+  - quý tháng
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

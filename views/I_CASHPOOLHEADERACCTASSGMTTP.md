@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLHEADERACCTASSGMTTP
 description: Cashpoolheaderacctassgmttp
+semantic_en: "cash pool header account assignment transactional posting — transactional view of cash pool header account assignments."
+semantic_vi: "gán tài khoản tiêu đề nhóm tiền mặt hạng ghi sổ giao dịch — chế độ xem giao dịch của các gán tài khoản tiêu đề nhóm tiền mặt."
+keywords:
+  - nhóm tiền
+  - gán
+  - ghi sổ
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

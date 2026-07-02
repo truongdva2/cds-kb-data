@@ -1,6 +1,12 @@
 ---
 name: I_CAREVENUEDISTRSTATUS
 description: Carevenuedistrstatus
+semantic_en: "revenue distribution status — domain values for revenue distribution processing statuses."
+semantic_vi: "trạng thái phân bổ doanh thu — các giá trị miền cho trạng thái xử lý phân bổ doanh thu."
+keywords:
+  - phân bổ doanh thu
+  - trạng thái
+  - xử lý
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

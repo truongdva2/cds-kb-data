@@ -1,6 +1,12 @@
 ---
 name: I_CAPERIODCODETEXT
 description: Caperiodcodetext
+semantic_en: "Period key text — language-specific names for fiscal period codes."
+semantic_vi: "Dữ liệu dịch tên mã kỳ — tên đa ngôn ngữ cho các mã kỳ kế toán."
+keywords:
+  - kỳ kế toán
+  - bản dịch
+  - tài chính
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

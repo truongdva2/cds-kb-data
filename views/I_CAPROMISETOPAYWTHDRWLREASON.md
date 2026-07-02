@@ -1,6 +1,12 @@
 ---
 name: I_CAPROMISETOPAYWTHDRWLREASON
 description: Capromisetopaywthdrwlreason
+semantic_en: "Promise to pay withdrawal reason — reason codes for promise to pay withdrawal with interest and charge handling."
+semantic_vi: "Mã lý do rút lại hứa hẹn thanh toán — các lý do rút lại với xử lý lãi suất và phí."
+keywords:
+  - rút lại hứa hẹn
+  - thanh toán
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

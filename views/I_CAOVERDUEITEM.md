@@ -1,6 +1,12 @@
 ---
 name: I_CAOVERDUEITEM
 description: Caoverdueitem
+semantic_en: "Contract accounting overdue items — unpaid invoices past their net due dates."
+semantic_vi: "Các khoản mục quá hạn trong kế toán hợp đồng — hóa đơn chưa thanh toán quá ngày hạn thanh toán ròng."
+keywords:
+  - khoản mục quá hạn
+  - hóa đơn quá hạn
+  - ngày hạn thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

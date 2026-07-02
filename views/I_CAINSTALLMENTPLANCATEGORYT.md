@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTALLMENTPLANCATEGORYT
 description: Cainstallmentplancategoryt
+semantic_en: "installment plan category text — contains language-specific names for contract accounting installment plan categories."
+semantic_vi: "Văn bản thể loại kế hoạch trả góp — chứa tên các danh mục kế hoạch trả góp cho kế toán hợp đồng."
+keywords:
+  - kế hoạch trả góp
+  - danh mục
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

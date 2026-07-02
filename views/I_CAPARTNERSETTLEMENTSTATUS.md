@@ -1,6 +1,12 @@
 ---
 name: I_CAPARTNERSETTLEMENTSTATUS
 description: Capartnersettlementstatus
+semantic_en: "Partner settlement status — enumeration of settlement status values in collections management."
+semantic_vi: "Mã trạng thái giải quyết đối tác — danh sách các giá trị trạng thái thanh toán."
+keywords:
+  - trạng thái
+  - giải quyết
+  - bộ sưu tập
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

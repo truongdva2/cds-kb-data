@@ -1,6 +1,12 @@
 ---
 name: I_CASESTATPROFILE
 description: Casestatprofile
+semantic_en: "case status profile — configuration mapping status profiles to status object types and user status schemas."
+semantic_vi: "hồ sơ trạng thái trường hợp — cấu hình ánh xạ hồ sơ trạng thái tới loại đối tượng trạng thái và lược đồ trạng thái người dùng."
+keywords:
+  - hồ sơ trạng thái
+  - trường hợp
+  - cấu hình
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

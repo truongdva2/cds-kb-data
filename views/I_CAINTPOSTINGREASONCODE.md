@@ -1,6 +1,12 @@
 ---
 name: I_CAINTPOSTINGREASONCODE
 description: Caintpostingreasoncode
+semantic_en: "internal posting reason code — master data for internal transaction posting reasons."
+semantic_vi: "Mã lý do ghi sổ nội bộ — dữ liệu chính cho các lý do ghi sổ giao dịch nội bộ."
+keywords:
+  - ghi sổ nội bộ
+  - lý do
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

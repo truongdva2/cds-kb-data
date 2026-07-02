@@ -1,6 +1,12 @@
 ---
 name: I_CAOPENITEMLISTITEM
 description: Caopenitemlistitem
+semantic_en: "Contract accounting open item list line items — detail records of unpaid invoices and accounts."
+semantic_vi: "Các mục dòng danh sách khoản mục chưa thanh toán trong kế toán hợp đồng — các bản ghi chi tiết của hóa đơn chưa thanh toán."
+keywords:
+  - khoản mục chưa thanh toán
+  - chi tiết hóa đơn
+  - danh sách hóa đơn
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

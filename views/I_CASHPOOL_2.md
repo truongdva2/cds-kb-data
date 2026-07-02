@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOL_2
 description: Cashpool 2
+semantic_en: "manage cash pools — operational view for managing cash pool master data and assignments."
+semantic_vi: "quản lý nhóm tiền mặt — chế độ xem hoạt động để quản lý dữ liệu chính nhóm tiền mặt và gán."
+keywords:
+  - nhóm tiền
+  - quản lý
+  - dữ liệu chính
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

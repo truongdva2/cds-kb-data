@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCHRGANDDISCKEYTEXT
 description: Cainvcgchrganddisckeytext
+semantic_en: "charge and discount key text — language-specific descriptions of charge and discount keys."
+semantic_vi: "Văn bản khóa phụ phí và chiết khấu — mô tả các khóa phụ phí và chiết khấu theo ngôn ngữ."
+keywords:
+  - phụ phí
+  - chiết khấu
+  - mô tả
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

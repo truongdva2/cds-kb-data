@@ -1,6 +1,12 @@
 ---
 name: I_CAREVERSALREASONTEXT
 description: Careversalreasontext
+semantic_en: "reversal reason text — multilingual descriptions for transaction reversal reasons."
+semantic_vi: "văn bản lý do đảo ngược — mô tả đa ngôn ngữ cho các lý do đảo ngược giao dịch."
+keywords:
+  - đảo ngược
+  - lý do
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

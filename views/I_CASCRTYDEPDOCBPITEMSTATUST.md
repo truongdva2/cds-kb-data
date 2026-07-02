@@ -1,6 +1,12 @@
 ---
 name: I_CASCRTYDEPDOCBPITEMSTATUST
 description: Cascrtydepdocbpitemstatust
+semantic_en: "security deposit document business partner item status text — multilingual descriptions for security deposit document item statuses."
+semantic_vi: "văn bản trạng thái mục hàng đối tác kinh doanh tài liệu ký quỹ bảo mật — mô tả đa ngôn ngữ cho trạng thái mục hàng tài liệu ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - trạng thái
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

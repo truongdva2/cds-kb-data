@@ -1,6 +1,12 @@
 ---
 name: I_CARATINGAREATEXT
 description: Caratingareatext
+semantic_en: "Rating area text — language-specific descriptions of rating areas."
+semantic_vi: "Dữ liệu dịch vùng xếp hạng — mô tả đa ngôn ngữ cho các vùng."
+keywords:
+  - vùng xếp hạng
+  - mô tả
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

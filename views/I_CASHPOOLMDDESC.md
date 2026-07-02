@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLMDDESC
 description: Cashpoolmddesc
+semantic_en: "cash pool master data description — multilingual descriptions and reference texts for cash pools."
+semantic_vi: "mô tả dữ liệu chính nhóm tiền mặt — mô tả đa ngôn ngữ và văn bản tham chiếu cho nhóm tiền mặt."
+keywords:
+  - nhóm tiền
+  - mô tả
+  - dữ liệu chính
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

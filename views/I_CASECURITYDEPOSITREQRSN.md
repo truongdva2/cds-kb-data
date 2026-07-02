@@ -1,6 +1,12 @@
 ---
 name: I_CASECURITYDEPOSITREQRSN
 description: Casecuritydepositreqrsn
+semantic_en: "security deposit request reason — codes defining reasons for security deposit requests."
+semantic_vi: "lý do yêu cầu ký quỹ bảo mật — mã xác định lý do yêu cầu ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - yêu cầu
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

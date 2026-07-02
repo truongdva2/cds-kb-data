@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGACCRUALPOSTINGTYPE
 description: Cainvcgaccrualpostingtype
+semantic_en: "invoice accrual posting type — classification of accrual posting methods used in invoicing."
+semantic_vi: "Loại ghi sổ dự phòng hóa đơn — phân loại các phương pháp ghi sổ dự phòng dùng trong hóa đơn."
+keywords:
+  - hóa đơn
+  - dự phòng
+  - ghi sổ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

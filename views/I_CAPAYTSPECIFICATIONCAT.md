@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYTSPECIFICATIONCAT
 description: Capaytspecificationcat
+semantic_en: "Payment specification category — enumeration of payment specification categories."
+semantic_vi: "Mã danh mục chi tiết thanh toán — danh sách các danh mục chi tiết thanh toán."
+keywords:
+  - danh mục
+  - chi tiết thanh toán
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

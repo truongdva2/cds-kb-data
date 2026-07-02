@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCSOURCE
 description: Cainvcgdocsource
+semantic_en: "invoicing document source — source documents for invoicing with posting status and reversal tracking."
+semantic_vi: "Tài liệu nguồn hóa đơn — tài liệu nguồn cho hóa đơn cùng tình trạng ghi sổ và theo dõi đảo ngược."
+keywords:
+  - hóa đơn
+  - tài liệu nguồn
+  - ghi sổ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

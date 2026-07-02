@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGSCHEDULE
 description: Cainvcgschedule
+semantic_en: "Schedule or timing control settings for contract accounting invoicing processes."
+semantic_vi: "Cài đặt kiểm soát lịch trình hoặc thời gian cho các quy trình hóa đơn kế toán hợp đồng."
+keywords:
+  - lịch trình hóa đơn
+  - kiểm soát thời gian
+  - điều khiển lịch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

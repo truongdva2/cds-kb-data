@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCHRGANDDISCKEY
 description: Cainvcgchrganddisckey
+semantic_en: "charge and discount key — configuration for surcharge and discount keys used in invoicing processes."
+semantic_vi: "Khóa phụ phí và chiết khấu — cấu hình cho các khóa phụ phí và chiết khấu dùng trong quy trình hóa đơn."
+keywords:
+  - phụ phí
+  - chiết khấu
+  - khóa
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

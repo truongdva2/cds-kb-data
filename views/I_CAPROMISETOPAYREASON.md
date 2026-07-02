@@ -1,6 +1,12 @@
 ---
 name: I_CAPROMISETOPAYREASON
 description: Capromisetopayreason
+semantic_en: "Promise to pay reason — reason codes for promise to pay agreements."
+semantic_vi: "Mã lý do hứa hẹn thanh toán — các lý do cho cam kết thanh toán."
+keywords:
+  - hứa hẹn thanh toán
+  - lý do
+  - cam kết
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

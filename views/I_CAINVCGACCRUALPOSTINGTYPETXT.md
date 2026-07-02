@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGACCRUALPOSTINGTYPETXT
 description: Cainvcgaccrualpostingtypetxt
+semantic_en: "invoice accrual posting type text — language-specific names for accrual posting types."
+semantic_vi: "Văn bản loại ghi sổ dự phòng hóa đơn — tên các loại ghi sổ dự phòng theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - dự phòng
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

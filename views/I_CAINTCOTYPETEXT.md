@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOTYPETEXT
 description: Caintcotypetext
+semantic_en: "inter-company type text — language-specific names for inter-company transaction types."
+semantic_vi: "Văn bản loại liên công ty — tên các loại giao dịch liên công ty theo ngôn ngữ."
+keywords:
+  - liên công ty
+  - loại giao dịch
+  - tên
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

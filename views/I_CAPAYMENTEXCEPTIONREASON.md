@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTEXCEPTIONREASON
 description: Capaymentexceptionreason
+semantic_en: "Payment exception reason — reason codes for payment exceptions with error level handling."
+semantic_vi: "Mã lý do ngoại lệ thanh toán — các lý do ngoại lệ thanh toán kèm mức độ xử lý lỗi."
+keywords:
+  - ngoại lệ
+  - thanh toán
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

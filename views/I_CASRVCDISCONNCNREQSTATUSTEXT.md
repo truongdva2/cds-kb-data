@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCDISCONNCNREQSTATUSTEXT
 description: Casrvcdisconncnreqstatustext
+semantic_en: "service disconnection request status text — multilingual descriptions for service disconnection request statuses."
+semantic_vi: "văn bản trạng thái yêu cầu ngắt dịch vụ — mô tả đa ngôn ngữ cho trạng thái yêu cầu ngắt dịch vụ."
+keywords:
+  - dịch vụ
+  - ngắt kết nối
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

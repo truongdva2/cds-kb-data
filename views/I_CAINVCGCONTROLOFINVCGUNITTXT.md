@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCONTROLOFINVCGUNITTXT
 description: Cainvcgcontrolofinvcgunittxt
+semantic_en: "invoicing unit control text — language-specific descriptions of invoicing unit control types."
+semantic_vi: "Văn bản kiểm soát đơn vị hóa đơn — mô tả các loại kiểm soát đơn vị hóa đơn theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - đơn vị
+  - kiểm soát
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

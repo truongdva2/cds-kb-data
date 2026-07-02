@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTBILLINGSTATUS
 description: Capaymentbillingstatus
+semantic_en: "Payment billing status — enumeration of billing status values in collections."
+semantic_vi: "Mã trạng thái thanh toán hóa đơn — danh sách các giá trị trạng thái thanh toán."
+keywords:
+  - trạng thái thanh toán
+  - hóa đơn
+  - bộ sưu tập
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

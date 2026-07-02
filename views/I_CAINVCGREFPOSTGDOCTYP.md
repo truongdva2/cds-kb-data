@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGREFPOSTGDOCTYP
 description: Cainvcgrefpostgdoctyp
+semantic_en: "Reference document types for posting documents in contract accounting invoicing."
+semantic_vi: "Các loại tài liệu tham chiếu cho tài liệu hạch toán trong hóa đơn kế toán hợp đồng."
+keywords:
+  - loại tài liệu hạch toán
+  - tài liệu tham chiếu
+  - loại bút toán
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCREVERSALREASON
 description: Cainvcgdocreversalreason
+semantic_en: "invoicing document reversal reason — master data for reasons for reversing invoicing documents."
+semantic_vi: "Lý do đảo ngược tài liệu hóa đơn — dữ liệu chính cho các lý do đảo ngược tài liệu hóa đơn."
+keywords:
+  - hóa đơn
+  - đảo ngược
+  - lý do
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

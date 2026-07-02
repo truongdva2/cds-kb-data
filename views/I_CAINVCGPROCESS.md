@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGPROCESS
 description: Cainvcgprocess
+semantic_en: "Contract accounting invoicing processes — defining process types and their application areas."
+semantic_vi: "Các quy trình hóa đơn kế toán hợp đồng — xác định các loại quy trình và lĩnh vực ứng dụng của chúng."
+keywords:
+  - quy trình hóa đơn
+  - loại quy trình
+  - lĩnh vực ứng dụng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

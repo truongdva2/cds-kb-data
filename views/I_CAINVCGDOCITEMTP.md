@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITEMTP
 description: Cainvcgdocitemtp
+semantic_en: "invoicing document item transactional posting — transactional posting view of invoicing document line items with full transaction and contract details."
+semantic_vi: "Ghi sổ giao dịch mục tài liệu hóa đơn — khung nhìn ghi sổ giao dịch của các mục dòng hóa đơn cùng đầy đủ chi tiết giao dịch và hợp đồng."
+keywords:
+  - hóa đơn
+  - mục
+  - ghi sổ giao dịch
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYTSPECIFICATIONCATTEXT
 description: Capaytspecificationcattext
+semantic_en: "Payment specification category text — language-specific names for payment specification categories."
+semantic_vi: "Dữ liệu dịch danh mục chi tiết thanh toán — tên đa ngôn ngữ cho các danh mục."
+keywords:
+  - danh mục
+  - chi tiết thanh toán
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

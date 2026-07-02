@@ -1,6 +1,12 @@
 ---
 name: I_CAPOSTINGREASON
 description: Capostingreason
+semantic_en: "Document posting reason — reasons for posting related to document origin and business events."
+semantic_vi: "Lý do hạch toán tài liệu — các lý do hạch toán liên quan đến nguồn gốc và sự kiện kinh doanh."
+keywords:
+  - lý do hạch toán
+  - tài liệu
+  - sự kiện
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYCATEGORY
 description: Capacitycategory
+semantic_en: "Enterprise resource capacity categories — classifying capacity types for planning and analysis."
+semantic_vi: "Các danh mục công suất tài nguyên doanh nghiệp — phân loại các loại công suất cho quy hoạch và phân tích."
+keywords:
+  - danh mục công suất
+  - loại công suất
+  - tài nguyên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

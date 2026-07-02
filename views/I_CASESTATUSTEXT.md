@@ -1,6 +1,12 @@
 ---
 name: I_CASESTATUSTEXT
 description: Casestatustext
+semantic_en: "case status text — multilingual descriptions for case system status codes."
+semantic_vi: "văn bản trạng thái trường hợp — mô tả đa ngôn ngữ cho mã trạng thái hệ thống trường hợp."
+keywords:
+  - trường hợp
+  - trạng thái
+  - mô tả
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

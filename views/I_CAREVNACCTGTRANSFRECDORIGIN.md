@@ -1,6 +1,12 @@
 ---
 name: I_CAREVNACCTGTRANSFRECDORIGIN
 description: Carevnacctgtransfrecdorigin
+semantic_en: "transfer record origin type — domain values indicating the source origin of transfer records."
+semantic_vi: "loại nguồn gốc bản ghi chuyển nhượng — các giá trị miền chỉ ra nguồn gốc của bản ghi chuyển nhượng."
+keywords:
+  - chuyển nhượng
+  - bản ghi
+  - nguồn gốc
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

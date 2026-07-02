@@ -1,6 +1,12 @@
 ---
 name: I_CAMAINTRANSACTION
 description: Camaintransaction
+semantic_en: "Document main transaction types in contract accounting — categorizing transaction classifications."
+semantic_vi: "Các loại giao dịch chính của tài liệu trong kế toán hợp đồng — phân loại giao dịch."
+keywords:
+  - giao dịch chính
+  - loại giao dịch
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

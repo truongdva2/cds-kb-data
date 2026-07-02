@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTALLMENTPLANITEM
 description: Cainstallmentplanitem
+semantic_en: "installment plan item history — details of installment plan items linked to source documents with creation amounts and item origin information."
+semantic_vi: "Lịch sử mục kế hoạch trả góp — chi tiết các mục kế hoạch trả góp liên kết với tài liệu nguồn cùng thông tin về số tiền tạo và loại tài liệu gốc."
+keywords:
+  - mục kế hoạch trả góp
+  - lịch sử
+  - tài liệu nguồn
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

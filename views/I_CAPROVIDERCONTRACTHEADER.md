@@ -1,6 +1,12 @@
 ---
 name: I_CAPROVIDERCONTRACTHEADER
 description: Caprovidercontractheader
+semantic_en: "Provider contract header — master contract document for providers with creation and validity dates."
+semantic_vi: "Tài liệu hợp đồng nhà cung cấp chính — dữ liệu hợp đồng chính kèm ngày tạo và hiệu lực."
+keywords:
+  - hợp đồng nhà cung cấp
+  - tài liệu chính
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

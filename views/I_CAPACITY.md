@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITY
 description: Capacity
+semantic_en: "Work center capacity master data — defining available capacity, type, and planning parameters."
+semantic_vi: "Dữ liệu chính về công suất trung tâm công việc — xác định công suất có sẵn, loại và tham số quy hoạch."
+keywords:
+  - công suất
+  - trung tâm công việc
+  - quy hoạch công suất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

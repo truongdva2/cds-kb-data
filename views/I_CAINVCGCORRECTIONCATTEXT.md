@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCORRECTIONCATTEXT
 description: Cainvcgcorrectioncattext
+semantic_en: "invoice correction type text — language-specific names for invoice correction categories."
+semantic_vi: "Văn bản loại điều chỉnh hóa đơn — tên các danh mục điều chỉnh hóa đơn theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - điều chỉnh
+  - tên
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

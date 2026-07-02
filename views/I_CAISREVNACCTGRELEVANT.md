@@ -1,6 +1,12 @@
 ---
 name: I_CAISREVNACCTGRELEVANT
 description: Caisrevnacctgrelevant
+semantic_en: "Flag or indicator for revenue accounting relevance in contract accounting."
+semantic_vi: "Cờ hoặc chỉ báo liên quan đến kế toán doanh thu trong kế toán hợp đồng."
+keywords:
+  - kế toán doanh thu
+  - chỉ báo liên quan
+  - quản lý doanh thu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

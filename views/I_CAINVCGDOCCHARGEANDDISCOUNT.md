@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCCHARGEANDDISCOUNT
 description: Cainvcgdocchargeanddiscount
+semantic_en: "invoicing document charge and discount — details of surcharges and discounts applied to invoicing documents with amounts in transaction currency."
+semantic_vi: "Phụ phí và chiết khấu tài liệu hóa đơn — chi tiết về phụ phí và chiết khấu áp dụng cho tài liệu hóa đơn cùng số tiền theo loại tiền tệ giao dịch."
+keywords:
+  - hóa đơn
+  - phụ phí
+  - chiết khấu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

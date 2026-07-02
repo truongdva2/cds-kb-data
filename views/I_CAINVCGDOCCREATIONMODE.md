@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCCREATIONMODE
 description: Cainvcgdoccreationmode
+semantic_en: "invoicing document creation mode — classification of how invoicing documents are created (manual, automatic, etc.)."
+semantic_vi: "Chế độ tạo tài liệu hóa đơn — phân loại cách tạo tài liệu hóa đơn (thủ công, tự động, v.v.)."
+keywords:
+  - hóa đơn
+  - tạo
+  - chế độ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

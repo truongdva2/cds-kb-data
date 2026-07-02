@@ -1,6 +1,12 @@
 ---
 name: I_CAREQUESTEDSPECIALPERIODT
 description: Carequestedspecialperiodt
+semantic_en: "Requested special period text — language-specific labels for special period codes."
+semantic_vi: "Dữ liệu dịch kỳ đặc biệt — nhãn đa ngôn ngữ cho các mã kỳ."
+keywords:
+  - kỳ đặc biệt
+  - bản dịch
+  - hạch toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CASEINDIVSTATUSTEXT
 description: Caseindivstatustext
+semantic_en: "case individual status text — multilingual descriptions for case individual statuses."
+semantic_vi: "văn bản trạng thái cá nhân trường hợp — mô tả đa ngôn ngữ cho trạng thái cá nhân trường hợp."
+keywords:
+  - trường hợp
+  - trạng thái
+  - mô tả
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

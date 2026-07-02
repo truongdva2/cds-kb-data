@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGPROCESSTEXT
 description: Cainvcgprocesstext
+semantic_en: "Text descriptions of contract accounting invoicing processes — multilingual process labels."
+semantic_vi: "Mô tả văn bản của các quy trình hóa đơn kế toán hợp đồng — nhãn quy trình đa ngôn ngữ."
+keywords:
+  - quy trình hóa đơn
+  - văn bản quy trình
+  - mô tả quá trình
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

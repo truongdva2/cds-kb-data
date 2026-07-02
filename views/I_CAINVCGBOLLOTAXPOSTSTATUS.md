@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGBOLLOTAXPOSTSTATUS
 description: Cainvcgbollotaxpoststatus
+semantic_en: "stamp tax posting status — indicator for whether stamp tax has been posted to accounting."
+semantic_vi: "Tình trạng ghi sổ thuế dấu — chỉ báo xem thuế dấu đã được ghi sổ kế toán hay chưa."
+keywords:
+  - thuế dấu
+  - ghi sổ
+  - tình trạng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

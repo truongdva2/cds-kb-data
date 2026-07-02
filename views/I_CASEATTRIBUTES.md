@@ -1,6 +1,12 @@
 ---
 name: I_CASEATTRIBUTES
 description: Caseattributes
+semantic_en: "case attributes — core dispute case metadata including case ID, processor, reason, status, and priority."
+semantic_vi: "thuộc tính trường hợp — dữ liệu cơ bản trường hợp tranh chấp bao gồm ID trường hợp, người xử lý, lý do, trạng thái và ưu tiên."
+keywords:
+  - trường hợp tranh chấp
+  - thuộc tính
+  - xử lý
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

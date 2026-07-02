@@ -1,6 +1,12 @@
 ---
 name: I_CAOTHERTAXCODETEXT
 description: Caothertaxcodetext
+semantic_en: "Text descriptions of other tax codes — multilingual tax code name labels."
+semantic_vi: "Mô tả văn bản của các mã thuế khác — nhãn tên mã thuế đa ngôn ngữ."
+keywords:
+  - mã thuế khác
+  - tên mã thuế
+  - văn bản thuế
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

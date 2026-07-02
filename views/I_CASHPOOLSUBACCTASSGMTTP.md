@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLSUBACCTASSGMTTP
 description: Cashpoolsubacctassgmttp
+semantic_en: "cash pool subaccount assignment transactional posting — transactional view of cash pool subaccount assignments with currency."
+semantic_vi: "gán tài khoản phụ nhóm tiền mặt hạng ghi sổ giao dịch — chế độ xem giao dịch gán tài khoản phụ nhóm tiền mặt có tiền tệ."
+keywords:
+  - nhóm tiền
+  - tài khoản phụ
+  - ghi sổ
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

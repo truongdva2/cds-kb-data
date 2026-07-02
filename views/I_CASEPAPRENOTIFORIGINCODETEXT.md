@@ -1,6 +1,12 @@
 ---
 name: I_CASEPAPRENOTIFORIGINCODETEXT
 description: Casepaprenotiforigincodetext
+semantic_en: "SEPA prenotification origin code text — multilingual descriptions for SEPA prenotification origins."
+semantic_vi: "văn bản mã nguồn gốc thông báo trước SEPA — mô tả đa ngôn ngữ cho nguồn gốc thông báo SEPA."
+keywords:
+  - SEPA
+  - thông báo trước
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

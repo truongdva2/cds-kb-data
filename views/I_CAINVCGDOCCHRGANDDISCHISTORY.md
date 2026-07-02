@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCCHRGANDDISCHISTORY
 description: Cainvcgdocchrganddischistory
+semantic_en: "invoicing document charge and discount history — historical tracking of surcharges and discounts applied to invoicing documents."
+semantic_vi: "Lịch sử phụ phí và chiết khấu tài liệu hóa đơn — theo dõi lịch sử các phụ phí và chiết khấu áp dụng cho tài liệu hóa đơn."
+keywords:
+  - hóa đơn
+  - lịch sử
+  - phụ phí
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

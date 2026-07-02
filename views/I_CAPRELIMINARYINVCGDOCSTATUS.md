@@ -1,6 +1,12 @@
 ---
 name: I_CAPRELIMINARYINVCGDOCSTATUS
 description: Capreliminaryinvcgdocstatus
+semantic_en: "Preliminary invoicing document status — status codes for preliminary invoice documents."
+semantic_vi: "Mã trạng thái tài liệu hóa đơn sơ bộ — trạng thái cho tài liệu hóa đơn tạm thời."
+keywords:
+  - hóa đơn sơ bộ
+  - trạng thái
+  - tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

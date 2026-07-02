@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYTPRENOTIFICATIONCODE
 description: Capaytprenotificationcode
+semantic_en: "Payment prenotification code — enumeration of prenotification codes for payment processing."
+semantic_vi: "Mã thông báo trước thanh toán — danh sách các mã thông báo trước cho xử lý thanh toán."
+keywords:
+  - thông báo trước
+  - thanh toán
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

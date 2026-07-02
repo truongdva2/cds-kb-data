@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCRELATION
 description: Cainvcgdocrelation
+semantic_en: "invoicing document object relations — relationships between invoicing documents and related reference objects."
+semantic_vi: "Quan hệ đối tượng tài liệu hóa đơn — mối quan hệ giữa tài liệu hóa đơn và các đối tượng tham chiếu liên quan."
+keywords:
+  - hóa đơn
+  - quan hệ
+  - đối tượng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

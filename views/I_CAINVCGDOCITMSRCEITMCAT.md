@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITMSRCEITMCAT
 description: Cainvcgdocitmsrceitmcat
+semantic_en: "invoicing document source item category — classification of source document item types."
+semantic_vi: "Danh mục mục tài liệu nguồn hóa đơn — phân loại các loại mục tài liệu nguồn."
+keywords:
+  - hóa đơn
+  - tài liệu nguồn
+  - danh mục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCORRECTIONCAT
 description: Cainvcgcorrectioncat
+semantic_en: "invoice correction type — classification of invoice correction categories."
+semantic_vi: "Loại điều chỉnh hóa đơn — phân loại các danh mục điều chỉnh hóa đơn."
+keywords:
+  - hóa đơn
+  - điều chỉnh
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

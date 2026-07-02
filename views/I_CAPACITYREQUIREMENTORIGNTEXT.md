@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTORIGNTEXT
 description: Capacityrequirementorigntext
+semantic_en: "Capacity requirement origin text — language-specific descriptions of capacity requirement source types."
+semantic_vi: "Dữ liệu dịch nguồn gốc nhu cầu công suất — mô tả đa ngôn ngữ cho các loại nguồn."
+keywords:
+  - nguồn gốc
+  - bản dịch
+  - công suất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

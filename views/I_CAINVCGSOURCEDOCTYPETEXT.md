@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGSOURCEDOCTYPETEXT
 description: Cainvcgsourcedoctypetext
+semantic_en: "Text descriptions of source document types in contract accounting invoicing — multilingual labels."
+semantic_vi: "Mô tả văn bản của các loại tài liệu nguồn trong hóa đơn kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - loại tài liệu nguồn
+  - văn bản loại
+  - mô tả tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

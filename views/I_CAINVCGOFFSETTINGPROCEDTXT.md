@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGPROCEDTXT
 description: Cainvcgoffsettingprocedtxt
+semantic_en: "Text descriptions of offsetting procedures in contract accounting invoicing — multilingual procedure labels."
+semantic_vi: "Mô tả văn bản của các quy trình bù trừ trong hóa đơn kế toán hợp đồng — nhãn quy trình đa ngôn ngữ."
+keywords:
+  - quy trình bù trừ
+  - văn bản quy trình
+  - mô tả thủ tục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

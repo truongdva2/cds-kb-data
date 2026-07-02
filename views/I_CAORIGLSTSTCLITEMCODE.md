@@ -1,6 +1,12 @@
 ---
 name: I_CAORIGLSTSTCLITEMCODE
 description: Caoriglststclitemcode
+semantic_en: "Original statistical item codes for origin tracking in contract accounting transactions."
+semantic_vi: "Các mã mục thống kê gốc cho theo dõi nguồn gốc trong các giao dịch kế toán hợp đồng."
+keywords:
+  - mã mục thống kê
+  - mã gốc
+  - theo dõi nguồn
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

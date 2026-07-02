@@ -1,6 +1,12 @@
 ---
 name: I_CAOUTGOINGPAYMENTMETHOD
 description: Caoutgoingpaymentmethod
+semantic_en: "Payment methods for outgoing payments — defining method requirements and processing characteristics."
+semantic_vi: "Các phương thức thanh toán cho các khoản thanh toán gửi đi — xác định yêu cầu phương thức và đặc điểm xử lý."
+keywords:
+  - phương thức thanh toán
+  - thanh toán gửi đi
+  - hình thức thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

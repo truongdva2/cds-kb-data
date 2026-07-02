@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYTPRENOTIFICATIONCODET
 description: Capaytprenotificationcodet
+semantic_en: "Payment prenotification code text — language-specific labels for prenotification codes."
+semantic_vi: "Dữ liệu dịch mã thông báo trước — nhãn đa ngôn ngữ cho các mã thông báo."
+keywords:
+  - thông báo trước
+  - thanh toán
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

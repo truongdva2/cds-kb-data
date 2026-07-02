@@ -1,6 +1,12 @@
 ---
 name: I_CARECEIVABLEADJUSTMENTREASON
 description: Careceivableadjustmentreason
+semantic_en: "Receivable adjustment reason — reason codes for adjusting account receivable balances."
+semantic_vi: "Mã lý do điều chỉnh khoản phải thu — các lý do điều chỉnh số dư khoản phải thu."
+keywords:
+  - điều chỉnh khoản phải thu
+  - lý do
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

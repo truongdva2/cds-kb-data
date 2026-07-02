@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTITEMCAP
 description: Capacityrequirementitemcap
+semantic_en: "Capacity requirement item capacity details — allocated capacity per item with confirmation status and work center linkage."
+semantic_vi: "Chi tiết công suất phân bổ cho từng dòng — trạng thái xác nhận và liên kết trung tâm công việc cho từng công suất."
+keywords:
+  - phân bổ công suất
+  - trung tâm công việc
+  - xác nhận
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

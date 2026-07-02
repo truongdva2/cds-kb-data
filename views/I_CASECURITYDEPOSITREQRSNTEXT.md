@@ -1,6 +1,12 @@
 ---
 name: I_CASECURITYDEPOSITREQRSNTEXT
 description: Casecuritydepositreqrsntext
+semantic_en: "security deposit request reason text — multilingual descriptions for security deposit request reasons."
+semantic_vi: "văn bản lý do yêu cầu ký quỹ bảo mật — mô tả đa ngôn ngữ cho lý do yêu cầu ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - lý do
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

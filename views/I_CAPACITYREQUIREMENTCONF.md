@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTCONF
 description: Capacityrequirementconf
+semantic_en: "Capacity requirement confirmation code — enumeration of confirmation status values for capacity requirements."
+semantic_vi: "Mã xác nhận nhu cầu công suất — danh sách các giá trị trạng thái xác nhận cho nhu cầu công suất."
+keywords:
+  - xác nhận công suất
+  - mã trạng thái
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

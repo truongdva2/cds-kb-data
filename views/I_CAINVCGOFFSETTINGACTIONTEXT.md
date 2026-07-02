@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGACTIONTEXT
 description: Cainvcgoffsettingactiontext
+semantic_en: "Text descriptions of offsetting action codes in contract accounting invoicing — multilingual labels."
+semantic_vi: "Mô tả văn bản của mã hành động bù trừ trong hóa đơn kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - mã hành động bù trừ
+  - văn bản hành động
+  - mô tả bù trừ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

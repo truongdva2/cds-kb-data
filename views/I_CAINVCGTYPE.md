@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGTYPE
 description: Cainvcgtype
+semantic_en: "Contract accounting invoicing types — defining invoice types and their application areas."
+semantic_vi: "Các loại hóa đơn kế toán hợp đồng — xác định các loại hóa đơn và lĩnh vực ứng dụng của chúng."
+keywords:
+  - loại hóa đơn
+  - kiểu hóa đơn
+  - lĩnh vực ứng dụng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

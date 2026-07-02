@@ -1,6 +1,12 @@
 ---
 name: I_CASHPLANNINGGROUPTEXT
 description: Cashplanninggrouptext
+semantic_en: "cash planning group text — multilingual names and descriptions for cash planning groups."
+semantic_vi: "văn bản nhóm lập kế hoạch tiền mặt — tên và mô tả đa ngôn ngữ cho nhóm lập kế hoạch tiền mặt."
+keywords:
+  - lập kế hoạch tiền
+  - nhóm
+  - mô tả
 app_component: FIN-FSCM-CLM-FQM-2CL
 software_component: SAPSCORE
 release_state: released

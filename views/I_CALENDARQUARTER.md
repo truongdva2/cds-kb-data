@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARQUARTER
 description: Calendarquarter
+semantic_en: "Calendar quarters — numeric quarter values and their domain mappings."
+semantic_vi: "Các quý lịch — giá trị quý số và ánh xạ miền của chúng."
+keywords:
+  - quý lịch
+  - giá trị quý
+  - quý
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAREQUESTEDSPECIALPERIOD
 description: Carequestedspecialperiod
+semantic_en: "Requested special period — enumeration of special periods for general ledger posting."
+semantic_vi: "Mã kỳ đặc biệt yêu cầu — danh sách các kỳ đặc biệt cho hạch toán sổ cái."
+keywords:
+  - kỳ đặc biệt
+  - hạch toán
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAOPENITEMLIST
 description: Caopenitemlist
+semantic_en: "Contract accounting open item lists — header-level master data for unpaid invoice tracking."
+semantic_vi: "Danh sách các khoản mục chưa thanh toán trong kế toán hợp đồng — dữ liệu chính ở cấp tiêu đề."
+keywords:
+  - khoản mục chưa thanh toán
+  - danh sách hóa đơn
+  - theo dõi hóa đơn
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

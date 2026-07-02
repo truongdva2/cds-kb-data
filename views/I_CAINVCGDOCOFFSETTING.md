@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCOFFSETTING
 description: Cainvcgdocoffsetting
+semantic_en: "invoicing document offsetting item — offset positions in invoicing documents with reference keys, procedures, and requirement period information."
+semantic_vi: "Mục bù trừ tài liệu hóa đơn — các vị trí bù trừ trong tài liệu hóa đơn cùng khóa tham chiếu, thủ tục và thông tin kỳ yêu cầu."
+keywords:
+  - hóa đơn
+  - bù trừ
+  - mục
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGCATEGORYTXT
 description: Cainvcgoffsettingcategorytxt
+semantic_en: "Text descriptions of offsetting categories in contract accounting — multilingual category labels."
+semantic_vi: "Mô tả văn bản của các danh mục bù trừ trong kế toán hợp đồng — nhãn danh mục đa ngôn ngữ."
+keywords:
+  - loại bù trừ
+  - văn bản danh mục
+  - mô tả loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

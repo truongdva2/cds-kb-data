@@ -1,6 +1,12 @@
 ---
 name: I_CASHFLOWCALCCATEGORYVH
 description: Cashflowcalccategoryvh
+semantic_en: "cash flow calculation category value help — lookup values for cash flow calculation category selection."
+semantic_vi: "trợ giúp giá trị danh mục tính toán dòng tiền — các giá trị tìm kiếm để chọn danh mục tính toán dòng tiền."
+keywords:
+  - dòng tiền
+  - danh mục
+  - tìm kiếm
 app_component: CA-FIM-FMA
 software_component: SAP_BASIS
 release_state: released

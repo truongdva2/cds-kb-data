@@ -1,6 +1,12 @@
 ---
 name: I_CAPARTNERSETTLEMENTSTATUST
 description: Capartnersettlementstatust
+semantic_en: "Partner settlement status text — language-specific labels for partner settlement status codes."
+semantic_vi: "Dữ liệu dịch trạng thái giải quyết — nhãn đa ngôn ngữ cho các mã trạng thái."
+keywords:
+  - trạng thái
+  - giải quyết
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTLMNTPLANDACTVTNRSNT
 description: Cainstlmntplandactvtnrsnt
+semantic_en: "installment plan deactivation reason text — language-specific descriptions of deactivation reasons."
+semantic_vi: "Văn bản lý do hủy kích hoạt kế hoạch trả góp — mô tả các lý do hủy kích hoạt theo ngôn ngữ."
+keywords:
+  - lý do hủy kích hoạt
+  - mô tả
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

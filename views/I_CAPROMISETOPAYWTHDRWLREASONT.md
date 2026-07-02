@@ -1,6 +1,12 @@
 ---
 name: I_CAPROMISETOPAYWTHDRWLREASONT
 description: Capromisetopaywthdrwlreasont
+semantic_en: "Promise to pay withdrawal reason text — language-specific labels for withdrawal reason codes."
+semantic_vi: "Dữ liệu dịch lý do rút lại — nhãn đa ngôn ngữ cho các mã lý do rút lại."
+keywords:
+  - rút lại
+  - thanh toán
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCPOSTING
 description: Cainvcgdocposting
+semantic_en: "invoicing document posting — accounting posting references associated with invoicing documents."
+semantic_vi: "Ghi sổ tài liệu hóa đơn — tham chiếu ghi sổ kế toán liên quan đến tài liệu hóa đơn."
+keywords:
+  - hóa đơn
+  - ghi sổ
+  - tài liệu
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

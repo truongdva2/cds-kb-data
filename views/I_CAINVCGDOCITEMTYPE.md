@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITEMTYPE
 description: Cainvcgdocitemtype
+semantic_en: "invoicing document item type — classification of invoice line item types."
+semantic_vi: "Loại mục tài liệu hóa đơn — phân loại các loại mục dòng hóa đơn."
+keywords:
+  - hóa đơn
+  - mục
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

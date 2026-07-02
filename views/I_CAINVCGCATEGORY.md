@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCATEGORY
 description: Cainvcgcategory
+semantic_en: "invoicing category type — classification of invoicing methods and categories."
+semantic_vi: "Loại danh mục hóa đơn — phân loại các phương pháp hóa đơn và danh mục."
+keywords:
+  - hóa đơn
+  - danh mục
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

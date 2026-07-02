@@ -1,6 +1,12 @@
 ---
 name: I_CAREVENUEACCOUNTINGREFTYPE
 description: Carevenueaccountingreftype
+semantic_en: "revenue accounting reference type master data — lookup values for categorizing revenue accounting reference types."
+semantic_vi: "kiểu tham chiếu kế toán doanh thu — giá trị tìm kiếm để phân loại các kiểu tham chiếu kế toán doanh thu."
+keywords:
+  - kế toán doanh thu
+  - loại tham chiếu
+  - tìm kiếm giá trị
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

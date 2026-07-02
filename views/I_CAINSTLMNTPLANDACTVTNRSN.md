@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTLMNTPLANDACTVTNRSN
 description: Cainstlmntplandactvtnrsn
+semantic_en: "installment plan deactivation reason code — master data for reasons why installment plans are deactivated."
+semantic_vi: "Mã lý do hủy kích hoạt kế hoạch trả góp — dữ liệu chính cho các lý do tại sao kế hoạch trả góp bị hủy kích hoạt."
+keywords:
+  - hủy kích hoạt
+  - lý do
+  - kế hoạch trả góp
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

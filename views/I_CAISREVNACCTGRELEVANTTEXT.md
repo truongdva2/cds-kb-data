@@ -1,6 +1,12 @@
 ---
 name: I_CAISREVNACCTGRELEVANTTEXT
 description: Caisrevnacctgrelevanttext
+semantic_en: "Text descriptions of revenue accounting relevance flags in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các cờ liên quan đến kế toán doanh thu trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - kế toán doanh thu
+  - văn bản chỉ báo
+  - mô tả liên quan
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CARECEIVABLEADJREASONTEXT
 description: Careceivableadjreasontext
+semantic_en: "Receivable adjustment reason text — language-specific descriptions for receivables adjustment reason codes."
+semantic_vi: "Dữ liệu dịch lý do điều chỉnh khoản phải thu — mô tả đa ngôn ngữ cho các lý do."
+keywords:
+  - điều chỉnh khoản phải thu
+  - bản dịch
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

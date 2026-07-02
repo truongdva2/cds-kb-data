@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYTEXT
 description: Capacitytext
+semantic_en: "Capacity text — language-specific descriptions for defined capacity resources."
+semantic_vi: "Dữ liệu dịch mô tả công suất — tên và mô tả đa ngôn ngữ cho tài nguyên công suất."
+keywords:
+  - công suất
+  - bản dịch
+  - tài nguyên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

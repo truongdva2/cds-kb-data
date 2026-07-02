@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTITEM
 description: Capacityrequirementitem
+semantic_en: "Capacity requirement item — line items within a capacity requirement document."
+semantic_vi: "Dữ liệu dòng chi tiết nhu cầu công suất — các dòng từng cái trong yêu cầu công suất."
+keywords:
+  - dòng nhu cầu công suất
+  - chi tiết
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

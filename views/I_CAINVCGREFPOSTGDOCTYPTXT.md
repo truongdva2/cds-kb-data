@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGREFPOSTGDOCTYPTXT
 description: Cainvcgrefpostgdoctyptxt
+semantic_en: "Text descriptions of reference posting document types in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các loại tài liệu hạch toán tham chiếu trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - loại tài liệu hạch toán
+  - văn bản tài liệu
+  - mô tả loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

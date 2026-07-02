@@ -1,6 +1,12 @@
 ---
 name: I_CAPROVIDERCONTRACTTECHRSCE
 description: Caprovidercontracttechrsce
+semantic_en: "Provider contract technical resource — technical resources assigned to contracts with validity periods."
+semantic_vi: "Tài nguyên kỹ thuật hợp đồng nhà cung cấp — các tài nguyên kỹ thuật được gán cho hợp đồng."
+keywords:
+  - tài nguyên kỹ thuật
+  - hợp đồng
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

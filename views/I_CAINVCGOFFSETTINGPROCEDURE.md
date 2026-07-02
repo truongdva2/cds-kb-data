@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGPROCEDURE
 description: Cainvcgoffsettingprocedure
+semantic_en: "Offsetting or crediting procedures used in contract accounting invoicing processes."
+semantic_vi: "Các quy trình bù trừ hoặc ghi có được sử dụng trong các quy trình hóa đơn kế toán hợp đồng."
+keywords:
+  - quy trình bù trừ
+  - phương pháp bù trừ
+  - ghi có hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

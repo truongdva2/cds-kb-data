@@ -1,6 +1,12 @@
 ---
 name: I_CANEGATIVEPOSTINGCTRLCODE
 description: Canegativepostingctrlcode
+semantic_en: "Control codes for negative posting or reversal transactions in contract accounting."
+semantic_vi: "Các mã kiểm soát cho các giao dịch hạch toán âm hoặc đảo ngược trong kế toán hợp đồng."
+keywords:
+  - hạch toán âm
+  - mã kiểm soát
+  - giao dịch đảo ngược
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCATEGORYTEXT
 description: Cainvcgcategorytext
+semantic_en: "invoicing category text — language-specific names for invoicing categories."
+semantic_vi: "Văn bản danh mục hóa đơn — tên các danh mục hóa đơn theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - danh mục
+  - tên
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

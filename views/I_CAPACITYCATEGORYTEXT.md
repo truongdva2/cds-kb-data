@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYCATEGORYTEXT
 description: Capacitycategorytext
+semantic_en: "Capacity category text translations — language-specific labels and descriptions for resource capacity category codes."
+semantic_vi: "Dữ liệu dịch ngôn ngữ của danh mục công suất — cung cấp tên và mô tả danh mục công suất tài nguyên theo từng ngôn ngữ."
+keywords:
+  - danh mục công suất
+  - bản dịch
+  - mô tả công suất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

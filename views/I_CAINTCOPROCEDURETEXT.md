@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOPROCEDURETEXT
 description: Caintcoproceduretext
+semantic_en: "inter-company procedure text — language-specific names for inter-company allocation procedures."
+semantic_vi: "Văn bản thủ tục liên công ty — tên các thủ tục phân bổ liên công ty theo ngôn ngữ."
+keywords:
+  - liên công ty
+  - thủ tục
+  - tên
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

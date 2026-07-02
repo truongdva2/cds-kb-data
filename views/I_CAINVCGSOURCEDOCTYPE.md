@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGSOURCEDOCTYPE
 description: Cainvcgsourcedoctype
+semantic_en: "Source document types used in contract accounting invoicing."
+semantic_vi: "Các loại tài liệu nguồn được sử dụng trong hóa đơn kế toán hợp đồng."
+keywords:
+  - loại tài liệu nguồn
+  - tài liệu gốc
+  - loại hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTMASTERDATAORIGIN
 description: Capaymentmasterdataorigin
+semantic_en: "Payment master data origin — enumeration of payment master data source origins."
+semantic_vi: "Mã nguồn gốc dữ liệu chính thanh toán — danh sách các loại nguồn dữ liệu thanh toán."
+keywords:
+  - nguồn gốc
+  - dữ liệu chính
+  - thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

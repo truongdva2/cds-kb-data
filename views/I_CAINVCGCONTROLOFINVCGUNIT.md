@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGCONTROLOFINVCGUNIT
 description: Cainvcgcontrolofinvcgunit
+semantic_en: "invoicing unit control indicator — control mechanism for invoicing units."
+semantic_vi: "Chỉ báo kiểm soát đơn vị hóa đơn — cơ chế kiểm soát cho các đơn vị hóa đơn."
+keywords:
+  - hóa đơn
+  - đơn vị
+  - kiểm soát
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

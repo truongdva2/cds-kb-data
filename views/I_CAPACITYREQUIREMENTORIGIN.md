@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTORIGIN
 description: Capacityrequirementorigin
+semantic_en: "Capacity requirement origin — enumeration of source types for capacity requirement creation."
+semantic_vi: "Mã nguồn gốc nhu cầu công suất — danh sách các loại nguồn khi tạo nhu cầu công suất."
+keywords:
+  - nguồn gốc
+  - nhu cầu công suất
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

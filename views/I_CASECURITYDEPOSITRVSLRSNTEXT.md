@@ -1,6 +1,12 @@
 ---
 name: I_CASECURITYDEPOSITRVSLRSNTEXT
 description: Casecuritydepositrvslrsntext
+semantic_en: "security deposit reversal reason text — multilingual descriptions for security deposit reversal reasons."
+semantic_vi: "văn bản lý do đảo ngược ký quỹ bảo mật — mô tả đa ngôn ngữ cho lý do đảo ngược ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - đảo ngược
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

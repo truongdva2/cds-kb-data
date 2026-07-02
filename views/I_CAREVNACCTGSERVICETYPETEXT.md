@@ -1,6 +1,12 @@
 ---
 name: I_CAREVNACCTGSERVICETYPETEXT
 description: Carevnacctgservicetypetext
+semantic_en: "revenue accounting service type text — multilingual descriptions for service types in revenue accounting."
+semantic_vi: "văn bản loại dịch vụ kế toán doanh thu — mô tả đa ngôn ngữ cho loại dịch vụ trong kế toán doanh thu."
+keywords:
+  - dịch vụ
+  - kế toán doanh thu
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

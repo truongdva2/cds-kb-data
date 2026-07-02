@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYBYSEMANTICKEYSTDVH
 description: Capacitybysemantickeystdvh
+semantic_en: "Value help view for work center capacities by plant and capacity identifier."
+semantic_vi: "Chế độ xem hỗ trợ giá trị cho công suất trung tâm công việc theo nhà máy và định danh công suất."
+keywords:
+  - công suất
+  - trợ giúp giá trị
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

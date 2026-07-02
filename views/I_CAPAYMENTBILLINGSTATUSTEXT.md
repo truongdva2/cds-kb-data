@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTBILLINGSTATUSTEXT
 description: Capaymentbillingstatustext
+semantic_en: "Payment billing status text — language-specific labels for billing status codes."
+semantic_vi: "Dữ liệu dịch trạng thái thanh toán — nhãn đa ngôn ngữ cho các mã trạng thái."
+keywords:
+  - thanh toán
+  - hóa đơn
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

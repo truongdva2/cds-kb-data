@@ -1,6 +1,12 @@
 ---
 name: I_CASESTATPROFILETEXT
 description: Casestatprofiletext
+semantic_en: "case status profile text — multilingual descriptions for case status profile names."
+semantic_vi: "văn bản hồ sơ trạng thái trường hợp — mô tả đa ngôn ngữ cho tên hồ sơ trạng thái trường hợp."
+keywords:
+  - hồ sơ
+  - trạng thái
+  - mô tả
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

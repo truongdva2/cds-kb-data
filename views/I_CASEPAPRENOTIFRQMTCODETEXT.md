@@ -1,6 +1,12 @@
 ---
 name: I_CASEPAPRENOTIFRQMTCODETEXT
 description: Casepaprenotifrqmtcodetext
+semantic_en: "SEPA prenotification requirement code text — multilingual descriptions for SEPA prenotification requirements."
+semantic_vi: "văn bản mã yêu cầu thông báo trước SEPA — mô tả đa ngôn ngữ cho yêu cầu thông báo SEPA."
+keywords:
+  - SEPA
+  - thông báo trước
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

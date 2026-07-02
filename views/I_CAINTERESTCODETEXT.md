@@ -1,6 +1,12 @@
 ---
 name: I_CAINTERESTCODETEXT
 description: Cainterestcodetext
+semantic_en: "interest code text — language-specific names and descriptions for interest calculation codes."
+semantic_vi: "Văn bản mã lãi suất — tên và mô tả các mã tính lãi suất theo ngôn ngữ."
+keywords:
+  - lãi suất
+  - mã
+  - tên
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARMONTH
 description: Calendarmonth
+semantic_en: "Calendar months — numeric month values and their domain mappings."
+semantic_vi: "Các tháng lịch — giá trị tháng số và ánh xạ miền của chúng."
+keywords:
+  - tháng lịch
+  - giá trị tháng
+  - tháng
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

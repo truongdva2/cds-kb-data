@@ -1,6 +1,12 @@
 ---
 name: I_CAINTCOSUBTYPE
 description: Caintcosubtype
+semantic_en: "inter-company transaction subtype — classification of inter-company transaction subtypes within a given transaction type."
+semantic_vi: "Loại con giao dịch liên công ty — phân loại các loại con của giao dịch liên công ty trong một loại giao dịch."
+keywords:
+  - liên công ty
+  - loại giao dịch
+  - loại con
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

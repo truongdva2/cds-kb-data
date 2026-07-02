@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYRESPPLANNER
 description: Capacityrespplanner
+semantic_en: "Enterprise resource capacity responsible planner — master data for resource planners responsible for capacity."
+semantic_vi: "Dữ liệu planner chịu trách nhiệm về công suất tài nguyên — nhân viên quy hoạch công suất."
+keywords:
+  - planner
+  - công suất
+  - trách nhiệm
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

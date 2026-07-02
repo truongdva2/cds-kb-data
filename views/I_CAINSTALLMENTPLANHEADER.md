@@ -1,6 +1,12 @@
 ---
 name: I_CAINSTALLMENTPLANHEADER
 description: Cainstallmentplanheader
+semantic_en: "contract accounting installment plan header — core installment plan data including activation dates, amount, currency, and associated contract account details."
+semantic_vi: "Tiêu đề kế hoạch trả góp kế toán hợp đồng — dữ liệu kế hoạch trả góp cơ bản với ngày kích hoạt, số tiền, loại tiền tệ và chi tiết tài khoản hợp đồng."
+keywords:
+  - kế hoạch trả góp
+  - tiêu đề
+  - tài khoản hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

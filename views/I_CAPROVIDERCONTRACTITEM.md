@@ -1,6 +1,12 @@
 ---
 name: I_CAPROVIDERCONTRACTITEM
 description: Caprovidercontractitem
+semantic_en: "Provider contract item — line items within provider contracts with validity date ranges and cancellation tracking."
+semantic_vi: "Dòng chi tiết hợp đồng nhà cung cấp — dòng trong hợp đồng kèm ngày hiệu lực và hủy."
+keywords:
+  - hợp đồng nhà cung cấp
+  - dòng chi tiết
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

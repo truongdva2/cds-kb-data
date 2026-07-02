@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGPRELIMINARYCATEGORYT
 description: Cainvcgpreliminarycategoryt
+semantic_en: "Text descriptions of preliminary invoice categories in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các danh mục hóa đơn tạm thời trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - hóa đơn tạm thời
+  - danh mục hóa đơn
+  - văn bản tạm thời
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

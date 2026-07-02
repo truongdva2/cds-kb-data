@@ -1,6 +1,12 @@
 ---
 name: I_CASEREASON
 description: Casereason
+semantic_en: "case reason — mapping of case types to predefined reasons for case creation."
+semantic_vi: "lý do trường hợp — ánh xạ loại trường hợp với lý do được định sẵn để tạo trường hợp."
+keywords:
+  - trường hợp
+  - lý do
+  - loại
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

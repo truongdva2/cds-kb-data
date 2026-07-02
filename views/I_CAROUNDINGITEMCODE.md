@@ -1,6 +1,12 @@
 ---
 name: I_CAROUNDINGITEMCODE
 description: Caroundingitemcode
+semantic_en: "rounding item code — domain values for items used in rounding calculations."
+semantic_vi: "mã mục rounding — các giá trị miền cho mục được sử dụng trong tính toán rounding."
+keywords:
+  - rounding
+  - mục
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

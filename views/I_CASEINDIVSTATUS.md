@@ -1,6 +1,12 @@
 ---
 name: I_CASEINDIVSTATUS
 description: Caseindivstatus
+semantic_en: "case individual status — mapping of case statuses to status profiles, system statuses, and triggering events."
+semantic_vi: "trạng thái cá nhân trường hợp — ánh xạ trạng thái trường hợp với hồ sơ trạng thái, trạng thái hệ thống và các sự kiện kích hoạt."
+keywords:
+  - trường hợp
+  - trạng thái cá nhân
+  - sự kiện
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

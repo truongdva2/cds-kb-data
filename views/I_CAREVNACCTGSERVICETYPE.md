@@ -1,6 +1,12 @@
 ---
 name: I_CAREVNACCTGSERVICETYPE
 description: Carevnacctgservicetype
+semantic_en: "revenue accounting service type — classification values for revenue accounting service types."
+semantic_vi: "loại dịch vụ kế toán doanh thu — các giá trị phân loại cho loại dịch vụ kế toán doanh thu."
+keywords:
+  - dịch vụ kế toán
+  - doanh thu
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

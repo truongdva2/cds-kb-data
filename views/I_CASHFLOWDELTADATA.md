@@ -1,6 +1,12 @@
 ---
 name: I_CASHFLOWDELTADATA
 description: Cashflowdeltadata
+semantic_en: "delta extraction cash flow data — extraction of cash flow changes tracking origin system, application, and transaction details."
+semantic_vi: "dữ liệu trích xuất delta dòng tiền — trích xuất các thay đổi dòng tiền theo dõi chi tiết hệ thống gốc, ứng dụng và giao dịch."
+keywords:
+  - dòng tiền
+  - trích xuất
+  - thay đổi
 app_component: FIN-FSCM-CLM-FQM-2CL
 software_component: SAPSCORE
 release_state: released

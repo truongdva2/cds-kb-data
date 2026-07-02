@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARYEAR
 description: Calendaryear
+semantic_en: "Calendar years with attributes for leap year identification and day count."
+semantic_vi: "Các năm lịch với các thuộc tính để xác định năm nhuận và số ngày."
+keywords:
+  - năm lịch
+  - năm nhuận
+  - số ngày
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

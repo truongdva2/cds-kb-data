@@ -1,6 +1,12 @@
 ---
 name: I_CASCRTYDEPDOCCATEGORYTEXT
 description: Cascrtydepdoccategorytext
+semantic_en: "security deposit document category text — multilingual descriptions for security deposit document categories."
+semantic_vi: "văn bản danh mục tài liệu ký quỹ bảo mật — mô tả đa ngôn ngữ cho danh mục tài liệu ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - danh mục
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

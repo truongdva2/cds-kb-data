@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGOFFSETTINGACTION
 description: Cainvcgoffsettingaction
+semantic_en: "Action codes for offsetting or crediting operations in contract accounting invoicing."
+semantic_vi: "Mã hành động cho các hoạt động bù trừ hoặc ghi có trong hóa đơn kế toán hợp đồng."
+keywords:
+  - mã hành động bù trừ
+  - ghi có hóa đơn
+  - hoạt động bù trừ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

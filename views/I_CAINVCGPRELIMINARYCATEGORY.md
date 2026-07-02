@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGPRELIMINARYCATEGORY
 description: Cainvcgpreliminarycategory
+semantic_en: "Categories for preliminary invoices in contract accounting."
+semantic_vi: "Các danh mục cho hóa đơn tạm thời trong kế toán hợp đồng."
+keywords:
+  - hóa đơn tạm thời
+  - loại hóa đơn tạm
+  - danh mục hóa đơn
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

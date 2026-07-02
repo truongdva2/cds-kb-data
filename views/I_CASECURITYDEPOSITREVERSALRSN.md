@@ -1,6 +1,12 @@
 ---
 name: I_CASECURITYDEPOSITREVERSALRSN
 description: Casecuritydepositreversalrsn
+semantic_en: "security deposit reversal reason — codes defining reasons for security deposit reversals."
+semantic_vi: "lý do đảo ngược ký quỹ bảo mật — mã xác định lý do đảo ngược ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - đảo ngược
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

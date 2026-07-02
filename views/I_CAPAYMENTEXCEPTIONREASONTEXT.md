@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTEXCEPTIONREASONTEXT
 description: Capaymentexceptionreasontext
+semantic_en: "Payment exception reason text — language-specific descriptions for payment exception codes."
+semantic_vi: "Dữ liệu dịch lý do ngoại lệ — mô tả đa ngôn ngữ cho các mã ngoại lệ thanh toán."
+keywords:
+  - ngoại lệ
+  - thanh toán
+  - bản dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

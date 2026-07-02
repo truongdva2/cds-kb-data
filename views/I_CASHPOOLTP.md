@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLTP
 description: Cashpooltp
+semantic_en: "cash pools general info transactional posting — transactional view of cash pool master data with deletion status, type, and service provider."
+semantic_vi: "thông tin chung nhóm tiền mặt hạng ghi sổ giao dịch — chế độ xem giao dịch dữ liệu chính nhóm tiền mặt với trạng thái xóa và loại."
+keywords:
+  - nhóm tiền
+  - dữ liệu chính
+  - ghi sổ
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

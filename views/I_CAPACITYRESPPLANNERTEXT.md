@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYRESPPLANNERTEXT
 description: Capacityrespplannertext
+semantic_en: "Capacity responsible planner text — language-specific names for capacity planners."
+semantic_vi: "Dữ liệu dịch tên planner công suất — tên đa ngôn ngữ của nhân viên quy hoạch công suất."
+keywords:
+  - planner
+  - bản dịch
+  - công suất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

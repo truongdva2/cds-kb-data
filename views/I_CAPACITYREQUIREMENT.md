@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENT
 description: Capacityrequirement
+semantic_en: "Capacity requirement header — planned capacity needs tied to work orders, production orders, and operations with scheduling dates."
+semantic_vi: "Dữ liệu nhu cầu công suất chính — liên kết công suất dự kiến với lệnh lao động, lệnh sản xuất và các hoạt động sản xuất kèm lịch biểu."
+keywords:
+  - nhu cầu công suất
+  - lệnh sản xuất
+  - lịch biểu sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

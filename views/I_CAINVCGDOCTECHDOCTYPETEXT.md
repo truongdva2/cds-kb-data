@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCTECHDOCTYPETEXT
 description: Cainvcgdoctechdoctypetext
+semantic_en: "invoicing technical document type text — language-specific names for technical document types."
+semantic_vi: "Văn bản loại tài liệu kỹ thuật hóa đơn — tên các loại tài liệu kỹ thuật theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - tài liệu kỹ thuật
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

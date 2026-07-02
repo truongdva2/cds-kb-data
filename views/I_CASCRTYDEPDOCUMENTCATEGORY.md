@@ -1,6 +1,12 @@
 ---
 name: I_CASCRTYDEPDOCUMENTCATEGORY
 description: Cascrtydepdocumentcategory
+semantic_en: "security deposit document category — classification of security deposit document types."
+semantic_vi: "danh mục tài liệu ký quỹ bảo mật — phân loại loại tài liệu ký quỹ bảo mật."
+keywords:
+  - ký quỹ bảo mật
+  - danh mục
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

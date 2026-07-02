@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLMDDESCTP
 description: Cashpoolmddesctp
+semantic_en: "cash pool master data description transactional posting — transactional view of cash pool descriptions."
+semantic_vi: "mô tả dữ liệu chính nhóm tiền mặt hạng ghi sổ giao dịch — chế độ xem giao dịch mô tả nhóm tiền mặt."
+keywords:
+  - nhóm tiền
+  - mô tả
+  - ghi sổ
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

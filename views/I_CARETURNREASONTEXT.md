@@ -1,6 +1,12 @@
 ---
 name: I_CARETURNREASONTEXT
 description: Careturnreasontext
+semantic_en: "Return reason text — language-specific descriptions for payment return reason codes."
+semantic_vi: "Dữ liệu dịch lý do trả lại — mô tả đa ngôn ngữ cho các lý do trả lại thanh toán."
+keywords:
+  - trả lại thanh toán
+  - bản dịch
+  - lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAOTHERTAXCODE
 description: Caothertaxcode
+semantic_en: "Other tax codes by country — tax percentages and applicable tax treatment rules."
+semantic_vi: "Các mã thuế khác theo quốc gia — tỷ lệ thuế và các quy tắc xử lý thuế áp dụng."
+keywords:
+  - mã thuế khác
+  - tỷ lệ thuế
+  - quốc gia
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

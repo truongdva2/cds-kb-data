@@ -1,6 +1,12 @@
 ---
 name: I_CASHPOOLSUBACCTASSGMT
 description: Cashpoolsubacctassgmt
+semantic_en: "cash pool subaccount assignment — mapping of subaccounts within cash pools with target balance and transfer limits."
+semantic_vi: "gán tài khoản phụ nhóm tiền mặt — ánh xạ tài khoản phụ trong nhóm tiền mặt với số dư mục tiêu và giới hạn chuyển."
+keywords:
+  - nhóm tiền
+  - tài khoản phụ
+  - gán
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

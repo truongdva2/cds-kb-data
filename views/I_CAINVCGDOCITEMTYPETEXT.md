@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITEMTYPETEXT
 description: Cainvcgdocitemtypetext
+semantic_en: "invoicing document item type text — language-specific names for invoice item types."
+semantic_vi: "Văn bản loại mục tài liệu hóa đơn — tên các loại mục hóa đơn theo ngôn ngữ."
+keywords:
+  - hóa đơn
+  - mục
+  - loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

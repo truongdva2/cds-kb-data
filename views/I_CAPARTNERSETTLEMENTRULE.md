@@ -1,6 +1,12 @@
 ---
 name: I_CAPARTNERSETTLEMENTRULE
 description: Capartnersettlementrule
+semantic_en: "Partner settlement rule — configuration rules for settlement between collection agencies and partners."
+semantic_vi: "Quy tắc giải quyết với đối tác — cấu hình quy tắc thanh toán giữa các cơ quan thu và đối tác."
+keywords:
+  - giải quyết
+  - đối tác
+  - quy tắc
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CASETYPETEXT
 description: Casetypetext
+semantic_en: "case type text — multilingual descriptions for case type classifications."
+semantic_vi: "văn bản loại trường hợp — mô tả đa ngôn ngữ cho phân loại loại trường hợp."
+keywords:
+  - trường hợp
+  - loại
+  - mô tả
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAROUNDINGITEMCODETEXT
 description: Caroundingitemcodetext
+semantic_en: "rounding item code text — multilingual descriptions for rounding item codes."
+semantic_vi: "văn bản mã mục rounding — mô tả đa ngôn ngữ cho các mã mục rounding."
+keywords:
+  - rounding
+  - mục
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

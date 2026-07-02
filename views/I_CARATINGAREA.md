@@ -1,6 +1,12 @@
 ---
 name: I_CARATINGAREA
 description: Caratingarea
+semantic_en: "Rating area — master data for defined geographic or business rating areas."
+semantic_vi: "Vùng xếp hạng — dữ liệu vùng xếp hạng địa lý hoặc kinh doanh."
+keywords:
+  - vùng xếp hạng
+  - dữ liệu chính
+  - địa lý
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

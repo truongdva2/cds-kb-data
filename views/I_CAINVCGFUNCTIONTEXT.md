@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGFUNCTIONTEXT
 description: Cainvcgfunctiontext
+semantic_en: "Text descriptions of contract accounting invoicing function codes — supporting multilingual labels for invoicing function types."
+semantic_vi: "Các mô tả văn bản của mã hàm hóa đơn kế toán hợp đồng — cung cấp nhãn đa ngôn ngữ cho các loại hàm hóa đơn."
+keywords:
+  - mã hàm hóa đơn
+  - văn bản hóa đơn
+  - mô tả chức năng
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

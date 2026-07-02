@@ -1,6 +1,12 @@
 ---
 name: I_CASETYPE
 description: Casetype
+semantic_en: "case type — classification codes for different types of dispute cases."
+semantic_vi: "loại trường hợp — mã phân loại cho các loại trường hợp tranh chấp khác nhau."
+keywords:
+  - trường hợp
+  - loại
+  - phân loại
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

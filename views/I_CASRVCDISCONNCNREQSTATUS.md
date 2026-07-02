@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCDISCONNCNREQSTATUS
 description: Casrvcdisconncnreqstatus
+semantic_en: "service disconnection request status — domain values for service disconnection request status codes."
+semantic_vi: "trạng thái yêu cầu ngắt dịch vụ — các giá trị miền cho mã trạng thái yêu cầu ngắt dịch vụ."
+keywords:
+  - dịch vụ
+  - ngắt kết nối
+  - yêu cầu
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

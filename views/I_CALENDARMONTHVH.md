@@ -1,6 +1,12 @@
 ---
 name: I_CALENDARMONTHVH
 description: Calendarmonthvh
+semantic_en: "Value help view for calendar month selection — supporting user input and lookups."
+semantic_vi: "Chế độ xem hỗ trợ giá trị cho việc chọn tháng lịch — hỗ trợ nhập liệu và tra cứu của người dùng."
+keywords:
+  - tháng lịch
+  - trợ giúp giá trị
+  - tra cứu tháng
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

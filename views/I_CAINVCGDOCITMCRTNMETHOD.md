@@ -1,6 +1,12 @@
 ---
 name: I_CAINVCGDOCITMCRTNMETHOD
 description: Cainvcgdocitmcrtnmethod
+semantic_en: "invoicing document item creation method — classification of methods used to create invoice line items."
+semantic_vi: "Phương pháp tạo mục tài liệu hóa đơn — phân loại các phương pháp tạo mục dòng hóa đơn."
+keywords:
+  - hóa đơn
+  - mục
+  - tạo
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

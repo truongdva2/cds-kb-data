@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTSTDVH
 description: Capacityrequirementstdvh
+semantic_en: "Capacity requirement standard value help — lookup view for capacity requirement headers."
+semantic_vi: "Công cụ tìm kiếm chuẩn cho nhu cầu công suất — giúp người dùng chọn nhu cầu công suất chính."
+keywords:
+  - tìm kiếm
+  - nhu cầu công suất
+  - lookup
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

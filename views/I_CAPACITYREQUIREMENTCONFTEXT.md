@@ -1,6 +1,12 @@
 ---
 name: I_CAPACITYREQUIREMENTCONFTEXT
 description: Capacityrequirementconftext
+semantic_en: "Capacity requirement confirmation text — language-specific labels for confirmation status codes."
+semantic_vi: "Dữ liệu dịch trạng thái xác nhận công suất — nhãn đa ngôn ngữ cho các mã xác nhận nhu cầu công suất."
+keywords:
+  - xác nhận công suất
+  - bản dịch
+  - trạng thái
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAPAYMENTMETHODTEXT
 description: Capaymentmethodtext
+semantic_en: "Payment method text — language-specific names for payment methods by country."
+semantic_vi: "Dữ liệu dịch tên phương thức thanh toán — tên đa ngôn ngữ theo quốc gia."
+keywords:
+  - phương thức thanh toán
+  - bản dịch
+  - quốc gia
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

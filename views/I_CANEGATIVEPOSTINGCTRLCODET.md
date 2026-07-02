@@ -1,6 +1,12 @@
 ---
 name: I_CANEGATIVEPOSTINGCTRLCODET
 description: Canegativepostingctrlcodet
+semantic_en: "Text descriptions of negative posting control codes in contract accounting — multilingual labels."
+semantic_vi: "Mô tả văn bản của các mã kiểm soát hạch toán âm trong kế toán hợp đồng — nhãn đa ngôn ngữ."
+keywords:
+  - hạch toán âm
+  - mã kiểm soát
+  - văn bản kiểm soát
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released
