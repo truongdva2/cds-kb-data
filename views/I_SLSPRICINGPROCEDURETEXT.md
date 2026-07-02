@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGPROCEDURETEXT
 description: Slspricingproceduretext
+semantic_en: "Pricing procedure in sales - text — language-specific descriptions of pricing procedures."
+semantic_vi: "Mô tả thủ tục giá bán hàng — tên thủ tục giá theo ngôn ngữ."
+keywords:
+  - thủ tục giá
+  - giá bán
+  - mô tả
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

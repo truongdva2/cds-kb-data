@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMLONGTEXTTP
 description: Srvcconfitemlongtexttp
+semantic_en: "service confirmation item long text — manages unstructured long text entries with mime type and reference support for service line items."
+semantic_vi: "văn bản dài mục xác nhận dịch vụ — quản lý các mục văn bản dài không có cấu trúc với hỗ trợ loại mime và tham chiếu cho các mục dịch vụ."
+keywords:
+  - văn bản dài
+  - mục dịch vụ
+  - ghi chú
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

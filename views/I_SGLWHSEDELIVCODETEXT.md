@@ -1,6 +1,12 @@
 ---
 name: I_SGLWHSEDELIVCODETEXT
 description: Sglwhsedelivcodetext
+semantic_en: "single warehouse delivery code text — localized descriptions of single warehouse delivery codes."
+semantic_vi: "văn bản mã giao hàng kho đơn lẻ — mô tả được bản địa hóa của các mã giao hàng kho đơn lẻ."
+keywords:
+  - bản dịch mã giao hàng
+  - mô tả kho hàng
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

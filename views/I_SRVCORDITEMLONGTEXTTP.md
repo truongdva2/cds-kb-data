@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMLONGTEXTTP
 description: Srvcorditemlongtexttp
+semantic_en: "Long text content for service order items with reference linking — supporting detailed item documentation and cross-references."
+semantic_vi: "Nội dung văn bản dài cho hạng mục đơn hàng dịch vụ với liên kết tham chiếu — hỗ trợ tài liệu hạng mục chi tiết và tham chiếu chéo."
+keywords:
+  - văn bản dài
+  - hạng mục đơn hàng
+  - tài liệu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

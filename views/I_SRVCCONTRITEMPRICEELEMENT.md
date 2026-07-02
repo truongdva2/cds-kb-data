@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMPRICEELEMENT
 description: Srvccontritempriceelement
+semantic_en: "service contract item pricing element — stores pricing procedure details including condition type, rate, currency, and quantity for service contract items."
+semantic_vi: "yếu tố giá mục hợp đồng dịch vụ — lưu trữ chi tiết quy trình định giá bao gồm loại điều kiện, tỷ giá, tiền tệ và số lượng cho các mục hợp đồng dịch vụ."
+keywords:
+  - giá hợp đồng
+  - điều kiện giá
+  - tiền tệ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

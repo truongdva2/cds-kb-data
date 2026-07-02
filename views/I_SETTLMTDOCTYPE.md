@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCTYPE
 description: Settlmtdoctype
+semantic_en: "settlement document type configuration — defines document categories, business process variants, text determination procedures, and journal entry mappings."
+semantic_vi: "cấu hình loại tài liệu thỏa thuận — xác định các loại tài liệu, biến thể quy trình kinh doanh, quy trình xác định văn bản và ánh xạ bút toán."
+keywords:
+  - loại tài liệu thỏa thuận
+  - cấu hình
+  - danh mục tài liệu
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

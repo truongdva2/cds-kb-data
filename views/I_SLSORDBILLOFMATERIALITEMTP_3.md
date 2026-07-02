@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDBILLOFMATERIALITEMTP_3
 description: SLSORDBill of MaterialITEMTP 3
+semantic_en: "category text CT35 for sales order bill of materials by plant — provides category descriptions for bill of material items."
+semantic_vi: "danh mục văn bản CT35 cho danh sách vật liệu đơn hàng bán hàng theo nhà máy — cung cấp mô tả danh mục cho các mục danh sách vật liệu."
+keywords:
+  - BOM
+  - danh mục
+  - vật liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

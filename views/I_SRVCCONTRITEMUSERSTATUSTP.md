@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMUSERSTATUSTP
 description: Srvccontritemuserstatustp
+semantic_en: "service contract item user status — tracks user-defined status with profile classification for service contract line items."
+semantic_vi: "trạng thái người dùng mục hợp đồng dịch vụ — theo dõi trạng thái do người dùng xác định với phân loại hồ sơ cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - trạng thái người dùng
+  - mục hợp đồng
+  - hồ sơ
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

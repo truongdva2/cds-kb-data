@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNTYPEINEXCLSNGROUP
 description: Slsprcgcndntypeinexclsngroup
+semantic_en: "Condition type in exclusion group for pricing — defines which condition types are excluded from pricing."
+semantic_vi: "Loại điều kiện trong nhóm ngoại lệ giá — định nghĩa loại điều kiện nào bị loại trừ khỏi giá."
+keywords:
+  - loại điều kiện
+  - ngoại lệ
+  - giá cả
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

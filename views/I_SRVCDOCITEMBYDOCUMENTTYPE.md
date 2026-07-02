@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMBYDOCUMENTTYPE
 description: Srvcdocitembydocumenttype
+semantic_en: "service transaction item by transaction type — aggregates service document line items with parent hierarchy and billing details grouped by document type."
+semantic_vi: "mục giao dịch dịch vụ theo loại giao dịch — tổng hợp các mục dòng tài liệu dịch vụ với phân cấp cha và chi tiết hóa đơn được nhóm theo loại tài liệu."
+keywords:
+  - mục giao dịch dịch vụ
+  - loại tài liệu
+  - hóa đơn
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

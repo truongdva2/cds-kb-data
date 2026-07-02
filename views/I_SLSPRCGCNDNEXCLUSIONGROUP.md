@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNEXCLUSIONGROUP
 description: Slsprcgcndnexclusiongroup
+semantic_en: "Condition exclusion group for pricing — groups that exclude conditions from price calculation."
+semantic_vi: "Nhóm ngoại lệ điều kiện giá — nhóm loại trừ điều kiện khỏi tính giá."
+keywords:
+  - ngoại lệ điều kiện
+  - giá cả
+  - nhóm điều kiện
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

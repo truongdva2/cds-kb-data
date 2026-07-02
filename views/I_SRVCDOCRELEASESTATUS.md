@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCRELEASESTATUS
 description: Srvcdocreleasestatus
+semantic_en: "Domain values for the release status of service transactions — indicating processing readiness."
+semantic_vi: "Giá trị miền cho trạng thái phát hành của giao dịch dịch vụ — chỉ ra sự sẵn sàng xử lý."
+keywords:
+  - phát hành
+  - trạng thái
+  - xử lý
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

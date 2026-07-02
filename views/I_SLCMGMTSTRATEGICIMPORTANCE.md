@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTSTRATEGICIMPORTANCE
 description: Slcmgmtstrategicimportance
+semantic_en: "SLC management strategic importance code — supplier classification by strategic business importance in supplier lifecycle management."
+semantic_vi: "mã tầm quan trọng chiến lược quản lý SLC — phân loại cung cấp theo tầm quan trọng kinh doanh chiến lược trong quản lý vòng đời cung cấp."
+keywords:
+  - tầm quan trọng chiến lược
+  - phân loại cung cấp
+  - mã
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

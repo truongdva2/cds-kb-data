@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCESCALATION
 description: Srvcdocescalation
+semantic_en: "escalation level of service transaction — domain values representing escalation levels for service documents."
+semantic_vi: "mức độ tăng quy mô của giao dịch dịch vụ — các giá trị miền đại diện cho mức độ tăng quy mô cho các tài liệu dịch vụ."
+keywords:
+  - mức độ tăng quy mô
+  - ưu tiên dịch vụ
+  - miền giá trị
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

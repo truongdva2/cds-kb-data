@@ -1,6 +1,12 @@
 ---
 name: I_SPONSOREDPROGRAMTEXTCORE
 description: Sponsoredprogramtextcore
+semantic_en: "Sponsored program - text — language-specific descriptions and names for sponsored programs."
+semantic_vi: "Mô tả chương trình được tài trợ — tên và mô tả chương trình tài trợ theo ngôn ngữ."
+keywords:
+  - chương trình tài trợ
+  - mô tả
+  - tài trợ
 app_component: PSM-GM-GTE-MD
 software_component: SAPSCORE
 release_state: released

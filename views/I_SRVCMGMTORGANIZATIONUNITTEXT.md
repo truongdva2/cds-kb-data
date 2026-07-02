@@ -1,6 +1,12 @@
 ---
 name: I_SRVCMGMTORGANIZATIONUNITTEXT
 description: Srvcmgmtorganizationunittext
+semantic_en: "Localized names and descriptions for service management organizational units across languages — supporting multilingual org unit reference."
+semantic_vi: "Tên và mô tả được địa phương hóa cho các đơn vị tổ chức quản lý dịch vụ trên các ngôn ngữ — hỗ trợ tham chiếu đơn vị tổ chức đa ngôn ngữ."
+keywords:
+  - đơn vị tổ chức
+  - mô tả
+  - tên
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

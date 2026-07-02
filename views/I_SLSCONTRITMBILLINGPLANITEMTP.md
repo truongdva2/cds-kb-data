@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRITMBILLINGPLANITEMTP
 description: Slscontritmbillingplanitemtp
+semantic_en: "billing plan items for sales contract items by plant — tracks scheduled billing dates and amounts for contract line items."
+semantic_vi: "mục kế hoạch thanh toán cho mục hợp đồng bán hàng theo nhà máy — theo dõi ngày thanh toán dự kiến và số tiền cho các mục dòng hợp đồng."
+keywords:
+  - kế hoạch thanh toán
+  - mục hóa đơn
+  - ngày thanh toán
 app_component: SD-SLS-OA-2CL
 software_component: SAPSCORE
 release_state: released

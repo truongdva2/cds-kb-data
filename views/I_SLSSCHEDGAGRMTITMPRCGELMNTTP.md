@@ -1,6 +1,12 @@
 ---
 name: I_SLSSCHEDGAGRMTITMPRCGELMNTTP
 description: Slsschedgagrmtitmprcgelmnttp
+semantic_en: "Sales scheduling agreement item pricing element - transactional plan — pricing details for scheduling agreement items."
+semantic_vi: "Phần tử giá mục thỏa thuận lập lịch — chi tiết giá mục thỏa thuận."
+keywords:
+  - giá thỏa thuận
+  - phần tử giá
+  - lập lịch
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

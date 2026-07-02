@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWTHOUTCHRGITMPARTNER
 description: Slsordwthoutchrgitmpartner
+semantic_en: "item partners for sales orders without charge — tracks business partners assigned to individual promotional order items."
+semantic_vi: "đối tác mục cho đơn hàng bán hàng không tính phí — theo dõi các đối tác kinh doanh được gán cho các mục đơn hàng khuyến mãi riêng lẻ."
+keywords:
+  - đối tác mục
+  - bên liên quan
+  - mục không tính phí
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

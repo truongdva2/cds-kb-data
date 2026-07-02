@@ -1,6 +1,12 @@
 ---
 name: I_SRVCMGMTPRODUCTHIERARCHYTEXT
 description: Srvcmgmtproducthierarchytext
+semantic_en: "Localized descriptions for service product hierarchy levels across languages — enabling multilingual product category labeling."
+semantic_vi: "Mô tả được địa phương hóa cho các cấp độ hệ thống phân cấp sản phẩm dịch vụ trên các ngôn ngữ — cho phép ghi nhãn danh mục sản phẩm đa ngôn ngữ."
+keywords:
+  - hệ thống phân cấp sản phẩm
+  - mô tả
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWITHOUTCHARGETYPETXT
 description: Slsordwithoutchargetypetxt
+semantic_en: "sales order without charge type text in multiple languages — provides localized descriptions for promotional order types."
+semantic_vi: "loại đơn hàng bán hàng không tính phí văn bản trong nhiều ngôn ngữ — cung cấp mô tả địa phương hóa cho các loại đơn hàng khuyến mãi."
+keywords:
+  - loại đơn hàng
+  - dịch ngôn ngữ
+  - mô tả loại
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

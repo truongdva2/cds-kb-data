@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMPRODUCTTP
 description: Srvccontritemproducttp
+semantic_en: "service contract item product list — tracks service products included in service contract line items."
+semantic_vi: "danh sách sản phẩm mục hợp đồng dịch vụ — theo dõi các sản phẩm dịch vụ được bao gồm trong các mục dòng hợp đồng dịch vụ."
+keywords:
+  - sản phẩm dịch vụ
+  - danh sách
+  - mục hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

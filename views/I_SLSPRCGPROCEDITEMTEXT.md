@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGPROCEDITEMTEXT
 description: Slsprcgproceditemtext
+semantic_en: "Pricing procedure item in sales - text — language-specific names for pricing procedure steps and condition types."
+semantic_vi: "Mô tả mục thủ tục giá bán — tên bước thủ tục giá theo ngôn ngữ."
+keywords:
+  - thủ tục giá
+  - mục thủ tục
+  - giá bán
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

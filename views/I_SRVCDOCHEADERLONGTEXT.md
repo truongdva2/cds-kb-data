@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCHEADERLONGTEXT
 description: Srvcdocheaderlongtext
+semantic_en: "service document header long text search — enterprise search indexed long text entries with mime type support for service documents."
+semantic_vi: "tìm kiếm văn bản dài tiêu đề tài liệu dịch vụ — các mục nhập văn bản dài được lập chỉ mục tìm kiếm doanh nghiệp với hỗ trợ loại mime cho các tài liệu dịch vụ."
+keywords:
+  - tìm kiếm văn bản dài
+  - tài liệu dịch vụ
+  - lập chỉ mục
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCMGMTPRODUCTHIERARCHY
 description: Srvcmgmtproducthierarchy
+semantic_en: "Product hierarchy structure for service management — organizing service products into logical categories."
+semantic_vi: "Cấu trúc hệ thống phân cấp sản phẩm cho quản lý dịch vụ — tổ chức các sản phẩm dịch vụ thành các danh mục hợp lý."
+keywords:
+  - hệ thống phân cấp sản phẩm
+  - dịch vụ
+  - tổ chức
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

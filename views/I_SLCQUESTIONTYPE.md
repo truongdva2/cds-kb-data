@@ -1,6 +1,12 @@
 ---
 name: I_SLCQUESTIONTYPE
 description: Slcquestiontype
+semantic_en: "value help for question type codes — provides classification options for questionnaire question categories."
+semantic_vi: "trợ giúp giá trị cho các mã loại câu hỏi — cung cấp tùy chọn phân loại cho danh mục câu hỏi khảo sát."
+keywords:
+  - loại câu hỏi
+  - phân loại câu hỏi
+  - mã loại
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGCONDITIONTEXT
 description: Shippingconditiontext
+semantic_en: "shipping condition text — multilingual descriptions of shipping condition codes."
+semantic_vi: "văn bản điều kiện giao hàng — mô tả đa ngôn ngữ của các mã điều kiện giao hàng."
+keywords:
+  - bản dịch điều kiện
+  - giao hàng
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

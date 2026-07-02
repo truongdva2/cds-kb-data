@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMPARTNERADDRESSTP
 description: Srvcorditempartneraddresstp
+semantic_en: "Contact and address details for service order item partners including city, fax and email — managing service delivery location information."
+semantic_vi: "Chi tiết liên hệ và địa chỉ cho các đối tác hạng mục đơn hàng dịch vụ bao gồm thành phố, fax và email — quản lý thông tin vị trí giao hàng dịch vụ."
+keywords:
+  - địa chỉ
+  - đối tác
+  - liên hệ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

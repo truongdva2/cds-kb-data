@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCQUOTATIONSTATUST_2
 description: Srvcdocquotationstatust 2
+semantic_en: "Localized text for quotation status of service transactions — presenting quotation classification in user language."
+semantic_vi: "Văn bản được địa phương hóa cho trạng thái báo giá của giao dịch dịch vụ — trình bày phân loại báo giá trong ngôn ngữ người dùng."
+keywords:
+  - báo giá
+  - trạng thái
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

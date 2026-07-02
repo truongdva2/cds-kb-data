@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDAPPOINTMENTTP
 description: Srvcordappointmenttp
+semantic_en: "Service order appointment details including type, start and end times — managing scheduled service execution windows."
+semantic_vi: "Chi tiết cuộc hẹn đơn hàng dịch vụ bao gồm loại, thời gian bắt đầu và kết thúc — quản lý cửa sổ thực hiện dịch vụ được lên lịch."
+keywords:
+  - cuộc hẹn
+  - đơn hàng dịch vụ
+  - lịch
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

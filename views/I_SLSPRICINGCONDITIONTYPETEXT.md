@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGCONDITIONTYPETEXT
 description: SLSPricing ConditionTYPETEXT
+semantic_en: "Pricing condition type in sales - text — language-specific names for pricing condition types."
+semantic_vi: "Tên loại điều kiện giá bán — tên loại điều kiện theo ngôn ngữ."
+keywords:
+  - loại điều kiện
+  - giá bán
+  - tên điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

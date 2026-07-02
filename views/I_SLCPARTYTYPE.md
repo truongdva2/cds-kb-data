@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYTYPE
 description: Slcpartytype
+semantic_en: "value help for party type codes — provides coded list of party classifications."
+semantic_vi: "trợ giúp giá trị cho các mã loại bên — cung cấp danh sách mã hóa phân loại bên."
+keywords:
+  - loại bên
+  - phân loại bên
+  - mã loại
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

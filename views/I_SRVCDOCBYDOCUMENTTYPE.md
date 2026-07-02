@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCBYDOCUMENTTYPE
 description: Srvcdocbydocumenttype
+semantic_en: "service transaction by transaction type — aggregates service documents with pricing and team assignment details grouped by document type."
+semantic_vi: "giao dịch dịch vụ theo loại giao dịch — tổng hợp các tài liệu dịch vụ với chi tiết định giá và gán nhóm được nhóm theo loại tài liệu."
+keywords:
+  - loại giao dịch
+  - tài liệu dịch vụ
+  - đội dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

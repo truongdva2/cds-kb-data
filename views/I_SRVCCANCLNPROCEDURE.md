@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCANCLNPROCEDURE
 description: Srvccanclnprocedure
+semantic_en: "Service cancellation procedure — defines procedures for canceling service transactions."
+semantic_vi: "Thủ tục hủy dịch vụ — định nghĩa quy trình hủy giao dịch dịch vụ."
+keywords:
+  - hủy dịch vụ
+  - thủ tục
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

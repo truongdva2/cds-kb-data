@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNEXCLSNGROUPTEXT
 description: Slsprcgcndnexclsngrouptext
+semantic_en: "Condition exclusion group text for pricing — language-specific descriptions of condition exclusion groups in sales pricing."
+semantic_vi: "Mô tả nhóm ngoại lệ điều kiện giá — tên nhóm ngoại lệ điều kiện theo ngôn ngữ."
+keywords:
+  - ngoại lệ điều kiện
+  - giá cả
+  - nhóm ngoại lệ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

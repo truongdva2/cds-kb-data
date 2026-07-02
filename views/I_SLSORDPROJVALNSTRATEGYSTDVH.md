@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDPROJVALNSTRATEGYSTDVH
 description: Slsordprojvalnstrategystdvh
+semantic_en: "value help for valuation strategies for sales order projects — provides standard valuation method options."
+semantic_vi: "trợ giúp giá trị cho các chiến lược định giá cho dự án đơn hàng bán hàng — cung cấp tùy chọn phương pháp định giá tiêu chuẩn."
+keywords:
+  - chiến lược định giá
+  - định giá dự án
+  - phương pháp định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

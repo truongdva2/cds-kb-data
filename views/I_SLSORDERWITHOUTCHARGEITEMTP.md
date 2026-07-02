@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDERWITHOUTCHARGEITEMTP
 description: Slsorderwithoutchargeitemtp
+semantic_en: "sales order without charge items by plant — tracks line items for free or promotional sales orders."
+semantic_vi: "mục đơn hàng bán hàng không tính phí theo nhà máy — theo dõi các mục dòng cho đơn hàng bán hàng miễn phí hoặc khuyến mãi."
+keywords:
+  - đơn hàng miễn phí
+  - mục không tính phí
+  - bán hàng
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

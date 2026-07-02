@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMPARTNERADDRESSTP
 description: Srvcconfitempartneraddresstp
+semantic_en: "service confirmation item partner address — holds contact address details for business partners linked to service confirmation items."
+semantic_vi: "địa chỉ đối tác mục xác nhận dịch vụ — giữ chi tiết địa chỉ liên lạc cho các đối tác kinh doanh liên kết với các mục xác nhận dịch vụ."
+keywords:
+  - địa chỉ đối tác
+  - liên hệ
+  - thành phố
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

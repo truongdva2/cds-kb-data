@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTQNAIREEXTNAMEAPI01
 description: Slcmgmtqnaireextnameapi 01
+semantic_en: "SLC management questionnaire external name API — external questionnaire identifiers and multilingual questionnaire names."
+semantic_vi: "API tên bên ngoài câu hỏi quản lý SLC — các nhận dạng câu hỏi bên ngoài và tên câu hỏi đa ngôn ngữ."
+keywords:
+  - câu hỏi
+  - tên bên ngoài
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMSERIALNUMBERTP
 description: SRVCCONFITEMSerial NumberTP
+semantic_en: "service confirmation item serial number — maintains serial number information for equipment and reference objects on service line items."
+semantic_vi: "số sê-ri mục xác nhận dịch vụ — duy trì thông tin số sê-ri cho thiết bị và các đối tượng tham chiếu trên các mục dịch vụ."
+keywords:
+  - số sê-ri
+  - thiết bị
+  - sản xuất
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

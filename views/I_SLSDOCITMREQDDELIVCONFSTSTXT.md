@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCITMREQDDELIVCONFSTSTXT
 description: Slsdocitmreqddelivconfststxt
+semantic_en: "delivery confirmation status text descriptions in multiple languages — translates confirmation status codes to localized text names."
+semantic_vi: "mô tả văn bản trạng thái xác nhận giao hàng trong nhiều ngôn ngữ — chuyển đổi mã trạng thái xác nhận thành tên văn bản địa phương hóa."
+keywords:
+  - trạng thái xác nhận
+  - dịch ngôn ngữ
+  - mô tả giao hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

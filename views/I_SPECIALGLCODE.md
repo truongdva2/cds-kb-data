@@ -1,6 +1,12 @@
 ---
 name: I_SPECIALGLCODE
 description: Specialglcode
+semantic_en: "Special general ledger code — codes for special GL transactions including noted items and credit limits."
+semantic_vi: "Mã sổ cái tổng hợp đặc biệt — mã cho giao dịch GL đặc biệt."
+keywords:
+  - sổ cái
+  - mã đặc biệt
+  - giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

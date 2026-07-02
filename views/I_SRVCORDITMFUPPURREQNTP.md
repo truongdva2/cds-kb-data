@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPPURREQNTP
 description: Srvcorditmfuppurreqntp
+semantic_en: "Purchase requisitions originated from individual service order items — linking material needs to service item execution."
+semantic_vi: "Yêu cầu mua hàng có nguồn gốc từ các hạng mục đơn hàng dịch vụ riên lẻ — liên kết nhu cầu vật liệu với thực hiện hạng mục dịch vụ."
+keywords:
+  - yêu cầu mua
+  - hạng mục dịch vụ
+  - vật liệu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

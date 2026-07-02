@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMCONFRELEVANCE
 description: Srvcorditmconfrelevance
+semantic_en: "Domain values classifying confirmation relevance for service order items — determining confirmation requirement levels."
+semantic_vi: "Giá trị miền phân loại tính liên quan của xác nhận cho hạng mục đơn hàng dịch vụ — xác định mức độ yêu cầu xác nhận."
+keywords:
+  - xác nhận
+  - hạng mục đơn hàng
+  - tính liên quan
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

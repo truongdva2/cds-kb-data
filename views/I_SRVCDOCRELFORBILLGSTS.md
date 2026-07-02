@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCRELFORBILLGSTS
 description: Srvcdocrelforbillgsts
+semantic_en: "Domain values for billing release status of service transactions — controlling billing document creation eligibility."
+semantic_vi: "Giá trị miền cho trạng thái phát hành hóa đơn của giao dịch dịch vụ — kiểm soát tính đủ điều kiện tạo tài liệu hóa đơn."
+keywords:
+  - hóa đơn
+  - phát hành
+  - trạng thái
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

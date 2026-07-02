@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFUSERSTATUSTP
 description: Srvcconfuserstatustp
+semantic_en: "service confirmation user status — tracks user-defined status with profile classification for service confirmation documents."
+semantic_vi: "trạng thái người dùng xác nhận dịch vụ — theo dõi trạng thái do người dùng xác định với phân loại hồ sơ cho các tài liệu xác nhận dịch vụ."
+keywords:
+  - trạng thái người dùng
+  - hồ sơ
+  - xác nhận
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

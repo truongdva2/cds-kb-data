@@ -1,6 +1,12 @@
 ---
 name: I_SRVCITEMRELATIONSHIPTYPE
 description: Srvcitemrelationshiptype
+semantic_en: "Classification of relationship types between service items — defining link semantics and hierarchy patterns."
+semantic_vi: "Phân loại các loại quan hệ giữa các hạng mục dịch vụ — xác định ngữ nghĩa liên kết và mẫu hệ thống phân cấp."
+keywords:
+  - quan hệ hạng mục
+  - loại liên kết
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

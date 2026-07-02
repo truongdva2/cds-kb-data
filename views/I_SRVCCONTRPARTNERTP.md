@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRPARTNERTP
 description: Srvccontrpartnertp
+semantic_en: "service contract partner function — associates business partners with defined functions to service contracts."
+semantic_vi: "chức năng đối tác hợp đồng dịch vụ — liên kết các đối tác kinh doanh với các chức năng được xác định cho các hợp đồng dịch vụ."
+keywords:
+  - chức năng đối tác
+  - hợp đồng
+  - đối tác
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

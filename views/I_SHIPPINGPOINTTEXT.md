@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGPOINTTEXT
 description: Shippingpointtext
+semantic_en: "shipping point text — multilingual names of shipping points."
+semantic_vi: "văn bản điểm giao hàng — tên đa ngôn ngữ của các điểm giao hàng."
+keywords:
+  - tên điểm giao hàng
+  - bản dịch
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

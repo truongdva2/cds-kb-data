@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECDSUPLMNT
 description: Slsprcgcndnrecdsuplmnt
+semantic_en: "Condition supplement for pricing — supplemental condition records with scale and validity details."
+semantic_vi: "Bản ghi điều kiện bổ sung giá — bản ghi điều kiện bổ sung với thang đo và hiệu lực."
+keywords:
+  - điều kiện bổ sung
+  - giá cả
+  - bản ghi giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

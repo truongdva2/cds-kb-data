@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFDURATIONTP
 description: Srvcconfdurationtp
+semantic_en: "Service confirmation duration - transactional plan — duration details including type, value, and unit for service confirmations."
+semantic_vi: "Thời lượng xác nhận dịch vụ — chi tiết thời lượng với loại và đơn vị."
+keywords:
+  - xác nhận dịch vụ
+  - thời lượng
+  - dịch vụ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGPOINTSTDVH
 description: Shippingpointstdvh
+semantic_en: "shipping point value helper — standard lookup for available shipping points with names."
+semantic_vi: "công cụ trợ giúp giá trị điểm giao hàng — tìm kiếm chuẩn cho các điểm giao hàng có sẵn với tên."
+keywords:
+  - tìm kiếm giá trị
+  - điểm giao hàng
+  - tên
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

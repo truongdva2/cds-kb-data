@@ -1,6 +1,12 @@
 ---
 name: I_SLSDISTRICTHIERARCHYNODET
 description: Slsdistricthierarchynodet
+semantic_en: "sales district hierarchy node text descriptions in multiple languages — translates hierarchy node codes to localized text names."
+semantic_vi: "mô tả văn bản nút phân cấp khu vực bán hàng trong nhiều ngôn ngữ — chuyển đổi mã nút phân cấp thành tên văn bản địa phương hóa."
+keywords:
+  - nút phân cấp
+  - khu vực bán hàng
+  - dịch ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

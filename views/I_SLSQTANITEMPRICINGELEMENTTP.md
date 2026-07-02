@@ -1,6 +1,12 @@
 ---
 name: I_SLSQTANITEMPRICINGELEMENTTP
 description: Slsqtanitempricingelementtp
+semantic_en: "Sales quotation item pricing element - transactional plan — pricing details for individual quotation line items."
+semantic_vi: "Phần tử giá mục báo giá bán — chi tiết giá từng mục báo giá."
+keywords:
+  - giá báo giá
+  - phần tử giá
+  - mục báo giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

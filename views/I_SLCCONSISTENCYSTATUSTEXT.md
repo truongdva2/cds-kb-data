@@ -1,6 +1,12 @@
 ---
 name: I_SLCCONSISTENCYSTATUSTEXT
 description: Slcconsistencystatustext
+semantic_en: "SLC consistency status text — localized descriptions of consistency status codes in supplier lifecycle management."
+semantic_vi: "văn bản trạng thái tính nhất quán SLC — mô tả được bản địa hóa của các mã trạng thái tính nhất quán trong quản lý vòng đời cung cấp."
+keywords:
+  - bản dịch trạng thái
+  - tính nhất quán
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

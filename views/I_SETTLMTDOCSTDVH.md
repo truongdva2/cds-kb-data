@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCSTDVH
 description: Settlmtdocstdvh
+semantic_en: "settlement document value helper — standard master data lookup for settlement documents with key parties and organizational assignments."
+semantic_vi: "công cụ trợ giúp giá trị thỏa thuận — công cụ tìm kiếm dữ liệu chính cho tài liệu thỏa thuận với các bên chính và phân công tổ chức."
+keywords:
+  - thỏa thuận
+  - tìm kiếm giá trị
+  - tài liệu chính
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

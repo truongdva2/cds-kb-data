@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDERITEMBILLINGPLANITEM
 description: Slsorderitembillingplanitem
+semantic_en: "billing plan items for sales order items — tracks scheduled billing dates and amounts for sales order line items."
+semantic_vi: "mục kế hoạch thanh toán cho mục đơn hàng bán hàng — theo dõi ngày thanh toán dự kiến và số tiền cho các mục dòng đơn hàng bán hàng."
+keywords:
+  - kế hoạch thanh toán
+  - mục hóa đơn
+  - đơn hàng bán hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

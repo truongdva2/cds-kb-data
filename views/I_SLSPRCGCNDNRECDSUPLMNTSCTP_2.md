@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECDSUPLMNTSCTP_2
 description: Slsprcgcndnrecdsuplmntsctp 2
+semantic_en: "Pricing scale of condition supplement in sales - transactional plan — scale lines with quantity and amount terms."
+semantic_vi: "Thang đo giá của điều kiện bổ sung bán hàng — chi tiết thang đo với số lượng và giá tiền."
+keywords:
+  - thang đo giá
+  - điều kiện bổ sung
+  - giá cả
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

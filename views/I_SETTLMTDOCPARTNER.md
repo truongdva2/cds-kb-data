@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCPARTNER
 description: Settlmtdocpartner
+semantic_en: "settlement document partner — defines partner functions, addresses, and contact information associated with a settlement transaction."
+semantic_vi: "đối tác thỏa thuận — xác định các chức năng đối tác, địa chỉ và thông tin liên hệ liên quan đến giao dịch thỏa thuận."
+keywords:
+  - đối tác thỏa thuận
+  - địa chỉ đối tác
+  - chức năng đối tác
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

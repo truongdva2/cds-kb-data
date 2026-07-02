@@ -1,6 +1,12 @@
 ---
 name: I_SLSMATLDETNRECDADDLSUBSTIT
 description: Slsmatldetnrecdaddlsubstit
+semantic_en: "additional substitutes for material determination records — provides multiple fallback materials beyond primary substitution."
+semantic_vi: "các thay thế bổ sung cho bản ghi xác định vật liệu — cung cấp các vật liệu dự phòng bổ sung ngoài sự thay thế chính."
+keywords:
+  - vật liệu thay thế
+  - bản ghi thay thế
+  - bổ sung
 app_component: SD-MD-MM-DET-2CL
 software_component: SAPSCORE
 release_state: released

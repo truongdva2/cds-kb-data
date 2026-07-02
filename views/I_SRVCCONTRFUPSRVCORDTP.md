@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRFUPSRVCORDTP
 description: Srvccontrfupsrvcordtp
+semantic_en: "service contract follow-up service order — links service contracts to generated service orders."
+semantic_vi: "đơn dịch vụ theo dõi hợp đồng dịch vụ — liên kết các hợp đồng dịch vụ với các đơn dịch vụ được tạo."
+keywords:
+  - đơn dịch vụ
+  - theo dõi
+  - hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

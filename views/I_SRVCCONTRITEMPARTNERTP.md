@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMPARTNERTP
 description: Srvccontritempartnertp
+semantic_en: "service contract item partner function — links business partners with defined functions to service contract line items."
+semantic_vi: "chức năng đối tác mục hợp đồng dịch vụ — liên kết các đối tác kinh doanh với các chức năng được xác định cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - chức năng đối tác
+  - đối tác
+  - mục hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

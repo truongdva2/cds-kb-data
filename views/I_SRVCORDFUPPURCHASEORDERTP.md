@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPPURCHASEORDERTP
 description: SRVCORDFUPPurchase OrderTP
+semantic_en: "Purchase order references created as follow-up to service orders — linking service execution to procurement."
+semantic_vi: "Tham chiếu đơn đặt hàng được tạo như một hành động tiếp theo sau đơn hàng dịch vụ — liên kết thực hiện dịch vụ với mua hàng."
+keywords:
+  - đơn đặt hàng
+  - dịch vụ
+  - mua hàng
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

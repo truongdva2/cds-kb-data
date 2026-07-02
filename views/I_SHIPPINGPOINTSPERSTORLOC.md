@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGPOINTSPERSTORLOC
 description: Shippingpointsperstorloc
+semantic_en: "shipping points per storage location — proposed and alternative shipping points assigned by storage location within plants."
+semantic_vi: "điểm giao hàng theo vị trí kho — các điểm giao hàng được đề xuất và thay thế được gán theo vị trí kho trong các nhà máy."
+keywords:
+  - vị trí kho
+  - điểm giao hàng
+  - lựa chọn thay thế
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCDELIVERYSTATUSTEXT
 description: Srvcdocdeliverystatustext
+semantic_en: "delivery status of service transaction text — multilingual text descriptions for delivery status domain values."
+semantic_vi: "văn bản trạng thái giao hàng giao dịch dịch vụ — mô tả văn bản đa ngôn ngữ cho các giá trị miền trạng thái giao hàng."
+keywords:
+  - trạng thái giao hàng
+  - văn bản
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

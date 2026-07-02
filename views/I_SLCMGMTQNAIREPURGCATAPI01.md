@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTQNAIREPURGCATAPI01
 description: Slcmgmtqnairepurgcatapi 01
+semantic_en: "SLC management questionnaire purchasing category API — links questionnaires to purchasing categories for supplier evaluation."
+semantic_vi: "API danh mục mua hàng câu hỏi quản lý SLC — liên kết các câu hỏi với các danh mục mua hàng để đánh giá cung cấp."
+keywords:
+  - danh mục mua hàng
+  - câu hỏi
+  - đánh giá
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

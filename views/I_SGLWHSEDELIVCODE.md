@@ -1,6 +1,12 @@
 ---
 name: I_SGLWHSEDELIVCODE
 description: Sglwhsedelivcode
+semantic_en: "single warehouse delivery code — domain values for warehouse delivery options in logistics."
+semantic_vi: "mã giao hàng kho đơn lẻ — giá trị miền cho các tùy chọn giao hàng kho trong logistics."
+keywords:
+  - mã giao hàng
+  - kho hàng
+  - giá trị miền
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

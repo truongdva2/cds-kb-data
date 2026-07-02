@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTGROUPINGTEXT
 description: Shiftgroupingtext
+semantic_en: "shift grouping text — multilingual names of shift groupings."
+semantic_vi: "văn bản nhóm ca làm việc — tên đa ngôn ngữ của các nhóm ca làm việc."
+keywords:
+  - tên nhóm ca
+  - bản dịch nhóm
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCCREDITSTATUS
 description: Srvcdoccreditstatus
+semantic_en: "credit status of service transaction — domain values representing credit status applied to service documents."
+semantic_vi: "trạng thái tín dụng của giao dịch dịch vụ — các giá trị miền đại diện cho trạng thái tín dụng được áp dụng cho các tài liệu dịch vụ."
+keywords:
+  - trạng thái tín dụng
+  - miền giá trị
+  - giao dịch dịch vụ
 app_component: CRM-S4-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

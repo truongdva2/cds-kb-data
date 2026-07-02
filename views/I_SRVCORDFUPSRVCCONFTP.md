@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPSRVCCONFTP
 description: Srvcordfupsrvcconftp
+semantic_en: "Service confirmation references linked to originating service orders — confirming service completion status."
+semantic_vi: "Tham chiếu xác nhận dịch vụ được liên kết với đơn hàng dịch vụ ban đầu — xác nhận trạng thái hoàn thành dịch vụ."
+keywords:
+  - xác nhận dịch vụ
+  - đơn hàng dịch vụ
+  - hoàn thành
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

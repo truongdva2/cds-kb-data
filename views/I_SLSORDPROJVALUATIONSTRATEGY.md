@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDPROJVALUATIONSTRATEGY
 description: Slsordprojvaluationstrategy
+semantic_en: "value help for project valuation strategies — provides coded options for sales order project valuation methods."
+semantic_vi: "trợ giúp giá trị cho các chiến lược định giá dự án — cung cấp tùy chọn mã hóa cho các phương pháp định giá dự án đơn hàng bán hàng."
+keywords:
+  - chiến lược định giá
+  - dự án
+  - mã chiến lược
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPSRVCENTRSHEETTP
 description: Srvcorditmfupsrvcentrsheettp
+semantic_en: "Service entry sheets created at individual service order item level — documenting item-specific service performance records."
+semantic_vi: "Bảng nhập dịch vụ được tạo ở cấp độ hạng mục đơn hàng dịch vụ riên lẻ — ghi lại hồ sơ hiệu suất dịch vụ cụ thể cho hạng mục."
+keywords:
+  - bảng nhập dịch vụ
+  - hạng mục đơn hàng
+  - ghi lại
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

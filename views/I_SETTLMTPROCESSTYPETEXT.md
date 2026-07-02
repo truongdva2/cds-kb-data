@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTPROCESSTYPETEXT
 description: Settlmtprocesstypetext
+semantic_en: "settlement process type text — descriptions of settlement process types in multiple languages."
+semantic_vi: "văn bản loại quy trình thỏa thuận — mô tả các loại quy trình thỏa thuận trong nhiều ngôn ngữ."
+keywords:
+  - bản dịch quy trình
+  - mô tả loại quy trình
+  - ngôn ngữ
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

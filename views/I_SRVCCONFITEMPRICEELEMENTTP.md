@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMPRICEELEMENTTP
 description: Srvcconfitempriceelementtp
+semantic_en: "service confirmation item price element — stores pricing procedure details including condition type, rate, currency, and quantity for line items."
+semantic_vi: "yếu tố giá mục xác nhận dịch vụ — lưu trữ chi tiết quy trình định giá bao gồm loại điều kiện, tỷ giá, tiền tệ và số lượng cho các mục dòng."
+keywords:
+  - giá dịch vụ
+  - điều kiện giá
+  - đơn vị tiền tệ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITMFUPTIMESHEETTP
 description: Srvcconfitmfuptimesheettp
+semantic_en: "service confirmation item follow-up timesheet — tracks timesheet records created as follow-up to service confirmation line items."
+semantic_vi: "tờ tính giờ theo dõi mục xác nhận dịch vụ — theo dõi các bản ghi bảng tính được tạo làm theo dõi cho các mục dòng xác nhận dịch vụ."
+keywords:
+  - tờ tính giờ
+  - theo dõi mục
+  - dịch vụ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

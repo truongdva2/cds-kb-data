@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGINSTRUCTION
 description: Shippinginstruction
+semantic_en: "shipping instruction — master codes defining special shipping and packaging instructions for procurement."
+semantic_vi: "chỉ dẫn giao hàng — mã chính xác định các chỉ dẫn giao hàng và đóng gói đặc biệt cho mua hàng."
+keywords:
+  - chỉ dẫn giao hàng
+  - mã chỉ dẫn
+  - đóng gói
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECORDSCALE
 description: Slsprcgcndnrecordscale
+semantic_en: "Pricing scale in sales — scale lines with quantity brackets and corresponding price/rate values."
+semantic_vi: "Thang đo giá bán hàng — dòng thang đo với khoảng số lượng và giá tương ứng."
+keywords:
+  - thang đo giá
+  - giá bán
+  - thang đo số lượng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

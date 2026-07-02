@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWTHOUTCHRGITMPRCGELMNT
 description: Slsordwthoutchrgitmprcgelmnt
+semantic_en: "pricing elements for sales order items without charge — tracks pricing conditions and calculations for promotional order items."
+semantic_vi: "yếu tố định giá cho mục đơn hàng bán hàng không tính phí — theo dõi các điều kiện định giá và tính toán cho các mục đơn hàng khuyến mãi."
+keywords:
+  - yếu tố định giá
+  - điều kiện giá
+  - mục không tính phí
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

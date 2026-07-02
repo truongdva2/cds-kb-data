@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMDURATIONTP
 description: Srvcorditemdurationtp
+semantic_en: "Duration specifications at service order item level with type and unit — controlling individual item execution timeframes."
+semantic_vi: "Thông số kỹ thuật thời gian ở cấp độ hạng mục đơn hàng dịch vụ với loại và đơn vị — kiểm soát khung thời gian thực hiện hạng mục riêng lẻ."
+keywords:
+  - thời gian hạng mục
+  - đơn hàng dịch vụ
+  - khung
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

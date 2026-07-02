@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMAPPOINTMENTTP
 description: Srvcconfitemappointmenttp
+semantic_en: "service confirmation item appointment dates — captures appointment type and scheduled datetime range for service confirmation line items."
+semantic_vi: "ngày hẹn mục xác nhận dịch vụ — ghi lại loại hẹn và khoảng thời gian lên lịch cho các mục xác nhận dịch vụ."
+keywords:
+  - cuộc hẹn dịch vụ
+  - thời gian bắt đầu
+  - thời gian kết thúc
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

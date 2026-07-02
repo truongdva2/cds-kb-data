@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCREJECTIONSTATUS
 description: Srvcdocrejectionstatus
+semantic_en: "Domain values for rejection status of service transactions — indicating acceptance or denial state."
+semantic_vi: "Giá trị miền cho trạng thái từ chối của giao dịch dịch vụ — chỉ ra trạng thái chấp nhận hoặc từ chối."
+keywords:
+  - từ chối
+  - trạng thái
+  - giao dịch dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

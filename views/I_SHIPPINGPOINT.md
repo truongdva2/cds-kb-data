@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGPOINT
 description: Shippingpoint
+semantic_en: "shipping point — master data for shipping locations with loading times, pick-pack times, and facility configurations."
+semantic_vi: "điểm giao hàng — dữ liệu chính cho các vị trí giao hàng với thời gian tải, thời gian đóng gói và cấu hình cơ sở vật chất."
+keywords:
+  - điểm giao hàng
+  - thời gian tải
+  - cấu hình
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMAPPOINTMENTTP
 description: Srvcorditemappointmenttp
+semantic_en: "Service order item-level appointment scheduling with start and end times — enabling granular service execution planning."
+semantic_vi: "Lên lịch cuộc hẹn cấp độ hạng mục đơn hàng dịch vụ với thời gian bắt đầu và kết thúc — cho phép lập kế hoạch thực hiện dịch vụ chi tiết."
+keywords:
+  - cuộc hẹn
+  - hạng mục đơn hàng
+  - lịch
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

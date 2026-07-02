@@ -1,6 +1,12 @@
 ---
 name: I_SLCPREFERREDANSWER
 description: Slcpreferredanswer
+semantic_en: "value help for preferred answer codes — provides classification options for questionnaire responses."
+semantic_vi: "trợ giúp giá trị cho các mã câu trả lời ưa thích — cung cấp tùy chọn phân loại cho phản hồi khảo sát."
+keywords:
+  - câu trả lời ưa thích
+  - phân loại phản hồi
+  - mã câu trả lời
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCRELEASESTATUSTEXT
 description: Srvcdocreleasestatustext
+semantic_en: "Localized text for service transaction release status — presenting release state in business user language."
+semantic_vi: "Văn bản được địa phương hóa cho trạng thái phát hành giao dịch dịch vụ — trình bày trạng thái phát hành trong ngôn ngữ người dùng kinh doanh."
+keywords:
+  - phát hành
+  - trạng thái
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

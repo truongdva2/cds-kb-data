@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPSUPLRINVCTP
 description: Srvcordfupsuplrinvctp
+semantic_en: "Supplier invoice references originated from service orders with fiscal year tracking — managing vendor invoice reconciliation."
+semantic_vi: "Tham chiếu hóa đơn nhà cung cấp có nguồn gốc từ đơn hàng dịch vụ với theo dõi năm tài chính — quản lý điều hòa hóa đơn nhà cung cấp."
+keywords:
+  - hóa đơn nhà cung cấp
+  - đơn hàng dịch vụ
+  - tài chính
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

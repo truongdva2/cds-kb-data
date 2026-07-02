@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTABCCLASSIFICATION
 description: Slcmgmtabcclassification
+semantic_en: "SLC management ABC classification code — supplier classification by strategic importance and supply risk categories."
+semantic_vi: "mã phân loại ABC quản lý SLC — phân loại cung cấp theo tầm quan trọng chiến lược và danh mục rủi ro cung cấp."
+keywords:
+  - phân loại ABC
+  - cung cấp
+  - phân loại
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

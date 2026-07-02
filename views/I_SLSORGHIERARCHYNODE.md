@@ -1,6 +1,12 @@
 ---
 name: I_SLSORGHIERARCHYNODE
 description: Slsorghierarchynode
+semantic_en: "Sales organization hierarchy node definition — parent-child relationships and hierarchy level attributes."
+semantic_vi: "Định nghĩa node trong cấu trúc phân cấp tổ chức bán hàng — quan hệ cha-con và thuộc tính mức phân cấp."
+keywords:
+  - node phân cấp
+  - cấu trúc tổ chức
+  - quan hệ phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

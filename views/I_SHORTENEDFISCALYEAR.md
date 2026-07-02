@@ -1,6 +1,12 @@
 ---
 name: I_SHORTENEDFISCALYEAR
 description: Shortenedfiscalyear
+semantic_en: "shortened fiscal year in FI-AA — configurations for abbreviated fiscal years with adjusted posting periods and special closing periods."
+semantic_vi: "năm tài chính rút ngắn trong FI-AA — cấu hình cho các năm tài chính được rút ngắn với các khoảng thời gian hạch toán được điều chỉnh và khoảng thời gian đóng sổ đặc biệt."
+keywords:
+  - năm tài chính
+  - FI-AA
+  - khoảng thời gian hạch toán
 app_component: BC-SRV-ASF-FYV-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTNUMBER
 description: Shiftnumber
+semantic_en: "shift number — individual shift identifiers within a shift sequence and grouping."
+semantic_vi: "số ca làm việc — các nhận dạng ca riêng lẻ trong một chuỗi ca và nhóm."
+keywords:
+  - số ca
+  - chuỗi ca
+  - nhóm ca
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

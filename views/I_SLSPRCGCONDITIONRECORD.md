@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCONDITIONRECORD
 description: SLSPRCGCondition Record
+semantic_en: "Condition record for pricing in sales — primary pricing condition record with type, validity, and scale setup."
+semantic_vi: "Bản ghi điều kiện giá bán hàng — bản ghi điều kiện giá chính với loại, hiệu lực và thang đo."
+keywords:
+  - bản ghi giá
+  - điều kiện giá
+  - giá bán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

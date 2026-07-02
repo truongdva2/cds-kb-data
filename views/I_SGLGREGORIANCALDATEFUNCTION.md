@@ -1,6 +1,12 @@
 ---
 name: I_SGLGREGORIANCALDATEFUNCTION
 description: Sglgregoriancaldatefunction
+semantic_en: "gregorian calendar date function — calculates date function results with start and end dates for periods and date/time ranges."
+semantic_vi: "hàm ngày lịch gregorian — tính toán kết quả hàm ngày với ngày bắt đầu và ngày kết thúc cho các khoảng thời gian và phạm vi ngày giờ."
+keywords:
+  - hàm ngày
+  - lịch gregorian
+  - tính toán ngày
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

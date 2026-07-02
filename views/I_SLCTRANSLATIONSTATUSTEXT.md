@@ -1,6 +1,12 @@
 ---
 name: I_SLCTRANSLATIONSTATUSTEXT
 description: Slctranslationstatustext
+semantic_en: "translation status text descriptions in multiple languages — translates translation status codes to localized text names."
+semantic_vi: "mô tả văn bản trạng thái dịch trong nhiều ngôn ngữ — chuyển đổi mã trạng thái dịch thành tên văn bản địa phương hóa."
+keywords:
+  - trạng thái dịch
+  - dịch ngôn ngữ
+  - mô tả dịch
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

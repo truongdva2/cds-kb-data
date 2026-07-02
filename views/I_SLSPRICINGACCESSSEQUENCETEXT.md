@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGACCESSSEQUENCETEXT
 description: Slspricingaccesssequencetext
+semantic_en: "Access sequence for pricing - text — language-specific descriptions of pricing access sequences."
+semantic_vi: "Mô tả chuỗi truy cập giá — tên chuỗi truy cập theo ngôn ngữ."
+keywords:
+  - chuỗi truy cập
+  - giá cả
+  - truy cập
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

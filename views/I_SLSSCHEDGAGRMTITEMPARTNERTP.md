@@ -1,6 +1,12 @@
 ---
 name: I_SLSSCHEDGAGRMTITEMPARTNERTP
 description: Slsschedgagrmtitempartnertp
+semantic_en: "Sales scheduling agreement item partner - transactional plan — partner relationships for scheduling agreement items."
+semantic_vi: "Đối tác mục thỏa thuận lập lịch bán — quan hệ đối tác của mục thỏa thuận."
+keywords:
+  - thỏa thuận lập lịch
+  - mục thỏa thuận
+  - đối tác
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

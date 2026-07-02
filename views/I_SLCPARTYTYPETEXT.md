@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYTYPETEXT
 description: Slcpartytypetext
+semantic_en: "party type descriptions in multiple languages — translates party type codes to localized text names."
+semantic_vi: "mô tả loại bên trong nhiều ngôn ngữ — chuyển đổi mã loại bên thành tên văn bản địa phương hóa."
+keywords:
+  - tên loại bên
+  - dịch ngôn ngữ
+  - mô tả loại
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

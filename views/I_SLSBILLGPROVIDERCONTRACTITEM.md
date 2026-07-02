@@ -1,6 +1,12 @@
 ---
 name: I_SLSBILLGPROVIDERCONTRACTITEM
 description: Slsbillgprovidercontractitem
+semantic_en: "sales billing provider contract items — tracks contract line items for provider contracts with billing and status details."
+semantic_vi: "mục hợp đồng nhà cung cấp thanh toán bán hàng — theo dõi các mục dòng hợp đồng cho hợp đồng nhà cung cấp với chi tiết thanh toán và trạng thái."
+keywords:
+  - mục hợp đồng
+  - nhà cung cấp
+  - thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

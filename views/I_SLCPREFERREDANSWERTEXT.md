@@ -1,6 +1,12 @@
 ---
 name: I_SLCPREFERREDANSWERTEXT
 description: Slcpreferredanswertext
+semantic_en: "preferred answer text descriptions in multiple languages — translates answer codes to localized text names."
+semantic_vi: "mô tả văn bản câu trả lời ưa thích trong nhiều ngôn ngữ — chuyển đổi mã câu trả lời thành tên văn bản địa phương hóa."
+keywords:
+  - tên câu trả lời
+  - dịch ngôn ngữ
+  - mô tả phản hồi
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

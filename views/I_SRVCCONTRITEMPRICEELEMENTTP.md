@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMPRICEELEMENTTP
 description: Srvccontritempriceelementtp
+semantic_en: "service contract item price element with transposition — stores pricing procedure details with transposition counter for service contract line items."
+semantic_vi: "yếu tố giá mục hợp đồng dịch vụ với chuyển vị — lưu trữ chi tiết quy trình định giá với bộ đếm chuyển vị cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - giá mục
+  - quy trình định giá
+  - hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

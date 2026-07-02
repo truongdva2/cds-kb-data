@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFAPPOINTMENTTP
 description: Srvcconfappointmenttp
+semantic_en: "Service confirmation appointment - transactional plan — appointment details including start and end dates for service confirmations."
+semantic_vi: "Cuộc hẹn xác nhận dịch vụ — chi tiết cuộc hẹn với ngày giờ bắt đầu và kết thúc."
+keywords:
+  - xác nhận dịch vụ
+  - cuộc hẹn
+  - dịch vụ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

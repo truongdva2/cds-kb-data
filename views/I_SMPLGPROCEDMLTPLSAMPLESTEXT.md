@@ -1,6 +1,12 @@
 ---
 name: I_SMPLGPROCEDMLTPLSAMPLESTEXT
 description: Smplgprocedmltplsamplestext
+semantic_en: "Usage of multiple samples - text — language-specific descriptions of multiple sample usage indicators."
+semantic_vi: "Mô tả sử dụng mẫu bội — mô tả chỉ báo lấy mẫu theo ngôn ngữ."
+keywords:
+  - lấy mẫu
+  - mẫu bội
+  - mô tả
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

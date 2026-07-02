@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWITHOUTCHRGSCHEDLINETP
 description: Slsordwithoutchrgschedlinetp
+semantic_en: "schedule lines for sales orders without charge by plant — tracks delivery schedules and quantities for free or promotional order items."
+semantic_vi: "dòng lịch biểu cho đơn hàng bán hàng không tính phí theo nhà máy — theo dõi lịch biểu giao hàng và số lượng cho các mục đơn hàng khuyến mãi hoặc miễn phí."
+keywords:
+  - lịch biểu giao hàng
+  - đơn hàng miễn phí
+  - mục dòng
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

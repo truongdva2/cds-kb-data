@@ -1,6 +1,12 @@
 ---
 name: I_SHPDASPLNDDELIVITEMSCUBE
 description: Shpdasplnddelivitemscube
+semantic_en: "delivery items shipped as planned cube — analytical cube tracking on-time delivery performance with goods issue delays and planned dates."
+semantic_vi: "khối dữ liệu các mục giao hàng được giao hàng theo kế hoạch — khối phân tích theo dõi hiệu suất giao hàng đúng hạn với độ trễ phát hành hàng hóa và ngày kế hoạch."
+keywords:
+  - giao hàng đúng hạn
+  - khối dữ liệu phân tích
+  - hiệu suất
 app_component: LE-SHP-FIO-ANA-2CL
 software_component: SAPSCORE
 release_state: released

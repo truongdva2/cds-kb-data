@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPBILLGDOCTP
 description: Srvcordfupbillgdoctp
+semantic_en: "Billing document references originating from service orders — tracking subsequent billing document creation."
+semantic_vi: "Tham chiếu tài liệu hóa đơn xuất phát từ đơn hàng dịch vụ — theo dõi tạo tài liệu hóa đơn tiếp theo."
+keywords:
+  - hóa đơn
+  - đơn hàng dịch vụ
+  - tham chiếu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTDEFINITIONTEXT
 description: Shiftdefinitiontext
+semantic_en: "shift definition text — multilingual names and descriptions of shift definitions."
+semantic_vi: "văn bản định nghĩa ca làm việc — tên và mô tả đa ngôn ngữ của các định nghĩa ca làm việc."
+keywords:
+  - tên ca làm việc
+  - bản dịch ca
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

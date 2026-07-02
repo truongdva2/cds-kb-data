@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWTHOUTCHRGSCHEDLINE
 description: Slsordwthoutchrgschedline
+semantic_en: "schedule lines for sales orders without charge — provides delivery schedules and quantities for promotional order items."
+semantic_vi: "dòng lịch biểu cho đơn hàng bán hàng không tính phí — cung cấp lịch biểu giao hàng và số lượng cho các mục đơn hàng khuyến mãi."
+keywords:
+  - lịch biểu giao hàng
+  - đơn hàng miễn phí
+  - mục giao hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGINSTRUCTIONTEXT
 description: Shippinginstructiontext
+semantic_en: "shipping instruction text — multilingual names and descriptions of shipping instructions."
+semantic_vi: "văn bản chỉ dẫn giao hàng — tên và mô tả đa ngôn ngữ của các chỉ dẫn giao hàng."
+keywords:
+  - bản dịch chỉ dẫn
+  - tên chỉ dẫn
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

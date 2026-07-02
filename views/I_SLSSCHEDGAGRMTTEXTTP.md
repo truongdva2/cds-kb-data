@@ -1,6 +1,12 @@
 ---
 name: I_SLSSCHEDGAGRMTTEXTTP
 description: Slsschedgagrmttexttp
+semantic_en: "Sales scheduling agreement - text transactional plan — language-specific descriptions of scheduling agreements."
+semantic_vi: "Mô tả thỏa thuận lập lịch bán — mô tả thỏa thuận theo ngôn ngữ."
+keywords:
+  - thỏa thuận lập lịch
+  - mô tả
+  - bản ghi text
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

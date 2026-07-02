@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRFUPBILLGDOCTP
 description: Srvccontrfupbillgdoctp
+semantic_en: "service contract follow-up billing document — links service contracts to subsequent billing document references."
+semantic_vi: "tài liệu hóa đơn theo dõi hợp đồng dịch vụ — liên kết các hợp đồng dịch vụ với các tham chiếu tài liệu hóa đơn sau này."
+keywords:
+  - hóa đơn dịch vụ
+  - theo dõi
+  - hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

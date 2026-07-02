@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMPARTNERTP
 description: Srvcconfitempartnertp
+semantic_en: "service confirmation item partner — links business partners with defined partner functions to service confirmation items."
+semantic_vi: "đối tác mục xác nhận dịch vụ — liên kết các đối tác kinh doanh với các chức năng đối tác được xác định cho các mục xác nhận dịch vụ."
+keywords:
+  - đối tác dịch vụ
+  - chức năng đối tác
+  - xác nhận
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

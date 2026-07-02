@@ -1,6 +1,12 @@
 ---
 name: I_SRVCMGMTORGANIZATIONUNIT
 description: Srvcmgmtorganizationunit
+semantic_en: "Organizational unit master data for service management with validity dates — defining organizational structure for service operations."
+semantic_vi: "Dữ liệu chính đơn vị tổ chức cho quản lý dịch vụ có ngày hợp lệ — xác định cấu trúc tổ chức cho hoạt động dịch vụ."
+keywords:
+  - đơn vị tổ chức
+  - dịch vụ
+  - cấu trúc
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

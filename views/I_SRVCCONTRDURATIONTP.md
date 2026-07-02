@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRDURATIONTP
 description: Srvccontrdurationtp
+semantic_en: "service contract duration — stores duration type, value, and unit for service contract documents."
+semantic_vi: "thời lượng hợp đồng dịch vụ — lưu trữ loại thời lượng, giá trị và đơn vị cho các tài liệu hợp đồng dịch vụ."
+keywords:
+  - thời lượng hợp đồng
+  - khoảng thời gian
+  - đơn vị
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

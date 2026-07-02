@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGPOINTSPERPLANT
 description: Shippingpointsperplant
+semantic_en: "shipping points per plant — proposed and alternative shipping points assigned by plant and loading group."
+semantic_vi: "điểm giao hàng theo nhà máy — các điểm giao hàng được đề xuất và thay thế được gán theo nhà máy và nhóm tải."
+keywords:
+  - điểm giao hàng
+  - nhà máy
+  - lựa chọn thay thế
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

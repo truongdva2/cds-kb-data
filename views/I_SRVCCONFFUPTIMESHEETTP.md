@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFFUPTIMESHEETTP
 description: Srvcconffuptimesheettp
+semantic_en: "service confirmation follow-up timesheet records — links service confirmations to timesheet entries for labor tracking."
+semantic_vi: "tờ thời gian chấp thuận dịch vụ theo dõi — liên kết xác nhận dịch vụ với các bản ghi bảng tính lao động."
+keywords:
+  - xác nhận dịch vụ
+  - tờ tính giờ
+  - theo dõi
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

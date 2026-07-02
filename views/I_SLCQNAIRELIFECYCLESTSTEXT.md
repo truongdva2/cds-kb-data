@@ -1,6 +1,12 @@
 ---
 name: I_SLCQNAIRELIFECYCLESTSTEXT
 description: Slcqnairelifecycleststext
+semantic_en: "questionnaire lifecycle status text descriptions in multiple languages — translates status codes to localized text names."
+semantic_vi: "mô tả văn bản trạng thái vòng đời khảo sát trong nhiều ngôn ngữ — chuyển đổi mã trạng thái thành tên văn bản địa phương hóa."
+keywords:
+  - tên trạng thái
+  - dịch ngôn ngữ
+  - mô tả vòng đời
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

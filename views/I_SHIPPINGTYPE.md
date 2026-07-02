@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGTYPE
 description: Shippingtype
+semantic_en: "shipping type — master codes for different modes and types of shipment handling."
+semantic_vi: "loại giao hàng — mã chính cho các chế độ và loại xử lý vận chuyển khác nhau."
+keywords:
+  - loại giao hàng
+  - mã
+  - chế độ vận chuyển
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

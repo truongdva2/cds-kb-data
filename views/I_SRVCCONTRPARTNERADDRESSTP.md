@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRPARTNERADDRESSTP
 description: Srvccontrpartneraddresstp
+semantic_en: "service contract partner address — maintains contact address details for business partners associated with service contracts."
+semantic_vi: "địa chỉ đối tác hợp đồng dịch vụ — duy trì chi tiết địa chỉ liên lạc cho các đối tác kinh doanh liên kết với các hợp đồng dịch vụ."
+keywords:
+  - địa chỉ đối tác hợp đồng
+  - liên hệ
+  - tổ chức
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

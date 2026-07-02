@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTQNAIREPURRRESPAPI01
 description: Slcmgmtqnairepurrrespapi 01
+semantic_en: "SLC management questionnaire purchaser responsible API — tracks purchaser responsibility and authorization for questionnaires with data controller assignments."
+semantic_vi: "API người mua chịu trách nhiệm câu hỏi quản lý SLC — theo dõi trách nhiệm và ủy quyền của người mua cho câu hỏi với các phân công người kiểm soát dữ liệu."
+keywords:
+  - người mua
+  - trách nhiệm
+  - ủy quyền
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

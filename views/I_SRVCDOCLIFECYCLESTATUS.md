@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCLIFECYCLESTATUS
 description: Srvcdoclifecyclestatus
+semantic_en: "Lifecycle user status values for service transaction documents — providing business-relevant status classifications."
+semantic_vi: "Giá trị trạng thái người dùng vòng đời cho các tài liệu giao dịch dịch vụ — cung cấp phân loại trạng thái phù hợp với kinh doanh."
+keywords:
+  - vòng đời
+  - trạng thái
+  - tài liệu dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

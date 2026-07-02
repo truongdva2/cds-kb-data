@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCGOODSISSUESTATUSTEXT
 description: Srvcdocgoodsissuestatustext
+semantic_en: "goods issue status for service transaction text — multilingual text descriptions for goods issue status domain values."
+semantic_vi: "văn bản trạng thái phát hành hàng hóa cho giao dịch dịch vụ — mô tả văn bản đa ngôn ngữ cho các giá trị miền trạng thái phát hành hàng hóa."
+keywords:
+  - trạng thái phát hành hàng
+  - văn bản mô tả
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

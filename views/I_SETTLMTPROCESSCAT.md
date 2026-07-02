@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTPROCESSCAT
 description: Settlmtprocesscat
+semantic_en: "settlement process category code table — domain values for categorizing settlement process types."
+semantic_vi: "bảng mã loại quy trình thỏa thuận — giá trị miền để phân loại các loại quy trình thỏa thuận."
+keywords:
+  - loại quy trình
+  - phân loại
+  - bảng mã
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMCREDITSTATUS
 description: Srvcdocitemcreditstatus
+semantic_en: "Domain value list for service transaction item credit status — enabling classification of authorization states."
+semantic_vi: "Danh sách giá trị miền cho trạng thái tín dụng của hạng mục giao dịch dịch vụ — cho phép phân loại các trạng thái ủy quyền."
+keywords:
+  - trạng thái tín dụng
+  - hạng mục dịch vụ
+  - phân loại
 app_component: CRM-S4-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

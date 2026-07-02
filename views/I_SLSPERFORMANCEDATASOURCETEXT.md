@@ -1,6 +1,12 @@
 ---
 name: I_SLSPERFORMANCEDATASOURCETEXT
 description: Slsperformancedatasourcetext
+semantic_en: "Sales performance data source text — language-specific labels for performance data sources."
+semantic_vi: "Nhãn nguồn dữ liệu hiệu suất bán hàng — mô tả nguồn dữ liệu theo ngôn ngữ."
+keywords:
+  - hiệu suất bán hàng
+  - nguồn dữ liệu
+  - mô tả hiệu suất
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

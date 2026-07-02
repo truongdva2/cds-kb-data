@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITMBILLGREQITEMTP
 description: Srvccontritmbillgreqitemtp
+semantic_en: "service contract item billing request item — tracks billing request items with settlement period and billing status for service contract line items."
+semantic_vi: "mục yêu cầu hóa đơn mục hợp đồng dịch vụ — theo dõi các mục yêu cầu hóa đơn với khoảng thời gian thanh toán và trạng thái hóa đơn cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - yêu cầu hóa đơn
+  - thanh toán
+  - mục hợp đồng
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

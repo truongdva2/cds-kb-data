@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCTRANSFERSTATUSTEXT
 description: Srvcdoctransferstatustext
+semantic_en: "Localized text for service transaction transfer status — supporting multilingual transfer state labeling."
+semantic_vi: "Văn bản được địa phương hóa cho trạng thái chuyển giao giao dịch dịch vụ — hỗ trợ ghi nhãn trạng thái chuyển giao đa ngôn ngữ."
+keywords:
+  - chuyển giao
+  - trạng thái
+  - nhãn
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCANCLNPROCEDURETEXT
 description: Srvccanclnproceduretext
+semantic_en: "Service cancellation procedure - text — language-specific descriptions of service cancellation procedures."
+semantic_vi: "Mô tả thủ tục hủy dịch vụ — mô tả thủ tục hủy theo ngôn ngữ."
+keywords:
+  - hủy dịch vụ
+  - mô tả
+  - thủ tục
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

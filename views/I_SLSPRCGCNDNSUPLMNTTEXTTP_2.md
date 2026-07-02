@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNSUPLMNTTEXTTP_2
 description: Slsprcgcndnsuplmnttexttp 2
+semantic_en: "Condition supplement description for pricing in sales - transactional plan — language-specific descriptions of condition supplements."
+semantic_vi: "Mô tả điều kiện bổ sung giá bán — text bổ sung điều kiện theo ngôn ngữ."
+keywords:
+  - mô tả điều kiện bổ sung
+  - giá bán
+  - text bổ sung
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

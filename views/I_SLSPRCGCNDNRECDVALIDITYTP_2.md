@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECDVALIDITYTP_2
 description: Slsprcgcndnrecdvaliditytp 2
+semantic_en: "Validity of condition record for pricing in sales - transactional plan — validity dates and application context for conditions."
+semantic_vi: "Hiệu lực bản ghi điều kiện giá bán — ngày hiệu lực và bối cảnh áp dụng điều kiện."
+keywords:
+  - hiệu lực giá
+  - điều kiện giá
+  - bản ghi giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

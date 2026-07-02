@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDCONFANALYTICSCUBE
 description: Slsordconfanalyticscube
+semantic_en: "deprecated analytical cube for sales order item statistics — provides aggregated metrics for sales order items (deprecated)."
+semantic_vi: "khối phân tích không dùng nữa cho thống kê mục đơn hàng bán hàng — cung cấp các số liệu tổng hợp cho các mục đơn hàng bán hàng (không dùng nữa)."
+keywords:
+  - phân tích
+  - đơn hàng bán hàng
+  - thống kê
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

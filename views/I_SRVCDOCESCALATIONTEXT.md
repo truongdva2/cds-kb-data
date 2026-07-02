@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCESCALATIONTEXT
 description: Srvcdocescalationtext
+semantic_en: "escalation level of service transaction text — multilingual text descriptions for escalation level domain values."
+semantic_vi: "văn bản mức độ tăng quy mô giao dịch dịch vụ — mô tả văn bản đa ngôn ngữ cho các giá trị miền mức độ tăng quy mô."
+keywords:
+  - mức độ tăng quy mô
+  - tên mức độ
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

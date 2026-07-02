@@ -1,6 +1,12 @@
 ---
 name: I_SLSQUOTATIONPRICINGELEMENTTP
 description: Slsquotationpricingelementtp
+semantic_en: "Sales quotation pricing element - transactional plan — pricing elements aggregated at quotation level."
+semantic_vi: "Phần tử giá báo giá bán — chi tiết giá tổng hợp cấp báo giá."
+keywords:
+  - giá báo giá
+  - phần tử giá
+  - báo giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCBOMEXPLSNSTRUCSCPTXT
 description: Slsdocbomexplsnstrucscptxt
+semantic_en: "structure scope of BOM explosion text descriptions in multiple languages — translates BOM scope codes to localized text names."
+semantic_vi: "mô tả văn bản phạm vi cấu trúc phân tích BOM trong nhiều ngôn ngữ — chuyển đổi mã phạm vi BOM thành tên văn bản địa phương hóa."
+keywords:
+  - BOM explosion
+  - cấu trúc BOM
+  - dịch ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

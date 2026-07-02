@@ -1,6 +1,12 @@
 ---
 name: I_SLSMATLLSTGOREXCLSNRECORD
 description: Slsmatllstgorexclsnrecord
+semantic_en: "material listing or exclusion records for sales — defines which materials are listed or excluded for customer hierarchies."
+semantic_vi: "bản ghi danh sách hoặc loại trừ vật liệu cho bán hàng — xác định vật liệu nào được liệt kê hoặc loại trừ cho phân cấp khách hàng."
+keywords:
+  - danh sách vật liệu
+  - loại trừ vật liệu
+  - phân cấp khách hàng
 app_component: SD-MD-MM-LIS-2CL
 software_component: SAPSCORE
 release_state: released

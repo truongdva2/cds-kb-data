@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTQNAIRETRNSLTNSTSAPI01
 description: Slcmgmtqnairetrnsltnstsapi 01
+semantic_en: "SLC management questionnaire translation status API — tracks translation status of questionnaires into target languages."
+semantic_vi: "API trạng thái bản dịch câu hỏi quản lý SLC — theo dõi trạng thái bản dịch của các câu hỏi thành các ngôn ngữ đích."
+keywords:
+  - trạng thái bản dịch
+  - câu hỏi
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

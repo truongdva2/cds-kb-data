@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCITMSUPLRPRCGELMNT
 description: Settlmtdocitmsuplrprcgelmnt
+semantic_en: "settlement document item supplier pricing element — captures pricing procedure steps and condition calculations including base values, rate values, and unit costs."
+semantic_vi: "phần tử giá cung cấp hàng hóa của mục thỏa thuận — ghi lại các bước quy trình định giá và tính toán điều kiện bao gồm giá trị cơ sở, giá trị suất chiết khấu và chi phí đơn vị."
+keywords:
+  - giá cung cấp
+  - phần tử định giá
+  - tính toán điều kiện
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

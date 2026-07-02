@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTDOCSUPLRPRCGELMNT
 description: Settlmtdocsuplrprcgelmnt
+semantic_en: "settlement document supplier pricing element — aggregates supplier-level pricing conditions and rate calculations across settlement items."
+semantic_vi: "phần tử giá cung cấp cấp tài liệu thỏa thuận — tổng hợp các điều kiện định giá cấp cung cấp và tính toán tỷ suất trên các mục thỏa thuận."
+keywords:
+  - giá cung cấp
+  - yếu tố định giá
+  - tính toán giá
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

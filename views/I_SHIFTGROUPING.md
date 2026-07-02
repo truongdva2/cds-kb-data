@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTGROUPING
 description: Shiftgrouping
+semantic_en: "shift grouping code — master grouping of related shifts for scheduling and organizational hierarchy."
+semantic_vi: "mã nhóm ca làm việc — nhóm chính của các ca liên quan cho lịch biểu và phân cấp tổ chức."
+keywords:
+  - nhóm ca làm việc
+  - phân cấp
+  - lịch biểu
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

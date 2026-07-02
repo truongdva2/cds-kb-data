@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMCREDITSTATUSTEXT
 description: Srvcdocitemcreditstatustext
+semantic_en: "Text descriptions for service transaction item credit status values across languages — supporting localized status representation."
+semantic_vi: "Mô tả văn bản cho giá trị trạng thái tín dụng của hạng mục giao dịch dịch vụ trên các ngôn ngữ — hỗ trợ biểu diễn trạng thái được địa phương hóa."
+keywords:
+  - mô tả trạng thái
+  - đa ngôn ngữ
+  - tín dụng
 app_component: CRM-S4-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

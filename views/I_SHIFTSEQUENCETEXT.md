@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTSEQUENCETEXT
 description: Shiftsequencetext
+semantic_en: "shift sequence text — multilingual names of shift sequences."
+semantic_vi: "văn bản chuỗi ca làm việc — tên đa ngôn ngữ của các chuỗi ca làm việc."
+keywords:
+  - tên chuỗi ca
+  - bản dịch chuỗi
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCITMREQDDELIVCONFSTS
 description: Slsdocitmreqddelivconfsts
+semantic_en: "value help for sales document item requested delivery confirmation status codes — provides coded options for delivery confirmation states."
+semantic_vi: "trợ giúp giá trị cho các mã trạng thái xác nhận giao hàng được yêu cầu của mục tài liệu bán hàng — cung cấp tùy chọn mã hóa cho các trạng thái xác nhận giao hàng."
+keywords:
+  - xác nhận giao hàng
+  - trạng thái giao hàng
+  - mục tài liệu
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

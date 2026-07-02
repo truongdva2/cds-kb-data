@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYROLETEXT
 description: Slcpartyroletext
+semantic_en: "SLC party role text — multilingual names of supplier party roles."
+semantic_vi: "văn bản vai trò bên SLC — tên đa ngôn ngữ của các vai trò bên cung cấp."
+keywords:
+  - bản dịch vai trò
+  - tên vai trò
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

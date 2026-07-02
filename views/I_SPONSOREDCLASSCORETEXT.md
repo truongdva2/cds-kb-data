@@ -1,6 +1,12 @@
 ---
 name: I_SPONSOREDCLASSCORETEXT
 description: Sponsoredclasscoretext
+semantic_en: "Sponsored class - text — language-specific descriptions and names for sponsored classes."
+semantic_vi: "Mô tả lớp được tài trợ — tên và mô tả lớp tài trợ theo ngôn ngữ."
+keywords:
+  - lớp tài trợ
+  - mô tả
+  - tài trợ
 app_component: PSM-GM-GTE-MD
 software_component: SAPSCORE
 release_state: released

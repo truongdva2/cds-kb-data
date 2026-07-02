@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGPROCEDURE
 description: Slspricingprocedure
+semantic_en: "Pricing procedure in sales — master definition of pricing procedures with condition usage and application."
+semantic_vi: "Thủ tục giá bán hàng — định nghĩa chính thủ tục giá với điều kiện áp dụng."
+keywords:
+  - thủ tục giá
+  - giá bán
+  - cấu hình giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

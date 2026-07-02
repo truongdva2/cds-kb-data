@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGCONDITIONFIELDTEXT
 description: SLSPricing ConditionFIELDTEXT
+semantic_en: "Sales pricing field catalog - text — language-specific labels for pricing condition fields in master data."
+semantic_vi: "Danh mục trường giá bán — mô tả trường điều kiện giá theo ngôn ngữ."
+keywords:
+  - trường giá
+  - danh mục
+  - giá bán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

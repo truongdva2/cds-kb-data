@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTPROCESSTYPESTDVH
 description: Settlmtprocesstypestdvh
+semantic_en: "settlement process type value helper — standard lookup linking process types to document types."
+semantic_vi: "công cụ trợ giúp giá trị loại quy trình thỏa thuận — công cụ tìm kiếm chuẩn liên kết các loại quy trình với các loại tài liệu."
+keywords:
+  - loại quy trình
+  - loại tài liệu
+  - tìm kiếm giá trị
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

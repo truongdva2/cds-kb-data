@@ -1,6 +1,12 @@
 ---
 name: I_SLCQUESTIONNOTEOPTION
 description: Slcquestionnoteoption
+semantic_en: "value help for question note option flags — provides coded options controlling whether question comments are enabled."
+semantic_vi: "trợ giúp giá trị cho các cờ tùy chọn ghi chú câu hỏi — cung cấp tùy chọn mã hóa kiểm soát xem bình luận câu hỏi có được bật hay không."
+keywords:
+  - ghi chú câu hỏi
+  - bình luận câu hỏi
+  - tùy chọn ghi chú
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

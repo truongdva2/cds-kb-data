@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWITHOUTCHARGEPARTNERTP
 description: Slsordwithoutchargepartnertp
+semantic_en: "partners for sales orders without charge by plant — tracks business partners for promotional or free sales order transactions."
+semantic_vi: "đối tác cho đơn hàng bán hàng không tính phí theo nhà máy — theo dõi đối tác kinh doanh cho các giao dịch đơn hàng bán hàng khuyến mãi hoặc miễn phí."
+keywords:
+  - đối tác
+  - đơn hàng miễn phí
+  - bên liên quan
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

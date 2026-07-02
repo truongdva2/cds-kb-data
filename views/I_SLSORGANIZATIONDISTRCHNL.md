@@ -1,6 +1,12 @@
 ---
 name: I_SLSORGANIZATIONDISTRCHNL
 description: Slsorganizationdistrchnl
+semantic_en: "distribution channel assignment for sales organizations — links sales organizations to their operating distribution channels."
+semantic_vi: "gán kênh phân phối cho tổ chức bán hàng — liên kết các tổ chức bán hàng với các kênh phân phối hoạt động của chúng."
+keywords:
+  - kênh phân phối
+  - tổ chức bán hàng
+  - gán quyền
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

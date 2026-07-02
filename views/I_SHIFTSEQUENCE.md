@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTSEQUENCE
 description: Shiftsequence
+semantic_en: "shift sequence code — ordering and sequencing of shifts within a shift group."
+semantic_vi: "mã chuỗi ca làm việc — sắp xếp thứ tự các ca trong một nhóm ca."
+keywords:
+  - chuỗi ca
+  - sắp xếp ca
+  - nhóm ca
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

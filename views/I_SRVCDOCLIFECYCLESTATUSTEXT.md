@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCLIFECYCLESTATUSTEXT
 description: Srvcdoclifecyclestatustext
+semantic_en: "Text labels for service transaction lifecycle statuses across languages — supporting multilingual status display."
+semantic_vi: "Nhãn văn bản cho các trạng thái vòng đời giao dịch dịch vụ trên các ngôn ngữ — hỗ trợ hiển thị trạng thái đa ngôn ngữ."
+keywords:
+  - nhãn trạng thái
+  - đa ngôn ngữ
+  - vòng đời
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

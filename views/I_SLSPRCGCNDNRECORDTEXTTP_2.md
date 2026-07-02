@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECORDTEXTTP_2
 description: Slsprcgcndnrecordtexttp 2
+semantic_en: "Condition record description for pricing in sales - transactional plan — language-specific text for condition records."
+semantic_vi: "Mô tả bản ghi điều kiện giá bán — text điều kiện theo ngôn ngữ."
+keywords:
+  - mô tả điều kiện
+  - giá bán
+  - text bản ghi
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

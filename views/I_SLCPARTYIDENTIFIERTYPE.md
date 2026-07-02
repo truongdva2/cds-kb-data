@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYIDENTIFIERTYPE
 description: Slcpartyidentifiertype
+semantic_en: "SLC party identifier type — master codes for types of identifiers assigned to supplier parties."
+semantic_vi: "loại nhận dạng bên SLC — mã chính cho các loại nhận dạng được gán cho các bên cung cấp."
+keywords:
+  - loại nhận dạng
+  - bên cung cấp
+  - mã
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

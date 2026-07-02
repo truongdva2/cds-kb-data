@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFFUPBILLGDOCTP
 description: Srvcconffupbillgdoctp
+semantic_en: "Follow-up billing document - transactional plan — linking service confirmations to subsequent billing documents."
+semantic_vi: "Chứng từ tính tiền theo sau — liên kết xác nhận dịch vụ với chứng từ tính tiền."
+keywords:
+  - xác nhận dịch vụ
+  - tính tiền
+  - chứng từ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

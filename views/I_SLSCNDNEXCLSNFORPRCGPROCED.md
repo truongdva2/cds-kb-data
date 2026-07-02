@@ -1,6 +1,12 @@
 ---
 name: I_SLSCNDNEXCLSNFORPRCGPROCED
 description: Slscndnexclsnforprcgproced
+semantic_en: "condition exclusions for pricing procedures in sales — defines pricing rules excluded from specific pricing procedures."
+semantic_vi: "loại trừ điều kiện cho quy trình định giá trong bán hàng — xác định các quy tắc định giá bị loại trừ khỏi quy trình định giá cụ thể."
+keywords:
+  - loại trừ điều kiện
+  - quy trình định giá
+  - quy tắc giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTSTRATEGICIMPRTNCTEXT
 description: Slcmgmtstrategicimprtnctext
+semantic_en: "SLC management strategic importance text — multilingual names of strategic importance classifications for suppliers."
+semantic_vi: "văn bản tầm quan trọng chiến lược quản lý SLC — tên đa ngôn ngữ của các phân loại tầm quan trọng chiến lược cho cung cấp."
+keywords:
+  - bản dịch chiến lược
+  - tầm quan trọng
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

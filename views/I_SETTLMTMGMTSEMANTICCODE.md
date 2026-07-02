@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTMGMTSEMANTICCODE
 description: Settlmtmgmtsemanticcode
+semantic_en: "settlement management semantic code — master list of semantic codes used in settlement management classification and routing."
+semantic_vi: "mã ngữ nghĩa quản lý thỏa thuận — danh sách chính các mã ngữ nghĩa được sử dụng trong phân loại và định tuyến quản lý thỏa thuận."
+keywords:
+  - mã ngữ nghĩa
+  - thỏa thuận
+  - phân loại
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

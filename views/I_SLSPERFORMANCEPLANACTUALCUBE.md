@@ -1,6 +1,13 @@
 ---
 name: I_SLSPERFORMANCEPLANACTUALCUBE
 description: Slsperformanceplanactualcube
+semantic_en: "Planned and actual sales performance analytical cube — planned versus actual sales metrics by document, organization, and channel."
+semantic_vi: "Khối dữ liệu phân tích hiệu suất bán hàng kế hoạch và thực tế — so sánh kế hoạch bán với thực tế theo tổ chức và kênh."
+keywords:
+  - hiệu suất bán hàng
+  - kế hoạch bán hàng
+  - khối phân tích
+  - so sánh thực tế
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

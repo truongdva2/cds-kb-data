@@ -1,6 +1,12 @@
 ---
 name: I_SLSSCHEDGAGRMTITEMTEXTTP
 description: Slsschedgagrmtitemtexttp
+semantic_en: "Sales scheduling agreement item - text transactional plan — language-specific descriptions for agreement items."
+semantic_vi: "Mô tả mục thỏa thuận lập lịch bán — mô tả mục theo ngôn ngữ."
+keywords:
+  - thỏa thuận lập lịch
+  - mô tả mục
+  - bản ghi text
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

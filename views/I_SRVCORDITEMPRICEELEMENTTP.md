@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMPRICEELEMENTTP
 description: Srvcorditempriceelementtp
+semantic_en: "Pricing element details for individual service order items including rates and conditions — enabling item-level price calculation."
+semantic_vi: "Chi tiết phần tử giá cho các hạng mục đơn hàng dịch vụ riêng lẻ bao gồm tỷ lệ và điều kiện — cho phép tính giá cấp độ hạng mục."
+keywords:
+  - giá cả
+  - hạng mục đơn hàng
+  - tính toán
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

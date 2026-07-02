@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPSRVCCONFTP
 description: Srvcorditmfupsrvcconftp
+semantic_en: "Service confirmations linked to individual service order items — confirming completion at item level granularity."
+semantic_vi: "Xác nhận dịch vụ được liên kết với hạng mục đơn hàng dịch vụ riên lẻ — xác nhận hoàn thành ở mức độ chi tiết hạng mục."
+keywords:
+  - xác nhận dịch vụ
+  - hạng mục đơn hàng
+  - hoàn thành
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

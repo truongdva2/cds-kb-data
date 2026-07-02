@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCGOODSISSUESTATUS
 description: Srvcdocgoodsissuestatus
+semantic_en: "goods issue status for service transaction — domain values representing goods issue status linked to service transaction line items."
+semantic_vi: "trạng thái phát hành hàng hóa cho giao dịch dịch vụ — các giá trị miền đại diện cho trạng thái phát hành hàng hóa liên kết với các mục dòng giao dịch dịch vụ."
+keywords:
+  - trạng thái phát hành hàng
+  - dịch vụ
+  - mục dòng
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

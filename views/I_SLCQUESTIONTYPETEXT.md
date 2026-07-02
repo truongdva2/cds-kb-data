@@ -1,6 +1,12 @@
 ---
 name: I_SLCQUESTIONTYPETEXT
 description: Slcquestiontypetext
+semantic_en: "question type text descriptions in multiple languages — translates question type codes to localized text names."
+semantic_vi: "mô tả văn bản loại câu hỏi trong nhiều ngôn ngữ — chuyển đổi mã loại câu hỏi thành tên văn bản địa phương hóa."
+keywords:
+  - tên loại câu hỏi
+  - dịch ngôn ngữ
+  - mô tả loại
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

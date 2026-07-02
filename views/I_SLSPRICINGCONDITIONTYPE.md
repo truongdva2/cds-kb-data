@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGCONDITIONTYPE
 description: SLSPricing ConditionTYPE
+semantic_en: "Pricing condition type in sales — configuration of condition types including calculation method and access sequence."
+semantic_vi: "Loại điều kiện giá bán hàng — cấu hình loại điều kiện với phương thức tính toán."
+keywords:
+  - loại điều kiện giá
+  - giá bán
+  - cấu hình
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTPROCESSCATTEXT
 description: Settlmtprocesscattext
+semantic_en: "settlement process category text — localized descriptions of settlement process category domain values."
+semantic_vi: "văn bản loại quy trình thỏa thuận — mô tả được bản địa hóa của giá trị miền loại quy trình thỏa thuận."
+keywords:
+  - bản dịch loại quy trình
+  - mô tả quy trình
+  - ngôn ngữ
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCONDITIONRECORDTP_2
 description: SLSPRCGCondition RecordTP 2
+semantic_en: "Condition record for pricing in sales - transactional plan — transactional-view pricing condition records."
+semantic_vi: "Bản ghi điều kiện giá bán — bản ghi giá theo giao dịch."
+keywords:
+  - bản ghi giá
+  - điều kiện giá
+  - giá bán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCCREDITSTATUSTEXT
 description: Srvcdoccreditstatustext
+semantic_en: "credit status of service transaction text — multilingual text descriptions for credit status domain values."
+semantic_vi: "văn bản trạng thái tín dụng giao dịch dịch vụ — mô tả văn bản đa ngôn ngữ cho các giá trị miền trạng thái tín dụng."
+keywords:
+  - trạng thái tín dụng
+  - văn bản đa ngôn ngữ
+  - mô tả
 app_component: CRM-S4-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

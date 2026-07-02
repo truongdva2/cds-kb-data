@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFLONGTEXTTP
 description: Srvcconflongtexttp
+semantic_en: "service confirmation long text — manages multi-language long text with creation and change audit trails for service confirmations."
+semantic_vi: "văn bản dài xác nhận dịch vụ — quản lý văn bản dài đa ngôn ngữ với dấu vết kiểm tra tạo và thay đổi cho các xác nhận dịch vụ."
+keywords:
+  - văn bản dài
+  - ghi chú dịch vụ
+  - đa ngôn ngữ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

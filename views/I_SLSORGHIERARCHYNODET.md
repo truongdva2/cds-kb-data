@@ -1,6 +1,12 @@
 ---
 name: I_SLSORGHIERARCHYNODET
 description: Slsorghierarchynodet
+semantic_en: "Sales organization hierarchy node text master — language-specific hierarchy node descriptions."
+semantic_vi: "Mô tả node cấu trúc tổ chức bán hàng — text node phân cấp theo ngôn ngữ."
+keywords:
+  - mô tả node phân cấp
+  - tổ chức bán hàng
+  - node text
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

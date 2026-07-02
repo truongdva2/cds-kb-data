@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMDURATIONTP
 description: Srvcconfitemdurationtp
+semantic_en: "service confirmation item duration details — stores duration type, value, and unit for service confirmation line items."
+semantic_vi: "chi tiết thời lượng mục xác nhận dịch vụ — lưu trữ loại thời lượng, giá trị và đơn vị cho các mục xác nhận dịch vụ."
+keywords:
+  - thời lượng dịch vụ
+  - khoảng thời gian
+  - đơn vị tính
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

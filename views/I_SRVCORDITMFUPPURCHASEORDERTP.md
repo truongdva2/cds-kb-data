@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPPURCHASEORDERTP
 description: SRVCORDITMFUPPurchase OrderTP
+semantic_en: "Purchase orders created at service order item level — enabling material sourcing aligned to specific service items."
+semantic_vi: "Các đơn đặt hàng được tạo ở cấp độ hạng mục đơn hàng dịch vụ — cho phép tìm nguồn cung cấp vật liệu phù hợp với các hạng mục dịch vụ cụ thể."
+keywords:
+  - đơn đặt hàng
+  - hạng mục dịch vụ
+  - vật liệu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

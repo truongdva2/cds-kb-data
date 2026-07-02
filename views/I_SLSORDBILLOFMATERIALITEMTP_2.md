@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDBILLOFMATERIALITEMTP_2
 description: SLSORDBill of MaterialITEMTP 2
+semantic_en: "component description for sales order bill of materials by plant — describes materials and components used in sales order BOMs."
+semantic_vi: "mô tả thành phần cho danh sách vật liệu đơn hàng bán hàng theo nhà máy — mô tả các vật liệu và thành phần được sử dụng trong BOM đơn hàng bán hàng."
+keywords:
+  - BOM
+  - danh sách vật liệu
+  - thành phần
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

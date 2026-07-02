@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMREFERENCEOBJECTTP
 description: Srvcorditemreferenceobjecttp
+semantic_en: "Reference objects for service order items such as equipment, location, or product — linking service work to asset context."
+semantic_vi: "Các đối tượng tham chiếu cho hạng mục đơn hàng dịch vụ chẳng hạn như thiết bị, vị trí hoặc sản phẩm — liên kết công việc dịch vụ với bối cảnh tài sản."
+keywords:
+  - đối tượng tham chiếu
+  - hạng mục đơn hàng
+  - tài sản
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

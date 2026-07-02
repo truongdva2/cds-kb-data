@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRITEMPRICINGELEMENT
 description: Slscontritempricingelement
+semantic_en: "sales contract item pricing elements — tracks pricing conditions and calculations applied to contract line items."
+semantic_vi: "yếu tố định giá mục hợp đồng bán hàng — theo dõi các điều kiện và tính toán định giá áp dụng cho các mục dòng hợp đồng."
+keywords:
+  - yếu tố định giá
+  - điều kiện giá
+  - mục hợp đồng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

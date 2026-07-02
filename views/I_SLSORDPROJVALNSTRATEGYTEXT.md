@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDPROJVALNSTRATEGYTEXT
 description: Slsordprojvalnstrategytext
+semantic_en: "valuation strategy text descriptions in multiple languages — translates valuation strategy codes to localized text names."
+semantic_vi: "mô tả văn bản chiến lược định giá trong nhiều ngôn ngữ — chuyển đổi mã chiến lược định giá thành tên văn bản địa phương hóa."
+keywords:
+  - chiến lược định giá
+  - dịch ngôn ngữ
+  - mô tả định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECDSUPLMNTTP_2
 description: Slsprcgcndnrecdsuplmnttp 2
+semantic_en: "Condition supplement for pricing in sales - transactional plan — supplemental condition records with scale basis."
+semantic_vi: "Bản ghi điều kiện bổ sung giá bán — điều kiện bổ sung với cơ sở thang đo."
+keywords:
+  - điều kiện bổ sung
+  - giá bán
+  - thang đo
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

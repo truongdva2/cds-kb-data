@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITEMUSERSTATUSTP
 description: Srvcorditemuserstatustp
+semantic_en: "User-defined status assignments for service order items with status profile tracking — enabling custom item state management."
+semantic_vi: "Gán trạng thái được xác định bởi người dùng cho hạng mục đơn hàng dịch vụ với theo dõi hồ sơ trạng thái — cho phép quản lý trạng thái hạng mục tùy chỉnh."
+keywords:
+  - trạng thái người dùng
+  - hạng mục đơn hàng
+  - hồ sơ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

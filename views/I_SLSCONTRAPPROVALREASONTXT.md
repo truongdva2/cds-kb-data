@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRAPPROVALREASONTXT
 description: Slscontrapprovalreasontxt
+semantic_en: "sales contract approval reason text descriptions in multiple languages — translates approval reason codes to localized text names."
+semantic_vi: "mô tả văn bản lý do phê duyệt hợp đồng bán hàng trong nhiều ngôn ngữ — chuyển đổi mã lý do phê duyệt thành tên văn bản địa phương hóa."
+keywords:
+  - lý do phê duyệt
+  - dịch ngôn ngữ
+  - mô tả phê duyệt
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

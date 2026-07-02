@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYIDENTIFIERTYPETEXT
 description: Slcpartyidentifiertypetext
+semantic_en: "SLC party identifier type text — multilingual names of party identifier types."
+semantic_vi: "văn bản loại nhận dạng bên SLC — tên đa ngôn ngữ của các loại nhận dạng bên."
+keywords:
+  - bản dịch loại nhận dạng
+  - tên nhận dạng
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

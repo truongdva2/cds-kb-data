@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCTRANSFERSTATUS
 description: Srvcdoctransferstatus
+semantic_en: "Domain values for transfer status of service transactions — tracking handoff or delivery progression."
+semantic_vi: "Giá trị miền cho trạng thái chuyển giao của giao dịch dịch vụ — theo dõi tiến trình bàn giao hoặc giao hàng."
+keywords:
+  - chuyển giao
+  - trạng thái
+  - tiến trình
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

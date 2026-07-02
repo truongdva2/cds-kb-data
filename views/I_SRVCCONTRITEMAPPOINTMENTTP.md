@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMAPPOINTMENTTP
 description: Srvccontritemappointmenttp
+semantic_en: "service contract item appointment — captures appointment type and scheduled datetime for service contract line items."
+semantic_vi: "cuộc hẹn mục hợp đồng dịch vụ — ghi lại loại hẹn và thời gian được lên lịch cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - cuộc hẹn mục
+  - hợp đồng
+  - lịch biểu
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

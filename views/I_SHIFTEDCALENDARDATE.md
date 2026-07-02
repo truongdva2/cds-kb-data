@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTEDCALENDARDATE
 description: Shiftedcalendardate
+semantic_en: "shifted calendar date — mapping of calendar dates to shifted dates for off-shift period calculations."
+semantic_vi: "ngày lịch thay đổi — ánh xạ các ngày lịch đến các ngày thay đổi cho tính toán khoảng thời gian ngoài ca."
+keywords:
+  - ngày lịch
+  - ca thay đổi
+  - tính toán
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

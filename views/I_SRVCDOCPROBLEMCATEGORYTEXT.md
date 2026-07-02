@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCPROBLEMCATEGORYTEXT
 description: Srvcdocproblemcategorytext
+semantic_en: "Localized text descriptions for service document problem categories — facilitating category understanding across languages."
+semantic_vi: "Mô tả văn bản được địa phương hóa cho các danh mục vấn đề của tài liệu dịch vụ — hỗ trợ hiểu danh mục trên các ngôn ngữ."
+keywords:
+  - danh mục vấn đề
+  - dịch vụ
+  - mô tả
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

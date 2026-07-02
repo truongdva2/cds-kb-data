@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCDELIVERYSTATUS
 description: Srvcdocdeliverystatus
+semantic_en: "delivery status of service transaction — domain values representing delivery status for service line items."
+semantic_vi: "trạng thái giao hàng của giao dịch dịch vụ — các giá trị miền đại diện cho trạng thái giao hàng cho các mục dòng dịch vụ."
+keywords:
+  - trạng thái giao hàng
+  - miền giá trị
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

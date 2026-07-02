@@ -1,6 +1,12 @@
 ---
 name: I_SLCQUESTIONNOTEOPTIONTEXT
 description: Slcquestionnoteoptiontext
+semantic_en: "question note option text descriptions in multiple languages — translates note option codes to localized text names."
+semantic_vi: "mô tả văn bản tùy chọn ghi chú câu hỏi trong nhiều ngôn ngữ — chuyển đổi mã tùy chọn ghi chú thành tên văn bản địa phương hóa."
+keywords:
+  - tên tùy chọn
+  - dịch ngôn ngữ
+  - mô tả ghi chú
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

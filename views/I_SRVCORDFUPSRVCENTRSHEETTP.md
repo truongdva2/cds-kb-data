@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPSRVCENTRSHEETTP
 description: Srvcordfupsrvcentrsheettp
+semantic_en: "Service entry sheet references created from service orders — documenting actual service performance details."
+semantic_vi: "Tham chiếu bảng nhập dịch vụ được tạo từ đơn hàng dịch vụ — ghi lại chi tiết hiệu suất dịch vụ thực tế."
+keywords:
+  - bảng nhập dịch vụ
+  - đơn hàng dịch vụ
+  - ghi lại
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

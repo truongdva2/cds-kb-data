@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGCONDITION
 description: Shippingcondition
+semantic_en: "shipping condition — master codes for different shipping and delivery condition types."
+semantic_vi: "điều kiện giao hàng — mã chính cho các loại điều kiện giao hàng và vận chuyển khác nhau."
+keywords:
+  - điều kiện giao hàng
+  - loại vận chuyển
+  - mã
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

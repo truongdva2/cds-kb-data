@@ -1,6 +1,12 @@
 ---
 name: I_SMPLGPROCEDMLTPLSAMPLES
 description: Smplgprocedmltplsamples
+semantic_en: "Usage of multiple samples — indicator for sampling procedures allowing multiple sample usage."
+semantic_vi: "Sử dụng mẫu bội — chỉ báo thủ tục lấy mẫu cho phép sử dụng mẫu bội."
+keywords:
+  - lấy mẫu
+  - mẫu bội
+  - thủ tục
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

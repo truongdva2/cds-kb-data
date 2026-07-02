@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRACTVALIDITYPERDCATT
 description: Slscontractvalidityperdcatt
+semantic_en: "sales contract validity period category text descriptions in multiple languages — translates validity period codes to localized text names."
+semantic_vi: "mô tả văn bản danh mục kỳ hạn hiệu lực hợp đồng bán hàng trong nhiều ngôn ngữ — chuyển đổi mã kỳ hạn hiệu lực thành tên văn bản địa phương hóa."
+keywords:
+  - tên kỳ hạn
+  - dịch ngôn ngữ
+  - mô tả hiệu lực
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

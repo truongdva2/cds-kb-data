@@ -1,6 +1,12 @@
 ---
 name: I_SLCQNAIRELIFECYCLESTS
 description: Slcqnairelifecyclests
+semantic_en: "value help for questionnaire lifecycle status codes — provides coded options tracking questionnaire development phases."
+semantic_vi: "trợ giúp giá trị cho các mã trạng thái vòng đời khảo sát — cung cấp tùy chọn mã hóa theo dõi các giai đoạn phát triển khảo sát."
+keywords:
+  - trạng thái vòng đời
+  - giai đoạn khảo sát
+  - mã trạng thái
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCMGMTPAYMENTTERMSVH
 description: Srvcmgmtpaymenttermsvh
+semantic_en: "Value help for payment terms in service management — enabling selection from predefined payment term options."
+semantic_vi: "Trợ giúp giá trị cho các điều khoản thanh toán trong quản lý dịch vụ — cho phép lựa chọn từ các tùy chọn điều khoản thanh toán được xác định trước."
+keywords:
+  - điều khoản thanh toán
+  - trợ giúp giá trị
+  - dịch vụ
 app_component: CRM-S4-SRV-MC-2CL
 software_component: SAPSCORE
 release_state: released

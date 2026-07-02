@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDWTHOUTCHRGITMPARTNERTP
 description: Slsordwthoutchrgitmpartnertp
+semantic_en: "item partners for sales orders without charge by plant — associates business partners with promotional order items across plants."
+semantic_vi: "đối tác mục cho đơn hàng bán hàng không tính phí theo nhà máy — liên kết các đối tác kinh doanh với các mục đơn hàng khuyến mãi trên các nhà máy."
+keywords:
+  - đối tác mục
+  - nhà máy
+  - mục không tính phí
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

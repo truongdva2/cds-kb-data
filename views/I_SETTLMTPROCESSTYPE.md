@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTPROCESSTYPE
 description: Settlmtprocesstype
+semantic_en: "settlement process type — configuration of settlement process categories, business rules, and transaction code settings by process type."
+semantic_vi: "loại quy trình thỏa thuận — cấu hình các loại quy trình, quy tắc kinh doanh và cài đặt mã giao dịch theo loại quy trình."
+keywords:
+  - quy trình thỏa thuận
+  - cấu hình
+  - loại quy trình
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

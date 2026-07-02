@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCPAYMENTMETHOD
 description: Srvcdocpaymentmethod
+semantic_en: "Payment method reference data for service transactions by sales organization and country — enabling region-specific payment option configuration."
+semantic_vi: "Dữ liệu tham chiếu phương pháp thanh toán cho giao dịch dịch vụ theo tổ chức bán hàng và quốc gia — cho phép cấu hình tùy chọn thanh toán cụ thể theo khu vực."
+keywords:
+  - phương pháp thanh toán
+  - bán hàng
+  - quốc gia
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

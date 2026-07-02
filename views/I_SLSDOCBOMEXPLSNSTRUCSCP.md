@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCBOMEXPLSNSTRUCSCP
 description: Slsdocbomexplsnstrucscp
+semantic_en: "value help for structure scope of BOM explosion — provides coded options defining how bill of materials is decomposed."
+semantic_vi: "trợ giúp giá trị cho phạm vi cấu trúc phân tích BOM — cung cấp tùy chọn mã hóa xác định cách phân rã danh sách vật liệu."
+keywords:
+  - BOM explosion
+  - cấu trúc BOM
+  - phạm vi phân tích
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

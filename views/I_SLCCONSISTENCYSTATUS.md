@@ -1,6 +1,12 @@
 ---
 name: I_SLCCONSISTENCYSTATUS
 description: Slcconsistencystatus
+semantic_en: "SLC consistency status code — domain values for data consistency states in supplier lifecycle management."
+semantic_vi: "mã trạng thái tính nhất quán SLC — giá trị miền cho các trạng thái tính nhất quán dữ liệu trong quản lý vòng đời cung cấp."
+keywords:
+  - trạng thái tính nhất quán
+  - quản lý cung cấp
+  - mã
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

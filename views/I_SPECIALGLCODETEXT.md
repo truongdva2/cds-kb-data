@@ -1,6 +1,12 @@
 ---
 name: I_SPECIALGLCODETEXT
 description: Specialglcodetext
+semantic_en: "Special general ledger code - text — language-specific names and descriptions for special GL codes."
+semantic_vi: "Tên mã sổ cái tổng hợp đặc biệt — mô tả mã GL đặc biệt theo ngôn ngữ."
+keywords:
+  - sổ cái
+  - mã đặc biệt
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

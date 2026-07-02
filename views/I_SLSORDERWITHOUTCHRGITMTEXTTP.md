@@ -1,6 +1,12 @@
 ---
 name: I_SLSORDERWITHOUTCHRGITMTEXTTP
 description: Slsorderwithoutchrgitmtexttp
+semantic_en: "sales order without charge item text in multiple languages by plant — stores localized text descriptions for promotional order items."
+semantic_vi: "mục đơn hàng bán hàng không tính phí văn bản theo nhà máy trong nhiều ngôn ngữ — lưu trữ mô tả văn bản địa phương hóa cho các mục đơn hàng khuyến mãi."
+keywords:
+  - văn bản mục
+  - dịch ngôn ngữ
+  - mục không tính phí
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

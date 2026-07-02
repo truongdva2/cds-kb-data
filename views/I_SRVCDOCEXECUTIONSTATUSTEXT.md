@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCEXECUTIONSTATUSTEXT
 description: Srvcdocexecutionstatustext
+semantic_en: "service transaction execution status text — multilingual text descriptions for execution status domain values with quotation context."
+semantic_vi: "văn bản trạng thái thực thi giao dịch dịch vụ — mô tả văn bản đa ngôn ngữ cho các giá trị miền trạng thái thực thi với ngữ cảnh báo giá."
+keywords:
+  - trạng thái thực thi
+  - văn bản
+  - ngôn ngữ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

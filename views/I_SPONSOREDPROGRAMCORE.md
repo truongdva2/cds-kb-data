@@ -1,6 +1,12 @@
 ---
 name: I_SPONSOREDPROGRAMCORE
 description: Sponsoredprogramcore
+semantic_en: "Sponsored program master data — sponsored program definitions with authorization and audit tracking."
+semantic_vi: "Dữ liệu chính chương trình được tài trợ — định nghĩa chương trình tài trợ."
+keywords:
+  - chương trình tài trợ
+  - tài trợ
+  - định nghĩa
 app_component: PSM-GM-GTE-MD
 software_component: SAPSCORE
 release_state: released

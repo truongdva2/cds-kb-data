@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPSUPLRINVCTP
 description: Srvcorditmfupsuplrinvctp
+semantic_en: "Supplier invoices linked to specific service order items with fiscal year identification — managing vendor invoice detail reconciliation."
+semantic_vi: "Hóa đơn nhà cung cấp được liên kết với hạng mục đơn hàng dịch vụ cụ thể có xác định năm tài chính — quản lý điều hòa chi tiết hóa đơn nhà cung cấp."
+keywords:
+  - hóa đơn nhà cung cấp
+  - hạng mục đơn hàng
+  - tài chính
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

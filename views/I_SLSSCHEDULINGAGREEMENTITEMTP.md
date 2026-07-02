@@ -1,6 +1,12 @@
 ---
 name: I_SLSSCHEDULINGAGREEMENTITEMTP
 description: Slsschedulingagreementitemtp
+semantic_en: "Sales scheduling agreement item - transactional plan — line-item details including product, quantity, and plant information."
+semantic_vi: "Mục thỏa thuận lập lịch bán — chi tiết dòng với sản phẩm, số lượng và nhà máy."
+keywords:
+  - mục thỏa thuận
+  - lập lịch bán
+  - sản phẩm
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

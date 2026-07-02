@@ -1,6 +1,12 @@
 ---
 name: I_SHIPPINGTYPETEXT
 description: Shippingtypetext
+semantic_en: "shipping type text — multilingual names of shipping types."
+semantic_vi: "văn bản loại giao hàng — tên đa ngôn ngữ của các loại giao hàng."
+keywords:
+  - tên loại giao hàng
+  - bản dịch
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

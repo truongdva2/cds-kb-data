@@ -1,6 +1,12 @@
 ---
 name: I_SLCPARTYROLE
 description: Slcpartyrole
+semantic_en: "SLC party role code — master codes for roles assigned to supplier parties in the supplier lifecycle management process."
+semantic_vi: "mã vai trò bên SLC — mã chính cho các vai trò được gán cho các bên cung cấp trong quy trình quản lý vòng đời cung cấp."
+keywords:
+  - vai trò bên
+  - quản lý cung cấp
+  - mã
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRPRICINGELEMENTTP
 description: Slscontrpricingelementtp
+semantic_en: "sales contract pricing elements by plant — tracks pricing conditions and amounts for contract headers across plants."
+semantic_vi: "yếu tố định giá hợp đồng bán hàng theo nhà máy — theo dõi các điều kiện định giá và số tiền cho các tiêu đề hợp đồng trên các nhà máy."
+keywords:
+  - yếu tố định giá
+  - định giá
+  - nhà máy
 app_component: SD-SLS-OA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCGCNDNRECORDSCALETP_2
 description: Slsprcgcndnrecordscaletp 2
+semantic_en: "Pricing scale of condition record in sales - transactional plan — scale-based pricing terms by quantity levels."
+semantic_vi: "Thang đo giá bản ghi điều kiện bán — giá dựa trên thang đo theo mức số lượng."
+keywords:
+  - thang đo giá
+  - bản ghi giá
+  - giá bán
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

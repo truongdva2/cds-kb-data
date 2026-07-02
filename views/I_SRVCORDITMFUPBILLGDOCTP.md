@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMFUPBILLGDOCTP
 description: Srvcorditmfupbillgdoctp
+semantic_en: "Billing document references linked to individual service order items with item-level detail — tracking item-based billing."
+semantic_vi: "Tham chiếu tài liệu hóa đơn được liên kết với hạng mục đơn hàng dịch vụ riêng lẻ có chi tiết cấp độ hạng mục — theo dõi hóa đơn dựa trên hạng mục."
+keywords:
+  - hóa đơn
+  - hạng mục đơn hàng
+  - tham chiếu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

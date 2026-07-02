@@ -1,6 +1,12 @@
 ---
 name: I_SETTLMTMGMTSEMANTICCODETEXT
 description: Settlmtmgmtsemanticcodetext
+semantic_en: "settlement management semantic code text — translations and descriptions of settlement semantic codes in multiple languages."
+semantic_vi: "văn bản mã ngữ nghĩa quản lý thỏa thuận — bản dịch và mô tả các mã ngữ nghĩa thỏa thuận trong nhiều ngôn ngữ."
+keywords:
+  - bản dịch mã
+  - ngữ nghĩa thỏa thuận
+  - mô tả
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDDURATIONTP
 description: Srvcorddurationtp
+semantic_en: "Service order duration specifications with type, value and unit — defining service execution timeframes."
+semantic_vi: "Thông số kỹ thuật thời gian dịch vụ với loại, giá trị và đơn vị — xác định khung thời gian thực hiện dịch vụ."
+keywords:
+  - thời gian
+  - đơn hàng dịch vụ
+  - khung
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

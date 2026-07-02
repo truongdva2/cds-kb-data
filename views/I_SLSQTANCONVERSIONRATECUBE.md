@@ -1,6 +1,12 @@
 ---
 name: I_SLSQTANCONVERSIONRATECUBE
 description: Slsqtanconversionratecube
+semantic_en: "Sales quotation conversion rate analytical cube — quotation metrics by organization, channel, and sales employee."
+semantic_vi: "Khối phân tích tỷ lệ chuyển đổi báo giá bán — chỉ số báo giá theo tổ chức và kênh bán."
+keywords:
+  - báo giá bán
+  - tỷ lệ chuyển đổi
+  - khối phân tích
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

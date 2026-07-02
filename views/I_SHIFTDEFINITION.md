@@ -1,6 +1,12 @@
 ---
 name: I_SHIFTDEFINITION
 description: Shiftdefinition
+semantic_en: "shift definition — defines work shift schedules with start/end times, break schedules, and daily work patterns."
+semantic_vi: "định nghĩa ca làm việc — xác định lịch ca làm việc với thời gian bắt đầu/kết thúc, lịch nghỉ giải lao và các mẫu làm việc hàng ngày."
+keywords:
+  - ca làm việc
+  - lịch làm việc
+  - định nghĩa ca
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

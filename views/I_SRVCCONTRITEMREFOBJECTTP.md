@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMREFOBJECTTP
 description: Srvccontritemrefobjecttp
+semantic_en: "service contract item reference object — tracks referenced equipment, functional locations, and products for service contract line items."
+semantic_vi: "đối tượng tham chiếu mục hợp đồng dịch vụ — theo dõi thiết bị, vị trí chức năng và sản phẩm được tham chiếu cho các mục dòng hợp đồng dịch vụ."
+keywords:
+  - thiết bị hợp đồng
+  - vị trí chức năng
+  - tham chiếu
 app_component: CRM-S4-SRV-CTR-2CL
 software_component: SAPSCORE
 release_state: released

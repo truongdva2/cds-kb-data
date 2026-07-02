@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCCOSTINGVARIANTVH
 description: Slsdoccostingvariantvh
+semantic_en: "value help for costing variants — provides standard costing method options for sales document costing."
+semantic_vi: "trợ giúp giá trị cho các biến thể chi phí — cung cấp tùy chọn phương pháp chi phí tiêu chuẩn cho chi phí tài liệu bán hàng."
+keywords:
+  - biến thể chi phí
+  - phương pháp chi phí
+  - tính chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

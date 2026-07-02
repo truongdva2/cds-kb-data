@@ -1,6 +1,12 @@
 ---
 name: I_SLSCONTRACTVALIDITYPERDCAT
 description: Slscontractvalidityperdcat
+semantic_en: "sales contract validity period categories — defines classification and duration rules for contract validity periods."
+semantic_vi: "danh mục kỳ hạn hiệu lực hợp đồng bán hàng — xác định quy tắc phân loại và thời lượng cho các kỳ hạn hiệu lực hợp đồng."
+keywords:
+  - kỳ hạn hiệu lực
+  - danh mục hợp đồng
+  - thời hạn
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

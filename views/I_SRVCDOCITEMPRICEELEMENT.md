@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMPRICEELEMENT
 description: Srvcdocitempriceelement
+semantic_en: "Pricing elements for service transaction items — capturing condition details, rate values, and quantity-based calculation parameters."
+semantic_vi: "Các phần tử giá cho hạng mục giao dịch dịch vụ — ghi lại chi tiết điều kiện, giá trị tỷ lệ và các tham số tính toán dựa trên số lượng."
+keywords:
+  - giá cả
+  - hạng mục dịch vụ
+  - điều kiện
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMLONGTEXT
 description: Srvcdocitemlongtext
+semantic_en: "Long text entries for service transaction items with mime type support — enabling rich narrative documentation across languages."
+semantic_vi: "Mục nhập văn bản dài cho hạng mục giao dịch dịch vụ với hỗ trợ loại mime — cho phép tài liệu tường thuật phong phú trên các ngôn ngữ."
+keywords:
+  - văn bản dài
+  - tài liệu
+  - hạng mục dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDFUPPURREQNTP
 description: Srvcordfuppurreqntp
+semantic_en: "Purchase requisition references created as follow-up to service orders — enabling material sourcing from service work."
+semantic_vi: "Tham chiếu yêu cầu mua hàng được tạo như một hành động tiếp theo sau đơn hàng dịch vụ — cho phép tìm nguồn cung cấp vật liệu từ công việc dịch vụ."
+keywords:
+  - yêu cầu mua
+  - đơn hàng dịch vụ
+  - vật liệu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

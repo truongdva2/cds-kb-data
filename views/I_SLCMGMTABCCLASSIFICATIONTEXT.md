@@ -1,6 +1,12 @@
 ---
 name: I_SLCMGMTABCCLASSIFICATIONTEXT
 description: Slcmgmtabcclassificationtext
+semantic_en: "SLC management ABC classification text — multilingual names of ABC supplier classifications."
+semantic_vi: "văn bản phân loại ABC quản lý SLC — tên đa ngôn ngữ của các phân loại cung cấp ABC."
+keywords:
+  - bản dịch phân loại
+  - phân loại ABC
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

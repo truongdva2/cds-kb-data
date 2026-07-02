@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFPARTNERADDRESSTP
 description: Srvcconfpartneraddresstp
+semantic_en: "service confirmation partner address — maintains contact address details for business partners associated with service confirmations."
+semantic_vi: "địa chỉ đối tác xác nhận dịch vụ — duy trì chi tiết địa chỉ liên lạc cho các đối tác kinh doanh liên kết với các xác nhận dịch vụ."
+keywords:
+  - địa chỉ đối tác
+  - liên hệ
+  - xác nhận dịch vụ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

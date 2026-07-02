@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITMFUPBILLGDOCTP
 description: Srvcconfitmfupbillgdoctp
+semantic_en: "service confirmation item follow-up billing document — links service confirmation line items to subsequent billing document references."
+semantic_vi: "tài liệu hóa đơn theo dõi mục xác nhận dịch vụ — liên kết các mục dòng xác nhận dịch vụ với các tham chiếu tài liệu hóa đơn sau này."
+keywords:
+  - hóa đơn dịch vụ
+  - theo dõi
+  - tài liệu
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

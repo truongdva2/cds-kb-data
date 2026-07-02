@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCRELFORBILLGSTSTEXT
 description: Srvcdocrelforbillgststext
+semantic_en: "Localized descriptions for service transaction billing release status — enabling language-aware billing status communication."
+semantic_vi: "Mô tả được địa phương hóa cho trạng thái phát hành hóa đơn của giao dịch dịch vụ — cho phép giao tiếp trạng thái hóa đơn nhận thức về ngôn ngữ."
+keywords:
+  - hóa đơn
+  - phát hành
+  - mô tả
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

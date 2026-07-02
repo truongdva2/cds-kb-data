@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCITEMRELATIONSHIPS
 description: Srvcdocitemrelationships
+semantic_en: "Relationship definitions linking service transaction items through typed connections — maintaining item hierarchy and dependencies."
+semantic_vi: "Định nghĩa mối quan hệ liên kết hạng mục giao dịch dịch vụ thông qua các kết nối được gõ — duy trì hệ thống phân cấp hạng mục và phụ thuộc."
+keywords:
+  - quan hệ hạng mục
+  - phụ thuộc
+  - liên kết
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

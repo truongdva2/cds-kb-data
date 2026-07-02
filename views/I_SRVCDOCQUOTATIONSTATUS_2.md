@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCQUOTATIONSTATUS_2
 description: Srvcdocquotationstatus 2
+semantic_en: "Domain values indicating whether a service transaction is a quotation — enabling quotation vs. order differentiation."
+semantic_vi: "Giá trị miền cho biết liệu giao dịch dịch vụ có phải là báo giá — cho phép phân biệt báo giá và đơn hàng."
+keywords:
+  - báo giá
+  - trạng thái
+  - giao dịch dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

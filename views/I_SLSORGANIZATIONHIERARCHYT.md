@@ -1,6 +1,12 @@
 ---
 name: I_SLSORGANIZATIONHIERARCHYT
 description: Slsorganizationhierarchyt
+semantic_en: "Sales organization hierarchy text master — hierarchy name and language-specific text descriptions."
+semantic_vi: "Dữ liệu bản mô tả cấu trúc tổ chức bán hàng — tên cấu trúc phân cấp và mô tả bằng ngôn ngữ khác nhau."
+keywords:
+  - cấu trúc tổ chức bán
+  - mô tả bán hàng
+  - tổ chức bán
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

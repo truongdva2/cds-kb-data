@@ -1,6 +1,12 @@
 ---
 name: I_SLSMATLDETERMINATIONRECORD
 description: Slsmatldeterminationrecord
+semantic_en: "material determination condition records — stores material substitution rules and reasons for sales and distribution scenarios."
+semantic_vi: "bản ghi điều kiện xác định vật liệu — lưu trữ các quy tắc thay thế vật liệu và lý do cho các kịch bản bán hàng và phân phối."
+keywords:
+  - xác định vật liệu
+  - thay thế vật liệu
+  - điều kiện giá
 app_component: SD-MD-MM-DET-2CL
 software_component: SAPSCORE
 release_state: released

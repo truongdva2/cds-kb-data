@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRCELEMENTACCESSLEVELTEXT
 description: Slsprcelementaccessleveltext
+semantic_en: "Price element access level text — language-specific labels for pricing condition access restrictions."
+semantic_vi: "Nhãn mức truy cập phần tử giá — mô tả mức quyền truy cập giá theo ngôn ngữ."
+keywords:
+  - mức truy cập
+  - giá cả
+  - phần tử giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

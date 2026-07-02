@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMCONFRELEVANCETEXT
 description: Srvcorditmconfrelevancetext
+semantic_en: "Localized descriptions of confirmation relevance for service order items — communicating confirmation requirements in user language."
+semantic_vi: "Mô tả được địa phương hóa của tính liên quan xác nhận cho hạng mục đơn hàng dịch vụ — giao tiếp yêu cầu xác nhận trong ngôn ngữ người dùng."
+keywords:
+  - xác nhận
+  - mô tả
+  - hạng mục đơn hàng
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

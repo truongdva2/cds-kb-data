@@ -1,6 +1,12 @@
 ---
 name: I_SLSDOCPAYMENTPLANITEMDETAILS
 description: Slsdocpaymentplanitemdetails
+semantic_en: "sales document payment plan item details — tracks payment plan items with electronic payment terms for sales orders."
+semantic_vi: "chi tiết mục kế hoạch thanh toán tài liệu bán hàng — theo dõi các mục kế hoạch thanh toán với các điều khoản thanh toán điện tử cho đơn hàng bán hàng."
+keywords:
+  - kế hoạch thanh toán
+  - thanh toán điện tử
+  - mục thanh toán
 app_component: SD-BIL-IV-PC-2CL
 software_component: SAPSCORE
 release_state: released

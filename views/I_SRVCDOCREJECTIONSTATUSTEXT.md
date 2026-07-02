@@ -1,6 +1,12 @@
 ---
 name: I_SRVCDOCREJECTIONSTATUSTEXT
 description: Srvcdocrejectionstatustext
+semantic_en: "Localized descriptions for service transaction rejection status — supporting multilingual rejection state representation."
+semantic_vi: "Mô tả được địa phương hóa cho trạng thái từ chối giao dịch dịch vụ — hỗ trợ biểu diễn trạng thái từ chối đa ngôn ngữ."
+keywords:
+  - từ chối
+  - trạng thái
+  - mô tả
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONFITEMREFOBJECTTP
 description: Srvcconfitemrefobjecttp
+semantic_en: "service confirmation item reference object — tracks referenced equipment, functional locations, or products associated with service line items."
+semantic_vi: "đối tượng tham chiếu mục xác nhận dịch vụ — theo dõi thiết bị, vị trí chức năng hoặc sản phẩm được tham chiếu liên kết với các mục dịch vụ."
+keywords:
+  - thiết bị
+  - vị trí chức năng
+  - sản phẩm dịch vụ
 app_component: CRM-S4-SRV-SCO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SPONSOREDCLASSCORE
 description: Sponsoredclasscore
+semantic_en: "Sponsored class master data — sponsored class definitions with type, billing status, and authorization group."
+semantic_vi: "Dữ liệu chính lớp được tài trợ — định nghĩa lớp tài trợ với loại và trạng thái."
+keywords:
+  - lớp tài trợ
+  - tài trợ
+  - phân lớp
 app_component: PSM-GM-GTE-MD
 software_component: SAPSCORE
 release_state: released

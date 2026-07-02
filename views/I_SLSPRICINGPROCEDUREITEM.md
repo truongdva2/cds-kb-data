@@ -1,6 +1,12 @@
 ---
 name: I_SLSPRICINGPROCEDUREITEM
 description: Slspricingprocedureitem
+semantic_en: "Pricing procedure item in sales — detailed steps within pricing procedures defining condition types and calculation order."
+semantic_vi: "Mục thủ tục giá bán hàng — các bước giá chi tiết với loại điều kiện và thứ tự tính toán."
+keywords:
+  - mục thủ tục giá
+  - thủ tục giá
+  - giá bán
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

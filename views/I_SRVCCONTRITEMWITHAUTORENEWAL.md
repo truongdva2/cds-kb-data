@@ -1,6 +1,12 @@
 ---
 name: I_SRVCCONTRITEMWITHAUTORENEWAL
 description: Srvccontritemwithautorenewal
+semantic_en: "service contract items with automatic renewal — identifies service contract line items configured for automatic renewal with sales organization and team details."
+semantic_vi: "các mục hợp đồng dịch vụ với gia hạn tự động — xác định các mục dòng hợp đồng dịch vụ được định cấu hình để gia hạn tự động với chi tiết tổ chức bán hàng và nhóm."
+keywords:
+  - gia hạn tự động
+  - mục hợp đồng
+  - đội bán hàng
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released
