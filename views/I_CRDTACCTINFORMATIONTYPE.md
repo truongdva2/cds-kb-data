@@ -1,6 +1,12 @@
 ---
 name: I_CRDTACCTINFORMATIONTYPE
 description: Crdtacctinformationtype
+semantic_en: "Credit account information type — types of information collected for credit account within categories."
+semantic_vi: "Loại thông tin tài khoản tín dụng — các loại thông tin được thu thập trong các danh mục."
+keywords:
+  - loại thông tin
+  - quản lý tín dụng
+  - danh mục
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CRDTMEMOREQITMPRCGELMNTTP
 description: Crdtmemoreqitmprcgelmnttp
+semantic_en: "credit memo request item pricing element with procedure step, counter, and condition details — captures pricing calculation attributes"
+semantic_vi: "phần tử tính giá hàng hoàn trả tín dụng theo mục yêu cầu — bao gồm bước thủ tục, bộ đếm, và chi tiết điều kiện tính giá"
+keywords:
+  - phần tử tính giá
+  - hoàn trả tín dụng
+  - điều kiện tính giá
+  - phí lệ phí
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

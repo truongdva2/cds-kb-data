@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERACTIVITYTYPE
 description: Cost CenterACTIVITYTYPE
+semantic_en: "cost center activity type — master data for activity types within cost centers with quantity/output units and category classifications."
+semantic_vi: "loại hoạt động trung tâm chi phí — dữ liệu chính cho loại hoạt động trong trung tâm chi phí với đơn vị số lượng/đầu ra và phân loại danh mục."
+keywords:
+  - loại hoạt động
+  - trung tâm chi phí
+  - đơn vị lượng
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

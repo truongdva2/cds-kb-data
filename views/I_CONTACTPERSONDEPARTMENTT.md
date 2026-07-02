@@ -1,6 +1,12 @@
 ---
 name: I_CONTACTPERSONDEPARTMENTT
 description: Contactpersondepartmentt
+semantic_en: "contact person department text view — multilingual department descriptions"
+semantic_vi: "chế độ xem văn bản bộ phận người liên hệ — mô tả bộ phận đa ngôn ngữ"
+keywords:
+  - bộ phận
+  - mô tả
+  - ngôn ngữ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

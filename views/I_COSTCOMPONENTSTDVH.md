@@ -1,6 +1,12 @@
 ---
 name: I_COSTCOMPONENTSTDVH
 description: Costcomponentstdvh
+semantic_en: "Cost component value help — lists cost component structure, component ID, and name for selection."
+semantic_vi: "Danh sách giúp chọn thành phần chi phí — hiển thị cấu trúc, mã định danh và tên gọi."
+keywords:
+  - thành phần chi phí
+  - value help
+  - cấu trúc chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

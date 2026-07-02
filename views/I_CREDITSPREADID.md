@@ -1,6 +1,12 @@
 ---
 name: I_CREDITSPREADID
 description: Creditspreadid
+semantic_en: "credit spread definition with description — identifies pricing spreads applicable to credit products"
+semantic_vi: "định nghĩa độ trải rủi ro tín dụng — xác định các chênh lệch giá áp dụng cho sản phẩm tín dụng"
+keywords:
+  - độ trải tín dụng
+  - định nghĩa
+  - giá
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

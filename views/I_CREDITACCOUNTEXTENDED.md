@@ -1,6 +1,12 @@
 ---
 name: I_CREDITACCOUNTEXTENDED
 description: Creditaccountextended
+semantic_en: "credit account extended view with calculated and requested limit amounts — shows comprehensive bp credit exposure and limits"
+semantic_vi: "phiên bản mở rộng tài khoản tín dụng với hạn mức tính toán và yêu cầu — hiển thị rủi ro tín dụng toàn diện của đối tác"
+keywords:
+  - hạn mức tín dụng
+  - rủi ro tín dụng
+  - tài khoản tín dụng mở rộng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

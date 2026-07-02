@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYHIERARCHY
 description: Countryhierarchy
+semantic_en: "Country/region hierarchy definition — hierarchical structure of countries/regions with validity dates and change tracking."
+semantic_vi: "Định nghĩa hệ thống phân cấp quốc gia/khu vực — cấu trúc phân cấp với thông tin thay đổi."
+keywords:
+  - hệ thống phân cấp quốc gia
+  - quốc gia
+  - khu vực
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

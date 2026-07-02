@@ -1,6 +1,12 @@
 ---
 name: I_CONFIRMATIONGROUP
 description: Confirmationgroup
+semantic_en: "confirmation group master data — grouping identifier for order confirmations"
+semantic_vi: "dữ liệu chủ nhóm xác nhận — mã định danh nhóm cho xác nhận đơn"
+keywords:
+  - nhóm xác nhận
+  - định danh
+  - mã
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

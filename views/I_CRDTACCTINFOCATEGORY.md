@@ -1,6 +1,12 @@
 ---
 name: I_CRDTACCTINFOCATEGORY
 description: Crdtacctinfocategory
+semantic_en: "Credit management account information category — codes for categorizing credit account information types."
+semantic_vi: "Danh mục thông tin tài khoản quản lý tín dụng — mã để phân loại các loại thông tin."
+keywords:
+  - quản lý tín dụng
+  - danh mục thông tin
+  - tài khoản tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

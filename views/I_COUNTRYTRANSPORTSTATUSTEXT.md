@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYTRANSPORTSTATUSTEXT
 description: Countrytransportstatustext
+semantic_en: "Country/region transport status text — status name by language."
+semantic_vi: "Tên gọi trạng thái vận chuyển quốc gia theo ngôn ngữ."
+keywords:
+  - trạng thái vận chuyển quốc gia
+  - tên trạng thái
+  - ngôn ngữ
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

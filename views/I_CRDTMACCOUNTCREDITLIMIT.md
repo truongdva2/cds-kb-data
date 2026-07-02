@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMACCOUNTCREDITLIMIT
 description: Crdtmaccountcreditlimit
+semantic_en: "Credit management account credit limit — total credit limit, customer limit, secured limit, insured limit, and temporary increases by credit segment."
+semantic_vi: "Hạn mức tín dụng tài khoản quản lý tín dụng — hạn mức tín dụng, hạn mức đã bảo đảm, hạn mức bảo hiểm theo phân khúc tín dụng."
+keywords:
+  - hạn mức tín dụng
+  - quản lý tín dụng
+  - phân khúc tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

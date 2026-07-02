@@ -1,6 +1,11 @@
 ---
 name: I_COUNTRYTRANSPORTSTATUS
 description: Countrytransportstatus
+semantic_en: "Country/region transport status — status code indicating country transport or availability state."
+semantic_vi: "Trạng thái vận chuyển quốc gia — mã trạng thái vận chuyển hoặc khả dụng."
+keywords:
+  - trạng thái vận chuyển quốc gia
+  - mã trạng thái
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

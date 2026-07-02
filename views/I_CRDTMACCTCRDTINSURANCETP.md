@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMACCTCRDTINSURANCETP
 description: Crdtmacctcrdtinsurancetp
+semantic_en: "Credit management account credit insurance transactional projection — credit insurance documents with validity dates and exception flags for credit check."
+semantic_vi: "Hình chiếu giao dịch bảo hiểm tín dụng tài khoản quản lý tín dụng — tài liệu bảo hiểm tín dụng với ngày hiệu lực."
+keywords:
+  - bảo hiểm tín dụng
+  - quản lý tín dụng
+  - hình chiếu giao dịch
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

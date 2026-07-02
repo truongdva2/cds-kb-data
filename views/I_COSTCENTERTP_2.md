@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERTP_2
 description: Cost CenterTP 2
+semantic_en: "Cost center transactional projection — includes editing-enabled fields for cost center data with category and blocking flags."
+semantic_vi: "Hình chiếu giao dịch tâm chi phí — bao gồm các trường có thể chỉnh sửa, danh mục, cờ khóa chi phí."
+keywords:
+  - hình chiếu giao dịch
+  - khóa chi phí
+  - danh mục tâm chi phí
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

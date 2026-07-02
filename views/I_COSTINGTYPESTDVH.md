@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGTYPESTDVH
 description: Costingtypestdvh
+semantic_en: "Costing type value help — provides costing type and name for selection."
+semantic_vi: "Danh sách giúp chọn loại định giá chi phí — hiển thị mã và tên gọi."
+keywords:
+  - loại định giá
+  - value help
+  - định giá chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

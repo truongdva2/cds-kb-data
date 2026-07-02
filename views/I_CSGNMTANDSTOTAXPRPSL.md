@@ -1,6 +1,13 @@
 ---
 name: I_CSGNMTANDSTOTAXPRPSL
 description: Csgnmtandstotaxprpsl
+semantic_en: "consignment and sto tax proposal posting header with proposal identifier — records tax treatment determination for material movements"
+semantic_vi: "đầu mục đề xuất đăng ký thuế ký gửi và chuyển giao so le — ghi nhận xác định xử lý thuế cho chuyển động hàng hóa"
+keywords:
+  - đề xuất thuế
+  - ký gửi
+  - chuyển giao so le
+  - đăng ký
 app_component: FI-TXL-TGM
 software_component: SAPSCORE
 release_state: released

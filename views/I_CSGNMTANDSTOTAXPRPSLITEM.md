@@ -1,6 +1,13 @@
 ---
 name: I_CSGNMTANDSTOTAXPRPSLITEM
 description: Csgnmtandstotaxprpslitem
+semantic_en: "consignment and sto tax proposal posting line item with batch and quantity — records tax proposal details by material movement line"
+semantic_vi: "mục dòng đề xuất đăng ký thuế ký gửi và chuyển giao so le — ghi nhận chi tiết đề xuất thuế theo dòng chuyển động hàng hóa"
+keywords:
+  - mục đề xuất thuế
+  - ký gửi
+  - số lô
+  - số lượng
 app_component: FI-TXL-TGM
 software_component: SAPSCORE
 release_state: released

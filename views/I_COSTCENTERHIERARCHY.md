@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERHIERARCHY
 description: Cost CenterHIERARCHY
+semantic_en: "cost center hierarchy — master data for cost center hierarchies (organization structures) with validity dates and modification tracking."
+semantic_vi: "phân cấp trung tâm chi phí — dữ liệu chính cho phân cấp trung tâm chi phí (cấu trúc tổ chức) với ngày hiệu lực và theo dõi sửa đổi."
+keywords:
+  - phân cấp trung tâm
+  - tổ chức
+  - chi phí
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

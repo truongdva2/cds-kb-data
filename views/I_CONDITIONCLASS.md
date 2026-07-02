@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCLASS
 description: Conditionclass
+semantic_en: "price condition domain — condition class codes"
+semantic_vi: "miền điều kiện giá — mã lớp điều kiện"
+keywords:
+  - lớp điều kiện
+  - mã
+  - phân loại
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

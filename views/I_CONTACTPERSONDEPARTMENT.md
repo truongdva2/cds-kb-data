@@ -1,6 +1,12 @@
 ---
 name: I_CONTACTPERSONDEPARTMENT
 description: Contactpersondepartment
+semantic_en: "value help domain — contact person department codes"
+semantic_vi: "miền trợ giúp giá trị — mã bộ phận người liên hệ"
+keywords:
+  - bộ phận
+  - người liên hệ
+  - mã
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

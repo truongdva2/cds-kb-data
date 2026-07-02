@@ -1,6 +1,12 @@
 ---
 name: I_CONFIRMATIONRECORDTYPETEXT
 description: Confirmationrecordtypetext
+semantic_en: "confirmation record type text view — multilingual record type descriptions"
+semantic_vi: "chế độ xem văn bản loại bản ghi xác nhận — mô tả loại bản ghi đa ngôn ngữ"
+keywords:
+  - loại bản ghi
+  - mô tả
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

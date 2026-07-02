@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCATEGORYTEXT
 description: Conditioncategorytext
+semantic_en: "condition category text view — multilingual category names"
+semantic_vi: "chế độ xem văn bản danh mục điều kiện — tên danh mục đa ngôn ngữ"
+keywords:
+  - danh mục
+  - tên
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

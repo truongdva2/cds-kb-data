@@ -1,6 +1,13 @@
 ---
 name: I_CRDTMGMTBPCOLLATERALTP
 description: Crdtmgmtbpcollateraltp
+semantic_en: "credit management business partner collateral document with validity dates and exception flags — tracks pledged assets for credit worthiness"
+semantic_vi: "tài liệu tài sản đảm bảo của đối tác kinh doanh quản lý tín dụng — ghi nhận giá trị tài sản thế chấp cho xác định tín dụng"
+keywords:
+  - tài sản đảm bảo
+  - quản lý tín dụng
+  - hạn hiệu lực
+  - đối tác kinh doanh
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

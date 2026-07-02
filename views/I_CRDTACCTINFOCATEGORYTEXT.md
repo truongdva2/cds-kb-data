@@ -1,6 +1,12 @@
 ---
 name: I_CRDTACCTINFOCATEGORYTEXT
 description: Crdtacctinfocategorytext
+semantic_en: "Credit account information category text — category name by language."
+semantic_vi: "Tên gọi danh mục thông tin tài khoản tín dụng theo ngôn ngữ."
+keywords:
+  - danh mục thông tin
+  - quản lý tín dụng
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

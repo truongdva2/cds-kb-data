@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTCATEGORYTEXT
 description: Contractaccountcategorytext
+semantic_en: "contract account category text — localized descriptions of contract account categories by language and application area."
+semantic_vi: "tên danh mục tài khoản hợp đồng — mô tả danh mục tài khoản hợp đồng đã được dịch theo ngôn ngữ và vùng ứng dụng."
+keywords:
+  - danh mục tài khoản
+  - tên danh mục
+  - mô tả ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

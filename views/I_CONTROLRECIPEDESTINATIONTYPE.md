@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLRECIPEDESTINATIONTYPE
 description: Controlrecipedestinationtype
+semantic_en: "control recipe destination type — domain values for destination types used in control recipe routing (process step, operation, phase)."
+semantic_vi: "loại đích công thức kiểm soát — các giá trị miền cho loại đích được sử dụng trong định tuyến công thức kiểm soát (bước quy trình, phép toán, giai đoạn)."
+keywords:
+  - loại đích
+  - công thức kiểm soát
+  - loại giai đoạn
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

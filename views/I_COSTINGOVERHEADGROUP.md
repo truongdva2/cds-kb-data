@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGOVERHEADGROUP
 description: Costingoverheadgroup
+semantic_en: "Costing overhead group — overhead group code by valuation area."
+semantic_vi: "Nhóm chi phí chung gồm chỉ định mã chi phí chung theo lĩnh vực định giá."
+keywords:
+  - nhóm chi phí chung
+  - mã chi phí
+  - lĩnh vực định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

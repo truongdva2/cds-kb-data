@@ -1,6 +1,12 @@
 ---
 name: I_CRDTACCTINFORMATIONTYPETEXT
 description: Crdtacctinformationtypetext
+semantic_en: "Credit account information type text — information type name by language."
+semantic_vi: "Tên gọi loại thông tin tài khoản tín dụng theo ngôn ngữ."
+keywords:
+  - loại thông tin
+  - quản lý tín dụng
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

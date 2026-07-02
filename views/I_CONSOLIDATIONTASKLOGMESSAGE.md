@@ -1,6 +1,12 @@
 ---
 name: I_CONSOLIDATIONTASKLOGMESSAGE
 description: ConsolidationIONTASKLOGMESSAGE
+semantic_en: "consolidation task log messages — system messages and logs for consolidation task processing"
+semantic_vi: "tin nhắn nhật ký nhiệm vụ hợp nhất — thông báo hệ thống và nhật ký cho xử lý nhiệm vụ hợp nhất"
+keywords:
+  - nhật ký thông báo
+  - hợp nhất
+  - hệ thống
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERBUDGETPLNGCATEGORY
 description: Cost CenterBUDGETPLNGCATEGORY
+semantic_en: "cost center budget planning category — planning categories for budget control constraints in cost center planning."
+semantic_vi: "danh mục lập kế hoạch ngân sách trung tâm chi phí — các danh mục lập kế hoạch cho ràng buộc kiểm soát ngân sách trong lập kế hoạch trung tâm chi phí."
+keywords:
+  - lập kế hoạch ngân sách
+  - danh mục
+  - trung tâm chi phí
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

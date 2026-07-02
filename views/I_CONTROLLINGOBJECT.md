@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGOBJECT
 description: Controllingobject
+semantic_en: "controlling object — master data identifying controlling objects (orders, cost centers, cost elements, projects, WBS) and their relationships in controlling areas."
+semantic_vi: "đối tượng kiểm soát — dữ liệu chính xác định các đối tượng kiểm soát (đơn hàng, trung tâm chi phí, yếu tố chi phí, dự án, WBS) và quan hệ của chúng trong vùng kiểm soát."
+keywords:
+  - đối tượng kiểm soát
+  - trung tâm chi phí
+  - dự án
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

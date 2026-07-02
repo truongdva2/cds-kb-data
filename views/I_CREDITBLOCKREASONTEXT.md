@@ -1,6 +1,12 @@
 ---
 name: I_CREDITBLOCKREASONTEXT
 description: Creditblockreasontext
+semantic_en: "credit account block reason description in multiple languages — provides localized explanations for credit blocks"
+semantic_vi: "mô tả lý do chặn tài khoản tín dụng theo ngôn ngữ — cung cấp giải thích lý do chặn đa ngôn ngữ"
+keywords:
+  - lý do chặn
+  - mô tả
+  - tài khoản tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

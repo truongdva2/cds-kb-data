@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERACTIVITYTYPECAT
 description: Cost CenterACTIVITYTYPECAT
+semantic_en: "cost center activity type category — domain values for activity type categories (fixed, variable) in cost center management."
+semantic_vi: "danh mục loại hoạt động trung tâm chi phí — các giá trị miền cho danh mục loại hoạt động (cố định, biến đổi) trong quản lý trung tâm chi phí."
+keywords:
+  - danh mục hoạt động
+  - trung tâm chi phí
+  - loại hoạt động
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

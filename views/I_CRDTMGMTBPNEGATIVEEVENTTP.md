@@ -1,6 +1,13 @@
 ---
 name: I_CRDTMGMTBPNEGATIVEEVENTTP
 description: Crdtmgmtbpnegativeeventtp
+semantic_en: "credit management business partner negative event record with validity dates — captures adverse credit events affecting bp rating"
+semantic_vi: "bản ghi sự kiện tiêu cực của đối tác kinh doanh quản lý tín dụng — ghi nhận các sự kiện bất lợi ảnh hưởng đến xếp hạng"
+keywords:
+  - sự kiện tiêu cực
+  - quản lý tín dụng
+  - rủi ro tín dụng
+  - đối tác kinh doanh
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

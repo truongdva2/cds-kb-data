@@ -1,6 +1,11 @@
 ---
 name: I_COUNTRYHIERARCHYTEXT
 description: Countryhierarchytext
+semantic_en: "Country/region hierarchy text — hierarchy name by language."
+semantic_vi: "Tên gọi hệ thống phân cấp quốc gia theo ngôn ngữ."
+keywords:
+  - tên phân cấp quốc gia
+  - ngôn ngữ
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

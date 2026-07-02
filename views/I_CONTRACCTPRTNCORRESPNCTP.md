@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTPRTNCORRESPNCTP
 description: Contracctprtncorrespnctp
+semantic_en: "contract account partner correspondence — correspondence routing for contract account partners"
+semantic_vi: "thư từ đối tác tài khoản hợp đồng — định tuyến thư từ cho đối tác tài khoản hợp đồng"
+keywords:
+  - thư từ
+  - đối tác tài khoản
+  - định tuyến
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

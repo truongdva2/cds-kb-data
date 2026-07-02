@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGVERSIONTEXT
 description: Costingversiontext
+semantic_en: "Costing version text — version name by language."
+semantic_vi: "Tên gọi phiên bản định giá chi phí theo ngôn ng語ữ."
+keywords:
+  - phiên bản định giá
+  - tên gọi
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

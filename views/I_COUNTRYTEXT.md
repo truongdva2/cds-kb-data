@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYTEXT
 description: Countrytext
+semantic_en: "Country/region text master — country names, nationality names by language."
+semantic_vi: "Dữ liệu mô tả quốc gia theo ngôn ngữ — tên quốc gia, tên quốc tịch."
+keywords:
+  - tên quốc gia
+  - quốc tịch
+  - ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

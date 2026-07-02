@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONAMOUNTLIMITEXCEEDED
 description: Conditionamountlimitexceeded
+semantic_en: "price condition domain — amount limit exceeded flag"
+semantic_vi: "miền điều kiện giá — cờ vượt quá giới hạn số tiền"
+keywords:
+  - giới hạn số tiền
+  - điều kiện giá
+  - vượt quá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

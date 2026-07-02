@@ -1,6 +1,12 @@
 ---
 name: I_CTRLPOSTGEXTWHSEMGMTSYSTTXT
 description: Ctrlpostgextwhsemgmtsysttxt
+semantic_en: "control posting for external warehouse management system description — provides localized names for posting control codes"
+semantic_vi: "mô tả kiểm soát đăng ký cho hệ thống quản lý kho ngoài — cung cấp tên mã kiểm soát đa ngôn ngữ"
+keywords:
+  - kiểm soát đăng ký
+  - quản lý kho ngoài
+  - mô tả
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMEMOREQUESTITEMTEXTTP
 description: Creditmemorequestitemtexttp
+semantic_en: "credit memo request item text in multiple languages — stores localized long text for credit memo items"
+semantic_vi: "văn bản mục yêu cầu hoàn trả tín dụng theo ngôn ngữ — lưu trữ văn bản dài đa ngôn ngữ cho mục hoàn trả"
+keywords:
+  - văn bản mục
+  - hoàn trả tín dụng
+  - ngôn ngữ
+  - ghi chú
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

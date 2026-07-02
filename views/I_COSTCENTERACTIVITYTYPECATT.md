@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERACTIVITYTYPECATT
 description: Cost CenterACTIVITYTYPECATT
+semantic_en: "cost center activity type category text — localized names of activity type category codes for controlling module displays."
+semantic_vi: "tên danh mục loại hoạt động trung tâm chi phí — tên mã danh mục loại hoạt động đã được dịch cho hiển thị mô-đun kiểm soát."
+keywords:
+  - danh mục hoạt động
+  - tên danh mục
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

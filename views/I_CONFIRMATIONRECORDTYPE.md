@@ -1,6 +1,12 @@
 ---
 name: I_CONFIRMATIONRECORDTYPE
 description: Confirmationrecordtype
+semantic_en: "order confirmation domain — record types for confirmation entries"
+semantic_vi: "miền xác nhận đơn — loại bản ghi cho mục nhập xác nhận"
+keywords:
+  - loại bản ghi
+  - xác nhận
+  - mã
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

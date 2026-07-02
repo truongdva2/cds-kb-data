@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERCATEGORYTEXT
 description: Cost CenterCATEGORYTEXT
+semantic_en: "cost center category text — localized names of cost center categories for user-facing controlling interfaces."
+semantic_vi: "tên danh mục trung tâm chi phí — tên danh mục trung tâm chi phí đã được dịch cho giao diện kiểm soát đối mặt với người dùng."
+keywords:
+  - danh mục trung tâm
+  - tên danh mục
+  - mô tả
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONTACTPERSONFUNCTIONT
 description: Contactpersonfunctiont
+semantic_en: "contact person function text view — multilingual function descriptions"
+semantic_vi: "chế độ xem văn bản chức năng người liên hệ — mô tả chức năng đa ngôn ngữ"
+keywords:
+  - chức năng
+  - mô tả
+  - ngôn ngữ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

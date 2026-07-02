@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCATEGORY
 description: Conditioncategory
+semantic_en: "price condition domain — condition category classification"
+semantic_vi: "miền điều kiện giá — phân loại danh mục điều kiện"
+keywords:
+  - danh mục điều kiện
+  - phân loại
+  - giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

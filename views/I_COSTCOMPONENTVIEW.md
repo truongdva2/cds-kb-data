@@ -1,6 +1,12 @@
 ---
 name: I_COSTCOMPONENTVIEW
 description: Costcomponentview
+semantic_en: "Cost component view configuration — indicates which cost components apply to sales, COGS, inventory valuation, and tax purposes."
+semantic_vi: "Cấu hình xem thành phần chi phí — chỉ định ứng dụng cho bán hàng, giá vốn, định giá hàng tồn kho."
+keywords:
+  - thành phần chi phí
+  - xem chi phí
+  - định giá hàng tồn kho
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONFIRMATIONAPPLORIGINTEXT
 description: Confirmationapplorigintext
+semantic_en: "confirmation application origin text view — multilingual origin descriptions"
+semantic_vi: "chế độ xem văn bản nguồn gốc ứng dụng xác nhận — mô tả nguồn gốc đa ngôn ngữ"
+keywords:
+  - nguồn gốc
+  - xác nhận
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

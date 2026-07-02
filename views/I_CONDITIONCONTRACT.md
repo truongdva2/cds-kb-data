@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCONTRACT
 description: Conditioncontract
+semantic_en: "condition contracts — supplier and customer agreements with validity dates and contract types"
+semantic_vi: "hợp đồng điều kiện — thỏa thuận nhà cung cấp và khách hàng với ngày hiệu lực và loại hợp đồng"
+keywords:
+  - hợp đồng điều kiện
+  - nhà cung cấp
+  - khách hàng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQPRCGELMNT
 description: Creditmemoreqprcgelmnt
+semantic_en: "credit memo request header-level pricing condition with rate and base amount — captures pricing elements at request level"
+semantic_vi: "điều kiện tính giá cấp đầu đơn yêu cầu hoàn trả tín dụng — ghi nhận phần tử tính giá ở cấp yêu cầu"
+keywords:
+  - tính giá hoàn trả
+  - yêu cầu hoàn trả
+  - điều kiện tính giá
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

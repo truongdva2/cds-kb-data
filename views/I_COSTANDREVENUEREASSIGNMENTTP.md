@@ -1,6 +1,12 @@
 ---
 name: I_COSTANDREVENUEREASSIGNMENTTP
 description: Costandrevenuereassignmenttp
+semantic_en: "cost and revenue reassignment transactional posting — TP view capturing costs/revenues transferred between documents with accounting metadata and fiscal period."
+semantic_vi: "ghi sổ giao dịch tái gán chi phí và doanh thu — xem TP ghi lại chi phí/doanh thu được chuyển giao giữa các tài liệu với siêu dữ liệu kế toán và kỳ tài chính."
+keywords:
+  - tái gán chi phí
+  - doanh thu
+  - giao dịch
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

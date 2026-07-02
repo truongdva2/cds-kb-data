@@ -1,6 +1,12 @@
 ---
 name: I_CONTACTPERSON
 description: Contactperson
+semantic_en: "contact persons — customer and supplier contacts with name, department, and function information"
+semantic_vi: "người liên hệ — liên hệ khách hàng và nhà cung cấp có thông tin tên, bộ phận và chức năng"
+keywords:
+  - người liên hệ
+  - khách hàng
+  - nhà cung cấp
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

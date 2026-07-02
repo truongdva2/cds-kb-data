@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGVARIANTSTDVH
 description: Costingvariantstdvh
+semantic_en: "Costing variant value help — provides variant code, name, and associated valuation variant and costing type."
+semantic_vi: "Danh sách giúp chọn biến thể định giá — hiển thị mã, tên, biến thể định giá, loại định giá."
+keywords:
+  - biến thể định giá
+  - value help
+  - loại định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

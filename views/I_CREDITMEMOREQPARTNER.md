@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMEMOREQPARTNER
 description: Creditmemoreqpartner
+semantic_en: "credit memo request header-level partner with contact and address — assigns parties to credit memo request"
+semantic_vi: "đối tác cấp đầu đơn yêu cầu hoàn trả tín dụng — phân công các bên cho yêu cầu hoàn trả"
+keywords:
+  - đối tác hoàn trả
+  - tín dụng
+  - yêu cầu
+  - liên hệ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

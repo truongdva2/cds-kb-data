@@ -1,6 +1,12 @@
 ---
 name: I_COSTANALYSISRESOURCETEXT
 description: Costanalysisresourcetext
+semantic_en: "cost analysis resource text — localized names and descriptions of cost analysis resources for business use."
+semantic_vi: "tên nguồn lực phân tích chi phí — tên và mô tả của các nguồn lực phân tích chi phí đã được dịch để sử dụng kinh doanh."
+keywords:
+  - phân tích chi phí
+  - tên nguồn lực
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

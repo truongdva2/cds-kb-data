@@ -1,6 +1,12 @@
 ---
 name: I_CRREASSGMTRCVRPRFTBLTYSGMTTP
 description: Crreassgmtrcvrprftbltysgmttp
+semantic_en: "cost and revenue reassignment receiver profitability segment record — tracks profit center allocation from source cost transactions"
+semantic_vi: "bản ghi phân khúc lợi nhuận bên nhận phân bổ lại chi phí và doanh thu — theo dõi phân bổ trung tâm lợi nhuận từ giao dịch chi phí nguồn"
+keywords:
+  - phân bổ lại chi phí doanh thu
+  - phân khúc lợi nhuận
+  - trung tâm lợi nhuận
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

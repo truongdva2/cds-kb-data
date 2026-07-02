@@ -1,6 +1,12 @@
 ---
 name: I_CREDITACCOUNTADDITIONALINFO
 description: Creditaccountadditionalinfo
+semantic_en: "credit account additional information with resubmission date and comment fields — extends core account data with supplementary credit assessment details"
+semantic_vi: "thông tin bổ sung tài khoản tín dụng — mở rộng dữ liệu tài khoản chính với chi tiết đánh giá tín dụng bổ sung"
+keywords:
+  - tài khoản tín dụng
+  - thông tin bổ sung
+  - đánh giá tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGOVERHEADGROUPTEXT
 description: Costingoverheadgrouptext
+semantic_en: "Costing overhead group text — overhead group name by language and valuation area."
+semantic_vi: "Tên gọi nhóm chi phí chung theo ngôn ngữ và lĩnh vực định giá."
+keywords:
+  - tên nhóm chi phí chung
+  - ngôn ngữ
+  - chi phí chung
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCLASSTEXT
 description: Conditionclasstext
+semantic_en: "condition class text view — multilingual class names"
+semantic_vi: "chế độ xem văn bản lớp điều kiện — tên lớp đa ngôn ngữ"
+keywords:
+  - lớp điều kiện
+  - tên
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

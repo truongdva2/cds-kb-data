@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMBUSPARTNERGROUPNAME
 description: CRDTMBusiness PartnerNERGROUPNAME
+semantic_en: "Business partner credit group name — credit management group name by language."
+semantic_vi: "Tên gọi nhóm quản lý tín dụng đối tác kinh doanh theo ngôn ngữ."
+keywords:
+  - nhóm quản lý tín dụng
+  - tên gọi
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

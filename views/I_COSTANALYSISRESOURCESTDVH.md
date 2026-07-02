@@ -1,6 +1,12 @@
 ---
 name: I_COSTANALYSISRESOURCESTDVH
 description: Costanalysisresourcestdvh
+semantic_en: "cost analysis resource standard value help — quick lookup of cost analysis resources by validity period and controlling area."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn nguồn lực phân tích chi phí — tra cứu nhanh nguồn lực phân tích chi phí theo kỳ hiệu lực và vùng kiểm soát."
+keywords:
+  - phân tích chi phí
+  - nguồn lực
+  - tra cứu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

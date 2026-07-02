@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTHEADER
 description: Contractaccountheader
+semantic_en: "contract account header — master data for contract accounts with core attributes like name, creation date, deletion flag, and application area."
+semantic_vi: "tiêu đề tài khoản hợp đồng — dữ liệu chính cho tài khoản hợp đồng với các thuộc tính cơ bản như tên, ngày tạo, cờ xóa và vùng ứng dụng."
+keywords:
+  - tài khoản hợp đồng
+  - tiêu đề
+  - dữ liệu chính
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

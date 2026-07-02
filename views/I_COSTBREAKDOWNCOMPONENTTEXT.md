@@ -1,6 +1,12 @@
 ---
 name: I_COSTBREAKDOWNCOMPONENTTEXT
 description: Costbreakdowncomponenttext
+semantic_en: "cost breakdown component text — localized names of cost breakdown components for business user reference."
+semantic_vi: "tên thành phần phân tích chi phí — tên thành phần phân tích chi phí đã được dịch để tham khảo người dùng kinh doanh."
+keywords:
+  - phân tích chi phí
+  - tên thành phần
+  - mô tả
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

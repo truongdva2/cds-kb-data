@@ -1,6 +1,12 @@
 ---
 name: I_COSTCOMPONENTVIEWTEXT
 description: Costcomponentviewtext
+semantic_en: "Cost component view text — provides view name by language."
+semantic_vi: "Tên gọi xem thành phần chi phí theo ngôn ngữ."
+keywords:
+  - xem chi phí
+  - tên gọi
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

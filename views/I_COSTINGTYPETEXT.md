@@ -1,6 +1,11 @@
 ---
 name: I_COSTINGTYPETEXT
 description: Costingtypetext
+semantic_en: "Costing type text — type name by language."
+semantic_vi: "Tên gọi loại định giá chi phí theo ngôn ngữ."
+keywords:
+  - tên loại định giá
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

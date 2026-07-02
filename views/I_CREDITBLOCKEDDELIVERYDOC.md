@@ -1,6 +1,12 @@
 ---
 name: I_CREDITBLOCKEDDELIVERYDOC
 description: CREDITBLOCKEDDelivery Document
+semantic_en: "delivery document blocked for credit reasons with release date — shows documents held due to credit risk or insufficient limit"
+semantic_vi: "chứng từ giao hàng bị chặn do tín dụng — hiển thị các chứng từ tạm giữ do rủi ro tín dụng hoặc hạn mức không đủ"
+keywords:
+  - chặn giao hàng
+  - tín dụng
+  - bản phát hành tín dụng
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

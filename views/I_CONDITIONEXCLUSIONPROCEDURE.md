@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONEXCLUSIONPROCEDURE
 description: Conditionexclusionprocedure
+semantic_en: "price condition domain — condition exclusion procedure codes"
+semantic_vi: "miền điều kiện giá — mã thủ tục loại trừ điều kiện"
+keywords:
+  - loại trừ điều kiện
+  - thủ tục
+  - mã
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

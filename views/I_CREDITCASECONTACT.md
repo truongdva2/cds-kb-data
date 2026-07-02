@@ -1,6 +1,12 @@
 ---
 name: I_CREDITCASECONTACT
 description: Creditcasecontact
+semantic_en: "credit case contact user information — links credit management cases to responsible personnel"
+semantic_vi: "thông tin liên hệ người dùng cho vụ tín dụng — liên kết các vụ quản lý tín dụng đến nhân viên phụ trách"
+keywords:
+  - liên hệ vụ
+  - quản lý tín dụng
+  - người dùng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

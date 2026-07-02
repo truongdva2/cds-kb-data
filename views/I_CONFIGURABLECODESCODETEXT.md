@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGURABLECODESCODETEXT
 description: Configurablecodescodetext
+semantic_en: "configurable codes text view — multilingual code descriptions"
+semantic_vi: "chế độ xem văn bản mã có thể cấu hình — mô tả mã đa ngôn ngữ"
+keywords:
+  - mã
+  - mô tả
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

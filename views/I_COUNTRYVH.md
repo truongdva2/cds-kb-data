@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYVH
 description: Countryvh
+semantic_en: "Country/region value help — provides country code, description, and ISO codes for selection."
+semantic_vi: "Danh sách giúp chọn quốc gia — cung cấp mã quốc gia, mô tả, mã ISO 3 ký tự, 3 chữ số."
+keywords:
+  - quốc gia
+  - value help
+  - mã ISO
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

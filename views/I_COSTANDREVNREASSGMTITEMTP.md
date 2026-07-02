@@ -1,6 +1,12 @@
 ---
 name: I_COSTANDREVNREASSGMTITEMTP
 description: Costandrevnreassgmtitemtp
+semantic_en: "cost and revenue reassignment item transactional posting — TP view for individual line items in cost/revenue reassignment with document/GL references."
+semantic_vi: "ghi sổ giao dịch mục tái gán chi phí và doanh thu — xem TP cho các mục dòng riêng lẻ trong tái gán chi phí/doanh thu với tài liệu/tham chiếu GL."
+keywords:
+  - tái gán mục
+  - chi phí doanh thu
+  - mục dòng
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

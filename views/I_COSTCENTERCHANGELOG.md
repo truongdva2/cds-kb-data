@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERCHANGELOG
 description: Cost CenterCHANGELOG
+semantic_en: "cost center change log — analytical projection reporting all cost center modifications (field changes, units, currencies) with document references."
+semantic_vi: "nhật ký thay đổi trung tâm chi phí — dự phóng phân tích báo cáo tất cả các sửa đổi trung tâm chi phí (thay đổi trường, đơn vị, tiền tệ) với tài liệu tham chiếu."
+keywords:
+  - nhật ký thay đổi
+  - trung tâm chi phí
+  - sửa đổi
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

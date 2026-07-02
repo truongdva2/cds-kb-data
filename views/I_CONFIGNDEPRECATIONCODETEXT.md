@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGNDEPRECATIONCODETEXT
 description: Configndeprecationcodetext
+semantic_en: "configuration deprecation code text view — multilingual deprecation code descriptions"
+semantic_vi: "chế độ xem văn bản mã không dùng nữa cấu hình — mô tả mã không dùng nữa đa ngôn ngữ"
+keywords:
+  - không dùng nữa
+  - mô tả
+  - ngôn ngữ
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

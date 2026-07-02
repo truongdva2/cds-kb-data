@@ -1,6 +1,12 @@
 ---
 name: I_COSTBREAKDOWNSTRUCTURETEXT
 description: Costbreakdownstructuretext
+semantic_en: "cost breakdown structure text — localized names of cost breakdown structures for user reference in costing transactions."
+semantic_vi: "tên cấu trúc phân tích chi phí — tên cấu trúc phân tích chi phí đã được dịch để người dùng tham khảo trong giao dịch định giá."
+keywords:
+  - phân tích chi phí
+  - cấu trúc
+  - tên cấu trúc
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTCTRACTIVITYTYPEHIERARCHY
 description: Costctractivitytypehierarchy
+semantic_en: "Cost center activity type hierarchy definition — defines hierarchy structure with validity dates and change tracking for activity types within controlling area."
+semantic_vi: "Định nghĩa hệ thống phân cấp loại hoạt động tâm chi phí — cấu trúc phân cấp với thông tin thay đổi."
+keywords:
+  - hệ thống phân cấp
+  - loại hoạt động
+  - tâm chi phí
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

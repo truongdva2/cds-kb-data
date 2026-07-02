@@ -1,6 +1,12 @@
 ---
 name: I_CPWF_INST
 description: Cpwf Inst
+semantic_en: "Cloud Platform workflow instances — tracks workflow execution with handle, definition ID, consumer, context, and callback class."
+semantic_vi: "Các phiên bản quy trình công việc Nền tảng đám mây — theo dõi thực thi quy trình với xử lý, ID định nghĩa."
+keywords:
+  - quy trình công việc
+  - nền tảng đám mây
+  - phiên bản
 app_component: BC-BMT-WFP
 software_component: SAP_BASIS
 release_state: released

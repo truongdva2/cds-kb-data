@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYHIERARCHYNODETEXT
 description: Countryhierarchynodetext
+semantic_en: "Country/region hierarchy node text — node descriptions by language."
+semantic_vi: "Mô tả nút phân cấp quốc gia theo ngôn ngữ."
+keywords:
+  - mô tả nút quốc gia
+  - ngôn ngữ
+  - phân cấp
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

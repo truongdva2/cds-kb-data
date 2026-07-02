@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTCATEGORY
 description: Contractaccountcategory
+semantic_en: "contract account category — master data defining application areas and assignment rules (single BP, single contract, collective billing, one-time accounts)."
+semantic_vi: "danh mục tài khoản hợp đồng — dữ liệu chính định nghĩa khu vực ứng dụng và quy tắc gán (đối tác duy nhất, hợp đồng duy nhất, hóa đơn tập hợp, tài khoản một lần)."
+keywords:
+  - danh mục tài khoản
+  - vùng ứng dụng
+  - tài khoản tập hợp
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

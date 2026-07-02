@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGURABLECODESCODEGROUP
 description: Configurablecodescodegroup
+semantic_en: "configurable code groups — code group definitions with activity and status tracking"
+semantic_vi: "nhóm mã có thể cấu hình — định nghĩa nhóm mã với theo dõi trạng thái hoạt động"
+keywords:
+  - nhóm mã
+  - trạng thái
+  - hoạt động
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTPRTNRELSHPTYPE
 description: Contracctprtnrelshptype
+semantic_en: "contract account partner relationship type — business partner relationship classification for contract accounts"
+semantic_vi: "loại mối quan hệ đối tác tài khoản hợp đồng — phân loại mối quan hệ đối tác kinh doanh cho tài khoản hợp đồng"
+keywords:
+  - mối quan hệ
+  - đối tác kinh doanh
+  - tài khoản hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

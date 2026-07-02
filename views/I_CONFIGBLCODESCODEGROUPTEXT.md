@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGBLCODESCODEGROUPTEXT
 description: Configblcodescodegrouptext
+semantic_en: "configurable codes code group text view — multilingual code group descriptions"
+semantic_vi: "chế độ xem văn bản nhóm mã mã có thể cấu hình — mô tả nhóm mã đa ngôn ngữ"
+keywords:
+  - nhóm mã
+  - mô tả
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

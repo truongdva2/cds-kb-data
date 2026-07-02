@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERACTIVITYTYPETEXT
 description: Cost CenterACTIVITYTYPETEXT
+semantic_en: "cost center activity type text — localized names and descriptions of cost center activity types for business users."
+semantic_vi: "tên loại hoạt động trung tâm chi phí — tên và mô tả loại hoạt động trung tâm chi phí đã được dịch cho người dùng kinh doanh."
+keywords:
+  - loại hoạt động
+  - trung tâm chi phí
+  - tên loại
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMEMOREQUESTITEMCUBE
 description: Creditmemorequestitemcube
+semantic_en: "credit memo request item analytic cube with date and org hierarchies — analytical dataset for credit memo item reporting"
+semantic_vi: "khối phân tích mục yêu cầu hoàn trả tín dụng — bộ dữ liệu phân tích cho báo cáo mục hoàn trả"
+keywords:
+  - lập phương phân tích
+  - hoàn trả tín dụng
+  - báo cáo
+  - mục
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

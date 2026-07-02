@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERBUDGET
 description: Cost CenterBUDGET
+semantic_en: "cost center budget — analytical query reporting budget data across fiscal periods, GL accounts, cost centers, projects, and customers."
+semantic_vi: "ngân sách trung tâm chi phí — truy vấn phân tích báo cáo dữ liệu ngân sách trên các kỳ tài chính, tài khoản GL, trung tâm chi phí, dự án và khách hàng."
+keywords:
+  - ngân sách
+  - trung tâm chi phí
+  - phân tích báo cáo
 app_component: CO-OM-CCA-AVC-2CL
 software_component: SAPSCORE
 release_state: released

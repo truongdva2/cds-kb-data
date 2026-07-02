@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMEMOREQPRCGELMNTTP
 description: Crdtmemoreqprcgelmnttp
+semantic_en: "credit memo request header-level pricing element with condition type name and transaction currency — reflects condition details at request level"
+semantic_vi: "phần tử tính giá yêu cầu hoàn trả tín dụng cấp đầu đơn — hiển thị chi tiết điều kiện tính giá toàn yêu cầu"
+keywords:
+  - tính giá yêu cầu hoàn trả
+  - điều kiện loại
+  - đơn vị tiền tệ giao dịch
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

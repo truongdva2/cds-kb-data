@@ -1,6 +1,11 @@
 ---
 name: I_COSTORIGINGROUPTEXT
 description: Costorigingrouptext
+semantic_en: "Cost origin group text — group name by language."
+semantic_vi: "Tên gọi nhóm nguồn chi phí theo ngôn ngữ."
+keywords:
+  - tên nhóm nguồn chi phí
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERHIERARCHYVH
 description: Cost CenterHIERARCHYVH
+semantic_en: "cost center hierarchy value help — quick lookup of cost center hierarchies for user selection by controlling area and validity."
+semantic_vi: "trợ giúp giá trị phân cấp trung tâm chi phí — tra cứu nhanh phân cấp trung tâm chi phí cho lựa chọn người dùng theo vùng kiểm soát và hiệu lực."
+keywords:
+  - phân cấp trung tâm
+  - tra cứu giá trị
+  - vùng kiểm soát
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

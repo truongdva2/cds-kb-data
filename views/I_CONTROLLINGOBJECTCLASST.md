@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGOBJECTCLASST
 description: Controllingobjectclasst
+semantic_en: "controlling object class text — localized descriptions of controlling object class codes for business user interfaces."
+semantic_vi: "tên lớp đối tượng kiểm soát — mô tả mã lớp đối tượng kiểm soát đã được dịch cho giao diện người dùng kinh doanh."
+keywords:
+  - lớp đối tượng
+  - tên lớp
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTPARTNER
 description: Contractaccountpartner
+semantic_en: "contract account partner — partner linkages to contract accounts showing business partner, creation/change metadata, and payment method configurations."
+semantic_vi: "đối tác tài khoản hợp đồng — liên kết đối tác với tài khoản hợp đồng hiển thị đối tác kinh doanh, siêu dữ liệu tạo/thay đổi và cấu hình phương thức thanh toán."
+keywords:
+  - đối tác hợp đồng
+  - phương thức thanh toán
+  - đối tác kinh doanh
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

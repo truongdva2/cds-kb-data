@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONRATERATIOUNIT
 description: Conditionrateratiounit
+semantic_en: "condition rate ratio units — unit of measure mapping for condition ratios"
+semantic_vi: "đơn vị tỷ lệ tỷ giá điều kiện — ánh xạ đơn vị đo cho tỷ lệ điều kiện"
+keywords:
+  - đơn vị tỷ lệ
+  - tỷ giá
+  - điều kiện
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

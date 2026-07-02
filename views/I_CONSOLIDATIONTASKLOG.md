@@ -1,6 +1,12 @@
 ---
 name: I_CONSOLIDATIONTASKLOG
 description: ConsolidationIONTASKLOG
+semantic_en: "consolidation task logs — header records for consolidation tasks with chart of accounts and fiscal period details"
+semantic_vi: "nhật ký nhiệm vụ hợp nhất — bản ghi tiêu đề cho nhiệm vụ hợp nhất có chi tiết biểu đồ tài khoản và kỳ tài chính"
+keywords:
+  - nhật ký nhiệm vụ
+  - hợp nhất
+  - kỳ tài chính
 app_component: FIN-CS-COR-IS-2CL
 software_component: SAPSCORE
 release_state: released

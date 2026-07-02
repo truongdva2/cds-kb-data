@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGVALUATIONVARIANT
 description: Costingvaluationvariant
+semantic_en: "Valuation variant for costing — specifies overhead costing sheets for standard and external procured materials."
+semantic_vi: "Biến thể định giá chi phí — chỉ định bảng tính chi phí chung cho hàng mua ngoài."
+keywords:
+  - biến thể định giá
+  - bảng tính chi phí chung
+  - hàng mua ngoài
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

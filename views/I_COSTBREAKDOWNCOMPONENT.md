@@ -1,6 +1,12 @@
 ---
 name: I_COSTBREAKDOWNCOMPONENT
 description: Costbreakdowncomponent
+semantic_en: "cost breakdown component — master data components within cost breakdown structures for product costing with inventory and COGS flags."
+semantic_vi: "thành phần phân tích chi phí — thành phần dữ liệu chính trong cấu trúc phân tích chi phí cho định giá sản phẩm với cờ hàng tồn kho và COGS."
+keywords:
+  - phân tích chi phí
+  - thành phần
+  - định giá sản phẩm
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

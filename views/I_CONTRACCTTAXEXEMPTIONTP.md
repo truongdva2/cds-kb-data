@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTTAXEXEMPTIONTP
 description: Contraccttaxexemptiontp
+semantic_en: "contract account tax exemption — transactional posting view for managing tax exemption statuses, codes, and start/end dates linked to customer tax groups."
+semantic_vi: "miễn trừ thuế tài khoản hợp đồng — xem chi tiết ghi sổ giao dịch để quản lý trạng thái miễn trừ thuế, mã thuế và ngày bắt đầu/kết thúc gắn với nhóm thuế khách hàng."
+keywords:
+  - miễn trừ thuế hợp đồng
+  - mã thuế
+  - nhóm thuế khách hàng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

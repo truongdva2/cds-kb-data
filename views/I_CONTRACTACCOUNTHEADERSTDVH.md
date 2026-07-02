@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTHEADERSTDVH
 description: Contractaccountheaderstdvh
+semantic_en: "contract account header standard value help — quick lookup returning contract account, name, and category code for user selection lists."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn tiêu đề tài khoản hợp đồng — tra cứu nhanh trả về tài khoản hợp đồng, tên và mã danh mục cho danh sách lựa chọn người dùng."
+keywords:
+  - tra cứu tài khoản
+  - tên tài khoản
+  - danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

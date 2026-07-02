@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONINACTIVEREASONTEXT
 description: Conditioninactivereasontext
+semantic_en: "condition inactive reason text view — multilingual inactive reason names"
+semantic_vi: "chế độ xem văn bản lý do vô hiệu điều kiện — tên lý do không hoạt động đa ngôn ngữ"
+keywords:
+  - lý do vô hiệu
+  - tên
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

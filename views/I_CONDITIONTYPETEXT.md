@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONTYPETEXT
 description: Conditiontypetext
+semantic_en: "condition type text view — multilingual condition type names with usage and application classification"
+semantic_vi: "chế độ xem văn bản loại điều kiện — tên loại điều kiện đa ngôn ngữ với phân loại cách sử dụng và ứng dụng"
+keywords:
+  - loại điều kiện
+  - tên
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

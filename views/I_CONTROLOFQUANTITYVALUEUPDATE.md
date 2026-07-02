@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLOFQUANTITYVALUEUPDATE
 description: Controlofquantityvalueupdate
+semantic_en: "control of quantity and value update — configuration for enabling/mandating quantity and value updates by valuation area and product type."
+semantic_vi: "kiểm soát cập nhật số lượng và giá trị — cấu hình để bật/bắt buộc cập nhật số lượng và giá trị theo vùng định giá và loại sản phẩm."
+keywords:
+  - cấu hình cập nhật
+  - số lượng giá trị
+  - vùng định giá
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

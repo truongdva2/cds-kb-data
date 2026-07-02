@@ -1,6 +1,12 @@
 ---
 name: I_CONTACTPERSONFUNCTION
 description: Contactpersonfunction
+semantic_en: "value help domain — contact person function codes"
+semantic_vi: "miền trợ giúp giá trị — mã chức năng người liên hệ"
+keywords:
+  - chức năng
+  - người liên hệ
+  - mã
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

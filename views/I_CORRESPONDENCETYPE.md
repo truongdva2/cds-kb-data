@@ -1,6 +1,12 @@
 ---
 name: I_CORRESPONDENCETYPE
 description: Correspondencetype
+semantic_en: "correspondence type — master data defining correspondence templates with specifications for accounts, documents, dates, and cross-company settings."
+semantic_vi: "loại thư tín — dữ liệu chính định nghĩa các mẫu thư tín với các quy định cho tài khoản, tài liệu, ngày tháng và cài đặt liên công ty."
+keywords:
+  - loại thư tín
+  - mẫu thư tín
+  - quy định tài khoản
 app_component: FI-GL-2CL
 software_component: SAPSCORE
 release_state: released

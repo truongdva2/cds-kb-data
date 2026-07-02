@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONORIGINTEXT
 description: Conditionorigintext
+semantic_en: "condition origin text view — multilingual origin names"
+semantic_vi: "chế độ xem văn bản nguồn gốc điều kiện — tên nguồn gốc đa ngôn ngữ"
+keywords:
+  - nguồn gốc
+  - tên
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

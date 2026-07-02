@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONUSAGETEXT
 description: Conditionusagetext
+semantic_en: "condition usage text view — multilingual usage descriptions"
+semantic_vi: "chế độ xem văn bản cách sử dụng điều kiện — mô tả cách sử dụng đa ngôn ngữ"
+keywords:
+  - cách sử dụng
+  - mô tả
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

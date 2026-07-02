@@ -1,6 +1,12 @@
 ---
 name: I_COSTBREAKDOWNMETHOD
 description: Costbreakdownmethod
+semantic_en: "cost breakdown method — domain values for component breakdown methods applied during product costing calculations."
+semantic_vi: "phương pháp phân tích chi phí — các giá trị miền cho phương pháp phân tích thành phần áp dụng trong các phép tính định giá sản phẩm."
+keywords:
+  - phương pháp phân tích
+  - chi phí
+  - thành phần
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

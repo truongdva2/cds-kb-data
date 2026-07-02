@@ -1,6 +1,12 @@
 ---
 name: I_CREDITRISKCLASS
 description: Creditriskclass
+semantic_en: "credit risk classification master — defines credit risk categories for customer segmentation"
+semantic_vi: "phân loại rủi ro tín dụng — xác định các danh mục rủi ro cho phân khúc khách hàng"
+keywords:
+  - lớp rủi ro tín dụng
+  - phân loại
+  - khách hàng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

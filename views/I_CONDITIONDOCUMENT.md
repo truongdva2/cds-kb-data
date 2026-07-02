@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONDOCUMENT
 description: Conditiondocument
+semantic_en: "condition documents — supplier and customer agreements with activation status and organizational hierarchy"
+semantic_vi: "tài liệu điều kiện — thỏa thuận nhà cung cấp và khách hàng có trạng thái kích hoạt và cấu trúc tổ chức"
+keywords:
+  - tài liệu điều kiện
+  - nhà cung cấp
+  - khách hàng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

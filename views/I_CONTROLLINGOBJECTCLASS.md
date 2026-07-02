@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGOBJECTCLASS
 description: Controllingobjectclass
+semantic_en: "controlling object class — domain value set for classifying controlling objects by type (cost center, order, project, etc.)."
+semantic_vi: "lớp đối tượng kiểm soát — tập giá trị miền để phân loại đối tượng kiểm soát theo loại (trung tâm chi phí, đơn hàng, dự án, v.v.)."
+keywords:
+  - lớp đối tượng
+  - phân loại kiểm soát
+  - loại đối tượng
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTTP
 description: Contractaccounttp
+semantic_en: "contract account transactional posting — TP view for contract account masters with editable fields and planned change validity dates."
+semantic_vi: "ghi sổ giao dịch tài khoản hợp đồng — xem TP cho chủ tài khoản hợp đồng với các trường có thể chỉnh sửa và ngày hiệu lực thay đổi kế hoạch."
+keywords:
+  - giao dịch tài khoản
+  - chỉnh sửa tài khoản
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

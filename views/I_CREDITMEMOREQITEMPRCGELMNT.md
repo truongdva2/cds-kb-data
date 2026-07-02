@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMEMOREQITEMPRCGELMNT
 description: Creditmemoreqitemprcgelmnt
+semantic_en: "credit memo request item pricing condition with rate, base amount, and currency — captures individual pricing element details"
+semantic_vi: "điều kiện tính giá mục yêu cầu hoàn trả tín dụng — ghi nhận chi tiết phần tử tính giá riêng lẻ"
+keywords:
+  - phần tử tính giá
+  - hoàn trả tín dụng
+  - điều kiện tính giá
+  - mục
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

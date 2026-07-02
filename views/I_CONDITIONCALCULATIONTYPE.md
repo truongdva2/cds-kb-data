@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCALCULATIONTYPE
 description: Conditioncalculationtype
+semantic_en: "price condition domain — calculation type codes"
+semantic_vi: "miền điều kiện giá — mã loại tính toán"
+keywords:
+  - loại tính toán
+  - điều kiện giá
+  - mã
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

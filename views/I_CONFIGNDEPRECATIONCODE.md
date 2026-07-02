@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGNDEPRECATIONCODE
 description: Configndeprecationcode
+semantic_en: "configuration domain — configuration deprecation codes"
+semantic_vi: "miền cấu hình — mã không dùng nữa cấu hình"
+keywords:
+  - không dùng nữa
+  - cấu hình
+  - mã
 app_component: BC-DWB-DIC
 software_component: SAP_BASIS
 release_state: released

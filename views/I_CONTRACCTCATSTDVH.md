@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTCATSTDVH
 description: Contracctcatstdvh
+semantic_en: "contract account category value help — contract account category codes and descriptions"
+semantic_vi: "trợ giúp giá trị danh mục tài khoản hợp đồng — mã và mô tả danh mục tài khoản hợp đồng"
+keywords:
+  - danh mục tài khoản
+  - hợp đồng
+  - mô tả
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

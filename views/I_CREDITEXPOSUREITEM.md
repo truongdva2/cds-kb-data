@@ -1,6 +1,13 @@
 ---
 name: I_CREDITEXPOSUREITEM
 description: Creditexposureitem
+semantic_en: "individual credit exposure line item with hedging amount — tracks outstanding exposure by bp and credit segment"
+semantic_vi: "mục rủi ro tín dụng riêng lẻ với số tiền bảo lãnh — theo dõi rủi ro tín dụng đã phát sinh theo đối tác và phân khúc"
+keywords:
+  - rủi ro tín dụng
+  - mục mục
+  - bảo lãnh
+  - phân khúc tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

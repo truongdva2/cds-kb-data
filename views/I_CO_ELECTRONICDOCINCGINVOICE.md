@@ -1,6 +1,12 @@
 ---
 name: I_CO_ELECTRONICDOCINCGINVOICE
 description: CO Electronicdocincginvoice
+semantic_en: "Colombia incoming invoice electronic document — contains supplier invoice data, amount, acceptance status, and digital signature."
+semantic_vi: "Hóa đơn điện tử đến từ nhà cung cấp Colombia — bao gồm dữ liệu hóa đơn, số tiền, trạng thái chấp nhận, chữ ký số."
+keywords:
+  - hóa đơn điện tử
+  - hóa đơn đến
+  - Colombia
 app_component: CA-GTF-CSC-EDO-CO
 software_component: SAPSCORE
 release_state: released

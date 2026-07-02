@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGVARIANT
 description: Costingvariant
+semantic_en: "Costing variant definition — specifies valuation variant, cost estimate reference, costing type, and transfer control flags."
+semantic_vi: "Định nghĩa biến thể định giá — xác định biến thể định giá, tham chiếu ước tính, loại định giá, cờ kiểm soát."
+keywords:
+  - biến thể định giá
+  - ước tính chi phí
+  - kiểm soát chuyển giao
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

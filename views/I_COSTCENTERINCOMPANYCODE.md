@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERINCOMPANYCODE
 description: Cost CenterINCompany Code
+semantic_en: "cost center in company code — master data integrating cost center assignments within company codes with operational posting flags and creation audit info."
+semantic_vi: "trung tâm chi phí trong mã công ty — dữ liệu chính tích hợp gán trung tâm chi phí trong mã công ty với cờ ghi sổ hoạt động và thông tin kiểm tra tạo."
+keywords:
+  - trung tâm chi phí
+  - mã công ty
+  - dữ liệu chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

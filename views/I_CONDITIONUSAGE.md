@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONUSAGE
 description: Conditionusage
+semantic_en: "pricing condition usage classification — condition usage codes"
+semantic_vi: "phân loại cách sử dụng điều kiện giá — mã cách sử dụng điều kiện"
+keywords:
+  - cách sử dụng
+  - điều kiện
+  - phân loại
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

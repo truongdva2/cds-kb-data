@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONINACTIVEREASON
 description: Conditioninactivereason
+semantic_en: "price condition domain — reasons for inactive conditions"
+semantic_vi: "miền điều kiện giá — lý do điều kiện không hoạt động"
+keywords:
+  - nguyên nhân vô hiệu
+  - điều kiện
+  - không hoạt động
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

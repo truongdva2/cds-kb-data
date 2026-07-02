@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGOVERHEADGROUPVH
 description: Costingoverheadgroupvh
+semantic_en: "Costing overhead group value help — provides overhead group and costing overhead code for selection."
+semantic_vi: "Danh sách giúp chọn nhóm chi phí chung — cung cấp mã định danh nhóm và chi phí chung."
+keywords:
+  - value help
+  - nhóm chi phí chung
+  - chi phí chung
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

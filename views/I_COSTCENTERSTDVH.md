@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERSTDVH
 description: Cost CenterSTDVH
+semantic_en: "Cost center value help — provides ControllingArea, CostCenter, validity dates, and CompanyCode for dropdown selection."
+semantic_vi: "Danh sách giúp chọn tâm chi phí — cung cấp lĩnh vực kiểm soát, tâm chi phí, ngày hiệu lực và mã công ty."
+keywords:
+  - tâm chi phí
+  - value help
+  - lĩnh vực kiểm soát
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

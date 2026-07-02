@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERTEXTTP_2
 description: Cost CenterTEXTTP 2
+semantic_en: "Cost center text projection — transactional projection for cost center names and descriptions with language selection."
+semantic_vi: "Hình chiếu dữ liệu mô tả tâm chi phí — cung cấp tên gọi và mô tả theo ngôn ngữ với hỗ trợ chỉnh sửa."
+keywords:
+  - hình chiếu
+  - mô tả tâm chi phí
+  - chỉnh sửa
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

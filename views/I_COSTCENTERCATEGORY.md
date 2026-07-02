@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERCATEGORY
 description: Cost CenterCATEGORY
+semantic_en: "cost center category — master data for cost center categories defining posting restrictions, allocation methods, and functional areas."
+semantic_vi: "danh mục trung tâm chi phí — dữ liệu chính cho danh mục trung tâm chi phí định nghĩa hạn chế ghi sổ, phương pháp phân bổ và vùng chức năng."
+keywords:
+  - danh mục trung tâm
+  - chi phí
+  - hạn chế ghi sổ
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

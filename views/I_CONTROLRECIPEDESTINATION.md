@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLRECIPEDESTINATION
 description: Controlrecipedestination
+semantic_en: "control recipe destination — master data for control recipe processing locations in manufacturing with signature/display requirements."
+semantic_vi: "đích công thức kiểm soát — dữ liệu chính cho các vị trí xử lý công thức kiểm soát trong sản xuất với yêu cầu chữ ký/hiển thị."
+keywords:
+  - công thức kiểm soát
+  - vị trí đích
+  - chữ ký kỹ thuật số
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

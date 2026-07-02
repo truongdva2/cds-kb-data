@@ -1,6 +1,12 @@
 ---
 name: I_CONFFAILEDACTUALCOSTCALC
 description: Conffailedactualcostcalc
+semantic_en: "failed actual cost calculations — order confirmations with cost calculation errors and log details"
+semantic_vi: "tính toán chi phí thực tế thất bại — xác nhận đơn đặt hàng với lỗi tính toán chi phí và chi tiết nhật ký"
+keywords:
+  - tính toán chi phí
+  - lỗi
+  - xác nhận đơn
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

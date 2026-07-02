@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCONTROL
 description: Conditioncontrol
+semantic_en: "price condition domain — condition control codes"
+semantic_vi: "miền điều kiện giá — mã kiểm soát điều kiện"
+keywords:
+  - kiểm soát điều kiện
+  - mã
+  - giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMANAGEMENTSEGMENTTXT
 description: Credit ManagementMENTSEGMENTTXT
+semantic_en: "credit management segment description in multiple languages — provides localized names for credit segments"
+semantic_vi: "mô tả phân khúc quản lý tín dụng theo ngôn ngữ — cung cấp tên phân khúc tín dụng đa ngôn ngữ"
+keywords:
+  - phân khúc tín dụng
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

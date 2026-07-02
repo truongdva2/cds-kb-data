@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGBUSTRANSACTYPET
 description: Controllingbustransactypet
+semantic_en: "controlling business transaction type text — localized names of business transaction types used in controlling analysis."
+semantic_vi: "tên loại giao dịch kinh doanh kiểm soát — tên loại giao dịch kinh doanh đã được dịch sử dụng trong phân tích kiểm soát."
+keywords:
+  - loại giao dịch
+  - tên giao dịch
+  - mô tả ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

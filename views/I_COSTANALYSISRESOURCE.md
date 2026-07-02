@@ -1,6 +1,12 @@
 ---
 name: I_COSTANALYSISRESOURCE
 description: Costanalysisresource
+semantic_en: "cost analysis resource — master data for cost analysis resources in controlling areas with validity periods for costing analysis."
+semantic_vi: "nguồn lực phân tích chi phí — dữ liệu chính cho các nguồn lực phân tích chi phí trong vùng kiểm soát với các kỳ hiệu lực cho phân tích chi phí."
+keywords:
+  - phân tích chi phí
+  - nguồn lực
+  - vùng kiểm soát
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

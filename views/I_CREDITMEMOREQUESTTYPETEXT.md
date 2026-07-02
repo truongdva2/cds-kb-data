@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQUESTTYPETEXT
 description: Creditmemorequesttypetext
+semantic_en: "credit memo request type description in multiple languages — provides localized names for credit memo document types"
+semantic_vi: "mô tả loại yêu cầu hoàn trả tín dụng theo ngôn ngữ — cung cấp tên loại tài liệu đa ngôn ngữ"
+keywords:
+  - loại hoàn trả
+  - mô tả
+  - ngôn ngữ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

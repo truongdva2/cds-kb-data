@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGURABLECODESCATALOG
 description: Configurablecodescatalog
+semantic_en: "configurable codes catalogs — quality code catalogs with logical deletion indicator"
+semantic_vi: "danh mục mã có thể cấu hình — danh mục mã chất lượng có chỉ báo xóa logic"
+keywords:
+  - danh mục mã
+  - chất lượng
+  - xóa
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

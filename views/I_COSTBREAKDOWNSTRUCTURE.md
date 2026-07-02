@@ -1,6 +1,12 @@
 ---
 name: I_COSTBREAKDOWNSTRUCTURE
 description: Costbreakdownstructure
+semantic_en: "cost breakdown structure — master data for cost breakdown structures (hierarchies) used in product costing by breakdown type."
+semantic_vi: "cấu trúc phân tích chi phí — dữ liệu chính cho các cấu trúc phân tích chi phí (phân cấp) được sử dụng trong định giá sản phẩm theo loại phân tích."
+keywords:
+  - phân tích chi phí
+  - cấu trúc
+  - định giá sản phẩm
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

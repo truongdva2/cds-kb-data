@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMANAGEMENTBP
 description: Credit ManagementMENTBP
+semantic_en: "credit management business partner with risk class and score rule — defines credit attributes and parameters for a customer"
+semantic_vi: "đối tác kinh doanh quản lý tín dụng với lớp rủi ro và quy tắc chấm điểm — xác định thuộc tính tín dụng cho khách hàng"
+keywords:
+  - đối tác kinh doanh
+  - lớp rủi ro tín dụng
+  - quy tắc chấm điểm
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

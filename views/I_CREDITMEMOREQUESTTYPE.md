@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQUESTTYPE
 description: Creditmemorequesttype
+semantic_en: "credit memo request document type with processing type — defines classification and processing method for credit memos"
+semantic_vi: "loại tài liệu yêu cầu hoàn trả tín dụng với loại xử lý — xác định phân loại và phương pháp xử lý hoàn trả"
+keywords:
+  - loại yêu cầu hoàn trả
+  - xử lý
+  - tín dụng
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

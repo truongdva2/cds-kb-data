@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTPRTNBUSINESSLOCKTP
 description: Contracctprtnbusinesslocktp
+semantic_en: "contract account partner business lock — business process locks with validity dates and lock reasons"
+semantic_vi: "khóa kinh doanh đối tác tài khoản hợp đồng — khóa quy trình kinh doanh có ngày hiệu lực và lý do khóa"
+keywords:
+  - khóa kinh doanh
+  - tài khoản hợp đồng
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

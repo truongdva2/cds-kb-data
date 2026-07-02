@@ -1,6 +1,12 @@
 ---
 name: I_CREDITRISKCLASSTEXT
 description: Creditriskclasstext
+semantic_en: "credit risk classification description in multiple languages — provides localized names for credit risk classes"
+semantic_vi: "mô tả phân loại rủi ro tín dụng theo ngôn ngữ — cung cấp tên lớp rủi ro đa ngôn ngữ"
+keywords:
+  - lớp rủi ro
+  - mô tả
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

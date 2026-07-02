@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMANAGEMENTSEGMENT
 description: Credit ManagementMENTSEGMENT
+semantic_en: "credit management segment with currency and validity flags — represents a distinct credit operating unit within a bp"
+semantic_vi: "phân khúc quản lý tín dụng với đơn vị tiền tệ và cờ hợp lệ — đại diện cho đơn vị hoạt động tín dụng riêng biệt của đối tác"
+keywords:
+  - phân khúc tín dụng
+  - tiền tệ
+  - quản lý tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

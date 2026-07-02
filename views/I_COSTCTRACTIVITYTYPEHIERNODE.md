@@ -1,6 +1,12 @@
 ---
 name: I_COSTCTRACTIVITYTYPEHIERNODE
 description: Costctractivitytypehiernode
+semantic_en: "Cost center activity type hierarchy node — hierarchical structure with parent-child relationships, sequence, level, and node type."
+semantic_vi: "Nút phân cấp loại hoạt động tâm chi phí — cấu trúc cha-con với thứ tự và mức độ."
+keywords:
+  - nút phân cấp
+  - loại hoạt động
+  - cha-con
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

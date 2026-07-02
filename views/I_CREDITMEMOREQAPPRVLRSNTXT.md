@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQAPPRVLRSNTXT
 description: Creditmemoreqapprvlrsntxt
+semantic_en: "credit memo request approval reason description — provides localized texts for approval justifications"
+semantic_vi: "mô tả lý do phê duyệt yêu cầu hoàn trả tín dụng — cung cấp văn bản lý do phê duyệt đa ngôn ngữ"
+keywords:
+  - lý do phê duyệt
+  - hoàn trả
+  - mô tả
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

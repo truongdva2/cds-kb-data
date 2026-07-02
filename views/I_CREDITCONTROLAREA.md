@@ -1,6 +1,12 @@
 ---
 name: I_CREDITCONTROLAREA
 description: Creditcontrolarea
+semantic_en: "credit control area master with currency — defines organizational unit for credit management with reporting currency"
+semantic_vi: "khu vực kiểm soát tín dụng chính — xác định đơn vị tổ chức cho quản lý tín dụng với đơn vị tiền tệ báo cáo"
+keywords:
+  - khu vực kiểm soát tín dụng
+  - tiền tệ
+  - quản lý tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

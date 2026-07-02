@@ -1,6 +1,13 @@
 ---
 name: I_CREDITDECISIONDOCUMENTTP_2
 description: Creditdecisiondocumenttp 2
+semantic_en: "credit decision document with status, reference, and approval tracking — records credit underwriting decisions and related objects"
+semantic_vi: "tài liệu quyết định tín dụng với trạng thái và theo dõi phê duyệt — ghi nhận quyết định tín dụng và đối tượng liên quan"
+keywords:
+  - quyết định tín dụng
+  - phê duyệt
+  - tài liệu quyết định
+  - trạng thái
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

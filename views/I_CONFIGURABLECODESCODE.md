@@ -1,6 +1,12 @@
 ---
 name: I_CONFIGURABLECODESCODE
 description: Configurablecodescode
+semantic_en: "configurable codes list — individual codes within code groups with activity status"
+semantic_vi: "danh sách mã có thể cấu hình — các mã riêng lẻ trong nhóm mã có trạng thái hoạt động"
+keywords:
+  - mã
+  - nhóm
+  - trạng thái
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

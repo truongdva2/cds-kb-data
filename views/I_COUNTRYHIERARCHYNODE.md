@@ -1,6 +1,12 @@
 ---
 name: I_COUNTRYHIERARCHYNODE
 description: Countryhierarchynode
+semantic_en: "Country/region hierarchy node — hierarchical nodes representing countries with parent relationships and classification."
+semantic_vi: "Nút hệ thống phân cấp quốc gia/khu vực — nút phân cấp với mối quan hệ cha-con."
+keywords:
+  - nút phân cấp quốc gia
+  - cha-con
+  - phân loại
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

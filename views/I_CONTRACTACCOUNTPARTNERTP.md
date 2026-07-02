@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACTACCOUNTPARTNERTP
 description: Contractaccountpartnertp
+semantic_en: "contract account partner transactional posting — TP view tracking partner assignments, payment method IDs, and timestamp fields for contract accounts."
+semantic_vi: "ghi sổ giao dịch đối tác tài khoản hợp đồng — xem TP theo dõi gán đối tác, ID phương thức thanh toán và các trường dấu thời gian cho tài khoản hợp đồng."
+keywords:
+  - đối tác giao dịch
+  - phương thức thanh toán
+  - tài khoản hợp đồng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

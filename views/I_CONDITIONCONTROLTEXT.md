@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCONTROLTEXT
 description: Conditioncontroltext
+semantic_en: "condition control text view — multilingual control descriptions"
+semantic_vi: "chế độ xem văn bản kiểm soát điều kiện — mô tả kiểm soát đa ngôn ngữ"
+keywords:
+  - kiểm soát
+  - mô tả
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

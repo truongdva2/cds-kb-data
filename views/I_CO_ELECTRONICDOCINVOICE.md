@@ -1,6 +1,12 @@
 ---
 name: I_CO_ELECTRONICDOCINVOICE
 description: CO Electronicdocinvoice
+semantic_en: "Colombia outgoing invoice electronic document — contains issued invoice data, unique ID, delivery status, and digital signature."
+semantic_vi: "Hóa đơn điện tử phát hành Colombia — bao gồm dữ liệu hóa đơn phát hành, mã duy nhất, trạng thái gửi, chữ ký số."
+keywords:
+  - hóa đơn điện tử
+  - hóa đơn phát hành
+  - Colombia
 app_component: CA-GTF-CSC-EDO-CO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTCTRACTIVITYTYPEHIERNODET
 description: Costctractivitytypehiernodet
+semantic_en: "Cost center activity type hierarchy node text — node descriptions and short text by language."
+semantic_vi: "Mô tả và tên gọi nút phân cấp loại hoạt động — theo ngôn ngữ."
+keywords:
+  - mô tả nút
+  - ngôn ngữ
+  - phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

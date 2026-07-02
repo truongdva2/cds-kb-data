@@ -1,6 +1,12 @@
 ---
 name: I_CORRESPONDENCETYPETEXT
 description: Correspondencetypetext
+semantic_en: "correspondence type text — localized correspondence type names and date field descriptions in selected languages."
+semantic_vi: "tên loại thư tín — tên loại thư tín và mô tả trường ngày đã được dịch sang các ngôn ngữ được chọn."
+keywords:
+  - loại thư tín
+  - tên thư tín
+  - mô tả ngôn ngữ
 app_component: FI-GL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CO_ELECTRONICDOCPAYROLL
 description: CO Electronicdocpayroll
+semantic_en: "Colombia payroll electronic document — contains payroll data, employee code, XML type, and generation timestamp."
+semantic_vi: "Tài liệu điện tử bảng lương Colombia — bao gồm dữ liệu bảng lương, mã nhân viên, loại XML, dấu thời gian tạo."
+keywords:
+  - tài liệu bảng lương điện tử
+  - bảng lương
+  - Colombia
 app_component: CA-GTF-CSC-EDO-CO
 software_component: SAPSCORE
 release_state: released

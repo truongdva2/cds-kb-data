@@ -1,6 +1,12 @@
 ---
 name: I_CONTRACCTPRTNRELSHPTYPETXT
 description: Contracctprtnrelshptypetxt
+semantic_en: "contract account partner relationship type text — look up localized descriptions of relationship types between business partners and contract accounts."
+semantic_vi: "mã kiểu quan hệ đối tác tài khoản hợp đồng — tra cứu mô tả tên kiểu quan hệ giữa đối tác kinh doanh và tài khoản hợp đồng theo ngôn ngữ."
+keywords:
+  - quan hệ đối tác hợp đồng
+  - loại quan hệ tài khoản
+  - mô tả ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

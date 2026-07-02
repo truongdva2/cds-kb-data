@@ -1,6 +1,12 @@
 ---
 name: I_COSTCTRACTIVITYTYPEHIERTEXT
 description: Costctractivitytypehiertext
+semantic_en: "Cost center activity type hierarchy text — hierarchy name by language."
+semantic_vi: "Tên gọi hệ thống phân cấp loại hoạt động theo ngôn ngữ."
+keywords:
+  - tên gọi phân cấp
+  - ngôn ngữ
+  - loại hoạt động
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

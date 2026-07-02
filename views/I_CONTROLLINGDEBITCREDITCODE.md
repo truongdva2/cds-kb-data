@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGDEBITCREDITCODE
 description: Controllingdebitcreditcode
+semantic_en: "controlling debit credit code — master data for debit/credit classification codes used in controlling line items."
+semantic_vi: "mã ghi nợ/có kiểm soát — dữ liệu chính cho các mã phân loại ghi nợ/có sử dụng trong các mục dòng kiểm soát."
+keywords:
+  - mã ghi nợ
+  - mã có
+  - kiểm soát
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

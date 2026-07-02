@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGOBJECTSTDVH
 description: Controllingobjectstdvh
+semantic_en: "controlling object standard value help — quick lookup of controlling objects with controlling area for selection in transactions."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn đối tượng kiểm soát — tra cứu nhanh đối tượng kiểm soát với vùng kiểm soát cho lựa chọn trong giao dịch."
+keywords:
+  - đối tượng kiểm soát
+  - vùng kiểm soát
+  - tra cứu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQUESTITEMTP
 description: Creditmemorequestitemtp
+semantic_en: "credit memo request item transactional state with quantity and product — transaction-processing version of credit memo line item"
+semantic_vi: "trạng thái giao dịch mục yêu cầu hoàn trả tín dụng — phiên bản xử lý giao dịch của mục hàng hoàn trả"
+keywords:
+  - mục hoàn trả
+  - yêu cầu hoàn trả
+  - trạng thái giao dịch
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

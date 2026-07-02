@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERTEXT
 description: Cost CenterTEXT
+semantic_en: "Cost center texts and descriptions — contains cost center name and description by language, controlling area, and validity period."
+semantic_vi: "Mô tả và tên gọi tâm chi phí — lưu trữ tên gọi, mô tả theo ngôn ngữ, lĩnh vực kiểm soát và khoảng thời gian."
+keywords:
+  - mô tả tâm chi phí
+  - tên gọi
+  - ngôn ngữ
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

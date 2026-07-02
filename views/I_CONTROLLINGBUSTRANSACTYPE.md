@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGBUSTRANSACTYPE
 description: Controllingbustransactype
+semantic_en: "controlling business transaction type — master data classifying business transactions by value class and category in controlling module."
+semantic_vi: "loại giao dịch kinh doanh kiểm soát — dữ liệu chính phân loại giao dịch kinh doanh theo lớp giá trị và danh mục trong mô-đun kiểm soát."
+keywords:
+  - loại giao dịch
+  - phân loại kiểm soát
+  - giao dịch kinh doanh
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGVERSION
 description: Costingversion
+semantic_en: "Costing version — specifies costing type, valuation variant, and exchange rate type for version control."
+semantic_vi: "Phiên bản định giá chi phí — xác định loại định giá, biến thể định giá, loại tỷ giá hối đoái."
+keywords:
+  - phiên bản định giá
+  - loại định giá
+  - biến thể định giá
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

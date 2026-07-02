@@ -1,6 +1,12 @@
 ---
 name: I_CTRLPOSTGFOREXTWHSEMGMTSYST
 description: Ctrlpostgforextwhsemgmtsyst
+semantic_en: "control posting for external warehouse management system master — defines posting control codes for warehouse operations"
+semantic_vi: "chính kiểm soát đăng ký cho hệ thống quản lý kho ngoài — xác định mã kiểm soát đăng ký cho hoạt động kho"
+keywords:
+  - kiểm soát đăng ký
+  - quản lý kho ngoài
+  - mã đăng ký
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

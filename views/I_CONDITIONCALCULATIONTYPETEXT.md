@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONCALCULATIONTYPETEXT
 description: Conditioncalculationtypetext
+semantic_en: "condition calculation type text view — multilingual calculation type descriptions"
+semantic_vi: "chế độ xem văn bản loại tính toán điều kiện — mô tả loại tính toán đa ngôn ngữ"
+keywords:
+  - loại tính toán
+  - mô tả
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

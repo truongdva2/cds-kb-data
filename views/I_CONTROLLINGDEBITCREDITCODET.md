@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGDEBITCREDITCODET
 description: Controllingdebitcreditcodet
+semantic_en: "controlling debit credit code text — localized names of debit/credit codes for user-facing controlling transactions."
+semantic_vi: "tên mã ghi nợ/có kiểm soát — tên mã ghi nợ/có đã được dịch cho các giao dịch kiểm soát đối mặt với người dùng."
+keywords:
+  - mã ghi nợ
+  - mã có
+  - tên mã
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

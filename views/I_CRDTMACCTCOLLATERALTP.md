@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMACCTCOLLATERALTP
 description: Crdtmacctcollateraltp
+semantic_en: "Credit management account collateral transactional projection — collateral documents with validity dates and exception flags for credit check."
+semantic_vi: "Hình chiếu giao dịch tài sản bảo đảm tài khoản quản lý tín dụng — tài liệu bảo đảm với ngày hiệu lực và cờ ngoại lệ."
+keywords:
+  - tài sản bảo đảm
+  - quản lý tín dụng
+  - hình chiếu giao dịch
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

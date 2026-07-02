@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMGMTACCOUNTTP
 description: Creditmgmtaccounttp
+semantic_en: "credit management account transactional state with critical flag and calculated limits — transaction-processing version of credit account"
+semantic_vi: "trạng thái giao dịch tài khoản quản lý tín dụng — phiên bản xử lý giao dịch của tài khoản tín dụng"
+keywords:
+  - tài khoản tín dụng
+  - trạng thái giao dịch
+  - hạn mức
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

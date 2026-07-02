@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQAPPROVALREASON
 description: Creditmemoreqapprovalreason
+semantic_en: "credit memo request approval reason code — classifies justifications for credit memo approvals"
+semantic_vi: "mã lý do phê duyệt yêu cầu hoàn trả tín dụng — phân loại lý do phê duyệt hoàn trả"
+keywords:
+  - lý do phê duyệt
+  - hoàn trả tín dụng
+  - mã
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

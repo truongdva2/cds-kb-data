@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERHIERARCHYNODE
 description: Cost CenterHIERARCHYNODE
+semantic_en: "cost center hierarchy node — hierarchy structure nodes linking parent/child cost centers with sequence and version control."
+semantic_vi: "nút phân cấp trung tâm chi phí — các nút cấu trúc phân cấp liên kết trung tâm chi phí cha/con với kiểm soát chuỗi và phiên bản."
+keywords:
+  - nút phân cấp
+  - trung tâm chi phí
+  - tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

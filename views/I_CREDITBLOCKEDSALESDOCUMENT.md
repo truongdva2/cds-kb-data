@@ -1,6 +1,12 @@
 ---
 name: I_CREDITBLOCKEDSALESDOCUMENT
 description: Creditblockedsalesdocument
+semantic_en: "sales document blocked for credit reasons — shows sales orders or quotations held due to credit exposure or limits"
+semantic_vi: "chứng từ bán hàng bị chặn do tín dụng — hiển thị đơn hàng tạm giữ do rủi ro tín dụng hoặc hạn mức không đủ"
+keywords:
+  - chặn đơn hàng
+  - bán hàng
+  - tín dụng
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

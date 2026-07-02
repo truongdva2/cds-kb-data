@@ -1,6 +1,12 @@
 ---
 name: I_CRDTSCOREANDLMTCALCRULE
 description: Crdtscoreandlmtcalcrule
+semantic_en: "credit score and limit calculation rule configuration — defines scoring model and default limit computation method"
+semantic_vi: "quy tắc tính điểm tín dụng và hạn mức — xác định mô hình chấm điểm và phương pháp tính hạn mức mặc định"
+keywords:
+  - điểm tín dụng
+  - hạn mức tín dụng
+  - quy tắc tính toán
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

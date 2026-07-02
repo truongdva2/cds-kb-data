@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMBUSINESSPARTNERTP
 description: CRDTMBusiness PartnerTP
+semantic_en: "Credit management business partner transactional projection — creditworthiness score, credit risk class, and credit check rules by credit segment."
+semantic_vi: "Hình chiếu giao dịch đối tác kinh doanh quản lý tín dụng — điểm đáng tin cậy, hạng rủi ro tín dụng, quy tắc kiểm tra tín dụng."
+keywords:
+  - đối tác kinh doanh
+  - quản lý tín dụng
+  - rủi ro tín dụng
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

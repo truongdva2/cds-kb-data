@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERHIERARCHYNODET
 description: Cost CenterHIERARCHYNODET
+semantic_en: "cost center hierarchy node text — localized names and descriptions of hierarchy nodes for organization displays."
+semantic_vi: "tên nút phân cấp trung tâm chi phí — tên và mô tả nút phân cấp đã được dịch cho hiển thị tổ chức."
+keywords:
+  - nút phân cấp
+  - tên nút
+  - tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

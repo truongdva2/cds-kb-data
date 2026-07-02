@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLLINGAREASTDVH
 description: Controllingareastdvh
+semantic_en: "controlling area standard value help — quick lookup of controlling area master data by controlling area code and name."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn vùng kiểm soát — tra cứu nhanh dữ liệu chính vùng kiểm soát theo mã và tên vùng kiểm soát."
+keywords:
+  - vùng kiểm soát
+  - tra cứu giá trị
+  - dữ liệu chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

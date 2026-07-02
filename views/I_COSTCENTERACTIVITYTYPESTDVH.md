@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERACTIVITYTYPESTDVH
 description: Cost CenterACTIVITYTYPESTDVH
+semantic_en: "cost center activity type standard value help — quick lookup of activity types by cost center and validity period."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn loại hoạt động trung tâm chi phí — tra cứu nhanh loại hoạt động theo trung tâm chi phí và kỳ hiệu lực."
+keywords:
+  - loại hoạt động
+  - trung tâm chi phí
+  - tra cứu
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

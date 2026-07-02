@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONAPPLICATION
 description: Conditionapplication
+semantic_en: "pricing condition application type — condition usage classification"
+semantic_vi: "loại ứng dụng điều kiện giá — phân loại cách sử dụng điều kiện"
+keywords:
+  - ứng dụng điều kiện
+  - loại giá
+  - phân loại
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

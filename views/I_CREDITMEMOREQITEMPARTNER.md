@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMEMOREQITEMPARTNER
 description: Creditmemoreqitempartner
+semantic_en: "credit memo request item partner assignment with address and contact details — links parties to credit memo line items"
+semantic_vi: "phân công đối tác mục yêu cầu hoàn trả tín dụng với địa chỉ — liên kết các bên với mục hàng hoàn trả"
+keywords:
+  - đối tác mục
+  - hoàn trả tín dụng
+  - địa chỉ
+  - liên hệ
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

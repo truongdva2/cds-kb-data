@@ -1,6 +1,12 @@
 ---
 name: I_CONFIRMATIONAPPLORIGIN
 description: Confirmationapplorigin
+semantic_en: "order confirmation domain — application origin for order confirmations"
+semantic_vi: "miền xác nhận đơn — nguồn gốc ứng dụng cho xác nhận đơn"
+keywords:
+  - xác nhận đơn
+  - nguồn gốc
+  - ứng dụng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

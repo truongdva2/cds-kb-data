@@ -1,6 +1,13 @@
 ---
 name: I_CRDTSCRANDLMTCALCRULETXT
 description: Crdtscrandlmtcalcruletxt
+semantic_en: "credit score and limit calculation rule description in multiple languages — provides localized rule names and documentation"
+semantic_vi: "mô tả quy tắc tính điểm tín dụng và hạn mức theo ngôn ngữ — cung cấp tên quy tắc và tài liệu đa ngôn ngữ"
+keywords:
+  - mô tả quy tắc
+  - tính điểm
+  - hạn mức tín dụng
+  - ngôn ngữ
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

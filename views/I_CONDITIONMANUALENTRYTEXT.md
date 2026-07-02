@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONMANUALENTRYTEXT
 description: Conditionmanualentrytext
+semantic_en: "manual condition entry text view — multilingual descriptions for manual entry flags"
+semantic_vi: "chế độ xem văn bản nhập điều kiện thủ công — mô tả đa ngôn ngữ cho cờ nhập thủ công"
+keywords:
+  - nhập thủ công
+  - mô tả
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_COSTINGTYPE
 description: Costingtype
+semantic_en: "Costing type definition — specifies controlling valuation type, reference object, and ledger for cost estimation."
+semantic_vi: "Định nghĩa loại định giá chi phí — xác định loại định giá, đối tượng tham chiếu, sổ cái."
+keywords:
+  - loại định giá chi phí
+  - định giá kiểm soát
+  - sổ cái
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

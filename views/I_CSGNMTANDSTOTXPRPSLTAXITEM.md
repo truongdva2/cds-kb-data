@@ -1,6 +1,12 @@
 ---
 name: I_CSGNMTANDSTOTXPRPSLTAXITEM
 description: Csgnmtandstotxprpsltaxitem
+semantic_en: "consignment and sto tax proposal tax line with tax code and rate — records individual tax calculation for proposal item"
+semantic_vi: "dòng thuế đề xuất đăng ký thuế ký gửi và chuyển giao so le — ghi nhận tính toán thuế riêng lẻ cho mục đề xuất"
+keywords:
+  - chi tiết thuế đề xuất
+  - mã thuế
+  - tỷ lệ thuế
 app_component: FI-TXL-TGM
 software_component: SAPSCORE
 release_state: released

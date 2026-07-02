@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONAPPLICATIONTEXT
 description: Conditionapplicationtext
+semantic_en: "condition application text view — multilingual condition application names"
+semantic_vi: "chế độ xem văn bản ứng dụng điều kiện — tên ứng dụng điều kiện đa ngôn ngữ"
+keywords:
+  - tên ứng dụng
+  - ngôn ngữ
+  - điều kiện giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CONTROLRECIPEDESTTYPETEXT
 description: Controlrecipedesttypetext
+semantic_en: "control recipe destination type text — localized names of control recipe destination type codes for user selection."
+semantic_vi: "tên loại đích công thức kiểm soát — tên mã loại đích công thức kiểm soát đã được dịch cho lựa chọn người dùng."
+keywords:
+  - loại đích
+  - công thức kiểm soát
+  - tên loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

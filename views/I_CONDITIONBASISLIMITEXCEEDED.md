@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONBASISLIMITEXCEEDED
 description: Conditionbasislimitexceeded
+semantic_en: "price condition domain — basis limit exceeded flag"
+semantic_vi: "miền điều kiện giá — cờ vượt quá giới hạn cơ sở"
+keywords:
+  - giới hạn cơ sở
+  - điều kiện giá
+  - vượt quá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

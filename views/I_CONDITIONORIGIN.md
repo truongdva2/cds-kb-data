@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONORIGIN
 description: Conditionorigin
+semantic_en: "price condition domain — condition origin source codes"
+semantic_vi: "miền điều kiện giá — mã nguồn gốc điều kiện"
+keywords:
+  - nguồn gốc
+  - điều kiện
+  - mã
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

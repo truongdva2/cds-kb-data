@@ -1,6 +1,12 @@
 ---
 name: I_CREDITMEMOREQITEMPARTNERTP
 description: Creditmemoreqitempartnertp
+semantic_en: "credit memo request item partner transactional state with partner type and sales org — transaction-processing version of item partner data"
+semantic_vi: "trạng thái giao dịch đối tác mục yêu cầu hoàn trả tín dụng — phiên bản xử lý giao dịch của dữ liệu đối tác mục"
+keywords:
+  - đối tác mục
+  - hoàn trả tín dụng
+  - trạng thái giao dịch
 app_component: SD-SLS-CMR-2CL
 software_component: SAPSCORE
 release_state: released

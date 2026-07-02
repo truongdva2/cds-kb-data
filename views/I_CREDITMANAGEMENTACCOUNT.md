@@ -1,6 +1,13 @@
 ---
 name: I_CREDITMANAGEMENTACCOUNT
 description: Credit ManagementMENTACCOUNT
+semantic_en: "credit account master with limit, blocking status, and coordinator — represents a customer segment's credit account with all key attributes"
+semantic_vi: "tài khoản tín dụng chính với hạn mức, trạng thái chặn, và bộ phận điều phối — đại diện cho tài khoản tín dụng phân khúc khách hàng"
+keywords:
+  - tài khoản tín dụng
+  - hạn mức
+  - chặn tín dụng
+  - bộ phối tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

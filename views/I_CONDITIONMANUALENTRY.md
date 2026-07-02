@@ -1,6 +1,12 @@
 ---
 name: I_CONDITIONMANUALENTRY
 description: Conditionmanualentry
+semantic_en: "price condition domain — priority indicator for manual condition entries"
+semantic_vi: "miền điều kiện giá — chỉ số ưu tiên cho nhập điều kiện thủ công"
+keywords:
+  - nhập thủ công
+  - ưu tiên
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

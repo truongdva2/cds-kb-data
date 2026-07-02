@@ -1,6 +1,12 @@
 ---
 name: I_COSTORIGINGROUPSTDVH
 description: Costorigingroupstdvh
+semantic_en: "Cost origin group value help — provides group code, origin type, and controlling area for selection."
+semantic_vi: "Danh sách giúp chọn nhóm nguồn chi phí — hiển thị mã, loại, lĩnh vực kiểm soát."
+keywords:
+  - nhóm nguồn chi phí
+  - value help
+  - loại nguồn
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

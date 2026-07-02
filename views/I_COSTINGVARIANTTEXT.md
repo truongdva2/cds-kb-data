@@ -1,6 +1,11 @@
 ---
 name: I_COSTINGVARIANTTEXT
 description: Costingvarianttext
+semantic_en: "Costing variant text — variant name by language."
+semantic_vi: "Tên gọi biến thể định giá theo ngôn ngữ."
+keywords:
+  - tên biến thể định giá
+  - ngôn ngữ
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

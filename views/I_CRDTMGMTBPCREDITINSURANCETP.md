@@ -1,6 +1,12 @@
 ---
 name: I_CRDTMGMTBPCREDITINSURANCETP
 description: Crdtmgmtbpcreditinsurancetp
+semantic_en: "credit management business partner credit insurance document with validity dates and coverage amounts — records insurance protection for credit exposure"
+semantic_vi: "tài liệu bảo hiểm tín dụng của đối tác kinh doanh quản lý tín dụng — ghi nhận bảo vệ bảo hiểm cho rủi ro tín dụng"
+keywords:
+  - bảo hiểm tín dụng
+  - quản lý tín dụng
+  - phạm vi bảo hiểm
 app_component: FIN-FIO-CCD-CR-2CL
 software_component: SAPSCORE
 release_state: released

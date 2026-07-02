@@ -1,6 +1,13 @@
 ---
 name: I_CREDITCONTROLAREATEXT
 description: Creditcontrolareatext
+semantic_en: "credit control area description in multiple languages — provides localized names for credit control areas"
+semantic_vi: "mô tả khu vực kiểm soát tín dụng theo ngôn ngữ — cung cấp tên khu vực tín dụng đa ngôn ngữ"
+keywords:
+  - khu vực kiểm soát
+  - mô tả
+  - ngôn ngữ
+  - tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

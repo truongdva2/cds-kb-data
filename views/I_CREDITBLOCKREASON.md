@@ -1,6 +1,12 @@
 ---
 name: I_CREDITBLOCKREASON
 description: Creditblockreason
+semantic_en: "credit account block reason code — defines why a customer account was placed on credit hold"
+semantic_vi: "mã lý do chặn tài khoản tín dụng — xác định lý do tài khoản khách hàng bị tạm dừng tín dụng"
+keywords:
+  - lý do chặn
+  - tài khoản tín dụng
+  - mã
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

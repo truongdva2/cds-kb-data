@@ -1,6 +1,12 @@
 ---
 name: I_COSTCENTERHIERARCHYTEXT
 description: Cost CenterHIERARCHYTEXT
+semantic_en: "cost center hierarchy text — localized names of cost center hierarchies representing organizational structures."
+semantic_vi: "tên phân cấp trung tâm chi phí — tên phân cấp trung tâm chi phí đã được dịch biểu thị các cấu trúc tổ chức."
+keywords:
+  - phân cấp trung tâm
+  - tên phân cấp
+  - tổ chức
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

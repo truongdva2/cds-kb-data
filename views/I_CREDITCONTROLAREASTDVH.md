@@ -1,6 +1,12 @@
 ---
 name: I_CREDITCONTROLAREASTDVH
 description: Creditcontrolareastdvh
+semantic_en: "credit control area value-help list — provides dropdown selection of valid credit control areas"
+semantic_vi: "danh sách trợ giúp giá trị khu vực kiểm soát tín dụng — cung cấp lựa chọn khu vực tín dụng hợp lệ"
+keywords:
+  - khu vực kiểm soát
+  - giá trị trợ giúp
+  - tín dụng
 app_component: FIN-FSCM-CR-2CL
 software_component: SAPSCORE
 release_state: released

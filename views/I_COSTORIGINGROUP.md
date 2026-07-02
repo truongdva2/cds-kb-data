@@ -1,6 +1,12 @@
 ---
 name: I_COSTORIGINGROUP
 description: Costorigingroup
+semantic_en: "Cost origin group — classifies cost origin by type within controlling area."
+semantic_vi: "Nhóm nguồn chi phí — phân loại nguồn chi phí theo loại trong lĩnh vực kiểm soát."
+keywords:
+  - nhóm nguồn chi phí
+  - loại nguồn chi phí
+  - lĩnh vực kiểm soát
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released
