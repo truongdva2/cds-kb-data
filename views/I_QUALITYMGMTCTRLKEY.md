@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYMGMTCTRLKEY
 description: Qualitymgmtctrlkey
+semantic_en: "Quality management control key — defines quality requirements for supplier release and certification"
+semantic_vi: "Khóa kiểm soát quản lý chất lượng — xác định yêu cầu chất lượng cho phát hành nhà cung cấp và chứng chỉ"
+keywords:
+  - kiểm soát chất lượng
+  - phát hành nhà cung cấp
+  - chứng chỉ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

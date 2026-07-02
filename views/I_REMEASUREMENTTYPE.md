@@ -1,6 +1,12 @@
 ---
 name: I_REMEASUREMENTTYPE
 description: Remeasurementtype
+semantic_en: "measurement type master — defines measurement types used for consumption, settlement and valuation across real estate objects."
+semantic_vi: "loại đơn vị đo lường chính — định nghĩa các loại đo lường sử dụng cho tiêu thụ, thanh quyết và định giá."
+keywords:
+  - đo lường
+  - loại đo
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

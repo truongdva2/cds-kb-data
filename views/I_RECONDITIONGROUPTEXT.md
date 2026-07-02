@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONGROUPTEXT
 description: Reconditiongrouptext
+semantic_en: "Condition group text descriptions — localized names and labels for rental condition group classifications."
+semantic_vi: "Mô tả văn bản nhóm điều kiện — tên và nhãn đã bản địa hóa cho các phân loại nhóm điều kiện thuê."
+keywords:
+  - nhóm điều kiện
+  - mô tả đa ngôn ngữ
+  - nhãn điều kiện
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

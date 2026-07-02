@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONCAUSE
 description: Qltynotificationcause
+semantic_en: "Quality notification cause — documents root causes and corrective actions identified for quality issues"
+semantic_vi: "Nguyên nhân thông báo chất lượng — ghi lại nguyên nhân gốc rễ và hành động khắc phục được xác định cho các vấn đề chất lượng"
+keywords:
+  - nguyên nhân chất lượng
+  - khắc phục sự cố
+  - phân tích gốc rễ
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

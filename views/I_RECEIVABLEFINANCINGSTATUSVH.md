@@ -1,6 +1,12 @@
 ---
 name: I_RECEIVABLEFINANCINGSTATUSVH
 description: Receivablefinancingstatusvh
+semantic_en: "receivable financing status value help — value help view for selecting receivable financing statuses."
+semantic_vi: "hỗ trợ giá trị trạng thái tài chính khoản phải thu — danh sách lựa chọn trạng thái."
+keywords:
+  - khoản phải thu
+  - tài chính
+  - danh sách
 app_component: FI-AR-AR-RF-2CL
 software_component: SAPSCORE
 release_state: released

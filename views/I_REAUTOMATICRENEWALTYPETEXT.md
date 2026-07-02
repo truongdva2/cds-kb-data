@@ -1,6 +1,12 @@
 ---
 name: I_REAUTOMATICRENEWALTYPETEXT
 description: Reautomaticrenewaltypetext
+semantic_en: "automatic renewal type text — localized names for renewal types by language."
+semantic_vi: "văn bản loại gia hạn tự động — tên loại gia hạn theo ngôn ngữ."
+keywords:
+  - gia hạn tự động
+  - văn bản
+  - loại
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

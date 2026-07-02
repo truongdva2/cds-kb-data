@@ -1,6 +1,12 @@
 ---
 name: I_REQUESTFORQUOTATIONTYPE
 description: Requestforquotationtype
+semantic_en: "request for quotation type — defines RFQ type classifications from purchasing document types."
+semantic_vi: "loại yêu cầu báo giá — định nghĩa phân loại loại yêu cầu báo giá từ loại tài liệu mua hàng."
+keywords:
+  - yêu cầu báo giá
+  - loại
+  - phân loại
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

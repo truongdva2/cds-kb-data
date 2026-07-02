@@ -1,6 +1,12 @@
 ---
 name: I_PURGQUOTAARRGMTAPI01
 description: Purgquotaarrgmtapi 01
+semantic_en: "purchasing quota arrangement — master data for supplier sourcing quotas with validity dates and allocation quantities."
+semantic_vi: "thỏa thuận hạn ngạch mua hàng — dữ liệu chính cho hạn ngạch nguồn cung nhà cung cấp với ngày hiệu lực và số lượng cấp phát."
+keywords:
+  - hạn ngạch
+  - mua hàng
+  - nhà cung cấp
 app_component: MM-PUR-SQ-QTA-2CL
 software_component: SAPSCORE
 release_state: released

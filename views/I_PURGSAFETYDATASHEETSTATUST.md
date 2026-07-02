@@ -1,6 +1,12 @@
 ---
 name: I_PURGSAFETYDATASHEETSTATUST
 description: Purgsafetydatasheetstatust
+semantic_en: "safety data sheet status text — language-dependent text labels for safety documentation compliance status."
+semantic_vi: "tên trạng thái bảng dữ liệu an toàn — nhãn văn bản theo ngôn ngữ cho tuân thủ tài liệu an toàn."
+keywords:
+  - bảng dữ liệu an toàn
+  - trạng thái
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

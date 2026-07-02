@@ -1,6 +1,12 @@
 ---
 name: I_RAPOSTINGCATEGORY
 description: Rapostingcategory
+semantic_en: "revenue accounting posting category — domain values for categorizing revenue accounting postings."
+semantic_vi: "danh mục ghi sổ kế toán doanh thu — phân loại ghi sổ doanh thu."
+keywords:
+  - danh mục ghi sổ
+  - kế toán doanh thu
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

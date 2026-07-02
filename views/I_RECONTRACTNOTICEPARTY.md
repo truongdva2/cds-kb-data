@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTNOTICEPARTY
 description: Recontractnoticeparty
+semantic_en: "Contract notice given by party — value-help for parties authorized to issue contract termination notices."
+semantic_vi: "Bên cho phép phát hành thông báo hợp đồng — danh sách các bên được phép phát hành thông báo chấm dứt hợp đồng."
+keywords:
+  - bên phát hành thông báo
+  - chấm dứt hợp đồng
+  - thông báo
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

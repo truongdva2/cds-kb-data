@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYMGMTSYSTEMFORSUPPLIER
 description: Qualitymgmtsystemforsupplier
+semantic_en: "Target quality management system for supplier — specifies required QM system for supplier qualification"
+semantic_vi: "Hệ thống quản lý chất lượng mục tiêu cho nhà cung cấp — chỉ định hệ thống QM cần thiết cho xác nhận nhà cung cấp"
+keywords:
+  - hệ thống QM
+  - nhà cung cấp
+  - xác nhận
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

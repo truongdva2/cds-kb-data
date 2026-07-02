@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJOWNERSHIP
 description: Regnrcrentalobjownership
+semantic_en: "real estate rental object ownership — identifies ownership classification for rental properties."
+semantic_vi: "phân loại quyền sở hữu đối tượng cho thuê bất động sản — xác định loại sở hữu cho tài sản cho thuê."
+keywords:
+  - sở hữu bất động sản
+  - cho thuê
+  - phân loại
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

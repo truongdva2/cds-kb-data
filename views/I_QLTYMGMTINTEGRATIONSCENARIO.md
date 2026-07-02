@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTINTEGRATIONSCENARIO
 description: Qltymgmtintegrationscenario
+semantic_en: "quality management integration scenario — configuration of quality system integration with other SAP modules."
+semantic_vi: "tình huống tích hợp quản lý chất lượng — cấu hình tích hợp hệ thống chất lượng với các mô-đun SAP khác."
+keywords:
+  - chất lượng
+  - tích hợp
+  - cấu hình
 app_component: QM-2CL
 software_component: SAPSCORE
 release_state: released

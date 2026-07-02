@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRCONDITION
 description: Recontrcondition
+semantic_en: "Real estate contract conditions — records individual condition records with calculation and distribution status objects."
+semantic_vi: "Điều kiện hợp đồng bất động sản — ghi lại các bản ghi điều kiện riêng lẻ với các đối tượng trạng thái tính toán và phân phối."
+keywords:
+  - điều kiện hợp đồng
+  - tính toán điều kiện
+  - phân phối điều kiện
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

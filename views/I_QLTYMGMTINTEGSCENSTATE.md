@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTINTEGSCENSTATE
 description: Qltymgmtintegscenstate
+semantic_en: "quality management integration scenario state — domain values for integration configuration status."
+semantic_vi: "trạng thái tình huống tích hợp quản lý chất lượng — các giá trị miền cho trạng thái cấu hình tích hợp."
+keywords:
+  - chất lượng
+  - tích hợp
+  - trạng thái
 app_component: QM-2CL
 software_component: SAPSCORE
 release_state: released

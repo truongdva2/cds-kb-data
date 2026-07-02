@@ -1,6 +1,12 @@
 ---
 name: I_RECONCILIATIONACCTTYPETEXT
 description: Reconciliationaccttypetext
+semantic_en: "reconciliation account type description text — localized descriptions of reconciliation account types by language."
+semantic_vi: "văn bản mô tả loại tài khoản điều hoà — mô tả loại tài khoản theo ngôn ngữ."
+keywords:
+  - tài khoản
+  - loại
+  - văn bản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

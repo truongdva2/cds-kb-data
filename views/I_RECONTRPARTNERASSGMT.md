@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRPARTNERASSGMT
 description: Recontrpartnerassgmt
+semantic_en: "Real estate partner assignments — records partner relationships with roles, validity periods and ownership shares."
+semantic_vi: "Gán đối tác bất động sản — ghi lại các mối quan hệ đối tác với các vai trò, kỳ có hiệu lực và cổ phần sở hữu."
+keywords:
+  - gán đối tác
+  - vai trò đối tác
+  - cổ phần sở hữu
 app_component: RE-FX-BP-2CL
 software_component: SAPSCORE
 release_state: released

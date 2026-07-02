@@ -1,6 +1,12 @@
 ---
 name: I_RAPOSTLEVELOFCONTRACTBALANCE
 description: Rapostlevelofcontractbalance
+semantic_en: "revenue accounting posting level of contract balance — domain values for balance posting hierarchy levels."
+semantic_vi: "mức độ ghi sổ số dư hợp đồng — phân loại mức độ ghi sổ."
+keywords:
+  - số dư
+  - hợp đồng
+  - mức độ
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

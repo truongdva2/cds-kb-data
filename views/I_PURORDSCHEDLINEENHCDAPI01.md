@@ -1,6 +1,12 @@
 ---
 name: I_PURORDSCHEDLINEENHCDAPI01
 description: Purordschedlineenhcdapi 01
+semantic_en: "purchase order schedule line enhanced — detailed schedule lines with material and sourcing metadata from hub systems."
+semantic_vi: "dòng lịch biểu đơn hàng mua nâng cao — dòng lịch biểu chi tiết với siêu dữ liệu vật liệu và nguồn cung."
+keywords:
+  - lịch biểu
+  - đơn hàng mua
+  - vật liệu
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

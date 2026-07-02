@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJPORTFOLIO
 description: Regnrcrentalobjportfolio
+semantic_en: "real estate rental object portfolio — categorizes rental properties into portfolio groupings."
+semantic_vi: "danh mục đầu tư đối tượng cho thuê bất động sản — phân loại tài sản cho thuê vào các nhóm danh mục."
+keywords:
+  - danh mục
+  - cho thuê
+  - phân loại
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

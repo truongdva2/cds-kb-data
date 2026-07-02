@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONLONGTEXT
 description: Qltynotificationlongtext
+semantic_en: "Quality notification long text — extended text content and attachments for notifications in multiple languages"
+semantic_vi: "Văn bản dài thông báo chất lượng — nội dung văn bản mở rộng và tệp đính kèm cho thông báo bằng nhiều ngôn ngữ"
+keywords:
+  - văn bản thông báo
+  - đính kèm chất lượng
+  - nội dung mở rộng
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

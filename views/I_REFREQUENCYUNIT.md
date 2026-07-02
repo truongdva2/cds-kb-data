@@ -1,6 +1,12 @@
 ---
 name: I_REFREQUENCYUNIT
 description: Refrequencyunit
+semantic_en: "Real estate frequency unit — value-help defining frequency measurement units (days, months, years, etc)."
+semantic_vi: "Đơn vị tần suất bất động sản — danh sách các đơn vị đo tần suất (ngày, tháng, năm, v.v.)."
+keywords:
+  - đơn vị tần suất
+  - tần suất
+  - tính toán
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

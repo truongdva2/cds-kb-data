@@ -1,6 +1,12 @@
 ---
 name: I_REPETITIVEMFGPROFILETEXT
 description: Repetitivemfgprofiletext
+semantic_en: "manufacturing profile text lookup — provides localized descriptions for repetitive manufacturing profiles."
+semantic_vi: "bảng mô tả hồ sơ sản xuất — cung cấp mô tả đa ngôn ngữ cho hồ sơ sản xuất."
+keywords:
+  - sản xuất
+  - hồ sơ
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

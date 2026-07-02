@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYTASKTP_2
 description: Qualitytasktp 2
+semantic_en: "Quality task — TP variant with completion status and processor details for quality task management"
+semantic_vi: "Tác vụ chất lượng — biến thể TP với trạng thái hoàn thành và chi tiết xử lý cho quản lý tác vụ chất lượng"
+keywords:
+  - tác vụ chất lượng
+  - hoàn thành
+  - quản lý
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURGQUOTAARRGMTITEMTP_2
 description: Purgquotaarrgmtitemtp 2
+semantic_en: "quota arrangement item transactional projection — quota allocation by supplier, plant, and release strategy."
+semantic_vi: "chiếu hình giao dịch mục thỏa thuận hạn ngạch — cấp phát hạn ngạch theo nhà cung cấp, nhà máy và chiến lược phát hành."
+keywords:
+  - hạn ngạch
+  - mục
+  - chiếu hình
 app_component: MM-PUR-SQ-QTA-2CL
 software_component: SAPSCORE
 release_state: released

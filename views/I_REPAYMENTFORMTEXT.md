@@ -1,6 +1,12 @@
 ---
 name: I_REPAYMENTFORMTEXT
 description: Repaymentformtext
+semantic_en: "payment form text lookup — provides localized descriptions for payment form types."
+semantic_vi: "bảng mô tả hình thức thanh toán — cung cấp mô tả đa ngôn ngữ cho loại hình thức thanh toán."
+keywords:
+  - hình thức thanh toán
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYNOTIFICATIONPARTNERTP
 description: Quality NotificationICATIONPARTNERTP
+semantic_en: "Quality notification partner — TP variant tracking partner functions and roles in quality notification workflow"
+semantic_vi: "Đối tác thông báo chất lượng — biến thể TP theo dõi chức năng và vai trò đối tác trong quy trình thông báo chất lượng"
+keywords:
+  - đối tác thông báo
+  - chức năng đối tác
+  - quy trình
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

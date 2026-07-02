@@ -1,6 +1,12 @@
 ---
 name: I_PURORDITMPRICINGELEMENTAPI01
 description: Purorditmpricingelementapi 01
+semantic_en: "purchase order item pricing element — condition records with pricing procedure steps, surcharges, and tax determinations."
+semantic_vi: "yếu tố giá mục đơn hàng mua — bản ghi điều kiện với bước quy trình giá, phụ phí và xác định thuế."
+keywords:
+  - giá
+  - mục đơn hàng
+  - phụ phí
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

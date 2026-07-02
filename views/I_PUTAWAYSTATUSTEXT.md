@@ -1,6 +1,12 @@
 ---
 name: I_PUTAWAYSTATUSTEXT
 description: Putawaystatustext
+semantic_en: "putaway status text — language-dependent names for warehouse putaway operation statuses."
+semantic_vi: "tên trạng thái đưa hàng lên kệ — tên theo ngôn ngữ cho trạng thái hoạt động đưa hàng lên kệ kho."
+keywords:
+  - đưa hàng lên kệ
+  - trạng thái
+  - nhãn văn bản
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REGIONVH
 description: Regionvh
+semantic_en: "value help for region selection — displays country and region code pairings."
+semantic_vi: "danh sách giúp chọn khu vực — hiển thị các cặp mã quốc gia và khu vực."
+keywords:
+  - khu vực
+  - quốc gia
+  - danh sách lựa chọn
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

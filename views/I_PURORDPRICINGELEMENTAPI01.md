@@ -1,6 +1,12 @@
 ---
 name: I_PURORDPRICINGELEMENTAPI01
 description: Purordpricingelementapi 01
+semantic_en: "purchase order pricing element — header-level pricing conditions with calculation types and currency rates."
+semantic_vi: "yếu tố giá đơn hàng mua — điều kiện giá cấp tiêu đề với loại tính toán và tỷ giá hối đoái."
+keywords:
+  - giá
+  - đơn hàng mua
+  - điều kiện
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

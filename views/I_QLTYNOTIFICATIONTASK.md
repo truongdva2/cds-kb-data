@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONTASK
 description: Qltynotificationtask
+semantic_en: "Quality notification task — assigns and tracks investigation and corrective action tasks within notifications"
+semantic_vi: "Tác vụ thông báo chất lượng — gán và theo dõi các tác vụ điều tra và hành động khắc phục trong thông báo"
+keywords:
+  - tác vụ chất lượng
+  - gán công việc
+  - theo dõi tác vụ
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

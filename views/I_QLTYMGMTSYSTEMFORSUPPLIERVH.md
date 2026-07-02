@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTSYSTEMFORSUPPLIERVH
 description: Qltymgmtsystemforsuppliervh
+semantic_en: "quality management system for supplier value-help — value-help list of quality management systems assignable to suppliers."
+semantic_vi: "danh sách hỗ trợ giá trị hệ thống quản lý chất lượng cho nhà cung cấp — danh sách các hệ thống chất lượng có thể gán cho nhà cung cấp."
+keywords:
+  - chất lượng
+  - nhà cung cấp
+  - danh sách
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

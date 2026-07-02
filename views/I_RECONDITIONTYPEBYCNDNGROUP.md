@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONTYPEBYCNDNGROUP
 description: Reconditiontypebycndngroup
+semantic_en: "Real estate condition type per condition group — associates condition types with groups including display order and adjustment rules."
+semantic_vi: "Loại điều kiện bất động sản theo nhóm điều kiện — liên kết loại điều kiện với nhóm bao gồm thứ tự hiển thị và quy tắc điều chỉnh."
+keywords:
+  - loại điều kiện
+  - nhóm điều kiện
+  - thứ tự hiển thị
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

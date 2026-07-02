@@ -1,6 +1,12 @@
 ---
 name: I_RECURRINGJOURNALENTRY
 description: RECURRINGJournal Entry
+semantic_en: "Recurring journal entry — transactional data for journal entries with automatic recurrence scheduling and completion tracking."
+semantic_vi: "Bản ghi nhật ký lặp lại — dữ liệu giao dịch cho các bản ghi nhật ký với lịch lặp lại tự động và theo dõi hoàn thành."
+keywords:
+  - nhật ký lặp lại
+  - lịch lặp lại
+  - hoàn thành
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

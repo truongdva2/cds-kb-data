@@ -1,6 +1,12 @@
 ---
 name: I_PURGTOTPRODMARKETABILITYSTST
 description: Purgtotprodmarketabilitystst
+semantic_en: "product marketability status text aggregated — language-dependent text labels for total marketability compliance."
+semantic_vi: "tên trạng thái khả năng tiêu thụ sản phẩm tổng thể — nhãn văn bản theo ngôn ngữ cho tuân thủ khả năng tiêu thụ tổng hợp."
+keywords:
+  - khả năng tiêu thụ
+  - tổng thể
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

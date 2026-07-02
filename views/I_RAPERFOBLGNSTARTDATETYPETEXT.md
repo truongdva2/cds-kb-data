@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNSTARTDATETYPETEXT
 description: Raperfoblgnstartdatetypetext
+semantic_en: "start date type text — localized names for start date types by language."
+semantic_vi: "văn bản loại ngày bắt đầu — tên loại ngày bắt đầu theo ngôn ngữ."
+keywords:
+  - ngày bắt đầu
+  - văn bản
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRACTSTATUS
 description: Racontractstatus
+semantic_en: "Revenue accounting contract status — domain values for contract state progression from creation to completion"
+semantic_vi: "Trạng thái hợp đồng kế toán doanh thu — giá trị miền cho tiến trình trạng thái hợp đồng từ tạo đến hoàn thành"
+keywords:
+  - hợp đồng doanh thu
+  - trạng thái
+  - vòng đời
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

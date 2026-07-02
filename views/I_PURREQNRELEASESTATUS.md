@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNRELEASESTATUS
 description: Purreqnreleasestatus
+semantic_en: "purchase requisition release status — domain values indicating approval state of purchase requisitions."
+semantic_vi: "trạng thái phát hành yêu cầu mua — các giá trị miền chỉ trạng thái phê duyệt yêu cầu mua."
+keywords:
+  - phát hành
+  - yêu cầu mua
+  - trạng thái
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

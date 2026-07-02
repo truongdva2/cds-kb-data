@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTSYSTEMTEXT
 description: Qltymgmtsystemtext
+semantic_en: "Quality management system description — multilingual text stored by language code"
+semantic_vi: "Văn bản mô tả hệ thống quản lý chất lượng — được lưu trữ theo ngôn ngữ"
+keywords:
+  - hệ thống quản lý chất lượng
+  - văn bản chất lượng
+  - mô tả chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

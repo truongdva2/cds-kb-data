@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICEPROCEDURETEXT
 description: Renoticeproceduretext
+semantic_en: "notice procedure text lookup — provides localized descriptions for contract notice procedures."
+semantic_vi: "bảng mô tả thủ tục thông báo — cung cấp mô tả đa ngôn ngữ cho thủ tục."
+keywords:
+  - thủ tục
+  - thông báo
+  - mô tả
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

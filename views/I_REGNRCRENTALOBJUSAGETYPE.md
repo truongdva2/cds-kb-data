@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJUSAGETYPE
 description: Regnrcrentalobjusagetype
+semantic_en: "rental object usage type — maps usage types to their assigned usage categories."
+semantic_vi: "loại sử dụng đối tượng cho thuê — liên kết loại sử dụng với danh mục sử dụng."
+keywords:
+  - loại sử dụng
+  - danh mục
+  - cho thuê
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

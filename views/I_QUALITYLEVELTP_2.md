@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYLEVELTP_2
 description: Qualityleveltp 2
+semantic_en: "Quality level — TP variant with inspection lot, operation, and characteristic details for quality sampling"
+semantic_vi: "Mức chất lượng — biến thể TP với chi tiết lô kiểm tra, hoạt động và đặc tính cho lấy mẫu chất lượng"
+keywords:
+  - mức chất lượng
+  - chi tiết kiểm tra
+  - lô mẫu
 app_component: QM-QC-2CL
 software_component: SAPSCORE
 release_state: released

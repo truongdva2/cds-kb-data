@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMSTRDATAAUTHZNGROUPTXT
 description: Qltymstrdataauthzngrouptxt
+semantic_en: "Authorization group text for quality master data — multilingual descriptions of authorization groups"
+semantic_vi: "Văn bản nhóm phân quyền cho dữ liệu chính dữ liệu chất lượng — mô tả đa ngôn ngữ của các nhóm ủy quyền"
+keywords:
+  - phân quyền chất lượng
+  - văn bản ủy quyền
+  - mô tả nhóm
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

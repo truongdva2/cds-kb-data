@@ -1,6 +1,12 @@
 ---
 name: I_RAPOSTINGCATEGORYTEXT
 description: Rapostingcategorytext
+semantic_en: "posting category text — localized names for posting categories by language."
+semantic_vi: "văn bản danh mục ghi sổ — tên danh mục ghi sổ theo ngôn ngữ."
+keywords:
+  - ghi sổ
+  - danh mục
+  - văn bản
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

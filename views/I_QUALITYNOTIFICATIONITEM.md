@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYNOTIFICATIONITEM
 description: Quality NotificationICATIONITEM
+semantic_en: "Quality notification item — individual line item within quality notification with defect codes and part information"
+semantic_vi: "Mục thông báo chất lượng — mục dòng riêng lẻ trong thông báo chất lượng với mã khuyết tật và thông tin bộ phận"
+keywords:
+  - mục thông báo
+  - khuyết tật
+  - mã lỗi
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

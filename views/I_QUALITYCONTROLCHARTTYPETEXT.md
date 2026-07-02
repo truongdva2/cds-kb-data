@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYCONTROLCHARTTYPETEXT
 description: Qualitycontrolcharttypetext
+semantic_en: "Quality control chart type text — multilingual names for statistical quality control chart classifications"
+semantic_vi: "Văn bản loại biểu đồ kiểm soát chất lượng — tên đa ngôn ngữ cho các phân loại biểu đồ kiểm soát chất lượng thống kê"
+keywords:
+  - biểu đồ kiểm soát
+  - tên loại
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTPLANTLVLCONFIGN
 description: Qltymgmtplantlvlconfign
+semantic_en: "quality settings at plant level — plant-specific configuration for inspection precision and code set assignments."
+semantic_vi: "cài đặt chất lượng cấp nhà máy — cấu hình cụ thể nhà máy cho độ chính xác kiểm tra và gán bộ mã."
+keywords:
+  - chất lượng
+  - nhà máy
+  - cấu hình
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

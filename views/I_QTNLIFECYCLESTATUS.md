@@ -1,6 +1,12 @@
 ---
 name: I_QTNLIFECYCLESTATUS
 description: Qtnlifecyclestatus
+semantic_en: "Quotation lifecycle status — domain values for quotation states from creation through completion"
+semantic_vi: "Trạng thái vòng đời báo giá — giá trị miền cho các trạng thái báo giá từ tạo đến hoàn thành"
+keywords:
+  - báo giá
+  - trạng thái vòng đời
+  - quản lý báo giá
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

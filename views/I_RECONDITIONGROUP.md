@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONGROUP
 description: Reconditiongroup
+semantic_en: "Condition group master data — organizing rental condition types by business classification and rules."
+semantic_vi: "Dữ liệu nhóm điều kiện — phân loại loại điều kiện thuê theo nhóm kinh doanh và quy tắc."
+keywords:
+  - nhóm điều kiện
+  - phân loại điều kiện
+  - quản lý điều kiện
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

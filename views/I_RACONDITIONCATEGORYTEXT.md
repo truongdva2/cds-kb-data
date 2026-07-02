@@ -1,6 +1,12 @@
 ---
 name: I_RACONDITIONCATEGORYTEXT
 description: Raconditioncategorytext
+semantic_en: "Revenue accounting condition category text — multilingual labels for revenue condition classification"
+semantic_vi: "Văn bản danh mục điều kiện kế toán doanh thu — nhãn đa ngôn ngữ cho phân loại điều kiện doanh thu"
+keywords:
+  - doanh thu
+  - điều kiện
+  - ngôn ngữ
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

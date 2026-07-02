@@ -1,6 +1,12 @@
 ---
 name: I_RACONDITIONCATEGORY
 description: Raconditioncategory
+semantic_en: "Revenue accounting condition category — domain values for revenue condition classification codes"
+semantic_vi: "Danh mục điều kiện kế toán doanh thu — giá trị miền cho các mã phân loại điều kiện doanh thu"
+keywords:
+  - doanh thu
+  - điều kiện
+  - phân loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

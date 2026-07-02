@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTSYSTEMFORSUPPLIERTXT
 description: Qltymgmtsystemforsuppliertxt
+semantic_en: "quality management system for supplier text — language-dependent names for designated quality system requirement per supplier."
+semantic_vi: "tên hệ thống quản lý chất lượng cho nhà cung cấp — tên theo ngôn ngữ cho yêu cầu hệ thống chất lượng theo nhà cung cấp."
+keywords:
+  - chất lượng
+  - nhà cung cấp
+  - hệ thống
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

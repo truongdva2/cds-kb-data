@@ -1,6 +1,12 @@
 ---
 name: I_PURORDACCOUNTASSIGNMENTTP_2
 description: Purordaccountassignmenttp 2
+semantic_en: "purchase order account assignment projection — cost allocation and distribution percentages by assignment number."
+semantic_vi: "chiếu hình gán tài khoản đơn hàng mua — phân bổ chi phí theo số gán tài khoản."
+keywords:
+  - gán tài khoản
+  - chiếu hình
+  - phân bổ
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

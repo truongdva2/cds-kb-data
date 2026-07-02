@@ -1,6 +1,12 @@
 ---
 name: I_REPROCESS
 description: Reprocess
+semantic_en: "real estate process — aggregates process metadata including process identifier, type, mode, version and reversal status."
+semantic_vi: "quy trình bất động sản — tập hợp siêu dữ liệu quy trình bao gồm mã quy trình, loại, chế độ, phiên bản và trạng thái đảo ngược."
+keywords:
+  - quy trình
+  - bất động sản
+  - quản lý
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

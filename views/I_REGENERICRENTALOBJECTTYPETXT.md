@@ -1,6 +1,12 @@
 ---
 name: I_REGENERICRENTALOBJECTTYPETXT
 description: Regenericrentalobjecttypetxt
+semantic_en: "Real estate generic rental object type text — localized names for generic rental object classifications."
+semantic_vi: "Văn bản loại đối tượng thuê chung bất động sản — tên đã bản địa hóa cho các phân loại đối tượng thuê chung."
+keywords:
+  - loại đối tượng thuê
+  - tên loại
+  - đa ngôn ngữ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

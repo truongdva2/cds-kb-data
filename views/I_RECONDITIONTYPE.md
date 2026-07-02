@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONTYPE
 description: Reconditiontype
+semantic_en: "Real estate condition type — defines condition attributes, calculation and distribution rules, advance payment handling."
+semantic_vi: "Loại điều kiện bất động sản — định nghĩa các thuộc tính điều kiện, quy tắc tính toán và phân phối, xử lý thanh toán trước."
+keywords:
+  - loại điều kiện
+  - tính toán điều kiện
+  - phân phối điều kiện
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

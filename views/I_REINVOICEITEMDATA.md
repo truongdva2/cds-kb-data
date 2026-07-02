@@ -1,6 +1,12 @@
 ---
 name: I_REINVOICEITEMDATA
 description: Reinvoiceitemdata
+semantic_en: "real estate invoice line item — details invoice item charges with conditions, calculation periods, tax and payment terms."
+semantic_vi: "chi tiết dòng hóa đơn bất động sản — mô tả chi tiết các khoản phí dòng hóa đơn với điều kiện, kỳ tính toán, thuế và điều khoản thanh toán."
+keywords:
+  - chi tiết hóa đơn
+  - thuế
+  - thanh toán
 app_component: RE-FX-RA-2CL
 software_component: SAPSCORE
 release_state: released

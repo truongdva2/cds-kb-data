@@ -1,6 +1,12 @@
 ---
 name: I_REFERENCEDOCUMENTTYPETEXT
 description: Referencedocumenttypetext
+semantic_en: "Reference document type text — localized names for reference document types."
+semantic_vi: "Văn bản loại tài liệu tham khảo — tên đã bản địa hóa cho loại tài liệu tham khảo."
+keywords:
+  - loại tài liệu
+  - tên loại
+  - đa ngôn ngữ
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

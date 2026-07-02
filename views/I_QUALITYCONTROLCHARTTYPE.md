@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYCONTROLCHARTTYPE
 description: Qualitycontrolcharttype
+semantic_en: "Quality control chart type — classifies statistical control charts for quality analysis by axis type"
+semantic_vi: "Loại biểu đồ kiểm soát chất lượng — phân loại các biểu đồ kiểm soát thống kê cho phân tích chất lượng theo loại trục"
+keywords:
+  - biểu đồ kiểm soát
+  - chất lượng
+  - thống kê
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

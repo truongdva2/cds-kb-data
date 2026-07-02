@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTNOTICEREASONTEXT
 description: Recontractnoticereasontext
+semantic_en: "Contract notice reason text — localized reason descriptions for contract termination notices."
+semantic_vi: "Văn bản lý do thông báo hợp đồng — mô tả lý do đã bản địa hóa cho thông báo chấm dứt hợp đồng."
+keywords:
+  - lý do thông báo
+  - mô tả chấm dứt
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

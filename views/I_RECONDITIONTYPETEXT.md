@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONTYPETEXT
 description: Reconditiontypetext
+semantic_en: "Real estate condition type text — localized names for condition types across languages."
+semantic_vi: "Văn bản loại điều kiện bất động sản — tên đã bản địa hóa cho loại điều kiện trên các ngôn ngữ."
+keywords:
+  - loại điều kiện
+  - tên điều kiện
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

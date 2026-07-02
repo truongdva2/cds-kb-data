@@ -1,6 +1,12 @@
 ---
 name: I_PURORDACCOUNTASSIGNMENTAPI01
 description: Purordaccountassignmentapi 01
+semantic_en: "purchase order account assignment — cost allocation by cost center, fixed asset, project, or GL account per order item."
+semantic_vi: "gán tài khoản đơn hàng mua — phân bổ chi phí theo trung tâm chi phí, tài sản cố định, dự án hay tài khoản sổ cái."
+keywords:
+  - gán tài khoản
+  - đơn hàng mua
+  - chi phí
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

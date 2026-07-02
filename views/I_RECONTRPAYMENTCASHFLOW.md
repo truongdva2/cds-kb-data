@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRPAYMENTCASHFLOW
 description: Recontrpaymentcashflow
+semantic_en: "Real estate contract payment cashflow — tracks payment-related cashflow with calculation periods and document references."
+semantic_vi: "Dòng tiền thanh toán hợp đồng bất động sản — theo dõi dòng tiền liên quan đến thanh toán với các kỳ tính toán và tài liệu tham khảo."
+keywords:
+  - dòng tiền thanh toán
+  - kỳ tính toán
+  - thanh toán
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

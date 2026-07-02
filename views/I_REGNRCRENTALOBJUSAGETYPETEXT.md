@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJUSAGETYPETEXT
 description: Regnrcrentalobjusagetypetext
+semantic_en: "usage type text lookup — provides localized descriptions for rental object usage types."
+semantic_vi: "bảng mô tả loại sử dụng — cung cấp mô tả đa ngôn ngữ cho loại sử dụng."
+keywords:
+  - loại sử dụng
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

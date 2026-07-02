@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRBALANCEDERIVATIONRULE
 description: Racontrbalancederivationrule
+semantic_en: "Revenue accounting contract balance derivation rule — determines how contract asset/liability balance is calculated"
+semantic_vi: "Quy tắc dẫn xuất số dư hợp đồng kế toán doanh thu — xác định cách tính số dư tài sản/nợ phải trả hợp đồng"
+keywords:
+  - hợp đồng doanh thu
+  - số dư
+  - quy tắc tính
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

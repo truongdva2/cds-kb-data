@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACT
 description: Recontract
+semantic_en: "Real estate contract master data — core contract identifiers, status, creation and change tracking."
+semantic_vi: "Dữ liệu chính hợp đồng bất động sản — mã định danh hợp đồng cốt lõi, trạng thái, theo dõi tạo và thay đổi."
+keywords:
+  - hợp đồng bất động sản
+  - mã hợp đồng
+  - trạng thái hợp đồng
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REGIONALSTRUCTURECHECKSTATUS
 description: Regionalstructurecheckstatus
+semantic_en: "Regional structure check status — classification for validation status of regional structure configurations."
+semantic_vi: "Trạng thái kiểm tra cấu trúc khu vực — phân loại cho trạng thái xác thực của các cấu hình cấu trúc khu vực."
+keywords:
+  - trạng thái kiểm tra
+  - cấu trúc khu vực
+  - phân loại
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

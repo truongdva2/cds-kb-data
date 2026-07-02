@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYLEVEL
 description: Qualitylevel
+semantic_en: "Quality level — defines sampling inspection requirements based on supplier, material, and inspection lot type"
+semantic_vi: "Mức chất lượng — xác định yêu cầu kiểm tra lấy mẫu dựa trên nhà cung cấp, vật liệu và loại lô kiểm tra"
+keywords:
+  - mức chất lượng
+  - lấy mẫu
+  - kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

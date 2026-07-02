@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTTYPE_2
 description: Recontracttype 2
+semantic_en: "Real estate contract type — defines contract characteristics including condition groups, adjustment numbers, and roles."
+semantic_vi: "Loại hợp đồng bất động sản — định nghĩa các đặc điểm hợp đồng bao gồm nhóm điều kiện, số điều chỉnh và các vai trò."
+keywords:
+  - loại hợp đồng
+  - nhóm điều kiện
+  - quy tắc điều chỉnh
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

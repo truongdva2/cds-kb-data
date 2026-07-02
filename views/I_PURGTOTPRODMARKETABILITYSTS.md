@@ -1,6 +1,12 @@
 ---
 name: I_PURGTOTPRODMARKETABILITYSTS
 description: Purgtotprodmarketabilitysts
+semantic_en: "product marketability status aggregated — domain values for total product marketability compliance classification."
+semantic_vi: "trạng thái khả năng tiêu thụ sản phẩm tổng thể — các giá trị miền cho phân loại tuân thủ khả năng tiêu thụ tổng hợp."
+keywords:
+  - khả năng tiêu thụ
+  - sản phẩm
+  - tổng thể
 app_component: MM
 software_component: SAPSCORE
 release_state: released

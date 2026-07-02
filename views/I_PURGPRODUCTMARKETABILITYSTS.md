@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRODUCTMARKETABILITYSTS
 description: Purgproductmarketabilitysts
+semantic_en: "product marketability compliance status — domain values for product marketability regulatory compliance."
+semantic_vi: "trạng thái tuân thủ khả năng tiêu thụ sản phẩm — các giá trị miền cho tuân thủ quy định khả năng tiêu thụ."
+keywords:
+  - khả năng tiêu thụ
+  - sản phẩm
+  - tuân thủ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

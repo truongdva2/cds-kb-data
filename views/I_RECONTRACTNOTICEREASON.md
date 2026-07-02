@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTNOTICEREASON
 description: Recontractnoticereason
+semantic_en: "Contract notice reason — defines termination reasons with vacancy classification and applicability flags."
+semantic_vi: "Lý do thông báo hợp đồng — định nghĩa lý do chấm dứt với phân loại trống rỗng và cờ khả năng áp dụng."
+keywords:
+  - lý do chấm dứt
+  - lý do thông báo
+  - trống rỗng
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

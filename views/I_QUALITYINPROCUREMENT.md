@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYINPROCUREMENT
 description: Qualityinprocurement
+semantic_en: "Quality info record in procurement — tracks supplier quality release status, approved quantities, and certificates"
+semantic_vi: "Bản ghi thông tin chất lượng trong mua hàng — theo dõi trạng thái phát hành chất lượng nhà cung cấp, số lượng được phê duyệt và chứng chỉ"
+keywords:
+  - chất lượng mua hàng
+  - phê duyệt nhà cung cấp
+  - số lượng phát hành
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

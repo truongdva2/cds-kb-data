@@ -1,6 +1,12 @@
 ---
 name: I_REAUTHORIZATIONGROUP
 description: Reauthorizationgroup
+semantic_en: "real estate authorization group — authorization group definitions for real estate object types."
+semantic_vi: "nhóm ủy quyền bất động sản — định nghĩa nhóm ủy quyền cho bất động sản."
+keywords:
+  - ủy quyền
+  - nhóm
+  - bất động sản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

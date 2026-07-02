@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRODCMPLNCSUPPLIERSTATUS
 description: Purgprodcmplncsupplierstatus
+semantic_en: "supplier product compliance status — domain values for procurement compliance of items by supplier."
+semantic_vi: "trạng thái tuân thủ sản phẩm của nhà cung cấp — các giá trị miền cho tuân thủ mua hàng theo mục."
+keywords:
+  - tuân thủ sản phẩm
+  - nhà cung cấp
+  - mua hàng
 app_component: MM
 software_component: SAPSCORE
 release_state: released

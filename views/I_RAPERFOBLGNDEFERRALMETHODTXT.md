@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNDEFERRALMETHODTXT
 description: Raperfoblgndeferralmethodtxt
+semantic_en: "revenue accounting deferral method text — localized descriptions of deferral methods by language."
+semantic_vi: "văn bản phương pháp hoãn lại — mô tả phương pháp hoãn lại theo ngôn ngữ."
+keywords:
+  - phương pháp hoãn lại
+  - văn bản
+  - doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

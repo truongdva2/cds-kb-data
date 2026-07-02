@@ -1,6 +1,12 @@
 ---
 name: I_PURORDERINVOICINGPLANTP_2
 description: Purorderinvoicingplantp 2
+semantic_en: "purchase order invoicing plan projection — milestone-based invoicing schedule with date rules and purchasing parameters."
+semantic_vi: "chiếu hình kế hoạch hóa đơn đơn hàng mua — lịch trình hóa đơn theo cột mốc với quy tắc ngày và thông số mua hàng."
+keywords:
+  - hóa đơn
+  - kế hoạch
+  - đơn hàng mua
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

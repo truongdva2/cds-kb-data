@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONTASKTP
 description: Qltynotificationtasktp
+semantic_en: "Quality notification task — TP variant with task completion status and assigned responsibility information"
+semantic_vi: "Tác vụ thông báo chất lượng — biến thể TP với trạng thái hoàn thành tác vụ và thông tin trách nhiệm gán"
+keywords:
+  - tác vụ thông báo
+  - hoàn thành tác vụ
+  - trách nhiệm
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

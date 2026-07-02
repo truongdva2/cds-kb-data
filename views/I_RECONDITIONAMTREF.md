@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONAMTREF
 description: Reconditionamtref
+semantic_en: "real estate condition amount reference — domain values for condition amount reference types."
+semantic_vi: "tham chiếu số tiền điều kiện bất động sản — phân loại loại tham chiếu."
+keywords:
+  - điều kiện
+  - số tiền
+  - tham chiếu
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

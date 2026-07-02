@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTOBJECTASSGMT
 description: Recontractobjectassgmt
+semantic_en: "Real estate object assignments — tracks assignment relationships between status objects with validity dates and possession dates."
+semantic_vi: "Gán đối tượng bất động sản — theo dõi các mối quan hệ gán giữa các đối tượng trạng thái với ngày có hiệu lực và ngày sở hữu."
+keywords:
+  - gán đối tượng
+  - quan hệ gán
+  - ngày hiệu lực
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

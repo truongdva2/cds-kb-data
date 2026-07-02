@@ -1,6 +1,12 @@
 ---
 name: I_QLTYINPROCMTSTATUSTP_2
 description: Qltyinprocmtstatustp 2
+semantic_en: "quality information in procurement status projection — quality record status with workflow and user status profiles."
+semantic_vi: "chiếu hình trạng thái thông tin chất lượng trong mua hàng — trạng thái hồ sơ chất lượng với quy trình và hồ sơ trạng thái người dùng."
+keywords:
+  - chất lượng
+  - mua hàng
+  - trạng thái
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REFERENCEINTERESTRATE
 description: Referenceinterestrate
+semantic_en: "Reference interest rate — interest rate benchmarks with tenor and effective dates for treasury operations."
+semantic_vi: "Tỷ lệ lãi suất tham khảo — các chỉ số lãi suất với kỳ hạn và ngày có hiệu lực cho các hoạt động kho bạc."
+keywords:
+  - lãi suất tham khảo
+  - kỳ hạn
+  - tỷ lệ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

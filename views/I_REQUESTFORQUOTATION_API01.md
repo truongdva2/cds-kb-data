@@ -1,6 +1,12 @@
 ---
 name: I_REQUESTFORQUOTATION_API01
 description: Requestforquotation Api 01
+semantic_en: "request for quotation — aggregates quotation request metadata including document, company, organizational, currency and incoterms details."
+semantic_vi: "yêu cầu báo giá — tập hợp siêu dữ liệu yêu cầu báo giá bao gồm tài liệu, công ty, thông tin tổ chức, tiền tệ và chi tiết điều kiện giao hàng."
+keywords:
+  - yêu cầu báo giá
+  - tài liệu
+  - giá
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_RAPERFOBLGNCHANGETYPEITEM
 description: Raperfoblgnchangetypeitem
+semantic_en: "performance obligation change type item — revenue contract change details with price allocations and effective dates."
+semantic_vi: "mục thay đổi loại nghĩa vụ hiệu suất — chi tiết thay đổi hợp đồng doanh thu với phân bổ giá."
+keywords:
+  - thay đổi hợp đồng
+  - doanh thu
+  - giá
+  - hiệu suất
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

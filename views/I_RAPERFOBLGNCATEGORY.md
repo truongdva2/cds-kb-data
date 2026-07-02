@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNCATEGORY
 description: Raperfoblgncategory
+semantic_en: "revenue accounting performance obligation category — domain values for obligation classification in RA."
+semantic_vi: "danh mục nghĩa vụ hiệu suất kế toán doanh thu — phân loại nghĩa vụ trong RA."
+keywords:
+  - kế toán doanh thu
+  - danh mục
+  - nghĩa vụ
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

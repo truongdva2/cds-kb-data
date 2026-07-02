@@ -1,6 +1,12 @@
 ---
 name: I_REPRORATAMETHOD
 description: Reproratamethod
+semantic_en: "pro rata method classification — defines pro rata calculation method types."
+semantic_vi: "phân loại phương pháp tính theo tỷ lệ — định nghĩa loại phương pháp tính theo tỷ lệ."
+keywords:
+  - tỷ lệ
+  - phương pháp
+  - tính toán
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

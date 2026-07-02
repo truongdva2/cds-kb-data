@@ -1,6 +1,12 @@
 ---
 name: I_REDOCUMENTHEADER
 description: Redocumentheader
+semantic_en: "Real estate document header — document control data including posting date, fiscal year and reversal tracking."
+semantic_vi: "Tiêu đề tài liệu bất động sản — dữ liệu kiểm soát tài liệu bao gồm ngày ghi sổ, năm tài chính và theo dõi đảo ngược."
+keywords:
+  - tiêu đề tài liệu
+  - ngày ghi sổ
+  - đảo ngược
 app_component: RE-FX-RA-2CL
 software_component: SAPSCORE
 release_state: released

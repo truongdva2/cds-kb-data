@@ -1,6 +1,12 @@
 ---
 name: I_QTNLIFECYCLESTATUSTEXT
 description: Qtnlifecyclestatustext
+semantic_en: "Quotation lifecycle status text — multilingual labels and descriptions for quotation state codes"
+semantic_vi: "Văn bản trạng thái vòng đời báo giá — nhãn và mô tả đa ngôn ngữ cho mã trạng thái báo giá"
+keywords:
+  - báo giá
+  - trạng thái
+  - văn bản mô tả
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONPURPOSEEXT
 description: Reconditionpurposeext
+semantic_en: "Real estate external condition purpose — defines purposes for rental conditions with allowance rules for objects and contracts."
+semantic_vi: "Mục đích điều kiện bên ngoài bất động sản — định nghĩa các mục đích cho điều kiện thuê với quy tắc cho phép đối với các đối tượng và hợp đồng."
+keywords:
+  - mục đích điều kiện
+  - quy tắc cho phép
+  - bất động sản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURORDHISTDELIVERYCOSTAPI01
 description: Purordhistdeliverycostapi 01
+semantic_en: "purchase order history delivery cost — cost analysis and pricing breakdowns from historical purchase transactions."
+semantic_vi: "chi phí giao hàng lịch sử đơn hàng mua — phân tích chi phí và chi tiết giá từ giao dịch mua hàng lịch sử."
+keywords:
+  - chi phí giao hàng
+  - lịch sử
+  - đơn hàng mua
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

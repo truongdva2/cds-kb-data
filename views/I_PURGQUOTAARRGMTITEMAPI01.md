@@ -1,6 +1,12 @@
 ---
 name: I_PURGQUOTAARRGMTITEMAPI01
 description: Purgquotaarrgmtitemapi 01
+semantic_en: "purchasing quota arrangement item — quota allocation details by procurement category, supplier, and plant with quantities."
+semantic_vi: "mục thỏa thuận hạn ngạch mua hàng — chi tiết cấp phát hạn ngạch theo danh mục mua hàng, nhà cung cấp và nhà máy."
+keywords:
+  - hạn ngạch
+  - mục
+  - cấp phát
 app_component: MM-PUR-SQ-QTA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REFERENCEENTITY
 description: Referenceentity
+semantic_en: "Reference entity attribute — treasury reference entities linking companies and business partners."
+semantic_vi: "Thuộc tính thực thể tham khảo — các thực thể tham khảo kho bạc liên kết các công ty và đối tác kinh doanh."
+keywords:
+  - thực thể tham khảo
+  - kho bạc
+  - công ty
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

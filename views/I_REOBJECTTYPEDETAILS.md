@@ -1,6 +1,12 @@
 ---
 name: I_REOBJECTTYPEDETAILS
 description: Reobjecttypedetails
+semantic_en: "real estate object type details — provides comprehensive object details including status, type, identification and accounting references."
+semantic_vi: "chi tiết loại đối tượng bất động sản — cung cấp chi tiết đối tượng bao gồm trạng thái, loại, xác định và tham chiếu kế toán."
+keywords:
+  - chi tiết đối tượng
+  - bất động sản
+  - kế toán
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

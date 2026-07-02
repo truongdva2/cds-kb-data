@@ -1,6 +1,12 @@
 ---
 name: I_PURPRODUCTTAXCLASSIFICATIONT
 description: Purproducttaxclassificationt
+semantic_en: "product tax classification text — language-dependent names for product-country tax classification rules."
+semantic_vi: "tên phân loại thuế sản phẩm — tên theo ngôn ngữ cho quy tắc phân loại thuế sản phẩm-quốc gia."
+keywords:
+  - thuế
+  - sản phẩm
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

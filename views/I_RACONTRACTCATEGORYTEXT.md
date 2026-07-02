@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRACTCATEGORYTEXT
 description: Racontractcategorytext
+semantic_en: "Revenue accounting contract category text — multilingual descriptions of revenue contract classifications"
+semantic_vi: "Văn bản danh mục hợp đồng kế toán doanh thu — mô tả đa ngôn ngữ của phân loại hợp đồng doanh thu"
+keywords:
+  - hợp đồng doanh thu
+  - phân loại
+  - mô tả
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

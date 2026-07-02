@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRBALANCEDRVTNRULETEXT
 description: Racontrbalancedrvtnruletext
+semantic_en: "Revenue accounting contract balance derivation rule text — multilingual names for balance calculation methods"
+semantic_vi: "Văn bản quy tắc dẫn xuất số dư hợp đồng kế toán doanh thu — tên đa ngôn ngữ cho các phương pháp tính số dư"
+keywords:
+  - quy tắc số dư
+  - tính toán
+  - doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

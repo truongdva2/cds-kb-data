@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRODCMPLNCSUPPLIERSTST
 description: Purgprodcmplncsupplierstst
+semantic_en: "supplier product compliance status text — language-dependent text labels for procurement compliance status of items by supplier."
+semantic_vi: "tên trạng thái tuân thủ sản phẩm nhà cung cấp — nhãn văn bản theo ngôn ngữ cho tuân thủ mua hàng theo mục."
+keywords:
+  - tuân thủ sản phẩm
+  - nhà cung cấp
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

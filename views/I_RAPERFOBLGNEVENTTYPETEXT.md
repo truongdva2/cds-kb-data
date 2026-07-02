@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNEVENTTYPETEXT
 description: Raperfoblgneventtypetext
+semantic_en: "revenue accounting event type text — localized descriptions of performance obligation events by language."
+semantic_vi: "văn bản loại sự kiện doanh thu — mô tả sự kiện nghĩa vụ theo ngôn ngữ."
+keywords:
+  - sự kiện
+  - doanh thu
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

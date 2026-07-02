@@ -1,6 +1,12 @@
 ---
 name: I_REGION
 description: Region
+semantic_en: "Region — geographic region master data by country classification."
+semantic_vi: "Vùng — dữ liệu chính vùng địa lý theo phân loại quốc gia."
+keywords:
+  - vùng
+  - quốc gia
+  - địa lý
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

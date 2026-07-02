@@ -1,6 +1,12 @@
 ---
 name: I_REALESTATEVALUATIONRULETEXT
 description: Real EstateVALUATIONRULETEXT
+semantic_en: "real estate valuation rule text — localized names and descriptions of valuation rules by language."
+semantic_vi: "văn bản quy tắc định giá bất động sản — tên quy tắc theo ngôn ngữ."
+keywords:
+  - định giá
+  - bất động sản
+  - quy tắc
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

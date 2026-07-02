@@ -1,6 +1,12 @@
 ---
 name: I_REPRORATAMETHODCALCTEXT
 description: Reproratamethodcalctext
+semantic_en: "pro rata calculation method text lookup — provides localized descriptions for pro rata calculation methods."
+semantic_vi: "bảng mô tả phương pháp tính toán theo tỷ lệ — cung cấp mô tả đa ngôn ngữ cho phương pháp."
+keywords:
+  - tỷ lệ
+  - tính toán
+  - mô tả
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

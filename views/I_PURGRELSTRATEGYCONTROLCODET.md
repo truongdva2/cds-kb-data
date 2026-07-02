@@ -1,6 +1,12 @@
 ---
 name: I_PURGRELSTRATEGYCONTROLCODET
 description: Purgrelstrategycontrolcodet
+semantic_en: "procurement release control code text — language-dependent names for purchase document release strategy codes."
+semantic_vi: "tên mã kiểm soát chiến lược phát hành mua hàng — tên theo ngôn ngữ cho mã chiến lược phát hành tài liệu."
+keywords:
+  - phát hành
+  - mã
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

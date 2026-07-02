@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYMANAGEMENTSYSTEM
 description: Qualitymanagementsystem
+semantic_en: "Quality management system — defines organizational quality standards and certification status"
+semantic_vi: "Hệ thống quản lý chất lượng — xác định các tiêu chuẩn chất lượng của tổ chức và trạng thái chứng chỉ"
+keywords:
+  - hệ thống QM
+  - chứng chỉ chất lượng
+  - tiêu chuẩn
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

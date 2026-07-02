@@ -1,6 +1,12 @@
 ---
 name: I_REPRICINGPRICINGTYPE
 description: Repricingpricingtype
+semantic_en: "pricing type for repricing — provides pricing type reference for repricing operations."
+semantic_vi: "loại giá cho định giá lại — cung cấp tham chiếu loại giá cho hoạt động định giá lại."
+keywords:
+  - loại giá
+  - định giá lại
+  - giá cả
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

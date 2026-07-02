@@ -1,6 +1,12 @@
 ---
 name: I_REINTEGOBJECTINTCONTRSETUP
 description: Reintegobjectintcontrsetup
+semantic_en: "integration object for internal contract setup — maps contract types and start dates."
+semantic_vi: "đối tượng tích hợp thiết lập hợp đồng nội bộ — ánh xạ loại hợp đồng và ngày bắt đầu."
+keywords:
+  - hợp đồng
+  - tích hợp
+  - thiết lập
 app_component: RE-FX-IP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REPORTINGPERIOD
 description: Reportingperiod
+semantic_en: "reporting period code — classifies reporting period types used in manufacturing."
+semantic_vi: "mã kỳ báo cáo — phân loại loại kỳ báo cáo sử dụng trong sản xuất."
+keywords:
+  - kỳ báo cáo
+  - mã
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REFERENCEINTERESTRATEVAL
 description: Referenceinterestrateval
+semantic_en: "Reference interest rate value — effective interest rate values indexed by date and rate type."
+semantic_vi: "Giá trị tỷ lệ lãi suất tham khảo — giá trị tỷ lệ lãi suất có hiệu lực được lập chỉ mục theo ngày và loại tỷ lệ."
+keywords:
+  - giá trị lãi suất
+  - tỷ lệ có hiệu lực
+  - ngày
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REARCHITECTUREOBJECT
 description: Rearchitectureobject
+semantic_en: "real estate architecture object — master data for architecture objects including type, status, and identification."
+semantic_vi: "đối tượng kiến trúc bất động sản — dữ liệu chính cho đối tượng kiến trúc."
+keywords:
+  - kiến trúc
+  - bất động sản
+  - đối tượng
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

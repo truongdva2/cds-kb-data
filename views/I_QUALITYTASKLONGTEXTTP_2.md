@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYTASKLONGTEXTTP_2
 description: Qualitytasklongtexttp 2
+semantic_en: "Quality task long text — TP variant with extended description and document details for quality task content"
+semantic_vi: "Văn bản dài tác vụ chất lượng — biến thể TP với mô tả mở rộng và chi tiết tài liệu cho nội dung tác vụ chất lượng"
+keywords:
+  - tác vụ chất lượng
+  - chi tiết văn bản
+  - tài liệu
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

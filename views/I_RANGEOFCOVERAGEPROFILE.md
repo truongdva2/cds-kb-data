@@ -1,6 +1,12 @@
 ---
 name: I_RANGEOFCOVERAGEPROFILE
 description: Rangeofcoverageprofile
+semantic_en: "Range of coverage profile — defines stock replenishment planning parameters by planning profile and plant"
+semantic_vi: "Hồ sơ phạm vi bảo phủ — xác định các tham số quy hoạch bổ sung hàng tồn kho theo hồ sơ quy hoạch và nhà máy"
+keywords:
+  - bảo phủ hàng tồn kho
+  - quy hoạch
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICETYPETEXT
 description: Renoticetypetext
+semantic_en: "notice type text lookup — provides localized descriptions for notice type classifications."
+semantic_vi: "bảng mô tả loại thông báo — cung cấp mô tả đa ngôn ngữ cho phân loại loại thông báo."
+keywords:
+  - loại thông báo
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

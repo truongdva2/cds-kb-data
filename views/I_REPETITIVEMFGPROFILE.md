@@ -1,6 +1,12 @@
 ---
 name: I_REPETITIVEMFGPROFILE
 description: Repetitivemfgprofile
+semantic_en: "repetitive manufacturing profile — defines production profiles with movement types for goods issue and receipt."
+semantic_vi: "hồ sơ sản xuất lặp lại — định nghĩa hồ sơ sản xuất với loại chuyển động cho xuất phát và nhập kho."
+keywords:
+  - sản xuất
+  - hồ sơ
+  - loại chuyển động
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

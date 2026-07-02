@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNRELEASECONTROLCODET
 description: Purreqnreleasecontrolcodet
+semantic_en: "purchase requisition release control code text — language-dependent names for requisition release authorization rules."
+semantic_vi: "tên mã kiểm soát phát hành yêu cầu mua — tên theo ngôn ngữ cho quy tắc ủy quyền phát hành yêu cầu."
+keywords:
+  - phát hành
+  - yêu cầu mua
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

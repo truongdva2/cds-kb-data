@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYCERTIFICATETYPE
 description: Qualitycertificatetype
+semantic_en: "Quality certificate type — classification of quality certificates and compliance documents"
+semantic_vi: "Loại chứng chỉ chất lượng — phân loại các chứng chỉ chất lượng và tài liệu tuân thủ"
+keywords:
+  - chứng chỉ chất lượng
+  - loại chứng chỉ
+  - tuân thủ
 app_component: QM-CA-2CL
 software_component: SAPSCORE
 release_state: released

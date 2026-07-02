@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONTP
 description: Qltynotificationtp
+semantic_en: "Quality notification — TP variant with lifecycle phase, priority, and status tracking for quality issues"
+semantic_vi: "Thông báo chất lượng — biến thể TP với theo dõi giai đoạn vòng đời, ưu tiên và trạng thái cho các vấn đề chất lượng"
+keywords:
+  - thông báo chất lượng
+  - ưu tiên
+  - trạng thái vòng đời
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

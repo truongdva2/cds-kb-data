@@ -1,6 +1,13 @@
 ---
 name: I_RAPERFOBLGNMNGREVNCONTRTP
 description: Raperfoblgnmngrevncontrtp
+semantic_en: "performance obligation management revenue contract — transactional data for revenue contract obligations with pricing and status."
+semantic_vi: "quản lý nghĩa vụ hợp đồng doanh thu — dữ liệu giao dịch cho nghĩa vụ hợp đồng với giá và trạng thái."
+keywords:
+  - hợp đồng doanh thu
+  - quản lý
+  - giá
+  - trạng thái
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

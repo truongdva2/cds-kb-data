@@ -1,6 +1,12 @@
 ---
 name: I_REFREQUENCYUNITTEXT
 description: Refrequencyunittext
+semantic_en: "Real estate frequency unit text — localized names for frequency measurement units."
+semantic_vi: "Văn bản đơn vị tần suất bất động sản — tên đã bản địa hóa cho các đơn vị đo tần suất."
+keywords:
+  - đơn vị tần suất
+  - tên đơn vị
+  - đa ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

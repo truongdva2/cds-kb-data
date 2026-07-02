@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRRHYTHMTERM
 description: Recontrrhythmterm
+semantic_en: "Real estate rhythm term — defines payment frequency, pro-rata calculation method and payment timing for contract terms."
+semantic_vi: "Kỳ hạn nhịp điệu bất động sản — định nghĩa tần suất thanh toán, phương pháp tính theo tỷ lệ và thời gian thanh toán cho các kỳ hạn hợp đồng."
+keywords:
+  - kỳ hạn nhịp điệu
+  - tần suất thanh toán
+  - tính theo tỷ lệ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

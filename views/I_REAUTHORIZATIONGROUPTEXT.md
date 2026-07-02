@@ -1,6 +1,12 @@
 ---
 name: I_REAUTHORIZATIONGROUPTEXT
 description: Reauthorizationgrouptext
+semantic_en: "real estate authorization group text — localized names of authorization groups by language and object type."
+semantic_vi: "văn bản nhóm ủy quyền bất động sản — tên nhóm ủy quyền theo ngôn ngữ."
+keywords:
+  - ủy quyền
+  - nhóm
+  - văn bản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

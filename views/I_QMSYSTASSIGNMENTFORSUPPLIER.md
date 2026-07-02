@@ -1,6 +1,12 @@
 ---
 name: I_QMSYSTASSIGNMENTFORSUPPLIER
 description: Qmsystassignmentforsupplier
+semantic_en: "Quality management system assignment for supplier — maps supplier quality requirements to QM systems"
+semantic_vi: "Gán hệ thống quản lý chất lượng cho nhà cung cấp — ánh xạ yêu cầu chất lượng nhà cung cấp tới hệ thống QM"
+keywords:
+  - hệ thống QM
+  - nhà cung cấp
+  - yêu cầu chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

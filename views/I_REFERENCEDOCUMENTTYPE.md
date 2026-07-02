@@ -1,6 +1,12 @@
 ---
 name: I_REFERENCEDOCUMENTTYPE
 description: Referencedocumenttype
+semantic_en: "Reference document type — classification for document types used in reference and traceability scenarios."
+semantic_vi: "Loại tài liệu tham khảo — phân loại cho loại tài liệu được sử dụng trong các tình huống tham khảo và truy xuất."
+keywords:
+  - loại tài liệu
+  - tham khảo
+  - phân loại
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

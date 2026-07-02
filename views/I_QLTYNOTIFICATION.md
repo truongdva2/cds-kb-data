@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATION
 description: Qltynotification
+semantic_en: "Quality notification — tracks issues, defects, and complaints across lifecycle phases"
+semantic_vi: "Thông báo chất lượng — theo dõi các sự cố, khuyết tật và khiếu nại trong các giai đoạn vòng đời"
+keywords:
+  - thông báo chất lượng
+  - khiếu nại
+  - theo dõi vấn đề
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REFREQUENCYSTART
 description: Refrequencystart
+semantic_en: "Real estate frequency start — value-help defining the starting point for frequency calculations (month, week, etc)."
+semantic_vi: "Bắt đầu tần suất bất động sản — danh sách điểm bắt đầu cho tính toán tần suất (tháng, tuần, v.v.)."
+keywords:
+  - bắt đầu tần suất
+  - tần suất
+  - tính toán
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

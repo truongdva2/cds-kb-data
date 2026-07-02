@@ -1,6 +1,12 @@
 ---
 name: I_REQUESTFORQUOTATIONITEMTP
 description: Requestforquotationitemtp
+semantic_en: "request for quotation item projection — provides temporal projection of quote request items with material, manufacturer, and delivery details."
+semantic_vi: "chiếu thời gian chi tiết yêu cầu báo giá — cung cấp chiếu dữ liệu chi tiết báo giá với vật liệu, nhà sản xuất và chi tiết giao hàng."
+keywords:
+  - yêu cầu báo giá
+  - chi tiết
+  - vật liệu
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

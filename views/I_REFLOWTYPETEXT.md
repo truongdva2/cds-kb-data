@@ -1,6 +1,12 @@
 ---
 name: I_REFLOWTYPETEXT
 description: Reflowtypetext
+semantic_en: "Flow type text — localized names for financial flow type classifications."
+semantic_vi: "Văn bản loại dòng — tên đã bản địa hóa cho phân loại loại dòng tài chính."
+keywords:
+  - loại dòng
+  - tên loại
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

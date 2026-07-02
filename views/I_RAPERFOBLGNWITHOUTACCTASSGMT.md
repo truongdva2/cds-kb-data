@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNWITHOUTACCTASSGMT
 description: Raperfoblgnwithoutacctassgmt
+semantic_en: "revenue accounting performance obligation without account assignment — obligation details excluding accounting assignments."
+semantic_vi: "nghĩa vụ kế toán doanh thu không gán tài khoản — chi tiết nghĩa vụ không có gán tài khoản."
+keywords:
+  - nghĩa vụ
+  - doanh thu
+  - không gán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

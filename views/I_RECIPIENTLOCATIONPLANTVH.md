@@ -1,6 +1,12 @@
 ---
 name: I_RECIPIENTLOCATIONPLANTVH
 description: Recipientlocationplantvh
+semantic_en: "recipient location plant value help — value help view for selecting plants by recipient location."
+semantic_vi: "hỗ trợ giá trị nhà máy địa điểm người nhận — danh sách lựa chọn nhà máy theo địa điểm."
+keywords:
+  - nhà máy
+  - địa điểm
+  - bảo trì
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PUTAWAYSTATUS
 description: Putawaystatus
+semantic_en: "putaway status — domain values for warehouse putaway operation completion state."
+semantic_vi: "trạng thái đưa hàng lên kệ — các giá trị miền cho trạng thái hoàn tất hoạt động đưa hàng lên kệ kho."
+keywords:
+  - đưa hàng lên kệ
+  - kho
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

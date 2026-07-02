@@ -1,6 +1,12 @@
 ---
 name: I_QLTYPROCMTCERTTP_2
 description: Qltyprocmtcerttp 2
+semantic_en: "Quality procurement certificate receipt — TP variant tracking supplier quality certificates by purchase order and material receipt"
+semantic_vi: "Biên lai chứng chỉ mua hàng chất lượng — biến thể TP theo dõi các chứng chỉ chất lượng nhà cung cấp theo đơn mua và biên nhận hàng"
+keywords:
+  - chứng chỉ chất lượng
+  - mua hàng
+  - biên nhận hàng
 app_component: QM-CA-2CL
 software_component: SAPSCORE
 release_state: released

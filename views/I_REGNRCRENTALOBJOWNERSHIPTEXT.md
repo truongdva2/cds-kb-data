@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJOWNERSHIPTEXT
 description: Regnrcrentalobjownershiptext
+semantic_en: "ownership classification text lookup — provides localized descriptions for rental property ownership types."
+semantic_vi: "bảng mô tả phân loại sở hữu — cung cấp mô tả đa ngôn ngữ cho loại sở hữu tài sản."
+keywords:
+  - sở hữu
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

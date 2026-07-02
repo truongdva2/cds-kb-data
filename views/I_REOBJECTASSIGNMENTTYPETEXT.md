@@ -1,6 +1,12 @@
 ---
 name: I_REOBJECTASSIGNMENTTYPETEXT
 description: Reobjectassignmenttypetext
+semantic_en: "assignment type text lookup — provides localized descriptions for real estate object assignment types."
+semantic_vi: "bảng mô tả loại phân công — cung cấp mô tả đa ngôn ngữ cho loại phân công."
+keywords:
+  - phân công
+  - mô tả
+  - loại
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

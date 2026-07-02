@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYNOTIFICATIONITEMTP
 description: Quality NotificationICATIONITEMTP
+semantic_en: "Quality notification item — TP variant with defect class, assembly details, and inspection characteristic mapping"
+semantic_vi: "Mục thông báo chất lượng — biến thể TP với phân loại khuyết tật, chi tiết lắp ráp và ánh xạ đặc tính kiểm tra"
+keywords:
+  - mục chất lượng
+  - khuyết tật
+  - lắp ráp
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

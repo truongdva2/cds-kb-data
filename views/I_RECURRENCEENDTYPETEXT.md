@@ -1,6 +1,12 @@
 ---
 name: I_RECURRENCEENDTYPETEXT
 description: Recurrenceendtypetext
+semantic_en: "Recurrence end type text — localized names for recurrence termination types."
+semantic_vi: "Văn bản loại kết thúc lặp lại — tên đã bản địa hóa cho loại chấm dứt lặp lại."
+keywords:
+  - kết thúc lặp lại
+  - tên loại
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REDOCUMENTITEM
 description: Redocumentitem
+semantic_en: "Real estate document item — line-item details for real estate documents with references and posting parameters."
+semantic_vi: "Mục tài liệu bất động sản — chi tiết mục hàng cho tài liệu bất động sản với các tài liệu tham khảo và tham số ghi sổ."
+keywords:
+  - mục tài liệu
+  - chi tiết mục
+  - tham số ghi sổ
 app_component: RE-FX-RA-2CL
 software_component: SAPSCORE
 release_state: released

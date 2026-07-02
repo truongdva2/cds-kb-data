@@ -1,6 +1,12 @@
 ---
 name: I_REPETITIVEMFGPROFILEVH
 description: Repetitivemfgprofilevh
+semantic_en: "value help for manufacturing profile — displays profile codes with production type classification."
+semantic_vi: "danh sách giúp chọn hồ sơ sản xuất — hiển thị mã hồ sơ với phân loại loại sản xuất."
+keywords:
+  - sản xuất
+  - hồ sơ
+  - danh sách lựa chọn
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

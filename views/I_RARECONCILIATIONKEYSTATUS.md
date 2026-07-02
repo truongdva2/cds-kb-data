@@ -1,6 +1,12 @@
 ---
 name: I_RARECONCILIATIONKEYSTATUS
 description: Rareconciliationkeystatus
+semantic_en: "revenue accounting reconciliation key status — domain values for reconciliation key status tracking."
+semantic_vi: "trạng thái khoá điều hoà kế toán doanh thu — phân loại trạng thái khoá."
+keywords:
+  - khoá điều hoà
+  - trạng thái
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

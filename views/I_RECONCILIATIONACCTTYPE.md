@@ -1,6 +1,12 @@
 ---
 name: I_RECONCILIATIONACCTTYPE
 description: Reconciliationaccttype
+semantic_en: "reconciliation account type — domain values for categorizing reconciliation account types."
+semantic_vi: "loại tài khoản điều hoà — phân loại loại tài khoản điều hoà."
+keywords:
+  - tài khoản điều hoà
+  - loại
+  - hối đoái
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

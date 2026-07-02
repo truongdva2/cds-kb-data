@@ -1,6 +1,12 @@
 ---
 name: I_REFREQUENCYSTARTTEXT
 description: Refrequencystarttext
+semantic_en: "Real estate frequency start text — localized names for frequency start point definitions."
+semantic_vi: "Văn bản bắt đầu tần suất bất động sản — tên đã bản địa hóa cho các định nghĩa điểm bắt đầu tần suất."
+keywords:
+  - bắt đầu tần suất
+  - tên loại
+  - đa ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

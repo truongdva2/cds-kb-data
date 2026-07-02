@@ -1,6 +1,12 @@
 ---
 name: I_PURSCHEDGAGRMTHISTORYAPI01
 description: Purschedgagrmthistoryapi 01
+semantic_en: "scheduling agreement follow-on documents — history of goods receipts and material movements from scheduling agreements."
+semantic_vi: "tài liệu theo sau thỏa thuận lịch biểu — lịch sử kho hàng nhận và chuyển động vật liệu từ thỏa thuận lịch biểu."
+keywords:
+  - thỏa thuận lịch biểu
+  - lịch sử
+  - giao hàng
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

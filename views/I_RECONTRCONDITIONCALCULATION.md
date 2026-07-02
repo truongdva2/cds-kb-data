@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRCONDITIONCALCULATION
 description: Recontrconditioncalculation
+semantic_en: "Real estate condition calculation factors — detailed calculation elements including factors, amounts and currency."
+semantic_vi: "Các yếu tố tính toán điều kiện bất động sản — các yếu tố tính toán chi tiết bao gồm hệ số, số tiền và tiền tệ."
+keywords:
+  - yếu tố tính toán
+  - số tiền điều kiện
+  - tiền tệ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

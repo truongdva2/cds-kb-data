@@ -1,6 +1,12 @@
 ---
 name: I_REPAYMENTFORM
 description: Repaymentform
+semantic_en: "payment form classification — categorizes payment methods used in real estate transactions."
+semantic_vi: "phân loại hình thức thanh toán — phân loại phương thức thanh toán sử dụng trong giao dịch bất động sản."
+keywords:
+  - hình thức thanh toán
+  - phân loại
+  - giao dịch
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

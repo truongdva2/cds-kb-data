@@ -1,6 +1,13 @@
 ---
 name: I_RAPERFORMANCEOBLIGATION
 description: Raperformanceobligation
+semantic_en: "revenue accounting performance obligation — transaction data for revenue obligations with pricing, currency, and tolerance amounts."
+semantic_vi: "nghĩa vụ hiệu suất kế toán doanh thu — dữ liệu giao dịch cho doanh thu với giá, tiền tệ."
+keywords:
+  - nghĩa vụ
+  - doanh thu
+  - giá
+  - hợp đồng
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

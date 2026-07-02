@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICEPROCEDURE
 description: Renoticeprocedure
+semantic_en: "contract notice procedure — defines procedures for issuing notices with applicability to new assignments."
+semantic_vi: "thủ tục phát hành thông báo — định nghĩa thủ tục phát hành thông báo có áp dụng cho gán mới."
+keywords:
+  - thủ tục
+  - thông báo
+  - hợp đồng
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

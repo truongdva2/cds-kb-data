@@ -1,6 +1,12 @@
 ---
 name: I_PURPRODUCTTAXCLASSIFICATION
 description: Purproducttaxclassification
+semantic_en: "purchasing product tax classification — tax code mapping by product and destination country for compliance."
+semantic_vi: "phân loại thuế sản phẩm mua — ánh xạ mã thuế theo sản phẩm và quốc gia đích địa phương."
+keywords:
+  - thuế
+  - sản phẩm
+  - phân loại
 app_component: MM
 software_component: SAPSCORE
 release_state: released

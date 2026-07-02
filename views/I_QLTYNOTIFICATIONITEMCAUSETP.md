@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONITEMCAUSETP
 description: Qltynotificationitemcausetp
+semantic_en: "Quality notification item cause — TP variant showing root cause details and resolution status for notification items"
+semantic_vi: "Nguyên nhân mục thông báo chất lượng — biến thể TP hiển thị chi tiết nguyên nhân gốc rễ và trạng thái giải quyết cho các mục thông báo"
+keywords:
+  - nguyên nhân mục chất lượng
+  - chi tiết gốc rễ
+  - trạng thái giải quyết
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

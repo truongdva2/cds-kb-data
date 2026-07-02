@@ -1,6 +1,12 @@
 ---
 name: I_REARCHITECTUREOBJECTTYPETEXT
 description: Rearchitectureobjecttypetext
+semantic_en: "real estate architecture object type text — localized descriptions of object types by language."
+semantic_vi: "văn bản loại đối tượng kiến trúc — mô tả loại đối tượng theo ngôn ngữ."
+keywords:
+  - loại đối tượng
+  - văn bản
+  - kiến trúc
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

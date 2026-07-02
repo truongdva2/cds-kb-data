@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYTASKLONGTEXT
 description: Qualitytasklongtext
+semantic_en: "Quality task long text — extended descriptions and attachments for quality tasks across languages"
+semantic_vi: "Văn bản dài tác vụ chất lượng — mô tả mở rộng và tệp đính kèm cho tác vụ chất lượng qua các ngôn ngữ"
+keywords:
+  - tác vụ chất lượng
+  - mô tả mở rộng
+  - tệp đính kèm
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

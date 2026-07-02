@@ -1,6 +1,12 @@
 ---
 name: I_RECNDNCALCRULEEXTTEXT
 description: Recndncalcruleexttext
+semantic_en: "real estate external calculation formula text — localized descriptions of external calculation formulas by language."
+semantic_vi: "văn bản công thức tính toán ngoài bất động sản — mô tả công thức tính toán theo ngôn ngữ."
+keywords:
+  - tính toán
+  - công thức
+  - bất động sản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

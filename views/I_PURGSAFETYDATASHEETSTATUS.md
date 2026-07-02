@@ -1,6 +1,12 @@
 ---
 name: I_PURGSAFETYDATASHEETSTATUS
 description: Purgsafetydatasheetstatus
+semantic_en: "safety data sheet compliance status — domain values for regulatory compliance of safety documentation."
+semantic_vi: "trạng thái tuân thủ bảng dữ liệu an toàn — các giá trị miền cho tuân thủ quy định tài liệu an toàn."
+keywords:
+  - bảng dữ liệu an toàn
+  - tuân thủ
+  - hàng hóa
 app_component: MM
 software_component: SAPSCORE
 release_state: released

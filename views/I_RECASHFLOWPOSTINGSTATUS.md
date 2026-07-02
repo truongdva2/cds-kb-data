@@ -1,6 +1,12 @@
 ---
 name: I_RECASHFLOWPOSTINGSTATUS
 description: Recashflowpostingstatus
+semantic_en: "cash flow posting status — domain values for cash flow posting status classification."
+semantic_vi: "trạng thái ghi sổ dòng tiền — phân loại trạng thái ghi sổ dòng tiền."
+keywords:
+  - dòng tiền
+  - ghi sổ
+  - trạng thái
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

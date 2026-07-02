@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICEGIVINGPARTYTEXT
 description: Renoticegivingpartytext
+semantic_en: "notice giving party text lookup — provides localized descriptions for notice-issuing party types."
+semantic_vi: "bảng mô tả bên phát hành thông báo — cung cấp mô tả đa ngôn ngữ cho loại bên."
+keywords:
+  - thông báo
+  - bên
+  - mô tả
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

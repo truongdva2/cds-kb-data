@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICEGIVINGPARTY
 description: Renoticegivingparty
+semantic_en: "notice giving party — classifies party types that issue notices in real estate contracts."
+semantic_vi: "bên phát hành thông báo — phân loại loại bên phát hành thông báo trong hợp đồng bất động sản."
+keywords:
+  - thông báo
+  - bên
+  - hợp đồng
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

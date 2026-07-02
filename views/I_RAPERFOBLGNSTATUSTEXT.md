@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNSTATUSTEXT
 description: Raperfoblgnstatustext
+semantic_en: "performance obligation status text — localized descriptions of obligation statuses by language."
+semantic_vi: "văn bản trạng thái nghĩa vụ — mô tả trạng thái theo ngôn ngữ."
+keywords:
+  - trạng thái
+  - văn bản
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

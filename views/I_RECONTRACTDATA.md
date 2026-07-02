@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTDATA
 description: Recontractdata
+semantic_en: "Real estate contract data — transactional view of contracts with operational status and audit trail."
+semantic_vi: "Dữ liệu hợp đồng bất động sản — chế độ xem giao dịch của các hợp đồng với trạng thái hoạt động và dòng kiểm toán."
+keywords:
+  - dữ liệu hợp đồng
+  - trạng thái hợp đồng
+  - kiểm toán
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

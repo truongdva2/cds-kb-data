@@ -1,6 +1,12 @@
 ---
 name: I_RECONDITIONAMTREFTEXT
 description: Reconditionamtreftext
+semantic_en: "real estate condition amount reference text — localized descriptions of condition amount references by language."
+semantic_vi: "văn bản tham chiếu số tiền điều kiện bất động sản — mô tả tham chiếu theo ngôn ngữ."
+keywords:
+  - điều kiện
+  - số tiền
+  - văn bản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

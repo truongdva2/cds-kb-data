@@ -1,6 +1,12 @@
 ---
 name: I_REGIONALSTRUCCHECKSTATUSTEXT
 description: Regionalstruccheckstatustext
+semantic_en: "Regional structure check status text — localized status descriptions for regional structure validation."
+semantic_vi: "Văn bản trạng thái kiểm tra cấu trúc khu vực — mô tả trạng thái đã bản địa hóa cho xác thực cấu trúc khu vực."
+keywords:
+  - trạng thái kiểm tra
+  - cấu trúc khu vực
+  - xác thực
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

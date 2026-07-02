@@ -1,6 +1,12 @@
 ---
 name: I_REQUESTFORQUOTATIONTP
 description: Requestforquotationtp
+semantic_en: "request for quotation projection — provides temporal projection of quotation requests with document, organizational and terms metadata."
+semantic_vi: "chiếu thời gian yêu cầu báo giá — cung cấp chiếu dữ liệu yêu cầu báo giá với tài liệu, thông tin tổ chức và siêu dữ liệu điều khoản."
+keywords:
+  - yêu cầu báo giá
+  - tài liệu
+  - công ty
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

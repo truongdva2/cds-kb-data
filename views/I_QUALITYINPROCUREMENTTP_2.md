@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYINPROCUREMENTTP_2
 description: Qualityinprocurementtp 2
+semantic_en: "Quality info record data — TP variant showing quality release status and inspection control requirements for procurement"
+semantic_vi: "Dữ liệu bản ghi thông tin chất lượng — biến thể TP hiển thị trạng thái phát hành chất lượng và yêu cầu kiểm soát kiểm tra cho mua hàng"
+keywords:
+  - dữ liệu chất lượng
+  - kiểm tra mua hàng
+  - phê duyệt sản phẩm
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

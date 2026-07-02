@@ -1,6 +1,12 @@
 ---
 name: I_RARECNCLNKEYSTATUSTEXT
 description: Rarecnclnkeystatustext
+semantic_en: "revenue accounting reconciliation key status text — localized status descriptions for reconciliation keys by language."
+semantic_vi: "văn bản trạng thái khoá điều hoà — mô tả trạng thái khoá điều hoà theo ngôn ngữ."
+keywords:
+  - trạng thái khoá
+  - điều hoà
+  - văn bản
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

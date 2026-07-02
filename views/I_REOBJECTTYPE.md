@@ -1,6 +1,12 @@
 ---
 name: I_REOBJECTTYPE
 description: Reobjecttype
+semantic_en: "real estate object type master — defines object types with semantic relationships."
+semantic_vi: "loại đối tượng bất động sản chính — định nghĩa loại đối tượng với các mối quan hệ ngữ nghĩa."
+keywords:
+  - loại đối tượng
+  - bất động sản
+  - phân loại
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

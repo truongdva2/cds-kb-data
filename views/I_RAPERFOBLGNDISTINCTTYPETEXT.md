@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNDISTINCTTYPETEXT
 description: Raperfoblgndistincttypetext
+semantic_en: "distinct obligation type text — localized names for distinct obligation types by language."
+semantic_vi: "văn bản loại nghĩa vụ riêng biệt — tên loại theo ngôn ngữ."
+keywords:
+  - loại riêng biệt
+  - văn bản
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

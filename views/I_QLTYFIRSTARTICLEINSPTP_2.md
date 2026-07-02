@@ -1,6 +1,12 @@
 ---
 name: I_QLTYFIRSTARTICLEINSPTP_2
 description: Qltyfirstarticleinsptp 2
+semantic_en: "first article inspection transactional projection — quality control inspection records for initial supplier deliveries."
+semantic_vi: "chiếu hình giao dịch kiểm tra mẫu đầu tiên — hồ sơ kiểm tra chất lượng cho lần giao hàng đầu tiên nhà cung cấp."
+keywords:
+  - kiểm tra chất lượng
+  - mẫu đầu tiên
+  - nhà cung cấp
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

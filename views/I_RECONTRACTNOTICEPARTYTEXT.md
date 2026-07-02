@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTNOTICEPARTYTEXT
 description: Recontractnoticepartytext
+semantic_en: "Contract notice party text — localized names for parties authorized to issue contract notices."
+semantic_vi: "Văn bản bên phát hành thông báo hợp đồng — tên đã bản địa hóa cho các bên được phép phát hành thông báo hợp đồng."
+keywords:
+  - bên thông báo
+  - tên bên
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

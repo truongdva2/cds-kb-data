@@ -1,6 +1,12 @@
 ---
 name: I_REFIXEDPERIODTEXT
 description: Refixedperiodtext
+semantic_en: "Real estate fixed period text — localized descriptions for fixed calculation periods."
+semantic_vi: "Văn bản kỳ cố định bất động sản — mô tả đã bản địa hóa cho các kỳ tính toán cố định."
+keywords:
+  - kỳ cố định
+  - mô tả
+  - đa ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

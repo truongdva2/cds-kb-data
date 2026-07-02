@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNRELEASECONTROLCODE
 description: Purreqnreleasecontrolcode
+semantic_en: "purchase requisition release control code — authorization rules for release workflow on purchase requisitions."
+semantic_vi: "mã kiểm soát phát hành yêu cầu mua — quy tắc ủy quyền cho quy trình phát hành yêu cầu mua."
+keywords:
+  - phát hành
+  - yêu cầu mua
+  - kiểm soát
 app_component: MM
 software_component: SAPSCORE
 release_state: released

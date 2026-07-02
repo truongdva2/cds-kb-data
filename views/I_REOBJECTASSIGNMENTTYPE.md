@@ -1,6 +1,12 @@
 ---
 name: I_REOBJECTASSIGNMENTTYPE
 description: Reobjectassignmenttype
+semantic_en: "real estate object assignment type — classifies assignment type categories for real estate objects."
+semantic_vi: "loại phân công đối tượng bất động sản — phân loại danh mục loại phân công cho đối tượng."
+keywords:
+  - phân công
+  - loại
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

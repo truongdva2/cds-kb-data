@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYCERTIFICATETYPET
 description: Qualitycertificatetypet
+semantic_en: "Quality certificate type text — multilingual descriptions of quality certificate classifications"
+semantic_vi: "Văn bản loại chứng chỉ chất lượng — mô tả đa ngôn ngữ của các phân loại chứng chỉ chất lượng"
+keywords:
+  - loại chứng chỉ
+  - mô tả chứng chỉ
+  - ngôn ngữ
 app_component: QM-CA-2CL
 software_component: SAPSCORE
 release_state: released

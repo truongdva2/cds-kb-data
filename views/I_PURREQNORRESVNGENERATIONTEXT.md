@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNORRESVNGENERATIONTEXT
 description: Purreqnorresvngenerationtext
+semantic_en: "requisition or reservation generation text — language-dependent names for purchase requisition auto-creation rules."
+semantic_vi: "tên tạo yêu cầu mua hoặc dự trữ — tên theo ngôn ngữ cho quy tắc tạo yêu cầu mua tự động."
+keywords:
+  - yêu cầu mua
+  - dự trữ
+  - nhãn văn bản
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

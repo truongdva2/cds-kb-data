@@ -1,6 +1,12 @@
 ---
 name: I_REGENERICRENTALOBJECTTYPE
 description: Regenericrentalobjecttype
+semantic_en: "Real estate generic rental object type — value-help classifying types of rental objects generically."
+semantic_vi: "Loại đối tượng thuê chung bất động sản — danh sách phân loại các loại đối tượng thuê một cách chung."
+keywords:
+  - loại đối tượng thuê
+  - phân loại
+  - đối tượng
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

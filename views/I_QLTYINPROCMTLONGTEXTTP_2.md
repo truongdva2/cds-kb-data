@@ -1,6 +1,12 @@
 ---
 name: I_QLTYINPROCMTLONGTEXTTP_2
 description: Qltyinprocmtlongtexttp 2
+semantic_en: "quality information received in procurement long text projection — extended documentation for quality records by material."
+semantic_vi: "chiếu hình văn bản dài thông tin chất lượng nhận trong mua hàng — tài liệu mở rộng cho hồ sơ chất lượng theo vật liệu."
+keywords:
+  - chất lượng
+  - mua hàng
+  - văn bản dài
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

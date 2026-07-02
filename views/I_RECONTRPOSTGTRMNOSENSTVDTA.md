@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRPOSTGTRMNOSENSTVDTA
 description: Recontrpostgtrmnosenstvdta
+semantic_en: "Real estate posting rule term — defines payment and dunning parameters for contract posting terms."
+semantic_vi: "Kỳ hạn quy tắc ghi sổ bất động sản — định nghĩa các tham số thanh toán và nhắc nợ cho các kỳ hạn ghi sổ hợp đồng."
+keywords:
+  - kỳ hạn ghi sổ
+  - phương thức thanh toán
+  - nhắc nợ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

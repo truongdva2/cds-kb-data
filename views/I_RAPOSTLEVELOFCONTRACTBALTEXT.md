@@ -1,6 +1,12 @@
 ---
 name: I_RAPOSTLEVELOFCONTRACTBALTEXT
 description: Rapostlevelofcontractbaltext
+semantic_en: "contract balance posting level text — localized descriptions of posting levels by language."
+semantic_vi: "văn bản mức độ ghi sổ số dư — mô tả mức độ ghi sổ theo ngôn ngữ."
+keywords:
+  - mức độ ghi sổ
+  - văn bản
+  - hợp đồng
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

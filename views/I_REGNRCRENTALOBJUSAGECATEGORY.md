@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJUSAGECATEGORY
 description: Regnrcrentalobjusagecategory
+semantic_en: "rental object usage category — classifies rental properties by usage type and portfolio assignment."
+semantic_vi: "danh mục sử dụng đối tượng cho thuê — phân loại tài sản cho thuê theo loại sử dụng và gán danh mục."
+keywords:
+  - loại sử dụng
+  - cho thuê
+  - danh mục
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

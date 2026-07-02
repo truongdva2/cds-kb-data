@@ -1,6 +1,12 @@
 ---
 name: I_PURORDERHISTORYCATEGORYTEXT
 description: Purorderhistorycategorytext
+semantic_en: "purchase order history category text — language-dependent names for purchase history classification categories."
+semantic_vi: "tên danh mục lịch sử đơn hàng mua — tên theo ngôn ngữ cho danh mục phân loại lịch sử mua hàng."
+keywords:
+  - lịch sử
+  - đơn hàng mua
+  - danh mục
 app_component: MM
 software_component: SAPSCORE
 release_state: released

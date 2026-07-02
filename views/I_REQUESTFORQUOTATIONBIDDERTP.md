@@ -1,6 +1,12 @@
 ---
 name: I_REQUESTFORQUOTATIONBIDDERTP
 description: Requestforquotationbiddertp
+semantic_en: "request for quotation bidder projection — provides temporal projection of supplier bidder responses with supplier and change timestamp."
+semantic_vi: "chiếu thời gian nhà cung cấp dự thầu yêu cầu báo giá — cung cấp chiếu dữ liệu về phản hồi nhà cung cấp với mã nhà cung cấp và dấu thời gian."
+keywords:
+  - yêu cầu báo giá
+  - nhà cung cấp
+  - dự thầu
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

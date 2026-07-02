@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRACTSTATUSTEXT
 description: Racontractstatustext
+semantic_en: "Revenue accounting contract status text — multilingual labels for contract state codes and descriptions"
+semantic_vi: "Văn bản trạng thái hợp đồng kế toán doanh thu — nhãn đa ngôn ngữ cho mã và mô tả trạng thái hợp đồng"
+keywords:
+  - trạng thái hợp đồng
+  - mô tả
+  - ngôn ngữ
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

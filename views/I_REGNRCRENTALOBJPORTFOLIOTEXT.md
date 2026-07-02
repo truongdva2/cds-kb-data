@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJPORTFOLIOTEXT
 description: Regnrcrentalobjportfoliotext
+semantic_en: "portfolio classification text lookup — provides localized descriptions for rental property portfolio types."
+semantic_vi: "bảng mô tả phân loại danh mục — cung cấp mô tả đa ngôn ngữ cho loại danh mục tài sản."
+keywords:
+  - danh mục
+  - mô tả ngôn ngữ
+  - cho thuê
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REPORTINGPERIODTEXT
 description: Reportingperiodtext
+semantic_en: "reporting period text lookup — provides localized descriptions for reporting period codes."
+semantic_vi: "bảng mô tả kỳ báo cáo — cung cấp mô tả đa ngôn ngữ cho mã kỳ báo cáo."
+keywords:
+  - kỳ báo cáo
+  - mô tả
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RECEIVABLEFINANCINGSTATUS
 description: Receivablefinancingstatus
+semantic_en: "receivable financing status — domain values for receivable financing status classification."
+semantic_vi: "trạng thái tài chính khoản phải thu — phân loại trạng thái tài chính."
+keywords:
+  - khoản phải thu
+  - tài chính
+  - trạng thái
 app_component: FI-AR-AR-RF-2CL
 software_component: SAPSCORE
 release_state: released

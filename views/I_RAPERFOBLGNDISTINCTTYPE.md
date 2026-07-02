@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNDISTINCTTYPE
 description: Raperfoblgndistincttype
+semantic_en: "revenue accounting distinct obligation type — domain values classifying distinct performance obligations."
+semantic_vi: "loại nghĩa vụ riêng biệt — phân loại nghĩa vụ hiệu suất riêng biệt."
+keywords:
+  - nghĩa vụ riêng
+  - kế toán doanh thu
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

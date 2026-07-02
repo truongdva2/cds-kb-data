@@ -1,6 +1,12 @@
 ---
 name: I_REGIONTEXT
 description: Regiontext
+semantic_en: "Region text — localized region names and labels across languages and countries."
+semantic_vi: "Văn bản vùng — tên vùng và nhãn đã bản địa hóa trên các ngôn ngữ và quốc gia."
+keywords:
+  - tên vùng
+  - quốc gia
+  - đa ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNFLFMTTYPETEXT
 description: Raperfoblgnflfmttypetext
+semantic_en: "fulfillment type text — localized names for fulfillment types by language."
+semantic_vi: "văn bản loại thực hiện — tên loại thực hiện theo ngôn ngữ."
+keywords:
+  - thực hiện
+  - loại
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

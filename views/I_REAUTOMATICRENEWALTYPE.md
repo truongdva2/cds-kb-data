@@ -1,6 +1,12 @@
 ---
 name: I_REAUTOMATICRENEWALTYPE
 description: Reautomaticrenewaltype
+semantic_en: "automatic renewal type — domain values for renewal type classification in real estate."
+semantic_vi: "loại gia hạn tự động — phân loại gia hạn trong bất động sản."
+keywords:
+  - gia hạn tự động
+  - loại
+  - bất động sản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

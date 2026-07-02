@@ -1,6 +1,12 @@
 ---
 name: I_RECASHFLOWORIGIN
 description: Recashfloworigin
+semantic_en: "cash flow origin — domain values for identifying sources of real estate cash flows."
+semantic_vi: "nguồn gốc dòng tiền — phân loại nguồn gốc dòng tiền."
+keywords:
+  - dòng tiền
+  - nguồn gốc
+  - bất động sản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

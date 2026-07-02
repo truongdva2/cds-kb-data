@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONLONGTEXTTP
 description: Qltynotificationlongtexttp
+semantic_en: "Quality notification long text — TP variant with extended description and mime type for notification content"
+semantic_vi: "Văn bản dài thông báo chất lượng — biến thể TP với mô tả mở rộng và loại mime cho nội dung thông báo"
+keywords:
+  - văn bản mở rộng
+  - nội dung thông báo
+  - loại tệp
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

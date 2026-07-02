@@ -1,6 +1,12 @@
 ---
 name: I_PURGTOTDANGEROUSGOODSSTST
 description: Purgtotdangerousgoodsstst
+semantic_en: "dangerous goods compliance text — language-dependent text labels for total dangerous goods classification status."
+semantic_vi: "tên trạng thái hàng hóa nguy hiểm tổng thể — nhãn văn bản theo ngôn ngữ cho phân loại hàng hóa nguy hiểm."
+keywords:
+  - hàng hóa nguy hiểm
+  - trạng thái
+  - nhãn văn bản
 app_component: MM
 software_component: SAPSCORE
 release_state: released

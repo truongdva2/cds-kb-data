@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMGMTINTEGSCENSTATETEXT
 description: Qltymgmtintegscenstatetext
+semantic_en: "quality management integration scenario state text — language-dependent names for integration configuration status."
+semantic_vi: "tên trạng thái tình huống tích hợp quản lý chất lượng — tên theo ngôn ngữ cho trạng thái cấu hình tích hợp."
+keywords:
+  - chất lượng
+  - tích hợp
+  - nhãn văn bản
 app_component: QM-2CL
 software_component: SAPSCORE
 release_state: released

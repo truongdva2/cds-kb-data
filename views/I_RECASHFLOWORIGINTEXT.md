@@ -1,6 +1,12 @@
 ---
 name: I_RECASHFLOWORIGINTEXT
 description: Recashfloworigintext
+semantic_en: "cash flow origin text — localized descriptions of cash flow sources by language."
+semantic_vi: "văn bản nguồn gốc dòng tiền — mô tả nguồn gốc theo ngôn ngữ."
+keywords:
+  - dòng tiền
+  - nguồn gốc
+  - văn bản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

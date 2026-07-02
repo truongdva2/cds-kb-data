@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNSTARTDATETYPE
 description: Raperfoblgnstartdatetype
+semantic_en: "revenue accounting start date type — domain values for performance obligation date classification."
+semantic_vi: "loại ngày bắt đầu — phân loại ngày bắt đầu nghĩa vụ hiệu suất."
+keywords:
+  - ngày bắt đầu
+  - loại
+  - doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

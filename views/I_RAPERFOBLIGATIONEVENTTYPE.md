@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLIGATIONEVENTTYPE
 description: Raperfobligationeventtype
+semantic_en: "performance obligation event type — master data for event types triggering revenue obligation changes."
+semantic_vi: "loại sự kiện nghĩa vụ hiệu suất — dữ liệu chính cho loại sự kiện."
+keywords:
+  - sự kiện
+  - nghĩa vụ
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

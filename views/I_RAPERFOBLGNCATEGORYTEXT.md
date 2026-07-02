@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNCATEGORYTEXT
 description: Raperfoblgncategorytext
+semantic_en: "revenue accounting performance obligation category text — localized names for obligation categories by language."
+semantic_vi: "văn bản danh mục nghĩa vụ hiệu suất — tên danh mục theo ngôn ngữ."
+keywords:
+  - danh mục
+  - kế toán doanh thu
+  - văn bản
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

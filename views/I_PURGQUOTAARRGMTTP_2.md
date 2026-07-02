@@ -1,6 +1,12 @@
 ---
 name: I_PURGQUOTAARRGMTTP_2
 description: Purgquotaarrgmttp 2
+semantic_en: "quota arrangement transactional projection — quota master data with supply sourcing strategy and time periods."
+semantic_vi: "chiếu hình giao dịch thỏa thuận hạn ngạch — dữ liệu chính hạn ngạch với chiến lược nguồn cung."
+keywords:
+  - hạn ngạch
+  - chiếu hình
+  - mua hàng
 app_component: MM-PUR-SQ-QTA-2CL
 software_component: SAPSCORE
 release_state: released

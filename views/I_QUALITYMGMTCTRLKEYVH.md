@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYMGMTCTRLKEYVH
 description: Qualitymgmtctrlkeyvh
+semantic_en: "Quality management control key — value help providing available control keys for quality definition"
+semantic_vi: "Khóa kiểm soát quản lý chất lượng — trợ giúp giá trị cung cấp các khóa kiểm soát có sẵn cho định nghĩa chất lượng"
+keywords:
+  - khóa kiểm soát
+  - trợ giúp giá trị
+  - chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

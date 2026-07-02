@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNSTATUS
 description: Raperfoblgnstatus
+semantic_en: "revenue accounting performance obligation status — domain values for obligation status tracking in RA."
+semantic_vi: "trạng thái nghĩa vụ hiệu suất — phân loại trạng thái nghĩa vụ."
+keywords:
+  - trạng thái
+  - nghĩa vụ
+  - kế toán doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

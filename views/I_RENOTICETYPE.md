@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICETYPE
 description: Renoticetype
+semantic_en: "notice type classification — categorizes types of notices used in real estate contracts."
+semantic_vi: "phân loại loại thông báo — phân loại các loại thông báo sử dụng trong hợp đồng bất động sản."
+keywords:
+  - loại thông báo
+  - phân loại
+  - hợp đồng
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

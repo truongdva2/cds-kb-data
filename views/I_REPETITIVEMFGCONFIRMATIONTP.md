@@ -1,6 +1,12 @@
 ---
 name: I_REPETITIVEMFGCONFIRMATIONTP
 description: Repetitivemfgconfirmationtp
+semantic_en: "repetitive manufacturing confirmation projection — provides temporal projection of confirmation data with posting and document dates."
+semantic_vi: "chiếu thời gian xác nhận sản xuất lặp lại — cung cấp chiếu dữ liệu xác nhận với ngày hạch toán và tài liệu."
+keywords:
+  - sản xuất
+  - xác nhận
+  - thời gian
 app_component: PP-REM-ADE-2CL
 software_component: SAPSCORE
 release_state: released

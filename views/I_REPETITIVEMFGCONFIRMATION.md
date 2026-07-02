@@ -1,6 +1,12 @@
 ---
 name: I_REPETITIVEMFGCONFIRMATION
 description: Repetitivemfgconfirmation
+semantic_en: "repetitive manufacturing confirmation — records confirmation data for repetitive manufacturing processes with creation, reversal and posting details."
+semantic_vi: "xác nhận sản xuất lặp lại — ghi lại dữ liệu xác nhận cho các quy trình sản xuất lặp lại với chi tiết tạo, đảo ngược và hạch toán."
+keywords:
+  - sản xuất
+  - xác nhận
+  - lặp lại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

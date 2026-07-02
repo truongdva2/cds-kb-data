@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTSUBJECTTYPETEXT
 description: Recontractsubjecttypetext
+semantic_en: "Real estate contract subject type text — localized names for contract subject types."
+semantic_vi: "Văn bản loại chủ đề hợp đồng bất động sản — tên đã bản địa hóa cho loại chủ đề hợp đồng."
+keywords:
+  - loại chủ đề
+  - tên loại
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

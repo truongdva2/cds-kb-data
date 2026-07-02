@@ -1,6 +1,12 @@
 ---
 name: I_REARCHITECTUREOBJECTNODE
 description: Rearchitectureobjectnode
+semantic_en: "real estate architecture object hierarchy node — parent-child relationships in architecture object hierarchy."
+semantic_vi: "nút thứ bậc đối tượng kiến trúc bất động sản — quan hệ phân cấp giữa các đối tượng."
+keywords:
+  - thứ bậc
+  - kiến trúc
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

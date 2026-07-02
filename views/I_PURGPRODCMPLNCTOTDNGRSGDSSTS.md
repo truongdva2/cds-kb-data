@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRODCMPLNCTOTDNGRSGDSSTS
 description: Purgprodcmplnctotdngrsgdssts
+semantic_en: "dangerous goods compliance status — domain values for total dangerous goods compliance classification."
+semantic_vi: "trạng thái tuân thủ hàng hóa nguy hiểm — các giá trị miền cho phân loại tuân thủ hàng hóa nguy hiểm tổng thể."
+keywords:
+  - hàng hóa nguy hiểm
+  - tuân thủ
+  - mua hàng
 app_component: MM
 software_component: SAPSCORE
 release_state: released

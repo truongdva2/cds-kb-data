@@ -1,6 +1,12 @@
 ---
 name: I_RECURRENCEENDTYPE
 description: Recurrenceendtype
+semantic_en: "Recurrence end type — value-help defining how recurring entries terminate (on date, after count, etc)."
+semantic_vi: "Loại kết thúc lặp lại — danh sách các loại cách các bản ghi lặp lại kết thúc (theo ngày, sau số lần, v.v.)."
+keywords:
+  - lặp lại
+  - kết thúc
+  - loại kết thúc
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURORDSCHEDULELINEAPI01
 description: PURORDSchedule LineAPI 01
+semantic_en: "schedule line in purchase order — delivery schedule with quantities, dates, and rough goods receipt tracking."
+semantic_vi: "dòng lịch biểu trong đơn hàng mua — lịch biểu giao hàng với số lượng, ngày và theo dõi kho hàng tạm."
+keywords:
+  - lịch biểu
+  - đơn hàng mua
+  - giao hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

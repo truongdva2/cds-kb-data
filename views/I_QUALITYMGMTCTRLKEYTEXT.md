@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYMGMTCTRLKEYTEXT
 description: Qualitymgmtctrlkeytext
+semantic_en: "Quality management control key text — multilingual descriptions of quality control requirements"
+semantic_vi: "Văn bản khóa kiểm soát quản lý chất lượng — mô tả đa ngôn ngữ của yêu cầu kiểm soát chất lượng"
+keywords:
+  - kiểm soát chất lượng
+  - mô tả yêu cầu
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

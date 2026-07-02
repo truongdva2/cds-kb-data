@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNDEFERRALMETHOD
 description: Raperfoblgndeferralmethod
+semantic_en: "performance obligation deferral method — master data for deferred revenue accounting methods."
+semantic_vi: "phương pháp hoãn lại nghĩa vụ — dữ liệu chính cho kế toán doanh thu hoãn lại."
+keywords:
+  - hoãn lại
+  - doanh thu
+  - phương pháp
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REARCHITECTUREOBJADDRESS
 description: Rearchitectureobjaddress
+semantic_en: "real estate architecture object address — addresses for architecture objects including street, city, postal, and country data."
+semantic_vi: "địa chỉ đối tượng kiến trúc bất động sản — địa chỉ cho các đối tượng kiến trúc."
+keywords:
+  - kiến trúc
+  - bất động sản
+  - địa chỉ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

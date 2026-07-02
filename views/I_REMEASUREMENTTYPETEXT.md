@@ -1,6 +1,12 @@
 ---
 name: I_REMEASUREMENTTYPETEXT
 description: Remeasurementtypetext
+semantic_en: "measurement type text lookup — provides localized descriptions for measurement type codes."
+semantic_vi: "bảng mô tả loại đo lường — cung cấp mô tả đa ngôn ngữ cho mã loại đo lường."
+keywords:
+  - đo lường
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

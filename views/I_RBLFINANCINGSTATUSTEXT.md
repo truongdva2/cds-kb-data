@@ -1,6 +1,12 @@
 ---
 name: I_RBLFINANCINGSTATUSTEXT
 description: Rblfinancingstatustext
+semantic_en: "receivable financing status text — localized descriptions of receivable financing statuses by language."
+semantic_vi: "văn bản trạng thái tài chính khoản phải thu — mô tả trạng thái theo ngôn ngữ."
+keywords:
+  - tài chính
+  - khoản phải thu
+  - trạng thái
 app_component: FI-AR-AR-RF-2CL
 software_component: SAPSCORE
 release_state: released

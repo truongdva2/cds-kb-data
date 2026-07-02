@@ -1,6 +1,12 @@
 ---
 name: I_REFLOWTYPE
 description: Reflowtype
+semantic_en: "Flow type — classifies financial flows as debit or credit with accrual and cash management relevance."
+semantic_vi: "Loại dòng — phân loại các dòng tài chính là nợ hoặc có với tính chất ứng dụng và liên quan đến quản lý tiền mặt."
+keywords:
+  - loại dòng
+  - nợ tín dụng
+  - dòng tài chính
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICERULETYPETEXT
 description: Renoticeruletypetext
+semantic_en: "notice rule type text lookup — provides localized descriptions for notice rule type classifications."
+semantic_vi: "bảng mô tả loại quy tắc thông báo — cung cấp mô tả đa ngôn ngữ cho phân loại loại quy tắc."
+keywords:
+  - loại quy tắc
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

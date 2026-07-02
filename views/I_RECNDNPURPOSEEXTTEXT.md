@@ -1,6 +1,12 @@
 ---
 name: I_RECNDNPURPOSEEXTTEXT
 description: Recndnpurposeexttext
+semantic_en: "real estate external condition purpose text — localized descriptions of external condition purposes by language."
+semantic_vi: "văn bản mục đích điều kiện ngoài bất động sản — mô tả mục đích điều kiện theo ngôn ngữ."
+keywords:
+  - điều kiện
+  - mục đích
+  - bất động sản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICERULETYPE
 description: Renoticeruletype
+semantic_en: "notice rule type classification — categorizes rule types governing notice procedures."
+semantic_vi: "phân loại loại quy tắc thông báo — phân loại loại quy tắc quản lý thủ tục thông báo."
+keywords:
+  - loại quy tắc
+  - thông báo
+  - phân loại
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURGTOTPRODCMPLNCSUPLRSTST
 description: Purgtotprodcmplncsuplrstst
+semantic_en: "total supplier product compliance text — language-dependent names for aggregated supplier compliance status."
+semantic_vi: "tên tuân thủ sản phẩm nhà cung cấp tổng thể — tên theo ngôn ngữ cho trạng thái tuân thủ nhà cung cấp tổng hợp."
+keywords:
+  - tuân thủ
+  - nhà cung cấp
+  - tổng thể
 app_component: MM
 software_component: SAPSCORE
 release_state: released

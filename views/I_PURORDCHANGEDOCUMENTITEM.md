@@ -1,6 +1,12 @@
 ---
 name: I_PURORDCHANGEDOCUMENTITEM
 description: Purordchangedocumentitem
+semantic_en: "purchase order change document items — audit trail of field changes to purchase order header and line items."
+semantic_vi: "mục tài liệu thay đổi đơn hàng mua — dấu vết kiểm toán thay đổi trường của tiêu đề và mục hàng đơn hàng."
+keywords:
+  - thay đổi
+  - đơn hàng mua
+  - kiểm toán
 app_component: MM
 software_component: SAPSCORE
 release_state: released

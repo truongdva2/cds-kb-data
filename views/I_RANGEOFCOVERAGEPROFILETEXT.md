@@ -1,6 +1,13 @@
 ---
 name: I_RANGEOFCOVERAGEPROFILETEXT
 description: Rangeofcoverageprofiletext
+semantic_en: "range of coverage profile text — displays plant and coverage profile names by language."
+semantic_vi: "văn bản hồ sơ phạm vi bảo hiểm — hiển thị tên hồ sơ bảo hiểm theo nhà máy và ngôn ngữ."
+keywords:
+  - phạm vi bảo hiểm
+  - hồ sơ
+  - văn bản
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

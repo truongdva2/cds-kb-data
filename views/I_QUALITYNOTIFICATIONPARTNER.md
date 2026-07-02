@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYNOTIFICATIONPARTNER
 description: Quality NotificationICATIONPARTNER
+semantic_en: "Quality notification partner — records related business partners in notification creation and processing"
+semantic_vi: "Đối tác thông báo chất lượng — ghi lại các đối tác kinh doanh liên quan trong tạo và xử lý thông báo"
+keywords:
+  - đối tác thông báo
+  - liên hệ khách hàng
+  - tham gia
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

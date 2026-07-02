@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICERULETEXT
 description: Renoticeruletext
+semantic_en: "notice rule text lookup — provides localized descriptions for notice rules."
+semantic_vi: "bảng mô tả quy tắc thông báo — cung cấp mô tả đa ngôn ngữ cho quy tắc."
+keywords:
+  - quy tắc
+  - thông báo
+  - mô tả
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

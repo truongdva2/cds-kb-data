@@ -1,6 +1,12 @@
 ---
 name: I_REKEYASSGMT
 description: Rekeyassgmt
+semantic_en: "real estate key assignment — maps identification keys across multiple real estate objects and business entities."
+semantic_vi: "phân công chìa khóa bất động sản — ánh xạ chìa khóa xác định trên nhiều đối tượng bất động sản và thực thể kinh doanh."
+keywords:
+  - phân công
+  - bất động sản
+  - xác định
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

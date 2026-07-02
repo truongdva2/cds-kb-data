@@ -1,6 +1,12 @@
 ---
 name: I_PURORDPRICINGELEMENTTP_2
 description: Purordpricingelementtp 2
+semantic_en: "purchase order pricing element projection — pricing procedure conditions with base and rate amounts for each step."
+semantic_vi: "chiếu hình yếu tố giá đơn hàng mua — điều kiện quy trình giá với số tiền cơ sở và tỷ lệ."
+keywords:
+  - giá
+  - chiếu hình
+  - quy trình
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

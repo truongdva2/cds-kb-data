@@ -1,6 +1,12 @@
 ---
 name: I_RACONTRMNGREVNCONTRTP
 description: Racontrmngrevncontrtp
+semantic_en: "Revenue contract — TP variant tracking contract details, performance obligations, deferred revenue, and impairment"
+semantic_vi: "Hợp đồng doanh thu — biến thể TP theo dõi chi tiết hợp đồng, các nghĩa vụ thực hiện, doanh thu hoãn lại và giảm giá trị"
+keywords:
+  - hợp đồng doanh thu
+  - nghĩa vụ
+  - doanh thu hoãn
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

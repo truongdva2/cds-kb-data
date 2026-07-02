@@ -1,6 +1,12 @@
 ---
 name: I_RENOTICERULE
 description: Renoticerule
+semantic_en: "notice rules — defines rules governing notice requirements with classification and new assignment applicability."
+semantic_vi: "quy tắc thông báo — định nghĩa quy tắc quản lý yêu cầu thông báo với phân loại và áp dụng gán mới."
+keywords:
+  - quy tắc
+  - thông báo
+  - hợp đồng
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

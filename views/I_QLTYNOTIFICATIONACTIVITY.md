@@ -1,6 +1,12 @@
 ---
 name: I_QLTYNOTIFICATIONACTIVITY
 description: Qltynotificationactivity
+semantic_en: "Quality notification activity — records planned and actual activities for notification investigation and resolution"
+semantic_vi: "Hoạt động thông báo chất lượng — ghi lại các hoạt động được lên kế hoạch và thực tế cho điều tra và giải quyết thông báo"
+keywords:
+  - hoạt động chất lượng
+  - kế hoạch hoạt động
+  - theo dõi tiến độ
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

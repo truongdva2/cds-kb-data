@@ -1,6 +1,12 @@
 ---
 name: I_REPRORATAMETHODCALC
 description: Reproratamethodcalc
+semantic_en: "pro rata calculation method — classifies calculation methods used for pro rata allocations."
+semantic_vi: "phương pháp tính toán theo tỷ lệ — phân loại phương pháp tính toán sử dụng cho phân bổ theo tỷ lệ."
+keywords:
+  - tỷ lệ
+  - tính toán
+  - phương pháp
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

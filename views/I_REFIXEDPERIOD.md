@@ -1,6 +1,12 @@
 ---
 name: I_REFIXEDPERIOD
 description: Refixedperiod
+semantic_en: "Real estate fixed period — defines fixed calculation periods with year basis and mixed calculation flags."
+semantic_vi: "Kỳ cố định bất động sản — định nghĩa các kỳ tính toán cố định với cơ sở năm và cờ tính toán hỗn hợp."
+keywords:
+  - kỳ cố định
+  - tính toán
+  - cơ sở năm
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

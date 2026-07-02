@@ -1,6 +1,12 @@
 ---
 name: I_RECASHFLOWPOSTINGSTATUSTEXT
 description: Recashflowpostingstatustext
+semantic_en: "cash flow posting status text — localized descriptions of posting statuses by language."
+semantic_vi: "văn bản trạng thái ghi sổ dòng tiền — mô tả trạng thái ghi sổ theo ngôn ngữ."
+keywords:
+  - dòng tiền
+  - ghi sổ
+  - văn bản
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

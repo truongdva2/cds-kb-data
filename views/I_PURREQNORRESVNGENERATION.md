@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNORRESVNGENERATION
 description: Purreqnorresvngeneration
+semantic_en: "purchase requisition or reservation generation — control codes for automatic requisition creation from plant maintenance needs."
+semantic_vi: "tạo yêu cầu mua hoặc đơn đặt hàng dự trữ — mã kiểm soát tạo yêu cầu tự động từ nhu cầu bảo trì nhà máy."
+keywords:
+  - yêu cầu mua
+  - dự trữ
+  - bảo trì
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

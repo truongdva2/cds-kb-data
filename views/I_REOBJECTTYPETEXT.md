@@ -1,6 +1,12 @@
 ---
 name: I_REOBJECTTYPETEXT
 description: Reobjecttypetext
+semantic_en: "object type text lookup — provides localized descriptions for real estate object types."
+semantic_vi: "bảng mô tả loại đối tượng — cung cấp mô tả đa ngôn ngữ cho loại đối tượng bất động sản."
+keywords:
+  - loại đối tượng
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

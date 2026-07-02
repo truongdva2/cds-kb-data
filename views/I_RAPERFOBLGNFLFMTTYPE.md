@@ -1,6 +1,12 @@
 ---
 name: I_RAPERFOBLGNFLFMTTYPE
 description: Raperfoblgnflfmttype
+semantic_en: "revenue accounting fulfillment type — domain values for obligation fulfillment classification."
+semantic_vi: "loại thực hiện nghĩa vụ — phân loại thực hiện nghĩa vụ trong RA."
+keywords:
+  - thực hiện
+  - nghĩa vụ
+  - loại
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

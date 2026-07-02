@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRORGLASSGMTTERM
 description: Recontrorglassgmtterm
+semantic_en: "Real estate organizational assignment term — assigns organizational units and accounting dimensions to contract terms."
+semantic_vi: "Kỳ hạn gán tổ chức bất động sản — gán các đơn vị tổ chức và kích thước kế toán cho các kỳ hạn hợp đồng."
+keywords:
+  - gán tổ chức
+  - kỳ hạn
+  - chiều kế toán
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

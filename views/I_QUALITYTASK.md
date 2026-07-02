@@ -1,6 +1,12 @@
 ---
 name: I_QUALITYTASK
 description: Qualitytask
+semantic_en: "Quality task — independent quality activity or investigation task for process improvement and defect resolution"
+semantic_vi: "Tác vụ chất lượng — hoạt động chất lượng độc lập hoặc tác vụ điều tra cho cải tiến quy trình và giải quyết khuyết tật"
+keywords:
+  - tác vụ chất lượng
+  - cải tiến
+  - điều tra
 app_component: QM-QN-2CL
 software_component: SAPSCORE
 release_state: released

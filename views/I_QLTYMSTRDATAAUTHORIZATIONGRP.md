@@ -1,6 +1,12 @@
 ---
 name: I_QLTYMSTRDATAAUTHORIZATIONGRP
 description: Qltymstrdataauthorizationgrp
+semantic_en: "Authorization group for quality master data — controls user access to quality data"
+semantic_vi: "Nhóm phân quyền cho dữ liệu chính dữ liệu chất lượng — kiểm soát truy cập dữ liệu chất lượng của người dùng"
+keywords:
+  - phân quyền chất lượng
+  - nhóm ủy quyền dữ liệu
+  - kiểm soát truy cập
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

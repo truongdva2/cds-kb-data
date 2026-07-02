@@ -1,6 +1,12 @@
 ---
 name: I_PURORDITMDELIVERYADDRESSTP_2
 description: Purorditmdeliveryaddresstp 2
+semantic_en: "purchase order item delivery address projection — shipping addresses with communication preferences and recipient names."
+semantic_vi: "chiếu hình địa chỉ giao hàng mục đơn hàng mua — địa chỉ vận chuyển với ưu tiên liên lạc và tên người nhận."
+keywords:
+  - địa chỉ giao hàng
+  - mục
+  - chiếu hình
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

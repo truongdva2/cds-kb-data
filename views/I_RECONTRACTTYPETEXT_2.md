@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTTYPETEXT_2
 description: Recontracttypetext 2
+semantic_en: "Real estate contract type text — localized names for contract types across languages."
+semantic_vi: "Văn bản loại hợp đồng bất động sản — tên đã bản địa hóa cho loại hợp đồng trên các ngôn ngữ."
+keywords:
+  - loại hợp đồng
+  - tên loại
+  - đa ngôn ngữ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

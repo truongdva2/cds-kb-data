@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTSUBJECT
 description: Recontractsubject
+semantic_en: "Real estate contract subject — describes subject matter of contracts including accounting object references."
+semantic_vi: "Chủ đề hợp đồng bất động sản — mô tả chủ đề của hợp đồng bao gồm tài liệu tham khảo đối tượng kế toán."
+keywords:
+  - chủ đề hợp đồng
+  - loại chủ đề
+  - đối tượng kế toán
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

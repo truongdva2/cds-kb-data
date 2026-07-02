@@ -1,6 +1,12 @@
 ---
 name: I_RECNDNCALCULATIONRULEEXT
 description: Recndncalculationruleext
+semantic_en: "real estate external calculation formula — calculation rules with parameters and rounding specifications for distributions."
+semantic_vi: "công thức tính toán ngoài bất động sản — quy tắc tính toán với tham số và làm tròn."
+keywords:
+  - tính toán
+  - công thức
+  - phân bổ
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

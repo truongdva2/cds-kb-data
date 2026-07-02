@@ -1,6 +1,12 @@
 ---
 name: I_PURREQNACCTASSGMTAPI01
 description: Purreqnacctassgmtapi 01
+semantic_en: "purchase requisition account assignment — cost allocation by cost element and GL account for requisition items."
+semantic_vi: "gán tài khoản yêu cầu mua hàng — phân bổ chi phí theo yếu tố chi phí và tài khoản sổ cái cho mục yêu cầu."
+keywords:
+  - gán tài khoản
+  - yêu cầu mua
+  - chi phí
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

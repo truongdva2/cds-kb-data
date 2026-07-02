@@ -1,6 +1,12 @@
 ---
 name: I_RECONTROBJECTCASHFLOW
 description: Recontrobjectcashflow
+semantic_en: "Real estate contract object cashflow — tracks cashflow records with calculation periods and document references."
+semantic_vi: "Dòng tiền đối tượng hợp đồng bất động sản — theo dõi các bản ghi dòng tiền với các kỳ tính toán và tài liệu tham khảo."
+keywords:
+  - dòng tiền
+  - kỳ tính toán
+  - đối tượng hợp đồng
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

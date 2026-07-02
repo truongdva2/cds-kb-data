@@ -1,6 +1,12 @@
 ---
 name: I_RECONTRACTSUBJECTTYPE
 description: Recontractsubjecttype
+semantic_en: "Real estate contract subject type — classification of contract subject matter types."
+semantic_vi: "Loại chủ đề hợp đồng bất động sản — phân loại các loại chủ đề hợp đồng."
+keywords:
+  - loại chủ đề
+  - phân loại chủ đề
+  - hợp đồng
 app_component: RE-FX-CN-2CL
 software_component: SAPSCORE
 release_state: released

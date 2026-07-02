@@ -1,6 +1,12 @@
 ---
 name: I_REINVOICEDATA
 description: Reinvoicedata
+semantic_en: "real estate invoice header — aggregates invoice metadata including company, contract, process references and date ranges."
+semantic_vi: "tiêu đề hóa đơn bất động sản — tập hợp thông tin chi tiết hóa đơn bao gồm công ty, hợp đồng, quy trình và phạm vi ngày."
+keywords:
+  - hóa đơn
+  - bất động sản
+  - công ty
 app_component: RE-FX-RA-2CL
 software_component: SAPSCORE
 release_state: released

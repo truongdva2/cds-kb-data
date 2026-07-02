@@ -1,6 +1,12 @@
 ---
 name: I_REGNRCRENTALOBJUSAGECATTEXT
 description: Regnrcrentalobjusagecattext
+semantic_en: "usage category text lookup — provides localized descriptions for rental object usage classifications."
+semantic_vi: "bảng mô tả danh mục sử dụng — cung cấp mô tả đa ngôn ngữ cho phân loại sử dụng."
+keywords:
+  - sử dụng
+  - mô tả
+  - ngôn ngữ
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released
