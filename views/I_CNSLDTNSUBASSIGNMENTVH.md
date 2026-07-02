@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBASSIGNMENTVH
 description: Cnsldtnsubassignmentvh
+semantic_en: "consolidation subassignment value-help — lookup list for breakdown types with descriptions"
+semantic_vi: "Danh sách giá trị trợ giúp cho phân bổ phân tích hợp nhất — hiển thị loại phân tích với mô tả"
+keywords:
+  - tìm kiếm phân bổ
+  - dropdown subassignment
+  - loại breakdown
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CN_CADECSTMSUBSIDIARYITEMVAL
 description: CN Cadecstmsubsidiaryitemval
+semantic_en: "China CADE customized subsidiary items value — mapping of customized subsidiary item values for Chinese accounting and disposal environment (CADE)."
+semantic_vi: "giá trị mục phụ được tùy chỉnh CADE Trung Quốc — ánh xạ giá trị mục phụ được tùy chỉnh cho môi trường kế toán và xử lý Trung Quốc (CADE)."
+keywords:
+  - CADE
+  - mục phụ
+  - tùy chỉnh
+  - Trung Quốc
 app_component: FI-LOC-GAI-CN
 software_component: SAPSCORE
 release_state: released
