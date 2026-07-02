@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASINGINFORECORDCHANGED
 description: D Purchasinginforecordchanged
+semantic_en: "business event signature for purchasing info record modifications — tracks supplier, material, and material group changes"
+semantic_vi: "sự kiện kinh doanh khi bản ghi thông tin mua hàng thay đổi — theo dõi thay đổi nhà cung cấp, vật liệu và nhóm vật liệu"
+keywords:
+  - bản ghi thông tin mua hàng thay đổi
+  - thông tin mua hàng
+  - nhà cung cấp
+  - vật liệu
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PROCORDOPDISPATCHORDEROPP
 description: D Procordopdispatchorderopp
+semantic_en: "parameter entity for dispatching process order operations — controls scheduling type and operation dispatch date/time."
+semantic_vi: "Tham số điều phối hoạt động lệnh công nghiệp — loại lập lịch, ngày/giờ điều phối."
+keywords:
+  - điều phối
+  - hoạt động
+  - lệnh
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

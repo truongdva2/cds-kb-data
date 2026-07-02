@@ -1,6 +1,13 @@
 ---
 name: D_RESVNDOCUMENTITEMDELETED
 description: D Resvndocumentitemdeleted
+semantic_en: "business event signature for deleted reservation document items — tracks deletion of reservation items with record type context"
+semantic_vi: "sự kiện kinh doanh khi dòng tài liệu đặt chỗ bị xóa — theo dõi xóa dòng đặt chỗ với ngữ cảnh loại bản ghi"
+keywords:
+  - dòng đặt chỗ xóa
+  - xóa đặt chỗ
+  - dòng tài liệu
+  - tồn kho
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYREVERSEPARAMETER
 description: D Journal EntryREVERSEPARAMETER
+semantic_en: "abstract parameter structure for journal entry reversal — defines posting date, reversal reason, and user creating reversal."
+semantic_vi: "cấu trúc tham số trừu tượng cho đảo ngược ghi nhập nhật ký — định nghĩa ngày ghi nhập, lý do đảo ngược và người dùng tạo."
+keywords:
+  - đảo ngược nhật ký
+  - tham số đảo ngược
+  - lý do đảo ngược
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

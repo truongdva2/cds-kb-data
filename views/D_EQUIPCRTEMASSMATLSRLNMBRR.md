@@ -1,6 +1,12 @@
 ---
 name: D_EQUIPCRTEMASSMATLSRLNMBRR
 description: D Equipcrtemassmatlsrlnmbrr
+semantic_en: "last serial number tracker for mass equipment creation — captures the final serial number assigned in a batch equipment build process."
+semantic_vi: "trình theo dõi số seri cuối cùng cho tạo thiết bị hàng loạt — ghi lại số seri cuối cùng được gán trong quá trình xây dựng thiết bị hàng loạt."
+keywords:
+  - số seri
+  - thiết bị
+  - tạo hàng loạt
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

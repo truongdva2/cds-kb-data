@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCITMGETDNGRSGDSDESCSP
 description: D Pclgsdcitmgetdngrsgdsdescsp
+semantic_en: "parameter entity for dangerous goods description retrieval — accepts output scenario filter."
+semantic_vi: "Tham số lấy mô tả phân loại hàng hóa nguy hiểm — lọc theo kịch bản."
+keywords:
+  - phân loại
+  - mô tả
+  - hàng hóa nguy hiểm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

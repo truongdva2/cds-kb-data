@@ -1,6 +1,13 @@
 ---
 name: D_PURGINFORECDORGPLNTDATACRTD
 description: D Purginforecdorgplntdatacrtd
+semantic_en: "business event signature for new purchasing info record organizational plant data — records supplier, material, and group at plant level"
+semantic_vi: "sự kiện kinh doanh khi dữ liệu nhà máy tổ chức bản ghi thông tin mua được tạo — ghi lại nhà cung cấp, vật liệu và nhóm ở cấp nhà máy"
+keywords:
+  - dữ liệu nhà máy bản ghi thông tin mới
+  - thông tin mua hàng
+  - nhà máy
+  - tạo dữ liệu
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

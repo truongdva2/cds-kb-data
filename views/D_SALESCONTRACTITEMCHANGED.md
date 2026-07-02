@@ -1,6 +1,13 @@
 ---
 name: D_SALESCONTRACTITEMCHANGED
 description: D Salescontractitemchanged
+semantic_en: "business event signature for sales contract item changes — tracks item category and product modifications within contracts"
+semantic_vi: "sự kiện kinh doanh khi dòng hợp đồng bán hàng thay đổi — theo dõi thay đổi danh mục dòng và sản phẩm trong hợp đồng"
+keywords:
+  - dòng hợp đồng thay đổi
+  - danh mục dòng
+  - sản phẩm
+  - hợp đồng bán hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

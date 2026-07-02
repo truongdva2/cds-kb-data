@@ -1,6 +1,12 @@
 ---
 name: D_HNDLGUNTPCKDSCRTMFGAUTOMLYP
 description: D Hndlguntpckdscrtmfgautomlyp
+semantic_en: "automatic packing of handling units in discrete manufacturing parameters — action parameter for auto-packing specifying production order, quantity, unit of measure, storage location, batch, and packing instruction."
+semantic_vi: "tham số đóng gói tự động đơn vị xử lý trong sản xuất rời rạc — tham số hành động để đóng gói tự động xác định đơn hàng sản xuất, số lượng, đơn vị đo, vị trí lưu trữ, lô, và hướng dẫn đóng gói."
+keywords:
+  - đóng gói tự động
+  - đơn vị xử lý
+  - sản xuất
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

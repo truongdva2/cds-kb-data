@@ -1,6 +1,12 @@
 ---
 name: D_INBDELIVCRTEFRMPURGDOCITEMP
 description: D Inbdelivcrtefrmpurgdocitemp
+semantic_en: "inbound delivery creation from purchase document item parameters — action parameter capturing sales document reference for creating inbound delivery from purchase order items."
+semantic_vi: "tham số tạo giao hàng nhập từ mục tài liệu mua — tham số hành động ghi lại tham chiếu tài liệu bán để tạo giao hàng nhập từ mục đơn hàng mua."
+keywords:
+  - giao hàng nhập
+  - tạo
+  - đơn hàng mua
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

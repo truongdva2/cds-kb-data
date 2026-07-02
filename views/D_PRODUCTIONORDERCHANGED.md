@@ -1,6 +1,13 @@
 ---
 name: D_PRODUCTIONORDERCHANGED
 description: D Production OrderCHANGED
+semantic_en: "business event signature for production order changes — tracks manufacturing order, type, and plant updates"
+semantic_vi: "sự kiện kinh doanh khi lệnh sản xuất thay đổi — theo dõi các cập nhật lệnh sản xuất, loại và nhà máy"
+keywords:
+  - lệnh sản xuất thay đổi
+  - lệnh sản xuất
+  - sự kiện sản xuất
+  - loại lệnh sản xuất
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

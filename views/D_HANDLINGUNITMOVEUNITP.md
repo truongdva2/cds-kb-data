@@ -1,6 +1,12 @@
 ---
 name: D_HANDLINGUNITMOVEUNITP
 description: D Handlingunitmoveunitp
+semantic_en: "handling unit movement parameters — action parameter for moving handling units specifying source handling unit, receiving plant, storage location, and storage bin."
+semantic_vi: "tham số di chuyển đơn vị xử lý — tham số hành động để di chuyển đơn vị xử lý xác định đơn vị xử lý nguồn, nhà máy nhận, vị trí lưu trữ, và kho."
+keywords:
+  - di chuyển đơn vị
+  - tham số hành động
+  - kho
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

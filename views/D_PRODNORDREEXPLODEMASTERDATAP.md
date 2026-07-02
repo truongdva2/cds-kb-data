@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDREEXPLODEMASTERDATAP
 description: D Prodnordreexplodemasterdatap
+semantic_en: "parameter entity for re-exploding production order master data — accepts production version for bill of material regeneration."
+semantic_vi: "Tham số tái khai triển dữ liệu chính cho lệnh sản xuất — phiên bản sản xuất cho BOM."
+keywords:
+  - tái khai triển
+  - BOM
+  - sản xuất
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

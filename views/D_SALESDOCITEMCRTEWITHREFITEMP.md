@@ -1,6 +1,13 @@
 ---
 name: D_SALESDOCITEMCRTEWITHREFITEMP
 description: D Salesdocitemcrtewithrefitemp
+semantic_en: "sales document item creation parameter from reference item — references source document for creating derived sales items"
+semantic_vi: "tham số tạo dòng tài liệu bán hàng từ dòng tham chiếu — tham chiếu tài liệu nguồn để tạo dòng bán hàng dẫn xuất"
+keywords:
+  - tạo dòng bán hàng
+  - tham chiếu tài liệu
+  - dòng bán hàng
+  - tạo mới
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

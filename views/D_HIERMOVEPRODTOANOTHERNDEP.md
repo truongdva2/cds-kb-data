@@ -1,6 +1,12 @@
 ---
 name: D_HIERMOVEPRODTOANOTHERNDEP
 description: D Hiermoveprodtoanotherndep
+semantic_en: "product hierarchy move action parameter — specifies target node in product hierarchy for moving products between hierarchy levels."
+semantic_vi: "tham số hành động di chuyển sản phẩm trong phân cấp — xác định nút đích trong phân cấp sản phẩm để di chuyển sản phẩm giữa các cấp."
+keywords:
+  - phân cấp sản phẩm
+  - di chuyển
+  - tham số
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

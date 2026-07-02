@@ -1,6 +1,12 @@
 ---
 name: D_MAINTTASKLISTCREATEWITHREFP
 description: D Maintenance Task ListCREATEWITHREFP
+semantic_en: "abstract parameter to create maintenance task list with reference — controls document/relation/description copy and validity start date."
+semantic_vi: "tham số trừu tượng để tạo danh sách tác vụ bảo trì với tham chiếu — kiểm soát sao chép tài liệu/quan hệ/mô tả và ngày bắt đầu hiệu lực."
+keywords:
+  - tạo danh sách tác vụ
+  - bảo trì
+  - tham chiếu
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

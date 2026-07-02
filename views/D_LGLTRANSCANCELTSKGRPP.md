@@ -1,6 +1,12 @@
 ---
 name: D_LGLTRANSCANCELTSKGRPP
 description: D Lgltranscanceltskgrpp
+semantic_en: "abstract parameter to cancel task group in legal transaction workflow — references workflow modification instance."
+semantic_vi: "tham số trừu tượng để hủy nhóm tác vụ trong quy trình giao dịch pháp lý — tham chiếu phiên bản sửa đổi quy trình."
+keywords:
+  - hủy nhóm tác vụ
+  - giao dịch pháp lý
+  - quy trình
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

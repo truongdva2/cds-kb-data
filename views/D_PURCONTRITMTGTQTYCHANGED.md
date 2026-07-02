@@ -1,6 +1,13 @@
 ---
 name: D_PURCONTRITMTGTQTYCHANGED
 description: D Purcontritmtgtqtychanged
+semantic_en: "business event signature for purchase contract item target quantity changes — compares previous and new quantities with units"
+semantic_vi: "sự kiện kinh doanh khi số lượng mục tiêu dòng hợp đồng mua thay đổi — so sánh số lượng trước và sau với đơn vị"
+keywords:
+  - số lượng mục tiêu hợp đồng thay đổi
+  - hợp đồng mua hàng
+  - số lượng mục tiêu
+  - đơn vị
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

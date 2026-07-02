@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITASSIGNPARAMETER
 description: D Freightunitassignparameter
+semantic_en: "freight unit assignment parameters — action parameter specifying freight unit UUID and transportation order item UUID for unit assignment operations."
+semantic_vi: "tham số gán đơn vị vận chuyển — tham số hành động xác định UUID đơn vị vận chuyển và UUID mục đơn hàng vận chuyển để hoạt động gán đơn vị."
+keywords:
+  - đơn vị vận chuyển
+  - gán
+  - tham số
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

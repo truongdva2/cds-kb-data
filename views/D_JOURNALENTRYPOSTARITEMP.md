@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTARITEMP
 description: D Journal EntryPOSTARITEMP
+semantic_en: "journal entry accounts receivable item posting parameters — specifies customer, GL account, payment terms, cash discount terms, and assignment details for AR posting."
+semantic_vi: "tham số đăng bài mục phải thu của ghi chép nhật ký — xác định khách hàng, tài khoản sổ cái, điều khoản thanh toán, điều khoản chiết khấu tiền mặt, và chi tiết gán cho đăng bài phải thu."
+keywords:
+  - phải thu
+  - ghi chép nhật ký
+  - đăng bài
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

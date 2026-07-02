@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSDOCINFOITEMP
 description: D Pclgsdcgetdagdsdocinfoitemp
+semantic_en: "parameter entity for dangerous goods document item retrieval — accepts item number to filter hazardous material records."
+semantic_vi: "Tham số lấy thông tin hàng hóa nguy hiểm từ chứng chỉ — lọc theo mã dòng."
+keywords:
+  - tham số
+  - mã dòng
+  - hàng hóa nguy hiểm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

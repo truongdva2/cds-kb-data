@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDERGETMISSINGPARTSR
 description: D Prodnordergetmissingpartsr
+semantic_en: "missing materials check result for production order — lists BOM item requirements by plant, batch, availability, and dates."
+semantic_vi: "Kết quả kiểm tra vật liệu thiếu cho lệnh sản xuất — danh sách mục BOM, nhà máy, ngày."
+keywords:
+  - kiểm tra
+  - vật liệu thiếu
+  - lệnh sản xuất
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

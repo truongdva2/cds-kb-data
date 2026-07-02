@@ -1,6 +1,13 @@
 ---
 name: D_SALESCONTRACTCHANGED
 description: D Salescontractchanged
+semantic_en: "business event signature for sales contract changes — captures contract type, organization, channel, division, and customer modifications"
+semantic_vi: "sự kiện kinh doanh khi hợp đồng bán hàng thay đổi — ghi lại loại hợp đồng, tổ chức, kênh, bộ phận và sửa đổi khách hàng"
+keywords:
+  - hợp đồng bán hàng thay đổi
+  - hợp đồng bán hàng
+  - loại hợp đồng
+  - khách hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

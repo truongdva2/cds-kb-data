@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDCONFCANCELINPUT
 description: D Prodnordconfcancelinput
+semantic_en: "parameter entity for canceling production order confirmation — accepts posting date, confirmation text, external system reference."
+semantic_vi: "Tham số hủy xác nhận lệnh sản xuất — ngày ghi sổ, văn bản xác nhận."
+keywords:
+  - hủy
+  - xác nhận
+  - lệnh sản xuất
 app_component: PP-ES
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_FRTCOSTALLOCDOCRELEASED
 description: D Frtcostallocdocreleased
+semantic_en: "freight cost allocation document release event — change-document signature for when FreightCostAllocationDocument is released, tracking settlement process and organizational assignments."
+semantic_vi: "sự kiện phát hành tài liệu phân bổ chi phí vận chuyển — chữ ký tài liệu cho khi FreightCostAllocationDocument được phát hành, theo dõi quá trình quyết toán và gán tổ chức."
+keywords:
+  - phát hành tài liệu
+  - phân bổ chi phí
+  - vận chuyển
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

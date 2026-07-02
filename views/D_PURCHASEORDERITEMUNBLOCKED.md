@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEORDERITEMUNBLOCKED
 description: D Purchase OrderITEMUNBLOCKED
+semantic_en: "business event signature for unblocking purchase order items — captures removal of item block on order lines"
+semantic_vi: "sự kiện kinh doanh khi khóa dòng đơn mua hàng được mở — ghi lại bỏ khóa dòng đơn hàng"
+keywords:
+  - mở khóa dòng đơn hàng
+  - bỏ khóa
+  - dòng mua hàng
+  - nhà cung cấp
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

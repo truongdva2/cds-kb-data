@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDSTSMARKFORDELETIONP
 description: D Maintordstsmarkfordeletionp
+semantic_en: "abstract parameter to mark deletion flag for maintenance order notifications — controls deletion flag set action."
+semantic_vi: "tham số trừu tượng để đánh dấu cờ xóa cho thông báo đơn hàng bảo trì — kiểm soát hành động đặt cờ xóa."
+keywords:
+  - đánh dấu xóa
+  - bảo trì
+  - thông báo
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

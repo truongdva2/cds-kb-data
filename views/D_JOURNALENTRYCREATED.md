@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYCREATED
 description: D Journal EntryCREATED
+semantic_en: "journal entry creation event — change-document signature triggered when a new JournalEntry is created, capturing the entry identifier."
+semantic_vi: "sự kiện tạo ghi chép nhật ký — chữ ký tài liệu thay đổi được kích hoạt khi tạo JournalEntry mới, ghi lại mã định danh mục."
+keywords:
+  - tạo ghi chép
+  - nhật ký
+  - sự kiện
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

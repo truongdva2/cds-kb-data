@@ -1,6 +1,13 @@
 ---
 name: D_PROJBILLGREQDELETER
 description: D Projbillgreqdeleter
+semantic_en: "deletion result entity for project billing requests — returns status outcome of deletion action"
+semantic_vi: "thực thể kết quả xóa yêu cầu hóa đơn dự án — trả về kết quả trạng thái của hành động xóa"
+keywords:
+  - xóa yêu cầu hóa đơn
+  - dự án
+  - trạng thái
+  - hóa đơn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

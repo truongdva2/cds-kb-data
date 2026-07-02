@@ -1,6 +1,12 @@
 ---
 name: D_PINVDOCRECOUNTITEMKEYSP
 description: D Pinvdocrecountitemkeysp
+semantic_en: "parameter entity for physical inventory items to recount — filters by inventory item reference."
+semantic_vi: "Tham số mục kiểm kho vật lý cần đếm lại — lọc theo mã mục."
+keywords:
+  - kiểm kho
+  - đếm lại
+  - mục hàng
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

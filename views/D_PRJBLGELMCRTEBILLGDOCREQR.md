@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGELMCRTEBILLGDOCREQR
 description: D Prjblgelmcrtebillgdocreqr
+semantic_en: "billing document request created from project billing element — captures BDR, project billing request, and element entry item flow UUID."
+semantic_vi: "Yêu cầu chứng chỉ lập hóa đơn từ phần tử hóa đơn dự án — UUID dòng mục."
+keywords:
+  - hóa đơn
+  - dự án
+  - yêu cầu
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

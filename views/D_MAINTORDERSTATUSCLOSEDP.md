@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDERSTATUSCLOSEDP
 description: D Maintorderstatusclosedp
+semantic_en: "abstract parameter to close maintenance order status — specifies reference date/time and assigned notification closure flag."
+semantic_vi: "tham số trừu tượng để đóng trạng thái đơn hàng bảo trì — xác định ngày/giờ tham chiếu và cờ đóng thông báo gán."
+keywords:
+  - đóng trạng thái
+  - bảo trì
+  - thông báo
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

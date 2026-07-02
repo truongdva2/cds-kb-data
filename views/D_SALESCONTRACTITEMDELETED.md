@@ -1,6 +1,13 @@
 ---
 name: D_SALESCONTRACTITEMDELETED
 description: D Salescontractitemdeleted
+semantic_en: "business event signature for deleted sales contract items — captures removal of contract line items with category and product context"
+semantic_vi: "sự kiện kinh doanh khi dòng hợp đồng bán hàng bị xóa — ghi lại xóa dòng hợp đồng với ngữ cảnh danh mục và sản phẩm"
+keywords:
+  - dòng hợp đồng xóa
+  - xóa dòng
+  - sản phẩm
+  - danh mục dòng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

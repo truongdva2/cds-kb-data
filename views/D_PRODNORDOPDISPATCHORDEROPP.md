@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDOPDISPATCHORDEROPP
 description: D Prodnordopdispatchorderopp
+semantic_en: "parameter entity for dispatching production order operations — controls scheduling type, dispatch date and time."
+semantic_vi: "Tham số điều phối hoạt động lệnh sản xuất — loại lập lịch, ngày/giờ điều phối."
+keywords:
+  - điều phối
+  - hoạt động
+  - lệnh sản xuất
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTCPDP
 description: D Journal EntryPOSTCPDP
+semantic_en: "journal entry one-time customer/supplier posting parameters — captures one-time business partner details including name, address, tax treatment, and bank country information."
+semantic_vi: "tham số đăng bài khách hàng/nhà cung cấp một lần của ghi chép nhật ký — ghi lại chi tiết đối tác kinh doanh một lần bao gồm tên, địa chỉ, xử lý thuế, và thông tin quốc gia ngân hàng."
+keywords:
+  - đối tác kinh doanh
+  - ghi chép nhật ký
+  - đăng bài
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

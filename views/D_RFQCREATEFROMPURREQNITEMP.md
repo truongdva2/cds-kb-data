@@ -1,6 +1,13 @@
 ---
 name: D_RFQCREATEFROMPURREQNITEMP
 description: D Rfqcreatefrompurreqnitemp
+semantic_en: "RFQ creation parameter from purchase requisition item — specifies requisition and item references for generating quote requests"
+semantic_vi: "tham số tạo RFQ từ dòng yêu cầu mua hàng — chỉ định tham chiếu yêu cầu và dòng để tạo yêu cầu báo giá"
+keywords:
+  - tạo RFQ
+  - yêu cầu báo giá
+  - yêu cầu mua hàng
+  - tham số
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

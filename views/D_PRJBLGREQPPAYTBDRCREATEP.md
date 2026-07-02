@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGREQPPAYTBDRCREATEP
 description: D Prjblgreqppaytbdrcreatep
+semantic_en: "parameter entity for prepayment billing document requests — specifies WBS element ID and prepayment type for advance billing."
+semantic_vi: "Tham số tạo yêu cầu hóa đơn trả trước — mã phần tử WBS, loại trả trước."
+keywords:
+  - trả trước
+  - WBS
+  - hóa đơn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

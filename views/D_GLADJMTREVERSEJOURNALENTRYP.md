@@ -1,6 +1,12 @@
 ---
 name: D_GLADJMTREVERSEJOURNALENTRYP
 description: D GLADJMTREVERSEJournal EntryP
+semantic_en: "G/L adjustment reversal parameters — action parameter for reversing accounting document adjustments using accounting document number, company code, and posting date."
+semantic_vi: "tham số đảo ngược điều chỉnh sổ cái — tham số hành động để đảo ngược điều chỉnh tài liệu kế toán sử dụng số tài liệu kế toán, mã công ty, và ngày đăng bài."
+keywords:
+  - đảo ngược
+  - điều chỉnh
+  - tài liệu kế toán
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

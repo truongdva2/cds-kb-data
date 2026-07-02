@@ -1,6 +1,12 @@
 ---
 name: D_MATERIALDOCUMENTCANCELED_2
 description: D Materialdocumentcanceled 2
+semantic_en: "event signature for material document cancellation — captures goods movement type when material document is canceled."
+semantic_vi: "chữ ký sự kiện cho hủy tài liệu vật liệu — ghi lại loại chuyển động hàng khi tài liệu vật liệu bị hủy."
+keywords:
+  - tài liệu vật liệu hủy
+  - sự kiện
+  - chuyển động hàng
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGFMLAVARBLP
 description: D Intrstrateinstrchgfmlavarblp
+semantic_en: "formula variable parameters for interest instrument changes — specifies condition item, validity start date, formula variable reference, and variable interest rate details."
+semantic_vi: "tham số biến công thức cho thay đổi công cụ lãi suất — xác định mục điều kiện, ngày bắt đầu hiệu lực, tham chiếu biến công thức, và chi tiết lãi suất biến."
+keywords:
+  - biến công thức
+  - lãi suất
+  - công cụ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

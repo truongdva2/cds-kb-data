@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYCHANGEAPARITEMP
 description: D Journal EntryCHANGEAPARITEMP
+semantic_en: "journal entry accounts payable/receivable item changes — captures AP/AR line items with GL account, assignment reference, business partner banking details."
+semantic_vi: "thay đổi mục khoản phải trả/phải thu của ghi chép nhật ký — ghi lại mục hàng AP/AR với tài khoản sổ cái, tham chiếu gán, chi tiết ngân hàng đối tác kinh doanh."
+keywords:
+  - ghi chép nhật ký
+  - phải trả phải thu
+  - khoản
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

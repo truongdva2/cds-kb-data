@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDMAINWORKCOMPLETEP
 description: D Maintordmainworkcompletep
+semantic_en: "abstract parameter for maintenance order main work completion — sets main work completed date/time and usage flag."
+semantic_vi: "tham số trừu tượng cho hoàn thành công việc chính của đơn hàng bảo trì — đặt ngày/giờ hoàn thành công việc chính và cờ sử dụng."
+keywords:
+  - hoàn thành công việc
+  - bảo trì
+  - thời gian
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_MATERIALDOCUMENTITEMCRTED_2
 description: D Materialdocumentitemcrted 2
+semantic_en: "event signature for material document item creation — captures item number, movement type, and location when item is created."
+semantic_vi: "chữ ký sự kiện cho tạo dòng tài liệu vật liệu — ghi lại số dòng, loại chuyển động và vị trí khi dòng được tạo."
+keywords:
+  - dòng vật liệu tạo
+  - sự kiện
+  - vị trí kho
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

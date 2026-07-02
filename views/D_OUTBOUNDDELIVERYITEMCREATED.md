@@ -1,6 +1,12 @@
 ---
 name: D_OUTBOUNDDELIVERYITEMCREATED
 description: D Outbound DeliveryITEMCREATED
+semantic_en: "event signature for outbound delivery item creation — captures when delivery item is created including item number and document type."
+semantic_vi: "chữ ký sự kiện cho tạo dòng giao hàng đi — ghi lại khi dòng giao hàng được tạo bao gồm số dòng và loại tài liệu."
+keywords:
+  - dòng giao hàng đi tạo
+  - sự kiện
+  - số dòng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

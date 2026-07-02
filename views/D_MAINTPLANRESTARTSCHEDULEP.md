@@ -1,6 +1,12 @@
 ---
 name: D_MAINTPLANRESTARTSCHEDULEP
 description: D Maintplanrestartschedulep
+semantic_en: "abstract parameter to restart maintenance plan schedule — controls start date/time, counter reading, and call retention."
+semantic_vi: "tham số trừu tượng để khởi động lại lịch kế hoạch bảo trì — kiểm soát ngày/giờ bắt đầu, đọc bộ đếm và giữ lại gọi."
+keywords:
+  - khởi động lại lịch
+  - kế hoạch bảo trì
+  - đọc bộ đếm
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

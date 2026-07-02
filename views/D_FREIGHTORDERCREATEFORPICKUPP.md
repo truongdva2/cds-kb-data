@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCREATEFORPICKUPP
 description: D Freightordercreateforpickupp
+semantic_en: "freight order creation for pickup action parameters — input for CreateFreightOrderForPickup action, specifying transportation order type."
+semantic_vi: "tham số hành động tạo đơn hàng vận chuyển cho nhận hàng — đầu vào cho hành động CreateFreightOrderForPickup, xác định loại đơn hàng vận chuyển."
+keywords:
+  - tạo đơn hàng
+  - nhận hàng
+  - loại
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

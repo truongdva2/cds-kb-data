@@ -1,6 +1,13 @@
 ---
 name: D_PURCONTRVALDTYPERDCHANGED
 description: D Purcontrvaldtyperdchanged
+semantic_en: "business event signature for purchase contract validity period changes — tracks validity start and end date modifications"
+semantic_vi: "sự kiện kinh doanh khi kỳ hạn hiệu lực hợp đồng mua thay đổi — theo dõi thay đổi ngày bắt đầu và kết thúc hiệu lực"
+keywords:
+  - kỳ hạn hiệu lực hợp đồng thay đổi
+  - hợp đồng mua hàng
+  - ngày hiệu lực
+  - kỳ hạn
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

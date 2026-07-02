@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGREQCRTEBILLGDOCREQP
 description: D Prjblgreqcrtebillgdocreqp
+semantic_en: "parameter entity for creating billing document requests from project billing — controls action type, on-account item inclusion, adhoc plan item creation."
+semantic_vi: "Tham số tạo yêu cầu chứng chỉ lập hóa đơn từ dự án — loại hành động, mục phí, mục kế hoạch."
+keywords:
+  - tạo
+  - hóa đơn
+  - dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

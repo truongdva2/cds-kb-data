@@ -1,6 +1,12 @@
 ---
 name: D_LGLCNTNTMDOCLINKOBJKEYCRTER
 description: D Lglcntntmdoclinkobjkeycrter
+semantic_en: "abstract result structure for generating linked object keys in legal documents — returns mapped object key for document linkage."
+semantic_vi: "cấu trúc kết quả trừu tượng cho tạo khóa đối tượng liên kết trong tài liệu pháp lý — trả về khóa đối tượng được ánh xạ cho liên kết tài liệu."
+keywords:
+  - khóa đối tượng liên kết
+  - kết quả tạo
+  - tài liệu pháp lý
 app_component: CM-INT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_RFQCREATEFROMPURREQNP
 description: D Rfqcreatefrompurreqnp
+semantic_en: "RFQ creation parameter from purchase requisition — specifies purchasing document type for quote request generation"
+semantic_vi: "tham số tạo RFQ từ yêu cầu mua hàng — chỉ định loại tài liệu mua hàng để tạo yêu cầu báo giá"
+keywords:
+  - tạo RFQ
+  - yêu cầu báo giá
+  - yêu cầu mua hàng
+  - loại tài liệu
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

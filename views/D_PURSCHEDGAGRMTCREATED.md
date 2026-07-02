@@ -1,6 +1,13 @@
 ---
 name: D_PURSCHEDGAGRMTCREATED
 description: D Purschedgagrmtcreated
+semantic_en: "business event signature for new purchase scheduling agreements — records agreement creation with validity dates and organizational context"
+semantic_vi: "sự kiện kinh doanh khi thỏa thuận lên lịch mua hàng được tạo — ghi lại tạo thỏa thuận với ngày hiệu lực và ngữ cảnh tổ chức"
+keywords:
+  - thỏa thuận lên lịch mới
+  - tạo thỏa thuận
+  - mua hàng
+  - nhà cung cấp
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

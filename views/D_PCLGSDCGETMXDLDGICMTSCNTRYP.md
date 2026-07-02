@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETMXDLDGICMTSCNTRYP
 description: D Pclgsdcgetmxdldgicmtscntryp
+semantic_en: "parameter entity for mixed loading incompatibilities by country — filters by destination country code."
+semantic_vi: "Tham số kiểm tra khả năng tương thích khi vận chuyển hỗn hợp theo quốc gia — lọc theo nước."
+keywords:
+  - vận chuyển hỗn hợp
+  - quốc gia
+  - tương thích
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

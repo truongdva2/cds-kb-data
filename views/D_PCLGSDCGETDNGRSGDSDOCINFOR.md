@@ -1,6 +1,13 @@
 ---
 name: D_PCLGSDCGETDNGRSGDSDOCINFOR
 description: D Pclgsdcgetdngrsgdsdocinfor
+semantic_en: "dangerous goods document header — EU ADR/RID regulatory points, quantity exemptions, limited quantities, excepted quantities, gross weight, and volume."
+semantic_vi: "Chứng chỉ hàng hóa nguy hiểm — điểm quy định EU ADR/RID, miễn trừ số lượng, khối lượng tổng."
+keywords:
+  - chứng chỉ
+  - ADR
+  - RID
+  - miễn trừ
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

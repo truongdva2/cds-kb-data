@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETMXDLDGICMTSPRODP
 description: D Pclgsdcgetmxdldgicmtsprodp
+semantic_en: "parameter entity for product-level mixed loading checks — filters by product and packing instruction number."
+semantic_vi: "Tham số kiểm tra tương thích sản phẩm khi vận chuyển hỗn hợp — lọc theo mã sản phẩm và số hướng dẫn đóng gói."
+keywords:
+  - sản phẩm
+  - đóng gói
+  - tương thích
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

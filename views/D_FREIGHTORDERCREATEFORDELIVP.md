@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCREATEFORDELIVP
 description: D Freightordercreatefordelivp
+semantic_en: "freight order creation for delivery action parameters — specifies transportation order type for CreateFreightOrderForDeliv action."
+semantic_vi: "tham số hành động tạo đơn hàng vận chuyển cho giao hàng — xác định loại đơn hàng vận chuyển cho hành động CreateFreightOrderForDeliv."
+keywords:
+  - tạo đơn hàng
+  - giao hàng
+  - loại
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

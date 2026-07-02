@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDCONFIRMATIONCANCELP
 description: D Maintordconfirmationcancelp
+semantic_en: "abstract parameter to cancel maintenance order confirmation — contains confirmation long text for cancellation reason."
+semantic_vi: "tham số trừu tượng để hủy xác nhận đơn hàng bảo trì — chứa văn bản xác nhận dài cho lý do hủy."
+keywords:
+  - hủy xác nhận
+  - bảo trì
+  - đơn hàng
 app_component: PM-WOC-JC-2CL
 software_component: SAPSCORE
 release_state: released

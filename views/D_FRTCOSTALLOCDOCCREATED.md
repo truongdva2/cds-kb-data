@@ -1,6 +1,12 @@
 ---
 name: D_FRTCOSTALLOCDOCCREATED
 description: D Frtcostallocdoccreated
+semantic_en: "freight cost allocation document creation event — change-document signature triggered when FreightCostAllocationDocument is created, capturing settlement type, document category, and organizational structure."
+semantic_vi: "sự kiện tạo tài liệu phân bổ chi phí vận chuyển — chữ ký tài liệu được kích hoạt khi tạo FreightCostAllocationDocument, ghi lại loại quyết toán, danh mục tài liệu, và cấu trúc tổ chức."
+keywords:
+  - phân bổ chi phí
+  - tạo tài liệu
+  - vận chuyển
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

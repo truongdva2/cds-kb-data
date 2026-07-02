@@ -1,6 +1,12 @@
 ---
 name: D_FRTCOSTALLOCDOCCHANGED
 description: D Frtcostallocdocchanged
+semantic_en: "freight cost allocation document modification event — change-document signature capturing updates to FreightCostAllocationDocument with settlement process, document type, company/purchasing/sales organization details."
+semantic_vi: "sự kiện thay đổi tài liệu phân bổ chi phí vận chuyển — chữ ký tài liệu ghi lại cập nhật FreightCostAllocationDocument với chi tiết quá trình quyết toán, loại tài liệu, công ty/tổ chức mua/bán."
+keywords:
+  - phân bổ chi phí
+  - vận chuyển
+  - sự kiện thay đổi
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

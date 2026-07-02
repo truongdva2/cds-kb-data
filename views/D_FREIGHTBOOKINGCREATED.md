@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTBOOKINGCREATED
 description: D Freightbookingcreated
+semantic_en: "freight booking creation event — change-document signature triggered when a new FreightBooking is created with transportation order, mode, and carrier details."
+semantic_vi: "sự kiện tạo đặt vận chuyển — chữ ký tài liệu được kích hoạt khi tạo FreightBooking mới với chi tiết đơn hàng vận chuyển, chế độ, và nhà vận chuyển."
+keywords:
+  - tạo vận chuyển
+  - sự kiện
+  - đặt lịch
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

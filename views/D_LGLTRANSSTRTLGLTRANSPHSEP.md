@@ -1,6 +1,12 @@
 ---
 name: D_LGLTRANSSTRTLGLTRANSPHSEP
 description: D Lgltransstrtlgltransphsep
+semantic_en: "abstract parameter to start legal transaction phase — specifies phase UUID for workflow initiation."
+semantic_vi: "tham số trừu tượng để bắt đầu giai đoạn giao dịch pháp lý — chỉ định UUID giai đoạn cho khởi tạo quy trình."
+keywords:
+  - bắt đầu giai đoạn
+  - giao dịch pháp lý
+  - quy trình
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

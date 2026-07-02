@@ -1,6 +1,14 @@
 ---
 name: D_PURCHASEORDERITEMBLOCKED
 description: D Purchase OrderITEMBLOCKED
+semantic_en: "business event signature for purchase order item blocking — tracks order details, category, plant, product, and supplier info"
+semantic_vi: "sự kiện kinh doanh khi dòng đơn mua hàng bị khóa — theo dõi chi tiết đơn, danh mục, nhà máy, sản phẩm và thông tin nhà cung cấp"
+keywords:
+  - dòng đơn hàng bị khóa
+  - khóa dòng
+  - dòng mua hàng
+  - nhà cung cấp
+  - sản phẩm
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDCONFGETCONFPROPOSALR
 description: D Prodnordconfgetconfproposalr
+semantic_en: "proposed production order confirmation data — supplies confirmation text, material, planned total quantity, unit, reservation and reversal status."
+semantic_vi: "Dữ liệu xác nhận đề xuất cho lệnh sản xuất — văn bản, sản phẩm, số lượng kế hoạch."
+keywords:
+  - xác nhận
+  - lệnh sản xuất
+  - số lượng
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

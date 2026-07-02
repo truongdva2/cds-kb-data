@@ -1,6 +1,12 @@
 ---
 name: D_MP_STR_FUNCIMPORTP
 description: D MP Str Funcimportp
+semantic_en: "abstract function parameter for measurement point structure update — controls measuring point category classification."
+semantic_vi: "tham số hàm trừu tượng cho cập nhật cấu trúc điểm đo — kiểm soát phân loại danh mục điểm đo."
+keywords:
+  - điểm đo
+  - cấu trúc
+  - cập nhật
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

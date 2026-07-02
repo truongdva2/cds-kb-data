@@ -1,6 +1,12 @@
 ---
 name: D_OUTBOUNDDELIVERYITEMDELETED
 description: D Outbound DeliveryITEMDELETED
+semantic_en: "event signature for outbound delivery item deletion — captures when delivery item is deleted including item number and document type."
+semantic_vi: "chữ ký sự kiện cho xóa dòng giao hàng đi — ghi lại khi dòng giao hàng bị xóa bao gồm số dòng và loại tài liệu."
+keywords:
+  - dòng giao hàng đi xóa
+  - sự kiện
+  - số dòng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

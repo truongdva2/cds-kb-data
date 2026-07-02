@@ -1,6 +1,12 @@
 ---
 name: D_PROCORDCONFGETCONFPROPOSALP
 description: D Procordconfgetconfproposalp
+semantic_en: "parameter entity for proposing confirmation data on process orders — specifies confirmation group, order/operation identifiers, quantity/activity/date/personnel proposal flags."
+semantic_vi: "Tham số đề xuất dữ liệu xác nhận lệnh công nghiệp — nhóm xác nhận, mã lệnh, cờ đề xuất."
+keywords:
+  - xác nhận
+  - lệnh
+  - đề xuất
 app_component: PP-ES
 software_component: SAPSCORE
 release_state: released

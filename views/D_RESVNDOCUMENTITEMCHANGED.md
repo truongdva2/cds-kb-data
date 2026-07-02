@@ -1,6 +1,13 @@
 ---
 name: D_RESVNDOCUMENTITEMCHANGED
 description: D Resvndocumentitemchanged
+semantic_en: "business event signature for reservation document item changes — tracks item modifications and record type for inventory reservations"
+semantic_vi: "sự kiện kinh doanh khi dòng tài liệu đặt chỗ thay đổi — theo dõi sửa đổi dòng và loại bản ghi cho việc đặt chỗ tồn kho"
+keywords:
+  - dòng đặt chỗ thay đổi
+  - đặt chỗ
+  - dòng tài liệu
+  - tồn kho
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

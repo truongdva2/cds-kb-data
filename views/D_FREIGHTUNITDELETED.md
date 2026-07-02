@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITDELETED
 description: D Freightunitdeleted
+semantic_en: "freight unit deletion event — change-document signature for when a FreightUnit is deleted, tracking transportation order and mode information."
+semantic_vi: "sự kiện xóa đơn vị vận chuyển — chữ ký tài liệu cho khi FreightUnit bị xóa, theo dõi thông tin đơn hàng vận chuyển và chế độ."
+keywords:
+  - xóa đơn vị
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSDOCINFOPOINTR
 description: D Pclgsdcgetdagdsdocinfopointr
+semantic_en: "section 1.1.3.6 dangerous goods reference data — enclosure quantity, transport category, exemption eligibility, and regulatory compliance indicators."
+semantic_vi: "Dữ liệu hàng hóa nguy hiểm theo quy chuẩn 1.1.3.6 — số lượng đóng gói, danh mục vận chuyển."
+keywords:
+  - quy chuẩn
+  - danh mục vận chuyển
+  - miễn trừ
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

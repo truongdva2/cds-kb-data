@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTCOPAP
 description: D Journal EntryPOSTCOPAP
+semantic_en: "journal entry profitability segment posting parameters — captures customer, product, sales organization, and cost allocation details (WBS element, profit center) for profitability analysis posting."
+semantic_vi: "tham số đăng bài đoạn sinh lợi của ghi chép nhật ký — ghi lại khách hàng, sản phẩm, tổ chức bán, và chi tiết phân bổ chi phí (phần tử WBS, trung tâm lợi nhuận) cho đăng bài phân tích sinh lợi."
+keywords:
+  - sinh lợi
+  - ghi chép nhật ký
+  - đăng bài
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

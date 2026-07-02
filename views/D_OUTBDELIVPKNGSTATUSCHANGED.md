@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVPKNGSTATUSCHANGED
 description: D Outbdelivpkngstatuschanged
+semantic_en: "event signature for outbound delivery picking status change — tracks picking status, confirmation status, and previous status with document type."
+semantic_vi: "chữ ký sự kiện cho thay đổi trạng thái lựa chọn giao hàng đi — theo dõi trạng thái lựa chọn, trạng thái xác nhận và trạng thái trước đó với loại tài liệu."
+keywords:
+  - lựa chọn hàng
+  - sự kiện thay đổi
+  - xác nhận
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSEDIINFOITEMR
 description: D Pclgsdcgetdagdsediinfoitemr
+semantic_en: "EDI-formatted dangerous goods item data — includes product reference, regulatory text blocks (basic info, extended info, relevant regulations)."
+semantic_vi: "Dữ liệu hàng hóa nguy hiểm định dạng EDI — thông tin sản phẩm, quy định, điều khiển EDI."
+keywords:
+  - EDI
+  - quy định
+  - sản phẩm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

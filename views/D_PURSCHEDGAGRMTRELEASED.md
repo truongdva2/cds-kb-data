@@ -1,6 +1,13 @@
 ---
 name: D_PURSCHEDGAGRMTRELEASED
 description: D Purschedgagrmtreleased
+semantic_en: "business event signature for purchase scheduling agreement releases — records release type and details for scheduled supplier deliveries"
+semantic_vi: "sự kiện kinh doanh khi phát hành thỏa thuận lên lịch mua hàng — ghi lại loại phát hành và chi tiết cho các lần giao từ nhà cung cấp theo lịch"
+keywords:
+  - phát hành thỏa thuận lên lịch
+  - phát hành
+  - lên lịch mua hàng
+  - nhà cung cấp
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_LGLDOCCRTELGLDOCWITHFILEP
 description: D Lgldoccrtelgldocwithfilep
+semantic_en: "abstract parameter to create legal document with file — specifies linked object key, file name, language, and access level."
+semantic_vi: "tham số trừu tượng để tạo tài liệu pháp lý với tập tin — xác định khóa đối tượng liên kết, tên tập tin, ngôn ngữ và mức truy cập."
+keywords:
+  - tạo tài liệu
+  - tập tin pháp lý
+  - liên kết đối tượng
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

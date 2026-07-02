@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVGISTATUSCHANGED
 description: D Outbdelivgistatuschanged
+semantic_en: "event signature for outbound delivery goods issue status change — tracks overall goods movement status and previous status with document type."
+semantic_vi: "chữ ký sự kiện cho thay đổi trạng thái xuất hàng giao hàng đi — theo dõi trạng thái chuyển động hàng tổng thể và trạng thái trước đó với loại tài liệu."
+keywords:
+  - xuất hàng
+  - sự kiện thay đổi
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

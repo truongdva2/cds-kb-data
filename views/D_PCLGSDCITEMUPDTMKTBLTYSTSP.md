@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCITEMUPDTMKTBLTYSTSP
 description: D Pclgsdcitemupdtmktbltystsp
+semantic_en: "parameter entity for product marketability status updates — accepts marketability status value."
+semantic_vi: "Tham số cập nhật trạng thái khả năng tiêu thụ sản phẩm — lọc theo trạng thái."
+keywords:
+  - trạng thái
+  - khả năng tiêu thụ
+  - sản phẩm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

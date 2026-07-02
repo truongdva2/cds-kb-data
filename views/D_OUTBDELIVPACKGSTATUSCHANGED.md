@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVPACKGSTATUSCHANGED
 description: D Outbdelivpackgstatuschanged
+semantic_en: "event signature for outbound delivery packing status change — tracks overall packing status and previous status with document type."
+semantic_vi: "chữ ký sự kiện cho thay đổi trạng thái đóng gói giao hàng đi — theo dõi trạng thái đóng gói tổng thể và trạng thái trước đó với loại tài liệu."
+keywords:
+  - đóng gói
+  - sự kiện thay đổi
+  - trạng thái
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

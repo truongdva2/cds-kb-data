@@ -1,6 +1,13 @@
 ---
 name: D_PURSCHEDGAGRMTCHANGED
 description: D Purschedgagrmtchanged
+semantic_en: "business event signature for purchase scheduling agreement changes — captures agreement modifications across organization and time period"
+semantic_vi: "sự kiện kinh doanh khi thỏa thuận lên lịch mua hàng thay đổi — ghi lại sửa đổi thỏa thuận trên tổ chức và kỳ thời gian"
+keywords:
+  - thỏa thuận lên lịch thay đổi
+  - lên lịch mua hàng
+  - thỏa thuận
+  - nhà cung cấp
 app_component: MM-PUR-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

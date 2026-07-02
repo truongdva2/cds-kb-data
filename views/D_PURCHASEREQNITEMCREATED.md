@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEREQNITEMCREATED
 description: D Purchase RequisitionNITEMCREATED
+semantic_en: "business event signature for new purchase requisition items — records requisition type, item category, material group, and organizational assignment"
+semantic_vi: "sự kiện kinh doanh khi dòng yêu cầu mua hàng được tạo — ghi lại loại yêu cầu, danh mục dòng, nhóm vật liệu và gán tổ chức"
+keywords:
+  - dòng yêu cầu mua mới
+  - tạo yêu cầu
+  - danh mục dòng
+  - nhóm vật liệu
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

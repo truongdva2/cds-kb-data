@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVDELIVBLOCKCHANGED
 description: D Outbdelivdelivblockchanged
+semantic_en: "event signature for outbound delivery block status change — tracks delivery block reason and previous reason with sales org and document type."
+semantic_vi: "chữ ký sự kiện cho thay đổi trạng thái khóa giao hàng đi — theo dõi lý do khóa giao hàng và lý do trước đó với tổ chức bán hàng và loại tài liệu."
+keywords:
+  - khóa giao hàng
+  - sự kiện thay đổi
+  - lý do
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

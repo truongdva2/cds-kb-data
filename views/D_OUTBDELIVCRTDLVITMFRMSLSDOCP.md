@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVCRTDLVITMFRMSLSDOCP
 description: D Outbdelivcrtdlvitmfrmslsdocp
+semantic_en: "abstract parameter to create delivery item from sales document — specifies delivery selection date."
+semantic_vi: "tham số trừu tượng để tạo dòng giao hàng từ tài liệu bán hàng — xác định ngày lựa chọn giao hàng."
+keywords:
+  - tạo dòng giao hàng
+  - tài liệu bán hàng
+  - ngày lựa chọn
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

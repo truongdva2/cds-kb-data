@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDNGRSGOODSEDIINFOP
 description: D Pclgsdcgetdngrsgoodsediinfop
+semantic_en: "parameter entity for dangerous goods EDI information retrieval — accepts compliance document UUID."
+semantic_vi: "Tham số lấy thông tin EDI hàng hóa nguy hiểm — dựa trên UUID chứng chỉ."
+keywords:
+  - EDI
+  - UUID
+  - chứng chỉ
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

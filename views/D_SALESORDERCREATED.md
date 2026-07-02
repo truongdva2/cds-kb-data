@@ -1,6 +1,13 @@
 ---
 name: D_SALESORDERCREATED
 description: D Sales OrderCREATED
+semantic_en: "business event signature for new sales orders — records order type, organization, channel, division, and customer at creation time"
+semantic_vi: "sự kiện kinh doanh khi đơn bán hàng được tạo — ghi lại loại đơn, tổ chức, kênh, bộ phận và khách hàng khi tạo"
+keywords:
+  - đơn bán hàng mới
+  - tạo đơn hàng
+  - loại đơn
+  - khách hàng
 app_component: SD-SLS-GF-BET-2CL
 software_component: SAPSCORE
 release_state: released

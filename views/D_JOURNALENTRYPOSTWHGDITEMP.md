@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTWHGDITEMP
 description: D Journal EntryPOSTWHGDITEMP
+semantic_en: "abstract withholding tax structure for journal entry posting — specifies withholding tax type, code, and entry method."
+semantic_vi: "cấu trúc thuế khấu trừ trừu tượng cho ghi nhập nhật ký — xác định loại thuế khấu trừ, mã và phương pháp ghi nhập."
+keywords:
+  - thuế khấu trừ
+  - ghi nhập nhật ký
+  - mã thuế
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGMAINFLOWP
 description: D Intrstrateinstrchgmainflowp
+semantic_en: "main cash flow parameters for interest instruments — specifies principal flow creation, activity type, payment date, amount, and local currency details."
+semantic_vi: "tham số dòng tiền chính cho công cụ lãi suất — xác định tạo dòng tiền chính, loại hoạt động, ngày thanh toán, số tiền, và chi tiết tiền tệ địa phương."
+keywords:
+  - dòng tiền chính
+  - lãi suất
+  - thanh toán
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

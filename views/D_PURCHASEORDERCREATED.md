@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEORDERCREATED
 description: D Purchase OrderCREATED
+semantic_en: "business event signature for new purchase orders — records order type, purchasing organization, group, and supplier at creation"
+semantic_vi: "sự kiện kinh doanh khi đơn mua hàng được tạo — ghi lại loại đơn, tổ chức mua hàng, nhóm và nhà cung cấp"
+keywords:
+  - đơn mua hàng mới
+  - tạo đơn mua hàng
+  - nhà cung cấp
+  - loại đơn
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

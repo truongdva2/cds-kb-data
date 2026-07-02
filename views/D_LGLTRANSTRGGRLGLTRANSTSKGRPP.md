@@ -1,6 +1,12 @@
 ---
 name: D_LGLTRANSTRGGRLGLTRANSTSKGRPP
 description: D Lgltranstrggrlgltranstskgrpp
+semantic_en: "abstract parameter to trigger task group in legal transaction — controls task group UUID, workflow document link, and context."
+semantic_vi: "tham số trừu tượng để kích hoạt nhóm tác vụ trong giao dịch pháp lý — kiểm soát UUID nhóm tác vụ, liên kết tài liệu quy trình và bối cảnh."
+keywords:
+  - kích hoạt nhóm tác vụ
+  - giao dịch pháp lý
+  - tài liệu quy trình
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

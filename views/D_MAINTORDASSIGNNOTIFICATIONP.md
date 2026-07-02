@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDASSIGNNOTIFICATIONP
 description: D Maintordassignnotificationp
+semantic_en: "abstract parameter to assign maintenance notification to order — links notification and specifies if header-level."
+semantic_vi: "tham số trừu tượng để gán thông báo bảo trì cho đơn hàng — liên kết thông báo và xác định nếu ở mức tiêu đề."
+keywords:
+  - gán thông báo
+  - bảo trì
+  - đơn hàng
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

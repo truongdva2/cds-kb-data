@@ -1,6 +1,12 @@
 ---
 name: D_PRODNRTGDELVIACHANGENUMBERP
 description: D Prodnrtgdelviachangenumberp
+semantic_en: "parameter entity for deleting production routing by change number — filters routing deletion by engineering change order."
+semantic_vi: "Tham số xóa quy trình sản xuất theo số thay đổi — lọc theo số thay đổi kỹ thuật."
+keywords:
+  - xóa
+  - quy trình
+  - số thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

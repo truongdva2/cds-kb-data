@@ -1,6 +1,13 @@
 ---
 name: D_SALESCONTRACTITEMCREATED
 description: D Salescontractitemcreated
+semantic_en: "business event signature for new sales contract items — records item category and product assignment within contracts"
+semantic_vi: "sự kiện kinh doanh khi dòng hợp đồng bán hàng được tạo — ghi lại danh mục dòng và gán sản phẩm trong hợp đồng"
+keywords:
+  - dòng hợp đồng mới
+  - tạo dòng
+  - sản phẩm
+  - hợp đồng bán hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_PRODUCTIONORDERRELEASEP
 description: D Production OrderRELEASEP
+semantic_en: "production order release parameter — controls whether payment-deferment and missing-parts messaging is included in release"
+semantic_vi: "tham số phát hành lệnh sản xuất — kiểm soát bao gồm thông báo hoãn thanh toán và chi tiết sản phẩm thiếu"
+keywords:
+  - phát hành lệnh sản xuất
+  - tham số
+  - hoãn thanh toán
+  - sản phẩm thiếu
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

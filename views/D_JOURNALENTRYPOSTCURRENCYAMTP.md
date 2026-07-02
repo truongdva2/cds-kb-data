@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTCURRENCYAMTP
 description: D Journal EntryPOSTCURRENCYAMTP
+semantic_en: "journal entry currency amount posting parameters — specifies currency role, exchange rate, journal entry amount, tax amount, and base amount details for multi-currency posting."
+semantic_vi: "tham số đăng bài số tiền tiền tệ của ghi chép nhật ký — xác định vai trò tiền tệ, tỷ giá hối đoái, số tiền ghi chép nhật ký, số tiền thuế, và chi tiết số tiền cơ sở cho đăng bài đa tiền tệ."
+keywords:
+  - tiền tệ
+  - ghi chép nhật ký
+  - tỷ giá
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

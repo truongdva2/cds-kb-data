@@ -1,6 +1,13 @@
 ---
 name: D_PRODUCTIONORDERCREATED
 description: D Production OrderCREATED
+semantic_en: "business event signature for production order creation — records manufacturing order, type, and plant assignment"
+semantic_vi: "sự kiện kinh doanh khi lệnh sản xuất được tạo — ghi lại lệnh sản xuất, loại và gán nhà máy"
+keywords:
+  - lệnh sản xuất mới
+  - tạo lệnh sản xuất
+  - loại lệnh sản xuất
+  - nhà máy sản xuất
 app_component: PP-SFC-2CL
 software_component: SAPSCORE
 release_state: released

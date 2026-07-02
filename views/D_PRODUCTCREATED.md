@@ -1,6 +1,13 @@
 ---
 name: D_PRODUCTCREATED
 description: D Productcreated
+semantic_en: "business event signature for new product creation — records product type and category at creation time"
+semantic_vi: "sự kiện kinh doanh khi sản phẩm được tạo — ghi lại loại sản phẩm và danh mục khi tạo"
+keywords:
+  - sản phẩm mới
+  - tạo sản phẩm
+  - sự kiện tạo
+  - dữ liệu chính sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

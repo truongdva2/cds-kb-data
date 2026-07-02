@@ -1,6 +1,12 @@
 ---
 name: D_LGLCNTNTMDOCLINKOBJKEYCRTEP
 description: D Lglcntntmdoclinkobjkeycrtep
+semantic_en: "abstract parameter to generate linked object key for legal documents — creates reference mapping for legal document linkage."
+semantic_vi: "tham số trừu tượng để tạo khóa đối tượng liên kết cho tài liệu pháp lý — tạo ánh xạ tham chiếu cho liên kết tài liệu pháp lý."
+keywords:
+  - liên kết tài liệu
+  - khóa đối tượng
+  - pháp lý
 app_component: CM-INT-2CL
 software_component: SAPSCORE
 release_state: released

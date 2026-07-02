@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGCNDNP
 description: D Intrstrateinstrchgcndnp
+semantic_en: "interest condition parameters for instrument changes — captures condition item, condition type, interest category, percentage rate, and calculation method details."
+semantic_vi: "tham số điều kiện lãi suất cho thay đổi công cụ — ghi lại mục điều kiện, loại điều kiện, danh mục lãi suất, tỷ lệ phần trăm, và chi tiết phương pháp tính toán."
+keywords:
+  - điều kiện lãi suất
+  - công cụ
+  - tham số
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

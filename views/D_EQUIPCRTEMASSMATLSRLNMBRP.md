@@ -1,6 +1,12 @@
 ---
 name: D_EQUIPCRTEMASSMATLSRLNMBRP
 description: D Equipcrtemassmatlsrlnmbrp
+semantic_en: "serial number range for equipment creation — specifies material, equipment category, and serial number bounds (from, to) for batch creation."
+semantic_vi: "dải số seri cho tạo thiết bị — xác định nguyên vật liệu, loại thiết bị, và giới hạn số seri (từ, đến) để tạo hàng loạt."
+keywords:
+  - số seri
+  - tạo thiết bị
+  - vật liệu
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

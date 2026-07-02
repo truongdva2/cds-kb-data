@@ -1,6 +1,12 @@
 ---
 name: D_LGLDOCCREATEFILEFROMVRTLDOCP
 description: D Lgldoccreatefilefromvrtldocp
+semantic_en: "abstract parameter to create file from virtual legal document — specifies file format for virtual document conversion."
+semantic_vi: "tham số trừu tượng để tạo tập tin từ tài liệu pháp lý ảo — chỉ định định dạng tập tin cho chuyển đổi tài liệu ảo."
+keywords:
+  - tài liệu ảo
+  - tạo tập tin
+  - định dạng
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

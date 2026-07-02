@@ -1,6 +1,12 @@
 ---
 name: D_PROCESSORDERCHANGED
 description: D Processorderchanged
+semantic_en: "process order changed event — triggered when manufacturing order, order type, or production plant changes."
+semantic_vi: "Sự kiện thay đổi lệnh công nghiệp — cập nhật loại lệnh, nhà máy sản xuất."
+keywords:
+  - sự kiện thay đổi
+  - lệnh công nghiệp
+  - nhà máy
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

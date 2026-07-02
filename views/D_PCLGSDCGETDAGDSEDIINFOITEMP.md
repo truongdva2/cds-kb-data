@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSEDIINFOITEMP
 description: D Pclgsdcgetdagdsediinfoitemp
+semantic_en: "parameter entity for EDI processing of dangerous goods items — filters by item number."
+semantic_vi: "Tham số xử lý EDI mục hàng hóa nguy hiểm — lọc theo mã dòng."
+keywords:
+  - EDI
+  - hàng hóa nguy hiểm
+  - mã dòng
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

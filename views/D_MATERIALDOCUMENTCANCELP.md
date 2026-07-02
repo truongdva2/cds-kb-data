@@ -1,6 +1,12 @@
 ---
 name: D_MATERIALDOCUMENTCANCELP
 description: D Materialdocumentcancelp
+semantic_en: "abstract parameter for material document cancellation — specifies posting date for reversal transaction."
+semantic_vi: "tham số trừu tượng cho hủy tài liệu vật liệu — xác định ngày ghi nhập cho giao dịch đảo ngược."
+keywords:
+  - hủy tài liệu
+  - vật liệu
+  - ngày ghi nhập
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

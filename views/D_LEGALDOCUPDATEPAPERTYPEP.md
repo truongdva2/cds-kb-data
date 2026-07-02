@@ -1,6 +1,12 @@
 ---
 name: D_LEGALDOCUPDATEPAPERTYPEP
 description: D Legaldocupdatepapertypep
+semantic_en: "abstract parameter for legal document paper type updates — controls paper type classification in legal content management."
+semantic_vi: "tham số trừu tượng cho cập nhật loại giấy tài liệu pháp lý — kiểm soát phân loại loại giấy trong quản lý nội dung pháp lý."
+keywords:
+  - tài liệu pháp lý
+  - loại giấy
+  - quản lý nội dung
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

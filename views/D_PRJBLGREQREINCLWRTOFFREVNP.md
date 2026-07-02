@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGREQREINCLWRTOFFREVNP
 description: D Prjblgreqreinclwrtoffrevnp
+semantic_en: "parameter entity for reincluding written-off project billing items — accepts element entry item UUID for revenue reversal."
+semantic_vi: "Tham số tái bao gồm các mục doanh thu đã xóa — UUID mục phần tử."
+keywords:
+  - doanh thu
+  - xóa
+  - tái bao gồm
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

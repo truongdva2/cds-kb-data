@@ -1,6 +1,12 @@
 ---
 name: D_EQUI_STR_FUNCIMPORTP
 description: D Equi Str Funcimportp
+semantic_en: "equipment structure update function import — manages changes to superordinate equipment, installation position, and functional location with date/time validation."
+semantic_vi: "hàm cập nhật cấu trúc thiết bị — quản lý thay đổi thiết bị cấp cao hơn, vị trí cài đặt, và vị trị chức năng với xác thực ngày/giờ."
+keywords:
+  - cấu trúc thiết bị
+  - cập nhật
+  - vị trí
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

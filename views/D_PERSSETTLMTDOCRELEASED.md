@@ -1,6 +1,12 @@
 ---
 name: D_PERSSETTLMTDOCRELEASED
 description: D Perssettlmtdocreleased
+semantic_en: "personnel settlement document released event — triggered when settlement document is released; includes settlement type/category, company, sales, distribution organizational data."
+semantic_vi: "Sự kiện phát hành chứng chỉ quyết toán nhân sự — kích hoạt khi phát hành, mang dữ liệu tổ chức."
+keywords:
+  - sự kiện phát hành
+  - quyết toán
+  - nhân sự
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

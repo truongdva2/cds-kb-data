@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGSCALEP
 description: D Intrstrateinstrchgscalep
+semantic_en: "scale parameters for interest instrument changes — captures condition item, scale limit amounts, percentage rates, and formula references for tiered interest calculations."
+semantic_vi: "tham số thang đo cho thay đổi công cụ lãi suất — ghi lại mục điều kiện, số tiền giới hạn thang đo, tỷ lệ phần trăm, và tham chiếu công thức cho tính toán lãi suất theo tầng."
+keywords:
+  - thang đo
+  - lãi suất
+  - tính toán
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

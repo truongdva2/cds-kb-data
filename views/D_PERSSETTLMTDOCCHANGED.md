@@ -1,6 +1,12 @@
 ---
 name: D_PERSSETTLMTDOCCHANGED
 description: D Perssettlmtdocchanged
+semantic_en: "personnel settlement document changed event — triggered when settlement type, category, process changes; includes company, sales, distribution, division."
+semantic_vi: "Sự kiện thay đổi chứng chỉ quyết toán nhân sự — cập nhật loại quyết toán, công ty, tổ chức bán hàng."
+keywords:
+  - sự kiện thay đổi
+  - quyết toán
+  - nhân sự
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_OUTBOUNDDELIVERYCREATED
 description: D Outbound DeliveryCREATED
+semantic_en: "event signature for outbound delivery creation — triggers when outbound delivery document is created with document type and sales organization."
+semantic_vi: "chữ ký sự kiện cho tạo giao hàng đi — kích hoạt khi tài liệu giao hàng đi được tạo với loại tài liệu và tổ chức bán hàng."
+keywords:
+  - giao hàng đi tạo
+  - sự kiện
+  - tài liệu
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

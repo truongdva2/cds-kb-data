@@ -1,6 +1,12 @@
 ---
 name: D_OUTBOUNDDELIVERYITEMCHANGED
 description: D Outbound DeliveryITEMCHANGED
+semantic_en: "event signature for outbound delivery item change — captures when delivery item is modified including item number and document type."
+semantic_vi: "chữ ký sự kiện cho thay đổi dòng giao hàng đi — ghi lại khi dòng giao hàng được sửa đổi bao gồm số dòng và loại tài liệu."
+keywords:
+  - dòng giao hàng đi thay đổi
+  - sự kiện
+  - số dòng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

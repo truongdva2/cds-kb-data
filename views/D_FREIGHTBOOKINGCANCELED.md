@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTBOOKINGCANCELED
 description: D Freightbookingcanceled
+semantic_en: "freight booking cancellation event — change-document signature tracking when a FreightBooking is canceled, capturing transportation order and carrier details."
+semantic_vi: "sự kiện hủy đặt vận chuyển — chữ ký tài liệu thay đổi theo dõi khi một FreightBooking bị hủy, ghi lại chi tiết đơn hàng vận chuyển và nhà vận chuyển."
+keywords:
+  - hủy vận chuyển
+  - sự kiện
+  - đơn hàng
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

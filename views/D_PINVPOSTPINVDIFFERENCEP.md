@@ -1,6 +1,12 @@
 ---
 name: D_PINVPOSTPINVDIFFERENCEP
 description: D Pinvpostpinvdifferencep
+semantic_en: "parameter entity for posting inventory variance — accepts posting date and reason code for physical inventory discrepancies."
+semantic_vi: "Tham số ghi sổ chênh lệch kiểm kho — ngày ghi sổ, lý do chênh lệch."
+keywords:
+  - chênh lệch
+  - ghi sổ
+  - kiểm kho
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

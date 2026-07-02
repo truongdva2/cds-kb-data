@@ -1,6 +1,12 @@
 ---
 name: D_PROCESSORDERGETMISSINGPARTSR
 description: D Processordergetmissingpartsr
+semantic_en: "missing materials check result for process order — lists unfulfilled component requirements by BOM item, plant, batch, with availability and requirement dates."
+semantic_vi: "Kết quả kiểm tra vật liệu thiếu cho lệnh công nghiệp — liệt kê yêu cầu hàng hóa, ngày yêu cầu."
+keywords:
+  - kiểm tra
+  - vật liệu thiếu
+  - lệnh công nghiệp
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

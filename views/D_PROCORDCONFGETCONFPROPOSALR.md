@@ -1,6 +1,12 @@
 ---
 name: D_PROCORDCONFGETCONFPROPOSALR
 description: D Procordconfgetconfproposalr
+semantic_en: "proposed confirmation data for process order — includes confirmation text, material, planned quantity, unit, reservation status, reversal flag."
+semantic_vi: "Dữ liệu xác nhận đề xuất cho lệnh công nghiệp — văn bản xác nhận, sản phẩm, số lượng kế hoạch."
+keywords:
+  - xác nhận
+  - lệnh công nghiệp
+  - số lượng
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

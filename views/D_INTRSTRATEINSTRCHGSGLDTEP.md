@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGSGLDTEP
 description: D Intrstrateinstrchgsgldtep
+semantic_en: "single date parameters for interest instrument changes — specifies calculation date, due date, interest rate adjustment date, amounts, and percentage rates."
+semantic_vi: "tham số ngày đơn cho thay đổi công cụ lãi suất — xác định ngày tính toán, ngày đến hạn, ngày điều chỉnh lãi suất, số tiền, và tỷ lệ phần trăm."
+keywords:
+  - ngày tính toán
+  - lãi suất
+  - tham số
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

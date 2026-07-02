@@ -1,6 +1,12 @@
 ---
 name: D_GLADJMTPOSTJOURNALENTRYP
 description: D GLADJMTPOSTJournal EntryP
+semantic_en: "G/L adjustment posting parameters — input for general ledger adjustments, capturing company code, accounting document type, business transaction type, posting date, and header reference information."
+semantic_vi: "tham số đăng bài điều chỉnh sổ cái — đầu vào cho điều chỉnh sổ cái, ghi lại mã công ty, loại tài liệu kế toán, loại giao dịch kinh doanh, ngày đăng bài, và thông tin tham chiếu tiêu đề."
+keywords:
+  - điều chỉnh sổ cái
+  - đăng bài
+  - tham số
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

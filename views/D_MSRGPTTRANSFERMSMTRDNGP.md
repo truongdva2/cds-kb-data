@@ -1,6 +1,12 @@
 ---
 name: D_MSRGPTTRANSFERMSMTRDNGP
 description: D Msrgpttransfermsmtrdngp
+semantic_en: "abstract parameter to transfer measurement reading — controls transfer source, mode, and interval start/end dates and times."
+semantic_vi: "tham số trừu tượng để chuyển đọc số đo — kiểm soát nguồn chuyển, chế độ và ngày/giờ bắt đầu/kết thúc khoảng thời gian."
+keywords:
+  - chuyển đọc
+  - số đo
+  - khoảng thời gian
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

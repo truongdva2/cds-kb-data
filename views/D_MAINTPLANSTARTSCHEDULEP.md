@@ -1,6 +1,12 @@
 ---
 name: D_MAINTPLANSTARTSCHEDULEP
 description: D Maintplanstartschedulep
+semantic_en: "abstract parameter to start maintenance plan schedule — specifies start date/time, counter reading, and call date limit."
+semantic_vi: "tham số trừu tượng để bắt đầu lịch kế hoạch bảo trì — xác định ngày/giờ bắt đầu, đọc bộ đếm và giới hạn ngày gọi."
+keywords:
+  - bắt đầu lịch
+  - kế hoạch bảo trì
+  - ngày gọi
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

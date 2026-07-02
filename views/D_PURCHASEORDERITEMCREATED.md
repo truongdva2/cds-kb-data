@@ -1,6 +1,14 @@
 ---
 name: D_PURCHASEORDERITEMCREATED
 description: D Purchase OrderITEMCREATED
+semantic_en: "business event signature for new purchase order items — records item category, plant, product, and supplier at creation"
+semantic_vi: "sự kiện kinh doanh khi dòng đơn mua hàng được tạo — ghi lại danh mục dòng, nhà máy, sản phẩm và nhà cung cấp"
+keywords:
+  - dòng mua hàng mới
+  - tạo dòng
+  - danh mục dòng
+  - sản phẩm
+  - nhà máy
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

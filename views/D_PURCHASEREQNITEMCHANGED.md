@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEREQNITEMCHANGED
 description: D Purchase RequisitionNITEMCHANGED
+semantic_en: "business event signature for purchase requisition item changes — tracks requisition type, item category, material group, and organizational data"
+semantic_vi: "sự kiện kinh doanh khi dòng yêu cầu mua hàng thay đổi — theo dõi loại yêu cầu, danh mục dòng, nhóm vật liệu và dữ liệu tổ chức"
+keywords:
+  - dòng yêu cầu mua thay đổi
+  - yêu cầu mua hàng
+  - danh mục dòng
+  - nhóm vật liệu
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVCRTEDELIVFRMSLSDOCP
 description: D Outbdelivcrtedelivfrmslsdocp
+semantic_en: "abstract parameter to create outbound delivery from sales document — controls shipping point, selection date, and delivery type."
+semantic_vi: "tham số trừu tượng để tạo giao hàng đi từ tài liệu bán hàng — kiểm soát điểm vận chuyển, ngày lựa chọn và loại giao hàng."
+keywords:
+  - tạo giao hàng đi
+  - bán hàng
+  - điểm vận chuyển
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_MATERIALDOCUMENTCREATED_2
 description: D Materialdocumentcreated 2
+semantic_en: "event signature for material document creation — captures goods movement type when material document is created."
+semantic_vi: "chữ ký sự kiện cho tạo tài liệu vật liệu — ghi lại loại chuyển động hàng khi tài liệu vật liệu được tạo."
+keywords:
+  - tài liệu vật liệu tạo
+  - sự kiện
+  - chuyển động hàng
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

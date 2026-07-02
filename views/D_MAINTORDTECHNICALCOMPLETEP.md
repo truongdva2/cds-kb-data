@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDTECHNICALCOMPLETEP
 description: D Maintordtechnicalcompletep
+semantic_en: "abstract parameter for maintenance order technical completion — manages completion date/time and notification closure."
+semantic_vi: "tham số trừu tượng cho hoàn thành kỹ thuật đơn hàng bảo trì — quản lý ngày/giờ hoàn thành và đóng thông báo."
+keywords:
+  - hoàn thành kỹ thuật
+  - bảo trì
+  - thông báo
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

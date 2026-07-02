@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTBOOKINGCREATEP
 description: D Freightbookingcreatep
+semantic_en: "freight booking creation action parameters — input for CreateFreightBooking action, specifying transportation order and order type."
+semantic_vi: "tham số hành động tạo đặt vận chuyển — đầu vào cho hành động CreateFreightBooking, xác định đơn hàng vận chuyển và loại đơn hàng."
+keywords:
+  - tạo vận chuyển
+  - tham số hành động
+  - đơn hàng
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

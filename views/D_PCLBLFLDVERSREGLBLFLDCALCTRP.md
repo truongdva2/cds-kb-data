@@ -1,6 +1,12 @@
 ---
 name: D_PCLBLFLDVERSREGLBLFLDCALCTRP
 description: D Pclblfldversreglblfldcalctrp
+semantic_en: "abstract parameter for product compliance label field calculator registration — controls field ID and calculator class name."
+semantic_vi: "tham số trừu tượng cho đăng ký máy tính trường nhãn tuân thủ sản phẩm — kiểm soát ID trường và tên lớp máy tính."
+keywords:
+  - đăng ký máy tính
+  - nhãn tuân thủ
+  - trường
 app_component: EHS-SUS-SDS
 software_component: SAPSCORE
 release_state: released

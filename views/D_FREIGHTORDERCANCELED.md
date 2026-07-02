@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCANCELED
 description: D Freightordercanceled
+semantic_en: "freight order cancellation event — change-document signature for when a FreightOrder is canceled, tracking transportation order and carrier information."
+semantic_vi: "sự kiện hủy đơn hàng vận chuyển — chữ ký tài liệu thay đổi cho khi FreightOrder bị hủy, theo dõi thông tin đơn hàng vận chuyển và nhà vận chuyển."
+keywords:
+  - hủy đơn hàng
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

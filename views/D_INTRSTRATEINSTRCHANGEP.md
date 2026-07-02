@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHANGEP
 description: D Intrstrateinstrchangep
+semantic_en: "interest rate instrument change parameters — captures financial transaction details including term dates, interest categories, calculation methods for interest rate instrument modifications."
+semantic_vi: "tham số thay đổi công cụ lãi suất — ghi lại chi tiết giao dịch tài chính bao gồm ngày kỳ hạn, danh mục lãi suất, phương pháp tính toán cho sửa đổi công cụ lãi suất."
+keywords:
+  - lãi suất
+  - công cụ tài chính
+  - thay đổi
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_SALESORDERCHANGED
 description: D Sales OrderCHANGED
+semantic_en: "business event signature for sales order modifications — tracks order type, organization, channel, division, and customer changes"
+semantic_vi: "sự kiện kinh doanh khi đơn bán hàng thay đổi — theo dõi loại đơn, tổ chức, kênh, bộ phận và thay đổi khách hàng"
+keywords:
+  - đơn bán hàng thay đổi
+  - sự kiện thay đổi
+  - loại đơn
+  - khách hàng
 app_component: SD-SLS-GF-BET-2CL
 software_component: SAPSCORE
 release_state: released

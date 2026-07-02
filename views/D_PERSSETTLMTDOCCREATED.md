@@ -1,6 +1,12 @@
 ---
 name: D_PERSSETTLMTDOCCREATED
 description: D Perssettlmtdoccreated
+semantic_en: "personnel settlement document created event — triggered on new settlement document; carries settlement process/document type, company, sales org, distribution, division."
+semantic_vi: "Sự kiện tạo chứng chỉ quyết toán nhân sự — kích hoạt khi tạo mới, mang loại quyết toán và tổ chức."
+keywords:
+  - sự kiện tạo
+  - quyết toán nhân sự
+  - công ty
 app_component: LO-AB
 software_component: SAPSCORE
 release_state: released

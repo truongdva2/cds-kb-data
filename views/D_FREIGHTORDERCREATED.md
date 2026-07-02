@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCREATED
 description: D Freightordercreated
+semantic_en: "freight order creation event — change-document signature triggered when a new FreightOrder is created with transportation details and carrier information."
+semantic_vi: "sự kiện tạo đơn hàng vận chuyển — chữ ký tài liệu được kích hoạt khi tạo FreightOrder mới với chi tiết vận chuyển và thông tin nhà vận chuyển."
+keywords:
+  - tạo đơn hàng
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

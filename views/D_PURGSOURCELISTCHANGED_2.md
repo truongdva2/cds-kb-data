@@ -1,6 +1,13 @@
 ---
 name: D_PURGSOURCELISTCHANGED_2
 description: D Purgsourcelistchanged 2
+semantic_en: "business event signature for purchasing source list modifications — captures changes to validity dates, supplier, organization, and unit"
+semantic_vi: "sự kiện kinh doanh khi danh sách nguồn cung cấp thay đổi — ghi lại thay đổi ngày hiệu lực, nhà cung cấp, tổ chức và đơn vị"
+keywords:
+  - danh sách nguồn thay đổi
+  - nguồn cung cấp
+  - nhà cung cấp
+  - tổ chức mua hàng
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCHANGED
 description: D Freightorderchanged
+semantic_en: "freight order modification event — change-document signature capturing updates to FreightOrder including transportation mode and shipping type alterations."
+semantic_vi: "sự kiện thay đổi đơn hàng vận chuyển — chữ ký tài liệu ghi lại cập nhật FreightOrder bao gồm thay đổi chế độ vận chuyển và loại vận chuyển."
+keywords:
+  - thay đổi đơn hàng
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETMXDLDGICMTSR
 description: D Pclgsdcgetmxdldgicmtsr
+semantic_en: "mixed loading incompatibility validation result — identifies incompatible products, packing instructions, system messages with severity levels and variables."
+semantic_vi: "Kết quả kiểm tra hàng hóa không tương thích khi vận chuyển hỗn hợp — sản phẩm không tương thích, tin nhắn hệ thống."
+keywords:
+  - tương thích
+  - sản phẩm
+  - tin nhắn
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDCONFGETGDSMVTPRPSLR
 description: D Prodnordconfgetgdsmvtprpslr
+semantic_en: "goods movement proposal for production order confirmation — details material, plant, batch, warehouse location, movement type/reason, and inventory valuation."
+semantic_vi: "Đề xuất chuyển động hàng hóa cho xác nhận lệnh sản xuất — sản phẩm, kho, loại chuyển động."
+keywords:
+  - chuyển động hàng hóa
+  - xác nhận lệnh
+  - sản xuất
 app_component: PP-SFC-EXE-CON-2CL
 software_component: SAPSCORE
 release_state: released

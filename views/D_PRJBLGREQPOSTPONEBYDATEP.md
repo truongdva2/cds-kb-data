@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGREQPOSTPONEBYDATEP
 description: D Prjblgreqpostponebydatep
+semantic_en: "parameter entity for postponing project billing by date — restricts billing for rendered services by date, plan item category, and request UUID."
+semantic_vi: "Tham số trì hoãn hóa đơn dự án theo ngày — hạn chế hóa đơn theo danh mục kế hoạch."
+keywords:
+  - trì hoãn
+  - hóa đơn
+  - ngày
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

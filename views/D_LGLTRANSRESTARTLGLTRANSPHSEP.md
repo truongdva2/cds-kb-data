@@ -1,6 +1,12 @@
 ---
 name: D_LGLTRANSRESTARTLGLTRANSPHSEP
 description: D Lgltransrestartlgltransphsep
+semantic_en: "abstract parameter to restart legal transaction phase — identifies phase UUID for workflow restart."
+semantic_vi: "tham số trừu tượng để khởi động lại giai đoạn giao dịch pháp lý — xác định UUID giai đoạn cho khởi động lại quy trình."
+keywords:
+  - khởi động lại giai đoạn
+  - giao dịch pháp lý
+  - quy trình
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

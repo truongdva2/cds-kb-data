@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEORDERCHANGED
 description: D Purchase OrderCHANGED
+semantic_en: "business event signature for purchase order modifications — captures order type, purchasing organization, group, and supplier changes"
+semantic_vi: "sự kiện kinh doanh khi đơn mua hàng thay đổi — ghi lại loại đơn, tổ chức mua hàng, nhóm và nhà cung cấp"
+keywords:
+  - đơn mua hàng thay đổi
+  - sự kiện thay đổi
+  - nhà cung cấp
+  - tổ chức mua hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

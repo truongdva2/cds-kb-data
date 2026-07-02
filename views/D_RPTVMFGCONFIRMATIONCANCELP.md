@@ -1,6 +1,13 @@
 ---
 name: D_RPTVMFGCONFIRMATIONCANCELP
 description: D Rptvmfgconfirmationcancelp
+semantic_en: "reportable manufacturing confirmation cancellation parameter — records posting date and plant collection ID for confirmation cancellation"
+semantic_vi: "tham số hủy xác nhận sản xuất báo cáo được — ghi lại ngày đăng và ID bộ sưu tập nhà máy cho hủy xác nhận"
+keywords:
+  - hủy xác nhận sản xuất
+  - xác nhận sản xuất
+  - ngày đăng
+  - nhà máy
 app_component: PP-REM-ADE-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_SALESDOCUPDATEPRICESP
 description: D Salesdocupdatepricesp
+semantic_en: "sales document pricing type parameter — specifies pricing methodology for updating or calculating document prices"
+semantic_vi: "tham số loại giá tài liệu bán hàng — chỉ định phương pháp định giá để cập nhật hoặc tính toán giá tài liệu"
+keywords:
+  - loại giá
+  - định giá
+  - cập nhật giá
+  - tài liệu bán hàng
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

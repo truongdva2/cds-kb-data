@@ -1,6 +1,12 @@
 ---
 name: D_PROCESSORDERRELEASEP
 description: D Processorderreleasep
+semantic_en: "parameter entity for releasing process orders — controls whether release permits dispatch despite missing parts."
+semantic_vi: "Tham số phát hành lệnh công nghiệp — cho phép phát hành mặc dù thiếu phụ tùng."
+keywords:
+  - phát hành
+  - lệnh
+  - phụ tùng
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

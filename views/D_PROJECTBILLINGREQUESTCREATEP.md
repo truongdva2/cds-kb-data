@@ -1,6 +1,13 @@
 ---
 name: D_PROJECTBILLINGREQUESTCREATEP
 description: D Projectbillingrequestcreatep
+semantic_en: "project billing request creation parameter — specifies WBS element, ID, and on-account item inclusion for new billing request"
+semantic_vi: "tham số tạo yêu cầu hóa đơn dự án — chỉ định phần tử WBS, ID và bao gồm mục hóa đơn trên tài khoản"
+keywords:
+  - yêu cầu hóa đơn dự án
+  - tạo mới
+  - WBS
+  - mục tài khoản
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

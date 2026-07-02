@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCRTEFORPKUPITMP
 description: D Freightordercrteforpkupitmp
+semantic_en: "freight order creation for pickup item parameters — action parameter providing freight booking item UUID for pickup-related freight order creation."
+semantic_vi: "tham số tạo đơn hàng vận chuyển cho mục nhận hàng — tham số hành động cung cấp UUID mục đặt vận chuyển để tạo đơn hàng vận chuyển liên quan nhận hàng."
+keywords:
+  - đơn hàng vận chuyển
+  - nhận hàng
+  - tham số
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSDOCINFOGROUPR
 description: D Pclgsdcgetdagdsdocinfogroupr
+semantic_en: "dangerous goods grouping metadata — provides text description and quantity measurements (SAP and ISO units) for hazardous material shipment groupings."
+semantic_vi: "Thông tin nhóm hàng hóa nguy hiểm — mô tả nhóm và đơn vị đo lường cho vận chuyển hàng nguy hiểm."
+keywords:
+  - hàng hóa nguy hiểm
+  - nhóm vận chuyển
+  - đơn vị đo lường
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

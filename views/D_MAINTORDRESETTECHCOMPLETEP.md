@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDRESETTECHCOMPLETEP
 description: D Maintordresettechcompletep
+semantic_en: "abstract parameter to reset technical completion for maintenance order notifications — puts assigned notifications back in process."
+semantic_vi: "tham số trừu tượng để đặt lại hoàn thành kỹ thuật cho thông báo đơn hàng bảo trì — đưa thông báo gán trở lại quá trình."
+keywords:
+  - đặt lại hoàn thành
+  - bảo trì
+  - quá trình
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

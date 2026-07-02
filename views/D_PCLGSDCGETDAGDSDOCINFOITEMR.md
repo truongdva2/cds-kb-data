@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDAGDSDOCINFOITEMR
 description: D Pclgsdcgetdagdsdocinfoitemr
+semantic_en: "dangerous goods item details — includes hazard classification, net mass (SAP/ISO), gross weight, volume, and compliance documentation reference."
+semantic_vi: "Chi tiết hàng hóa nguy hiểm — khối lượng ròng, khối lượng tổng, thể tích, và yêu cầu tuân thủ."
+keywords:
+  - mục hàng
+  - khối lượng ròng
+  - hàng nguy hiểm
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

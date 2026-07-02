@@ -1,6 +1,12 @@
 ---
 name: D_MSRGPTCANCELMSMTRDNGP
 description: D Msrgptcancelmsmtrdngp
+semantic_en: "abstract parameter to stop measurement reading transfer — specifies interval end date and time for cancellation."
+semantic_vi: "tham số trừu tượng để dừng chuyển đọc số đo — xác định ngày và giờ kết thúc khoảng thời gian cho hủy."
+keywords:
+  - dừng chuyển đọc
+  - số đo
+  - khoảng thời gian
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

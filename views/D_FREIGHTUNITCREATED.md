@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITCREATED
 description: D Freightunitcreated
+semantic_en: "freight unit creation event — change-document signature triggered when a new FreightUnit is created with transportation order and mode details."
+semantic_vi: "sự kiện tạo đơn vị vận chuyển — chữ ký tài liệu được kích hoạt khi tạo FreightUnit mới với chi tiết đơn hàng vận chuyển và chế độ."
+keywords:
+  - tạo đơn vị
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

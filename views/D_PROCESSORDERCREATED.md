@@ -1,6 +1,12 @@
 ---
 name: D_PROCESSORDERCREATED
 description: D Processordercreated
+semantic_en: "process order created event — fired when new process manufacturing order established; captures order number, type, plant."
+semantic_vi: "Sự kiện tạo lệnh công nghiệp — kích hoạt tạo mới, mang loại lệnh và nhà máy."
+keywords:
+  - sự kiện tạo
+  - lệnh công nghiệp
+  - nhà máy
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

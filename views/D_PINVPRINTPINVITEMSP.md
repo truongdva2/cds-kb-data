@@ -1,6 +1,12 @@
 ---
 name: D_PINVPRINTPINVITEMSP
 description: D Pinvprintpinvitemsp
+semantic_en: "parameter entity for physical inventory item printing — controls sort order (special stock), serial number sequence, print queue."
+semantic_vi: "Tham số in mục kiểm kho vật lý — sắp xếp theo kho đặc biệt, hàng loạt in."
+keywords:
+  - in ấn
+  - kiểm kho
+  - sắp xếp
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

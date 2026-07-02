@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTORDERCREATEP
 description: D Freightordercreatep
+semantic_en: "freight order creation action parameters — input for CreateFreightOrder action, specifying transportation order and order type."
+semantic_vi: "tham số hành động tạo đơn hàng vận chuyển — đầu vào cho hành động CreateFreightOrder, xác định đơn hàng vận chuyển và loại đơn hàng."
+keywords:
+  - tạo đơn hàng
+  - tham số hành động
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

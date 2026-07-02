@@ -1,6 +1,13 @@
 ---
 name: D_PURORDERAPPROVALREJECTED
 description: D Purorderapprovalrejected
+semantic_en: "business event signature for rejected purchase order approvals — records rejection of orders by type, organization, group, and supplier"
+semantic_vi: "sự kiện kinh doanh khi phê duyệt đơn mua hàng bị từ chối — ghi lại từ chối đơn hàng theo loại, tổ chức, nhóm và nhà cung cấp"
+keywords:
+  - phê duyệt đơn hàng từ chối
+  - từ chối đơn hàng
+  - phê duyệt
+  - nhà cung cấp
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

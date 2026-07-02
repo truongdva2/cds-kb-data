@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDMRKDFORDELTNRESETP
 description: D Maintordmrkdfordeltnresetp
+semantic_en: "abstract parameter to reset deletion flag for maintenance order assigned notifications — controls deletion flag reset action."
+semantic_vi: "tham số trừu tượng để đặt lại cờ xóa cho thông báo gán đơn hàng bảo trì — kiểm soát hành động đặt lại cờ xóa."
+keywords:
+  - đặt lại cờ xóa
+  - bảo trì
+  - thông báo
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

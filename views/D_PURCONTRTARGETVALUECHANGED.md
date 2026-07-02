@@ -1,6 +1,13 @@
 ---
 name: D_PURCONTRTARGETVALUECHANGED
 description: D Purcontrtargetvaluechanged
+semantic_en: "business event signature for purchase contract target value changes — records target amount and currency modifications"
+semantic_vi: "sự kiện kinh doanh khi giá trị mục tiêu hợp đồng mua thay đổi — ghi lại thay đổi số tiền mục tiêu và tiền tệ"
+keywords:
+  - giá trị mục tiêu hợp đồng thay đổi
+  - hợp đồng mua hàng
+  - số tiền mục tiêu
+  - tiền tệ
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_LGLDOCCREATEVRTLDOCP
 description: D Lgldoccreatevrtldocp
+semantic_en: "abstract parameter for legal document virtual document creation — controls content type, language, template, and access level."
+semantic_vi: "tham số trừu tượng cho tạo tài liệu ảo pháp lý — kiểm soát loại nội dung, ngôn ngữ, mẫu và mức truy cập."
+keywords:
+  - tài liệu ảo
+  - tạo tài liệu
+  - mẫu pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_PURGSOURCELISTCREATED_2
 description: D Purgsourcelistcreated 2
+semantic_en: "business event signature for new purchasing source lists — records creation date, validity period, supplier, organization, and unit"
+semantic_vi: "sự kiện kinh doanh khi danh sách nguồn cung cấp được tạo — ghi lại ngày tạo, kỳ hạn hiệu lực, nhà cung cấp, tổ chức và đơn vị"
+keywords:
+  - danh sách nguồn mới
+  - tạo nguồn cung cấp
+  - nhà cung cấp
+  - tổ chức mua hàng
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

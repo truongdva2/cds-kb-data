@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTAPITEMP
 description: D Journal EntryPOSTAPITEMP
+semantic_en: "journal entry accounts payable item posting parameters — specifies supplier, GL account, payment terms, cash discount terms, and assignment details for AP posting."
+semantic_vi: "tham số đăng bài mục phải trả của ghi chép nhật ký — xác định nhà cung cấp, tài khoản sổ cái, điều khoản thanh toán, điều khoản chiết khấu tiền mặt, và chi tiết gán cho đăng bài phải trả."
+keywords:
+  - phải trả
+  - ghi chép nhật ký
+  - đăng bài
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

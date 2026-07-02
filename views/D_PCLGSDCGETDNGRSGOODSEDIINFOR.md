@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDNGRSGOODSEDIINFOR
 description: D Pclgsdcgetdngrsgoodsediinfor
+semantic_en: "dangerous goods EDI document result — references the compliance document UUID."
+semantic_vi: "Kết quả EDI chứng chỉ hàng hóa nguy hiểm — tham chiếu UUID tài liệu."
+keywords:
+  - EDI
+  - UUID
+  - chứng chỉ
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

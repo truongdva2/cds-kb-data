@@ -1,6 +1,13 @@
 ---
 name: D_RESVNDOCUMENTITEMCREATED
 description: D Resvndocumentitemcreated
+semantic_en: "business event signature for new reservation document items — records reservation item and record type at creation"
+semantic_vi: "sự kiện kinh doanh khi dòng tài liệu đặt chỗ được tạo — ghi lại dòng đặt chỗ và loại bản ghi khi tạo"
+keywords:
+  - dòng đặt chỗ mới
+  - tạo đặt chỗ
+  - dòng tài liệu
+  - tồn kho
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_PINVRECOUNTPHYSINVTRYDOCITMP
 description: D Pinvrecountphysinvtrydocitmp
+semantic_en: "parameter entity for physical inventory recount action — includes planned count date, posting date, document flags, document status, numbers, and description."
+semantic_vi: "Tham số thực hiện đếm lại kiểm kho vật lý — ngày dự kiến, ngày ghi sổ, cờ tài liệu."
+keywords:
+  - đếm lại
+  - kiểm kho
+  - ngày
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

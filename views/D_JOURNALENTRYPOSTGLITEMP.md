@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTGLITEMP
 description: D Journal EntryPOSTGLITEMP
+semantic_en: "journal entry general ledger item posting parameters — specifies GL account, item group, company code, document text, tax code, and reference details for GL posting."
+semantic_vi: "tham số đăng bài mục sổ cái chung của ghi chép nhật ký — xác định tài khoản sổ cái, nhóm mục, mã công ty, văn bản tài liệu, mã thuế, và chi tiết tham chiếu cho đăng bài sổ cái."
+keywords:
+  - sổ cái
+  - ghi chép nhật ký
+  - đăng bài
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

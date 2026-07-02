@@ -1,6 +1,13 @@
 ---
 name: D_PRODNVERSSETLOCKP
 description: D Prodnverssetlockp
+semantic_en: "production version locking parameter — establishes lock status (ProductionVersionLock) for production version changes"
+semantic_vi: "tham số khóa phiên bản sản xuất — thiết lập trạng thái khóa cho các thay đổi phiên bản sản xuất"
+keywords:
+  - khóa phiên bản sản xuất
+  - trạng thái khóa
+  - tham số
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

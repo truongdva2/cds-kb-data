@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTBOOKINGCHANGED
 description: D Freightbookingchanged
+semantic_en: "freight booking modification event — change-document signature capturing when FreightBooking is updated, including transportation mode, shipping type, and carrier changes."
+semantic_vi: "sự kiện thay đổi đặt vận chuyển — chữ ký tài liệu ghi lại khi FreightBooking được cập nhật, bao gồm thay đổi chế độ vận chuyển, loại vận chuyển, và nhà vận chuyển."
+keywords:
+  - thay đổi vận chuyển
+  - sự kiện
+  - chi tiết đơn hàng
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_LGLDOCUPLDFILEONVRTLDOCP
 description: D Lgldocupldfileonvrtldocp
+semantic_en: "abstract parameter to upload file on legal document virtual document — manages file upload with description and paper type."
+semantic_vi: "tham số trừu tượng để tải lên tập tin trên tài liệu ảo pháp lý — quản lý tải lên tập tin với mô tả và loại giấy."
+keywords:
+  - tải lên tập tin
+  - tài liệu ảo
+  - quản lý tập tin
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

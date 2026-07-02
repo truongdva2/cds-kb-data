@@ -1,6 +1,12 @@
 ---
 name: D_OUTBDELIVCRTEFRMSLSDOCITEMP
 description: D Outbdelivcrtefrmslsdocitemp
+semantic_en: "abstract parameter to create outbound delivery from sales document item — references sales document and item for creation."
+semantic_vi: "tham số trừu tượng để tạo giao hàng đi từ dòng tài liệu bán hàng — tham chiếu tài liệu bán hàng và dòng để tạo."
+keywords:
+  - tạo giao hàng đi
+  - dòng bán hàng
+  - tài liệu
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

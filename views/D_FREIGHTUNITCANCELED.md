@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITCANCELED
 description: D Freightunitcanceled
+semantic_en: "freight unit cancellation event — change-document signature triggered when a FreightUnit is canceled, capturing transportation order and mode details."
+semantic_vi: "sự kiện hủy đơn vị vận chuyển — chữ ký tài liệu được kích hoạt khi FreightUnit bị hủy, ghi lại chi tiết đơn hàng vận chuyển và chế độ."
+keywords:
+  - hủy đơn vị
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

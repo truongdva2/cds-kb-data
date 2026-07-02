@@ -1,6 +1,13 @@
 ---
 name: D_SALESDOCCREATEWITHREFITEMP
 description: D Salesdoccreatewithrefitemp
+semantic_en: "sales document item creation with reference parameter — specifies referenced item and requested quantity/unit for line creation"
+semantic_vi: "tham số tạo dòng tài liệu bán hàng với tham chiếu — chỉ định dòng tham chiếu và số lượng/đơn vị yêu cầu để tạo dòng"
+keywords:
+  - tạo dòng bán hàng
+  - tham chiếu dòng
+  - số lượng yêu cầu
+  - đơn vị
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

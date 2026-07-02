@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYCHANGEGLITEMP
 description: D Journal EntryCHANGEGLITEMP
+semantic_en: "journal entry general ledger item changes — captures GL account line items with assignment reference, payment reason, supply country details."
+semantic_vi: "thay đổi mục sổ cái chung của ghi chép nhật ký — ghi lại mục hàng tài khoản sổ cái với tham chiếu gán, lý do thanh toán, chi tiết quốc gia cung cấp."
+keywords:
+  - ghi chép nhật ký
+  - sổ cái
+  - thay đổi
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_GLADJMTITEMPOSTJOURNALENTRYP
 description: D GLADJMTITEMPOSTJournal EntryP
+semantic_en: "G/L adjustment item posting parameters — specifies general ledger account, supplier, customer, cost center, profit center, and segment details for journal entry adjustment items."
+semantic_vi: "tham số đăng bài điều chỉnh mục sổ cái — xác định tài khoản sổ cái, nhà cung cấp, khách hàng, trung tâm chi phí, trung tâm lợi nhuận, và chi tiết đoạn."
+keywords:
+  - điều chỉnh sổ cái
+  - đăng bài
+  - tham số
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

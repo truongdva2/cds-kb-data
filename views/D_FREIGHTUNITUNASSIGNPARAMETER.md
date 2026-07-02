@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITUNASSIGNPARAMETER
 description: D Freightunitunassignparameter
+semantic_en: "freight unit unassignment parameters — action parameter providing freight unit UUID for removing units from transportation order assignments."
+semantic_vi: "tham số gỡ gán đơn vị vận chuyển — tham số hành động cung cấp UUID đơn vị vận chuyển để loại bỏ đơn vị khỏi gán đơn hàng vận chuyển."
+keywords:
+  - gỡ gán
+  - đơn vị vận chuyển
+  - tham số
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

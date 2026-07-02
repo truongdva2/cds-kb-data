@@ -1,6 +1,12 @@
 ---
 name: D_PROCORDREEXPLODEMASTERDATAP
 description: D Procordreexplodemasterdatap
+semantic_en: "parameter entity for re-exploding master data on process orders — accepts production version for BOM regeneration."
+semantic_vi: "Tham số tái khai triển dữ liệu chính cho lệnh công nghiệp — phiên bản sản xuất cho BOM."
+keywords:
+  - tái khai triển
+  - BOM
+  - lệnh
 app_component: PP-PI-POR-2CL
 software_component: SAPSCORE
 release_state: released

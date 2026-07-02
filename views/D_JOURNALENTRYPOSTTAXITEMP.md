@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTTAXITEMP
 description: D Journal EntryPOSTTAXITEMP
+semantic_en: "abstract tax line item structure for journal entry posting — contains tax code, classification, rate, and determination date."
+semantic_vi: "cấu trúc dòng thuế trừu tượng cho ghi nhập nhật ký — chứa mã thuế, phân loại, tỷ lệ và ngày xác định."
+keywords:
+  - dòng thuế nhật ký
+  - mã thuế
+  - xác định thuế
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

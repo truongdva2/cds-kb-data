@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETDNGRSGDSDOCINFOP
 description: D Pclgsdcgetdngrsgdsdocinfop
+semantic_en: "parameter entity for dangerous goods document retrieval — accepts output scenario and company code."
+semantic_vi: "Tham số lấy thông tin chứng chỉ hàng hóa nguy hiểm — lọc theo kịch bản và công ty."
+keywords:
+  - tham số
+  - chứng chỉ
+  - công ty
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

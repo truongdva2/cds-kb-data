@@ -1,6 +1,12 @@
 ---
 name: D_FREIGHTUNITCHANGED
 description: D Freightunitchanged
+semantic_en: "freight unit modification event — change-document signature capturing updates to FreightUnit including transportation order type and mode changes."
+semantic_vi: "sự kiện thay đổi đơn vị vận chuyển — chữ ký tài liệu ghi lại cập nhật FreightUnit bao gồm thay đổi loại đơn hàng vận chuyển và chế độ."
+keywords:
+  - thay đổi đơn vị
+  - sự kiện
+  - vận chuyển
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

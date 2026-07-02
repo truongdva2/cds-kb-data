@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYPOSTPARAMETER
 description: D Journal EntryPOSTPARAMETER
+semantic_en: "abstract parameter structure for journal entry posting — controls accounting document, transaction type, date fields, and document references."
+semantic_vi: "cấu trúc tham số trừu tượng cho ghi nhập nhật ký — kiểm soát tài liệu kế toán, loại giao dịch, các trường ngày tháng và tham chiếu tài liệu."
+keywords:
+  - ghi nhập nhật ký
+  - tham số ghi nhập
+  - tài liệu kế toán
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_PRODUCTCHANGED
 description: D Productchanged
+semantic_en: "business event signature for product master data changes — captures product type and category modifications"
+semantic_vi: "sự kiện kinh doanh khi sản phẩm thay đổi — ghi lại các thay đổi loại sản phẩm và danh mục"
+keywords:
+  - sản phẩm thay đổi
+  - sự kiện sản phẩm
+  - dữ liệu chính sản phẩm
+  - loại sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

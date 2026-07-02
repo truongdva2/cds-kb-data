@@ -1,6 +1,13 @@
 ---
 name: D_SALESDOCCREATEWITHREFDOCP
 description: D Salesdoccreatewithrefdocp
+semantic_en: "sales document creation parameter with reference — specifies document type and reference source for creating derived sales documents"
+semantic_vi: "tham số tạo tài liệu bán hàng với tham chiếu — chỉ định loại tài liệu và nguồn tham chiếu để tạo tài liệu bán hàng dẫn xuất"
+keywords:
+  - tạo tài liệu bán hàng
+  - tham chiếu
+  - loại tài liệu
+  - tạo với tham chiếu
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

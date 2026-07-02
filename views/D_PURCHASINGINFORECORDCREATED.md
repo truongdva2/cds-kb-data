@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASINGINFORECORDCREATED
 description: D Purchasinginforecordcreated
+semantic_en: "business event signature for new purchasing info records — records supplier, material, and material group assignment"
+semantic_vi: "sự kiện kinh doanh khi bản ghi thông tin mua hàng được tạo — ghi lại nhà cung cấp, vật liệu và nhóm vật liệu"
+keywords:
+  - bản ghi thông tin mua mới
+  - tạo bản ghi
+  - nhà cung cấp
+  - vật liệu
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

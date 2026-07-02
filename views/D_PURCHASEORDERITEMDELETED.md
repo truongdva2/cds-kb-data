@@ -1,6 +1,14 @@
 ---
 name: D_PURCHASEORDERITEMDELETED
 description: D Purchase OrderITEMDELETED
+semantic_en: "business event signature for deleted purchase order items — tracks deleted item category, plant, product, and supplier"
+semantic_vi: "sự kiện kinh doanh khi dòng đơn mua hàng bị xóa — theo dõi danh mục dòng xóa, nhà máy, sản phẩm và nhà cung cấp"
+keywords:
+  - dòng đơn hàng xóa
+  - xóa dòng
+  - danh mục dòng
+  - sản phẩm
+  - nhà máy
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_MAINTORDERSTSDONOTEXECUTEP
 description: D Maintorderstsdonotexecutep
+semantic_en: "abstract parameter to complete header notification in maintenance order — controls closure, reset allocation, and cancellation action."
+semantic_vi: "tham số trừu tượng để hoàn thành thông báo tiêu đề trong đơn hàng bảo trì — kiểm soát đóng, đặt lại phân bổ và hành động hủy."
+keywords:
+  - hoàn thành thông báo
+  - bảo trì
+  - phân bổ
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

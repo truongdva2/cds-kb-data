@@ -1,6 +1,13 @@
 ---
 name: D_SALESCONTRACTCREATED
 description: D Salescontractcreated
+semantic_en: "business event signature for new sales contracts — records contract type, organization, channel, division, and customer at creation"
+semantic_vi: "sự kiện kinh doanh khi hợp đồng bán hàng được tạo — ghi lại loại hợp đồng, tổ chức, kênh, bộ phận và khách hàng"
+keywords:
+  - hợp đồng bán hàng mới
+  - tạo hợp đồng
+  - loại hợp đồng
+  - khách hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

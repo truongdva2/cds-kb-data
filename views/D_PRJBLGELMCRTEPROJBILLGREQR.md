@@ -1,6 +1,12 @@
 ---
 name: D_PRJBLGELMCRTEPROJBILLGREQR
 description: D Prjblgelmcrteprojbillgreqr
+semantic_en: "project billing request abstraction for element-level billing — references billing request UUID and identifier."
+semantic_vi: "Yêu cầu hóa đơn dự án — tham chiếu UUID yêu cầu hóa đơn."
+keywords:
+  - yêu cầu hóa đơn
+  - dự án
+  - UUID
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

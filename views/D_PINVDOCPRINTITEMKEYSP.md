@@ -1,6 +1,12 @@
 ---
 name: D_PINVDOCPRINTITEMKEYSP
 description: D Pinvdocprintitemkeysp
+semantic_en: "parameter entity for physical inventory document items to print — accepts document number, item, fiscal year."
+semantic_vi: "Tham số mục kiểm kho vật lý cần in — lọc theo chứng chỉ, mục, năm tài chính."
+keywords:
+  - kiểm kho
+  - in ấn
+  - mục hàng
 app_component: MM-IM-PI-2CL
 software_component: SAPSCORE
 release_state: released

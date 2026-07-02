@@ -1,6 +1,12 @@
 ---
 name: D_HANDLINGUNITMOVERESULT
 description: D Handlingunitmoveresult
+semantic_en: "handling unit movement result — captures handling unit details after movement including external ID, warehouse, packaging material, weight, and receiving location."
+semantic_vi: "kết quả di chuyển đơn vị xử lý — ghi lại chi tiết đơn vị xử lý sau di chuyển bao gồm ID bên ngoài, kho, vật liệu đóng gói, trọng lượng, và vị trí nhận."
+keywords:
+  - di chuyển đơn vị
+  - kết quả
+  - kho
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

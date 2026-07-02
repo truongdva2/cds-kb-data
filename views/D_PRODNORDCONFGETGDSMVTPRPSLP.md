@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDCONFGETGDSMVTPRPSLP
 description: D Prodnordconfgetgdsmvtprpslp
+semantic_en: "parameter entity for proposing goods movements on production order confirmation — specifies movement quantity, rework, scrap, unit, and proposal controls."
+semantic_vi: "Tham số đề xuất chuyển động hàng hóa cho xác nhận lệnh sản xuất — số lượng, gia công lại, hao hụt."
+keywords:
+  - chuyển động
+  - xác nhận lệnh
+  - hàng hóa
 app_component: PP-ES
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_INTRSTRATEINSTRCHGADDLFLOWP
 description: D Intrstrateinstrchgaddlflowp
+semantic_en: "additional cash flow parameters for interest rate instruments — specifies flow creation date, payment date, payment amount, currency, and local currency conversion details."
+semantic_vi: "tham số dòng tiền bổ sung cho công cụ lãi suất — xác định ngày tạo dòng, ngày thanh toán, số tiền thanh toán, tiền tệ, và chi tiết chuyển đổi tiền tệ địa phương."
+keywords:
+  - dòng tiền
+  - lãi suất
+  - công cụ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

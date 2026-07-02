@@ -1,6 +1,12 @@
 ---
 name: D_PRODNORDCONFGETCONFPROPOSALP
 description: D Prodnordconfgetconfproposalp
+semantic_en: "parameter entity for proposing production order confirmation data — includes order, operation, sequence, confirmation group, quantity/rework/activity proposal flags."
+semantic_vi: "Tham số đề xuất dữ liệu xác nhận lệnh sản xuất — nhóm xác nhận, số lượng, gia công lại."
+keywords:
+  - xác nhận
+  - lệnh sản xuất
+  - đề xuất
 app_component: PP-ES
 software_component: SAPSCORE
 release_state: released

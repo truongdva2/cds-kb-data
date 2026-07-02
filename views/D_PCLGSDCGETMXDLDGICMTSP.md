@@ -1,6 +1,12 @@
 ---
 name: D_PCLGSDCGETMXDLDGICMTSP
 description: D Pclgsdcgetmxdldgicmtsp
+semantic_en: "parameter entity for mixed loading incompatibility checks — accepts company code, document category, origin/destination country, transport mode."
+semantic_vi: "Tham số kiểm tra hàng hóa không tương thích khi vận chuyển hỗn hợp — công ty, quốc gia đi/đến, chế độ vận chuyển."
+keywords:
+  - vận chuyển hỗn hợp
+  - tương thích
+  - quốc gia
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: D_MODPRODSPECADDITEMP
 description: D Modprodspecadditemp
+semantic_en: "abstract parameter to add item in model product specification — manages item type, UUID selection, and subitem flag."
+semantic_vi: "tham số trừu tượng để thêm dòng trong thông số kỹ thuật sản phẩm mô hình — quản lý loại dòng, lựa chọn UUID và cờ dòng con."
+keywords:
+  - thêm dòng
+  - thông số sản phẩm
+  - mô hình
 app_component: MM-PUR-MPS-2CL
 software_component: SAPSCORE
 release_state: released

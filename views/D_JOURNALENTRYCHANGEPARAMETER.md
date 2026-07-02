@@ -1,6 +1,12 @@
 ---
 name: D_JOURNALENTRYCHANGEPARAMETER
 description: D Journal EntryCHANGEPARAMETER
+semantic_en: "journal entry change parameters — header-level changes capturing document text, reference IDs, country-specific references, and business partner details."
+semantic_vi: "tham số thay đổi ghi chép nhật ký — thay đổi cấp tiêu đề ghi lại văn bản tài liệu, ID tham chiếu, tham chiếu cụ thể theo quốc gia, và chi tiết đối tác kinh doanh."
+keywords:
+  - ghi chép nhật ký
+  - thay đổi
+  - tham số
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: D_PURGSOURCELISTDELETED_2
 description: D Purgsourcelistdeleted 2
+semantic_en: "business event signature for deleted purchasing source lists — tracks removal of supplier sources with validity and organizational context"
+semantic_vi: "sự kiện kinh doanh khi danh sách nguồn cung cấp bị xóa — theo dõi xóa nguồn nhà cung cấp với ngữ cảnh hiệu lực và tổ chức"
+keywords:
+  - danh sách nguồn xóa
+  - xóa nguồn cung cấp
+  - nhà cung cấp
+  - danh sách
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

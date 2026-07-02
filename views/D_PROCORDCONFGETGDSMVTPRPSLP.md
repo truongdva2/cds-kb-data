@@ -1,6 +1,12 @@
 ---
 name: D_PROCORDCONFGETGDSMVTPRPSLP
 description: D Procordconfgetgdsmvtprpslp
+semantic_en: "parameter entity for proposing goods movement data on process order confirmation — specifies movement quantity, scrap, unit, and proposal flags."
+semantic_vi: "Tham số đề xuất dữ liệu chuyển động hàng hóa cho xác nhận lệnh công nghiệp — số lượng, hao hụt."
+keywords:
+  - chuyển động hàng hóa
+  - xác nhận
+  - đề xuất
 app_component: PP-ES
 software_component: SAPSCORE
 release_state: released

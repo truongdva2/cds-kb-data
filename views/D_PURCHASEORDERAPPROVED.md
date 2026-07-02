@@ -1,6 +1,13 @@
 ---
 name: D_PURCHASEORDERAPPROVED
 description: D Purchase OrderAPPROVED
+semantic_en: "business event signature for approved purchase orders — records order type, purchasing organization, group, and supplier"
+semantic_vi: "sự kiện kinh doanh khi đơn mua hàng được phê duyệt — ghi lại loại đơn, tổ chức mua hàng, nhóm và nhà cung cấp"
+keywords:
+  - đơn mua hàng phê duyệt
+  - phê duyệt
+  - nhà cung cấp
+  - tổ chức mua hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

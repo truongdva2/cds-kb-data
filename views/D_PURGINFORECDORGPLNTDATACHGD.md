@@ -1,6 +1,13 @@
 ---
 name: D_PURGINFORECDORGPLNTDATACHGD
 description: D Purginforecdorgplntdatachgd
+semantic_en: "business event signature for purchasing info record organizational plant data changes — tracks supplier, material, and group updates at plant level"
+semantic_vi: "sự kiện kinh doanh khi dữ liệu nhà máy tổ chức bản ghi thông tin mua thay đổi — theo dõi cập nhật nhà cung cấp, vật liệu và nhóm ở cấp nhà máy"
+keywords:
+  - dữ liệu nhà máy bản ghi thông tin thay đổi
+  - thông tin mua hàng
+  - nhà máy
+  - nhà cung cấp
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released
