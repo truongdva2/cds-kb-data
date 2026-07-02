@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRPARTNERSTP
 description: Purcontrpartnerstp
+semantic_en: "purchase contract partners — records supplier, plant, and partner function details for contract items"
+semantic_vi: "đối tác hợp đồng mua — ghi lại chi tiết nhà cung cấp, nhà máy, và chức năng đối tác"
+keywords:
+  - nhà cung cấp
+  - nhà máy
+  - đối tác
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

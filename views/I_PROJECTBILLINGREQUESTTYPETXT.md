@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGREQUESTTYPETXT
 description: Projectbillingrequesttypetxt
+semantic_en: "translated text — billing request document type descriptions in multiple languages."
+semantic_vi: "văn bản dịch — mô tả loại tài liệu yêu cầu hóa đơn theo ngôn ngữ."
+keywords:
+  - mô tả loại tài liệu
+  - yêu cầu
+  - dịch ngôn ngữ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

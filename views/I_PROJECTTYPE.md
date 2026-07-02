@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTTYPE
 description: Projecttype
+semantic_en: "Project type classification — stores project type codes for categorizing different kinds of projects."
+semantic_vi: "Phân loại loại dự án — lưu trữ mã loại dự án để phân loại các loại dự án khác nhau."
+keywords:
+  - loại dự án
+  - phân loại dự án
+  - mã loại
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

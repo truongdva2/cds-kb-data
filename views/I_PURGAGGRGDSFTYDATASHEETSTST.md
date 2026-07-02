@@ -1,6 +1,12 @@
 ---
 name: I_PURGAGGRGDSFTYDATASHEETSTST
 description: Purgaggrgdsftydatasheetstst
+semantic_en: "compliance status of safety data sheet — text — translatable text descriptions for safety data sheet compliance status values"
+semantic_vi: "trạng thái tuân thủ bảng dữ liệu an toàn — văn bản — các mô tả văn bản có thể dịch cho giá trị trạng thái tuân thủ"
+keywords:
+  - bảng dữ liệu an toàn
+  - văn bản
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

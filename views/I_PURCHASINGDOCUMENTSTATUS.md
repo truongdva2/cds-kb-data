@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGDOCUMENTSTATUS
 description: Purchasingdocumentstatus
+semantic_en: "Purchasing document status domain values — enumeration of statuses for purchasing documents."
+semantic_vi: "Giá trị miền trạng thái tài liệu mua hàng — liệt kê trạng thái cho tài liệu mua."
+keywords:
+  - tài liệu mua
+  - trạng thái
 app_component: MM
 software_component: SAPSCORE
 release_state: released

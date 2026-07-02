@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDRSCEASSGMTDISTR
 description: Projdmndrsceassgmtdistr
+semantic_en: "resource assignment distribution — quantity and amount distributed by period and year for assigned resources."
+semantic_vi: "phân bổ gán tài nguyên — số lượng và khoản tiền được phân bổ theo kỳ và năm cho tài nguyên được gán."
+keywords:
+  - phân bổ tài nguyên
+  - số lượng
+  - kỳ
+  - năm
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTCATEGORY
 description: Providercontractcategory
+semantic_en: "Provider contract category classification — categorizes provider contracts by type for management and reporting."
+semantic_vi: "Phân loại danh mục hợp đồng nhà cung cấp — phân loại các hợp đồng nhà cung cấp theo loại để quản lý và báo cáo."
+keywords:
+  - danh mục hợp đồng
+  - loại hợp đồng cung cấp
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

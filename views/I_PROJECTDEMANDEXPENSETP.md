@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDEXPENSETP
 description: Projectdemandexpensetp
+semantic_en: "expense demand with transfer posting — project expense demands with project and billing references."
+semantic_vi: "nhu cầu chi phí với ghi sổ chuyển — nhu cầu chi phí dự án với tham chiếu dự án và hóa đơn."
+keywords:
+  - nhu cầu chi phí
+  - ghi sổ chuyển
+  - kiểm soát
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

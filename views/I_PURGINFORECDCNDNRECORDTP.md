@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDCNDNRECORDTP
 description: Purginforecdcndnrecordtp
+semantic_en: "purchasing information record pricing condition — defines condition records and pricing terms for info records by organization and plant"
+semantic_vi: "bản ghi điều kiện giá thông tin mua hàng — xác định bản ghi điều kiện và điều khoản giá cho thông tin mua hàng"
+keywords:
+  - thông tin mua hàng
+  - điều kiện giá
+  - bản ghi
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

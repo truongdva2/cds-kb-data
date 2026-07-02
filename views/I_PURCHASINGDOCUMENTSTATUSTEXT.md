@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGDOCUMENTSTATUSTEXT
 description: Purchasingdocumentstatustext
+semantic_en: "Purchasing document status text — localized status descriptions across languages for purchasing documents."
+semantic_vi: "Văn bản trạng thái tài liệu mua hàng — mô tả trạng thái địa phương hóa cho tài liệu mua."
+keywords:
+  - tài liệu mua
+  - trạng thái
+  - mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

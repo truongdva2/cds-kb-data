@@ -1,6 +1,12 @@
 ---
 name: I_PROOFOFDELIVERYSTATUSTEXT
 description: Proofofdeliverystatustext
+semantic_en: "Proof of delivery status descriptions — multilingual text labels for delivery status codes."
+semantic_vi: "Mô tả trạng thái chứng minh giao hàng — nhãn văn bản đa ngôn ngữ cho mã trạng thái giao hàng."
+keywords:
+  - mô tả trạng thái giao hàng
+  - dịch trạng thái giao hàng
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

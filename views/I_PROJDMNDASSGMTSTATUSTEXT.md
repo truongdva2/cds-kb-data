@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDASSGMTSTATUSTEXT
 description: Projdmndassgmtstatustext
+semantic_en: "translated text — assignment status descriptions in multiple languages for project demands."
+semantic_vi: "văn bản dịch — mô tả trạng thái gán cho nhu cầu dự án theo ngôn ngữ."
+keywords:
+  - mô tả trạng thái gán
+  - dịch ngôn ngữ
+  - nhu cầu dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

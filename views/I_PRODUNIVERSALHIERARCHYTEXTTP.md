@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVERSALHIERARCHYTEXTTP
 description: Produniversalhierarchytexttp
+semantic_en: "product universal hierarchy text TP — multilingual text descriptions for universal product hierarchy levels with validity dates."
+semantic_vi: "Văn bản phân cấp sản phẩm phổ quát TP — mô tả đa ngôn ngữ cho các cấp phân cấp sản phẩm với ngày hiệu lực."
+keywords:
+  - phân cấp sản phẩm
+  - văn bản phân cấp
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

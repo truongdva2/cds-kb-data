@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERHISTCATEGORY
 description: Purchase OrderHISTCATEGORY
+semantic_en: "Purchase order history category definitions — types of purchase order historical records with debit/credit allowance flags."
+semantic_vi: "Định nghĩa danh mục lịch sử đơn hàng mua — các loại bản ghi lịch sử với cờ cho phép nợ/có."
+keywords:
+  - đơn hàng mua
+  - danh mục lịch sử
+  - nợ có
 app_component: MM
 software_component: SAPSCORE
 release_state: released

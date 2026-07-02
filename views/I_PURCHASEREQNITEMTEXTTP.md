@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNITEMTEXTTP
 description: Purchase RequisitionNITEMTEXTTP
+semantic_en: "Purchase requisition item notes projection — textual descriptions and notes for requisition line items across languages."
+semantic_vi: "Phát triển ghi chú mục yêu cầu mua — mô tả văn bản và ghi chú cho dòng yêu cầu."
+keywords:
+  - yêu cầu mua
+  - ghi chú
+  - mục mục
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

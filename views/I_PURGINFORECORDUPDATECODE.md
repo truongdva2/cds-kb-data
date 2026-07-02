@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECORDUPDATECODE
 description: Purginforecordupdatecode
+semantic_en: "update code for purchasing information record — domain values indicating how and when info records are updated"
+semantic_vi: "mã cập nhật cho thông tin mua hàng — giá trị miền chỉ định cách và khi nào cập nhật thông tin"
+keywords:
+  - mã cập nhật
+  - cập nhật
+  - thông tin mua
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

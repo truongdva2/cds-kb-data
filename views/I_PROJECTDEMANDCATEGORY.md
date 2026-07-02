@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDCATEGORY
 description: Projectdemandcategory
+semantic_en: "project demand category records — classification codes for project demands."
+semantic_vi: "bản ghi danh mục nhu cầu dự án — mã phân loại cho nhu cầu dự án."
+keywords:
+  - danh mục nhu cầu
+  - phân loại
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

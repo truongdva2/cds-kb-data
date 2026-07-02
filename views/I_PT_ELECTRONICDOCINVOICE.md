@@ -1,6 +1,12 @@
 ---
 name: I_PT_ELECTRONICDOCINVOICE
 description: PT Electronicdocinvoice
+semantic_en: "Portugal electronic invoice documents — stores electronic invoice data for Portuguese regulatory compliance including signature and request tracking."
+semantic_vi: "Hóa đơn điện tử của Bồ Đào Nha — lưu trữ dữ liệu hóa đơn điện tử để tuân thủ quy định của Bồ Đào Nha bao gồm ký số và theo dõi yêu cầu."
+keywords:
+  - hóa đơn điện tử Bồ Đào Nha
+  - tuân thủ điều lệ
+  - hóa đơn ký số
 app_component: CA-GTF-CSC-EDO-PT
 software_component: SAPSCORE
 release_state: released

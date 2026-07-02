@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERITEMMONITOR
 description: Purchase OrderITEMMONITOR
+semantic_en: "Purchase order item delivery and invoice monitor — tracking of delivery quantities, goods receipt amounts, and invoicing status."
+semantic_vi: "Theo dõi giao hàng và hóa đơn mục đơn hàng — theo dõi số lượng giao, giá trị hàng nhận, và trạng thái hóa đơn."
+keywords:
+  - đơn hàng mua
+  - giao hàng
+  - hóa đơn
 app_component: MM-PUR-GF-MON-2CL
 software_component: SAPSCORE
 release_state: released

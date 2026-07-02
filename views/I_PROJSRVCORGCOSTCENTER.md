@@ -1,6 +1,12 @@
 ---
 name: I_PROJSRVCORGCOSTCENTER
 description: PROJSRVCORGCost Center
+semantic_en: "Project service organization cost center mapping — links cost centers to project service organizations with main center designation."
+semantic_vi: "Ánh xạ trung tâm chi phí tổ chức dịch vụ dự án — liên kết trung tâm chi phí với các tổ chức dịch vụ dự án có ký hiệu trung tâm chính."
+keywords:
+  - trung tâm chi phí dịch vụ
+  - ánh xạ trung tâm chi phí
+  - tổ chức dịch vụ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

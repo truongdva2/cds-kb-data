@@ -1,6 +1,12 @@
 ---
 name: I_PROJSRVCORGTEXT
 description: Projsrvcorgtext
+semantic_en: "Project service organization descriptions — multilingual text names for project service organizations."
+semantic_vi: "Mô tả tổ chức dịch vụ dự án — tên văn bản đa ngôn ngữ cho các tổ chức dịch vụ dự án."
+keywords:
+  - tên tổ chức dịch vụ
+  - mô tả dịch vụ dự án
+  - ngôn ngữ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

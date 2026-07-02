@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDRSCEASSGMTDISTRTP
 description: Projdmndrsceassgmtdistrtp
+semantic_en: "resource assignment distribution with transfer posting — quantities and amounts distributed with transaction references."
+semantic_vi: "phân bổ gán tài nguyên với ghi sổ chuyển — số lượng và khoản tiền được phân bổ với tham chiếu ghi sổ."
+keywords:
+  - phân bổ tài nguyên
+  - ghi sổ chuyển
+  - số lượng
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

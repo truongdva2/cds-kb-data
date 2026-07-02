@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTSENDERTEXT
 description: Providercontractsendertext
+semantic_en: "Provider contract sender descriptions — multilingual text names for provider contract sender entities."
+semantic_vi: "Mô tả người gửi hợp đồng nhà cung cấp — tên văn bản đa ngôn ngữ cho các đơn vị người gửi hợp đồng nhà cung cấp."
+keywords:
+  - tên người gửi
+  - mô tả người gửi
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

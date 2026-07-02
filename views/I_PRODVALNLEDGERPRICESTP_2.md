@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALNLEDGERPRICESTP_2
 description: Prodvalnledgerpricestp 2
+semantic_en: "product valuation ledger prices TP — future standard and moving average prices for products across valuation areas."
+semantic_vi: "Giá sổ cái định giá sản phẩm TP — giá tương lai cho sản phẩm trên các vùng định giá."
+keywords:
+  - giá tương lai
+  - định giá sản phẩm
+  - giá di chuyển
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

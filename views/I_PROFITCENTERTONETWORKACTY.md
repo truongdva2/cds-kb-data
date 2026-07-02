@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTONETWORKACTY
 description: Profit CenterTONETWORKACTY
+semantic_en: "assignment of profit center to network activity — mapping between profit centers and project network activities."
+semantic_vi: "Gán trung tâm lợi nhuận cho hoạt động mạng — ánh xạ tới các hoạt động mạng dự án."
+keywords:
+  - hoạt động mạng
+  - gán trung tâm
+  - dự án
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

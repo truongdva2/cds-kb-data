@@ -1,6 +1,12 @@
 ---
 name: I_PURGOBJITEMTXTOBJOUTPRLVNCE
 description: Purgobjitemtxtobjoutprlvnce
+semantic_en: "output relevance of purchasing item notes — determines printing priority and sequence for line item notes in purchasing documents"
+semantic_vi: "tính liên quan đầu ra của ghi chú mục mua hàng — xác định ưu tiên và trình tự in ghi chú mục"
+keywords:
+  - in tài liệu
+  - ghi chú mục
+  - ưu tiên in
 app_component: MM
 software_component: SAPSCORE
 release_state: released

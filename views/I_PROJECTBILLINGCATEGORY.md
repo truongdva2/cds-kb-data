@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGCATEGORY
 description: Projectbillingcategory
+semantic_en: "domain value list — billing category codes for project billing."
+semantic_vi: "danh sách giá trị miền — các mã danh mục hóa đơn cho hóa đơn dự án."
+keywords:
+  - danh mục hóa đơn
+  - dự án
+  - phân loại
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

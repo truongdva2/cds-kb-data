@@ -1,6 +1,12 @@
 ---
 name: I_PRVDRCONTRITEMCHGREASON
 description: Prvdrcontritemchgreason
+semantic_en: "Provider contract item change reason — explains reasons for modifications to provider contract line items."
+semantic_vi: "Lý do thay đổi mục hàng hợp đồng nhà cung cấp — giải thích các lý do sửa đổi các mục hàng hợp đồng nhà cung cấp."
+keywords:
+  - lý do thay đổi
+  - thay đổi mục hợp đồng
+  - lý do sửa đổi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

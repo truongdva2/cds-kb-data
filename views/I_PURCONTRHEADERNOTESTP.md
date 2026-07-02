@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRHEADERNOTESTP
 description: Purcontrheadernotestp
+semantic_en: "purchase contract header notes — stores text documentation and comments at the contract level"
+semantic_vi: "ghi chú tiêu đề hợp đồng mua — lưu trữ tài liệu văn bản và nhận xét ở cấp hợp đồng"
+keywords:
+  - ghi chú hợp đồng
+  - tài liệu hợp đồng
+  - tiêu đề
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

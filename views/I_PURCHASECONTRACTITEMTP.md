@@ -1,6 +1,13 @@
 ---
 name: I_PURCHASECONTRACTITEMTP
 description: Purchase ContractITEMTP
+semantic_en: "Purchase contract item projection — contract line item details with pricing, material references, and ordering information."
+semantic_vi: "Phát triển mục hợp đồng mua — chi tiết dòng hợp đồng với giá, tham chiếu vật liệu, thông tin đặt hàng."
+keywords:
+  - hợp đồng mua
+  - mục đơn hàng
+  - giá
+  - vật liệu
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

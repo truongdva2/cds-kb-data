@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDMATERIALTP_2
 description: Projectdemandmaterialtp 2
+semantic_en: "material demand projection — material details for project demands with supplier and purchase references."
+semantic_vi: "phép chiếu nhu cầu vật liệu — chi tiết vật liệu cho nhu cầu dự án với tham chiếu nhà cung cấp và mua hàng."
+keywords:
+  - phép chiếu vật liệu
+  - nhà cung cấp
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETCNSMPNTYPEGROUPT
 description: Pubsecbudgetcnsmpntypegroupt
+semantic_en: "Budget consumption type group descriptions — multilingual text for budget consumption type group codes."
+semantic_vi: "Mô tả nhóm loại tiêu thụ ngân sách — văn bản đa ngôn ngữ cho mã nhóm loại tiêu thụ ngân sách."
+keywords:
+  - tên nhóm tiêu thụ
+  - mô tả nhóm
+  - dịch nhóm tiêu thụ
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

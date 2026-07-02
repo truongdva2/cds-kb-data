@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOOPENITEM
 description: Profit CenterTOOPENITEM
+semantic_en: "assignment of profit center to open item — relationship between profit centers and open accounting items."
+semantic_vi: "Gán trung tâm lợi nhuận cho mục mở — mối quan hệ tới các mục mở kế toán."
+keywords:
+  - mục mở
+  - gán trung tâm
+  - kế toán
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

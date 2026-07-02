@@ -1,6 +1,12 @@
 ---
 name: I_PROPAGATEPRFTBLTYSGMT2BOM
 description: Propagateprftbltysgmt 2BOM
+semantic_en: "Profitability segment propagation to BOM — configuration flag for propagating profitability segments to bill of materials."
+semantic_vi: "Truyền phát phân khúc lợi nhuận đến danh sách vật liệu — cờ cấu hình để truyền phát phân khúc lợi nhuận đến danh sách vật liệu."
+keywords:
+  - phân khúc lợi nhuận
+  - danh sách vật liệu BOM
+  - truyền phát cấu hình
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

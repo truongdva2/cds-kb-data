@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRCGCNDNRECORDSCALE
 description: Purgprcgcndnrecordscale
+semantic_en: "pricing scale in purchasing — defines quantity-based price tiers and rate structures for purchasing pricing conditions"
+semantic_vi: "thang bậc giá trong mua hàng — xác định các bậc giá theo số lượng và cấu trúc tỷ lệ"
+keywords:
+  - thang bậc giá
+  - giá theo số lượng
+  - tỷ lệ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

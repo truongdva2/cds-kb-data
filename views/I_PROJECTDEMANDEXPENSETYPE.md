@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDEXPENSETYPE
 description: Projectdemandexpensetype
+semantic_en: "project demand expense type codes — classification codes for project expense demands."
+semantic_vi: "mã loại chi phí nhu cầu dự án — mã phân loại cho nhu cầu chi phí dự án."
+keywords:
+  - loại chi phí nhu cầu
+  - phân loại
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

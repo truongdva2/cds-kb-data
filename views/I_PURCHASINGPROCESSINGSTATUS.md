@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGPROCESSINGSTATUS
 description: Purchasingprocessingstatus
+semantic_en: "Purchasing processing status domain values — enumeration of processing statuses for purchasing workflows."
+semantic_vi: "Giá trị miền trạng thái xử lý mua hàng — liệt kê trạng thái xử lý cho quy trình mua."
+keywords:
+  - trạng thái xử lý
+  - quy trình mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOORDER
 description: Profit CenterTOORDER
+semantic_en: "assignment of profit center to order — mapping between profit centers and purchase/production orders."
+semantic_vi: "Gán trung tâm lợi nhuận cho đơn hàng — ánh xạ tới các đơn hàng mua/sản xuất."
+keywords:
+  - đơn hàng
+  - gán trung tâm
+  - lợi nhuận
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

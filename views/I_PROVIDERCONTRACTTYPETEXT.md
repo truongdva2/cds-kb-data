@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTTYPETEXT
 description: Providercontracttypetext
+semantic_en: "Provider contract type descriptions — multilingual text for provider contract type codes."
+semantic_vi: "Mô tả loại hợp đồng nhà cung cấp — văn bản đa ngôn ngữ cho mã loại hợp đồng nhà cung cấp."
+keywords:
+  - tên loại hợp đồng
+  - mô tả loại
+  - dịch loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

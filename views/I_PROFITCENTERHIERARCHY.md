@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERHIERARCHY
 description: Profit CenterHIERARCHY
+semantic_en: "profit center hierarchy — organizational structure for cost centers with validity period and change tracking."
+semantic_vi: "Phân cấp trung tâm lợi nhuận — cấu trúc tổ chức cho các trung tâm chi phí."
+keywords:
+  - trung tâm lợi nhuận
+  - phân cấp
+  - tổ chức
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

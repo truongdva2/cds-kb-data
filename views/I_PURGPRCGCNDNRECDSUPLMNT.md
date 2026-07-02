@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRCGCNDNRECDSUPLMNT
 description: Purgprcgcndnrecdsuplmnt
+semantic_en: "condition supplement for pricing in purchasing — defines supplementary pricing conditions with quantity scales for purchasing"
+semantic_vi: "bổ sung điều kiện giá trong mua hàng — xác định các điều kiện giá bổ sung với thang bậc số lượng"
+keywords:
+  - điều kiện giá
+  - bổ sung
+  - bảng giá
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

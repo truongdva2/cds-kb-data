@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOPRODUCT
 description: Profit CenterTOPRODUCT
+semantic_en: "assignment of profit center to product — relationship between profit centers and products by plant."
+semantic_vi: "Gán trung tâm lợi nhuận cho sản phẩm — mối quan hệ giữa trung tâm lợi nhuận và sản phẩm."
+keywords:
+  - sản phẩm
+  - gán trung tâm
+  - nhà máy
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

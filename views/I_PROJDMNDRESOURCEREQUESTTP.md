@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDRESOURCEREQUESTTP
 description: Projdmndresourcerequesttp
+semantic_en: "resource request with transfer posting — staffing requests for project demands with workforce and work assignment identifiers."
+semantic_vi: "yêu cầu tài nguyên với ghi sổ chuyển — yêu cầu biên chế cho nhu cầu dự án với định danh nhân sự và phân công."
+keywords:
+  - yêu cầu tài nguyên
+  - biên chế
+  - nhu cầu dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

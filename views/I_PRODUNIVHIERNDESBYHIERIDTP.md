@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERNDESBYHIERIDTP
 description: Produnivhierndesbyhieridtp
+semantic_en: "product universal hierarchy nodes TP — taxonomy nodes organized by hierarchy with node types and parent relationships."
+semantic_vi: "Các nút phân cấp sản phẩm phổ quát TP — các nút bộ phân loại được tổ chức theo phân cấp."
+keywords:
+  - nút phân cấp
+  - loại nút
+  - cha con
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

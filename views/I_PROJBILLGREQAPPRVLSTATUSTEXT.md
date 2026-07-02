@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGREQAPPRVLSTATUSTEXT
 description: Projbillgreqapprvlstatustext
+semantic_en: "project billing request approval status text — multilingual descriptions for billing request approval states."
+semantic_vi: "Văn bản trạng thái phê duyệt yêu cầu thanh toán dự án — mô tả đa ngôn ngữ."
+keywords:
+  - thanh toán dự án
+  - phê duyệt
+  - văn bản
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

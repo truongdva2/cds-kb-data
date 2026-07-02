@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNCHGDOCITMAPI01
 description: Purchase RequisitionNCHGDOCITMAPI 01
+semantic_en: "Purchase requisition change document item — detailed change log for requisition line items tracking field modifications."
+semantic_vi: "Mục tài liệu thay đổi yêu cầu mua — nhật ký thay đổi chi tiết cho các dòng yêu cầu."
+keywords:
+  - yêu cầu mua
+  - mục mục
+  - thay đổi
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

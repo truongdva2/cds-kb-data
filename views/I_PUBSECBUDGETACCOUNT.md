@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETACCOUNT
 description: Pubsecbudgetaccount
+semantic_en: "Budget account master data — stores budget accounts with consumption type, revenue/expense classification, and carry-forward rules."
+semantic_vi: "Dữ liệu chính tài khoản ngân sách — lưu trữ các tài khoản ngân sách với loại tiêu thụ, phân loại doanh thu/chi phí và quy tắc chuyển tiếp."
+keywords:
+  - tài khoản ngân sách
+  - quản lý ngân sách
+  - phân loại tài khoản
 app_component: PSM-FM-MD
 software_component: SAPSCORE
 release_state: released

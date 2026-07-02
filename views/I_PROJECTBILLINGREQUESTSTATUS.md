@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGREQUESTSTATUS
 description: Projectbillingrequeststatus
+semantic_en: "domain value list — billing request status codes for project billing."
+semantic_vi: "danh sách giá trị miền — các mã trạng thái yêu cầu hóa đơn cho hóa đơn dự án."
+keywords:
+  - trạng thái yêu cầu
+  - hóa đơn
+  - mã
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

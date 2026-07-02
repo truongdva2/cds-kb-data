@@ -1,6 +1,12 @@
 ---
 name: I_PURGOUTPUTOPERATIONCODETEXT
 description: Purgoutputoperationcodetext
+semantic_en: "purchasing output operation code — text — translatable names for document output operation codes"
+semantic_vi: "mã hoạt động đầu ra mua hàng — văn bản — tên có thể dịch cho mã hoạt động đầu ra"
+keywords:
+  - mã hoạt động
+  - tên hoạt động
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDMATERIALSUPPLY
 description: Projectdemandmaterialsupply
+semantic_en: "material supply records — supply data linking purchase requisitions and reservations to material demands."
+semantic_vi: "bản ghi cung cấp vật liệu — dữ liệu cung cấp liên kết các yêu cầu mua hàng và đặt trữ trữ vật liệu nhu cầu."
+keywords:
+  - cung cấp vật liệu
+  - yêu cầu mua
+  - đặt trữ
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

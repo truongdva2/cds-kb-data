@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTP_2
 description: Profit CenterTP 2
+semantic_en: "profit center TP — complete master data for profit centers including names, responsible parties, and creation audit trail."
+semantic_vi: "Trung tâm lợi nhuận TP — dữ liệu chính đầy đủ cho trung tâm lợi nhuận."
+keywords:
+  - trung tâm lợi nhuận
+  - dữ liệu chính
+  - trách nhiệm
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

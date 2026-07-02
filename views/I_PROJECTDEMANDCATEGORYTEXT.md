@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDCATEGORYTEXT
 description: Projectdemandcategorytext
+semantic_en: "translated text — project demand category names in multiple languages."
+semantic_vi: "văn bản dịch — tên danh mục nhu cầu dự án theo ngôn ngữ."
+keywords:
+  - tên danh mục
+  - dịch ngôn ngữ
+  - nhu cầu
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

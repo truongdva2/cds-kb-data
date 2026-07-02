@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDEXPENSEDISTRIBUTION
 description: Projdmndexpensedistribution
+semantic_en: "expense distribution records — amounts and periods distributed across project demands for expense tracking."
+semantic_vi: "bản ghi phân bổ chi phí — các khoản tiền và kỳ được phân bổ trên nhu cầu dự án cho theo dõi chi phí."
+keywords:
+  - phân bổ chi phí
+  - nhu cầu dự án
+  - kỳ
+  - khoản tiền
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

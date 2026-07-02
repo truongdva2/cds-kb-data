@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERITEMNOTETP_2
 description: Purchase OrderITEMNOTETP 2
+semantic_en: "Purchase order item notes projection — textual notes and comments for individual purchase order line items."
+semantic_vi: "Phát triển ghi chú mục đơn hàng mua — ghi chú và bình luận văn bản cho các dòng đơn hàng."
+keywords:
+  - đơn hàng mua
+  - ghi chú
+  - mục mục
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

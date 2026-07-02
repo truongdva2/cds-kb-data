@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDCNDNSCALEAPI01
 description: Purginforecdcndnscaleapi 01
+semantic_en: "condition group identifier — defines quantity-based pricing scales for purchasing information records"
+semantic_vi: "định danh nhóm điều kiện — xác định bảng giá theo số lượng cho thông tin mua hàng"
+keywords:
+  - bảng giá
+  - thang bậc giá
+  - thông tin mua
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTCNSMPNTYPETEXT
 description: Pubsecbdgtcnsmpntypetext
+semantic_en: "Budget consumption type descriptions — multilingual text for budget consumption type codes."
+semantic_vi: "Mô tả loại tiêu thụ ngân sách — văn bản đa ngôn ngữ cho mã loại tiêu thụ ngân sách."
+keywords:
+  - tên loại tiêu thụ
+  - mô tả tiêu thụ ngân sách
+  - dịch loại
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

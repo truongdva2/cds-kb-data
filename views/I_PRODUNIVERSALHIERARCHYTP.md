@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVERSALHIERARCHYTP
 description: Produniversalhierarchytp
+semantic_en: "product universal hierarchy TP — organizational structure for products with validity period and last change tracking."
+semantic_vi: "Phân cấp sản phẩm phổ quát TP — cấu trúc tổ chức sản phẩm với khoảng thời gian hiệu lực và theo dõi thay đổi."
+keywords:
+  - phân cấp sản phẩm
+  - hiệu lực
+  - thay đổi
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

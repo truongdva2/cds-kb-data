@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTITEM
 description: Providercontractitem
+semantic_en: "Provider contract line items — stores contract items with validity dates, effective dates, and parent-child relationships."
+semantic_vi: "Mục hàng hợp đồng nhà cung cấp — lưu trữ các mục hợp đồng với ngày hiệu lực, ngày áp dụng và mối quan hệ cha-con."
+keywords:
+  - mục hàng hợp đồng
+  - chi tiết hợp đồng
+  - ngày hiệu lực
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

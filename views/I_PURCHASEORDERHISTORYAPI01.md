@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERHISTORYAPI01
 description: Purchase OrderHISTORYAPI 01
+semantic_en: "Purchase order history — goods movements, invoicing, and delivery tracking linked to purchase orders and associated documents."
+semantic_vi: "Lịch sử đơn hàng mua — chuyển động hàng hóa, hóa đơn, và theo dõi giao hàng liên quan đến đơn hàng."
+keywords:
+  - đơn hàng mua
+  - lịch sử
+  - giao hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

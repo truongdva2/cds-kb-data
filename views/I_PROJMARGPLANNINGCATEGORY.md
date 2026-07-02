@@ -1,6 +1,12 @@
 ---
 name: I_PROJMARGPLANNINGCATEGORY
 description: Projmargplanningcategory
+semantic_en: "Project margin planning category — defines planning categories used in project margin analysis and forecasting."
+semantic_vi: "Danh mục lập kế hoạch lợi nhuận dự án — xác định danh mục lập kế hoạch được sử dụng trong phân tích và dự báo lợi nhuận dự án."
+keywords:
+  - danh mục lập kế hoạch
+  - lợi nhuận dự án
+  - lập kế hoạch lợi nhuận
 app_component: CO-FIO-PA-2CL
 software_component: SAPSCORE
 release_state: released

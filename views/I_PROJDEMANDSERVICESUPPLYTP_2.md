@@ -1,6 +1,12 @@
 ---
 name: I_PROJDEMANDSERVICESUPPLYTP_2
 description: Projdemandservicesupplytp 2
+semantic_en: "supply data of service demand TP — relationship between project service demands and purchase requisitions."
+semantic_vi: "Dữ liệu cung cấp nhu cầu dịch vụ dự án TP — liên hệ tới yêu cầu mua."
+keywords:
+  - nhu cầu dịch vụ
+  - dự án
+  - mua
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDRESOURCEASSIGNMENT
 description: Projdmndresourceassignment
+semantic_en: "resource assignment records — assignments of resources to project demand work with quantities and time periods."
+semantic_vi: "bản ghi gán tài nguyên — gán tài nguyên cho công việc nhu cầu dự án với số lượng và kỳ thời gian."
+keywords:
+  - gán tài nguyên
+  - nhu cầu dự án
+  - số lượng
+  - kỳ
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

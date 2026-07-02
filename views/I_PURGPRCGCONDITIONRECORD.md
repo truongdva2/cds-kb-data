@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRCGCONDITIONRECORD
 description: PURGPRCGCondition Record
+semantic_en: "condition record for pricing in purchasing — defines pricing conditions and scales for purchase agreements and orders"
+semantic_vi: "bản ghi điều kiện giá trong mua hàng — xác định điều kiện giá cho hợp đồng mua hàng"
+keywords:
+  - bản ghi điều kiện
+  - giá
+  - mua hàng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

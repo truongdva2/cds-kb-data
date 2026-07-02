@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGDOCUMENTSTDVH
 description: Purchasingdocumentstdvh
+semantic_en: "Purchasing document value help — control flags and status information for purchasing documents."
+semantic_vi: "Trợ giúp giá trị tài liệu mua hàng — cờ kiểm soát và thông tin trạng thái cho tài liệu mua."
+keywords:
+  - tài liệu mua
+  - kiểm soát
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

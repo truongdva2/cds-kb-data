@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERPARTNERTP_2
 description: Purchase OrderPARTNERTP 2
+semantic_en: "Purchase order partner projection — partner function, supplier, and contact person information for purchase orders."
+semantic_vi: "Phát triển đối tác đơn hàng mua — chức năng đối tác, nhà cung cấp, thông tin người liên hệ."
+keywords:
+  - đơn hàng mua
+  - đối tác
+  - nhà cung cấp
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

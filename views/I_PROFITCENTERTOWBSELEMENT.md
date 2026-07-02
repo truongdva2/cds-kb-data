@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOWBSELEMENT
 description: Profit CenterTOWBSELEMENT
+semantic_en: "assignment of profit center to WBS element — relationship between profit centers and project work breakdown structure elements."
+semantic_vi: "Gán trung tâm lợi nhuận cho phần tử WBS — mối quan hệ tới các phần tử cấu trúc phân tích công việc."
+keywords:
+  - WBS
+  - phần tử dự án
+  - gán trung tâm
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

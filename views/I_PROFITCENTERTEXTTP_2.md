@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTEXTTP_2
 description: Profit CenterTEXTTP 2
+semantic_en: "profit center text TP — multilingual profit center descriptions with edit language support."
+semantic_vi: "Văn bản trung tâm lợi nhuận TP — mô tả trung tâm lợi nhuận đa ngôn ngữ."
+keywords:
+  - trung tâm lợi nhuận
+  - văn bản
+  - ngôn ngữ chỉnh sửa
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

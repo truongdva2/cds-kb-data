@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCUMENTCATEGORYTEXT
 description: Purgdocumentcategorytext
+semantic_en: "purchasing document category — text — provides multilingual names for purchasing document categories (PO, contract, etc)"
+semantic_vi: "danh mục tài liệu mua hàng — văn bản — cung cấp tên đa ngôn ngữ cho danh mục tài liệu mua hàng"
+keywords:
+  - danh mục tài liệu
+  - đơn hàng
+  - hợp đồng
 app_component: MM
 software_component: SAPSCORE
 release_state: released

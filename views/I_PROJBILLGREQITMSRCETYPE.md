@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGREQITMSRCETYPE
 description: Projbillgreqitmsrcetype
+semantic_en: "project billing request item source type value help — enumeration of sources for billing request items."
+semantic_vi: "Loại nguồn mục yêu cầu thanh toán dự án — liệt kê các nguồn."
+keywords:
+  - thanh toán dự án
+  - loại nguồn
+  - mục
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

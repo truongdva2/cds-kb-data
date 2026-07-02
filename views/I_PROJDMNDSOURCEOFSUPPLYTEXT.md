@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDSOURCEOFSUPPLYTEXT
 description: Projdmndsourceofsupplytext
+semantic_en: "translated text — source of supply descriptions in multiple languages for resource assignments."
+semantic_vi: "văn bản dịch — mô tả nguồn cung cấp cho gán tài nguyên theo ngôn ngữ."
+keywords:
+  - mô tả nguồn cung cấp
+  - dịch ngôn ngữ
+  - gán
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

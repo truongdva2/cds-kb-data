@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDSERVICETP_2
 description: Projectdemandservicetp 2
+semantic_en: "service demand projection — service details for project demands with supplier and purchase references."
+semantic_vi: "phép chiếu nhu cầu dịch vụ — chi tiết dịch vụ cho nhu cầu dự án với tham chiếu nhà cung cấp và mua hàng."
+keywords:
+  - phép chiếu dịch vụ
+  - nhà cung cấp
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

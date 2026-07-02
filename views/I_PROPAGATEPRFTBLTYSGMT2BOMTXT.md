@@ -1,6 +1,12 @@
 ---
 name: I_PROPAGATEPRFTBLTYSGMT2BOMTXT
 description: Propagateprftbltysgmt 2BOMTXT
+semantic_en: "Profitability segment to BOM propagation descriptions — multilingual text for segment propagation configuration."
+semantic_vi: "Mô tả truyền phát phân khúc lợi nhuận đến danh sách vật liệu — văn bản đa ngôn ngữ cho cấu hình truyền phát phân khúc."
+keywords:
+  - mô tả truyền phát
+  - phân khúc lợi nhuận BOM
+  - dịch cấu hình
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

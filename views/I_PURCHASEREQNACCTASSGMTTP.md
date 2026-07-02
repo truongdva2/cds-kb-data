@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNACCTASSGMTTP
 description: Purchase RequisitionNACCTASSGMTTP
+semantic_en: "Purchase requisition account assignment projection — cost allocations and account distributions for requisition line items."
+semantic_vi: "Phát triển phân bổ tài khoản yêu cầu mua — phân bổ chi phí và phân phối tài khoản cho các dòng yêu cầu."
+keywords:
+  - yêu cầu mua
+  - phân bổ tài khoản
+  - chi phí
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

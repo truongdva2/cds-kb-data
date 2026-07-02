@@ -1,6 +1,12 @@
 ---
 name: I_PURGAGGRGDPRODCMPLNCSUPLRSTS
 description: Purgaggrgdprodcmplncsuplrsts
+semantic_en: "compliance status of supplier — domain values for supplier compliance status in purchasing aggregated data"
+semantic_vi: "trạng thái tuân thủ nhà cung cấp — giá trị miền cho trạng thái tuân thủ nhà cung cấp"
+keywords:
+  - tuân thủ nhà cung cấp
+  - trạng thái tuân thủ
+  - nhà cung cấp
 app_component: MM
 software_component: SAPSCORE
 release_state: released

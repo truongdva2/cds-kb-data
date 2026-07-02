@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALNPRICECONTROLTEXT
 description: Prodvalnpricecontroltext
+semantic_en: "product valuation price control text — multilingual names for inventory valuation procedures."
+semantic_vi: "Văn bản kiểm soát giá định giá sản phẩm — tên đa ngôn ngữ cho các quy trình định giá tồn kho."
+keywords:
+  - kiểm soát giá
+  - văn bản
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

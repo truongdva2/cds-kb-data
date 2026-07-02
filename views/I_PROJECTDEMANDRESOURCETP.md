@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMANDRESOURCETP
 description: Projectdemandresourcetp
+semantic_en: "resource demand projection — resource demand work with cost center and activity type assignments."
+semantic_vi: "phép chiếu nhu cầu tài nguyên — công việc nhu cầu tài nguyên với gán trung tâm chi phí và loại hoạt động."
+keywords:
+  - phép chiếu tài nguyên
+  - trung tâm chi phí
+  - hoạt động
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERHIERARCHYNODET
 description: Profit CenterHIERARCHYNODET
+semantic_en: "profit center hierarchy node text — multilingual names and descriptions for profit center hierarchy nodes."
+semantic_vi: "Văn bản nút phân cấp trung tâm lợi nhuận — tên và mô tả đa ngôn ngữ."
+keywords:
+  - nút phân cấp
+  - văn bản nút
+  - ngôn ngữ
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

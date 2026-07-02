@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGSOURCELISTITEMTP
 description: Purchasingsourcelistitemtp
+semantic_en: "Purchasing source list item projection — MRP area supplier assignments with validity dates and outline agreement references."
+semantic_vi: "Phát triển mục danh sách nguồn mua hàng — phân công nhà cung cấp khu vực MRP với ngày hiệu lực."
+keywords:
+  - danh sách nguồn
+  - MRP
+  - nhà cung cấp
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

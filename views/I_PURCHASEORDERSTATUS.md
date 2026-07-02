@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASEORDERSTATUS
 description: Purchase OrderSTATUS
+semantic_en: "Purchase order status — purchasing document status and classification for orders."
+semantic_vi: "Trạng thái đơn hàng mua — trạng thái tài liệu mua hàng và phân loại cho đơn hàng."
+keywords:
+  - đơn hàng mua
+  - trạng thái
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

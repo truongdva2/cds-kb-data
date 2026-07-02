@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDRSCEREQDISTRIBUTION
 description: Projdmndrscereqdistribution
+semantic_en: "resource request distribution — quantities and amounts distributed by period and year for resource requests."
+semantic_vi: "phân bổ yêu cầu tài nguyên — số lượng và khoản tiền được phân bổ theo kỳ và năm cho yêu cầu tài nguyên."
+keywords:
+  - phân bổ yêu cầu
+  - tài nguyên
+  - kỳ
+  - năm
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

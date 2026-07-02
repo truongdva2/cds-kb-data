@@ -1,6 +1,12 @@
 ---
 name: I_PURGAGGRGDSFTYDATASHEETSTS
 description: Purgaggrgdsftydatasheetsts
+semantic_en: "compliance status of safety data sheet — domain values for safety data sheet compliance status"
+semantic_vi: "trạng thái tuân thủ bảng dữ liệu an toàn — giá trị miền cho trạng thái tuân thủ bảng dữ liệu an toàn"
+keywords:
+  - bảng dữ liệu an toàn
+  - tuân thủ an toàn
+  - trạng thái
 app_component: MM
 software_component: SAPSCORE
 release_state: released

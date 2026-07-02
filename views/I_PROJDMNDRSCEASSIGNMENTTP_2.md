@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDRSCEASSIGNMENTTP_2
 description: Projdmndrsceassignmenttp 2
+semantic_en: "resource assignment projection — resource assignments to project demands with supply and workforce identifiers."
+semantic_vi: "phép chiếu gán tài nguyên — gán tài nguyên cho nhu cầu dự án với định danh cung cấp và nhân sự."
+keywords:
+  - gán tài nguyên
+  - phép chiếu
+  - cung cấp
+  - nhân sự
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

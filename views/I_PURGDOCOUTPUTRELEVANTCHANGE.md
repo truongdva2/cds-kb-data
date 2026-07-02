@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCOUTPUTRELEVANTCHANGE
 description: Purgdocoutputrelevantchange
+semantic_en: "purchasing document output relevant change — identifies which fields and tables trigger output changes in purchasing documents"
+semantic_vi: "thay đổi có liên quan đến đầu ra tài liệu mua hàng — xác định các trường kích hoạt thay đổi đầu ra"
+keywords:
+  - thay đổi tài liệu
+  - bảng dữ liệu
+  - trường
 app_component: MM
 software_component: SAPSCORE
 release_state: released

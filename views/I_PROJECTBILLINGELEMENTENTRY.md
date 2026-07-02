@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBILLINGELEMENTENTRY
 description: Projectbillingelemententry
+semantic_en: "billing element entries — individual entry line items with source type, material, and pricing for project billing."
+semantic_vi: "bản ghi mục nhập yếu tố hóa đơn — các mục dòng mục nhập riêng lẻ với loại nguồn, vật liệu và giá cho hóa đơn dự án."
+keywords:
+  - mục nhập hóa đơn
+  - vật liệu
+  - giá
+  - dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

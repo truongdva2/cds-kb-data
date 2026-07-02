@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBOMSUBITEMDEX
 description: Projectbomsubitemdex
+semantic_en: "BOM subitem extraction — subitem details with quantities, units, and installation points from bill of material."
+semantic_vi: "trích xuất mục con BOM — chi tiết mục con với số lượng, đơn vị và điểm lắp ráp từ hóa đơn vật liệu."
+keywords:
+  - mục con BOM
+  - số lượng
+  - lắp ráp
+  - dự án
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

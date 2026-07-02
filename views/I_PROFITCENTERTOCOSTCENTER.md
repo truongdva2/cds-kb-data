@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOCOSTCENTER
 description: Profit CenterTOCost Center
+semantic_en: "assignment of profit center to cost center — mapping between profit centers and cost centers with organizational change tracking."
+semantic_vi: "Gán trung tâm lợi nhuận cho trung tâm chi phí — ánh xạ giữa các trung tâm lợi nhuận."
+keywords:
+  - gán trung tâm
+  - chi phí
+  - lợi nhuận
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

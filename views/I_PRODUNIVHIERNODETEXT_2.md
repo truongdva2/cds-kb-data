@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERNODETEXT_2
 description: Produnivhiernodetext 2
+semantic_en: "product hierarchy node text — multilingual descriptions for individual product hierarchy nodes."
+semantic_vi: "Văn bản nút phân cấp sản phẩm — mô tả đa ngôn ngữ cho các nút phân cấp sản phẩm."
+keywords:
+  - nút phân cấp
+  - văn bản nút
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOSALESORDERITEM
 description: Profit CenterTOSales OrderITEM
+semantic_en: "assignment of profit center to sales order item — mapping between profit centers and sales order line items."
+semantic_vi: "Gán trung tâm lợi nhuận cho mục đơn bán — ánh xạ tới các mục dòng đơn bán."
+keywords:
+  - đơn bán
+  - mục dòng
+  - gán trung tâm
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGDOCUMENTTYPE
 description: Purchasingdocumenttype
+semantic_en: "Purchasing document type master — types of purchasing documents with field control configuration and workflow settings."
+semantic_vi: "Chính tài liệu mua hàng — các loại tài liệu mua với cấu hình kiểm soát trường."
+keywords:
+  - loại tài liệu mua
+  - tài liệu mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

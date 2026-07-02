@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASEREQUISITIONTP
 description: Purchase RequisitionUISITIONTP
+semantic_en: "Purchase requisition projection — requisition master data with type, description, and source determination details."
+semantic_vi: "Phát triển yêu cầu mua — dữ liệu chính yêu cầu với loại, mô tả, chi tiết xác định nguồn."
+keywords:
+  - yêu cầu mua
+  - loại yêu cầu
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

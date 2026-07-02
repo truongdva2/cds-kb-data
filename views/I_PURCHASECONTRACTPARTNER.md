@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONTRACTPARTNER
 description: Purchase ContractPARTNER
+semantic_en: "Purchase contract partner — supplier and contact information linked to purchase contract header and line items."
+semantic_vi: "Đối tác hợp đồng mua — thông tin nhà cung cấp và liên hệ được liên kết với đơn hàng mua."
+keywords:
+  - hợp đồng mua
+  - nhà cung cấp
+  - liên hệ
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

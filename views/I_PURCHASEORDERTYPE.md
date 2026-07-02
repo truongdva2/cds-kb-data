@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERTYPE
 description: Purchase OrderTYPE
+semantic_en: "Purchase order type — valid order types with subtypes, field selection controls, and workflow configuration flags."
+semantic_vi: "Loại đơn hàng mua — loại đơn hàng hợp lệ với kiểu con, kiểm soát lựa chọn trường, cờ cấu hình quy trình."
+keywords:
+  - loại đơn hàng
+  - đơn hàng mua
+  - quy trình
 app_component: MM
 software_component: SAPSCORE
 release_state: released

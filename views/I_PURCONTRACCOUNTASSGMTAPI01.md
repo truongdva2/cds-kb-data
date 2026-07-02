@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRACCOUNTASSGMTAPI01
 description: Purcontraccountassgmtapi 01
+semantic_en: "Purchase contract account assignment — cost distributions and account allocations for purchase contract line items."
+semantic_vi: "Phân bổ tài khoản hợp đồng mua — phân phối chi phí và phân bổ tài khoản cho dòng hợp đồng."
+keywords:
+  - hợp đồng mua
+  - phân bổ tài khoản
+  - chi phí
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

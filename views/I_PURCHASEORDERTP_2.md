@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERTP_2
 description: Purchase OrderTP 2
+semantic_en: "Purchase order projection — order master data with type, creation and validity dates, and processing flags."
+semantic_vi: "Phát triển đơn hàng mua — dữ liệu chính đơn hàng với loại, ngày tạo và hiệu lực, cờ xử lý."
+keywords:
+  - đơn hàng mua
+  - loại đơn hàng
+  - ngày hiệu lực
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

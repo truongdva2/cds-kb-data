@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBILLINGREQUEST
 description: Projectbillingrequest
+semantic_en: "billing request records — billing requests with status, approval status, and type linked to sales documents."
+semantic_vi: "bản ghi yêu cầu hóa đơn — yêu cầu hóa đơn với trạng thái, trạng thái phê duyệt và loại liên kết với tài liệu bán hàng."
+keywords:
+  - yêu cầu hóa đơn
+  - trạng thái
+  - phê duyệt
+  - dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

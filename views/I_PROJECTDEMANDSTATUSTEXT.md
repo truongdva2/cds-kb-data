@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDSTATUSTEXT
 description: Projectdemandstatustext
+semantic_en: "translated text — demand status descriptions in multiple languages for projects."
+semantic_vi: "văn bản dịch — mô tả trạng thái nhu cầu cho dự án theo ngôn ngữ."
+keywords:
+  - mô tả trạng thái
+  - dịch ngôn ngữ
+  - nhu cầu
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

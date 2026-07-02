@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALNPRICECONTROL
 description: Prodvalnpricecontrol
+semantic_en: "product valuation price control — reference data for inventory valuation procedures (standard, moving average, LIFO, FIFO)."
+semantic_vi: "Kiểm soát giá định giá sản phẩm — dữ liệu tham chiếu cho các quy trình định giá tồn kho."
+keywords:
+  - kiểm soát giá
+  - quy trình định giá
+  - phương pháp
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

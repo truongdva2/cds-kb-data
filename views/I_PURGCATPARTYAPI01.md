@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATPARTYAPI01
 description: Purgcatpartyapi 01
+semantic_en: "party referenced by purchasing category — represents parties (suppliers, contacts, users) linked to a purchasing category"
+semantic_vi: "bên liên quan được tham chiếu bởi danh mục mua hàng — đại diện cho các bên liên quan như nhà cung cấp hoặc liên hệ"
+keywords:
+  - bên liên quan
+  - nhà cung cấp
+  - liên hệ
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

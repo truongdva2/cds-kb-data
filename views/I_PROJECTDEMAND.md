@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMAND
 description: Projectdemand
+semantic_en: "project demand records — demand details with category, type, status, and dates for project resource planning."
+semantic_vi: "bản ghi nhu cầu dự án — chi tiết nhu cầu với danh mục, loại, trạng thái và ngày tháng cho lập kế hoạch tài nguyên dự án."
+keywords:
+  - nhu cầu dự án
+  - danh mục
+  - trạng thái
+  - lập kế hoạch
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

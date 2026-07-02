@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGELMOBJECTLINK
 description: Projbillgelmobjectlink
+semantic_en: "project billing element object link — relationship between project billing elements and sales orders."
+semantic_vi: "Liên kết đối tượng phần tử thanh toán dự án — mối quan hệ tới đơn bán."
+keywords:
+  - thanh toán dự án
+  - liên kết
+  - đơn bán
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

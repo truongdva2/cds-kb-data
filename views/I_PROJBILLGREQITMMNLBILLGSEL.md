@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGREQITMMNLBILLGSEL
 description: Projbillgreqitmmnlbillgsel
+semantic_en: "project billing request item manual billing selection — indicator for manual billing selection in request items."
+semantic_vi: "Lựa chọn thanh toán thủ công mục yêu cầu thanh toán dự án — chỉ báo lựa chọn."
+keywords:
+  - thanh toán dự án
+  - thủ công
+  - lựa chọn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

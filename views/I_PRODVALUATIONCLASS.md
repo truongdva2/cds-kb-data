@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALUATIONCLASS
 description: Prodvaluationclass
+semantic_en: "valuation class — master data linking products to accounting categories for inventory valuation."
+semantic_vi: "Lớp định giá — dữ liệu chính liên kết sản phẩm với danh mục kế toán cho định giá tồn kho."
+keywords:
+  - lớp định giá
+  - danh mục kế toán
+  - sản phẩm
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

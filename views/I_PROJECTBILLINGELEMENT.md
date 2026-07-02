@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBILLINGELEMENT
 description: Projectbillingelement
+semantic_en: "billing element records — revenue billed and written off by WBS element with profile and category."
+semantic_vi: "bản ghi yếu tố hóa đơn — doanh thu hóa đơn và ghi sổ theo yếu tố WBS với hồ sơ và danh mục."
+keywords:
+  - yếu tố hóa đơn
+  - doanh thu
+  - WBS
+  - dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

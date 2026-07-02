@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGDOCUMENTCATEGORY
 description: Purchasingdocumentcategory
+semantic_en: "Purchasing document category domain values — enumeration of valid categories for purchasing documents (RFQ, PO, contract, etc)."
+semantic_vi: "Giá trị miền danh mục tài liệu mua hàng — danh sách các danh mục hợp lệ cho tài liệu mua."
+keywords:
+  - danh mục tài liệu mua
+  - tài liệu mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCUMENTITEMCATEGORYTEXT
 description: Purgdocumentitemcategorytext
+semantic_en: "purchasing document item category — text — provides translatable names and external mappings for item categories"
+semantic_vi: "danh mục mục tài liệu mua hàng — văn bản — cung cấp tên có thể dịch được cho danh mục mục"
+keywords:
+  - danh mục mục
+  - tên mục
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

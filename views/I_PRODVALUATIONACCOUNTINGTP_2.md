@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALUATIONACCOUNTINGTP_2
 description: Prodvaluationaccountingtp 2
+semantic_en: "product valuation accounting TP — commercial and tax pricing for products with future prices and LIFO pool assignments."
+semantic_vi: "Kế toán định giá sản phẩm TP — giá thương mại và thuế cho sản phẩm."
+keywords:
+  - giá thương mại
+  - giá thuế
+  - định giá
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

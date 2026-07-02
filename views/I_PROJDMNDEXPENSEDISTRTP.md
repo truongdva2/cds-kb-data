@@ -1,6 +1,13 @@
 ---
 name: I_PROJDMNDEXPENSEDISTRTP
 description: Projdmndexpensedistrtp
+semantic_en: "expense distribution with transfer posting — amounts distributed by period and year with transaction posting references."
+semantic_vi: "phân bổ chi phí với ghi sổ chuyển — các khoản tiền được phân bổ theo kỳ và năm với tham chiếu ghi sổ giao dịch."
+keywords:
+  - phân bổ chi phí
+  - ghi sổ chuyển
+  - kỳ
+  - năm
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTLINEITEMCUBE
 description: Pubsecbdgtlineitemcube
+semantic_en: "Budget line items analytical cube — analytical data structure for budget line item analysis across financial dimensions."
+semantic_vi: "Khối phân tích mục hàng ngân sách — cấu trúc dữ liệu phân tích cho phân tích mục hàng ngân sách trên các chiều tài chính."
+keywords:
+  - khối phân tích ngân sách
+  - mục hàng ngân sách
+  - phân tích tài chính
 app_component: PSM-FM-IS
 software_component: SAPSCORE
 release_state: released

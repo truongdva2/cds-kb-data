@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDTYPETEXT
 description: Projectdemandtypetext
+semantic_en: "Project demand type translation table — multilingual text descriptions for project demand type codes."
+semantic_vi: "Bảng dịch loại yêu cầu dự án — mô tả văn bản đa ngôn ngữ cho mã loại nhu cầu dự án."
+keywords:
+  - tên loại nhu cầu
+  - dịch nhu cầu dự án
+  - ngôn ngữ
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

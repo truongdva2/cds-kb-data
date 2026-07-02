@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTACCTREVNEXPNCODE
 description: Pubsecbdgtacctrevnexpncode
+semantic_en: "Revenue and expense code for budget accounts — classifies account entries as revenue or expense for public sector budget control."
+semantic_vi: "Mã doanh thu và chi phí cho tài khoản ngân sách — phân loại các mục tài khoản là doanh thu hay chi phí để kiểm soát ngân sách khu vực công."
+keywords:
+  - mã doanh thu chi phí
+  - tài khoản ngân sách
+  - phân loại tài khoản
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

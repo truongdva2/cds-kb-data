@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDSERVICESUPPLY
 description: Projectdemandservicesupply
+semantic_en: "service supply records — supply data linking purchase requisitions to service demands."
+semantic_vi: "bản ghi cung cấp dịch vụ — dữ liệu cung cấp liên kết các yêu cầu mua hàng với nhu cầu dịch vụ."
+keywords:
+  - cung cấp dịch vụ
+  - yêu cầu mua
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

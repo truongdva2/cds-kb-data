@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGSOURCELISTTP
 description: Purchasingsourcelisttp
+semantic_en: "Purchasing source list projection — master data for source list records by material and plant."
+semantic_vi: "Phát triển danh sách nguồn mua hàng — dữ liệu chính bản ghi danh sách nguồn theo vật liệu."
+keywords:
+  - danh sách nguồn
+  - vật liệu
+  - nhà máy
 app_component: MM-PUR-SQ-SLI-2CL
 software_component: SAPSCORE
 release_state: released

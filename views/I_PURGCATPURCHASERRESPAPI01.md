@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATPURCHASERRESPAPI01
 description: Purgcatpurchaserrespapi 01
+semantic_en: "purchaser responsibility for purchasing category — identifies purchasers responsible for managing a purchasing category"
+semantic_vi: "trách nhiệm người mua cho danh mục mua hàng — xác định những người mua chịu trách nhiệm quản lý danh mục"
+keywords:
+  - người mua
+  - trách nhiệm
+  - quản lý
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

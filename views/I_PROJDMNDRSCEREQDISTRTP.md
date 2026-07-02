@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDRSCEREQDISTRTP
 description: Projdmndrscereqdistrtp
+semantic_en: "resource request distribution with transfer posting — distributed quantities and amounts with transaction references."
+semantic_vi: "phân bổ yêu cầu tài nguyên với ghi sổ chuyển — số lượng và khoản tiền được phân bổ với tham chiếu ghi sổ."
+keywords:
+  - phân bổ yêu cầu
+  - ghi sổ chuyển
+  - tài nguyên
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

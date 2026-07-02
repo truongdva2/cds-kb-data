@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTPROFILECODETEXT
 description: Projectprofilecodetext
+semantic_en: "Project profile code descriptions — multilingual text for project profile code identifiers across languages."
+semantic_vi: "Mô tả mã hồ sơ dự án — văn bản đa ngôn ngữ cho mã định danh hồ sơ dự án trên các ngôn ngữ."
+keywords:
+  - tên hồ sơ dự án
+  - mô tả hồ sơ
+  - dịch mã hồ sơ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

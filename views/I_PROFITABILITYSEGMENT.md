@@ -1,6 +1,12 @@
 ---
 name: I_PROFITABILITYSEGMENT
 description: Profitabilitysegment
+semantic_en: "profitability segment — analytical cube combining product, customer, order, and organizational dimensions for profit analysis."
+semantic_vi: "Phân khúc lợi nhuận — phân tích kết hợp sản phẩm, khách hàng, đơn hàng và các chiều tổ chức."
+keywords:
+  - lợi nhuận
+  - phân khúc
+  - phân tích
 app_component: CO-PA-2CL
 software_component: SAPSCORE
 release_state: released

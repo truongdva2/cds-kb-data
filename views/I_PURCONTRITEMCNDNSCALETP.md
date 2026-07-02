@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRITEMCNDNSCALETP
 description: Purcontritemcndnscaletp
+semantic_en: "purchase contract item condition scale — defines quantity-based pricing scales for contract line items with tiered rates and amounts"
+semantic_vi: "thang bậc điều kiện mục hợp đồng mua — xác định bảng giá theo số lượng với tỷ lệ và khoản tiền theo bậc"
+keywords:
+  - thang bậc giá
+  - giá theo số lượng
+  - bảng giá
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGDOCUMENTORIGINTEXT
 description: Purchasingdocumentorigintext
+semantic_en: "Purchasing document origin text — localized descriptions of origin categories for purchasing documents."
+semantic_vi: "Văn bản nguồn gốc tài liệu mua hàng — mô tả địa phương hóa của danh mục nguồn gốc."
+keywords:
+  - tài liệu mua
+  - nguồn gốc
+  - mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

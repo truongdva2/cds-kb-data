@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDDATEMAINTENANCE_2
 description: Projdmnddatemaintenance 2
+semantic_en: "domain value list — date maintenance classification codes for project demands."
+semantic_vi: "danh sách giá trị miền — các mã phân loại bảo trì ngày tháng cho nhu cầu dự án."
+keywords:
+  - bảo trì ngày tháng
+  - dự án
+  - phân loại
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

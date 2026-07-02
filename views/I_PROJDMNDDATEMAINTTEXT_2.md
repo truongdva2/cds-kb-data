@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDDATEMAINTTEXT_2
 description: Projdmnddatemainttext 2
+semantic_en: "translated text — date maintenance classification descriptions in multiple languages for project demands."
+semantic_vi: "văn bản dịch — mô tả phân loại bảo trì ngày tháng cho nhu cầu dự án theo ngôn ngữ."
+keywords:
+  - mô tả bảo trì
+  - dịch ngôn ngữ
+  - ngày tháng
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

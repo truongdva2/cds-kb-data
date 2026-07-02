@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTPROFILECODE
 description: Projectprofilecode
+semantic_en: "Project profile code master data — stores project profile code identifiers for project classification."
+semantic_vi: "Dữ liệu chính mã hồ sơ dự án — lưu trữ mã định danh hồ sơ dự án để phân loại dự án."
+keywords:
+  - mã hồ sơ dự án
+  - hồ sơ dự án
+  - mã phân loại
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDLASTUPDATESOURCE
 description: Projdmndlastupdatesource
+semantic_en: "domain value list — update source identification codes for project demands."
+semantic_vi: "danh sách giá trị miền — các mã xác định nguồn cập nhật cho nhu cầu dự án."
+keywords:
+  - nguồn cập nhật
+  - nhu cầu dự án
+  - mã nguồn
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

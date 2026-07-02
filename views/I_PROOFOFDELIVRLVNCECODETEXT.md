@@ -1,6 +1,12 @@
 ---
 name: I_PROOFOFDELIVRLVNCECODETEXT
 description: Proofofdelivrlvncecodetext
+semantic_en: "Proof of delivery relevance code descriptions — multilingual text for proof of delivery relevance codes."
+semantic_vi: "Mô tả mã liên quan chứng minh giao hàng — văn bản đa ngôn ngữ cho mã liên quan chứng minh giao hàng."
+keywords:
+  - tên mã liên quan
+  - mô tả liên quan giao hàng
+  - dịch mã
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

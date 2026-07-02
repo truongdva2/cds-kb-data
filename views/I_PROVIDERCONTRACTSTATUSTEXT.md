@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTSTATUSTEXT
 description: Providercontractstatustext
+semantic_en: "Provider contract status descriptions — multilingual text for provider contract status codes."
+semantic_vi: "Mô tả trạng thái hợp đồng nhà cung cấp — văn bản đa ngôn ngữ cho mã trạng thái hợp đồng nhà cung cấp."
+keywords:
+  - tên trạng thái
+  - mô tả trạng thái hợp đồng
+  - dịch trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

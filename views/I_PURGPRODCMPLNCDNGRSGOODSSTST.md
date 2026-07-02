@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRODCMPLNCDNGRSGOODSSTST
 description: Purgprodcmplncdngrsgoodsstst
+semantic_en: "compliance status of dangerous goods item — text — translatable descriptions for dangerous goods compliance status values"
+semantic_vi: "trạng thái tuân thủ hàng hóa nguy hiểm — văn bản — mô tả có thể dịch cho giá trị trạng thái tuân thủ"
+keywords:
+  - hàng hóa nguy hiểm
+  - tuân thủ
+  - mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

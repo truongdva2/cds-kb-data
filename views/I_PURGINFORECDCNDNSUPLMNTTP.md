@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDCNDNSUPLMNTTP
 description: Purginforecdcndnsuplmnttp
+semantic_en: "purchasing information record condition supplement — defines supplementary pricing conditions and applications for info records"
+semantic_vi: "bổ sung điều kiện thông tin mua hàng — xác định các điều kiện giá bổ sung cho thông tin mua hàng"
+keywords:
+  - điều kiện bổ sung
+  - giá
+  - thông tin mua
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

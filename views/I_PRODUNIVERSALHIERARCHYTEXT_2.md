@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVERSALHIERARCHYTEXT_2
 description: Produniversalhierarchytext 2
+semantic_en: "product hierarchy text — language-specific descriptions for product universal hierarchy nodes with hierarchy type."
+semantic_vi: "Văn bản phân cấp sản phẩm — mô tả chi tiết theo ngôn ngữ cho các nút phân cấp sản phẩm phổ quát."
+keywords:
+  - văn bản phân cấp
+  - loại phân cấp
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

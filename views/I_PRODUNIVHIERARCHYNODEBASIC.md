@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERARCHYNODEBASIC
 description: Produnivhierarchynodebasic
+semantic_en: "product hierarchy node — individual nodes within product hierarchies with parent relationships and hierarchy positioning."
+semantic_vi: "Nút phân cấp sản phẩm — các nút riêng lẻ trong phân cấp sản phẩm với các mối quan hệ cha con."
+keywords:
+  - nút phân cấp
+  - nút cha
+  - trình tự
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGDOCUMENTORIGIN
 description: Purchasingdocumentorigin
+semantic_en: "Purchasing document origin domain values — source classification for purchasing documents."
+semantic_vi: "Giá trị miền nguồn gốc tài liệu mua hàng — phân loại nguồn cho tài liệu mua."
+keywords:
+  - tài liệu mua
+  - nguồn gốc
 app_component: MM
 software_component: SAPSCORE
 release_state: released

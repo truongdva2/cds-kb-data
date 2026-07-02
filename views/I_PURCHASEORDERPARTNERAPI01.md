@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERPARTNERAPI01
 description: Purchase OrderPARTNERAPI 01
+semantic_en: "Purchase order partner — supplier contact and engagement details linked to purchase orders."
+semantic_vi: "Đối tác đơn hàng mua — chi tiết liên hệ và tham gia nhà cung cấp được liên kết với đơn hàng mua."
+keywords:
+  - đơn hàng mua
+  - nhà cung cấp
+  - liên hệ
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

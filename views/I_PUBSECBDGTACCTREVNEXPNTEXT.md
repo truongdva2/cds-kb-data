@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTACCTREVNEXPNTEXT
 description: Pubsecbdgtacctrevnexpntext
+semantic_en: "Revenue and expense code descriptions — multilingual text for revenue and expense classification codes."
+semantic_vi: "Mô tả mã doanh thu và chi phí — văn bản đa ngôn ngữ cho mã phân loại doanh thu và chi phí."
+keywords:
+  - tên mã doanh thu
+  - mô tả chi phí
+  - dịch phân loại
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

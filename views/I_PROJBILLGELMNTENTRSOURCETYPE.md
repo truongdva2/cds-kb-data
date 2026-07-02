@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGELMNTENTRSOURCETYPE
 description: Projbillgelmntentrsourcetype
+semantic_en: "project billing element entry source type value help — enumeration of sources for project billing element entries."
+semantic_vi: "Loại nguồn nhập phần tử thanh toán dự án — liệt kê các nguồn."
+keywords:
+  - thanh toán dự án
+  - loại nguồn
+  - nhập
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

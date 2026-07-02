@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATMEMBERAPI01
 description: Purgcatmemberapi 01
+semantic_en: "team member for purchasing category — tracks authorized team members with roles and permissions for a purchasing category"
+semantic_vi: "thành viên nhóm cho danh mục mua hàng — theo dõi các thành viên nhóm được phép với vai trò và quyền hạn"
+keywords:
+  - thành viên nhóm
+  - phân quyền
+  - người dùng
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

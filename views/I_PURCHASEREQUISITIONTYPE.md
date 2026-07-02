@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQUISITIONTYPE
 description: Purchase RequisitionUISITIONTYPE
+semantic_en: "Purchase requisition type — valid requisition types with overall release enablement flag."
+semantic_vi: "Loại yêu cầu mua — loại yêu cầu hợp lệ với cờ kích hoạt phát hành toàn bộ."
+keywords:
+  - yêu cầu mua
+  - loại yêu cầu
+  - phát hành
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

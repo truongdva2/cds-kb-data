@@ -1,6 +1,12 @@
 ---
 name: I_PROOFOFDELIVRLVNCECODE
 description: Proofofdelivrlvncecode
+semantic_en: "Proof of delivery relevance code classification — indicates whether delivery items are relevant for proof of delivery."
+semantic_vi: "Phân loại mã liên quan chứng minh giao hàng — chỉ ra liệu mục giao hàng có liên quan để chứng minh giao hàng hay không."
+keywords:
+  - mã liên quan chứng minh
+  - liên quan giao hàng
+  - phân loại chứng minh
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

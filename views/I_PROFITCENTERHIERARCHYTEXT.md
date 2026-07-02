@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERHIERARCHYTEXT
 description: Profit CenterHIERARCHYTEXT
+semantic_en: "profit center hierarchy text — multilingual descriptions for profit center hierarchy levels."
+semantic_vi: "Văn bản phân cấp trung tâm lợi nhuận — mô tả đa ngôn ngữ cho các cấp phân cấp."
+keywords:
+  - phân cấp trung tâm
+  - văn bản
+  - ngôn ngữ
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

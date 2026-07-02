@@ -1,6 +1,12 @@
 ---
 name: I_PRODWHSEROTATIONDATETYPETEXT
 description: Prodwhserotationdatetypetext
+semantic_en: "product warehouse rotation date type text — multilingual descriptions for warehouse management rotation strategies."
+semantic_vi: "Văn bản loại ngày xoay vòng kho sản phẩm — mô tả đa ngôn ngữ cho chiến lược xoay vòng."
+keywords:
+  - xoay vòng kho
+  - quản lý kho
+  - loại ngày
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

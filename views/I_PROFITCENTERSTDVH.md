@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERSTDVH
 description: Profit CenterSTDVH
+semantic_en: "profit center standard value help — master data list of all profit centers with validity dates."
+semantic_vi: "Trợ giúp giá trị tiêu chuẩn trung tâm lợi nhuận — danh sách tất cả các trung tâm lợi nhuận."
+keywords:
+  - trung tâm lợi nhuận
+  - giá trị
+  - hiệu lực
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

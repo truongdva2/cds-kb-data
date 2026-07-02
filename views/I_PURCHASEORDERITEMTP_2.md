@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERITEMTP_2
 description: Purchase OrderITEMTP 2
+semantic_en: "Purchase order item projection — line item material, supplier references, and ordering details for purchase orders."
+semantic_vi: "Phát triển mục đơn hàng mua — vật liệu dòng, tham chiếu nhà cung cấp, chi tiết đặt hàng."
+keywords:
+  - đơn hàng mua
+  - mục mục
+  - vật liệu
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

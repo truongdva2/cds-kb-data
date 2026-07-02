@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOPURORDERITEM
 description: Profit CenterTOPURORDERITEM
+semantic_en: "assignment of profit center to purchase order item — relationship between profit centers and purchase requisition line items."
+semantic_vi: "Gán trung tâm lợi nhuận cho mục đơn mua — mối quan hệ tới các mục dòng đơn mua."
+keywords:
+  - đơn mua
+  - mục dòng
+  - gán trung tâm
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDSTATUS
 description: Projectdemandstatus
+semantic_en: "project demand status codes — classification codes for demand workflow states."
+semantic_vi: "mã trạng thái nhu cầu dự án — mã phân loại cho trạng thái quy trình nhu cầu."
+keywords:
+  - trạng thái nhu cầu
+  - phân loại
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERPRODSBYNODETP
 description: Produnivhierprodsbynodetp
+semantic_en: "product hierarchy products by node TP — assignment of products to specific hierarchy nodes with sequencing."
+semantic_vi: "Sản phẩm phân cấp theo nút TP — gán sản phẩm cho các nút phân cấp cụ thể."
+keywords:
+  - sản phẩm theo nút
+  - gán phân cấp
+  - trình tự
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERNOTETP_2
 description: Purchase OrderNOTETP 2
+semantic_en: "Purchase order header note projection — textual comments and notes for the purchase order header level."
+semantic_vi: "Phát triển ghi chú tiêu đề đơn hàng mua — bình luận và ghi chú văn bản cho tiêu đề đơn hàng."
+keywords:
+  - đơn hàng mua
+  - ghi chú
+  - tiêu đề
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

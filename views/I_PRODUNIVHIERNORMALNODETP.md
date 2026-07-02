@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERNORMALNODETP
 description: Produnivhiernormalnodetp
+semantic_en: "product hierarchy normal node TP — non-header nodes in product hierarchies with parent tracking and change history."
+semantic_vi: "Nút thường phân cấp sản phẩm TP — các nút không phải tiêu đề trong phân cấp sản phẩm."
+keywords:
+  - nút thường
+  - phân cấp sản phẩm
+  - cha con
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

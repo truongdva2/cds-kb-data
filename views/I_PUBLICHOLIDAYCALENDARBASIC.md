@@ -1,6 +1,12 @@
 ---
 name: I_PUBLICHOLIDAYCALENDARBASIC
 description: Publicholidaycalendarbasic
+semantic_en: "Holiday calendar master data — stores holiday calendar configurations with validity periods."
+semantic_vi: "Dữ liệu chính lịch ngày lễ công cộng — lưu trữ cấu hình lịch ngày lễ với thời kỳ hiệu lực."
+keywords:
+  - lịch ngày lễ
+  - danh mục lịch lễ
+  - thời kỳ hiệu lực
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

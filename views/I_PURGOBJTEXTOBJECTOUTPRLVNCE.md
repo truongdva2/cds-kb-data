@@ -1,6 +1,12 @@
 ---
 name: I_PURGOBJTEXTOBJECTOUTPRLVNCE
 description: Purgobjtextobjectoutprlvnce
+semantic_en: "output relevance of purchasing notes — controls printing relevance and sequence for purchasing document notes"
+semantic_vi: "tính liên quan đầu ra của ghi chú mua hàng — kiểm soát tính liên quan và trình tự in cho ghi chú tài liệu"
+keywords:
+  - ghi chú tài liệu
+  - in tài liệu
+  - trình tự
 app_component: MM
 software_component: SAPSCORE
 release_state: released

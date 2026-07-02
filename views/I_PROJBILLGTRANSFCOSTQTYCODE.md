@@ -1,6 +1,12 @@
 ---
 name: I_PROJBILLGTRANSFCOSTQTYCODE
 description: Projbillgtransfcostqtycode
+semantic_en: "transfer quantity and costs value help — enumeration for quantity and cost transfer methods in project billing."
+semantic_vi: "Mã chuyển số lượng và chi phí — liệt kê các phương pháp chuyển."
+keywords:
+  - thanh toán dự án
+  - chuyển chi phí
+  - số lượng
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

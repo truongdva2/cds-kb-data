@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBILLINGREQITEMTP_2
 description: Projectbillingreqitemtp 2
+semantic_en: "billing request items projection — postponed and written-off quantities and amounts by currency."
+semantic_vi: "phép chiếu mục yêu cầu hóa đơn — số lượng và khoản tiền bị hoãn và ghi sổ theo đơn vị tiền tệ."
+keywords:
+  - mục yêu cầu
+  - hoãn
+  - ghi sổ
+  - đơn vị tiền tệ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

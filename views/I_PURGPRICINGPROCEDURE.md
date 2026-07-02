@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRICINGPROCEDURE
 description: Purgpricingprocedure
+semantic_en: "pricing procedure in purchasing — defines the overall pricing procedure for calculating prices in purchase orders"
+semantic_vi: "quy trình giá trong mua hàng — xác định quy trình giá tổng thể để tính giá trong đơn hàng mua"
+keywords:
+  - quy trình giá
+  - tính giá
+  - đơn hàng mua
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

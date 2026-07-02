@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONFIRMATIONSTATUST
 description: Purchaseconfirmationstatust
+semantic_en: "Purchase confirmation status translations — localized status descriptions for purchase confirmations across languages."
+semantic_vi: "Bản dịch trạng thái xác nhận mua — mô tả trạng thái được địa phương hóa cho xác nhận mua hàng."
+keywords:
+  - xác nhận mua
+  - trạng thái
+  - dịch ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

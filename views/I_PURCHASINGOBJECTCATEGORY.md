@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGOBJECTCATEGORY
 description: Purchasingobjectcategory
+semantic_en: "Purchasing object category — category assignments for purchasing objects and documents."
+semantic_vi: "Danh mục đối tượng mua hàng — phân loại danh mục cho các đối tượng và tài liệu mua."
+keywords:
+  - danh mục mua
+  - đối tượng mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

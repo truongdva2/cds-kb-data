@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDEXPENSE
 description: Projectdemandexpense
+semantic_en: "expense demand records — project demands for expenses with billing control category."
+semantic_vi: "bản ghi nhu cầu chi phí — nhu cầu dự án cho chi phí với danh mục kiểm soát hóa đơn."
+keywords:
+  - nhu cầu chi phí
+  - kiểm soát hóa đơn
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDPRCGCNDNVALDTYTP
 description: Purginforecdprcgcndnvaldtytp
+semantic_en: "purchasing information record pricing condition validity — tracks validity dates for pricing conditions in info records"
+semantic_vi: "hiệu lực điều kiện giá thông tin mua hàng — theo dõi ngày hiệu lực của điều kiện giá"
+keywords:
+  - hiệu lực
+  - điều kiện giá
+  - thông tin mua
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

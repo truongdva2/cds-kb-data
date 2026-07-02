@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDEXPENSETYPETEXT
 description: Projectdemandexpensetypetext
+semantic_en: "translated text — expense type descriptions in multiple languages for project demands."
+semantic_vi: "văn bản dịch — mô tả loại chi phí cho nhu cầu dự án theo ngôn ngữ."
+keywords:
+  - mô tả loại chi phí
+  - dịch ngôn ngữ
+  - nhu cầu
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

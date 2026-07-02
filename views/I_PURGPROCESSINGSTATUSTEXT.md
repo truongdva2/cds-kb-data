@@ -1,6 +1,12 @@
 ---
 name: I_PURGPROCESSINGSTATUSTEXT
 description: Purgprocessingstatustext
+semantic_en: "purchasing processing status — text — translatable descriptions for purchasing document processing status values"
+semantic_vi: "trạng thái xử lý mua hàng — văn bản — mô tả có thể dịch cho giá trị trạng thái xử lý"
+keywords:
+  - trạng thái xử lý
+  - tài liệu mua
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

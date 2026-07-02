@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTTYPE
 description: Providercontracttype
+semantic_en: "Provider contract type classification — categorizes different types of provider contracts."
+semantic_vi: "Phân loại loại hợp đồng nhà cung cấp — phân loại các loại hợp đồng nhà cung cấp khác nhau."
+keywords:
+  - loại hợp đồng
+  - phân loại loại
+  - danh mục loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

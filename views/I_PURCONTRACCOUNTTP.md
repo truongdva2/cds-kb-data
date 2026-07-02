@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRACCOUNTTP
 description: Purcontraccounttp
+semantic_en: "purchase contract account assignment — tracks cost center, asset, or project cost allocations for purchase contract line items"
+semantic_vi: "tài khoản phân bổ hợp đồng mua hàng — ghi nhận chi phí theo trung tâm chi phí, tài sản cố định, hoặc dự án"
+keywords:
+  - phân bổ hợp đồng mua
+  - chi phí trung tâm chi phí
+  - dự án
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

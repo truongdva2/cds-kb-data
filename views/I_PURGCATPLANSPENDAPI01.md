@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATPLANSPENDAPI01
 description: Purgcatplanspendapi 01
+semantic_en: "planned spend for purchasing category — tracks planned spend amounts and validity periods for purchasing categories"
+semantic_vi: "chi tiêu dự kiến cho danh mục mua hàng — theo dõi các khoản chi tiêu dự kiến và thời kỳ hiệu lực"
+keywords:
+  - chi tiêu dự kiến
+  - ngân sách
+  - danh mục mua
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

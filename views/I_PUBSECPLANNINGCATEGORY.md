@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECPLANNINGCATEGORY
 description: Pubsecplanningcategory
+semantic_en: "Planning categories for public sector management — planning category code, usage classification, and availability control flag for PSM."
+semantic_vi: "Danh mục kế hoạch cho quản lý công — mã danh mục, phân loại sử dụng, và cờ kiểm soát tính sẵn có."
+keywords:
+  - danh mục kế hoạch
+  - công quốc phòng
+  - kiểm soát
 app_component: PSM-FM-IS
 software_component: SAPSCORE
 release_state: released

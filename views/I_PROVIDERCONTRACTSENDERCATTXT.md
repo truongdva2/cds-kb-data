@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTSENDERCATTXT
 description: Providercontractsendercattxt
+semantic_en: "Provider contract sender category descriptions — multilingual text for sender category codes."
+semantic_vi: "Mô tả danh mục người gửi hợp đồng nhà cung cấp — văn bản đa ngôn ngữ cho mã danh mục người gửi."
+keywords:
+  - tên danh mục gửi
+  - mô tả danh mục gửi
+  - dịch danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

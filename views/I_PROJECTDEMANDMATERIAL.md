@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMANDMATERIAL
 description: Projectdemandmaterial
+semantic_en: "material demand records — materials requested for project demands with supplier and purchase data."
+semantic_vi: "bản ghi nhu cầu vật liệu — vật liệu yêu cầu cho nhu cầu dự án với dữ liệu nhà cung cấp và mua hàng."
+keywords:
+  - nhu cầu vật liệu
+  - nhà cung cấp
+  - mua hàng
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

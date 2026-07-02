@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATDESCRIPTIONAPI01
 description: Purgcatdescriptionapi 01
+semantic_en: "description of purchasing category — provides multilingual descriptions for purchasing categories"
+semantic_vi: "mô tả danh mục mua hàng — cung cấp mô tả đa ngôn ngữ cho các danh mục mua hàng"
+keywords:
+  - mô tả danh mục
+  - ngôn ngữ
+  - danh mục mua
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

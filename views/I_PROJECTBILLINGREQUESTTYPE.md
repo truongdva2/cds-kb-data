@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGREQUESTTYPE
 description: Projectbillingrequesttype
+semantic_en: "domain value list — billing request document type codes for projects."
+semantic_vi: "danh sách giá trị miền — các mã loại tài liệu yêu cầu hóa đơn cho dự án."
+keywords:
+  - loại tài liệu yêu cầu
+  - hóa đơn
+  - phân loại
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

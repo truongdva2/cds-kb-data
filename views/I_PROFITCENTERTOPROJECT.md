@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOPROJECT
 description: Profit CenterTOPROJECT
+semantic_en: "assignment of profit center to project — mapping between profit centers and projects."
+semantic_vi: "Gán trung tâm lợi nhuận cho dự án — ánh xạ tới các dự án."
+keywords:
+  - dự án
+  - gán trung tâm
+  - lợi nhuận
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

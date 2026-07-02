@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTSENDERCAT
 description: Providercontractsendercat
+semantic_en: "Provider contract sender category — classifies the types of entities that can send provider contracts."
+semantic_vi: "Danh mục người gửi hợp đồng nhà cung cấp — phân loại các loại đơn vị có thể gửi hợp đồng nhà cung cấp."
+keywords:
+  - danh mục người gửi
+  - loại người gửi
+  - phân loại gửi
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

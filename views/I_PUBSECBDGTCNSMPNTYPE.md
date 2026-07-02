@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTCNSMPNTYPE
 description: Pubsecbdgtcnsmpntype
+semantic_en: "Budget consumption type — classifies budget consumption activities with budget relevance indicators."
+semantic_vi: "Loại tiêu thụ ngân sách — phân loại các hoạt động tiêu thụ ngân sách với chỉ báo mức độ liên quan ngân sách."
+keywords:
+  - loại tiêu thụ ngân sách
+  - nhóm tiêu thụ
+  - liên quan ngân sách
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

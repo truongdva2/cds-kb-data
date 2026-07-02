@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGDOCUMENTTYPETEXT
 description: Purchasingdocumenttypetext
+semantic_en: "Purchasing document type text — localized names for purchasing document types across languages."
+semantic_vi: "Văn bản loại tài liệu mua hàng — tên được địa phương hóa cho các loại tài liệu mua."
+keywords:
+  - loại tài liệu mua
+  - tên loại
+  - dịch ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

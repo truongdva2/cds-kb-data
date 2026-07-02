@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRITEMNOTESTP
 description: Purcontritemnotestp
+semantic_en: "purchase contract item notes — stores line-item level documentation and special instructions for contract items"
+semantic_vi: "ghi chú mục hợp đồng mua — lưu trữ tài liệu và hướng dẫn đặc biệt ở cấp mục"
+keywords:
+  - ghi chú mục
+  - tài liệu mục
+  - hướng dẫn
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

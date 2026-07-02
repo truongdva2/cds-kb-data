@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATAPI01
 description: Purgcatapi 01
+semantic_en: "purchasing category — represents a purchasing category for grouping supplier contracts and managing spend"
+semantic_vi: "danh mục mua hàng — đại diện cho danh mục mua hàng để nhóm hợp đồng nhà cung cấp và quản lý chi tiêu"
+keywords:
+  - danh mục mua
+  - nhóm chi tiêu
+  - hợp đồng
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

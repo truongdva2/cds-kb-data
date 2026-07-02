@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDPRICECNDNAPI01
 description: Purginforecdpricecndnapi 01
+semantic_en: "base unit — defines base pricing conditions and rates for purchasing information records"
+semantic_vi: "đơn vị cơ sở — xác định điều kiện giá cơ sở cho thông tin mua hàng"
+keywords:
+  - giá cơ sở
+  - tỷ lệ giá
+  - thông tin mua
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PT_ELECTRONICDOCPARTNER
 description: PT Electronicdocpartner
+semantic_en: "Portugal electronic invoice partner relevance — indicates whether business partners are relevant for Portuguese electronic invoicing."
+semantic_vi: "Mức độ liên quan đối tác hóa đơn điện tử Bồ Đào Nha — chỉ ra liệu đối tác kinh doanh có liên quan đến hóa đơn điện tử của Bồ Đào Nha hay không."
+keywords:
+  - đối tác hóa đơn điện tử
+  - liên quan đối tác
+  - điều lệ Bồ Đào Nha
 app_component: CA-GTF-CSC-EDO-PT
 software_component: SAPSCORE
 release_state: released

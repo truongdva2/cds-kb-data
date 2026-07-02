@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDTYPE
 description: Projectdemandtype
+semantic_en: "Project demand type classification — categorizes project resource demands by type and category."
+semantic_vi: "Phân loại loại yêu cầu dự án — phân loại nhu cầu tài nguyên dự án theo loại và danh mục."
+keywords:
+  - loại yêu cầu dự án
+  - phân loại nhu cầu
+  - danh mục nhu cầu
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

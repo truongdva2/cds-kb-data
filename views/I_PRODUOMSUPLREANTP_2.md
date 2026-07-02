@@ -1,6 +1,12 @@
 ---
 name: I_PRODUOMSUPLREANTP_2
 description: Produomsuplreantp 2
+semantic_en: "product supplier EAN TP — supplier-specific global trade item numbers and product mappings."
+semantic_vi: "EAN nhà cung cấp sản phẩm TP — mã mặt hàng thương mại toàn cầu dành riêng cho nhà cung cấp."
+keywords:
+  - EAN nhà cung cấp
+  - mã hàng
+  - nhà cung cấp
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

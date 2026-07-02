@@ -1,6 +1,12 @@
 ---
 name: I_PURGOUTPUTOPERATIONCODE
 description: Purgoutputoperationcode
+semantic_en: "purchasing output operation code — domain values for operation codes triggering purchasing document output and printing"
+semantic_vi: "mã hoạt động đầu ra mua hàng — giá trị miền cho mã hoạt động kích hoạt đầu ra tài liệu mua hàng"
+keywords:
+  - mã hoạt động
+  - in tài liệu
+  - đầu ra
 app_component: MM
 software_component: SAPSCORE
 release_state: released

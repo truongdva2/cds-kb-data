@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTMIGRTNSTST
 description: Providercontractmigrtnstst
+semantic_en: "Provider contract migration status descriptions — multilingual text for contract migration status codes."
+semantic_vi: "Mô tả trạng thái di chuyển hợp đồng nhà cung cấp — văn bản đa ngôn ngữ cho mã trạng thái di chuyển hợp đồng."
+keywords:
+  - tên trạng thái di chuyển
+  - mô tả di chuyển
+  - dịch trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

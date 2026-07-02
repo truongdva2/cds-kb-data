@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETSCENARIOTEXT
 description: Pubsecbudgetscenariotext
+semantic_en: "Budget scenario text translations — language, budget scenario code, and localized descriptions for public sector planning scenarios."
+semantic_vi: "Bản dịch mô tả kịch bản ngân sách cho lĩnh vực công — bao gồm mã kịch bản, ngôn ngữ và mô tả được địa phương hóa."
+keywords:
+  - kịch bản ngân sách
+  - công quốc phòng
+  - mô tả
 app_component: PSM-FM-BU
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGREQUESTTP_2
 description: Projectbillingrequesttp 2
+semantic_en: "billing request projection — request data with status, approval status, and project references."
+semantic_vi: "phép chiếu yêu cầu hóa đơn — dữ liệu yêu cầu với trạng thái, trạng thái phê duyệt và tham chiếu dự án."
+keywords:
+  - phép chiếu yêu cầu
+  - hóa đơn
+  - trạng thái
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

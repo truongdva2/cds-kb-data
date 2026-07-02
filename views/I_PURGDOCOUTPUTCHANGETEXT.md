@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCOUTPUTCHANGETEXT
 description: Purgdocoutputchangetext
+semantic_en: "purchasing document output change — text — provides change descriptions for printing relevant fields in purchasing documents"
+semantic_vi: "thay đổi đầu ra tài liệu mua hàng — văn bản — cung cấp mô tả thay đổi cho các trường in có liên quan"
+keywords:
+  - in tài liệu
+  - thay đổi
+  - mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

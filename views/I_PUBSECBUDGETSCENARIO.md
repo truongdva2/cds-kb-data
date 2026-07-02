@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETSCENARIO
 description: Pubsecbudgetscenario
+semantic_en: "Budget scenario classification — defines budget scenarios for planning and forecasting in public sector organizations."
+semantic_vi: "Phân loại kịch bản ngân sách — xác định các kịch bản ngân sách để lập kế hoạch và dự báo trong các tổ chức khu vực công."
+keywords:
+  - kịch bản ngân sách
+  - danh mục kịch bản
+  - lập kế hoạch ngân sách
 app_component: PSM-FM-BU
 software_component: SAPSCORE
 release_state: released

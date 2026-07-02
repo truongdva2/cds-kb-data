@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGOBJECTCATEGORYTEXT
 description: Purchasingobjectcategorytext
+semantic_en: "Purchasing object category text — localized category names for purchasing objects."
+semantic_vi: "Văn bản danh mục đối tượng mua hàng — tên danh mục được địa phương hóa."
+keywords:
+  - danh mục mua
+  - tên danh mục
 app_component: MM
 software_component: SAPSCORE
 release_state: released

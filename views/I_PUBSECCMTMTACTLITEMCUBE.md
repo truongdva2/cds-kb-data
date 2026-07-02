@@ -1,6 +1,13 @@
 ---
 name: I_PUBSECCMTMTACTLITEMCUBE
 description: Pubseccmtmtactlitemcube
+semantic_en: "Commitment and actual items analytical cube — ledger, financial transaction type, and business transaction mappings for public sector accounting analysis."
+semantic_vi: "Khối phân tích chi tiết cam kết và thực tế — sổ cái, loại giao dịch tài chính, và ánh xạ loại giao dịch kinh doanh cho phân tích kế toán công."
+keywords:
+  - cam kết
+  - chi phí thực tế
+  - phân tích sổ cái
+  - công quốc phòng
 app_component: PSM-FM-IS
 software_component: SAPSCORE
 release_state: released

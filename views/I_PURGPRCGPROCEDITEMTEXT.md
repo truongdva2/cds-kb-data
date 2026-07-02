@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRCGPROCEDITEMTEXT
 description: Purgprcgproceditemtext
+semantic_en: "pricing procedure item in purchasing — text — provides translatable names for pricing procedure steps and condition types"
+semantic_vi: "mục quy trình giá trong mua hàng — văn bản — cung cấp tên có thể dịch cho các bước quy trình giá"
+keywords:
+  - quy trình giá
+  - mục quy trình
+  - ngôn ngữ
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

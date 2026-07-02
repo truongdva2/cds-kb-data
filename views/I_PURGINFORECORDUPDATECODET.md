@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECORDUPDATECODET
 description: Purginforecordupdatecodet
+semantic_en: "information record update code — text — translatable descriptions for info record update codes"
+semantic_vi: "mã cập nhật thông tin mua hàng — văn bản — mô tả có thể dịch cho mã cập nhật"
+keywords:
+  - mã cập nhật
+  - mô tả
+  - thông tin mua
 app_component: MM
 software_component: SAPSCORE
 release_state: released

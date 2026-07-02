@@ -1,6 +1,12 @@
 ---
 name: I_PROJDEMANDMATERIALSUPPLYTP_2
 description: Projdemandmaterialsupplytp 2
+semantic_en: "supply data of material demand TP — relationship between project material demands and purchase requisitions."
+semantic_vi: "Dữ liệu cung cấp nhu cầu vật liệu dự án TP — liên hệ tới yêu cầu mua."
+keywords:
+  - nhu cầu vật liệu
+  - dự án
+  - mua
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

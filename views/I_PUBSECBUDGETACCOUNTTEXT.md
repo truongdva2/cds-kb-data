@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETACCOUNTTEXT
 description: Pubsecbudgetaccounttext
+semantic_en: "Budget account descriptions — multilingual text names and descriptions for budget accounts."
+semantic_vi: "Mô tả tài khoản ngân sách — tên văn bản đa ngôn ngữ và mô tả cho các tài khoản ngân sách."
+keywords:
+  - tên tài khoản ngân sách
+  - mô tả tài khoản
+  - dịch mô tả
 app_component: PSM-FM-MD
 software_component: SAPSCORE
 release_state: released

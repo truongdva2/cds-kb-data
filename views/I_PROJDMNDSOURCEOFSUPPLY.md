@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDSOURCEOFSUPPLY
 description: Projdmndsourceofsupply
+semantic_en: "domain value list — source of supply classification codes for resource assignments to project demands."
+semantic_vi: "danh sách giá trị miền — các mã phân loại nguồn cung cấp cho gán tài nguyên trên nhu cầu dự án."
+keywords:
+  - nguồn cung cấp
+  - gán tài nguyên
+  - phân loại
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

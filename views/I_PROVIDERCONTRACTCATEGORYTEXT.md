@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTCATEGORYTEXT
 description: Providercontractcategorytext
+semantic_en: "Provider contract category descriptions — multilingual text for provider contract category codes."
+semantic_vi: "Mô tả danh mục hợp đồng nhà cung cấp — văn bản đa ngôn ngữ cho mã danh mục hợp đồng nhà cung cấp."
+keywords:
+  - tên danh mục hợp đồng
+  - mô tả danh mục
+  - dịch danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

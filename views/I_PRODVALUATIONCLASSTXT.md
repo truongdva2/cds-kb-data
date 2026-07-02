@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALUATIONCLASSTXT
 description: Prodvaluationclasstxt
+semantic_en: "valuation class text — language-specific descriptions for product valuation classes."
+semantic_vi: "Văn bản lớp định giá — mô tả chi tiết theo ngôn ngữ cho các lớp định giá sản phẩm."
+keywords:
+  - lớp định giá
+  - mô tả
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

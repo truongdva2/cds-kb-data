@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNIVHIERARCHYBASIC
 description: Produnivhierarchybasic
+semantic_en: "product hierarchy directory — master data for universal product hierarchies including validity dates and change history."
+semantic_vi: "Thư mục phân cấp sản phẩm — dữ liệu chính cho các phân cấp sản phẩm phổ quát bao gồm ngày hiệu lực."
+keywords:
+  - phân cấp sản phẩm
+  - thư mục chính
+  - thay đổi
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

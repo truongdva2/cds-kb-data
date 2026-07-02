@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGREQSTATUSTEXT
 description: Projectbillingreqstatustext
+semantic_en: "translated text — billing request status descriptions in multiple languages for projects."
+semantic_vi: "văn bản dịch — mô tả trạng thái yêu cầu hóa đơn cho dự án theo ngôn ngữ."
+keywords:
+  - mô tả trạng thái
+  - yêu cầu hóa đơn
+  - dịch ngôn ngữ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

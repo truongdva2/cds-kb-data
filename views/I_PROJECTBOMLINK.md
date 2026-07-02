@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBOMLINK
 description: Projectbomlink
+semantic_en: "WBS to BOM mapping — links bill of material with variants to work breakdown structure elements."
+semantic_vi: "ánh xạ WBS thành BOM — liên kết hóa đơn vật liệu với biến thể vào yếu tố cấu trúc phân chia công việc."
+keywords:
+  - liên kết BOM
+  - WBS
+  - biến thể
+  - dự án
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

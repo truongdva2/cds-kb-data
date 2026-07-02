@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDITMTRANSPSETTLMT
 description: Purchaseorditmtranspsettlmt
+semantic_en: "Purchase order item transportation settlement — transportation orders and shipment details linked to purchase orders."
+semantic_vi: "Quyết toán vận chuyển mục đơn hàng mua — đơn hàng vận chuyển và chi tiết lô hàng được liên kết."
+keywords:
+  - đơn hàng mua
+  - vận chuyển
+  - quyết toán
 app_component: TM-FRS-2CL
 software_component: SAPSCORE
 release_state: released

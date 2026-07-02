@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONTRACTHISTORYAPI01
 description: Purchase ContractHISTORYAPI 01
+semantic_en: "Purchase contract release order history — purchase contract and release order details with quantities, amounts, and currency conversion data."
+semantic_vi: "Lịch sử đơn hàng phát hành hợp đồng mua — chi tiết hợp đồng mua và đơn hàng phát hành với số lượng, tiền tệ."
+keywords:
+  - hợp đồng mua
+  - lịch sử phát hành
+  - số lượng đơn hàng
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

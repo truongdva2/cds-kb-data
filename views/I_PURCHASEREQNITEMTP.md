@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNITEMTP
 description: Purchase RequisitionNITEMTP
+semantic_en: "Purchase requisition item projection — requisition line details with material, quantities, and account assignment category."
+semantic_vi: "Phát triển mục yêu cầu mua — chi tiết dòng yêu cầu với vật liệu, số lượng, danh mục phân bổ."
+keywords:
+  - yêu cầu mua
+  - mục mục
+  - vật liệu
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PROJSRVCORG
 description: Projsrvcorg
+semantic_en: "Project service organization master data — defines service organizations providing project services with controlling, sales, and supply chain integration."
+semantic_vi: "Dữ liệu chính tổ chức dịch vụ dự án — xác định các tổ chức dịch vụ cung cấp dịch vụ dự án với tích hợp kiểm soát, bán hàng và chuỗi cung ứng."
+keywords:
+  - tổ chức dịch vụ dự án
+  - tổ chức thực hiện
+  - cấu hình dịch vụ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

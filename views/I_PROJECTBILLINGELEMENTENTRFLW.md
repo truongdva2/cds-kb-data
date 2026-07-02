@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGELEMENTENTRFLW
 description: Projectbillingelemententrflw
+semantic_en: "project billing element entry flow — transactional link between billing documents and project billing elements including service expense codes and currencies"
+semantic_vi: "luồng nhập liệu hạng mục lập hóa đơn dự án — liên kết giao dịch giữa chứng từ hóa đơn và hạng mục lập hóa đơn dự án bao gồm mã chi phí dịch vụ và tiền tệ"
+keywords:
+  - hạng mục lập hóa đơn dự án
+  - luồng nhập liệu
+  - chứng từ hóa đơn dự án
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

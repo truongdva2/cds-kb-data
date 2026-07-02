@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCUMENTITEMCATEGORY
 description: Purgdocumentitemcategory
+semantic_en: "item category for purchasing document — defines item categories and their goods receipt and invoice expectations"
+semantic_vi: "danh mục mục cho tài liệu mua hàng — xác định danh mục mục và kỳ vọng nhận hàng và hóa đơn"
+keywords:
+  - danh mục mục
+  - nhận hàng
+  - hóa đơn
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATTRANSLATIONSTSAPI01
 description: Purgcattranslationstsapi 01
+semantic_en: "translation status of purchasing category — tracks the multilingual translation completion status for purchasing categories"
+semantic_vi: "trạng thái dịch của danh mục mua hàng — theo dõi trạng thái hoàn thành dịch đa ngôn ngữ"
+keywords:
+  - dịch
+  - ngôn ngữ
+  - danh mục mua
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

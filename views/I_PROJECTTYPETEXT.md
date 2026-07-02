@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTTYPETEXT
 description: Projecttypetext
+semantic_en: "Project type descriptions — multilingual text labels for project type codes."
+semantic_vi: "Mô tả loại dự án — nhãn văn bản đa ngôn ngữ cho mã loại dự án."
+keywords:
+  - tên loại dự án
+  - dịch loại dự án
+  - ngôn ngữ
 app_component: PPM-SCL-STR
 software_component: SAPSCORE
 release_state: released

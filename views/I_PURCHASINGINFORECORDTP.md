@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASINGINFORECORDTP
 description: Purchasinginforecordtp
+semantic_en: "Purchasing information record projection — supplier product information with pricing and ordering details."
+semantic_vi: "Phát triển bản ghi thông tin mua hàng — thông tin sản phẩm nhà cung cấp với giá và chi tiết đặt hàng."
+keywords:
+  - bản ghi thông tin mua
+  - nhà cung cấp
+  - sản phẩm
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released

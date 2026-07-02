@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTEXT
 description: Profit CenterTEXT
+semantic_en: "profit center text — language-specific names and descriptions for profit centers."
+semantic_vi: "Văn bản trung tâm lợi nhuận — tên và mô tả chi tiết theo ngôn ngữ."
+keywords:
+  - trung tâm lợi nhuận
+  - văn bản
+  - ngôn ngữ
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

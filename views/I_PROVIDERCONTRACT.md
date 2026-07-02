@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACT
 description: Providercontract
+semantic_en: "Provider contract master — stores contracts with external provider entities including dates, authorization, and reference information."
+semantic_vi: "Hợp đồng nhà cung cấp chính — lưu trữ các hợp đồng với các đơn vị nhà cung cấp bên ngoài bao gồm ngày tháng, ủy quyền và thông tin tham chiếu."
+keywords:
+  - hợp đồng nhà cung cấp
+  - quản lý hợp đồng
+  - đối tác cung cấp
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

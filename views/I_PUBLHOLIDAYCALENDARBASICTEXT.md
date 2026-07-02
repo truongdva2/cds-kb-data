@@ -1,6 +1,12 @@
 ---
 name: I_PUBLHOLIDAYCALENDARBASICTEXT
 description: Publholidaycalendarbasictext
+semantic_en: "Holiday calendar multilingual descriptions — stores translated descriptions of public holiday calendars."
+semantic_vi: "Mô tả đa ngôn ngữ lịch ngày lễ công cộng — lưu trữ các mô tả dịch của lịch ngày lễ công cộng."
+keywords:
+  - mô tả lịch lễ
+  - dịch lịch lễ
+  - ngôn ngữ
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

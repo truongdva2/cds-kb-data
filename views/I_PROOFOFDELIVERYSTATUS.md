@@ -1,6 +1,12 @@
 ---
 name: I_PROOFOFDELIVERYSTATUS
 description: Proofofdeliverystatus
+semantic_en: "Proof of delivery status codes — classifies delivery item status for proof of delivery processing."
+semantic_vi: "Mã trạng thái chứng minh giao hàng — phân loại trạng thái mục giao hàng để xử lý chứng minh giao hàng."
+keywords:
+  - trạng thái chứng minh giao hàng
+  - trạng thái giao hàng
+  - mục giao hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMANDTP_2
 description: Projectdemandtp 2
+semantic_en: "project demand projection — demand data with category, type, status, and date references for projects."
+semantic_vi: "phép chiếu nhu cầu dự án — dữ liệu nhu cầu với danh mục, loại, trạng thái và tham chiếu ngày tháng cho dự án."
+keywords:
+  - phép chiếu nhu cầu
+  - danh mục
+  - trạng thái
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

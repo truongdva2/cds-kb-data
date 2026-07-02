@@ -1,6 +1,12 @@
 ---
 name: I_PURGPRICINGPROCEDUREITEM
 description: Purgpricingprocedureitem
+semantic_en: "pricing procedure item in purchasing — defines individual steps and condition types within a pricing procedure"
+semantic_vi: "mục quy trình giá trong mua hàng — xác định từng bước và loại điều kiện trong quy trình giá"
+keywords:
+  - bước quy trình
+  - điều kiện giá
+  - tính giá
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

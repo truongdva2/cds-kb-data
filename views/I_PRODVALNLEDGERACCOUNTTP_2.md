@@ -1,6 +1,12 @@
 ---
 name: I_PRODVALNLEDGERACCOUNTTP_2
 description: Prodvalnledgeraccounttp 2
+semantic_en: "product valuation ledger account TP — product inventory costs by valuation area, type, and ledger with price control."
+semantic_vi: "Tài khoản sổ cái định giá sản phẩm TP — chi phí tồn kho sản phẩm theo vùng định giá."
+keywords:
+  - định giá sản phẩm
+  - tài khoản sổ cái
+  - giá
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

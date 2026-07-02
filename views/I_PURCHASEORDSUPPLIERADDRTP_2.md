@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDSUPPLIERADDRTP_2
 description: Purchaseordsupplieraddrtp 2
+semantic_en: "Purchase order supplier address projection — address and contact information for suppliers in purchase orders."
+semantic_vi: "Phát triển địa chỉ nhà cung cấp đơn hàng mua — thông tin địa chỉ và liên hệ của nhà cung cấp."
+keywords:
+  - đơn hàng mua
+  - địa chỉ nhà cung cấp
+  - liên hệ
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

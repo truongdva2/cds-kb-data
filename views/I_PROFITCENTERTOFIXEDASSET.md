@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERTOFIXEDASSET
 description: Profit CenterTOFixed Asset
+semantic_en: "assignment of profit center to fixed asset — relationship between profit centers and fixed assets with source tracking."
+semantic_vi: "Gán trung tâm lợi nhuận cho tài sản cố định — mối quan hệ giữa trung tâm lợi nhuận."
+keywords:
+  - tài sản cố định
+  - gán trung tâm
+  - lợi nhuận
 app_component: FI-GL-OC-2CL
 software_component: SAPSCORE
 release_state: released

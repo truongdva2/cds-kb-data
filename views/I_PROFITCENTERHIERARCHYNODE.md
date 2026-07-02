@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERHIERARCHYNODE
 description: Profit CenterHIERARCHYNODE
+semantic_en: "profit center hierarchy node — individual nodes within cost center hierarchies with parent relationships and sequencing."
+semantic_vi: "Nút phân cấp trung tâm lợi nhuận — các nút riêng lẻ trong phân cấp với quan hệ cha con."
+keywords:
+  - nút phân cấp
+  - trung tâm lợi nhuận
+  - trình tự
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

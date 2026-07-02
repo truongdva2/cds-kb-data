@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDSCHEDULELINETP_2
 description: PURCHASEORDSchedule LineTP 2
+semantic_en: "Purchase order schedule line projection — delivery schedules, quantities, and batch information for purchase order line items."
+semantic_vi: "Phát triển dòng lịch biểu đơn hàng mua — lịch trình giao hàng, số lượng, thông tin lô."
+keywords:
+  - đơn hàng mua
+  - lịch biểu giao hàng
+  - lô hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

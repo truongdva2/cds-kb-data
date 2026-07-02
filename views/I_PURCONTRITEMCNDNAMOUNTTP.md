@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRITEMCNDNAMOUNTTP
 description: Purcontritemcndnamounttp
+semantic_en: "purchase contract item condition amount — defines pricing terms and condition records for contract line items with amounts and rates"
+semantic_vi: "điều kiện giá cho mục hợp đồng mua — xác định điều khoản giá và bản ghi điều kiện với các khoản tiền và tỷ lệ"
+keywords:
+  - điều kiện giá
+  - tỷ lệ giá
+  - khoản tiền
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

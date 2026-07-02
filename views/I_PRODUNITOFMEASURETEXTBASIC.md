@@ -1,6 +1,12 @@
 ---
 name: I_PRODUNITOFMEASURETEXTBASIC
 description: PRODUnit of MeasureTEXTBASIC
+semantic_en: "product unit of measure text — language-specific descriptions and short text codes for product measurement units."
+semantic_vi: "Mô tả đơn vị tính của sản phẩm — thông tin chi tiết về mã ngôn ngữ, mã tóm tắt và mô tả sản phẩm theo từng đơn vị tính."
+keywords:
+  - đơn vị tính sản phẩm
+  - mô tả đơn vị tính
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

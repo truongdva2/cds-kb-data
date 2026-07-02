@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMANDRESOURCEREQUEST
 description: Projectdemandresourcerequest
+semantic_en: "resource request records — staffing requests for resource demands with staffing instructions."
+semantic_vi: "bản ghi yêu cầu tài nguyên — yêu cầu biên chế cho nhu cầu tài nguyên với hướng dẫn biên chế."
+keywords:
+  - yêu cầu tài nguyên
+  - biên chế
+  - hướng dẫn
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

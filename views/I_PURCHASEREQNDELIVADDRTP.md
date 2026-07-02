@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNDELIVADDRTP
 description: Purchase RequisitionNDELIVADDRTP
+semantic_en: "Purchase requisition delivery address projection — delivery destination and address details for requisition items."
+semantic_vi: "Phát triển địa chỉ giao hàng yêu cầu mua — đích giao hàng và chi tiết địa chỉ cho mục yêu cầu."
+keywords:
+  - yêu cầu mua
+  - giao hàng
+  - địa chỉ
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

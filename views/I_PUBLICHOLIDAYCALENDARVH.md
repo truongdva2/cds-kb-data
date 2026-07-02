@@ -1,6 +1,12 @@
 ---
 name: I_PUBLICHOLIDAYCALENDARVH
 description: Publicholidaycalendarvh
+semantic_en: "Holiday calendar value help — provides value assistance for selecting public holiday calendars."
+semantic_vi: "Trợ giúp giá trị lịch ngày lễ — cung cấp hỗ trợ giá trị để chọn lịch ngày lễ công cộng."
+keywords:
+  - lựa chọn lịch lễ
+  - danh sách lịch lễ
+  - trợ giúp lịch
 app_component: BC-SRV-ASF-CAL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBUDGETCNSMPNTYPEGROUP
 description: Pubsecbudgetcnsmpntypegroup
+semantic_en: "Budget consumption type group — groups budget consumption types for organizational and reporting purposes."
+semantic_vi: "Nhóm loại tiêu thụ ngân sách — nhóm các loại tiêu thụ ngân sách cho các mục đích tổ chức và báo cáo."
+keywords:
+  - nhóm tiêu thụ ngân sách
+  - phân nhóm loại
+  - tổ chức tiêu thụ
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

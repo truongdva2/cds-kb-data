@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTBILLINGREQUESTITEM
 description: Projectbillingrequestitem
+semantic_en: "billing request items — line items with postponed and written-off amounts by currency for billing requests."
+semantic_vi: "mục yêu cầu hóa đơn — mục dòng với khoản hoãn và ghi sổ theo đơn vị tiền tệ cho yêu cầu hóa đơn."
+keywords:
+  - mục hóa đơn
+  - hoãn
+  - ghi sổ
+  - kỳ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

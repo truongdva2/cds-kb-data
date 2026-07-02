@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDORGPLNTDATAAPI01
 description: Purginforecdorgplntdataapi 01
+semantic_en: "organization plant data for purchasing information record — tracks purchasing parameters like minimum order quantity and delivery times by org and plant"
+semantic_vi: "dữ liệu tổ chức nhà máy cho thông tin mua hàng — theo dõi các tham số mua hàng như số lượng đặt hàng tối thiểu"
+keywords:
+  - thông tin mua hàng
+  - nhà máy
+  - số lượng đặt hàng
 app_component: MM-PUR-SQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PRODWHSEROTATIONDATETYPEVH
 description: Prodwhserotationdatetypevh
+semantic_en: "product warehouse rotation date type value help — reference data for warehouse stock removal strategies (FIFO, LIFO, etc.)."
+semantic_vi: "Trợ giúp giá trị loại ngày xoay vòng kho — dữ liệu tham chiếu cho chiến lược loại bỏ hàng tồn."
+keywords:
+  - chiến lược loại bỏ
+  - xoay vòng kho
+  - FIFO
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

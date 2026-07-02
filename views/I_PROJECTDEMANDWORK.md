@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTDEMANDWORK
 description: Projectdemandwork
+semantic_en: "Project resource demand work assignments — tracks demand assignments to activities, cost centers, and resource allocation status."
+semantic_vi: "Gán công việc yêu cầu tài nguyên dự án — theo dõi các gán yêu cầu cho hoạt động, trung tâm chi phí và trạng thái cấp phát tài nguyên."
+keywords:
+  - gán công việc dự án
+  - trạng thái gán yêu cầu
+  - hoạt động tài nguyên
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_PROJECTDEMANDSERVICE
 description: Projectdemandservice
+semantic_en: "service demand records — services requested for project demands with supplier and purchase data."
+semantic_vi: "bản ghi nhu cầu dịch vụ — dịch vụ yêu cầu cho nhu cầu dự án với dữ liệu nhà cung cấp và mua hàng."
+keywords:
+  - nhu cầu dịch vụ
+  - nhà cung cấp
+  - mua hàng
+  - dự án
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

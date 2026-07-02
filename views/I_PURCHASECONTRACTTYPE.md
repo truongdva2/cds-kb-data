@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONTRACTTYPE
 description: Purchase ContractTYPE
+semantic_en: "Purchase contract type enumeration — valid types for purchase contracts in procurement."
+semantic_vi: "Liệt kê loại hợp đồng mua — các loại hợp lệ cho hợp đồng mua trong mua hàng."
+keywords:
+  - hợp đồng mua
+  - loại hợp đồng
+  - mua hàng
 app_component: MM-PUR-OA-CON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_PURCHASINGCATEGORYVALUEHELP
 description: Purchasingcategoryvaluehelp
+semantic_en: "Purchasing category value help — names and descriptions for purchasing categories used in commodity/category coding."
+semantic_vi: "Trợ giúp giá trị danh mục mua hàng — tên và mô tả cho danh mục mua hàng."
+keywords:
+  - danh mục mua
+  - giá trị trợ giúp
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

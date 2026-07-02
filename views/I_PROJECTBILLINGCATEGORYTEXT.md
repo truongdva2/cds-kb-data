@@ -1,6 +1,12 @@
 ---
 name: I_PROJECTBILLINGCATEGORYTEXT
 description: Projectbillingcategorytext
+semantic_en: "translated text — billing category descriptions in multiple languages for projects."
+semantic_vi: "văn bản dịch — mô tả danh mục hóa đơn cho dự án theo ngôn ngữ."
+keywords:
+  - mô tả danh mục
+  - hóa đơn
+  - dịch ngôn ngữ
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRITEMCNDNVALDTYTP
 description: Purcontritemcndnvaldtytp
+semantic_en: "purchase contract item condition validity — tracks validity dates and application status of pricing conditions for contract items"
+semantic_vi: "hiệu lực điều kiện mục hợp đồng mua — theo dõi ngày hiệu lực và trạng thái áp dụng điều kiện giá"
+keywords:
+  - ngày hiệu lực
+  - điều kiện giá
+  - trạng thái
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

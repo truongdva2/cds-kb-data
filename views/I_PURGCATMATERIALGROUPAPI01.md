@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATMATERIALGROUPAPI01
 description: PURGCATMaterial GroupAPI 01
+semantic_en: "material group for purchasing category — links material groups to purchasing categories for spend analysis"
+semantic_vi: "nhóm vật tư cho danh mục mua hàng — liên kết nhóm vật tư với danh mục mua hàng"
+keywords:
+  - nhóm vật tư
+  - danh mục mua
+  - vật tư
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

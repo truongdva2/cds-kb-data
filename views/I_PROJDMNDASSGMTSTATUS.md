@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDASSGMTSTATUS
 description: Projdmndassgmtstatus
+semantic_en: "domain value list — assignment status codes for project demands."
+semantic_vi: "danh sách giá trị miền — các mã trạng thái gán cho nhu cầu dự án."
+keywords:
+  - trạng thái gán dự án
+  - nhu cầu dự án
+  - mã trạng thái
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

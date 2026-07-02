@@ -1,6 +1,12 @@
 ---
 name: I_PROFITCENTERVH
 description: Profit CenterVH
+semantic_en: "profit center value help — searchable list of profit centers with standard hierarchy and responsible person information."
+semantic_vi: "Trợ giúp giá trị trung tâm lợi nhuận — danh sách có thể tìm kiếm tất cả trung tâm lợi nhuận."
+keywords:
+  - trung tâm lợi nhuận
+  - tìm kiếm
+  - phân cấp
 app_component: EC-PCA-MD-2CL
 software_component: SAPSCORE
 release_state: released

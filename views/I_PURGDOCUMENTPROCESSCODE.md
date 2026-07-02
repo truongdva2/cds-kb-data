@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCUMENTPROCESSCODE
 description: Purgdocumentprocesscode
+semantic_en: "purchasing document process code — domain values for process codes controlling document workflow and processing logic"
+semantic_vi: "mã quy trình tài liệu mua hàng — giá trị miền cho mã quy trình kiểm soát quy trình tài liệu"
+keywords:
+  - mã quy trình
+  - quy trình
+  - kiểm soát
 app_component: MM
 software_component: SAPSCORE
 release_state: released

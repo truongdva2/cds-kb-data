@@ -1,6 +1,12 @@
 ---
 name: I_PROJDMNDLASTUPDTSOURCETXT
 description: Projdmndlastupdtsourcetxt
+semantic_en: "translated text — update source descriptions in multiple languages for project demands."
+semantic_vi: "văn bản dịch — mô tả nguồn cập nhật cho nhu cầu dự án theo ngôn ngữ."
+keywords:
+  - mô tả nguồn
+  - dịch ngôn ngữ
+  - cập nhật
 app_component: PPM-SCL-DMN
 software_component: SAPSCORE
 release_state: released

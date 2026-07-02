@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEORDERCHANGEDOCUMENT
 description: Purchase OrderCHANGEDOCUMENT
+semantic_en: "Purchase order change document history — audit trail of purchase order changes with creator and timestamp information."
+semantic_vi: "Lịch sử tài liệu thay đổi đơn hàng mua — hành động kiểm toán thay đổi đơn hàng với thông tin người tạo."
+keywords:
+  - đơn hàng mua
+  - thay đổi
+  - lịch sử
 app_component: MM
 software_component: SAPSCORE
 release_state: released

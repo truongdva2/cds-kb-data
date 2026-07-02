@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONTRACTTP
 description: Purchase ContractTP
+semantic_en: "Purchase contract header projection — contract master data with type, supplier, company, currency, and payment terms."
+semantic_vi: "Phát triển tiêu đề hợp đồng mua — dữ liệu chính hợp đồng với loại, nhà cung cấp, công ty, tiền tệ, điều khoản thanh toán."
+keywords:
+  - hợp đồng mua
+  - nhà cung cấp
+  - tiêu đề hợp đồng
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

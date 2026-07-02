@@ -1,6 +1,12 @@
 ---
 name: I_PURGCATSUPPLIERAPI01
 description: Purgcatsupplierapi 01
+semantic_en: "supplier referenced by purchasing category — links suppliers to purchasing categories for contract and spend management"
+semantic_vi: "nhà cung cấp được tham chiếu bởi danh mục mua hàng — liên kết nhà cung cấp với danh mục mua hàng"
+keywords:
+  - nhà cung cấp
+  - danh mục mua
+  - hợp đồng
 app_component: SLC-CAT-2CL
 software_component: SAPSCORE
 release_state: released

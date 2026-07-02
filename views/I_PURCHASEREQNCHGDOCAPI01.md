@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASEREQNCHGDOCAPI01
 description: Purchase RequisitionNCHGDOCAPI 01
+semantic_en: "Purchase requisition change document — audit trail capturing all requisition header changes with user and timestamp."
+semantic_vi: "Tài liệu thay đổi yêu cầu mua — hành động kiểm toán ghi lại tất cả thay đổi tiêu đề yêu cầu."
+keywords:
+  - yêu cầu mua
+  - thay đổi
+  - lịch sử
 app_component: MM-PUR-REQ-2CL
 software_component: SAPSCORE
 release_state: released

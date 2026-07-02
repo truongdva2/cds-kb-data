@@ -1,6 +1,12 @@
 ---
 name: I_PURCHASECONFIRMATIONSTATUS
 description: Purchaseconfirmationstatus
+semantic_en: "Purchase confirmation status domain values — enumeration of possible statuses for supplier purchase confirmations."
+semantic_vi: "Giá trị miền trạng thái xác nhận mua hàng — danh sách các trạng thái khả dụng cho xác nhận mua từ nhà cung cấp."
+keywords:
+  - xác nhận mua
+  - trạng thái
+  - nhà cung cấp
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

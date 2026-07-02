@@ -1,6 +1,12 @@
 ---
 name: I_PURGDOCUMENTPROCESSCODETEXT
 description: Purgdocumentprocesscodetext
+semantic_en: "purchasing document process code — text — translatable descriptions for document process codes"
+semantic_vi: "mã quy trình tài liệu mua hàng — văn bản — mô tả có thể dịch cho mã quy trình"
+keywords:
+  - mã quy trình
+  - mô tả
+  - ngôn ngữ
 app_component: MM
 software_component: SAPSCORE
 release_state: released

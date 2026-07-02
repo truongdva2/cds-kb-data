@@ -1,6 +1,12 @@
 ---
 name: I_PURCONTRADDRESSTP
 description: Purcontraddresstp
+semantic_en: "purchase contract delivery address — captures shipping and correspondence address details for contract items"
+semantic_vi: "địa chỉ giao hàng hợp đồng mua — lưu trữ thông tin địa chỉ giao hàng và liên lạc cho các mục hợp đồng"
+keywords:
+  - địa chỉ giao hàng
+  - thông tin liên lạc
+  - hộp thư
 app_component: MM-PUR-OA-2CL
 software_component: SAPSCORE
 release_state: released

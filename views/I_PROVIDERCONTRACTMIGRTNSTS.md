@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTMIGRTNSTS
 description: Providercontractmigrtnsts
+semantic_en: "Provider contract migration status — tracks the migration status of provider contracts during system transitions."
+semantic_vi: "Trạng thái di chuyển hợp đồng nhà cung cấp — theo dõi trạng thái di chuyển của các hợp đồng nhà cung cấp trong quá trình chuyển tiếp hệ thống."
+keywords:
+  - trạng thái di chuyển hợp đồng
+  - quá trình di chuyển
+  - hợp đồng cung cấp
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

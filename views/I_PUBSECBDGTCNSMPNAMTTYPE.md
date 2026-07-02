@@ -1,6 +1,12 @@
 ---
 name: I_PUBSECBDGTCNSMPNAMTTYPE
 description: Pubsecbdgtcnsmpnamttype
+semantic_en: "Budget consumption amount type — defines how budget amounts are consumed and tracked in public sector budget management."
+semantic_vi: "Loại số tiền tiêu thụ ngân sách — xác định cách tiêu thụ và theo dõi số tiền ngân sách trong quản lý ngân sách khu vực công."
+keywords:
+  - loại tiêu thụ ngân sách
+  - số tiền tiêu thụ
+  - quản lý ngân sách
 app_component: PSM-FM-UP
 software_component: SAPSCORE
 release_state: released

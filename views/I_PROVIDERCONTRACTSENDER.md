@@ -1,6 +1,12 @@
 ---
 name: I_PROVIDERCONTRACTSENDER
 description: Providercontractsender
+semantic_en: "Provider contract sender configuration — defines entities that send provider contracts with internal and external number range intervals."
+semantic_vi: "Cấu hình người gửi hợp đồng nhà cung cấp — xác định các đơn vị gửi hợp đồng nhà cung cấp với khoảng số phạm vi nội bộ và bên ngoài."
+keywords:
+  - người gửi hợp đồng
+  - cấu hình gửi
+  - phạm vi số
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

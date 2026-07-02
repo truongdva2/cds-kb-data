@@ -1,6 +1,12 @@
 ---
 name: I_PURGINFORECDORGPLNTDATATP
 description: Purginforecdorgplntdatatp
+semantic_en: "purchasing information record organization plant data — tracks purchasing data by organization and plant for info records"
+semantic_vi: "dữ liệu tổ chức nhà máy thông tin mua hàng — theo dõi dữ liệu mua hàng theo tổ chức và nhà máy"
+keywords:
+  - thông tin mua hàng
+  - tổ chức
+  - nhà máy
 app_component: MM-PUR-VM-REC-2CL
 software_component: SAPSCORE
 release_state: released
