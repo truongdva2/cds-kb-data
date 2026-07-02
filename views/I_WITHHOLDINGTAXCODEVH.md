@@ -1,6 +1,12 @@
 ---
 name: I_WITHHOLDINGTAXCODEVH
 description: Withholdingtaxcodevh
+semantic_en: "extended withholding tax codes – providing value help with detailed tax withholding rules and calculation formulas."
+semantic_vi: "mã thuế khóa mở rộng – cung cấp trợ giúp giá trị với quy tắc khóa thuế chi tiết và công thức tính toán."
+keywords:
+  - thuế khóa
+  - mã mở rộng
+  - công thức
 app_component: FI-AP-AP-Q-2CL
 software_component: SAPSCORE
 release_state: released

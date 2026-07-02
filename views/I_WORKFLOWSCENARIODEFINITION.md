@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSCENARIODEFINITION
 description: Workflowscenariodefinition
+semantic_en: "workflow scenario definition - defines the master workflow template with scenario identifier and related parameters."
+semantic_vi: "định nghĩa kịch bản quy trình công việc - định nghĩa mẫu quy trình công việc chính với định danh kịch bản và các tham số liên quan."
+keywords:
+  - quy trình công việc
+  - kịch bản
+  - mẫu
+  - định nghĩa
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

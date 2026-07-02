@@ -1,6 +1,12 @@
 ---
 name: I_VOLATILITYTYPETEXT
 description: Volatilitytypetext
+semantic_en: "volatility type text translations – providing multilingual descriptions for volatility types."
+semantic_vi: "bản dịch văn bản loại biến động – cung cấp mô tả đa ngôn ngữ cho các loại biến động."
+keywords:
+  - biến động
+  - bản dịch
+  - loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

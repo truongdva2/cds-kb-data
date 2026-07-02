@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFTBLVLASGTALTVITMTP
 description: Varcnftblvlasgtaltvitmtp
+semantic_en: "variant configuration table value assignment alternative items – listing characteristics within alternative value assignments."
+semantic_vi: "mục thay thế phân công giá trị bảng cấu hình biến thể – liệt kê đặc tính trong phân công giá trị thay thế."
+keywords:
+  - đặc tính
+  - giá trị bảng
+  - cấu hình
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

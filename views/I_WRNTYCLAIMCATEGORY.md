@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMCATEGORY
 description: Wrntyclaimcategory
+semantic_en: "warranty claim category — category classification for warranty claims"
+semantic_vi: "phân loại yêu cầu bảo hành theo danh mục"
+keywords:
+  - danh mục bảo hành
+  - phân loại yêu cầu
+  - loại bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

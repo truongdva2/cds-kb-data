@@ -1,6 +1,12 @@
 ---
 name: I_VOLATILITYTYPE
 description: Volatilitytype
+semantic_en: "volatility types – defining market data volatility type classifications."
+semantic_vi: "loại biến động – xác định phân loại loại biến động dữ liệu thị trường."
+keywords:
+  - biến động
+  - loại
+  - thị trường
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

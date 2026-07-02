@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCOSTCENTER
 description: Work CenterCost Center
+semantic_en: "work center cost center - links work centers to cost centers and activity types with controlling area and validity periods for cost accounting."
+semantic_vi: "trung tâm chi phí trung tâm công việc - liên kết trung tâm công việc với trung tâm chi phí và loại hoạt động với khu vực kiểm soát và kỳ hiệu lực cho kế toán chi phí."
+keywords:
+  - trung tâm chi phí
+  - trung tâm công việc
+  - loại hoạt động
+  - kế toán chi phí
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

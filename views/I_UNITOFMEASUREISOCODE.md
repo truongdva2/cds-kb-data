@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASUREISOCODE
 description: Unit of MeasureISOCODE
+semantic_en: "ISO standardized codes for units of measure — provides international unit codes for global commerce"
+semantic_vi: "mã được tiêu chuẩn hóa ISO cho các đơn vị đo — cung cấp mã đơn vị quốc tế cho thương mại toàn cầu"
+keywords:
+  - mã ISO
+  - tiêu chuẩn quốc tế
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

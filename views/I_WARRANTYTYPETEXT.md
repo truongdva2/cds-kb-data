@@ -1,6 +1,12 @@
 ---
 name: I_WARRANTYTYPETEXT
 description: Warrantytypetext
+semantic_en: "warranty type text translations – providing multilingual names for warranty types."
+semantic_vi: "bản dịch văn bản loại bảo hành – cung cấp tên đa ngôn ngữ cho các loại bảo hành."
+keywords:
+  - bảo hành
+  - bản dịch
+  - loại
 app_component: PM-EQM-SF-WA-2CL
 software_component: SAPSCORE
 release_state: released

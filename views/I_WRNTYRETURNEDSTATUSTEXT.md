@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYRETURNEDSTATUSTEXT
 description: Wrntyreturnedstatustext
+semantic_en: "warranty returned status text — localized descriptions of parts return status codes"
+semantic_vi: "mô tả trạng thái trả hàng bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả trạng thái trả hàng
+  - text trả hàng
+  - trạng thái nhà cung cấp
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

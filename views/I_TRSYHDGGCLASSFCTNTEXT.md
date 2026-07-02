@@ -1,6 +1,12 @@
 ---
 name: I_TRSYHDGGCLASSFCTNTEXT
 description: Trsyhdggclassfctntext
+semantic_en: "treasury hedging classification text — language-dependent descriptions of hedge accounting classifications"
+semantic_vi: "văn bản phân loại phòng hộ kho bạc — mô tả phân loại kế toán phòng hộ theo ngôn ngữ"
+keywords:
+  - phân loại phòng hộ
+  - kế toán phòng hộ
+  - tên phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

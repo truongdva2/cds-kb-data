@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLIMITPRODUCTGRPTEXT
 description: Trsyctptylimitproductgrptext
+semantic_en: "treasury counterparty limit product group text — language-dependent names for limit product groups"
+semantic_vi: "văn bản nhóm sản phẩm giới hạn đối tác kho bạc — tên nhóm sản phẩm giới hạn theo ngôn ngữ"
+keywords:
+  - tên nhóm sản phẩm
+  - ngôn ngữ giới hạn
+  - mô tả sản phẩm
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

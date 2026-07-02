@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFOBJDPNDCYTEXTTP
 description: Varcnfobjdpndcytexttp
+semantic_en: "variant configuration object dependency text translations – storing multilingual descriptions for dependency names."
+semantic_vi: "bản dịch văn bản phụ thuộc đối tượng cấu hình biến thể – lưu trữ mô tả đa ngôn ngữ cho tên phụ thuộc."
+keywords:
+  - phụ thuộc
+  - bản dịch
+  - cấu hình biến thể
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

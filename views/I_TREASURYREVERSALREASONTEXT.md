@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREVERSALREASONTEXT
 description: Treasuryreversalreasontext
+semantic_en: "treasury reversal reason text — language-dependent descriptions of reversal reasons"
+semantic_vi: "văn bản lý do đảo ngược kho bạc — mô tả lý do đảo ngược theo ngôn ngữ"
+keywords:
+  - tên lý do đảo ngược
+  - ngôn ngữ lý do
+  - mô tả đảo ngược
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

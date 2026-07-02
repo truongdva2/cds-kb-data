@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWAGENTRULETEXT
 description: Workflowagentruletext
+semantic_en: "workflow agent rule text - multilingual descriptions of workflow agent rules for workflow task assignment."
+semantic_vi: "văn bản quy tắc tác nhân quy trình công việc - mô tả đa ngôn ngữ của quy tắc tác nhân quy trình công việc để gán nhiệm vụ quy trình công việc."
+keywords:
+  - quy trình công việc
+  - quy tắc tác nhân
+  - mô tả
+  - ngôn ngữ
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

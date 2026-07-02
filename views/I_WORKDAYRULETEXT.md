@@ -1,6 +1,12 @@
 ---
 name: I_WORKDAYRULETEXT
 description: Workdayruletext
+semantic_en: "work day rule text - multilingual descriptions of work day rule codes for user interface localization."
+semantic_vi: "văn bản quy tắc ngày làm việc - mô tả đa ngôn ngữ của mã quy tắc ngày làm việc để bản địa hóa giao diện người dùng."
+keywords:
+  - quy tắc ngày làm việc
+  - tên quy tắc
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

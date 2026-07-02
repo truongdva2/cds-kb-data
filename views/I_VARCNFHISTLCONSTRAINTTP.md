@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFHISTLCONSTRAINTTP
 description: Varcnfhistlconstrainttp
+semantic_en: "historical variable configuration constraints with temporal and change metadata — tracks constraint modifications across time periods"
+semantic_vi: "các ràng buộc cấu hình có thể thay đổi lịch sử có siêu dữ liệu thời gian và thay đổi — theo dõi các sửa đổi ràng buộc trong các kỳ thời gian"
+keywords:
+  - lịch sử ràng buộc cấu hình
+  - theo dõi kiểm toán
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

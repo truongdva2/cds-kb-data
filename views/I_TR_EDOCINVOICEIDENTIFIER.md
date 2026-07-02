@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCINVOICEIDENTIFIER
 description: TR Edocinvoiceidentifier
+semantic_en: "eDocument Turkey invoice identifiers — Turkish outgoing e-invoice metadata with envelope IDs, amounts, and cancellation tracking"
+semantic_vi: "mã định danh hóa đơn eDocument Thổ Nhĩ Kỳ — siêu dữ liệu hóa đơn điện tử gửi đi Thổ Nhĩ Kỳ kèm ID phong bì, số tiền và theo dõi hủy bỏ"
+keywords:
+  - mã định danh hóa đơn
+  - hóa đơn điện tử
+  - eDocument Thổ Nhĩ Kỳ
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

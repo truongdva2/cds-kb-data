@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASURETEXT
 description: Unit of MeasureTEXT
+semantic_en: "multilingual labels for units of measure including technical and commercial names — provides all naming variations for measure units"
+semantic_vi: "nhãn đa ngôn ngữ cho các đơn vị đo bao gồm tên kỹ thuật và thương mại — cung cấp tất cả các biến thể đặt tên cho đơn vị đo"
+keywords:
+  - tên đơn vị đo
+  - dữ liệu đa ngôn ngữ
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

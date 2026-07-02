@@ -1,6 +1,12 @@
 ---
 name: I_VERTICALCONSUMPTIONDIRECTION
 description: Verticalconsumptiondirection
+semantic_en: "vertical consumption directions – defining consumption flow directions in multi-level manufacturing processes."
+semantic_vi: "hướng tiêu thụ dọc – xác định hướng dòng tiêu thụ trong quy trình sản xuất đa cấp."
+keywords:
+  - tiêu thụ
+  - hướng
+  - sản xuất
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

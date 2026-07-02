@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCSHFLOWDEBTINVMTCODET
 description: Trsycshflowdebtinvmtcodet
+semantic_en: "debt investment indicator text — language-dependent descriptions of debt/investment classification codes"
+semantic_vi: "văn bản chỉ báo nợ đầu tư — mô tả mã phân loại nợ/đầu tư theo ngôn ngữ"
+keywords:
+  - tên chỉ báo nợ
+  - ngôn ngữ phân loại
+  - mô tả đầu tư
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

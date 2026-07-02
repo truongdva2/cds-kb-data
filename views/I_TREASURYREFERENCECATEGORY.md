@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREFERENCECATEGORY
 description: Treasuryreferencecategory
+semantic_en: "treasury reference category — lookup values for categorizing treasury references"
+semantic_vi: "danh mục tham chiếu kho bạc — giá trị tra cứu để phân loại các tham chiếu kho bạc"
+keywords:
+  - danh mục tham chiếu
+  - phân loại kho bạc
+  - loại tham chiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

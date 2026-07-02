@@ -1,6 +1,12 @@
 ---
 name: I_VRTCONSUMPTIONDIRECTIONT
 description: Vrtconsumptiondirectiont
+semantic_en: "vertical consumption direction text translations – storing multilingual descriptions for consumption directions."
+semantic_vi: "bản dịch văn bản hướng tiêu thụ dọc – lưu trữ mô tả đa ngôn ngữ cho hướng tiêu thụ."
+keywords:
+  - tiêu thụ
+  - bản dịch
+  - hướng
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

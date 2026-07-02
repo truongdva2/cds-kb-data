@@ -1,6 +1,13 @@
 ---
 name: I_WORKBREAKSCHEDULE
 description: Workbreakschedule
+semantic_en: "work break schedule - defines the set of scheduled breaks within shift groupings for workforce planning."
+semantic_vi: "lịch giải lao làm việc - xác định tập hợp các giải lao theo lịch trình trong nhóm ca làm việc để lập kế hoạch nhân lực."
+keywords:
+  - lịch giải lao
+  - ca làm việc
+  - nhóm ca
+  - lập kế hoạch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

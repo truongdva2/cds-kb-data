@@ -1,6 +1,12 @@
 ---
 name: I_WORKCENTERTYPE
 description: Work CenterTYPE
+semantic_en: "work center type - classification code for categorizing work centers into functional types for process and cost accounting purposes."
+semantic_vi: "loại trung tâm công việc - mã phân loại để phân loại trung tâm công việc thành loại chức năng cho mục đích quy trình và kế toán chi phí."
+keywords:
+  - loại trung tâm công việc
+  - phân loại
+  - mã loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

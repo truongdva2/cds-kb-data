@@ -1,6 +1,12 @@
 ---
 name: I_VIRTUALPLANNINGCATEGORY
 description: Virtualplanningcategory
+semantic_en: "planning categories – mapping planning categories to source planning categories for financial planning."
+semantic_vi: "danh mục kế hoạch – ánh xạ danh mục kế hoạch tới danh mục kế hoạch nguồn cho kế hoạch tài chính."
+keywords:
+  - kế hoạch
+  - danh mục
+  - tài chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

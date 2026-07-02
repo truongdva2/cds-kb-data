@@ -1,6 +1,12 @@
 ---
 name: I_WORKCTRPOOLEDCAPACITYTEXTTP
 description: Workctrpooledcapacitytexttp
+semantic_en: "work center pooled capacity description interface - multilingual text resource for pooled capacity names with change audit trail."
+semantic_vi: "giao diện mô tả công suất hợp nhất trung tâm công việc - tài nguyên văn bản đa ngôn ngữ cho tên công suất hợp nhất với dấu vết kiểm toán thay đổi."
+keywords:
+  - công suất hợp nhất
+  - mô tả
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

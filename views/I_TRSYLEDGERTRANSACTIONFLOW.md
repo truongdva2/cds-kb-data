@@ -1,6 +1,12 @@
 ---
 name: I_TRSYLEDGERTRANSACTIONFLOW
 description: Trsyledgertransactionflow
+semantic_en: "treasury ledger flow — treasury transaction flows with position transfer codes and amount/quantity changes"
+semantic_vi: "luồng giao dịch sổ cái kho bạc — luồng giao dịch kho bạc kèm mã chuyển vị trí và thay đổi số lượng/giá trị"
+keywords:
+  - luồng giao dịch kho bạc
+  - chuyển vị trí kho bạc
+  - thay đổi số lượng
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

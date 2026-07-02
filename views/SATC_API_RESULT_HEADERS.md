@@ -1,6 +1,12 @@
 ---
 name: SATC_API_RESULT_HEADERS
 description: Satc Api Result Headers
+semantic_en: "ATC result headers view — summarizes check run with priority counts, baseline status, and scheduling metadata."
+semantic_vi: "khung nhìn tiêu đề kết quả kiểm tra — tóm tắt phiên chạy kiểm tra với số lượng mức độ ưu tiên và thông tin lập lịch."
+keywords:
+  - kết quả ATC
+  - tóm tắt kiểm tra
+  - phiên kiểm tra
 app_component: BC-DWB-TOO-ATF
 software_component: SAP_BASIS
 release_state: released

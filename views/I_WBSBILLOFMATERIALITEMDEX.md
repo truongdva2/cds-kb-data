@@ -1,6 +1,12 @@
 ---
 name: I_WBSBILLOFMATERIALITEMDEX
 description: WBSBill of MaterialITEMDEX
+semantic_en: "WBS bill of material item data extraction – providing BOM line-level details with change tracking and validity dates."
+semantic_vi: "trích xuất dữ liệu mục danh sách vật liệu WBS – cung cấp chi tiết cấp dòng bom với theo dõi thay đổi và ngày có hiệu lực."
+keywords:
+  - bom
+  - mục
+  - WBS
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

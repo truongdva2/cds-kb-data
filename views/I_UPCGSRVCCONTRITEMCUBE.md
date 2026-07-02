@@ -1,6 +1,11 @@
 ---
 name: I_UPCGSRVCCONTRITEMCUBE
 description: Upcgsrvccontritemcube
+semantic_en: "projection of service contract item details with contract timing information — enables analysis of service contract terms and service periods"
+semantic_vi: "phép chiếu chi tiết mục hợp đồng dịch vụ với thông tin thời gian hợp đồng — cho phép phân tích các điều khoản hợp đồng dịch vụ và kỳ dịch vụ"
+keywords:
+  - chi tiết hợp đồng dịch vụ
+  - kỳ dịch vụ
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

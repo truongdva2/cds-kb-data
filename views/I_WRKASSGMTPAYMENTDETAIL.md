@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTPAYMENTDETAIL
 description: Wrkassgmtpaymentdetail
+semantic_en: "work assignment payment detail — bank and payment information for work assignments"
+semantic_vi: "thông tin thanh toán và tài khoản ngân hàng cho các phân công công việc"
+keywords:
+  - thanh toán phân công
+  - tài khoản ngân hàng
+  - IBAN SWIFT
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

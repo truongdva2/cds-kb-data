@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCHARCGROUPTEXTTP
 description: Varcnfcharcgrouptexttp
+semantic_en: "variable configuration characteristic group descriptions in multiple languages — provides multilingual names for configuration groups"
+semantic_vi: "mô tả nhóm đặc tính cấu hình có thể thay đổi bằng nhiều ngôn ngữ — cung cấp tên đa ngôn ngữ cho các nhóm cấu hình"
+keywords:
+  - tên nhóm đặc tính
+  - dữ liệu đa ngôn ngữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

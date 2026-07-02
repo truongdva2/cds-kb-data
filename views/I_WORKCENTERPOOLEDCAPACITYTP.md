@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERPOOLEDCAPACITYTP
 description: Work CenterPOOLEDCAPACITYTP
+semantic_en: "work center pooled capacity interface - transactional view of shared capacity resources with finiteness and utilization planning attributes."
+semantic_vi: "giao diện công suất hợp nhất trung tâm công việc - chế độ xem giao dịch của tài nguyên công suất được chia sẻ với các thuộc tính hữu hạn và lập kế hoạch sử dụng."
+keywords:
+  - công suất hợp nhất
+  - chia sẻ
+  - tài nguyên
+  - lập kế hoạch
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

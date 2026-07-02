@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSCENARIORESULT
 description: Workflowscenarioresult
+semantic_en: "workflow scenario result - defines possible outcomes or decisions resulting from workflow scenario execution."
+semantic_vi: "kết quả kịch bản quy trình công việc - định nghĩa các kết quả có thể hoặc quyết định kết quả từ thực thi kịch bản quy trình công việc."
+keywords:
+  - quy trình công việc
+  - kịch bản
+  - kết quả
+  - quyết định
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

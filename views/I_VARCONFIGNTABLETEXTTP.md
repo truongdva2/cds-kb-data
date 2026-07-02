@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLETEXTTP
 description: Varconfigntabletexttp
+semantic_en: "variant configuration table text translations – storing multilingual descriptions for configuration tables."
+semantic_vi: "bản dịch văn bản bảng cấu hình biến thể – lưu trữ mô tả đa ngôn ngữ cho bảng cấu hình."
+keywords:
+  - bảng cấu hình
+  - bản dịch
+  - mô tả
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

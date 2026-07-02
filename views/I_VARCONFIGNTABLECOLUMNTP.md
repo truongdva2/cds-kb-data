@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLECOLUMNTP
 description: Varconfigntablecolumntp
+semantic_en: "variant configuration table column definitions – mapping characteristics to table columns with internal identifiers and positions."
+semantic_vi: "định nghĩa cột bảng cấu hình biến thể – ánh xạ đặc tính tới cột bảng với mã định danh và vị trí nội bộ."
+keywords:
+  - cột bảng
+  - đặc tính
+  - cấu hình
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

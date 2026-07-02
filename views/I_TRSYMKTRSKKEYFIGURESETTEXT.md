@@ -1,6 +1,12 @@
 ---
 name: I_TRSYMKTRSKKEYFIGURESETTEXT
 description: Trsymktrskkeyfiguresettext
+semantic_en: "treasury market risk key figure set text — language-dependent names for market risk key figure sets"
+semantic_vi: "văn bản bộ chỉ tiêu chủ chốt rủi ro thị trường kho bạc — tên bộ chỉ tiêu rủi ro thị trường theo ngôn ngữ"
+keywords:
+  - tên bộ chỉ tiêu
+  - ngôn ngữ rủi ro thị trường
+  - mô tả chỉ tiêu
 app_component: FIN-FSCM-TRM-MR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WORKFLOWSTEPTYPE
 description: Workflowsteptype
+semantic_en: "workflow step type — type and classification of workflow steps including system task designation"
+semantic_vi: "loại bước trong luồng công việc, bao gồm phân loại và xác định công việc hệ thống"
+keywords:
+  - loại bước workflow
+  - phân loại bước luồng
+  - công việc hệ thống
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

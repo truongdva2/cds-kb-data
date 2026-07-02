@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLMTUTILZNBASETEXT
 description: Trsyctptylmtutilznbasetext
+semantic_en: "treasury counterparty limit utilization base text — language-dependent names for limit utilization bases"
+semantic_vi: "văn bản cơ sở sử dụng giới hạn đối tác kho bạc — tên cơ sở sử dụng giới hạn theo ngôn ngữ"
+keywords:
+  - tên cơ sở sử dụng
+  - ngôn ngữ sử dụng giới hạn
+  - mô tả cơ sở
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

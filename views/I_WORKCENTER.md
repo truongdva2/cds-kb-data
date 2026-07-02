@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTER
 description: Work Center
+semantic_en: "work center - comprehensive master record for production resources including type, status, maintenance flags, costing and scheduling markers, and category."
+semantic_vi: "trung tâm công việc - bản ghi chính toàn diện cho các tài nguyên sản xuất bao gồm loại, trạng thái, cờ bảo trì, cờ định giá và lập lịch cũng như danh mục."
+keywords:
+  - trung tâm công việc
+  - tài nguyên sản xuất
+  - loại trung tâm
+  - bảo trì
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_WORKBREAK
 description: Workbreak
+semantic_en: "work break - details scheduled breaks during shifts including break number, start/end times, and duration in hours and seconds."
+semantic_vi: "giải lao làm việc - chi tiết các giải lao theo lịch trình trong ca làm việc bao gồm số giải lao, thời gian bắt đầu/kết thúc và thời lượng tính bằng giờ và giây."
+keywords:
+  - giải lao
+  - ca làm việc
+  - thời gian
+  - thời lượng
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

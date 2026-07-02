@@ -1,6 +1,12 @@
 ---
 name: I_TRSYLDGRPOSITIONWITHVALUES
 description: Trsyldgrpositionwithvalues
+semantic_en: "treasury ledger position with values — accumulated treasury ledger positions with valuation and financial exposure details"
+semantic_vi: "vị trí sổ cái kho bạc kèm giá trị — vị trí sổ cái kho bạc tích lũy kèm chi tiết định giá và margen tài chính"
+keywords:
+  - vị trí sổ cái kho bạc
+  - giá trị kho bạc
+  - margen tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

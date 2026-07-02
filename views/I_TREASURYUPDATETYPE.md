@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYUPDATETYPE
 description: Treasuryupdatetype
+semantic_en: "treasury update type — classification of treasury data flow update types"
+semantic_vi: "loại cập nhật kho bạc — phân loại loại cập nhật luồng dữ liệu kho bạc"
+keywords:
+  - loại cập nhật
+  - luồng dữ liệu kho bạc
+  - phân loại cập nhật
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

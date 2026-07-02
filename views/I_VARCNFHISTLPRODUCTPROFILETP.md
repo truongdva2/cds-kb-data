@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFHISTLPRODUCTPROFILETP
 description: Varcnfhistlproductprofiletp
+semantic_en: "historical variant configuration profile for products – tracking product name, profile name, validity dates, and BOM explosion settings."
+semantic_vi: "hồ sơ cấu hình biến thể sản phẩm lịch sử – theo dõi tên sản phẩm, tên hồ sơ cấu hình, ngày có hiệu lực và cài đặt bom."
+keywords:
+  - cấu hình biến thể
+  - hồ sơ sản phẩm
+  - bom
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

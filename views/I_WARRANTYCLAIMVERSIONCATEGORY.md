@@ -1,6 +1,12 @@
 ---
 name: I_WARRANTYCLAIMVERSIONCATEGORY
 description: Warrantyclaimversioncategory
+semantic_en: "warranty claim version categories – defining version categories for warranty claim management."
+semantic_vi: "danh mục phiên bản yêu cầu bảo hành – xác định danh mục phiên bản cho quản lý yêu cầu bảo hành."
+keywords:
+  - bảo hành
+  - yêu cầu
+  - danh mục phiên bản
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

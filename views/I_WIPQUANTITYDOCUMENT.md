@@ -1,6 +1,12 @@
 ---
 name: I_WIPQUANTITYDOCUMENT
 description: Wipquantitydocument
+semantic_en: "delta WIP quantity document – tracking work-in-progress quantity changes with cost estimate and period references."
+semantic_vi: "tài liệu số lượng WIP chênh lệch – theo dõi thay đổi số lượng công việc đang thực hiện với ước tính chi phí và tham chiếu kỳ."
+keywords:
+  - WIP
+  - số lượng
+  - chi phí
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WAREHOUSEACTIVITYSTATUS
 description: Warehouseactivitystatus
+semantic_en: "warehouse activity status codes – classifying activity statuses for warehouse operations."
+semantic_vi: "mã trạng thái hoạt động kho – phân loại trạng thái hoạt động cho các hoạt động kho."
+keywords:
+  - kho
+  - trạng thái
+  - hoạt động
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

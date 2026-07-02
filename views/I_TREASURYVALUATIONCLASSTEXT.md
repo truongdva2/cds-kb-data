@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYVALUATIONCLASSTEXT
 description: Treasuryvaluationclasstext
+semantic_en: "treasury valuation class text — language-dependent names for treasury valuation classes"
+semantic_vi: "văn bản lớp định giá kho bạc — tên lớp định giá kho bạc theo ngôn ngữ"
+keywords:
+  - tên lớp định giá
+  - ngôn ngữ định giá
+  - mô tả lớp định giá
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

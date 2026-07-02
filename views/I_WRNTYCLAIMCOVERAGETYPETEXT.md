@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMCOVERAGETYPETEXT
 description: Wrntyclaimcoveragetypetext
+semantic_en: "warranty claim coverage type text — localized descriptions of coverage types"
+semantic_vi: "mô tả loại bao phủ bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả loại bao phủ
+  - text phạm vi bảo hành
+  - bao phủ bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

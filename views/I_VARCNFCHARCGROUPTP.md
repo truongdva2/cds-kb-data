@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCHARCGROUPTP
 description: Varcnfcharcgrouptp
+semantic_en: "variable configuration characteristic groups with change tracking — defines groupings of configuration characteristics"
+semantic_vi: "các nhóm đặc tính cấu hình có thể thay đổi với theo dõi thay đổi — xác định các nhóm đặc tính cấu hình"
+keywords:
+  - nhóm đặc tính cấu hình
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

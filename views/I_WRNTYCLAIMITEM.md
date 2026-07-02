@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMITEM
 description: Wrntyclaimitem
+semantic_en: "warranty claim item — individual items in warranty claims with defect and decision codes"
+semantic_vi: "các mục riêng lẻ trong yêu cầu bảo hành với mã lỗi và quyết định"
+keywords:
+  - mục yêu cầu bảo hành
+  - mục bảo hành
+  - hạng mục bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

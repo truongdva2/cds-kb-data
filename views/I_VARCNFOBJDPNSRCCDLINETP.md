@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFOBJDPNSRCCDLINETP
 description: Varcnfobjdpnsrccdlinetp
+semantic_en: "variant configuration dependency source code lines – capturing individual code line text for object dependencies."
+semantic_vi: "dòng mã nguồn phụ thuộc cấu hình biến thể – ghi lại văn bản dòng mã riêng lẻ cho phụ thuộc đối tượng."
+keywords:
+  - mã nguồn
+  - phụ thuộc
+  - dòng code
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

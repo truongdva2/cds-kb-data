@@ -1,6 +1,11 @@
 ---
 name: I_USERSUBSTITUTE
 description: Usersubstitute
+semantic_en: "user substitution assignments with validity periods and activation status — manages temporary user authorization delegation"
+semantic_vi: "các bài tập thay thế người dùng có các kỳ hạn hợp lệ và trạng thái kích hoạt — quản lý ủy quyền tạm thời của người dùng"
+keywords:
+  - thay thế người dùng
+  - ủy quyền tạm thời
 app_component: BC-BMT-OM
 software_component: SAP_BASIS
 release_state: released

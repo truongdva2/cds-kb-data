@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFHISTLOBJDPNDCYTP
 description: Varcnfhistlobjdpndcytp
+semantic_en: "historical variable configuration object dependencies with lifecycle tracking — maintains evolution of object dependency relationships over time"
+semantic_vi: "các phụ thuộc đối tượng cấu hình có thể thay đổi lịch sử với theo dõi vòng đời — duy trì quá trình phát triển của các mối quan hệ phụ thuộc đối tượng theo thời gian"
+keywords:
+  - lịch sử phụ thuộc đối tượng
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

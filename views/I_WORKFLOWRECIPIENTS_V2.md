@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWRECIPIENTS_V2
 description: Workflowrecipients V 2
+semantic_en: "workflow task recipient - identifies the agents assigned to or forwarded a particular workflow task with visibility and substitution information."
+semantic_vi: "người nhận nhiệm vụ quy trình công việc - xác định các tác nhân được gán hoặc chuyển tiếp một nhiệm vụ quy trình công việc cụ thể với thông tin khả năng hiển thị và thay thế."
+keywords:
+  - quy trình công việc
+  - người nhận
+  - gán
+  - chuyển tiếp
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

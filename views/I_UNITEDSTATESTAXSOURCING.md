@@ -1,6 +1,11 @@
 ---
 name: I_UNITEDSTATESTAXSOURCING
 description: Unitedstatestaxsourcing
+semantic_en: "value domain for US tax sourcing rules — defines sourcing options for determining tax jurisdiction applicability"
+semantic_vi: "miền giá trị cho các quy tắc xác định nguồn thuế Hoa Kỳ — xác định các tùy chọn xác định nguồn để xác định khả năng áp dụng của thẩm quyền thuế"
+keywords:
+  - xác định nguồn thuế
+  - quy tắc xác định nguồn
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

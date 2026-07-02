@@ -1,6 +1,13 @@
 ---
 name: I_WORKASSIGNMENTDETAILTP_1
 description: Workassignmentdetailtp 1
+semantic_en: "projection of work assignment detail - filtered view of work assignment details providing company code, cost center, hours, job title, and supervisor information."
+semantic_vi: "chiếu của chi tiết công việc được gán - chế độ xem lọc các chi tiết công việc được gán cung cấp mã công ty, trung tâm chi phí, giờ làm việc, tiêu đề công việc và thông tin giám sát viên."
+keywords:
+  - chi tiết công việc
+  - tiêu đề công việc
+  - giám sát viên
+  - giờ làm việc
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

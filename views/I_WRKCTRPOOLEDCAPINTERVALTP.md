@@ -1,6 +1,12 @@
 ---
 name: I_WRKCTRPOOLEDCAPINTERVALTP
 description: Wrkctrpooledcapintervaltp
+semantic_en: "work center pooled capacity interval projection — shift and capacity planning intervals for work centers"
+semantic_vi: "chiếu các khoảng thời gian ca làm việc và công suất lao động cho trung tâm công việc"
+keywords:
+  - khoảng ca làm việc
+  - công suất lao động
+  - lịch làm việc
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

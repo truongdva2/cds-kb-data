@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMTYPE
 description: Wrntyclaimtype
+semantic_en: "warranty claim type — claim type classification for warranty claims with version and usage information"
+semantic_vi: "phân loại loại yêu cầu bảo hành với thông tin phiên bản và cách sử dụng"
+keywords:
+  - loại yêu cầu bảo hành
+  - phân loại yêu cầu
+  - loại bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

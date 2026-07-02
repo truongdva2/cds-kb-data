@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERLOCATION
 description: Work CenterLOCATION
+semantic_en: "work center location - geographic positioning of work centers within plants with address identifier and location name."
+semantic_vi: "vị trí trung tâm công việc - định vị địa lý trung tâm công việc trong nhà máy với định danh địa chỉ và tên vị trí."
+keywords:
+  - vị trí
+  - trung tâm công việc
+  - nhà máy
+  - địa chỉ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

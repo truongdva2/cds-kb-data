@@ -1,6 +1,12 @@
 ---
 name: I_WORKCENTERTYPETEXT
 description: Work CenterTYPETEXT
+semantic_en: "work center type text - multilingual names of work center types for user interface display and documentation."
+semantic_vi: "văn bản loại trung tâm công việc - tên đa ngôn ngữ của loại trung tâm công việc để hiển thị giao diện người dùng và tài liệu."
+keywords:
+  - loại trung tâm công việc
+  - tên loại
+  - ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

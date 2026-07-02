@@ -1,6 +1,12 @@
 ---
 name: I_WITHHOLDINGTAXCODE
 description: Withholdingtaxcode
+semantic_en: "withholding tax codes – defining tax withholding parameters by country with regional and income type variants."
+semantic_vi: "mã thuế khóa – xác định tham số khóa thuế theo quốc gia với các biến thể vùng và loại thu nhập."
+keywords:
+  - thuế khóa
+  - mã
+  - quốc gia
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

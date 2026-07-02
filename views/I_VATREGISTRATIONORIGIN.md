@@ -1,6 +1,12 @@
 ---
 name: I_VATREGISTRATIONORIGIN
 description: Vatregistrationorigin
+semantic_en: "VAT registration origin codes – classifying sources of VAT registration for tax compliance."
+semantic_vi: "mã nguồn gốc đăng ký VAT – phân loại nguồn gốc đăng ký VAT cho tuân thủ thuế."
+keywords:
+  - VAT
+  - đăng ký
+  - nguồn gốc
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

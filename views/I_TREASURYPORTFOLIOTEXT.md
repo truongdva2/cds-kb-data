@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYPORTFOLIOTEXT
 description: Treasuryportfoliotext
+semantic_en: "portfolio text descriptions — language-dependent portfolio names for each company and portfolio combination"
+semantic_vi: "mô tả văn bản danh mục — tên danh mục theo ngôn ngữ cho mỗi cặp công ty và danh mục"
+keywords:
+  - tên danh mục
+  - ngôn ngữ danh mục
+  - mô tả danh mục
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

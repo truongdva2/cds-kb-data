@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASURESTDVH
 description: Unit of MeasureSTDVH
+semantic_en: "value help list of units of measure with dimension information — enables user selection of measurement units in transactions"
+semantic_vi: "danh sách hỗ trợ giá trị của các đơn vị đo có thông tin kích thước — cho phép lựa chọn đơn vị đo trong giao dịch"
+keywords:
+  - đơn vị đo
+  - danh sách hỗ trợ giá trị
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

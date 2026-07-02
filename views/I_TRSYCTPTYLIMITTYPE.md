@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLIMITTYPE
 description: Trsyctptylimittype
+semantic_en: "treasury counterparty limit type — limit type configurations with utilization procedures and relationship categories"
+semantic_vi: "loại giới hạn đối tác kho bạc — cấu hình loại giới hạn kèm thủ tục sử dụng và danh mục quan hệ"
+keywords:
+  - loại giới hạn
+  - thủ tục sử dụng
+  - đối tác kho bạc
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

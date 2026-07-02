@@ -1,6 +1,13 @@
 ---
 name: I_WORKASSIGNMENTADDRESSTP
 description: Workassignmentaddresstp
+semantic_en: "work assignment address - records the geographic location and postal details for each work assignment including country, postal code, region, and business partner identification."
+semantic_vi: "địa chỉ công việc được gán - lưu trữ vị trí địa lý và chi tiết bưu chính cho từng công việc được gán bao gồm quốc gia, mã bưu chính, khu vực và định danh đối tác kinh doanh."
+keywords:
+  - địa chỉ công việc
+  - vị trí địa lý
+  - quốc gia
+  - mã bưu chính
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

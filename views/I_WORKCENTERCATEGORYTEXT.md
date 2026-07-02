@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCATEGORYTEXT
 description: Work CenterCATEGORYTEXT
+semantic_en: "work center category text - multilingual descriptions of work center categories for user interface display."
+semantic_vi: "văn bản danh mục trung tâm công việc - mô tả đa ngôn ngữ của danh mục trung tâm công việc để hiển thị giao diện người dùng."
+keywords:
+  - danh mục
+  - tên danh mục
+  - ngôn ngữ
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

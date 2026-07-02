@@ -1,6 +1,12 @@
 ---
 name: SATC_EXEMPTIONS_DDLV_EC2
 description: Satc Exemptions Ddlv EC 2
+semantic_en: "ATC exemptions category 2 view — tracks transportable exemptions with workbench name, finding objects, and validity parameters across releases."
+semantic_vi: "khung nhìn miễn trừ kiểm tra danh mục 2 — theo dõi các miễn trừ có thể vận chuyển với tên bàn làm việc, đối tượng phát hiện, và tham số hiệu lực."
+keywords:
+  - miễn trừ vận chuyển
+  - danh mục 2
+  - phát hành
 app_component: BC-DWB-TOO-ATF
 software_component: SAP_BASIS
 release_state: released

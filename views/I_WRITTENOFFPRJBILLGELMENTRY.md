@@ -1,6 +1,12 @@
 ---
 name: I_WRITTENOFFPRJBILLGELMENTRY
 description: Writtenoffprjbillgelmentry
+semantic_en: "written off project billing element entries — project billing entries written off with quantity and amount details"
+semantic_vi: "các mục hóa đơn dự án được xóa sổ với số lượng và số tiền đã ghi nợ"
+keywords:
+  - mục hóa đơn dự án
+  - ghi nợ dự án
+  - viết sổ hóa đơn
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

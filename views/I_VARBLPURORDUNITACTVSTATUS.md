@@ -1,6 +1,11 @@
 ---
 name: I_VARBLPURORDUNITACTVSTATUS
 description: Varblpurordunitactvstatus
+semantic_en: "value domain for variable purchase order unit active status — defines active/inactive states for PO unit configurations"
+semantic_vi: "miền giá trị cho trạng thái hoạt động của đơn vị đơn hàng mua hàng có thể thay đổi — xác định các trạng thái hoạt động/không hoạt động cho các cấu hình đơn vị PO"
+keywords:
+  - trạng thái đơn hàng mua
+  - cấu hình đơn vị
 app_component: MM-PUR-GF-MAS-2CL
 software_component: SAPSCORE
 release_state: released

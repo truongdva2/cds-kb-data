@@ -1,6 +1,11 @@
 ---
 name: I_USERTOUSERTOLERANCEGROUP
 description: Usertousertolerancegroup
+semantic_en: "mapping of users to their assigned tolerance groups — links users to payment tolerance rules"
+semantic_vi: "ánh xạ người dùng tới các nhóm dung sai được gán — liên kết người dùng với các quy tắc dung sai thanh toán"
+keywords:
+  - nhóm dung sai
+  - người dùng
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

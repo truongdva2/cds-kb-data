@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTWRKORDDETTP
 description: Wrkassgmtwrkorddettp
+semantic_en: "work assignment work order projection — targeted projection of work order details for assignments"
+semantic_vi: "chiếu chi tiết lệnh công việc cho các phân công với nhà cung cấp"
+keywords:
+  - chiếu lệnh công việc
+  - chi tiết phân công
+  - lệnh công việc
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

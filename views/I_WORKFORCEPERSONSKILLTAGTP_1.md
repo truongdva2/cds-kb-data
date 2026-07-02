@@ -1,6 +1,12 @@
 ---
 name: I_WORKFORCEPERSONSKILLTAGTP_1
 description: Workforcepersonskilltagtp 1
+semantic_en: "projection of workforce person skill tags — targeted projection of employee skill tags"
+semantic_vi: "chiếu các thẻ kỹ năng của nhân viên với thông tin định danh và mô tả"
+keywords:
+  - chiếu thẻ kỹ năng
+  - danh sách kỹ năng nhân viên
+  - thẻ kỹ năng nhân sự
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

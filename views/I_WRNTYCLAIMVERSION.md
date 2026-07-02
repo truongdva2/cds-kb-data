@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMVERSION
 description: Wrntyclaimversion
+semantic_en: "warranty claim version — warranty claim version records with decision, partner, and currency details"
+semantic_vi: "bản ghi phiên bản yêu cầu bảo hành bao gồm quyết định, đối tác và thông tin tiền tệ"
+keywords:
+  - phiên bản yêu cầu bảo hành
+  - bản ghi phiên bản
+  - lịch sử bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

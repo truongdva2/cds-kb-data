@@ -1,6 +1,12 @@
 ---
 name: I_TRIGGERPOINTUSAGETEXT
 description: Triggerpointusagetext
+semantic_en: "trigger point usage text — language-dependent descriptions of project milestone trigger point usage codes"
+semantic_vi: "văn bản sử dụng điểm kích hoạt — mô tả mã sử dụng điểm kích hoạt cột mốc dự án theo ngôn ngữ"
+keywords:
+  - điểm kích hoạt
+  - mã sử dụng
+  - cột mốc dự án
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

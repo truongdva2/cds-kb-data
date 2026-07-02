@@ -1,6 +1,12 @@
 ---
 name: I_WAREHOUSETEXT
 description: Warehousetext
+semantic_en: "warehouse text descriptions – storing multilingual warehouse names and descriptions."
+semantic_vi: "mô tả văn bản kho – lưu trữ tên kho và mô tả đa ngôn ngữ."
+keywords:
+  - kho
+  - mô tả
+  - tên
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

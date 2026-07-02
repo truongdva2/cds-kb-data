@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCONSTRAINTNETTEXTTP
 description: Varcnfconstraintnettexttp
+semantic_en: "variable configuration constraint network descriptions in multiple languages — provides localized names for constraint networks"
+semantic_vi: "mô tả mạng ràng buộc cấu hình có thể thay đổi bằng nhiều ngôn ngữ — cung cấp tên được địa phương hóa cho các mạng ràng buộc"
+keywords:
+  - mạng ràng buộc cấu hình
+  - dữ liệu đa ngôn ngữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

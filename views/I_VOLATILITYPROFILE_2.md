@@ -1,6 +1,12 @@
 ---
 name: I_VOLATILITYPROFILE_2
 description: Volatilityprofile 2
+semantic_en: "volatility profile information – linking implied volatility identifiers to volatility profile names."
+semantic_vi: "thông tin hồ sơ biến động – liên kết mã định danh biến động ngụ ý tới tên hồ sơ biến động."
+keywords:
+  - biến động
+  - hồ sơ
+  - độc lập
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WORKFORCEPERSONTP_1
 description: Workforcepersontp 1
+semantic_en: "workforce person full name — employee name details including first, last, and academic titles"
+semantic_vi: "thông tin tên đầy đủ của nhân viên bao gồm họ, tên và danh hiệu học vị"
+keywords:
+  - tên nhân viên
+  - tên đầy đủ người lao động
+  - tên học vị
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

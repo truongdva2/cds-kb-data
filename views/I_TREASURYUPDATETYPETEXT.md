@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYUPDATETYPETEXT
 description: Treasuryupdatetypetext
+semantic_en: "treasury update type text — language-dependent names for treasury update types"
+semantic_vi: "văn bản loại cập nhật kho bạc — tên loại cập nhật kho bạc theo ngôn ngữ"
+keywords:
+  - tên loại cập nhật
+  - ngôn ngữ cập nhật
+  - mô tả loại cập nhật
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

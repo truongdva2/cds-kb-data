@@ -1,6 +1,13 @@
 ---
 name: I_WORKBREAKSCHEDULETEXT
 description: Workbreakscheduletext
+semantic_en: "work break schedule text - multilingual descriptions of work break schedules for user display."
+semantic_vi: "văn bản lịch giải lao làm việc - mô tả đa ngôn ngữ của lịch giải lao làm việc để hiển thị cho người dùng."
+keywords:
+  - lịch giải lao
+  - tên lịch
+  - ngôn ngữ
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

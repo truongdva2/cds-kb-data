@@ -1,6 +1,12 @@
 ---
 name: SATC_EXEMPTIONS_DDLV_EC1
 description: Satc Exemptions Ddlv EC 1
+semantic_en: "ATC exemptions category 1 view — manages exemptions with check details, object scope, validity period, and exemption state for CI pipelines."
+semantic_vi: "khung nhìn miễn trừ kiểm tra danh mục 1 — quản lý các miễn trừ với chi tiết kiểm tra, phạm vi đối tượng, thời hạn có hiệu lực cho quy trình CI."
+keywords:
+  - miễn trừ ATC
+  - danh mục CI
+  - kiểm tra ngoại lệ
 app_component: BC-DWB-TOO-ATF
 software_component: SAP_BASIS
 release_state: released

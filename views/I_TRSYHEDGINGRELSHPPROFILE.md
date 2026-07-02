@@ -1,6 +1,12 @@
 ---
 name: I_TRSYHEDGINGRELSHPPROFILE
 description: Trsyhedgingrelshpprofile
+semantic_en: "hedging relationship profile — hedge relationship profiles with scenario configurations"
+semantic_vi: "hồ sơ mối quan hệ phòng hộ — hồ sơ mối quan hệ phòng hộ kèm cấu hình kịch bản"
+keywords:
+  - hồ sơ phòng hộ
+  - mối quan hệ phòng hộ
+  - kịch bản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

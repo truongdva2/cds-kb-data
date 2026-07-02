@@ -1,6 +1,11 @@
 ---
 name: I_US_TXPARTTXJURISDICTIONLEVEL
 description: US Txparttxjurisdictionlevel
+semantic_en: "tax jurisdiction level details for US tax partner documents with tax amounts and rates — tracks tax calculations at jurisdiction level granularity"
+semantic_vi: "chi tiết mức độ thẩm quyền thuế cho tài liệu đối tác thuế Hoa Kỳ có số tiền và tỷ lệ thuế — theo dõi tính toán thuế với độ chi tiết cấp độ thẩm quyền"
+keywords:
+  - thẩm quyền thuế
+  - mức độ thẩm quyền
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

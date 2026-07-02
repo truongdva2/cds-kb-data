@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFPRODPRFLCSTRTNETASGTTP
 description: Varcnfprodprflcstrtnetasgttp
+semantic_en: "variant configuration profile constraint network assignments – mapping constraint networks to products and profiles with validity tracking."
+semantic_vi: "phân công mạng ràng buộc hồ sơ cấu hình biến thể – ánh xạ mạng ràng buộc tới sản phẩm và hồ sơ với theo dõi hiệu lực."
+keywords:
+  - ràng buộc
+  - mạng
+  - cấu hình
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

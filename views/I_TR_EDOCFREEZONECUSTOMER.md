@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCFREEZONECUSTOMER
 description: TR Edocfreezonecustomer
+semantic_en: "eDocument Turkey freezone customers — flag indicator for customers located in Turkish free economic zones"
+semantic_vi: "khách hàng khu kinh tế tự do eDocument Thổ Nhĩ Kỳ — chỉ báo cờ cho khách hàng ở các khu kinh tế tự do Thổ Nhĩ Kỳ"
+keywords:
+  - khu kinh tế tự do
+  - khách hàng eDocument
+  - Thổ Nhĩ Kỳ
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

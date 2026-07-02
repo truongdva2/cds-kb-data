@@ -1,6 +1,12 @@
 ---
 name: I_WEEKDAY
 description: Weekday
+semantic_en: "week days – defining day-of-week codes for calendar and scheduling purposes."
+semantic_vi: "ngày trong tuần – xác định mã ngày trong tuần cho mục đích lịch và lập lịch."
+keywords:
+  - ngày
+  - tuần
+  - lịch
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WORKFORCEPERSON_1
 description: Workforceperson 1
+semantic_en: "workforce person — core employee master data with name, language preference, and control information"
+semantic_vi: "dữ liệu chính của nhân viên bao gồm tên, ngôn ngữ ưa thích và kiểm soát dữ liệu"
+keywords:
+  - nhân viên
+  - dữ liệu người lao động
+  - quản lý nhân sự
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

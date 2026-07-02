@@ -1,6 +1,12 @@
 ---
 name: SYCM_APS_SCOPE_BY_EP_ITEM
 description: Sycm Aps Scope BY EP Item
+semantic_en: "CCM scope view — defines scope coverage for entry point items with development class, contact person, and usage information."
+semantic_vi: "khung nhìn phạm vi CCM — xác định phạm vi bảo phủ cho các mục điểm vào với lớp phát triển, người liên hệ, và thông tin sử dụng."
+keywords:
+  - phạm vi dự án
+  - điểm vào
+  - lớp phát triển
 app_component: BC-DWB-CEX-CCM
 software_component: SAP_BASIS
 release_state: released

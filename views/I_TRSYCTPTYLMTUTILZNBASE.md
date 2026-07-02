@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLMTUTILZNBASE
 description: Trsyctptylmtutilznbase
+semantic_en: "treasury counterparty limit utilization base — base configurations for limit utilization with single-transaction check indicators"
+semantic_vi: "cơ sở sử dụng giới hạn đối tác kho bạc — cấu hình cơ sở cho sử dụng giới hạn kèm chỉ báo kiểm tra giao dịch đơn"
+keywords:
+  - cơ sở sử dụng giới hạn
+  - kiểm tra giao dịch
+  - giới hạn đối tác
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

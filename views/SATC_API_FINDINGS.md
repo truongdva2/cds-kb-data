@@ -1,6 +1,12 @@
 ---
 name: SATC_API_FINDINGS
 description: Satc Api Findings
+semantic_en: "ATC code quality findings view — contains individual check results with priority, object names, package context, and contact person information."
+semantic_vi: "khung nhìn kết quả kiểm tra mã nguồn — chứa các phát hiện riêng lẻ với mức độ ưu tiên, tên đối tượng, ngữ cảnh gói, và thông tin liên hệ."
+keywords:
+  - kiểm tra ATC
+  - phát hiện lỗi mã
+  - kiểm tra chất lượng
 app_component: BC-DWB-TOO-ATF
 software_component: SAP_BASIS
 release_state: released

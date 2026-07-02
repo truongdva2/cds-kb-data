@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFHISTLCSTRTNETTEXTTP
 description: Varcnfhistlcstrtnettexttp
+semantic_en: "historical variable configuration constraint network descriptions in multiple languages — maintains language versions of constraint networks over time"
+semantic_vi: "mô tả mạng ràng buộc cấu hình có thể thay đổi lịch sử bằng nhiều ngôn ngữ — duy trì các phiên bản ngôn ngữ của mạng ràng buộc theo thời gian"
+keywords:
+  - lịch sử tên ràng buộc
+  - dữ liệu đa ngôn ngữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

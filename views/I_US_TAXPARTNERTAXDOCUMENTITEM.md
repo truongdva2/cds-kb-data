@@ -1,6 +1,11 @@
 ---
 name: I_US_TAXPARTNERTAXDOCUMENTITEM
 description: US Taxpartnertaxdocumentitem
+semantic_en: "line items from US tax partner tax documents with tax code and jurisdiction details — tracks taxable transactions for US tax compliance"
+semantic_vi: "các mục hàng từ tài liệu thuế của đối tác thuế Hoa Kỳ có chi tiết mã và thẩm quyền thuế — theo dõi các giao dịch chịu thuế để tuân thủ thuế Hoa Kỳ"
+keywords:
+  - mục hàng tài liệu thuế
+  - thẩm quyền thuế
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

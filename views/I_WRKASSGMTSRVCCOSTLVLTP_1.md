@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTSRVCCOSTLVLTP_1
 description: Wrkassgmtsrvccostlvltp 1
+semantic_en: "work assignment service cost level projection — targeted projection of service cost levels for assignments"
+semantic_vi: "chiếu mức chi phí dịch vụ cho các phân công công việc"
+keywords:
+  - mức chi phí dịch vụ
+  - chi phí phân công
+  - mức giá dịch vụ
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

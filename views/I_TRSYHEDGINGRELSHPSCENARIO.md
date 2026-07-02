@@ -1,6 +1,12 @@
 ---
 name: I_TRSYHEDGINGRELSHPSCENARIO
 description: Trsyhedgingrelshpscenario
+semantic_en: "hedging relationship scenario — hedge scenarios with risk categories and accounting rules"
+semantic_vi: "kịch bản mối quan hệ phòng hộ — các kịch bản phòng hộ kèm danh mục rủi ro và quy tắc kế toán"
+keywords:
+  - kịch bản phòng hộ
+  - quy tắc kế toán phòng hộ
+  - danh mục rủi ro
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

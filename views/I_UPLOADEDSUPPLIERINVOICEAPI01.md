@@ -1,6 +1,11 @@
 ---
 name: I_UPLOADEDSUPPLIERINVOICEAPI01
 description: UPLOADEDSupplier InvoiceAPI 01
+semantic_en: "uploaded supplier invoices with file reference and description — tracks supplier invoice submissions and associated uploads"
+semantic_vi: "hóa đơn nhà cung cấp được tải lên với tham chiếu tệp và mô tả — theo dõi các bài nộp hóa đơn nhà cung cấp và các tệp tải lên liên quan"
+keywords:
+  - hóa đơn nhà cung cấp
+  - tệp tải lên
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

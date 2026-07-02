@@ -1,6 +1,11 @@
 ---
 name: I_US_TAXSTATE
 description: US Taxstate
+semantic_en: "value domain for US tax states and territories — provides geographic code for US tax jurisdiction assignment"
+semantic_vi: "miền giá trị cho các tiểu bang và lãnh thổ thuế Hoa Kỳ — cung cấp mã địa lý để gán thẩm quyền thuế Hoa Kỳ"
+keywords:
+  - tiểu bang thuế Hoa Kỳ
+  - thẩm quyền thuế
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

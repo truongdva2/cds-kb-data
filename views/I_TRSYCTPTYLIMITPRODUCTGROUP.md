@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLIMITPRODUCTGROUP
 description: Trsyctptylimitproductgroup
+semantic_en: "treasury counterparty limit product group — classification of counterparty limit product groups"
+semantic_vi: "nhóm sản phẩm giới hạn đối tác kho bạc — phân loại các nhóm sản phẩm giới hạn đối tác"
+keywords:
+  - nhóm sản phẩm giới hạn
+  - đối tác giới hạn
+  - kho bạc
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

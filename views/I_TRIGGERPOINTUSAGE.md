@@ -1,6 +1,12 @@
 ---
 name: I_TRIGGERPOINTUSAGE
 description: Triggerpointusage
+semantic_en: "trigger point usage — codes for project milestone usage in manufacturing operations"
+semantic_vi: "sử dụng điểm kích hoạt — mã cho sử dụng cột mốc dự án trong các hoạt động sản xuất"
+keywords:
+  - sử dụng điểm kích hoạt
+  - cột mốc dự án
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

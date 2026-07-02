@@ -1,6 +1,12 @@
 ---
 name: I_TRSYHEDGINGRELSHPPROFILETXT
 description: Trsyhedgingrelshpprofiletxt
+semantic_en: "hedging relationship profile text — language-dependent names for hedging relationship profiles"
+semantic_vi: "văn bản hồ sơ mối quan hệ phòng hộ — tên hồ sơ mối quan hệ phòng hộ theo ngôn ngữ"
+keywords:
+  - tên hồ sơ phòng hộ
+  - ngôn ngữ phòng hộ
+  - mô tả hồ sơ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_VARIANTCONDITION
 description: Variantcondition
+semantic_en: "variant conditions – defining pricing conditions that apply to sales and distribution variants."
+semantic_vi: "điều kiện biến thể – xác định điều kiện giá áp dụng cho các biến thể bán hàng và phân phối."
+keywords:
+  - biến thể
+  - giá
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

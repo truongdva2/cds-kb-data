@@ -1,6 +1,12 @@
 ---
 name: I_WARRANTYRETURNEDPARTSSTATUS
 description: Warrantyreturnedpartsstatus
+semantic_en: "warranty returned parts status – tracking return partner configurations and part reception status for warranty claims."
+semantic_vi: "trạng thái bộ phận trả lại bảo hành – theo dõi cấu hình đối tác trả lại và trạng thái nhận bộ phận cho yêu cầu bảo hành."
+keywords:
+  - bảo hành
+  - bộ phận
+  - trạng thái
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

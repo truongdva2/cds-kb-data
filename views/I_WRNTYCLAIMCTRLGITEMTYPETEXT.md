@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMCTRLGITEMTYPETEXT
 description: Wrntyclaimctrlgitemtypetext
+semantic_en: "warranty claim controlling item type text — localized descriptions of controlling item types"
+semantic_vi: "mô tả loại mục kiểm soát bảo hành theo ngôn ngữ"
+keywords:
+  - loại mục kiểm soát
+  - mô tả mục bảo hành
+  - text loại mục
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WORKFLOWSTEPRESULTTEXT
 description: Workflowstepresulttext
+semantic_en: "workflow step result text — multilingual descriptions of step execution outcomes with scenario and result type identification"
+semantic_vi: "tên và nội dung của kết quả từng bước luồng công việc theo ngôn ngữ, liên kết với định nghĩa kịch bản"
+keywords:
+  - kết quả bước workflow
+  - mô tả kết quả luồng
+  - text kết quả công việc
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

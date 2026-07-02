@@ -1,6 +1,11 @@
 ---
 name: I_US_TAXSTATETEXT
 description: US Taxstatetext
+semantic_en: "translated names for US tax states and territories in multiple languages — provides localized geographic jurisdiction labels"
+semantic_vi: "tên được dịch cho các tiểu bang và lãnh thổ thuế Hoa Kỳ bằng nhiều ngôn ngữ — cung cấp nhãn thẩm quyền địa lý được địa phương hóa"
+keywords:
+  - tên tiểu bang thuế
+  - dữ liệu đa ngôn ngữ
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

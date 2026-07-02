@@ -1,6 +1,12 @@
 ---
 name: I_WORKFLOWSTEPTYPETEXT
 description: Workflowsteptypetext
+semantic_en: "workflow step type text — localized descriptions of step types and subject headings"
+semantic_vi: "tên và mô tả của các loại bước luồng theo từng ngôn ngữ"
+keywords:
+  - mô tả loại bước
+  - chủ đề bước workflow
+  - text loại bước
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

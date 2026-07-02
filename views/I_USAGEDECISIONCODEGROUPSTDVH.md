@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODEGROUPSTDVH
 description: Usagedecisioncodegroupstdvh
+semantic_en: "value help for usage decision code groups with status — enables selection of code groups in quality workflows"
+semantic_vi: "hỗ trợ giá trị cho các nhóm mã quyết định sử dụng có trạng thái — cho phép lựa chọn nhóm mã trong quy trình làm việc chất lượng"
+keywords:
+  - nhóm mã quyết định
+  - danh sách hỗ trợ giá trị
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

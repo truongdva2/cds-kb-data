@@ -1,6 +1,13 @@
 ---
 name: I_WORKASSIGNMENT_1
 description: Workassignment 1
+semantic_en: "work assignments - core master data for workforce assignments linking personnel to work positions with temporal validity and contingency flags."
+semantic_vi: "công việc được gán - dữ liệu chính cốt lõi cho các công việc được gán nhân lực liên kết nhân sự với các vị trí công việc với tính hợp lệ thời gian và cờ thỉnh vực."
+keywords:
+  - công việc được gán
+  - nhân sự
+  - vị trí công việc
+  - tuyển dụng
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

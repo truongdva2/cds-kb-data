@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCAPACITY
 description: Work CenterCAPACITY
+semantic_en: "work center capacity - allocates production capacity to work centers with setup, processing, and other requirement formulas per capacity category."
+semantic_vi: "công suất trung tâm công việc - phân bổ công suất sản xuất cho trung tâm công việc với công thức yêu cầu cài đặt, xử lý và các yêu cầu khác theo danh mục công suất."
+keywords:
+  - công suất
+  - trung tâm công việc
+  - công thức yêu cầu
+  - danh mục công suất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

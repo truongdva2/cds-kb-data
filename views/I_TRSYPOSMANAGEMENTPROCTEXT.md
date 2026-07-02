@@ -1,6 +1,12 @@
 ---
 name: I_TRSYPOSMANAGEMENTPROCTEXT
 description: Trsyposmanagementproctext
+semantic_en: "treasury position management procedure text — language-dependent names for position management procedures"
+semantic_vi: "văn bản thủ tục quản lý vị trí kho bạc — tên thủ tục quản lý vị trí theo ngôn ngữ"
+keywords:
+  - tên thủ tục quản lý
+  - ngôn ngữ quản lý vị trí
+  - mô tả thủ tục
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

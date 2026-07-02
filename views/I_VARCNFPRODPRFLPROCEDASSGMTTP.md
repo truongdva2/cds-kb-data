@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFPRODPRFLPROCEDASSGMTTP
 description: Varcnfprodprflprocedassgmttp
+semantic_en: "variant configuration profile procedure assignments – linking configuration procedures to products and profiles with processing sequence."
+semantic_vi: "phân công quy trình hồ sơ cấu hình biến thể – liên kết quy trình cấu hình tới sản phẩm và hồ sơ với thứ tự xử lý."
+keywords:
+  - quy trình
+  - cấu hình
+  - phân công
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

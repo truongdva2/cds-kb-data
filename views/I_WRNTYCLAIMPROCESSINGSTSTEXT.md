@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMPROCESSINGSTSTEXT
 description: Wrntyclaimprocessingststext
+semantic_en: "warranty claim processing status text — localized descriptions of warranty claim processing statuses"
+semantic_vi: "mô tả trạng thái xử lý yêu cầu bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả trạng thái xử lý
+  - text trạng thái bảo hành
+  - xử lý bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

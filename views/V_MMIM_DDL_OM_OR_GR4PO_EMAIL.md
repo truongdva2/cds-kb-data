@@ -1,6 +1,12 @@
 ---
 name: V_MMIM_DDL_OM_OR_GR4PO_EMAIL
 description: V Mmim Ddl OM OR GR 4PO Email
+semantic_en: "materials management GR4PO email output view — provides material receipt documents with personnel names, dates, and system context for notifications."
+semantic_vi: "khung nhìn email GR4PO quản lý hàng hoá — cung cấp tài liệu nhận hàng với tên nhân viên, ngày tháng, và ngữ cảnh hệ thống cho thông báo."
+keywords:
+  - GR4PO nhận hàng
+  - thông báo email
+  - tài liệu nhận
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMITEMDFLTCNDNTYPE
 description: Wrntyclaimitemdfltcndntype
+semantic_en: "warranty claim item default condition type — mapping of item types to default condition types"
+semantic_vi: "ánh xạ loại mục bảo hành với loại điều kiện mặc định cho hàng hóa, lao động và dịch vụ"
+keywords:
+  - loại điều kiện mục bảo hành
+  - điều kiện mặc định
+  - ánh xạ loại mục
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

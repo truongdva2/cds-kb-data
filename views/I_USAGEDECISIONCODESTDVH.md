@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODESTDVH
 description: Usagedecisioncodestdvh
+semantic_en: "value help for individual usage decision codes — enables selection of quality decision outcomes in inspections"
+semantic_vi: "hỗ trợ giá trị cho các mã quyết định sử dụng riêng lẻ — cho phép lựa chọn kết quả quyết định chất lượng trong kiểm tra"
+keywords:
+  - mã quyết định
+  - danh sách hỗ trợ giá trị
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

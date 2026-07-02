@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASUREDIMENSIONTEXT
 description: Unit of MeasureDIMENSIONTEXT
+semantic_en: "translated names for unit of measure dimensions in multiple languages — provides human-readable dimension descriptions"
+semantic_vi: "tên được dịch cho kích thước đơn vị đo bằng nhiều ngôn ngữ — cung cấp mô tả kích thước dễ đọc cho con người"
+keywords:
+  - tên kích thước
+  - dữ liệu đa ngôn ngữ
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

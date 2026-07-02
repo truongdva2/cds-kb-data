@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMITEMTYPECATALOGTXT
 description: Wrntyclaimitemtypecatalogtxt
+semantic_en: "warranty claim item type catalog text — localized descriptions of catalog item numbers"
+semantic_vi: "mô tả số mục danh mục bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả mục danh mục
+  - text danh mục bảo hành
+  - mục danh mục
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

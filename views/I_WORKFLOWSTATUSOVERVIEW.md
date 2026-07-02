@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSTATUSOVERVIEW
 description: Workflowstatusoverview
+semantic_en: "workflow - summary of workflow instances including status, associated business object references, and task completion count."
+semantic_vi: "quy trình công việc - tóm tắt các thể hiện quy trình công việc bao gồm trạng thái, tham chiếu đối tượng kinh doanh được liên kết và số lượng hoàn thành nhiệm vụ."
+keywords:
+  - quy trình công việc
+  - trạng thái
+  - đối tượng kinh doanh
+  - tóm tắt
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

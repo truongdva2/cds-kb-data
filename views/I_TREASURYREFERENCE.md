@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREFERENCE
 description: Treasuryreference
+semantic_en: "treasury reference information — security and payment reference data with identifiers, status, and creation/change tracking"
+semantic_vi: "thông tin tham chiếu kho bạc — dữ liệu tham chiếu chứng chỉ và thanh toán kèm mã định danh, trạng thái và theo dõi tạo/thay đổi"
+keywords:
+  - tham chiếu kho bạc
+  - ISIN
+  - định danh chứng chỉ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

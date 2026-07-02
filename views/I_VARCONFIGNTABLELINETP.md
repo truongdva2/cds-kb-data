@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLELINETP
 description: Varconfigntablelinetp
+semantic_en: "variant configuration table lines – defining rows within configuration tables with validity dates and change tracking."
+semantic_vi: "dòng bảng cấu hình biến thể – xác định hàng trong bảng cấu hình với ngày có hiệu lực và theo dõi thay đổi."
+keywords:
+  - dòng bảng
+  - cấu hình
+  - hiệu lực
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

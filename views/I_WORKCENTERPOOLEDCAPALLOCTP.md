@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERPOOLEDCAPALLOCTP
 description: Work CenterPOOLEDCAPALLOCTP
+semantic_en: "work center pooled capacity allocation interface - mapping of pooled capacities to work centers with capacity requirement formulas."
+semantic_vi: "giao diện phân bổ công suất hợp nhất trung tâm công việc - ánh xạ công suất hợp nhất cho trung tâm công việc với công thức yêu cầu công suất."
+keywords:
+  - phân bổ
+  - công suất hợp nhất
+  - trung tâm công việc
+  - công thức
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

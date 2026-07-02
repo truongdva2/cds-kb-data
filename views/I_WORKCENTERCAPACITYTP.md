@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCAPACITYTP
 description: Work CenterCAPACITYTP
+semantic_en: "work center capacity interface - transactional projection of capacity allocation to work centers with formulas and validity dates."
+semantic_vi: "giao diện công suất trung tâm công việc - chiếu giao dịch của phân bổ công suất cho trung tâm công việc với công thức và ngày hiệu lực."
+keywords:
+  - công suất
+  - phân bổ
+  - công thức
+  - hiệu lực
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

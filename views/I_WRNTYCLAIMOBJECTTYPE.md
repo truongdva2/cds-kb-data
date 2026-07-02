@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMOBJECTTYPE
 description: Wrntyclaimobjecttype
+semantic_en: "warranty claim reference object type — object types for warranty claim references"
+semantic_vi: "loại đối tượng tham chiếu cho yêu cầu bảo hành"
+keywords:
+  - loại đối tượng bảo hành
+  - tham chiếu bảo hành
+  - loại hàng tham chiếu
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

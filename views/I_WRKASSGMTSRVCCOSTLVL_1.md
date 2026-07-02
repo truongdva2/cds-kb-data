@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTSRVCCOSTLVL_1
 description: Wrkassgmtsrvccostlvl 1
+semantic_en: "work assignment service cost level — service cost levels assigned to work assignments"
+semantic_vi: "mức chi phí dịch vụ của các phân công công việc"
+keywords:
+  - chi phí dịch vụ phân công
+  - mức giá phân công
+  - quản lý chi phí dịch vụ
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

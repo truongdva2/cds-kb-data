@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCCOMPANYDATA
 description: TR Edoccompanydata
+semantic_en: "eDocument Turkey company information — Turkish e-document company data with tax identifiers and business partner aliases"
+semantic_vi: "dữ liệu công ty eDocument Thổ Nhĩ Kỳ — dữ liệu công ty eDocument Thổ Nhĩ Kỳ kèm mã định danh thuế và bí danh đối tác kinh doanh"
+keywords:
+  - eDocument Thổ Nhĩ Kỳ
+  - mã thuế điện tử
+  - bí danh đối tác
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

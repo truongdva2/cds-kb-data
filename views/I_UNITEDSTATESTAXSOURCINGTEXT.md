@@ -1,6 +1,11 @@
 ---
 name: I_UNITEDSTATESTAXSOURCINGTEXT
 description: Unitedstatestaxsourcingtext
+semantic_en: "text labels for US tax sourcing options in multiple languages — provides translated sourcing rule names"
+semantic_vi: "nhãn văn bản cho các tùy chọn xác định nguồn thuế Hoa Kỳ bằng nhiều ngôn ngữ — cung cấp tên quy tắc xác định nguồn được dịch"
+keywords:
+  - tên quy tắc xác định nguồn
+  - dữ liệu đa ngôn ngữ
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

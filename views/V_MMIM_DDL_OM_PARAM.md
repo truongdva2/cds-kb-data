@@ -1,6 +1,12 @@
 ---
 name: V_MMIM_DDL_OM_PARAM
 description: V Mmim Ddl OM Param
+semantic_en: "materials management goods movement parameters view — contains material document details with transaction type, inventory reference, and movement context for printing."
+semantic_vi: "khung nhìn tham số chuyển động hàng hoá — chứa chi tiết tài liệu vật liệu với loại giao dịch, tham chiếu kho, và ngữ cảnh chuyển động."
+keywords:
+  - chuyển động hàng hoá
+  - tham số in ấn
+  - loại giao dịch
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

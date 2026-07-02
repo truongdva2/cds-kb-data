@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMITEMTYPE
 description: Wrntyclaimitemtype
+semantic_en: "warranty claim item type — item types for warranty claims with controlling item type mapping"
+semantic_vi: "loại mục cho yêu cầu bảo hành với ánh xạ loại mục kiểm soát"
+keywords:
+  - loại mục bảo hành
+  - phân loại mục
+  - mục kiểm soát
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

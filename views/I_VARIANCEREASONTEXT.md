@@ -1,6 +1,12 @@
 ---
 name: I_VARIANCEREASONTEXT
 description: Variancereasontext
+semantic_en: "variance reason text translations – providing multilingual descriptions for variance reason codes."
+semantic_vi: "bản dịch văn bản lý do chênh lệch – cung cấp mô tả đa ngôn ngữ cho mã lý do chênh lệch."
+keywords:
+  - chênh lệch
+  - bản dịch
+  - lý do
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

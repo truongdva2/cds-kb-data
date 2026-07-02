@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCAPACITYTEXTTP
 description: Work CenterCAPACITYTEXTTP
+semantic_en: "work center capacity description - interface presenting multilingual text labels for work center capacities with change audit trail."
+semantic_vi: "mô tả công suất trung tâm công việc - giao diện trình bày nhãn văn bản đa ngôn ngữ cho công suất trung tâm công việc với dấu vết kiểm toán thay đổi."
+keywords:
+  - công suất
+  - mô tả
+  - ngôn ngữ
+  - nhãn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

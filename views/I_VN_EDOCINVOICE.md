@@ -1,6 +1,12 @@
 ---
 name: I_VN_EDOCINVOICE
 description: VN Edocinvoice
+semantic_en: "Vietnam eDocument invoices – capturing electronic invoice details for Vietnam regulatory compliance."
+semantic_vi: "hóa đơn eDocument Việt Nam – ghi lại chi tiết hóa đơn điện tử cho tuân thủ quy định Việt Nam."
+keywords:
+  - hóa đơn
+  - eDocument
+  - Việt Nam
 app_component: CA-GTF-CSC-EDO-VN
 software_component: SAPSCORE
 release_state: released

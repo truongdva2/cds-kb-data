@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLECONTENTTP
 description: Varconfigntablecontenttp
+semantic_en: "variant configuration table content – tracking table status, processing mode, and last change timestamps."
+semantic_vi: "nội dung bảng cấu hình biến thể – theo dõi trạng thái bảng, chế độ xử lý và dấu thời gian thay đổi cuối cùng."
+keywords:
+  - bảng cấu hình
+  - nội dung
+  - trạng thái
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

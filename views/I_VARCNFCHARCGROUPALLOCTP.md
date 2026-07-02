@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCHARCGROUPALLOCTP
 description: Varcnfcharcgroupalloctp
+semantic_en: "variable configuration characteristic group allocations with temporal tracking — assigns characteristics to configuration groups with change history"
+semantic_vi: "phân bổ nhóm đặc tính cấu hình có thể thay đổi với theo dõi thời gian — gán các đặc tính cho các nhóm cấu hình với lịch sử thay đổi"
+keywords:
+  - nhóm đặc tính cấu hình
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

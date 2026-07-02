@@ -1,6 +1,12 @@
 ---
 name: I_WEEKDAYTEXT
 description: Weekdaytext
+semantic_en: "week day text translations – storing multilingual names for days of the week."
+semantic_vi: "bản dịch văn bản ngày trong tuần – lưu trữ tên đa ngôn ngữ cho các ngày trong tuần."
+keywords:
+  - ngày
+  - tuần
+  - bản dịch
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

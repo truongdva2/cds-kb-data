@@ -1,6 +1,12 @@
 ---
 name: I_VATREGISTRATIONORIGINTEXT
 description: Vatregistrationorigintext
+semantic_en: "VAT registration origin text translations – providing multilingual descriptions for VAT registration sources."
+semantic_vi: "bản dịch văn bản nguồn gốc đăng ký VAT – cung cấp mô tả đa ngôn ngữ cho nguồn gốc đăng ký VAT."
+keywords:
+  - VAT
+  - bản dịch
+  - đăng ký
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

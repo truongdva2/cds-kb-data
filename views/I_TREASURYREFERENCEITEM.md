@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREFERENCEITEM
 description: Treasuryreferenceitem
+semantic_en: "treasury reference item information — individual treasury objects linked to references with status and ranking"
+semantic_vi: "thông tin mục tham chiếu kho bạc — các đối tượng kho bạc riêng được liên kết với tham chiếu kèm trạng thái và xếp hạng"
+keywords:
+  - mục tham chiếu
+  - vật thể kho bạc
+  - xếp hạng mục
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

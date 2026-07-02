@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMPARTNER
 description: Wrntyclaimpartner
+semantic_en: "warranty claim partner — partner information for warranty claims with role and contact details"
+semantic_vi: "thông tin đối tác trong yêu cầu bảo hành bao gồm vai trò và chi tiết liên lạc"
+keywords:
+  - đối tác bảo hành
+  - vai trò bảo hành
+  - liên lạc bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

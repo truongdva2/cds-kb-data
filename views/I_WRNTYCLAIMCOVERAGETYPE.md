@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMCOVERAGETYPE
 description: Wrntyclaimcoveragetype
+semantic_en: "warranty claim coverage type — coverage type classification for warranty claims"
+semantic_vi: "phân loại loại bao phủ cho yêu cầu bảo hành"
+keywords:
+  - loại bao phủ bảo hành
+  - phạm vi bảo hành
+  - loại phủ sóng
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

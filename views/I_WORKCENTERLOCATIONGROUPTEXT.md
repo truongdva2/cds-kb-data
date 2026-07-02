@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERLOCATIONGROUPTEXT
 description: Work CenterLOCATIONGROUPTEXT
+semantic_en: "work center location group text - multilingual names of work center location groups for interface presentation."
+semantic_vi: "văn bản nhóm vị trí trung tâm công việc - tên đa ngôn ngữ của nhóm vị trí trung tâm công việc để trình bày giao diện."
+keywords:
+  - nhóm vị trí
+  - tên nhóm
+  - ngôn ngữ
+  - trình bày
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

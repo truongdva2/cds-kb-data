@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCCUSTOMERSCENARIO
 description: TR Edoccustomerscenario
+semantic_en: "eDocument Turkey customer scenarios — mapping of Turkish customers to e-document scenarios"
+semantic_vi: "kịch bản khách hàng eDocument Thổ Nhĩ Kỳ — ánh xạ khách hàng Thổ Nhĩ Kỳ với các kịch bản eDocument"
+keywords:
+  - kịch bản khách hàng
+  - eDocument Thổ Nhĩ Kỳ
+  - khách hàng
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

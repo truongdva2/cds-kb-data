@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODEGROUPTEXT
 description: Usagedecisioncodegrouptext
+semantic_en: "translated text labels for usage decision code groups in multiple languages — provides localized descriptions of code groups"
+semantic_vi: "nhãn văn bản được dịch cho các nhóm mã quyết định sử dụng bằng nhiều ngôn ngữ — cung cấp mô tả địa phương hóa của các nhóm mã"
+keywords:
+  - tên nhóm mã
+  - dữ liệu đa ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

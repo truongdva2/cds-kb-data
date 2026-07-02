@@ -1,6 +1,13 @@
 ---
 name: I_WORKDAYRULE
 description: Workdayrule
+semantic_en: "work day rule code - enumeration of rules defining how work days are counted for capacity and shift scheduling."
+semantic_vi: "mã quy tắc ngày làm việc - liệt kê các quy tắc xác định cách tính số ngày làm việc cho công suất và lập lịch ca làm việc."
+keywords:
+  - quy tắc ngày làm việc
+  - ngày làm việc
+  - lập lịch
+  - ca làm việc
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

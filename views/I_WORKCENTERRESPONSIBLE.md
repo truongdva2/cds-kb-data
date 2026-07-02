@@ -1,6 +1,12 @@
 ---
 name: I_WORKCENTERRESPONSIBLE
 description: Work CenterRESPONSIBLE
+semantic_en: "work center responsible - identifies the individual or person accountable for managing a specific work center."
+semantic_vi: "người chịu trách nhiệm trung tâm công việc - xác định cá nhân hoặc người chịu trách nhiệm quản lý một trung tâm công việc cụ thể."
+keywords:
+  - người chịu trách nhiệm
+  - trung tâm công việc
+  - quản lý
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

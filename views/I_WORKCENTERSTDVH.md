@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERSTDVH
 description: Work CenterSTDVH
+semantic_en: "work center standard value help - lookup view providing work center identifiers, types, and categories for user selection lists."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn trung tâm công việc - chế độ xem tra cứu cung cấp định danh trung tâm công việc, loại và danh mục cho danh sách lựa chọn người dùng."
+keywords:
+  - tra cứu
+  - trung tâm công việc
+  - lựa chọn
+  - danh mục
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

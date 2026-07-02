@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCATEGORY
 description: Work CenterCATEGORY
+semantic_en: "work center category - classification code for work centers with associated status profile for workflow control."
+semantic_vi: "danh mục trung tâm công việc - mã phân loại cho trung tâm công việc với hồ sơ trạng thái được liên kết để kiểm soát quy trình công việc."
+keywords:
+  - danh mục
+  - trung tâm công việc
+  - mã phân loại
+  - hồ sơ trạng thái
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

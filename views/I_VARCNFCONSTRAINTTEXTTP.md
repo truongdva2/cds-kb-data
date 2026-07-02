@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCONSTRAINTTEXTTP
 description: Varcnfconstrainttexttp
+semantic_en: "variable configuration constraint descriptions in multiple languages — provides localized labels for individual constraints"
+semantic_vi: "mô tả ràng buộc cấu hình có thể thay đổi bằng nhiều ngôn ngữ — cung cấp nhãn được địa phương hóa cho các ràng buộc riêng lẻ"
+keywords:
+  - mô tả ràng buộc cấu hình
+  - dữ liệu đa ngôn ngữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

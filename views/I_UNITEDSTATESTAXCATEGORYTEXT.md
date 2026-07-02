@@ -1,6 +1,11 @@
 ---
 name: I_UNITEDSTATESTAXCATEGORYTEXT
 description: Unitedstatestaxcategorytext
+semantic_en: "text labels for US tax categories in multiple languages — provides translated category names for user display"
+semantic_vi: "nhãn văn bản cho các danh mục thuế Hoa Kỳ bằng nhiều ngôn ngữ — cung cấp tên danh mục được dịch để hiển thị cho người dùng"
+keywords:
+  - tên danh mục thuế
+  - dữ liệu đa ngôn ngữ
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WORKASSIGNMENTADDRESS
 description: Workassignmentaddress
+semantic_en: "work assignment address details – storing workforce person addresses with country, postal, and regional information."
+semantic_vi: "chi tiết địa chỉ phân công công việc – lưu trữ địa chỉ nhân viên lao động với thông tin quốc gia, bưu chính và khu vực."
+keywords:
+  - phân công
+  - địa chỉ
+  - nhân viên
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

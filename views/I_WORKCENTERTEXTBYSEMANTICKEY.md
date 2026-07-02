@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERTEXTBYSEMANTICKEY
 description: Work CenterTEXTBYSEMANTICKEY
+semantic_en: "work center by semantic key text - indexed multilingual descriptions of work centers queryable by plant and work center identifier."
+semantic_vi: "văn bản trung tâm công việc theo khóa ngữ nghĩa - mô tả đa ngôn ngữ được lập chỉ mục của trung tâm công việc có thể truy vấn theo nhà máy và định danh trung tâm công việc."
+keywords:
+  - trung tâm công việc
+  - mô tả
+  - khóa ngữ nghĩa
+  - nhà máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

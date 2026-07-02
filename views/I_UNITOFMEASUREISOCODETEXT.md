@@ -1,6 +1,11 @@
 ---
 name: I_UNITOFMEASUREISOCODETEXT
 description: Unit of MeasureISOCODETEXT
+semantic_en: "translated ISO unit code descriptions in multiple languages — provides localized labels for ISO codes"
+semantic_vi: "mô tả mã ISO được dịch bằng nhiều ngôn ngữ — cung cấp nhãn được địa phương hóa cho các mã ISO"
+keywords:
+  - tên mã ISO
+  - dữ liệu đa ngôn ngữ
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

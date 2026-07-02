@@ -1,6 +1,12 @@
 ---
 name: I_USERSETGETPARAMFORCTRLGAREA
 description: Usersetgetparamforctrlgarea
+semantic_en: "projection of user parameters specific to controlling areas — retrieves user-set defaults for GL versions and fiscal year variants"
+semantic_vi: "phép chiếu các tham số người dùng cụ thể cho các vùng kiểm soát — truy xuất các giá trị mặc định do người dùng đặt cho các phiên bản GL và biến thể năm tài chính"
+keywords:
+  - tham số người dùng
+  - vùng kiểm soát
+  - năm tài chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

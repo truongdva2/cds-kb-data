@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMITEMTYPETEXT
 description: Wrntyclaimitemtypetext
+semantic_en: "warranty claim item type text — localized descriptions of warranty item types"
+semantic_vi: "mô tả loại mục bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả loại mục
+  - text loại hàng bảo hành
+  - mô tả hàng bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

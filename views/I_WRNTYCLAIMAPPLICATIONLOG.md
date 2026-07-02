@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMAPPLICATIONLOG
 description: Wrntyclaimapplicationlog
+semantic_en: "warranty claim application log — application logs for warranty claim processing with alert and error counts"
+semantic_vi: "nhật ký ứng dụng xử lý yêu cầu bảo hành với thông tin cảnh báo và lỗi"
+keywords:
+  - nhật ký xử lý bảo hành
+  - log ứng dụng bảo hành
+  - lỗi yêu cầu bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

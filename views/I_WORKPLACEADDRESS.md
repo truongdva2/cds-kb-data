@@ -1,6 +1,12 @@
 ---
 name: I_WORKPLACEADDRESS
 description: Workplaceaddress
+semantic_en: "employee workplace address — employee workplace contact details with phone and fax information"
+semantic_vi: "địa chỉ nơi làm việc của nhân viên bao gồm điện thoại, fax và thông tin liên lạc"
+keywords:
+  - địa chỉ làm việc
+  - điện thoại cơ quan
+  - liên lạc nhân viên
 app_component: BC-SRV-BP
 software_component: SAP_BASIS
 release_state: released

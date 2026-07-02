@@ -1,6 +1,12 @@
 ---
 name: I_WITHHOLDINGTAXINCOMETYPE
 description: Withholdingtaxincometype
+semantic_en: "withholding tax income types – classifying income types subject to tax withholding by country."
+semantic_vi: "loại thu nhập thuế khóa – phân loại loại thu nhập phải chịu khóa thuế theo quốc gia."
+keywords:
+  - thuế khóa
+  - thu nhập
+  - loại
 app_component: FI-AP-AP-Q-2CL
 software_component: SAPSCORE
 release_state: released

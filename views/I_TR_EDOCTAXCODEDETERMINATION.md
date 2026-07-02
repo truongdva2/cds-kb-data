@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCTAXCODEDETERMINATION
 description: TR Edoctaxcodedetermination
+semantic_en: "eDocument Turkey tax code determination — mappings between purchase codes and VAT tax types for Turkish e-invoices"
+semantic_vi: "xác định mã thuế eDocument Thổ Nhĩ Kỳ — ánh xạ giữa mã mua hàng và loại thuế VAT cho hóa đơn điện tử Thổ Nhĩ Kỳ"
+keywords:
+  - mã thuế VAT
+  - xác định thuế
+  - eDocument Thổ Nhĩ Kỳ
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

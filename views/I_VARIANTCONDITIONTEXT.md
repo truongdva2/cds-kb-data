@@ -1,6 +1,12 @@
 ---
 name: I_VARIANTCONDITIONTEXT
 description: Variantconditiontext
+semantic_en: "variant condition text translations – storing multilingual names for variant conditions."
+semantic_vi: "bản dịch văn bản điều kiện biến thể – lưu trữ tên đa ngôn ngữ cho điều kiện biến thể."
+keywords:
+  - biến thể
+  - bản dịch
+  - tên
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

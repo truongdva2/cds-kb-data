@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYVALUATIONAREA
 description: Treasuryvaluationarea
+semantic_en: "treasury valuation area — valuation area configurations with accounting principle and payment indicator"
+semantic_vi: "khu vực định giá kho bạc — cấu hình khu vực định giá kèm nguyên tắc kế toán và chỉ báo thanh toán"
+keywords:
+  - khu vực định giá
+  - nguyên tắc kế toán
+  - định giá kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

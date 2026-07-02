@@ -1,6 +1,12 @@
 ---
 name: I_WITHHOLDINGTAXINCOMETYPETEXT
 description: Withholdingtaxincometypetext
+semantic_en: "withholding tax income type text translations – providing multilingual descriptions for tax income types."
+semantic_vi: "bản dịch văn bản loại thu nhập thuế khóa – cung cấp mô tả đa ngôn ngữ cho loại thu nhập thuế."
+keywords:
+  - thuế khóa
+  - thu nhập
+  - bản dịch
 app_component: FI-AP-AP-Q-2CL
 software_component: SAPSCORE
 release_state: released

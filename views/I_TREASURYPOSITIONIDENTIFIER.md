@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYPOSITIONIDENTIFIER
 description: Treasurypositionidentifier
+semantic_en: "treasury position identifier — unique identifiers and attributes for individual treasury positions including valuation area and financial instrument classification"
+semantic_vi: "các mã định danh vị trí kho bạc — UUID và thuộc tính định chỉ danh tính vị trí kho bạc bao gồm khu vực định giá và phân loại công cụ tài chính"
+keywords:
+  - mã định danh vị trí kho bạc
+  - UUID kho bạc
+  - phân loại công cụ tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_WORKASSIGNMENTDETAIL
 description: Workassignmentdetail
+semantic_en: "work assignment details - presents core employment parameters including company code, cost center, hours, status, and employment percentage for each worker assignment."
+semantic_vi: "chi tiết công việc được gán - trình bày các tham số tuyển dụng cốt lõi bao gồm mã công ty, trung tâm chi phí, giờ làm việc, trạng thái và tỷ lệ phần trăm tuyển dụng cho từng công việc được gán."
+keywords:
+  - chi tiết công việc
+  - giờ làm việc
+  - trung tâm chi phí
+  - mã công ty
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

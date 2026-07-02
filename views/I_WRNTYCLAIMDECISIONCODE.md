@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMDECISIONCODE
 description: Wrntyclaimdecisioncode
+semantic_en: "warranty claim decision code — decision codes for warranty claim items with code category"
+semantic_vi: "mã quyết định cho các mục yêu cầu bảo hành với danh mục mã"
+keywords:
+  - mã quyết định bảo hành
+  - quyết định yêu cầu
+  - mã phán quyết
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

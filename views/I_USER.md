@@ -1,6 +1,11 @@
 ---
 name: I_USER
 description: User
+semantic_en: "user master data with identification and contact information — defines application users and their contact addresses"
+semantic_vi: "dữ liệu chính người dùng với thông tin định danh và liên hệ — xác định người dùng ứng dụng và địa chỉ liên hệ của họ"
+keywords:
+  - người dùng
+  - dữ liệu chính
 app_component: BC-SEC-USR-ADM
 software_component: SAP_BASIS
 release_state: released

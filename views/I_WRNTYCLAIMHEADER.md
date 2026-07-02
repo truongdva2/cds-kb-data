@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMHEADER
 description: Wrntyclaimheader
+semantic_en: "warranty claim header — warranty claim master record with claim number, type, and damage details"
+semantic_vi: "bản ghi chính yêu cầu bảo hành bao gồm số yêu cầu, loại và ngày hư hỏng"
+keywords:
+  - yêu cầu bảo hành
+  - số yêu cầu
+  - tiêu đề bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

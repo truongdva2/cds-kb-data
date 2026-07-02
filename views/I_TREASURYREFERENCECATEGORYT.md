@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREFERENCECATEGORYT
 description: Treasuryreferencecategoryt
+semantic_en: "treasury reference category text — language-dependent names for treasury reference categories"
+semantic_vi: "văn bản danh mục tham chiếu kho bạc — tên danh mục tham chiếu theo ngôn ngữ"
+keywords:
+  - tên danh mục tham chiếu
+  - ngôn ngữ danh mục
+  - mô tả danh mục
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

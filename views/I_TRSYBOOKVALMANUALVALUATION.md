@@ -1,6 +1,12 @@
 ---
 name: I_TRSYBOOKVALMANUALVALUATION
 description: Trsybookvalmanualvaluation
+semantic_en: "treasury book values for manual valuation — positions with accumulated values for manual portfolio valuation by date and valuation class"
+semantic_vi: "giá trị sách kho bạc cho định giá thủ công — vị trí kèm giá trị tích lũy cho định giá danh mục thủ công theo ngày và lớp định giá"
+keywords:
+  - giá trị sách kho bạc
+  - định giá thủ công
+  - giá trị tích lũy
 app_component: FIN-FSCM-TRM-AC-2CL
 software_component: SAPSCORE
 release_state: released

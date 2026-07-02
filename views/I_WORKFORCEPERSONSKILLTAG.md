@@ -1,6 +1,12 @@
 ---
 name: I_WORKFORCEPERSONSKILLTAG
 description: Workforcepersonskilltag
+semantic_en: "workforce person skill tag — skill tags assigned to employees for capability tracking"
+semantic_vi: "gắn thẻ kỹ năng cho nhân viên để quản lý năng lực"
+keywords:
+  - thẻ kỹ năng nhân viên
+  - gán thẻ kỹ năng
+  - quản lý kỹ năng
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

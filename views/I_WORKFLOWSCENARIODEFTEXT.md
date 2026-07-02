@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSCENARIODEFTEXT
 description: Workflowscenariodeftext
+semantic_en: "workflow scenario definition text - multilingual names and descriptions of workflow scenarios for user selection and documentation."
+semantic_vi: "văn bản định nghĩa kịch bản quy trình công việc - tên đa ngôn ngữ và mô tả của kịch bản quy trình công việc để lựa chọn người dùng và tài liệu."
+keywords:
+  - quy trình công việc
+  - kịch bản
+  - tên kịch bản
+  - ngôn ngữ
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERTEXTTP
 description: Work CenterTEXTTP
+semantic_en: "work center description interface - transactional multilingual text resource for work center names and descriptions with audit timestamps."
+semantic_vi: "giao diện mô tả trung tâm công việc - tài nguyên văn bản đa ngôn ngữ giao dịch cho tên và mô tả trung tâm công việc với dấu thời gian kiểm toán."
+keywords:
+  - mô tả
+  - trung tâm công việc
+  - ngôn ngữ
+  - ghi chú
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

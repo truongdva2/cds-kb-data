@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSTATUSDETAILS
 description: Workflowstatusdetails
+semantic_en: "workflow task - presents detailed task-level information including definition, processor assignment, completion timestamps, and result."
+semantic_vi: "nhiệm vụ quy trình công việc - trình bày thông tin chi tiết cấp nhiệm vụ bao gồm định nghĩa, gán xử lý, dấu thời gian hoàn thành và kết quả."
+keywords:
+  - quy trình công việc
+  - nhiệm vụ
+  - xử lý
+  - kết quả
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

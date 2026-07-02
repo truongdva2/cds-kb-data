@@ -1,6 +1,12 @@
 ---
 name: /MERP/SDF_CDS_FORMREG
 description: Sdf Cds Formreg
+semantic_en: "dynamic form registry view — tracks form instances with application name, form version, status, and related business object information."
+semantic_vi: "khung nhìn quản lý đơn dạng động — theo dõi các phiên bản đơn dạng cùng trạng thái và thông tin đối tượng kinh doanh liên quan."
+keywords:
+  - đơn dạng động
+  - đăng ký đơn dạng
+  - quản lý biểu mẫu
 app_component: MOB-APP-MAO-ERP
 software_component: SAPSCORE
 release_state: released

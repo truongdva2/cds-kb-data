@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERPOOLEDCAPACITY
 description: Work CenterPOOLEDCAPACITY
+semantic_en: "work center pooled capacity - represents shared production capacity across multiple work centers with finite or infinite markers and planning exclusion flag."
+semantic_vi: "công suất hợp nhất trung tâm công việc - đại diện cho công suất sản xuất được chia sẻ trên nhiều trung tâm công việc với cờ hữu hạn hoặc vô hạn và cờ loại trừ lập kế hoạch."
+keywords:
+  - công suất hợp nhất
+  - trung tâm công việc
+  - chia sẻ
+  - lập kế hoạch
 app_component: PP-BD-WKC-2CL
 software_component: SAPSCORE
 release_state: released

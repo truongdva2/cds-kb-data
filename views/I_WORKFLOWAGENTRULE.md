@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWAGENTRULE
 description: Workflowagentrule
+semantic_en: "workflow definition agent rule - defines routing rules for assigning workflow tasks to agent groups based on scenario conditions."
+semantic_vi: "quy tắc tác nhân định nghĩa quy trình công việc - xác định quy tắc định tuyến để gán nhiệm vụ quy trình công việc cho nhóm tác nhân dựa trên điều kiện kịch bản."
+keywords:
+  - quy trình công việc
+  - quy tắc tác nhân
+  - định tuyến
+  - kịch bản
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

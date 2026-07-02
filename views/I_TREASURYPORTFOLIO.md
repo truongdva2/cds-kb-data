@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYPORTFOLIO
 description: Treasuryportfolio
+semantic_en: "portfolio master data — company code and portfolio identifiers for treasury position grouping"
+semantic_vi: "dữ liệu danh mục định chỉ danh tính danh mục (portfolio) trong quản lý kho bạc"
+keywords:
+  - danh mục định chỉ
+  - kho bạc
+  - danh mục tài khoản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

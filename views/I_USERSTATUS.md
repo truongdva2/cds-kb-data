@@ -1,6 +1,11 @@
 ---
 name: I_USERSTATUS
 description: Userstatus
+semantic_en: "user-defined document statuses with sequence and authorization rules — manages custom status workflows and approval hierarchies"
+semantic_vi: "trạng thái tài liệu do người dùng xác định với các quy tắc trình tự và ủy quyền — quản lý quy trình làm việc trạng thái tùy chỉnh và phân cấp phê duyệt"
+keywords:
+  - trạng thái tài liệu
+  - quy trình làm việc
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

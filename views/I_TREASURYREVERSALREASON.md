@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYREVERSALREASON
 description: Treasuryreversalreason
+semantic_en: "treasury reversal reason — codes for categorizing treasury transaction reversals"
+semantic_vi: "lý do đảo ngược giao dịch kho bạc — mã để phân loại các giao dịch đảo ngược kho bạc"
+keywords:
+  - lý do đảo ngược
+  - phân loại đảo ngược
+  - giao dịch kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

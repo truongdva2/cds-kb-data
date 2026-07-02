@@ -1,6 +1,12 @@
 ---
 name: I_WARRANTYTYPE
 description: Warrantytype
+semantic_en: "warranty types – defining warranty type classifications with associated categories and number ranges."
+semantic_vi: "loại bảo hành – xác định phân loại loại bảo hành với danh mục liên quan và phạm vi số."
+keywords:
+  - bảo hành
+  - loại
+  - danh mục
 app_component: PM-EQM-SF-WA-2CL
 software_component: SAPSCORE
 release_state: released

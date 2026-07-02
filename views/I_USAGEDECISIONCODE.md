@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODE
 description: Usagedecisioncode
+semantic_en: "quality management usage decision codes with creation and modification audit trails — controls quality decision outcomes for inspected materials"
+semantic_vi: "mã quyết định sử dụng quản lý chất lượng với theo dõi kiểm toán tạo và sửa đổi — kiểm soát kết quả quyết định chất lượng cho vật liệu được kiểm tra"
+keywords:
+  - mã quyết định chất lượng
+  - quản lý chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

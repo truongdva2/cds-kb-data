@@ -1,6 +1,11 @@
 ---
 name: I_US_TAXPARTNERTAXDOCUMENT
 description: US Taxpartnertaxdocument
+semantic_en: "US tax partner tax documents with reference links and transaction tracking — records external tax documents for US tax calculation"
+semantic_vi: "tài liệu thuế của đối tác thuế Hoa Kỳ có liên kết tham chiếu và theo dõi giao dịch — ghi lại tài liệu thuế bên ngoài để tính toán thuế Hoa Kỳ"
+keywords:
+  - tài liệu thuế Hoa Kỳ
+  - đối tác thuế
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

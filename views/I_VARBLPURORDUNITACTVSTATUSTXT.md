@@ -1,6 +1,11 @@
 ---
 name: I_VARBLPURORDUNITACTVSTATUSTXT
 description: Varblpurordunitactvstatustxt
+semantic_en: "translated status text for variable purchase order units in multiple languages — provides localized active/inactive status labels"
+semantic_vi: "văn bản trạng thái được dịch cho các đơn vị đơn hàng mua hàng có thể thay đổi bằng nhiều ngôn ngữ — cung cấp nhãn trạng thái hoạt động/không hoạt động được địa phương hóa"
+keywords:
+  - tên trạng thái đơn hàng mua
+  - dữ liệu đa ngôn ngữ
 app_component: MM-PUR-GF-MAS-2CL
 software_component: SAPSCORE
 release_state: released

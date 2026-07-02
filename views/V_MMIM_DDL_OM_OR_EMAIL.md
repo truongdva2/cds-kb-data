@@ -1,6 +1,12 @@
 ---
 name: V_MMIM_DDL_OM_OR_EMAIL
 description: V Mmim Ddl OM OR Email
+semantic_en: "materials management output management email view — extracts material document records with purchase orders, quantities, and vendor for email notifications."
+semantic_vi: "khung nhìn email quản lý hàng hoá — trích xuất bản ghi tài liệu vật liệu với đơn hàng mua, số lượng, và nhà cung cấp cho thông báo email."
+keywords:
+  - thông báo nhận hàng
+  - đơn hàng mua
+  - quản lý vật liệu
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

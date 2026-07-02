@@ -1,6 +1,12 @@
 ---
 name: V_MMIM_DDL_OM_PARAM_PI
 description: V Mmim Ddl OM Param PI
+semantic_en: "materials management physical inventory parameters view — stores inventory count document details with plant, location, company code, and valuation method."
+semantic_vi: "khum nhìn tham số kiểm kê vật lý — lưu trữ chi tiết tài liệu kiểm kê với nhà máy, địa điểm, mã công ty, và phương pháp định giá."
+keywords:
+  - kiểm kê vật lý
+  - tham số kho
+  - định giá
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

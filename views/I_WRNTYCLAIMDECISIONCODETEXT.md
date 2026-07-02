@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMDECISIONCODETEXT
 description: Wrntyclaimdecisioncodetext
+semantic_en: "warranty claim decision code text — localized descriptions of warranty decision codes"
+semantic_vi: "mô tả mã quyết định bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả mã quyết định
+  - text quyết định bảo hành
+  - phán quyết bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

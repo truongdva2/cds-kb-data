@@ -1,6 +1,12 @@
 ---
 name: I_WBSBILLOFMATERIALHEADERDEX
 description: WBSBill of MaterialHEADERDEX
+semantic_en: "WBS bill of material header data extraction – exposing BOM structure metadata with configurability and version tracking."
+semantic_vi: "trích xuất dữ liệu tiêu đề danh sách vật liệu WBS – tiết lộ siêu dữ liệu cấu trúc bom với khả năng cấu hình và theo dõi phiên bản."
+keywords:
+  - bom
+  - WBS
+  - cấu hình
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

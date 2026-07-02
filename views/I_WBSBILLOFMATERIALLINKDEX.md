@@ -1,6 +1,12 @@
 ---
 name: I_WBSBILLOFMATERIALLINKDEX
 description: WBSBill of MaterialLINKDEX
+semantic_en: "WBS bill of material link data extraction – connecting WBS elements to BOMs and plants with audit tracking."
+semantic_vi: "trích xuất dữ liệu liên kết danh sách vật liệu WBS – kết nối các phần tử WBS tới bom và nhà máy với theo dõi kiểm toán."
+keywords:
+  - bom
+  - WBS
+  - liên kết
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

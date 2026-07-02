@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCATEGORYAPPL
 description: Work CenterCATEGORYAPPL
+semantic_en: "application assignment of work center category - maps work center categories to bill-of-operations applications for process control."
+semantic_vi: "gán ứng dụng của danh mục trung tâm công việc - ánh xạ danh mục trung tâm công việc tới ứng dụng hóa đơn hoạt động để kiểm soát quy trình."
+keywords:
+  - danh mục
+  - ứng dụng
+  - hóa đơn hoạt động
+  - ánh xạ
 app_component: PP-CFS-CE-2CL
 software_component: SAPSCORE
 release_state: released

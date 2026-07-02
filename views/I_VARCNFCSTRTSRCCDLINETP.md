@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCSTRTSRCCDLINETP
 description: Varcnfcstrtsrccdlinetp
+semantic_en: "variable configuration constraint source code line text — provides source code line details for configuration constraints"
+semantic_vi: "văn bản dòng mã nguồn ràng buộc cấu hình có thể thay đổi — cung cấp chi tiết dòng mã nguồn cho các ràng buộc cấu hình"
+keywords:
+  - dòng mã ràng buộc
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

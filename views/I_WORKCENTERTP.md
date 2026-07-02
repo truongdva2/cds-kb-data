@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERTP
 description: Work CenterTP
+semantic_en: "work center interface - transactional projection of work center master data with description, category, responsible party, and assigned capacity."
+semantic_vi: "giao diện trung tâm công việc - chiếu giao dịch của dữ liệu chính trung tâm công việc với mô tả, danh mục, bên chịu trách nhiệm và công suất được gán."
+keywords:
+  - trung tâm công việc
+  - mô tả
+  - công suất
+  - danh mục
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

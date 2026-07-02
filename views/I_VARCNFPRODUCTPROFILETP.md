@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFPRODUCTPROFILETP
 description: Varcnfproductprofiletp
+semantic_en: "variant configuration profile master data – core product-to-profile mapping for variant configuration."
+semantic_vi: "dữ liệu chính hồ sơ cấu hình biến thể – ánh xạ cốt lõi sản phẩm tới hồ sơ cho cấu hình biến thể."
+keywords:
+  - cấu hình biến thể
+  - hồ sơ
+  - sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

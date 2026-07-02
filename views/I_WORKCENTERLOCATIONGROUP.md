@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERLOCATIONGROUP
 description: Work CenterLOCATIONGROUP
+semantic_en: "work center location group - organizational grouping of work center locations within plants for resource clustering."
+semantic_vi: "nhóm vị trí trung tâm công việc - nhóm tổ chức vị trí trung tâm công việc trong nhà máy để nhóm tài nguyên."
+keywords:
+  - nhóm vị trí
+  - trung tâm công việc
+  - nhà máy
+  - phân nhóm
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

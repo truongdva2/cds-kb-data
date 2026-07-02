@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFOBJECTDEPENDENCYTP
 description: Varcnfobjectdependencytp
+semantic_en: "variant configuration object dependencies – defining relationships and local scope indicators for configurable objects."
+semantic_vi: "phụ thuộc đối tượng cấu hình biến thể – xác định mối quan hệ và chỉ báo phạm vi cục bộ cho các đối tượng."
+keywords:
+  - phụ thuộc
+  - cấu hình
+  - đối tượng
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

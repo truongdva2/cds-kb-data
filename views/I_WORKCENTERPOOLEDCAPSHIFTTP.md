@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERPOOLEDCAPSHIFTTP
 description: Work CenterPOOLEDCAPSHIFTTP
+semantic_en: "pooled capacity shift - defines shift-level capacity availability for pooled resources with shift definition and time windows."
+semantic_vi: "ca công suất hợp nhất - xác định sẵn có công suất cấp ca cho tài nguyên hợp nhất với xác định ca và cửa sổ thời gian."
+keywords:
+  - ca làm việc
+  - công suất hợp nhất
+  - định nghĩa ca
+  - thời gian
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

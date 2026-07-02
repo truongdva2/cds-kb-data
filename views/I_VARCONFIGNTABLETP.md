@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLETP
 description: Varconfigntabletp
+semantic_en: "variant configuration table master – defining configuration table structure with status, group, and custom storage links."
+semantic_vi: "bảng cấu hình biến thể chính – xác định cấu trúc bảng cấu hình với trạng thái, nhóm và liên kết lưu trữ tùy chỉnh."
+keywords:
+  - bảng cấu hình
+  - trạng thái
+  - lưu trữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRSYHEDGINGRELSHPSCENARIOTXT
 description: Trsyhedgingrelshpscenariotxt
+semantic_en: "hedging relationship scenario text — language-dependent names for hedging scenarios"
+semantic_vi: "văn bản kịch bản mối quan hệ phòng hộ — tên kịch bản phòng hộ theo ngôn ngữ"
+keywords:
+  - tên kịch bản phòng hộ
+  - ngôn ngữ phòng hộ
+  - mô tả kịch bản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

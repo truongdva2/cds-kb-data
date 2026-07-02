@@ -1,6 +1,12 @@
 ---
 name: I_YEARMONTH
 description: Yearmonth
+semantic_en: "year month — calendar month master data with quarter, leap year, and first/last day information"
+semantic_vi: "dữ liệu chính tháng lịch bao gồm quý, năm nhuận và ngày đầu/cuối tháng"
+keywords:
+  - tháng năm
+  - lịch tháng
+  - dữ liệu tháng
 app_component: CA-GTF-DF
 software_component: SAP_BASIS
 release_state: released

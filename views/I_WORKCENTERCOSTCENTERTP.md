@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCOSTCENTERTP
 description: Work CenterCost CenterTP
+semantic_en: "work center cost center interface - transactional projection linking work centers to cost centers with activity type and business process classification."
+semantic_vi: "giao diện trung tâm chi phí trung tâm công việc - chiếu giao dịch liên kết trung tâm công việc với trung tâm chi phí với phân loại loại hoạt động và quá trình kinh doanh."
+keywords:
+  - trung tâm chi phí
+  - trung tâm công việc
+  - loại hoạt động
+  - quy trình kinh doanh
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

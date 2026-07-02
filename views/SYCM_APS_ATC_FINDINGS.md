@@ -1,6 +1,12 @@
 ---
 name: SYCM_APS_ATC_FINDINGS
 description: Sycm Aps Atc Findings
+semantic_en: "CCM ATC findings view — aggregates code quality findings per project with check titles, object references, and quick-fix availability."
+semantic_vi: "khung nhìn phát hiện ATC CCM — tập hợp các phát hiện chất lượng mã theo dự án với tiêu đề kiểm tra, tham chiếu đối tượng, và sửa chữa nhanh."
+keywords:
+  - phát hiện ATC
+  - quản lý thay đổi
+  - kiểm tra mã
 app_component: BC-DWB-CEX-CCM
 software_component: SAP_BASIS
 release_state: released

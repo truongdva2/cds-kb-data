@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWSTEPRESULT
 description: Workflowstepresult
+semantic_en: "workflow step result - represents the possible outputs or decisions at each step node within a workflow scenario."
+semantic_vi: "kết quả bước quy trình công việc - đại diện cho các kết quả hoặc quyết định có thể ở mỗi nút bước trong kịch bản quy trình công việc."
+keywords:
+  - quy trình công việc
+  - bước
+  - kết quả
+  - nút
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

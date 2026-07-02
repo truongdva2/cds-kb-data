@@ -1,6 +1,13 @@
 ---
 name: I_WORKFLOWEXTERNALSTATUSTEXT
 description: Workflowexternalstatustext
+semantic_en: "workflow status text - multilingual descriptions of workflow status codes for user interface and reporting."
+semantic_vi: "văn bản trạng thái quy trình công việc - mô tả đa ngôn ngữ của mã trạng thái quy trình công việc cho giao diện người dùng và báo cáo."
+keywords:
+  - quy trình công việc
+  - trạng thái
+  - mô tả
+  - ngôn ngữ
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFHISTLCONSTRAINTNETTP
 description: Varcnfhistlconstraintnettp
+semantic_en: "historical variable configuration constraint networks with change tracking — maintains audit trail of constraint network evolution"
+semantic_vi: "các mạng ràng buộc cấu hình có thể thay đổi lịch sử với theo dõi thay đổi — duy trì theo dõi kiểm toán của quá trình phát triển mạng ràng buộc"
+keywords:
+  - lịch sử ràng buộc cấu hình
+  - theo dõi kiểm toán
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

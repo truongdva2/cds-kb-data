@@ -1,6 +1,11 @@
 ---
 name: I_USERTOLERANCEGROUP
 description: Usertolerancegroup
+semantic_en: "tolerance limits for invoice payment variances by user and company code — defines maximum acceptable differences in payment processing"
+semantic_vi: "giới hạn dung sai cho các chênh lệch thanh toán hóa đơn theo người dùng và mã công ty — xác định các chênh lệch tối đa có thể chấp nhận được trong xử lý thanh toán"
+keywords:
+  - dung sai thanh toán
+  - chênh lệch thanh toán
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

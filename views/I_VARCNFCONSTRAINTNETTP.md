@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCONSTRAINTNETTP
 description: Varcnfconstraintnettp
+semantic_en: "variable configuration constraint networks with modification tracking — defines logical constraint networks for product configuration rules"
+semantic_vi: "các mạng ràng buộc cấu hình có thể thay đổi với theo dõi sửa đổi — xác định các mạng ràng buộc logic cho các quy tắc cấu hình sản phẩm"
+keywords:
+  - mạng ràng buộc cấu hình
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WAREHOUSEACTIVITYSTATUSTEXT
 description: Warehouseactivitystatustext
+semantic_en: "warehouse activity status text translations – providing multilingual names for warehouse activity statuses."
+semantic_vi: "bản dịch văn bản trạng thái hoạt động kho – cung cấp tên đa ngôn ngữ cho trạng thái hoạt động kho."
+keywords:
+  - kho
+  - trạng thái
+  - bản dịch
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

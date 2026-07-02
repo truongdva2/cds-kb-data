@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFHISTLOBJDPNTEXTTP
 description: Varcnfhistlobjdpntexttp
+semantic_en: "historical variable configuration object dependency descriptions in multiple languages — maintains language versions of object dependencies over time"
+semantic_vi: "mô tả phụ thuộc đối tượng cấu hình có thể thay đổi lịch sử bằng nhiều ngôn ngữ — duy trì các phiên bản ngôn ngữ của các phụ thuộc đối tượng theo thời gian"
+keywords:
+  - lịch sử phụ thuộc đối tượng
+  - dữ liệu đa ngôn ngữ
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRSYCTPTYLIMITTYPETEXT
 description: Trsyctptylimittypetext
+semantic_en: "treasury counterparty limit type text — language-dependent descriptions of counterparty limit types"
+semantic_vi: "văn bản loại giới hạn đối tác kho bạc — mô tả loại giới hạn đối tác theo ngôn ngữ"
+keywords:
+  - tên loại giới hạn
+  - ngôn ngữ giới hạn
+  - mô tả loại giới hạn
 app_component: FIN-FSCM-TRM-CR-2CL
 software_component: SAPSCORE
 release_state: released

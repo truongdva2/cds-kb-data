@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCREGISTEREDUSERLIST
 description: TR Edocregistereduserlist
+semantic_en: "eDocument Turkey registration information — Turkish registered users with tax identifiers, business partner types, and registration dates"
+semantic_vi: "thông tin đăng ký eDocument Thổ Nhĩ Kỳ — người dùng đã đăng ký Thổ Nhĩ Kỳ kèm mã định danh thuế, loại đối tác kinh doanh và ngày đăng ký"
+keywords:
+  - người dùng đã đăng ký
+  - mã thuế
+  - ngày đăng ký eDocument
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

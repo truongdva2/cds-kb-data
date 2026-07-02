@@ -1,6 +1,12 @@
 ---
 name: I_TRSYGENVALUATIONCLASSTEXT
 description: Trsygenvaluationclasstext
+semantic_en: "treasury general valuation class text — language-dependent names for general valuation classes"
+semantic_vi: "văn bản lớp định giá chung kho bạc — tên lớp định giá chung theo ngôn ngữ"
+keywords:
+  - tên lớp định giá chung
+  - ngôn ngữ định giá
+  - mô tả định giá
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

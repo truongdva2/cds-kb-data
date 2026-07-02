@@ -1,6 +1,12 @@
 ---
 name: I_WITHHOLDINGTAXITEM
 description: Withholdingtaxitem
+semantic_en: "withholding tax items – recording tax withholding amounts in multiple currencies with base amount tracking."
+semantic_vi: "mục thuế khóa – ghi lại số tiền khóa thuế trong nhiều loại tiền với theo dõi số tiền cơ sở."
+keywords:
+  - thuế khóa
+  - mục
+  - tiền tệ
 app_component: FI-AP-AP-Q-2CL
 software_component: SAPSCORE
 release_state: released

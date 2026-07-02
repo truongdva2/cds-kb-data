@@ -1,6 +1,11 @@
 ---
 name: I_UNITEDSTATESTAXCATEGORY
 description: Unitedstatestaxcategory
+semantic_en: "value domain listing tax categories defined for US tax calculations — provides code and category identifiers used in tax determination"
+semantic_vi: "miền giá trị danh sách các danh mục thuế xác định cho tính toán thuế Hoa Kỳ — cung cấp mã và định danh danh mục được sử dụng trong xác định thuế"
+keywords:
+  - danh mục thuế Hoa Kỳ
+  - phân loại thuế
 app_component: FI-TXL-EXT
 software_component: SAPSCORE
 release_state: released

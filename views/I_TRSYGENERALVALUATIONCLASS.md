@@ -1,6 +1,12 @@
 ---
 name: I_TRSYGENERALVALUATIONCLASS
 description: Trsygeneralvaluationclass
+semantic_en: "treasury general valuation class — general valuation classes used across treasury valuations"
+semantic_vi: "lớp định giá chung kho bạc — các lớp định giá chung được sử dụng trên toàn bộ định giá kho bạc"
+keywords:
+  - lớp định giá chung
+  - phân loại định giá
+  - kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

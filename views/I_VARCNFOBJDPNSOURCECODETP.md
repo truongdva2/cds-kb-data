@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFOBJDPNSOURCECODETP
 description: Varcnfobjdpnsourcecodetp
+semantic_en: "variant configuration object dependency source code – defining source code validity periods and change tracking for dependencies."
+semantic_vi: "mã nguồn phụ thuộc đối tượng cấu hình biến thể – xác định khoảng thời gian có hiệu lực của mã nguồn và theo dõi thay đổi."
+keywords:
+  - mã nguồn
+  - phụ thuộc
+  - cấu hình
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCSTRTSOURCECODETP
 description: Varcnfcstrtsourcecodetp
+semantic_en: "variable configuration constraint source code with validity periods — maps constraints to source code with temporal validity"
+semantic_vi: "mã nguồn ràng buộc cấu hình có thể thay đổi có các kỳ hạn hợp lệ — ánh xạ các ràng buộc tới mã nguồn có tính hợp lệ thời gian"
+keywords:
+  - mã nguồn ràng buộc
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

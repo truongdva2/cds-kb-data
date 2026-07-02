@@ -1,6 +1,12 @@
 ---
 name: I_VARCONFIGNTABLEVALUETP
 description: Varconfigntablevaluetp
+semantic_en: "variant configuration table values – storing characteristic values with numeric ranges and intervals for table cells."
+semantic_vi: "giá trị bảng cấu hình biến thể – lưu trữ giá trị đặc tính với phạm vi số và khoảng cho ô bảng."
+keywords:
+  - giá trị
+  - bảng cấu hình
+  - đặc tính
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TR_ELECTRONICDOCEXPINVOICE
 description: TR Electronicdocexpinvoice
+semantic_en: "electronic document for Turkish export invoices — captures invoice header details including document IDs, tax amounts, and shipment information for cross-border transactions"
+semantic_vi: "tài liệu điện tử hóa đơn xuất khẩu Thổ Nhĩ Kỳ — ghi lại thông tin chi tiết đơn hàng bao gồm mã định danh tài liệu, số tiền thuế và thông tin vận chuyển cho giao dịch xuyên biên giới"
+keywords:
+  - hóa đơn xuất khẩu Thổ Nhĩ Kỳ
+  - tài liệu điện tử
+  - số tiền thuế
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

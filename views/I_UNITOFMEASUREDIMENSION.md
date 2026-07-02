@@ -1,6 +1,12 @@
 ---
 name: I_UNITOFMEASUREDIMENSION
 description: Unit of MeasureDIMENSION
+semantic_en: "physical measurement dimensions for units of measure — defines exponents for SI base quantities (length, mass, time, temperature, etc.)"
+semantic_vi: "kích thước đo lường vật lý cho các đơn vị đo — xác định số mũ cho các đại lượng cơ sở SI (chiều dài, khối lượng, thời gian, nhiệt độ, v.v.)"
+keywords:
+  - đơn vị đo lường
+  - kích thước vật lý
+  - số mũ SI
 app_component: BC-SRV-ASF-UOM
 software_component: SAP_BASIS
 release_state: released

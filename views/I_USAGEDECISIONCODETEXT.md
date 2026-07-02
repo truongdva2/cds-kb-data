@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODETEXT
 description: Usagedecisioncodetext
+semantic_en: "translated text labels for usage decision codes in multiple languages — provides localized names of quality decision outcomes"
+semantic_vi: "nhãn văn bản được dịch cho các mã quyết định sử dụng bằng nhiều ngôn ngữ — cung cấp tên địa phương hóa của kết quả quyết định chất lượng"
+keywords:
+  - tên mã quyết định
+  - dữ liệu đa ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

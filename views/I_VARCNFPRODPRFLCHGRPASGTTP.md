@@ -1,6 +1,12 @@
 ---
 name: I_VARCNFPRODPRFLCHGRPASGTTP
 description: Varcnfprodprflchgrpasgttp
+semantic_en: "variant configuration profile characteristic group assignments – linking products and profiles to characteristic groups with sorting values."
+semantic_vi: "phân công nhóm đặc tính hồ sơ cấu hình biến thể – liên kết sản phẩm và hồ sơ tới nhóm đặc tính với giá trị sắp xếp."
+keywords:
+  - hồ sơ cấu hình
+  - đặc tính
+  - nhóm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

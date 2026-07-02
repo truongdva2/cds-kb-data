@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYRETURNEDSTATUS
 description: Wrntyreturnedstatus
+semantic_en: "warranty returned status — returned parts status with partial receipt and deadline relevance information"
+semantic_vi: "trạng thái hàng trả bao gồm thông tin nhận bộ phận một phần và liên quan đến thời hạn"
+keywords:
+  - trạng thái trả hàng bảo hành
+  - trả hàng một phần
+  - hạn chót trả hàng
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

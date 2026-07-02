@@ -1,6 +1,12 @@
 ---
 name: I_WRKCTRBYSEMANTICKEYSTDVH
 description: Wrkctrbysemantickeystdvh
+semantic_en: "work center by semantic key — work center master with type and category classification"
+semantic_vi: "trung tâm công việc theo kóa ngữ nghĩa bao gồm loại và phân loại"
+keywords:
+  - trung tâm công việc
+  - phân loại trung tâm
+  - mã loại trung tâm
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

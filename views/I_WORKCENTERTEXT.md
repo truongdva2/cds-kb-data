@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERTEXT
 description: Work CenterTEXT
+semantic_en: "work center text - multilingual descriptions and labels for work centers facilitating user interface localization."
+semantic_vi: "văn bản trung tâm công việc - mô tả đa ngôn ngữ và nhãn cho trung tâm công việc tạo điều kiện cho bản địa hóa giao diện người dùng."
+keywords:
+  - trung tâm công việc
+  - mô tả
+  - ngôn ngữ
+  - nhãn
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

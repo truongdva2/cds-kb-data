@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMPROCESSINGSTATUS
 description: Wrntyclaimprocessingstatus
+semantic_en: "warranty claim processing status — processing status codes for warranty claims with classification"
+semantic_vi: "mã trạng thái xử lý yêu cầu bảo hành với phân loại và danh mục phiên bản"
+keywords:
+  - trạng thái xử lý bảo hành
+  - mã trạng thái yêu cầu
+  - phân loại xử lý
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

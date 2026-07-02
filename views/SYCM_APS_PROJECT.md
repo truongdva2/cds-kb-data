@@ -1,6 +1,12 @@
 ---
 name: SYCM_APS_PROJECT
 description: Sycm Aps Project
+semantic_en: "CCM projects view — lists change management projects with descriptions and associated ATC run series references."
+semantic_vi: "khung nhìn dự án CCM — liệt kê các dự án quản lý thay đổi với mô tả và tham chiếu chuỗi chạy ATC."
+keywords:
+  - dự án quản lý thay đổi
+  - chuỗi chạy ATC
+  - mô tả dự án
 app_component: BC-DWB-CEX-CCM
 software_component: SAP_BASIS
 release_state: released

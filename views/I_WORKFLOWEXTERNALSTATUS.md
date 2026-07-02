@@ -1,6 +1,12 @@
 ---
 name: I_WORKFLOWEXTERNALSTATUS
 description: Workflowexternalstatus
+semantic_en: "workflow status - enumeration of externally visible workflow states representing task progress and completion status."
+semantic_vi: "trạng thái quy trình công việc - liệt kê các trạng thái quy trình công việc hiển thị bên ngoài đại diện cho tiến độ và trạng thái hoàn thành nhiệm vụ."
+keywords:
+  - quy trình công việc
+  - trạng thái
+  - tiến độ
 app_component: BC-BMT-WFM
 software_component: SAP_BASIS
 release_state: released

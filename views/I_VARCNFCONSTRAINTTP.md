@@ -1,6 +1,11 @@
 ---
 name: I_VARCNFCONSTRAINTTP
 description: Varcnfconstrainttp
+semantic_en: "variable configuration constraints with local modification tracking — defines individual configuration rules and restrictions"
+semantic_vi: "các ràng buộc cấu hình có thể thay đổi với theo dõi sửa đổi cục bộ — xác định các quy tắc và hạn chế cấu hình riêng lẻ"
+keywords:
+  - ràng buộc cấu hình
+  - cấu hình sản phẩm
 app_component: LO-VCH-API-2CL
 software_component: SAPSCORE
 release_state: released

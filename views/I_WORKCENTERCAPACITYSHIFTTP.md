@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCAPACITYSHIFTTP
 description: Work CenterCAPACITYSHIFTTP
+semantic_en: "work center capacity shift - interface defining shift-specific capacity availability including shift definition, timing, and utilization percentage."
+semantic_vi: "ca công suất trung tâm công việc - giao diện xác định sẵn có công suất dành riêng cho ca bao gồm xác định ca, thời gian và tỷ lệ phần trăm sử dụng."
+keywords:
+  - ca làm việc
+  - công suất
+  - định nghĩa ca
+  - thời gian
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMVERSIONCATEGORYTXT
 description: Wrntyclaimversioncategorytxt
+semantic_en: "warranty claim version category text — localized descriptions of warranty claim version categories"
+semantic_vi: "mô tả danh mục phiên bản yêu cầu bảo hành theo ngôn ngữ"
+keywords:
+  - danh mục phiên bản bảo hành
+  - text danh mục phiên bản
+  - loại phiên bản
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

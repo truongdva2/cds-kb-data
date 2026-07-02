@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTWRKORDERDETAIL
 description: Wrkassgmtwrkorderdetail
+semantic_en: "work assignment work order detail — work order information including supplier and blocking status"
+semantic_vi: "chi tiết lệnh công việc cho phân công bao gồm nhà cung cấp và trạng thái khóa"
+keywords:
+  - lệnh công việc phân công
+  - nhà cung cấp công việc
+  - chi tiết lệnh
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

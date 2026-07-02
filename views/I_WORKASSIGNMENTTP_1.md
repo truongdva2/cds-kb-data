@@ -1,6 +1,13 @@
 ---
 name: I_WORKASSIGNMENTTP_1
 description: Workassignmenttp 1
+semantic_en: "work assignments projection - filtered view of work assignments identifying contingent workers and blocked status with temporal boundaries."
+semantic_vi: "chiếu của công việc được gán - chế độ xem lọc công việc được gán xác định công nhân thỉnh vực và trạng thái bị chặn với ranh giới thời gian."
+keywords:
+  - công việc được gán
+  - công nhân thỉnh vực
+  - ngày bắt đầu
+  - ngày kết thúc
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

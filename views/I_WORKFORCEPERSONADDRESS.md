@@ -1,6 +1,12 @@
 ---
 name: I_WORKFORCEPERSONADDRESS
 description: Workforcepersonaddress
+semantic_en: "workforce person address — employee address details with postal and regional information"
+semantic_vi: "địa chỉ của nhân viên bao gồm quốc gia, mã bưu chính, khu vực và thành phố"
+keywords:
+  - địa chỉ nhân viên
+  - địa chỉ người lao động
+  - thông tin bưu chính
 app_component: CA-WFD-BL
 software_component: SAPSCORE
 release_state: released

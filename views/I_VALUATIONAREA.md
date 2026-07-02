@@ -1,6 +1,11 @@
 ---
 name: I_VALUATIONAREA
 description: Valuationarea
+semantic_en: "valuation area master defining inventory valuation scope by company code — establishes locations for material inventory valuation"
+semantic_vi: "chính dữ liệu vùng định giá xác định phạm vi định giá kho theo mã công ty — thành lập các vị trí cho định giá kho vật liệu"
+keywords:
+  - vùng định giá
+  - định giá kho
 app_component: LO-MD-PL-2CL
 software_component: SAPSCORE
 release_state: released

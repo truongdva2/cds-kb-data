@@ -1,6 +1,11 @@
 ---
 name: I_USERSTATUSTEXT
 description: Userstatustext
+semantic_en: "translated names and descriptions for user-defined document statuses in multiple languages — provides localized status labels"
+semantic_vi: "tên và mô tả được dịch cho trạng thái tài liệu do người dùng xác định bằng nhiều ngôn ngữ — cung cấp nhãn trạng thái địa phương hóa"
+keywords:
+  - tên trạng thái
+  - dữ liệu đa ngôn ngữ
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRSYFINSTSCOUNTRYGEOPOINT
 description: Trsyfinstscountrygeopoint
+semantic_en: "geographical center of a country/region — geolocation point for each country in the system"
+semantic_vi: "tâm địa lý của quốc gia/khu vực — điểm địa lý cho mỗi quốc gia trong hệ thống"
+keywords:
+  - tâm địa lý
+  - quốc gia
+  - tọa độ địa lý
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

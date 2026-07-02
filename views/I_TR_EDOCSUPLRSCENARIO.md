@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCSUPLRSCENARIO
 description: TR Edocsuplrscenario
+semantic_en: "eDocument Turkey vendor scenarios — mapping of Turkish suppliers/vendors to e-document scenarios"
+semantic_vi: "kịch bản nhà cung cấp eDocument Thổ Nhĩ Kỳ — ánh xạ nhà cung cấp Thổ Nhĩ Kỳ với các kịch bản eDocument"
+keywords:
+  - kịch bản nhà cung cấp
+  - eDocument Thổ Nhĩ Kỳ
+  - nhà cung cấp
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

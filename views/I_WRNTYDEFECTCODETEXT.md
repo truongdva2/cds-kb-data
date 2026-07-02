@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYDEFECTCODETEXT
 description: Wrntydefectcodetext
+semantic_en: "warranty defect code text — localized descriptions of inspection defect codes used in warranty"
+semantic_vi: "mô tả mã lỗi kiểm tra được sử dụng trong bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả mã lỗi
+  - text mã kiểm tra
+  - mã khiếm khuyết
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

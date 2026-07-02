@@ -1,6 +1,12 @@
 ---
 name: I_VARIANCEREASON
 description: Variancereason
+semantic_en: "variance reason codes – classifying reasons for material or cost variances by plant."
+semantic_vi: "mã lý do chênh lệch – phân loại lý do chênh lệch vật liệu hoặc chi phí theo nhà máy."
+keywords:
+  - chênh lệch
+  - mã lý do
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

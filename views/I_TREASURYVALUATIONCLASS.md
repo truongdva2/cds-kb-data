@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYVALUATIONCLASS
 description: Treasuryvaluationclass
+semantic_en: "treasury valuation class — classification of treasury valuation classes within valuation areas"
+semantic_vi: "lớp định giá kho bạc — phân loại các lớp định giá kho bạc trong các khu vực định giá"
+keywords:
+  - lớp định giá
+  - phân loại định giá
+  - khu vực định giá
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

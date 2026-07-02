@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLMCONTROLLINGITEMTYPE
 description: Wrntyclmcontrollingitemtype
+semantic_en: "warranty claim controlling item type — controlling item type classification for warranty claims"
+semantic_vi: "phân loại loại mục kiểm soát cho yêu cầu bảo hành"
+keywords:
+  - loại mục kiểm soát bảo hành
+  - phân loại mục kiểm soát
+  - mục kiểm soát
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCNUMBERCODEDESCRIPTION
 description: TR Edocnumbercodedescription
+semantic_en: "eDocument Turkey number group description — language-dependent descriptions of Turkish e-invoice universal codes by company"
+semantic_vi: "mô tả nhóm số eDocument Thổ Nhĩ Kỳ — mô tả theo ngôn ngữ các mã phổ quát hóa đơn điện tử Thổ Nhĩ Kỳ theo công ty"
+keywords:
+  - mã phổ quát hóa đơn
+  - nhóm số eDocument
+  - mô tả mã
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

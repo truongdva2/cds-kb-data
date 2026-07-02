@@ -1,6 +1,11 @@
 ---
 name: I_UPLDFILELIFECYCSTSAPI01TEXT
 description: Upldfilelifecycstsapi 01TEXT
+semantic_en: "text labels for supplier invoice upload file lifecycle status in multiple languages — provides status descriptions for invoice file uploads"
+semantic_vi: "nhãn văn bản cho trạng thái vòng đời tệp tải lên hóa đơn nhà cung cấp bằng nhiều ngôn ngữ — cung cấp mô tả trạng thái cho các tệp tải lên hóa đơn"
+keywords:
+  - trạng thái tệp tải lên
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

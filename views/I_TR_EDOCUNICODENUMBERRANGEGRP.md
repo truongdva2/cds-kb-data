@@ -1,6 +1,12 @@
 ---
 name: I_TR_EDOCUNICODENUMBERRANGEGRP
 description: TR Edocunicodenumberrangegrp
+semantic_en: "eDocument Turkey unicode number range group — Turkish e-document number ranges by company and business partner alias with unicode codes"
+semantic_vi: "nhóm phạm vi số unicode eDocument Thổ Nhĩ Kỳ — phạm vi số eDocument Thổ Nhĩ Kỳ theo công ty và bí danh đối tác kinh doanh kèm mã unicode"
+keywords:
+  - phạm vi số eDocument
+  - mã unicode
+  - nhóm số Thổ Nhĩ Kỳ
 app_component: CA-GTF-CSC-EDO-TR
 software_component: SAPSCORE
 release_state: released

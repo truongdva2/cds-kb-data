@@ -1,6 +1,11 @@
 ---
 name: I_USAGEDECISIONCODEGROUP
 description: Usagedecisioncodegroup
+semantic_en: "groupings of usage decision codes with status tracking — organizes quality decision codes into logical sets"
+semantic_vi: "các nhóm mã quyết định sử dụng với theo dõi trạng thái — tổ chức các mã quyết định chất lượng thành các tập hợp logic"
+keywords:
+  - nhóm mã quyết định
+  - quản lý chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

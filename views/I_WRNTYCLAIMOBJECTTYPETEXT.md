@@ -1,6 +1,12 @@
 ---
 name: I_WRNTYCLAIMOBJECTTYPETEXT
 description: Wrntyclaimobjecttypetext
+semantic_en: "warranty claim object type text — localized descriptions of reference object types"
+semantic_vi: "mô tả loại đối tượng tham chiếu bảo hành theo ngôn ngữ"
+keywords:
+  - mô tả đối tượng bảo hành
+  - text loại tham chiếu
+  - đối tượng bảo hành
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released

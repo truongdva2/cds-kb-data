@@ -1,6 +1,12 @@
 ---
 name: I_WRKASSGMTPAYMENTTP_1
 description: Wrkassgmtpaymenttp 1
+semantic_en: "work assignment payment projection — targeted projection of payment account details for work assignments"
+semantic_vi: "chiếu thông tin thanh toán phân công với chi tiết tài khoản ngân hàng"
+keywords:
+  - chiếu thanh toán phân công
+  - tài khoản thanh toán
+  - IBAN ngân hàng
 app_component: CA-WFD-INT
 software_component: SAPSCORE
 release_state: released

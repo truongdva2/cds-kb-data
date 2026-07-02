@@ -1,6 +1,13 @@
 ---
 name: I_WORKCENTERCAPACITYINTERVALTP
 description: Work CenterCAPACITYINTERVALTP
+semantic_en: "work center capacity interval - interface providing daily or weekly capacity availability windows with work day rules and shift sequence information."
+semantic_vi: "khoảng công suất trung tâm công việc - giao diện cung cấp cửa sổ sẵn có công suất hàng ngày hoặc hàng tuần với quy tắc ngày làm việc và thông tin trình tự ca làm việc."
+keywords:
+  - công suất
+  - khoảng thời gian
+  - quy tắc ngày làm việc
+  - ca làm việc
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

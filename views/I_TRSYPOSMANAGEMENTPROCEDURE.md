@@ -1,6 +1,12 @@
 ---
 name: I_TRSYPOSMANAGEMENTPROCEDURE
 description: Trsyposmanagementprocedure
+semantic_en: "treasury position management procedure — procedures for position management with step categories and valuation bases"
+semantic_vi: "thủ tục quản lý vị trí kho bạc — thủ tục quản lý vị trí kèm danh mục bước và cơ sở định giá"
+keywords:
+  - thủ tục quản lý vị trí
+  - kho bạc
+  - danh mục quản lý
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

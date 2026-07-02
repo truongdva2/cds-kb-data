@@ -1,6 +1,12 @@
 ---
 name: I_WARRANTYCLAIMITEMTYPEVH
 description: Warrantyclaimitemtypevh
+semantic_en: "warranty claim item type value help – mapping warranty item types to claim types with controlling indicators."
+semantic_vi: "trợ giúp loại mục yêu cầu bảo hành – ánh xạ loại mục bảo hành tới loại yêu cầu với chỉ báo kiểm soát."
+keywords:
+  - bảo hành
+  - yêu cầu
+  - loại mục
 app_component: LO-WTY-FIO
 software_component: SAPSCORE
 release_state: released
