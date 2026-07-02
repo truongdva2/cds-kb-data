@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTSUMMARYCONTROLVH
 description: Insplotsummarycontrolvh
+semantic_en: "Inspection lot summary value-help — provides selection list for summary control classifications."
+semantic_vi: "Danh sách giúp lựa chọn điều khiển tóm tắt lô kiểm tra."
+keywords:
+  - tóm tắt lô
+  - kiểm tra
+  - danh sách giúp
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

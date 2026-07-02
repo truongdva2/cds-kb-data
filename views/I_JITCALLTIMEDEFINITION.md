@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLTIMEDEFINITION
 description: Jitcalltimedefinition
+semantic_en: "JIT call time definition — time-based configuration with shift grouping and factory calendar for just-in-time processing."
+semantic_vi: "định nghĩa thời gian lệnh gọi JIT — cấu hình dựa trên thời gian với nhóm ca làm việc và lịch nhà máy để xử lý just-in-time."
+keywords:
+  - định nghĩa thời gian
+  - lệnh gọi JIT
+  - lịch nhà máy
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IN_EWBILLDOCDET
 description: IN Ewbilldocdet
+semantic_en: "linking e-way bills to source documents for GST compliance tracking in India"
+semantic_vi: "liên kết hóa đơn điện tử vận chuyển đến các tài liệu nguồn để theo dõi tuân thủ GST ở Ấn Độ"
+keywords:
+  - e-way bill
+  - GST
+  - tài liệu
 app_component: FI-LOC-LO-IN
 software_component: SAPSCORE
 release_state: released

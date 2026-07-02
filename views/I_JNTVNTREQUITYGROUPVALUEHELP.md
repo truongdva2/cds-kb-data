@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYGROUPVALUEHELP
 description: Jntvntrequitygroupvaluehelp
+semantic_en: "value help for joint venture equity group descriptions — quick lookup of equity group identifiers and text labels"
+semantic_vi: "trợ giúp giá trị cho mô tả nhóm cổ phần liên doanh — tra cứu nhanh nhóm cổ phần"
+keywords:
+  - liên doanh
+  - cổ phần
+  - nhóm
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

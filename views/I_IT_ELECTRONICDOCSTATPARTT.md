@@ -1,6 +1,12 @@
 ---
 name: I_IT_ELECTRONICDOCSTATPARTT
 description: IT Electronicdocstatpartt
+semantic_en: "Italy e-document partner status text — multilingual descriptions of e-document statuses from partner view."
+semantic_vi: "mô tả văn bản trạng thái đối tác tài liệu điện tử — mô tả đa ngôn ngữ của trạng thái tài liệu điện tử từ quan điểm đối tác."
+keywords:
+  - trạng thái đối tác
+  - tài liệu điện tử
+  - mô tả
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

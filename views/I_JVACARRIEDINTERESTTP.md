@@ -1,6 +1,12 @@
 ---
 name: I_JVACARRIEDINTERESTTP
 description: Jvacarriedinteresttp
+semantic_en: "transfer pricing view for joint venture carried interest — allocation percentages across partners and equity groups."
+semantic_vi: "khung giá chuyển giao cho lợi ích theo hợp đồng của liên doanh — tỷ lệ phân bổ trên các đối tác và nhóm vốn chủ."
+keywords:
+  - giá chuyển giao
+  - lợi ích theo hợp đồng
+  - liên doanh
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

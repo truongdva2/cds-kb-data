@@ -1,6 +1,12 @@
 ---
 name: I_JOURNALENTRYTP
 description: Journal EntryTP
+semantic_en: "journal entry transfer pricing projection — reference documents, business transaction types, tax reporting date, invoice date, and posting date"
+semantic_vi: "phép chiếu định giá chuyển giao bút toán — tài liệu tham chiếu, loại giao dịch, ngày báo cáo thuế, ngày hóa đơn"
+keywords:
+  - bút toán
+  - định giá chuyển giao
+  - tài liệu
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

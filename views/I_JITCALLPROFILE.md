@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLPROFILE
 description: Jitcallprofile
+semantic_en: "JIT call profile — configuration for just-in-time call processing including summarization strategy and goods receipt posting rules."
+semantic_vi: "hồ sơ lệnh gọi JIT — cấu hình để xử lý lệnh gọi just-in-time bao gồm chiến lược tóm tắt và quy tắc hạch toán nhận hàng."
+keywords:
+  - hồ sơ JIT
+  - cấu hình lệnh gọi
+  - chiến lược
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

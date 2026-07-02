@@ -1,6 +1,12 @@
 ---
 name: I_JP_INVCSMMRYITEM
 description: JP Invcsmmryitem
+semantic_en: "line items for Japan invoice summary — invoice summary items with payer, recipient, grouping unit, currency, and blocking status"
+semantic_vi: "hạng mục cho tóm tắt hóa đơn Nhật Bản — hạng mục tóm tắt hóa đơn với người trả, người nhận, nhóm, loại tiền tệ"
+keywords:
+  - Nhật Bản
+  - hóa đơn
+  - tóm tắt
 app_component: FI-LOC-FI-JP
 software_component: SAPSCORE
 release_state: released

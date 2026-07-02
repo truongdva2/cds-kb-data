@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKCOSTCTRMAPPGINTER
 description: Jvactbckcostctrmappginter
+semantic_en: "intercompany cutback cost center mapping — distributes costs across cost centers and cost objects between companies."
+semantic_vi: "ánh xạ trung tâm chi phí cắt giảm liên công ty — phân bổ chi phí trên các trung tâm chi phí và đối tượng chi phí giữa các công ty."
+keywords:
+  - trung tâm chi phí
+  - cắt giảm liên công ty
+  - phân bổ chi phí
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

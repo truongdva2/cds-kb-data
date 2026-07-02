@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCDELLOCKEDCTN
 description: Kanbancalcdellockedctn
+semantic_en: "domain values for kanban deletion of locked containers — controls locked container handling during calculation."
+semantic_vi: "các giá trị tên miền cho xóa vùng chứa bị khóa kanban — kiểm soát xử lý vùng chứa bị khóa trong quá trình tính toán."
+keywords:
+  - kanban
+  - xóa vùng chứa
+  - bị khóa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

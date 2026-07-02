@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTUSAGEDECISION
 description: Insplotusagedecision
+semantic_en: "Usage decision for inspection lot — records quality scores, decision catalogs, and follow-up actions."
+semantic_vi: "Quyết định sử dụng lô kiểm tra — ghi chép điểm chất lượng và các hành động tiếp theo."
+keywords:
+  - quyết định sử dụng
+  - lô kiểm tra
+  - chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

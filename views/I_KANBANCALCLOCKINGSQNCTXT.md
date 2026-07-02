@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCLOCKINGSQNCTXT
 description: Kanbancalclockingsqnctxt
+semantic_en: "text descriptions for kanban locking sequences — multilingual labels for container locking order options."
+semantic_vi: "mô tả văn bản cho các trình tự khóa kanban — nhãn đa ngôn ngữ cho các tùy chọn thứ tự khóa vùng chứa."
+keywords:
+  - kanban
+  - khóa vùng chứa
+  - mô tả
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

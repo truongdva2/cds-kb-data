@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECTRANSFERTYPE
 description: Inspspectransfertype
+semantic_en: "domain values for transfer types when moving master characteristics"
+semantic_vi: "các giá trị miền cho các loại chuyển giao khi di chuyển đặc tính chính"
+keywords:
+  - loại chuyển giao
+  - đặc tính chính
+  - di chuyển
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

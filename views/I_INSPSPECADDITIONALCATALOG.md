@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECADDITIONALCATALOG
 description: Inspspecadditionalcatalog
+semantic_en: "Additional catalog of master characteristics — supplementary catalogs for inspection specification codes."
+semantic_vi: "Danh mục bổ sung đặc tính chính — tạo điều kiện cho mã hóa bổ sung."
+keywords:
+  - danh mục
+  - đặc tính
+  - mã hóa
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

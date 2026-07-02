@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERTP
 description: Kanbancontainertp
+semantic_en: "transfer pricing view for kanban containers — tracks container lifecycle and status history for pricing."
+semantic_vi: "khung giá chuyển giao cho vùng chứa kanban — theo dõi vòng đời vùng chứa và lịch sử trạng thái cho định giá."
+keywords:
+  - kanban
+  - vùng chứa
+  - giá chuyển giao
 app_component: PP-KAB-CC-2CL
 software_component: SAPSCORE
 release_state: released

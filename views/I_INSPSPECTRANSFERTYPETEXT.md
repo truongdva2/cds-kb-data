@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECTRANSFERTYPETEXT
 description: Inspspectransfertypetext
+semantic_en: "text descriptions for master characteristic transfer types by language"
+semantic_vi: "các mô tả bằng văn bản cho các loại chuyển giao đặc tính chính theo ngôn ngữ"
+keywords:
+  - loại chuyển giao
+  - đặc tính
+  - mô tả
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

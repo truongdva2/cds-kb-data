@@ -1,6 +1,12 @@
 ---
 name: I_JOURNALENTRYSTDVH
 description: Journal EntrySTDVH
+semantic_en: "value help for journal entries — quick lookup of journal entries by company code, fiscal year, and document number"
+semantic_vi: "trợ giúp giá trị cho bút toán hàng ngày — tra cứu nhanh bút toán theo mã công ty, năm tài chính, số tài liệu"
+keywords:
+  - bút toán
+  - tra cứu
+  - tài liệu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INVTRYSPECIALSTOCKVALNTYPE
 description: Invtryspecialstockvalntype
+semantic_en: "domain values for valuation methods applicable to special inventory stock types"
+semantic_vi: "các giá trị miền cho các phương pháp định giá áp dụng cho các loại hàng tồn kho đặc biệt"
+keywords:
+  - định giá hàng tồn kho
+  - hàng tồn kho đặc biệt
+  - phương pháp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JVAVALUATIONAREA
 description: Jvavaluationarea
+semantic_en: "valuation areas assigned to companies — links inventory valuation areas to company codes."
+semantic_vi: "các khu vực định giá được gán cho công ty — liên kết các khu vực định giá hàng tồn kho với các mã công ty."
+keywords:
+  - khu vực định giá
+  - công ty
+  - hàng tồn kho
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

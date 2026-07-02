@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTTEXT
 description: Jntopgagrmttext
+semantic_en: "joint operating agreement text and descriptions — multi-language text and long-form documentation for JOA master data"
+semantic_vi: "văn bản và mô tả thỏa thuận vận hành liên doanh — tài liệu đa ngôn ngữ cho dữ liệu chính"
+keywords:
+  - liên doanh
+  - thỏa thuận
+  - tài liệu
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

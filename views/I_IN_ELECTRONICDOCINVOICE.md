@@ -1,6 +1,12 @@
 ---
 name: I_IN_ELECTRONICDOCINVOICE
 description: IN Electronicdocinvoice
+semantic_en: "India e-invoice generation and processing status including external number and acknowledgment details"
+semantic_vi: "trạng thái tạo và xử lý hóa đơn điện tử của Ấn Độ bao gồm số bên ngoài và chi tiết xác nhận"
+keywords:
+  - hóa đơn điện tử
+  - Ấn Độ
+  - e-invoice
 app_component: CA-GTF-CSC-EDO-IN-IV
 software_component: SAPSCORE
 release_state: released

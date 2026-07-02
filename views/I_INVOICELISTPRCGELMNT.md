@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTPRCGELMNT
 description: Invoicelistprcgelmnt
+semantic_en: "pricing conditions and elements applied to invoice items including discounts, surcharges, and taxes"
+semantic_vi: "các điều kiện định giá và phần tử được áp dụng cho các mục hóa đơn bao gồm chiết khấu, phụ phí và thuế"
+keywords:
+  - định giá hóa đơn
+  - chiết khấu
+  - thuế
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

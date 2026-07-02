@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLUSAGEOFMSGDETN
 description: Jitcallusageofmsgdetn
+semantic_en: "JIT call message determination usage — domain for applying outbound message types to just-in-time calls."
+semantic_vi: "cách sử dụng xác định tin nhắn lệnh gọi JIT — miền để áp dụng loại tin nhắn gửi đi tới lệnh gọi just-in-time."
+keywords:
+  - xác định tin nhắn
+  - lệnh gọi JIT
+  - loại tin nhắn
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

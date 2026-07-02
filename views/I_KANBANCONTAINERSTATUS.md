@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERSTATUS
 description: Kanbancontainerstatus
+semantic_en: "domain values for kanban container status — defines possible states for containers in the system."
+semantic_vi: "các giá trị tên miền cho trạng thái vùng chứa kanban — xác định các trạng thái có thể có cho vùng chứa trong hệ thống."
+keywords:
+  - kanban
+  - trạng thái vùng chứa
+  - tên miền
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

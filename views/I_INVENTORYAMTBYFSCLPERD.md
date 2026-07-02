@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYAMTBYFSCLPERD
 description: Inventoryamtbyfsclperd
+semantic_en: "aggregated inventory amounts by valuation method, location, and fiscal period for accounting"
+semantic_vi: "số lượng hàng tồn kho được tổng hợp theo phương pháp định giá, địa điểm và kỳ tài chính cho kế toán"
+keywords:
+  - hàng tồn kho
+  - định giá
+  - kỳ tài chính
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

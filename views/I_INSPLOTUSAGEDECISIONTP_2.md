@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTUSAGEDECISIONTP_2
 description: Insplotusagedecisiontp 2
+semantic_en: "Usage decision for inspection lot transactional — full decision details including timestamps and changes."
+semantic_vi: "Ghi chép giao dịch quyết định sử dụng lô kiểm tra."
+keywords:
+  - quyết định sử dụng
+  - lô kiểm tra
+  - giao dịch
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

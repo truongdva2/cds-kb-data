@@ -1,6 +1,12 @@
 ---
 name: I_INVOICEINBOUNDENTRYTYPETXT
 description: Invoiceinboundentrytypetxt
+semantic_en: "text descriptions for invoice inbound entry types in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các loại nhập hóa đơn vào trong nhiều ngôn ngữ"
+keywords:
+  - hóa đơn nhập vào
+  - loại
+  - mô tả
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

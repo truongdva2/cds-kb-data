@@ -1,6 +1,12 @@
 ---
 name: I_INVOICEINBOUNDENTRYTYPE
 description: Invoiceinboundentrytype
+semantic_en: "domain values for how supplier invoices are entered into the system — manual, automatic, or EDI"
+semantic_vi: "các giá trị miền cho cách hóa đơn nhà cung cấp được nhập vào hệ thống — thủ công, tự động hoặc EDI"
+keywords:
+  - hóa đơn nhà cung cấp
+  - loại nhập
+  - tự động
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

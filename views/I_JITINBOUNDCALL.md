@@ -1,6 +1,12 @@
 ---
 name: I_JITINBOUNDCALL
 description: Jitinboundcall
+semantic_en: "JIT inbound call — just-in-time inbound call header with customer, shipment party, and organizational unit information."
+semantic_vi: "lệnh gọi đến just-in-time — tiêu đề lệnh gọi đến just-in-time với thông tin khách hàng, bên vận chuyển và đơn vị tổ chức."
+keywords:
+  - lệnh gọi đến
+  - JIT
+  - khách hàng
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

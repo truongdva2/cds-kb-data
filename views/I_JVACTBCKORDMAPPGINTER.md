@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKORDMAPPGINTER
 description: Jvactbckordmappginter
+semantic_en: "intercompany cutback order mapping — allocates costs from source orders to cutback cost objects between companies."
+semantic_vi: "ánh xạ đơn hàng cắt giảm liên công ty — cấp phát chi phí từ các đơn hàng nguồn đến các đối tượng chi phí cắt giảm giữa các công ty."
+keywords:
+  - ánh xạ đơn hàng
+  - cắt giảm liên công ty
+  - chi phí
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

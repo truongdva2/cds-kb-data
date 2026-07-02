@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANOPCHARCVERSION_2
 description: Inspplanopcharcversion 2
+semantic_en: "Version of inspection plan characteristic — operation-level characteristic specifications with validity dates."
+semantic_vi: "Phiên bản đặc tính kiểm tra hoạt động — định nghĩa chi tiết theo hạn hiệu lực."
+keywords:
+  - kế hoạch kiểm tra
+  - hoạt động
+  - đặc tính
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

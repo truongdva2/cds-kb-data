@@ -1,6 +1,12 @@
 ---
 name: I_JOURNALENTRYCOMPANYCODEVH
 description: Journal EntryCompany CodeVH
+semantic_en: "value help for company codes in journal entries — company code identifiers, names, cities, country, and currency"
+semantic_vi: "trợ giúp giá trị cho mã công ty trong bút toán hàng ngày — mã công ty, tên, thành phố, quốc gia, tiền tệ"
+keywords:
+  - bút toán
+  - mã công ty
+  - tra cứu
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

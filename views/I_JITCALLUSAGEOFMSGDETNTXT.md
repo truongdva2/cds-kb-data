@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLUSAGEOFMSGDETNTXT
 description: Jitcallusageofmsgdetntxt
+semantic_en: "JIT call message determination usage text — multilingual names for message determination methods."
+semantic_vi: "mô tả văn bản cách sử dụng xác định tin nhắn — tên đa ngôn ngữ cho phương pháp xác định tin nhắn."
+keywords:
+  - tên xác định tin nhắn
+  - lệnh gọi JIT
+  - ngôn ngữ
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

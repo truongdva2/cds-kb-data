@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERSTATUSSTDVH
 description: Kanbancontainerstatusstdvh
+semantic_en: "value help view for kanban container status — lookup table for available container status codes."
+semantic_vi: "khung giúp giá trị cho trạng thái vùng chứa kanban — bảng tra cứu cho các mã trạng thái vùng chứa có sẵn."
+keywords:
+  - kanban
+  - trạng thái vùng chứa
+  - tra cứu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYTRANSACTIONTYPE
 description: Inventorytransactiontype
+semantic_en: "types of inventory transactions and their impact flags for physical inventory, documents, and reservations"
+semantic_vi: "các loại giao dịch hàng tồn kho và các cờ tác động của chúng cho hàng tồn kho vật lý, tài liệu và đơn đặt hàng dự phòng"
+keywords:
+  - giao dịch hàng tồn kho
+  - loại
+  - vật lý
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTMATLDOCITMSRLNMBRTP_2
 description: Insplotmatldocitmsrlnmbrtp 2
+semantic_en: "Inspection stock posting serial number transactional — serial numbers posted to inspection stock."
+semantic_vi: "Số sê ri ghi chép lưu kho kiểm tra — liên kết vật liệu với sê ri cụ thể."
+keywords:
+  - số sê ri
+  - lô kiểm tra
+  - lưu kho
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

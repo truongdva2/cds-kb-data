@@ -1,6 +1,12 @@
 ---
 name: I_JP_INVOICESUMMARYDOCUMENT
 description: JP Invoicesummarydocument
+semantic_en: "Japan invoice summary document master — invoice summary headers with payer, recipient, grouping unit, currency, and cumulative amounts"
+semantic_vi: "tài liệu chính tóm tắt hóa đơn Nhật Bản — tiêu đề tóm tắt hóa đơn với người trả, người nhận, nhóm, tiền tệ, số tiền"
+keywords:
+  - Nhật Bản
+  - hóa đơn
+  - tóm tắt
 app_component: FI-LOC-FI-JP
 software_component: SAPSCORE
 release_state: released

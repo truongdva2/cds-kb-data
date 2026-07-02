@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERERROR
 description: Kanbancontainererror
+semantic_en: "error records for kanban container status changes — tracks errors and status transitions by container."
+semantic_vi: "bản ghi lỗi cho các thay đổi trạng thái vùng chứa kanban — theo dõi lỗi và chuyển đổi trạng thái theo vùng chứa."
+keywords:
+  - kanban
+  - lỗi vùng chứa
+  - trạng thái
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

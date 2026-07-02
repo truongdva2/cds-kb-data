@@ -1,6 +1,12 @@
 ---
 name: I_INSPTOLERANCESPECTEXT
 description: Insptolerancespectext
+semantic_en: "text descriptions for tolerance specifications in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các thông số kỹ thuật dung sai bằng nhiều ngôn ngữ"
+keywords:
+  - dung sai
+  - thông số kỹ thuật
+  - mô tả
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

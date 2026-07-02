@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTDYNRULESTAGETEXT
 description: Insplotdynrulestagetext
+semantic_en: "Inspection stage text — language-specific descriptions for dynamic rule stages."
+semantic_vi: "Văn bản mô tả giai đoạn kiểm tra theo ngôn ngữ."
+keywords:
+  - giai đoạn kiểm tra
+  - văn bản
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

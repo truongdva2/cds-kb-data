@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRVALDINVMTGRP
 description: Jntvntrvaldinvmtgrp
+semantic_en: "joint venture valid investment groups master — equity type funding date, equity group, default billing currency, and interest calculation group"
+semantic_vi: "dữ liệu chính nhóm đầu tư hợp lệ của liên doanh — ngày tài trợ, nhóm cổ phần, tiền tệ thanh toán, nhóm tính lãi suất"
+keywords:
+  - liên doanh
+  - đầu tư
+  - nhóm
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

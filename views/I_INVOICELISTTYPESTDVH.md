@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTTYPESTDVH
 description: Invoicelisttypestdvh
+semantic_en: "value-help view providing available invoice list types for selection"
+semantic_vi: "chế độ xem trợ giúp giá trị cung cấp các loại danh sách hóa đơn có sẵn để lựa chọn"
+keywords:
+  - loại hóa đơn
+  - danh sách
+  - trợ giúp
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

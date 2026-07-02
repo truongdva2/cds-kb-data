@@ -1,6 +1,12 @@
 ---
 name: I_INSPSUBSETRESULT
 description: Inspsubsetresult
+semantic_en: "actual inspection results recorded for characteristics against acceptance or rejection criteria — links inspector and result status"
+semantic_vi: "kết quả kiểm tra thực tế được ghi lại cho các đặc tính so với tiêu chí chấp nhận hoặc từ chối — liên kết người kiểm tra và trạng thái kết quả"
+keywords:
+  - kết quả kiểm tra
+  - chấp nhận
+  - từ chối
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

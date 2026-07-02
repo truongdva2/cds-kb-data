@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLACTIONLOG
 description: Jitinbcallactionlog
+semantic_en: "JIT inbound call action log — audit trail of processing steps for just-in-time inbound call including user actions and timestamps."
+semantic_vi: "nhật ký hành động lệnh gọi đến JIT — dấu vết kiểm toán của các bước xử lý lệnh gọi đến just-in-time bao gồm hành động người dùng và thời gian."
+keywords:
+  - nhật ký hành động
+  - lệnh gọi đến
+  - JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

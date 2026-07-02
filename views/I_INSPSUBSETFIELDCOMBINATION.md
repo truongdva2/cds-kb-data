@@ -1,6 +1,12 @@
 ---
 name: I_INSPSUBSETFIELDCOMBINATION
 description: Inspsubsetfieldcombination
+semantic_en: "inspection field combinations that group material, equipment, and location attributes for testing"
+semantic_vi: "các kết hợp trường kiểm tra nhóm các thuộc tính vật liệu, thiết bị và địa điểm để thử nghiệm"
+keywords:
+  - kết hợp trường
+  - kiểm tra
+  - thuộc tính
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

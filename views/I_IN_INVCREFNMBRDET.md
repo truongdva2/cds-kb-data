@@ -1,6 +1,12 @@
 ---
 name: I_IN_INVCREFNMBRDET
 description: IN Invcrefnmbrdet
+semantic_en: "official document numbering for invoices in India with version control and acknowledgment tracking"
+semantic_vi: "đánh số tài liệu chính thức cho hóa đơn ở Ấn Độ với kiểm soát phiên bản và theo dõi xác nhận"
+keywords:
+  - hóa đơn chính thức
+  - số tài liệu
+  - Ấn Độ
 app_component: FI-LOC-LO-IN
 software_component: SAPSCORE
 release_state: released

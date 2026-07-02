@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECPRINTCONTROL
 description: Inspspecprintcontrol
+semantic_en: "Print control of master characteristic — classification for characteristic printing preferences."
+semantic_vi: "Điều khiển in của đặc tính chính — ưu tiên in danh sách kiểm tra."
+keywords:
+  - điều khiển in
+  - đặc tính
+  - danh sách kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

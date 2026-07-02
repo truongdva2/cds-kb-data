@@ -1,6 +1,12 @@
 ---
 name: I_ITEMDELIVINCOMPLETIONSTS
 description: Itemdelivincompletionsts
+semantic_en: "item delivery incompletion status — single-value domain for delivery process completion states."
+semantic_vi: "trạng thái hoàn thành giao hàng mặt hàng — miền giá trị duy nhất cho các trạng thái hoàn thành quy trình giao hàng."
+keywords:
+  - trạng thái giao hàng
+  - hoàn thành giao
+  - mặt hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

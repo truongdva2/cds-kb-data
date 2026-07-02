@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMT
 description: Jntopgagrmt
+semantic_en: "joint operating agreement — oil and gas joint venture agreement with overhead allocation rules and exclusion account sets."
+semantic_vi: "thỏa thuận vận hành chung — thỏa thuận liên doanh dầu khí với quy tắc phân bổ chi phí chung và bộ tài khoản loại trừ."
+keywords:
+  - thỏa thuận vận hành
+  - liên doanh dầu khí
+  - chi phí chung
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

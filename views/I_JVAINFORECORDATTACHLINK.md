@@ -1,6 +1,12 @@
 ---
 name: I_JVAINFORECORDATTACHLINK
 description: Jvainforecordattachlink
+semantic_en: "attachment service for joint venture billing documents — links file attachments to billing records by fiscal period."
+semantic_vi: "dịch vụ tệp đính kèm cho tài liệu lập hóa đơn liên doanh — liên kết các tệp đính kèm với các bản ghi lập hóa đơn theo kỳ tài chính."
+keywords:
+  - tệp đính kèm
+  - lập hóa đơn liên doanh
+  - tài liệu
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

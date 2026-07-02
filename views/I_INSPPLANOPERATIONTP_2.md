@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANOPERATIONTP_2
 description: Inspplanoperationtp 2
+semantic_en: "Inspection plan operation transactional posting — operation change tracking and deletion flags."
+semantic_vi: "Ghi chép giao dịch hoạt động trong kế hoạch kiểm tra."
+keywords:
+  - kế hoạch kiểm tra
+  - hoạt động
+  - giao dịch
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

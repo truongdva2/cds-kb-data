@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCREQUIREMENTTYPE
 description: Kanbancalcrequirementtype
+semantic_en: "kanban requirement types — defines which demand categories are considered in calculations."
+semantic_vi: "các loại yêu cầu kanban — xác định các danh mục nhu cầu nào được xem xét trong tính toán."
+keywords:
+  - kanban
+  - loại yêu cầu
+  - nhu cầu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

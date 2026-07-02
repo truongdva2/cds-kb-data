@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYGRP
 description: Jntvntrequitygrp
+semantic_en: "joint venture equity group (NPI group) master data — operating/non-operating shares, suspension tracking, and net profit interest group"
+semantic_vi: "dữ liệu chính nhóm cổ phần liên doanh — cổ phần vận hành/không vận hành, theo dõi tạm ngừng, nhóm lợi tức ròng"
+keywords:
+  - liên doanh
+  - cổ phần
+  - nhóm
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

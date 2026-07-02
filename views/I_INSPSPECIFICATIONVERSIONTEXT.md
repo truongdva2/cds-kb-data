@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECIFICATIONVERSIONTEXT
 description: Inspspecificationversiontext
+semantic_en: "Version of master inspection characteristic text — language-specific specification descriptions."
+semantic_vi: "Văn bản mô tả phiên bản quy cách kiểm tra chính theo ngôn ngữ."
+keywords:
+  - quy cách kiểm tra
+  - phiên bản
+  - văn bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

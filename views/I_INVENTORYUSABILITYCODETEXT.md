@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYUSABILITYCODETEXT
 description: Inventoryusabilitycodetext
+semantic_en: "text descriptions for inventory usability codes used to determine stock type in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các mã khả năng sử dụng hàng tồn kho được sử dụng để xác định loại hàng tồn kho bằng nhiều ngôn ngữ"
+keywords:
+  - mã khả năng sử dụng
+  - hàng tồn kho
+  - mô tả
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

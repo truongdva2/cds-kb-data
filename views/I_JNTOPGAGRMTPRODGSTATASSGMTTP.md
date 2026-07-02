@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPRODGSTATASSGMTTP
 description: Jntopgagrmtprodgstatassgmttp
+semantic_en: "joint venture producing statistical ratio assignment — drilling depth ranges for production statistical ratio identification"
+semantic_vi: "phân công tỷ lệ thống kê sản xuất của liên doanh — phạm vi độ sâu khoan cho xác định tỷ lệ thống kê"
+keywords:
+  - liên doanh
+  - sản xuất
+  - tỷ lệ thống kê
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

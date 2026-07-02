@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRFUNDCRCYBYEQUITYGRPTP
 description: Jntvntrfundcrcybyequitygrptp
+semantic_en: "joint venture funding currency by equity group transfer pricing view — funding currency, house bank accounts, and funding group assignment"
+semantic_vi: "phép chiếu định giá chuyển giao tiền tệ tài trợ theo nhóm cổ phần — tiền tệ tài trợ, tài khoản ngân hàng nhà"
+keywords:
+  - liên doanh
+  - tiền tệ
+  - tài trợ
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

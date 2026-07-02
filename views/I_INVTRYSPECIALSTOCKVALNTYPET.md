@@ -1,6 +1,12 @@
 ---
 name: I_INVTRYSPECIALSTOCKVALNTYPET
 description: Invtryspecialstockvalntypet
+semantic_en: "text descriptions for special stock valuation types in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các loại định giá hàng tồn kho đặc biệt bằng nhiều ngôn ngữ"
+keywords:
+  - định giá hàng tồn kho
+  - hàng tồn kho đặc biệt
+  - mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_ITEMDELIVINCOMPLETIONSTST
 description: Itemdelivincompletionstst
+semantic_en: "delivery incompletion status text — multilingual status descriptions for item deliveries."
+semantic_vi: "mô tả văn bản trạng thái hoàn thành giao hàng — mô tả trạng thái đa ngôn ngữ cho giao hàng mặt hàng."
+keywords:
+  - mô tả giao hàng
+  - trạng thái không hoàn thành
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

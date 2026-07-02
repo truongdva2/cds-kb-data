@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCLOCKINGSEQUENCE
 description: Kanbancalclockingsequence
+semantic_en: "domain values for kanban container locking sequence — defines order for locking containers during planning."
+semantic_vi: "các giá trị tên miền cho trình tự khóa vùng chứa kanban — xác định thứ tự khóa vùng chứa trong quá trình lập kế hoạch."
+keywords:
+  - kanban
+  - khóa vùng chứa
+  - trình tự
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLSUMMARIZATIONSTRATEGY
 description: Jitcallsummarizationstrategy
+semantic_en: "JIT call summarization strategy — domain for consolidation method of just-in-time call line items."
+semantic_vi: "chiến lược tóm tắt lệnh gọi JIT — miền cho phương pháp hợp nhất mặt hàng dòng lệnh gọi just-in-time."
+keywords:
+  - chiến lược tóm tắt
+  - lệnh gọi JIT
+  - hợp nhất
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCDELINITCTNTXT
 description: Kanbancalcdelinitctntxt
+semantic_en: "text descriptions for kanban initial container deletion options — multilingual labels for domain values."
+semantic_vi: "mô tả văn bản cho các tùy chọn xóa vùng chứa ban đầu kanban — nhãn đa ngôn ngữ cho các giá trị tên miền."
+keywords:
+  - kanban
+  - xóa vùng chứa
+  - tùy chọn
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

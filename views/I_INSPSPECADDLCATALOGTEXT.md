@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECADDLCATALOGTEXT
 description: Inspspecaddlcatalogtext
+semantic_en: "Additional catalog text — language-specific names and descriptions for supplementary catalogs."
+semantic_vi: "Văn bản mô tả danh mục bổ sung theo ngôn ngữ."
+keywords:
+  - danh mục bổ sung
+  - văn bản
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

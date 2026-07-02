@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREPARTNERVALUEHELP
 description: Jointventurepartnervaluehelp
+semantic_en: "value help for joint venture partners — quick lookup of partner codes, short text, and intercompany codes"
+semantic_vi: "trợ giúp giá trị cho đối tác liên doanh — tra cứu nhanh mã, tên ngắn, mã công ty nội bộ"
+keywords:
+  - liên doanh
+  - đối tác
+  - tra cứu
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

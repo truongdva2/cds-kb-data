@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECRECORDINGTYPETEXT
 description: Inspspecrecordingtypetext
+semantic_en: "text descriptions for inspection characteristic recording types by language"
+semantic_vi: "các mô tả bằng văn bản cho loại ghi âm đặc tính kiểm tra theo ngôn ngữ"
+keywords:
+  - kiểm tra đặc tính
+  - loại ghi âm
+  - mô tả
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

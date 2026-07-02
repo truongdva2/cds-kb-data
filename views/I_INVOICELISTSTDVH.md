@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTSTDVH
 description: Invoiceliststdvh
+semantic_en: "value-help view for invoice lists filtered by type and sales organization"
+semantic_vi: "chế độ xem trợ giúp giá trị cho danh sách hóa đơn được lọc theo loại và tổ chức bán hàng"
+keywords:
+  - danh sách hóa đơn
+  - loại
+  - tổ chức bán hàng
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

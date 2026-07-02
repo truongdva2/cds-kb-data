@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTREMUNERATION
 description: Invoicelistremuneration
+semantic_en: "remuneration amounts on invoices including net and tax components by currency"
+semantic_vi: "các khoản thanh toán trên hóa đơn bao gồm các thành phần ròng và thuế theo tiền tệ"
+keywords:
+  - thanh toán hóa đơn
+  - ròng
+  - thuế
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

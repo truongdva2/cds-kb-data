@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLNMATLASSGMTVERSION_2
 description: Inspplnmatlassgmtversion 2
+semantic_en: "Version of material assignment in inspection plan — material-plan link versions with change tracking."
+semantic_vi: "Phiên bản gán vật liệu cho kế hoạch kiểm tra — theo dõi thay đổi theo hạn hiệu lực."
+keywords:
+  - kế hoạch kiểm tra
+  - vật liệu
+  - phiên bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

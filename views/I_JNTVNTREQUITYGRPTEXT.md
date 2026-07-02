@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYGRPTEXT
 description: Jntvntrequitygrptext
+semantic_en: "joint venture equity group text and descriptions — multi-language labels for equity groups"
+semantic_vi: "văn bản và mô tả nhóm cổ phần liên doanh — nhãn đa ngôn ngữ"
+keywords:
+  - liên doanh
+  - cổ phần
+  - mô tả
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

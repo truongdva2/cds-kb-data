@@ -1,6 +1,12 @@
 ---
 name: I_ITEMGDSMVTINCOMPLETIONSTST
 description: Itemgdsmvtincompletionstst
+semantic_en: "item goods movement incompletion status text — multilingual descriptions for goods movement states."
+semantic_vi: "mô tả văn bản trạng thái hoàn thành chuyển động hàng hóa — mô tả đa ngôn ngữ cho trạng thái chuyển động hàng hóa mặt hàng."
+keywords:
+  - chuyển động hàng hóa
+  - mô tả trạng thái
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

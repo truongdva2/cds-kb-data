@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTDRILLINGRATIOTP
 description: Jntopgagrmtdrillingratiotp
+semantic_en: "JVA drilling statistical ratio — transfer price view tracking drilling rates and depth ranges for joint venture agreements."
+semantic_vi: "tỷ lệ thống kê khoan của JVA — dạng xem giá chuyển nhượng theo dõi tỷ lệ khoan và phạm vi độ sâu cho thỏa thuận liên doanh."
+keywords:
+  - tỷ lệ khoan
+  - liên doanh
+  - giá chuyển nhượng
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

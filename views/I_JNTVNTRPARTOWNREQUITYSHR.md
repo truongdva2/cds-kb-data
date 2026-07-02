@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRPARTOWNREQUITYSHR
 description: Jntvntrpartownrequityshr
+semantic_en: "joint venture owner partner equity shares — equity share percentage, suspension periods, and partner name variants"
+semantic_vi: "cổ phần chủ sở hữu đối tác liên doanh — tỷ lệ cổ phần, khoảng tạm ngừng, tên đối tác"
+keywords:
+  - liên doanh
+  - cổ phần chủ sở hữu
+  - đối tác
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

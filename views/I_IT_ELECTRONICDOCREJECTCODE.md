@@ -1,6 +1,12 @@
 ---
 name: I_IT_ELECTRONICDOCREJECTCODE
 description: IT Electronicdocrejectcode
+semantic_en: "Italy rejection code description — multilingual descriptions of e-document rejection reason codes."
+semantic_vi: "mô tả mã từ chối của Ý — mô tả đa ngôn ngữ của mã lý do từ chối tài liệu điện tử."
+keywords:
+  - mã từ chối
+  - hóa đơn điện tử
+  - mô tả
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

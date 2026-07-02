@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTDYNRULESTAGE
 description: Insplotdynrulestage
+semantic_en: "Inspection stage — defines severity levels, skip conditions, and stage transitions based on inspection results."
+semantic_vi: "Giai đoạn kiểm tra trong quy tắc động — định nghĩa mức độ nghiêm trọng và chuyển đổi giai đoạn."
+keywords:
+  - giai đoạn kiểm tra
+  - mức độ nghiêm trọng
+  - chuyển đổi
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

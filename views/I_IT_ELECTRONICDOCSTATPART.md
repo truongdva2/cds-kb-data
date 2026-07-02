@@ -1,6 +1,12 @@
 ---
 name: I_IT_ELECTRONICDOCSTATPART
 description: IT Electronicdocstatpart
+semantic_en: "Italy e-document partner status — domain for electronic document status from trading partner perspective."
+semantic_vi: "trạng thái đối tác tài liệu điện tử Ý — miền cho trạng thái tài liệu điện tử từ quan điểm đối tác."
+keywords:
+  - trạng thái tài liệu điện tử
+  - đối tác
+  - Ý
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

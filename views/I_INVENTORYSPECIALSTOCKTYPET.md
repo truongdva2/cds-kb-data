@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYSPECIALSTOCKTYPET
 description: Inventoryspecialstocktypet
+semantic_en: "text descriptions for special inventory stock types in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các loại hàng tồn kho đặc biệt bằng nhiều ngôn ngữ"
+keywords:
+  - hàng tồn kho
+  - loại đặc biệt
+  - mô tả
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

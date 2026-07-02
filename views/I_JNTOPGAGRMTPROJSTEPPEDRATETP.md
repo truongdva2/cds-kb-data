@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPROJSTEPPEDRATETP
 description: Jntopgagrmtprojsteppedratetp
+semantic_en: "joint venture project-level general overhead stepped rate — stepped overhead rate by WBS element with exclusion and override rules"
+semantic_vi: "tỷ lệ chi phí chung bậc thang cấp dự án của liên doanh — quản lý theo WBS với quy tắc loại trừ và ghi đè"
+keywords:
+  - liên doanh
+  - chi phí chung
+  - bậc thang
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

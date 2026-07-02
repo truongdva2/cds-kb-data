@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPARENTCOOVHDTP
 description: Jntopgagrmtparentcoovhdtp
+semantic_en: "JVA parent company overhead transfer price — transfer price view for parent company allocation and overhead calculation rules."
+semantic_vi: "giá chuyển nhượng chi phí chung công ty mẹ JVA — dạng xem giá chuyển nhượng cho phân bổ công ty mẹ và quy tắc tính toán chi phí chung."
+keywords:
+  - chi phí chung công ty mẹ
+  - liên doanh
+  - giá chuyển nhượng
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPGRPDOCREF
 description: Jitinbcallcompgrpdocref
+semantic_en: "JIT inbound call component group document reference — cross-reference mapping from component group to business transaction documents."
+semantic_vi: "tham chiếu tài liệu nhóm thành phần lệnh gọi đến JIT — ánh xạ tham chiếu chéo từ nhóm thành phần tới tài liệu giao dịch kinh doanh."
+keywords:
+  - tham chiếu tài liệu
+  - nhóm thành phần
+  - lệnh gọi JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

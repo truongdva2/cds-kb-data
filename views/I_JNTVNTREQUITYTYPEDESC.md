@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYTYPEDESC
 description: Jntvntrequitytypedesc
+semantic_en: "joint venture equity type descriptions — multi-language names for equity type classifications"
+semantic_vi: "mô tả loại cổ phần liên doanh — tên đa ngôn ngữ cho phân loại"
+keywords:
+  - liên doanh
+  - loại cổ phần
+  - mô tả
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

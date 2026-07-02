@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCARDPRINTCTRL
 description: Kanbancardprintctrl
+semantic_en: "domain values for kanban card printing control — controls whether and when kanban cards are printed."
+semantic_vi: "các giá trị tên miền cho kiểm soát in thẻ kanban — kiểm soát xem thẻ kanban có được in hay không và khi nào."
+keywords:
+  - kanban
+  - in thẻ
+  - kiểm soát
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

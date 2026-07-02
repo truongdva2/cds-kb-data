@@ -1,6 +1,12 @@
 ---
 name: I_JOURNALENTRYITEMONETIMEDATA
 description: Journal EntryITEMONETIMEDATA
+semantic_en: "journal entry item one-time data — business partner names, address, country, city, VAT liability by document and item"
+semantic_vi: "dữ liệu dùng một lần của hạng mục bút toán — tên đối tác kinh doanh, địa chỉ, quốc gia, thành phố, trách nhiệm VAT"
+keywords:
+  - bút toán
+  - đối tác
+  - địa chỉ
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

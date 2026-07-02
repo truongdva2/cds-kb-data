@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECCHARCCATEGORYTEXT
 description: Inspspeccharccategorytext
+semantic_en: "Characteristic category text — language-specific names for characteristic category codes."
+semantic_vi: "Văn bản mô tả danh mục đặc tính theo ngôn ngữ."
+keywords:
+  - đặc tính
+  - danh mục
+  - văn bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

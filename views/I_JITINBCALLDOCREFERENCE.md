@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLDOCREFERENCE
 description: Jitinbcalldocreference
+semantic_en: "JIT inbound call document reference — mapping of just-in-time call header-level to source business documents."
+semantic_vi: "tham chiếu tài liệu lệnh gọi đến JIT — ánh xạ lệnh gọi just-in-time cấp tiêu đề tới tài liệu kinh doanh nguồn."
+keywords:
+  - tham chiếu tài liệu
+  - lệnh gọi đến
+  - JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

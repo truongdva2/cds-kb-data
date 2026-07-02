@@ -1,6 +1,12 @@
 ---
 name: I_ITEMCATEGORYGROUP
 description: Itemcategorygroup
+semantic_en: "item category group master — product grouping configuration with category codes and identifiers."
+semantic_vi: "nhóm danh mục mặt hàng chính — cấu hình nhóm sản phẩm với mã danh mục và định danh."
+keywords:
+  - nhóm danh mục
+  - nhóm sản phẩm
+  - mặt hàng
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

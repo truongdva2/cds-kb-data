@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANOPERATIONVERSION_2
 description: Inspplanoperationversion 2
+semantic_en: "Version of inspection plan operation — work center assignments and operation details by version."
+semantic_vi: "Phiên bản hoạt động trong kế hoạch kiểm tra — gán tâm công việc và chi tiết hoạt động."
+keywords:
+  - kế hoạch kiểm tra
+  - hoạt động
+  - phiên bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

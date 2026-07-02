@@ -1,6 +1,12 @@
 ---
 name: I_JVAVENTURECOSTOBJECTDETS_2
 description: Jvaventurecostobjectdets 2
+semantic_en: "joint venture cost object details — cost centers, projects and orders associated with venture operations."
+semantic_vi: "chi tiết đối tượng chi phí liên doanh — các trung tâm chi phí, dự án và đơn hàng liên quan đến hoạt động liên doanh."
+keywords:
+  - đối tượng chi phí
+  - liên doanh
+  - dự án
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

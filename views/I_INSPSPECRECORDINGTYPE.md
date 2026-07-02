@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECRECORDINGTYPE
 description: Inspspecrecordingtype
+semantic_en: "Recording type — classification for inspection specification recording method types."
+semantic_vi: "Loại ghi chép — phân loại phương pháp ghi chép quy cách kiểm tra."
+keywords:
+  - loại ghi chép
+  - quy cách kiểm tra
+  - phân loại
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

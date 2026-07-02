@@ -1,6 +1,12 @@
 ---
 name: I_IN_PLANTBUSINESSPLACEDETAIL
 description: IN Plantbusinessplacedetail
+semantic_en: "mapping of manufacturing plants to their associated GST business places in India"
+semantic_vi: "ánh xạ các nhà máy sản xuất đến các địa điểm kinh doanh GST liên kết của chúng ở Ấn Độ"
+keywords:
+  - nhà máy
+  - địa điểm kinh doanh
+  - GST
 app_component: FI-LOC-LO-IN
 software_component: SAPSCORE
 release_state: released

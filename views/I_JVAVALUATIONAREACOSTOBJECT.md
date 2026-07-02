@@ -1,6 +1,12 @@
 ---
 name: I_JVAVALUATIONAREACOSTOBJECT
 description: Jvavaluationareacostobject
+semantic_en: "cost objects in valuation areas — maps cost centers, WBS and orders to valuation areas and types."
+semantic_vi: "các đối tượng chi phí trong khu vực định giá — ánh xạ các trung tâm chi phí, WBS và đơn hàng đến các khu vực và loại định giá."
+keywords:
+  - đối tượng chi phí
+  - khu vực định giá
+  - WBS
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

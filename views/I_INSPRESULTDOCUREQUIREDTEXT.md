@@ -1,6 +1,12 @@
 ---
 name: I_INSPRESULTDOCUREQUIREDTEXT
 description: Inspresultdocurequiredtext
+semantic_en: "Documentation required for inspection results text — language descriptions for documentation requirement flags."
+semantic_vi: "Văn bản mô tả yêu cầu tài liệu cho kết quả kiểm tra theo ngôn ngữ."
+keywords:
+  - kết quả kiểm tra
+  - tài liệu
+  - văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

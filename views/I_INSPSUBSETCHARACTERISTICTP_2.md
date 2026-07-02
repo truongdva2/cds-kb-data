@@ -1,6 +1,12 @@
 ---
 name: I_INSPSUBSETCHARACTERISTICTP_2
 description: Inspsubsetcharacteristictp 2
+semantic_en: "transient projection of inspection point characteristics with sampling size and severity parameters"
+semantic_vi: "phép chiếu tạm thời của các đặc tính điểm kiểm tra với kích thước lấy mẫu và các tham số mức độ nghiêm trọng"
+keywords:
+  - điểm kiểm tra
+  - kích thước mẫu
+  - độ nghiêm trọng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

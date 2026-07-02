@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTENHANCEDFIELDS
 description: Invoicelistenhancedfields
+semantic_en: "extended data for invoice lists including transaction currency and gross amounts"
+semantic_vi: "dữ liệu mở rộng cho danh sách hóa đơn bao gồm tiền tệ giao dịch và số tiền tổng cộng"
+keywords:
+  - danh sách hóa đơn
+  - tiền tệ
+  - số tiền
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANDEPDNTCHARCVERSTP_2
 description: Inspplandepdntcharcverstp 2
+semantic_en: "Inspection plan dependent characteristics version transactional — version management for dependent specifications."
+semantic_vi: "Ghi chép giao dịch phiên bản đặc tính phụ thuộc trong kế hoạch kiểm tra."
+keywords:
+  - kế hoạch kiểm tra
+  - đặc tính phụ thuộc
+  - phiên bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

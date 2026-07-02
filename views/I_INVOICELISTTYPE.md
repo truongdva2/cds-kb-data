@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTTYPE
 description: Invoicelisttype
+semantic_en: "invoice list document types defined in billing process with categorization and numbering rules"
+semantic_vi: "các loại tài liệu danh sách hóa đơn được xác định trong quy trình thanh toán với các quy tắc phân loại và đánh số"
+keywords:
+  - loại hóa đơn
+  - danh sách
+  - phân loại
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

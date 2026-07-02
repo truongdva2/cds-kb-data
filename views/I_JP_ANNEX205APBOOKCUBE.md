@@ -1,6 +1,12 @@
 ---
 name: I_JP_ANNEX205APBOOKCUBE
 description: JP Annex 205APBOOKCUBE
+semantic_en: "analytical cube for Japan AP book for corporate tax — supplier payables by source ledger, fiscal period, posting/document/clearing dates, accounting document type"
+semantic_vi: "lập phương phân tích cho sổ AP Nhật Bản cho thuế công ty — khoản phải trả nhà cung cấp theo sổ cái, kỳ tài chính"
+keywords:
+  - Nhật Bản
+  - sổ cái
+  - phân tích
 app_component: FI-LOC-FI-JP
 software_component: SAPSCORE
 release_state: released

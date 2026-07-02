@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPREFTEXT
 description: Jitinbcallcompreftext
+semantic_en: "JIT inbound call component reference text — descriptive reference text for component items and draft versions."
+semantic_vi: "mô tả văn bản tham chiếu thành phần lệnh gọi đến JIT — văn bản tham chiếu mô tả cho mặt hàng thành phần và phiên bản nháp."
+keywords:
+  - tham chiếu thành phần
+  - văn bản tham chiếu
+  - JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

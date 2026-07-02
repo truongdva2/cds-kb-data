@@ -1,6 +1,12 @@
 ---
 name: I_INTNTNLARTNMBCAT
 description: Intntnlartnmbcat
+semantic_en: "categories for global trade item numbers (GTIN/barcode) used in logistics"
+semantic_vi: "các danh mục cho số mục mã hóa thương mại toàn cầu (GTIN/mã vạch) được sử dụng trong hậu cần"
+keywords:
+  - GTIN
+  - mã vạch
+  - hậu cần
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTSERIALNUMBER
 description: INSPLOTSerial Number
+semantic_en: "Serial numbers of inspection lot — tracks equipment and serial-numbered items in inspection."
+semantic_vi: "Số sê ri trong lô kiểm tra — theo dõi thiết bị và các mục có sê ri."
+keywords:
+  - số sê ri
+  - lô kiểm tra
+  - thiết bị
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JVAJOINTINTERESTBILLINGCLASS
 description: Jvajointinterestbillingclass
+semantic_en: "classification structure for joint interest billing — subclass categorization of JIB and JIBE billing types."
+semantic_vi: "cấu trúc phân loại cho lập hóa đơn lợi ích liên hợp — phân loại con của các loại lập hóa đơn JIB và JIBE."
+keywords:
+  - phân loại lập hóa đơn
+  - lợi ích liên hợp
+  - JIB
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRPARTEQUITYSHRTP
 description: Jntvntrpartequityshrtp
+semantic_en: "joint venture partner equity share transfer pricing projection — equity shares, names, suspension status by equity group and partner"
+semantic_vi: "phép chiếu định giá chuyển giao cổ phần đối tác — tỷ lệ cổ phần, trạng thái tạm ngừng"
+keywords:
+  - liên doanh
+  - cổ phần đối tác
+  - định giá
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

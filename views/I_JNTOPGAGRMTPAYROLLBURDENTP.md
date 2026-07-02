@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPAYROLLBURDENTP
 description: Jntopgagrmtpayrollburdentp
+semantic_en: "joint venture operating agreement payroll overhead burden rates — overhead burden rate percentage by burden rate type"
+semantic_vi: "tỷ lệ gánh nặng lương thương nhân trong thỏa thuận vận hành liên doanh — phân loại theo loại tỷ lệ gánh nặng"
+keywords:
+  - liên doanh
+  - gánh nặng lương
+  - tỷ lệ chi phí
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IN_BUSINESSPLACETAXDETAIL
 description: IN Businessplacetaxdetail
+semantic_en: "GST-relevant tax details for business places in India including identification and classification"
+semantic_vi: "chi tiết thuế liên quan GST cho các địa điểm kinh doanh ở Ấn Độ bao gồm định danh và phân loại"
+keywords:
+  - GST Ấn Độ
+  - địa điểm kinh doanh
+  - thuế
 app_component: FI-LOC-LO-IN
 software_component: SAPSCORE
 release_state: released

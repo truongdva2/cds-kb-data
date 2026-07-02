@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTUSGEDCSNLONGTEXT
 description: Insplotusgedcsnlongtext
+semantic_en: "Inspection lot usage decision long text — free-form detailed comments and notes in multiple languages."
+semantic_vi: "Văn bản dài mô tả quyết định sử dụng lô kiểm tra theo ngôn ngữ."
+keywords:
+  - quyết định sử dụng
+  - lô kiểm tra
+  - ghi chú
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

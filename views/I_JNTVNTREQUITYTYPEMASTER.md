@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYTYPEMASTER
 description: Jntvntrequitytypemaster
+semantic_en: "joint venture equity type master data — equity type codes and classifications"
+semantic_vi: "dữ liệu chính loại cổ phần liên doanh — mã loại cổ phần và phân loại"
+keywords:
+  - liên doanh
+  - loại cổ phần
+  - mã
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSURANCECLAIMDAMAGECATEGORY
 description: Insuranceclaimdamagecategory
+semantic_en: "mapping between insurance claim damage categories and the types of insured objects"
+semantic_vi: "ánh xạ giữa các danh mục thiệt hại yêu cầu bảo hiểm và các loại đối tượng được bảo hiểm"
+keywords:
+  - yêu cầu bảo hiểm
+  - thiệt hại
+  - danh mục
 app_component: FS-CM
 software_component: SAPSCORE
 release_state: released

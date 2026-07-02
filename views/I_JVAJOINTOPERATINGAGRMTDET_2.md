@@ -1,6 +1,12 @@
 ---
 name: I_JVAJOINTOPERATINGAGRMTDET_2
 description: Jvajointoperatingagrmtdet 2
+semantic_en: "joint operating agreement details with effective dates — venture master data including contracts, payroll and construction rules."
+semantic_vi: "chi tiết thỏa thuận hoạt động liên hợp với ngày có hiệu lực — dữ liệu chính liên doanh bao gồm hợp đồng, lương nhân công và quy tắc xây dựng."
+keywords:
+  - thỏa thuận hoạt động
+  - liên doanh
+  - chi tiết
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCADOPTIONSTRATEGY
 description: Kanbancalcadoptionstrategy
+semantic_en: "kanban calculation adoption strategy — defines container unlocking and deletion sequences for kanban planning."
+semantic_vi: "chiến lược áp dụng tính toán kanban — định nghĩa các chuỗi mở khóa và xóa vùng chứa cho lập kế hoạch kanban."
+keywords:
+  - kanban
+  - chiến lược tính toán
+  - vùng chứa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

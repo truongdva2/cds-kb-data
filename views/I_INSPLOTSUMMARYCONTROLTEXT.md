@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTSUMMARYCONTROLTEXT
 description: Insplotsummarycontroltext
+semantic_en: "Control of inspection lot summary text — language-specific descriptions for summary control types."
+semantic_vi: "Văn bản mô tả điều khiển tóm tắt lô kiểm tra theo ngôn ngữ."
+keywords:
+  - tóm tắt lô
+  - kiểm tra
+  - văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

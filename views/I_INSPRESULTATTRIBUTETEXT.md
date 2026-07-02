@@ -1,6 +1,12 @@
 ---
 name: I_INSPRESULTATTRIBUTETEXT
 description: Inspresultattributetext
+semantic_en: "Inspection result attribute text — language-specific descriptions for inspection result attributes."
+semantic_vi: "Văn bản mô tả thuộc tính kết quả kiểm tra theo ngôn ngữ."
+keywords:
+  - kết quả kiểm tra
+  - thuộc tính
+  - văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

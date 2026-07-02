@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREDESC
 description: Jointventuredesc
+semantic_en: "joint venture description and master text — multi-language names for joint venture entities"
+semantic_vi: "mô tả và văn bản chính liên doanh — tên đa ngôn ngữ cho pháp nhân liên doanh"
+keywords:
+  - liên doanh
+  - mô tả
+  - tên
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

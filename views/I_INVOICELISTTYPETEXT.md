@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTTYPETEXT
 description: Invoicelisttypetext
+semantic_en: "text descriptions for invoice list types in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các loại danh sách hóa đơn bằng nhiều ngôn ngữ"
+keywords:
+  - loại hóa đơn
+  - danh sách
+  - mô tả
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

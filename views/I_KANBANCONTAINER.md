@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINER
 description: Kanbancontainer
+semantic_en: "kanban container master data — tracks container status, locks, planned orders and linked documents."
+semantic_vi: "dữ liệu chính vùng chứa kanban — theo dõi trạng thái vùng chứa, khóa, đơn hàng có kế hoạch và tài liệu được liên kết."
+keywords:
+  - kanban
+  - vùng chứa
+  - trạng thái
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

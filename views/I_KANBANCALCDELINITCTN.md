@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCDELINITCTN
 description: Kanbancalcdelinitctn
+semantic_en: "domain values for kanban deletion of initial containers — controls whether initial containers are deleted during calculation."
+semantic_vi: "các giá trị tên miền cho xóa vùng chứa ban đầu kanban — kiểm soát xem vùng chứa ban đầu có bị xóa trong quá trình tính toán hay không."
+keywords:
+  - kanban
+  - xóa vùng chứa
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

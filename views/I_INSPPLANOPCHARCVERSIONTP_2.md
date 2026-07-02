@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANOPCHARCVERSIONTP_2
 description: Inspplanopcharcversiontp 2
+semantic_en: "Inspection plan operation characteristics version transactional — operation-level characteristic version management."
+semantic_vi: "Ghi chép giao dịch phiên bản đặc tính hoạt động trong kế hoạch kiểm tra."
+keywords:
+  - kế hoạch kiểm tra
+  - hoạt động
+  - đặc tính
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

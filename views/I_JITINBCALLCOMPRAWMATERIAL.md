@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPRAWMATERIAL
 description: Jitinbcallcomprawmaterial
+semantic_en: "JIT inbound call component raw material — raw material requirements for component items including plant and storage location."
+semantic_vi: "vật liệu thô thành phần lệnh gọi đến JIT — yêu cầu vật liệu thô cho mặt hàng thành phần bao gồm nhà máy và vị trí lưu trữ."
+keywords:
+  - vật liệu thô
+  - thành phần
+  - lệnh gọi JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTURESUSPENSETEXT
 description: Jointventuresuspensetext
+semantic_en: "joint venture suspense status descriptions — multi-language suspension status labels for partners and equity groups"
+semantic_vi: "mô tả trạng thái tạm ngừng liên doanh — nhãn trạng thái tạm ngừng đa ngôn ngữ"
+keywords:
+  - liên doanh
+  - tạm ngừng
+  - trạng thái
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

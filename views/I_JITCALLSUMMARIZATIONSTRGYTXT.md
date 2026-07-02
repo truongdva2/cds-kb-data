@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLSUMMARIZATIONSTRGYTXT
 description: Jitcallsummarizationstrgytxt
+semantic_en: "JIT call summarization strategy text — multilingual names for just-in-time call consolidation methods."
+semantic_vi: "mô tả văn bản chiến lược tóm tắt lệnh gọi JIT — tên đa ngôn ngữ cho phương pháp hợp nhất lệnh gọi just-in-time."
+keywords:
+  - tên chiến lược
+  - lệnh gọi JIT
+  - ngôn ngữ
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

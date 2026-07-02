@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTTP
 description: Jntopgagrmttp
+semantic_en: "joint operating agreement master data — contract numbers, clearing/exclusion sets, overhead rules, and percentage rates for operations"
+semantic_vi: "dữ liệu chính thỏa thuận vận hành liên doanh — số hợp đồng, tập hợp thanh toán/loại trừ, quy tắc chi phí chung"
+keywords:
+  - liên doanh
+  - thỏa thuận
+  - chi phí chung
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

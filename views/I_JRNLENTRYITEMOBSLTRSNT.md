@@ -1,6 +1,12 @@
 ---
 name: I_JRNLENTRYITEMOBSLTRSNT
 description: Jrnlentryitemobsltrsnt
+semantic_en: "text descriptions for journal entry item obsolete reasons — Language, DomainValue, and reason names."
+semantic_vi: "văn bản mô tả các lý do lỗi thời của mục nhập nhật ký — ngôn ngữ, giá trị tên miền và tên lý do."
+keywords:
+  - lý do lỗi thời nhập nhật ký
+  - mô tả lý do
+  - văn bản lý do
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

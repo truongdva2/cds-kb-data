@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANOPERATIONVERSTP_2
 description: Inspplanoperationverstp 2
+semantic_en: "Inspection plan operation version transactional posting — validity periods and version-specific operation changes."
+semantic_vi: "Ghi chép giao dịch phiên bản hoạt động trong kế hoạch kiểm tra."
+keywords:
+  - kế hoạch kiểm tra
+  - hoạt động
+  - phiên bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

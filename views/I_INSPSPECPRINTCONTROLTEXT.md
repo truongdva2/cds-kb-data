@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECPRINTCONTROLTEXT
 description: Inspspecprintcontroltext
+semantic_en: "Print control of master characteristic text — language descriptions for print control settings."
+semantic_vi: "Văn bản mô tả điều khiển in của đặc tính chính theo ngôn ngữ."
+keywords:
+  - điều khiển in
+  - đặc tính
+  - văn bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

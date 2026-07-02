@@ -1,6 +1,12 @@
 ---
 name: I_INSPSUBSETFIELDCOMBINATIONT
 description: Inspsubsetfieldcombinationt
+semantic_en: "text descriptions in multiple languages for inspection field combinations and their component names"
+semantic_vi: "các mô tả bằng văn bản bằng nhiều ngôn ngữ cho các kết hợp trường kiểm tra và tên thành phần của chúng"
+keywords:
+  - kết hợp trường
+  - kiểm tra
+  - mô tả
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

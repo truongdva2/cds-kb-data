@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECRSLTCALCULATION
 description: Inspspecrsltcalculation
+semantic_en: "domain values for calculation methods used in quality inspection results"
+semantic_vi: "các giá trị miền cho các phương pháp tính toán được sử dụng trong kết quả kiểm tra chất lượng"
+keywords:
+  - tính toán kết quả
+  - kiểm tra chất lượng
+  - phương pháp
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

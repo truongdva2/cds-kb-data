@@ -1,6 +1,12 @@
 ---
 name: I_ITEMGDSMVTINCOMPLETIONSTS
 description: Itemgdsmvtincompletionsts
+semantic_en: "item goods movement incompletion status — domain values for goods movement completion tracking."
+semantic_vi: "trạng thái hoàn thành chuyển động hàng hóa mặt hàng — giá trị miền để theo dõi hoàn thành chuyển động hàng hóa."
+keywords:
+  - chuyển động hàng hóa
+  - trạng thái hoàn thành
+  - mặt hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

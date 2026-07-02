@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTPARTNER
 description: Invoicelistpartner
+semantic_en: "business partners (customers, suppliers, personnel) involved in invoices with their contact and address details"
+semantic_vi: "các đối tác kinh doanh (khách hàng, nhà cung cấp, nhân viên) liên quan đến hóa đơn với chi tiết liên hệ và địa chỉ của họ"
+keywords:
+  - đối tác kinh doanh
+  - hóa đơn
+  - địa chỉ
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKACCTMAPPGINTER
 description: Jvactbckacctmappginter
+semantic_en: "intercompany cutback account mapping — routes general ledger accounts between affiliated companies with cutback allocations."
+semantic_vi: "ánh xạ tài khoản cắt giảm liên công ty — định tuyến tài khoản sổ cái chung giữa các công ty liên kết với cấp phát cắt giảm."
+keywords:
+  - ánh xạ tài khoản
+  - cắt giảm liên công ty
+  - sổ cái chung
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

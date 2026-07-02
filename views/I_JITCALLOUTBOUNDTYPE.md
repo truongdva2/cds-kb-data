@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLOUTBOUNDTYPE
 description: Jitcalloutboundtype
+semantic_en: "JIT call outbound type — domain values for just-in-time call outbound message types."
+semantic_vi: "loại tin nhắn gửi đi lệnh gọi JIT — giá trị miền cho loại tin nhắn gửi đi lệnh gọi just-in-time."
+keywords:
+  - lệnh gọi JIT
+  - loại tin nhắn
+  - gửi đi
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

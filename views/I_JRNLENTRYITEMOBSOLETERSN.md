@@ -1,6 +1,12 @@
 ---
 name: I_JRNLENTRYITEMOBSOLETERSN
 description: Jrnlentryitemobsoletersn
+semantic_en: "domain values mapping for journal entry item obsolete reasons — links domain codes to their classification."
+semantic_vi: "ánh xạ các giá trị tên miền cho lý do lỗi thời của mục nhập nhật ký — liên kết mã tên miền với phân loại của chúng."
+keywords:
+  - lý do lỗi thời
+  - giá trị tên miền
+  - phân loại
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

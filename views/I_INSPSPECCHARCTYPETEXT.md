@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECCHARCTYPETEXT
 description: Inspspeccharctypetext
+semantic_en: "Inspection characteristic type text — language descriptions for characteristic type classifications."
+semantic_vi: "Văn bản mô tả loại đặc tính kiểm tra theo ngôn ngữ."
+keywords:
+  - đặc tính kiểm tra
+  - loại
+  - văn bản
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

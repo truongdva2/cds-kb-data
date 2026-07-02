@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTMATLDOCITEMTYPE
 description: Insplotmatldocitemtype
+semantic_en: "Reference type of material document item in lot — classification code for item type references."
+semantic_vi: "Loại tham chiếu chứng từ vật liệu trong lô kiểm tra."
+keywords:
+  - loại chứng từ
+  - lô kiểm tra
+  - phân loại
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

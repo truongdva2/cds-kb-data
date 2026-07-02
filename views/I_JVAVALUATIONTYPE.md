@@ -1,6 +1,12 @@
 ---
 name: I_JVAVALUATIONTYPE
 description: Jvavaluationtype
+semantic_en: "inventory valuation types — defines purchasing rules and account categories for material valuation."
+semantic_vi: "các loại định giá hàng tồn kho — xác định các quy tắc mua hàng và danh mục tài khoản cho định giá vật liệu."
+keywords:
+  - loại định giá
+  - mua hàng
+  - tài khoản
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

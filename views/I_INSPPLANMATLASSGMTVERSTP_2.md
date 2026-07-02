@@ -1,6 +1,12 @@
 ---
 name: I_INSPPLANMATLASSGMTVERSTP_2
 description: Inspplanmatlassgmtverstp 2
+semantic_en: "Inspection plan material assignment version transactional — version tracking for material-to-plan links."
+semantic_vi: "Ghi chép giao dịch phiên bản gán vật liệu cho kế hoạch kiểm tra."
+keywords:
+  - kế hoạch kiểm tra
+  - vật liệu
+  - gán
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

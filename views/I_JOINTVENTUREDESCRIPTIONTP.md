@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREDESCRIPTIONTP
 description: Jointventuredescriptiontp
+semantic_en: "joint venture description transfer pricing projection — multi-language joint venture names and labels"
+semantic_vi: "phép chiếu định giá chuyển giao mô tả liên doanh — tên đa ngôn ngữ"
+keywords:
+  - liên doanh
+  - định giá chuyển giao
+  - mô tả
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

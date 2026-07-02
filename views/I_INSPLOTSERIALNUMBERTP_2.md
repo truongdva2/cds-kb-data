@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTSERIALNUMBERTP_2
 description: INSPLOTSerial NumberTP 2
+semantic_en: "Serial number in inspection lot transactional posting — serial number assignments to inspection objects."
+semantic_vi: "Ghi chép giao dịch số sê ri trong lô kiểm tra."
+keywords:
+  - số sê ri
+  - lô kiểm tra
+  - giao dịch
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

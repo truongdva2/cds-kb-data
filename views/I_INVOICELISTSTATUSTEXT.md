@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTSTATUSTEXT
 description: Invoiceliststatustext
+semantic_en: "text descriptions for invoice list statuses in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các trạng thái danh sách hóa đơn bằng nhiều ngôn ngữ"
+keywords:
+  - trạng thái hóa đơn
+  - danh sách
+  - mô tả
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

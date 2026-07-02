@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCUNLOCKINGSEQUENCE
 description: Kanbancalcunlockingsequence
+semantic_en: "domain values for kanban unlocking sequences — defines order for releasing locked containers."
+semantic_vi: "các giá trị tên miền cho các trình tự mở khóa kanban — xác định thứ tự phát hành các vùng chứa bị khóa."
+keywords:
+  - kanban
+  - mở khóa
+  - trình tự
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

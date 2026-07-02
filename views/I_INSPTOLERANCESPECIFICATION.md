@@ -1,6 +1,12 @@
 ---
 name: I_INSPTOLERANCESPECIFICATION
 description: Insptolerancespecification
+semantic_en: "domain values defining tolerance specifications for quality inspections"
+semantic_vi: "các giá trị miền định nghĩa các thông số kỹ thuật dung sai cho kiểm tra chất lượng"
+keywords:
+  - dung sai
+  - thông số kỹ thuật
+  - kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

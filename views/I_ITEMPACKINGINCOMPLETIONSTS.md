@@ -1,6 +1,12 @@
 ---
 name: I_ITEMPACKINGINCOMPLETIONSTS
 description: Itempackingincompletionsts
+semantic_en: "item packing incompletion status — domain for packaging process completion tracking."
+semantic_vi: "trạng thái hoàn thành đóng gói mặt hàng — miền cho theo dõi hoàn thành quy trình đóng gói."
+keywords:
+  - trạng thái đóng gói
+  - quy trình đóng gói
+  - mặt hàng
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

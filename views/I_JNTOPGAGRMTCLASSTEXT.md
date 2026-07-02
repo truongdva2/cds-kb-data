@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTCLASSTEXT
 description: Jntopgagrmtclasstext
+semantic_en: "joint operating agreement class text — multilingual descriptions for joint operating agreement classes."
+semantic_vi: "mô tả văn bản lớp thỏa thuận vận hành chung — mô tả đa ngôn ngữ cho các lớp thỏa thuận vận hành chung."
+keywords:
+  - mô tả lớp
+  - thỏa thuận vận hành
+  - ngôn ngữ
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

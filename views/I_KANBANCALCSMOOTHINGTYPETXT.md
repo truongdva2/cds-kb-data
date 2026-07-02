@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCSMOOTHINGTYPETXT
 description: Kanbancalcsmoothingtypetxt
+semantic_en: "text descriptions for kanban smoothing types — multilingual labels for demand leveling approaches."
+semantic_vi: "mô tả văn bản cho các loại làm mịn kanban — nhãn đa ngôn ngữ cho các cách tiếp cận san lấp nhu cầu."
+keywords:
+  - kanban
+  - làm mịn
+  - nhu cầu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

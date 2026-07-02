@@ -1,6 +1,12 @@
 ---
 name: I_INSPSUBSETCHARACTERISTIC
 description: Inspsubsetcharacteristic
+semantic_en: "inspection characteristics assigned to inspection plan operations and subsets — stores sampling and acceptance criteria"
+semantic_vi: "các đặc tính kiểm tra được gán cho các hoạt động và tập con kế hoạch kiểm tra — lưu trữ các tiêu chí lấy mẫu và chấp nhận"
+keywords:
+  - đặc tính kiểm tra
+  - lấy mẫu
+  - chấp nhận
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

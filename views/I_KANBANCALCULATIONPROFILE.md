@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCULATIONPROFILE
 description: Kanbancalculationprofile
+semantic_en: "kanban calculation profile — defines safety factors, lead times and requirement smoothing by plant."
+semantic_vi: "hồ sơ tính toán kanban — xác định các hệ số an toàn, thời gian chờ và làm mịn yêu cầu theo nhà máy."
+keywords:
+  - kanban
+  - hồ sơ
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

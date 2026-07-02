@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTMATLDOCITEM
 description: Insplotmatldocitem
+semantic_en: "Material document item in inspection lot — links material movement records to lot-level inspection tracking."
+semantic_vi: "Chứng từ vật liệu trong lô kiểm tra — liên kết ghi chép chuyển động vật liệu với lô."
+keywords:
+  - chứng từ vật liệu
+  - lô kiểm tra
+  - ghi chép
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

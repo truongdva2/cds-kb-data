@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERSTATUSTEXT
 description: Kanbancontainerstatustext
+semantic_en: "text descriptions for kanban container status — multilingual status labels and supplementary descriptions."
+semantic_vi: "mô tả văn bản cho trạng thái vùng chứa kanban — nhãn trạng thái đa ngôn ngữ và mô tả bổ sung."
+keywords:
+  - kanban
+  - trạng thái vùng chứa
+  - mô tả
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

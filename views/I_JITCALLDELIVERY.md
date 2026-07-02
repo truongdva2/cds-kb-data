@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLDELIVERY
 description: Jitcalldelivery
+semantic_en: "JIT call delivery link — mapping of just-in-time call numbers to purchase order deliveries with receipt quantities."
+semantic_vi: "liên kết giao hàng lệnh gọi JIT — ánh xạ của số lệnh gọi just-in-time tới giao hàng đơn hàng mua với số lượng nhận hàng."
+keywords:
+  - lệnh gọi JIT
+  - giao hàng
+  - đơn hàng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTSUMMARYCONTROL
 description: Insplotsummarycontrol
+semantic_en: "Control of inspection lot summary — classification of summary control types by origin."
+semantic_vi: "Điều khiển tóm tắt lô kiểm tra — phân loại theo nguồn gốc."
+keywords:
+  - tóm tắt lô
+  - kiểm tra
+  - điều khiển
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

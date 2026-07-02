@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPNLTYCATRCVRYTP
 description: Jntopgagrmtpnltycatrcvrytp
+semantic_en: "joint venture operating agreement penalty category recovery percentages — transfer pricing view of penalty recovery rates by category"
+semantic_vi: "tỷ lệ phục hồi phạt theo phân loại trong thỏa thuận vận hành liên doanh — dữ liệu định giá chuyển giao"
+keywords:
+  - liên doanh
+  - phạt
+  - định giá chuyển giao
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

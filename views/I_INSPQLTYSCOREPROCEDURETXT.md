@@ -1,6 +1,12 @@
 ---
 name: I_INSPQLTYSCOREPROCEDURETXT
 description: Inspqltyscoreproceduretxt
+semantic_en: "Quality score procedure text — language-specific procedure descriptions for quality scoring methods."
+semantic_vi: "Văn bản mô tả quy trình tính điểm chất lượng theo ngôn ngữ."
+keywords:
+  - điểm chất lượng
+  - quy trình
+  - văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

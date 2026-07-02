@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPONENT
 description: Jitinbcallcomponent
+semantic_en: "JIT inbound call component — material line items in just-in-time inbound calls including requested and delivered quantities."
+semantic_vi: "thành phần lệnh gọi đến JIT — mặt hàng dòng vật liệu trong lệnh gọi đến just-in-time bao gồm số lượng yêu cầu và đã giao."
+keywords:
+  - thành phần JIT
+  - mặt hàng vật liệu
+  - lệnh gọi đến
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JITPRODNCONFPROFILE
 description: Jitprodnconfprofile
+semantic_en: "JIT production confirmation profile — domain for production confirmation method configuration in just-in-time processing."
+semantic_vi: "hồ sơ xác nhận sản xuất JIT — miền cho cấu hình phương pháp xác nhận sản xuất trong xử lý just-in-time."
+keywords:
+  - hồ sơ xác nhận
+  - sản xuất JIT
+  - cấu hình
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

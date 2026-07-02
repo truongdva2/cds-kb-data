@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTTEXTTP
 description: Jntopgagrmttexttp
+semantic_en: "joint operating agreement text transfer pricing projection — multi-language descriptions for JOA"
+semantic_vi: "phép chiếu định giá chuyển giao văn bản thỏa thuận vận hành — mô tả đa ngôn ngữ"
+keywords:
+  - liên doanh
+  - định giá chuyển giao
+  - tài liệu
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

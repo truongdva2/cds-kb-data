@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCPROFILETEXT
 description: Kanbancalcprofiletext
+semantic_en: "text descriptions for kanban calculation profiles — multilingual profile names and labels by plant."
+semantic_vi: "mô tả văn bản cho các hồ sơ tính toán kanban — tên hồ sơ đa ngôn ngữ và nhãn theo nhà máy."
+keywords:
+  - kanban
+  - hồ sơ tính toán
+  - nhà máy
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

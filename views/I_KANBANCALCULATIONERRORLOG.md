@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCULATIONERRORLOG
 description: Kanbancalculationerrorlog
+semantic_en: "error log for kanban calculations — captures error conditions and status changes during planning cycles."
+semantic_vi: "nhật ký lỗi cho tính toán kanban — ghi lại các điều kiện lỗi và thay đổi trạng thái trong các chu kỳ lập kế hoạch."
+keywords:
+  - kanban
+  - lỗi
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

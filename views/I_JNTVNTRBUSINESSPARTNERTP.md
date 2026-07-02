@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRBUSINESSPARTNERTP
 description: JNTVNTRBusiness PartnerTP
+semantic_en: "joint venture business partner transfer pricing projection — partner data with equity and project-level cash call thresholds"
+semantic_vi: "phép chiếu định giá chuyển giao đối tác kinh doanh liên doanh — dữ liệu đối tác với ngưỡng yêu cầu thanh toán"
+keywords:
+  - liên doanh
+  - đối tác
+  - định giá chuyển giao
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

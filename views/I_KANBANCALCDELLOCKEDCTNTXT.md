@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCDELLOCKEDCTNTXT
 description: Kanbancalcdellockedctntxt
+semantic_en: "text descriptions for kanban locked container deletion options — multilingual labels for deletion behavior."
+semantic_vi: "mô tả văn bản cho các tùy chọn xóa vùng chứa bị khóa kanban — nhãn đa ngôn ngữ cho hành vi xóa."
+keywords:
+  - kanban
+  - xóa vùng chứa
+  - bị khóa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

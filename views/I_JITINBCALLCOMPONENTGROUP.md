@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPONENTGROUP
 description: Jitinbcallcomponentgroup
+semantic_en: "JIT inbound call component group — grouping of component materials with supplier, plant, and unloading point details."
+semantic_vi: "nhóm thành phần lệnh gọi đến JIT — nhóm hóa các vật liệu thành phần với chi tiết nhà cung cấp, nhà máy và điểm dỡ hàng."
+keywords:
+  - nhóm thành phần
+  - lệnh gọi JIT
+  - vật liệu
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

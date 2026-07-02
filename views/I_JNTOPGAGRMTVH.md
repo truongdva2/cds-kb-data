@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTVH
 description: Jntopgagrmtvh
+semantic_en: "value help for joint operating agreement descriptions — quick lookup of JOA identifiers and descriptions"
+semantic_vi: "trợ giúp giá trị cho mô tả thỏa thuận vận hành — tra cứu nhanh chỉ số và mô tả"
+keywords:
+  - liên doanh
+  - tra cứu
+  - thỏa thuận
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

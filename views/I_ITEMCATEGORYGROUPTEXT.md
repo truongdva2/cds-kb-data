@@ -1,6 +1,12 @@
 ---
 name: I_ITEMCATEGORYGROUPTEXT
 description: Itemcategorygrouptext
+semantic_en: "item category group text — multilingual names and descriptions for item category groups."
+semantic_vi: "văn bản nhóm danh mục mặt hàng — tên và mô tả đa ngôn ngữ cho các nhóm danh mục mặt hàng."
+keywords:
+  - tên danh mục
+  - mô tả nhóm
+  - ngôn ngữ
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

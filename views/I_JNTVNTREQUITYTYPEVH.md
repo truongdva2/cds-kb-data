@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTREQUITYTYPEVH
 description: Jntvntrequitytypevh
+semantic_en: "value help for joint venture equity types — quick lookup of equity type codes and descriptions"
+semantic_vi: "trợ giúp giá trị cho loại cổ phần liên doanh — tra cứu nhanh loại cổ phần"
+keywords:
+  - liên doanh
+  - loại cổ phần
+  - tra cứu
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

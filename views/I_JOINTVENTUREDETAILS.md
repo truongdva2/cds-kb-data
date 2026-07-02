@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREDETAILS
 description: Jointventuredetails
+semantic_en: "master data for joint venture entities — equity group, partners, type, operator, tax code, billing type, and creation audit trail"
+semantic_vi: "dữ liệu chính cho pháp nhân liên doanh — nhóm cổ phần, đối tác, loại, nhà điều hành, mã thuế, loại thanh toán"
+keywords:
+  - liên doanh
+  - dữ liệu chính
+  - đối tác
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

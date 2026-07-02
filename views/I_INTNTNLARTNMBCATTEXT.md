@@ -1,6 +1,12 @@
 ---
 name: I_INTNTNLARTNMBCATTEXT
 description: Intntnlartnmbcattext
+semantic_en: "text descriptions for international article number categories in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các danh mục số bài viết quốc tế bằng nhiều ngôn ngữ"
+keywords:
+  - GTIN
+  - danh mục
+  - mô tả
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPDOCREFERENCE
 description: Jitinbcallcompdocreference
+semantic_en: "JIT inbound call component document reference — links between component-level detail and business transaction documents."
+semantic_vi: "tham chiếu tài liệu thành phần lệnh gọi đến JIT — liên kết giữa chi tiết cấp thành phần và tài liệu giao dịch kinh doanh."
+keywords:
+  - tham chiếu tài liệu
+  - thành phần
+  - lệnh gọi JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

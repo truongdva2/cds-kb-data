@@ -1,6 +1,12 @@
 ---
 name: I_INSPMETHVERSSTDVH
 description: Inspmethversstdvh
+semantic_en: "Inspection method version value-help — provides selection list for inspection method versions by plant."
+semantic_vi: "Danh sách giúp lựa chọn phiên bản phương pháp kiểm tra."
+keywords:
+  - phương pháp kiểm tra
+  - phiên bản
+  - danh sách giúp
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

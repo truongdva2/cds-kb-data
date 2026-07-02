@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTEQUITYTYPEGRPTP
 description: Jntopgagrmtequitytypegrptp
+semantic_en: "JVA equity type group transfer price — transfer price view for joint venture equity group allocation and suspension tracking."
+semantic_vi: "giá chuyển nhượng nhóm loại vốn chủ sở hữu JVA — dạng xem giá chuyển nhượng cho phân bổ nhóm vốn chủ sở hữu liên doanh và theo dõi tạm dừng."
+keywords:
+  - vốn chủ sở hữu
+  - liên doanh
+  - giá chuyển nhượng
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

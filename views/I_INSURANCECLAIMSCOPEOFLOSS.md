@@ -1,6 +1,12 @@
 ---
 name: I_INSURANCECLAIMSCOPEOFLOSS
 description: Insuranceclaimscopeofloss
+semantic_en: "domain values for scopes of loss covered by insurance claims against damage categories"
+semantic_vi: "các giá trị miền cho phạm vi tổn thất được bảo hiểm bao gồm chống lại các danh mục thiệt hại"
+keywords:
+  - phạm vi tổn thất
+  - yêu cầu bảo hiểm
+  - thiệt hại
 app_component: FS-CM
 software_component: SAPSCORE
 release_state: released

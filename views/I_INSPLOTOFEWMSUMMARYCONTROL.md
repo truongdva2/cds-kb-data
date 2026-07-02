@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTOFEWMSUMMARYCONTROL
 description: Insplotofewmsummarycontrol
+semantic_en: "Inspection lot summary control for warehouse-managed stock — classification for EWM summary handling."
+semantic_vi: "Điều khiển tóm tắt lô kiểm tra cho kho quản lý điện tử."
+keywords:
+  - lô kiểm tra
+  - kho
+  - điều khiển tóm tắt
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

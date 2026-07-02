@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRSUBSTITCOSTOBJECTTP
 description: Jntvntrsubstitcostobjecttp
+semantic_en: "joint venture substitute cost object transfer pricing view — substitute cost center, WBS element, and order assignments by recovery code"
+semantic_vi: "phép chiếu định giá chuyển giao đối tượng chi phí thay thế — gán trung tâm chi phí, WBS, đơn hàng"
+keywords:
+  - liên doanh
+  - chi phí
+  - thay thế
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

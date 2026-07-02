@@ -1,6 +1,12 @@
 ---
 name: I_JVACARRIEDINTEREST
 description: Jvacarriedinterest
+semantic_en: "carried interest allocation in joint ventures — partners, company codes, and equity group carry percentages."
+semantic_vi: "cấp phát lợi ích theo hợp đồng trong liên doanh — các đối tác, mã công ty và phần trăm cấp vốn nhóm vốn chủ."
+keywords:
+  - lợi ích theo hợp đồng
+  - liên doanh
+  - phân bổ vốn
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

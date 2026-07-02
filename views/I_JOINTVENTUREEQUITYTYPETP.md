@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREEQUITYTYPETP
 description: Jointventureequitytypetp
+semantic_en: "joint venture equity type transfer pricing view — equity type, funding date, equity group, and billing currency by venture"
+semantic_vi: "phép chiếu định giá chuyển giao loại cổ phần — loại cổ phần, ngày tài trợ, nhóm cổ phần, tiền tệ thanh toán"
+keywords:
+  - liên doanh
+  - loại cổ phần
+  - định giá
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

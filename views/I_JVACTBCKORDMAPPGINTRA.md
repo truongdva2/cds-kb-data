@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKORDMAPPGINTRA
 description: Jvactbckordmappgintra
+semantic_en: "intracompany cutback order mapping — routes order costs to cutback cost centers and WBS within a company."
+semantic_vi: "ánh xạ đơn hàng cắt giảm nội bộ — định tuyến chi phí đơn hàng đến các trung tâm chi phí cắt giảm và WBS trong một công ty."
+keywords:
+  - ánh xạ đơn hàng
+  - cắt giảm nội bộ
+  - chi phí
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

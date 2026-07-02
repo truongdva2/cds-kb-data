@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTOFEWMSMMRYCTRLTEXT
 description: Insplotofewmsmmryctrltext
+semantic_en: "Inspection lot summary control warehouse-managed stock text — language descriptions for EWM summary controls."
+semantic_vi: "Văn bản điều khiển tóm tắt lô kiểm tra cho kho quản lý theo ngôn ngữ."
+keywords:
+  - lô kiểm tra
+  - kho
+  - điều khiển
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

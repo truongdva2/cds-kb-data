@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREMASTERFLD
 description: Jointventuremasterfld
+semantic_en: "joint venture master data fields projection — venture type, operator, tax code, class, payment terms, billing method, and audit tracking"
+semantic_vi: "phép chiếu các trường dữ liệu chính liên doanh — loại, nhà điều hành, mã thuế, lớp, điều khoản thanh toán"
+keywords:
+  - liên doanh
+  - dữ liệu chính
+  - trường
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

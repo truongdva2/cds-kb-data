@@ -1,6 +1,12 @@
 ---
 name: I_ITEMGENINCOMPLETIONSTATUST
 description: Itemgenincompletionstatust
+semantic_en: "general incompletion status text — multilingual descriptions of item general completion states."
+semantic_vi: "mô tả văn bản trạng thái không hoàn thành chung — mô tả đa ngôn ngữ của trạng thái hoàn thành chung mặt hàng."
+keywords:
+  - trạng thái chung
+  - mô tả hoàn thành
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

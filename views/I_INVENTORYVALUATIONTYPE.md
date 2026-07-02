@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYVALUATIONTYPE
 description: Inventoryvaluationtype
+semantic_en: "valuation methods for inventory accounting such as FIFO, LIFO, or weighted average — tied to purchasing rules"
+semantic_vi: "các phương pháp định giá hàng tồn kho cho kế toán như FIFO, LIFO hoặc trung bình có trọng số — được liên kết với quy tắc mua hàng"
+keywords:
+  - định giá hàng tồn kho
+  - FIFO
+  - phương pháp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

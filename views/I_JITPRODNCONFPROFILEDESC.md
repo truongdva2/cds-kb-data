@@ -1,6 +1,12 @@
 ---
 name: I_JITPRODNCONFPROFILEDESC
 description: Jitprodnconfprofiledesc
+semantic_en: "JIT production confirmation profile text — multilingual descriptions for production confirmation profile types."
+semantic_vi: "mô tả văn bản hồ sơ xác nhận sản xuất JIT — mô tả đa ngôn ngữ cho các loại hồ sơ xác nhận sản xuất."
+keywords:
+  - mô tả hồ sơ
+  - xác nhận sản xuất
+  - ngôn ngữ
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

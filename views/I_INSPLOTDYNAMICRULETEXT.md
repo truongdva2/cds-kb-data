@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTDYNAMICRULETEXT
 description: Insplotdynamicruletext
+semantic_en: "Dynamic modification rule text — language-specific descriptions for InspLotDynamicRule in multiple languages."
+semantic_vi: "Văn bản mô tả quy tắc sửa đổi động theo ngôn ngữ."
+keywords:
+  - quy tắc động
+  - văn bản
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

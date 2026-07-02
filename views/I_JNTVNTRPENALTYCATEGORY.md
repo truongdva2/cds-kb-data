@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRPENALTYCATEGORY
 description: Jntvntrpenaltycategory
+semantic_en: "penalty category in joint venture operating agreement — penalty category codes and identification"
+semantic_vi: "phân loại phạt trong thỏa thuận vận hành liên doanh — mã và định danh phạt"
+keywords:
+  - liên doanh
+  - phạt
+  - phân loại
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

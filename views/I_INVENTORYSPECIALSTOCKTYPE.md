@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYSPECIALSTOCKTYPE
 description: Inventoryspecialstocktype
+semantic_en: "types of special inventory stock such as consignment, returnable, or third-party inventory"
+semantic_vi: "các loại hàng tồn kho đặc biệt như hàng ký gửi, hàng có thể trả lại hoặc hàng của bên thứ ba"
+keywords:
+  - hàng tồn kho đặc biệt
+  - ký gửi
+  - loại
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

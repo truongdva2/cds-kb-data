@@ -1,6 +1,12 @@
 ---
 name: I_ITEMGENINCOMPLETIONSTATUS
 description: Itemgenincompletionstatus
+semantic_en: "item general incompletion status — domain for overall sales document item completion state."
+semantic_vi: "trạng thái không hoàn thành chung của mặt hàng — miền cho tình trạng hoàn thành mặt hàng tài liệu bán hàng tổng thể."
+keywords:
+  - trạng thái hoàn thành
+  - mặt hàng bán hàng
+  - tài liệu
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

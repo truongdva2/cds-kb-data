@@ -1,6 +1,12 @@
 ---
 name: I_ITEMPICKINGINCOMPLETIONSTS
 description: Itempickingincompletionsts
+semantic_en: "item picking incompletion status — domain for warehouse picking process completion state."
+semantic_vi: "trạng thái hoàn thành lấy hàng mặt hàng — miền cho tình trạng hoàn thành quy trình lấy hàng kho."
+keywords:
+  - trạng thái lấy hàng
+  - quy trình lấy hàng
+  - kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

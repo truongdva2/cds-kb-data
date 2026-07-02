@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCSMOOTHINGTYPE
 description: Kanbancalcsmoothingtype
+semantic_en: "domain values for kanban calculation smoothing types — controls demand leveling behavior."
+semantic_vi: "các giá trị tên miền cho các loại làm mịn tính toán kanban — kiểm soát hành vi san lấp nhu cầu."
+keywords:
+  - kanban
+  - làm mịn
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

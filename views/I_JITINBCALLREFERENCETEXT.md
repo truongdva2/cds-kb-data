@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLREFERENCETEXT
 description: Jitinbcallreferencetext
+semantic_en: "JIT inbound call reference text — additional descriptive text for just-in-time inbound calls and draft tracking."
+semantic_vi: "mô tả văn bản tham chiếu lệnh gọi đến JIT — văn bản mô tả bổ sung cho lệnh gọi đến just-in-time và theo dõi nháp."
+keywords:
+  - tham chiếu lệnh gọi
+  - văn bản tham chiếu
+  - JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

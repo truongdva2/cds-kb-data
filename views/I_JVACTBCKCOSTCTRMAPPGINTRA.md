@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKCOSTCTRMAPPGINTRA
 description: Jvactbckcostctrmappgintra
+semantic_en: "intracompany cutback cost center mapping — routes cost allocations to cost centers, orders and WBS within a company."
+semantic_vi: "ánh xạ trung tâm chi phí cắt giảm nội bộ — định tuyến cấp phát chi phí đến các trung tâm chi phí, đơn hàng và WBS trong một công ty."
+keywords:
+  - trung tâm chi phí
+  - cắt giảm nội bộ
+  - WBS
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

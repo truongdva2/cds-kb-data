@@ -1,6 +1,12 @@
 ---
 name: I_ITEMBILLINGINCOMPLETIONSTST
 description: Itembillingincompletionstst
+semantic_en: "item billing incompletion status text — multilingual descriptions of billing incompletion statuses."
+semantic_vi: "mô tả văn bản trạng thái hoàn thành lập hóa đơn — mô tả đa ngôn ngữ của các trạng thái không hoàn thành lập hóa đơn mặt hàng."
+keywords:
+  - mô tả lập hóa đơn
+  - trạng thái không hoàn thành
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPRESULTDOCUREQUIRED
 description: Inspresultdocurequired
+semantic_en: "Documentation required for inspection results — classification flag for required documentation."
+semantic_vi: "Yêu cầu tài liệu cho kết quả kiểm tra — phân loại nhu cầu tài liệu."
+keywords:
+  - kết quả kiểm tra
+  - tài liệu
+  - yêu cầu
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

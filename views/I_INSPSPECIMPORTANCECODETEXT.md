@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECIMPORTANCECODETEXT
 description: Inspspecimportancecodetext
+semantic_en: "Weighting of inspection characteristic text — language descriptions for importance codes."
+semantic_vi: "Văn bản mô tả mã trọng số đặc tính kiểm tra theo ngôn ngữ."
+keywords:
+  - trọng số
+  - đặc tính kiểm tra
+  - văn bản
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

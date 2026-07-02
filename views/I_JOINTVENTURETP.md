@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTURETP
 description: Jointventuretp
+semantic_en: "joint venture transfer pricing projection with inception-to-date data — venture names, billing methods, operator, class, operating agreement, and cumulative billing amounts"
+semantic_vi: "phép chiếu định giá chuyển giao liên doanh với dữ liệu từ ngày thành lập — tên, loại thanh toán, nhà điều hành, lớp, thỏa thuận"
+keywords:
+  - liên doanh
+  - định giá chuyển giao
+  - thanh toán
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

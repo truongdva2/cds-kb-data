@@ -1,6 +1,12 @@
 ---
 name: I_ITEMBILLINGINCOMPLETIONSTS
 description: Itembillingincompletionsts
+semantic_en: "item billing incompletion status — single-value domain representing the completion state of item billing processes."
+semantic_vi: "trạng thái hoàn thành lập hóa đơn mặt hàng — giá trị miền duy nhất đại diện cho tình trạng hoàn thành của quy trình lập hóa đơn."
+keywords:
+  - trạng thái lập hóa đơn
+  - hóa đơn mặt hàng
+  - hoàn thành
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

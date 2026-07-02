@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKWBSMAPPGINTRA
 description: Jvactbckwbsmappgintra
+semantic_en: "intracompany cutback WBS mapping — routes project costs to cutback cost centers and objects within a company."
+semantic_vi: "ánh xạ WBS cắt giảm nội bộ — định tuyến chi phí dự án đến các trung tâm chi phí cắt giảm và các đối tượng trong một công ty."
+keywords:
+  - WBS
+  - cắt giảm nội bộ
+  - dự án
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

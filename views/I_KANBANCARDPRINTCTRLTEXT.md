@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCARDPRINTCTRLTEXT
 description: Kanbancardprintctrltext
+semantic_en: "text descriptions for kanban card print control options — multilingual labels for printing behavior."
+semantic_vi: "mô tả văn bản cho các tùy chọn kiểm soát in thẻ kanban — nhãn đa ngôn ngữ cho hành vi in."
+keywords:
+  - kanban
+  - in thẻ
+  - kiểm soát
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

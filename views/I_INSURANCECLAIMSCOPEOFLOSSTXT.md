@@ -1,6 +1,12 @@
 ---
 name: I_INSURANCECLAIMSCOPEOFLOSSTXT
 description: Insuranceclaimscopeoflosstxt
+semantic_en: "text descriptions for insurance claim scopes of loss in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các phạm vi tổn thất yêu cầu bảo hiểm bằng nhiều ngôn ngữ"
+keywords:
+  - phạm vi tổn thất
+  - bảo hiểm
+  - mô tả
 app_component: FS-CM
 software_component: SAPSCORE
 release_state: released

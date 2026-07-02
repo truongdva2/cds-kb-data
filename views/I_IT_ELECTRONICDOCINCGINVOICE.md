@@ -1,6 +1,12 @@
 ---
 name: I_IT_ELECTRONICDOCINCGINVOICE
 description: IT Electronicdocincginvoice
+semantic_en: "Italy incoming electronic invoice — Italian e-invoice document metadata including supplier tax ID, rejection codes, and delivery status."
+semantic_vi: "hóa đơn điện tử đến từ Ý — siêu dữ liệu tài liệu hóa đơn điện tử Ý bao gồm mã số thuế nhà cung cấp, mã từ chối và trạng thái giao hàng."
+keywords:
+  - hóa đơn điện tử Ý
+  - hóa đơn đến
+  - nhà cung cấp
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

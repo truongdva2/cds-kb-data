@@ -1,6 +1,12 @@
 ---
 name: I_JP_INVCSMMRYPAYERINVOICE
 description: JP Invcsmmrypayerinvoice
+semantic_en: "payer invoices for Japan invoice summary — payer-level invoice aggregation with net, tax, gross, and payment amounts"
+semantic_vi: "hóa đơn người trả cho tóm tắt hóa đơn Nhật Bản — hóa đơn cấp người trả với số tiền ròng, thuế, tổng, thanh toán"
+keywords:
+  - Nhật Bản
+  - hóa đơn
+  - người trả
 app_component: FI-LOC-FI-JP
 software_component: SAPSCORE
 release_state: released

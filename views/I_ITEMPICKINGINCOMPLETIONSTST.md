@@ -1,6 +1,12 @@
 ---
 name: I_ITEMPICKINGINCOMPLETIONSTST
 description: Itempickingincompletionstst
+semantic_en: "item picking incompletion status text — multilingual descriptions of warehouse picking statuses."
+semantic_vi: "mô tả văn bản trạng thái hoàn thành lấy hàng — mô tả trạng thái lấy hàng kho đa ngôn ngữ."
+keywords:
+  - mô tả lấy hàng
+  - trạng thái không hoàn thành
+  - kho
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

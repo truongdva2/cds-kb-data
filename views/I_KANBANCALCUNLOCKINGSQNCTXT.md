@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCUNLOCKINGSQNCTXT
 description: Kanbancalcunlockingsqnctxt
+semantic_en: "text descriptions for kanban unlocking sequences — multilingual labels for container release order."
+semantic_vi: "mô tả văn bản cho các trình tự mở khóa kanban — nhãn đa ngôn ngữ cho thứ tự phát hành vùng chứa."
+keywords:
+  - kanban
+  - mở khóa
+  - mô tả
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

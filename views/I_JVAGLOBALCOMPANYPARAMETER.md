@@ -1,6 +1,12 @@
 ---
 name: I_JVAGLOBALCOMPANYPARAMETER
 description: Jvaglobalcompanyparameter
+semantic_en: "joint venture global parameters by company — configuration for inception dates, billing basis, default ventures and cost recovery."
+semantic_vi: "tham số toàn cầu liên doanh theo công ty — cấu hình cho ngày bắt đầu, cơ sở lập hóa đơn, liên doanh mặc định và phục hồi chi phí."
+keywords:
+  - tham số liên doanh
+  - cấu hình công ty
+  - lập hóa đơn
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

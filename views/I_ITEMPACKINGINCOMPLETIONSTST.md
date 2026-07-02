@@ -1,6 +1,12 @@
 ---
 name: I_ITEMPACKINGINCOMPLETIONSTST
 description: Itempackingincompletionstst
+semantic_en: "item packing incompletion status text — multilingual packing status descriptions."
+semantic_vi: "mô tả văn bản trạng thái hoàn thành đóng gói — mô tả trạng thái đóng gói đa ngôn ngữ."
+keywords:
+  - mô tả đóng gói
+  - trạng thái không hoàn thành
+  - ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

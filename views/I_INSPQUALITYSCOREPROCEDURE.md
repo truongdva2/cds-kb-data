@@ -1,6 +1,12 @@
 ---
 name: I_INSPQUALITYSCOREPROCEDURE
 description: Inspqualityscoreprocedure
+semantic_en: "Procedure to calculate quality score — defines methodology for calculating inspection quality metrics."
+semantic_vi: "Quy trình tính điểm chất lượng — định nghĩa phương pháp tính toán chỉ số chất lượng."
+keywords:
+  - điểm chất lượng
+  - quy trình
+  - tính toán
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

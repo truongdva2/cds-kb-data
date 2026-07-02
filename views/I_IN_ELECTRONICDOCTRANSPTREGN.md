@@ -1,6 +1,12 @@
 ---
 name: I_IN_ELECTRONICDOCTRANSPTREGN
 description: IN Electronicdoctransptregn
+semantic_en: "India e-way bill generation and validity tracking for goods transport and GST registration"
+semantic_vi: "tạo hóa đơn điện tử vận chuyển hàng hóa của Ấn Độ và theo dõi hiệu lực cho vận chuyển hàng hóa và đăng ký GST"
+keywords:
+  - e-way bill
+  - Ấn Độ
+  - vận chuyển
 app_component: CA-GTF-CSC-EDO-IN-EW
 software_component: SAPSCORE
 release_state: released

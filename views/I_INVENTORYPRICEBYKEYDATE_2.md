@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYPRICEBYKEYDATE_2
 description: Inventorypricebykeydate 2
+semantic_en: "inventory valuation prices by valuation type and key date — used for costing and financial reporting"
+semantic_vi: "giá định giá hàng tồn kho theo loại định giá và ngày khóa — được sử dụng để tính toán chi phí và báo cáo tài chính"
+keywords:
+  - giá hàng tồn kho
+  - định giá
+  - ngày khóa
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

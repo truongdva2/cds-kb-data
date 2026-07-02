@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECRSLTCALCULATIONTEXT
 description: Inspspecrsltcalculationtext
+semantic_en: "text descriptions for characteristic result calculation methods by language"
+semantic_vi: "các mô tả bằng văn bản cho các phương pháp tính toán kết quả đặc tính theo ngôn ngữ"
+keywords:
+  - tính toán kết quả
+  - phương pháp tính
+  - mô tả
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

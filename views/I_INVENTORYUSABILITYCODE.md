@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYUSABILITYCODE
 description: Inventoryusabilitycode
+semantic_en: "codes that determine how inventory usability impacts the derivation of stock types"
+semantic_vi: "các mã xác định cách khả năng sử dụng hàng tồn kho ảnh hưởng đến việc dẫn xuất các loại hàng tồn kho"
+keywords:
+  - mã khả năng sử dụng
+  - hàng tồn kho
+  - loại
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

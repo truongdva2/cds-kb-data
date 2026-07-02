@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCREQUIREMENTDISTR
 description: Kanbancalcrequirementdistr
+semantic_en: "distribution of kanban requirements — allocation percentages across storage locations and supply areas."
+semantic_vi: "phân bố yêu cầu kanban — tỷ lệ cấp phát trên các vị trí lưu trữ và khu vực cung ứng."
+keywords:
+  - kanban
+  - phân bố yêu cầu
+  - cung ứng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

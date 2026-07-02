@@ -1,6 +1,11 @@
 ---
 name: I_JOINTVENTURECOMPANYCODEVH
 description: JOINTVENTURECompany CodeVH
+semantic_en: "value help for company codes in joint ventures — quick lookup of company code identifiers and names"
+semantic_vi: "trợ giúp giá trị cho mã công ty trong liên doanh — tra cứu nhanh mã công ty"
+keywords:
+  - mã công ty
+  - liên doanh
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

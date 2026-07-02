@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECCHARCCATEGORY
 description: Inspspeccharccategory
+semantic_en: "Characteristic category — classification code for inspection characteristic types."
+semantic_vi: "Danh mục đặc tính — phân loại loại đặc tính kiểm tra."
+keywords:
+  - đặc tính
+  - danh mục
+  - phân loại
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

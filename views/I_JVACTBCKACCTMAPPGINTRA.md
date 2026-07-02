@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKACCTMAPPGINTRA
 description: Jvactbckacctmappgintra
+semantic_en: "intracompany cutback account mapping — maps general ledger accounts with cutback allocations within a single company."
+semantic_vi: "ánh xạ tài khoản cắt giảm nội bộ công ty — ánh xạ tài khoản sổ cái chung với cấp phát cắt giảm trong một công ty."
+keywords:
+  - ánh xạ tài khoản
+  - cắt giảm nội bộ
+  - sổ cái
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

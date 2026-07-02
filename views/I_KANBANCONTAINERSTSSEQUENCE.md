@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTAINERSTSSEQUENCE
 description: Kanbancontainerstssequence
+semantic_en: "status sequence rules for kanban containers — defines allowed transitions and status relationships."
+semantic_vi: "quy tắc trình tự trạng thái cho vùng chứa kanban — xác định các chuyển đổi được phép và mối quan hệ trạng thái."
+keywords:
+  - kanban
+  - trình tự trạng thái
+  - chuyển đổi
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

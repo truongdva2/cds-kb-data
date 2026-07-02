@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREEQUITYGROUPTP
 description: Jointventureequitygrouptp
+semantic_en: "joint venture equity group transfer pricing projection — operated/non-operated shares, suspension periods, and net profit interest group"
+semantic_vi: "phép chiếu định giá chuyển giao nhóm cổ phần — cổ phần vận hành, khoảng tạm ngừng, nhóm lợi tức"
+keywords:
+  - liên doanh
+  - cổ phần
+  - định giá
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

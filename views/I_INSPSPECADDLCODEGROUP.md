@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECADDLCODEGROUP
 description: Inspspecaddlcodegroup
+semantic_en: "Additional code group of master characteristics — code groups within supplementary catalogs."
+semantic_vi: "Nhóm mã bổ sung của đặc tính chính — tổ chức mã hóa bổ sung."
+keywords:
+  - nhóm mã
+  - danh mục bổ sung
+  - đặc tính
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECCHARCTYPE
 description: Inspspeccharctype
+semantic_en: "Inspection characteristic type — classification for inspection specification characteristic types."
+semantic_vi: "Loại đặc tính kiểm tra — phân loại loại đặc tính quy cách kiểm tra."
+keywords:
+  - đặc tính kiểm tra
+  - loại
+  - phân loại
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JVAVNTRINTCOVNTR
 description: Jvavntrintcovntr
+semantic_en: "intercompany venture relationships in joint ventures — links affiliated ventures across company and equity groups."
+semantic_vi: "mối quan hệ liên doanh liên công ty trong liên doanh — liên kết các liên doanh liên kết trên các nhóm công ty và vốn chủ."
+keywords:
+  - liên doanh liên công ty
+  - quan hệ
+  - vốn chủ
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

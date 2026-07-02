@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYTRANSACTIONTYPET
 description: Inventorytransactiontypet
+semantic_en: "text descriptions for inventory transaction types in multiple languages"
+semantic_vi: "các mô tả bằng văn bản cho các loại giao dịch hàng tồn kho bằng nhiều ngôn ngữ"
+keywords:
+  - giao dịch hàng tồn kho
+  - loại
+  - mô tả
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

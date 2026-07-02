@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECIFICATIONVERSION
 description: Inspspecificationversion
+semantic_en: "Specification determination rule active — defines active specification versions for material-plant combinations."
+semantic_vi: "Quy tắc xác định quy cách hoạt động — định nghĩa phiên bản quy cách hoạt động theo vật liệu."
+keywords:
+  - quy cách
+  - phiên bản hoạt động
+  - quy tắc xác định
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

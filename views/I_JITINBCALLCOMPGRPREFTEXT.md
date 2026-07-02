@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPGRPREFTEXT
 description: Jitinbcallcompgrpreftext
+semantic_en: "JIT inbound call component group reference text — additional reference text for component groups and draft versions."
+semantic_vi: "mô tả văn bản tham chiếu nhóm thành phần lệnh gọi đến JIT — văn bản tham chiếu bổ sung cho nhóm thành phần và phiên bản nháp."
+keywords:
+  - tham chiếu nhóm thành phần
+  - văn bản tham chiếu
+  - JIT
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

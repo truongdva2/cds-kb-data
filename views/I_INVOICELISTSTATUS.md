@@ -1,6 +1,12 @@
 ---
 name: I_INVOICELISTSTATUS
 description: Invoiceliststatus
+semantic_en: "domain values for invoice list processing status such as open, completed, or blocked"
+semantic_vi: "các giá trị miền cho trạng thái xử lý danh sách hóa đơn như đang mở, hoàn thành hoặc bị chặn"
+keywords:
+  - trạng thái hóa đơn
+  - danh sách
+  - xử lý
 app_component: SD-BIL-IL-2CL
 software_component: SAPSCORE
 release_state: released

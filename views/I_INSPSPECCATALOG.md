@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECCATALOG
 description: Inspspeccatalog
+semantic_en: "Additional catalog field group — links inspection specifications to supplementary code sets."
+semantic_vi: "Nhóm trường danh mục bổ sung — liên kết quy cách kiểm tra với bộ mã bổ sung."
+keywords:
+  - quy cách kiểm tra
+  - danh mục bổ sung
+  - nhóm trường
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

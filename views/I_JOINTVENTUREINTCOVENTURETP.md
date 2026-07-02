@@ -1,6 +1,12 @@
 ---
 name: I_JOINTVENTUREINTCOVENTURETP
 description: Jointventureintcoventuretp
+semantic_en: "joint venture intercompany venture transfer pricing projection — intercompany code, intercompany venture, and equity group mapping"
+semantic_vi: "phép chiếu định giá chuyển giao liên doanh nội bộ — mã công ty nội bộ, liên doanh, nhóm cổ phần"
+keywords:
+  - liên doanh
+  - nội bộ
+  - định giá
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

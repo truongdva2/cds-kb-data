@@ -1,6 +1,11 @@
 ---
 name: I_JNTVNTRVALUEHELP
 description: Jntvntrvaluehelp
+semantic_en: "value help for joint ventures — quick lookup of joint venture types, classes, and operating agreements"
+semantic_vi: "trợ giúp giá trị cho liên doanh — tra cứu nhanh loại, lớp, thỏa thuận vận hành"
+keywords:
+  - liên doanh
+  - tra cứu
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

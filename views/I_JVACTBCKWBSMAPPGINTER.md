@@ -1,6 +1,12 @@
 ---
 name: I_JVACTBCKWBSMAPPGINTER
 description: Jvactbckwbsmappginter
+semantic_en: "intercompany cutback WBS mapping — allocates project costs to cutback cost objects across affiliated companies."
+semantic_vi: "ánh xạ WBS cắt giảm liên công ty — cấp phát chi phí dự án đến các đối tượng chi phí cắt giảm trên các công ty liên kết."
+keywords:
+  - WBS
+  - cắt giảm liên công ty
+  - dự án
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

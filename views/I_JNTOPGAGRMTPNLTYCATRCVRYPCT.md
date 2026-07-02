@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPNLTYCATRCVRYPCT
 description: Jntopgagrmtpnltycatrcvrypct
+semantic_en: "joint venture operating agreement penalty category recovery percentage — non-signatory and non-consent penalty recovery percentages"
+semantic_vi: "tỷ lệ phục hồi phân loại phạt trong thỏa thuận vận hành liên doanh — tỷ lệ phục hồi cho những bên không ký kết và không đồng ý"
+keywords:
+  - liên doanh
+  - phạt
+  - tỷ lệ phục hồi
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

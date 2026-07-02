@@ -1,6 +1,12 @@
 ---
 name: I_INVENTORYSTOCKTYPE
 description: Inventorystocktype
+semantic_en: "domain values for standard inventory stock types such as unrestricted, restricted, or quality inspection stock"
+semantic_vi: "các giá trị miền cho các loại hàng tồn kho tiêu chuẩn như hàng không hạn chế, hàng bị hạn chế hoặc hàng kiểm tra chất lượng"
+keywords:
+  - hàng tồn kho
+  - loại
+  - không hạn chế
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

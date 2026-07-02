@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCALCCHANGEPROPOSAL
 description: Kanbancalcchangeproposal
+semantic_en: "change proposals for kanban calculations — evaluation period data and proposed container adjustments."
+semantic_vi: "các đề xuất thay đổi cho tính toán kanban — dữ liệu kỳ đánh giá và các điều chỉnh vùng chứa được đề xuất."
+keywords:
+  - kanban
+  - đề xuất thay đổi
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

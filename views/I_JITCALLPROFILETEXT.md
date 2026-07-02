@@ -1,6 +1,12 @@
 ---
 name: I_JITCALLPROFILETEXT
 description: Jitcallprofiletext
+semantic_en: "JIT call profile text — multilingual descriptions of just-in-time call processing profiles."
+semantic_vi: "mô tả văn bản hồ sơ lệnh gọi JIT — mô tả đa ngôn ngữ của hồ sơ xử lý lệnh gọi just-in-time."
+keywords:
+  - mô tả hồ sơ
+  - lệnh gọi JIT
+  - ngôn ngữ
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

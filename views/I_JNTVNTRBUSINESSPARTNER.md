@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRBUSINESSPARTNER
 description: JNTVNTRBusiness Partner
+semantic_en: "joint venture business partner master data — partner contact, EDI preferences, billing format, cash call thresholds, and process groups"
+semantic_vi: "dữ liệu chính đối tác kinh doanh liên doanh — thông tin liên hệ, tùy chọn EDI, định dạng thanh toán, ngưỡng yêu cầu thanh toán"
+keywords:
+  - liên doanh
+  - đối tác
+  - kinh doanh
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

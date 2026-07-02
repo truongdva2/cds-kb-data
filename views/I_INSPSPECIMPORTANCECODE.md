@@ -1,6 +1,12 @@
 ---
 name: I_INSPSPECIMPORTANCECODE
 description: Inspspecimportancecode
+semantic_en: "Weighting of inspection characteristic — importance codes for prioritizing inspection characteristics."
+semantic_vi: "Mã trọng số đặc tính kiểm tra — ưu tiên mức độ quan trọng trong kiểm tra."
+keywords:
+  - trọng số
+  - đặc tính kiểm tra
+  - ưu tiên
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

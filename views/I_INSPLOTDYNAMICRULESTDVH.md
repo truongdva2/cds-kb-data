@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTDYNAMICRULESTDVH
 description: Insplotdynamicrulestdvh
+semantic_en: "Dynamic modification rule value-help — key column InspLotDynamicRule for selection list."
+semantic_vi: "Danh sách giúp lựa chọn quy tắc sửa đổi động lô kiểm tra."
+keywords:
+  - quy tắc động
+  - lô kiểm tra
+  - danh sách giúp
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

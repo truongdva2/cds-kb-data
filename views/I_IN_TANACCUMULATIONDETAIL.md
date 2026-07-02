@@ -1,6 +1,12 @@
 ---
 name: I_IN_TANACCUMULATIONDETAIL
 description: IN Tanaccumulationdetail
+semantic_en: "withholding tax accumulation details by tax code and section for India tax compliance"
+semantic_vi: "chi tiết tích lũy thuế khóa lại theo mã thuế và phần cho tuân thủ thuế ở Ấn Độ"
+keywords:
+  - thuế khóa lại
+  - Ấn Độ
+  - tích lũy
 app_component: FI-LOC-FI-IN
 software_component: SAPSCORE
 release_state: released

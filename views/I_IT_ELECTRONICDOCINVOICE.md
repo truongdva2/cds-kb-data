@@ -1,6 +1,12 @@
 ---
 name: I_IT_ELECTRONICDOCINVOICE
 description: IT Electronicdocinvoice
+semantic_en: "Italy official document number — Italian e-invoice official document identification with progressive numbering and partner status."
+semantic_vi: "số tài liệu chính thức Ý — định danh tài liệu chính thức hóa đơn điện tử Ý với đánh số dần và trạng thái đối tác."
+keywords:
+  - số tài liệu chính thức
+  - hóa đơn điện tử
+  - Ý
 app_component: CA-GTF-CSC-EDO-IT
 software_component: SAPSCORE
 release_state: released

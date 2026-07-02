@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTMATLDOCITEMTP_2
 description: Insplotmatldocitemtp 2
+semantic_en: "Material document item inspection lot transactional posting — quantity, storage location, and batch transfer details."
+semantic_vi: "Chi tiết ghi chép giao dịch chứng từ vật liệu trong lô kiểm tra."
+keywords:
+  - chứng từ vật liệu
+  - lô kiểm tra
+  - lưu trữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

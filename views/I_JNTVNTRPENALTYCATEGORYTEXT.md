@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRPENALTYCATEGORYTEXT
 description: Jntvntrpenaltycategorytext
+semantic_en: "penalty category text in joint venture agreement — multi-language penalty category descriptions"
+semantic_vi: "văn bản phân loại phạt trong thỏa thuận liên doanh — mô tả phạt đa ngôn ngữ"
+keywords:
+  - liên doanh
+  - phạt
+  - mô tả
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JITINBCALLCOMPMESSAGE
 description: Jitinbcallcompmessage
+semantic_en: "JIT inbound call component messages — validation and error messages for component-level material items in JIT calls."
+semantic_vi: "tin nhắn thành phần lệnh gọi đến JIT — tin nhắn xác thực và lỗi cho mặt hàng vật liệu cấp thành phần trong lệnh gọi JIT."
+keywords:
+  - tin nhắn thành phần
+  - lệnh gọi JIT
+  - xác thực
 app_component: LE-JIT-S2C
 software_component: SAPSCORE
 release_state: released

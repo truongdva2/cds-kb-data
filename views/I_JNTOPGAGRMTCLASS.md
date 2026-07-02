@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTCLASS
 description: Jntopgagrmtclass
+semantic_en: "joint operating agreement class — classification and number range configuration for joint operating agreements."
+semantic_vi: "lớp thỏa thuận vận hành chung — cấu hình phân loại và phạm vi số cho thỏa thuận vận hành chung."
+keywords:
+  - phân loại thỏa thuận
+  - vận hành chung
+  - phạm vi số
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

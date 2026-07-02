@@ -1,6 +1,12 @@
 ---
 name: I_IN_TANEXEMPTIONDETAIL
 description: IN Tanexemptiondetail
+semantic_en: "TAN exemption records — exemption details including dates, tax type, and exemption rate for withholding tax."
+semantic_vi: "Chi tiết miễn trừ TAN — ghi nhận miễn trừ thuế, bao gồm ngày miễn trừ, loại thuế khóa lưu và tỷ lệ miễn trừ."
+keywords:
+  - miễn trừ TAN
+  - thuế khóa lưu
+  - tỷ lệ miễn trừ
 app_component: FI-LOC-FI-IN
 software_component: SAPSCORE
 release_state: released

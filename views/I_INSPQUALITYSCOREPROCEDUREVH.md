@@ -1,6 +1,12 @@
 ---
 name: I_INSPQUALITYSCOREPROCEDUREVH
 description: Inspqualityscoreprocedurevh
+semantic_en: "Quality score procedure value-help — provides selection list for quality scoring procedures."
+semantic_vi: "Danh sách giúp lựa chọn quy trình tính điểm chất lượng."
+keywords:
+  - điểm chất lượng
+  - quy trình
+  - danh sách giúp
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPARTSHRTP
 description: Jntopgagrmtpartshrtp
+semantic_en: "joint venture operating agreement equity partner share data — partner equity share percentage, suspension status, and operator address tracking"
+semantic_vi: "dữ liệu cổ phần của đối tác trong thỏa thuận vận hành liên doanh — theo dõi tỷ lệ cổ phần, trạng thái tạm ngừng và địa chỉ nhà điều hành"
+keywords:
+  - liên doanh
+  - cổ phần đối tác
+  - tỷ lệ sở hữu
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

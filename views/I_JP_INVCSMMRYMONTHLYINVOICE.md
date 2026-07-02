@@ -1,6 +1,12 @@
 ---
 name: I_JP_INVCSMMRYMONTHLYINVOICE
 description: JP Invcsmmrymonthlyinvoice
+semantic_en: "monthly invoices for Japan invoice summary — consolidated invoice data by month with closing/due dates, amounts, and payment tracking"
+semantic_vi: "hóa đơn hàng tháng cho tóm tắt hóa đơn Nhật Bản — dữ liệu hóa đơn hợp nhất theo tháng với ngày đóng/đến hạn, số tiền"
+keywords:
+  - Nhật Bản
+  - hóa đơn
+  - hàng tháng
 app_component: FI-LOC-FI-JP
 software_component: SAPSCORE
 release_state: released

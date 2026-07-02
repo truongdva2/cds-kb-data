@@ -1,6 +1,12 @@
 ---
 name: I_JVAJNTINTERESTBILLINGDATA
 description: Jvajntinterestbillingdata
+semantic_en: "joint venture suspense status from accounting documents — ledger line items tracking joint venture transactions by period."
+semantic_vi: "trạng thái tạm dừng liên doanh từ các tài liệu kế toán — các mục dòng sổ cái theo dõi các giao dịch liên doanh theo kỳ."
+keywords:
+  - liên doanh
+  - lập hóa đơn
+  - sổ cái
 app_component: CA-JVA
 software_component: SAPSCORE
 release_state: released

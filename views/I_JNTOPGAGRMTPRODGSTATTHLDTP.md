@@ -1,6 +1,12 @@
 ---
 name: I_JNTOPGAGRMTPRODGSTATTHLDTP
 description: Jntopgagrmtprodgstatthldtp
+semantic_en: "joint venture producing statistical ratio threshold — well count thresholds and rate per producing well by sequence"
+semantic_vi: "ngưỡng tỷ lệ thống kê sản xuất của liên doanh — ngưỡng số giếng và tỷ lệ trên mỗi giếng sản xuất"
+keywords:
+  - liên doanh
+  - giếng sản xuất
+  - ngưỡng
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released

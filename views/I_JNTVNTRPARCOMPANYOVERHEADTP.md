@@ -1,6 +1,12 @@
 ---
 name: I_JNTVNTRPARCOMPANYOVERHEADTP
 description: Jntvntrparcompanyoverheadtp
+semantic_en: "joint venture parent company overhead transfer pricing view — parent overhead cost center, project, and order assignments"
+semantic_vi: "phép chiếu định giá chuyển giao chi phí chung công ty mẹ — gán trung tâm chi phí, dự án, đơn hàng"
+keywords:
+  - liên doanh
+  - chi phí chung
+  - công ty mẹ
 app_component: CA-JVA-JVA
 software_component: SAPSCORE
 release_state: released
