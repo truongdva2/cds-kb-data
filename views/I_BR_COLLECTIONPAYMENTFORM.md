@@ -1,6 +1,12 @@
 ---
 name: I_BR_COLLECTIONPAYMENTFORM
 description: BR Collectionpaymentform
+semantic_en: "Brazil collection payment form indicator — classification of payment methods for collections and receivables processing"
+semantic_vi: "chỉ số hình thức thanh toán thu tiền Brazil — phân loại phương thức thanh toán cho xử lý công nợ và khoản phải thu"
+keywords:
+  - thanh toán
+  - thu tiền
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

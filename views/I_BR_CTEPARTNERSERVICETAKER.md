@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEPARTNERSERVICETAKER
 description: BR Ctepartnerservicetaker
+semantic_en: "Brazil CT-e partner service taker domain value — partner classification for electronic freight documents"
+semantic_vi: "Giá trị miền đối tác cung cấp dịch vụ CT-e Brazil — phân loại đối tác cho tài liệu vận chuyển điện tử"
+keywords:
+  - CT-e
+  - đối tác dịch vụ
+  - miền Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

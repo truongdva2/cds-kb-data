@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEFISCALDOCPARTNER
 description: BR Ctefiscaldocpartner
+semantic_en: "Brazil CT-e fiscal document partner — party classification for CT-e transportation documents"
+semantic_vi: "đối tác tài liệu tài chính CT-e Brazil — phân loại bên cho tài liệu vận chuyển CT-e"
+keywords:
+  - CT-e
+  - đối tác
+  - tài chính
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

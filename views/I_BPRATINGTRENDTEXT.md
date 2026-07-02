@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGTRENDTEXT
 description: Bpratingtrendtext
+semantic_en: "business partner rating trend multilingual text — localized descriptions of rating trend categories"
+semantic_vi: "mô tả đa ngôn ngữ xu hướng xếp hạng — bản mô tả địa phương hóa các danh mục xu hướng xếp hạng"
+keywords:
+  - xu hướng
+  - xếp hạng
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPGRPASSIGNMENTCATEGORYTEXT
 description: Bpgrpassignmentcategorytext
+semantic_en: "group assignment category text — language-specific descriptions of business partner group assignment categories."
+semantic_vi: "mô tả danh mục gán nhóm — dòng văn bản thể hiện danh mục gán nhóm của đối tác theo ngôn ngữ."
+keywords:
+  - gán nhóm
+  - danh mục
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

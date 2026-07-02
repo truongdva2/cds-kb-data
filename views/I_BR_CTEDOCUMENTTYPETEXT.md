@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEDOCUMENTTYPETEXT
 description: BR Ctedocumenttypetext
+semantic_en: "Brazil CT-e document type multilingual text — localized descriptions of CT-e transport document types"
+semantic_vi: "mô tả đa ngôn ngữ loại tài liệu CT-e — bản mô tả địa phương hóa các loại tài liệu vận chuyển CT-e"
+keywords:
+  - CT-e
+  - tài liệu
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

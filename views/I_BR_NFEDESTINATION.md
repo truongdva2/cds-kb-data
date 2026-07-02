@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEDESTINATION
 description: BR Nfedestination
+semantic_en: "Brazil NFe destination domain value — classification of destination states for electronic invoice delivery"
+semantic_vi: "Giá trị miền đích đến NFe Brazil — phân loại các bang đích đến cho gửi hóa đơn điện tử"
+keywords:
+  - NFe
+  - đích đến
+  - phân loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

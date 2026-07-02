@@ -1,6 +1,12 @@
 ---
 name: I_BR_DUETYPE
 description: BR Duetype
+semantic_en: "Brazil DUE type domain value — classification of electronic export declaration document types"
+semantic_vi: "Giá trị miền loại DUE Brazil — phân loại loại tài liệu khai báo xuất khẩu điện tử"
+keywords:
+  - DUE
+  - loại khai báo
+  - xuất khẩu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

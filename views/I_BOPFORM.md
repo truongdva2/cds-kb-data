@@ -1,6 +1,12 @@
 ---
 name: I_BOPFORM
 description: Bopform
+semantic_en: "balance of payments form — defines reporting forms used for balance of payments analysis by country."
+semantic_vi: "biểu mẫu cân đối thanh toán — xác định các biểu mẫu báo cáo được sử dụng để phân tích cân đối thanh toán theo quốc gia."
+keywords:
+  - cân đối thanh toán
+  - biểu mẫu báo cáo
+  - quốc gia
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

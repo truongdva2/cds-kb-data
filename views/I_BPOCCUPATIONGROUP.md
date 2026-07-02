@@ -1,6 +1,12 @@
 ---
 name: I_BPOCCUPATIONGROUP
 description: Bpoccupationgroup
+semantic_en: "business partner occupation group — classification of professional or employment sector groupings"
+semantic_vi: "nhóm ngành nghề của đối tác kinh doanh — phân loại nhóm lĩnh vực nghề nghiệp hoặc việc làm"
+keywords:
+  - ngành nghề
+  - nhóm nghề
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

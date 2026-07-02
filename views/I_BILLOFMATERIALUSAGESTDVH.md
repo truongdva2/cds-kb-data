@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALUSAGESTDVH
 description: Bill of MaterialUSAGESTDVH
+semantic_en: "value help for bill of material variant usage — provides usage type descriptions for material BOMs."
+semantic_vi: "trợ giúp giá trị cho việc sử dụng biến thể danh sách vật liệu — cung cấp mô tả loại sử dụng cho BOM vật liệu."
+keywords:
+  - danh sách vật liệu
+  - cách sử dụng biến thể
+  - trợ giúp giá trị
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPGERASTRGLNRSTRCDASTQTATEXT
 description: Bpgerastrglnrstrcdastqtatext
+semantic_en: "German asset regulation text — language-specific descriptions of German asset restriction quota codes."
+semantic_vi: "mô tả quy định tài sản Đức — dòng văn bản thể hiện hạn ngạch hạn chế tài sản Đức theo ngôn ngữ."
+keywords:
+  - quy định tài sản Đức
+  - hạn ngạch
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

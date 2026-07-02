@@ -1,6 +1,12 @@
 ---
 name: I_BPUNDESIRABILITYREASON
 description: Bpundesirabilityreason
+semantic_en: "business partner undesirability reason — classification codes for reasons why a business partner may be undesirable for transactions"
+semantic_vi: "lý do không mong muốn của đối tác kinh doanh — mã phân loại lý do tại sao đối tác kinh doanh có thể không mong muốn cho giao dịch"
+keywords:
+  - không mong muốn
+  - lý do
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

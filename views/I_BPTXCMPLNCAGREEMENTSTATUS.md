@@ -1,6 +1,12 @@
 ---
 name: I_BPTXCMPLNCAGREEMENTSTATUS
 description: Bptxcmplncagreementstatus
+semantic_en: "business partner tax compliance agreement status — indicator for tax compliance agreement completion and validation state"
+semantic_vi: "trạng thái thỏa thuận tuân thủ thuế của đối tác kinh doanh — chỉ số cho trạng thái hoàn thành và xác nhận thỏa thuận tuân thủ thuế"
+keywords:
+  - tuân thủ thuế
+  - thỏa thuận
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

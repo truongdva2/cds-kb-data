@@ -1,6 +1,12 @@
 ---
 name: I_BPCONTACTTOADDRESS
 description: Bpcontacttoaddress
+semantic_en: "business partner contact address mapping — links contact relationships to specific addresses with communication preferences and office details."
+semantic_vi: "ánh xạ địa chỉ liên hệ — liên kết mối quan hệ liên hệ với địa chỉ cụ thể và ưu tiên liên lạc."
+keywords:
+  - địa chỉ liên hệ
+  - tòa nhà phòng ban
+  - ưu tiên liên lạc
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

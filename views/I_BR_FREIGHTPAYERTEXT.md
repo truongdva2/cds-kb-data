@@ -1,6 +1,12 @@
 ---
 name: I_BR_FREIGHTPAYERTEXT
 description: BR Freightpayertext
+semantic_en: "Brazil freight payer description — multilingual text labels for freight cost responsibility domain values"
+semantic_vi: "Mô tả người trả cước Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền trách nhiệm chi phí"
+keywords:
+  - cước vận chuyển
+  - mô tả
+  - người trả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

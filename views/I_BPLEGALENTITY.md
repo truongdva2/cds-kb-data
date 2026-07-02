@@ -1,6 +1,12 @@
 ---
 name: I_BPLEGALENTITY
 description: Bplegalentity
+semantic_en: "business partner legal entity — classification of business partner legal entity types."
+semantic_vi: "thực thể pháp lý — phân loại các loại thực thể pháp lý của đối tác kinh doanh."
+keywords:
+  - thực thể pháp lý
+  - loại thực thể
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

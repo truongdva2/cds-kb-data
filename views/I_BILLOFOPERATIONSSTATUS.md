@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSSTATUS
 description: Billofoperationsstatus
+semantic_en: "bill of operations status codes — indicates release status and operational state of manufacturing routings."
+semantic_vi: "mã trạng thái quy trình vận hành — cho biết trạng thái phát hành và trạng thái hoạt động của các tuyến đường sản xuất."
+keywords:
+  - trạng thái quy trình
+  - phát hành
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

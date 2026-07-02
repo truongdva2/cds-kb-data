@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEDOCUMENTSTATUSTEXT
 description: BR Nfedocumentstatustext
+semantic_en: "Brazil NFe document status description — multilingual text labels for invoice status domain values"
+semantic_vi: "Mô tả trạng thái tài liệu NFe Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền trạng thái hóa đơn"
+keywords:
+  - NFe
+  - trạng thái
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

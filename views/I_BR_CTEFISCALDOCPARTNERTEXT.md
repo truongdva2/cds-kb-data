@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEFISCALDOCPARTNERTEXT
 description: BR Ctefiscaldocpartnertext
+semantic_en: "Brazil CT-e fiscal document partner multilingual text — localized descriptions of CT-e document partner types"
+semantic_vi: "mô tả đa ngôn ngữ đối tác tài liệu tài chính CT-e — bản mô tả địa phương hóa các loại đối tác tài liệu CT-e"
+keywords:
+  - CT-e
+  - đối tác
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

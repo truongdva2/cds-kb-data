@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEDOCUMENTSTATUS
 description: BR Nfedocumentstatus
+semantic_en: "Brazil NFe document status domain value — classification of processing statuses for electronic invoices"
+semantic_vi: "Giá trị miền trạng thái tài liệu NFe Brazil — phân loại các trạng thái xử lý cho hóa đơn điện tử"
+keywords:
+  - NFe
+  - trạng thái
+  - tài liệu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

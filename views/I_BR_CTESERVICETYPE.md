@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTESERVICETYPE
 description: BR Cteservicetype
+semantic_en: "Brazil CT-e service type domain value — classification of services in electronic freight documents"
+semantic_vi: "Giá trị miền loại dịch vụ CT-e Brazil — phân loại dịch vụ trong tài liệu vận chuyển điện tử"
+keywords:
+  - CT-e
+  - loại dịch vụ
+  - miền Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

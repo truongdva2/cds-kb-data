@@ -1,6 +1,12 @@
 ---
 name: I_BPDATACONTROLLERUSAGE
 description: Bpdatacontrollerusage
+semantic_en: "business partner data controller usage — data governance records with purpose tracking and derivation indicators."
+semantic_vi: "sử dụng bộ điều khiển dữ liệu — ghi chép quản trị dữ liệu với theo dõi mục đích sử dụng dữ liệu."
+keywords:
+  - bộ điều khiển dữ liệu
+  - mục đích dữ liệu
+  - trạng thái gán
 app_component: BC-SRV-BP
 software_component: SAP_BASIS
 release_state: released

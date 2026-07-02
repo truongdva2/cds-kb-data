@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDOCUMENTTYPE
 description: BR Nfdocumenttype
+semantic_en: "Brazil Nota Fiscal document type — classification of document types in Brazilian invoicing system"
+semantic_vi: "Loại tài liệu Nota Fiscal Brazil — phân loại loại tài liệu trong hệ thống hóa đơn Brazil"
+keywords:
+  - Nota Fiscal
+  - loại tài liệu
+  - phân loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

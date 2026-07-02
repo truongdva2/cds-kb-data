@@ -1,6 +1,12 @@
 ---
 name: I_BPUSRROLE
 description: Bpusrrole
+semantic_en: "business partner role — business partner role assignments with category and validity period for user management"
+semantic_vi: "vai trò của đối tác kinh doanh — gán vai trò đối tác kinh doanh với danh mục và thời hạn hiệu lực cho quản lý người dùng"
+keywords:
+  - vai trò
+  - đối tác kinh doanh
+  - quản lý
 app_component: BC-SRV-BUM
 software_component: SAP_BASIS
 release_state: released

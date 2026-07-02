@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRINDEPENDENTPHONETP_3
 description: Bpaddrindependentphonetp 3
+semantic_en: "address-independent phone with TP audit trail — phone numbers with transactional processing timestamps for BP."
+semantic_vi: "điện thoại không phụ thuộc địa chỉ với bản ghi kiểm toán xử lý giao dịch — các số điện thoại với dấu thời gian xử lý giao dịch cho QĐD."
+keywords:
+  - điện thoại
+  - đối tác kinh doanh
+  - kiểm toán
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

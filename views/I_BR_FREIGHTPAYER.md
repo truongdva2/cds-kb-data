@@ -1,6 +1,12 @@
 ---
 name: I_BR_FREIGHTPAYER
 description: BR Freightpayer
+semantic_en: "Brazil freight payer domain value — classification of freight cost responsibility in Nota Fiscal documents"
+semantic_vi: "Giá trị miền người trả cước Brazil — phân loại trách nhiệm chi phí vận chuyển trong tài liệu Nota Fiscal"
+keywords:
+  - cước vận chuyển
+  - người trả
+  - Nota Fiscal
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITSTANDINGREVIEW
 description: Bpcreditstandingreview
+semantic_en: "credit standing review — reference data for credit assessment review codes."
+semantic_vi: "xét duyệt tình trạng tín dụng — dữ liệu danh sách mã xét duyệt đánh giá tín dụng."
+keywords:
+  - xét duyệt tín dụng
+  - đánh giá tín dụng
+  - mã danh sách
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPLOANTOMANAGER
 description: Bploantomanager
+semantic_en: "business partner loan to manager indicator — classification for whether a business partner is a manager with employee loan eligibility"
+semantic_vi: "chỉ số cho vay để quản lý — phân loại xem đối tác kinh doanh có phải là nhân viên quản lý có quyền nhận cho vay hay không"
+keywords:
+  - cho vay
+  - quản lý
+  - nhân viên
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

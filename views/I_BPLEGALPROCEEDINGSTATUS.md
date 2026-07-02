@@ -1,6 +1,12 @@
 ---
 name: I_BPLEGALPROCEEDINGSTATUS
 description: Bplegalproceedingstatus
+semantic_en: "business partner legal proceedings status — master data code representing the legal proceedings status classification"
+semantic_vi: "trạng thái thủ tục pháp lý của đối tác kinh doanh — dữ liệu chính tương ứng với mã phân loại trạng thái thủ tục pháp lý"
+keywords:
+  - trạng thái pháp lý
+  - thủ tục pháp lý
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEPHARMACEUTICAL
 description: BR Nfepharmaceutical
+semantic_en: "Brazil Nota Fiscal pharmaceutical items — ANVISA registration codes and consumer price controls for medicine items in invoices"
+semantic_vi: "Các mục dược phẩm Nota Fiscal Brazil — mã đăng ký ANVISA và kiểm soát giá tiêu dùng cho mục thuốc trong hóa đơn"
+keywords:
+  - Nota Fiscal
+  - dược phẩm
+  - ANVISA
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

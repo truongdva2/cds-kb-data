@@ -1,6 +1,12 @@
 ---
 name: I_BPDIFFERENTIATIONTYPEVALUE
 description: Bpdifferentiationtypevalue
+semantic_en: "business partner differentiation type value — codes for business partner segmentation and differentiation strategies."
+semantic_vi: "giá trị loại phân biệt — mã phân khúc hóa và chiến lược phân biệt đối tác kinh doanh."
+keywords:
+  - loại phân biệt
+  - phân khúc đối tác
+  - giá trị phân loại
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

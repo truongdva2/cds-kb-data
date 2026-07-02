@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSGROUP
 description: Billofoperationsgroup
+semantic_en: "bill of operations group — groups related operations in manufacturing routing and production."
+semantic_vi: "nhóm quy trình vận hành — nhóm các quy trình liên quan trong định tuyến sản xuất và sản xuất."
+keywords:
+  - quy trình vận hành
+  - nhóm
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

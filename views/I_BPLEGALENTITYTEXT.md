@@ -1,6 +1,12 @@
 ---
 name: I_BPLEGALENTITYTEXT
 description: Bplegalentitytext
+semantic_en: "legal entity text — language-specific descriptions of business partner legal entity types."
+semantic_vi: "mô tả thực thể pháp lý — dòng văn bản thể hiện các loại thực thể pháp lý của đối tác theo ngôn ngữ."
+keywords:
+  - thực thể pháp lý
+  - mô tả thực thể
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

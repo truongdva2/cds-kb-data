@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITSTANDINGREVIEWTEXT
 description: Bpcreditstandingreviewtext
+semantic_en: "credit standing review text — language-specific descriptions of credit assessment review types."
+semantic_vi: "mô tả xét duyệt tình trạng tín dụng — dòng văn bản thể hiện các loại xét duyệt đánh giá tín dụng theo ngôn ngữ."
+keywords:
+  - xét duyệt tín dụng
+  - mô tả đánh giá
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

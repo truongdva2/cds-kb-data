@@ -1,6 +1,12 @@
 ---
 name: I_BPTXCMPLNCAGRMTSTATUSTEXT
 description: Bptxcmplncagrmtstatustext
+semantic_en: "business partner tax compliance agreement status multilingual text — localized descriptions of tax compliance agreement status codes"
+semantic_vi: "mô tả đa ngôn ngữ trạng thái thỏa thuận tuân thủ thuế — bản mô tả địa phương hóa mã trạng thái thỏa thuận tuân thủ thuế"
+keywords:
+  - tuân thủ thuế
+  - thỏa thuận
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

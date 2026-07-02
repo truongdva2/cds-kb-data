@@ -1,6 +1,12 @@
 ---
 name: I_BPLETTERSALUTATION
 description: Bplettersalutation
+semantic_en: "business partner letter salutation — codes for salutation forms used in correspondence with business partners"
+semantic_vi: "hình thức chào hỏi trong thư từ của đối tác kinh doanh — các mã biểu thị cách chào hỏi được sử dụng trong tương ứng"
+keywords:
+  - chào hỏi
+  - hình thức thư từ
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

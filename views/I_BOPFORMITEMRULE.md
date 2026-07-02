@@ -1,6 +1,12 @@
 ---
 name: I_BOPFORMITEMRULE
 description: Bopformitemrule
+semantic_en: "balance of payments form item rule — GL account mapping and classification rules for BOP reporting items."
+semantic_vi: "quy tắc mục biểu mẫu cân đối thanh toán — ánh xạ tài khoản sổ cái và quy tắc phân loại cho các mục báo cáo CĐT."
+keywords:
+  - cân đối thanh toán
+  - quy tắc
+  - ánh xạ tài khoản
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

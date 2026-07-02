@@ -1,6 +1,12 @@
 ---
 name: I_BR_BILLOFLADINGTYPETEXT
 description: BR Billofladingtypetext
+semantic_en: "Brazil bill of lading type multilingual text — localized descriptions of Brazilian freight document types"
+semantic_vi: "mô tả đa ngôn ngữ loại hóa đơn vận chuyển Brazil — bản mô tả địa phương hóa các loại tài liệu vận chuyển Brazil"
+keywords:
+  - hóa đơn vận chuyển
+  - Brazil
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

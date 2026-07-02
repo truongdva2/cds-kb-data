@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRESSINDEPENDENTPHONE
 description: Bpaddressindependentphone
+semantic_en: "business partner address-independent phone — phone numbers with international format for BP communication."
+semantic_vi: "điện thoại không phụ thuộc địa chỉ đối tác kinh doanh — các số điện thoại với định dạng quốc tế cho liên lạc QĐD."
+keywords:
+  - đối tác kinh doanh
+  - điện thoại
+  - liên lạc quốc tế
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

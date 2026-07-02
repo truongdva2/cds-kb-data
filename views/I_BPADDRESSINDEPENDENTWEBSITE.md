@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRESSINDEPENDENTWEBSITE
 description: Bpaddressindependentwebsite
+semantic_en: "business partner address-independent website — website URL and resource identifier for BP online presence."
+semantic_vi: "trang web không phụ thuộc địa chỉ đối tác kinh doanh — URL trang web và định danh tài nguyên cho sự hiện diện trực tuyến QĐD."
+keywords:
+  - đối tác kinh doanh
+  - trang web
+  - URL
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

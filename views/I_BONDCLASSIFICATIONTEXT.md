@@ -1,6 +1,12 @@
 ---
 name: I_BONDCLASSIFICATIONTEXT
 description: Bondclassificationtext
+semantic_en: "bond classification text — language-specific names for bond classification types."
+semantic_vi: "văn bản phân loại trái phiếu — tên dành riêng cho ngôn ngữ cho các loại phân loại trái phiếu."
+keywords:
+  - trái phiếu
+  - phân loại
+  - đa ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

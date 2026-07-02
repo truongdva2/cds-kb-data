@@ -1,6 +1,12 @@
 ---
 name: I_BR_MATERIALUSAGETEXT
 description: BR Materialusagetext
+semantic_en: "Brazil material usage description — multilingual text labels for material usage domain values"
+semantic_vi: "Mô tả sử dụng vật liệu Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền sử dụng vật liệu"
+keywords:
+  - vật liệu
+  - sử dụng
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

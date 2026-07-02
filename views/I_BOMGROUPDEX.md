@@ -1,6 +1,12 @@
 ---
 name: I_BOMGROUPDEX
 description: Bomgroupdex
+semantic_en: "data extraction for BOM groups — hierarchical structure of bill of material groups with creation and change audit data."
+semantic_vi: "trích xuất dữ liệu cho nhóm danh sách vật liệu — cấu trúc phân cấp của các nhóm danh sách vật liệu với dữ liệu kiểm toán tạo và thay đổi."
+keywords:
+  - nhóm danh sách vật liệu
+  - trích xuất dữ liệu
+  - phân cấp
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

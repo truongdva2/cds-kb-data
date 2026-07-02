@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRESSINDEPENDENTEMAIL
 description: Bpaddressindependentemail
+semantic_en: "business partner address-independent email — email addresses and validity dates for BP communication."
+semantic_vi: "email không phụ thuộc địa chỉ đối tác kinh doanh — các địa chỉ email và ngày hiệu lực cho liên lạc QĐD."
+keywords:
+  - đối tác kinh doanh
+  - email
+  - liên hệ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

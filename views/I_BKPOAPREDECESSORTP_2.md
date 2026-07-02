@@ -1,6 +1,12 @@
 ---
 name: I_BKPOAPREDECESSORTP_2
 description: Bkpoapredecessortp 2
+semantic_en: "predecessors of bank power of attorney — maintains lineage and succession history of POA documents."
+semantic_vi: "những người tiền nhiệm của quyền đại diện ngân hàng — duy trì lịch sử dòng dõi và kế tiếp của tài liệu QĐD."
+keywords:
+  - quyền đại diện ngân hàng
+  - người tiền nhiệm
+  - kế tiếp
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

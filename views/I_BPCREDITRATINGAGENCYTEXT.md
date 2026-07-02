@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITRATINGAGENCYTEXT
 description: Bpcreditratingagencytext
+semantic_en: "credit rating agency text — language-specific names of external credit rating organizations."
+semantic_vi: "mô tả cơ quan xếp hạng tín dụng — tên các cơ quan xếp hạng tín dụng theo ngôn ngữ."
+keywords:
+  - cơ quan xếp hạng
+  - tên cơ quan
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

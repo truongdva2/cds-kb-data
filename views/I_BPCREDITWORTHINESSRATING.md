@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITWORTHINESSRATING
 description: Bpcreditworthinessrating
+semantic_en: "credit worthiness rating — reference codes for business partner creditworthiness assessment levels."
+semantic_vi: "xếp hạng khả năng thanh toán — mã danh sách mức độ xếp hạng khả năng thanh toán của đối tác."
+keywords:
+  - xếp hạng tín nhiệm
+  - mức độ tín dụng
+  - mã đánh giá
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

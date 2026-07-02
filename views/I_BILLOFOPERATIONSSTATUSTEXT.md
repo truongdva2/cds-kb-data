@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSSTATUSTEXT
 description: Billofoperationsstatustext
+semantic_en: "bill of operations status text — language-specific descriptions of operation status codes."
+semantic_vi: "văn bản trạng thái quy trình vận hành — mô tả dành riêng cho ngôn ngữ của mã trạng thái hoạt động."
+keywords:
+  - trạng thái quy trình
+  - văn bản đa ngôn ngữ
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

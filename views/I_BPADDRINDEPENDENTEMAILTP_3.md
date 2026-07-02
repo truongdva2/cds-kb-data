@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRINDEPENDENTEMAILTP_3
 description: Bpaddrindependentemailtp 3
+semantic_en: "address-independent email with TP audit trail — email addresses with transactional processing timestamps for BP."
+semantic_vi: "email không phụ thuộc địa chỉ với bản ghi kiểm toán xử lý giao dịch — các địa chỉ email với dấu thời gian xử lý giao dịch cho QĐD."
+keywords:
+  - email
+  - đối tác kinh doanh
+  - kiểm toán
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALWITHKEYDATE
 description: Bill of MaterialWITHKEYDATE
+semantic_en: "bill of material header with key date validity — provides BOM details with version and priority status for a specific effective date."
+semantic_vi: "danh sách vật liệu tiêu đề với ngày khóa có hiệu lực — cung cấp chi tiết BOM với trạng thái phiên bản và ưu tiên cho ngày hiệu lực cụ thể."
+keywords:
+  - danh sách vật liệu
+  - ngày khóa
+  - phiên bản
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

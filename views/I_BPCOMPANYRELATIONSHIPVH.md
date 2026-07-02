@@ -1,6 +1,12 @@
 ---
 name: I_BPCOMPANYRELATIONSHIPVH
 description: Bpcompanyrelationshipvh
+semantic_en: "company relationship value help — reference data providing searchable list of company relationship classifications."
+semantic_vi: "trợ giúp giá trị mối quan hệ công ty — danh sách các phân loại mối quan hệ công ty có thể tìm kiếm."
+keywords:
+  - trợ giúp giá trị
+  - danh sách mối quan hệ
+  - phân loại công ty
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

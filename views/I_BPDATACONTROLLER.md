@@ -1,6 +1,12 @@
 ---
 name: I_BPDATACONTROLLER
 description: Bpdatacontroller
+semantic_en: "business partner data controller — data governance records mapping business partners to data controllers with purpose and derivation flags."
+semantic_vi: "bộ điều khiển dữ liệu — ghi chép quản trị dữ liệu ánh xạ đối tác với bộ điều khiển dữ liệu theo mục đích."
+keywords:
+  - bộ điều khiển dữ liệu
+  - mục đích dữ liệu
+  - quản lý dữ liệu cá nhân
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

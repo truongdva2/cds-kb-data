@@ -1,6 +1,12 @@
 ---
 name: I_BPDATACONTROLLERTP_3
 description: Bpdatacontrollertp 3
+semantic_en: "business partner data controller RAP — business partner data controller records via FIORI analytic table with edit capabilities and derivation logic."
+semantic_vi: "bộ điều khiển dữ liệu RAP — ghi chép bộ điều khiển dữ liệu đối tác thông qua bảng phân tích với khả năng chỉnh sửa."
+keywords:
+  - bộ điều khiển dữ liệu
+  - bảng phân tích
+  - logic suy dẫn
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

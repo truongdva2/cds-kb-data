@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITSTANDING
 description: Bpcreditstanding
+semantic_en: "business partner credit standing — classification of creditworthiness status assigned to business partners."
+semantic_vi: "tình trạng tín dụng — phân loại mức độ khả năng thanh toán của đối tác kinh doanh."
+keywords:
+  - tình trạng tín dụng
+  - khả năng thanh toán
+  - phân loại tín dụng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

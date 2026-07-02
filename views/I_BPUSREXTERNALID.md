@@ -1,6 +1,12 @@
 ---
 name: I_BPUSREXTERNALID
 description: Bpusrexternalid
+semantic_en: "business partner external identification — external identifiers assigned to business partners with validity periods for integration systems"
+semantic_vi: "định danh bên ngoài của đối tác kinh doanh — các định danh bên ngoài được gán cho đối tác kinh doanh với thời hạn hiệu lực cho hệ thống tích hợp"
+keywords:
+  - định danh bên ngoài
+  - đối tác kinh doanh
+  - tích hợp
 app_component: BC-SRV-BUM
 software_component: SAP_BASIS
 release_state: released

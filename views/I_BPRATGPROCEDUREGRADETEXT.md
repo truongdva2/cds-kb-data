@@ -1,6 +1,12 @@
 ---
 name: I_BPRATGPROCEDUREGRADETEXT
 description: Bpratgproceduregradetext
+semantic_en: "business partner rating procedure grade multilingual text — localized descriptions of rating grades within rating procedures"
+semantic_vi: "mô tả đa ngôn ngữ mức đánh giá quy trình xếp hạng — bản mô tả địa phương hóa các mức xếp hạng trong quy trình đánh giá"
+keywords:
+  - xếp hạng
+  - mức đánh giá
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

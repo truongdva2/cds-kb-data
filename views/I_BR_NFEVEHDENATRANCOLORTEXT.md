@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEVEHDENATRANCOLORTEXT
 description: BR Nfevehdenatrancolortext
+semantic_en: "Brazil NFe vehicle DENATRAN color description — multilingual text labels for vehicle color domain values"
+semantic_vi: "Mô tả màu sắc xe DENATRAN NFe Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền màu sắc xe"
+keywords:
+  - NFe
+  - xe
+  - màu sắc
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

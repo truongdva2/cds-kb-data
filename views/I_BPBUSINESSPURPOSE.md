@@ -1,6 +1,12 @@
 ---
 name: I_BPBUSINESSPURPOSE
 description: Bpbusinesspurpose
+semantic_en: "business purpose category — classification of business partner purpose or role in transactions."
+semantic_vi: "danh mục mục đích kinh doanh — phân loại mục đích hoặc vai trò của đối tác kinh doanh trong giao dịch."
+keywords:
+  - mục đích kinh doanh
+  - đối tác kinh doanh
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

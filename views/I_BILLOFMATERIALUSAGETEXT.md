@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALUSAGETEXT
 description: Bill of MaterialUSAGETEXT
+semantic_en: "bill of material variant usage text — translations of BOM usage type descriptions across languages."
+semantic_vi: "văn bản cách sử dụng biến thể danh sách vật liệu — dịch mô tả loại sử dụng BOM qua các ngôn ngữ."
+keywords:
+  - danh sách vật liệu
+  - cách sử dụng
+  - văn bản đa ngôn ngữ
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

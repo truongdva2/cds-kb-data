@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDOCUMENTINVOICERELATION
 description: BR Nfdocumentinvoicerelation
+semantic_en: "Brazil Nota Fiscal and invoice relation — linking invoices to source documents with authentication and verification details"
+semantic_vi: "Quan hệ Nota Fiscal và hóa đơn Brazil — liên kết hóa đơn với tài liệu nguồn kèm chi tiết xác thực và xác minh"
+keywords:
+  - Nota Fiscal
+  - hóa đơn
+  - quan hệ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

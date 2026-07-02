@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFECUSTOMERPRESENCETEXT
 description: BR Nfecustomerpresencetext
+semantic_en: "Brazil NFe customer presence description — multilingual text labels for customer presence mode domain values"
+semantic_vi: "Mô tả mức độ hiện diện khách hàng NFe Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền mô thức hiện diện"
+keywords:
+  - NFe
+  - khách hàng
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

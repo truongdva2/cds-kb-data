@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSTYPE
 description: Billofoperationstype
+semantic_en: "bill of operations type — classifications of manufacturing routings by operational application."
+semantic_vi: "loại quy trình vận hành — phân loại tuyến đường sản xuất theo ứng dụng vận hành."
+keywords:
+  - loại quy trình
+  - ứng dụng sản xuất
+  - phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

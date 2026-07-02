@@ -1,6 +1,12 @@
 ---
 name: I_BOOAPPLICATIONTEXT
 description: Booapplicationtext
+semantic_en: "bill of operations application text — language-specific names for operation application classifications."
+semantic_vi: "văn bản ứng dụng quy trình vận hành — tên dành riêng cho ngôn ngữ cho phân loại ứng dụng hoạt động."
+keywords:
+  - quy trình vận hành
+  - ứng dụng
+  - đa ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

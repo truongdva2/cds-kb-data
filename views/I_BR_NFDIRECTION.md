@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDIRECTION
 description: BR Nfdirection
+semantic_en: "Brazil Nota Fiscal direction domain value — classification of document flow direction (outbound/inbound)"
+semantic_vi: "Giá trị miền hướng Nota Fiscal Brazil — phân loại hướng dòng tài liệu (xuất phát/đến hạn)"
+keywords:
+  - Nota Fiscal
+  - hướng
+  - phân loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

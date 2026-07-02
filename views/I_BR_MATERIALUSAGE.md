@@ -1,6 +1,12 @@
 ---
 name: I_BR_MATERIALUSAGE
 description: BR Materialusage
+semantic_en: "Brazil material usage domain value — classification of material usage codes for tax purposes"
+semantic_vi: "Giá trị miền mã sử dụng vật liệu Brazil — phân loại mã sử dụng vật liệu cho mục đích thuế"
+keywords:
+  - vật liệu
+  - sử dụng
+  - mã
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

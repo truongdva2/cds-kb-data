@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEDOCUMENTTYPE
 description: BR Ctedocumenttype
+semantic_en: "Brazil CT-e document type — classification codes for transportation service declarations in Brazilian commerce"
+semantic_vi: "loại tài liệu CT-e Brazil — mã phân loại cho khai báo dịch vụ vận chuyển trong thương mại Brazil"
+keywords:
+  - CT-e
+  - tài liệu
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

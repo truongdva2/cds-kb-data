@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFIMPORTDOCUMENT
 description: BR Nfimportdocument
+semantic_en: "Brazil Nota Fiscal import document — import details including customs declarations, exporter info, means of transport, and buyer information"
+semantic_vi: "Tài liệu nhập khẩu Nota Fiscal Brazil — chi tiết nhập khẩu bao gồm khai báo hải quan, thông tin xuất khẩu, phương tiện vận tải và thông tin người mua"
+keywords:
+  - Nota Fiscal
+  - nhập khẩu
+  - tài liệu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

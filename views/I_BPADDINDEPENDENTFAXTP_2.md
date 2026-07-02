@@ -1,6 +1,12 @@
 ---
 name: I_BPADDINDEPENDENTFAXTP_2
 description: Bpaddindependentfaxtp 2
+semantic_en: "business partner address-independent fax — fax numbers and validity dates for BP communication."
+semantic_vi: "số fax không phụ thuộc địa chỉ đối tác kinh doanh — các số fax và ngày hiệu lực cho liên lạc QĐD."
+keywords:
+  - đối tác kinh doanh
+  - số fax
+  - liên hệ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

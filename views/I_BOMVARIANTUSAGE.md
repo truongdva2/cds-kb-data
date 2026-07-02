@@ -1,6 +1,12 @@
 ---
 name: I_BOMVARIANTUSAGE
 description: Bomvariantusage
+semantic_en: "bill of material variant usage — defines usage applicability across production, engineering, costing, sales and maintenance contexts."
+semantic_vi: "cách sử dụng biến thể danh sách vật liệu — định nghĩa khả năng áp dụng sử dụng trong các bối cảnh sản xuất, kỹ thuật, tính giá, bán hàng và bảo trì."
+keywords:
+  - danh sách vật liệu
+  - cách sử dụng biến thể
+  - ứng dụng
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

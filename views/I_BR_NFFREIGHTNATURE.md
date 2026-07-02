@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFFREIGHTNATURE
 description: BR Nffreightnature
+semantic_en: "Brazil freight nature indicator domain value — classification of freight service characteristics and nature"
+semantic_vi: "Giá trị miền chỉ thị tính chất vận chuyển Brazil — phân loại đặc tính và tính chất dịch vụ vận chuyển"
+keywords:
+  - vận chuyển
+  - tính chất
+  - chỉ thị
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

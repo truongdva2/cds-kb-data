@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYMENTINDUSTRY
 description: Bpemploymentindustry
+semantic_en: "business partner employment industry — master data for employer industry classifications."
+semantic_vi: "ngành công nghiệp tuyển dụng — dữ liệu chính phân loại ngành công nghiệp chủ nhân công việc."
+keywords:
+  - ngành công nghiệp
+  - phân loại ngành
+  - tuyển dụng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

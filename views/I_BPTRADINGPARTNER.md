@@ -1,6 +1,12 @@
 ---
 name: I_BPTRADINGPARTNER
 description: Bptradingpartner
+semantic_en: "business partner trading partner — code list of external trading partners for EDI and business transaction mapping"
+semantic_vi: "đối tác kinh doanh giao dịch — danh sách mã các đối tác giao dịch bên ngoài cho ánh xạ giao dịch kinh doanh và EDI"
+keywords:
+  - đối tác giao dịch
+  - EDI
+  - kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

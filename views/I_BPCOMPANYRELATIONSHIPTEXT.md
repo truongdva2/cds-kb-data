@@ -1,6 +1,12 @@
 ---
 name: I_BPCOMPANYRELATIONSHIPTEXT
 description: Bpcompanyrelationshiptext
+semantic_en: "company relationship text — language-specific descriptions of business partner organizational relationship types."
+semantic_vi: "mô tả mối quan hệ công ty — dòng văn bản thể hiện các loại mối quan hệ tổ chức giữa đối tác."
+keywords:
+  - mối quan hệ công ty
+  - phân loại quan hệ
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

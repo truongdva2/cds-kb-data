@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFFREIGHTNATURETEXT
 description: BR Nffreightnaturetext
+semantic_en: "Brazil freight nature indicator description — multilingual text labels for freight nature classifications"
+semantic_vi: "Mô tả chỉ thị tính chất vận chuyển Brazil — nhãn văn bản đa ngôn ngữ cho phân loại tính chất vận chuyển"
+keywords:
+  - vận chuyển
+  - tính chất
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

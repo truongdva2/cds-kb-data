@@ -1,6 +1,12 @@
 ---
 name: I_BPCUSTOMERCONTACTLINK
 description: Bpcustomercontactlink
+semantic_en: "business partner customer contact link — relationship audit trail linking customers to contact persons with creation metadata."
+semantic_vi: "liên kết liên hệ khách hàng — ghi chép mối quan hệ giữa khách hàng và người liên hệ với thông tin tạo."
+keywords:
+  - liên hệ khách hàng
+  - liên kết người liên hệ
+  - lịch sử tạo
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

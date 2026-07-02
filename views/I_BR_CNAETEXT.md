@@ -1,6 +1,12 @@
 ---
 name: I_BR_CNAETEXT
 description: BR Cnaetext
+semantic_en: "Brazilian CNAE multilingual text — localized descriptions of CNAE activity codes"
+semantic_vi: "mô tả đa ngôn ngữ CNAE Brazil — bản mô tả địa phương hóa mã hoạt động CNAE"
+keywords:
+  - CNAE
+  - hoạt động
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

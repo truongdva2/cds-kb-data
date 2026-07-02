@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGPROCEDUREGRADEVH
 description: Bpratingproceduregradevh
+semantic_en: "business partner rating procedure grade value help — lookup view for rating grades with descriptions"
+semantic_vi: "trợ giúp giá trị mức đánh giá quy trình xếp hạng — chế độ xem tra cứu các mức xếp hạng với mô tả"
+keywords:
+  - mức đánh giá
+  - tra cứu
+  - xếp hạng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

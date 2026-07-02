@@ -1,6 +1,12 @@
 ---
 name: I_BR_CREDITCARDCOMPANY
 description: BR Creditcardcompany
+semantic_en: "Brazil credit card company — master data for credit card brand identification and processing"
+semantic_vi: "công ty thẻ tín dụng Brazil — dữ liệu chính cho xác định và xử lý thương hiệu thẻ tín dụng"
+keywords:
+  - thẻ tín dụng
+  - công ty
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

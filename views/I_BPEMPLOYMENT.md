@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYMENT
 description: Bpemployment
+semantic_en: "business partner employment — employment history including dates, status, employer industry, and occupation group."
+semantic_vi: "tổng hợp tuyển dụng — lịch sử tuyển dụng bao gồm ngày, trạng thái, ngành công nghiệp chủ nhân công việc."
+keywords:
+  - lịch sử tuyển dụng
+  - ngành công nghiệp
+  - nhóm nghề
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

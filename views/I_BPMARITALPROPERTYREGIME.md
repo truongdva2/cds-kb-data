@@ -1,6 +1,12 @@
 ---
 name: I_BPMARITALPROPERTYREGIME
 description: Bpmaritalpropertyregime
+semantic_en: "business partner marital property regime — classification of property ownership rules between spouses"
+semantic_vi: "chế độ tài sản hôn nhân của đối tác kinh doanh — phân loại luật sở hữu tài sản giữa các vợ chồng"
+keywords:
+  - tài sản hôn nhân
+  - chế độ pháp lý
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

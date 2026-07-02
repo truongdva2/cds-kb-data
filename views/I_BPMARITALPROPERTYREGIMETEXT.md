@@ -1,6 +1,12 @@
 ---
 name: I_BPMARITALPROPERTYREGIMETEXT
 description: Bpmaritalpropertyregimetext
+semantic_en: "business partner marital property regime multilingual text — localized descriptions of marital property regimes"
+semantic_vi: "mô tả đa ngôn ngữ chế độ tài sản hôn nhân — bản mô tả địa phương hóa các chế độ tài sản hôn nhân"
+keywords:
+  - tài sản hôn nhân
+  - ngôn ngữ
+  - chế độ pháp lý
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

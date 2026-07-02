@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGPROCEDUREGRADE
 description: Bpratingproceduregrade
+semantic_en: "business partner rating procedure grade — grade levels within a rating procedure with ranking order"
+semantic_vi: "mức đánh giá trong quy trình xếp hạng của đối tác kinh doanh — các mức đánh giá trong quy trình xếp hạng với thứ tự xếp hạng"
+keywords:
+  - mức đánh giá
+  - xếp hạng
+  - quy trình
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPMINIMUMRESERVE
 description: Bpminimumreserve
+semantic_en: "business partner minimum reserve indicator — flag indicating whether a business partner is subject to minimum reserve requirements"
+semantic_vi: "chỉ số dự trữ tối thiểu của đối tác kinh doanh — cờ chỉ ra liệu đối tác kinh doanh có phải tuân theo yêu cầu dự trữ tối thiểu hay không"
+keywords:
+  - dự trữ tối thiểu
+  - chỉ số
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

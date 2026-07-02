@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDOCUMENT
 description: BR Nfdocument
+semantic_en: "Brazil Nota Fiscal document data — comprehensive partner and organizational details for invoices including names, addresses, and partner types"
+semantic_vi: "Dữ liệu tài liệu Nota Fiscal Brazil — chi tiết đối tác và tổ chức toàn diện cho hóa đơn bao gồm tên, địa chỉ và loại đối tác"
+keywords:
+  - Nota Fiscal
+  - tài liệu
+  - đối tác
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITSTANDINGSTATUS
 description: Bpcreditstandingstatus
+semantic_en: "business partner credit standing status — status codes indicating current creditworthiness assessment."
+semantic_vi: "tình trạng thế chấp tín dụng — mã trạng thái chỉ đánh giá tín dụng hiện tại của đối tác."
+keywords:
+  - tình trạng tín dụng
+  - mã trạng thái
+  - khả năng thanh toán
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

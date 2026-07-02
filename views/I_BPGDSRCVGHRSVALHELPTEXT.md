@@ -1,6 +1,12 @@
 ---
 name: I_BPGDSRCVGHRSVALHELPTEXT
 description: Bpgdsrcvghrsvalhelptext
+semantic_en: "business partner goods receiving hours description — language-specific text for goods receiving hour codes."
+semantic_vi: "mô tả giờ nhận hàng — dòng văn bản thể hiện các mã giờ nhận hàng theo ngôn ngữ."
+keywords:
+  - giờ nhận hàng
+  - mô tả thời gian
+  - ngôn ngữ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTETRANSPORTATIONMODE
 description: BR Ctetransportationmode
+semantic_en: "Brazil CT-e transportation mode domain value — classification of modes of transport in electronic freight documents"
+semantic_vi: "Giá trị miền phương thức vận chuyển CT-e Brazil — phân loại các phương thức vận tải trong tài liệu vận chuyển điện tử"
+keywords:
+  - CT-e
+  - phương thức vận chuyển
+  - miền
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

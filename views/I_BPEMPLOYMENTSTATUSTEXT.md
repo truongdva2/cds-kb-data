@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYMENTSTATUSTEXT
 description: Bpemploymentstatustext
+semantic_en: "employment status text — language-specific descriptions of business partner employment status codes."
+semantic_vi: "mô tả tình trạng tuyên dụng — dòng văn bản thể hiện tình trạng tuyên dụng của đối tác theo ngôn ngữ."
+keywords:
+  - tình trạng tuyên dụng
+  - mô tả trạng thái
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

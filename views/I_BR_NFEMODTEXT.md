@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEMODTEXT
 description: BR Nfemodtext
+semantic_en: "Brazil Nota Fiscal modelo text — descriptions for Nota Fiscal modelo 1 and 2 document formats"
+semantic_vi: "Văn bản modelo Nota Fiscal Brazil — mô tả cho định dạng tài liệu Nota Fiscal modelo 1 và 2"
+keywords:
+  - Nota Fiscal
+  - modelo
+  - văn bản
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

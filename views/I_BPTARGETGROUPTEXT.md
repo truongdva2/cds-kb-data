@@ -1,6 +1,12 @@
 ---
 name: I_BPTARGETGROUPTEXT
 description: Bptargetgrouptext
+semantic_en: "business partner target group multilingual text — localized descriptions of target group classifications for marketing and sales"
+semantic_vi: "mô tả đa ngôn ngữ nhóm mục tiêu của đối tác kinh doanh — bản mô tả địa phương hóa phân loại nhóm mục tiêu cho tiếp thị và bán hàng"
+keywords:
+  - nhóm mục tiêu
+  - bán hàng
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

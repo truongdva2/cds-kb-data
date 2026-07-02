@@ -1,6 +1,12 @@
 ---
 name: I_BR_MATERIALORIGIN
 description: BR Materialorigin
+semantic_en: "Brazil material origin domain value — classification of source origin for materials in sales operations"
+semantic_vi: "Giá trị miền nguồn gốc vật liệu Brazil — phân loại nguồn gốc vật liệu trong hoạt động bán hàng"
+keywords:
+  - vật liệu
+  - nguồn gốc
+  - phân loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

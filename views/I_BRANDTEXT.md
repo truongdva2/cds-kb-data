@@ -1,6 +1,12 @@
 ---
 name: I_BRANDTEXT
 description: Brandtext
+semantic_en: "brand multilingual text — localized brand names and descriptions across languages"
+semantic_vi: "mô tả đa ngôn ngữ thương hiệu — tên thương hiệu và mô tả địa phương hóa trên các ngôn ngữ"
+keywords:
+  - thương hiệu
+  - tên
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPGOODSRECEIVINGHOURTEXT
 description: Bpgoodsreceivinghourtext
+semantic_en: "goods receiving hours text — language-specific descriptions of goods receiving hour time codes."
+semantic_vi: "mô tả giờ nhận hàng — dòng văn bản thể hiện các khung giờ nhận hàng theo ngôn ngữ."
+keywords:
+  - giờ nhận hàng
+  - mô tả thời gian
+  - ngôn ngữ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPCURRENTDEFAULTADDRESS
 description: Bpcurrentdefaultaddress
+semantic_en: "business partner current default address — active address record with validity period and protection status."
+semantic_vi: "địa chỉ mặc định hiện tại — bản ghi địa chỉ hoạt động với ngày hiệu lực và trạng thái bảo vệ."
+keywords:
+  - địa chỉ mặc định
+  - trạng thái bảo vệ
+  - ngày hiệu lực
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

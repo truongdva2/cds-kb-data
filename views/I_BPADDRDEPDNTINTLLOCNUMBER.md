@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRDEPDNTINTLLOCNUMBER
 description: Bpaddrdepdntintllocnumber
+semantic_en: "business partner address-dependent international location number — ILN codes for BP address identification."
+semantic_vi: "số vị trí quốc tế phụ thuộc địa chỉ đối tác kinh doanh — mã ILN để xác định địa chỉ QĐD."
+keywords:
+  - đối tác kinh doanh
+  - ILN
+  - địa chỉ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

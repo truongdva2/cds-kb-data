@@ -1,6 +1,12 @@
 ---
 name: I_BR_CREDITCARDCOMPANYTEXT
 description: BR Creditcardcompanytext
+semantic_en: "Brazil credit card company multilingual text — localized descriptions of credit card brands"
+semantic_vi: "mô tả đa ngôn ngữ công ty thẻ tín dụng Brazil — bản mô tả địa phương hóa các thương hiệu thẻ tín dụng"
+keywords:
+  - thẻ tín dụng
+  - thương hiệu
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

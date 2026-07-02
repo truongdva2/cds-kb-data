@@ -1,6 +1,12 @@
 ---
 name: I_BR_ICMSBASEDETNTEXT
 description: BR Icmsbasedetntext
+semantic_en: "Brazil ICMS base determination description — multilingual text labels for ICMS base calculation method domain values"
+semantic_vi: "Mô tả xác định cơ sở ICMS Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền phương pháp tính cơ sở"
+keywords:
+  - ICMS
+  - cơ sở
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

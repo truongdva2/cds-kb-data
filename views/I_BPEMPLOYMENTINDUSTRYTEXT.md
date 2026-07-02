@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYMENTINDUSTRYTEXT
 description: Bpemploymentindustrytext
+semantic_en: "employment industry text — language-specific descriptions of employer industry codes with short descriptions."
+semantic_vi: "mô tả ngành công nghiệp — dòng văn bản thể hiện ngành công nghiệp chủ nhân công việc theo ngôn ngữ."
+keywords:
+  - ngành công nghiệp
+  - mô tả ngành
+  - tuyên tố tắt
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

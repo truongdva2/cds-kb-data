@@ -1,6 +1,12 @@
 ---
 name: I_BONDCLASSIFICATION
 description: Bondclassification
+semantic_en: "bond classification — categorizes financial bonds by type and characteristics."
+semantic_vi: "phân loại trái phiếu — phân loại trái phiếu tài chính theo loại và đặc điểm."
+keywords:
+  - trái phiếu
+  - phân loại
+  - tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPGRPASSIGNMENTCATEGORY
 description: Bpgrpassignmentcategory
+semantic_en: "business partner group assignment category — classification for business partner group membership categories."
+semantic_vi: "danh mục gán nhóm — phân loại danh mục thành viên nhóm đối tác kinh doanh."
+keywords:
+  - gán nhóm
+  - danh mục nhóm
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

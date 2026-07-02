@@ -1,6 +1,12 @@
 ---
 name: I_BR_ICMSTAXSITUATION
 description: BR Icmstaxsituation
+semantic_en: "Brazil ICMS tax situation domain value — classification of ICMS tax compliance statuses for operations"
+semantic_vi: "Giá trị miền tình trạng thuế ICMS Brazil — phân loại tình trạng tuân thủ thuế ICMS cho các giao dịch"
+keywords:
+  - ICMS
+  - tình trạng thuế
+  - phân loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

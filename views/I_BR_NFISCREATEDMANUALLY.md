@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFISCREATEDMANUALLY
 description: BR Nfiscreatedmanually
+semantic_en: "Brazil Nota Fiscal created manually indicator domain value — classification marking whether invoices were manually created"
+semantic_vi: "Giá trị miền chỉ thị Nota Fiscal được tạo thủ công Brazil — phân loại đánh dấu liệu hóa đơn có được tạo thủ công"
+keywords:
+  - Nota Fiscal
+  - thủ công
+  - chỉ thị
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

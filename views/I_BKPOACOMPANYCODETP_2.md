@@ -1,6 +1,12 @@
 ---
 name: I_BKPOACOMPANYCODETP_2
 description: BKPOACompany CodeTP 2
+semantic_en: "company codes assigned to bank power of attorney — tracks company code scope and validity of POA authorizations."
+semantic_vi: "mã công ty được gán cho quyền đại diện ngân hàng — theo dõi phạm vi mã công ty và hiệu lực của các ủy quyền QĐD."
+keywords:
+  - mã công ty
+  - quyền đại diện ngân hàng
+  - phạm vi
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

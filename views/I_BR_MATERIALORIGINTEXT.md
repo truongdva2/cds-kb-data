@@ -1,6 +1,12 @@
 ---
 name: I_BR_MATERIALORIGINTEXT
 description: BR Materialorigintext
+semantic_en: "Brazil material origin description — multilingual text labels for material source origin domain values"
+semantic_vi: "Mô tả nguồn gốc vật liệu Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền nguồn gốc"
+keywords:
+  - vật liệu
+  - nguồn gốc
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

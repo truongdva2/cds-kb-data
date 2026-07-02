@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEPAYMENT
 description: BR Nfepayment
+semantic_en: "Brazil NFe payment data — payment method details, amounts, authorization information and terminal identifiers for electronic invoices"
+semantic_vi: "Dữ liệu thanh toán NFe Brazil — chi tiết phương thức thanh toán, số tiền, thông tin ủy quyền và mã định danh thiết bị cho hóa đơn điện tử"
+keywords:
+  - NFe
+  - thanh toán
+  - phương thức
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

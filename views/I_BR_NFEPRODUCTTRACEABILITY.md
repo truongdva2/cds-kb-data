@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEPRODUCTTRACEABILITY
 description: BR Nfeproducttraceability
+semantic_en: "Brazil NFe product traceability — batch tracking information including manufacturing dates, expiration dates and aggregate IDs for products"
+semantic_vi: "Khả năng truy cập sản phẩm NFe Brazil — thông tin theo dõi lô hàng bao gồm ngày sản xuất, ngày hết hạn và mã tập hợp cho sản phẩm"
+keywords:
+  - NFe
+  - truy cập
+  - lô hàng
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

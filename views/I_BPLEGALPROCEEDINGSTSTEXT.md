@@ -1,6 +1,12 @@
 ---
 name: I_BPLEGALPROCEEDINGSTSTEXT
 description: Bplegalproceedingststext
+semantic_en: "business partner legal proceedings status multilingual text — localized descriptions of legal proceedings status codes across languages"
+semantic_vi: "mô tả đa ngôn ngữ trạng thái thủ tục pháp lý của đối tác kinh doanh — các bản mô tả địa phương hóa của mã trạng thái thủ tục pháp lý"
+keywords:
+  - mô tả pháp lý
+  - ngôn ngữ
+  - trạng thái thủ tục
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

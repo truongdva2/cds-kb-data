@@ -1,6 +1,12 @@
 ---
 name: I_BR_COLLECTIONPAYMENTFORMTEXT
 description: BR Collectionpaymentformtext
+semantic_en: "Brazil collection payment form multilingual text — localized descriptions of payment form categories"
+semantic_vi: "mô tả đa ngôn ngữ hình thức thanh toán thu tiền — bản mô tả địa phương hóa các danh mục hình thức thanh toán"
+keywords:
+  - thanh toán
+  - hình thức
+  - ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

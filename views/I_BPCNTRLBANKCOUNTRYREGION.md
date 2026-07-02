@@ -1,6 +1,12 @@
 ---
 name: I_BPCNTRLBANKCOUNTRYREGION
 description: Bpcntrlbankcountryregion
+semantic_en: "central bank country region — master data for central bank entities across geographic regions."
+semantic_vi: "vùng quốc gia ngân hàng trung ương — dữ liệu chính đối với các thực thể ngân hàng trung ương theo khu vực địa lý."
+keywords:
+  - ngân hàng trung ương
+  - vùng quốc gia
+  - dữ liệu ngân hàng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

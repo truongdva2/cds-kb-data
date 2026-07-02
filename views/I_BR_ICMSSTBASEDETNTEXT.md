@@ -1,6 +1,12 @@
 ---
 name: I_BR_ICMSSTBASEDETNTEXT
 description: BR Icmsstbasedetntext
+semantic_en: "Brazil ICMS-ST base determination description — multilingual text labels for substitution tax base domain values"
+semantic_vi: "Mô tả xác định cơ sở thuế thay thế ICMS Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền ICMS-ST"
+keywords:
+  - ICMS-ST
+  - cơ sở
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

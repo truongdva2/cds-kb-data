@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSUSAGE
 description: Billofoperationsusage
+semantic_en: "bill of operations usage — defines how manufacturing routings are applied in production scenarios."
+semantic_vi: "cách sử dụng quy trình vận hành — định nghĩa cách áp dụng tuyến đường sản xuất trong các tình huống sản xuất."
+keywords:
+  - quy trình vận hành
+  - cách sử dụng
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

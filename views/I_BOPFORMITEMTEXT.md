@@ -1,6 +1,12 @@
 ---
 name: I_BOPFORMITEMTEXT
 description: Bopformitemtext
+semantic_en: "balance of payments form item text — language-specific descriptions for BOP form line items."
+semantic_vi: "văn bản mục biểu mẫu cân đối thanh toán — mô tả dành riêng cho ngôn ngữ cho các mục dòng biểu mẫu CĐT."
+keywords:
+  - cân đối thanh toán
+  - mô tả
+  - đa ngôn ngữ
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

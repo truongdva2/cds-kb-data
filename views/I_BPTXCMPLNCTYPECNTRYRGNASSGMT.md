@@ -1,6 +1,12 @@
 ---
 name: I_BPTXCMPLNCTYPECNTRYRGNASSGMT
 description: Bptxcmplnctypecntryrgnassgmt
+semantic_en: "business partner tax compliance type country region assignment — matrix mapping tax compliance types to country and region combinations"
+semantic_vi: "gán loại tuân thủ thuế theo quốc gia và khu vực của đối tác kinh doanh — ma trận ánh xạ loại tuân thủ thuế tới các tổ hợp quốc gia và khu vực"
+keywords:
+  - tuân thủ thuế
+  - quốc gia
+  - khu vực
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

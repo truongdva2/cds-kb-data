@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEITEMRULE
 description: BR Nfeitemrule
+semantic_en: "Brazil Nota Fiscal item type rules — configuration rules for NFe item types with validation and reference requirements"
+semantic_vi: "Quy tắc loại mục Nota Fiscal Brazil — quy tắc cấu hình cho loại mục NFe kèm yêu cầu xác thực và tham chiếu"
+keywords:
+  - NFe
+  - loại mục
+  - quy tắc
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

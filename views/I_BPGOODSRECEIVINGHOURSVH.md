@@ -1,6 +1,12 @@
 ---
 name: I_BPGOODSRECEIVINGHOURSVH
 description: Bpgoodsreceivinghoursvh
+semantic_en: "goods receiving hours value help — searchable reference for goods receiving time codes."
+semantic_vi: "trợ giúp giá trị giờ nhận hàng — danh sách các mã khung giờ nhận hàng có thể tìm kiếm."
+keywords:
+  - giờ nhận hàng
+  - mã khung giờ
+  - danh sách giá trị
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

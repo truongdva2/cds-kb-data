@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSTYPETEXT
 description: Billofoperationstypetext
+semantic_en: "bill of operations type text — language-specific names for operation type classifications."
+semantic_vi: "văn bản loại quy trình vận hành — tên dành riêng cho ngôn ngữ cho phân loại loại hoạt động."
+keywords:
+  - loại quy trình
+  - tên
+  - đa ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

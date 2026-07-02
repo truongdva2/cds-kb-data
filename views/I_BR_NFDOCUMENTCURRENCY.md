@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDOCUMENTCURRENCY
 description: BR Nfdocumentcurrency
+semantic_en: "Brazil Nota Fiscal document currency — currency denomination for sales documents and invoices"
+semantic_vi: "Tiền tệ tài liệu Nota Fiscal Brazil — loại tiền tệ cho tài liệu bán hàng và hóa đơn"
+keywords:
+  - Nota Fiscal
+  - tiền tệ
+  - tài liệu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

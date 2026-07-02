@@ -1,6 +1,12 @@
 ---
 name: I_BOMEXPLOSIONDATE
 description: Bomexplosiondate
+semantic_en: "BOM explosion date identification — defines effective dates for material bill of material explosion and variant expansion."
+semantic_vi: "xác định ngày phân tích danh sách vật liệu — xác định ngày hiệu lực để phân tích danh sách vật liệu vật liệu và mở rộng biến thể."
+keywords:
+  - danh sách vật liệu
+  - ngày phân tích
+  - biến thể
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

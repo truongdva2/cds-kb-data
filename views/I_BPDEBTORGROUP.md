@@ -1,6 +1,12 @@
 ---
 name: I_BPDEBTORGROUP
 description: Bpdebtorgroup
+semantic_en: "business partner debtor group — classification categories for debtor segmentation."
+semantic_vi: "nhóm người nợ — các phân loại danh mục phân khúc người nợ."
+keywords:
+  - nhóm người nợ
+  - phân loại nợ
+  - danh mục nợ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYEEGROUPTEXT
 description: Bpemployeegrouptext
+semantic_en: "business partner employee group text — language-specific descriptions of employee classifications for business partners."
+semantic_vi: "mô tả nhóm nhân viên — dòng văn bản thể hiện phân loại nhân viên của đối tác theo ngôn ngữ."
+keywords:
+  - nhóm nhân viên
+  - phân loại nhân viên
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

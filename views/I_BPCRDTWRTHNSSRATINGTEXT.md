@@ -1,6 +1,12 @@
 ---
 name: I_BPCRDTWRTHNSSRATINGTEXT
 description: Bpcrdtwrthnssratingtext
+semantic_en: "credit worthiness rating text — language-specific descriptions of business partner creditworthiness assessments."
+semantic_vi: "mô tả xếp hạng tín nhiệm — dòng văn bản thể hiện xếp hạng khả năng thanh toán của đối tác theo ngôn ngữ."
+keywords:
+  - xếp hạng tín nhiệm
+  - đánh giá tín dụng
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

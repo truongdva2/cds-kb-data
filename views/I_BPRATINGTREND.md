@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGTREND
 description: Bpratingtrend
+semantic_en: "business partner rating trend — historical trend indicator showing how credit rating has changed"
+semantic_vi: "xu hướng xếp hạng của đối tác kinh doanh — chỉ số xu hướng lịch sử cho thấy xếp hạng tín dụng thay đổi như thế nào"
+keywords:
+  - xếp hạng
+  - xu hướng
+  - tín dụng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

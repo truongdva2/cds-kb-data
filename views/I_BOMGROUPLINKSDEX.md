@@ -1,6 +1,12 @@
 ---
 name: I_BOMGROUPLINKSDEX
 description: Bomgrouplinksdex
+semantic_en: "data extraction for BOM group links — mapping relationships between bill of material groups and specific BOMs."
+semantic_vi: "trích xuất dữ liệu cho liên kết nhóm danh sách vật liệu — ánh xạ các mối quan hệ giữa các nhóm danh sách vật liệu và các BOM cụ thể."
+keywords:
+  - nhóm danh sách vật liệu
+  - liên kết
+  - trích xuất dữ liệu
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

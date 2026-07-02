@@ -1,6 +1,12 @@
 ---
 name: I_BOMCOMPONENTWITHKEYDATE
 description: Bomcomponentwithkeydate
+semantic_en: "bill of material component details with key date — component-level BOM data with validity periods and engineering change tracking."
+semantic_vi: "chi tiết thành phần danh sách vật liệu với ngày khóa — dữ liệu BOM cấp độ thành phần với thời gian hiệu lực và theo dõi thay đổi kỹ thuật."
+keywords:
+  - danh sách vật liệu
+  - thành phần
+  - ngày khóa
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

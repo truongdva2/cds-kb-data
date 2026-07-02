@@ -1,6 +1,12 @@
 ---
 name: I_BPCONTACTTOFUNCANDDEPT
 description: Bpcontacttofuncanddept
+semantic_en: "business partner contact function and department — relationship details including contact's role, department, authority level, and phone information."
+semantic_vi: "chức năng và phòng ban liên hệ — chi tiết mối quan hệ bao gồm vai trò chức năng, phòng ban và cấp quyền."
+keywords:
+  - chức năng liên hệ
+  - phòng ban
+  - số điện thoại liên hệ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

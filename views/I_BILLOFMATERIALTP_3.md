@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFMATERIALTP_3
 description: Bill of MaterialTP 3
+semantic_en: "bill of material header details with text — containing key fields for material BOM structure, category, variant, version, and engineering change tracking."
+semantic_vi: "chi tiết tiêu đề danh sách vật liệu với văn bản — chứa các trường quan trọng cho cấu trúc BOM vật liệu, loại danh mục, biến thể, phiên bản và theo dõi thay đổi kỹ thuật."
+keywords:
+  - danh sách vật liệu
+  - BOM
+  - chi tiết tiêu đề
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPRISKGROUPTEXT
 description: Bpriskgrouptext
+semantic_en: "business partner risk group multilingual text — localized descriptions of risk group classifications"
+semantic_vi: "mô tả đa ngôn ngữ nhóm rủi ro — bản mô tả địa phương hóa phân loại nhóm rủi ro"
+keywords:
+  - rủi ro
+  - nhóm
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPFISCALYEARINFORMATION
 description: Bpfiscalyearinformation
+semantic_en: "business partner fiscal year information — annual financial data including balance sheet currency, shareholder meeting dates, and fiscal year status."
+semantic_vi: "thông tin năm tài chính — dữ liệu tài chính hàng năm bao gồm tiền tệ bảng cân đối, ngày họp cổ đông."
+keywords:
+  - năm tài chính
+  - bảng cân đối kế toán
+  - tình trạng đóng năm
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

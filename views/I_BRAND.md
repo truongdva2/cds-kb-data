@@ -1,6 +1,12 @@
 ---
 name: I_BRAND
 description: Brand
+semantic_en: "brand — master brand classification for product lines and marketing positioning"
+semantic_vi: "thương hiệu — phân loại thương hiệu chính cho các dòng sản phẩm và định vị tiếp thị"
+keywords:
+  - thương hiệu
+  - sản phẩm
+  - tiếp thị
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

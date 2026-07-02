@@ -1,6 +1,12 @@
 ---
 name: I_BKPOABKACCOUNTSELECTIONTP_2
 description: Bkpoabkaccountselectiontp 2
+semantic_en: "bank power of attorney account selection criteria — defines filtering rules for selecting applicable bank accounts in POA scope."
+semantic_vi: "tiêu chí lựa chọn tài khoản quyền đại diện ngân hàng — định nghĩa quy tắc lọc để chọn tài khoản ngân hàng phù hợp trong phạm vi QĐD."
+keywords:
+  - tài khoản ngân hàng
+  - tiêu chí lựa chọn
+  - quyền đại diện
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

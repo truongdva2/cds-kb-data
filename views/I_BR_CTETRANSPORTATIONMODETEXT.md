@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTETRANSPORTATIONMODETEXT
 description: BR Ctetransportationmodetext
+semantic_en: "Brazil CT-e transportation mode description — multilingual text labels for transportation mode domain values"
+semantic_vi: "Mô tả phương thức vận chuyển CT-e Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền phương thức vận tải"
+keywords:
+  - CT-e
+  - phương thức vận chuyển
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

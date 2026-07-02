@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEACTIVE
 description: BR Nfeactive
+semantic_en: "Brazil electronic Nota Fiscal active view — current status and key identifiers for active NFe documents including access keys and issue dates"
+semantic_vi: "Chế độ xem Nota Fiscal điện tử hoạt động Brazil — trạng thái hiện tại và các định danh chính cho tài liệu NFe hoạt động bao gồm khóa truy cập"
+keywords:
+  - NFe
+  - hoạt động
+  - trạng thái
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

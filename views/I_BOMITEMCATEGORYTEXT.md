@@ -1,6 +1,12 @@
 ---
 name: I_BOMITEMCATEGORYTEXT
 description: Bomitemcategorytext
+semantic_en: "bill of material item category text — language-specific descriptions for BOM item classification categories."
+semantic_vi: "văn bản danh mục mục danh sách vật liệu — mô tả dành riêng cho ngôn ngữ cho các danh mục phân loại mục BOM."
+keywords:
+  - danh sách vật liệu
+  - danh mục mục
+  - đa ngôn ngữ
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

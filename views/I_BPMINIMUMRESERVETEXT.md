@@ -1,6 +1,12 @@
 ---
 name: I_BPMINIMUMRESERVETEXT
 description: Bpminimumreservetext
+semantic_en: "business partner minimum reserve indicator multilingual text — localized descriptions of minimum reserve status"
+semantic_vi: "mô tả đa ngôn ngữ chỉ số dự trữ tối thiểu — bản mô tả địa phương hóa trạng thái dự trữ tối thiểu"
+keywords:
+  - dự trữ tối thiểu
+  - ngôn ngữ
+  - mô tả
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

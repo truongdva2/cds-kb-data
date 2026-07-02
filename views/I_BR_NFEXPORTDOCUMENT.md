@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEXPORTDOCUMENT
 description: BR Nfexportdocument
+semantic_en: "Brazil Nota Fiscal export document — export item details with access keys, quantities, drawback information and registration numbers"
+semantic_vi: "Tài liệu xuất khẩu Nota Fiscal Brazil — chi tiết mục xuất khẩu kèm khóa truy cập, số lượng, thông tin hoàn thuế và số đăng ký"
+keywords:
+  - Nota Fiscal
+  - xuất khẩu
+  - tài liệu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

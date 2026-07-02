@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTEPARTNERSERVICETAKERT
 description: BR Ctepartnerservicetakert
+semantic_en: "Brazil CT-e partner service taker description — multilingual text labels for service taker domain values"
+semantic_vi: "Mô tả đối tác cung cấp dịch vụ CT-e Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền dịch vụ"
+keywords:
+  - CT-e
+  - mô tả đối tác
+  - đa ngôn ngữ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

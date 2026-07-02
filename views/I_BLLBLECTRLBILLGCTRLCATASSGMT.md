@@ -1,6 +1,12 @@
 ---
 name: I_BLLBLECTRLBILLGCTRLCATASSGMT
 description: Bllblectrlbillgctrlcatassgmt
+semantic_en: "billable control category assignment — maps billing control categories for fee and charge management."
+semantic_vi: "gán danh mục điều khiển có thể tính phí — ánh xạ các danh mục điều khiển thanh toán cho quản lý phí và chi phí."
+keywords:
+  - điều khiển thanh toán
+  - danh mục
+  - gán
 app_component: PPM-SCL-BIL
 software_component: SAPSCORE
 release_state: released

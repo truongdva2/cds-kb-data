@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITSTANDINGTEXT
 description: Bpcreditstandingtext
+semantic_en: "credit standing text — language-specific descriptions of business partner creditworthiness classifications."
+semantic_vi: "mô tả tình trạng tín dụng — dòng văn bản thể hiện phân loại khả năng thanh toán của đối tác theo ngôn ngữ."
+keywords:
+  - tình trạng tín dụng
+  - mô tả tín dụng
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

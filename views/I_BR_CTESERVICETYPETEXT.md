@@ -1,6 +1,12 @@
 ---
 name: I_BR_CTESERVICETYPETEXT
 description: BR Cteservicetypetext
+semantic_en: "Brazil CT-e service type description — multilingual text labels for service type domain values"
+semantic_vi: "Mô tả loại dịch vụ CT-e Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền dịch vụ"
+keywords:
+  - CT-e
+  - loại dịch vụ
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

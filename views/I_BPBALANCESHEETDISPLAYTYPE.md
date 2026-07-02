@@ -1,6 +1,12 @@
 ---
 name: I_BPBALANCESHEETDISPLAYTYPE
 description: Bpbalancesheetdisplaytype
+semantic_en: "balance sheet display type for business partner — format classification for BP financial statement presentation."
+semantic_vi: "loại hiển thị bảng cân đối kế toán cho đối tác kinh doanh — phân loại định dạng cho trình bày báo cáo tài chính QĐD."
+keywords:
+  - bảng cân đối kế toán
+  - đối tác kinh doanh
+  - định dạng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

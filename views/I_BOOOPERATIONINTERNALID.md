@@ -1,6 +1,12 @@
 ---
 name: I_BOOOPERATIONINTERNALID
 description: Boooperationinternalid
+semantic_en: "bill of operations operation internal ID — unique internal identifier for operations within a routing group."
+semantic_vi: "ID nội bộ hoạt động quy trình vận hành — định danh nội bộ duy nhất cho các hoạt động trong nhóm tuyến đường."
+keywords:
+  - quy trình vận hành
+  - ID nội bộ
+  - hoạt động
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

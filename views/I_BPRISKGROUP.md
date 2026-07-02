@@ -1,6 +1,12 @@
 ---
 name: I_BPRISKGROUP
 description: Bpriskgroup
+semantic_en: "business partner risk group — classification of risk exposure levels for credit and operational assessment"
+semantic_vi: "nhóm rủi ro của đối tác kinh doanh — phân loại mức độ rủi ro tiếp xúc cho đánh giá tín dụng và hoạt động"
+keywords:
+  - rủi ro
+  - nhóm rủi ro
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

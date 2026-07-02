@@ -1,6 +1,12 @@
 ---
 name: I_BPSUPPLIERCONTACTLINK
 description: Bpsuppliercontactlink
+semantic_en: "business partner supplier contact link — relationship mapping between suppliers and their designated contact persons"
+semantic_vi: "liên kết liên hệ nhà cung cấp của đối tác kinh doanh — ánh xạ mối quan hệ giữa các nhà cung cấp và những người liên hệ được chỉ định của họ"
+keywords:
+  - liên hệ
+  - nhà cung cấp
+  - đối tác kinh doanh
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

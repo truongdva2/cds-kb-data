@@ -1,6 +1,12 @@
 ---
 name: I_BPUNDESIRABILITYREASONTEXT
 description: Bpundesirabilityreasontext
+semantic_en: "business partner undesirability reason multilingual text — localized descriptions of undesirability reasons"
+semantic_vi: "mô tả đa ngôn ngữ lý do không mong muốn của đối tác kinh doanh — bản mô tả địa phương hóa các lý do không mong muốn"
+keywords:
+  - không mong muốn
+  - lý do
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

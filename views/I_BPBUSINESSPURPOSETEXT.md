@@ -1,6 +1,12 @@
 ---
 name: I_BPBUSINESSPURPOSETEXT
 description: Bpbusinesspurposetext
+semantic_en: "business purpose category text — language-specific descriptions of business partner purpose classifications."
+semantic_vi: "mô tả phân loại mục đích kinh doanh — các dòng văn bản thể hiện mục đích kinh doanh của đối tác theo ngôn ngữ."
+keywords:
+  - mục đích kinh doanh
+  - phân loại mục đích
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

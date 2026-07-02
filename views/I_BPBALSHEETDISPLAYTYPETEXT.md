@@ -1,6 +1,12 @@
 ---
 name: I_BPBALSHEETDISPLAYTYPETEXT
 description: Bpbalsheetdisplaytypetext
+semantic_en: "balance sheet display type text for BP — language-specific names for balance sheet display format types."
+semantic_vi: "văn bản loại hiển thị bảng cân đối kế toán cho đối tác kinh doanh — tên dành riêng cho ngôn ngữ cho các loại định dạng hiển thị bảng cân đối kế toán."
+keywords:
+  - bảng cân đối kế toán
+  - loại hiển thị
+  - đa ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

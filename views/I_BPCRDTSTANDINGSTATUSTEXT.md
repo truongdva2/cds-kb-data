@@ -1,6 +1,12 @@
 ---
 name: I_BPCRDTSTANDINGSTATUSTEXT
 description: Bpcrdtstandingstatustext
+semantic_en: "credit standing status text — language-specific descriptions of business partner credit assessment status."
+semantic_vi: "mô tả tình trạng thế chấp tín dụng — dòng văn bản thể hiện tình trạng đánh giá tín dụng của đối tác theo ngôn ngữ."
+keywords:
+  - thế chấp tín dụng
+  - tình trạng tín dụng
+  - mô tả ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

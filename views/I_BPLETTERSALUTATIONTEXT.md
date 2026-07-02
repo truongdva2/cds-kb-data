@@ -1,6 +1,12 @@
 ---
 name: I_BPLETTERSALUTATIONTEXT
 description: Bplettersalutationtext
+semantic_en: "business partner letter salutation multilingual text — localized salutation descriptions for correspondence"
+semantic_vi: "mô tả đa ngôn ngữ hình thức chào hỏi — các bản mô tả địa phương hóa cách chào hỏi trong tương ứng"
+keywords:
+  - chào hỏi
+  - ngôn ngữ
+  - mô tả thư từ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BPFINANCIALSERVICESREPORTING
 description: Bpfinancialservicesreporting
+semantic_en: "business partner financial services reporting — regulatory reporting attributes including loan details, residency status, and credit review information."
+semantic_vi: "báo cáo dịch vụ tài chính — các thuộc tính báo cáo quy định bao gồm chi tiết khoản vay, tình trạng cư trú."
+keywords:
+  - báo cáo tài chính
+  - thông tin khoản vay
+  - tình trạng cư trú
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

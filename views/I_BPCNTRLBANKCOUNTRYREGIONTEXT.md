@@ -1,6 +1,12 @@
 ---
 name: I_BPCNTRLBANKCOUNTRYREGIONTEXT
 description: Bpcntrlbankcountryregiontext
+semantic_en: "central bank country region text — language-specific descriptions of central bank geographic regions."
+semantic_vi: "mô tả vùng quốc gia ngân hàng trung ương — các dòng văn bản thể hiện vùng địa lý của ngân hàng trung ương theo ngôn ngữ."
+keywords:
+  - ngân hàng trung ương
+  - mô tả vùng
+  - dữ liệu đa ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

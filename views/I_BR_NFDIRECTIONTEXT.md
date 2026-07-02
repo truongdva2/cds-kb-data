@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFDIRECTIONTEXT
 description: BR Nfdirectiontext
+semantic_en: "Brazil Nota Fiscal direction description — multilingual text labels for document flow direction domain values"
+semantic_vi: "Mô tả hướng Nota Fiscal Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền hướng dòng tài liệu"
+keywords:
+  - Nota Fiscal
+  - hướng
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

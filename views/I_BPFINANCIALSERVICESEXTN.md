@@ -1,6 +1,12 @@
 ---
 name: I_BPFINANCIALSERVICESEXTN
 description: Bpfinancialservicesextn
+semantic_en: "business partner financial services attributes — extended attributes for financial services including VIP status, trading profile, and balance sheet data."
+semantic_vi: "thuộc tính dịch vụ tài chính — các thuộc tính mở rộng cho dịch vụ tài chính bao gồm trạng thái VIP và dữ liệu bảng cân đối kế toán."
+keywords:
+  - dịch vụ tài chính
+  - trạng thái VIP
+  - bảng cân đối kế toán
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

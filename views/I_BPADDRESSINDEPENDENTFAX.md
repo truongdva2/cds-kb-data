@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRESSINDEPENDENTFAX
 description: Bpaddressindependentfax
+semantic_en: "business partner address-independent fax — fax contact details with validity tracking for BP addresses."
+semantic_vi: "số fax không phụ thuộc địa chỉ đối tác kinh doanh — chi tiết liên hệ fax với theo dõi hiệu lực cho địa chỉ QĐD."
+keywords:
+  - đối tác kinh doanh
+  - fax
+  - liên hệ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

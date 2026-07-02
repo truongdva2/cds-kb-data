@@ -1,6 +1,12 @@
 ---
 name: I_BPEMPLOYMENTSTATUS
 description: Bpemploymentstatus
+semantic_en: "business partner employment status — classification codes for employment status (employed, unemployed, retired)."
+semantic_vi: "tình trạng tuyển dụng — mã phân loại tình trạng tuyển dụng (có việc làm, thất nghiệp, nghỉ hưu)."
+keywords:
+  - tình trạng tuyên dụng
+  - mã trạng thái
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

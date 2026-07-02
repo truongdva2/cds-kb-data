@@ -1,6 +1,12 @@
 ---
 name: I_BPADDINDEPENDENTWEBSITETP_2
 description: Bpaddindependentwebsitetp 2
+semantic_en: "business partner address-independent website — website URLs and default address indicator for BP contact."
+semantic_vi: "trang web không phụ thuộc địa chỉ đối tác kinh doanh — các URL trang web và chỉ báo địa chỉ mặc định cho liên hệ QĐD."
+keywords:
+  - đối tác kinh doanh
+  - trang web
+  - URL
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

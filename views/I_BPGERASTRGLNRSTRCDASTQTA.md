@@ -1,6 +1,12 @@
 ---
 name: I_BPGERASTRGLNRSTRCDASTQTA
 description: Bpgerastrglnrstrcdastqta
+semantic_en: "business partner German asset regulation — German-specific asset restriction quotas for business partners."
+semantic_vi: "quy định tài sản Đức — hạn ngạch hạn chế tài sản theo quy định Đức của đối tác."
+keywords:
+  - quy định tài sản
+  - hạn ngạch tài sản
+  - Đức
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

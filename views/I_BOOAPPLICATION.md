@@ -1,6 +1,12 @@
 ---
 name: I_BOOAPPLICATION
 description: Booapplication
+semantic_en: "bill of operations application codes — classifies manufacturing routing usage by application context."
+semantic_vi: "mã ứng dụng quy trình vận hành — phân loại cách sử dụng tuyến đường sản xuất theo bối cảnh ứng dụng."
+keywords:
+  - quy trình vận hành
+  - ứng dụng
+  - phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

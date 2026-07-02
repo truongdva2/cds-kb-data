@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGPROCEDURE
 description: Bpratingprocedure
+semantic_en: "business partner rating procedure — master data defining rating methodologies including requirement flag and access cycle parameters"
+semantic_vi: "quy trình xếp hạng của đối tác kinh doanh — dữ liệu chính định nghĩa các phương pháp xếp hạng bao gồm cờ yêu cầu và thông số chu kỳ truy cập"
+keywords:
+  - xếp hạng
+  - quy trình
+  - đối tác kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

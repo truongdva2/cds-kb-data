@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITRATINGAGENCY
 description: Bpcreditratingagency
+semantic_en: "credit rating agency — master data for external credit rating organizations."
+semantic_vi: "cơ quan xếp hạng tín dụng — dữ liệu chính các tổ chức xếp hạng tín dụng bên ngoài."
+keywords:
+  - cơ quan xếp hạng
+  - tín dụng
+  - đánh giá bên ngoài
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

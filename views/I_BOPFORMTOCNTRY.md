@@ -1,6 +1,12 @@
 ---
 name: I_BOPFORMTOCNTRY
 description: Bopformtocntry
+semantic_en: "balance of payments form to country — maps countries and regions covered in BOP reporting forms."
+semantic_vi: "biểu mẫu cân đối thanh toán đến quốc gia — ánh xạ các quốc gia và khu vực được bao gồm trong các biểu mẫu báo cáo CĐT."
+keywords:
+  - cân đối thanh toán
+  - quốc gia
+  - ánh xạ
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

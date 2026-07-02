@@ -1,6 +1,12 @@
 ---
 name: I_BPCOLLECTIONSSEGMENTASSGMT
 description: Bpcollectionssegmentassgmt
+semantic_en: "business partner collections segment assignment — maps collection segments, groups, and specialists to business partners with validity periods."
+semantic_vi: "gán phân khúc thu thập — liên kết phân khúc, nhóm và chuyên gia thu thập với đối tác."
+keywords:
+  - phân khúc thu thập
+  - chuyên gia thu thập
+  - liên hệ người quản lý
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

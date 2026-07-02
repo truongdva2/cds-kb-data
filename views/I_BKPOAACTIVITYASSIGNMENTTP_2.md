@@ -1,6 +1,12 @@
 ---
 name: I_BKPOAACTIVITYASSIGNMENTTP_2
 description: Bkpoaactivityassignmenttp 2
+semantic_en: "bank power of attorney activity assignments — tracks authorized activities and their assignments with transaction processing timestamps."
+semantic_vi: "gán hoạt động quyền đại diện ngân hàng — theo dõi các hoạt động được phép và gán của chúng với dấu thời gian xử lý giao dịch."
+keywords:
+  - quyền đại diện ngân hàng
+  - gán hoạt động
+  - xử lý giao dịch
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

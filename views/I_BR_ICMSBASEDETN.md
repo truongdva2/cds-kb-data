@@ -1,6 +1,12 @@
 ---
 name: I_BR_ICMSBASEDETN
 description: BR Icmsbasedetn
+semantic_en: "Brazil ICMS base determination domain value — classification of methods for calculating ICMS tax base"
+semantic_vi: "Giá trị miền xác định cơ sở ICMS Brazil — phân loại phương pháp tính cơ sở thuế ICMS"
+keywords:
+  - ICMS
+  - cơ sở thuế
+  - xác định
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

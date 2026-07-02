@@ -1,6 +1,12 @@
 ---
 name: I_BKPOABANKACCOUNTTP_2
 description: Bkpoabankaccounttp 2
+semantic_en: "bank power of attorney bank account assignments — tracks assigned bank accounts with effective dates for POA authorization."
+semantic_vi: "gán tài khoản ngân hàng quyền đại diện ngân hàng — theo dõi tài khoản ngân hàng được gán với ngày hiệu lực cho ủy quyền QĐD."
+keywords:
+  - tài khoản ngân hàng
+  - quyền đại diện
+  - ngày hiệu lực
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

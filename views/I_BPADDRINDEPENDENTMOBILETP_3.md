@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRINDEPENDENTMOBILETP_3
 description: Bpaddrindependentmobiletp 3
+semantic_en: "address-independent mobile with TP audit trail — mobile phone details with transactional processing data for BP."
+semantic_vi: "điện thoại di động không phụ thuộc địa chỉ với bản ghi kiểm toán xử lý giao dịch — chi tiết điện thoại di động với dữ liệu xử lý giao dịch cho QĐD."
+keywords:
+  - điện thoại di động
+  - đối tác kinh doanh
+  - kiểm toán
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

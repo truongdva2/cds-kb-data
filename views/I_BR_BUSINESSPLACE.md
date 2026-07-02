@@ -1,6 +1,12 @@
 ---
 name: I_BR_BUSINESSPLACE
 description: BR Businessplace
+semantic_en: "Brazil Nota Fiscal business place — branch and facility locations with tax authority references and municipal identifiers"
+semantic_vi: "địa điểm kinh doanh Nota Fiscal Brazil — chi nhánh và địa điểm cơ sở với các tham chiếu cơ quan thuế và định danh thành phố"
+keywords:
+  - Nota Fiscal
+  - Chi nhánh
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

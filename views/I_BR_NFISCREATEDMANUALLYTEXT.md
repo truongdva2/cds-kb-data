@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFISCREATEDMANUALLYTEXT
 description: BR Nfiscreatedmanuallytext
+semantic_en: "Brazil Nota Fiscal created manually description — multilingual text labels for manual creation status domain values"
+semantic_vi: "Mô tả Nota Fiscal được tạo thủ công Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền trạng thái tạo thủ công"
+keywords:
+  - Nota Fiscal
+  - thủ công
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

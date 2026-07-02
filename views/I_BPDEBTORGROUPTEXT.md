@@ -1,6 +1,12 @@
 ---
 name: I_BPDEBTORGROUPTEXT
 description: Bpdebtorgrouptext
+semantic_en: "debtor group text — language-specific descriptions of business partner debtor classifications."
+semantic_vi: "mô tả nhóm người nợ — dòng văn bản thể hiện phân loại người nợ của đối tác theo ngôn ngữ."
+keywords:
+  - nhóm người nợ
+  - mô tả phân loại
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

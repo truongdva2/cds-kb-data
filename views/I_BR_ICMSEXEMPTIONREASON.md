@@ -1,6 +1,12 @@
 ---
 name: I_BR_ICMSEXEMPTIONREASON
 description: BR Icmsexemptionreason
+semantic_en: "Brazil ICMS exemption reason domain value — classification of reasons for ICMS tax exemption"
+semantic_vi: "Giá trị miền lý do miễn thuế ICMS Brazil — phân loại lý do miễn thuế ICMS"
+keywords:
+  - ICMS
+  - miễn thuế
+  - lý do
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

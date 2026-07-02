@@ -1,6 +1,12 @@
 ---
 name: I_BR_DUETYPETEXT
 description: BR Duetypetext
+semantic_en: "Brazil DUE type description — multilingual text labels for export declaration document type domain values"
+semantic_vi: "Mô tả loại DUE Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền loại tài liệu khai báo"
+keywords:
+  - DUE
+  - mô tả
+  - khai báo
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

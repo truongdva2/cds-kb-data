@@ -1,6 +1,12 @@
 ---
 name: I_BPCREDITWORTHINESS
 description: Bpcreditworthiness
+semantic_en: "business partner credit worthiness — comprehensive credit profile including rating, legal proceedings, bankruptcy status, and foreclosure information."
+semantic_vi: "khả năng thanh toán của đối tác — hồ sơ tín dụng toàn diện bao gồm xếp hạng, tố tụng pháp lý và tình trạng phá sản."
+keywords:
+  - khả năng thanh toán
+  - xếp hạng tín dụng
+  - tình trạng pháp lý
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

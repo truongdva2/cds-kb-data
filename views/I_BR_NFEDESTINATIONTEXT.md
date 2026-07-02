@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEDESTINATIONTEXT
 description: BR Nfedestinationtext
+semantic_en: "Brazil NFe destination description — multilingual text labels for invoice destination domain values"
+semantic_vi: "Mô tả đích đến NFe Brazil — nhãn văn bản đa ngôn ngữ cho giá trị miền đích đến hóa đơn"
+keywords:
+  - NFe
+  - đích đến
+  - mô tả
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

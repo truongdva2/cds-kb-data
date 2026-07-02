@@ -1,6 +1,12 @@
 ---
 name: I_BPCONTACT
 description: Bpcontact
+semantic_en: "business partner contact — relationship master data defining contact links between company and person business partners with validity dates."
+semantic_vi: "liên hệ đối tác kinh doanh — dữ liệu mối quan hệ giữa đối tác công ty và cá nhân với ngày hiệu lực."
+keywords:
+  - liên hệ đối tác
+  - mối quan hệ công ty
+  - ngày hiệu lực
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

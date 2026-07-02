@@ -1,6 +1,12 @@
 ---
 name: I_BPADDRESSINDEPENDENTMOBILE
 description: Bpaddressindependentmobile
+semantic_en: "business partner address-independent mobile — mobile phone numbers and SMS capability for BP contact."
+semantic_vi: "điện thoại di động không phụ thuộc địa chỉ đối tác kinh doanh — các số điện thoại di động và khả năng SMS cho liên hệ QĐD."
+keywords:
+  - đối tác kinh doanh
+  - điện thoại di động
+  - SMS
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

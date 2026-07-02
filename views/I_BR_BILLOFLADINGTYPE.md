@@ -1,6 +1,12 @@
 ---
 name: I_BR_BILLOFLADINGTYPE
 description: BR Billofladingtype
+semantic_en: "Brazil bill of lading type domain — classification codes for freight transport documents in Brazilian commerce"
+semantic_vi: "loại hóa đơn vận chuyển miền Brazil — mã phân loại cho tài liệu vận chuyển hàng hóa trong thương mại Brazil"
+keywords:
+  - hóa đơn vận chuyển
+  - Brazil
+  - loại
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

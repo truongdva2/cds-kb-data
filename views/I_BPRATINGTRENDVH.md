@@ -1,6 +1,12 @@
 ---
 name: I_BPRATINGTRENDVH
 description: Bpratingtrendvh
+semantic_en: "business partner rating trend value help — lookup view for rating trends with descriptions"
+semantic_vi: "trợ giúp giá trị xu hướng xếp hạng — chế độ xem tra cứu xu hướng xếp hạng với mô tả"
+keywords:
+  - xu hướng
+  - tra cứu
+  - xếp hạng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

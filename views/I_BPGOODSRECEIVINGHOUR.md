@@ -1,6 +1,12 @@
 ---
 name: I_BPGOODSRECEIVINGHOUR
 description: Bpgoodsreceivinghour
+semantic_en: "business partner goods receiving hours — reference data for goods receiving time slots."
+semantic_vi: "giờ nhận hàng — dữ liệu danh sách các khung giờ nhận hàng."
+keywords:
+  - giờ nhận hàng
+  - khung giờ
+  - thời gian nhận
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

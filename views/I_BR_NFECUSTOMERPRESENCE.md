@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFECUSTOMERPRESENCE
 description: BR Nfecustomerpresence
+semantic_en: "Brazil NFe customer presence domain value — classification of customer presence modes for electronic invoices"
+semantic_vi: "Giá trị miền mức độ hiện diện khách hàng NFe Brazil — phân loại mô thức hiện diện khách hàng cho hóa đơn điện tử"
+keywords:
+  - NFe
+  - khách hàng
+  - hiện diện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

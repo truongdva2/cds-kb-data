@@ -1,6 +1,12 @@
 ---
 name: I_BPCOMPANYRELATIONSHIP
 description: Bpcompanyrelationship
+semantic_en: "business partner company relationship — classification of organizational relationships between business partners."
+semantic_vi: "mối quan hệ công ty — phân loại mối quan hệ tổ chức giữa các đối tác kinh doanh."
+keywords:
+  - mối quan hệ công ty
+  - phân loại tổ chức
+  - mối liên hệ kinh doanh
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

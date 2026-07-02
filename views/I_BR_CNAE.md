@@ -1,6 +1,12 @@
 ---
 name: I_BR_CNAE
 description: BR Cnae
+semantic_en: "Brazilian CNAE — Brazilian activity classification code for economic sector identification"
+semantic_vi: "mã CNAE Brazil — mã phân loại hoạt động Brazil cho xác định lĩnh vực kinh tế"
+keywords:
+  - CNAE
+  - hoạt động
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

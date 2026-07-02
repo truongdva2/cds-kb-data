@@ -1,6 +1,12 @@
 ---
 name: I_BPLOANTOMANAGERTEXT
 description: Bploantomanagertext
+semantic_en: "business partner loan to manager multilingual text — localized descriptions of loan to manager status"
+semantic_vi: "mô tả đa ngôn ngữ cho vay để quản lý — bản mô tả địa phương hóa trạng thái cho vay quản lý"
+keywords:
+  - cho vay
+  - quản lý
+  - mô tả
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

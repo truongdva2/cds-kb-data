@@ -1,6 +1,12 @@
 ---
 name: I_BPOCCUPATIONGROUPTEXT
 description: Bpoccupationgrouptext
+semantic_en: "business partner occupation group multilingual text — localized descriptions of occupation group classifications"
+semantic_vi: "mô tả đa ngôn ngữ nhóm ngành nghề — bản mô tả địa phương hóa phân loại nhóm ngành nghề"
+keywords:
+  - ngành nghề
+  - nhóm
+  - ngôn ngữ
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

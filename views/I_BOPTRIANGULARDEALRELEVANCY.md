@@ -1,6 +1,12 @@
 ---
 name: I_BOPTRIANGULARDEALRELEVANCY
 description: Boptriangulardealrelevancy
+semantic_en: "triangular deal relevancy — classification for three-way trade relevance in balance of payments reporting."
+semantic_vi: "tính liên quan của giao dịch tam giác — phân loại cho tính liên quan của thương mại ba chiều trong báo cáo cân đối thanh toán."
+keywords:
+  - cân đối thanh toán
+  - giao dịch tam giác
+  - liên quan
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

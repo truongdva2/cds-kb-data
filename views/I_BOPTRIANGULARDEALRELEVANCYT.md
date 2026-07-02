@@ -1,6 +1,12 @@
 ---
 name: I_BOPTRIANGULARDEALRELEVANCYT
 description: Boptriangulardealrelevancyt
+semantic_en: "triangular deal relevancy text — language-specific descriptions for triangular deal classification types."
+semantic_vi: "văn bản tính liên quan của giao dịch tam giác — mô tả dành riêng cho ngôn ngữ cho các loại phân loại giao dịch tam giác."
+keywords:
+  - giao dịch tam giác
+  - phân loại
+  - đa ngôn ngữ
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

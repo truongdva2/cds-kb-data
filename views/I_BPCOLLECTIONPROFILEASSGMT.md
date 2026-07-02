@@ -1,6 +1,12 @@
 ---
 name: I_BPCOLLECTIONPROFILEASSGMT
 description: Bpcollectionprofileassgmt
+semantic_en: "business partner collection profile assignment — tracks profile assignment validity dates and collection strategy assignment to business partners."
+semantic_vi: "gán chiến lược thu thập — ghi nhận gán hồ sơ chiến lược thu thập cho đối tác với ngày hiệu lực."
+keywords:
+  - chiến lược thu thập
+  - gán hồ sơ
+  - ngày hiệu lực
 app_component: FIN-FSCM-COL-2CL
 software_component: SAPSCORE
 release_state: released

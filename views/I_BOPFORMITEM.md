@@ -1,6 +1,12 @@
 ---
 name: I_BOPFORMITEM
 description: Bopformitem
+semantic_en: "balance of payments form item — line-level items in BOP reporting forms by country."
+semantic_vi: "mục biểu mẫu cân đối thanh toán — các mục cấp độ dòng trong các biểu mẫu báo cáo CĐT theo quốc gia."
+keywords:
+  - cân đối thanh toán
+  - biểu mẫu
+  - mục
 app_component: FI-LOC-FI
 software_component: SAPSCORE
 release_state: released

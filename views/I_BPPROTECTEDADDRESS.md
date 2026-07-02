@@ -1,6 +1,12 @@
 ---
 name: I_BPPROTECTEDADDRESS
 description: Bpprotectedaddress
+semantic_en: "business partner protected addresses — addresses flagged as protected with usage count tracking for privacy compliance"
+semantic_vi: "địa chỉ được bảo vệ của đối tác kinh doanh — các địa chỉ được đánh dấu bảo vệ với theo dõi số lần sử dụng để tuân thủ quyền riêng tư"
+keywords:
+  - địa chỉ bảo vệ
+  - quyền riêng tư
+  - đối tác kinh doanh
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

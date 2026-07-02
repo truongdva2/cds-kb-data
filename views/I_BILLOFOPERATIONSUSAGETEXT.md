@@ -1,6 +1,12 @@
 ---
 name: I_BILLOFOPERATIONSUSAGETEXT
 description: Billofoperationsusagetext
+semantic_en: "bill of operations usage text — language-specific descriptions of routing usage types."
+semantic_vi: "văn bản cách sử dụng quy trình vận hành — mô tả dành riêng cho ngôn ngữ của các loại cách sử dụng tuyến đường."
+keywords:
+  - quy trình vận hành
+  - cách sử dụng
+  - đa ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

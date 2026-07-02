@@ -1,6 +1,12 @@
 ---
 name: I_BKPOAAUTHZDRPRSTVTP_2
 description: Bkpoaauthzdrprstvtp 2
+semantic_en: "authorized representatives of bank power of attorney — lists approved representatives with approver group assignment and audit trail."
+semantic_vi: "những người đại diện được ủy quyền của quyền đại diện ngân hàng — liệt kê những người đại diện được phê duyệt với gán nhóm người phê duyệt và bản ghi kiểm toán."
+keywords:
+  - quyền đại diện
+  - người được ủy quyền
+  - nhóm phê duyệt
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

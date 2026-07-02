@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFEXPORTDECLARATION
 description: BR Nfexportdeclaration
+semantic_en: "Brazil export declaration data for NFe — export document details including DUE, bill of lading, and authorization information"
+semantic_vi: "Dữ liệu khai báo xuất khẩu NFe Brazil — chi tiết tài liệu xuất khẩu bao gồm DUE, hóa đơn vận chuyển và thông tin ủy quyền"
+keywords:
+  - Nota Fiscal
+  - xuất khẩu
+  - khai báo
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released
