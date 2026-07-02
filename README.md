@@ -9,6 +9,7 @@ No code lives here, but a CI/CD workflow does: any change to `views/**` or `inde
 
 - [Contents](#contents)
 - [View file structure](#view-file-structure)
+- [Semantic bilingual enrichment](#semantic-bilingual-enrichment)
 - [Index format](#index-format)
 - [Version manifest](#version-manifest)
 - [How it connects to the MCP server](#how-it-connects-to-the-mcp-server)
@@ -21,8 +22,10 @@ No code lives here, but a CI/CD workflow does: any change to `views/**` or `inde
 ## Contents
 
 ```
-views/                    7,355 SAP S/4HANA released CDS views, one .md each
+views/                    7,304 SAP S/4HANA released CDS views, one .md each
                           (YAML frontmatter + fields + associations + DDL source)
+                          100% carry bilingual semantic_en/semantic_vi/keywords —
+                          see "Semantic bilingual enrichment" below
 
 index/search_index.json   Pre-built MiniSearch (BM25) search index
                           (~5.7 MB, self-describing, carries its own options)
@@ -46,6 +49,13 @@ Each `.md` file in `views/` follows this format:
 ---
 name: I_PURCHASEORDERAPI01
 description: Purchase Order
+semantic_en: "Purchase order header — a formal order to a supplier for materials or services, with terms, quantities and approval status."
+semantic_vi: "Tiêu đề đơn mua hàng — đơn đặt chính thức gửi nhà cung cấp cho vật tư hoặc dịch vụ, gồm điều khoản, số lượng và trạng thái phê duyệt."
+keywords:
+  - đơn mua hàng
+  - đơn đặt hàng mua
+  - mua sắm
+  - PO
 app_component: MM-PUR-PO-2CL
 software_component: S4CORE
 release_state: released
@@ -80,6 +90,21 @@ tags:
 (full ABAP DDL source with annotations)
 ```
 
+## Semantic bilingual enrichment
+
+Every view's frontmatter carries three fields, inserted right after `description:`, that power natural-language search in `search_cds` — especially Vietnamese-language queries where the raw SAP field/view names don't match how business users actually ask:
+
+```yaml
+semantic_en: "One concise English sentence describing what the view represents in business terms."
+semantic_vi: "Bản dịch tiếng Việt tự nhiên, đúng thuật ngữ SAP — không dịch từng chữ."
+keywords:
+  - 2-5 từ khóa tiếng Việt mà người dùng thực tế có thể gõ để tìm view này
+```
+
+**Status: 7,304 / 7,304 views enriched (100%).**
+
+These fields are LLM-generated, grounded strictly in each view's existing metadata (label, source entity, LOB/BO tags, field names) — never in the ABAP source itself, to keep generation cheap. They were produced in small, git-committed, resumable waves via the pipeline documented in [`tools/SEMANTIC_PIPELINE.md`](tools/SEMANTIC_PIPELINE.md): extract compact per-view metadata → generate bilingual text → apply with a byte-safe, additions-only patcher (`tools/apply_semantic.mjs`) → verify (name match, key match, `git diff --numstat` shows `removed=0`) → commit. Re-running the pipeline is safe — every step skips views that already have `semantic_en`.
+
 ## Index format
 
 `search_index.json` is a **self-describing wrapper**:
@@ -88,8 +113,8 @@ tags:
 {
   "schemaVersion": 1,
   "builtAt": "2026-06-25T...",
-  "viewCount": 7355,
-  "enrichedCount": 7160,
+  "viewCount": 7304,
+  "enrichedCount": 7304,
   "options": { "idField": "id", "fields": [...], "storeFields": [...] },
   "minisearch": "<serialized MiniSearch index>"
 }
@@ -106,8 +131,8 @@ The MiniSearch `options` travel inside the file, so the MCP server shares **zero
   "schemaVersion": 1,
   "commit": "1c0be6077edaa2744c5862384d74187d0fc92668",
   "builtAt": "2026-06-26T04:13:27.263Z",
-  "viewCount": 7355,
-  "enrichedCount": 7160
+  "viewCount": 7304,
+  "enrichedCount": 7304
 }
 ```
 
@@ -335,8 +360,8 @@ That script lives in `cds-kb-mcp`, not here. Flow:
 
 | Metric | Value |
 |---|---|
-| Total CDS views | 7,355 |
-| Enriched (with `semanticDescription`) | 7,160 (97.3%) |
+| Total CDS views | 7,304 |
+| Enriched (with `semantic_en`/`semantic_vi`/`keywords`) | 7,304 (100%) |
 | Unique SAP modules | 31 |
 | Lines of Business | 12 |
 | Business Objects in taxonomy | 829 |
