@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLGDOCTYPEHIERNODE
 description: Cnsldtnbillgdoctypehiernode
+semantic_en: "consolidation billing document type hierarchy nodes — defines hierarchical structure nodes for classifying billing document types with validity dates."
+semantic_vi: "các nút cấu trúc phân cấp loại tài liệu thanh toán hợp nhất — xác định các nút cấu trúc phân cấp để phân loại loại tài liệu thanh toán với ngày có hiệu lực."
+keywords:
+  - tài liệu thanh toán
+  - cấu trúc phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

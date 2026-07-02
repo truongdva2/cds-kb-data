@@ -1,6 +1,12 @@
 ---
 name: I_CNDNPRPSDVALIDFROMDATECODE
 description: Cndnprpsdvalidfromdatecode
+semantic_en: "valid-from date code types for condition proposals — domain values for specifying effective date types in condition pricing proposals."
+semantic_vi: "loại mã ngày có hiệu lực cho đề xuất điều kiện — các giá trị miền để chỉ định loại ngày có hiệu lực trong đề xuất giá cố định điều kiện."
+keywords:
+  - ngày hiệu lực
+  - đề xuất
+  - mã ngày
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

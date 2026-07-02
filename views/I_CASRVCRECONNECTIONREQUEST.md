@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCRECONNECTIONREQUEST
 description: Casrvcreconnectionrequest
+semantic_en: "service reconnection request — tracks reconnection requests linked to disconnection requests, with clearing amounts and user origin."
+semantic_vi: "yêu cầu kết nối lại dịch vụ — ghi nhận các yêu cầu kết nối lại liên kết với cắt dịch vụ, khoản thanh toán và người dùng."
+keywords:
+  - kết nối lại dịch vụ
+  - yêu cầu cắt dịch vụ
+  - người dùng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

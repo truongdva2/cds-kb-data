@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALREQFORQUOTATIONITEM
 description: Centralreqforquotationitem
+semantic_en: "central request for quotation item — line items for RFQs with product details, manufacturer information, and material groups."
+semantic_vi: "dòng chi tiết yêu cầu báo giá trung tâm — mục hàng cho RFQ với chi tiết sản phẩm, thông tin nhà sản xuất, và nhóm vật liệu."
+keywords:
+  - yêu cầu báo giá
+  - sản phẩm
+  - nhà sản xuất
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

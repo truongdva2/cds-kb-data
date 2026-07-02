@@ -1,6 +1,12 @@
 ---
 name: I_CASUBSTITUTEDOCCATEGORY
 description: Casubstitutedoccategory
+semantic_en: "substitute document category code reference — domain values for categorizing substitute or replacement document types."
+semantic_vi: "bảng mã danh mục tài liệu thay thế — giá trị phân loại các loại tài liệu thay thế."
+keywords:
+  - tài liệu thay thế
+  - danh mục tài liệu
+  - mã danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

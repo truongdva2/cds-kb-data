@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODEGRP
 description: Charcattributecodegrp
+semantic_en: "characteristic attribute code group view — organizes attribute codes into groups with status and audit trail."
+semantic_vi: "Xem nhóm mã thuộc tính đặc tính — tổ chức các mã thuộc tính thành các nhóm với trạng thái và lịch sử kiểm toàn."
+keywords:
+  - nhóm mã
+  - tổ chức
+  - trạng thái
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

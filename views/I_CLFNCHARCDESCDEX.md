@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCDESCDEX
 description: Clfncharcdescdex
+semantic_en: "data extraction view for characteristic descriptions — optimized projection with CharcInternalID, language, description text, and validity dates."
+semantic_vi: "dạng xem trích xuất dữ liệu cho mô tả đặc tính — chiếu tối ưu hóa với CharcInternalID, ngôn ngữ, văn bản mô tả và ngày hợp lệ."
+keywords:
+  - trích xuất dữ liệu
+  - mô tả đặc tính
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALINTERVALTYPETEXT
 description: Clfncharcvalintervaltypetext
+semantic_en: "text descriptions of interval type codes for characteristic values — includes language, type code, domain value, and localized names."
+semantic_vi: "mô tả văn bản của mã kiểu khoảng cho các giá trị đặc tính — bao gồm ngôn ngữ, mã kiểu, giá trị miền và tên đã bản địa hóa."
+keywords:
+  - kiểu khoảng
+  - tên kiểu
+  - văn bản
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

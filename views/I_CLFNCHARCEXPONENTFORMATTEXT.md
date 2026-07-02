@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCEXPONENTFORMATTEXT
 description: Clfncharcexponentformattext
+semantic_en: "text descriptions of exponent format codes for classification characteristics — includes language, format code, domain value, and localized names."
+semantic_vi: "mô tả văn bản của mã định dạng số mũ cho các đặc tính phân loại — bao gồm ngôn ngữ, mã định dạng, giá trị miền và tên đã bản địa hóa."
+keywords:
+  - định dạng số mũ
+  - tên định dạng
+  - văn bản
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

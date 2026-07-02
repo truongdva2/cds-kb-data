@@ -1,6 +1,12 @@
 ---
 name: I_CL_GLACCTADDLATTRIBUTES
 description: CL Glacctaddlattributes
+semantic_en: "additional attributes for Chilean GL accounts — extends chart of accounts with Chilean GL account group and type classifications for account ranges."
+semantic_vi: "các thuộc tính bổ sung cho tài khoản GL Chile — mở rộng kế hoạch tài khoản với phân loại nhóm và loại tài khoản GL Chile cho các dải tài khoản."
+keywords:
+  - tài khoản GL Chile
+  - thuộc tính bổ sung
+  - phân loại tài khoản
 app_component: FI-LOC-FI-CL
 software_component: SAPSCORE
 release_state: released

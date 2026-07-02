@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSKEYWORDFORKEYDATE
 description: Clfnclasskeywordforkeydate
+semantic_en: "class keywords as of a specific key date — maps class internal ID, language, position, and keyword text."
+semantic_vi: "các từ khóa lớp tính đến một ngày khóa cụ thể — ánh xạ mã nội bộ lớp, ngôn ngữ, vị trí và văn bản từ khóa."
+keywords:
+  - ngày khóa
+  - từ khóa
+  - lớp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

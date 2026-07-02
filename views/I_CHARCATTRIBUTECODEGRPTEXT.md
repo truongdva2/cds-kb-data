@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODEGRPTEXT
 description: Charcattributecodegrptext
+semantic_en: "characteristic attribute code group text view — multilingual labels for attribute code groups."
+semantic_vi: "Xem văn bản nhóm mã thuộc tính đặc tính — nhãn đa ngôn ngữ cho nhóm mã thuộc tính."
+keywords:
+  - nhóm mã
+  - văn bản
+  - đa ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

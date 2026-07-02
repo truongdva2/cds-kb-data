@@ -1,6 +1,12 @@
 ---
 name: I_CHANGEMASTERSTDVH
 description: Change MasterERSTDVH
+semantic_en: "change number value-help view — displays engineering change order master with status, authorization, release key, and validity dates."
+semantic_vi: "Xem trợ giúp giá trị số thay đổi — hiển thị chủ lệnh thay đổi kỹ thuật với trạng thái, phân quyền, khóa phát hành và ngày hiệu lực."
+keywords:
+  - lệnh thay đổi
+  - trạng thái
+  - ngày hiệu lực
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

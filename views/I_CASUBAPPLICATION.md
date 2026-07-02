@@ -1,6 +1,12 @@
 ---
 name: I_CASUBAPPLICATION
 description: Casubapplication
+semantic_en: "contract subapplication reference — active subapplication codes for contract accounting functional areas."
+semantic_vi: "bảng mã ứng dụng con hợp đồng — mã ứng dụng con hoạt động cho các lĩnh vực chức năng kế toán hợp đồng."
+keywords:
+  - ứng dụng con
+  - hợp đồng
+  - mã ứng dụng
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCSTATUS
 description: Clfncharcstatus
+semantic_en: "status codes and attributes for classification characteristics — includes release and deletion-marking status flags."
+semantic_vi: "mã trạng thái và thuộc tính cho các đặc tính phân loại — bao gồm cờ trạng thái phát hành và đánh dấu xóa."
+keywords:
+  - trạng thái đặc tính
+  - phát hành
+  - xóa
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAWORKFLOWCHECKPROCESS
 description: Caworkflowcheckprocess
+semantic_en: "workflow check process code reference — domain values for classifying workflow check processes."
+semantic_vi: "bảng mã quy trình kiểm tra quy trình làm việc — giá trị phân loại quy trình kiểm tra quy trình làm việc."
+keywords:
+  - quy trình kiểm tra
+  - quy trình làm việc
+  - mã quy trình
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

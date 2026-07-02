@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCTYPEHIER
 description: CNSLDTNBilling DocumentTYPEHIER
+semantic_en: "consolidation billing document type hierarchy master — defines the hierarchical structure for organizing billing document types with validity periods."
+semantic_vi: "dữ liệu chính cấu trúc phân cấp loại tài liệu thanh toán hợp nhất — xác định cấu trúc phân cấp để tổ chức loại tài liệu thanh toán với các kỳ có hiệu lực."
+keywords:
+  - cấu trúc phân cấp
+  - tài liệu thanh toán
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAWORKFLOWCHECKREASONTEXT
 description: Caworkflowcheckreasontext
+semantic_en: "workflow check reason text localization — translated workflow check reason names by language."
+semantic_vi: "văn bản lý do kiểm tra quy trình làm việc — tên lý do kiểm tra dịch sang các ngôn ngữ."
+keywords:
+  - lý do kiểm tra quy trình
+  - tên lý do
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

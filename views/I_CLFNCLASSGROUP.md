@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSGROUP
 description: Clfnclassgroup
+semantic_en: "classification class groups — logical groupings of classes by group identifier and deprecation status."
+semantic_vi: "nhóm lớp phân loại — nhóm logic các lớp theo mã nhóm và trạng thái dỨng dụng cũ."
+keywords:
+  - nhóm lớp
+  - phân loại
+  - tổ chức
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

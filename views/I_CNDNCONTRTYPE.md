@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRTYPE
 description: Cndncontrtype
+semantic_en: "condition contract type master — defines contract type characteristics including partner/eligible categories, item categories, settlement and changeability rules."
+semantic_vi: "dữ liệu chính loại hợp đồng điều kiện — xác định các đặc tính loại hợp đồng bao gồm danh mục đối tác/đủ điều kiện, danh mục mục, quy tắc thanh toán và khả năng thay đổi."
+keywords:
+  - loại hợp đồng
+  - đặc tính
+  - danh mục
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

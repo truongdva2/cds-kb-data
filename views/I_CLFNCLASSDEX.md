@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSDEX
 description: Clfnclassdex
+semantic_en: "data extraction view for classification classes — optimized projection of complete class definition with status, groups, and audit fields."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các lớp phân loại — chiếu tối ưu hóa của định nghĩa lớp hoàn chỉnh với trạng thái, nhóm và trường kiểm toán."
+keywords:
+  - trích xuất dữ liệu
+  - lớp phân loại
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

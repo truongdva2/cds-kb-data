@@ -1,6 +1,12 @@
 ---
 name: I_CHARTOFACCOUNTSTEXT
 description: Chartofaccountstext
+semantic_en: "chart of accounts description view — multilingual names for charts of accounts."
+semantic_vi: "Xem mô tả bảng khoản mục — tên đa ngôn ngữ cho bảng khoản mục."
+keywords:
+  - bảng khoản mục
+  - mô tả
+  - tài chính
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

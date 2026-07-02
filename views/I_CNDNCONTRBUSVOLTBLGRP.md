@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRBUSVOLTBLGRP
 description: Cndncontrbusvoltblgrp
+semantic_en: "business volume table group definitions — classifies groupings of business volume reference tables used in condition contracts."
+semantic_vi: "định nghĩa nhóm bảng khối lượng kinh doanh — phân loại các nhóm bảng tham chiếu khối lượng kinh doanh được sử dụng trong hợp đồng điều kiện."
+keywords:
+  - bảng khối lượng
+  - nhóm
+  - hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

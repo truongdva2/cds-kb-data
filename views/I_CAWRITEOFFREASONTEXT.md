@@ -1,6 +1,12 @@
 ---
 name: I_CAWRITEOFFREASONTEXT
 description: Cawriteoffreasontext
+semantic_en: "write-off reason text localization — translated write-off reason names by language."
+semantic_vi: "văn bản lý do xóa sổ — tên lý do xóa sổ dịch sang các ngôn ngữ."
+keywords:
+  - lý do xóa sổ
+  - tên lý do
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

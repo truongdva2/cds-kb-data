@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCRECONNCNREQSTATUSTEXT
 description: Casrvcreconncnreqstatustext
+semantic_en: "reconnection request status text localization — translated status descriptions for service reconnection requests by language."
+semantic_vi: "văn bản trạng thái yêu cầu kết nối lại — mô tả trạng thái dịch sang các ngôn ngữ khác nhau."
+keywords:
+  - mô tả trạng thái
+  - ngôn ngữ
+  - kết nối lại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

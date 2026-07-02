@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCLASSFORKEYDATE
 description: Clfnobjectclassforkeydate
+semantic_en: "object class assignments as of a specific key date — includes class positioning, standard class flag, BOM recursion, and last change timestamp."
+semantic_vi: "các gán lớp đối tượng tính đến một ngày khóa cụ thể — bao gồm vị trí lớp, cờ lớp tiêu chuẩn, đệ quy BOM và dấu thời gian thay đổi cuối cùng."
+keywords:
+  - ngày khóa
+  - gán lớp
+  - đối tượng
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

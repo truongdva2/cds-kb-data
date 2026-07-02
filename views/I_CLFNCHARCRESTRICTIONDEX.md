@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCRESTRICTIONDEX
 description: Clfncharcrestrictiondex
+semantic_en: "data extraction view for characteristic restrictions — projects CharcInternalID and ClassType with filtering."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các hạn chế đặc tính — chiếu CharcInternalID và ClassType với lọc."
+keywords:
+  - trích xuất dữ liệu
+  - hạn chế
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

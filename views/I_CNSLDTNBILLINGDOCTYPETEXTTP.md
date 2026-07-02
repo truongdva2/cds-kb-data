@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCTYPETEXTTP
 description: CNSLDTNBilling DocumentTYPETEXTTP
+semantic_en: "billing document type text (third-party projection) — provides language-specific names for billing document types including additional master data indicator."
+semantic_vi: "văn bản loại tài liệu thanh toán (chiếu bên thứ ba) — cung cấp tên theo ngôn ngữ cho loại tài liệu thanh toán bao gồm chỉ báo dữ liệu chính bổ sung."
+keywords:
+  - tài liệu thanh toán
+  - mô tả
+  - bên thứ ba
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSGROUPTEXT
 description: Clfnclassgrouptext
+semantic_en: "text names and translations for class groups — maps language, group identifier, and localized group names."
+semantic_vi: "tên văn bản và bản dịch cho các nhóm lớp — ánh xạ ngôn ngữ, mã nhóm và tên nhóm đã bản địa hóa."
+keywords:
+  - tên nhóm
+  - đa ngôn ngữ
+  - bản dịch
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

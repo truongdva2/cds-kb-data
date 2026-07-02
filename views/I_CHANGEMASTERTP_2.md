@@ -1,6 +1,12 @@
 ---
 name: I_CHANGEMASTERTP_2
 description: Change MasterERTP 2
+semantic_en: "change number transactional processing view — engineering change order master with full audit trail including creation, modification dates, technical release status, and reason for change."
+semantic_vi: "Xem xử lý giao dịch số thay đổi — chủ lệnh thay đổi kỹ thuật với lịch sử kiểm toàn đầy đủ bao gồm ngày tạo, thay đổi, trạng thái phát hành kỹ thuật và lý do thay đổi."
+keywords:
+  - thay đổi kỹ thuật
+  - lịch sử kiểm toàn
+  - lệnh thay đổi
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

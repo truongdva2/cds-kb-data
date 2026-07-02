@@ -1,6 +1,12 @@
 ---
 name: I_CH_ELECTRONICDOCTYPETEXT
 description: CH Electronicdoctypetext
+semantic_en: "Switzerland document type text view — multilingual descriptions of accounting document types for Swiss electronic documents."
+semantic_vi: "Xem văn bản loại tài liệu Thụy Sĩ — mô tả đa ngôn ngữ của loại tài liệu kế toán cho tài liệu điện tử Thụy Sĩ."
+keywords:
+  - loại tài liệu
+  - mô tả
+  - Thụy Sĩ
 app_component: CA-GTF-CSC-EDO-CH
 software_component: SAPSCORE
 release_state: released

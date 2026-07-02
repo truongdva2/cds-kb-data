@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODEGRPSTD1VH
 description: Charcattributecodegrpstd 1VH
+semantic_en: "characteristic attribute code group value-help view — lists code groups with multilingual descriptions and status."
+semantic_vi: "Xem trợ giúp giá trị nhóm mã thuộc tính đặc tính — liệt kê các nhóm mã với mô tả đa ngôn ngữ và trạng thái."
+keywords:
+  - nhóm mã
+  - trợ giúp giá trị
+  - mô tả
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

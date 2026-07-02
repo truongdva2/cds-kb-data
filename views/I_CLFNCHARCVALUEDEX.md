@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUEDEX
 description: Clfncharcvaluedex
+semantic_en: "data extraction view for characteristic values — optimized projection including numeric ranges, units, decimal values, and validity dates."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các giá trị đặc tính — chiếu tối ưu hóa bao gồm dãy số, đơn vị, giá trị thập phân và ngày hợp lệ."
+keywords:
+  - trích xuất dữ liệu
+  - phạm vi số
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

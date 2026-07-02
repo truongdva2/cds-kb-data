@@ -1,6 +1,12 @@
 ---
 name: I_CAWITHHOLDINGTAXSUPPLEMENTT
 description: Cawithholdingtaxsupplementt
+semantic_en: "withholding tax supplement text localization — translated withholding tax supplement names by country and language."
+semantic_vi: "văn bản bổ cấp thuế ký thác — tên bổ cấp thuế ký thác dịch sang các ngôn ngữ theo quốc gia."
+keywords:
+  - bổ cấp thuế ký thác
+  - tên bổ cấp
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

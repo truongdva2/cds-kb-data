@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRTYPETEXT
 description: Cndncontrtypetext
+semantic_en: "text labels for condition contract types — provides language-specific descriptions for condition contract type codes."
+semantic_vi: "nhãn văn bản cho loại hợp đồng điều kiện — cung cấp mô tả theo ngôn ngữ cho các mã loại hợp đồng điều kiện."
+keywords:
+  - loại hợp đồng
+  - mô tả
+  - nhãn
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

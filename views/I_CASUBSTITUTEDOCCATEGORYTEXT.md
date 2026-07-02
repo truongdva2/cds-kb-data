@@ -1,6 +1,12 @@
 ---
 name: I_CASUBSTITUTEDOCCATEGORYTEXT
 description: Casubstitutedoccategorytext
+semantic_en: "substitute document category text localization — translated substitute document category names by language."
+semantic_vi: "văn bản danh mục tài liệu thay thế — tên danh mục tài liệu thay thế dịch sang các ngôn ngữ."
+keywords:
+  - tài liệu thay thế
+  - tên danh mục
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

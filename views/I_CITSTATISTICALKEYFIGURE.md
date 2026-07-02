@@ -1,6 +1,12 @@
 ---
 name: I_CITSTATISTICALKEYFIGURE
 description: Citstatisticalkeyfigure
+semantic_en: "CIT statistical key figure view — tracks statistical metrics for corporate income tax reporting with currency and unit of measure."
+semantic_vi: "Xem số liệu thống kê chính CIT — theo dõi các chỉ số thống kê cho báo cáo thuế thu nhập doanh nghiệp với tiền tệ và đơn vị đo."
+keywords:
+  - CIT
+  - số liệu thống kê
+  - thuế
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

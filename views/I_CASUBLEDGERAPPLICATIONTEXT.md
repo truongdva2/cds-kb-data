@@ -1,6 +1,12 @@
 ---
 name: I_CASUBLEDGERAPPLICATIONTEXT
 description: Casubledgerapplicationtext
+semantic_en: "subledger application text localization — translated subledger application descriptions by language."
+semantic_vi: "văn bản ứng dụng sổ phụ — mô tả ứng dụng sổ phụ dịch sang các ngôn ngữ."
+keywords:
+  - sổ phụ
+  - mô tả ứng dụng
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

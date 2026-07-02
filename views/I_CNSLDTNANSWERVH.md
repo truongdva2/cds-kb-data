@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNANSWERVH
 description: Cnsldtnanswervh
+semantic_en: "value help for consolidation answers — quick-select list of predefined consolidation response options with text."
+semantic_vi: "trợ giúp giá trị cho câu trả lời hợp nhất — danh sách lựa chọn nhanh các tùy chọn phản hồi hợp nhất được xác định trước với văn bản."
+keywords:
+  - câu trả lời
+  - danh sách
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

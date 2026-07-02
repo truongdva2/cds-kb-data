@@ -1,6 +1,12 @@
 ---
 name: I_CAWORKFLOWCHECKPROCESSTEXT
 description: Caworkflowcheckprocesstext
+semantic_en: "workflow check process text localization — translated workflow check process names by language."
+semantic_vi: "văn bản quy trình kiểm tra quy trình làm việc — tên quy trình kiểm tra dịch sang các ngôn ngữ."
+keywords:
+  - quy trình kiểm tra
+  - tên quy trình
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

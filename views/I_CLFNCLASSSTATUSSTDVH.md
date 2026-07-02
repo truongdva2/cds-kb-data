@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSSTATUSSTDVH
 description: Clfnclassstatusstdvh
+semantic_en: "value-help projection for class status codes — provides ClassType and ClassStatus as lookup values."
+semantic_vi: "chiếu trợ giúp giá trị cho mã trạng thái lớp — cung cấp ClassType và ClassStatus làm giá trị tra cứu."
+keywords:
+  - trợ giúp giá trị
+  - trạng thái lớp
+  - tra cứu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

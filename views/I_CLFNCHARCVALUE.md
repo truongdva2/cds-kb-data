@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUE
 description: Clfncharcvalue
+semantic_en: "classification characteristic values including numeric ranges, default flags, and units — supports hierarchical values with parent-child relationships."
+semantic_vi: "các giá trị đặc tính phân loại bao gồm các dãy số, cờ mặc định và đơn vị — hỗ trợ giá trị phân cấp với mối quan hệ cha-con."
+keywords:
+  - giá trị đặc tính
+  - phạm vi số
+  - đơn vị
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

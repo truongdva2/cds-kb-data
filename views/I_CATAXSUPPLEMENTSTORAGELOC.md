@@ -1,6 +1,12 @@
 ---
 name: I_CATAXSUPPLEMENTSTORAGELOC
 description: Cataxsupplementstorageloc
+semantic_en: "tax supplement storage location code reference — domain values for categorizing where tax supplements are stored."
+semantic_vi: "bảng mã vị trí lưu giữ bổ cấp thuế — giá trị phân loại nơi lưu giữ bổ cấp thuế."
+keywords:
+  - vị trí lưu giữ
+  - bổ cấp thuế
+  - kho
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

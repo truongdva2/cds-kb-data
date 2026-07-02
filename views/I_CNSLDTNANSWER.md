@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNANSWER
 description: Cnsldtnanswer
+semantic_en: "consolidation answers — master data for predefined response options used in consolidation questionnaires and processes."
+semantic_vi: "câu trả lời hợp nhất — dữ liệu chính cho các tùy chọn phản hồi được xác định trước được sử dụng trong bảng câu hỏi và quy trình hợp nhất."
+keywords:
+  - câu trả lời
+  - hợp nhất
+  - bảng câu hỏi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

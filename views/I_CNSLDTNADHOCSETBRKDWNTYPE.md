@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETBRKDWNTYPE
 description: Cnsldtnadhocsetbrkdwntype
+semantic_en: "consolidation ad-hoc set breakdown types — domain values for classifying how ad-hoc item sets are subdivided in consolidation."
+semantic_vi: "loại phân tích bộ mục tạm thời hợp nhất — các giá trị miền để phân loại cách các bộ mục tạm thời được chia nhỏ trong hợp nhất."
+keywords:
+  - loại phân tích
+  - bộ mục
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

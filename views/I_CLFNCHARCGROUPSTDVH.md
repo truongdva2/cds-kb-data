@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCGROUPSTDVH
 description: Clfncharcgroupstdvh
+semantic_en: "value-help projection for characteristic groups — provides CharcGroup as lookup or dropdown value."
+semantic_vi: "chiếu trợ giúp giá trị cho các nhóm đặc tính — cung cấp CharcGroup làm giá trị tra cứu hoặc thả xuống."
+keywords:
+  - trợ giúp giá trị
+  - nhóm đặc tính
+  - tra cứu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

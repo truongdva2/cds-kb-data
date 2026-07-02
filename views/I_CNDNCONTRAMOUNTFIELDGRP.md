@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRAMOUNTFIELDGRP
 description: Cndncontramountfieldgrp
+semantic_en: "amount field group classifications — defines groupings of amount fields used in condition contracts."
+semantic_vi: "phân loại nhóm trường số tiền — xác định các nhóm trường số tiền được sử dụng trong hợp đồng điều kiện."
+keywords:
+  - nhóm trường
+  - số tiền
+  - hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

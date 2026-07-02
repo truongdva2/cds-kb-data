@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRTYPESTDVH
 description: Cndncontrtypestdvh
+semantic_en: "standard value help for condition contract types — provides quick-select list of condition contract type codes."
+semantic_vi: "trợ giúp giá trị tiêu chuẩn cho loại hợp đồng điều kiện — cung cấp danh sách lựa chọn nhanh các mã loại hợp đồng điều kiện."
+keywords:
+  - loại hợp đồng
+  - giá trị trợ giúp
+  - danh sách
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBSELDCODESETSTDVH
 description: Charcattribseldcodesetstdvh
+semantic_en: "selected code set for characteristic attribute value-help view — displays code sets with inspection status for quality management attributes."
+semantic_vi: "Xem trợ giúp giá trị tập hợp mã được chọn cho thuộc tính đặc tính — hiển thị tập hợp mã với trạng thái kiểm tra cho thuộc tính quản lý chất lượng."
+keywords:
+  - tập hợp mã
+  - đặc tính
+  - quản lý chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

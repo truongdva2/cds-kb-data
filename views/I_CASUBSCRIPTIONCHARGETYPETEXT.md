@@ -1,6 +1,12 @@
 ---
 name: I_CASUBSCRIPTIONCHARGETYPETEXT
 description: Casubscriptionchargetypetext
+semantic_en: "subscription charge type text localization — translated subscription charge type names by language."
+semantic_vi: "văn bản loại phí đăng ký — tên loại phí đăng ký dịch sang các ngôn ngữ."
+keywords:
+  - loại phí đăng ký
+  - mô tả phí
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

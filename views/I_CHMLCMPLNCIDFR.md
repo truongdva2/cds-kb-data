@@ -1,6 +1,12 @@
 ---
 name: I_CHMLCMPLNCIDFR
 description: Chmlcmplncidfr
+semantic_en: "chemical compliance identifier view — manages chemical compliance records with processing status, validity dates, and user tracking across parent hierarchy."
+semantic_vi: "Xem mã định danh tuân thủ hóa chất — quản lý bản ghi tuân thủ hóa chất với trạng thái xử lý, ngày hiệu lực và theo dõi người dùng trên phân cấp cha."
+keywords:
+  - tuân thủ hóa chất
+  - xử lý
+  - trạng thái
 app_component: EHS-SUS-FND-PC
 software_component: SAPSCORE
 release_state: released

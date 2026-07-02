@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALCREDITCHECKSTATUSTEXT
 description: Centralcreditcheckstatustext
+semantic_en: "central credit check status text localization — translated central credit check status descriptions by language."
+semantic_vi: "văn bản trạng thái kiểm tra tín dụng trung tâm — mô tả trạng thái kiểm tra tín dụng trung tâm dịch sang các ngôn ngữ."
+keywords:
+  - kiểm tra tín dụng
+  - mô tả trạng thái
+  - ngôn ngữ
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

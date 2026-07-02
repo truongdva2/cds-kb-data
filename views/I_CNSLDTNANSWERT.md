@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNANSWERT
 description: Cnsldtnanswert
+semantic_en: "text labels for consolidation answers — provides language-specific text for predefined consolidation response options."
+semantic_vi: "nhãn văn bản cho câu trả lời hợp nhất — cung cấp văn bản theo ngôn ngữ cho các tùy chọn phản hồi hợp nhất được xác định trước."
+keywords:
+  - câu trả lời
+  - mô tả
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

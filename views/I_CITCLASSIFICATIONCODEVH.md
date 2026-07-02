@@ -1,6 +1,12 @@
 ---
 name: I_CITCLASSIFICATIONCODEVH
 description: Citclassificationcodevh
+semantic_en: "CIT classification code projection view — displays corporate income tax classification codes with hierarchy structure and node relationships."
+semantic_vi: "Xem tính năng CIT classification code — hiển thị các mã phân loại thuế thu nhập doanh nghiệp với cấu trúc phân cấp và mối quan hệ nút."
+keywords:
+  - CIT
+  - phân loại
+  - mã
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

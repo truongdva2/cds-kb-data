@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALCREDITCHECKSTATUS
 description: Centralcreditcheckstatus
+semantic_en: "central credit check status code reference — domain values for central credit check status in sales and distribution."
+semantic_vi: "bảng mã trạng thái kiểm tra tín dụng trung tâm — giá trị trạng thái kiểm tra tín dụng trung tâm trong bán hàng và phân phối."
+keywords:
+  - kiểm tra tín dụng
+  - trạng thái kiểm tra
+  - bán hàng
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

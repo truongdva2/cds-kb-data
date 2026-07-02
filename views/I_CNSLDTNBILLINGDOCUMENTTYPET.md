@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCUMENTTYPET
 description: CNSLDTNBilling DocumentUMENTTYPET
+semantic_en: "consolidation combined billing document type text — provides language-specific names for consolidated billing document types with additional master data references."
+semantic_vi: "văn bản loại tài liệu thanh toán kết hợp hợp nhất — cung cấp tên theo ngôn ngữ cho loại tài liệu thanh toán hợp nhất với tham chiếu dữ liệu chính bổ sung."
+keywords:
+  - tài liệu thanh toán
+  - mô tả
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALRFQITEMDISTRIBUTION
 description: Centralrfqitemdistribution
+semantic_en: "central RFQ item distribution — distributes RFQ items across multiple plants and purchasing organizations by key metrics."
+semantic_vi: "phân phối dòng yêu cầu báo giá trung tâm — phân phối mục hàng RFQ trên nhiều nhà máy và tổ chức mua hàng theo các chỉ số phân phối."
+keywords:
+  - phân phối yêu cầu báo giá
+  - nhà máy
+  - khóa phân phối
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRBUSVOLTBLGRPTEXT
 description: Cndncontrbusvoltblgrptext
+semantic_en: "text labels for business volume table groups — provides language-specific names and descriptions for volume table groupings."
+semantic_vi: "nhãn văn bản cho nhóm bảng khối lượng kinh doanh — cung cấp tên và mô tả theo ngôn ngữ cho các nhóm bảng khối lượng."
+keywords:
+  - bảng khối lượng
+  - nhãn
+  - mô tả
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

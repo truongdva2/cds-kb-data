@@ -1,6 +1,12 @@
 ---
 name: I_CASUBLEDGERAPPLICATION
 description: Casubledgerapplication
+semantic_en: "subledger application code reference — domain values for subledger application classification in contract accounting."
+semantic_vi: "bảng mã ứng dụng sổ phụ — giá trị phân loại ứng dụng sổ phụ trong kế toán hợp đồng."
+keywords:
+  - sổ phụ
+  - ứng dụng sổ phụ
+  - mã
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

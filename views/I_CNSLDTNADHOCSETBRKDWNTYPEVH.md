@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETBRKDWNTYPEVH
 description: Cnsldtnadhocsetbrkdwntypevh
+semantic_en: "value help for consolidation ad-hoc set breakdown types — quick-select list of breakdown classification types used in consolidation."
+semantic_vi: "trợ giúp giá trị cho loại phân tích bộ mục tạm thời hợp nhất — danh sách lựa chọn nhanh các loại phân loại phân tích được sử dụng trong hợp nhất."
+keywords:
+  - loại phân tích
+  - danh sách
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

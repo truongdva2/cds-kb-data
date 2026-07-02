@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCSTATUSSTDVH
 description: Clfncharcstatusstdvh
+semantic_en: "value-help projection for characteristic status codes — provides CharcStatus as lookup value."
+semantic_vi: "chiếu trợ giúp giá trị cho mã trạng thái đặc tính — cung cấp CharcStatus làm giá trị tra cứu."
+keywords:
+  - trợ giúp giá trị
+  - trạng thái
+  - tra cứu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

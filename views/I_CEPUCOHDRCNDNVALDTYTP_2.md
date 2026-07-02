@@ -1,6 +1,12 @@
 ---
 name: I_CEPUCOHDRCNDNVALDTYTP_2
 description: Cepucohdrcndnvaldtytp 2
+semantic_en: "central purchase contract header condition validity transactional view — tracks condition record with validity dates, condition type, application, and deletion status."
+semantic_vi: "Xem giá trị hiệu lực điều kiện tiêu đề hợp đồng mua hàng trung tâm — theo dõi bản ghi điều kiện với ngày hiệu lực, loại điều kiện, ứng dụng và trạng thái xóa."
+keywords:
+  - giá trị hiệu lực
+  - ngày hợp lệ
+  - điều kiện hợp đồng
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

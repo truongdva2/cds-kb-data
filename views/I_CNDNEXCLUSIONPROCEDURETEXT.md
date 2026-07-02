@@ -1,6 +1,12 @@
 ---
 name: I_CNDNEXCLUSIONPROCEDURETEXT
 description: Cndnexclusionproceduretext
+semantic_en: "text description for condition exclusion procedures — maps condition exclusion procedure codes to language-specific display names."
+semantic_vi: "mô tả văn bản cho quy trình loại trừ điều kiện — ánh xạ mã quy trình loại trừ điều kiện với tên hiển thị theo ngôn ngữ."
+keywords:
+  - loại trừ điều kiện
+  - quy trình
+  - văn bản
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

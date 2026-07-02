@@ -1,6 +1,12 @@
 ---
 name: I_CITCLFNITEMINCONSTCYCODEVH
 description: Citclfniteminconstcycodevh
+semantic_en: "CIT item inconsistency code value-help view — domain values for inconsistencies in classification items."
+semantic_vi: "Xem trợ giúp giá trị mã không nhất quán mục CIT — giá trị miền cho sự không nhất quán trong các mục phân loại."
+keywords:
+  - CIT
+  - không nhất quán
+  - giá trị
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

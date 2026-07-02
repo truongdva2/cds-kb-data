@@ -1,6 +1,12 @@
 ---
 name: I_CEPUCOITMCMMDTYQTYTP_2
 description: Cepucoitmcmmdtyqtytp 2
+semantic_en: "central purchase contract item commodity quantity transactional view — captures commodity details with update cycles, quantities, units, and validity dates for contract items."
+semantic_vi: "Xem số lượng hàng hóa mục hợp đồng mua hàng trung tâm — ghi lại chi tiết hàng hóa với chu kỳ cập nhật, số lượng, đơn vị và ngày hiệu lực cho các mục hợp đồng."
+keywords:
+  - hàng hóa
+  - số lượng
+  - hợp đồng
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

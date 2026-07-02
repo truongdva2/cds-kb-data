@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALINTERVALTYPE
 description: Clfncharcvalintervaltype
+semantic_en: "domain value set for characteristic value interval types — maps interval type codes (single, range, list) to their meanings."
+semantic_vi: "tập hợp giá trị miền cho các kiểu khoảng giá trị đặc tính — ánh xạ mã kiểu khoảng đến ý nghĩa của chúng."
+keywords:
+  - kiểu khoảng
+  - giá trị đặc tính
+  - miền
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSTYPESTDVH
 description: Clfnclasstypestdvh
+semantic_en: "value-help projection for class types — provides ClassType as lookup or dropdown value."
+semantic_vi: "chiếu trợ giúp giá trị cho các kiểu lớp — cung cấp ClassType làm giá trị tra cứu hoặc thả xuống."
+keywords:
+  - trợ giúp giá trị
+  - kiểu lớp
+  - tra cứu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

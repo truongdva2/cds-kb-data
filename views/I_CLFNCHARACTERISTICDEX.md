@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARACTERISTICDEX
 description: Clfncharacteristicdex
+semantic_en: "classification characteristic data-extract view — projects classification characteristics with validity dates and status for data extraction purposes."
+semantic_vi: "Xem trích xuất dữ liệu đặc tính phân loại — chiếu đặc tính phân loại với ngày hiệu lực và trạng thái cho mục đích trích xuất dữ liệu."
+keywords:
+  - phân loại
+  - trích xuất dữ liệu
+  - đặc tính
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

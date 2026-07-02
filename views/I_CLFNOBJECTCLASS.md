@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCLASS
 description: Clfnobjectclass
+semantic_en: "classification class assignments to business objects — includes object ID, class type, status, standard class flag, and temporal validity."
+semantic_vi: "các gán lớp phân loại cho các đối tượng kinh doanh — bao gồm mã đối tượng, kiểu lớp, trạng thái, cờ lớp tiêu chuẩn và tính hợp lệ theo thời gian."
+keywords:
+  - gán lớp
+  - đối tượng
+  - phân loại
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

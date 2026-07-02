@@ -1,6 +1,12 @@
 ---
 name: I_CEPUCOITMCNDNSCALESTP_2
 description: Cepucoitmcndnscalestp 2
+semantic_en: "central purchase contract item condition scales transactional view — displays pricing scale lines for contract items with quantities, amounts, rates, and deletion flags."
+semantic_vi: "Xem tỷ lệ điều kiện mục hợp đồng mua hàng trung tâm — hiển thị các dòng tỷ lệ giá cho các mục hợp đồng với số lượng, số tiền, tỷ giá và cờ xóa."
+keywords:
+  - tỷ lệ giá
+  - mục hợp đồng
+  - điều kiện
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

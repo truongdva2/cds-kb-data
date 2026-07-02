@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSCHARCFORKEYDATE
 description: Clfnclasscharcforkeydate
+semantic_en: "class-characteristic relationships as of a specific key date — includes hierarchical ancestors, characteristic names, and relevance flags."
+semantic_vi: "các mối quan hệ đặc tính của lớp tính đến một ngày khóa cụ thể — bao gồm các tổ tiên phân cấp, tên đặc tính và cờ mức độ liên quan."
+keywords:
+  - ngày khóa
+  - đặc tính lớp
+  - phân cấp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

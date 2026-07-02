@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSTYPEBASIC
 description: Clfnclasstypebasic
+semantic_en: "classification class type definitions — specifies object tables, numbering, internal flags, and variant configuration support."
+semantic_vi: "định nghĩa kiểu lớp phân loại — chỉ định bảng đối tượng, đánh số, cờ nội bộ và hỗ trợ cấu hình biến thể."
+keywords:
+  - kiểu lớp
+  - định nghĩa
+  - bảng đối tượng
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRSETTLMTCALCMETHODT
 description: Cndncontrsettlmtcalcmethodt
+semantic_en: "text labels for settlement calculation methods — maps calculation method codes to language-specific display names."
+semantic_vi: "nhãn văn bản cho phương pháp tính toán thanh toán — ánh xạ mã phương pháp tính toán với tên hiển thị theo ngôn ngữ."
+keywords:
+  - phương pháp tính toán
+  - nhãn
+  - thanh toán
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

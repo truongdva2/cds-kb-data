@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARACTERISTICFORKEYDATE
 description: Clfncharacteristicforkeydate
+semantic_en: "classification characteristic for key date view — displays classification characteristics valid on a specific key date with unit and currency details."
+semantic_vi: "Xem đặc tính phân loại theo ngày khóa — hiển thị đặc tính phân loại hợp lệ trên một ngày khóa cụ thể với chi tiết đơn vị và tiền tệ."
+keywords:
+  - phân loại
+  - ngày khóa
+  - đặc tính
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

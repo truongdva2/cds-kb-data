@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRAMOUNTFIELDGRPTEXT
 description: Cndncontramountfieldgrptext
+semantic_en: "text descriptions for amount field groups — provides language-specific names and descriptions for amount field groupings."
+semantic_vi: "mô tả văn bản cho nhóm trường số tiền — cung cấp tên và mô tả theo ngôn ngữ cho các nhóm trường số tiền."
+keywords:
+  - nhóm trường
+  - mô tả
+  - số tiền
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

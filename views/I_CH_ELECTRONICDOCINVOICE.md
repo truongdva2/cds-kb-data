@@ -1,6 +1,12 @@
 ---
 name: I_CH_ELECTRONICDOCINVOICE
 description: CH Electronicdocinvoice
+semantic_en: "Switzerland invoice view — projects electronic document attributes for Swiss outgoing invoices with issuer, recipient, transaction details, and dunning indicators."
+semantic_vi: "Xem hóa đơn điện tử Thụy Sĩ — chiếu các thuộc tính tài liệu điện tử cho hóa đơn phát hành Thụy Sĩ với chi tiết người phát hành, người nhận, giao dịch và chỉ báo nhắc nhở."
+keywords:
+  - hóa đơn
+  - điện tử
+  - Thụy Sĩ
 app_component: CA-GTF-CSC-EDO-CH
 software_component: SAPSCORE
 release_state: released

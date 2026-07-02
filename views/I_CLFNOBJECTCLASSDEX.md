@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCLASSDEX
 description: Clfnobjectclassdex
+semantic_en: "data extraction view for object class assignments — optimized projection with class type, object type, status, position, and validity dates."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các gán lớp đối tượng — chiếu tối ưu hóa với kiểu lớp, kiểu đối tượng, trạng thái, vị trí và ngày hợp lệ."
+keywords:
+  - trích xuất dữ liệu
+  - gán lớp
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSSTATUS
 description: Clfnclassstatus
+semantic_en: "status codes and classification allowance for class types — indicates which class types are available for classification."
+semantic_vi: "mã trạng thái và cho phép phân loại cho các kiểu lớp — cho biết những kiểu lớp nào có sẵn để phân loại."
+keywords:
+  - trạng thái lớp
+  - phân loại
+  - kiểu lớp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

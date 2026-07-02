@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCEXPONENTFORMAT
 description: Clfncharcexponentformat
+semantic_en: "domain value set for classification characteristic exponent formatting — maps exponent format codes to their meanings."
+semantic_vi: "tập hợp giá trị miền cho định dạng số mũ của đặc tính phân loại — ánh xạ mã định dạng số mũ đến ý nghĩa của chúng."
+keywords:
+  - định dạng số mũ
+  - giá trị miền
+  - phân loại
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

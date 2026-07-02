@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNAPPORTIONMENT
 description: Cnsldtnapportionment
+semantic_en: "consolidation apportionment methods — domain values for specifying how costs or amounts are allocated during consolidation processes."
+semantic_vi: "phương pháp phân bổ hợp nhất — các giá trị miền để chỉ định cách phân bổ chi phí hoặc số tiền trong quá trình hợp nhất."
+keywords:
+  - phân bổ
+  - hợp nhất
+  - phương pháp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

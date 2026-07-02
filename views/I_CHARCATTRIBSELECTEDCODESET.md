@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBSELECTEDCODESET
 description: Charcattribselectedcodeset
+semantic_en: "selected code set for characteristic attribute view — multilingual code sets with plant-level organization, inspection status, and audit trail."
+semantic_vi: "Xem tập hợp mã được chọn cho thuộc tính đặc tính — tập hợp mã đa ngôn ngữ với tổ chức cấp nhà máy, trạng thái kiểm tra và lịch sử kiểm toàn."
+keywords:
+  - tập hợp mã
+  - thuộc tính
+  - kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

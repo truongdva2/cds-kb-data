@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCRECONNCNREQSTATUS
 description: Casrvcreconncnreqstatus
+semantic_en: "reconnection request status code reference — domain values for service reconnection request status field."
+semantic_vi: "bảng mã trạng thái yêu cầu kết nối lại — giá trị trường trạng thái yêu cầu kết nối lại dịch vụ."
+keywords:
+  - trạng thái kết nối
+  - yêu cầu kết nối lại
+  - mã trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

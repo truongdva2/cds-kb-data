@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCDESC
 description: Clfncharcdesc
+semantic_en: "classification characteristic descriptions with temporal validity and change tracking — includes language, description text, valid-from/to dates, and deletion flag."
+semantic_vi: "mô tả đặc tính phân loại với tính hợp lệ theo thời gian và theo dõi thay đổi — bao gồm ngôn ngữ, văn bản mô tả, ngày bắt đầu/kết thúc hiệu lực và cờ xóa."
+keywords:
+  - mô tả đặc tính
+  - tính hợp lệ
+  - theo dõi thay đổi
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

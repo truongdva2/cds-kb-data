@@ -1,6 +1,12 @@
 ---
 name: I_CATOLERANCEGROUP
 description: Catolerancegroup
+semantic_en: "tolerance group configuration — defines payment tolerance thresholds by currency, including maximum differences and notification rules."
+semantic_vi: "cấu hình nhóm dung sai — xác định ngưỡng dung sai thanh toán theo tiền tệ, bao gồm chênh lệch tối đa và quy tắc thông báo."
+keywords:
+  - nhóm dung sai
+  - chênh lệch thanh toán
+  - tiền tệ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

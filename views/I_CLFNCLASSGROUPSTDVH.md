@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSGROUPSTDVH
 description: Clfnclassgroupstdvh
+semantic_en: "value-help projection for class groups — provides ClassGroup as lookup or dropdown value."
+semantic_vi: "chiếu trợ giúp giá trị cho các nhóm lớp — cung cấp ClassGroup làm giá trị tra cứu hoặc thả xuống."
+keywords:
+  - trợ giúp giá trị
+  - nhóm lớp
+  - tra cứu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

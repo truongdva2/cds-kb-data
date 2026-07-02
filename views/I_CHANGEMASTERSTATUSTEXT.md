@@ -1,6 +1,12 @@
 ---
 name: I_CHANGEMASTERSTATUSTEXT
 description: Change MasterERSTATUSTEXT
+semantic_en: "change number status text view — multilingual descriptions for engineering change order status values."
+semantic_vi: "Xem văn bản trạng thái số thay đổi — mô tả đa ngôn ngữ cho các giá trị trạng thái lệnh thay đổi kỹ thuật."
+keywords:
+  - trạng thái thay đổi
+  - mô tả
+  - đa ngôn ngữ
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

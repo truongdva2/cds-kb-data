@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRPROCVAR
 description: Cndncontrprocvar
+semantic_en: "condition contract process variant — defines processing variants including settlement default application status and approval procedures."
+semantic_vi: "biến thể quy trình hợp đồng điều kiện — xác định các biến thể xử lý bao gồm trạng thái áp dụng mặc định thanh toán và quy trình phê duyệt."
+keywords:
+  - biến thể quy trình
+  - hợp đồng
+  - thanh toán
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

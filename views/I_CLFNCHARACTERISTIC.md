@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARACTERISTIC
 description: Clfncharacteristic
+semantic_en: "classification characteristic view — defines characteristics for product classification including data type, length, decimals, and conversion rules."
+semantic_vi: "Xem đặc tính phân loại — định nghĩa đặc tính cho phân loại sản phẩm bao gồm loại dữ liệu, độ dài, số thập phân và quy tắc chuyển đổi."
+keywords:
+  - phân loại
+  - đặc tính
+  - sản phẩm
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

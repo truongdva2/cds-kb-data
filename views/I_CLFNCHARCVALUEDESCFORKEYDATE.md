@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUEDESCFORKEYDATE
 description: Clfncharcvaluedescforkeydate
+semantic_en: "characteristic value descriptions for a specific key date — filters to valid descriptions on or before that date."
+semantic_vi: "mô tả giá trị đặc tính cho một ngày khóa cụ thể — lọc theo mô tả hợp lệ trên hoặc trước ngày đó."
+keywords:
+  - ngày khóa
+  - mô tả hợp lệ
+  - giá trị
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

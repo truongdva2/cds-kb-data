@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNAPPORTIONMENTTEXT_2
 description: Cnsldtnapportionmenttext 2
+semantic_en: "text labels for consolidation apportionment methods — maps apportionment method codes to language-specific display names."
+semantic_vi: "nhãn văn bản cho phương pháp phân bổ hợp nhất — ánh xạ mã phương pháp phân bổ với tên hiển thị theo ngôn ngữ."
+keywords:
+  - phân bổ
+  - mã
+  - nhãn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

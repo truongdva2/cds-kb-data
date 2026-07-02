@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSTYPETEXT
 description: Clfnclasstypetext
+semantic_en: "text names for class types across languages — maps class type, language, and localized class type names."
+semantic_vi: "tên văn bản cho các kiểu lớp trên các ngôn ngữ — ánh xạ kiểu lớp, ngôn ngữ và tên kiểu lớp đã bản địa hóa."
+keywords:
+  - tên kiểu lớp
+  - đa ngôn ngữ
+  - bản dịch
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

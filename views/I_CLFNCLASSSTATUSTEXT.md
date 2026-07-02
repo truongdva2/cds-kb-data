@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSSTATUSTEXT
 description: Clfnclassstatustext
+semantic_en: "text names for class status codes across languages — maps class type, language, status code, and localized status names."
+semantic_vi: "tên văn bản cho mã trạng thái lớp trên các ngôn ngữ — ánh xạ kiểu lớp, ngôn ngữ, mã trạng thái và tên trạng thái đã bản địa hóa."
+keywords:
+  - tên trạng thái
+  - đa ngôn ngữ
+  - lớp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

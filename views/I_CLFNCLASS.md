@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASS
 description: Clfnclass
+semantic_en: "classification classes — core business object containing class definition, status, groups, authorization scopes, and audit dates."
+semantic_vi: "các lớp phân loại — đối tượng kinh doanh cốt lõi chứa định nghĩa lớp, trạng thái, nhóm, phạm vi ủy quyền và ngày kiểm toán."
+keywords:
+  - lớp phân loại
+  - định nghĩa lớp
+  - ủy quyền
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

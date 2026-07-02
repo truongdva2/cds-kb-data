@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALSUPPLIERQUOTATIONTP_2
 description: Centralsupplierquotationtp 2
+semantic_en: "Central supplier quotation view — key columns include quotation details, supplier, company code, purchasing document type, and terms including incoterms and currency."
+semantic_vi: "Xem bảng giá trung tâm của nhà cung cấp — bao gồm thông tin chi tiết về giá, nhà cung cấp, mã công ty, loại tài liệu mua hàng, điều khoản Incoterms và tiền tệ."
+keywords:
+  - báo giá nhà cung cấp
+  - bảng giá
+  - mua hàng
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODESTDVH
 description: Charcattributecodestdvh
+semantic_en: "characteristic attribute code value-help view — lists individual attribute codes for selection."
+semantic_vi: "Xem trợ giúp giá trị mã thuộc tính đặc tính — liệt kê các mã thuộc tính riêng lẻ để chọn lựa."
+keywords:
+  - mã thuộc tính
+  - tra cứu
+  - lựa chọn
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

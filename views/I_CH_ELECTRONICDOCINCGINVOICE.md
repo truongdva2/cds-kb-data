@@ -1,6 +1,12 @@
 ---
 name: I_CH_ELECTRONICDOCINCGINVOICE
 description: CH Electronicdocincginvoice
+semantic_en: "Switzerland incoming invoice view — projects electronic document attributes for Swiss incoming invoices with issuer, recipient, and transaction identifiers."
+semantic_vi: "Xem hóa đơn nhập khẩu điện tử Thụy Sĩ — chiếu các thuộc tính tài liệu điện tử cho hóa đơn nhập khẩu Thụy Sĩ với mã định danh người phát hành, người nhận và giao dịch."
+keywords:
+  - hóa đơn nhập khẩu
+  - điện tử
+  - Thụy Sĩ
 app_component: CA-GTF-CSC-EDO-CH
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBSELECTEDSETCODE
 description: Charcattribselectedsetcode
+semantic_en: "selected set code for characteristic attribute view — individual codes within code sets with defect classification and inactivity tracking."
+semantic_vi: "Xem mã tập hợp được chọn cho thuộc tính đặc tính — các mã riêng lẻ trong tập hợp mã với phân loại khiếm khuyết và theo dõi không hoạt động."
+keywords:
+  - mã tập hợp
+  - phân loại khiếm khuyết
+  - thuộc tính
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

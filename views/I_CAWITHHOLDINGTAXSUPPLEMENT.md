@@ -1,6 +1,12 @@
 ---
 name: I_CAWITHHOLDINGTAXSUPPLEMENT
 description: Cawithholdingtaxsupplement
+semantic_en: "withholding tax supplement code reference — country-specific withholding tax supplement classifications."
+semantic_vi: "bảng mã bổ cấp thuế ký thác — phân loại bổ cấp thuế ký thác theo quốc gia."
+keywords:
+  - bổ cấp thuế ký thác
+  - quốc gia
+  - thuế ký thác
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

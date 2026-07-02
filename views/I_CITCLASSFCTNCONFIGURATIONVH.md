@@ -1,6 +1,12 @@
 ---
 name: I_CITCLASSFCTNCONFIGURATIONVH
 description: Citclassfctnconfigurationvh
+semantic_en: "CIT classification configuration value-help view — displays corporate income tax hierarchy configuration linked to company code and ledger."
+semantic_vi: "Xem trợ giúp giá trị cấu hình phân loại CIT — hiển thị cấu hình phân cấp thuế thu nhập doanh nghiệp được liên kết với mã công ty và sổ cái."
+keywords:
+  - CIT
+  - phân loại
+  - thuế thu nhập
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

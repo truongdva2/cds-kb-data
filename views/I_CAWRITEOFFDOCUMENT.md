@@ -1,6 +1,12 @@
 ---
 name: I_CAWRITEOFFDOCUMENT
 description: Cawriteoffdocument
+semantic_en: "contract accounting write-off document header — document for recording write-off transactions with tax reporting and GL transfer details."
+semantic_vi: "tiêu đề tài liệu xóa sổ kế toán hợp đồng — tài liệu ghi nhận giao dịch xóa sổ với chi tiết báo cáo thuế và chuyển sổ cái."
+keywords:
+  - tài liệu xóa sổ
+  - xóa sổ hợp đồng
+  - báo cáo thuế
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCDATATYPE
 description: Clfncharcdatatype
+semantic_en: "domain value set for classification characteristic data types — key columns CharcDataType and DomainValue map type codes to their meanings."
+semantic_vi: "tập hợp giá trị miền cho các kiểu dữ liệu của đặc tính phân loại — các cột CharcDataType và DomainValue ánh xạ mã kiểu đến ý nghĩa của chúng."
+keywords:
+  - kiểu dữ liệu đặc tính
+  - giá trị miền
+  - phân loại
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

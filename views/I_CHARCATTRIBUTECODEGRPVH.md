@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODEGRPVH
 description: Charcattributecodegrpvh
+semantic_en: "characteristic attribute code group value-help view — code groups with descriptions and status for lookup."
+semantic_vi: "Xem trợ giúp giá trị nhóm mã thuộc tính đặc tính — nhóm mã với mô tả và trạng thái để tra cứu."
+keywords:
+  - nhóm mã
+  - tra cứu
+  - trạng thái
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

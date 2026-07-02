@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCAUTHOR
 description: Clfncharcauthor
+semantic_en: "author of classification characteristic value-help view — lists origin sources for characteristic definitions."
+semantic_vi: "Xem trợ giúp giá trị tác giả của đặc tính phân loại — liệt kê các nguồn gốc cho định nghĩa đặc tính."
+keywords:
+  - tác giả
+  - đặc tính
+  - nguồn gốc
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

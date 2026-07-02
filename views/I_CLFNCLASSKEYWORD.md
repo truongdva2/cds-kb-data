@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSKEYWORD
 description: Clfnclasskeyword
+semantic_en: "keywords and search terms for classification classes — indexed by keyword position with language-specific keyword text."
+semantic_vi: "các từ khóa và thuật ngữ tìm kiếm cho các lớp phân loại — được lập chỉ mục theo vị trí từ khóa với văn bản từ khóa dành riêng cho ngôn ngữ."
+keywords:
+  - từ khóa
+  - tìm kiếm
+  - lớp phân loại
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

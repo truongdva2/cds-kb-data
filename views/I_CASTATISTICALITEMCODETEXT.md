@@ -1,6 +1,12 @@
 ---
 name: I_CASTATISTICALITEMCODETEXT
 description: Castatisticalitemcodetext
+semantic_en: "statistical item code text localization — translated descriptions for statistical item codes by language."
+semantic_vi: "văn bản mã mục khoản thống kê — mô tả mã thống kê dịch sang các ngôn ngữ."
+keywords:
+  - mã thống kê
+  - mô tả mục khoản
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

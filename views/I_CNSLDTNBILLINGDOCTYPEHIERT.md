@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLINGDOCTYPEHIERT
 description: CNSLDTNBilling DocumentTYPEHIERT
+semantic_en: "text labels for billing document type hierarchy — provides language-specific names for the hierarchical structure of billing document classification."
+semantic_vi: "nhãn văn bản cho cấu trúc phân cấp loại tài liệu thanh toán — cung cấp tên theo ngôn ngữ cho cấu trúc phân cấp phân loại tài liệu thanh toán."
+keywords:
+  - cấu trúc phân cấp
+  - nhãn
+  - tài liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

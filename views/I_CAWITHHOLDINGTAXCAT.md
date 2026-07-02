@@ -1,6 +1,12 @@
 ---
 name: I_CAWITHHOLDINGTAXCAT
 description: Cawithholdingtaxcat
+semantic_en: "withholding tax category code reference — domain values for classifying withholding tax categories."
+semantic_vi: "bảng mã danh mục thuế ký thác — giá trị phân loại danh mục thuế ký thác."
+keywords:
+  - danh mục thuế ký thác
+  - thuế ký thác
+  - mã danh mục
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

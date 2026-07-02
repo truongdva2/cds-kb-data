@@ -1,6 +1,12 @@
 ---
 name: I_CL_DOCTYPEVCHRTYPEASSGMT
 description: CL Doctypevchrtypeassgmt
+semantic_en: "mapping of document types to Chilean voucher types — associates accounting document type with CL reporting document type by country and company code."
+semantic_vi: "ánh xạ giữa loại tài liệu và loại chứng từ thanh toán Chile — kết nối loại tài liệu kế toán với loại tài liệu báo cáo CL theo quốc gia và công ty."
+keywords:
+  - loại tài liệu Chile
+  - ánh xạ chứng từ
+  - chứng từ thanh toán
 app_component: FI-LOC-FI-CL
 software_component: SAPSCORE
 release_state: released

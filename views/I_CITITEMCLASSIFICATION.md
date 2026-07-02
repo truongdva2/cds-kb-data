@@ -1,6 +1,12 @@
 ---
 name: I_CITITEMCLASSIFICATION
 description: Cititemclassification
+semantic_en: "CIT item classification view — classifies accounting document line items for corporate income tax with reference documents and balance carryforward tracking."
+semantic_vi: "Xem phân loại mục CIT — phân loại các mục dòng tài liệu kế toán cho thuế thu nhập doanh nghiệp với theo dõi tài liệu tham chiếu và chuyển số dư."
+keywords:
+  - CIT
+  - phân loại
+  - kế toán
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CATAXDATETYPETEXT
 description: Cataxdatetypetext
+semantic_en: "tax date type text localization — translated tax date type descriptions in German and other languages."
+semantic_vi: "văn bản loại ngày thuế — mô tả loại ngày thuế dịch sang tiếng Đức và các ngôn ngữ khác."
+keywords:
+  - loại ngày thuế
+  - mô tả ngày thuế
+  - ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

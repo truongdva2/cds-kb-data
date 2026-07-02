@@ -1,6 +1,12 @@
 ---
 name: I_CASUBTRANSACTION
 description: Casubtransaction
+semantic_en: "document subtransaction configuration — defines subtransaction rules including reversal mapping, due date determination, withholding tax, and payment classification."
+semantic_vi: "cấu hình giao dịch con tài liệu — xác định quy tắc giao dịch con bao gồm ánh xạ đảo ngược, xác định hạn thanh toán, thuế ký thác, và phân loại thanh toán."
+keywords:
+  - giao dịch con
+  - mã giao dịch
+  - thuế ký thác
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

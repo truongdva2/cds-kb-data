@@ -1,6 +1,12 @@
 ---
 name: I_CHANGEMASTERSTATUSSTDVH
 description: Change MasterERSTATUSSTDVH
+semantic_en: "change number status value-help view — lists valid status values for engineering change orders."
+semantic_vi: "Xem trợ giúp giá trị trạng thái số thay đổi — liệt kê các giá trị trạng thái hợp lệ cho lệnh thay đổi kỹ thuật."
+keywords:
+  - trạng thái thay đổi
+  - lệnh thay đổi
+  - giá trị
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

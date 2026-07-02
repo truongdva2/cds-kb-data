@@ -1,6 +1,12 @@
 ---
 name: I_CERTAINTYLEVELTEXT
 description: Certaintyleveltext
+semantic_en: "certainty level text view — multilingual labels for cash flow certainty levels with domain values."
+semantic_vi: "Xem văn bản mức độ chắc chắn — nhãn đa ngôn ngữ cho các mức độ chắc chắn dòng tiền với các giá trị miền."
+keywords:
+  - mức độ chắc chắn
+  - dòng tiền
+  - văn bản
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

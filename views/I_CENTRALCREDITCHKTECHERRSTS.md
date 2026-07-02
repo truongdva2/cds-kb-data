@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALCREDITCHKTECHERRSTS
 description: Centralcreditchktecherrsts
+semantic_en: "central credit check technical error status code reference — domain values for technical error status in credit checking."
+semantic_vi: "bảng mã trạng thái lỗi kỹ thuật kiểm tra tín dụng trung tâm — giá trị trạng thái lỗi kỹ thuật trong kiểm tra tín dụng."
+keywords:
+  - lỗi kỹ thuật
+  - kiểm tra tín dụng
+  - trạng thái lỗi
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUEDESC
 description: Clfncharcvaluedesc
+semantic_en: "descriptions of classification characteristic values — includes language, description text, temporal validity, and change tracking."
+semantic_vi: "mô tả của các giá trị đặc tính phân loại — bao gồm ngôn ngữ, văn bản mô tả, tính hợp lệ theo thời gian và theo dõi thay đổi."
+keywords:
+  - mô tả giá trị
+  - tính hợp lệ
+  - thay đổi
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

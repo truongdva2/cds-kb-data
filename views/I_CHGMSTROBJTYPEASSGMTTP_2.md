@@ -1,6 +1,12 @@
 ---
 name: I_CHGMSTROBJTYPEASSGMTTP_2
 description: Chgmstrobjtypeassgmttp 2
+semantic_en: "change number object type assignment transactional processing view — defines which object types are relevant for specific engineering changes with creation and modification tracking."
+semantic_vi: "Xem xử lý giao dịch phân công loại đối tượng số thay đổi — định nghĩa loại đối tượng nào liên quan đến các thay đổi kỹ thuật cụ thể với theo dõi tạo và sửa đổi."
+keywords:
+  - phân công loại đối tượng
+  - thay đổi kỹ thuật
+  - loại đối tượng
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

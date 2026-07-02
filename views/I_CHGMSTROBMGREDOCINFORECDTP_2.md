@@ -1,6 +1,12 @@
 ---
 name: I_CHGMSTROBMGREDOCINFORECDTP_2
 description: Chgmstrobmgredocinforecdtp 2
+semantic_en: "change number object management document information record transactional processing view — links engineering changes to document info records including document type, version, and part details with audit trail."
+semantic_vi: "Xem xử lý giao dịch bản ghi thông tin tài liệu quản lý đối tượng số thay đổi — liên kết các thay đổi kỹ thuật với bản ghi thông tin tài liệu bao gồm loại tài liệu, phiên bản và chi tiết bộ phận với lịch sử kiểm toàn."
+keywords:
+  - quản lý tài liệu
+  - thay đổi kỹ thuật
+  - thông tin tài liệu
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

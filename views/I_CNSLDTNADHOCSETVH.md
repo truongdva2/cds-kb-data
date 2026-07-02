@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETVH
 description: Cnsldtnadhocsetvh
+semantic_en: "value help for consolidation ad-hoc item sets — quick-select list of ad-hoc item groups with descriptions."
+semantic_vi: "trợ giúp giá trị cho các bộ mục tạm thời hợp nhất — danh sách lựa chọn nhanh các nhóm mục tạm thời với mô tả."
+keywords:
+  - bộ mục
+  - danh sách
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

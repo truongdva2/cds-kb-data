@@ -1,6 +1,12 @@
 ---
 name: I_CAWITHHOLDINGTAXCATTEXT
 description: Cawithholdingtaxcattext
+semantic_en: "withholding tax category text localization — translated withholding tax category names by language."
+semantic_vi: "văn bản danh mục thuế ký thác — tên danh mục thuế ký thác dịch sang các ngôn ngữ."
+keywords:
+  - danh mục thuế ký thác
+  - tên danh mục
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

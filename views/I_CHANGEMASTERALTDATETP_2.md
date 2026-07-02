@@ -1,6 +1,12 @@
 ---
 name: I_CHANGEMASTERALTDATETP_2
 description: Change MasterERALTDATETP 2
+semantic_en: "change number alternative date transactional processing view — records alternative date identifiers, assignments, and last change timestamps for engineering change orders."
+semantic_vi: "Xem xử lý giao dịch ngày thay thế số thay đổi — ghi lại mã định danh ngày thay thế, phân công và dấu thời gian thay đổi cuối cùng cho lệnh thay đổi kỹ thuật."
+keywords:
+  - thay đổi kỹ thuật
+  - ngày thay thế
+  - lệnh thay đổi
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

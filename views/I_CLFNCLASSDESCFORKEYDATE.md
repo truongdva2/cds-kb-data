@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSDESCFORKEYDATE
 description: Clfnclassdescforkeydate
+semantic_en: "classification class descriptions for a specific key date — filters to valid descriptions on or before that date by language."
+semantic_vi: "mô tả lớp phân loại cho một ngày khóa cụ thể — lọc theo mô tả hợp lệ trên hoặc trước ngày đó theo ngôn ngữ."
+keywords:
+  - ngày khóa
+  - mô tả lớp
+  - đa ngôn ngữ
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

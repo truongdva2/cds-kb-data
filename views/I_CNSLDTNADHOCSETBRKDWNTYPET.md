@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETBRKDWNTYPET
 description: Cnsldtnadhocsetbrkdwntypet
+semantic_en: "text labels for consolidation ad-hoc set breakdown types — maps breakdown type codes to language-specific display names."
+semantic_vi: "nhãn văn bản cho loại phân tích bộ mục tạm thời hợp nhất — ánh xạ mã loại phân tích với tên hiển thị theo ngôn ngữ."
+keywords:
+  - loại phân tích
+  - mã
+  - nhãn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

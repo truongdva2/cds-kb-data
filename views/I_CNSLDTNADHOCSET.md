@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSET
 description: Cnsldtnadhocset
+semantic_en: "consolidation ad-hoc item sets — groups of temporary consolidation accounting items classified by breakdown type."
+semantic_vi: "các bộ mục tạm thời hợp nhất — các nhóm mục kế toán hợp nhất tạm thời được phân loại theo loại phân tích."
+keywords:
+  - bộ mục
+  - hợp nhất
+  - phân loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

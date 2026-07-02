@@ -1,6 +1,12 @@
 ---
 name: I_CERTAINTYLEVEL_2
 description: Certaintylevel 2
+semantic_en: "certainty level value-help view — domain values for cash flow certainty classification."
+semantic_vi: "Xem trợ giúp giá trị mức độ chắc chắn — giá trị miền cho phân loại chắc chắn dòng tiền."
+keywords:
+  - mức độ chắc chắn
+  - phân loại
+  - dòng tiền
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

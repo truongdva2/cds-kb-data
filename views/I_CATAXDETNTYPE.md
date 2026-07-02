@@ -1,6 +1,12 @@
 ---
 name: I_CATAXDETNTYPE
 description: Cataxdetntype
+semantic_en: "tax determination type code reference — domain values for classifying tax calculation methods."
+semantic_vi: "bảng mã loại xác định thuế — giá trị phân loại các phương pháp tính toán thuế khác nhau."
+keywords:
+  - loại xác định thuế
+  - phương pháp tính thuế
+  - mã loại
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

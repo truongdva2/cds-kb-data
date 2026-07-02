@@ -1,6 +1,12 @@
 ---
 name: I_CAWRITEOFFHISTORY
 description: Cawriteoffhistory
+semantic_en: "contract accounting write-off history — tracks written-off amounts by document, reason, date, and statistical item code."
+semantic_vi: "lịch sử xóa sổ kế toán hợp đồng — theo dõi khoản xóa sổ theo tài liệu, lý do, ngày, và mã mục thống kê."
+keywords:
+  - lịch sử xóa sổ
+  - khoản xóa sổ
+  - lý do xóa sổ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CEPUCOITMCNDNVALIDITYTP_2
 description: Cepucoitmcndnvaliditytp 2
+semantic_en: "central purchase contract item condition validity transactional view — tracks condition validity with application type, dates, and procurement hub plant unique identifiers."
+semantic_vi: "Xem giá trị hiệu lực điều kiện mục hợp đồng mua hàng trung tâm — theo dõi hiệu lực điều kiện với loại ứng dụng, ngày hạn và mã định danh nhà máy hub mua hàng."
+keywords:
+  - giá trị hiệu lực
+  - ngày hạn
+  - điều kiện
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

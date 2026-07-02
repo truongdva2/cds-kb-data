@@ -1,6 +1,12 @@
 ---
 name: I_CATAXSUPPLEMENTSTORAGELOCT
 description: Cataxsupplementstorageloct
+semantic_en: "tax supplement storage location text localization — translated storage location descriptions for tax supplements by language."
+semantic_vi: "văn bản vị trí lưu giữ bổ cấp thuế — mô tả vị trí lưu giữ bổ cấp thuế dịch sang các ngôn ngữ."
+keywords:
+  - vị trí lưu giữ
+  - bổ cấp thuế
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

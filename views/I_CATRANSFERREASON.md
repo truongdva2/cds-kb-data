@@ -1,6 +1,12 @@
 ---
 name: I_CATRANSFERREASON
 description: Catransferreason
+semantic_en: "transfer posting reason code reference — domain values for categorizing reasons for transfer postings."
+semantic_vi: "bảng mã lý do ghi chép chuyển — giá trị phân loại lý do ghi chép chuyển."
+keywords:
+  - lý do chuyển
+  - ghi chép chuyển
+  - mã lý do
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

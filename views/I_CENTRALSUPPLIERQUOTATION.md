@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALSUPPLIERQUOTATION
 description: Centralsupplierquotation
+semantic_en: "central supplier quotation header — supplier quotation documents with language, currency, incoterms, and creation details for procurement."
+semantic_vi: "tiêu đề báo giá nhà cung cấp trung tâm — tài liệu báo giá nhà cung cấp với ngôn ngữ, tiền tệ, incoterms, và chi tiết tạo."
+keywords:
+  - báo giá nhà cung cấp
+  - nhà cung cấp
+  - incoterms
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

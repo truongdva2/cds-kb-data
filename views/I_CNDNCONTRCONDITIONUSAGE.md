@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRCONDITIONUSAGE
 description: Cndncontrconditionusage
+semantic_en: "condition usage within pricing documents and condition contracts — links pricing procedures to condition records and accrual reversal status."
+semantic_vi: "sử dụng điều kiện trong tài liệu giá cố định và hợp đồng điều kiện — liên kết quy trình giá cố định với bản ghi điều kiện và trạng thái đảo ngược phát sinh."
+keywords:
+  - điều kiện giá
+  - hợp đồng
+  - tài liệu giá
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

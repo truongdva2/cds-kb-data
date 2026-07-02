@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALCREDITCHKTECHERRSTST
 description: Centralcreditchktecherrstst
+semantic_en: "central credit check technical error status text localization — translated technical error status descriptions for credit checking by language."
+semantic_vi: "văn bản trạng thái lỗi kỹ thuật kiểm tra tín dụng trung tâm — mô tả trạng thái lỗi kỹ thuật dịch sang các ngôn ngữ."
+keywords:
+  - lỗi kỹ thuật
+  - mô tả lỗi
+  - ngôn ngữ
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

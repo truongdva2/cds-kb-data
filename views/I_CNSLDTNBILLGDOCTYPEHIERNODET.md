@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNBILLGDOCTYPEHIERNODET
 description: Cnsldtnbillgdoctypehiernodet
+semantic_en: "text labels for billing document type hierarchy nodes — provides language-specific names for hierarchical classification nodes."
+semantic_vi: "nhãn văn bản cho các nút cấu trúc phân cấp loại tài liệu thanh toán — cung cấp tên theo ngôn ngữ cho các nút phân loại phân cấp."
+keywords:
+  - nút cấu trúc
+  - tài liệu thanh toán
+  - nhãn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

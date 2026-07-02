@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCDISCONNECTIONREQITEM
 description: Casrvcdisconnectionreqitem
+semantic_en: "service disconnection request line item — details dunning amounts, currency, and sub-item numbers for individual charges within a disconnection request."
+semantic_vi: "dòng chi tiết yêu cầu cắt dịch vụ — ghi nhận các khoản tiền phạt, tiền tệ, và mã hàng phụ cho các khoản phí riêng lẻ."
+keywords:
+  - yêu cầu cắt dịch vụ
+  - chi tiết đơn hàng
+  - tiền phạt
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

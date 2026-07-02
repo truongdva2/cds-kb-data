@@ -1,6 +1,12 @@
 ---
 name: I_CH_PAYTSLIPWTHREFCONTROLDATA
 description: CH Paytslipwthrefcontroldata
+semantic_en: "Switzerland ISR control data view — contains configuration for invoice reference slip (ISR) printing and processing with number offset and length specifications."
+semantic_vi: "Xem dữ liệu kiểm soát ISR Thụy Sĩ — chứa cấu hình cho in và xử lý phiếu tham chiếu hóa đơn (ISR) với thông số kỹ thuật về độ lệch và độ dài số."
+keywords:
+  - ISR
+  - hóa đơn
+  - in
 app_component: FI-LOC-FI-CH-QR
 software_component: SAPSCORE
 release_state: released

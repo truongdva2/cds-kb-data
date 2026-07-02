@@ -1,6 +1,12 @@
 ---
 name: I_CHGMSTROBMGREMATLBOMTP_2
 description: Chgmstrobmgrematlbomtp 2
+semantic_en: "change number object management material BOM transactional processing view — tracks engineering changes affecting bills of material by plant and variant usage."
+semantic_vi: "Xem xử lý giao dịch danh sách vật tư quản lý đối tượng vật liệu số thay đổi — theo dõi các thay đổi kỹ thuật ảnh hưởng đến danh sách vật tư theo nhà máy và cách sử dụng biến thể."
+keywords:
+  - danh sách vật tư
+  - thay đổi kỹ thuật
+  - nhà máy
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

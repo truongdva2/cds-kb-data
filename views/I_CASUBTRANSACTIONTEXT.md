@@ -1,6 +1,12 @@
 ---
 name: I_CASUBTRANSACTIONTEXT
 description: Casubtransactiontext
+semantic_en: "document subtransaction text localization — translated subtransaction names by language and application area."
+semantic_vi: "văn bản giao dịch con tài liệu — tên giao dịch con dịch sang các ngôn ngữ theo lĩnh vực ứng dụng."
+keywords:
+  - giao dịch con
+  - tên giao dịch
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

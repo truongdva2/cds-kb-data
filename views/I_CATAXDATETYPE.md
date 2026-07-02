@@ -1,6 +1,12 @@
 ---
 name: I_CATAXDATETYPE
 description: Cataxdatetype
+semantic_en: "tax date type code reference — domain values for classifying different types of tax-relevant dates."
+semantic_vi: "bảng mã loại ngày thuế — giá trị phân loại các loại ngày liên quan đến thuế khác nhau."
+keywords:
+  - loại ngày thuế
+  - ngày thuế
+  - mã loại ngày
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALREQUESTFORQUOTATION
 description: Centralrequestforquotation
+semantic_en: "central request for quotation header — RFQ documents with creation details, company code, incoterms, and purchasing organization."
+semantic_vi: "tiêu đề yêu cầu báo giá trung tâm — tài liệu RFQ với chi tiết tạo, mã công ty, incoterms, và tổ chức mua hàng."
+keywords:
+  - yêu cầu báo giá
+  - mã công ty
+  - incoterms
 app_component: MM-PUR-HUB-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

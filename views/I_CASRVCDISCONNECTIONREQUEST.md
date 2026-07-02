@@ -1,6 +1,12 @@
 ---
 name: I_CASRVCDISCONNECTIONREQUEST
 description: Casrvcdisconnectionrequest
+semantic_en: "service disconnection request header — aggregates disconnection requests by status, dunning data, contract account, and company code for utility service termination."
+semantic_vi: "tiêu đề yêu cầu cắt dịch vụ — ghi nhận trạng thái, dữ liệu phạt, tài khoản hợp đồng và mã công ty cho việc chấm dứt dịch vụ."
+keywords:
+  - cắt dịch vụ
+  - tài khoản hợp đồng
+  - trạng thái
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

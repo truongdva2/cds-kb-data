@@ -1,6 +1,12 @@
 ---
 name: I_CNDNVALUEZEROPROCESSINGCODE
 description: Cndnvaluezeroprocessingcode
+semantic_en: "zero condition value processing indicators — domain values for specifying how to handle conditions with zero values."
+semantic_vi: "chỉ báo xử lý giá trị điều kiện bằng không — các giá trị miền để chỉ định cách xử lý điều kiện có giá trị bằng không."
+keywords:
+  - giá trị không
+  - xử lý
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSKEYWORDDEX
 description: Clfnclasskeyworddex
+semantic_en: "data extraction view for class keywords — optimized projection by keyword position with language and keyword text."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các từ khóa lớp — chiếu tối ưu hóa theo vị trí từ khóa với ngôn ngữ và văn bản từ khóa."
+keywords:
+  - trích xuất dữ liệu
+  - từ khóa
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

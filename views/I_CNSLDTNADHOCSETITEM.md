@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETITEM
 description: Cnsldtnadhocsetitem
+semantic_en: "consolidation ad-hoc set items — individual items within ad-hoc sets, providing detailed item-level consolidation mapping."
+semantic_vi: "các mục bộ tạm thời hợp nhất — các mục riêng lẻ trong các bộ tạm thời, cung cấp ánh xạ hợp nhất chi tiết ở mức mục."
+keywords:
+  - mục bộ
+  - hợp nhất
+  - ánh xạ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

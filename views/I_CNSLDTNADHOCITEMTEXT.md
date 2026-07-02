@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCITEMTEXT
 description: Cnsldtnadhocitemtext
+semantic_en: "text labels for consolidation ad-hoc items — provides language-specific names and descriptions for temporary consolidation accounting items."
+semantic_vi: "nhãn văn bản cho các mục tạm thời hợp nhất — cung cấp tên và mô tả theo ngôn ngữ cho các mục kế toán hợp nhất tạm thời."
+keywords:
+  - mục tạm thời
+  - hợp nhất
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

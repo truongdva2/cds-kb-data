@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRACCRSRCEDOCCATTXT
 description: Cndncontraccrsrcedoccattxt
+semantic_en: "text labels for accrual source document categories — provides language-specific names for condition contract accrual source document types."
+semantic_vi: "nhãn văn bản cho danh mục tài liệu nguồn phát sinh — cung cấp tên theo ngôn ngữ cho loại tài liệu nguồn phát sinh hợp đồng điều kiện."
+keywords:
+  - tài liệu phát sinh
+  - nhãn văn bản
+  - loại hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

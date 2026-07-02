@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALPURCHASECONTRACTAPI01
 description: CENTRALPurchase ContractAPI 01
+semantic_en: "central purchase contract API view — consolidated purchase contract data including type, supplier, dates, currency, and terms for sourcing and procurement."
+semantic_vi: "chế độ xem API hợp đồng mua hàng trung tâm — dữ liệu hợp đồng mua hàng tích hợp bao gồm loại, nhà cung cấp, ngày, tiền tệ, và điều khoản."
+keywords:
+  - hợp đồng mua hàng
+  - nhà cung cấp
+  - ngày có hiệu lực
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

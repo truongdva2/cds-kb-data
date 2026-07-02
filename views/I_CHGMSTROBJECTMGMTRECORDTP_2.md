@@ -1,6 +1,12 @@
 ---
 name: I_CHGMSTROBJECTMGMTRECORDTP_2
 description: Chgmstrobjectmgmtrecordtp 2
+semantic_en: "change number object management record transactional processing view — tracks objects associated with engineering changes including material, document, and technical object references with full audit trail."
+semantic_vi: "Xem xử lý giao dịch bản ghi quản lý đối tượng số thay đổi — theo dõi các đối tượng liên quan đến các thay đổi kỹ thuật bao gồm tài liệu, vật liệu và tham chiếu đối tượng kỹ thuật với lịch sử kiểm toàn đầy đủ."
+keywords:
+  - quản lý đối tượng
+  - thay đổi kỹ thuật
+  - lịch sử kiểm toàn
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

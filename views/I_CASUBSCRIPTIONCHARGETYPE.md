@@ -1,6 +1,12 @@
 ---
 name: I_CASUBSCRIPTIONCHARGETYPE
 description: Casubscriptionchargetype
+semantic_en: "subscription charge type code reference — domain values for categorizing recurring subscription charges."
+semantic_vi: "bảng mã loại phí đăng ký — giá trị phân loại các khoản phí đăng ký định kỳ."
+keywords:
+  - loại phí đăng ký
+  - phí định kỳ
+  - mã loại phí
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

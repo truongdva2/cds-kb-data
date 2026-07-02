@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRBUSVOLSELCRITERIA
 description: Cndncontrbusvolselcriteria
+semantic_en: "business volume selection criteria for condition contracts — defines volume-based selection parameters including date ranges, field combinations, and document references."
+semantic_vi: "tiêu chí lựa chọn khối lượng kinh doanh cho hợp đồng điều kiện — xác định các tham số lựa chọn dựa trên khối lượng bao gồm dải ngày, tổ hợp trường và tham chiếu tài liệu."
+keywords:
+  - khối lượng kinh doanh
+  - lựa chọn
+  - hợp đồng điều kiện
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

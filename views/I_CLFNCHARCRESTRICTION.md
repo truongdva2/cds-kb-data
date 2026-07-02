@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCRESTRICTION
 description: Clfncharcrestriction
+semantic_en: "restrictions on classification characteristics — describes which characteristics are restricted for specific class types."
+semantic_vi: "các hạn chế đối với các đặc tính phân loại — mô tả những đặc tính nào bị hạn chế cho các kiểu lớp cụ thể."
+keywords:
+  - hạn chế
+  - đặc tính
+  - kiểu lớp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

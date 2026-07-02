@@ -1,6 +1,12 @@
 ---
 name: I_CENTRALPURCHASECONTRACTBASIC
 description: CENTRALPurchase ContractBASIC
+semantic_en: "central purchase contract basic data — reference view for central purchase contracts with document category, supplier, and target amount by sourcing and procurement."
+semantic_vi: "dữ liệu cơ bản hợp đồng mua hàng trung tâm — chế độ xem tham chiếu cho hợp đồng mua hàng trung tâm với danh mục tài liệu, nhà cung cấp, và khoản tiền dự kiến."
+keywords:
+  - hợp đồng mua hàng
+  - nhà cung cấp
+  - khoản tiền dự kiến
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

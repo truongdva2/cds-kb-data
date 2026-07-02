@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCITEMVH
 description: Cnsldtnadhocitemvh
+semantic_en: "value help for consolidation ad-hoc items — provides quick-select list of temporary consolidation accounting items with descriptions."
+semantic_vi: "trợ giúp giá trị cho các mục tạm thời hợp nhất — cung cấp danh sách lựa chọn nhanh các mục kế toán hợp nhất tạm thời với mô tả."
+keywords:
+  - mục tạm thời
+  - danh sách
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

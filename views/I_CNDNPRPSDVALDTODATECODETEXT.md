@@ -1,6 +1,12 @@
 ---
 name: I_CNDNPRPSDVALDTODATECODETEXT
 description: Cndnprpsdvaldtodatecodetext
+semantic_en: "text descriptions for proposed condition valid-to date codes — provides language-specific names for end-date code types in condition proposals."
+semantic_vi: "mô tả văn bản cho các mã ngày kết thúc đề xuất điều kiện — cung cấp tên theo ngôn ngữ cho loại mã ngày kết thúc trong đề xuất điều kiện."
+keywords:
+  - ngày kết thúc
+  - đề xuất
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRSETTLMTCAL
 description: Cndncontrsettlmtcal
+semantic_en: "settlement calendar for condition contracts — defines settlement dates, execution dates, and business volume date ranges with references and usage categories."
+semantic_vi: "lịch thanh toán cho hợp đồng điều kiện — xác định ngày thanh toán, ngày thực hiện và dải ngày khối lượng kinh doanh với tham chiếu và danh mục sử dụng."
+keywords:
+  - lịch thanh toán
+  - hợp đồng
+  - ngày thực hiện
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

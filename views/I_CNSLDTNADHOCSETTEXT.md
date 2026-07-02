@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCSETTEXT
 description: Cnsldtnadhocsettext
+semantic_en: "text labels for consolidation ad-hoc item sets — provides language-specific names and descriptions for ad-hoc item groupings."
+semantic_vi: "nhãn văn bản cho các bộ mục tạm thời hợp nhất — cung cấp tên và mô tả theo ngôn ngữ cho các nhóm mục tạm thời."
+keywords:
+  - bộ mục
+  - mô tả
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

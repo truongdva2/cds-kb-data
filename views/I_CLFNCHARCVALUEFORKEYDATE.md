@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUEFORKEYDATE
 description: Clfncharcvalueforkeydate
+semantic_en: "characteristic values as of a specific key date — includes hierarchical relationships, dependencies, and numeric/decimal ranges."
+semantic_vi: "giá trị đặc tính tính đến một ngày khóa cụ thể — bao gồm mối quan hệ phân cấp, phụ thuộc và dãy số/thập phân."
+keywords:
+  - ngày khóa
+  - giá trị đặc tính
+  - phân cấp
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

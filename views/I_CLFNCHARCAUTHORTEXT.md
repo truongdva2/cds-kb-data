@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCAUTHORTEXT
 description: Clfncharcauthortext
+semantic_en: "author of classification characteristic text view — multilingual names for characteristic origins and sources."
+semantic_vi: "Xem văn bản tác giả của đặc tính phân loại — tên đa ngôn ngữ cho nguồn gốc và nguồn đặc tính."
+keywords:
+  - tác giả
+  - đặc tính
+  - văn bản
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

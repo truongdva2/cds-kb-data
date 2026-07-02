@@ -1,6 +1,12 @@
 ---
 name: I_CHARTOFDEPRECIATIONTEXT
 description: Chartofdepreciationtext
+semantic_en: "chart of depreciation text view — multilingual names for depreciation charts."
+semantic_vi: "Xem văn bản bảng khấu hao — tên đa ngôn ngữ cho bảng khấu hao."
+keywords:
+  - khấu hao
+  - bảng
+  - tên
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

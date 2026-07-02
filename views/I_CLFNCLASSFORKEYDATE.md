@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSFORKEYDATE
 description: Clfnclassforkeydate
+semantic_en: "classification classes as of a specific key date — includes class definition, status, document references, and organizational area."
+semantic_vi: "các lớp phân loại tính đến một ngày khóa cụ thể — bao gồm định nghĩa lớp, trạng thái, tham chiếu tài liệu và khu vực tổ chức."
+keywords:
+  - ngày khóa
+  - lớp phân loại
+  - tài liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

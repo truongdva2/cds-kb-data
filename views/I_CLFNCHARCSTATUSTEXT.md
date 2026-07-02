@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCSTATUSTEXT
 description: Clfncharcstatustext
+semantic_en: "text names for characteristic status codes across languages — maps language, status code, and localized status names."
+semantic_vi: "tên văn bản cho mã trạng thái đặc tính trên các ngôn ngữ — ánh xạ ngôn ngữ, mã trạng thái và tên trạng thái đã bản địa hóa."
+keywords:
+  - tên trạng thái
+  - đa ngôn ngữ
+  - bản dịch
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

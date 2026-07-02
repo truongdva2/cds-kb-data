@@ -1,6 +1,12 @@
 ---
 name: I_CAWRITEOFFREASON
 description: Cawriteoffreason
+semantic_en: "write-off reason configuration — defines write-off reasons with creditworthiness rating and deferral reversal restrictions."
+semantic_vi: "cấu hình lý do xóa sổ — xác định lý do xóa sổ với xếp hạng năng lực tín dụng và hạn chế đảo ngược hoãn lại."
+keywords:
+  - lý do xóa sổ
+  - xếp hạng tín dụng
+  - xóa sổ từng phần
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

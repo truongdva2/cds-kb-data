@@ -1,6 +1,12 @@
 ---
 name: I_CASUBAPPLICATIONTEXT
 description: Casubapplicationtext
+semantic_en: "contract subapplication text localization — translated subapplication names by language."
+semantic_vi: "văn bản ứng dụng con hợp đồng — tên ứng dụng con dịch sang các ngôn ngữ."
+keywords:
+  - ứng dụng con
+  - tên ứng dụng
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

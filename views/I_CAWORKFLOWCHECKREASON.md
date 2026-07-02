@@ -1,6 +1,12 @@
 ---
 name: I_CAWORKFLOWCHECKREASON
 description: Caworkflowcheckreason
+semantic_en: "workflow check reason configuration — defines workflow check reasons with flags controlling payment, clearing, dunning, interest, and document change restrictions."
+semantic_vi: "cấu hình lý do kiểm tra quy trình làm việc — xác định lý do kiểm tra với các cờ điều khiển thanh toán, thanh lý, phạt, lãi suất, và hạn chế thay đổi tài liệu."
+keywords:
+  - lý do kiểm tra quy trình
+  - cờ hạn chế
+  - thanh toán
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

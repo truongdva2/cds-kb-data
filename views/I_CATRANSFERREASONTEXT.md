@@ -1,6 +1,12 @@
 ---
 name: I_CATRANSFERREASONTEXT
 description: Catransferreasontext
+semantic_en: "transfer reason text localization — translated transfer reason names by language."
+semantic_vi: "văn bản lý do chuyển — tên lý do chuyển dịch sang các ngôn ngữ."
+keywords:
+  - lý do chuyển
+  - tên lý do
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

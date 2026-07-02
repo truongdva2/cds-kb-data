@@ -1,6 +1,12 @@
 ---
 name: I_CNDNPRPSDVALIDTODATECODE
 description: Cndnprpsdvalidtodatecode
+semantic_en: "valid-to date code types for condition proposals — domain values for specifying expiration date types in condition pricing proposals."
+semantic_vi: "loại mã ngày kết thúc cho đề xuất điều kiện — các giá trị miền để chỉ định loại ngày kết thúc trong đề xuất giá cố định điều kiện."
+keywords:
+  - ngày kết thúc
+  - đề xuất
+  - mã ngày
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

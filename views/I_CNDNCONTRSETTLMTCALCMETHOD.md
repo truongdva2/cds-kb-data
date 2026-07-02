@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRSETTLMTCALCMETHOD
 description: Cndncontrsettlmtcalcmethod
+semantic_en: "settlement calculation methods — domain values for specifying the method used to calculate condition contract settlements."
+semantic_vi: "phương pháp tính toán thanh toán — các giá trị miền để chỉ định phương pháp tính toán thanh toán hợp đồng điều kiện."
+keywords:
+  - phương pháp tính toán
+  - thanh toán
+  - hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

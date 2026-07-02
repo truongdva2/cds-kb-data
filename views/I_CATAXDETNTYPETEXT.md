@@ -1,6 +1,12 @@
 ---
 name: I_CATAXDETNTYPETEXT
 description: Cataxdetntypetext
+semantic_en: "tax determination type text localization — translated tax determination type descriptions in German and other languages."
+semantic_vi: "văn bản loại xác định thuế — mô tả loại xác định thuế dịch sang tiếng Đức và các ngôn ngữ khác."
+keywords:
+  - loại xác định thuế
+  - mô tả phương pháp thuế
+  - ngôn ngữ
 app_component: FI-CA-INV-2CL
 software_component: SAPSCORE
 release_state: released

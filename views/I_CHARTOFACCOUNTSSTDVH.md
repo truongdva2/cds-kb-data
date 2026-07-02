@@ -1,6 +1,12 @@
 ---
 name: I_CHARTOFACCOUNTSSTDVH
 description: Chartofaccountsstdvh
+semantic_en: "chart of accounts value-help view — lists available charts of accounts for selection."
+semantic_vi: "Xem trợ giúp giá trị bảng khoản mục — liệt kê các bảng khoản mục có sẵn để chọn lựa."
+keywords:
+  - bảng khoản mục
+  - tra cứu
+  - lựa chọn
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

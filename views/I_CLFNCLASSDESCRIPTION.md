@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSDESCRIPTION
 description: Clfnclassdescription
+semantic_en: "classification class descriptions and keywords across languages — includes language, description text, and keyword position numbers."
+semantic_vi: "mô tả lớp phân loại và các từ khóa trên các ngôn ngữ — bao gồm ngôn ngữ, văn bản mô tả và số vị trí từ khóa."
+keywords:
+  - mô tả lớp
+  - từ khóa
+  - đa ngôn ngữ
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

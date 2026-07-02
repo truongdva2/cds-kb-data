@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNADHOCITEM
 description: Cnsldtnadhocitem
+semantic_en: "consolidation ad-hoc items — allows temporary custom accounting items within consolidation charts of accounts, linked to financial statement items."
+semantic_vi: "các mục tạm thời trong hợp nhất — cho phép các mục kế toán tùy chỉnh tạm thời trong bản đồ tài khoản hợp nhất, được liên kết với các mục báo cáo tài chính."
+keywords:
+  - hợp nhất
+  - mục tạm thời
+  - tài khoản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

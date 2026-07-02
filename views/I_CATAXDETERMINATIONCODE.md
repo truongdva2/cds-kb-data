@@ -1,6 +1,12 @@
 ---
 name: I_CATAXDETERMINATIONCODE
 description: Cataxdeterminationcode
+semantic_en: "tax determination code configuration — maps tax codes and calculation procedures by country and validity period."
+semantic_vi: "cấu hình mã xác định thuế — ánh xạ mã thuế và quy trình tính toán theo quốc gia và thời kỳ hiệu lực."
+keywords:
+  - mã xác định thuế
+  - quốc gia
+  - quy trình tính toán thuế
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

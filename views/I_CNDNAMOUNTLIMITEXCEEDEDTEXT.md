@@ -1,6 +1,12 @@
 ---
 name: I_CNDNAMOUNTLIMITEXCEEDEDTEXT
 description: Cndnamountlimitexceededtext
+semantic_en: "text description for condition amount limit exceeded events — maps condition amount limit exceeded indicator to language-specific display names."
+semantic_vi: "mô tả văn bản cho sự kiện vượt quá giới hạn số tiền điều kiện — ánh xạ chỉ báo vượt quá giới hạn số tiền điều kiện với tên hiển thị theo ngôn ngữ."
+keywords:
+  - giới hạn số tiền
+  - điều kiện vượt quá
+  - văn bản mô tả
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

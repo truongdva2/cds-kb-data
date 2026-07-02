@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCGROUP
 description: Clfncharcgroup
+semantic_en: "classification characteristic groups — logical groupings of characteristics by group identifier and deprecation status."
+semantic_vi: "nhóm đặc tính phân loại — nhóm logic các đặc tính theo mã nhóm và trạng thái dỨng dụng cũ."
+keywords:
+  - nhóm đặc tính
+  - phân loại
+  - tổ chức
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

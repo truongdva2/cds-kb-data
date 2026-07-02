@@ -1,6 +1,12 @@
 ---
 name: I_CNDNPRPSDVALDFRMDATECODETEXT
 description: Cndnprpsdvaldfrmdatecodetext
+semantic_en: "text descriptions for proposed condition valid-from date codes — provides language-specific names for date code types used in condition proposals."
+semantic_vi: "mô tả văn bản cho các mã ngày có hiệu lực đề xuất điều kiện — cung cấp tên theo ngôn ngữ cho loại mã ngày được sử dụng trong đề xuất điều kiện."
+keywords:
+  - ngày hiệu lực
+  - đề xuất
+  - điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRACTVTNSTATUSTEXT
 description: Cndncontractvtnstatustext
+semantic_en: "text labels for condition contract activation status — maps activation status codes to language-specific display names."
+semantic_vi: "nhãn văn bản cho trạng thái kích hoạt hợp đồng điều kiện — ánh xạ mã trạng thái kích hoạt với tên hiển thị theo ngôn ngữ."
+keywords:
+  - trạng thái kích hoạt
+  - nhãn
+  - hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

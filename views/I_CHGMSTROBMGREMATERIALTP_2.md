@@ -1,6 +1,12 @@
 ---
 name: I_CHGMSTROBMGREMATERIALTP_2
 description: Chgmstrobmgrematerialtp 2
+semantic_en: "change number object management material transactional processing view — associates materials with engineering changes, tracking locked and planned status."
+semantic_vi: "Xem xử lý giao dịch vật liệu quản lý đối tượng số thay đổi — liên kết vật liệu với các thay đổi kỹ thuật, theo dõi trạng thái khóa và lên kế hoạch."
+keywords:
+  - quản lý vật liệu
+  - thay đổi kỹ thuật
+  - trạng thái
 app_component: PLM-WUI-OBJ-ECN-2CL
 software_component: SAPSCORE
 release_state: released

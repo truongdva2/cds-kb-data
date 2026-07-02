@@ -1,6 +1,12 @@
 ---
 name: I_CHARCATTRIBUTECODE
 description: Charcattributecode
+semantic_en: "characteristic attribute code view — defines individual attribute codes with status and multilingual descriptions."
+semantic_vi: "Xem mã thuộc tính đặc tính — định nghĩa các mã thuộc tính riêng lẻ với trạng thái và mô tả đa ngôn ngữ."
+keywords:
+  - mã thuộc tính
+  - trạng thái
+  - mô tả
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

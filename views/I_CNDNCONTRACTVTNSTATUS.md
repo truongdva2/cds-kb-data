@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRACTVTNSTATUS
 description: Cndncontractvtnstatus
+semantic_en: "condition contract activation status values — domain for classifying activation status states of condition contracts."
+semantic_vi: "các giá trị trạng thái kích hoạt hợp đồng điều kiện — miền để phân loại các trạng thái kích hoạt của hợp đồng điều kiện."
+keywords:
+  - trạng thái kích hoạt
+  - hợp đồng điều kiện
+  - miền giá trị
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

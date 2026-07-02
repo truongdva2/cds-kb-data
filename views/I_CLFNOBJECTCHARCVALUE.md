@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCHARCVALUE
 description: Clfnobjectcharcvalue
+semantic_en: "classification characteristic values assigned to business objects — includes object ID, class type, value position, and numeric intervals."
+semantic_vi: "các giá trị đặc tính phân loại được gán cho các đối tượng kinh doanh — bao gồm mã đối tượng, kiểu lớp, vị trí giá trị và khoảng số."
+keywords:
+  - giá trị đặc tính
+  - đối tượng
+  - phân loại
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

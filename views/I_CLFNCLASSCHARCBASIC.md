@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSCHARCBASIC
 description: Clfnclasscharcbasic
+semantic_en: "basic classification class-characteristic assignments — maps characteristics to classes with position, organizational area, and temporal validity."
+semantic_vi: "các gán đặc tính của lớp phân loại cơ bản — ánh xạ đặc tính sang các lớp với vị trí, khu vực tổ chức và tính hợp lệ theo thời gian."
+keywords:
+  - gán đặc tính
+  - vị trí
+  - tính hợp lệ
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

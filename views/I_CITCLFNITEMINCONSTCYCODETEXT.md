@@ -1,6 +1,12 @@
 ---
 name: I_CITCLFNITEMINCONSTCYCODETEXT
 description: Citclfniteminconstcycodetext
+semantic_en: "CIT item inconsistency code text view — multilingual descriptions for classification item inconsistency codes used in tax reconciliation."
+semantic_vi: "Xem văn bản mã không nhất quán mục CIT — mô tả đa ngôn ngữ cho mã không nhất quán mục phân loại được sử dụng trong hoà trợ thuế."
+keywords:
+  - CIT
+  - không nhất quán
+  - mã
 app_component: FI-LOC-CIT
 software_component: SAPSCORE
 release_state: released

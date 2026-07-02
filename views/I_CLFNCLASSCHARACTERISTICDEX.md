@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCLASSCHARACTERISTICDEX
 description: Clfnclasscharacteristicdex
+semantic_en: "data extraction view for class-characteristic assignments — optimized with characteristic internal ID, position, changes, and relevance flags."
+semantic_vi: "dạng xem trích xuất dữ liệu cho các gán đặc tính của lớp — tối ưu hóa với mã nội bộ đặc tính, vị trí, thay đổi và cờ mức độ liên quan."
+keywords:
+  - trích xuất dữ liệu
+  - gán đặc tính
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

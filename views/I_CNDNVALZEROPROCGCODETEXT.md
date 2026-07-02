@@ -1,6 +1,12 @@
 ---
 name: I_CNDNVALZEROPROCGCODETEXT
 description: Cndnvalzeroprocgcodetext
+semantic_en: "text descriptions for zero condition value processing codes — maps processing indicator codes to language-specific display names."
+semantic_vi: "mô tả văn bản cho các mã xử lý giá trị điều kiện bằng không — ánh xạ mã chỉ báo xử lý với tên hiển thị theo ngôn ngữ."
+keywords:
+  - giá trị không
+  - xử lý
+  - mã
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

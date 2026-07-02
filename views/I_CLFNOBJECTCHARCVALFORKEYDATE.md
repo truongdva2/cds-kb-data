@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCHARCVALFORKEYDATE
 description: Clfnobjectcharcvalforkeydate
+semantic_en: "classification characteristic values assigned to business objects as of a specific key date — includes dependencies, numeric ranges, and units."
+semantic_vi: "các giá trị đặc tính phân loại được gán cho các đối tượng kinh doanh tính đến một ngày khóa cụ thể — bao gồm phụ thuộc, dãy số và đơn vị."
+keywords:
+  - ngày khóa
+  - giá trị đặc tính
+  - đối tượng
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

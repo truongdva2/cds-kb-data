@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCDATATYPETEXT
 description: Clfncharcdatatypetext
+semantic_en: "text descriptions of classification characteristic data types — maps language, data type code, domain value, and localized type names."
+semantic_vi: "mô tả văn bản của các kiểu dữ liệu đặc tính phân loại — ánh xạ ngôn ngữ, mã kiểu dữ liệu, giá trị miền và tên kiểu đã bản địa hóa."
+keywords:
+  - tên kiểu dữ liệu
+  - văn bản miêu tả
+  - đa ngôn ngữ
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

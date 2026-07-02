@@ -1,6 +1,12 @@
 ---
 name: I_CATOLERANCEGROUPTEXT
 description: Catolerancegrouptext
+semantic_en: "tolerance group text localization — translated tolerance group names by language."
+semantic_vi: "văn bản nhóm dung sai — tên nhóm dung sai dịch sang các ngôn ngữ."
+keywords:
+  - nhóm dung sai
+  - tên nhóm
+  - ngôn ngữ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

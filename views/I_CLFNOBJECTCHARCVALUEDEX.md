@@ -1,6 +1,12 @@
 ---
 name: I_CLFNOBJECTCHARCVALUEDEX
 description: Clfnobjectcharcvaluedex
+semantic_en: "data extraction view for object characteristic values — optimized projection with object ID, characteristic ID, value position, class type, and intervals."
+semantic_vi: "dạng xem trích xuất dữ liệu cho giá trị đặc tính đối tượng — chiếu tối ưu hóa với mã đối tượng, mã đặc tính, vị trí giá trị, kiểu lớp và khoảng."
+keywords:
+  - trích xuất dữ liệu
+  - giá trị đặc tính
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

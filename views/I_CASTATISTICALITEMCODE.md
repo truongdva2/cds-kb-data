@@ -1,6 +1,12 @@
 ---
 name: I_CASTATISTICALITEMCODE
 description: Castatisticalitemcode
+semantic_en: "statistical item code reference — domain values for categorizing contract accounting items for reporting purposes."
+semantic_vi: "bảng mã mục khoản thống kê — giá trị phân loại mục khoản kế toán hợp đồng cho báo cáo."
+keywords:
+  - mục khoản thống kê
+  - mã thống kê
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

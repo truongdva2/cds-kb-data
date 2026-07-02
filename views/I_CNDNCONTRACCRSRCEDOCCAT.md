@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRACCRSRCEDOCCAT
 description: Cndncontraccrsrcedoccat
+semantic_en: "condition contract accrual source document category — domain values for classifying accrual source document types in condition contracts."
+semantic_vi: "danh mục tài liệu nguồn phát sinh của hợp đồng điều kiện — các giá trị miền để phân loại loại tài liệu nguồn phát sinh trong hợp đồng điều kiện."
+keywords:
+  - hợp đồng điều kiện
+  - tài liệu phát sinh
+  - danh mục
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released

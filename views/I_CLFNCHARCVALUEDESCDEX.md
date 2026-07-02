@@ -1,6 +1,12 @@
 ---
 name: I_CLFNCHARCVALUEDESCDEX
 description: Clfncharcvaluedescdex
+semantic_en: "data extraction view for characteristic value descriptions — optimized projection with language, description text, and validity dates."
+semantic_vi: "dạng xem trích xuất dữ liệu cho mô tả giá trị đặc tính — chiếu tối ưu hóa với ngôn ngữ, văn bản mô tả và ngày hợp lệ."
+keywords:
+  - trích xuất dữ liệu
+  - mô tả giá trị
+  - xem dữ liệu
 app_component: CA-CL-2CL
 software_component: SAP_BASIS
 release_state: released

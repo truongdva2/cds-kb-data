@@ -1,6 +1,12 @@
 ---
 name: I_CNDNCONTRSETTLMTDETLDSTMNT
 description: Cndncontrsettlmtdetldstmnt
+semantic_en: "detailed settlement statement for condition contracts — itemizes settled business volumes, quantities, amounts and document references."
+semantic_vi: "bảng kê thanh toán chi tiết cho hợp đồng điều kiện — chi tiết hóa khối lượng kinh doanh đã thanh toán, số lượng, số tiền và tham chiếu tài liệu."
+keywords:
+  - thanh toán chi tiết
+  - khối lượng kinh doanh
+  - hợp đồng
 app_component: LO-GT-CHB
 software_component: SAPSCORE
 release_state: released
