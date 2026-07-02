@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONMODE_2
 description: Transportationmode 2
+semantic_en: "transportation mode — classification of transportation methods with mode category mapping"
+semantic_vi: "chế độ vận chuyển — phân loại phương pháp vận chuyển với ánh xạ danh mục chế độ"
+keywords:
+  - chế độ vận chuyển
+  - danh mục
 app_component: TM-MD-TN-2CL
 software_component: SAPSCORE
 release_state: released

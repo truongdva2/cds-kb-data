@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONORDERTYPE_2
 description: Transportationordertype 2
+semantic_en: "transportation order type — classification of order types with category mapping"
+semantic_vi: "loại đơn hàng vận chuyển — phân loại loại đơn hàng với ánh xạ danh mục"
+keywords:
+  - loại đơn hàng
+  - danh mục
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

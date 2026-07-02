@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDPLANNINGBLOCKTEXT
 description: Transpordplanningblocktext
+semantic_en: "transportation order planning block text — multilingual descriptions of planning blocks in domain value table"
+semantic_vi: "văn bản khối lập kế hoạch đơn hàng vận chuyển — mô tả đa ngôn ngữ của các khối lập kế hoạch"
+keywords:
+  - khối lập kế hoạch
+  - mô tả
+  - ngôn ngữ
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

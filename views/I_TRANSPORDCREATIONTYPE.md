@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDCREATIONTYPE
 description: Transpordcreationtype
+semantic_en: "Domain values for transportation order creation type — classifies order creation methods."
+semantic_vi: "Giá trị miền cho loại tạo đơn hàng vận chuyển — phân loại các phương pháp tạo đơn."
+keywords:
+  - loại tạo đơn hàng
+  - phân loại tạo
+  - phương pháp đơn
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

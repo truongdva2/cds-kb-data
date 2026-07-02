@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDERCATEGORY_2
 description: Transpordercategory 2
+semantic_en: "Domain values for transportation order category — classifies order types for business categorization."
+semantic_vi: "Giá trị miền cho danh mục đơn hàng vận chuyển — phân loại các loại đơn cho phân loại kinh doanh."
+keywords:
+  - danh mục đơn hàng
+  - phân loại đơn
+  - loại vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

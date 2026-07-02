@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTDESCRIPTION_2
 description: Transpagreementdescription 2
+semantic_en: "transportation agreement description — stores descriptive text for transportation agreements"
+semantic_vi: "mô tả thỏa thuận vận chuyển — lưu trữ văn bản mô tả cho các thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - mô tả
+  - text
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

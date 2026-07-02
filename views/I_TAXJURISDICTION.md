@@ -1,6 +1,12 @@
 ---
 name: I_TAXJURISDICTION
 description: Taxjurisdiction
+semantic_en: "tax jurisdiction — defines tax calculation procedure assignment with net amount and cash discount base rules"
+semantic_vi: "thẩm quyền thuế — xác định gán thủ tục tính toán thuế với quy tắc cơ sở chiết khấu tiền mặt và số tiền ròng"
+keywords:
+  - thẩm quyền thuế
+  - tính toán thuế
+  - chiết khấu
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

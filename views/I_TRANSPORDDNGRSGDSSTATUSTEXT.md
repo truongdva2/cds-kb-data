@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDDNGRSGDSSTATUSTEXT
 description: Transporddngrsgdsstatustext
+semantic_en: "Text labels for dangerous goods status in multiple languages — provides translated hazmat state labels."
+semantic_vi: "Nhãn văn bản cho trạng thái hàng nguy hiểm đa ngôn ngữ — cung cấp nhãn trạng thái nguy hiểm dịch."
+keywords:
+  - mô tả hàng nguy hiểm
+  - đa ngôn ngữ
+  - nhãn nguy hiểm
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

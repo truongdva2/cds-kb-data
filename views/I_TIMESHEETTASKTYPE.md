@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETTASKTYPE
 description: Timesheettasktype
+semantic_en: "timesheet task type — classifies task types for timesheet activities and their relevance codes"
+semantic_vi: "loại công việc bảng tính — phân loại các loại công việc cho các hoạt động bảng tính thời gian và các mã liên quan của chúng"
+keywords:
+  - loại công việc
+  - bảng tính
+  - phân loại công việc
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

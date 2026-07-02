@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJINSPECTIONLEVELTEXT
 description: Techobjinspectionleveltext
+semantic_en: "technical object inspection level text — provides localized names for inspection level codes"
+semantic_vi: "văn bản mức kiểm tra đối tượng kỹ thuật — cung cấp tên bản địa hoá cho mã mức kiểm tra"
+keywords:
+  - tên mức kiểm tra
+  - mô tả
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

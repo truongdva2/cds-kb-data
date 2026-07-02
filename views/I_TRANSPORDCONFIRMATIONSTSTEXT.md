@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDCONFIRMATIONSTSTEXT
 description: Transpordconfirmationststext
+semantic_en: "Text labels for transportation order confirmation status in multiple languages — provides translated confirmation state labels."
+semantic_vi: "Nhãn văn bản cho trạng thái xác nhận đơn hàng vận chuyển đa ngôn ngữ — cung cấp nhãn trạng thái xác nhận dịch."
+keywords:
+  - mô tả xác nhận
+  - đa ngôn ngữ
+  - nhãn trạng thái
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

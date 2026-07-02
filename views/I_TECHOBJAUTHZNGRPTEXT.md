@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJAUTHZNGRPTEXT
 description: Techobjauthzngrptext
+semantic_en: "technical object authorization group text — provides localized descriptions for authorization groups"
+semantic_vi: "văn bản nhóm ủy quyền đối tượng kỹ thuật — cung cấp mô tả bản địa hoá cho các nhóm ủy quyền"
+keywords:
+  - mô tả ủy quyền
+  - nhóm ủy quyền
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

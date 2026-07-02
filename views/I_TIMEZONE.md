@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONE
 description: Timezone
+semantic_en: "time zone — core master data for time zones with UTC offset rules and active status"
+semantic_vi: "múi giờ — dữ liệu chính cơ bản cho các múi giờ với quy tắc độ lệch UTC và trạng thái hoạt động"
+keywords:
+  - múi giờ
+  - UTC
+  - quy tắc múi giờ
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

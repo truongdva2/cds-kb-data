@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATECALCRULE
 description: Transpratecalcrule
+semantic_en: "Transportation rate calculation rule — defines calculation methodology with quantity units, base factors, and rule UUID hierarchy."
+semantic_vi: "Quy tắc tính toán tỷ giá vận chuyển — xác định phương pháp tính toán với đơn vị số lượng, hệ số cơ sở và phân cấp UUID."
+keywords:
+  - tỷ giá vận chuyển
+  - quy tắc tính toán
+  - đơn vị số lượng
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

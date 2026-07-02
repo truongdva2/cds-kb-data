@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETOVERTIMECATTEXT
 description: Timesheetovertimecattext
+semantic_en: "overtime category text — provides localized names for overtime categories used in payroll"
+semantic_vi: "văn bản danh mục làm thêm giờ — cung cấp tên bản địa hoá cho các danh mục làm thêm giờ được sử dụng trong tính lương"
+keywords:
+  - tên danh mục
+  - làm thêm giờ
+  - ngôn ngữ
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

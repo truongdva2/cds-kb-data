@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYCONTRACTTYPE
 description: Treasurycontracttype
+semantic_en: "Treasury contract type — domain values for financial contract classification in treasury management."
+semantic_vi: "Loại hợp đồng kho bạc — giá trị miền cho phân loại hợp đồng tài chính trong quản lý kho bạc."
+keywords:
+  - hợp đồng tài chính
+  - kho bạc
+  - loại hợp đồng
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

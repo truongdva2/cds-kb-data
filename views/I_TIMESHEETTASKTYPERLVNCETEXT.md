@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETTASKTYPERLVNCETEXT
 description: Timesheettasktyperlvncetext
+semantic_en: "timesheet task type relevance text — stores language-specific descriptions for task type relevance classifications"
+semantic_vi: "văn bản mức độ liên quan loại công việc bảng tính — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các phân loại mức độ liên quan loại công việc"
+keywords:
+  - văn bản mức độ liên quan
+  - loại công việc
+  - bảng tính
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

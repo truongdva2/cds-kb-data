@@ -1,6 +1,12 @@
 ---
 name: I_TRADEFINANCECATEGORYTEXT
 description: Tradefinancecategorytext
+semantic_en: "trade finance category text — stores language-specific names and descriptions for trade finance categories"
+semantic_vi: "văn bản danh mục tài chính thương mại — lưu trữ tên gọi và mô tả cụ thể theo ngôn ngữ cho các danh mục tài chính thương mại"
+keywords:
+  - danh mục tài chính
+  - thương mại
+  - văn bản
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

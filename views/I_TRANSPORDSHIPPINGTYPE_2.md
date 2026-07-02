@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSHIPPINGTYPE_2
 description: Transpordshippingtype 2
+semantic_en: "transportation order shipping type — classification of shipping types for transportation orders"
+semantic_vi: "loại vận chuyển đơn hàng vận chuyển — phân loại loại vận chuyển cho đơn hàng"
+keywords:
+  - loại vận chuyển
+  - phân loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

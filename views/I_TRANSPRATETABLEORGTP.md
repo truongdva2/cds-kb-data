@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEORGTP
 description: Transpratetableorgtp
+semantic_en: "Rate table organization - TP — third-party projection linking rate table to purchasing organization external identifiers."
+semantic_vi: "Tổ chức bảng tỷ giá - TP — chiếu bên thứ ba liên kết bảng tỷ giá với mã định danh bên ngoài tổ chức mua hàng."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - tổ chức mua hàng
+  - bên thứ ba
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

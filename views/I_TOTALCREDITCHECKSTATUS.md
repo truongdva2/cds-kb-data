@@ -1,6 +1,12 @@
 ---
 name: I_TOTALCREDITCHECKSTATUS
 description: Totalcreditcheckstatus
+semantic_en: "total credit check status — indicates the overall credit limit check status for sales orders"
+semantic_vi: "trạng thái kiểm tra tín dụng tổng cộng — biểu thị trạng thái kiểm tra hạn mức tín dụng tổng thể cho các đơn hàng bán"
+keywords:
+  - kiểm tra tín dụng
+  - hạn mức tín dụng
+  - đơn hàng bán
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

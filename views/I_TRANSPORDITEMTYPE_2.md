@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMTYPE_2
 description: Transporditemtype 2
+semantic_en: "Transportation order item type — maps item types to item categories for classification."
+semantic_vi: "Loại mục đơn hàng vận chuyển — ánh xạ loại mục đến danh mục mục cho phân loại."
+keywords:
+  - loại mục đơn hàng
+  - phân loại mục
+  - danh mục mục
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

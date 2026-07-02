@@ -1,6 +1,12 @@
 ---
 name: I_TAXDEPRECIATIONGROUPTEXT
 description: Taxdepreciationgrouptext
+semantic_en: "tax depreciation group text — provides localized descriptions for tax depreciation group codes"
+semantic_vi: "văn bản nhóm khấu hao thuế — cung cấp mô tả bản địa hoá cho mã nhóm khấu hao thuế"
+keywords:
+  - mô tả khấu hao
+  - nhóm khấu hao
+  - ngôn ngữ
 app_component: FI-LOC-AA
 software_component: SAPSCORE
 release_state: released

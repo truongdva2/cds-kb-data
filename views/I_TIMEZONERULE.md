@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONERULE
 description: Timezonerule
+semantic_en: "time zone rule — defines time zone rules with UTC time difference and daylight saving rules"
+semantic_vi: "quy tắc múi giờ — định nghĩa các quy tắc múi giờ với chênh lệch thời gian UTC và quy tắc tiết kiệm ánh sáng ban ngày"
+keywords:
+  - quy tắc múi giờ
+  - UTC
+  - tiết kiệm ánh sáng
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

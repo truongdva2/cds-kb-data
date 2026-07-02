@@ -1,6 +1,12 @@
 ---
 name: I_TAXINGCOUNTYTEXT
 description: Taxingcountytext
+semantic_en: "taxing county text — provides localized names for taxing county areas"
+semantic_vi: "văn bản huyện có thuế — cung cấp tên bản địa hoá cho các khu vực huyện có thuế"
+keywords:
+  - tên huyện
+  - mô tả khu vực
+  - huyện
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

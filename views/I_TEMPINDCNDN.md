@@ -1,6 +1,12 @@
 ---
 name: I_TEMPINDCNDN
 description: Tempindcndn
+semantic_en: "temperature condition indicator — defines temperature condition codes for product storage and handling requirements"
+semantic_vi: "chỉ báo điều kiện nhiệt độ — xác định mã điều kiện nhiệt độ cho yêu cầu bảo quản và xử lý sản phẩm"
+keywords:
+  - nhiệt độ
+  - điều kiện
+  - bảo quản
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

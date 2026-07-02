@@ -1,6 +1,12 @@
 ---
 name: I_TAXBASEBALANCESGROUP
 description: Taxbasebalancesgroup
+semantic_en: "tax base balance grouping numbers — specifies grouping rules, operations, and sign handling for tax base amount transactions"
+semantic_vi: "mã nhóm số dư cơ sở thuế — chỉ định quy tắc nhóm, phép toán, và xử lý dấu cho các giao dịch cơ sở thuế"
+keywords:
+  - nhóm cơ sở thuế
+  - số dư cơ sở
+  - phép toán thuế
 app_component: FI-LOC-VAT-GEN
 software_component: SAPSCORE
 release_state: released

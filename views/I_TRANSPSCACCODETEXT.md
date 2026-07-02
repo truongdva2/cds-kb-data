@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCACCODETEXT
 description: Transpscaccodetext
+semantic_en: "Standard carrier alpha code text — multilingual descriptions of carrier codes."
+semantic_vi: "Văn bản mã chữ cái nhà cung cấp tiêu chuẩn — mô tả đa ngôn ngữ của mã nhà cung cấp."
+keywords:
+  - mã nhà cung cấp
+  - mô tả nhà cung cấp
+  - ngôn ngữ
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

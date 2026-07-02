@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYPAYTREQGROUPING
 description: Treasurypaytreqgrouping
+semantic_en: "Treasury payment request grouping — domain values for grouping methodology of treasury payment requests."
+semantic_vi: "Nhóm yêu cầu thanh toán kho bạc — giá trị miền cho phương pháp nhóm của yêu cầu thanh toán kho bạc."
+keywords:
+  - yêu cầu thanh toán
+  - kho bạc
+  - nhóm thanh toán
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

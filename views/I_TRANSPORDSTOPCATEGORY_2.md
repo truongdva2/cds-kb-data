@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTOPCATEGORY_2
 description: Transpordstopcategory 2
+semantic_en: "transportation order stop category — category values for transportation order stops"
+semantic_vi: "danh mục điểm dừng đơn hàng vận chuyển — giá trị danh mục cho các điểm dừng đơn hàng"
+keywords:
+  - danh mục điểm dừng
+  - phân loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

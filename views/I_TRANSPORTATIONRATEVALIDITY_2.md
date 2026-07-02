@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONRATEVALIDITY_2
 description: Transportationratevalidity 2
+semantic_en: "transportation rate validity — validity periods for rates with currency, percentage unit, and lifecycle status"
+semantic_vi: "hiệu lực cước phí vận chuyển — thời gian hiệu lực cước phí với tiền tệ, đơn vị phần trăm, trạng thái vòng đời"
+keywords:
+  - hiệu lực cước phí
+  - ngày hiệu lực
+  - trạng thái
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

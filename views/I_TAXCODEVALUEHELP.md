@@ -1,6 +1,12 @@
 ---
 name: I_TAXCODEVALUEHELP
 description: Taxcodevaluehelp
+semantic_en: "tax code value help — standard value-help projection for tax code and procedure lookup"
+semantic_vi: "trợ giúp giá trị mã thuế — dự phóng trợ giúp giá trị chuẩn cho tra cứu mã thuế và thủ tục"
+keywords:
+  - tra cứu
+  - mã thuế
+  - trợ giúp giá trị
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

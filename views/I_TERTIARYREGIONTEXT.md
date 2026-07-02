@@ -1,6 +1,12 @@
 ---
 name: I_TERTIARYREGIONTEXT
 description: Tertiaryregiontext
+semantic_en: "tertiary region text — provides localized names for tertiary geographic region divisions"
+semantic_vi: "văn bản vùng cấp ba — cung cấp tên bản địa hoá cho các phân chia vùng địa lý cấp ba"
+keywords:
+  - tên vùng
+  - mô tả khu vực
+  - ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

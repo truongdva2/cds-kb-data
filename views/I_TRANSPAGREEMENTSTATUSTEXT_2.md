@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTSTATUSTEXT_2
 description: Transpagreementstatustext 2
+semantic_en: "transportation agreement status text — provides language-specific descriptions for transportation agreement statuses"
+semantic_vi: "văn bản trạng thái thỏa thuận vận chuyển — cung cấp các mô tả cụ thể theo ngôn ngữ cho các trạng thái thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - trạng thái
+  - văn bản
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

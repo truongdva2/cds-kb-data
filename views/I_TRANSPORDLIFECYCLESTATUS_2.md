@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDLIFECYCLESTATUS_2
 description: Transpordlifecyclestatus 2
+semantic_en: "Domain values for transportation order lifecycle status — classifies order progression states."
+semantic_vi: "Giá trị miền cho trạng thái vòng đời đơn hàng vận chuyển — phân loại các trạng thái tiến hành đơn."
+keywords:
+  - trạng thái vòng đời
+  - phân loại vòng đời
+  - trạng thái đơn hàng
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

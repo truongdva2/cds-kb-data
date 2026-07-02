@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEVENTCODETEXT_2
 description: Transpordeventcodetext 2
+semantic_en: "Text descriptions for transportation order event code in multiple languages — provides translated event labels."
+semantic_vi: "Mô tả văn bản cho mã sự kiện đơn hàng vận chuyển đa ngôn ngữ — cung cấp nhãn sự kiện dịch."
+keywords:
+  - mô tả sự kiện
+  - đa ngôn ngữ
+  - nhãn mã sự kiện
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

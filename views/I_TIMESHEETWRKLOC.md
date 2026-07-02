@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETWRKLOC
 description: Timesheetwrkloc
+semantic_en: "timesheet work location code — defines work location codes for timesheet purposes with country and region information"
+semantic_vi: "mã địa điểm làm việc bảng tính — định nghĩa các mã địa điểm làm việc cho bảng tính thời gian với thông tin quốc gia và khu vực"
+keywords:
+  - địa điểm làm việc
+  - mã địa điểm
+  - quốc gia
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

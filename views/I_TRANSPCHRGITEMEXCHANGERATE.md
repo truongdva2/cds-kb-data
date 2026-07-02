@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHRGITEMEXCHANGERATE
 description: TRANSPCHRGITEMExchange Rate
+semantic_en: "Exchange rate for transportation charge item — handles currency conversion with manual adjustment capabilities."
+semantic_vi: "Tỷ giá hối đoái cho mục phí vận chuyển — xử lý chuyển đổi tiền tệ với khả năng điều chỉnh thручного."
+keywords:
+  - tỷ giá mục phí
+  - hối đoái mục
+  - tiền tệ phí
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

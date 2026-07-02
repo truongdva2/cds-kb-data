@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEXECSTATUSTEXT_2
 description: Transpordexecstatustext 2
+semantic_en: "Text labels for transportation order execution status in multiple languages — provides translated execution state descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái thực thi đơn hàng vận chuyển đa ngôn ngữ — cung cấp mô tả trạng thái thực thi dịch."
+keywords:
+  - mô tả thực thi
+  - đa ngôn ngữ
+  - nhãn trạng thái
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

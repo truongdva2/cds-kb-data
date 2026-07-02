@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYPAYTREQGROUPINGTEXT
 description: Treasurypaytreqgroupingtext
+semantic_en: "Treasury payment request grouping text — multilingual descriptions of payment request grouping classification codes."
+semantic_vi: "Văn bản nhóm yêu cầu thanh toán kho bạc — mô tả đa ngôn ngữ của mã phân loại nhóm yêu cầu thanh toán."
+keywords:
+  - yêu cầu thanh toán
+  - kho bạc
+  - mô tả nhóm
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

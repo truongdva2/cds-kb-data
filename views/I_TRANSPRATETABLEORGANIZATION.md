@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEORGANIZATION
 description: Transpratetableorganization
+semantic_en: "Transportation rate table organization — links rate tables to purchasing organization identifiers."
+semantic_vi: "Tổ chức bảng tỷ giá vận chuyển — liên kết bảng tỷ giá với mã định danh tổ chức mua hàng."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - tổ chức mua hàng
+  - liên kết tỷ giá
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

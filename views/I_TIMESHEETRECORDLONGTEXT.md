@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETRECORDLONGTEXT
 description: Timesheetrecordlongtext
+semantic_en: "timesheet record note — stores localized long text notes and descriptions for individual time recording entries"
+semantic_vi: "ghi chú bản ghi bảng tính giờ — lưu trữ ghi chú văn bản dài bản địa hoá và mô tả cho các mục nhập ghi nhận thời gian riêng lẻ"
+keywords:
+  - ghi chú thời gian
+  - mô tả dài
+  - ngôn ngữ
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

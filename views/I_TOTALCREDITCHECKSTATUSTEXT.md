@@ -1,6 +1,12 @@
 ---
 name: I_TOTALCREDITCHECKSTATUSTEXT
 description: Totalcreditcheckstatustext
+semantic_en: "total credit check status text — stores language-specific descriptions for credit check statuses"
+semantic_vi: "văn bản trạng thái kiểm tra tín dụng tổng cộng — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các trạng thái kiểm tra tín dụng"
+keywords:
+  - kiểm tra tín dụng
+  - văn bản trạng thái
+  - tín dụng
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

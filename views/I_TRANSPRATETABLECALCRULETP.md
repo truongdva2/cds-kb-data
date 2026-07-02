@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLECALCRULETP
 description: Transpratetablecalcruletp
+semantic_en: "Rate table calculation rule - TP — third-party projection of transportation rate table calculation rules with base and quantity unit."
+semantic_vi: "Quy tắc tính toán bảng tỷ giá - TP — chiếu bên thứ ba của quy tắc tính toán bảng tỷ giá vận chuyển với cơ sở và đơn vị số lượng."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - quy tắc tính toán
+  - bên thứ ba
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

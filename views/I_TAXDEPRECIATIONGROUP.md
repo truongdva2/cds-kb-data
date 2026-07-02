@@ -1,6 +1,12 @@
 ---
 name: I_TAXDEPRECIATIONGROUP
 description: Taxdepreciationgroup
+semantic_en: "tax depreciation group — assigns tax depreciation group codes by country for asset valuation"
+semantic_vi: "nhóm khấu hao thuế — gán mã nhóm khấu hao thuế theo quốc gia cho định giá tài sản"
+keywords:
+  - khấu hao thuế
+  - nhóm khấu hao
+  - tài sản
 app_component: FI-LOC-AA
 software_component: SAPSCORE
 release_state: released

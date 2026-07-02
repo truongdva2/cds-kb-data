@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDERSTOP_2
 description: Transportationorderstop 2
+semantic_en: "transportation order stop — stops within orders with location, category, role, and acceptance/request date-time ranges"
+semantic_vi: "điểm dừng đơn hàng vận chuyển — các điểm dừng với vị trí, danh mục, vai trò, và khoảng thời gian"
+keywords:
+  - điểm dừng
+  - vị trí
+  - khoảng thời gian
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

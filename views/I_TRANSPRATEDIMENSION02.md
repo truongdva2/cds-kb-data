@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION02
 description: Transpratedimension 02
+semantic_en: "Transportation rate dimension 2 — two-dimensional rate scale combining two scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 2 — tỷ lệ hai chiều kết hợp hai mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên hai chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ hai chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

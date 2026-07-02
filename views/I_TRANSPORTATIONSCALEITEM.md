@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONSCALEITEM
 description: Transportationscaleitem
+semantic_en: "transportation scale item — scale line items for rate calculation with quantity, character value, and amount"
+semantic_vi: "mục bảng tỷ lệ vận chuyển — các mục dòng bảng tỷ lệ với số lượng, giá trị ký tự, số tiền"
+keywords:
+  - mục tỷ lệ
+  - số lượng
+  - tính toán
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

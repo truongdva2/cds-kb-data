@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONERULETEXT
 description: Timezoneruletext
+semantic_en: "time zone rule text — stores language-specific descriptions for time zone rules"
+semantic_vi: "văn bản quy tắc múi giờ — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các quy tắc múi giờ"
+keywords:
+  - quy tắc múi giờ
+  - văn bản
+  - mô tả
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

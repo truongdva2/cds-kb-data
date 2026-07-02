@@ -1,6 +1,12 @@
 ---
 name: I_TEXTOBJECTCATEGORY
 description: Textobjectcategory
+semantic_en: "text object category — defines general categories for text storage such as notes, instructions, or comments"
+semantic_vi: "danh mục đối tượng văn bản — xác định các danh mục chung cho bảo vệ văn bản như ghi chú, hướng dẫn, hoặc bình luận"
+keywords:
+  - danh mục văn bản
+  - loại văn bản
+  - phân loại
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

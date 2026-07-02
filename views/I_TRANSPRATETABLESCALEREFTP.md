@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLESCALEREFTP
 description: Transpratetablescalereftp
+semantic_en: "Rate table scale reference - TP — third-party projection of scale references with calculation bases and weighted break handling."
+semantic_vi: "Tham chiếu tỷ lệ bảng tỷ giá - TP — chiếu bên thứ ba của tham chiếu tỷ lệ có cơ sở tính toán và xử lý ngắt nặng."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - tham chiếu tỷ lệ
+  - bên thứ ba
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

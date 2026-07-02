@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCACCODE
 description: Transpscaccode
+semantic_en: "Standard carrier alpha code — carrier identifiers mapped to master business object."
+semantic_vi: "Mã chữ cái của nhà cung cấp dịch vụ tiêu chuẩn — mã định danh nhà cung cấp dịch vụ ánh xạ cho đối tượng kinh doanh chính."
+keywords:
+  - mã nhà cung cấp
+  - mã chữ cái
+  - nhà cung cấp vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

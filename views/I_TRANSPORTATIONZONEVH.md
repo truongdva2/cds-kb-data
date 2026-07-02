@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONZONEVH
 description: Transportationzonevh
+semantic_en: "transportation zone value help — value help view for transportation zone selection"
+semantic_vi: "trợ giúp giá trị vùng vận chuyển — chế độ xem trợ giúp giá trị cho lựa chọn vùng vận chuyển"
+keywords:
+  - vùng vận chuyển
+  - lựa chọn
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

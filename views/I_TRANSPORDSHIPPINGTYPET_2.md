@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSHIPPINGTYPET_2
 description: Transpordshippingtypet 2
+semantic_en: "transportation order shipping type text — multilingual descriptions of shipping type codes"
+semantic_vi: "văn bản loại vận chuyển đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã loại vận chuyển"
+keywords:
+  - loại vận chuyển
+  - mô tả
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

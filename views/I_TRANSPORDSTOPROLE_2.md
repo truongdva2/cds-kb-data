@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTOPROLE_2
 description: Transpordstoprole 2
+semantic_en: "transportation order stop role — role classification for stops in transportation orders"
+semantic_vi: "vai trò điểm dừng đơn hàng vận chuyển — phân loại vai trò cho các điểm dừng"
+keywords:
+  - vai trò điểm dừng
+  - phân loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

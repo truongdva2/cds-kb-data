@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONSCALE
 description: Transportationscale
+semantic_en: "transportation scale — scale definition for rate calculations with base, type, unit, and currency"
+semantic_vi: "bảng tỷ lệ vận chuyển — định nghĩa bảng tỷ lệ cho tính cước phí với cơ sở, loại, đơn vị, tiền tệ"
+keywords:
+  - bảng tỷ lệ
+  - tính cước phí
+  - đơn vị
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

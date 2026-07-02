@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTAGETYPE_2
 description: Transpordstagetype 2
+semantic_en: "transportation order stage type — classification of stage types with category mapping"
+semantic_vi: "loại giai đoạn đơn hàng vận chuyển — phân loại loại giai đoạn với ánh xạ danh mục"
+keywords:
+  - loại giai đoạn
+  - danh mục giai đoạn
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

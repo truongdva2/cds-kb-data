@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEVENTCODE_2
 description: Transpordeventcode 2
+semantic_en: "Transportation order event code — maps event codes to stop categories for shipment tracking."
+semantic_vi: "Mã sự kiện đơn hàng vận chuyển — ánh xạ mã sự kiện đến danh mục dừng cho theo dõi lô hàng."
+keywords:
+  - mã sự kiện
+  - danh mục dừng
+  - theo dõi vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

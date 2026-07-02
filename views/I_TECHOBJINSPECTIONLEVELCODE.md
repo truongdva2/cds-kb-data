@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJINSPECTIONLEVELCODE
 description: Techobjinspectionlevelcode
+semantic_en: "technical object inspection level code — defines inspection levels for equipment and functional location audits"
+semantic_vi: "mã mức kiểm tra đối tượng kỹ thuật — xác định các mức kiểm tra cho kiểm tra thiết bị và vị trí chức năng"
+keywords:
+  - mức kiểm tra
+  - kiểm tra
+  - mã mức
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

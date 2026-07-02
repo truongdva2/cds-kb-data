@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCALEBASETEXT_2
 description: Transpscalebasetext 2
+semantic_en: "Transportation scale base text — multilingual descriptions of calculation bases used in transportation scales."
+semantic_vi: "Văn bản cơ sở tỷ lệ vận chuyển — mô tả đa ngôn ngữ của cơ sở tính toán được sử dụng trong tỷ lệ vận chuyển."
+keywords:
+  - cơ sở tỷ lệ vận chuyển
+  - mô tả cơ sở
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

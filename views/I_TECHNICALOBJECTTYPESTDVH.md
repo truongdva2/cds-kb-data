@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALOBJECTTYPESTDVH
 description: Technicalobjecttypestdvh
+semantic_en: "technical object type value help — provides standard value-help list of available technical object types"
+semantic_vi: "trợ giúp giá trị loại đối tượng kỹ thuật — cung cấp danh sách trợ giúp giá trị chuẩn của các loại đối tượng kỹ thuật"
+keywords:
+  - tra cứu
+  - loại đối tượng
+  - trợ giúp giá trị
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

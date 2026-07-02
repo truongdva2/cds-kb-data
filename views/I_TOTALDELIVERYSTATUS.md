@@ -1,6 +1,12 @@
 ---
 name: I_TOTALDELIVERYSTATUS
 description: Totaldeliverystatus
+semantic_en: "total delivery status — tracks the overall delivery completion status for sales documents"
+semantic_vi: "trạng thái giao hàng tổng cộng — theo dõi trạng thái hoàn thành giao hàng tổng thể cho các tài liệu bán hàng"
+keywords:
+  - giao hàng
+  - trạng thái giao
+  - tài liệu bán
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

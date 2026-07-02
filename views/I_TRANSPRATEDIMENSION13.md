@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION13
 description: Transpratedimension 13
+semantic_en: "Transportation rate dimension 13 — thirteen-dimensional rate scale combining thirteen scale item references."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 13 — tỷ lệ mười ba chiều kết hợp mười ba tham chiếu mục tỷ lệ."
+keywords:
+  - thứ nguyên mười ba chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ đa chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

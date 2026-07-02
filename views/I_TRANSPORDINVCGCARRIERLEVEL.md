@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDINVCGCARRIERLEVEL
 description: Transpordinvcgcarrierlevel
+semantic_en: "Domain values for transportation order invoicing carrier level — classifies invoicing scope by carrier hierarchy."
+semantic_vi: "Giá trị miền cho mức vận tải lập hóa đơn đơn hàng vận chuyển — phân loại phạm vi lập hóa đơn theo cấp bậc vận tải."
+keywords:
+  - mức vận tải lập hóa đơn
+  - cấp bậc vận tải
+  - phạm vi lập hóa
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

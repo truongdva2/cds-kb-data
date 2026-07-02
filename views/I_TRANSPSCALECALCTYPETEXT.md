@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCALECALCTYPETEXT
 description: Transpscalecalctypetext
+semantic_en: "Transportation scale calculation type text — multilingual descriptions of calculation type codes."
+semantic_vi: "Văn bản loại tính toán tỷ lệ vận chuyển — mô tả đa ngôn ngữ của mã loại tính toán."
+keywords:
+  - loại tính toán tỷ lệ
+  - mô tả tính toán
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

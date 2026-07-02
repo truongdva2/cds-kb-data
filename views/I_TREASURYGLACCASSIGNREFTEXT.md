@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYGLACCASSIGNREFTEXT
 description: Treasuryglaccassignreftext
+semantic_en: "Treasury account assignment reference text — multilingual descriptions of GL account assignment references."
+semantic_vi: "Văn bản tham chiếu gán tài khoản kho bạc — mô tả đa ngôn ngữ của tham chiếu gán tài khoản GL."
+keywords:
+  - tài khoản kho bạc
+  - tham chiếu gán tài khoản
+  - mô tả
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

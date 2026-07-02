@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETOVERTIMECAT
 description: Timesheetovertimecat
+semantic_en: "overtime category for timesheet — defines overtime categories for compensation and payroll processing"
+semantic_vi: "danh mục làm thêm giờ cho bảng tính giờ — xác định các danh mục làm thêm giờ cho thanh toán và xử lý lương"
+keywords:
+  - làm thêm giờ
+  - danh mục
+  - tính lương
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

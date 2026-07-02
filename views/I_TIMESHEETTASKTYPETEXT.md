@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETTASKTYPETEXT
 description: Timesheettasktypetext
+semantic_en: "timesheet task type text — provides language-specific names and descriptions for timesheet task types"
+semantic_vi: "văn bản loại công việc bảng tính — cung cấp tên gọi và mô tả cụ thể theo ngôn ngữ cho các loại công việc bảng tính thời gian"
+keywords:
+  - loại công việc
+  - văn bản loại
+  - bảng tính
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

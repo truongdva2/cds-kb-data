@@ -1,6 +1,12 @@
 ---
 name: I_TAXCODETEXT
 description: Taxcodetext
+semantic_en: "tax code text — provides localized tax code names across multiple languages"
+semantic_vi: "văn bản mã thuế — cung cấp tên mã thuế bản địa hoá trên nhiều ngôn ngữ"
+keywords:
+  - tên mã thuế
+  - mô tả
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

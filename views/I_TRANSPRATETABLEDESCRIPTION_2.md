@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEDESCRIPTION_2
 description: Transpratetabledescription 2
+semantic_en: "Transportation rate table description — free-text descriptions keyed by rate table UUID."
+semantic_vi: "Mô tả bảng tỷ giá vận chuyển — mô tả văn bản tự do được khóa bằng UUID bảng tỷ giá."
+keywords:
+  - mô tả bảng tỷ giá
+  - bảng tỷ giá vận chuyển
+  - nội dung mô tả
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

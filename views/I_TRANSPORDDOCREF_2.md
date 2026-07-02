@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDDOCREF_2
 description: Transporddocref 2
+semantic_en: "Document reference for transportation order — stores external document identifiers, types, items, dates and issuers."
+semantic_vi: "Tham chiếu tài liệu cho đơn hàng vận chuyển — lưu các mã tài liệu bên ngoài, loại, mục, ngày và người phát hành."
+keywords:
+  - tham chiếu tài liệu
+  - đơn hàng vận chuyển
+  - mã tài liệu
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

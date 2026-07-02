@@ -1,6 +1,12 @@
 ---
 name: I_TAXJURISDICTIONTEXT
 description: Taxjurisdictiontext
+semantic_en: "tax jurisdiction text — provides localized jurisdiction names across languages"
+semantic_vi: "văn bản thẩm quyền thuế — cung cấp tên thẩm quyền bản địa hoá trên nhiều ngôn ngữ"
+keywords:
+  - tên thẩm quyền
+  - mô tả
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

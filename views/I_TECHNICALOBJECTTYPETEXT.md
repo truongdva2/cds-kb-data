@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALOBJECTTYPETEXT
 description: Technicalobjecttypetext
+semantic_en: "technical object type text — provides localized descriptions for technical object type classifications"
+semantic_vi: "văn bản loại đối tượng kỹ thuật — cung cấp mô tả bản địa hoá cho phân loại loại đối tượng kỹ thuật"
+keywords:
+  - mô tả loại
+  - loại đối tượng
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

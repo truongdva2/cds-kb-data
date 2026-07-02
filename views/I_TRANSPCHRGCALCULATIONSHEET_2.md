@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHRGCALCULATIONSHEET_2
 description: Transpchrgcalculationsheet 2
+semantic_en: "Calculation sheet for transportation charges — aggregates items under agreements with calculation sheet reference."
+semantic_vi: "Bảng tính toán phí vận chuyển — tập hợp các mục theo thỏa thuận với tham chiếu bảng tính."
+keywords:
+  - bảng tính toán
+  - thỏa thuận vận chuyển
+  - mục tính
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

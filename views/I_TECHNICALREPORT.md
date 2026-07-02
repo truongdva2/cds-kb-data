@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALREPORT
 description: Technicalreport
+semantic_en: "technical report — links catalog profiles to notification categories for maintenance planning"
+semantic_vi: "báo cáo kỹ thuật — liên kết các hồ sơ danh mục với các danh mục thông báo cho lập kế hoạch bảo trì"
+keywords:
+  - danh mục
+  - thông báo
+  - bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCRULE
 description: Transpchargecalcrule
+semantic_en: "Transportation charge calculation rule — stores transport charge elements, calculation bases, units, and pricing per quantity."
+semantic_vi: "Quy tắc tính toán phí vận chuyển — lưu trữ các yếu tố phí vận chuyển, cơ sở tính toán, đơn vị và giá theo số lượng."
+keywords:
+  - quy tắc phí vận chuyển
+  - tính toán phí
+  - cơ sở tính giá
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

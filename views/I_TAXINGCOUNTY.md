@@ -1,6 +1,12 @@
 ---
 name: I_TAXINGCOUNTY
 description: Taxingcounty
+semantic_en: "taxing county — defines tax jurisdiction county areas by country and region"
+semantic_vi: "huyện có thuế — xác định các khu vực huyện có thẩm quyền thuế theo quốc gia và vùng"
+keywords:
+  - huyện thuế
+  - thẩm quyền thuế
+  - khu vực
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TAXCONDITIONTYPE
 description: Taxconditiontype
+semantic_en: "tax condition type — maps condition types to tax condition classification with application scope"
+semantic_vi: "loại điều kiện thuế — liên kết loại điều kiện với phân loại điều kiện thuế với phạm vi ứng dụng"
+keywords:
+  - điều kiện thuế
+  - loại điều kiện
+  - ứng dụng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

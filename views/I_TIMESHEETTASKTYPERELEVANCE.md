@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETTASKTYPERELEVANCE
 description: Timesheettasktyperelevance
+semantic_en: "timesheet task type relevance — defines relevance codes for different task type categories in timesheet processing"
+semantic_vi: "mức độ liên quan loại công việc bảng tính — định nghĩa các mã liên quan cho các danh mục loại công việc khác nhau trong xử lý bảng tính thời gian"
+keywords:
+  - mức độ liên quan
+  - loại công việc
+  - phân loại
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

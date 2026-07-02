@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMCATEGORY_2
 description: Transporditemcategory 2
+semantic_en: "Domain values for transportation order item category — classifies item types within orders."
+semantic_vi: "Giá trị miền cho danh mục mục đơn hàng vận chuyển — phân loại các loại mục trong đơn hàng."
+keywords:
+  - danh mục mục đơn
+  - phân loại mục
+  - loại mục vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

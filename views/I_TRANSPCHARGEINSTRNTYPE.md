@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGEINSTRNTYPE
 description: Transpchargeinstrntype
+semantic_en: "Domain values for transportation charge instruction type — classifies types of charge instructions."
+semantic_vi: "Giá trị miền cho loại hướng dẫn phí vận chuyển — phân loại các loại hướng dẫn phí."
+keywords:
+  - loại hướng dẫn phí
+  - phân loại phí
+  - miền hướng dẫn
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

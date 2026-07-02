@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONGROUP
 description: Transportationgroup
+semantic_en: "transportation group — master data identifier for grouping transportation operations"
+semantic_vi: "nhóm vận chuyển — mã dữ liệu chính cho nhóm các hoạt động vận chuyển"
+keywords:
+  - nhóm vận chuyển
+  - phân loại
 app_component: TM-MD-PR-2CL
 software_component: SAPSCORE
 release_state: released

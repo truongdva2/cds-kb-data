@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDERBP_2
 description: Transportationorderbp 2
+semantic_en: "transportation order business partner — participants in transportation orders with function and address assignment"
+semantic_vi: "đối tác kinh doanh đơn hàng vận chuyển — những người tham gia với vai trò và địa chỉ"
+keywords:
+  - đối tác kinh doanh
+  - đơn hàng vận chuyển
+  - địa chỉ
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONEIANACODESTDVH
 description: Timezoneianacodestdvh
+semantic_en: "time zone IANA code standard value-help — value-help view for IANA time zone codes mapped to SAP identifiers"
+semantic_vi: "trợ giúp giá trị tiêu chuẩn mã IANA múi giờ — chế độ xem trợ giúp giá trị cho các mã múi giờ IANA được ánh xạ sang các định danh SAP"
+keywords:
+  - mã IANA
+  - trợ giúp giá trị
+  - múi giờ
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONPLANNINGSTS
 description: Transportationplanningsts
+semantic_en: "transportation planning status — status domain values for transportation planning phase"
+semantic_vi: "trạng thái lập kế hoạch vận chuyển — giá trị miền trạng thái cho giai đoạn lập kế hoạch"
+keywords:
+  - trạng thái lập kế hoạch
+  - vận chuyển
 app_component: LE-TRA
 software_component: SAPSCORE
 release_state: released

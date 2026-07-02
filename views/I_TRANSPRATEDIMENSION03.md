@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION03
 description: Transpratedimension 03
+semantic_en: "Transportation rate dimension 3 — three-dimensional rate scale combining three scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 3 — tỷ lệ ba chiều kết hợp ba mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên ba chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ ba chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

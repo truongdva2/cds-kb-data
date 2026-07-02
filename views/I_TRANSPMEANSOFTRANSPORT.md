@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPMEANSOFTRANSPORT
 description: Transpmeansoftransport
+semantic_en: "Means of transport for transportation — defines transport modes, passive status with descriptive labels."
+semantic_vi: "Phương tiện vận chuyển — xác định các chế độ vận chuyển, trạng thái bị động với nhãn mô tả."
+keywords:
+  - phương tiện vận chuyển
+  - chế độ vận chuyển
+  - loại vận tải
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

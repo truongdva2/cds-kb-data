@@ -1,6 +1,12 @@
 ---
 name: I_TRANSACTIONTYPESTDGLACCT
 description: Transactiontypestdglacct
+semantic_en: "transaction type standard G/L account — maps transaction types to standard general ledger accounts by valuation and classification criteria"
+semantic_vi: "tài khoản sổ cái tiêu chuẩn loại giao dịch — ánh xạ các loại giao dịch sang các tài khoản sổ cái chung tiêu chuẩn theo tiêu chí định giá và phân loại"
+keywords:
+  - tài khoản sổ cái
+  - loại giao dịch
+  - định giá
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

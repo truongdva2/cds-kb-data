@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTTYPE
 description: Transpagreementtype
+semantic_en: "transportation agreement type — classifies different types of transportation agreements"
+semantic_vi: "loại thỏa thuận vận chuyển — phân loại các loại khác nhau của thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - loại
+  - phân loại
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

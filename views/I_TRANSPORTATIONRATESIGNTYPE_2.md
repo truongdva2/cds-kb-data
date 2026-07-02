@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONRATESIGNTYPE_2
 description: Transportationratesigntype 2
+semantic_en: "transportation rate sign type — domain values for mathematical sign conventions in rate calculations"
+semantic_vi: "loại ký hiệu cước phí vận chuyển — giá trị miền cho quy ước ký hiệu trong tính cước phí"
+keywords:
+  - ký hiệu cước phí
+  - tính toán
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

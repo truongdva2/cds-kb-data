@@ -1,6 +1,12 @@
 ---
 name: I_TAXTYPE
 description: Taxtype
+semantic_en: "tax type master — defines primary categories of taxes such as sales tax or income tax"
+semantic_vi: "danh sách loại thuế chính — xác định các danh mục thuế chính như thuế bán hàng hoặc thuế thu nhập"
+keywords:
+  - loại thuế
+  - danh mục thuế
+  - thuế chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

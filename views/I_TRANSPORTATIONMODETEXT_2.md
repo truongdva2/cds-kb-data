@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONMODETEXT_2
 description: Transportationmodetext 2
+semantic_en: "transportation mode text — multilingual descriptions of transportation mode codes"
+semantic_vi: "văn bản chế độ vận chuyển — mô tả đa ngôn ngữ của mã chế độ vận chuyển"
+keywords:
+  - chế độ vận chuyển
+  - mô tả đa ngôn ngữ
 app_component: TM-MD-TN-2CL
 software_component: SAPSCORE
 release_state: released

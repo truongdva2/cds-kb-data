@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONSCALETYPE_2
 description: Transportationscaletype 2
+semantic_en: "transportation scale type — domain values classifying scale types for rate calculations"
+semantic_vi: "loại bảng tỷ lệ vận chuyển — giá trị miền phân loại loại bảng tỷ lệ"
+keywords:
+  - loại bảng tỷ lệ
+  - phân loại
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

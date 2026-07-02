@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETREJECTIONREASONTEXT
 description: Timesheetrejectionreasontext
+semantic_en: "timesheet rejection reason text — stores language-specific descriptions for rejection reasons applied to timesheet records"
+semantic_vi: "văn bản lý do từ chối bảng tính thời gian — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các lý do từ chối áp dụng cho các bản ghi bảng tính thời gian"
+keywords:
+  - từ chối bảng tính
+  - mã lý do từ chối
+  - text lý do
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

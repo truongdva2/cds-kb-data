@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCRESLNBASET
 description: Transpchargecalcreslnbaset
+semantic_en: "transportation charge calculation resolution base text — provides language-specific descriptions for resolution base classifications"
+semantic_vi: "văn bản cơ sở giải quyết tính toán phí vận chuyển — cung cấp các mô tả cụ thể theo ngôn ngữ cho các phân loại cơ sở giải quyết"
+keywords:
+  - tính toán phí
+  - giải quyết
+  - văn bản
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCALCULATIONBASETXT
 description: Transpcalculationbasetxt
+semantic_en: "transportation calculation base text — stores language-specific descriptions for transportation calculation bases"
+semantic_vi: "văn bản cơ sở tính toán vận chuyển — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các cơ sở tính toán vận chuyển"
+keywords:
+  - tính toán vận chuyển
+  - cơ sở
+  - văn bản
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPPURGGROUP
 description: Transppurggroup
+semantic_en: "Purchasing group projection — references organizational purchasing group master data with identifier and name."
+semantic_vi: "Nhóm mua hàng — dữ liệu chính nhóm mua hàng tổ chức với mã định danh và tên."
+keywords:
+  - nhóm mua hàng
+  - tổ chức mua hàng
+  - mã nhóm
 app_component: TM-MD-ORG-2CL
 software_component: SAPSCORE
 release_state: released

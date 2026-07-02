@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALREPORTTEXT
 description: Technicalreporttext
+semantic_en: "technical report text — provides localized descriptions for catalog profile maintenance categories"
+semantic_vi: "văn bản báo cáo kỹ thuật — cung cấp mô tả bản địa hoá cho các danh mục bảo trì hồ sơ danh mục"
+keywords:
+  - mô tả danh mục
+  - hồ sơ danh mục
+  - ngôn ngữ
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

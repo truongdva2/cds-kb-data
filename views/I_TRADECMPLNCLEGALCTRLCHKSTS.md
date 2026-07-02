@@ -1,6 +1,12 @@
 ---
 name: I_TRADECMPLNCLEGALCTRLCHKSTS
 description: Tradecmplnclegalctrlchksts
+semantic_en: "trade compliance legal control check status — classifies legal control check status for trade compliance on sales document schedule lines"
+semantic_vi: "trạng thái kiểm tra kiểm soát pháp lý tuân thủ thương mại — phân loại trạng thái kiểm tra kiểm soát pháp lý cho tuân thủ thương mại trên các dòng lịch biểu tài liệu bán hàng"
+keywords:
+  - tuân thủ thương mại
+  - kiểm soát pháp lý
+  - kiểm tra
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

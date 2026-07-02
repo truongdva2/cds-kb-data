@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYGLACCOUNTASSIGNREF
 description: Treasurygl AccountASSIGNREF
+semantic_en: "Treasury GL account assignment reference — master reference identifiers for treasury account assignments."
+semantic_vi: "Tham chiếu gán tài khoản GL kho bạc — mã tham chiếu chính cho gán tài khoản kho bạc."
+keywords:
+  - tài khoản kho bạc
+  - tài khoản GL
+  - tham chiếu
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

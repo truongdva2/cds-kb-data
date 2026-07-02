@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCOCODEBPASSGMT
 description: Transpcocodebpassgmt
+semantic_en: "Company code and business partner assignment — maps company codes to business partners with audit trail fields."
+semantic_vi: "Gán mã công ty và đối tác kinh doanh — ánh xạ mã công ty với đối tác kinh doanh kèm trường theo dõi kiểm toán."
+keywords:
+  - gán công ty đối tác
+  - mã công ty
+  - đối tác kinh doanh
 app_component: TM-MD-ORG-2CL
 software_component: SAPSCORE
 release_state: released

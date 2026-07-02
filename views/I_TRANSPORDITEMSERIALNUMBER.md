@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMSERIALNUMBER
 description: TRANSPORDITEMSerial Number
+semantic_en: "Serial number for transportation order item — stores product serial numbers for item-level tracking."
+semantic_vi: "Số seri cho mục đơn hàng vận chuyển — lưu số seri sản phẩm cho theo dõi cấp mục."
+keywords:
+  - số seri vận chuyển
+  - mục sản phẩm
+  - theo dõi seri
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

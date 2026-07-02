@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONRATE
 description: Transportationrate
+semantic_en: "transportation rate — rate master data with value type, charge type, sign type, and calculation sheet reference"
+semantic_vi: "cước phí vận chuyển — dữ liệu chính cước phí với loại giá trị, loại cước, loại ký hiệu"
+keywords:
+  - cước phí
+  - tính toán
+  - loại giá trị
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

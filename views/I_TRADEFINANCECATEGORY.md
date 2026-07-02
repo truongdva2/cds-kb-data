@@ -1,6 +1,12 @@
 ---
 name: I_TRADEFINANCECATEGORY
 description: Tradefinancecategory
+semantic_en: "trade finance category — classifies different categories of trade finance products and services"
+semantic_vi: "danh mục tài chính thương mại — phân loại các danh mục khác nhau của các sản phẩm và dịch vụ tài chính thương mại"
+keywords:
+  - tài chính thương mại
+  - danh mục
+  - phân loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

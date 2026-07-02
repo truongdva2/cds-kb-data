@@ -1,6 +1,12 @@
 ---
 name: I_TOTALSDDOCREFERENCESTATUS
 description: Totalsddocreferencestatus
+semantic_en: "total SD document reference status — indicates the overall reference completion status for sales documents"
+semantic_vi: "trạng thái tham chiếu tài liệu SD tổng cộng — biểu thị trạng thái hoàn thành tham chiếu tổng thể cho các tài liệu bán hàng"
+keywords:
+  - tham chiếu tài liệu
+  - tài liệu SD
+  - trạng thái
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

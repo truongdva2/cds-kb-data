@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDPLANNINGBLOCK
 description: Transpordplanningblock
+semantic_en: "transportation order planning block — domain value mapping for planning block classification"
+semantic_vi: "khối lập kế hoạch đơn hàng vận chuyển — ánh xạ giá trị miền cho phân loại khối lập kế hoạch"
+keywords:
+  - khối lập kế hoạch
+  - phân loại vận chuyển
+  - giá trị miền
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

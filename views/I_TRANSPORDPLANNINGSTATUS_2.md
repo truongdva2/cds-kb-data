@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDPLANNINGSTATUS_2
 description: Transpordplanningstatus 2
+semantic_en: "transportation order planning status — status values for transportation order planning phase"
+semantic_vi: "trạng thái lập kế hoạch đơn hàng vận chuyển — giá trị trạng thái cho giai đoạn lập kế hoạch"
+keywords:
+  - trạng thái lập kế hoạch
+  - đơn hàng vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

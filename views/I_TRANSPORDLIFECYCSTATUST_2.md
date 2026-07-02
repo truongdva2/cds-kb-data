@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDLIFECYCSTATUST_2
 description: Transpordlifecycstatust 2
+semantic_en: "Text labels for transportation order lifecycle status in multiple languages — provides translated lifecycle state descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái vòng đời đơn hàng vận chuyển đa ngôn ngữ — cung cấp mô tả trạng thái vòng đời dịch."
+keywords:
+  - mô tả vòng đời
+  - đa ngôn ngữ
+  - nhãn trạng thái
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

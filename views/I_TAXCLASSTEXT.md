@@ -1,6 +1,12 @@
 ---
 name: I_TAXCLASSTEXT
 description: Taxclasstext
+semantic_en: "tax classification text — provides localized names and descriptions for tax classification codes"
+semantic_vi: "văn bản phân loại thuế — cung cấp tên và mô tả bản địa hoá cho các mã phân loại thuế"
+keywords:
+  - tên phân loại
+  - mô tả thuế
+  - ngôn ngữ
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

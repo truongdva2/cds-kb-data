@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEVENTISRECALLED
 description: Transpordeventisrecalled
+semantic_en: "Domain values for transportation order event recall flag — indicates whether events are recalled or invalidated."
+semantic_vi: "Giá trị miền cho cờ gọi lại sự kiện đơn hàng vận chuyển — chỉ ra sự kiện có bị gọi lại hay không."
+keywords:
+  - gọi lại sự kiện
+  - cờ gọi lại
+  - sự kiện vô hiệu
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMDOCREF
 description: Transporditemdocref
+semantic_en: "Document reference for transportation order item — stores item-level document identifiers, types and dates."
+semantic_vi: "Tham chiếu tài liệu cho mục đơn hàng vận chuyển — lưu các mã tài liệu cấp mục, loại và ngày."
+keywords:
+  - tham chiếu tài liệu mục
+  - mục đơn hàng
+  - mã tài liệu
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

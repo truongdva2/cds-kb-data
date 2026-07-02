@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDERCATEGORYT_2
 description: Transpordercategoryt 2
+semantic_en: "Text labels for transportation order category in multiple languages — provides translated category descriptions."
+semantic_vi: "Nhãn văn bản cho danh mục đơn hàng vận chuyển đa ngôn ngữ — cung cấp mô tả danh mục dịch."
+keywords:
+  - mô tả danh mục
+  - đa ngôn ngữ
+  - nhãn danh mục
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

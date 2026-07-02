@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONPLANNINGSTST
 description: Transportationplanningstst
+semantic_en: "transportation planning status text — multilingual descriptions of planning status codes"
+semantic_vi: "văn bản trạng thái lập kế hoạch vận chuyển — mô tả đa ngôn ngữ của mã trạng thái lập kế hoạch"
+keywords:
+  - lập kế hoạch
+  - mô tả trạng thái
 app_component: LE-TRA
 software_component: SAPSCORE
 release_state: released

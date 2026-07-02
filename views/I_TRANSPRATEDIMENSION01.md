@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION01
 description: Transpratedimension 01
+semantic_en: "Transportation rate dimension 1 — single-dimensional rate scale with amount in rate currency, validity period, and rate reference."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 1 — tỷ lệ một chiều với số tiền theo tiền tệ tỷ giá, kỳ hạn hiệu lực và tham chiếu tỷ giá."
+keywords:
+  - thứ nguyên tỷ giá
+  - tỷ lệ vận chuyển
+  - tiền tệ tỷ giá
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

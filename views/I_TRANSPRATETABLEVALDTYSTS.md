@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEVALDTYSTS
 description: Transpratetablevaldtysts
+semantic_en: "Rate table validity lifecycle status — domain values representing status of rate table validity periods."
+semantic_vi: "Trạng thái vòng đời hiệu lực bảng tỷ giá — giá trị miền đại diện cho trạng thái của kỳ hạn hiệu lực bảng tỷ giá."
+keywords:
+  - trạng thái vòng đời
+  - hiệu lực bảng tỷ giá
+  - giá trị miền
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

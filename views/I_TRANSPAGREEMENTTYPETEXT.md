@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTTYPETEXT
 description: Transpagreementtypetext
+semantic_en: "transportation agreement type text — stores language-specific names for transportation agreement types"
+semantic_vi: "văn bản loại thỏa thuận vận chuyển — lưu trữ tên gọi cụ thể theo ngôn ngữ cho các loại thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - loại
+  - văn bản
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

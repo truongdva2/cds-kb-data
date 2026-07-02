@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEVALIDITYTP
 description: Transpratetablevaliditytp
+semantic_en: "Rate table validity period - TP — third-party projection of rate table validity with currency, lifecycle status, date range and percentage unit."
+semantic_vi: "Kỳ hạn hiệu lực bảng tỷ giá - TP — chiếu bên thứ ba của hiệu lực bảng tỷ giá với tiền tệ, trạng thái vòng đời, phạm vi ngày và đơn vị phần trăm."
+keywords:
+  - kỳ hạn hiệu lực
+  - bảng tỷ giá vận chuyển
+  - bên thứ ba
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

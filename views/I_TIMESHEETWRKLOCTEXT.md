@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETWRKLOCTEXT
 description: Timesheetwrkloctext
+semantic_en: "timesheet work location text — provides language-specific names for work location codes used in timesheet records"
+semantic_vi: "văn bản địa điểm làm việc bảng tính — cung cấp tên gọi cụ thể theo ngôn ngữ cho các mã địa điểm làm việc được sử dụng trong bảng tính thời gian"
+keywords:
+  - địa điểm làm việc
+  - văn bản địa điểm
+  - bảng tính
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

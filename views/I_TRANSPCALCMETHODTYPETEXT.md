@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCALCMETHODTYPETEXT
 description: Transpcalcmethodtypetext
+semantic_en: "transportation calculation method type text — provides language-specific descriptions for calculation method types"
+semantic_vi: "văn bản loại phương pháp tính toán vận chuyển — cung cấp các mô tả cụ thể theo ngôn ngữ cho các loại phương pháp tính toán"
+keywords:
+  - tính toán vận chuyển
+  - phương pháp
+  - văn bản
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

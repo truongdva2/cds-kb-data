@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONRATETABLETP
 description: Transportationratetabletp
+semantic_en: "transportation rate table — rate table definition with value type, charge type, sign type, and audit timestamps"
+semantic_vi: "bảng cước phí vận chuyển — định nghĩa bảng cước phí với loại giá trị, loại cước, ký hiệu, và dấu thời gian"
+keywords:
+  - bảng cước phí
+  - định nghĩa
+  - dấu thời gian
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

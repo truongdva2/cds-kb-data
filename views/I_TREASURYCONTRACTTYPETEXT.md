@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYCONTRACTTYPETEXT
 description: Treasurycontracttypetext
+semantic_en: "Treasury contract type text — multilingual descriptions of treasury contract type classifications."
+semantic_vi: "Văn bản loại hợp đồng kho bạc — mô tả đa ngôn ngữ của phân loại loại hợp đồng kho bạc."
+keywords:
+  - hợp đồng tài chính
+  - kho bạc
+  - mô tả loại
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

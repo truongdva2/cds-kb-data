@@ -1,6 +1,12 @@
 ---
 name: I_TEMPINDCNDNTEXT
 description: Tempindcndntext
+semantic_en: "temperature condition text — provides localized names for temperature condition indicators"
+semantic_vi: "văn bản điều kiện nhiệt độ — cung cấp tên bản địa hoá cho các chỉ báo điều kiện nhiệt độ"
+keywords:
+  - tên điều kiện
+  - nhiệt độ
+  - mô tả
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

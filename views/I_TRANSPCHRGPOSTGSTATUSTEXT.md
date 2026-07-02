@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHRGPOSTGSTATUSTEXT
 description: Transpchrgpostgstatustext
+semantic_en: "Text labels for transportation charge posting status in multiple languages — provides translated status descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái ghi sổ phí vận chuyển đa ngôn ngữ — cung cấp mô tả trạng thái dịch."
+keywords:
+  - mô tả ghi sổ phí
+  - đa ngôn ngữ
+  - nhãn ghi
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

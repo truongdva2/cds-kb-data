@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGEITEM
 description: Transpchargeitem
+semantic_en: "Transportation charge item — links charges to orders, nodes, agreements with calculation levels, posting status, and host documents."
+semantic_vi: "Mục phí vận chuyển — liên kết phí với đơn hàng, nút, thỏa thuận cùng với mức tính toán, trạng thái ghi sổ và tài liệu chủ."
+keywords:
+  - mục phí vận chuyển
+  - liên kết đơn hàng
+  - trạng thái ghi sổ
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

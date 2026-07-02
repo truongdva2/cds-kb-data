@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMTYPETEXT_2
 description: Transporditemtypetext 2
+semantic_en: "Text descriptions for transportation order item type in multiple languages — provides translated item type labels."
+semantic_vi: "Mô tả văn bản cho loại mục đơn hàng vận chuyển đa ngôn ngữ — cung cấp nhãn loại mục dịch."
+keywords:
+  - mô tả loại mục
+  - đa ngôn ngữ
+  - nhãn loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

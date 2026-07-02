@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION05
 description: Transpratedimension 05
+semantic_en: "Transportation rate dimension 5 — five-dimensional rate scale combining five scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 5 — tỷ lệ năm chiều kết hợp năm mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên năm chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ năm chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

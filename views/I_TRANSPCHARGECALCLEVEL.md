@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCLEVEL
 description: Transpchargecalclevel
+semantic_en: "transportation charge calculation level — specifies the hierarchical level at which transportation charges are calculated"
+semantic_vi: "mức độ tính toán phí vận chuyển — chỉ định mức cấp bậc tại đó phí vận chuyển được tính toán"
+keywords:
+  - tính toán phí
+  - vận chuyển
+  - mức độ
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

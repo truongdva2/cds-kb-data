@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGEINSTRNTYPETEXT
 description: Transpchargeinstrntypetext
+semantic_en: "Text labels for transportation charge instruction type in multiple languages — provides translated descriptions."
+semantic_vi: "Nhãn văn bản cho loại hướng dẫn phí vận chuyển đa ngôn ngữ — cung cấp mô tả dịch."
+keywords:
+  - mô tả loại hướng dẫn
+  - đa ngôn ngữ
+  - nhãn hướng dẫn
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSBSDMATLVALUECHAINITEM
 description: Transbsdmatlvaluechainitem
+semantic_en: "transaction-based material value chain item — breaks down material value chain items by movement type, process category, and costing details for transaction analysis"
+semantic_vi: "mục chuỗi giá trị vật liệu dựa trên giao dịch — chia nhỏ các mục chuỗi giá trị vật liệu theo loại chuyển động, danh mục quá trình và chi tiết định giá cho phân tích giao dịch"
+keywords:
+  - chuỗi giá trị vật liệu
+  - giao dịch
+  - loại chuyển động
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

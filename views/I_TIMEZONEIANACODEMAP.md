@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONEIANACODEMAP
 description: Timezoneianacodemap
+semantic_en: "time zone IANA code map — maps IANA time zone codes to SAP time zone identifiers with default settings"
+semantic_vi: "bản đồ mã múi giờ IANA — ánh xạ các mã múi giờ IANA sang các định danh múi giờ SAP với các cài đặt mặc định"
+keywords:
+  - mã IANA
+  - múi giờ
+  - ánh xạ
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

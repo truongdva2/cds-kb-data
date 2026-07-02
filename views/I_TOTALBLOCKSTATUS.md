@@ -1,6 +1,12 @@
 ---
 name: I_TOTALBLOCKSTATUS
 description: Totalblockstatus
+semantic_en: "total block status — defines the overall blocking status for sales and logistics documents"
+semantic_vi: "trạng thái khóa tổng cộng — định nghĩa trạng thái khóa tổng thể cho các tài liệu bán hàng và hậu cần"
+keywords:
+  - trạng thái khóa
+  - tổng cộng
+  - khóa tài liệu
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDINVCGCARRIERLVLT
 description: Transpordinvcgcarrierlvlt
+semantic_en: "Text labels for invoicing carrier level in multiple languages — provides translated carrier hierarchy descriptions."
+semantic_vi: "Nhãn văn bản cho mức vận tải lập hóa đơn đa ngôn ngữ — cung cấp mô tả cấp bậc vận tải dịch."
+keywords:
+  - mô tả mức vận tải
+  - đa ngôn ngữ
+  - nhãn vận tải
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

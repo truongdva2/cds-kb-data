@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONCHARGEELEMENT
 description: Transportationchargeelement
+semantic_en: "transportation charge element — calculation sheet line items for charges with type, base, and manual override flags"
+semantic_vi: "phần tử chi phí vận chuyển — các mục dòng bảng tính tính toán chi phí với loại, cơ sở và cờ ghi đè"
+keywords:
+  - phần tử chi phí
+  - tính toán
+  - loại cước phí
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

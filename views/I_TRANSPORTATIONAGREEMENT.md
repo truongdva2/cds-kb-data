@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONAGREEMENT
 description: Transportationagreement
+semantic_en: "transportation agreement — master data with agreement identifier, validity dates, currency, mode, and shipping type"
+semantic_vi: "thỏa thuận vận chuyển — dữ liệu chính với mã thỏa thuận, ngày hiệu lực, tiền tệ, chế độ và loại vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - ngày hiệu lực
+  - tiền tệ
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

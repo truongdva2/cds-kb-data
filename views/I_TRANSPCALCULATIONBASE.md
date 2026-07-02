@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCALCULATIONBASE
 description: Transpcalculationbase
+semantic_en: "transportation calculation base — defines the bases used for calculating transportation charges or scale items"
+semantic_vi: "cơ sở tính toán vận chuyển — định nghĩa các cơ sở được sử dụng để tính toán phí vận chuyển hoặc các mục thang đo"
+keywords:
+  - tính toán vận chuyển
+  - cơ sở
+  - phí
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

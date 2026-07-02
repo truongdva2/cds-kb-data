@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATESIGNTYPETEXT
 description: Transpratesigntypetext
+semantic_en: "Transportation rate sign type text — multilingual descriptions of rate sign types from domain values."
+semantic_vi: "Văn bản loại ký dấu tỷ giá vận chuyển — mô tả đa ngôn ngữ của loại ký dấu tỷ giá từ giá trị miền."
+keywords:
+  - loại ký dấu tỷ giá
+  - mô tả tỷ giá
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCBASE
 description: Transpchargecalcbase
+semantic_en: "transportation charge calculation base — breaks down the calculation base elements for transportation charges including quantities and amounts"
+semantic_vi: "cơ sở tính toán phí vận chuyển — chia nhỏ các phần tử cơ sở tính toán cho phí vận chuyển bao gồm số lượng và số tiền"
+keywords:
+  - tính toán phí
+  - vận chuyển
+  - số lượng
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

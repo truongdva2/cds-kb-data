@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDCONFIRMATIONSTATUS
 description: Transpordconfirmationstatus
+semantic_en: "Domain values for transportation order confirmation status — classifies order confirmation states."
+semantic_vi: "Giá trị miền cho trạng thái xác nhận đơn hàng vận chuyển — phân loại các trạng thái xác nhận đơn."
+keywords:
+  - trạng thái xác nhận
+  - đơn hàng vận chuyển
+  - xác nhận đơn
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

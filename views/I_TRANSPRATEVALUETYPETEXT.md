@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEVALUETYPETEXT
 description: Transpratevaluetypetext
+semantic_en: "Transportation rate value type text — multilingual descriptions of rate value types from domain values."
+semantic_vi: "Văn bản loại giá trị tỷ giá vận chuyển — mô tả đa ngôn ngữ của loại giá trị tỷ giá từ giá trị miền."
+keywords:
+  - loại giá trị tỷ giá
+  - mô tả tỷ giá
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

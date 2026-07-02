@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTGEINVCGCARRLVL
 description: Transpordstgeinvcgcarrlvl
+semantic_en: "transportation order stage invoicing carrier level — domain value for invoicing level at carrier stage"
+semantic_vi: "mức nhà cung cấp tính hóa đơn giai đoạn đơn hàng vận chuyển — giá trị miền cho mức tính hóa đơn"
+keywords:
+  - nhà cung cấp vận chuyển
+  - mức tính hóa đơn
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

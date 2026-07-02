@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCALETYPETEXT_2
 description: Transpscaletypetext 2
+semantic_en: "Transportation scale type text — multilingual descriptions of transportation scale type classifications."
+semantic_vi: "Văn bản loại tỷ lệ vận chuyển — mô tả đa ngôn ngữ của phân loại loại tỷ lệ vận chuyển."
+keywords:
+  - loại tỷ lệ vận chuyển
+  - mô tả tỷ lệ
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

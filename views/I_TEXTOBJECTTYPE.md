@@ -1,6 +1,12 @@
 ---
 name: I_TEXTOBJECTTYPE
 description: Textobjecttype
+semantic_en: "text object type — assigns text object types to categories for organized text management"
+semantic_vi: "loại đối tượng văn bản — gán loại đối tượng văn bản cho các danh mục để quản lý văn bản có tổ chức"
+keywords:
+  - loại văn bản
+  - danh mục
+  - quản lý văn bản
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

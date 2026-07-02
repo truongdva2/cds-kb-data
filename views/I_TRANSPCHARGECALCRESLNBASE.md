@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCRESLNBASE
 description: Transpchargecalcreslnbase
+semantic_en: "transportation charge calculation resolution base — defines the resolution or grouping basis for transportation charge calculations"
+semantic_vi: "cơ sở giải quyết tính toán phí vận chuyển — định nghĩa cơ sở giải quyết hoặc nhóm cho các tính toán phí vận chuyển"
+keywords:
+  - tính toán phí
+  - giải quyết
+  - cơ sở
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

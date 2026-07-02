@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJAUTHZNGRP
 description: Techobjauthzngrp
+semantic_en: "technical object authorization group — assigns authorization group codes for access control to technical objects"
+semantic_vi: "nhóm ủy quyền đối tượng kỹ thuật — gán mã nhóm ủy quyền cho kiểm soát truy cập vào đối tượng kỹ thuật"
+keywords:
+  - ủy quyền
+  - nhóm ủy quyền
+  - kiểm soát truy cập
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

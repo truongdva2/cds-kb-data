@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYHEDGINGCLASSFCTN
 description: Treasuryhedgingclassfctn
+semantic_en: "Treasury hedging classification — hedging strategy classifications for derivative and cash flow management."
+semantic_vi: "Phân loại phòng hộ kho bạc — phân loại chiến lược phòng hộ cho quản lý phái sinh và dòng tiền."
+keywords:
+  - phòng hộ rủi ro
+  - kho bạc
+  - phân loại chiến lược
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

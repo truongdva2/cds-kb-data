@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALOBJECTTYPE
 description: Technicalobjecttype
+semantic_en: "technical object type — defines equipment or functional location types for asset classification"
+semantic_vi: "loại đối tượng kỹ thuật — xác định loại thiết bị hoặc loại vị trí chức năng cho phân loại tài sản"
+keywords:
+  - loại thiết bị
+  - loại đối tượng
+  - phân loại
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

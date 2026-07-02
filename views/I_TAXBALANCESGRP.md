@@ -1,6 +1,12 @@
 ---
 name: I_TAXBALANCESGRP
 description: Taxbalancesgrp
+semantic_en: "tax balance grouping numbers — defines grouping, operation, and sign rules for tax balance transactions by country and code"
+semantic_vi: "mã nhóm số dư thuế — xác định quy tắc nhóm, phép toán, và dấu cho các giao dịch số dư thuế theo quốc gia và mã"
+keywords:
+  - nhóm số dư
+  - thuế
+  - phép toán
 app_component: FI-LOC-VAT-GEN
 software_component: SAPSCORE
 release_state: released

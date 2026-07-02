@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPMOVEMENTTYPE
 description: Transpmovementtype
+semantic_en: "Movement type for transportation — defines the types of goods movement operations."
+semantic_vi: "Loại chuyển động cho vận chuyển — xác định các loại hoạt động chuyển động hàng hóa."
+keywords:
+  - loại chuyển động
+  - phân loại chuyển động
+  - vận chuyển hàng
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

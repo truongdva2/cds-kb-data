@@ -1,6 +1,12 @@
 ---
 name: I_TIMEZONETEXT
 description: Timezonetext
+semantic_en: "time zone text — provides language-specific names and descriptions for time zones"
+semantic_vi: "văn bản múi giờ — cung cấp tên gọi và mô tả cụ thể theo ngôn ngữ cho các múi giờ"
+keywords:
+  - múi giờ
+  - văn bản
+  - ngôn ngữ
 app_component: BC-SRV-TIM-TZ
 software_component: SAP_BASIS
 release_state: released

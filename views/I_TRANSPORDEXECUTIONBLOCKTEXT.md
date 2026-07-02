@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEXECUTIONBLOCKTEXT
 description: Transpordexecutionblocktext
+semantic_en: "Text labels for transportation order execution block status in multiple languages — provides translated block state descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái chặn thực thi đơn hàng vận chuyển đa ngôn ngữ — cung cấp mô tả trạng thái chặn dịch."
+keywords:
+  - mô tả chặn thực thi
+  - đa ngôn ngữ
+  - nhãn chặn
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

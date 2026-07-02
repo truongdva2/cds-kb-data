@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION08
 description: Transpratedimension 08
+semantic_en: "Transportation rate dimension 8 — eight-dimensional rate scale combining eight scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 8 — tỷ lệ tám chiều kết hợp tám mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên tám chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ tám chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

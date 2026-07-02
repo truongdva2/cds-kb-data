@@ -1,6 +1,12 @@
 ---
 name: I_TAXTYPETEXT
 description: Taxtypetext
+semantic_en: "tax type text — provides localized names for tax type categories"
+semantic_vi: "văn bản loại thuế — cung cấp tên bản địa hoá cho các danh mục loại thuế"
+keywords:
+  - tên loại thuế
+  - mô tả
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

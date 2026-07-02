@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHRGCALCSHEETITEM
 description: Transpchrgcalcsheetitem
+semantic_en: "Calculation sheet item for transportation charges — defines charge types, resolution bases, rates, currencies, amounts and percentages."
+semantic_vi: "Mục bảng tính toán phí vận chuyển — xác định loại phí, cơ sở giải quyết, tỷ giá, tiền tệ, số tiền và phần trăm."
+keywords:
+  - bảng tính toán phí
+  - mục tính toán
+  - tỷ giá vận chuyển
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

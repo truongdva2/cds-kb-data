@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEXECUTIONISBLOCKED
 description: Transpordexecutionisblocked
+semantic_en: "Domain values for transportation order execution block flag — indicates whether order execution is blocked."
+semantic_vi: "Giá trị miền cho cờ chặn thực thi đơn hàng vận chuyển — chỉ ra thực thi đơn có bị chặn hay không."
+keywords:
+  - chặn thực thi
+  - cờ chặn
+  - trạng thái chặn
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

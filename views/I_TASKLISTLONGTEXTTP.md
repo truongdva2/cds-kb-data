@@ -1,6 +1,12 @@
 ---
 name: I_TASKLISTLONGTEXTTP
 description: Tasklistlongtexttp
+semantic_en: "maintenance task list long text — contains task type, group, validity period, and descriptive long text in multiple languages"
+semantic_vi: "văn bản dài danh sách công việc bảo trì — chứa loại công việc, nhóm, thời hạn hiệu lực, và nội dung mô tả bằng nhiều ngôn ngữ"
+keywords:
+  - danh sách công việc
+  - văn bản bảo trì
+  - bảo dưỡng thiết bị
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

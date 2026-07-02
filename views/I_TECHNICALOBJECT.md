@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALOBJECT
 description: Technicalobject
+semantic_en: "technical object — represents equipment or functional location with hierarchy, type, and lifecycle metadata"
+semantic_vi: "đối tượng kỹ thuật — đại diện cho thiết bị hoặc vị trí chức năng với dữ liệu phân cấp, loại, và vòng đời"
+keywords:
+  - thiết bị
+  - vị trí chức năng
+  - đối tượng kỹ thuật
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

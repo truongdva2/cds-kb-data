@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCALCULATIONDATETYPE
 description: Transpcalculationdatetype
+semantic_en: "transportation calculation date type — specifies the date type used as reference for transportation charge calculations"
+semantic_vi: "loại ngày tính toán vận chuyển — chỉ định loại ngày được sử dụng làm tham chiếu cho các tính toán phí vận chuyển"
+keywords:
+  - tính toán vận chuyển
+  - ngày
+  - loại ngày
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

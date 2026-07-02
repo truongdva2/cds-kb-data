@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONMODECATEGORY
 description: Transportationmodecategory
+semantic_en: "transportation mode category — domain values classifying transportation modes"
+semantic_vi: "danh mục chế độ vận chuyển — giá trị miền phân loại các chế độ vận chuyển"
+keywords:
+  - chế độ vận chuyển
+  - danh mục
+  - phân loại
 app_component: TM-MD-TN-2CL
 software_component: SAPSCORE
 release_state: released

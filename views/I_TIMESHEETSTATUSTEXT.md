@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETSTATUSTEXT
 description: Timesheetstatustext
+semantic_en: "timesheet status text — provides language-specific descriptions for status codes applied to timesheet records"
+semantic_vi: "văn bản trạng thái bảng tính — cung cấp các mô tả cụ thể theo ngôn ngữ cho các mã trạng thái áp dụng cho các bản ghi bảng tính thời gian"
+keywords:
+  - trạng thái bảng tính
+  - mã trạng thái
+  - text trạng thái
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

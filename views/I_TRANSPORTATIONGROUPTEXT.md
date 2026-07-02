@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONGROUPTEXT
 description: Transportationgrouptext
+semantic_en: "transportation group text — multilingual names and descriptions of transportation groups"
+semantic_vi: "văn bản nhóm vận chuyển — tên và mô tả đa ngôn ngữ của các nhóm vận chuyển"
+keywords:
+  - nhóm vận chuyển
+  - tên
+  - mô tả
 app_component: TM-MD-PR-2CL
 software_component: SAPSCORE
 release_state: released

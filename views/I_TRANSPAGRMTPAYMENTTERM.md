@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGRMTPAYMENTTERM
 description: Transpagrmtpaymentterm
+semantic_en: "transportation agreement payment term — specifies payment terms associated with transportation agreement items"
+semantic_vi: "điều khoản thanh toán thỏa thuận vận chuyển — chỉ định các điều khoản thanh toán liên quan đến các mục thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - thanh toán
+  - điều khoản
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

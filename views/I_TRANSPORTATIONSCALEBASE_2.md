@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONSCALEBASE_2
 description: Transportationscalebase 2
+semantic_en: "transportation scale base — characteristics of scale bases including data type, dimension, and unit-of-measure flags"
+semantic_vi: "cơ sở bảng tỷ lệ vận chuyển — đặc điểm cơ sở bảng tỷ lệ với loại dữ liệu, kích thước, cờ đơn vị đo"
+keywords:
+  - cơ sở tỷ lệ
+  - loại dữ liệu
+  - đơn vị
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

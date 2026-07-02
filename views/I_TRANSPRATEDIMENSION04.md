@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION04
 description: Transpratedimension 04
+semantic_en: "Transportation rate dimension 4 — four-dimensional rate scale combining four scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 4 — tỷ lệ bốn chiều kết hợp bốn mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên bốn chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ bốn chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

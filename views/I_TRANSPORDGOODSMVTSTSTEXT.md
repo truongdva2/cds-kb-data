@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDGOODSMVTSTSTEXT
 description: Transpordgoodsmvtststext
+semantic_en: "Text labels for goods movement status in multiple languages — provides translated movement state descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái chuyển động hàng hóa đa ngôn ngữ — cung cấp mô tả trạng thái chuyển động dịch."
+keywords:
+  - mô tả chuyển động hàng
+  - đa ngôn ngữ
+  - nhãn trạng thái
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

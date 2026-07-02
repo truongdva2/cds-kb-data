@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETTP
 description: Timesheettp
+semantic_en: "timesheet TP — master timesheet records with recorded hours, work assignment, dates, and billing control information"
+semantic_vi: "bảng tính TP — các bản ghi bảng tính chính với giờ làm việc được ghi lại, phân công công việc, ngày tháng và thông tin kiểm soát lập hóa đơn"
+keywords:
+  - bảng tính
+  - giờ làm việc
+  - phân công công việc
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

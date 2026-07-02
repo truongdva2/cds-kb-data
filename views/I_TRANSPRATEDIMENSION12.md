@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION12
 description: Transpratedimension 12
+semantic_en: "Transportation rate dimension 12 — twelve-dimensional rate scale combining twelve scale item references."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 12 — tỷ lệ mười hai chiều kết hợp mười hai tham chiếu mục tỷ lệ."
+keywords:
+  - thứ nguyên mười hai chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ đa chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

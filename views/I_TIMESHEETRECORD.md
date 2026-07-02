@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEETRECORD
 description: Timesheetrecord
+semantic_en: "time recording data — captures recorded hours, project allocation, cost assignment, and quantity metrics for time tracking"
+semantic_vi: "dữ liệu ghi nhận thời gian — ghi lại giờ ghi nhận, phân bổ dự án, gán chi phí, và chỉ số lượng cho theo dõi thời gian"
+keywords:
+  - ghi nhận giờ
+  - phân bổ dự án
+  - chi phí
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

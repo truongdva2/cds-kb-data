@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTITEM_2
 description: Transpagreementitem 2
+semantic_en: "transportation agreement item — details individual line items within transportation agreements including charge calculations"
+semantic_vi: "mục thỏa thuận vận chuyển — chi tiết các mục dòng riêng lẻ trong các thỏa thuận vận chuyển bao gồm tính toán phí tổn"
+keywords:
+  - thỏa thuận vận chuyển
+  - mục
+  - phí tổn
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

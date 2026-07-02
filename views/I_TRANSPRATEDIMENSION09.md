@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION09
 description: Transpratedimension 09
+semantic_en: "Transportation rate dimension 9 — nine-dimensional rate scale combining nine scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 9 — tỷ lệ chín chiều kết hợp chín mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên chín chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ chín chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

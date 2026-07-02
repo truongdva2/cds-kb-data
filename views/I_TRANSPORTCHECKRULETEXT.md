@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTCHECKRULETEXT
 description: Transportcheckruletext
+semantic_en: "Transport check rule text reference — multilingual descriptions mapped by rule identifier and language code."
+semantic_vi: "Văn bản quy tắc kiểm tra vận chuyển — mô tả đa ngôn ngữ ánh xạ theo mã quy tắc và mã ngôn ngữ."
+keywords:
+  - quy tắc kiểm tra vận chuyển
+  - mô tả vận chuyển
+  - ngôn ngữ
 app_component: EHS-SUS-DG
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHRGELMNTEXCHANGERATE
 description: TRANSPCHRGELMNTExchange Rate
+semantic_en: "Exchange rate for transportation charge element — stores source and target currencies, rates, manual override flag, type and date."
+semantic_vi: "Tỷ giá hối đoái cho yếu tố phí vận chuyển — lưu tiền tệ nguồn và đích, tỷ giá, cờ ghi đè thручного, loại và ngày."
+keywords:
+  - tỷ giá phí vận chuyển
+  - hối đoái
+  - tiền tệ yếu tố
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

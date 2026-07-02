@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDERSTAGE_2
 description: Transportationorderstage 2
+semantic_en: "transportation order stage — stages within orders defining mode, shipping type, vessel/flight data, and carrier"
+semantic_vi: "giai đoạn đơn hàng vận chuyển — các giai đoạn với chế độ, loại vận chuyển, tàu/chuyến bay, nhà cung cấp"
+keywords:
+  - giai đoạn vận chuyển
+  - nhà cung cấp
+  - tàu/máy bay
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

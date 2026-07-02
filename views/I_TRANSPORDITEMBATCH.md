@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMBATCH
 description: Transporditembatch
+semantic_en: "Batch information for transportation order item — stores batch numbers, manufacture dates, shelf life and product references."
+semantic_vi: "Thông tin lô cho mục đơn hàng vận chuyển — lưu số lô, ngày sản xuất, hạn bảo quản và tham chiếu sản phẩm."
+keywords:
+  - lô hàng vận chuyển
+  - số lô
+  - hạn sản phẩm
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

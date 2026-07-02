@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONORDERTYPET_2
 description: Transportationordertypet 2
+semantic_en: "transportation order type text — multilingual descriptions of transportation order type codes"
+semantic_vi: "văn bản loại đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã loại đơn hàng"
+keywords:
+  - loại đơn hàng
+  - mô tả đa ngôn ngữ
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

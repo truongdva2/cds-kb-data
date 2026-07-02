@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDWHSEPROCGSTSTEXT
 description: Transpordwhseprocgststext
+semantic_en: "transportation order warehouse processing status text — multilingual descriptions of warehouse processing status"
+semantic_vi: "văn bản trạng thái xử lý kho hàng đơn hàng vận chuyển — mô tả đa ngôn ngữ của trạng thái kho hàng"
+keywords:
+  - xử lý kho hàng
+  - mô tả
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

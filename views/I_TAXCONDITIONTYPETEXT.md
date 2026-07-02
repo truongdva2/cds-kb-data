@@ -1,6 +1,13 @@
 ---
 name: I_TAXCONDITIONTYPETEXT
 description: Taxconditiontypetext
+semantic_en: "tax condition type text — provides localized names for condition types used in sales and purchase tax processing"
+semantic_vi: "văn bản loại điều kiện thuế — cung cấp tên bản địa hoá cho loại điều kiện được sử dụng trong xử lý thuế bán hàng và mua hàng"
+keywords:
+  - tên điều kiện
+  - loại điều kiện
+  - bán hàng
+  - mua hàng
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

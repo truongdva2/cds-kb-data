@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORTATIONMODECATEGORYT
 description: Transportationmodecategoryt
+semantic_en: "transportation mode category text — multilingual descriptions of mode category codes"
+semantic_vi: "văn bản danh mục chế độ vận chuyển — mô tả đa ngôn ngữ của mã danh mục chế độ"
+keywords:
+  - chế độ vận chuyển
+  - mô tả
 app_component: TM-MD-TN-2CL
 software_component: SAPSCORE
 release_state: released

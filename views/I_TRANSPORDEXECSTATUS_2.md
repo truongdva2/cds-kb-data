@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEXECSTATUS_2
 description: Transpordexecstatus 2
+semantic_en: "Domain values for transportation order execution status — classifies order execution states."
+semantic_vi: "Giá trị miền cho trạng thái thực thi đơn hàng vận chuyển — phân loại các trạng thái thực thi đơn."
+keywords:
+  - trạng thái thực thi
+  - phân loại thực thi
+  - trạng thái đơn
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

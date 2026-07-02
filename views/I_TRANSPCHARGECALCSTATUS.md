@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCSTATUS
 description: Transpchargecalcstatus
+semantic_en: "Domain values for transportation charge calculation status — maps status codes to business meanings."
+semantic_vi: "Giá trị miền cho trạng thái tính toán phí vận chuyển — ánh xạ các mã trạng thái đến ý nghĩa kinh doanh."
+keywords:
+  - trạng thái tính phí
+  - miền giá trị
+  - phân loại trạng thái
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

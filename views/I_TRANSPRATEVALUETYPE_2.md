@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEVALUETYPE_2
 description: Transpratevaluetype 2
+semantic_en: "Transportation rate value type — domain values for rate value type classification."
+semantic_vi: "Loại giá trị tỷ giá vận chuyển — giá trị miền cho phân loại loại giá trị tỷ giá."
+keywords:
+  - loại giá trị tỷ giá
+  - tỷ giá vận chuyển
+  - giá trị miền
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

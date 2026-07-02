@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTSTATUS
 description: Transpagreementstatus
+semantic_en: "transportation agreement status — classifies the status of transportation agreements in the system"
+semantic_vi: "trạng thái thỏa thuận vận chuyển — phân loại trạng thái của các thỏa thuận vận chuyển trong hệ thống"
+keywords:
+  - thỏa thuận vận chuyển
+  - trạng thái
+  - phân loại
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

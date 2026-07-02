@@ -1,6 +1,12 @@
 ---
 name: I_TAXAUTHORITYDOCUMENTHISTORY
 description: Taxauthoritydocumenthistory
+semantic_en: "tax authority document history record — maintains historical snapshots of tax document status changes, authorization, and audit trail"
+semantic_vi: "hồ sơ lịch sử tài liệu cơ quan thuế — ghi lại các bản ghi tại các thời điểm khác nhau của tài liệu thuế, trạng thái, và theo dõi kiểm tra"
+keywords:
+  - lịch sử tài liệu
+  - thay đổi trạng thái
+  - kiểm tra thuế
 app_component: CA-GTF-CSC-EDC
 software_component: SAPSCORE
 release_state: released

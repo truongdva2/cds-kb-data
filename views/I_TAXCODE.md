@@ -1,6 +1,12 @@
 ---
 name: I_TAXCODE
 description: Taxcode
+semantic_en: "tax code master — defines sales tax codes with EU classification, tolerance, and tax procedure assignment"
+semantic_vi: "danh sách mã thuế chính — xác định các mã thuế bán hàng với phân loại EU, dung sai, và gán thủ tục thuế"
+keywords:
+  - mã thuế
+  - thuế bán hàng
+  - phân loại EU
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMCOMMODITYCODE
 description: Transporditemcommoditycode
+semantic_en: "Commodity code for transportation order item — stores commodity codes with numbering scheme reference."
+semantic_vi: "Mã hàng hóa cho mục đơn hàng vận chuyển — lưu mã hàng hóa với tham chiếu sơ đồ đánh số."
+keywords:
+  - mã hàng hóa
+  - mục vận chuyển
+  - phân loại hàng
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

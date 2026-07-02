@@ -1,6 +1,12 @@
 ---
 name: I_TRDPREFSTMNTINTORIGINCODE
 description: Trdprefstmntintorigincode
+semantic_en: "Trade preference statement internal origin code — domain values for commodity origin classification in preference statements."
+semantic_vi: "Mã nguồn gốc nội bộ tuyên bố ưu tiên thương mại — giá trị miền cho phân loại nguồn gốc hàng hóa trong tuyên bố ưu tiên."
+keywords:
+  - ưu tiên thương mại
+  - mã nguồn gốc
+  - phân loại hàng hóa
 app_component: FT-ITR-TRC
 software_component: SAPSCORE
 release_state: released

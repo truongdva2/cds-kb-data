@@ -1,6 +1,12 @@
 ---
 name: I_TAXCLASS
 description: Taxclass
+semantic_en: "tax classification — maps classification category to specific tax class codes"
+semantic_vi: "phân loại thuế — liên kết danh mục phân loại với các mã lớp thuế cụ thể"
+keywords:
+  - phân loại thuế
+  - danh mục thuế
+  - mã thuế
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONZONE
 description: Transportationzone
+semantic_en: "transportation zone — master data for geographic zones with country code"
+semantic_vi: "vùng vận chuyển — dữ liệu chính cho vùng địa lý với mã quốc gia"
+keywords:
+  - vùng vận chuyển
+  - quốc gia
+  - địa lý
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

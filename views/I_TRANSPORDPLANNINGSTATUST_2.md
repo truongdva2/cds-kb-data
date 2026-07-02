@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDPLANNINGSTATUST_2
 description: Transpordplanningstatust 2
+semantic_en: "transportation order planning status text — multilingual descriptions of planning status codes"
+semantic_vi: "văn bản trạng thái lập kế hoạch đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã trạng thái"
+keywords:
+  - trạng thái lập kế hoạch
+  - mô tả đa ngôn ngữ
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

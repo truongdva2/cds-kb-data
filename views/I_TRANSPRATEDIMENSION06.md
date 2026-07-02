@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION06
 description: Transpratedimension 06
+semantic_en: "Transportation rate dimension 6 — six-dimensional rate scale combining six scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 6 — tỷ lệ sáu chiều kết hợp sáu mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên sáu chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ sáu chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

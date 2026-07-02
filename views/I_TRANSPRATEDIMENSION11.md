@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION11
 description: Transpratedimension 11
+semantic_en: "Transportation rate dimension 11 — eleven-dimensional rate scale combining eleven scale item references."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 11 — tỷ lệ mười một chiều kết hợp mười một tham chiếu mục tỷ lệ."
+keywords:
+  - thứ nguyên mười một chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ đa chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

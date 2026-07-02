@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONZONETEXT
 description: Transportationzonetext
+semantic_en: "transportation zone text — multilingual descriptions of transportation zones by country"
+semantic_vi: "văn bản vùng vận chuyển — mô tả đa ngôn ngữ của các vùng vận chuyển theo quốc gia"
+keywords:
+  - vùng vận chuyển
+  - mô tả
+  - quốc gia
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TIMEOVERVIEWBYWRKAGRMTANDDTE
 description: Timeoverviewbywrkagrmtanddte
+semantic_en: "time overview by work agreement and date — displays person availability including planned hours, absences, overtime, and actual attendance"
+semantic_vi: "tổng quan thời gian theo hiệp định làm việc và ngày — hiển thị tính sẵn sàng của người bao gồm giờ dự kiến, vắng mặt, làm thêm giờ, và tham dự thực tế"
+keywords:
+  - tính sẵn sàng người lao động
+  - thời gian làm việc
+  - giờ
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

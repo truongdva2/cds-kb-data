@@ -1,6 +1,12 @@
 ---
 name: I_TAXCODERATE
 description: Taxcoderate
+semantic_en: "tax code rates view — displays tax codes with validity periods, rates, and condition-based tax assignment by country"
+semantic_vi: "chế độ xem tỷ lệ mã thuế — hiển thị các mã thuế với khoảng thời gian hiệu lực, tỷ lệ, và gán thuế dựa trên điều kiện theo quốc gia"
+keywords:
+  - tỷ lệ thuế
+  - mã thuế
+  - điều kiện thuế
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

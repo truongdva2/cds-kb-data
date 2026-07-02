@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONCHARGE
 description: Transportationcharge
+semantic_en: "transportation charge — transactional charges linked to host documents with currency, amount, and posting status"
+semantic_vi: "chi phí vận chuyển — chi phí giao dịch liên kết với tài liệu gốc với tiền tệ, số tiền và trạng thái ghi sổ"
+keywords:
+  - chi phí vận chuyển
+  - số tiền
+  - trạng thái ghi sổ
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

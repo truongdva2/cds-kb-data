@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTAGETYPETEXT_2
 description: Transpordstagetypetext 2
+semantic_en: "transportation order stage type text — multilingual descriptions of stage type codes"
+semantic_vi: "văn bản loại giai đoạn đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã loại giai đoạn"
+keywords:
+  - loại giai đoạn
+  - mô tả đa ngôn ngữ
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

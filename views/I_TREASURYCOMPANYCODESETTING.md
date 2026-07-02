@@ -1,6 +1,12 @@
 ---
 name: I_TREASURYCOMPANYCODESETTING
 description: TREASURYCompany CodeSETTING
+semantic_en: "Treasury company code additional data — flags and sort sequence for treasury center designation on company codes."
+semantic_vi: "Dữ liệu bổ sung mã công ty kho bạc — cờ và dãy sắp xếp cho chỉ định trung tâm kho bạc trên mã công ty."
+keywords:
+  - kho bạc
+  - mã công ty
+  - trung tâm kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

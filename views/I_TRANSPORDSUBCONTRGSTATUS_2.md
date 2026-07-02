@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSUBCONTRGSTATUS_2
 description: Transpordsubcontrgstatus 2
+semantic_en: "transportation order subcontracting status — status values for subcontracting of transportation orders"
+semantic_vi: "trạng thái ký thác vụ đơn hàng vận chuyển — giá trị trạng thái cho ký thác vụ vận chuyển"
+keywords:
+  - trạng thái ký thác vụ
+  - vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

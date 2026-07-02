@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION10
 description: Transpratedimension 10
+semantic_en: "Transportation rate dimension 10 — ten-dimensional rate scale combining ten scale items in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 10 — tỷ lệ mười chiều kết hợp mười mục tỷ lệ theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên mười chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ mười chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

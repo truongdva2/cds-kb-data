@@ -1,6 +1,12 @@
 ---
 name: I_TAXCODESTDVH
 description: Taxcodestdvh
+semantic_en: "tax code value help — provides standard value-help list of tax calculation procedures and tax codes"
+semantic_vi: "trợ giúp giá trị mã thuế — cung cấp danh sách trợ giúp giá trị chuẩn cho thủ tục tính toán thuế và mã thuế"
+keywords:
+  - trợ giúp giá trị
+  - mã thuế
+  - thủ tục
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

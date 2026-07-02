@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSCALECALCTYPE
 description: Transpscalecalctype
+semantic_en: "Transportation scale calculation type — domain values for rate calculation methodologies."
+semantic_vi: "Loại tính toán tỷ lệ vận chuyển — giá trị miền cho phương pháp tính toán tỷ giá."
+keywords:
+  - loại tính toán tỷ lệ
+  - tỷ lệ vận chuyển
+  - phương pháp tính toán
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

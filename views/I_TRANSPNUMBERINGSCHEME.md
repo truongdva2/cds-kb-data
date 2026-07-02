@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPNUMBERINGSCHEME
 description: Transpnumberingscheme
+semantic_en: "Numbering scheme for transportation classification — links to trade classification numbering schemes."
+semantic_vi: "Sơ đồ đánh số cho phân loại vận chuyển — liên kết với sơ đồ đánh số phân loại thương mại."
+keywords:
+  - sơ đồ đánh số
+  - phân loại vận chuyển
+  - đánh số thương mại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

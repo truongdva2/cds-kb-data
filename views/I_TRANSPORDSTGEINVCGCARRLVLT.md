@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDSTGEINVCGCARRLVLT
 description: Transpordstgeinvcgcarrlvlt
+semantic_en: "transportation order stage invoicing carrier level text — multilingual descriptions of carrier invoicing levels"
+semantic_vi: "văn bản mức nhà cung cấp tính hóa đơn giai đoạn — mô tả đa ngôn ngữ của mức tính hóa đơn"
+keywords:
+  - nhà cung cấp
+  - mức tính hóa đơn
+  - mô tả
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

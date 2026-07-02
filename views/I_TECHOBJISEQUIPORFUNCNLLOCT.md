@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJISEQUIPORFUNCNLLOCT
 description: Techobjisequiporfuncnlloct
+semantic_en: "technical object type description — provides localized descriptions for equipment versus functional location classification"
+semantic_vi: "mô tả loại đối tượng kỹ thuật — cung cấp mô tả bản địa hoá cho phân loại thiết bị hay vị trí chức năng"
+keywords:
+  - mô tả loại
+  - phân loại
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

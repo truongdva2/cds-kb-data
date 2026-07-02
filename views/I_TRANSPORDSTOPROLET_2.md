@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTOPROLET_2
 description: Transpordstoprolet 2
+semantic_en: "transportation order stop role text — multilingual descriptions of stop role codes"
+semantic_vi: "văn bản vai trò điểm dừng đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã vai trò"
+keywords:
+  - vai trò điểm dừng
+  - mô tả
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

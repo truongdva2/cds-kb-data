@@ -1,6 +1,12 @@
 ---
 name: I_TAXCALCULATIONPROCEDURE
 description: Taxcalculationprocedure
+semantic_en: "tax calculation procedure — defines the pricing procedure name and language-specific metadata for tax computation methods"
+semantic_vi: "thủ tục tính toán thuế — xác định tên thủ tục định giá và siêu dữ liệu theo ngôn ngữ cho các phương pháp tính toán thuế"
+keywords:
+  - thủ tục tính thuế
+  - định giá
+  - tính toán thuế
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

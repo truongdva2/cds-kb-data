@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDITEMSEAL
 description: Transporditemseal
+semantic_en: "Seal information for transportation order item — stores seal numbers and sealing timestamps."
+semantic_vi: "Thông tin dấu đóng cho mục đơn hàng vận chuyển — lưu số dấu đóng và dấu thời gian đóng dấu."
+keywords:
+  - dấu đóng vận chuyển
+  - số dấu đóng
+  - thông tin niêm phong
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

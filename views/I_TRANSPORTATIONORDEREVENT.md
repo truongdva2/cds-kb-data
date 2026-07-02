@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDEREVENT
 description: Transportationorderevent
+semantic_en: "transportation order event — events and milestones tracked for orders with actual and estimated dates"
+semantic_vi: "sự kiện đơn hàng vận chuyển — các sự kiện và cột mốc được theo dõi với ngày thực tế và ước tính"
+keywords:
+  - sự kiện
+  - cột mốc
+  - ngày tháng
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

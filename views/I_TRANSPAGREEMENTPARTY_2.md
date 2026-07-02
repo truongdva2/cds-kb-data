@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGREEMENTPARTY_2
 description: Transpagreementparty 2
+semantic_en: "transportation agreement party — identifies business partners involved in transportation agreements"
+semantic_vi: "bên thỏa thuận vận chuyển — xác định các đối tác kinh doanh liên quan trong các thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - đối tác
+  - bên tham gia
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

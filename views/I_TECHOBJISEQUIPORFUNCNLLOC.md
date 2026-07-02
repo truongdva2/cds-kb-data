@@ -1,6 +1,12 @@
 ---
 name: I_TECHOBJISEQUIPORFUNCNLLOC
 description: Techobjisequiporfuncnlloc
+semantic_en: "technical object is equipment or functional location — classification code indicating equipment versus functional location distinction"
+semantic_vi: "đối tượng kỹ thuật là thiết bị hoặc vị trí chức năng — mã phân loại chỉ định sự phân biệt giữa thiết bị và vị trí chức năng"
+keywords:
+  - phân loại
+  - thiết bị
+  - vị trí chức năng
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

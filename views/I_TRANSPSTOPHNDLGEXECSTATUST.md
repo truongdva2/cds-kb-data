@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPSTOPHNDLGEXECSTATUST
 description: Transpstophndlgexecstatust
+semantic_en: "Transportation order stop handling execution status text — multilingual descriptions of stop handling execution statuses."
+semantic_vi: "Văn bản trạng thái thực hiện xử lý dừng lệnh vận chuyển — mô tả đa ngôn ngữ của trạng thái thực hiện xử lý dừng."
+keywords:
+  - trạng thái thực hiện
+  - xử lý dừng
+  - mô tả lệnh
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

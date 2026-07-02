@@ -1,6 +1,12 @@
 ---
 name: I_TEXTOBJECTCATEGORYTEXT
 description: Textobjectcategorytext
+semantic_en: "text object category text — provides localized descriptions for text object categories"
+semantic_vi: "văn bản danh mục đối tượng văn bản — cung cấp mô tả bản địa hoá cho các danh mục đối tượng văn bản"
+keywords:
+  - mô tả danh mục
+  - danh mục văn bản
+  - ngôn ngữ
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

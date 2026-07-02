@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPMOVEMENTTYPETEXT
 description: Transpmovementtypetext
+semantic_en: "Text descriptions for movement type in multiple languages — provides translated movement operation labels."
+semantic_vi: "Mô tả văn bản cho loại chuyển động đa ngôn ngữ — cung cấp nhãn hoạt động chuyển động dịch."
+keywords:
+  - mô tả chuyển động
+  - đa ngôn ngữ
+  - nhãn loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

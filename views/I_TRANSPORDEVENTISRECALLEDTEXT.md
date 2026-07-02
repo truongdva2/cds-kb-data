@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDEVENTISRECALLEDTEXT
 description: Transpordeventisrecalledtext
+semantic_en: "Text labels for event recall status in multiple languages — provides translated recall state descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái gọi lại sự kiện đa ngôn ngữ — cung cấp mô tả trạng thái gọi lại dịch."
+keywords:
+  - mô tả gọi lại
+  - đa ngôn ngữ
+  - nhãn trạng thái
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

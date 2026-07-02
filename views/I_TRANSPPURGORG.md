@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPPURGORG
 description: Transppurgorg
+semantic_en: "Purchasing organization projection — references organization master data with organization code, company code, and deprecation configuration."
+semantic_vi: "Tổ chức mua hàng — dữ liệu chính tổ chức với mã tổ chức, mã công ty và cấu hình không dùng nữa."
+keywords:
+  - tổ chức mua hàng
+  - mã công ty
+  - cấu hình mua
 app_component: TM-MD-ORG-2CL
 software_component: SAPSCORE
 release_state: released

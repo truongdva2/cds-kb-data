@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATESCALEREFERENCE
 description: Transpratescalereference
+semantic_en: "Transportation rate scale reference — links rate to scale with calculation base, quantity unit, currency, scale type and weighted break handling flag."
+semantic_vi: "Tham chiếu tỷ lệ tỷ giá vận chuyển — liên kết tỷ giá với tỷ lệ bao gồm cơ sở tính toán, đơn vị số lượng, tiền tệ, loại tỷ lệ và cờ xử lý ngắt nặng."
+keywords:
+  - tham chiếu tỷ lệ
+  - tỷ giá vận chuyển
+  - cơ sở tính toán
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

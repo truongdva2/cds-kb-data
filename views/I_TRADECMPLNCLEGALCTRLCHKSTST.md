@@ -1,6 +1,12 @@
 ---
 name: I_TRADECMPLNCLEGALCTRLCHKSTST
 description: Tradecmplnclegalctrlchkstst
+semantic_en: "trade compliance legal control check status text — provides language-specific descriptions for trade compliance legal check statuses"
+semantic_vi: "văn bản trạng thái kiểm tra kiểm soát pháp lý tuân thủ thương mại — cung cấp các mô tả cụ thể theo ngôn ngữ cho các trạng thái kiểm tra pháp lý tuân thủ thương mại"
+keywords:
+  - tuân thủ thương mại
+  - kiểm soát pháp lý
+  - văn bản
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

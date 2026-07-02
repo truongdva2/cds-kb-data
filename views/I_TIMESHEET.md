@@ -1,6 +1,12 @@
 ---
 name: I_TIMESHEET
 description: Timesheet
+semantic_en: "time sheet — records work assignments, hours, and project accounting with status and predecessor tracking"
+semantic_vi: "bảng tính giờ — ghi lại các gán công việc, giờ, và kế toán dự án với theo dõi trạng thái và tiền thân"
+keywords:
+  - bảng tính giờ
+  - ghi log thời gian
+  - tính toán giờ
 app_component: CA-TS-S4
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLERATETP
 description: Transpratetableratetp
+semantic_en: "Rate table rate - TP — third-party projection of rate table rates with up to eleven calculation bases per dimension."
+semantic_vi: "Tỷ giá bảng tỷ giá - TP — chiếu bên thứ ba của tỷ giá bảng tỷ giá có đến mười một cơ sở tính toán cho mỗi thứ nguyên."
+keywords:
+  - bảng tỷ giá vận chuyển
+  - cơ sở tính toán
+  - bên thứ ba
 app_component: TM-MD-CM-RA-2CL
 software_component: SAPSCORE
 release_state: released

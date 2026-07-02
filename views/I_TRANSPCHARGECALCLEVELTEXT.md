@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCLEVELTEXT
 description: Transpchargecalcleveltext
+semantic_en: "transportation charge calculation level text — stores language-specific descriptions for calculation level classifications"
+semantic_vi: "văn bản mức độ tính toán phí vận chuyển — lưu trữ các mô tả cụ thể theo ngôn ngữ cho các phân loại mức độ tính toán"
+keywords:
+  - tính toán phí
+  - mức độ
+  - văn bản
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

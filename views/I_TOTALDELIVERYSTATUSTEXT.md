@@ -1,6 +1,12 @@
 ---
 name: I_TOTALDELIVERYSTATUSTEXT
 description: Totaldeliverystatustext
+semantic_en: "total delivery status text — provides language-specific descriptions for delivery completion statuses"
+semantic_vi: "văn bản trạng thái giao hàng tổng cộng — cung cấp các mô tả cụ thể theo ngôn ngữ cho các trạng thái hoàn thành giao hàng"
+keywords:
+  - giao hàng
+  - trạng thái
+  - văn bản
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

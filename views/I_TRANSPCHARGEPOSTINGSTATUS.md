@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGEPOSTINGSTATUS
 description: Transpchargepostingstatus
+semantic_en: "Domain values for transportation charge posting status — classifies posting states for accounting integration."
+semantic_vi: "Giá trị miền cho trạng thái ghi sổ phí vận chuyển — phân loại các trạng thái ghi sổ cho tích hợp kế toán."
+keywords:
+  - trạng thái ghi sổ
+  - tích hợp kế toán
+  - phân loại ghi
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDWHSEPROCGSTATUS
 description: Transpordwhseprocgstatus
+semantic_en: "transportation order warehouse processing status — status values for warehouse operations on transportation orders"
+semantic_vi: "trạng thái xử lý kho hàng đơn hàng vận chuyển — giá trị trạng thái cho hoạt động kho hàng"
+keywords:
+  - trạng thái xử lý kho hàng
+  - vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

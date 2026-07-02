@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION14
 description: Transpratedimension 14
+semantic_en: "Transportation rate dimension 14 — fourteen-dimensional rate scale combining fourteen scale item references."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 14 — tỷ lệ mười bốn chiều kết hợp mười bốn tham chiếu mục tỷ lệ."
+keywords:
+  - thứ nguyên mười bốn chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ đa chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

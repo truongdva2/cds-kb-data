@@ -1,6 +1,12 @@
 ---
 name: I_TOTALBLOCKSTATUSTEXT
 description: Totalblockstatustext
+semantic_en: "total block status text — provides language-specific descriptions for total blocking statuses applied to documents"
+semantic_vi: "văn bản trạng thái khóa tổng cộng — cung cấp các mô tả cụ thể theo ngôn ngữ cho các trạng thái khóa tổng được áp dụng cho tài liệu"
+keywords:
+  - trạng thái khóa
+  - văn bản trạng thái
+  - tài liệu
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

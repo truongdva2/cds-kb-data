@@ -1,6 +1,12 @@
 ---
 name: I_TRDCLASSFCTNNMBRTEXT
 description: Trdclassfctnnmbrtext
+semantic_en: "Trade classification number text — bilingual trade classification descriptions with validity periods and classification scheme references."
+semantic_vi: "Văn bản mã phân loại thương mại — mô tả phân loại thương mại hai ngôn ngữ có kỳ hạn hiệu lực và tham chiếu sơ đồ phân loại."
+keywords:
+  - phân loại thương mại
+  - mã phân loại
+  - mô tả mã
 app_component: FT-ITR-CLS
 software_component: SAPSCORE
 release_state: released

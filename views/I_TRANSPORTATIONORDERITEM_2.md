@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDERITEM_2
 description: Transportationorderitem 2
+semantic_en: "transportation order item — individual items within orders with type, category, shipping conditions, and stop mapping"
+semantic_vi: "mục hàng đơn hàng vận chuyển — các mục hàng riêng lẻ với loại, danh mục, điều kiện vận chuyển"
+keywords:
+  - mục hàng
+  - điều kiện vận chuyển
+  - phân loại
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

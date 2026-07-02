@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDGOODSMVTSTATUS
 description: Transpordgoodsmvtstatus
+semantic_en: "Domain values for transportation order goods movement status — classifies material movement states."
+semantic_vi: "Giá trị miền cho trạng thái chuyển động hàng hóa đơn hàng vận chuyển — phân loại các trạng thái chuyển động vật liệu."
+keywords:
+  - trạng thái chuyển động
+  - hàng hóa vận chuyển
+  - phân loại chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

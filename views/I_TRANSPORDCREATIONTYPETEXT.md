@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDCREATIONTYPETEXT
 description: Transpordcreationtypetext
+semantic_en: "Text labels for transportation order creation type in multiple languages — provides translated creation method labels."
+semantic_vi: "Nhãn văn bản cho loại tạo đơn hàng vận chuyển đa ngôn ngữ — cung cấp nhãn phương pháp tạo dịch."
+keywords:
+  - mô tả loại tạo
+  - đa ngôn ngữ
+  - nhãn tạo
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

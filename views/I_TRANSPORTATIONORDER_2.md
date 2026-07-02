@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORTATIONORDER_2
 description: Transportationorder 2
+semantic_en: "transportation order — master order with type, category, mode, shipping type, movement type, and capacity metrics"
+semantic_vi: "đơn hàng vận chuyển — đơn hàng chính với loại, danh mục, chế độ, loại vận chuyển, chỉ số dung tích"
+keywords:
+  - đơn hàng vận chuyển
+  - chế độ vận chuyển
+  - dung tích
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

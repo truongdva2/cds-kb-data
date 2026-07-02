@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPMEANSOFTRANSPORTT
 description: Transpmeansoftransportt
+semantic_en: "Text descriptions for means of transport in multiple languages — provides multilingual transport mode labels."
+semantic_vi: "Mô tả văn bản cho phương tiện vận chuyển đa ngôn ngữ — cung cấp nhãn chế độ vận chuyển đa ngôn ngữ."
+keywords:
+  - mô tả phương tiện
+  - đa ngôn ngữ
+  - nhãn vận chuyển
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TEXTOBJECTTYPETEXT
 description: Textobjecttypetext
+semantic_en: "text object type text — provides localized names for specific text object types within categories"
+semantic_vi: "văn bản loại đối tượng văn bản — cung cấp tên bản địa hoá cho các loại đối tượng văn bản cụ thể trong các danh mục"
+keywords:
+  - tên loại văn bản
+  - mô tả
+  - ngôn ngữ
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

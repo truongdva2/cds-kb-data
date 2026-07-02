@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPORDDNGRSGDSSTATUS
 description: Transporddngrsgdsstatus
+semantic_en: "Domain values for transportation order dangerous goods status — classifies hazmat compliance states."
+semantic_vi: "Giá trị miền cho trạng thái hàng nguy hiểm đơn hàng vận chuyển — phân loại các trạng thái tuân thủ hàng nguy."
+keywords:
+  - hàng nguy hiểm
+  - trạng thái hàng nguy
+  - vận chuyển nguy hiểm
 app_component: TM-FRM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TERTIARYREGION
 description: Tertiaryregion
+semantic_en: "tertiary region — defines hierarchical geographic areas (country, region, secondary, tertiary) for address assignment"
+semantic_vi: "vùng cấp ba — xác định các khu vực địa lý theo thứ bậc (quốc gia, vùng, cấp hai, cấp ba) cho gán địa chỉ"
+keywords:
+  - vùng cấp ba
+  - địa lý
+  - phân cấp
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

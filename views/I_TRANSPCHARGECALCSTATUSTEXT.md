@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCHARGECALCSTATUSTEXT
 description: Transpchargecalcstatustext
+semantic_en: "Text labels for transportation charge calculation status in multiple languages — provides translated descriptions."
+semantic_vi: "Nhãn văn bản cho trạng thái tính toán phí vận chuyển đa ngôn ngữ — cung cấp mô tả dịch."
+keywords:
+  - mô tả trạng thái phí
+  - đa ngôn ngữ
+  - nhãn phí
 app_component: TM-CF-CC-2CL
 software_component: SAPSCORE
 release_state: released

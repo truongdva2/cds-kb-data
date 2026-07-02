@@ -1,6 +1,12 @@
 ---
 name: I_TAXAUTHORITYDOCUMENT
 description: Taxauthoritydocument
+semantic_en: "tax authority document record — captures tax document type, authority, business partner, status, and change history metadata"
+semantic_vi: "hồ sơ tài liệu cơ quan thuế — ghi lại loại tài liệu, cơ quan thuế, đối tác kinh doanh, trạng thái, và dữ liệu lịch sử thay đổi"
+keywords:
+  - tài liệu thuế
+  - cơ quan thuế
+  - hồ sơ tài liệu
 app_component: CA-GTF-CSC-EDC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATEDIMENSION07
 description: Transpratedimension 07
+semantic_en: "Transportation rate dimension 7 — seven-dimensional rate scale combining seven scale items with amount in rate currency."
+semantic_vi: "Thứ nguyên tỷ giá vận chuyển 7 — tỷ lệ bảy chiều kết hợp bảy mục tỷ lệ với số tiền theo tiền tệ tỷ giá."
+keywords:
+  - thứ nguyên bảy chiều
+  - tỷ giá vận chuyển
+  - tỷ lệ bảy chiều
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

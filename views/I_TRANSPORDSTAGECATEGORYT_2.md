@@ -1,6 +1,11 @@
 ---
 name: I_TRANSPORDSTAGECATEGORYT_2
 description: Transpordstagecategoryt 2
+semantic_en: "transportation order stage category text — multilingual descriptions of stage category codes"
+semantic_vi: "văn bản danh mục giai đoạn đơn hàng vận chuyển — mô tả đa ngôn ngữ của mã danh mục giai đoạn"
+keywords:
+  - danh mục giai đoạn
+  - mô tả
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

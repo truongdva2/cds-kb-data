@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPAGRMTORGANIZATION_2
 description: Transpagrmtorganization 2
+semantic_en: "transportation agreement organization — links organizational units to transportation agreements"
+semantic_vi: "tổ chức thỏa thuận vận chuyển — liên kết các đơn vị tổ chức với các thỏa thuận vận chuyển"
+keywords:
+  - thỏa thuận vận chuyển
+  - tổ chức
+  - đơn vị
 app_component: TM-FRA-2CL
 software_component: SAPSCORE
 release_state: released

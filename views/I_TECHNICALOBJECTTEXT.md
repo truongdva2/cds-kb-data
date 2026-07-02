@@ -1,6 +1,12 @@
 ---
 name: I_TECHNICALOBJECTTEXT
 description: Technicalobjecttext
+semantic_en: "technical object text — provides localized descriptions and long text for equipment and functional locations"
+semantic_vi: "văn bản đối tượng kỹ thuật — cung cấp mô tả và văn bản dài bản địa hoá cho thiết bị và vị trí chức năng"
+keywords:
+  - mô tả thiết bị
+  - văn bản dài
+  - ngôn ngữ
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

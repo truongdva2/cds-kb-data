@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPCALCMETHODTYPE
 description: Transpcalcmethodtype
+semantic_en: "transportation calculation method type — defines the method types used for calculating transportation charges"
+semantic_vi: "loại phương pháp tính toán vận chuyển — định nghĩa các loại phương pháp được sử dụng để tính toán phí vận chuyển"
+keywords:
+  - tính toán vận chuyển
+  - phương pháp
+  - phí
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

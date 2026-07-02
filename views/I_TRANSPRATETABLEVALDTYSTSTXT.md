@@ -1,6 +1,12 @@
 ---
 name: I_TRANSPRATETABLEVALDTYSTSTXT
 description: Transpratetablevaldtyststxt
+semantic_en: "Rate table validity lifecycle status text — multilingual descriptions of rate validity period lifecycle statuses."
+semantic_vi: "Văn bản trạng thái vòng đời hiệu lực bảng tỷ giá — mô tả đa ngôn ngữ của trạng thái vòng đời kỳ hạn hiệu lực tỷ giá."
+keywords:
+  - trạng thái vòng đời
+  - mô tả hiệu lực
+  - ngôn ngữ
 app_component: TM-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released
