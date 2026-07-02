@@ -1,6 +1,12 @@
 ---
 name: I_SALESITEMPROPOSALTYPE
 description: Salesitemproposaltype
+semantic_en: "Sales item proposal types — document type configurations for sales item proposal documents."
+semantic_vi: "Loại đề xuất dòng bán hàng — cấu hình loại tài liệu cho tài liệu đề xuất dòng bán hàng."
+keywords:
+  - đề xuất dòng
+  - loại đề xuất
+  - cơ hội bán
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

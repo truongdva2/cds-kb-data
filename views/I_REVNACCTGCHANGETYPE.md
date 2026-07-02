@@ -1,6 +1,12 @@
 ---
 name: I_REVNACCTGCHANGETYPE
 description: Revnacctgchangetype
+semantic_en: "Change type — domain values classifying types of changes to performance obligations."
+semantic_vi: "Loại thay đổi — các giá trị miền phân loại các loại thay đổi đối với các nghĩa vụ hoạt động."
+keywords:
+  - loại thay đổi
+  - doanh thu
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

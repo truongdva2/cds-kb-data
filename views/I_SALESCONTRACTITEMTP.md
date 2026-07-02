@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTITEMTP
 description: Salescontractitemtp
+semantic_en: "Sales contract items — transient projection combining items with product and quantity details."
+semantic_vi: "Các mục hợp đồng bán hàng — phép chiếu tạm thời kết hợp mục với chi tiết sản phẩm và số lượng."
+keywords:
+  - mục hợp đồng
+  - sản phẩm
+  - số lượng
 app_component: SD-SLS-OA-2CL
 software_component: SAPSCORE
 release_state: released

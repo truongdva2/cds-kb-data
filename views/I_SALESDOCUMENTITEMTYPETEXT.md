@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEMTYPETEXT
 description: Salesdocumentitemtypetext
+semantic_en: "Sales document item type text — provides translated names of item types by language."
+semantic_vi: "Văn bản loại dòng tài liệu bán hàng — tên loại dòng theo ngôn ngữ."
+keywords:
+  - tên loại dòng
+  - đa ngôn ngữ
+  - mô tả
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

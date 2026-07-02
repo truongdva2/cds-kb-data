@@ -1,6 +1,12 @@
 ---
 name: I_RESPONSEPROFILETEXT
 description: Responseprofiletext
+semantic_en: "Response profile text translations — multilingual service profile names for CRM response configurations."
+semantic_vi: "Bản dịch văn bản hồ sơ phản hồi — tên hồ sơ dịch vụ đa ngôn ngữ cho các cấu hình phản hồi CRM."
+keywords:
+  - tên hồ sơ
+  - bản dịch CRM
+  - phản hồi dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

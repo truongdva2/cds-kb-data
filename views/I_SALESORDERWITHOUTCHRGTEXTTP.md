@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERWITHOUTCHRGTEXTTP
 description: Sales OrderWITHOUTCHRGTEXTTP
+semantic_en: "Sales order without charge text - transactional processing — long text content for free orders with language and organization context for editing"
+semantic_vi: "Văn bản đơn hàng không tính phí - xử lý giao dịch — nội dung văn bản dài cho đơn hàng miễn phí với ngôn ngữ và bối cảnh tổ chức"
+keywords:
+  - văn bản đơn hàng miễn phí
+  - chỉnh sửa văn bản miễn phí
+  - ngôn ngữ văn bản
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

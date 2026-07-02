@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCITMSUBSQNTPROCFLOW
 description: Salesdocitmsubsqntprocflow
+semantic_en: "Subsequent process flow for sales document items — downstream document relationships showing later processing steps."
+semantic_vi: "Luồng xử lý sau cho dòng tài liệu bán hàng — mối quan hệ tài liệu tiếp theo hiển thị các bước xử lý sau."
+keywords:
+  - tài liệu tiếp theo
+  - luồng quy trình
+  - liên kết sau
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

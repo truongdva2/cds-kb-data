@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTTYPETEXT
 description: Salescontracttypetext
+semantic_en: "Sales contract type text — multilingual names for contract types."
+semantic_vi: "Văn bản loại hợp đồng bán hàng — tên đa ngôn ngữ cho các loại hợp đồng."
+keywords:
+  - loại hợp đồng
+  - tên
+  - đa ngôn ngữ
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

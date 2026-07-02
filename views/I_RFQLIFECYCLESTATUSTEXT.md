@@ -1,6 +1,12 @@
 ---
 name: I_RFQLIFECYCLESTATUSTEXT
 description: Rfqlifecyclestatustext
+semantic_en: "RFQ lifecycle status text — multilingual descriptions of RFQ lifecycle status values."
+semantic_vi: "Văn bản trạng thái vòng đời yêu cầu báo giá — mô tả đa ngôn ngữ của các giá trị trạng thái vòng đời RFQ."
+keywords:
+  - trạng thái
+  - vòng đời
+  - RFQ
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

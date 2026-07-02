@@ -1,6 +1,12 @@
 ---
 name: I_ROUTEDETNBYCOUNTRYANDZONE
 description: Routedetnbycountryandzone
+semantic_en: "Route determination by geography — maps departure and destination countries/zones for routing logic."
+semantic_vi: "Xác định tuyến đường theo địa lý — ánh xạ các quốc gia/khu vực khởi hành và đích đến."
+keywords:
+  - xác định tuyến đường
+  - quốc gia
+  - khu vực
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

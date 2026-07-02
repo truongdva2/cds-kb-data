@@ -1,6 +1,12 @@
 ---
 name: I_RESTARTFREQUENCYWEEKTEXT
 description: Restartfrequencyweektext
+semantic_en: "Real estate start frequency week translations — multilingual labels for renewal frequency domain values."
+semantic_vi: "Bản dịch tuần tần số bắt đầu bất động sản — nhãn đa ngôn ngữ cho các giá trị miền tần suất gia hạn."
+keywords:
+  - tần suất gia hạn
+  - bản dịch tuần
+  - tên tần suất
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

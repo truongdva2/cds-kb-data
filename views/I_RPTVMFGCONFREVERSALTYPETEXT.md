@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFREVERSALTYPETEXT
 description: Rptvmfgconfreversaltypetext
+semantic_en: "Reversal type text labels for repetitive manufacturing confirmations — multilingual descriptions."
+semantic_vi: "Nhãn văn bản loại hoàn tác cho xác nhận sản xuất lặp lại — mô tả đa ngôn ngữ."
+keywords:
+  - loại hoàn tác
+  - xác nhận sản xuất
+  - văn bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

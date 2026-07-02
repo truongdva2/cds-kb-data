@@ -1,6 +1,12 @@
 ---
 name: I_RESPONSIBLEPLANNERGROUP
 description: Responsibleplannergroup
+semantic_en: "Responsible planner group — plant-level assignment of planner groups responsible for production planning and scheduling."
+semantic_vi: "Nhóm nhà lập kế hoạch chịu trách nhiệm — gán mức nhà máy của các nhóm nhà lập kế hoạch chịu trách nhiệm về lập kế hoạch sản xuất và lập lịch."
+keywords:
+  - nhóm lập kế hoạch
+  - nhà máy
+  - lập kế hoạch sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

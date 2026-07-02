@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERITMPRECDGPROCFLOW
 description: Sales OrderITMPRECDGPROCFLOW
+semantic_en: "Preceding process flow of sales order item — document relationship tracking showing prior process steps with creation and change dates"
+semantic_vi: "Quy trình tiền nhiệm của mục hàng đơn hàng — theo dõi mối quan hệ tài liệu hiển thị các bước quy trình trước đó với ngày tạo và thay đổi"
+keywords:
+  - quy trình tiền nhiệm
+  - mối quan hệ tài liệu
+  - theo dõi quy trình
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

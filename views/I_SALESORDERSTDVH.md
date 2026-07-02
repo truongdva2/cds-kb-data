@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERSTDVH
 description: Sales OrderSTDVH
+semantic_en: "Sales order value help — standard lookup providing sales order header keys with organization and type information"
+semantic_vi: "Trợ giúp giá trị đơn hàng bán — tra cứu tiêu chuẩn cung cấp khóa tiêu đề đơn hàng với thông tin tổ chức và loại"
+keywords:
+  - tra cứu đơn hàng bán
+  - giá trị trợ giúp đơn hàng
+  - khóa đơn hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

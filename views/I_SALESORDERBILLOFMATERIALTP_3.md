@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBILLOFMATERIALTP_3
 description: Sales OrderBill of MaterialTP 3
+semantic_en: "Bill of material header details and text for sales orders — composition and description of bill of material structures."
+semantic_vi: "Chi tiết và văn bản đầu bảng vật tư cho đơn hàng bán — thành phần và mô tả cấu trúc bảng vật tư."
+keywords:
+  - bảng vật tư
+  - mô tả cấu trúc
+  - thành phần
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

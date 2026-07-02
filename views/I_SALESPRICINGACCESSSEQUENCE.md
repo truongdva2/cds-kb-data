@@ -1,6 +1,12 @@
 ---
 name: I_SALESPRICINGACCESSSEQUENCE
 description: Salespricingaccesssequence
+semantic_en: "Access sequence for pricing — pricing configuration access sequences for condition determination"
+semantic_vi: "Dãy truy cập cho định giá — dãy truy cập cấu hình định giá để xác định điều kiện"
+keywords:
+  - dãy truy cập định giá
+  - cấu hình định giá
+  - xác định điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBILLOFMATERIALTP_2
 description: Sales OrderBill of MaterialTP 2
+semantic_en: "Sales order bill of material — routing and component structure for manufactured items in sales orders."
+semantic_vi: "Bảng vật tư cho đơn hàng bán — cấu trúc tuyến đường và thành phần cho các vật tư sản xuất trong đơn hàng bán."
+keywords:
+  - bảng vật tư
+  - cấu trúc sản phẩm
+  - thành phần
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

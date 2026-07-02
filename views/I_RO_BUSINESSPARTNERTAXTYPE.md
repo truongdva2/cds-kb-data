@@ -1,6 +1,12 @@
 ---
 name: I_RO_BUSINESSPARTNERTAXTYPE
 description: RO Business PartnerTAXTYPE
+semantic_en: "Romania business partner tax classification — tracks tax types and SAFT relevance for business partners."
+semantic_vi: "Phân loại thuế đối tác kinh doanh Romania — theo dõi các loại thuế và liên quan SAFT cho đối tác kinh doanh."
+keywords:
+  - loại thuế
+  - đối tác kinh doanh
+  - SAFT
 app_component: FI-LOC-FI-RO
 software_component: SAPSCORE
 release_state: released

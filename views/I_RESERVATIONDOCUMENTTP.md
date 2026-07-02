@@ -1,6 +1,12 @@
 ---
 name: I_RESERVATIONDOCUMENTTP
 description: Reservationdocumenttp
+semantic_en: "Reservation document header interface — transactional posting view of reservation headers with cost center, order, and plant assignment."
+semantic_vi: "Giao diện tiêu đề tài liệu đặt chỗ — chế độ xem đăng dạo động của tiêu đề đặt chỗ với trung tâm chi phí, đơn hàng và gán nhà máy."
+keywords:
+  - tiêu đề đặt chỗ
+  - đặt chỗ
+  - gán nhà máy
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

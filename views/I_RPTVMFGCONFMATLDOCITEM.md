@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFMATLDOCITEM
 description: Rptvmfgconfmatldocitem
+semantic_en: "Material document items for repetitive manufacturing confirmations — records material movements and posting details."
+semantic_vi: "Các mục tài liệu vật liệu cho xác nhận sản xuất lặp lại — ghi lại các chuyển động vật liệu và chi tiết ghi chép."
+keywords:
+  - mục tài liệu vật liệu
+  - sản xuất lặp lại
+  - ghi chép
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

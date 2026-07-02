@@ -1,6 +1,12 @@
 ---
 name: I_SALESPLANPURPOSE
 description: Salesplanpurpose
+semantic_en: "Sales plan purpose — classification of sales planning purposes linked to sales plan type"
+semantic_vi: "Mục đích kế hoạch bán hàng — phân loại mục đích kế hoạch bán hàng liên kết với loại kế hoạch bán"
+keywords:
+  - mục đích kế hoạch
+  - loại kế hoạch bán hàng
+  - phân loại kế hoạch
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

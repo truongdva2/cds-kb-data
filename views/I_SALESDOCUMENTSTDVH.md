@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTSTDVH
 description: Salesdocumentstdvh
+semantic_en: "Sales documents — standard value help view for sales documents with organization and type details."
+semantic_vi: "Tài liệu bán hàng — hiển thị trợ giúp giá trị tài liệu bán hàng với chi tiết tổ chức và loại."
+keywords:
+  - trợ giúp giá trị
+  - đơn hàng
+  - tài liệu
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

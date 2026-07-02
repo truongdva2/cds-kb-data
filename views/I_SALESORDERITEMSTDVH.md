@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERITEMSTDVH
 description: Sales OrderITEMSTDVH
+semantic_en: "Sales order item value help — standard lookup view providing sales order item and text information"
+semantic_vi: "Trợ giúp giá trị mục hàng đơn hàng — chế độ xem tra cứu tiêu chuẩn cung cấp thông tin mục hàng và văn bản"
+keywords:
+  - tra cứu mục hàng
+  - giá trị trợ giúp bán hàng
+  - mục văn bản đơn hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

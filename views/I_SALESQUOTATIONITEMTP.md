@@ -1,6 +1,13 @@
 ---
 name: I_SALESQUOTATIONITEMTP
 description: Salesquotationitemtp
+semantic_en: "Sales quotation item - transactional processing — quotation line item details with product, quantities, and order probability for editing"
+semantic_vi: "Mục hàng chào giá - xử lý giao dịch — chi tiết mục dòng chào giá với sản phẩm, số lượng và xác suất đơn hàng để chỉnh sửa"
+keywords:
+  - mục chào giá TP
+  - chi tiết sản phẩm chào giá
+  - số lượng yêu cầu
+  - xác suất đơn hàng
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

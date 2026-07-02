@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTPARTNER
 description: Salesdocumentpartner
+semantic_en: "Sales document partners — partner functions at document level including customer, supplier, and address references."
+semantic_vi: "Đối tác tài liệu bán hàng — chức năng đối tác ở cấp tài liệu bao gồm khách hàng, nhà cung cấp và địa chỉ."
+keywords:
+  - đối tác tài liệu
+  - chức năng đối tác
+  - khách hàng
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

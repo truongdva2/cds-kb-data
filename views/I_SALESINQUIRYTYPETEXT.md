@@ -1,6 +1,12 @@
 ---
 name: I_SALESINQUIRYTYPETEXT
 description: Salesinquirytypetext
+semantic_en: "Sales inquiry type text — provides translated names of sales inquiry types by language."
+semantic_vi: "Văn bản loại yêu cầu bán hàng — tên loại yêu cầu bán hàng theo ngôn ngữ."
+keywords:
+  - tên yêu cầu
+  - đa ngôn ngữ
+  - báo giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

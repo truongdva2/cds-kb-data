@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONITEMPARTNERTP
 description: Salesquotationitempartnertp
+semantic_en: "Sales quotation item partner - transactional processing — partner assignment for quotation items with organization and channel context"
+semantic_vi: "Bên liên quan mục hàng chào giá - xử lý giao dịch — gán bên cho mục chào giá với bối cảnh tổ chức và kênh"
+keywords:
+  - bên liên quan TP chào giá
+  - chỉnh sửa bên chào giá
+  - tổ chức kênh chào giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

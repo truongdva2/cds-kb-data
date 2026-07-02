@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTRJCNREASONTEXT
 description: Salesdocumentrjcnreasontext
+semantic_en: "Sales document rejection reason text — provides translated descriptions of rejection reasons by language."
+semantic_vi: "Văn bản lý do từ chối tài liệu bán hàng — mô tả các lý do từ chối theo ngôn ngữ."
+keywords:
+  - mô tả từ chối
+  - đa ngôn ngữ
+  - lý do từ chối
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONTYPE
 description: Revaluationtype
+semantic_en: "Real estate valuation type — domain values specifying the category of valuation being performed."
+semantic_vi: "Loại định giá bất động sản — các giá trị miền xác định danh mục định giá được thực hiện."
+keywords:
+  - loại
+  - định giá
+  - miền
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

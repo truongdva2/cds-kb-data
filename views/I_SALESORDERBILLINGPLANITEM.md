@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBILLINGPLANITEM
 description: Sales OrderBILLINGPLANITEM
+semantic_en: "Billing plan items for sales orders — individual billing schedule line items with service dates and blocking reasons."
+semantic_vi: "Dòng kế hoạch thanh toán cho đơn hàng bán — dòng lịch thanh toán riêng lẻ với ngày dịch vụ và lý do khóa."
+keywords:
+  - dòng thanh toán
+  - lịch dịch vụ
+  - số tiền thanh toán
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

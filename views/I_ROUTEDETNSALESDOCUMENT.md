@@ -1,6 +1,12 @@
 ---
 name: I_ROUTEDETNSALESDOCUMENT
 description: Routedetnsalesdocument
+semantic_en: "Route determination in sales documents — determines delivery routes based on location, shipping conditions, and material groups."
+semantic_vi: "Xác định tuyến đường trong tài liệu bán hàng — xác định tuyến giao hàng dựa trên vị trí, điều kiện vận chuyển, và nhóm vật liệu."
+keywords:
+  - tuyến giao hàng
+  - điều kiện vận chuyển
+  - xác định tuyến đường
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

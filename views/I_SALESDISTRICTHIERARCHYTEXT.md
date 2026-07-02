@@ -1,6 +1,12 @@
 ---
 name: I_SALESDISTRICTHIERARCHYTEXT
 description: Salesdistricthierarchytext
+semantic_en: "Sales district hierarchy text — multilingual names for sales district hierarchy structures."
+semantic_vi: "Văn bản hệ thống phân cấp khu vực bán hàng — tên đa ngôn ngữ cho các cấu trúc hệ thống phân cấp khu vực bán hàng."
+keywords:
+  - tên hệ thống phân cấp
+  - khu vực bán hàng
+  - đa ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

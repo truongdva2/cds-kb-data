@@ -1,6 +1,12 @@
 ---
 name: I_SALESPERFORMANCEDATASOURCE
 description: Salesperformancedatasource
+semantic_en: "Sales performance data source — enumeration of data source types for sales performance reporting"
+semantic_vi: "Nguồn dữ liệu hiệu suất bán hàng — liệt kê các loại nguồn dữ liệu cho báo cáo hiệu suất bán hàng"
+keywords:
+  - nguồn dữ liệu bán hàng
+  - báo cáo hiệu suất
+  - loại dữ liệu
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

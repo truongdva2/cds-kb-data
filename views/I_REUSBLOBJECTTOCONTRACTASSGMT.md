@@ -1,6 +1,12 @@
 ---
 name: I_REUSBLOBJECTTOCONTRACTASSGMT
 description: Reusblobjecttocontractassgmt
+semantic_en: "RE usable object contract assignment — maps usable objects to real estate contracts with effective dates."
+semantic_vi: "Gán hợp đồng đối tượng sử dụng được của bất động sản — ánh xạ các đối tượng sử dụng được với các hợp đồng bất động sản với ngày có hiệu lực."
+keywords:
+  - hợp đồng
+  - gán
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

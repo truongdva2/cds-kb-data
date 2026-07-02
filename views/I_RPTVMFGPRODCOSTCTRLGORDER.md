@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGPRODCOSTCTRLGORDER
 description: Rptvmfgprodcostctrlgorder
+semantic_en: "Product cost controlling orders in repetitive manufacturing — tracks cost center objects with creation and change metadata."
+semantic_vi: "Đơn hàng kiểm soát chi phí sản phẩm trong sản xuất lặp lại — theo dõi các đối tượng trung tâm chi phí với siêu dữ liệu tạo và thay đổi."
+keywords:
+  - đơn hàng kiểm soát chi phí
+  - sản xuất lặp lại
+  - chi phí sản phẩm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

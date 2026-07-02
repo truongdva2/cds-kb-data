@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONCLASSIFICATIONTXT
 description: Revaluationclassificationtxt
+semantic_en: "RE valuation classification text — multilingual labels for valuation classification options."
+semantic_vi: "Văn bản phân loại định giá bất động sản — nhãn đa ngôn ngữ cho các tùy chọn phân loại định giá."
+keywords:
+  - phân loại
+  - mô tả
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

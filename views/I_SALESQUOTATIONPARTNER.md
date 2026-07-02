@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONPARTNER
 description: Salesquotationpartner
+semantic_en: "Sales quotation partner — partner functions assigned to quotation header with address and reference details"
+semantic_vi: "Bên liên quan chào giá bán — chức năng bên gán cho tiêu đề chào giá với chi tiết địa chỉ và tham chiếu"
+keywords:
+  - bên liên quan tiêu đề chào giá
+  - khách hàng chào giá
+  - địa chỉ bên liên quan
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

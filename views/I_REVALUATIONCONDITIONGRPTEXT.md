@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONCONDITIONGRPTEXT
 description: Revaluationconditiongrptext
+semantic_en: "RE valuation condition group text — translated descriptions of valuation condition groupings."
+semantic_vi: "Văn bản nhóm điều kiện định giá bất động sản — mô tả dịch của các nhóm điều kiện định giá."
+keywords:
+  - nhóm điều kiện
+  - mô tả
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REVNACCTGCHANGETYPETEXT
 description: Revnacctgchangetypetext
+semantic_en: "Change type text — multilingual labels for revenue accounting change type classifications."
+semantic_vi: "Văn bản loại thay đổi — nhãn đa ngôn ngữ cho các phân loại loại thay đổi kế toán doanh thu."
+keywords:
+  - loại thay đổi
+  - mô tả
+  - doanh thu
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

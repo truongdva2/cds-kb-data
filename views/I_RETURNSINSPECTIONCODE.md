@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSINSPECTIONCODE
 description: Returnsinspectioncode
+semantic_en: "Returns inspection code master — enumeration of inspection result codes for returned product quality assessments."
+semantic_vi: "Hồ sơ chính mã kiểm tra trả hàng — danh sách các mã kết quả kiểm tra cho đánh giá chất lượng sản phẩm trả hàng."
+keywords:
+  - mã kiểm tra
+  - trả hàng
+  - chất lượng
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

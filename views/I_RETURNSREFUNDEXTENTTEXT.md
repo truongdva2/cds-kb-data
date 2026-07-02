@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSREFUNDEXTENTTEXT
 description: Returnsrefundextenttext
+semantic_en: "Returns refund extent text — provides language-specific descriptions of refund extent categories."
+semantic_vi: "Văn bản phạm vi hoàn tiền trả lại — cung cấp mô tả dành riêng cho ngôn ngữ của các danh mục phạm vi hoàn tiền."
+keywords:
+  - mô tả hoàn tiền
+  - phạm vi hoàn tiền
+  - ngôn ngữ
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

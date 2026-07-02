@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONRULECONDITION
 description: Revaluationrulecondition
+semantic_en: "Real estate valuation rule condition — establishes specific conditions and percentages within valuation rules."
+semantic_vi: "Điều kiện quy tắc định giá bất động sản — thiết lập các điều kiện và tỷ phần cụ thể trong các quy tắc định giá."
+keywords:
+  - điều kiện
+  - quy tắc
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

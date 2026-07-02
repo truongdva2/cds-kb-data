@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMCOSTESTITEM
 description: Sales OrderITEMCOSTESTITEM
+semantic_en: "Sales order item cost estimate item — individual cost element within a cost estimate with cost origin group and element categorization"
+semantic_vi: "Mục ước tính chi phí trong mục hàng đơn hàng — yếu tố chi phí riêng lẻ trong ước tính chi phí với nhóm nguồn gốc chi phí"
+keywords:
+  - mục chi phí ước tính
+  - yếu tố chi phí
+  - nhóm chi phí
+  - phân loại chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

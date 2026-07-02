@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERPRECDGPROCFLOW
 description: Sales OrderPRECDGPROCFLOW
+semantic_en: "Preceding process flow of sales order — process flow tracking showing prior documents with creation and change metadata at header level"
+semantic_vi: "Quy trình tiền nhiệm của đơn hàng bán — theo dõi quy trình hiển thị các tài liệu trước đó với siêu dữ liệu tạo và thay đổi mức tiêu đề"
+keywords:
+  - quy trình tiền nhiệm đơn hàng
+  - tài liệu trước
+  - theo dõi quy trình bán hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

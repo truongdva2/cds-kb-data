@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMTP
 description: Sales OrderITEMTP
+semantic_en: "Sales order item - transactional processing — sales item details with product, quantities, and requested delivery date for transaction editing"
+semantic_vi: "Mục hàng đơn hàng - xử lý giao dịch — chi tiết mục bán với sản phẩm, số lượng và ngày giao hàng yêu cầu để chỉnh sửa giao dịch"
+keywords:
+  - mục hàng TP
+  - chi tiết sản phẩm mục
+  - ngày giao hàng yêu cầu
+  - số lượng mục
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

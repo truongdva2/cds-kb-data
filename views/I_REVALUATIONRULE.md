@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONRULE
 description: Revaluationrule
+semantic_en: "RE valuation rule — defines valuation methodologies with cash flow types and automation settings."
+semantic_vi: "Quy tắc định giá bất động sản — xác định các phương pháp định giá với các loại dòng tiền và cài đặt tự động hóa."
+keywords:
+  - quy tắc
+  - định giá
+  - tự động hóa
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

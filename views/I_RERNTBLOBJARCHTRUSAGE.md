@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLOBJARCHTRUSAGE
 description: Rerntblobjarchtrusage
+semantic_en: "Rentable object architecture usage — linking architectural components to rentable property objects with validity dates."
+semantic_vi: "Sử dụng kiến trúc đối tượng cho thuê — liên kết các thành phần kiến trúc với các đối tượng bất động sản cho thuê."
+keywords:
+  - kiến trúc bất động sản
+  - sử dụng kiến trúc
+  - liên kết đối tượng
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

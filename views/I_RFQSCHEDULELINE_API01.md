@@ -1,6 +1,12 @@
 ---
 name: I_RFQSCHEDULELINE_API01
 description: RFQSchedule Line Api 01
+semantic_en: "Schedule line in request for quotation — defines delivery schedules and quantities for RFQ line items."
+semantic_vi: "Dòng lịch trình trong yêu cầu báo giá — xác định các lịch trình giao hàng và số lượng cho các mục dòng RFQ."
+keywords:
+  - lịch trình
+  - giao hàng
+  - RFQ
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

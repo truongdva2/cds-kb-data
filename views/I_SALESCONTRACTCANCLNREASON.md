@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTCANCLNREASON
 description: Salescontractcanclnreason
+semantic_en: "Sales contract cancellation reasons — classification codes for why contracts are cancelled."
+semantic_vi: "Lý do hủy hợp đồng bán hàng — mã phân loại cho lý do hủy hợp đồng."
+keywords:
+  - lý do hủy hợp đồng
+  - hủy hợp đồng
+  - phân loại
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

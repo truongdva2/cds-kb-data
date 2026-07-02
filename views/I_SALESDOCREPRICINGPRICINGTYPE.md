@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCREPRICINGPRICINGTYPE
 description: Salesdocrepricingpricingtype
+semantic_en: "Pricing type for sales document repricing — defines pricing type applicable to repricing operations."
+semantic_vi: "Loại giá cho tái định giá tài liệu bán hàng — xác định loại giá áp dụng cho các hoạt động tái định giá."
+keywords:
+  - loại giá
+  - tái định giá
+  - giá thay đổi
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

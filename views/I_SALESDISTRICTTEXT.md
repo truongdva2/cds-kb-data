@@ -1,6 +1,12 @@
 ---
 name: I_SALESDISTRICTTEXT
 description: Salesdistricttext
+semantic_en: "Sales district text — multilingual names for sales districts."
+semantic_vi: "Văn bản khu vực bán hàng — tên đa ngôn ngữ cho các khu vực bán hàng."
+keywords:
+  - tên khu vực bán hàng
+  - đa ngôn ngữ
+  - khu vực
 app_component: LO-MD-BP-CM-2CL
 software_component: SAPSCORE
 release_state: released

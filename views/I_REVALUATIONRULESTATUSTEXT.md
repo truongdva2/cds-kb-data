@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONRULESTATUSTEXT
 description: Revaluationrulestatustext
+semantic_en: "Status of a RE contract valuation text — multilingual descriptions of rule status values."
+semantic_vi: "Văn bản trạng thái định giá hợp đồng bất động sản — mô tả đa ngôn ngữ của các giá trị trạng thái quy tắc."
+keywords:
+  - trạng thái
+  - mô tả
+  - quy tắc
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

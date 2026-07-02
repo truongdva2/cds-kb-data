@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEMCATEGORYT
 description: Salesdocumentitemcategoryt
+semantic_en: "Sales document item category text — provides translated names of item categories by language."
+semantic_vi: "Văn bản loại dòng tài liệu bán hàng — tên loại dòng theo ngôn ngữ."
+keywords:
+  - tên loại dòng
+  - đa ngôn ngữ
+  - phân loại
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

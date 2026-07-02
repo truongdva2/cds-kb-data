@@ -1,6 +1,12 @@
 ---
 name: I_RERENTABLEOBJECTCATEGORY
 description: Rerentableobjectcategory
+semantic_en: "Rentable object category domain values — enumeration of real estate object rental classifications."
+semantic_vi: "Các giá trị miền danh mục đối tượng cho thuê — danh sách các phân loại cho thuê đối tượng bất động sản."
+keywords:
+  - danh mục cho thuê
+  - loại đối tượng
+  - phân loại
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

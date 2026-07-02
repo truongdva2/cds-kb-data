@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALRULETYPETEXT
 description: Rerenewalruletypetext
+semantic_en: "Renewal rule type domain value translations — multilingual labels for renewal rule type enumeration."
+semantic_vi: "Bản dịch giá trị miền loại quy tắc gia hạn — nhãn đa ngôn ngữ cho danh sách loại quy tắc gia hạn."
+keywords:
+  - loại gia hạn
+  - văn bản loại
+  - bản dịch miền
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

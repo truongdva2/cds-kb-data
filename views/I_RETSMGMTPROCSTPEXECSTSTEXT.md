@@ -1,6 +1,12 @@
 ---
 name: I_RETSMGMTPROCSTPEXECSTSTEXT
 description: Retsmgmtprocstpexecststext
+semantic_en: "Returns process step execution status translations — multilingual text for returns process step execution status enumeration."
+semantic_vi: "Bản dịch trạng thái thực hiện bước quy trình trả hàng — văn bản đa ngôn ngữ cho danh sách trạng thái thực hiện bước quy trình trả hàng."
+keywords:
+  - trạng thái thực hiện
+  - bản dịch quy trình
+  - trả hàng
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

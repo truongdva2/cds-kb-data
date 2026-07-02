@@ -1,6 +1,12 @@
 ---
 name: I_SALESGROUP
 description: Salesgroup
+semantic_en: "Sales groups — organizational unit grouping sales personnel and responsible for sales activities."
+semantic_vi: "Nhóm bán hàng — đơn vị tổ chức nhóm nhân viên bán hàng chịu trách nhiệm hoạt động bán hàng."
+keywords:
+  - nhóm bán hàng
+  - nhân viên bán hàng
+  - tổ chức
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

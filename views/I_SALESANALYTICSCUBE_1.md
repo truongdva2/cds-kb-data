@@ -1,6 +1,12 @@
 ---
 name: I_SALESANALYTICSCUBE_1
 description: Salesanalyticscube 1
+semantic_en: "Sales volume and open sales analytics cube — analytical query data for sales orders, deliveries, and billing documents."
+semantic_vi: "Khối phân tích khối lượng bán hàng và bán hàng mở — dữ liệu truy vấn phân tích cho đơn hàng bán, giao hàng, và tài liệu thanh toá."
+keywords:
+  - phân tích bán hàng
+  - khối lượng bán hàng
+  - tài liệu thanh toán
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

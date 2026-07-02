@@ -1,6 +1,12 @@
 ---
 name: I_RETAXGROUPTEXT
 description: Retaxgrouptext
+semantic_en: "Real estate tax group text translations — multilingual tax group names for real estate tax configurations."
+semantic_vi: "Bản dịch văn bản nhóm thuế bất động sản — tên nhóm thuế đa ngôn ngữ cho cấu hình thuế bất động sản."
+keywords:
+  - nhóm thuế
+  - bản dịch thuế
+  - tên nhóm
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

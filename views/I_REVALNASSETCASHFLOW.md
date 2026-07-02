@@ -1,6 +1,12 @@
 ---
 name: I_REVALNASSETCASHFLOW
 description: Revalnassetcashflow
+semantic_en: "Real estate valuation asset cash flow — records cash flow streams for asset-based real estate valuations."
+semantic_vi: "Dòng tiền tài sản định giá bất động sản — ghi lại các luồng dòng tiền cho các định giá bất động sản dựa trên tài sản."
+keywords:
+  - dòng tiền
+  - định giá
+  - tài sản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

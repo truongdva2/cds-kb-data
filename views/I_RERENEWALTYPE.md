@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALTYPE
 description: Rerenewaltype
+semantic_en: "Renewal type domain values — enumeration of real estate renewal type classifications."
+semantic_vi: "Các giá trị miền loại gia hạn — danh sách các phân loại loại gia hạn bất động sản."
+keywords:
+  - loại gia hạn
+  - phân loại gia hạn
+  - miền
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

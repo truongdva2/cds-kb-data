@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSDOCUMENTSTATUSTEXT
 description: Returnsdocumentstatustext
+semantic_en: "Returns document status text translations — multilingual descriptions of returns document status domain values."
+semantic_vi: "Bản dịch văn bản trạng thái tài liệu trả hàng — các mô tả đa ngôn ngữ của các giá trị miền trạng thái tài liệu trả hàng."
+keywords:
+  - trạng thái tài liệu
+  - bản dịch trả hàng
+  - mô tả
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

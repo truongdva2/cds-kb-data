@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTPARTNER
 description: Salescontractpartner
+semantic_en: "Sales contract partners — maps partner roles, functions, and address assignments in contracts."
+semantic_vi: "Đối tác hợp đồng bán hàng — ánh xạ các vai trò đối tác, chức năng, và gán địa chỉ trong hợp đồng."
+keywords:
+  - đối tác hợp đồng
+  - vai trò đối tác
+  - địa chỉ
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

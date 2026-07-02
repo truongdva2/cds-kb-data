@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONCONDITIONGRP
 description: Revaluationconditiongrp
+semantic_en: "Real estate valuation condition group — groups conditions used in valuations for organizational purposes."
+semantic_vi: "Nhóm điều kiện định giá bất động sản — nhóm các điều kiện được sử dụng trong các định giá cho mục đích tổ chức."
+keywords:
+  - điều kiện
+  - nhóm
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

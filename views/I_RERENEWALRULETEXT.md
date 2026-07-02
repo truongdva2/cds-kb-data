@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALRULETEXT
 description: Rerenewalruletext
+semantic_en: "Renewal rules text translations — multilingual descriptions of renewal rule master data records."
+semantic_vi: "Bản dịch văn bản quy tắc gia hạn — các mô tả quy tắc gia hạn đa ngôn ngữ."
+keywords:
+  - văn bản gia hạn
+  - bản dịch quy tắc
+  - mô tả gia hạn
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

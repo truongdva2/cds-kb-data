@@ -1,6 +1,12 @@
 ---
 name: I_RETAXTYPE
 description: Retaxtype
+semantic_en: "Real estate tax type master — country-specific real estate tax type definitions for tax calculation rules."
+semantic_vi: "Hồ sơ chính loại thuế bất động sản — định nghĩa loại thuế bất động sản riêng theo quốc gia cho quy tắc tính toán thuế."
+keywords:
+  - loại thuế
+  - bất động sản
+  - quốc gia
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

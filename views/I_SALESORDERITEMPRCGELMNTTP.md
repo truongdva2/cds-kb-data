@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMPRCGELMNTTP
 description: Sales OrderITEMPRCGELMNTTP
+semantic_en: "Sales order item pricing element - transactional processing — condition details with calculation type, rates, and currency for item pricing"
+semantic_vi: "Yếu tố giá mục hàng đơn hàng - xử lý giao dịch — chi tiết điều kiện với loại tính toán, tỷ giá và tiền tệ cho định giá mục"
+keywords:
+  - yếu tố giá TP
+  - tính toán điều kiện giá
+  - tỷ giá tiền tệ
+  - định giá mục hàng
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

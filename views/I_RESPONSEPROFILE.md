@@ -1,6 +1,12 @@
 ---
 name: I_RESPONSEPROFILE
 description: Responseprofile
+semantic_en: "Response profile master — service response profile configuration for CRM escalation management."
+semantic_vi: "Hồ sơ phản hồi chính — cấu hình hồ sơ phản hồi dịch vụ cho quản lý leo thang CRM."
+keywords:
+  - hồ sơ phản hồi
+  - CRM
+  - leo thang dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

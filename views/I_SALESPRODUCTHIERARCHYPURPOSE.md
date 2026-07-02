@@ -1,6 +1,12 @@
 ---
 name: I_SALESPRODUCTHIERARCHYPURPOSE
 description: Salesproducthierarchypurpose
+semantic_en: "Product hierarchy purpose — classification of product hierarchy purposes with domain values"
+semantic_vi: "Mục đích phân cấp sản phẩm — phân loại mục đích phân cấp sản phẩm với giá trị miền"
+keywords:
+  - phân loại phân cấp sản phẩm
+  - mục đích phân cấp
+  - giá trị lĩnh vực
 app_component: SD-SLS-PH-2CL
 software_component: SAPSCORE
 release_state: released

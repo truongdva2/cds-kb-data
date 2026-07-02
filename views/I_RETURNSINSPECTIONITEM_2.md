@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSINSPECTIONITEM_2
 description: Returnsinspectionitem 2
+semantic_en: "Returns inspection item — transactional view of inspection records for returned products with result codes, quantities, and units."
+semantic_vi: "Mục kiểm tra trả hàng — chế độ xem giao dịch của các bản ghi kiểm tra cho sản phẩm trả hàng với mã kết quả, số lượng và đơn vị."
+keywords:
+  - mục kiểm tra
+  - trả hàng
+  - kết quả
 app_component: LO-ARM-INS-2CL
 software_component: SAPSCORE
 release_state: released

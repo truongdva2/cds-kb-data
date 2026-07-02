@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSDOCUMENTSTATUS
 description: Returnsdocumentstatus
+semantic_en: "Returns document status domain — enumeration of document status values for returns document lifecycle tracking."
+semantic_vi: "Miền trạng thái tài liệu trả hàng — danh sách các giá trị trạng thái tài liệu cho theo dõi chu kỳ sống tài liệu trả hàng."
+keywords:
+  - trạng thái tài liệu
+  - trả hàng
+  - chu kỳ sống
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

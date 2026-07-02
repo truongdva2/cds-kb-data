@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERPARTNERTP
 description: Sales OrderPARTNERTP
+semantic_en: "Sales order partner - transactional processing — partner assignment with sales organization, distribution channel and division context for header-level editing"
+semantic_vi: "Bên liên quan đơn hàng - xử lý giao dịch — gán bên với tổ chức bán hàng, kênh phân phối và bối cảnh chi nhánh để chỉnh sửa mức tiêu đề"
+keywords:
+  - bên liên quan TP đơn hàng
+  - chỉnh sửa bên tiêu đề
+  - tổ chức kênh bán hàng
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

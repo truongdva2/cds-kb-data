@@ -1,6 +1,12 @@
 ---
 name: I_SALESGROUPTEXT
 description: Salesgrouptext
+semantic_en: "Sales group text — provides translated names of sales groups by language."
+semantic_vi: "Văn bản nhóm bán hàng — tên nhóm bán hàng theo ngôn ngữ."
+keywords:
+  - tên nhóm
+  - đa ngôn ngữ
+  - nhóm bán hàng
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

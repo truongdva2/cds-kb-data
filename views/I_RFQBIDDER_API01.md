@@ -1,6 +1,12 @@
 ---
 name: I_RFQBIDDER_API01
 description: Rfqbidder Api 01
+semantic_en: "Bidder in request for quotation — identifies suppliers and partner functions in RFQ documents."
+semantic_vi: "Nhà thầu trong yêu cầu báo giá — xác định các nhà cung cấp và chức năng đối tác trong các tài liệu RFQ."
+keywords:
+  - nhà thầu
+  - yêu cầu báo giá
+  - nhà cung cấp
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESPLANPURPOSETEXT
 description: Salesplanpurposetext
+semantic_en: "Sales plan purpose text — sales plan purpose descriptions in multiple languages"
+semantic_vi: "Văn bản mục đích kế hoạch bán hàng — mô tả mục đích kế hoạch bằng nhiều ngôn ngữ"
+keywords:
+  - mô tả mục đích kế hoạch
+  - tên mục đích kế hoạch
+  - ngôn ngữ kế hoạch
 app_component: SD-ANA-SP-2CL
 software_component: SAPSCORE
 release_state: released

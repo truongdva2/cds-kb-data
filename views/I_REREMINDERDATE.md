@@ -1,6 +1,12 @@
 ---
 name: I_REREMINDERDATE
 description: Rereminderdate
+semantic_en: "Real estate reminder dates — tracking reminder rules, dates, and reasons with user audit trail for property reminders."
+semantic_vi: "Ngày nhắc nhở bất động sản — theo dõi quy tắc nhắc nhở, ngày tháng và lý do với dấu vết kiểm toán người dùng."
+keywords:
+  - nhắc nhở bất động sản
+  - ngày nhắc nhở
+  - quy tắc nhắc nhở
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

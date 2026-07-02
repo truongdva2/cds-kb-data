@@ -1,6 +1,12 @@
 ---
 name: I_RERENTABLEOBJECT
 description: Rerentableobject
+semantic_en: "Real estate rentable object — core rentable property unit with portfolio identification, status, and validity periods."
+semantic_vi: "Đối tượng cho thuê bất động sản — đơn vị bất động sản cho thuê cơ bản với xác định danh mục đầu tư, trạng thái và kỳ hạn hiệu lực."
+keywords:
+  - đối tượng cho thuê
+  - bất động sản cho thuê
+  - danh mục đầu tư
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

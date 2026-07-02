@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERITEMCUBE
 description: Sales OrderITEMCUBE
+semantic_en: "Sales order item analytics cube (deprecated) — statistical analysis data for sales order items with creation and change tracking metadata"
+semantic_vi: "Khối phân tích mục hàng đơn hàng (không dùng) — dữ liệu phân tích thống kê cho mục hàng bán với siêu dữ liệu theo dõi tạo và thay đổi"
+keywords:
+  - phân tích mục hàng bán
+  - dữ liệu thống kê đơn hàng
+  - khối dữ liệu bán hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RETERMTYPETEXT
 description: Retermtypetext
+semantic_en: "Real estate term type text translations — multilingual term type names for real estate contract term classifications."
+semantic_vi: "Bản dịch văn bản loại thời hạn bất động sản — tên loại thời hạn đa ngôn ngữ cho các phân loại thời hạn hợp đồng bất động sản."
+keywords:
+  - loại thời hạn
+  - bản dịch hợp đồng
+  - tên thời hạn
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

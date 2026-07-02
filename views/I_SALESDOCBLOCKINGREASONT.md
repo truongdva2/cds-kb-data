@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCBLOCKINGREASONT
 description: Salesdocblockingreasont
+semantic_en: "Blocking reason text for sales documents — provides translated names of blocking reasons by language."
+semantic_vi: "Văn bản lý do khóa tài liệu bán hàng — tên lý do khóa theo ngôn ngữ."
+keywords:
+  - tên lý do khóa
+  - đa ngôn ngữ
+  - ngăn cấm
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

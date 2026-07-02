@@ -1,6 +1,12 @@
 ---
 name: I_SALESDELIVDATECATEGORYTEXT
 description: Salesdelivdatecategorytext
+semantic_en: "Delivery date category text — multilingual names for delivery date classifications."
+semantic_vi: "Văn bản danh mục ngày giao hàng — tên đa ngôn ngữ cho phân loại ngày giao hàng."
+keywords:
+  - ngày giao hàng
+  - danh mục
+  - tên
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

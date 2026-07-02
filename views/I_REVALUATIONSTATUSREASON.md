@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONSTATUSREASON
 description: Revaluationstatusreason
+semantic_en: "Real estate valuation status reason — specifies reasons or codes for valuation status changes."
+semantic_vi: "Lý do trạng thái định giá bất động sản — chỉ định các lý do hoặc mã cho các thay đổi trạng thái định giá."
+keywords:
+  - lý do
+  - trạng thái
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

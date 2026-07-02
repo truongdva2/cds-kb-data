@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTFOLLOWUPACTION
 description: Salescontractfollowupaction
+semantic_en: "Follow-up actions for sales contracts — action codes for contract management activities."
+semantic_vi: "Các hành động theo dõi cho hợp đồng bán hàng — mã hành động cho hoạt động quản lý hợp đồng."
+keywords:
+  - hành động theo dõi
+  - hợp đồng bán hàng
+  - quản lý
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

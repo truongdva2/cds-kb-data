@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRVALDTYPERDUNITTEXT
 description: Salescontrvaldtyperdunittext
+semantic_en: "Sales contract validity period unit text — multilingual names for validity period time units."
+semantic_vi: "Văn bản đơn vị kỳ hiệu lực hợp đồng bán hàng — tên đa ngôn ngữ cho đơn vị thời gian kỳ hiệu lực."
+keywords:
+  - đơn vị kỳ hiệu lực
+  - tên
+  - đa ngôn ngữ
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

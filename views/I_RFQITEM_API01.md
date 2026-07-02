@@ -1,6 +1,12 @@
 ---
 name: I_RFQITEM_API01
 description: Rfqitem Api 01
+semantic_en: "Item in request for quotation — specifies line items with materials, manufacturers, and delivery terms."
+semantic_vi: "Mục trong yêu cầu báo giá — chỉ định các mục dòng với vật liệu, nhà sản xuất và điều khoản giao hàng."
+keywords:
+  - mục
+  - yêu cầu báo giá
+  - vật liệu
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

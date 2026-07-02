@@ -1,6 +1,12 @@
 ---
 name: I_RERENTABLEOBJECTCATEGORYTEXT
 description: Rerentableobjectcategorytext
+semantic_en: "Rentable object category translations — multilingual labels for rentable object category enumeration."
+semantic_vi: "Bản dịch danh mục đối tượng cho thuê — nhãn đa ngôn ngữ cho danh sách danh mục đối tượng cho thuê."
+keywords:
+  - danh mục cho thuê
+  - bản dịch loại
+  - tên danh mục
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESBILLINGPROVIDERCONTRACT
 description: Salesbillingprovidercontract
+semantic_en: "Provider contracts for sales billing — stores service provider contract terms and conditions for billing."
+semantic_vi: "Hợp đồng nhà cung cấp dịch vụ cho thanh toán bán hàng — lưu trữ các điều khoản hợp đồng nhà cung cấp dịch vụ cho thanh toán."
+keywords:
+  - hợp đồng nhà cung cấp
+  - thanh toán bán hàng
+  - điều khoản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

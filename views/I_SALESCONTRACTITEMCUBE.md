@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTITEMCUBE
 description: Salescontractitemcube
+semantic_en: "Sales contract items analytics cube — analytical data for contract line items with creation and organizational dimensions."
+semantic_vi: "Khối phân tích mục hợp đồng bán hàng — dữ liệu phân tích cho mục dòng hợp đồng với kích thước tạo và tổ chức."
+keywords:
+  - mục hợp đồng bán hàng
+  - phân tích
+  - tổ chức bán hàng
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

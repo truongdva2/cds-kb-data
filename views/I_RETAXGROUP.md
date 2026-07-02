@@ -1,6 +1,12 @@
 ---
 name: I_RETAXGROUP
 description: Retaxgroup
+semantic_en: "Real estate tax group master — grouping tax rates with exemption flags for real estate tax calculations."
+semantic_vi: "Hồ sơ chính nhóm thuế bất động sản — nhóm tỷ lệ thuế với cờ miễn trừ cho tính toán thuế bất động sản."
+keywords:
+  - nhóm thuế
+  - bất động sản
+  - miễn trừ thuế
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

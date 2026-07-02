@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBOMLINK
 description: Sales OrderBOMLINK
+semantic_en: "Sales order BOM link — association between sales orders and their bill of material configurations."
+semantic_vi: "Liên kết bảng vật tư đơn hàng bán — mối liên kết giữa đơn hàng bán và cấu hình bảng vật tư của chúng."
+keywords:
+  - bảng vật tư
+  - liên kết đơn hàng
+  - cấu hình
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

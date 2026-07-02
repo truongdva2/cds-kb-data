@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSINSPECTION_2
 description: Returnsinspection 2
+semantic_en: "Returns inspection results — captures inspection outcome, document status, and audit trail for returned goods."
+semantic_vi: "Kết quả kiểm tra hàng trả lại — ghi lại trạng thái kiểm tra, tình trạng tài liệu và lộ trình kiểm toán cho hàng trả lại."
+keywords:
+  - kiểm tra trả lại
+  - hàng trả lại
+  - kết quả kiểm tra
 app_component: LO-ARM-INS-2CL
 software_component: SAPSCORE
 release_state: released

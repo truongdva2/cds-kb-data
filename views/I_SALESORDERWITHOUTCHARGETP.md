@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERWITHOUTCHARGETP
 description: Sales OrderWITHOUTCHARGETP
+semantic_en: "Sales order without charge - transactional processing — free sales order with partner, organization and purchase order context for transaction editing"
+semantic_vi: "Đơn hàng không tính phí - xử lý giao dịch — đơn hàng bán miễn phí với bối cảnh bên, tổ chức và đơn mua để chỉnh sửa giao dịch"
+keywords:
+  - đơn hàng miễn phí TP
+  - chỉnh sửa đơn hàng miễn phí
+  - tổ chức đơn hàng
+  - tham chiếu đơn mua
 app_component: SD-SLS-SO-RAP-2CL
 software_component: SAPSCORE
 release_state: released

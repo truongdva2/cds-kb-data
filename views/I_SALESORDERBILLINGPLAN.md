@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBILLINGPLAN
 description: Sales OrderBILLINGPLAN
+semantic_en: "Billing plans for sales orders — service billing schedules with dates, category, and amount rules."
+semantic_vi: "Kế hoạch thanh toán cho đơn hàng bán — lịch thanh toán dịch vụ với ngày tháng, loại và quy tắc số tiền."
+keywords:
+  - kế hoạch thanh toán
+  - lập hóa đơn
+  - dịch vụ
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

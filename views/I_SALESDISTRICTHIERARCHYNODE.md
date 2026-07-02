@@ -1,6 +1,12 @@
 ---
 name: I_SALESDISTRICTHIERARCHYNODE
 description: Salesdistricthierarchynode
+semantic_en: "Sales district hierarchy nodes — defines individual nodes within sales district hierarchies with parent-child relationships."
+semantic_vi: "Các nút hệ thống phân cấp khu vực bán hàng — xác định các nút riêng lẻ trong hệ thống phân cấp khu vực bán hàng với mối quan hệ cha-con."
+keywords:
+  - nút hệ thống phân cấp
+  - khu vực bán hàng
+  - mối quan hệ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

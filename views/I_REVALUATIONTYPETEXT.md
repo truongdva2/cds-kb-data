@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONTYPETEXT
 description: Revaluationtypetext
+semantic_en: "Real estate valuation type text — multilingual descriptions of valuation type categories."
+semantic_vi: "Văn bản loại định giá bất động sản — mô tả đa ngôn ngữ của các danh mục loại định giá."
+keywords:
+  - loại
+  - mô tả
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REVALNTRANSFERCASHFLOW
 description: Revalntransfercashflow
+semantic_en: "Real estate valuation cash flow — represents cash flow data for real estate transfer valuations."
+semantic_vi: "Dòng tiền định giá bất động sản — đại diện cho dữ liệu dòng tiền cho các định giá chuyển nhượng bất động sản."
+keywords:
+  - dòng tiền
+  - chuyển nhượng
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

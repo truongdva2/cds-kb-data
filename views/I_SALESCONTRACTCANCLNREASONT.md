@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTCANCLNREASONT
 description: Salescontractcanclnreasont
+semantic_en: "Cancellation reason text for sales contracts — multilingual descriptions of contract cancellation motives."
+semantic_vi: "Văn bản lý do hủy cho hợp đồng bán hàng — mô tả đa ngôn ngữ về động lực hủy hợp đồng."
+keywords:
+  - lý do hủy
+  - hợp đồng bán hàng
+  - văn bản
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

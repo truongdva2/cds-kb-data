@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSFOLLOWUPACTIVITYTEXT
 description: Returnsfollowupactivitytext
+semantic_en: "Returns follow-up activity text translations — multilingual descriptions of returns follow-up activities."
+semantic_vi: "Bản dịch văn bản hoạt động theo dõi trả hàng — các mô tả đa ngôn ngữ của các hoạt động theo dõi trả hàng."
+keywords:
+  - hoạt động theo dõi
+  - trả hàng
+  - mô tả
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

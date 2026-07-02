@@ -1,6 +1,12 @@
 ---
 name: I_REVENUEACCOUNTINGMAPPING
 description: Revenueaccountingmapping
+semantic_en: "Revenue accounting mapping — links sender components and documents to performance obligations and contracts for revenue recognition."
+semantic_vi: "Ánh xạ kế toán doanh thu — liên kết các thành phần gửi và tài liệu với các nghĩa vụ hoạt động và hợp đồng để công nhận doanh thu."
+keywords:
+  - doanh thu
+  - kế toán
+  - ánh xạ
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

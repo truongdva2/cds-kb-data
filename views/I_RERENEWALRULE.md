@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALRULE
 description: Rerenewalrule
+semantic_en: "Renewal rules master data — defines automatic renewal types and exclusion flags for real estate contract renewals."
+semantic_vi: "Dữ liệu chính quy tắc gia hạn — định nghĩa các loại gia hạn tự động và cờ loại trừ cho gia hạn hợp đồng bất động sản."
+keywords:
+  - gia hạn tự động
+  - quy tắc gia hạn
+  - hợp đồng bất động sản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMPRICINGELEMENT
 description: Sales OrderITEMPRICINGELEMENT
+semantic_en: "Sales order item pricing element — pricing condition records with calculation type, rate values, and currency for individual sales items"
+semantic_vi: "Yếu tố giá mục hàng đơn hàng — bản ghi điều kiện giá với loại tính toán, giá trị tỷ giá và tiền tệ cho mục bán lẻ"
+keywords:
+  - yếu tố giá bán
+  - điều kiện giá mục
+  - tỷ giá bán hàng
+  - tiền tệ giá
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RETURNREASON
 description: Returnreason
+semantic_en: "Return reason master — enumeration of reasons for customer product returns in logistics returns management."
+semantic_vi: "Hồ sơ chính lý do trả hàng — danh sách các lý do cho trả hàng sản phẩm khách hàng trong quản lý trả hàng hậu cần."
+keywords:
+  - lý do trả hàng
+  - trả hàng khách hàng
+  - quản lý
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

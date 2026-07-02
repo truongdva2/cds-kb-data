@@ -1,6 +1,12 @@
 ---
 name: I_REUSBLOBJADDLACCTASSGMTOBJ
 description: Reusblobjaddlacctassgmtobj
+semantic_en: "RE usable object additional account assignment — links usable objects to accounting entities with validity periods."
+semantic_vi: "Gán tài khoản bổ sung cho đối tượng sử dụng được của bất động sản — liên kết các đối tượng sử dụng được với các thực thể kế toán với các khoảng thời gian hợp lệ."
+keywords:
+  - gán tài khoản
+  - bất động sản
+  - kế toán
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

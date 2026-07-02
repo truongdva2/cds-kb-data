@@ -1,6 +1,12 @@
 ---
 name: I_RESVNACCTASSGMTCATEGORYTEXT
 description: Resvnacctassgmtcategorytext
+semantic_en: "Account assignment category translations — multilingual labels for reservation account assignment category enumeration."
+semantic_vi: "Bản dịch danh mục gán tài khoản đặt chỗ — nhãn đa ngôn ngữ cho danh sách danh mục gán tài khoản đặt chỗ."
+keywords:
+  - danh mục gán
+  - bản dịch tài khoản
+  - chi phí
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

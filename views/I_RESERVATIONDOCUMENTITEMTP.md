@@ -1,6 +1,12 @@
 ---
 name: I_RESERVATIONDOCUMENTITEMTP
 description: Reservationdocumentitemtp
+semantic_en: "Reservation document item interface — transactional posting view of reservation line items with product, plant, valuation, and account assignment."
+semantic_vi: "Giao diện mục tài liệu đặt chỗ — chế độ xem đăng dạo động của các mục dòng đặt chỗ với sản phẩm, nhà máy, định giá và gán tài khoản."
+keywords:
+  - mục đặt chỗ
+  - sản phẩm đặt chỗ
+  - gán tài khoản
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESPRICINGCONDITIONFIELD
 description: SALESPricing ConditionFIELD
+semantic_en: "Sales pricing field catalog — pricing condition field definitions with global field name mapping for condition usage"
+semantic_vi: "Danh mục trường định giá bán hàng — định nghĩa trường điều kiện giá với ánh xạ tên trường toàn cục để sử dụng điều kiện"
+keywords:
+  - trường điều kiện giá
+  - danh mục trường định giá
+  - sử dụng điều kiện
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

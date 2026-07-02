@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONITEMTEXTTP
 description: Salesquotationitemtexttp
+semantic_en: "Sales quotation item text - transactional processing — long text content for quotation items with language and organization context"
+semantic_vi: "Văn bản mục hàng chào giá - xử lý giao dịch — nội dung văn bản dài cho mục chào giá với ngôn ngữ và bối cảnh tổ chức"
+keywords:
+  - văn bản mục chào giá
+  - chỉnh sửa văn bản chào giá
+  - ngôn ngữ chào giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

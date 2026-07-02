@@ -1,6 +1,12 @@
 ---
 name: I_RU_ASSETOKOFTEXT
 description: RU Assetokoftext
+semantic_en: "Russia asset OKOF code text — multilingual descriptions for fixed asset classes."
+semantic_vi: "Văn bản mã OKOF tài sản Nga — mô tả đa ngôn ngữ cho các lớp tài sản cố định."
+keywords:
+  - mã OKOF
+  - tài sản Nga
+  - mô tả
 app_component: FI-LOC-AA-RU
 software_component: SAPSCORE
 release_state: released

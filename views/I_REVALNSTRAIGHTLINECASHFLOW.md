@@ -1,6 +1,12 @@
 ---
 name: I_REVALNSTRAIGHTLINECASHFLOW
 description: Revalnstraightlinecashflow
+semantic_en: "RE valuation straightline cash flow — captures linear cash flow assumptions for real estate valuations."
+semantic_vi: "Dòng tiền đường thẳng định giá bất động sản — ghi lại các giả định dòng tiền tuyến tính cho các định giá bất động sản."
+keywords:
+  - dòng tiền
+  - tuyến tính
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

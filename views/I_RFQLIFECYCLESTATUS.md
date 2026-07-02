@@ -1,6 +1,12 @@
 ---
 name: I_RFQLIFECYCLESTATUS
 description: Rfqlifecyclestatus
+semantic_en: "RFQ lifecycle status — domain values indicating the current phase of a request for quotation."
+semantic_vi: "Trạng thái vòng đời yêu cầu báo giá — các giá trị miền chỉ ra giai đoạn hiện tại của một yêu cầu báo giá."
+keywords:
+  - trạng thái
+  - vòng đời
+  - RFQ
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

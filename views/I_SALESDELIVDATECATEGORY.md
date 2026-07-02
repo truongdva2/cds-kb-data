@@ -1,6 +1,12 @@
 ---
 name: I_SALESDELIVDATECATEGORY
 description: Salesdelivdatecategory
+semantic_en: "Delivery date categories — domain values classifying delivery date types."
+semantic_vi: "Danh mục ngày giao hàng — giá trị miền phân loại các loại ngày giao hàng."
+keywords:
+  - ngày giao hàng
+  - danh mục
+  - phân loại
 app_component: SD-SLS-OA-SCH-2CL
 software_component: SAPSCORE
 release_state: released

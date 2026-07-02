@@ -1,6 +1,12 @@
 ---
 name: I_RESVNACCTASSGMTCATEGORY
 description: Resvnacctassgmtcategory
+semantic_en: "Account assignment category domain — enumeration of cost object categories for reservation account assignments."
+semantic_vi: "Miền danh mục gán tài khoản đặt chỗ — danh sách các danh mục đối tượng chi phí cho gán tài khoản đặt chỗ."
+keywords:
+  - gán tài khoản
+  - danh mục chi phí
+  - đặt chỗ
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

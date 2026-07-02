@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSMANAGEMENTPROCESSSTEP
 description: Returnsmanagementprocessstep
+semantic_en: "Returns process step — defines individual steps within a returns management workflow."
+semantic_vi: "Bước xử lý trả lại — xác định các bước riêng lẻ trong quy trình quản lý hàng trả lại."
+keywords:
+  - bước xử lý
+  - quản lý trả lại
+  - quy trình
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

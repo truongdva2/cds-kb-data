@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSFOLLOWUPACTIVITY
 description: Returnsfollowupactivity
+semantic_en: "Returns follow-up activity master — enumeration of logistical follow-up activities for returned customer products."
+semantic_vi: "Hồ sơ chính hoạt động theo dõi trả hàng — danh sách các hoạt động theo dõi hậu cần cho sản phẩm trả hàng của khách hàng."
+keywords:
+  - hoạt động theo dõi
+  - trả hàng
+  - hậu cần
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

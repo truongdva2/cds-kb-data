@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGPRODCOSTCTRLGORDITEM
 description: Rptvmfgprodcostctrlgorditem
+semantic_en: "Product cost controlling order items in repetitive manufacturing — details order items linked to materials, locations, and work breakdown structures."
+semantic_vi: "Các mục đơn hàng kiểm soát chi phí sản phẩm trong sản xuất lặp lại — chi tiết mục đơn hàng liên kết đến vật liệu, vị trí, và cấu trúc phân tích công việc."
+keywords:
+  - mục đơn hàng
+  - chi phí sản phẩm
+  - cấu trúc công việc
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

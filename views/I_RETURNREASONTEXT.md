@@ -1,6 +1,12 @@
 ---
 name: I_RETURNREASONTEXT
 description: Returnreasontext
+semantic_en: "Return reason text translations — multilingual return reason names for returns management documentation."
+semantic_vi: "Bản dịch văn bản lý do trả hàng — tên lý do trả hàng đa ngôn ngữ cho tài liệu quản lý trả hàng."
+keywords:
+  - lý do trả hàng
+  - bản dịch
+  - tên lý do
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSREFUNDEXTENT
 description: Returnsrefundextent
+semantic_en: "Returns refund extent — specifies the scope or degree of refund to be applied to a return."
+semantic_vi: "Phạm vi hoàn tiền trả lại — xác định phạm vi hoặc mức độ hoàn tiền áp dụng cho một lần trả lại."
+keywords:
+  - phạm vi hoàn tiền
+  - hoàn tiền
+  - trả lại
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

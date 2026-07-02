@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONINTEGTYPETEXT
 description: Revaluationintegtypetext
+semantic_en: "RE valuation integration type text — multilingual descriptions of valuation integration methods."
+semantic_vi: "Văn bản loại tích hợp định giá bất động sản — mô tả đa ngôn ngữ của các phương pháp tích hợp định giá."
+keywords:
+  - tích hợp
+  - mô tả
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

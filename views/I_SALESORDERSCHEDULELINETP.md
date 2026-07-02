@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERSCHEDULELINETP
 description: Sales OrderSchedule LineTP
+semantic_en: "Sales order schedule line - transactional processing — delivery schedule with confirmed quantities and dates for transaction-level editing and fulfillment"
+semantic_vi: "Dòng kế hoạch giao hàng đơn hàng - xử lý giao dịch — kế hoạch giao hàng với số lượng và ngày xác nhận để chỉnh sửa và đáp ứng mức giao dịch"
+keywords:
+  - dòng lịch trình TP
+  - ngày giao xác nhận
+  - chỉnh sửa kế hoạch
+  - lịch trình giao hàng
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

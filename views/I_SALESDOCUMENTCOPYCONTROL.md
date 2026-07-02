@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTCOPYCONTROL
 description: Salesdocumentcopycontrol
+semantic_en: "Sales document copy control — defines rules for copying sales documents from source to target types."
+semantic_vi: "Kiểm soát sao chép tài liệu bán hàng — xác định quy tắc sao chép từ loại tài liệu nguồn đến đích."
+keywords:
+  - sao chép tài liệu
+  - quy tắc sao chép
+  - kiểm soát
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

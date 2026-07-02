@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTTYPE
 description: Salescontracttype
+semantic_en: "Sales contract types — classification of contract types with screen sequence grouping."
+semantic_vi: "Loại hợp đồng bán hàng — phân loại các loại hợp đồng với nhóm trình tự màn hình."
+keywords:
+  - loại hợp đồng
+  - bán hàng
+  - phân loại
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

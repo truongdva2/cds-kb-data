@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTCANCLNPARTYT
 description: Salescontractcanclnpartyt
+semantic_en: "Cancellation party text labels for sales contracts — multilingual descriptions of cancellation initiators."
+semantic_vi: "Nhãn văn bản bên hủy cho hợp đồng bán hàng — mô tả đa ngôn ngữ của người bắt đầu hủy."
+keywords:
+  - bên hủy hợp đồng
+  - văn bản
+  - đa ngôn ngữ
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

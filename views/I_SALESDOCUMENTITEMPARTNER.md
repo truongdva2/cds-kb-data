@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEMPARTNER
 description: Salesdocumentitempartner
+semantic_en: "Sales document item partners — partner functions at item level including customer, supplier, and personnel roles."
+semantic_vi: "Đối tác dòng tài liệu bán hàng — chức năng đối tác ở cấp dòng bao gồm khách hàng, nhà cung cấp và nhân viên."
+keywords:
+  - đối tác dòng
+  - chức năng đối tác
+  - địa chỉ
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

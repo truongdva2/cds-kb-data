@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCITEMPRICINGELEMENT
 description: Salesdocitempricingelement
+semantic_en: "Sales document item pricing elements — price condition details at item level including rate, currency, and calculation type."
+semantic_vi: "Thành phần giá cho dòng tài liệu bán hàng — chi tiết điều kiện giá bao gồm tỷ lệ, tiền tệ và loại tính toán."
+keywords:
+  - định giá dòng
+  - điều kiện giá
+  - tính toán giá
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

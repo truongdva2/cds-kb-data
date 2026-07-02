@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDAPPROVALREASONTXT
 description: Salesordapprovalreasontxt
+semantic_en: "Approval reason text for sales orders — provides translated descriptions of sales order approval reasons by language."
+semantic_vi: "Văn bản lý do phê duyệt đơn hàng bán — mô tả các lý do phê duyệt đơn hàng bán theo ngôn ngữ."
+keywords:
+  - lý do phê duyệt
+  - đơn hàng bán
+  - đa ngôn ngữ
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

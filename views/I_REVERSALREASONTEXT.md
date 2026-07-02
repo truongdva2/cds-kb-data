@@ -1,6 +1,12 @@
 ---
 name: I_REVERSALREASONTEXT
 description: Reversalreasontext
+semantic_en: "Reversal reason text — provides language-specific descriptions for reversal reason codes."
+semantic_vi: "Văn bản lý do đảo ngược — cung cấp mô tả dành riêng cho ngôn ngữ cho các mã lý do đảo ngược."
+keywords:
+  - lý do
+  - mô tả
+  - đảo ngược
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

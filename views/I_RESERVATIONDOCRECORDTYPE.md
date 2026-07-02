@@ -1,6 +1,12 @@
 ---
 name: I_RESERVATIONDOCRECORDTYPE
 description: Reservationdocrecordtype
+semantic_en: "Reservation document record type domain — enumeration of goods movement type classifications for reservations."
+semantic_vi: "Miền loại bản ghi tài liệu đặt chỗ — danh sách các phân loại loại chuyển động hàng hóa cho đặt chỗ."
+keywords:
+  - loại bản ghi
+  - chuyển động hàng hóa
+  - loại đặt chỗ
 app_component: MM-IM-VDM-RSV-2CL
 software_component: SAPSCORE
 release_state: released

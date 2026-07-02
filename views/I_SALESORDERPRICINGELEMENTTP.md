@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERPRICINGELEMENTTP
 description: Sales OrderPRICINGELEMENTTP
+semantic_en: "Sales order pricing element - transactional processing — pricing condition rates and amounts with transaction currency for header-level price editing"
+semantic_vi: "Yếu tố giá đơn hàng - xử lý giao dịch — tỷ giá điều kiện và số tiền với tiền tệ giao dịch để chỉnh sửa giá mức tiêu đề"
+keywords:
+  - yếu tố giá TP
+  - chỉnh sửa giá tiêu đề
+  - tỷ giá giao dịch
+  - điều kiện giá
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

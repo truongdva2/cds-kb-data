@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTITEMTEXTTP
 description: Salescontractitemtexttp
+semantic_en: "Sales contract item text — transient projection of item notes with multilingual long text."
+semantic_vi: "Văn bản mục hợp đồng bán hàng — phép chiếu tạm thời của ghi chú mục với văn bản dài đa ngôn ngữ."
+keywords:
+  - mục hợp đồng
+  - văn bản dài
+  - đa ngôn ngữ
 app_component: SD-SLS-OA-2CL
 software_component: SAPSCORE
 release_state: released

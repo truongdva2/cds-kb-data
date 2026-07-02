@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERAPPROVALREASON
 description: Sales OrderAPPROVALREASON
+semantic_en: "Approval reasons for sales orders — reason codes for approving sales order documents."
+semantic_vi: "Mã lý do phê duyệt đơn hàng bán — mã lý do phê duyệt tài liệu đơn hàng bán."
+keywords:
+  - phê duyệt đơn hàng
+  - lý do phê duyệt
+  - xác nhận
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

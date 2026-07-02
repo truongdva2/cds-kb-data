@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTPRECDGPROCFLOW
 description: Salesdocumentprecdgprocflow
+semantic_en: "Preceding process flow for sales documents — upstream document references showing source documents and processing history."
+semantic_vi: "Luồng xử lý trước cho tài liệu bán hàng — tham chiếu tài liệu nguồn gốc hiển thị tài liệu nguồn và lịch sử xử lý."
+keywords:
+  - tài liệu nguồn gốc
+  - luồng quy trình
+  - lịch sử
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

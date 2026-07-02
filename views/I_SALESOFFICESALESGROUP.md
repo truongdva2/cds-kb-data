@@ -1,6 +1,12 @@
 ---
 name: I_SALESOFFICESALESGROUP
 description: Salesofficesalesgroup
+semantic_en: "Sales groups for sales offices — associates sales groups with specific sales offices."
+semantic_vi: "Nhóm bán hàng cho văn phòng bán hàng — liên kết nhóm bán hàng với các văn phòng bán hàng cụ thể."
+keywords:
+  - văn phòng bán hàng
+  - nhóm bán hàng
+  - tổ chức
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

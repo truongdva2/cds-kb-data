@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONCLASSIFICATION
 description: Revaluationclassification
+semantic_en: "Real estate valuation classification — specifies valuation type categories for real estate assets."
+semantic_vi: "Phân loại định giá bất động sản — chỉ định các danh mục loại định giá cho các tài sản bất động sản."
+keywords:
+  - phân loại
+  - định giá
+  - bất động sản
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

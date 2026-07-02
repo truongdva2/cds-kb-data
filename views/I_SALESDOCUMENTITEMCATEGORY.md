@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEMCATEGORY
 description: Salesdocumentitemcategory
+semantic_en: "Sales document item categories — classifies item types with billing, pricing, and text determination rules."
+semantic_vi: "Loại dòng tài liệu bán hàng — phân loại loại dòng với quy tắc lập hóa đơn, định giá và xác định văn bản."
+keywords:
+  - loại dòng
+  - phân loại dòng
+  - quy tắc dòng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

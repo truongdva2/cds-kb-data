@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMCOSTESTIMATE
 description: Sales OrderITEMCOSTESTIMATE
+semantic_en: "Sales order item cost estimate — cost estimate data with costing type, version, and valuation variant details for product and plant"
+semantic_vi: "Ước tính chi phí mục hàng đơn hàng bán — dữ liệu ước tính chi phí với loại định giá, phiên bản và chi tiết biến thể định giá cho sản phẩm và nhà máy"
+keywords:
+  - ước tính chi phí bán hàng
+  - chi phí mục hàng
+  - định giá sản phẩm
+  - phiên bản chi phí
 app_component: CO-PC-PCP-2CL
 software_component: SAPSCORE
 release_state: released

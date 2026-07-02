@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONTERM
 description: Revaluationterm
+semantic_en: "Real estate valuation term — represents valuation periods with terms, dates, and interest rate parameters."
+semantic_vi: "Kỳ hạn định giá bất động sản — đại diện cho các kỳ định giá với các kỳ hạn, ngày tháng và thông số lãi suất."
+keywords:
+  - kỳ hạn
+  - định giá
+  - lãi suất
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

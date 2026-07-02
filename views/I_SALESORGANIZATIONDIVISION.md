@@ -1,6 +1,12 @@
 ---
 name: I_SALESORGANIZATIONDIVISION
 description: Sales OrganizationDIVISION
+semantic_en: "Sales organization division — assignment of divisions to sales organizations with reference division tracking"
+semantic_vi: "Chi nhánh tổ chức bán hàng — gán chi nhánh cho tổ chức bán hàng với theo dõi chi nhánh tham chiếu"
+keywords:
+  - chi nhánh tổ chức bán
+  - gán chi nhánh
+  - tài chính tổ chức
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

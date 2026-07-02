@@ -1,6 +1,12 @@
 ---
 name: I_RESVNCOMPLETIONSTATUS
 description: Resvncompletionstatus
+semantic_en: "Reservation completion status domain — enumeration of reservation fulfillment status values for tracking completion progress."
+semantic_vi: "Miền trạng thái hoàn thành đặt chỗ — danh sách các giá trị trạng thái hoàn thành đặt chỗ cho theo dõi tiến độ hoàn thành."
+keywords:
+  - trạng thái hoàn thành
+  - đặt chỗ
+  - tiến độ
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

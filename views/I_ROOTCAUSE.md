@@ -1,6 +1,12 @@
 ---
 name: I_ROOTCAUSE
 description: Rootcause
+semantic_en: "Root cause classification — maps case type and dispute root cause codes."
+semantic_vi: "Phân loại nguyên nhân cơ sở — ánh xạ mã loại trường hợp và mã nguyên nhân tranh chấp."
+keywords:
+  - nguyên nhân cơ sở
+  - phân loại tranh chấp
+  - mã nguyên nhân
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

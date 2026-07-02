@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERTP
 description: Sales OrderTP
+semantic_en: "Sales order - transactional processing — sales order header with partner, organization, and purchase order reference details for transaction editing"
+semantic_vi: "Đơn hàng bán - xử lý giao dịch — tiêu đề đơn hàng với chi tiết tham chiếu bên, tổ chức và đơn mua hàng để chỉnh sửa giao dịch"
+keywords:
+  - đơn hàng TP
+  - tiêu đề đơn hàng chỉnh sửa
+  - tham chiếu đơn mua
+  - tổ chức bán hàng
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

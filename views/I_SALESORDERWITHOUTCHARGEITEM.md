@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERWITHOUTCHARGEITEM
 description: Sales OrderWITHOUTCHARGEITEM
+semantic_en: "Sales order without charge item — line items for free distribution orders with product and completion rule information"
+semantic_vi: "Mục đơn hàng không tính phí — mục dòng cho đơn hàng phân phối miễn phí với thông tin sản phẩm và quy tắc hoàn thành"
+keywords:
+  - mục đơn hàng miễn phí
+  - sản phẩm phân phối miễn phí
+  - mục không tính phí
+  - quy tắc hoàn thành
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

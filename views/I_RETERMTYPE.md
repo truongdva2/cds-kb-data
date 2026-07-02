@@ -1,6 +1,12 @@
 ---
 name: I_RETERMTYPE
 description: Retermtype
+semantic_en: "Real estate term type master — defines term types and categories for real estate contract lease terms."
+semantic_vi: "Hồ sơ chính loại thời hạn bất động sản — định nghĩa loại thời hạn và danh mục cho thời hạn cho thuê hợp đồng bất động sản."
+keywords:
+  - loại thời hạn
+  - bất động sản
+  - cho thuê
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

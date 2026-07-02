@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLOBJECTMEASUREMENT
 description: Rerntblobjectmeasurement
+semantic_en: "Rentable object measurement — tracking property measurement data including quantity, type, and maximum limits."
+semantic_vi: "Đo lường đối tượng cho thuê — theo dõi dữ liệu đo lường bất động sản bao gồm số lượng, loại và giới hạn tối đa."
+keywords:
+  - đo lường bất động sản
+  - diện tích đối tượng
+  - phép đo
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

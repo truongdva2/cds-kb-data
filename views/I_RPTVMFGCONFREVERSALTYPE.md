@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFREVERSALTYPE
 description: Rptvmfgconfreversaltype
+semantic_en: "Reversal type domain values for repetitive manufacturing confirmations."
+semantic_vi: "Các giá trị miền loại hoàn tác cho xác nhận sản xuất lặp lại."
+keywords:
+  - loại hoàn tác
+  - sản xuất lặp lại
+  - miền giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

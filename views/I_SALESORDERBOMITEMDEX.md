@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBOMITEMDEX
 description: Sales OrderBOMITEMDEX
+semantic_en: "Sales order BOM item data extraction — projection extracting bill of material item details including validity and change history."
+semantic_vi: "Trích xuất dữ liệu dòng bảng vật tư đơn hàng bán — dự báo trích xuất chi tiết dòng bảng vật tư bao gồm hiệu lực và lịch sử thay đổi."
+keywords:
+  - bảng vật tư
+  - dòng vật tư
+  - trích xuất
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

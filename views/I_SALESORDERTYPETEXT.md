@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERTYPETEXT
 description: Sales OrderTYPETEXT
+semantic_en: "Sales order type text — sales order type descriptions in multiple languages"
+semantic_vi: "Văn bản loại đơn hàng bán — mô tả loại đơn hàng bằng nhiều ngôn ngữ"
+keywords:
+  - loại đơn hàng văn bản
+  - tên loại đơn hàng
+  - ngôn ngữ loại đơn hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

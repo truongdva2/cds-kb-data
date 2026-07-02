@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFPROCESSINGTYPETXT
 description: Rptvmfgconfprocessingtypetxt
+semantic_en: "Processing type text labels for repetitive manufacturing confirmations — multilingual descriptions."
+semantic_vi: "Nhãn văn bản loại xử lý cho xác nhận sản xuất lặp lại — mô tả đa ngôn ngữ."
+keywords:
+  - loại xử lý
+  - văn bản
+  - đa ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

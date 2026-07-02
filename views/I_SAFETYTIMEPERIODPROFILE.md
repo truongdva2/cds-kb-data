@@ -1,6 +1,12 @@
 ---
 name: I_SAFETYTIMEPERIODPROFILE
 description: Safetytimeperiodprofile
+semantic_en: "Safety time period profiles — configures time periods for safety stock calculations per plant."
+semantic_vi: "Hồ sơ kỳ thời gian an toàn — cấu hình các kỳ thời gian cho tính toán hàng tồn kho an toàn theo nhà máy."
+keywords:
+  - hồ sơ kỳ thời gian
+  - hàng tồn kho an toàn
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

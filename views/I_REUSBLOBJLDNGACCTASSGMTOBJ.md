@@ -1,6 +1,12 @@
 ---
 name: I_REUSBLOBJLDNGACCTASSGMTOBJ
 description: Reusblobjldngacctassgmtobj
+semantic_en: "RE usable object leading account assignment — designates primary accounting assignments for usable spaces."
+semantic_vi: "Gán tài khoản chính cho đối tượng sử dụng được của bất động sản — chỉ định các gán kế toán chính cho các không gian sử dụng được."
+keywords:
+  - tài khoản chính
+  - gán
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

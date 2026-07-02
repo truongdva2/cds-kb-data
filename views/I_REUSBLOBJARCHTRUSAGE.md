@@ -1,6 +1,12 @@
 ---
 name: I_REUSBLOBJARCHTRUSAGE
 description: Reusblobjarchtrusage
+semantic_en: "RE usable object architecture usage — tracks how usable objects are used within architectural structures."
+semantic_vi: "Sử dụng kiến trúc đối tượng sử dụng được của bất động sản — theo dõi cách sử dụng các đối tượng sử dụng được trong các cấu trúc kiến trúc."
+keywords:
+  - kiến trúc
+  - sử dụng
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

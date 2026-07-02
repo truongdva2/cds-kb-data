@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONINTEGTYPE
 description: Revaluationintegtype
+semantic_en: "Real estate valuation integration type — categorizes methods for integrating valuation data."
+semantic_vi: "Loại tích hợp định giá bất động sản — phân loại các phương pháp để tích hợp dữ liệu định giá."
+keywords:
+  - tích hợp
+  - loại
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBOMSUBITEMDEX
 description: Sales OrderBOMSUBITEMDEX
+semantic_en: "Sales order BOM subitem data extraction — projection extracting bill of material subitem details and quantities."
+semantic_vi: "Trích xuất dữ liệu dòng con bảng vật tư đơn hàng bán — dự báo trích xuất chi tiết dòng con bảng vật tư và số lượng."
+keywords:
+  - bảng vật tư
+  - dòng con
+  - số lượng
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

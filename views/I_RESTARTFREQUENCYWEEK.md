@@ -1,6 +1,12 @@
 ---
 name: I_RESTARTFREQUENCYWEEK
 description: Restartfrequencyweek
+semantic_en: "Real estate start frequency week domain — enumeration of renewal frequency patterns for real estate contracts."
+semantic_vi: "Miền tuần tần số bắt đầu bất động sản — danh sách các mẫu tần suất gia hạn cho hợp đồng bất động sản."
+keywords:
+  - tần suất gia hạn
+  - bước sóng
+  - chu kỳ bắt đầu
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

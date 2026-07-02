@@ -1,6 +1,12 @@
 ---
 name: I_SALESORGANIZATIONUNITTEXT
 description: Sales OrganizationUNITTEXT
+semantic_en: "Sales organizational unit text — organizational unit descriptions with effective dates in multiple languages"
+semantic_vi: "Văn bản đơn vị tổ chức bán hàng — mô tả đơn vị tổ chức với ngày hiệu lực bằng nhiều ngôn ngữ"
+keywords:
+  - tên đơn vị tổ chức
+  - ngôn ngữ đơn vị
+  - mô tả đơn vị tổ chức
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

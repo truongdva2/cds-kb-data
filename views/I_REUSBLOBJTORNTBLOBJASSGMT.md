@@ -1,6 +1,12 @@
 ---
 name: I_REUSBLOBJTORNTBLOBJASSGMT
 description: Reusblobjtorntblobjassgmt
+semantic_en: "RE usable to rentable object assignment — establishes relationships between usable and rentable real estate objects."
+semantic_vi: "Gán đối tượng sử dụng được cho đối tượng có thể cho thuê của bất động sản — thiết lập các mối quan hệ giữa các đối tượng bất động sản sử dụng được và có thể cho thuê."
+keywords:
+  - cho thuê
+  - gán
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

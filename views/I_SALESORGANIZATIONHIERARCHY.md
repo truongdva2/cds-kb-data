@@ -1,6 +1,13 @@
 ---
 name: I_SALESORGANIZATIONHIERARCHY
 description: Sales OrganizationHIERARCHY
+semantic_en: "Sales organization hierarchy — organizational hierarchy structure with validity dates and hierarchy identifiers"
+semantic_vi: "Phân cấp tổ chức bán hàng — cấu trúc phân cấp tổ chức với ngày hiệu lực và định danh phân cấp"
+keywords:
+  - phân cấp tổ chức bán
+  - cấu trúc tổ chức
+  - ngày hiệu lực
+  - mã phân cấp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

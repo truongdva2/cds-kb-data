@@ -1,6 +1,12 @@
 ---
 name: I_REUSABLEOBJECT
 description: Reusableobject
+semantic_en: "Real estate usable object — represents individual usable spaces within real estate properties with status and assignment tracking."
+semantic_vi: "Đối tượng sử dụng được bất động sản — đại diện cho các không gian sử dụng được riêng lẻ trong các tài sản bất động sản với theo dõi trạng thái và gán."
+keywords:
+  - bất động sản
+  - không gian sử dụng
+  - đối tượng
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

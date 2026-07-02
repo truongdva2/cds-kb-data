@@ -1,6 +1,12 @@
 ---
 name: I_SALESAREASALESOFFICE
 description: Salesareasalesoffice
+semantic_en: "Sales offices within sales areas — maps organizational hierarchy of sales area to sales offices."
+semantic_vi: "Các phòng bán hàng trong các khu vực bán hàng — ánh xạ hệ thống phân cấp tổ chức của khu vực bán hàng đến phòng bán hàng."
+keywords:
+  - phòng bán hàng
+  - khu vực bán hàng
+  - tổ chức
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

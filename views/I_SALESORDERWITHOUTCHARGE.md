@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERWITHOUTCHARGE
 description: Sales OrderWITHOUTCHARGE
+semantic_en: "Sales order without charge — non-billable sales order with creation and change tracking for free distribution operations"
+semantic_vi: "Đơn hàng bán không tính phí — đơn hàng không lập hóa đơn với theo dõi tạo và thay đổi cho hoạt động phân phối miễn phí"
+keywords:
+  - đơn hàng không tính phí
+  - đơn hàng miễn phí
+  - phân phối không tính phí
+  - đơn hàng không lập hóa đơn
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

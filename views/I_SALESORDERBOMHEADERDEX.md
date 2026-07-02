@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBOMHEADERDEX
 description: Sales OrderBOMHEADERDEX
+semantic_en: "Sales order BOM header data extraction — projection extracting bill of material header attributes for analysis."
+semantic_vi: "Trích xuất dữ liệu đầu bảng vật tư đơn hàng bán — dự báo trích xuất các thuộc tính đầu bảng vật tư cho phân tích."
+keywords:
+  - bảng vật tư
+  - trích xuất dữ liệu
+  - phân tích
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

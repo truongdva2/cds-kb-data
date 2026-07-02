@@ -1,6 +1,13 @@
 ---
 name: I_SALESPRICEELEMENTACCESSLEVEL
 description: Salespriceelementaccesslevel
+semantic_en: "Access level for price elements — authorization levels for pricing conditions by application area"
+semantic_vi: "Mức truy cập cho yếu tố giá — mức ủy quyền cho điều kiện giá theo khu vực ứng dụng"
+keywords:
+  - mức truy cập giá
+  - ủy quyền định giá
+  - điều kiện giá
+  - khu vực ứng dụng
 app_component: SD-BF-PR-2CL
 software_component: SAPSCORE
 release_state: released

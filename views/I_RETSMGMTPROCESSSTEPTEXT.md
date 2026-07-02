@@ -1,6 +1,12 @@
 ---
 name: I_RETSMGMTPROCESSSTEPTEXT
 description: Retsmgmtprocesssteptext
+semantic_en: "Returns process step text translations — multilingual descriptions of returns management process steps."
+semantic_vi: "Bản dịch văn bản bước quy trình trả hàng — các mô tả bước quy trình quản lý trả hàng đa ngôn ngữ."
+keywords:
+  - bước quy trình
+  - trả hàng
+  - mô tả
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

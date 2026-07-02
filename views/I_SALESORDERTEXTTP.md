@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERTEXTTP
 description: Sales OrderTEXTTP
+semantic_en: "Sales order text - transactional processing — long text content for sales order with language and organization context for header-level editing"
+semantic_vi: "Văn bản đơn hàng - xử lý giao dịch — nội dung văn bản dài cho đơn hàng với ngôn ngữ và bối cảnh tổ chức để chỉnh sửa mức tiêu đề"
+keywords:
+  - văn bản đơn hàng TP
+  - ngôn ngữ văn bản bán hàng
+  - chỉnh sửa văn bản tiêu đề
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

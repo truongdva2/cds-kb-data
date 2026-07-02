@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONSTATUS
 description: Revaluationstatus
+semantic_en: "Real estate valuation status — domain values defining the current status of a valuation."
+semantic_vi: "Trạng thái định giá bất động sản — các giá trị miền xác định trạng thái hiện tại của một định giá."
+keywords:
+  - trạng thái
+  - định giá
+  - giá trị
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

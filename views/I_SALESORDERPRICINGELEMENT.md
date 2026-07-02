@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERPRICINGELEMENT
 description: Sales OrderPRICINGELEMENT
+semantic_en: "Sales order pricing element — pricing condition details with rates, currency, and quantity for header-level price calculations"
+semantic_vi: "Yếu tố giá đơn hàng bán — chi tiết điều kiện giá với tỷ giá, tiền tệ và số lượng cho tính toán giá mức tiêu đề"
+keywords:
+  - yếu tố giá đơn hàng
+  - điều kiện giá tiêu đề
+  - tỷ giá bán
+  - tiền tệ giá
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

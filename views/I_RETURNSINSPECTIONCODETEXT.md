@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSINSPECTIONCODETEXT
 description: Returnsinspectioncodetext
+semantic_en: "Returns inspection code text translations — multilingual inspection result code descriptions."
+semantic_vi: "Bản dịch văn bản mã kiểm tra trả hàng — các mô tả mã kết quả kiểm tra đa ngôn ngữ."
+keywords:
+  - mã kiểm tra
+  - bản dịch
+  - mô tả
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

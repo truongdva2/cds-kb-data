@@ -1,6 +1,12 @@
 ---
 name: I_RERELEVANTVALNPROCESSSTEP
 description: Rerelevantvalnprocessstep
+semantic_en: "Valuation process step detail — capturing valuation rules, process reasons, behavioral flags, and financial amounts for real estate valuations."
+semantic_vi: "Chi tiết bước quy trình định giá bất động sản — ghi nhận quy tắc định giá, lý do quy trình, cờ hành vi và số tiền tài chính."
+keywords:
+  - định giá bất động sản
+  - quy trình định giá
+  - giá trị ròng
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

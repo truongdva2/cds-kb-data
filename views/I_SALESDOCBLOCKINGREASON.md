@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCBLOCKINGREASON
 description: Salesdocblockingreason
+semantic_en: "Blocking reasons for sales documents — reason codes preventing sales document processing or delivery."
+semantic_vi: "Mã lý do khóa tài liệu bán hàng — mã lý do chặn xử lý hoặc giao hàng tài liệu bán hàng."
+keywords:
+  - khóa đơn hàng
+  - lý do chặn
+  - ngăn cấm
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

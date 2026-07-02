@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTTP
 description: Salescontracttp
+semantic_en: "Sales contracts — transient projection combining contract headers with partner and commercial data."
+semantic_vi: "Hợp đồng bán hàng — phép chiếu tạm thời kết hợp tiêu đề hợp đồng với dữ liệu đối tác và thương mại."
+keywords:
+  - hợp đồng bán hàng
+  - đối tác
+  - dữ liệu thương mại
 app_component: SD-SLS-OA-2CL
 software_component: SAPSCORE
 release_state: released

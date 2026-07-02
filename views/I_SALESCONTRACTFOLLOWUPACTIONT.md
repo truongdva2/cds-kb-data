@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTFOLLOWUPACTIONT
 description: Salescontractfollowupactiont
+semantic_en: "Follow-up action text for sales contracts — multilingual descriptions of contract management activities."
+semantic_vi: "Văn bản hành động theo dõi cho hợp đồng bán hàng — mô tả đa ngôn ngữ của hoạt động quản lý hợp đồng."
+keywords:
+  - hành động theo dõi
+  - hợp đồng bán hàng
+  - quản lý
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

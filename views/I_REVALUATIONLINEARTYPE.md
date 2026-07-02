@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONLINEARTYPE
 description: Revaluationlineartype
+semantic_en: "Real estate valuation linearization type — specifies linearization approaches for valuations."
+semantic_vi: "Loại tuyến tính hóa định giá bất động sản — xác định các cách tiếp cận tuyến tính hóa cho các định giá."
+keywords:
+  - tuyến tính hóa
+  - loại
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

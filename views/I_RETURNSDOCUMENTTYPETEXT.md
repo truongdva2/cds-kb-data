@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSDOCUMENTTYPETEXT
 description: Returnsdocumenttypetext
+semantic_en: "Returns document type text translations — multilingual returns document type names for returns processing documentation."
+semantic_vi: "Bản dịch văn bản loại tài liệu trả hàng — tên loại tài liệu trả hàng đa ngôn ngữ cho tài liệu xử lý trả hàng."
+keywords:
+  - loại tài liệu
+  - trả hàng
+  - tên loại
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

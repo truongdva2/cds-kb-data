@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTTYPELANGDEPDNT
 description: Salesdocumenttypelangdepdnt
+semantic_en: "Sales document type language dependent — language-specific names and descriptions of sales document types."
+semantic_vi: "Loại tài liệu bán hàng tùy thuộc ngôn ngữ — tên và mô tả tùy thuộc ngôn ngữ của loại tài liệu bán hàng."
+keywords:
+  - đa ngôn ngữ
+  - tên loại
+  - tùy thuộc ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

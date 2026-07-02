@@ -1,6 +1,12 @@
 ---
 name: I_SALESOFFICETEXT
 description: Salesofficetext
+semantic_en: "Sales office text — provides translated names of sales offices by language."
+semantic_vi: "Văn bản văn phòng bán hàng — tên văn phòng bán hàng theo ngôn ngữ."
+keywords:
+  - tên văn phòng
+  - đa ngôn ngữ
+  - địa điểm
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

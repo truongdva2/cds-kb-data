@@ -1,6 +1,12 @@
 ---
 name: I_RETURNSDOCUMENTTYPE
 description: Returnsdocumenttype
+semantic_en: "Returns document type domain — enumeration of document types for returns document classification in logistics."
+semantic_vi: "Miền loại tài liệu trả hàng — danh sách các loại tài liệu cho phân loại tài liệu trả hàng trong hậu cần."
+keywords:
+  - loại tài liệu
+  - trả hàng
+  - phân loại
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

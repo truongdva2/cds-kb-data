@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTSCHEDULELINE
 description: SALESDOCUMENTSchedule Line
+semantic_en: "Sales document schedule lines — delivery schedule with quantity, dates, and schedule line category."
+semantic_vi: "Dòng lịch trình tài liệu bán hàng — lịch trình giao hàng với số lượng, ngày tháng và loại dòng lịch trình."
+keywords:
+  - lịch trình giao hàng
+  - dòng lịch trình
+  - ngày giao
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

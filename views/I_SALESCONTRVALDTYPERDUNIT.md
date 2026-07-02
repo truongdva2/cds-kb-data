@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRVALDTYPERDUNIT
 description: Salescontrvaldtyperdunit
+semantic_en: "Sales contract validity period units — domain values defining time unit options for contract validity."
+semantic_vi: "Đơn vị kỳ hiệu lực hợp đồng bán hàng — giá trị miền xác định các tùy chọn đơn vị thời gian cho hiệu lực hợp đồng."
+keywords:
+  - kỳ hiệu lực
+  - đơn vị thời gian
+  - hợp đồng bán hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

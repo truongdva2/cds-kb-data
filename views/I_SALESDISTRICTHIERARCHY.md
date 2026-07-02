@@ -1,6 +1,12 @@
 ---
 name: I_SALESDISTRICTHIERARCHY
 description: Salesdistricthierarchy
+semantic_en: "Sales district hierarchies — master data for organizing sales districts in hierarchical structures."
+semantic_vi: "Hệ thống phân cấp khu vực bán hàng — dữ liệu chính để sắp xếp các khu vực bán hàng trong cấu trúc phân cấp."
+keywords:
+  - hệ thống phân cấp khu vực bán hàng
+  - cấu trúc tổ chức
+  - khu vực
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

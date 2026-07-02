@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEM
 description: Salesdocumentitem
+semantic_en: "Sales document items — line items within sales documents including material, category, and completion rules."
+semantic_vi: "Dòng tài liệu bán hàng — các dòng trong tài liệu bán hàng bao gồm vật tư, loại dòng và quy tắc hoàn thành."
+keywords:
+  - dòng đơn hàng
+  - vật tư đơn hàng
+  - chi tiết dòng
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_REVALNLIABILITYCASHFLOW
 description: Revalnliabilitycashflow
+semantic_en: "Real estate valuation liability cash flow — tracks cash flow components attributed to liability valuations."
+semantic_vi: "Dòng tiền nợ phải trả định giá bất động sản — theo dõi các thành phần dòng tiền được quy cho các định giá nợ phải trả."
+keywords:
+  - dòng tiền
+  - nợ phải trả
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

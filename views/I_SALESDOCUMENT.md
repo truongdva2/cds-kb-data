@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENT
 description: Salesdocument
+semantic_en: "Sales documents — core sales document header with creation, type, and business system reference data."
+semantic_vi: "Tài liệu bán hàng — thông tin đầu tài liệu bán hàng với dữ liệu loại, tạo lập và tham chiếu hệ thống."
+keywords:
+  - đơn hàng
+  - tài liệu bán hàng
+  - hóa đơn
 app_component: SD-SLS-2CL
 software_component: SAPSCORE
 release_state: released

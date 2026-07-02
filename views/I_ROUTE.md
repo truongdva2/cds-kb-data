@@ -1,6 +1,12 @@
 ---
 name: I_ROUTE
 description: Route
+semantic_en: "Route master data — stores route definitions with transit and transportation lead times."
+semantic_vi: "Dữ liệu chính tuyến đường — lưu trữ định nghĩa tuyến đường với thời gian dẫn đến vận chuyển."
+keywords:
+  - tuyến đường
+  - thời gian vận chuyển
+  - lịch trình
 app_component: LE-TRA
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTCANCLNPARTY
 description: Salescontractcanclnparty
+semantic_en: "Contract cancellation party domain values — identifies which party initiated cancellation."
+semantic_vi: "Các giá trị miền bên hủy hợp đồng — xác định bên nào bắt đầu hủy hợp đồng."
+keywords:
+  - hủy hợp đồng
+  - bên hủy
+  - miền giá trị
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

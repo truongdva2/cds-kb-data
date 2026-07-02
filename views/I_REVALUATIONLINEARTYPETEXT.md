@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONLINEARTYPETEXT
 description: Revaluationlineartypetext
+semantic_en: "RE valuation linearization type text — translated specifications for linearization type options."
+semantic_vi: "Văn bản loại tuyến tính hóa định giá bất động sản — các thông số kỹ thuật dịch cho các tùy chọn loại tuyến tính hóa."
+keywords:
+  - tuyến tính hóa
+  - loại
+  - mô tả
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

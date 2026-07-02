@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLARCHTROBJUSAGEMSMT
 description: Rerntblarchtrobjusagemsmt
+semantic_en: "Rentable object architecture usage measurement — tracking measurement-based usage of architectural objects within rentable property units."
+semantic_vi: "Đo lường sử dụng kiến trúc đối tượng cho thuê — theo dõi sử dụng dựa trên phép đo các đối tượng kiến trúc trong đơn vị bất động sản cho thuê."
+keywords:
+  - đo lường sử dụng
+  - kiến trúc bất động sản
+  - phép đo
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

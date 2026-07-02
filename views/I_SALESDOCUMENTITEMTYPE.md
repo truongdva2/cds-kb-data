@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTITEMTYPE
 description: Salesdocumentitemtype
+semantic_en: "Sales document item types — domain values for classifying item types in sales documents."
+semantic_vi: "Loại dòng tài liệu bán hàng — giá trị miền để phân loại loại dòng trong tài liệu bán hàng."
+keywords:
+  - loại dòng
+  - phân loại
+  - giá trị miền
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFGRBATCHCHARC
 description: Rptvmfgconfgrbatchcharc
+semantic_en: "Batch characteristics in repetitive manufacturing confirmations — stores classification data for batches."
+semantic_vi: "Đặc tính lô hàng trong xác nhận sản xuất lặp lại — lưu trữ dữ liệu phân loại cho các lô hàng."
+keywords:
+  - đặc tính lô hàng
+  - sản xuất lặp lại
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

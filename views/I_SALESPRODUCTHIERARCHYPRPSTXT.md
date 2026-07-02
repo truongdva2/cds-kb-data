@@ -1,6 +1,12 @@
 ---
 name: I_SALESPRODUCTHIERARCHYPRPSTXT
 description: Salesproducthierarchyprpstxt
+semantic_en: "Product hierarchy purpose in sales - text — product hierarchy purpose descriptions for sales in multiple languages"
+semantic_vi: "Mục đích phân cấp sản phẩm trong bán hàng - văn bản — mô tả mục đích phân cấp sản phẩm cho bán hàng bằng nhiều ngôn ngữ"
+keywords:
+  - mục đích phân cấp sản phẩm
+  - tên phân cấp sản phẩm
+  - ngôn ngữ phân cấp
 app_component: SD-SLS-PH-2CL
 software_component: SAPSCORE
 release_state: released

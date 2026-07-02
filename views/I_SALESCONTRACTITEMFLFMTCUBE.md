@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTITEMFLFMTCUBE
 description: Salescontractitemflfmtcube
+semantic_en: "Sales contract fulfillment rate analytics cube — measures contract fulfillment with temporal and organizational dimensions."
+semantic_vi: "Khối phân tích tỷ lệ hoàn thành hợp đồng bán hàng — đo lường hoàn thành hợp đồng với kích thước tạm thời và tổ chức."
+keywords:
+  - tỷ lệ hoàn thành
+  - hợp đồng bán hàng
+  - phân tích
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

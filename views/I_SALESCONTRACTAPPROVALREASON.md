@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTAPPROVALREASON
 description: Salescontractapprovalreason
+semantic_en: "Approval reasons for sales contracts — classification codes for contract approval justifications."
+semantic_vi: "Lý do phê duyệt cho hợp đồng bán hàng — mã phân loại cho lý do phê duyệt hợp đồng."
+keywords:
+  - phê duyệt hợp đồng
+  - lý do phê duyệt
+  - bán hàng
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

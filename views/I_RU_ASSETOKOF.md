@@ -1,6 +1,12 @@
 ---
 name: I_RU_ASSETOKOF
 description: RU Assetokof
+semantic_en: "Russia asset OKOF codes — Fixed asset classification per Russian accounting standards."
+semantic_vi: "Mã OKOF tài sản Nga — Phân loại tài sản cố định theo tiêu chuẩn kế toán Nga."
+keywords:
+  - mã OKOF
+  - tài sản Nga
+  - phân loại
 app_component: FI-LOC-AA-RU
 software_component: SAPSCORE
 release_state: released

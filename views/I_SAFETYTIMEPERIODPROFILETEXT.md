@@ -1,6 +1,12 @@
 ---
 name: I_SAFETYTIMEPERIODPROFILETEXT
 description: Safetytimeperiodprofiletext
+semantic_en: "Safety time period profile text — multilingual names for safety time configurations."
+semantic_vi: "Văn bản hồ sơ kỳ thời gian an toàn — tên đa ngôn ngữ cho cấu hình thời gian an toàn."
+keywords:
+  - tên hồ sơ
+  - thời gian an toàn
+  - đa ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESORGANIZATIONTEXT
 description: Sales OrganizationTEXT
+semantic_en: "Sales organization text — sales organization descriptions in multiple languages"
+semantic_vi: "Văn bản tổ chức bán hàng — mô tả tổ chức bán hàng bằng nhiều ngôn ngữ"
+keywords:
+  - tên tổ chức bán hàng
+  - ngôn ngữ tổ chức
+  - văn bản tổ chức bán
 app_component: SD-CRF-ORG-2CL
 software_component: SAPSCORE
 release_state: released

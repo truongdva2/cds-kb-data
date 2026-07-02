@@ -1,6 +1,12 @@
 ---
 name: I_RESVNCOMPLETIONSTATUSTEXT
 description: Resvncompletionstatustext
+semantic_en: "Reservation completion status translations — multilingual text descriptions of reservation completion status domain values."
+semantic_vi: "Bản dịch trạng thái hoàn thành đặt chỗ — các mô tả văn bản đa ngôn ngữ của các giá trị miền trạng thái hoàn thành đặt chỗ."
+keywords:
+  - trạng thái hoàn thành
+  - bản dịch đặt chỗ
+  - mô tả trạng thái
 app_component: MM-IM-RS-2CL
 software_component: SAPSCORE
 release_state: released

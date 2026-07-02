@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMPARTNERTP
 description: Sales OrderITEMPARTNERTP
+semantic_en: "Sales order item partner - transactional processing — partner assignment with context-specific organization and channel details for editing"
+semantic_vi: "Bên liên quan mục hàng đơn hàng - xử lý giao dịch — gán bên với chi tiết tổ chức và kênh bối cảnh cụ thể để chỉnh sửa"
+keywords:
+  - bên liên quan TP
+  - chỉnh sửa bên bán hàng
+  - tổ chức bán hàng kênh
+  - gán bên liên quan
 app_component: SD-SLS-API-2CL
 software_component: SAPSCORE
 release_state: released

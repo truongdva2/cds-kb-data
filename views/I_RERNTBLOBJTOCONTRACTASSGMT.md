@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLOBJTOCONTRACTASSGMT
 description: Rerntblobjtocontractassgmt
+semantic_en: "Rentable object contract assignment — mapping rentable property units to real estate contracts with assignment type and validity rules."
+semantic_vi: "Gán hợp đồng đối tượng cho thuê — ánh xạ các đơn vị bất động sản cho thuê tới hợp đồng bất động sản với loại gán và quy tắc hiệu lực."
+keywords:
+  - gán hợp đồng
+  - đối tượng cho thuê
+  - hợp đồng bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

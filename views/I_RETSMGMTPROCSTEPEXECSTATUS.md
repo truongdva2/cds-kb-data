@@ -1,6 +1,12 @@
 ---
 name: I_RETSMGMTPROCSTEPEXECSTATUS
 description: Retsmgmtprocstepexecstatus
+semantic_en: "Returns process step execution status domain — enumeration of execution statuses for returns process steps."
+semantic_vi: "Miền trạng thái thực hiện bước quy trình trả hàng — danh sách các trạng thái thực hiện cho các bước quy trình trả hàng."
+keywords:
+  - trạng thái thực hiện
+  - bước quy trình
+  - trả hàng
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

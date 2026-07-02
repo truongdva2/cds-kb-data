@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFMATLDOCITEMTP
 description: Rptvmfgconfmatldocitemtp
+semantic_en: "Material movements for repetitive manufacturing confirmations — transient projection of material document items and business context."
+semantic_vi: "Chuyển động vật liệu cho xác nhận sản xuất lặp lại — phép chiếu tạm thời các mục tài liệu vật liệu và bối cảnh kinh doanh."
+keywords:
+  - chuyển động vật liệu
+  - tài liệu vật liệu
+  - xác nhận sản xuất
 app_component: PP-REM-ADE-2CL
 software_component: SAPSCORE
 release_state: released

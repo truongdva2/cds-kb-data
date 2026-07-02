@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCAPPROVALSTATUST
 description: Salesdocapprovalstatust
+semantic_en: "Approval status text for sales documents — provides translated descriptions of approval status values."
+semantic_vi: "Văn bản trạng thái phê duyệt tài liệu bán hàng — mô tả các giá trị trạng thái phê duyệt theo ngôn ngữ."
+keywords:
+  - mô tả trạng thái
+  - đa ngôn ngữ
+  - trạng thái phê duyệt
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

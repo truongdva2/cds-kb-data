@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTRJCNREASON
 description: Salesdocumentrjcnreason
+semantic_en: "Sales document rejection reasons — reason codes for rejecting sales documents."
+semantic_vi: "Mã lý do từ chối tài liệu bán hàng — mã lý do từ chối tài liệu bán hàng."
+keywords:
+  - từ chối đơn hàng
+  - lý do từ chối
+  - mã từ chối
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

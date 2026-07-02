@@ -1,6 +1,12 @@
 ---
 name: I_REVERSALREASONVALUEHELP
 description: Reversalreasonvaluehelp
+semantic_en: "Reversal reason value help — lookup view for available reversal reason codes."
+semantic_vi: "Trợ giúp giá trị lý do đảo ngược — chế độ xem tra cứu cho các mã lý do đảo ngược có sẵn."
+keywords:
+  - lý do
+  - đảo ngược
+  - tra cứu
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

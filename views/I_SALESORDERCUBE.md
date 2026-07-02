@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERCUBE
 description: Sales OrderCUBE
+semantic_en: "Sales order analytical cube — multidimensional analytical view of sales orders by date, organization, and user dimensions."
+semantic_vi: "Khối phân tích đơn hàng bán — lượt xem phân tích đa chiều của đơn hàng bán theo ngày tháng, tổ chức và chiều người dùng."
+keywords:
+  - phân tích đơn hàng
+  - khối phân tích
+  - báo cáo
 app_component: SD-ANA-2CL
 software_component: SAPSCORE
 release_state: released

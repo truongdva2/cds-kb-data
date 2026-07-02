@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALTYPETEXT
 description: Rerenewaltypetext
+semantic_en: "Renewal type domain value translations — multilingual descriptions of renewal type domain values."
+semantic_vi: "Bản dịch giá trị miền loại gia hạn — các mô tả đa ngôn ngữ của giá trị miền loại gia hạn."
+keywords:
+  - loại gia hạn
+  - bản dịch loại
+  - mô tả gia hạn
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

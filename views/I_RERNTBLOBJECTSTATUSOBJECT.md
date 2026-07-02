@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLOBJECTSTATUSOBJECT
 description: Rerntblobjectstatusobject
+semantic_en: "Rentable object status — tracking object status with profile and user status flags for property lifecycle management."
+semantic_vi: "Trạng thái đối tượng cho thuê — theo dõi trạng thái đối tượng với hồ sơ và cờ trạng thái người dùng cho quản lý chu kỳ sống bất động sản."
+keywords:
+  - trạng thái bất động sản
+  - hồ sơ trạng thái
+  - cờ trạng thái
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

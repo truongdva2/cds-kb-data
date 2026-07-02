@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONBEHAVIOR
 description: Revaluationbehavior
+semantic_en: "Real estate valuation behavior — defines domain values for valuation calculation behavior options."
+semantic_vi: "Hành vi định giá bất động sản — xác định các giá trị miền cho các tùy chọn hành vi tính toán định giá."
+keywords:
+  - hành vi
+  - định giá
+  - tùy chọn
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

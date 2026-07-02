@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERTYPE
 description: Sales OrderTYPE
+semantic_en: "Sales order types — types of sales orders with processing type and billing request classification"
+semantic_vi: "Loại đơn hàng bán — các loại đơn hàng với loại xử lý và phân loại yêu cầu lập hóa đơn"
+keywords:
+  - loại đơn hàng bán
+  - phân loại xử lý
+  - loại đơn hàng
+  - lập hóa đơn
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

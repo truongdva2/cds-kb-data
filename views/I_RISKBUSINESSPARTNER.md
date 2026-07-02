@@ -1,6 +1,12 @@
 ---
 name: I_RISKBUSINESSPARTNER
 description: RISKBusiness Partner
+semantic_en: "Bank risk business partner — registers business partners with validity dates for bank risk assessment."
+semantic_vi: "Đối tác kinh doanh rủi ro ngân hàng — đăng ký các đối tác kinh doanh với ngày hiệu lực cho đánh giá rủi ro ngân hàng."
+keywords:
+  - rủi ro ngân hàng
+  - đối tác kinh doanh
+  - đánh giá
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

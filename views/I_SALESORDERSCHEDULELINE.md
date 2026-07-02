@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERSCHEDULELINE
 description: Sales OrderSchedule Line
+semantic_en: "Sales order schedule line — delivery schedule with schedule line category, quantities, and requested delivery dates for item fulfillment"
+semantic_vi: "Dòng kế hoạch giao hàng đơn hàng — kế hoạch giao hàng với loại dòng kế hoạch, số lượng và ngày giao hàng yêu cầu cho đáp ứng mục"
+keywords:
+  - dòng lịch trình giao hàng
+  - kế hoạch giao hàng
+  - số lượng giao hàng
+  - ngày lịch trình
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

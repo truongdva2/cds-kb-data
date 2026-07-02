@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITEMPARTNER
 description: Sales OrderITEMPARTNER
+semantic_en: "Sales order item partner — partner function details for each sales order item including customer, supplier, and contact person"
+semantic_vi: "Bên liên quan mục hàng đơn hàng — chi tiết chức năng bên liên quan cho từng mục hàng bao gồm khách hàng, nhà cung cấp và người liên hệ"
+keywords:
+  - bên liên quan hàng bán
+  - khách hàng nhà cung cấp
+  - người liên hệ bán hàng
+  - chức năng bên
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

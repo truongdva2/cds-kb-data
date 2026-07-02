@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERITMSUBSQNTPROCFLOW
 description: Sales OrderITMSUBSQNTPROCFLOW
+semantic_en: "Subsequent process flow of sales order item — document relationship tracking for follow-up process steps with hierarchical level tracking"
+semantic_vi: "Quy trình tiếp theo của mục hàng đơn hàng — theo dõi mối quan hệ tài liệu cho các bước quy trình tiếp theo với theo dõi mức phân cấp"
+keywords:
+  - quy trình tiếp theo
+  - tài liệu tiếp theo
+  - theo dõi mối quan hệ
+  - mục hàng tiếp theo
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

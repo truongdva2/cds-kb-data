@@ -1,6 +1,12 @@
 ---
 name: I_RERNTBLOBJTOUSBLOBJASSGMT
 description: Rerntblobjtousblobjassgmt
+semantic_en: "Rentable to usable object assignment — linking rentable property units to usable space objects with validity periods."
+semantic_vi: "Gán đối tượng cho thuê với đối tượng có thể sử dụng — liên kết các đơn vị bất động sản cho thuê với các đối tượng không gian có thể sử dụng."
+keywords:
+  - gán không gian
+  - đối tượng có thể sử dụng
+  - liên kết bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

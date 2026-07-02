@@ -1,6 +1,13 @@
 ---
 name: I_SALESORDERPARTNER
 description: Sales OrderPARTNER
+semantic_en: "Sales order partner — partner functions assigned to sales order header including customer, supplier, and address details"
+semantic_vi: "Bên liên quan đơn hàng bán — các chức năng bên gán cho tiêu đề đơn hàng bao gồm khách hàng, nhà cung cấp và chi tiết địa chỉ"
+keywords:
+  - bên liên quan đơn hàng
+  - khách hàng bên liên quan
+  - địa chỉ đơn hàng
+  - chức năng bên bán hàng
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SALESORGANIZATIONUNIT
 description: Sales OrganizationUNIT
+semantic_en: "Sales organizational unit — organizational unit structure with effective date range and unit type identification"
+semantic_vi: "Đơn vị tổ chức bán hàng — cấu trúc đơn vị tổ chức với phạm vi ngày hiệu lực và định danh loại đơn vị"
+keywords:
+  - đơn vị tổ chức bán
+  - ngày hiệu lực đơn vị
+  - loại đơn vị
+  - cấu trúc tổ chức
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

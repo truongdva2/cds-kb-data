@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFPROCESSINGTYPE
 description: Rptvmfgconfprocessingtype
+semantic_en: "Processing type domain values for repetitive manufacturing confirmations."
+semantic_vi: "Các giá trị miền loại xử lý cho xác nhận sản xuất lặp lại."
+keywords:
+  - loại xử lý
+  - sản xuất lặp lại
+  - miền giá trị
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

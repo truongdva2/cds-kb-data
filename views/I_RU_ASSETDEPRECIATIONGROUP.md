@@ -1,6 +1,12 @@
 ---
 name: I_RU_ASSETDEPRECIATIONGROUP
 description: RU Assetdepreciationgroup
+semantic_en: "Russia asset depreciation grouping — maps fixed asset codes to depreciation groups per local regulations."
+semantic_vi: "Nhóm khấu hao tài sản Nga — ánh xạ mã tài sản cố định đến nhóm khấu hao theo quy định địa phương."
+keywords:
+  - khấu hao tài sản
+  - Nga
+  - nhóm khấu hao
 app_component: FI-LOC-AA-RU
 software_component: SAPSCORE
 release_state: released

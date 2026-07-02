@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCUMENTTYPE
 description: Salesdocumenttype
+semantic_en: "Sales document types — document type definitions including processing rules, partner determination, and text procedures."
+semantic_vi: "Loại tài liệu bán hàng — định nghĩa loại tài liệu bao gồm quy tắc xử lý, xác định đối tác và quy trình văn bản."
+keywords:
+  - loại tài liệu
+  - định nghĩa loại
+  - xác định
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

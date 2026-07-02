@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCAPPROVALREASONTEXT
 description: Salesdocapprovalreasontext
+semantic_en: "Approval reason text for sales documents — provides translated descriptions of approval reasons by language."
+semantic_vi: "Văn bản lý do phê duyệt tài liệu bán hàng — cung cấp mô tả các lý do phê duyệt theo ngôn ngữ."
+keywords:
+  - mô tả phê duyệt
+  - đa ngôn ngữ
+  - lý do phê duyệt
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

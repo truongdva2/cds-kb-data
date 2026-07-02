@@ -1,6 +1,12 @@
 ---
 name: I_SALESDOCAPPROVALREASON
 description: Salesdocapprovalreason
+semantic_en: "Sales document approval reasons — maps sales document category to approval reason codes."
+semantic_vi: "Mã lý do phê duyệt tài liệu bán hàng — ánh xạ loại tài liệu bán hàng đến các mã lý do phê duyệt."
+keywords:
+  - phê duyệt đơn hàng
+  - lý do phê duyệt
+  - tài liệu bán hàng
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

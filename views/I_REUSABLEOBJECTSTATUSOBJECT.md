@@ -1,6 +1,12 @@
 ---
 name: I_REUSABLEOBJECTSTATUSOBJECT
 description: Reusableobjectstatusobject
+semantic_en: "Real estate usable object status — manages status codes and lifecycle states for usable space objects."
+semantic_vi: "Trạng thái đối tượng sử dụng được bất động sản — quản lý mã trạng thái và trạng thái vòng đời cho các đối tượng không gian sử dụng được."
+keywords:
+  - trạng thái
+  - không gian sử dụng
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

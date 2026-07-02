@@ -1,6 +1,12 @@
 ---
 name: I_RPTVMFGCONFMATLDOCHNDLGUNTTP
 description: Rptvmfgconfmatldochndlgunttp
+semantic_en: "Handling units in repetitive manufacturing confirmations — transient projection of material document handling units and parties."
+semantic_vi: "Đơn vị xử lý trong xác nhận sản xuất lặp lại — phép chiếu tạm thời các đơn vị xử lý tài liệu vật liệu và bên."
+keywords:
+  - đơn vị xử lý
+  - tài liệu vật liệu
+  - xác nhận
 app_component: PP-REM-ADE-2CL
 software_component: SAPSCORE
 release_state: released

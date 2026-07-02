@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERWITHOUTCHARGETYPE
 description: Sales OrderWITHOUTCHARGETYPE
+semantic_en: "Sales order without charge types — classification of non-billable sales order types with processing type"
+semantic_vi: "Loại đơn hàng không tính phí — phân loại các loại đơn hàng không lập hóa đơn với loại xử lý"
+keywords:
+  - loại đơn hàng miễn phí
+  - phân loại đơn hàng không tính phí
+  - loại xử lý
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

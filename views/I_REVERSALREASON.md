@@ -1,6 +1,12 @@
 ---
 name: I_REVERSALREASON
 description: Reversalreason
+semantic_en: "Reversal reason — specifies the cause for reversing accounting entries with negative posting indicator."
+semantic_vi: "Lý do đảo ngược — chỉ định nguyên nhân cho việc đảo ngược các mục kế toán với chỉ báo ghi âm."
+keywords:
+  - đảo ngược
+  - lý do
+  - kế toán
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

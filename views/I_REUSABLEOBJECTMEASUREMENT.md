@@ -1,6 +1,12 @@
 ---
 name: I_REUSABLEOBJECTMEASUREMENT
 description: Reusableobjectmeasurement
+semantic_en: "Real estate usable object measurement — tracks physical dimensions and quantities for usable spaces."
+semantic_vi: "Phép đo đối tượng sử dụng được bất động sản — theo dõi kích thước vật lý và số lượng cho các không gian sử dụng được."
+keywords:
+  - đo lường
+  - kích thước
+  - bất động sản
 app_component: RE-FX-BD-2CL
 software_component: SAPSCORE
 release_state: released

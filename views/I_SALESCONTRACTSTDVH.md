@@ -1,6 +1,12 @@
 ---
 name: I_SALESCONTRACTSTDVH
 description: Salescontractstdvh
+semantic_en: "Sales contracts value help — standard lookup view providing contract identifiers and organizational context."
+semantic_vi: "Trợ giúp giá trị hợp đồng bán hàng — chế độ xem tra cứu tiêu chuẩn cung cấp định danh hợp đồng và bối cảnh tổ chức."
+keywords:
+  - hợp đồng bán hàng
+  - tra cứu
+  - tổ chức
 app_component: SD-SLS-OA-CCO-2CL
 software_component: SAPSCORE
 release_state: released

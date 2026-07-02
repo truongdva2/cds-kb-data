@@ -1,6 +1,12 @@
 ---
 name: I_ROOTCAUSETEXT
 description: Rootcausetext
+semantic_en: "Root cause text labels — provides multilingual descriptions for dispute case root causes."
+semantic_vi: "Nhãn văn bản nguyên nhân cơ sở — cung cấp mô tả đa ngôn ngữ cho nguyên nhân tranh chấp."
+keywords:
+  - mô tả nguyên nhân
+  - văn bản tranh chấp
+  - đa ngôn ngữ
 app_component: FIN-FSCM-DM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SALESQUOTATIONITEMPRCGELMNT
 description: Salesquotationitemprcgelmnt
+semantic_en: "Sales quotation item pricing element — pricing conditions for quotation items with rates, currency, and calculation details"
+semantic_vi: "Yếu tố giá mục hàng chào giá — điều kiện giá cho mục chào giá với chi tiết tỷ giá, tiền tệ và tính toán"
+keywords:
+  - yếu tố giá chào giá
+  - tỷ giá mục chào giá
+  - điều kiện giá chào giá
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

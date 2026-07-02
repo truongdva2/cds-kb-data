@@ -1,6 +1,12 @@
 ---
 name: I_SALESINQUIRYTYPE
 description: Salesinquirytype
+semantic_en: "Sales inquiry types — document type configurations for sales inquiry documents."
+semantic_vi: "Loại yêu cầu bán hàng — cấu hình loại tài liệu cho tài liệu yêu cầu bán hàng."
+keywords:
+  - yêu cầu báo giá
+  - loại yêu cầu
+  - truy vấn
 app_component: SD-SLS-QUT-2CL
 software_component: SAPSCORE
 release_state: released

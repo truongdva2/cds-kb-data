@@ -1,6 +1,12 @@
 ---
 name: I_RETSMGMTPROCESS
 description: Retsmgmtprocess
+semantic_en: "Returns management process — tracking returns document headers and linked returns document types for logistics returns processing."
+semantic_vi: "Quy trình quản lý trả hàng — theo dõi tiêu đề tài liệu trả hàng và loại tài liệu trả hàng được liên kết cho xử lý trả hàng hậu cần."
+keywords:
+  - quản lý trả hàng
+  - tài liệu trả hàng
+  - xử lý
 app_component: LO-ARM-2CL
 software_component: SAPSCORE
 release_state: released

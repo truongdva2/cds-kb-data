@@ -1,6 +1,12 @@
 ---
 name: I_RERENEWALRULETYPE
 description: Rerenewalruletype
+semantic_en: "Renewal rule type domain values — SAP domain-driven enumeration of allowed renewal rule types."
+semantic_vi: "Các giá trị miền loại quy tắc gia hạn — danh sách các loại quy tắc gia hạn cho phép."
+keywords:
+  - loại quy tắc gia hạn
+  - miền định giá
+  - giá trị loại
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

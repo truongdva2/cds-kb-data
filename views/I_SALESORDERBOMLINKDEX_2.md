@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERBOMLINKDEX_2
 description: Sales OrderBOMLINKDEX 2
+semantic_en: "Sales order BOM link data extraction — projection extracting BOM-to-order associations with creation and change audit data."
+semantic_vi: "Trích xuất dữ liệu liên kết bảng vật tư đơn hàng bán — dự báo trích xuất mối liên kết bảng vật tư đến đơn hàng với dữ liệu kiểm toán tạo lập và thay đổi."
+keywords:
+  - bảng vật tư
+  - liên kết
+  - kiểm toán
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

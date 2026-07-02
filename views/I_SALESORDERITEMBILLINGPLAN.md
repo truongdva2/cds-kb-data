@@ -1,6 +1,12 @@
 ---
 name: I_SALESORDERITEMBILLINGPLAN
 description: Sales OrderITEMBILLINGPLAN
+semantic_en: "Billing plans for sales order items — item-level service billing schedules with category and rules."
+semantic_vi: "Kế hoạch thanh toán cho dòng đơn hàng bán — lịch thanh toán dịch vụ cấp dòng với loại và quy tắc."
+keywords:
+  - kế hoạch thanh toán
+  - dòng đơn hàng
+  - dịch vụ
 app_component: SD-SLS-SO-2CL
 software_component: SAPSCORE
 release_state: released

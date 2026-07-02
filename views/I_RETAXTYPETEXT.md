@@ -1,6 +1,12 @@
 ---
 name: I_RETAXTYPETEXT
 description: Retaxtypetext
+semantic_en: "Real estate tax type text translations — multilingual tax type names by country for real estate tax reporting."
+semantic_vi: "Bản dịch văn bản loại thuế bất động sản — tên loại thuế đa ngôn ngữ theo quốc gia cho báo cáo thuế bất động sản."
+keywords:
+  - loại thuế
+  - bản dịch quốc gia
+  - tên thuế
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released

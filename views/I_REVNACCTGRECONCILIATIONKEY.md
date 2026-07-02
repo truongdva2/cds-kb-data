@@ -1,6 +1,12 @@
 ---
 name: I_REVNACCTGRECONCILIATIONKEY
 description: Revnacctgreconciliationkey
+semantic_en: "Revenue accounting reconciliation key — tracks reconciliation runs with status, dates, and user audit information."
+semantic_vi: "Khóa đối chiếu kế toán doanh thu — theo dõi các lần chạy đối chiếu với thông tin trạng thái, ngày tháng và kiểm toán người dùng."
+keywords:
+  - đối chiếu
+  - doanh thu
+  - kế toán
 app_component: FI-RA-2CL
 software_component: SAPSCORE
 release_state: released

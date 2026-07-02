@@ -1,6 +1,12 @@
 ---
 name: I_REVALUATIONBEHAVIORTEXT
 description: Revaluationbehaviortext
+semantic_en: "Real estate valuation behavior text — provides multilingual descriptions of valuation behavior settings."
+semantic_vi: "Văn bản hành vi định giá bất động sản — cung cấp mô tả đa ngôn ngữ cho các cài đặt hành vi định giá."
+keywords:
+  - mô tả
+  - hành vi
+  - định giá
 app_component: RE-FX-2CL
 software_component: SAPSCORE
 release_state: released
