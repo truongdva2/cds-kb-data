@@ -1,6 +1,12 @@
 ---
 name: I_STANDARDWORKFMLAPARAMGROUP
 description: Standardworkfmlaparamgroup
+semantic_en: "standard work formula parameter groups — organizes formula parameters into configurable parameter sets"
+semantic_vi: "nhóm tham số công thức công việc tiêu chuẩn — sắp xếp các tham số công thức thành các tập tham số có thể cấu hình"
+keywords:
+  - công thức
+  - tham số
+  - cấu hình
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

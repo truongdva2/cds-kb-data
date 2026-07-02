@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICETP
 description: Supplier InvoiceTP
+semantic_en: "supplier invoice transactional planning view — tracks invoices with fiscal year and company code"
+semantic_vi: "dạng xem lập kế hoạch giao dịch hóa đơn nhà cung cấp — theo dõi hóa đơn với năm tài chính"
+keywords:
+  - hóa đơn nhà cung cấp
+  - lập kế hoạch
+  - mã công ty
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

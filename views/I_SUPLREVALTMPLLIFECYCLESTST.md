@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALTMPLLIFECYCLESTST
 description: Suplrevaltmpllifecyclestst
+semantic_en: "supplier evaluation template lifecycle status text view — translatable lifecycle status descriptions"
+semantic_vi: "xem văn bản trạng thái vòng đời mẫu đánh giá nhà cung cấp — mô tả trạng thái vòng đời có thể dịch"
+keywords:
+  - vòng đời mẫu
+  - trạng thái
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

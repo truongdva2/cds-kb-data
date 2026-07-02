@@ -1,6 +1,12 @@
 ---
 name: I_STATECENTRALBANKPAYTRSN
 description: Statecentralbankpaytrsn
+semantic_en: "state central bank payment reasons — details payment reason codes with document types and service specifications"
+semantic_vi: "lý do thanh toán ngân hàng trung ương theo tiểu bang — chi tiết mã lý do thanh toán với loại tài liệu và thông số kỹ thuật dịch vụ"
+keywords:
+  - thanh toán
+  - ngân hàng
+  - lý do
 app_component: FI-AR-IS-2CL
 software_component: SAPSCORE
 release_state: released

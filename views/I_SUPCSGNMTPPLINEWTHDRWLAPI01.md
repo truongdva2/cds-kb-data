@@ -1,6 +1,13 @@
 ---
 name: I_SUPCSGNMTPPLINEWTHDRWLAPI01
 description: Supcsgnmtpplinewthdrwlapi 01
+semantic_en: "consignment and pipeline withdrawal records for supplier materials — provides posting dates, company code, material, and withdrawal status for inventory management"
+semantic_vi: "bản ghi rút ngân hàng ký gửi và đường ống cho vật liệu cung cấp — cung cấp ngày hạch toán, mã công ty, vật liệu, trạng thái rút để quản lý hàng tồn kho"
+keywords:
+  - ký gửi
+  - rút ngân hàng
+  - vật liệu
+  - hàng tồn kho
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

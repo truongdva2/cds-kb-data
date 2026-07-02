@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTAKINGTRANSACTIONTYPE
 description: Stocktakingtransactiontype
+semantic_en: "Transaction types for inventory counts and stock taking — indicates impact on materials and reservations."
+semantic_vi: "Loại giao dịch cho đếm tồn kho và kiểm kho — cho biết tác động đến vật liệu và đặt chỗ."
+keywords:
+  - kiểm kho
+  - loại giao dịch
+  - tồn kho
 app_component: MM-IM-VDM-PI-2CL
 software_component: SAPSCORE
 release_state: released

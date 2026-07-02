@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDITMPARTNERTP
 description: Srvcorditmpartnertp
+semantic_en: "service order item partner details — bridges service order items to customer management partner functions and business partners with main partner indicators"
+semantic_vi: "chi tiết đối tác mục dịch vụ — kết nối các mục đơn hàng dịch vụ đến hàm chức năng đối tác quản lý khách hàng và đối tác kinh doanh"
+keywords:
+  - đối tác dịch vụ
+  - mục lệnh
+  - quản lý khách hàng
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

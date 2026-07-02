@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICEUPLOADAPI01
 description: Supplier InvoiceUPLOADAPI 01
+semantic_en: "supplier invoice upload records — timestamps and descriptions of uploaded supplier invoices"
+semantic_vi: "hồ sơ tải lên hóa đơn nhà cung cấp — mốc thời gian và mô tả của hóa đơn nhà cung cấp được tải lên"
+keywords:
+  - tải lên hóa đơn
+  - nhà cung cấp
+  - ngày tạo
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

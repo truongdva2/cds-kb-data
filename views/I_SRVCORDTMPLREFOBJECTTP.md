@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLREFOBJECTTP
 description: Srvcordtmplrefobjecttp
+semantic_en: "reference objects for service order templates — links templates to equipment, locations, products and serials"
+semantic_vi: "đối tượng tham chiếu cho mẫu đơn hàng dịch vụ — liên kết mẫu đến thiết bị, vị trí, sản phẩm và số sê-ri"
+keywords:
+  - tham chiếu
+  - mẫu
+  - thiết bị
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

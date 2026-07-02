@@ -1,6 +1,12 @@
 ---
 name: I_STOITEMPRICINGELEMENTTP
 description: Stoitempricingelementtp
+semantic_en: "Pricing elements for stock transport order items — captures condition steps, rates, and calculated amounts."
+semantic_vi: "Phần tử định giá cho dòng mục đơn hàng vận chuyển kho — ghi lại các bước điều kiện, tỷ lệ và số tiền tính toán."
+keywords:
+  - vận chuyển kho
+  - định giá
+  - điều kiện
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

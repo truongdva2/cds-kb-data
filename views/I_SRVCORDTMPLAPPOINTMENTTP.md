@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLAPPOINTMENTTP
 description: Srvcordtmplappointmenttp
+semantic_en: "appointment scheduling for service order templates — captures appointment start and end date-times for template-level scheduling"
+semantic_vi: "lên lịch cuộc hẹn cho mẫu đơn hàng dịch vụ — ghi lại thời gian bắt đầu và kết thúc cuộc hẹn cho lập lịch cấp mẫu"
+keywords:
+  - cuộc hẹn
+  - lịch biểu
+  - mẫu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

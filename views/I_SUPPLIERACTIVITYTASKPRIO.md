@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYTASKPRIO
 description: Supplieractivitytaskprio
+semantic_en: "priority classification for supplier activity tasks — defines task priority levels"
+semantic_vi: "phân loại ưu tiên cho tác vụ hoạt động nhà cung cấp — xác định cấp độ ưu tiên tác vụ"
+keywords:
+  - ưu tiên tác vụ
+  - hoạt động
+  - mã
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

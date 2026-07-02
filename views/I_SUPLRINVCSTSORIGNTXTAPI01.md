@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSTSORIGNTXTAPI01
 description: Suplrinvcstsorigntxtapi 01
+semantic_en: "supplier invoice status and origin text view — multilingual descriptions for invoice status and origin codes"
+semantic_vi: "xem văn bản trạng thái và nguồn gốc hóa đơn nhà cung cấp — mô tả đa ngôn ngữ cho mã trạng thái và nguồn gốc"
+keywords:
+  - mô tả trạng thái
+  - hóa đơn
+  - ngôn ngữ
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

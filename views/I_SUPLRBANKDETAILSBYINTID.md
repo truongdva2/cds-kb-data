@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRBANKDETAILSBYINTID
 description: Suplrbankdetailsbyintid
+semantic_en: "supplier bank details view indexed by internal bank account identifier — provides bank country, account, holder name, and control key for bank account master data"
+semantic_vi: "chế độ xem chi tiết ngân hàng cung cấp được lập chỉ mục theo mã định danh tài khoản ngân hàng nội bộ — cung cấp quốc gia ngân hàng, tài khoản, tên chủ tài khoản, khóa kiểm soát cho dữ liệu chính tài khoản ngân hàng"
+keywords:
+  - cung cấp
+  - ngân hàng
+  - tài khoản
+  - chi tiết
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

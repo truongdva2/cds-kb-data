@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALQUESTIONNAIREAPI01
 description: Suplrevalquestionnaireapi 01
+semantic_en: "supplier evaluation questionnaire master data — stores questionnaire metadata including lifecycle status, consistency status, translation status, and language"
+semantic_vi: "dữ liệu chính khảo sát đánh giá cung cấp — lưu trữ siêu dữ liệu khảo sát bao gồm trạng thái vòng đời, trạng thái tính nhất quán, trạng thái dịch, và ngôn ngữ"
+keywords:
+  - cung cấp
+  - đánh giá
+  - khảo sát
+  - dữ liệu
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

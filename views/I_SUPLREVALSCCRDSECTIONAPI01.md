@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCCRDSECTIONAPI01
 description: Suplrevalsccrdsectionapi 01
+semantic_en: "supplier evaluation scorecard section view — organizes scorecard sections with scoring and weighting"
+semantic_vi: "xem phần bảng điểm đánh giá nhà cung cấp — tổ chức các phần bảng điểm với điểm số và trọng số"
+keywords:
+  - phần bảng điểm
+  - đánh giá nhà cung cấp
+  - trọng số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

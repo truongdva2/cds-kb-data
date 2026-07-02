@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCLASSFCTNCODE
 description: Suplrevalclassfctncode
+semantic_en: "domain value list for supplier evaluation classification codes — enumeration of supplier score classifications"
+semantic_vi: "danh sách giá trị miền cho mã phân loại đánh giá cung cấp — liệt kê các phân loại điểm cung cấp"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phân loại
+  - điểm
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

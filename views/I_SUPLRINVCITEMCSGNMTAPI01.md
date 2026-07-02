@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCITEMCSGNMTAPI01
 description: Suplrinvcitemcsgnmtapi 01
+semantic_en: "supplier invoice consignment settlement item view — consignment stock billing linked to material movements"
+semantic_vi: "xem mục thanh toán ký gửi hóa đơn nhà cung cấp — thanh toán kho ký gửi liên kết với chuyển động hàng hóa"
+keywords:
+  - ký gửi
+  - thanh toán
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALOUTPUTSCORETYPETEXT
 description: Suplrevaloutputscoretypetext
+semantic_en: "domain text descriptions for supplier evaluation output score action type codes — translatable names for score action types"
+semantic_vi: "mô tả văn bản miền cho mã loại hành động đầu ra điểm đánh giá cung cấp — tên có thể dịch cho các loại hành động điểm"
+keywords:
+  - cung cấp
+  - đánh giá
+  - điểm
+  - văn bản
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

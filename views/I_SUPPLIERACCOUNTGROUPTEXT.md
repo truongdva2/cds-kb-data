@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACCOUNTGROUPTEXT
 description: Supplieraccountgrouptext
+semantic_en: "supplier account group translations — descriptions of account groups in language-specific format"
+semantic_vi: "bản dịch nhóm tài khoản nhà cung cấp — mô tả các nhóm tài khoản theo định dạng từng ngôn ngữ"
+keywords:
+  - dịch
+  - nhóm tài khoản
+  - ngôn ngữ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

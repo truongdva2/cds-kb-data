@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYPRIORITYTEXT
 description: Supplieractivityprioritytext
+semantic_en: "supplier activity priority translations — language-specific priority names and descriptions"
+semantic_vi: "bản dịch ưu tiên hoạt động nhà cung cấp — tên và mô tả ưu tiên theo từng ngôn ngữ"
+keywords:
+  - ưu tiên
+  - dịch
+  - hoạt động
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

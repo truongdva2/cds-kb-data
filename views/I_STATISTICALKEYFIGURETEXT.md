@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALKEYFIGURETEXT
 description: Statisticalkeyfiguretext
+semantic_en: "Multilingual text for statistical key figures — stores figure names by language and controlling area."
+semantic_vi: "Văn bản đa ngôn ngữ cho chỉ tiêu thống kê — lưu trữ tên chỉ tiêu theo ngôn ngữ và lĩnh vực kiểm soát."
+keywords:
+  - chỉ tiêu thống kê
+  - văn bản đa ngôn ngữ
+  - tên chỉ tiêu
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

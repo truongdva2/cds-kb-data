@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSUPLRTOLSTTGSAPI01
 description: Suplrinvcsuplrtolsttgsapi 01
+semantic_en: "supplier invoice supplier tolerance settings view — defines tolerance groups for three-way matching"
+semantic_vi: "xem cài đặt dung sai nhà cung cấp hóa đơn nhà cung cấp — định nghĩa nhóm dung sai cho kiểm tra ba cấp độ"
+keywords:
+  - dung sai nhà cung cấp
+  - hóa đơn
+  - kiểm tra ba cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

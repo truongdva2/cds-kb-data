@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYPARTICIPANTAPI01
 description: Suplractyparticipantapi 01
+semantic_en: "participant assignment for supplier activity — maps users and authorization groups participating in activity workflows with business purpose completion flag"
+semantic_vi: "chỉ định người tham gia cho hoạt động cung cấp — ánh xạ người dùng và nhóm ủy quyền tham gia vào quy trình làm việc hoạt động với cờ hoàn thành mục đích kinh doanh"
+keywords:
+  - cung cấp
+  - hoạt động
+  - người tham gia
+  - ủy quyền
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

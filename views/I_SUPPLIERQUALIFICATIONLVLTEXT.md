@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUALIFICATIONLVLTEXT
 description: Supplierqualificationlvltext
+semantic_en: "supplier qualification level translations — language-specific qualification level names"
+semantic_vi: "bản dịch cấp độ đủ tiêu chuẩn nhà cung cấp — tên cấp độ đủ tiêu chuẩn theo từng ngôn ngữ"
+keywords:
+  - cấp độ đủ tiêu chuẩn
+  - dịch
+  - ngôn ngữ
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

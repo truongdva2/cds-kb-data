@@ -1,6 +1,11 @@
 ---
 name: I_SUPLREVALSCOREOUTPUTSTATUS
 description: Suplrevalscoreoutputstatus
+semantic_en: "supplier evaluation score output status view — domain values for score output status codes"
+semantic_vi: "xem trạng thái đầu ra điểm đánh giá nhà cung cấp — giá trị miền cho mã trạng thái đầu ra điểm"
+keywords:
+  - mã trạng thái
+  - đầu ra điểm
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

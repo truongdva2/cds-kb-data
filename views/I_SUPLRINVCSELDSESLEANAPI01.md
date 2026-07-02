@@ -1,6 +1,11 @@
 ---
 name: I_SUPLRINVCSELDSESLEANAPI01
 description: Suplrinvcseldsesleanapi 01
+semantic_en: "supplier invoice selected service entry sheet reference view — links invoice to service receipt documentation"
+semantic_vi: "xem tham chiếu phiếu nhập dịch vụ đã chọn hóa đơn nhà cung cấp — kết nối hóa đơn với tài liệu nhận dịch vụ"
+keywords:
+  - phiếu nhập dịch vụ
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLPARTNERTP
 description: Srvcordtmplpartnertp
+semantic_en: "service order template partner — associates customer management partners with service order templates"
+semantic_vi: "đối tác mẫu đơn hàng dịch vụ — liên kết đối tác quản lý khách hàng với mẫu đơn hàng dịch vụ"
+keywords:
+  - đối tác
+  - mẫu
+  - dịch vụ
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

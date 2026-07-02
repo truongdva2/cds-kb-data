@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANPARTNERTP
 description: Srvcqtanpartnertp
+semantic_en: "service quotation partner — associates customer management partners with service quotations"
+semantic_vi: "đối tác báo giá dịch vụ — liên kết đối tác quản lý khách hàng với báo giá dịch vụ"
+keywords:
+  - đối tác
+  - báo giá
+  - dịch vụ
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

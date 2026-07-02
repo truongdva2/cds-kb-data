@@ -1,6 +1,12 @@
 ---
 name: I_STOCKDETERMINATIONGROUP
 description: Stockdeterminationgroup
+semantic_en: "Stock determination groups by plant — defines rules for allocating available inventory."
+semantic_vi: "Nhóm xác định kho theo nhà máy — xác định quy tắc phân bổ tồn kho sẵn có."
+keywords:
+  - xác định kho
+  - nhóm
+  - nhà máy
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

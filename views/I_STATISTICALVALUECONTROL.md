@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALVALUECONTROL
 description: Statisticalvaluecontrol
+semantic_en: "Control domain for statistical values — defines usage categories for statistical value assignments."
+semantic_vi: "Miền kiểm soát cho giá trị thống kê — xác định danh mục sử dụng cho gán giá trị thống kê."
+keywords:
+  - giá trị thống kê
+  - kiểm soát
+  - danh mục
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANAPPOINTMENTTP
 description: Srvcqtanappointmenttp
+semantic_en: "appointment scheduling for service quotations — captures appointment dates and times for quotation-level scheduling"
+semantic_vi: "lên lịch cuộc hẹn cho báo giá dịch vụ — ghi lại ngày và giờ cuộc hẹn cho lập lịch cấp báo giá"
+keywords:
+  - cuộc hẹn
+  - báo giá
+  - lịch biểu
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

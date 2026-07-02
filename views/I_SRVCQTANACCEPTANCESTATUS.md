@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANACCEPTANCESTATUS
 description: Srvcqtanacceptancestatus
+semantic_en: "acceptance status codes for service quotations — enumeration of document acceptance states"
+semantic_vi: "mã trạng thái chấp nhận cho báo giá dịch vụ — liệt kê các trạng thái chấp nhận tài liệu"
+keywords:
+  - chấp nhận
+  - báo giá
+  - trạng thái
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

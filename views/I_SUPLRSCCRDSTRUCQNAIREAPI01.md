@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRSCCRDSTRUCQNAIREAPI01
 description: Suplrsccrdstrucqnaireapi 01
+semantic_en: "structured questionnaire for supplier evaluation scorecards — tracks survey items, their parent questionnaires, and scoring data"
+semantic_vi: "bảng câu hỏi có cấu trúc cho phiếu đánh giá nhà cung cấp — theo dõi các mục khảo sát, bảng câu hỏi cha và dữ liệu chấm điểm"
+keywords:
+  - bảng câu hỏi có cấu trúc
+  - đánh giá nhà cung cấp
+  - điểm tính toán
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

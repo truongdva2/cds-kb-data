@@ -1,6 +1,12 @@
 ---
 name: I_SUMZDJITCALLMSGISPROCD
 description: Sumzdjitcallmsgisprocd
+semantic_en: "Domain values for JIT call message processing status — indicates whether summarized JIT messages have been processed."
+semantic_vi: "Giá trị miền cho trạng thái xử lý tin nhắn cuộc gọi JIT — cho biết liệu các tin nhắn JIT được tóm tắt đã được xử lý."
+keywords:
+  - cuộc gọi JIT
+  - xử lý
+  - trạng thái
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

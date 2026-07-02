@@ -1,6 +1,12 @@
 ---
 name: I_STRUCTURECONDITIONTEXT
 description: Structureconditiontext
+semantic_en: "Text labels for structure conditions — multilingual descriptions of pricing structure types."
+semantic_vi: "Nhãn văn bản cho điều kiện cấu trúc — mô tả đa ngôn ngữ các loại cấu trúc định giá."
+keywords:
+  - cấu trúc giá
+  - mô tả
+  - ngôn ngữ
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

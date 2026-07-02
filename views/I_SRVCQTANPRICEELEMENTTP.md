@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANPRICEELEMENTTP
 description: Srvcqtanpriceelementtp
+semantic_en: "pricing elements for service quotations — details condition types, rates, quantities and amounts at quotation level"
+semantic_vi: "yếu tố định giá cho báo giá dịch vụ — chi tiết loại điều kiện, tỷ lệ, số lượng và giá trị ở cấp báo giá"
+keywords:
+  - định giá
+  - điều kiện giá
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

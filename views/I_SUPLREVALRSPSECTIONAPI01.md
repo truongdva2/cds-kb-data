@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPSECTIONAPI01
 description: Suplrevalrspsectionapi 01
+semantic_en: "supplier evaluation response section view — organizes response sections with scoring, weighting, and response counts"
+semantic_vi: "xem phần phẩn ứng đánh giá nhà cung cấp — tổ chức các phần phản hồi với điểm số, trọng số và số lượng"
+keywords:
+  - phần đánh giá
+  - phản hồi nhà cung cấp
+  - trọng số
+  - điểm số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALKEYFIGURETEXTTP_2
 description: Statisticalkeyfiguretexttp 2
+semantic_en: "Transactional point of text for statistical key figures — editable multilingual names with language switching support."
+semantic_vi: "Điểm giao dịch cho văn bản chỉ tiêu thống kê — tên đa ngôn ngữ có thể chỉnh sửa với hỗ trợ chuyển đổi ngôn ngữ."
+keywords:
+  - chỉ tiêu thống kê
+  - giao dịch
+  - chỉnh sửa
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

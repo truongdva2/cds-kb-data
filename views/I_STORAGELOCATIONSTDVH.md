@@ -1,6 +1,12 @@
 ---
 name: I_STORAGELOCATIONSTDVH
 description: Storagelocationstdvh
+semantic_en: "Standard value help for storage locations — displays location codes with plant and organizational context."
+semantic_vi: "Danh sách giúp chọn giá trị cho vị trí lưu trữ — hiển thị mã vị trí với bối cảnh nhà máy và tổ chức."
+keywords:
+  - vị trí lưu trữ
+  - danh sách
+  - nhà máy
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

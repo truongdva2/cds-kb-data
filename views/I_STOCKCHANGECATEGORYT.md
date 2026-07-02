@@ -1,6 +1,12 @@
 ---
 name: I_STOCKCHANGECATEGORYT
 description: Stockchangecategoryt
+semantic_en: "Text labels for stock change categories — multilingual descriptions of inventory movement types."
+semantic_vi: "Nhãn văn bản cho danh mục thay đổi kho — mô tả đa ngôn ngữ các loại chuyển động tồn kho."
+keywords:
+  - thay đổi kho
+  - mô tả
+  - ngôn ngữ
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

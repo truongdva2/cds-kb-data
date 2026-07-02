@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCONFCONTROLKEY
 description: Supplierconfcontrolkey
+semantic_en: "control key for supplier confirmations — classifies confirmation control methods"
+semantic_vi: "khóa kiểm soát cho xác nhận nhà cung cấp — phân loại phương pháp kiểm soát xác nhận"
+keywords:
+  - khóa kiểm soát
+  - xác nhận
+  - nhà cung cấp
 app_component: MM
 software_component: SAPSCORE
 release_state: released

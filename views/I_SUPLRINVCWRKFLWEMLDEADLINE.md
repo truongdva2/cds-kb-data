@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCWRKFLWEMLDEADLINE
 description: Suplrinvcwrkflwemldeadline
+semantic_en: "supplier invoice workflow email deadline view — tracks workflow task status with assignees and due dates"
+semantic_vi: "xem thời hạn email quy trình công việc hóa đơn nhà cung cấp — theo dõi trạng thái tác vụ quy trình với người được gán"
+keywords:
+  - quy trình công việc
+  - hóa đơn
+  - thời hạn
 app_component: MM-IV-INT-WF-2CL
 software_component: SAPSCORE
 release_state: released

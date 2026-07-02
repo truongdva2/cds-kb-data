@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALRSPSTRUCQNAIREAPI01
 description: Suplrevalrspstrucqnaireapi 01
+semantic_en: "supplier evaluation response structure questionnaire view — captures structured questionnaire with scoring thresholds"
+semantic_vi: "xem bảng câu hỏi cấu trúc phẩn ứng đánh giá nhà cung cấp — ghi lại bảng câu hỏi cấu trúc với mức điểm tối thiểu"
+keywords:
+  - bảng câu hỏi cấu trúc
+  - phản hồi đánh giá
+  - trọng số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIEREVALRESPONSEAPI01
 description: Supplierevalresponseapi 01
+semantic_en: "supplier evaluation response data — captures responses to supplier evaluations with lifecycle status"
+semantic_vi: "dữ liệu phản hồi đánh giá nhà cung cấp — ghi lại phản hồi đối với đánh giá nhà cung cấp"
+keywords:
+  - đánh giá nhà cung cấp
+  - phản hồi
+  - vòng đời
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

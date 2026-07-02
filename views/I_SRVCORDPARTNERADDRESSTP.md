@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDPARTNERADDRESSTP
 description: Srvcordpartneraddresstp
+semantic_en: "partner address information for service orders — stores communication and location details for service order partners across jurisdictions"
+semantic_vi: "thông tin địa chỉ đối tác cho đơn hàng dịch vụ — lưu trữ thông tin liên lạc và địa điểm cho đối tác đơn hàng dịch vụ"
+keywords:
+  - địa chỉ đối tác
+  - thông tin liên hệ
+  - dịch vụ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICEODN
 description: Supplier InvoiceODN
+semantic_en: "official document numbers in supplier invoices — tracks ODN data including country and date/time"
+semantic_vi: "số tài liệu chính thức trong hóa đơn nhà cung cấp — theo dõi dữ liệu ODN bao gồm quốc gia"
+keywords:
+  - hóa đơn nhà cung cấp
+  - tài liệu chính thức
+  - số
 app_component: FI-LOC-ODN
 software_component: SAPSCORE
 release_state: released

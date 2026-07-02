@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYTASKPURRRESPAPI01
 description: Suplractytaskpurrrespapi 01
+semantic_en: "purchaser responsibility for supplier activity task — maps purchaser users responsible for processing specific supplier activity tasks"
+semantic_vi: "trách nhiệm người mua cho tác vụ hoạt động cung cấp — ánh xạ người dùng người mua chịu trách nhiệm xử lý các tác vụ hoạt động cung cấp cụ thể"
+keywords:
+  - cung cấp
+  - tác vụ hoạt động
+  - người mua
+  - trách nhiệm
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

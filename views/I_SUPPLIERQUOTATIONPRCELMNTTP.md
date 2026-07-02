@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUOTATIONPRCELMNTTP
 description: Supplierquotationprcelmnttp
+semantic_en: "supplier quotation item pricing transactional planning — pricing conditions and exchange rates for quote items"
+semantic_vi: "lập kế hoạch giao dịch định giá mục báo giá nhà cung cấp — điều kiện định giá và tỷ giá hối đoái"
+keywords:
+  - định giá báo giá
+  - nhà cung cấp
+  - tỷ giá
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDUSERSTATUSTP
 description: Srvcorduserstatustp
+semantic_en: "user-defined status for service orders — tracks workflow status profiles applied to service orders"
+semantic_vi: "trạng thái do người dùng xác định cho đơn hàng dịch vụ — theo dõi hồ sơ trạng thái quy trình làm việc được áp dụng cho đơn hàng dịch vụ"
+keywords:
+  - trạng thái
+  - dịch vụ
+  - quy trình
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

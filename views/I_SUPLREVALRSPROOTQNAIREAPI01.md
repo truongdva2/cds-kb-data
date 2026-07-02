@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALRSPROOTQNAIREAPI01
 description: Suplrevalrsprootqnaireapi 01
+semantic_en: "supplier evaluation response root questionnaire view — captures root questionnaire mapping with scoring and response counts"
+semantic_vi: "xem bảng câu hỏi gốc phẩn ứng đánh giá nhà cung cấp — ghi lại ánh xạ bảng câu hỏi gốc với điểm và số lượng phản hồi"
+keywords:
+  - bảng câu hỏi gốc
+  - đánh giá nhà cung cấp
+  - điểm số tính toán
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

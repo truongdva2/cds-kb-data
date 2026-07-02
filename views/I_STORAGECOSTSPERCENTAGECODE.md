@@ -1,6 +1,12 @@
 ---
 name: I_STORAGECOSTSPERCENTAGECODE
 description: Storagecostspercentagecode
+semantic_en: "Storage cost percentage codes by plant — defines proportional cost allocation rates."
+semantic_vi: "Mã phần trăm chi phí lưu trữ theo nhà máy — xác định tỷ lệ phân bổ chi phí tỷ lệ."
+keywords:
+  - chi phí lưu trữ
+  - phần trăm
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

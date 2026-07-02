@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALRSPREQUESTREFAPI01
 description: Suplrevalrsprequestrefapi 01
+semantic_en: "supplier evaluation response request reference view — links response UUID to evaluation request UUID"
+semantic_vi: "xem tham chiếu yêu cầu phẩn ứng đánh giá nhà cung cấp — kết nối UUID phản hồi và yêu cầu đánh giá"
+keywords:
+  - tham chiếu yêu cầu
+  - phản hồi đánh giá
+  - nhà cung cấp
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

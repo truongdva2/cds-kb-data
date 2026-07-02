@@ -1,6 +1,12 @@
 ---
 name: I_STOITEMNOTETP
 description: Stoitemnotetp
+semantic_en: "Text notes for stock transport order items — attaches multilingual documentation to line items."
+semantic_vi: "Ghi chú văn bản cho dòng mục đơn hàng vận chuyển kho — đính kèm tài liệu đa ngôn ngữ vào dòng mục."
+keywords:
+  - vận chuyển kho
+  - ghi chú
+  - dòng mục
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

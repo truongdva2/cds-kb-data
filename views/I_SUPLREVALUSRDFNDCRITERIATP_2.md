@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUSRDFNDCRITERIATP_2
 description: Suplrevalusrdfndcriteriatp 2
+semantic_en: "supplier evaluation user-defined criteria projection — manages custom criteria with validity dates and tracking"
+semantic_vi: "xem phép chiếu tiêu chí do người dùng định nghĩa đánh giá nhà cung cấp — quản lý tiêu chí tùy chỉnh với ngày hiệu lực"
+keywords:
+  - quản lý tiêu chí
+  - nhà cung cấp
+  - ngày hiệu lực
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

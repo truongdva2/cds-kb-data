@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYTASKCONSTCYSTATUST
 description: Suplractytaskconstcystatust
+semantic_en: "domain text descriptions for supplier activity task consistency status — translatable names for task consistency states"
+semantic_vi: "mô tả văn bản miền cho trạng thái tính nhất quán tác vụ hoạt động cung cấp — tên có thể dịch cho các trạng thái tính nhất quán tác vụ"
+keywords:
+  - cung cấp
+  - tác vụ
+  - tính nhất quán
+  - văn bản
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

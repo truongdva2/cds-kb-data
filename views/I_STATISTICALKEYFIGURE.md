@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALKEYFIGURE
 description: Statisticalkeyfigure
+semantic_en: "statistical key figures for controlling — captures cost center metrics with quantity units, categories and change history"
+semantic_vi: "con số chỉ key thống kê cho kiểm soát — ghi lại các chỉ số tâm đắc với đơn vị số lượng, danh mục và lịch sử thay đổi"
+keywords:
+  - thống kê
+  - chỉ số
+  - kiểm soát
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

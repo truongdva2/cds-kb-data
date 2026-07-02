@@ -1,6 +1,12 @@
 ---
 name: I_SYSTEMUSER
 description: Systemuser
+semantic_en: "system user directory — user IDs and descriptions for system user accounts"
+semantic_vi: "danh mục người dùng hệ thống — ID người dùng và mô tả cho tài khoản người dùng hệ thống"
+keywords:
+  - người dùng hệ thống
+  - ID người dùng
+  - mô tả
 app_component: BC-SEC-USR-ADM
 software_component: SAP_BASIS
 release_state: released

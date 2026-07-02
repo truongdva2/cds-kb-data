@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQUESTSECTIONAPI01
 description: Suplrevalrequestsectionapi 01
+semantic_en: "supplier evaluation request section — defines questionnaire sections in evaluation requests with scoring and weighting details"
+semantic_vi: "phần yêu cầu đánh giá cung cấp — định nghĩa các phần khảo sát trong yêu cầu đánh giá với chi tiết chấm điểm và trọng lượng"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phần
+  - khảo sát
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STRPGLACCOUNTLOG
 description: Strpgl AccountLOG
+semantic_en: "GL accounts log for statutory reporting — tracks accounts used in regulatory reporting runs."
+semantic_vi: "Nhật ký tài khoản GL cho báo cáo theo luật định — theo dõi các tài khoản được sử dụng trong các lần chạy báo cáo quy định."
+keywords:
+  - tài khoản GL
+  - báo cáo
+  - luật định
 app_component: FI-LOC-FI-MX
 software_component: SAPSCORE
 release_state: released

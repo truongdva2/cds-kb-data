@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALRSPSUPPLIERAPI01
 description: Suplrevalrspsupplierapi 01
+semantic_en: "supplier evaluation response supplier party view — identifies supplier with authorization and data control settings"
+semantic_vi: "xem bên nhà cung cấp phẩn ứng đánh giá — xác định nhà cung cấp với quyền ủy quyền và cài đặt kiểm soát dữ liệu"
+keywords:
+  - nhà cung cấp
+  - ủy quyền
+  - kiểm soát dữ liệu
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

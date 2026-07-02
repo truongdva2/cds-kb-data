@@ -1,6 +1,12 @@
 ---
 name: I_SRVCREFERENCEOBJECTTYPETEXT
 description: Srvcreferenceobjecttypetext
+semantic_en: "descriptions for service reference object types — multilingual text for reference object type classifications"
+semantic_vi: "mô tả cho các loại đối tượng tham chiếu dịch vụ — văn bản đa ngôn ngữ cho các phân loại loại đối tượng tham chiếu"
+keywords:
+  - mô tả loại
+  - tham chiếu
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

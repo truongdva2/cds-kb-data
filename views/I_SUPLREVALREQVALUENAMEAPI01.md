@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQVALUENAMEAPI01
 description: Suplrevalreqvaluenameapi 01
+semantic_en: "supplier evaluation request value name — stores translatable answer option text for questionnaire values in evaluation requests"
+semantic_vi: "tên giá trị yêu cầu đánh giá cung cấp — lưu trữ văn bản tùy chọn trả lời có thể dịch cho các giá trị khảo sát trong yêu cầu đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - giá trị
+  - câu trả lời
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

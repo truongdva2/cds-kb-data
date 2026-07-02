@@ -1,6 +1,12 @@
 ---
 name: I_SUBLEDGERACCLINEITEMTYPET
 description: Subledgeracclineitemtypet
+semantic_en: "Text labels for subledger account line item types — multilingual descriptions of item classifications."
+semantic_vi: "Nhãn văn bản cho loại dòng mục tài khoản phụ — mô tả đa ngôn ngữ của phân loại dòng mục."
+keywords:
+  - tài khoản phụ
+  - loại dòng mục
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

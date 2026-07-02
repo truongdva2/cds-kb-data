@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTRANSPORTORDERNOTETP
 description: Stocktransportordernotetp
+semantic_en: "Text notes for stock transport orders — attaches multilingual documentation to entire orders."
+semantic_vi: "Ghi chú văn bản cho đơn hàng vận chuyển kho — đính kèm tài liệu đa ngôn ngữ vào toàn bộ đơn hàng."
+keywords:
+  - vận chuyển kho
+  - ghi chú
+  - văn bản
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STSTCLKEYFIGUREVALUEITEM
 description: Ststclkeyfigurevalueitem
+semantic_en: "Statistical key figure value items — captures figure quantities assigned to cost objects in accounting documents."
+semantic_vi: "Mục giá trị chỉ tiêu thống kê — ghi lại số lượng chỉ tiêu được gán cho các đối tượng chi phí trong tài liệu kế toán."
+keywords:
+  - chỉ tiêu thống kê
+  - giá trị
+  - chi phí
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

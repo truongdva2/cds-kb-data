@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLLONGTEXTTP
 description: Srvcordtmpllongtexttp
+semantic_en: "long text storage for service order templates — manages extended text content for templates with change tracking"
+semantic_vi: "lưu trữ văn bản dài cho mẫu đơn hàng dịch vụ — quản lý nội dung văn bản mở rộng cho mẫu với theo dõi thay đổi"
+keywords:
+  - văn bản dài
+  - mẫu
+  - tài liệu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

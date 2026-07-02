@@ -1,6 +1,12 @@
 ---
 name: I_STSTCLKEYFIGUREHIERNODE
 description: Ststclkeyfigurehiernode
+semantic_en: "Nodes in statistical key figure hierarchies — represents positions in tree structures with parent relationships."
+semantic_vi: "Nút trong hệ thống phân cấp chỉ tiêu thống kê — đại diện cho các vị trí trong cấu trúc cây với mối quan hệ cha."
+keywords:
+  - nút phân cấp
+  - chỉ tiêu
+  - cây cấu trúc
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

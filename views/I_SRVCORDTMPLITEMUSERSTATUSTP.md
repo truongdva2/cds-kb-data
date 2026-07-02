@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLITEMUSERSTATUSTP
 description: Srvcordtmplitemuserstatustp
+semantic_en: "user-defined status for service order template items — assigns workflow status profiles to individual template items"
+semantic_vi: "trạng thái do người dùng xác định cho các mục mẫu đơn hàng dịch vụ — gán hồ sơ trạng thái quy trình làm việc cho các mục mẫu riêng lẻ"
+keywords:
+  - trạng thái
+  - mục
+  - quy trình làm việc
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

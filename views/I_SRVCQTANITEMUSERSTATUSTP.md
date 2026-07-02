@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMUSERSTATUSTP
 description: Srvcqtanitemuserstatustp
+semantic_en: "user-defined status for service quotation items — assigns workflow status to individual quotation items"
+semantic_vi: "trạng thái do người dùng xác định cho các mục báo giá dịch vụ — gán trạng thái quy trình làm việc cho các mục báo giá riêng lẻ"
+keywords:
+  - trạng thái
+  - mục
+  - quy trình
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

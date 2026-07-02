@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERSUBRANGE
 description: Suppliersubrange
+semantic_en: "supplier subrange — data controllers and organizational breakdown by supplier and subrange level"
+semantic_vi: "dải con nhà cung cấp — những người kiểm soát dữ liệu và phân tích tổ chức theo nhà cung cấp"
+keywords:
+  - dải con
+  - nhà cung cấp
+  - kiểm soát dữ liệu
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

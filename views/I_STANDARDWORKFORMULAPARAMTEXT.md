@@ -1,6 +1,12 @@
 ---
 name: I_STANDARDWORKFORMULAPARAMTEXT
 description: Standardworkformulaparamtext
+semantic_en: "descriptions for standard work formula parameters — multilingual names for individual formula parameters"
+semantic_vi: "mô tả cho các tham số công thức công việc tiêu chuẩn — tên đa ngôn ngữ cho các tham số công thức riêng lẻ"
+keywords:
+  - công thức
+  - tham số
+  - tên
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

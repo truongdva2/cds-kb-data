@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCRITRNVARCSCORE
 description: Suplrevalcritrnvarcscore
+semantic_en: "supplier evaluation criterion variance score configuration — defines absolute variance percentage thresholds and score mappings for evaluation criteria by category and organization"
+semantic_vi: "cấu hình điểm phương sai tiêu chí đánh giá cung cấp — định nghĩa ngưỡng phần trăm phương sai tuyệt đối và ánh xạ điểm cho tiêu chí đánh giá theo danh mục và tổ chức"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phương sai
+  - điểm
 app_component: MM-PUR-2CL
 software_component: SAPSCORE
 release_state: released

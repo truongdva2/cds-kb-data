@@ -1,6 +1,12 @@
 ---
 name: I_SUSTMODEOFTRANSPORTVH
 description: Sustmodeoftransportvh
+semantic_en: "value help for sustainability transport mode — enables selection of sustainable transport methods"
+semantic_vi: "trợ giúp giá trị cho chế độ vận tải bền vững — cho phép chọn phương thức vận tải bền vững"
+keywords:
+  - giá trị trợ giúp
+  - vận tải bền vững
+  - lựa chọn
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

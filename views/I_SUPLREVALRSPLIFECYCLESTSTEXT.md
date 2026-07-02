@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPLIFECYCLESTSTEXT
 description: Suplrevalrsplifecycleststext
+semantic_en: "domain text descriptions for supplier evaluation response lifecycle status — translatable names for response status codes"
+semantic_vi: "mô tả văn bản miền cho trạng thái vòng đời phản hồi đánh giá cung cấp — tên có thể dịch cho mã trạng thái phản hồi"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - văn bản
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

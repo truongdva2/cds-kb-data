@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCCHGDOCAPI01
 description: Suplrinvcchgdocapi 01
+semantic_en: "supplier invoice change document view — tracks changes to supplier invoices with user audit trail"
+semantic_vi: "xem tài liệu thay đổi hóa đơn nhà cung cấp — theo dõi thay đổi hóa đơn nhà cung cấp với dấu vết kiểm tính người dùng"
+keywords:
+  - hóa đơn nhà cung cấp
+  - tài liệu thay đổi
+  - kiểm tính
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

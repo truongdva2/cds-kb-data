@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUSERDEFINEDCRITERIA
 description: Suplrevaluserdefinedcriteria
+semantic_en: "supplier evaluation user-defined criteria view — custom evaluation criteria with weighting factors"
+semantic_vi: "xem tiêu chí do người dùng định nghĩa đánh giá nhà cung cấp — tiêu chí tùy chỉnh với hệ số trọng số"
+keywords:
+  - tiêu chí tùy chỉnh
+  - đánh giá nhà cung cấp
+  - trọng số
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

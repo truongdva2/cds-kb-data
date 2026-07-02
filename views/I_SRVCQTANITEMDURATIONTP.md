@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMDURATIONTP
 description: Srvcqtanitemdurationtp
+semantic_en: "item-level duration specifications for service quotations — captures duration details for individual quotation items"
+semantic_vi: "thông số kỹ thuật thời gian cấp mục cho báo giá dịch vụ — ghi lại chi tiết thời gian cho các mục báo giá riêng lẻ"
+keywords:
+  - thời gian
+  - mục
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

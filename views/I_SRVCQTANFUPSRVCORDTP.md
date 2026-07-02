@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANFUPSRVCORDTP
 description: Srvcqtanfupsrvcordtp
+semantic_en: "follow-up service orders from quotations — traces conversion from service quotations to follow-up orders"
+semantic_vi: "đơn hàng dịch vụ theo dõi từ báo giá — theo dõi chuyển đổi từ báo giá dịch vụ thành đơn hàng theo dõi"
+keywords:
+  - theo dõi
+  - báo giá
+  - đơn hàng
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

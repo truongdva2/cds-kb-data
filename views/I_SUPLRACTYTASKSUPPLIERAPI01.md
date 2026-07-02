@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRACTYTASKSUPPLIERAPI01
 description: Suplractytasksupplierapi 01
+semantic_en: "supplier assignment for supplier activity task — links supplier business partner to activity task execution and tracking"
+semantic_vi: "chỉ định cung cấp cho tác vụ hoạt động cung cấp — liên kết đối tác kinh doanh cung cấp với thực hiện và theo dõi tác vụ hoạt động"
+keywords:
+  - cung cấp
+  - tác vụ hoạt động
+  - đối tác kinh doanh
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

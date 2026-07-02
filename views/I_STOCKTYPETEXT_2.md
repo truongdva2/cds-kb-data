@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTYPETEXT_2
 description: Stocktypetext 2
+semantic_en: "Text labels for stock types — multilingual descriptions of inventory categories."
+semantic_vi: "Nhãn văn bản cho loại kho — mô tả đa ngôn ngữ của danh mục tồn kho."
+keywords:
+  - loại kho
+  - mô tả
+  - ngôn ngữ
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

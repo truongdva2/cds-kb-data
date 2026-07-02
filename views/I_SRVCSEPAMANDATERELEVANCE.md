@@ -1,6 +1,12 @@
 ---
 name: I_SRVCSEPAMANDATERELEVANCE
 description: Srvcsepamandaterelevance
+semantic_en: "SEPA mandate relevance codes for service documents — indicates whether SEPA payment mandate applies"
+semantic_vi: "mã liên quan ủy quyền SEPA cho tài liệu dịch vụ — chỉ ra liệu ủy quyền thanh toán SEPA có áp dụng không"
+keywords:
+  - SEPA
+  - thanh toán
+  - ủy quyền
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

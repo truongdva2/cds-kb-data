@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALKEYFIGURESTDVH
 description: Statisticalkeyfigurestdvh
+semantic_en: "Standard value help for statistical key figures — displays key figure codes with category and controlling area."
+semantic_vi: "Danh sách giúp chọn giá trị cho chỉ tiêu thống kê — hiển thị mã chỉ tiêu, danh mục và lĩnh vực kiểm soát."
+keywords:
+  - chỉ tiêu thống kê
+  - giá trị danh sách
+  - kiểm soát
 app_component: CO-OM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCLASSFCTNCODETXT
 description: Suplrevalclassfctncodetxt
+semantic_en: "domain text descriptions for supplier evaluation classification codes — translatable names for supplier classification levels"
+semantic_vi: "mô tả văn bản miền cho mã phân loại đánh giá cung cấp — tên có thể dịch cho các cấp độ phân loại cung cấp"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phân loại
+  - văn bản
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

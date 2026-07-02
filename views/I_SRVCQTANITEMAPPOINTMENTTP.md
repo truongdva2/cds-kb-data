@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMAPPOINTMENTTP
 description: Srvcqtanitemappointmenttp
+semantic_en: "item-level appointment scheduling for service quotations — manages appointment scheduling at quotation item granularity"
+semantic_vi: "lên lịch cuộc hẹn cấp mục cho báo giá dịch vụ — quản lý lập lịch cuộc hẹn ở mức chi tiết mục báo giá"
+keywords:
+  - cuộc hẹn
+  - mục
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

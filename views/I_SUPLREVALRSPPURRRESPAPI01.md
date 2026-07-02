@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPPURRRESPAPI01
 description: Suplrevalrsppurrrespapi 01
+semantic_en: "supplier evaluation response purchaser responsibility — maps purchaser users overseeing supplier evaluation survey responses"
+semantic_vi: "trách nhiệm người mua phản hồi đánh giá cung cấp — ánh xạ người dùng người mua giám sát các phản hồi khảo sát đánh giá cung cấp"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - người mua
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

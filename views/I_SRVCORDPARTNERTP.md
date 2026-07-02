@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDPARTNERTP
 description: Srvcordpartnertp
+semantic_en: "service order partner — links service orders to customer management partners with role indicators"
+semantic_vi: "đối tác đơn hàng dịch vụ — liên kết các đơn hàng dịch vụ đến đối tác quản lý khách hàng với chỉ báo vai trò"
+keywords:
+  - đối tác
+  - dịch vụ
+  - vai trò
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUALIFICATIONLVL
 description: Supplierqualificationlvl
+semantic_en: "supplier qualification level codelist — defines qualification level categories"
+semantic_vi: "danh sách mã cấp độ đủ tiêu chuẩn nhà cung cấp — xác định các danh mục cấp độ đủ tiêu chuẩn"
+keywords:
+  - cấp độ đủ tiêu chuẩn
+  - nhà cung cấp
+  - mã
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

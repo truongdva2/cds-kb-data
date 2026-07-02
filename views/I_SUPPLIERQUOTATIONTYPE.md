@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUOTATIONTYPE
 description: Supplierquotationtype
+semantic_en: "supplier quotation type — purchasing document type for quotations"
+semantic_vi: "loại báo giá nhà cung cấp — loại tài liệu mua hàng cho báo giá"
+keywords:
+  - loại báo giá
+  - nhà cung cấp
+  - mua hàng
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

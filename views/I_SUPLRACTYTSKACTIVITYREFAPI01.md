@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYTSKACTIVITYREFAPI01
 description: Suplractytskactivityrefapi 01
+semantic_en: "activity reference linking for supplier activity task — tracks relationship between supplier activity tasks and parent activities"
+semantic_vi: "liên kết tham chiếu hoạt động cho tác vụ hoạt động cung cấp — theo dõi mối quan hệ giữa tác vụ hoạt động cung cấp và các hoạt động cha"
+keywords:
+  - cung cấp
+  - hoạt động
+  - tác vụ
+  - tham chiếu
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRCONFCATINTERNALASSGMT
 description: Suplrconfcatinternalassgmt
+semantic_en: "supplier confirmation category internal assignment table — maps internal confirmation categories to public codes by delivery document type"
+semantic_vi: "bảng chỉ định danh mục xác nhận cung cấp nội bộ — ánh xạ danh mục xác nhận nội bộ tới mã công khai theo loại tài liệu giao hàng"
+keywords:
+  - cung cấp
+  - xác nhận
+  - danh mục
+  - tài liệu giao hàng
 app_component: MM
 software_component: SAPSCORE
 release_state: released

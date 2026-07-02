@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPAPPRAISERAPI01
 description: Suplrevalrspappraiserapi 01
+semantic_en: "supplier evaluation response appraiser — maps appraiser users conducting supplier evaluation surveys with authorization and data control"
+semantic_vi: "người đánh giá phản hồi đánh giá cung cấp — ánh xạ người dùng đánh giá tiến hành khảo sát đánh giá cung cấp với ủy quyền và kiểm soát dữ liệu"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - người đánh giá
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

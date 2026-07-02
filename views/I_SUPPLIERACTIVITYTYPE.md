@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYTYPE
 description: Supplieractivitytype
+semantic_en: "type classification for supplier activities — defines categories of supplier-related activities"
+semantic_vi: "phân loại loại hoạt động nhà cung cấp — xác định các danh mục hoạt động liên quan đến nhà cung cấp"
+keywords:
+  - loại hoạt động
+  - nhà cung cấp
+  - mã
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

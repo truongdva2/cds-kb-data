@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTIVITYSUPPLIERAPI01
 description: Suplractivitysupplierapi 01
+semantic_en: "supplier party reference for supplier activity — links business partner and supplier identifiers with data controllers for activity tracking"
+semantic_vi: "tham chiếu bên cung cấp cho hoạt động cung cấp — liên kết mã định danh đối tác kinh doanh và cung cấp với người kiểm soát dữ liệu để theo dõi hoạt động"
+keywords:
+  - cung cấp
+  - hoạt động
+  - đối tác kinh doanh
+  - kiểm soát dữ liệu
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

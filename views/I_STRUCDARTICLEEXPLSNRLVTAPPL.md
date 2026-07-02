@@ -1,6 +1,12 @@
 ---
 name: I_STRUCDARTICLEEXPLSNRLVTAPPL
 description: Strucdarticleexplsnrlvtappl
+semantic_en: "Transaction key domain for structured materials — identifies materials eligible for explosion relevance."
+semantic_vi: "Miền khóa giao dịch cho vật liệu có cấu trúc — xác định vật liệu đủ điều kiện để nổ lên có liên quan."
+keywords:
+  - vật liệu cấu trúc
+  - khóa giao dịch
+  - danh mục
 app_component: LO-RFM-MD-ART
 software_component: SAPSCORE
 release_state: released

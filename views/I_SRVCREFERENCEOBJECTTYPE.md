@@ -1,6 +1,12 @@
 ---
 name: I_SRVCREFERENCEOBJECTTYPE
 description: Srvcreferenceobjecttype
+semantic_en: "service reference object type codes — enumeration of equipment, location and product reference types"
+semantic_vi: "mã loại đối tượng tham chiếu dịch vụ — liệt kê các loại tham chiếu thiết bị, vị trí và sản phẩm"
+keywords:
+  - loại tham chiếu
+  - thiết bị
+  - dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

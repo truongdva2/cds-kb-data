@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTYPE_2
 description: Stocktype 2
+semantic_en: "Domain values for stock type classification — enumerates usability and availability categories."
+semantic_vi: "Giá trị miền cho phân loại loại kho — liệt kê các danh mục khả dụng và tính khả dụng."
+keywords:
+  - loại kho
+  - danh mục
+  - phân loại
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

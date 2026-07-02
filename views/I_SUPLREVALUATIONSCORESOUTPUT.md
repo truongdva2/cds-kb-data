@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUATIONSCORESOUTPUT
 description: Suplrevaluationscoresoutput
+semantic_en: "supplier evaluation scores output view — evaluation score run history with job status and action type"
+semantic_vi: "xem đầu ra điểm đánh giá nhà cung cấp — lịch sử chạy điểm đánh giá với trạng thái công việc và loại hành động"
+keywords:
+  - điểm đánh giá
+  - nhà cung cấp
+  - trạng thái công việc
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STOSHIPPINGTP
 description: Stoshippingtp
+semantic_en: "Shipping details for stock transport orders — captures route, loading, and delivery priority."
+semantic_vi: "Chi tiết vận chuyển cho đơn hàng vận chuyển kho — ghi lại tuyến đường, tải hàng và ưu tiên giao hàng."
+keywords:
+  - vận chuyển kho
+  - vận chuyển
+  - giao hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

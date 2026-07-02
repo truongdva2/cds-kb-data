@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMLONGTEXTTP
 description: Srvcqtanitemlongtexttp
+semantic_en: "long text content for service quotation items — stores extended text with language, MIME type and cross-references"
+semantic_vi: "nội dung văn bản dài cho các mục báo giá dịch vụ — lưu trữ văn bản mở rộng với ngôn ngữ, loại MIME và tham chiếu chéo"
+keywords:
+  - văn bản dài
+  - mục
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

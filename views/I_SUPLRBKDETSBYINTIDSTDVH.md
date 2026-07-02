@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRBKDETSBYINTIDSTDVH
 description: Suplrbkdetsbyintidstdvh
+semantic_en: "standard value-help for supplier bank details indexed by internal ID — provides bank account lookup with authorization control by bank country and account ID"
+semantic_vi: "trợ giúp giá trị tiêu chuẩn cho chi tiết ngân hàng cung cấp được lập chỉ mục theo ID nội bộ — cung cấp tra cứu tài khoản ngân hàng với kiểm soát ủy quyền theo quốc gia ngân hàng và ID tài khoản"
+keywords:
+  - cung cấp
+  - ngân hàng
+  - tài khoản
+  - tra cứu
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

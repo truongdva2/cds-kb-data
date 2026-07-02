@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIER_VH
 description: Supplier (Value Help)
+semantic_en: "supplier value help view — filters suppliers by name, account group and business partner type"
+semantic_vi: "dạng xem trợ giúp giá trị nhà cung cấp — lọc nhà cung cấp theo tên, nhóm tài khoản và loại đối tác"
+keywords:
+  - giá trị trợ giúp
+  - nhà cung cấp
+  - lọc
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

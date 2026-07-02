@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTTASKLIFECYCLESTS
 description: Suplracttasklifecyclests
+semantic_en: "domain value list for supplier activity task lifecycle status codes — enumeration of valid workflow states for activity tasks"
+semantic_vi: "danh sách giá trị miền cho mã trạng thái vòng đời tác vụ hoạt động cung cấp — liệt kê các trạng thái quy trình làm việc hợp lệ cho các tác vụ hoạt động"
+keywords:
+  - cung cấp
+  - tác vụ hoạt động
+  - vòng đời
+  - trạng thái
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

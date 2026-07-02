@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLUSERSTATUSTP
 description: Srvcordtmpluserstatustp
+semantic_en: "user-defined status for service order templates — applies workflow status profiles at template level"
+semantic_vi: "trạng thái do người dùng xác định cho mẫu đơn hàng dịch vụ — áp dụng hồ sơ trạng thái quy trình làm việc ở cấp mẫu"
+keywords:
+  - trạng thái
+  - mẫu
+  - quy trình
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

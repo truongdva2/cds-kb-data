@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQLANGUAGEAPI01
 description: Suplrevalreqlanguageapi 01
+semantic_en: "supplier evaluation request language selection — maps supported and master languages to evaluation requests and questionnaires"
+semantic_vi: "chọn ngôn ngữ yêu cầu đánh giá cung cấp — ánh xạ các ngôn ngữ được hỗ trợ và ngôn ngữ chính tới yêu cầu đánh giá và khảo sát"
+keywords:
+  - cung cấp
+  - đánh giá
+  - yêu cầu
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

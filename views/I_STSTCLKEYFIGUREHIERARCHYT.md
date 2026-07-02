@@ -1,6 +1,12 @@
 ---
 name: I_STSTCLKEYFIGUREHIERARCHYT
 description: Ststclkeyfigurehierarchyt
+semantic_en: "Text for statistical key figure hierarchies — multilingual names for hierarchy structures."
+semantic_vi: "Văn bản cho hệ thống phân cấp chỉ tiêu thống kê — tên hệ thống phân cấp đa ngôn ngữ."
+keywords:
+  - phân cấp chỉ tiêu
+  - tên
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQEXTNAMEAPI01
 description: Suplrevalreqextnameapi 01
+semantic_en: "supplier evaluation request external name view — maps external names to evaluation requests and questionnaires by language"
+semantic_vi: "chế độ xem tên ngoài yêu cầu đánh giá cung cấp — ánh xạ tên ngoài tới yêu cầu đánh giá và khảo sát theo ngôn ngữ"
+keywords:
+  - cung cấp
+  - đánh giá
+  - yêu cầu
+  - tên ngoài
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

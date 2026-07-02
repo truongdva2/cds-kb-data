@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICEBLOCKAPI01
 description: Supplier InvoiceBLOCKAPI 01
+semantic_en: "supplier invoice blocking records — tracks blocked invoices with payment reasons and document date"
+semantic_vi: "hồ sơ khóa hóa đơn nhà cung cấp — theo dõi hóa đơn bị khóa với lý do thanh toán"
+keywords:
+  - khóa hóa đơn
+  - nhà cung cấp
+  - lý do
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STOACCOUNTASSIGNMENTTP
 description: Stoaccountassignmenttp
+semantic_en: "Account assignments for stock transport orders — distributes costs across cost centers, projects, or sales orders."
+semantic_vi: "Gán tài khoản cho đơn hàng vận chuyển kho — phân bổ chi phí trên các trung tâm chi phí, dự án hoặc đơn hàng bán hàng."
+keywords:
+  - đơn hàng vận chuyển kho
+  - gán tài khoản
+  - chi phí
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

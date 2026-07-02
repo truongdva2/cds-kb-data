@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPQUESTIONAPI01
 description: Suplrevalrspquestionapi 01
+semantic_en: "supplier evaluation response question view — contains SuplrEvalRspQuestionUUID, question details, weighting and scoring thresholds"
+semantic_vi: "xem chi tiết câu hỏi phẩn ứng đánh giá nhà cung cấp — bao gồm UUID câu hỏi, chi tiết câu hỏi và yêu cầu điểm"
+keywords:
+  - đánh giá nhà cung cấp
+  - câu hỏi phản hồi
+  - điểm số
+  - trọng số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

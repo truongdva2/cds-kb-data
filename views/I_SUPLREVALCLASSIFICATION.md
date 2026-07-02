@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCLASSIFICATION
 description: Suplrevalclassification
+semantic_en: "supplier evaluation classification ranges — defines score boundaries for classification levels from and to values"
+semantic_vi: "phạm vi phân loại đánh giá cung cấp — định nghĩa ranh giới điểm cho các cấp độ phân loại từ và đến các giá trị"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phân loại
+  - phạm vi
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

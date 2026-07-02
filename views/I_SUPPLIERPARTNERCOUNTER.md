@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERPARTNERCOUNTER
 description: Supplierpartnercounter
+semantic_en: "supplier partner counter — unique sequence for supplier partner relationships"
+semantic_vi: "bộ đếm đối tác nhà cung cấp — chuỗi duy nhất cho mối quan hệ đối tác nhà cung cấp"
+keywords:
+  - đối tác nhà cung cấp
+  - bộ đếm
+  - mã
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSELDINBBOLAPI01
 description: Suplrinvcseldinbbolapi 01
+semantic_en: "supplier invoice selected inbound bill of lading reference view — links invoice to shipping document"
+semantic_vi: "xem tham chiếu vận đơn nhập kho đã chọn hóa đơn nhà cung cấp — kết nối hóa đơn với tài liệu vận chuyển"
+keywords:
+  - vận đơn
+  - nhập kho
+  - hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

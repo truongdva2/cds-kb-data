@@ -1,6 +1,12 @@
 ---
 name: I_STORAGELOCATIONADDRESS
 description: Storagelocationaddress
+semantic_en: "Storage location addresses — links storage locations to address records with sequence numbers."
+semantic_vi: "Địa chỉ vị trí lưu trữ — liên kết các vị trí lưu trữ với bản ghi địa chỉ theo số thứ tự."
+keywords:
+  - vị trí lưu trữ
+  - địa chỉ
+  - nhà máy
 app_component: MM
 software_component: SAPSCORE
 release_state: released

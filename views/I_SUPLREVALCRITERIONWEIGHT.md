@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCRITERIONWEIGHT
 description: Suplrevalcriterionweight
+semantic_en: "supplier evaluation criterion weighting configuration — defines weightings for time, quantity, quality, price, questionnaire, quality notification, and custom criteria by purchasing category and organization"
+semantic_vi: "cấu hình trọng lượng tiêu chí đánh giá cung cấp — định nghĩa trọng lượng cho thời gian, số lượng, chất lượng, giá, khảo sát, thông báo chất lượng, tiêu chí tùy chỉnh theo danh mục mua hàng và tổ chức"
+keywords:
+  - cung cấp
+  - đánh giá
+  - trọng lượng
+  - tiêu chí
 app_component: MM-PUR-2CL
 software_component: SAPSCORE
 release_state: released

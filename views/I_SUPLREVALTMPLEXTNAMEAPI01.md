@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALTMPLEXTNAMEAPI01
 description: Suplrevaltmplextnameapi 01
+semantic_en: "supplier evaluation template external name view — multilingual template names by language"
+semantic_vi: "xem tên bên ngoài mẫu đánh giá nhà cung cấp — tên mẫu đa ngôn ngữ theo ngôn ngữ"
+keywords:
+  - tên mẫu
+  - bảng câu hỏi
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

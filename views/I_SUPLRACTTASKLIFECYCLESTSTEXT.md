@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTTASKLIFECYCLESTSTEXT
 description: Suplracttasklifecycleststext
+semantic_en: "domain text descriptions for supplier activity task lifecycle status — translatable names for task status codes"
+semantic_vi: "mô tả văn bản miền cho trạng thái vòng đời tác vụ hoạt động cung cấp — tên có thể dịch cho mã trạng thái tác vụ"
+keywords:
+  - cung cấp
+  - tác vụ
+  - vòng đời
+  - văn bản
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

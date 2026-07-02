@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCOREOUTPSTATUSTEXT
 description: Suplrevalscoreoutpstatustext
+semantic_en: "supplier evaluation score output status text view — translatable status descriptions for score output"
+semantic_vi: "xem văn bản trạng thái đầu ra điểm đánh giá nhà cung cấp — mô tả trạng thái có thể dịch cho đầu ra điểm"
+keywords:
+  - trạng thái điểm
+  - ngôn ngữ
+  - đánh giá
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

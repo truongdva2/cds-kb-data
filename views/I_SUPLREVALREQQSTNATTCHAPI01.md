@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQQSTNATTCHAPI01
 description: Suplrevalreqqstnattchapi 01
+semantic_en: "supplier evaluation request question attachment — links questions to evaluation requests and questionnaires with ordinal sequencing"
+semantic_vi: "đính kèm câu hỏi yêu cầu đánh giá cung cấp — liên kết các câu hỏi tới yêu cầu đánh giá và khảo sát với sắp xếp thứ tự"
+keywords:
+  - cung cấp
+  - đánh giá
+  - câu hỏi
+  - yêu cầu
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

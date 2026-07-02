@@ -1,6 +1,12 @@
 ---
 name: I_STOSCHEDULELINETP
 description: STOSchedule LineTP
+semantic_en: "Schedule lines for stock transport orders — tracks delivery dates, quantities, and committed amounts."
+semantic_vi: "Dòng lịch trình cho đơn hàng vận chuyển kho — theo dõi ngày giao hàng, số lượng và số tiền cam kết."
+keywords:
+  - vận chuyển kho
+  - lịch trình
+  - giao hàng
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

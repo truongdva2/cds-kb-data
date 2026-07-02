@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCCHGDOCITMAPI01
 description: Suplrinvcchgdocitmapi 01
+semantic_en: "supplier invoice change document item view — details field changes with before/after values and units"
+semantic_vi: "xem mục tài liệu thay đổi hóa đơn nhà cung cấp — chi tiết thay đổi trường với giá trị trước/sau và đơn vị"
+keywords:
+  - mục tài liệu thay đổi
+  - hóa đơn
+  - giá trị thay đổi
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

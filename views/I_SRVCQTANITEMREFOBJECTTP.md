@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMREFOBJECTTP
 description: Srvcqtanitemrefobjecttp
+semantic_en: "reference objects for service quotation items — associates equipment, locations, products and serials with quotation items"
+semantic_vi: "đối tượng tham chiếu cho các mục báo giá dịch vụ — liên kết thiết bị, vị trí, sản phẩm và số sê-ri với mục báo giá"
+keywords:
+  - tham chiếu
+  - mục
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

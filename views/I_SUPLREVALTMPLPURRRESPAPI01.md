@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALTMPLPURRRESPAPI01
 description: Suplrevaltmplpurrrespapi 01
+semantic_en: "supplier evaluation template purchaser responsibility view — assigns purchaser users with email and business purpose"
+semantic_vi: "xem trách nhiệm nhà mua hàng mẫu đánh giá nhà cung cấp — gán người dùng mua với email và mục đích kinh doanh"
+keywords:
+  - trách nhiệm nhà mua
+  - mẫu đánh giá
+  - email
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALVALUECONTROLTEXT
 description: Statisticalvaluecontroltext
+semantic_en: "Text descriptions for statistical value control codes — multilingual labels for control categories."
+semantic_vi: "Mô tả văn bản cho mã kiểm soát giá trị thống kê — nhãn đa ngôn ngữ cho danh mục kiểm soát."
+keywords:
+  - kiểm soát giá trị
+  - văn bản
+  - ngôn ngữ
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

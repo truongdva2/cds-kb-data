@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERWITHHOLDINGTAX
 description: Supplierwithholdingtax
+semantic_en: "supplier withholding tax data — tax types, codes, numbers, exemptions and certificate information"
+semantic_vi: "dữ liệu thuế tạm ứng nhà cung cấp — loại thuế, mã, số, miễn trừ và thông tin chứng chỉ"
+keywords:
+  - thuế tạm ứng
+  - nhà cung cấp
+  - miễn trừ
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCUPLOADHISTORYAPI01
 description: Suplrinvcuploadhistoryapi 01
+semantic_en: "supplier invoice upload history view — tracks uploaded invoice files with lifecycle status and company code"
+semantic_vi: "xem lịch sử tải hóa đơn nhà cung cấp — theo dõi các tệp hóa đơn đã tải với trạng thái vòng đời"
+keywords:
+  - tải hóa đơn
+  - lịch sử
+  - trạng thái vòng đời
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

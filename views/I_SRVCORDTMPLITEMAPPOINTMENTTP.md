@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLITEMAPPOINTMENTTP
 description: Srvcordtmplitemappointmenttp
+semantic_en: "item-level appointment scheduling for service order templates — manages appointment scheduling at template item granularity"
+semantic_vi: "lên lịch cuộc hẹn cấp mục cho mẫu đơn hàng dịch vụ — quản lý lập lịch cuộc hẹn ở mức chi tiết mục mẫu"
+keywords:
+  - cuộc hẹn
+  - mục
+  - lịch biểu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

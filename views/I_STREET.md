@@ -1,6 +1,12 @@
 ---
 name: I_STREET
 description: Street
+semantic_en: "Street master data — defines geographic street identifiers by country and city."
+semantic_vi: "Dữ liệu chính địa chỉ đường phố — xác định mã định danh đường phố địa lý theo quốc gia và thành phố."
+keywords:
+  - đường phố
+  - địa chỉ
+  - quốc gia
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

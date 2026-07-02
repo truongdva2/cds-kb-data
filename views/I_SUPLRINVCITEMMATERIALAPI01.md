@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCITEMMATERIALAPI01
 description: Suplrinvcitemmaterialapi 01
+semantic_en: "supplier invoice material item view — material receipt billing with valuation and inventory type information"
+semantic_vi: "xem mục hàng hóa hóa đơn nhà cung cấp — thanh toán nhận hàng hóa với thông tin định giá và loại tồn kho"
+keywords:
+  - hàng hóa
+  - hóa đơn nhà cung cấp
+  - định giá
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

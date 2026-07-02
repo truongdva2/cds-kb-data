@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCOMPANYVH
 description: Suppliercompanyvh
+semantic_en: "value help for supplier company selection — provides supplier name and company code for filtering"
+semantic_vi: "trợ giúp giá trị cho chọn công ty nhà cung cấp — cung cấp tên nhà cung cấp và mã công ty để lọc"
+keywords:
+  - giá trị trợ giúp
+  - công ty nhà cung cấp
+  - lựa chọn
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

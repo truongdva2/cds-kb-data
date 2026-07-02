@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERPURCHASINGORG
 description: Supplierpurchasingorg
+semantic_en: "supplier purchasing organization data — material planning duration, purchase order currency and ABC classification"
+semantic_vi: "dữ liệu tổ chức mua hàng nhà cung cấp — kỳ hạn lập kế hoạch vật liệu, tiền tệ đơn hàng mua"
+keywords:
+  - tổ chức mua hàng
+  - nhà cung cấp
+  - vật liệu
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

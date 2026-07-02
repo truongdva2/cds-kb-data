@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANUSERSTATUSTP
 description: Srvcqtanuserstatustp
+semantic_en: "user-defined status for service quotations — tracks workflow status profiles applied to quotations"
+semantic_vi: "trạng thái do người dùng xác định cho báo giá dịch vụ — theo dõi hồ sơ trạng thái quy trình làm việc được áp dụng cho báo giá"
+keywords:
+  - trạng thái
+  - báo giá
+  - quy trình
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

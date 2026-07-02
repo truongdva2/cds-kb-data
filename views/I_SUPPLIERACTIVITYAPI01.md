@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYAPI01
 description: Supplieractivityapi 01
+semantic_en: "procurement-related activity data — tracks supplier activities with priority, type, lifecycle status and timestamps"
+semantic_vi: "dữ liệu hoạt động liên quan đến mua hàng — theo dõi hoạt động của nhà cung cấp với ưu tiên, loại, trạng thái vòng đời"
+keywords:
+  - hoạt động mua hàng
+  - nhà cung cấp
+  - ưu tiên
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

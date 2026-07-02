@@ -1,6 +1,12 @@
 ---
 name: I_STOCKCHANGECATEGORY
 description: Stockchangecategory
+semantic_en: "Domain values for stock change categories — enumeration of inventory movement classifications."
+semantic_vi: "Giá trị miền cho danh mục thay đổi kho — liệt kê các phân loại chuyển động tồn kho."
+keywords:
+  - thay đổi kho
+  - danh mục
+  - tồn kho
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

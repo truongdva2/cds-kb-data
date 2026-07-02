@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICETAXAPI01
 description: Supplier InvoiceTAXAPI 01
+semantic_en: "tax data for supplier invoices — captures tax codes, amounts and calculation procedures by currency"
+semantic_vi: "dữ liệu thuế cho hóa đơn nhà cung cấp — ghi lại mã thuế, số tiền và quy trình tính toán theo tiền tệ"
+keywords:
+  - thuế hóa đơn
+  - nhà cung cấp
+  - tính toán
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

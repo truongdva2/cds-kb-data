@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANITEMPARTNERADDRESSTP
 description: Srvcqtanitempartneraddresstp
+semantic_en: "partner address information for service quotation items — stores contact details for item-level partners"
+semantic_vi: "thông tin địa chỉ đối tác cho các mục báo giá dịch vụ — lưu trữ thông tin liên lạc cho đối tác cấp mục"
+keywords:
+  - địa chỉ
+  - đối tác
+  - mục
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

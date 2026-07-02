@@ -1,6 +1,12 @@
 ---
 name: I_SUBLEDGERACCLINEITEMTYPE
 description: Subledgeracclineitemtype
+semantic_en: "Domain for subledger account line item types — classifies subledger item categories."
+semantic_vi: "Miền cho loại dòng mục tài khoản phụ — phân loại các danh mục dòng mục phụ."
+keywords:
+  - tài khoản phụ
+  - loại dòng mục
+  - danh mục
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

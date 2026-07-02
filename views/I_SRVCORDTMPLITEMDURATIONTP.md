@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLITEMDURATIONTP
 description: Srvcordtmplitemdurationtp
+semantic_en: "item-level duration specifications for service order templates — captures duration details for individual template items"
+semantic_vi: "thông số kỹ thuật thời gian cấp mục cho mẫu đơn hàng dịch vụ — ghi lại chi tiết thời gian cho các mục mẫu riêng lẻ"
+keywords:
+  - thời gian
+  - mục
+  - mẫu dịch vụ
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

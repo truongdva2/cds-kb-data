@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALCLASSIFICATIONTEXT
 description: Suplrevalclassificationtext
+semantic_en: "supplier evaluation classification text — provides translatable descriptions for classification levels"
+semantic_vi: "văn bản phân loại đánh giá cung cấp — cung cấp các mô tả có thể dịch cho các cấp độ phân loại"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phân loại
+  - văn bản
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

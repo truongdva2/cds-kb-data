@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLDURATIONTP
 description: Srvcordtmpldurationtp
+semantic_en: "duration specifications for service order templates — defines duration types, values and units at template level"
+semantic_vi: "thông số kỹ thuật thời gian cho mẫu đơn hàng dịch vụ — xác định loại, giá trị và đơn vị thời gian ở cấp mẫu"
+keywords:
+  - thời gian
+  - khoảng thời gian
+  - mẫu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

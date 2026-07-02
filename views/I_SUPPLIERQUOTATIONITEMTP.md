@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUOTATIONITEMTP
 description: Supplierquotationitemtp
+semantic_en: "supplier quotation item transactional planning — tracks items with material, manufacturer details and delivery address"
+semantic_vi: "lập kế hoạch giao dịch mục báo giá nhà cung cấp — theo dõi các mục với vật liệu, chi tiết nhà sản xuất"
+keywords:
+  - báo giá nhà cung cấp
+  - mục
+  - vật liệu
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

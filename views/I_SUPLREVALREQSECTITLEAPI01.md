@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQSECTITLEAPI01
 description: Suplrevalreqsectitleapi 01
+semantic_en: "supplier evaluation request section title — provides multilingual section titles for questionnaire sections in evaluation requests"
+semantic_vi: "tiêu đề phần yêu cầu đánh giá cung cấp — cung cấp tiêu đề phần đa ngôn ngữ cho các phần khảo sát trong yêu cầu đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phần
+  - tiêu đề
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

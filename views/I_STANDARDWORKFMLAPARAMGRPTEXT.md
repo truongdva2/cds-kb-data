@@ -1,6 +1,12 @@
 ---
 name: I_STANDARDWORKFMLAPARAMGRPTEXT
 description: Standardworkfmlaparamgrptext
+semantic_en: "descriptions for standard work formula parameter groups — multilingual text labels for parameter group configurations"
+semantic_vi: "mô tả cho các nhóm tham số công thức công việc tiêu chuẩn — nhãn văn bản đa ngôn ngữ cho cấu hình nhóm tham số"
+keywords:
+  - công thức
+  - tham số
+  - mô tả
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

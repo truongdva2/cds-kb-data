@@ -1,6 +1,12 @@
 ---
 name: I_STANDARDWORKFORMULAPARAMETER
 description: Standardworkformulaparameter
+semantic_en: "standard work formula parameters — defines individual formula parameters for work calculation"
+semantic_vi: "tham số công thức công việc tiêu chuẩn — xác định các tham số công thức riêng lẻ cho tính toán công việc"
+keywords:
+  - công thức
+  - tham số
+  - tính toán
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

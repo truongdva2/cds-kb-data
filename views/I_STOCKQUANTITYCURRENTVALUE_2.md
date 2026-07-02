@@ -1,6 +1,12 @@
 ---
 name: I_STOCKQUANTITYCURRENTVALUE_2
 description: Stockquantitycurrentvalue 2
+semantic_en: "Projection showing current stock quantities and values — lists inventory by material, plant, and storage dimension."
+semantic_vi: "Phép chiếu cho thấy số lượng và giá trị kho hiện tại — liệt kê tồn kho theo vật liệu, nhà máy và kích thước lưu trữ."
+keywords:
+  - số lượng kho
+  - giá trị
+  - kho hiện tại
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

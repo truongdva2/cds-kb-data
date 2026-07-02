@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYTASKPROCESSORAPI01
 description: Suplractytaskprocessorapi 01
+semantic_en: "processor assignment for supplier activity task — maps users and authorization groups processing supplier activity tasks"
+semantic_vi: "chỉ định bộ xử lý cho tác vụ hoạt động cung cấp — ánh xạ người dùng và nhóm ủy quyền xử lý tác vụ hoạt động cung cấp"
+keywords:
+  - cung cấp
+  - tác vụ hoạt động
+  - bộ xử lý
+  - ủy quyền
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

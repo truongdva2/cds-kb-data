@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCCRDSUPPLIERAPI01
 description: Suplrevalsccrdsupplierapi 01
+semantic_en: "supplier evaluation scorecard supplier view — identifies supplier on scorecard with business purpose completion flag"
+semantic_vi: "xem nhà cung cấp bảng điểm đánh giá — xác định nhà cung cấp trên bảng điểm với cờ hoàn thành mục đích"
+keywords:
+  - nhà cung cấp bảng điểm
+  - đánh giá
+  - mục đích kinh doanh
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

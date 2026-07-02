@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVOICEITEMGLACCTAPI01
 description: Suplrinvoiceitemglacctapi 01
+semantic_en: "supplier invoice G/L account item view — general ledger account posting for invoice line items"
+semantic_vi: "xem mục tài khoản sổ cái hóa đơn nhà cung cấp — ghi tài khoản sổ cái chung cho các dòng hóa đơn"
+keywords:
+  - tài khoản sổ cái
+  - hóa đơn nhà cung cấp
+  - ghi
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

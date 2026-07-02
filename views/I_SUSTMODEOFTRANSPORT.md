@@ -1,6 +1,12 @@
 ---
 name: I_SUSTMODEOFTRANSPORT
 description: Sustmodeoftransport
+semantic_en: "sustainability mode of transport codelist — defines transportation methods for sustainability tracking"
+semantic_vi: "danh sách mã chế độ vận tải bền vững — xác định phương thức vận tải để theo dõi tính bền vững"
+keywords:
+  - chế độ vận tải
+  - bền vững
+  - mã
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

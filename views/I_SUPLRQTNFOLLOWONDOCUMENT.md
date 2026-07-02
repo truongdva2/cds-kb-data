@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRQTNFOLLOWONDOCUMENT
 description: Suplrqtnfollowondocument
+semantic_en: "supplier quotation follow-on document view — maps quotation types to subsequent document types"
+semantic_vi: "xem tài liệu tiếp theo yêu cầu báo giá nhà cung cấp — ánh xạ loại yêu cầu báo giá sang loại tài liệu tiếp theo"
+keywords:
+  - yêu cầu báo giá
+  - tài liệu tiếp theo
+  - loại
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

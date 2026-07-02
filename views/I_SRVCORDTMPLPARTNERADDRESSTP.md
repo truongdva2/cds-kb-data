@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLPARTNERADDRESSTP
 description: Srvcordtmplpartneraddresstp
+semantic_en: "partner address information for service order templates — captures contact and location details for template-level partners"
+semantic_vi: "thông tin địa chỉ đối tác cho mẫu đơn hàng dịch vụ — ghi lại thông tin liên lạc và địa điểm cho đối tác cấp mẫu"
+keywords:
+  - địa chỉ
+  - đối tác
+  - mẫu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

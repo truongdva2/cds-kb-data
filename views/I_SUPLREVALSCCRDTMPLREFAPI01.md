@@ -1,6 +1,11 @@
 ---
 name: I_SUPLREVALSCCRDTMPLREFAPI01
 description: Suplrevalsccrdtmplrefapi 01
+semantic_en: "supplier evaluation scorecard template reference view — links scorecard to evaluation template"
+semantic_vi: "xem tham chiếu mẫu bảng điểm đánh giá nhà cung cấp — kết nối bảng điểm với mẫu đánh giá"
+keywords:
+  - tham chiếu mẫu bảng điểm
+  - mẫu đánh giá
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

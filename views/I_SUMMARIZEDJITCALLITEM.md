@@ -1,6 +1,12 @@
 ---
 name: I_SUMMARIZEDJITCALLITEM
 description: Summarizedjitcallitem
+semantic_en: "Items in summarized JIT calls — lists products with quantities and goods receipt tracking."
+semantic_vi: "Mục trong các cuộc gọi JIT được tóm tắt — liệt kê các sản phẩm có số lượng và theo dõi nhận hàng."
+keywords:
+  - cuộc gọi JIT
+  - dòng mục
+  - sản phẩm
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

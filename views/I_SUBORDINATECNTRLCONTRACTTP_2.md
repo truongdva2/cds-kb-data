@@ -1,6 +1,12 @@
 ---
 name: I_SUBORDINATECNTRLCONTRACTTP_2
 description: Subordinatecntrlcontracttp 2
+semantic_en: "Transactional point for subordinate control contracts — tracks dependent purchase contracts with status and dates."
+semantic_vi: "Điểm giao dịch cho hợp đồng kiểm soát phụ thuộc — theo dõi hợp đồng mua hàng phụ thuộc với trạng thái và ngày tháng."
+keywords:
+  - hợp đồng mua
+  - phụ thuộc
+  - giao dịch
 app_component: MM-PUR-HUB-CTR-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUMMARIZEDJITCALL
 description: Summarizedjitcall
+semantic_en: "Summarized JIT calls — aggregates just-in-time delivery calls with planned delivery times and processing status."
+semantic_vi: "Cuộc gọi JIT được tóm tắt — tổng hợp các cuộc gọi giao hàng kịp thời với thời gian giao hàng được lập kế hoạch và trạng thái xử lý."
+keywords:
+  - cuộc gọi JIT
+  - giao hàng
+  - kế hoạch
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

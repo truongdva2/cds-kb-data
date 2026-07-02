@@ -1,6 +1,13 @@
 ---
 name: I_SUMZDJITCALLMSGISPROCDTEXT
 description: Sumzdjitcallmsgisprocdtext
+semantic_en: "domain value text view for JIT call message processing status in manufacturing — maps processing state code to localized descriptions"
+semantic_vi: "chế độ xem văn bản giá trị miền cho trạng thái xử lý thông báo gọi JIT trong sản xuất — ánh xạ mã trạng thái xử lý tới các mô tả được bản địa hóa"
+keywords:
+  - JIT
+  - thông báo gọi
+  - trạng thái xử lý
+  - sản xuất
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

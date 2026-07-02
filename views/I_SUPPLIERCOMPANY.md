@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCOMPANY
 description: Suppliercompany
+semantic_en: "supplier company data by company code — accounting clerk contact, payment method and blocking reasons per company"
+semantic_vi: "dữ liệu công ty nhà cung cấp theo mã công ty — liên hệ nhân viên kế toán, phương thức thanh toán và lý do khóa"
+keywords:
+  - công ty nhà cung cấp
+  - mã công ty
+  - phương thức thanh toán
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSELDPURGDOCAPI01
 description: Suplrinvcseldpurgdocapi 01
+semantic_en: "supplier invoice selected purchasing document reference view — links invoice to source purchase order"
+semantic_vi: "xem tham chiếu tài liệu mua đã chọn hóa đơn nhà cung cấp — kết nối hóa đơn với đơn mua nguồn"
+keywords:
+  - đơn mua
+  - tài liệu mua
+  - hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

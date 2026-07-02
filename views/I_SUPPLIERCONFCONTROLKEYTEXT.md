@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCONFCONTROLKEYTEXT
 description: Supplierconfcontrolkeytext
+semantic_en: "supplier confirmation control key translations — language-specific control key names"
+semantic_vi: "bản dịch khóa kiểm soát xác nhận nhà cung cấp — tên khóa kiểm soát theo từng ngôn ngữ"
+keywords:
+  - khóa kiểm soát
+  - dịch
+  - xác nhận
 app_component: MM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVOICESTATUSAPI01
 description: Supplier InvoiceSTATUSAPI 01
+semantic_en: "supplier invoice status codelist — defines status values for supplier invoices"
+semantic_vi: "danh sách mã trạng thái hóa đơn nhà cung cấp — xác định các giá trị trạng thái hóa đơn"
+keywords:
+  - trạng thái hóa đơn
+  - nhà cung cấp
+  - mã
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

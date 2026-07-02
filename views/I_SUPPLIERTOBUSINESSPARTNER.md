@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERTOBUSINESSPARTNER
 description: SUPPLIERTOBusiness Partner
+semantic_en: "supplier to business partner relationship — links supplier records to business partner UUID"
+semantic_vi: "mối quan hệ nhà cung cấp đến đối tác kinh doanh — liên kết hồ sơ nhà cung cấp đến UUID đối tác"
+keywords:
+  - nhà cung cấp
+  - đối tác kinh doanh
+  - liên kết
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALTMPLTRNSLTNSTSAPI01
 description: Suplrevaltmpltrnsltnstsapi 01
+semantic_en: "supplier evaluation template translation status view — tracks translation completeness by target language"
+semantic_vi: "xem trạng thái dịch mẫu đánh giá nhà cung cấp — theo dõi tính hoàn chỉnh dịch theo ngôn ngữ đích"
+keywords:
+  - trạng thái dịch
+  - mẫu đánh giá
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_SUPLREVALSCCRDRSPREFAPI01
 description: Suplrevalsccrdrsprefapi 01
+semantic_en: "supplier evaluation scorecard response reference view — links scorecard to response with audit timestamps"
+semantic_vi: "xem tham chiếu phẩn ứng bảng điểm đánh giá nhà cung cấp — kết nối bảng điểm với phản hồi có dấu thời gian kiểm tính"
+keywords:
+  - tham chiếu phản hồi bảng điểm
+  - đánh giá nhà cung cấp
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

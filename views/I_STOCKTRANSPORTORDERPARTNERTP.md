@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTRANSPORTORDERPARTNERTP
 description: Stocktransportorderpartnertp
+semantic_en: "Partners in stock transport orders — captures supplier, contact, and organizational details."
+semantic_vi: "Đối tác trong đơn hàng vận chuyển kho — ghi lại chi tiết nhà cung cấp, liên hệ và tổ chức."
+keywords:
+  - vận chuyển kho
+  - đối tác
+  - nhà cung cấp
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

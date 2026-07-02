@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCITEMASSETAPI01
 description: Suplrinvcitemassetapi 01
+semantic_en: "supplier invoice asset item view — asset capitalization details with cost allocation and tax information"
+semantic_vi: "xem mục tài sản hóa đơn nhà cung cấp — chi tiết vốn hóa tài sản với phân bổ chi phí và thông tin thuế"
+keywords:
+  - tài sản
+  - hóa đơn nhà cung cấp
+  - chi phí
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

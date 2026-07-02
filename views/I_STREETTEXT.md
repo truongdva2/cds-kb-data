@@ -1,6 +1,12 @@
 ---
 name: I_STREETTEXT
 description: Streettext
+semantic_en: "Multilingual text for streets — localized street names by country and city."
+semantic_vi: "Văn bản đa ngôn ngữ cho đường phố — tên đường bản địa hóa theo quốc gia và thành phố."
+keywords:
+  - đường phố
+  - tên
+  - ngôn ngữ
 app_component: BC-SRV-ADR
 software_component: SAP_BASIS
 release_state: released

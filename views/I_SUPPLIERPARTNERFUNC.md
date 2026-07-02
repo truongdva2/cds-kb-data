@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERPARTNERFUNC
 description: Supplierpartnerfunc
+semantic_en: "supplier purchasing partner function — defines roles and references for partner functions in procurement"
+semantic_vi: "chức năng đối tác mua hàng nhà cung cấp — xác định vai trò và tham chiếu cho chức năng đối tác"
+keywords:
+  - chức năng đối tác
+  - nhà cung cấp
+  - mua hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTRANSPORTORDERTP
 description: Stocktransportordertp
+semantic_en: "Transactional point for stock transport orders — tracks order status, dates, and organizational context."
+semantic_vi: "Điểm giao dịch cho đơn hàng vận chuyển kho — theo dõi trạng thái, ngày tháng và bối cảnh tổ chức."
+keywords:
+  - vận chuyển kho
+  - đơn hàng
+  - trạng thái
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

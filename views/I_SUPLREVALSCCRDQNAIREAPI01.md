@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCCRDQNAIREAPI01
 description: Suplrevalsccrdqnaireapi 01
+semantic_en: "supplier evaluation scorecard questionnaire view — maps questionnaires to scorecards with scoring parameters"
+semantic_vi: "xem bảng câu hỏi bảng điểm đánh giá nhà cung cấp — ánh xạ bảng câu hỏi sang bảng điểm với tham số điểm số"
+keywords:
+  - bảng câu hỏi bảng điểm
+  - đánh giá nhà cung cấp
+  - trọng số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRGEVALEMAILTMPLAPI02
 description: Suplrgevalemailtmplapi 02
+semantic_en: "supplier evaluation email template view — email notification template with creation metadata and recipient details"
+semantic_vi: "xem mẫu email thông báo đánh giá nhà cung cấp — mẫu thông báo email với siêu dữ liệu tạo và chi tiết người nhận"
+keywords:
+  - mẫu email
+  - thông báo đánh giá
+  - nhà cung cấp
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

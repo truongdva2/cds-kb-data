@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLYDEMANDITEMTP
 description: Supplydemanditemtp
+semantic_en: "supply demand item transactional planning — exception messages with MRP elements, segments and aggregations"
+semantic_vi: "lập kế hoạch giao dịch mục cung cấp-nhu cầu — thông báo ngoại lệ với yếu tố MRP, phân khúc"
+keywords:
+  - cung cấp-nhu cầu
+  - lập kế hoạch giao dịch
+  - MRP
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

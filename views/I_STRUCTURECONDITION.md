@@ -1,6 +1,12 @@
 ---
 name: I_STRUCTURECONDITION
 description: Structurecondition
+semantic_en: "Structure condition domain — defines pricing structure classifications in condition records."
+semantic_vi: "Miền điều kiện cấu trúc — xác định phân loại cấu trúc định giá trong bản ghi điều kiện."
+keywords:
+  - cấu trúc giá
+  - điều kiện
+  - danh mục
 app_component: SD-MD-CM-2CL
 software_component: SAPSCORE
 release_state: released

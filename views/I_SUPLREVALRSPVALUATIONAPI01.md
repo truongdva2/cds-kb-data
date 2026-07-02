@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALRSPVALUATIONAPI01
 description: Suplrevalrspvaluationapi 01
+semantic_en: "supplier evaluation response valuation view — records answer values with scores and response text"
+semantic_vi: "xem định giá phẩn ứng đánh giá nhà cung cấp — ghi lại giá trị câu trả lời với điểm số và văn bản phản hồi"
+keywords:
+  - định giá phản hồi
+  - câu trả lời
+  - điểm số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

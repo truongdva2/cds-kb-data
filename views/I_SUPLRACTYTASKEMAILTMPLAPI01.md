@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTYTASKEMAILTMPLAPI01
 description: Suplractytaskemailtmplapi 01
+semantic_en: "email template for supplier activity task notifications — provides task details, dates, user information, and language-specific message formatting for task notifications"
+semantic_vi: "mẫu email cho thông báo tác vụ hoạt động cung cấp — cung cấp chi tiết tác vụ, ngày tháng, thông tin người dùng, định dạng tin nhắn dành riêng cho ngôn ngữ cho thông báo tác vụ"
+keywords:
+  - cung cấp
+  - tác vụ
+  - email
+  - thông báo
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

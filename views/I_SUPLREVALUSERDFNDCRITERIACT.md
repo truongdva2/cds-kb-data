@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUSERDFNDCRITERIACT
 description: Suplrevaluserdfndcriteriact
+semantic_en: "supplier evaluation user-defined criteria count view — tracks custom criteria by supplier, category, and validity"
+semantic_vi: "xem số lượng tiêu chí do người dùng định nghĩa đánh giá nhà cung cấp — theo dõi tiêu chí tùy chỉnh theo nhà cung cấp và danh mục"
+keywords:
+  - tiêu chí tùy chỉnh
+  - nhà cung cấp
+  - danh mục mua
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

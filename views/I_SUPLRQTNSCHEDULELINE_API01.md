@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRQTNSCHEDULELINE_API01
 description: SUPLRQTNSchedule Line Api 01
+semantic_en: "supplier quotation schedule line view — delivery schedule with quantities, dates, and receipt tracking"
+semantic_vi: "xem dòng lịch trình yêu cầu báo giá nhà cung cấp — lịch trình giao hàng với số lượng, ngày tháng và theo dõi nhập kho"
+keywords:
+  - lịch trình giao
+  - yêu cầu báo giá
+  - số lượng
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

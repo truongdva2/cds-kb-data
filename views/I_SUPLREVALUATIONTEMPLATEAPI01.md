@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUATIONTEMPLATEAPI01
 description: Suplrevaluationtemplateapi 01
+semantic_en: "supplier evaluation template view — master templates with creation, response deadline, and lifecycle status"
+semantic_vi: "xem mẫu đánh giá nhà cung cấp — mẫu chính với thông tin tạo, thời hạn phản hồi và trạng thái vòng đời"
+keywords:
+  - mẫu đánh giá
+  - danh mục mua hàng
+  - trạng thái vòng đời
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

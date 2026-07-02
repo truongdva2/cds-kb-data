@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANLONGTEXTTP
 description: Srvcqtanlongtexttp
+semantic_en: "long text storage for service quotations — manages extended text content for quotations with change tracking"
+semantic_vi: "lưu trữ văn bản dài cho báo giá dịch vụ — quản lý nội dung văn bản mở rộng cho báo giá với theo dõi thay đổi"
+keywords:
+  - văn bản dài
+  - báo giá
+  - tài liệu
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

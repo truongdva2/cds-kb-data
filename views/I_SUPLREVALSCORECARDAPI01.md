@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCORECARDAPI01
 description: Suplrevalscorecardapi 01
+semantic_en: "supplier evaluation scorecard view — master scorecards with date range, purchasing category, and finalization status"
+semantic_vi: "xem bảng điểm đánh giá nhà cung cấp — bảng điểm chính với phạm vi ngày tháng, danh mục mua và trạng thái hoàn tất"
+keywords:
+  - bảng điểm đánh giá
+  - nhà cung cấp
+  - danh mục mua hàng
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

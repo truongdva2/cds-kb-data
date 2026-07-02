@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDREFERENCEOBJECTTP
 description: Srvcordreferenceobjecttp
+semantic_en: "reference objects for service orders — associates equipment, functional locations, products and serials with service orders"
+semantic_vi: "đối tượng tham chiếu cho đơn hàng dịch vụ — liên kết thiết bị, vị trí chức năng, sản phẩm và số sê-ri với đơn hàng dịch vụ"
+keywords:
+  - tham chiếu
+  - thiết bị
+  - sản phẩm
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

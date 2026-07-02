@@ -1,6 +1,12 @@
 ---
 name: I_STATUSPROFILE
 description: Statusprofile
+semantic_en: "Master data for status profiles — defines collections of valid status codes with master language."
+semantic_vi: "Dữ liệu chính cho hồ sơ trạng thái — xác định bộ sưu tập các mã trạng thái hợp lệ với ngôn ngữ chính."
+keywords:
+  - hồ sơ trạng thái
+  - trạng thái
+  - dữ liệu chính
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

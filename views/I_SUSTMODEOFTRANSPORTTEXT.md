@@ -1,6 +1,12 @@
 ---
 name: I_SUSTMODEOFTRANSPORTTEXT
 description: Sustmodeoftransporttext
+semantic_en: "sustainability mode of transport translations — language-specific transport mode names for sustainability"
+semantic_vi: "bản dịch chế độ vận tải bền vững — tên chế độ vận tải theo từng ngôn ngữ cho bền vững"
+keywords:
+  - chế độ vận tải
+  - bền vững
+  - dịch
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

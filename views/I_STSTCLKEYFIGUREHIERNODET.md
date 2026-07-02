@@ -1,6 +1,12 @@
 ---
 name: I_STSTCLKEYFIGUREHIERNODET
 description: Ststclkeyfigurehiernodet
+semantic_en: "Text for hierarchy nodes — multilingual node descriptions and labels."
+semantic_vi: "Văn bản cho nút phân cấp — mô tả nút đa ngôn ngữ và nhãn."
+keywords:
+  - nút phân cấp
+  - mô tả
+  - ngôn ngữ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

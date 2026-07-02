@@ -1,6 +1,12 @@
 ---
 name: I_STATUSOBJECTSTATUSCHANGE
 description: Statusobjectstatuschange
+semantic_en: "Change document log for system and user status transitions — tracks status modifications with user and timestamp."
+semantic_vi: "Nhật ký tài liệu thay đổi cho chuyển đổi trạng thái — theo dõi sửa đổi trạng thái với người dùng và thời gian."
+keywords:
+  - trạng thái
+  - tài liệu thay đổi
+  - lịch sử
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCCRDQUESTIONAPI01
 description: Suplrevalsccrdquestionapi 01
+semantic_en: "supplier evaluation scorecard question view — contains question details and scoring criteria for scorecard questions"
+semantic_vi: "xem câu hỏi bảng điểm đánh giá nhà cung cấp — bao gồm chi tiết câu hỏi và tiêu chí điểm số"
+keywords:
+  - câu hỏi bảng điểm
+  - tiêu chí đánh giá
+  - trọng số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

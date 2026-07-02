@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALOUTPUTSCORETYPE
 description: Suplrevaloutputscoretype
+semantic_en: "domain value list for supplier evaluation output score action type codes — enumeration of action types for evaluation score outputs"
+semantic_vi: "danh sách giá trị miền cho mã loại hành động đầu ra điểm đánh giá cung cấp — liệt kê các loại hành động cho đầu ra điểm đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - điểm
+  - hành động
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

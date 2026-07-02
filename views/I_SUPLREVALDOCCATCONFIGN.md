@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALDOCCATCONFIGN
 description: Suplrevaldoccatconfign
+semantic_en: "domain value list for supplier evaluation relevant document category configuration — enumeration of document categories used in evaluation"
+semantic_vi: "danh sách giá trị miền cho cấu hình danh mục tài liệu liên quan đánh giá cung cấp — liệt kê các danh mục tài liệu được sử dụng trong đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - tài liệu
+  - danh mục
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

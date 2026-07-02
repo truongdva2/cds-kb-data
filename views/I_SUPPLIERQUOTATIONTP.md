@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERQUOTATIONTP
 description: Supplierquotationtp
+semantic_en: "supplier quotation transactional planning — quotations with incoterms, currency and creation tracking"
+semantic_vi: "lập kế hoạch giao dịch báo giá nhà cung cấp — báo giá với incoterms, tiền tệ và theo dõi tạo"
+keywords:
+  - báo giá nhà cung cấp
+  - lập kế hoạch giao dịch
+  - incoterms
 app_component: MM-PUR-RFQ-2CL
 software_component: SAPSCORE
 release_state: released

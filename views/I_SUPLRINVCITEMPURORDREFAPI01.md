@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCITEMPURORDREFAPI01
 description: Suplrinvcitempurordrefapi 01
+semantic_en: "supplier invoice purchase order reference item view — links invoice line to purchase order with quantity details"
+semantic_vi: "xem mục tham chiếu đơn mua hóa đơn nhà cung cấp — kết nối dòng hóa đơn với đơn mua có chi tiết số lượng"
+keywords:
+  - đơn mua
+  - hóa đơn nhà cung cấp
+  - tham chiếu
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SYSTEMSTATUS
 description: Systemstatus
+semantic_en: "system status — defines status codes and visibility flags for object status tracking"
+semantic_vi: "trạng thái hệ thống — xác định mã trạng thái và cờ hiển thị để theo dõi trạng thái đối tượng"
+keywords:
+  - trạng thái hệ thống
+  - mã
+  - ẩn
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

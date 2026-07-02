@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPPTYADDRESSAPI01
 description: Suplrevalrspptyaddressapi 01
+semantic_en: "supplier evaluation response party address — stores address details including full name, department, and phone for survey respondents"
+semantic_vi: "địa chỉ bên phản hồi đánh giá cung cấp — lưu trữ chi tiết địa chỉ bao gồm tên đầy đủ, phòng ban, điện thoại cho người trả lời khảo sát"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - địa chỉ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

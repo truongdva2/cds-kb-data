@@ -1,6 +1,12 @@
 ---
 name: I_SYSTEMSTATUSTEXT
 description: Systemstatustext
+semantic_en: "system status translations — language-specific status names and short descriptions"
+semantic_vi: "bản dịch trạng thái hệ thống — tên trạng thái và mô tả ngắn theo từng ngôn ngữ"
+keywords:
+  - trạng thái hệ thống
+  - dịch
+  - tên ngắn
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

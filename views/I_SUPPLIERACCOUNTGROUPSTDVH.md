@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACCOUNTGROUPSTDVH
 description: Supplieraccountgroupstdvh
+semantic_en: "standard value help for supplier account groups — enables dropdown selection of account group codes"
+semantic_vi: "trợ giúp giá trị tiêu chuẩn cho nhóm tài khoản nhà cung cấp — cho phép chọn mã nhóm tài khoản từ danh sách"
+keywords:
+  - giá trị trợ giúp
+  - nhóm tài khoản
+  - lựa chọn
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

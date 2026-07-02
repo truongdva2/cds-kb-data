@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERDUNNING
 description: Supplierdunning
+semantic_en: "supplier dunning records by company code — tracks dunning procedures, levels, blocks and recipient details"
+semantic_vi: "hồ sơ nhắc nợ nhà cung cấp theo mã công ty — theo dõi quy trình nhắc nợ, cấp độ và người nhận"
+keywords:
+  - nhắc nợ
+  - nhà cung cấp
+  - công ty
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

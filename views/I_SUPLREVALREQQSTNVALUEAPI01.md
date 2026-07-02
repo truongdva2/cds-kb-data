@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQQSTNVALUEAPI01
 description: Suplrevalreqqstnvalueapi 01
+semantic_en: "supplier evaluation request question value — stores answer scores and question values for questionnaire items with ordinal positioning"
+semantic_vi: "giá trị câu hỏi yêu cầu đánh giá cung cấp — lưu trữ điểm trả lời và giá trị câu hỏi cho các mục khảo sát với định vị thứ tự"
+keywords:
+  - cung cấp
+  - đánh giá
+  - câu hỏi
+  - giá trị
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

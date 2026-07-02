@@ -1,6 +1,12 @@
 ---
 name: I_STKSUBSCRPNRGHTINVMTCERTCNDN
 description: Stksubscrpnrghtinvmtcertcndn
+semantic_en: "Conditions for stock subscription rights in investment certificates — captures dividend entitlement, reinvestment, and payment terms."
+semantic_vi: "Điều kiện cho quyền đăng ký cổ phiếu trong chứng chỉ đầu tư — ghi lại quyền chia cổ tức, tái đầu tư và điều khoản thanh toán."
+keywords:
+  - chứng chỉ đầu tư
+  - quyền đăng ký
+  - cổ tức
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

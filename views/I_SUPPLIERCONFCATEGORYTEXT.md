@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCONFCATEGORYTEXT
 description: Supplierconfcategorytext
+semantic_en: "supplier confirmation category translations — language-specific category names for supplier confirmations"
+semantic_vi: "bản dịch danh mục xác nhận nhà cung cấp — tên danh mục xác nhận nhà cung cấp theo từng ngôn ngữ"
+keywords:
+  - danh mục xác nhận
+  - nhà cung cấp
+  - dịch
 app_component: MM
 software_component: SAPSCORE
 release_state: released

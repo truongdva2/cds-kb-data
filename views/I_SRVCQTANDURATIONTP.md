@@ -1,6 +1,12 @@
 ---
 name: I_SRVCQTANDURATIONTP
 description: Srvcqtandurationtp
+semantic_en: "duration specifications for service quotations — defines duration types, values and units at quotation level"
+semantic_vi: "thông số kỹ thuật thời gian cho báo giá dịch vụ — xác định loại, giá trị và đơn vị thời gian ở cấp báo giá"
+keywords:
+  - thời gian
+  - khoảng thời gian
+  - báo giá
 app_component: CRM-S4-SRV-SVQ-2CL
 software_component: SAPSCORE
 release_state: released

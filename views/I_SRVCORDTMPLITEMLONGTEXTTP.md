@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDTMPLITEMLONGTEXTTP
 description: Srvcordtmplitemlongtexttp
+semantic_en: "long text content for service order template items — stores extended text with language, MIME type and cross-references"
+semantic_vi: "nội dung văn bản dài cho các mục mẫu đơn hàng dịch vụ — lưu trữ văn bản mở rộng với ngôn ngữ, loại MIME và tham chiếu chéo"
+keywords:
+  - văn bản dài
+  - mục
+  - tài liệu
 app_component: CRM-S4-SRV-SVT-2CL
 software_component: SAPSCORE
 release_state: released

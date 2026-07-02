@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSELDDELIVNOTEAPI01
 description: Suplrinvcselddelivnoteapi 01
+semantic_en: "supplier invoice selected inbound delivery note reference view — links invoice to goods receipt document"
+semantic_vi: "xem tham chiếu phiếu giao hàng nhập kho đã chọn hóa đơn nhà cung cấp — kết nối hóa đơn với tài liệu nhập kho"
+keywords:
+  - phiếu giao hàng
+  - nhập kho
+  - hóa đơn
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

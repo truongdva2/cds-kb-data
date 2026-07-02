@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPLANGUAGEAPI01
 description: Suplrevalrsplanguageapi 01
+semantic_en: "supplier evaluation response language — tracks selected and master languages for evaluation response questionnaires"
+semantic_vi: "ngôn ngữ phản hồi đánh giá cung cấp — theo dõi các ngôn ngữ được chọn và ngôn ngữ chính cho khảo sát phản hồi đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - ngôn ngữ
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

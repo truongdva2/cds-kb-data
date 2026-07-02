@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACCOUNTGROUP
 description: Supplieraccountgroup
+semantic_en: "supplier account group — business partner schema purge organization levels tied to each group"
+semantic_vi: "nhóm tài khoản nhà cung cấp — cấp bậc tổ chức xóa lược đồ đối tác kinh doanh"
+keywords:
+  - nhóm tài khoản
+  - nhà cung cấp
+  - tổ chức
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

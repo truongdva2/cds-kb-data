@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIER_TO_BUSINESSPARTNER
 description: Supplier TO Business Partner
+semantic_en: "supplier to business partner relationship view — links suppliers to business partners with authorization"
+semantic_vi: "dạng xem mối quan hệ nhà cung cấp đến đối tác kinh doanh — liên kết nhà cung cấp với đối tác"
+keywords:
+  - nhà cung cấp
+  - đối tác kinh doanh
+  - ủy quyền
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRCARRCONFEXPECTATIONT
 description: Suplrcarrconfexpectationt
+semantic_en: "domain text descriptions for supplier carrier confirmation expectation — translatable names for carrier confirmation expectation codes"
+semantic_vi: "mô tả văn bản miền cho kỳ vọng xác nhận nhà cung cấp vận chuyển — tên có thể dịch cho mã kỳ vọng xác nhận vận chuyển"
+keywords:
+  - cung cấp
+  - vận chuyển
+  - xác nhận
+  - văn bản
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

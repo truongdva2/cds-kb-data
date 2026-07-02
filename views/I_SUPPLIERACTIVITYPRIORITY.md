@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYPRIORITY
 description: Supplieractivitypriority
+semantic_en: "priority classification codelist for supplier activities — defines priority levels"
+semantic_vi: "danh sách mã phân loại ưu tiên cho hoạt động nhà cung cấp — xác định các cấp độ ưu tiên"
+keywords:
+  - ưu tiên
+  - hoạt động
+  - mã
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

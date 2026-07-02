@@ -1,6 +1,12 @@
 ---
 name: I_STSTCLKEYFIGUREHIERARCHY
 description: Ststclkeyfigurehierarchy
+semantic_en: "Statistical key figure hierarchies — defines tree structures for figure organization with validity periods."
+semantic_vi: "Hệ thống phân cấp chỉ tiêu thống kê — xác định cấu trúc cây để tổ chức chỉ tiêu với kỳ hạn hiệu lực."
+keywords:
+  - phân cấp chỉ tiêu
+  - hệ thống
+  - hiệu lực
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

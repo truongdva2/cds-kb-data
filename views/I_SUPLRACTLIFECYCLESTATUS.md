@@ -1,6 +1,13 @@
 ---
 name: I_SUPLRACTLIFECYCLESTATUS
 description: Suplractlifecyclestatus
+semantic_en: "domain value list for supplier activity lifecycle status codes — enumeration of valid status states for activity workflows"
+semantic_vi: "danh sách giá trị miền cho mã trạng thái vòng đời hoạt động cung cấp — liệt kê các trạng thái hợp lệ cho quy trình làm việc hoạt động"
+keywords:
+  - cung cấp
+  - hoạt động
+  - vòng đời
+  - trạng thái
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

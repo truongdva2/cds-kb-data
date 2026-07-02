@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALUSRDFNDCRITERIATEXT
 description: Suplrevalusrdfndcriteriatext
+semantic_en: "supplier evaluation user-defined criteria text view — multilingual descriptions for custom evaluation criteria"
+semantic_vi: "xem văn bản tiêu chí do người dùng định nghĩa đánh giá nhà cung cấp — mô tả đa ngôn ngữ cho tiêu chí tùy chỉnh"
+keywords:
+  - tiêu chí tùy chỉnh
+  - mô tả
+  - ngôn ngữ
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

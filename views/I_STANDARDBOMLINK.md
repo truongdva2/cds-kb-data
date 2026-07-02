@@ -1,6 +1,12 @@
 ---
 name: I_STANDARDBOMLINK
 description: Standardbomlink
+semantic_en: "standard bill of material links — associates standard objects with BOM variants and categories across plants"
+semantic_vi: "liên kết hóa đơn vật liệu tiêu chuẩn — liên kết các đối tượng tiêu chuẩn với biến thể và danh mục HVL qua các nhà máy"
+keywords:
+  - BOM
+  - vật liệu
+  - nhà máy
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

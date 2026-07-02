@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERINVCSTATUSTXTAPI01
 description: Supplierinvcstatustxtapi 01
+semantic_en: "supplier invoice status translations — language-specific status descriptions for supplier invoices"
+semantic_vi: "bản dịch trạng thái hóa đơn nhà cung cấp — mô tả trạng thái hóa đơn nhà cung cấp theo từng ngôn ngữ"
+keywords:
+  - trạng thái hóa đơn
+  - nhà cung cấp
+  - dịch
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

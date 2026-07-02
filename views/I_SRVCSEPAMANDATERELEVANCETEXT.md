@@ -1,6 +1,12 @@
 ---
 name: I_SRVCSEPAMANDATERELEVANCETEXT
 description: Srvcsepamandaterelevancetext
+semantic_en: "SEPA mandate relevance descriptions — multilingual text explaining SEPA mandate applicability"
+semantic_vi: "mô tả liên quan ủy quyền SEPA — văn bản đa ngôn ngữ giải thích khả năng áp dụng ủy quyền SEPA"
+keywords:
+  - SEPA
+  - mô tả
+  - thanh toán
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

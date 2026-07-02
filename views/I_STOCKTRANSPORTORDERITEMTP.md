@@ -1,6 +1,12 @@
 ---
 name: I_STOCKTRANSPORTORDERITEMTP
 description: Stocktransportorderitemtp
+semantic_en: "Transactional point for stock transport order line items — captures product, quantity, and plant details."
+semantic_vi: "Điểm giao dịch cho dòng mục đơn hàng vận chuyển kho — ghi lại chi tiết sản phẩm, số lượng và nhà máy."
+keywords:
+  - vận chuyển kho
+  - dòng mục
+  - giao dịch
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

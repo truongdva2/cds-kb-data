@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRSCCRDROOTQNAIREAPI01
 description: Suplrsccrdrootqnaireapi 01
+semantic_en: "root questionnaire for supplier evaluation scorecards — manages weighting factors, target scores, and response counts"
+semantic_vi: "bảng câu hỏi gốc cho phiếu đánh giá nhà cung cấp — quản lý hệ số trọng số, điểm mục tiêu và số lần phản hồi"
+keywords:
+  - phiếu đánh giá nhà cung cấp
+  - bảng câu hỏi
+  - điểm số
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

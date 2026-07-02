@@ -1,6 +1,12 @@
 ---
 name: I_SUPLREVALSCCRDPURRRESPAPI01
 description: Suplrevalsccrdpurrrespapi 01
+semantic_en: "supplier evaluation scorecard purchaser responsibility view — assigns purchaser users with business purpose tracking"
+semantic_vi: "xem trách nhiệm nhà mua hàng bảng điểm đánh giá nhà cung cấp — gán người dùng mua với theo dõi mục đích kinh doanh"
+keywords:
+  - bảng điểm đánh giá
+  - nhà mua
+  - trách nhiệm
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

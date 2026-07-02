@@ -1,6 +1,13 @@
 ---
 name: I_SUPCSGNMTPPLINEINVCHISTAPI01
 description: Supcsgnmtpplineinvchistapi 01
+semantic_en: "consignment and pipeline invoice history for supplier deliveries — tracks material document, invoice details, and fiscal year for consignment billing"
+semantic_vi: "lịch sử hóa đơn ký gửi và đường ống cho lô hàng cung cấp — theo dõi chứng chỉ vật liệu, chi tiết hóa đơn, và năm tài chính cho thanh toán ký gửi"
+keywords:
+  - ký gửi
+  - lịch sử hóa đơn
+  - đường ống cung cấp
+  - tài chính
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

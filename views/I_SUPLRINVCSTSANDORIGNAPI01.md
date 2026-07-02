@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCSTSANDORIGNAPI01
 description: Suplrinvcstsandorignapi 01
+semantic_en: "supplier invoice status and origin view — classification of invoice status and source origin"
+semantic_vi: "xem trạng thái và nguồn gốc hóa đơn nhà cung cấp — phân loại trạng thái hóa đơn và nguồn gốc"
+keywords:
+  - trạng thái hóa đơn
+  - nguồn gốc
+  - phân loại
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

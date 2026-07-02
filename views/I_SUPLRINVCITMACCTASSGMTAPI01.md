@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCITMACCTASSGMTAPI01
 description: Suplrinvcitmacctassgmtapi 01
+semantic_en: "supplier invoice account assignment view — cost allocation to cost centers, profit centers, and GL accounts"
+semantic_vi: "xem gán tài khoản mục hóa đơn nhà cung cấp — phân bổ chi phí cho trung tâm chi phí, trung tâm lợi nhuận và tài khoản sổ cái"
+keywords:
+  - gán tài khoản
+  - chi phí
+  - hóa đơn nhà cung cấp
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_STOSUBCONTRACTINGCOMPONENTTP
 description: Stosubcontractingcomponenttp
+semantic_en: "Subcontracting components for stock transport orders — manages external material requirements with planning dates."
+semantic_vi: "Bộ phận gia công cho đơn hàng vận chuyển kho — quản lý nhu cầu vật liệu bên ngoài với ngày lập kế hoạch."
+keywords:
+  - vận chuyển kho
+  - gia công
+  - vật liệu
 app_component: MM-PUR-PO-2CL
 software_component: SAPSCORE
 release_state: released

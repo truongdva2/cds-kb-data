@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCOMPANYBYPLANT
 description: Suppliercompanybyplant
+semantic_en: "supplier-company-plant relationship — links suppliers to plants with valuation area and authorization group"
+semantic_vi: "mối quan hệ nhà cung cấp-công ty-nhà máy — liên kết nhà cung cấp với nhà máy theo vùng định giá"
+keywords:
+  - nhà cung cấp
+  - nhà máy
+  - vùng định giá
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALDELIVCMPLTDCONFIGN
 description: Suplrevaldelivcmpltdconfign
+semantic_en: "domain value list for supplier evaluation delivery completion configuration — enumeration of delivery completion status indicators for evaluation"
+semantic_vi: "danh sách giá trị miền cho cấu hình hoàn thành giao hàng đánh giá cung cấp — liệt kê các chỉ số trạng thái hoàn thành giao hàng cho đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - giao hàng
+  - hoàn thành
 app_component: MM-PUR-ANA-2CL
 software_component: SAPSCORE
 release_state: released

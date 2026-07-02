@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALRSPQNAIREAPI01
 description: Suplrevalrspqnaireapi 01
+semantic_en: "supplier evaluation response questionnaire — tracks questionnaire assignment and scoring within evaluation survey responses"
+semantic_vi: "khảo sát phản hồi đánh giá cung cấp — theo dõi chỉ định khảo sát và chấm điểm trong các phản hồi khảo sát đánh giá"
+keywords:
+  - cung cấp
+  - đánh giá
+  - phản hồi
+  - khảo sát
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

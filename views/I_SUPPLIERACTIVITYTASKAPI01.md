@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYTASKAPI01
 description: Supplieractivitytaskapi 01
+semantic_en: "supplier activity task records — individual tasks within supplier activities with priority and lifecycle status"
+semantic_vi: "hồ sơ tác vụ hoạt động nhà cung cấp — các tác vụ riêng lẻ trong hoạt động nhà cung cấp với ưu tiên"
+keywords:
+  - tác vụ hoạt động
+  - nhà cung cấp
+  - ưu tiên
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRPMTDALTVPAYEE
 description: Suplrpmtdaltvpayee
+semantic_en: "supplier permitted alternative payee view — designates alternative payment recipients by company code"
+semantic_vi: "xem người nhận thanh toán thay thế được phép của nhà cung cấp — chỉ định những người nhận thanh toán thay thế theo mã công ty"
+keywords:
+  - người nhận thay thế
+  - thanh toán
+  - nhà cung cấp
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

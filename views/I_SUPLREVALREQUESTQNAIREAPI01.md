@@ -1,6 +1,13 @@
 ---
 name: I_SUPLREVALREQUESTQNAIREAPI01
 description: Suplrevalrequestqnaireapi 01
+semantic_en: "supplier evaluation request questionnaire — links questionnaires to evaluation requests with weighting, minimal score, target score, and calculated result"
+semantic_vi: "khảo sát yêu cầu đánh giá cung cấp — liên kết khảo sát tới yêu cầu đánh giá với trọng lượng, điểm tối thiểu, điểm mục tiêu, kết quả tính toán"
+keywords:
+  - cung cấp
+  - đánh giá
+  - khảo sát
+  - yêu cầu
 app_component: SLC-EVL
 software_component: SAPSCORE
 release_state: released

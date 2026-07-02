@@ -1,6 +1,12 @@
 ---
 name: I_SUMMARIZEDJITCALLSTDVH
 description: Summarizedjitcallstdvh
+semantic_en: "Standard value help for summarized JIT calls — displays call numbers with supplier and planned delivery dates."
+semantic_vi: "Danh sách giúp chọn giá trị cho các cuộc gọi JIT được tóm tắt — hiển thị số cuộc gọi với nhà cung cấp và ngày giao hàng được lập kế hoạch."
+keywords:
+  - cuộc gọi JIT
+  - danh sách
+  - nhà cung cấp
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

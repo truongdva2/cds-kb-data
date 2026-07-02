@@ -1,6 +1,12 @@
 ---
 name: I_STOCKDETERMINATIONGROUPTEXT
 description: Stockdeterminationgrouptext
+semantic_en: "Multilingual text for stock determination groups — localized descriptions of allocation rules."
+semantic_vi: "Văn bản đa ngôn ngữ cho nhóm xác định kho — mô tả bản địa hóa của quy tắc phân bổ."
+keywords:
+  - xác định kho
+  - mô tả
+  - ngôn ngữ
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

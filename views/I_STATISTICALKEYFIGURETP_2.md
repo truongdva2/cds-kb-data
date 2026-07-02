@@ -1,6 +1,12 @@
 ---
 name: I_STATISTICALKEYFIGURETP_2
 description: Statisticalkeyfiguretp 2
+semantic_en: "Transactional point for statistical key figures — captures figure definitions with creation and modification tracking."
+semantic_vi: "Điểm giao dịch cho chỉ tiêu thống kê — ghi lại định nghĩa chỉ tiêu với theo dõi tạo và sửa đổi."
+keywords:
+  - chỉ tiêu thống kê
+  - giao dịch
+  - lịch sử thay đổi
 app_component: CA-GTF-FXU-FI-CO
 software_component: SAPSCORE
 release_state: released

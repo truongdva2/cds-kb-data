@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDLONGTEXTTP
 description: Srvcordlongtexttp
+semantic_en: "long text storage for service orders — captures extended text content with language, MIME type, and references to related text objects"
+semantic_vi: "lưu trữ văn bản dài cho đơn hàng dịch vụ — lưu giữ nội dung văn bản mở rộng với ngôn ngữ, loại MIME và tham chiếu đến các đối tượng văn bản liên quan"
+keywords:
+  - văn bản dài
+  - dịch vụ
+  - lưu trữ tài liệu
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_SRVCORDPRICEELEMENTTP
 description: Srvcordpriceelementtp
+semantic_en: "pricing elements for service orders — details condition types, rates, quantities and amounts across multiple procedure steps"
+semantic_vi: "yếu tố định giá cho đơn hàng dịch vụ — chi tiết loại điều kiện, tỷ lệ, số lượng và giá trị qua các bước thủ tục"
+keywords:
+  - định giá
+  - điều kiện giá
+  - dịch vụ
 app_component: CRM-S4-SRV-SVO-2CL
 software_component: SAPSCORE
 release_state: released

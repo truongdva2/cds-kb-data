@@ -1,6 +1,12 @@
 ---
 name: I_STATUSPROFILETEXT
 description: Statusprofiletext
+semantic_en: "Multilingual text for status profiles — localized names for status profile collections."
+semantic_vi: "Văn bản đa ngôn ngữ cho hồ sơ trạng thái — tên hồ sơ trạng thái bản địa hóa."
+keywords:
+  - hồ sơ trạng thái
+  - tên
+  - ngôn ngữ
 app_component: CA-GTF-VDM
 software_component: SAPSCORE
 release_state: released

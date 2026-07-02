@@ -1,6 +1,12 @@
 ---
 name: I_SUPLRINVCHEADERWHLDGTAXAPI01
 description: Suplrinvcheaderwhldgtaxapi 01
+semantic_en: "supplier invoice withholding tax view — withholding tax data by type and code with base and actual amounts"
+semantic_vi: "xem thuế khóa hậu hóa đơn nhà cung cấp — dữ liệu thuế khóa hậu theo loại và mã với số tiền cơ sở và thực tế"
+keywords:
+  - thuế khóa hậu
+  - hóa đơn nhà cung cấp
+  - mã thuế
 app_component: MM-IV-LIV-2CL
 software_component: SAPSCORE
 release_state: released

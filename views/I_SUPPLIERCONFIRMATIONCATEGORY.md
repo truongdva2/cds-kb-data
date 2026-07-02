@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERCONFIRMATIONCATEGORY
 description: Supplierconfirmationcategory
+semantic_en: "supplier confirmation category codelist — categories for supplier order confirmations"
+semantic_vi: "danh sách mã danh mục xác nhận nhà cung cấp — các danh mục xác nhận đơn hàng nhà cung cấp"
+keywords:
+  - danh mục xác nhận
+  - nhà cung cấp
+  - mã
 app_component: MM
 software_component: SAPSCORE
 release_state: released

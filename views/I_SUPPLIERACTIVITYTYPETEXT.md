@@ -1,6 +1,12 @@
 ---
 name: I_SUPPLIERACTIVITYTYPETEXT
 description: Supplieractivitytypetext
+semantic_en: "supplier activity type translations — language-specific activity type names and descriptions"
+semantic_vi: "bản dịch loại hoạt động nhà cung cấp — tên và mô tả loại hoạt động theo từng ngôn ngữ"
+keywords:
+  - loại hoạt động
+  - dịch
+  - ngôn ngữ
 app_component: SLC-ACT
 software_component: SAPSCORE
 release_state: released

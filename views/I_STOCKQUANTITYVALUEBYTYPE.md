@@ -1,6 +1,12 @@
 ---
 name: I_STOCKQUANTITYVALUEBYTYPE
 description: Stockquantityvaluebytype
+semantic_en: "Stock value breakdown by inventory type — aggregates quantities and values across special stock classifications."
+semantic_vi: "Chia tách giá trị kho theo loại tồn kho — tổng hợp số lượng và giá trị trên các phân loại kho đặc biệt."
+keywords:
+  - loại kho
+  - giá trị
+  - phân loại
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released
