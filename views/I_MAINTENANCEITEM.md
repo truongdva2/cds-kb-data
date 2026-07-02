@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEITEM
 description: Maintenanceitem
+semantic_en: "maintenance item — aggregates maintenance item, planner group, work center, and task list references."
+semantic_vi: "mục bảo dưỡng — tổng hợp mục bảo dưỡng, nhóm lập kế hoạch, trung tâm công việc, và tham chiếu danh sách."
+keywords:
+  - mục bảo dưỡng
+  - lập kế hoạch
+  - trung tâm công việc
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

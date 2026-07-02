@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCUREMENTTYPETEXT
 description: Matlprocurementtypetext
+semantic_en: "Material procurement type text — multilingual descriptions of material procurement types."
+semantic_vi: "Văn bản loại mua sắm vật liệu — mô tả đa ngôn ngữ về loại mua sắm vật liệu."
+keywords:
+  - mua sắm
+  - loại
+  - văn bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

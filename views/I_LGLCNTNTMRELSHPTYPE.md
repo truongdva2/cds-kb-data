@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMRELSHPTYPE
 description: Lglcntntmrelshptype
+semantic_en: "Relationship type — defines types of relationships between legal transactions."
+semantic_vi: "Loại mối quan hệ — xác định các loại mối quan hệ giữa các giao dịch pháp lý."
+keywords:
+  - loại mối quan hệ
+  - mối liên kết
+  - giao dịch pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCUREMENTEXTERNALTYPE
 description: Matlprocurementexternaltype
+semantic_en: "Material procurement external type — multilingual mapping of procurement types to external procurement method names."
+semantic_vi: "Loại bên ngoài mua sắm vật liệu — ánh xạ đa ngôn ngữ của các loại mua sắm tới tên phương pháp mua sắm bên ngoài."
+keywords:
+  - mua sắm
+  - loại bên ngoài
+  - phương pháp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMLINKDOBJTYPE
 description: Lglcntntmlinkdobjtype
+semantic_en: "Linked object type — classifies types of objects that can be linked to legal transactions."
+semantic_vi: "Loại đối tượng liên kết — phân loại các loại đối tượng có thể được liên kết với giao dịch pháp lý."
+keywords:
+  - loại đối tượng liên kết
+  - đối tượng kinh doanh
+  - liên kết giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

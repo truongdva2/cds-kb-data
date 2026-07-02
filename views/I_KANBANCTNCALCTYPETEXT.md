@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNCALCTYPETEXT
 description: Kanbanctncalctypetext
+semantic_en: "kanban container calculation type text — multilingual names for calculation type classifications"
+semantic_vi: "văn bản loại tính toán thùng chứa Kanban — tên đa ngôn ngữ cho các phân loại loại tính toán"
+keywords:
+  - tên loại tính toán
+  - ngôn ngữ
+  - thùng chứa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

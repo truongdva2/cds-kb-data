@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSCATEGORYAPI01
 description: Lgltranscategoryapi 01
+semantic_en: "Categories of legal transaction — assigns legal transactions to multiple category groups with mandatory flags."
+semantic_vi: "Danh mục giao dịch pháp lý — gán giao dịch pháp lý cho nhiều nhóm danh mục với cờ bắt buộc."
+keywords:
+  - danh mục giao dịch pháp lý
+  - phân loại pháp lý
+  - nhóm danh mục
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

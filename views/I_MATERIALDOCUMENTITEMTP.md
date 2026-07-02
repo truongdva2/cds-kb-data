@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTITEMTP
 description: Materialdocumentitemtp
+semantic_en: "material document item text processing — material movement details with quantities, units, and storage location"
+semantic_vi: "chi tiết mục tài liệu vật tư — dữ liệu chuyển động vật tư với số lượng, đơn vị, kho"
+keywords:
+  - tài liệu vật tư
+  - mục
+  - chuyển động
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

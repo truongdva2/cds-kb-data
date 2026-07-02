@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTAPI01
 description: Legalcontextapi 01
+semantic_en: "Legal context — represents the foundational framework for legal content with version control, validity dates, and governance law specifications."
+semantic_vi: "ngữ cảnh pháp lý — đại diện cho khuôn khổ cơ bản cho nội dung pháp lý với kiểm soát phiên bản, ngày hiệu lực và thông số định luật quản lý."
+keywords:
+  - ngữ cảnh pháp lý
+  - quản lý nội dung pháp lý
+  - phiên bản pháp lý
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

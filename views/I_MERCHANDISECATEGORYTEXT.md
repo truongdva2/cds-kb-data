@@ -1,6 +1,11 @@
 ---
 name: I_MERCHANDISECATEGORYTEXT
 description: Merchandisecategorytext
+semantic_en: "Merchandise category text — multilingual names and descriptions for merchandise categories."
+semantic_vi: "Văn bản danh mục hàng hóa — tên và mô tả đa ngôn ngữ cho danh mục hàng hóa."
+keywords:
+  - danh mục hàng hóa
+  - văn bản
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

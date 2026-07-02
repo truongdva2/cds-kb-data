@@ -1,6 +1,11 @@
 ---
 name: I_MFGBILLOFOPERATIONSOPERATION
 description: Mfgbillofoperationsoperation
+semantic_en: "Manufacturing bill of operations operation — individual operations within production routing sequences."
+semantic_vi: "Hoạt động hóa đơn hoạt động sản xuất — các hoạt động riêng lẻ trong các chuỗi định tuyến sản xuất."
+keywords:
+  - hóa đơn hoạt động
+  - hoạt động sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

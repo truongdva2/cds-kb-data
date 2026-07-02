@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTINTCONTACTTP
 description: Legalcontextintcontacttp
+semantic_en: "Legal context internal contacts — defines internal users and team contacts with roles, types, and mandatory requirements for legal contexts."
+semantic_vi: "liên hệ nội bộ ngữ cảnh pháp lý — định nghĩa các liên hệ người dùng và nhóm nội bộ với vai trò, loại và yêu cầu bắt buộc cho các ngữ cảnh pháp lý."
+keywords:
+  - liên hệ nội bộ
+  - nhân viên pháp lý
+  - quản lý vai trò
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

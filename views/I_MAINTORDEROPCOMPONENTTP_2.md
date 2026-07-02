@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDEROPCOMPONENTTP_2
 description: Maintorderopcomponenttp 2
+semantic_en: "maintenance order operation component projection with reservation and material allocation — key columns: MaintenanceOrder, MaintenanceOrderOperation, Reservation, Product"
+semantic_vi: "hình chiếu bộ phận hoạt động đơn hàng bảo trì với dự trữ và phân bổ vật liệu — cột chính: đơn hàng, hoạt động, dự trữ, sản phẩm"
+keywords:
+  - bộ phận hoạt động bảo trì
+  - dự trữ
+  - sản phẩm
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

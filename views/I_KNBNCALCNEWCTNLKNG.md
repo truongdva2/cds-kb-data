@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCALCNEWCTNLKNG
 description: Knbncalcnewctnlkng
+semantic_en: "kanban calculation new container locking domain — classification for new container locking strategies during kanban calculation"
+semantic_vi: "miền khóa thùng chứa mới tính toán Kanban — phân loại cho các chiến lược khóa thùng chứa mới trong tính toán Kanban"
+keywords:
+  - khóa thùng chứa
+  - chiến lược
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSEXTCONTACTAPI01
 description: Lgltransextcontactapi 01
+semantic_en: "External contacts of legal transaction — lists external business partners associated with legal transactions by rank and type."
+semantic_vi: "Liên hệ bên ngoài của giao dịch pháp lý — liệt kê các đối tác kinh doanh bên ngoài được liên kết với giao dịch pháp lý theo mức độ ưu tiên và loại."
+keywords:
+  - liên hệ bên ngoài
+  - đối tác kinh doanh
+  - giao dịch pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

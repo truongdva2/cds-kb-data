@@ -1,6 +1,11 @@
 ---
 name: I_MATLPROCUREMENTTYPE
 description: Matlprocurementtype
+semantic_en: "Material procurement type — domain values for material procurement method classification."
+semantic_vi: "Loại mua sắm vật liệu — giá trị miền cho phân loại phương pháp mua sắm vật liệu."
+keywords:
+  - mua sắm
+  - loại vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

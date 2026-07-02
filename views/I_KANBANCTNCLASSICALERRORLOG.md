@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNCLASSICALERRORLOG
 description: Kanbanctnclassicalerrorlog
+semantic_en: "kanban container classical error log — system error records for kanban containers with error date, type, and messages"
+semantic_vi: "nhật ký lỗi cổ điển thùng chứa Kanban — bản ghi lỗi hệ thống cho các thùng chứa Kanban với ngày lỗi, loại và tin nhắn"
+keywords:
+  - nhật ký lỗi
+  - thùng chứa Kanban
+  - thông báo lỗi
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

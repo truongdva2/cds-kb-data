@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSRELATIONSHIPTP_2
 description: Legaltransrelationshiptp 2
+semantic_en: "Legal transaction relationships — defines relationships between legal transactions and their reference transactions."
+semantic_vi: "Mối quan hệ giữa các giao dịch pháp lý — xác định mối liên hệ giữa các giao dịch pháp lý và các giao dịch tham chiếu của chúng."
+keywords:
+  - mối quan hệ pháp lý
+  - giao dịch tham chiếu
+  - liên kết giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

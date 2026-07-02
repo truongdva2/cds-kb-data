@@ -1,6 +1,13 @@
 ---
 name: I_MRPGROUPTEXT
 description: Mrpgrouptext
+semantic_en: "MRP group text — multilingual names for MRP groups used in supply planning operations"
+semantic_vi: "văn bản nhóm MRP — tên đa ngôn ngữ cho nhóm MRP được sử dụng trong hoạt động kế hoạch cung ứng"
+keywords:
+  - MRP
+  - nhóm
+  - tên
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

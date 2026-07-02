@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDCHANGEDOCUMENTDEX
 description: Maintordchangedocumentdex
+semantic_en: "maintenance order change document data extraction with field value history — key columns: ChangeDocument, MaintenanceOrder, ChangeDocNewFieldValue, ChangeDocPreviousFieldValue"
+semantic_vi: "trích xuất dữ liệu tài liệu thay đổi đơn hàng bảo trì với lịch sử giá trị trường — cột chính: tài liệu thay đổi, đơn hàng, giá trị mới, giá trị cũ"
+keywords:
+  - tài liệu thay đổi bảo trì
+  - lịch sử thay đổi
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

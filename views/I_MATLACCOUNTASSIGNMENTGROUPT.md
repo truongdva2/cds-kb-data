@@ -1,6 +1,12 @@
 ---
 name: I_MATLACCOUNTASSIGNMENTGROUPT
 description: Matlaccountassignmentgroupt
+semantic_en: "Material account assignment group text — multilingual names for account assignment groups."
+semantic_vi: "Văn bản nhóm gán tài khoản vật liệu — tên đa ngôn ngữ cho các nhóm gán tài khoản."
+keywords:
+  - nhóm gán tài khoản
+  - văn bản
+  - tên
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

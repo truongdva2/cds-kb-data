@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMPROFILEAPI01
 description: Lglcntntmprofileapi 01
+semantic_en: "Profile — defines profile codes used in legal content management."
+semantic_vi: "Hồ sơ — xác định các mã hồ sơ được sử dụng trong quản lý nội dung pháp lý."
+keywords:
+  - hồ sơ pháp lý
+  - mã hồ sơ
+  - cấu hình
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

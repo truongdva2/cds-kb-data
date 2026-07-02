@@ -1,6 +1,12 @@
 ---
 name: I_LOGLRNDNGUOMGRPUOMSTDVH
 description: Loglrndnguomgrpuomstdvh
+semantic_en: "logistical rounding UoM group UoM value help — reference for rounding unit of measure lookup."
+semantic_vi: "trợ giúp giá trị UoM nhóm làm tròn logistic — tham chiếu cho tra cứu đơn vị đo."
+keywords:
+  - làm tròn UoM
+  - đơn vị đo
+  - tra cứu
 app_component: LO-RFM-MD-ART
 software_component: SAPSCORE
 release_state: released

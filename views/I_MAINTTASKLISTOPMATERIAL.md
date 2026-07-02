@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPMATERIAL
 description: Maintenance Task ListOPMATERIAL
+semantic_en: "maintenance task list operation material — bill of material items with quantity and unit for task list operations"
+semantic_vi: "vật tư danh sách tác vụ bảo trì — các mục hóa đơn vật tư với số lượng và đơn vị"
+keywords:
+  - danh sách tác vụ
+  - vật tư
+  - số lượng
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

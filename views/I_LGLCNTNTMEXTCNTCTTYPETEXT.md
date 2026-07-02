@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMEXTCNTCTTYPETEXT
 description: Lglcntntmextcntcttypetext
+semantic_en: "External contact type text — provides multilingual names for external contact types."
+semantic_vi: "Tên loại liên hệ bên ngoài — cung cấp tên đa ngôn ngữ cho các loại liên hệ bên ngoài."
+keywords:
+  - loại liên hệ bên ngoài
+  - dữ liệu đa ngôn ngữ
+  - liên hệ ngoài
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

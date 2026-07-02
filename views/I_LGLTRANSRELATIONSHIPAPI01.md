@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSRELATIONSHIPAPI01
 description: Lgltransrelationshipapi 01
+semantic_en: "Relationships of legal transaction — defines relationships between legal transactions and their counterparty transactions."
+semantic_vi: "Mối quan hệ của giao dịch pháp lý — xác định mối quan hệ giữa các giao dịch pháp lý và các giao dịch đối tác của chúng."
+keywords:
+  - mối quan hệ giao dịch
+  - giao dịch pháp lý
+  - đối tác
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

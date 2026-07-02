@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSDATESAPI01
 description: Lgltransdatesapi 01
+semantic_en: "Dates of legal transaction — tracks important dates for legal transactions with type classification and integration status."
+semantic_vi: "Ngày tháng giao dịch pháp lý — theo dõi các ngày tháng quan trọng cho giao dịch pháp lý với phân loại loại và trạng thái tích hợp."
+keywords:
+  - ngày giao dịch pháp lý
+  - ngày kỳ hạn
+  - theo dõi thời gian
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

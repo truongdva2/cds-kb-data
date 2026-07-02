@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREAPLANT
 description: Mrpareaplant
+semantic_en: "MRP area plant — defines which plant(s) are assigned to a specific MRP planning area"
+semantic_vi: "nhà máy khu vực MRP — định nghĩa nhà máy nào được gán cho khu vực kế hoạch MRP cụ thể"
+keywords:
+  - MRP
+  - khu vực
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

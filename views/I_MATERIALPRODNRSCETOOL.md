@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALPRODNRSCETOOL
 description: Materialprodnrscetool
+semantic_en: "material production resource tool — production resource assignments with tool groups and usage formulas"
+semantic_vi: "công cụ tài nguyên sản xuất vật tư — gán tài nguyên với nhóm công cụ và công thức sử dụng"
+keywords:
+  - tài nguyên sản xuất
+  - công cụ
+  - nhóm
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALSUBSTITUTIONREASONT
 description: Materialsubstitutionreasont
+semantic_en: "Material substitution reason text — multilingual descriptions of material substitution reasons."
+semantic_vi: "Văn bản lý do thay thế vật liệu — mô tả đa ngôn ngữ về các lý do thay thế vật liệu."
+keywords:
+  - lý do thay thế
+  - văn bản
+  - ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

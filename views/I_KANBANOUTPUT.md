@@ -1,6 +1,12 @@
 ---
 name: I_KANBANOUTPUT
 description: Kanbanoutput
+semantic_en: "kanban card — kanban output records with kanban quantity, material, and status bar codes for printing"
+semantic_vi: "thẻ Kanban — bản ghi đầu ra Kanban với số lượng Kanban, vật liệu và mã vạch trạng thái để in ấn"
+keywords:
+  - thẻ Kanban
+  - mã vạch
+  - in ấn
 app_component: PP-KAB-2CL
 software_component: SAPSCORE
 release_state: released

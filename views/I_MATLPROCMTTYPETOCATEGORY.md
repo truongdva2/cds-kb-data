@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCMTTYPETOCATEGORY
 description: Matlprocmttypetocategory
+semantic_en: "Material procurement type to category — mapping between procurement types and procurement categories."
+semantic_vi: "Loại mua sắm vật liệu tới danh mục — ánh xạ giữa các loại mua sắm và danh mục mua sắm."
+keywords:
+  - mua sắm
+  - loại
+  - danh mục
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

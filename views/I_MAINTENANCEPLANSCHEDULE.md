@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANSCHEDULE
 description: Maintenance PlanSCHEDULE
+semantic_en: "scheduled maintenance plan calls — key columns: MaintenancePlan, SchedulingType, SchedulingStatus, MaintenanceCallNextPlannedDate"
+semantic_vi: "các lệnh bảo trì theo lịch cho kế hoạch bảo trì — cột chính: kế hoạch bảo trì, loại lập lịch, trạng thái lập lịch, ngày gọi bảo trì tiếp theo"
+keywords:
+  - lịch bảo trì
+  - lệnh gọi lập lịch
+  - ngày bảo trì
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

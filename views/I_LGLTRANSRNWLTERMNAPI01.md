@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSRNWLTERMNAPI01
 description: Lgltransrnwltermnapi 01
+semantic_en: "Lifecycle of legal transaction — manages renewal cycles, termination clauses and reminder dates for legal transactions."
+semantic_vi: "Vòng đời giao dịch pháp lý — quản lý các chu kỳ gia hạn, điều khoản chấm dứt và ngày nhắc nhở cho giao dịch pháp lý."
+keywords:
+  - vòng đời hợp đồng
+  - gia hạn
+  - chấm dứt hợp đồng
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

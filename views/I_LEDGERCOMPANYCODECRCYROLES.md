@@ -1,6 +1,12 @@
 ---
 name: I_LEDGERCOMPANYCODECRCYROLES
 description: LEDGERCompany CodeCRCYROLES
+semantic_en: "Currency roles for ledger — defines currency role assignments for company codes across ledgers, including local and group currencies."
+semantic_vi: "các vai trò tiền tệ cho sổ cái — định nghĩa phân công vai trò tiền tệ cho mã công ty trên các sổ cái, bao gồm tiền tệ địa phương và nhóm."
+keywords:
+  - vai trò tiền tệ
+  - sổ cái công ty
+  - quản lý tiền tệ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTPLNRGRPSTDVH
 description: Maintplnrgrpstdvh
+semantic_en: "maintenance planner group — value helper containing maintenance planner group assignments by plant"
+semantic_vi: "nhóm nhân viên lập kế hoạch bảo trì — danh sách giá trị cho các nhóm lập kế hoạch theo nhà máy"
+keywords:
+  - nhân viên lập kế hoạch
+  - nhóm bảo trì
+  - nhà máy
 app_component: PM-EQM-EQ-2CL
 software_component: SAPSCORE
 release_state: released

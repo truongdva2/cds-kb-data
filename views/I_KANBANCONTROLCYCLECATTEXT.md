@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTROLCYCLECATTEXT
 description: Kanbancontrolcyclecattext
+semantic_en: "kanban control cycle category text — multilingual names for kanban control cycle categories"
+semantic_vi: "văn bản danh mục chu kỳ điều khiển Kanban — tên đa ngôn ngữ cho các danh mục chu kỳ điều khiển Kanban"
+keywords:
+  - tên danh mục
+  - ngôn ngữ
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

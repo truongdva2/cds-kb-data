@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCTRLCYCLIFECYCSTSTXT
 description: Knbnctrlcyclifecycststxt
+semantic_en: "kanban control cycle lifecycle status text — multilingual names for kanban control cycle lifecycle status types"
+semantic_vi: "văn bản trạng thái vòng đời chu kỳ điều khiển Kanban — tên đa ngôn ngữ cho các loại trạng thái vòng đời chu kỳ điều khiển"
+keywords:
+  - tên trạng thái vòng đời
+  - ngôn ngữ
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMLGLDOCSRCETXTAPI01
 description: Lglcntntmlgldocsrcetxtapi 01
+semantic_en: "Legal document source text — provides multilingual descriptions for legal document source classifications."
+semantic_vi: "Mô tả nguồn tài liệu pháp lý — cung cấp mô tả đa ngôn ngữ cho các phân loại nguồn tài liệu pháp lý."
+keywords:
+  - nguồn tài liệu pháp lý
+  - dữ liệu đa ngôn ngữ
+  - phân loại nguồn
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

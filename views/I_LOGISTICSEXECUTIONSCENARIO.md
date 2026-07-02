@@ -1,6 +1,12 @@
 ---
 name: I_LOGISTICSEXECUTIONSCENARIO
 description: Logisticsexecutionscenario
+semantic_en: "logistics execution scenario — defines valid execution scenarios for logistics operations."
+semantic_vi: "kịch bản thực hiện logistics — xác định kịch bản thực hiện hợp lệ cho hoạt động."
+keywords:
+  - kịch bản logistics
+  - thực hiện
+  - giá trị miền
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

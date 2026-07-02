@@ -1,6 +1,13 @@
 ---
 name: I_MRPPLANNINGPERIOD
 description: Mrpplanningperiod
+semantic_en: "MRP planning period — defines calendar periods and calculation rules for time-based MRP scheduling horizons"
+semantic_vi: "kỳ kế hoạch MRP — xác định các kỳ lịch và quy tắc tính toán cho các chân trời lập lịch MRP dựa trên thời gian"
+keywords:
+  - MRP
+  - kỳ kế hoạch
+  - lịch
+  - kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

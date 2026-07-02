@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSDATETP_2
 description: Legaltransdatetp 2
+semantic_en: "Legal transaction dates — defines transaction date ranges, date types, change reasons, and integration relevance for legal timeline tracking."
+semantic_vi: "ngày giao dịch pháp lý — định nghĩa khoảng ngày giao dịch, loại ngày, lý do thay đổi và liên quan tích hợp cho theo dõi dòng thời gian pháp lý."
+keywords:
+  - ngày giao dịch pháp lý
+  - lịch sử ngày
+  - theo dõi dòng thời gian
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

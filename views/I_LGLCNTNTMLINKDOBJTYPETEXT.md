@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMLINKDOBJTYPETEXT
 description: Lglcntntmlinkdobjtypetext
+semantic_en: "Linked object type text — provides multilingual names for linked object type classifications."
+semantic_vi: "Tên loại đối tượng liên kết — cung cấp tên đa ngôn ngữ cho các phân loại loại đối tượng liên kết."
+keywords:
+  - loại đối tượng liên kết
+  - dữ liệu đa ngôn ngữ
+  - liên kết
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

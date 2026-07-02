@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDOCSTAMPTEXTAPI01
 description: Lglcntntmdocstamptextapi 01
+semantic_en: "Document stamp text — provides multilingual names for document stamp designations."
+semantic_vi: "Tên con dấu tài liệu đa ngôn ngữ — cung cấp tên đa ngôn ngữ cho các ký hiệu con dấu tài liệu."
+keywords:
+  - con dấu tài liệu
+  - dữ liệu đa ngôn ngữ
+  - ký hiệu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPLONGTEXTTP
 description: Maintenance Task ListOPLONGTEXTTP
+semantic_en: "operation long text text processing — language-dependent long text descriptions for maintenance task list operations"
+semantic_vi: "mô tả văn bản dài đa ngôn ngữ cho hoạt động danh sách tác vụ bảo trì"
+keywords:
+  - danh sách tác vụ
+  - mô tả dài
+  - ngôn ngữ
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

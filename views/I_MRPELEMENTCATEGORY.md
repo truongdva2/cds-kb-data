@@ -1,6 +1,12 @@
 ---
 name: I_MRPELEMENTCATEGORY
 description: Mrpelementcategory
+semantic_en: "MRP element category — classification type codes for different categories of MRP planning elements"
+semantic_vi: "danh mục phần tử MRP — mã kiểu phân loại cho các danh mục khác nhau của phần tử kế hoạch MRP"
+keywords:
+  - MRP
+  - phần tử
+  - danh mục
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

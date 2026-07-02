@@ -1,6 +1,12 @@
 ---
 name: I_LOGISTICSORDERSTDVH
 description: Logisticsorderstdvh
+semantic_en: "logistics order value help — provides order ID, description, MRP controller, and order type lookups."
+semantic_vi: "trợ giúp giá trị đơn hàng logistics — cung cấp tra cứu ID, mô tả, điều khiển MRP, loại đơn hàng."
+keywords:
+  - đơn hàng logistics
+  - MRP
+  - loại đơn hàng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTTP
 description: Legalcontexttp
+semantic_en: "Legal contexts transactional proxy — transactional version of legal contexts with integration type, access levels, and governance information for comprehensive context management."
+semantic_vi: "ủy quyền giao dịch ngữ cảnh pháp lý — phiên bản giao dịch của các ngữ cảnh pháp lý với loại tích hợp, mức truy cập và thông tin quản lý cho quản lý bối cảnh toàn diện."
+keywords:
+  - ngữ cảnh pháp lý giao dịch
+  - quản lý truy cập
+  - tích hợp
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEADTIMEREDUCNSTRATEGYTEXT
 description: Leadtimereducnstrategytext
+semantic_en: "Lead time reduction strategy text — stores multilingual descriptions and names for lead time reduction strategies by plant."
+semantic_vi: "văn bản chiến lược giảm thời gian dẫn — lưu trữ mô tả đa ngôn ngữ và tên cho các chiến lược giảm thời gian dẫn theo nhà máy."
+keywords:
+  - chiến lược giảm thời gian dẫn
+  - tối ưu hóa sản xuất
+  - lập kế hoạch nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTTP
 description: Materialdocumenttp
+semantic_en: "material document text processing — material document header data with dates, users, and printing indicators"
+semantic_vi: "dữ liệu tiêu đề tài liệu vật tư — thông tin ghi sổ với ngày, người dùng, mô tả"
+keywords:
+  - tài liệu vật tư
+  - tiêu đề
+  - ngày ghi sổ
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

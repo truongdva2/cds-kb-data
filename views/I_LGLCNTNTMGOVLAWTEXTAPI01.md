@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMGOVLAWTEXTAPI01
 description: Lglcntntmgovlawtextapi 01
+semantic_en: "Governing law text — provides multilingual descriptions for applicable governing laws."
+semantic_vi: "Mô tả luật điều chỉnh — cung cấp mô tả đa ngôn ngữ cho các luật điều chỉnh áp dụng."
+keywords:
+  - luật điều chỉnh
+  - dữ liệu đa ngôn ngữ
+  - quyền tài phán
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

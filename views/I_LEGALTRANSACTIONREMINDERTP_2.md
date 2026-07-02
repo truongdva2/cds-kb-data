@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSACTIONREMINDERTP_2
 description: Legaltransactionremindertp 2
+semantic_en: "Legal transaction reminder transactional proxy — manages reminders for legal transactions with type, frequency, and recipient user tracking."
+semantic_vi: "ủy quyền giao dịch nhắc nhở giao dịch pháp lý — quản lý các lời nhắc nhở cho các giao dịch pháp lý với loại, tần suất và theo dõi người dùng nhận."
+keywords:
+  - nhắc nhở giao dịch pháp lý
+  - lập lịch nhắc nhở
+  - quản lý người dùng
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

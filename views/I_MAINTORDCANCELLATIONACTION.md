@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDCANCELLATIONACTION
 description: Maintordcancellationaction
+semantic_en: "maintenance order cancellation action status selection for do not execute — single key column: MaintOrdCancellationAction"
+semantic_vi: "lựa chọn trạng thái hành động hủy đơn hàng bảo trì cho không thực thi — cột khóa: hành động hủy"
+keywords:
+  - hủy đơn hàng
+  - trạng thái hủy
 app_component: PM-WOC-2CL
 software_component: SAPSCORE
 release_state: released

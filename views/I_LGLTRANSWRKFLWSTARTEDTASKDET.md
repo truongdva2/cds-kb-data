@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSWRKFLWSTARTEDTASKDET
 description: Lgltranswrkflwstartedtaskdet
+semantic_en: "legal transaction workflow task details — tracks task creation timestamp, completion time, current user assignment, and workflow result comment."
+semantic_vi: "chi tiết tác vụ quy trình giao dịch pháp lý — theo dõi thời gian tạo, hoàn thành, người dùng hiện tại, và bình luận kết quả."
+keywords:
+  - chi tiết tác vụ
+  - ngày tạo
+  - người dùng hiện tại
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

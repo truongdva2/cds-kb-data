@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCAGREEMENTTP
 description: Legaldocagreementtp
+semantic_en: "Legal document agreement transactional proxy — tracks agreement versions, statuses, and change history for documents linked to legal agreements."
+semantic_vi: "ủy quyền giao dịch thỏa thuận tài liệu pháp lý — theo dõi phiên bản thỏa thuận, trạng thái và lịch sử thay đổi cho các tài liệu được liên kết với các thỏa thuận pháp lý."
+keywords:
+  - thỏa thuận pháp lý
+  - phiên bản tài liệu
+  - quản lý hợp đồng
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

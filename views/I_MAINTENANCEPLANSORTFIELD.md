@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEPLANSORTFIELD
 description: Maintenance PlanSORTFIELD
+semantic_en: "maintenance plan sort field master data — single key column: MaintenancePlanSortField"
+semantic_vi: "dữ liệu chính trường sắp xếp kế hoạch bảo trì — cột khóa: trường sắp xếp kế hoạch"
+keywords:
+  - sắp xếp kế hoạch
+  - trường sắp xếp bảo trì
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

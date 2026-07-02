@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDOCSTATUSTEXTAPI01
 description: Lglcntntmdocstatustextapi 01
+semantic_en: "Document status text — provides multilingual descriptions for internal document status codes."
+semantic_vi: "Mô tả trạng thái tài liệu — cung cấp mô tả đa ngôn ngữ cho các mã trạng thái tài liệu nội bộ."
+keywords:
+  - trạng thái tài liệu
+  - dữ liệu đa ngôn ngữ
+  - mã trạng thái
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

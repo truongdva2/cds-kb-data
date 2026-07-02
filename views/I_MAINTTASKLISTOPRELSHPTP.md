@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPRELSHPTP
 description: Maintenance Task ListOPRELSHPTP
+semantic_en: "operation relationships text processing — successor relationships and sequencing for maintenance task list operations"
+semantic_vi: "các mối quan hệ giữa hoạt động danh sách tác vụ bảo trì — quan hệ kế tiếp và trình tự"
+keywords:
+  - danh sách tác vụ
+  - quan hệ hoạt động
+  - trình tự
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

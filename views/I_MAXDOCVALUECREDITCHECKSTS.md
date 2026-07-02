@@ -1,6 +1,12 @@
 ---
 name: I_MAXDOCVALUECREDITCHECKSTS
 description: Maxdocvaluecreditchecksts
+semantic_en: "Maximum document value credit check status — domain values for credit limit validation status on sales documents."
+semantic_vi: "Trạng thái kiểm tra tín dụng giá trị tài liệu tối đa — giá trị miền cho trạng thái xác thực giới hạn tín dụng trên tài liệu bán hàng."
+keywords:
+  - kiểm tra tín dụng
+  - giá trị tài liệu
+  - trạng thái
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

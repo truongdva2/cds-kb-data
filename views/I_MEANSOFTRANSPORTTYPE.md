@@ -1,6 +1,12 @@
 ---
 name: I_MEANSOFTRANSPORTTYPE
 description: Meansoftransporttype
+semantic_en: "Packaging material type — classification of handling units or packaging materials for logistics operations."
+semantic_vi: "Loại vật liệu đóng gói — phân loại các đơn vị xử lý hoặc vật liệu đóng gói cho hoạt động logistic."
+keywords:
+  - đóng gói
+  - loại vật liệu
+  - logistic
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

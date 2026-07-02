@@ -1,6 +1,12 @@
 ---
 name: I_MSRGPTLASTMSMTDOCUMENT
 description: Msrgptlastmsmtdocument
+semantic_en: "latest measurement document — projection providing the most recent measurement reading for a measuring point with document reference"
+semantic_vi: "tài liệu đo lường mới nhất — hình chiếu cung cấp bài đọc đo lường gần đây nhất cho một điểm đo lường với tham chiếu tài liệu"
+keywords:
+  - điểm đo lường
+  - tài liệu đo lường
+  - bài đọc
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

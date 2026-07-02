@@ -1,6 +1,12 @@
 ---
 name: I_MRPMASTERDATAISSUESOURCE
 description: Mrpmasterdataissuesource
+semantic_en: "source of an MRP master data issue — domain value codes identifying the source of data quality issues in MRP planning"
+semantic_vi: "nguồn gốc của vấn đề dữ liệu chính MRP — mã giá trị miền xác định nguồn gốc của các vấn đề chất lượng dữ liệu trong kế hoạch MRP"
+keywords:
+  - MRP
+  - vấn đề dữ liệu
+  - nguồn gốc
 app_component: PP-MRP-2CL
 software_component: SAPSCORE
 release_state: released

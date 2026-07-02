@@ -1,6 +1,12 @@
 ---
 name: I_KNBNSTKTRANSFREPLNMTSTRGYTXT
 description: Knbnstktransfreplnmtstrgytxt
+semantic_en: "kanban stock transfer replenishment strategy text — multilingual names for stock transfer replenishment strategies"
+semantic_vi: "văn bản chiến lược bổ sung lại chuyển nhượng hàng tồn kho Kanban — tên đa ngôn ngữ cho các chiến lược bổ sung lại chuyển nhượng hàng tồn kho"
+keywords:
+  - tên chiến lược
+  - ngôn ngữ
+  - chuyển nhượng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

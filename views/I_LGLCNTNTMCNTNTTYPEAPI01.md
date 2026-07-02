@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMCNTNTTYPEAPI01
 description: Lglcntntmcntnttypeapi 01
+semantic_en: "Document content type — defines types of content within legal documents."
+semantic_vi: "Loại nội dung tài liệu — xác định các loại nội dung trong tài liệu pháp lý."
+keywords:
+  - loại nội dung tài liệu
+  - phân loại nội dung
+  - tài liệu pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

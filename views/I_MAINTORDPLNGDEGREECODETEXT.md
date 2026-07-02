@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDPLNGDEGREECODETEXT
 description: Maintordplngdegreecodetext
+semantic_en: "maintenance order planning code text — language-dependent names and descriptions of maintenance order planning codes"
+semantic_vi: "mô tả đa ngôn ngữ cho mã lập kế hoạch lệnh bảo trì"
+keywords:
+  - lệnh bảo trì
+  - mã lập kế hoạch
+  - tên mô tả
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

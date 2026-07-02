@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCETASKLIST
 description: Maintenancetasklist
+semantic_en: "task list group for maintenance operations — key columns: TaskListGroup, MaintenanceStrategy, Plant, ValidityStartDate, ValidityEndDate"
+semantic_vi: "nhóm danh sách tác vụ cho hoạt động bảo trì — cột chính: nhóm danh sách, chiến lược, nhà máy, ngày bắt đầu hiệu lực, ngày kết thúc"
+keywords:
+  - danh sách tác vụ
+  - bảo trì nhà máy
+  - thời hạn danh sách
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

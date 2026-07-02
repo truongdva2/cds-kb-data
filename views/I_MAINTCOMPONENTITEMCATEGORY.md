@@ -1,6 +1,12 @@
 ---
 name: I_MAINTCOMPONENTITEMCATEGORY
 description: Maintcomponentitemcategory
+semantic_en: "maintenance component item category — defines item category rules for material, text, and size attributes."
+semantic_vi: "loại mục thành phần bảo dưỡng — xác định quy tắc loại mục cho vật liệu, văn bản, kích thước."
+keywords:
+  - loại mục bảo dưỡng
+  - vật liệu
+  - khóa kiểm soát
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

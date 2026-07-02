@@ -1,6 +1,12 @@
 ---
 name: I_KR_CUSTVAT
 description: KR Custvat
+semantic_en: "VAT registration by time — customer VAT registration records with validity dates, tax numbers, and responsible contact persons"
+semantic_vi: "đăng ký VAT theo thời gian — bản ghi đăng ký VAT của khách hàng với ngày hiệu lực, số thuế và người liên hệ chịu trách nhiệm"
+keywords:
+  - đăng ký VAT
+  - khách hàng
+  - ngày hiệu lực
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTEXTCONTACTTP
 description: Legalcontextextcontacttp
+semantic_en: "Legal context external contacts — maintains external business partner contacts within legal contexts with ranking and mandatory flags for integration."
+semantic_vi: "liên hệ bên ngoài ngữ cảnh pháp lý — duy trì các liên hệ đối tác kinh doanh bên ngoài trong các ngữ cảnh pháp lý với xếp hạng và cờ bắt buộc cho tích hợp."
+keywords:
+  - liên hệ bên ngoài
+  - liên hệ kinh doanh
+  - quản lý liên hệ
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

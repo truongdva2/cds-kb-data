@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCUREMENTPROFILE
 description: Matlprocurementprofile
+semantic_en: "Material procurement profile — plant-level procurement configuration including category, method, supplying plant, and phantom item flags."
+semantic_vi: "Hồ sơ mua sắm vật liệu — cấu hình mua sắm ở cấp nhà máy bao gồm danh mục, phương pháp, nhà máy cấp, và cờ mục hàng ảo."
+keywords:
+  - hồ sơ mua sắm
+  - nhà máy
+  - cấu hình
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

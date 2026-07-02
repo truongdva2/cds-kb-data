@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALLEDGERCUBE_LIT
 description: Materialledgercube Lit
+semantic_en: "line item for material ledger cube — analytical cube for material ledger line item analysis by company, gl account, fiscal period"
+semantic_vi: "khối phân tích sổ cái vật tư — dữ liệu sổ cái theo công ty, tài khoản, kỳ tài chính"
+keywords:
+  - sổ cái vật tư
+  - khối phân tích
+  - tài khoản
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

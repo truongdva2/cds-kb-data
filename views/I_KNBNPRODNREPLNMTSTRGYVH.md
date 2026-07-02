@@ -1,6 +1,12 @@
 ---
 name: I_KNBNPRODNREPLNMTSTRGYVH
 description: Knbnprodnreplnmtstrgyvh
+semantic_en: "inhouse production replenishment strategy value help — standard value list for in-house production strategy selection by plant"
+semantic_vi: "trợ giúp giá trị chiến lược bổ sung lại sản xuất nội bộ — danh sách giá trị tiêu chuẩn để chọn chiến lược sản xuất nội bộ theo nhà máy"
+keywords:
+  - giá trị trợ giúp
+  - chiến lược bổ sung
+  - sản xuất
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

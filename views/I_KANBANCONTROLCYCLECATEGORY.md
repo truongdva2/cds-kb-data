@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTROLCYCLECATEGORY
 description: Kanbancontrolcyclecategory
+semantic_en: "kanban control cycle category domain codes — classification type values for kanban control cycles"
+semantic_vi: "mã miền danh mục chu kỳ điều khiển Kanban — giá trị phân loại cho các chu kỳ điều khiển Kanban"
+keywords:
+  - danh mục chu kỳ Kanban
+  - phân loại
+  - mã miền
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

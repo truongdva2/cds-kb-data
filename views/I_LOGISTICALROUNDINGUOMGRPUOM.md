@@ -1,6 +1,12 @@
 ---
 name: I_LOGISTICALROUNDINGUOMGRPUOM
 description: Logisticalroundinguomgrpuom
+semantic_en: "logistical rounding UoM group UoM — maps units of measure to logistical rounding groups."
+semantic_vi: "UoM nhóm làm tròn logistic — ánh xạ đơn vị đo lường đến các nhóm làm tròn."
+keywords:
+  - nhóm làm tròn
+  - đơn vị đo
+  - logistic
 app_component: LO-RFM-MD-ART
 software_component: SAPSCORE
 release_state: released

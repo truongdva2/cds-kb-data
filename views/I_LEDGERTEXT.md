@@ -1,6 +1,12 @@
 ---
 name: I_LEDGERTEXT
 description: Ledgertext
+semantic_en: "Ledger text — stores multilingual descriptions and names for individual ledgers."
+semantic_vi: "văn bản sổ cái — lưu trữ mô tả và tên đa ngôn ngữ cho các sổ cái riêng lẻ."
+keywords:
+  - tên sổ cái
+  - mô tả sổ cái
+  - dữ liệu tài chính
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

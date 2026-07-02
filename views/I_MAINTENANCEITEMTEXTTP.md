@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEITEMTEXTTP
 description: Maintenanceitemtexttp
+semantic_en: "maintenance item long text TP — stores long text descriptions for maintenance items in multiple languages."
+semantic_vi: "văn bản dài mục bảo dưỡng TP — lưu trữ mô tả văn bản dài theo ngôn ngữ."
+keywords:
+  - mục bảo dưỡng
+  - văn bản dài
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

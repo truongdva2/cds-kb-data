@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFDETECTIONCODE
 description: Maintnotifdetectioncode
+semantic_en: "maintenance notification detection code master with status flag — key columns: MaintNotifDetectionCode, IsDeactivated"
+semantic_vi: "danh mục mã phát hiện thông báo bảo trì với cờ trạng thái — cột chính: mã phát hiện, đã bị vô hiệu hóa"
+keywords:
+  - mã phát hiện
+  - thông báo bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

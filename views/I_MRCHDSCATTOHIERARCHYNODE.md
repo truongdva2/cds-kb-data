@@ -1,6 +1,13 @@
 ---
 name: I_MRCHDSCATTOHIERARCHYNODE
 description: Mrchdscattohierarchynode
+semantic_en: "merchandise category to hierarchy node assignment — links merchandise categories to their positions in the hierarchy structure"
+semantic_vi: "gán danh mục hàng hóa vào nút hạng mục — liên kết các danh mục hàng hóa đến vị trí của chúng trong cấu trúc phân cấp"
+keywords:
+  - danh mục hàng hóa
+  - phân cấp
+  - gán
+  - cấu trúc
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

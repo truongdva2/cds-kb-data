@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTRELATIONSHIPTP
 description: Legalcontextrelationshiptp
+semantic_en: "Legal context relationships — defines relationship types and legal transaction links within legal contexts with mandatory and integration flags."
+semantic_vi: "mối quan hệ ngữ cảnh pháp lý — định nghĩa các loại quan hệ và liên kết giao dịch pháp lý trong các ngữ cảnh pháp lý với cờ bắt buộc và tích hợp."
+keywords:
+  - mối quan hệ pháp lý
+  - liên kết giao dịch
+  - quản lý quan hệ
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

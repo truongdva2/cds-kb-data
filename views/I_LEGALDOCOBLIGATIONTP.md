@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCOBLIGATIONTP
 description: Legaldocobligationtp
+semantic_en: "Legal document obligations transactional proxy — defines obligations attached to documents with risk assessment, date ranges, and reminder status."
+semantic_vi: "ủy quyền giao dịch nghĩa vụ tài liệu pháp lý — định nghĩa các nghĩa vụ gắn liền với tài liệu với đánh giá rủi ro, khoảng ngày và trạng thái nhắc nhở."
+keywords:
+  - nghĩa vụ tài liệu
+  - quản lý rủi ro
+  - theo dõi pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDERSTATUS
 description: Manufacturingorderstatus
+semantic_en: "manufacturing order status — order status data with profile and user status indicator"
+semantic_vi: "trạng thái lệnh sản xuất — dữ liệu trạng thái lệnh với hồ sơ và chỉ số trạng thái người dùng"
+keywords:
+  - lệnh sản xuất
+  - trạng thái
+  - hồ sơ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

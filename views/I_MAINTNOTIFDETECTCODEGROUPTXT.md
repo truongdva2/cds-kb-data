@@ -1,6 +1,12 @@
 ---
 name: I_MAINTNOTIFDETECTCODEGROUPTXT
 description: Maintnotifdetectcodegrouptxt
+semantic_en: "maintenance notification detection method group description in language — key columns: MaintNotifDetectionCodeGroup, Language, MaintNotifDetectionCodeGrpTxt"
+semantic_vi: "mô tả nhóm phương pháp phát hiện thông báo bảo trì theo ngôn ngữ — cột chính: nhóm mã phát hiện, ngôn ngữ, mô tả nhóm"
+keywords:
+  - phương pháp phát hiện
+  - nhóm mã phát hiện
+  - mô tả
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

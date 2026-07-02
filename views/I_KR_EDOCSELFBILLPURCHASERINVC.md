@@ -1,6 +1,12 @@
 ---
 name: I_KR_EDOCSELFBILLPURCHASERINVC
 description: KR Edocselfbillpurchaserinvc
+semantic_en: "electronic document self billing for purchaser invoice — self-billing invoice records for purchaser including tax information, supplier details, and tax invoice type for Korean operations"
+semantic_vi: "hóa đơn điện tử tự lập cho hóa đơn người mua — bản ghi hóa đơn tự lập cho người mua bao gồm thông tin thuế, chi tiết nhà cung cấp và loại hóa đơn thuế cho hoạt động Hàn Quốc"
+keywords:
+  - hóa đơn tự lập
+  - người mua
+  - hóa đơn điện tử
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

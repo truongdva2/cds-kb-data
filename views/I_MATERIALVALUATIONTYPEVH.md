@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALVALUATIONTYPEVH
 description: Materialvaluationtypevh
+semantic_en: "Inventory valuation type value help — plant-level valuation methods including type and category across valuation areas."
+semantic_vi: "Trợ giúp giá trị loại định giá kho — phương pháp định giá ở cấp nhà máy bao gồm loại và danh mục trong các vùng định giá."
+keywords:
+  - định giá kho
+  - loại định giá
+  - nhà máy
 app_component: CO-PC-ML-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_MRPEXCEPTIONMESSAGETEXT
 description: Mrpexceptionmessagetext
+semantic_en: "MRP exception message text — multilingual names and descriptions for MRP exception alert codes"
+semantic_vi: "văn bản thông báo ngoại lệ MRP — tên và mô tả đa ngôn ngữ cho mã cảnh báo ngoại lệ MRP"
+keywords:
+  - MRP
+  - ngoại lệ
+  - thông báo
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

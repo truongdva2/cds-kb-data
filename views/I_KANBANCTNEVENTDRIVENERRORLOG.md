@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNEVENTDRIVENERRORLOG
 description: Kanbanctneventdrivenerrorlog
+semantic_en: "kanban container event driven error log — event-triggered error records for kanban containers with target status transitions"
+semantic_vi: "nhật ký lỗi do sự kiện điều khiển thùng chứa Kanban — bản ghi lỗi được kích hoạt bởi sự kiện cho các thùng chứa Kanban với chuyển trạng thái đích"
+keywords:
+  - lỗi do sự kiện
+  - thùng chứa
+  - chuyển trạng thái
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

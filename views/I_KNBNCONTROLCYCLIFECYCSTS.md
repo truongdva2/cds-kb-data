@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCONTROLCYCLIFECYCSTS
 description: Knbncontrolcyclifecycsts
+semantic_en: "kanban control cycle lifecycle status domain — classification codes for kanban control cycle lifecycle states"
+semantic_vi: "miền trạng thái vòng đời chu kỳ điều khiển Kanban — mã phân loại cho các trạng thái vòng đời chu kỳ điều khiển Kanban"
+keywords:
+  - trạng thái vòng đời
+  - mã miền
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

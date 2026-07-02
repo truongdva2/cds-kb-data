@@ -1,6 +1,12 @@
 ---
 name: I_KANBANSTATUSTEXT
 description: Kanbanstatustext
+semantic_en: "kanban status text — multilingual names for kanban status classifications"
+semantic_vi: "văn bản trạng thái Kanban — tên đa ngôn ngữ cho các phân loại trạng thái Kanban"
+keywords:
+  - tên trạng thái
+  - ngôn ngữ
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

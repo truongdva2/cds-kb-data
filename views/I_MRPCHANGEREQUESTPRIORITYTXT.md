@@ -1,6 +1,13 @@
 ---
 name: I_MRPCHANGEREQUESTPRIORITYTXT
 description: Mrpchangerequestprioritytxt
+semantic_en: "MRP change request priority text — multilingual labels for MRP supply plan change request priority codes"
+semantic_vi: "văn bản ưu tiên yêu cầu thay đổi MRP — nhãn đa ngôn ngữ cho mã ưu tiên yêu cầu sửa đổi kế hoạch cung ứng MRP"
+keywords:
+  - MRP
+  - yêu cầu thay đổi
+  - ưu tiên
+  - mô tả
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFICATIONPARTNERTP
 description: Maintnotificationpartnertp
+semantic_en: "maintenance notification partner reference in target projection — key columns: MaintenanceNotification, PartnerFunction, Partner, MaintenancePartner"
+semantic_vi: "tham chiếu đối tác thông báo bảo trì trong hình chiếu đích — cột chính: thông báo, chức năng đối tác, đối tác, đối tác bảo trì"
+keywords:
+  - đối tác bảo trì
+  - thông báo bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

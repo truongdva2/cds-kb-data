@@ -1,6 +1,12 @@
 ---
 name: I_MATLQUALITYAUTHGROUPVH
 description: Matlqualityauthgroupvh
+semantic_en: "Material authorization group for quality management value help — QM authorization group selection with descriptions."
+semantic_vi: "Trợ giúp giá trị nhóm ủy quyền vật liệu cho quản lý chất lượng — lựa chọn nhóm ủy quyền QM với mô tả."
+keywords:
+  - chất lượng
+  - ủy quyền
+  - trợ giúp
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

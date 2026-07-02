@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPMATERIALTP
 description: Maintenance Task ListOPMATERIALTP
+semantic_en: "operation materials text processing — maintenance task list operation materials with quantities and MRP relevance"
+semantic_vi: "vật tư hoạt động danh sách tác vụ bảo trì — danh sách vật tư với số lượng và tính liên quan ERP"
+keywords:
+  - vật tư hoạt động
+  - số lượng
+  - quy hoạch vật liệu
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

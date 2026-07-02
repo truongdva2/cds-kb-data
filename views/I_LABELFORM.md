@@ -1,6 +1,12 @@
 ---
 name: I_LABELFORM
 description: Labelform
+semantic_en: "Label form — represents the form classification or template used for label creation and management."
+semantic_vi: "biểu mẫu nhãn — đại diện cho phân loại biểu mẫu hoặc mẫu được sử dụng để tạo và quản lý nhãn."
+keywords:
+  - biểu mẫu nhãn
+  - mẫu nhãn
+  - quản lý nhãn
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

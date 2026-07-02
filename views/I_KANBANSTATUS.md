@@ -1,6 +1,12 @@
 ---
 name: I_KANBANSTATUS
 description: Kanbanstatus
+semantic_en: "kanban status code domain — classification codes for kanban container status values"
+semantic_vi: "mã miền trạng thái Kanban — mã phân loại cho các giá trị trạng thái thùng chứa Kanban"
+keywords:
+  - trạng thái Kanban
+  - mã miền
+  - phân loại
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

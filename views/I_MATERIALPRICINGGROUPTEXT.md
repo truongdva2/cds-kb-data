@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALPRICINGGROUPTEXT
 description: Materialpricinggrouptext
+semantic_en: "material pricing group text — language-dependent names for material pricing groups"
+semantic_vi: "mô tả đa ngôn ngữ cho nhóm định giá vật tư"
+keywords:
+  - vật tư
+  - định giá
+  - tên nhóm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

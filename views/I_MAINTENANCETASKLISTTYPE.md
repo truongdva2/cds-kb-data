@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCETASKLISTTYPE
 description: Maintenancetasklisttype
+semantic_en: "maintenance task list type master data — single key column: TaskListType"
+semantic_vi: "dữ liệu chính loại danh sách tác vụ bảo trì — cột khóa: loại danh sách"
+keywords:
+  - loại danh sách
+  - danh mục loại
+  - danh sách tác vụ
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

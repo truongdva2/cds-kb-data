@@ -1,6 +1,12 @@
 ---
 name: I_MCHIERNODECVRSTRN
 description: Mchiernodecvrstrn
+semantic_en: "Merchandise category hierarchy node characteristic value restriction — restrictions on characteristic values within merchandise hierarchy nodes."
+semantic_vi: "Hạn chế giá trị đặc tính nút phân cấp danh mục hàng hóa — hạn chế về giá trị đặc tính trong các nút phân cấp danh mục hàng hóa."
+keywords:
+  - danh mục hàng hóa
+  - phân cấp
+  - đặc tính
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

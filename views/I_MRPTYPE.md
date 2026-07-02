@@ -1,6 +1,12 @@
 ---
 name: I_MRPTYPE
 description: Mrptype
+semantic_en: "MRP type — classification of MRP planning methods linked to procedure codes for demand planning"
+semantic_vi: "kiểu MRP — phân loại các phương pháp kế hoạch MRP được liên kết với mã thủ tục cho kế hoạch nhu cầu"
+keywords:
+  - MRP
+  - kiểu
+  - phương pháp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

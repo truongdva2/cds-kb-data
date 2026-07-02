@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCPARCATEGORYTP
 description: Legaldocparcategorytp
+semantic_en: "Legal document parent category transactional proxy — manages parent category assignments for document categorization hierarchies."
+semantic_vi: "ủy quyền giao dịch danh mục cha tài liệu pháp lý — quản lý phân công danh mục cha cho các phân cấp phân loại tài liệu."
+keywords:
+  - danh mục cha tài liệu
+  - phân cấp danh mục
+  - tổ chức tài liệu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

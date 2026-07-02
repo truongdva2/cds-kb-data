@@ -1,6 +1,13 @@
 ---
 name: I_MRPSAFETYSTOCKMETHODTEXT
 description: Mrpsafetystockmethodtext
+semantic_en: "MRP safety stock method text — multilingual descriptions of safety stock calculation methods used in MRP"
+semantic_vi: "văn bản phương pháp tồn kho an toàn MRP — mô tả đa ngôn ngữ cho phương pháp tính toán tồn kho an toàn được sử dụng trong MRP"
+keywords:
+  - MRP
+  - tồn kho an toàn
+  - phương pháp
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

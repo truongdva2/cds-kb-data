@@ -1,6 +1,11 @@
 ---
 name: I_LOCATIONTYPE_2
 description: Locationtype 2
+semantic_en: "location types — defines valid location type domain values for location classification."
+semantic_vi: "loại địa điểm — xác định các giá trị miền loại địa điểm hợp lệ."
+keywords:
+  - loại địa điểm
+  - giá trị miền
 app_component: TM-MD-TN-LOC-2CL
 software_component: SAPSCORE
 release_state: released

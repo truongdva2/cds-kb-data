@@ -1,6 +1,12 @@
 ---
 name: I_MRPCHANGEREQUESTREASON
 description: Mrpchangerequestreason
+semantic_en: "MRP change request reason — captures reasons codes for MRP planning modifications submitted through change requests"
+semantic_vi: "lý do yêu cầu thay đổi MRP — ghi lại mã lý do cho các sửa đổi kế hoạch MRP được gửi qua yêu cầu thay đổi"
+keywords:
+  - MRP
+  - yêu cầu thay đổi
+  - lý do
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

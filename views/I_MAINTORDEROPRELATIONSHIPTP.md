@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDEROPRELATIONSHIPTP
 description: Maintorderoprelationshiptp
+semantic_en: "maintenance order operation relationship in target projection with predecessor and successor routing — key columns: MaintenanceOrder, MaintenanceOrderOperation, MaintOrdOperationIsSuccessor, FactoryCalendar"
+semantic_vi: "mối quan hệ hoạt động đơn hàng bảo trì trong hình chiếu đích với lộ trình tiền nhiệm và tiếp nhiệm — cột chính: đơn hàng, hoạt động, có hoạt động tiếp theo, lịch nhà máy"
+keywords:
+  - mối quan hệ hoạt động bảo trì
+  - lộ trình
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

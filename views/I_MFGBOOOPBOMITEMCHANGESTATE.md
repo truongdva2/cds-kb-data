@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOOPBOMITEMCHANGESTATE
 description: Mfgbooopbomitemchangestate
+semantic_en: "Manufacturing bill of operations operation BOM item change state — version tracking for component allocations in production routings."
+semantic_vi: "Trạng thái thay đổi mục BOM hoạt động hóa đơn hoạt động sản xuất — theo dõi phiên bản cho phân bổ thành phần trong định tuyến sản xuất."
+keywords:
+  - BOM
+  - hóa đơn hoạt động
+  - thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

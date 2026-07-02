@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEPLANCATPARAMT
 description: Maintenance PlanCATPARAMT
+semantic_en: "maintenance plan category text — provides language-specific descriptions for maintenance plan categories."
+semantic_vi: "văn bản tham số loại kế hoạch bảo dưỡng — cung cấp mô tả theo ngôn ngữ cho loại kế hoạch."
+keywords:
+  - loại kế hoạch bảo dưỡng
+  - mô tả loại
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

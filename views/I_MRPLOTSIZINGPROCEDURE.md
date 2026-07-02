@@ -1,6 +1,13 @@
 ---
 name: I_MRPLOTSIZINGPROCEDURE
 description: Mrplotsizingprocedure
+semantic_en: "MRP lot sizing procedure — defines lot sizing logic including period type and tolerance rules for order quantity calculation"
+semantic_vi: "thủ tục xác định kích thước lô MRP — xác định logic xác định kích thước lô bao gồm kiểu kỳ và quy tắc công sai cho tính toán số lượng đơn hàng"
+keywords:
+  - MRP
+  - kích thước lô
+  - quy trình
+  - kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MATLPROCUREMENTCATEGORY
 description: Matlprocurementcategory
+semantic_en: "Material procurement category — domain values categorizing procurement methods for materials."
+semantic_vi: "Danh mục mua sắm vật liệu — giá trị miền phân loại phương pháp mua sắm cho vật liệu."
+keywords:
+  - mua sắm
+  - danh mục
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

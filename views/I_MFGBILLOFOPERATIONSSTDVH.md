@@ -1,6 +1,12 @@
 ---
 name: I_MFGBILLOFOPERATIONSSTDVH
 description: Mfgbillofoperationsstdvh
+semantic_en: "Manufacturing bill of operations value help — selection helper for production routing variants with type and group keys."
+semantic_vi: "Trợ giúp giá trị hóa đơn hoạt động sản xuất — trợ giúp lựa chọn cho biến thể định tuyến sản xuất với khóa loại và nhóm."
+keywords:
+  - hóa đơn hoạt động
+  - trợ giúp
+  - định tuyến
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

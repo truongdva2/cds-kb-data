@@ -1,6 +1,12 @@
 ---
 name: I_KNBNSTKTRANSFREPLNMTSTRGY
 description: Knbnstktransfreplnmtstrgy
+semantic_en: "kanban stock transfer replenishment strategy — configuration parameters for kanban-based stock transfer including goods movement type, determination rule, and packing instructions usage"
+semantic_vi: "chiến lược bổ sung lại chuyển nhượng hàng tồn kho Kanban — thông số cấu hình cho chuyển nhượng hàng tồn kho dựa trên Kanban bao gồm loại chuyển động hàng, quy tắc xác định và sử dụng hướng dẫn đóng gói"
+keywords:
+  - chiến lược bổ sung
+  - chuyển nhượng hàng tồn kho
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

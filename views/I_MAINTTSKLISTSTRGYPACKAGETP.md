@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTSKLISTSTRGYPACKAGETP
 description: Mainttskliststrgypackagetp
+semantic_en: "task list strategy package text processing — allocation of maintenance packages to task list operations"
+semantic_vi: "gói chiến lược bảo trì được phân bổ cho hoạt động danh sách tác vụ"
+keywords:
+  - gói bảo trì
+  - chiến lược
+  - danh sách tác vụ
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

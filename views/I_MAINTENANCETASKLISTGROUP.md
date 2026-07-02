@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCETASKLISTGROUP
 description: Maintenancetasklistgroup
+semantic_en: "maintenance task list group master — key column: BillOfOperationsGroup"
+semantic_vi: "danh mục nhóm danh sách tác vụ bảo trì — cột chính: nhóm hoạt động"
+keywords:
+  - nhóm danh sách
+  - danh mục tác vụ
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

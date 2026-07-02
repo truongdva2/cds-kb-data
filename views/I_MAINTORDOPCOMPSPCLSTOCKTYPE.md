@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDOPCOMPSPCLSTOCKTYPE
 description: Maintordopcompspclstocktype
+semantic_en: "maintenance order component special stock type — classification of special stock handling for maintenance order materials"
+semantic_vi: "phân loại xử lý hàng tồn kho đặc biệt cho vật tư lệnh bảo trì"
+keywords:
+  - hàng tồn kho đặc biệt
+  - vật tư bảo trì
+  - phân loại
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KR_ELECTRONICDOCHOMETAXDATA
 description: KR Electronicdochometaxdata
+semantic_en: "Korean home tax electronic document data — captures approval numbers, tax base values, tax amounts, and invoice dates from KR eDocument home tax system."
+semantic_vi: "dữ liệu tài liệu điện tử khai thuế tại nhà của Hàn Quốc — lưu trữ số phê duyệt, giá trị cơ sở thuế, số tiền thuế và ngày hóa đơn từ hệ thống khai thuế tại nhà KR eDocument."
+keywords:
+  - khai thuế điện tử Hàn Quốc
+  - dữ liệu thuế nhà riêng
+  - tài liệu điện tử KR
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

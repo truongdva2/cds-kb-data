@@ -1,6 +1,11 @@
 ---
 name: I_LOADINGGROUPTEXT
 description: Loadinggrouptext
+semantic_en: "loading group text — stores loading group name and language-specific text descriptions."
+semantic_vi: "văn bản nhóm xếp hàng — lưu trữ tên nhóm xếp hàng và mô tả theo ngôn ngữ."
+keywords:
+  - tên nhóm xếp
+  - mô tả đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

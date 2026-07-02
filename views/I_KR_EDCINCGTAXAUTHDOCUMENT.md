@@ -1,6 +1,12 @@
 ---
 name: I_KR_EDCINCGTAXAUTHDOCUMENT
 description: KR Edcincgtaxauthdocument
+semantic_en: "electronic document incoming tax authority data — incoming invoice tax amount records with tax invoice approval number and supplier information for Korean tax authorities"
+semantic_vi: "dữ liệu cơ quan thuế điện tử đến — bản ghi số tiền thuế hóa đơn đến với số phê duyệt hóa đơn và thông tin nhà cung cấp cho cơ quan thuế Hàn Quốc"
+keywords:
+  - hóa đơn điện tử
+  - cơ quan thuế
+  - số tiền thuế
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

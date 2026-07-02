@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSPARENTCATEGORYAPI01
 description: Lgltransparentcategoryapi 01
+semantic_en: "Parent categories of legal transaction — assigns parent categories to legal transaction category groups with ordering."
+semantic_vi: "Danh mục cha của giao dịch pháp lý — gán danh mục cha cho nhóm danh mục giao dịch pháp lý với thứ tự sắp xếp."
+keywords:
+  - danh mục cha
+  - giao dịch pháp lý
+  - phân cấp danh mục
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

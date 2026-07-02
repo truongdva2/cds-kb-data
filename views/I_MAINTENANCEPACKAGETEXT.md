@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEPACKAGETEXT
 description: Maintenancepackagetext
+semantic_en: "maintenance package text — stores package name, hierarchy text, and cycle descriptions in multiple languages."
+semantic_vi: "văn bản gói bảo dưỡng — lưu trữ tên gói, văn bản cấp bậc, mô tả chu kỳ theo ngôn ngữ."
+keywords:
+  - gói bảo dưỡng
+  - mô tả chu kỳ
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

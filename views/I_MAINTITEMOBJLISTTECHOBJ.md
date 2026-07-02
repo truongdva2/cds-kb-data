@@ -1,6 +1,12 @@
 ---
 name: I_MAINTITEMOBJLISTTECHOBJ
 description: Maintitemobjlisttechobj
+semantic_en: "maintenance item object list view with technical object and material detail — key columns: MaintenanceItemObjectList, Equipment, FunctionalLocation, Material, SerialNumber"
+semantic_vi: "xem danh sách đối tượng mục bảo trì với chi tiết đối tượng kỹ thuật và vật liệu — cột chính: danh sách đối tượng, thiết bị, vị trí chức năng, vật liệu, số sê-ri"
+keywords:
+  - danh sách đối tượng bảo trì
+  - thiết bị vật liệu
+  - số sê-ri
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

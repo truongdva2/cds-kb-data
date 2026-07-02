@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDATETYPE
 description: Lglcntntmdatetype
+semantic_en: "Date type — classifies dates in legal content as single dates or periods."
+semantic_vi: "Loại ngày — phân loại các ngày tháng trong nội dung pháp lý là ngày đơn lẻ hoặc khoảng thời gian."
+keywords:
+  - loại ngày tháng
+  - ngày kỳ hạn
+  - khoảng thời gian
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_MRPPLANTCONTROLPARAMETER
 description: Mrpplantcontrolparameter
+semantic_en: "MRP plant control parameters — master configuration settings for material requirements planning at the plant level"
+semantic_vi: "tham số kiểm soát nhà máy MRP — cài đặt cấu hình chính cho kế hoạch nhu cầu vật liệu ở cấp độ nhà máy"
+keywords:
+  - MRP
+  - nhà máy
+  - tham số
+  - cấu hình
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

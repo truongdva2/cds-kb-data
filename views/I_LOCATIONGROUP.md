@@ -1,6 +1,12 @@
 ---
 name: I_LOCATIONGROUP
 description: Locationgroup
+semantic_en: "location group code — groups locations within a plant for operational classification."
+semantic_vi: "mã nhóm địa điểm — nhóm các địa điểm trong nhà máy để phân loại vận hành."
+keywords:
+  - nhóm địa điểm
+  - nhà máy
+  - phân loại
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

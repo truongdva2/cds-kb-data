@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDERPHASECONTROLTP
 description: Maintorderphasecontroltp
+semantic_en: "maintenance order phase control in target projection with process phase and authority code — key columns: MaintenanceOrder, MaintenancePhaseControl, EAMProcessPhaseCode, MaintPhaseControlAuthorityCode"
+semantic_vi: "điều khiển giai đoạn đơn hàng bảo trì trong hình chiếu đích với mã giai đoạn quy trình và thẩm quyền — cột chính: đơn hàng, điều khiển giai đoạn, mã giai đoạn, mã thẩm quyền"
+keywords:
+  - giai đoạn bảo trì
+  - điều khiển giai đoạn
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

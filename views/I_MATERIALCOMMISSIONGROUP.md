@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALCOMMISSIONGROUP
 description: Materialcommissiongroup
+semantic_en: "material commission group — classification code for material commission calculation groups"
+semantic_vi: "nhóm hoa hồng vật tư — mã phân loại cho nhóm tính toán hoa hồng"
+keywords:
+  - vật tư
+  - hoa hồng
+  - nhóm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

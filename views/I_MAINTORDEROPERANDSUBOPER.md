@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDEROPERANDSUBOPER
 description: Maintorderoperandsuboper
+semantic_en: "maintenance order operation and sub-operation master with control details — key columns: MaintenanceOrder, MaintenanceOrderOperation, MaintenanceOrderSubOperation, OperationControlKey"
+semantic_vi: "danh mục hoạt động và hoạt động phụ đơn hàng bảo trì với chi tiết điều khiển — cột chính: đơn hàng, hoạt động, hoạt động phụ, khóa điều khiển"
+keywords:
+  - hoạt động bảo trì
+  - hoạt động phụ
+  - điều khiển
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSPARENTCATTP_2
 description: Legaltransparentcattp 2
+semantic_en: "Legal transaction parent categories — organizes legal transactions into parent category hierarchies with index ordering."
+semantic_vi: "Các danh mục cha của giao dịch pháp lý — sắp xếp giao dịch pháp lý thành các phân cấp danh mục cha với thứ tự chỉ mục."
+keywords:
+  - danh mục cha
+  - phân loại pháp lý
+  - cấu trúc phân cấp
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

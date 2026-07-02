@@ -1,6 +1,13 @@
 ---
 name: I_MRPGROUPCONTROLPARAMETER
 description: Mrpgroupcontrolparameter
+semantic_en: "MRP group control parameter — detailed planning parameters for an MRP group including horizons consumption rules and order types"
+semantic_vi: "tham số kiểm soát nhóm MRP — các tham số kế hoạch chi tiết cho nhóm MRP bao gồm chân trời, quy tắc tiêu thụ và kiểu đơn hàng"
+keywords:
+  - MRP
+  - nhóm
+  - tham số
+  - kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KNBNPRODNREPLNMTSTRGYTXT
 description: Knbnprodnreplnmtstrgytxt
+semantic_en: "kanban inhouse production replenishment strategy text — multilingual names for in-house production replenishment strategies"
+semantic_vi: "văn bản chiến lược bổ sung lại sản xuất nội bộ Kanban — tên đa ngôn ngữ cho các chiến lược bổ sung lại sản xuất nội bộ"
+keywords:
+  - tên chiến lược
+  - ngôn ngữ
+  - sản xuất
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

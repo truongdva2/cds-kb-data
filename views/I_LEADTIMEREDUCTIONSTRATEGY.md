@@ -1,6 +1,12 @@
 ---
 name: I_LEADTIMEREDUCTIONSTRATEGY
 description: Leadtimereductionstrategy
+semantic_en: "Lead time reduction strategy — defines strategy codes and plant-based classifications for reducing production lead times."
+semantic_vi: "chiến lược giảm thời gian dẫn — định nghĩa mã chiến lược và phân loại dựa trên nhà máy để giảm thời gian dẫn sản xuất."
+keywords:
+  - chiến lược sản xuất
+  - quản lý thời gian dẫn
+  - tối ưu hóa nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

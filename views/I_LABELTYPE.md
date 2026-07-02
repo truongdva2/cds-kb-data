@@ -1,6 +1,12 @@
 ---
 name: I_LABELTYPE
 description: Labeltype
+semantic_en: "Label type — defines the classification or category of labels used in procurement processes."
+semantic_vi: "loại nhãn — định nghĩa phân loại hoặc danh mục nhãn được sử dụng trong các quy trình mua hàng."
+keywords:
+  - loại nhãn
+  - phân loại nhãn
+  - nhãn mua hàng
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KNBNINHPRODNCTRLTYPE
 description: Knbninhprodnctrltype
+semantic_en: "kanban inhouse production control type domain — classification for in-house production control strategies in kanban cycles"
+semantic_vi: "miền loại điều khiển sản xuất nội bộ Kanban — phân loại cho các chiến lược điều khiển sản xuất nội bộ trong chu kỳ Kanban"
+keywords:
+  - điều khiển sản xuất
+  - nội bộ
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KR_BUSINESSPLACE
 description: KR Businessplace
+semantic_en: "VAT reporting business place — business location records for VAT reporting including branch, company code, tax number, and address information"
+semantic_vi: "địa điểm kinh doanh báo cáo VAT — bản ghi vị trí kinh doanh cho báo cáo VAT bao gồm chi nhánh, mã công ty, số thuế và thông tin địa chỉ"
+keywords:
+  - báo cáo VAT
+  - địa điểm kinh doanh
+  - số thuế
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

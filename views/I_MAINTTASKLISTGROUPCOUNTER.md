@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTGROUPCOUNTER
 description: Maintenance Task ListGROUPCOUNTER
+semantic_en: "maintenance task list group counter — bill of operations variants with usage metrics for maintenance task lists"
+semantic_vi: "phiên bản danh sách tác vụ bảo trì — số biến thể của danh sách công nghệ với số lần sử dụng"
+keywords:
+  - danh sách tác vụ
+  - công nghệ
+  - biến thể
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

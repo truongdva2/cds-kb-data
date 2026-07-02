@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANCYCLETP
 description: Maintenance PlanCYCLETP
+semantic_en: "maintenance plan cycle offset TP — stores cycle parameters including interval, offset values, and cycle status information."
+semantic_vi: "chu kỳ kế hoạch bảo dưỡng TP — lưu trữ tham số chu kỳ bao gồm khoảng thời gian, giá trị bù, thông tin trạng thái."
+keywords:
+  - chu kỳ bảo dưỡng
+  - khoảng thời gian
+  - bù offset
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

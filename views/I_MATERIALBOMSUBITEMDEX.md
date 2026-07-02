@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALBOMSUBITEMDEX
 description: Materialbomsubitemdex
+semantic_en: "data extraction for bom subitem — bill of material subitem extraction with quantities and installation points"
+semantic_vi: "trích xuất mục hóa đơn vật tư — dữ liệu mục phụ với số lượng và điểm lắp ráp"
+keywords:
+  - hóa đơn vật tư
+  - mục phụ
+  - số lượng
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

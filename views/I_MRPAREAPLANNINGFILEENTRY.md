@@ -1,6 +1,13 @@
 ---
 name: I_MRPAREAPLANNINGFILEENTRY
 description: Mrpareaplanningfileentry
+semantic_en: "MRP area planning file entry — tracks material planning status within an MRP area including consumption dates and planning scenario assignments"
+semantic_vi: "mục nhập tập tin kế hoạch khu vực MRP — theo dõi trạng thái kế hoạch vật liệu trong khu vực MRP bao gồm ngày tiêu thụ và gán kịch bản kế hoạch"
+keywords:
+  - MRP
+  - tập tin kế hoạch
+  - vật liệu
+  - kịch bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

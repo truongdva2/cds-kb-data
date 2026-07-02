@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFDETECTIONCATALOG
 description: Maintnotifdetectioncatalog
+semantic_en: "maintenance notification detection catalog master — single key column: MaintNotifDetectionCatalog"
+semantic_vi: "danh mục chính phát hiện thông báo bảo trì — cột khóa: danh mục phát hiện"
+keywords:
+  - danh mục phát hiện
+  - thông báo bảo trì
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

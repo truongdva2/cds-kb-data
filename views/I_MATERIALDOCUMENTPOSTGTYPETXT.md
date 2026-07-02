@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTPOSTGTYPETXT
 description: Materialdocumentpostgtypetxt
+semantic_en: "material document posting type text — language-dependent descriptions of material document posting types"
+semantic_vi: "mô tả đa ngôn ngữ cho loại ghi sổ tài liệu vật tư"
+keywords:
+  - tài liệu vật tư
+  - loại ghi sổ
+  - mô tả
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

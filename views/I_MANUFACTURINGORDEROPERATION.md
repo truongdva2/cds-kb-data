@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDEROPERATION
 description: Manufacturingorderoperation
+semantic_en: "manufacturing order operation — key operation identifiers with sequences and sub-operation references"
+semantic_vi: "hoạt động lệnh sản xuất — định danh hoạt động với số trình tự và tham chiếu tác vụ con"
+keywords:
+  - lệnh sản xuất
+  - hoạt động
+  - trình tự
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

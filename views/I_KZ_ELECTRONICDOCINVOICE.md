@@ -1,6 +1,12 @@
 ---
 name: I_KZ_ELECTRONICDOCINVOICE
 description: KZ Electronicdocinvoice
+semantic_en: "Kazakhstan electronic invoice — captures registration numbers, VAT dates, turnover dates, and document identification for KZ eInvoices."
+semantic_vi: "hóa đơn điện tử Kazakhstan — lưu trữ số đăng ký, ngày VAT, ngày doanh thu và nhận dạng tài liệu cho hóa đơn điện tử KZ."
+keywords:
+  - hóa đơn điện tử Kazakhstan
+  - khai thuế Kazakhstan
+  - tài liệu điện tử KZ
 app_component: CA-GTF-CSC-EDO-KZ
 software_component: SAPSCORE
 release_state: released

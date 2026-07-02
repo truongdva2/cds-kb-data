@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDERSITUATION
 description: Maintenance OrderSITUATION
+semantic_en: "maintenance order situation — displays order type, priority, activity type, and related maintenance objects."
+semantic_vi: "tình huống đơn hàng bảo dưỡng — hiển thị loại đơn hàng, ưu tiên, loại hoạt động, đối tượng liên quan."
+keywords:
+  - tình huống đơn hàng
+  - loại hoạt động
+  - ưu tiên
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

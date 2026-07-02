@@ -1,6 +1,12 @@
 ---
 name: I_KANBANDELIVERY
 description: Kanbandelivery
+semantic_en: "kanban delivery — shipment records linking kanban containers to sales delivery documents"
+semantic_vi: "giao hàng Kanban — bản ghi vận chuyển liên kết các thùng chứa Kanban với các tài liệu giao hàng bán hàng"
+keywords:
+  - giao hàng
+  - vận chuyển
+  - thùng chứa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

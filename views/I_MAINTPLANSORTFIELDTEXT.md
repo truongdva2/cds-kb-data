@@ -1,6 +1,12 @@
 ---
 name: I_MAINTPLANSORTFIELDTEXT
 description: Maintplansortfieldtext
+semantic_en: "maintenance plan sort field text — language-dependent labels for sort field options in maintenance planning"
+semantic_vi: "mô tả đa ngôn ngữ cho các trường sắp xếp trong lập kế hoạch bảo trì"
+keywords:
+  - lập kế hoạch bảo trì
+  - sắp xếp
+  - trường dữ liệu
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALSTOCK_2
 description: Material Stock 2
+semantic_en: "Material stock calculation — aggregated inventory positions by material, plant, storage location, batch, and stock type."
+semantic_vi: "Tính toán tồn kho vật liệu — hiển thị vị trí tồn kho tập hợp theo vật liệu, nhà máy, vị trí lưu trữ, lô, và loại tồn kho."
+keywords:
+  - tồn kho vật liệu
+  - tính toán tồn kho
+  - vị trí kho
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCOBLGNREMTP
 description: Legaldocoblgnremtp
+semantic_en: "Legal document obligation reminder transactional proxy — tracks reminders for legal obligations with type, date, frequency, and recipient information."
+semantic_vi: "ủy quyền giao dịch nhắc nhở nghĩa vụ tài liệu pháp lý — theo dõi các lời nhắc nhở cho các nghĩa vụ pháp lý với loại, ngày, tần suất và thông tin người nhận."
+keywords:
+  - nhắc nhở nghĩa vụ
+  - lập lịch nhắc nhở
+  - quản lý ngày hạn
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

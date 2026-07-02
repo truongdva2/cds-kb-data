@@ -1,6 +1,13 @@
 ---
 name: I_KANBANCONTROLCYCLE
 description: Kanbancontrolcycle
+semantic_en: "kanban control cycle data — master records with kanban control cycle, product, plant, supplier, and production supply area"
+semantic_vi: "dữ liệu chu kỳ điều khiển Kanban — hồ sơ chính với mã chu kỳ, sản phẩm, nhà máy, nhà cung cấp và khu vực cung cấp sản xuất"
+keywords:
+  - Kanban control cycle
+  - chu kỳ điều khiển Kanban
+  - hàng tồn kho
+  - quản lý chuỗi cung ứng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MRPCONTROLLERVH
 description: Mrpcontrollervh
+semantic_en: "MRP controller value help — searchable list of MRP controllers with names and plant assignments for selection"
+semantic_vi: "trợ giúp giá trị người điều khiển MRP — danh sách có thể tìm kiếm người điều khiển MRP với tên và gán nhà máy"
+keywords:
+  - MRP
+  - người điều khiển
+  - tìm kiếm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

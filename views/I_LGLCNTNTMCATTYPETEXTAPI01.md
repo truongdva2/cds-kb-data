@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMCATTYPETEXTAPI01
 description: Lglcntntmcattypetextapi 01
+semantic_en: "Category type text — multilingual labels for legal content category types."
+semantic_vi: "Nhãn loại danh mục — cung cấp nhãn đa ngôn ngữ cho các loại danh mục nội dung pháp lý."
+keywords:
+  - loại danh mục
+  - phân loại nội dung
+  - dữ liệu đa ngôn ngữ
 app_component: CM-CAT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTNOTIFITEMACTIVITYTP
 description: Maintnotifitemactivitytp
+semantic_en: "maintenance notification item activity in target projection with planning dates and activity codes — key columns: MaintNotificationActivity, MaintenanceNotification, MaintNotifActivityCodeGroup"
+semantic_vi: "hoạt động mục thông báo bảo trì trong hình chiếu đích với ngày lập kế hoạch và mã hoạt động — cột chính: hoạt động thông báo, thông báo, nhóm mã hoạt động"
+keywords:
+  - hoạt động bảo trì
+  - thông báo bảo trì
+  - lịch hoạt động
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MRPLOTSIZINGPROCEDUREVH
 description: Mrplotsizingprocedurevh
+semantic_en: "MRP lot sizing procedure value help — searchable reference for lot sizing procedures with procedure types"
+semantic_vi: "trợ giúp giá trị thủ tục xác định kích thước lô MRP — tham chiếu có thể tìm kiếm cho các thủ tục xác định kích thước lô với kiểu quy trình"
+keywords:
+  - MRP
+  - kích thước lô
+  - tìm kiếm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

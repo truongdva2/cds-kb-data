@@ -1,6 +1,12 @@
 ---
 name: I_MEASURINGPOINT
 description: Measuringpoint
+semantic_en: "Measuring point — master data for equipment measurement locations including category, counter status, and reference relationships."
+semantic_vi: "Điểm đo — dữ liệu chính cho các vị trí đo lường thiết bị bao gồm danh mục, trạng thái bộ đếm, và quan hệ tham chiếu."
+keywords:
+  - điểm đo
+  - thiết bị
+  - đo lường
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

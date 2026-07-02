@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCITEMSERIALNOTP
 description: Materialdocitemserialnotp
+semantic_en: "serial number text processing — serial number assignment to material document items"
+semantic_vi: "gán số seri cho mục tài liệu vật tư — dữ liệu số seri theo năm tài liệu"
+keywords:
+  - số seri
+  - tài liệu vật tư
+  - mục
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

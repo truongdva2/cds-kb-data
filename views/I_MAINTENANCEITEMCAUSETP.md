@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEITEMCAUSETP
 description: Maintenanceitemcausetp
+semantic_en: "maintenance item reason TP — defines maintenance compliance codes, packages, and legal binding status."
+semantic_vi: "lý do mục bảo dưỡng TP — xác định mã tuân thủ, gói, và trạng thái ràng buộc pháp lý."
+keywords:
+  - tuân thủ bảo dưỡng
+  - mã tuân thủ
+  - gói bảo dưỡng
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_KR_ELECTRONICDOCINVOICE
 description: KR Electronicdocinvoice
+semantic_en: "Korean electronic invoice — captures approval numbers, business place information, customer details, tax codes, and tax base values for outgoing eInvoices."
+semantic_vi: "hóa đơn điện tử của Hàn Quốc — lưu trữ số phê duyệt, thông tin địa điểm kinh doanh, chi tiết khách hàng, mã thuế và giá trị cơ sở thuế cho hóa đơn điện tử phát hành."
+keywords:
+  - hóa đơn điện tử xuất phát
+  - khai thuế điện tử KR
+  - tài liệu hóa đơn KR
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

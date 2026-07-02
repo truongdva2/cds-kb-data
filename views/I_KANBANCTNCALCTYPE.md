@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNCALCTYPE
 description: Kanbanctncalctype
+semantic_en: "kanban container calculation type domain — classification codes for container quantity calculation methods"
+semantic_vi: "miền loại tính toán thùng chứa Kanban — mã phân loại cho các phương pháp tính toán số lượng thùng chứa"
+keywords:
+  - loại tính toán
+  - thùng chứa
+  - phương pháp
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

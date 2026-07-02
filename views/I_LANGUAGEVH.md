@@ -1,6 +1,12 @@
 ---
 name: I_LANGUAGEVH
 description: Languagevh
+semantic_en: "Language value help — provides language lookup data including language codes, names, and ISO standards."
+semantic_vi: "trợ giúp giá trị ngôn ngữ — cung cấp dữ liệu tra cứu ngôn ngữ bao gồm mã ngôn ngữ, tên và tiêu chuẩn ISO."
+keywords:
+  - ngôn ngữ tra cứu
+  - mã ISO ngôn ngữ
+  - danh sách ngôn ngữ
 app_component: BC-DOC-TTL
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEITEMREASONTEXTTP
 description: Maintenanceitemreasontexttp
+semantic_en: "maintenance item reason long text TP — provides long text descriptions for maintenance item reasons by language."
+semantic_vi: "văn bản dài lý do mục bảo dưỡng TP — cung cấp mô tả văn bản dài theo ngôn ngữ."
+keywords:
+  - lý do bảo dưỡng
+  - văn bản dài
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSACTIONTP_2
 description: Legaltransactiontp 2
+semantic_en: "Legal transaction transactional proxy — comprehensive transaction record with context, profile, source, health status, and governance law tracking."
+semantic_vi: "ủy quyền giao dịch giao dịch pháp lý — bản ghi giao dịch toàn diện với ngữ cảnh, hồ sơ, nguồn, trạng thái sức khỏe và theo dõi luật quản lý."
+keywords:
+  - giao dịch pháp lý giao dịch
+  - quản lý toàn diện
+  - theo dõi trạng thái
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOMATERIALASSIGNMENT
 description: Mfgboomaterialassignment
+semantic_en: "Material assignment to manufacturing bill of operations — linking materials to specific plant production routings."
+semantic_vi: "Gán vật liệu tới hóa đơn hoạt động sản xuất — liên kết vật liệu tới định tuyến sản xuất ở nhà máy cụ thể."
+keywords:
+  - gán vật liệu
+  - hóa đơn hoạt động
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

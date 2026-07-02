@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDERBASIC
 description: Maintenance OrderBASIC
+semantic_en: "maintenance order — stores order ID, priority type, processing phase, and references to notification, equipment, and plan."
+semantic_vi: "đơn hàng bảo dưỡng — lưu trữ ID đơn hàng, loại ưu tiên, giai đoạn xử lý, tham chiếu thông báo, thiết bị, kế hoạch."
+keywords:
+  - đơn hàng bảo dưỡng
+  - ưu tiên
+  - thông báo
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

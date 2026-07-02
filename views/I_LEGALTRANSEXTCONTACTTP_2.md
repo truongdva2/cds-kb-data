@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSEXTCONTACTTP_2
 description: Legaltransextcontacttp 2
+semantic_en: "Legal transaction external contacts — tracks external business partners and stakeholders by UUID, rank, type and integration status."
+semantic_vi: "Danh sách liên hệ bên ngoài trong giao dịch pháp lý — quản lý các đối tác kinh doanh và bên liên quan theo UUID, mức độ ưu tiên, loại và trạng thái tích hợp."
+keywords:
+  - liên hệ bên ngoài
+  - giao dịch pháp lý
+  - đối tác kinh doanh
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

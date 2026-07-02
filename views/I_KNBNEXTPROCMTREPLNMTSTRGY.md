@@ -1,6 +1,12 @@
 ---
 name: I_KNBNEXTPROCMTREPLNMTSTRGY
 description: Knbnextprocmtreplnmtstrgy
+semantic_en: "kanban external procurement replenishment strategy — configuration parameters for kanban-based external procurement including movement type and locking time"
+semantic_vi: "chiến lược bổ sung lại đấu thầu bên ngoài Kanban — thông số cấu hình cho đấu thầu bên ngoài dựa trên Kanban bao gồm loại chuyển động và thời gian khóa"
+keywords:
+  - chiến lược bổ sung
+  - đấu thầu bên ngoài
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

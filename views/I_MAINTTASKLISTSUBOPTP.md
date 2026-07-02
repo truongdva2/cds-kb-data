@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTSUBOPTP
 description: Maintenance Task ListSUBOPTP
+semantic_en: "sub-operations text processing — sub-operations with work centers and language texts for maintenance task lists"
+semantic_vi: "các tác vụ con danh sách bảo trì — tác vụ phụ với trung tâm công việc và mô tả ngôn ngữ"
+keywords:
+  - tác vụ con
+  - trung tâm công việc
+  - danh sách tác vụ
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

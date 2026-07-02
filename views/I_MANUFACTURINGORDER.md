@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDER
 description: Manufacturingorder
+semantic_en: "manufacturing order — key production order data with status, importance, hierarchy level, and long text indicators"
+semantic_vi: "lệnh sản xuất — dữ liệu chính của lệnh sản xuất với trạng thái, mức độ quan trọng và chỉ số"
+keywords:
+  - lệnh sản xuất
+  - trạng thái đơn hàng
+  - mức độ quan trọng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

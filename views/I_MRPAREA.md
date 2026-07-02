@@ -1,6 +1,13 @@
 ---
 name: I_MRPAREA
 description: Mrparea
+semantic_en: "MRP area — represents a planning area within a plant used for material requirements planning with associated configuration parameters"
+semantic_vi: "khu vực MRP — đại diện cho một khu vực kế hoạch trong nhà máy được sử dụng để lập kế hoạch nhu cầu vật liệu với các tham số cấu hình liên quan"
+keywords:
+  - MRP
+  - khu vực kế hoạch
+  - nhà máy
+  - lập kế hoạch vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDERTECHOBJCUBE
 description: Maintordertechobjcube
+semantic_en: "analytical cube for maintenance order with technical object and equipment reference — key columns: MaintenanceOrder, MaintenanceOrderType, Equipment, FunctionalLocation, Assembly"
+semantic_vi: "khối phân tích đơn hàng bảo trì với tham chiếu đối tượng kỹ thuật và thiết bị — cột chính: đơn hàng, loại đơn hàng, thiết bị, vị trí chức năng, bộ lắp ráp"
+keywords:
+  - đơn hàng bảo trì
+  - đối tượng kỹ thuật
+  - thiết bị
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

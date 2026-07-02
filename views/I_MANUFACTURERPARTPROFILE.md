@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURERPARTPROFILE
 description: Manufacturerpartprofile
+semantic_en: "manufacturer part profile — master data profiles for standardized manufacturer part categorization"
+semantic_vi: "hồ sơ vật tư sản xuất — dữ liệu chính cho phân loại vật tư sản xuất tiêu chuẩn"
+keywords:
+  - vật tư sản xuất
+  - hồ sơ
+  - phân loại
 app_component: MM
 software_component: SAPSCORE
 release_state: released

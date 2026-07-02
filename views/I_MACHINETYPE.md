@@ -1,6 +1,12 @@
 ---
 name: I_MACHINETYPE
 description: Machinetype
+semantic_en: "machine type master — stores machine type code for manufacturing equipment classification."
+semantic_vi: "loại máy chính — lưu trữ mã loại máy cho phân loại thiết bị sản xuất."
+keywords:
+  - loại máy
+  - thiết bị sản xuất
+  - mã máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

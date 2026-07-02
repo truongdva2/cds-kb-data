@@ -1,6 +1,12 @@
 ---
 name: I_KR_ELECTRONICDOCINCGINVOICE
 description: KR Electronicdocincginvoice
+semantic_en: "Korean incoming electronic invoice — records approval numbers, supplier details, tax information, and transfer dates for received eInvoices."
+semantic_vi: "hóa đơn điện tử nhập khẩu của Hàn Quốc — ghi lại số phê duyệt, thông tin nhà cung cấp, dữ liệu thuế và ngày chuyển cho các hóa đơn điện tử nhận được."
+keywords:
+  - hóa đơn điện tử nhập khẩu
+  - khai thuế hóa đơn điện tử
+  - thông tin nhà cung cấp KR
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

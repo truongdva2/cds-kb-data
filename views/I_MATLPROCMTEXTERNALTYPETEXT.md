@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCMTEXTERNALTYPETEXT
 description: Matlprocmtexternaltypetext
+semantic_en: "Material procurement external type text — multilingual names mapping procurement types to external classifications."
+semantic_vi: "Văn bản loại bên ngoài mua sắm vật liệu — tên đa ngôn ngữ ánh xạ các loại mua sắm tới phân loại bên ngoài."
+keywords:
+  - mua sắm
+  - loại
+  - bên ngoài
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

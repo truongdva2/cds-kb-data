@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCTRLCYCLECATEGORYSTDVH
 description: Knbnctrlcyclecategorystdvh
+semantic_en: "kanban control cycle category value help — standard value list for kanban control cycle category selection"
+semantic_vi: "trợ giúp giá trị danh mục chu kỳ điều khiển Kanban — danh sách giá trị tiêu chuẩn để chọn danh mục chu kỳ điều khiển"
+keywords:
+  - giá trị trợ giúp
+  - danh mục
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

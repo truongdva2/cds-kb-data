@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALSTOCKTIMESERIES
 description: Material StockTIMESERIES
+semantic_en: "material stock for periods — time series data for material inventory levels across periods by plant, storage location, and stock type"
+semantic_vi: "chuỗi thời gian hàng tồn kho vật tư — dữ liệu hàng tồn theo kỳ, nhà máy, kho lưu trữ"
+keywords:
+  - hàng tồn kho
+  - vật tư
+  - kỳ thời gian
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

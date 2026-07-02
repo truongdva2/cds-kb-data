@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMENTITYTYPE
 description: Lglcntntmentitytype
+semantic_en: "Entity type — defines types of business entities in legal content management."
+semantic_vi: "Loại thực thể — xác định các loại thực thể kinh doanh trong quản lý nội dung pháp lý."
+keywords:
+  - loại thực thể
+  - thực thể kinh doanh
+  - phân loại
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

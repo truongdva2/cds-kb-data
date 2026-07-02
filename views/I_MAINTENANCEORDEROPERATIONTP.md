@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDEROPERATIONTP
 description: Maintenance OrderOPERATIONTP
+semantic_en: "maint order operation projection TP — displays operation details including routing number, work center, and time tickets."
+semantic_vi: "phép chiếu hoạt động đơn hàng bảo dưỡng TP — hiển thị chi tiết hoạt động bao gồm số định tuyến, trung tâm, phiếu thời gian."
+keywords:
+  - hoạt động đơn hàng
+  - định tuyến
+  - trung tâm công việc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

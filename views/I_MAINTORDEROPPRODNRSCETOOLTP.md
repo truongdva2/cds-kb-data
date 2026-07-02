@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDEROPPRODNRSCETOOLTP
 description: Maintorderopprodnrscetooltp
+semantic_en: "maintenance order operation production resource tool in target projection — key columns: MaintenanceOrder, MaintenanceOrderOperation, ProdnRsceToolItemNumber, ProdnRsceToolCategory"
+semantic_vi: "công cụ tài nguyên sản xuất hoạt động đơn hàng bảo trì trong hình chiếu đích — cột chính: đơn hàng, hoạt động, số mục công cụ, danh mục công cụ"
+keywords:
+  - công cụ tài nguyên bảo trì
+  - hoạt động sản xuất
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

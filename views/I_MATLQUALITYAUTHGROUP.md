@@ -1,6 +1,12 @@
 ---
 name: I_MATLQUALITYAUTHGROUP
 description: Matlqualityauthgroup
+semantic_en: "Material authorization group for quality management — master data defining QM authorization groups for materials."
+semantic_vi: "Nhóm ủy quyền vật liệu cho quản lý chất lượng — dữ liệu chính định nghĩa các nhóm ủy quyền QM cho vật liệu."
+keywords:
+  - ủy quyền
+  - chất lượng
+  - nhóm
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

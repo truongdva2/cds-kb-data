@@ -1,6 +1,13 @@
 ---
 name: I_MRPCHANGEREQUESTREJECTIONTXT
 description: Mrpchangerequestrejectiontxt
+semantic_en: "MRP change request rejection text — multilingual rejection reason descriptions for MRP change requests"
+semantic_vi: "văn bản từ chối yêu cầu thay đổi MRP — mô tả lý do từ chối đa ngôn ngữ cho yêu cầu thay đổi MRP"
+keywords:
+  - MRP
+  - yêu cầu thay đổi
+  - từ chối
+  - mô tả
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

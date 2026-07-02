@@ -1,6 +1,12 @@
 ---
 name: I_MASTERFIXEDASSET
 description: MASTERFixed Asset
+semantic_en: "master fixed asset — fixed asset master data with company code and authorization context"
+semantic_vi: "dữ liệu chính tài sản cố định — thông tin tài sản cố định theo công ty và nhóm phân quyền"
+keywords:
+  - tài sản cố định
+  - công ty
+  - mô tả
 app_component: FI-FIO-AA-ANA-2CL
 software_component: SAPSCORE
 release_state: released

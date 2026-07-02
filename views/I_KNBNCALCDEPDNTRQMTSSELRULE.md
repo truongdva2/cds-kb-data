@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCALCDEPDNTRQMTSSELRULE
 description: Knbncalcdepdntrqmtsselrule
+semantic_en: "dependent requirements selection rule — configuration for selecting dependent requirements in kanban calculation"
+semantic_vi: "quy tắc chọn lựa yêu cầu phụ thuộc — cấu hình để chọn lựa yêu cầu phụ thuộc trong tính toán Kanban"
+keywords:
+  - yêu cầu phụ thuộc
+  - quy tắc chọn lựa
+  - tính toán
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

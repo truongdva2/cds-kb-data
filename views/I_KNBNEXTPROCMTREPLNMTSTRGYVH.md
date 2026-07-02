@@ -1,6 +1,12 @@
 ---
 name: I_KNBNEXTPROCMTREPLNMTSTRGYVH
 description: Knbnextprocmtreplnmtstrgyvh
+semantic_en: "external procurement replenishment strategy value help — standard value list for external procurement strategy selection by plant"
+semantic_vi: "trợ giúp giá trị chiến lược bổ sung lại đấu thầu bên ngoài — danh sách giá trị tiêu chuẩn để chọn chiến lược đấu thầu bên ngoài theo nhà máy"
+keywords:
+  - giá trị trợ giúp
+  - chiến lược bổ sung
+  - đấu thầu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

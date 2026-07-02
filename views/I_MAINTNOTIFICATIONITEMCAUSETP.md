@@ -1,6 +1,12 @@
 ---
 name: I_MAINTNOTIFICATIONITEMCAUSETP
 description: Maintnotificationitemcausetp
+semantic_en: "maintenance notification item cause in target projection with root cause tracking — key columns: MaintenanceNotification, MaintenanceNotificationCause, MaintNotificationRootCause"
+semantic_vi: "nguyên nhân mục thông báo bảo trì trong hình chiếu đích với theo dõi nguyên nhân gốc — cột chính: thông báo, nguyên nhân, nguyên nhân gốc"
+keywords:
+  - nguyên nhân bảo trì
+  - thông báo bảo trì
+  - nguyên nhân gốc
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMGMTWRKFLWLGLTRANS
 description: Lglcntntmgmtwrkflwlgltrans
+semantic_en: "Legal transaction workflow — leading object for managing legal tasks and workflows with governance and profile assignment."
+semantic_vi: "Quy trình công việc giao dịch pháp lý — đối tượng dẫn đầu để quản lý các tác vụ và quy trình công việc pháp lý với gán quản lý và hồ sơ."
+keywords:
+  - quy trình công việc pháp lý
+  - tác vụ pháp lý
+  - quản lý hồ sơ
 app_component: CM-TSK-2CL
 software_component: SAPSCORE
 release_state: released

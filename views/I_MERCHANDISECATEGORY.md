@@ -1,6 +1,12 @@
 ---
 name: I_MERCHANDISECATEGORY
 description: Merchandisecategory
+semantic_en: "Merchandise category — master data classifying materials with authorization, pricing, and valuation properties."
+semantic_vi: "Danh mục hàng hóa — dữ liệu chính phân loại vật liệu với các thuộc tính ủy quyền, định giá, và định giá."
+keywords:
+  - danh mục hàng hóa
+  - vật liệu
+  - phân loại
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MSMTDOCUMENTLONGTEXTTP
 description: Msmtdocumentlongtexttp
+semantic_en: "measurement document long text TP — stores extended text descriptions for measurement documents in plant maintenance"
+semantic_vi: "văn bản dài tài liệu đo lường TP — lưu trữ mô tả văn bản mở rộng cho tài liệu đo lường trong bảo trì nhà máy"
+keywords:
+  - tài liệu đo lường
+  - bảo trì
+  - văn bản dài
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

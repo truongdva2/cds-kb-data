@@ -1,6 +1,12 @@
 ---
 name: I_MAINTOPERATIONSYSTCONDITIONT
 description: Maintoperationsystconditiont
+semantic_en: "maintenance operation system condition description in language — key columns: OperationSystemCondition, Language, OperationSystemConditionText"
+semantic_vi: "mô tả điều kiện hệ thống hoạt động bảo trì theo ngôn ngữ — cột chính: điều kiện, ngôn ngữ, mô tả"
+keywords:
+  - điều kiện hoạt động
+  - mô tả
+  - ngôn ngữ
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

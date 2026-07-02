@@ -1,6 +1,12 @@
 ---
 name: I_MRPSAFETYSTOCKMETHOD
 description: Mrpsafetystockmethod
+semantic_en: "MRP safety stock method — domain value codes defining calculation methods for safety stock in planning"
+semantic_vi: "phương pháp tồn kho an toàn MRP — mã giá trị miền xác định phương pháp tính toán tồn kho an toàn trong kế hoạch"
+keywords:
+  - MRP
+  - tồn kho an toàn
+  - phương pháp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

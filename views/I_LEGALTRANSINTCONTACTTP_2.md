@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSINTCONTACTTP_2
 description: Legaltransintcontacttp 2
+semantic_en: "Legal transaction internal contacts — captures internal users and teams assigned to legal transactions with contact type and team associations."
+semantic_vi: "Danh sách liên hệ nội bộ trong giao dịch pháp lý — lưu trữ người dùng và nhóm nội bộ được gán cho giao dịch pháp lý với loại liên hệ và kết hợp nhóm."
+keywords:
+  - liên hệ nội bộ
+  - người dùng nội bộ
+  - nhóm làm việc pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

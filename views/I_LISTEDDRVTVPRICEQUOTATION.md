@@ -1,6 +1,12 @@
 ---
 name: I_LISTEDDRVTVPRICEQUOTATION
 description: Listeddrvtvpricequotation
+semantic_en: "listed derivatives price quotation — holds derivative contract specification, market data, price quote timestamp, and maturity key date information."
+semantic_vi: "báo giá giá chứng chỉ phái sinh niêm yết — lưu trữ thông số hợp đồng, dữ liệu thị trường, thời gian báo giá, và ngày khoá hạn."
+keywords:
+  - báo giá phái sinh
+  - giá thị trường
+  - hạn đáo hạn
 app_component: CA-GTF-TRB
 software_component: SAPSCORE
 release_state: released

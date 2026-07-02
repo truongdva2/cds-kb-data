@@ -1,6 +1,12 @@
 ---
 name: I_MATLBILLOFMATERIALITEMDEX
 description: MATLBill of MaterialITEMDEX
+semantic_en: "Bill of material item extraction — current BOM items with validity dates, engineering change links, and node hierarchy."
+semantic_vi: "Trích xuất mục hóa đơn vật liệu — các mục BOM hiện tại với ngày có hiệu lực, liên kết thay đổi kỹ thuật, và phân cấp nút."
+keywords:
+  - BOM
+  - mục hóa đơn
+  - trích xuất
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

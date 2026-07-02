@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDEROPPHASECONTROL
 description: Maintorderopphasecontrol
+semantic_en: "maintenance order operation phase control with status and authority assignment — key columns: MaintenanceOrder, MaintenancePhaseControl, StatusObject, EAMProcessPhaseCode"
+semantic_vi: "điều khiển giai đoạn hoạt động đơn hàng bảo trì với gán trạng thái và thẩm quyền — cột chính: đơn hàng, điều khiển giai đoạn, đối tượng trạng thái, mã giai đoạn quy trình"
+keywords:
+  - giai đoạn điều khiển bảo trì
+  - trạng thái hoạt động
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MSRGPOINTPRODNRSCETOOL
 description: Msrgpointprodnrscetool
+semantic_en: "measuring point production resource tool — links measuring points to production resources and tools with usage configuration"
+semantic_vi: "công cụ tài nguyên sản xuất điểm đo lường — liên kết các điểm đo lường với tài nguyên sản xuất và công cụ cùng với cấu hình sử dụng"
+keywords:
+  - điểm đo lường
+  - tài nguyên sản xuất
+  - công cụ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

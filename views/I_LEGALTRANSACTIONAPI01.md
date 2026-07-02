@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSACTIONAPI01
 description: Legaltransactionapi 01
+semantic_en: "Legal transaction — records transaction instances with context reference, health status, source tracking, aging metrics, and retention period start dates."
+semantic_vi: "giao dịch pháp lý — ghi lại các trường hợp giao dịch với tham chiếu ngữ cảnh, trạng thái sức khỏe, theo dõi nguồn, số liệu lão hóa và ngày bắt đầu thời gian lưu giữ."
+keywords:
+  - giao dịch pháp lý
+  - quản lý giao dịch
+  - theo dõi sức khỏe
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

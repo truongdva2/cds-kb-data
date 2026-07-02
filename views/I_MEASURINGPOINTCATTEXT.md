@@ -1,6 +1,11 @@
 ---
 name: I_MEASURINGPOINTCATTEXT
 description: Measuringpointcattext
+semantic_en: "Measuring point category text — multilingual descriptions for measuring point categories."
+semantic_vi: "Văn bản danh mục điểm đo — mô tả đa ngôn ngữ cho danh mục điểm đo."
+keywords:
+  - danh mục điểm đo
+  - mô tả
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

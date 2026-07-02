@@ -1,6 +1,12 @@
 ---
 name: I_KNBNEXTPROCMTREPLNMTSTRGYTXT
 description: Knbnextprocmtreplnmtstrgytxt
+semantic_en: "kanban external procurement replenishment strategy text — multilingual names for external procurement replenishment strategies"
+semantic_vi: "văn bản chiến lược bổ sung lại đấu thầu bên ngoài Kanban — tên đa ngôn ngữ cho các chiến lược bổ sung lại đấu thầu bên ngoài"
+keywords:
+  - tên chiến lược
+  - ngôn ngữ
+  - đấu thầu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

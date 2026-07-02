@@ -1,6 +1,12 @@
 ---
 name: I_MAXDOCVALUECREDITCHECKSTST
 description: Maxdocvaluecreditcheckstst
+semantic_en: "Maximum document value credit check status text — multilingual descriptions of credit check status values."
+semantic_vi: "Văn bản trạng thái kiểm tra tín dụng giá trị tài liệu tối đa — mô tả đa ngôn ngữ về giá trị trạng thái kiểm tra tín dụng."
+keywords:
+  - kiểm tra tín dụng
+  - trạng thái
+  - mô tả
 app_component: SD-BF-CM-2CL
 software_component: SAPSCORE
 release_state: released

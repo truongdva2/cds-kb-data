@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDCONFLONGTEXTTP
 description: Maintordconflongtexttp
+semantic_en: "maintenance order confirmation long text in target projection — key columns: MaintOrderConf, MaintOrderConfCntrValue, Language, MaintOrderConfLongText"
+semantic_vi: "văn bản dài xác nhận đơn hàng bảo trì trong hình chiếu đích — cột chính: xác nhận đơn hàng, giá trị bộ đếm, ngôn ngữ, văn bản dài"
+keywords:
+  - xác nhận đơn hàng
+  - văn bản dài
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

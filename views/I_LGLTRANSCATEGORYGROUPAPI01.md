@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSCATEGORYGROUPAPI01
 description: Lgltranscategorygroupapi 01
+semantic_en: "Category groups of legal transaction — organizes multiple category groups within legal transactions with index ordering."
+semantic_vi: "Nhóm danh mục giao dịch pháp lý — tổ chức nhiều nhóm danh mục trong giao dịch pháp lý với thứ tự chỉ mục."
+keywords:
+  - nhóm danh mục
+  - giao dịch pháp lý
+  - tổ chức danh mục
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

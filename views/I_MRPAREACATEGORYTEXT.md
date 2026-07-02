@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREACATEGORYTEXT
 description: Mrpareacategorytext
+semantic_en: "MRP area category text — multilingual descriptions of MRP area category codes and their domain values"
+semantic_vi: "văn bản danh mục khu vực MRP — mô tả đa ngôn ngữ cho các mã danh mục khu vực MRP và giá trị miền của chúng"
+keywords:
+  - MRP
+  - danh mục khu vực
+  - mô tả đa ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

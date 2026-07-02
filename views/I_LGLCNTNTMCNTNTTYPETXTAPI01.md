@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMCNTNTTYPETXTAPI01
 description: Lglcntntmcntnttypetxtapi 01
+semantic_en: "Document content type text — provides multilingual names for document content types."
+semantic_vi: "Tên loại nội dung tài liệu — cung cấp tên đa ngôn ngữ cho các loại nội dung tài liệu."
+keywords:
+  - tên nội dung tài liệu
+  - dữ liệu đa ngôn ngữ
+  - phân loại nội dung
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

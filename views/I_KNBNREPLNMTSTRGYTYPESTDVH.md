@@ -1,6 +1,12 @@
 ---
 name: I_KNBNREPLNMTSTRGYTYPESTDVH
 description: Knbnreplnmtstrgytypestdvh
+semantic_en: "kanban replenishment strategy type value help — standard value list for kanban replenishment strategy type selection"
+semantic_vi: "trợ giúp giá trị loại chiến lược bổ sung lại Kanban — danh sách giá trị tiêu chuẩn để chọn loại chiến lược bổ sung lại Kanban"
+keywords:
+  - giá trị trợ giúp
+  - loại chiến lược
+  - bổ sung
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

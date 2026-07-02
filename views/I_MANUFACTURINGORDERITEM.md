@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDERITEM
 description: Manufacturingorderitem
+semantic_en: "manufacturing order item — order line items with material, plant, and mrp control assignments"
+semantic_vi: "mục lệnh sản xuất — dòng lệnh với vật tư, nhà máy và gán lệnh MRP"
+keywords:
+  - lệnh sản xuất
+  - mục đơn hàng
+  - vật tư
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

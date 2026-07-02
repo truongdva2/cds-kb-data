@@ -1,6 +1,12 @@
 ---
 name: I_MRPTYPETEXT
 description: Mrptypetext
+semantic_en: "MRP type text — multilingual names for different MRP planning types and calculation approaches"
+semantic_vi: "văn bản kiểu MRP — tên đa ngôn ngữ cho các kiểu kế hoạch MRP khác nhau và cách tiếp cận tính toán"
+keywords:
+  - MRP
+  - kiểu
+  - tên
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

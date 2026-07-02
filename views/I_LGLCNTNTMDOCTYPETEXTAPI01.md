@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDOCTYPETEXTAPI01
 description: Lglcntntmdoctypetextapi 01
+semantic_en: "Legal document type text — multilingual names for legal document type classifications."
+semantic_vi: "Tên loại tài liệu pháp lý — cung cấp tên đa ngôn ngữ cho các phân loại loại tài liệu pháp lý."
+keywords:
+  - loại tài liệu pháp lý
+  - dữ liệu đa ngôn ngữ
+  - phân loại tài liệu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTNOTIFICATIONITEMTP_2
 description: Maintnotificationitemtp 2
+semantic_en: "maintenance notification item in target projection with damage and object part codes — key columns: MaintenanceNotification, MaintenanceNotificationItem, MaintNotificationDamageCode"
+semantic_vi: "mục thông báo bảo trì trong hình chiếu đích với mã hư hỏng và mã bộ phận đối tượng — cột chính: thông báo, mục, mã hư hỏng"
+keywords:
+  - thông báo bảo trì
+  - mã hư hỏng
+  - mục thông báo
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

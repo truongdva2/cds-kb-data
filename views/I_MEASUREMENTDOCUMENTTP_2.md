@@ -1,6 +1,12 @@
 ---
 name: I_MEASUREMENTDOCUMENTTP_2
 description: Measurementdocumenttp 2
+semantic_en: "Measurement document for technical processing — recorded measurements from measuring points with reading data and measurement times."
+semantic_vi: "Tài liệu đo lường cho xử lý kỹ thuật — các phép đo được ghi lại từ các điểm đo với dữ liệu đọc và thời gian đo."
+keywords:
+  - tài liệu đo lường
+  - điểm đo
+  - đọc số
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

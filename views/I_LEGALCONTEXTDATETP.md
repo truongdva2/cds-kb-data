@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTDATETP
 description: Legalcontextdatetp
+semantic_en: "Legal context dates — defines date requirements and mandatory flags for legal contexts with integration relevance indicators."
+semantic_vi: "ngày ngữ cảnh pháp lý — định nghĩa yêu cầu ngày và cờ bắt buộc cho các ngữ cảnh pháp lý với chỉ báo liên quan tích hợp."
+keywords:
+  - ngày pháp lý
+  - yêu cầu ngày
+  - quản lý ngày
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

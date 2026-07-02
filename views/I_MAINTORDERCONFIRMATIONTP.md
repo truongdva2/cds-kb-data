@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDERCONFIRMATIONTP
 description: Maintorderconfirmationtp
+semantic_en: "maintenance order confirmation in target projection with actual work timing and quantity — key columns: MaintOrderConf, MaintenanceOrder, ActualWorkQuantity, OperationConfirmedStartDate"
+semantic_vi: "xác nhận đơn hàng bảo trì trong hình chiếu đích với thời gian hoạt động và số lượng công việc — cột chính: xác nhận, đơn hàng, số lượng công việc, ngày bắt đầu xác nhận"
+keywords:
+  - xác nhận đơn hàng
+  - hoạt động bảo trì
+  - số lượng công việc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

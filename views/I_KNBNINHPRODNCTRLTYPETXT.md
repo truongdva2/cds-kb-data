@@ -1,6 +1,12 @@
 ---
 name: I_KNBNINHPRODNCTRLTYPETXT
 description: Knbninhprodnctrltypetxt
+semantic_en: "kanban inhouse production control type text — multilingual names for in-house production control type classifications"
+semantic_vi: "văn bản loại điều khiển sản xuất nội bộ Kanban — tên đa ngôn ngữ cho các phân loại loại điều khiển sản xuất nội bộ"
+keywords:
+  - tên loại điều khiển
+  - ngôn ngữ
+  - sản xuất nội bộ
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATLBILLOFMATERIALCHANGEHIST
 description: MATLBill of MaterialCHANGEHIST
+semantic_en: "Bill of material change document retrieval — historical change records for BOM structures including change type and node tracking."
+semantic_vi: "Truy xuất tài liệu thay đổi hóa đơn vật liệu — bản ghi thay đổi lịch sử cho cấu trúc BOM bao gồc loại thay đổi và theo dõi nút."
+keywords:
+  - hóa đơn vật liệu
+  - BOM
+  - thay đổi lịch sử
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

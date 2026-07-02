@@ -1,6 +1,11 @@
 ---
 name: I_LOCATIONGROUPTEXT
 description: Locationgrouptext
+semantic_en: "location group text — provides language-dependent location group name and description."
+semantic_vi: "văn bản nhóm địa điểm — cung cấp tên và mô tả nhóm theo ngôn ngữ."
+keywords:
+  - tên nhóm địa
+  - mô tả đa ngôn ngữ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

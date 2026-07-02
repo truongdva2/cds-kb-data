@@ -1,6 +1,12 @@
 ---
 name: I_MAINTAINEDORDTYPEPERSLSORG
 description: Maintainedordtypeperslsorg
+semantic_en: "maintained order types per sales org — maps sales organization, channel, division to sales document types."
+semantic_vi: "loại đơn hàng được duy trì theo tổ chức bán hàng — ánh xạ tổ chức, kênh, bộ phận đến loại tài liệu."
+keywords:
+  - loại tài liệu bán hàng
+  - tổ chức bán
+  - kênh phân phối
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDEROPERATION_DEX
 description: Maintorderoperation (Data Extraction)
+semantic_en: "maintenance order operation data extraction with functional location and planning context — key columns: MaintenanceOrder, FunctionalLocation, Equipment, MaintenanceActivityType"
+semantic_vi: "trích xuất dữ liệu hoạt động đơn hàng bảo trì với vị trí chức năng và bối cảnh lập kế hoạch — cột chính: đơn hàng, vị trí chức năng, thiết bị, loại hoạt động"
+keywords:
+  - hoạt động bảo trì
+  - vị trí chức năng
+  - lập kế hoạch
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

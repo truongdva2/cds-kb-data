@@ -1,6 +1,12 @@
 ---
 name: I_LANGUAGETEXT
 description: Languagetext
+semantic_en: "Language text — stores language-specific textual descriptions and names for language codes."
+semantic_vi: "văn bản ngôn ngữ — lưu trữ mô tả văn bản và tên cụ thể cho từng ngôn ngữ tương ứng với mã ngôn ngữ."
+keywords:
+  - mô tả ngôn ngữ
+  - tên ngôn ngữ
+  - dữ liệu đa ngôn ngữ
 app_component: BC-DOC-TTL
 software_component: SAP_BASIS
 release_state: released

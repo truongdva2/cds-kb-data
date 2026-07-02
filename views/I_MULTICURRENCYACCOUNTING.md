@@ -1,6 +1,12 @@
 ---
 name: I_MULTICURRENCYACCOUNTING
 description: Multicurrencyaccounting
+semantic_en: "multiple currency accounting — codes representing accounting treatment for transactions in multiple currencies"
+semantic_vi: "kế toán đa tiền tệ — mã đại diện cho xử lý kế toán các giao dịch ở nhiều tiền tệ"
+keywords:
+  - tiền tệ
+  - kế toán
+  - đa tiền tệ
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

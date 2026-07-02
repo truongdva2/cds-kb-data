@@ -1,6 +1,12 @@
 ---
 name: I_LOCATION
 description: Location
+semantic_en: "location master — stores location code, associated plant, address ID, and location name."
+semantic_vi: "địa điểm chính — lưu trữ mã địa điểm, nhà máy, ID địa chỉ, và tên địa điểm."
+keywords:
+  - địa điểm
+  - nhà máy
+  - địa chỉ
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

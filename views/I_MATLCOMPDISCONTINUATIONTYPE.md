@@ -1,6 +1,12 @@
 ---
 name: I_MATLCOMPDISCONTINUATIONTYPE
 description: Matlcompdiscontinuationtype
+semantic_en: "Material discontinuation type — domain values categorizing how materials are discontinued in manufacturing."
+semantic_vi: "Loại ngừng sản xuất vật liệu — giá trị miền để phân loại cách ngừng sản xuất vật liệu."
+keywords:
+  - ngừng sản xuất
+  - loại vật liệu
+  - sản xuất
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

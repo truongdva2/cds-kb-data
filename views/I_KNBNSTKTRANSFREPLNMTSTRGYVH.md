@@ -1,6 +1,12 @@
 ---
 name: I_KNBNSTKTRANSFREPLNMTSTRGYVH
 description: Knbnstktransfreplnmtstrgyvh
+semantic_en: "stock transfer replenishment strategy value help — standard value list for stock transfer strategy selection by plant"
+semantic_vi: "trợ giúp giá trị chiến lược bổ sung lại chuyển nhượng hàng tồn kho — danh sách giá trị tiêu chuẩn để chọn chiến lược chuyển nhượng hàng tồn kho theo nhà máy"
+keywords:
+  - giá trị trợ giúp
+  - chiến lược bổ sung
+  - chuyển nhượng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

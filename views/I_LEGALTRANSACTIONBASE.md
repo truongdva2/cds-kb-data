@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSACTIONBASE
 description: Legaltransactionbase
+semantic_en: "Legal transaction basic data — stores core transaction attributes including creation/change audit, profile assignment, end-of-purpose status, and governance classification."
+semantic_vi: "dữ liệu cơ bản giao dịch pháp lý — lưu trữ các thuộc tính giao dịch cốt lõi bao gồm kiểm toán tạo/thay đổi, phân công hồ sơ, trạng thái kết thúc mục đích và phân loại quản lý."
+keywords:
+  - dữ liệu giao dịch pháp lý
+  - quản lý giao dịch
+  - kiểm toán
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

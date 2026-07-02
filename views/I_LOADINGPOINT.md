@@ -1,6 +1,12 @@
 ---
 name: I_LOADINGPOINT
 description: Loadingpoint
+semantic_en: "loading point master — maps shipping point to loading point identifier for logistics execution."
+semantic_vi: "điểm xếp hàng chính — ánh xạ điểm giao hàng đến mã định danh điểm xếp."
+keywords:
+  - điểm xếp hàng
+  - giao hàng
+  - logistics
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

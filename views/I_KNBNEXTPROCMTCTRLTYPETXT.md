@@ -1,6 +1,12 @@
 ---
 name: I_KNBNEXTPROCMTCTRLTYPETXT
 description: Knbnextprocmtctrltypetxt
+semantic_en: "kanban external procurement control type text — multilingual names for external procurement control type classifications"
+semantic_vi: "văn bản loại điều khiển đấu thầu bên ngoài Kanban — tên đa ngôn ngữ cho các phân loại loại điều khiển đấu thầu bên ngoài"
+keywords:
+  - tên loại điều khiển
+  - ngôn ngữ
+  - đấu thầu
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

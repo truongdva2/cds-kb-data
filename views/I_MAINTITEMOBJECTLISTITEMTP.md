@@ -1,6 +1,12 @@
 ---
 name: I_MAINTITEMOBJECTLISTITEMTP
 description: Maintitemobjectlistitemtp
+semantic_en: "maintenance item object list item projection with technical object and equipment reference — key columns: MaintenanceItem, Equipment, FunctionalLocation, TechnicalObject"
+semantic_vi: "hình chiếu mục danh sách đối tượng mục bảo trì với tham chiếu đối tượng kỹ thuật và thiết bị — cột chính: mục bảo trì, thiết bị, vị trí chức năng, đối tượng kỹ thuật"
+keywords:
+  - mục bảo trì
+  - danh sách đối tượng
+  - thiết bị
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

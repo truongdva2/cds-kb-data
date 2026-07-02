@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALCOMMISSIONGROUPTEXT
 description: Materialcommissiongrouptext
+semantic_en: "material commission group text — language-dependent names for material commission groups"
+semantic_vi: "mô tả đa ngôn ngữ cho nhóm hoa hồng vật tư"
+keywords:
+  - vật tư
+  - hoa hồng
+  - tên nhóm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

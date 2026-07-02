@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEITEMCAUSETEXTTP
 description: Maintenanceitemcausetexttp
+semantic_en: "maintenance item cause long text TP — stores plain long text for cause reasons in multiple languages."
+semantic_vi: "văn bản dài nguyên nhân mục bảo dưỡng TP — lưu trữ văn bản dài nguyên nhân theo ngôn ngữ."
+keywords:
+  - nguyên nhân bảo dưỡng
+  - văn bản dài
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

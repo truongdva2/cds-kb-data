@@ -1,6 +1,13 @@
 ---
 name: I_MRPELEMENTCATEGORYTEXT
 description: Mrpelementcategorytext
+semantic_en: "MRP element category text — multilingual descriptions short and long names for MRP element categories"
+semantic_vi: "văn bản danh mục phần tử MRP — tên mô tả, ngắn và dài đa ngôn ngữ cho danh mục phần tử MRP"
+keywords:
+  - MRP
+  - phần tử
+  - danh mục
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMINTCNTCTTYPE
 description: Lglcntntmintcntcttype
+semantic_en: "Internal contact type — classifies types of internal contacts in legal transactions."
+semantic_vi: "Loại liên hệ nội bộ — phân loại các loại liên hệ nội bộ trong giao dịch pháp lý."
+keywords:
+  - liên hệ nội bộ
+  - loại liên hệ
+  - người dùng nội bộ
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

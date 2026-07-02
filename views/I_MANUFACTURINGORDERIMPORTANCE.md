@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDERIMPORTANCE
 description: Manufacturingorderimportance
+semantic_en: "manufacturing order importance code — classification of manufacturing order priority levels by category"
+semantic_vi: "mã mức độ quan trọng lệnh sản xuất — phân loại mức độ ưu tiên lệnh sản xuất theo hạng mục"
+keywords:
+  - lệnh sản xuất
+  - mức độ ưu tiên
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALSTATISTICSGROUPTEXT
 description: Materialstatisticsgrouptext
+semantic_en: "material statistics group text — language-dependent descriptions for material statistics groups"
+semantic_vi: "mô tả đa ngôn ngữ cho nhóm thống kê vật tư"
+keywords:
+  - vật tư
+  - thống kê
+  - mô tả
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

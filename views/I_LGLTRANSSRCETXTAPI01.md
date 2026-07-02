@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSSRCETXTAPI01
 description: Lgltranssrcetxtapi 01
+semantic_en: "Legal transaction source text — provides multilingual descriptions for legal transaction source classifications."
+semantic_vi: "Mô tả nguồn giao dịch pháp lý — cung cấp mô tả đa ngôn ngữ cho các phân loại nguồn giao dịch pháp lý."
+keywords:
+  - nguồn giao dịch pháp lý
+  - dữ liệu đa ngôn ngữ
+  - phân loại
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

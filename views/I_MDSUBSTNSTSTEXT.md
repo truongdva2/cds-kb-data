@@ -1,6 +1,12 @@
 ---
 name: I_MDSUBSTNSTSTEXT
 description: Mdsubstnststext
+semantic_en: "Master data substitution status text — multilingual descriptions of master data substitution status values."
+semantic_vi: "Văn bản trạng thái thay thế dữ liệu chính — mô tả đa ngôn ngữ về giá trị trạng thái thay thế dữ liệu chính."
+keywords:
+  - thay thế dữ liệu
+  - trạng thái
+  - mô tả
 app_component: CA-EPT-SUB-2CL
 software_component: SAPSCORE
 release_state: released

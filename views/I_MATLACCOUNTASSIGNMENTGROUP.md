@@ -1,6 +1,12 @@
 ---
 name: I_MATLACCOUNTASSIGNMENTGROUP
 description: Matlaccountassignmentgroup
+semantic_en: "Material account assignment group — master data grouping materials for accounting allocation purposes."
+semantic_vi: "Nhóm gán tài khoản vật liệu — dữ liệu chính để nhóm hóa vật liệu cho mục đích phân bổ kế toán."
+keywords:
+  - nhóm gán tài khoản
+  - vật liệu
+  - kế toán
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMRELSHPTYPETEXT
 description: Lglcntntmrelshptypetext
+semantic_en: "Relationship type text — provides multilingual names for relationship type classifications."
+semantic_vi: "Tên loại mối quan hệ — cung cấp tên đa ngôn ngữ cho các phân loại loại mối quan hệ."
+keywords:
+  - loại mối quan hệ
+  - dữ liệu đa ngôn ngữ
+  - mối liên kết
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

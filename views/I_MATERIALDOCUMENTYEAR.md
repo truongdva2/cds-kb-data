@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTYEAR
 description: Materialdocumentyear
+semantic_en: "years in material documents — reference dimension for material document year classification"
+semantic_vi: "năm trong tài liệu vật tư — thứ nguyên tham chiếu cho phân loại năm tài liệu"
+keywords:
+  - tài liệu vật tư
+  - năm
+  - phân loại
 app_component: MM-IM-GF-2CL
 software_component: SAPSCORE
 release_state: released

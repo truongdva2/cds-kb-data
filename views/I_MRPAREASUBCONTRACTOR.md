@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREASUBCONTRACTOR
 description: Mrpareasubcontractor
+semantic_en: "MRP area subcontractor — links subcontractors to MRP planning areas within plants"
+semantic_vi: "nhà thầu khu vực MRP — liên kết các nhà thầu đến khu vực kế hoạch MRP trong nhà máy"
+keywords:
+  - MRP
+  - nhà thầu
+  - khu vực
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

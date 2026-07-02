@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCTNREPLNMTTRGGRLOGICTEXT
 description: Knbnctnreplnmttrggrlogictext
+semantic_en: "replenishment trigger logic text — multilingual names for replenishment trigger classification types"
+semantic_vi: "văn bản logic kích hoạt bổ sung lại — tên đa ngôn ngữ cho các loại phân loại logic kích hoạt bổ sung"
+keywords:
+  - tên logic kích hoạt
+  - ngôn ngữ
+  - bổ sung lại
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

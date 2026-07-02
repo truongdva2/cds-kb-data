@@ -1,6 +1,11 @@
 ---
 name: I_LOCATIONTYPETEXT_2
 description: Locationtypetext 2
+semantic_en: "location type text — stores location type descriptions in multiple languages from domain values."
+semantic_vi: "văn bản loại địa điểm — lưu trữ mô tả loại địa điểm theo đa ngôn ngữ."
+keywords:
+  - loại địa điểm
+  - mô tả ngôn ngữ
 app_component: TM-MD-TN-LOC-2CL
 software_component: SAPSCORE
 release_state: released

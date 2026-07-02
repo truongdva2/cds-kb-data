@@ -1,6 +1,12 @@
 ---
 name: I_MFGBOOMATERIALASSGMTCHGST
 description: Mfgboomaterialassgmtchgst
+semantic_en: "Material assignment to bill of operations change state — version tracking for material allocations to production routings."
+semantic_vi: "Trạng thái thay đổi gán vật liệu tới hóa đơn hoạt động — theo dõi phiên bản cho phân bổ vật liệu tới định tuyến sản xuất."
+keywords:
+  - gán vật liệu
+  - hóa đơn hoạt động
+  - thay đổi
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

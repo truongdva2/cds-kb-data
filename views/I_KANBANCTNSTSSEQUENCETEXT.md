@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNSTSSEQUENCETEXT
 description: Kanbanctnstssequencetext
+semantic_en: "kanban container status sequence text — multilingual names for kanban container status sequence types"
+semantic_vi: "văn bản chuỗi trạng thái thùng chứa Kanban — tên đa ngôn ngữ cho các loại chuỗi trạng thái thùng chứa Kanban"
+keywords:
+  - chuỗi trạng thái
+  - ngôn ngữ
+  - thùng chứa Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

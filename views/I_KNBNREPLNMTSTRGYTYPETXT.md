@@ -1,6 +1,12 @@
 ---
 name: I_KNBNREPLNMTSTRGYTYPETXT
 description: Knbnreplnmtstrgytypetxt
+semantic_en: "kanban replenishment strategy type text — multilingual names for kanban replenishment strategy type classifications"
+semantic_vi: "văn bản loại chiến lược bổ sung lại Kanban — tên đa ngôn ngữ cho các phân loại loại chiến lược bổ sung lại Kanban"
+keywords:
+  - tên loại chiến lược
+  - ngôn ngữ
+  - bổ sung
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

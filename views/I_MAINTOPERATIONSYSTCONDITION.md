@@ -1,6 +1,12 @@
 ---
 name: I_MAINTOPERATIONSYSTCONDITION
 description: Maintoperationsystcondition
+semantic_en: "maintenance operation system condition master with plant maintenance flag — key columns: OperationSystemCondition, ProdnWrkCtrIsRsrvdByPlntMaint"
+semantic_vi: "danh mục điều kiện hệ thống hoạt động bảo trì với cờ bảo trì nhà máy — cột chính: điều kiện hệ thống, dành riêng cho bảo trì"
+keywords:
+  - điều kiện hoạt động
+  - bảo trì
+  - trung tâm làm việc
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

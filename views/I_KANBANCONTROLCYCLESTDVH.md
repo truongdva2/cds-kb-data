@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTROLCYCLESTDVH
 description: Kanbancontrolcyclestdvh
+semantic_en: "kanban control cycle value help — standard value list for kanban control cycle selection by plant and product"
+semantic_vi: "trợ giúp giá trị chu kỳ điều khiển Kanban — danh sách giá trị tiêu chuẩn để chọn chu kỳ điều khiển Kanban theo nhà máy và sản phẩm"
+keywords:
+  - giá trị trợ giúp
+  - danh sách chọn
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

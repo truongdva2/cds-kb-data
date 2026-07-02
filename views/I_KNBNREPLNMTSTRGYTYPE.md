@@ -1,6 +1,12 @@
 ---
 name: I_KNBNREPLNMTSTRGYTYPE
 description: Knbnreplnmtstrgytype
+semantic_en: "kanban replenishment strategy type domain — classification codes for different kanban replenishment strategy types"
+semantic_vi: "miền loại chiến lược bổ sung lại Kanban — mã phân loại cho các loại chiến lược bổ sung lại Kanban khác nhau"
+keywords:
+  - loại chiến lược
+  - bổ sung lại
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

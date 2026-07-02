@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCONTROLCYCLETP
 description: Kanbancontrolcycletp
+semantic_en: "kanban control cycle test purpose — extended kanban control cycle data with warehouse, storage bin, and lifecycle status"
+semantic_vi: "chu kỳ điều khiển Kanban cho mục đích kiểm thử — dữ liệu chu kỳ điều khiển Kanban mở rộng với kho, thùng lưu trữ và trạng thái vòng đời"
+keywords:
+  - kiểm thử
+  - Kanban
+  - trạng thái vòng đời
 app_component: PP-KAB-CC-2CL
 software_component: SAPSCORE
 release_state: released

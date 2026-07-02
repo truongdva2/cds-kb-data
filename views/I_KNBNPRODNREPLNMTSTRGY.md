@@ -1,6 +1,12 @@
 ---
 name: I_KNBNPRODNREPLNMTSTRGY
 description: Knbnprodnreplnmtstrgy
+semantic_en: "kanban inhouse production replenishment strategy — configuration parameters for kanban-based production including order type, goods receipt movement type, and planned order reduction"
+semantic_vi: "chiến lược bổ sung lại sản xuất nội bộ Kanban — thông số cấu hình cho sản xuất dựa trên Kanban bao gồm loại đơn hàng, loại chuyển động nhận hàng và giảm đơn hàng dự định"
+keywords:
+  - chiến lược bổ sung
+  - sản xuất nội bộ
+  - Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

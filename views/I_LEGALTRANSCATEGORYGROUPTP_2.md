@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSCATEGORYGROUPTP_2
 description: Legaltranscategorygrouptp 2
+semantic_en: "Legal transaction category group — organizes transaction categories with titled groupings and ordering for structured transaction classification."
+semantic_vi: "nhóm danh mục giao dịch pháp lý — tổ chức các danh mục giao dịch với các nhóm có tên và sắp xếp cho phân loại giao dịch có cấu trúc."
+keywords:
+  - nhóm danh mục giao dịch
+  - tổ chức danh mục
+  - phân loại giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

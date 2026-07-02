@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDOCSTATUSAPI01
 description: Lglcntntmdocstatusapi 01
+semantic_en: "Document status — defines internal status codes for legal documents."
+semantic_vi: "Trạng thái tài liệu — xác định các mã trạng thái nội bộ cho tài liệu pháp lý."
+keywords:
+  - trạng thái tài liệu
+  - mã trạng thái nội bộ
+  - tài liệu pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

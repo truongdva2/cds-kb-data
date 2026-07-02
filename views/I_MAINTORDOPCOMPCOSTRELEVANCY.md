@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDOPCOMPCOSTRELEVANCY
 description: Maintordopcompcostrelevancy
+semantic_en: "maintenance order operation component costing relevancy — indicator for cost-relevant component consumption in maint orders"
+semantic_vi: "tính chất liên quan chi phí của vật tư thành phần trong lệnh bảo trì — chỉ số xác định xem vật tư thành phần có liên quan đến chi phí hay không"
+keywords:
+  - bảo trì lệnh chi phí
+  - vật tư thành phần
+  - tính chất chi phí
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

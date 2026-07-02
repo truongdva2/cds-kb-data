@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSENTITYAPI01
 description: Lgltransentityapi 01
+semantic_en: "Entities of legal transaction — lists participating entities in legal transactions with type, rank and primary entity indicator."
+semantic_vi: "Thực thể giao dịch pháp lý — liệt kê các thực thể tham gia trong giao dịch pháp lý với loại, mức độ ưu tiên và chỉ báo thực thể chính."
+keywords:
+  - thực thể giao dịch pháp lý
+  - bên tham gia
+  - tổ chức
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

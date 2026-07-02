@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCALCNEWCTNNMBRASSGMT
 description: Knbncalcnewctnnmbrassgmt
+semantic_en: "kanban calculation number assignment domain — classification for number assignment methods in kanban calculation"
+semantic_vi: "miền gán số tính toán Kanban thùng chứa mới — phân loại cho các phương pháp gán số trong tính toán Kanban"
+keywords:
+  - gán số
+  - phương pháp
+  - tính toán Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

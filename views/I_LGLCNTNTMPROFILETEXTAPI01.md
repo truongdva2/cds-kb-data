@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMPROFILETEXTAPI01
 description: Lglcntntmprofiletextapi 01
+semantic_en: "Profile text — provides multilingual descriptions for profile codes."
+semantic_vi: "Mô tả hồ sơ — cung cấp mô tả đa ngôn ngữ cho các mã hồ sơ."
+keywords:
+  - hồ sơ
+  - dữ liệu đa ngôn ngữ
+  - mô tả hồ sơ
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

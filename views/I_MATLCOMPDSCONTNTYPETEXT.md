@@ -1,6 +1,12 @@
 ---
 name: I_MATLCOMPDSCONTNTYPETEXT
 description: Matlcompdscontntypetext
+semantic_en: "Material discontinuation type text — multilingual descriptions of material discontinuation categories."
+semantic_vi: "Văn bản loại ngừng sản xuất vật liệu — mô tả đa ngôn ngữ của các danh mục ngừng sản xuất vật liệu."
+keywords:
+  - ngừng sản xuất
+  - văn bản
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

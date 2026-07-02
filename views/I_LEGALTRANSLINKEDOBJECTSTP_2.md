@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSLINKEDOBJECTSTP_2
 description: Legaltranslinkedobjectstp 2
+semantic_en: "Legal transaction linked objects — references related business objects and documents linked to legal transactions."
+semantic_vi: "Các đối tượng liên kết trong giao dịch pháp lý — tham chiếu các đối tượng kinh doanh và tài liệu có liên quan được liên kết với giao dịch pháp lý."
+keywords:
+  - đối tượng liên kết
+  - tài liệu liên kết
+  - giao dịch pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

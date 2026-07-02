@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCETASKLISTBASICTP
 description: Maintenancetasklistbasictp
+semantic_en: "maintenance task list header in target projection with plant and technical object reference — key columns: TaskListType, TaskListGroup, TaskListStatus, TechnicalObject"
+semantic_vi: "tiêu đề danh sách tác vụ bảo trì trong hình chiếu đích với tham chiếu đối tượng kỹ thuật — cột chính: loại danh sách, nhóm danh sách, trạng thái, đối tượng kỹ thuật"
+keywords:
+  - tiêu đề danh sách tác vụ
+  - trạng thái danh sách
+  - đối tượng kỹ thuật
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSDOCLINKTP_2
 description: Legaltransdoclinktp 2
+semantic_en: "Legal transaction linked documents — establishes relationships between transactions and associated documents with content type and status tracking."
+semantic_vi: "tài liệu được liên kết của giao dịch pháp lý — thiết lập mối quan hệ giữa các giao dịch và các tài liệu liên quan với loại nội dung và theo dõi trạng thái."
+keywords:
+  - liên kết tài liệu giao dịch
+  - quản lý tài liệu pháp lý
+  - liên kết quan hệ
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

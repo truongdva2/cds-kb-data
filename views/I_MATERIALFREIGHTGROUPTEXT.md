@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALFREIGHTGROUPTEXT
 description: Materialfreightgrouptext
+semantic_en: "material freight group text — language-dependent names for material freight groups"
+semantic_vi: "mô tả đa ngôn ngữ cho nhóm cước vận chuyển vật tư"
+keywords:
+  - vật tư
+  - cước vận chuyển
+  - tên nhóm
 app_component: TM-MD-PR-2CL
 software_component: SAPSCORE
 release_state: released

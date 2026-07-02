@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMEXTCNTCTTYPE
 description: Lglcntntmextcntcttype
+semantic_en: "External contact type — classifies types of external contacts in legal transactions."
+semantic_vi: "Loại liên hệ bên ngoài — phân loại các loại liên hệ bên ngoài trong giao dịch pháp lý."
+keywords:
+  - liên hệ bên ngoài
+  - loại liên hệ
+  - đối tác kinh doanh
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

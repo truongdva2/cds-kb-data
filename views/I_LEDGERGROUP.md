@@ -1,6 +1,12 @@
 ---
 name: I_LEDGERGROUP
 description: Ledgergroup
+semantic_en: "Ledger group — represents the classification or grouping of ledgers for organizational hierarchy and reporting purposes."
+semantic_vi: "nhóm sổ cái — đại diện cho phân loại hoặc nhóm các sổ cái cho mục đích phân cấp tổ chức và báo cáo."
+keywords:
+  - nhóm sổ cái
+  - phân loại sổ cái
+  - tổ chức tài chính
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

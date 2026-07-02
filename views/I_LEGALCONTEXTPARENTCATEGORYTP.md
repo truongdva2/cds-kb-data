@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTPARENTCATEGORYTP
 description: Legalcontextparentcategorytp
+semantic_en: "Legal context parent category — manages parent category assignments within category groups for hierarchical organization in legal contexts."
+semantic_vi: "danh mục cha của ngữ cảnh pháp lý — quản lý phân công danh mục cha trong các nhóm danh mục để tổ chức phân cấp trong các ngữ cảnh pháp lý."
+keywords:
+  - danh mục cha
+  - phân cấp danh mục
+  - tổ chức pháp lý
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

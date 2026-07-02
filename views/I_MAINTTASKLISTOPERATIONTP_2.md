@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPERATIONTP_2
 description: Maintenance Task ListOPERATIONTP 2
+semantic_en: "maintenance task list operation text processing — key identifiers for maintenance task list operations"
+semantic_vi: "khóa định danh cho hoạt động danh sách tác vụ bảo trì"
+keywords:
+  - danh sách tác vụ
+  - hoạt động
+  - định danh
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

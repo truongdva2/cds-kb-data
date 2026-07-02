@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDEROBJECTLISTITEMTP
 description: Maintorderobjectlistitemtp
+semantic_en: "maintenance order object list item projection with equipment and material reference — key columns: MaintenanceOrder, MaintenanceOrderObjectList, Equipment, Material"
+semantic_vi: "hình chiếu mục danh sách đối tượng đơn hàng bảo trì với tham chiếu thiết bị và vật liệu — cột chính: đơn hàng, danh sách đối tượng, thiết bị, vật liệu"
+keywords:
+  - danh sách đối tượng bảo trì
+  - thiết bị
+  - vật liệu
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

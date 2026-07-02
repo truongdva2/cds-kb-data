@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFDETECTIONCATGROUP
 description: Maintnotifdetectioncatgroup
+semantic_en: "maintenance notification detection catalog group mapping — key columns: MaintNotifDetectionCatalog, MaintNotifDetectionCodeGroup, MaintNotifDetectionCatalogText"
+semantic_vi: "ánh xạ nhóm danh mục phát hiện thông báo bảo trì — cột chính: danh mục, nhóm mã, mô tả danh mục"
+keywords:
+  - danh mục phát hiện
+  - nhóm mã phát hiện
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

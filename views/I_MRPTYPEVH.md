@@ -1,6 +1,12 @@
 ---
 name: I_MRPTYPEVH
 description: Mrptypevh
+semantic_en: "MRP type value help — searchable reference of available MRP planning types for selection"
+semantic_vi: "trợ giúp giá trị kiểu MRP — tham chiếu có thể tìm kiếm của các kiểu kế hoạch MRP sẵn có để lựa chọn"
+keywords:
+  - MRP
+  - kiểu
+  - tìm kiếm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEORDERPARTNERTP
 description: Maintenance OrderPARTNERTP
+semantic_en: "maintenance order partners TP — maps partner functions to business partners for orders."
+semantic_vi: "đối tác đơn hàng bảo dưỡng TP — ánh xạ chức năng đối tác đến đối tác kinh doanh."
+keywords:
+  - đối tác đơn hàng
+  - chức năng đối tác
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

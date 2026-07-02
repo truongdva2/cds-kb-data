@@ -1,6 +1,12 @@
 ---
 name: I_LOCATIONBASIC_2
 description: Locationbasic 2
+semantic_en: "location master data — stores location UUID, type, timezone, geographic coordinates, and address mapping."
+semantic_vi: "dữ liệu chính địa điểm — lưu trữ UUID, loại, múi giờ, tọa độ địa lý, và ánh xạ địa chỉ."
+keywords:
+  - tọa độ địa lý
+  - múi giờ
+  - loại địa điểm
 app_component: TM-MD-TN-LOC-2CL
 software_component: SAPSCORE
 release_state: released

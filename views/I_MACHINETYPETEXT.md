@@ -1,6 +1,11 @@
 ---
 name: I_MACHINETYPETEXT
 description: Machinetypetext
+semantic_en: "machine type text — provides language-dependent machine type names and descriptions."
+semantic_vi: "văn bản loại máy — cung cấp tên và mô tả loại máy theo ngôn ngữ."
+keywords:
+  - tên loại máy
+  - mô tả máy
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

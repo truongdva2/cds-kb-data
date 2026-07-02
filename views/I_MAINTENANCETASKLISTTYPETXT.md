@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCETASKLISTTYPETXT
 description: Maintenancetasklisttypetxt
+semantic_en: "maintenance task list type description in language — key columns: TaskListType, Language, BillOfOperationsTypeName"
+semantic_vi: "mô tả loại danh sách tác vụ theo ngôn ngữ — cột chính: loại danh sách, ngôn ngữ, tên loại hoạt động"
+keywords:
+  - loại danh sách
+  - mô tả loại
+  - ngôn ngữ
 app_component: PM-2CL
 software_component: SAPSCORE
 release_state: released

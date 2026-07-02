@@ -1,6 +1,12 @@
 ---
 name: I_MDSUBSTNSTS
 description: Mdsubstnsts
+semantic_en: "Master data substitution status — domain values indicating the substitution status of master data records."
+semantic_vi: "Trạng thái thay thế dữ liệu chính — giá trị miền biểu thị trạng thái thay thế của bản ghi dữ liệu chính."
+keywords:
+  - thay thế dữ liệu
+  - trạng thái
+  - dữ liệu chính
 app_component: CA-EPT-SUB-2CL
 software_component: SAPSCORE
 release_state: released

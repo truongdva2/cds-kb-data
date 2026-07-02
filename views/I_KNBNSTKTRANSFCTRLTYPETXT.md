@@ -1,6 +1,12 @@
 ---
 name: I_KNBNSTKTRANSFCTRLTYPETXT
 description: Knbnstktransfctrltypetxt
+semantic_en: "kanban stock transfer control type text — multilingual names for stock transfer control type classifications"
+semantic_vi: "văn bản loại điều khiển chuyển nhượng hàng tồn kho Kanban — tên đa ngôn ngữ cho các phân loại loại điều khiển chuyển nhượng"
+keywords:
+  - tên loại điều khiển
+  - ngôn ngữ
+  - chuyển nhượng
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

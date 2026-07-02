@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANBASIC
 description: Maintenance PlanBASIC
+semantic_en: "maintenance plan — stores plan ID, description, creation date, strategy, and references to equipment and functional location."
+semantic_vi: "kế hoạch bảo dưỡng — lưu trữ ID, mô tả, ngày tạo, chiến lược, tham chiếu thiết bị và vị trí chức năng."
+keywords:
+  - kế hoạch bảo dưỡng
+  - chiến lược bảo dưỡng
+  - thời lượng
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

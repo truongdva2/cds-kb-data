@@ -1,6 +1,10 @@
 ---
 name: I_MAINTORDERPROCESSINGCONTEXT
 description: Maintorderprocessingcontext
+semantic_en: "maintenance order processing context status selection — single key column: MaintOrderProcessingContext"
+semantic_vi: "lựa chọn trạng thái bối cảnh xử lý đơn hàng bảo trì — cột khóa: bối cảnh xử lý"
+keywords:
+  - bối cảnh xử lý bảo trì
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

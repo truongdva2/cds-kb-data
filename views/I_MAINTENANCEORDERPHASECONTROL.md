@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDERPHASECONTROL
 description: Maintenance OrderPHASECONTROL
+semantic_en: "maintenance order phase controls — aggregates phase control, user status, and EAM process information."
+semantic_vi: "kiểm soát giai đoạn đơn hàng bảo dưỡng — tổng hợp kiểm soát giai đoạn, trạng thái người dùng, thông tin quy trình."
+keywords:
+  - kiểm soát giai đoạn
+  - trạng thái người dùng
+  - quy trình EAM
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

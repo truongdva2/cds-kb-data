@@ -1,6 +1,12 @@
 ---
 name: I_MRPGROUP
 description: Mrpgroup
+semantic_en: "MRP group — logical grouping of materials and configuration for synchronized planning within a plant"
+semantic_vi: "nhóm MRP — nhóm hợp lý các vật liệu và cấu hình để kế hoạch hóa đồng bộ trong nhà máy"
+keywords:
+  - MRP
+  - nhóm
+  - kế hoạch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MRPCHANGEREQUESTPRIORITY
 description: Mrpchangerequestpriority
+semantic_en: "MRP change request priority — defines available priority levels for MRP supply plan modification requests"
+semantic_vi: "ưu tiên yêu cầu thay đổi MRP — xác định các mức ưu tiên sẵn có cho các yêu cầu sửa đổi kế hoạch cung ứng MRP"
+keywords:
+  - MRP
+  - yêu cầu thay đổi
+  - ưu tiên
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

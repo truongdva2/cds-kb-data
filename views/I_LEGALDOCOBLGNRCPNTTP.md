@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCOBLGNRCPNTTP
 description: Legaldocoblgnrcpnttp
+semantic_en: "Legal document obligation recipient transactional proxy — specifies recipients responsible for legal document obligations."
+semantic_vi: "ủy quyền giao dịch người nhận nghĩa vụ tài liệu pháp lý — chỉ định người nhận chịu trách nhiệm về các nghĩa vụ tài liệu pháp lý."
+keywords:
+  - người nhận nghĩa vụ
+  - quản lý trách nhiệm
+  - nghĩa vụ pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

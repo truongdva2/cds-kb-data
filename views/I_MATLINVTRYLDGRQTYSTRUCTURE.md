@@ -1,6 +1,12 @@
 ---
 name: I_MATLINVTRYLDGRQTYSTRUCTURE
 description: Matlinvtryldgrqtystructure
+semantic_en: "Material inventory ledger with quantity structure — cost estimates and valuation data by ledger, area, and special stock types."
+semantic_vi: "Sổ cái kho vật liệu với cấu trúc số lượng — ước tính chi phí và dữ liệu định giá theo sổ cái, vùng, và loại tồn kho đặc biệt."
+keywords:
+  - sổ cái kho
+  - định giá
+  - cấu trúc số lượng
 app_component: CO-PC-ACT-2CL
 software_component: SAPSCORE
 release_state: released

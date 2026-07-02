@@ -1,6 +1,13 @@
 ---
 name: I_MRPPLANNINGPERIODTEXT
 description: Mrpplanningperiodtext
+semantic_en: "MRP planning period text — multilingual names for material requirements planning calendar periods"
+semantic_vi: "văn bản kỳ kế hoạch MRP — tên đa ngôn ngữ cho các kỳ lịch kế hoạch nhu cầu vật liệu"
+keywords:
+  - MRP
+  - kỳ kế hoạch
+  - tên
+  - lịch
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

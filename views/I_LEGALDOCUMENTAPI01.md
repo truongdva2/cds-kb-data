@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCUMENTAPI01
 description: Legaldocumentapi 01
+semantic_en: "Legal document — represents versioned legal documents with content type, access level, status, and language classification for document management."
+semantic_vi: "tài liệu pháp lý — đại diện cho các tài liệu pháp lý được phiên bản hóa với loại nội dung, mức truy cập, trạng thái và phân loại ngôn ngữ cho quản lý tài liệu."
+keywords:
+  - tài liệu pháp lý
+  - quản lý tài liệu
+  - phiên bản tài liệu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

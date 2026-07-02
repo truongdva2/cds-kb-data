@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDERCOMPONENTDEX
 description: Maintordercomponentdex
+semantic_en: "maintenance order component data extraction with reservation and material reference — key columns: Reservation, MaintenanceOrder, Equipment, FunctionalLocation"
+semantic_vi: "trích xuất dữ liệu bộ phận đơn hàng bảo trì với tham chiếu dự trữ và vật liệu — cột chính: dự trữ, đơn hàng bảo trì, thiết bị, vị trí chức năng"
+keywords:
+  - bộ phận đơn hàng
+  - dự trữ vật liệu
+  - bảo trì
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

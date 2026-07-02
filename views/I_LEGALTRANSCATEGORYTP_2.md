@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSCATEGORYTP_2
 description: Legaltranscategorytp 2
+semantic_en: "Legal transaction categories — maintains parent-child category hierarchies with mandatory flags for nested transaction classification."
+semantic_vi: "danh mục giao dịch pháp lý — duy trì các phân cấp danh mục cha-con với cờ bắt buộc cho phân loại giao dịch lồng nhau."
+keywords:
+  - danh mục giao dịch
+  - phân cấp danh mục
+  - phân loại pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

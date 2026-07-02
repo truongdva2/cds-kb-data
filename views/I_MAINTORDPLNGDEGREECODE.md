@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDPLNGDEGREECODE
 description: Maintordplngdegreecode
+semantic_en: "maintenance order planning code — classification codes for maintenance order planning degrees and strategies"
+semantic_vi: "mã kho chứa lệnh bảo trì — phân loại mức độ lập kế hoạch cho lệnh bảo trì"
+keywords:
+  - lệnh bảo trì lập kế hoạch
+  - mã phân loại
+  - chiến lược
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

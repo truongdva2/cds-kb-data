@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEITEMREASONTP
 description: Maintenanceitemreasontp
+semantic_en: "maintenance item reason TP — defines maintenance compliance grouping and legal requirement details."
+semantic_vi: "lý do mục bảo dưỡng TP — xác định nhóm tuân thủ và chi tiết yêu cầu pháp lý."
+keywords:
+  - lý do bảo dưỡng
+  - tuân thủ
+  - yêu cầu pháp lý
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

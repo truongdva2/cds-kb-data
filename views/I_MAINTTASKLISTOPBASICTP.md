@@ -1,6 +1,12 @@
 ---
 name: I_MAINTTASKLISTOPBASICTP
 description: Maintenance Task ListOPBASICTP
+semantic_en: "operations text processing — maintenance task list operations with work center and material assembly details"
+semantic_vi: "hoạt động danh sách tác vụ bảo trì — các tác vụ với trung tâm công việc và chi tiết lắp ráp"
+keywords:
+  - tác vụ bảo trì
+  - trung tâm công việc
+  - lắp ráp
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LOCATIONACCOUNTASSIGNMENT
 description: Locationaccountassignment
+semantic_en: "location and account assignment — maps maintenance object location with cost center, work center, and asset assignment details."
+semantic_vi: "gán vị trí và tài khoản — ánh xạ vị trí đối tượng bảo dưỡng với trung tâm chi phí và chi tiết gán tài sản."
+keywords:
+  - gán vị trí
+  - trung tâm chi phí
+  - trung tâm công việc
 app_component: PM-EQM-FL-2CL
 software_component: SAPSCORE
 release_state: released

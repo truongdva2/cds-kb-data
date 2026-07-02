@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCNTRLCYCLIFECYCSTSSTDVH
 description: Knbncntrlcyclifecycstsstdvh
+semantic_en: "kanban control cycle lifecycle status value help — standard value list for kanban control cycle lifecycle status selection"
+semantic_vi: "trợ giúp giá trị trạng thái vòng đời chu kỳ điều khiển Kanban — danh sách giá trị tiêu chuẩn để chọn trạng thái vòng đời chu kỳ điều khiển"
+keywords:
+  - giá trị trợ giúp
+  - trạng thái vòng đời
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

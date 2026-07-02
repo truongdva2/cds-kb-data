@@ -1,6 +1,11 @@
 ---
 name: I_MEASURINGPOINTLONGTEXTTP
 description: Measuringpointlongtexttp
+semantic_en: "Measuring point long text for technical processing — multilingual long text descriptions for measuring points."
+semantic_vi: "Văn bản dài điểm đo cho xử lý kỹ thuật — mô tả văn bản dài đa ngôn ngữ cho các điểm đo."
+keywords:
+  - điểm đo
+  - văn bản dài
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMRNWLTERMNCLAUSET
 description: Lglcntntmrnwltermnclauset
+semantic_en: "Renewal termination clause text — provides multilingual names for renewal and termination clause definitions."
+semantic_vi: "Tên điều khoản gia hạn và chấm dứt — cung cấp tên đa ngôn ngữ cho các định nghĩa điều khoản gia hạn và chấm dứt."
+keywords:
+  - điều khoản gia hạn
+  - điều khoản chấm dứt
+  - dữ liệu đa ngôn ngữ
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

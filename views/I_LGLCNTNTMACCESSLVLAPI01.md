@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMACCESSLVLAPI01
 description: Lglcntntmaccesslvlapi 01
+semantic_en: "Access level configuration — defines access level codes for legal content management."
+semantic_vi: "Mức độ truy cập — xác định các mã mức độ truy cập cho quản lý nội dung pháp lý."
+keywords:
+  - mức độ truy cập
+  - quyền truy cập
+  - cấu hình bảo mật
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

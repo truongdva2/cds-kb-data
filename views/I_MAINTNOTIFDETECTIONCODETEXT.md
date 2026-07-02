@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFDETECTIONCODETEXT
 description: Maintnotifdetectioncodetext
+semantic_en: "detection method description in language — key columns: MaintNotifDetectionCode, Language, MaintNotifDetectionCodeText"
+semantic_vi: "mô tả phương pháp phát hiện theo ngôn ngữ — cột chính: mã phát hiện, ngôn ngữ, mô tả"
+keywords:
+  - mô tả phương pháp phát hiện
+  - mã phát hiện
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

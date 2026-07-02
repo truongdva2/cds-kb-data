@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMACCESSLVLTEXTAPI01
 description: Lglcntntmaccesslvltextapi 01
+semantic_en: "Access level text — provides multilingual descriptions for access level codes."
+semantic_vi: "Mô tả mức độ truy cập — cung cấp mô tả đa ngôn ngữ cho các mã mức độ truy cập."
+keywords:
+  - mô tả mức độ truy cập
+  - dữ liệu đa ngôn ngữ
+  - quyền truy cập
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEDGERGROUPTEXT
 description: Ledgergrouptext
+semantic_en: "Ledger group text — provides multilingual descriptions and names for ledger groups."
+semantic_vi: "văn bản nhóm sổ cái — cung cấp mô tả và tên đa ngôn ngữ cho các nhóm sổ cái."
+keywords:
+  - tên nhóm sổ cái
+  - mô tả nhóm sổ cái
+  - dữ liệu đa ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

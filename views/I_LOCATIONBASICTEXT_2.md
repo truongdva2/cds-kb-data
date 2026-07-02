@@ -1,6 +1,11 @@
 ---
 name: I_LOCATIONBASICTEXT_2
 description: Locationbasictext 2
+semantic_en: "location text — provides language-specific location description for location master records."
+semantic_vi: "văn bản địa điểm — cung cấp mô tả địa điểm theo ngôn ngữ cho bản ghi chính."
+keywords:
+  - mô tả địa điểm
+  - đa ngôn ngữ
 app_component: TM-MD-TN-LOC-2CL
 software_component: SAPSCORE
 release_state: released

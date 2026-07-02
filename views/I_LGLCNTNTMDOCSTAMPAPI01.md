@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDOCSTAMPAPI01
 description: Lglcntntmdocstampapi 01
+semantic_en: "Document stamp name — defines official document stamp designations used in legal content."
+semantic_vi: "Tên con dấu tài liệu — xác định các ký hiệu con dấu chính thức được sử dụng trong nội dung pháp lý."
+keywords:
+  - con dấu tài liệu
+  - ký hiệu chính thức
+  - tài liệu pháp lý
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

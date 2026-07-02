@@ -1,6 +1,12 @@
 ---
 name: I_MATLSTKATKEYDATEINALTUOM
 description: Matlstkatkeydateinaltuom
+semantic_en: "Stock at key date in alternative unit of measure — inventory positions by alternative UoM for stock analysis at specific dates."
+semantic_vi: "Tồn kho tại ngày khóa trong đơn vị đo lường thay thế — vị trí tồn kho theo UoM thay thế cho phân tích tồn kho tại ngày cụ thể."
+keywords:
+  - tồn kho
+  - đơn vị đo
+  - ngày khóa
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

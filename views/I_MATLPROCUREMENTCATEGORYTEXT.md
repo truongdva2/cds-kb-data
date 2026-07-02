@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCUREMENTCATEGORYTEXT
 description: Matlprocurementcategorytext
+semantic_en: "Material procurement category text — multilingual descriptions of material procurement categories."
+semantic_vi: "Văn bản danh mục mua sắm vật liệu — mô tả đa ngôn ngữ về danh mục mua sắm vật liệu."
+keywords:
+  - mua sắm
+  - danh mục
+  - văn bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

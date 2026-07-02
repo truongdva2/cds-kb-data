@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMDATETYPETEXT
 description: Lglcntntmdatetypetext
+semantic_en: "Date type text — provides multilingual names for legal document date type classifications."
+semantic_vi: "Tên loại ngày — cung cấp tên đa ngôn ngữ cho các phân loại loại ngày trong tài liệu pháp lý."
+keywords:
+  - tên loại ngày
+  - dữ liệu đa ngôn ngữ
+  - phân loại thời gian
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

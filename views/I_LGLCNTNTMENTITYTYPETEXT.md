@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMENTITYTYPETEXT
 description: Lglcntntmentitytypetext
+semantic_en: "Entity type text — provides multilingual names for entity type classifications."
+semantic_vi: "Tên loại thực thể — cung cấp tên đa ngôn ngữ cho các phân loại loại thực thể."
+keywords:
+  - loại thực thể
+  - dữ liệu đa ngôn ngữ
+  - phân loại thực thể
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

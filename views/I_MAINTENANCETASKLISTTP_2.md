@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCETASKLISTTP_2
 description: Maintenancetasklisttp 2
+semantic_en: "maintenance task list projection with versioning and change tracking — key columns: TaskListType, TaskListGroup, LastChangeDate, BillOfOperationsVersionType"
+semantic_vi: "hình chiếu danh sách tác vụ bảo trì với phiên bản hóa và theo dõi thay đổi — cột chính: loại danh sách, nhóm danh sách, ngày thay đổi cuối cùng, loại phiên bản hoạt động"
+keywords:
+  - danh sách tác vụ
+  - phiên bản danh sách
+  - theo dõi thay đổi
 app_component: PM-PRM-TL-2CL
 software_component: SAPSCORE
 release_state: released

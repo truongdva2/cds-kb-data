@@ -1,6 +1,12 @@
 ---
 name: I_MEASURINGPOINTTP_2
 description: Measuringpointtp 2
+semantic_en: "Measuring point for technical processing — equipment measurement locations with category, decimal places, and unit of measure."
+semantic_vi: "Điểm đo cho xử lý kỹ thuật — vị trí đo lường thiết bị với danh mục, số chữ số thập phân, và đơn vị đo."
+keywords:
+  - điểm đo
+  - thiết bị
+  - đơn vị đo
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

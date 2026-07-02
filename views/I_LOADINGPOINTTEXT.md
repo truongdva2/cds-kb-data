@@ -1,6 +1,11 @@
 ---
 name: I_LOADINGPOINTTEXT
 description: Loadingpointtext
+semantic_en: "loading point text — contains loading point name and language-dependent text translations."
+semantic_vi: "văn bản điểm xếp hàng — chứa tên điểm xếp và bản dịch theo ngôn ngữ."
+keywords:
+  - tên điểm xếp
+  - mô tả đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

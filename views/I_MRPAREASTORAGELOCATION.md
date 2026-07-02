@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREASTORAGELOCATION
 description: Mrpareastoragelocation
+semantic_en: "MRP area storage location — assigns storage locations within a plant to MRP planning areas"
+semantic_vi: "vị trí lưu trữ khu vực MRP — gán các vị trí lưu trữ trong nhà máy cho khu vực kế hoạch MRP"
+keywords:
+  - MRP
+  - khu vực
+  - vị trí lưu trữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

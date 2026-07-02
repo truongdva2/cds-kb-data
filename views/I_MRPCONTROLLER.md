@@ -1,6 +1,13 @@
 ---
 name: I_MRPCONTROLLER
 description: Mrpcontroller
+semantic_en: "MRP controller — person responsible for managing material requirements planning in a plant with contact information and organizational assignments"
+semantic_vi: "người điều khiển MRP — người chịu trách nhiệm quản lý kế hoạch nhu cầu vật liệu trong nhà máy với thông tin liên hệ và gán tổ chức"
+keywords:
+  - MRP
+  - người điều khiển
+  - nhà máy
+  - quản lý
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

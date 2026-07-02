@@ -1,6 +1,11 @@
 ---
 name: I_MEASURINGPOINTCATEGORY
 description: Measuringpointcategory
+semantic_en: "Measuring point category — configuration for measurement point types including message format and business event enablement."
+semantic_vi: "Danh mục điểm đo — cấu hình cho các loại điểm đo bao gồm định dạng tin nhắn và kích hoạt sự kiện kinh doanh."
+keywords:
+  - danh mục điểm đo
+  - cấu hình
 app_component: PM-EQM-SF-MPC-2CL
 software_component: SAPSCORE
 release_state: released

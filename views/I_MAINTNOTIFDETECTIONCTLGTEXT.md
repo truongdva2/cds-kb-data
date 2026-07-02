@@ -1,6 +1,12 @@
 ---
 name: I_MAINTNOTIFDETECTIONCTLGTEXT
 description: Maintnotifdetectionctlgtext
+semantic_en: "maintenance notification detection catalog description in language — key columns: MaintNotifDetectionCatalog, Language, MaintNotifDetectionCatalogText"
+semantic_vi: "mô tả danh mục phát hiện thông báo bảo trì theo ngôn ngữ — cột chính: danh mục, ngôn ngữ, mô tả danh mục"
+keywords:
+  - danh mục phát hiện
+  - mô tả
+  - ngôn ngữ
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFTYPEDETECTIONCTLG
 description: Maintnotiftypedetectionctlg
+semantic_en: "mapping of maintenance notification type to detection catalog — key columns: NotificationType, MaintNotifDetectionCatalog"
+semantic_vi: "ánh xạ loại thông báo bảo trì đến danh mục phát hiện — cột chính: loại thông báo, danh mục phát hiện"
+keywords:
+  - loại thông báo
+  - danh mục phát hiện
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSLINKEDOBJECTAPI01
 description: Lgltranslinkedobjectapi 01
+semantic_en: "Linked objects of legal transaction — associates related business objects with legal transactions as trigger or reference objects."
+semantic_vi: "Đối tượng liên kết của giao dịch pháp lý — kết hợp các đối tượng kinh doanh có liên quan với giao dịch pháp lý là các đối tượng kích hoạt hoặc tham chiếu."
+keywords:
+  - đối tượng liên kết
+  - giao dịch pháp lý
+  - kinh doanh
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

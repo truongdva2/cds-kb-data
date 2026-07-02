@@ -1,6 +1,12 @@
 ---
 name: I_MATLPROCUREMENTPROFILETEXT
 description: Matlprocurementprofiletext
+semantic_en: "Material procurement profile text — multilingual names for procurement profiles by plant."
+semantic_vi: "Văn bản hồ sơ mua sắm vật liệu — tên đa ngôn ngữ cho hồ sơ mua sắm theo nhà máy."
+keywords:
+  - hồ sơ mua sắm
+  - văn bản
+  - nhà máy
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

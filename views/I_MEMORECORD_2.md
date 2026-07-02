@@ -1,6 +1,11 @@
 ---
 name: I_MEMORECORD_2
 description: Memorecord 2
+semantic_en: "Memo record — financial memo records with type, status, and amount tracking in transaction currency."
+semantic_vi: "Bản ghi ghi chú — bản ghi ghi chú tài chính với loại, trạng thái, và theo dõi số tiền trong tiền tệ giao dịch."
+keywords:
+  - bản ghi ghi chú
+  - tài chính
 app_component: FIN-FSCM-CLM-2CL
 software_component: SAPSCORE
 release_state: released

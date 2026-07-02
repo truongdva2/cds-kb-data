@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDOPCOMPCOSTRELEVANCYT
 description: Maintordopcompcostrelevancyt
+semantic_en: "maintenance order component costing relevancy text — language-dependent descriptions of cost relevancy indicators"
+semantic_vi: "mô tả đa ngôn ngữ cho tính chất chi phí của vật tư thành phần trong lệnh bảo trì"
+keywords:
+  - bảo trì chi phí
+  - vật tư mô tả
+  - đa ngôn ngữ
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

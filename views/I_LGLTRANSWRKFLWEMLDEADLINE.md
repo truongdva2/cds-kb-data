@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSWRKFLWEMLDEADLINE
 description: Lgltranswrkflwemldeadline
+semantic_en: "email template for workflow deadline notifications — references workflow task internal ID, legal transaction UUID, and workflow step type subject."
+semantic_vi: "mẫu email cho thông báo deadline quy trình làm việc — chứa ID tác vụ quy trình, UUID giao dịch pháp lý, và chủ đề bước quy trình."
+keywords:
+  - email deadline
+  - quy trình làm việc
+  - thông báo giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

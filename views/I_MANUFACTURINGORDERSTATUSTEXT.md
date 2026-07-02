@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDERSTATUSTEXT
 description: Manufacturingorderstatustext
+semantic_en: "manufacturing order status text — language-dependent status names and descriptions"
+semantic_vi: "mô tả trạng thái lệnh sản xuất đa ngôn ngữ"
+keywords:
+  - lệnh sản xuất
+  - trạng thái
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

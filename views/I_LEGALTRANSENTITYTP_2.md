@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSENTITYTP_2
 description: Legaltransentitytp 2
+semantic_en: "Legal transaction entities — specifies entities associated with transactions with ranking, type, and main entity designation for transaction participation."
+semantic_vi: "thực thể giao dịch pháp lý — chỉ định các thực thể liên quan đến các giao dịch với xếp hạng, loại và chỉ định thực thể chính cho sự tham gia giao dịch."
+keywords:
+  - thực thể giao dịch
+  - liên kết thực thể
+  - quản lý tham gia
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

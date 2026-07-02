@@ -1,6 +1,12 @@
 ---
 name: I_MRPPROFILE
 description: Mrpprofile
+semantic_en: "MRP profile — defines a configuration profile for MRP parameters and planning strategies"
+semantic_vi: "hồ sơ MRP — xác định hồ sơ cấu hình cho tham số MRP và chiến lược kế hoạch"
+keywords:
+  - MRP
+  - hồ sơ
+  - cấu hình
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

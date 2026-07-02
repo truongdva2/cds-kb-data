@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCATEGORYAPI01
 description: Legalcategoryapi 01
+semantic_en: "Legal category — defines hierarchical categories and classification attributes for legal content management including selection and obsolescence flags."
+semantic_vi: "danh mục pháp lý — định nghĩa các danh mục phân cấp và thuộc tính phân loại cho quản lý nội dung pháp lý bao gồm cờ lựa chọn và lỗi thời."
+keywords:
+  - danh mục pháp lý
+  - phân loại pháp lý
+  - quản lý nội dung
 app_component: CM-CAT-2CL
 software_component: SAPSCORE
 release_state: released

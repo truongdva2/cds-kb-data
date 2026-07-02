@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURERPARTPROFILETEXT
 description: Manufacturerpartprofiletext
+semantic_en: "manufacturer part profile text — language-dependent names and descriptions for manufacturer part profiles"
+semantic_vi: "mô tả đa ngôn ngữ cho hồ sơ vật tư sản xuất"
+keywords:
+  - vật tư sản xuất
+  - hồ sơ
+  - tên mô tả
 app_component: MM
 software_component: SAPSCORE
 release_state: released

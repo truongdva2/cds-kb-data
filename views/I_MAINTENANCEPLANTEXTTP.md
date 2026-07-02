@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANTEXTTP
 description: Maintenance PlanTEXTTP
+semantic_en: "maintenance plan long text in target language — key columns: MaintenancePlan, Language, MaintenancePlanLongText"
+semantic_vi: "văn bản dài kế hoạch bảo trì trong ngôn ngữ đích — cột chính: kế hoạch bảo trì, ngôn ngữ, văn bản dài"
+keywords:
+  - văn bản kế hoạch
+  - mô tả bảo trì
+  - ngôn ngữ kế hoạch
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

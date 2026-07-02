@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDPROCESSINGCONTEXTT
 description: Maintordprocessingcontextt
+semantic_en: "maintenance order processing context text — language-dependent descriptions of order processing contexts"
+semantic_vi: "mô tả ngữ cảnh xử lý lệnh bảo trì đa ngôn ngữ"
+keywords:
+  - xử lý lệnh
+  - ngữ cảnh
+  - bảo trì
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

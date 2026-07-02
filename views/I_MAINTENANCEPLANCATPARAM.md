@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANCATPARAM
 description: Maintenance PlanCATPARAM
+semantic_en: "maintenance plan category parameter — defines category settings for order type, call object, and document handling."
+semantic_vi: "tham số loại kế hoạch bảo dưỡng — xác định cài đặt loại cho loại đơn hàng, đối tượng gọi, xử lý tài liệu."
+keywords:
+  - loại kế hoạch
+  - tham số loại
+  - cài đặt kế hoạch
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

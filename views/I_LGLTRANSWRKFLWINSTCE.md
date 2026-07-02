@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSWRKFLWINSTCE
 description: Lgltranswrkflwinstce
+semantic_en: "data projection for workflow instance details — aggregates workflow task type, legal transaction health status, and task processing information."
+semantic_vi: "dữ liệu phiên bản quy trình làm việc — cung cấp loại tác vụ, trạng thái giao dịch pháp lý, và thông tin xử lý tác vụ."
+keywords:
+  - quy trình làm việc
+  - phiên bản công việc
+  - trạng thái giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

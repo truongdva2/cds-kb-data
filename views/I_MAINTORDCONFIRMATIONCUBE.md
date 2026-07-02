@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDCONFIRMATIONCUBE
 description: Maintordconfirmationcube
+semantic_en: "analytical cube for maintenance order confirmation with work quantity and timing — key columns: MaintOrderConf, MaintOrderConfCntrValue, ActualWorkQuantity, PostingDate"
+semantic_vi: "khối phân tích xác nhận đơn hàng bảo trì với số lượng công việc thực tế và thời gian — cột chính: xác nhận đơn hàng, giá trị bộ đếm, số lượng công việc, ngày ghi sổ"
+keywords:
+  - xác nhận đơn hàng
+  - khối phân tích
+  - số lượng công việc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

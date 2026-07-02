@@ -1,6 +1,12 @@
 ---
 name: I_MFGBILLOFOPERATIONSSEQUENCE
 description: Mfgbillofoperationssequence
+semantic_en: "Manufacturing bill of operations sequence — step sequences within production routings for operation ordering."
+semantic_vi: "Chuỗi hóa đơn hoạt động sản xuất — chuỗi bước trong định tuyến sản xuất để sắp xếp hoạt động."
+keywords:
+  - hóa đơn hoạt động
+  - chuỗi
+  - sản xuất
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

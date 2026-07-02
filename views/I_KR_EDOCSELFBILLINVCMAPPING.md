@@ -1,6 +1,12 @@
 ---
 name: I_KR_EDOCSELFBILLINVCMAPPING
 description: KR Edocselfbillinvcmapping
+semantic_en: "electronic document self billing invoice mapping — mapping records linking electronic documents to self-billing accounting and billing documents for Korean operations"
+semantic_vi: "ánh xạ hóa đơn tự lập hóa đơn điện tử — bản ghi ánh xạ liên kết các tài liệu điện tử với các tài liệu hóa đơn tự lập và hóa đơn cho hoạt động Hàn Quốc"
+keywords:
+  - hóa đơn tự lập
+  - hóa đơn điện tử
+  - ánh xạ
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

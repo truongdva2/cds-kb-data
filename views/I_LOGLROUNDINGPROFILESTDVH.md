@@ -1,6 +1,12 @@
 ---
 name: I_LOGLROUNDINGPROFILESTDVH
 description: Loglroundingprofilestdvh
+semantic_en: "logistical rounding profile value help — references logistical rounding profiles by plant."
+semantic_vi: "trợ giúp giá trị hồ sơ làm tròn logistic — tham chiếu hồ sơ làm tròn theo nhà máy."
+keywords:
+  - hồ sơ làm tròn
+  - nhà máy
+  - logistic
 app_component: LO-RFM-MD-ART
 software_component: SAPSCORE
 release_state: released

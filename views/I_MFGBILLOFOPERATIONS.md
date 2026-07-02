@@ -1,6 +1,12 @@
 ---
 name: I_MFGBILLOFOPERATIONS
 description: Mfgbillofoperations
+semantic_en: "Manufacturing bill of operations — routing variant master data with usage tracking and change document links."
+semantic_vi: "Hóa đơn hoạt động sản xuất — dữ liệu chính biến thể định tuyến với theo dõi sử dụng và liên kết tài liệu thay đổi."
+keywords:
+  - hóa đơn hoạt động
+  - sản xuất
+  - định tuyến
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_LOGISTICSEXECUTIONSCENARIOT
 description: Logisticsexecutionscenariot
+semantic_en: "LE scenario text — provides language-specific descriptions for logistics execution scenarios."
+semantic_vi: "văn bản kịch bản LE — cung cấp mô tả theo ngôn ngữ cho kịch bản thực hiện."
+keywords:
+  - kịch bản LE
+  - mô tả logistics
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

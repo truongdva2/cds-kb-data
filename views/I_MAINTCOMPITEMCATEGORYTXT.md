@@ -1,6 +1,11 @@
 ---
 name: I_MAINTCOMPITEMCATEGORYTXT
 description: Maintcompitemcategorytxt
+semantic_en: "maint component item category text — stores maintenance component item category descriptions by language."
+semantic_vi: "văn bản loại mục thành phần bảo dưỡng — lưu trữ mô tả theo ngôn ngữ."
+keywords:
+  - loại mục bảo dưỡng
+  - mô tả thành phần
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALSTATISTICSGROUP
 description: Materialstatisticsgroup
+semantic_en: "material statistics group — classification code for material statistical analysis grouping"
+semantic_vi: "nhóm thống kê vật tư — mã phân loại cho nhóm phân tích thống kê vật tư"
+keywords:
+  - vật tư
+  - thống kê
+  - nhóm
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

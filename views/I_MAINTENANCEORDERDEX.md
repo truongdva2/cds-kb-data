@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDERDEX
 description: Maintenance OrderDEX
+semantic_en: "maintenance order data — provides order type, description, and scheduled/basic date-time attributes."
+semantic_vi: "dữ liệu đơn hàng bảo dưỡng — cung cấp loại đơn hàng, mô tả, thuộc tính ngày giờ dự kiến và cơ bản."
+keywords:
+  - loại đơn hàng
+  - ngày dự kiến
+  - ngày cơ bản
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

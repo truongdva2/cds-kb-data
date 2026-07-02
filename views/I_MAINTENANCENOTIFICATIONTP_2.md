@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCENOTIFICATIONTP_2
 description: Maintenancenotificationtp 2
+semantic_en: "maintenance notification TP — aggregates notification details including type, priority, phase, and create/change tracking."
+semantic_vi: "thông báo bảo dưỡng TP — tổng hợp chi tiết thông báo bao gồm loại, ưu tiên, giai đoạn, theo dõi."
+keywords:
+  - thông báo bảo dưỡng
+  - ưu tiên bảo dưỡng
+  - giai đoạn xử lý
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

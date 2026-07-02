@@ -1,6 +1,12 @@
 ---
 name: I_KNBNSTKTRANSFCTRLTYPE
 description: Knbnstktransfctrltype
+semantic_en: "kanban stock transfer control type domain — classification for stock transfer control strategies in kanban cycles"
+semantic_vi: "miền loại điều khiển chuyển nhượng hàng tồn kho Kanban — phân loại cho các chiến lược điều khiển chuyển nhượng hàng tồn kho trong chu kỳ Kanban"
+keywords:
+  - điều khiển chuyển nhượng
+  - hàng tồn kho
+  - chu kỳ Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

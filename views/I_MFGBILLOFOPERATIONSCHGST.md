@@ -1,6 +1,12 @@
 ---
 name: I_MFGBILLOFOPERATIONSCHGST
 description: Mfgbillofoperationschgst
+semantic_en: "Manufacturing bill of operations change state — version and change tracking for production routings with validity dates."
+semantic_vi: "Trạng thái thay đổi hóa đơn hoạt động sản xuất — theo dõi phiên bản và thay đổi cho định tuyến sản xuất với ngày có hiệu lực."
+keywords:
+  - hóa đơn hoạt động
+  - thay đổi
+  - trạng thái
 app_component: PP-VDM-MD-2CL
 software_component: SAPSCORE
 release_state: released

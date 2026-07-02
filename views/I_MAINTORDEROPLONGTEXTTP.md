@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDEROPLONGTEXTTP
 description: Maintorderoplongtexttp
+semantic_en: "maintenance order operation long text in target projection — key columns: MaintenanceOrder, MaintenanceOrderOperation, Language, OrderOperationLongText"
+semantic_vi: "văn bản dài hoạt động đơn hàng bảo trì trong hình chiếu đích — cột chính: đơn hàng, hoạt động, ngôn ngữ, văn bản dài hoạt động"
+keywords:
+  - hoạt động bảo trì
+  - văn bản dài
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCUMENTTP
 description: Legaldocumenttp
+semantic_en: "Legal document transactional proxy — tracks document source, paper type, linked objects, and change history for versioned legal document management."
+semantic_vi: "ủy quyền giao dịch tài liệu pháp lý — theo dõi nguồn tài liệu, loại giấy, đối tượng được liên kết và lịch sử thay đổi cho quản lý tài liệu pháp lý được phiên bản hóa."
+keywords:
+  - tài liệu pháp lý giao dịch
+  - liên kết tài liệu
+  - quản lý phiên bản
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

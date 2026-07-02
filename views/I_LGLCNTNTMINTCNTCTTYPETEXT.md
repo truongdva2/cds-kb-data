@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMINTCNTCTTYPETEXT
 description: Lglcntntmintcntcttypetext
+semantic_en: "Internal contact type text — provides multilingual names for internal contact types."
+semantic_vi: "Tên loại liên hệ nội bộ — cung cấp tên đa ngôn ngữ cho các loại liên hệ nội bộ."
+keywords:
+  - loại liên hệ nội bộ
+  - dữ liệu đa ngôn ngữ
+  - liên hệ nội bộ
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

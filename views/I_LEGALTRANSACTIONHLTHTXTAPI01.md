@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSACTIONHLTHTXTAPI01
 description: Legaltransactionhlthtxtapi 01
+semantic_en: "Legal transaction status text — provides multilingual health status descriptions for legal transactions."
+semantic_vi: "văn bản trạng thái giao dịch pháp lý — cung cấp mô tả trạng thái sức khỏe đa ngôn ngữ cho các giao dịch pháp lý."
+keywords:
+  - trạng thái giao dịch
+  - mô tả đa ngôn ngữ
+  - sức khỏe giao dịch
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

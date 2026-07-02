@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTCATEGORYGROUPTP
 description: Legalcontextcategorygrouptp
+semantic_en: "Legal context category group — organizes categories within legal contexts with titled groupings for structured content organization."
+semantic_vi: "nhóm danh mục ngữ cảnh pháp lý — tổ chức các danh mục trong các ngữ cảnh pháp lý với các nhóm có tên để tổ chức nội dung có cấu trúc."
+keywords:
+  - nhóm danh mục pháp lý
+  - tổ chức nội dung
+  - quản lý danh mục
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

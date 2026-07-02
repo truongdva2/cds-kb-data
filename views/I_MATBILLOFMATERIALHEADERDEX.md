@@ -1,6 +1,12 @@
 ---
 name: I_MATBILLOFMATERIALHEADERDEX
 description: MATBill of MaterialHEADERDEX
+semantic_en: "data extraction for bom header — bill of material header extraction with configuration and version indicators"
+semantic_vi: "trích xuất tiêu đề hóa đơn vật tư — dữ liệu tiêu đề với chỉ số cấu hình và phiên bản"
+keywords:
+  - hóa đơn vật tư
+  - tiêu đề
+  - cấu hình
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

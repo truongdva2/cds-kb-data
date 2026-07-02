@@ -1,6 +1,13 @@
 ---
 name: I_MRCHDSCATHIERNODETEXT
 description: Mrchdscathiernodetext
+semantic_en: "merchandise category hierarchy node text — stores translated descriptions and keywords for category nodes in the merchandise classification structure"
+semantic_vi: "văn bản nút hạng mục hàng hóa — lưu trữ mô tả và từ khóa dịch cho các nút danh mục trong cấu trúc phân loại hàng hóa"
+keywords:
+  - danh mục hàng hóa
+  - phân cấp
+  - mô tả
+  - đa ngôn ngữ
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

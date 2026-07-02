@@ -1,6 +1,11 @@
 ---
 name: I_MAINTNOTIFDETECTIONCODEGROUP
 description: Maintnotifdetectioncodegroup
+semantic_en: "maintenance notification detection code group master — key columns: MaintNotifDetectionCodeGroup, IsDeactivated"
+semantic_vi: "danh mục nhóm mã phát hiện thông báo bảo trì — cột chính: nhóm mã, đã bị vô hiệu hóa"
+keywords:
+  - nhóm mã phát hiện
+  - danh mục phát hiện
 app_component: PM-WOC-MN-2CL
 software_component: SAPSCORE
 release_state: released

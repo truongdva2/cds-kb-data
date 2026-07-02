@@ -1,6 +1,12 @@
 ---
 name: I_MRPMASTERDATAISSUEBASIC
 description: Mrpmasterdataissuebasic
+semantic_en: "master data related issues of an MRP run — captures data quality issues identified during material requirements planning execution with system messages"
+semantic_vi: "các vấn đề dữ liệu chính liên quan đến lần chạy MRP — ghi lại các vấn đề chất lượng dữ liệu được xác định trong quá trình thực hiện kế hoạch nhu cầu vật liệu cùng với thông báo hệ thống"
+keywords:
+  - MRP
+  - vấn đề dữ liệu
+  - chất lượng dữ liệu
 app_component: PP-MRP-2CL
 software_component: SAPSCORE
 release_state: released

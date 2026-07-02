@@ -1,6 +1,12 @@
 ---
 name: I_MRPPROCEDURE
 description: Mrpprocedure
+semantic_en: "MRP procedure — domain value codes for different material requirements planning calculation methods"
+semantic_vi: "thủ tục MRP — mã giá trị miền cho các phương pháp tính toán kế hoạch nhu cầu vật liệu khác nhau"
+keywords:
+  - MRP
+  - thủ tục
+  - phương pháp
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

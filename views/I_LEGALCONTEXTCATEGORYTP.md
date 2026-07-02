@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTCATEGORYTP
 description: Legalcontextcategorytp
+semantic_en: "Legal context categories — maintains parent-child category hierarchies within legal contexts for nested classification."
+semantic_vi: "danh mục ngữ cảnh pháp lý — duy trì các phân cấp danh mục cha-con trong các ngữ cảnh pháp lý để phân loại lồng nhau."
+keywords:
+  - phân cấp danh mục
+  - danh mục pháp lý
+  - phân loại lồng nhau
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

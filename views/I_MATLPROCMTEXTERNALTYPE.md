@@ -1,6 +1,11 @@
 ---
 name: I_MATLPROCMTEXTERNALTYPE
 description: Matlprocmtexternaltype
+semantic_en: "Material procurement external type — enumeration of externally-recognized procurement method types for materials."
+semantic_vi: "Loại bên ngoài mua sắm vật liệu — liệt kê các loại phương pháp mua sắm được công nhận bên ngoài cho vật liệu."
+keywords:
+  - mua sắm
+  - loại vật liệu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

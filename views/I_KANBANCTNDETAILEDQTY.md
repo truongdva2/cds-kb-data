@@ -1,6 +1,12 @@
 ---
 name: I_KANBANCTNDETAILEDQTY
 description: Kanbanctndetailedqty
+semantic_en: "kanban container detailed quantities — batch-level quantity breakdown for kanban containers by product and supplier"
+semantic_vi: "số lượng chi tiết thùng chứa Kanban — phân tích chi tiết số lượng theo lô cho các thùng chứa Kanban theo sản phẩm và nhà cung cấp"
+keywords:
+  - số lượng chi tiết
+  - theo lô
+  - thùng chứa
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

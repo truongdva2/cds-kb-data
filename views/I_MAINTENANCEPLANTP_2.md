@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEPLANTP_2
 description: Maintenance PlanTP 2
+semantic_en: "maintenance plan interface projection with strategy and scheduling details — key columns: MaintenancePlan, MaintenanceStrategy, SchedulingDuration, CycleModificationRatio"
+semantic_vi: "giao diện kế hoạch bảo trì với chi tiết chiến lược và lập lịch — cột chính: kế hoạch, chiến lược, thời lượng lập lịch, tỷ lệ sửa đổi chu kỳ"
+keywords:
+  - kế hoạch bảo trì
+  - chiến lược bảo trì
+  - lập lịch
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

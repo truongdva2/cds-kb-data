@@ -1,6 +1,12 @@
 ---
 name: I_MRPEXCEPTIONMESSAGE
 description: Mrpexceptionmessage
+semantic_en: "MRP exception message — defines exception alert codes generated during MRP runs with priority and selection group settings"
+semantic_vi: "thông báo ngoại lệ MRP — xác định mã cảnh báo ngoại lệ được tạo trong quá trình chạy MRP với cài đặt ưu tiên và nhóm lựa chọn"
+keywords:
+  - MRP
+  - ngoại lệ
+  - thông báo
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

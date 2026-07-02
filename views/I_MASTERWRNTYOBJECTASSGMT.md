@@ -1,6 +1,12 @@
 ---
 name: I_MASTERWRNTYOBJECTASSGMT
 description: Masterwrntyobjectassgmt
+semantic_en: "master warranty object assignment — warranty relationship data with start/end dates and inheritance flags"
+semantic_vi: "gán đối tượng bảo hành chính — dữ liệu bảo hành với ngày bắt đầu/kết thúc và cờ thừa kế"
+keywords:
+  - bảo hành
+  - ngày bảo hành
+  - đối tượng
 app_component: PM-EQM-SF-WA-2CL
 software_component: SAPSCORE
 release_state: released

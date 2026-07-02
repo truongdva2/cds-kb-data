@@ -1,6 +1,11 @@
 ---
 name: I_LOCATIONADDRESSDATATEXT
 description: Locationaddressdatatext
+semantic_en: "location address data text — stores location additional address text and business purpose completion flag."
+semantic_vi: "văn bản dữ liệu địa chỉ — lưu trữ văn bản địa chỉ bổ sung và cờ hoàn thành mục đích kinh doanh."
+keywords:
+  - địa chỉ bổ sung
+  - mục đích kinh doanh
 app_component: TM-MD-TN-LOC-2CL
 software_component: SAPSCORE
 release_state: released

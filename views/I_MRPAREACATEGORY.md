@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREACATEGORY
 description: Mrpareacategory
+semantic_en: "MRP area category — domain value list defining classification types for MRP planning areas"
+semantic_vi: "danh mục khu vực MRP — danh sách giá trị miền xác định các kiểu phân loại cho khu vực kế hoạch MRP"
+keywords:
+  - MRP
+  - danh mục
+  - phân loại
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

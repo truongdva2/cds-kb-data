@@ -1,6 +1,12 @@
 ---
 name: I_MEANSOFTRANSPORTTYPETEXT
 description: Meansoftransporttypetext
+semantic_en: "Packaging material type text — multilingual names for packaging material types."
+semantic_vi: "Văn bản loại vật liệu đóng gói — tên đa ngôn ngữ cho loại vật liệu đóng gói."
+keywords:
+  - đóng gói
+  - loại
+  - tên
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

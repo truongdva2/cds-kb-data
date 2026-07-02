@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMGOVLAWAPI01
 description: Lglcntntmgovlawapi 01
+semantic_en: "Governing law — defines jurisdiction and legal frameworks applicable to legal content."
+semantic_vi: "Luật điều chỉnh — xác định quyền tài phán và các khung pháp lý áp dụng cho nội dung pháp lý."
+keywords:
+  - luật điều chỉnh
+  - quyền tài phán
+  - khung pháp lý
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

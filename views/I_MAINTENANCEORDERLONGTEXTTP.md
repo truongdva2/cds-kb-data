@@ -1,6 +1,11 @@
 ---
 name: I_MAINTENANCEORDERLONGTEXTTP
 description: Maintenance OrderLONGTEXTTP
+semantic_en: "maintenance order long text TP — stores long text descriptions for maintenance orders by language."
+semantic_vi: "văn bản dài đơn hàng bảo dưỡng TP — lưu trữ mô tả văn bản dài theo ngôn ngữ."
+keywords:
+  - đơn hàng bảo dưỡng
+  - văn bản dài
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

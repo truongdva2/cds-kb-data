@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALBOMLINKDEX_2
 description: Materialbomlinkdex 2
+semantic_en: "bill of material link data extraction — material-bom link extraction with base unit and lot size details"
+semantic_vi: "trích xuất liên kết hóa đơn vật tư — dữ liệu liên kết vật tư với đơn vị cơ sở và kích cỡ lô"
+keywords:
+  - hóa đơn vật tư
+  - liên kết
+  - kích cỡ lô
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

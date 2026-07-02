@@ -1,6 +1,12 @@
 ---
 name: I_KR_ELECTRONICDOCSELFBILLINVC
 description: KR Electronicdocselfbillinvc
+semantic_en: "Korean self-billing electronic invoice — records approval numbers, business place data, customer classification, and tax values for self-billing scenarios."
+semantic_vi: "hóa đơn điện tử tự lập của Hàn Quốc — ghi lại số phê duyệt, dữ liệu địa điểm kinh doanh, phân loại khách hàng và giá trị thuế cho các kịch bản tự lập hóa đơn."
+keywords:
+  - hóa đơn tự lập điện tử
+  - khai thuế tự lập KR
+  - tài liệu kinh doanh KR
 app_component: CA-GTF-CSC-EDO-KR
 software_component: SAPSCORE
 release_state: released

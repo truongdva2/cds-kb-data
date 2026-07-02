@@ -1,6 +1,12 @@
 ---
 name: I_MANUFACTURINGORDERLONGTEXT
 description: Manufacturingorderlongtext
+semantic_en: "manufacturing order long text — language-dependent extended text descriptions for manufacturing orders"
+semantic_vi: "mô tả văn bản dài đa ngôn ngữ cho lệnh sản xuất"
+keywords:
+  - lệnh sản xuất
+  - mô tả dài
+  - ngôn ngữ
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

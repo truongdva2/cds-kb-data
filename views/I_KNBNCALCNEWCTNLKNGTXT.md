@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCALCNEWCTNLKNGTXT
 description: Knbncalcnewctnlkngtxt
+semantic_en: "kanban calculation new container locking text — multilingual descriptions for container locking strategies"
+semantic_vi: "văn bản khóa thùng chứa mới tính toán Kanban — mô tả đa ngôn ngữ cho các chiến lược khóa thùng chứa"
+keywords:
+  - mô tả khóa
+  - ngôn ngữ
+  - chiến lược
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

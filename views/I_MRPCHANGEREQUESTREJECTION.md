@@ -1,6 +1,12 @@
 ---
 name: I_MRPCHANGEREQUESTREJECTION
 description: Mrpchangerequestrejection
+semantic_en: "MRP change request rejection — reason codes for rejecting MRP supply plan modification requests"
+semantic_vi: "từ chối yêu cầu thay đổi MRP — mã lý do từ chối các yêu cầu sửa đổi kế hoạch cung ứng MRP"
+keywords:
+  - MRP
+  - yêu cầu thay đổi
+  - từ chối
 app_component: PP-FIO-2CL
 software_component: SAPSCORE
 release_state: released

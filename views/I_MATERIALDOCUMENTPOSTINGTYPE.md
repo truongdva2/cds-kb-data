@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALDOCUMENTPOSTINGTYPE
 description: Materialdocumentpostingtype
+semantic_en: "material document posting type — classification codes for material document posting methods"
+semantic_vi: "mã phân loại loại ghi sổ tài liệu vật tư"
+keywords:
+  - tài liệu vật tư
+  - loại ghi sổ
+  - phân loại
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

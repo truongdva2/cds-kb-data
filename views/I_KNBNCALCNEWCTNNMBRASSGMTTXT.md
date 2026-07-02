@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCALCNEWCTNNMBRASSGMTTXT
 description: Knbncalcnewctnnmbrassgmttxt
+semantic_en: "kanban calculation number assignment text — multilingual names for number assignment classification types"
+semantic_vi: "văn bản gán số tính toán Kanban — tên đa ngôn ngữ cho các loại phân loại gán số"
+keywords:
+  - tên gán số
+  - ngôn ngữ
+  - phân loại
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

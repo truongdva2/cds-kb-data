@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALFREIGHTGROUP
 description: Materialfreightgroup
+semantic_en: "material freight group — classification for material freight cost calculation grouping"
+semantic_vi: "nhóm cước vận chuyển vật tư — phân loại cho tính toán cước vận chuyển"
+keywords:
+  - vật tư
+  - cước vận chuyển
+  - nhóm
 app_component: TM-MD-PR-2CL
 software_component: SAPSCORE
 release_state: released

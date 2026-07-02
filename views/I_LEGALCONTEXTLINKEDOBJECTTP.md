@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTLINKEDOBJECTTP
 description: Legalcontextlinkedobjecttp
+semantic_en: "Legal context linked objects — establishes relationships between legal contexts and associated external objects with mandatory and integration flags."
+semantic_vi: "đối tượng được liên kết của ngữ cảnh pháp lý — thiết lập mối quan hệ giữa các ngữ cảnh pháp lý và các đối tượng bên ngoài liên quan với cờ bắt buộc và tích hợp."
+keywords:
+  - liên kết đối tượng
+  - quản lý quan hệ
+  - tích hợp
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

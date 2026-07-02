@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDERSETTLMTDISTRRULETP
 description: Maintordersettlmtdistrruletp
+semantic_en: "maintenance order settlement distribution rule in target projection with controlling object and percentages — key columns: MaintenanceOrder, Ledger, SettlementType, SettlementPercentageRate"
+semantic_vi: "quy tắc phân bổ quyết toán đơn hàng bảo trì trong hình chiếu đích với đối tượng điều khiển và tỷ lệ phần trăm — cột chính: đơn hàng, sổ cái, loại quyết toán, tỷ lệ phần trăm quyết toán"
+keywords:
+  - quyết toán bảo trì
+  - phân bổ chi phí
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

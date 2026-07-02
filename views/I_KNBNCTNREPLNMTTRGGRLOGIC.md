@@ -1,6 +1,12 @@
 ---
 name: I_KNBNCTNREPLNMTTRGGRLOGIC
 description: Knbnctnreplnmttrggrlogic
+semantic_en: "replenishment trigger logic domain — classification for kanban container replenishment trigger mechanisms"
+semantic_vi: "miền logic kích hoạt bổ sung lại — phân loại cho các cơ chế kích hoạt bổ sung lại thùng chứa Kanban"
+keywords:
+  - logic kích hoạt
+  - bổ sung lại
+  - thùng chứa Kanban
 app_component: PP-KAB-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_MRPPROFILETEXT
 description: Mrpprofiletext
+semantic_en: "MRP profile text — multilingual descriptions of MRP configuration profiles"
+semantic_vi: "văn bản hồ sơ MRP — mô tả đa ngôn ngữ cho hồ sơ cấu hình MRP"
+keywords:
+  - MRP
+  - hồ sơ
+  - tên
+  - cấu hình
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

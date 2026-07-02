@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSDOCLINKAPI01
 description: Lgltransdoclinkapi 01
+semantic_en: "Linked documents of legal transaction — associates external documents with legal transactions by document reference."
+semantic_vi: "Tài liệu liên kết của giao dịch pháp lý — kết hợp tài liệu bên ngoài với giao dịch pháp lý theo tham chiếu tài liệu."
+keywords:
+  - tài liệu liên kết
+  - giao dịch pháp lý
+  - tham chiếu tài liệu
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

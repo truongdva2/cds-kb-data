@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMCNTXTSTATUSTXTAPI01
 description: Lglcntntmcntxtstatustxtapi 01
+semantic_en: "Context status text — multilingual labels for legal content context status codes."
+semantic_vi: "Nhãn trạng thái ngữ cảnh — cung cấp nhãn đa ngôn ngữ cho các mã trạng thái ngữ cảnh nội dung pháp lý."
+keywords:
+  - trạng thái ngữ cảnh
+  - mã trạng thái
+  - dữ liệu đa ngôn ngữ
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

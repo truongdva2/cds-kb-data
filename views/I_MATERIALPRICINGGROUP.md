@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALPRICINGGROUP
 description: Materialpricinggroup
+semantic_en: "material pricing group — classification code for material price calculation grouping"
+semantic_vi: "nhóm định giá vật tư — mã phân loại cho tính toán giá vật tư"
+keywords:
+  - vật tư
+  - định giá
+  - nhóm
 app_component: SD-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

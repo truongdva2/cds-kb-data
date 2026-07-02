@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEITEMTP_2
 description: Maintenanceitemtp 2
+semantic_en: "maintenance item TP — displays maintenance item with strategy, plan category, functional location, and equipment references."
+semantic_vi: "mục bảo dưỡng TP — hiển thị mục với chiến lược, loại kế hoạch, vị trí chức năng, tham chiếu thiết bị."
+keywords:
+  - chiến lược bảo dưỡng
+  - loại kế hoạch
+  - thiết bị
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

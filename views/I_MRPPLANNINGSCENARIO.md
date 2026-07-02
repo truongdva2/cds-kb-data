@@ -1,6 +1,13 @@
 ---
 name: I_MRPPLANNINGSCENARIO
 description: Mrpplanningscenario
+semantic_en: "MRP planning scenario — represents a planning version with period dates and status tracking for supply plan simulations"
+semantic_vi: "kịch bản kế hoạch MRP — đại diện cho phiên bản kế hoạch với ngày kỳ và theo dõi trạng thái cho mô phỏng kế hoạch cung ứng"
+keywords:
+  - MRP
+  - kịch bản
+  - kế hoạch
+  - mô phỏng
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

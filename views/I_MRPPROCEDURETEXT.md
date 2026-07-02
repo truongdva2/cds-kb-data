@@ -1,6 +1,12 @@
 ---
 name: I_MRPPROCEDURETEXT
 description: Mrpproceduretext
+semantic_en: "MRP procedure text — multilingual descriptions of MRP calculation procedures and their codes"
+semantic_vi: "văn bản thủ tục MRP — mô tả đa ngôn ngữ cho các thủ tục tính toán MRP và mã của chúng"
+keywords:
+  - MRP
+  - thủ tục
+  - mô tả
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCESTRATEGYT
 description: Maintenancestrategyt
+semantic_en: "maintenance strategy description in language context — key columns: MaintenanceStrategy, Language, MaintenanceStrategyDesc"
+semantic_vi: "mô tả chiến lược bảo trì theo ngôn ngữ — cột chính: chiến lược, ngôn ngữ, mô tả chiến lược"
+keywords:
+  - chiến lược bảo trì
+  - mô tả chiến lược
+  - ngôn ngữ
 app_component: PM-PRM-MP-2CL
 software_component: SAPSCORE
 release_state: released

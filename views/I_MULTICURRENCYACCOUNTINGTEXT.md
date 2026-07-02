@@ -1,6 +1,12 @@
 ---
 name: I_MULTICURRENCYACCOUNTINGTEXT
 description: Multicurrencyaccountingtext
+semantic_en: "multiple currency accounting text — multilingual names for multi-currency accounting code classifications"
+semantic_vi: "văn bản kế toán đa tiền tệ — tên đa ngôn ngữ cho phân loại mã kế toán đa tiền tệ"
+keywords:
+  - tiền tệ
+  - kế toán
+  - tên
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

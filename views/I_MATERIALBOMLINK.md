@@ -1,6 +1,12 @@
 ---
 name: I_MATERIALBOMLINK
 description: Materialbomlink
+semantic_en: "material link for bill of material — material-to-bom relationships with plant and lot size ranges"
+semantic_vi: "liên kết vật tư với hóa đơn vật tư — quan hệ vật tư theo nhà máy và phạm vi kích cỡ lô"
+keywords:
+  - vật tư
+  - hóa đơn
+  - liên kết
 app_component: LO-MD-BOM-2CL
 software_component: SAPSCORE
 release_state: released

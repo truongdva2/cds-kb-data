@@ -1,6 +1,12 @@
 ---
 name: I_LOADINGGROUP
 description: Loadinggroup
+semantic_en: "loading group master — provides loading group code identifier for logistics execution grouping."
+semantic_vi: "nhóm xếp hàng chính — cung cấp mã định danh nhóm xếp hàng cho phân nhóm thực hiện logistic."
+keywords:
+  - nhóm xếp hàng
+  - logistics
+  - mã nhóm
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

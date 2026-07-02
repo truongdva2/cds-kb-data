@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDEROPERATIONBASIC
 description: Maintorderoperationbasic
+semantic_en: "maintenance order operation with work center and control key assignment — key columns: MaintenanceOrder, MaintenanceOrderOperation, OperationWorkCenterInternalID, OperationControlKey"
+semantic_vi: "hoạt động đơn hàng bảo trì với gán trung tâm làm việc và khóa điều khiển — cột chính: đơn hàng, hoạt động, trung tâm làm việc, khóa điều khiển"
+keywords:
+  - hoạt động bảo trì
+  - trung tâm làm việc
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

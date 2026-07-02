@@ -1,6 +1,12 @@
 ---
 name: I_MRCHDSCATHIERNODETOPARENT
 description: Mrchdscathiernodetoparent
+semantic_en: "merchandise category hierarchy node to parent — defines parent-child relationships between nodes in the merchandise category hierarchy"
+semantic_vi: "nút hạng mục hàng hóa đến nút cha — xác định mối quan hệ cha-con giữa các nút trong hệ thống phân cấp danh mục hàng hóa"
+keywords:
+  - phân cấp hàng hóa
+  - quan hệ cha-con
+  - cấu trúc danh mục
 app_component: LO-RFM-MD-MC
 software_component: SAPSCORE
 release_state: released

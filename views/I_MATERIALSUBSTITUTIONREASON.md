@@ -1,6 +1,11 @@
 ---
 name: I_MATERIALSUBSTITUTIONREASON
 description: Materialsubstitutionreason
+semantic_en: "Material substitution reason — domain values for reasons why materials can be substituted in sales operations."
+semantic_vi: "Lý do thay thế vật liệu — giá trị miền cho các lý do thay thế vật liệu trong hoạt động bán hàng."
+keywords:
+  - thay thế vật liệu
+  - lý do thay thế
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

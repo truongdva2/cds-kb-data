@@ -1,6 +1,12 @@
 ---
 name: I_MRPAREAVH
 description: Mrpareavh
+semantic_en: "MRP area value help — search-enabled view of MRP areas with category and descriptive text for input assistance"
+semantic_vi: "trợ giúp giá trị khu vực MRP — chế độ xem khu vực MRP có thể tìm kiếm với danh mục và văn bản mô tả để hỗ trợ nhập liệu"
+keywords:
+  - MRP
+  - khu vực
+  - tìm kiếm
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

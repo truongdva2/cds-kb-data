@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSINTCONTACTAPI01
 description: Lgltransintcontactapi 01
+semantic_en: "Internal contacts of legal transaction — lists internal users and teams responsible for legal transactions with role and type indicators."
+semantic_vi: "Liên hệ nội bộ của giao dịch pháp lý — liệt kê người dùng và nhóm nội bộ chịu trách nhiệm cho giao dịch pháp lý với các chỉ báo vai trò và loại."
+keywords:
+  - liên hệ nội bộ
+  - người dùng nội bộ
+  - nhóm pháp lý
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

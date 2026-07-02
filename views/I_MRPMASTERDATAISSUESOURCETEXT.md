@@ -1,6 +1,13 @@
 ---
 name: I_MRPMASTERDATAISSUESOURCETEXT
 description: Mrpmasterdataissuesourcetext
+semantic_en: "source of an MRP master data issue text — multilingual descriptions of MRP data quality issue source codes"
+semantic_vi: "văn bản nguồn gốc vấn đề dữ liệu chính MRP — mô tả đa ngôn ngữ cho mã nguồn gốc vấn đề chất lượng dữ liệu MRP"
+keywords:
+  - MRP
+  - vấn đề dữ liệu
+  - nguồn gốc
+  - mô tả
 app_component: PP-MRP-2CL
 software_component: SAPSCORE
 release_state: released

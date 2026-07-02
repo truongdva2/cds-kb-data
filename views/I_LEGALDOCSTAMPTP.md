@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCSTAMPTP
 description: Legaldocstamptp
+semantic_en: "Legal document stamp transactional proxy — records document stamps with creation audit trail for document authentication and tracking."
+semantic_vi: "ủy quyền giao dịch con dấu tài liệu pháp lý — ghi lại các dấu hiệu tài liệu với theo dõi kiểm toán tạo cho xác thực và theo dõi tài liệu."
+keywords:
+  - con dấu tài liệu
+  - xác thực tài liệu
+  - theo dõi kiểm toán
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

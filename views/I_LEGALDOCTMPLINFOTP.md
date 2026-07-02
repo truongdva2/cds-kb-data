@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCTMPLINFOTP
 description: Legaldoctmplinfotp
+semantic_en: "Legal document template info transactional proxy — maintains template metadata including template version and date for document templates."
+semantic_vi: "ủy quyền giao dịch thông tin mẫu tài liệu pháp lý — duy trì siêu dữ liệu mẫu bao gồm phiên bản mẫu và ngày cho các mẫu tài liệu."
+keywords:
+  - mẫu tài liệu pháp lý
+  - phiên bản mẫu
+  - quản lý mẫu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released

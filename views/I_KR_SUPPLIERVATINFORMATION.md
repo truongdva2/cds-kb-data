@@ -1,6 +1,12 @@
 ---
 name: I_KR_SUPPLIERVATINFORMATION
 description: KR Suppliervatinformation
+semantic_en: "Korean time-dependent VAT supplier information — maintains tax invoice numbers, business types, industry classification, and responsible contact details for suppliers."
+semantic_vi: "thông tin VAT nhà cung cấp phụ thuộc thời gian của Hàn Quốc — duy trì số hóa đơn thuế, loại kinh doanh, phân loại ngành và chi tiết liên hệ chịu trách nhiệm cho các nhà cung cấp."
+keywords:
+  - thông tin VAT nhà cung cấp
+  - dữ liệu thuế nhà cung cấp KR
+  - thông tin liên hệ thuế
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

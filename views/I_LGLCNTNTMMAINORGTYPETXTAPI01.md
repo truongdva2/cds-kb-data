@@ -1,6 +1,12 @@
 ---
 name: I_LGLCNTNTMMAINORGTYPETXTAPI01
 description: Lglcntntmmainorgtypetxtapi 01
+semantic_en: "Main organisation type text — provides multilingual names for main organization type classifications."
+semantic_vi: "Tên loại tổ chức chính — cung cấp tên đa ngôn ngữ cho các phân loại loại tổ chức chính."
+keywords:
+  - loại tổ chức chính
+  - dữ liệu đa ngôn ngữ
+  - phân loại tổ chức
 app_component: CM-GF-2CL
 software_component: SAPSCORE
 release_state: released

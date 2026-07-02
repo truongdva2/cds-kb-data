@@ -1,6 +1,13 @@
 ---
 name: I_MRPLOTSIZINGPROCEDURETEXT
 description: Mrplotsizingproceduretext
+semantic_en: "MRP lot sizing procedure text — multilingual names for material lot sizing procedures"
+semantic_vi: "văn bản thủ tục xác định kích thước lô MRP — tên đa ngôn ngữ cho các thủ tục xác định kích thước lô vật liệu"
+keywords:
+  - MRP
+  - kích thước lô
+  - quy trình
+  - tên
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

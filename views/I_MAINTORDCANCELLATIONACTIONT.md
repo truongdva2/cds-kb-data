@@ -1,6 +1,11 @@
 ---
 name: I_MAINTORDCANCELLATIONACTIONT
 description: Maintordcancellationactiont
+semantic_en: "maintenance order cancellation action description in language — key columns: Language, MaintOrdCancellationAction, MaintOrdCancellationActionTxt"
+semantic_vi: "mô tả hành động hủy đơn hàng bảo trì theo ngôn ngữ — cột chính: ngôn ngữ, hành động hủy, mô tả"
+keywords:
+  - hành động hủy
+  - mô tả hủy
 app_component: PM-WOC-2CL
 software_component: SAPSCORE
 release_state: released

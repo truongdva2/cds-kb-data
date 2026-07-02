@@ -1,6 +1,12 @@
 ---
 name: I_LEGALCONTEXTENTITYTP
 description: Legalcontextentitytp
+semantic_en: "Legal context entity — specifies entities associated with legal contexts with rank, type, and mandatory/main entity designations for integration."
+semantic_vi: "thực thể ngữ cảnh pháp lý — chỉ định các thực thể liên quan đến các ngữ cảnh pháp lý với xếp hạng, loại và chỉ định thực thể bắt buộc/chính cho tích hợp."
+keywords:
+  - thực thể pháp lý
+  - liên kết thực thể
+  - tích hợp pháp lý
 app_component: CM-CTX-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_LEGALTRANSRNWLANDTERMNTP_2
 description: Legaltransrnwlandtermntp 2
+semantic_en: "Legal transaction renewal and termination — manages renewal cycles, terms, and termination dates with reminder settings."
+semantic_vi: "Gia hạn và chấm dứt giao dịch pháp lý — quản lý các chu kỳ gia hạn, điều khoản và ngày chấm dứt với cài đặt nhắc nhở."
+keywords:
+  - gia hạn hợp đồng
+  - chấm dứt hợp đồng
+  - chu kỳ gia hạn
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

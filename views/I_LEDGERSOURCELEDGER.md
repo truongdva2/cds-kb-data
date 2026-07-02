@@ -1,6 +1,12 @@
 ---
 name: I_LEDGERSOURCELEDGER
 description: Ledgersourceledger
+semantic_en: "Mapping between ledger and source ledger — establishes relationships between primary and source ledgers for data consolidation."
+semantic_vi: "ánh xạ giữa sổ cái và sổ cái nguồn — thiết lập mối quan hệ giữa sổ cái chính và sổ cái nguồn để hợp nhất dữ liệu."
+keywords:
+  - ánh xạ sổ cái
+  - sổ cái nguồn
+  - hợp nhất tài chính
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

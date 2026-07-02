@@ -1,6 +1,12 @@
 ---
 name: I_LGLTRANSMANDFLAGTXTAPI01
 description: Lgltransmandflagtxtapi 01
+semantic_en: "Mandatory flag text — provides multilingual descriptions for legal transaction mandatory field indicators."
+semantic_vi: "Mô tả cờ bắt buộc — cung cấp mô tả đa ngôn ngữ cho các chỉ báo trường bắt buộc của giao dịch pháp lý."
+keywords:
+  - cờ bắt buộc
+  - dữ liệu đa ngôn ngữ
+  - trường bắt buộc
 app_component: CM-LT-2CL
 software_component: SAPSCORE
 release_state: released

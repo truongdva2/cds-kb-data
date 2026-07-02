@@ -1,6 +1,12 @@
 ---
 name: I_MAINTORDOPCOMPSPCLSTKTYPETXT
 description: Maintordopcompspclstktypetxt
+semantic_en: "maintenance order component special stock type text — language-dependent descriptions of special stock classifications for maint order materials"
+semantic_vi: "mô tả loại hàng tồn kho đặc biệt cho vật tư bảo trì đa ngôn ngữ"
+keywords:
+  - loại hàng tồn kho
+  - vật tư bảo trì
+  - mô tả
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

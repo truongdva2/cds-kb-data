@@ -1,6 +1,12 @@
 ---
 name: I_MAINTENANCEORDERTP
 description: Maintenance OrderTP
+semantic_en: "maintenance order projection TP — aggregates order details with routing, scheduling, and date-time information."
+semantic_vi: "phép chiếu đơn hàng bảo dưỡng TP — tổng hợp chi tiết với định tuyến, lịch trình, thông tin ngày giờ."
+keywords:
+  - đơn hàng bảo dưỡng
+  - lịch trình
+  - định tuyến
 app_component: PM-WOC-MO-2CL
 software_component: SAPSCORE
 release_state: released

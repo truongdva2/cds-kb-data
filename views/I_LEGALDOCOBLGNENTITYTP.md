@@ -1,6 +1,12 @@
 ---
 name: I_LEGALDOCOBLGNENTITYTP
 description: Legaldocoblgnentitytp
+semantic_en: "Legal document obligation entities transactional proxy — links entities subject to legal document obligations with entity type specifications for obligation tracking."
+semantic_vi: "ủy quyền giao dịch thực thể nghĩa vụ tài liệu pháp lý — liên kết các thực thể phải tuân theo các nghĩa vụ tài liệu pháp lý với thông số loại thực thể để theo dõi nghĩa vụ."
+keywords:
+  - thực thể nghĩa vụ
+  - quản lý nghĩa vụ pháp lý
+  - theo dõi tài liệu
 app_component: CM-DOC-2CL
 software_component: SAPSCORE
 release_state: released
