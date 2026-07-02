@@ -1,6 +1,12 @@
 ---
 name: I_BSORDITMSUBSCRPNPARAMTP_2
 description: Bsorditmsubscrpnparamtp 2
+semantic_en: "subscription order item parameter projection — subscription billing parameters for solution order items with parameter sequence numbers and integer values."
+semantic_vi: "hình chiếu tham số đơn hàng giải pháp — các tham số lập hóa đơn thuê bao cho các mục đơn hàng giải pháp kỹ thuật."
+keywords:
+  - tham số thuê bao
+  - tham số lập hóa đơn
+  - đơn hàng giải pháp
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

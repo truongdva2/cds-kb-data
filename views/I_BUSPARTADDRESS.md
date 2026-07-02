@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTADDRESS
 description: Business PartnerADDRESS
+semantic_en: "business partner address — contact location records with validity periods and external reference identifiers."
+semantic_vi: "địa chỉ đối tác kinh doanh — tài liệu địa chỉ liên hệ với ngày hiệu lực và mã tham chiếu ngoài."
+keywords:
+  - địa chỉ
+  - đối tác
+  - liên hệ
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMUSERSTATUSTP
 description: Bussolnorditmuserstatustp
+semantic_en: "user-defined statuses for solution order items — tracks item-level workflow and business process status assignments"
+semantic_vi: "các trạng thái do người dùng định nghĩa cho các mục đơn hàng giải pháp — theo dõi quy trình công việc cấp mục và gán trạng thái quy trình kinh doanh"
+keywords:
+  - trạng thái mục
+  - quy trình công việc
+  - hồ sơ trạng thái
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

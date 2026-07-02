@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNEREMPLOYEEGROUP
 description: Business PartnerEMPLOYEEGROUP
+semantic_en: "business partner employee group — classification of business partners as employee group codes."
+semantic_vi: "nhóm nhân viên đối tác kinh doanh — phân loại các đối tác kinh doanh dưới dạng mã nhóm nhân viên."
+keywords:
+  - nhóm nhân viên
+  - đối tác kinh doanh
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

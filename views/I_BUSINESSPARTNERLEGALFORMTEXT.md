@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERLEGALFORMTEXT
 description: Business PartnerLEGALFORMTEXT
+semantic_en: "business partner legal form text — localized short and long descriptions of legal forms."
+semantic_vi: "văn bản hình thức pháp lý đối tác kinh doanh — mô tả ngắn và dài địa phương hóa các hình thức pháp lý."
+keywords:
+  - hình thức pháp lý
+  - mô tả pháp lý
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

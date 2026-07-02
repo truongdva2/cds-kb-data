@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSACTIONCATEGORYVH
 description: Bustransactioncategoryvh
+semantic_en: "value help for business transaction categories — lookup list of available transaction categories for filtering"
+semantic_vi: "trợ giúp giá trị cho các danh mục giao dịch kinh doanh — danh sách tra cứu các danh mục giao dịch có sẵn để lọc"
+keywords:
+  - danh sách tra cứu
+  - danh mục giao dịch
+  - lọc giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

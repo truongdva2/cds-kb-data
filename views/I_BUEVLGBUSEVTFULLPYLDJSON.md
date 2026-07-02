@@ -1,6 +1,12 @@
 ---
 name: I_BUEVLGBUSEVTFULLPYLDJSON
 description: Buevlgbusevtfullpyldjson
+semantic_en: "business event payload JSON — complete business event data with JSON-formatted payload and change timestamps."
+semantic_vi: "dữ liệu tải trọng sự kiện kinh doanh — dữ liệu sự kiện kinh doanh hoàn chỉnh với tải trọng dạng JSON và dấu thời gian thay đổi."
+keywords:
+  - sự kiện kinh doanh
+  - JSON
+  - tải trọng
 app_component: CA-GTF-BEL
 software_component: SAP_BASIS
 release_state: released

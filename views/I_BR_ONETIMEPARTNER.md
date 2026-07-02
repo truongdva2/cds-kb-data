@@ -1,6 +1,12 @@
 ---
 name: I_BR_ONETIMEPARTNER
 description: BR Onetimepartner
+semantic_en: "Brazil one-time partner for Nota Fiscal — stores partner details for one-off transactions including name, tax identification, and address (BR_NotaFiscal, BR_PartnerFunction, BusinessPartnerName1, BusinessPartnerName2, BR_PartnerCNPJ, BR_PartnerCPF, BR_PartnerStateTaxNumberST, BusinessPartnerTaxJurisdiction, BusinessPartnerStreetNameOnly, BusinessPartnerStreetName, BusinessPartnerHouseNumber, BPHsNmbrSuplmntTxt, BusinessPartnerDistrict)."
+semantic_vi: "đối tác một lần cho Nota Fiscal Brazil — lưu trữ chi tiết đối tác cho các giao dịch một lần bao gồm tên, xác định thuế và địa chỉ (BR_NotaFiscal, BR_PartnerFunction, BusinessPartnerName1, BusinessPartnerName2, BR_PartnerCNPJ, BR_PartnerCPF, BR_PartnerStateTaxNumberST, BusinessPartnerTaxJurisdiction, BusinessPartnerStreetNameOnly, BusinessPartnerStreetName, BusinessPartnerHouseNumber, BPHsNmbrSuplmntTxt, BusinessPartnerDistrict)."
+keywords:
+  - đối tác một lần
+  - CNPJ, CPF
+  - chi tiết đối tác Nota Fiscal
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

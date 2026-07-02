@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTWEBSITETP_3
 description: Business PartnerWEBSITETP 3
+semantic_en: "business partner website timeline — web address records with URL field lengths and data controller tracking."
+semantic_vi: "lịch trình website đối tác — trang web với đường dẫn URL, người kiểm soát dữ liệu."
+keywords:
+  - website
+  - URL
+  - liên hệ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

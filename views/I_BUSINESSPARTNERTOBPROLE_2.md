@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTOBPROLE_2
 description: Business PartnerTOBPROLE 2
+semantic_en: "business partner to business partner role assignment — associations of business partners to roles with difference type tracking."
+semantic_vi: "gán đối tác kinh doanh đến vai trò đối tác kinh doanh — liên kết các đối tác kinh doanh với vai trò có theo dõi loại khác biệt."
+keywords:
+  - gán vai trò
+  - đối tác kinh doanh
+  - loại khác biệt
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

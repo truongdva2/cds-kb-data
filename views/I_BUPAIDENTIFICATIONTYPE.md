@@ -1,6 +1,12 @@
 ---
 name: I_BUPAIDENTIFICATIONTYPE
 description: Bupaidentificationtype
+semantic_en: "business partner identification type master — configuration of identification types for persons, organizations, and groups."
+semantic_vi: "loại nhận dạng đối tác kinh doanh chính — cấu hình các loại nhận dạng cho người, tổ chức và nhóm."
+keywords:
+  - loại nhận dạng
+  - đối tác kinh doanh
+  - cấu hình
 app_component: BC-SRV-BP
 software_component: SAP_BASIS
 release_state: released

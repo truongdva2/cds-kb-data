@@ -1,6 +1,12 @@
 ---
 name: I_BR_SIMPLESSUPPLIERTAXRATE
 description: BR Simplessuppliertaxrate
+semantic_en: "Brazil Simples Nacional supplier tax rate — tracks tax rates by fiscal period and supplier class code with data controller audit trail (Supplier, FiscalYear, FiscalMonth, BR_SIMPLESClassCode, BR_SIMPLESTaxRate, AuthorizationGroup, SupplierAccountGroup, DataControllerSet, DataController1, DataController2, DataController3, DataController4, DataController5, DataController6)."
+semantic_vi: "tỷ lệ thuế nhà cung cấp Simples Nacional Brazil — theo dõi tỷ lệ thuế theo kỳ tài chính và mã lớp nhà cung cấp với theo dõi kiểm toán bộ điều khiển dữ liệu (Supplier, FiscalYear, FiscalMonth, BR_SIMPLESClassCode, BR_SIMPLESTaxRate, AuthorizationGroup, SupplierAccountGroup, DataControllerSet, DataController1, DataController2, DataController3, DataController4, DataController5, DataController6)."
+keywords:
+  - tỷ lệ thuế Simples Nacional
+  - nhà cung cấp
+  - kỳ tài chính
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

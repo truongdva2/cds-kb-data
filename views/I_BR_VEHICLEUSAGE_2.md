@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEUSAGE_2
 description: BR Vehicleusage 2
+semantic_en: "value-help for Brazil vehicle usage — displays vehicle usage classification codes (VehicleUsage)."
+semantic_vi: "danh sách giá trị cho cách sử dụng phương tiện Brazil — hiển thị các mã phân loại cách sử dụng phương tiện (VehicleUsage)."
+keywords:
+  - cách sử dụng phương tiện
+  - phân loại sử dụng
+  - phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

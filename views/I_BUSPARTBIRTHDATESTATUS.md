@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTBIRTHDATESTATUS
 description: Business PartnerBIRTHDATESTATUS
+semantic_en: "birth date status — classification for partner birth date information completeness."
+semantic_vi: "trạng thái ngày sinh — phân loại tính toàn vẹn thông tin ngày sinh đối tác."
+keywords:
+  - ngày sinh
+  - trạng thái
+  - thông tin
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

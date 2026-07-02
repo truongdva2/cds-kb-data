@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERGROUPINGTEXT
 description: Business PartnerGROUPINGTEXT
+semantic_en: "business partner grouping text — localized descriptions of business partner grouping classifications."
+semantic_vi: "văn bản nhóm đối tác kinh doanh — mô tả địa phương hóa các phân loại nhóm đối tác kinh doanh."
+keywords:
+  - nhóm đối tác kinh doanh
+  - mô tả nhóm
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

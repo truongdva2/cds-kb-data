@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTAXNUMBER
 description: Business PartnerTAXNUMBER
+semantic_en: "business partner tax number — tax identification numbers and long tax numbers with authorization group."
+semantic_vi: "số thuế đối tác kinh doanh — số nhận dạng thuế cho các đối tác kinh doanh."
+keywords:
+  - số thuế
+  - đối tác kinh doanh
+  - nhân dạng thuế
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

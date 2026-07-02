@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDERCUBE
 description: Businesssolutionordercube
+semantic_en: "analytical cube for solution orders — aggregated net values with dimensions including sales organization, customer, and currency."
+semantic_vi: "khối dữ liệu phân tích cho đơn hàng giải pháp — tổng hợp giá trị ròng theo tổ chức bán hàng, khách hàng."
+keywords:
+  - phân tích đơn hàng giải pháp
+  - tổ chức bán hàng
+  - giá trị
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

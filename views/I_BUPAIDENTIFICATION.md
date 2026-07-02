@@ -1,6 +1,12 @@
 ---
 name: I_BUPAIDENTIFICATION
 description: Bupaidentification
+semantic_en: "business partner identification — identification documents and numbers for business partners with validity periods and issuing institutions."
+semantic_vi: "nhận dạng đối tác kinh doanh — các tài liệu và số nhận dạng cho các đối tác kinh doanh có thời gian hiệu lực."
+keywords:
+  - số nhận dạng
+  - đối tác kinh doanh
+  - hiệu lực
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFTEXTTYPEDESCRIPTION
 description: BR Nftexttypedescription
+semantic_en: "text translations for Brazil Nota Fiscal message type — stores language-specific message type descriptions (Language, BR_NFTextType, BR_NFTextTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại tin nhắn Nota Fiscal Brazil — lưu trữ mô tả loại tin nhắn theo ngôn ngữ (Language, BR_NFTextType, BR_NFTextTypeDesc)."
+keywords:
+  - mô tả loại tin nhắn
+  - dịch ngôn ngữ
+  - loại văn bản
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

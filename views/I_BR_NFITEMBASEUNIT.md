@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFITEMBASEUNIT
 description: BR Nfitembaseunit
+semantic_en: "base unit for Brazil Nota Fiscal line item — stores the unit of measure (BR_NotaFiscal, BR_NotaFiscalItem, BaseUnit)."
+semantic_vi: "đơn vị cơ sở cho mục dòng Nota Fiscal Brazil — lưu trữ đơn vị tính (BR_NotaFiscal, BR_NotaFiscalItem, BaseUnit)."
+keywords:
+  - đơn vị tính
+  - mục hàng Nota Fiscal
+  - cơ sở đơn vị
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

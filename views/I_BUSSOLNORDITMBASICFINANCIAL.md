@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMBASICFINANCIAL
 description: Bussolnorditmbasicfinancial
+semantic_en: "financial reporting view for solution order items — provides item descriptions, posting dates, and categorization for accounting"
+semantic_vi: "chế độ xem báo cáo tài chính cho các mục đơn hàng giải pháp — cung cấp mô tả mục, ngày ghi sổ và phân loại cho kế toán"
+keywords:
+  - báo cáo tài chính
+  - ngày ghi sổ
+  - phân loại mục
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

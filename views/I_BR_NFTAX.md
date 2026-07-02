@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFTAX
 description: BR Nftax
+semantic_en: "Brazil Nota Fiscal taxes — stores tax calculations by type including base amounts, rates, and statistical indicators (BR_NotaFiscal, BR_NotaFiscalItem, BR_TaxType, TaxGroup, BR_NFItemBaseAmount, BR_NFItemTaxRate, BR_NFItemTaxAmount, BR_NFItemExcludedBaseAmount, BR_NFItemOtherBaseAmount, BR_NFItemTaxBasePct1Unit, BR_NFItemTaxBasePct1, BR_NFItemTaxBasePct2Unit, BR_NFItemTaxBasePct2, BR_NFItemIsStatisticalTax)."
+semantic_vi: "thuế Nota Fiscal Brazil — lưu trữ tính toán thuế theo loại bao gồm cơ sở, tỷ lệ và chỉ báo thống kê (BR_NotaFiscal, BR_NotaFiscalItem, BR_TaxType, TaxGroup, BR_NFItemBaseAmount, BR_NFItemTaxRate, BR_NFItemTaxAmount, BR_NFItemExcludedBaseAmount, BR_NFItemOtherBaseAmount, BR_NFItemTaxBasePct1Unit, BR_NFItemTaxBasePct1, BR_NFItemTaxBasePct2Unit, BR_NFItemTaxBasePct2, BR_NFItemIsStatisticalTax)."
+keywords:
+  - tính toán thuế
+  - cơ sở thuế
+  - tỷ lệ thuế Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

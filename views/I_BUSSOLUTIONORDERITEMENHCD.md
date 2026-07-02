@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLUTIONORDERITEMENHCD
 description: Bussolutionorderitemenhcd
+semantic_en: "enhanced view of solution order line items — comprehensive item data including descriptions, UUIDs, and categorization"
+semantic_vi: "chế độ xem nâng cao của các mục hàng đơn hàng giải pháp — dữ liệu mục toàn diện bao gồm mô tả, UUID và phân loại"
+keywords:
+  - mục đơn hàng nâng cao
+  - dữ liệu mục toàn diện
+  - phân loại mục
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

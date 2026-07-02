@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMSCHEDULELINETP
 description: BUSSOLNORDITMSchedule LineTP
+semantic_en: "delivery schedule lines for solution order items — tracks requested and confirmed delivery dates and quantities"
+semantic_vi: "các dòng lịch trình giao hàng cho các mục đơn hàng giải pháp — theo dõi ngày giao hàng được yêu cầu và xác nhận cũng như số lượng"
+keywords:
+  - lịch trình giao hàng
+  - ngày giao hàng
+  - số lượng giao hàng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

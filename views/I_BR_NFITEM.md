@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFITEM
 description: BR Nfitem
+semantic_en: "Brazil Nota Fiscal line item — contains tax situation, base determination, and deferred amounts for ICMS, IPI, ISS, COFINS, and PIS (BR_NotaFiscal, BR_NotaFiscalItem, BR_ICMSTaxSituation, BR_IPITaxSituation, BR_ISSTaxSituation, BR_COFINSTaxSituation, BR_PISTaxSituation, BR_ICMSBaseDetn, BR_ICMSSTBaseDetermination, BR_ICMSSTLegalClassfctn, BR_SubstituteICMSAmount, BR_ICMSExemptionReason, BR_ICMSDefermentAmount, BR_ICMSDeferralTaxRate)."
+semantic_vi: "mục dòng Nota Fiscal Brazil — chứa tình huống thuế, xác định cơ sở và số tiền bị hoãn lại cho ICMS, IPI, ISS, COFINS và PIS (BR_NotaFiscal, BR_NotaFiscalItem, BR_ICMSTaxSituation, BR_IPITaxSituation, BR_ISSTaxSituation, BR_COFINSTaxSituation, BR_PISTaxSituation, BR_ICMSBaseDetn, BR_ICMSSTBaseDetermination, BR_ICMSSTLegalClassfctn, BR_SubstituteICMSAmount, BR_ICMSExemptionReason, BR_ICMSDefermentAmount, BR_ICMSDeferralTaxRate)."
+keywords:
+  - mục hàng Nota Fiscal
+  - thuế ICMS, IPI, ISS
+  - cơ sở tính thuế Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

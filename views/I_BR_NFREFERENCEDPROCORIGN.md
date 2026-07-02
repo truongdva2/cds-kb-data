@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFREFERENCEDPROCORIGN
 description: BR Nfreferencedprocorign
+semantic_en: "value-help for Brazil Nota Fiscal referenced process origin — displays process origin codes (BR_NFReferencedProcessOrigin)."
+semantic_vi: "danh sách giá trị cho nguồn gốc quy trình tham chiếu Nota Fiscal Brazil — hiển thị các mã nguồn gốc quy trình (BR_NFReferencedProcessOrigin)."
+keywords:
+  - nguồn gốc quy trình
+  - quy trình tham chiếu
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

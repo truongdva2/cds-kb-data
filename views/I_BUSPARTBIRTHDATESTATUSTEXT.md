@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTBIRTHDATESTATUSTEXT
 description: Business PartnerBIRTHDATESTATUSTEXT
+semantic_en: "birth date status translation — localized descriptions of birth date information status."
+semantic_vi: "mô tả trạng thái ngày sinh — tên gọi trạng thái ngày sinh theo ngôn ngữ."
+keywords:
+  - ngày sinh
+  - trạng thái
+  - mô tả
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

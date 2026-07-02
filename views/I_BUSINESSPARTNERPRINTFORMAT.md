@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERPRINTFORMAT
 description: Business PartnerPRINTFORMAT
+semantic_en: "business partner print format — enumerated domain values for print format preferences."
+semantic_vi: "định dạng in đối tác kinh doanh — các giá trị miền cho tùy chọn định dạng in."
+keywords:
+  - định dạng in
+  - đối tác kinh doanh
+  - tùy chọn
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

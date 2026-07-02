@@ -1,6 +1,12 @@
 ---
 name: I_BSORDPRDCSSRSRVCCONTRTP
 description: Bsordprdcssrsrvccontrtp
+semantic_en: "service contract predecessor projection — preceding service contracts associated with business solution orders."
+semantic_vi: "hình chiếu hợp đồng dịch vụ tiền thân — các hợp đồng dịch vụ trước đó liên quan đến đơn hàng giải pháp kinh doanh."
+keywords:
+  - hợp đồng dịch vụ
+  - đơn hàng giải pháp
+  - tiền thân
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

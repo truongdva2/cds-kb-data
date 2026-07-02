@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSTRANSACTIONCATEGORY
 description: Businesstransactioncategory
+semantic_en: "business transaction category — classification for financial transactions with period control attributes."
+semantic_vi: "loại giao dịch kinh doanh — phân loại giao dịch tài chính với kiểm soát chu kỳ."
+keywords:
+  - giao dịch
+  - loại giao dịch
+  - kiểm soát
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

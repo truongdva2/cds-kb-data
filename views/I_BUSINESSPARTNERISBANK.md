@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERISBANK
 description: Business PartnerISBANK
+semantic_en: "business partner bank identification — classification of business partners that are banks with bank keys and minimum reserves."
+semantic_vi: "nhận dạng ngân hàng đối tác kinh doanh — phân loại các đối tác kinh doanh là ngân hàng."
+keywords:
+  - ngân hàng
+  - đối tác kinh doanh
+  - dự trữ tối thiểu
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

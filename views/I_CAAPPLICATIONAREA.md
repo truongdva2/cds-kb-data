@@ -1,6 +1,12 @@
 ---
 name: I_CAAPPLICATIONAREA
 description: Caapplicationarea
+semantic_en: "application area configurations for controlling — defines business areas and their financial reporting scope"
+semantic_vi: "cấu hình khu vực ứng dụng cho quản lý kinh phí — định nghĩa các khu vực kinh doanh và phạm vi báo cáo tài chính của chúng"
+keywords:
+  - khu vực ứng dụng
+  - phạm vi báo cáo
+  - cấu hình kinh doanh
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTOBPROLE
 description: Business PartnerTOBPROLE
+semantic_en: "business partner to business partner role assignment — associations of business partners to roles with validity dates."
+semantic_vi: "gán đối tác kinh doanh đến vai trò đối tác kinh doanh — liên kết các đối tác kinh doanh với vai trò có ngày hiệu lực."
+keywords:
+  - gán vai trò
+  - đối tác kinh doanh
+  - ngày hiệu lực
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

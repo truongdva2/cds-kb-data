@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSACTIVITYCATEGORYTEXT
 description: Businessactivitycategorytext
+semantic_en: "business activity category text — localized names and descriptions for business activity categories."
+semantic_vi: "văn bản danh mục hoạt động kinh doanh — tên và mô tả địa phương hóa cho các danh mục hoạt động kinh doanh."
+keywords:
+  - danh mục hoạt động
+  - tên danh mục
+  - ngôn ngữ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

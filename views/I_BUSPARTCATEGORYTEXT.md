@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTCATEGORYTEXT
 description: Business PartnerCATEGORYTEXT
+semantic_en: "business partner category text — localized category descriptions by language."
+semantic_vi: "mô tả loại đối tác kinh doanh — tên gọi loại đối tác theo ngôn ngữ."
+keywords:
+  - loại đối tác
+  - mô tả
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

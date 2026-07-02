@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSACTIONTYPETEXT
 description: Bustransactiontypetext
+semantic_en: "business transaction type labels in multiple languages — translates transaction type codes into display names"
+semantic_vi: "nhãn loại giao dịch kinh doanh ở nhiều ngôn ngữ — dịch các mã loại giao dịch thành tên hiển thị"
+keywords:
+  - loại giao dịch
+  - nhãn dịch
+  - tên loại giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

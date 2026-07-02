@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMFUPSRVCORDTP
 description: Bussolnorditmfupsrvcordtp
+semantic_en: "service order fulfillment for solution order items — tracks solution items mapped to generated service orders and items"
+semantic_vi: "thực hiện đơn hàng dịch vụ cho các mục đơn hàng giải pháp — theo dõi các mục giải pháp ánh xạ tới các đơn hàng dịch vụ được tạo và các mục"
+keywords:
+  - đơn hàng dịch vụ
+  - thực hiện dịch vụ
+  - ánh xạ đơn hàng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

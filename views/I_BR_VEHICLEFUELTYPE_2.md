@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEFUELTYPE_2
 description: BR Vehiclefueltype 2
+semantic_en: "value-help for Brazil vehicle fuel type — displays fuel type classification codes (VehicleFuelType)."
+semantic_vi: "danh sách giá trị cho loại nhiên liệu phương tiện Brazil — hiển thị các mã phân loại loại nhiên liệu (VehicleFuelType)."
+keywords:
+  - loại nhiên liệu
+  - phân loại nhiên liệu
+  - phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

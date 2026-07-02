@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTINDUSTRYKEY
 description: Business PartnerINDUSTRYKEY
+semantic_en: "business partner industry key — industry sector classifications by system type."
+semantic_vi: "khóa ngành công nghiệp đối tác — phân loại ngành theo loại hệ thống."
+keywords:
+  - ngành công nghiệp
+  - khóa ngành
+  - phân loại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

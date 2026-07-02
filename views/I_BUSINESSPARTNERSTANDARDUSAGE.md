@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERSTANDARDUSAGE
 description: Business PartnerSTANDARDUSAGE
+semantic_en: "business partner standard usage — domain value enumeration for birth date status classification."
+semantic_vi: "cách sử dụng mặc định đối tác kinh doanh — liệt kê giá trị miền cho phân loại trạng thái ngày sinh."
+keywords:
+  - cách sử dụng mặc định
+  - trạng thái ngày sinh
+  - đối tác kinh doanh
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BR_SIMPLESCLASSCODE
 description: BR Simplesclasscode
+semantic_en: "value-help for Brazil Simples Nacional class code — displays class code and domain values (BR_SIMPLESClassCode, DomainValue)."
+semantic_vi: "danh sách giá trị cho mã lớp Simples Nacional Brazil — hiển thị mã lớp và giá trị miền (BR_SIMPLESClassCode, DomainValue)."
+keywords:
+  - mã lớp Simples Nacional
+  - phân loại Simples
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

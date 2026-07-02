@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSAREASTDVH
 description: Businessareastdvh
+semantic_en: "business area value help — reference list of business areas for selection."
+semantic_vi: "trợ giúp giá trị khu vực kinh doanh — danh sách tham chiếu các khu vực kinh doanh."
+keywords:
+  - khu vực kinh doanh
+  - trợ giúp giá trị
+  - danh sách
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

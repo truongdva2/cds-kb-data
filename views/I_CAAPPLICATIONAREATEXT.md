@@ -1,6 +1,12 @@
 ---
 name: I_CAAPPLICATIONAREATEXT
 description: Caapplicationareatext
+semantic_en: "application area descriptions in multiple languages — translated names for controlling business areas"
+semantic_vi: "mô tả khu vực ứng dụng ở nhiều ngôn ngữ — tên dịch cho các khu vực kinh doanh quản lý kinh phí"
+keywords:
+  - mô tả khu vực
+  - tên khu vực ứng dụng
+  - phiên dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

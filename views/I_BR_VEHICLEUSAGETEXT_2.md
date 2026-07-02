@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEUSAGETEXT_2
 description: BR Vehicleusagetext 2
+semantic_en: "text translations for Brazil vehicle usage — stores language-specific vehicle usage descriptions (Language, VehicleUsage, VehicleUsageDesc)."
+semantic_vi: "bản dịch văn bản cho cách sử dụng phương tiện Brazil — lưu trữ mô tả cách sử dụng phương tiện theo ngôn ngữ (Language, VehicleUsage, VehicleUsageDesc)."
+keywords:
+  - mô tả cách sử dụng
+  - dịch ngôn ngữ
+  - cách sử dụng xe
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

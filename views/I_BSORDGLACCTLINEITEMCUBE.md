@@ -1,6 +1,12 @@
 ---
 name: I_BSORDGLACCTLINEITEMCUBE
 description: Bsordglacctlineitemcube
+semantic_en: "analytical cube for business solution orders — aggregates recognized margin and GL account line items by service object, order, company, and fiscal period (ServiceObjectType, BusinessSolutionOrder, BusinessSolutionOrderItem, CompanyCode, FiscalYear, AccountingDocument, LedgerGLLineItem, SemanticTag, BusSolnOrdType, BusSolnOrdDescription, BusSolnOrdItmDescription, BusSolnOrdItmStatus, BusSolnOrdStatus, TransactionCurrency)."
+semantic_vi: "khối lập phương phân tích cho các đơn hàng giải pháp kinh doanh — tổng hợp lợi nhuận được ghi nhận và các mục dòng tài khoản GL theo đối tượng dịch vụ, đơn hàng, công ty và kỳ tài chính (ServiceObjectType, BusinessSolutionOrder, BusinessSolutionOrderItem, CompanyCode, FiscalYear, AccountingDocument, LedgerGLLineItem, SemanticTag, BusSolnOrdType, BusSolnOrdDescription, BusSolnOrdItmDescription, BusSolnOrdItmStatus, BusSolnOrdStatus, TransactionCurrency)."
+keywords:
+  - khối lập phương
+  - đơn hàng giải pháp kinh doanh
+  - lợi nhuận ghi nhận
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

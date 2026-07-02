@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFMODEL
 description: BR Nfmodel
+semantic_en: "value-help for Brazil Nota Fiscal model type — displays available model codes (BR_NFModel)."
+semantic_vi: "danh sách giá trị cho kiểu mô hình Nota Fiscal Brazil — hiển thị các mã mô hình có sẵn (BR_NFModel)."
+keywords:
+  - mô hình Nota Fiscal
+  - danh sách mô hình
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

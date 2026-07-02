@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERADDRESSUSAGE
 description: Business PartnerADDRESSUSAGE
+semantic_en: "business partner address usage — address usage classifications with validity periods and standard usage indicators."
+semantic_vi: "cách sử dụng địa chỉ đối tác kinh doanh — các phân loại cách sử dụng địa chỉ có thời gian hiệu lực."
+keywords:
+  - cách sử dụng địa chỉ
+  - đối tác kinh doanh
+  - mặc định
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

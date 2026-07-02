@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFPARTNERTYPETEXT
 description: BR Nfpartnertypetext
+semantic_en: "text translations for Brazil Nota Fiscal partner type — stores language-specific partner type descriptions (Language, BR_NFPartnerType, BR_NFPartnerTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại đối tác Nota Fiscal Brazil — lưu trữ mô tả loại đối tác theo ngôn ngữ (Language, BR_NFPartnerType, BR_NFPartnerTypeDesc)."
+keywords:
+  - mô tả loại đối tác
+  - dịch ngôn ngữ
+  - phân loại đối tác
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

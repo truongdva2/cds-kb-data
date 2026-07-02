@@ -1,6 +1,12 @@
 ---
 name: I_BSORDITMPRDCSSRSRVCCONTRTP
 description: Bsorditmprdcssrsrvccontrtp
+semantic_en: "projection for business solution order item preceding service contract — links order items to their predecessor service contracts (BusinessSolutionOrder, BusinessSolutionOrderItem, BusSolnOrdPrdcssrSrvcContr, BusSolnOrdPrdcssrSrvcContrItem)."
+semantic_vi: "phép chiếu cho mục đơn hàng giải pháp kinh doanh hợp đồng dịch vụ tiền nhiệm — liên kết các mục đơn hàng với hợp đồng dịch vụ tiền nhiệm của chúng (BusinessSolutionOrder, BusinessSolutionOrderItem, BusSolnOrdPrdcssrSrvcContr, BusSolnOrdPrdcssrSrvcContrItem)."
+keywords:
+  - hợp đồng dịch vụ tiền nhiệm
+  - mục đơn hàng
+  - liên kết hợp đồng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

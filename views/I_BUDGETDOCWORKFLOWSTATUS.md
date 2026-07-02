@@ -1,6 +1,12 @@
 ---
 name: I_BUDGETDOCWORKFLOWSTATUS
 description: Budgetdocworkflowstatus
+semantic_en: "budget document workflow status — enumerated domain values for budget document workflow states."
+semantic_vi: "trạng thái quy trình công việc tài liệu ngân sách — các giá trị miền cho các trạng thái quy trình tài liệu ngân sách."
+keywords:
+  - trạng thái quy trình
+  - tài liệu ngân sách
+  - quy trình công việc
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

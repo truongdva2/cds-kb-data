@@ -1,6 +1,12 @@
 ---
 name: I_BR_SDBUSINESSTRANSACTIONVH
 description: BR Sdbusinesstransactionvh
+semantic_en: "value-help for business transaction — displays transaction codes derived from external tax calculation internal codes (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+semantic_vi: "danh sách giá trị cho giao dịch kinh doanh — hiển thị mã giao dịch từ các mã tính toán thuế ngoài được mã hóa bên trong (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+keywords:
+  - giao dịch kinh doanh
+  - mã giao dịch
+  - danh sách giá trị
 app_component: FI-LOC-TXS
 software_component: SAPSCORE
 release_state: released

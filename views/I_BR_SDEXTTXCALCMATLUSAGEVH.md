@@ -1,6 +1,12 @@
 ---
 name: I_BR_SDEXTTXCALCMATLUSAGEVH
 description: BR Sdexttxcalcmatlusagevh
+semantic_en: "value-help for customer usage — displays customer usage classification codes from external tax calculation mapping (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+semantic_vi: "danh sách giá trị cho cách sử dụng khách hàng — hiển thị các mã phân loại cách sử dụng khách hàng từ ánh xạ tính toán thuế ngoài (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+keywords:
+  - cách sử dụng khách hàng
+  - phân loại sử dụng
+  - tính toán thuế
 app_component: FI-LOC-TXS
 software_component: SAPSCORE
 release_state: released

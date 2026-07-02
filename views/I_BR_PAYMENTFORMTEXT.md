@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYMENTFORMTEXT
 description: BR Paymentformtext
+semantic_en: "text translations for Brazil payment form indicator — stores language-specific payment form descriptions (Language, PaymentForm, PaymentFormDescription)."
+semantic_vi: "bản dịch văn bản cho chỉ báo hình thức thanh toán Brazil — lưu trữ mô tả hình thức thanh toán theo ngôn ngữ (Language, PaymentForm, PaymentFormDescription)."
+keywords:
+  - mô tả hình thức thanh toán
+  - dịch ngôn ngữ
+  - hình thức thanh toán
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

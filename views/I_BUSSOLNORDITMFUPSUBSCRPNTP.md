@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMFUPSUBSCRPNTP
 description: Bussolnorditmfupsubscrpntp
+semantic_en: "subscription fulfillment for solution order items — maps solution items to generated subscription billing relationships and items"
+semantic_vi: "thực hiện đăng ký cho các mục đơn hàng giải pháp — ánh xạ các mục giải pháp tới các mối quan hệ lập hóa đơn đăng ký được tạo và các mục"
+keywords:
+  - đăng ký theo dõi
+  - thực hiện đăng ký
+  - lập hóa đơn đăng ký
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDLONGTEXTTP
 description: Bussolnordlongtexttp
+semantic_en: "long text and comments for business solution orders — stores header-level order notes, descriptions, and attachments"
+semantic_vi: "văn bản dài và bình luận cho các đơn hàng giải pháp kinh doanh — lưu trữ ghi chú đơn hàng cấp tiêu đề, mô tả và tệp đính kèm"
+keywords:
+  - văn bản dài đơn hàng
+  - ghi chú đơn hàng
+  - bình luận
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

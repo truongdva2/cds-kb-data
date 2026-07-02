@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERROLESTDVH
 description: Business PartnerROLESTDVH
+semantic_en: "business partner role value help — reference list of business partner role classifications."
+semantic_vi: "trợ giúp giá trị vai trò đối tác kinh doanh — danh sách tham chiếu các phân loại vai trò đối tác kinh doanh."
+keywords:
+  - vai trò đối tác kinh doanh
+  - trợ giúp giá trị
+  - phân loại
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

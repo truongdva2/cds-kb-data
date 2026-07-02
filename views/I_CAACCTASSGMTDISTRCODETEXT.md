@@ -1,6 +1,12 @@
 ---
 name: I_CAACCTASSGMTDISTRCODETEXT
 description: Caacctassgmtdistrcodetext
+semantic_en: "account assignment distribution code descriptions — labels for cost distribution control methods"
+semantic_vi: "mô tả mã phân phối gán tài khoản — nhãn cho các phương pháp kiểm soát phân phối chi phí"
+keywords:
+  - mô tả phân phối
+  - nhãn phân phối chi phí
+  - kiểm soát
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

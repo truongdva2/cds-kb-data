@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEOPERATIONTYPETEXT
 description: BR Vehicleoperationtypetext
+semantic_en: "text translations for Brazil vehicle operation type — stores language-specific operation type descriptions (Language, VehicleOperationType, VehicleOperationTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại hoạt động phương tiện Brazil — lưu trữ mô tả loại hoạt động theo ngôn ngữ (Language, VehicleOperationType, VehicleOperationTypeDesc)."
+keywords:
+  - mô tả loại hoạt động
+  - dịch ngôn ngữ
+  - chế độ hoạt động
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

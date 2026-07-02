@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFTEXTTYPE
 description: BR Nftexttype
+semantic_en: "value-help for Brazil Nota Fiscal message type — displays text type classification codes (BR_NFTextType)."
+semantic_vi: "danh sách giá trị cho loại tin nhắn Nota Fiscal Brazil — hiển thị các mã phân loại loại văn bản (BR_NFTextType)."
+keywords:
+  - loại tin nhắn
+  - phân loại văn bản
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

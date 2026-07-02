@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMDURATIONTP
 description: Bussolnorditmdurationtp
+semantic_en: "service duration specifications for solution order items — tracks duration types, values, and units for timed services"
+semantic_vi: "các quy cách khoảng thời gian dịch vụ cho các mục đơn hàng giải pháp — theo dõi các loại khoảng thời gian, giá trị và đơn vị cho các dịch vụ theo thời gian"
+keywords:
+  - khoảng thời gian dịch vụ
+  - thời lượng
+  - đơn vị thời gian
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

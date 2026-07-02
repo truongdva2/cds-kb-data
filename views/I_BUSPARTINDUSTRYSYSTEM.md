@@ -1,6 +1,11 @@
 ---
 name: I_BUSPARTINDUSTRYSYSTEM
 description: Business PartnerINDUSTRYSYSTEM
+semantic_en: "industry system master — industry classification systems available in the system."
+semantic_vi: "hệ thống ngành chính — các hệ thống phân loại ngành disponibles."
+keywords:
+  - hệ thống ngành
+  - phân loại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

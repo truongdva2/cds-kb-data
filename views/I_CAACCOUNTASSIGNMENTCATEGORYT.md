@@ -1,6 +1,12 @@
 ---
 name: I_CAACCOUNTASSIGNMENTCATEGORYT
 description: Caaccountassignmentcategoryt
+semantic_en: "account assignment category names in multiple languages — translates category codes to display labels"
+semantic_vi: "tên danh mục gán tài khoản ở nhiều ngôn ngữ — dịch các mã danh mục thành nhãn hiển thị"
+keywords:
+  - tên danh mục
+  - nhãn gán tài khoản
+  - phiên dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

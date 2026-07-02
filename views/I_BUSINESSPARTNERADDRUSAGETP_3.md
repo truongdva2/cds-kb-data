@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERADDRUSAGETP_3
 description: Business PartnerADDRUSAGETP 3
+semantic_en: "business partner address usage projection — address usage with validity dates and standard usage flags."
+semantic_vi: "hình chiếu cách sử dụng địa chỉ đối tác kinh doanh — cách sử dụng địa chỉ với ngày hiệu lực và cờ sử dụng mặc định."
+keywords:
+  - cách sử dụng địa chỉ
+  - ngày hiệu lực
+  - người kiểm soát dữ liệu
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

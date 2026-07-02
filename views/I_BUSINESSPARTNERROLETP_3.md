@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERROLETP_3
 description: Business PartnerROLETP 3
+semantic_en: "business partner role projection — business partner role assignments with validity dates and authorization groups."
+semantic_vi: "hình chiếu vai trò đối tác kinh doanh — gán vai trò đối tác kinh doanh có ngày hiệu lực."
+keywords:
+  - vai trò đối tác kinh doanh
+  - ngày hiệu lực
+  - nhóm ủy quyền
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

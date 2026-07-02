@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERBANKTP_3
 description: Business PartnerBANKTP 3
+semantic_en: "business partner bank projection — bank account details with validity dates and IBAN information."
+semantic_vi: "hình chiếu ngân hàng đối tác kinh doanh — chi tiết tài khoản ngân hàng có ngày hiệu lực và thông tin IBAN."
+keywords:
+  - tài khoản ngân hàng
+  - IBAN
+  - ngày hiệu lực
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

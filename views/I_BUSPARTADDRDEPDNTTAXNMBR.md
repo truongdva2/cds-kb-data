@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTADDRDEPDNTTAXNMBR
 description: Business PartnerADDRDEPDNTTAXNMBR
+semantic_en: "business partner address-dependent tax numbers — tax identifiers specific to partner address locations."
+semantic_vi: "số nhận dạng thuế phụ thuộc địa chỉ đối tác — mã số thuế cụ thể theo từng địa điểm của đối tác."
+keywords:
+  - mã số thuế
+  - địa chỉ
+  - đối tác
 app_component: CA-GTF-CSC
 software_component: SAP_BASIS
 release_state: released

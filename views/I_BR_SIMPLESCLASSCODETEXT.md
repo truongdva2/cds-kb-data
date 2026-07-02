@@ -1,6 +1,12 @@
 ---
 name: I_BR_SIMPLESCLASSCODETEXT
 description: BR Simplesclasscodetext
+semantic_en: "text translations for Brazil Simples Nacional class code — stores language-specific class code descriptions and domain values (Language, BR_SIMPLESClassCode, BR_SIMPLESClassCodeDesc, DomainValue)."
+semantic_vi: "bản dịch văn bản cho mã lớp Simples Nacional Brazil — lưu trữ mô tả mã lớp theo ngôn ngữ và giá trị miền (Language, BR_SIMPLESClassCode, BR_SIMPLESClassCodeDesc, DomainValue)."
+keywords:
+  - mô tả mã lớp
+  - dịch ngôn ngữ
+  - Simples Nacional
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

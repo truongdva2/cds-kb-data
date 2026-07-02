@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPLACE
 description: Businessplace
+semantic_en: "business place information — operational location records with address, tax numbers, and validity dates."
+semantic_vi: "thông tin địa điểm kinh doanh — dữ liệu chi nhánh/cơ sở kinh doanh với mã số thuế và ngày hiệu lực."
+keywords:
+  - chi nhánh kinh doanh
+  - địa điểm
+  - mã số thuế
 app_component: FI-LOC-BUP
 software_component: SAPSCORE
 release_state: released

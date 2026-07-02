@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITEMLONGTEXTTP
 description: Bussolnorditemlongtexttp
+semantic_en: "long text and memo content for business solution order items — stores item descriptions, notes, and attachment metadata"
+semantic_vi: "nội dung văn bản dài và ghi chú cho các mục đơn hàng giải pháp kinh doanh — lưu trữ mô tả mục, ghi chú và siêu dữ liệu tệp đính kèm"
+keywords:
+  - mục đơn hàng
+  - văn bản dài
+  - ghi chú dịch vụ
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

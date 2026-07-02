@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTOCCUPATIONTEXT
 description: Business PartnerOCCUPATIONTEXT
+semantic_en: "business partner occupation text — localized descriptions of partner occupations by language."
+semantic_vi: "mô tả nghề nghiệp đối tác — tên gọi nghề nghiệp theo ngôn ngữ khác nhau."
+keywords:
+  - nghề nghiệp
+  - mô tả
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

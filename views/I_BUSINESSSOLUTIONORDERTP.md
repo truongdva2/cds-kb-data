@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDERTP
 description: Businesssolutionordertp
+semantic_en: "solution order timeline — business document with creation, modification, and party relationship data."
+semantic_vi: "lịch trình đơn hàng giải pháp — tài liệu với ngày tạo, chỉnh sửa, và quan hệ bên thứ ba."
+keywords:
+  - đơn hàng giải pháp
+  - lịch trình
+  - ngày tháng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

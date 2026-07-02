@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFVEHICLETYPETEXT_2
 description: BR Nfvehicletypetext 2
+semantic_en: "text translations for Brazil Nota Fiscal vehicle type — stores language-specific vehicle type descriptions (Language, NFVehicleType, VehicleTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại phương tiện Nota Fiscal Brazil — lưu trữ mô tả loại phương tiện theo ngôn ngữ (Language, NFVehicleType, VehicleTypeDesc)."
+keywords:
+  - mô tả loại phương tiện
+  - dịch ngôn ngữ
+  - loại xe
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

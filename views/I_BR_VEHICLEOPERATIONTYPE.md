@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEOPERATIONTYPE
 description: BR Vehicleoperationtype
+semantic_en: "value-help for Brazil vehicle operation type — displays vehicle operation mode classification codes (VehicleOperationType)."
+semantic_vi: "danh sách giá trị cho loại hoạt động phương tiện Brazil — hiển thị các mã phân loại chế độ hoạt động phương tiện (VehicleOperationType)."
+keywords:
+  - loại hoạt động phương tiện
+  - chế độ hoạt động
+  - phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

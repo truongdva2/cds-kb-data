@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDERITEMTP
 description: Businesssolutionorderitemtp
+semantic_en: "solution order item timeline — appointment schedule with planned and requested service dates."
+semantic_vi: "lịch trình mặt hàng đơn hàng giải pháp — thời gian dự kiến bắt đầu/kết thúc dịch vụ."
+keywords:
+  - lịch hẹn
+  - dịch vụ
+  - thời gian
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

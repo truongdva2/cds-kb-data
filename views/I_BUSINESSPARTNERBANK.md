@@ -1,6 +1,13 @@
 ---
 name: I_BUSINESSPARTNERBANK
 description: Business PartnerBANK
+semantic_en: "business partner bank — bank account information for business partners including SWIFT, IBAN, and validity periods."
+semantic_vi: "ngân hàng đối tác kinh doanh — thông tin tài khoản ngân hàng cho các đối tác kinh doanh bao gồm SWIFT và IBAN."
+keywords:
+  - tài khoản ngân hàng
+  - SWIFT
+  - IBAN
+  - đối tác kinh doanh
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

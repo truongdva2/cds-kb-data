@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERSUPPLIER
 description: Business PartnerSUPPLIER
+semantic_en: "business partner supplier — supplier sales organization links with supplier account groups and blocking status."
+semantic_vi: "nhà cung cấp đối tác kinh doanh — các liên kết tổ chức mua hàng nhà cung cấp với nhóm tài khoản nhà cung cấp."
+keywords:
+  - nhà cung cấp
+  - tài khoản nhà cung cấp
+  - chặn mua hàng
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

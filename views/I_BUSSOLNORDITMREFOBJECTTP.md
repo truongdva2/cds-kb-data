@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMREFOBJECTTP
 description: Bussolnorditmrefobjecttp
+semantic_en: "reference objects for solution order items — tracks equipment, functional locations, or products referenced in service items"
+semantic_vi: "các đối tượng tham chiếu cho các mục đơn hàng giải pháp — theo dõi thiết bị, vị trí chức năng hoặc sản phẩm được tham chiếu trong các mục dịch vụ"
+keywords:
+  - đối tượng tham chiếu
+  - thiết bị dịch vụ
+  - vị trí chức năng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

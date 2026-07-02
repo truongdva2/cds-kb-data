@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERPRINTFORMATT
 description: Business PartnerPRINTFORMATT
+semantic_en: "business partner print format text — localized descriptions of print format options by language."
+semantic_vi: "văn bản định dạng in đối tác kinh doanh — mô tả địa phương hóa các tùy chọn định dạng in."
+keywords:
+  - định dạng in
+  - mô tả
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

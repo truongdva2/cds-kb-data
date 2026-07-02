@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLECONDITIONTEXT
 description: BR Vehicleconditiontext
+semantic_en: "text translations for Brazil vehicle condition — stores language-specific vehicle condition descriptions (Language, VehicleCondition, VehicleConditionDesc)."
+semantic_vi: "bản dịch văn bản cho tình trạng phương tiện Brazil — lưu trữ mô tả tình trạng phương tiện theo ngôn ngữ (Language, VehicleCondition, VehicleConditionDesc)."
+keywords:
+  - mô tả tình trạng xe
+  - dịch ngôn ngữ
+  - tình trạng phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

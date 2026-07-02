@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDFUPSRVCORDTP
 description: Bussolnordfupsrvcordtp
+semantic_en: "tracking data for business solution orders with related service orders — links business solution order to service order reference"
+semantic_vi: "dữ liệu theo dõi cho các đơn hàng giải pháp kinh doanh với đơn đặt hàng dịch vụ có liên quan — liên kết đơn hàng giải pháp kinh doanh với tham chiếu đơn đặt hàng dịch vụ"
+keywords:
+  - đơn hàng giải pháp
+  - dịch vụ theo dõi
+  - tham chiếu đơn dịch vụ
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

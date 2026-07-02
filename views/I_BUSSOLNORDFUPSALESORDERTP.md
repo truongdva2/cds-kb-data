@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDFUPSALESORDERTP
 description: BUSSOLNORDFUPSales OrderTP
+semantic_en: "solution order follow-up sales order — relationship view linking solution orders to generated sales orders."
+semantic_vi: "đơn hàng bán theo dõi đơn hàng giải pháp — liên kết đơn hàng giải pháp với đơn hàng bán theo dõi."
+keywords:
+  - đơn hàng bán
+  - đơn hàng giải pháp
+  - theo dõi
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

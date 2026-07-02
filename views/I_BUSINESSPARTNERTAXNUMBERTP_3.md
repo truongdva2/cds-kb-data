@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTAXNUMBERTP_3
 description: Business PartnerTAXNUMBERTP 3
+semantic_en: "business partner tax number projection — tax numbers with tax type classification and data controller assignment."
+semantic_vi: "hình chiếu số thuế đối tác kinh doanh — các số thuế với phân loại loại thuế và gán người kiểm soát dữ liệu."
+keywords:
+  - số thuế
+  - loại thuế
+  - người kiểm soát dữ liệu
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

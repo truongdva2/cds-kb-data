@@ -1,6 +1,12 @@
 ---
 name: I_CAACCTDETNTRANSKEY
 description: Caacctdetntranskey
+semantic_en: "account determination transaction keys — control codes linking transactions to account derivation rules"
+semantic_vi: "khóa giao dịch xác định tài khoản — mã kiểm soát liên kết giao dịch với các quy tắc lấy tài khoản"
+keywords:
+  - khóa giao dịch
+  - xác định tài khoản
+  - quy tắc lấy tài khoản
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

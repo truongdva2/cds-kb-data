@@ -1,6 +1,12 @@
 ---
 name: I_BUSEVTLOGBUSINESSACTIVITY
 description: Busevtlogbusinessactivity
+semantic_en: "business event activity log — business activities associated with business events, including object nodes and operation types."
+semantic_vi: "nhật ký hoạt động kinh doanh sự kiện — các hoạt động kinh doanh liên kết với sự kiện kinh doanh."
+keywords:
+  - hoạt động kinh doanh
+  - sự kiện kinh doanh
+  - loại hoạt động
 app_component: CA-GTF-BEL
 software_component: SAP_BASIS
 release_state: released

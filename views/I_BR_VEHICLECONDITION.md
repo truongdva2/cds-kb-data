@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLECONDITION
 description: BR Vehiclecondition
+semantic_en: "value-help for Brazil vehicle condition — displays vehicle condition classification codes (VehicleCondition)."
+semantic_vi: "danh sách giá trị cho tình trạng phương tiện Brazil — hiển thị các mã phân loại tình trạng phương tiện (VehicleCondition)."
+keywords:
+  - tình trạng phương tiện
+  - phân loại xe
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

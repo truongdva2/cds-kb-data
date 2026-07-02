@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMPARTNERTP
 description: Bussolnorditmpartnertp
+semantic_en: "partner assignments for solution order items — tracks partner functions, business partner relationships, and role classifications at item level"
+semantic_vi: "gán đối tác cho các mục đơn hàng giải pháp — theo dõi chức năng đối tác, mối quan hệ đối tác kinh doanh và phân loại vai trò ở cấp mục"
+keywords:
+  - gán đối tác
+  - chức năng đối tác
+  - vai trò đối tác
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

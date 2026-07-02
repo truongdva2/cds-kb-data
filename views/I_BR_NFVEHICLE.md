@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFVEHICLE
 description: BR Nfvehicle
+semantic_en: "Brazil Nota Fiscal vehicle details — stores vehicle specifications including model, year, type, fuel, engine data, and paint information (BR_NotaFiscal, BR_NotaFiscalItem, VehicleModel, VehicleModelYear, VehicleYearOfManufacture, VehicleType, VehicleFuelType, VehicleEnginePower, VehicleCylinderCapacityValue, VehicleEngineNumber, VehicleCarMakerColor, VehiclePaintingType, BR_NFeVehicleDENATRANColor, VehicleColorDesc)."
+semantic_vi: "chi tiết phương tiện Nota Fiscal Brazil — lưu trữ thông số kỹ thuật phương tiện bao gồm mô hình, năm sản xuất, loại, nhiên liệu, dữ liệu động cơ và thông tin sơn (BR_NotaFiscal, BR_NotaFiscalItem, VehicleModel, VehicleModelYear, VehicleYearOfManufacture, VehicleType, VehicleFuelType, VehicleEnginePower, VehicleCylinderCapacityValue, VehicleEngineNumber, VehicleCarMakerColor, VehiclePaintingType, BR_NFeVehicleDENATRANColor, VehicleColorDesc)."
+keywords:
+  - chi tiết phương tiện
+  - thông số kỹ thuật động cơ
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYMENTMETHOD
 description: BR Paymentmethod
+semantic_en: "Brazil payment method — displays available payment method codes (PaymentMethod)."
+semantic_vi: "phương pháp thanh toán Brazil — hiển thị các mã phương pháp thanh toán có sẵn (PaymentMethod)."
+keywords:
+  - phương pháp thanh toán
+  - cách thanh toán
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

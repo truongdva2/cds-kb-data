@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDFUPSRVCCONTRTP
 description: Bussolnordfupsrvccontrtp
+semantic_en: "solution order follow-up service contract — relationship view linking solution orders to service contracts."
+semantic_vi: "hợp đồng dịch vụ theo dõi đơn hàng giải pháp — liên kết đơn hàng giải pháp với hợp đồng dịch vụ."
+keywords:
+  - hợp đồng dịch vụ
+  - đơn hàng giải pháp
+  - theo dõi
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

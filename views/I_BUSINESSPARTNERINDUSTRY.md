@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERINDUSTRY
 description: Business PartnerINDUSTRY
+semantic_en: "business partner industry — industry sector classifications for business partners with description keys."
+semantic_vi: "ngành công nghiệp đối tác kinh doanh — các phân loại ngành công nghiệp cho các đối tác kinh doanh."
+keywords:
+  - ngành công nghiệp
+  - đối tác kinh doanh
+  - lĩnh vực
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

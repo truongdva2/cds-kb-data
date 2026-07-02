@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERADDRESSTYPE
 description: Business PartnerADDRESSTYPE
+semantic_en: "business partner address type — enumeration of address types for business partners."
+semantic_vi: "loại địa chỉ đối tác kinh doanh — liệt kê các loại địa chỉ cho đối tác kinh doanh."
+keywords:
+  - loại địa chỉ
+  - đối tác kinh doanh
+  - liệt kê
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_BUSPARTMARITALSTATUS
 description: Business PartnerMARITALSTATUS
+semantic_en: "marital status master — enumeration of partner marital status values."
+semantic_vi: "trạng thái hôn nhân — danh sách trạng thái hôn nhân của đối tác."
+keywords:
+  - hôn nhân
+  - trạng thái
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

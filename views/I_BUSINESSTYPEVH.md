@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSTYPEVH
 description: Businesstypevh
+semantic_en: "value help for business type — lookup list for enterprise type classification."
+semantic_vi: "danh sách trợ giúp giá trị cho loại doanh nghiệp — tìm kiếm loại hình kinh doanh."
+keywords:
+  - loại doanh nghiệp
+  - tìm kiếm
+  - phân loại
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

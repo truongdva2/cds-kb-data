@@ -1,6 +1,11 @@
 ---
 name: I_BUSPARTINDUSTRYCODE
 description: Business PartnerINDUSTRYCODE
+semantic_en: "industry code — master data for business partner industry classification codes."
+semantic_vi: "mã ngành công nghiệp — dữ liệu chủ yếu mã ngành cho đối tác kinh doanh."
+keywords:
+  - mã ngành
+  - ngành công nghiệp
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

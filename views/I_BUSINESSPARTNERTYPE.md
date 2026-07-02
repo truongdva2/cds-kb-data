@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTYPE
 description: Business PartnerTYPE
+semantic_en: "business partner type — enumeration of business partner types for classification."
+semantic_vi: "loại đối tác kinh doanh — liệt kê các loại đối tác kinh doanh cho phân loại."
+keywords:
+  - loại đối tác kinh doanh
+  - phân loại
+  - liệt kê
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

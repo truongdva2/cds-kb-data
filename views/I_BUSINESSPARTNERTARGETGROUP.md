@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTARGETGROUP
 description: Business PartnerTARGETGROUP
+semantic_en: "business partner target group — classification of business partners by target group categories."
+semantic_vi: "nhóm mục tiêu đối tác kinh doanh — phân loại các đối tác kinh doanh theo danh mục nhóm mục tiêu."
+keywords:
+  - nhóm mục tiêu
+  - đối tác kinh doanh
+  - phân loại
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

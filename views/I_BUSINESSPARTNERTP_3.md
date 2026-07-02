@@ -1,6 +1,13 @@
 ---
 name: I_BUSINESSPARTNERTP_3
 description: Business PartnerTP 3
+semantic_en: "business partner projection — complete business partner details with UUID, name, creation/modification metadata, and form of address."
+semantic_vi: "hình chiếu đối tác kinh doanh — chi tiết đối tác kinh doanh hoàn chỉnh kèm UUID và siêu dữ liệu tạo/sửa đổi."
+keywords:
+  - đối tác kinh doanh
+  - UUID
+  - ngày tạo
+  - ngày sửa đổi
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

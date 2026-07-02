@@ -1,6 +1,12 @@
 ---
 name: I_BSORDITMSUBSCRPNPRICEPARAMTP
 description: Bsorditmsubscrpnpriceparamtp
+semantic_en: "subscription pricing parameter projection — subscription pricing parameters for solution order items with parameter values and defaults."
+semantic_vi: "hình chiếu tham số giá thuê bao — các tham số định giá thuê bao cho các mục đơn hàng giải pháp kỹ thuật."
+keywords:
+  - tham số giá thuê bao
+  - giá trị tham số
+  - loại định giá
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

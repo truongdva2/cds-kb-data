@@ -1,6 +1,12 @@
 ---
 name: I_CAADJUSTMENTREQUESTREASONT
 description: Caadjustmentrequestreasont
+semantic_en: "adjustment request reason descriptions in multiple languages — explains classification codes for adjustments"
+semantic_vi: "mô tả lý do yêu cầu điều chỉnh ở nhiều ngôn ngữ — giải thích mã phân loại cho các điều chỉnh"
+keywords:
+  - mô tả lý do điều chỉnh
+  - nhãn điều chỉnh
+  - phiên dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

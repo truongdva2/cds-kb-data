@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDBASICFINANCIAL
 description: Bussolnordbasicfinancial
+semantic_en: "solution order for financial reporting — business document view with amounts, tax, currency, and customer data for accounting."
+semantic_vi: "đơn hàng giải pháp cho báo cáo tài chính — tài liệu dịch vụ với số tiền, thuế, loại tiền tệ cho kế toán."
+keywords:
+  - báo cáo tài chính
+  - đơn hàng giải pháp
+  - số tiền
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

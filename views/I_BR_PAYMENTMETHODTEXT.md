@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYMENTMETHODTEXT
 description: BR Paymentmethodtext
+semantic_en: "text translations for Brazil payment method — stores language-specific payment method descriptions (Language, PaymentMethod, PaymentMethodDescription)."
+semantic_vi: "bản dịch văn bản cho phương pháp thanh toán Brazil — lưu trữ mô tả phương pháp thanh toán theo ngôn ngữ (Language, PaymentMethod, PaymentMethodDescription)."
+keywords:
+  - mô tả phương pháp thanh toán
+  - dịch ngôn ngữ
+  - cách thanh toán
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

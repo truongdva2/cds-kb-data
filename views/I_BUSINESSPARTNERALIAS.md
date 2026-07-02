@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERALIAS
 description: Business PartnerALIAS
+semantic_en: "business partner alias — alternative names for business partners with position numbers."
+semantic_vi: "bí danh đối tác kinh doanh — các tên thay thế cho các đối tác kinh doanh."
+keywords:
+  - bí danh đối tác kinh doanh
+  - tên thay thế
+  - vị trí
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

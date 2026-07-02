@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERGROUPTYPETEXT
 description: Business PartnerGROUPTYPETEXT
+semantic_en: "business partner group type text — localized short and long descriptions of business partner group types."
+semantic_vi: "văn bản loại nhóm đối tác kinh doanh — mô tả ngắn và dài địa phương hóa các loại nhóm đối tác kinh doanh."
+keywords:
+  - loại nhóm
+  - mô tả nhóm
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

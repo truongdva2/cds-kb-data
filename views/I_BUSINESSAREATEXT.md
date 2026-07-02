@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSAREATEXT
 description: Businessareatext
+semantic_en: "business area text — localized business area names and descriptions by language."
+semantic_vi: "văn bản khu vực kinh doanh — tên và mô tả khu vực kinh doanh địa phương hóa theo ngôn ngữ."
+keywords:
+  - khu vực kinh doanh
+  - tên khu vực
+  - ngôn ngữ
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

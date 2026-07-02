@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDERENHCD
 description: Businesssolutionorderenhcd
+semantic_en: "enhanced solution order view — extended service document with enriched attributes for detailed analysis."
+semantic_vi: "xem đơn hàng giải pháp mở rộng — tài liệu dịch vụ với thêm các thuộc tính chi tiết."
+keywords:
+  - đơn hàng giải pháp
+  - mở rộng
+  - chi tiết
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

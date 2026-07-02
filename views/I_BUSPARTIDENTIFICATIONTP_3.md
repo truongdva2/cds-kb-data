@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTIDENTIFICATIONTP_3
 description: Business PartnerIDENTIFICATIONTP 3
+semantic_en: "business partner identification timeline — identity documents with issue location and validity periods."
+semantic_vi: "lịch trình chứng thực nhân dân đối tác — giấy tờ nhân dân với nơi cấp, ngày hiệu lực."
+keywords:
+  - chứng thực nhân dân
+  - nhận dạng
+  - ngày
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

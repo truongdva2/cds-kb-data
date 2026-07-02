@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDUSERSTATUSTP
 description: Bussolnorduserstatustp
+semantic_en: "user-defined statuses for business solution orders — tracks order-level workflow and process status from status profiles"
+semantic_vi: "các trạng thái do người dùng định nghĩa cho các đơn hàng giải pháp kinh doanh — theo dõi quy trình công việc cấp đơn hàng và trạng thái quy trình từ hồ sơ trạng thái"
+keywords:
+  - trạng thái đơn hàng
+  - quy trình công việc đơn hàng
+  - hồ sơ trạng thái
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_BUSINESSTRANSACTIONTYPEVH
 description: Businesstransactiontypevh
+semantic_en: "value help for business transaction type — lookup list for transaction type selection."
+semantic_vi: "danh sách trợ giúp giá trị cho kiểu giao dịch — tìm kiếm kiểu giao dịch."
+keywords:
+  - tìm kiếm giao dịch
+  - kiểu giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

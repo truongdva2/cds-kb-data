@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPLACETEXT
 description: Businessplacetext
+semantic_en: "business place text translations — localized descriptions of business locations by language."
+semantic_vi: "mô tả địa điểm kinh doanh — tên gọi chi nhánh theo ngôn ngữ khác nhau."
+keywords:
+  - chi nhánh
+  - mô tả
+  - ngôn ngữ
 app_component: FI-LOC-BUP
 software_component: SAPSCORE
 release_state: released

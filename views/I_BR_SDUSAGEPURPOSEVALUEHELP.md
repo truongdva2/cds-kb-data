@@ -1,6 +1,12 @@
 ---
 name: I_BR_SDUSAGEPURPOSEVALUEHELP
 description: BR Sdusagepurposevaluehelp
+semantic_en: "value-help for usage purpose — displays usage purpose codes from external tax calculation mapping (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+semantic_vi: "danh sách giá trị cho mục đích sử dụng — hiển thị các mã mục đích sử dụng từ ánh xạ tính toán thuế ngoài (ExtTxCalcInternalCodeValue, ExtTxCalcInternalCodeText)."
+keywords:
+  - mục đích sử dụng
+  - danh sách giá trị
+  - tính toán thuế
 app_component: FI-LOC-TXS
 software_component: SAPSCORE
 release_state: released

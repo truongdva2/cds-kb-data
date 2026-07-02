@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERINDUSTRYTP_3
 description: Business PartnerINDUSTRYTP 3
+semantic_en: "business partner industry projection — industry system types and sectors for business partners with data controller assignment."
+semantic_vi: "hình chiếu ngành công nghiệp đối tác kinh doanh — loại hệ thống ngành công nghiệp cho các đối tác kinh doanh."
+keywords:
+  - ngành công nghiệp
+  - loại hệ thống
+  - người kiểm soát dữ liệu
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

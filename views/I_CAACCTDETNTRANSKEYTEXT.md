@@ -1,6 +1,12 @@
 ---
 name: I_CAACCTDETNTRANSKEYTEXT
 description: Caacctdetntranskeytext
+semantic_en: "account determination transaction key descriptions — names for transaction-to-account mapping rules"
+semantic_vi: "mô tả khóa giao dịch xác định tài khoản — tên cho các quy tắc ánh xạ giao dịch sang tài khoản"
+keywords:
+  - mô tả khóa giao dịch
+  - quy tắc ánh xạ
+  - tên giao dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

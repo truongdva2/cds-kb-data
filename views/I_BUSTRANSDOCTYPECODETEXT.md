@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSDOCTYPECODETEXT
 description: Bustransdoctypecodetext
+semantic_en: "translated names for transaction document type codes — labels for transaction document type classifications"
+semantic_vi: "tên dịch cho các mã loại tài liệu giao dịch — nhãn cho các phân loại loại tài liệu giao dịch"
+keywords:
+  - tên loại tài liệu
+  - nhãn loại tài liệu
+  - phân loại
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

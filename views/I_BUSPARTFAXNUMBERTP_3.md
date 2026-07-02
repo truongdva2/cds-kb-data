@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTFAXNUMBERTP_3
 description: Business PartnerFAXNUMBERTP 3
+semantic_en: "business partner fax number timeline — telephone communication channel with country codes and validity dates."
+semantic_vi: "lịch trình số fax đối tác — kênh liên hệ qua fax với mã quốc gia, ngày hiệu lực."
+keywords:
+  - số fax
+  - liên hệ
+  - điện thoại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

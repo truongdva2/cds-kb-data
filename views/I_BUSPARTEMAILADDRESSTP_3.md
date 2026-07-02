@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTEMAILADDRESSTP_3
 description: Business PartnerEMAILADDRESSTP 3
+semantic_en: "business partner email address timeline — communication channel records with validity and default flags."
+semantic_vi: "lịch trình địa chỉ email đối tác — kênh giao tiếp với ngày hiệu lực, mặc định."
+keywords:
+  - email
+  - địa chỉ
+  - liên hệ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

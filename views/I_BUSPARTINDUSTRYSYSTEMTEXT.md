@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTINDUSTRYSYSTEMTEXT
 description: Business PartnerINDUSTRYSYSTEMTEXT
+semantic_en: "industry system text — localized names for industry classification systems."
+semantic_vi: "mô tả hệ thống ngành công nghiệp — tên gọi hệ thống theo ngôn ngữ."
+keywords:
+  - hệ thống ngành
+  - tên gọi
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

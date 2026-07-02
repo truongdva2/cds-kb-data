@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFPARTNER
 description: BR Nfpartner
+semantic_en: "Brazil Nota Fiscal partner details — stores partner function, name, address, and contact information (BR_NotaFiscal, BR_NFPartnerFunction, BR_NFPartner, BR_NFPartnerTitle, BR_NFPartnerName1, BR_NFPartnerName2, BR_NFPartnerName3, BR_NFPartnerName4, BR_NFPartnerType, BR_NFPartnerStreetName, BR_NFPartnerCityName, BR_NFPartnerRegionCode, BR_NFPartnerDistrictName, BR_NFPartnerCountryCode)."
+semantic_vi: "chi tiết đối tác Nota Fiscal Brazil — lưu trữ chức năng đối tác, tên, địa chỉ và thông tin liên hệ (BR_NotaFiscal, BR_NFPartnerFunction, BR_NFPartner, BR_NFPartnerTitle, BR_NFPartnerName1, BR_NFPartnerName2, BR_NFPartnerName3, BR_NFPartnerName4, BR_NFPartnerType, BR_NFPartnerStreetName, BR_NFPartnerCityName, BR_NFPartnerRegionCode, BR_NFPartnerDistrictName, BR_NFPartnerCountryCode)."
+keywords:
+  - đối tác Nota Fiscal
+  - thông tin đối tác
+  - chi tiết địa chỉ
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

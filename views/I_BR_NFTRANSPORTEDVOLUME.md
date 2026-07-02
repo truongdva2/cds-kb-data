@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFTRANSPORTEDVOLUME
 description: BR Nftransportedvolume
+semantic_en: "Brazil Nota Fiscal transported volume — records volume sequence, quantity, type, trademark, weight, and seal information (BR_NotaFiscal, BR_NFTransptVolumesSequence, BR_NFTransportedVolumeQtyVal, BR_NFTransportedVolumeType, BR_NFTransptVolumeTrademark, BR_NFTransportedVolumeID, BR_NFTransptVolNetWeightUnit, BR_NFTransptVolumeNetWeight, BR_NFTransptVolGrossWgtUnit, BR_NFTransptVolumeGrossWeight, BR_NFTransportedVolumeSeal)."
+semantic_vi: "khối lượng vận chuyển Nota Fiscal Brazil — ghi lại thứ tự khối lượng, số lượng, loại, nhãn hiệu, trọng lượng và thông tin niêm phong (BR_NotaFiscal, BR_NFTransptVolumesSequence, BR_NFTransportedVolumeQtyVal, BR_NFTransportedVolumeType, BR_NFTransptVolumeTrademark, BR_NFTransportedVolumeID, BR_NFTransptVolNetWeightUnit, BR_NFTransptVolumeNetWeight, BR_NFTransptVolGrossWgtUnit, BR_NFTransptVolumeGrossWeight, BR_NFTransportedVolumeSeal)."
+keywords:
+  - khối lượng vận chuyển
+  - trọng lượng hàng
+  - niêm phong vận chuyển
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

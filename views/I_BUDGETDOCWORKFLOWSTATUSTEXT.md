@@ -1,6 +1,12 @@
 ---
 name: I_BUDGETDOCWORKFLOWSTATUSTEXT
 description: Budgetdocworkflowstatustext
+semantic_en: "budget document workflow status text — localized descriptions of budget document workflow states by language."
+semantic_vi: "văn bản trạng thái quy trình tài liệu ngân sách — các mô tả địa phương hóa của các trạng thái quy trình tài liệu ngân sách."
+keywords:
+  - văn bản trạng thái
+  - tài liệu ngân sách
+  - ngôn ngữ
 app_component: PSM
 software_component: SAPSCORE
 release_state: released

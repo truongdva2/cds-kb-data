@@ -1,6 +1,12 @@
 ---
 name: I_CAADJUSTMENTREQUESTREASON
 description: Caadjustmentrequestreason
+semantic_en: "reasons for adjustment requests — classification codes for explaining cost or billing adjustments"
+semantic_vi: "lý do yêu cầu điều chỉnh — mã phân loại để giải thích điều chỉnh chi phí hoặc lập hóa đơn"
+keywords:
+  - yêu cầu điều chỉnh
+  - lý do điều chỉnh
+  - phân loại
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

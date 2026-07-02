@@ -1,6 +1,12 @@
 ---
 name: I_BSORDITMRATEELEMENTTP
 description: Bsorditmrateelementtp
+semantic_en: "projection for business solution order item rate element — stores rate element details by currency including net, gross, and tax amounts (BusinessSolutionOrder, BusinessSolutionOrderItem, SubscriptionRateElementNumber, Currency, SubscriptionRateElement, SubscriptionRateElementType, SubscrpnRateElementNetAmount, SubscrpnRateElementGrossAmount, SubscrpnRateElementTaxAmount)."
+semantic_vi: "phép chiếu cho phần tử tỷ lệ mục đơn hàng giải pháp kinh doanh — lưu trữ chi tiết phần tử tỷ lệ theo loại tiền tệ bao gồm số tiền ròng, tổng số tiền và thuế (BusinessSolutionOrder, BusinessSolutionOrderItem, SubscriptionRateElementNumber, Currency, SubscriptionRateElement, SubscriptionRateElementType, SubscrpnRateElementNetAmount, SubscrpnRateElementGrossAmount, SubscrpnRateElementTaxAmount)."
+keywords:
+  - phần tử tỷ lệ
+  - đơn hàng giải pháp
+  - số tiền ròng, tổng, thuế
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

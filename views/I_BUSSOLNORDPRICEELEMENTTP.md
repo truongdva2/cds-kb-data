@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDPRICEELEMENTTP
 description: Bussolnordpriceelementtp
+semantic_en: "order-level pricing elements for solution orders — header-level surcharges, discounts, and pricing adjustments"
+semantic_vi: "các yếu tố định giá cấp đơn hàng cho các đơn hàng giải pháp — phí bổ sung, chiết khấu và điều chỉnh giá cấp tiêu đề"
+keywords:
+  - yếu tố định giá đơn hàng
+  - chiết khấu đơn hàng
+  - phí bổ sung
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

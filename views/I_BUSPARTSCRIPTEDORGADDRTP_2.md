@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTSCRIPTEDORGADDRTP_2
 description: Business PartnerSCRIPTEDORGADDRTP 2
+semantic_en: "scripted organization address timeline — formatted address records for companies with location, timezone, and communication preferences."
+semantic_vi: "lịch trình địa chỉ tổ chức định dạng — địa chỉ đã định dạng cho công ty với múi giờ, ưu tiên liên hệ."
+keywords:
+  - địa chỉ
+  - tổ chức
+  - định dạng
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

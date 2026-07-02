@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDERITEM
 description: Businesssolutionorderitem
+semantic_en: "solution order item — line-item records for services with descriptions, categories, and parent relationships."
+semantic_vi: "mặt hàng đơn hàng giải pháp — dòng dịch vụ chi tiết gồm mô tả, loại mặt hàng, mối quan hệ cha."
+keywords:
+  - mặt hàng
+  - đơn hàng giải pháp
+  - dòng dịch vụ
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMFUPSALESORDERTP
 description: BUSSOLNORDITMFUPSales OrderTP
+semantic_en: "sales order fulfillment tracking for solution items — maps solution order items to generated sales orders and line items"
+semantic_vi: "theo dõi thực hiện đơn bán hàng cho các mục giải pháp — ánh xạ các mục đơn hàng giải pháp đến các đơn bán hàng được tạo và các mục hàng"
+keywords:
+  - đơn bán hàng
+  - thực hiện đơn hàng
+  - ánh xạ mục
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

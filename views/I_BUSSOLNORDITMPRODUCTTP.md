@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMPRODUCTTP
 description: Bussolnorditmproducttp
+semantic_en: "product assignments for solution order items — links items to products within service product lists"
+semantic_vi: "gán sản phẩm cho các mục đơn hàng giải pháp — liên kết các mục với các sản phẩm trong danh sách sản phẩm dịch vụ"
+keywords:
+  - gán sản phẩm
+  - danh sách sản phẩm dịch vụ
+  - liên kết sản phẩm
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

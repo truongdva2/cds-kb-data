@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTSCRIPTGROUPADDRTP_2
 description: Business PartnerSCRIPTGROUPADDRTP 2
+semantic_en: "scripted group address timeline — formatted address records for business partner groups with location data."
+semantic_vi: "lịch trình địa chỉ nhóm định dạng — địa chỉ đã định dạng cho nhóm đối tác kinh doanh."
+keywords:
+  - địa chỉ
+  - nhóm đối tác
+  - định dạng
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

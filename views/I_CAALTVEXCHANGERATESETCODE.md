@@ -1,6 +1,12 @@
 ---
 name: I_CAALTVEXCHANGERATESETCODE
 description: CAALTVExchange RateSETCODE
+semantic_en: "alternative exchange rate set codes — master data for configuring non-standard currency conversion rates"
+semantic_vi: "mã bộ tỷ giá hối đoái thay thế — dữ liệu chính để cấu hình tỷ giá chuyển đổi tiền tệ không chuẩn"
+keywords:
+  - tỷ giá hối đoái
+  - bộ tỷ giá
+  - chuyển đổi tiền tệ
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

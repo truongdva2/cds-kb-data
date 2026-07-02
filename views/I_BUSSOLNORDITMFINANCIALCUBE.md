@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMFINANCIALCUBE
 description: Bussolnorditmfinancialcube
+semantic_en: "analytical cube for solution order item financials — aggregates posting dates, sales organization, and item descriptions for reporting"
+semantic_vi: "khối dữ liệu phân tích cho tài chính mục đơn hàng giải pháp — tổng hợp ngày ghi sổ, tổ chức bán hàng và mô tả mục cho báo cáo"
+keywords:
+  - khối phân tích
+  - dữ liệu tài chính
+  - báo cáo bán hàng
 app_component: CRM-S4-ANA-CDS-2CL
 software_component: SAPSCORE
 release_state: released

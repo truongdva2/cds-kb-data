@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNEROCCUPATION
 description: Business PartnerOCCUPATION
+semantic_en: "business partner occupation — classification of occupations for business partners."
+semantic_vi: "nghề nghiệp đối tác kinh doanh — phân loại nghề nghiệp cho các đối tác kinh doanh."
+keywords:
+  - nghề nghiệp
+  - đối tác kinh doanh
+  - phân loại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

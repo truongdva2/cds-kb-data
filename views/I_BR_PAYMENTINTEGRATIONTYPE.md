@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYMENTINTEGRATIONTYPE
 description: BR Paymentintegrationtype
+semantic_en: "value-help for Brazil payment system integration type — displays payment system integration classification codes (PaymentSystemIntegrationType)."
+semantic_vi: "danh sách giá trị cho loại tích hợp hệ thống thanh toán Brazil — hiển thị các mã phân loại loại tích hợp hệ thống thanh toán (PaymentSystemIntegrationType)."
+keywords:
+  - loại tích hợp thanh toán
+  - hệ thống thanh toán
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

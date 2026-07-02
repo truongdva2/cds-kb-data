@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFITEMVINCONDITION
 description: BR Nfitemvincondition
+semantic_en: "value-help for Brazil Nota Fiscal VIN condition — displays vehicle identification number condition codes (BR_NFItemVINCondition)."
+semantic_vi: "danh sách giá trị cho tình trạng VIN Nota Fiscal Brazil — hiển thị các mã tình trạng số nhận dạng phương tiện (BR_NFItemVINCondition)."
+keywords:
+  - tình trạng VIN
+  - số nhận dạng phương tiện
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

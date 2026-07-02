@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDPARTNERTP
 description: Bussolnordpartnertp
+semantic_en: "business partners for solution orders — tracks buyer, seller, ship-to, bill-to, and other partner roles at order header level"
+semantic_vi: "các đối tác kinh doanh cho các đơn hàng giải pháp — theo dõi vai trò người mua, người bán, địa chỉ giao hàng, lập hóa đơn ở cấp tiêu đề đơn hàng"
+keywords:
+  - đối tác kinh doanh
+  - vai trò đối tác
+  - gán đối tác
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

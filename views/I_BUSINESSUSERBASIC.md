@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSUSERBASIC
 description: Businessuserbasic
+semantic_en: "business user basic data — employee/contact master with names, titles, language preferences, and identifiers."
+semantic_vi: "dữ liệu cơ bản người dùng kinh doanh — tài liệu nhân viên/liên hệ với tên, chức danh, ngôn ngữ."
+keywords:
+  - người dùng
+  - nhân viên
+  - dữ liệu cơ bản
 app_component: BC-SRV-BUM
 software_component: SAP_BASIS
 release_state: released

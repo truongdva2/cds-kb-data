@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDAPPOINTMENTTP
 description: Bussolnordappointmenttp
+semantic_en: "solution order appointment timeline — service appointment records with start and end datetime scheduling."
+semantic_vi: "lịch trình cuộc hẹn đơn hàng giải pháp — lịch hẹn dịch vụ với thời gian bắt đầu/kết thúc."
+keywords:
+  - cuộc hẹn
+  - dịch vụ
+  - lịch trình
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAACCOUNTDETNCODETEXT
 description: Caaccountdetncodetext
+semantic_en: "account determination code descriptions in multiple languages — names for account determination rules"
+semantic_vi: "mô tả mã xác định tài khoản ở nhiều ngôn ngữ — tên cho các quy tắc xác định tài khoản"
+keywords:
+  - mô tả xác định tài khoản
+  - tên quy tắc
+  - phiên dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERLEGALFORM
 description: Business PartnerLEGALFORM
+semantic_en: "business partner legal form — enumeration of legal forms for business partners."
+semantic_vi: "hình thức pháp lý đối tác kinh doanh — liệt kê các hình thức pháp lý cho các đối tác kinh doanh."
+keywords:
+  - hình thức pháp lý
+  - đối tác kinh doanh
+  - loại pháp lý
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDPARTNERADDRESSTP
 description: Bussolnordpartneraddresstp
+semantic_en: "partner addresses for business solution orders — stores contact and address data for header-level business partners"
+semantic_vi: "địa chỉ đối tác cho các đơn hàng giải pháp kinh doanh — lưu trữ dữ liệu liên hệ và địa chỉ cho các đối tác kinh doanh cấp tiêu đề"
+keywords:
+  - địa chỉ đối tác
+  - thông tin liên hệ đối tác
+  - dữ liệu địa chỉ
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

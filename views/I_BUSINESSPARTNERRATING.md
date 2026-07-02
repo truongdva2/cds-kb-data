@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERRATING
 description: Business PartnerRATING
+semantic_en: "business partner rating — credit ratings with rating grades, trends, validity periods, and expiration status."
+semantic_vi: "đánh giá đối tác kinh doanh — xếp hạng tín dụng với mức độ, xu hướng và ngày hiệu lực."
+keywords:
+  - đánh giá tín dụng
+  - đối tác kinh doanh
+  - mức độ xếp hạng
 app_component: FS-BP
 software_component: SAP_BASIS
 release_state: released

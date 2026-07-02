@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFREFERENCEDPROCORIGNTEXT
 description: BR Nfreferencedprocorigntext
+semantic_en: "text translations for Brazil Nota Fiscal referenced process origin — stores language-specific origin descriptions (Language, BR_NFReferencedProcessOrigin, BR_NFReferencedProcOriginDesc)."
+semantic_vi: "bản dịch văn bản cho nguồn gốc quy trình tham chiếu Nota Fiscal Brazil — lưu trữ mô tả nguồn gốc theo ngôn ngữ (Language, BR_NFReferencedProcessOrigin, BR_NFReferencedProcOriginDesc)."
+keywords:
+  - mô tả nguồn gốc
+  - dịch ngôn ngữ
+  - quy trình tham chiếu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

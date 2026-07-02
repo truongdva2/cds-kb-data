@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMAPPOINTMENTTP
 description: Bussolnorditmappointmenttp
+semantic_en: "appointment scheduling data for solution order items — tracks scheduled start and end times for service appointments"
+semantic_vi: "dữ liệu lập lịch hẹn cho các mục đơn hàng giải pháp — theo dõi thời gian bắt đầu và kết thúc được lên lịch cho các cuộc hẹn dịch vụ"
+keywords:
+  - lịch hẹn dịch vụ
+  - thời gian bắt đầu kết thúc
+  - lập lịch
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

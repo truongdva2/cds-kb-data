@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFTEXTS
 description: BR Nftexts
+semantic_en: "Brazil Nota Fiscal messages — stores text entries by type and sequence, including tax partner references (BR_NotaFiscal, BR_NotaFiscalItem, BR_NFTextType, BR_NFTextSequenceNumber, BR_NFText, BR_NFTaxPartnerTextID)."
+semantic_vi: "tin nhắn Nota Fiscal Brazil — lưu trữ các mục văn bản theo loại và thứ tự, bao gồm tham chiếu đối tác thuế (BR_NotaFiscal, BR_NotaFiscalItem, BR_NFTextType, BR_NFTextSequenceNumber, BR_NFText, BR_NFTaxPartnerTextID)."
+keywords:
+  - tin nhắn Nota Fiscal
+  - văn bản tham chiếu
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

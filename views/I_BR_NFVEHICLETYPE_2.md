@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFVEHICLETYPE_2
 description: BR Nfvehicletype 2
+semantic_en: "value-help for Brazil Nota Fiscal vehicle type — displays vehicle classification codes (NFVehicleType)."
+semantic_vi: "danh sách giá trị cho loại phương tiện Nota Fiscal Brazil — hiển thị các mã phân loại phương tiện (NFVehicleType)."
+keywords:
+  - loại phương tiện
+  - phân loại xe
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

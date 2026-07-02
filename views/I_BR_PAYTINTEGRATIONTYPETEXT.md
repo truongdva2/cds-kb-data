@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYTINTEGRATIONTYPETEXT
 description: BR Paytintegrationtypetext
+semantic_en: "text translations for Brazil payment system integration type — stores language-specific integration type descriptions (Language, PaymentSystemIntegrationType, PaytSystemIntegrationTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại tích hợp hệ thống thanh toán Brazil — lưu trữ mô tả loại tích hợp theo ngôn ngữ (Language, PaymentSystemIntegrationType, PaytSystemIntegrationTypeDesc)."
+keywords:
+  - mô tả loại tích hợp
+  - dịch ngôn ngữ
+  - hệ thống thanh toán
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

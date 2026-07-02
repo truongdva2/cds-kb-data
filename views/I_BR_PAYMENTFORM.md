@@ -1,6 +1,12 @@
 ---
 name: I_BR_PAYMENTFORM
 description: BR Paymentform
+semantic_en: "value-help for Brazil payment form indicator — displays payment form classification codes (PaymentForm)."
+semantic_vi: "danh sách giá trị cho chỉ báo hình thức thanh toán Brazil — hiển thị các mã phân loại hình thức thanh toán (PaymentForm)."
+keywords:
+  - hình thức thanh toán
+  - phân loại thanh toán
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

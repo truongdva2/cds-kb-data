@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFISSUER
 description: BR Nfissuer
+semantic_en: "value-help for Brazil Nota Fiscal issuer — displays the issuer entity (BR_NFIssuedBy)."
+semantic_vi: "danh sách giá trị cho cơ quan phát hành Nota Fiscal Brazil — hiển thị thực thể phát hành (BR_NFIssuedBy)."
+keywords:
+  - danh sách phát hành
+  - Nota Fiscal Brazil
+  - cơ quan phát hành
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

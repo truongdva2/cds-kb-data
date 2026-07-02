@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDFUPENTPROJECTTP
 description: Bussolnordfupentprojecttp
+semantic_en: "solution order follow-up enterprise project — relationship view linking solution orders to downstream enterprise projects."
+semantic_vi: "dự án doanh nghiệp theo dõi đơn hàng giải pháp — liên kết đơn hàng giải pháp với dự án theo dõi."
+keywords:
+  - dự án
+  - đơn hàng giải pháp
+  - theo dõi
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTINDUSTRYKEYTEXT
 description: Business PartnerINDUSTRYKEYTEXT
+semantic_en: "industry key description — localized industry sector names and classifications."
+semantic_vi: "mô tả khóa ngành công nghiệp — tên gọi ngành theo ngôn ngữ khác nhau."
+keywords:
+  - ngành công nghiệp
+  - mô tả
+  - khóa
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

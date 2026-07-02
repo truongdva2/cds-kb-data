@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDFUPSUBSCRPNTP
 description: Bussolnordfupsubscrpntp
+semantic_en: "follow-up subscription data for business solution orders — tracks solution order to subscription billing relationship"
+semantic_vi: "dữ liệu theo dõi đăng ký cho các đơn hàng giải pháp kinh doanh — theo dõi mối quan hệ từ đơn hàng giải pháp đến lập hóa đơn đăng ký"
+keywords:
+  - đơn hàng giải pháp
+  - đăng ký theo dõi
+  - lập hóa đơn đăng ký
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

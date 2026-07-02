@@ -1,6 +1,12 @@
 ---
 name: I_CAALTVEXCHANGERATESETCODET
 description: CAALTVExchange RateSETCODET
+semantic_en: "alternative exchange rate set code names in multiple languages — translates rate set codes to display labels"
+semantic_vi: "tên mã bộ tỷ giá hối đoái thay thế ở nhiều ngôn ngữ — dịch mã bộ tỷ giá thành nhãn hiển thị"
+keywords:
+  - tên bộ tỷ giá
+  - nhãn hối đoái
+  - phiên dịch
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,13 @@
 ---
 name: I_CAACCOUNTASSIGNMENTCATEGORY
 description: Caaccountassignmentcategory
+semantic_en: "account assignment categories — classification codes for assigning costs to cost objects in controlling"
+semantic_vi: "danh mục gán tài khoản — mã phân loại để gán chi phí cho các đối tượng chi phí trong quản lý kinh phí"
+keywords:
+  - gán tài khoản
+  - đối tượng chi phí
+  - phân loại
+  - quản lý kinh phí
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

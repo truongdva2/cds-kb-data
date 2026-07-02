@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSACTIVITYCATEGORY
 description: Businessactivitycategory
+semantic_en: "business activity category master — classification categories for business activities."
+semantic_vi: "danh mục hoạt động kinh doanh chính — các danh mục phân loại cho hoạt động kinh doanh."
+keywords:
+  - danh mục hoạt động
+  - phân loại
+  - hoạt động kinh doanh
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

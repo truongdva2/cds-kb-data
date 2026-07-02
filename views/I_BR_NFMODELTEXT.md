@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFMODELTEXT
 description: BR Nfmodeltext
+semantic_en: "text translations for Brazil Nota Fiscal model type — stores language-specific model descriptions (Language, BR_NFModel, BR_NFModelDesc)."
+semantic_vi: "bản dịch văn bản cho kiểu mô hình Nota Fiscal Brazil — lưu trữ mô tả mô hình theo ngôn ngủ (Language, BR_NFModel, BR_NFModelDesc)."
+keywords:
+  - mô tả mô hình
+  - dịch ngôn ngữ
+  - mô hình Nota Fiscal
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

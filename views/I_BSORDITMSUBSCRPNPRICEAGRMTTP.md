@@ -1,6 +1,12 @@
 ---
 name: I_BSORDITMSUBSCRPNPRICEAGRMTTP
 description: Bsorditmsubscrpnpriceagrmttp
+semantic_en: "subscription pricing agreement projection — subscription rate elements and pricing agreements for solution order items with condition scales and calculation types."
+semantic_vi: "hình chiếu thỏa thuận giá thuê bao — các yếu tố tỷ giá thuê bao và thỏa thuận giá cho các mục đơn hàng giải pháp kỹ thuật."
+keywords:
+  - thỏa thuận giá thuê bao
+  - yếu tố tỷ giá
+  - điều kiện tính giá
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

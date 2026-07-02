@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSSOLUTIONORDER
 description: Businesssolutionorder
+semantic_en: "solution order — service document records with descriptions, amounts, dates, and user tracking information."
+semantic_vi: "đơn hàng giải pháp — tài liệu dịch vụ gồm mô tả, số tiền, ngày tháng và người tạo/chỉnh sửa."
+keywords:
+  - đơn hàng giải pháp
+  - dịch vụ
+  - số tiền
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

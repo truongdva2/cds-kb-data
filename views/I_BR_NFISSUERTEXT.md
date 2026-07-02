@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFISSUERTEXT
 description: BR Nfissuertext
+semantic_en: "text translations for Brazil Nota Fiscal issuer — stores language-specific issuer descriptions (Language, BR_NFIssuedBy, BR_NFIssuerDesc)."
+semantic_vi: "bản dịch văn bản cho cơ quan phát hành Nota Fiscal Brazil — lưu trữ mô tả phát hành theo ngôn ngữ (Language, BR_NFIssuedBy, BR_NFIssuerDesc)."
+keywords:
+  - mô tả phát hành
+  - dịch ngôn ngữ
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERADDRESSTYPET
 description: Business PartnerADDRESSTYPET
+semantic_en: "business partner address type text — localized descriptions of address types by language."
+semantic_vi: "văn bản loại địa chỉ đối tác kinh doanh — mô tả địa phương hóa các loại địa chỉ theo ngôn ngữ."
+keywords:
+  - loại địa chỉ
+  - mô tả cách sử dụng
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

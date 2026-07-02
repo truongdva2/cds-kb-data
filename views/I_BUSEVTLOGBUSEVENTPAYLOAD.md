@@ -1,6 +1,12 @@
 ---
 name: I_BUSEVTLOGBUSEVENTPAYLOAD
 description: Busevtlogbuseventpayload
+semantic_en: "business event log payload details — field-level changes in business event payloads with old/new values, units, and currency information."
+semantic_vi: "chi tiết tải trọng nhật ký sự kiện kinh doanh — các thay đổi ở cấp độ trường trong tải trọng sự kiện kinh doanh."
+keywords:
+  - sự kiện kinh doanh
+  - thay đổi trường
+  - giá trị cũ/mới
 app_component: CA-GTF-BEL
 software_component: SAP_BASIS
 release_state: released

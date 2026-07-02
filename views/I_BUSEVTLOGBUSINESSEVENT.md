@@ -1,6 +1,12 @@
 ---
 name: I_BUSEVTLOGBUSINESSEVENT
 description: Busevtlogbusinessevent
+semantic_en: "business event log header — top-level business event details with object types, node types, and creation information."
+semantic_vi: "tiêu đề nhật ký sự kiện kinh doanh — chi tiết sự kiện kinh doanh cấp cao với loại đối tượng và thông tin tạo."
+keywords:
+  - sự kiện kinh doanh
+  - nhật ký
+  - người tạo
 app_component: CA-GTF-BEL
 software_component: SAP_BASIS
 release_state: released

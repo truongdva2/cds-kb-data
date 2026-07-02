@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTTELEPHONENUMBERTP_3
 description: Business PartnerTELEPHONENUMBERTP 3
+semantic_en: "business partner telephone number timeline — phone communication records with extensions, country codes, and validity dates."
+semantic_vi: "lịch trình số điện thoại cố định đối tác — liên hệ điện thoại với mã quốc gia, số mở rộng, ngày hiệu lực."
+keywords:
+  - điện thoại
+  - liên hệ
+  - số điện thoại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

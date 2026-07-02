@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMPARTNERADDRTP
 description: Bussolnorditmpartneraddrtp
+semantic_en: "partner address details for solution order items — stores contact information and address data for item-level partners"
+semantic_vi: "chi tiết địa chỉ đối tác cho các mục đơn hàng giải pháp — lưu trữ thông tin liên hệ và dữ liệu địa chỉ cho các đối tác cấp mục"
+keywords:
+  - địa chỉ đối tác
+  - thông tin liên hệ
+  - chi tiết địa chỉ
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

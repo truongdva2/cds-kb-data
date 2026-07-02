@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITEMRELATIONSHIPTP
 description: Bussolnorditemrelationshiptp
+semantic_en: "relationships between business solution order items — tracks item hierarchies, dependencies, and references between line items"
+semantic_vi: "mối quan hệ giữa các mục đơn hàng giải pháp kinh doanh — theo dõi hệ thống phân cấp mục, phụ thuộc và tham chiếu giữa các mục hàng"
+keywords:
+  - mối quan hệ mục
+  - hệ thống phân cấp
+  - phụ thuộc mục
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

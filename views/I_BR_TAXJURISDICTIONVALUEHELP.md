@@ -1,6 +1,12 @@
 ---
 name: I_BR_TAXJURISDICTIONVALUEHELP
 description: BR Taxjurisdictionvaluehelp
+semantic_en: "value-help for Brazil tax jurisdiction — displays tax jurisdiction codes and names by country (Country, TaxJurisdiction, TaxJurisdictionName)."
+semantic_vi: "danh sách giá trị cho thẩm quyền thuế Brazil — hiển thị các mã thẩm quyền thuế và tên theo quốc gia (Country, TaxJurisdiction, TaxJurisdictionName)."
+keywords:
+  - thẩm quyền thuế
+  - thẩm quyền địa phương
+  - Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

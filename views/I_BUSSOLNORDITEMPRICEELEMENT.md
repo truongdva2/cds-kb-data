@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITEMPRICEELEMENT
 description: Bussolnorditempriceelement
+semantic_en: "pricing conditions and surcharges for solution order line items — tracks price calculation components, rates, and conditions"
+semantic_vi: "các điều kiện định giá và phí bổ sung cho các mục hàng đơn hàng giải pháp — theo dõi các thành phần tính giá, tỷ lệ và điều kiện"
+keywords:
+  - định giá mục
+  - điều kiện giá
+  - thành phần tính toán giá
 app_component: CRM-S4-REP-RFW
 software_component: SAPSCORE
 release_state: released

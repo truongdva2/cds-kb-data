@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFITEMVINCONDITIONTEXT
 description: BR Nfitemvinconditiontext
+semantic_en: "text translations for Brazil Nota Fiscal VIN condition — stores language-specific VIN condition descriptions (Language, BR_NFItemVINCondition, BR_NFItemVINConditionDesc)."
+semantic_vi: "bản dịch văn bản cho tình trạng VIN Nota Fiscal Brazil — lưu trữ mô tả tình trạng VIN theo ngôn ngữ (Language, BR_NFItemVINCondition, BR_NFItemVINConditionDesc)."
+keywords:
+  - mô tả VIN
+  - dịch ngôn ngữ
+  - tình trạng VIN
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

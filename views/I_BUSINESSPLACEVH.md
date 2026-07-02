@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPLACEVH
 description: Businessplacevh
+semantic_en: "value help for business place — quick lookup view for company code and business location identifiers."
+semantic_vi: "danh sách trợ giúp giá trị cho địa điểm kinh doanh — tìm kiếm nhanh chi nhánh theo công ty."
+keywords:
+  - tìm kiếm chi nhánh
+  - địa điểm kinh doanh
+  - công ty
 app_component: FI-LOC-BUP
 software_component: SAPSCORE
 release_state: released

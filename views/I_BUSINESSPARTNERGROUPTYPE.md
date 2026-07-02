@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERGROUPTYPE
 description: Business PartnerGROUPTYPE
+semantic_en: "business partner group type — enumeration of business partner group types."
+semantic_vi: "loại nhóm đối tác kinh doanh — liệt kê các loại nhóm đối tác kinh doanh."
+keywords:
+  - loại nhóm
+  - đối tác kinh doanh
+  - phân loại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

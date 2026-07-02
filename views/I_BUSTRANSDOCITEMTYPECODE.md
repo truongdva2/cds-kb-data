@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSDOCITEMTYPECODE
 description: Bustransdocitemtypecode
+semantic_en: "business transaction document item type codes — master data for line item type classification in transaction documents"
+semantic_vi: "mã loại mục tài liệu giao dịch kinh doanh — dữ liệu chính cho phân loại loại mục hàng trong các tài liệu giao dịch"
+keywords:
+  - loại mục tài liệu
+  - mã phân loại
+  - tài liệu giao dịch
 app_component: TM-2CL
 software_component: SAPSCORE
 release_state: released

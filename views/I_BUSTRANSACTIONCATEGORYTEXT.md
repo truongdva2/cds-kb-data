@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSACTIONCATEGORYTEXT
 description: Bustransactioncategorytext
+semantic_en: "business transaction category labels in multiple languages — stores translated names for transaction classification codes"
+semantic_vi: "nhãn danh mục giao dịch kinh doanh ở nhiều ngôn ngữ — lưu trữ tên dịch cho các mã phân loại giao dịch"
+keywords:
+  - danh mục giao dịch
+  - nhãn dịch
+  - phân loại giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

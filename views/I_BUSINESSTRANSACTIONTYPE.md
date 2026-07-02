@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSTRANSACTIONTYPE
 description: Businesstransactiontype
+semantic_en: "business transaction type — detailed transaction classifications linked to categories with activity status."
+semantic_vi: "kiểu giao dịch kinh doanh — phân loại chi tiết giao dịch liên kết với loại giao dịch."
+keywords:
+  - kiểu giao dịch
+  - phân loại
+  - trạng thái
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

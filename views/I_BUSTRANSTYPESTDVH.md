@@ -1,6 +1,12 @@
 ---
 name: I_BUSTRANSTYPESTDVH
 description: Bustranstypestdvh
+semantic_en: "standard value help for business transaction types — lookup list of predefined transaction types"
+semantic_vi: "trợ giúp giá trị tiêu chuẩn cho các loại giao dịch kinh doanh — danh sách tra cứu các loại giao dịch được định nghĩa trước"
+keywords:
+  - danh sách tra cứu
+  - loại giao dịch
+  - tra cứu tiêu chuẩn
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

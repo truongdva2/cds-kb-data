@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLEFUELTYPETEXT_2
 description: BR Vehiclefueltypetext 2
+semantic_en: "text translations for Brazil vehicle fuel type — stores language-specific fuel type descriptions (Language, VehicleFuelType, VehicleFuelTypeDesc)."
+semantic_vi: "bản dịch văn bản cho loại nhiên liệu phương tiện Brazil — lưu trữ mô tả loại nhiên liệu theo ngôn ngữ (Language, VehicleFuelType, VehicleFuelTypeDesc)."
+keywords:
+  - mô tả loại nhiên liệu
+  - dịch ngôn ngữ
+  - loại nhiên liệu
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CAACCOUNTDETNCODE
 description: Caaccountdetncode
+semantic_en: "account determination codes — rules for deriving posting accounts based on transaction characteristics"
+semantic_vi: "mã xác định tài khoản — quy tắc để lấy tài khoản ghi sổ dựa trên đặc tính giao dịch"
+keywords:
+  - xác định tài khoản
+  - quy tắc tài khoản
+  - ghi sổ tự động
 app_component: FI-CA-2CL
 software_component: SAPSCORE
 release_state: released

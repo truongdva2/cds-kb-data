@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERGROUPING
 description: Business PartnerGROUPING
+semantic_en: "business partner grouping — grouping classification for business partners without specified source."
+semantic_vi: "nhóm đối tác kinh doanh — phân loại nhóm cho các đối tác kinh doanh."
+keywords:
+  - nhóm đối tác kinh doanh
+  - phân loại nhóm
+  - đối tác kinh doanh
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

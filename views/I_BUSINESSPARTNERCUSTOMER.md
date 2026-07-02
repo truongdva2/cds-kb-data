@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERCUSTOMER
 description: Business PartnerCUSTOMER
+semantic_en: "business partner customer — customer sales organization links with customer account groups and blocking status."
+semantic_vi: "khách hàng đối tác kinh doanh — các liên kết tổ chức bán hàng khách hàng với nhóm tài khoản khách hàng."
+keywords:
+  - khách hàng
+  - tài khoản khách hàng
+  - chặn lập hóa đơn
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

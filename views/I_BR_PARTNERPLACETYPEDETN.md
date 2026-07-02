@@ -1,6 +1,12 @@
 ---
 name: I_BR_PARTNERPLACETYPEDETN
 description: BR Partnerplacetypedetn
+semantic_en: "Brazil partner place type determination mapping — links Nota Fiscal type to partner function and place type (BR_NFType, BR_NFPartnerPlaceType, BR_NFPartnerFunction)."
+semantic_vi: "xác định kiểu địa điểm đối tác Brazil — liên kết loại Nota Fiscal với chức năng đối tác và kiểu địa điểm (BR_NFType, BR_NFPartnerPlaceType, BR_NFPartnerFunction)."
+keywords:
+  - xác định kiểu địa điểm
+  - chức năng đối tác
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

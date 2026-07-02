@@ -1,6 +1,11 @@
 ---
 name: I_BUSPARTCATEGORY
 description: Business PartnerCATEGORY
+semantic_en: "business partner category — enumeration of partner types (person, organization, group)."
+semantic_vi: "loại đối tác kinh doanh — phân loại đối tác (cá nhân, tổ chức, nhóm)."
+keywords:
+  - loại đối tác
+  - phân loại
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMCONFIGURATIONTP
 description: Bussolnorditmconfigurationtp
+semantic_en: "variant configuration instances for solution order items — tracks product variant characteristics and their configured values"
+semantic_vi: "các thể hiện cấu hình biến thể cho các mục đơn hàng giải pháp — theo dõi các đặc tính biến thể sản phẩm và các giá trị được cấu hình"
+keywords:
+  - cấu hình sản phẩm
+  - đặc tính biến thể
+  - giá trị cấu hình
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

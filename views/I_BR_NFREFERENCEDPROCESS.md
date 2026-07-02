@@ -1,6 +1,12 @@
 ---
 name: I_BR_NFREFERENCEDPROCESS
 description: BR Nfreferencedprocess
+semantic_en: "Brazil Nota Fiscal referenced process — tracks referenced process identifier, origin, and concession act type (BR_NotaFiscal, BR_NFReferencedProcessSqncNmbr, BR_NFReferencedProcIdentifier, BR_NFReferencedProcessOrigin, BR_NFTypeOfConcessionAct)."
+semantic_vi: "quy trình tham chiếu Nota Fiscal Brazil — theo dõi mã định danh quy trình tham chiếu, nguồn gốc và loại sắc lệnh cấp phép (BR_NotaFiscal, BR_NFReferencedProcessSqncNmbr, BR_NFReferencedProcIdentifier, BR_NFReferencedProcessOrigin, BR_NFTypeOfConcessionAct)."
+keywords:
+  - quy trình tham chiếu
+  - sắc lệnh cấp phép
+  - Nota Fiscal Brazil
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

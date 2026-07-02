@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTADDRDEPDNTTAXTYPEVH
 description: Business PartnerADDRDEPDNTTAXTYPEVH
+semantic_en: "value help for address-dependent tax type — lookup for tax category descriptions at partner addresses."
+semantic_vi: "danh sách trợ giúp giá trị cho loại thuế theo địa chỉ — tìm kiếm loại thuế tại địa chỉ."
+keywords:
+  - loại thuế
+  - tìm kiếm
+  - địa chỉ
 app_component: CA-GTF-CSC
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSSOLNORDITMFUPSRVCCONTRTP
 description: Bussolnorditmfupsrvccontrtp
+semantic_en: "service contract fulfillment for solution order items — links solution items to generated service contracts and contract items"
+semantic_vi: "thực hiện hợp đồng dịch vụ cho các mục đơn hàng giải pháp — liên kết các mục giải pháp đến các hợp đồng dịch vụ được tạo và các mục hợp đồng"
+keywords:
+  - hợp đồng dịch vụ
+  - thực hiện hợp đồng
+  - liên kết hợp đồng
 app_component: CRM-S4-SOL-SLO
 software_component: SAPSCORE
 release_state: released

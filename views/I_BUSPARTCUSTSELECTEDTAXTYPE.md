@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTCUSTSELECTEDTAXTYPE
 description: Business PartnerCUSTSELECTEDTAXTYPE
+semantic_en: "business partner custom tax type list — tax categories selected for business partner use."
+semantic_vi: "danh sách loại thuế tùy chọn cho đối tác — loại thuế được chọn để sử dụng."
+keywords:
+  - loại thuế
+  - đối tác
+  - tùy chọn
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

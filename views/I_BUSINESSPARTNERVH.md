@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERVH
 description: Business PartnerVH
+semantic_en: "value help for business partner — master data of partners including names, addresses, identifiers, and organizational attributes."
+semantic_vi: "danh sách trợ giúp giá trị cho đối tác kinh doanh — dữ liệu chủ yếu của các đối tác gồm tên, địa chỉ, số nhận dạng."
+keywords:
+  - đối tác kinh doanh
+  - tìm kiếm đối tác
+  - danh sách đối tác
 app_component: AP-MD-BP
 software_component: SAP_BASIS
 release_state: released

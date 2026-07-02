@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTINDUSTRYCODETEXT
 description: Business PartnerINDUSTRYCODETEXT
+semantic_en: "industry code description — localized industry classification texts by language."
+semantic_vi: "mô tả mã ngành công nghiệp — tên gọi ngành theo ngôn ngữ khác nhau."
+keywords:
+  - ngành công nghiệp
+  - mô tả
+  - mã ngành
 app_component: LO-MD-BP-2CL
 software_component: SAPSCORE
 release_state: released

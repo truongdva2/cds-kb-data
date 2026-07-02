@@ -1,6 +1,12 @@
 ---
 name: I_BUSPARTTAXTYPETEXT
 description: Business PartnerTAXTYPETEXT
+semantic_en: "tax type description — localized names and descriptions of tax categories."
+semantic_vi: "mô tả loại thuế — tên gọi loại thuế theo ngôn ngữ khác nhau."
+keywords:
+  - loại thuế
+  - mô tả
+  - thuế
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

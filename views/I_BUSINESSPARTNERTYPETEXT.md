@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERTYPETEXT
 description: Business PartnerTYPETEXT
+semantic_en: "business partner type translation view — text descriptions by language for business partner type classifications."
+semantic_vi: "xem hiển thị mô tả loại đối tác kinh doanh — tên gọi loại đối tác theo ngôn ngữ khác nhau."
+keywords:
+  - loại đối tác
+  - mô tả loại đối tác
+  - ngôn ngữ
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

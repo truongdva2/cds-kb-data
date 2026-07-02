@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLERESTRICTION
 description: BR Vehiclerestriction
+semantic_en: "value-help for Brazil vehicle restriction — displays vehicle restriction classification codes (VehicleRestriction)."
+semantic_vi: "danh sách giá trị cho hạn chế phương tiện Brazil — hiển thị các mã phân loại hạn chế phương tiện (VehicleRestriction)."
+keywords:
+  - hạn chế phương tiện
+  - phân loại hạn chế
+  - phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

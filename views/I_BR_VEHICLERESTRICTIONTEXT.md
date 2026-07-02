@@ -1,6 +1,12 @@
 ---
 name: I_BR_VEHICLERESTRICTIONTEXT
 description: BR Vehiclerestrictiontext
+semantic_en: "text translations for Brazil vehicle restriction — stores language-specific vehicle restriction descriptions (Language, VehicleRestriction, VehicleRestrictionDesc)."
+semantic_vi: "bản dịch văn bản cho hạn chế phương tiện Brazil — lưu trữ mô tả hạn chế phương tiện theo ngôn ngữ (Language, VehicleRestriction, VehicleRestrictionDesc)."
+keywords:
+  - mô tả hạn chế xe
+  - dịch ngôn ngữ
+  - hạn chế phương tiện
 app_component: FI-LOC-LO-BR
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSPARTNERADDRESSTP_3
 description: Business PartnerADDRESSTP 3
+semantic_en: "business partner complete address projection — full address details including street, house number, and validity periods."
+semantic_vi: "hình chiếu địa chỉ đầy đủ đối tác kinh doanh — chi tiết địa chỉ đầy đủ bao gồm đường phố và số nhà."
+keywords:
+  - địa chỉ đối tác kinh doanh
+  - đường phố
+  - số nhà
 app_component: AP-MD-BP-RAP
 software_component: SAP_BASIS
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_BUSINESSUSERVH
 description: Businessuservh
+semantic_en: "value help for business user — lookup for user contact details including phone, email, and organizational placement."
+semantic_vi: "danh sách trợ giúp giá trị cho người dùng kinh doanh — tìm kiếm nhân viên theo phòng ban, điện thoại, email."
+keywords:
+  - tìm kiếm nhân viên
+  - phòng ban
+  - liên hệ
 app_component: BC-SRV-BUM
 software_component: SAP_BASIS
 release_state: released
