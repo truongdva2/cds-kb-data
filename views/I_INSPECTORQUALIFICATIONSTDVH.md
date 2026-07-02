@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTORQUALIFICATIONSTDVH
 description: Inspectorqualificationstdvh
+semantic_en: "value-help for inspector qualifications — enables selection with qualification description text"
+semantic_vi: "trợ giúp giá trị cho yêu cầu người kiểm tra — cho phép chọn với mô tả yêu cầu"
+keywords:
+  - yêu cầu kiểm tra
+  - mô tả kỹ năng
+  - lựa chọn
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

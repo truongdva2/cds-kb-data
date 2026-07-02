@@ -1,6 +1,12 @@
 ---
 name: I_INACTIVESTATUSTEXT
 description: Inactivestatustext
+semantic_en: "Text descriptions of inactive status — language and localized status name for purge category items."
+semantic_vi: "Mô tả văn bản của trạng thái không hoạt động — ngôn ngữ và tên trạng thái được bản địa hóa cho các mục danh mục làm sạch."
+keywords:
+  - Trạng thái không hoạt động
+  - Tên trạng thái
+  - Văn bản
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

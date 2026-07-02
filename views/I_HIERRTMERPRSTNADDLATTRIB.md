@@ -1,6 +1,12 @@
 ---
 name: I_HIERRTMERPRSTNADDLATTRIB
 description: Hierrtmerprstnaddlattrib
+semantic_en: "hierarchy runtime representation directory attribute — attributes for runtime hierarchy directories defining ranges and characteristics."
+semantic_vi: "thuộc tính thư mục biểu diễn cấp bậc thời chạy — các thuộc tính cho thư mục cấp bậc thời chạy xác định các phạm vi và đặc điểm."
+keywords:
+  - thuộc tính cấp bậc
+  - thư mục
+  - phạm vi
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

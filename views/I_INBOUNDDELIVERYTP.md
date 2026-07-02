@@ -1,6 +1,12 @@
 ---
 name: I_INBOUNDDELIVERYTP
 description: Inbound DeliveryTP
+semantic_en: "Projection of inbound deliveries — document type, creation/change details, goods receiving point, delivery priority, block reason, and in-plant indicator."
+semantic_vi: "Chiếu các giao hàng nhập — loại tài liệu, chi tiết tạo/thay đổi, điểm nhận hàng, ưu tiên giao hàng, lý do khóa và chỉ báo trong nhà máy."
+keywords:
+  - Giao hàng nhập
+  - Loại tài liệu
+  - Ưu tiên giao hàng
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

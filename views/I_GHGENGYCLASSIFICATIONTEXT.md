@@ -1,6 +1,12 @@
 ---
 name: I_GHGENGYCLASSIFICATIONTEXT
 description: Ghgengyclassificationtext
+semantic_en: "GHG energy classification text translations — language-specific names for energy classifications."
+semantic_vi: "Bản dịch văn bản phân loại năng lượng khí nhà kính — tên dành riêng cho ngôn ngữ cho các phân loại năng lượng."
+keywords:
+  - khí nhà kính
+  - phân loại năng lượng
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

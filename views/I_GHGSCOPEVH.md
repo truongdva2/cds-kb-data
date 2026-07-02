@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCOPEVH
 description: Ghgscopevh
+semantic_en: "GHG scope value help — dropdown list of greenhouse gas scope codes."
+semantic_vi: "Trợ giúp giá trị phạm vi khí nhà kính — danh sách thả xuống các mã phạm vi khí nhà kính."
+keywords:
+  - khí nhà kính
+  - phạm vi
+  - value help
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

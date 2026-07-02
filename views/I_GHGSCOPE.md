@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCOPE
 description: Ghgscope
+semantic_en: "GHG scope codelist — domain values for greenhouse gas reporting scopes (Scope 1, 2, 3)."
+semantic_vi: "Danh sách mã hóa phạm vi khí nhà kính — giá trị miền cho các phạm vi báo cáo khí nhà kính."
+keywords:
+  - khí nhà kính
+  - phạm vi báo cáo
+  - codelist
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

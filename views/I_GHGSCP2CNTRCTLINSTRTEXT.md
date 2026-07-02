@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CNTRCTLINSTRTEXT
 description: Ghgscp 2CNTRCTLINSTRTEXT
+semantic_en: "GHG Scope 2 contractual instrument text translations — language-specific names of contractual arrangements."
+semantic_vi: "Bản dịch văn bản công cụ hợp đồng Phạm vi 2 — tên dành riêng cho ngôn ngữ cho các sắp xếp hợp đồng."
+keywords:
+  - Scope 2
+  - công cụ hợp đồng
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

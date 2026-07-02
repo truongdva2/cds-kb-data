@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCOUNTTP
 description: Ihbaccounttp
+semantic_en: "Projection of IHB accounts — account reference, bank area, account number, currency, alias, holder, IBAN, group, status, and payment block status."
+semantic_vi: "Chiếu các tài khoản IHB — tham chiếu tài khoản, khu vực ngân hàng, số tài khoản, tiền tệ, biệt danh, chủ sở hữu, IBAN, nhóm, trạng thái và trạng thái khóa thanh toán."
+keywords:
+  - Tài khoản IHB
+  - IBAN
+  - Số tài khoản
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

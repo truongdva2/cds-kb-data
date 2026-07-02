@@ -1,6 +1,12 @@
 ---
 name: I_GLRECORDTYPETEXT
 description: Glrecordtypetext
+semantic_en: "General ledger record type text translations — language-specific descriptions of GL record types."
+semantic_vi: "Bản dịch văn bản loại bản ghi sổ cái — mô tả dành riêng cho ngôn ngữ về các loại bản ghi sổ cái."
+keywords:
+  - sổ cái
+  - loại bản ghi
+  - dịch thuật
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

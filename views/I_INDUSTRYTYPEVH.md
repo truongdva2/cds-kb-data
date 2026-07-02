@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYTYPEVH
 description: Industrytypevh
+semantic_en: "Value-help projection for industry types — provides industry type selection list for financial categorization."
+semantic_vi: "Chiếu trợ giúp giá trị cho các loại ngành — cung cấp danh sách lựa chọn loại ngành để phân loại tài chính."
+keywords:
+  - Loại ngành
+  - Danh sách lựa chọn
+  - Phân loại tài chính
 app_component: FI-LOC-FI-KR
 software_component: SAPSCORE
 release_state: released

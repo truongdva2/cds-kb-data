@@ -1,6 +1,12 @@
 ---
 name: I_GRANTEEMGMTFUNDTYPE
 description: Granteemgmtfundtype
+semantic_en: "grantee management fund type — domain value classification for different fund types used in grantee management."
+semantic_vi: "loại quỹ quản lý người nhận tài trợ — phân loại giá trị miền cho các loại quỹ khác nhau được sử dụng trong quản lý người nhận tài trợ."
+keywords:
+  - loại quỹ
+  - quản lý người nhận tài trợ
+  - phân loại
 app_component: PSM-GM-GTE
 software_component: SAPSCORE
 release_state: released

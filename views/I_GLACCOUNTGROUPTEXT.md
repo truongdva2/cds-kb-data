@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTGROUPTEXT
 description: GL AccountGROUPTEXT
+semantic_en: "G/L account group text translations — language-specific descriptions of account groups."
+semantic_vi: "Bản dịch văn bản nhóm tài khoản sổ cái — mô tả dành riêng cho ngôn ngữ của các nhóm tài khoản."
+keywords:
+  - sổ cái
+  - nhóm tài khoản
+  - dịch thuật
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_HRZCONSUMPTIONDIRECTION
 description: Hrzconsumptiondirection
+semantic_en: "horizontal consumption direction — domain values for production allocation directions in horizontal consumption scenarios."
+semantic_vi: "hướng tiêu thụ ngang — các giá trị miền cho các hướng phân bổ sản xuất trong các kịch bản tiêu thụ ngang."
+keywords:
+  - hướng tiêu thụ
+  - sản xuất
+  - phân bổ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

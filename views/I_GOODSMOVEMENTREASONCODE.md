@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTREASONCODE
 description: Goods MovementREASONCODE
+semantic_en: "Goods movement reason code — reason codes for inventory movements associated with movement types."
+semantic_vi: "Mã lý do chuyển động hàng hóa — mã lý do cho các chuyển động tồn kho liên kết với các loại chuyển động."
+keywords:
+  - chuyển động hàng hóa
+  - lý do
+  - mã
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

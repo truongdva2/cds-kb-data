@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONPLANVERSION
 description: Inspectionplanversion
+semantic_en: "version control for inspection plans — tracks plan versions with lot size range, unit, replacement and status"
+semantic_vi: "kiểm soát phiên bản cho kế hoạch kiểm tra — theo dõi phiên bản kế hoạch với phạm vi kích thước lô, đơn vị, thay thế"
+keywords:
+  - phiên bản kế hoạch kiểm tra
+  - kích thước lô
+  - công thức vận hành
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBCONDITIONTP
 description: Ihbconditiontp
+semantic_en: "Projection of IHB condition items — interest type, currency, calculation method, fixed rate, reference rate, rate range, and factory calendar reference."
+semantic_vi: "Chiếu các mục điều kiện IHB — loại lãi suất, tiền tệ, phương pháp tính toán, lãi suất cố định, lãi suất tham chiếu, phạm vi lãi suất và tham chiếu lịch nhà máy."
+keywords:
+  - Điều kiện IHB
+  - Lãi suất cố định
+  - Loại tính toán
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

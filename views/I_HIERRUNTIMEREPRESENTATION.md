@@ -1,6 +1,12 @@
 ---
 name: I_HIERRUNTIMEREPRESENTATION
 description: Hierruntimerepresentation
+semantic_en: "hierarchy runtime representation directory — hierarchy master data including validity dates, creation details, and controlling area information."
+semantic_vi: "thư mục biểu diễn cấp bậc thời chạy — dữ liệu chính cấp bậc bao gồm ngày có hiệu lực, chi tiết tạo và thông tin vùng kiểm soát."
+keywords:
+  - thư mục cấp bậc
+  - thời chạy
+  - vùng kiểm soát
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

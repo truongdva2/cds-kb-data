@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYSECTOR
 description: Industrysector
+semantic_en: "Industry sector classifications — defines major industry sectors for business categorization."
+semantic_vi: "Phân loại khu vực ngành — xác định các khu vực ngành chính để phân loại kinh doanh."
+keywords:
+  - Khu vực ngành
+  - Phân loại ngành
+  - Ngành
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

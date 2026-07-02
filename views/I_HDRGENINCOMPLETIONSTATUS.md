@@ -1,6 +1,12 @@
 ---
 name: I_HDRGENINCOMPLETIONSTATUS
 description: Hdrgenincompletionstatus
+semantic_en: "header general incompletion status — domain values for tracking overall incompletion status at the sales document header level."
+semantic_vi: "trạng thái không hoàn thành chung tiêu đề — các giá trị miền để theo dõi trạng thái không hoàn thành tổng thể ở cấp tiêu đề tài liệu bán hàng."
+keywords:
+  - trạng thái không hoàn thành
+  - chung
+  - tiêu đề
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCTLIMITOBJECTTP
 description: Ihbacctlimitobjecttp
+semantic_en: "Projection of IHB limit master data objects — object type, category, release status, approval activity, deadline, and hierarchy information."
+semantic_vi: "Chiếu các đối tượng dữ liệu chính giới hạn IHB — loại đối tượng, danh mục, trạng thái phát hành, hoạt động phê duyệt, hạn chót và thông tin phân cấp."
+keywords:
+  - Đối tượng giới hạn
+  - Trạng thái phát hành
+  - Dữ liệu chính IHB
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

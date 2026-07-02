@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCTINTRSTCOMPNOBJTP
 description: Ihbacctintrstcompnobjtp
+semantic_en: "Projection of IHB interest compensation master data objects — object type, category, release status, approval activity, deadline, bank area, and hierarchy level."
+semantic_vi: "Chiếu các đối tượng dữ liệu chính bù lãi suất IHB — loại đối tượng, danh mục, trạng thái phát hành, hoạt động phê duyệt, hạn chót, khu vực ngân hàng và cấp độ phân cấp."
+keywords:
+  - Đối tượng bù lãi suất
+  - Trạng thái phê duyệt
+  - Dữ liệu chính IHB
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

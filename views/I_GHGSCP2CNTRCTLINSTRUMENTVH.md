@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CNTRCTLINSTRUMENTVH
 description: Ghgscp 2CNTRCTLINSTRUMENTVH
+semantic_en: "GHG Scope 2 contractual instrument value help — dropdown list of contractual instrument codes."
+semantic_vi: "Trợ giúp giá trị công cụ hợp đồng Phạm vi 2 — danh sách thả xuống các mã công cụ hợp đồng."
+keywords:
+  - Scope 2
+  - công cụ hợp đồng
+  - value help
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

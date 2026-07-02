@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYMIX
 description: Ghgenergymix
+semantic_en: "GHG energy mix codelist — domain values for categorizing energy mix types."
+semantic_vi: "Danh sách mã hóa hỗn hợp năng lượng khí nhà kính — giá trị miền để phân loại các loại hỗn hợp năng lượng."
+keywords:
+  - năng lượng khí nhà kính
+  - hỗn hợp năng lượng
+  - codelist
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

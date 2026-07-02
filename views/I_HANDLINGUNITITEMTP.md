@@ -1,6 +1,12 @@
 ---
 name: I_HANDLINGUNITITEMTP
 description: Handlingunititemtp
+semantic_en: "handling unit item serial count — transparency data for handling unit items showing serial numbers, quantities and material classifications."
+semantic_vi: "số lượng sê-ri mục đơn vị xử lý — dữ liệu minh bạch cho các mục đơn vị xử lý hiển thị số sê-ri, số lượng và phân loại vật liệu."
+keywords:
+  - số sê-ri
+  - mục đơn vị xử lý
+  - minh bạch
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

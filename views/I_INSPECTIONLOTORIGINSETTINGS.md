@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTORIGINSETTINGS
 description: Inspectionlotoriginsettings
+semantic_en: "configuration linking lot origins to operations — maps origin type to bill-of-operations variant and status"
+semantic_vi: "cấu hình liên kết nguồn gốc lô với quy trình — ánh xạ loại nguồn gốc với biến thể công thức vận hành"
+keywords:
+  - cài đặt nguồn gốc
+  - quy trình công thức
+  - trạng thái hoạt động
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

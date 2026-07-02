@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTYPEFLOWTYPE
 description: GL AccountTYPEFLOWTYPE
+semantic_en: "Flow type for G/L account type codelist — domain values linking account types to posting flow types."
+semantic_vi: "Danh sách mã hóa loại dòng cho loại tài khoản sổ cái — giá trị miền liên kết các loại tài khoản với các loại dòng hạch toán."
+keywords:
+  - sổ cái
+  - loại dòng
+  - loại tài khoản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

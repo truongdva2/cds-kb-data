@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CALCMETHODVH
 description: Ghgscp 2CALCMETHODVH
+semantic_en: "GHG Scope 2 calculation method value help — dropdown list of calculation method codes."
+semantic_vi: "Trợ giúp giá trị phương pháp tính toán Phạm vi 2 — danh sách thả xuống các mã phương pháp tính toán."
+keywords:
+  - Scope 2
+  - phương pháp tính toán
+  - value help
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

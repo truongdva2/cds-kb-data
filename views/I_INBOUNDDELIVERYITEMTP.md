@@ -1,6 +1,12 @@
 ---
 name: I_INBOUNDDELIVERYITEMTP
 description: Inbound DeliveryITEMTP
+semantic_en: "Projection of inbound delivery items — delivery, item, item category, document type, creation details, material, and originally requested material."
+semantic_vi: "Chiếu các mục giao hàng nhập — giao hàng, mục, danh mục mục, loại tài liệu, chi tiết tạo, vật liệu và vật liệu được yêu cầu ban đầu."
+keywords:
+  - Mục giao hàng nhập
+  - Vật liệu giao hàng
+  - Loại mục
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

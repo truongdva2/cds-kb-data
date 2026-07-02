@@ -1,6 +1,12 @@
 ---
 name: I_HANDLINGUNITITEMSERIALNOTP
 description: Handlingunititemserialnotp
+semantic_en: "handling unit item serial number — tracking data for serial-numbered items within handling units across warehouses."
+semantic_vi: "số sê-ri mục đơn vị xử lý — dữ liệu theo dõi cho các mục có số sê-ri trong các đơn vị xử lý trên toàn kho."
+keywords:
+  - số sê-ri
+  - mục đơn vị xử lý
+  - kho
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INACTIVESTATUS
 description: Inactivestatus
+semantic_en: "Inactive status indicator — represents whether a purge category item is marked as inactive."
+semantic_vi: "Chỉ báo trạng thái không hoạt động — biểu diễn liệu mục danh mục làm sạch có được đánh dấu là không hoạt động."
+keywords:
+  - Trạng thái không hoạt động
+  - Làm sạch
+  - Danh mục
 app_component: SLC-SUP
 software_component: SAPSCORE
 release_state: released

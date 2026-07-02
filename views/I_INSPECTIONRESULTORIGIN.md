@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTORIGIN
 description: Inspectionresultorigin
+semantic_en: "master data for inspection result origin codes — reference domain for result source classification"
+semantic_vi: "dữ liệu chính cho mã nguồn gốc kết quả kiểm tra — miền tham chiếu cho phân loại nguồn kết quả"
+keywords:
+  - nguồn gốc kết quả
+  - phân loại kết quả
+  - mã nguồn
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

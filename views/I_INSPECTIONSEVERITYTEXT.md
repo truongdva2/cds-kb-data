@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSEVERITYTEXT
 description: Inspectionseveritytext
+semantic_en: "multilingual text for severity codes — stores severity level descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho mã mức độ — lưu trữ mô tả mức độ theo ngôn ngữ"
+keywords:
+  - text mức độ nghiêm trọng
+  - mô tả mức độ
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

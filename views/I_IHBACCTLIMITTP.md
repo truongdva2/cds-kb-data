@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCTLIMITTP
 description: Ihbacctlimittp
+semantic_en: "Projection of IHB limit items — limit amount, currency, validity period, object reference, and creation/modification audit trail."
+semantic_vi: "Chiếu các mục giới hạn IHB — số tiền giới hạn, tiền tệ, thời kỳ hiệu lực, tham chiếu đối tượng và dấu vết kiểm toán tạo/sửa đổi."
+keywords:
+  - Giới hạn IHB
+  - Số tiền giới hạn
+  - Tiền tệ
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

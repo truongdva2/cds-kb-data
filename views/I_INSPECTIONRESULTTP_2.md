@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTTP_2
 description: Inspectionresulttp 2
+semantic_en: "transient-projected summarized inspection results — shows characteristic, valuation, mean and max values with origin and status"
+semantic_vi: "kết quả kiểm tra tóm tắt chiếu quá độ — hiển thị đặc tính, định giá, giá trị trung bình với nguồn gốc"
+keywords:
+  - kết quả kiểm tra
+  - chiếu quá độ
+  - đặc tính
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

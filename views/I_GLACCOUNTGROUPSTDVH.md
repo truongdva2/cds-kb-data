@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTGROUPSTDVH
 description: GL AccountGROUPSTDVH
+semantic_en: "General ledger account group value help — dropdown of account groups within a chart of accounts."
+semantic_vi: "Trợ giúp giá trị nhóm tài khoản sổ cái — danh sách thả xuống các nhóm tài khoản trong bảng tính."
+keywords:
+  - sổ cái
+  - nhóm tài khoản
+  - value help
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

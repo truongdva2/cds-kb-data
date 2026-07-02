@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTYPEFLOWTYPETXT
 description: GL AccountTYPEFLOWTYPETXT
+semantic_en: "Flow type for G/L account type text translations — language-specific descriptions of type-flow relationships."
+semantic_vi: "Bản dịch văn bản loại dòng cho loại tài khoản sổ cái — mô tả dành riêng cho ngôn ngữ về mối quan hệ loại-dòng."
+keywords:
+  - sổ cái
+  - loại dòng
+  - dịch thuật
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

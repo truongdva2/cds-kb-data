@@ -1,6 +1,12 @@
 ---
 name: I_GLACCTINCHTOFACCTSSTDVH
 description: Glacctinchtofacctsstdvh
+semantic_en: "G/L account in chart of accounts value help — dropdown of accounts with external identifiers."
+semantic_vi: "Trợ giúp giá trị tài khoản sổ cái trong bảng tính — danh sách thả xuống các tài khoản với các định danh bên ngoài."
+keywords:
+  - sổ cái
+  - bảng tính
+  - value help
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTORQUALIFICATION
 description: Inspectorqualification
+semantic_en: "master data for inspector qualifications — reference domain for inspector skill classification"
+semantic_vi: "dữ liệu chính cho yêu cầu người kiểm tra — miền tham chiếu cho phân loại kỹ năng người kiểm tra"
+keywords:
+  - yêu cầu người kiểm tra
+  - kỹ năng kiểm tra
+  - mã yêu cầu
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

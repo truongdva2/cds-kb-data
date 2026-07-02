@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTORIGINTEXT
 description: Inspectionlotorigintext
+semantic_en: "multilingual text for lot origin types — stores origin descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho loại nguồn gốc lô — lưu trữ mô tả nguồn gốc theo ngôn ngữ"
+keywords:
+  - text nguồn gốc lô
+  - mô tả loại lô
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

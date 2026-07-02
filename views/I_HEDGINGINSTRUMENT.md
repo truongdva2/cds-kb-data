@@ -1,6 +1,12 @@
 ---
 name: I_HEDGINGINSTRUMENT
 description: Hedginginstrument
+semantic_en: "hedging instrument — master data for financial instruments used for hedging purposes including treasury information and fiscal year."
+semantic_vi: "công cụ phòng hộ — dữ liệu chính cho các công cụ tài chính được sử dụng cho các mục đích phòng hộ bao gồm thông tin kho bạc và năm tài chính."
+keywords:
+  - công cụ phòng hộ
+  - tài chính
+  - kho bạc
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

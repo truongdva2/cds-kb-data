@@ -1,6 +1,12 @@
 ---
 name: I_HOUSEBANK
 description: Housebank
+semantic_en: "house bank master data — bank information including country, contact details, and data exchange configuration."
+semantic_vi: "dữ liệu chính ngân hàng nội bộ — thông tin ngân hàng bao gồm quốc gia, chi tiết liên hệ và cấu hình trao đổi dữ liệu."
+keywords:
+  - ngân hàng nội bộ
+  - quốc gia
+  - trao đổi dữ liệu
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

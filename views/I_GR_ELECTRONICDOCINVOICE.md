@@ -1,6 +1,12 @@
 ---
 name: I_GR_ELECTRONICDOCINVOICE
 description: GR Electronicdocinvoice
+semantic_en: "Greece electronic document invoice — country-specific eInvoicing data for Greece including document identifiers, types, and party information."
+semantic_vi: "hoá đơn tài liệu điện tử Hy Lạp — dữ liệu hoá đơn điện tử dành riêng cho quốc gia Hy Lạp bao gồm định danh tài liệu, loại và thông tin bên."
+keywords:
+  - hoá đơn điện tử
+  - Hy Lạp
+  - tài liệu quốc gia
 app_component: CA-GTF-CSC-EDO-GR
 software_component: SAPSCORE
 release_state: released

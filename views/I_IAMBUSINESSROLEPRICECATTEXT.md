@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSROLEPRICECATTEXT
 description: Iambusinessrolepricecattext
+semantic_en: "business role price category text — language-specific names for business role price categories."
+semantic_vi: "văn bản danh mục giá vai trò kinh doanh — tên dành riêng cho ngôn ngữ cho các danh mục giá vai trò kinh doanh."
+keywords:
+  - tên danh mục giá
+  - vai trò kinh doanh
+  - đa ngôn ngữ
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

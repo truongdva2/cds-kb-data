@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTSTDVH
 description: Inspectionlotstdvh
+semantic_en: "value-help for inspection lots — enables selection by lot number, type, plant with completion status"
+semantic_vi: "trợ giúp giá trị cho lô kiểm tra — cho phép chọn theo số lô, loại, nhà máy với trạng thái hoàn thành"
+keywords:
+  - lô kiểm tra
+  - nhà máy
+  - loại kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

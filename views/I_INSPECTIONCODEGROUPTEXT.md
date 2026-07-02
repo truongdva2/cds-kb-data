@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODEGROUPTEXT
 description: Inspectioncodegrouptext
+semantic_en: "multilingual text for inspection code groups — stores catalog, group, and descriptive text by language"
+semantic_vi: "văn bản đa ngôn ngữ cho nhóm mã kiểm tra — lưu trữ danh mục, nhóm và mô tả theo ngôn ngữ"
+keywords:
+  - mô tả nhóm mã
+  - text kiểm tra
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

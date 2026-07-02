@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCATALOG
 description: Inspectioncatalog
+semantic_en: "Inspection catalogs — master data for inspection specifications and test codes used in quality management."
+semantic_vi: "Danh mục kiểm tra — dữ liệu chính cho các thông số kỹ thuật kiểm tra và mã thử được sử dụng trong quản lý chất lượng."
+keywords:
+  - Danh mục kiểm tra
+  - Thông số kiểm tra
+  - Quản lý chất lượng
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

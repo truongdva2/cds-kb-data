@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCOPETEXT
 description: Ghgscopetext
+semantic_en: "GHG scope text translations — language-specific descriptions of greenhouse gas scopes."
+semantic_vi: "Bản dịch văn bản phạm vi khí nhà kính — mô tả dành riêng cho ngôn ngữ về các phạm vi khí nhà kính."
+keywords:
+  - khí nhà kính
+  - phạm vi
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CALCMETHODTEXT
 description: Ghgscp 2CALCMETHODTEXT
+semantic_en: "GHG Scope 2 calculation method text translations — language-specific names of calculation approaches."
+semantic_vi: "Bản dịch văn bản phương pháp tính toán Phạm vi 2 — tên dành riêng cho ngôn ngữ cho các cách tiếp cận tính toán."
+keywords:
+  - Scope 2
+  - phương pháp tính toán
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

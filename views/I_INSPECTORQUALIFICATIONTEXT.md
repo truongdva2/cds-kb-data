@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTORQUALIFICATIONTEXT
 description: Inspectorqualificationtext
+semantic_en: "multilingual text for inspector qualifications — stores qualification descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho yêu cầu người kiểm tra — lưu trữ mô tả yêu cầu theo ngôn ngữ"
+keywords:
+  - text yêu cầu kiểm tra
+  - mô tả yêu cầu
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSEVERITY
 description: Inspectionseverity
+semantic_en: "master data for inspection severity codes — reference domain for defect or nonconformance classification"
+semantic_vi: "dữ liệu chính cho mã mức độ nghiêm trọng kiểm tra — miền tham chiếu cho phân loại khuyết tật"
+keywords:
+  - mức độ nghiêm trọng
+  - phân loại khuyết tật
+  - mã mức độ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

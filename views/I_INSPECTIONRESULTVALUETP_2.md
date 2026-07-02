@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTVALUETP_2
 description: Inspectionresultvaluetp 2
+semantic_en: "transient-projected individual result values — shows measured and original values with item and test equipment context"
+semantic_vi: "giá trị kết quả riêng lẻ chiếu quá độ — hiển thị giá trị đo lường và gốc với bối cảnh thiết bị"
+keywords:
+  - giá trị kết quả
+  - thiết bị kiểm tra
+  - dữ liệu đo lường
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

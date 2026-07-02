@@ -1,6 +1,12 @@
 ---
 name: I_HANDLINGUNITHEADER
 description: Handlingunitheader
+semantic_en: "handling unit header — master data for packaging and shipment units including external identification, material, plant, and weight information."
+semantic_vi: "tiêu đề đơn vị xử lý — dữ liệu chính cho các đơn vị đóng gói và vận chuyển bao gồm định danh bên ngoài, vật liệu, nhà máy và thông tin trọng lượng."
+keywords:
+  - đơn vị xử lý
+  - đóng gói
+  - vận chuyển
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

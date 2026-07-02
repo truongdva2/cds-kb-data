@@ -1,6 +1,12 @@
 ---
 name: I_GLADJMTACCTGNOTIFTP
 description: Gladjmtacctgnotiftp
+semantic_en: "G/L adjustment accounting notification TP — notifications for general ledger adjustments with timestamp."
+semantic_vi: "Thông báo kế toán điều chỉnh sổ cái — thông báo cho các điều chỉnh sổ cái với dấu thời gian."
+keywords:
+  - sổ cái
+  - điều chỉnh
+  - thông báo
 app_component: AC-INT-2CL
 software_component: SAPSCORE
 release_state: released

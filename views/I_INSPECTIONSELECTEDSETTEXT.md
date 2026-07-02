@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSELECTEDSETTEXT
 description: Inspectionselectedsettext
+semantic_en: "multilingual text for selected code sets — stores set descriptions by language per plant and catalog"
+semantic_vi: "văn bản đa ngôn ngữ cho bộ mã đã chọn — lưu trữ mô tả bộ theo ngôn ngữ"
+keywords:
+  - text bộ mã
+  - mô tả bộ mã đã chọn
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

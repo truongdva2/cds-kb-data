@@ -1,6 +1,12 @@
 ---
 name: I_IHBFEEDETAILTP
 description: Ihbfeedetailtp
+semantic_en: "Projection of IHB fee details — fee amount, currency, scale range, object reference, and creation/modification audit trail."
+semantic_vi: "Chiếu chi tiết phí IHB — số tiền phí, tiền tệ, phạm vi quy mô, tham chiếu đối tượng và dấu vết kiểm toán tạo/sửa đổi."
+keywords:
+  - Chi tiết phí IHB
+  - Số tiền phí
+  - Quy mô phí
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

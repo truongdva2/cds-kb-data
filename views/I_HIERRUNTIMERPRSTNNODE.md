@@ -1,6 +1,12 @@
 ---
 name: I_HIERRUNTIMERPRSTNNODE
 description: Hierruntimerprstnnode
+semantic_en: "hierarchy node — node-level data within runtime hierarchies with debit/credit codes, node types, and sequence information."
+semantic_vi: "nút cấp bậc — dữ liệu cấp độ nút trong cấp bậc thời chạy với mã nợ/có, loại nút và thông tin chuỗi."
+keywords:
+  - nút cấp bậc
+  - loại nút
+  - chuỗi
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

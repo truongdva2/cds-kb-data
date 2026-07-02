@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODEGROUPSTDVH
 description: Inspectioncodegroupstdvh
+semantic_en: "value-help for inspection code groups — enables selection of catalog-specific code group with status"
+semantic_vi: "trợ giúp giá trị cho nhóm mã kiểm tra — cho phép chọn nhóm mã theo danh mục với trạng thái"
+keywords:
+  - nhóm mã kiểm tra
+  - danh mục kiểm tra
+  - trạng thái nhóm mã
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

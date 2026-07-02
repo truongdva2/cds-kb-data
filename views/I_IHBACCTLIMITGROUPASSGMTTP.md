@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCTLIMITGROUPASSGMTTP
 description: Ihbacctlimitgroupassgmttp
+semantic_en: "Projection of IHB group assignments for account limits — assignment reference, object category, account, currency, validity dates, and audit trail."
+semantic_vi: "Chiếu gán nhóm IHB cho giới hạn tài khoản — tham chiếu gán, danh mục đối tượng, tài khoản, tiền tệ, ngày hiệu lực và dấu vết kiểm toán."
+keywords:
+  - Gán nhóm giới hạn
+  - Giới hạn tài khoản
+  - Thời kỳ hiệu lực
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

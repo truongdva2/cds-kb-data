@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTSTATUS
 description: Inspectionresultstatus
+semantic_en: "master data for inspection result status codes — defines valid status categories with descriptions"
+semantic_vi: "dữ liệu chính cho mã trạng thái kết quả kiểm tra — xác định các danh mục trạng thái hợp lệ"
+keywords:
+  - trạng thái kết quả
+  - mã trạng thái kiểm tra
+  - danh mục
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

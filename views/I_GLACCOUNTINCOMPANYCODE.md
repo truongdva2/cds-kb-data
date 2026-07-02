@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTINCOMPANYCODE
 description: GL AccountINCompany Code
+semantic_en: "General ledger account in company code — company-specific account settings including reconciliation and tax information."
+semantic_vi: "Tài khoản sổ cái trong mã công ty — cài đặt tài khoản dành riêng cho công ty bao gồm thông tin hòa giải và thuế."
+keywords:
+  - sổ cái
+  - mã công ty
+  - tài khoản
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

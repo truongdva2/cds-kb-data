@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTSTATUS
 description: Goods MovementSTATUS
+semantic_en: "goods movement status — status classification for different stages and states of goods movement transactions."
+semantic_vi: "trạng thái chuyển động hàng hóa — phân loại trạng thái cho các giai đoạn và trạng thái khác nhau của giao dịch chuyển động hàng hóa."
+keywords:
+  - trạng thái
+  - chuyển động hàng hóa
+  - phân loại
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

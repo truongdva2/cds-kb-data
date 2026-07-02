@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSUBSETTYPETEXT
 description: Inspectionsubsettypetext
+semantic_en: "multilingual text for inspection point type codes — stores type descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho mã loại điểm kiểm tra — lưu trữ mô tả loại theo ngôn ngữ"
+keywords:
+  - text loại điểm kiểm tra
+  - mô tả loại kiểm tra
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

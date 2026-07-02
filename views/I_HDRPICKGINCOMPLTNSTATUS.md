@@ -1,6 +1,12 @@
 ---
 name: I_HDRPICKGINCOMPLTNSTATUS
 description: Hdrpickgincompltnstatus
+semantic_en: "header picking incompletion status — domain values for tracking incomplete picking status at the sales document header level."
+semantic_vi: "trạng thái không hoàn thành chọn hàng tiêu đề — các giá trị miền để theo dõi trạng thái chọn hàng không hoàn thành ở cấp tiêu đề tài liệu bán hàng."
+keywords:
+  - trạng thái chọn hàng
+  - không hoàn thành
+  - tiêu đề
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_HDRPACKINGINCOMPLTNSTATUS
 description: Hdrpackingincompltnstatus
+semantic_en: "header packing incompletion status — domain values for tracking incomplete packing status at the sales document header level."
+semantic_vi: "trạng thái không hoàn thành đóng gói tiêu đề — các giá trị miền để theo dõi trạng thái đóng gói không hoàn thành ở cấp tiêu đề tài liệu bán hàng."
+keywords:
+  - trạng thái đóng gói
+  - không hoàn thành
+  - tiêu đề
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTCUBE
 description: Goods MovementCUBE
+semantic_en: "Analytics of goods movements cube — analytical data for goods movements with material, plant, and financial dimensions."
+semantic_vi: "Khối dữ liệu phân tích chuyển động hàng hóa — dữ liệu phân tích cho chuyển động hàng hóa với các chiều vật liệu, nhà máy và tài chính."
+keywords:
+  - chuyển động hàng hóa
+  - phân tích
+  - khối
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

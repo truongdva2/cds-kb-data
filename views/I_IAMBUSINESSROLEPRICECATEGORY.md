@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSROLEPRICECATEGORY
 description: Iambusinessrolepricecategory
+semantic_en: "business role price category — IAM projection linking business roles to price categories for pricing differentiation."
+semantic_vi: "danh mục giá vai trò kinh doanh — hình chiếu IAM liên kết các vai trò kinh doanh với các danh mục giá để phân biệt giá."
+keywords:
+  - danh mục giá
+  - vai trò kinh doanh
+  - phân biệt giá
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

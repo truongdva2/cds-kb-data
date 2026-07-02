@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSCOPE
 description: Inspectionscope
+semantic_en: "master data for inspection scope codes — reference domain for defining test coverage"
+semantic_vi: "dữ liệu chính cho mã phạm vi kiểm tra — miền tham chiếu cho xác định phạm vi kiểm tra"
+keywords:
+  - phạm vi kiểm tra
+  - mã phạm vi
+  - lựa chọn phạm vi
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

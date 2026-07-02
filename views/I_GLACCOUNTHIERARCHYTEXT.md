@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTHIERARCHYTEXT
 description: GL AccountHIERARCHYTEXT
+semantic_en: "G/L account hierarchy text — language-specific names for reporting hierarchies."
+semantic_vi: "Văn bản hệ thống phân cấp tài khoản sổ cái — tên dành riêng cho ngôn ngữ cho các hệ thống phân cấp báo cáo."
+keywords:
+  - sổ cái
+  - hệ thống phân cấp
+  - dịch thuật
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

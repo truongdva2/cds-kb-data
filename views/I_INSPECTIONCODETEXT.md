@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODETEXT
 description: Inspectioncodetext
+semantic_en: "multilingual text for inspection codes — stores code descriptions by language within catalog and group"
+semantic_vi: "văn bản đa ngôn ngữ cho mã kiểm tra — lưu trữ mô tả mã theo ngôn ngữ trong danh mục"
+keywords:
+  - text mã kiểm tra
+  - mô tả mã
+  - ngôn ngữ
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

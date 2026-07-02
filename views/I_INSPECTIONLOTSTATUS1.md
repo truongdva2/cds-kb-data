@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTSTATUS1
 description: Inspectionlotstatus 1
+semantic_en: "active status records for inspection lots — tracks current status code and status object"
+semantic_vi: "bản ghi trạng thái hoạt động cho lô kiểm tra — theo dõi mã trạng thái hiện tại và đối tượng trạng thái"
+keywords:
+  - trạng thái lô kiểm tra
+  - mã trạng thái
+  - hoạt động
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

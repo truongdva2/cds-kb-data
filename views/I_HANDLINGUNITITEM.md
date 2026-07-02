@@ -1,6 +1,12 @@
 ---
 name: I_HANDLINGUNITITEM
 description: Handlingunititem
+semantic_en: "handling unit item — detailed item-level data for contents within handling units including material, quantity, and nested unit references."
+semantic_vi: "mục đơn vị xử lý — dữ liệu cấp độ mục chi tiết cho nội dung trong các đơn vị xử lý bao gồm vật liệu, số lượng và tham chiếu đơn vị lồng nhau."
+keywords:
+  - mục đơn vị xử lý
+  - vật liệu
+  - số lượng
 app_component: LO-HU-2CL
 software_component: SAPSCORE
 release_state: released

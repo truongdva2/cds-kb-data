@@ -1,6 +1,12 @@
 ---
 name: I_IHBCONDITIONOBJECTTP
 description: Ihbconditionobjecttp
+semantic_en: "Projection of IHB condition master data objects — object type, category, release status, approval activity, deadline, and hierarchy level."
+semantic_vi: "Chiếu các đối tượng dữ liệu chính điều kiện IHB — loại đối tượng, danh mục, trạng thái phát hành, hoạt động phê duyệt, hạn chót và cấp độ phân cấp."
+keywords:
+  - Đối tượng điều kiện
+  - Trạng thái phê duyệt
+  - Dữ liệu chính IHB
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

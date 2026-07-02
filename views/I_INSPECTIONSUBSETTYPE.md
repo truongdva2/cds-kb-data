@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSUBSETTYPE
 description: Inspectionsubsettype
+semantic_en: "master data for inspection point types — reference domain for categorizing inspection subset kinds"
+semantic_vi: "dữ liệu chính cho loại điểm kiểm tra — miền tham chiếu cho phân loại loại điểm kiểm tra"
+keywords:
+  - loại điểm kiểm tra
+  - phân loại điểm
+  - mã loại
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

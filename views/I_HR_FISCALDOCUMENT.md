@@ -1,6 +1,12 @@
 ---
 name: I_HR_FISCALDOCUMENT
 description: HR Fiscaldocument
+semantic_en: "fiscal documents — country-specific fiscal document data including document type, invoice status, and company identification."
+semantic_vi: "tài liệu tài chính — dữ liệu tài liệu tài chính dành riêng cho quốc gia bao gồm loại tài liệu, trạng thái hoá đơn và định danh công ty."
+keywords:
+  - tài liệu tài chính
+  - hoá đơn
+  - định danh
 app_component: FI-LOC-LO-HR
 software_component: SAPSCORE
 release_state: released

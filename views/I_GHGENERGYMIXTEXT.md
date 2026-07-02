@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYMIXTEXT
 description: Ghgenergymixtext
+semantic_en: "GHG energy mix text translations — language-specific names for energy mix categories."
+semantic_vi: "Bản dịch văn bản hỗn hợp năng lượng khí nhà kính — tên dành riêng cho ngôn ngữ cho các danh mục hỗn hợp năng lượng."
+keywords:
+  - năng lượng khí nhà kính
+  - tên hỗn hợp
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

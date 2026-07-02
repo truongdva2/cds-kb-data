@@ -1,6 +1,12 @@
 ---
 name: I_INDEPENDENTREQUIREMENTTYPE
 description: Independentrequirementtype
+semantic_en: "Independent requirement types — classification system for forecast demand and independent planning requirements."
+semantic_vi: "Loại yêu cầu độc lập — hệ thống phân loại cho nhu cầu dự báo và yêu cầu lập kế hoạch độc lập."
+keywords:
+  - Loại yêu cầu độc lập
+  - Dự báo nhu cầu
+  - Lớp yêu cầu
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

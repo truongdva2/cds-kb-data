@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTORIGIN
 description: Inspectionlotorigin
+semantic_en: "master data for inspection lot origin types — reference domain for lot creation context"
+semantic_vi: "dữ liệu chính cho loại nguồn gốc lô kiểm tra — miền tham chiếu cho bối cảnh tạo lô"
+keywords:
+  - nguồn gốc lô
+  - loại kiểm tra
+  - bối cảnh kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

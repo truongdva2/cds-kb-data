@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODE
 description: Inspectioncode
+semantic_en: "Inspection codes within code groups and catalogs — codes used for recording quality inspection results and observations."
+semantic_vi: "Mã kiểm tra trong các nhóm mã và danh mục — mã được sử dụng để ghi nhận kết quả kiểm tra chất lượng và quan sát."
+keywords:
+  - Mã kiểm tra
+  - Nhóm mã
+  - Danh mục
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

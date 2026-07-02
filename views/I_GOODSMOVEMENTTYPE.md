@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTTYPE
 description: Goods MovementTYPE
+semantic_en: "goods movement type — master data for classifying different types of goods movements including reversal movements and accounting codes."
+semantic_vi: "loại chuyển động hàng hóa — dữ liệu chính để phân loại các loại chuyển động hàng hóa khác nhau bao gồm chuyển động đảo ngược và mã kế toán."
+keywords:
+  - loại chuyển động
+  - hàng hóa
+  - mã ghi nợ nợ
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

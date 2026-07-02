@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYSOURCINGTYPEVH
 description: Ghgenergysourcingtypevh
+semantic_en: "GHG energy sourcing type value help — dropdown list of energy sourcing type codes."
+semantic_vi: "Trợ giúp giá trị loại cấp năng lượng khí nhà kính — danh sách thả xuống các mã loại cấp năng lượng."
+keywords:
+  - khí nhà kính
+  - cấp năng lượng
+  - value help
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

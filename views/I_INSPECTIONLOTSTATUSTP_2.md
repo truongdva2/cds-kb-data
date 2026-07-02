@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTSTATUSTP_2
 description: Inspectionlotstatustp 2
+semantic_en: "transient-projected status view for inspection lots — provides status code and object via transient projection"
+semantic_vi: "dạng xem trạng thái chiếu quá độ cho lô kiểm tra — cung cấp mã và đối tượng trạng thái qua chiếu quá độ"
+keywords:
+  - trạng thái lô
+  - chiếu quá độ
+  - mã trạng thái
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

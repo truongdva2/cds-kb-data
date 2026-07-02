@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSUSERLOGONDETAILS
 description: Iambusinessuserlogondetails
+semantic_en: "business user logon details — projection with business user login configuration including validity dates, localization preferences, and last logon tracking."
+semantic_vi: "chi tiết đăng nhập người dùng kinh doanh — hình chiếu có cấu hình đăng nhập người dùng kinh doanh bao gồm ngày có hiệu lực, tùy chọn địa phương hóa và theo dõi đăng nhập lần cuối."
+keywords:
+  - chi tiết đăng nhập
+  - người dùng kinh doanh
+  - tùy chọn địa phương
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

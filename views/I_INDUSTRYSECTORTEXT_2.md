@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYSECTORTEXT_2
 description: Industrysectortext 2
+semantic_en: "Text descriptions of industry sectors — language and localized sector names for business classification."
+semantic_vi: "Mô tả văn bản của các khu vực ngành — ngôn ngữ và tên khu vực được bản địa hóa để phân loại kinh doanh."
+keywords:
+  - Tên khu vực
+  - Khu vực ngành
+  - Văn bản
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

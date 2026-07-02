@@ -1,6 +1,12 @@
 ---
 name: I_HIERRTMERPRSTNNDEADDLATTRIB
 description: Hierrtmerprstnndeaddlattrib
+semantic_en: "hierarchy node attribute — attributes for nodes within runtime hierarchies including ranges and node classification."
+semantic_vi: "thuộc tính nút cấp bậc — các thuộc tính cho các nút trong cấp bậc thời chạy bao gồm các phạm vi và phân loại nút."
+keywords:
+  - thuộc tính nút cấp bậc
+  - nút
+  - phân loại
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBFEETP
 description: Ihbfeetp
+semantic_en: "Projection of IHB fee items — fee type, scale flag, scale type, amount, currency, and validity period."
+semantic_vi: "Chiếu các mục phí IHB — loại phí, cờ quy mô, loại quy mô, số tiền, tiền tệ và thời kỳ hiệu lực."
+keywords:
+  - Mục phí IHB
+  - Loại phí
+  - Kiểu quy mô
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

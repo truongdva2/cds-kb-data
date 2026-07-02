@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONPLANTP_2
 description: Inspectionplantp 2
+semantic_en: "transient-projected header data for inspection plans — shows plan group, number, change status and modification audit trail"
+semantic_vi: "dữ liệu tiêu đề chiếu quá độ cho kế hoạch kiểm tra — hiển thị nhóm kế hoạch, số, trạng thái thay đổi và lịch sử kiểm toán"
+keywords:
+  - kế hoạch kiểm tra
+  - thay đổi kế hoạch
+  - kiểm toán
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

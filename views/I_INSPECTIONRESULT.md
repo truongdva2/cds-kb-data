@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULT
 description: Inspectionresult
+semantic_en: "summarized inspection results per characteristic — aggregates valuation, mean and max values with status and origin"
+semantic_vi: "kết quả kiểm tra tóm tắt theo đặc tính — tổng hợp định giá, giá trị trung bình và cực đại với trạng thái"
+keywords:
+  - kết quả kiểm tra
+  - đặc tính kiểm tra
+  - định giá
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

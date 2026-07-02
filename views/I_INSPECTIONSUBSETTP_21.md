@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSUBSETTP_21
 description: Inspectionsubsettp 21
+semantic_en: "transient-projected inspection points — shows subset details with material sample, equipment, location and selected code set"
+semantic_vi: "điểm kiểm tra chiếu quá độ — hiển thị chi tiết điểm với mẫu, thiết bị, vị trí và bộ mã đã chọn"
+keywords:
+  - điểm kiểm tra
+  - chiếu quá độ
+  - bộ mã
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

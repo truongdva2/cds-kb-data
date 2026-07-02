@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYHIERARCHY
 description: Industryhierarchy
+semantic_en: "Industry hierarchies — organizational structures for industry classifications with validity dates and hierarchy identifiers."
+semantic_vi: "Phân cấp ngành — các cấu trúc tổ chức để phân loại ngành với ngày hiệu lực và định danh phân cấp."
+keywords:
+  - Phân cấp ngành
+  - Ngành công nghiệp
+  - Phân loại
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

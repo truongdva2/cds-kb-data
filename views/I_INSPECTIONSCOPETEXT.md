@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSCOPETEXT
 description: Inspectionscopetext
+semantic_en: "multilingual text for scope codes — stores scope descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho mã phạm vi — lưu trữ mô tả phạm vi theo ngôn ngữ"
+keywords:
+  - text phạm vi kiểm tra
+  - mô tả phạm vi
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

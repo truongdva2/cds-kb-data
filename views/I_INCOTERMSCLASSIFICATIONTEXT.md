@@ -1,6 +1,12 @@
 ---
 name: I_INCOTERMSCLASSIFICATIONTEXT
 description: Incotermsclassificationtext
+semantic_en: "Text descriptions of Incoterms classifications — language and localized classification names."
+semantic_vi: "Mô tả văn bản của các phân loại Incoterms — ngôn ngữ và tên phân loại được bản địa hóa."
+keywords:
+  - Incoterms
+  - Tên phân loại
+  - Văn bản
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

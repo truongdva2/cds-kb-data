@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSUSERPRICECATTEXT
 description: Iambusinessuserpricecattext
+semantic_en: "Text descriptions for business user price categories — language, user ID, category, and localized category name."
+semantic_vi: "Mô tả văn bản của các danh mục giá người dùng kinh doanh — ngôn ngữ, ID người dùng, danh mục và tên danh mục được bản địa hóa."
+keywords:
+  - Danh mục giá người dùng
+  - Mô tả danh mục
+  - Văn bản ngôn ngữ
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONOPERATIONTP_2
 description: Inspectionoperationtp 2
+semantic_en: "transient-projected view of inspection operations — shows lot, operation, order details, work center, status and subsystem"
+semantic_vi: "dạng xem chiếu quá độ của quy trình kiểm tra — hiển thị lô, quy trình, chi tiết đơn hàng, trung tâm công việc, trạng thái"
+keywords:
+  - quy trình kiểm tra
+  - chiếu quá độ
+  - trung tâm công việc
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

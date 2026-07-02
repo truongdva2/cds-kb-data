@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTTYPET
 description: Goods MovementTYPET
+semantic_en: "goods movement type text — language-specific descriptions and names for different goods movement types."
+semantic_vi: "văn bản loại chuyển động hàng hóa — mô tả và tên gọi dành riêng cho ngôn ngữ cho các loại chuyển động hàng hóa khác nhau."
+keywords:
+  - tên gọi loại chuyển động
+  - mô tả
+  - hàng hóa
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

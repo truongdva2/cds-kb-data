@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTEXTRAWDATA
 description: GL AccountTEXTRAWDATA
+semantic_en: "General ledger account text raw data — unprocessed language-specific account names and descriptions."
+semantic_vi: "Dữ liệu thô văn bản tài khoản sổ cái — tên và mô tả tài khoản dành riêng cho ngôn ngữ chưa xử lý."
+keywords:
+  - sổ cái
+  - tài khoản
+  - dữ liệu thô
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

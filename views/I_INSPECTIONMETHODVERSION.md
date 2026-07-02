@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONMETHODVERSION
 description: Inspectionmethodversion
+semantic_en: "master data for inspection method versions — stores method configuration, plant, validity, qualification and audit details"
+semantic_vi: "dữ liệu chính cho phiên bản phương pháp kiểm tra — lưu trữ cấu hình phương pháp, nhà máy, hiệu lực, yêu cầu và chi tiết kiểm toán"
+keywords:
+  - phương pháp kiểm tra
+  - phiên bản phương pháp
+  - yêu cầu người kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTEXT
 description: GL AccountTEXT
+semantic_en: "General ledger account text — language-specific short and long names for GL accounts."
+semantic_vi: "Văn bản tài khoản sổ cái — tên ngắn và dài dành riêng cho ngôn ngữ cho các tài khoản sổ cái."
+keywords:
+  - sổ cái
+  - tài khoản
+  - dịch thuật
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

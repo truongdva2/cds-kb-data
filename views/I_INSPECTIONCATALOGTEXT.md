@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCATALOGTEXT
 description: Inspectioncatalogtext
+semantic_en: "Text descriptions of inspection catalogs — language and additional catalog text for inspection specifications."
+semantic_vi: "Mô tả văn bản của các danh mục kiểm tra — ngôn ngữ và văn bản danh mục bổ sung cho các thông số kỹ thuật kiểm tra."
+keywords:
+  - Văn bản danh mục
+  - Danh mục kiểm tra
+  - Mô tả
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

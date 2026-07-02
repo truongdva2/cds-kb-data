@@ -1,6 +1,12 @@
 ---
 name: I_HIERRUNTIMERPRSTNNODETEXT
 description: Hierruntimerprstnnodetext
+semantic_en: "hierarchy node text — language-specific names and descriptions for nodes within runtime hierarchies."
+semantic_vi: "văn bản nút cấp bậc — tên và mô tả dành riêng cho ngôn ngữ cho các nút trong cấp bậc thời chạy."
+keywords:
+  - tên nút cấp bậc
+  - mô tả
+  - đa ngôn ngữ
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

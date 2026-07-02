@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSELECTEDSET
 description: Inspectionselectedset
+semantic_en: "inspection selected code sets per catalog and plant — defines default code groups and codes with status"
+semantic_vi: "bộ mã đã chọn kiểm tra theo danh mục và nhà máy — xác định nhóm mã và mã mặc định"
+keywords:
+  - bộ mã đã chọn
+  - danh mục kiểm tra
+  - nhà máy
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

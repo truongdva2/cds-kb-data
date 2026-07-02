@@ -1,6 +1,12 @@
 ---
 name: I_INBDELIVITEMSERIALNUMBERTP
 description: INBDELIVITEMSerial NumberTP
+semantic_en: "Projection of inbound delivery item serial numbers — delivery, item, serial number, equipment, and material references."
+semantic_vi: "Chiếu số seri mục giao hàng nhập — tham chiếu giao hàng, mục, số seri, thiết bị và vật liệu."
+keywords:
+  - Số seri giao hàng
+  - Mục giao hàng
+  - Số seri
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBFEEGROUPASSGMTTP
 description: Ihbfeegroupassgmttp
+semantic_en: "Projection of IHB group assignments for fees — assignment reference, object category, account, currency, validity dates, and audit trail."
+semantic_vi: "Chiếu gán nhóm IHB cho phí — tham chiếu gán, danh mục đối tượng, tài khoản, tiền tệ, ngày hiệu lực và dấu vết kiểm toán."
+keywords:
+  - Gán nhóm phí
+  - Phí IHB
+  - Thời kỳ hiệu lực
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

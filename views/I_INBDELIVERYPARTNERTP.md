@@ -1,6 +1,12 @@
 ---
 name: I_INBDELIVERYPARTNERTP
 description: Inbdeliverypartnertp
+semantic_en: "Projection of inbound delivery partners — partner function, customer, supplier, personnel, contact person, and address information."
+semantic_vi: "Chiếu đối tác giao hàng nhập — chức năng đối tác, khách hàng, nhà cung cấp, nhân sự, người liên hệ và thông tin địa chỉ."
+keywords:
+  - Đối tác giao hàng
+  - Giao hàng nhập
+  - Chức năng đối tác
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

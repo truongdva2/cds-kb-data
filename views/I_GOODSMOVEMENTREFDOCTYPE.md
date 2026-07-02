@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTREFDOCTYPE
 description: Goods MovementREFDOCTYPE
+semantic_en: "goods movement reference document type — domain value classification for different reference documents used in goods movements."
+semantic_vi: "loại tài liệu tham chiếu chuyển động hàng hóa — phân loại giá trị miền cho các tài liệu tham chiếu khác nhau được sử dụng trong chuyển động hàng hóa."
+keywords:
+  - loại tài liệu tham chiếu
+  - chuyển động hàng hóa
+  - phân loại giá trị
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

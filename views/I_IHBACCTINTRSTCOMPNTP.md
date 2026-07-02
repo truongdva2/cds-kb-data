@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCTINTRSTCOMPNTP
 description: Ihbacctintrstcompntp
+semantic_en: "Projection of IHB interest compensation — group assignment, account, currency, validity period, and creation/modification audit trail."
+semantic_vi: "Chiếu bù lãi suất IHB — gán nhóm, tài khoản, tiền tệ, thời kỳ hiệu lực và dấu vết kiểm toán tạo/sửa đổi."
+keywords:
+  - Bù lãi suất
+  - Gán nhóm
+  - Tài khoản tiền tệ
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

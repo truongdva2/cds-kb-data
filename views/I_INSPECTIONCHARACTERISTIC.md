@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCHARACTERISTIC
 description: Inspectioncharacteristic
+semantic_en: "Inspection characteristics in inspection lots — defines measurable attributes, specification text, sampling flags, and quality parameters."
+semantic_vi: "Đặc tính kiểm tra trong các lô kiểm tra — xác định các thuộc tính có thể đo lường, văn bản thông số kỹ thuật, cờ lấy mẫu và thông số chất lượng."
+keywords:
+  - Đặc tính kiểm tra
+  - Lô kiểm tra
+  - Thông số chất lượng
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTCODETEXT
 description: Goods MovementCODETEXT
+semantic_en: "Goods movement code text translations — language-specific names for movement codes."
+semantic_vi: "Bản dịch văn bản mã chuyển động hàng hóa — tên dành riêng cho ngôn ngữ cho các mã chuyển động."
+keywords:
+  - chuyển động hàng hóa
+  - mã
+  - dịch thuật
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

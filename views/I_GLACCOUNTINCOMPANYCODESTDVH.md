@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTINCOMPANYCODESTDVH
 description: GL AccountINCompany CodeSTDVH
+semantic_en: "General ledger account in company code value help — dropdown list of GL accounts for a given company code."
+semantic_vi: "Trợ giúp giá trị tài khoản sổ cái trong mã công ty — danh sách thả xuống các tài khoản sổ cái cho một mã công ty cụ thể."
+keywords:
+  - sổ cái
+  - mã công ty
+  - value help
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

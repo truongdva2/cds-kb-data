@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTORIGINTYPE
 description: Inspectionlotorigintype
+semantic_en: "mapping of inspection types to origin variants — defines which inspection type applies to each origin context"
+semantic_vi: "ánh xạ loại kiểm tra với biến thể nguồn gốc — xác định loại kiểm tra áp dụng cho từng bối cảnh nguồn gốc"
+keywords:
+  - loại kiểm tra
+  - nguồn gốc lô
+  - ánh xạ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

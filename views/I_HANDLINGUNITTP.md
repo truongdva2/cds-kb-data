@@ -1,6 +1,12 @@
 ---
 name: I_HANDLINGUNITTP
 description: Handlingunittp
+semantic_en: "handling unit status — transparency data for handling units including warehouse status, packaging material type, and weight limits."
+semantic_vi: "trạng thái đơn vị xử lý — dữ liệu minh bạch cho các đơn vị xử lý bao gồm trạng thái kho, loại vật liệu đóng gói và giới hạn trọng lượng."
+keywords:
+  - trạng thái đơn vị xử lý
+  - kho
+  - trọng lượng
 app_component: LO-HU-API-2CL
 software_component: SAPSCORE
 release_state: released

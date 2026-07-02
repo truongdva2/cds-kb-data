@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSUSERBUSINESSROLE
 description: Iambusinessuserbusinessrole
+semantic_en: "business user to business role assignment — projection showing which business users are assigned to which business roles."
+semantic_vi: "gán vai trò kinh doanh cho người dùng kinh doanh — hình chiếu hiển thị người dùng kinh doanh nào được gán cho vai trò kinh doanh nào."
+keywords:
+  - gán vai trò
+  - người dùng kinh doanh
+  - vai trò kinh doanh
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

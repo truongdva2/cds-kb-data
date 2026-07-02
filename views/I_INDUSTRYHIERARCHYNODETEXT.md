@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYHIERARCHYNODETEXT
 description: Industryhierarchynodetext
+semantic_en: "Text descriptions of industry hierarchy nodes — language and localized node text for each hierarchy level."
+semantic_vi: "Mô tả văn bản của các nút phân cấp ngành — ngôn ngữ và văn bản nút được bản địa hóa cho từng cấp độ phân cấp."
+keywords:
+  - Văn bản nút
+  - Phân cấp ngành
+  - Mô tả
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

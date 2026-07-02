@@ -1,6 +1,12 @@
 ---
 name: I_HDRGENINCOMPLETIONSTATUST
 description: Hdrgenincompletionstatust
+semantic_en: "header general incompletion status text — language-specific descriptions for header general incompletion status codes."
+semantic_vi: "văn bản trạng thái không hoàn thành chung tiêu đề — mô tả dành riêng cho ngôn ngữ cho các mã trạng thái không hoàn thành chung tiêu đề."
+keywords:
+  - mô tả trạng thái không hoàn thành
+  - chung
+  - đa ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

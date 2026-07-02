@@ -1,6 +1,12 @@
 ---
 name: I_HEDGEDITEM
 description: Hedgeditem
+semantic_en: "hedged item — master data for items that are protected through hedging relationships including fiscal year and company code."
+semantic_vi: "mục được phòng hộ — dữ liệu chính cho các mục được bảo vệ thông qua các mối quan hệ phòng hộ bao gồm năm tài chính và mã công ty."
+keywords:
+  - mục được phòng hộ
+  - phòng hộ
+  - năm tài chính
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

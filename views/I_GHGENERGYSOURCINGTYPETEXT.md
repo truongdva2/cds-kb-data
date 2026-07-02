@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYSOURCINGTYPETEXT
 description: Ghgenergysourcingtypetext
+semantic_en: "GHG energy sourcing type text translations — language-specific descriptions of sourcing types."
+semantic_vi: "Bản dịch văn bản loại cấp năng lượng khí nhà kính — mô tả dành riêng cho ngôn ngữ về các loại cấp."
+keywords:
+  - khí nhà kính
+  - cấp năng lượng
+  - dịch thuật
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

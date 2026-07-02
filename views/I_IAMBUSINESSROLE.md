@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSROLE
 description: Iambusinessrole
+semantic_en: "business role — identity and access management master data for business roles including role group and template information."
+semantic_vi: "vai trò kinh doanh — dữ liệu chính quản lý danh tính và truy cập cho các vai trò kinh doanh bao gồm thông tin nhóm vai trò và mẫu."
+keywords:
+  - vai trò kinh doanh
+  - quản lý danh tính
+  - nhóm vai trò
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

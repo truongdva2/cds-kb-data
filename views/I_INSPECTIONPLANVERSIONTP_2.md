@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONPLANVERSIONTP_2
 description: Inspectionplanversiontp 2
+semantic_en: "transient-projected plan version data — shows version status, usage, description, size limits and replacement tracking"
+semantic_vi: "dữ liệu phiên bản kế hoạch chiếu quá độ — hiển thị trạng thái phiên bản, cách sử dụng, mô tả, giới hạn kích thước"
+keywords:
+  - phiên bản kế hoạch
+  - chiếu quá độ
+  - kích thước lô
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

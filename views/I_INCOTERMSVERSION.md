@@ -1,6 +1,12 @@
 ---
 name: I_INCOTERMSVERSION
 description: Incotermsversion
+semantic_en: "Incoterms version references — identifies specific versions of Incoterms standards (e.g., 2010, 2020)."
+semantic_vi: "Tham chiếu phiên bản Incoterms — xác định các phiên bản cụ thể của tiêu chuẩn Incoterms (ví dụ: 2010, 2020)."
+keywords:
+  - Phiên bản Incoterms
+  - Tiêu chuẩn
+  - Điều khoản
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

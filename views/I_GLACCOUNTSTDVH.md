@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTSTDVH
 description: GL AccountSTDVH
+semantic_en: "General ledger account value help — dropdown list of GL accounts with external IDs and type information."
+semantic_vi: "Trợ giúp giá trị tài khoản sổ cái — danh sách thả xuống các tài khoản sổ cái với ID bên ngoài và thông tin loại."
+keywords:
+  - sổ cái
+  - tài khoản
+  - value help
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

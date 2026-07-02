@@ -1,6 +1,12 @@
 ---
 name: I_HDRPACKINGINCOMPLTNSTATUST
 description: Hdrpackingincompltnstatust
+semantic_en: "header packing incompletion status text — language-specific descriptions for header packing incompletion status codes."
+semantic_vi: "văn bản trạng thái không hoàn thành đóng gói tiêu đề — mô tả dành riêng cho ngôn ngữ cho các mã trạng thái không hoàn thành đóng gói tiêu đề."
+keywords:
+  - mô tả trạng thái đóng gói
+  - tiêu đề
+  - đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

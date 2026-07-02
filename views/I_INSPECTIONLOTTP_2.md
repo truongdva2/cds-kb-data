@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTTP_2
 description: Inspectionlottp 2
+semantic_en: "transient-projected view of inspection lot data — shows lot, material, batch, origin, order, and result metrics"
+semantic_vi: "dạng xem chiếu quá độ dữ liệu lô kiểm tra — hiển thị lô, vật liệu, lô hàng, nguồn gốc, đơn hàng và chỉ số kết quả"
+keywords:
+  - dữ liệu lô kiểm tra
+  - chiếu quá độ
+  - vật liệu
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

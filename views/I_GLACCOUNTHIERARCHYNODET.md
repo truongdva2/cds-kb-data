@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTHIERARCHYNODET
 description: GL AccountHIERARCHYNODET
+semantic_en: "G/L account hierarchy node text — language-specific names and descriptions for hierarchy nodes."
+semantic_vi: "Văn bản nút hệ thống phân cấp tài khoản sổ cái — tên và mô tả dành riêng cho ngôn ngữ cho các nút hệ thống phân cấp."
+keywords:
+  - sổ cái
+  - nút hệ thống phân cấp
+  - dịch thuật
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCOUNTBPINTRSTSCNOTIFTP
 description: Ihbaccountbpintrstscnotiftp
+semantic_en: "Projection of IHB account-business partner relationships for interest scenario notification projects — account, partner, converter output, and email distribution information."
+semantic_vi: "Chiếu các mối quan hệ tài khoản-đối tác kinh doanh IHB cho các dự án thông báo kịch bản lãi suất — thông tin tài khoản, đối tác, đầu ra trình chuyển đổi và phân phối email."
+keywords:
+  - Thông báo lãi suất IHB
+  - Kịch bản lãi suất
+  - Tài khoản đối tác
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

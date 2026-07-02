@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTHIERARCHYNODE
 description: GL AccountHIERARCHYNODE
+semantic_en: "G/L account hierarchy node — individual nodes within reporting hierarchies with parent-child relationships."
+semantic_vi: "Nút hệ thống phân cấp tài khoản sổ cái — các nút riêng lẻ trong các hệ thống phân cấp báo cáo với mối quan hệ cha-con."
+keywords:
+  - sổ cái
+  - nút hệ thống phân cấp
+  - hệ thống phân cấp
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

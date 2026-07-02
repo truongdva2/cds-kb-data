@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSELECTEDSETSTDVH
 description: Inspectionselectedsetstdvh
+semantic_en: "value-help for selected code sets — enables selection by plant, catalog, set with status"
+semantic_vi: "trợ giúp giá trị cho bộ mã đã chọn — cho phép chọn theo nhà máy, danh mục, bộ với trạng thái"
+keywords:
+  - bộ mã đã chọn
+  - danh mục mã
+  - lựa chọn
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

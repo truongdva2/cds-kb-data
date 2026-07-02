@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTYPE
 description: GL AccountTYPE
+semantic_en: "General ledger account type codelist — domain values categorizing account posting characteristics."
+semantic_vi: "Danh sách mã hóa loại tài khoản sổ cái — giá trị miền phân loại đặc điểm hạch toán tài khoản."
+keywords:
+  - sổ cái
+  - loại tài khoản
+  - codelist
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GRANTSTDVH
 description: Grantstdvh
+semantic_en: "grant validity end date — value help for grants with master data including grant identifier, sponsor, business partner, and validity dates."
+semantic_vi: "ngày kết thúc có hiệu lực của tài trợ — hỗ trợ giá trị cho các tài trợ với dữ liệu chính bao gồm định danh tài trợ, nhà tài trợ, đối tác kinh doanh và ngày có hiệu lực."
+keywords:
+  - ngày kết thúc
+  - tài trợ
+  - giá trị hỗ trợ
 app_component: PSM-GM-GTE-MD
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_HOUSEBANKBASIC
 description: Housebankbasic
+semantic_en: "house bank basic — basic master data for house banks including company code, country, and bank name."
+semantic_vi: "dữ liệu chính cơ bản ngân hàng nội bộ — dữ liệu chính cơ bản cho các ngân hàng nội bộ bao gồm mã công ty, quốc gia và tên ngân hàng."
+keywords:
+  - ngân hàng nội bộ
+  - công ty
+  - quốc gia
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCOUNTBPBKSTMNTTP
 description: Ihbaccountbpbkstmnttp
+semantic_en: "Projection of IHB account-business partner relationships for bank statement distribution — account, partner, statement format, recipient indicator, and email address."
+semantic_vi: "Chiếu các mối quan hệ tài khoản-đối tác kinh doanh IHB cho phân phối bảng kê ngân hàng — tài khoản, đối tác, định dạng bảng kê, chỉ báo người nhận và địa chỉ email."
+keywords:
+  - Bảng kê ngân hàng IHB
+  - Phân phối bảng kê
+  - Định dạng bảng kê
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

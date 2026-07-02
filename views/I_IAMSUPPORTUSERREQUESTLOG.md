@@ -1,6 +1,12 @@
 ---
 name: I_IAMSUPPORTUSERREQUESTLOG
 description: Iamsupportuserrequestlog
+semantic_en: "Projection of support user request logs — support user details, access levels, authorization modes, incident references, and system information."
+semantic_vi: "Chiếu của nhật ký yêu cầu người dùng hỗ trợ — chi tiết người dùng hỗ trợ, mức độ truy cập, chế độ ủy quyền, tham chiếu sự cố và thông tin hệ thống."
+keywords:
+  - Nhật ký yêu cầu hỗ trợ
+  - Quyền truy cập hỗ trợ
+  - Người dùng hỗ trợ
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

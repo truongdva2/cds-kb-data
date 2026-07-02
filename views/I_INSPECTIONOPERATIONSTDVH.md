@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONOPERATIONSTDVH
 description: Inspectionoperationstdvh
+semantic_en: "value-help for inspection operations — enables selection by lot, plan operation ID, operation number with text"
+semantic_vi: "trợ giúp giá trị cho quy trình kiểm tra — cho phép chọn theo lô, ID quy trình kế hoạch, số quy trình với text"
+keywords:
+  - quy trình kiểm tra
+  - lô kiểm tra
+  - chọn quy trình
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

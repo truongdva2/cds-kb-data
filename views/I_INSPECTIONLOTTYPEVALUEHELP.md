@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTTYPEVALUEHELP
 description: Inspectionlottypevaluehelp
+semantic_en: "value-help for inspection lot types — enables selection with type description text"
+semantic_vi: "trợ giúp giá trị cho loại lô kiểm tra — cho phép chọn với văn bản mô tả loại"
+keywords:
+  - loại kiểm tra
+  - mô tả kiểm tra
+  - lựa chọn
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

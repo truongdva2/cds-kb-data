@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTVALUEHELP
 description: Inspectionlotvaluehelp
+semantic_en: "value-help for inspection lots with context — shows lot, operation, characteristic, material, batch, plant, origin details"
+semantic_vi: "trợ giúp giá trị cho lô kiểm tra có bối cảnh — hiển thị chi tiết lô, quy trình, đặc tính, vật liệu, lô hàng, nhà máy, nguồn gốc"
+keywords:
+  - lô kiểm tra
+  - vật liệu
+  - quy trình
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

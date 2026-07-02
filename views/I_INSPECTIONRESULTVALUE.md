@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTVALUE
 description: Inspectionresultvalue
+semantic_en: "individual measured values for inspection characteristics — stores measured data, text, and long-text flags per unit"
+semantic_vi: "các giá trị đo lường riêng lẻ cho đặc tính kiểm tra — lưu trữ dữ liệu đo lường, text theo đơn vị"
+keywords:
+  - giá trị đo lường
+  - kết quả kiểm tra chi tiết
+  - text kết quả
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

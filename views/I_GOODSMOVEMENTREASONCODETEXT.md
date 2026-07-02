@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTREASONCODETEXT
 description: Goods MovementREASONCODETEXT
+semantic_en: "Goods movement reason text — language-specific descriptions of movement reason codes."
+semantic_vi: "Văn bản lý do chuyển động hàng hóa — mô tả dành riêng cho ngôn ngữ về các mã lý do chuyển động."
+keywords:
+  - chuyển động hàng hóa
+  - lý do
+  - dịch thuật
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBCONDITIONGROUPASSGMTTP
 description: Ihbconditiongroupassgmttp
+semantic_en: "Projection of IHB group assignments for conditions — assignment reference, object category, account, currency, validity dates, and audit trail."
+semantic_vi: "Chiếu gán nhóm IHB cho các điều kiện — tham chiếu gán, danh mục đối tượng, tài khoản, tiền tệ, ngày hiệu lực và dấu vết kiểm toán."
+keywords:
+  - Gán nhóm điều kiện
+  - Điều kiện IHB
+  - Thời kỳ hiệu lực
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

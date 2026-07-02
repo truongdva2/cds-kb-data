@@ -1,6 +1,12 @@
 ---
 name: I_GLRECORDTYPE
 description: Glrecordtype
+semantic_en: "General ledger record type codelist — domain values for classifying posting types in GL transactions."
+semantic_vi: "Danh sách mã hóa loại bản ghi sổ cái — giá trị miền để phân loại các loại hạch toán trong giao dịch sổ cái."
+keywords:
+  - sổ cái
+  - loại bản ghi
+  - codelist
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

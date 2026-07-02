@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODESTDVH
 description: Inspectioncodestdvh
+semantic_en: "value-help for inspection codes — enables selection of codes within catalog and group"
+semantic_vi: "trợ giúp giá trị cho mã kiểm tra — cho phép chọn mã trong danh mục và nhóm"
+keywords:
+  - mã kiểm tra
+  - danh mục kiểm tra
+  - lựa chọn mã
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYHIERARCHYTEXT
 description: Industryhierarchytext
+semantic_en: "Text descriptions of industry hierarchies — language and localized hierarchy names for organizational structures."
+semantic_vi: "Mô tả văn bản của các phân cấp ngành — ngôn ngữ và tên phân cấp được bản địa hóa cho các cấu trúc tổ chức."
+keywords:
+  - Tên phân cấp
+  - Phân cấp ngành
+  - Văn bản
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

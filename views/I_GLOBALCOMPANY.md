@@ -1,6 +1,12 @@
 ---
 name: I_GLOBALCOMPANY
 description: Globalcompany
+semantic_en: "Name of the company — company master data with name, currency, and default language settings."
+semantic_vi: "Tên công ty — dữ liệu chính công ty với cài đặt tên, tiền tệ và ngôn ngữ mặc định."
+keywords:
+  - công ty
+  - tên công ty
+  - tiền tệ
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

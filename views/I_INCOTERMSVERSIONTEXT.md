@@ -1,6 +1,12 @@
 ---
 name: I_INCOTERMSVERSIONTEXT
 description: Incotermsversiontext
+semantic_en: "Text descriptions of Incoterms versions — language and localized version names."
+semantic_vi: "Mô tả văn bản của các phiên bản Incoterms — ngôn ngữ và tên phiên bản được bản địa hóa."
+keywords:
+  - Phiên bản Incoterms
+  - Tên phiên bản
+  - Văn bản
 app_component: SD-BF-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_HDRGOODSMVTINCOMPLTNSTATUS
 description: Hdrgoodsmvtincompltnstatus
+semantic_en: "header goods movement incompletion status — domain values for tracking incomplete goods movement status at the header level."
+semantic_vi: "trạng thái không hoàn thành chuyển động hàng hóa tiêu đề — các giá trị miền để theo dõi trạng thái chuyển động hàng hóa không hoàn thành ở cấp tiêu đề."
+keywords:
+  - trạng thái chuyển động hàng hóa
+  - không hoàn thành
+  - tiêu đề
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

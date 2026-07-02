@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTTYPE
 description: Inspectionlottype
+semantic_en: "master data for inspection lot types — defines bill-of-operations usage and code sets for each type"
+semantic_vi: "dữ liệu chính cho loại lô kiểm tra — xác định cách sử dụng công thức vận hành và bộ mã cho mỗi loại"
+keywords:
+  - loại lô kiểm tra
+  - bộ mã
+  - công thức vận hành
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

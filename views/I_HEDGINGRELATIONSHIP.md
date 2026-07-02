@@ -1,6 +1,12 @@
 ---
 name: I_HEDGINGRELATIONSHIP
 description: Hedgingrelationship
+semantic_en: "hedging relationship — master data for hedge accounting relationships including risk currency, cost rules, and balance sheet recognition date."
+semantic_vi: "mối quan hệ phòng hộ — dữ liệu chính cho các mối quan hệ kế toán phòng hộ bao gồm tiền tệ rủi ro, quy tắc chi phí và ngày công nhận bảng cân đối."
+keywords:
+  - mối quan hệ phòng hộ
+  - kế toán
+  - rủi ro tiền tệ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

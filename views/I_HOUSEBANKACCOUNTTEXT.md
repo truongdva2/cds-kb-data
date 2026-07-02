@@ -1,6 +1,12 @@
 ---
 name: I_HOUSEBANKACCOUNTTEXT
 description: Housebankaccounttext
+semantic_en: "house bank account text — language-specific descriptions for house bank account details."
+semantic_vi: "văn bản tài khoản ngân hàng nội bộ — mô tả dành riêng cho ngôn ngữ cho chi tiết tài khoản ngân hàng nội bộ."
+keywords:
+  - mô tả tài khoản
+  - ngân hàng nội bộ
+  - đa ngôn ngữ
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

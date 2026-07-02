@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSUSERPRICECATEGORY
 description: Iambusinessuserpricecategory
+semantic_en: "business user price category — projection associating business users with price categories for customer-specific pricing."
+semantic_vi: "danh mục giá người dùng kinh doanh — hình chiếu liên kết người dùng kinh doanh với các danh mục giá để định giá dành riêng cho khách hàng."
+keywords:
+  - danh mục giá
+  - người dùng kinh doanh
+  - định giá
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYSOURCINGTYPE
 description: Ghgenergysourcingtype
+semantic_en: "GHG energy sourcing type codelist — domain values for energy sourcing methodologies."
+semantic_vi: "Danh sách mã hóa loại cấp năng lượng khí nhà kính — giá trị miền cho các phương pháp cấp năng lượng."
+keywords:
+  - khí nhà kính
+  - loại cấp năng lượng
+  - codelist
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTATTRIBUTE
 description: Inspectionresultattribute
+semantic_en: "attributes for inspection results — defines sort order and validity flag for result classification"
+semantic_vi: "thuộc tính cho kết quả kiểm tra — xác định thứ tự sắp xếp và cờ hiệu lực cho phân loại kết quả"
+keywords:
+  - thuộc tính kết quả
+  - xếp loại kết quả
+  - hiệu lực
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

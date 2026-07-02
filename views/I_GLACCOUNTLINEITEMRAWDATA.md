@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTLINEITEMRAWDATA
 description: GL AccountLINEITEMRAWDATA
+semantic_en: "Raw data of G/L account line item — unprocessed general ledger line items sourced from accounting documents."
+semantic_vi: "Dữ liệu thô của mục hàng tài khoản sổ cái — các mục hàng sổ cái chưa xử lý từ tài liệu kế toán."
+keywords:
+  - sổ cái
+  - mục hàng
+  - dữ liệu thô
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCOUNTBPBALNOTIFTP
 description: Ihbaccountbpbalnotiftp
+semantic_en: "Projection of IHB account-business partner relationships for balance notification projects — account, partner, bank statement format, and email distribution details."
+semantic_vi: "Chiếu các mối quan hệ tài khoản-đối tác kinh doanh IHB cho các dự án thông báo số dư — chi tiết tài khoản, đối tác, định dạng bảng kê ngân hàng và phân phối email."
+keywords:
+  - Tài khoản IHB
+  - Thông báo số dư
+  - Đối tác kinh doanh
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

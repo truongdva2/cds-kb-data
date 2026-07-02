@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTLINEITEM
 description: GL AccountLINEITEM
+semantic_en: "General ledger account line item — account line items with ledger, fiscal period, and business transaction categorization."
+semantic_vi: "Mục hàng tài khoản sổ cái — các mục hàng tài khoản với phân loại sổ cái, kỳ tài chính và giao dịch kinh doanh."
+keywords:
+  - sổ cái
+  - mục hàng
+  - giao dịch
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

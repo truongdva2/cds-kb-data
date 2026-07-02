@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTYPETEXT
 description: GL AccountTYPETEXT
+semantic_en: "G/L account type text translations — language-specific names for account types."
+semantic_vi: "Bản dịch văn bản loại tài khoản sổ cái — tên dành riêng cho ngôn ngữ cho các loại tài khoản."
+keywords:
+  - sổ cái
+  - loại tài khoản
+  - dịch thuật
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

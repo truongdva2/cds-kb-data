@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CALCMETHOD
 description: Ghgscp 2CALCMETHOD
+semantic_en: "GHG Scope 2 calculation method codelist — domain values for Scope 2 emissions calculation approaches."
+semantic_vi: "Danh sách mã hóa phương pháp tính toán Phạm vi 2 — giá trị miền cho các cách tiếp cận tính toán phát thải Phạm vi 2."
+keywords:
+  - khí nhà kính
+  - Scope 2
+  - phương pháp tính toán
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

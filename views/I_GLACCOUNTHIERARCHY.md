@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTHIERARCHY
 description: GL AccountHIERARCHY
+semantic_en: "General ledger account hierarchy — reporting hierarchies with validity dates and hierarchy types."
+semantic_vi: "Hệ thống phân cấp tài khoản sổ cái — các hệ thống phân cấp báo cáo với ngày hiệu lực và loại hệ thống phân cấp."
+keywords:
+  - sổ cái
+  - hệ thống phân cấp
+  - báo cáo
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

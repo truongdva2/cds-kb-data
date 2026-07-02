@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSUBSET
 description: Inspectionsubset
+semantic_en: "inspection points within operations — tracks material sample, equipment, location, shop floor item and usage decision code set"
+semantic_vi: "điểm kiểm tra trong quy trình — theo dõi mẫu vật liệu, thiết bị, vị trí, mục mặt sàn"
+keywords:
+  - điểm kiểm tra
+  - mẫu vật liệu
+  - thiết bị kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

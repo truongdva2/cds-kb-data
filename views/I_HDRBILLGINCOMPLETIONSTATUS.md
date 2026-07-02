@@ -1,6 +1,12 @@
 ---
 name: I_HDRBILLGINCOMPLETIONSTATUS
 description: Hdrbillgincompletionstatus
+semantic_en: "header billing incompletion status — domain values for tracking incomplete billing status at the sales document header level."
+semantic_vi: "trạng thái không hoàn thành lập hoá đơn tiêu đề — các giá trị miền để theo dõi trạng thái lập hoá đơn không hoàn thành ở cấp tiêu đề tài liệu bán hàng."
+keywords:
+  - trạng thái lập hoá đơn
+  - không hoàn thành
+  - tiêu đề
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONSEVERITYVH
 description: Inspectionseverityvh
+semantic_en: "value-help for inspection severity codes — enables selection with severity description"
+semantic_vi: "trợ giúp giá trị cho mã mức độ nghiêm trọng — cho phép chọn với mô tả mức độ"
+keywords:
+  - mức độ nghiêm trọng
+  - mô tả mức độ
+  - lựa chọn
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

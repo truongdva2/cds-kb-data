@@ -1,6 +1,12 @@
 ---
 name: I_HDRDELIVINCOMPLETIONSTATUS
 description: Hdrdelivincompletionstatus
+semantic_en: "header delivery incompletion status — domain values for tracking incomplete delivery status at the sales document header level."
+semantic_vi: "trạng thái không hoàn thành giao hàng tiêu đề — các giá trị miền để theo dõi trạng thái giao hàng không hoàn thành ở cấp tiêu đề tài liệu bán hàng."
+keywords:
+  - trạng thái giao hàng
+  - không hoàn thành
+  - tiêu đề
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

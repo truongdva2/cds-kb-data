@@ -1,6 +1,12 @@
 ---
 name: I_INCOTERMSCLASSIFICATION
 description: Incotermsclassification
+semantic_en: "Incoterms classifications — standard trade terms defining delivery obligations and location requirement indicators."
+semantic_vi: "Phân loại Incoterms — các điều khoản thương mại tiêu chuẩn xác định các nghĩa vụ giao hàng và chỉ báo yêu cầu vị trí."
+keywords:
+  - Incoterms
+  - Phân loại giao hàng
+  - Điều kiện thương mại
 app_component: SD-BIL-GF-2CL
 software_component: SAPSCORE
 release_state: released

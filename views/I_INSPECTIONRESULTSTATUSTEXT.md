@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTSTATUSTEXT
 description: Inspectionresultstatustext
+semantic_en: "multilingual text for result status codes — stores status descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho mã trạng thái kết quả — lưu trữ mô tả trạng thái theo ngôn ngữ"
+keywords:
+  - text trạng thái kết quả
+  - mô tả trạng thái
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

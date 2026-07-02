@@ -1,6 +1,12 @@
 ---
 name: I_GHGENERGYMIXVH
 description: Ghgenergymixvh
+semantic_en: "GHG energy mix value help — dropdown list of energy mix codes for input fields."
+semantic_vi: "Trợ giúp giá trị hỗn hợp năng lượng khí nhà kính — danh sách thả xuống các mã hỗn hợp năng lượng cho các trường nhập."
+keywords:
+  - năng lượng khí nhà kính
+  - hỗn hợp năng lượng
+  - value help
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

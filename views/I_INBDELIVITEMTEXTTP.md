@@ -1,6 +1,12 @@
 ---
 name: I_INBDELIVITEMTEXTTP
 description: Inbdelivitemtexttp
+semantic_en: "Projection of inbound delivery item text — delivery, item, language, text identifier, and long text content."
+semantic_vi: "Chiếu văn bản mục giao hàng nhập — giao hàng, mục, ngôn ngữ, định danh văn bản và nội dung văn bản dài."
+keywords:
+  - Văn bản giao hàng
+  - Mục giao hàng
+  - Nội dung văn bản
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

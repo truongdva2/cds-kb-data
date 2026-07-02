@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONLOTLONGTEXT
 description: Inspectionlotlongtext
+semantic_en: "long-text repository for inspection lots — tracks creation and modification history by user and timestamp"
+semantic_vi: "kho lưu trữ văn bản dài cho lô kiểm tra — theo dõi lịch sử tạo và sửa đổi theo người dùng"
+keywords:
+  - text dài lô kiểm tra
+  - lịch sử thay đổi
+  - ghi chú kiểm tra
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

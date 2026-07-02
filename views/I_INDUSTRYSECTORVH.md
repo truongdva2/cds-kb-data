@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYSECTORVH
 description: Industrysectorvh
+semantic_en: "Value-help projection for industry sectors used in product data — provides industry sector selection list for products."
+semantic_vi: "Chiếu trợ giúp giá trị cho các khu vực ngành được sử dụng trong dữ liệu sản phẩm — cung cấp danh sách lựa chọn khu vực ngành cho các sản phẩm."
+keywords:
+  - Khu vực ngành sản phẩm
+  - Danh sách lựa chọn
+  - Trợ giúp giá trị
 app_component: LO-MD-MM-2CL
 software_component: SAPSCORE
 release_state: released

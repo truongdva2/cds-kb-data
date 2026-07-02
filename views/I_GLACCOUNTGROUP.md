@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTGROUP
 description: GL AccountGROUP
+semantic_en: "General ledger account group — chart-of-accounts-specific groupings for account categorization."
+semantic_vi: "Nhóm tài khoản sổ cái — nhóm dành riêng cho kế hoạch tài khoản để phân loại tài khoản."
+keywords:
+  - sổ cái
+  - nhóm tài khoản
+  - bảng tính
 app_component: FI-GL-GL-A-2CL
 software_component: SAPSCORE
 release_state: released

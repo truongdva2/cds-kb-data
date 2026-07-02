@@ -1,6 +1,12 @@
 ---
 name: I_HOUSEBANKACCOUNTLINKAGE
 description: Housebankaccountlinkage
+semantic_en: "house bank account linkage — projection linking house bank accounts to bank internal identifiers including SWIFT codes and account details."
+semantic_vi: "liên kết tài khoản ngân hàng nội bộ — hình chiếu liên kết các tài khoản ngân hàng nội bộ với các định danh ngân hàng nội bộ bao gồm mã SWIFT và chi tiết tài khoản."
+keywords:
+  - tài khoản ngân hàng
+  - liên kết
+  - mã SWIFT
 app_component: FIN-FSCM-CLM-BAM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IHBACCOUNTTEXTTP
 description: Ihbaccounttexttp
+semantic_en: "Projection of IHB account descriptions — account UUID, language, account description, and change timestamp."
+semantic_vi: "Chiếu mô tả tài khoản IHB — UUID tài khoản, ngôn ngữ, mô tả tài khoản và dấu thời gian thay đổi."
+keywords:
+  - Mô tả tài khoản IHB
+  - Văn bản tài khoản
+  - Ngôn ngữ tài khoản
 app_component: FIN-FSCM-PF-IHB-2CL
 software_component: SAPSCORE
 release_state: released

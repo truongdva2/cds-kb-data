@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONOPERATIONSTATUS
 description: Inspectionoperationstatus
+semantic_en: "status tracking for inspection operations — indicates completion needs, characteristic presence and authorization scope"
+semantic_vi: "theo dõi trạng thái cho quy trình kiểm tra — chỉ ra nhu cầu hoàn thành, sự hiện diện của đặc tính và phạm vi ủy quyền"
+keywords:
+  - trạng thái quy trình
+  - hoàn thành kiểm tra
+  - ủy quyền
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

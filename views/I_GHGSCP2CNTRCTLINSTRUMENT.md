@@ -1,6 +1,12 @@
 ---
 name: I_GHGSCP2CNTRCTLINSTRUMENT
 description: Ghgscp 2CNTRCTLINSTRUMENT
+semantic_en: "GHG Scope 2 contractual instrument codelist — domain values for Scope 2 contractual arrangements."
+semantic_vi: "Danh sách mã hóa công cụ hợp đồng Phạm vi 2 — giá trị miền cho các sắp xếp hợp đồng Phạm vi 2."
+keywords:
+  - Scope 2
+  - công cụ hợp đồng
+  - codelist
 app_component: SUS-INT
 software_component: SAPSCORE
 release_state: released

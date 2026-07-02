@@ -1,6 +1,12 @@
 ---
 name: I_INDEPENDENTRQMTTYPETEXT
 description: Independentrqmttypetext
+semantic_en: "Text descriptions of independent requirement types — language and localized requirement type names."
+semantic_vi: "Mô tả văn bản của các loại yêu cầu độc lập — ngôn ngữ và tên loại yêu cầu được bản địa hóa."
+keywords:
+  - Loại yêu cầu
+  - Tên yêu cầu
+  - Văn bản
 app_component: PP-VDM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTAUTHZNINCOMPANY
 description: GL AccountAUTHZNINCOMPANY
+semantic_en: "G/L account authorization in company — authorization groups for general ledger accounts by company."
+semantic_vi: "Ủy quyền tài khoản sổ cái trong công ty — nhóm ủy quyền cho các tài khoản sổ cái theo công ty."
+keywords:
+  - ủy quyền sổ cái
+  - tài khoản
+  - công ty
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

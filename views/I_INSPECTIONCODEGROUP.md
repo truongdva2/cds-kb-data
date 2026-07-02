@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONCODEGROUP
 description: Inspectioncodegroup
+semantic_en: "Inspection code groups within catalogs — groups of codes for organizing inspection results with status tracking."
+semantic_vi: "Các nhóm mã kiểm tra trong danh mục — các nhóm mã để sắp xếp kết quả kiểm tra với theo dõi trạng thái."
+keywords:
+  - Nhóm mã kiểm tra
+  - Mã kiểm tra
+  - Danh mục
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

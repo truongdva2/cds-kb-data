@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTCODE
 description: Goods MovementCODE
+semantic_en: "Goods movement code codelist — domain values for classifying types of inventory transactions."
+semantic_vi: "Danh sách mã hóa mã chuyển động hàng hóa — giá trị miền để phân loại các loại giao dịch tồn kho."
+keywords:
+  - chuyển động hàng hóa
+  - mã
+  - codelist
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTLINEITEMSEMTAG
 description: GL AccountLINEITEMSEMTAG
+semantic_en: "G/L line item with semantic tag including FA — account line items linked to semantic tags and functional areas."
+semantic_vi: "Mục hàng sổ cái có thẻ ngữ nghĩa bao gồm FA — các mục hàng tài khoản được liên kết với các thẻ ngữ nghĩa và lĩnh vực chức năng."
+keywords:
+  - sổ cái
+  - mục hàng
+  - thẻ ngữ nghĩa
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_IMPLIEDVOLATILITYIDENTIFIER
 description: Impliedvolatilityidentifier
+semantic_en: "Identifier for implied volatility — represents a unique market data volatility classification."
+semantic_vi: "Định danh cho biến động ẩn — biểu diễn một phân loại biến động dữ liệu thị trường duy nhất."
+keywords:
+  - Biến động ẩn
+  - Thị trường
+  - Định danh
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

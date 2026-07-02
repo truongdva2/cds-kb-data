@@ -1,6 +1,12 @@
 ---
 name: I_INDUSTRYHIERARCHYNODE
 description: Industryhierarchynode
+semantic_en: "Industry hierarchy nodes — tree structure elements with parent relationships, industry assignments, sequence, level, and node values."
+semantic_vi: "Nút phân cấp ngành — các phần tử cấu trúc cây với các mối quan hệ cha mẹ, gán ngành, trình tự, cấp độ và giá trị nút."
+keywords:
+  - Nút phân cấp
+  - Cấu trúc cây
+  - Ngành công nghiệp
 app_component: FI-GL-IS-2CL
 software_component: SAPSCORE
 release_state: released

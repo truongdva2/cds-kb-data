@@ -1,6 +1,12 @@
 ---
 name: I_INSPLOTDYNAMICRULE
 description: Insplotdynamicrule
+semantic_en: "dynamic modification rules for inspection lots — configures rule code and initial stage for result adjustment"
+semantic_vi: "quy tắc sửa đổi động cho lô kiểm tra — cấu hình mã quy tắc và giai đoạn ban đầu"
+keywords:
+  - quy tắc động
+  - sửa đổi kết quả
+  - quy tắc lô kiểm tra
 app_component: QM-PT-2CL
 software_component: SAPSCORE
 release_state: released

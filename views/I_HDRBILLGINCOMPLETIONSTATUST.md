@@ -1,6 +1,12 @@
 ---
 name: I_HDRBILLGINCOMPLETIONSTATUST
 description: Hdrbillgincompletionstatust
+semantic_en: "header billing incompletion status text — language-specific descriptions for header billing incompletion status codes."
+semantic_vi: "văn bản trạng thái không hoàn thành lập hoá đơn tiêu đề — mô tả dành riêng cho ngôn ngữ cho các mã trạng thái không hoàn thành lập hoá đơn tiêu đề."
+keywords:
+  - mô tả trạng thái lập hoá đơn
+  - tiêu đề
+  - đa ngôn ngữ
 app_component: SD-SLS-GF-2CL
 software_component: SAPSCORE
 release_state: released

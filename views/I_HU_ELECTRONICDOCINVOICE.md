@@ -1,6 +1,12 @@
 ---
 name: I_HU_ELECTRONICDOCINVOICE
 description: HU Electronicdocinvoice
+semantic_en: "Hungary electronic document invoice — Hungary-specific electronic invoicing data including transaction identification and customer submission status."
+semantic_vi: "hoá đơn tài liệu điện tử Hungary — dữ liệu hoá đơn điện tử dành riêng cho Hungary bao gồm định danh giao dịch và trạng thái gửi khách hàng."
+keywords:
+  - hoá đơn điện tử
+  - Hungary
+  - giao dịch
 app_component: CA-GTF-CSC-EDO-HU
 software_component: SAPSCORE
 release_state: released

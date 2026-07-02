@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTREFDOCTYPETEXT
 description: Goods MovementREFDOCTYPETEXT
+semantic_en: "goods movement reference document type text — language-specific descriptions of reference document types used in goods movement operations."
+semantic_vi: "văn bản loại tài liệu tham chiếu chuyển động hàng hóa — mô tả dành riêng cho ngôn ngữ của các loại tài liệu tham chiếu được sử dụng trong hoạt động chuyển động hàng hóa."
+keywords:
+  - mô tả loại tài liệu
+  - chuyển động hàng hóa
+  - đa ngôn ngữ
 app_component: MM-IM-VDM-SGM-2CL
 software_component: SAPSCORE
 release_state: released

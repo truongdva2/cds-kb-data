@@ -1,6 +1,12 @@
 ---
 name: I_IMPLIEDVOLATILITYIDENTIFIERT
 description: Impliedvolatilityidentifiert
+semantic_en: "Text descriptions of implied volatility identifiers — language, identifier, and localized text description."
+semantic_vi: "Mô tả văn bản của các định danh biến động ẩn — ngôn ngữ, định danh và mô tả văn bản được bản địa hóa."
+keywords:
+  - Biến động ẩn
+  - Mô tả văn bản
+  - Ngôn ngữ
 app_component: FIN-FSCM-TRM-2CL
 software_component: SAPSCORE
 release_state: released

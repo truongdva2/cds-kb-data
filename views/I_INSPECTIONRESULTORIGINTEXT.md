@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONRESULTORIGINTEXT
 description: Inspectionresultorigintext
+semantic_en: "multilingual text for result origin codes — stores origin descriptions by language"
+semantic_vi: "văn bản đa ngôn ngữ cho mã nguồn gốc kết quả — lưu trữ mô tả nguồn gốc theo ngôn ngữ"
+keywords:
+  - text nguồn gốc kết quả
+  - mô tả nguồn
+  - ngôn ngữ
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

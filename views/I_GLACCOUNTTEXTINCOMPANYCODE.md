@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTTEXTINCOMPANYCODE
 description: GL AccountTEXTINCompany Code
+semantic_en: "G/L account in company code text — company-code-specific language translations for account names."
+semantic_vi: "Văn bản tài khoản sổ cái trong mã công ty — bản dịch ngôn ngữ dành riêng cho mã công ty cho tên tài khoản."
+keywords:
+  - sổ cái
+  - mã công ty
+  - dịch thuật
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

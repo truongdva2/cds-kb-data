@@ -1,6 +1,12 @@
 ---
 name: I_HDRGOODSMVTINCOMPLTNSTATUST
 description: Hdrgoodsmvtincompltnstatust
+semantic_en: "header goods movement incompletion status text — language-specific descriptions for header goods movement incompletion status codes."
+semantic_vi: "văn bản trạng thái không hoàn thành chuyển động hàng hóa tiêu đề — mô tả dành riêng cho ngôn ngữ cho các mã trạng thái không hoàn thành chuyển động hàng hóa tiêu đề."
+keywords:
+  - mô tả chuyển động hàng hóa
+  - không hoàn thành
+  - đa ngôn ngữ
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_GLACCOUNTINCHARTOFACCOUNTS
 description: GL AccountINCHARTOFACCOUNTS
+semantic_en: "Profit/loss account — general ledger accounts in a chart of accounts with account characteristics and control flags."
+semantic_vi: "Tài khoản lãi/lỗ — tài khoản sổ cái trong bảng tính với đặc điểm tài khoản và cờ điều khiển."
+keywords:
+  - sổ cái
+  - tài khoản lãi lỗ
+  - bảng tính
 app_component: FI-GL-GL-N-2CL
 software_component: SAPSCORE
 release_state: released

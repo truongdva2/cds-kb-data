@@ -1,6 +1,12 @@
 ---
 name: I_HIERRUNTIMERPRSTNTEXT
 description: Hierruntimerprstntext
+semantic_en: "hierarchy runtime representation text — language-specific names and descriptions for hierarchies including controlling area and chart of accounts."
+semantic_vi: "văn bản biểu diễn cấp bậc thời chạy — tên và mô tả dành riêng cho ngôn ngữ cho các cấp bậc bao gồm vùng kiểm soát và bảng tài khoản."
+keywords:
+  - tên cấp bậc
+  - bảng tài khoản
+  - đa ngôn ngữ
 app_component: FI-FIO-GL-HIE-2CL
 software_component: SAPSCORE
 release_state: released

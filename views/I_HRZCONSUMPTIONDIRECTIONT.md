@@ -1,6 +1,12 @@
 ---
 name: I_HRZCONSUMPTIONDIRECTIONT
 description: Hrzconsumptiondirectiont
+semantic_en: "horizontal consumption direction text — language-specific descriptions for horizontal consumption direction codes."
+semantic_vi: "văn bản hướng tiêu thụ ngang — mô tả dành riêng cho ngôn ngữ cho các mã hướng tiêu thụ ngang."
+keywords:
+  - mô tả hướng tiêu thụ
+  - ngang
+  - đa ngôn ngữ
 app_component: CA-ATP-PAL-2CL
 software_component: SAPSCORE
 release_state: released

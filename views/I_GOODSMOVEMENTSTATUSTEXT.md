@@ -1,6 +1,12 @@
 ---
 name: I_GOODSMOVEMENTSTATUSTEXT
 description: Goods MovementSTATUSTEXT
+semantic_en: "goods movement status text — language-specific descriptions for goods movement status codes and their meanings."
+semantic_vi: "văn bản trạng thái chuyển động hàng hóa — mô tả dành riêng cho ngôn ngữ cho các mã trạng thái chuyển động hàng hóa và ý nghĩa của chúng."
+keywords:
+  - mô tả trạng thái
+  - chuyển động hàng hóa
+  - mã số
 app_component: LE-SHP-GF-2CL
 software_component: SAPSCORE
 release_state: released

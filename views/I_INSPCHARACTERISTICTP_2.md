@@ -1,6 +1,12 @@
 ---
 name: I_INSPCHARACTERISTICTP_2
 description: Inspcharacteristictp 2
+semantic_en: "Projection of inspection characteristics — inspection plan details, specification type, sampling indicators, and recording method."
+semantic_vi: "Chiếu các đặc tính kiểm tra — chi tiết kế hoạch kiểm tra, loại thông số kỹ thuật, chỉ báo lấy mẫu và phương pháp ghi nhận."
+keywords:
+  - Đặc tính kiểm tra
+  - Kế hoạch kiểm tra
+  - Loại thông số
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

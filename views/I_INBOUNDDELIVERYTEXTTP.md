@@ -1,6 +1,12 @@
 ---
 name: I_INBOUNDDELIVERYTEXTTP
 description: Inbound DeliveryTEXTTP
+semantic_en: "Projection of inbound delivery text — delivery, language, text identifier, and long text content."
+semantic_vi: "Chiếu văn bản giao hàng nhập — giao hàng, ngôn ngữ, định danh văn bản và nội dung văn bản dài."
+keywords:
+  - Văn bản giao hàng
+  - Giao hàng nhập
+  - Nội dung
 app_component: LE-SHP-API-2CL
 software_component: SAPSCORE
 release_state: released

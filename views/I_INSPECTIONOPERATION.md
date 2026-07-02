@@ -1,6 +1,12 @@
 ---
 name: I_INSPECTIONOPERATION
 description: Inspectionoperation
+semantic_en: "detailed operation records for inspection lots — ties lot to plan operation, order operation, work center and status"
+semantic_vi: "bản ghi quy trình chi tiết cho lô kiểm tra — liên kết lô với quy trình kế hoạch, quy trình đơn hàng, trung tâm công việc"
+keywords:
+  - quy trình kiểm tra
+  - công thức vận hành
+  - trung tâm công việc
 app_component: QM-IM-2CL
 software_component: SAPSCORE
 release_state: released

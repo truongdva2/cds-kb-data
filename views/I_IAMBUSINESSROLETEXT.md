@@ -1,6 +1,12 @@
 ---
 name: I_IAMBUSINESSROLETEXT
 description: Iambusinessroletext
+semantic_en: "business role text — language-specific names and descriptions for business roles used in identity and access management."
+semantic_vi: "văn bản vai trò kinh doanh — tên và mô tả dành riêng cho ngôn ngữ cho các vai trò kinh doanh được sử dụng trong quản lý danh tính và truy cập."
+keywords:
+  - tên vai trò kinh doanh
+  - mô tả
+  - đa ngôn ngữ
 app_component: BC-SRV-APS-IAM
 software_component: SAP_CLOUD
 release_state: released
