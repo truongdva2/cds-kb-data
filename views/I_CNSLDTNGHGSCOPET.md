@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCOPET
 description: Cnsldtnghgscopet
+semantic_en: "text translations for GHG emission scopes — language-keyed lookup for scope names"
+semantic_vi: "bảng dịch ngôn ngữ cho phạm vi phát thải GHG — tra cứu theo ngôn ngữ cho tên phạm vi"
+keywords:
+  - GHG scope text
+  - dịch ngôn ngữ
+  - emission scope
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

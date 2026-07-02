@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTHIERNODE_2
 description: Cnsldtngl AccountHIERNODE 2
+semantic_en: "G/L account hierarchy node structure — parent-child relationships and account assignments within hierarchies"
+semantic_vi: "cấu trúc nút phân cấp tài khoản sổ cái — quan hệ cha-con và gán tài khoản trong cấu trúc phân cấp"
+keywords:
+  - hierarchy node
+  - parent-child
+  - account assignment
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

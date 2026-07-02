@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPVH
 description: Cnsldtngroupvh
+semantic_en: "value help for consolidation groups — group codes with display names for selection lists"
+semantic_vi: "danh sách hỗ trợ nhóm consolidation — mã nhóm với tên hiển thị cho lựa chọn"
+keywords:
+  - group VH
+  - value help
+  - group codes
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

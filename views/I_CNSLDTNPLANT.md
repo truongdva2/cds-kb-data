@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPLANT
 description: Cnsldtnplant
+semantic_en: "consolidation combined plant — plant assignments with additional master data source and classification flags."
+semantic_vi: "nhà máy hợp nhất — gán nhà máy với nguồn dữ liệu chủ yếu bổ sung và cờ phân loại."
+keywords:
+  - nhà máy
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTTEXTTP
 description: Cnsldtnsalesdistricttexttp
+semantic_en: "consolidation sales district text transfer partner — district names for transfer pricing in multiple languages"
+semantic_vi: "văn bản khu vực bán hàng hợp nhất đối tác chuyển giao — tên khu vực cho định giá chuyển giao ở nhiều ngôn ngữ"
+keywords:
+  - khu vực bán hàng
+  - định giá chuyển giao
+  - văn bản tên
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

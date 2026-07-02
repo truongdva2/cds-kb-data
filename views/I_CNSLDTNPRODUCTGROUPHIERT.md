@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTGROUPHIERT
 description: Cnsldtnproductgrouphiert
+semantic_en: "consolidation product group hierarchy text — multilingual text names for product group hierarchies"
+semantic_vi: "text phân cấp nhóm sản phẩm hợp nhất — tên định nghĩa đa ngôn ngữ cho phân cấp nhóm sản phẩm"
+keywords:
+  - tên phân cấp
+  - nhóm sản phẩm
+  - text
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

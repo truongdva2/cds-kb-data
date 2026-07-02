@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERVH
 description: CNSLDTNProfit CenterVH
+semantic_en: "consolidation profit center value help — profit center list with names for dropdown selection in consolidation"
+semantic_vi: "trợ giúp giá trị trung tâm lợi nhuận hợp nhất — danh sách trung tâm lợi nhuận với tên"
+keywords:
+  - trung tâm lợi nhuận
+  - danh sách chọn
+  - giá trị trợ giúp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

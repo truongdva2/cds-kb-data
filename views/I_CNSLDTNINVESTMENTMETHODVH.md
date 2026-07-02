@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNINVESTMENTMETHODVH
 description: Cnsldtninvestmentmethodvh
+semantic_en: "value help — consolidation investment method with available methods and descriptions."
+semantic_vi: "trợ giúp giá trị — phương pháp đầu tư hợp nhất với các lựa chọn và mô tả."
+keywords:
+  - phương pháp đầu tư
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

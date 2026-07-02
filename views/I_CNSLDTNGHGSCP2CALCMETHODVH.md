@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CALCMETHODVH
 description: Cnsldtnghgscp 2CALCMETHODVH
+semantic_en: "value help for Scope 2 calculation methods — method codes with descriptions for selection"
+semantic_vi: "danh sách hỗ trợ phương pháp tính Scope 2 — các mã phương pháp với mô tả cho lựa chọn"
+keywords:
+  - Scope 2 method
+  - calculation method
+  - value help
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

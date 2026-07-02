@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGHIERNODE
 description: CNSLDTNSales OrganizationHIERNODE
+semantic_en: "consolidation sales organization hierarchy node — parent-child relationships and node structure for organization hierarchies"
+semantic_vi: "nút phân cấp tổ chức bán hàng hợp nhất — mối quan hệ cha-con và cấu trúc nút cho phân cấp tổ chức"
+keywords:
+  - nút phân cấp tổ chức
+  - cha con
+  - cấu trúc phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

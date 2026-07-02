@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNT_2
 description: Cnsldtngl Account 2
+semantic_en: "combined G/L account master data — consolidated chart-of-accounts with additional source and creation timestamp"
+semantic_vi: "dữ liệu chủ yếu tài khoản sổ cái kết hợp — biểu tài khoản hợp nhất với nguồn bổ sung và dấu thời gian tạo"
+keywords:
+  - combined G/L account
+  - master data
+  - chart of accounts
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

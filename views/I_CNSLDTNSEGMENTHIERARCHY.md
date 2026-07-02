@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTHIERARCHY
 description: Cnsldtnsegmenthierarchy
+semantic_en: "consolidation segment hierarchy — valid-from/to dates and change tracking for segment hierarchies"
+semantic_vi: "phân cấp phân khúc hợp nhất — ngày hiệu lực và theo dõi thay đổi cho phân cấp phân khúc"
+keywords:
+  - phân cấp phân khúc
+  - tính hiệu lực
+  - theo dõi thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

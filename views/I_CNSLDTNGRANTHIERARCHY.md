@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTHIERARCHY
 description: Cnsldtngranthierarchy
+semantic_en: "grant hierarchy master data — grant-based hierarchies for grouping and reporting"
+semantic_vi: "dữ liệu chủ yếu cấu trúc phân cấp khoản tài trợ — cấu trúc dựa trên khoản tài trợ cho nhóm và báo cáo"
+keywords:
+  - grant hierarchy
+  - phân cấp khoản tài trợ
+  - hierarchy master data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

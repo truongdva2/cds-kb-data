@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVELTEXT_2
 description: Cnsldtnpostingleveltext 2
+semantic_en: "consolidation posting level domain text — multilingual text descriptions mapping posting level values to text labels"
+semantic_vi: "mô tả text miền mức ghi sổ hợp nhất — tên định nghĩa đa ngôn ngữ cho các giá trị mức ghi sổ"
+keywords:
+  - mức ghi sổ
+  - text định nghĩa
+  - tham chiếu miền
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

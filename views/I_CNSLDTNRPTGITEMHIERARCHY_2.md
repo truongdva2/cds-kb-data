@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEMHIERARCHY_2
 description: Cnsldtnrptgitemhierarchy 2
+semantic_en: "reporting item hierarchy — valid-from/to dates and change tracking for consolidation reporting item hierarchies"
+semantic_vi: "phân cấp mục báo cáo — ngày hiệu lực và theo dõi thay đổi cho phân cấp mục báo cáo hợp nhất"
+keywords:
+  - phân cấp mục báo cáo
+  - tính hiệu lực
+  - theo dõi thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

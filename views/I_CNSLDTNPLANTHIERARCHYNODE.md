@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPLANTHIERARCHYNODE
 description: Cnsldtnplanthierarchynode
+semantic_en: "consolidation plant hierarchy node — plant hierarchy structure with parent nodes and sequence information."
+semantic_vi: "nút phân cấp nhà máy hợp nhất — cấu trúc phân cấp nhà máy với nút cha và thông tin sắp xếp."
+keywords:
+  - nhà máy
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPLANTVH
 description: Cnsldtnplantvh
+semantic_en: "value help — consolidation combined plant with plant selections and names."
+semantic_vi: "trợ giúp giá trị — nhà máy hợp nhất với các lựa chọn nhà máy và tên."
+keywords:
+  - nhà máy
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

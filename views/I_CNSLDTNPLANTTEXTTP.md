@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPLANTTEXTTP
 description: Cnsldtnplanttexttp
+semantic_en: "consolidation plant text trading partner — language-specific plant names for trading partner assignments."
+semantic_vi: "văn bản nhà máy hợp nhất theo đối tác giao dịch — tên nhà máy đa ngôn ngữ cho đối tác."
+keywords:
+  - nhà máy
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

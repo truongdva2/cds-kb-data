@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTTEXTTP
 description: Cnsldtnproducttexttp
+semantic_en: "consolidation product text transfer pricing — multilingual product names for transfer pricing consolidation views"
+semantic_vi: "mô tả text sản phẩm định giá chuyển giao hợp nhất — tên đa ngôn ngữ cho sản phẩm"
+keywords:
+  - sản phẩm
+  - định giá chuyển giao
+  - text
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

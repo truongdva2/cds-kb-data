@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERHIERNODET
 description: CNSLDTNProfit CenterHIERNODET
+semantic_en: "consolidation profit center hierarchy node text — multilingual text descriptions for profit center hierarchy nodes with parent-child structure"
+semantic_vi: "mô tả text nút phân cấp trung tâm lợi nhuận hợp nhất — tên định nghĩa đa ngôn ngữ"
+keywords:
+  - text phân cấp
+  - trung tâm lợi nhuận
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

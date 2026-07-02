@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTVH
 description: Cnsldtngl AccountVH
+semantic_en: "value help for G/L accounts — account codes with display names for account selection lists"
+semantic_vi: "danh sách hỗ trợ tài khoản sổ cái — mã tài khoản với tên hiển thị cho lựa chọn tài khoản"
+keywords:
+  - G/L account VH
+  - value help
+  - account codes
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

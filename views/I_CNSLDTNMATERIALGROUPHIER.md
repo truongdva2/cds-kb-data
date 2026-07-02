@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALGROUPHIER
 description: CNSLDTNMaterial GroupHIER
+semantic_en: "consolidation material group hierarchy — hierarchy structure for material groups with validity periods and change tracking."
+semantic_vi: "phân cấp nhóm vật liệu hợp nhất — cấu trúc phân cấp cho nhóm vật liệu với ngày có hiệu lực."
+keywords:
+  - nhóm vật liệu
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

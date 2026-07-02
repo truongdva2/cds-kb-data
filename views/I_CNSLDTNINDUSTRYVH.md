@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNINDUSTRYVH
 description: Cnsldtnindustryvh
+semantic_en: "value help — consolidation combined industry with available industry selections and descriptions."
+semantic_vi: "trợ giúp giá trị — ngành hợp nhất với các lựa chọn ngành và mô tả."
+keywords:
+  - ngành
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

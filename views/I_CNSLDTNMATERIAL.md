@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIAL
 description: Cnsldtnmaterial
+semantic_en: "consolidation combined material — material assignments with additional master data source and classification flags."
+semantic_vi: "vật liệu hợp nhất — gán vật liệu với nguồn dữ liệu chủ yếu bổ sung và cờ phân loại."
+keywords:
+  - vật liệu
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

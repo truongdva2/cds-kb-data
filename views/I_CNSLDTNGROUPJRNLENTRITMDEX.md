@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPJRNLENTRITMDEX
 description: Cnsldtngroupjrnlentritmdex
+semantic_en: "group journal entry items data extract — consolidation journal entries by ledger, dimension, fiscal period with GL record type and currencies"
+semantic_vi: "trích xuất mục nhập nhật ký nhóm — mục nhập nhật ký consolidation theo sổ cái, chiều, kỳ tài chính với loại bản ghi GL và các loại tiền tệ"
+keywords:
+  - group journal entry
+  - consolidation entry
+  - data extract
 app_component: FIN-CS-EA-2CL
 software_component: SAPSCORE
 release_state: released

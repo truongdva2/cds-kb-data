@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPLANTHIERARCHYNODET
 description: Cnsldtnplanthierarchynodet
+semantic_en: "consolidation plant hierarchy node text — language-specific node names for plant hierarchies."
+semantic_vi: "văn bản nút phân cấp nhà máy hợp nhất — tên nút phân cấp nhà máy theo ngôn ngữ."
+keywords:
+  - nhà máy
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

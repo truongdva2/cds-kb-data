@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTHIERARCHYNODE
 description: Cnsldtngranthierarchynode
+semantic_en: "grant hierarchy node structure — parent-child relationships and grant assignments within hierarchies"
+semantic_vi: "cấu trúc nút phân cấp khoản tài trợ — quan hệ cha-con và gán khoản tài trợ trong cấu trúc phân cấp"
+keywords:
+  - grant hierarchy node
+  - parent-child relationship
+  - grant assignment
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

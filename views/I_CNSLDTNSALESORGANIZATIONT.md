@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGANIZATIONT
 description: CNSLDTNSales OrganizationT
+semantic_en: "consolidation combined sales organization with text — organization names and descriptions in multiple languages"
+semantic_vi: "tổ chức bán hàng hợp nhất kết hợp có văn bản — tên tổ chức và mô tả ở nhiều ngôn ngữ"
+keywords:
+  - tổ chức bán hàng
+  - tên tổ chức
+  - mô tả đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

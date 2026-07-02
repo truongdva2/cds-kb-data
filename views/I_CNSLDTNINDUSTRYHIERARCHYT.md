@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYHIERARCHYT
 description: Cnsldtnindustryhierarchyt
+semantic_en: "consolidation industry hierarchy text — language-specific labels for industry hierarchy levels with validity dates."
+semantic_vi: "văn bản phân cấp ngành hợp nhất — tập hợp các tên gợi ý cho các cấp phân cấp ngành với ngôn ngữ và ngày có hiệu lực."
+keywords:
+  - phân cấp ngành
+  - văn bản hợp nhất
+  - tên ngành
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

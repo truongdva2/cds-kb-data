@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGANIZATIONTP
 description: CNSLDTNSales OrganizationTP
+semantic_en: "consolidation sales organization transfer partner — organization data for transfer pricing purposes"
+semantic_vi: "tổ chức bán hàng hợp nhất đối tác chuyển giao — dữ liệu tổ chức cho mục đích định giá chuyển giao"
+keywords:
+  - tổ chức bán hàng
+  - định giá chuyển giao
+  - dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

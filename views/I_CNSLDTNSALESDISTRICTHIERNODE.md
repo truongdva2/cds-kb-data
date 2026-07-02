@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTHIERNODE
 description: Cnsldtnsalesdistricthiernode
+semantic_en: "consolidation sales district hierarchy node — parent-child relationships and node structure for district hierarchies"
+semantic_vi: "nút phân cấp khu vực bán hàng hợp nhất — mối quan hệ cha-con và cấu trúc nút cho phân cấp khu vực"
+keywords:
+  - nút phân cấp khu vực
+  - cha con
+  - cấu trúc phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

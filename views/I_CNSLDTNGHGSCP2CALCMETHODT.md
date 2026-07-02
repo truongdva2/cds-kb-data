@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CALCMETHODT
 description: Cnsldtnghgscp 2CALCMETHODT
+semantic_en: "text translations for Scope 2 calculation methods — language-keyed names for calculation approach types"
+semantic_vi: "bảng dịch ngôn ngữ cho phương pháp tính Scope 2 — tên theo ngôn ngữ cho các loại cách tiếp cận"
+keywords:
+  - Scope 2 method text
+  - phương pháp tính emissions
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

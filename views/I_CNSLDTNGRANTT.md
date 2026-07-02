@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTT
 description: Cnsldtngrantt
+semantic_en: "text translations for consolidation grants — language-keyed grant names"
+semantic_vi: "bảng dịch ngôn ngữ cho khoản tài trợ consolidation — tên khoản tài trợ theo ngôn ngữ"
+keywords:
+  - grant text
+  - tên khoản tài trợ
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

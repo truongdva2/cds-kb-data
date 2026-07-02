@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTGROUPHIERNODE
 description: Cnsldtnproductgrouphiernode
+semantic_en: "consolidation product group hierarchy node — hierarchy nodes with parent-child relationships, sequence, and level for product grouping"
+semantic_vi: "nút phân cấp nhóm sản phẩm hợp nhất — nút với mối quan hệ cha-con, thứ tự và cấp độ phân cấp"
+keywords:
+  - nút phân cấp
+  - nhóm sản phẩm
+  - cấu trúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

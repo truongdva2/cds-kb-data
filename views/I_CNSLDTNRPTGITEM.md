@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEM
 description: Cnsldtnrptgitem
+semantic_en: "consolidation reporting item — master data for chart-of-accounts reporting items"
+semantic_vi: "mục báo cáo hợp nhất — dữ liệu chính cho mục báo cáo trong kế toán hợp nhất"
+keywords:
+  - mục báo cáo hợp nhất
+  - chart hợp nhất
+  - dữ liệu chính báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

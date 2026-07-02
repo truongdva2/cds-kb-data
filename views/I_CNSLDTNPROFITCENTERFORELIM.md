@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERFORELIM
 description: CNSLDTNProfit CenterFORELIM
+semantic_en: "consolidation profit center for elimination — profit centers designated for intercompany elimination with controlling area"
+semantic_vi: "trung tâm lợi nhuận để loại bỏ hợp nhất — trung tâm lợi nhuận cho loại bỏ công ty nội bộ"
+keywords:
+  - trung tâm lợi nhuận
+  - loại bỏ
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CNTRCTLINSTRVH
 description: Cnsldtnghgscp 2CNTRCTLINSTRVH
+semantic_en: "value help for Scope 2 contractual instruments — instrument codes with names for dropdown selection"
+semantic_vi: "danh sách hỗ trợ công cụ hợp đồng Scope 2 — các mã công cụ với tên cho lựa chọn"
+keywords:
+  - contractual instrument
+  - energy agreement
+  - value help
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

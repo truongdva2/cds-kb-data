@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTTEXTTP
 description: Cnsldtngranttexttp
+semantic_en: "grant text third-party projection — grant names in multiple languages from source system"
+semantic_vi: "hình chiếu text khoản tài trợ bên thứ ba — tên khoản tài trợ nhiều ngôn ngữ từ hệ thống nguồn"
+keywords:
+  - grant text TP
+  - grant names
+  - third-party source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

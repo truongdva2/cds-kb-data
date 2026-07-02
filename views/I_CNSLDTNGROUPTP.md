@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPTP
 description: Cnsldtngrouptp
+semantic_en: "group third-party projection — consolidation groups from source system"
+semantic_vi: "hình chiếu nhóm bên thứ ba — nhóm consolidation từ hệ thống nguồn"
+keywords:
+  - group TP
+  - consolidation group
+  - third-party data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

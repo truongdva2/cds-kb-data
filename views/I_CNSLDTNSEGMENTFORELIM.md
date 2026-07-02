@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTFORELIM
 description: Cnsldtnsegmentforelim
+semantic_en: "consolidation segment for elimination — segments available for elimination purposes in consolidation"
+semantic_vi: "phân khúc hợp nhất để loại bỏ — các phân khúc có sẵn cho mục đích loại bỏ trong hợp nhất"
+keywords:
+  - phân khúc loại bỏ
+  - hợp nhất
+  - loại bỏ liên công ty
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTHIERNODE
 description: Cnsldtnsegmenthiernode
+semantic_en: "consolidation segment hierarchy node — parent-child relationships and node structure for segment hierarchies"
+semantic_vi: "nút phân cấp phân khúc hợp nhất — mối quan hệ cha-con và cấu trúc nút cho phân cấp phân khúc"
+keywords:
+  - nút phân cấp phân khúc
+  - cha con
+  - cấu trúc phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

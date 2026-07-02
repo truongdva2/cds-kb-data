@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPSTRUCTURE_2
 description: Cnsldtngroupstructure 2
+semantic_en: "group structure with consolidation details — units assigned to consolidation with method, technique, and divestiture tracking"
+semantic_vi: "cấu trúc nhóm với chi tiết consolidation — đơn vị được gán consolidation với theo dõi phương pháp, kỹ thuật và thoái vốn"
+keywords:
+  - group structure
+  - consolidation method
+  - divestiture
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

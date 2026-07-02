@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINVESTMENTMETHOD
 description: Cnsldtninvestmentmethod
+semantic_en: "consolidation investment method — technical table listing consolidation methods for investment accounting techniques."
+semantic_vi: "phương pháp đầu tư hợp nhất — các phương pháp hợp nhất cho các kỹ thuật kế toán đầu tư."
+keywords:
+  - phương pháp đầu tư
+  - hợp nhất
+  - kế toán
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

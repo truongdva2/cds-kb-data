@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSELECTIONVH
 description: Cnsldtnselectionvh
+semantic_en: "consolidation selection value-help — selection identifiers and descriptions for search and dropdown lists"
+semantic_vi: "trợ giúp giá trị lựa chọn hợp nhất — mã định danh lựa chọn và mô tả cho tìm kiếm và danh sách thả xuống"
+keywords:
+  - lựa chọn hợp nhất
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

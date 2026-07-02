@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALGROUPTP
 description: CNSLDTNMaterial GroupTP
+semantic_en: "consolidation material group trading partner — material group assignments for trading partner consolidation."
+semantic_vi: "nhóm vật liệu hợp nhất theo đối tác giao dịch — gán nhóm vật liệu cho hợp nhất đối tác."
+keywords:
+  - nhóm vật liệu
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

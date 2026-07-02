@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERFORELIMVH
 description: CNSLDTNProfit CenterFORELIMVH
+semantic_en: "consolidation profit center for elimination value help — profit center list with names for elimination selection"
+semantic_vi: "trợ giúp giá trị trung tâm lợi nhuận để loại bỏ hợp nhất — danh sách trung tâm lợi nhuận với tên"
+keywords:
+  - trung tâm lợi nhuận
+  - loại bỏ
+  - danh sách chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

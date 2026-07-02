@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGANIZATION
 description: CNSLDTNSales Organization
+semantic_en: "consolidation combined sales organization — sales organization master data with additional source tracking"
+semantic_vi: "tổ chức bán hàng hợp nhất kết hợp — dữ liệu chính tổ chức bán hàng với theo dõi nguồn bổ sung"
+keywords:
+  - tổ chức bán hàng
+  - hợp nhất dữ liệu
+  - nguồn bổ sung
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

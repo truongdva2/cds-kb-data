@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNORDERTEXT
 description: Cnsldtnordertext
+semantic_en: "consolidation combined order text — language-specific order descriptions with additional master data tracking."
+semantic_vi: "văn bản đơn hàng hợp nhất — mô tả đơn hàng đa ngôn ngữ với theo dõi dữ liệu chủ yếu bổ sung."
+keywords:
+  - đơn hàng
+  - hợp nhất
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALGROUPVH
 description: CNSLDTNMaterial GroupVH
+semantic_en: "value help — consolidation combined material group with group selections and names."
+semantic_vi: "trợ giúp giá trị — nhóm vật liệu hợp nhất với các lựa chọn nhóm và tên."
+keywords:
+  - nhóm vật liệu
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

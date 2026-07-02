@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALHIERARCHY
 description: Cnsldtnmaterialhierarchy
+semantic_en: "consolidation material hierarchy — material classification hierarchy with validity dates and change audit fields."
+semantic_vi: "phân cấp vật liệu hợp nhất — phân cấp phân loại vật liệu với ngày có hiệu lực và kiểm toán thay đổi."
+keywords:
+  - vật liệu
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

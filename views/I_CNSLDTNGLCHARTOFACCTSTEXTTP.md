@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLCHARTOFACCTSTEXTTP
 description: Cnsldtnglchartofacctstexttp
+semantic_en: "chart of accounts text third-party projection — account chart names in multiple languages from source system"
+semantic_vi: "hình chiếu text biểu tài khoản bên thứ ba — tên biểu tài khoản nhiều ngôn ngữ từ hệ thống nguồn"
+keywords:
+  - chart of accounts text TP
+  - account chart names
+  - third-party source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

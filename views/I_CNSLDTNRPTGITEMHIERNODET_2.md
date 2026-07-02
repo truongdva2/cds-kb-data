@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEMHIERNODET_2
 description: Cnsldtnrptgitemhiernodet 2
+semantic_en: "consolidation reporting item hierarchy node with translations — text descriptions for hierarchy nodes by language"
+semantic_vi: "nút phân cấp mục báo cáo hợp nhất có bản dịch — mô tả văn bản cho nút phân cấp theo ngôn ngữ"
+keywords:
+  - nút phân cấp
+  - bản dịch nút
+  - mục báo cáo
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

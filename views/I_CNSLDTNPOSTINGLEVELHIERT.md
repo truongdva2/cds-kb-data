@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVELHIERT
 description: Cnsldtnpostinglevelhiert
+semantic_en: "consolidation posting level hierarchy — hierarchy structure and multilingual text names for posting level categories"
+semantic_vi: "cấu trúc phân cấp mức ghi sổ hợp nhất và tên text đa ngôn ngữ cho các danh mục mức ghi sổ"
+keywords:
+  - phân cấp mức ghi sổ
+  - hợp nhất tài chính
+  - text phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

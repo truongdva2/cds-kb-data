@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNQUESTIONVH
 description: Cnsldtnquestionvh
+semantic_en: "consolidation question value help — question list for dropdown selection in consolidation questionnaires"
+semantic_vi: "trợ giúp giá trị câu hỏi hợp nhất — danh sách câu hỏi cho lựa chọn trong bảng câu hỏi"
+keywords:
+  - câu hỏi hợp nhất
+  - danh sách chọn
+  - trợ giúp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

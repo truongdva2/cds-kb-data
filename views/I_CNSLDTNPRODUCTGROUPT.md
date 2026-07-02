@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTGROUPT
 description: Cnsldtnproductgroupt
+semantic_en: "consolidation combined product group text — multilingual text descriptions and names for consolidated product groups"
+semantic_vi: "mô tả text nhóm sản phẩm kết hợp hợp nhất — tên định nghĩa đa ngôn ngữ cho nhóm sản phẩm hợp nhất"
+keywords:
+  - nhóm sản phẩm
+  - text đa ngôn ngữ
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

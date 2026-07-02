@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANT
 description: Cnsldtngrant
+semantic_en: "consolidation grant master data — grant identifiers with additional data and creation timestamp"
+semantic_vi: "dữ liệu chủ yếu khoản tài trợ consolidation — định danh khoản tài trợ với dữ liệu bổ sung và dấu thời gian tạo"
+keywords:
+  - consolidation grant
+  - grant master data
+  - khoản tài trợ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

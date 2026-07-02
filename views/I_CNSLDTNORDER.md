@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNORDER
 description: Cnsldtnorder
+semantic_en: "consolidation combined order — order assignments with additional master data source and classification flags."
+semantic_vi: "đơn hàng hợp nhất — gán đơn hàng với nguồn dữ liệu chủ yếu bổ sung và cờ phân loại."
+keywords:
+  - đơn hàng
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLOBALPARAMETER
 description: Cnsldtnglobalparameter
+semantic_en: "consolidation global parameters — system-wide settings for consolidation dimension, chart, ledger, version, and fiscal period"
+semantic_vi: "tham số toàn cục consolidation — cài đặt toàn hệ thống cho chiều consolidation, biểu, sổ cái, phiên bản và kỳ tài chính"
+keywords:
+  - global parameter
+  - consolidation settings
+  - fiscal period
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

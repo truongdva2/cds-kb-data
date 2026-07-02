@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTT
 description: Cnsldtnproductt
+semantic_en: "consolidation combined product text — multilingual product names and descriptions for consolidated product master data"
+semantic_vi: "mô tả text sản phẩm kết hợp hợp nhất — tên định nghĩa đa ngôn ngữ cho sản phẩm hợp nhất"
+keywords:
+  - sản phẩm
+  - text đa ngôn ngữ
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

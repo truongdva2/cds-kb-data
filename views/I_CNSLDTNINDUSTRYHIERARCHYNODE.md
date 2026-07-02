@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYHIERARCHYNODE
 description: Cnsldtnindustryhierarchynode
+semantic_en: "industry hierarchy node structure — parent-child relationships and industry assignments within hierarchies"
+semantic_vi: "cấu trúc nút phân cấp ngành hàng — quan hệ cha-con và gán ngành hàng trong cấu trúc phân cấp"
+keywords:
+  - industry hierarchy node
+  - parent-child relationship
+  - industry assignment
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

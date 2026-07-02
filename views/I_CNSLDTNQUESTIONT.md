@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNQUESTIONT
 description: Cnsldtnquestiont
+semantic_en: "consolidation question text — multilingual text descriptions for consolidation questionnaire questions"
+semantic_vi: "mô tả text câu hỏi hợp nhất — tên định nghĩa câu hỏi đa ngôn ngữ"
+keywords:
+  - câu hỏi hợp nhất
+  - text đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

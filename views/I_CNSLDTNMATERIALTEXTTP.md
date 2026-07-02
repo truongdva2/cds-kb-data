@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALTEXTTP
 description: Cnsldtnmaterialtexttp
+semantic_en: "consolidation material text trading partner — language-specific material names for trading partner assignments."
+semantic_vi: "văn bản vật liệu hợp nhất theo đối tác giao dịch — tên vật liệu đa ngôn ngữ cho đối tác."
+keywords:
+  - vật liệu
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

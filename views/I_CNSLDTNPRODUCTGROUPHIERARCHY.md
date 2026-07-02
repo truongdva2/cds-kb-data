@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTGROUPHIERARCHY
 description: Cnsldtnproductgrouphierarchy
+semantic_en: "consolidation product group hierarchy — hierarchy structure for grouping products with validity dates and change audit trail"
+semantic_vi: "phân cấp nhóm sản phẩm hợp nhất — cấu trúc phân cấp để nhóm sản phẩm với ngày hiệu lực và kiểm toán thay đổi"
+keywords:
+  - phân cấp nhóm sản phẩm
+  - cấu trúc phân cấp
+  - thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

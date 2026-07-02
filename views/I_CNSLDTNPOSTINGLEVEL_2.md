@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVEL_2
 description: Cnsldtnpostinglevel 2
+semantic_en: "consolidation posting level — posting level and corresponding reporting level mappings for consolidation operations"
+semantic_vi: "mức ghi sổ hợp nhất — ánh xạ mức ghi sổ và mức báo cáo tương ứng"
+keywords:
+  - mức ghi sổ
+  - mức báo cáo
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

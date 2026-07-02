@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTVH
 description: Cnsldtngrantvh
+semantic_en: "value help for consolidation grants — grant codes with names for selection lists"
+semantic_vi: "danh sách hỗ trợ khoản tài trợ consolidation — mã khoản tài trợ với tên cho lựa chọn"
+keywords:
+  - grant VH
+  - value help
+  - grant codes
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

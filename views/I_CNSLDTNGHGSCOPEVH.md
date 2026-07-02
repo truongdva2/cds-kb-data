@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCOPEVH
 description: Cnsldtnghgscopevh
+semantic_en: "value help for GHG scopes — scope codes with names for dropdown selection"
+semantic_vi: "danh sách hỗ trợ cho phạm vi GHG — các mã phạm vi với tên cho lựa chọn"
+keywords:
+  - GHG scope
+  - value help
+  - emission classification
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

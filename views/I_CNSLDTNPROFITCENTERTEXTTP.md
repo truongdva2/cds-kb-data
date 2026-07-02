@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERTEXTTP
 description: CNSLDTNProfit CenterTEXTTP
+semantic_en: "consolidation profit center text transfer pricing — multilingual profit center names for transfer pricing consolidation views"
+semantic_vi: "mô tả text trung tâm lợi nhuận định giá chuyển giao hợp nhất — tên đa ngôn ngữ"
+keywords:
+  - trung tâm lợi nhuận
+  - định giá chuyển giao
+  - text
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

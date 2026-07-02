@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTTP
 description: Cnsldtngl AccountTP
+semantic_en: "G/L account third-party projection — chart of accounts with additional master data flag"
+semantic_vi: "hình chiếu tài khoản sổ cái bên thứ ba — biểu tài khoản với cờ dữ liệu chủ yếu bổ sung"
+keywords:
+  - G/L account TP
+  - third-party data
+  - additional master data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTPAIRELIMASSGMT
 description: Cnsldtnsegmentpairelimassgmt
+semantic_en: "consolidation segment pair elimination assignment — paired segments and target segments for elimination"
+semantic_vi: "gán loại bỏ cặp phân khúc hợp nhất — các phân khúc được ghép nối và phân khúc đích để loại bỏ"
+keywords:
+  - cặp phân khúc
+  - loại bỏ liên công ty
+  - gán
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

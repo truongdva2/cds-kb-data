@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNORDERTEXTTP
 description: Cnsldtnordertexttp
+semantic_en: "consolidation order text trading partner — language-specific order descriptions for trading partner assignments."
+semantic_vi: "văn bản đơn hàng hợp nhất theo đối tác giao dịch — mô tả đơn hàng đa ngôn ngữ cho đối tác."
+keywords:
+  - đơn hàng
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

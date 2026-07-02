@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRFTCTRFORELIMHN
 description: Cnsldtnprftctrforelimhn
+semantic_en: "consolidation profit center for elimination hierarchy node — profit center hierarchy structure for intercompany elimination adjustments with validity periods"
+semantic_vi: "nút phân cấp trung tâm lợi nhuận để loại bỏ hợp nhất — cấu trúc phân cấp để xử lý loại bỏ công ty nội bộ"
+keywords:
+  - trung tâm lợi nhuận
+  - loại bỏ
+  - phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGHIERARCHYT
 description: CNSLDTNSales OrganizationHIERARCHYT
+semantic_en: "consolidation sales organization hierarchy with text — text descriptions for organization hierarchies in multiple languages"
+semantic_vi: "phân cấp tổ chức bán hàng hợp nhất có văn bản — mô tả văn bản cho phân cấp tổ chức ở nhiều ngôn ngữ"
+keywords:
+  - phân cấp tổ chức
+  - bản dịch phân cấp
+  - mô tả tổ chức
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

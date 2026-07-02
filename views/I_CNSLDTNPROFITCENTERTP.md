@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERTP
 description: CNSLDTNProfit CenterTP
+semantic_en: "consolidation profit center transfer pricing — consolidated profit center master for transfer pricing consolidation operations"
+semantic_vi: "trung tâm lợi nhuận định giá chuyển giao hợp nhất — dữ liệu chính trung tâm lợi nhuận"
+keywords:
+  - trung tâm lợi nhuận
+  - định giá chuyển giao
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

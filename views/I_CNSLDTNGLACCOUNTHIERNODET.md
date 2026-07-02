@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTHIERNODET
 description: Cnsldtngl AccountHIERNODET
+semantic_en: "text translations for G/L account hierarchy nodes — language-keyed node names within account hierarchies"
+semantic_vi: "bảng dịch ngôn ngữ cho nút phân cấp tài khoản sổ cái — tên nút theo ngôn ngữ trong cấu trúc phân cấp"
+keywords:
+  - hierarchy node text
+  - nút phân cấp
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITMTEXT
 description: Cnsldtnrptgitmtext
+semantic_en: "consolidation reporting item with text — short and master data text in multiple languages"
+semantic_vi: "mục báo cáo hợp nhất có văn bản — văn bản ngắn và văn bản dữ liệu chính ở nhiều ngôn ngữ"
+keywords:
+  - mục báo cáo
+  - văn bản mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

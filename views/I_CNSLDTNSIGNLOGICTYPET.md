@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSIGNLOGICTYPET
 description: Cnsldtnsignlogictypet
+semantic_en: "consolidation sign logic type with text — text descriptions for sign logic types in multiple languages"
+semantic_vi: "loại logic dấu hiệu hợp nhất có văn bản — mô tả văn bản cho các loại logic dấu hiệu ở nhiều ngôn ngữ"
+keywords:
+  - logic dấu hiệu
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

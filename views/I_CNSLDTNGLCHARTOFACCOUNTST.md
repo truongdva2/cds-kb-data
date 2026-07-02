@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLCHARTOFACCOUNTST
 description: Cnsldtnglchartofaccountst
+semantic_en: "text translations for G/L charts of accounts — language-keyed chart names and source descriptions"
+semantic_vi: "bảng dịch ngôn ngữ cho biểu tài khoản sổ cái — tên biểu và mô tả nguồn theo ngôn ngữ"
+keywords:
+  - chart of accounts text
+  - tên biểu tài khoản
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

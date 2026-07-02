@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALGROUPTEXTTP
 description: CNSLDTNMaterial GroupTEXTTP
+semantic_en: "consolidation material group text trading partner — language-specific group names for trading partner scope."
+semantic_vi: "văn bản nhóm vật liệu hợp nhất theo đối tác giao dịch — tên nhóm đa ngôn ngữ cho đối tác."
+keywords:
+  - nhóm vật liệu
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

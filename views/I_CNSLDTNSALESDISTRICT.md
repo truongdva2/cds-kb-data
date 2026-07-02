@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICT
 description: Cnsldtnsalesdistrict
+semantic_en: "consolidation combined sales district — sales district master data with additional source tracking"
+semantic_vi: "khu vực bán hàng hợp nhất kết hợp — dữ liệu chính khu vực bán hàng với theo dõi nguồn bổ sung"
+keywords:
+  - khu vực bán hàng
+  - hợp nhất dữ liệu
+  - nguồn bổ sung
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

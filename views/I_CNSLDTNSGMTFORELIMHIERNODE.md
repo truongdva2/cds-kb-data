@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSGMTFORELIMHIERNODE
 description: Cnsldtnsgmtforelimhiernode
+semantic_en: "consolidation segment for elimination hierarchy node — hierarchy nodes for segments designated for elimination"
+semantic_vi: "nút phân cấp phân khúc hợp nhất để loại bỏ — nút phân cấp cho các phân khúc được chỉ định để loại bỏ"
+keywords:
+  - phân khúc loại bỏ
+  - nút phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

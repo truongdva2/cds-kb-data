@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTHIERARCHYT
 description: Cnsldtnproducthierarchyt
+semantic_en: "consolidation product hierarchy text — multilingual text names for product hierarchies with validity dates"
+semantic_vi: "mô tả text phân cấp sản phẩm hợp nhất — tên định nghĩa đa ngôn ngữ cho phân cấp sản phẩm"
+keywords:
+  - phân cấp sản phẩm
+  - text
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

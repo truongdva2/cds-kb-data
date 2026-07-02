@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALGROUPT
 description: CNSLDTNMaterial GroupT
+semantic_en: "consolidation combined material group text — language-specific group names with additional master data descriptions."
+semantic_vi: "văn bản nhóm vật liệu hợp nhất — tên nhóm đa ngôn ngữ với mô tả dữ liệu chủ yếu bổ sung."
+keywords:
+  - nhóm vật liệu
+  - hợp nhất
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

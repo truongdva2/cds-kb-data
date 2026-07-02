@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYT
 description: Cnsldtnindustryt
+semantic_en: "consolidation combined industry text — language-specific industry names and descriptions with additional master data classification."
+semantic_vi: "văn bản ngành hợp nhất — tên ngành và mô tả đa ngôn ngữ với phân loại dữ liệu chủ yếu bổ sung."
+keywords:
+  - ngành hợp nhất
+  - văn bản
+  - tên ngành
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

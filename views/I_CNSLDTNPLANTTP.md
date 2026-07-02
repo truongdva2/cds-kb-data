@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPLANTTP
 description: Cnsldtnplanttp
+semantic_en: "consolidation plant trading partner — plant assignments for trading partner consolidation scope."
+semantic_vi: "nhà máy hợp nhất theo đối tác giao dịch — gán nhà máy cho hợp nhất đối tác."
+keywords:
+  - nhà máy
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

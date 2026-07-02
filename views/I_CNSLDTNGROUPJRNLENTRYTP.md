@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPJRNLENTRYTP
 description: Cnsldtngroupjrnlentrytp
+semantic_en: "group journal entry third-party projection — consolidation documents with posting level, unit hierarchy, and dates"
+semantic_vi: "hình chiếu nhập nhật ký nhóm bên thứ ba — tài liệu consolidation với mức đăng ký, cấu trúc đơn vị và ngày tháng"
+keywords:
+  - journal entry TP
+  - consolidation document
+  - posting level
 app_component: FIN-CS-JE-2CL
 software_component: SAPSCORE
 release_state: released

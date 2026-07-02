@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEMHIERNODE_2
 description: Cnsldtnrptgitemhiernode 2
+semantic_en: "consolidation reporting item hierarchy node — parent-child relationships, sequence, and level for hierarchy structure"
+semantic_vi: "nút phân cấp mục báo cáo hợp nhất — mối quan hệ cha-con, thứ tự và mức độ cho cấu trúc phân cấp"
+keywords:
+  - nút phân cấp
+  - cha con
+  - cấu trúc phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

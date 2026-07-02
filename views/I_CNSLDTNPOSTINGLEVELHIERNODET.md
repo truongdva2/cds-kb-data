@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVELHIERNODET
 description: Cnsldtnpostinglevelhiernodet
+semantic_en: "consolidation posting level hierarchy node text — multilingual text descriptions of hierarchy nodes including parent-child relationships and node identifiers"
+semantic_vi: "mô tả văn bản đa ngôn ngữ cho các nút phân cấp mức ghi sổ hợp nhất, bao gồm mối quan hệ cha-con và định danh nút"
+keywords:
+  - nút phân cấp mức ghi sổ
+  - mô tả phân cấp
+  - hợp nhất tài chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

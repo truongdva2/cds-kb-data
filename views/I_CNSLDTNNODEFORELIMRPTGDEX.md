@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNNODEFORELIMRPTGDEX
 description: Cnsldtnnodeforelimrptgdex
+semantic_en: "data extract — consolidation nodes for elimination reporting with hierarchy structure and level information."
+semantic_vi: "trích xuất dữ liệu — nút hợp nhất cho báo cáo loại bỏ với cấu trúc phân cấp và thông tin cấp."
+keywords:
+  - nút
+  - loại bỏ
+  - phân cấp
 app_component: FIN-CS-EA-2CL
 software_component: SAPSCORE
 release_state: released

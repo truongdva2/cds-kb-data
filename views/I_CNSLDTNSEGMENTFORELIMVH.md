@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTFORELIMVH
 description: Cnsldtnsegmentforelimvh
+semantic_en: "consolidation segment for management elimination purpose value-help — segments for dropdown lists in elimination processing"
+semantic_vi: "trợ giúp giá trị phân khúc hợp nhất để mục đích loại bỏ quản lý — phân khúc cho danh sách thả xuống trong xử lý loại bỏ"
+keywords:
+  - phân khúc loại bỏ
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

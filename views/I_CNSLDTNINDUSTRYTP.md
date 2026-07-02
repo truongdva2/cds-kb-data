@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNINDUSTRYTP
 description: Cnsldtnindustrytp
+semantic_en: "consolidation industry trading partner — industry assignments for trading partner consolidation scope."
+semantic_vi: "ngành hợp nhất theo đối tác giao dịch — gán ngành cho phạm vi hợp nhất đối tác."
+keywords:
+  - ngành
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

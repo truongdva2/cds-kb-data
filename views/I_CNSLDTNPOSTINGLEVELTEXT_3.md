@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVELTEXT_3
 description: Cnsldtnpostingleveltext 3
+semantic_en: "consolidation posting level domain text — multilingual text mappings for consolidation posting level domain values"
+semantic_vi: "mô tả text miền mức ghi sổ hợp nhất — ánh xạ tên đa ngôn ngữ cho các giá trị miền"
+keywords:
+  - mức ghi sổ hợp nhất
+  - text miền
+  - định nghĩa
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

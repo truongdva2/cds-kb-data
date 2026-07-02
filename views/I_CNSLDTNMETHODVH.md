@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMETHODVH
 description: Cnsldtnmethodvh
+semantic_en: "value help — consolidation method with method selections, descriptions and task categories."
+semantic_vi: "trợ giúp giá trị — phương pháp hợp nhất với các lựa chọn, mô tả và danh mục nhiệm vụ."
+keywords:
+  - phương pháp
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

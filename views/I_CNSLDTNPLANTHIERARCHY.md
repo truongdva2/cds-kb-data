@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPLANTHIERARCHY
 description: Cnsldtnplanthierarchy
+semantic_en: "consolidation plant hierarchy — plant classification hierarchy with validity periods and change audit fields."
+semantic_vi: "phân cấp nhà máy hợp nhất — phân cấp phân loại nhà máy với ngày có hiệu lực và kiểm toán thay đổi."
+keywords:
+  - nhà máy
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

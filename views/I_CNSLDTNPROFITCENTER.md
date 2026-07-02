@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTER
 description: CNSLDTNProfit Center
+semantic_en: "consolidation combined profit center — consolidated profit center master data with source and creation tracking"
+semantic_vi: "trung tâm lợi nhuận kết hợp hợp nhất — dữ liệu chính trung tâm lợi nhuận với theo dõi nguồn"
+keywords:
+  - trung tâm lợi nhuận
+  - hợp nhất
+  - dữ liệu chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

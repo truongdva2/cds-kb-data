@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNREPORTINGLEVEL
 description: Cnsldtnreportinglevel
+semantic_en: "consolidation reporting level domain — reporting level classification mapping"
+semantic_vi: "phân loại mức báo cáo hợp nhất — ánh xạ phân loại mức báo cáo"
+keywords:
+  - mức báo cáo
+  - phân loại
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNQUESTIONTYPET
 description: Cnsldtnquestiontypet
+semantic_en: "consolidation question type domain text — multilingual text labels for question type categories"
+semantic_vi: "mô tả text loại câu hỏi hợp nhất — tên định nghĩa đa ngôn ngữ cho phân loại"
+keywords:
+  - loại câu hỏi
+  - text
+  - phân loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

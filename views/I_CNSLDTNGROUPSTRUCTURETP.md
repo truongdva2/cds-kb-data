@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPSTRUCTURETP
 description: Cnsldtngroupstructuretp
+semantic_en: "group structure third-party projection — consolidation units with divestiture and method change dates"
+semantic_vi: "hình chiếu cấu trúc nhóm bên thứ ba — đơn vị consolidation với ngày thoái vốn và ngày thay đổi phương pháp"
+keywords:
+  - group structure TP
+  - consolidation unit
+  - divestiture date
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

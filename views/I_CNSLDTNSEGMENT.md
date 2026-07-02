@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENT
 description: Cnsldtnsegment
+semantic_en: "consolidation combined segment — segment master data with additional source tracking"
+semantic_vi: "phân khúc hợp nhất kết hợp — dữ liệu chính phân khúc với theo dõi nguồn bổ sung"
+keywords:
+  - phân khúc
+  - hợp nhất dữ liệu
+  - nguồn bổ sung
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

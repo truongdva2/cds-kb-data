@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALVH
 description: Cnsldtnmaterialvh
+semantic_en: "value help — consolidation combined material with material selections and names."
+semantic_vi: "trợ giúp giá trị — vật liệu hợp nhất với các lựa chọn vật liệu và tên."
+keywords:
+  - vật liệu
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTGLEVELHIERNODE_2
 description: Cnsldtnpostglevelhiernode 2
+semantic_en: "consolidation posting level hierarchy node — posting level structure with parent nodes and hierarchy sequencing."
+semantic_vi: "nút phân cấp mức hạch toán hợp nhất — cấu trúc mức hạch toán với nút cha và sắp xếp phân cấp."
+keywords:
+  - mức hạch toán
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

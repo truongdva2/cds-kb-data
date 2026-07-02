@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMATERIALGROUP
 description: CNSLDTNMaterial Group
+semantic_en: "consolidation combined material group — material group assignments with additional master data source classification."
+semantic_vi: "nhóm vật liệu hợp nhất — gán nhóm vật liệu với phân loại nguồn dữ liệu chủ yếu."
+keywords:
+  - nhóm vật liệu
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

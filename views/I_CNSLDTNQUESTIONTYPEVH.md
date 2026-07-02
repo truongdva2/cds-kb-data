@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNQUESTIONTYPEVH
 description: Cnsldtnquestiontypevh
+semantic_en: "consolidation question type value help — question type list with text descriptions for dropdown selection"
+semantic_vi: "trợ giúp giá trị loại câu hỏi hợp nhất — danh sách loại câu hỏi với tên cho lựa chọn"
+keywords:
+  - loại câu hỏi
+  - danh sách chọn
+  - trợ giúp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

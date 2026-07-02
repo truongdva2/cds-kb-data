@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPLANTHIERARCHYT
 description: Cnsldtnplanthierarchyt
+semantic_en: "consolidation plant hierarchy text — language-specific hierarchy level names for plant classifications."
+semantic_vi: "văn bản phân cấp nhà máy hợp nhất — tên cấp phân cấp nhà máy theo ngôn ngữ."
+keywords:
+  - nhà máy
+  - phân cấp
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

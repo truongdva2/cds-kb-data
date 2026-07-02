@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSELECTION
 description: Cnsldtnselection
+semantic_en: "consolidation selection — mapping between consolidation selections and financial selections"
+semantic_vi: "lựa chọn hợp nhất — ánh xạ giữa các lựa chọn hợp nhất và các lựa chọn tài chính"
+keywords:
+  - lựa chọn hợp nhất
+  - lựa chọn tài chính
+  - ánh xạ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

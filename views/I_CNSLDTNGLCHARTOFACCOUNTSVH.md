@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLCHARTOFACCOUNTSVH
 description: Cnsldtnglchartofaccountsvh
+semantic_en: "value help for G/L charts of accounts — chart codes with names for account chart selection"
+semantic_vi: "danh sách hỗ trợ biểu tài khoản sổ cái — mã biểu với tên cho lựa chọn biểu tài khoản"
+keywords:
+  - chart of accounts VH
+  - value help
+  - chart codes
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

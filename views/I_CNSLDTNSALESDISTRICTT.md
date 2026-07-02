@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTT
 description: Cnsldtnsalesdistrictt
+semantic_en: "consolidation combined sales district with text — district names and descriptions in multiple languages"
+semantic_vi: "khu vực bán hàng hợp nhất kết hợp có văn bản — tên khu vực và mô tả ở nhiều ngôn ngữ"
+keywords:
+  - khu vực bán hàng
+  - tên khu vực
+  - mô tả đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

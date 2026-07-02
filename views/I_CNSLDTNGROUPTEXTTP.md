@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPTEXTTP
 description: Cnsldtngrouptexttp
+semantic_en: "group text third-party projection — consolidation group names in multiple languages from source system"
+semantic_vi: "hình chiếu text nhóm bên thứ ba — tên nhóm consolidation nhiều ngôn ngữ từ hệ thống nguồn"
+keywords:
+  - group text TP
+  - group names
+  - third-party source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTTP
 description: Cnsldtngranttp
+semantic_en: "grant third-party projection — grants with additional data markers from consolidation source"
+semantic_vi: "hình chiếu khoản tài trợ bên thứ ba — khoản tài trợ với dấu dữ liệu bổ sung từ nguồn consolidation"
+keywords:
+  - grant TP
+  - third-party data
+  - consolidation source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

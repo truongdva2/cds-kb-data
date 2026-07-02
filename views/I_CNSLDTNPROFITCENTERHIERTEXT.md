@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERHIERTEXT
 description: CNSLDTNProfit CenterHIERTEXT
+semantic_en: "consolidation profit center hierarchy text — multilingual text names for profit center hierarchies with validity periods"
+semantic_vi: "mô tả text phân cấp trung tâm lợi nhuận hợp nhất — tên định nghĩa đa ngôn ngữ cho phân cấp"
+keywords:
+  - phân cấp trung tâm lợi nhuận
+  - text
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

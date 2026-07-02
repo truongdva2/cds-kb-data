@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTVH
 description: Cnsldtnproductvh
+semantic_en: "consolidation combined product value help — product list with names for dropdown selection"
+semantic_vi: "trợ giúp giá trị sản phẩm kết hợp hợp nhất — danh sách sản phẩm với tên cho lựa chọn"
+keywords:
+  - sản phẩm
+  - danh sách chọn
+  - giá trị trợ giúp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

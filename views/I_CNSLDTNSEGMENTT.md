@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTT
 description: Cnsldtnsegmentt
+semantic_en: "consolidation combined segment with text — segment names and descriptions in multiple languages"
+semantic_vi: "phân khúc hợp nhất kết hợp có văn bản — tên phân khúc và mô tả ở nhiều ngôn ngữ"
+keywords:
+  - phân khúc
+  - tên phân khúc
+  - mô tả đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

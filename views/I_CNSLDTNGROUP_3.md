@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUP_3
 description: Cnsldtngroup 3
+semantic_en: "consolidation group master data — primary group identifiers for hierarchy assignment"
+semantic_vi: "dữ liệu chủ yếu nhóm consolidation — định danh nhóm chính cho gán phân cấp"
+keywords:
+  - consolidation group
+  - group master data
+  - nhóm hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

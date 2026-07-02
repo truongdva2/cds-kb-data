@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSIGNLOGICTYPEVH
 description: Cnsldtnsignlogictypevh
+semantic_en: "consolidation sign logic type value-help — sign logic type codes and descriptions for dropdown lists"
+semantic_vi: "trợ giúp giá trị loại logic dấu hiệu hợp nhất — mã loại logic dấu hiệu và mô tả cho danh sách thả xuống"
+keywords:
+  - logic dấu hiệu
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

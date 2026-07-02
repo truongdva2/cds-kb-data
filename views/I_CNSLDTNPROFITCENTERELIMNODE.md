@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERELIMNODE
 description: CNSLDTNProfit CenterELIMNODE
+semantic_en: "consolidation profit center elimination node — profit center records designated for intercompany elimination processing"
+semantic_vi: "nút loại bỏ trung tâm lợi nhuận hợp nhất — trung tâm lợi nhuận được chỉ định cho loại bỏ công ty nội bộ"
+keywords:
+  - trung tâm lợi nhuận
+  - loại bỏ
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

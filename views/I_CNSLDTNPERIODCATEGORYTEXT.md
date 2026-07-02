@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPERIODCATEGORYTEXT
 description: Cnsldtnperiodcategorytext
+semantic_en: "consolidation period category text — language-specific period category names and descriptions."
+semantic_vi: "văn bản danh mục kỳ hợp nhất — tên và mô tả danh mục kỳ theo ngôn ngữ."
+keywords:
+  - kỳ
+  - hợp nhất
+  - văn bản
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTDFINDATAUPLDMETHVH
 description: Cnsldtnrptdfindataupldmethvh
+semantic_en: "consolidation reported financial data upload method value help — upload method list with descriptions for dropdown selection"
+semantic_vi: "trợ giúp giá trị phương pháp tải lên dữ liệu tài chính báo cáo hợp nhất — danh sách phương pháp với tên"
+keywords:
+  - phương pháp tải lên
+  - dữ liệu tài chính
+  - danh sách chọn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

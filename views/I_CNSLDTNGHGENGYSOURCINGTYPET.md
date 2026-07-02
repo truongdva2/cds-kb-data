@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENGYSOURCINGTYPET
 description: Cnsldtnghgengysourcingtypet
+semantic_en: "text translations for GHG energy sourcing type codes — language-keyed lookup for sourcing type names and descriptions"
+semantic_vi: "bảng dịch ngôn ngữ cho các mã loại nguồn năng lượng GHG — tra cứu theo ngôn ngữ cho tên và mô tả loại nguồn"
+keywords:
+  - loại nguồn năng lượng GHG
+  - dịch ngôn ngữ
+  - consolidation
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

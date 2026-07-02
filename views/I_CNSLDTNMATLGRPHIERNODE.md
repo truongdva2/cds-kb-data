@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATLGRPHIERNODE
 description: Cnsldtnmatlgrphiernode
+semantic_en: "consolidation material group hierarchy node — material group structure with parent nodes and hierarchy sequencing."
+semantic_vi: "nút phân cấp nhóm vật liệu hợp nhất — cấu trúc nhóm vật liệu với nút cha và sắp xếp phân cấp."
+keywords:
+  - nhóm vật liệu
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

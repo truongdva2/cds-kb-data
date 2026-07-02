@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLCHARTOFACCOUNTS
 description: Cnsldtnglchartofaccounts
+semantic_en: "combined G/L chart of accounts master data — multiple sources consolidated with additional data flag"
+semantic_vi: "dữ liệu chủ yếu biểu tài khoản sổ cái kết hợp — nhiều nguồn hợp nhất với cờ dữ liệu bổ sung"
+keywords:
+  - chart of accounts
+  - combined COA
+  - master data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

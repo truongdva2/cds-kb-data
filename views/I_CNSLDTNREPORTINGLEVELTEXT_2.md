@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNREPORTINGLEVELTEXT_2
 description: Cnsldtnreportingleveltext 2
+semantic_en: "consolidation reporting level domain text — multilingual text labels for reporting level categories"
+semantic_vi: "mô tả text mức báo cáo hợp nhất — tên định nghĩa đa ngôn ngữ cho mức báo cáo"
+keywords:
+  - mức báo cáo
+  - text
+  - phân loại
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNQUESTION
 description: Cnsldtnquestion
+semantic_en: "consolidation question — questionnaire questions for consolidation process with settings for multiple answers and answer count constraints"
+semantic_vi: "câu hỏi hợp nhất — câu hỏi trong quy trình hợp nhất với cấu hình trả lời nhiều lần"
+keywords:
+  - câu hỏi hợp nhất
+  - trả lời
+  - quy trình
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

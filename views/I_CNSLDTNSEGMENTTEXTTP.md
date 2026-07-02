@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTTEXTTP
 description: Cnsldtnsegmenttexttp
+semantic_en: "consolidation segment text transfer partner — segment names for transfer pricing in multiple languages"
+semantic_vi: "văn bản phân khúc hợp nhất đối tác chuyển giao — tên phân khúc cho định giá chuyển giao ở nhiều ngôn ngữ"
+keywords:
+  - phân khúc
+  - định giá chuyển giao
+  - văn bản tên
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPSTRUCTURE_3
 description: Cnsldtngroupstructure 3
+semantic_en: "group structure with ETag — consolidation unit hierarchy with validity periods and divestiture information"
+semantic_vi: "cấu trúc nhóm với ETag — cấu trúc phân cấp đơn vị consolidation với kỳ hiệu lực và thông tin thoái vốn"
+keywords:
+  - group structure
+  - consolidation unit
+  - ETag
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

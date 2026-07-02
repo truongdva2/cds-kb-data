@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGENGYSOURCINGTYPEVH
 description: Cnsldtnghgengysourcingtypevh
+semantic_en: "value help for GHG energy sourcing types — sourcing type codes with display names for selection lists"
+semantic_vi: "danh sách hỗ trợ nhập liệu cho loại nguồn năng lượng GHG — các mã loại với tên hiển thị"
+keywords:
+  - GHG sourcing type
+  - value help
+  - droplist
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

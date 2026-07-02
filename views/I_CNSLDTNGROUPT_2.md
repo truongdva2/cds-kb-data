@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPT_2
 description: Cnsldtngroupt 2
+semantic_en: "text translations for consolidation groups — language-keyed group names and medium descriptions"
+semantic_vi: "bảng dịch ngôn ngữ cho nhóm consolidation — tên nhóm và mô tả trung bình theo ngôn ngữ"
+keywords:
+  - group text
+  - tên nhóm consolidation
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

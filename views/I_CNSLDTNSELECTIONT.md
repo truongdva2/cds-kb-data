@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSELECTIONT
 description: Cnsldtnselectiont
+semantic_en: "consolidation selection with text — text descriptions for selections in multiple languages"
+semantic_vi: "lựa chọn hợp nhất có văn bản — mô tả văn bản cho các lựa chọn ở nhiều ngôn ngữ"
+keywords:
+  - lựa chọn hợp nhất
+  - mô tả
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYHIERNODET
 description: Cnsldtnindustryhiernodet
+semantic_en: "consolidation industry hierarchy node text — language-specific descriptions of hierarchy nodes with parent-child relationships and validity periods."
+semantic_vi: "văn bản nút phân cấp ngành hợp nhất — tên và mô tả các nút trong phân cấp ngành với mối quan hệ cha-con."
+keywords:
+  - nút phân cấp
+  - ngành
+  - mối quan hệ cha
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

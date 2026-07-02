@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLCHARTOFACCOUNTSTP
 description: Cnsldtnglchartofaccountstp
+semantic_en: "chart of accounts third-party projection — consolidation source charts with additional data markers"
+semantic_vi: "hình chiếu biểu tài khoản bên thứ ba — biểu nguồn hợp nhất với dấu dữ liệu bổ sung"
+keywords:
+  - chart of accounts TP
+  - third-party data
+  - consolidation source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

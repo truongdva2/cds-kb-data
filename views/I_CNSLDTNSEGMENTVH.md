@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTVH
 description: Cnsldtnsegmentvh
+semantic_en: "consolidation combined segment value-help — segment identifiers and names for search and dropdown lists"
+semantic_vi: "trợ giúp giá trị phân khúc hợp nhất kết hợp — mã định danh phân khúc và tên cho tìm kiếm và danh sách thả xuống"
+keywords:
+  - phân khúc
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

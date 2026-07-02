@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPLANTT
 description: Cnsldtnplantt
+semantic_en: "consolidation combined plant text — language-specific plant names and descriptions with master data source tracking."
+semantic_vi: "văn bản nhà máy hợp nhất — tên nhà máy đa ngôn ngữ và mô tả với theo dõi nguồn dữ liệu."
+keywords:
+  - nhà máy
+  - hợp nhất
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

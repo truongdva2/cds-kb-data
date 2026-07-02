@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTTP
 description: Cnsldtnproducttp
+semantic_en: "consolidation product transfer pricing — consolidated product master for transfer pricing consolidation operations"
+semantic_vi: "sản phẩm định giá chuyển giao hợp nhất — dữ liệu chính sản phẩm cho hợp nhất"
+keywords:
+  - sản phẩm
+  - định giá chuyển giao
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

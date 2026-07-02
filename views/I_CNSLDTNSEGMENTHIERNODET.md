@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTHIERNODET
 description: Cnsldtnsegmenthiernodet
+semantic_en: "consolidation segment hierarchy node with text — text descriptions for hierarchy nodes in multiple languages"
+semantic_vi: "nút phân cấp phân khúc hợp nhất có văn bản — mô tả văn bản cho nút phân cấp ở nhiều ngôn ngữ"
+keywords:
+  - nút phân cấp phân khúc
+  - bản dịch nút
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

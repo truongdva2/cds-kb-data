@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEM_2
 description: Cnsldtnrptgitem 2
+semantic_en: "consolidation reporting item — creation timestamp for reporting item master data"
+semantic_vi: "mục báo cáo hợp nhất — dấu thời gian tạo cho dữ liệu chính mục báo cáo"
+keywords:
+  - mục báo cáo
+  - dấu thời gian tạo
+  - dữ liệu chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

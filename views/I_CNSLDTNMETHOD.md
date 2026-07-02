@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNMETHOD
 description: Cnsldtnmethod
+semantic_en: "consolidation method — method codes with associated consolidation task categories."
+semantic_vi: "phương pháp hợp nhất — mã phương pháp với danh mục nhiệm vụ hợp nhất liên quan."
+keywords:
+  - phương pháp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

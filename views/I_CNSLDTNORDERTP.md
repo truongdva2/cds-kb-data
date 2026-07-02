@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNORDERTP
 description: Cnsldtnordertp
+semantic_en: "consolidation order trading partner — order assignments for trading partner consolidation scope."
+semantic_vi: "đơn hàng hợp nhất theo đối tác giao dịch — gán đơn hàng cho hợp nhất đối tác."
+keywords:
+  - đơn hàng
+  - đối tác giao dịch
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

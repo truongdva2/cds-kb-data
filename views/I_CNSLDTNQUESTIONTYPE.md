@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNQUESTIONTYPE
 description: Cnsldtnquestiontype
+semantic_en: "consolidation question type domain — question type classification mapping"
+semantic_vi: "phân loại loại câu hỏi hợp nhất — ánh xạ phân loại loại câu hỏi"
+keywords:
+  - loại câu hỏi
+  - phân loại
+  - miền
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

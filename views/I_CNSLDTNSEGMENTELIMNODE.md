@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTELIMNODE
 description: Cnsldtnsegmentelimnode
+semantic_en: "consolidation segment elimination node — segments designated for intercompany elimination"
+semantic_vi: "nút loại bỏ phân khúc hợp nhất — các phân khúc được chỉ định để loại bỏ liên công ty"
+keywords:
+  - phân khúc loại bỏ
+  - loại bỏ liên công ty
+  - nút phân khúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

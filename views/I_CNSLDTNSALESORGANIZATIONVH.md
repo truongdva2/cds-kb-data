@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGANIZATIONVH
 description: CNSLDTNSales OrganizationVH
+semantic_en: "consolidation combined sales organization value-help — organization identifiers and names for search and dropdown lists"
+semantic_vi: "trợ giúp giá trị tổ chức bán hàng hợp nhất kết hợp — mã định danh tổ chức và tên cho tìm kiếm và danh sách thả xuống"
+keywords:
+  - tổ chức bán hàng
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

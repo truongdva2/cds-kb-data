@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERELIMNODET
 description: CNSLDTNProfit CenterELIMNODET
+semantic_en: "consolidation profit center elimination node text — multilingual profit center names for elimination nodes"
+semantic_vi: "mô tả text nút loại bỏ trung tâm lợi nhuận hợp nhất — tên trung tâm lợi nhuận đa ngôn ngữ"
+keywords:
+  - trung tâm lợi nhuận
+  - loại bỏ
+  - text
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

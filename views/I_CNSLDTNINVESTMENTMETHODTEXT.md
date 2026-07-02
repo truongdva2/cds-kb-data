@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINVESTMENTMETHODTEXT
 description: Cnsldtninvestmentmethodtext
+semantic_en: "consolidation investment method text — language-specific descriptions of investment accounting methods."
+semantic_vi: "văn bản phương pháp đầu tư hợp nhất — mô tả các phương pháp kế toán đầu tư theo ngôn ngữ."
+keywords:
+  - phương pháp đầu tư
+  - kế toán
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

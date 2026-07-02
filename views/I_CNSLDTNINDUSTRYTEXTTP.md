@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYTEXTTP
 description: Cnsldtnindustrytexttp
+semantic_en: "consolidation industry text trading partner — language-specific industry names for trading partner scope."
+semantic_vi: "văn bản ngành hợp nhất theo đối tác giao dịch — tên ngành đa ngôn ngữ cho phạm vi đối tác."
+keywords:
+  - ngành
+  - đối tác giao dịch
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

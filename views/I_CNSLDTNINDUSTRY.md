@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRY
 description: Cnsldtnindustry
+semantic_en: "combined industry master data — industry classifications from multiple sources with additional data flag"
+semantic_vi: "dữ liệu chủ yếu ngành hàng kết hợp — phân loại ngành từ nhiều nguồn với cờ dữ liệu bổ sung"
+keywords:
+  - industry master data
+  - industry classification
+  - combined data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

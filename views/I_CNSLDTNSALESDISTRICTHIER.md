@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTHIER
 description: Cnsldtnsalesdistricthier
+semantic_en: "consolidation sales district hierarchy — valid-from/to dates and change tracking for district hierarchies"
+semantic_vi: "phân cấp khu vực bán hàng hợp nhất — ngày hiệu lực và theo dõi thay đổi cho phân cấp khu vực"
+keywords:
+  - phân cấp khu vực
+  - tính hiệu lực
+  - theo dõi thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTHIERT
 description: Cnsldtnsalesdistricthiert
+semantic_en: "consolidation sales district hierarchy with text — text descriptions for district hierarchies in multiple languages"
+semantic_vi: "phân cấp khu vực bán hàng hợp nhất có văn bản — mô tả văn bản cho phân cấp khu vực ở nhiều ngôn ngữ"
+keywords:
+  - phân cấp khu vực
+  - bản dịch phân cấp
+  - mô tả khu vực
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

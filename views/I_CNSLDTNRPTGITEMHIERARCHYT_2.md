@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEMHIERARCHYT_2
 description: Cnsldtnrptgitemhierarchyt 2
+semantic_en: "reporting item hierarchy directory with translations — text descriptions for consolidation reporting item hierarchies by language"
+semantic_vi: "danh mục phân cấp mục báo cáo có bản dịch — mô tả văn bản cho các phân cấp mục báo cáo hợp nhất theo ngôn ngữ"
+keywords:
+  - phân cấp mục báo cáo
+  - bản dịch báo cáo
+  - danh mục văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

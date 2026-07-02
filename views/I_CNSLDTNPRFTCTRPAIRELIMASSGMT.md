@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRFTCTRPAIRELIMASSGMT
 description: Cnsldtnprftctrpairelimassgmt
+semantic_en: "consolidation profit center pair elimination assignment — profit center pair mappings for intercompany elimination with validity dates"
+semantic_vi: "gán cặp trung tâm lợi nhuận để loại bỏ hợp nhất — ánh xạ cặp trung tâm lợi nhuận cho loại bỏ công ty nội bộ"
+keywords:
+  - cặp trung tâm lợi nhuận
+  - loại bỏ
+  - gán
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

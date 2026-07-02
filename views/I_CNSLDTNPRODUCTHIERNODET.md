@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTHIERNODET
 description: Cnsldtnproducthiernodet
+semantic_en: "consolidation product hierarchy node text — multilingual text descriptions for product hierarchy nodes with parent-child structure"
+semantic_vi: "mô tả text nút phân cấp sản phẩm hợp nhất — tên định nghĩa đa ngôn ngữ với cấu trúc cha-con"
+keywords:
+  - text phân cấp
+  - sản phẩm
+  - đa ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

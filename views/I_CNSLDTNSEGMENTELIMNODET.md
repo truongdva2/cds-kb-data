@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTELIMNODET
 description: Cnsldtnsegmentelimnodet
+semantic_en: "consolidation segment elimination node with text — text descriptions for elimination segment nodes in multiple languages"
+semantic_vi: "nút loại bỏ phân khúc hợp nhất có văn bản — mô tả văn bản cho nút phân khúc loại bỏ ở nhiều ngôn ngữ"
+keywords:
+  - phân khúc loại bỏ
+  - bản dịch nút
+  - mô tả phân khúc
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

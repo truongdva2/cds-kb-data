@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRPSTRUCMETHASSGMTTP
 description: Cnsldtngrpstrucmethassgmttp
+semantic_en: "group structure method assignment third-party projection — method allocation by unit and version from source"
+semantic_vi: "hình chiếu gán phương pháp cấu trúc nhóm bên thứ ba — phân bổ phương pháp theo đơn vị và phiên bản từ nguồn"
+keywords:
+  - group structure method TP
+  - method assignment
+  - third-party source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

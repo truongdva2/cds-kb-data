@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALGROUPHIERT
 description: CNSLDTNMaterial GroupHIERT
+semantic_en: "consolidation material group hierarchy text — language-specific hierarchy node names for material groups."
+semantic_vi: "văn bản phân cấp nhóm vật liệu hợp nhất — tên nút phân cấp nhóm vật liệu theo ngôn ngữ."
+keywords:
+  - nhóm vật liệu
+  - phân cấp
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

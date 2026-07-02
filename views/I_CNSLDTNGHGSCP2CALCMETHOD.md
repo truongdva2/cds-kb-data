@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CALCMETHOD
 description: Cnsldtnghgscp 2CALCMETHOD
+semantic_en: "Scope 2 GHG calculation method master data — method codes for emissions intensity calculation approaches"
+semantic_vi: "dữ liệu chủ yếu phương pháp tính toán Scope 2 GHG — các mã phương pháp cho các cách tiếp cận cường độ phát thải"
+keywords:
+  - Scope 2 calculation
+  - phương pháp tính GHG
+  - emissions intensity
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

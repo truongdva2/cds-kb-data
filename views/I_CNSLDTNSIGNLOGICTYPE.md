@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSIGNLOGICTYPE
 description: Cnsldtnsignlogictype
+semantic_en: "consolidation sign logic type — domain values for sign logic types used in consolidation"
+semantic_vi: "loại logic dấu hiệu hợp nhất — giá trị miền cho các loại logic dấu hiệu được sử dụng trong hợp nhất"
+keywords:
+  - logic dấu hiệu
+  - miền giá trị
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

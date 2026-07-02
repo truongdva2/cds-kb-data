@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALHIERNODE
 description: Cnsldtnmaterialhiernode
+semantic_en: "consolidation material hierarchy node — material hierarchy structure with parent-child node relationships and sequencing."
+semantic_vi: "nút phân cấp vật liệu hợp nhất — cấu trúc phân cấp vật liệu với mối quan hệ nút cha-con."
+keywords:
+  - vật liệu
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

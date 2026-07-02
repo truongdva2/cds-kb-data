@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPOSTINGLEVEL
 description: Cnsldtnpostinglevel
+semantic_en: "consolidation posting level — posting levels with associated reporting levels and domain values."
+semantic_vi: "mức hạch toán hợp nhất — các mức hạch toán với mức báo cáo liên quan và giá trị miền."
+keywords:
+  - mức hạch toán
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

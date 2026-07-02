@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPOSTINGLEVELHIERARCHY
 description: Cnsldtnpostinglevelhierarchy
+semantic_en: "consolidation posting level hierarchy — hierarchy structure for posting levels with change audit fields."
+semantic_vi: "phân cấp mức hạch toán hợp nhất — cấu trúc phân cấp cho mức hạch toán với kiểm toán thay đổi."
+keywords:
+  - mức hạch toán
+  - phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

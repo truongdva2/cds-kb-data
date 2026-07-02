@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCT
 description: Cnsldtnproduct
+semantic_en: "consolidation combined product — consolidated product master data with source tracking and creation timestamp"
+semantic_vi: "sản phẩm kết hợp hợp nhất — dữ liệu chính sản phẩm với theo dõi nguồn và thời gian tạo"
+keywords:
+  - sản phẩm hợp nhất
+  - dữ liệu chính
+  - theo dõi nguồn
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

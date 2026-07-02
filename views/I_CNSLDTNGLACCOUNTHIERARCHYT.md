@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTHIERARCHYT
 description: Cnsldtngl AccountHIERARCHYT
+semantic_en: "text translations for G/L account hierarchies — language-keyed hierarchy names and descriptions"
+semantic_vi: "bảng dịch ngôn ngữ cho cấu trúc phân cấp tài khoản sổ cái — tên phân cấp và mô tả theo ngôn ngữ"
+keywords:
+  - G/L hierarchy text
+  - phân cấp tài khoản text
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATLGRPHIERNODET
 description: Cnsldtnmatlgrphiernodet
+semantic_en: "consolidation material group hierarchy node text — language-specific node names for material group hierarchies."
+semantic_vi: "văn bản nút phân cấp nhóm vật liệu hợp nhất — tên nút nhóm vật liệu theo ngôn ngữ."
+keywords:
+  - nhóm vật liệu
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

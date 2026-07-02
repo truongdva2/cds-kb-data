@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSEGMENTFORELIMT_2
 description: Cnsldtnsegmentforelimt 2
+semantic_en: "consolidation segment for elimination with text — text descriptions for elimination segments in multiple languages"
+semantic_vi: "phân khúc hợp nhất để loại bỏ có văn bản — mô tả văn bản cho phân khúc loại bỏ ở nhiều ngôn ngữ"
+keywords:
+  - phân khúc loại bỏ
+  - bản dịch phân khúc
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

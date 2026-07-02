@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGHIERARCHY
 description: CNSLDTNSales OrganizationHIERARCHY
+semantic_en: "consolidation sales organization hierarchy — valid-from/to dates and change tracking for organization hierarchies"
+semantic_vi: "phân cấp tổ chức bán hàng hợp nhất — ngày hiệu lực và theo dõi thay đổi cho phân cấp tổ chức"
+keywords:
+  - phân cấp tổ chức bán hàng
+  - tính hiệu lực
+  - theo dõi thay đổi
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

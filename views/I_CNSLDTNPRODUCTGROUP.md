@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPRODUCTGROUP
 description: Cnsldtnproductgroup
+semantic_en: "consolidation combined product group — consolidated product group master data with additional source tracking"
+semantic_vi: "nhóm sản phẩm kết hợp hợp nhất — dữ liệu chính nhóm sản phẩm với theo dõi nguồn bổ sung"
+keywords:
+  - nhóm sản phẩm
+  - hợp nhất
+  - dữ liệu chính
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

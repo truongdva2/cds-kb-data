@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERHIERARCHY
 description: CNSLDTNProfit CenterHIERARCHY
+semantic_en: "consolidation profit center hierarchy — hierarchy structure for organizing profit centers with validity dates and change audit trail"
+semantic_vi: "phân cấp trung tâm lợi nhuận hợp nhất — cấu trúc phân cấp để tổ chức trung tâm lợi nhuận"
+keywords:
+  - phân cấp trung tâm lợi nhuận
+  - cấu trúc phân cấp
+  - hợp nhất
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

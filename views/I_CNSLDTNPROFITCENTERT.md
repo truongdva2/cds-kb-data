@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNPROFITCENTERT
 description: CNSLDTNProfit CenterT
+semantic_en: "consolidation combined profit center text — multilingual profit center names and descriptions for consolidated master data"
+semantic_vi: "mô tả text trung tâm lợi nhuận kết hợp hợp nhất — tên định nghĩa đa ngôn ngữ"
+keywords:
+  - trung tâm lợi nhuận
+  - text đa ngôn ngữ
+  - mô tả
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

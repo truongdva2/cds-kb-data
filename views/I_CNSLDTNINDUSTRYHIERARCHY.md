@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNINDUSTRYHIERARCHY
 description: Cnsldtnindustryhierarchy
+semantic_en: "industry hierarchy master data — industry-based hierarchies for grouping and reporting"
+semantic_vi: "dữ liệu chủ yếu cấu trúc phân cấp ngành hàng — cấu trúc dựa trên ngành hàng cho nhóm và báo cáo"
+keywords:
+  - industry hierarchy
+  - phân cấp ngành
+  - hierarchy master data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

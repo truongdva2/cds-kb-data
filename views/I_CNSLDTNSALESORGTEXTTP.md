@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESORGTEXTTP
 description: CNSLDTNSales OrganizationTEXTTP
+semantic_en: "consolidation sales organization text transfer partner — organization names for transfer pricing in multiple languages"
+semantic_vi: "văn bản tổ chức bán hàng hợp nhất đối tác chuyển giao — tên tổ chức cho định giá chuyển giao ở nhiều ngôn ngữ"
+keywords:
+  - tổ chức bán hàng
+  - định giá chuyển giao
+  - văn bản tên
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

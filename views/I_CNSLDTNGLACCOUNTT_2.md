@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTT_2
 description: Cnsldtngl AccountT 2
+semantic_en: "combined G/L account text view — account names in multiple languages with master data source tracking"
+semantic_vi: "khung nhìn kết hợp text tài khoản sổ cái — tên tài khoản nhiều ngôn ngữ với theo dõi nguồn dữ liệu"
+keywords:
+  - combined G/L account
+  - tên tài khoản
+  - master data source
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALHIERNODET
 description: Cnsldtnmaterialhiernodet
+semantic_en: "consolidation material hierarchy node text — language-specific node descriptions within material hierarchies."
+semantic_vi: "văn bản nút phân cấp vật liệu hợp nhất — mô tả nút phân cấp vật liệu theo ngôn ngữ."
+keywords:
+  - vật liệu
+  - phân cấp
+  - nút
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

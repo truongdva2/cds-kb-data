@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSELECTIONCONDITION
 description: Cnsldtnselectioncondition
+semantic_en: "consolidation selection condition — range conditions and dimension filters for consolidation selections"
+semantic_vi: "điều kiện lựa chọn hợp nhất — điều kiện phạm vi và bộ lọc thứ nguyên cho các lựa chọn hợp nhất"
+keywords:
+  - điều kiện lựa chọn
+  - bộ lọc thứ nguyên
+  - phạm vi giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

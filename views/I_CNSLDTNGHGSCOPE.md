@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCOPE
 description: Cnsldtnghgscope
+semantic_en: "GHG emission scope definitions — master data for Scope 1, 2, 3 classification"
+semantic_vi: "định nghĩa phạm vi phát thải GHG — dữ liệu chủ yếu cho phân loại Scope 1, 2, 3"
+keywords:
+  - GHG scope
+  - phạm vi khí nhà kính
+  - consolidation
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

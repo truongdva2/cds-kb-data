@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSUBASSIGNMENT
 description: Cnsldtnsubassignment
+semantic_en: "consolidation subassignment — subassignment codes for consolidation dimension assignments"
+semantic_vi: "phân bổ con hợp nhất — mã phân bổ con cho các phân bổ thứ nguyên hợp nhất"
+keywords:
+  - phân bổ con
+  - thứ nguyên hợp nhất
+  - mã
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

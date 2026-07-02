@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGRANTHIERARCHYNODET
 description: Cnsldtngranthierarchynodet
+semantic_en: "text translations for grant hierarchy nodes — language-keyed node names within grant hierarchies"
+semantic_vi: "bảng dịch ngôn ngữ cho nút phân cấp khoản tài trợ — tên nút theo ngôn ngữ trong cấu trúc phân cấp"
+keywords:
+  - grant hierarchy node text
+  - nút phân cấp text
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

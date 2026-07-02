@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMATERIALHIERARCHYT
 description: Cnsldtnmaterialhierarchyt
+semantic_en: "consolidation material hierarchy text — language-specific hierarchy level names for material classifications."
+semantic_vi: "văn bản phân cấp vật liệu hợp nhất — tên cấp phân cấp vật liệu theo ngôn ngữ."
+keywords:
+  - vật liệu
+  - phân cấp
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTVH
 description: Cnsldtnsalesdistrictvh
+semantic_en: "consolidation combined sales district value-help — district identifiers and names for search and dropdown lists"
+semantic_vi: "trợ giúp giá trị khu vực bán hàng hợp nhất kết hợp — mã định danh khu vực và tên cho tìm kiếm và danh sách thả xuống"
+keywords:
+  - khu vực bán hàng
+  - trợ giúp giá trị
+  - danh sách tìm kiếm
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

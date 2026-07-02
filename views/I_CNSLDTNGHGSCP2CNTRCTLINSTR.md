@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CNTRCTLINSTR
 description: Cnsldtnghgscp 2CNTRCTLINSTR
+semantic_en: "Scope 2 contractual instrument master data — codes for renewable energy purchase agreements and instruments"
+semantic_vi: "dữ liệu chủ yếu công cụ hợp đồng Scope 2 — các mã cho các thỏa thuận mua năng lượng tái tạo"
+keywords:
+  - contractual instrument
+  - năng lượng tái tạo
+  - Scope 2
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

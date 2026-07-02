@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNRPTGITEMTEXT_2
 description: Cnsldtnrptgitemtext 2
+semantic_en: "consolidation reporting item with translations — short and long text descriptions in multiple languages"
+semantic_vi: "mục báo cáo hợp nhất có bản dịch — mô tả văn bản ngắn và dài ở nhiều ngôn ngữ"
+keywords:
+  - mục báo cáo
+  - mô tả đa ngôn ngữ
+  - văn bản dài
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

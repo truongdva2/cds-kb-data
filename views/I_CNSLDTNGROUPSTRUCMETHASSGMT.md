@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGROUPSTRUCMETHASSGMT
 description: Cnsldtngroupstrucmethassgmt
+semantic_en: "group structure method assignment — consolidation method allocation by unit, version, and fiscal period with technique classification"
+semantic_vi: "gán phương pháp cấu trúc nhóm — phân bổ phương pháp consolidation theo đơn vị, phiên bản và kỳ tài chính với phân loại kỹ thuật"
+keywords:
+  - group structure method
+  - consolidation method
+  - method assignment
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

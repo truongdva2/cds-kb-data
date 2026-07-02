@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDSTRCTHIERNODET
 description: Cnsldtnsalesdstrcthiernodet
+semantic_en: "consolidation sales district hierarchy node with text — text descriptions for hierarchy nodes in multiple languages"
+semantic_vi: "nút phân cấp khu vực bán hàng hợp nhất có văn bản — mô tả văn bản cho nút phân cấp ở nhiều ngôn ngữ"
+keywords:
+  - nút phân cấp khu vực
+  - bản dịch nút
+  - mô tả phân cấp
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

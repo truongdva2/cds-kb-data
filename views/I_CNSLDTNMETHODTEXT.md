@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNMETHODTEXT
 description: Cnsldtnmethodtext
+semantic_en: "consolidation method text — language-specific method names and descriptions with task categories."
+semantic_vi: "văn bản phương pháp hợp nhất — tên và mô tả phương pháp theo ngôn ngữ với danh mục nhiệm vụ."
+keywords:
+  - phương pháp
+  - hợp nhất
+  - văn bản
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

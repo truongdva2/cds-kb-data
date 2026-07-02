@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNSALESDISTRICTTP
 description: Cnsldtnsalesdistricttp
+semantic_en: "consolidation sales district transfer partner — district data for transfer pricing purposes"
+semantic_vi: "khu vực bán hàng hợp nhất đối tác chuyển giao — dữ liệu khu vực cho mục đích định giá chuyển giao"
+keywords:
+  - khu vực bán hàng
+  - định giá chuyển giao
+  - dữ liệu
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

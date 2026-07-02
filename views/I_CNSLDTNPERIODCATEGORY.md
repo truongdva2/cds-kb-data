@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNPERIODCATEGORY
 description: Cnsldtnperiodcategory
+semantic_en: "consolidation period category — period categories with formula values for consolidation calculations."
+semantic_vi: "danh mục kỳ hợp nhất — danh mục kỳ với giá trị công thức cho tính toán hợp nhất."
+keywords:
+  - kỳ
+  - hợp nhất
 app_component: FIN-CS-COR-MON-2CL
 software_component: SAPSCORE
 release_state: released

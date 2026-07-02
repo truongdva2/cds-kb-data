@@ -1,6 +1,11 @@
 ---
 name: I_CNSLDTNORDERVH
 description: Cnsldtnordervh
+semantic_en: "value help — consolidation combined order with order selections and descriptions."
+semantic_vi: "trợ giúp giá trị — đơn hàng hợp nhất với các lựa chọn đơn hàng và mô tả."
+keywords:
+  - đơn hàng
+  - trợ giúp giá trị
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

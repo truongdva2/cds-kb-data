@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTHIERARCHY
 description: Cnsldtngl AccountHIERARCHY
+semantic_en: "G/L account hierarchy master data — chart-of-accounts-specific hierarchies for account grouping and reporting"
+semantic_vi: "dữ liệu chủ yếu cấu trúc phân cấp tài khoản sổ cái — cấu trúc theo biểu tài khoản cho nhóm và báo cáo tài khoản"
+keywords:
+  - G/L account hierarchy
+  - phân cấp tài khoản
+  - chart of accounts
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

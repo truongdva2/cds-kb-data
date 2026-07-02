@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGHGSCP2CNTRCTLINSTRT
 description: Cnsldtnghgscp 2CNTRCTLINSTRT
+semantic_en: "text translations for Scope 2 contractual instruments — language-keyed names for energy agreement types"
+semantic_vi: "bảng dịch ngôn ngữ cho công cụ hợp đồng Scope 2 — tên theo ngôn ngữ cho loại thỏa thuận năng lượng"
+keywords:
+  - contractual instrument text
+  - công cụ hợp đồng
+  - dịch ngôn ngữ
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released

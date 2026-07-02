@@ -1,6 +1,12 @@
 ---
 name: I_CNSLDTNGLACCOUNTTEXTTP
 description: Cnsldtngl AccountTEXTTP
+semantic_en: "text projection for G/L account translations — language-keyed account names from third-party master data"
+semantic_vi: "hình chiếu text cho dịch tài khoản sổ cái — tên tài khoản theo ngôn ngữ từ dữ liệu chủ yếu của bên thứ ba"
+keywords:
+  - G/L account text
+  - account names
+  - third-party data
 app_component: FIN-CS-MD-2CL
 software_component: SAPSCORE
 release_state: released
